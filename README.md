@@ -16,3 +16,5 @@
  - source003 [https://steamcommunity.com/groups/GrabFreeGames/rss/](https://steamcommunity.com/groups/GrabFreeGames/rss/) -> [GrabFreeGames_steam](rss/GrabFreeGames_steam.xml)
  - source004 [http://www.nature.com/nature/current_issue/rss](http://www.nature.com/nature/current_issue/rss) -> [Nature](rss/Nature.xml)
  - source005 [http://www.sciencemag.org/rss/current.xml](http://www.sciencemag.org/rss/current.xml) -> [Science_Magazine](rss/Science_Magazine.xml)
+ - source006 [https://rsshub.app/reuters](https://rsshub.app/reuters) -> [Reuters](rss/Reuters.xml)
+ - source007 [https://rsshub.app/bbc/world-asia](https://rsshub.app/bbc/world-asia) -> [BBC_worldAsia](rss/BBC_worldAsia.xml)
