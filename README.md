@@ -1,16 +1,16 @@
 #  Rss-Translation
 
-## 这是一个外文RSS翻译转换订阅页面 
+## 這是一個外文RSS翻譯轉換訂閱頁面 
 
-[![circle_translate](https://github.com/tjsky/Rss-Translation/actions/workflows/circle_translate.yml/badge.svg)](https://github.com/tjsky/Rss-Translation/actions/workflows/circle_translate.yml) [![Deploy](https://github.com/tjsky/Rss-Translation/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/tjsky/Rss-Translation/actions/workflows/jekyll-gh-pages.yml)
+[![circle_translate](https://github.com/LightSky10006/Rss-Translation/actions/workflows/circle_translate.yml/badge.svg)](https://github.com/LightSky10006/Rss-Translation/actions/workflows/circle_translate.yml) [![Deploy](https://github.com/LightSky10006/Rss-Translation/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/LightSky10006/Rss-Translation/actions/workflows/jekyll-gh-pages.yml)
 
- 📢查看 [原作者的源项目项目修改完善、已添加源及使用说明](https://github.com/tjsky/Rss-Translation/tree/main/illustrate) 
+ 📢查看 [原原作者的源項目項目修改完善、已新增源及使用說明](https://github.com/tjsky/Rss-Translation/tree/main/illustrate) 
 
- 📢查看 我写的更加详细版的[部署说明](https://www.tjsky.net/tutorial/801)
+ 📢查看 fork作者tjsky寫的更加詳細版的[部署說明](https://www.tjsky.net/tutorial/801)
 
- 📢查看[ 已翻译的订阅源列表 ](https://tjsky.github.io/Rss-Translation) 修改自[ rss-translate ](https://github.com/rcy1314/Rss-Translation)
+ 📢查看[ 已翻譯的訂閱源列表 ](https://tjsky.github.io/Rss-Translation) fork作者tjsky修改自[ rss-translate ](https://github.com/rcy1314/Rss-Translation)
 
-## 已转换翻译源
+## 已轉換翻譯源
  - source001 [http://feeds.arstechnica.com/arstechnica/index](http://feeds.arstechnica.com/arstechnica/index) -> [Ars_Technica](rss/Ars_Technica.xml)
  - source002 [https://rsshub.app/github/issue/headllines/hackernews-weekly](https://rsshub.app/github/issue/headllines/hackernews-weekly) -> [HackerNews_weekly](rss/HackerNews_weekly.xml)
  - source003 [https://steamcommunity.com/groups/GrabFreeGames/rss/](https://steamcommunity.com/groups/GrabFreeGames/rss/) -> [GrabFreeGames_steam](rss/GrabFreeGames_steam.xml)
