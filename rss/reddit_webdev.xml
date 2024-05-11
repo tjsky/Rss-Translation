@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 11 May 2024 09:12:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 10:39:44 GMT</lastBuildDate>
+    <item>
+      <title>在代码中写注释 - 建议？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cpeldm/writing_comments_in_code_suggestions/</link>
+      <description><![CDATA[哪个注释更好？ （或其他）？  // 单击背景时模态关闭 // 单击背景时关闭模态  &lt;!-- SC_ON - -&gt;  由   提交/u/Tbh_idk______   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cpeldm/writing_comments_in_code_suggestions/</guid>
+      <pubDate>Sat, 11 May 2024 10:39:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>我整理了一份简短的指南，介绍您在构建组件库时需要做出的决定</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cpe3ay/i_put_together_a_short_guide_about_the_decisions/</link>
+      <description><![CDATA[ 由   提交/u/Andrico1234   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cpe3ay/i_put_together_a_short_guide_about_the_decisions/</guid>
+      <pubDate>Sat, 11 May 2024 10:04:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>[炫耀星期六] 作品集反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cpdzat/showoff_saturday_portfolio_feedback/</link>
+      <description><![CDATA[初学者您好。  任何对我的作品集和其中的项目的反馈都会很棒。  谢谢。 https://rlw92.github.io/Portfolio/   由   提交/u/theburnerofbridges  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cpdzat/showoff_saturday_portfolio_feedback/</guid>
+      <pubDate>Sat, 11 May 2024 09:57:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 我在无代码编辑器中添加了实时代码预览</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cpdvgv/showoff_saturday_i_added_a_live_code_preview_to/</link>
+      <description><![CDATA[       由   提交/u/Herobrine20XX   [链接] [评论] &lt; /表&gt;]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cpdvgv/showoff_saturday_i_added_a_live_code_preview_to/</guid>
+      <pubDate>Sat, 11 May 2024 09:49:22 GMT</pubDate>
+    </item>
     <item>
       <title>关于“高级打字稿”</title>
       <link>https://www.reddit.com/r/webdev/comments/1cpd5r0/about_advanced_typescript/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我需要创建一个具有几个兴趣点（标记）的位置的超级本地化和有界地图。就像商场地图一样。 在底层 mapgenie 正在使用 Mapbox GL JS 创建地图。我之前创建过许多 Mapbox 地图，但没有使用虚构的世界图块。 我从哪里开始创建图块？ 谢谢 &lt;!-- SC_ON - -&gt;  由   提交/u/skully78  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cp51qr/how_to_create_a_map_tile_like_mapgenieio/</guid>
       <pubDate>Sat, 11 May 2024 00:47:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么fail2ban会出现这种意想不到的行为？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cp3ttb/why_this_unexpected_behaviour_from_fail2ban/</link>
-      <description><![CDATA[我会保持简短。 UFW 的 Fail2ban 的表现并不像我预期的那样。我有一个规则集，如果 IP 地址访问记录到 nginx 日志的蜜罐 URL，则禁止 IP 地址。一旦 IP 被禁止（并显示在 UFW 拒绝列表中），在被禁止的同一 url 上刷新浏览器的请求仍会记录在 nginx 日志中，并且用户仍然能够查看被禁止的页面。如果他们关闭浏览器，重新打开并重试，禁令就会生效，并且“无法连接到服务器”将被取消。显示消息。  也许这是我的误解，但是防火墙规则不应该在 NGINX 应用程序之前在网络级别运行吗？ NGINX 如何记录来自不允许与服务器建立连接的 IP 的请求？浏览器现在是否会与服务器建立某种持久连接，该连接在浏览器关闭之前不会关闭？我以为 HTTP 连接是瞬时的、按需的？我认为它只是在浏览器中缓存，但缓存不会记录在服务器上的 NGINX 中。  你认为我在这里缺少什么？    由   提交 /u/99thLuftballon   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cp3ttb/why_this_unexpected_behaviour_from_fail2ban/</guid>
-      <pubDate>Fri, 10 May 2024 23:46:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何将 WebGi 与 Next Js 结合使用？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cp25gx/how_to_use_webgi_with_next_js/</link>
-      <description><![CDATA[有没有办法将 WebGi 与 Next Js 一起使用？ 此基本模板显示了如何配置的示例： index.ts 从“react”导入{ useEffect }；从“webgi”导入 { ViewerApp、addBasePlugins、TweakpaneUiPlugin、AssetManagerBasicPopupPlugin、FileTransferPlugin、IViewerPlugin、CanvasSnipperPlugin }； async function setupViewer(){ constviewer = new ViewerApp({ canvas: document.getElementById(&#39;webgi-canvas&#39;) as HTMLCanvasElement, }) 等待 addBasePlugins(viewer) 等待viewer.addPlugin(AssetManagerBasicPopupPlugin) 等待viewer.addPlugin(FileTransferPlugin) 等待查看器.addPlugin(CanvasSnipperPlugin) 等待查看器.load(&quot;./assets/classic-watch.glb&quot;) 等待查看器.setEnvironmentMap(&quot;./assets/environment.hdr&quot;); const uiPlugin =等待viewer.addPlugin(TweakpaneUiPlugin) uiPlugin.setupPlugins(TonemapPlugin, CanvasSnipperPlugin) } setupViewer()  index.html &lt; ;!DOCTYPE html&gt;  &lt;头&gt; WebGi 入门 &lt;元字符集=“UTF-8” &gt;&gt; &lt;元名称=“视口”内容＝“宽度＝设备宽度，用户可缩放＝否，最小比例＝1.0，最大比例＝1.0”&gt; &lt;/头&gt; &lt;正文&gt; &lt;div id=&quot;webgi-canvas-container&quot;&gt; &lt;canvas id=“webgi-canvas”&gt;&lt;/canvas&gt;  &lt;脚本 src=“src/index.ts” type=&quot;模块&quot;&gt;&lt;/script&gt; &lt;/正文&gt; &lt;/html&gt;  我尝试适应index.tsx： import { useEffect } from “react”;从“webgi”导入 { ViewerApp、addBasePlugins、TweakpaneUiPlugin、AssetManagerBasicPopupPlugin、FileTransferPlugin、IViewerPlugin、CanvasSnipperPlugin }；导出默认函数 Home() { useEffect(() =&gt; { async function setupViewer() { constviewer = new ViewerApp({ canvas: document.getElementById(&#39;webgi-canvas&#39;) as HTMLCanvasElement, }); wait addBasePlugins(viewer ); 等待viewer.addPlugin(AssetManagerBasicPopupPlugin); 等待viewer.addPlugin(CanvasSnipperPlugin); 等待viewer.load(&quot;./assets/classic-watch.glb&quot;); .addPlugin(TweakpaneUiPlugin); uiPlugin.setupPlugins(CanvasSnipperPlugin); } setupViewer(); return (      ) ; }  “ViewerApp”类型的参数不可分配给“IViewerApp”类型的参数。 然后依赖于此查看器的所有其他查看器也会出现类型错误 （我在 package.json 中添加了依赖项） “devDependencies”：{“@types/节点”：“^20”、“@types/react”：“^18”、“@types/react-dom”：“^18”、“postcss”：“^8”、 “tailwindcss”：“^3.4.1”、“eslint”：“^8”、“eslint-config-next”：“14.2.3”、“typescript”：“^5.1”。 3”、“@types/webgi”：“https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-types-0.9.0.tgz”、“webgi”：“ ;https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-0.9.0.tgz” }  ​   由   提交 /u/my-name-is-Tracy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cp25gx/how_to_use_webgi_with_next_js/</guid>
-      <pubDate>Fri, 10 May 2024 22:29:50 GMT</pubDate>
-    </item>
-    <item>
-      <title><Div> ids 距离不一致</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cp1j4c/div_ids_not_a_consistent_distances/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cp1j4c/div_ids_not_a_consistent_distances/</guid>
-      <pubDate>Fri, 10 May 2024 22:03:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何按宽度正确排序徽章？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cp1ig8/how_to_correctly_sort_badges_by_width/</link>
-      <description><![CDATA[      您好，我喜欢使用徽章来表示类别、标签或主题，有时我遇到这个问题（请参阅健康徽章），其中有一个空白区域。 我不知道正确的方法是否是创建一个函数来检索每个徽章的宽度，然后执行某种操作基于容器宽度的优化。 我应该优化剩余宽度吗？例如，如果容器为 400 像素，我是否应该每行至少设置 300 像素？ https://preview.redd.it/hw7840ud5ozc1.png?width=222&amp;format=png&amp;auto=webp&amp;s=e15f2c6013f5a743de60fc9a 90c76cff31d19ceb &lt; /div&gt;  由   提交/u/Human372  [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cp1ig8/how_to_correctly_sort_badges_by_width/</guid>
-      <pubDate>Fri, 10 May 2024 22:02:12 GMT</pubDate>
     </item>
     </channel>
 </rss>

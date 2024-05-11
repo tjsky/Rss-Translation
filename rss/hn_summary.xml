@@ -4,7 +4,55 @@
     <title>HN总结</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的顶级黑客新闻故事的自动摘要。</description>
-    <lastBuildDate>Sat, 11 May 2024 09:12:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 10:10:57 GMT</lastBuildDate>
+    <item>
+      <title>[媒体] 劳伦斯 C 保尔森 (Lawrence C Paulson) 撰写的《通用定理证明者的基础》讨论了我 [...]</title>
+      <link>https://t.me/hn_summary/89022</link>
+      <description><![CDATA[泛型定理证明者的基础 (1989) [pdf]( https://news.ycombinator.com/item?id=40316319)
+Lawrence C Paulson 撰写的《通用定理证明器的基础》讨论了基于高阶逻辑的交互式定理证明器 Isabelle。伊莎贝尔将规则表示为命题，并通过组合规则来构建证明，创建元逻辑框架。本文探讨了形式化逻辑和证明，展示了一阶逻辑公理的健全性和完整性。向后证明构造是通过关于对象级蕴涵的元推理来形式化的。伊莎贝尔独特的向后证明方法比传统方法具有优势。本文概述了元逻辑 M（高阶逻辑的一个片段），并提出了处理量词和统一的形式化方法。还讨论了 Isabelle-88 的实现。 （根据故事文本的 11% 进行摘要。）]]></description>
+      <guid>https://t.me/hn_summary/89022</guid>
+      <pubDate>Sat, 11 May 2024 10:10:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>“Wag”项目添加了多重身份验证 (MFA)、路由限制和设备注册 [...]</title>
+      <link>https://t.me/hn_summary/89021</link>
+      <description><![CDATA[显示 HN：Wag、MFA 和 WireGuard 注册 
+“Wag”项目向 WireGuard 添加了多重身份验证 (MFA)、路由限制和设备注册，从而提供增强的安全功能。它允许定义需要 MFA 授权的路由，并提供多个 MFA 选项，例如 webauthn 和 oidc。该项目强调高可用性和通过 API 轻松进行客户端注册。它需要安装 iptables 和 libpam，并且必须以 root 身份运行。 Wag 的独特之处在于提供了一套全面的管理命令，用于通过 Web 界面管理设备、用户和管理用户。它还支持自定义 MFA 模板和更新警报。 （根据 39% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/89021</guid>
+      <pubDate>Sat, 11 May 2024 09:56:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在文化系统上的文章“避免软删除反模式”中，作者 [...]</title>
+      <link>https://t.me/hn_summary/89020</link>
+      <description><![CDATA[避免软删除反模式
+在文化系统上的文章“避免软删除反模式”中，作者深入研究了数据库中软删除的常见做法以及为什么它可能不是最好的方法。软删除涉及将记录标记为已删除，而不是实际删除它们，这可能会导致数据库完整性问题和查询数据的复杂性。作者提出了一些替代方案，例如硬删除、将生命周期结束状态纳入实体生命周期、使用历史数据的时态表或将历史记录保存外包给数据仓库。最终，本文挑战了软删除是最佳实践的观念，并鼓励采取更周到的方法来实现数据持久性。]]></description>
+      <guid>https://t.me/hn_summary/89020</guid>
+      <pubDate>Sat, 11 May 2024 09:29:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体]日本正面临着一个震惊的时刻，因为印度即将取代它成为第四大经济体 [...]</title>
+      <link>https://t.me/hn_summary/89019</link>
+      <description><![CDATA[日本将取代印度成为第四大经济体，感到焦虑
+日本正面临着一个震惊的时刻，因为印度将在2025年取代日本成为世界第四大经济体。日本经济地位的下降一直令人担忧，政府实施“安倍经济学”以促进增长。然而，结构性改革力度不够，人口老龄化、变革阻力等挑战依然存在。日元疲软构成重大挑战，专家建议关注生产率增长。尽管存在这些挑战，但人们对日本的未来持谨慎乐观态度，并采取了一些举措来解决问题并有可能改善经济增长。]]></description>
+      <guid>https://t.me/hn_summary/89019</guid>
+      <pubDate>Sat, 11 May 2024 09:28:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>伦敦创造历史的海狸在首都的新家中繁衍生息，建造了水坝 [...]</title>
+      <link>https://t.me/hn_summary/89018</link>
+      <description><![CDATA[伦敦创造历史的海狸正在适应首都的生活
+伦敦创造历史的海狸在首都的新家中繁衍生息，它们建造了水坝和渠道来帮助防止洪水。由于监测海狸福利和项目成功的志愿者的努力，从苏格兰带来的海狸已经很好地安顿下来。海狸的聪明才智和团队合作在他们的手工作品中得到了体现，从 45 度角的砍树到他们对环吠树的远见。该项目的目的不仅是帮助海狸繁衍生息，而且还改变英国对野化的态度，并希望在未来重新引入其他物种。]]></description>
+      <guid>https://t.me/hn_summary/89018</guid>
+      <pubDate>Sat, 11 May 2024 09:14:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tom Van Vleck 是 Unix 和 Multics 历史上的关键人物，他提供了关于 [...]</title>
+      <link>https://t.me/hn_summary/89017</link>
+      <description><![CDATA[Unix 和 Multics
+Tom Van Vleck 是 Unix 和 Multics 历史上的关键人物，他提供了这些操作系统开发的第一手资料。他详细介绍了贝尔电话实验室、麻省理工学院和通用电气在 Multics 项目上的合作，强调了 Ken Thompson 和 Dennis Ritchie 等程序员的贡献。 Van Vleck 讨论了贝尔实验室 1969 年退出 Multics 项目的决定，从而导致了 Unix 的诞生。他还反思了 Multics 和 Unix 之间的异同，展示了两个系统之间的技术借用。 Van Vleck 的见解为这些突破性操作系统的演变提供了独特的视角。]]></description>
+      <guid>https://t.me/hn_summary/89017</guid>
+      <pubDate>Sat, 11 May 2024 09:13:08 GMT</pubDate>
+    </item>
     <item>
       <title>[媒体] Pyramid3D 实时图形处理器，由 TriTech Micro 的 Ville Eerola 介绍 [...]</title>
       <link>https://t.me/hn_summary/89016</link>
@@ -25,7 +73,7 @@
       <title>[媒体] 在 blog.civai.co 上的本教程中，我们深入研究了创建一个类似 Jarvis 的 AI 助手 c [...]</title>
       <link>https://t.me/hn_summary/89014</link>
       <description><![CDATA[展示 HN：使用 ZeroLM 和 ChatGPT 构建类似 Jarvis 的人工智能程序
-在这个关于 blog.civai.co 的教程中，我们深入研究了使用 ZeroLM 和 Python 库创建一个类似 Jarvis 的人工智能助手，名为“ZLM GPT”。通过利用 GPT-3 和 GPT-4 等强大的语言模型，我们的目标是彻底改变我们通过语音命令与信息交互的方式。本教程涵盖设置环境、记录语音输入、将语音转换为文本、使用 ZeroLM 处理用户命令以及生成返回给用户的响应。通过提供的代码分解和执行流程，构建一个智能语音助手是指日可待的。请记住，在探索可能性的同时，让我们的创作保持向善的一面，避免任何征服世界的人工智能！]]></description>
+在这个关于 blog.civai.co 的教程中，我们深入研究了使用 ZeroLM 和 Python 库创建一个类似 Jarvis 的人工智能助手，名为“ZLM GPT”。通过利用 GPT-3 和 GPT-4 等强大的语言模型，我们的目标是彻底改变我们通过语音命令与信息交互的方式。本教程涵盖设置环境、记录语音输入、将语音转换为文本、使用 ZeroLM 处理用户命令以及生成返回给用户的响应。通过提供的代码分解和执行流程，构建一个智能语音助手是指日可待的。请记住，在探索可能性的同时，让我们的创作站在善良的一边，避免任何征服世界的人工智能！]]></description>
       <guid>https://t.me/hn_summary/89014</guid>
       <pubDate>Sat, 11 May 2024 08:59:47 GMT</pubDate>
     </item>
@@ -36,54 +84,6 @@
 俄罗斯出口商最近花费近 40 亿美元购买印度制造的国防设备和军备，以及其他进口产品和印度证券，使用的是其 Vostro 账户中闲置的资金。这些账户的设立是为了促进俄罗斯和印度之间使用印度卢比的贸易。印度储备银行允许20家银行向包括俄罗斯在内的22个国家的合作银行开设SRVA，以促进本币双边贸易。该报告强调了 Vostro 账户中卢比付款堆积的问题，新德里和莫斯科正在努力解决这一问题。这种独特的贸易安排增加了两国之间的贸易。]]></description>
       <guid>https://t.me/hn_summary/89013</guid>
       <pubDate>Sat, 11 May 2024 08:46:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体]东亚正处于人口严重崩溃的边缘，中国、日本、韩国等 [...]</title>
-      <link>https://t.me/hn_summary/89012</link>
-      <description><![CDATA[东亚人口即将崩溃
-东亚正处于人口严重崩溃的边缘，中国、日本、韩国和台湾都面临着人口减少和人口老龄化的问题。这一转变将产生深远影响，影响经济增长、军事能力和国际影响力。相比之下，美国预计人口将增长，随着东亚实力的衰落，美国将获得地缘政治利益。该地区的人口挑战还将给社会福利体系带来压力，并导致劳动力短缺。东亚即将到来的人口下降是由出生率下降驱动的自愿现象，并将对该地区的未来产生持久影响。 （根据故事文本的 68% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/89012</guid>
-      <pubDate>Sat, 11 May 2024 07:19:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 作者正在为他们 4 岁和 7 岁孩子的学前寻求创意项目想法 [...]</title>
-      <link>https://t.me/hn_summary/89011</link>
-      <description><![CDATA[寻求学前/学校项目的想法
-作者正在为他们 4 岁和 7 岁孩子的学前班/学校教室寻找创意项目想法。凭借计算机科学背景并能够使用 3D 打印机和 Raspberry Pi 等工具，他们正在寻找可以在课堂上完成的引人入胜且具有教育意义的活动。他们已经想到了基于处理的艺术互动和基于 RTLSDR 的涉及无线电波的项目。他们愿意接受社区的更多建议，让孩子们的学习变得有趣和互动。]]></description>
-      <guid>https://t.me/hn_summary/89011</guid>
-      <pubDate>Sat, 11 May 2024 07:04:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 网页内容的作者认为传统的 Makefile 存在缺陷，因为 [...]</title>
-      <link>https://t.me/hn_summary/89010</link>
-      <description><![CDATA[Makefile 错误（2019）
-该网页内容的作者认为，传统的 Makefile 由于严重依赖选项卡而存在缺陷，导致可读性问题。他们建议使用更现代的方法和合理的默认值，例如将块字符设置为“&gt;”，使用 bash 作为默认 shell，以及启用 bash 严格模式。作者强调了 Make 中文件系统的重要性，主张对不能生成单一文件的目标使用哨兵文件。通过遵循这些准则并指定输入，用户可以为其项目创建更高效​​、更可靠的 Makefile。 （根据 90% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/89010</guid>
-      <pubDate>Sat, 11 May 2024 07:00:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体]在这篇文章中，作者讨论了他们探索低功耗电子产品的旅程[...]</title>
-      <link>https://t.me/hn_summary/89009</link>
-      <description><![CDATA[Thread – 我们无法使用或教授的技术
-在这篇文章中，作者讨论了他们探索低功耗电子产品的旅程以及 Thread 的发现，Thread 是一种基于 IPv6 的低功耗无线个人区域网络网络堆栈。作者强调了 Thread 的优点，例如其网状网络功能以及与 Apple HomePod 和 Nest Hub 等现有设备的兼容性。然而，作者还深入探讨了围绕 Thread 的争议，特别是 Thread Group 施加的限制性许可和成员资格要求。尽管作者对 Thread 充满热情，但由于对非商业用途的法律限制，他们最终建议不要使用它，这揭示了业余爱好者和爱好者在访问和利用某些技术时面临的挑战。]]></description>
-      <guid>https://t.me/hn_summary/89009</guid>
-      <pubDate>Sat, 11 May 2024 06:54:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体]哥斯达黎加将于下周经历断电，并从 [...]</title>
-      <link>https://t.me/hn_summary/89008</link>
-      <description><![CDATA[ICE 确认，哥斯达黎加下周将面临断电
-哥斯达黎加将于下周经历断电，并于 5 月 13 日星期一开始实行配给。 ICE 官员表示，削减行动将持续五天，从早上 6 点到下午 6 点，有可能延长到晚上 10 点。在极端的情况下。该国的气候预测显示降雨量不足，导致情况恶化。建议客户通过分销公司的网站和社交媒体及时了解最新的时间表。尽管进行了削减，但只会对消耗的能源进行收费，而不会对停电进行收费。 ICE敦促民众减少用电量，克服厄尔尼诺现象。]]></description>
-      <guid>https://t.me/hn_summary/89008</guid>
-      <pubDate>Sat, 11 May 2024 06:49:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>MinimalChat 是一个轻量级开源聊天应用程序，允许用户与 v [...]</title>
-      <link>https://t.me/hn_summary/89007</link>
-      <description><![CDATA[展示 HN：MinimalChat – 简单且可定制的 LLM 聊天应用程序
-MinimalChat 是一款轻量级开源聊天应用程序，允许用户与各种语言模型进行交互，包括 GPT-4 和 Claude Opus，重点是简单性和响应能力。它支持 Docker 自托管，具有快速、轻量级的性能。独特的功能包括能够在本地无缝下载和缓存流行的 LLM 模型，以及与开放 AI 响应格式 API 集成。为了保护隐私，对话内容存储在本地，并且该应用程序完全移动兼容并支持 PWA。欢迎社区做出贡献，并在出现问题时提供故障排除提示。 MinimalChat 在 MIT 许可证下可以免费使用。]]></description>
-      <guid>https://t.me/hn_summary/89007</guid>
-      <pubDate>Sat, 11 May 2024 06:43:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
