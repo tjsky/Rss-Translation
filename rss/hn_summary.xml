@@ -4,86 +4,86 @@
     <title>HN总结</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的顶级黑客新闻故事的自动摘要。</description>
-    <lastBuildDate>Sat, 11 May 2024 10:10:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 11:54:34 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 劳伦斯 C 保尔森 (Lawrence C Paulson) 撰写的《通用定理证明者的基础》讨论了我 [...]</title>
-      <link>https://t.me/hn_summary/89022</link>
-      <description><![CDATA[泛型定理证明者的基础 (1989) [pdf]( https://news.ycombinator.com/item?id=40316319)
-Lawrence C Paulson 撰写的《通用定理证明器的基础》讨论了基于高阶逻辑的交互式定理证明器 Isabelle。伊莎贝尔将规则表示为命题，并通过组合规则来构建证明，创建元逻辑框架。本文探讨了形式化逻辑和证明，展示了一阶逻辑公理的健全性和完整性。向后证明构造是通过关于对象级蕴涵的元推理来形式化的。伊莎贝尔独特的向后证明方法比传统方法具有优势。本文概述了元逻辑 M（高阶逻辑的一个片段），并提出了处理量词和统一的形式化方法。还讨论了 Isabelle-88 的实现。 （根据故事文本的 11% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/89022</guid>
-      <pubDate>Sat, 11 May 2024 10:10:57 GMT</pubDate>
+      <title>UniSuper 和 Google Cloud 对于删除 UniSuper 的 Pr [...]</title>
+      <link>https://t.me/hn_summary/89033</link>
+      <description><![CDATA[删除UniSuper私有云订阅
+UniSuper 和 Google Cloud 对于删除 UniSuper 私有云订阅造成的中断深表歉意。谷歌云首席执行官托马斯·库里安（Thomas Kurian）证实了导致这一事件的前所未有的错误配置，这在全球任何其他客户中从未发生过。由于两个地区的重复，导致服务中断持续了很长时间，导致两个地区都被删除。恢复过程需要 UniSuper 和 Google Cloud 之间的大量努力和协作，并通过备份最大限度地减少数据丢失。双方正在不懈地努力寻求解决方案，恢复是他们的首要任务。 UniSuper 是澳大利亚最大的养老基金之一，为超过 647,000 名会员管理着超过 1,350 亿澳元的资金。]]></description>
+      <guid>https://t.me/hn_summary/89033</guid>
+      <pubDate>Sat, 11 May 2024 11:54:34 GMT</pubDate>
     </item>
     <item>
-      <title>“Wag”项目添加了多重身份验证 (MFA)、路由限制和设备注册 [...]</title>
-      <link>https://t.me/hn_summary/89021</link>
-      <description><![CDATA[显示 HN：Wag、MFA 和 WireGuard 注册 
-“Wag”项目向 WireGuard 添加了多重身份验证 (MFA)、路由限制和设备注册，从而提供增强的安全功能。它允许定义需要 MFA 授权的路由，并提供多个 MFA 选项，例如 webauthn 和 oidc。该项目强调高可用性和通过 API 轻松进行客户端注册。它需要安装 iptables 和 libpam，并且必须以 root 身份运行。 Wag 的独特之处在于提供了一套全面的管理命令，用于通过 Web 界面管理设备、用户和管理用户。它还支持自定义 MFA 模板和更新警报。 （根据 39% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/89021</guid>
-      <pubDate>Sat, 11 May 2024 09:56:44 GMT</pubDate>
+      <title>[媒体] 著名 DIY YouTuber Bitluni 构建了自己的 RISC-V 巨型集群，展示了 [...]</title>
+      <link>https://t.me/hn_summary/89032</link>
+      <description><![CDATA[DIY YouTuber 在 14.7 上构建了自己的 256 核 RISC-V 巨型集群GHz 1核频率
+著名 DIY YouTuber Bitluni 构建了自己的 RISC-V 巨型集群，展示了该架构尚未开发的潜力。他的创新设计涉及创建集群刀片来管理多个超级集群，每个超级集群都有自己的总线接口。尽管遇到了设计缺陷，Bitluni 的奉献精神和决心成功构建了 256 个 RISC-V 微控制器，这些微控制器以令人印象深刻的 14.7 GHz 单核频率运行。该过程记录在视频中，突出了 DIY 技术项目的复杂性和创造力。]]></description>
+      <guid>https://t.me/hn_summary/89032</guid>
+      <pubDate>Sat, 11 May 2024 11:52:27 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在文化系统上的文章“避免软删除反模式”中，作者 [...]</title>
-      <link>https://t.me/hn_summary/89020</link>
-      <description><![CDATA[避免软删除反模式
-在文化系统上的文章“避免软删除反模式”中，作者深入研究了数据库中软删除的常见做法以及为什么它可能不是最好的方法。软删除涉及将记录标记为已删除，而不是实际删除它们，这可能会导致数据库完整性问题和查询数据的复杂性。作者提出了一些替代方案，例如硬删除、将生命周期结束状态纳入实体生命周期、使用历史数据的时态表或将历史记录保存外包给数据仓库。最终，本文挑战了软删除是最佳实践的观念，并鼓励采取更周到的方法来实现数据持久性。]]></description>
-      <guid>https://t.me/hn_summary/89020</guid>
-      <pubDate>Sat, 11 May 2024 09:29:30 GMT</pubDate>
+      <title>[媒体] 大象在互相打招呼时会使用手势和声音提示，正如观察到的那样 [...]</title>
+      <link>https://t.me/hn_summary/89031</link>
+      <description><![CDATA[大象在互相打招呼时会使用手势和声音提示 
+动物行为学家团队进行的一项研究发现，大象在互相打招呼时会使用手势和声音提示。这项发表在《通讯生物学》上的研究主要针对津巴布韦的非洲象，发现大象会做出有意义的行为，例如摆动鼻子、拍打耳朵和在打招呼时发声。该研究强调了大象在相遇时用来传达信息的复杂通信系统，揭示了它们的社交互动和智力。这些发现为了解大象行为的迷人世界提供了宝贵的见解。]]></description>
+      <guid>https://t.me/hn_summary/89031</guid>
+      <pubDate>Sat, 11 May 2024 11:46:20 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]日本正面临着一个震惊的时刻，因为印度即将取代它成为第四大经济体 [...]</title>
-      <link>https://t.me/hn_summary/89019</link>
-      <description><![CDATA[日本将取代印度成为第四大经济体，感到焦虑
-日本正面临着一个震惊的时刻，因为印度将在2025年取代日本成为世界第四大经济体。日本经济地位的下降一直令人担忧，政府实施“安倍经济学”以促进增长。然而，结构性改革力度不够，人口老龄化、变革阻力等挑战依然存在。日元疲软构成重大挑战，专家建议关注生产率增长。尽管存在这些挑战，但人们对日本的未来持谨慎乐观态度，并采取了一些举措来解决问题并有可能改善经济增长。]]></description>
-      <guid>https://t.me/hn_summary/89019</guid>
-      <pubDate>Sat, 11 May 2024 09:28:24 GMT</pubDate>
+      <title>在 NOAA 网站上查看最新的太空天气状况。</title>
+      <link>https://t.me/hn_summary/89030</link>
+      <description><![CDATA[观察到的 G5 条件
+在 NOAA 网站上查看最新的太空天气状况。目前，阳光照射一侧的高频无线电通信存在微弱或轻微的退化，偶尔会失去无线电联系。低频导航信号也可能经历短暂的衰减。随时了解 NOAA 太空天气等级，了解这些条件的影响。请继续关注观察到的 G5 情况的更新。]]></description>
+      <guid>https://t.me/hn_summary/89030</guid>
+      <pubDate>Sat, 11 May 2024 11:43:14 GMT</pubDate>
     </item>
     <item>
-      <title>伦敦创造历史的海狸在首都的新家中繁衍生息，建造了水坝 [...]</title>
-      <link>https://t.me/hn_summary/89018</link>
-      <description><![CDATA[伦敦创造历史的海狸正在适应首都的生活
-伦敦创造历史的海狸在首都的新家中繁衍生息，它们建造了水坝和渠道来帮助防止洪水。由于监测海狸福利和项目成功的志愿者的努力，从苏格兰带来的海狸已经很好地安顿下来。海狸的聪明才智和团队合作在他们的手工作品中得到了体现，从 45 度角的砍树到他们对环吠树的远见。该项目的目的不仅是帮助海狸繁衍生息，而且还改变英国对野化的态度，并希望在未来重新引入其他物种。]]></description>
-      <guid>https://t.me/hn_summary/89018</guid>
-      <pubDate>Sat, 11 May 2024 09:14:14 GMT</pubDate>
+      <title>[媒体]美国研究人员</title>
+      <link>https://t.me/hn_summary/89029</link>
+      <description><![CDATA[飞秒激光器解决太阳能电池板回收问题
+美国国家可再生能源实验室的研究人员找到了一种使用飞秒激光器焊接太阳能电池板玻璃的方法，从而无需粘性聚合物。这项新技术不仅可以形成坚固的玻璃与玻璃焊缝，防止腐蚀性湿气进入，而且还使太阳能电池板的回收变得更加容易。随着制造商每年部署更多的太阳能电池板，寻找经济有效的方法来回收太阳能电池板中的所有材料将变得越来越重要。飞秒激光技术还可以通过提供更好的防潮密封性来延长太阳能电池板的使用寿命，从而有利于钙钛矿电池等下一代太阳能技术。]]></description>
+      <guid>https://t.me/hn_summary/89029</guid>
+      <pubDate>Sat, 11 May 2024 11:37:08 GMT</pubDate>
     </item>
     <item>
-      <title>Tom Van Vleck 是 Unix 和 Multics 历史上的关键人物，他提供了关于 [...]</title>
-      <link>https://t.me/hn_summary/89017</link>
-      <description><![CDATA[Unix 和 Multics
-Tom Van Vleck 是 Unix 和 Multics 历史上的关键人物，他提供了这些操作系统开发的第一手资料。他详细介绍了贝尔电话实验室、麻省理工学院和通用电气在 Multics 项目上的合作，强调了 Ken Thompson 和 Dennis Ritchie 等程序员的贡献。 Van Vleck 讨论了贝尔实验室 1969 年退出 Multics 项目的决定，从而导致了 Unix 的诞生。他还反思了 Multics 和 Unix 之间的异同，展示了两个系统之间的技术借用。 Van Vleck 的见解为这些突破性操作系统的演变提供了独特的视角。]]></description>
-      <guid>https://t.me/hn_summary/89017</guid>
-      <pubDate>Sat, 11 May 2024 09:13:08 GMT</pubDate>
+      <title>萨里大学的科学家正在研究一项突破性的新技术，该技术可以 [...]</title>
+      <link>https://t.me/hn_summary/89028</link>
+      <description><![CDATA[科学家正在开发一种利用空气为低轨道航天器提供动力的新方法
+萨里大学的科学家正在研究一项突破性的新技术，该技术可能会彻底改变低轨道航天器的供电方式。通过利用空气的力量，这些航天器有可能在轨道上停留更长时间，而不需要传统的燃料来源。这种创新方法可以显着降低与太空旅行相关的成本和环境影响。请继续关注太空探索领域这一令人兴奋的发展的更多更新。]]></description>
+      <guid>https://t.me/hn_summary/89028</guid>
+      <pubDate>Sat, 11 May 2024 11:28:00 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Pyramid3D 实时图形处理器，由 TriTech Micro 的 Ville Eerola 介绍 [...]</title>
-      <link>https://t.me/hn_summary/89016</link>
-      <description><![CDATA[Pyramid3D 实时图形处理器 (1997) [pdf](https ://news.ycombinator.com/item?id=40315990)
-由 TriTech Micro electronics, Inc. 的 Ville Eerola 展示的 Pyramid3D 实时图形处理器展示了尖端的系统架构，其中包括几何处理器、基元处理器和像素处理器。该处理器拥有 3 个 VLIW 架构、硬件划分单元和集成数据存储器，可实现最佳性能。凭借推测分支和无中断等功能，该处理器以其效率和先进功能而脱颖而出。此外，该指令集包括索引内存访问和绝对分支地址，使其成为实时图形处理的多功能且强大的工具。在此详细演示中探索 Pyramid3D 背后的创新技术。 （根据故事文本的 54% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/89016</guid>
-      <pubDate>Sat, 11 May 2024 09:12:03 GMT</pubDate>
+      <title>[媒体] karthinks.com 上的 Emacs 窗口管理年鉴深入探讨了 w [...]</title>
+      <link>https://t.me/hn_summary/89027</link>
+      <description><![CDATA[Emacs 窗口管理年鉴
+karthinks.com 上的 Emacs 窗口管理年鉴深入研究了Emacs 中的窗口管理，提供有关该主题的提示、资源和个人见解。作者承认 Emacs 窗口系统面临的挑战，但为用户导航和优化窗口布局提供了入门知识。本文涵盖了在 Emacs 框架内进行高效窗口管理的各种工具、技巧和技巧，强调了切换焦点、移动缓冲区和分割窗口的手动和日常方面。作者还解决了常见的问题和驳回的问题，强调了掌握窗口管理以获得更流畅的编辑体验的重要性。 （根据故事文本的 13% 进行摘要。）]]></description>
+      <guid>https://t.me/hn_summary/89027</guid>
+      <pubDate>Sat, 11 May 2024 11:18:53 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 内存泄漏可能令人头疼，但它确实发生了。</title>
-      <link>https://t.me/hn_summary/89015</link>
-      <description><![CDATA[我们遇到了内存泄漏
-内存泄漏可能令人头疼，但它确实发生了。如果您正在处理这种情况，区分泄漏和膨胀很重要。各种工具和技术可以帮助分析和分析内存转储，以识别和修复泄漏源。在使用十年前的 Rails 应用程序的真实场景中，作者分享了他们对导致内存使用量激增的内存泄漏进行故障排除的过程。通过检查代码更改、流量模式以及使用 rbtrace 等工具转储内存堆，他们能够查明并解决问题。该过程包括重新启动、调查可疑更改、寻找模式以及分析堆转储以追踪泄漏。 （根据故事文本的 44% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/89015</guid>
-      <pubDate>Sat, 11 May 2024 09:10:55 GMT</pubDate>
+      <title>[媒体]欢迎来到ENIAC模拟器页面，在这里您可以体验第一次电子挖掘[...]</title>
+      <link>https://t.me/hn_summary/89026</link>
+      <description><![CDATA[ENIAC模拟器
+欢迎来到 ENIAC 模拟器页面，在这里您可以体验宾夕法尼亚大学 1944-1946 年建造的第一台电子数字通用计算机。这种具有 2D 图形界面的 Java-Applet 模拟于 2003/2004 年在柏林自由大学实施。开始模拟，了解 ENIAC 的历史，并在链接部分探索相关网站。令人兴奋的更新包括模拟转移到新的 URL、在宾夕法尼亚大学安装以庆祝 ENIAC 成立 60 周年，以及添加 Euklid 算法。不要错过这个与计算历史互动的独特机会。]]></description>
+      <guid>https://t.me/hn_summary/89026</guid>
+      <pubDate>Sat, 11 May 2024 11:12:46 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在 blog.civai.co 上的本教程中，我们深入研究了创建一个类似 Jarvis 的 AI 助手 c [...]</title>
-      <link>https://t.me/hn_summary/89014</link>
-      <description><![CDATA[展示 HN：使用 ZeroLM 和 ChatGPT 构建类似 Jarvis 的人工智能程序
-在这个关于 blog.civai.co 的教程中，我们深入研究了使用 ZeroLM 和 Python 库创建一个类似 Jarvis 的人工智能助手，名为“ZLM GPT”。通过利用 GPT-3 和 GPT-4 等强大的语言模型，我们的目标是彻底改变我们通过语音命令与信息交互的方式。本教程涵盖设置环境、记录语音输入、将语音转换为文本、使用 ZeroLM 处理用户命令以及生成返回给用户的响应。通过提供的代码分解和执行流程，构建一个智能语音助手是指日可待的。请记住，在探索可能性的同时，让我们的创作站在善良的一边，避免任何征服世界的人工智能！]]></description>
-      <guid>https://t.me/hn_summary/89014</guid>
-      <pubDate>Sat, 11 May 2024 08:59:47 GMT</pubDate>
+      <title>[媒体] 干细胞研究员 Carolina Florian 在发现 t [...]</title>
+      <link>https://t.me/hn_summary/89025</link>
+      <description><![CDATA[入侵免疫系统可以延缓衰老
+干细胞研究员卡罗莱纳·弗洛里安 (Carolina Florian) 做出了一项突破性的发现，她发现用一种药物治疗老年小鼠，可以纠正干细胞中蛋白质的组织，使它们看起来更年轻、寿命更长。这种治疗通过针对免疫系统，特别是产生所有免疫细胞的血液干细胞，使动物恢复活力。此后其他科学家也证实，恢复免疫系统活力可以对整体健康和衰老产生深远的影响。虽然控制与年龄相关疾病的潜力很诱人，但研究人员警告说，干扰复杂的免疫系统可能存在风险。人们正在探索各种方法，从针对衰老的免疫细胞到恢复胸腺功能，以对抗免疫衰老并改善晚年的健康。 （根据 89% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/89025</guid>
+      <pubDate>Sat, 11 May 2024 11:09:39 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]俄罗斯出口商最近斥资近40亿美元购买印度制造的国防装备[...]</title>
-      <link>https://t.me/hn_summary/89013</link>
-      <description><![CDATA[俄罗斯公司购买价值 40 亿美元的印度制造武器，并支付印度卢比
-俄罗斯出口商最近花费近 40 亿美元购买印度制造的国防设备和军备，以及其他进口产品和印度证券，使用的是其 Vostro 账户中闲置的资金。这些账户的设立是为了促进俄罗斯和印度之间使用印度卢比的贸易。印度储备银行允许20家银行向包括俄罗斯在内的22个国家的合作银行开设SRVA，以促进本币双边贸易。该报告强调了 Vostro 账户中卢比付款堆积的问题，新德里和莫斯科正在努力解决这一问题。这种独特的贸易安排增加了两国之间的贸易。]]></description>
-      <guid>https://t.me/hn_summary/89013</guid>
-      <pubDate>Sat, 11 May 2024 08:46:35 GMT</pubDate>
+      <title>[媒体]动物为什么要玩耍？</title>
+      <link>https://t.me/hn_summary/89024</link>
+      <description><![CDATA[动物为什么玩耍？科学解释了一个长期存在的谜团
+包括狗、水獭和猫鼬在内的动物玩耍的原因多年来一直困扰着科学家。与普遍看法相反，玩耍并不一定能帮助动物学习重要技能或提供长期发展益处。然而，玩耍可能有一个更微妙和更根本的目的，例如激发大脑应对生活的挑战。例如，与那些被剥夺玩耍的老鼠相比，参与玩耍的幼鼠会发展出更先进的认知能力。孩子们也很爱玩，他们创造想象的世界，通过假装游戏解决问题，这可能为他们应对现实生活中的挑战做好准备。最终，玩耍是有趣和愉快的，应该鼓励动物和儿童。 （根据 99% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/89024</guid>
+      <pubDate>Sat, 11 May 2024 11:08:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
