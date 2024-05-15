@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 15 May 2024 00:57:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 May 2024 03:17:05 GMT</lastBuildDate>
+    <item>
+      <title>刚刚作为元实习生第一次推动！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1csb04d/just_made_my_first_push_as_a_meta_intern/</link>
+      <description><![CDATA[超级兴奋；改变了一些小事情，但应该没什么大不了的。    由   提交/u/seasaltsaves  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1csb04d/just_made_my_first_push_as_a_meta_intern/</guid>
+      <pubDate>Wed, 15 May 2024 03:11:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>magento 2 是不是有点像定时炸弹？ （值得留下或移动的平台）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cs8cbk/is_magento_2_a_bit_of_a_ticking_time_bomb_worth/</link>
+      <description><![CDATA[您好 我有一个 magento 2 (2.2.7) 网站，需要投入大量资金将其升级到当前版本版本 (2.4.6)。 我有时听说 Magento 2 有点像定时炸弹，因为 Adob​​e 买下了它，而且他们只专注于 Adob​​e Commerce，这意味着 magento 2 最终可能无法使用或过度使用很难使用。  想听听关于 Magento 2 寿命的一些想法。 另外，有谁知道从 2.2.7 升级到 2.4.6 需要多少小时？ 谢谢！   由   提交 /u/Lucky-Pear-906   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cs8cbk/is_magento_2_a_bit_of_a_ticking_time_bomb_worth/</guid>
+      <pubDate>Wed, 15 May 2024 00:57:42 GMT</pubDate>
+    </item>
     <item>
       <title>如何知道我的网站是否被 ISP 屏蔽？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cs88q6/how_to_know_whether_my_site_is_getting_blocked_by/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[        由   提交/u/ercanvas  [链接] [评论] &lt; /表&gt;]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cs3tfm/suggests/</guid>
       <pubDate>Tue, 14 May 2024 21:32:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>与 RUM Archive 和 RUMvision 的基线集成</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cs3sj1/baseline_integration_with_rum_archive_and/</link>
-      <description><![CDATA[   /u/feross  [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cs3sj1/baseline_integration_with_rum_archive_and/</guid>
-      <pubDate>Tue, 14 May 2024 21:31:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>多租户 SaaS 应用问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cs3kar/multitenant_saas_application_questions/</link>
-      <description><![CDATA[嘿伙计们。我正在开发一个多租户 SaaS 应用程序，该应用程序使用 ASP.NET Core Web API 作为后端，并使用 Vue 作为前端。我将采用共享数据库方法，因为它最适合我的需求，并且不会以疯狂的速度扩展。我只是有一些一般性问题，很可能有一些简单的答案，但我似乎无法在任何地方找到答案。  1.在生产环境中添加租户是如何工作的？ 这可能听起来像是一个愚蠢的问题，但我对处理这个问题的最佳方法感到有点困惑。无需赘述，我的产品将由相当小的公司使用。在潜在客户签署使用该产品的合同后，我基本上想做一些事情。  将他们的站点添加到我的租户表中。  为他们的网站设置一个初始管理员用户帐户。  出于各种原因，我希望手动完成此操作，最初是我来做，但我们的想法是我们将让实施专家设置新客户端。   2.处理每个租户（站点）的用户身份验证/授权的最佳方法是什么？ 我正在查看 Auth0 组织，它可能看起来正是我正在寻找的内容，但正在寻求反馈来自使用过该解决方案的人以及您发现有效的其他解决方案。当涉及到租户用户时，我需要考虑一些关键事项。   当新租户注册时，他们将获得一个管理员帐户（授权处理与其帐户相关的所有事务）。  获得网站帐户的唯一方法是管理员添加用户并配置权限。不会有公开注册或类似的事情。  是否有办法让每个租户为各种用户类型设置自定义角色和权限？如果它太麻烦的话，我可以没有这个，但它会非常有帮助。   3.我应该考虑单个用户属于多个站点的可能性吗？ 我确实认为这种情况不太可能发生，但这是一种可能的情况。我假设这将取决于我处理用户身份验证/授权的路线，但很想听到这里有经验的人的一些意见。  4。我应该为开发人员/支持用户采取什么方法？ 这将问题 2 和问题 3 联系在一起。我的产品的开发人员和支持代表将需要出于各种原因访问所有站点，无论是数据更正、错误测试等。有什么好的方法可以解决这个问题吗？  除此之外，我对你们可能有的任何其他想法或评论持开放态度。过去 3 年里，我一直在一家 SaaS 公司担任开发人员，但自己从头开始对我来说是个新鲜事，所以我真的愿意接受任何和所有建议。   由   提交/u/Nickt1596   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cs3kar/multitenant_saas_application_questions/</guid>
-      <pubDate>Tue, 14 May 2024 21:21:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
