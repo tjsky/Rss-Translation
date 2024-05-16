@@ -4,7 +4,14 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Thu, 16 May 2024 12:24:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 May 2024 15:13:39 GMT</lastBuildDate>
+    <item>
+      <title>PDM 整合与管理.pdf</title>
+      <link>https://www.reddit.com/r/software/comments/1ctd0w8/pdf_pdm_consolidation_and_management/</link>
+      <description><![CDATA[我正在寻找 PDF 文件管理软件。我希望提供一组不应更改但应专门分组的技术文档。目标是使用该软件作为 PDM 来停止打印、复制和更改，尤其是删除，同时仍具有查看功能。  我在 pdf 论坛和软件组之间交叉发布此内容。    由   提交 /u/engineeredmofo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1ctd0w8/pdf_pdm_consolidation_and_management/</guid>
+      <pubDate>Thu, 16 May 2024 13:33:51 GMT</pubDate>
+    </item>
     <item>
       <title>桌面软件可自动将文档照片拉直并更正为扫描件</title>
       <link>https://www.reddit.com/r/software/comments/1ctbegy/desktop_software_to_autostraighten_and_correct/</link>
@@ -43,7 +50,7 @@
     <item>
       <title>关于 OpenBabel、MKL 和 GPL 许可证的问题</title>
       <link>https://www.reddit.com/r/software/comments/1ct6wd3/question_regarding_openbabel_mkl_and_gpl_licenses/</link>
-      <description><![CDATA[大家好， 希望这个主题适合这个子，如果有更好的地方可以问这个，请随时建议. 我有一个关于计算化学开源软件许可的问题。我的包使用 OpenBabel API，如果我正确理解常见问题解答，这意味着我必须提供该软件包遵循 GPL 许可证。不过，我也在使用 RFScoreVS 可执行文件，它需要 Intel 的 MKL 才能顺利运行。我没有直接重新分发可执行文件，但我的安装脚本从 github 下载可执行文件。我不确定我是否完全理解GNU GPL 网站上描述的法律条款，或者链接或重新分发库之间的区别。如果有人有这方面的经验，我很想听听您的经历！似乎如果我只使用 OpenBabel CLI 界面，我不需要在 GNU GPL 下分发我的包（“但是，您可以以未修改的形式与您的产品一起分发 Open Babel 以使用命令行界面，” ;) 我想这在任何情况下都是一个选择。 感谢您的帮助！   由   提交/u/Tonylac77  [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 希望这个主题适合这个子，如果有更好的地方可以问这个，请随时建议. 我有一个关于计算化学开源软件许可的问题。我的包使用 OpenBabel API，如果我正确理解常见问题解答，这意味着我必须提供该软件包遵循 GPL 许可证。不过，我也在使用 RFScoreVS 可执行文件，它需要 Intel 的 MKL 才能顺利运行。我没有直接重新分发可执行文件，但我的安装脚本从 github 下载可执行文件。我不确定我是否完全理解GNU GPL 网站上描述的法律术语，或者链接或重新分发库之间的区别。如果有人有这方面的经验，我很想听听您的经历！似乎如果我只使用 OpenBabel CLI 界面，我不需要在 GNU GPL 下分发我的包（“但是，您可以以未修改的形式与您的产品一起分发 Open Babel 以使用命令行界面，” ;) 我想这在任何情况下都是一个选择。 感谢您的帮助！   由   提交/u/Tonylac77  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1ct6wd3/question_regarding_openbabel_mkl_and_gpl_licenses/</guid>
       <pubDate>Thu, 16 May 2024 06:55:49 GMT</pubDate>
     </item>
@@ -78,7 +85,7 @@
     <item>
       <title>WAV 封装的 DTS 到 OPUS</title>
       <link>https://www.reddit.com/r/software/comments/1csyp65/wav_wrapped_dts_to_opus/</link>
-      <description><![CDATA[你好， 我偶然发现了一些 WAV 文件，这些文件实际上在其中保存了 DTS 音轨（我假设来自 DTS SACD） ）。它们是 5.1 环绕声，我需要一种方法将它们最终转换为 256kbps 5.1 OPUS。如果我能找到将它们转换为 FLAC 的东西，我可以使用 MusicBee 从那里开始，但 MusicBee 不会读取这些特定的 WAV 文件。文件规格如下： 格式：Wave 文件大小：57.1 MiB 持续时间：5 分钟 7 秒 总体比特率： 1 556 kb/s 专辑：Master of Puppets（豪华版（5.1 环绕）） 声部/位置：1 曲目名称：Battery 曲目名称：Battery p&gt; 曲目名称/位置：1 表演者：Metallica 导演：Metallica 录制日期：1986 写作应用程序：Lavf59.3.100 原始来源形式/名称：Master of Puppets（豪华版（5.1 环绕）） 封面：是 封面类型：封面（正面） 封面 MIME：image/jpeg ITRK：1 音频 格式：DTS 格式/信息：数字影院系统 编解码器 ID：00002001-0000-0010-8000-00AA00389B71 编解码器 ID/信息：数字影院系统 持续时间：5 分钟 7 秒 比特率：1 536 kb/s 频道：6 个频道 频道布局：LR C LFE Ls Rs p&gt; 采样率：96.0 kHz 位深度：16 位 流大小：56.3 MiB (99%)    由   提交/u/Kurse2000Gaming   [链接] [评论]]]></description>
+      <description><![CDATA[你好， 我偶然发现了一些 WAV 文件，这些文件实际上在其中保存了 DTS 音轨（我假设来自 DTS SACD） ）。它们是 5.1 环绕声，我需要一种方法将它们最终转换为 256kbps 5.1 OPUS。如果我能找到将它们转换为 FLAC 的东西，我可以使用 MusicBee 从那里开始，但 MusicBee 不会读取这些特定的 WAV 文件。文件规格如下： 格式：Wave 文件大小：57.1 MiB 持续时间：5 分钟 7 秒 总体比特率： 1 556 kb/s 专辑：Master of Puppets（豪华版（5.1 环绕）） 声部/位置：1 曲目名称：Battery 曲目名称：Battery p&gt; 曲目名称/位置：1 表演者：Metallica 导演：Metallica 录制日期：1986 写作应用：Lavf59.3.100 原始来源形式/名称：Master of Puppets（豪华版（5.1 环绕）） 封面：是 封面类型：封面（正面） 封面 MIME：image/jpeg ITRK：1 音频 格式：DTS 格式/信息：数字影院系统 编解码器 ID：00002001-0000-0010-8000-00AA00389B71 编解码器 ID/信息：数字影院系统 持续时间：5 分钟 7 秒 比特率：1 536 kb/s 频道：6 个频道 频道布局：LR C LFE Ls Rs p&gt; 采样率：96.0 kHz 位深度：16 位 流大小：56.3 MiB (99%)    由   提交/u/Kurse2000Gaming   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1csyp65/wav_wrapped_dts_to_opus/</guid>
       <pubDate>Wed, 15 May 2024 23:14:47 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好， 我从头开始创建了一个公告平台。后端采用 Java 语言，前端采用 Angular 语言。它具有身份验证、电子邮件确认、添加公告功能、查看和编辑公告、聊天系统等。您知道是否有一个平台可以出售此类项目？   由   提交 /u/Right-Border-9877   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1cst6t2/where_to_sell_my_announcement_platform/</guid>
       <pubDate>Wed, 15 May 2024 19:16:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>GrepWin 排除目录</title>
-      <link>https://www.reddit.com/r/software/comments/1csrjz8/grepwin_exclude_directory/</link>
-      <description><![CDATA[您好，有人知道我如何从日志监控中排除路径（例如 Teams）吗？ 例如，当我键入时事件ID“8003”在搜索字段时，我从 Teams 获取了完整路径。但我想从我的日志记录中排除此路径，因为我只对其他 .EXE 感兴趣，这些 .EXE 为我提供事件 ID“8003”   由   提交/u/kanata98  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1csrjz8/grepwin_exclude_directory/</guid>
-      <pubDate>Wed, 15 May 2024 18:11:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
