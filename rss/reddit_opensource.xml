@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 17 May 2024 09:15:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2024 12:23:41 GMT</lastBuildDate>
+    <item>
+      <title>OpenTofu 断言 Terraform 提供商的许可证不会改变的原因是什么？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1cu2wcw/whats_the_reason_opentofu_asserts_that_the/</link>
+      <description><![CDATA[来自 opentofu.org 上的常见问题解答页面 ：  OpenTofu 是否可以与 Terraform 合作的所有提供商一起使用？ OpenTofu 不会有自己的提供商。 Terraform 提供商尚未更改其许可证，并且这种更改的可能性几乎为零。OpenTofu 与当前的 Terraform 提供商合作，但它使用单独的注册表。  &lt;但是为什么我们可以确定他们的许可证不会改变呢？难道 Hashicorp（或现在的 IBM）不能决定将许可证更改为非开源许可证，例如 BSL，就像他们为 Terraform 本身所做的那样？ 有人可以解释 OpenTofu 可以断言的原因吗？ Terraform 提供商的许可证不会改变？   由   提交 /u/Several-Echidna3425    reddit.com/r/opensource/comments/1cu2wcw/whats_the_reason_opentofu_asserts_that_the/&quot;&gt;[链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1cu2wcw/whats_the_reason_opentofu_asserts_that_the/</guid>
+      <pubDate>Fri, 17 May 2024 11:33:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>博客：长期可维护性、汽车和自由和开源软件</title>
+      <link>https://www.reddit.com/r/opensource/comments/1cu2e6r/blog_long_term_maintainability_automotive_and_foss/</link>
+      <description><![CDATA[ 由   提交/u/ArtistSad8600  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1cu2e6r/blog_long_term_maintainability_automotive_and_foss/</guid>
+      <pubDate>Fri, 17 May 2024 11:02:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Linux 内核是 CNA——那又怎样？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1cu1j4k/the_linux_kernel_is_a_cna_so_what/</link>
+      <description><![CDATA[ 由   提交/u/ArtistSad8600  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1cu1j4k/the_linux_kernel_is_a_cna_so_what/</guid>
+      <pubDate>Fri, 17 May 2024 10:05:25 GMT</pubDate>
+    </item>
     <item>
       <title>寻求视频会议解决方案的建议</title>
       <link>https://www.reddit.com/r/opensource/comments/1cu0dex/seeking_advice_in_video_conferencing_solutions/</link>
@@ -57,14 +78,14 @@
     <item>
       <title>我的开源 Android 应用程序和非 Android 应用程序，其中一些我想更改！</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctbs70/my_open_source_android_apps_and_not_so_android/</link>
-      <description><![CDATA[大家好！ 正如标题所述，以下是我的部分建议以及我可以改进的地方。  开源： Atennapod：播客应用程序 Apktool：用于修改应用程序（请自行研究） Audile：Shazam 替代品，实际上指向多个流媒体服务，而不仅仅是 Apple Music。 Aurora Store：Google Play 替代品 Bitwarden：用于存储密码 Ente photos：用于存储照片的加密开源平台，希望很快实现自我托管。 F-droid：开源应用商店 Firefox + Firefox nightly：浏览互联网。 Libretube：YouTube 替代品，当您连接的服务器正常工作时非常棒，同样希望很快使用 piped.video 或 invidious 实现自我托管。  Mullvad VPN：开源 VPN，在隐私方面备受推崇。 Organic Maps：用作离线替代方案，或者在漫游费用昂贵的外国使用。 Gmaps WV：是网站谷歌地图的包装器，虽然谷歌地图有点粗略，但它比谷歌地图更可靠。 Fossify Gallery：看起来像谷歌照片的照片替代品 Pocket Paint：只是一个照片编辑/涂鸦应用程序。 Protonmail：比 gmail 更好的替代品。 Scrambled exif：元数据删除器，也可以使用它，你的照片存储空间会小得多。 Simplelogin：提供电子邮件别名 xtra：twitch 客户端，你也可以用你的 twitch 账户登录，运行完美。 Signal：不属于 WhatsApp 的替代品Facebook。 我使用的非开源应用程序，其中一些我想更改： 部落冲突：我和朋友一起玩的唯一游戏。抱歉，不会更改这个。 Google 相机：在我找到更好的相机之前，我不会更换，而且我有一个 degoogled pixel，所以防火墙阻止了连接。 Discord：甚至不要太多使用 discord，实际上将它用于大学项目。 银行应用程序：实际上没有开源替代方案。 Railcard/trainapp 尝试使用浏览器购票，但比较麻烦。 Snapchat：我认为它是一款儿童应用程序，但 21 岁时每个人都使用它来交流，它也是我用的唯一社交媒体。我也尽可能避免使用它。  YouTube/tiktok：这些应用程序是用 vanced 修改的，希望我没有使用这些应用程序，但我不必向 tiktok 提供登录数据，除非有 tiktok 客户端，否则我不会删除它们。YouTube 也是如此，除非 piped/invidious 客户端改进，否则我无法更改。 希望您喜欢这篇长文 XD    提交人    /u/marksism__   [link] [评论]]]></description>
+      <description><![CDATA[大家好！  正如标题所述，这里是我的一些建议以及我可以改进的地方。  开源： Atennapod：播客应用 Apktool：用于修改应用程序（自行研究） Audile：Shazam替代方案，实际上指向多个流媒体服务的链接，而不仅仅是 Apple Music。 Aurora Store：Google Play 替代方案 Bitwarden：用于存储密码 Ente 照片：加密存储照片的开源平台，希望尽快实现自我托管。 F-droid：开源应用商店 Firefox + Firefox nightly：浏览互联网。 F-droid：开源应用商店 Firefox + Firefox nightly：浏览互联网。 p&gt; Libretube：YouTube 替代品，当您连接的服务器正常工作时非常有用，再次希望尽快通过 Piped.video 进行自我托管，或者为自己带来不愉快。  Mullvad VPN：高度尊重隐私的开源 VPN。 有机地图：用作离线替代方案或在漫游费用昂贵的外国时使用。  &gt; Gmaps WV：是 google 地图网站的包装，虽然 google 地图有点粗略，但比 google 地图更可靠。 Fossify gallery：看起来像 google 照片的照片替代品&lt; /p&gt; Pocket Paint：只是一个照片编辑/涂鸦应用程序。 Protonmail：比 gmail 更好的替代品。 Scrambled exif：元数据删除器，也可以使用这个和您的照片存储空间明显更小。 Simplelogin：提供电子邮件别名 xtra：twitch 客户端，您也可以使用您的 twitch 帐户登录并完美运行。 Signal ：不属于 Facebook 的 WhatsApp 替代品。 我使用的非开源应用程序以及我想要更改的其中一些应用程序： 部落冲突：我真正玩的唯一游戏和我的朋友。抱歉，没有更改这个。 Google 相机：在我找到更好的相机之前，我不会更改，而且我有一个 degoogled 像素，因此防火墙阻止了连接。 Discord：甚至不要使用不和谐，真正将其用于大学项目。 银行应用程序：实际上没有开源替代方案。 Railcard/trainapp 尝试使用浏览器门票但是比较麻烦。 Snapchat：我认为它是一个儿童应用程序，但21岁每个人都用它来交流，也是我唯一使用的社交媒体。我也尽可能避免使用它。  YouTube/tiktok：这些应用程序是用 vanced 修改的，希望我没有使用这些，但我不必向 tiktok 提供登录数据，直到有一个 tiktok 客户端为止我不会删除。与 YouTube 一样，除非管道/恶意客户改进，否则我无法改变。 希望您喜欢这篇长文 XD   由   提交 /u/marksism__   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ctbs70/my_open_source_android_apps_and_not_so_android/</guid>
       <pubDate>Thu, 16 May 2024 12:31:17 GMT</pubDate>
     </item>
     <item>
       <title>搜索一个受欢迎的 Nextjs 开源项目来做出贡献并从中学习</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctaqrf/search_for_a_welcoming_nextjs_open_source_project/</link>
-      <description><![CDATA[您好，我正处于理学士学位的最后一年，在我所在的地区（斯威士兰王国）没有此类实习机会。我相信开源有望帮助我解决这个问题。我希望为我可以贡献的项目做出贡献或成为其中的一部分。我一直在使用 MERN stack，现在正在学习 Nextjs。任何指导都将受到高度赞赏。提前致谢！   由   提交 /u/Tabish1511   [链接] [评论]]]></description>
+      <description><![CDATA[嗨，我正在攻读理学学士学位的最后一年，我所在的地区（斯威士兰王国）没有这样的实习机会。我相信开源有望帮助我解决这个问题。我希望为项目做出贡献或成为其中的一员。我一直在使用 MERN 堆栈，现在正在学习 Nextjs。任何指导都将不胜感激。提前致谢！    提交人    /u/Tabish1511   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ctaqrf/search_for_a_welcoming_nextjs_open_source_project/</guid>
       <pubDate>Thu, 16 May 2024 11:32:32 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[TxtDot：仅解析页面中的文本、链接和图片的 HTTP 代理，因此使用更少的带宽、删除广告和繁重的脚本。 txtdot v1.8.0已发布 新功能： 1.能够连接webder（一个单独的代理，可以渲染在js上运行的网站）。 2. 插件 - 现在您可以方便地配置代理并创建您自己的引擎和中间件。 3. 现在您可以在引擎代码中使用jsx。 4.改进了代理输出的文本格式，现在可以方便地以文本方式阅读，甚至更轻。 5.添加了中间件，现在可以添加代码高亮（已经用hljs添加了高亮）和自定义元素。 6. 现在，如果某个引擎出现错误，代理会寻找另一个合适的引擎。引擎只能改进网站的一部分（通过路由），并且在未实现网站解析的情况下，可读性将发挥作用。 https://github.com/TxtDot/txtdot/releases/tag/v1.8.0    ;由   提交 /u/artegoser   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cssmcb/txtdot_v180_released/</guid>
       <pubDate>Wed, 15 May 2024 18:53:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过全球研讨会系列，开源人工智能定义更接近现实</title>
-      <link>https://www.reddit.com/r/opensource/comments/1csj6b3/the_open_source_ai_definition_gets_closer_to/</link>
-      <description><![CDATA[       由   提交 /u/opensourceinitiative   [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1csj6b3/the_open_source_ai_definition_gets_closer_to/</guid>
-      <pubDate>Wed, 15 May 2024 12:05:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建在开源库之上</title>
-      <link>https://www.reddit.com/r/opensource/comments/1csgfmo/building_on_top_of_a_open_source_library/</link>
-      <description><![CDATA[有一个 Apache 2.0 库，它具有我需要的基本框架。基本上都是基础。我将大量修改该库，通过扩展它来满足我的需求。我的问题是我添加的所有新代码是否也会自动归属 Apache 2.0 许可证？或者它可以是专有的吗？ 编辑1：这是有问题的许可证https://github.com/klinecharts/ KLineChart 编辑2：https://softwareengineering.stackexchange.com/questions/220068/file-with-apache-2-0-and-my-modifications 我猜这回答了我的问题，我可以在同一文件下有多个许可证，即一个用于 Apache，另一个用于我的修改的专有许可证（闭源）。  他们提到的一件有趣的事情 您可以选择使用不同的版权许可进行修改。然而，单个文件具有适用不同版权许可的多个部分的情况非常罕见，我怀疑其法律方面是否已在法庭上得到检验，因此我建议不要这样做。如果您不分发修改（或不分发到您的公司外部），则无需执行任何操作。版权许可仅在分发程序/库时发挥作用。   由   提交 /u/zZurf   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1csgfmo/building_on_top_of_a_open_source_library/</guid>
-      <pubDate>Wed, 15 May 2024 09:14:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费开源仓库/制造模拟器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1cs37cq/free_and_opensource_warehousemanufacturing/</link>
-      <description><![CDATA[        提交人    /u/ryevdokimov   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1cs37cq/free_and_opensource_warehousemanufacturing/</guid>
-      <pubDate>Tue, 14 May 2024 21:06:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
