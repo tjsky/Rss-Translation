@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 17 May 2024 06:19:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2024 09:15:46 GMT</lastBuildDate>
+    <item>
+      <title>寻求视频会议解决方案的建议</title>
+      <link>https://www.reddit.com/r/opensource/comments/1cu0dex/seeking_advice_in_video_conferencing_solutions/</link>
+      <description><![CDATA[我正在探索为我们提供所有 API、Webhook 和开发灵活性的视频会议解决方案。 我需要的功能：&lt; /p&gt;  会议跟踪（开始/结束会议）（Webhook 和 API） 完成后的录音（Webhook 和 API） 参与者加入/离开跟踪（Webhook 和 API）- 访问控制（谁可以加入会议、主持人、共同主持人等） 未来的会议安排。 （如果会议按需启动，我们可以照顾） 出勤追踪（谁参加，何时参加，参加了多长时间，参加了多少次） 其他课堂功能（多个视频渲染、屏幕共享、聊天、举手等）  所有平台可用性。 使用情况： 每月 2.5 - 500 万分钟（用户总分钟数） 5K - 10K 会议 我遇到了 3 种解决方案  外部提供商，例如 Zoom Meeting SDK。 - 一切都将在 Zoom 上发生，我们将公开 API 和 Webhooks。 （仅后端工作） 由解决方案提供商管理的嵌入式 SDK。 （前端和后端工作。） 自托管解决方案，例如 BigBlueButton。 （前端、后端和基础设施）  问题：  自托管解决方案可能会出现哪些问题，例如BigBlueButton。 考虑到托管成本，托管解决方案是否经济。 还有其他更好的替代方案吗？此用例。  编辑：修复了格式问题。   由   提交/u/ResearchFew9387  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1cu0dex/seeking_advice_in_video_conferencing_solutions/</guid>
+      <pubDate>Fri, 17 May 2024 08:41:13 GMT</pubDate>
+    </item>
     <item>
       <title>发布 MJ PDF v2.2.0，开源 Android PDF 阅读器</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctsmdm/announcing_mj_pdf_v220_opensource_android_pdf/</link>
@@ -50,7 +57,7 @@
     <item>
       <title>我的开源 Android 应用程序和非 Android 应用程序，其中一些我想更改！</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctbs70/my_open_source_android_apps_and_not_so_android/</link>
-      <description><![CDATA[大家好！  正如标题所述，这里是我的一些建议以及我可以改进的地方。  开源： Atennapod：播客应用 Apktool：用于修改应用程序（自行研究） Audile：Shazam替代方案，实际上指向多个流媒体服务的链接，而不仅仅是 Apple Music。 Aurora Store：Google Play 替代方案 Bitwarden：用于存储密码 Ente 照片：加密存储照片的开源平台，希望尽快实现自我托管。 F-droid：开源应用商店 Firefox + Firefox nightly：浏览互联网。 F-droid：开源应用商店 Firefox + Firefox nightly：浏览互联网。 p&gt; Libretube：YouTube 替代品，当您连接的服务器正常工作时非常有用，再次希望尽快通过 Piped.video 进行自我托管，或者为自己带来不愉快。  Mullvad VPN：高度尊重隐私的开源 VPN。 有机地图：用作离线替代方案或在漫游费用昂贵的外国时使用。  &gt; Gmaps WV：是 google 地图网站的包装，虽然 google 地图有点粗略，但比 google 地图更可靠。 Fossify gallery：看起来像 google 照片的照片替代品&lt; /p&gt; Pocket Paint：只是一个照片编辑/涂鸦应用程序。 Protonmail：比 gmail 更好的替代品。 Scrambled exif：元数据删除器，也可以使用这个和您的照片存储空间明显更小。 Simplelogin：提供电子邮件别名 xtra：twitch 客户端，您也可以使用您的 twitch 帐户登录并完美运行。 Signal ：不属于 Facebook 的 WhatsApp 替代品。 我使用的非开源应用程序以及我想要更改的其中一些应用程序： 部落冲突：我真正玩的唯一游戏和我的朋友。抱歉，没有更改这个。 Google 相机：在我找到更好的相机之前，我不会更改，而且我有一个 degoogled 像素，因此防火墙阻止了连接。 Discord：甚至不要使用不和谐，真正将其用于大学项目。 银行应用程序：实际上没有开源替代方案。 Railcard/trainapp 尝试使用浏览器门票但是比较麻烦。 Snapchat：我认为它是一个儿童应用程序，但21岁每个人都用它来交流，也是我唯一使用的社交媒体。我也尽可能避免使用它。  YouTube/tiktok：这些应用程序是用 vanced 修改的，希望我没有使用这些，但我不必向 tiktok 提供登录数据，直到有一个 tiktok 客户端为止我不会删除。与 YouTube 一样，除非管道/恶意客户改进，否则我无法改变。 希望您喜欢这篇长文 XD   由   提交 /u/marksism__   [链接] [评论]]]></description>
+      <description><![CDATA[大家好！ 正如标题所述，以下是我的部分建议以及我可以改进的地方。  开源： Atennapod：播客应用程序 Apktool：用于修改应用程序（请自行研究） Audile：Shazam 替代品，实际上指向多个流媒体服务，而不仅仅是 Apple Music。 Aurora Store：Google Play 替代品 Bitwarden：用于存储密码 Ente photos：用于存储照片的加密开源平台，希望很快实现自我托管。 F-droid：开源应用商店 Firefox + Firefox nightly：浏览互联网。 Libretube：YouTube 替代品，当您连接的服务器正常工作时非常棒，同样希望很快使用 piped.video 或 invidious 实现自我托管。  Mullvad VPN：开源 VPN，在隐私方面备受推崇。 Organic Maps：用作离线替代方案，或者在漫游费用昂贵的外国使用。 Gmaps WV：是网站谷歌地图的包装器，虽然谷歌地图有点粗略，但它比谷歌地图更可靠。 Fossify Gallery：看起来像谷歌照片的照片替代品 Pocket Paint：只是一个照片编辑/涂鸦应用程序。 Protonmail：比 gmail 更好的替代品。 Scrambled exif：元数据删除器，也可以使用它，你的照片存储空间会小得多。 Simplelogin：提供电子邮件别名 xtra：twitch 客户端，你也可以用你的 twitch 账户登录，运行完美。 Signal：不属于 WhatsApp 的替代品Facebook。 我使用的非开源应用程序，其中一些我想更改： 部落冲突：我和朋友一起玩的唯一游戏。抱歉，不会更改这个。 Google 相机：在我找到更好的相机之前，我不会更换，而且我有一个 degoogled pixel，所以防火墙阻止了连接。 Discord：甚至不要太多使用 discord，实际上将它用于大学项目。 银行应用程序：实际上没有开源替代方案。 Railcard/trainapp 尝试使用浏览器购票，但比较麻烦。 Snapchat：我认为它是一款儿童应用程序，但 21 岁时每个人都使用它来交流，它也是我用的唯一社交媒体。我也尽可能避免使用它。  YouTube/tiktok：这些应用程序是用 vanced 修改的，希望我没有使用这些应用程序，但我不必向 tiktok 提供登录数据，除非有 tiktok 客户端，否则我不会删除它们。YouTube 也是如此，除非 piped/invidious 客户端改进，否则我无法更改。 希望您喜欢这篇长文 XD    提交人    /u/marksism__   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ctbs70/my_open_source_android_apps_and_not_so_android/</guid>
       <pubDate>Thu, 16 May 2024 12:31:17 GMT</pubDate>
     </item>
@@ -64,7 +71,7 @@
     <item>
       <title>Radient - 对许多不同类型的数据进行矢量化以用于 RAG 和推荐</title>
       <link>https://www.reddit.com/r/opensource/comments/1ct66a7/radient_vectorize_many_different_types_of_data/</link>
-      <description><![CDATA[大家好， 想分享我最近在做的一个项目。 LLM 正在走向多模式，而对所有不同类型的数据（图像、文本、音频等）进行矢量化似乎是未来的一个重要趋势。许多现有的库和工具包主要关注文本，因此我构建了 Radient 来尝试帮助缩小这一差距：https://github.com/fzliu/radient 欢迎任何反馈！    提交人    /u/mrintellectual   [链接] [评论]]]></description>
+      <description><![CDATA[嘿伙计们， 想分享我最近正在从事的一个项目。 法学硕士正在走向多模式，对所有不同类型的数据（图像、文本、音频等）进行矢量化似乎是一个重要的发展趋势。许多现有的库和工具包主要关注文本，因此我构建了 Radient 来尝试帮助缩小这一差距：https://github。 com/fzliu/radient 欢迎任何和所有反馈！   由   提交 /u/mrintellectual   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ct66a7/radient_vectorize_many_different_types_of_data/</guid>
       <pubDate>Thu, 16 May 2024 06:03:48 GMT</pubDate>
     </item>
@@ -92,23 +99,16 @@
     <item>
       <title>构建在开源库之上</title>
       <link>https://www.reddit.com/r/opensource/comments/1csgfmo/building_on_top_of_a_open_source_library/</link>
-      <description><![CDATA[有一个 Apache 2.0 库，它包含我所需的基本内容。基本上是基础。我将大量修改该库，通过扩展它来使其满足我的需求。我的问题是，我添加的所有新代码是否也会自动属于 Apache 2.0 许可证？或者它可以是专有的？ 编辑 1：这是有问题的许可证 https://github.com/klinecharts/KLineChart 编辑 2：https://softwareengineering.stackexchange.com/questions/220068/file-with-apache-2-0-and-my-modifications 猜猜这回答了我的问题，我被允许在同一个文件下拥有多个许可证，即，一个用于 Apache，一个用于我的修改的专有许可证（封闭源）。  他们提到了一件有趣的事情 您可以选择对您的修改使用不同的版权许可证。但是，单个文件包含多个适用不同版权许可的部分的情况非常罕见，而且我怀疑这种情况的法律方面是否已在法庭上得到检验，因此我建议不要这样做。如果您不分发修改内容（或不在公司外部分发），则无需执行任何操作。版权许可仅在分发程序/库时才起作用。    提交人    /u/zZurf   [link] [评论]]]></description>
+      <description><![CDATA[有一个 Apache 2.0 库，它具有我需要的基本框架。基本上都是基础。我将大量修改该库，通过扩展它来满足我的需求。我的问题是我添加的所有新代码是否也会自动归属 Apache 2.0 许可证？或者它可以是专有的吗？ 编辑1：这是有问题的许可证https://github.com/klinecharts/ KLineChart 编辑2：https://softwareengineering.stackexchange.com/questions/220068/file-with-apache-2-0-and-my-modifications 我猜这回答了我的问题，我可以在同一文件下有多个许可证，即一个用于 Apache，另一个用于我的修改的专有许可证（闭源）。  他们提到的一件有趣的事情 您可以选择使用不同的版权许可进行修改。然而，单个文件具有适用不同版权许可的多个部分的情况非常罕见，我怀疑其法律方面是否已在法庭上得到检验，因此我建议不要这样做。如果您不分发修改（或不分发到您的公司外部），则无需执行任何操作。版权许可仅在分发程序/库时发挥作用。   由   提交 /u/zZurf   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1csgfmo/building_on_top_of_a_open_source_library/</guid>
       <pubDate>Wed, 15 May 2024 09:14:19 GMT</pubDate>
     </item>
     <item>
       <title>免费开源仓库/制造模拟器</title>
       <link>https://www.reddit.com/r/opensource/comments/1cs37cq/free_and_opensource_warehousemanufacturing/</link>
-      <description><![CDATA[   /u/ryevdokimov  [链接] [评论] &lt; /表&gt;]]></description>
+      <description><![CDATA[        提交人    /u/ryevdokimov   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cs37cq/free_and_opensource_warehousemanufacturing/</guid>
       <pubDate>Tue, 14 May 2024 21:06:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源 AI 定义 – 5 月 13 日每周更新</title>
-      <link>https://www.reddit.com/r/opensource/comments/1cruhbi/open_source_ai_definition_weekly_update_may_13/</link>
-      <description><![CDATA[       由   提交 /u/opensourceinitiative   [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1cruhbi/open_source_ai_definition_weekly_update_may_13/</guid>
-      <pubDate>Tue, 14 May 2024 15:09:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
