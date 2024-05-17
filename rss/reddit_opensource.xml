@@ -4,7 +4,7 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 17 May 2024 00:59:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2024 03:15:16 GMT</lastBuildDate>
     <item>
       <title>发布 MJ PDF v2.2.0，开源 Android PDF 阅读器</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctsmdm/announcing_mj_pdf_v220_opensource_android_pdf/</link>
@@ -22,21 +22,21 @@
     <item>
       <title>VFCFinder 重点介绍开源软件中的安全补丁</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctj864/vfcfinder_highlights_security_patches_in_open/</link>
-      <description><![CDATA[        提交人    /u/yourbasicgeek   [链接] [评论] ]]></description>
+      <description><![CDATA[    &lt; /a&gt;   由   提交/u/yourbasicgeek  [链接] [评论] &lt; /表&gt;]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ctj864/vfcfinder_highlights_security_patches_in_open/</guid>
       <pubDate>Thu, 16 May 2024 18:00:08 GMT</pubDate>
     </item>
     <item>
-      <title>我正在写一份专有软件的开源替代品列表，写下你最喜欢的！</title>
+      <title>我正在写一份专有软件的开源替代品清单，请写下你最喜欢的！</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctifwo/im_writing_a_list_of_opensource_alternatives_to/</link>
       <description><![CDATA[完成后在 github 中发布。   由   提交 /u/Flick9000   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ctifwo/im_writing_a_list_of_opensource_alternatives_to/</guid>
       <pubDate>Thu, 16 May 2024 17:27:24 GMT</pubDate>
     </item>
     <item>
-      <title>Rio：纯 Python 中的 Web 应用程序。无需 JavaScript、HTML 和 CSS！</title>
+      <title>Rio：纯 Python 编写的 WebApps。无需 JavaScript、HTML 和 CSS！</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctee01/rio_webapps_in_pure_python_no_javascript_html_and/</link>
-      <description><![CDATA[大家好！我们很高兴地宣布，我们的反应式 Web UI 框架现已公开。这个项目已经进行了相当长一段时间了，我们很高兴与您分享。欢迎随时查看并分享您的反馈！  GitHub 网站  GitHub 上有一个简短的编码 GIF。 我的项目做什么 Rio 是一个全新的 GUI 框架，旨在让您只需几行 Python 即可创建现代 Web 应用程序。我们的目标是简化 Web 和应用程序开发，让您能够专注于最重要的事情，而不是陷入复杂的用户界面细节。 我们通过坚持众所周知的 Python 核心原则来实现这一目标和爱。 Python 旨在简单、简洁，Rio 体现了这一理念。无需学习 HTML、CSS 或 JavaScript 等其他语言，因为所有 UI、逻辑、组件甚至布局都完全在 Python 中管理。而且，前端和后端没有分离； Rio 透明地为您处理所有通信。 Showcase Rio 不仅仅提供 HTML 模板，就像您可能习惯使用 Flask 等框架一样。在 Rio 中，您可以使用 React/Flutter 风格的构建方法将组件定义为简单的数据类。 Rio 会持续监视您的属性更改并根据需要更新 UI。 class MyComponent(rio.Component): clicks: int = 0 def _on_press(self) -&gt;无： self.clicks += 1 def build(self) -&gt; rio.Component: return rio.Column( rio.Button(&#39;Click me&#39;, on_press=self._on_press), rio.Text(f&#39;您点击了按钮 {self.clicks} 次&#39;), ) app = rio.App(build=MyComponent) app.run_in_browser()  请注意，不需要任何显式 HTTP 请求。事实上，前端和后端之间甚至没有区别。 Rio 为您透明地处理所有通信。与 tkinter 等古老的库不同，Rio 在 Google 的 Material Design 中附带了 50 多个内置组件。此外，相同的代码库可用于本地应用程序和网站。 主要功能  全栈 Web 开发： Rio 处理前端- 为您提供端和后端。事实上，您甚至不会注意到它们的存在。创建您的 UI，Rio 将处理剩下的事情。 Python Native： Rio 应用程序是用 100% Python 编写的，这意味着您不需要编写一行代码CSS 或 JavaScript。 现代 Python：我们拥抱现代 Python 功能，例如类型注释和异步。这可以使您的代码保持干净和可维护，并帮助您的代码编辑器帮助您完成代码完成和类型检查。 兼容 Python 调试器：由于 Rio 在 Python 上运行，因此您可以连接使用调试器直接进入正在运行的进程。这使得您可以轻松识别和修复代码中的错误。 声明式界面：Rio 应用程序是使用可重用组件构建的，其灵感来自于 React、Flutter 和 Flutter。视图。它们以声明方式组合起来，以创建模块化且可维护的 UI。 包含电池：超过 50 个基于 Google Material Design 的内置组件  Target受众 Rio 非常适合那些想要创建 Web 应用程序而无需花时间学习新语言的开发人员。对于那些想要构建现代、专业外观的应用程序而又不想强调细节的人来说，它也是理想的选择。 我们欢迎在评论中提出您的想法和问题！如果您喜欢该项目，请在 GitHub 上给它一颗星，以表示您的支持并帮助我们继续改进它。   由   提交/u/Rio-Labs  /u/Rio-Labs  reddit.com/r/opensource/comments/1ctee01/rio_webapps_in_pure_python_no_javascript_html_and/&quot;&gt;[链接] [评论]]]></description>
+      <description><![CDATA[大家好！我们很高兴地宣布，我们的反应式 Web UI 框架现已公开。这个项目已经进行了相当长一段时间了，我们很高兴与您分享。欢迎随时查看并分享您的反馈！  GitHub 网站  GitHub 上有一个简短的编码 GIF。 我的项目做什么 Rio 是一个全新的 GUI 框架，旨在让您只需几行 Python 即可创建现代 Web 应用程序。我们的目标是简化 Web 和应用程序开发，让您能够专注于最重要的事情，而不是陷入复杂的用户界面细节。 我们通过坚持众所周知的 Python 核心原则来实现这一目标和爱。 Python 旨在简单、简洁，Rio 体现了这一理念。无需学习 HTML、CSS 或 JavaScript 等其他语言，因为所有 UI、逻辑、组件甚至布局都完全在 Python 中管理。而且，前端和后端没有分离； Rio 透明地为您处理所有通信。 Showcase Rio 不仅仅提供 HTML 模板，就像您可能习惯使用 Flask 等框架一样。在 Rio 中，您可以使用 React/Flutter 风格的构建方法将组件定义为简单的数据类。 Rio 会持续监视您的属性更改并根据需要更新 UI。 class MyComponent(rio.Component): clicks: int = 0 def _on_press(self) -&gt;无： self.clicks += 1 def build(self) -&gt; rio.Component: return rio.Column( rio.Button(&#39;Click me&#39;, on_press=self._on_press), rio.Text(f&#39;您点击了按钮 {self.clicks} 次&#39;), ) app = rio.App(build=MyComponent) app.run_in_browser()  请注意，不需要任何显式 HTTP 请求。事实上，前端和后端之间甚至没有区别。 Rio 为您透明地处理所有通信。与 tkinter 等古老的库不同，Rio 在 Google 的 Material Design 中附带了 50 多个内置组件。此外，相同的代码库可用于本地应用程序和网站。 主要功能  全栈 Web 开发： Rio 处理前端- 为您提供端和后端。事实上，您甚至不会注意到它们的存在。创建您的 UI，Rio 将处理剩下的事情。 Python Native： Rio 应用程序是用 100% Python 编写的，这意味着您不需要编写一行代码CSS 或 JavaScript。 现代 Python：我们拥抱现代 Python 功能，例如类型注释和异步。这可以使您的代码保持干净和可维护，并帮助您的代码编辑器帮助您完成代码完成和类型检查。 兼容 Python 调试器：由于 Rio 在 Python 上运行，因此您可以连接使用调试器直接进入正在运行的进程。这使得您可以轻松识别和修复代码中的错误。 声明式界面：Rio 应用程序是使用可重用组件构建的，其灵感来自于 React、Flutter 和 React。视图。它们以声明方式组合起来，以创建模块化且可维护的 UI。 包含电池：超过 50 个基于 Google Material Design 的内置组件  Target受众 Rio 非常适合那些想要创建 Web 应用程序而无需花时间学习新语言的开发人员。对于那些想要构建现代、专业外观的应用程序而又不想强调细节的人来说，它也是理想的选择。 我们欢迎在评论中提出您的想法和问题！如果您喜欢该项目，请在 GitHub 上给它一颗星，以表示您的支持并帮助我们继续改进它。   由   提交/u/Rio-Labs  /u/Rio-Labs  reddit.com/r/opensource/comments/1ctee01/rio_webapps_in_pure_python_no_javascript_html_and/&quot;&gt;[链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ctee01/rio_webapps_in_pure_python_no_javascript_html_and/</guid>
       <pubDate>Thu, 16 May 2024 14:34:38 GMT</pubDate>
     </item>
@@ -57,7 +57,7 @@
     <item>
       <title>搜索一个受欢迎的 Nextjs 开源项目来做出贡献并从中学习</title>
       <link>https://www.reddit.com/r/opensource/comments/1ctaqrf/search_for_a_welcoming_nextjs_open_source_project/</link>
-      <description><![CDATA[嗨，我正在攻读理学学士学位的最后一年，我所在的地区（斯威士兰王国）没有这样的实习机会。我相信开源有望帮助我解决这个问题。我希望为项目做出贡献或成为其中的一员。我一直在使用 MERN 堆栈，现在正在学习 Nextjs。任何指导都将不胜感激。提前致谢！    提交人    /u/Tabish1511   [link] [评论]]]></description>
+      <description><![CDATA[您好，我正处于理学士学位的最后一年，在我所在的地区（斯威士兰王国）没有此类实习机会。我相信开源有望帮助我解决这个问题。我希望为我可以贡献的项目做出贡献或成为其中的一部分。我一直在使用 MERN stack，现在正在学习 Nextjs。任何指导都将受到高度赞赏。提前致谢！   由   提交 /u/Tabish1511   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ctaqrf/search_for_a_welcoming_nextjs_open_source_project/</guid>
       <pubDate>Thu, 16 May 2024 11:32:32 GMT</pubDate>
     </item>
@@ -69,7 +69,7 @@
       <pubDate>Thu, 16 May 2024 06:03:48 GMT</pubDate>
     </item>
     <item>
-      <title>推出 Lorevault（测试版），一种从配方创建目录的工具</title>
+      <title>发布 Lorevault（测试版），一个从配方创建目录的工具</title>
       <link>https://www.reddit.com/r/opensource/comments/1cstxpw/announcing_lorevault_beta_a_tool_to_create_a/</link>
       <description><![CDATA[ 由   提交 /u/Bowtiestyle   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cstxpw/announcing_lorevault_beta_a_tool_to_create_a/</guid>
@@ -78,7 +78,7 @@
     <item>
       <title>TxtDot v1.8.0 发布</title>
       <link>https://www.reddit.com/r/opensource/comments/1cssmcb/txtdot_v180_released/</link>
-      <description><![CDATA[TxtDot：仅解析页面中的文本、链接和图片的 HTTP 代理，因此使用更少的带宽、删除广告和繁重的脚本。 txtdot v1.8.0已发布 新功能： 1.能够连接webder（一个单独的代理，可以渲染在js上运行的网站）。 2. 插件 - 现在您可以方便地配置代理并创建您自己的引擎和中间件。 3. 现在您可以在引擎代码中使用jsx。 4.改进了代理输出的文本格式，现在可以方便地以文本方式阅读，甚至更轻。 5.添加了中间件，现在可以添加代码高亮（已经用hljs添加了高亮）和自定义元素。 6. 现在，如果某个引擎出现错误，代理会寻找另一个合适的引擎。引擎只能改进网站的一部分（通过路由），并且在未实现网站解析的情况下，可读性将发挥作用。 https://github.com/TxtDot/txtdot/releases/tag/v1.8.0    ;由   提交 /u/artegoser   [链接] [评论]]]></description>
+      <description><![CDATA[TxtDot：仅解析页面中的文本、链接和图片的 HTTP 代理，因此使用更少的带宽、删除广告和繁重的脚本。 txtdot v1.8.0已发布 新功能： 1.能够连接webder（一个单独的代理，可以渲染在js上运行的网站）。 2. 插件 - 现在您可以方便地配置代理并创建您自己的引擎和中间件。 3. 现在您可以在引擎代码中使用jsx。 4.改进了代理输出的文本格式，现在可以方便地以文本方式阅读，甚至更轻。 5.添加了中间件，现在可以添加代码高亮（已经用hljs添加了高亮）和自定义元素。 6. 现在，如果一个引擎给出错误，代理会寻找另一个合适的引擎。引擎只能改进网站的一部分（通过路由），并且在未实现网站解析的情况下，可读性将发挥作用。 https://github.com/TxtDot/txtdot/releases/tag/v1.8.0    ;由   提交 /u/artegoser   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cssmcb/txtdot_v180_released/</guid>
       <pubDate>Wed, 15 May 2024 18:53:00 GMT</pubDate>
     </item>

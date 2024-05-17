@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 17 May 2024 00:59:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2024 03:15:10 GMT</lastBuildDate>
+    <item>
+      <title>Chrome 桌面上的图像呈现奇怪</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ctvas2/image_rendering_oddly_on_chrome_desktop/</link>
+      <description><![CDATA[我是一名平面设计师，在我的 20 年里，我从未遇到过这种情况。该徽标在 Safari 浏览器（桌面版和移动版）上看起来都很棒（需要调整手机尺寸，我刚刚注意到……）。在 Chrome 桌面上，它看起来完全是一坨屎，就好像图像上有一个 70% 密度的滤镜。在 Chrome 移动设备上看起来不错。有人告诉我，这只是“浏览器渲染颜色的方式不同”，但我设计网页图形已有数十年，但这种情况从未发生过。有任何想法吗？？ Google 的帮助为零，因此希望 Reddit 社区能够提供帮助。谢谢你！ https://alohomorapodcast.com   由   提交/u/rubywizard24   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ctvas2/image_rendering_oddly_on_chrome_desktop/</guid>
+      <pubDate>Fri, 17 May 2024 03:08:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bluehost / Wordpress 网站因 Cloudflare 问题而关闭？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ctufre/bluehost_wordpress_site_went_down_due_to/</link>
+      <description><![CDATA[我们注意到今天下午 1:00（中部标准时间）左右我们的网站出现故障。尝试访问该引用时出现的错误是“无效的 SSL 证书”错误代码 526。浏览器正常工作，Cloudflare 正常工作，但主机出现错误。 我一直在与 Bluehost 合作解决该问题，他们立即使用我们的主域 URL 更新了 A 记录。在对他们为什么更新 A 记录感到困惑后，他们告诉我问题出在 CDN 上。 他们说这是 cloudflare 服务器的问题，更新 A 记录将修复它传播后。 我有很多问题 - Bluehost 代表在询问时没有解决这些问题。什么可能导致此类问题？团队中没有人破坏我们的 DNS 记录。我管理的其他网站没有这个问题，并且它们使用相同的基础设施运行。  我非常感谢一些见解和教育。我并不完全理解 Web 开发的这一部分，也只是入门级的知识。   由   提交 /u/Cafebonbonz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ctufre/bluehost_wordpress_site_went_down_due_to/</guid>
+      <pubDate>Fri, 17 May 2024 02:21:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络上有什么新鲜事</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ctu23e/whats_new_in_the_web/</link>
+      <description><![CDATA[   /u/feross  [链接] [评论] &lt; /表&gt;]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ctu23e/whats_new_in_the_web/</guid>
+      <pubDate>Fri, 17 May 2024 02:01:27 GMT</pubDate>
+    </item>
     <item>
       <title>有关工作流程/用户流程的 UI/UX 考虑因素的最佳资源</title>
       <link>https://www.reddit.com/r/webdev/comments/1ctqka0/best_resource_for_uiux_considerations_on/</link>
@@ -50,7 +71,7 @@
     <item>
       <title>状态管理</title>
       <link>https://www.reddit.com/r/webdev/comments/1ctn6v6/state_management/</link>
-      <description><![CDATA[如何处理 nextjs + supabase 网站的状态管理？ 示例：一个用户已登录且仅具有访问权限输入 1 内容。第二个用户只能访问类型 2 内容。如何根据用户存储类型 1 和 2 并仅显示它们各自的内容？我应该使用像 redux 这样的东西，还是可以将他们想要的内容类型存储在用户属性或数据库中的某些内容上，然后提供相应的内容？  &amp; #32；由   提交/u/naga-satya1  /u/naga-satya1 reddit.com/r/webdev/comments/1ctn6v6/state_management/&quot;&gt;[链接] [评论]]]></description>
+      <description><![CDATA[如何处理 nextjs + supabase 网站的状态管理？ 示例：一个用户已登录且仅具有访问权限输入 1 内容。第二个用户只能访问类型 2 内容。如何根据用户存储类型 1 和 2 并仅显示它们各自的内容？我应该使用像 redux 这样的东西，还是可以将他们想要的内容类型存储在用户属性或数据库中的某些内容上，然后提供相应的内容？   &amp; #32；由   提交/u/naga-satya1   /u/naga-satya1 reddit.com/r/webdev/comments/1ctn6v6/state_management/&quot;&gt;[链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ctn6v6/state_management/</guid>
       <pubDate>Thu, 16 May 2024 20:37:22 GMT</pubDate>
     </item>
@@ -64,21 +85,21 @@
     <item>
       <title>角度新手</title>
       <link>https://www.reddit.com/r/webdev/comments/1ctlx5o/new_to_angular/</link>
-      <description><![CDATA[我想构建一个仪表板。有小费吗？我拥有 React 和 Tailwind CSS 的中级技能。从未使用过 Material UI。我以为选择一个新框架会很容易，但是哟！  无论如何，我如何创建一个带有漂亮图表、饼图和条形图的仪表板。充实可以连接到后端的东西的最快方法是什么？我发现在线 React 教程比 Angular 的质量更高且最新。  友善一点。我是一个敏感的人。    由   提交/u/Economics-Unique  /u/Economics-Unique  reddit.com/r/webdev/comments/1ctlx5o/new_to_angular/&quot;&gt;[链接] [评论]]]></description>
+      <description><![CDATA[我想构建一个仪表板。有小费吗？我拥有 React 和 Tailwind CSS 的中级技能。从未使用过 Material UI。我以为选择一个新框架会很容易，但是哟！  无论如何，我如何创建一个带有漂亮图表、饼图和条形图的仪表板。充实可以连接到后端的东西的最快方法是什么？我发现在线 React 教程比 Angular 的质量更高且最新。  友善一点。我是一个敏感的人。    由   提交 /u/Economics-Unique   /u/Economics-Unique  reddit.com/r/webdev/comments/1ctlx5o/new_to_angular/&quot;&gt;[链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ctlx5o/new_to_angular/</guid>
       <pubDate>Thu, 16 May 2024 19:48:54 GMT</pubDate>
     </item>
     <item>
       <title>试试我的社交媒体项目！</title>
       <link>https://www.reddit.com/r/webdev/comments/1ctlqcc/try_out_my_social_media_project/</link>
-      <description><![CDATA[大家好，为了让大家参与到我非常热衷的项目中，我希望大家能够试用我的网络应用程序 https://sparkify.vercel.app ，sparks 是一个开源社交媒体平台，它使用户能够使用人工智能发现和创造新想法，并与他人实时交流。让我知道你们的想法！    提交人    /u/Additional_Hall_3034   [链接] [评论]]]></description>
+      <description><![CDATA[嘿伙计们，为了让我一直非常热衷的项目更加投入，我希望你们能够尝试一下我的网络应用程序在 https://sparkify.vercel.app 上，sparks 是一个开源社交媒体平台，使用户能够使用人工智能发现和创造新想法，以及与他人实时沟通。让我知道你们的想法！   由   提交 /u/Additional_Hall_3034   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ctlqcc/try_out_my_social_media_project/</guid>
       <pubDate>Thu, 16 May 2024 19:41:23 GMT</pubDate>
     </item>
     <item>
       <title>在 Squarespace 上转移域名还是购买套餐？</title>
       <link>https://www.reddit.com/r/webdev/comments/1ctlbk6/transfer_domain_on_squarespace_or_buy_the_package/</link>
-      <description><![CDATA[大家好！ 我是一名自由职业者（与 webdev 无关），想制作一个网站来展示我的工作，什么也没有复杂。 我对网络开发完全陌生，我一直在尝试 Squarespace 并且到目前为止非常喜欢它，但我想知道在其他地方购买域名然后转移是否更好/更安全它到 Squarespace 还是直接获取 Squarespace 中域名的 psckage 更好？ 两者的优缺点是什么？我看到了很多有关 Porkbun 购买域名的建议，所以如果我决定独立购买，我认为这是我的选择。 提前感谢您的帮助！    由   提交/u/logi_throway  [链接] [评论]]]></description>
+      <description><![CDATA[大家好！ 我是一名自由职业者（与 webdev 无关），想制作一个网站来展示我的工作，什么也没有复杂。 我对网络开发完全陌生，我一直在尝试 Squarespace 并且到目前为止非常喜欢它，但我想知道在其他地方购买域名然后转移是否更好/更安全它到 Squarespace 还是直接获取 Squarespace 中域名的 psckage 更好？ 两者的优缺点是什么？我看到了很多关于 Porkbun 购买域名的建议，所以如果我决定独立购买，我认为这是我的选择。 提前感谢您的帮助！    由   提交/u/logi_throway  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ctlbk6/transfer_domain_on_squarespace_or_buy_the_package/</guid>
       <pubDate>Thu, 16 May 2024 19:24:52 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[嘿， 我们当前正在使用 npm 工作区设置。它包含 3 个产品使用的共享库。这对于代码的快速开发和可重用性来说是令人惊奇的，但我们正在慢慢增加依赖于库的应用程序，并且随着每个新应用程序的出现，随着 PR 大小的增长，它开始变得越来越困难。 每当有人更改库时，他们都需要立即修复所有使用者。 我们如何才能将其转移到版本化设置而不补偿开发体验？我在 npm 链接上阅读了一些内容，有人还向我推荐了 yalc，但所有这些通常都会带来一个缺点（对监视模式的支持不舒服，经常不得不失败 package.json 等） 对我来说完美的设置是：  我可以运行我的应用程序并更改库，接收即时反馈。 理想情况下，我没有触摸我的 package.json - 我增加库版本，进行更改，立即引用该库，并且可能在本地进行某种“代理”的环境配置。我的应用程序到本地链接的版本化库，无需在 npm 注册表中查找。  这可能吗？   由   提交 /u/Sossenbinder   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ctjko8/what_is_a_reasonable_repo_setup_to_move_from/</guid>
       <pubDate>Thu, 16 May 2024 18:13:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web 组件验证</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ctjgx2/web_component_validation/</link>
-      <description><![CDATA[我有一个使用 Lit 构建的 Web 组件库。我们使用lit-analyzer验证我们的lit html模板：https://github.com/runem/lit-analyzer 这会检查所有输入都是预期的并且属于预期的类型。因此，我们有信心重命名和反应器属性，如果我们没有捕获重构内容的所有用法，我们会收到通知。这类似于 Angular 的类型检查。  这在 Web 组件库内部工作。我正在寻找的是通过 GitHub 操作在消费应用程序中验证 Web 组件使用情况的东西。我希望能够确认以已知名称空间开头的所有元素没有意外的属性，并且所有输入值都具有预期的类型。 Web 组件库发布自定义元素清单文件。我希望找到一个 eslint 插件来使用它，但没有成功。以前有人取得过这样的成就吗？ https://custom-elements-manifest.open-wc.org/ 我的目标应用程序是 Angular 应用程序（如果有的话）。    由   提交/u/ajbrun86  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ctjgx2/web_component_validation/</guid>
-      <pubDate>Thu, 16 May 2024 18:09:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>综合网站监控——你们怎么看？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ctix59/synthetic_website_monitoring_what_do_you_guys/</link>
-      <description><![CDATA[令人兴奋的消息！我开发了一款尖端的综合监控工具https://acumenlogs.com，旨在彻底改变您的在线运营。这就是它改变游戏规则的原因： 用户旅程复制：像用户一样跨设备和位置体验您的网站，以便在问题影响您的受众之前检测并解决问题。 网络错误检测：主动识别并解决网络错误，以保持无缝的在线体验。 Magecart 检测：通过内置 Magecart 检测领先于网络威胁，确保用户的数据保持安全。 &gt; 正常运行时间监控：通过实时正常运行时间监控，不错过任何一个节拍，最大限度地减少停机时间并最大化机会。 SSL 监控：通过持续的 SSL 监控保持一流的安全性，保护用户的信息。  Laravel 日志集成：与 Laravel 日志无缝集成，以增强性能洞察力。 在当今快节奏的数字世界中，用户满意度是关键。我们的综合监控工具使您能够始终如一地提供卓越的体验，无论您的业务规模如何。准备好提升您的在线形象了吗？立即尝试！ https://acumenlogs.com 期待您的反馈和问题！   由   提交/u/deferdie  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ctix59/synthetic_website_monitoring_what_do_you_guys/</guid>
-      <pubDate>Thu, 16 May 2024 17:47:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub 上的适用于 Windows 11 的 Redis 是一个不错的选择吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cth5th/is_redis_for_windows_11_from_github_a_good_option/</link>
-      <description><![CDATA[大家好，我想在 Windows 11 上安装 Redis。我在 YouTube 上看过一些关于安装 Redis 的视频，但我发现一种方法截然不同。  GitHub上有Redis for Windows 11的.exe文件，可以安装该文件在Windows 11上运行Redis。另一种方法是通过Linux或Docker安装Redis。  Redis GitHub 选项是正确的吗？因为它的设置非常简单。 我想安装Redis是为了学习和使用BullMQ。 Redis GitHub 版本能否为我提供后端开发人员应了解的所有必要功能？ 适用于 Windows 11 的 Redis GitHub 链接。 https://github.com/tporadowski/redis/releases   由   提交/u/Leading_Painting  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cth5th/is_redis_for_windows_11_from_github_a_good_option/</guid>
-      <pubDate>Thu, 16 May 2024 16:34:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
