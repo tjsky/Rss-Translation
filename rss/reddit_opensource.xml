@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 19 May 2024 03:16:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 06:17:39 GMT</lastBuildDate>
+    <item>
+      <title>LinkedIn 个人资料页面的替代方案？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1cvf0ju/alternative_to_linkedin_profile_page/</link>
+      <description><![CDATA[我正在寻找一个与 LinkedIn 个人资料页面相当的页面（不是工作匹配或社交信息流），我可以将其托管在自己的域上。我想托管我的个人资料的登录页面，同时尽可能遵循 LinkedIn 的设计。 你为什么不直接使用 LinkedIn？ 非 LinkedIn 用户无法访问 LinkedIn 个人资料页面。有一个使用 URL 的技巧可以做到这一点，但它不一致，它要么允许您访问个人资料，要么要求您连接您的帐户。这就是为什么我想自己托管它，以便有更好的控制和一致的行为。 将我的个人资料提取为 PDF 然后托管它是一个选项，但 .pdf 版本不如网站美观，并且不显示“项目”等部分。 为什么要坚持 LinkedIn 的设计/格式？ LinkedIn 是我专业领域中一个知名的平台。遵循此模板将简化招聘人员浏览我的个人资料的过程（对于使用 LinkedIn 的人）。 由于只有少数视觉定制，它迫使人们以非常有限的方式关注内容效率和创造力。这对我的领域来说是一个很好的品质，所以我希望保留它。我真的很喜欢将媒体嵌入到部分中的可能性。 我愿意听到与 LinkedIn 解决方案不太相似的东西，因为我知道我几乎不能指望一份副本。^^    提交人    /u/Tungill   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1cvf0ju/alternative_to_linkedin_profile_page/</guid>
+      <pubDate>Sun, 19 May 2024 03:33:18 GMT</pubDate>
+    </item>
     <item>
       <title>开源复制粘贴折线图组件</title>
       <link>https://www.reddit.com/r/opensource/comments/1cv2za0/open_source_copy_paste_line_chart_component/</link>
@@ -20,7 +27,7 @@
       <pubDate>Sat, 18 May 2024 15:21:36 GMT</pubDate>
     </item>
     <item>
-      <title>有没有自定义缓存大小的 YouTube PC/Web 客户端？</title>
+      <title>有没有具有自定义缓存大小的 YouTube PC/Web 客户端？</title>
       <link>https://www.reddit.com/r/opensource/comments/1cuv28v/any_youtube_pcweb_client_with_custom_cache_size/</link>
       <description><![CDATA[我想要 mpv 之类的东西，但具有与原始 YouTube 类似的功能（例如主页）。另外，我想更改视频缓存大小，以确保它在我观看时缓存所有视频   由   提交/u/dream_nobody  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cuv28v/any_youtube_pcweb_client_with_custom_cache_size/</guid>
@@ -69,7 +76,7 @@
       <pubDate>Fri, 17 May 2024 16:59:41 GMT</pubDate>
     </item>
     <item>
-      <title>Winamp 宣布将开放其源代码，以便协作开发其适用于 Windows 的传奇播放器。</title>
+      <title>Winamp 宣布将开放其源代码，以便能够协作开发其传奇的 Windows 播放器。</title>
       <link>https://www.reddit.com/r/opensource/comments/1cu8ri8/winamp_has_announced_that_it_is_opening_up_its/</link>
       <description><![CDATA[    /u/Puzzleheaded-Eye8414   [链接] [评论] &lt; /表&gt;]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cu8ri8/winamp_has_announced_that_it_is_opening_up_its/</guid>
@@ -97,18 +104,11 @@
       <pubDate>Fri, 17 May 2024 13:07:05 GMT</pubDate>
     </item>
     <item>
-      <title>Nodejs 应用程序的开源日志记录解决方案</title>
+      <title>适用于 Node.js 应用程序的开源日志解决方案</title>
       <link>https://www.reddit.com/r/opensource/comments/1cu4gk9/an_opensource_logging_solution_for_nodejs_apps/</link>
       <description><![CDATA[带有内置 Web 仪表板的 Node.js 记录器。 为所有 Nodejs 开发人员提供高级日志记录功能不受专有软件限制的水平。 请随时查看并分享您的想法。 https://github.com/errsole/errsole.js/    由   提交 /u/VenkiThoughts   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cu4gk9/an_opensource_logging_solution_for_nodejs_apps/</guid>
       <pubDate>Fri, 17 May 2024 12:55:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenTofu 断言 Terraform 提供商的许可证不会改变的原因是什么？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1cu2wcw/whats_the_reason_opentofu_asserts_that_the/</link>
-      <description><![CDATA[来自 opentofu.org 上的常见问题解答页面 ：  OpenTofu 是否可以与 Terraform 合作的所有提供商一起使用？ OpenTofu 不会有自己的提供商。 Terraform 提供商尚未更改其许可证，并且这种更改的可能性几乎为零。OpenTofu 与当前的 Terraform 提供商合作，但它使用单独的注册表。  &lt;但是为什么我们可以确定他们的许可证不会改变呢？难道 Hashicorp（或现在的 IBM）不能决定将许可证更改为非开源许可证，例如 BSL，就像他们为 Terraform 本身所做的那样？ 有人可以解释 OpenTofu 可以断言的原因吗？ Terraform 提供商的许可证不会改变？   由   提交 /u/Several-Echidna3425    reddit.com/r/opensource/comments/1cu2wcw/whats_the_reason_opentofu_asserts_that_the/&quot;&gt;[链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1cu2wcw/whats_the_reason_opentofu_asserts_that_the/</guid>
-      <pubDate>Fri, 17 May 2024 11:33:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
