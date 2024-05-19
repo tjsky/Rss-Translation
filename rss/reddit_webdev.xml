@@ -4,11 +4,46 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 19 May 2024 09:14:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 12:23:18 GMT</lastBuildDate>
+    <item>
+      <title>有人真正深入了解 grid/flexbox 吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cvmb01/does_anyone_actually_deeply_understand_gridflexbox/</link>
+      <description><![CDATA[抱歉，这是我的手机。当我在电脑前时，我可能会用代码和屏幕截图进行跟进。 考虑这个例子，看看你是否理解 grid/flexbox： 制作一个垂直条和一个水平条，例如，50px 宽/高，具体取决于方向，您可以将它们视为胖窗口任务栏。将事物组织成几个部分（左/上、中、右/下，具体取决于方向）。然后，在每个部分中添加各种尺寸的图像（2000x2000、200x10、10x200 等）以及其他内容（文本、链接等）。 我在任何地方都没有看到解决的问题是让图像“正确”地调整其尺寸 - 这意味着根据定义，图像不会被赋予固定尺寸（重点是理解网格/弹性盒，而不是具有 50 像素高的图像）。 图像应自然收缩，以便横轴尺寸限制在条形边界内。如果图像太宽，以至于该尺寸需要缩小到小于条形的高度以适应宽度（或垂直条形中的高度），那么这是“正确的” - 但是，如果有两个并排的图像不同的高度，那么如果一个人的全高可以限制在条形内，那么它不应该仅仅因为那个人这样做而被额外缩小的图像强迫采取更小的高度。 我认为这个例子设置了设计一个场景来演示图像问题，我认为这是唯一破坏网格/弹性盒的问题。如果有人能解决这个问题，请发帖，因为这可能是互联网上唯一的解决方案。   由   提交 /u/Virtamancer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cvmb01/does_anyone_actually_deeply_understand_gridflexbox/</guid>
+      <pubDate>Sun, 19 May 2024 11:39:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>免费且简单的在线数据库</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cvltiu/free_and_easy_online_databases/</link>
+      <description><![CDATA[大家好， 现在我正在做一些轻型开发。工作，我在自己的服务器上使用数据库。它很好并且有效，但我想知道是否有更好的解决方案。我正在寻找具有免费层的东西（我不需要超过几千行和一个单一的表），易于管理/维护（我使用 HeidiSQL 手动修复我输入的数据/测试），并且具有云/在线方面。 从我的业务分析师背景来看，我会考虑类似共享点列表的东西，这将是理想的解决方案。然而，这很难处理。访问并不容易（令牌化和身份验证握手并不像我想要的那么简单），它不是免费的（尽管有很多方法可以解决这个问题），但它非常容易管理。 大家有什么想法吗？   由   提交/u/roblu001  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cvltiu/free_and_easy_online_databases/</guid>
+      <pubDate>Sun, 19 May 2024 11:08:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发了几年。几乎终于第一次完成了整个项目！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cvl6pe/dev_for_a_few_years_nearly_finally_finished_a/</link>
+      <description><![CDATA[我从未完成过一个应用程序。 我挑战自己完成一个应用程序，现在快完成了！ 一个开发 CLI 工具，用于记录任务、聚合并允许您使用 AI 和其他组织实用程序（如待办事项、电子邮件提醒等）询问有关数据的问题。 https://tasky-front-e439485043fb.herokuapp.com 非常 MVP LP 启动并运行。 你对这个想法有什么看法？ 有兴趣继续发布还是不发布（将为了个人利益完成它）。    提交人    /u/Russell_CCC   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cvl6pe/dev_for_a_few_years_nearly_finally_finished_a/</guid>
+      <pubDate>Sun, 19 May 2024 10:25:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>印度选举出现转折，CORS 成为新恶棍！ CORS 政策导致 API 失败，现在您无法下载选民身份证</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cvkx0q/twist_in_indian_elections_cors_is_the_new_villian/</link>
+      <description><![CDATA[      &amp;# 32；由   提交/u/netham91  [链接] [评论] &lt; /表&gt;]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cvkx0q/twist_in_indian_elections_cors_is_the_new_villian/</guid>
+      <pubDate>Sun, 19 May 2024 10:06:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>意见或建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cvkani/advice_or_suggestions/</link>
+      <description><![CDATA[大家好，希望大家一切顺利。我是一名工程专业的学生，​​热衷于全栈 Web 开发并将项目作为学习之旅的一部分。我现在已经完成了 React 并学习了 Next Js。我在 React 中开发了一些项目，但问题是我没有用户。我不知道如何吸引用户使用我的网络应用程序。在过去的几天里，我在想，我应该开发什么以便人们会使用它，但大多数东西已经在市场上。我希望经验丰富的开发人员就我应该开发的内容提供意见和建议，以便人们能够使用它。 感谢您到目前为止的阅读😁。   由   提交/u/redpool08  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cvkani/advice_or_suggestions/</guid>
+      <pubDate>Sun, 19 May 2024 09:21:53 GMT</pubDate>
+    </item>
     <item>
       <title>寻求为当地公司建立网站的建议</title>
       <link>https://www.reddit.com/r/webdev/comments/1cvikj2/asking_advice_to_build_a_website_for_a_local/</link>
-      <description><![CDATA[大家好，我是一名应届计算机科学毕业生，想为我的朋友们制作一个网站。  我可以使用 CSS 编写基本的 HTML 或使用 React 来构建一个简单的静态网站。但是，我怀疑是否应该使用 WordPress 或 Wix 等 CMS。根据我的经验，我可以使用 React 构建一个网站，然后购买一个域名并将网站托管到 Netlify 等 Web 服务器上。  这两个选项有什么区别？你能给我一些建议吗？   由   提交 /u/chonggggg   [链接] [评论]]]></description>
+      <description><![CDATA[大家好，我是一名应届计算机科学毕业生，想为我的朋友们制作一个网站。  我可以使用 CSS 编写基本的 HTML 或通过 React 构建一个简单的静态网站。但是，我怀疑是否应该使用 Wordpress 或 Wix 等 CMS。根据我的经验，我可以使用 React 构建一个网站，然后购买一个域名并将网站托管到 Netlify 等 Web 服务器上。  这两个选项有什么区别？你能给我一些建议吗？   由   提交 /u/chonggggg   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cvikj2/asking_advice_to_build_a_website_for_a_local/</guid>
       <pubDate>Sun, 19 May 2024 07:15:26 GMT</pubDate>
     </item>
@@ -27,7 +62,7 @@
       <pubDate>Sun, 19 May 2024 06:42:33 GMT</pubDate>
     </item>
     <item>
-      <title>有人知道如何从他们的网址使用证券交易委员会网站上的股票行情进行搜索吗？</title>
+      <title>有人知道如何从他们的网址使用 sec 网站上的股票行情进行搜索吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cvhw9g/anyone_know_how_to_search_using_the_stock_ticker/</link>
       <description><![CDATA[我想做一个自定义查询，可以在其中放置股票代码，然后加载网址。 示例：下面是苹果网站。 https://www.sec.gov/ edgar/browse/?CIK=320193&amp;owner=exclude 我尝试过，但没有成功 https://www.sec.gov/edgar/browse/?CIK=aapl&amp;owner=exclude 有人知道如何让它发挥作用吗？想要在我放置 {aapl} 的位置进行查询，然后将其注入到 url 中。   由   提交 /u/swiggyu   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cvhw9g/anyone_know_how_to_search_using_the_stock_ticker/</guid>
@@ -71,44 +106,9 @@
     <item>
       <title>如何理解代码如何变成实际的网站？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cve6hd/how_to_understand_how_code_turns_into_an_actual/</link>
-      <description><![CDATA[就像我了解 html/css/javascript 的作用一样，但是我在哪里可以了解到如何将所有这些变成一个可以在 google 上搜索的网站？使它“打开”的代码发生了什么？互联网？   由   提交/u/1991banksy  [链接] [评论]]]></description>
+      <description><![CDATA[就像我了解 html/css/javascript 所做的那样，但是我在哪里可以了解所有这些如何变成一个可以在谷歌上搜索的网站？使它“打开”的代码发生了什么？互联网？   由   提交/u/1991banksy  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cve6hd/how_to_understand_how_code_turns_into_an_actual/</guid>
       <pubDate>Sun, 19 May 2024 02:47:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netlify 函数 Mac 与 Linux</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cvde8g/netlify_functions_mac_vs_linux/</link>
-      <description><![CDATA[我刚刚从 Linux 迁移到 Mac，突然间我的 Netlify 函数都无法使用 netlify-cli 工作。这特别奇怪，因为我使用 nvm 和 npm ci ，并且两者都有干净的工作目录。  具体问题是我将所有内容都写为 ESM 而不是 CJS，问题是它们被视为 CJS 并给出错误，抱怨在外部使用 import一个模块的。我预计会有一些细微的差异，但事实并非如此。  要强调的是，这是通过 nvm 和 .nvmrc 实现的完全相同的节点版本。清理两者的工作目录。同一分行（实际上不因分行而异）。甚至在 Mac 上运行 npm ci 。相同的 .env （未通过 git 同步，我使用 scp）。我几乎找不到什么不同。  此外，package.json中有“type”：“module”，扩展名为.js。将扩展名更改为 .mjs 最终会抛出一个关于使用 require() 导入模块的错误（而节点 22 无法解决此问题）还）。   由   提交/u/shgysk8zer0   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cvde8g/netlify_functions_mac_vs_linux/</guid>
-      <pubDate>Sun, 19 May 2024 02:04:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过 URL 向 ChatGPT 传递问题？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cvby0t/pass_questions_to_chatgpt_via_url/</link>
-      <description><![CDATA[你知道如何将参数放入 URL 有什么方法 或者一些工作周围这样做到ChatGPT（或其他类似的人工智能？） 也许使用一些解决方法 - 比如我自己网站上的iframe - 就像我向 www.mysite.com/ai?q=%s 进入网站后，我会按一个按钮在框架或 iram 中填写表格ChatGPT 被加载并通过 DOM 加载 - 填写文本框并按搜索... 如果能够将请求发送到两个甚至更多引擎，那就太酷了 - 比方说OpenAI 和 Gemini 例如，您可以使用以下方式进行 Google 搜索： https://www.google.com/search?q={0} 或 Google 图片 https://www.google.com/search?q={0}&amp;tbm=isch &lt; p&gt;谷歌翻译 https:/ /translate.google.com/?sl=auto&amp;tl=en&amp;text={0}&amp;op=translate Bing https://www.bing.com/search?q={0} DuckDuck&lt; /p&gt; https://duckduckgo.com/?q={0} DeepL https://www.deepl.com/translator# auto/en/{0}   由   提交 /u/Multiversal_Love   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cvby0t/pass_questions_to_chatgpt_via_url/</guid>
-      <pubDate>Sun, 19 May 2024 00:49:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 Firebase 中拥有数组包含的多个过滤器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cvbugr/how_to_have_multiple_filter_of_arraycontains_in/</link>
-      <description><![CDATA[     &lt; td&gt; 我想查询具有包含两个元素的数组的文档。 我尝试了这个，显然它不起作用，它说： UserProfile.vue:104 FirebaseError: 每个析取最多允许 1 个“ARRAY_CONTAINS”过滤器。 &lt; a href=&quot;https://preview.redd.it/6r7eoy265a1d1.png?width=455&amp;format=png&amp;auto=webp&amp;s=d146b3960a4a38ef80f6ff6ad472d41e34c1aee7&quot;&gt;https://preview.redd.it/6r7eoy265a1d1.png?width =455&amp;format=png&amp;auto=webp&amp;s=d146b3960a4a38ef80f6ff6ad472d41e34c1aee7 我正在考虑使用两个单独的查询手动过滤，还有其他解决方案吗？   由   提交/u/Zafugus  [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cvbugr/how_to_have_multiple_filter_of_arraycontains_in/</guid>
-      <pubDate>Sun, 19 May 2024 00:44:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作这个便当盒生成器来发现有趣的布局。你们可以挑剔一下吗？也许可以分享一下您将如何将其提升到一个新的水平？我想将其连接到 ChatGPT 来生成文本，并将其链接到中途机器人来生成图像。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cvaox5/made_this_bento_box_generator_to_discover/</link>
-      <description><![CDATA[https://codepen.io/kevinb1014/pen /Baejwyd   由   提交 /u/kevbookis   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cvaox5/made_this_bento_box_generator_to_discover/</guid>
-      <pubDate>Sat, 18 May 2024 23:47:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>渐进式 Web 应用的用户体验似乎很差</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cv9za6/progressive_web_apps_seem_like_bad_user_experience/</link>
-      <description><![CDATA[以必胜客应用程序为例。为了登录，您将导航到他们的网站。 然后您会被路由回来。 他们在屏幕底部有旧式导航按钮，感觉就像一个彻底的网站 任何类型的身份验证重置密码、登录等都是通过路由到网站并返回来完成的，这是糟糕的体验。 所有的p都是这样吗？我明白为什么苹果想要废除它们   由   提交 /u/Big-Information3242    reddit.com/r/webdev/comments/1cv9za6/progressive_web_apps_seem_like_bad_user_experience/&quot;&gt;[链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cv9za6/progressive_web_apps_seem_like_bad_user_experience/</guid>
-      <pubDate>Sat, 18 May 2024 23:11:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
