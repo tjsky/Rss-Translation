@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 20 May 2024 06:18:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2024 09:17:33 GMT</lastBuildDate>
+    <item>
+      <title>博客：RISC-V 硬件上的自动化内核测试</title>
+      <link>https://www.reddit.com/r/opensource/comments/1cwb0pb/blog_automated_kernel_testing_on_riscv_hardware/</link>
+      <description><![CDATA[  由    /u/ArtistSad8600  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1cwb0pb/blog_automated_kernel_testing_on_riscv_hardware/</guid>
+      <pubDate>Mon, 20 May 2024 09:02:29 GMT</pubDate>
+    </item>
     <item>
       <title>限制 LLM 培训管道使用源代码的许可证可以开源吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1cw7qih/can_a_license_that_restricts_consumption_of/</link>
@@ -13,9 +20,9 @@
       <pubDate>Mon, 20 May 2024 05:09:09 GMT</pubDate>
     </item>
     <item>
-      <title>第一次在 Pypi 中发布并寻求任何反馈</title>
+      <title>第一次在 Pypi 上发布并寻求任何反馈</title>
       <link>https://www.reddit.com/r/opensource/comments/1cvzpxb/first_time_publishing_in_pypi_and_looking_for_any/</link>
-      <description><![CDATA[我为S-transform制作了一个python包 使用双曲窗口（双曲 S 变换或 HSTransform 包）。这是我第一次发布 python 包，因此该项目还远未稳定，仍处于 beta 版本。  主要特点：此转换应用于信号处理，将时间序列转换为频域，分析信号在极短时间内的瞬态变化。一些特殊用例可以是电力系统信号、地球物理信号分析或 MRI ... 目标受众：任何对信号处理或电力系统分析或地理分析感兴趣的人。 比较：已显示与小波变换的比较。 （这在检测瞬态变化方面显示出更大的潜力）  在进一步进展之前，我非常感谢一些反馈。期待有关代码的反馈、改进建议、错误报告或单元测试... HSTransform 可在  上找到pypi。 github 中源代码链接 快速使用 import numpy as np from hstransform import HSTransform # 创建输入信号（例如：电压信号） t = np.linspace(0, 10, 100) # 时间序列 V_m = 220*np.sqrt (2) # 峰值电压 f_V = 50 # 频率 phi_V = 0 # 相位 V_clean = V_m * np.sin(2 * np.pi * f_V * t + phi_V) # 创建电压骤降/骤降（额定电压的 80%） 0.15秒) V_sag = np.where((t &gt;= 2) &amp; (t &lt;= 3.5), 0.5 * V_clean, V_clean) # 创建HSTransform的实例 hs = HSTransform() # 执行变换 signal = V_sag S_transformed = hs.fit_transform(t, signal)    由   提交/u/Ok_Employ_2414   [链接] [评论]]]></description>
+      <description><![CDATA[我制作了一个带有双曲窗口的 S 变换 的 python 包（双曲 S 变换或 HSTransform 包）。这是我第一次发布 python 包，因此该项目还远未稳定，仍处于测试阶段。  主要特点：此变换应用于信号处理，将时间序列转换为频域，分析信号在极短时间内的瞬态变化。一些特殊用例可以是电力系统信号、地球物理信号分析或 MRI... 目标受众：对信号处理或电力系统分析或地理分析感兴趣的任何人。 比较：已显示与小波变换的比较。（显示出在检测瞬态变化方面更有潜力）  在进一步发展之前，我非常感谢一些反馈。期待对代码的反馈、改进建议、错误报告或单元测试... HSTransform 可在 pypi 上使用。 链接到 github 中的源代码 快速使用 import numpy as np from hstransform import HSTransform # 创建输入信号（例如：电压信号） t = np.linspace(0, 10, 100) # 时间序列 V_m = 220*np.sqrt(2) # 峰值电压 f_V = 50 # 频率 phi_V = 0 # 相位 V_clean = V_m * np.sin(2 * np.pi * f_V * t + phi_V) # 创建电压骤降/下降（额定电压的 80%） 0.15 秒） V_sag = np.where((t &gt;= 2) &amp; (t &lt;= 3.5), 0.5 * V_clean, V_clean) # 创建 HSTransform 的实例 hs = HSTransform() # 执行变换 signal = V_sag S_transformed = hs.fit_transform(t, signal)     提交人    /u/Ok_Employ_2414   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cvzpxb/first_time_publishing_in_pypi_and_looking_for_any/</guid>
       <pubDate>Sun, 19 May 2024 22:05:27 GMT</pubDate>
     </item>
@@ -29,14 +36,14 @@
     <item>
       <title>a.i 💔 开源吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1cvlo3q/ai_open_source/</link>
-      <description><![CDATA[        提交人    /u/carlospinheirotorres   [链接] [评论] ]]></description>
+      <description><![CDATA[   /u/carlospinheirotorres   [链接] [评论] &lt; /表&gt;]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cvlo3q/ai_open_source/</guid>
       <pubDate>Sun, 19 May 2024 10:58:54 GMT</pubDate>
     </item>
     <item>
       <title>LinkedIn 个人资料页面的替代方案？</title>
       <link>https://www.reddit.com/r/opensource/comments/1cvf0ju/alternative_to_linkedin_profile_page/</link>
-      <description><![CDATA[我正在寻找一个与 LinkedIn 个人资料页面相当的页面（不是工作匹配或社交信息流），我可以将其托管在自己的域上。我想托管我的个人资料的登录页面，同时尽可能遵循 LinkedIn 的设计。 你为什么不直接使用 LinkedIn？ 非 LinkedIn 用户无法访问 LinkedIn 个人资料页面。有一个使用 URL 的技巧可以做到这一点，但它不一致，它要么允许您访问个人资料，要么要求您连接您的帐户。这就是为什么我想自己托管它，以便有更好的控制和一致的行为。 将我的个人资料提取为 PDF 然后托管它是一个选项，但 .pdf 版本不如网站美观，并且不显示“项目”等部分。 为什么要坚持 LinkedIn 的设计/格式？ LinkedIn 是我专业领域中一个知名的平台。遵循此模板将简化招聘人员浏览我的个人资料的过程（对于使用 LinkedIn 的人）。 由于只有少数视觉定制，它迫使人们以非常有限的方式关注内容效率和创造力。这对我的领域来说是一个很好的品质，所以我希望保留它。我真的很喜欢将媒体嵌入到部分中的可能性。 我愿意听到与 LinkedIn 解决方案不太相似的东西，因为我知道我几乎不能指望一份副本。^^    提交人    /u/Tungill   [link] [评论]]]></description>
+      <description><![CDATA[我正在寻找可以在自己的域上托管的与 LinkedIn 个人资料页面（不是职位匹配或社交提要）等效的内容。我想为我的个人资料托管一个登陆页面，同时尽可能坚持 LinkedIn 的设计。 为什么不直接使用 LinkedIn？ 非 LinkedIn 无法访问 LinkedIn 个人资料页面用户。 URL 有一个技巧可以实现，但它不一致，它要么让您访问个人资料，要么要求您连接您的帐户。这就是为什么我想自己托管它，以获得更好的控制和一致的行为。将我的个人资料提取为 PDF，然后托管 - 这是一个选项，但 .pdf 版本不如网站美观，并且不&#39; t 显示诸如“项目”之类的部分。 为什么坚持 LinkedIn 的设计/格式？LinkedIn 是我的专业领域中的一个众所周知的平台。遵循此模板将简化招聘人员浏览我的个人资料的过程（对于那些使用 LinkedIn 的人）。 仅作为一些视觉定制进行链接，它迫使我们以非常有限的方式关注内容效率和创造力。这对我的域名来说是一个很好的品质，所以我希望保留它。我真的很喜欢将媒体嵌入到各个部分的可能性。 我愿意听到与 LinkedIn 解决方案不太相似的解决方案，因为我知道我很难希望得到一份副本。 ^^   由   提交 /u/Tungill   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cvf0ju/alternative_to_linkedin_profile_page/</guid>
       <pubDate>Sun, 19 May 2024 03:33:18 GMT</pubDate>
     </item>
@@ -78,7 +85,7 @@
     <item>
       <title>寻找一个支持 Vim 的 Windows 开源便签程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1cupbut/looking_for_an_open_source_sticky_note_program/</link>
-      <description><![CDATA[我知道这听起来很具体，但你必须问。我经常使用 Windows 便笺，并且真的宁愿停止使用它而转而使用开源的东西。最终，我真的希望能够在键入 Vim 命令时使用它们，这就是促使我首先寻找替代方案的原因。   由   提交 /u/Verbais   [链接] [评论]]]></description>
+      <description><![CDATA[我知道这听起来很具体，但你得问。我经常使用 Windows 便签，真的希望停止使用它，转而使用一些开源的东西。最终，我真的希望能够在输入 Vim 命令时使用它们，这就是我首先寻找替代方案的原因。    由   提交  /u/Verbais   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cupbut/looking_for_an_open_source_sticky_note_program/</guid>
       <pubDate>Sat, 18 May 2024 04:41:59 GMT</pubDate>
     </item>
@@ -97,18 +104,11 @@
       <pubDate>Fri, 17 May 2024 20:20:14 GMT</pubDate>
     </item>
     <item>
-      <title>我可以将 Open RPG Maker 的外壳与 Godot 结合起来，使其发挥作用吗？</title>
+      <title>我可以将开放式角色扮演游戏制作工具的外壳与 godot 结合起来使其发挥作用吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1cuadhc/could_i_take_the_husk_of_open_rpg_maker_and/</link>
       <description><![CDATA[ 由   提交 /u/WalkingGundam   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cuadhc/could_i_take_the_husk_of_open_rpg_maker_and/</guid>
       <pubDate>Fri, 17 May 2024 16:59:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Winamp 宣布将开放其源代码，以便协作开发其适用于 Windows 的传奇播放器。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1cu8ri8/winamp_has_announced_that_it_is_opening_up_its/</link>
-      <description><![CDATA[    /u/Puzzleheaded-Eye8414   [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1cu8ri8/winamp_has_announced_that_it_is_opening_up_its/</guid>
-      <pubDate>Fri, 17 May 2024 15:54:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
