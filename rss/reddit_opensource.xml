@@ -3,8 +3,8 @@
   <channel>
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
-    <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 20 May 2024 18:17:51 GMT</lastBuildDate>
+    <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
+    <lastBuildDate>Mon, 20 May 2024 21:12:33 GMT</lastBuildDate>
     <item>
       <title>GIGO Dev - 程序员的开源学习平台</title>
       <link>https://www.reddit.com/r/opensource/comments/1cwm8ik/gigo_dev_an_open_source_learning_platform_for/</link>
@@ -15,7 +15,7 @@
     <item>
       <title>Cal.com 实际上是开源的</title>
       <link>https://www.reddit.com/r/opensource/comments/1cwm0o7/calcom_thats_actually_open_source/</link>
-      <description><![CDATA[我正在寻找其他开发人员与我合作，使 cal.com 真正完全开源。我们将删除任何需要支付许可证费用的依赖项，并重写它们或从代码库中删除它们。世界值得一个真正开源且完全免费的调度解决方案。我将在此线程上发布可用的更新。   由   提交/u/Dense_Monk_694   [链接] [评论]]]></description>
+      <description><![CDATA[我正在寻找其他开发人员与我合作，使 cal.com 真正完全开源。我们将删除任何需要支付许可证费用的依赖项，并重写它们或从代码库中删除它们。世界值得一个真正开源且完全免费的调度解决方案。我将在此线程上发布可用的更新。   由   提交 /u/Dense_Monk_694   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cwm0o7/calcom_thats_actually_open_source/</guid>
       <pubDate>Mon, 20 May 2024 18:04:04 GMT</pubDate>
     </item>
@@ -36,7 +36,7 @@
     <item>
       <title>Bigcapital - QuickBooks 的开源替代品</title>
       <link>https://www.reddit.com/r/opensource/comments/1cwhk1q/bigcapital_opensource_alternative_to_quickbooks/</link>
-      <description><![CDATA[  由    /u/AdInner8113  提交  [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/AdInner8113  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cwhk1q/bigcapital_opensource_alternative_to_quickbooks/</guid>
       <pubDate>Mon, 20 May 2024 14:56:12 GMT</pubDate>
     </item>
@@ -50,21 +50,21 @@
     <item>
       <title>Spring 的 Phoenix 模板引擎</title>
       <link>https://www.reddit.com/r/opensource/comments/1cwbeoz/phoenix_template_engine_for_spring/</link>
-      <description><![CDATA[几个月前，我发布了有关 Pheonix 的文章，这是我开始开发的 Spring boot 模板引擎。它成功地引起了一些关注，我从这里得到了非常好的反馈。我继续开发它，让它更好更快。经过几个月的工作，我有了一个新版本，我相信值得再次发布。我想收集尽可能多的反馈，让凤凰城变得更好。它尚未准备好用于生产使用，还有很多事情需要完成（请参阅“问题”）。 什么是 Phoenix Phoenix 是一个现代模板引擎，用于Spring 和 Spring Boot 旨在通过提供一种创建复杂和模块化模板的方法来促进复杂 Web 应用程序的开发，该模板受益于服务器端渲染，以便更好地集成前端和后端。 Phoenix 与 Thymeleaf 或 Freemarker  与目前其他现有的模板引擎相比，Phoenix 具有以下几个优势：  能够将 Java 代码直接集成到 HTML 模板中，而无需学习新的语法或特殊的语法。  一种更容易理解的语法，只需要一个特殊字符@即可将Java代码集成到HTML代码中。 可以的片段或组件可以组合和重用，使代码更易于维护。 速度，速度，速度 - Phoenix 模板经过编译，提供的渲染速度比 Thymeleaf 快几个数量级。在我的（基本）基准测试中，Phoenix 甚至比 Rocker 稍快 借助 Phoenix View，您可以轻松地从任何控制器返回网页或 JSON 对象 反向路由 - Spring 的一个全新功能。 URL 在运行时写入模板中，无需手动写入。您只需要提及控制器和方法，Phoenix 就会计算出正确的 URL。这样，您就可以在控制器中更改 URL，而无需修改模板。 通过从 JS 调用后端来动态修改页面，以获得可随时添加到 DOM 的片段/模块。  与 Rocker 几乎 100% 兼容（并致力于实现完全兼容性） 易于配置*（正在进行中以减少必要的依赖性）。  为什么选择 Phoenix 而不是 React/Angular/Vue？ Phoenix 无意成为 JS 框架的替代品。相反，Phoenix 的目标是利用现有的 JS 框架添加 SSR，从而提高页面渲染速度和 FE-BE 集成。您不再需要总是返回复杂的 JSON；您可以直接提供一个 HTML 页面，其中包含所需的所有内容，仅此而已。关于 SSR 与非 SSR 可能存在很大的争论，因此 Phoenix 尝试结合两者的优点。 开源 Phoenix 完全开源，可以完全用于自由的。它还不够稳定，无法在生产中使用，但我将继续开发它，致力于稳定性和性能，并尝试添加其他功能。当然，值得赞赏。 更多详细信息：https://pazvanti.github.io/Phoenix/  我的博客：https://petrepopescu.tech 意见、反馈、批评等。 这篇文章是为了收集反馈。因此，我欢迎您提出任何意见或批评。请避免使用诸如“让我们回到 JSP”之类的评论。 （Phoenix 完全不同，性能更高且更易于集成）或“当有 React/Angular/Vue/另一个 JS 框架时为什么要使用它”？ （我相信基于 JS 的 FE 框架和提供 SSR 的 BE 端更集成的变体都有空间）。   由   提交/u/pazvanti2003  [链接] [评论]]]></description>
+      <description><![CDATA[几个月前，我发布了有关 Pheonix 的文章，这是我开始开发的 Spring boot 模板引擎。它成功地引起了一些关注，我从这里得到了非常好的反馈。我继续开发它，让它更好更快。经过几个月的工作，我有了一个新版本，我相信值得再次发布。我想收集尽可能多的反馈，让凤凰城变得更好。它尚未准备好用于生产使用，还有很多事情需要完成（请参阅“问题”）。 什么是 Phoenix Phoenix 是一个现代模板引擎，用于Spring 和 Spring Boot 旨在通过提供一种创建复杂和模块化模板的方法来促进复杂 Web 应用程序的开发，该模板受益于服务器端渲染，以便更好地集成前端和后端。 Phoenix 与 Thymeleaf 或 Freemarker  与目前其他现有模板引擎相比，Phoenix 具有以下几个优势：  能够将 Java 代码直接集成到 HTML 模板中，而无需学习新的语法或特殊的语法。  一种更容易理解的语法，只需要一个特殊字符@即可将Java代码集成到HTML代码中。 可以的片段或组件可以组合和重用，使代码更易于维护。 速度，速度，速度 - Phoenix 模板经过编译，提供的渲染速度比 Thymeleaf 快几个数量级。在我的（基本）基准测试中，Phoenix 甚至比 Rocker 稍快 借助 Phoenix View，您可以轻松地从任何控制器返回网页或 JSON 对象 反向路由 - Spring 的一个全新功能。 URL 在运行时写入模板中，无需手动写入。您只需要提及控制器和方法，Phoenix 就会计算出正确的 URL。这样，您就可以在控制器中更改 URL，而无需修改模板。 通过从 JS 调用后端来动态修改页面，以获得可随时添加到 DOM 的片段/模块。  与 Rocker 几乎 100% 兼容（并致力于实现完全兼容性） 易于配置*（正在进行中以减少必要的依赖性）。  为什么选择 Phoenix 而不是 React/Angular/Vue？ Phoenix 无意成为 JS 框架的替代品。相反，Phoenix 的目标是利用现有的 JS 框架添加 SSR，从而提高页面渲染速度和 FE-BE 集成。您不再需要总是返回复杂的 JSON；您可以直接提供一个 HTML 页面，其中包含所需的所有内容，仅此而已。关于 SSR 与非 SSR 可能存在很大的争论，因此 Phoenix 尝试结合两者的优点。 开源 Phoenix 完全开源，可以完全用于自由的。它还不够稳定，无法在生产中使用，但我将继续开发它，致力于稳定性和性能，并尝试添加其他功能。当然，值得赞赏。 更多详细信息：https://pazvanti.github.io/Phoenix/  我的博客：https://petrepopescu.tech 意见、反馈、批评等。 这篇文章是为了收集反馈。因此，我欢迎您提出任何意见或批评。请避免使用诸如“让我们回到 JSP”之类的评论。 （Phoenix 完全不同，性能更高且更易于集成）或“当有 React/Angular/Vue/另一个 JS 框架时为什么要使用它”？ （我相信基于 JS 的 FE 框架和提供 SSR 的 BE 端更集成的变体都有空间）。   由   提交/u/pazvanti2003  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cwbeoz/phoenix_template_engine_for_spring/</guid>
       <pubDate>Mon, 20 May 2024 09:30:43 GMT</pubDate>
     </item>
     <item>
       <title>博客：RISC-V 硬件上的自动化内核测试</title>
       <link>https://www.reddit.com/r/opensource/comments/1cwb0pb/blog_automated_kernel_testing_on_riscv_hardware/</link>
-      <description><![CDATA[ 由   提交/u/ArtistSad8600  [链接] [评论]]]></description>
+      <description><![CDATA[  由    /u/ArtistSad8600  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cwb0pb/blog_automated_kernel_testing_on_riscv_hardware/</guid>
       <pubDate>Mon, 20 May 2024 09:02:29 GMT</pubDate>
     </item>
     <item>
       <title>限制 LLM 培训管道使用源代码的许可证可以开源吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1cw7qih/can_a_license_that_restricts_consumption_of/</link>
-      <description><![CDATA[这件事已经困扰我一段时间了。我有几个小软件项目想与人类用户分享，但我已经停止将我的代码推送到 github，因为一想到我正在为闭源语言模型的技术寡头垄断贡献免费劳动力，这让我感觉有点恶心. 我知道我的想法存在矛盾。我曾在几家公司工作过，他们的产品是基于开源产品构建的（尽管公平地说，其中一些公司不仅使用开源，而且还积极贡献或制作自己的开源项目），并且我为开源做出了贡献我知道的项目用于商业产品。我并不声称没有矛盾，而且我也不想在这里解决这些问题。 我想知道的是：开源的定义中是否有空间用于强加许可的空间对许可源的分发进行限制，使其不能通过像 Github 这样的托管服务进行分发，这些服务的服务条款包括隐含的许可授予，允许他们基本上用他们托管的代码做任何他们想做的事？ I了解OSI 提供的开源定义，并且我可以看到针对“仅限人类的开源”提出了很好的论据。 （但我也可以看到一些很好的反驳论据）。我还了解到版权本身（对于法学硕士而言，可以说是一种过时的法律范式）包括尚未在法庭上充分发挥作用的合理使用原则。 我是唯一有这种感觉的人吗？方式？或者是社区中其他人共享有一个需要解决的问题的感觉？ 如果我们不能将限制使用所涵盖软件来培训法学硕士的许可证称为“开源”但我们仍然想以 OSI 定义所涵盖的方式与人类分享它，我们会称之为什么？在我看来，在没有开源通常要求的归属的情况下禁止在法学硕士中使用的限制并不会使此类软件成为专有软件（尽管我可以看到有人对这种限制感到冒犯，希望将其称为专有软件）。 今天早些时候我正在考虑这个问题，并决定尝试将这样的许可证放在一起，并将其称为“人类公共许可证”： * https://gitea.com/waynr/ human-public-license 这是我发现的 MPL 2.0 衍生品的修改在“非人工智能”集合中其他许可证的版本。 我想将此许可证称为“开源”。因为我认为在 LLM 炒作和 LLM 的产品化让我意识到我打算与其他人共享的代码也可能用于培训闭源 LLM 之前，它非常符合开源精神。 并不是说它非常相关或重要，但我正在最近开始使用的一个小工具上试用此许可证： * https ://gitea.com/waynr/chooks   由   提交 /u/trickofshade   [链接] [评论]]]></description>
+      <description><![CDATA[这件事困扰了我一段时间。我有几个小型软件项目想与人类用户分享，但我已经停止将代码推送到 GitHub，因为想到我正在为封闭源语言模型的技术寡头提供免费劳动力，这让我感觉有点恶心。 我知道我的想法有矛盾。我曾为几家公司工作，这些公司的产品都是基于开源产品构建的（虽然公平地说，其中几家公司不仅仅是_使用_开源，而且还积极贡献或制作自己的开源项目），我也为我知道用于商业产品的开源项目做出了贡献。我并不声称自己没有矛盾，也不想在这里解决这些矛盾。 我想知道的是：开源的定义中是否有空间允许许可证对许可源的分发施加限制，以使其不能通过 Github 等托管服务进行分发，这些托管服务的服务条款包括默示许可授予，允许他们基本上对他们托管的代码做任何他们想做的事情？ 我知道 OSI 提供了 开源定义，我可以看到反对“仅限人类的开源”的良好论据（但我也可以看到一些很好的反驳）。我还知道版权本身（就 LLM 而言，可以说是过时的法律范式）包括公平使用原则，但该原则尚未在法庭上充分发挥作用。 我是唯一有这种感觉的人吗？或者这种感觉是否意味着社区中其他人也存在一个需要解决的问题？ 如果我们不能将一个限制使用涵盖的软件来训练 LLM 的许可证称为“开源”，但我们仍然希望以 OSI 定义所涵盖的方式与人类共享它，我们该如何称呼它？在我看来，限制在 LLM 中使用而没有通常要求开源的归属并不意味着这种软件是专有的（尽管我看到有人对这种限制感到冒犯，想称其为专有）。 我今天早些时候考虑过这个问题，并决定尝试整理这样一个许可证，称之为“人类公共许可证”： * https://gitea.com/waynr/human-public-license 这是我在其他许可证的“非 AI”版本集合中找到的 MPL 2.0 衍生产品的修改。 我想把这个许可证称为“开源”因为我认为它符合开源精神，在 LLM 炒作和 LLM 产品化之前，我意识到我打算与其他人分享的代码也可能用于训练闭源 LLM。 并不是说它非常相关或重要，但我正在最近开始使用的一个小工具上试用此许可证： * https://gitea.com/waynr/chooks    提交人    /u/trickofshade   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cw7qih/can_a_license_that_restricts_consumption_of/</guid>
       <pubDate>Mon, 20 May 2024 05:09:09 GMT</pubDate>
     </item>
@@ -78,7 +78,7 @@
     <item>
       <title>显示热键 1.3.2 发布！使用热键立即应用显示设置！</title>
       <link>https://www.reddit.com/r/opensource/comments/1cvnql2/display_hot_keys_132_released_instantly_apply/</link>
-      <description><![CDATA[网站：https://jon- mil-92.github.io/DisplayHotKeys/ 更改日志  清除热键按钮现在位于热键旁边键。 缩短了插槽指示器标签。 修复了启动时运行按钮在刷新应用程序后恢复到不正确状态的错误。&lt; /li&gt; 清除所有热键槽时添加了确认弹出窗口。  发行说明 此版本侧重于压缩 UI。 清除热键按钮已更改为热键旁边的小按钮，并且根据是否设置热键动态禁用和启用自身。插槽指示器标签也被缩短。 如果您事先安装了 Display Hot Keys 1.2.0 或更早版本，您必须先将其卸载，然后才能使用 1.3.2 版本的安装程序 。此外，如果更改主显示器，然后以某种方式更改显示配置，则应用程序可能会挂起并拒绝启动备份。目前，如果发生这种情况，重新启动 Windows 将阻止应用程序挂起并拒绝启动。 如果您发现此软件有用，请考虑为该项目授予“星”级。在 GitHub 页面上！如果您真的很慷慨，请考虑使用网站或应用程序中的 PayPal 捐赠按钮进行捐赠。谢谢！   由   提交/u/jonRock1992   [链接] [评论]]]></description>
+      <description><![CDATA[网站：https://jon- mil-92.github.io/DisplayHotKeys/ 更改日志  清除热键按钮现在位于热键旁边键。 缩短了插槽指示器标签。 修复了启动时运行按钮在刷新应用程序后恢复到不正确状态的错误。&lt; /li&gt; 在清除所有热键插槽时添加了确认弹出窗口。  发行说明 此版本侧重于压缩 UI。 清除热键按钮已更改为热键旁边的小按钮，并且根据是否设置热键动态禁用和启用自身。插槽指示器标签也被缩短。 如果您事先安装了 Display Hot Keys 1.2.0 或更早版本，您必须先将其卸载，然后才能使用 1.3.2 版本的安装程序 。此外，如果更改主显示器，然后以某种方式更改显示配置，则应用程序可能会挂起并拒绝启动备份。目前，如果发生这种情况，重新启动 Windows 将阻止应用程序挂起并拒绝启动。 如果您发现此软件有用，请考虑为该项目授予“星”级。在 GitHub 页面上！如果您真的很慷慨，请考虑使用网站或应用程序中的 PayPal 捐赠按钮进行捐赠。谢谢！   由   提交/u/jonRock1992   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cvnql2/display_hot_keys_132_released_instantly_apply/</guid>
       <pubDate>Sun, 19 May 2024 13:00:06 GMT</pubDate>
     </item>
@@ -106,7 +106,7 @@
     <item>
       <title>为开源做出贡献是我做过的最好的决定之一。</title>
       <link>https://www.reddit.com/r/opensource/comments/1cuznsp/contributing_to_opensource_was_one_of_the_best/</link>
-      <description><![CDATA[每个星期都会有人联系我，感谢我的作品可供所有人免费使用，它永远不会失败我脸上露出微笑。更不用说有时我从世界各地的人那里得到的工作/业务机会了，他们对我所贡献的同一领域感兴趣。 确实，为开源做出贡献是最好的决定之一我曾经做过，而且我认为我永远不会停止贡献，只要我能做到。 干杯， Hamza   由   提交/u/_iamhamza_  [链接] [评论]]]></description>
+      <description><![CDATA[每周都会有人联系我，感谢我所做的工作，这些工作可供所有人免费使用，这让我总是面带微笑。更不用说我有时会收到来自世界各地的人的工作/商业邀请，他们对我所贡献的同一领域感兴趣。 确实，为开源做贡献是我做过的最好的决定之一，只要我能，我想我永远不会停止贡献。 干杯， Hamza    提交人    /u/_iamhamza_   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cuznsp/contributing_to_opensource_was_one_of_the_best/</guid>
       <pubDate>Sat, 18 May 2024 15:21:36 GMT</pubDate>
     </item>

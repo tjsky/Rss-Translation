@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 20 May 2024 18:17:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2024 21:12:29 GMT</lastBuildDate>
+    <item>
+      <title>数据库连接，如何允许从任何地方访问。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cwqdjb/database_connection_how_to_allow_access_from/</link>
+      <description><![CDATA[现在我正在开发一个网络应用程序。我完成了用户注册和身份验证并将其连接到我的 PostgreSQL 数据库。  我遇到的问题：数据库托管在我的本地主机上。所以无法从任何地方访问它。稍后，来自任何地方的人们都应该能够从任何地方创建用户帐户。 （我知道网络应用程序也必须托管在其他地方，而不是在我的本地主机上，但这在这一点上不是问题。）  我的问题是是否有一种方法来托管数据库，以便可以从任何地方访问它吗？ 有人告诉我，AWS 等云服务可以使用。但这看起来工作量很大。 我是一名计算机科学家学生，实际上没有任何 webdev 经验。这是我们的项目所需要的。一个基于 jodel 的网络应用程序。 非常感谢任何关于去哪里的想法。   由   提交 /u/-SchlauchbootlippeN-   /u/-SchlauchbootlippeN- reddit.com/r/webdev/comments/1cwqdjb/database_connection_how_to_allow_access_from/&quot;&gt;[链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cwqdjb/database_connection_how_to_allow_access_from/</guid>
+      <pubDate>Mon, 20 May 2024 21:02:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建 ChatGPT 图形客户端并将其部署到云端</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cwpb5v/building_a_chatgpt_graphical_client_and_deploying/</link>
+      <description><![CDATA[TL;DR​ 使用 Wing 和 Next.js 构建并部署 ChatGPT 客户端。 本地测试应用程序（在本地云模拟器），然后再将其部署到云提供商。 查看此处的文章。   由   提交 /u/nate4t   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cwpb5v/building_a_chatgpt_graphical_client_and_deploying/</guid>
+      <pubDate>Mon, 20 May 2024 20:18:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Websockets 制作多人游戏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cwp0me/making_multiplayer_game_with_websockets/</link>
+      <description><![CDATA[延迟问题。我就纳闷，怎么一个网站的浏览器里没有好游戏呢？  我的意思是 - 假设我们有 CS、DOTA，甚至是 RUST 等游戏，因此有 5、10 和 100 多人同时玩。取决于地点，但绝大多数游戏都可以在多人游戏中顺利运行。然而，如果我们采用在 websocket 上运行的基于网站的游戏 - 一旦有 10 名或更多人 - 它就开始严重滞后。是否有可能创建一个具有愉快体验的低多边形游戏，或者一个可以处理很多人同时与世界互动的 3D 工具？  尽管 Websockets 是全双工的，但我觉得它不如他们在 AAA 游戏中使用的任何东西？这些游戏使用 C++，但我们可以使用 Rust 到 WASM 以获得最大性能，但连接仍然会导致延迟？    由   提交 /u/lponkl   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cwp0me/making_multiplayer_game_with_websockets/</guid>
+      <pubDate>Mon, 20 May 2024 20:06:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoDaddy 对 cPanel 访问的收费为 120 美元/年。感觉就像是盗版。什么是更好的选择？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cwnhi9/godaddy_charges_120year_for_cpanel_access_feels/</link>
+      <description><![CDATA[根据标题，我真的不想每年向 godaddy 支付 120 美元来访问我的域名（他们想要更多的费用）管理 SSL）。我只想上传我在其他地方获得的 SSL 证书。 有更好的方法吗？我想知道是否需要转移域名。 完全是新手，但我的网站只是指向另一个已经安全的网站。我只是希望我的网站能够安全地传输，以便浏览器在传输之前不会停止加载我的网站。提前致谢！   由   提交 /u/OnFireEsquire   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cwnhi9/godaddy_charges_120year_for_cpanel_access_feels/</guid>
+      <pubDate>Mon, 20 May 2024 19:04:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>探索后端框架（Django 和依赖注入）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cwmwk5/exploring_backend_frameworks_django_dependency/</link>
+      <description><![CDATA[所以我在 Symfony 上工作了相当多的时间，在 Spring 上工作了一点，这两个框架似乎都严重依赖服务和依赖注入来完成工作。我一直在研究 .Net，它似乎是一个类似的故事。但 Django 似乎并没有真正做到这一点，至少不是开箱即用的。 如果我尝试使用 Django 为客户端构建微服务（而不是 Java Spring），我可能会遇到什么问题、Symfony 或 .Net）？我正在构建旨在运行具有大量复杂业务需求的中型企业的软件。这将是一种内部工具的情况，它需要能够在气隙环境中运行。   由   提交/u/somecallmetim27  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cwmwk5/exploring_backend_frameworks_django_dependency/</guid>
+      <pubDate>Mon, 20 May 2024 18:40:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>我建立了一个网站来检查你今天是否被诅咒。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cwmduf/i_built_a_website_that_checks_if_you_are_cursed/</link>
+      <description><![CDATA[https://www.amicursedtoday.com 底部文字   由   提交 /u/alltender   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cwmduf/i_built_a_website_that_checks_if_you_are_cursed/</guid>
+      <pubDate>Mon, 20 May 2024 18:19:17 GMT</pubDate>
+    </item>
     <item>
       <title>如何将 .ttf 文件字体应用到 html 文本。</title>
       <link>https://www.reddit.com/r/webdev/comments/1cwlupi/how_to_apply_the_ttf_file_font_to_the_html_text/</link>
@@ -55,60 +97,18 @@
       <pubDate>Mon, 20 May 2024 15:57:13 GMT</pubDate>
     </item>
     <item>
-      <title>301重定向</title>
+      <title>301 重定向</title>
       <link>https://www.reddit.com/r/webdev/comments/1cwinim/301_redirecting/</link>
       <description><![CDATA[如果这是一个初学者问题，请原谅我，我主要致力于实际构建组件。 我的老板拥有一堆组件domain.com（包括我们的主站点）中的域，并希望将所有这些域转发到我们的主站点。 domain.com 关于如何执行此操作的文档非常过时...是否有人有关于通过域名注册商进行 301 重定向的教程的链接？我假设我必须使用 filezilla 或其他东西，但真的不想破坏一切。 谢谢！    ;由   提交 /u/Lintaar   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cwinim/301_redirecting/</guid>
       <pubDate>Mon, 20 May 2024 15:42:44 GMT</pubDate>
     </item>
     <item>
-      <title>在哪里通过实践学习 OAuth、OIDC、PKCE Flow、JWT 等</title>
+      <title>在哪里可以学到 OAuth、OIDC、PKCE Flow、JWT 等</title>
       <link>https://www.reddit.com/r/webdev/comments/1cwibsx/where_to_learn_oauth_oidc_pkce_flow_jwt_etc_by/</link>
       <description><![CDATA[我观看了大量视频并阅读了大量有关这些内容的文档，但我通过实践来学习，并且我已经接受了这些技术是对我来说，这些都太深了，无法通过阅读来学习。  我的公司广泛使用这些，是否有人对课程/视频（我们有 Udemy）有任何建议，可以介绍这些内容并引导您在代码中实现它们？    由   提交/u/TopNo6605  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cwibsx/where_to_learn_oauth_oidc_pkce_flow_jwt_etc_by/</guid>
       <pubDate>Mon, 20 May 2024 15:28:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于着陆页 A/B 测试的预算工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cwi2u6/a_budget_tool_for_ab_testing_on_landing_page/</link>
-      <description><![CDATA[嗨。我们正在为我们的网络应用程序的登陆页面寻找 A/B 测试工具，以提高转化率。遗憾的是，Google Optimize 已停止使用，而且我发现 Firebase 仍然不支持网站。有什么建议吗？   由   提交 /u/dovefalconhand   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cwi2u6/a_budget_tool_for_ab_testing_on_landing_page/</guid>
-      <pubDate>Mon, 20 May 2024 15:18:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>点击煎饼图标！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cwhsfj/click_the_pancake_icon/</link>
-      <description><![CDATA[我最近重新设计了我们公司的网站，为此我添加了一个用于移动视图的汉堡包图标。我刚刚无意中听到一位 IT 人员建议用户“单击煎饼图标”。 我笑了，但现在我认为他没有错......它看起来确实更像煎饼而不是汉堡包!   由   提交 /u/SwashbucklinChef   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cwhsfj/click_the_pancake_icon/</guid>
-      <pubDate>Mon, 20 May 2024 15:06:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>请多供应商网站平台提供建议！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cwhowz/please_advice_on_platform_for_multivendor_website/</link>
-      <description><![CDATA[大家好， 我正在尝试创建一个多供应商平台，但我不知道该使用什么在数百个可用选项之间进行选择。 我尝试使用 Wordpress，但它显然不是设计为多供应商电子商务网站的。 我尝试了 Dokan 和其他插件，但是它们看起来都或多或少相同，很可能是因为它们与 Woocommerce 和 Wordpress 核心配合使用。 例如，对于卖家来说，将图像上传到产品是可怕且复杂的，没有任何指导或简单的操作他们;更不用说可以“发布”的管理员了。批准产品（“发布”，因为显然 WordPress 带来了博客的想法），而且它也非常慢，即使是在本地也是如此！ 我也尝试过 Shopify（付费），但它非常封闭，我几乎无法执行任何未预先编程的操作。 我正在寻找 Wordpress/Woocommerce 以及 Dokan 等所有插件的替代品。 它也是重要的是，开发人员支持实现功能和管理设计部分（或者从一开始就具有现代设计）。 我肯定需要为客户提供智能手机应用程序（如果是为了更好）卖家也如此），而且由于分期付款，它必须与 PayPal 兼容。 我通过 Google 搜索找到了几个选项（基于 Laravel 等），但如果有人已经有这方面的经验在这方面，甚至可以给我一个关于使用什么的指示，我会非常高兴！ 两者都是免费的（但我认为它们不存在，或者至少没有更新！）和付费选项很好！   由   提交 /u/mtamburelli   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cwhowz/please_advice_on_platform_for_multivendor_website/</guid>
-      <pubDate>Mon, 20 May 2024 15:01:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>你会如何完成这个家庭任务分配？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cwhdgk/how_would_you_go_about_this_home_task_assignment/</link>
-      <description><![CDATA[      你好，初级 FE 开发人员，目前正在寻找工作。我已经发送了一些申请，一家公司已经联系了我，并邀请我参加面试，但问题是……他们希望我编写一份家庭任务作业，而我在编写它时遇到了困难。问题在于使用该库，我以前从未使用过它，老实说，我只是被所有新方法和新东西不知所措，我并没有尝试学习所有内容，只是学习我需要的部分，但它仍然让我不知所措...我发现这个问题很有趣，我很想对其进行编码... 我很好奇你们是如何解决这个问题的？我有一种感觉，如果我只是了解我需要的概念，我就能做到这一点，但同时我不知道图书馆可以做什么或不能做什么。 此外，我会即使我无法对所有要点进行编码，我也很想听听您是否应该参加面试的建议。这将是我选择的第一个。 https://preview.redd.it/l0abpzuvgl1d1.png?width=1076&amp;format=png&amp;auto=webp&amp;s=ae78edd03effd78bb2a2349c8b1362550e704fa8    由   提交 /u/GamerButGymRatToo   [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cwhdgk/how_would_you_go_about_this_home_task_assignment/</guid>
-      <pubDate>Mon, 20 May 2024 14:48:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>组合出优秀设计的最快方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cwhd6h/fastest_way_to_put_together_a_good_design/</link>
-      <description><![CDATA[作为一个缺乏设计技能的前端开发人员，我因为设计而努力完成项目，而不是实际上为项目和功能本身，如何我可以在不花时间设计的情况下实现一个好的设计吗？您是否使用组件库，如果使用的话，使用哪一个？   由   提交 /u/Flick9000   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cwhd6h/fastest_way_to_put_together_a_good_design/</guid>
-      <pubDate>Mon, 20 May 2024 14:47:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>我从来没有认真学习或练习过算法。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cwgpf3/i_never_studied_or_practiced_algorithms_seriously/</link>
-      <description><![CDATA[自从我开始编程以来，我在大学期间就开始了（我的导师直接跳到代码编辑器），这是 Unity 的 C#，我认为这是一个正确的起点，并继续我的旅程，从未认真研究过算法。毕业很久了，现在大约 6 个月了，我一直在学习前端开发，并追求 Web 开发领域。 所以我问了一些专业人士，决定在实践项目的同时花点时间学习算法和数据结构。一路上。  听到谁有类似的经历并分享它会很有趣:) 我失去了一点动力，不得不继续努力💯   由   提交/u/Environmental-Book45  /u/Environmental-Book45 reddit.com/r/webdev/comments/1cwgpf3/i_never_studied_or_practiced_algorithms_seriously/&quot;&gt;[链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cwgpf3/i_never_studied_or_practiced_algorithms_seriously/</guid>
-      <pubDate>Mon, 20 May 2024 14:17:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
