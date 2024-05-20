@@ -3,14 +3,21 @@
   <channel>
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
-    <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 20 May 2024 12:27:19 GMT</lastBuildDate>
+    <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
+    <lastBuildDate>Mon, 20 May 2024 15:15:42 GMT</lastBuildDate>
     <item>
-      <title>交互式 UI：掌握 ReactJS 进行 Web 开发</title>
-      <link>https://www.reddit.com/r/opensource/comments/1cwcq4j/interactive_uis_mastering_reactjs_for_web/</link>
-      <description><![CDATA[   /u/anujtomar_17  [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1cwcq4j/interactive_uis_mastering_reactjs_for_web/</guid>
-      <pubDate>Mon, 20 May 2024 10:56:42 GMT</pubDate>
+      <title>Bigcapital - QuickBooks 的开源替代品</title>
+      <link>https://www.reddit.com/r/opensource/comments/1cwhk1q/bigcapital_opensource_alternative_to_quickbooks/</link>
+      <description><![CDATA[ 由   提交/u/AdInner8113  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1cwhk1q/bigcapital_opensource_alternative_to_quickbooks/</guid>
+      <pubDate>Mon, 20 May 2024 14:56:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源 AI 定义 – 5 月 20 日每周更新</title>
+      <link>https://www.reddit.com/r/opensource/comments/1cwhat5/open_source_ai_definition_weekly_update_may_20/</link>
+      <description><![CDATA[       由   提交 /u/opensourceinitiative   [链接] [评论] &lt; /表&gt;]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1cwhat5/open_source_ai_definition_weekly_update_may_20/</guid>
+      <pubDate>Mon, 20 May 2024 14:45:00 GMT</pubDate>
     </item>
     <item>
       <title>Spring 的 Phoenix 模板引擎</title>
@@ -34,9 +41,9 @@
       <pubDate>Mon, 20 May 2024 05:09:09 GMT</pubDate>
     </item>
     <item>
-      <title>第一次在 Pypi 上发布并寻求任何反馈</title>
+      <title>第一次在 Pypi 中发布并寻求任何反馈</title>
       <link>https://www.reddit.com/r/opensource/comments/1cvzpxb/first_time_publishing_in_pypi_and_looking_for_any/</link>
-      <description><![CDATA[我制作了一个带有双曲窗口的 S 变换 的 python 包（双曲 S 变换或 HSTransform 包）。这是我第一次发布 python 包，因此该项目还远未稳定，仍处于测试阶段。  主要特点：此变换应用于信号处理，将时间序列转换为频域，分析信号在极短时间内的瞬态变化。一些特殊用例可以是电力系统信号、地球物理信号分析或 MRI... 目标受众：对信号处理或电力系统分析或地理分析感兴趣的任何人。 比较：已显示与小波变换的比较。（显示出在检测瞬态变化方面更有潜力）  在进一步发展之前，我非常感谢一些反馈。期待对代码的反馈、改进建议、错误报告或单元测试... HSTransform 可在 pypi 上使用。 链接到 github 中的源代码 快速使用 import numpy as np from hstransform import HSTransform # 创建输入信号（例如：电压信号） t = np.linspace(0, 10, 100) # 时间序列 V_m = 220*np.sqrt(2) # 峰值电压 f_V = 50 # 频率 phi_V = 0 # 相位 V_clean = V_m * np.sin(2 * np.pi * f_V * t + phi_V) # 创建电压骤降/下降（额定电压的 80%） 0.15 秒） V_sag = np.where((t &gt;= 2) &amp; (t &lt;= 3.5), 0.5 * V_clean, V_clean) # 创建 HSTransform 的实例 hs = HSTransform() # 执行变换 signal = V_sag S_transformed = hs.fit_transform(t, signal)     提交人    /u/Ok_Employ_2414   [link] [评论]]]></description>
+      <description><![CDATA[我为S-transform制作了一个python包 使用双曲窗口（双曲 S 变换或 HSTransform 包）。这是我第一次发布 python 包，因此该项目还远未稳定，仍处于 beta 版本。  主要特点：此转换应用于信号处理，将时间序列转换为频域，分析信号在极短时间内的瞬态变化。一些特殊用例可以是电力系统信号、地球物理信号分析或 MRI ... 目标受众：任何对信号处理或电力系统分析或地理分析感兴趣的人。 比较：已显示与小波变换的比较。 （这在检测瞬态变化方面显示出更大的潜力）  在进一步进展之前，我非常感谢一些反馈。期待有关代码的反馈、改进建议、错误报告或单元测试... HSTransform 可在  上找到pypi。 github 中源代码链接 快速使用 import numpy as np from hstransform import HSTransform # 创建输入信号（例如：电压信号） t = np.linspace(0, 10, 100) # 时间序列 V_m = 220*np.sqrt (2) # 峰值电压 f_V = 50 # 频率 phi_V = 0 # 相位 V_clean = V_m * np.sin(2 * np.pi * f_V * t + phi_V) # 创建电压骤降/骤降（额定电压的 80%） 0.15秒) V_sag = np.where((t &gt;= 2) &amp; (t &lt;= 3.5), 0.5 * V_clean, V_clean) # 创建HSTransform的实例 hs = HSTransform() # 执行变换 signal = V_sag S_transformed = hs.fit_transform(t, signal)    由   提交/u/Ok_Employ_2414   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cvzpxb/first_time_publishing_in_pypi_and_looking_for_any/</guid>
       <pubDate>Sun, 19 May 2024 22:05:27 GMT</pubDate>
     </item>
@@ -76,14 +83,14 @@
       <pubDate>Sat, 18 May 2024 15:21:36 GMT</pubDate>
     </item>
     <item>
-      <title>有没有自定义缓存大小的 YouTube PC/Web 客户端？</title>
+      <title>有没有具有自定义缓存大小的 YouTube PC/Web 客户端？</title>
       <link>https://www.reddit.com/r/opensource/comments/1cuv28v/any_youtube_pcweb_client_with_custom_cache_size/</link>
       <description><![CDATA[我想要 mpv 之类的东西，但具有与原始 YouTube 类似的功能（例如主页）。另外，我想更改视频缓存大小，以确保它在我观看时缓存所有视频   由   提交/u/dream_nobody  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cuv28v/any_youtube_pcweb_client_with_custom_cache_size/</guid>
       <pubDate>Sat, 18 May 2024 11:18:05 GMT</pubDate>
     </item>
     <item>
-      <title>browsermob-proxy 功能是否有真正的竞争者</title>
+      <title>browsermob-proxy 功能是否有真正的竞争对手</title>
       <link>https://www.reddit.com/r/opensource/comments/1cuu7bl/is_there_a_true_contender_for_browsermobproxy/</link>
       <description><![CDATA[因此，我一直在使用 browsermob-proxy 进行编程代理访问，到目前为止非常满意。现在我的需求已经发生了变化，并且由于没有维护的 browsermob-proxy 已经很旧并且不支持 wss 等，我陷入了困境。  mitmproxy 很棒并且维护得很好，但我无法通过受控会话创建 har，在其中我可以执行 new_har 的操作，然后在与客户端相同的程序运行时中处理所有请求。 我希望能够以编程方式控制代理会话，并且需要对 HTTP/2 和 HTTP/2 的支持。 QUIC 对于 websocket 来说会很棒，当然对于 ssl 终止等也是如此。 在这种情况下要考虑的正确方法甚至正确的代理是什么。    由   提交/u/droned-s2k   /u/droned-s2k  reddit.com/r/opensource/comments/1cuu7bl/is_there_a_true_contender_for_browsermobproxy/&quot;&gt;[链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cuu7bl/is_there_a_true_contender_for_browsermobproxy/</guid>
@@ -102,13 +109,6 @@
       <description><![CDATA[我知道这听起来很具体，但你必须问。我经常使用 Windows 便笺，并且真的宁愿停止使用它而转而使用开源的东西。最终，我真的希望能够在键入 Vim 命令时使用它们，这就是促使我首先寻找替代方案的原因。   由   提交 /u/Verbais   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1cupbut/looking_for_an_open_source_sticky_note_program/</guid>
       <pubDate>Sat, 18 May 2024 04:41:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建立了一个运行本地 LLM 的开源答案引擎</title>
-      <link>https://www.reddit.com/r/opensource/comments/1cuguyx/i_built_an_opensource_answer_engine_that_runs/</link>
-      <description><![CDATA[大家好！我构建了一个名为 Farfalle 的开源人工智能答案引擎。  它是 Perplexity 的自托管替代品，通过 ollama 支持本地模型。它具有从头开始构建的生成式 UI，具有来自后端的流事件。 演示视频展示了我在 M1 Macbook Pro 上使用 llama3 在本地运行它。 Open-来源：代码在 Github 上完全开源 (github.com/rashadphz/farfalle/) 存储库包含有关如何在本地运行项目以及如何使用 Ollama + Docker 设置项目的说明。   由   提交/u/rashadphil  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1cuguyx/i_built_an_opensource_answer_engine_that_runs/</guid>
-      <pubDate>Fri, 17 May 2024 21:30:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
