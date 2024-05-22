@@ -4,7 +4,56 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 22 May 2024 15:15:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 18:18:08 GMT</lastBuildDate>
+    <item>
+      <title>我现在在一家初创公司工作，大部分工作都已经完成，工作时间最多降到每月 40 小时。我需要找另一份工作，但因为这个原因，我无法把工资提高到每月 160 小时。这可行吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy75lo/so_im_at_a_startup_where_most_of_the_work_is_done/</link>
+      <description><![CDATA[上一个小组对我很满意，但我无法全职加入新小组。有人有过这样的经历吗？   由   提交/u/trwwjtizenketto   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy75lo/so_im_at_a_startup_where_most_of_the_work_is_done/</guid>
+      <pubDate>Wed, 22 May 2024 18:15:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>在网站上托管人工智能模型和创意生成器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy6971/hosting_ai_models_and_creative_generators_on_a/</link>
+      <description><![CDATA[嗨，我目前正在构建一个个人网络应用程序，该应用程序将有不同的 AI 工具可供使用（AI 帖子标题生成器、AI 作家、重写器、图像生成等） 由于我对机器学习世界还很陌生，是否有一个网站拥有可用的托管模型，可以使用  嵌入到网站上？或者类似的东西？ Hugging Face Spaces 是个不错的地方，但有时他们的社区应用程序处于离线状态，也没有简单定制的选项  &amp;# 32；由   提交 /u/majklfromld   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy6971/hosting_ai_models_and_creative_generators_on_a/</guid>
+      <pubDate>Wed, 22 May 2024 17:39:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在 GIF 上渲染倒计时器？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy5f84/how_would_you_render_a_countdown_timer_over_a_gif/</link>
+      <description><![CDATA[我正在尝试为朋友的生日制作一个有趣的 90 年代风格网站，愿景是在旋转的篮球 gif 上呈现一个简单的生日倒计时。计时器的文本将是白色的，带有黑色轮廓，以便在篮球上可见。我从 stackoverflow 等人那里得到了一些帮助，但还没能解决这个问题。 我尝试将 gif 和“canvas”元素放入同一个 div，并使用一些基本的 CSS 将它们放在彼此之上，但由于某种原因，计数器根本没有呈现。 这是我尝试做的方法 &lt;html&gt; &lt;body&gt; &lt;style type=&quot;text/css&quot;&gt; #timerContainer { z-index: 990; position:relative; display: inline-block; } #timer { 位置：绝对; z-index：1000; } #bball { 位置：相对; z-index：999; } &lt;/style&gt; &lt;div id=&quot;timerContainer&quot;&gt; &lt;img id=&quot;bball&quot; src=&quot;/img/bball.gif&quot; height=150 width=150&gt; &lt;canvas id=&quot;timer&quot;&gt; &lt;/canvas&gt; &lt;/div&gt; &lt;script type=&quot;text/javascript&quot;&gt; //window.addEventListener(&#39;load&#39;, function() { const countdownDate = new Date(&quot;2024 年 6 月 1 日 00:00:00&quot;).getTime(); const gifImage = document.getElementById(&quot;bball&quot;); const timerCanvas = document.getElementById(&quot;timer&quot;); const ctx = timerCanvas.getContext(&quot;2d&quot;); console.log(&quot;booting upppp&quot;); function updateTimer() { const now = new Date().getTime(); const distance = countdownDate - now; const days = Math.floor(distance / (1000 * 60 * 60 * 24)); const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); const minutes = Math.floor((距离 % (1000 * 60 * 60)) / (1000 * 60)); const seconds = Math.floor((距离 % (1000 * 60)) / 1000); ctx.clearRect(0, 0, timerCanvas.width, timerCanvas.height); ctx.font = &quot;24px Arial&quot;; ctx.fillStyle = &quot;white&quot;; ctx.fillText(`${days}d ${hours}h ${minutes}m ${seconds}s`, 10, 50); if (distance &lt; 0) { clearInterval(timerInterval); ctx.fillText(&quot;倒计时开始&quot;, 10, 50); } console.log(&quot;dst&quot;, distance); } gifImage.onload = function() { timerCanvas.width = gifImage.width; timerCanvas.height = gifImage.height; updateTimer(); }; const timerInterval = setInterval(updateTimer, 1000); //}) &lt;/script&gt; &lt;/body&gt; &lt;/html&gt;  问题是，当我查看 Web 控制台时，似乎 JS 根本没有运行，因此画布是空的。 有什么想法可以解释为什么会这样吗？    提交人    /u/t40   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy5f84/how_would_you_render_a_countdown_timer_over_a_gif/</guid>
+      <pubDate>Wed, 22 May 2024 17:05:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>检查客户端是否在 SPA 后端进行身份验证的最佳实践是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy5d2q/what_are_the_best_practices_for_checking_if/</link>
+      <description><![CDATA[我，一名自学成才的开发人员，正在构建我的第一个全栈项目。  我使用 Vue 作为前端，使用 NestJs 作为后端。 我的前端应该具有受限的操作，具体取决于它是否被随机人访问，而不是当某人访问时实际上是我网站的用户，拥有帐户并且当前已登录。我正在使用 Passport.js 通过用户会话策略进行身份验证。所有必需的端点也在服务器端受到身份验证保护。  我现在基本上计划做的是安装一个页面或路由到另一个页面，在端点上向我的后端发出 HTTP 请求，专门用于检查客户端是否在服务器会话中经过身份验证如果通过身份验证，则返回 200 状态；如果未通过身份验证，则返回 401 并将其保存在全局状态中。 我个人认为它会起作用，但这真的是最好的方法吗？ 另外，如果您有一些值得研究的开源项目，以了解如何以正确的方式完成工作，请在评论中分享它们。  &amp; #32；由   提交 /u/peculiar_sheikh   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy5d2q/what_are_the_best_practices_for_checking_if/</guid>
+      <pubDate>Wed, 22 May 2024 17:02:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>字体在浏览器上无法正确显示。这是相同的 .otf 文件，甚至当我在 chrome 中检查源时的字体预览也显示正确的字体。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy50l0/font_not_displaying_correctly_on_browser_it_is/</link>
+      <description><![CDATA[     &lt;。 /td&gt;  由   提交 /u/oxparadoxpa   [链接] [评论] &lt; /表&gt;]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy50l0/font_not_displaying_correctly_on_browser_it_is/</guid>
+      <pubDate>Wed, 22 May 2024 16:49:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>编码还是不编码（我自己）？关于UI套件的一个问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy3bbm/to_code_or_not_to_code_by_myself_a_question_about/</link>
+      <description><![CDATA[抱歉，如果这是一个菜鸟问题，但我已经自学 webdev 一段时间并进入了中级水平，我有一个问题这个简单的谷歌搜索...提供的主要是在线争论，而不是明确的答案。 问题：我的一个朋友需要一个基本的登陆页面网站。我想为他们创建它，作为新技术的练习。我选择顺风来检查复制粘贴 UI 块，然后调整它们。由于某种奇怪的原因，顺风在我脸上吹了几次。上次我几乎完成了一个页面，但它编译得很糟糕并破坏了整个网站。就像所有 css 都已损坏并且恢复更改不起作用一样，重新安装节点也不起作用。烦恼中浪费了几个小时。 问题：我是否应该使用 tailwindcss 和 bootstrap 等工具？我知道我在自定义 CSS 和响应能力方面遇到了问题 - 我从头开始编写了几个页面，这是一项大量的工作，结果我错过了几个屏幕，而且我的网站只是不起作用。我觉得 Bootstrap 至少让我可以用其响应式 Flex 容器覆盖一些基础，但我自己编写了大部分 CSS 并覆盖了大部分内容。 现在，我喜欢 TailwindCSS 的想法开源组件，但我觉得我可以自己创建这样的组件，然后从我自己的基础上复制粘贴它们，而不用冒外部代码搞乱我的工作的风险。我知道这是一场漫长的争论，但到目前为止，我只有足够的信心来制作登陆页面，然后再进入更复杂的领域。 你有什么建议？ 我希望这不是一个糟糕的子项目，mod 不会立即删除它。 编辑：附加背景 - 我是一名经过培训的平面设计师，我的客户预算很大，可以定制一切，但我也遇到有简单需求的客户（比如所说的只有登陆页面的网站，有点像在线传单）。我想帮助初创企业和低预算的客户，但重新发明轮子的成本很高，而且由于我还没有为自己创建一个库，我想知道 Tailwind/Bootstrap/等是否可以。是要走的路。   由   提交/u/Rare-Insurance5405  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy3bbm/to_code_or_not_to_code_by_myself_a_question_about/</guid>
+      <pubDate>Wed, 22 May 2024 15:40:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在构建时重命名 tailwindcss 类名？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy300h/how_to_rename_tailwindcss_classnames_on_build/</link>
+      <description><![CDATA[我有一个 React 项目，它是一个可重复使用的 Web 组件，将插入到 ecom 商店中。像平常一样构建顺风的问题是导致与电子商务商店现有的类名发生冲突，并且弄乱了商店的整个布局。所以我想知道是否有一种方法可以使用 postcss 插件或 webpack 插件重命名构建上的 tailwind 类，可以做到这一点？ 另外，如果不存在这样的插件，我想构建这样，如果您有任何可以提取项目中使用的所有 tailwindcss 类及其相应 css 的插件的信息，那就更好了。 非常感谢任何帮助。 &lt; /div&gt;  由   提交 /u/HelloPipl   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy300h/how_to_rename_tailwindcss_classnames_on_build/</guid>
+      <pubDate>Wed, 22 May 2024 15:27:10 GMT</pubDate>
+    </item>
     <item>
       <title>WordPress 社交媒体源插件发生了什么？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cy1qxh/what_happened_to_wordpress_socialmedia_feed/</link>
@@ -15,26 +64,19 @@
     <item>
       <title>关于为微服务后端编写单元测试的争论</title>
       <link>https://www.reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/</link>
-      <description><![CDATA[今天我与团队和我的团队负责人进行了通话。 我们讨论了应该开始为我们的团队编写测试微服务从现在开始。就上下文而言，每个微服务都非常*大*，它们本身更像是一个应用程序。 （20+ 微服务/应用程序，5 人团队） 在我的 4 年里根据经验，每次我编写单元测试时，我都会模拟测试中的依赖关系。对于每个测试，我都针对特定情况编写了一个新的模拟。 问题是团队负责人建议我们应该创建一个全局 TestTrait，它应该模拟应用程序中的每个类和每个方法， TL 声称，通过这种方式，编写测试会更容易，因为您不必担心模拟，而只需调用该类并查看它是否返回正确的结果。&lt; /p&gt; 我觉得这是一个非常糟糕的选择。我反对这一点，但被拒绝了，并告诉我的方法很麻烦，当需要更改时，必须在很多地方进行更改，这就是为什么需要一个全局类。 我不知道这是否是进行单元测试的另一种方法，我只是坚持到目前为止我做事的方式，或者它只是愚蠢的。 编辑：是的，BE 受到了很多问题的困扰特征和全局类别，而且情况每天都变得更糟；   由   提交/u/Prudent-Stress  /u/Prudent-Stress reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/&quot;&gt;[链接] [评论]]]></description>
+      <description><![CDATA[今天我与团队和我的团队负责人进行了通话。 我们讨论了应该开始为我们的团队编写测试微服务从现在开始。就上下文而言，每个微服务都非常*大*，它们本身更像是一个应用程序。 （20+ 微服务/应用程序，5 人团队） 在我的 4 年里根据经验，每次我编写单元测试时，我都会模拟测试中的依赖关系。对于每个测试，我都针对特定情况编写了一个新的模拟。 问题是团队负责人建议我们应该创建一个全局 TestTrait，它应该模拟应用程序中的每个类和每个方法，其中TL 声称，通过这种方式，编写测试会更容易，因为您不必担心模拟，而只需调用该类并查看它是否返回正确的结果。&lt; /p&gt; 我觉得这是一个非常糟糕的选择。我反对这一点，但被拒绝了，并告诉我的方法很麻烦，当需要更改时，必须在很多地方进行更改，这就是为什么需要一个全局类。 我不知道这是否是进行单元测试的另一种方法，我只是坚持到目前为止我做事的方式，或者它只是愚蠢的。 编辑：是的，BE 受到了很多问题的困扰特征和全局类别，而且情况每天都变得更糟；   由   提交/u/Prudent-Stress  /u/Prudent-Stress reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/&quot;&gt;[链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/</guid>
       <pubDate>Wed, 22 May 2024 14:01:11 GMT</pubDate>
     </item>
     <item>
-      <title>如何保持志愿者 Web 开发团队的积极性？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cy08fy/how_to_keep_a_volunteer_web_dev_team_motivated/</link>
-      <description><![CDATA[嘿，我真的需要一些建议。这是我第一次担任首席执行官，我领导着一个完全远程的志愿者网络开发团队。您如何保持无薪团队成员的积极性，特别是当他们受到个人成长、我们的创业愿景的驱动，或者只是喜欢在团队环境中工作时？ 我们的初创公司位于教育科技 B2C 领域，创建了一个为人们寻找有助于推动人类进步的技术项目的平台。我有一个由 15 名志愿者组成的团队，包括开发人员、设计师、产品经理和 QA 人员。我觉得我非常擅长描绘我们正在建设的未来，根据每个人的个人目标让事情变得有趣，并以身作则。 但我忍不住将我的团队与其他拥有资金并且正在快速成长或已经是独角兽的初创公司。有时这会让我感到沮丧，认为我们没有达到标准，我可能做错了什么。 您有什么建议或策略可以让我的网络开发团队保持积极性并走上正轨吗？  p&gt;   由   提交/u/lukiepookie_9   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cy08fy/how_to_keep_a_volunteer_web_dev_team_motivated/</guid>
-      <pubDate>Wed, 22 May 2024 13:28:05 GMT</pubDate>
-    </item>
-    <item>
       <title>在单个网页上加载大量图标的最佳实践是什么？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxzshm/whats_the_best_practice_for_loading_a_ton_of/</link>
-      <description><![CDATA[我正在管理一个网站，该网站当前加载了数百个图标，并利用 CSS 将每个图标的大小调整为 32x32（它们是徽标，因此不是每个图标）它们是正方形的）。 这是一个业余爱好项目，我没有相关经验，所以我一直在做一些研究来了解实现这一目标的最佳方法，但似乎无法实现对于提供图标的最佳方式达成共识。 到目前为止，我已将每个图标转换为 WebP 而不是 PNG，以尽可能减小尺寸。 I尝试在 Illustrator 中将它们的大小调整为 32x32，这样浏览器就不必在加载时调整它们的大小，但这会使它们在移动设备上有点模糊（桌面看起来不错）。 如果我创建更高分辨率移动设备的图标（64x64 等），然后我又回到要求浏览器调整图标大小的问题。到那时，是否值得将它们调整为正方形，或者我应该保持它们原始的宽高比并使用 WebP 尽可能缩小尺寸？   由   提交/u/pedges  [链接] [评论]]]></description>
+      <description><![CDATA[我正在管理一个网站，该网站当前加载了数百个图标，并利用 CSS 将每个图标的大小调整为 32x32（它们是徽标，因此不是每个图标）它们是正方形的）。 这是一个业余爱好项目，我没有相关经验，所以我一直在做一些研究来了解实现这一目标的最佳方法，但似乎无法实现对于提供图标的最佳方式达成共识。 到目前为止，我已将每个图标转换为 WebP 而不是 PNG，以尽可能减小尺寸。 I尝试在 Illustrator 中将它们中的每个大小调整为 32x32，这样浏览器就不必在加载时调整它们的大小，但这会使它们在移动设备上有点模糊（桌面看起来不错）。 如果我创建更高分辨率移动设备的图标（64x64 等），然后我又回到要求浏览器调整图标大小的问题。到那时，是否值得将它们调整为正方形，或者我应该保持它们原始的宽高比并使用 WebP 尽可能缩小尺寸？   由   提交/u/pedges  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxzshm/whats_the_best_practice_for_loading_a_ton_of/</guid>
       <pubDate>Wed, 22 May 2024 13:06:49 GMT</pubDate>
     </item>
     <item>
-      <title>您的 Next.js 14 应用程序使用哪种状态管理？</title>
+      <title>您在 Next.js 14 应用中使用哪种状态管理？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxzfud/which_state_management_are_you_using_with_your/</link>
       <description><![CDATA[状态管理的选项太多了，我有点迷失了。我什至不记得为什么我们要避免使用 useContext——对不相关的组件进行不必要的更新？我一直在使用 Jotai，但它总是抛出奇怪的错误。尝试过 Zustand，但有点复杂。   由   提交/u/w333l  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxzfud/which_state_management_are_you_using_with_your/</guid>
@@ -50,7 +92,7 @@
     <item>
       <title>你在什么场景下使用Redis？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxyono/in_which_scenario_do_you_use_redis/</link>
-      <description><![CDATA[嗨！  在我的学校，我们提到 Redis 是一项非常有用的技术，但我不知道在何时何地使用它以及用于什么目的。你们有机会使用它吗？   由   提交 /u/NaightFr   [链接] [评论]]]></description>
+      <description><![CDATA[嗨！  在我的学校，我们提到 Redis 是一项非常有用的技术，但我不知道在哪里、何时使用它以及用于什么目的。你们有机会使用它吗？   由   提交 /u/NaightFr   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxyono/in_which_scenario_do_you_use_redis/</guid>
       <pubDate>Wed, 22 May 2024 12:09:59 GMT</pubDate>
     </item>
@@ -62,53 +104,11 @@
       <pubDate>Wed, 22 May 2024 11:36:10 GMT</pubDate>
     </item>
     <item>
-      <title>网站开发时间范围</title>
+      <title>网站开发时间表</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxxo3h/website_development_timeframe/</link>
       <description><![CDATA[我已雇人为我们创建一个网站。它适用于现场活动（日程安排、演讲者等）。他们声称他们需要所有内容才能开始创建网站，并声称当我们更改入场价格等内容时，他们必须重新开始。 这似乎不对。开发人员在开始之前是否真的需要所有内容？他们没有给我们线框图。 此外，因为没有线框图，我要求查看网站的进度（在为时已晚之前提供反馈），并被告知这是不专业的要求在完成之前查看它。在开发领域是这样吗？ 谢谢！   由   提交 /u/SezyLasagna   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxxo3h/website_development_timeframe/</guid>
       <pubDate>Wed, 22 May 2024 11:13:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于构建 UI 元素的客户端工具（主要是按钮）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxxmjg/client_tools_to_build_ui_elements_buttons_mainly/</link>
-      <description><![CDATA[我可以为客户（例如网站）提供什么，让他们创建 UX 的模拟框架，以便他们可以向我提供他们对 UI 的愿景元素？  就像顶行一样，单击 x，然后 y 上会出现新按钮。  简单的东西   由   提交 /u/ctrl-brk   /u/ctrl-brk  reddit.com/r/webdev/comments/1cxxmjg/client_tools_to_build_ui_elements_buttons_mainly/&quot;&gt;[链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxxmjg/client_tools_to_build_ui_elements_buttons_mainly/</guid>
-      <pubDate>Wed, 22 May 2024 11:10:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>未来的用户界面</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxx9jv/future_uis/</link>
-      <description><![CDATA[您预测或期望未来的 UI 会是什么样子。我知道这将是网络上的一个模板。但它的设计和流程是你所想象的。    由   提交/u/l8s9  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxx9jv/future_uis/</guid>
-      <pubDate>Wed, 22 May 2024 10:47:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>该工具如何为其客户增加更多价值？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxw32d/how_can_this_tool_add_more_value_to_its_customers/</link>
-      <description><![CDATA[大家好， 我构建了一个工具，可以让客户在其网站上显示灵活的通知，以提高参与度和销量。使用 socket.io，我在前端和后端之间建立了实时连接。通过使用窗口对象跟踪用户导航，我可以在特定页面上显示通知。 该工具是为非开发人员设计的，使其超级用户友好且易于集成。用户可以自定义通知以适应特定的页面和操作，从而创建个性化体验。 我正在寻找有关如何改进此工具的反馈。您还希望看到哪些附加功能？我应该解决类似工具的任何常见痛点吗？ 该工具 提前感谢您的帮助！  最佳   由   提交/u/FMPICA   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxw32d/how_can_this_tool_add_more_value_to_its_customers/</guid>
-      <pubDate>Wed, 22 May 2024 09:26:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>您是否曾出于恶意创建过网站/网络应用程序？如果是这样，你做了什么，为什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxw2qy/did_you_ever_create_a_websitewebapp_out_of_spite/</link>
-      <description><![CDATA[工作中的一些工具简直让我想拔掉我的头发。例如，如果你寻找一个东西，它无缘无故地将你扔到之前的搜索中。为了解决这个问题，我必须在搜索单个内容后刷新浏览器。瓦   由   提交/u/1vertical  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxw2qy/did_you_ever_create_a_websitewebapp_out_of_spite/</guid>
-      <pubDate>Wed, 22 May 2024 09:26:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>PWA 推送通知</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxw1zr/pwa_push_notifications/</link>
-      <description><![CDATA[大家好！ 我一直在尝试网络推送通知，构建一个非常简单的 pwa，每隔一段时间向我发送一条通知天。由于某种原因，当我发送通知时，我在服务器上得到了成功的结果，但通知没有到达我的浏览器/手机。仅当我相继发送两个通知时，我才会收到两个通知。我不知道如何修复/调试这个问题。你们有什么见解或想法吗？ 谢谢！   由   提交 /u/waspeer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxw1zr/pwa_push_notifications/</guid>
-      <pubDate>Wed, 22 May 2024 09:24:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cookie 同意服务</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxvo16/cookie_consent_service/</link>
-      <description><![CDATA[大家好。您推荐哪种 cookie 同意服务？我正在寻找一种服务，它可以完成我不想做的所有事情：扫描 cookie、跟踪所有法律并显示所有强制按钮/选项/复制/... 重要对我来说：我想要更改设计的选项。不仅仅是颜色等一些基础知识，最好使用 HTML/CSS/JS 来进行更深层次的更改。 仅供参考：我的大多数项目都使用 React。 感谢您的建议。   由   提交/u/pjottee  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxvo16/cookie_consent_service/</guid>
-      <pubDate>Wed, 22 May 2024 08:56:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
