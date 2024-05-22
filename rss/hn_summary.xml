@@ -1,112 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>HN总结</title>
+    <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
-    <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Tue, 21 May 2024 18:00:36 GMT</lastBuildDate>
+    <description>由大型语言模型编写的顶级黑客新闻故事的自动摘要。</description>
+    <lastBuildDate>Wed, 22 May 2024 00:54:05 GMT</lastBuildDate>
     <item>
-      <title>[媒体]25年后，Mozilla终于解决了Bug 33654，其中涉及不正确的a [...]</title>
-      <link>https://t.me/hn_summary/90754</link>
-      <description><![CDATA[Firefox 错误在 25 年后得到修复
-25 年后，Mozilla 终于解决了 Bug 33654，该 Bug 涉及 TEXTAREA 元素中 ROWS 和 COLS 属性的错误应用，导致禁用覆盖滚动条时水平和垂直滚动条出现额外空间。该错误最初由 Andrew 报告，经过多次更新和补丁后仍然存在，反映了 HTML 表单控件的布局和外观中长期存在的问题。该决议标志着 Mozilla 致力于改进网络标准和用户体验的一个重要里程碑。令人惊讶的是，这个 bug 最终被解决之前已经持续了 25 年。 （根据故事文本的 20% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/90754</guid>
-      <pubDate>Tue, 21 May 2024 18:00:36 GMT</pubDate>
+      <title>在“A Road to Common Lisp”中，Steve Losh 提供了学习 Common Lisp 的综合指南 [...]</title>
+      <link>https://t.me/hn_summary/90832</link>
+      <description><![CDATA[Common Lisp 之路
+Steve Losh 在《A Road to Common Lisp》中提供了学习 Common Lisp 的全面指南，强调这是他个人的方法，而不是权威的方法。他概述了该语言的悠久历史，从 John McCarthy 在 20 世纪 50 年代末创立到 1995 年 ANSI 标准的建立。Losh 强调了 Common Lisp 的稳定性，指出几十年前编写的代码仍然可以在现代实现上运行，这与许多当代语言。他赞扬了该语言通过宏的可扩展性，它允许用户在不改变核心语言的情况下添加功能。 Losh 还强调了 Common Lisp 的实用性，它平衡了高级编程与低级优化功能。本指南旨在为学习者提供坚实的基础和实用的建议，以应对语言的复杂性。
+
+令人惊讶/聪明的方面：Common Lisp 的稳定性，允许几十年前的代码在现代实现上运行，与其他语言中的“向后不兼容的仓鼠轮”相比，被认为是一个重大的缓解。 
+
+有争议的方面：关于 Common Lisp 标准由于其可扩展性而无需进行新修订的讨论可能会被认为是有争议的，特别是在那些主张持续语言进化的人中。 （根据故事文本的 21% 进行摘要。）]]></description>
+      <guid>https://t.me/hn_summary/90832</guid>
+      <pubDate>Wed, 22 May 2024 00:54:05 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]联邦检察官在芝加哥的一项计划中对五名个人提出了指控，该计划 [...]</title>
-      <link>https://t.me/hn_summary/90753</link>
-      <description><![CDATA[美联储支付数百人“抢劫”以获得有利的移民身份说
-联邦检察官在芝加哥的一项计划中对五名个人提出指控，该计划策划武装抢劫，以帮助所谓的受害者申请为合法犯罪受害者保留的美国移民签证。包括外地人在内的数百人冒充芝加哥各地企业的顾客，希望通过成为这些预先安排的抢劫的“受害者”来获得有利的移民身份。该计划涉及提前规划，包括使用偷来的汽车和假车牌。尽管经济回报较低，抢劫者的活动仍持续了两年多。警方因被盗现金微乎其微而起了疑心，最终抓获了一个假抢劫团伙，揭露了骗局。每个“受害者”都支付了数千美元才被抢劫，而团伙头目则将这些费用收入囊中。指控包括串谋实施签证欺诈。该计划凸显了 U 签证计划中的问题，包括芝加哥警方多次拒绝签证，这导致伊利诺伊州总检察长正在进行调查。 
-
-争议：该计划利用了旨在保护真正犯罪受害者的 U 签证计划，引发了人们对移民制度完整性的担忧。
-
-令人惊讶/聪明的元素：精心策划的抢劫，包括使用偷来的汽车和假车牌，以及尽管经济收益微乎其微，但抢劫者仍在继续的事实，尤其令人惊讶。 ]]></description>
-      <guid>https://t.me/hn_summary/90753</guid>
-      <pubDate>Tue, 21 May 2024 17:53:26 GMT</pubDate>
+      <title>[媒体]人工智能革命是由强大的计算基础设施驱动的，这对于科学研究至关重要 [...]</title>
+      <link>https://t.me/hn_summary/90831</link>
+      <description><![CDATA[计算访问现状：如何弥合新的数字鸿沟
+人工智能革命是由强大的计算基础设施推动的，这对于科学进步和生产力至关重要。计算能力（包括 GPU 和 CPU 等硬件以及软件）对于人工智能和数据服务等现代进步至关重要。托尼·布莱尔研究所 (TBI) 强调，由于计算资源访问不平等，数字鸿沟日益扩大。投资计算基础设施的国家正在进步，而其他国家则落后，这影响了创新和增长。 TBI 的报告以 Omdia 的研究为基础，对全球计算访问进行了全面分析，并提供了弥合这一鸿沟的政策建议。值得注意的是，该报告强调了合作伙伴关系和有针对性的投资对于增强全球计算能力的重要性。 （根据故事文本的 37% 进行摘要。）]]></description>
+      <guid>https://t.me/hn_summary/90831</guid>
+      <pubDate>Wed, 22 May 2024 00:16:49 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在《当心让我们变得不那么人性的技术》一文中，作者批评了日益增长的 [...]</title>
-      <link>https://t.me/hn_summary/90752</link>
-      <description><![CDATA[当心让我们变得不那么人性的技术
-在《当心让我们变得不那么人性的技术》一书中，作者批评了个人和社交领域对人工智能日益增长的依赖，惠特尼·沃尔夫·赫德 (Whitney Wolfe Herd) 对 Bumble 上人工智能驱动的约会的愿景就是例证。赫德的人工智能礼宾服务为用户处理约会任务的想法被呈现为一个异想天开但反乌托邦的未来，其中算法调解基本的人类互动。文章认为，此类技术有可能削弱人类基本技能和独立性，呼应了伊万·伊利奇 (Ivan Illich) 对现代职业化的批评。作者呼吁对人工智能采取细致入微的方法，区分增强用途和削弱人类基本能力的用途。这篇文章强调需要定义“人性”，以保护对人类体验至关重要的活动不被外包给机器。 
+      <title>[媒体]网站：www.askamanager.org</title>
+      <link>https://t.me/hn_summary/90830</link>
+      <description><![CDATA[一份工作申请询问我酷刑是否比卖淫更糟糕（2018） 
+标题：一份求职信问我酷刑是否比卖淫更糟糕（2018）
+网站：www.askamanager.org
 
-争议点：这篇文章挑战了人们逐渐不愿定义“人性”的现象，表明如果没有这一点，就很难反对人工智能对人类活动的侵犯。
+作者：艾莉森·格林，2018 年 2 月 12 日
 
-令人惊讶/聪明的洞察力：将人工智能在现代生活中的作用与伊利奇的“禁用职业”进行比较，为技术进步如何无意中削弱人类能力提供了独特的历史视角。 （根据 90% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/90752</guid>
-      <pubDate>Tue, 21 May 2024 17:52:19 GMT</pubDate>
+一位从文案写作过渡到行政协助的读者遇到了一份奇怪的工作申请，需要对各种项目进行排名，包括“折磨人”和“卖淫”等暴行。提交简历和求职信后，读者被引导至一份在线表格，最初要求提供特质排名，这似乎很典型。然而，它随后提出了一长串项目，从最好到最差进行评级，混合了平凡和极端的场景。读者质疑这种方法的优点，怀疑它是伪科学而不是有效的招聘工具。艾莉森·格林对此表示同意，她将这种做法贴上了荒谬的标签，并强调了此类性格测试的实用性值得怀疑。]]></description>
+      <guid>https://t.me/hn_summary/90830</guid>
+      <pubDate>Tue, 21 May 2024 23:47:35 GMT</pubDate>
     </item>
     <item>
-      <title>在 Antithesis 的早期，我们遇到了一个罕见且令人沮丧的错误，导致机器崩溃 [...]</title>
-      <link>https://t.me/hn_summary/90751</link>
-      <description><![CDATA[我们在 Antithesis 遇到的最严重的错误
-在 Antithesis 的早期，我们遇到了一个罕见且令人沮丧的错误，导致机器大约每隔几千个机器小时崩溃一次。这引发了团队内部的争论：我们应该忍受这个错误还是修复它？一些人认为，作为一家软件测试公司，我们的软件不需要完全可靠。其他人则认为，即使是罕见的错误也会对未来的生产力和纪律造成无形的负担。我们决定进行调查，在虚拟机管理程序的网络组件周围添加大量日志记录。经过一番努力，我们发现该错误与 Amazon 的弹性网络适配器 (ENA) 和 FreeBSD 内核问题有关。由于 DHCP 租约续订过程重置网络接口，该错误每 30 分钟就会发生一次。 FreeBSD 专家 Colin Percival 帮助我们识别并解决了该问题。这一经历强调了调试不确定性错误的痛苦以及彻底调查和专家协助的重要性。 
+      <title>[媒体] 在“旨在崩溃：安东诺夫 An-28 HA-LAJ 及其消亡的故事”中，作者 d [...]</title>
+      <link>https://t.me/hn_summary/90829</link>
+      <description><![CDATA[旨在崩溃：安东诺夫 An-28 HA-LAJ 的故事及其消亡
+在《设计坠毁：安东诺夫 An-28 HA-LAJ 及其消亡的故事》一书中，作者深入研究了 An-28 复杂的电气系统，强调了导致 HA-LAJ 坠毁的一个关键设计缺陷。电动襟翼系统和螺旋桨自动羽化机构均依赖于接线盒 A6X1 中的通用接地螺钉。随着时间的推移，该螺丝因振动而松动，导致高电阻连接，使电流通过意外路径转移。当飞行员收起襟翼时，这个缺陷导致螺旋桨顺桨，发动机关闭，扰流板展开，导致推力和升力灾难性损失。值得注意的是，迫降在玉米地时，19 名乘客和机组人员全部生还。
 
-令人惊讶/聪明的方面：该错误每 30 分钟就会发生一次，与 DHCP 租约续订相关，这是一个意外且聪明的发现，凸显了调试此类问题的复杂性。
+争议：An-28 未获得跳伞操作或后门拆除飞行认证，引发了对其适航认证和操作批准的质疑。
 
-有争议的方面：关于是否修复罕见错误或忍受它的内部争论，反映了软件可靠性和维护方面的不同理念。 （根据 84% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/90751</guid>
-      <pubDate>Tue, 21 May 2024 17:49:12 GMT</pubDate>
+独特/聪明：作者用“管子里的头发”比喻来解释电阻，使技术细节更容易理解。 （根据 87% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/90829</guid>
+      <pubDate>Tue, 21 May 2024 23:42:26 GMT</pubDate>
     </item>
     <item>
-      <title>站点：wallpaper-library.netlify.app</title>
-      <link>https://t.me/hn_summary/90750</link>
-      <description><![CDATA[Show HN：我构建的 Unsplash 包装器
-标题：Show HN：我构建的 Unsplash 包装器
-网站：wallpaper-library.netlify.app
-
-我创建了一个新的 Web 工具，可作为 Unsplash 的包装器，可轻松访问大量高质量图像库。图片直接来自 Unsplash.com，仍为各自所有者的财产，不构成侵犯版权。此工具简化了查找和使用精美壁纸的过程，供您用于您的项目。请访问 wallpaper-library.netlify.app 查看。]]></description>
-      <guid>https://t.me/hn_summary/90750</guid>
-      <pubDate>Tue, 21 May 2024 17:45:01 GMT</pubDate>
+      <title>CircuitBored.com 上的文章题为“没有人会知道财富不平等背后的驱动力 [...]</title>
+      <link>https://t.me/hn_summary/90828</link>
+      <description><![CDATA[没人会告诉你财富不平等背后的驱动力&lt; /a&gt;
+CircuitBored.com 上的文章，标题为“财富背后的驱动力”没有人会告诉你这种不平等。”他认为，大多数富有的人一开始就富有，这一事实使财富不平等长期存在。作者认为，现代企业的成功——无论是在加密货币、股票还是社交媒体名声方面——都需要大量的时间和财务投资，而这对于那些并非天生富有的人来说往往是遥不可及的。这篇文章强调了一个有争议的观点，即许多富人通过裙带关系和税收优惠的慈善机构而不是真正的功绩来维持自己的地位。作者用渔夫的比喻来描述自己的旅程，强调在没有大量初始资源的情况下实现财务独立的困难。文章的结论是，由于缺乏多元化观点和不受约束的精英主义而导致的财富不平等，对社会稳定构成了重大威胁。 （根据 99% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/90828</guid>
+      <pubDate>Tue, 21 May 2024 23:38:17 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 标题：Show HN：我们试图让 Azure 对开发人员来说更容易</title>
-      <link>https://t.me/hn_summary/90749</link>
-      <description><![CDATA[显示 HN：我们试图让 Azure 更方便开发人员
-标题：Show HN：我们试图让 Azure 对开发人员来说更容易
-
-在 AppSpaces，我们开发了一种工具，通过部署基本的、可定制的检索增强生成 (RAG) 应用程序来为开发人员简化 Azure。该应用程序演示了 RAG、嵌入和矢量化的基础知识，使开发人员更容易理解和实现这些高级概念。我们的目标是简化流程并降低通常与 Azure 相关的复杂性，使开发人员能够专注于构建和创新。这种方法的独特之处在于其简单性和可访问性，有可能改变开发人员与 Azure 强大功能交互的方式。]]></description>
-      <guid>https://t.me/hn_summary/90749</guid>
-      <pubDate>Tue, 21 May 2024 17:38:56 GMT</pubDate>
+      <title>[媒体]当我毕业并考虑创业时，我兄弟会的一位校友，成功了 [...]</title>
+      <link>https://t.me/hn_summary/90827</link>
+      <description><![CDATA[斯坦福初创公司和麻省理工学院初创公司
+当我毕业并考虑创业时，我兄弟会的一位成功企业家校友分享了一些富有洞察力的建议。他强调了麻省理工学院和斯坦福大学针对同一市场的初创公司之间的一个关键区别。斯坦福大学的初创公司快速推出产品、迭代并利用网络效应或病毒式增长来获得快速回报。相反，麻省理工学院的初创公司专注于开发无懈可击的技术优势，精心优化他们的产品。例如，麻省理工学院的一家初创公司可能会创造出一种突破性的氨生产化学工艺，而斯坦福大学的一家初创公司则通过经过验证的客户模型销售可持续的家用产品。投资者发现斯坦福大学的方法因其市场吸引力而风险较小，而麻省理工学院的方法虽然可能具有革命性，但需要大量的审查和资金。结论：成功的初创公司通常将技术开发与市场策略结合起来，但营销从第一天起就至关重要。]]></description>
+      <guid>https://t.me/hn_summary/90827</guid>
+      <pubDate>Tue, 21 May 2024 23:28:09 GMT</pubDate>
     </item>
     <item>
-      <title>八个月前，我们证明稀疏自动编码器可以恢复单语义特征 [...]</title>
-      <link>https://t.me/hn_summary/90748</link>
-      <description><![CDATA[扩展单义性：从 Claude 3 Sonnet 中提取可解释的特征
-八个月前，我们证明了稀疏自动编码器可以从小型单层转换器中恢复单义特征。一个主要问题是这种方法是否可以扩展到最先进的转换器并有助于 AI 安全。从那时起，扩展稀疏自动编码器一直是 Anthropic 可解释性团队的首要任务。我们成功地从中型生产模型 Claude 3 Sonnet 中提取了高质量的特征。这些特征包括名人、国家和安全漏洞等抽象概念，并且都是多语言和多模式的。
-
-一些特征与安全相关，例如与安全漏洞、偏见、欺骗和危险内容相关的特征。然而，我们警告不要过度解读它们的存在，因为需要进一步研究才能理解它们的含义。我们的方法基于线性表示和叠加假设，使用字典学习和稀疏自动编码器。我们训练了三个不同大小的 SAE，发现它们可以用少量的活动特征解释模型激活的很大一部分。
-
-争议：偏见和欺骗等与安全相关的特征的存在可能会引发对人工智能系统潜在滥用的担忧。
-
-独特/巧妙：该方法能够提取多语言和多模态特征，以及同一想法的抽象和具体实例，这一点尤其值得注意。（基于 31% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/90748</guid>
-      <pubDate>Tue, 21 May 2024 17:33:49 GMT</pubDate>
+      <title>[媒体]Amber 是一种直接编译为 Bash 的尖端编程语言，提供 [...]</title>
+      <link>https://t.me/hn_summary/90826</link>
+      <description><![CDATA[Amber – 编译为 Bash 的编程语言
+Amber 是一种尖端编程语言，可直接编译为 Bash，为脚本编写提供现代、类型安全和运行时安全的环境。通过在编译过程中捕获许多错误和错误，Amber 确保了更可靠且无错误的脚本。这种创新方法使开发人员能够利用当代语言的稳健性，同时仍然利用无处不在的 Bash 进行执行。]]></description>
+      <guid>https://t.me/hn_summary/90826</guid>
+      <pubDate>Tue, 21 May 2024 23:23:04 GMT</pubDate>
     </item>
     <item>
-      <title>今天，我们自豪地推出了tillywork 的 MVP，这是一个开源、自托管的工作管理器 [...]</title>
-      <link>https://t.me/hn_summary/90747</link>
-      <description><![CDATA[显示 HN：tillywork - 开源工作管理（monday.com 替代方案） 
-今天，我们自豪地推出了tillywork的MVP，这是一款开源、可自托管的工作管理软件，旨在替代monday.com。 Tillywork 具有三个核心模块：项目管理（类似于 Trello、ClickUp 和 Asana）、用于营销和销售任务的销售 CRM，以及用于技术和产品团队的敏捷项目（类似于 Jira 和 GitHub 项目）。您可以在 GitHub 上探索我们的项目并为其做出贡献、访问我们的网站或加入我们的 Discord 社区。 tillywork 已获得麻省理工学院的许可，允许不受限制地用于个人和商业用途。我们邀请您尝试并分享您的反馈！]]></description>
-      <guid>https://t.me/hn_summary/90747</guid>
-      <pubDate>Tue, 21 May 2024 17:27:39 GMT</pubDate>
+      <title>[媒体] 网站：kittenlabs.de</title>
+      <link>https://t.me/hn_summary/90825</link>
+      <description><![CDATA[macOS 和 iOS 上为 25GBit/S
+标题：macOS 和 iOS 上的 25GBit/S
+网站：kittenlabs.de
+
+现代 macOS 和 iOS 设备可以通过 USB4/Thunderbolt 使用 NVIDIA/Mellanox ConnectX 网卡实现极高的网络速度。从 macOS Ventura/13 开始，这些系统包含 AppleEthernetMLX5 驱动程序，支持 ConnectX-4、5 和 6 卡。虽然 ConnectX-4 卡提供双端口 25 GBit/s 连接，但较新的卡可达到 200 GBit/s，但 Thunderbolt/USB4 接口将吞吐量限制在 40 Gbit/s 左右。值得注意的是，不支持 ConnectX-2 和 ConnectX-3 卡。令人惊讶的是，即使是 iPad Pro (M1) 也可以使用此设置进行连接，但只有配备 Apple Silicon/M 系列处理器的型号才支持 Thunderbolt/USB4。巧妙的硬件设置涉及使用 Thunderbolt/USB4 NVMe 存储外壳作为外部 PCIe 外壳。然而，电源要求超出了 USB-C 端口所能提供的范围，因此需要外部电源。虽然此设置还可以将外部 GPU 连接到 Intel/x86 Windows 和 Linux 计算机，但由于硬件限制，它在当前一代 Apple Silicon 上不可行。]]></description>
+      <guid>https://t.me/hn_summary/90825</guid>
+      <pubDate>Tue, 21 May 2024 23:11:57 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在“我想要灵活的查询，而不是 RAG”一文中，约翰·蒙特 (John Mount) 批评了现任前任 [...]</title>
-      <link>https://t.me/hn_summary/90746</link>
-      <description><![CDATA[我想要灵活的查询，而不是 RAG
-在“我想要灵活的查询，而不是 RAG”一文中，John Mount 批评了当前人工智能中检索增强生成 (RAG) 的兴奋点。他认为，虽然大型语言模型 (LLM) 具有价值，但它们的真正优势在于灵活的自然语言查询界面，而不是生成能力。 Mount 分享了一个关于搜索西西里大米菜肉馅煎蛋饼食谱的个人轶事，说明与传统搜索引擎相比，LLM 生成的响应效率低下且不准确。他强调，有效的查询管理和检索比生成看似合理但通常不正确的输出更有价值。这种观点挑战了对 RAG 的普遍热情，凸显了人们对精确信息检索的偏好，而不是生成式人工智能的推测性响应。]]></description>
-      <guid>https://t.me/hn_summary/90746</guid>
-      <pubDate>Tue, 21 May 2024 17:24:34 GMT</pubDate>
+      <title>[媒体]我很高兴地宣布在 Build 上推出 Copilot+ PC，这是 Windo 的一个新类别 [...]</title>
+      <link>https://t.me/hn_summary/90824</link>
+      <description><![CDATA[Windows Copilot 运行时
+我很高兴地宣布在 Build 大会上推出 Copilot+ PC，这是一种在各个级别都集成了 AI 的 Windows PC 的新类别。这些 PC 配备强大的神经处理单元 (NPU)，与传统 PC 相比，其处理 AI 工作负载的能力提高了 20 倍，效率提高了 100 倍。从高通 Snapdragon X 系列处理器开始，这些设备将于 6 月上市，英特尔和 AMD 将于今年晚些时候推出更多设备。此外，高通适用于 Windows 的 Snapdragon 开发套件提供了一个开发人员友好的平台，具有强大的规格和环保设计。
+
+我们还推出了 Windows Copilot Runtime，这是一个面向开发人员的综合 AI 平台。其中包括 Windows Copilot 库，该库具有由 40 多个设备上 AI 模型提供支持的 API，以及 Windows 语义索引和 Phi Silica（一种为 NPU 定制的最先进的小语言模型）等新功能。通过 DirectML 和 Web 神经网络 (WebNN) 开发者预览版对 Windows 上的 PyTorch 进行本机支持也是该计划的一部分，使开发人员能够在本机和 Web 应用程序中利用本地芯片实现 AI。
+
+这个新的生态系统旨在实现人工智能开发的民主化，提供工具和框架来加速为超过十亿用户创造创新的人工智能体验。我们致力于使 Windows 成为最开放的 AI 开发平台，通过我们的 Responsible AI 原则确保安全、公平和可信。 （根据 48% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/90824</guid>
+      <pubDate>Tue, 21 May 2024 22:41:42 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 高通推出了一款售价 899.99 美元的“适用于 Windows 的骁龙开发套件”，专为开发人员而设计[...]</title>
-      <link>https://t.me/hn_summary/90745</link>
-      <description><![CDATA[用于 Windows on Arm 实验的 8 英寸 Snapdragon PC
-高通公司推出了售价 899.99 美元的全新“适用于 Windows 的 Snapdragon 开发套件”，专为渴望在 Arm 上试验 Windows 的开发人员而设计。这款紧凑型 Mac Mini 设备配备强大的 Snapdragon X Elite 芯片、32GB LPDDR5x RAM、512GB NVMe 存储以及一系列端口，包括 USB4、USB 3.2、以太网和 HDMI。尽管其规格令人印象深刻，包括支持三个 4K 显示器和 Wi-Fi 7，但该开发套件可能不会广泛使用，因为它需要填写联系表格。此外，它还配备了一个外部 180W 交流适配器，与起价 999.99 美元的一体式 Surface Laptop 6 不同。值得注意的是，该开发套件的峰值 TDP 超过 80 瓦，可能比第一波笔记本电脑提供更多功率。]]></description>
-      <guid>https://t.me/hn_summary/90745</guid>
-      <pubDate>Tue, 21 May 2024 17:12:27 GMT</pubDate>
+      <title>[媒体] Venture 上的文章“Mojo Rising：人工智能优先编程语言的复兴”[...]</title>
+      <link>https://t.me/hn_summary/90823</link>
+      <description><![CDATA[Mojo 崛起：人工智能优先编程语言的复兴
+VentureBeat 上的文章“Mojo Rising：AI 优先编程语言的复兴”讨论了专门为 AI 开发量身定制的新编程语言的出现。从历史上看，LISP 和 Prolog 这样的语言在人工智能的早期阶段至关重要，引入了符号处理和动态类型等概念。如今，人工智能的需求正在突破 Python、Java 和 C 等流行语言的极限，从而催生了 Mojo、Bend 和适用于 TensorFlow 的 Swift 等人工智能优先语言。 Mojo 由 Modular AI 开发，承诺将 Python 的易用性与高性能结合起来，速度比 Python 快 35,000 倍。这种复苏意味着向满足人工智能独特需求的专用工具的转变，可能会彻底改变人工智能开发和硬件优化。
+
+争议点：文章强调了 Python 在人工智能方面的性能限制，这在其庞大的用户群中可能存在争议。
+
+独特/聪明的方面：Mojo 与现有 Python 生态系统的集成，同时提供显着的性能提升，是弥合易用性和高效率之间差距的聪明方法。]]></description>
+      <guid>https://t.me/hn_summary/90823</guid>
+      <pubDate>Tue, 21 May 2024 22:40:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
