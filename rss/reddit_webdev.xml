@@ -4,9 +4,37 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 22 May 2024 00:58:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 03:17:12 GMT</lastBuildDate>
     <item>
-      <title>日语关键字破解 - 最好的解决方法。如果我直接关闭网站并重建它，是不是会更简单、更快捷？</title>
+      <title>Adsense 展示位置问题 - 寻求帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cxpmgy/adsense_placement_issues_seeking_help/</link>
+      <description><![CDATA[我正在尝试彻底修改网站的广告展示位置，使用新代码后，它们似乎加载一次，然后不加载，有时之后会间歇性加载. 到目前为止，这是在开发环境中。为了排除环境问题，我将找到一种部署方法，并在必要时回滚它。 这是我第一次使用 adsense 和广告投放，我一直被难住了几周了。 有一个脚本正在移动标记的广告框，我想知道是否存在竞争条件，或者它试图填充错误的位置。 关于寻找什么有什么想法吗？    由   提交 /u/iBN3qk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cxpmgy/adsense_placement_issues_seeking_help/</guid>
+      <pubDate>Wed, 22 May 2024 02:29:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Netlify 功能更新</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cxp7ar/updates_to_netlify_functions/</link>
+      <description><![CDATA[不确定这是什么时候发生的，但是... Netlify Functions 现在支持标准 Request 和 Response 对象。可能需要节点 20+，据我所知，这似乎是最近添加的。  为什么这很重要？好吧，除了更好地镜像客户端/浏览器 API 之外，这意味着我们可以获得 FormData 和 File 之类的东西，所有这些都不需要任何额外的库......这消除了 base64 编码的很多问题，使用本机表单处理方法而不是所有内容都是 JSON 轻松支持请求，大大简化了文件上传的处理，等等！  似乎需要 export default 来启用此功能，而不是之前的 export const handler。 我敢肯定，对于那些不使用 Netlify 的人来说，这并不重要（可能会扩展到 AWS Lambda......不确定......有点讨厌亚马逊，因为亚马逊）。但至少对我来说，这非常庞大！就像......我为此创建并发布了一些 npm，我几乎不再需要维护它了......它已经处理并解决了。    提交人    /u/shgysk8zer0   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cxp7ar/updates_to_netlify_functions/</guid>
+      <pubDate>Wed, 22 May 2024 02:07:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>您如何与您的团队建立有效的沟通？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cxp0hl/how_do_you_build_effective_communication_with/</link>
+      <description><![CDATA[我最近发表了一篇关于项目管理技巧的文章，其中重复次数最多的技巧是与客户和团队的沟通，建立对两者的开放理解地区。另外，让团队能够轻松地表达他们的缺点或阻碍。 如果您正在管理一个项目[并且无论出于何种原因您也是开发团队的一员，您如何构建一个健康的沟通环境]？    由   提交/u/Annual-Ad-416   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cxp0hl/how_do_you_build_effective_communication_with/</guid>
+      <pubDate>Wed, 22 May 2024 01:57:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何制作电子邮件 HTML 原型？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cxod89/how_to_prototype_email_html/</link>
+      <description><![CDATA[我一直想研究电子邮件 HTML，甚至可能使用动画，如果可能的话小型库等。问题是我不确定什么实际上是可能的，或者是否有一种方法可以模拟电子邮件环境，这样我就可以避免每次编辑时都发送电子邮件。 我该怎么做？有专门的工具可以使用吗？有什么硬性限制吗？允许使用JS吗？   由   提交/u/EnderGopo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cxod89/how_to_prototype_email_html/</guid>
+      <pubDate>Wed, 22 May 2024 01:23:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>日语关键字黑客 - 最好的方法。如果我只删除网站并重建它，是否会更容易、更快？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxne0k/japanese_keyword_hack_best_way_to_go_about_it_is/</link>
       <description><![CDATA[我的网站已受到 日语关键字 hack，我使用他们的网站构建器 SiteWiz 通过 freeparking 构建了它，FreeParking 负责域名托管和网站托管。他们没有任何在这方面有经验的人，而且整个黑客过程只是一个过程。由于该网站的利基市场，不需要很长时间就能恢复网站排名。  处理这个问题的最佳方法是什么？关闭网站并在另一个平台上重建或弄清楚如何自己完成修复文件的过程会更快吗？  欢迎任何帮助。   由   提交/u/Snoo66769  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxne0k/japanese_keyword_hack_best_way_to_go_about_it_is/</guid>
@@ -15,14 +43,14 @@
     <item>
       <title>表单提交数据库选项</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxmyna/form_submission_database_options/</link>
-      <description><![CDATA[你们都用什么来存储客户的表单提交数据？目前，我使用 pageclip 来存储所有表单提交，但想知道是否还有其他选择。    提交人    /u/jnem84   [link] [comments]]]></description>
+      <description><![CDATA[你们都用什么来为客户提供表单提交数据？目前，我使用 pageclip 来存储所有表单提交，但想知道是否还有其他选项。   由   提交/u/jnem84   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxmyna/form_submission_database_options/</guid>
       <pubDate>Wed, 22 May 2024 00:12:11 GMT</pubDate>
     </item>
     <item>
       <title>NameCheap 与 Wordpress.com 网站构建器？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxmi3w/namecheap_versus_wordpresscom_website_builder/</link>
-      <description><![CDATA[我计划为我正在创办的企业制作一个非常简单的网站。由于它的简单性和我自己缺乏知识，我想坚持使用拖放式 CMS。 （它基本上是一个登陆页面网站，因此基于模板的网站构建器非常适合我。）我的计划是注册该网站并使用 NameCheap 接收电子邮件，但通过 Wordpress.com 托管并使用他们的网站构建器 CMS（网站-构建器和托管是一回事，当您购买一个时，您会得到另一个）。 请注意：我说的是 Wordpress.com，这是一个类似于 Wix 或 Squarespace 的基于网络的平台。我不是在谈论桌面 Wordpress.org 平台。 现在我看到 NameCheap 有自己的网站构建器，同样免费，适用于任何托管计划。有人用过 NameCheap 的建站工具吗？有人知道它与 Wordpress.com 相比如何吗？我知道 Wordpress 作为一家公司比 NameCheap 更主要以 CMS 为中心，所以我可能期望它的网站建设有更多的功能、内容和支持——但我不知道。 NameCheap 也便宜一点，使用他们的网站构建器意味着将网站的所有组件保留在同一平台上。有什么建议吗？   由   提交/u/Pspecial-Pepper-64   [链接] [评论]]]></description>
+      <description><![CDATA[我计划为我正在创办的企业制作一个非常简单的网站。由于它的简单性和我自己缺乏知识，我想坚持使用拖放式 CMS。 （它基本上是一个登陆页面网站，因此基于模板的网站构建器非常适合我。）我的计划是注册该网站并使用 NameCheap 接收电子邮件，但通过 Wordpress.com 托管并使用他们的网站构建器 CMS（网站-构建器和托管是一回事，当您购买一个时，您会得到另一个）。 请注意：我说的是 Wordpress.com，这是一个类似于 Wix 或 Squarespace 的基于网络的平台。我不是在谈论桌面 Wordpress.org 平台。 现在我看到 NameCheap 有自己的网站构建器，同样免费，适用于任何托管计划。有人用过 NameCheap 的建站工具吗？有人知道它与 Wordpress.com 相比如何吗？我知道 Wordpress 作为一家公司比 NameCheap 更主要以 CMS 为中心，所以我可能期望它的网站建设有更多的功能、内容和支持——但我不知道。 NameCheap 也便宜一些，使用他们的网站构建器意味着将网站的所有组件保留在同一平台上。有什么建议吗？   由   提交/u/Pspecial-Pepper-64   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxmi3w/namecheap_versus_wordpresscom_website_builder/</guid>
       <pubDate>Tue, 21 May 2024 23:50:11 GMT</pubDate>
     </item>
@@ -57,7 +85,7 @@
     <item>
       <title>如何实现sql多表无表查找？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxiuq6/how_to_implement_sql_table_free_search_with/</link>
-      <description><![CDATA[我有一个文本输入，用于输入免费搜索，该搜索将发送到服务器并执行“从名称类似 %freeSearch% 的产品中选择”之类的操作。它工作正常。 产品与另一个表销售有关系，我想添加一个条件，如果产品有销售关系，它应该查看 sales.name，或 sales.code。 我设法使用 laravel orm 使用模型关系和其他东西来做到这一点，它可以工作，但是查询时间几乎花了 20 秒... 然后我用谷歌搜索，发现我可以添加称为全文索引的东西，并使用称为匹配的不同语法。它缩短了很多时间，但它只执行单词搜索。例如“示例文本”给了我所有带有“文本”的结果并忽略了前一个词。 所以我的问题是，是否可以实现？我应该使用图书馆吗？基本上什么是表格文本搜索最佳实践..    由   提交 /u/Eight111   [链接] [评论]]]></description>
+      <description><![CDATA[我有一个文本输入，用于输入免费搜索，该搜索将发送到服务器并执行“从名称类似 %freeSearch% 的产品中选择”之类的操作。它工作正常。 产品与另一个表销售有关系，我想添加一个条件，如果产品有销售关系，它应该查看 sales.name，或 sales.code。 我设法使用 laravel orm 使用模型关系和其他东西来做到这一点，它可以工作，但是查询时间几乎花了 20 秒... 然后我用谷歌搜索，发现我可以添加称为全文索引的东西，并使用称为匹配的不同语法。它缩短了很多时间，但它只执行单词搜索。例如“示例文本”给了我所有带有“文本”的结果并忽略了前面的单词。 所以我的问题是，是否可以实现？我应该使用图书馆吗？基本上什么是表格文本搜索最佳实践..    由   提交 /u/Eight111   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxiuq6/how_to_implement_sql_table_free_search_with/</guid>
       <pubDate>Tue, 21 May 2024 21:07:46 GMT</pubDate>
     </item>
@@ -69,46 +97,18 @@
       <pubDate>Tue, 21 May 2024 20:50:08 GMT</pubDate>
     </item>
     <item>
-      <title>将 Wix 上的域链接到 DreamHost</title>
+      <title>将 Wix 上的域名链接到 DreamHost</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxhhlm/linking_a_domain_on_wix_to_dreamhost/</link>
       <description><![CDATA[嗨， 我想将 Wix 上的域指向/链接到 Dreamhost 托管，其中是我的新 WordPress 网站。  我确实将“A 记录”更改为但它什么也没做。 我的朋友建议更改名称服务器记录，但此选项在 Wix 中被阻止。  是否可以将 Wix 下的域名指向另一个虚拟主机？  在不更改名称服务器记录的情况下，Dreamhost 上的 SSL 证书是否可以工作？   由   提交/u/pixsector  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxhhlm/linking_a_domain_on_wix_to_dreamhost/</guid>
       <pubDate>Tue, 21 May 2024 20:10:42 GMT</pubDate>
     </item>
     <item>
-      <title>您将如何创建这个网站？</title>
+      <title>您将如何创建该网站？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxhezq/how_would_you_create_this_website/</link>
       <description><![CDATA[大家好， 我正在创建一个类似于 Trigen.groove-tech.com 的网站。其简洁的布局、现代的设计和流畅的交互性给我留下了特别深刻的印象。 我感兴趣的主要功能： • 布局：内容的结构和呈现方式。 • 设计：美学方面，包括颜色、字体和间距的使用。 • 交互性：任何动态元素或动画。 问题：  什么技术和框架最适合构建这样的网站？例如，他们在这个网站上使用了 WebGL。 我在哪里可以找到可以设计这样的东西的开发人员以及我们会谈论什么样的价格？ 有什么建议或最佳建议吗？实现类似水平的设计和用户体验的实践？  提前感谢您的帮助！   由   提交 /u/Damnedeel   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxhezq/how_would_you_create_this_website/</guid>
       <pubDate>Tue, 21 May 2024 20:07:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>是否有博客网站/应用程序提供 API 以在我自己的 React 应用程序中获取？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxha0l/is_there_blog_websiteapplication_that_provides_an/</link>
-      <description><![CDATA[基本上如标题所示。我是一名开发人员，我的公司需要我们的非技术营销团队能够撰写博客，然后将其显示在我们的目标网页上。 我的想法：营销团队撰写博客，其中包含图片、标题、标签等等 -&gt;我查询博客 API，并将所有相关信息放入一个组件中，然后显示。 在我的初步研究中，我应该寻找像 WordPress、Ghost、Strapi 和 Medium 这样的 CMS，但我没有。不要太仔细地研究它。有人有什么建议吗？谢谢！   由   提交 /u/mzkpenguin   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxha0l/is_there_blog_websiteapplication_that_provides_an/</guid>
-      <pubDate>Tue, 21 May 2024 20:02:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们公司会进行随机药物测试吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxh9ja/does_your_company_do_random_drug_tests/</link>
-      <description><![CDATA[它有多常见？    由   提交  /u/Sgdoc7   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxh9ja/does_your_company_do_random_drug_tests/</guid>
-      <pubDate>Tue, 21 May 2024 20:01:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cookie 同意：在用户单击“接受”之前触发 Cookie</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxgker/cookie_consent_cookies_firing_before_user_clicks/</link>
-      <description><![CDATA[我正在我的一些网站上安装 Cookie 横幅/偏好管理中心的同意管理平台。所有这些企业都位于美国，需要遵守 CCPA/CPRA。   一个网站使用 TrustArc，另一个网站使用 CookiePro，另一个网站使用 Termly。具有 TrustArc 的站点已将脚本安装到站点的头部。我们遵循文档并选择不使用 GTM 实现。  CookiePro 和 Termly 正在使用 WP 插件——我所要做的就是输入 API 密钥。我已经正确配置了我的设置，并且正在测试。   当我在 Chrome 上检查并查看面板中的应用程序选项卡时，在单击“接受”之前就会显示 Cookie 。当我单击“接受”时，它会显示更多内容。如果我点击“拒绝”，它会显示更少的内容。   理论上，在我点击“接受”（或滚动以获得默示同意）之前，cookie 根本不应该显示。为什么会发生这种情况？我怎样才能让它停止？ 另外两件事： 我在新泽西州——这可能是地理定位规则吗？我所在的州没有数据隐私立法。 非常感谢任何见解！   由   提交 /u/AnnieArley   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxgker/cookie_consent_cookies_firing_before_user_clicks/</guid>
-      <pubDate>Tue, 21 May 2024 19:33:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我有什么想法可以重新创建这种 3D 模型变形并为其制作动画吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxgb79/any_ideas_how_i_can_recreate_and_animate_this/</link>
-      <description><![CDATA[   /u/Dikrrr   [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxgb79/any_ideas_how_i_can_recreate_and_animate_this/</guid>
-      <pubDate>Tue, 21 May 2024 19:22:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
