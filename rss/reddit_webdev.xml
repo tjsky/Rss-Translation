@@ -4,18 +4,60 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 22 May 2024 12:25:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 15:15:20 GMT</lastBuildDate>
+    <item>
+      <title>WordPress 社交媒体源插件发生了什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy1qxh/what_happened_to_wordpress_socialmedia_feed/</link>
+      <description><![CDATA[所以，一位客户刚刚要求我将 LinkedIn 帖子集成到他们的 WordPress 网站中，我知道，“你好 2010”，但这就是他们想要的，并且付钱，所以是的...让我们开始吧。  我想，这会很简单，因为我记得，在那天，你只需添加一个插件，接受 LinkedIn 个人资料 ID，然后就完成了......对吧？ p&gt; 不，好像已经没有这样的事情了。相反，有像榨汁机和 tagembed 这样的服务，需要您订阅，然后与 API 对话，并允许您在 WordPress 网站上显示**有限数量**的小部件/提要。这可能会很麻烦，因为客户希望从他们的公司 linkedin 页面聚合一个 feed，并在团队详细信息页面上为每个团队成员 (~20) 聚合一个 feed（请观看）。 Am我“祝福”了现在编写我自己的 LinkedIn-API 用户并相应收费？   由   提交 /u/ad-on-is   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy1qxh/what_happened_to_wordpress_socialmedia_feed/</guid>
+      <pubDate>Wed, 22 May 2024 14:34:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于为微服务后端编写单元测试的争论</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/</link>
+      <description><![CDATA[今天我与团队和我的团队负责人进行了通话。 我们讨论了应该开始为我们的团队编写测试微服务从现在开始。就上下文而言，每个微服务都非常*大*，它们本身更像是一个应用程序。 （20+ 微服务/应用程序，5 人团队） 在我的 4 年里根据经验，每次我编写单元测试时，我都会模拟测试中的依赖关系。对于每个测试，我都针对特定情况编写了一个新的模拟。 问题是团队负责人建议我们应该创建一个全局 TestTrait，它应该模拟应用程序中的每个类和每个方法， TL 声称，通过这种方式，编写测试会更容易，因为您不必担心模拟，而只需调用该类并查看它是否返回正确的结果。&lt; /p&gt; 我觉得这是一个非常糟糕的选择。我反对这一点，但被拒绝了，并告诉我的方法很麻烦，当需要更改时，必须在很多地方进行更改，这就是为什么需要一个全局类。 我不知道这是否是进行单元测试的另一种方法，我只是坚持到目前为止我做事的方式，或者它只是愚蠢的。 编辑：是的，BE 受到了很多问题的困扰特征和全局类别，而且情况每天都变得更糟；   由   提交/u/Prudent-Stress  /u/Prudent-Stress reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/&quot;&gt;[链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/</guid>
+      <pubDate>Wed, 22 May 2024 14:01:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何保持志愿者 Web 开发团队的积极性？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy08fy/how_to_keep_a_volunteer_web_dev_team_motivated/</link>
+      <description><![CDATA[嘿，我真的需要一些建议。这是我第一次担任首席执行官，我领导着一个完全远程的志愿者网络开发团队。您如何保持无薪团队成员的积极性，特别是当他们受到个人成长、我们的创业愿景的驱动，或者只是喜欢在团队环境中工作时？ 我们的初创公司位于教育科技 B2C 领域，创建了一个为人们寻找有助于推动人类进步的技术项目的平台。我有一个由 15 名志愿者组成的团队，包括开发人员、设计师、产品经理和 QA 人员。我觉得我非常擅长描绘我们正在建设的未来，根据每个人的个人目标让事情变得有趣，并以身作则。 但我忍不住将我的团队与其他拥有资金并且正在快速成长或已经是独角兽的初创公司。有时这会让我感到沮丧，认为我们没有达到标准，我可能做错了什么。 您有什么建议或策略可以让我的网络开发团队保持积极性并走上正轨吗？  p&gt;   由   提交/u/lukiepookie_9   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy08fy/how_to_keep_a_volunteer_web_dev_team_motivated/</guid>
+      <pubDate>Wed, 22 May 2024 13:28:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>在单个网页上加载大量图标的最佳实践是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cxzshm/whats_the_best_practice_for_loading_a_ton_of/</link>
+      <description><![CDATA[我正在管理一个网站，该网站当前加载了数百个图标，并利用 CSS 将每个图标的大小调整为 32x32（它们是徽标，因此不是每个图标）它们是正方形的）。 这是一个业余爱好项目，我没有相关经验，所以我一直在做一些研究来了解实现这一目标的最佳方法，但似乎无法实现对于提供图标的最佳方式达成共识。 到目前为止，我已将每个图标转换为 WebP 而不是 PNG，以尽可能减小尺寸。 I尝试在 Illustrator 中将它们的大小调整为 32x32，这样浏览器就不必在加载时调整它们的大小，但这会使它们在移动设备上有点模糊（桌面看起来不错）。 如果我创建更高分辨率移动设备的图标（64x64 等），然后我又回到要求浏览器调整图标大小的问题。到那时，是否值得将它们调整为正方形，或者我应该保持它们原始的宽高比并使用 WebP 尽可能缩小尺寸？   由   提交/u/pedges  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cxzshm/whats_the_best_practice_for_loading_a_ton_of/</guid>
+      <pubDate>Wed, 22 May 2024 13:06:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>您的 Next.js 14 应用程序使用哪种状态管理？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cxzfud/which_state_management_are_you_using_with_your/</link>
+      <description><![CDATA[状态管理的选项太多了，我有点迷失了。我什至不记得为什么我们要避免使用 useContext——对不相关的组件进行不必要的更新？我一直在使用 Jotai，但它总是抛出奇怪的错误。尝试过 Zustand，但有点复杂。   由   提交/u/w333l  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cxzfud/which_state_management_are_you_using_with_your/</guid>
+      <pubDate>Wed, 22 May 2024 12:49:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>NameError：“符号”或“股票代码” - 决定正确变量名称的基础是什么</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cxzfmn/nameerror_symbol_or_ticker_what_should_be_the/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cxzfmn/nameerror_symbol_or_ticker_what_should_be_the/</guid>
+      <pubDate>Wed, 22 May 2024 12:49:32 GMT</pubDate>
+    </item>
     <item>
       <title>你在什么场景下使用Redis？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxyono/in_which_scenario_do_you_use_redis/</link>
-      <description><![CDATA[嗨！  在我的学校，我们提到 Redis 是一项非常有用的技术，但我不知道在哪里、何时使用它以及用于什么目的。你们有机会使用它吗？   由   提交 /u/NaightFr   [链接] [评论]]]></description>
+      <description><![CDATA[嗨！  在我的学校，我们提到 Redis 是一项非常有用的技术，但我不知道在何时何地使用它以及用于什么目的。你们有机会使用它吗？   由   提交 /u/NaightFr   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxyono/in_which_scenario_do_you_use_redis/</guid>
       <pubDate>Wed, 22 May 2024 12:09:59 GMT</pubDate>
     </item>
     <item>
-      <title>2024 年最值得学习的“面向未来”的数据可视化前端框架是什么？</title>
+      <title>2024 年最“面向未来”的数据可视化前端框架值得学习吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cxy2dt/most_futureproof_data_visualisation_frontend/</link>
-      <description><![CDATA[目前有相当多的用于数据可视化的前端框架（和库）。 但据我所知，有两大“巨头”：  Plotly (Python) D3.js (Javascript)  “长尾”令人惊讶的是很长，包括 Charts.js 等内容（不包括链接，以免触发审核规则，但 Github 上有一个很棒的 Awesome - 无从属关系）。 如果您想在 2024 年投入时间和精力从头学习其中之一……您会选择哪一个？ 一方面，显而易见的答案似乎是“无论您要用什么来构建”。 但我正在考虑一个数据可视化博客用例，其中选择优秀的数据可视化库可能会影响其余堆栈。 在所有情况下，我认为无论其他技术优点如何，选择领先于弃用曲线的东西通常都是明智的选择。 我听说有人说 D3 很难，而 Plotly 可能更具前瞻性，但是......我才刚刚开始探索这个世界。 感谢您的想法！    由    /u/danielrosehill 提交   [链接] [评论]]]></description>
+      <description><![CDATA[有很多不同的用于数据可视化的前端框架（和库）。 但是有两个“ “大狗”据我所知：  Plotly (Python) D3.js (Javascript)  “长尾”出人意料的长，包括 Charts.js 等内容（不包括链接，以免触发审核规则，但 Github 上有一个非常棒的内容 - 无隶属关系）。 如果您想投入时间以及在 2024 年从头开始学习其中一项的精力……您会选择哪一个？ 一方面，显而易见的答案似乎是“无论您将用什么来构建。”&lt; /p&gt; 但我正在考虑一个数据可视化博客用例，其中优秀数据可视化库的选择可能会影响堆栈的其余部分。 在所有情况下，我认为无论其他技术优点如何，在弃用曲线之前进行某些操作通常是明智的策略。 我听说过 D3 很困难并且 Plotly 可能更具前瞻性，但是......我&#39;我刚刚开始探索这个世界。 感谢您的想法！   由   提交/u/danielrosehill  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxy2dt/most_futureproof_data_visualisation_frontend/</guid>
       <pubDate>Wed, 22 May 2024 11:36:10 GMT</pubDate>
     </item>
@@ -67,48 +109,6 @@
       <description><![CDATA[大家好。您推荐哪种 cookie 同意服务？我正在寻找一种服务，它可以完成我不想做的所有事情：扫描 cookie、跟踪所有法律并显示所有强制按钮/选项/复制/... 重要对我来说：我想要更改设计的选项。不仅仅是颜色等一些基础知识，最好使用 HTML/CSS/JS 来进行更深层次的更改。 仅供参考：我的大多数项目都使用 React。 感谢您的建议。   由   提交/u/pjottee  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cxvo16/cookie_consent_service/</guid>
       <pubDate>Wed, 22 May 2024 08:56:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>您能否建议如何使我的非 WP 网站看起来像带有检测器等的 WP 网站？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxvbdg/can_you_suggest_how_to_make_my_nonwp_website/</link>
-      <description><![CDATA[嘿，社区！ 你能帮我完成任务吗？我有非 WP 网站。但我需要这些网站可以像WP一样被识别。怎么做？标头、文件夹结构、也许是一些 API 请求等？ 此外，如果您知道一些检查网站技术堆栈的检测器服务，请在上面写一个链接。 非常感谢！    由   提交/u/iamrossalex  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxvbdg/can_you_suggest_how_to_make_my_nonwp_website/</guid>
-      <pubDate>Wed, 22 May 2024 08:29:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>对 ChatGPT 对 517 个编程问题的答案进行分析发现，52% 的 ChatGPT 答案包含错误信息。在 39% 的错误答案中，用户并没有意识到其中存在错误。 （x-post r/科学）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxuwax/analysis_of_chatgpt_answers_to_517_programming/</link>
-      <description><![CDATA[ 由   提交 /u/IDENTITETEN   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxuwax/analysis_of_chatgpt_answers_to_517_programming/</guid>
-      <pubDate>Wed, 22 May 2024 07:57:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要订阅者表格方面的帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxuwah/need_help_with_subscriber_forms/</link>
-      <description><![CDATA[我想为我的网站创建一个订阅者表单，订阅者可以输入位置，然后表单检测预期位置，然后订阅者可以单击该位置并对其进行标记。  我们特别需要一个可以标记多个此类位置的表单。 该网站是为一家房地产公司服务的，该公司希望根据客户感兴趣的领域向客户发送警报。 我也没有编码经验，任何关于如何使用 API 和与 MailChimp 集成来实现这一点的建议都会非常有帮助。 我确实查看了 MailChimp 的集成选项，但据我所知，没有一个可以做到上述事情。    提交人    /u/JmBiscuit   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxuwah/need_help_with_subscriber_forms/</guid>
-      <pubDate>Wed, 22 May 2024 07:57:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要建议：作为初学者使用现代技术构建天文俱乐部网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxumzd/need_advice_building_an_astronomy_club_website/</link>
-      <description><![CDATA[大家好， 我目前正在为当地的天文俱乐部开发一个 Web 项目，以提高我的 Web 开发技能。我自愿为我的作品集创建这个网站作为一个免费项目，因为我渴望有一天以此为生。该项目没有严格的截止日期，而且我是一个拥有“两年经验”的初学者。构建小型个人项目。目标是创建一个网站，作为博客和平台来展示当地天文学界的活动和产品。这是我到目前为止所拥有的以及我需要帮助的内容： 当前进度：  使用的技术： HTML、CSS、JS（主要是我知道如何使用） 版本：初步版本已完成 当前部分：  导航栏 主页 活动部分的非常基本版本 每日图片（使用 NASA 的 API，当前版本已经运行） 每日图片（使用 NASA 的 API，当前版本已经运行） li&gt;   未来愿景和优先事项：  活动（高优先级）： 显示即将发生的事件和活动具有注册选项。 博客（高优先级）：集中与天文学相关的文章。 每日图片（中优先级）：&lt; /strong&gt; 展示每日天文图像并附有说明。 图库（中优先级）：展示活动中的照片和视频。 用户管理 (低优先级）：实施注册、登录和用户配置文件。 独家内容（低优先级）：提供会员专享内容和资源。 教育部分（低优先级）：开发动画和教育内容（稍后添加）。  更多背景：  我考虑过使用 WordPress，但想尝试在没有 WordPress 的情况下使项目正常运行，尽管它是一个博客。这可能是学习使用无头 CMS 的好机会？ 我对 React 有一些浅薄的经验，并考虑在这个项目中使用它。 我的目标是实现功能在学习新技术的同时，这在这种情况下是有意义的。  研究已完成：  评估了 WordPress 在博客中的使用，但决定探索替代方案。&lt; /li&gt; 研究了 Contentful 和 Strapi 等无头 CMS 选项，但我不确定它们是否是我的项目所需要的。 研究了可能对该项目有益的各种库和框架，但感觉有点不知道什么是方便的或有意义的。  要解决的问题：  有关实现这些功能的最佳实践的建议。 针对增强项目的库和框架的建议。 考虑未来愿景和优先事项，针对在此背景下有意义的工具和技术的建议。  I&#39;我渴望学习和使用新技术，但我想确保它们适合我的项目要求。任何建议或指导将不胜感激！ 提前感谢您的帮助！   由   提交 /u/varrium   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxumzd/need_advice_building_an_astronomy_club_website/</guid>
-      <pubDate>Wed, 22 May 2024 07:37:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>CookieYes 指南和教程？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxua7v/cookieyes_guides_and_tutorials/</link>
-      <description><![CDATA[大家好，我刚刚切换到 Cookie 是的，同意模式已正确实现，但我很难链接我的 cookie。因此，现在我已暂停所有代码，直到我设法再次合规... 我在 GTM 上安装了 GA4、Facebook Pixel 和 Google Ads 代码，并且它们都之前 CookieYes 注册同意。 我寻找指南和教程，但似乎没有找到我需要的... 任何人都可以向我发送一份像样的指南/教程吗？让这项工作适用于 GDPR 国家/地区？ 感谢一百万。   由   提交 /u/AbeilleMarketing   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxua7v/cookieyes_guides_and_tutorials/</guid>
-      <pubDate>Wed, 22 May 2024 07:12:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>为我们的应用程序构建了一个免费的变更日志生成器。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxu5ry/built_a_free_changelog_generator_for_our_apps/</link>
-      <description><![CDATA[希望得到一些关于我周末创建的这个工具的反馈。它使用您在指定分支上的 github 提交构建一个简单的变更日志。  我正在考虑切换到 Markdown 编辑器，但首先想要一些想法。让我知道！    由   提交/u/LawfulGoodGM  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxu5ry/built_a_free_changelog_generator_for_our_apps/</guid>
-      <pubDate>Wed, 22 May 2024 07:03:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
