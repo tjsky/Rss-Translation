@@ -3,8 +3,15 @@
   <channel>
     <title>拥抱脸 - 博客</title>
     <link>https://huggingface.co/blog</link>
-    <description>拥抱脸博客</description>
-    <lastBuildDate>Tue, 21 May 2024 21:11:56 GMT</lastBuildDate>
+    <description>拥抱的脸博客</description>
+    <lastBuildDate>Wed, 22 May 2024 21:13:56 GMT</lastBuildDate>
+    <item>
+      <title>通过 Hugging Face 在 AWS Inferentia2 上部署模型</title>
+      <link>https://huggingface.co/blog/inferentia-inference-endpoints</link>
+      <description><![CDATA[]]></description>
+      <guid>https://huggingface.co/blog/inferentia-inference-endpoints</guid>
+      <pubDate>Wed, 22 May 2024 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>推出 Spaces 开发模式以提供无缝的开发人员体验</title>
       <link>https://huggingface.co/blog/spaces-dev-mode</link>
@@ -20,7 +27,7 @@
       <pubDate>Tue, 21 May 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>AMD Instinct MI300 GPU 上的拥抱脸部</title>
+      <title>AMD Instinct MI300 GPU 上的拥抱脸</title>
       <link>https://huggingface.co/blog/huggingface-amd-mi300</link>
       <description><![CDATA[]]></description>
       <guid>https://huggingface.co/blog/huggingface-amd-mi300</guid>
@@ -90,25 +97,18 @@
       <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>通过 Hugging Face 推理端点实现强大的 ASR + 二值化 + 推测解码</title>
+      <title>强大的 ASR + 二值化 + 带有 Hugging Face Inference Endpoints 的推测解码</title>
       <link>https://huggingface.co/blog/asr-diarization</link>
       <description><![CDATA[]]></description>
       <guid>https://huggingface.co/blog/asr-diarization</guid>
       <pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>提高结构化生成的即时一致性</title>
+      <title>通过结构化生成提高即时一致性</title>
       <link>https://huggingface.co/blog/evaluation-structured-outputs</link>
       <description><![CDATA[]]></description>
       <guid>https://huggingface.co/blog/evaluation-structured-outputs</guid>
       <pubDate>Tue, 30 Apr 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>StarCoder2-Instruct：完全透明且允许的代码生成自对准</title>
-      <link>https://huggingface.co/blog/sc2-instruct</link>
-      <description><![CDATA[]]></description>
-      <guid>https://huggingface.co/blog/sc2-instruct</guid>
-      <pubDate>Mon, 29 Apr 2024 00:00:00 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,16 +4,72 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 22 May 2024 18:18:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 21:15:34 GMT</lastBuildDate>
     <item>
-      <title>我现在在一家初创公司工作，大部分工作都已经完成，工作时间最多降到每月 40 小时。我需要找另一份工作，但因为这个原因，我无法把工资提高到每月 160 小时。这可行吗？</title>
+      <title>关于如何构建某些东西的建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cyadif/recommendations_on_how_to_build_something/</link>
+      <description><![CDATA[我正在尝试构建一些我确实找不到太多研究的东西。我知道这是可以做到的，因为这是一种相当大的媒体消费形式。我正在尝试制作一个文章创建/查看网站。我建立了一个管理页面，可以在其中创建文章，每篇文章都是不同的，并且整篇文章都有图像。我当前的文章架构是 MySQL，我存储 VehicleType、ArticleType、Author、Title、DateUploaded、ThumbnailUrl。我可能把这个问题复杂化了，但是我应该如何让所写的文章能够在网站上查看。我拥有的 WYSIWYG 编辑器创建并返回平面 HTML，但我不知道我是否喜欢这种方法，因为它可能会导致一些漏洞和样式问题，除了将原始 HTML 存储在数据库中之外，这在以下方面也不是很好性能方面。这里有人尝试过制作类似的东西吗？我在网上找到的所有内容都只是关于制作硬编码博客的蹩脚 YouTube 教程。虽然我想要一些我能写出来的东西，但还是把它发布出来。我独自一人从事这个项目，感觉我可能把它变得过于复杂了。 有关堆栈的信息：前端：Vue.js后端：Kotlin Spring (目前正在迁移到 Go）数据库：MySQL（但一直在讨论 MongoDB）我有三个应用程序，我的前端网站，后端，然后是一个文档存储系统，用于存储照片并通过HTTP 请求。   由   提交 /u/Rinsakiii   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cyadif/recommendations_on_how_to_build_something/</guid>
+      <pubDate>Wed, 22 May 2024 20:25:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找SaaS套件的前端重度合作伙伴</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cya7xx/looking_for_frontend_heavy_partner_for_saas_kit/</link>
+      <description><![CDATA[我目前在 breakneck.dev 运行 saas 样板工具包 它与通常的 nextjs/laravel 全栈有点不同，因为它只是 c# / aspnetcore 中的后端部分，因此人们可以构建 api 产品、Web 项目或移动应用程序。 &lt; p&gt;我正在考虑添加所有其他样板所具有的更多可视化部分和功能，但我不想自己编写代码。我的反应还好，但仅此而已。我也不是特别喜欢构建前端。 我正在寻找真正喜欢前端并且可能喜欢设计的人。我认为这会带来更好的产品，也会让我承担更多责任，而且会更有趣。 也许会把它变成更优质的样板产品。后端功能更加丰富，并且由真正了解后端的人构建。而且正面看起来更好看，而且是由真正了解设计的人制作的。  卖点不是“3天内构建你的SaaS”，而是“构建高质量的产品”。反而。我认为无论如何，船舶快速方法都被夸大了。 如果您有兴趣，请通过私信联系我。我已经在做销售了。虽然时间不多，但仍然如此。   由   提交 /u/Venisol   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cya7xx/looking_for_frontend_heavy_partner_for_saas_kit/</guid>
+      <pubDate>Wed, 22 May 2024 20:19:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>我很紧张。请烤我的网站 v1.0。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cya64l/im_nervous_please_roast_v10_of_my_site/</link>
+      <description><![CDATA[我需要反馈。我知道一些小事情，但总体印象将不胜感激。  决定​​网络和软件开发   由   提交 /u/Rexcovering   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cya64l/im_nervous_please_roast_v10_of_my_site/</guid>
+      <pubDate>Wed, 22 May 2024 20:16:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何组合作品集</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cya0cl/how_to_put_together_a_portfolio/</link>
+      <description><![CDATA[我目前正在努力完成在线前端开发认证，并且很好奇我应该在我的作品集中添加什么，因为我真的没有经验？    由   提交 /u/komodocommand   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cya0cl/how_to_put_together_a_portfolio/</guid>
+      <pubDate>Wed, 22 May 2024 20:10:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>收集客户个人数据的最佳方式</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy9djd/best_way_to_collect_client_personal_data/</link>
+      <description><![CDATA[大家好。您如何收集客户的个人数据，例如，如果您需要银行信息来设置电子商务商店，该怎么办？或者你只是让他们在你移交网站时这样做。或者，如果您需要 paypal、stripe 或 clover 信息与他们的 POS 系统同步怎么办？无需亲自进行此操作最安全的方法是什么？提前致谢。   由   提交/u/DanCruzNyc   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy9djd/best_way_to_collect_client_personal_data/</guid>
+      <pubDate>Wed, 22 May 2024 19:44:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>您无法再退出 X/twitter</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy8f0r/you_can_no_longer_log_out_of_xtwitter/</link>
+      <description><![CDATA[我没有使用过 x.com。我去了 twitter.com。我被重定向到 x.com。我不得不接受 cookie 横幅，我的显示/设计偏好被重置。但我已经登录了。怎么办？ 所以我仔细查看后发现：如果您在未登录的情况下访问 x.com，您的浏览器会向 twitter.com 发出请求并获取您的会话信息。它使用它来让您登录，无需任何用户交互。 这是副作用。访问 x.com。登出。您将注销并通过上述过程立即重新登录，因为您的会话在 twitter.com 上处于活动状态。但您无法结束 twitter.com 上的会话，因为它会立即将您重定向到 x.com。 我认为我们可以从中吸取一些教训...    由   提交/u/Tontonsb   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy8f0r/you_can_no_longer_log_out_of_xtwitter/</guid>
+      <pubDate>Wed, 22 May 2024 19:05:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>填写联系我们表单的机器人如何知道垃圾邮件何时被丢弃？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy7n1h/how_can_bots_filling_out_a_contact_us_form_know/</link>
+      <description><![CDATA[如果这不是此类问题的正确 subreddit，请提前致歉。 最近为自己建立了一个小网站，几分钟之内我就收到了通过联系页面提交的垃圾邮件。而且我仍然每小时收到多个。该表单包含“姓名”、“电子邮件”和“消息”字段，100% 的垃圾邮件来自 .ru 电子邮件。 有趣的是，我修改了我的 PHP 脚本，(a) 通过电子邮件向我发送了新的询问(b) 将查询添加到数据库中，对于电子邮件以 .ru 结尾但仍显示“谢谢您的消息”的所有查询，跳过这两个步骤。页面，所有垃圾邮件立即开始通过以 .pl 结尾的虚假电子邮件发送。 垃圾邮件机器人如何知道他们的邮件已被服务器端过滤掉，并找到绕过此问题的方法？仅仅是因为脚本现在运行速度快了一些吗？   由   提交 /u/lostinyourstereo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy7n1h/how_can_bots_filling_out_a_contact_us_form_know/</guid>
+      <pubDate>Wed, 22 May 2024 18:34:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何让人工智能为我创建消息？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1cy7f7t/how_do_i_have_ai_create_messages_people_for_me/</link>
+      <description><![CDATA[我经常向来自中国/印度的人发送消息，他们是我可能与之合作的潜在供应商。  如何让人工智能先提出问题，然后筛选他们，并与他们来回回复一段时间？ 我通常在微信/whatsapp 上向他们发送消息，但我可以使用另一个如果需要的话。我的桌面上也有这两个键盘，所以如果有一个可以自动打字和发送消息的人工智能键盘那就完美了。但我如何将其连接到 Chat GPT？ 希望得到您的意见！   由   提交/u/databoy-thatsme  /u/databoy-thatsme  reddit.com/r/webdev/comments/1cy7f7t/how_do_i_have_ai_create_messages_people_for_me/&quot;&gt;[链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1cy7f7t/how_do_i_have_ai_create_messages_people_for_me/</guid>
+      <pubDate>Wed, 22 May 2024 18:25:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>所以我在一家初创公司，大部分工作已经完成，工作时间减少到每月最多 40 个小时。我需要另找一份工作，但我不能因此而一路走到每月160。它有多可行？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cy75lo/so_im_at_a_startup_where_most_of_the_work_is_done/</link>
       <description><![CDATA[上一个小组对我很满意，但我无法全职加入新小组。有人有过这样的经历吗？   由   提交/u/trwwjtizenketto   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cy75lo/so_im_at_a_startup_where_most_of_the_work_is_done/</guid>
       <pubDate>Wed, 22 May 2024 18:15:20 GMT</pubDate>
     </item>
     <item>
-      <title>在网站上托管人工智能模型和创意生成器</title>
+      <title>在网站上托管 AI 模型和创意生成器</title>
       <link>https://www.reddit.com/r/webdev/comments/1cy6971/hosting_ai_models_and_creative_generators_on_a/</link>
       <description><![CDATA[嗨，我目前正在构建一个个人网络应用程序，该应用程序将有不同的 AI 工具可供使用（AI 帖子标题生成器、AI 作家、重写器、图像生成等） 由于我对机器学习世界还很陌生，是否有一个网站拥有可用的托管模型，可以使用  嵌入到网站上？或者类似的东西？ Hugging Face Spaces 是个不错的地方，但有时他们的社区应用程序处于离线状态，也没有简单定制的选项  &amp;# 32；由   提交 /u/majklfromld   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cy6971/hosting_ai_models_and_creative_generators_on_a/</guid>
@@ -22,7 +78,7 @@
     <item>
       <title>如何在 GIF 上渲染倒计时器？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cy5f84/how_would_you_render_a_countdown_timer_over_a_gif/</link>
-      <description><![CDATA[我正在尝试为朋友的生日制作一个有趣的 90 年代风格网站，愿景是在旋转的篮球 gif 上呈现一个简单的生日倒计时。计时器的文本将是白色的，带有黑色轮廓，以便在篮球上可见。我从 stackoverflow 等人那里得到了一些帮助，但还没能解决这个问题。 我尝试将 gif 和“canvas”元素放入同一个 div，并使用一些基本的 CSS 将它们放在彼此之上，但由于某种原因，计数器根本没有呈现。 这是我尝试做的方法 &lt;html&gt; &lt;body&gt; &lt;style type=&quot;text/css&quot;&gt; #timerContainer { z-index: 990; position:relative; display: inline-block; } #timer { 位置：绝对; z-index：1000; } #bball { 位置：相对; z-index：999; } &lt;/style&gt; &lt;div id=&quot;timerContainer&quot;&gt; &lt;img id=&quot;bball&quot; src=&quot;/img/bball.gif&quot; height=150 width=150&gt; &lt;canvas id=&quot;timer&quot;&gt; &lt;/canvas&gt; &lt;/div&gt; &lt;script type=&quot;text/javascript&quot;&gt; //window.addEventListener(&#39;load&#39;, function() { const countdownDate = new Date(&quot;2024 年 6 月 1 日 00:00:00&quot;).getTime(); const gifImage = document.getElementById(&quot;bball&quot;); const timerCanvas = document.getElementById(&quot;timer&quot;); const ctx = timerCanvas.getContext(&quot;2d&quot;); console.log(&quot;booting upppp&quot;); function updateTimer() { const now = new Date().getTime(); const distance = countdownDate - now; const days = Math.floor(distance / (1000 * 60 * 60 * 24)); const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); const minutes = Math.floor((距离 % (1000 * 60 * 60)) / (1000 * 60)); const seconds = Math.floor((距离 % (1000 * 60)) / 1000); ctx.clearRect(0, 0, timerCanvas.width, timerCanvas.height); ctx.font = &quot;24px Arial&quot;; ctx.fillStyle = &quot;white&quot;; ctx.fillText(`${days}d ${hours}h ${minutes}m ${seconds}s`, 10, 50); if (distance &lt; 0) { clearInterval(timerInterval); ctx.fillText(&quot;倒计时开始&quot;, 10, 50); } console.log(&quot;dst&quot;, distance); } gifImage.onload = function() { timerCanvas.width = gifImage.width; timerCanvas.height = gifImage.height; updateTimer(); }; const timerInterval = setInterval(updateTimer, 1000); //}) &lt;/script&gt; &lt;/body&gt; &lt;/html&gt;  问题是，当我查看 Web 控制台时，似乎 JS 根本没有运行，因此画布是空的。 有什么想法可以解释为什么会这样吗？    提交人    /u/t40   [链接] [评论]]]></description>
+      <description><![CDATA[我正在尝试为朋友的生日制作一个有趣的 90 年代风格的网站，其愿景是在旋转篮球 gif。计时器的文本将是白色的，带有黑色轮廓，以便在篮球上可见。我从 stackoverflow 等人那里得到了一些帮助，但一直无法破解它。 我尝试将 gif 和“canvas”都放在文件中。元素放入同一个 div 中，并使用一些基本的 CSS 将它们放置在彼此之上，但由于某种原因，计数器根本没有渲染。 这是我尝试的方法&lt; /p&gt; ; &lt;正文&gt; &lt;样式类型=“文本/css”&gt; #timerContainer { z 索引：990;位置：相对；显示：内联块； } #timer { 位置：绝对； z 索引：1000； } #bball { 位置：相对； z 索引：999； } &lt;/风格&gt;  &lt;img id=“bball”; src=“/img/bball.gif”高度=150 宽度=150&gt; &lt;canvas id=“定时器”&gt; &lt;/画布&gt;  &lt;脚本类型=“文本/javascript”&gt; //window.addEventListener(&#39;load&#39;, function() { const countdownDate = new Date(&quot;2024年6月1日 00:00:00&quot;).getTime(); const gifImage = document.getElementById(&quot;bball&quot;) ; const timeCanvas = document.getElementById(“timer”); const ctx = timerCanvas.getContext(“2d”); console.log(“启动 upppp”) { const now = new Date() .getTime(); const 距离 = 倒计时日期 - 现在; const 天 = Math.floor(距离 / (1000 * 60 * 60 * 24)); const 小时 = Math.floor((距离 % (1000 * 60 * 60 * 24) )) / (1000 * 60 * 60)); const 分钟 = Math.floor((距离 % (1000 * 60 * 60)) / (1000 * 60)); const 秒 = Math.floor((距离 % (1000) * 60)) / 1000); ctx.clearRect(0, 0,timerCanvas.width,timerCanvas.height); ctx.font = &quot;24px Arial&quot;; ctx.fillStyle = &quot;white&quot;; {天}d ${小时}h ${分钟}m ${秒}s`, 10, 50); if (距离 &lt; 0) {clearInterval(timerInterval); , 10, 50); console.log(“dst”, 距离); } gifImage.onload = function() {timerCanvas.width = gifImage.width; timeCanvas.height = gifImage.height;更新定时器(); }; const timeInterval = setInterval(updateTimer, 1000); //}) &lt;/脚本&gt; &lt;/正文&gt; &lt;/html&gt;  问题是，当我查看 Web 控制台时，似乎 JS 根本没有运行，因此画布只是空的。关于为什么会这样的任何想法吗？   由   提交/u/t40  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cy5f84/how_would_you_render_a_countdown_timer_over_a_gif/</guid>
       <pubDate>Wed, 22 May 2024 17:05:09 GMT</pubDate>
     </item>
@@ -34,7 +90,7 @@
       <pubDate>Wed, 22 May 2024 17:02:52 GMT</pubDate>
     </item>
     <item>
-      <title>字体在浏览器上无法正确显示。这是相同的 .otf 文件，甚至当我在 chrome 中检查源时的字体预览也显示正确的字体。</title>
+      <title>字体在浏览器上显示不正确。这是同一个 .otf 文件，甚至当我在 chrome 中检查源代码时，字体预览也显示正确的字体。</title>
       <link>https://www.reddit.com/r/webdev/comments/1cy50l0/font_not_displaying_correctly_on_browser_it_is/</link>
       <description><![CDATA[     &lt;。 /td&gt;  由   提交 /u/oxparadoxpa   [链接] [评论] &lt; /表&gt;]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cy50l0/font_not_displaying_correctly_on_browser_it_is/</guid>
@@ -53,62 +109,6 @@
       <description><![CDATA[我有一个 React 项目，它是一个可重复使用的 Web 组件，将插入到 ecom 商店中。像平常一样构建顺风的问题是导致与电子商务商店现有的类名发生冲突，并且弄乱了商店的整个布局。所以我想知道是否有一种方法可以使用 postcss 插件或 webpack 插件重命名构建上的 tailwind 类，可以做到这一点？ 另外，如果不存在这样的插件，我想构建这样，如果您有任何可以提取项目中使用的所有 tailwindcss 类及其相应 css 的插件的信息，那就更好了。 非常感谢任何帮助。 &lt; /div&gt;  由   提交 /u/HelloPipl   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cy300h/how_to_rename_tailwindcss_classnames_on_build/</guid>
       <pubDate>Wed, 22 May 2024 15:27:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>WordPress 社交媒体源插件发生了什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cy1qxh/what_happened_to_wordpress_socialmedia_feed/</link>
-      <description><![CDATA[所以，一位客户刚刚要求我将 LinkedIn 帖子集成到他们的 WordPress 网站中，我知道，“你好 2010”，但这就是他们想要的，并且付钱，所以是的...让我们开始吧。  我想，这会很简单，因为我记得，在那天，你只需添加一个插件，接受 LinkedIn 个人资料 ID，然后就完成了......对吧？ p&gt; 不，好像已经没有这样的事情了。相反，有像榨汁机和 tagembed 这样的服务，需要您订阅，然后与 API 对话，并允许您在 WordPress 网站上显示**有限数量**的小部件/提要。这可能会很麻烦，因为客户希望从他们的公司 linkedin 页面聚合一个 feed，并在团队详细信息页面上为每个团队成员 (~20) 聚合一个 feed（请观看）。 Am我“祝福”了现在编写我自己的 LinkedIn-API 用户并相应收费？   由   提交 /u/ad-on-is   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cy1qxh/what_happened_to_wordpress_socialmedia_feed/</guid>
-      <pubDate>Wed, 22 May 2024 14:34:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于为微服务后端编写单元测试的争论</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/</link>
-      <description><![CDATA[今天我与团队和我的团队负责人进行了通话。 我们讨论了应该开始为我们的团队编写测试微服务从现在开始。就上下文而言，每个微服务都非常*大*，它们本身更像是一个应用程序。 （20+ 微服务/应用程序，5 人团队） 在我的 4 年里根据经验，每次我编写单元测试时，我都会模拟测试中的依赖关系。对于每个测试，我都针对特定情况编写了一个新的模拟。 问题是团队负责人建议我们应该创建一个全局 TestTrait，它应该模拟应用程序中的每个类和每个方法，其中TL 声称，通过这种方式，编写测试会更容易，因为您不必担心模拟，而只需调用该类并查看它是否返回正确的结果。&lt; /p&gt; 我觉得这是一个非常糟糕的选择。我反对这一点，但被拒绝了，并告诉我的方法很麻烦，当需要更改时，必须在很多地方进行更改，这就是为什么需要一个全局类。 我不知道这是否是进行单元测试的另一种方法，我只是坚持到目前为止我做事的方式，或者它只是愚蠢的。 编辑：是的，BE 受到了很多问题的困扰特征和全局类别，而且情况每天都变得更糟；   由   提交/u/Prudent-Stress  /u/Prudent-Stress reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/&quot;&gt;[链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cy0z6m/arguments_around_writing_unit_tests_for_our/</guid>
-      <pubDate>Wed, 22 May 2024 14:01:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>在单个网页上加载大量图标的最佳实践是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxzshm/whats_the_best_practice_for_loading_a_ton_of/</link>
-      <description><![CDATA[我正在管理一个网站，该网站当前加载了数百个图标，并利用 CSS 将每个图标的大小调整为 32x32（它们是徽标，因此不是每个图标）它们是正方形的）。 这是一个业余爱好项目，我没有相关经验，所以我一直在做一些研究来了解实现这一目标的最佳方法，但似乎无法实现对于提供图标的最佳方式达成共识。 到目前为止，我已将每个图标转换为 WebP 而不是 PNG，以尽可能减小尺寸。 I尝试在 Illustrator 中将它们中的每个大小调整为 32x32，这样浏览器就不必在加载时调整它们的大小，但这会使它们在移动设备上有点模糊（桌面看起来不错）。 如果我创建更高分辨率移动设备的图标（64x64 等），然后我又回到要求浏览器调整图标大小的问题。到那时，是否值得将它们调整为正方形，或者我应该保持它们原始的宽高比并使用 WebP 尽可能缩小尺寸？   由   提交/u/pedges  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxzshm/whats_the_best_practice_for_loading_a_ton_of/</guid>
-      <pubDate>Wed, 22 May 2024 13:06:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>您在 Next.js 14 应用中使用哪种状态管理？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxzfud/which_state_management_are_you_using_with_your/</link>
-      <description><![CDATA[状态管理的选项太多了，我有点迷失了。我什至不记得为什么我们要避免使用 useContext——对不相关的组件进行不必要的更新？我一直在使用 Jotai，但它总是抛出奇怪的错误。尝试过 Zustand，但有点复杂。   由   提交/u/w333l  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxzfud/which_state_management_are_you_using_with_your/</guid>
-      <pubDate>Wed, 22 May 2024 12:49:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>NameError：“符号”或“股票代码” - 决定正确变量名称的基础是什么</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxzfmn/nameerror_symbol_or_ticker_what_should_be_the/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxzfmn/nameerror_symbol_or_ticker_what_should_be_the/</guid>
-      <pubDate>Wed, 22 May 2024 12:49:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>你在什么场景下使用Redis？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxyono/in_which_scenario_do_you_use_redis/</link>
-      <description><![CDATA[嗨！  在我的学校，我们提到 Redis 是一项非常有用的技术，但我不知道在哪里、何时使用它以及用于什么目的。你们有机会使用它吗？   由   提交 /u/NaightFr   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxyono/in_which_scenario_do_you_use_redis/</guid>
-      <pubDate>Wed, 22 May 2024 12:09:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>2024 年最“面向未来”的数据可视化前端框架值得学习吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxy2dt/most_futureproof_data_visualisation_frontend/</link>
-      <description><![CDATA[有很多不同的用于数据可视化的前端框架（和库）。 但是有两个“ “大狗”据我所知：  Plotly (Python) D3.js (Javascript)  “长尾”出人意料的长，包括 Charts.js 等内容（不包括链接，以免触发审核规则，但 Github 上有一个非常棒的内容 - 无隶属关系）。 如果您想投入时间以及在 2024 年从头开始学习其中一项的精力……您会选择哪一个？ 一方面，显而易见的答案似乎是“无论您将用什么来构建。”&lt; /p&gt; 但我正在考虑一个数据可视化博客用例，其中优秀数据可视化库的选择可能会影响堆栈的其余部分。 在所有情况下，我认为无论其他技术优点如何，在弃用曲线之前进行某些操作通常是明智的策略。 我听说过 D3 很困难并且 Plotly 可能更具前瞻性，但是......我&#39;我刚刚开始探索这个世界。 感谢您的想法！   由   提交/u/danielrosehill  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxy2dt/most_futureproof_data_visualisation_frontend/</guid>
-      <pubDate>Wed, 22 May 2024 11:36:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站开发时间表</title>
-      <link>https://www.reddit.com/r/webdev/comments/1cxxo3h/website_development_timeframe/</link>
-      <description><![CDATA[我已雇人为我们创建一个网站。它适用于现场活动（日程安排、演讲者等）。他们声称他们需要所有内容才能开始创建网站，并声称当我们更改入场价格等内容时，他们必须重新开始。 这似乎不对。开发人员在开始之前是否真的需要所有内容？他们没有给我们线框图。 此外，因为没有线框图，我要求查看网站的进度（在为时已晚之前提供反馈），并被告知这是不专业的要求在完成之前查看它。在开发领域是这样吗？ 谢谢！   由   提交 /u/SezyLasagna   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1cxxo3h/website_development_timeframe/</guid>
-      <pubDate>Wed, 22 May 2024 11:13:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
