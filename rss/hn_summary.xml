@@ -1,113 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>HN 摘要</title>
+    <title>HN总结</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的顶级黑客新闻故事的自动摘要。</description>
-    <lastBuildDate>Wed, 22 May 2024 00:54:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 06:09:26 GMT</lastBuildDate>
     <item>
-      <title>在“A Road to Common Lisp”中，Steve Losh 提供了学习 Common Lisp 的综合指南 [...]</title>
-      <link>https://t.me/hn_summary/90832</link>
-      <description><![CDATA[Common Lisp 之路
-Steve Losh 在《A Road to Common Lisp》中提供了学习 Common Lisp 的全面指南，强调这是他个人的方法，而不是权威的方法。他概述了该语言的悠久历史，从 John McCarthy 在 20 世纪 50 年代末创立到 1995 年 ANSI 标准的建立。Losh 强调了 Common Lisp 的稳定性，指出几十年前编写的代码仍然可以在现代实现上运行，这与许多当代语言。他赞扬了该语言通过宏的可扩展性，它允许用户在不改变核心语言的情况下添加功能。 Losh 还强调了 Common Lisp 的实用性，它平衡了高级编程与低级优化功能。本指南旨在为学习者提供坚实的基础和实用的建议，以应对语言的复杂性。
-
-令人惊讶/聪明的方面：Common Lisp 的稳定性，允许几十年前的代码在现代实现上运行，与其他语言中的“向后不兼容的仓鼠轮”相比，被认为是一个重大的缓解。 
-
-有争议的方面：关于 Common Lisp 标准由于其可扩展性而无需进行新修订的讨论可能会被认为是有争议的，特别是在那些主张持续语言进化的人中。 （根据故事文本的 21% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/90832</guid>
-      <pubDate>Wed, 22 May 2024 00:54:05 GMT</pubDate>
+      <title>[媒体]Alacritty 是一款高性能、跨平台终端仿真器，利用 OpenG [...]</title>
+      <link>https://t.me/hn_summary/90867</link>
+      <description><![CDATA[Alacritty – 快速、跨平台的 OpenGL 终端模拟器
+Alacritty 是一款高性能、跨平台终端仿真器，利用 OpenGL 进行渲染，确保快速高效的操作。它支持 BSD、Linux、macOS 和 Windows，目前处于测试阶段，一些功能和错误仍在解决中。 Alacritty 强调与其他应用程序的集成，而不是重新实现其功能，从而提供灵活性和性能。它可以通过 TOML 文件进行配置，用户必须自己创建该文件。与某些终端模拟器不同，Alacritty 不包含制表符或拆分等功能，而是注重速度和简单性。可以使用预编译的二进制文件，并且可以通过各种包管理器完成安装。该项目是在 Apache License 2.0 下开源的。]]></description>
+      <guid>https://t.me/hn_summary/90867</guid>
+      <pubDate>Wed, 22 May 2024 06:09:26 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]人工智能革命是由强大的计算基础设施驱动的，这对于科学研究至关重要 [...]</title>
-      <link>https://t.me/hn_summary/90831</link>
-      <description><![CDATA[计算访问现状：如何弥合新的数字鸿沟
-人工智能革命是由强大的计算基础设施推动的，这对于科学进步和生产力至关重要。计算能力（包括 GPU 和 CPU 等硬件以及软件）对于人工智能和数据服务等现代进步至关重要。托尼·布莱尔研究所 (TBI) 强调，由于计算资源访问不平等，数字鸿沟日益扩大。投资计算基础设施的国家正在进步，而其他国家则落后，这影响了创新和增长。 TBI 的报告以 Omdia 的研究为基础，对全球计算访问进行了全面分析，并提供了弥合这一鸿沟的政策建议。值得注意的是，该报告强调了合作伙伴关系和有针对性的投资对于增强全球计算能力的重要性。 （根据故事文本的 37% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/90831</guid>
-      <pubDate>Wed, 22 May 2024 00:16:49 GMT</pubDate>
+      <title>[媒体] 网址：www.msf.org</title>
+      <link>https://t.me/hn_summary/90866</link>
+      <description><![CDATA[巴西前所未有的洪水导致数十万人流离失所&lt; br/&gt;
+标题：巴西史无前例的洪水导致数十万人流离失所 
+网站：www.msf.org
+
+巴西南部南里奥格兰德州遭受极端降雨和洪水的破坏，整个城市被隔离并被迫疏散。阿雷格里港的道路、桥梁和主要机场等基础设施遭到严重破坏。该州 497 个城市中有 460 多个城市受到影响。无国界医生驻巴西医疗协调员雷切尔·苏埃罗 (Rachel Soeiro) 表示，情况是灾难性的，一些城镇完全被淹没。这场灾难已造成超过 150 人死亡，约 100 人仍失踪，并导致超过 60 万人流离失所。无国界医生专注于最弱势群体，提供医疗援助、药品供应、水和食物，特别是向土著社区。该组织还设立流动诊所并提供心理健康支持。局势仍然不稳定，持续不稳定的天气带来了进一步的风险。 
+
+争议：没有突出显示。 
+独特/聪明：无国界医生使用直升机到达偏远社区，并为专业人员提供远程心理健康急救培训。]]></description>
+      <guid>https://t.me/hn_summary/90866</guid>
+      <pubDate>Wed, 22 May 2024 05:44:15 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]网站：www.askamanager.org</title>
-      <link>https://t.me/hn_summary/90830</link>
-      <description><![CDATA[一份工作申请询问我酷刑是否比卖淫更糟糕（2018） 
-标题：一份求职信问我酷刑是否比卖淫更糟糕（2018）
-网站：www.askamanager.org
-
-作者：艾莉森·格林，2018 年 2 月 12 日
-
-一位从文案写作过渡到行政协助的读者遇到了一份奇怪的工作申请，需要对各种项目进行排名，包括“折磨人”和“卖淫”等暴行。提交简历和求职信后，读者被引导至一份在线表格，最初要求提供特质排名，这似乎很典型。然而，它随后提出了一长串项目，从最好到最差进行评级，混合了平凡和极端的场景。读者质疑这种方法的优点，怀疑它是伪科学而不是有效的招聘工具。艾莉森·格林对此表示同意，她将这种做法贴上了荒谬的标签，并强调了此类性格测试的实用性值得怀疑。]]></description>
-      <guid>https://t.me/hn_summary/90830</guid>
-      <pubDate>Tue, 21 May 2024 23:47:35 GMT</pubDate>
+      <title>[媒体] Cobalt 是 yt-dlp 的免费开源前端，旨在提供无缝的 [...]</title>
+      <link>https://t.me/hn_summary/90865</link>
+      <description><![CDATA[Cobalt – 免费开源 yt-dlp 前端，无广告
+Cobalt 是 yt-dlp 的免费开源前端，旨在提供无缝、无广告的体验。 Cobalt 利用 JavaScript 进行 API 请求和交互式界面，确保流畅的用户体验，但您必须启用 JavaScript 才能使用该网站。开发人员向用户保证不涉及侵入性脚本。 Cobalt 拥有 100 万用户群和令人印象深刻的速度，对于那些希望在没有广告麻烦的情况下利用 yt-dlp 功能的人来说，它是一个可靠的工具。]]></description>
+      <guid>https://t.me/hn_summary/90865</guid>
+      <pubDate>Wed, 22 May 2024 05:31:03 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在“旨在崩溃：安东诺夫 An-28 HA-LAJ 及其消亡的故事”中，作者 d [...]</title>
-      <link>https://t.me/hn_summary/90829</link>
-      <description><![CDATA[旨在崩溃：安东诺夫 An-28 HA-LAJ 的故事及其消亡
-在《设计坠毁：安东诺夫 An-28 HA-LAJ 及其消亡的故事》一书中，作者深入研究了 An-28 复杂的电气系统，强调了导致 HA-LAJ 坠毁的一个关键设计缺陷。电动襟翼系统和螺旋桨自动羽化机构均依赖于接线盒 A6X1 中的通用接地螺钉。随着时间的推移，该螺丝因振动而松动，导致高电阻连接，使电流通过意外路径转移。当飞行员收起襟翼时，这个缺陷导致螺旋桨顺桨，发动机关闭，扰流板展开，导致推力和升力灾难性损失。值得注意的是，迫降在玉米地时，19 名乘客和机组人员全部生还。
-
-争议：An-28 未获得跳伞操作或后门拆除飞行认证，引发了对其适航认证和操作批准的质疑。
-
-独特/聪明：作者用“管子里的头发”比喻来解释电阻，使技术细节更容易理解。 （根据 87% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/90829</guid>
-      <pubDate>Tue, 21 May 2024 23:42:26 GMT</pubDate>
+      <title>[媒体] 2007 年，USV 投资了 Twitter 和 Zynga，获得了对动态的宝贵见解 [...]</title>
+      <link>https://t.me/hn_summary/90864</link>
+      <description><![CDATA[远播
+2007年，USV投资了Twitter和Zynga，获得了对社交网络动态的宝贵见解。 Twitter 展示了开放社交网络和开发者生态系统的力量，但其目前由单一实体进行的集中控制远非理想。 Zynga 在 Facebook 上蓬勃发展，但最终由于对该平台的依赖而面临限制。这些经历凸显了 Web2 社交平台的缺点。一晃 15 年过去了，USV 很高兴投资 Farcaster，一个去中心化的社交网络协议。 Farcaster允许用户拥有自己的数字身份和数据，培育一个开放的生态系统，让开发者可以自由创新。 Farcaster 的独特之处在于，每个身份也是一个加密钱包，支持 NFT 铸造和内容订阅等多种经济活动。 Farcaster 由 Dan Romero 和 Varun Srinivasan 创立，旨在通过去中心化的加密经济方法彻底改变社交堆栈。]]></description>
+      <guid>https://t.me/hn_summary/90864</guid>
+      <pubDate>Wed, 22 May 2024 05:29:59 GMT</pubDate>
     </item>
     <item>
-      <title>CircuitBored.com 上的文章题为“没有人会知道财富不平等背后的驱动力 [...]</title>
-      <link>https://t.me/hn_summary/90828</link>
-      <description><![CDATA[没人会告诉你财富不平等背后的驱动力&lt; /a&gt;
-CircuitBored.com 上的文章，标题为“财富背后的驱动力”没有人会告诉你这种不平等。”他认为，大多数富有的人一开始就富有，这一事实使财富不平等长期存在。作者认为，现代企业的成功——无论是在加密货币、股票还是社交媒体名声方面——都需要大量的时间和财务投资，而这对于那些并非天生富有的人来说往往是遥不可及的。这篇文章强调了一个有争议的观点，即许多富人通过裙带关系和税收优惠的慈善机构而不是真正的功绩来维持自己的地位。作者用渔夫的比喻来描述自己的旅程，强调在没有大量初始资源的情况下实现财务独立的困难。文章的结论是，由于缺乏多元化观点和不受约束的精英主义而导致的财富不平等，对社会稳定构成了重大威胁。 （根据 99% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/90828</guid>
-      <pubDate>Tue, 21 May 2024 23:38:17 GMT</pubDate>
+      <title>[媒体] MicroStudio 是一个可通过 microstudio.dev 访问的游戏引擎平台，提供各种 [...]</title>
+      <link>https://t.me/hn_summary/90863</link>
+      <description><![CDATA[MicroStudio – 游戏引擎
+MicroStudio 是一个可通过 microstudio.dev 访问的游戏引擎平台，提供各种用户设置和功能。系统会提示用户验证他们的电子邮件地址，并可以选择接收每月通讯。该平台包含实验性功能，用户可以自行承担启用这些功能的风险，因为这些功能可能会更改或删除，恕不另行通知。在“危险区域”，用户可以选择永久删除其帐户，这将导致其所有项目和信息立即且不可逆转地删除。用户还可以使用描述和图像个性化他们的个人资料，这些描述和图像将与他们的昵称和公共项目一起公开显示。]]></description>
+      <guid>https://t.me/hn_summary/90863</guid>
+      <pubDate>Wed, 22 May 2024 05:26:53 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]当我毕业并考虑创业时，我兄弟会的一位校友，成功了 [...]</title>
-      <link>https://t.me/hn_summary/90827</link>
-      <description><![CDATA[斯坦福初创公司和麻省理工学院初创公司
-当我毕业并考虑创业时，我兄弟会的一位成功企业家校友分享了一些富有洞察力的建议。他强调了麻省理工学院和斯坦福大学针对同一市场的初创公司之间的一个关键区别。斯坦福大学的初创公司快速推出产品、迭代并利用网络效应或病毒式增长来获得快速回报。相反，麻省理工学院的初创公司专注于开发无懈可击的技术优势，精心优化他们的产品。例如，麻省理工学院的一家初创公司可能会创造出一种突破性的氨生产化学工艺，而斯坦福大学的一家初创公司则通过经过验证的客户模型销售可持续的家用产品。投资者发现斯坦福大学的方法因其市场吸引力而风险较小，而麻省理工学院的方法虽然可能具有革命性，但需要大量的审查和资金。结论：成功的初创公司通常将技术开发与市场策略结合起来，但营销从第一天起就至关重要。]]></description>
-      <guid>https://t.me/hn_summary/90827</guid>
-      <pubDate>Tue, 21 May 2024 23:28:09 GMT</pubDate>
+      <title>[媒体]mactop是一款专门为Apple Silicon chi设计的基于终端的监控工具[...]</title>
+      <link>https://t.me/hn_summary/90862</link>
+      <description><![CDATA[mactop
+mactop 是一款专为 Apple Silicon 芯片设计的基于终端的监控工具，直接从终端提供 CPU 和 GPU 使用情况、功耗和系统性能等实时指标。它支持对 E-Core 和 P-Core、内存和交换使用情况、网络活动以及磁盘读/写操作的详细监控。 mactop 用 Go 编写，代码少于 1,000 行，提供了一个简单、高效、可定制的 UI，具有各种颜色选项和更新间隔。它与 macOS Monterey 12.3+ 和所有 Apple Silicon 型号兼容。通过 Homebrew 或手动构建安装非常简单。该项目强调易用性和实时性能监控，这使其与其他工具区分开来。]]></description>
+      <guid>https://t.me/hn_summary/90862</guid>
+      <pubDate>Wed, 22 May 2024 05:25:49 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]Amber 是一种直接编译为 Bash 的尖端编程语言，提供 [...]</title>
-      <link>https://t.me/hn_summary/90826</link>
-      <description><![CDATA[Amber – 编译为 Bash 的编程语言
-Amber 是一种尖端编程语言，可直接编译为 Bash，为脚本编写提供现代、类型安全和运行时安全的环境。通过在编译过程中捕获许多错误和错误，Amber 确保了更可靠且无错误的脚本。这种创新方法使开发人员能够利用当代语言的稳健性，同时仍然利用无处不在的 Bash 进行执行。]]></description>
-      <guid>https://t.me/hn_summary/90826</guid>
-      <pubDate>Tue, 21 May 2024 23:23:04 GMT</pubDate>
+      <title>[媒体] 1T 美元的英国科技巨头在哪里？</title>
+      <link>https://t.me/hn_summary/90861</link>
+      <description><![CDATA[价值 1 万亿美元的英国科技巨头在哪里？
+英国原本有潜力成为高科技超级大国，但这一机会被浪费了，导致大量英国科技公司被外国收购，只有 Sage 一家例外。这对英国的工业、商业、服务业和国防部门产生了可怕的影响。财政大臣杰里米·亨特最近的言论反映了对这一趋势的自满接受，呼应了菲利普·哈蒙德和奈杰尔·法拉奇过去的言论，即外国收购意味着英国“开放商业”。英国拥有必要的基础——顶尖大学、科学人才和众多科技独角兽——但缺乏投资资本、税收优惠和市场条件来支持和发展这些公司。激进的提议包括增加养老基金缴款、创建英国财富基金以及为投资英国初创企业提供大量税收优惠。批评者认为这些举措过于大胆，面临巨大反对，但另一种选择是持续衰退和贫困加剧。选择很明显：致力于投资并成为科技巨头，否则将面临持续的经济恶化。]]></description>
+      <guid>https://t.me/hn_summary/90861</guid>
+      <pubDate>Wed, 22 May 2024 05:15:42 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：kittenlabs.de</title>
-      <link>https://t.me/hn_summary/90825</link>
-      <description><![CDATA[macOS 和 iOS 上为 25GBit/S
-标题：macOS 和 iOS 上的 25GBit/S
-网站：kittenlabs.de
-
-现代 macOS 和 iOS 设备可以通过 USB4/Thunderbolt 使用 NVIDIA/Mellanox ConnectX 网卡实现极高的网络速度。从 macOS Ventura/13 开始，这些系统包含 AppleEthernetMLX5 驱动程序，支持 ConnectX-4、5 和 6 卡。虽然 ConnectX-4 卡提供双端口 25 GBit/s 连接，但较新的卡可达到 200 GBit/s，但 Thunderbolt/USB4 接口将吞吐量限制在 40 Gbit/s 左右。值得注意的是，不支持 ConnectX-2 和 ConnectX-3 卡。令人惊讶的是，即使是 iPad Pro (M1) 也可以使用此设置进行连接，但只有配备 Apple Silicon/M 系列处理器的型号才支持 Thunderbolt/USB4。巧妙的硬件设置涉及使用 Thunderbolt/USB4 NVMe 存储外壳作为外部 PCIe 外壳。然而，电源要求超出了 USB-C 端口所能提供的范围，因此需要外部电源。虽然此设置还可以将外部 GPU 连接到 Intel/x86 Windows 和 Linux 计算机，但由于硬件限制，它在当前一代 Apple Silicon 上不可行。]]></description>
-      <guid>https://t.me/hn_summary/90825</guid>
-      <pubDate>Tue, 21 May 2024 23:11:57 GMT</pubDate>
+      <title>彼得·N.</title>
+      <link>https://t.me/hn_summary/90860</link>
+      <description><![CDATA[向 Apple Silicon OpenBSD/ARM64 用户发出的重要信息
+Peter N. M. Hansteen 在此向使用 Apple Silicon M 系列处理器的 OpenBSD 用户提供重要更新。Mark Kettenis 提醒我们 macOS Sonoma 14.5 触发的固件问题，该问题会影响 m1n1 引导加载程序并阻止 OpenBSD 在某些机器上启动。要解决此问题，请通过在 macOS 中运行脚本来更新“stage1”m1n1，并在 OpenBSD 7.5 或 -current 上安装新的“apple-boot”固件。OpenBSD 7.4 用户应升级到 7.5。感谢 Mark 和 OpenBSD/arm64 团队的辛勤工作。干杯！]]></description>
+      <guid>https://t.me/hn_summary/90860</guid>
+      <pubDate>Wed, 22 May 2024 05:09:36 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]我很高兴地宣布在 Build 上推出 Copilot+ PC，这是 Windo 的一个新类别 [...]</title>
-      <link>https://t.me/hn_summary/90824</link>
-      <description><![CDATA[Windows Copilot 运行时
-我很高兴地宣布在 Build 大会上推出 Copilot+ PC，这是一种在各个级别都集成了 AI 的 Windows PC 的新类别。这些 PC 配备强大的神经处理单元 (NPU)，与传统 PC 相比，其处理 AI 工作负载的能力提高了 20 倍，效率提高了 100 倍。从高通 Snapdragon X 系列处理器开始，这些设备将于 6 月上市，英特尔和 AMD 将于今年晚些时候推出更多设备。此外，高通适用于 Windows 的 Snapdragon 开发套件提供了一个开发人员友好的平台，具有强大的规格和环保设计。
-
-我们还推出了 Windows Copilot Runtime，这是一个面向开发人员的综合 AI 平台。其中包括 Windows Copilot 库，该库具有由 40 多个设备上 AI 模型提供支持的 API，以及 Windows 语义索引和 Phi Silica（一种为 NPU 定制的最先进的小语言模型）等新功能。通过 DirectML 和 Web 神经网络 (WebNN) 开发者预览版对 Windows 上的 PyTorch 进行本机支持也是该计划的一部分，使开发人员能够在本机和 Web 应用程序中利用本地芯片实现 AI。
-
-这个新的生态系统旨在实现人工智能开发的民主化，提供工具和框架来加速为超过十亿用户创造创新的人工智能体验。我们致力于使 Windows 成为最开放的 AI 开发平台，通过我们的 Responsible AI 原则确保安全、公平和可信。 （根据 48% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/90824</guid>
-      <pubDate>Tue, 21 May 2024 22:41:42 GMT</pubDate>
+      <title>[媒体] 最新的 Green500 排名将 Nvidia 的 Grace-Hopper Superchips (GH200) 列为领先 [...]</title>
+      <link>https://t.me/hn_summary/90859</link>
+      <description><![CDATA[Green500 表明 Nvidia 的 Grace-Hopper 超级芯片是一款能效野兽&lt; /a&gt;
+最新的 Green500 排名凸显了 Nvidia 的 Grace-Hopper Superchips (GH200) 在超级计算机能效方面的领先地位，尽管人们对数据中心能源消耗存在担忧。排名前十的系统中有七个使用 Nvidia GPU，其中前三名由 GH200 提供支持。这些超级芯片将 72 核 Grace CPU 与 H100 GPU 结合在一起，实现了令人印象深刻的效率数据，例如德国的 Jedi 系统达到 72.7 GFLOPS/瓦。这标志着与往年相比有了显着进步。然而，AMD 基于 Instinct 的系统排名有所下滑。 Nvidia 的集成设计和高速互连有助于其效率优势。值得注意的是，像微软 Eagle 这样的基于云的集群在功耗方面缺乏透明度，引发了效率问题。]]></description>
+      <guid>https://t.me/hn_summary/90859</guid>
+      <pubDate>Wed, 22 May 2024 05:01:29 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Venture 上的文章“Mojo Rising：人工智能优先编程语言的复兴”[...]</title>
-      <link>https://t.me/hn_summary/90823</link>
-      <description><![CDATA[Mojo 崛起：人工智能优先编程语言的复兴
-VentureBeat 上的文章“Mojo Rising：AI 优先编程语言的复兴”讨论了专门为 AI 开发量身定制的新编程语言的出现。从历史上看，LISP 和 Prolog 这样的语言在人工智能的早期阶段至关重要，引入了符号处理和动态类型等概念。如今，人工智能的需求正在突破 Python、Java 和 C 等流行语言的极限，从而催生了 Mojo、Bend 和适用于 TensorFlow 的 Swift 等人工智能优先语言。 Mojo 由 Modular AI 开发，承诺将 Python 的易用性与高性能结合起来，速度比 Python 快 35,000 倍。这种复苏意味着向满足人工智能独特需求的专用工具的转变，可能会彻底改变人工智能开发和硬件优化。
-
-争议点：文章强调了 Python 在人工智能方面的性能限制，这在其庞大的用户群中可能存在争议。
-
-独特/聪明的方面：Mojo 与现有 Python 生态系统的集成，同时提供显着的性能提升，是弥合易用性和高效率之间差距的聪明方法。]]></description>
-      <guid>https://t.me/hn_summary/90823</guid>
-      <pubDate>Tue, 21 May 2024 22:40:35 GMT</pubDate>
+      <title>[媒体]如果您认为降低血压需要剧烈的有氧运动或举重，那么[...]</title>
+      <link>https://t.me/hn_summary/90858</link>
+      <description><![CDATA[平板支撑和靠墙坐最适合降低血压 
+如果您认为降低血压需要剧烈的有氧运动或举重，请再想一想。杰米最近的研究表明，平板支撑和靠墙静坐等等长收缩运动对于降低血压最有效。这些静态练习涉及保持肌肉收缩而不改变其长度。 Jamie 的研究分析了 270 项试验，涉及超过 15,000 名参与者，发现每周 3 次等长运动可以像药物一样有效地降低血压。此外，这些练习可以改善心脏健康、关节稳定性、肌肉平衡和整体表现，同时易于耐受且省时。令人惊讶的是，每周 3 次，每次 8 分钟，就能产生显着的效果。在开始任何新的锻炼方案之前，请务必咨询保健医生。]]></description>
+      <guid>https://t.me/hn_summary/90858</guid>
+      <pubDate>Wed, 22 May 2024 05:01:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
