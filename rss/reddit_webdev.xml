@@ -3,12 +3,40 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 25 May 2024 03:16:02 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
+    <lastBuildDate>Sat, 25 May 2024 06:18:36 GMT</lastBuildDate>
+    <item>
+      <title>卸载WordPress后开发自己的CMS</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d040h2/developed_my_own_cms_after_uninstalling_wordpress/</link>
+      <description><![CDATA[在 WordPress 遇到很多麻烦后，我开发了自己的 CMS。 WordPress 的问题层出不穷，比如离线有时。通过谷歌访问我网站的访问者被重定向到另一个网站（一个带有机器人的俄罗斯网站）。 我的网站中有很多我从未发布过的奇怪网址。 （医学帖子、假医生帖子） 因此我开发了自己的 CMS，并支持移动应用程序。 当前功能如下：  发布和编辑文章 管理媒体和上传新媒体 评论系统 带有类别、产品的侧栏 搜索功能 管理面板 产品发布 相关帖子 实时联系选项等 页内搜索引擎优化 &lt; li&gt;站点地图生成器 发布草稿、取消发布和发布选项  我使用 php 作为后端，使用 MySQL 作为数据库。 我还设置了一个路由器系统，用于路由传入 URL 以指向正确的页面 这是我的 CMS 处于活动状态的站点 URL：https:// DazzBytes.com 这是一个多利基网站，所以目前我的网址结构是这样的“domain/slug” 我读到对于多利基网站， url 应该像这样“example.com/category/slug”，这样搜索引擎就可以轻松理解网站内容。 所以我的问题是，这是正确的方法吗？我不再信任 WordPress。 非常感谢您的反馈   由   提交 /u/ziddique   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d040h2/developed_my_own_cms_after_uninstalling_wordpress/</guid>
+      <pubDate>Sat, 25 May 2024 04:34:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>一旦越过，初级开发人员变成高级开发人员的界限在哪里？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d03zq2/wheres_the_fine_line_that_once_crossed_turns_a/</link>
+      <description><![CDATA[所以，我们通常将初级者视为新手，将高级者视为大佬，是吗？他们之间有明显的差距。但问题是，从初级到高级的转变真正从哪里开始？有人开始站出来的中间位置是什么？这种演变什么时候开始？   由   提交/u/w333l  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d03zq2/wheres_the_fine_line_that_once_crossed_turns_a/</guid>
+      <pubDate>Sat, 25 May 2024 04:33:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>什么使得某人不再是初级后端开发人员？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d03azd/what_makes_someone_no_longer_a_junior_backend/</link>
+      <description><![CDATA[这个问题的灵感来自于我最近在午餐时与同事进行的一次简短对话。不是同事，但他在后端工作，我在前端工作，所以我们讨论了我们的角色和工作。他描述自己作为中级后端工程师的角色的方式是，这“非常简单”，因为他所做的就是编写新的 CRUD 端点或调试东西，我认为这纯粹是初级任务。我不会说我是后端专家什么的，但我一直认为能够编写 CRUD 端点是后端开发的最低限度，而不是那些不再是初级人员的标准。&lt; /p&gt; 所以，我认为他不是初级者，因为他能够处理自己的任务/票证，而无需咨询高级开发人员寻求帮助，也不会一直迷失和困惑。这是初级和中级后端开发人员之间唯一或最重要的决定因素吗？或者它需要明确的工程知识吗？例如，编写 API 是一回事，但编写高效且良好的 API 是另一回事，我想。就像有远见地在单个端点中同时获取各种数据一样，而不是通过必须链接在一起的多个端点来执行此操作。前者不仅使客户端逻辑更加简单，而且使整个应用程序整体上更快。   由   提交/u/YonghaeCho  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d03azd/what_makes_someone_no_longer_a_junior_backend/</guid>
+      <pubDate>Sat, 25 May 2024 03:52:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>老板要我做一个新网站 - 我经验很少</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d031cl/boss_wants_me_to_make_a_new_website_i_have_very/</link>
+      <description><![CDATA[大家好， 我一直在谷歌上搜索处于类似情况的人，我不确定该怎么办。偶然发现这个 Reddit，我决定发帖。 基本上，我收到一封电子邮件，内容是我的老板希望我为他的“对冲基金”创建一个新网站。商业。我明天早上应该和他讨论，我没有太多时间来全面了解我要做什么，尤其是取决于他的期望。在电子邮件中，他建议我使用 ChatGPT 来获取徽标创意和对冲基金网站的示例。他说我每天在工作中，我们会慢慢进步，这意味着我可能没有时间限制。 它将在 WordPress 上完成，因为这是我唯一的经验，也是我们的当前网站就在上面。 关于我的一些事情： - 我是这家小公司的技术支持，也为经销商做销售，我在系统中接受并创建他们的订单。完全不是网页设计师。 - 最近我的立场很平静，有很多空闲时间。我怀疑这就是我被问到的原因，我们也有一个非常小的团队。 - 我上过整体技术课程，其中一门课程是关于从头开始制作一个网站，但这确实很基础，我已经失去了这些知识. - 我在这家公司使用 WordPress 来维护我们当前的网站。我调整了价格，通过复制/粘贴很多已经存在的内容来创建页面，没什么疯狂的。如果我不明白自己在做什么，我通常会在 Google 上搜索。 - 在这家公司工作了 8 年多，我一直在远程工作，这段时间我并没有进行体力工作。我不开车，如果我需要他的意见，我就不可能见到我的老板，只能通过电子邮件。 - 显然，我想保留这份工作。我过去已经拒绝过一个大项目，同样是因为我缺乏经验。 话虽如此，我应该尝试拒绝并解释我的担忧，还是应该继续努力并获得经验一路走来？这对 WordPress 来说有多难？如果他聘请专业帮助是不是更好，即使他想要一些基本的东西？我更愿意接受，因为经验，但我也担心我会因为以下原因遇到很多问题 至于拒绝，我担心拒绝另一个项目会让他再次失望，而且我的薪水也不够，无法完全同意。老实说，我宁愿不这样做。任何帮助我决定这是否是我应该接受的事情的帮助都是值得赞赏的。  谢谢！   由   提交 /u/Tehpwncake   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d031cl/boss_wants_me_to_make_a_new_website_i_have_very/</guid>
+      <pubDate>Sat, 25 May 2024 03:35:53 GMT</pubDate>
+    </item>
     <item>
       <title>需要建议，在 WordPress 中构建具有高级过滤功能的大型图像存储库</title>
       <link>https://www.reddit.com/r/webdev/comments/1d00vja/need_advice_building_a_large_image_repository/</link>
-      <description><![CDATA[我正在开发我的第一个涉及大量内容的网站。我需要一些建议，关于我使用的工具是否足够，或者我是否会遇到托管成本、带宽或性能问题。 以下是我的设置的简要概述： 前端使用 WordPress + Elementor 和 JetEngine + 使用 JetSmartFilters，该过滤器由开发 JetEngine 的同一家公司提供。这允许使用元字段过滤自定义帖子类型并且可以很好地协同工作（相同的生态系统） 该网站本质上是一个类似于 Shutterstock 的图像存储库，具有高级过滤功能。用户将能够根据主题、周围的物体、样式等过滤图像。这需要大约 250 个自定义字段，每个字段平均有 10 个可用于每个帖子的过滤选项。 我希望有这方面经验或知识的人可以帮助回答几个问题： 我需要优化数据库或查询以确保搜索时间在 3 秒以下吗？插件和 WordPress 结构是否足以实现快速性能？ 用户会消耗大量带宽吗？我是否应该投资高于平均水平的托管服务来处理这个问题？ 考虑到基础已经由 WordPress 和这些插件构建，我是否应该考虑重新开始使用不同的框架，或者这种设置是否足以使其工作？ 该网站将采用订阅模式。如果成本很高，将广泛的过滤选项放在付费墙后面是否有意义？ 我知道我没有提供有关该项目的详尽细节以准确了解它将如何执行，但我不想让这篇文章成为 TLDR。一些额外的信息可能很重要。  用户查询后将看到的列表将包括一个特色图片，每个图片都与画廊帖子类型相关联 + 一些关于画廊作者的信息，一个与画廊相关的独立自定义帖子类型，通过喷气发动机中称为关系的东西。 过滤器具有 OR 逻辑，允许用户搜索跑车或校车、下雨天场景、夜晚、穿着黑色皮夹克或绿色连帽衫的人、带着悲伤的表情跳舞等。 搜索结果可能会返回 50 个画廊。列出的每个画廊都会显示上述信息。然后用户可以通过点击它来访问帖子。  非常感谢关于这个主题的任何建议或信息！ 提前致谢 ^^    提交人    /u/danilodlr   [链接] [评论]]]></description>
+      <description><![CDATA[我正在制作我的第一个网站开发，其中涉及大量内容。我需要一些建议，了解我使用的工具是否足够，或者我是否可能遇到托管成本、带宽或性能问题。 以下是我的设置的简要概述： 前端使用 WordPress + Elementor 和 JetEngine + 使用开发 JetEngine 的同一家公司的 JetSmartFilters。这允许使用元字段过滤自定义帖子类型，并且可以很好地协同工作（同一生态系统） 该网站本质上是一个类似于 Shutterstock 的图像存储库，具有高级过滤功能。用户将能够根据主题、周围物体、风格等来过滤图像。这需要大约 250 个自定义字段，每个字段平均有 10 个可用于在每个帖子中进行过滤的选项。 我希望有人拥有该领域的经验或知识可以帮助回答以下几个问题： 我是否需要优化数据库或查询以确保搜索时间低于 3 秒？插件和 WordPress 结构是否足以实现快速性能？ 用户会消耗大量带宽吗？我应该投资高于平均水平的托管服务来处理这个问题吗？ 考虑到基础已经是使用 WordPress 和这些插件构建的，我是否应该考虑从不同的框架开始，或者这个设置是否足以实现它工作吗？ 该网站将采用订阅模式。如果成本很高，在付费专区后面放置广泛的过滤选项是否有意义？ 我知道我没有提供有关该项目的详尽详细信息以准确了解它将如何执行，但我不想这样做发布 TLDR。一些可能很重要的额外信息。  查询后用户将看到的列表将包括一张精选图像，每个图像都与图库帖子类型相关联+有关图库作者的一些信息，通过喷气发动机中称为关系的东西将与画廊相关的自定义帖子类型分开。 过滤器具有 OR 逻辑，允许用户在雨天、夜间搜索跑车或校车一个人穿着黑色皮夹克或绿色连帽衫，带着悲伤的表情跳舞等。 搜索结果可能会返回，比如说，50 个画廊。列出的每个画廊都会显示上述信息。然后，用户可以通过点击来访问该帖子。  有关此主题的任何建议或信息将不胜感激！ 提前致谢 ^^   由   提交 /u/danilodlr   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d00vja/need_advice_building_a_large_image_repository/</guid>
       <pubDate>Sat, 25 May 2024 01:32:50 GMT</pubDate>
     </item>
@@ -62,7 +90,7 @@
       <pubDate>Fri, 24 May 2024 20:36:34 GMT</pubDate>
     </item>
     <item>
-      <title>该域如何同时重定向到两个不同的服务器？</title>
+      <title>该域名如何同时重定向到两个不同的服务器？</title>
       <link>https://www.reddit.com/r/webdev/comments/1czukhi/how_is_this_domain_redirecting_to_two_different/</link>
       <description><![CDATA[我发现了一些奇怪的行为，我想知道后端发生了什么。有一家小企业不久前倒闭了，该企业使用的域名为 lunarshinestore.com。 nslookup 显示其 IP 地址为 67.227.226.240。当前有一个服务器在该地址运行。但是，如果我尝试通过域访问服务器，我会被重定向到 iyfbodn.com 或 simcast.com。这怎么可能？同一 IP 是否可能存在多个 A 记录条目？   由   提交/u/Cantersoft  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czukhi/how_is_this_domain_redirecting_to_two_different/</guid>
@@ -81,34 +109,6 @@
       <description><![CDATA[我工作的公司要求我重新设计他们自行托管的网站。他们已经从 Envato 市场购买了一个模板并要求我使用它。我不是网页设计师，但能够通过自己的方式进行尝试和犯错，并且实际上在制作过程中获得了很多乐趣。 现在我想使用相同的模板并用它制作一个个人网站但我必须自己主持。我看到很多推荐的 Github 页面，但我可以将其与 Envato 的网站模板一起使用吗？如果没有我还能用什么？我想使用相同的模板，因为我已经从以前使用过的模板中学会了如何完成我需要的一切。该模板仅使用 HTML、CSS 和JS.   由   提交 /u/coffeegrapes   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cztwbm/where_can_i_host_a_site_built_with_a_website/</guid>
       <pubDate>Fri, 24 May 2024 20:02:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>全栈应用程序的堆栈（首次客户端）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czthiq/stack_for_a_full_stack_application_first_time/</link>
-      <description><![CDATA[大家好，我真的需要你们关于构建全栈应用程序的建议。  我目前是前端开发人员（VueJS），有一个亲戚有一个很大的牙科诊所，诊所有很多医生......他想要一个托管的系统在线，他可以从任何地方访问它，管理医生、患者和发票等等...所以，系统中会有（医生、接待员、管理员...） &lt; p&gt;显然，这个系统将是一个全栈系统... 我有 C#、ReactJS、VueJS 的经验（我是个万事通），我真的很讨厌这些，而且我觉得自己很蠢....  客户并不着急，他也不想付那么多钱...因为公司向他要很多钱。  我的主要担忧： 1. 关于 C# 作为后端是否会过度杀伤力，或者我应该选择其他东西。 2. 我是否应该考虑使用 Azure 进行数据库和 API 托管？ 3.关于文件存储，Amazone S3或Azure blob存储4.我在想如果我真的可以把这个项目变成SaaS，可以实现吗？只是我心中的一个问题和一个愿望 5. 在线托管这样一个系统并供公众访问是一个好主意吗？最好的方法是什么？6.作为一个单独的开发人员（8 到 5）工作可以实现这个目标吗？  我在该行业的经验是一年半......除了我的软件工程学士学位 我将不胜感激任何建议和建议。   由   提交/u/al-doori  /u/al-doori  reddit.com/r/webdev/comments/1czthiq/stack_for_a_full_stack_application_first_time/&quot;&gt;[链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czthiq/stack_for_a_full_stack_application_first_time/</guid>
-      <pubDate>Fri, 24 May 2024 19:45:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>工作很难找</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czta25/jobs_are_so_hard_to_get/</link>
-      <description><![CDATA[为什么在网络开发领域找到一份工作这么难。我在构建现实世界的应用程序方面拥有 5 年以上的经验，但我从未有过一份稳定的全职工作。 事情总是在 6 个月或更短的时间内结束。 我我真的厌倦了跳槽，因为一开始就没什么可做的，而且很累人。你总是面临着申请一些诈骗工作机会的风险。 就在昨天，我热情申请的两则招聘广告被证明是诈骗。它让我一整天都筋疲力尽，我只想放弃。这太*太难了！ 我想要一些稳定的东西。请提供任何建议。   由   提交 /u/LargePermit   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czta25/jobs_are_so_hard_to_get/</guid>
-      <pubDate>Fri, 24 May 2024 19:36:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么谷歌的搜索引擎在过去十年中没有找到强有力的竞争对手？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czsi1c/why_has_googles_search_engine_not_found_a_serious/</link>
-      <description><![CDATA[月复一月，我们看到 SERP 变得越来越糟，首页上充斥着广告，Quora 和 Pinterest 图像充斥着结果，你可以&#39;甚至无法让维基百科跻身技术术语最重要链接的前 3 位。您最终将“reddit.com”添加到每次都尝试找到与您的查询相关的内容。 问题是为什么没有人提出“旧版 Google”搜索引擎？这只是带来了最优质的网站/链接和足够多的广告，就像过去的美好时光一样？   由   提交 /u/Sarmientino   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czsi1c/why_has_googles_search_engine_not_found_a_serious/</guid>
-      <pubDate>Fri, 24 May 2024 19:03:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>在创建 OAuth 身份提供者时，谁应该设置身份验证 cookie？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czs8e3/while_making_an_oauth_identity_provider_who/</link>
-      <description><![CDATA[有谁知道有关于 OAuth 最佳实践的好文章吗？我一直在尝试制作一个符合 OAuth 2.1 的身份提供者。目前，我使用独立的 Vue SPA 作为身份提供者登录屏幕的前端，使用独立的 .NET 应用程序作为身份提供者的后端。 我不知道谁应该设置身份验证 cookie，比如，Vue SPA 应该生成一些 cookie 并将其设置在本地机器上，还是 .NET 后端应该发送一些响应 cookie 来设置。 我只想知道整个会话是如何验证的，比如 Vue 客户端如何知道请求是否是有效请求并应显示错误页面，以及 API 如何确定传入的请求是有效的。    提交人    /u/ParaPsychic   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czs8e3/while_making_an_oauth_identity_provider_who/</guid>
-      <pubDate>Fri, 24 May 2024 18:52:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
