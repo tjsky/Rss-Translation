@@ -4,20 +4,27 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 25 May 2024 00:56:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 May 2024 03:16:02 GMT</lastBuildDate>
+    <item>
+      <title>需要建议，在 WordPress 中构建具有高级过滤功能的大型图像存储库</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d00vja/need_advice_building_a_large_image_repository/</link>
+      <description><![CDATA[我正在开发我的第一个涉及大量内容的网站。我需要一些建议，关于我使用的工具是否足够，或者我是否会遇到托管成本、带宽或性能问题。 以下是我的设置的简要概述： 前端使用 WordPress + Elementor 和 JetEngine + 使用 JetSmartFilters，该过滤器由开发 JetEngine 的同一家公司提供。这允许使用元字段过滤自定义帖子类型并且可以很好地协同工作（相同的生态系统） 该网站本质上是一个类似于 Shutterstock 的图像存储库，具有高级过滤功能。用户将能够根据主题、周围的物体、样式等过滤图像。这需要大约 250 个自定义字段，每个字段平均有 10 个可用于每个帖子的过滤选项。 我希望有这方面经验或知识的人可以帮助回答几个问题： 我需要优化数据库或查询以确保搜索时间在 3 秒以下吗？插件和 WordPress 结构是否足以实现快速性能？ 用户会消耗大量带宽吗？我是否应该投资高于平均水平的托管服务来处理这个问题？ 考虑到基础已经由 WordPress 和这些插件构建，我是否应该考虑重新开始使用不同的框架，或者这种设置是否足以使其工作？ 该网站将采用订阅模式。如果成本很高，将广泛的过滤选项放在付费墙后面是否有意义？ 我知道我没有提供有关该项目的详尽细节以准确了解它将如何执行，但我不想让这篇文章成为 TLDR。一些额外的信息可能很重要。  用户查询后将看到的列表将包括一个特色图片，每个图片都与画廊帖子类型相关联 + 一些关于画廊作者的信息，一个与画廊相关的独立自定义帖子类型，通过喷气发动机中称为关系的东西。 过滤器具有 OR 逻辑，允许用户搜索跑车或校车、下雨天场景、夜晚、穿着黑色皮夹克或绿色连帽衫的人、带着悲伤的表情跳舞等。 搜索结果可能会返回 50 个画廊。列出的每个画廊都会显示上述信息。然后用户可以通过点击它来访问帖子。  非常感谢关于这个主题的任何建议或信息！ 提前致谢 ^^    提交人    /u/danilodlr   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d00vja/need_advice_building_a_large_image_repository/</guid>
+      <pubDate>Sat, 25 May 2024 01:32:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>有什么方法可以减少 srt 文件中每行的字数吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d00fr0/any_way_decrease_words_per_line_in_srt_file/</link>
+      <description><![CDATA[[已解决] 我正在节点中制作视频制作脚本，并使用 AWS Transcribe 生成字幕文件（srt），但每行大约有 8 个单词。有没有办法将其缩短为 2-3 个单词并保持正确的时机？ 我不知道应该在哪里问这个问题，但这是我最好的猜测。    由   提交 /u/iHateRollerCoaster   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d00fr0/any_way_decrease_words_per_line_in_srt_file/</guid>
+      <pubDate>Sat, 25 May 2024 01:08:56 GMT</pubDate>
+    </item>
     <item>
       <title>我编写了一个算法来尝试以视觉上令人愉悦的方式定位任意宽度的矩形。</title>
       <link>https://www.reddit.com/r/webdev/comments/1czzu53/i_wrote_an_algorithm_to_try_and_position/</link>
       <description><![CDATA[https:/ /drive.google.com/file/d/1OuY56xyyh6I92_DgQfafDobWjcyoMEWm/view?usp=sharing 已经有类似的东西了吗？也许有一种方法可以做得更好，并且 CPU 成本更低？我知道马赛克布局是相似的......但如果你仔细观察，这比那要复杂一点。看看你是否能辨认出行和列。提示：你不能，它们实际上不在那里。 我可以将我想要的任何尺寸的面板放入其中，而无需编写太多代码，并且它会自动将其布局得非常漂亮，在任何屏幕宽度。 是否值得花时间将其放入库中并努力使其可供其他人使用？老实说这对我来说非常有用。就像我说的，我可以指定一些块空间。它所需要的只是最大宽度，并且需要知道子面板的大小。从那里开始，考虑到容器的限制，它会吐出它们应该处于的位置，而我只是让 Angular/Vue/无论什么都及时更新位置。我觉得当你有一个项目列表，其中项目之间的大小可能有很大差异时，它比许多其他选项更好。如果没有这样的东西，您必须使所有内容的尺寸统一，以避免布局中出现大间隙/空白，这确实限制了您的 UI。 就目前情况而言，此布局中的任何面板可以更改其大小，并且布局将重新组织以适应元素的新大小。也可以添加或删除新元素。它是完全响应式的。如果你使用得当，我认为你可以在网站上的几乎每个页面上使用这种布局，没有人会更明智，而且它看起来会..体面。立即生效。   由   提交/u/johnsdowney  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czzu53/i_wrote_an_algorithm_to_try_and_position/</guid>
       <pubDate>Sat, 25 May 2024 00:37:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于如何清理这个可折叠侧边栏概念的意见？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czvy0g/input_on_how_to_approach_cleaning_up_this/</link>
-      <description><![CDATA[我希望可以在这里提问。 我有一个使用可折叠侧边栏选项卡的设计，我用一种方式拼凑在一起让它们发挥作用，但我现在正在尝试对它们进行一些清理&amp;我不确定是否有一个明确的“最佳”方案是否接近它的方法。 左侧的选项卡是单独的“抽屉”。因为缺乏更好的词，右侧的选项卡是组成真正侧边栏的一组。 我的主要问题是，如果当前单击选项卡，同时如果单击不同的选项卡，仍然会切换锚点。 但我也只是想知道是否有更好的方法来设置折叠（必须是正确的？哈哈）&lt; /p&gt; codepen 这里  &amp;# 32；由   提交/u/zzzzzooted  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czvy0g/input_on_how_to_approach_cleaning_up_this/</guid>
-      <pubDate>Fri, 24 May 2024 21:33:18 GMT</pubDate>
     </item>
     <item>
       <title>制作数码产品商店网站的最快方法</title>
@@ -36,7 +43,7 @@
     <item>
       <title>单体架构和无头架构的书籍推荐</title>
       <link>https://www.reddit.com/r/webdev/comments/1czv123/book_recommendations_for_monolithic_and_headless/</link>
-      <description><![CDATA[大家好， 我正在寻找有关专注于单体和无头架构（后端和前端之间的简单分离，没有微服务）的编程书籍推荐。我更喜欢强调实用、直接示例的资源，而不是深入研究过于复杂的系统。 我知道所有书籍都提供知识，但我想优化我的阅读，专注于对我的工作最有用的内容。如果您对符合此标准的书籍有任何建议，我将不胜感激。 我推荐的书籍如下：  重构：改进现有代码的设计：在使用整体式架构时非常有用 企业应用程序架构模式：整体式架构的经典之作 有效使用遗留代码：同样关注使用较旧架构的系统（旧并不意味着不好，许多公司使用较旧的架构并且取得了成功和盈利）  谢谢！    提交人    /u/devanil   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 我正在寻找有关单片和无头架构编程的书籍推荐（后端和前端之间的简单分离） ，没有微服务）。我更喜欢强调实用、简单示例的资源，而不是深入研究过于复杂的系统。 我知道所有书籍都提供知识，但我想优化我的阅读，以专注于对我的工作最有用的内容。如果您对符合此标准的书籍有任何建议，我将非常感谢您的意见。 Livros que li e gostei：  重构：改进现有代码的设计：在使用单体应用时非常有用 企业应用程序架构模式：单体应用中使用的架构的经典 &lt; em&gt;有效地使用遗留代码：同样关注使用旧架构的系统（旧并不意味着不好，许多公司使用旧架构并且成功且盈利）  谢谢！   由   提交 /u/devanil   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czv123/book_recommendations_for_monolithic_and_headless/</guid>
       <pubDate>Fri, 24 May 2024 20:52:48 GMT</pubDate>
     </item>
@@ -57,14 +64,14 @@
     <item>
       <title>该域如何同时重定向到两个不同的服务器？</title>
       <link>https://www.reddit.com/r/webdev/comments/1czukhi/how_is_this_domain_redirecting_to_two_different/</link>
-      <description><![CDATA[我发现了一些奇怪的行为，我想知道后端发生了什么。有一家小企业不久前倒闭了，它使用了域名 lunarshinestore.com。nslookup 显示其 IP 地址为 67.227.226.240。目前有一个服务器在该地址上运行。但如果我尝试通过其域名访问服务器，我会被重定向到 iyfbodn.com 或 simcast.com。这怎么可能？同一个 IP 可能有多个 A 记录条目吗？    提交人    /u/Cantersoft   [链接] [评论]]]></description>
+      <description><![CDATA[我发现了一些奇怪的行为，我想知道后端发生了什么。有一家小企业不久前倒闭了，该企业使用的域名为 lunarshinestore.com。 nslookup 显示其 IP 地址为 67.227.226.240。当前有一个服务器在该地址运行。但是，如果我尝试通过域访问服务器，我会被重定向到 iyfbodn.com 或 simcast.com。这怎么可能？同一 IP 是否可能存在多个 A 记录条目？   由   提交/u/Cantersoft  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czukhi/how_is_this_domain_redirecting_to_two_different/</guid>
       <pubDate>Fri, 24 May 2024 20:32:14 GMT</pubDate>
     </item>
     <item>
       <title>副业还值得吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1czubm9/side_hustling_still_worth_it/</link>
-      <description><![CDATA[大家好，感谢您的阅读。 我已经成为开发者近 25 年了。在那段时间里，我这样做是为了工作，但也是业余时间。然而，这是一个简单得多的时代，创建网站实际上需要一定程度的知识和技能。现在到处都有提供几乎免费服务的服务。 我的问题是我最近离婚了，在子女抚养费和高租金方面在经济上有些挣扎。我全职工作并且喜欢我的工作，所以我宁愿不离开，不幸的是加薪也不是一个选择。考虑到税务问题、这一切的皮塔饼和要求，如果我不能在工作时间投入精力，私下进行网络工作是否仍然值得？   由   提交 /u/DesertWanderlust   [链接] [评论]]]></description>
+      <description><![CDATA[大家好，感谢您的阅读。 我已经成为开发者近 25 年了。在那段时间里，我这样做是为了工作，但也是业余时间。然而，这是一个简单得多的时代，创建网站实际上需要一定程度的知识和技能。现在到处都有提供几乎免费服务的服务。 我的问题是我最近离婚了，在子女抚养费和高租金方面陷入了一些经济困境。我全职工作并且喜欢我的工作，所以我宁愿不离开，不幸的是加薪也不是一个选择。考虑到税务问题、这一切的皮塔饼和要求，如果我不能在工作时间投入精力，私下进行网络工作是否仍然值得？   由   提交 /u/DesertWanderlust   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czubm9/side_hustling_still_worth_it/</guid>
       <pubDate>Fri, 24 May 2024 20:21:09 GMT</pubDate>
     </item>
@@ -99,16 +106,9 @@
     <item>
       <title>在创建 OAuth 身份提供者时，谁应该设置身份验证 cookie？</title>
       <link>https://www.reddit.com/r/webdev/comments/1czs8e3/while_making_an_oauth_identity_provider_who/</link>
-      <description><![CDATA[有人知道有关 OAuth 最佳实践的好文章吗？我一直在尝试制作一个兼容 OAuth 2.1 的身份提供程序。目前，我使用独立的 Vue SPA 作为身份提供程序登录屏幕的前端，并使用独立的 .NET 应用程序作为身份提供程序的后端。 我很困惑谁应该设置身份验证 cookie，例如，Vue SPA 是否应该生成一些 cookie 并将其设置在本地计算机上，或者 .NET 后端是否应该发送一些要设置的响应 cookie。  我只是想知道整个会话是如何验证的，比如 Vue 客户端如何知道该请求是否是有效请求并应显示错误页面，以及 API 如何确定该请求传入的请求是有效的。   由   提交 /u/ParaPsychic   [链接] [评论]]]></description>
+      <description><![CDATA[有谁知道有关于 OAuth 最佳实践的好文章吗？我一直在尝试制作一个符合 OAuth 2.1 的身份提供者。目前，我使用独立的 Vue SPA 作为身份提供者登录屏幕的前端，使用独立的 .NET 应用程序作为身份提供者的后端。 我不知道谁应该设置身份验证 cookie，比如，Vue SPA 应该生成一些 cookie 并将其设置在本地机器上，还是 .NET 后端应该发送一些响应 cookie 来设置。 我只想知道整个会话是如何验证的，比如 Vue 客户端如何知道请求是否是有效请求并应显示错误页面，以及 API 如何确定传入的请求是有效的。    提交人    /u/ParaPsychic   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czs8e3/while_making_an_oauth_identity_provider_who/</guid>
       <pubDate>Fri, 24 May 2024 18:52:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>AWS Lightsail 发行版上限</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czs4bq/cap_on_aws_lightsail_distributions/</link>
-      <description><![CDATA[      我是一名独立的网络开发人员，经营着自己的商店。几年前，我从使用 EC2/RDS/Cloudfront 转向使用 Lightsail（为了易于使用）。我昨天去设置一个新的分发，并收到此错误：“Error CreateDistribution[us-east-1] 抱歉，您已经达到每个帐户的分发限制 (20)。 400”。经过一番阅读后，您似乎无法请求增加配额。我还尝试将所有内容设置在不同的区域，但这并不重要。其他的 wedev 在 20 岁之后都在做什么？我不会创建一个新帐户并拥有所有的 2 个帐户。有人遇到过这个问题吗？你是如何克服这个问题的？我需要能够继续为我的客户提供 CDN。 您是否有更好的工作流程可以代替发行版？任何见解、建议或一般信息将不胜感激！ https://preview.redd.it/q8nmr0b17f2d1.png?width=611&amp;format=png&amp;auto=webp&amp;s=1283ee89de94216b40ab4a504344bcc17eb50 d89   由   提交 /u/ParkchopManwiches   [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czs4bq/cap_on_aws_lightsail_distributions/</guid>
-      <pubDate>Fri, 24 May 2024 18:47:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
