@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 24 May 2024 21:12:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 May 2024 00:56:53 GMT</lastBuildDate>
+    <item>
+      <title>我编写了一个算法来尝试以视觉上令人愉悦的方式定位任意宽度的矩形。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1czzu53/i_wrote_an_algorithm_to_try_and_position/</link>
+      <description><![CDATA[https:/ /drive.google.com/file/d/1OuY56xyyh6I92_DgQfafDobWjcyoMEWm/view?usp=sharing 已经有类似的东西了吗？也许有一种方法可以做得更好，并且 CPU 成本更低？我知道马赛克布局是相似的......但如果你仔细观察，这比那要复杂一点。看看你是否能辨认出行和列。提示：你不能，它们实际上不在那里。 我可以将我想要的任何尺寸的面板放入其中，而无需编写太多代码，并且它会自动将其布局得非常漂亮，在任何屏幕宽度。 是否值得花时间将其放入库中并努力使其可供其他人使用？老实说这对我来说非常有用。就像我说的，我可以指定一些块空间。它所需要的只是最大宽度，并且需要知道子面板的大小。从那里开始，考虑到容器的限制，它会吐出它们应该处于的位置，而我只是让 Angular/Vue/无论什么都及时更新位置。我觉得当你有一个项目列表，其中项目之间的大小可能有很大差异时，它比许多其他选项更好。如果没有这样的东西，您必须使所有内容的尺寸统一，以避免布局中出现大间隙/空白，这确实限制了您的 UI。 就目前情况而言，此布局中的任何面板可以更改其大小，并且布局将重新组织以适应元素的新大小。也可以添加或删除新元素。它是完全响应式的。如果你使用得当，我认为你可以在网站上的几乎每个页面上使用这种布局，没有人会更明智，而且它看起来会..体面。立即生效。   由   提交/u/johnsdowney  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1czzu53/i_wrote_an_algorithm_to_try_and_position/</guid>
+      <pubDate>Sat, 25 May 2024 00:37:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于如何清理这个可折叠侧边栏概念的意见？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1czvy0g/input_on_how_to_approach_cleaning_up_this/</link>
+      <description><![CDATA[我希望可以在这里提问。 我有一个使用可折叠侧边栏选项卡的设计，我用一种方式拼凑在一起让它们发挥作用，但我现在正在尝试对它们进行一些清理&amp;我不确定是否有一个明确的“最佳”方案是否接近它的方法。 左侧的选项卡是单独的“抽屉”。因为缺乏更好的词，右侧的选项卡是组成真正侧边栏的一组。 我的主要问题是，如果当前单击选项卡，同时如果单击不同的选项卡，仍然会切换锚点。 但我也只是想知道是否有更好的方法来设置折叠（必须是正确的？哈哈）&lt; /p&gt; codepen 这里  &amp;# 32；由   提交/u/zzzzzooted  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1czvy0g/input_on_how_to_approach_cleaning_up_this/</guid>
+      <pubDate>Fri, 24 May 2024 21:33:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>制作数码产品商店网站的最快方法</title>
+      <link>https://www.reddit.com/r/webdev/comments/1czvudw/the_fastest_way_of_making_a_digital_products/</link>
+      <description><![CDATA[正在用纯 html、css、js 编写一个数字营销网站，而不考虑任何安全或访问问题，然后修复它们并建立网站的借助框架（Node.js）和库的功能是开发此类功能的合法方式。我还没有真正涉及任何框架和库，但开始掌握纯 JavaScript 和 HTML、CSS、SQL、PHP。我只是不想在 PHP 的帮助下实现它，使用一种过时的语言似乎太麻烦了，在当今的项目中使用得很少。先感谢您！    由   提交 /u/musicianVolodya   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1czvudw/the_fastest_way_of_making_a_digital_products/</guid>
+      <pubDate>Fri, 24 May 2024 21:28:50 GMT</pubDate>
+    </item>
     <item>
       <title>周六展示：Dawnvox - 针对初创企业和小型企业的客户反馈分析</title>
       <link>https://www.reddit.com/r/webdev/comments/1czv4ra/show_off_saturday_dawnvox_customer_feedback/</link>
@@ -15,7 +36,7 @@
     <item>
       <title>单体架构和无头架构的书籍推荐</title>
       <link>https://www.reddit.com/r/webdev/comments/1czv123/book_recommendations_for_monolithic_and_headless/</link>
-      <description><![CDATA[大家好， 我正在寻找有关单片和无头架构编程的书籍推荐（后端和前端之间的简单分离） ，没有微服务）。我更喜欢强调实用、简单示例的资源，而不是深入研究过于复杂的系统。 我知道所有书籍都提供知识，但我想优化我的阅读，以专注于对我的工作最有用的内容。如果您对符合此标准的书籍有任何建议，我将非常感谢您的意见。 Livros que li e gostei：  重构：改进现有代码的设计：在使用单体应用时非常有用 企业应用程序架构模式：单体应用中使用的架构的经典 &lt; em&gt;有效地使用遗留代码：同样关注使用旧架构的系统（旧并不意味着不好，许多公司使用旧架构并且成功且盈利）  谢谢！   由   提交 /u/devanil   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 我正在寻找有关专注于单体和无头架构（后端和前端之间的简单分离，没有微服务）的编程书籍推荐。我更喜欢强调实用、直接示例的资源，而不是深入研究过于复杂的系统。 我知道所有书籍都提供知识，但我想优化我的阅读，专注于对我的工作最有用的内容。如果您对符合此标准的书籍有任何建议，我将不胜感激。 我推荐的书籍如下：  重构：改进现有代码的设计：在使用整体式架构时非常有用 企业应用程序架构模式：整体式架构的经典之作 有效使用遗留代码：同样关注使用较旧架构的系统（旧并不意味着不好，许多公司使用较旧的架构并且取得了成功和盈利）  谢谢！    提交人    /u/devanil   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czv123/book_recommendations_for_monolithic_and_headless/</guid>
       <pubDate>Fri, 24 May 2024 20:52:48 GMT</pubDate>
     </item>
@@ -36,19 +57,19 @@
     <item>
       <title>该域如何同时重定向到两个不同的服务器？</title>
       <link>https://www.reddit.com/r/webdev/comments/1czukhi/how_is_this_domain_redirecting_to_two_different/</link>
-      <description><![CDATA[我发现了一些奇怪的行为，我想知道后端发生了什么。有一家小企业不久前倒闭了，该企业使用的域名为 lunarshinestore.com。 nslookup 显示其 IP 地址为 67.227.226.240。当前有一个服务器在该地址运行。但是，如果我尝试通过域访问服务器，我会被重定向到 iyfbodn.com 或 simcast.com。这怎么可能？同一 IP 是否可能存在多个 A 记录条目？   由   提交/u/Cantersoft  [链接] [评论]]]></description>
+      <description><![CDATA[我发现了一些奇怪的行为，我想知道后端发生了什么。有一家小企业不久前倒闭了，它使用了域名 lunarshinestore.com。nslookup 显示其 IP 地址为 67.227.226.240。目前有一个服务器在该地址上运行。但如果我尝试通过其域名访问服务器，我会被重定向到 iyfbodn.com 或 simcast.com。这怎么可能？同一个 IP 可能有多个 A 记录条目吗？    提交人    /u/Cantersoft   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czukhi/how_is_this_domain_redirecting_to_two_different/</guid>
       <pubDate>Fri, 24 May 2024 20:32:14 GMT</pubDate>
     </item>
     <item>
       <title>副业还值得吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1czubm9/side_hustling_still_worth_it/</link>
-      <description><![CDATA[大家好，感谢您的阅读。 我已经成为开发者近 25 年了。在那段时间里，我这样做是为了工作，但也是业余时间。然而，这是一个简单得多的时代，创建网站实际上需要一定程度的知识和技能。现在到处都有提供几乎免费服务的服务。 我的问题是我最近离婚了，在子女抚养费和高租金方面陷入了一些经济困境。我全职工作并且喜欢我的工作，所以我宁愿不离开，不幸的是加薪也不是一个选择。考虑到税务问题、这一切的皮塔饼和要求，如果我不能在工作时间投入精力，私下进行网络工作是否仍然值得？   由   提交 /u/DesertWanderlust   [链接] [评论]]]></description>
+      <description><![CDATA[大家好，感谢您的阅读。 我已经成为开发者近 25 年了。在那段时间里，我这样做是为了工作，但也是业余时间。然而，这是一个简单得多的时代，创建网站实际上需要一定程度的知识和技能。现在到处都有提供几乎免费服务的服务。 我的问题是我最近离婚了，在子女抚养费和高租金方面在经济上有些挣扎。我全职工作并且喜欢我的工作，所以我宁愿不离开，不幸的是加薪也不是一个选择。考虑到税务问题、这一切的皮塔饼和要求，如果我不能在工作时间投入精力，私下进行网络工作是否仍然值得？   由   提交 /u/DesertWanderlust   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czubm9/side_hustling_still_worth_it/</guid>
       <pubDate>Fri, 24 May 2024 20:21:09 GMT</pubDate>
     </item>
     <item>
-      <title>我可以在哪里托管使用 Envato 网站模板构建的网站？</title>
+      <title>在哪里可以托管使用 Envato 网站模板构建的网站？</title>
       <link>https://www.reddit.com/r/webdev/comments/1cztwbm/where_can_i_host_a_site_built_with_a_website/</link>
       <description><![CDATA[我工作的公司要求我重新设计他们自行托管的网站。他们已经从 Envato 市场购买了一个模板并要求我使用它。我不是网页设计师，但能够通过自己的方式进行尝试和犯错，并且实际上在制作过程中获得了很多乐趣。 现在我想使用相同的模板并用它制作一个个人网站但我必须自己主持。我看到很多推荐的 Github 页面，但我可以将其与 Envato 的网站模板一起使用吗？如果没有我还能用什么？我想使用相同的模板，因为我已经从以前使用过的模板中学会了如何完成我需要的一切。该模板仅使用 HTML、CSS 和JS.   由   提交 /u/coffeegrapes   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1cztwbm/where_can_i_host_a_site_built_with_a_website/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[      我是一名独立的网络开发人员，经营着自己的商店。几年前，我从使用 EC2/RDS/Cloudfront 转向使用 Lightsail（为了易于使用）。我昨天去设置一个新的分发，并收到此错误：“Error CreateDistribution[us-east-1] 抱歉，您已经达到每个帐户的分发限制 (20)。 400”。经过一番阅读后，您似乎无法请求增加配额。我还尝试将所有内容设置在不同的区域，但这并不重要。其他的 wedev 在 20 岁之后都在做什么？我不会创建一个新帐户并拥有所有的 2 个帐户。有人遇到过这个问题吗？你是如何克服这个问题的？我需要能够继续为我的客户提供 CDN。 您是否有更好的工作流程可以代替发行版？任何见解、建议或一般信息将不胜感激！ https://preview.redd.it/q8nmr0b17f2d1.png?width=611&amp;format=png&amp;auto=webp&amp;s=1283ee89de94216b40ab4a504344bcc17eb50 d89   由   提交 /u/ParkchopManwiches   [链接] [评论] &lt; /表&gt;]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1czs4bq/cap_on_aws_lightsail_distributions/</guid>
       <pubDate>Fri, 24 May 2024 18:47:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>产品自定义文本的实时文本更新。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czrf0q/live_text_update_for_product_custom_text/</link>
-      <description><![CDATA[我正在寻找一个插件，甚至只是一个人来指导我如何自己制作它。我正在尝试为产品合并一个自定义文本框，并将文本显示在产品图像上。最好在像 wix 或 Shopify 这样的网站上，因为我为其制作的人希望能够在我构建它后自己编辑它。有人得到任何东西吗？   由   提交 /u/jeffffff6666666   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czrf0q/live_text_update_for_product_custom_text/</guid>
-      <pubDate>Fri, 24 May 2024 18:17:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何处理没有文档的遗留项目？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czrdx4/how_do_you_handle_legacy_project_with_no/</link>
-      <description><![CDATA[你好，我来寻求智慧。 我被委托执行一个新项目（旧）。以下是真正问题之前的一些背景信息： 这是一个关键的内部应用程序，特别是与会计/发票/库存等相关的应用程序。 该应用程序绝对没有任何文档，并且如果我可以分享代码，你可能会心脏病发作。 这是旧的 CakePHP / jQuery。我已经花了一整天的时间，而且我真的、真的、真的很挣扎。这可能是我见过的最糟糕的代码库（而且我可以访问我的旧代码）。 第一个挑战是稍微了解一下这个混乱情况，并可能设法创建一个本地/预生产开发环境，这不是给定的。 所以，我有很多工作要做，并且我想到了一个想法，因为可能计划向该项目添加功能。 我想知道我是否可以建议创建一个与旧项目共存的全新项目。新功能将正确地添加到新应用程序中，并且我们可能可以开始将遗留代码迁移到新的基础。 我想听听您的意见，您将如何处理这个问题？相邻应用程序的想法是“变相的坏主意”吗？也许依靠新功能的服务而不是一个全新的项目，但这可能具有挑战性。 我看到的优点：   干净的基础 更容易添加干净的代码 更容易编写文档 更容易开发，从而提高生产力  li&gt; 旧代码的重构  缺点：  在某些点上建立与旧代码对应的基础。 管理共存可能非常复杂。 如果我们谈论迁移代码，它仍然是一个巨大的重构。 我没有理由不写适当的文档。 旧代码的重构    由   提交/u/Meiyo33  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czrdx4/how_do_you_handle_legacy_project_with_no/</guid>
-      <pubDate>Fri, 24 May 2024 18:15:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>不在营销/传播部门的工作</title>
-      <link>https://www.reddit.com/r/webdev/comments/1czrd9z/jobs_not_in_marketingcomms_departments/</link>
-      <description><![CDATA[我在通讯和营销部门工作了 10 多年，这让我精疲力竭。没有人知道如何管理项目、如何根据数据做出决策或设计解决方案，所以这一切都取决于我这个唯一的中小企业。  我自学编码是因为我一直对人类行为/行为经济学感兴趣，并且真的想优化网站以获得最佳的用户体验和转化率，但我为之工作的人只是想“快”地提出网站来证明他们除了参加毫无意义的会议之外还做了其他事情。更糟糕的是，当我建议更好的优化或可访问性方法时，它会被忽略，因为这让他们的想法看起来很糟糕。例如，我不得不无数次解释为什么在新选项卡中打开链接并不能让人们留在网站上并提供研究和数据来支持它，但这毫无意义，因为有些混蛋有这个想法，而且他们生活的主角。我现在有工程师的大脑，所以我总是在想“我怎样才能做得更好？”或者“我的假设是错误的吗？”让我们通过 A/B 测试来找出答案！” 我为一家大公司签订了一份 W2 合同，我是 Scrum 团队中许多人的开发人员之一，而且它更有组织性，这使我能够专注于我的技能并向其他人学习。所有工作都需要业务需求和验收标准，并且必须适合项目范围。不幸的是，这只是一个分析开发人员的角色，所以我没有创建任何东西，而且我感到非常无聊。他们还意识到我的混合性质，并让我参加大量毫无意义的会议，在工程师和产品经理之间进行翻译。不过，每个人都喜欢我的文档和故事。 似乎所有网络开发工作都属于营销部门，我会回到同样的模式，过度劳累、精疲力尽，并且不学习任何新东西。在理想的世界中，我会与开发人员一起在产品经理的领导下工作。这在任何地方都存在吗？它似乎只存在于软件开发中，我根本不具备这方面的编码技能，而且由于我对转化率优化的兴趣，我仍然非常喜欢创建网站。我应该搜索哪些职位名称/描述？    由   提交/u/eddydio  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1czrd9z/jobs_not_in_marketingcomms_departments/</guid>
-      <pubDate>Fri, 24 May 2024 18:14:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
