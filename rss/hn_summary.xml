@@ -4,89 +4,96 @@
     <title>HN总结</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的顶级黑客新闻故事的自动摘要。</description>
-    <lastBuildDate>Sat, 25 May 2024 18:14:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2024 00:46:27 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 网站：easygames.online</title>
-      <link>https://t.me/hn_summary/91476</link>
-      <description><![CDATA[Show HN：一些不只适合孩子的小游戏（用我的编程语言）
-标题：Show HN：一些不只适合孩子的小游戏（用我的编程语言制作）
-网站：easygames.online
+      <title>[媒体] 微软宣布与可汗学院合作，提供人工智能教学辅助 [...]</title>
+      <link>https://t.me/hn_summary/91518</link>
+      <description><![CDATA[微软与可汗学院合作免费提供 Khanmigo 教学工具
+微软宣布与 Khan Academy 合作，从 5 月 21 日开始，向美国 K-12 教育工作者免费提供人工智能教学助手 Khanmigo。Khanmigo 之前每月收费 4 美元，现在将在微软的 Azure 云平台上运行，提供对主要课程的访问。通过 Azure OpenAI 服务的语言模型。此次合作旨在每周减少教师最多五个小时的工作量，从而可能防止职业倦怠。此外，可汗学院将协助微软训练其新的小语言模型 Phi-3，以开发人工智能数学导师。值得注意的是，本次培训不会使用可汗学院的用户数据。]]></description>
+      <guid>https://t.me/hn_summary/91518</guid>
+      <pubDate>Sun, 26 May 2024 00:46:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>1991 年 2 月 25 日，海湾战争期间，沙特阿拉伯达兰的爱国者导弹连 [...]</title>
+      <link>https://t.me/hn_summary/91517</link>
+      <description><![CDATA[软件错误导致 100 人受伤，28 人死亡
+1991 年 2 月 25 日，海湾战争期间，沙特阿拉伯 Dharan 的爱国者导弹发射台未能拦截来袭的伊拉克飞毛腿导弹，导致 28 名美国士兵死亡，约 100 人受伤。此次失败是由于软件错误导致启动后时间计算不准确，这是由 24 位定点寄存器中的计算机算术错误引起的。二进制表示 1/10 中的小截断错误，在乘以时间时，导致 0.34 秒的重大错误。这个错误导致导弹超出了爱国者的跟踪范围。具有讽刺意味的是，代码的部分改进加剧了这个问题。这一事件凸显了软件计算精度的关键影响，特别是在军事应用中。]]></description>
+      <guid>https://t.me/hn_summary/91517</guid>
+      <pubDate>Sun, 26 May 2024 00:39:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>在这篇博文中，Brandon Rhodes 探讨了使用 m [...] 为托勒密的等距轴制作动画所面临的挑战。</title>
+      <link>https://t.me/hn_summary/91516</link>
+      <description><![CDATA[使用 Python、SVG 和 CSS 制作托勒密等式动画 
+在这篇博文中，Brandon Rhodes 探讨了使用 Python、SVG 和 CSS 等现代 Web 技术制作托勒密等式动画的挑战。首先，他强调了由于行星轨道的非重复性而创建无缝太阳系动画的难度。 Rhodes 提出了一种解决方案，利用 CSS 动画来表示每个行星的公转，从而产生轻量级且连续的动画。然而，他遇到了一个问题：CSS 的动画定时函数不支持等量的非均匀运动。为了解决这个问题，他使用 Python 生成近似等距运动的贝塞尔曲线参数，展示了数学建模和网络动画技术的巧妙结合。 （根据 58% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/91516</guid>
+      <pubDate>Sat, 25 May 2024 23:44:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] UltraNet：重温超声</title>
+      <link>https://t.me/hn_summary/91515</link>
+      <description><![CDATA[UltraNet：重温超声波
+UltraNet：重温超声波
 
-探索一系列专为儿童和成人设计的有趣且具有教育意义的游戏，所有游戏均使用我的自定义编程语言创建。该网站提供 Mastermind、Minesweeper、15 Puzzle、Monster Maze、Snake、Tic-Tac-Toe、Reaction Test 和 Catch the Ball 等经典游戏。此外，还有 Ice Cream、Letter Memory 和 Paint 等学习游戏，以及 1x1 Trainer、Math Trainer、Roman Numbers、Learning Clock 和 Piano 等学习应用程序。独特的是，该平台还提供简单的编程语言和开发环境，供用户创建自己的游戏。联系方式：christof.kaser@gmail.com。]]></description>
-      <guid>https://t.me/hn_summary/91476</guid>
-      <pubDate>Sat, 25 May 2024 18:14:53 GMT</pubDate>
+想象一个智能设备通过人类听不见的超声波无缝链接和共享工作负载的世界。这就是 UltraNet——一个分散的环境智能云。从历史上看，集成设备很麻烦，需要专有标准和复杂的软件开发。UltraNet 通过在电子设备中嵌入微型超声波传感器来摆脱这一困境，为设备接口提供了一种通用语言。使用 OFDM 和 MIMO 等先进技术，这些传感器可以创建临时网状网络，而无需配置麻烦。由 ChatGPT 等 AI 模型驱动的智能代理通过超声波进行通信和委派任务，形成分散的蜂巢思维。与蓝牙和 Wi-Fi 相比，UltraNet 具有干扰减少、功耗低和安全性增强等特点，因此特别适合特定用例。人工智能模型压缩的最新进展表明，这一愿景更接近现实，有望在未来实现设备无缝协作，改善我们的生活。
+
+有争议的方面：设备通过超声波不断通信的想法引发了潜在的隐私和安全问题，以及有关长时间暴露于超声波频率对健康影响的问题。
+
+独特/巧妙的方面：使用超声波进行设备通信是一种创新，具有干扰减少和功耗低等优势，这对电池供电的设备尤其有益。（基于 85% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/91515</guid>
+      <pubDate>Sat, 25 May 2024 23:41:59 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在这篇博文中，我深入研究了添加支持的复杂性和挫折感 [...]</title>
-      <link>https://t.me/hn_summary/91475</link>
-      <description><![CDATA[通往地狱的道路是由善意和 C++ 模块铺成的
-在这篇博文中，我深入研究了在 Meson 构建系统中添加对 C++ 模块的支持的复杂性和挫折。这个过程充满了挑战，从主要 C++ 编译器中新实验功能的粗糙边缘到更深层次的系统问题。例如，GCC 生成与 Ninja 不兼容的依赖文件，而 Clang 的模块扫描器缺少 -o 参数，而是将结果转储到 stdout。一个重要的问题是跨编译器的 C++ 模块源缺乏通用的文件扩展名，因此需要繁琐的解决方法。该帖子批评了 CMake 复杂的模块支持方法，表明它可能故意变得复杂以阻碍竞争。受 Fortran 模块的启发，我提出了一种更简化的设计来解决这些问题。该解决方案涉及使用专用的模块输出目录并确保跨构建目标的命令行参数一致。虽然这种方法已经在小型项目上进行了测试，但其可扩展性仍然不确定。]]></description>
-      <guid>https://t.me/hn_summary/91475</guid>
-      <pubDate>Sat, 25 May 2024 18:06:47 GMT</pubDate>
+      <title>[媒体]一个被称为“审美幻觉”的 Patreon 帐户，它产生了未经同意的人工智能基因 [...]</title>
+      <link>https://t.me/hn_summary/91514</link>
+      <description><![CDATA[未经同意的人工智能色情制作者意外泄露了客户的电子邮件 
+一个名为“审美幻觉”的 Patreon 帐户为付费订阅者制作人工智能生成的未经同意的名人色情图片，无意中将其客户的电子邮件地址泄露给其他客户和 404 Media。在调查 Patreon 如何通过此类内容获利时，我以每月 60 美元的价格订阅了最高级别的服务，以了解所提供的内容。在联系 Patreon 征求意见后，该帐户已被删除。随后，我收到了一封来自审美幻想 Gmail 帐户的电子邮件，向我保证该服务将在新平台上继续下去。这一事件凸显了未经同意的人工智能生成内容的争议性和不道德性质。]]></description>
+      <guid>https://t.me/hn_summary/91514</guid>
+      <pubDate>Sat, 25 May 2024 23:29:52 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在“tmux 越差越好”一文中，作者赞扬了 tmux 的优点，tmux 是一种终端乘法 [...]</title>
-      <link>https://t.me/hn_summary/91474</link>
-      <description><![CDATA[`tmux`越差越好
-在“tmux 越差越好”一文中，作者赞扬了终端多路复用器 tmux 的优点，将其比作终端的 i3。他们欣赏它无需图形环境即可将屏幕分割成多个独立 shell 的能力，这对于经常通过 SSH 连接到服务器的程序员来说非常宝贵。尽管终端仿真器 Kitty 的开发者 Kovid Goyal 批评终端多路复用器的开销和复杂性，但作者发现 tmux 不可或缺，尤其是在 Windows 环境中处理远程服务器时。作者承认 Goyal 的专业知识，但强调 tmux 的可靠性和简单性，体现了“越差越好”的理念。令人惊讶的是作者对 Kitty 功能的钦佩，尽管他们依赖 tmux。]]></description>
-      <guid>https://t.me/hn_summary/91474</guid>
-      <pubDate>Sat, 25 May 2024 17:46:36 GMT</pubDate>
+      <title>[媒体]沙甸大清真寺，中国最后一座阿拉伯风格的大型清真寺，已经失去了 [...]</title>
+      <link>https://t.me/hn_summary/91513</link>
+      <description><![CDATA[中国最后一座大型阿拉伯风格清真寺失去圆顶
+沙甸大清真寺是中国最后一座阿拉伯风格的大型清真寺，作为政府将穆斯林礼拜场所中国化的行动的一部分，它已经失去了圆顶，并修改了宣礼塔。这标志着抵制“洋建筑风格”、弘扬伊斯兰建筑中国特色的五年计划的高潮。该清真寺始建于明朝，文化大革命后重建，现在拥有汉族风格的宝塔屋顶和缩短的宣礼塔。这种转变引发了争议，批评者认为它抹去了文化遗产和宗教身份。清真寺的中国化反映了将中国穆斯林融入国家意识形态的更广泛努力，通常是通过压制措施。]]></description>
+      <guid>https://t.me/hn_summary/91513</guid>
+      <pubDate>Sat, 25 May 2024 23:26:47 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 乔治·奥威尔：什么是法西斯主义？</title>
-      <link>https://t.me/hn_summary/91473</link>
-      <description><![CDATA[乔治·奥威尔：什么是法西斯主义？
-在他 1944 年的文章“什么是法西斯主义？”中乔治·奥威尔探讨了法西斯主义难以捉摸的定义，指出了它的各种解释和广泛的滥用。他观察到，人们经常将他们不赞成的任何事物贴上法西斯主义的标签，从政党到社会组织，这使得这个词几乎毫无意义。奥威尔强调了定义法西斯主义时的矛盾，例如它与好战政权和和平政权的联系，以及它与反犹太主义的不一致关系。尽管存在混乱，奥威尔认为法西斯主义广泛地意味着残酷、傲慢和反自由情绪。他的结论是，由于各个政治团体不愿意承认有关其意识形态的令人不安的事实，因此仍然无法获得明确的定义。]]></description>
-      <guid>https://t.me/hn_summary/91473</guid>
-      <pubDate>Sat, 25 May 2024 17:39:30 GMT</pubDate>
+      <title>[媒体]随着炎热的日本夏季临近，我重新审视了远程控制的想法 [...]</title>
+      <link>https://t.me/hn_summary/91512</link>
+      <description><![CDATA[用 Elixir 和 Nerves 让我愚蠢的空调变得聪明
+随着日本闷热的夏季临近，我重新考虑了通过互联网远程控制卧室空调的想法。今年，我使用 Raspberry Pi Zero WH 和红外收发器帽将这个想法变成了现实。尽管最初遇到了一些挫折，比如缺少红外组件，但我还是设法焊接了这些部件并使用 LIRC 的 irrecord 命令验证了红外信号。真正的挑战是决定是简单的信号记录还是完全解码并再现 A/C 远程信号，以及是在 Raspberry Pi OS 上部署 Phoenix Web 服务器还是将其与 Nerves 捆绑在一起。我选择了更复杂但更有价值的 Nerves 使用路径，这使我能够在嵌入式设备上高效地部署 Elixir。该过程包括定制系统、解码红外信号以及使用 Phoenix 和 LiveView 创建功能性 Web 界面。感谢 Elixir/Nerves 社区的支持，该项目既充满挑战又令人兴奋。]]></description>
+      <guid>https://t.me/hn_summary/91512</guid>
+      <pubDate>Sat, 25 May 2024 23:15:40 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 与稳定的 OCaml 4.14 分支相比，OCaml 5.2.0 是一个实验版本。</title>
-      <link>https://t.me/hn_summary/91472</link>
-      <description><![CDATA[OCaml 5.2.0
-与稳定的 OCaml 4.14 分支相比，OCaml 5.2.0 是一个实验版本。此版本引入了多项新功能、优化和错误修复，详细信息请参阅更改日志。主要更新包括重新引入共享池的 GC 压缩 (#12193)、ThreadSanitizer 支持 (#12114) 以及调试信息的增强 (#10111)。值得注意的是，更新确保 Gc.quick_stat 反映主要循环或压缩后的堆状态 (#12850)。此外，还对 C++ 兼容性（#11332、#12772）和 macOS 上的线程安全性（#12234）进行了改进。该版本还解决了多核系统线程实现的各种问题（#11386、#12875）。某些更改可能会破坏现有程序，并标有“重大更改”警告。 （根据故事文本的 34% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/91472</guid>
-      <pubDate>Sat, 25 May 2024 17:38:26 GMT</pubDate>
+      <title>[媒体] 在 Canonical，我负责监督 Juju 和各种魅力的开发团队，这些 [...]</title>
+      <link>https://t.me/hn_summary/91511</link>
+      <description><![CDATA[跟踪软件团队和锻造厂的版本和 CI&lt; br /&gt;
+在 Canonical 工作期间，我负责监督 Juju 和各种 charm 的开发团队，这些是用于跨多个基础设施部署应用程序的便携式软件包。使用 GitHub 和 Launchpad 管理十多个软件团队，我需要一个统一的工具来跟踪发布和提交，以便更轻松地进行故障排除。受到elementaryOS 发布跟踪器的启发，我最初修改了他们的Python 脚本，但最终在Go 中创建了我自己的工具releasegen。该工具支持多个 GitHub 组织和团队，并由于 API 限制而从 Launchpad 中抓取数据。该网站托管在 GitHub Pages 上，通过 GitHub Actions 每小时更新一次。尽管存在一些缺陷，releasegen 已被证明对于跟踪项目所有权和理解提交与发布之间的关系很有用。一些经理发现它很有价值，甚至被 Snapcrafters 等外部团队采用。源代码可在 GitHub 上获取。如果您有类似的项目或建议，我很乐意听取您的意见！]]></description>
+      <guid>https://t.me/hn_summary/91511</guid>
+      <pubDate>Sat, 25 May 2024 23:15:36 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]在我们的研究中，我们探索了数学自解释自动评分的增强[...]</title>
-      <link>https://t.me/hn_summary/91471</link>
-      <description><![CDATA[使用 LLM 生成的数据集自动评分数学自解释质量&lt; /a&gt;
-在我们的研究中，我们探索使用语言学习模型（LLM）（特别是其日语变体）生成的数据集来增强数学自我解释的自动评分。自我解释在数学教育中至关重要，可以帮助学习者阐明他们对复杂概念的理解。随着数字学习平台的兴起，对这些解释进行自动评估的需求日益增长。然而，样本集的稀缺带来了挑战。我们的半监督方法丰富了数据集，提高了自动评分的准确性。值得注意的是，合成数据的好处是有一个最佳限制的；超过此限制不会进一步提高结果。这强调了在教育解决方案中明智地整合合成数据的重要性。]]></description>
-      <guid>https://t.me/hn_summary/91471</guid>
-      <pubDate>Sat, 25 May 2024 17:32:20 GMT</pubDate>
+      <title>2024 年 2 月，我推出了我的第一款 Roblox 游戏“Chill But Not Too Chill Obby”，这是一个障碍 [...]</title>
+      <link>https://t.me/hn_summary/91510</link>
+      <description><![CDATA[从我的第一款 Roblox 游戏中学到的经验教训
+2024 年 2 月，我推出了我的第一款 Roblox 游戏“Chill But Not Too Chill Obby”，这是一款障碍赛游戏。最初，我认为开发需要几周的时间，但它变成了一个为期一个月的项目，并且不断更新。我的目标是创造独特且具有挑战性的障碍，灵感来自 Roblox 上流行的障碍。但很快我就发现游戏太难了，到了3级就已经有玩家退出了。虽然进行了一些调整来降低难度，但玩家的留存率仍然很低。吸取的主要经验教训包括游戏测试的重要性、创造引人入胜且易于管理的挑战，以及 Roblox 开发者论坛的价值。尽管遇到了挫折，但经验是无价的，我渴望将这些经验教训应用到未来的项目中。 
+
+争议点：游戏难度初始设定过高，导致玩家留存率较低。
+
+独特的见解：意识到玩家不必等待障碍才能通过关卡，这显着改善了游戏体验。]]></description>
+      <guid>https://t.me/hn_summary/91510</guid>
+      <pubDate>Sat, 25 May 2024 23:14:31 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]埃默里大学最初庆祝了由本科生创建的人工智能工具Eightball [...]</title>
-      <link>https://t.me/hn_summary/91470</link>
-      <description><![CDATA[大学奖励学生 1 万美元，奖励他使用 AI 工具，然后因他使用该工具而停学
-埃默里大学最初庆祝了由本科生 Benjamin Craver 和他的联合创始人创建的 AI 工具 Eightball，奖励他们 1 万美元并推广他们的创新。Eightball 旨在将课程转化为学习辅助工具，如抽认卡和练习测试。然而，该大学后来停学了这些学生，理由是担心 Eightball“可能”助长作弊，尽管没有证据支持这一说法。Craver 此后对埃默里大学提起诉讼，称停学危及他的学术前途。这场争议凸显了更广泛的 AI 安全和问责问题，因为即使是像 OpenAI 这样的大型 AI 公司也面临着 AI 道德和安全方面的内部挑战。埃默里大学拒绝对正在进行的诉讼发表评论。]]></description>
-      <guid>https://t.me/hn_summary/91470</guid>
-      <pubDate>Sat, 25 May 2024 17:31:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体]不正当的激励是一种会导致意想不到的和不良结果的激励[...]</title>
-      <link>https://t.me/hn_summary/91469</link>
-      <description><![CDATA[不正当激励
-不正当激励是一种会导致非预期和不良结果的激励，与其创建者的意图背道而驰。 “眼镜蛇效应”一词就体现了这一点，它起源于英国在印度的殖民政策，即对死亡眼镜蛇的赏金导致人们为了盈利而饲养眼镜蛇，最终增加了眼镜蛇的数量。其他例子包括河内老鼠大屠杀，悬赏老鼠尾巴导致老鼠在被切断尾巴后被释放，以及美国陆军的野猪悬赏，无意中增加了猪的数量。这些案例说明善意的政策可能会适得其反，常常加剧其旨在解决的问题。 （根据故事文本的 58% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/91469</guid>
-      <pubDate>Sat, 25 May 2024 17:30:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 隆重推出 IdeaRoost，这是一款突破性工具，旨在帮助创新者验证 [...]</title>
-      <link>https://t.me/hn_summary/91468</link>
-      <description><![CDATA[展示 HN：众包创意验证的新工具&lt; br/&gt;
-隆重推出 IdeaRoost，这是一款突破性工具，旨在帮助创新者通过众包反馈验证他们的想法。借助 IdeaRoost，您可以快速收集真实用户的见解和推荐，从而显着提高将您的概念成功推向市场的机会。该平台简化了反馈流程，使您能够比以往更轻松地根据真实的用户输入提炼和完善您的想法。无论您是企业家、开发人员还是创意思想家，IdeaRoost 都能提供独特而有效的方式来确保您的想法与目标受众产生共鸣。今天就开始，见证您的想法飞翔！]]></description>
-      <guid>https://t.me/hn_summary/91468</guid>
-      <pubDate>Sat, 25 May 2024 17:04:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体]普京劫持了奥地利的间谍部门。</title>
-      <link>https://t.me/hn_summary/91467</link>
-      <description><![CDATA[普京劫持了奥地利的间谍服务。现在他正在追捕政府
-2018 年，奥地利间谍机构 BVT 遭到袭击，导致该机构关闭，并严重损害了该国的情报声誉。现在的新证据表明，这次突袭是莫斯科领导的一项行动的一部分，目的是在克里姆林宫的影响下抹黑和重建 BVT，其中极右翼亲俄自由党 (FPÖ) 发挥了关键作用。奥地利检察官最近透露，俄罗斯特工在倒闭的 Wirecard 公司扬·马萨莱克 (Jan Marsalek) 的指挥下策划了这次突袭。该计划几乎成功，但因 2019 年伊维萨岛丑闻而脱轨，该丑闻迫使自由党陷入反对派。颇具争议的是，负责此次突袭的赫伯特·基克尔 (Herbert Kickl) 现任 FPÖ 领导人，他是奥地利下一任总理的主要候选人，引发了人们对俄罗斯影响力增强的担忧。克里斯蒂安·雷纳警告说，基克尔担任总理可能会孤立奥地利，并使其与俄罗斯更加紧密地结盟，这与匈牙利和塞尔维亚的情况相呼应。]]></description>
-      <guid>https://t.me/hn_summary/91467</guid>
-      <pubDate>Sat, 25 May 2024 17:03:54 GMT</pubDate>
+      <title>最近几天，我遇到了无数被社交媒体拖拽的人的痛苦呼喊 [...]</title>
+      <link>https://t.me/hn_summary/91509</link>
+      <description><![CDATA[注意小屋
+最近几天，我在社交媒体上遇到了许多人的痛苦呼喊，他们对不公正感到困惑。令人困惑的是，他们还没有掌握这些平台固有的上下文崩溃问题，这是十五年来的一个众所周知的问题。我们的注意力共享空间被彻底破坏，导致个人注意力受到严重影响。为了重建这一点，我们必须首先恢复私人和公共空间的注意力。受到 Ted Gioia 关于好莱坞人物修复旧剧院的帖子的启发，我建议创建一个“注意力小屋”——一个个人的、集中的空间，无论是物理的还是虚拟的。像米尔顿、塞耶斯和马利克这样的伟大艺术家体现了短暂与永恒之间的平衡。我们必须学会主要生活在我们的注意力小屋中，只有在必要时才冒险进入混乱的世界。这种平衡类似于收缩/舒张节律，对于健康、专注的生活至关重要。我的著作旨在帮助其他人实现这种平衡，为他们的注意力小屋提供更加集中的存在所需的工具。]]></description>
+      <guid>https://t.me/hn_summary/91509</guid>
+      <pubDate>Sat, 25 May 2024 23:14:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
