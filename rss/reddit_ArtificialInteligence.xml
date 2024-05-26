@@ -4,11 +4,25 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的许多不同方面提供一个门户，并促进与我们所知的人工智能的想法和概念相关的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能会怎样，以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Sun, 26 May 2024 06:16:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2024 09:13:27 GMT</lastBuildDate>
+    <item>
+      <title>尝试授予 ChatGPT 访问客户电子邮件的权限。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0x1qa/trying_to_give_chatgpt_access_to_customer_emails/</link>
+      <description><![CDATA[我可能错过了一些简单而明显的东西。  让 GPT4 分析我的电子邮件并提供建议的好方法是什么？  示例：我想知道我上次为客户工作时他们试图实现的目标是什么。电子邮件有该信息。我希望 GPT 告诉我客户想要实现的目标，这样我就可以在几个月后将其作为个性化后续电子邮件的一种方式。  这比我预想的要困难得多。我认为对此会有很多用户友好的解决方案，因为每个企业可能都需要同样的东西。  我正在查看 IFTTT 和 chrome 扩展和脚本...  我不想手动执行操作。我试图根据电子邮件快速、轻松地获取有关每个客户的信息摘要。  从我在广告中看到的情况来看，谷歌的人工智能也可以做到这一点。但我和gemini聊天，它说它也无法访问我的电子邮件。  所以我最终一次将一批电子邮件导出到带有 chrome 扩展的 googlesheet，但这会自动将每封电子邮件的正文分成一个单独的文件，所以我不能简单地与GPT 让它分析数据。  让 GPT 访问我客户的电子邮件正文的简单、明显的方法是什么？谢谢！！！    由   提交 /u/FreelancerChurch   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0x1qa/trying_to_give_chatgpt_access_to_customer_emails/</guid>
+      <pubDate>Sun, 26 May 2024 08:39:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>xLSTM：新的、更好的 LSTM 回来了</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0v4nl/xlstm_the_new_and_better_lstm_is_back/</link>
+      <description><![CDATA[LSTM 具有三个主要局限性： (i) 无法修改存储决策： LSTM 举步维艰当发现更相似的向量时修改存储值，而我们的新 xLSTM 通过指数门控来弥补这一限制。基本上，如果某些东西在之前的状态中以某种方式被遗忘，我们就无法检索它，因为 LSTM 中的记忆保存在某些单元状态中，而不是实际信息。 (ii) 有限存储容量：信息必须被压缩成标量单元状态。这种限制通过稀有令牌预测得到了例证。由于存储容量有限，LSTM 在稀有代币上的表现较差。新的xLSTM通过矩阵内存解决了这个问题。 (iii) 由于内存混合而缺乏并行性：隐藏状态之间从一个时间步长到另一个时间步长之间的隐藏-隐藏连接接下来，强制执行顺序处理。这是 LSTM 的最大问题，无法充分利用 GPU 并行性。 完整文章： https://medium.com/p/b7d3f2f50129 为了克服 LSTM 的限制，扩展长短期记忆 (xLSTM) 引入了两个主要修改。这些修改——指数门控和新颖的记忆结构——丰富了 LSTM 系列的两个成员：(i) 具有标量记忆、标量更新和记忆混合的新 sLSTM ，以及 (ii) 具有矩阵存储器和协方差（外积）更新规则的新 mLSTM，该规则是完全可并行化的。 两者都是 sLSTM mLSTM 通过指数门控增强 LSTM。为了实现并行化，mLSTM 放弃了内存混合，即隐藏-隐藏的循环连接。 mLSTM 和 sLSTM 都可以扩展到多个记忆单元，其中 sLSTM 具有跨单元记忆混合的特点。此外，sLSTM 可以有多个头，无需跨头进行内存混合，而只能在每个头内的单元之间进行内存混合。 sLSTM 头的引入与指数门控一起建立了一种新的内存混合方式。对于 mLSTM 来说，多个头和多个单元是等效的。   由   提交 /u/Difficult-Race-1188   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0v4nl/xlstm_the_new_and_better_lstm_is_back/</guid>
+      <pubDate>Sun, 26 May 2024 06:18:03 GMT</pubDate>
+    </item>
     <item>
       <title>PandasAI：熊猫的生成人工智能</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0ulkr/pandasai_generative_ai_for_pandas/</link>
-      <description><![CDATA[PandasAI 为 pandas 数据框启用 GenAI，无论是来自 CSV 还是 Excel 或其他格式，并帮助程序员与其对话、生成图表、运行基本分析甚至仅通过提示训练模型。在此处查看演示：https://youtu.be/_tP2hcxA5tk?si=nFbnRpCTLc1vYfof    提交人    /u/mehul_gupta1997   [链接] [评论]]]></description>
+      <description><![CDATA[PandasAI 为 pandas 数据框启用 GenAI，无论是来自 CSV、Excel 还是其他格式，并帮助程序员与之对话、生成绘图、运行基本功能只需提示即可分析甚至训练模型。在此处查看演示：https://youtu.be/_tP2hcxA5tk?si=nFbnRpCTLc1vYfof    由   提交/u/mehul_gupta1997   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0ulkr/pandasai_generative_ai_for_pandas/</guid>
       <pubDate>Sun, 26 May 2024 05:40:45 GMT</pubDate>
     </item>
@@ -34,9 +48,9 @@
       <pubDate>Sun, 26 May 2024 03:16:48 GMT</pubDate>
     </item>
     <item>
-      <title>我无法区分数据科学人工智能和机器学习。</title>
+      <title>我无法区分数据科学 AI 和 ML。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0s4y3/im_not_able_to_distinguish_between_data_science/</link>
-      <description><![CDATA[我对这三个都感兴趣。我应该先从哪里开始？我已经学会了 Python，并且对数学有很强的掌握   由   提交/u/An0neemuz  [链接] [评论]]]></description>
+      <description><![CDATA[我对这三个都感兴趣。我应该从哪里开始？我已经学过 Python，并且对数学有很强的把握    提交人    /u/An0neemuz   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0s4y3/im_not_able_to_distinguish_between_data_science/</guid>
       <pubDate>Sun, 26 May 2024 03:02:26 GMT</pubDate>
     </item>
@@ -48,39 +62,25 @@
       <pubDate>Sun, 26 May 2024 01:42:02 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能将视频转换为乐谱或合唱乐谱？</title>
+      <title>将视频转换为乐谱或合唱乐谱的人工智能？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0p4hg/ai_for_video_to_sheet_music_score_or_choral_score/</link>
-      <description><![CDATA[您好！ 我想知道是否有人工智能网站或机器人可以转换视频（如音乐视频）和用它们制作乐谱或合唱乐谱？有一些我非常喜欢的音乐视频，但我想“修饰”一下它们。原创供我个人使用。我看到有一些AI地方可以制作一个短“剪辑”从头开始的音乐，但这不是我想要的。   由   提交/u/Suspicious-Bunch3005   reddit.com/r/ArtificialInteligence/comments/1d0p4hg/ai_for_video_to_sheet_music_score_or_choral_score/&quot;&gt;[链接] [评论]]]></description>
+      <description><![CDATA[嗨！ 我想知道是否有 AI 网站或机器人可以转换视频（如音乐视频）并从中制作乐谱或合唱乐谱？有些音乐视频我非常喜欢，但我想“修饰”原版以供我自己使用。我看到有些 AI 地方可以从头开始创建简短的音乐“剪辑”，但这不是我想要的。    提交人    /u/Suspicious-Bunch3005   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0p4hg/ai_for_video_to_sheet_music_score_or_choral_score/</guid>
       <pubDate>Sun, 26 May 2024 00:05:49 GMT</pubDate>
     </item>
     <item>
       <title>我正在为一个项目寻找艺术人工智能</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0lydj/im_looking_for_an_art_ai_for_a_project/</link>
-      <description><![CDATA[我不确定我问的是不是对的地方，如果不对，请见谅。我正在使用 Koikatsu（类似剧院的程序/游戏，用于制作动漫风格的艺术作品）制作 VN 来创作艺术作品，我想知道是否有任何 AI 能够截取我的屏幕截图并制作更“干净”的版本，更像人类制作的版本？提前感谢你的帮助。    提交人    /u/Kayzokun   [link] [评论]]]></description>
+      <description><![CDATA[我不确定我问的地方是否正确，如果不对，抱歉。我正在使用 Koikatsu（像剧院一样制作动漫风格艺术的程序/游戏）来制作 VN 来创作艺术，我想知道是否有任何 AI 能够截取我的屏幕截图并制作更“干净”的版本，等等就像人类制造的一样？提前感谢您的帮助。   由   提交 /u/Kayzokun   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0lydj/im_looking_for_an_art_ai_for_a_project/</guid>
       <pubDate>Sat, 25 May 2024 21:24:54 GMT</pubDate>
     </item>
     <item>
-      <title>帮助！我为企业策划了 100 多个有用的人工智能应用程序和工具。现在我需要你的建议。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0kugq/help_i_curated_over_100_helpful_ai_apps_and_tools/</link>
-      <description><![CDATA[我一直在 https://billionai.co/ai-tools/（请查看并让我知道您的想法）。 我最近添加了第 109 个列表，但现在我已经没有好的列表了，因为很多都是重复的。 你最喜欢的人工智能工具是什么？请分享它们，我一定会将它们添加到列表中。该计划是创建一个精心挑选的应用程序的巨大目录，用户可以在其中浏览、搜索、过滤、添加书签，甚至查看 AI 工具。   由   提交/u/veganbell  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0kugq/help_i_curated_over_100_helpful_ai_apps_and_tools/</guid>
-      <pubDate>Sat, 25 May 2024 20:31:11 GMT</pubDate>
-    </item>
-    <item>
       <title>谷歌的人工智能概述给了你错误的答案</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0ht5z/googles_ai_overview_gives_you_wrong_answers/</link>
-      <description><![CDATA[上周 Google I/O 推出的最重要的新功能之一是 AI 生成的搜索结果摘要。从那时起，用户就在社交媒体上仔细研究和调侃这些 AI 生成的搜索结果摘要，点击此处了解更多信息    提交人    /u/Key_Jellyfish_5881   [链接] [评论]]]></description>
+      <description><![CDATA[Google I/O 上周推出的最重要的新功能之一是 AI 生成的搜索结果摘要。从那时起，用户就开始在社交媒体上仔细审视这些人工智能生成的搜索结果摘要，并开玩笑，在这里阅读更多内容   由   提交/u/Key_Jellyfish_5881   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0ht5z/googles_ai_overview_gives_you_wrong_answers/</guid>
       <pubDate>Sat, 25 May 2024 18:07:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>阿克斯勒的新线性代数做得对吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1d0h5or/axlers_new_linear_algebra_done_right/</link>
-      <description><![CDATA[https://www.quora.com/qemail/tc?al_imp =eyJ0eXBlIjogMzMsICJoYXNoIjogIjEzMDQwMjEwMjc2MzA4NTUzNjd8MXwxfDE0Nzc3NDM3NDQ4ODg0OTAifQ %3D%3D&amp;al_pri=1&amp;aoid=4j6K2MFavpW&amp;aoty=2&amp;aty=4&amp;cp=1&amp;et=2&amp;id=fc99edff3f7249998f1385c28372ffed&amp;q_aid=qSwiBLtQJuH&amp;uid=nAH258ceN4 想法？   由   提交/u/leao_26  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1d0h5or/axlers_new_linear_algebra_done_right/</guid>
-      <pubDate>Sat, 25 May 2024 17:36:11 GMT</pubDate>
     </item>
     <item>
       <title>消息：埃隆·马斯克 (Elon Musk) 的 xAI 计划建造一台超级计算机，连接 100,000 个 GPU，为其下一代人工智能 Grok 提供动力。</title>
@@ -90,7 +90,7 @@
       <pubDate>Sat, 25 May 2024 15:46:41 GMT</pubDate>
     </item>
     <item>
-      <title>我们打败了谷歌……</title>
+      <title>我们打破了谷歌……</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1czupgp/we_broke_google/</link>
       <description><![CDATA[我认为 Reddit 上的许多人都认为 Google 使用 Reddit 来训练其人工智能会如履薄冰……我不认为我们期望他们吃热煤。 他们的人工智能概述告诉人们在披萨中加入胶水，地质学家建议每天吃一块石头。不过，谷歌现在非常擅长恶搞！ 粘披萨和吃石头：谷歌人工智能搜索错误病毒式传播   由   提交/u/FactorHour2173  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1czupgp/we_broke_google/</guid>
@@ -99,7 +99,7 @@
     <item>
       <title>新的反垃圾邮件/机器人规则[请阅读]</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/115jk6q/new_antispam_bot_rules_please_read/</link>
-      <description><![CDATA[我们制定了一条规则，新开通一天的账户或 karma 少于 100 的用户无法发帖。他们可以发表评论，但不能提交实际帖子。这是我们解决机器人垃圾邮件计划的一部分。如有任何不便，敬请谅解。 我们将在接下来的几天内进行民意调查，以了解 subreddit 的总体意愿以及如何改进，这只是一个提醒。 与往常一样，请向我们提供反馈，如果您有兴趣帮助子版块，请联系我。 谢谢大家！    提交人    /u/FHIR_HL7_Integrator   [链接] [评论]]]></description>
+      <description><![CDATA[我们制定了一条规则，新帐户一天以上或 karma 低于 100 的用户不能发帖。他们可以发表评论，但不能提交实际的帖子。这是我们解决机器人垃圾邮件计划的一部分。对于给您带来的任何不便，我们深表歉意。 我们将在接下来的几天内进行一项民意调查，以了解 Reddit 子版块的普遍意愿以及如何改进，请注意。 作为请始终向我们提供反馈，如果您有兴趣帮助该子项目，请与我联系。  谢谢大家！   由   提交 /u/FHIR_HL7_Integrator   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/115jk6q/new_antispam_bot_rules_please_read/</guid>
       <pubDate>Sat, 18 Feb 2023 16:49:55 GMT</pubDate>
     </item>
