@@ -4,100 +4,96 @@
     <title>HN总结</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的顶级黑客新闻故事的自动摘要。</description>
-    <lastBuildDate>Mon, 27 May 2024 03:06:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 06:06:41 GMT</lastBuildDate>
     <item>
-      <title>[媒体]我在旧金山湾区待了相当长的时间，总感觉自己像个外人。</title>
-      <link>https://t.me/hn_summary/91660</link>
-      <description><![CDATA[一位风险投资家走进一家酒吧
-我在旧金山湾区待了很长时间，总觉得自己是个局外人。与其他努力改变世界的人不同，我的重点是确保基础设施的安全。尽管我是局外人，但风险投资家 (VC) 最终还是找到了我，为我提供了大量资金来创办一家安全公司。虽然我受宠若惊，但我知道他们的兴趣更多的是计算风险，而不是真正的欣赏。他们表现出的紧迫感让人觉得不真诚，而且在该地区快速增长的需求下，承诺的资金不会持续很长时间。我的观点不是阻止人们创办信息安全业务或接受风险投资的资金，而是要强调精心策划的追求掩盖了真正的权衡。如需更多见解，请查看置顶评论或浏览我的其他帖子。]]></description>
-      <guid>https://t.me/hn_summary/91660</guid>
-      <pubDate>Mon, 27 May 2024 03:06:06 GMT</pubDate>
+      <title>ELF 目标文件格式被类 UNIX 操作系统广泛采用，有着悠久的历史 [...]</title>
+      <link>https://t.me/hn_summary/91671</link>
+      <description><![CDATA[ELF目标文件格式的演变
+ELF 目标文件格式被类 UNIX 操作系统广泛采用，与 System V ABI 有着悠久的历史。 ELF 最初由 Unix 系统实验室 (USL) 在 20 世纪 80 年代末为 System V Release 4 创建，旨在作为一个开放标准。 TIS 规范和 System V ABI 等关键文档指导了其发展。然而，ABI 的管理权已通过多个实体转移，包括 Novell、The Santa Cruz Operations 和 Xinuos，导致一段时期的停滞和所有权主张的争议。尽管面临这些挑战，ELF 仍然具有影响力，不断进行旨在减少目标文件大小和增强跨系统兼容性的创新。值得注意的是，ELF 规范可以受益于与更广泛的 System V ABI 的分离，以确保更容易访问和最新的参考。]]></description>
+      <guid>https://t.me/hn_summary/91671</guid>
+      <pubDate>Mon, 27 May 2024 06:06:41 GMT</pubDate>
     </item>
     <item>
-      <title>VisualRNG 是一个 Python 项目，旨在使用 DIY 设置生成真正的随机数。</title>
-      <link>https://t.me/hn_summary/91659</link>
-      <description><![CDATA[显示 HN：在家中廉价的高熵随机性&lt; br/&gt;
-VisualRNG 是一个 Python 项目，旨在使用 DIY 设置生成真正的随机数。它利用视频捕获设备（例如网络摄像头）从捕获的帧中产生随机性。该装置包括一个带有 RGB 强度计的麦克风和一个熔岩灯，两者都对熵有贡献。随机性是通过对视频帧进行散列得出的，其中包含来自声音和光变化的不可预测的元素。这种方法确保了廉价且可复制的高质量随机性。该项目的独特之处在于，它结合了多个熵源，即使某些源出现故障，也能增强安全性和可靠性。该项目已获得麻省理工学院的许可。]]></description>
-      <guid>https://t.me/hn_summary/91659</guid>
-      <pubDate>Mon, 27 May 2024 03:05:01 GMT</pubDate>
+      <title>[媒体]xAI 很高兴地宣布我们已成功完成 60 亿美元的 B 轮融资 [...]</title>
+      <link>https://t.me/hn_summary/91670</link>
+      <description><![CDATA[X.ai：6B 轮 B 轮
+xAI 很高兴地宣布成功完成 60 亿美元的 B 轮融资，Valor Equity Partners、Vy Capital、Andreessen Horowitz、红杉资本、Fidelity Management &amp; Research Company 和 Prince Alwaleed Bin Talal&#39;s Kingdom 等知名投资者提供了大量资金保持。自 2023 年 7 月成立以来，从 Grok-1 的推出到 Grok-1.5 和 Grok-1.5V 的最新增强（现在包括图像理解），我们迅速提升了 AI 功能。 Grok-1 的开源版本为进一步创新铺平了道路。这笔资金将帮助我们将首批产品推向市场、建设先进的基础设施并加速研发。我们的使命是开发真实、有能力、对人类有益的人工智能系统，旨在了解宇宙的真实本质。我们正在招聘有才华的人来加入我们的使命；申请x.ai/careers。 ]]></description>
+      <guid>https://t.me/hn_summary/91670</guid>
+      <pubDate>Mon, 27 May 2024 05:54:33 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub 项目“Show HN：按照 API 设计模式生成 Protobuf 和 ts-rest API”[...]</title>
-      <link>https://t.me/hn_summary/91658</link>
-      <description><![CDATA[显示 HN：按照 API 设计模式生成 Protobuf 和 ts-rest API 
-GitHub 项目“Show HN：按照 API 设计模式生成 Protobuf 和 ts-rest API”旨在通过遵循最佳实践设计模式来自动生成标准 Protobuf 和 TypeScript REST API。它受到既定 API 设计原则的启发，并提供了创建一致且结构良好的 API 定义的工具。该项目可以通过 Homebrew 或 Go 安装，支持为书籍和作者等资源生成服务定义，并完成 CRUD 操作和分页。该项目的与众不同之处在于它专注于生成 Protobuf 和 TypeScript REST API，确保一致性并减少手动编码工作。 （根据 75% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/91658</guid>
-      <pubDate>Mon, 27 May 2024 03:04:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Show HN：我的数学谜题模拟</title>
-      <link>https://t.me/hn_summary/91657</link>
-      <description><![CDATA[显示 HN：我的数学谜题模拟
-显示 HN：我的数学谜题模拟
+      <title>[媒体] 受监管的 BGP 安全即将到来吗？</title>
+      <link>https://t.me/hn_summary/91669</link>
+      <description><![CDATA[BGP 安全监管即将到来？
+互联网协会 (ISOC) 对美国联邦通信委员会 (FCC) 关于边界网关协议 (BGP) 安全的草案裁决表示担忧，暗示该裁决暗示了监管 BGP 路由安全的意图。ISOC 和全球网络联盟 (GCA) 反对监管，理由是其他经济体可能会实施不同的战略，这可能会延迟进展、造成竞争紧张和出现分裂风险。尽管存在这些担忧，但 FCC 很可能会继续推进，因为互联网安全至关重要，受到恶意行为者的威胁，对国家运作至关重要。这场辩论凸显了行业自律与政府干预在确保互联网完整性方面的紧张关系。FCC 随后发布的事实说明书概述了美国 ISP/BGP 社区的具体行动，表明将采取更严格的监管措施。 
 
-欢迎来到外星人代数，这是一款独特且具有挑战性的数学益智游戏，托管于 外星人代数.github.io。目标是破译随机生成的涉及具有人工属性的未知操作的关系。这款游戏通过引入既令人惊讶又聪明的元素，突破了传统数学谜题的界限，要求玩家跳出框框思考。解决数学问题的创新方法使其成为益智爱好者的绝佳体验。潜心研究这些外星代数难题，测试你的智慧！]]></description>
-      <guid>https://t.me/hn_summary/91657</guid>
-      <pubDate>Mon, 27 May 2024 03:04:55 GMT</pubDate>
+有争议：FCC 可能对 BGP 安全进行监管。
+令人惊讶：尽管业界通常倾向于自我监管，但 FCC 的立场却很坚定。]]></description>
+      <guid>https://t.me/hn_summary/91669</guid>
+      <pubDate>Mon, 27 May 2024 05:38:20 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]Show HN：您知道网上购物网站如何浪费您的时间和金钱吗？</title>
-      <link>https://t.me/hn_summary/91656</link>
-      <description><![CDATA[Show HN：您知道在线购物网站如何浪费您的时间和时间吗？钱？
-标题：Show HN：您知道在线购物网站如何浪费您的时间和金钱吗？
-网站：books-flcik.vercel.app&lt; br/&gt;
+      <title>问 HN：您尝试过减肥药吗？</title>
+      <link>https://t.me/hn_summary/91668</link>
+      <description><![CDATA[问HN：你尝试过减肥药吗？ 
+标题：问HN：你尝试过减肥药吗？
+网站：news.ycombinator.com
 
-欢迎来到 BooksFlick！踏上文学书页的迷人旅程。通过 BooksFlick 发现引人入胜的故事、探索有趣的事实并拓展您的视野。我们的平台旨在帮助您快速轻松地找到下一篇阅读内容，这样您就可以花更少的时间搜索，花更多的时间阅读！]]></description>
-      <guid>https://t.me/hn_summary/91656</guid>
-      <pubDate>Mon, 27 May 2024 03:04:52 GMT</pubDate>
+我最近观看了《南方公园》的一集，其中讨论了减肥药物，虽然该剧没有采取明确的立场，但似乎有积极的倾向。我对这些药物的真实体验很好奇。谁能分享一下减肥药的实际经验吗？]]></description>
+      <guid>https://t.me/hn_summary/91668</guid>
+      <pubDate>Mon, 27 May 2024 04:50:03 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：apps.apple.com</title>
-      <link>https://t.me/hn_summary/91655</link>
-      <description><![CDATA[Show HN：让准妈妈们更多地了解宝宝何时出生的应用程序即将诞生
-标题：Show HN：让准妈妈们更多地了解宝宝何时出生的应用程序
-网站：apps.apple.com
+      <title>[媒体] 标题：PcTattletale 将受害者的屏幕录音泄露到整个互联网</title>
+      <link>https://t.me/hn_summary/91667</link>
+      <description><![CDATA[PcTattletale 将受害者的屏幕录制内容泄露到整个互联网&lt; br/&gt;
+标题：PcTattletale 将受害者的屏幕录音泄露到整个互联网
 
-开发人员 John R. Bandela 创建了一款应用程序，旨在帮助准妈妈预测宝宝的出生日期。值得注意的是，该应用程序因其强大的隐私实践而脱颖而出，因为它不收集任何用户数据。但是，隐私惯例可能会根据所使用的功能或用户的年龄而有所不同。如需了解更多详细信息，我们鼓励用户查看开发者的隐私政策。在数据收集猖獗的时代，这种对隐私的承诺尤其独特和值得称赞。]]></description>
-      <guid>https://t.me/hn_summary/91655</guid>
-      <pubDate>Mon, 27 May 2024 03:04:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub 项目“Show HN：计算 GitHub Actions 成功率和执行时间”是一个 [...]</title>
-      <link>https://t.me/hn_summary/91654</link>
-      <description><![CDATA[显示 HN：计算 GitHub Actions 成功率和执行时间
-GitHub 项目“Show HN：计算 GitHub Actions 成功率和执行时间”是一个 CLI 扩展，旨在分析 GitHub Actions 工作流程。它计算工作流和作业的成功率和执行时间，提供详细的统计数据，例如平均、中值、最小和最大执行时间。该工具获取工作流程运行和作业步骤，提供对成功、失败和其他结果的洞察。独特的功能包括识别最失败和最耗时的步骤。它支持复合操作和可重用的工作流程。安装是通过 GitHub CLI 进行的，它包括用于 JSON 输出和处理 GitHub Enterprise Server 的选项。 （根据 34% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/91654</guid>
-      <pubDate>Mon, 27 May 2024 03:04:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站：apps.apple.com</title>
-      <link>https://t.me/hn_summary/91653</link>
-      <description><![CDATA[显示 HN：Livity – 免费 Apple 健康翻译器&lt; br/&gt;
-标题：Show HN：Livity – 免费 Apple 健康翻译器
-网站：apps.apple.com
+网站：www.ericdaigle.ca
 
-Livity 提供简洁的设计，并通过将当前健康数据与历史记录进行比较来提供有用的信息。这一功能尤其受到赞赏，并显示出未来发展的巨大潜力。随着时间的推移，Livity甚至可能成为Athlytic的有力竞争对手。]]></description>
-      <guid>https://t.me/hn_summary/91653</guid>
-      <pubDate>Mon, 27 May 2024 03:04:43 GMT</pubDate>
+PcTattletale 是一款基本的跟踪软件应用程序，其 API 存在严重漏洞，任何攻击者都可以从安装该应用程序的任何设备访问最新的屏幕截图。该缺陷与之前发现的 IDOR 漏洞不同，可以轻松从其他设备获取捕获数据。尽管尝试联系 PcTattletale，但问题仍未得到解决。建议用户运行防病毒扫描并咨询反跟踪软件联盟以获得保护。在亚马逊锁定 PcTattletale 的 AWS 基础设施之后，现已提供该漏洞的详细描述。 （根据 79% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/91667</guid>
+      <pubDate>Mon, 27 May 2024 04:48:00 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 欢迎来到 LowKDFinder.com，这里是您发现低竞争关键的终极资源 [...]</title>
-      <link>https://t.me/hn_summary/91652</link>
-      <description><![CDATA[显示 HN：LowKDFinder – 用于低竞争关键词发现的 AI 工具
-欢迎来到 LowKDFinder.com，这是您发现低竞争关键词以提升 SEO 策略的终极资源。我们的平台使用尖端的 AI 技术来分析网站并推荐不仅相关而且更容易排名的关键词。无论您是专业人士还是爱好者，LowKDFinder.com 都可以帮助您增强内容策略、提高搜索引擎可见性并获得竞争优势。只需提交您的网站网址，让我们的高级算法完成工作，然后即可收到针对您的内容量身定制的低竞争关键字列表。立即开始您的有效 SEO 之旅，并通过 LowKDFinder.com 探索利基市场。]]></description>
-      <guid>https://t.me/hn_summary/91652</guid>
-      <pubDate>Mon, 27 May 2024 03:04:41 GMT</pubDate>
+      <title>Jo Nova 报道了涉及 217 年历史的科学出版商 Wiley 的丑闻，该出版商已 [...]</title>
+      <link>https://t.me/hn_summary/91666</link>
+      <description><![CDATA[Wiley 关闭 19 种科学期刊并撤回 11,000 篇官样文章
+Jo Nova 报道了涉及 217 年历史的科学出版商 Wiley 的丑闻，该出版商因大规模研究欺诈而撤回了 11,300 多篇虚假论文，并关闭了 19 种期刊。这些欺诈性论文通常由人工智能生成，其中包括荒谬的错误翻译术语，例如“乳腺癌”变成了“胸部危险”。这一争议凸显了同行评审过程的脆弱性以及对科学机构更广泛的信任危机。学术界的商品化和研究人员发表论文的压力加剧了这个问题。这一丑闻凸显了更严格的监督和真正的科学辩论的必要性。]]></description>
+      <guid>https://t.me/hn_summary/91666</guid>
+      <pubDate>Mon, 27 May 2024 04:32:52 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网址：shaoruu.io</title>
-      <link>https://t.me/hn_summary/91651</link>
-      <description><![CDATA[在我的体素引擎中显示 HN：3D 图像生成管道
-标题：展示 HN：我的体素引擎中的 3D 图像生成管道
-网站：shaoruu.io
-
-我目前在 Anysphere 构建 Cursor。要一睹我的 3D 作品集，请返回桌面！我的旅程始于 2018 年，当时我尝试使用 mc.js 在网络上重新创建 Minecraft，这导致了 Microsoft 的 DMCA 罢工。我没有被吓倒，在接下来的三年里致力于为浏览器开发最好的体素引擎，最终诞生了 Voxelize——最快、最可扩展的基于浏览器的体素引擎。不要错过我展示这项作品的最新视频！]]></description>
-      <guid>https://t.me/hn_summary/91651</guid>
-      <pubDate>Mon, 27 May 2024 03:04:38 GMT</pubDate>
+      <title>[媒体] 20 世纪 70 年代，美国经济经历了许多人忽视的重大转变 [...]</title>
+      <link>https://t.me/hn_summary/91665</link>
+      <description><![CDATA[了解“金融化”以及如何击败它
+20 世纪 70 年代，美国经济经历了一次重大转变，当时许多人都忽视了这一转变。美国企业受到劳工、消费者保护和环保运动日益增长的力量的威胁，采取了现在被称为“金融化”的战略。这一转变使企业从生产商品和服务转向专注于用钱来赚钱。劳工研究所所长 Les Leopold 将其描述为“美国的金融剥削”。金融化优先考虑短期收益和股东价值，往往以牺​​牲产品质量、环境健康和工人权利为代价。这一策略导致了贫富不均和工资停滞。为了解决这一问题，建议加强劳工运动和实施邮政银行，以促进经济可持续性和社会公正，从企业精英手中夺回权力。]]></description>
+      <guid>https://t.me/hn_summary/91665</guid>
+      <pubDate>Mon, 27 May 2024 03:53:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国可重复使用空天飞机于 12 月中旬从酒泉航天中心发射升空，已 [...]</title>
+      <link>https://t.me/hn_summary/91664</link>
+      <description><![CDATA[中国空天飞机：小型卫星部署
+据英国卫星跟踪器鲍勃·克里斯蒂称，中国可重复使用的太空飞机于12月中旬从酒泉航天中心发射升空，最近部署了一颗小卫星。这一事件很可能发生在 5 月 24 日左右，遵循了之前任务中观察到的模式，即释放伴星以进行交会和捕获操作。该航天器已绕地球运行约 165 天。为了获得更多见解，中国太空观察家安德鲁·琼斯在《太空新闻》上详细介绍了此次任务的意义。与此同时，美国太空军利用波音制造的 X-37B 太空飞机执行的 OTV-7 机密任务也在进行中，已于 2023 年 12 月 28 日发射。]]></description>
+      <guid>https://t.me/hn_summary/91664</guid>
+      <pubDate>Mon, 27 May 2024 03:50:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] MSI 公布了其全新 Z790 Project Zero Plus 主板的图片，该主板支持 [...]</title>
+      <link>https://t.me/hn_summary/91663</link>
+      <description><![CDATA[MSI 预告 Z790 Project Zero Plus 主板支持 CAMM2 内存
+MSI 发布了其新款 Z790 Project Zero Plus 主板的图片，该主板支持创新的 DDR5 CAMM2 内存模块。CAMM2 旨在通过解决高速信号和容量限制问题并节省空间来改进 SO-DIMM 外形尺寸。令人惊讶的是，尽管 PC 的空间不像笔记本电脑那样受限，但 MSI 已将这项技术引入台式机主板。Z790 Project Zero Plus 与英特尔第 14 代酷睿处理器兼容，可作为展示新技术的概念验证，包括支持 128 位 DDR5 内存总线的单个 CAMM2 连接器。主板还具有背面电源连接器，以更好地管理电缆。虽然 CAMM2 具有潜在的优势，但其广泛采用仍不确定，尤其是在台式机领域。MSI 将在 Computex 上与金士顿一起展示该平台，金士顿将展示其 Fury Impact CAMM2 内存模块。]]></description>
+      <guid>https://t.me/hn_summary/91663</guid>
+      <pubDate>Mon, 27 May 2024 03:46:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Breaked.digital 上题为“如果你买不起，就不要这样做”的文章强调 [...]</title>
+      <link>https://t.me/hn_summary/91662</link>
+      <description><![CDATA[如果你买不起，就不要做
+breached.digital 上的文章《如果你买不起，就不要做》强调了财务责任和量入为出的重要性。文章认为，为非必需品负债会导致长期的财务压力和压力。作者建议读者优先考虑储蓄和预算，而不是冲动消费。这篇文章直截了当、实用，敦促人们采取有纪律的个人理财方法。文章中没有争议性的内容，但这些建议在当今消费驱动的社会中尤为重要，对许多人来说是一个及时的提醒。]]></description>
+      <guid>https://t.me/hn_summary/91662</guid>
+      <pubDate>Mon, 27 May 2024 03:40:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
