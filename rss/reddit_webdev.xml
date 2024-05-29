@@ -4,7 +4,56 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 29 May 2024 03:16:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 09:16:38 GMT</lastBuildDate>
+    <item>
+      <title>学习 Web 开发！愿意帮助你。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d3722k/learning_web_dev_willing_to_help_you/</link>
+      <description><![CDATA[你好，我是 Kaizing。 我学习编程和 Web 开发已经有一段时间了。我想参与一些项目。我不是在寻求什么，而是愿意免费提供自己作为开发人员来获得经验和动力。 继续下去。这是我的 discord。devks    提交人    /u/kaizing   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d3722k/learning_web_dev_willing_to_help_you/</guid>
+      <pubDate>Wed, 29 May 2024 08:15:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>尝试初始化 TinaCMS</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d366jx/trying_to_initialize_tinacms/</link>
+      <description><![CDATA[尝试运行此命令时，我不断收到此错误：npx @tinacms/cli@latest init 我正在按照本教程操作：text 错误 我已经完成以下操作，但这些都不起作用：  重新安装 Node 模块 删除了 node 模块目录 清除了 npm 缓存 使用 Yarn 尝试安装 TinaCMS（这也不起作用） 尝试删除 C:\Users（您的用户名）\AppData\Roaming 中的 npm 文件夹  如果有人有这方面的经验，并且知道解决方案，请告诉我。    提交人    /u/Ellimmmm   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d366jx/trying_to_initialize_tinacms/</guid>
+      <pubDate>Wed, 29 May 2024 07:13:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于 PHP 路由策略的思考</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d360hb/thoughts_on_php_routing_strategies/</link>
+      <description><![CDATA[        提交人    /u/pyeri   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d360hb/thoughts_on_php_routing_strategies/</guid>
+      <pubDate>Wed, 29 May 2024 07:01:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求对投资组合网站上的 LLM 机器人的反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d35cso/seeking_feedback_for_a_llm_bot_on_portfolio/</link>
+      <description><![CDATA[大家好， 我最近在我的投资组合中添加了一个机器人，旨在回答有关我、我的技能和我的项目的问题。 链接：Tars Bot 该机器人旨在让访问者更容易快速找到他们需要的信息。 我很好奇：  这个功能有用吗？ 您会建议哪些改进或附加功能？  非常感谢您的反馈！ 提前谢谢！    提交人    /u/vivek9patel   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d35cso/seeking_feedback_for_a_llm_bot_on_portfolio/</guid>
+      <pubDate>Wed, 29 May 2024 06:14:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>为 SMBS 创建网站的建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d34ox3/advice_for_creating_websites_for_smbs/</link>
+      <description><![CDATA[我想尝试赚点零花钱。我计划创建一个网站，发送给本地企业（建筑商、托儿所、小商店等），并为他们创建一个静态网站，每月只需支付少量费用。  有没有人做过这件事，能给点建议？我在设计方面很纠结，所以不确定如何将愿景变成现实 :) TIA    提交人    /u/13aoul   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d34ox3/advice_for_creating_websites_for_smbs/</guid>
+      <pubDate>Wed, 29 May 2024 05:29:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在不使用 Sagemaker 的情况下免费部署 llama2 或 BERT 等 llms？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d349ht/how_can_i_deploy_llms_such_as_llama2_or_bert/</link>
+      <description><![CDATA[免责声明：初学者尝试构建项目以获得工作机会 我正在为我的个人项目构建 API，我需要以下功能：  文本摘要 图像生成（不是很重要） 用户可以根据自己的需要自定义文本摘要  该网站只是一个具有摘要和自定义报告生成的新闻聚合器。 这个网站将包含我迄今为止学到的所有内容，甚至更多，它将是一个展示我所有技能的一体化项目。  已完成：后端（Django）待定：前端（基于 React） 阻止程序：1. 除了 Sagemaker 之外，还有什么服务可以让我部署多个 llm 模型，如 llama2 或 BERT？ 2. 对于 ETL 管道和报告生成等计划任务，我应该完全依赖 cronjobs 还是应该使用 django 来完成工作？ 3. 对于这个项目，我应该专注于减少服务器端的负载，还是忽略它，因为这只是一个展示我技能的小项目？ 4. 我可以添加哪些框架来将其提升到一个新的水平？我知道这是一个简单的网站。  谢谢！    提交人    /u/ClientGlittering4695   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d349ht/how_can_i_deploy_llms_such_as_llama2_or_bert/</guid>
+      <pubDate>Wed, 29 May 2024 05:01:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何保存和导出我制作的浏览器动画</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d32pji/how_do_i_save_and_export_browser_animations_ive/</link>
+      <description><![CDATA[正如标题所说，我在浏览器中制作了一些动态图形，并希望将它们保存为 gif、mp4 等 我一直在寻找答案，但一无所获。有人有解决方案吗？    提交人    /u/Familiar_Focus3508   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d32pji/how_do_i_save_and_export_browser_animations_ive/</guid>
+      <pubDate>Wed, 29 May 2024 03:30:32 GMT</pubDate>
+    </item>
     <item>
       <title>很值得吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1d32fht/sizzy_worth_it/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[大家好， 我正在做一个项目，需要为托管在 AWS S3 上并通过 CloudFront 提供的图像创建付费墙。目标是如果用户没有付费，则显示模糊版本的图像，而向已付费的用户提供清晰的原始图像。 我有一些 AWS 经验，但我并不完全确定实现此目的的最佳方法。以下是我有几个具体的问题：  根据用户的付款状态在模糊和清晰图像之间动态切换的最佳方法是什么？ 是否有推荐的做法将两个版本的图像存储在 S3 上？ 如何利用 CloudFront 来处理提供正确图像版本的逻辑？ 我是否应该考虑使用 Lambda@Edge 或其他 AWS 服务来管理付费墙逻辑？ 使用此设置时我应该注意任何潜在的安全问题吗？  非常感谢任何建议、资源或示例！ 非常感谢！     提交人    /u/jeangilles78   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d2vilx/how_to_create_a_paywall_for_images_on_s3_and/</guid>
       <pubDate>Tue, 28 May 2024 21:44:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>部署个人页面</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d2v27a/deploying_a_personal_page/</link>
-      <description><![CDATA[我正在尝试部署一个我一直在处理的网页。有人向我推荐了 Vercel，但是我在部署页面时一直收到“404 Not_Found”错误。如果有人介意检查我做错了什么，我可以从 github 链接到我的存储库。除此之外，我只是在寻求友好的建议，因为我正在这些水域中航行 TIA https://github.com/oleoresin/PROFILE    提交人    /u/FrontInternational85   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d2v27a/deploying_a_personal_page/</guid>
-      <pubDate>Tue, 28 May 2024 21:25:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何让网站实时更新？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d2uvht/how_to_make_site_update_live/</link>
-      <description><![CDATA[我想让我当前的网站使用 php 作为后端，当数据库中出现新行时自动更新网站    提交人    /u/Greeniousity   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d2uvht/how_to_make_site_update_live/</guid>
-      <pubDate>Tue, 28 May 2024 21:17:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>我发布了我的第一个网站，一个交互式预算应用程序！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d2usq2/i_published_my_first_website_an_interactive/</link>
-      <description><![CDATA[大家好！我一直在开发一个名为 budgetflow.cc 的网站，该网站可帮助您使用桑基流程图管理预算。其理念是使预算更加直观和互动，并允许您与其他人共享预算，如果您有伴侣或住在合租公寓中，这将非常方便。另一个实用的功能是，您可以设置节点以将多余的现金发送到其他节点或从其他节点接手缺失的任务。 这是我的第一个全栈开发项目，所以我知道它还远远不够完美。它处于 alpha/beta 阶段，所以我很想听听您的反馈。如果您想查看并试用它，您可以在 budgetflow.cc 上找到它。任何想法或建议都将非常有帮助！    提交人    /u/M8Ir88outOf8   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d2usq2/i_published_my_first_website_an_interactive/</guid>
-      <pubDate>Tue, 28 May 2024 21:14:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>有谷歌地图 API 或 MapBox 经验的人能告诉我它是什么样的吗？是不是只需要学习 API，还是除了 API 之外，还有其他值得熟悉的数学或概念？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d2u36c/can_someone_with_google_maps_api_or_mapbox/</link>
-      <description><![CDATA[我正在面试一份使用 MapBox 的前端工作。我对地图非常痴迷，而这实际上是一份关于我制作实际产品的梦想工作（对于一个最喜欢的游戏是 geoguessr 的人来说，这对我来说就像是做游戏开发一样）。我很好奇是否有任何特定的数据结构、算法、数学或其他东西是从事这些工作的人需要熟悉的。我一直认为图形和矩阵/数组很重要，但后来我认为 API 肯定会处理所有的三角函数、坐标和东西。如果这有挑战性，那就太好了，因为这就像是在学校上我最喜欢的课程一样。 有人告诉我，在就业之前不会期望有实际的 API 经验，所以我不需要教程或文档，而是想知道是否有任何有用的外部知识可以派上用场。我再次喜欢地图，我真的想知道如果我能使用它们会是什么样子。 谢谢任何答案。    提交人    /u/BobbyTables829   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d2u36c/can_someone_with_google_maps_api_or_mapbox/</guid>
-      <pubDate>Tue, 28 May 2024 20:46:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>您能否推荐一些负责评论、项目等的优秀开发内容创建者？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d2tjkr/can_u_suggest_good_dev_content_creators_who_do/</link>
-      <description><![CDATA[我真的很想让自己被开发内容所包围，所以我很想收到一个你认为值得关注的好内容创建者，提前感谢     提交人    /u/Professional_One3573   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d2tjkr/can_u_suggest_good_dev_content_creators_who_do/</guid>
-      <pubDate>Tue, 28 May 2024 20:24:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何构建它？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d2t6vq/how_to_build_this/</link>
-      <description><![CDATA[嗨！ 我是一名初级 Web 开发人员，我为 cms 开发 React 组件。 我想接受挑战，为一位在线教练/私人教练朋友构建一个平台。 这将是一个网站，他的客户每周登录并输入一次他们的数据。也许可以访问一些教学视频和锻炼计划。 教练可以访问仪表板，在那里他可以添加和管理新客户。就是这样。 我想使用 next js 我不太熟悉 React 生态系统，因此任何关于使用资源的建议或其他见解都将非常棒。 谢谢！    提交人    /u/ThusWhatnot   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d2t6vq/how_to_build_this/</guid>
-      <pubDate>Tue, 28 May 2024 20:11:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源项目所见即所得编辑器 Yoopta</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d2syjy/opensource_project_wysiwyg_editor_yoopta/</link>
-      <description><![CDATA[大家好👋 我想介绍我的开源项目Yoopta-Editor，并想请大家给我一些反馈。它具有丰富的功能，可让您构建与 Notion、Craft、Coda、Medium 等一样强大且用户友好的编辑器。 请随意使用，它遵循 MIT 许可证！ 查看下面的功能和示例。 示例 - https://yoopta-editor.vercel.app 功能：  轻松设置 强大插件的默认列表 解决了许多典型的 UX 行为问题。 具有优化和延迟加载功能的媒体插件 具有主题和语言功能的类固醇代码插件 每个插件都可以轻松定制和扩展 还支持拖放和嵌套 dnd 用于同时操作多个块的选择框一次 您可以创建自己的插件 方便使用编辑器的有用工具列表（ActionMenu、Toolbar 等） 媒体组件的自动延迟加载（例如嵌入） 大型文档 适合移动设备 通过 tab 和 shift+tabs 为每个插件缩进和缩小 编辑器实例以编程方式控制您的内容 用于实时保存到数据库的编辑器事件 以 markdown、纯文本、html 格式导出 - [进行中。当前仅提供 HTML 导出] 快捷方式、热键。以及对此的自定义！ 超级 AI 工具不是为了炒作，而是为了与编辑器内容进行真正有用的工作 - [进行中]     提交人    /u/Darginec05   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d2syjy/opensource_project_wysiwyg_editor_yoopta/</guid>
-      <pubDate>Tue, 28 May 2024 20:02:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
