@@ -4,102 +4,94 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Thu, 30 May 2024 12:12:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2024 15:04:54 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 在“KeePassXC 的争吵”中，乔·布罗克迈尔讨论了围绕 Deb [...] 的争议。</title>
-      <link>https://t.me/hn_summary/92211</link>
-      <description><![CDATA[KeePassXC 的争吵
-在“KeePassXC 的争吵”中，Joe Brockmeier 讨论了围绕 Debian 开发人员 Julian Klode 决定在即将发布的 Debian 13（“Trixie”）中禁用 KeePassXC 密码管理器中的某些功能的争议。Klode 通过关闭网络和进程间通信 (IPC) 功能来增强安全性的举动引发了用户和 KeePassXC 项目团队的强烈反对。批评者认为，浏览器集成和硬件密钥支持等基本功能被不公正地删除。Klode 为他的决定辩护，称 XZ 后门事件引发了安全问题。这场辩论凸显了在开源软件中平衡安全性和功能性的不同观点。争议迅速升级，引起了社区的强烈关注和批评。]]></description>
-      <guid>https://t.me/hn_summary/92211</guid>
-      <pubDate>Thu, 30 May 2024 12:12:48 GMT</pubDate>
+      <title>[媒体] C 语言中的递归包含不仅是可能的，而且在某些情况下也很有用，例如 [...]</title>
+      <link>https://t.me/hn_summary/92233</link>
+      <description><![CDATA[包含 __FILE__：在 C 中包含递归是可行的并且很有用
+在 C 中递归包含不仅可行，而且在某些情况下也很有用，例如小片段的代码展开。通过定义宏（如 DO_BOUND、DO_BODY 和十六进制循环计数器 DO_I），您可以递归包含文件以生成代码。例如，使用此技术可以简化初始化数组或声明枚举类型。递归由包含文件“do-incr.c”控制，该文件管理循环计数器。此方法利用 C 预处理器动态评估 #include 行的能力。请注意，GCC 规定了默认包含深度限制为 200，可以使用 -fmax-include-depth 选项进行调整。这种方法很巧妙，但需要小心处理才能确保循环计数器正确更新。]]></description>
+      <guid>https://t.me/hn_summary/92233</guid>
+      <pubDate>Thu, 30 May 2024 15:04:54 GMT</pubDate>
     </item>
     <item>
-      <title>hyperpolyglot.org 的这份参考表提供了 Prolog、Erla [...] 的并排比较。</title>
-      <link>https://t.me/hn_summary/92210</link>
-      <description><![CDATA[(逻辑) Prolog、Erlang、Elixir 并排参考表
-来自 hyperpolyglot.org 的此参考表并排比较了 Prolog、Erlang 和 Elixir，重点关注版本命令、语法、调用和句法等各个方面。它包括“Hello, World!”程序、编译器行为、REPL 使用和变量赋值等示例。该表突出显示了条件表达式、算术运算、字符串处理等方面的差异。值得注意的是，它展示了每种语言如何处理位运算符和随机数生成等独特功能。比较直截了当且技术性很强，针对的是熟悉这些语言的开发人员。没有争议点，但语法和功能的详细对比特别有用和巧妙。（基于 32% 的故事文本总结。）]]></description>
-      <guid>https://t.me/hn_summary/92210</guid>
-      <pubDate>Thu, 30 May 2024 12:12:41 GMT</pubDate>
+      <title>[媒体] 随着太空时代的到来，科学家们正在努力解决月球上计时的复杂性[...]</title>
+      <link>https://t.me/hn_summary/92232</link>
+      <description><![CDATA[为什么科学家说我们需要向月球发送时钟
+随着包括 NASA 在内的航天机构计划在月球上建立永久定居点，科学家们正在努力解决月球计时的复杂性。由于重力差异，月球上的时间比地球上的时间稍快，因此需要一个新的“时间尺度”而不仅仅是一个时区。这个新系统必须得到国际认可，对于月球导航和通信至关重要。白宫已指示 NASA 在 2026 年底前开发该系统。高精度原子钟可能会发挥关键作用，尽管它们的高成本和同步需求带来了挑战。这一努力强调了爱因斯坦相对论所解释的重力和时间之间的复杂关系。 （根据 78% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/92232</guid>
+      <pubDate>Thu, 30 May 2024 15:01:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 亚马逊计划在 Susquehanna S [...] 附近开发一个大型数据中心园区。</title>
+      <link>https://t.me/hn_summary/92231</link>
+      <description><![CDATA[亚马逊计划在宾夕法尼亚州核电站旁建造大型数据中心
+亚马逊计划在宾夕法尼亚州塞勒姆镇的 Susquehanna 蒸汽电站 (SSES) 核电站旁建造一个大型数据中心园区。塞勒姆镇监事一致投票决定为此重新规划近 1,600 英亩的土地。亚马逊计划在未来十年内建造 15 座数据中心大楼，利用 Talen Energy 的 SSES 核能。重新规划的土地以前是农业用地，位于 Susquehanna 核电站和 Caithness Moxie Freedom 天然气厂之间。一些当地业主拒绝了亚马逊的收购要约，聘请了律师来协商更好的条款。居民们还对核电站退役后数据中心的未来表示担忧，反应堆计划于 2042 年和 2044 年关闭，但可能会延长。亚马逊在地方经济振兴税收援助 (LERTA) 计划下获得了 10 年 70% 的税收减免。该项目包括与 Talen Energy 签订的电力购买协议 (PPA)，但不包括 Talen 的 Nautilus 加密数据中心。]]></description>
+      <guid>https://t.me/hn_summary/92231</guid>
+      <pubDate>Thu, 30 May 2024 14:49:22 GMT</pubDate>
     </item>
     <item>
       <title>[媒体] 网站：apps.apple.com</title>
-      <link>https://t.me/hn_summary/92209</link>
-      <description><![CDATA[显示 HN：MathActive – 快速解数学方程式以占据排行榜首位
-标题：显示 HN：MathActive – 快速解数学方程式以占据排行榜首位
+      <link>https://t.me/hn_summary/92230</link>
+      <description><![CDATA[在 iOS 和 Mac 上显示 HN：日历和提醒 –&gt; 关键字过滤器 –&gt; 精美小部件
+标题：在 iOS 和 Mac 上显示 HN：日历和提醒 –&gt; 关键字过滤器 –&gt; 精美小部件
 网站：apps.apple.com
 
-MathActive 的开发者 Gary Lee 创建了一款引人入胜的应用程序，挑战用户快速解数学方程式以攀升排行榜。该应用程序的隐私惯例（如开发者的隐私政策中所述）表明，它可能以各种方式处理数据。具体而言，用于在不同应用和网站上跟踪用户的数据包括位置、标识符和使用情况数据。此外，购买、标识符和诊断数据也可能会被收集，但不会与用户身份相关联。隐私保护措施可能因所使用的功能或用户的年龄而异。]]></description>
-      <guid>https://t.me/hn_summary/92209</guid>
-      <pubDate>Thu, 30 May 2024 12:09:33 GMT</pubDate>
+开发人员 Armin Schoepf 推出了一款新应用，该应用通过关键字过滤器和适用于 iOS 和 Mac 的简洁小部件增强了日历和提醒功能。值得注意的是，该应用以其强大的隐私保护措施脱颖而出，因为它不会收集任何用户数据。开发人员的隐私政策强调了对隐私的承诺。但是，用户应注意，隐私保护措施可能会因使用的功能或用户年龄而异。如需更多详细信息，建议用户查看开发者的隐私政策。]]></description>
+      <guid>https://t.me/hn_summary/92230</guid>
+      <pubDate>Thu, 30 May 2024 14:41:07 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Fusion 是一款轻量级、自托管的 RSS 聚合器和阅读器，专为微型 VPS 而设计 [...]</title>
-      <link>https://t.me/hn_summary/92208</link>
-      <description><![CDATA[显示 HN：我构建了一个适用于 tiny-VPS 的 RSS 聚合器和阅读器
-Fusion 是一款轻量级、自托管的 RSS 聚合器和阅读器，专为 tiny-VPS 环境而设计。它支持 RSS、Atom 和 JSON 源类型，并提供分组、书签、搜索、自动源嗅探和 OPML 文件导入/导出等功能。Fusion 使用 Golang 和 SQLite 构建，可以使用单个二进制文件或预构建的 Docker 映像进行部署，以大约 70MB 的内存高效运行。该项目以其响应式设计、明暗模式和 PWA 功能脱颖而出。安装非常简单，可以选择使用 Docker、预构建的二进制文件或从源代码构建。前端使用 Sveltekit 和 shadcn-svelte 开发，后端使用 Echo 和 GORM，并由 gofeed 处理 feed 解析。]]></description>
-      <guid>https://t.me/hn_summary/92208</guid>
-      <pubDate>Thu, 30 May 2024 12:08:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站：sbcl.org</title>
-      <link>https://t.me/hn_summary/92207</link>
-      <description><![CDATA[SBCL：2.4.5 版中的新增功能
-标题：SBCL：2.4.5 版中的新增功能
-网站：sbcl.org
+      <title>[媒体] 这个名为“Mastodon 上的学术界”的资料库提供了精选的综合性资料 [...]</title>
+      <link>https://t.me/hn_summary/92229</link>
+      <description><![CDATA[Mastodon 上的学术界
 
-SBCL 在每个月末发布新版本，并在 Sourceforge 上列出更新。2024 年 5 月 30 日发布的 2.4.5 版引入了几项更改。值得注意的是，现在通过值传递或返回外来结构会发出错误信号，以防止寄存器或内存损坏，这与以前的静默故障相比有显著变化。函数调试信息压缩现在需要 libzstd，并且编译器针对错误输入的 FORMAT 指令发出更多警告。特定于平台的更新包括对 OpenBSD、Windows 和 Darwin 的改进支持。增强功能和错误修复解决了死锁、内存初始化和编译器警告等问题，而优化则提高了 arm64 和 x86-64 架构上的性能。
+这个存储库“Mastodon 上的学术界”提供了 Mastodon 上按学科组织的学术账户精选列表的综合集合。这些列表是可选的，确保隐私和同意，并由各种贡献者维护。用户可以通过拉取请求提出新列表。该存储库还包括官方大学账户、学术团体、预印本/参考书目机器人以及针对特定学术领域量身定制的服务器/社区。此外，它还提供用于浏览更广泛的 Fediverse 的资源，包括 Lemmy/Kbin 和 Matrix 服务器。欢迎贡献，但沟通应保持在 GitHub 内以有效管理工作流程。内容根据 CC BY-NC 4.0 International 获得许可。 
 
-有争议的变化：关于按值外来结构的不兼容更改可能会破坏依赖于以前行为的现有代码库。
+争议：确保所有列表都遵守选择加入原则对于维护隐私和同意至关重要。
 
-独特/巧妙的功能：针对 arm64 和 x86-64 上更快的大数加法和否定的优化对于性能关键型应用程序来说是一个显着的改进。（基于 2% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/92207</guid>
-      <pubDate>Thu, 30 May 2024 12:05:19 GMT</pubDate>
+独特/巧妙：存储库的结构鼓励社区通过拉取请求和问题报告进行参与和自我管理。]]></description>
+      <guid>https://t.me/hn_summary/92229</guid>
+      <pubDate>Thu, 30 May 2024 14:41:02 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 乌尔苏拉·勒古恩（Ursula Le Guin）因其对科幻小说的深刻贡献而闻名，她在科幻小说中扮演了 [...]</title>
-      <link>https://t.me/hn_summary/92206</link>
-      <description><![CDATA[乌尔苏拉·勒古恩：我们应该感谢她让薛定谔的猫流行起来
-乌尔苏拉·勒古恩因其对科幻小说的深远贡献而闻名，她在推广薛定谔的猫概念方面发挥了关键作用。这个思想实验最初由物理学家埃尔温·薛定谔设计，说明了量子力学的悖论。勒古恩富有想象力的讲故事方式将这个复杂的想法带入主流，让更广泛的受众能够理解。她的作品不仅娱乐了读者，还让读者了解了复杂的科学原理。这种独特的科学与小说的融合凸显了她对文学和科学教育的持久影响。值得注意的是，她将科学概念编织成引人入胜的故事的能力仍然无与伦比。]]></description>
-      <guid>https://t.me/hn_summary/92206</guid>
-      <pubDate>Thu, 30 May 2024 11:35:44 GMT</pubDate>
+      <title>[媒体] 在 WWDC 上，苹果将在 iOS 18 和其他操作系统中披露其 AI 战略 [...]</title>
+      <link>https://t.me/hn_summary/92228</link>
+      <description><![CDATA[Apple 的 AI 服务器使用“机密计算”技术来保护隐私
+在 WWDC 上，Apple 将在 iOS 18 和其他操作系统更新中公布其 AI 战略。Apple 计划混合使用设备和服务器处理，鉴于其长期以来的设备数据处理立场，这引发了隐私问题。据 The Information 报道，Apple 旨在通过“机密计算”技术解决这些问题，即使在服务器处理期间也能让数据保持私密。这涉及升级 Secure Enclave 设计以实现安全的“黑盒处理”。虽然如果黑客获得对服务器的物理访问权，可能会存在潜在的漏洞，但这种方法被认为比竞争对手更安全。有趣的是，这一举措早于 AI 热潮，并且至少持续发展了三年。未来的应用可能包括将处理转移到 Apple 后端的轻量级可穿戴设备。不过，在多用户请求的情况下如何保持安全性以及 Apple Silicon 云计算的规模仍不清楚。更多细节敬请期待 6 月 10 日 Apple 的 WWDC 大会。]]></description>
+      <guid>https://t.me/hn_summary/92228</guid>
+      <pubDate>Thu, 30 May 2024 14:39:56 GMT</pubDate>
     </item>
     <item>
-      <title>在一次重要的军事合作展示中，乌克兰的 F-16 战机护送泽连斯基总统 [...]</title>
-      <link>https://t.me/hn_summary/92205</link>
-      <description><![CDATA[在比利时，泽连斯基的飞机由乌克兰 F-16 护航
-2024 年 5 月 28 日，乌克兰 F-16 战机在泽连斯基总统访问布鲁塞尔期间护航，这是双方军事合作的重要体现。泽连斯基在 F-16 基地会见了比利时国防部长德东德和首相德克罗，他们在那里观察了飞机，并与乌克兰飞行员和比利时教官进行了互动。比利时承诺迅速交付 30 架 F-16，可能在 2024 年春末或夏初交付。丹麦、荷兰和挪威等其他国家也承诺提供飞机，但交付时间各不相同。值得注意的是，立陶宛承诺提供一架多功能喷气式训练机 L-39ZA。首批乌克兰飞行员已完成 F-16 训练，预计很快将投入使用。文章中还附有一段视频，展示了乌克兰人驾驶的 F-16。在 Google 新闻上关注 Army Recognition 可获取更多更新。]]></description>
-      <guid>https://t.me/hn_summary/92205</guid>
-      <pubDate>Thu, 30 May 2024 11:22:29 GMT</pubDate>
+      <title>问 HN：我们如何开源已有 7 年历史的 SaaS 代码库并建立一个社区？</title>
+      <link>https://t.me/hn_summary/92227</link>
+      <description><![CDATA[问 HN：我们如何开源 7 年前的 SaaS 代码库并建立社区？
+你好 HN！我们很高兴地宣布，我们将开源我们的核心代码（后端和前端），并将重点转移到通过 LLM 增加价值。我是 Kirill Markin，与我的联合创始人 Nikolay Amiantov 一起，我们从 2017 年开始开发我们的 CRM/ERP 产品。尽管有付费客户，但我们的增长一直很慢，我们渴望创造更大、更有影响力的东西。我们的代码库包括 38k LoC 的 F# 和 35k LoC 的 TypeScript + Vue.js。我们收到了来自 Zoho 和 ODOO 集成商/开发人员的积极反馈，但我们正在寻求有关如何在 GitHub 上有效启动我们的代码库并围绕它建立一个充满活力的社区的建议。任何关于最大限度地提高知名度、组织工作或社区建设的建议都将不胜感激。]]></description>
+      <guid>https://t.me/hn_summary/92227</guid>
+      <pubDate>Thu, 30 May 2024 14:39:49 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 里斯本曾经是一座充满浪漫魅力和历史魅力的城市，现在正面临着 [...]</title>
-      <link>https://t.me/hn_summary/92204</link>
-      <description><![CDATA[里斯本，一座因自身成功而走向衰亡的城市
-里斯本曾经是一座充满浪漫魅力和历史魅力的城市，现在却在努力应对自身成功所带来的后果。嘟嘟车已成为这座城市的新象征，在挤满游客的熙熙攘攘的街道上取代了标志性的有轨电车。这种涌入导致了严重的中产阶级化，60% 的房屋现在用作旅游公寓，自 2013 年以来人口下降了 30%。备受争议的克里斯塔斯法案放宽了租金，导致大规模驱逐并将当地人推向边缘。尽管努力遏制这一趋势，但里斯本的文化和社区生活正在逐渐消亡，取而代之的是国际品牌和纪念品商店。这座城市有可能成为外国人的游乐园，失去其真实的本质。]]></description>
-      <guid>https://t.me/hn_summary/92204</guid>
-      <pubDate>Thu, 30 May 2024 11:16:17 GMT</pubDate>
+      <title>[媒体] 介绍 PairUp，一个旨在帮助您与志同道合的个人建立联系的平台 [...]</title>
+      <link>https://t.me/hn_summary/92226</link>
+      <description><![CDATA[向 HN 展示：结识新朋友，就您真正感兴趣的话题进行更多对话
+PairUp 平台旨在帮助您与志同道合的人建立联系，并就您的真正兴趣进行有意义的对话。无论是您关注的帐户、您加入的社区、您喜爱的书籍、电影或播客，还是您支持的事业，PairUp 都可以让您将生活的所有这些方面联系起来。这种独特的方法可确保您结识与您有共同激情和价值观的人，从而促进更深入、更具吸引力的互动。立即加入 PairUp 并开始建立重要的联系。]]></description>
+      <guid>https://t.me/hn_summary/92226</guid>
+      <pubDate>Thu, 30 May 2024 14:35:39 GMT</pubDate>
     </item>
     <item>
-      <title>几年来，我一直使用 pipx 安装各种 Python 程序，每个程序都在自己的 vi [...]</title>
-      <link>https://t.me/hn_summary/92203</link>
-      <description><![CDATA[PyPy 已经为我工作了好几年了
-好几年来，我一直使用 pipx 安装各种 Python 程序，每个程序都在自己的虚拟环境中，从而简化了我们 Ubuntu 服务器上的管理。出于各种原因，我选择了自己的 PyPy 版本，而不是 Ubuntu 的 CPython。最近，在设置我们的第一台云服务器时，我安装了云提供商的 CLI 工具，这是一个在 PyPi 上可用的具有复杂依赖关系的 Python 包。使用“pipx install”，我后来才意识到它在 PyPy 下运行得很顺利。令人惊讶的是，通过 pipx 在我们的服务器上安装的所有内容都使用 PyPy，并且运行完美。这证明了 PyPy 作为 CPython 替代品的成功，通常速度更快，并且可以无缝集成到我的工作流程中。]]></description>
-      <guid>https://t.me/hn_summary/92203</guid>
-      <pubDate>Thu, 30 May 2024 11:11:08 GMT</pubDate>
+      <title>[媒体]据报道，苹果正在为 Android 手机开发一款 TV+ 应用，这标志着苹果在手机领域的一次重大扩张 [...]</title>
+      <link>https://t.me/hn_summary/92225</link>
+      <description><![CDATA[苹果暗示正在开发适用于 Android 手机的 TV+ 应用
+据报道，苹果正在开发适用于 Android 手机的 TV+ 应用，标志着其流媒体服务在其自身生态系统之外的重大扩展。此举可能会增加 Apple TV+ 的用户群，使其可供数百万 Android 用户使用。考虑到苹果历来倾向于将其服务保留在自己的硬件环境中，这一决定有些令人惊讶。这一转变表明，苹果的战略重点是优先考虑服务增长而不是硬件独占性。这一发展似乎没有争议，但它确实凸显了苹果对其服务产品不断演变的方法。]]></description>
+      <guid>https://t.me/hn_summary/92225</guid>
+      <pubDate>Thu, 30 May 2024 14:32:32 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 标题：加拿大为何常年遭受野火袭击</title>
-      <link>https://t.me/hn_summary/92202</link>
-      <description><![CDATA[为什么加拿大全年都充斥着野火
-标题：为什么加拿大全年都充斥着野火
-
-加拿大的野火季节变得越来越严重，即使在严酷的冬季，“僵尸火”也在地下闷烧。这些火灾在春季重新燃起，摧毁了包括不列颠哥伦比亚省纳尔逊堡在内的广大地区。富含泥炭的北方地区尤其容易受到影响。迈克·弗兰尼根和吉列尔莫·雷因等研究人员强调了干泥炭在维持这些火灾方面的作用。令人惊讶的是，即使是最小的泥炭层也会滋生僵尸火，导致更高的排放和长期的生态破坏。扑灭这些火灾的努力包括先进的红外扫描和水抑制技术，但减少气候变暖排放仍然至关重要。
-
-有争议：文章表明气候变化正在加剧野火形势，这可能是一个争论点。
-
-令人惊讶的是：僵尸火不仅可以在泥炭中过冬，还可以在木质碎片或树干和树根中过冬。]]></description>
-      <guid>https://t.me/hn_summary/92202</guid>
-      <pubDate>Thu, 30 May 2024 10:48:44 GMT</pubDate>
+      <title>我运营软件读书俱乐部已有大约一年的时间，涵盖的书籍包括《设计数据输入 [...]</title>
+      <link>https://t.me/hn_summary/92224</link>
+      <description><![CDATA[我如何运营软件读书俱乐部
+我运营软件读书俱乐部已有大约一年时间，涉及的主题包括设计数据密集型应用程序、数据库内部、系统性能，现在又涉及了解软件动态。最初，我们的讨论是在纽约面对面进行的，但现在是虚拟的，有数百名参与者。本指南适用于任何有兴趣创办自己的读书俱乐部的人。关键是尽量减少努力，主要是选择和确认讨论领导者。我们使用 Google 群组进行基于电子邮件的讨论，领导者用他们的想法开始讨论。避免长篇大论；专注于吸引人的要点。每个读书俱乐部持续大约三个月，以避免长期承诺。令人惊讶的是，与外部读书俱乐部不同，公司内部读书俱乐部往往举步维艰。欢迎加入我的俱乐部或者创建您自己的俱乐部！]]></description>
+      <guid>https://t.me/hn_summary/92224</guid>
+      <pubDate>Thu, 30 May 2024 14:14:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
