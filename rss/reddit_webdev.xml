@@ -3,8 +3,29 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Fri, 31 May 2024 03:15:36 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Fri, 31 May 2024 06:19:44 GMT</lastBuildDate>
+    <item>
+      <title>嗨！作为自由职业者，我有一些问题。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d4oggv/hi_i_have_some_questions_as_a_freelancer/</link>
+      <description><![CDATA[事实证明，我一直想开始从事自由网页开发人员的工作，但有些疑虑阻碍了我。我将在下面列出它们：  如果我将网站出售给客户并托管它，由于托管是按月收费的，我该如何控制付款？客户是否也必须每月向我付款？ 接着上一个问题，我应该使用自己的帐户托管，还是需要为客户创建专用的 Gmail 帐户并将其移交给他们以便他们访问？ 如果我出售一个网站并且客户想要进行简单的更改，我应该向他们收费并且只在他们付款后才触碰代码，还是我始终必须使用 CMS 创建网站以避免因小问题而触碰代码？ 如果我想向客户出售其网站的维护服务，您会推荐什么？  如果您能帮助我，那就太好了！    提交人    /u/Used-Ad118   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d4oggv/hi_i_have_some_questions_as_a_freelancer/</guid>
+      <pubDate>Fri, 31 May 2024 05:46:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>您在编码时喜欢听什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d4mpnl/what_do_you_like_to_listen_to_while_coding/</link>
+      <description><![CDATA[基本上就是标题。就我个人而言，我喜欢在写代码时听别人说话。这非常舒缓。    提交人    /u/blueaphrodisiac   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d4mpnl/what_do_you_like_to_listen_to_while_coding/</guid>
+      <pubDate>Fri, 31 May 2024 04:00:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>在生产中处理 Axios 中偶尔出现的网络错误最合适的方法是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d4m6e6/whats_the_most_appropriate_way_to_deal_with/</link>
+      <description><![CDATA[我每天都会遇到几次异常错误“网络错误” Sentry 中有关使用 Axios 发出的请求的消息。 通常，它是从我的前端向我的后端 api 发出的请求。 由于这种情况非常偶然，我假设可能是某些访问者的手机断网了，或者在请求过程中关闭了浏览器，从而立即切断了请求，并且没有机会从服务器获得响应。 对于这些情况，您建议怎么做，以便我们不会继续在 Sentry 中收到随机异常消息？ 我的第一反应是登录到控制台，而不是使用响应拦截器引发异常，如下所示： API.interceptors.response.use( (response)=&gt;response, (error)=&gt;{ if (!error.response &amp;&amp; error.message === &#39;Network Error&#39;) { console.error(&#39;Network Error&#39;, error) } else { return Promise.reject(error) } } ）  在生产中通常如何处理这种情况？    提交人    /u/adrenaline681   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d4m6e6/whats_the_most_appropriate_way_to_deal_with/</guid>
+      <pubDate>Fri, 31 May 2024 03:29:49 GMT</pubDate>
+    </item>
     <item>
       <title>快速还是彻底？</title>
       <link>https://www.reddit.com/r/webdev/comments/1d4lqyx/fast_or_thorough/</link>
@@ -36,7 +57,7 @@
     <item>
       <title>停滞不前</title>
       <link>https://www.reddit.com/r/webdev/comments/1d4jomf/at_a_standstill/</link>
-      <description><![CDATA[我不确定这里是否是发帖的正确地方，但我相信这篇文章很合适——尽管它并不完全是关于网络开发的。如果我没有在正确的地方，我希望能够重定向到可以提供帮助的正确子版块/社区。 我一直在开发几个不同的项目。 1) Paive 数字经济 一种替代传统现实世界经济的 p2p 经济  2) Ai-Os — 分形引擎 一种与系统无关的人工智能系统，能够根据某些任意环境和用户操作执行不同的任务。我开发了 2 种自定义编程语言和专有文件格式。 3) 加密令牌 (Electryt) 促进互联网匿名、数据保护和零信任。这更多地与网络安全有关，而不是货币交易。该令牌已开发出概念验证，并已投入使用。数字经济的登录系统使用加密令牌。 4) Apple 的分布式计算 VM 与标题完全一致；我甚至不确定这是否完全有用。尽管如此，我已经开发了一个极其基本的应用程序，用于开始使用 Apple 设备的分布式 VM 编程。 5) 研究量子计算芯片 我正在对量子计算芯片进行半被动研究并开发架构 所有项目都处于起步阶段，但它们可以工作……只是质量相当低。我是一名独立开发者/研究员，负责所有这些项目。 我说这些并不是为了吹牛，但我实在想不通为什么有人会为这些东西付费，也不知道我如何才能合理地让任何人成为其中任何一项的付费用户。我想将某样东西货币化，但这一切都需要大量研究和费力；就在我认为我可以继续货币化其他东西时，我需要将其融入我的产品中。 我目前正在完成我的 Paive 产品的一个方面，但需要 beta 测试人员或一些人告诉我缺少了什么，甚至他们为什么要使用它；或者什么不是。 我不确定应该主要关注什么。 有什么想法或愿意提供反馈吗？    提交人    /u/phyziro   [链接] [评论]]]></description>
+      <description><![CDATA[我不确定这里是否是发帖的正确地方，但我相信这篇文章很合适——尽管它并不完全是关于网络开发的。如果我没有在正确的地方，我希望能够重定向到可以提供帮助的正确子版块/社区。 我一直在开发几个不同的项目。 1) Paive 数字经济 一种替代传统现实世界经济的 p2p 经济  2) Ai-Os — 分形引擎 一种与系统无关的人工智能系统，能够根据某些任意环境和用户操作执行不同的任务。我开发了 2 种自定义编程语言和专有文件格式。 3) 加密令牌 (Electryt) 促进互联网匿名、数据保护和零信任。这更多地与网络安全有关，而不是货币交易。该令牌已开发出概念验证，并已投入使用。数字经济的登录系统使用加密令牌。 4) Apple 的分布式计算 VM 与标题完全一致；我甚至不确定这是否完全有用。尽管如此，我已经开发了一个极其基本的应用程序，用于开始使用 Apple 设备的分布式 VM 编程。 5) 研究量子计算芯片 我正在对量子计算芯片进行半被动研究并开发架构 所有项目都处于起步阶段，但它们可以工作……只是质量相当低。我是一名独立开发者/研究员，负责所有这些项目。 我说这些并不是为了吹牛，但我实在想不通为什么有人会为这些东西付费，也不知道我如何才能合理地让任何人成为其中任何一项的付费用户。我想将某样东西货币化，但这一切都需要大量研究和费力；就在我认为我可以继续将其他东西货币化时，我需要将其融入我的产品中。 我目前正在完成我的 Paive 产品的一个方面，但需要 beta 测试人员或一些人告诉我缺少了什么，甚至他们为什么要使用它；或者什么不是。 我不确定应该主要关注什么。 有什么想法或愿意提供反馈吗？    提交人    /u/phyziro   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d4jomf/at_a_standstill/</guid>
       <pubDate>Fri, 31 May 2024 01:16:23 GMT</pubDate>
     </item>
@@ -57,7 +78,7 @@
     <item>
       <title>此设置的 UI 元素？</title>
       <link>https://www.reddit.com/r/webdev/comments/1d4icg5/ui_element_for_this_setup/</link>
-      <description><![CDATA[大家好， 我需要创建一个 UI 元素来编辑数组中的值，但我不确定这样的 UI 元素应该如何调用或叫什么。 基本上，它将是一个浮点值数组（介于 0 和 1 之间），元素数量不确定，我需要能够编辑数组中每个项目的值。但问题是数组中项目的总和必须始终为 1。 基本上，它是编辑数组中每个项目的权重/比例，即在 5 个元素的数组中，元素 1（索引 0）可能有 25%（0.25）。随着元素 1 的比例增加，数组中的其他元素必须减少，以便总数始终为 1。 数组的长度也不固定。如果将新元素推送到数组，它将默认为 0，因为没有“剩余内容”可分配给新元素，但数组中新插入的元素应该是可编辑的，并且类似地调整其他元素的权重。 我认为它可能类似于具有 n 个手柄的范围滑块，但我可能弄错了。如果数组中有很多元素，或者多个项目与其滑块手柄重叠，或者甚至只是在滑块输入并不总是很好的移动设备上，这很容易变得难以使用。 寻找可以提供帮助的 UI 设计建议！我猜也考虑过传统的数字输入，但我正在寻找具有响应式用户反馈的东西，这样他们就知道他们正在调整权重/比例，而不仅仅是任意浮点值。    提交人    /u/lostnotstranded   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 我需要创建一个 UI 元素来编辑数组中的值，但我不确定这样的 UI 元素应该如何调用或叫什么。 基本上，它将是一个浮点值数组（介于 0 和 1 之间），元素数量不确定，我需要能够编辑数组中每个项目的值。但问题是数组中项目的总和必须始终为 1。 基本上，它是编辑数组中每个项目的权重/比例，即在 5 个元素的数组中，元素 1（索引 0）可能有 25%（0.25）。随着元素 1 的比例增加，数组中的其他元素必须减少，以便总数始终为 1。 数组的长度也不固定。如果将新元素推送到数组，它将默认为 0，因为没有“剩余内容”可分配给新元素，但数组中新插入的元素应该是可编辑的，并且类似地调整其他元素的权重。 我认为它可能类似于具有 n 个手柄的范围滑块，但我可能弄错了。如果数组中有很多元素，或者多个项目与其滑块手柄重叠，或者甚至只是在滑块输入并不总是很好的移动设备上，这很容易变得难以使用。 寻找可以提供帮助的 UI 设计建议！我猜也考虑传统的数字输入，但我正在寻找具有响应式用户反馈的东西，这样他们就知道他们正在调整权重/比例，而不仅仅是任意浮点值。    提交人    /u/lostnotstranded   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d4icg5/ui_element_for_this_setup/</guid>
       <pubDate>Fri, 31 May 2024 00:08:01 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[寻找可以让我执行 https://localhost 的东西，这将转发到 http://localhost。我不关心主机名（除非这是获取本地证书的唯一方法？）。我知道 ngrok，但上次我检查时，只有使用其随机生成的主机名时它才是免费的。我们不能使用随机生成的主机名，因为让开发人员在不同代码库的环境变量中更新这些主机名将是一场噩梦。    提交人    /u/maxiedaniels   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d4gkh1/simple_tunnel_setup_for_local_testing/</guid>
       <pubDate>Thu, 30 May 2024 22:45:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>很困惑——希望得到一些关于通过我的终端进行 whois 查询的建议。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d4fzs7/confused_would_love_some_advice_on_a_whois_pull/</link>
-      <description><![CDATA[icann 显示“已编辑”x 100。并且只显示域名停放的位置。 进行了终端搜索，它显示了所有相同的“已编辑”信息，但第二次拉取仍然显示了所有信息，就好像它一开始就没有被编辑一样。 它有时会拉取错误信息还是发生了其他事情？ 至于我为什么要弄清楚这一点 - 我不想开始打扰一些没有关联的随机人。当他们不是正确的联系人时，可能得不到回复。    提交人    /u/darrenphillipjones   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d4fzs7/confused_would_love_some_advice_on_a_whois_pull/</guid>
-      <pubDate>Thu, 30 May 2024 22:19:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>多租户 SaaS 数据建模终极指南</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d4fl0x/ultimate_guide_to_multitenant_saas_data_modeling/</link>
-      <description><![CDATA[        提交人    /u/flybayer   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d4fl0x/ultimate_guide_to_multitenant_saas_data_modeling/</guid>
-      <pubDate>Thu, 30 May 2024 21:59:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>正在寻找与下面列出的项目类似的项目！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d4ehge/looking_for_similar_projects_to_this_one_listed/</link>
-      <description><![CDATA[我正在重新学习多年来忘记的很多 React 知识，并想重新创建我在网上找到的练习项目。我发现了这个项目，觉得它很酷：https://www.reddit.com/r/webdev/comments/ro51pa/built_a_multiplayer_card_game_using_reactjs/ 我找不到该项目的 repo 链接，但想知道是否还有其他类似的项目。它们不一定是专门的纸牌游戏，我只是觉得那会很有趣。还有其他有助于提高 React 水平的示例/类型的项目吗？ 谢谢！    提交人    /u/Jegan1210   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d4ehge/looking_for_similar_projects_to_this_one_listed/</guid>
-      <pubDate>Thu, 30 May 2024 21:05:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
