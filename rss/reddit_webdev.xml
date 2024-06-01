@@ -3,8 +3,29 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 01 Jun 2024 03:17:20 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
+    <lastBuildDate>Sat, 01 Jun 2024 06:17:55 GMT</lastBuildDate>
+    <item>
+      <title>为非营利组织实施客户门户的最佳方式？理想情况下是低代码或无代码</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d5f3it/best_way_to_execute_a_client_portal_for_a/</link>
+      <description><![CDATA[我正在尝试为一家非营利组织创建客户门户。我们主要与无家可归者和与毒瘾作斗争的人（通常两者兼有）合作。目标是为这些最终用户创建一个门户。他们可以在其中访问自己的个人资料、过去的评估、查看约会、跟踪目标和进度等。这种自助式支持有望显著提高客户成功率（获得稳定的住房和/或走上康复之路） 一个很大的要求是所有数据都保留在 Zoho CRM 中，以保护敏感数据。我们在加拿大安大略省，所以它需要基本上是我们版本的 HIPPA。考虑到 api 调用的安全使用，我认为这不会带来挑战。理想情况下，这不会是本机应用程序，以避免处理多平台支持等。 我知道会有很多人认为我们应该从头开始创建一个新系统并放弃 Zoho。我们从一开始就考虑过这个问题，但不幸的是我们需要尽快实施，但没有时间、资源或专业知识来承担这样的项目。所以我们选择了 Zoho。这也使我们能够利用许多其他 Zoho 应用程序，这些应用程序确实有助于服务提供中的工作流程。  这还有其他细微差别，但我不会把这篇文章写成小说。有人推荐一个好的平台来构建这个吗？我特别想找低代码/无代码的。到目前为止，我已经探索了 Flutter Flow、Bubble、WeWeb、Softr、Glide 和其他一些平台，但它变得如此势不可挡。 谢谢！    提交人    /u/buildxjordan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d5f3it/best_way_to_execute_a_client_portal_for_a/</guid>
+      <pubDate>Sat, 01 Jun 2024 04:44:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>投资组合改进技巧</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d5eg6s/tips_on_portfolio_improvements/</link>
+      <description><![CDATA[有点想自曝一下，别取消我。 我很乐意收到一些关于我的网络作品集的反馈：zachbarnes.dev。 我最初模仿的是一个我非常欣赏的简单设计，但我开始对它的结果产生了疑虑。我觉得它有点太“空”了。请注意，我有很多项目需要添加，所以我会把项目页面再填满一点。任何改进的提示或建议都将不胜感激！ 提前致谢！    提交人    /u/flappy404   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d5eg6s/tips_on_portfolio_improvements/</guid>
+      <pubDate>Sat, 01 Jun 2024 04:06:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在 zod 中为两个以上事物创建自定义验证</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d5e5tf/how_to_create_custom_validation_for_more_than_two/</link>
+      <description><![CDATA[      https://preview.redd.it/jggjwre1uv3d1.png?width=698&amp;format=png&amp;auto=webp&amp;s=7da548b72017eace733c4e33b5aaa9db2dbdb37e 这是我的架构，我想知道如何在 z.object 上调用 refine 来检查租金是否在正确范围内，以及结束日期是否在开始日期之后。 我的一个解决方案是创建一个单独的租金架构并在那里使用 refine，然后在对象上使用 refine 来检查结束日期是否在开始日期之后，但如果我还想检查其他内容，例如学期是否包含在描述中，或者其他内容，我该怎么做？    提交人    /u/rodyli123   [link] [comments] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d5e5tf/how_to_create_custom_validation_for_more_than_two/</guid>
+      <pubDate>Sat, 01 Jun 2024 03:50:42 GMT</pubDate>
+    </item>
     <item>
       <title>在我人生中最艰难的时刻，我开始了作为一名软件开发人员的旅程。</title>
       <link>https://www.reddit.com/r/webdev/comments/1d5cyd3/starting_out_as_a_software_developer_journey_at/</link>
@@ -69,7 +90,7 @@
       <pubDate>Fri, 31 May 2024 21:09:19 GMT</pubDate>
     </item>
     <item>
-      <title>在类似域名上制作的完全复制我的网站。以前有人遇到过这种情况吗？</title>
+      <title>在类似域名上制作的完全复制我的网站。有人遇到过这种情况吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1d561yr/complete_carbon_copy_of_my_site_made_on_similar/</link>
       <description><![CDATA[大家好，今天早上发现一个域名已被注册（我们的网站 example.com，他们的网站 example.net），并且他们逐字逐句、逐个风格、逐个颜色地复制了我们的网站。 该网站是一个 saas 产品，他们网站上的所有链接都指向我们的网站。所有博客都被复制，甚至包括实时聊天小部件。 有人遇到过这种情况吗？这是恶意的吗？这可能是竞争对手试图蚕食我们的关键词吗？还是试图欺骗我们的客户？有什么想法吗？    提交人    /u/Jamesrhardy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d561yr/complete_carbon_copy_of_my_site_made_on_similar/</guid>
@@ -85,30 +106,9 @@
     <item>
       <title>处理主项目中的多个框架/子项目</title>
       <link>https://www.reddit.com/r/webdev/comments/1d55b0d/handling_multiple_frameworkssubproject_inside_a/</link>
-      <description><![CDATA[我刚刚加入了一个客户项目，该项目基本上使用了 WordPress 插件中的三个 JS 子项目。该插件为非营利组织提供了一个简单的电子商务，可以免费发送传单、小册子等。代码组织如下： plugin/ ═─ admin/ │ ═─ src/ // 仪表板 React 应用程序 │ ═─ package.json ═─ blocks/ │ ═─ src/ // 自定义块 │ ═​​─ package.json ═─ includes // 插件内容。帖子类型注册、元处理等 ═─ public │ ═─ src/ // 前端 Solid 应用程序 │ ═─ package.json  管理应用程序是使用 React 构建的，因为它使用了块编辑器中的许多组件。这些块是 WordPress 块。Solid 应用程序是我们没有构建的现有应用程序，但继承了维护和未来开发。这是一个非常简单和轻量级的应用程序，基本上只处理购物车。目前无法将其重写为 React。 所以现在，一切正常。如果同时处理这三个部分，则必须打开三个终端，但它可以工作。我的问题是，我们可以做得更好吗？也许将插件中的三个部分拆分为包，就像 Gutenberg 对其组件所做的那样？有什么建议吗？ 注意：为了以防万一，我再说一遍，我知道不在前端应用程序上使用 Solid 而只在各处使用 React 会更简单。但这超出了目前的范围，所以我们必须按原样处理。 编辑：忘了添加，为了让事情更简单，仪表板应用程序使用 webpack，块使用 wp-script，前端应用程序使用 Vite。人越多越好。    提交人    /u/Simple-Fennel-2307   [链接] [评论]]]></description>
+      <description><![CDATA[我刚刚加入了一个客户项目，该项目基本上使用了 WordPress 插件中的三个 JS 子项目。该插件为非营利组织提供了一个简单的电子商务，可以免费发送传单、小册子等。代码组织如下： plugin/ ═─ admin/ │ ═─ src/ // 仪表板 React 应用程序 │ ═─ package.json ═─ blocks/ │ ═─ src/ // 自定义块 │ ═​​─ package.json ═─ includes // 插件内容。帖子类型注册、元处理等 ═─ public │ ═─ src/ // 前端 Solid 应用程序 │ ═─ package.json  管理应用程序是使用 React 构建的，因为它使用了块编辑器中的许多组件。这些块是 WordPress 块。Solid 应用程序是我们没有构建的现有应用程序，但继承了维护和未来开发。这是一个非常简单和轻量级的应用程序，基本上只处理购物车。目前无法将其重写为 React。 所以现在，一切正常。如果同时处理这三个部分，则必须打开三个终端，但它可以工作。我的问题是，我们可以做得更好吗？也许将插件中的三个部分拆分成包，就像 Gutenberg 对其组件所做的那样？有什么建议吗？ 注意：为了以防万一，我再说一遍，我知道不在前端应用程序上使用 Solid 而只在各处使用 React 会更简单。但这超出了目前的范围，所以我们必须按原样处理。 编辑：忘了添加，为了让事情更简单，仪表板应用程序使用 webpack，块使用 wp-script，前端应用程序使用 Vite。人越多越好。    提交人    /u/Simple-Fennel-2307   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d55b0d/handling_multiple_frameworkssubproject_inside_a/</guid>
       <pubDate>Fri, 31 May 2024 20:26:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chrome 将于 6 月份将清单更改为 v3，如果您仍在使用它，您会切换吗？还是您不在乎？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d54808/with_chrome_changing_manifest_to_v3_in_june_are/</link>
-      <description><![CDATA[随着他们的新清单 v3 的发布，许多变化即将到来。最糟糕的是：广告拦截器已死。如果你还在使用 Chrome，你会改变吗？如果会，会改变什么？ 我自己正在使用 Firefox 开发者版，我很喜欢它。    提交人    /u/rm-rf-npr   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d54808/with_chrome_changing_manifest_to_v3_in_june_are/</guid>
-      <pubDate>Fri, 31 May 2024 19:39:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>是否可以向少数观众提供简短、高质量的视频？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d533l7/options_to_deliver_short_highquality_videos_to/</link>
-      <description><![CDATA[嗨！ 我很想听听你对此的看法：我正在使用 Nuxt 重建我的网站，我可能会将其部署在 Netlify 之类的东西上（在这方面，任何想法都值得赞赏）。该网站有几个以高比特率编码的 4K HDR 视频。它们的平均长度略超过一分钟。该网站平均每天有不到 50 名访客。 你将如何以优化它们以实现几乎即时播放的方式提供这些高质量视频？视频并不多，所以我可以自己做 ffmpeg 的工作。我还没有找到一个面向此目的的库或服务。从我目前读到的内容来看，HTTP/3 似乎有所帮助。我找不到太多关于这方面的信息，但我认为使用并行下载也有助于利用客户端的所有带宽。 该网站目前正在使用 vimeo，但 vimeo 过度压缩所有内容，色调映射错误，并且所有内容加载时间*太长*。 请让我知道您的想法。非常感谢！    提交人    /u/sudomakeitrain   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d533l7/options_to_deliver_short_highquality_videos_to/</guid>
-      <pubDate>Fri, 31 May 2024 18:51:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为一个与 React 不太熟悉的人，有人可以解释一下 Remix 这个全栈 React 框架是如何与 React Router 合并的吗？因为它们之间没有区别。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d52q24/as_someone_who_is_pretty_disconnected_from_react/</link>
-      <description><![CDATA[我认为他们做的事情不相关    提交人    /u/myhero34   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d52q24/as_someone_who_is_pretty_disconnected_from_react/</guid>
-      <pubDate>Fri, 31 May 2024 18:35:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
