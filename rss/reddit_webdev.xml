@@ -3,8 +3,22 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Sat, 01 Jun 2024 01:01:59 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Sat, 01 Jun 2024 03:17:20 GMT</lastBuildDate>
+    <item>
+      <title>在我人生中最艰难的时刻，我开始了作为一名软件开发人员的旅程。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d5cyd3/starting_out_as_a_software_developer_journey_at/</link>
+      <description><![CDATA[你好， 我是 kaizing，今年 27 岁，一直担任机械设计工程师，多年来每天都努力工作，拥有学士学位。 在工作多年后，我进入了一些对我的成长没有帮助的公司，环境很糟糕。我努力工作，但总是被别人卷入公司政治，累了，决定做一个艰难的决定，我一直在避免，那就是职业转变。 这是我这个年纪最艰难的决定。试图转型到软件开发领域。这个领域有更多的公司可以转换，对我来说，更好地成长和从事这个职业将是一个挑战。 我将首先熟悉 Web 开发，然后慢慢过渡到软件开发以增强我的 Web 开发能力。我的目标是全栈。   由    /u/kaizing  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d5cyd3/starting_out_as_a_software_developer_journey_at/</guid>
+      <pubDate>Sat, 01 Jun 2024 02:41:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vercel 如何验证域名所有权？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d5cuwj/how_does_vercel_verify_domain_ownership/</link>
+      <description><![CDATA[因此，我使用 Vercel 进行部署并使用 GoDaddy 作为域。一切正常，但我有点困惑，Vercel 如何知道该域实际上是我的。 它给了我一个这样的 A 记录：类型：A 名称：@ 值：74.74.78.22 当我在 GoDaddy 设置中将其添加到我的域时，它可以工作。但是如何呢？ Vercel 给出的值对我来说是唯一的，所以它会一直向域发送请求直到它验证，或者该值属于 Vercel 名称服务器并且由其他东西处理验证？ 提前致谢。    提交人    /u/w333l   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d5cuwj/how_does_vercel_verify_domain_ownership/</guid>
+      <pubDate>Sat, 01 Jun 2024 02:35:32 GMT</pubDate>
+    </item>
     <item>
       <title>实施交易/营销电子邮件</title>
       <link>https://www.reddit.com/r/webdev/comments/1d59saw/implementing_transactional_marketing_email/</link>
@@ -55,7 +69,7 @@
       <pubDate>Fri, 31 May 2024 21:09:19 GMT</pubDate>
     </item>
     <item>
-      <title>在类似域名上制作的完全复制我的网站。有人遇到过这种情况吗？</title>
+      <title>在类似域名上制作的完全复制我的网站。以前有人遇到过这种情况吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1d561yr/complete_carbon_copy_of_my_site_made_on_similar/</link>
       <description><![CDATA[大家好，今天早上发现一个域名已被注册（我们的网站 example.com，他们的网站 example.net），并且他们逐字逐句、逐个风格、逐个颜色地复制了我们的网站。 该网站是一个 saas 产品，他们网站上的所有链接都指向我们的网站。所有博客都被复制，甚至包括实时聊天小部件。 有人遇到过这种情况吗？这是恶意的吗？这可能是竞争对手试图蚕食我们的关键词吗？还是试图欺骗我们的客户？有什么想法吗？    提交人    /u/Jamesrhardy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d561yr/complete_carbon_copy_of_my_site_made_on_similar/</guid>
@@ -71,14 +85,14 @@
     <item>
       <title>处理主项目中的多个框架/子项目</title>
       <link>https://www.reddit.com/r/webdev/comments/1d55b0d/handling_multiple_frameworkssubproject_inside_a/</link>
-      <description><![CDATA[我刚刚加入了一个客户项目，该项目基本上使用了 WordPress 插件中的三个 JS 子项目。该插件为非营利组织提供了一个简单的电子商务，可以免费发送传单、小册子等。代码组织如下： plugin/ ═─ admin/ │ ═─ src/ // 仪表板 React 应用程序 │ ═─ package.json ═─ blocks/ │ ═─ src/ // 自定义块 │ ═​​─ package.json ═─ includes // 插件内容。帖子类型注册、元处理等 ═─ public │ ═─ src/ // 前端 Solid 应用程序 │ ═─ package.json  管理应用程序是使用 React 构建的，因为它使用了块编辑器中的许多组件。这些块是 WordPress 块。Solid 应用程序是我们没有构建的现有应用程序，但继承了维护和未来开发。这是一个非常简单和轻量级的应用程序，基本上只处理购物车。目前无法将其重写为 React。 所以现在，一切正常。如果同时处理这三个部分，则必须打开三个终端，但它可以工作。我的问题是，我们可以做得更好吗？也许将插件中的三个部分拆分成包，就像 Gutenberg 对其组件所做的那样？有什么建议吗？ 注意：为了以防万一，我再说一遍，我知道不在前端应用程序上使用 Solid 而只在各处使用 React 会更简单。但这超出了目前的范围，所以我们必须按原样处理。 编辑：忘了添加，为了让事情更简单，仪表板应用程序使用 webpack，块使用 wp-script，前端应用程序使用 Vite。人越多越好。    提交人    /u/Simple-Fennel-2307   [链接] [评论]]]></description>
+      <description><![CDATA[我刚刚加入了一个客户项目，该项目基本上使用了 WordPress 插件中的三个 JS 子项目。该插件为非营利组织提供了一个简单的电子商务，可以免费发送传单、小册子等。代码组织如下： plugin/ ═─ admin/ │ ═─ src/ // 仪表板 React 应用程序 │ ═─ package.json ═─ blocks/ │ ═─ src/ // 自定义块 │ ═​​─ package.json ═─ includes // 插件内容。帖子类型注册、元处理等 ═─ public │ ═─ src/ // 前端 Solid 应用程序 │ ═─ package.json  管理应用程序是使用 React 构建的，因为它使用了块编辑器中的许多组件。这些块是 WordPress 块。Solid 应用程序是我们没有构建的现有应用程序，但继承了维护和未来开发。这是一个非常简单和轻量级的应用程序，基本上只处理购物车。目前无法将其重写为 React。 所以现在，一切正常。如果同时处理这三个部分，则必须打开三个终端，但它可以工作。我的问题是，我们可以做得更好吗？也许将插件中的三个部分拆分为包，就像 Gutenberg 对其组件所做的那样？有什么建议吗？ 注意：为了以防万一，我再说一遍，我知道不在前端应用程序上使用 Solid 而只在各处使用 React 会更简单。但这超出了目前的范围，所以我们必须按原样处理。 编辑：忘了添加，为了让事情更简单，仪表板应用程序使用 webpack，块使用 wp-script，前端应用程序使用 Vite。人越多越好。    提交人    /u/Simple-Fennel-2307   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d55b0d/handling_multiple_frameworkssubproject_inside_a/</guid>
       <pubDate>Fri, 31 May 2024 20:26:27 GMT</pubDate>
     </item>
     <item>
       <title>Chrome 将于 6 月份将清单更改为 v3，如果您仍在使用它，您会切换吗？还是您不在乎？</title>
       <link>https://www.reddit.com/r/webdev/comments/1d54808/with_chrome_changing_manifest_to_v3_in_june_are/</link>
-      <description><![CDATA[随着他们的新清单 v3 的推出，许多变化即将到来。最糟糕的是：广告拦截器已死。如果你还在使用 Chrome，你会改变吗？如果会，会改变什么？ 我自己正在使用 Firefox 开发者版，我很喜欢它。    提交人    /u/rm-rf-npr   [link] [评论]]]></description>
+      <description><![CDATA[随着他们的新清单 v3 的发布，许多变化即将到来。最糟糕的是：广告拦截器已死。如果你还在使用 Chrome，你会改变吗？如果会，会改变什么？ 我自己正在使用 Firefox 开发者版，我很喜欢它。    提交人    /u/rm-rf-npr   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d54808/with_chrome_changing_manifest_to_v3_in_june_are/</guid>
       <pubDate>Fri, 31 May 2024 19:39:29 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[我认为他们做的事情不相关    提交人    /u/myhero34   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d52q24/as_someone_who_is_pretty_disconnected_from_react/</guid>
       <pubDate>Fri, 31 May 2024 18:35:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么是 hgsitebuilder</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d52cz7/what_was_hgsitebuilder/</link>
-      <description><![CDATA[我最近开始在某个地方工作，我为他们的网站做了一些修复工作，发现代码的 css 部分到处都提到了这个 hgsitebuilder。我尝试搜索 hgsitebuilder，但除了一堆网址中包含 hgsitebuilder 的网站和一个损坏的登录页面外，我找不到任何提到这个程序的内容。我知道它的用途在标题中说明，但这真的让我很烦。编辑我可能应该提到这一点，但该网站不是用主机 gator builder 制作的，而是用 C 面板制作的 （顺便说一句，如果你想知道 hgsitebuilder 是如何破坏我正在工作的网站的。发生的事情是一堆包含 css 的文件，我认为以某种方式通过 hgsitebuilder 托管，而 hgsitebuilder 不再具有 SSL 证书，因此我认为浏览器标记了通过 hgsitebuilder 托管的 css 文件，导致 css 无法加载。但是，我是一个没有经验的 Web 程序员，所以请谨慎对待）    提交人    /u/majoraXDZ   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d52cz7/what_was_hgsitebuilder/</guid>
-      <pubDate>Fri, 31 May 2024 18:20:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何处理拥有 cPanel 电子邮件帐户的客户？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d51fdw/how_do_you_deal_with_a_client_with_cpanel_email/</link>
-      <description><![CDATA[我通常从头开始编写网站，并将它们放在我控制的静态托管上，在那里我只通过 ftp 或 git 上传项目文件夹。仅此而已。我对 Wordpress 或 cPanel 一点也不熟悉。当客户需要自定义电子邮件帐户时，我会购买该帐户并帮助他们设置，或者将他们引荐给供应商，以便他们自己购买帐户。我的客户是小型企业，他们从不需要超过 5 个电子邮件帐户。但现在我有一家小型酒店作为客户，该酒店已支付了仅可通过 cPanel 管理的托管服务费用。总的来说，这很麻烦：cPanel 出于某种原因阻止了我的 IP；当我联系支持人员时，他们会联系到我客户的电子邮件地址；由于双重身份验证等原因，使用他们的凭据登录很快就会变得很麻烦。 问题是我的客户通过 cPanel（不知道它是如何工作的）为酒店里的每个人及其母亲设置了一个电子邮件帐户。我无法自己托管网站，因为更改名称服务器后他们的电子邮件帐户将不再起作用。你们会如何处理这种情况？     提交人    /u/Castantg   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d51fdw/how_do_you_deal_with_a_client_with_cpanel_email/</guid>
-      <pubDate>Fri, 31 May 2024 17:39:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
