@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 01 Jun 2024 21:13:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 01:02:34 GMT</lastBuildDate>
+    <item>
+      <title>哪些移动设备与 libcamera 或类似的开放相机堆栈兼容？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1d61jwm/which_mobile_devices_are_compatible_with/</link>
+      <description><![CDATA[除了通信（显然）、网页浏览和地图之外，智能手机最有用的方面之一就是摄影。我很想拥有一个可以放在口袋里的可编程设备，我可以在上面运行自己的信号处理代码，以尝试不同的图像获取方法，即计算白平衡、去马赛克、增强等的不同方法。当然，我可以捕获原始图像，然后将它们传输到计算机以进行我想要的处理，但有些算法最好在图像捕获时运行，例如 Apple 所做的包围和传感器融合类型。 我查看了例如 Replicant 的源代码，寻找为相机执行低级 DSP 的代码，但它似乎不在那里。我只找到更高级别的抽象层和接口代码。我怀疑他们试图对这一点保持中立，因为这里有传感器特定的细节需要考虑，并推迟到 libcamera (https://libcamera.org/) 等项目来完成这项工作。因此，最好询问哪种硬件支持其中一种，而不是 AOSP 是否提供了这样做的方法。  我想知道哪些手机支持这样的开放堆栈。让 iPhone 运行这样的堆栈肯定要求太高了，但我对 Android 手机很好奇。    提交人    /u/math_code_nerd5   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1d61jwm/which_mobile_devices_are_compatible_with/</guid>
+      <pubDate>Sun, 02 Jun 2024 00:56:45 GMT</pubDate>
+    </item>
     <item>
       <title>Bountysource 死了吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1d5v1uk/bountysource_is_dead/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[嗨， 我正在寻找用于劳动力管理、调度和资产管理的开源软件。  这是我需要的： 可定制：理想情况下，我可以使用 JavaScript 或 Python 进行调整。 移动访问：应该有一个移动应用程序，或者很容易转变为 PWA。 可货币化：如果客户使用它，许可证应该允许我将其货币化。 长话短说，我的运营团队需要它，但由于我们也以顾问的身份为客户提供支持，我们有几家小公司，我相信如果我们能以低成本为他们创建一个单独的实例（包括管理和备份），这些公司将真正受益。    提交人    /u/Born-Display6918   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1d4nyzh/suggestions_for_open_source_workforce_management/</guid>
       <pubDate>Fri, 31 May 2024 05:15:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源浏览器扩展程序可自动重定向到经典的仅限网络的 Google 搜索</title>
-      <link>https://www.reddit.com/r/opensource/comments/1d4d0gy/open_source_browser_extension_to_automatically/</link>
-      <description><![CDATA[大家好， 随着 Google 搜索结果页面越来越混乱，尤其是引入了幻觉 AI 结果，值得庆幸的是，Google 推出了一种查看经典网页版搜索结果的方法。 我为 Edge、Firefox 和 Chromium 创建了一个扩展程序，可自动为您的搜索执行此操作。请查看并测试它！    提交人    /u/prvashisht   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1d4d0gy/open_source_browser_extension_to_automatically/</guid>
-      <pubDate>Thu, 30 May 2024 20:02:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
