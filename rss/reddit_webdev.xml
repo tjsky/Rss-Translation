@@ -3,8 +3,22 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 04 Jun 2024 00:59:29 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
+    <lastBuildDate>Tue, 04 Jun 2024 03:16:31 GMT</lastBuildDate>
+    <item>
+      <title>魔法机器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d7n51y/magic_machines/</link>
+      <description><![CDATA[        提交人    /u/fagnerbrack   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d7n51y/magic_machines/</guid>
+      <pubDate>Tue, 04 Jun 2024 03:06:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>适合业余项目的最佳免费后端托管解决方案？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d7mafr/best_free_backend_hosting_solutions_for_hobby/</link>
+      <description><![CDATA[大家好， 我目前正在做一个业余项目，涉及一个与小型数据库通信的 API，它是用 Python 编写的，并且是容器化的。我正在寻找一个类似于 Vercel 业余计划的免费托管解决方案——不仅免费而且速度快。我以前知道 Heroku，但听说他们不再提供免费套餐了。 有人推荐可靠且免费的后端托管服务，这些服务非常适合小型项目吗？任何提示或与特定平台共享的经验都将不胜感激！ 提前致谢！    提交人    /u/sean183272   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d7mafr/best_free_backend_hosting_solutions_for_hobby/</guid>
+      <pubDate>Tue, 04 Jun 2024 02:21:15 GMT</pubDate>
+    </item>
     <item>
       <title>一个适合信息图表的 JS 图表库 chartjunk？</title>
       <link>https://www.reddit.com/r/webdev/comments/1d7kibb/a_js_chart_library_good_for_infographics_chartjunk/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[您好， 我正在制作一个 Chrome 扩展程序，想问一下实现某项功能的最佳方法。 我的扩展程序允许用户突出显示书名（从技术上讲，可以是任何文本，但书名是预期用途），并使用上下文菜单打开一个新窗口，显示有关该书的信息。我的服务工作线程（后台脚本）负责创建上下文菜单选项，监听对其的点击，并在用户点击时创建新窗口。窗口的 URL 属性链接到 HTML 页面 base.html。 我遇到的问题是，根据搜索结果（通过 Google Books API 完成），我希望显示的 HTML 有所不同。如果只找到一本书，当然可以像平常一样显示该书的信息，但如果找到该标题下的多本书，我想向用户显示这些书及其对应作者的列表，以便他们可以选择查看哪一本。如果没有找到任何书籍，我只想显示一个 HTML 文本元素，内容类似于“未找到书籍”。 到目前为止，我已经在链接到 base.html 的脚本文件 base.js 中实现了此功能。我的服务工作线程通过使用查询参数将突出显示的文本发送到 base.js： chrome.contextMenus.onClicked.addListener((item) =&gt; { const url = chrome.runtime.getURL(&#39;base.html?title=&#39; + encodeURIComponent(item.selectionText)); if (!searchWindowId) { createSearchWindow(url); } else { createSearchTab(url); } });  base.js 从 URL 中抓取此文本，通过 Google Books API 发送它，并根据找到的书籍数量（一本、无一本或多本）调用三个函数之一。这些函数使用 DOM 操作来根据需要创建和附加 HTML 元素。 const title = new URLSearchParams(window.location.search).get(&quot;title&quot;).split(&quot; &quot;); // 从查询参数中获取原始突出显示的文本 function searchBook(title) { const query = formatQuery(title); const url = `https://www.googleapis.com/books/v1/volumes?q=${query}&amp;key=${apiKey}`; fetch(url).then((response) =&gt; { // TODO：如果状态代码为 200，则添加错误捕获 return response.json(); }).then(data =&gt; { displayBookData(data); }).catch((error) =&gt; { console.log(error); }); } [...] function displayBookData(data) { if (data.totalItems === 0) { bookNotFound(); return 0; } if (data.totalItems &gt; 1) { multipleBooksFound(); return 0; } const bookData = data.items[0].volumeInfo; bookFound(bookData); }  (bookNotFound、multipleBooksFound 和 bookFound 函数处理三种可能情况的 DOM 操作。) 但是，有些东西告诉我这不是最好的方法。我认为最好为每个可能的结果（找到一本书、找不到书或找到多本书）准备三个不同的 HTML 文件，并根据搜索结果呈现其中一个，而不是在 JavaScript 中动态创建/附加一堆 HTML 元素？ 感谢阅读！您可能已经看出来，我对此还很陌生。人们总是说，最好的学习方法是构建项目，所以这就是我正在做的（或试图做的！）   由    /u/burblesuffix  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d7bnzo/multiple_html_files_vs_dom_manipulation/</guid>
       <pubDate>Mon, 03 Jun 2024 18:30:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>引入共享内存版本控制来改善缓慢的交互</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d7a7q1/introducing_shared_memory_versioning_to_improve/</link>
-      <description><![CDATA[        提交人    /u/feross   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d7a7q1/introducing_shared_memory_versioning_to_improve/</guid>
-      <pubDate>Mon, 03 Jun 2024 17:31:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用网站模板？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d79rvw/how_to_use_website_templates/</link>
-      <description><![CDATA[我最近才开始了解网站模板、现成的蓝图，但我对模板和前端都很陌生。 所以我想问一下你到底如何使用它们？ （PS：我在 Flask 中做后端）    提交人    /u/Blood_Demon_71452   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d79rvw/how_to_use_website_templates/</guid>
-      <pubDate>Mon, 03 Jun 2024 17:13:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
