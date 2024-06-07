@@ -3,8 +3,15 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 07 Jun 2024 01:01:16 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Fri, 07 Jun 2024 03:16:30 GMT</lastBuildDate>
+    <item>
+      <title>如何在不固定宽度的情况下使每个盒子具有相同的尺寸？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1d9yln6/how_do_you_make_every_box_the_same_size_without/</link>
+      <description><![CDATA[https://codepen.io/Who-Knows-the-looper/pen/dyEOLQJ 我希望每个框都与最大框的大小匹配。 有办法吗？    提交人    /u/whateverwhoknowswhat   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1d9yln6/how_do_you_make_every_box_the_same_size_without/</guid>
+      <pubDate>Fri, 07 Jun 2024 01:16:44 GMT</pubDate>
+    </item>
     <item>
       <title>Tailwind 和 WordPress - 您是如何做到的？</title>
       <link>https://www.reddit.com/r/webdev/comments/1d9y8of/tailwind_wordpress_how_do_you_do_it/</link>
@@ -85,7 +92,7 @@
     <item>
       <title>内容改变时保持 div 高度</title>
       <link>https://www.reddit.com/r/webdev/comments/1d9qv15/keep_div_height_when_content_changes/</link>
-      <description><![CDATA[假设我有一个 div，其中包含一些文本内容。一段时间后，文本将被替换，我将在五个不同的文本之间循环。由于文本可能无法容纳在相同的行数内，因此当 div 调整大小时，它可能会导致其下方的内容上下跳动。我希望 div 高度适应最大的文本。但该怎么做呢？（我不想设置一个固定的 div 高度，该高度足以容纳“任何东西”。） 我考虑过将所有元素都放在 div 中，并将除一个元素之外的所有元素都设置为隐藏，但这样我就必须使用绝对定位，并且 fit-content 将不起作用。    提交人    /u/Countach3000   [链接] [评论]]]></description>
+      <description><![CDATA[假设我有一个 div，其中包含一些文本内容。一段时间后，文本将被替换，我将在五个不同的文本之间循环。由于文本可能无法容纳在相同的行数内，因此当 div 调整大小时，它可能会导致其下方的内容上下跳动。我希望 div 高度适应最大的文本。但该怎么做呢？（我不想设置一个固定的 div 高度，该高度足以容纳“任何东西”。） 我考虑过将所有元素都放在 div 中，并将除一个元素之外的所有元素都设置为隐藏，但这样我必须使用绝对定位，并且 fit-content 将不起作用。    提交人    /u/Countach3000   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d9qv15/keep_div_height_when_content_changes/</guid>
       <pubDate>Thu, 06 Jun 2024 19:34:57 GMT</pubDate>
     </item>
@@ -95,13 +102,6 @@
       <description><![CDATA[嗨 :) 通过 API，我能够在我的 Web 应用程序（在 WordPress 中自定义构建）上呈现单个 Google 表格单元格的值。 我需要在每次表格中更新时都更新此值，并且尽可能减少延迟。 我注意到，如果我向 API 密钥添加一些限制（例如，限制仅在我的域上使用），则根本不会呈现该值。 当我删除限制时，它会加载，但不是持续的。 我应该改进什么？ 编辑：代码片段 function sheet_value_shortcode($atts) { $API = &#39;MY_API&#39;; $google_spreadsheet_ID = &#39;ID_Google_Sheets&#39;; // 用您的 Google 表格 ID 替换 $api_key = esc_attr($API); $location = $atts[&#39;location&#39;]; // 将唯一的时间戳附加到 URL 以防止缓存 $unique_identifier = time(); // 生成唯一的时间戳 $get_cell = new WP_Http(); $cell_url = &quot;https://sheets.googleapis.com/v4/spreadsheets/$google_spreadsheet_ID/values/$location?&amp;key=$api_key&amp;_=$unique_identifier&quot;; $cell_response = $get_cell-&gt;get($cell_url); $json_body = json_decode($cell_response[&#39;body&#39;], true); $cell_value = $json_body[&#39;values&#39;][0][0]; return $cell_value; }     submitted by    /u/Klayehn   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1d9qqqy/best_way_to_render_a_google_sheets_single_cell/</guid>
       <pubDate>Thu, 06 Jun 2024 19:29:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>用颜色标记产品图像（自托管）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1d9pnxr/labeling_product_images_with_colors_selfhosted/</link>
-      <description><![CDATA[大家好， 我有一个包含大约 10,000 张产品图片的大型数据集，我需要用颜色信息进行标记。我正在寻找可以自行托管/本地运行的免费开源解决方案。到目前为止，我尝试了一些节点库和 opencv + scikit，但结果并没有真正让我满意，因为我经常只得到特定的十六进制值，而这些值很难转换成好的颜色标签。  您有做到这一点的经验吗？    提交人    /u/Paddyhallek   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1d9pnxr/labeling_product_images_with_colors_selfhosted/</guid>
-      <pubDate>Thu, 06 Jun 2024 18:45:36 GMT</pubDate>
     </item>
     <item>
       <title>哪个更好？</title>
