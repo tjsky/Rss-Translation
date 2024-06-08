@@ -4,107 +4,99 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Sat, 08 Jun 2024 08:49:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2024 12:16:08 GMT</lastBuildDate>
     <item>
-      <title>在我们题为“工程偶然性：当知识共享带来知识产品时 [...]</title>
-      <link>https://t.me/hn_summary/93825</link>
-      <description><![CDATA[工程偶然性：当知识共享导致知识生产时
-在我们题为“工程偶然性：当知识共享导致知识生产时”的研究中，我们探讨了知识相似性与偶然相遇导致知识生产的可能性之间的关系。我们的自然现场实验是在一次医学研究研讨会上进行的，涉及 15,817 对科学家对，他们的面对面互动因外部因素而变化。使用社会测量徽章进行直接互动观察并跟踪六年来的出版记录，我们发现研究兴趣重叠的科学家往往会获得和创造更多知识。但是，如果他们来自相似的领域，他们引用彼此的工作的可能性就较小。这凸显了知识相似性对知识生产结果的协作和竞争影响。]]></description>
-      <guid>https://t.me/hn_summary/93825</guid>
-      <pubDate>Sat, 08 Jun 2024 08:49:10 GMT</pubDate>
+      <title>[媒体] 微软宣布在 Windows 11 中推出新的回忆功能，该功能可截图 [...]</title>
+      <link>https://t.me/hn_summary/93838</link>
+      <description><![CDATA[除非您选择加入，否则 Windows 不会截取您所做的一切
+
+微软宣布，Windows 11 中的新 Recall 功能（可截取您在 PC 上所做的一切）将是一项可选功能，而不是默认启用。这一决定是在隐私倡导者和安全专家对潜在的网络安全风险表示担忧之后做出的。Recall 现在将需要通过 Windows Hello 进行用户身份验证，并将包括额外的数据保护措施，例如加密搜索索引和“即时”解密。这一变化是在批评 Recall 数据库以前以纯文本形式存储，使其容易受到恶意软件攻击之后做出的。微软强调，Recall 数据保持本地和私密，该功能仅在具有高级安全措施的新型 Copilot Plus PC 上可用。该公司致力于优先考虑安全性，正如首席执行官萨蒂亚·纳德拉 (Satya Nadella) 最近对员工的指示所强调的那样。]]></description>
+      <guid>https://t.me/hn_summary/93838</guid>
+      <pubDate>Sat, 08 Jun 2024 12:16:08 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 今天，我们很高兴推出 WARC-GPT，一款开源、可定制的检索增强工具 [...]</title>
-      <link>https://t.me/hn_summary/93824</link>
-      <description><![CDATA[WARC-GPT：一款使用 AI 探索网络档案的开源工具
-今天，我们很高兴推出 WARC-GPT，这是一款专为网络档案社区设计的开源、可定制的检索增强生成 (RAG) 工具。WARC-GPT 使用户能够创建聊天机器人，利用网络档案文件作为他们的知识库，通过自然语言查询促进探索。与传统的关键字搜索不同，WARC-GPT 采用多文档全文搜索，并进行摘要、列出来源和相关文本摘录以供验证。
-
-这个项目是我们持续探索 AI 对知识访问的影响的一部分。WARC-GPT 是一个原型，旨在了解 AI 在揭示网络档案内容方面的作用。有关安装说明，请访问我们的 GitHub 页面。
-
-有争议的方面：由于训练数据的限制，AI 可能会“产生幻觉”答案，这是一个重大问题。
-
-独特功能：WARC-GPT 能够将 LLM 知识与特定的 WARC 集合相结合，从而提高对专业查询的响应的相关性和准确性。（基于 58% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/93824</guid>
-      <pubDate>Sat, 08 Jun 2024 08:49:07 GMT</pubDate>
+      <title>[媒体] 在 thenewsta 上的文章“冲刺让你慢下来：构建软件的更好方法”中 [...]</title>
+      <link>https://t.me/hn_summary/93837</link>
+      <description><![CDATA[冲刺让你慢下来：构建软件的更好方法
+在thenewstack.io上的文章“冲刺让你慢下来：构建软件的更好方法”中，作者批评了软件冲刺的普遍使用，认为它们经常导致倦怠、代码不达标和开发人员流失率高。凭借 12 年经营软件公司的经验和编程系统博士学位，作者主张采用一种替代方法，该方法可以消除截止日期并赋予规模较小、自主的团队权力。Everlaw 使用的这种方法使工程师能够在没有截止日期压力的情况下构建整个功能，从而提高代码质量并提高整体生产力。令人惊讶的是，这种方法随着时间的推移会推出更多功能，工程师也会更开心。作者强调，虽然这种模式可能不适合早期创业公司，但对于专注于长期成功的公司来说，它非常有效。]]></description>
+      <guid>https://t.me/hn_summary/93837</guid>
+      <pubDate>Sat, 08 Jun 2024 12:16:05 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] “ungoogled-chromium”项目旨在提供一个 Google Chromium 版本 [...]</title>
-      <link>https://t.me/hn_summary/93823</link>
-      <description><![CDATA[Google Chromium，不与 Google 集成
-“ungoogled-chromium”项目旨在提供一个不依赖 Google 网络服务的 Google Chromium 版本，同时保留默认的 Chromium 体验。它通过删除对 Google 的后台请求、消除 Google 特定代码以及禁用损害用户控制的功能来解决隐私和透明度问题。与其他 Chromium 分支不同，它是 Chromium 的直接替代品，对用户体验的影响很小。主要功能包括阻止内部 Google 请求和从源代码中删除二进制文件。该项目支持多个平台，并通过命令行开关和配置标志提供广泛的自定义选项。]]></description>
-      <guid>https://t.me/hn_summary/93823</guid>
-      <pubDate>Sat, 08 Jun 2024 08:49:02 GMT</pubDate>
+      <title>[媒体] 美国联邦法官裁定，针对谷歌的反垄断诉讼将由[...]决定。</title>
+      <link>https://t.me/hn_summary/93836</link>
+      <description><![CDATA[谷歌向山姆大叔开出 200 万美元支票，以避免陪审团审判
+在谷歌向政府支付 230 万美元以支付索赔后，美国一名联邦法官裁定，针对谷歌的反垄断诉讼将由法官而不是陪审团决定。此案的焦点是谷歌的广告技术，是拜登政府对大型科技公司提起的第一起反垄断诉讼。美国司法部和几个州指控谷歌存在反竞争行为。法官 Leonie Brinkema 的裁决对希望进行陪审团审判的司法部来说是一个挫折。谷歌发言人 Peter Schottenfels 对这项裁决表示赞赏，称司法部的损害赔偿要求“是捏造的”。谷歌的即时驳回动议听证会定于 6 月 21 日举行，如果不获批准，将于 9 月举行法庭审判。]]></description>
+      <guid>https://t.me/hn_summary/93836</guid>
+      <pubDate>Sat, 08 Jun 2024 12:14:01 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 东京正在采取一种独特的方法来应对出生率下降的问题，并推出了一项新举措[...]</title>
-      <link>https://t.me/hn_summary/93822</link>
-      <description><![CDATA[东京政府正在开发自己的约会应用程序以应对出生率下降
-东京正采取一种独特的方法来应对出生率下降的问题，推出了一项名为“东京二人故事”的新计划。这个市政厅项目旨在促进社会中独居或“独居”越来越普遍的人际关系。该计划包括一个为潜在情侣提供建议和信息的在线网站，并且正在开发一款约会应用程序，预计将于今年晚些时候推出。有争议的是，该应用程序可能需要身份验证、收入证明和结婚承诺，但细节仍未确定。日本的出生率创下历史新低，结婚率也在下降。政府正在通过向家庭提供现金奖励和放宽移民政策来解决劳动力短缺问题。东京市政厅还举办针对单身人士的活动，并为情侣提供分享爱情故事的创意方式。]]></description>
-      <guid>https://t.me/hn_summary/93822</guid>
-      <pubDate>Sat, 08 Jun 2024 08:34:54 GMT</pubDate>
+      <title>[媒体] 用于生物信息学的 R 还是 Python？</title>
+      <link>https://t.me/hn_summary/93835</link>
+      <description><![CDATA[R 还是 Python 适合生物信息学？
+如果您在 Python 和 R 之间犹豫不决，那么您并不孤单——这已经困扰了初学者几十年。我的旅程始于 12 年前的 Unix 命令，然后是 Python，我发现 Python 对于生物信息学来说不太实用，因为它处理表格和电子表格很麻烦。另一方面，R 凭借其对数据框和 tidyverse 包的内置支持而表现出色，使复杂的数据整理变得轻而易举。它的 Bioconductor 生态系统提供了数千个生物信息学包，例如用于 RNAseq 分析的 DESeq2。然而，R 需要将所有数据加载到内存中，这对于大型数据集来说可能是一个缺点，尽管 DelayedArray 解决了这个问题。两种语言各有优势：R 可以使用预构建的包进行快速分析，而 Python 则适合进行严肃的编程和算法开发。理想情况下，学习这两种语言以充分利用它们的独特优势。祝您学习愉快！
+
+Tommy
+
+争议：关于 Python 还是 R 更适合生物信息学的争论仍未解决，双方都有强烈的意见。
+
+独特/巧妙：R 中的 DelayedArray 包是一种巧妙的解决方案，无需过多的 RAM 即可处理大型数据集。]]></description>
+      <guid>https://t.me/hn_summary/93835</guid>
+      <pubDate>Sat, 08 Jun 2024 12:07:56 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 标题：促进更好思考的工具</title>
-      <link>https://t.me/hn_summary/93821</link>
-      <description><![CDATA[促进更好思考的工具
-标题：促进更好思考的工具
-
-网站：untools.co
-
-第一原则
-
-第一原则思维是一种强大的问题解决方法，它涉及将复杂问题分解为最基本的部分。通过剥离假设并将问题简化为基本要素，您可以发现可能不会立即显现的创新解决方案。这种方法鼓励更深入地了解基本原则，培养创造力并使您能够更有效地应对挑战。]]></description>
-      <guid>https://t.me/hn_summary/93821</guid>
-      <pubDate>Sat, 08 Jun 2024 08:24:48 GMT</pubDate>
+      <title>[媒体] 中国曾经蓬勃发展的中产阶级，以强劲的消费和投资而闻名，但现在 [...]</title>
+      <link>https://t.me/hn_summary/93834</link>
+      <description><![CDATA[中国中产阶级正在消失
+中国曾经蓬勃发展的中产阶级以其强劲的消费和投资而闻名，但现在正面临大幅下滑，许多人重新陷入贫困。这种转变对中国共产党（CCP）构成了严峻挑战，该党长期以来一直与民众保持着一种隐性契约：容忍党的统治以换取经济繁荣。由恒大地产于 2021 年财务崩溃引发的持续房地产危机严重影响了房屋价值，而房屋价值是中产阶级财富的主要来源。最近的数据显示，个人所得税收入和起薪急剧下降，表明金融普遍下滑。奢侈品消费品销售额暴跌，进一步凸显了中产阶级的困境。经济衰退威胁到中共的繁荣承诺，引发了人们对潜在公众动荡的担忧。]]></description>
+      <guid>https://t.me/hn_summary/93834</guid>
+      <pubDate>Sat, 08 Jun 2024 11:58:48 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 基础设施爱好者们，大家好！</title>
-      <link>https://t.me/hn_summary/93820</link>
-      <description><![CDATA[南极水利基础设施
-您好，基础设施爱好者！在我于 2023 年 8 月发表关于南极电力基础设施的文章后，你们中的许多人要求更多有关其他系统的信息。因此，让我们深入探讨一下我们如何在南极生产和处理水。与沿海南极站不同，沿海南极站受益于海洋进行水和废水管理，而南极站由于其内陆、高海拔和极冷的位置而面临独特的挑战。
+      <title>[媒体] 标题：研究显示如今的汽车色彩远不如 20 年前</title>
+      <link>https://t.me/hn_summary/93833</link>
+      <description><![CDATA[研究显示，如今的汽车色彩远不如 20 年前
+标题：研​​究显示，如今的汽车色彩远不如 20 年前
 
-麦克默多站是美国主要的沿海枢纽，它通过加热、过滤、脱盐和精炼过程利用海水来满足淡水需求。与没有液态水源的南极相比，这相对简单。相反，我们依靠“罗德威尔”系统，该系统涉及融化雪以形成地下湖，我们可以从中抽水。这个过程耗能很大，需要大量加热才能将零下 60°F 的雪转化为液态水。
-
-罗德威尔系统以工程师 Raul Rodriguez 的名字命名，是一个聪明的解决方案，但需要不断维护和规划新井，因为旧井无法使用。这个复杂且耗能的过程就是我们对用水有严格限制的原因，比如两分钟淋浴。
-
-南极的水基础设施证明了人类在极端条件下的聪明才智，展示了我们为支持地球上最恶劣的环境之一的科学研究所做的努力。（基于 32% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/93820</guid>
-      <pubDate>Sat, 08 Jun 2024 08:24:45 GMT</pubDate>
+TheDrive.com 报告称，过去二十年，灰度汽车（黑色、白色、灰色和银色）的流行度激增。iSeeCars 的数据显示，灰度汽车现在占新车市场的 80%，高于 2004 年的 60.3%。尽管汽车制造商提供的颜色选择数量与 2004 年相同，但消费者对灰度的偏好仍然很强烈。令人惊讶的是，灰色的受欢迎程度几乎与黑色相当，甚至在跑车中也是如此。蓝色是最受欢迎的非灰度颜色，尽管许多色调比蓝色更灰。有趣的是，绿色是最近唯一一种受欢迎程度上升的非灰度颜色。这种趋势的原因包括经销商的备货做法、成本考虑和转售价值问题。如果没有重大的文化转变，鲜艳的汽车颜色不太可能大幅回归。]]></description>
+      <guid>https://t.me/hn_summary/93833</guid>
+      <pubDate>Sat, 08 Jun 2024 11:14:31 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 一架由 TUI 运营的波音 737-800 客机载着 [...]</title>
-      <link>https://t.me/hn_summary/93819</link>
-      <description><![CDATA[波音客机因已知软件漏洞险些坠毁
-3 月 9 日，一架由 TUI 运营的波音 737-800 客机因已知软件故障，载有 163 名乘客，在布里斯托机场起飞时遭遇重创，险些酿成灾难。飞机勉强驶离跑道，以危险的低空飞过一条主要道路。航空事故调查处 (AAIB) 将事故归咎于起飞时推力不足，这是由于自动油门系统脱开导致的，波音公司对此心知肚明。此次事故让波音公司不断增加的安全隐患清单再添新成员，包括最近的坠机和机械故障。TUI 强调了他们对乘客安全的承诺以及与当局的合作。]]></description>
-      <guid>https://t.me/hn_summary/93819</guid>
-      <pubDate>Sat, 08 Jun 2024 08:04:33 GMT</pubDate>
+      <title>[媒体] 在一次大胆而复杂的行动中，以色列国防军、辛贝特和以色列警察 (Yamam) 成功 [...]</title>
+      <link>https://t.me/hn_summary/93832</link>
+      <description><![CDATA[以色列国防军营救人质 Noa Argamani、Andrey Kozlov、Shlomi Ziv 和 Almog Meir
+在一次大胆而复杂的行动中，以色列国防军、辛贝特和以色列警察 (Yamam) 成功从加沙地带营救了四名以色列人质——Noa Argamani (25 岁)、Almog Meir (21 岁)、Andrey Kozlov (27 岁) 和 Shlomi Ziv (40 岁)。这些人质于 10 月 7 日被哈马斯从“Nova”派对绑架并关押在努塞拉特。辛贝特和 Yamam 战士执行的营救行动使人质情况稳定。他们已被转移到特拉哈绍梅尔的“Sheba”医疗中心接受进一步的医疗检查。安全部队仍致力于营救所有人质。这是一个正在发展的故事。]]></description>
+      <guid>https://t.me/hn_summary/93832</guid>
+      <pubDate>Sat, 08 Jun 2024 11:07:25 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 桥梁会不道德吗？</title>
-      <link>https://t.me/hn_summary/93818</link>
-      <description><![CDATA[桥梁会不道德吗？
-在“桥梁会不道德吗？”一文中，Cameron Tonkinwise 探讨了设计实践中固有的紧张关系，设计师作为“反思型从业者”，批评和预测设计结果，但往往未能批判性地审视他们的验证方法。这种疏忽可能导致设计在短期内有效，但忽略了更广泛的后果。例如，设计精良的可穿戴健康设备可能满足用户需求，但忽视了电子垃圾的生态影响。Tonkinwise 还强调了“去殖民化设计”运动，该运动认为设计往往将英国中心主义思维掩盖为中立，从而压制非西方观点并延续隐蔽的殖民主义。他强调，西方思想是一种传统，而不是传统，认识到我们方法的局限性可以开辟新的可能性。]]></description>
-      <guid>https://t.me/hn_summary/93818</guid>
-      <pubDate>Sat, 08 Jun 2024 08:00:25 GMT</pubDate>
+      <title>[媒体] 在 1986 年 11 月的《计算机编年史》这一集中，Stewart Cheifet 和 Gary Ki [...]</title>
+      <link>https://t.me/hn_summary/93831</link>
+      <description><![CDATA[101 个适用于 Lotus 1-2-3 的宏和未命名的 Lotus Symphony 冒险游戏 (2022)
+在 1986 年 11 月的这一集Computer Chronicles中，Stewart Cheifet 和 Gary Kildall 深入研究了 Lotus 1-2-3 的宏世界，Lotus 1-2-3 是 1980 年代后期占主导地位的商业编程语言。这一集邀请了多位专家，包括 Alan Simpson，他演示了宏如何节省按键并扩展 Lotus 1-2-3 的功能，以及 Lynne Hughes，她分享了创建复杂宏来管理大型预算结构的经验。本集还探讨了宏在不同环境中的使用，例如 Macintosh 上的 Microsoft Excel，甚至还介绍了如何创新地使用 Lotus Symphony 宏来开发冒险游戏。令人惊讶的是，Lotus Symphony 被用作游戏引擎，展示了宏在传统商业应用程序之外的多功能性。（根据 61% 的故事文本总结。）]]></description>
+      <guid>https://t.me/hn_summary/93831</guid>
+      <pubDate>Sat, 08 Jun 2024 11:06:21 GMT</pubDate>
     </item>
     <item>
-      <title>Unix 遗产协会 (TUHS) 致力于保存和维护历史和非 [...]</title>
-      <link>https://t.me/hn_summary/93817</link>
-      <description><![CDATA[Unix 遗产协会
-Unix 遗产协会 (TUHS) 致力于保护和维护历史和非主流 UNIX 系统。我们的使命还包括进一步开发现有的 UNIX 系统并不断培养 Unix 社区精神。UNIX 是 The Open Group 的注册商标。
+      <title>[媒体] 在网络安全这个充满活力的领域，预防威胁至关重要。</title>
+      <link>https://t.me/hn_summary/93830</link>
+      <description><![CDATA[秘密扫描研究揭示包管理器中的严重漏洞
+在网络安全这个动态领域，保持领先于威胁至关重要。这篇博文深入探讨了在 PyPI、npm、NuGet 和 RubyGems 等包存储库中进行秘密扫描的重要性，揭示了令人震惊的漏洞。API 密钥和身份验证令牌等秘密泄露可能会导致严重违规。这篇文章详细介绍了使用 EC2 机器扫描这些存储库的三管齐下的方法，强调了 AWS 访问令牌和其他敏感数据的普遍性。创新工具 PackageSpy 被引入用于自动化和增强安全扫描，提供可自定义的规则和 CI/CD 集成。研究结果强调了软件开发中对机密管理的严格要求。
 
-Warren Toomey 
-2015-12-31]]></description>
-      <guid>https://t.me/hn_summary/93817</guid>
-      <pubDate>Sat, 08 Jun 2024 07:25:09 GMT</pubDate>
+有争议的方面：AWS 访问令牌和其他敏感信息在广泛使用的软件包存储库中的暴露引发了重大的安全问题。
+
+独特/巧妙的亮点：PackageSpy 的开发是一个开源工具，支持多个软件包管理器并与 CI/CD 管道无缝集成，是解决普遍问题的巧妙解决方案。（基于 81% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/93830</guid>
+      <pubDate>Sat, 08 Jun 2024 10:48:11 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在这篇博文中，我演示了如何通过将任意 SVG 路径转换为 ​​[...] 来变形任意 SVG 路径。</title>
-      <link>https://t.me/hn_summary/93816</link>
-      <description><![CDATA[在 SVG 中变形任意路径
-在这篇博文中，我演示了如何通过将任意 SVG 路径转换为通用结构（具体来说是使用三次贝塞尔曲线）来变形任意 SVG 路径。虽然现有的解决方案（如 GSAP 和 Polymorph）很强大，但我的方法侧重于预生成动画，以避免在运行时加载大型 JS 库。该过程涉及解析 SVG 路径、规范化命令并将其转换为三次曲线。对于具有不同子路径计数的路径，我建议使用并行动画来实现变形效果。这种方法虽然很复杂，但提供了一种简化的方式来处理 SVG 路径变形，而无需过多的依赖关系。有关详细实现，请参阅提供的代码示例。（基于 72% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/93816</guid>
-      <pubDate>Sat, 08 Jun 2024 07:11:02 GMT</pubDate>
+      <title>[媒体] CAMB.AI 的 MARS5 项目是一个开源、高韵律的文本转语音 (TTS) 系统 [...]</title>
+      <link>https://t.me/hn_summary/93829</link>
+      <description><![CDATA[显示 HN：MARS5，开源、韵律超强的 TTS 模型
+CAMB.AI 的 MARS5 项目是一个开源、韵律超强的文本转语音 (TTS) 模型，旨在从文本和简短的音频样本生成听起来自然的语音。MARS5 利用两级 AR-NAR 管道，擅长为体育评论和动漫等复杂场景生成语音。它支持 140 多种语言，并允许通过标点符号和大写字母进行细微的韵律控制。独特功能包括“深度克隆”以实现更高质量的输出，以及通过 torch.hub 轻松加载模型。该项目旨在提高推理稳定性、性能和参考音频选择。欢迎贡献，该模型已获得 GNU AGPL 3.0 许可。]]></description>
+      <guid>https://t.me/hn_summary/93829</guid>
+      <pubDate>Sat, 08 Jun 2024 10:27:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
