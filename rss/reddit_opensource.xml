@@ -4,7 +4,42 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 10 Jun 2024 12:26:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 18:18:24 GMT</lastBuildDate>
+    <item>
+      <title>Relia：通过建立您自己的 LLM 基准，找到最适合您需求的 LLM。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dcrqsa/relia_find_the_best_llm_for_your_needs_by/</link>
+      <description><![CDATA[  由    /u/phantom0112  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dcrqsa/relia_find_the_best_llm_for_your_needs_by/</guid>
+      <pubDate>Mon, 10 Jun 2024 17:50:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>保护开源项目免受商标流氓的侵害？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dcq8ut/protecting_open_source_project_against_trademark/</link>
+      <description><![CDATA[我曾经从事过一个与 GNU 类似的项目，但它并不是 GNU 的替代品或附属品，因为它将专注于不同的领域，并且主要只是在 GNU 活跃的领域推广或跟随 GNU，但它专注于其他领域，而 GNU 主要关注软件、文档和硬件的自由，而这个项目将关注人民和世界的自由及其权利。 然而，我在专利制度方面有很多经验，大公司会复制他人的作品，然后为其申请专利并起诉原始设计师，尽管有足够的现有技术来证明原始设计师确实是幕后推手，我不禁想知道商标制度是怎样的，尤其是最近的一些案例，一些公司会将普通的单词注册为商标，并起诉任何在其名称中使用普通单词的网站，例如 limb 中的 &amp;quot;arm&amp;quot; 或 &amp;quot;intel&amp;quot;如信息等。 那么一般的开源项目如何保护自己免受此类商标流氓的侵害？这些商标流氓会在看到一个项目后将其名称或部分内容注册为商标，然后攻击或起诉他们等。尤其是像 GNU 或与 GNU 类似的项目。 尤其是现在，因为在过去的互联网上，大公司没有这么大，也没有那么大的影响力，人们仍然可以很容易地找到一些不错的小项目，而现在这要困难得多。    提交人    /u/EllesarDragon   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dcq8ut/protecting_open_source_project_against_trademark/</guid>
+      <pubDate>Mon, 10 Jun 2024 16:49:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>原子代理 - 新的开源库，用于原子构建 AI 代理，也可与本地模型配合使用</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dcour6/atomic_agents_new_opensource_library_to_build_ai/</link>
+      <description><![CDATA[https://github.com/KennyVaneetvelde/atomic_agents 我一直在研究一种名为 Atomic Agents 的新开源 AI 代理框架。在为自己的项目投入大量时间之后，我对 AutoGen 和 CrewAI 感到非常失望。 许多库试图隐藏很多东西，让一切看起来都很神奇。他们经常宣传这样的想法：“单击这 3 个按钮并输入这些提示，哇，现在你就有了一个完全自动化的 AI 新闻机构。”然而，这些解决方案往往在 95% 的时间内都无法满足您的要求，而且成本高昂且不可靠。 这些库试图通过自动任务委派等方式自主完成太多事情。虽然这非常酷，但对于生产来说往往毫无用处。大多数生产用例都更加直接，例如：  在网络上搜索主题 获取最有希望的 URL 查看这些页面 总结每个页面 ...  为了解决这个问题，我决定在 Instructor 之上构建我的框架，这是一个已经很棒的库，它使用 Pydantic 约束 LLM 输出。这使我们能够创建使用完全使用 Pydantic 定义的工具和输出的代理。 现在，需要明确的是，我仍然计划支持自动委派，事实上我已经开始在本地实现它，但是我发现大多数用例并不需要它，事实上，它因为给 AI 太多决定而受到影响。 结果是一个轻量级、灵活、透明的框架，对于我使用过的用例来说，它工作得非常好，即使在 GPT-3.5-turbo 和一些更大的本地模型上也是如此，而 autogen 和 crewAI 则是完全失败的案例，除非只使用最强大、最昂贵的模型。 我将不胜感激任何测试、反馈、贡献、错误报告……    提交人    /u/TheDeadlyPretzel   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dcour6/atomic_agents_new_opensource_library_to_build_ai/</guid>
+      <pubDate>Mon, 10 Jun 2024 15:52:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于 Linux 的离线 AI 视线校正用于预录视频？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dcog1v/linux_based_offline_ai_eye_gaze_correction_for/</link>
+      <description><![CDATA[我正准备拍摄视频，用我的 iPhone 捕捉动作，同时用一台运行 QPrompt 的布满灰尘的旧 Linux 平板电脑背诵台词。在我假装自己是一名演员之后，我想使用人工智能调整我的目光，这样看起来就像我真的在与相机互动，而不仅仅是盯着一旁的提词器。我有一台运行 Ubuntu Linux 的具有人工智能的 Razer Blade 16，但我找不到用于进行目光校正的 Linux 兼容离线人工智能解决方案。你能相信吗？我开始觉得宇宙在这里错过了一个备忘录；我的直觉告诉我这个轮子早就应该被发明出来了。有谁知道一个我可能错过的离线免费开源 Linux 兼容解决方案吗？    提交人    /u/LoganTI99   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dcog1v/linux_based_offline_ai_eye_gaze_correction_for/</guid>
+      <pubDate>Mon, 10 Jun 2024 15:35:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有快照功能的开源 PDF 阅读器？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dcnrzh/open_source_pdf_reader_with_snapshot_function/</link>
+      <description><![CDATA[嘿！ 我不想再使用 Adob​​e 了，但我真的需要运输标签的快照功能（我可以选择标签并直接打印） 有谁知道是否有一个开源程序也可以做到这一点？甚至可以编辑 PDF？    提交人    /u/Nathural   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dcnrzh/open_source_pdf_reader_with_snapshot_function/</guid>
+      <pubDate>Mon, 10 Jun 2024 15:07:30 GMT</pubDate>
+    </item>
     <item>
       <title>goManageDocker——管理docker对象的权威方法</title>
       <link>https://www.reddit.com/r/opensource/comments/1dcjpw4/gomanagedocker_the_definitive_way_to_manage/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[大家好， 我想学习如何构建单人纸牌游戏，因此我正在寻找一个简单但功能齐全的开源版本。 谢谢    提交人    /u/umen   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1dbu639/looking_for_a_simple_opensource_solitaire_game/</guid>
       <pubDate>Sun, 09 Jun 2024 13:49:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源还关乎社区和用户的自由，而不仅仅是那些寻求从中获利的企业</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dbtf9t/open_source_is_also_about_the_freedoms_of/</link>
-      <description><![CDATA[我发现，DHH 的以下文章在过去几天里在互联网上被转载了好几轮，包括在这个子版块中： 开源既不是社区也不是民主 最上面的评论所说的正是当今的流行观点，但我强烈反对：  太多人认为开源项目欠他们什么。这些人似乎总是“忘记”他们可以分叉并自己做。但在大多数情况下，他们做不到，因为他们实际上没有能力这样做。  推动这种思路可能有一些优点（以及您在回复中看到的一些批评），但这种思路显然有利于企业，这些企业通常通过封闭 Apache 和 MIT 等宽松许可证的源代码并将其转变为专有的围墙花园软件来保持获利。 虽然宽松人士和版权左翼人士对软件自由本身的定义或含义存在一些分歧，但考虑到我们所处的技术和时代状况，我们必须将重点转向版权左翼许可证。考虑到我们今天碰巧使用的最流行的软件是侵犯隐私的围墙花园，在过去十年中，诸如维修权和完全拥有您付费购买的软件的自由等权利逐渐被侵蚀。就在我们说话的时候，我们这个时代最受欢迎的浏览器即将在下个月带来一个重大的清单版本变化，其唯一目的是限制用户屏蔽广告的能力。在这种时候，根据 GPL/LGPL 而不是宽松许可证重新授权您的 FOSS 项目更有意义。 版权左派许可证要求您做的就是不要关闭“循环”并让您的下游发行版也在 GPL/LGPL 下开放。从这个意义上说，我认为版权左派许可证比所谓的开源或宽松许可证本身更加开源！    提交人    /u/pyeri   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dbtf9t/open_source_is_also_about_the_freedoms_of/</guid>
-      <pubDate>Sun, 09 Jun 2024 13:12:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们的开源项目有网站吗？你们用什么网站？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dbtb2c/do_you_have_website_for_your_opensource_what_do/</link>
-      <description><![CDATA[大家好， 我不是 webdev（但我可以管理后端和前端 - 成功完成过几次），并且我正在运行这个副项目。我想为它设置一些无忧的网站。我有一个数字海洋服务器，非常适合所有自定义后端，但我想拥有一些我不必担心的东西。我已经有域名了。 所以我想知道您在项目网站上使用了什么？您推荐任何工具来制作布局等。 也分享您的项目和网站！ 编辑：显然，GitHub 很棒，但技术水平较低或非技术水平的人多次问我是否有一个用于该项目的普通网站。    提交人    /u/TraditionalDistrict9   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dbtb2c/do_you_have_website_for_your_opensource_what_do/</guid>
-      <pubDate>Sun, 09 Jun 2024 13:06:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Github - 使用 Gemini API 在 Windows 上重命名、组织和轻松查找图像的免费开源工具</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dbrh8e/github_free_and_open_source_tool_to_rename/</link>
-      <description><![CDATA[        由    /u/5tambah5 提交   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dbrh8e/github_free_and_open_source_tool_to_rename/</guid>
-      <pubDate>Sun, 09 Jun 2024 11:21:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源用户体验：回顾 Joplin 和 Ocenaudio</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dbpv4u/open_source_ux_reviewing_joplin_and_ocenaudio/</link>
-      <description><![CDATA[        提交人    /u/bemmu   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dbpv4u/open_source_ux_reviewing_joplin_and_ocenaudio/</guid>
-      <pubDate>Sun, 09 Jun 2024 09:30:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源既不是一个社区，也不是民主</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dbjy1m/open_source_is_neither_a_community_nor_a_democracy/</link>
-      <description><![CDATA[        提交人    /u/fagnerbrack   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dbjy1m/open_source_is_neither_a_community_nor_a_democracy/</guid>
-      <pubDate>Sun, 09 Jun 2024 03:05:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
