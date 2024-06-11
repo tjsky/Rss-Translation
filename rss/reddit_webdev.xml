@@ -3,10 +3,94 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 11 Jun 2024 18:19:25 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
+    <lastBuildDate>Tue, 11 Jun 2024 21:26:08 GMT</lastBuildDate>
     <item>
-      <title>在 ChromeOS 上调试用户问题的策略？</title>
+      <title>什么是 React 中的状态管理？我们在哪里需要它？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddplzw/what_is_state_management_in_react_and_where_do_we/</link>
+      <description><![CDATA[我很困惑在 React 中哪里使用状态管理。有人可以用简单的话解释一下吗？    提交人    /u/shesparkzz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddplzw/what_is_state_management_in_react_and_where_do_we/</guid>
+      <pubDate>Tue, 11 Jun 2024 21:25:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 AI 聊天机器人来扩展我的独立项目的客户支持</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddpd9c/using_an_ai_chatbot_to_scale_customer_support_on/</link>
+      <description><![CDATA[  由    /u/bbozzay  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddpd9c/using_an_ai_chatbot_to_scale_customer_support_on/</guid>
+      <pubDate>Tue, 11 Jun 2024 21:15:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动将静态的WordPress转换为简化的结构？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddpcu3/automatically_convert_static_wordpress_to/</link>
+      <description><![CDATA[我有一个使用 Simply Static 插件导出的 WordPress 网站，它的组织方式如下： /wp-content/ /plugins/ /themes/ /index.html 但是，我希望它像这样： /index.html /css/ /js/ /images/ 有没有办法自动执行此操作？    提交人    /u/blueredscreen   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddpcu3/automatically_convert_static_wordpress_to/</guid>
+      <pubDate>Tue, 11 Jun 2024 21:14:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何使用 Pagefind 轻松为 Eleventy 静态网站添加搜索功能</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddpcp7/how_to_easily_add_search_functionality_to/</link>
+      <description><![CDATA[  由    /u/localslovak  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddpcp7/how_to_easily_add_search_functionality_to/</guid>
+      <pubDate>Tue, 11 Jun 2024 21:14:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Eleventy 网站上使用 Pagebreak 实现分页</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddpbov/implementing_pagination_with_pagebreak_on_an/</link>
+      <description><![CDATA[  由    /u/localslovak  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddpbov/implementing_pagination_with_pagebreak_on_an/</guid>
+      <pubDate>Tue, 11 Jun 2024 21:13:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>学校评分应用程序帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddpbgg/school_grading_app_help/</link>
+      <description><![CDATA[我正在制作一个学校应用程序，它基本上是从我们的数据库中提取信息并发布。我不知道这是不是正确的提问的地方，但我们学校使用 Skyward 的网站限制了他们的 API。我最近听说了网页抓取，想知道这是否可行。据我所知，网页抓取是一种自动从网站获取数据的方法。但对于像 Skyward 这样的学校网站，每个人都有自己的用户名和密码。我们登录帐户的唯一方法是通过“使用 Google 登录”。有没有一种方法可以“网页抓取”并检索数据，只要他们有 Skyward 帐户，任何人都可以使用我的应用程序？我知道这可能行不通，我很愚蠢，因为获取人们的用户名和密码是违法的。但有什么我不知道的吗？请告诉我！    提交人    /u/Extiv   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddpbgg/school_grading_app_help/</guid>
+      <pubDate>Tue, 11 Jun 2024 21:12:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>有网站想法但没有任何开发背景</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddou5o/have_an_idea_for_a_website_but_zero_background_in/</link>
+      <description><![CDATA[我想出了一个日常益智游戏（类似 Wordle）的创意/设计/规则，并希望能够付诸实践，但我不知道如何实现它。 像这样的东西是否足够先进，需要合理的开发经验？ 是否值得找人为我/与我一起构建它？ 我是否能够在合理的时间内学习开发并自己构建它？（这只是一个副业/爱好，我有一份全职工作） 哪里是开始这个​​特定想法的好地方？    提交人    /u/kingbuttshit   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddou5o/have_an_idea_for_a_website_but_zero_background_in/</guid>
+      <pubDate>Tue, 11 Jun 2024 20:52:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>你会如何为一个创意筹集资金？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddnym0/how_would_you_raise_money_for_an_idea/</link>
+      <description><![CDATA[我认为这是一个我们都可以从中受益的讨论。 但基本上我有一些想法/项目，我宁愿为之工作，而不是全职工作。问题是我不能不工作，而做“副业”意味着我必须把它们控制在小规模，因为我的空闲时间有限。 理想情况下，我希望能够筹集 10 万或 20 万美元，这样“这笔钱可以打折支付我一年的薪水，还能让我在零星时间雇佣我可能需要的帮助” 我曾考虑过和从事创业工作的老板们谈谈，但我心里想的“给我钱让我实现我的想法或你的想法一年”会让我被嘲笑。  我知道 FFF 轮次，但实际上我并不认识任何支票账户中有超过 500 美元的人会捐钱。  所以我有一部分认为“那个世界”是那些可以接触到有钱人的人真正了解的。 但我对你们所有人的看法/经历感兴趣？    提交人    /u/IAmRules   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddnym0/how_would_you_raise_money_for_an_idea/</guid>
+      <pubDate>Tue, 11 Jun 2024 20:16:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何让 Visual Studio Code 在删除使用的文件时发出警告？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddlz62/how_make_visual_studio_code_give_a_warning_when/</link>
+      <description><![CDATA[抱歉，这个问题太初级了。 我有一个项目，里面有很多未使用的图像。逐个删除它们会很麻烦。 有没有办法让 Visual Studio Code 给我一个警告/阻止我仅删除正在使用的文件？这样，当我尝试删除文件夹中的所有文件时，只保留正在使用的文件。 我用的是 Windows。    提交人    /u/slim_bim   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddlz62/how_make_visual_studio_code_give_a_warning_when/</guid>
+      <pubDate>Tue, 11 Jun 2024 18:55:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何添加具有固定纵横比的 div，以适合窗口宽度或高度（以较低者为准）？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddltxg/how_do_i_add_a_div_with_fixed_aspect_ratio_that/</link>
+      <description><![CDATA[      像图片一样（红色框表示我想要制作的 div 的边框），我想创建一个具有固定纵横比（比如说 16/9）的 div，并调整 div 的大小，这样当浏览器窗口宽度大于 16/9 时，div 的高度就是窗口高度；当浏览器窗口窄于 16/9 时，div 的宽度就是窗口宽度。我试过 object-fit: contain; 但它对 div 不起作用。请帮忙。    提交人    /u/gentsuenhan   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddltxg/how_do_i_add_a_div_with_fixed_aspect_ratio_that/</guid>
+      <pubDate>Tue, 11 Jun 2024 18:50:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>比较未发布的 SEO</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddlql5/comparing_unpublished_seo/</link>
+      <description><![CDATA[我最近发布了一个新网站，想将其 SEO 性能与它所取代的网站进行比较。我可以获得旧网站的 SEO 分析吗？我们从未在旧网站上使用过 Google Analytics，它不再发布或保存在任何地方。我该怎么办？    提交人    /u/Mr_Ga   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddlql5/comparing_unpublished_seo/</guid>
+      <pubDate>Tue, 11 Jun 2024 18:46:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>以编程方式创建 RSS 源</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ddln6v/creating_rssfeed_programmatically/</link>
+      <description><![CDATA[嗨。最近有人写过一个产生 RSS 源的控制器吗？ 我想创建几个 RSS 源：用于文章/帖子和音频/播客。特别是音频源感觉很难。 这似乎很残酷，因为几乎没有现有的库可以做到这一点，而且它们不是 10 年前的，因此不再与任何东西兼容。就我而言，它是一个基于 NestJS 的应用程序。但我也对 Python、PHP、Go 持开放态度。许多未合并的 PR，如https://github.com/jpmonette/feed/pull/163。 我知道我可以写一个由 XML 标签组成的巨大字符串。但我读得越多，它就越复杂。特别是在支持 iTunes 和其他音频播放器等各种平台时，这些平台有时有自己的自定义格式。    提交人    /u/tf1155   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ddln6v/creating_rssfeed_programmatically/</guid>
+      <pubDate>Tue, 11 Jun 2024 18:42:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChromeOS 上调试用户问题的策略？</title>
       <link>https://www.reddit.com/r/webdev/comments/1ddkv0t/strategies_for_debugging_user_issues_on_chromeos/</link>
       <description><![CDATA[我的一个项目的用户在使用 ChromeOS / Chrome 时遇到了非常奇怪的问题。他们不懂技术，我无法让他们给我足够的信息来帮助调试。 此外，由于虚拟 GPU 问题，ChromeOS Flex 似乎无法在 VM 内运行。您可以运行旧版本，但我对 Flex 感兴趣。 在我不得不购买另一台几乎不使用的笔记本电脑之前，有没有什么技巧可以在 ChromeOS 中调试 Web 应用程序？ 作为一个试图解决我的边缘情况的独立开发者，任何想法或想法都值得赞赏。    提交人    /u/flooronthefour   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ddkv0t/strategies_for_debugging_user_issues_on_chromeos/</guid>
@@ -25,90 +109,6 @@
       <description><![CDATA[大家好，我宣布部署 Termace 项目。 Termace (Terminale ace the exams) 是一个开源网站，旨在帮助 12 年级的黎巴嫩学生学习。它包含的不仅仅是课程。它有来自全国各地的学生上传的学习材料。 黎巴嫩正遭受严重的政治/经济危机，处于战争边缘。黎巴嫩 12 年级学生在夏天要参加决定他们整个未来的正式考试。这个项目旨在帮助他们专注于学习，并让他们可以从任何地方访问学习材料。 技术细节：它目前部署在 github 页面上，学习内容本身托管在 github 存储库中，一些文件使用 git lfs 进行跟踪。它使用 React、typescript 和 tailwind 构建，完全静态网站 = 0 成本。  该网站还远未完成，仍然存在许多错误和大量改进空间。作为一名 12 年级的学生，我写这篇文章是为了寻求来自世界各地的开源开发人员的帮助，以便能够更加专注于我的学业。 欢迎随时浏览网站并报告错误或功能，然后将其发送至 maxovicsteiner@gmail.com 网站网址：https://termace.github.io Github 网址：https://github.com/termace/termace.github.io (主分支) 也可以随意与任何你知道可以从中受益的人分享这个网站。 同样，任何对技术堆栈本身有经验并且有空闲时间的人都可以为使其变得更好做出贡献（这是一个很大的混乱）。我们还迫切需要一个徽标（目前仍在使用默认的 react 徽标😭）。  感谢大家的时间，我希望这个项目能够有所作为/帮助不幸的学生能够更好地学习，并希望在考试中取得好成绩。    提交人    /u/___s8n___   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ddk9wv/the_termace_project/</guid>
       <pubDate>Tue, 11 Jun 2024 17:47:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>了解新导航 API 的一个简单方法 - 只需在 Chromium 浏览器中打开控制台浏览 Reddit。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddjra5/one_easy_way_to_learn_about_the_new_navigation/</link>
-      <description><![CDATA[它们在每次导航时记录 NavigateEvent 对象。在生产中保留这些侦听器是一个有趣的选择，但我猜他们可能在调试方面与其他一些高级分析一起使用。 希望它能很快在其他浏览器中得到使用。这比一起使用 History 和 Location API 好得多。    提交人    /u/jessepence   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddjra5/one_easy_way_to_learn_about_the_new_navigation/</guid>
-      <pubDate>Tue, 11 Jun 2024 17:25:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web 平台与框架。2024 年框架仍然值得吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddjior/web_platform_vs_frameworks_frameworks_still_worth/</link>
-      <description><![CDATA[自从我进入 Web 开发领域以来，Web 平台已经取得了长足的进步。至少在大型平台中，无论是在规格还是浏览器实现方面，它的进展速度都快得多。 在过去一年左右的时间里，我的团队一直在构建 sveltekit 应用程序。现在，我们对用户群和项目的发展轨迹有了比一开始更清晰的了解，我们发现在服务器端渲染 (SSR) 的性能与复杂性之间进行权衡是不值得的。我从事这项工作已经很长时间了，就解决问题的能力而言，这可能是我合作过的最强大的开发团队之一。话虽如此，与我之前的几个团队相比，我们的交付速度很慢，而且差距很大。 现在他们想重新构想没有 SSR 的平台，我认为这对我们的受众来说是正确的举措。但他们也想摆脱框架。这意味着我们最终将构建自己的框架。他们实际上只想使用 lit 来构建我们的原语，这对我来说都没问题。 我担心的是，我们不知道我们还不知道什么，而且我们会陷入解决框架已经解决的问题的泥潭，我们将继续缓慢地交付，而我们的工具（或缺乏工具）则会受到它的阻碍。 考虑到 Web 平台和自定义元素/Web 组件的现状，这仍然是一种合理的思路吗？或者我们认为 Web 平台本身已经足够成熟，很多框架（如 react、vue、angular、svelte 等）正在解决的问题在没有它们的情况下也可以轻松解决？    提交人    /u/OnRedditAtWorkRN   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddjior/web_platform_vs_frameworks_frameworks_still_worth/</guid>
-      <pubDate>Tue, 11 Jun 2024 17:15:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>我可以使用哪些方法使基于 jquery CSP 构建的网站符合要求？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddizbr/what_methods_can_i_use_to_make_a_website_built_on/</link>
-      <description><![CDATA[我于 12 月开始了我的第一份开发工作。我被告知要完成这个 ASP.NET MVC 项目并使其符合 CSP（内容安全策略），然后我们会将其更新到 .NET 6 并最终更新到 .NET 8。该项目由承包商于 2016 年建立，从那时起就一直在维护。这是我第一次使用 JS（完全）和 CSS（达到这个级别）。我经历了很多挣扎，学到了很多东西，但它仍然让我感到慌乱。首先，我必须学习 Razor 和 C#，并了解在尝试处理内联 CSS 和 JS 代码时服务器端与客户端的功能。我创建了一个 Main.css 和一个 Main.js，然后开始移动代码。我最终到了还剩下两个问题的阶段：  从内联移动到单独文件时，一些 CSS 发生了变化，我在将本地主机（我的更改）与开发环境在视觉和语法上进行比较时很难弄清楚为什么会发生这种情况。  最重要的是，我继续在内联 JS 方面苦苦挣扎。许多程序文件本身或通过 Razor 注入内联脚本。我尝试使用 jquery 的 htmlfilter 属性mutationobserver 的覆盖来查找这些脚本标记，将它们更改为数据样式标记，然后应用它们，以便它们不会触发 CSP。这对许多人有用，但不是全部。例如，jquery 通过 Razor htmlhelper 验证摘要注入的样式不受影响，可能是因为它在客户端之前在服务器端以某种方式处理。   无论如何，我已经搜索了有关 jquery 和 CSP 的帮助，但信息并不多。我不知道该如何干净地解决这个问题。Jquery 控制着网格、标题等几乎所有的样式。有没有办法在浏览器捕获之前更轻松地捕获它的输出？我的领导不希望我更改本地存储的 jquery 库文件，因为当库更新时它会破坏网站。     提交人    /u/AccidentalFolklore   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddizbr/what_methods_can_i_use_to_make_a_website_built_on/</guid>
-      <pubDate>Tue, 11 Jun 2024 16:54:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立职业道德，害怕停留在同一个地方。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddir2r/building_work_ethic_fear_of_staying_the_same_place/</link>
-      <description><![CDATA[事情是这样的。我是一名即将毕业的计算机科学专业学生。我对自己的技能很有信心，但是，我真的很担心公司游戏。我知道我想赚大钱，因为我生活在一个第三世界国家，这里的空气甚至都无法呼吸了。每天都有新闻说，女性被那些本应保护我们的人强奸。谋杀案也在增加，这太不安全了。我需要快点离开这里。我必须这样做。 人们对你的看法真的很重要，我很好奇你会向像我这样即将开始职业生涯的人推荐什么，特别是当你需要利用所有你能得到的资源的时候。 你是如何培养你的职业道德的？你的职业道德是什么？工作生活的小贴士？    提交人    /u/Annual-Ad-416   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddir2r/building_work_ethic_fear_of_staying_the_same_place/</guid>
-      <pubDate>Tue, 11 Jun 2024 16:44:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 API 时如何保持数据新鲜</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddidvz/how_to_keep_data_fresh_when_using_api/</link>
-      <description><![CDATA[因此，我使用 espn fantasy API 来提取球员数据和球队数据。由于我将进行自己的数据分析，因此我将大量数据存储在自己的 SQL 数据库中。我的问题是，假设 API 中发生了一些变化，无论是得分、花名册还是其他类似的东西。保持数据新鲜的最佳方法是什么？显然，每天的请求限制为 1200 个。因此，我很好奇，有什么好方法可以确保我自己的数据库拥有最新的信息。    提交者    /u/ChimneyCraft   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddidvz/how_to_keep_data_fresh_when_using_api/</guid>
-      <pubDate>Tue, 11 Jun 2024 16:29:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>最有效的前进道路是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddhyrj/what_is_the_most_efficient_path_forward/</link>
-      <description><![CDATA[我想创建一个网站，人们可以在其中过滤我提供的数据集。我目前只知道 Python 和 SQL，我认为用 Python 为前端创建网站很糟糕。最好的前进道路是什么？  像 Wix 这样的无代码网站？它支持与数据集交互等功能吗？ Heroku 或 Digital Ocean？我需要了解多少 HTML/CSS/JS？我不介意学习，但我们说的是 30 小时还是 300 小时才能开始。 AWS/Google Cloud/netlify？ 有什么我还没有考虑到的吗？     提交人    /u/qpmayo_lols   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddhyrj/what_is_the_most_efficient_path_forward/</guid>
-      <pubDate>Tue, 11 Jun 2024 16:11:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>发现活动照片下载网站上存在漏洞</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddhlow/found_a_vulnerability_on_an_event_photo_download/</link>
-      <description><![CDATA[几周前，我参加了众多“极限”竞赛活动之一，现场泥泞不堪，水流不息，摄影师们四处奔波。 今天我收到一封电子邮件，说照片可供查看和购买。我买了一张，并收到了带有下载链接的电子邮件。链接类似于 https://app.com/api/orders/12345/line_items/12345/download。 看到这样的网址时，我忍不住要增加数字。我将第二个数字（line_items 之后）增加了 1，令我惊讶的是，它下载了另一张照片（碰巧也是我的，但奇怪的是，不是商店图库中的下一张）。  我想让网站所有者知道这一点，希望他们能修复它，但我以前从未披露过这样的事情。他们可能会来找我吗，因为在发现这个问题的时候，我确实下载了一张我没有买的照片？  任何提示都非常感谢！     提交人    /u/cs75   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddhlow/found_a_vulnerability_on_an_event_photo_download/</guid>
-      <pubDate>Tue, 11 Jun 2024 15:56:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何更改 github 页面的根路径？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddhbkj/how_to_change_root_path_of_github_pages/</link>
-      <description><![CDATA[我为一个项目创建了一个网站，在其中我使用了根路径前缀来引用 HTML 中的文件路径，例如 /index.html 但是，我想将其部署在 github 页面上，但不是在主页下，而是在 [username].github.io/[repo-name]/ 但是，当我尝试这样做时，使用根路径前缀引用的所有文件实际上都不再起作用，例如导航栏链接和 css 文件。我该如何修复它？    提交人    /u/Tofu_Beeeaaans   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddhbkj/how_to_change_root_path_of_github_pages/</guid>
-      <pubDate>Tue, 11 Jun 2024 15:44:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>成长建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddha74/growth_advice/</link>
-      <description><![CDATA[大家好！我目前是一名前端工程师，毕业后近一年来主要在工作中使用 React。我不是计算机科学专业毕业的，但我选修了一些模块编程模块，让我接触到了 Python 和 Java。我也有机会在工作中使用 Node 进行简单的 CRUD。 现在，我希望成长自己，或者可能找到可以进一步成长为软件工程师的机会。有人有什么建议或路线图可以分享来帮助我朝着这个方向发展吗？    提交人    /u/ukriane   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddha74/growth_advice/</guid>
-      <pubDate>Tue, 11 Jun 2024 15:43:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>我要走哪条路线？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddgpln/what_route_do_i_take/</link>
-      <description><![CDATA[我希望最终成为一名全栈开发人员。  我刚刚做出这个决定，所以并没有特别为此而努力，只是在这里和那里做一些随机项目。 到目前为止，我对 flask 和 Django 相对熟悉，因此更喜欢使用 python 作为后端。我对 html、css 和 Java 了解不少，但都只是基础知识，没有大型框架 我该从哪里开始？我该走哪条路，课程等，有什么资源吗？  我知道有很多东西要学，这就是为什么我要求从我的角度出发找到最好的路线。谢谢     提交人    /u/jcjakec   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddgpln/what_route_do_i_take/</guid>
-      <pubDate>Tue, 11 Jun 2024 15:19:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于实施的问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddghmr/question_about_implementation/</link>
-      <description><![CDATA[大家好，我是初级全栈开发人员，正在开发一个 Next.js 项目，该项目允许用户相互捐赠虚拟货币。我偶然发现了一个问题，但似乎无法解决。 网站上有两种类型的帐户。“管理员”类型和用户。它们之间的关系是管理员与用户的一对多关系。在不公开其唯一标识符的情况下，我想知道如何让用户向正确的人捐款，因为在数据库中查找他们的信息时，姓名可能会重叠。 我目前只是通过姓名组合来查找用户，但随着应用程序用户的增长，这可能会发生冲突。 提前致谢！    提交人    /u/huntsalone01   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddghmr/question_about_implementation/</guid>
-      <pubDate>Tue, 11 Jun 2024 15:10:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Gap - 探索 CSS gap 解决的痛点</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ddgfax/the_gap_an_exploration_of_the_pain_points_that/</link>
-      <description><![CDATA[        提交人    /u/theKovah   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ddgfax/the_gap_an_exploration_of_the_pain_points_that/</guid>
-      <pubDate>Tue, 11 Jun 2024 15:07:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
