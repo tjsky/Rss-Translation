@@ -4,103 +4,103 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Wed, 12 Jun 2024 18:18:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jun 2024 00:44:58 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 作为一名坚定的资本家，我认识到现代人工智能带来的重大风险，特别是 [...]</title>
-      <link>https://t.me/hn_summary/94570</link>
-      <description><![CDATA[人工智能对社会没有净积极作用
-作为坚定的资本家，我认识到现代人工智能，尤其是机器学习和大型语言模型所带来的重大风险。主要担心的是，这些技术由最富有的人控制，他们的目标是用人工智能取代人类工人，从而导致大规模失业。这种反乌托邦的情景因以下事实而加剧：OpenAI 和 Github 等人工智能公司已经因使用受版权保护的材料来训练他们的模型而面临诉讼，实际上窃取了我们的劳动力来创造我们的替代品。人工智能的利润只会让少数人受益，从而扩大贫富差距。虽然我一般反对征税，但我建议对人工智能征收工资税，以减轻经济灾难。虽然人工智能目前有助于我的工作，但其长期影响可能是毁灭性的。]]></description>
-      <guid>https://t.me/hn_summary/94570</guid>
-      <pubDate>Wed, 12 Jun 2024 18:18:49 GMT</pubDate>
+      <title>[媒体] 索尼影视娱乐公司收购了 Alamo Drafthouse Cinema，该公司以其独特的 [...]</title>
+      <link>https://t.me/hn_summary/94636</link>
+      <description><![CDATA[Alamo Drafthouse Cinemas 出售给索尼影视娱乐公司
+索尼影视娱乐公司收购了 Alamo Drafthouse Cinema，该公司以其独特的观影体验而闻名，提供创意鸡尾酒、丰富的食物菜单和严格的“禁止交谈、禁止发短信”政策。此次收购包括所有 35 家影院和 Fantastic Fest 电影节，Alamo Drafthouse 的 Michael Kustermann 仍担任首席执行官。这一举措符合索尼对影院展览和体验式娱乐的承诺，他们最近的 Wonderverse Chicago 等项目就是明证。这笔交易由高盛提供财务建议，标志着制片厂收购连锁影院的罕见案例，得益于 2020 年派拉蒙法令的到期。尽管最近行业面临挑战，但这次收购凸显了影院体验的价值。]]></description>
+      <guid>https://t.me/hn_summary/94636</guid>
+      <pubDate>Thu, 13 Jun 2024 00:44:58 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：www.authorclock.com</title>
-      <link>https://t.me/hn_summary/94569</link>
-      <description><![CDATA[Author Clock：一种新颖的报时方式
-标题：Author Clock：一种新颖的报时方式
-网站：www.authorclock.com
+      <title>乔纳森·科贝特 (Jonathan Corbet) 在 2024 年 6 月 12 日发表于 LWN.net 的文章中讨论了 ms 的引入[...]</title>
+      <link>https://t.me/hn_summary/94635</link>
+      <description><![CDATA[GNU C 库的内存密封
+Jonathan Corbet 在 2024 年 6 月 12 日发表于 LWN.net 的文章中讨论了引入 mseal() 系统调用，该调用允许进程“密封”其地址空间的部分，以防止将来发生更改。此功能受 OpenBSD 的 mimmutable() 启发，将包含在 Linux 6.10 内核中。mseal() 最初旨在保护 Chrome 浏览器，现在由 Adhemerval Zanella 集成到 GNU C 库 (glibc) 中。该补丁系列不仅添加了系统调用包装器，还允许动态加载器密封进程地址空间的各个部分，从而增强安全性。虽然大多数程序都会从​​中受益，但也有例外，新的 glibc 可调参数 gtld.rtld.seal 允许控制密封行为。这项早期工作预计将在最终纳入 glibc（可能在 2.41 版中）之前进行完善。]]></description>
+      <guid>https://t.me/hn_summary/94635</guid>
+      <pubDate>Thu, 13 Jun 2024 00:24:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 网站：www.gdcorner.com</title>
+      <link>https://t.me/hn_summary/94634</link>
+      <description><![CDATA[#1 – 入门 – 使用 LLM 进行开发的无 BS 介绍
+标题：#1 – 入门 – 使用 LLM 进行开发的无 BS 介绍
+网站：www.gdcorner.com
 
-Author Clock 是一款创新的钟表，将文学与功能融为一体。它通过精心挑选的伟大文学作品中的引语来显示时间，提供多种语言版本，包括英语、法语、西班牙语和德语。每句引语都由我们专门的编辑团队精心挑选，确保提供丰富多样的体验。这种独特的计时和讲故事的结合提供了一种全天与经典文学互动的新颖方式。这个概念既令人惊讶又巧妙，将平凡的活动转变为一次文化之旅。]]></description>
-      <guid>https://t.me/hn_summary/94569</guid>
-      <pubDate>Wed, 12 Jun 2024 18:09:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 今天对于 Kemmerer 来说是一个重要的里程碑，因为我们在美国第一座 [...]</title>
-      <link>https://t.me/hn_summary/94568</link>
-      <description><![CDATA[我们刚刚破土动工，建造了美国第一座下一代核设施
-今天是 Kemmerer 的重要里程碑，因为我们破土动工建造了美国第一座下一代核设施，该设施由我于 2008 年创立的公司 TerraPower 设计。该项目承诺提供更安全、更可靠、更具成本效益的核电解决方案，利用物理学来保持控制，而不是人工操作。Natrium 工厂将经历数年的建设，从钠测试设施开始，目标是到 2030 年投入运营。这项努力证明了公私合作伙伴关系的力量，得到了能源部和当地领导人的支持。美国核管理委员会最近接受了我们的建设许可申请，这是一个历史性的一步，标志着 40 多年来首次批准商用非轻水反应堆。这个开创性的项目对于实现我们的气候和经济目标至关重要，为未来提供丰富的清洁能源。]]></description>
-      <guid>https://t.me/hn_summary/94568</guid>
-      <pubDate>Wed, 12 Jun 2024 18:08:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Calm Company Fund 暂停投资新公司和筹集新基金。</title>
-      <link>https://t.me/hn_summary/94567</link>
-      <description><![CDATA[Calm Company Fund 暂停投资
-Calm Company Fund 暂停投资新公司和筹集新基金。尽管他们的投资理念（支持早期、资本效率高、以利润为重点的公司）取得了成功，但他们的商业模式已被证明是不可持续的。该基金的结构类似于传统的 VC 和 PE 基金，需要比其当前规模更大的团队和预算。筹集更多资金和创造额外收入来源的努力未能成功。与 SureSwift Capital 的持续诉讼加剧了他们的挑战，导致资源紧张。因此，该基金将暂停新投资，专注于管理现有投资组合。创始人仍致力于支持当前投资并探索未来的新战略。]]></description>
-      <guid>https://t.me/hn_summary/94567</guid>
-      <pubDate>Wed, 12 Jun 2024 17:50:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在法国提前举行大选之际，德国可能也在为提前投票做准备。</title>
-      <link>https://t.me/hn_summary/94566</link>
-      <description><![CDATA[别再费心参加欧洲选举了
-在法国提前选举期间，德国可能也在为提前投票做准备。整个欧洲的政治格局正在迅速变化，虽然焦点仍然集中在法国，但德国人应该对国内可能发生的变化保持警惕。这些选举的动态可能对欧盟的未来产生重大影响。随着政治紧张局势的加剧，了解情况并参与民主进程的重要性怎么强调也不为过。密切关注事态发展，因为结果可能会影响未来几年欧洲大陆的发展轨迹。]]></description>
-      <guid>https://t.me/hn_summary/94566</guid>
-      <pubDate>Wed, 12 Jun 2024 17:49:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 美国特拉华州多佛，2024 年 6 月 12 日 — Rust 基金会与主要行业平台 [...]</title>
-      <link>https://t.me/hn_summary/94565</link>
-      <description><![CDATA[安全关键型 Rust 联盟
-美国特拉华州多佛，2024 年 6 月 12 日——Rust 基金会与 AdaCore、Arm 和 Woven by Toyota 等主要行业参与者自豪地宣布成立安全关键型 Rust 联盟。该计划旨在促进在安全关键型软件中负责任地使用 Rust，其中包括故障可能造成严重后果的系统。Rust 基金会成员和其他受邀专家均可加入。该联盟将制定指南、工具和最佳实践，以确保 Rust 符合工业和法律安全标准。这一努力有望弥补 Rust 生态系统中安全关键型资源的差距，促进更广泛的采用和创新。Rust 的创建者 Graydon Hoare 和来自 Woven by Toyota 的 JF Bastien 表达了他们对这一合作努力的热情。该联盟将与 Rust 项目密切合作，旨在让所有利益相关者了解情况并参与其中。
+发布时间：2024 年 6 月 12 日，作者：Philip Edwards
 
-令人惊讶的元素：该联盟整合更广泛的开源生态系统的经验教训以快速提升 Rust 的安全关键能力的方法特别具有创新性。
+摘要：
+在这本实用指南中，Philip Edwards 分享了他对学习大型语言模型 (LLM) 的资源碎片化和术语繁多的沮丧。为了解决这个问题，他编写了一系列针对初学者的文章，重点介绍实用的动手开发，没有任何推销。该系列从构建基本的语音助手开始，在此过程中介绍必要的术语和概念。Edwards 强调使用免费和开源工具、自我托管以避免意外成本和数据泄露，并提供清晰、简洁的示例。该指南涵盖了初始术语、模型下载、聊天循环、网络 API 和语音交互，为读者准备了内容审核和情绪分析等高级 NLP 任务。
 
-有争议的方面：该计划承认严格的安全要求与更广泛的 Rust 社区需求之间存在潜在的矛盾，旨在通过谨慎的合作来平衡这些矛盾。]]></description>
-      <guid>https://t.me/hn_summary/94565</guid>
-      <pubDate>Wed, 12 Jun 2024 17:41:09 GMT</pubDate>
+争议：Edwards 批评搜索引擎和 SEO 的现状，认为它们优先考虑广告和销售渠道而不是有用的信息。
+
+独特/巧妙：该指南专注于自我托管和使用开源工具来消除实验障碍，特别实用且用户友好。（基于 23% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/94634</guid>
+      <pubDate>Thu, 13 Jun 2024 00:20:41 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]美国</title>
-      <link>https://t.me/hn_summary/94564</link>
-      <description><![CDATA[美国政府允许俄罗斯公民使用和支付互联网服务
-美国财政部外国资产控制办公室 (OFAC) 已颁发第 25D 号通用许可证，该许可证授权与俄罗斯联邦进行与电信和某些基于互联网的通信相关的交易，尽管存在俄罗斯有害外国活动制裁条例 (31 CFR 第 587 部分)。这包括即时通讯、社交网络、视频会议等服务。但是，它不允许为某些俄罗斯金融机构开设或维护账户，也不允许涉及特定俄罗斯媒体和金融实体的交易。该许可证取代了第 25C 号通用许可证，并于 2024 年 6 月 12 日生效。遵守其他联邦法律仍然是强制性的。
-
-争议：在持续制裁的情况下允许与俄罗斯进行基于互联网的通信可能被视为一种有争议的举动，可能会破坏更广泛的制裁制度。
-
-独特/巧妙的方面：该许可证巧妙地平衡了开放沟通渠道的需求与对金融交易和特定实体的严格限制，保持了对制裁执行的细致入微的方法。]]></description>
-      <guid>https://t.me/hn_summary/94564</guid>
-      <pubDate>Wed, 12 Jun 2024 17:38:00 GMT</pubDate>
+      <title>[媒体] 在《尼采的伟大指南》中，作者介绍了弗里德里希·尼采的《论伟大》[...]</title>
+      <link>https://t.me/hn_summary/94633</link>
+      <description><![CDATA[尼采的伟大指南
+在《尼采的伟大指南》中，作者介绍了弗里德里希·尼采的《论道德谱系》，强调其旨在培养像贝多芬和拿破仑这样的“高尚之人”。尼采认为，伟大被“群体道德”所扼杀，这种道德观提倡利他主义和平等等价值观来约束杰出的个人。作者分享了一段个人经历，最初是由创业野心驱动的，这导致他对传统道德价值观的幻灭，并对尼采的批判有了更深入的理解。尼采的争议性立场是，真正的伟大需要拥抱痛苦、极度自爱、将他人视为工具，拒绝平等主义和同情心。这种对价值观的彻底重新评估旨在将个人从平庸中解放出来，培养卓越的创造力和成就。（基于 16% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/94633</guid>
+      <pubDate>Thu, 13 Jun 2024 00:13:31 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在“Turbo Sparse：以最少的激活参数实现 LLM SOTA 性能”中，Y [...]</title>
-      <link>https://t.me/hn_summary/94563</link>
-      <description><![CDATA[Turbo Sparse：使用最少激活参数实现 LLM SOTA 性能
-在“Turbo Sparse：使用最少激活参数实现 LLM SOTA 性能”中，Yixin Song 及其同事介绍了一种通过利用激活稀疏性来提高大型语言模型 (LLM) 效率的新方法。传统的激活函数（如 SwiGLU 和 GeGLU）提供的稀疏性有限，而简单地切换到 ReLU 是不够的。为了克服这个问题，作者提出了 dReLU 函数和高质量的训练数据混合比来改善稀疏性。他们还在 Mixture-of-Experts (MoE) 模型中使用稀疏激活模式。他们的方法应用于 Mistral 和 Mixtral 模型，每次推理迭代仅激活 25 到 43 亿个参数，实现 2-5 倍的解码速度提升。值得注意的是，TurboSparse-Mixtral-47B 在手机上实现了每秒 11 个 token。这项工作意义重大，因为它有可能在不牺牲性能的情况下大幅提高 LLM 效率。]]></description>
-      <guid>https://t.me/hn_summary/94563</guid>
-      <pubDate>Wed, 12 Jun 2024 17:33:52 GMT</pubDate>
+      <title>[媒体] 机器人突然变得更加聪明。</title>
+      <link>https://t.me/hn_summary/94632</link>
+      <description><![CDATA[机器人突然变得更聪明了。有什么变化？
+标题：机器人突然变得更聪明了。有什么变化？
+网站：www.economist.com
+
+在机器人初创公司 Figure 最近的一次演示中，人形机器人展示了非凡的能力：参与口头对话、识别和操纵物体、解决问题以及解释其行为。机器人能够识别桌上的红苹果，将其捡起并根据要求将其递给人类，这让许多人感到惊讶。这段于 3 月发布的视频展示了机器人智能在多年缓慢发展之后的重大飞跃。Figure 和其他公司所展示的机器人技术的突然进步表明该领域正在发生重大转变，这引发了人们对是什么发生了根本性变化才促成了如此快速发展的问题的思考。]]></description>
+      <guid>https://t.me/hn_summary/94632</guid>
+      <pubDate>Thu, 13 Jun 2024 00:12:25 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 标题：稳定扩散 3 在线演示</title>
-      <link>https://t.me/hn_summary/94562</link>
-      <description><![CDATA[Stable Diffusion 3 在线演示
-标题：Stable Diffusion 3 在线演示
-
-在 stablediffusionweb.com 上探索 Stable Diffusion 3 的变革力量。此在线演示旨在通过多种多样且强大的功能释放您的创造力。无论您是艺术家、设计师，还是只是想探索新的创意途径的人，此平台提供的工具都可以大大增强您的创意之旅。进入一个只有您的想象力才可以限制的世界，亲身体验 Stable Diffusion 3 带来的创新能力。]]></description>
-      <guid>https://t.me/hn_summary/94562</guid>
-      <pubDate>Wed, 12 Jun 2024 17:27:44 GMT</pubDate>
+      <title>[媒体] 一名黑客入侵了知名追踪公司 Tile 的系统，并成功 [...]</title>
+      <link>https://t.me/hn_summary/94631</link>
+      <description><![CDATA[黑客入侵内部“Tile”工具，该工具向警察提供位置数据
+一名黑客入侵了知名追踪公司 Tile 的系统，并在获取公司内部工具的同时成功窃取了大量客户数据。此次入侵引发了人们对数据安全和隐私的严重担忧，尤其是考虑到执法部门也使用 Tile 的工具来追踪位置。该事件凸显了处理敏感信息的系统的漏洞以及对个人隐私和公共安全的潜在风险。]]></description>
+      <guid>https://t.me/hn_summary/94631</guid>
+      <pubDate>Thu, 13 Jun 2024 00:06:19 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 软银公司</title>
-      <link>https://t.me/hn_summary/94561</link>
-      <description><![CDATA[软银的新 AI 让愤怒的客户在电话中听起来平静
-软银公司推出了一项创新的 AI 技术，旨在将愤怒的客户声音转变为平静的声音，旨在减轻呼叫中心接线员的心理压力。这项“情绪消除”技术经过三年的开发，可以在不改变措辞的情况下改变声音的音调和语调。例如，一个高音调的女人的声音会降低，而一个男人的低音会提高，听起来更柔和。该 AI 经过 10,000 多条语音数据的训练，确保轻微的愤怒元素仍然可听见，以帮助接线员做出适当的反应。但是，如果对话变得过于粗鲁或冗长，AI 可以发出警告以终止通话。虽然人工智能可以长时间处理投诉，但软银承认，愤怒的客户经常寻求人类道歉，因此完全取代人工智能的可能性不大。该公司计划在 2025 财年之前出售这项技术。
+      <title>[媒体] 2019 年和 2020 年，三名黑人男子因虚假身份证明被错误逮捕 [...]</title>
+      <link>https://t.me/hn_summary/94630</link>
+      <description><![CDATA[被错误逮捕的黑人男子称加州法案将允许警方滥用人脸识别
+2019 年和 2020 年，三名黑人男子因警方使用人脸识别技术进行错误识别而被错误逮捕。他们的诉讼凸显了公民权利受到侵犯以及对其家庭的持久影响。这些人现在反对加州的 1814 号议会法案，该法案禁止警方将人脸识别作为搜查或逮捕的唯一依据，而是要求提供确凿证据。批评者认为，人脸识别不可靠且带有种族偏见，即使有确凿证据，也会误导调查。尽管存在这些担忧，该法案仍在参议院公共安全委员会中取得进展。该法案的起草人、众议员 Phil Ting 认为，该法案将通过提供一些监管监督来改善当前的做法。然而，包括被错误逮捕的男子在内的反对者认为，该法案还不足以防止滥用和保护公民权利。]]></description>
+      <guid>https://t.me/hn_summary/94630</guid>
+      <pubDate>Wed, 12 Jun 2024 23:50:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 林恩·康威 (Lynn Conway) 是微芯片设计领域的变革性人物，也是 [...] 的先驱倡导者。</title>
+      <link>https://t.me/hn_summary/94629</link>
+      <description><![CDATA[芯片设计先驱和跨性别权利倡导者林恩·康威的遗产
+林恩·康威是微芯片设计领域的变革人物，也是跨性别权利的先驱倡导者，于 6 月 9 日去世，享年 86 岁。康威以“为什么不质疑一切？”的指导哲学而闻名，她与加州理工学院教授卡弗·米德一起在 1970 年代彻底改变了芯片设计，使该过程民主化，并为现代消费电子产品奠定了基础。尽管康威做出了开创性的工作，但出于安全考虑，她大部分职业生涯都保持低调，尤其是在 1968 年因性别转变被 IBM 解雇后。IBM 后来于 2020 年道歉。退休后，她成为跨性别权利和 STEM 女性的积极倡导者。康威的遗产继续激励和塑造着科技和教育领域。她的丈夫查尔斯·罗杰斯 (Charles Rogers) 仍在世。追悼会将在舍伍德殡仪馆举行，6 月 21 日举行瞻仰仪式，6 月 22 日举行追悼会。]]></description>
+      <guid>https://t.me/hn_summary/94629</guid>
+      <pubDate>Wed, 12 Jun 2024 23:43:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在数据 + AI 峰会上，Databricks 宣布将开源其 m [...]</title>
+      <link>https://t.me/hn_summary/94628</link>
+      <description><![CDATA[Databricks 将开源 Unity Catalog
+在数据 + AI 峰会上，Databricks 宣布将开源 Unity Catalog，这是其管理数据访问的元数据目录。此举符合对开放 Lakehouse 平台日益增长的需求，也是 Databricks 最近收购 Tabular 之后的举措，Tabular 是竞争表格格式 Apache Iceberg 背后的公司。通过开源 Unity Catalog，Databricks 旨在标准化数据访问和治理，创建首席执行官 Ali Ghodsi 所说的数据“USB”。这一决定被视为消除数据孤岛和促进创新的战略转变。AT&amp;T 和纳斯达克等客户对此举表示赞赏。Unity Catalog 发布的具体开源基础和时间表尚未确定。]]></description>
+      <guid>https://t.me/hn_summary/94628</guid>
+      <pubDate>Wed, 12 Jun 2024 23:40:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 斯科尔科沃理工学院的科学家和他们的中国同事已经发现了可能[...]的条件。</title>
+      <link>https://t.me/hn_summary/94627</link>
+      <description><![CDATA[天王星和海王星内部可能潜伏着一种奇异的分子
+Skoltech 科学家及其中国同事已经确定了可以稳定天王星和海王星内部一种特殊离子 aquodiium (H₄O²⁺) 的条件。这种离子被概念化为具有两个额外质子的水分子，可能对行星不寻常的磁场有所贡献。与地球上液态铁镍合金产生磁性不同，天王星和海王星的磁场可能来自离子导电介质。这项研究发表在《物理评论 B》上，表明高压和酸性环境可以稳定 aquodiium，可能影响行星的磁性并导致未知矿物的形成。这一发现为我们理解行星磁性增加了新的维度。
 
-争议：人工智能可能会误解客户的情绪，导致不当回应，这可能会加剧客户的挫败感。
+争议：无突出问题。
 
-独特/聪明：这个想法受到电视节目的启发，就像让愤怒的声音听起来像动漫“鬼太郎”中的角色一样。]]></description>
-      <guid>https://t.me/hn_summary/94561</guid>
-      <pubDate>Wed, 12 Jun 2024 17:18:15 GMT</pubDate>
+独特/巧妙：水合物作为带有两个额外质子的水分子的概念是一个新颖的想法，可以解释天王星和海王星独特的磁场。]]></description>
+      <guid>https://t.me/hn_summary/94627</guid>
+      <pubDate>Wed, 12 Jun 2024 23:26:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
