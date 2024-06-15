@@ -3,10 +3,17 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 15 Jun 2024 03:15:51 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Sat, 15 Jun 2024 06:18:37 GMT</lastBuildDate>
     <item>
-      <title>是否有允许嵌入第三方 Web 组件（如 Salesforce Lightning Web Components）的框架？</title>
+      <title>哪些网站/应用程序可以保持敏锐？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dg8zi9/what_websites_apps_all_do_to_stay_sharp/</link>
+      <description><![CDATA[我的工作很棒，但就像任何工作一样，你永远不知道什么时候事情会结束。大家都用什么来保持敏锐？我很乐意在我的日常工作中添加一个每日/每周的 CS/Fullstack 问题。不断学习和进步永远不会有坏处！    提交人    /u/protomanzero   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dg8zi9/what_websites_apps_all_do_to_stay_sharp/</guid>
+      <pubDate>Sat, 15 Jun 2024 03:38:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>是否有允许嵌入第三方 Web 组件的框架，例如 Salesforce Lightning Web Components？</title>
       <link>https://www.reddit.com/r/webdev/comments/1dg8eye/are_there_frameworks_that_enable_embedding_of_3rd/</link>
       <description><![CDATA[我对创建一个 Web 应用程序感兴趣，人们可以通过创建和上传自己的 Web 组件来修改页面。Salesforce Lightning 是我见过的一个可以实现此功能的网站。是否有可以添加到网站中的框架可以实现此功能？    提交人    /u/grokify   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dg8eye/are_there_frameworks_that_enable_embedding_of_3rd/</guid>
@@ -43,14 +50,14 @@
     <item>
       <title>你们当中有谁正在编写这样的代码？</title>
       <link>https://www.reddit.com/r/webdev/comments/1dg68z1/which_one_of_you_is_out_there_writing_code_like/</link>
-      <description><![CDATA[        提交人    /u/Hornytoaster01   [链接] [评论] ]]></description>
+      <description><![CDATA[        提交者    /u/Hornytoaster01   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dg68z1/which_one_of_you_is_out_there_writing_code_like/</guid>
       <pubDate>Sat, 15 Jun 2024 01:04:44 GMT</pubDate>
     </item>
     <item>
       <title>使用CSR/SPA会不会是个大问题？</title>
       <link>https://www.reddit.com/r/webdev/comments/1dg5jlh/will_using_csrspa_be_a_big_problem/</link>
-      <description><![CDATA[所以我基本上已经使用 express 和 react 与 router-dom 等创建了一个完成的网站。但一直听说这不可能实现像样的 SEO 等。由于项目如此庞大，似乎几乎不可能实现 next.js，而且这似乎真的很乏味，我宁愿花时间让网站变得更好等，也不愿担心实现 next.js。 使用 SSR 真的那么重要吗？如果是这样，你有什么关于如何实现它的提示吗？如果有更简单的选项可以让我的网站对 SEO 友好，我希望得到一些见解。我尝试使用 react-dom-server，但无法让它完全工作，也不知道这是否是一个可行的选择。当我使用谷歌搜索控制台抓取页面时，它需要不到一分钟的时间，它会将页面显示为 html。所以我不太明白为什么 CSR/SPA 这么糟糕，如果谷歌能够如此快速地索引页面。 此外，作为 csr/spa 网站还有其他不好的地方吗？该网站在我尝试过的所有设备和浏览器上都能完美运行。该网站只有一个页面非常动态，在用户使用时经常发生变化。 我很感激任何提示。    提交人    /u/tobimika   [链接] [评论]]]></description>
+      <description><![CDATA[所以我基本上已经使用 express 和 react 与 router-dom 等创建了一个完成的网站。但一直听说这不可能实现像样的 SEO 等。由于项目如此庞大，似乎几乎不可能实现 next.js，而且这看起来真的很乏味，我宁愿花时间让网站变得更好等，也不愿担心实现 next.js。 使用 SSR 真的那么重要吗？如果是这样，你有什么关于如何实现它的提示吗？如果有更简单的选项可以让我的网站对 SEO 友好，我希望得到一些见解。我尝试使用 react-dom-server，但无法让它工作，也不知道这是否是一个可行的选择。当我使用谷歌搜索控制台抓取页面时，它需要不到一分钟的时间，它会将页面显示为 html。所以我不太明白为什么 CSR/SPA 这么糟糕，如果谷歌能够如此快速地索引页面。 此外，作为 csr/spa 网站还有其他不好的地方吗？该网站在我尝试过的所有设备和浏览器上都能完美运行。该网站只有一个页面非常动态，在用户使用时经常发生变化。 我很感激任何提示。    提交人    /u/tobimika   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dg5jlh/will_using_csrspa_be_a_big_problem/</guid>
       <pubDate>Sat, 15 Jun 2024 00:28:15 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[嗨，我在海地桥梁联盟实习。我们目前正在设计一个网页，需要网页开发人员。如果您能设计一些类似于此页面上的移动地图图形，我们将不胜感激。但是，此时此刻，任何您能提供的帮助都将是巨大的。如果这不是一个合适的问题，如果您引导我去一个我应该问这个问题的论坛，我将不胜感激。如果您有兴趣，请直接发私信给我。 感谢您的帮助    提交人    /u/Stikflik   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dg2uf0/looking_for_anyone_interested_in_a_summer_web/</guid>
       <pubDate>Fri, 14 Jun 2024 22:16:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>是什么让你比其他前端开发人员更优秀？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dg17xr/what_makes_you_better_than_other_frontend/</link>
-      <description><![CDATA[在良性竞争中，您认为哪些特质“让您比其他开发人员更优秀”？    提交人    /u/bigkme   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dg17xr/what_makes_you_better_than_other_frontend/</guid>
-      <pubDate>Fri, 14 Jun 2024 21:02:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
