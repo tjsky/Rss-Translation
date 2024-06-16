@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 15 Jun 2024 21:13:54 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2024 01:04:26 GMT</lastBuildDate>
+    <item>
+      <title>有没有 Dragon Professional Speech Recognition 的开源替代品？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dgw6eu/is_there_an_open_source_alternative_to_dragon/</link>
+      <description><![CDATA[想知道是否有与 Dragon Professional Speech Recognition 功能接近的开源替代方案？谢谢。 https://www.nuance.com/dragon/business-solutions/dragon-professional.html    提交人    /u/exercisesports321   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dgw6eu/is_there_an_open_source_alternative_to_dragon/</guid>
+      <pubDate>Sun, 16 Jun 2024 01:00:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>介绍 fixit：一个用 Rust 编写的、受 thefuck 启发的快速修复命令行错误的实用程序</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dgv5ie/introducing_fixit_a_fast_utility_to_fix_your/</link>
+      <description><![CDATA[我为自己创建了这个东西，作为 The Fuck 的更快替代品，并决定向全世界展示它。本质上，它的工作方式与 thefuck 类似（重新运行命令并根据其输出猜测修复），但它也具有快速模式。它的工作原理是从 WezTerm、kitty 和 tmux 上的终端（多路复用器）API 获取命令输出。 目前它没有很多用于修复命令的规则。我刚刚添加了一些令我烦恼的东西，并且会在我继续使用它时继续添加它们。 希望您会喜欢它并有自己的建议/贡献！ https://github.com/eugene-babichenko/fixit/    提交人    /u/EugeneBabichenko   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dgv5ie/introducing_fixit_a_fast_utility_to_fix_your/</guid>
+      <pubDate>Sun, 16 Jun 2024 00:04:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>[开源] 在我们的简单脚本环境中运行的 CLI 任务管理器/调度程序平台！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dgs0kq/open_source_cli_task_managerscheduler_platform/</link>
+      <description><![CDATA[        由    /u/Kindly_Pause_8522   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dgs0kq/open_source_cli_task_managerscheduler_platform/</guid>
+      <pubDate>Sat, 15 Jun 2024 21:24:43 GMT</pubDate>
+    </item>
     <item>
       <title>我们开源了我们的仪表板模板</title>
       <link>https://www.reddit.com/r/opensource/comments/1dgr7zm/we_open_sourced_our_dashboard_template/</link>
@@ -22,7 +43,7 @@
     <item>
       <title>适用于 Microsoft 的 FOSS 以及如何查找它</title>
       <link>https://www.reddit.com/r/opensource/comments/1dgmel2/foss_for_microsoft_and_how_to_find_it/</link>
-      <description><![CDATA[如果您是 Windows 用户，我想问一下您使用哪些免费和开源软件。您能解释一下您为什么要寻找它以及如何找到它的吗？我目前正在尝试改善我的 Windows 体验，但大多数软件或实用程序都很低调或不是我想要的。     提交人    /u/CH0NZA1   [link] [评论]]]></description>
+      <description><![CDATA[如果您是 Windows 用户，我想问一下您使用哪些免费开源软件。您能解释一下您为什么要寻找它以及如何找到它的吗？我目前正在尝试改善我的 Windows 体验，但大多数软件或实用程序都很低调或不是我想要的。     提交人    /u/CH0NZA1   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1dgmel2/foss_for_microsoft_and_how_to_find_it/</guid>
       <pubDate>Sat, 15 Jun 2024 16:59:44 GMT</pubDate>
     </item>
@@ -71,7 +92,7 @@
     <item>
       <title>ISO 开源舞蹈比赛软件</title>
       <link>https://www.reddit.com/r/opensource/comments/1dg9e3n/iso_open_source_dance_competition_software/</link>
-      <description><![CDATA[有人问我是否有任何与竞赛相关的开源项目，特别是与当地印第安人舞蹈竞赛相关的项目。我所熟悉的最接近的项目是像 Derbynet 这样的 Pinewood Derby 竞赛追踪器。 主要想要的是拥有舞者名单的方法、让不同评委输入分数的方法以及在不同舞蹈环节中追踪舞者的方法。如果有办法整合扫描二维码或条形码来访问信息/给舞者评分，那就更好了。 如果有人有任何线索或想法，我将不胜感激！    提交人    /u/snachodog   [链接] [评论]]]></description>
+      <description><![CDATA[有人问我是否有任何与竞赛相关的开源项目，特别是与当地印第安人舞蹈竞赛相关的项目。我最熟悉的类似项目是 Pinewood Derby 竞赛追踪器，例如 Derbynet。 主要想要的是列出舞者名单、让不同评委输入分数的方法，以及追踪不同舞蹈环节中舞者的方法。如果有办法整合扫描二维码或条形码来访问舞者的信息/给舞者评分，那就更好了。 如果有人有任何线索或想法，我将不胜感激！    提交人    /u/snachodog   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1dg9e3n/iso_open_source_dance_competition_software/</guid>
       <pubDate>Sat, 15 Jun 2024 04:01:58 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[嘿，我刚刚发布了DataOptimizer，这是一个旨在帮助管理和优化文件系统的工具。以下是一些主要功能：  创建文件夹：从列表快速生成文件夹结构。 删除重复项：使用多种方法（哈希、大小、名称、日期）识别和删除重复文件。 分析文件大小：扫描目录以分析和可视化文件大小。 合并类似文件夹：自动查找并合并具有类似结构的文件夹。  我正在寻求反馈，希望您能查看一下！ GitHub：DataOptimizer    提交人    /u/tilltmk   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1dg7dx8/introducing_dataoptimizer_create_folders_remove/</guid>
       <pubDate>Sat, 15 Jun 2024 02:06:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 GPT-4o 创建了 Apple 的《数学笔记》的开源版本！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dg7339/created_an_open_source_version_of_math_notes_from/</link>
-      <description><![CDATA[        由    /u/_ayushp_   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dg7339/created_an_open_source_version_of_math_notes_from/</guid>
-      <pubDate>Sat, 15 Jun 2024 01:50:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Typescript 复杂性追踪器 VSCode 插件</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dfz35r/typescript_complexity_tracer_vscode_plugin/</link>
-      <description><![CDATA[大家好！继上个月宣布 TSPerf Typescript 性能挑战赛后，我们终于有了解决方案！ Larry Layland 和 Daniel Roe（Nuxt 维护者）创建了一个 Typescript Complexity Tracer VSCode 插件，您可以在此处安装：https://marketplace.visualstudio.com/items?itemName=tsperf.tracer 插件作者今天将与 ArkType.io 和 Shiptalkers.dev 的创建者一起直播演示，他们将在他们的开源存储库中测试该插件。直播时间定于美国东部时间下午 1:30 和下午 3:30，您可以在 https://algora.tv 上观看 15,000 美元 TSPerf 挑战赛：https://algora.io/challenges/tsperf TSPerf Tracer 存储库：https://github.com/tsperf/tracer    提交人    /u/mgcrimhead   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dfz35r/typescript_complexity_tracer_vscode_plugin/</guid>
-      <pubDate>Fri, 14 Jun 2024 19:28:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找一个开源程序来创建使用其 API 访问云存储的导航面板文件夹。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dfymdd/looking_for_a_open_source_program_to_create/</link>
-      <description><![CDATA[您好， 我计划很快获得一些付费的 gofile.io 云存储，他们在信息中说可以完全访问他们的 API。 所以我想知道是否有人知道任何开源程序可以让您创建文件夹来访问云存储，例如 OneDrive、Google Drive、Drop Box、Mega 等（在 Windows 的导航面板上有一个小文件夹，可通往云驱动器并按需下载文件）。我甚至不知道该功能叫什么，所以我自己没能找到任何解决方案。    提交人    /u/SomeKittyCat   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dfymdd/looking_for_a_open_source_program_to_create/</guid>
-      <pubDate>Fri, 14 Jun 2024 19:07:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
