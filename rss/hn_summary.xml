@@ -4,100 +4,111 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Tue, 18 Jun 2024 20:52:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 03:05:24 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 在 Surface，我们打造最安全的设备的使命植根于我们定制的 UE [...]</title>
-      <link>https://t.me/hn_summary/95557</link>
-      <description><![CDATA[Surface UEFI：现在使用 Rust
-在 Surface，我们打造最安全设备的使命以我们的定制 UEFI 开发为基础。这项工作的核心是 Project Mu，它帮助我们提供顶级 UEFI 实现，同时为开源社区做出贡献。一个重大转变是我们采用了 Rust，这是一种以其安全性和性能优势而闻名的语言，将多个固件组件从 C 转换为 Rust。
+      <title>[媒体] 基于座位的定价模式已经过时了吗？</title>
+      <link>https://t.me/hn_summary/95608</link>
+      <description><![CDATA[基于座位的定价模式是否已死？
+在本周的云软件趋势更新中，我探讨了 SaaS 行业中基于座位的定价模式可能在 AI 崛起的推动下走向消亡。从历史上看，SaaS 公司按用户收费，但 Twilio 和 Snowflake 等基础设施和开发工具公司已转向基于消费的模式，将成本与交付的价值保持一致。AI 承诺让用户“事半功倍”，这可能会迫使应用软件提供商采用类似的模式，正如 Zendesk 的 AI Agent 产品所见。这种转变可能会导致混合定价结构，强调数据架构而不是用户界面。应用软件的未来可能类似于数据库软件，数据平台将成为应用程序提供商。此外，我还讨论了 5 月份的通胀数据及其对软件股的影响，以及 SaaS 业务的季度报告和估值指标摘要。 
 
-我们的内部 UEFI 堆栈允许精确控制和快速响应威胁，从而增强安全性。关键投资包括经过硬件验证的信任根、对 Windows Secured Core PC 的支持以及动态信任根测量 (DRTM) 和固件攻击面减少 (FASR) 等高级功能。此外，我们还通过设备固件配置接口 (DFCI) 和 Surface 企业管理模式 (SEMM) 等工具支持企业需求。
+争议点：AI 将颠覆传统 SaaS 模式并迫使转向基于消费的定价的说法可能会在行业利益相关者中引起争议。
 
-独特功能包括动态 USB-C 禁用和用于设置管理的用户友好型 UEFI 首页。我们持续关注启动时间的缩短和可维护性，以确保最佳性能和用户体验。展望未来，我们将继续致力于通过持续创新和协作来提高 UEFI 的安全性和功能性。]]></description>
-      <guid>https://t.me/hn_summary/95557</guid>
-      <pubDate>Tue, 18 Jun 2024 20:52:13 GMT</pubDate>
+独特见解：由于 AI 代理的消费，未来的应用软件将优先考虑数据架构而不是用户界面，这是一个新颖的观点。]]></description>
+      <guid>https://t.me/hn_summary/95608</guid>
+      <pubDate>Wed, 19 Jun 2024 03:05:24 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 这里是巴里·韦斯，很高兴宣布尼尔·弗格森加入自由新闻报并担任双周刊 [...]</title>
-      <link>https://t.me/hn_summary/95556</link>
-      <description><![CDATA[尼尔·弗格森：我们现在都是苏联人了
-我是 Bari Weiss，很高兴宣布尼尔·弗格森加入《自由新闻报》，担任双周专栏作家。尼尔是一位杰出的历史学家，拥有牛津大学学位，曾在哈佛大学和斯坦福大学等著名学府任教，以独立思考而闻名。尼尔最近被国王查尔斯封为爵士，他一直直言不讳地批评美国学术界的左倾，并将其与二战前的德国学术界进行比较。他的新专栏《我们现在都是苏联人》挑衅性地指出，美国在经济管理不善、军事无能和社会玩世不恭方面与苏联如出一辙。这一有争议的比较挑战读者重新考虑美国目前的发展轨迹。 （根据 60% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/95556</guid>
-      <pubDate>Tue, 18 Jun 2024 20:42:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 自从有了 3D 打印机后，我就一直在深入研究 FreeCAD，虽然经验 [...]</title>
-      <link>https://t.me/hn_summary/95555</link>
-      <description><![CDATA[使用 Git 对 FreeCAD 文件进行版本控制
-自从我买了 3D 打印机后，我就一直在深入研究 FreeCAD，虽然体验总体上是积极的，但也遇到了一些障碍。具体来说，通过 Nextcloud 在 MacOS 和 Linux 版本的 FreeCAD（均为 0.19）之间传输文件会导致项目损坏。为了更好地管理这些文件，我尝试使用 Git 进行版本控制。FreeCAD 文件本质上是包含文本文档的 zip 文件，这简化了操作。但是，Git 本身并不能很好地处理压缩文件夹。
+      <title>[媒体] 标题：Steve Teixeira 起诉 Mozilla</title>
+      <link>https://t.me/hn_summary/95607</link>
+      <description><![CDATA[Steve Teixeira 起诉 Mozilla
+标题：Steve Teixeira 起诉 Mozilla
 
-我找到了一种解决方法，使用名为 zippey 的脚本和博客片段来区分 zip 文件。通过使用这些工具配置 Git，我现在可以有效地对 FreeCAD 文件进行版本控制。设置包括下载 zippey、全局配置 Git 设置以及创建 .gitattributes 文件。请注意，此设置需要在使用的每台机器上重复。
+互联网档案馆是一家致力于提供高质量信息普遍访问权的非营利组织，正在寻求捐款以支持其使命。与许多在线平台不同，互联网档案馆不收取访问费、出售用户信息或投放广告。相反，它依靠平均 15.58 美元的捐款。该组织强调其资源对世界各地知识爱好者的重要性，并敦促那些有能力捐款的人这样做，尤其是在周三。您的支持有助于维护他们的关键系统并确保宝贵信息的持续可用性。
 
-令人惊讶/巧妙：使用 zippey 和 Git 的过滤器属性来管理 zip 文件的版本控制非常巧妙。]]></description>
-      <guid>https://t.me/hn_summary/95555</guid>
-      <pubDate>Tue, 18 Jun 2024 20:39:59 GMT</pubDate>
+争议：无突出之处。
+令人惊讶/聪明：周三特别呼吁捐款是一种独特的做法。]]></description>
+      <guid>https://t.me/hn_summary/95607</guid>
+      <pubDate>Wed, 19 Jun 2024 02:50:13 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 根据最新的 [...] 报告，Nvidia 已成为全球最有价值的公司。</title>
-      <link>https://t.me/hn_summary/95554</link>
-      <description><![CDATA[Nvidia 是最有价值的公司
-根据 companiesmarketcap.com 上最新的市值排名，Nvidia 已成为全球最有价值的公司。此列表仅包含上市公司，因为由于缺乏可访问的财务数据，对私营公司的估值具有挑战性。Nvidia 的领先地位凸显了其巨大的市场影响力以及科技公司在全球经济中日益增长的重要性。考虑到竞争格局和其他科技巨头的存在，这一排名尤其引人注目。]]></description>
-      <guid>https://t.me/hn_summary/95554</guid>
-      <pubDate>Tue, 18 Jun 2024 20:25:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 美国</title>
-      <link>https://t.me/hn_summary/95553</link>
-      <description><![CDATA[美国在疫情期间秘密发起反疫苗运动，以抹黑中国疫苗
-标题：美国在疫情期间秘密发起反疫苗运动，以抹黑中国疫苗
-网站：www.forbes.com
+      <title>问 HN：您如何找到开源漏洞赏金计划的开发人员？</title>
+      <link>https://t.me/hn_summary/95606</link>
+      <description><![CDATA[问 HN：如何找到开源漏洞赏金计划的开发人员？
+标题：问 HN：如何找到开源漏洞赏金计划的开发人员？
+网站：news.ycombinator.com
 
-据路透社调查，在新冠疫情最严重时期，美国国防部秘密开展反疫苗运动，针对中国在菲律宾的疫苗接种工作。这项秘密行动在特朗普和拜登政府执政期间从 2020 年春季持续到 2021 年夏季，涉及 300 多个假冒社交媒体账户，冒充菲律宾人，对中国的科兴疫苗表示怀疑。该活动延伸到中亚和中东，谎称疫苗含有猪肉明胶，而猪肉明胶在伊斯兰传统中是被禁止的。该行动在 2021 年拜登政府下达禁令后停止。这一披露凸显了疫情期间中美之间的地缘政治紧张局势和疫苗外交竞赛。]]></description>
-      <guid>https://t.me/hn_summary/95553</guid>
-      <pubDate>Tue, 18 Jun 2024 20:24:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 1945 年夏天，负责监督曼哈顿计划并担任 [...]</title>
-      <link>https://t.me/hn_summary/95552</link>
-      <description><![CDATA[万尼瓦尔·布什如何打造 20 世纪
-1945 年夏天，负责监督曼哈顿计划并担任富兰克林·罗斯福总统联络官的万尼瓦尔·布什见证了第一次原子弹试验。尽管布什在战时负有职责，但他在《大西洋月刊》上发表了一篇关于“联想轨迹”（现在称为超文本）的富有远见的文章，这篇文章影响了个人电脑和万维网的发展。令人惊讶的是，布什对计算的重大贡献以及他对政府资助科学和工程的倡导常常被奥本海默等人物所掩盖。布什的遗产包括“研究合同”的制定和雷神公司的成立，这些都塑造了现代科学产业。他对通过计算辅助手段增强人类能力的远见卓识预示了道格拉斯·恩格尔巴特和拉里·佩奇等先驱人物的出现。然而，他作为未来学家的记录好坏参半，尤其是他低估了数字处理能力，以及他反对氢弹试验，凸显了他贡献的复杂性。]]></description>
-      <guid>https://t.me/hn_summary/95552</guid>
-      <pubDate>Tue, 18 Jun 2024 20:19:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 网站：www.theregister.com</title>
-      <link>https://t.me/hn_summary/95551</link>
-      <description><![CDATA[我们需要一名志愿者爬过碎玻璃来修复这个网络
-标题：我们需要一名志愿者爬过碎玻璃来修复这个网络
-网站：www.theregister.com
+背景：有一个 WebRTC Chromium 漏洞让我们的生活变得困难。我想付钱给开发人员来修复它，但我不知道在哪里/如何找到人。
 
-On Call：The Register 每周五都会通过读者投稿的故事来庆祝技术支持专业人员的勇敢努力。本周，我们采访了“Gordon”，他曾就职于一家大型芯片制造商，必须在大型贸易展上展示其最新产品。展台设计得像一个池塘，上面有“睡莲”，由“日本桥”连接，每座桥都针对不同的 PC 用途。就在演出开始前 20 分钟，由于静态 IP 冲突，需要更换位于一层碎玻璃下的交换机。Gordon 不得不爬过玻璃来修理它，并用纸板箱保护自己。他现在自豪地告诉他的老板，“我为这家公司爬过碎玻璃。”与 On Call 分享您自己的大胆技术支持故事。]]></description>
-      <guid>https://t.me/hn_summary/95551</guid>
-      <pubDate>Tue, 18 Jun 2024 20:18:33 GMT</pubDate>
+这篇文章提出了一个更广泛的问题，即在没有明确的“赞助商”链接或按钮的情况下赞助开源错误修复或功能。作者正在寻求有关如何找到合格开发人员来完成此类任务的建议。他们很好奇是否有特定的网站或应用程序通常用于此目的。]]></description>
+      <guid>https://t.me/hn_summary/95606</guid>
+      <pubDate>Wed, 19 Jun 2024 02:29:02 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 近年来，尽管像 [...] 这样的科技巨头，品牌却越来越多地反对人工智能。</title>
-      <link>https://t.me/hn_summary/95550</link>
-      <description><![CDATA[品牌开始反对人工智能
-尽管苹果和埃隆·马斯克等科技巨头宣称人工智能是必然的未来，但近年来，品牌越来越多地反对人工智能。尽管 OpenAI 的 Sam Altman 等一些人承认人工智能的危险并呼吁监管，但该行业在很大程度上仍在向前发展。然而，反对的声音越来越大。媒体因发布人工智能生成的内容而受到批评，误导性的 Willy Wonka 主题弹出窗口等事件引发了公愤。多芬等品牌已承诺不使用人工智能生成的内容，以配合其“真实之美”活动。同样，Cara 和 PosterSpy 等平台也在推广无人工智能区，以保护艺术家的权利并保持真实性。甚至像 Wizards of the Coast 和 Reddit 这样的公司也面临着消费者限制使用人工智能的压力。争议在于如何在创新与道德考虑和消费者信任之间取得平衡，因为人工智能的未来仍不确定。]]></description>
-      <guid>https://t.me/hn_summary/95550</guid>
-      <pubDate>Tue, 18 Jun 2024 20:08:25 GMT</pubDate>
+      <title>[媒体] 维基学院的 Reed–Solomon Codes for Coders 解释了其原理和应用[...]</title>
+      <link>https://t.me/hn_summary/95605</link>
+      <description><![CDATA[Reed–Solomon Codes for Codes
+Wikiversity 上的 Reed–Solomon Codes for Codes 解释了 Reed–Solomon 纠错码的原理和应用，重点介绍了程序员的实际实现。纠错码在通信、数据存储和条形码等各个领域都是必不可少的。尽管 Reed–Solomon 码是最古老的代码之一，但由于其定义明确的性质和高效的算法，它仍然被广泛使用。本文旨在通过提供直观的解释和实际示例（特别是使用二维码和 Python 代码示例）来揭开这些代码的神秘面纱。内容旨在让那些对高中代数有很好掌握的人可以理解，尽管它涉及伽罗瓦域等高级主题。独特之处在于使用“简化词典”的实际类比来解释纠错，使复杂的概念更容易理解。文章还重点介绍了二维码的结构及其存储数据的方式，包括使用掩码来避免扫描仪混淆。
+
+有争议的方面：未发现。
+
+独特/巧妙的方面：使用“简化字典”类比来解释纠错码特别巧妙，有助于直观地理解概念。（基于 10% 的故事文本的总结。）]]></description>
+      <guid>https://t.me/hn_summary/95605</guid>
+      <pubDate>Wed, 19 Jun 2024 02:15:53 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 乌克兰工程师正在应对清除俄罗斯地雷的艰巨任务，[...]</title>
-      <link>https://t.me/hn_summary/95549</link>
-      <description><![CDATA[乌克兰人工智能将负责 700 年的俄罗斯地雷清除工作
-乌克兰工程师正在解决清除俄罗斯地雷的艰巨任务，由于入侵期间部署的炸药数量庞大，这一过程估计需要 700 年。为了加快这一进程，乌克兰科学家正在利用人工智能优先考虑扫雷工作。这种创新方法旨在确定最关键的扫雷区域，尽管有些区域可能会留下永久的伤痕。这个问题始于 2014 年俄罗斯入侵克里米亚，污染了数百平方公里，自两年前俄罗斯大规模入侵以来，问题显著升级。在这种情况下使用人工智能是一种独特而巧妙的解决方案，可以解决原本无法克服的问题。]]></description>
-      <guid>https://t.me/hn_summary/95549</guid>
-      <pubDate>Tue, 18 Jun 2024 20:05:20 GMT</pubDate>
+      <title>[媒体] 出版业，特别是新闻业，正面临艰难时期，但有一个……</title>
+      <link>https://t.me/hn_summary/95604</link>
+      <description><![CDATA[新另类媒体
+出版业，尤其是新闻业，正面临艰难时期，但新另类媒体给我们带来了一线希望。回想我在《乡村之声》的早期，我记得另类媒体曾突破主流媒体的沉闷大门，为边缘化的声音提供平台。如今，像 Flaming Hydra、404 Media 和 Defector 这样的新一波出版物正在涌现，其推动者是年轻、积极参与的受众，他们重视道德的工作条件，愿意为优质内容付费。这一运动通过讲述重要的故事来振兴媒体，就像过去的另类媒体一样。尽管面临挑战，但新另类媒体已准备好激励和教育新一代。]]></description>
+      <guid>https://t.me/hn_summary/95604</guid>
+      <pubDate>Wed, 19 Jun 2024 02:05:44 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 诺姆·乔姆斯基，1928年12月7日出生于费城，美国著名语言学家[...]</title>
-      <link>https://t.me/hn_summary/95548</link>
-      <description><![CDATA[诺姆·乔姆斯基去世
-诺姆·乔姆斯基，1928 年 12 月 7 日出生于费城，是一位著名的美国语言学家、政治评论家和活动家。他曾担任麻省理工学院名誉教授，对语言学、认知科学和计算机科学产生了重大影响。乔姆斯基的理论，尤其是生成转换语法，彻底改变了该领域，挑战了当时盛行的结构主义和行为主义。他的政治活动，尤其是他对美国外交政策和资本主义的批评，使他成为著名的公共知识分子。乔姆斯基在形式语言和乔姆斯基层次结构方面的工作也影响了计算机科学。他关于先天语言结构和通用语法的理论仍然具有影响力，尽管它们因计算局限性而受到批评。乔姆斯基于 2024 年 6 月 18 日去世。（根据 14% 的故事文本摘要。）]]></description>
-      <guid>https://t.me/hn_summary/95548</guid>
-      <pubDate>Tue, 18 Jun 2024 19:57:13 GMT</pubDate>
+      <title>[媒体] 一名美国法官允许澳大利亚矿业巨头安德鲁·福雷斯特（Andrew Forrest）继续进行法律诉讼[...]</title>
+      <link>https://t.me/hn_summary/95603</link>
+      <description><![CDATA[美国法院裁定，澳大利亚矿业巨头可以就 Facebook 诈骗广告起诉 Meta
+美国法官允许澳大利亚矿业巨头 Andrew Forrest 对 Meta Platforms 提起诉讼，指控其利用其肖像在 Facebook 上发布诈骗广告，推广假冒加密货币和其他欺诈性投资。法官 Casey Pitts 裁定，Forrest 可以辩称 Meta 允许发布这些广告的疏忽违反了其负责任地运营的义务，并且 Meta 盗用了他的姓名和肖像。Forrest 声称 Meta 从以他的肖像为特色的广告中获利更多，这给受害者带来了重大经济损失。Meta 的辩护理由是《通信规范法》第 230 条，但被驳回，标志着一个重要的法律先例。Forrest 寻求补偿性和惩罚性赔偿。]]></description>
+      <guid>https://t.me/hn_summary/95603</guid>
+      <pubDate>Wed, 19 Jun 2024 01:55:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在本文中，我深入探讨了用于训练大型数据集的数据管道的复杂性 [...]</title>
+      <link>https://t.me/hn_summary/95602</link>
+      <description><![CDATA[大型语言模型数据管道和 Common Crawl
+在本文中，我深入研究了用于训练大型语言模型 (LLM) 的数据管道的复杂性，重点关注 Common Crawl (CC) 数据集。尽管数据在模型质量中起着至关重要的作用，但有关这些管道的详细资源却很少。我探索了 CCNet 管道，它通过重复数据删除、语言识别和过滤等阶段处理原始网络数据。值得注意的是，重复数据删除仍然存在争议，人们对其对模型性能的影响有不同的看法。此外，我重点介绍了管道的变化，例如 RefinedWeb 和 The Pile，它们使用不同的方法进行文本提取和过滤。本文强调了深思熟虑的数据处理在构建有效 LLM 中的重要性。（基于 94% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/95602</guid>
+      <pubDate>Wed, 19 Jun 2024 01:52:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 网站：www.techdirt.com</title>
+      <link>https://t.me/hn_summary/95601</link>
+      <description><![CDATA[又一家公司被发现使用人工智能制造假记者和新闻
+标题：又一家公司被发现使用人工智能制造假记者和新闻
+网站：www.techdirt.com
+
+Hoodline 是一家最初为应对地方新闻衰落而成立的公司，因使用人工智能制造假记者和低质量内容而没有充分告知读者而受到抨击。这种做法与 CNET、Gannett 和体育画报的丑闻如出一辙，这些公司使用语言学习模型 (LLM) 制作空洞的新闻和虚假的作者简介。争议在于 Hoodline 使用人工智能生成的头像和传记，误导读者对其内容的真实性。这种方法破坏了公众对新闻业的信任，并转移了真实报道渠道的广告收入。虽然人工智能可以以有意义的方式协助记者，但 Hoodline 制作衍生内容的策略未能解决困扰当地新闻的真正问题。]]></description>
+      <guid>https://t.me/hn_summary/95601</guid>
+      <pubDate>Wed, 19 Jun 2024 01:43:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在探索艺术的短暂性时，本文深入探讨了艺术的独特项目[...]</title>
+      <link>https://t.me/hn_summary/95600</link>
+      <description><![CDATA[关于《阿格里帕（一本死亡之书）》的文章
+在探索艺术的短暂性时，本文深入探讨了独特的项目“阿格里帕（一本死亡之书）”，该项目由出版商 Kevin Begos Jr.、艺术家 Dennis Ashbaugh 和科幻小说作家 William Gibson 合作完成。该项目的灵感来自于创造短暂艺术体验的想法，将 Gibson 的一首诗刻在一张磁盘上，该磁盘在阅读一次后会自毁，并搭配 Ashbaugh 的可变蚀刻画。尽管概念新颖，但该项目仍面临挑战，包括被 Gibson 的名气所掩盖以及实体版销售困难。该作品提出了关于艺术、记忆和数字媒体无常性的深刻问题。 
+
+争议：该项目因吉布森的名气而黯然失色，随后阿什博的贡献被忽视，凸显了合作艺术中的认可和信誉问题。
+
+独特/巧妙：自我毁灭的数字诗歌和可变的物理蚀刻巧妙地挑战了艺术作为永久艺术品的传统观念，强调了体验的短暂性。（基于 38% 的故事文本的总结。）]]></description>
+      <guid>https://t.me/hn_summary/95600</guid>
+      <pubDate>Wed, 19 Jun 2024 01:28:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Amphi for JupyterLab 现已推出公开测试版，提供开源 Python E [...]</title>
+      <link>https://t.me/hn_summary/95599</link>
+      <description><![CDATA[开源 Python ETL
+Amphi for JupyterLab 现已推出公开测试版，提供开源 Python ETL 解决方案。此工具与 JupyterLab 无缝集成，为用户提供强大而灵活的数据提取、转换和加载任务环境。无论您是数据科学家、分析师还是工程师，Amphi 都旨在通过其直观的界面和强大的功能简化您的工作流程。立即开始体验 Amphi 为您的数据项目带来的效率。]]></description>
+      <guid>https://t.me/hn_summary/95599</guid>
+      <pubDate>Wed, 19 Jun 2024 01:28:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
