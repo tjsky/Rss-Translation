@@ -4,7 +4,56 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Fri, 21 Jun 2024 12:24:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 15:18:21 GMT</lastBuildDate>
+    <item>
+      <title>本周人工智能——简要介绍所有主要人工智能发展</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl6hvh/this_week_in_ai_all_the_major_ai_developments_in/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl6hvh/this_week_in_ai_all_the_major_ai_developments_in/</guid>
+      <pubDate>Fri, 21 Jun 2024 15:17:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Blinkfeed，一种全新的 AI 电子邮件方法</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl68ii/blinkfeed_a_fundamentally_new_approach_to_ai/</link>
+      <description><![CDATA[嗨，我的朋友们开发了一个工具，我很喜欢它，所以我想我可以帮他们传播这个消息 :)  https://blinkfeed.ai 是一个电子邮件客户端，它显示电子邮件摘要而不是线程（如果您愿意，您仍然可以查看线程），允许一键回复，并提供我在这个领域见过的最佳 AI/UX 体验。 虽然有很多工具可以让你创建摘要并帮助写回复，但 Blinkfeed 的 UI/UX 是围绕这些概念构建的，它提供的东西比我见过的任何东西都要精致得多。 无论如何，请查看网站上的视频：https://blinkfeed.ai    提交人    /u/wdanilo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl68ii/blinkfeed_a_fundamentally_new_approach_to_ai/</guid>
+      <pubDate>Fri, 21 Jun 2024 15:06:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>简单解释 LoRA 的实际工作原理 (ELI5)</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl53af/simply_explaining_how_lora_actually_works_eli5/</link>
+      <description><![CDATA[假设在您的 LLM 中，您有维度为 d x k 的原始权重矩阵 W。 您的传统训练过程会直接更新 W - 如果 d x k 很大，那么参数数量将非常庞大，需要大量计算。 因此，我们在权重更新之前使用低秩分解对其进行分解。方法如下 - 我们将权重更新 (Delta W) 表示为两个低秩矩阵 A 和 B 的乘积，使得 Delta W = BA。 这里，A 是维度为 r x k 的矩阵，B 是维度为 d x r 的矩阵。这里，r（秩）比 d 和 k 小得多。 现在，矩阵 A 用一些随机高斯值初始化，矩阵 B 用零初始化。 为什么？因此最初 Delta W = BA 可以为 0。 现在开始训练过程： 在权重更新期间，仅更新较小的矩阵 A 和 B - 这大大减少了需要调整的参数数量。 对原始权重矩阵 W 的有效更新是 Delta W = BA，它使用更少的参数来近似 W 的变化。 让我们比较一下 LoRA 之前和之后要更新的参数： 之前，要更新的参数是 d x k（记住 W 的尺寸）。 但是现在，参数数量减少到 (d x r) + (r x k)。这个值要小得多，因为秩 r 被认为比 d 和 k 小得多。 这就是低秩近似如何通过这种紧凑的表示为您提供有效的微调。 训练速度更快，需要的计算和内存更少，同时仍然可以从微调数据集中捕获重要信息。 我还使用 Artifacts 制作了一个快速动画来解释（大约花了 10 秒）： https://www.linkedin.com/posts/sarthakrastogi_simply-explaining-how-lora-actually-works-activity-7209893533011333120-RSsz    提交人    /u/sarthakai   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl53af/simply_explaining_how_lora_actually_works_eli5/</guid>
+      <pubDate>Fri, 21 Jun 2024 14:17:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chatgpt 的歌曲创作很糟糕。论文也不好。经常出现拼写错误并给出错误的问题答案。人们宣称它比所有大学教授加起来还要聪明？我们应该相信人工智能来驾驶车辆、进行医疗程序、手术、牙科工作等吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl4zge/chatgpt_songwriting_is_terrible_essays_are_not/</link>
+      <description><![CDATA[面向大众的人工智能技术不可能是所有人都热衷的。 有了 chatgpt，我们将很幸运地吃到不含金属碎片的快餐，或者有一个可以清洁的机器人。 “把地板上的脏衣服捡起来放进洗衣篮。洗衣篮。洗衣篮！”    提交人    /u/Level_Bridge7683   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl4zge/chatgpt_songwriting_is_terrible_essays_are_not/</guid>
+      <pubDate>Fri, 21 Jun 2024 14:12:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>YouTube Music 将推出“Ask For Music”人工智能聊天机器人功能</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl3kva/youtube_music_to_launch_ask_for_music_ai_chatbot/</link>
+      <description><![CDATA[您对 YouTube 的新功能有何看法？您认为 YouTube 越来越像 Google 的 AI 搜索结果了吗？ https://www.news18.com/tech/youtube-music-to-launch-ask-for-music-ai-chatbot-feature-know-more-8939615.html    提交人    /u/thetechrobot_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl3kva/youtube_music_to_launch_ask_for_music_ai_chatbot/</guid>
+      <pubDate>Fri, 21 Jun 2024 13:06:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI 首席技术官 Mira Murati：一些创造性的工作可能会消失，但也许它们本来就不应该存在</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl3dcy/mira_murati_openai_cto_some_creative_jobs_maybe/</link>
+      <description><![CDATA[在最近达特茅斯的一次采访中，Mira 再次大声说出了心里话。 举个例子： “一些创造性的工作可能会消失，但也许它们一开始就不应该存在” 政府获得了 OpenAI 聊天机器人的早期使用权…… 你可以在这里看到她的一些来自那次谈话的其他见解。   由    /u/Write_Code_Sport  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl3dcy/mira_murati_openai_cto_some_creative_jobs_maybe/</guid>
+      <pubDate>Fri, 21 Jun 2024 12:56:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能预告片</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl2vjt/ai_movie_trailer/</link>
+      <description><![CDATA[这是我正在写的故事。预告片是使用 Adob​​e Firefly、DALL-E 3、SUNO、Lumo、Dream Machine 制作的。  这是一部灵魂抹杀片。或许可以想象大卫·林奇遇见史蒂文·斯皮尔伯格？     提交人    /u/Edlezd   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl2vjt/ai_movie_trailer/</guid>
+      <pubDate>Fri, 21 Jun 2024 12:31:26 GMT</pubDate>
+    </item>
     <item>
       <title>文本通信分析（GPT4o）</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl29a7/text_communication_analytics_gpt4o/</link>
@@ -20,39 +69,11 @@
       <pubDate>Fri, 21 Jun 2024 11:32:26 GMT</pubDate>
     </item>
     <item>
-      <title>需要不同软件的帮助。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl1j1x/need_help_with_different_softwares/</link>
-      <description><![CDATA[我是一名学生，想尝试不同的 AI 软件（免费的，因为我父亲不允许我买任何东西）。比如用于图像生成、视频生成，我需要一个软件，通过它可以将我的声音更改为我上传的样本声音。比如我会背诵一首诗，它会在样本中生成这首诗。我需要的另一个软件是为诗歌添加音乐或可以帮助我做到这一点。     提交人    /u/nikxkav04   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl1j1x/need_help_with_different_softwares/</guid>
-      <pubDate>Fri, 21 Jun 2024 11:16:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>我不知道这个视频是怎么制作的？我很好奇它是怎么制作的</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl1dbh/i_have_no_idea_how_this_video_made_im_curious_to/</link>
-      <description><![CDATA[上周，加拉塔萨雷发布了一段视频，名为 GALATASARAİ。足球运动员变身为电影和电视剧中的角色，我很好奇他们是怎么做到的？有人能帮我识别方法还是人工智能吗？ GalatasarAİ 视频    提交人    /u/Eustich   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl1dbh/i_have_no_idea_how_this_video_made_im_curious_to/</guid>
-      <pubDate>Fri, 21 Jun 2024 11:06:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个小小的思想实验</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl16ud/alittle_thought_experiment/</link>
-      <description><![CDATA[想象有一天晚上，您正在浏览 steam 商店寻找新游戏，然后您看到一个名为“steam original 5$”的新选项。您觉得无聊，决定购买它，于是支付 5 美元并启动这个“steam original”。短暂的加载时间后，它终于开始了： 这让您大吃一惊，超出了您的所有预期。游戏时长约为 8 小时，您可以一口气完成。到目前为止，这已经成为您最喜欢的游戏！这种体验您会记住很长时间，并会一直和您认识的每个人谈论它。一切，角色、故事、游戏玩法都绝对适合您。当您感觉到这款游戏的体验已成为您个性的一部分时，字幕开始滚动： “没有人参与制作这款游戏​​，它完全是在你启动游戏时生成的”  整个游戏都是由人工智能在不到 30 秒的时间内专门为你生成的。你的反应是什么？你对此有何感想？ 这并不一定局限于电子游戏。想象一下这种情况，但是有一本书、一张专辑、一幅画、一首诗、一部电影/电视节目/动漫等。 这让你感觉如何？ 现在想象一下你是这个特定领域的艺术家。你是一个小型独立开发者，致力于你梦想中的游戏，你最喜欢的新媒体作品是由人工智能在不到 30 秒的时间内生成的。你感觉如何？如果你是作家/诗人/动画师/音乐家/电影制作人/等等，感觉如何？  我真诚地对您的意见感兴趣，这是我过去几天思考了很多的事情，非常感谢！    提交人    /u/osmium999   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl16ud/alittle_thought_experiment/</guid>
-      <pubDate>Fri, 21 Jun 2024 10:55:56 GMT</pubDate>
-    </item>
-    <item>
       <title>未来人工智能的现实前景</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl133l/realistic_outlooks_for_future_ai/</link>
       <description><![CDATA[显然，我们没有水晶球，无法预测未来，但您认为人工智能或 AGI 将如何影响人类。您的积极和消极看法是什么？    提交人    /u/Elevated412   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl133l/realistic_outlooks_for_future_ai/</guid>
       <pubDate>Fri, 21 Jun 2024 10:49:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>25 款最佳企业 (B2B) AI 工具</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dl0n3t/25_best_ai_tools_for_businesses_b2b/</link>
-      <description><![CDATA[AI 可以大幅提高您的业务效率和决策能力。我刚刚发现这篇博客列出了 2024 年 25 种最佳企业 (B2B) AI 工具。它包括免费和付费选项的组合，可以真正帮助简化您的运营。如果您正在考虑将 AI 融入您的业务，那么这篇博客绝对值得一读。在这里查看：2024 年 25 种最佳企业 (B2B) AI 工具。    提交人    /u/Pavithra_23   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dl0n3t/25_best_ai_tools_for_businesses_b2b/</guid>
-      <pubDate>Fri, 21 Jun 2024 10:20:42 GMT</pubDate>
     </item>
     <item>
       <title>人工智能幻觉的例子及其发生的原因</title>
@@ -69,32 +90,11 @@
       <pubDate>Fri, 21 Jun 2024 08:10:11 GMT</pubDate>
     </item>
     <item>
-      <title>目前我可以在智能手机上使用的最疯狂、最酷的免费人工智能潜在应用有哪些？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dky871/what_are_the_craziest_and_coolest_freely/</link>
-      <description><![CDATA[我知道这些......请帮我了解我错过的那些👇🏻 1）图像生成 2）视频生成 3）文本到文本对话 4）文本到语音对话 5）语音到文本对话 6）语音到语音对话 7）图像分析 8）视频分析 9）文件分析，如 PDF、电子表格、zip（还有其他吗？）10）网页浏览和分析 11）定制聊天机器人以满足特定的兴趣、风格和语气 12）聊天的一些特殊显着功能，如总结、修改现有内容以适应特殊的风格、语气、时间、地点和任何其他不仅仅是文本而且是图像的东西 13）歌曲和乐器，以及节拍和其他音乐规格。 14)深度伪造和声音模仿 15)还有什么我不记得的吗？    提交人    /u/AYU_YASH_UPA_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dky871/what_are_the_craziest_and_coolest_freely/</guid>
-      <pubDate>Fri, 21 Jun 2024 07:27:37 GMT</pubDate>
-    </item>
-    <item>
       <title>小型模型的功能可能超乎你的想象</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dkvttr/small_models_can_be_more_capable_than_you_might/</link>
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dkvttr/small_models_can_be_more_capable_than_you_might/</guid>
       <pubDate>Fri, 21 Jun 2024 04:52:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>每日一分钟人工智能新闻 6/20/2024</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dkvau5/oneminute_daily_ai_news_6202024/</link>
-      <description><![CDATA[ OpenAI 竞争对手 Anthropic 宣布推出迄今为止最强大的 AI。[1] 甲骨文 周四表示，将在未来 10 年内在西班牙向人工智能和云计算领域投资超过 10 亿美元，以满足该国对其服务日益增长的需求。[2] 新纳粹分子全力投入人工智能。极端分子正在开发他们自己的仇恨人工智能，以增强激进化和筹款能力——现在他们正在使用这项技术制作武器蓝图和炸弹。[3] Apple的研究人员增加了 20 个开源模型来改进文本和图像人工智能。[4]  来源包括：https://bushaicave.com/2024/06/20/6-20-2024/    提交人    /u/Excellent-Target-847   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dkvau5/oneminute_daily_ai_news_6202024/</guid>
-      <pubDate>Fri, 21 Jun 2024 04:21:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic 推出最新型号 Claude 3.5 Sonnet - 像 ChatGPT 4o 一样免费提供</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dkecvy/anthropic_unveils_claude_35_sonnet_it_latest/</link>
-      <description><![CDATA[Anthropic 推出了其最新的 AI 模型 Claude 3.5 Sonnet，将其定位为 OpenAI 的 GPT-4o 和 Google 的 Gemini 1.5 的强劲竞争对手。新模型有望在性能、速度和成本效益方面取得显着进步，使其成为 AI 领域值得关注的补充。该模型的速度是其前身 Claude 3 Opus 的两倍。 阅读更多    提交人    /u/Write_Code_Sport   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dkecvy/anthropic_unveils_claude_35_sonnet_it_latest/</guid>
-      <pubDate>Thu, 20 Jun 2024 15:24:53 GMT</pubDate>
     </item>
     <item>
       <title>新的反垃圾邮件/机器人规则 [请阅读]</title>
