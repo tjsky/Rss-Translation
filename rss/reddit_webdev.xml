@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Thu, 20 Jun 2024 21:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 00:59:35 GMT</lastBuildDate>
+    <item>
+      <title>面向自学开发者的学徒/初级职位</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dkp9qh/apprenticeshipsjr_positions_for_self_taught_devs/</link>
+      <description><![CDATA[正如标题所说，我是一个自学成才的开发人员。我还没有专业经验，但我有 3 年使用 Python、2 年使用 Rust 和 1 年使用 Java、SQL 和 JavaScript 的经验。我刚刚用 Rust 编写了一个 C 编译器，我觉得自己是一个称职的开发人员，至少是初级水平。我正在寻找一家愿意雇用我的公司。有人可以推荐一些愿意雇用像我这样的自学成才的开发人员的公司吗？谢谢！    提交人    /u/jungalmon   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dkp9qh/apprenticeshipsjr_positions_for_self_taught_devs/</guid>
+      <pubDate>Thu, 20 Jun 2024 23:08:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zoho Mail 注册 - GST 注册要求</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dkn67b/zoho_mail_registration_gst_registered_requirement/</link>
+      <description><![CDATA[对于拥有未注册 GST 的 ABN 的合法企业，是否可以建议使用 Zoho mail 低成本简单 (.net.au) 电子邮件计划的替代方案？ 令人惊讶的是，Zoho 对简单电子邮件的要求是 GST 注册，因为 ATO 并不要求年营业额 &lt; 75,000 美元的小型企业这样做。    提交人    /u/Swi_10081   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dkn67b/zoho_mail_registration_gst_registered_requirement/</guid>
+      <pubDate>Thu, 20 Jun 2024 21:34:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在 Eleventy 中使用 Nunjucks 宏实现组件功能</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dkmznk/how_to_use_nunjucks_macros_for_component/</link>
+      <description><![CDATA[  由    /u/localslovak  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dkmznk/how_to_use_nunjucks_macros_for_component/</guid>
+      <pubDate>Thu, 20 Jun 2024 21:27:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>X 轴滚动时的异常可访问性行为</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dkmzax/weird_accessibility_behavior_on_xaxis_scroll/</link>
+      <description><![CDATA[嗨，我是一名软件工程师，我遇到了一个奇怪的问题。 我需要实现这个水平滚动按钮列表，我工作的公司非常重视可访问性，我们甚至有一个专门的团队来处理它。 我遇到的问题是，当尝试使用 TalkBack/VoiceOver 滚动按钮列表时，它不会将下一张卡片完全放入视图中，而是只会将绿色方块移动到下一张卡片而不滚动视图，只有当它到达第三张卡片时，它才会真正滚动视图。 有趣的是，在到达第三张卡片后，如果我返回第二张卡片，那么它会滚动视图以将第二张卡片放在中心（因为我使用了滚动捕捉），但为什么从 1 滚动到 2 时不这样做呢？ 有人对这个问题有什么见解吗？它只是应该以这种有缺陷的方式工作吗？我是否遗漏了什么？ 我将上传视频并留下包含代码的 repo，以便您查看。 https://github.com/Knufle/accessibility-x-scroll 视频：https://imgur.com/a/m93RJr3    由   提交  /u/Knufle   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dkmzax/weird_accessibility_behavior_on_xaxis_scroll/</guid>
+      <pubDate>Thu, 20 Jun 2024 21:26:41 GMT</pubDate>
+    </item>
     <item>
       <title>隐藏登录信息</title>
       <link>https://www.reddit.com/r/webdev/comments/1dkmh66/made_the_login_hidden/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我有这个想法已经有一段时间了。一个像 Wikipedia 这样的众包网站，看起来像一个普通的文档网站，用户可以发布示例代码片段、技巧和窍门，或者只是普通的“文档”类型的内容，但对初学者来说更容易理解。  因为现在大多数文档页面看起来都是由专业人士编写的，也为专业人士编写的。其中没有多少文档页面展示了如何在更大的项目中使用特定事物的示例。 你会从这样的事情中受益或做出贡献吗？ 我还在考虑为那些想要“进入科技行业”的人添加一个选择你自己的冒险式路线图。他们可以从以下主题中进行选择：Web 开发、移动应用开发、数据库管理、项目管理等，每个主题都分为不同的主题并提供不同的路线图来学习技术。例如：Web 开发 -&gt; 前端开发 -&gt; javascript -&gt; reactjs，则页面会显示 reactjs 文档页面、初级/中级/高级课程或 YouTube 播放列表等的链接。    提交人    /u/mekmookbro   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dkiwdc/should_i_build_an_open_source_beginner_friendly/</guid>
       <pubDate>Thu, 20 Jun 2024 18:33:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找基于 Git 的 CMS，用于使用 Nuxt 构建的企业营销网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dkigic/looking_for_a_gitbased_cms_to_use_on_an/</link>
-      <description><![CDATA[我所在的公司曾尝试将 Contentful 用于我们的网站，但我们对该产品在我们的用例中的表现感到失望。尽管我的团队强烈希望使用其他替代方案，但我们还是不得不使用它。特别是，我们希望有更好的：  查找/替换/搜索功能 更好的发布工具（环境对我们来说不够好） 版本控制应显示谁进行了更改 由于项目规模而导致的速率限制问题 删除历史记录 SSO 选项  我相信使用基于 Git 的 CMS 可以解决大部分这些问题，而不会将我们锁定在供应商中，并允许人们无需使用 CMS 即可编辑内容。考虑到这一点，我们想要：  一个非常好的所见即所得编辑器，带有 markdown 选项 对字段和入门级本地化的强大支持 可选，开源/开放核心  一般来说，我们预计大约有 25-50 个内容协作。 Tina 和 Decap CMS 浮现在脑海中。我想知道人们是否对提到的产品有任何好感，或者人们是否有使用基于 Git 的 CMS 的经验。     提交人    /u/Javierg97   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dkigic/looking_for_a_gitbased_cms_to_use_on_an/</guid>
-      <pubDate>Thu, 20 Jun 2024 18:15:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Z 世代软件工程师到底在想什么？年轻的软件工程师讨论价值观、在科技行业工作令他们感到沮丧的因素，以及他们对年长同事的真实看法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dki9n4/what_do_genz_software_engineers_really_think/</link>
-      <description><![CDATA[    /u/magenta_placenta   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dki9n4/what_do_genz_software_engineers_really_think/</guid>
-      <pubDate>Thu, 20 Jun 2024 18:07:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lambda School 的快速犯罪</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dki2ua/fast_crimes_at_lambda_school/</link>
-      <description><![CDATA[        提交人    /u/magenta_placenta   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dki2ua/fast_crimes_at_lambda_school/</guid>
-      <pubDate>Thu, 20 Jun 2024 17:59:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>我即将被录用，但我需要帮助。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dkh2xr/i_am_about_to_get_hired_but_i_need_help/</link>
-      <description><![CDATA[大家好，我在 webdev 领域工作了 2 年，现在还在继续。我需要帮助来决定一个电子商务类型 web 应用程序的技术堆栈，该应用程序必须处理大量流量并且必须具有可扩展性/面向未来性。 我熟悉 NextJS 作为全栈框架，已经在 MERN 堆栈中构建了基本的 crud 应用程序。 我熟悉的其他主要工具：Shadcn UI、Zustand/Redux。 我将要学习的可能有助于我构建这个 web 应用程序的东西：redis、aws、socket、微服务。 我更愿意使用我熟悉的生态系统以避免额外的负担，但我确实需要你关于其他工具和技术的建议来帮助我完成这项工作。再说一次，它将是一个功能齐全的电子商务应用程序。 提前谢谢您。    提交人    /u/Addy_0001   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dkh2xr/i_am_about_to_get_hired_but_i_need_help/</guid>
-      <pubDate>Thu, 20 Jun 2024 17:17:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
