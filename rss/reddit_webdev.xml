@@ -3,8 +3,29 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Sat, 22 Jun 2024 03:16:58 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Sat, 22 Jun 2024 06:18:43 GMT</lastBuildDate>
+    <item>
+      <title>我确信它可能已经完成了，但我偶然发现了这个使用 CSS 网格渐变的巧妙效果！将色相旋转动画应用于网格渐变会为某些颜色提供炫酷的“流体动画”。试试看！生成器中的不同渐变会产生不同的效果。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dlod5f/im_sure_its_probably_already_been_done_but_i/</link>
+      <description><![CDATA[  由    /u/addycodes  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dlod5f/im_sure_its_probably_already_been_done_but_i/</guid>
+      <pubDate>Sat, 22 Jun 2024 05:27:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>您经常使用的 CSS 有哪些？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dln6at/what_are_some_css_gotos_you_use_all_the_time/</link>
+      <description><![CDATA[我真的很喜欢编程，因为有一些模式会反复出现。一旦我使用这些模式之一来解决几个问题，我就会觉得该模式成为我“工具带”的一部分。至少当我使用 python 和 JavaScript 等语言时情况就是这样。我很难掌握 css，因为我并没有真正注意到我可以一直使用的模式。有这么多选择，但没有一个真正让我印象深刻，可以反复使用。当我查找“如何使用 css 做 x”时，感觉我得到的答案与我网页上的所有其他样式并不真正契合，现在我必须让它们协同工作。  TL/DR：CSS 很难，我真的只是在寻找任何技巧来理解人们每天如何使用它。     提交人    /u/JulesC137   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dln6at/what_are_some_css_gotos_you_use_all_the_time/</guid>
+      <pubDate>Sat, 22 Jun 2024 04:14:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>谁还在使用 jquery？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dlmr0i/who_still_uses_jquery/</link>
+      <description><![CDATA[我刚刚使用 jquery 访问了一个移动网站，它让我很开心。还有人在用它或支持它吗？我很好奇。    提交人    /u/Admirable_Proxy   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dlmr0i/who_still_uses_jquery/</guid>
+      <pubDate>Sat, 22 Jun 2024 03:50:35 GMT</pubDate>
+    </item>
     <item>
       <title>如何防止搜索引擎对内容块进行索引？</title>
       <link>https://www.reddit.com/r/webdev/comments/1dllwat/how_do_i_prevent_a_block_of_content_from_being/</link>
@@ -15,14 +36,14 @@
     <item>
       <title>针对现代 B2C 电子商务订阅技术栈的建议</title>
       <link>https://www.reddit.com/r/webdev/comments/1dllpti/advice_for_a_modern_b2c_ecommerce_subscription/</link>
-      <description><![CDATA[我计划推出 B2C 月度订阅服务（每月发货实体产品），目前正在研究推出我们品牌和网站的技术。我对软件相当精通，但我不是经验丰富的开发人员，因此希望使用仍然可以通过直观 UI 自助服务的工具。我有一些预算，但试图引导并尽可能提高效率。 这是我目前考虑的所有内容，所有这些都需要无缝集成：  前端：我对 Webflow 有很多经验，并且有点不屑于在 Shopify 中构建前端，尽管 Shopify 无疑是最好的电子商务平台。Webflow 前端和 Shopify 电子商务后端是否有意义？  值得注意的是，我们只有几个 SKU，因此我不需要跨多种产品的广泛 CMS 和库存管理，这也是我想弄清楚如何保留 Webflow 的另一个原因。  订阅后端：虽然 Shopify 有一些开箱即用的订阅功能，但我是否应该考虑使用 Recharge 之类的功能进行增强？或者有人听说过 Skio 吗？ 营销自动化：我听到了很多关于 Klayvio 的好评。刚开始时，这是否有点小题大做？我希望尽可能地实现自动化，同时尽可能个性化、相关和情境感知。  我的营销自动化平台是否应该/可以兼作我的 CRM？  社交媒体管理：这将是一项依赖于预算的奢侈，但我刚刚遇到了 Assembly，它看起来很棒，但与 Buffer 之类的东西相比有点贵。 聊天和支持：显然希望尽可能地实现自动化，我敢打赌这个类别中有大量新的 AI 驱动工具。似乎每天都有新的东西推出，有什么看起来很有希望吗？还是我应该坚持使用 Intercom 或 Drift 等久经考验的工具？  我错过了什么？显然，最重要的是网站+订阅电子商务组件，因此，任何和所有的想法都会受到那些以前解决过这个问题的人的赞赏。 谢谢，期待对话！ 赞成3反对3评论0 奖励    提交人    /u/Moustache84   [link] [评论]]]></description>
+      <description><![CDATA[我计划推出 B2C 月度订阅服务（每月发货实体产品），目前正在研究推出我们品牌和网站的技术。我对软件相当精通，但我不是经验丰富的开发人员，因此希望使用仍然可以通过直观 UI 自助服务的工具。我有一些预算，但试图引导并尽可能提高效率。 这是我目前考虑的，所有这些都需要无缝集成：  前端：我对 Webflow 有很多经验，并且有点不屑于在 Shopify 中构建前端，尽管 Shopify 无疑是最好的电子商务平台。Webflow 前端和 Shopify 电子商务后端是否有意义？  值得注意的是，我们只有几个 SKU，因此我不需要跨多种产品的广泛 CMS 和库存管理，这也是我想弄清楚如何保留 Webflow 的另一个原因。  订阅后端：虽然 Shopify 有一些开箱即用的订阅功能，但我是否应该考虑使用 Recharge 之类的功能进行增强？或者有人听说过 Skio 吗？ 营销自动化：我听到了很多关于 Klayvio 的好评。刚开始时，这是否有点小题大做？我希望尽可能地实现自动化，同时尽可能个性化、相关和情境感知。  我的营销自动化平台是否应该/可以兼作我的 CRM？  社交媒体管理：这将是一项依赖于预算的奢侈，但我刚刚遇到了 Assembly，它看起来很棒，但与 Buffer 之类的东西相比有点贵。 聊天和支持：显然希望尽可能地实现自动化，我敢打赌这个类别中有大量新的 AI 驱动工具。似乎每天都有新的东西推出，有什么看起来很有希望吗？还是我应该坚持使用 Intercom 或 Drift 等久经考验的工具？  我错过了什么？显然，最重要的是网站+订阅电子商务组件，因此，任何和所有的想法都会受到那些以前解决过这个问题的人的赞赏。 谢谢，期待对话！ 赞成3反对3评论0 奖励    提交人    /u/Moustache84   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dllpti/advice_for_a_modern_b2c_ecommerce_subscription/</guid>
       <pubDate>Sat, 22 Jun 2024 02:52:15 GMT</pubDate>
     </item>
     <item>
       <title>Cookies 和安全问题</title>
       <link>https://www.reddit.com/r/webdev/comments/1dllfxg/cookies_and_security_question/</link>
-      <description><![CDATA[我是新手。我一直在使用 vanilla js、flask 和 supabase 处理个人项目，并且对客户端和服务器端身份验证如何协同工作感到非常困惑，这也许更像是一个大局安全问题。（我查看了 SO、reddit 和 chatgpt，但似乎找不到直接的答案）。请告诉我我哪里做错了。这个帖子并没有真正帮助我，而且我的网络知识总体上很薄弱。 假设我已经登录了一个用户，并且在服务器端有一个来自我对 supabase 的请求的访问令牌，该令牌验证了电子邮件/密码凭据。登录响应（对客户端的登录请求）应设置包含此访问令牌（例如，作为 JWT）的浏览器 cookie。我认为在这种情况下 DBS 是 supabase 并不重要，因为访问令牌必须来自某个地方。  现在，假设用户想要查看一些对他们来说是私有的数据。浏览器默认使用 cookie 发送此数据的请求，服务器可以读取和验证这些 cookie，并且可以设置为超时或仅在浏览器窗口的生命周期内存在，等等。  这似乎一点也不安全。Cookie 本身并不安全，数据包嗅探使任何浏览器隐藏信息变得无关紧要。JWT 并没有真正加密，只是签名（我认为？）。我的服务器如何区分最初登录的原始浏览器会话的合法请求和在服务器和浏览器之间嗅探数据包的人，这些人可能会使用这些 cookie 中找到的访问令牌发出恶意请求？     由    /u/thefieldmouseisfast 提交   [链接] [评论]]]></description>
+      <description><![CDATA[我是新手。我一直在使用 vanilla js、flask 和 supabase 处理个人项目，并且对客户端和服务器端身份验证如何协同工作感到非常困惑，这也许更像是一个大局安全问题。（我查看了 SO、reddit 和 chatgpt，但似乎找不到直接的答案）。请告诉我我哪里做错了。这个帖子并没有真正帮助我，而且我的网络知识总体上很薄弱。 假设我已经登录了一个用户，并且在服务器端有一个来自我对 supabase 的请求的访问令牌，该令牌验证了电子邮件/密码凭据。登录响应（对客户端的登录请求）应设置包含此访问令牌（例如，作为 JWT）的浏览器 cookie。我认为在这种情况下 DBS 是 supabase 并不重要，因为访问令牌必须来自某个地方。  现在，假设用户想要查看一些对他们来说是私有的数据。浏览器默认使用 cookie 发送此数据的请求，服务器可以读取和验证这些 cookie，并且可以设置为超时或仅在浏览器窗口的生命周期内存在，等等。  这似乎一点也不安全。Cookie 本身并不安全，数据包嗅探使任何浏览器隐藏信息都变得无关紧要。JWT 并没有真正加密，只是签名（我认为？）。我的服务器如何区分最初登录的原始浏览器会话的合法请求和在服务器和浏览器之间嗅探数据包的人，这些人可能会使用这些 cookie 中找到的访问令牌发出恶意请求？     由    /u/thefieldmouseisfast 提交   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dllfxg/cookies_and_security_question/</guid>
       <pubDate>Sat, 22 Jun 2024 02:37:12 GMT</pubDate>
     </item>
@@ -36,7 +57,7 @@
     <item>
       <title>厌倦了在旅途中携带沉重的笔记本电脑，但我需要携带一些可以让我应对工作紧急情况并进行远程代码编辑的东西。有没有便宜的小型笔记本电脑或平板电脑的推荐？</title>
       <link>https://www.reddit.com/r/webdev/comments/1dljtjv/tired_of_lugging_my_heavy_laptop_on_trips_but_i/</link>
-      <description><![CDATA[我是一名自由网页开发者，有大约 20 个活跃客户。我最近迷上了旅行，经常进行个人旅行。大多数情况下，我可以在旅行中不用考虑工作，但我确实需要能够应对偶尔出现的紧急情况。例如，如果客户的网站出现故障，我需要登录并解决问题。 我一直把沉重的 MSI 游戏笔记本电脑放在旅行背包里，但背着它穿过多个机场/公交车换乘/城市行走，这真是折磨我的背部。在我上次旅行中，背包带让我的颈部疼痛难忍，之后持续了三个星期。 有人可以推荐一款便宜、小巧的设备，我可以随身携带以备不时之需吗？我不在乎它是否缓慢而无力。我需要能够通过 SSH 连接到 Linux 服务器。我还需要某种方式来远程编辑代码 - 要么使用 VSCode 的远程 SSH 扩展，要么使用 WinSCP 和本地代码编辑器。我最习惯使用 Ubuntu，但我也喜欢使用 Windows 或 ChromeOS。 我特别想知道平板电脑是否适合做这件事？我并没有真正使用过平板电脑，所以我不知道在平板电脑上编辑代码是否实用。 任何建议都将不胜感激！    提交人    /u/FlexNastyBIG   [链接] [评论]]]></description>
+      <description><![CDATA[我是一名自由职业的网页开发者，有大约 20 个活跃客户。我最近迷上了旅行，经常进行个人旅行。大多数情况下，我可以在旅行中不用考虑工作，但我确实需要能够应对偶尔出现的紧急情况。例如，如果客户的网站瘫痪了，我需要登录并解决问题。 我一直把沉重的 MSI 游戏笔记本电脑放在旅行背包里，但背着它穿过多个机场/公交车换乘/城市行走，这可真是折磨我的背。上次旅行时，背包带让我的脖子疼得厉害，之后持续了三个星期。 有人能推荐一款便宜、小巧的设备吗？我可以随身携带以备不时之需吗？我不在乎它是否速度慢、性能差。我需要能够通过 SSH 连接到 Linux 服务器。我还需要某种方式来远程编辑代码 - 要么使用 VSCode 的远程 SSH 扩展，要么像 WinSCP 和本地代码编辑器。我最习惯使用 Ubuntu，但我也喜欢使用 Windows 或 ChromeOS。 我特别想知道平板电脑是否适合做这件事？我并没有真正使用过平板电脑，所以我不知道在平板电脑上编辑代码是否实用。 任何建议都将不胜感激！    提交人    /u/FlexNastyBIG   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dljtjv/tired_of_lugging_my_heavy_laptop_on_trips_but_i/</guid>
       <pubDate>Sat, 22 Jun 2024 01:10:17 GMT</pubDate>
     </item>
@@ -55,7 +76,7 @@
       <pubDate>Fri, 21 Jun 2024 23:04:36 GMT</pubDate>
     </item>
     <item>
-      <title>在 firebase 上托管 vite react 网站时出现空白页和 MIME 类型的问题</title>
+      <title>在 Firebase 上托管 vite react 网站时出现空白页和 MIME 类型的问题</title>
       <link>https://www.reddit.com/r/webdev/comments/1dlh2lj/issue_with_hosting_vite_react_website_on_firebase/</link>
       <description><![CDATA[我一直在尝试在 firebase 上托管一个使用 firestore 的 vite react 应用。使用“npm run dev”时，网站可以在本地运行。但是，当我初始化 firebase 托管并部署时，它给了我一个空白页。检查控制台后，我收到以下两个错误： 样式表 [我的网站网址]/assets/index-789467f8.css 未加载，因为其 MIME 类型“text/html”不是“text/css”。 由于不允许的 MIME 类型（“text/html”），从 [我的网站网址]/assets/index-d9f611fa.js 加载模块被阻止。 我查找了该问题并尝试了多种解决方案，例如在 viteconfig.ts 中使用 base：“./”，为每种文件类型添加标头，然后重新初始化应用程序。有人能帮我解决这个问题吗？    提交人    /u/A-Random-Crow   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dlh2lj/issue_with_hosting_vite_react_website_on_firebase/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[视频：https://youtu.be/5LMYiLwfvRg 演示：https://bs.stranno.su 源代码和应用原理：https://github.com/MaxAlyokhin/binary-synth 它可以直接在浏览器中合成声音，也可以作为 MIDI 消息的生成器发送到外部设备或 DAW，将任何文件转换为乐谱。所有应用程序代码都是用 Javascript 编写的，连同您需要的所有内容都打包在一个大约 750kb 的 .html 文件中。该合成器不需要互联网，可以在任何带有浏览器的设备上下载并在本地运行。    提交人    /u/Interesting-Bed-4355   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dlfczz/i_created_a_websynthesizer_that_generates_sound/</guid>
       <pubDate>Fri, 21 Jun 2024 21:36:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找模组！（招聘）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dlfatc/looking_for_mods_hiring/</link>
-      <description><![CDATA[这里有人需要工作吗？我正在寻找一些聊天版主，工资为每小时 14.50 美元。如果您有兴趣，请在 Telegram &#39;@&#39;DasherAdmin 上给我发私信！    提交人    /u/vampir1389   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dlfatc/looking_for_mods_hiring/</guid>
-      <pubDate>Fri, 21 Jun 2024 21:34:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为初级/中级开发人员，你如何知道人工智能生成的代码是好还是坏？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dlf6u0/as_a_juniormid_developer_how_do_you_know_an_ai/</link>
-      <description><![CDATA[我最近要求 ChatGPT 解释如何构建一种特定类型的应用程序（在互联网上并不流行），为其提供分步说明、要使用的库和预期行为。代码有效，我想研究和学习它。问题是我还不知道它是好代码还是坏代码，尤其是那些我以前没见过的代码。    提交人    /u/Toluwalashe   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dlf6u0/as_a_juniormid_developer_how_do_you_know_an_ai/</guid>
-      <pubDate>Fri, 21 Jun 2024 21:29:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 NextJS 中创建实时订阅者计数器（附源代码）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dlew9z/how_i_created_a_live_subscribers_counter_in/</link>
-      <description><![CDATA[        提交人    /u/PierreMouchan   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dlew9z/how_i_created_a_live_subscribers_counter_in/</guid>
-      <pubDate>Fri, 21 Jun 2024 21:16:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
