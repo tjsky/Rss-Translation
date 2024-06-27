@@ -4,111 +4,96 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Thu, 27 Jun 2024 09:07:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 12:16:37 GMT</lastBuildDate>
     <item>
-      <title>当我在宿舍里探索 Windows 98 系统上的 C:\Windows 目录时，我发现了 Winpo [...]</title>
-      <link>https://t.me/hn_summary/96870</link>
-      <description><![CDATA[Winpopup (2001)
-当我在宿舍里探索 Windows 98 系统上的 C:\Windows 目录时，我发现了 Winpopup.exe，这是一个用于通过局域网 (LAN) 发送消息的小程序。Windows 网络允许同一工作组中的计算机共享资源，而 WinPopup 利用这一点，允许向特定计算机或整个工作组发送消息。要使用 WinPopup，请导航到 C:\Windows，找到 Winpopup.exe，然后双击它。可以通过选择收件人并键入消息来发送消息。请注意，收件人也必须运行 WinPopup 才能接收消息。事实证明，此工具对于 Windows 用户之间的通信非常有用。]]></description>
-      <guid>https://t.me/hn_summary/96870</guid>
-      <pubDate>Thu, 27 Jun 2024 09:07:02 GMT</pubDate>
+      <title>[媒体] Google Sheets 已将其计算引擎从 JavaScript 过渡到 WasmGC，成为 [...]</title>
+      <link>https://t.me/hn_summary/96891</link>
+      <description><![CDATA[Google Sheets 为何将其计算工作器从 JavaScript 移植到 WasmGC
+Google Sheets 已将其计算引擎从 JavaScript 过渡到 WasmGC，成为首批这样做的 Google 产品之一。此举于 2022 年宣布，涉及 Sheets 和 Chrome 团队之间的合作，以优化和标准化流程。最初，取代原始 Java 服务器引擎的 JavaScript 引擎被发现比 Java 慢三倍。WasmGC 是 WebAssembly 的扩展，旨在为 Java 等垃圾收集语言带来接近原生的速度。尽管最初的性能比 JavaScript 慢，但后续的优化显着提高了速度。这一转变凸显了 WasmGC 通过提供增强的性能和效率来彻底改变 Web 应用程序开发的潜力。]]></description>
+      <guid>https://t.me/hn_summary/96891</guid>
+      <pubDate>Thu, 27 Jun 2024 12:16:37 GMT</pubDate>
     </item>
     <item>
-      <title>网站：resumefromspace.com</title>
-      <link>https://t.me/hn_summary/96869</link>
-      <description><![CDATA[Show HN：AI 驱动的简历教练可帮助您为求职面试做准备
-标题：Show HN：AI 驱动的简历教练可帮助您为求职面试做准备
-网站：resumefromspace.com
-
-Resumefromspace.com 推出了一款 AI 驱动的简历教练，旨在帮助求职者准备面试。该平台提供两种类型的面试模拟：一般面试和技术面试。一般面试侧重于根据候选人的简历和他们所申请的职位提出经典的开放式问题，每个问题要求一个答案。技术面试旨在提高候选人针对所选职位的技能和专业知识。用户需要提供他们的简历和他们所针对的职位才能开始任何一种面试类型。这一创新工具提供了一种独特的个性化面试准备方法。]]></description>
-      <guid>https://t.me/hn_summary/96869</guid>
-      <pubDate>Thu, 27 Jun 2024 08:29:48 GMT</pubDate>
+      <title>[媒体] 在 blog.stuffedcow.net 上的“微基准测试返回地址分支预测 (2018)”中，[...]</title>
+      <link>https://t.me/hn_summary/96890</link>
+      <description><![CDATA[微基准测试返回地址分支预测 (2018)
+在blog.stuffedcow.net上的“微基准测试返回地址分支预测 (2018)”中，作者通过一系列微基准测试探索了各种 Intel 和 AMD 处理器中返回地址堆栈 (RAS) 的行为。该研究证实，返回预测比将返回视为间接分支更准确，并揭示了对紧随其后的指令的函数调用不被视为调用。基准测试测量了管道刷新后的 RAS 容量和行为，并指出某些微架构在返回错误预测后会受到 RAS 栈顶指针不正确的影响。值得注意的是，AMD Bulldozer 的 RAS 行为很奇怪，栈顶指针会偏离一个，直到下一次正确预测的返回，作者认为这可能是一个性能错误。英特尔的 RSB 用作循环数组，没有下溢检查，而 AMD 的 RAS 包括溢出/下溢检查。该研究还测量了飞行中的推测分支和调用的最大数量，发现英特尔 CPU 的飞行中调用限制为 13 到 15 个，这可能与 RAS 有关，而飞行中分支的数量要高得多。这项详细分析提供了有关不同处理器架构中 RAS 行为复杂性的宝贵见解。（基于 25% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/96890</guid>
+      <pubDate>Thu, 27 Jun 2024 12:12:32 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在bump.sh上的文章“API技术作家的Git工作流程”中，作者解决了[...]</title>
-      <link>https://t.me/hn_summary/96868</link>
-      <description><![CDATA[API 技术编写人员的 Git 工作流
-在 bump.sh 上的文章“API 技术编写人员的 Git 工作流”中，作者解决了让 API 文档与不断发展的 API 设计保持一致的持续挑战。该文章强调了将 Git 工作流集成到技术写作中的好处，例如版本控制、增强协作和通过 CI/CD 管道实现自动化。但是，它承认没有一种方法适合所有场景。本文深入探讨了代码生成文档的复杂性，并提出了一些策略，例如将改进的副本合并到源代码中、使用代码注释进行一次性生成以及采用 OpenAPI 规范覆盖。它还强调了让技术作家参与 API 设计过程以确保以用户为中心的文档的重要性。作者讨论了工程和技术写作工作流程之间的潜在冲突，主张使用单独的存储库来独立管理文档。建议使用 Bump.sh 等工具来跟踪更改并保持代码和文档之间的同步。文章最后鼓励使用单独的存储库、OpenAPI 覆盖和自动化工具来提高 API 文档的质量和整体开发人员体验。 
+      <title>[媒体] 标题：纽约市为何花近 10 年时间安装 500 英尺长的管道 – Gothamist</title>
+      <link>https://t.me/hn_summary/96889</link>
+      <description><![CDATA[为什么纽约市花了近 10 年时间安装 500 英尺的管道 - Gothamist
+标题：为什么纽约市花了近 10 年时间安装 500 英尺的管道 - Gothamist
 
-争议：将 API 文档存储在单独的存储库中的建议可能会被视为有争议的，因为它可能导致代码和文档之间的同步问题。
-
-独特/巧妙：使用 OpenAPI 覆盖来丰富文档而不会使代码库混乱是一种巧妙的方法，允许技术作家独立操作。]]></description>
-      <guid>https://t.me/hn_summary/96868</guid>
-      <pubDate>Thu, 27 Jun 2024 08:28:39 GMT</pubDate>
+东 61 街和 63 街之间的约克大道的施工已经拖延了八年多，远远超过了原定的一年时间表。该项目最初的预算为 850 万美元，由于意外的公用事业线路和官僚主义效率低下，预算已膨胀至 2230 万美元。纽约市设计和建筑部专员 Thomas Foley 认为，严格的承包规则（如“设计-投标-建造”方法）阻碍了项目效率。他提倡“设计-施工”合同，将设计和施工阶段整合在一起，并列举了成功的成本节约案例。Foley 和其他官员正在推动立法改革，以加快未来项目的进度并减少延误。]]></description>
+      <guid>https://t.me/hn_summary/96889</guid>
+      <pubDate>Thu, 27 Jun 2024 12:10:23 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在快节奏的人工智能领域，Anthropic 的 Claude Sonnet 3.5 脱颖而出，成为 [...]</title>
-      <link>https://t.me/hn_summary/96867</link>
-      <description><![CDATA[Claude Sonnet 3.5 – 对话式 AI 的新基准
-在快节奏的 AI 领域，Anthropic 的 Claude Sonnet 3.5 脱颖而出，成为一项重大进步。该模型可在 Claude.ai 和 Claude iOS 应用程序上免费获取，为开发人员提供更高使用率的订阅选项和可承受的 API 成本。Claude Sonnet 3.5 的速度是其前身 Claude Opus 的两倍，可提供即时、高质量的响应。独特的功能 Artifacts 允许实时生成和编辑内容，将其转变为协作工作区。隐私是重中之重，未经同意不得使用用户数据进行训练。基准测试表明，Claude Sonnet 3.5 在编码、文档生成等方面表现出色，远远超过 Claude Opus。虽然 Anthropic 谨慎的创新方式为 OpenAI 和 Google 等竞争对手留下了空间，但 Claude Sonnet 3.5 的速度、成本效率和协作功能为 AI 树立了新标准。]]></description>
-      <guid>https://t.me/hn_summary/96867</guid>
-      <pubDate>Thu, 27 Jun 2024 08:27:33 GMT</pubDate>
+      <title>[媒体] ISO/IEC JTC1/SC22/WG14（即 C 委员会）已更新了 C 标准图表 [...]</title>
+      <link>https://t.me/hn_summary/96888</link>
+      <description><![CDATA[C 标准章程已更新，现在还包含安全原则
+ISO/IEC JTC1/SC22/WG14（即 C 委员会）已更新 C 标准章程，以包含安全原则。该委员会自 1978 年成立以来一直负责 C 编程语言，在提高可移植性、融入新想法和保持语言简单性之间取得平衡。更新后的章程强调了安全关键软件、编程语言漏洞以及与其他语言的互操作性等领域。关键原则包括保持语言小巧简单、促进可移植性、避免歧义以及实现安全和功能安全编程。此更新强调了安全性在现代软件开发中的重要性，反映了编程社区不断变化的需求。（基于 97% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/96888</guid>
+      <pubDate>Thu, 27 Jun 2024 12:07:18 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 随着 Chrome 125 中 CSS Anchor Position API 的引入，定位元素 [...]</title>
-      <link>https://t.me/hn_summary/96866</link>
-      <description><![CDATA[使用 CSS 锚点定位制作流程图
-随着 Chrome 125 中引入 CSS 锚点定位 API，元素之间的相对定位变得容易得多，非常适合弹出窗口和工具提示等复杂用例。但是，此 API 也可用于仅使用 CSS 创建基本流程图。本文演示了如何使用 CSS 锚点定位制作流程图，从基本定位开始，然后介绍涉及多个锚点和节点的更复杂设置。
+      <title>标题：德国人工智能防御初创公司 Helsing 估值有望翻三倍至 45 亿美元</title>
+      <link>https://t.me/hn_summary/96887</link>
+      <description><![CDATA[德国人工智能防御初创公司 Helsing 有望将估值翻三倍，达到 45 亿美元
+标题：德国人工智能防御初创公司 Helsing 有望将估值翻三倍，达到 45 亿美元
 
-要定位元素，请为 div 分配锚点名称，然后使用 anchor() 函数将另一个 div 相对于它定位。例如，可以使用 anchor(--anchor-one top) 将 div“two”定位到 div“one”的顶部。该文章还介绍了如何使用 CSS 渐变和伪元素创建流程图节点和线条，甚至介绍了如何使用一些 JavaScript 使流程图可拖动。
-
-如需深入了解 CSS 锚点定位 API，建议读者查看 Chrome Dev 博客文章“CSS 锚点定位 API 简介”。
-
-令人惊讶/巧妙的方面：巧妙使用 CSS 渐变和伪元素创建流程图线条和箭头尤其值得注意。
-
-有争议的方面：内容中没有明显的争议。]]></description>
-      <guid>https://t.me/hn_summary/96866</guid>
-      <pubDate>Thu, 27 Jun 2024 08:27:28 GMT</pubDate>
+德国人工智能防御初创公司 Helsing 的估值即将翻三倍，达到惊人的 45 亿美元。这一激增凸显了人工智能驱动的防御技术日益增长的重要性和投资。该公司因其将人工智能与防御系统相结合的创新方法而备受关注，有望提高安全性和运营效率。虽然估值的快速增长凸显了市场的信心，但也引发了人们对人工智能在军事应用中的道德影响和潜在风险的质疑。这一发展证明了人工智能在国防领域的变革潜力，但也引发了对其更广泛影响的审查和争论。]]></description>
+      <guid>https://t.me/hn_summary/96887</guid>
+      <pubDate>Thu, 27 Jun 2024 11:46:08 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] “确定网格旋转以尽量减少 3D 打印的悬垂”项目旨在 [...]</title>
-      <link>https://t.me/hn_summary/96865</link>
-      <description><![CDATA[确定网格旋转以最小化 3D 打印的悬垂
-“确定网格旋转以最小化 3D 打印的悬垂”项目旨在优化 3D 网格模型的方向，以减少 3D 打印过程中不受支持的悬垂。通过在 -z 方向投影法线，该工具可识别超过用户定义阈值（默认为 45 度）的悬垂。它采用贝叶斯高斯过程优化来找到最小化这些悬垂的最佳旋转。用户可以输入 STL 文件并接收 x、y 和 z 轴的最佳旋转。该项目的突出之处在于允许自定义优化参数，例如函数调用次数、网格间距和最大悬垂角度。]]></description>
-      <guid>https://t.me/hn_summary/96865</guid>
-      <pubDate>Thu, 27 Jun 2024 08:04:16 GMT</pubDate>
+      <title>[媒体] 日本计划建设一个具有突破性的 310 英里自动货物传送系统，以取代 [...]</title>
+      <link>https://t.me/hn_summary/96886</link>
+      <description><![CDATA[310 英里的自动货物传送带将取代日本的 25,000 辆卡车
+日本正计划建造一个突破性的 310 英里的自动货物传送带系统来取代 25,000 辆卡车，旨在解决劳动力短缺和不断增长的在线购物需求。该项目自 2 月以来一直由专家小组讨论，旨在到 2034 年将东京和大阪连接起来。由于日本面临送货司机的严重减少，该系统承诺在无人干预的情况下运送多达 25,000 辆卡车的小型货物。选项包括大型传送带或隧道中的自动电动车，但成本可能飙升至 230 亿美元。有争议的是，一些人认为，自动电动卡车可能在没有如此广泛的基础设施的情况下实现同样的目标。该部正在寻求私人资金，强调物流和环境效益。]]></description>
+      <guid>https://t.me/hn_summary/96886</guid>
+      <pubDate>Thu, 27 Jun 2024 11:36:01 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 曾经是音乐新闻基石的 MTV 新闻已经关闭，这标志着一个重大的 [...]</title>
-      <link>https://t.me/hn_summary/96864</link>
-      <description><![CDATA[一个时代的终结：MTV 新闻关闭……或者档案为何如此重要
-MTV 新闻曾经是音乐新闻的基石，如今却已关闭，这对流行文化研究人员和学者来说是一个重大损失。作者对 MTV 从音乐视频中心转变为真人秀节目提供商表示遗憾，并强调存档数字内容的重要性。他们将其与 Geocities 和 Yahoo! Answers 的消失相提并论，强调互联网并不像曾经认为的那样永恒。作者强调了对记者的影响，他们的作品现在可能无法访问，研究人员也失去了宝贵的文化信息。他们提倡保护实体图书馆和数字图书馆，敦促读者支持当地图书馆并存档自己的作品。这篇文章最后真诚地反思了读者善意的话语和支持的重要性，这些话语和支持激励作者继续在“经典摇滚多样性”博客上开展工作。]]></description>
-      <guid>https://t.me/hn_summary/96864</guid>
-      <pubDate>Thu, 27 Jun 2024 08:02:11 GMT</pubDate>
+      <title>[媒体] NASA已授予SpaceX一份价值8.43亿美元的合同，用于建造“美国”</title>
+      <link>https://t.me/hn_summary/96885</link>
+      <description><![CDATA[SpaceX 建造 NASA 飞船以摧毁国际空间站
+NASA 已授予 SpaceX 一份价值 8.43 亿美元的合同，用于建造“美国脱轨飞行器”，该飞行器旨在引导国际空间站 (ISS) 在 2030 年前实现受控再入和摧毁。这一决定是在国际空间站自 2000 年开始运行并进行过 3,300 多次实验之后，面临老化问题，包括无法解决的微观泄漏。NASA 评估了拆卸国际空间站或提高其轨道等替代方案，但发现这些方案不可行。该机构目前正专注于通过商业低地球轨道目的地计划用私人空间站取代国际空间站，旨在大幅降低成本。与 SpaceX 的合作凸显了太空探索向私有化的战略转变。]]></description>
+      <guid>https://t.me/hn_summary/96885</guid>
+      <pubDate>Thu, 27 Jun 2024 11:23:55 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在接受《时代》杂志采访时，Anthropic 首席执行官 Dario Amodei 讨论了该公司的业务 [...]</title>
-      <link>https://t.me/hn_summary/96863</link>
-      <description><![CDATA[Anthropic 首席执行官谈作为弱势一方、人工智能安全和经济不平等
-在接受《时代》杂志采访时，Anthropic 首席执行官 Dario Amodei 讨论了该公司对人工智能安全的承诺，以及其在竞争激烈的人工智能领域中作为弱势一方的地位。Anthropic 以其创新的人工智能系统（如 Claude 3.5 Sonnet 聊天机器人）而闻名，旨在平衡人工智能的快速发展与公共安全。Amodei 承认人工智能的潜在危险以及推动该行业的经济压力。他强调 Anthropic 对公共利益的关注以及公司内部对多元化观点的需求。Amodei 还谈到了经济不平等，表达了对权力集中的担忧，并倡导更具包容性的经济体系。值得注意的是，他建议政府可能需要出于国家安全原因在人工智能发展中发挥更大作用。
+      <title>欧洲最大的可再生能源生产商已宣布减少其新的风力发电计划[...]</title>
+      <link>https://t.me/hn_summary/96884</link>
+      <description><![CDATA[欧洲最大的可再生能源生产商缩减风能和太阳能发电厂计划
+欧洲最大的可再生能源生产商宣布减少其新建风能和太阳能发电厂的计划。这一决定是在成本上升和监管障碍的背景下做出的，这些障碍使得大规模可再生能源项目的经济可行性降低。该公司最初的目标是快速扩张以满足日益增长的清洁能源需求，但现在面临着重大挑战。此举可能对欧洲的可再生能源目标和气候目标产生更广泛的影响。鉴于全球大力推行可再生能源，这些计划的缩减令人惊讶，凸显了能源领域的雄心壮志与实际制约之间的复杂平衡。]]></description>
+      <guid>https://t.me/hn_summary/96884</guid>
+      <pubDate>Thu, 27 Jun 2024 11:17:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在《我希望自己能学到的十堂课》中，吉安卡洛·罗塔分享了......的实用建议。</title>
+      <link>https://t.me/hn_summary/96883</link>
+      <description><![CDATA[我希望我曾学到的十堂课 [pdf](https://news.ycombinator.com/item?id=40808933)
+在《我希望我曾学到的十堂课》中，Gian-Carlo Rota 分享了从他丰富的经验中得出的数学家的实用建议。他强调了清晰而有重点的讲座的重要性，建议每堂课只讲一个要点，不要超时。他建议讲师与听众建立联系，并给他们留下一些难忘的东西。Rota 还强调了在不同背景下多次发表相同结果的价值，以接触不同的受众并避免被忽视。他强调，说明性工作往往比原创研究留下更持久的遗产。此外，罗塔指出，每个数学家，甚至像希尔伯特这样的伟人，都依赖一些关键技巧，错误是不可避免的，但可以纠正。这篇坦率而富有洞察力的文章为新手和经验丰富的数学家提供了永恒的智慧。
 
-争议点：
-- 人工智能的潜在危险和推动该行业发展的经济压力。
-- 权力集中及其对民主的影响。
+争议点：罗塔建议多次发表同一结果可能会被视为有争议的，因为它可能被视为自我剽窃或试图夸大自己的出版记录。
 
-独特/聪明的见解：
-- Anthropic 的捐赠匹配计划旨在吸引致力于公共利益的员工。
-- 政府可能需要更多地参与人工智能发展以保障国家安全的想法。]]></description>
-      <guid>https://t.me/hn_summary/96863</guid>
-      <pubDate>Thu, 27 Jun 2024 07:52:04 GMT</pubDate>
+独特见解：奥尔加·陶斯基-托德关于希尔伯特论文充满错误并需要纠正的轶事既令人惊讶又人性化，表明即使是最受尊敬的数学家也会犯错。（基于 72% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/96883</guid>
+      <pubDate>Thu, 27 Jun 2024 11:12:44 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 我一直在寻找一种在 Emacs 中创建简单图表的简单方法。</title>
-      <link>https://t.me/hn_summary/96862</link>
-      <description><![CDATA[在 Emacs 中制作图表的新软件包：Eplot
-我一直在寻找一种在 Emacs 中创建简单图表的简单方法。在尝试电影评级时，我尝试使用 chart.el，但它的 Y 轴标记是一场灾难。这促使我开发了一个名为 Eplot 的新软件包。与 chart.el 不同，Eplot 提供合理的 Y 轴数字，并支持暗模式和 SVG 渐变等功能。界面很简单：只需在带有数字的缓冲区中输入 M-x eplot，它就会生成一个图表。使用标题可以轻松进行调整，使其易于使用。代码仍在进行中，有些混乱，但任何感兴趣的人都可以在 GitHub 上找到它。]]></description>
-      <guid>https://t.me/hn_summary/96862</guid>
-      <pubDate>Thu, 27 Jun 2024 07:04:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] NBC 计划于今年夏天邀请体育解说员艾尔迈克尔斯 (Al Michaels) 重返奥运会 [...]</title>
-      <link>https://t.me/hn_summary/96861</link>
-      <description><![CDATA[NBC 将使用 AI 版本的播音员 Al Michaels 的声音进行奥运会回顾
-NBC 将于今年夏天将体育解说员 Al Michaels 带回奥运会，但有一个变化：他的声音将由人工智能驱动。NBC 周三宣布，将使用 AI 软件在其 Peacock 流媒体平台上重现 Michaels 的声音，以每日回顾夏季奥运会。这标志着 AI 在媒体领域的一个重要里程碑。该工具“Peacock 上的每日奥运会回顾”将提供根据订阅者偏好个性化的 10 分钟精彩集锦，最多可能有 700 万种变化。Michaels 最初持怀疑态度，但后来认可了该项目并获得报酬。NBC 保证，编辑团队将确保 AI 生成内容的准确性。该工具将于 7 月 27 日开始提供。
+      <title>[媒体] 怀念现已解散的 Twitter 可访问性社区，我重新访问了 [...]</title>
+      <link>https://t.me/hn_summary/96882</link>
+      <description><![CDATA[袜子、谎言和无障碍
+怀念现已解散的 Twitter 无障碍社区，我重新访问了我的时间线，发现了来自 GAAD 2023 的帖子。各公司在社交媒体上发布了大量帖子，其中许多帖子缺乏替代文本，这促使 Matt Eason 创建了 GAAD Bot 来提醒他们。#GAAD 标签的滥用延伸到了推广 accessiBe 的公司，accessiBe 是一家无障碍覆盖供应商，因未能真正使网站无障碍而受到批评。令人惊讶的是，许多帖子来自虚假企业，可能是为了放大 accessiBe 的信息而设立的。尽管 accessiBe 的首席执行官已道歉并声称进行了营销变革，但使用傀儡账户引发了人们对其诚意和策略的质疑。 
 
-争议：新闻业使用人工智能引发了关于其适当性及其对创意产业影响的道德问题。]]></description>
-      <guid>https://t.me/hn_summary/96861</guid>
-      <pubDate>Thu, 27 Jun 2024 07:00:39 GMT</pubDate>
+争议：尽管其首席执行官已道歉并声称进行了营销变革，但 accessiBe 仍使用虚假企业和傀儡账户来推广，这让人对其诚意和道德产生怀疑。]]></description>
+      <guid>https://t.me/hn_summary/96882</guid>
+      <pubDate>Thu, 27 Jun 2024 11:10:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
