@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Fri, 28 Jun 2024 01:00:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2024 03:16:51 GMT</lastBuildDate>
+    <item>
+      <title>有哪些网站可以生成商业用途的 ai 图像？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dq9k5h/what_are_some_websites_for_generating_ai_images/</link>
+      <description><![CDATA[寻找一些免费的人工智能软件来为网站生成图像。 有什么建议吗？谢谢    提交人    /u/NoPush8163   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dq9k5h/what_are_some_websites_for_generating_ai_images/</guid>
+      <pubDate>Fri, 28 Jun 2024 03:03:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>多平台（Web 应用程序、IOS 和 Android）项目的堆栈。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dq9k00/stack_for_multiplatform_web_app_ios_and_android/</link>
+      <description><![CDATA[我正在计划一个新项目，想开发一个 Web 应用程序以及一个可以部署在 IOS 和 Android 上的移动应用程序。 说实话，我不确定要选择什么技术栈，想听听你们的意见，看看我是否走在正确的轨道上。 我希望包含的一些功能：  SEO 友好（至少在 Web 上） 产品标题的搜索功能 图像、音频和 PDF 上传。 卖家和客户端用户登录。 单一后端  我心目中的技术栈 / 计划是：  Sveltve（之前没有用过，但听说过不错）用于前端或者可能是 React Nodejs + Express 用于单一后端。 可能是 graphql 或 REST API（仍不确定） Supabase 用于存储 + Auth + db （可能）PrismaORM（不确定它是否是一个好的选择，或者使用 supabase 时的用例） Zustand 用于移动和 Web 的状态管理。 React Native/Expo 用于移动应用开发 速率限制（不确定） swagger docs 用于 api 文档  这是一个可持续的技术栈吗？或者如果你有不同的看法，你会改变什么？你会如何处理这样的事情？（Monorepo，Nestjs） 有些问题我不太清楚：  在这种情况下，graphql 是否是一种好的方法？我会遇到移动应用程序的任何问题吗？ 我应该使用 monorepo 还是简单地将它们全部分开（这是我的想法） 是否需要 PrismaORM？你认为 DrizzleORM 是更好的选择吗？在移动应用程序开发中，这会出现什么问题吗？ 我应该用 nextjs 替换 sveltve 吗？ 见过人们使用 clerk 进行身份验证作为一种流行的替代方案吗？你对此有何看法。  感谢你们花时间读到这里。非常感谢您花费的时间。    提交人    /u/fakeguruception   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dq9k00/stack_for_multiplatform_web_app_ios_and_android/</guid>
+      <pubDate>Fri, 28 Jun 2024 03:03:40 GMT</pubDate>
+    </item>
     <item>
       <title>如何保护 webhool 回调的密码？</title>
       <link>https://www.reddit.com/r/webdev/comments/1dq6rea/how_do_i_secure_passwords_for_a_webhool_callback/</link>
@@ -32,6 +46,13 @@
       <description><![CDATA[https://imgur.com/a/nnW9KE4 在现代框架中，不显示仅供外卖订单使用的送货输入区域肯定会花费更少的时间，对吧？相反，有人花时间写了那段简介？    提交人    /u/johnsdowney   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dq56kk/laziness_like_this_honestly_irritates_me/</guid>
       <pubDate>Thu, 27 Jun 2024 23:20:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>浏览器中的 WASM - 有机会同时看到它而不是通过 JS 看到它吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dq4zq1/wasm_in_browser_any_chance_to_see_it_alongside/</link>
+      <description><![CDATA[尽管 WASM 有诸多优点，但只能通过 JS 对应的 FFI 来访问它，这似乎有点可悲。这就像在关闭的窗户上舔冰淇淋一样。 这不仅代表着 SW 堆栈的复杂性和稳定性问题不断上升，而且还会浪费大量时间来进行数据改组和转换。 对于一个本应与性能有关的解决方案来说，这有点令人沮丧。 所以我想知道是否有准备工作可以：  突破这些层，并带来直接从 HTML 启动 WASM 环境的可能性，就像使用 JS 一样，也许可以通过脚本标记中的后端属性，例如：“&lt;script backend=wasm/js&gt;&quot;或类似的东西？ 在可访问/适用时，不执行 JIT，而是执行本机代码，就像 eBPF 一样？     提交人    /u/SixDegreee612   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dq4zq1/wasm_in_browser_any_chance_to_see_it_alongside/</guid>
+      <pubDate>Thu, 27 Jun 2024 23:12:09 GMT</pubDate>
     </item>
     <item>
       <title>仅限 Headful 的 CMS（无后端）</title>
@@ -69,13 +90,6 @@
       <pubDate>Thu, 27 Jun 2024 22:02:18 GMT</pubDate>
     </item>
     <item>
-      <title>我是一个 77 岁的秃头胖子，研究 php 文档大约一个月，想成为一名软件工程师。我有机会吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dq30ga/ima_77_year_old_bald_fatass_have_been/</link>
-      <description><![CDATA[我已经学习了 php http sql html 及其各种应用程序，当然还有瀑布方法    提交人    /u/Banaanbiksis   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dq30ga/ima_77_year_old_bald_fatass_have_been/</guid>
-      <pubDate>Thu, 27 Jun 2024 21:42:19 GMT</pubDate>
-    </item>
-    <item>
       <title>帮助我建立第一个网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1dq1854/help_with_my_first_website/</link>
       <description><![CDATA[大家好，我已经创建了我的第一个网站，或者说尝试通过关注 YouTube 视频来创建。我的 VS Code 运行一切正常。但是，当我连接我的 .github 时，所有内容都在那里，我的动画和我的 .jpg 文件都在那里。除了我的背景图像和我的 3D 渲染“月亮”。所以缺少的是我的（&#39;Moon.jpg&#39;）和我的（&#39;space.jpg&#39;）。请帮忙。 https://github.com/1137amartinez/OC-Strikers-FC  这是我的项目/网站。    提交人    /u/BidAutomatic6010   [链接] [评论]]]></description>
@@ -88,20 +102,6 @@
       <description><![CDATA[标题    由   提交  /u/UpvoteBeast   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dq0sgb/thoughts_on_github_copilot_is_there_a_better_ai/</guid>
       <pubDate>Thu, 27 Jun 2024 20:09:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>您常用的技术栈是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dq09td/whats_your_goto_tech_stack/</link>
-      <description><![CDATA[目前喜欢 Next.js + Supabase    由   提交  /u/Longjumping_Car6891   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dq09td/whats_your_goto_tech_stack/</guid>
-      <pubDate>Thu, 27 Jun 2024 19:47:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Electron.js 和 Supabase 边缘函数进行分布式网页抓取</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dq06es/distributed_web_scraping_using_electronjs_and/</link>
-      <description><![CDATA[       由    /u/drakedemon  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dq06es/distributed_web_scraping_using_electronjs_and/</guid>
-      <pubDate>Thu, 27 Jun 2024 19:43:13 GMT</pubDate>
     </item>
     <item>
       <title>Google 搜索：图像搜索的隐藏类型，但不适用于一般网页搜索</title>
