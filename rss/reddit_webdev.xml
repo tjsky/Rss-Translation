@@ -3,8 +3,36 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Sat, 29 Jun 2024 00:58:59 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Sat, 29 Jun 2024 03:16:19 GMT</lastBuildDate>
+    <item>
+      <title>HTTP 重定向将 #_=_ 添加到 URL</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dr1fes/http_redirect_adds_to_url/</link>
+      <description><![CDATA[      嗨，我不确定这里是不是发布此内容的正确地方，但我想我应该从这里开始。我目前正在尝试使用 Spotify API 编写一个非常基本的授权代码流程，如此处所述。我在端口 2000 上运行了一个 golang 中的 http 服务器。到目前为止，我能够将浏览器重定向到浏览器，以便他们可以登录。我在名为 auth 的 http 处理程序函数中执行此操作 func auth(c *gin.Context) {endpoint := &quot;https://accounts.spotify.com/authorize?response_type=code&amp;client_id=fake_client_id&amp;scope=user-read-private&amp;redirect_uri=http://localhost:2000/accesstoken&quot; c.Redirect(http.StatusMovedPermanently, end) }  如您所见，我提供的 redirect_uri 为 http://localhost:2000/accesstoken ，其定义非常简单，如下所示 func accessToken(c *gin.Context) { c.Redirect(http.StatusFound, &quot;http://localhost:8080/homepage&quot;) }  尽管尝试将用户重定向到 http://localhost:8080/homepage ，但它路由到 http://localhost:8080/homepage#_=_ 奇怪的是，浏览器网络选项卡显示重定向确实如预期的那样简单  https://preview.redd.it/0w76mo3hef9d1.png?width=1008&amp;format=png&amp;auto=webp&amp;s=9660f25d4eef9102078c63ca8121d17ac7c1a65e 我的问题是为什么重定向 URL 中添加了 #_=_ 字符？可以在浏览器中看到     提交人    /u/Cadnerak   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dr1fes/http_redirect_adds_to_url/</guid>
+      <pubDate>Sat, 29 Jun 2024 02:58:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wordpress 性能技巧？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dr18se/wordpress_performance_tips/</link>
+      <description><![CDATA[对于为客户构建的 Wordpress/Woo，我通常结合使用 memcached 进行对象缓存 + WP Rocket 之类的工具进行页面和客户端缓存。 您使用哪些工具或策略来获得最佳性能。有些性能插件的价格也很高。因此成本也是一个考虑因素。 假设您的服务器规格相当低（双核、3ghz、8GB 内存）。并且您的流量不是很高。    提交人    /u/eltoniq   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dr18se/wordpress_performance_tips/</guid>
+      <pubDate>Sat, 29 Jun 2024 02:48:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>您会给初级 Web 开发人员提供什么有效的建议？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dr049v/whats_a_effective_advice_you_would_give_to_a/</link>
+      <description><![CDATA[对初学者开发者的任何好建议。    由   提交  /u/nameisxname   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dr049v/whats_a_effective_advice_you_would_give_to_a/</guid>
+      <pubDate>Sat, 29 Jun 2024 01:48:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何为 Laravel 做出贡献：分步指南 - msamgan.com</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dqzoux/how_to_contribute_to_laravel_a_stepbystep_guide/</link>
+      <description><![CDATA[每个 laravel 开发人员都希望为 laravel 做出贡献，但很难找到如何做到这一点的起点。从哪里开始，怎么做，做什么，所有这些问题以及在互联网上搜索都不会有太大帮助。有很多关于如何使用 laravel 的文章，但几乎没有关于如何为这个主框架做出贡献的详细信息。 在本文中，我们将尝试找出其中一些问题的答案。 https://msamgan.com/how-to-contribute-to-laravel-a-step-by-step-guide    提交人    /u/samgan-khan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dqzoux/how_to_contribute_to_laravel_a_stepbystep_guide/</guid>
+      <pubDate>Sat, 29 Jun 2024 01:25:52 GMT</pubDate>
+    </item>
     <item>
       <title>最佳开源 PWA 项目 ChatPlus 是一款功能齐全、感觉像移动应用程序的 Web 应用程序</title>
       <link>https://www.reddit.com/r/webdev/comments/1dqz0se/best_open_source_pwa_project_chatplus_a_web_app/</link>
@@ -15,7 +43,7 @@
     <item>
       <title>投资组合反馈</title>
       <link>https://www.reddit.com/r/webdev/comments/1dqyx2j/feedback_on_portfolio/</link>
-      <description><![CDATA[嗨，我正在寻找有关我的作品集的反馈，以及一些关于寻找自由职业工作的提示    由    /u/SidharthArya- 提交  [链接] [评论]]]></description>
+      <description><![CDATA[嗨，我正在寻找有关我的作品集的反馈，以及一些关于寻找自由职业工作的提示    由    /u/SidharthArya- 提交   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dqyx2j/feedback_on_portfolio/</guid>
       <pubDate>Sat, 29 Jun 2024 00:44:49 GMT</pubDate>
     </item>
@@ -69,46 +97,18 @@
       <pubDate>Fri, 28 Jun 2024 21:48:50 GMT</pubDate>
     </item>
     <item>
-      <title>嗨，webdevs，我想创建一个此网站的克隆版作为学习项目。对于经验中等的人来说，这需要多长时间？除了 Framer 动作、分析和资产生成之外，我还应该考虑什么？</title>
+      <title>嗨，webdevs，我想创建一个此网站的克隆版作为学习项目。对于经验中等的人来说，这需要多长时间？除了 Framer 运动、分析和资产生成之外，我还应该考虑什么？</title>
       <link>https://www.reddit.com/r/webdev/comments/1dqunuc/hi_webdevs_i_want_to_create_a_clone_of_this/</link>
       <description><![CDATA[        提交人    /u/Flat_Investment_4682   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dqunuc/hi_webdevs_i_want_to_create_a_clone_of_this/</guid>
       <pubDate>Fri, 28 Jun 2024 21:23:06 GMT</pubDate>
     </item>
     <item>
-      <title>Scrumboard 用来记录你和你的团队的任务</title>
+      <title>Scrumboard 用来记录你和你团队的任务</title>
       <link>https://www.reddit.com/r/webdev/comments/1dqujst/scrumboard_to_write_down_your_and_your_teams_tasks/</link>
       <description><![CDATA[在此应用中，您可以创建任务、团队并添加好友。这是我的第一个相对较大的项目，也是我的第一个使用 React 和后端的应用。我对 Webdev 还很陌生，因此如果能对我的代码提出任何提示和批评，我将不胜感激！  https://github.com/denis557/Scrumboard    提交人    /u/kankakan   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dqujst/scrumboard_to_write_down_your_and_your_teams_tasks/</guid>
       <pubDate>Fri, 28 Jun 2024 21:18:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于简单 API 的托管无头 CMS</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dqsmwn/hosted_headless_cms_used_for_simple_apis/</link>
-      <description><![CDATA[我知道流行的无头 CMS，例如 Contentful 和 Sanity.io。但是，我正在寻找一种更简单的产品，它能够简单地创建带有字段的内容类型，然后通过 API 公开这些数据。我希望它在线托管（而不是自托管）。 有人知道任何提供这种简单功能的产品吗？    提交人    /u/stevenwando   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dqsmwn/hosted_headless_cms_used_for_simple_apis/</guid>
-      <pubDate>Fri, 28 Jun 2024 19:55:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们的设计师了解多少 CSS 布局？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dqseec/how_much_css_layout_do_your_designers_know/</link>
-      <description><![CDATA[当你得到设计时，有多少只是一堆矩形，这些矩形是由你的设计师拖放到位的，而他不知道实际的布局应该如何工作？ 这一直是我非常讨厌的事情。特别是在构建响应式布局时。90% 的良好设计只是确定一个好的（和简单的）布局，但我很少听到设计师说类似这样的话，“这些元素应该放在间距均匀的弹性框中”  我是不是疯了，竟然认为设计师应该至少知道一点 CSS？拥有相同语言的共享知识将有助于交流想法。    提交人    /u/Pale_Tea2673   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dqseec/how_much_css_layout_do_your_designers_know/</guid>
-      <pubDate>Fri, 28 Jun 2024 19:44:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 squarespxe 进行网页设计</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dqrvq9/web_design_using_squarespxe/</link>
-      <description><![CDATA[大家好， 我是一名自由网页设计师，洛杉矶一家美发沙龙联系我，希望我使用 Squarespace 为他们设计一个网站。我想确保我收取的费用合理，能够反映所涉及的工作。以下是更多背景信息： • 范围：该网站将有大约 5-7 页，包括主页、关于页面、服务、图库和联系页面。• 功能：他们希望包含预订系统、集成社交媒体并进行基本的 SEO 设置。• 设计：他们正在寻找一种能够反映其品牌的定制设计，但不要过于复杂。• 内容：我将负责一些内容创作，包括撰写文案和寻找图片。• 培训和支持：我还将提供一些关于如何管理网站的初步培训，并提供一个月的发布后支持。 根据这些信息，您建议为该项目收取多少费用？我正在寻找一个公平定价范围的建议，同时考虑到我的时间和行业标准。 提前感谢您的见解    提交人    /u/FulNuns   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dqrvq9/web_design_using_squarespxe/</guid>
-      <pubDate>Fri, 28 Jun 2024 19:21:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>我和朋友一起做了一个项目/游戏，叫做 Ranker。希望得到一些反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dqrnp6/i_made_a_projectgame_with_a_friend_called_ranker/</link>
-      <description><![CDATA[Ranker.fun 查看其工作原理：https://www.youtube.com/watch?v=yJUpeUq-guo 这是一个匿名社交平台，用户可以在可自定义的问题和选择上分享自己的排名。您可以在此处查看 GitHub 上的项目。 我们很乐意收到您的反馈和建议！    提交人    /u/arnav080   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dqrnp6/i_made_a_projectgame_with_a_friend_called_ranker/</guid>
-      <pubDate>Fri, 28 Jun 2024 19:12:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
