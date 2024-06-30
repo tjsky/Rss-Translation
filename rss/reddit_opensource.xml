@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 30 Jun 2024 18:19:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2024 21:14:17 GMT</lastBuildDate>
+    <item>
+      <title>开源算法交易框架</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ds94pp/opensource_algo_trading_framework/</link>
+      <description><![CDATA[  由    /u/Fallen_Coconut  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ds94pp/opensource_algo_trading_framework/</guid>
+      <pubDate>Sun, 30 Jun 2024 19:17:13 GMT</pubDate>
+    </item>
     <item>
       <title>我在 GitHub 的开源 Chrome 扩展程序中添加了 Bring Your Own Gen AI API Key 功能</title>
       <link>https://www.reddit.com/r/opensource/comments/1ds3xvz/i_added_bring_your_own_gen_ai_api_key/</link>
@@ -57,7 +64,7 @@
     <item>
       <title>使用 put pixel 做你想做的事 - 一个过于简单的图形库</title>
       <link>https://www.reddit.com/r/opensource/comments/1drdp68/do_what_you_want_with_put_pixel_a_graphics/</link>
-      <description><![CDATA[我想要浏览器之外的 HTML Canvas 之类的东西。我想要一个只有三个功能的简单缓冲区。  获取平面 RGB 缓冲区 一个可以将彩色像素放入缓冲区的“put pixel”函数 将缓冲区保存到文件中，以便我可以看到缓冲区。  目标受众是学生或只想玩图形算法而不想要任何复杂东西的人。 这是 GitHub 存储库：https://github.com/coderarjob/ppm-graphics 您会惊讶于仅使用 put_pixel() 可以做的事情。尽情享受吧！    提交人    /u/arjobmukherjee   [链接] [评论]]]></description>
+      <description><![CDATA[我想要浏览器之外的 HTML Canvas 之类的东西。我想要一个只有三个功能的简单缓冲区。  获取平面 RGB 缓冲区 一个“put pixel”函数，它可以将彩色像素放入缓冲区 将缓冲区保存到文件中，以便我可以看到缓冲区。  目标受众是学生或只想玩图形算法而不想要任何复杂东西的人。 这是 GitHub 存储库：https://github.com/coderarjob/ppm-graphics 您会惊讶于仅使用 put_pixel() 可以做什么。尽情享受吧！    提交人    /u/arjobmukherjee   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1drdp68/do_what_you_want_with_put_pixel_a_graphics/</guid>
       <pubDate>Sat, 29 Jun 2024 15:27:19 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[        提交人    /u/pusolito   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1dqn2dr/animation_chaining_with_doodle/</guid>
       <pubDate>Fri, 28 Jun 2024 15:58:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Inhooks：使用 Go 构建的传入 Webhooks 网关</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dqmtuz/inhooks_incoming_webhooks_gateway_built_with_go/</link>
-      <description><![CDATA[Inhooks 旨在成为轻量级传入 webhooks 网关解决方案。使用 Go 编写，可作为单个二进制文件或 docker 容器运行。只需要一个 redis 数据库进行存储/排队。 功能：  接收 HTTP Webhook 并将其保存到 Redis 数据库 将消息扇出到多个 HTTP 目标 快速、并发处理 支持延迟处理 支持失败时重试，可配置尝试次数、间隔和常数或指数退避 支持不同的 HTTP 有效负载类型：JSON、x-www-form-urlencoded、multipart/form-data 支持使用 JavaScript ECMAScript 5.1 进行消息转换 ... 计划推出更多功能     提交人    /u/le_didil   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dqmtuz/inhooks_incoming_webhooks_gateway_built_with_go/</guid>
-      <pubDate>Fri, 28 Jun 2024 15:48:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
