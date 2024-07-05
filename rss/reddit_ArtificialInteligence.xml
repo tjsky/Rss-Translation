@@ -4,7 +4,14 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Fri, 05 Jul 2024 00:58:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2024 03:14:38 GMT</lastBuildDate>
+    <item>
+      <title>对人工智能本质的思考</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dvo2g5/reflections_on_the_nature_of_ai/</link>
+      <description><![CDATA[与人类发现史上的许多重要里程碑一样，实用人工智能在某种程度上是一个偶然的发现。 “注意力就是你所需要的”这本书的标题本身就暗示了这一事实，传达了一种惊讶的情绪，这种（相对）简单的机制，加上对生物神经元及其网络结构和足够规模的粗略模仿，产生了大大超出预期、在很大程度上无法解释的突发特性。 这一发现应该让我们学会谦逊，并鼓励我们反思自己的地位。 也许盲目地努力将“人工智能”灌输给人工智能是一种错误的决定。用人类中心主义的概念（如意识和主观体验）来描述人工智能完全偏离了重点，这反映了我们自恋的人类傲慢，即我们自己是创造的缩影，应该以其他智能实体与我们的相似程度来衡量它们的价值。    提交人    /u/descore   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dvo2g5/reflections_on_the_nature_of_ai/</guid>
+      <pubDate>Fri, 05 Jul 2024 03:02:40 GMT</pubDate>
+    </item>
     <item>
       <title>黑客窃取了 OpenAI 的一些机密，但该公司保持沉默</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dvl8wo/hacker_stole_some_openais_secrets_but_the_company/</link>
@@ -22,7 +29,7 @@
     <item>
       <title>无论如何，就目前而言，克劳德是总体上最好的</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dvhp0b/claude_is_the_best_overall_for_now_anyway/</link>
-      <description><![CDATA[从我所见，它总体上比 CoPilot Pro、ChatGPT 4 产生的结果更好，当然比被过度炒作的 Perplexity 好得多。坦率地说，我有点惊讶！ 其他人的体验如何？我错了吗？    提交人    /u/Sotarif   [link] [评论]]]></description>
+      <description><![CDATA[从我所见，它总体上比 CoPilot Pro、ChatGPT 4 产生的结果更好，当然也比被过度炒作的 Perplexity 好得多。坦率地说，我有点惊讶！ 其他人的体验如何？我错了吗？    提交人    /u/Sotarif   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dvhp0b/claude_is_the_best_overall_for_now_anyway/</guid>
       <pubDate>Thu, 04 Jul 2024 21:22:16 GMT</pubDate>
     </item>
@@ -41,20 +48,6 @@
       <pubDate>Thu, 04 Jul 2024 18:18:43 GMT</pubDate>
     </item>
     <item>
-      <title>有没有可以从样本文件生成音乐的 AI 工具？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dvdk5f/is_there_an_ai_tool_to_generate_music_from_sample/</link>
-      <description><![CDATA[假设我有几个 10 秒的短音频文件，并且想要基于它们生成更长的音轨。有没有一种工具可以让我上传文件以生成更长的音乐曲目？ 我搜索了一段时间，发现几乎所有的音乐/音频工具都使用文本提示，而这不是我想要的。    提交人    /u/nkomp18   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dvdk5f/is_there_an_ai_tool_to_generate_music_from_sample/</guid>
-      <pubDate>Thu, 04 Jul 2024 18:18:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>案例回顾——用特定数据训练人工智能？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dvcwq1/case_review_training_an_ai_on_specific_data/</link>
-      <description><![CDATA[大家好 - 我希望了解如何开展一个项目（如下所述）。我是一个非常热衷的“AI 兄弟”，但我对如何训练自己的 AI 模型不是很了解。 首先 - 这篇论文在摘要中指出，“多达一半的可预测变化完全由被告的面部照片中的像素来解释”[我假设他们指的是种族/性别/年龄，而不是照片的像素分析]。我们一直都知道这一点 - 更有魅力、更白和女性的被告被判有罪的可能性更小，即使被判有罪，服刑期也会更短；但纠正这一点极其困难。  我考虑过一段时间的 AI 用例之一是使用 AI 审查案件并识别异常值以供审查。我设想的该系统的工作方式如下： AI 接受大量案件历史、证词完整记录、证据描述（和照片）等的训练。然后，我们确定它在正确预测有罪/无罪和最终判决方面有多好。 然后，我们让 AI 重新运行这些案件，但删除个人身份信息（姓名、面部照片、种族、年龄等），并再次要求它预测定罪和量刑（例如，运行每个结果若干次，并说“这个案件预测有罪的概率为 5%，平均刑期为 14 个月 +/- 3 个月”或 95% 或其他）。 这本质上是一种回归分析，无需指定或编码特定的元数据。传统方法是选择一些解释变量：证据数量、为辩护方/控方作证的证人数量、是否找到并匹配 DNA 等。但有数百甚至数千个因素，没有人能够正确地将它们全部记录下来以进行传统回归分析；当然，旧案件的数量非常高。 无论如何，现实结果与人工智能预测差异最大的案件将被突出显示以供人工审查。目标是人工智能系统可以：  对比人类更多的案件进行初步审查。 对哪些案件在人工审查后更有可能产生不同的结果（成功重审、释放或重新判刑）进行排名。 识别导致“错误免罪”的模式。  根据针对他们的证据，识别出服刑期异常宽大或严厉的人 等等。  所以我的问题是： 我该怎么做？假设我可以获得法庭案件数据；我使用什么工具来“输入这些数据”，以及如何让它在重新评估没有某种信息的情况下忽略某些信息？ 谢谢！    提交人    /u/mdotbeezy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dvcwq1/case_review_training_an_ai_on_specific_data/</guid>
-      <pubDate>Thu, 04 Jul 2024 17:50:37 GMT</pubDate>
-    </item>
-    <item>
       <title>GPT-4o 竞争对手：Kyutai Moshi 演示</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dvc3rg/gpt4o_rival_kyutai_moshi_demo/</link>
       <description><![CDATA[此视频演示了最近发布的新开源 LLM，Kyutai 的 Moshi，它与 GPT-4o 类似，是多模式的，并且具有实时推理功能。在此演示视频中查看其性能：https://youtu.be/I--Yf4ptKEA?si=kcgzw0IaPeaW9khI    提交人    /u/mehul_gupta1997   [链接] [评论]]]></description>
@@ -67,6 +60,13 @@
       <description><![CDATA[大家好， 我开发了一款名为 RunOps 的应用程序，可帮助您在自己的服务器上使用 WebUI 轻松部署开源 LLM（大型语言模型）。 它本质上是一个部署自动化工具，可为您处理虚拟机的整个设置。作为一名独立开发者，如果您有任何反馈，我将不胜感激！ 链接： https://www.runops.cloud 我让 MVP 这样做：  设置您的帐户 您选择一种语言模型（目前我们有 Llama 3 7B，但很快会有更多！） 单击按钮 就这样！您自己的 AI 已在由 Vast.ai 提供支持的私人服务器上启动并运行，其 Web UI 与 ChatGPT 类似。RunOps 负责处理后台的所有复杂事务。  RunOps 使用 Vast.ai 为这些服务器提供支持。Vast.ai 让您能够以比大型云提供商低得多的成本租用支持 GPU 的机器。 RunOps 负责处理后台的所有复杂事务。 我仍处于测试模式，因此可能有些粗糙。但如果您想尝试在租用的服务器上运行自己的私人 AI，请尝试 RunOps！:) 如果基础设施自动化/LLMops/MLops 等对您或您的企业来说很有趣，并且您有一个可以使用此类应用自动化的特定用例，那么请告诉我或联系我。我现在愿意合作并实施更多模板和用例。让我知道你想用它做什么！    提交人    /u/enigmaticMachine   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dvboo1/deploy_easily_opensource_llms_with_webui_on_your/</guid>
       <pubDate>Thu, 04 Jul 2024 16:57:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何避免内容扫描器？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1dvbd6x/how_to_avoid_content_scanners/</link>
+      <description><![CDATA[大家好，我是一名闺房摄影师，我遇到了一些问题，我猜是人工智能机器人扫描了我的图片，并标记了不适当的内容 - 即使照片非常无害（例如，女人的背部）。我理解限制某些图形内容的依据，但被标记的很多作品根本不是图形。现在，Meta 扫描我的着陆页以查找广告，这只会给使用它们进行任何形式的广告带来不必要的挑战，即使广告本身符合指导方针。我甚至被禁止使用 Photoshop 的生成扩展操作来扩展我自己电脑上的背景，因为它的人工智能很拘谨。好的，抱怨结束了。 现在进入问题...我能做些什么来“欺骗”人工智能扫描仪，而不会改变普通观众眼中的图像？我知道福克斯的设置 - 这样做有用吗？任何其他建议都将不胜感激！     由    /u/Psydaranta 提交   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1dvbd6x/how_to_avoid_content_scanners/</guid>
+      <pubDate>Thu, 04 Jul 2024 16:44:02 GMT</pubDate>
     </item>
     <item>
       <title>考虑购买一台 NUC/迷你型 PC 作为专用 AI 推理服务器。劝我打消这个念头。</title>
@@ -99,7 +99,7 @@
     <item>
       <title>新的反垃圾邮件/机器人规则 [请阅读]</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/115jk6q/new_antispam_bot_rules_please_read/</link>
-      <description><![CDATA[我们制定了一条规则，新开通一天的账户或 karma 少于 100 的用户无法发帖。他们可以发表评论，但不能提交实际帖子。这是我们解决机器人垃圾邮件计划的一部分。如有任何不便，敬请谅解。 我们将在接下来的几天内进行民意调查，以了解 subreddit 的总体意愿以及如何改进，这只是一个提醒。 与往常一样，请向我们提供反馈，如果您有兴趣帮助子版块，请联系我。 谢谢大家！    提交人    /u/FHIR_HL7_Integrator   [链接] [评论]]]></description>
+      <description><![CDATA[我们制定了一条规则，新开通一天的账户或 Karma 少于 100 的用户无法发帖。他们可以发表评论，但不能提交实际帖子。这是我们解决机器人垃圾邮件计划的一部分。如有任何不便，敬请谅解。 我们将在接下来的几天内进行民意调查，以了解子版块的总体意愿以及如何改进，这只是一个提醒。 与往常一样，请向我们提供反馈，如果您有兴趣帮助子版块，请联系我。 谢谢大家！    提交人    /u/FHIR_HL7_Integrator   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/115jk6q/new_antispam_bot_rules_please_read/</guid>
       <pubDate>Sat, 18 Feb 2023 16:49:55 GMT</pubDate>
     </item>
