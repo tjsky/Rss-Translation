@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Sat, 06 Jul 2024 03:16:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jul 2024 06:17:40 GMT</lastBuildDate>
+    <item>
+      <title>我将“Killedbygoogle”重写为完整版本，大小从 1 MB 减小到 6KB</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dwiw3x/i_rewrite_killedbygoogle_to_full_vanilla_reduced/</link>
+      <description><![CDATA[网站：https://killedbygoogle.kuroiru.co/ 将“killedbygoogle.com”网站复制到非常简单的原始网站，没有任何依赖项/库。它不是 100% 复制的，因为这只是为了好玩，而且我昨晚才做的。 标题中的大小比较是浏览器加载的总 HTML、CSS 和 JS。没有图像。    提交人    /u/thdr76   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dwiw3x/i_rewrite_killedbygoogle_to_full_vanilla_reduced/</guid>
+      <pubDate>Sat, 06 Jul 2024 06:05:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果 Google Drive 有更好的 AI 和类似 Slack 的渠道会怎样？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dwhl01/what_if_google_drive_had_better_ai_and_slacklike/</link>
+      <description><![CDATA[虽然像 Slack 这样的传统聊天平台在实时通信方面表现出色，但它们通常缺乏组织性，并且难以处理历史背景。例如，想象一下在一个项目中，关键的决策和讨论被埋在长长的 Slack 线程中或分散在不同的 Discord 频道中。在这种情况下，查找过去的对话成为一项繁琐的任务，导致效率低下和误解。 在 The Drive AI，我们开发了聊天频道和 DM 来解决这些挑战。我们平台中的每个聊天都直接与相关项目文件相关联，确保讨论与相关文档一起易于访问。这种集成不仅提高了清晰度，而且还通过将所有通信和项目相关信息集中在一个地方简化了协作。 试一试：https://thedrive.ai    提交人    /u/karkibigyan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dwhl01/what_if_google_drive_had_better_ai_and_slacklike/</guid>
+      <pubDate>Sat, 06 Jul 2024 04:45:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tailwind 配置库是否应该提供字体？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dwhdft/should_a_tailwind_config_library_provide_fonts/</link>
+      <description><![CDATA[我有一个 tailwind 配置库，其中包含适用于各种品牌的 tailwind.config.ts。它还包括带有 @layer 和 font-face 的 style.css，因为每个品牌都有不同的字体。 然后，消费者只需将 tailwind 配置用作预设 + 导入 input.css 中的 css。 从用户体验的角度来看，用户不必担心字体。但这是好的做法吗？应该使用 tailwind-config 库来托管字体吗？ 不确定如果库中引用 font-face 路径是否会正常工作。然后消费者导入该 css 表。    提交人    /u/GloopBloopan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dwhdft/should_a_tailwind_config_library_provide_fonts/</guid>
+      <pubDate>Sat, 06 Jul 2024 04:32:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何通过为 +18 Discord 服务器开发机器人让我成为一名更好的开发人员。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1dwggrb/how_working_on_a_bot_for_a_18_discord_server_made/</link>
+      <description><![CDATA[        由    /u/Huijiro  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1dwggrb/how_working_on_a_bot_for_a_18_discord_server_made/</guid>
+      <pubDate>Sat, 06 Jul 2024 03:39:58 GMT</pubDate>
+    </item>
     <item>
       <title>IMG 标签中的随机图像？</title>
       <link>https://www.reddit.com/r/webdev/comments/1dwfh0l/random_image_in_img_tag/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[昨天我无意中点击了一个狡猾的 YouTube Short 视频，无法停止滚动，于是就有了这个想法。这让人精神疲惫，你总会后悔自己浪费了多少时间，所以我做了这个浏览器扩展来一劳永逸地拯救人类，享受它 ;) 链接到 chrome 网上应用店 如果你喜欢，请给我五颗星    提交人    /u/Beginning-Roof4889   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1dw6llh/i_made_a_browser_extension_to_hide_youtube_shorts/</guid>
       <pubDate>Fri, 05 Jul 2024 19:43:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何让 Google 索引用户生成的内容？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dw6j6i/how_to_get_google_to_index_user_generated_content/</link>
-      <description><![CDATA[假设我的网站具有一项功能，用户可以在其中创建内容。系统将为每条用户生成的内容生成一个唯一的 URL。其格式为 $BASE_URL/$RESOURCE_NAME/$UUID。这些资源可通过用户应用程序门户进行探索和管理，但除此之外不会在网站上链接。 我能否在 Google 抓取我的网站时告诉他们要索引这些 URL 中的哪些？    提交人    /u/spline_reticulator   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dw6j6i/how_to_get_google_to_index_user_generated_content/</guid>
-      <pubDate>Fri, 05 Jul 2024 19:40:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要技术栈方面的建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dw66ba/need_advice_on_a_tech_stack/</link>
-      <description><![CDATA[我需要一些帮助来为个人项目选择技术堆栈。我对所有可能性感到有点不知所措。 个人经历 我有大约 2 年的 Web 开发经验。我最熟悉的是 Laravel、Vue 和 Nuxt。但我也有一些使用 React 和 Angular 的经验。我对 SQL 也非常熟悉。 应用程序要求 对我来说，最重要的是托管应用程序应该相对容易且便宜。 应用程序本身将是一个简单的类似博客的网站，它在服务器端呈现。它需要一个管理面板来管理新闻项目等基本内容。当然还有一个存储数据的地方。有些内容会有图像，所以我也需要存储文件。 我目前考虑过的事情  Laravel。我对使用 Laravel 犹豫不决，因为托管可能比较昂贵，而且托管附带了一大堆需要配置和维护的东西。 Nuxt。但在使用数据库方面，我并不完全确定它的功能。我对 nuxt 的唯一经验是作为前端。使用 nuxt 时，Supabase 看起来是数据存储的一个很好的解决方案，但免费计划中的 1gb 文件存储空间让我有点担心。     提交人    /u/Myxtro   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dw66ba/need_advice_on_a_tech_stack/</guid>
-      <pubDate>Fri, 05 Jul 2024 19:25:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我无意中使用了没有许可证的字体，现在尽管我更改了它，他们却威胁要“采取法律行动”。我该怎么办？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dw3m8f/i_accidentally_used_a_font_that_i_dont_have_the/</link>
-      <description><![CDATA[在我的个人网站上，我使用了一种字体，它似乎有许可证。我从一个免费字体网站下载了它，所以我并没有真正考虑过它。 几周前，我收到 FontRadar 发来的一封电子邮件，说我必须付费才能使用该字体。我多次尝试回复电子邮件，说我不知道​​这一点，并立即将其更改为其他字体（我一直收到一条自动消息，说他们的垃圾邮件过滤器阻止了我的电子邮件）。当它通过时，我得到的答复是我仍然必须支付许可证费用。我决定不再回复（我在网上查看了一下，发现更多人有这个特定的问题。他们被建议根本不要回复，只需更改字体。也许我不应该回复第一封电子邮件）。现在我每周都会收到一封新电子邮件，要求我为字体付费。本周他们说他们将采取“法律行动”。 我该怎么办？我立即更改了字体，因为我并不是那么需要这种字体。这只是一个小型的个人网站。但他们却一直发邮件。 我来自荷兰，如果这有区别的话。    提交人    /u/faksalvemundi   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dw3m8f/i_accidentally_used_a_font_that_i_dont_have_the/</guid>
-      <pubDate>Fri, 05 Jul 2024 17:36:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>聊天后端设计的改进</title>
-      <link>https://www.reddit.com/r/webdev/comments/1dw3kgr/improvements_for_this_chat_backend_design/</link>
-      <description><![CDATA[      请为我提供针对 5-10k 用户的聊天应用后端设计的建议和改进，如果将来可以扩展，我应该对数据库进行查询以保存每条消息或以某种方式批量发送？    提交人    /u/InappropriateUseR_Id   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1dw3kgr/improvements_for_this_chat_backend_design/</guid>
-      <pubDate>Fri, 05 Jul 2024 17:34:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
