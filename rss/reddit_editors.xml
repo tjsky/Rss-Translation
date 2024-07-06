@@ -4,20 +4,27 @@
     <title>最新投稿：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>此子版块面向后专业人士。您想成为专业人士吗？请随意使用我们的“向专业人士提问”主题。副业？使用“向专业人士提问”主题。爱好？为了好玩？我们的姐妹子版块 r/videoediting 正是您想要的！</description>
-    <lastBuildDate>Sat, 06 Jul 2024 15:13:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jul 2024 18:17:19 GMT</lastBuildDate>
     <item>
-      <title>`ffmpeg` 是 FLOSS（免费），而且是转码/解复用/多路复用的最佳可执行文件。Android OS/iOS/Linux/Windows 都有这个。+ 一些示例使用 howto</title>
-      <link>https://www.reddit.com/r/editors/comments/1dwrphe/ffmpeg_is_floss_no_cost_plus_is_the_best/</link>
-      <description><![CDATA[[本帖允许所有用途] 视频转码器 - Google Play 上的应用 (视频转码器) 与大多数“视频编辑器”应用相比很酷（它是 ffmpeg 的可视化界面），但不适用于新版本的 Android OS。此外，trim/demux 速度很慢（不会将 -c copy 传递给 ffmpeg，因此总是重新编码输入。）它无法循环。只需修剪、+转换（可充当解复用器）+压缩。 现在使用 FFmpeg Media Encoder - Google Play 上的应用（来自 SilentLexx 的 FFmpeg Media Encoder）即可获得成功。它具有 ffmpeg 的可视化界面，但可以处理来自文本的命令。替代方案（未使用）：FFmpeg - Google Play 上的应用（来自 CrossPlat 的 FFmpeg） [注意：已将 /Music/ 移至 /Sounds/，将 /Movies/ 移至 /Visuals/] 示例 visuals.mp4 为 4gb，压缩至 222mb 使用 ffmpeg -i &quot;/storage/emulated/0/Visuals/screen-20240629-045526.mp4&quot; -framerate 30 -c:v libx264 -crf 32 -preset faster &quot;/storage/emulated/0/Visuals/visuals.mp4&quot; libx264 编解码器对视觉效果的压缩效果最佳。-preset faster 指示其进行更多压缩。您可以将 -crf 32 替换为 -b:v 2m，以设置“压缩到 2mbps”的确切目标。 [在某些设备上，Android 操作系统的权限需要输出到 /Download/] 假设您想将 sounds.mp4 与 visuals.mp4 混合， 但您想跳过 sounds.mp4 的 4 秒介绍，并限制为 2 分钟： 要进行解复用，请使用 -ss 4 跳过 4 秒，传递 -t 2:00 将输出限制为 2 分钟，传递 -c copy 进行立即处理：ffmpeg -i &quot;/storage/emulated/0/Download/sounds.mp4 -ss 4 -t 2:00 -map 0:a:0 -c copy &quot;/storage/emulated/0/Sounds/demux.m4a&quot; 现在 sounds.m4a 是 2 分钟，但 visuals.m4a 更长，使用 -stream_loop -1 使声音循环播放到与视觉效果一样长： ffmpeg -i &quot;/storage/emulated/0/Visuals/visuals.mp4&quot; -stream_loop -1 -i &quot;/storage/emulated/0/Sounds/demux.m4a&quot; -map 0:v:0 -c copy -map 1:a:0 -shortest &quot;/storage/emulated/0/Visuals/mux.mp4&quot;  假设您想要将 visuals.mp4 中的声音与 sounds.mp4 中的循环混合： ffmpeg -i &quot;/storage/emulated/0/Visuals/visuals.mp4&quot; -stream_loop -1 -i &quot;/storage/emulated/0/Sounds/demux.m4a&quot; -map 0:a:0 -map 1:a:0 -filter_complex amix=inputs=2:duration=shortest &quot;/storage/emulated/0/Sounds/demux2.m4a&quot; ffmpeg -i &quot;/storage/emulated/0/Visuals/visuals.mp4&quot; -i &quot;/storage/emulated/0/Sounds/demux2.m4a&quot; -map 0：v：0 -c 复制 -map 1：a：0 -shortest “/storage/emulated/Visuals/mux2.mp4”  [-c copy 与 -filter_complex 不兼容，因此除非您想要重新编码视觉效果（速度很慢），否则需要 2 个步骤才能完成此操作] ffmpeg 可以使用的命令列表； https://ffmpeg.org/ffmpeg.html https://gist.github.com/tayvano/6e2d456a9897f55025e25035478a3a50#file-gistfile1-txt 曾用于制作： https://www.youtube.com/watch?v=zcqRmYUQKM8 https://www.youtube.com/watch?v=YFgRW58mbG4    提交人    /u/2002LuvAbbaLuvU   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1dwrphe/ffmpeg_is_floss_no_cost_plus_is_the_best/</guid>
-      <pubDate>Sat, 06 Jul 2024 15:07:12 GMT</pubDate>
+      <title>有可能在视频拼贴领域建立一个利基市场吗？</title>
+      <link>https://www.reddit.com/r/editors/comments/1dwu2mc/is_it_possible_to_build_a_niche_in_video_collage/</link>
+      <description><![CDATA[我爱爸爸主义和拼贴画。视频拼贴画一直给我留下了深刻的印象。它们传达的东西我认为无法以线性叙事形式传达。将转瞬即逝的图像与声音相结合的能力堪比梦的语言。我非常惊讶地看到芭比电影也使用拼贴画，以一种如此直观的方式传达情感和意义。（那部电影的剪辑非常精彩，完全被低估了） 视频拼贴画有商业利基吗？还是说它更适合艺术和业余爱好？我想我最大的梦想是作为视频拼贴艺术家每年赚 6-7 万美元，但对我来说，这似乎太小众和不灵活了，无法想象把它作为一种认真养活自己的手段。同时，它似乎足够小众，如果我吃饭睡觉呼吸拼贴画（当然也融入了人工智能），也许它会有所回报。在这个视频编辑被期望成为视频制作中所有行业的万事通的时代，有没有地方容纳一个在如此具体的事情上是专家和大师的人？    提交人    /u/TechnoSerf_Digital   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1dwu2mc/is_it_possible_to_build_a_niche_in_video_collage/</guid>
+      <pubDate>Sat, 06 Jul 2024 16:54:10 GMT</pubDate>
     </item>
     <item>
-      <title>如果你们想成为一名编辑，这就是我使用的策略</title>
-      <link>https://www.reddit.com/r/editors/comments/1dwrlgf/if_yall_wanna_become_an_editor_this_is_the/</link>
-      <description><![CDATA[https://youtu.be/OlSBmxntgos 我试图让它有趣，同时又具有教育意义l，希望这对像我一样刚刚起步的你们中的一些人有所帮助。（另外补充一句，在这个行业里永远不要免费工作，99% 的时间里人们都有钱付给你，只是不想这么做，我在这个视频中吃尽了苦头，所以希望你能从我的错误中吸取教训）    提交人    /u/Flynn_Scott   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1dwrlgf/if_yall_wanna_become_an_editor_this_is_the/</guid>
-      <pubDate>Sat, 06 Jul 2024 15:02:17 GMT</pubDate>
+      <title>Premiere 和 DPX 导出故障排除</title>
+      <link>https://www.reddit.com/r/editors/comments/1dws872/premiere_and_dpx_export_trobuleshoot/</link>
+      <description><![CDATA[大家好，希望你们能帮我解决这个问题！ 我正在 Premiere Pro 中编辑一部短片，现在我正在为 VFX 导出一些 DPX 剪辑，而我的导出的亮度全都出错了，要么太黑，要么太褪色。 我试过寻找一些关于这方面的资源，但没有找到。 文件是从 FX3 拍摄的，是 10 位的，我在 Rec709 色彩空间中编辑。我试过弄乱黑白级别的参数，但我想我在这方面缺乏一些知识，有人能帮我解决这个问题吗？谢谢！    提交人    /u/Andrea-Di-Cello   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1dws872/premiere_and_dpx_export_trobuleshoot/</guid>
+      <pubDate>Sat, 06 Jul 2024 15:30:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找能够拍摄、编辑、创建缩略图和图形的人。</title>
+      <link>https://www.reddit.com/r/editors/comments/1dws0ht/looking_for_someone_who_can_shoot_edit_create/</link>
+      <description><![CDATA[公司简介： Social Dr. 是一家位于新德里的培训公司，专注于为企业家和职业人士培养社交技能。我们专注于通过全面的仪容仪表、时尚、公开演讲和社交校准培训来增进个人和职业关系。我们的目标是帮助客户在约会、职业发展和社交等生活的各个方面变得更加善于社交、自信和成功。 职位名称：频道制作人 加入 Social Dr.，参与一段激动人心的旅程！我们正在寻找一位才华横溢的视频摄影师和编辑，他有设计眼光，可以制作缩略图来帮助从头开始发展我们的 YouTube 频道。这是您展示技能的机会，并帮助您从 0 变成英雄的频道！ 职责： • 为我们的 YouTube 频道和其他社交媒体平台拍摄高质量的视频内容 • 编辑视频以创建引人入胜、精美的最终产品 • 为 YouTube 视频设计引人注目的缩略图 • 为各种社交媒体平台创建和调整内容 • 与我们的团队合作开发视频概念和策略 要求： • 精通视频拍摄、编辑和后期制作 • 具有平面设计经验，尤其是创建缩略图 • 熟悉 YouTube 和其他社交媒体平台 • 强大的创造力和对细节的关注 • 能够独立工作并按时完成任务 加入我们的原因： • 参与从从头开始 • 有机会显著影响我们频道的增长和成功 • 向越来越多的观众展示您的创造力和技能 • 在快速发展的社交媒体内容创建领域获得宝贵经验 申请任务： 要获得面试资格，请完成以下任务：  创建视频简历，解释我们为什么应该选择您担任这份工作。展示您的个性、技能和创造力。 为您的视频简历设计一个引人注目的缩略图。 提交视频和缩略图以及您的作品集和简历。  完成任务并将其与您的作品集一起分享到 [hr@socialdr.in](mailto:hr@socialdr.in) 持续时间：全职 地点：现场（新德里） 薪水：40000 卢比/月 祝你好运！    提交人    /u/edit_legend   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1dws0ht/looking_for_someone_who_can_shoot_edit_create/</guid>
+      <pubDate>Sat, 06 Jul 2024 15:20:41 GMT</pubDate>
     </item>
     <item>
       <title>音轨最佳实践</title>
@@ -32,20 +39,6 @@
       <description><![CDATA[嗨！ 我从事 DIT/数据整理工作已经一年多了。我希望升级我的工具包，将另一台 Mac/Ipad 集成到我的设置中。我目前拥有一个 M1 Pro Max 芯片，配备 16GB RAM 和 256SSD，对于使用 Shotput Pro 进行数据整理的需求来说，速度仍然相当快。但是 - 我还创建了静态照片和每日照片，这有点困难，因为在导出和上传给团队时，处理能力有所提高！ 我目前的预算是再买一台 M1 芯片的 Mac Pro，或者买一台 M2 Ipad 作为第二台显示器。只是想知道是否有人对我的选择有什么建议 - 我也是编辑（当工作完成时！） 我更愿意留在苹果世界，因为我的其他所有工具包都是为此设计的！     由    /u/lisst99 提交   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1dwrg9z/data_wrangling_dit_setup/</guid>
       <pubDate>Sat, 06 Jul 2024 14:55:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是一台可靠的编辑笔记本电脑吗？</title>
-      <link>https://www.reddit.com/r/editors/comments/1dwppdc/is_this_a_reliable_laptop_for_editing/</link>
-      <description><![CDATA[大家好， 我一辈子都是 PC 用户，从未拥有过 MacBook，但我有兴趣购买 MacBook Pro，用于编辑 4k 素材的视频。  我的预算低于 2000 英镑。我在这个价格范围内找到了一款。规格如下：16.2 英寸屏幕、配备 10 核 CPU 的 M1 max 芯片、32GB RAM、1TB SSD 和 32 核 GPU。这是 2021 年款。 它看起来很棒，适合在旅行时进行编辑，这正是我想要的。它经过全面翻新，状况良好。您有什么想法，我这里遗漏了什么吗？    提交人    /u/Immediate_Cricket169   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1dwppdc/is_this_a_reliable_laptop_for_editing/</guid>
-      <pubDate>Sat, 06 Jul 2024 13:33:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>快速且“懒惰”的 iPhone 编辑</title>
-      <link>https://www.reddit.com/r/editors/comments/1dwomjm/fast_and_lazy_iphone_editing/</link>
-      <description><![CDATA[抱歉，标题是诱饵。我经营一家公司，也做商业产品，但我想更快地从手机中获得更多功能，以便在 Instagram/tiktok 上玩得开心。 如果你是一个 20 岁、不知羞耻的人，只有一部 iPhone 15 Pro Max，你会使用哪些应用和技术进行恶搞，兄弟？ 我可以使用大量技术和资产，但我想先从手机的角度进行探索。    提交人    /u/monomagnus   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1dwomjm/fast_and_lazy_iphone_editing/</guid>
-      <pubDate>Sat, 06 Jul 2024 12:37:26 GMT</pubDate>
     </item>
     <item>
       <title>考虑从全职转为自由职业。我应该期待什么？</title>
@@ -109,6 +102,13 @@
       <description><![CDATA[请帮忙。我试图将一个大文件/长片段转码到代理中，但 45 分钟的剪辑变成了不到一秒的剪辑。 我已经成功处理了同一项目的其他文件和卡。 必须承认我不是 DIT，更像是制作管理员。    提交人    /u/nickelpix   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1dvwjt3/silverstack_transcoding/</guid>
       <pubDate>Fri, 05 Jul 2024 12:14:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>不确定是否需要音乐许可证（澳大利亚）</title>
+      <link>https://www.reddit.com/r/editors/comments/1dvu0cw/not_sure_if_i_need_a_music_licence_or_not/</link>
+      <description><![CDATA[我有一个客户经营着一所舞蹈学校，他请我拍摄并剪辑他们的一场音乐会，毫无疑问，音乐会上，他们会随着受版权保护的音乐起舞。这是一场付费活动，任何想要复制的人都可以购买视频。我不会从视频的销售中抽取任何百分比，但我将获得固定的拍摄和剪辑费用。 既然我因此而获得报酬，我是否需要获得许可才能制作包含受版权保护音乐的视频，还是所有者有责任这样做，因为他们是直接从个人销售中获利的人？我试图寻找答案，但得到的回应褒贬不一。谢谢。    提交人    /u/yourpainismine   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1dvu0cw/not_sure_if_i_need_a_music_licence_or_not/</guid>
+      <pubDate>Fri, 05 Jul 2024 09:33:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
