@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 07 Jul 2024 15:14:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jul 2024 18:17:18 GMT</lastBuildDate>
+    <item>
+      <title>我正在建立一个开源的monday.com</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dxlqg7/im_building_an_opensource_mondaycom/</link>
+      <description><![CDATA[您好 r/opensource， 我正在构建 tillywork，一个开源（MIT 许可）、可自托管的 monday.com 替代品&gt; 工作管理工具非常丰富，但我还没有找到一个开源应用程序，可以用于项目管理和开箱即用的销售 CRM，而无需花费大量时间进行设置和工作区自定义，所以我决定构建它！ 此外，我认为市场需要一种具有类似 Linear 体验的工具，该工具适用于业务流程，而不仅仅是产品管理。 您可以在以下位置查看 tillywork：  GitHub：https://github.com/tillywork/tillywork 我们的网站：https://tilly.work  该应用程序在 Docker Hub 上发布，您可以查看我们的文档以了解设置步骤。    提交人    /u/moshizzlelol   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dxlqg7/im_building_an_opensource_mondaycom/</guid>
+      <pubDate>Sun, 07 Jul 2024 17:23:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我制作了一个开源 Mailchimp RSS 到电子邮件的替代方案</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dxk6gw/i_made_an_open_source_mailchimp_rsstoemail/</link>
+      <description><![CDATA[        提交人    /u/elliotkillick   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dxk6gw/i_made_an_open_source_mailchimp_rsstoemail/</guid>
+      <pubDate>Sun, 07 Jul 2024 16:14:46 GMT</pubDate>
+    </item>
     <item>
       <title>如何正确开始开源？</title>
       <link>https://www.reddit.com/r/opensource/comments/1dxcecu/how_to_start_with_open_source_properly/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[https://github.com/inversepolarity/richpip 我制作了一个扩展程序，可让您观看带字幕的 YouTube 画中画。目前它处于高度实验性阶段，但如果引起人们的兴趣，我可以进一步充实它（添加更多网站，如 Netflix，修复错误等）。与默认的画中画扩展程序相比，它也有一些隐私改进。    提交人    /u/tuckermalc   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1dw8t4s/richpip_degoogled_picinpic_wsubs_alpha/</guid>
       <pubDate>Fri, 05 Jul 2024 21:20:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>有哪些好的开源项目排名？（研究项目，CCW）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dw6p0l/what_good_rankings_of_open_source_projects_there/</link>
-      <description><![CDATA[我需要为我所在大学的一个研究项目选择一些开源项目，该项目旨在了解在这些开源项目的软件工程过程中考虑了哪些开放科学实践。第一步是选择项目，为此需要一个排名。你知道一些吗？或者我可以使用一些工具来做到这一点？    提交人    /u/Gbitd   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dw6p0l/what_good_rankings_of_open_source_projects_there/</guid>
-      <pubDate>Fri, 05 Jul 2024 19:47:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个可爱的网络服务器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dw5mi0/a_sweet_web_server/</link>
-      <description><![CDATA[我正在使用 caddy，并对它在后台自动 ssl 方面的出色表现感到惊讶。直到我意识到我无法将我的配置拆分成多个文件。 因此我去了 nginx-unit。并且有很多的乐趣，但是配置文件是原始的深层 json 对象，对于简单的东西来说太不友好了。 介绍Jucenit的最佳点。 简单的语法，自动 ssl 和 scaterd 配置文件。 ```toml jucenit.toml [[unit]] uuid = &quot;55df967c-1db3-4bef-871e-b414196be17f&quot; listeners = [&quot;*:443&quot;] [unit.match] hosts = [&quot;example.com&quot;] [unit.action] proxy = &quot;http://127.0.0.1:8888&quot; ``` 我现在可以将 Web 服务器配置存储在网站存储库本身内并使用 sh jucenit push my_config.toml  推送它   提交人    /u/poulain_ght   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dw5mi0/a_sweet_web_server/</guid>
-      <pubDate>Fri, 05 Jul 2024 19:01:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
