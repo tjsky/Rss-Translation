@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 08 Jul 2024 15:15:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2024 18:18:42 GMT</lastBuildDate>
+    <item>
+      <title>如何寻找好的开源项目？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dydi9w/how_to_find_good_open_source_projects/</link>
+      <description><![CDATA[我想了解开源项目是如何运作的，以及参与其中的感觉如何。此外，我还想参与能让我学到很多东西的项目，最好是我感兴趣的项目（AI、模拟、移动应用程序）。  我有使用 python、typescript、javascript、php、html、css、react、react native 编程的基础。  我浏览过很多开源项目，但真的找不到任何看起来很聪明的任务/问题。你会建议我从哪个项目和问题入手？如何找到好的开源项目？    提交人    /u/Juho_Korhonen   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dydi9w/how_to_find_good_open_source_projects/</guid>
+      <pubDate>Mon, 08 Jul 2024 16:40:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>宣布推出 Cattail：适用于 Linux 的全新非官方 Tailscale/Headscale 客户端</title>
+      <link>https://www.reddit.com/r/opensource/comments/1dyblqj/announcing_cattail_a_new_unofficial/</link>
+      <description><![CDATA[我很高兴介绍 Cattail，这是使用 Wails 项目开发的适用于 Linux 的非官方 Tailscale/Headscale 客户端。Cattail 旨在为用户提供无缝且用户友好的网络管理体验。 您可以在以下位置找到存储库和安装说明：https://github.com/nerdyslacker/cattail 由于这是一个新版本，您的反馈非常宝贵。请试用 Cattail 并分享您的想法、建议或报告您遇到的任何问题。您的意见将有助于为所有人改进应用程序。    提交人    /u/karyan40024   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1dyblqj/announcing_cattail_a_new_unofficial/</guid>
+      <pubDate>Mon, 08 Jul 2024 15:22:28 GMT</pubDate>
+    </item>
     <item>
       <title>如果用于商业产品，是否需要支付许可证费用？</title>
       <link>https://www.reddit.com/r/opensource/comments/1dya4wc/pay_fir_license_if_used_in_comercial_product/</link>
@@ -85,7 +99,7 @@
     <item>
       <title>我开发了 CatLock 来防止我的猫弄乱我的键盘</title>
       <link>https://www.reddit.com/r/opensource/comments/1dx1xaf/i_built_catlock_to_stop_my_cats_from_messing_with/</link>
-      <description><![CDATA[大家好， 我想分享一个我一直在做的小工具项目，叫做CatLock。我做这个是因为我的两只橘猫喜欢在我工作的时候走过我的键盘并制造混乱。以前，我使用 WIN+L 键盘快捷键来锁定我的系统，但这很烦人，尤其是在我看视频的时候。如果你有过类似的经历，你可能会发现这个很有用。该软件完全免费且无广告。 目前仅完全支持 Windows 功能  使用热键 (Ctrl+L) 锁定键盘 半透明覆盖表示键盘已锁定，允许不间断查看 通过单击覆盖解锁键盘 便捷的系统托盘菜单可轻松访问： 调整覆盖不透明度以适合您的喜好 在键盘锁定时启用/禁用系统通知   要下载或了解更多信息，请访问 - https://catlock.app/ 该代码也是开源的，欢迎贡献 - https://github.com/richiehowelll/cat-lock ![demo](https://img.youtube.com/vi/SNCtYEyRkRI/0.jpg) 防病毒注意事项 某些防病毒软件可能会标记 CatLock，因为它由 PyInstaller 捆绑（如此处所示）或使用 InnoSetup 进行安装。但是，请放心，CatLock 使用安全，不会执行任何有害操作。如果您仍然担心，请随时直接从 github 运行代码。我正在让尽可能多的防病毒提供商将代码列入白名单，因此如果您有任何问题，请告诉我。 例如，Microsoft 已将该应用程序列入白名单 - https://imgur.com/HZgYDx2 如有任何疑问，请随时联系我或直接向我报告任何问题！    提交人    /u/rawmeniscus   [link] [评论]]]></description>
+      <description><![CDATA[大家好， 我想分享一个我一直在做的小工具项目，叫做CatLock。我做这个是因为我的两只橘猫喜欢在我工作的时候走过我的键盘并制造混乱。以前，我使用 WIN+L 键盘快捷键来锁定我的系统，但这很烦人，尤其是在我看视频的时候。如果你有过类似的经历，你可能会发现这个很有用。该软件完全免费且无广告。 目前仅完全支持 Windows 功能  使用热键 (Ctrl+L) 锁定键盘 半透明覆盖表示键盘已锁定，允许不间断查看 通过单击覆盖解锁键盘 便捷的系统托盘菜单可轻松访问： 调整覆盖不透明度以适合您的喜好 在键盘锁定时启用/禁用系统通知   要下载或了解更多信息，请访问 - https://catlock.app/ 该代码也是开源的，欢迎贡献 - https://github.com/richiehowelll/cat-lock ![demo](https://img.youtube.com/vi/SNCtYEyRkRI/0.jpg) 防病毒注意事项 某些防病毒软件可能会标记 CatLock，因为它由 PyInstaller 捆绑（如此处所示）或使用 InnoSetup 安装。但是，请放心，CatLock 使用安全，不会执行任何有害操作。如果您仍然担心，请随时直接从 github 运行代码。我正在让尽可能多的防病毒提供商将代码列入白名单，因此如果您有任何问题，请告诉我。 例如，Microsoft 已将该应用程序列入白名单 - https://imgur.com/HZgYDx2 如有任何疑问，请随时联系我或直接向我报告任何问题！    提交人    /u/rawmeniscus   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1dx1xaf/i_built_catlock_to_stop_my_cats_from_messing_with/</guid>
       <pubDate>Sat, 06 Jul 2024 22:52:50 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[      我正在寻找一个可以接受多个文件的编码环境。比如 judge0 (https://github.com/judge0/judge0)。 我试过 judge0，但它使用 cgroupV0，并且在设置中存在许多问题 + 它没有维护。 如果有人能建议任何其他开源自托管平台，我将不胜感激。 提前致谢：）    提交人    /u/Quirky-Ad4938   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1dwxj86/does_anyone_knows_any_open_source_code_execution/</guid>
       <pubDate>Sat, 06 Jul 2024 19:30:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>查看我已经开发了三年的开源应用程序‘原子-元素周期表’！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dwx79w/check_out_my_opensource_app_atomic_periodic_table/</link>
-      <description><![CDATA[你好！ 三年前，我发布了我的应用程序“原子 - 周期表”，顾名思义，这是一个周期表应用程序，还具有包含不同物理数据的附加表，如同位素表、电离能表、公式表、核素表等！从一开始，它就是一个无广告的开源项目，可帮助您学习或工作！从一开始，该应用程序就是开源的，这有助于创建一个拥有大量社区投入的应用程序。 “原子 - 周期表”概述 · 无广告：我开发的所有应用程序都不包含，也不会包含任何广告或其他无用内容。因此，您可以轻松浏览周期表等，而不会受到干扰！相反，为了支持开发，PRO 版本提供了一些附加数据和表格。 · Material You design：该应用程序使用 Google 的 Material You design 并适应您的 android 设备的配色方案。我们始终致力于开发一款直观且易于使用的应用程序。 · 交互式表格：主表格有不同的选项，不仅可以显示元素名称，还可以显示电负性、原子量、元素组、电类型、泊松比、杨氏模量等数据。 · 元素信息：单击元素周期表中的任何元素都会将您发送到信息页面，其中包含所有 118 种元素的大量数据，包括原子性质、热力学性质、电磁性质、核性质、硬度性质、弹性性质等等。 · 收藏栏：轻松标记对您最重要的数据，并使其在信息页面中首先居中显示。 · 同位素页面：您还可以在同位素表页面中查看不同元素的同位素，该页面还会显示它们的半衰期和各自的质量因为它们的质子、中子和核子。 · 公式：包含物理、数学、化学等公式的页面 · pH 指示剂：概览不同指示剂在不同 pH 值下的颜色。 · 电离能表：在一个交互式表格中轻松找到不同元素的电离能。 · 电化学系列表：查找不同元素的电压 · 溶解度表：找出哪些化合物可以相互溶解。 · 溶解度表：找出哪些化合物可以相互溶解。 · 核素表：核素表（仍在开发中，功能不完整） · 词典：如果不知道某个术语的意思，只需打开应用程序内置的词典即可。 最近更新： 在过去的一年半中，该应用程序进行了 Material You 重新设计，以更好地匹配最新的 Android 版本并匹配您的手机颜色。数据添加包括核特性、热力学特性以及弹性特性。对于表格，我添加了泊松比表，并且提供了早期核素表。还有一个 PRO 版本，它添加了一些额外的数据，但应用程序的核心永远是免费的。 获取它 Play Store： https://play.google.com/store/apps/details?id=com.jlindemann.science Github： https://github.com/JLindemann42/Atomic-Periodic-Table.Android 主页： https://www.jlindemann.se/homepage/atomic    由    /u/JLindemann42  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dwx79w/check_out_my_opensource_app_atomic_periodic_table/</guid>
-      <pubDate>Sat, 06 Jul 2024 19:15:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>智能电视软件的替代品</title>
-      <link>https://www.reddit.com/r/opensource/comments/1dwvdgn/alternative_to_smart_tv_software/</link>
-      <description><![CDATA[有没有好的开源软件可以替代现代智能电视或亚马逊 Fire TV 棒或 Apple TV 提供的软件？ 我可以将它托管在旧 PC 或 Raspberry Pi 上，并通过 HDMI 连接到电视。 目前，我只使用默认的 Gnome GUI 访问程序/网站以从中流式传输内容，但我正在寻找具有更简单 UI 的东西，可以使用红外遥控器进行控制。 我知道 Kodi 和 Plex 等媒体中心软件，但我只见过它用于在设备上观看或自托管内容。但是，我正在寻找可以访问电视频道和流媒体平台的东西。    提交人    /u/datwerner   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1dwvdgn/alternative_to_smart_tv_software/</guid>
-      <pubDate>Sat, 06 Jul 2024 17:53:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
