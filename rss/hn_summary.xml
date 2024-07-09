@@ -4,98 +4,119 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Tue, 09 Jul 2024 18:13:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2024 21:01:14 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 网站：testflight.apple.com</title>
-      <link>https://t.me/hn_summary/98839</link>
-      <description><![CDATA[显示 HN：使用 iPhone 音量按钮点击计数器
-标题：显示 HN：使用 iPhone 音量按钮点击计数器
-网站：testflight.apple.com
+      <title>[媒体] 一种新发现的攻击被称为“Blast-RADIUS”，利用了广泛的漏洞[...]</title>
+      <link>https://t.me/hn_summary/98874</link>
+      <description><![CDATA[新型 Blast-RADIUS 攻击破坏了世界各地网络中使用的已有 30 年历史的协议
 
-摘要：
-TestFlight 允许用户在 iOS、iPadOS、macOS、tvOS、visionOS 和 watchOS 设备上安装和测试应用的测试版。每个测试版最多可测试 90 天。用户可以收到新版本的通知并启用自动更新。 TestFlight 支持通过电子邮件或公开链接邀请进行安装，测试人员可以管理自动更新和以前的版本。值得注意的是，Beta 测试期间的应用内购买是免费的，但不会延续到 App Store 版本。托管 Apple ID 不能用于测试版本。TestFlight 还提供了测试 iMessage 应用和 App Clips 的具体说明。]]></description>
-      <guid>https://t.me/hn_summary/98839</guid>
-      <pubDate>Tue, 09 Jul 2024 18:13:15 GMT</pubDate>
+一种新发现的攻击被称为“Blast-RADIUS”，利用广泛使用的 RADIUS 协议中的漏洞，使攻击者能够控制各种网络环境，包括工业控制器和 ISP。RADIUS 是远程身份验证拨入用户服务的缩写，自 1991 年问世以来一直是网络身份验证的主要内容。尽管 RADIUS 发挥着重要作用，但它仍然依赖于过时且不安全的 MD5 哈希函数，该函数自 2004 年以来就容易受到碰撞攻击。Blast-RADIUS 攻击利用了这些弱点，使攻击者能够使用 RADIUS 获得对设备的管理员访问权限。令人惊讶的是，尽管 MD5 存在已知缺陷，但 RADIUS 并未更新以消除该缺陷。这项研究的发布与来自 90 多家供应商的安全公告相呼应，敦促立即采取行动以减轻风险。]]></description>
+      <guid>https://t.me/hn_summary/98874</guid>
+      <pubDate>Tue, 09 Jul 2024 21:01:14 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Harold Thimbleby 反对使用七段显示器，特别是在深度 [...]</title>
-      <link>https://t.me/hn_summary/98838</link>
-      <description><![CDATA[不要使用 7 段显示器 [pdf](https://news.ycombinator.com/item?id=40918829)
-Harold Thimbleby 反对使用七段显示器，特别是在医疗保健和航空电子等可靠且安全至关重要的应用中。尽管这些显示器无处不在且具有成本效益，但它们容易出错和误解，尤其是在数字和符号混合或显示十六进制或快速变化的数字时。Thimbleby 强调，七段显示器缺乏足够的标准，并且经常因其简单性和低成本而被使用，而不是其可靠性。他建议应为关键应用考虑替代方案，并为开发人员和购买者提供详细建议，以提高显示清晰度并减少错误。值得注意的是，他强调了字体选择和从各个角度看的可见性的重要性，并建议不要在七段显示器中使用十六进制数字和小数点。（基于 54% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/98838</guid>
-      <pubDate>Tue, 09 Jul 2024 18:07:09 GMT</pubDate>
+      <title>[媒体] 并行 DOM 是一种创新的解决方案，旨在让您的 Web 应用程序更快地运行 [...]</title>
+      <link>https://t.me/hn_summary/98873</link>
+      <description><![CDATA[显示 HN → 并行 DOM：将您的 DOM 升级为多线程
+并行 DOM 是一种创新解决方案，旨在通过为 DOM 操作启用多线程来提高您的 Web 应用程序的速度。通过并行化繁重的 DOM 任务，您可以显著提高性能和响应能力。这种方法对于需要大量 DOM 操作的复杂应用程序特别有益。要开始使用并行 DOM 并升级您的应用程序的效率，请访问www.pdom.dev。]]></description>
+      <guid>https://t.me/hn_summary/98873</guid>
+      <pubDate>Tue, 09 Jul 2024 20:43:04 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在《管家之书：如何为你的家创建使用说明书》一书中，作者 [...]</title>
-      <link>https://t.me/hn_summary/98837</link>
-      <description><![CDATA[管家之书：如何为您的家创建使用手册
-在《管家之书：如何为您的家创建使用手册》中，作者反思了 Cheryl Mendelson 的《家居舒适》和亚里士多德的《经济学》启发下的家庭管理。希腊的 oikos 概念或家庭管理，因其在实现幸福或繁荣方面的深层意义而被探索。实际上，作者根据前职业管家 Charles MacPherson 的见解，建议创建一本管家之书——一本全面的家庭管理手册。本书包括管道、暖通空调、安全等部分，使家庭维护高效而有序。作者提供了免费的 Google Docs 模板，帮助读者创建自己的 Butler’s Book，强调其长期效益和作为未来房主礼物的潜力。本书的独特之处在于将古代哲学与现代实用建议相结合，并巧妙地为读者提供了可自定义的模板。]]></description>
-      <guid>https://t.me/hn_summary/98837</guid>
-      <pubDate>Tue, 09 Jul 2024 17:49:55 GMT</pubDate>
+      <title>[媒体] Maelstrom 是一个针对 Python 和 Rust 的密封、集群测试运行器，旨在运行测试 [...]</title>
+      <link>https://t.me/hn_summary/98872</link>
+      <description><![CDATA[显示 HN：Maelstrom – 适用于 Python 和 Rust 的密封集群测试运行器
+Maelstrom 是一款适用于 Python 和 Rust 的密封集群测试运行器，旨在在本地或跨大型集群的隔离微容器中运行测试。它旨在以最少的配置简化测试执行，通过消除测试间依赖来提高可靠性，并提高可扩展性和性能。Maelstrom 以 Rust 内置的无根容器实现脱颖而出，避免了对 Docker 或 RunC 的依赖，并提供通用作业执行系统。它支持 Linux（x86 和 ARM），并提供用于运行测试和任意命令的命令行实用程序和 API。该项目可在 Apache 2.0 或 MIT 许可下使用。]]></description>
+      <guid>https://t.me/hn_summary/98872</guid>
+      <pubDate>Tue, 09 Jul 2024 20:29:55 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] GitHub 项目“Show HN：我使用 WebAssembly 和 tinygo 构建了一个 WASM 控制台”是一个 [...]</title>
-      <link>https://t.me/hn_summary/98836</link>
-      <description><![CDATA[Show HN：我使用 WebAssembly 和 tinygo 构建了一个 WASM 控制台
-GitHub 项目“Show HN：我使用 WebAssembly 和 tinygo 构建了一个 WASM 控制台”是一个使用 WebAssembly 和 TinyGo 构建的实验性控制台应用程序。该项目的目的是探索 WebAssembly 创建轻量级、高效控制台应用程序的能力。它可用于在 Web 环境中运行 Go 代码，利用 WebAssembly 的性能优势。作者通过强调其实验性质和使用 TinyGo（一种用于小型场所的 Go 编译器）来区分这个项目，这使其适用于资源受限的环境。 README 包含一个简单的构建过程，演示了如何将项目编译成 WebAssembly 模块。]]></description>
-      <guid>https://t.me/hn_summary/98836</guid>
-      <pubDate>Tue, 09 Jul 2024 17:40:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 地球已连续 13 个月打破气温记录，每个月的温度都达到 [...]</title>
-      <link>https://t.me/hn_summary/98835</link>
-      <description><![CDATA[地球全年每月升温超过 1.5 摄氏度
-根据一份新报告，地球已连续 13 个月打破温度记录，每月温度比工业化前平均温度高 1.5 摄氏度（2.7 华氏度）。自 2023 年 6 月以来，每个月都比上一个月更热，导致 2023 年 7 月至 2024 年 6 月之间的全球平均气温比工业化前水平高 1.64 摄氏度（3 华氏度）。这一令人担忧的趋势是由人类引起的温室气体排放和厄尔尼诺现象推动的。哥白尼气候变化服务中心 (C3S) 主任卡洛·布翁坦波 (Carlo Buontempo) 警告称，除非减少温室气体排放，否则气温将继续创下新高。C3S 副主任萨曼莎·伯吉斯 (Samantha Burgess) 也表达了同样的担忧，她强调了温室气体和厄尔尼诺现象在前所未有的气温上升中的作用。该报告强调了将全球变暖限制在 1.5 摄氏度以避免灾难性的气候影响至关重要，正如 2015 年《巴黎协定》中所述。尽管人们希望厄尔尼诺现象的结束可能会使气温下降，但预测表明高温仍将持续，2024 年有 95% 的可能性将超过 2023 年，成为有记录以来最热的一年。]]></description>
-      <guid>https://t.me/hn_summary/98835</guid>
-      <pubDate>Tue, 09 Jul 2024 17:14:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] “easyto” GitHub 项目允许用户将容器镜像转换为 EC2 AMI，然后 [...]</title>
-      <link>https://t.me/hn_summary/98834</link>
-      <description><![CDATA[显示 HN：Easyto 将容器映像转换为 EC2 AMI
-“easyto”GitHub 项目允许用户将容器映像转换为 EC2 AMI，从而可以直接在 EC2 实例上执行容器化应用程序。该工具的工作原理是创建一个临时 EC2 实例、对 EBS 卷进行分区和格式化，并将容器映像层写入其中。然后，它会添加 Linux 内核、引导加载程序和自定义实用程序，然后再从快照创建 AMI。该项目解决了在 EC2 上运行容器映像而无需 Kubernetes 等其他编排工具的挑战。独特的功能包括类似于 Kubernetes pod 定义的自定义 EC2 用户数据格式以及在运行时覆盖容器命令的能力。（基于 70% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/98834</guid>
-      <pubDate>Tue, 09 Jul 2024 17:08:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>标题：Google 的“Wordle”广告返回垃圾邮件钓鱼结果</title>
-      <link>https://t.me/hn_summary/98833</link>
-      <description><![CDATA[Google 的“Wordle”广告返回垃圾邮件钓鱼结果
-标题：Google 的“Wordle”广告返回垃圾邮件钓鱼结果
+      <title>[媒体] 时局艰难，但开发人员拥有一套独特的、高需求的技能，可以帮助 [...]</title>
+      <link>https://t.me/hn_summary/98871</link>
+      <description><![CDATA[开发人员如何赚取额外收入
+时局艰难，但开发人员拥有一套独特的高需求技能，可以帮助赚取额外收入。这篇文章概述了开发者的 50 种副业，包括：
 
-网站：www.google.com
+1. 基于注意力的收入：Brave 和 Flattr 等平台根据用户对您内容的参与度向您付费。
+2. API 即服务：RapidAPI 允许您通过将 API 货币化来赚取被动收入。
+3. 问题赏金：BOSS.dev 等平台为完成功能请求或错误修复提供赏金。
+4. 赞助商：在 GitHub 或其他平台上启用赞助以获得财务支持。
+5. 小费：使用允许用户向您提供有用内容的小费的平台。
+6. 企业资助：公司可以赞助开源项目以换取知名度。
+7. 黑客马拉松：参加编码比赛赢取现金奖励。
+8. 依赖资金：为您的 NPM 软件包提供赞助。
+9. 报告问题：通过 HackerOne 等平台负责任地披露错误来赚钱。
+10. 开放核心模型：为开源项目提供专有扩展。
+11. 高级软件包：分发软件的付费版本。
+12. 支持：为您的项目提供专业支持计划。
+13. 文档：编写和维护项目文档。
+14. 广告：将高流量网站或存储库货币化。
+15. 销售代码：销售您的代码，但这种方法存在道德问题。
+16. 销售内容：在 GumRoad 等平台上创建和销售高质量内容。
+17. 写作：在 LeanPub 等平台上发布电子书或课程。
+18. 资助：申请资助和企业赞助来资助您的项目。
 
-摘要：最近 Google 为热门游戏“Wordle”发布的广告将用户引导至垃圾邮件钓鱼网站，而不是预期的目的地。当用户搜索 Wordle 答案（特别是 2024 年 7 月 9 日星期二的谜题 #1116）时，遇到了一个欺骗性链接，这个问题就凸显出来了。此次事件引发了人们对 Google 广告审查流程的可靠性以及用户可能面临的风险的担忧。这一令人意外的安全漏洞凸显了采取更严格措施保护用户免受恶意网站侵害的必要性。]]></description>
-      <guid>https://t.me/hn_summary/98833</guid>
-      <pubDate>Tue, 09 Jul 2024 17:01:20 GMT</pubDate>
+争议点：出售代码受到批评，因为经常涉及未经适当重新包装的开源软件，而没有对原作者给予适当的认可。
+
+独特/聪明的见解：这篇文章重点介绍了 Brave 和 Flattr 等鲜为人知的基于参与度的收入平台，这是一种以最少的努力赚取被动收入的简单方法。（基于 34% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/98871</guid>
+      <pubDate>Tue, 09 Jul 2024 20:19:47 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 科学家发现了一种新的危险“永久化学”污染源：[...]</title>
-      <link>https://t.me/hn_summary/98832</link>
-      <description><![CDATA[电动汽车电池成为令人吃惊的“永久化学”污染新源
-科学家发现了一种新的危险“永久化学”污染源：电动汽车 (EV) 中的可充电锂离子电池。这些电池含有 PFAS，这些化学物质会在环境和生物体中积累，并持续存在数千年。PFAS 与严重的健康问题有关，包括肝损伤和慢性肾病。这一发现凸显了向更清洁能源解决方案转变的权衡。研究人员在各种锂离子电池中发现了一种特定类别的 PFAS，即双全氟烷基磺酰亚胺 (bis-FASIs)。这项研究是首次对双 FASI 的使用进行“从摇篮到坟墓”的评估，强调需要更好的电池技术和回收解决方案来防止进一步的 PFAS 污染。值得注意的是，3M 和 Solvay 等有 PFAS 生产历史的公司也牵涉其中。3M 已同意就 PFAS 污染达成 100 亿美元的和解，并计划在 2025 年前停止 PFAS 的生产。这一发现使可持续能源基础设施对环境的影响变得更加复杂。]]></description>
-      <guid>https://t.me/hn_summary/98832</guid>
-      <pubDate>Tue, 09 Jul 2024 17:01:16 GMT</pubDate>
+      <title>[媒体] 北约宣布支持一项雄心勃勃的倡议，以保护互联网 [...]</title>
+      <link>https://t.me/hn_summary/98870</link>
+      <description><![CDATA[北约支持通过太空路由拯救互联网的努力
+北约宣布支持一项雄心勃勃的计划，即通过太空路由来保护互联网。这项开创性的努力旨在增强全球通信基础设施的弹性和安全性。通过利用卫星技术，该项目旨在减轻与地面互联网连接相关的风险，例如网络攻击和自然灾害。此举凸显了北约致力于适应新兴技术威胁并确保关键数字网络稳定性的承诺。这项倡议既具有创新性又至关重要，反映了我们积极主动地解决日益互联的世界的脆弱性。]]></description>
+      <guid>https://t.me/hn_summary/98870</guid>
+      <pubDate>Tue, 09 Jul 2024 20:12:36 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：浏览器如何将内部音频与麦克风输入隔离？</title>
-      <link>https://t.me/hn_summary/98831</link>
-      <description><![CDATA[问 HN：浏览器如何将内部音频与麦克风输入隔离？
-我注意到 Chrome 和 Chromium 中有一个有趣的功能：它们似乎可以有效地将内部音频与麦克风输入隔离。例如，当我在一个标签页中进行 Google Meet 通话并在另一个标签页中以最大音量播放 YouTube 视频时，Google Meet 不会拾取该视频的音频。但是，如果我为每个任务使用不同的浏览器（例如，Chrome 上的 Google Meet 和 Chromium 上的 YouTube），则不会发生这种隔离。有人知道 Chrome 和 Chromium 如何实现这种音频隔离吗？鉴于 Chromium 是开源的，如果有人能指出处理此问题的代码库的特定部分，那将很有帮助。任何见解或技术细节都将不胜感激！]]></description>
-      <guid>https://t.me/hn_summary/98831</guid>
-      <pubDate>Tue, 09 Jul 2024 17:01:11 GMT</pubDate>
+      <title>[媒体] 普利策奖获奖记者安娜·沃尔夫因其对 Missis 的调查工作而闻名 [...]</title>
+      <link>https://t.me/hn_summary/98869</link>
+      <description><![CDATA[普利策奖获奖记者因保护资金丑闻消息来源而面临牢狱之灾
+普利策奖获奖记者安娜·沃尔夫因调查密西西比州福利欺诈丑闻而闻名，现在因保护消息来源而面临牢狱之灾。沃尔夫和她的编辑亚当·加努乔正在抵制法院命令披露机密消息来源，认为这威胁到新闻诚信。前州长菲尔·布莱恩特提起的诽谤诉讼声称《密西西比今日报》错误地指控他有犯罪行为。布莱恩特尚未受到指控，他坚称诉讼是关于诽谤的，而不是惩罚好的报道。该案凸显了保护新闻消息来源与诽谤诉讼的法律要求之间的紧张关系，对调查性新闻具有重大影响。]]></description>
+      <guid>https://t.me/hn_summary/98869</guid>
+      <pubDate>Tue, 09 Jul 2024 20:12:33 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在我作为一名姑息治疗医生的工作中，我遇到了结局之间的鲜明对比[...]</title>
-      <link>https://t.me/hn_summary/98830</link>
-      <description><![CDATA[医生对千禧一代的死亡保持沉默
-在我担任姑息治疗医生的工作中，我发现老年患者和年轻患者的临终关怀形成了鲜明对比。虽然老年患者通常会收到关于其预后的明确沟通，但年轻患者，比如我治疗的一位年轻母亲，面临着不同的现实。尽管她患有晚期胃癌，但她的医疗团队不愿讨论她有限的生命时间，而是推行更积极的治疗。这种沉默剥夺了年轻患者对剩余生命做出明智选择的机会。随着千禧一代癌症发病率的上升，医生进行诚实、富有同情心的对话至关重要，让患者定义“充实的生活”对他们意味着什么。 
+      <title>IT 基础速成课程</title>
+      <link>https://t.me/hn_summary/98868</link>
+      <description><![CDATA[显示 HN：IT 速成课程
+IT 基础速成课程
 
-争议：医生不愿与年轻患者讨论死亡问题，这可能导致过度治疗和不必要的痛苦。
+DoubleVirgule
 
-独特/巧妙：使用“表达我的选择”这一预先护理计划指南，促进有关临终偏好的有意义的对话。]]></description>
-      <guid>https://t.me/hn_summary/98830</guid>
-      <pubDate>Tue, 09 Jul 2024 16:53:03 GMT</pubDate>
+
+经常有人问我推荐一些“IT 入门”课程。虽然 Google 和其他科技巨头提供免费课程，但它们要么太基础，要么只专注于计算机维修。对于那些熟悉计算机但想掌握更广泛的 IT 概念的人来说，这是一个空白。此列表旨在填补这一空白，提供涵盖六个关键领域的视频、文章和应用程序：PC、网络、云、应用程序/编程、安全和 AI。此外，还有一个杂项部分，用于多类别或只是很酷的东西。这并不是关于管理 IT，而是足够了解 IT 以跟上技术对话。]]></description>
+      <guid>https://t.me/hn_summary/98868</guid>
+      <pubDate>Tue, 09 Jul 2024 20:10:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] APILayer 的 GitHub 项目“免费 API 集合列表”旨在为 [...]</title>
+      <link>https://t.me/hn_summary/98867</link>
+      <description><![CDATA[免费 API 汇总列表
+APILayer 的 GitHub 项目“免费 API 汇总列表”旨在提供一个全面的公开 API 存储库，以支持开发者社区。它帮助用户轻松找到各种 API 并将其集成到他们的产品中，涵盖天气、金融、体育等广泛类别。该项目通过提供精选的热门 API 列表和详细描述（包括身份验证要求和使用示例）来脱颖而出。此外，它鼓励社区通过贡献参与，并提供资源供进一步探索 Postman API 网络。（基于 9% 的故事文本摘要。）]]></description>
+      <guid>https://t.me/hn_summary/98867</guid>
+      <pubDate>Tue, 09 Jul 2024 20:10:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在《如何从组织创伤中更加强大地回归》一书中，作者探讨了 [...]</title>
+      <link>https://t.me/hn_summary/98866</link>
+      <description><![CDATA[如何从组织创伤中恢复得更强
+在《如何从组织创伤中恢复得更强》一文中，作者探讨了组织创伤的双重结果：创伤后应激和创伤后成长。他们基于大量研究，包括对虐待性监督、模式变化和逆境中的领导力的研究，认为虽然创伤可能会产生破坏性影响，但也提供了成长和恢复的机会。领导力在利用组织能量超越单纯的生存方面发挥着至关重要的作用。本文强调了支持性领导氛围和积极应对策略的重要性。一个独特的方面是将创伤后成长理论应用于组织环境，表明逆境可以带来繁荣，而不仅仅是康复。]]></description>
+      <guid>https://t.me/hn_summary/98866</guid>
+      <pubDate>Tue, 09 Jul 2024 20:10:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>只需每月 10 美元，我就会每天亲自给您打电话，帮助您履行责任。</title>
+      <link>https://t.me/hn_summary/98865</link>
+      <description><![CDATA[向 HN 展示：我会打电话给你，让你承担责任
+每月 10 美元，我会每天亲自打电话给你，帮助你承担责任。作为成年人，尽管我们曾经渴望自由，但我们经常在自律方面挣扎。通知和应用程序很容易被忽略，但研究表明，让真人监督我们更有效。每天大约 33 美分，我会在您选择的时间给您打电话，检查您是否已完成任务。无论是提醒您关闭手机、服药还是开始锻炼，我都会确保您保持正轨。此服务目前在美国和加拿大可用，您可以随时取消。 
+
+令人惊讶/聪明：该服务利用了人类责任感的心理影响，而不是经常被忽略的数字提醒。
+
+有争议：一些用户可能会认为，坚定的立场不容任何借口，过于苛刻。]]></description>
+      <guid>https://t.me/hn_summary/98865</guid>
+      <pubDate>Tue, 09 Jul 2024 20:02:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
