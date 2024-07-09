@@ -4,117 +4,130 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Tue, 09 Jul 2024 09:12:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2024 12:26:28 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 由于安全原因，提供的链接中的内容似乎无法访问[...]</title>
-      <link>https://t.me/hn_summary/98726</link>
-      <description><![CDATA[电动自行车赢得欧洲市场
-由于需要用户验证的安全措施，所提供链接中的内容似乎无法访问。因此，我无法总结 Bloomberg.com 上题为“电动自行车赢得欧洲市场”的特定文章。如果您可以提供文章的文本或要点，我很乐意帮助您总结。]]></description>
-      <guid>https://t.me/hn_summary/98726</guid>
-      <pubDate>Tue, 09 Jul 2024 09:12:55 GMT</pubDate>
+      <title>[媒体] 网站：devblogs.microsoft.com</title>
+      <link>https://t.me/hn_summary/98756</link>
+      <description><![CDATA[Microsoft Teams 中 Office 365 连接器的停用
+标题：Microsoft Teams 中 Office 365 连接器的停用
+网站：devblogs.microsoft.com
+
+Microsoft Teams 将停用其 Office 365 连接器功能，该功能可将来自第三方服务（如 Azure DevOps、Trello 和 GitHub）的更新直接发送到 Teams 频道。此更改将于 2024 年 8 月 15 日生效，将阻止创建新的连接器，到 2024 年 10 月 1 日，所有现有连接器将停止工作。鼓励用户过渡到 Power Automate 工作流，该工作流提供更广泛的连接器和增强的安全性。Teams 中的 Workflows 应用已更新，可以更深入地集成到工作流中，从而简化审批和项目更新等任务。过渡涉及使用模板或在 Workflows 应用中从头开始创建新的工作流。
+
+争议：广泛使用的功能的退役可能会扰乱当前的工作流，并且需要用户学习过渡到 Power Automate。
+
+独特/巧妙：Workflows 应用的集成和自定义选项提供了更具可扩展性和安全性的解决方案，有可能提高生产力并减少错误。]]></description>
+      <guid>https://t.me/hn_summary/98756</guid>
+      <pubDate>Tue, 09 Jul 2024 12:26:28 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：科技领域中最被低估的技能是什么？</title>
-      <link>https://t.me/hn_summary/98725</link>
-      <description><![CDATA[问 HN：科技领域最被低估的技能是什么？
-标题：问 HN：科技领域最被低估的技能是什么？
-网站：news.ycombinator.com
-
-嗨 HN，
-
-我很想听听社区对目前科技行业被低估的技能的看法。我们经常听说编程语言、框架和数据科学的重要性，但哪些技能很少被谈论，但却影响巨大呢？
-
-无论是软技能、小众技术专长，还是解决问题的特定方法，我都想了解您认为哪些技能会产生影响，但却没有得到足够的重视。
-
-期待您的见解！]]></description>
-      <guid>https://t.me/hn_summary/98725</guid>
-      <pubDate>Tue, 09 Jul 2024 09:05:50 GMT</pubDate>
+      <title>pwrpc 是一个高效、低代码大小的 RPC 系统，专为嵌入式设备设计。</title>
+      <link>https://t.me/hn_summary/98755</link>
+      <description><![CDATA[pw_rpc：适用于嵌入式设备的高效、低代码大小的 RPC 系统
+pwrpc 是一种高效、低代码大小的 RPC 系统，专为嵌入式设备设计。本概述涵盖了 RPC 调用的生命周期，详细介绍了从启动到完成的每个步骤。它还解释了系统内使用的命名约定，以保持清晰度和一致性。此外，还讨论了 pwrpc 路线图，概述了系统未来的增强功能和计划中的功能。值得注意的是，该系统专注于在保持效率的同时最小化代码大小，这是它有别于其他 RPC 系统的一个独特方面。]]></description>
+      <guid>https://t.me/hn_summary/98755</guid>
+      <pubDate>Tue, 09 Jul 2024 12:24:22 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 大家好。</title>
-      <link>https://t.me/hn_summary/98724</link>
-      <description><![CDATA[流行文化
-大家好。你喜欢这篇文章吗？你知道我还做了一个名为 Better Offline 的播客吗？如果不知道，请立即在您的播客应用程序上下载。关注节目。下载每一集。与您的朋友分享，并要求他们也这样做。
-
-一个半星期前，高盛发布了一份长达 31 页的报告，题为“人工智能：花费太多，收益太少？”这是我见过的关于生成式人工智能最重要的文章之一。该报告质疑人工智能的生产力效益、财务回报和电力需求，并指出公用事业公司需要在未来三年内增加近 40% 的支出，以满足谷歌和微软等科技巨头的需求。这很重要，因为以利润驱动动机而闻名的高盛现在对人工智能未来的盈利能力持怀疑态度。
-
-麻省理工学院经济学家 Daron Acemoglu 在报告中接受采访时认为，生成式人工智能对生产力和 GDP 增长的影响将是有限的，而且未来十年内不太可能发生变革性变化。他质疑人工智能模型只需增加更多数据和 GPU 容量就会变得更强大的观点，强调缺乏明确的衡量“更好”人工智能实际含义的指标。
-
-该报告还讨论了人工智能开发的高成本，在不久的将来，模型的训练成本可能高达 1000 亿美元。 Acemoglu 怀疑法学硕士能否成为超级智能，并警告称，过度自动化可能会给公司带来瓶颈和其他问题。
-
-有趣的是，该报告包含了高盛的 Joseph Briggs 的相反观点，他认为生成式人工智能将通过取代一些工作并创造新的工作，带来显着的经济增长。然而，这种观点因其假设人工智能将取代它目前难以完成的任务而受到批评。
-
-高盛全球股票研究主管 Jim Covello 也发表了自己的看法，他表示生成式人工智能泡沫被夸大了，并质疑人工智能将解决什么万亿美元的问题。他驳斥了与互联网早期的比较，指出人工智能非常昂贵，并且不是为解决复杂问题而设计的。
-
-总体而言，该报告表明，生成式人工智能的炒作可能被夸大了，其实际应用和经济效益还远未确定。 （根据 53% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/98724</guid>
-      <pubDate>Tue, 09 Jul 2024 08:38:37 GMT</pubDate>
+      <title>[媒体] Sljit 项目是一个独立于平台的低级 JIT（即时）编译器，设计用于 [...]</title>
+      <link>https://t.me/hn_summary/98754</link>
+      <description><![CDATA[Sljit：独立于平台的低级 JIT 编译器
+Sljit 项目是一个独立于平台的低级 JIT（即时）编译器，旨在将解释后的字节码转换为机器码。它支持多种目标架构，包括 x86、ARM、RiscV、s390x、PowerPC、LoongArch 和 MIPS，并提供自修改代码、尾调用、快速调用、字节顺序切换、未对齐内存访问和某些 CPU 上的 SIMD/原子操作等功能。Sljit 允许直接访问寄存器和为局部变量分配堆栈空间。它支持一体化编译，并且可以序列化以进行提前编译。该项目兼容C99和C++编译器，可以轻松集成到现有项目中。]]></description>
+      <guid>https://t.me/hn_summary/98754</guid>
+      <pubDate>Tue, 09 Jul 2024 12:21:18 GMT</pubDate>
     </item>
     <item>
-      <title>创新往往显得缓慢，只有事后才变得清晰。</title>
-      <link>https://t.me/hn_summary/98723</link>
-      <description><![CDATA[氦气密封硬盘竞赛
-创新往往显得缓慢，事后才变得清晰。氦气比空气轻七倍，它通过减少阻力、降低运行温度和保持湿度，彻底改变了高容量硬盘 (HDD)，从而增加了存储量、降低了功耗并提高了可靠性。然而，制造氦气密封硬盘是一项长达数十年的挑战。IBM 的物理学家 Barry Stipe 使用卫星焊接技术和冰箱密封方法解决了这个问题。尽管最初失败了，但他的工作为商用氦气硬盘奠定了基础。日立的 Akihiko Aoyagi 进一步开发了这项技术，克服了众多障碍。2013 年，西部数据推出了第一款商用氦气硬盘，在容量和能效方面具有革命性意义。如今，氦气硬盘已成为数据存储的必需品，西部数据每月出货量约为 100 万台硬盘。这一历程彰显了突破性科学、持续创新和一丝不可能的融合。
+      <title>[媒体] 网站：www.pixel.estate</title>
+      <link>https://t.me/hn_summary/98753</link>
+      <description><![CDATA[我创建了一个价值百万美元的主页，但它只有 64 个像素
+标题：我创建了一个价值百万美元的主页，但它只有 64 个像素
+网站：www.pixel.estate
 
-争议：尽管技术上取得了成功，但该项目最初因制造成本过高而终止。
+我创建了一个独特的数字房地产企业，用户可以以每个 1 美元的价格拥有主页上仅有的 64 个像素之一。它的工作原理如下：首先，用户浏览网格并选择一个像素。购买后，他们将获得该像素的所有权，其中包括指向他们网站或他们选择的任何 URL 的反向链接。此外，随着我​​们积极推广 pixel.estate，像素所有者受益于更多访客探索网格。这种创新方法不仅提供了一种新颖的广告方法，还创造了一个高度独特的数字空间。]]></description>
+      <guid>https://t.me/hn_summary/98753</guid>
+      <pubDate>Tue, 09 Jul 2024 12:21:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 网站：mused.com</title>
+      <link>https://t.me/hn_summary/98752</link>
+      <description><![CDATA[展示 HN：SETI I 之墓和冥界文本虚拟之旅
+标题：展示 HN：SETI I 之墓和冥界文本虚拟之旅
+网站：mused.com
 
-独特/巧妙：使用卫星焊接技术和冰箱密封方法来解决氦气密封问题。]]></description>
-      <guid>https://t.me/hn_summary/98723</guid>
-      <pubDate>Tue, 09 Jul 2024 08:14:19 GMT</pubDate>
+位于埃及卢克索帝王谷的塞提一世陵墓是这片古老墓地中最宏伟、装饰最精美的陵墓之一。该陵墓被称为 KV17，是为法老塞提一世修建的，塞提一世统治时期为新王国第十九王朝，统治时期约为公元前 1290 年至公元前 1279 年。塞提一世因其军事行动和大规模建筑项目而闻名，他的陵墓代表了那个时代的艺术和建筑巅峰。这次虚拟游览让您可以一睹古埃及工艺的辉煌和塞提一世统治时期的丰富历史。]]></description>
+      <guid>https://t.me/hn_summary/98752</guid>
+      <pubDate>Tue, 09 Jul 2024 12:20:11 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 该研究探索了使用再生纸板作为整流天线的基材 [...]</title>
-      <link>https://t.me/hn_summary/98722</link>
-      <description><![CDATA[再生纸板作为整流天线和能量收集的基板
+      <title>[媒体] 网站：robertheaton.com</title>
+      <link>https://t.me/hn_summary/98751</link>
+      <description><![CDATA[PySkyWiFi：长途航班上的免费愚蠢 Wi-Fi
+标题：PySkyWiFi：长途航班上的免费愚蠢 Wi-Fi
+网站：robertheaton.com
 
-该研究探讨了再生纸板作为整流天线和能量收集应用的基板的用途。在显微镜下和通过 CST 模拟分析了不同厚度和表面粗糙度的各种纸板样品，以了解它们的介电特性及其对天线性能的影响。该研究包括在不同条件下对回波损耗和整流电压的详细测量，将纸板基板与 Rogers RO4003C 和 PLA 等传统材料进行比较。令人惊讶的是，纸板基板表现出了具有竞争力的性能，表明它是一种可持续且具有成本效益的电子应用替代品。这种创新方法可以通过在技术上推广环保材料来彻底改变该领域。（基于 53% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/98722</guid>
-      <pubDate>Tue, 09 Jul 2024 08:10:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 美国联合航空公司一架波音 757-200 客机从洛杉矶国际机场起飞时丢失了一个起落架轮子 [...]</title>
-      <link>https://t.me/hn_summary/98721</link>
-      <description><![CDATA[波音 757-200 飞机起飞时轮胎脱落
-一架美联航波音 757-200 飞机从洛杉矶起飞时起落架轮胎脱落，但成功安全降落在丹佛，无人受伤。该航空公司正在调查事故原因，这是美联航今年发生的第二起此类事故。这架近 30 年的飞机载有 174 名乘客和 7 名机组人员。值得注意的是，波音公司于 2004 年停止生产 757。今年 3 月初，一架美联航波音 777-200 飞机在空中丢失了一个轮胎，坠落在机场停车场的一辆汽车上，无人受伤。此次事件是美联航令人不安的模式的一部分，美联航今年已多次面临紧急情况，包括液压系统问题和发动机起火。文章还提到了 1 月份阿拉斯加航空一架波音 737 MAX 9 客机发生的一起重大事故，该事故给美联航带来了财务影响。]]></description>
-      <guid>https://t.me/hn_summary/98721</guid>
-      <pubDate>Tue, 09 Jul 2024 07:52:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 想象一下，周一早上你走进办公室，脑子里充满了最近从 [...]</title>
-      <link>https://t.me/hn_summary/98720</link>
-      <description><![CDATA[抵制变革的神经科学
-想象一下，周一早上你走进办公室，脑子里充满了最近领导力静修会上的想法，却遭到团队的抵制。这种情况在企业界很常见，因为变革往往会引发我们大脑中根深蒂固的反应。神经科学表明，这种抵制不仅仅是固执，而是一种生存机制。我们的大脑通过坚持既定的惯例来节省能量，这使得变革在能量上代价高昂且令人紧张。负责情绪处理的杏仁核将变化解读为威胁，释放压力荷尔蒙，削弱判断力和学习能力。通过了解这些神经生物学反应，L&amp;D 专业人士可以设计出尽量减少阻力并促进持续学习和适应的计划。]]></description>
-      <guid>https://t.me/hn_summary/98720</guid>
-      <pubDate>Tue, 09 Jul 2024 07:36:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在上海世界人工智能大会上，商汤科技推出了其先进的人工智能模型Se [...]</title>
-      <link>https://t.me/hn_summary/98719</link>
-      <description><![CDATA[OpenAI 封锁中国访问，中国开发者争相加入
-在上海举行的世界人工智能大会上，商汤科技推出了其先进的人工智能模型 SenseNova 5.5，展示了与 OpenAI 的 GPT-4 相当的能力。随着 OpenAI 从 7 月 9 日起封锁中国对其服务的访问，商汤科技、百度、智普人工智能和腾讯云等中国人工智能公司正抓住机遇，提供免费代币和迁移服务来吸引前 OpenAI 用户。此举受到中美紧张局势加剧和半导体出口限制的推动，可能会加速中国人工智能公司的增长。然而，人们对公平获取人工智能技术以及价格战对创新的影响的担忧仍然存在。中国评论员认为 OpenAI 的退出是推动技术自力更生的举措。]]></description>
-      <guid>https://t.me/hn_summary/98719</guid>
-      <pubDate>Tue, 09 Jul 2024 06:39:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在迈克尔·西普瑟（Michael Sipser）的《计算理论导论》中，有一段令人难忘的文字 [...]</title>
-      <link>https://t.me/hn_summary/98718</link>
-      <description><![CDATA[理论计算机科学的僵尸误解
-在 Michael Sipser 的《计算理论导论》中，有一项令人难忘的练习，它询问函数 f 是否可计算，如果上帝存在，则为常数 1，如果上帝不存在，则为常数 0。答案是肯定的，因为两个常数函数都是可计算的。这说明可计算性适用于函数或无限序列，而不是单个问题或整数。同样，P 与 NP 问题是一个是非问题，不能是 NP 难问题。Busy Beaver 函数不可计算，但特定值（如 BB(6)）是可计算的。作者对这些概念的持续误解表示遗憾，并将其称为“理论计算机科学的僵尸误解”。]]></description>
-      <guid>https://t.me/hn_summary/98718</guid>
-      <pubDate>Tue, 09 Jul 2024 06:13:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 网站：www.theregister.com</title>
-      <link>https://t.me/hn_summary/98717</link>
-      <description><![CDATA[Coders&#39; Copilot 代码复制版权索赔对 GitHub、微软的诉讼失败
-标题：Coders&#39; Copilot 代码复制版权索赔对 GitHub、微软的诉讼失败
-网站：www.theregister.com
+到达 10,000 英尺后，我连接到飞机的 Wi-Fi，发现了一个漏洞：我可以通过我的飞行里程帐户访问互联网而无需付费。出于好奇，我开发了 PySkyWiFi，这是一个利用此漏洞提供免费互联网的工具。最初，我使用我的航空里程帐户中的姓名字段进行即时通讯，但很快将其扩展到获取股票价格和体育比分。最终，我创建了一个简化的 TCP/IP 协议，通过我的航空里程帐户发送 HTTP 请求。这种方法虽然缓慢且不切实际，但从技术上讲允许完全访问互联网。注意：这是一个概念证明，不建议实际使用。
 
-开发人员声称 GitHub Copilot 非法复制了他们的代码，但这一指控大部分已被驳回，在他们对 GitHub、微软和 OpenAI 的诉讼中只剩下两项指控。该集体诉讼于 2022 年 11 月提起，诉讼称，Copilot 接受过开源软件培训，未经适当授权就推荐代码片段，侵犯了知识产权。法官 Jon Tigar 驳回了大多数索赔，包括根据 DMCA 第 1202(b) 条提出的一项重要索赔，称 Copilot 生成的代码与原始代码不够相同。其余索赔涉及开源许可证违规和违约。双方都指责对方在发现过程中拖延和混淆。
+争议：利用航空公司 Wi-Fi 系统的漏洞可能被视为不道德或非法。
 
-争议：以偏见驳回 DMCA 索赔，以及在发现期间就文件制作的持续争议。]]></description>
-      <guid>https://t.me/hn_summary/98717</guid>
-      <pubDate>Tue, 09 Jul 2024 06:11:11 GMT</pubDate>
+独特/巧妙：使用航空里程帐户的姓名字段作为数据隧道是一种巧妙的解决方法。（基于 43% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/98751</guid>
+      <pubDate>Tue, 09 Jul 2024 12:16:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Orbit：Scheme 的优化编译器 (1986) [pdf](https://news.ycombinator.com/ite [...]</title>
+      <link>https://t.me/hn_summary/98750</link>
+      <description><![CDATA[Orbit：Scheme 的优化编译器 (1986) [pdf](https://news.ycombinator.com/item?id=40908348)
+“Orbit：Scheme 的优化编译器 (1986)”详细探讨了 Orbit 编译器，该编译器旨在提高 Scheme 编程语言的效率。该文档托管在 cpsc.yale.edu 上，深入探讨了使 Orbit 成为编译器技术重大进步的技术复杂性和创新。它强调了编译器优化代码的能力，从而提高了性能和资源管理。 Orbit 的一个独特之处是它使用了当时开创性的高级优化技术。内容技术性很强，面向具有计算机科学和编译器设计背景的读者。]]></description>
+      <guid>https://t.me/hn_summary/98750</guid>
+      <pubDate>Tue, 09 Jul 2024 11:46:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在 Protesilaos Stavrou 的网站上，题为“使用 e 为 Emacs 编写简单笔记”的文章 [...]</title>
+      <link>https://t.me/hn_summary/98749</link>
+      <description><![CDATA[具有高效文件命名方案的 Emacs 简单注释
+在 Protesilaos Stavrou 的网站上，题为“具有高效文件命名方案的 Emacs 简单注释”的文章提供了使用系统文件命名约定在 Emacs 中组织注释的指南。内容根据 GNU 自由文档许可证 (GFDL) 版本 1.3 获得许可，该版本确保文档可以自由使用、修改和分发。GFDL 强调维护文档自由的重要性，类似于自由软件，并包括复制、修改和分发文档的具体条款。值得注意的是，许可证规定任何衍生作品也必须是免费的，保留原意和对作者的荣誉。 GFDL 的版权性质确保所有修改和分发都遵守相同的自由，这可能会被那些喜欢更严格许可证的人视为有争议的。（基于 60% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/98749</guid>
+      <pubDate>Tue, 09 Jul 2024 11:29:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 研究人员发现，佛罗里达州市政垃圾填埋场的“打嗝”会释放出 [...]</title>
+      <link>https://t.me/hn_summary/98748</link>
+      <description><![CDATA[研究发现，一些垃圾填埋场的“打嗝”含有空气中的 PFAS
+研究人员发现，佛罗里达州市政垃圾填埋场的“打嗝”会向环境中释放高浓度的空气中的全氟和多氟烷基物质 (PFAS)，包括氟调聚醇。这些“永久化学物质”存在于各种消费品和商业垃圾中，例如儿童服装和化妆品，最终都会被填埋。这项发表在《环境科学与技术快报》上的研究表明，三个垃圾填埋场的空气中的 PFAS 水平出乎意料地高，一些氟调聚醇的含量比之前记录的要高出两个数量级。这一发现表明，通常未经处理就排放的垃圾填埋气可能是 PFAS 污染的重要途径，可能带来吸入风险和环境危害。研究人员建议，未来的缓解策略应考虑处理这些气体以减少接触。这项研究强调需要进一步研究当前垃圾填埋气处理在去除空气污染物方面的有效性。]]></description>
+      <guid>https://t.me/hn_summary/98748</guid>
+      <pubDate>Tue, 09 Jul 2024 11:28:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 标题：OneFileLinux：适合 ESP 的 20MB Alpine Metadistro</title>
+      <link>https://t.me/hn_summary/98747</link>
+      <description><![CDATA[OneFileLinux：适合 ESP 的 20MB Alpine 元发行版
+标题：OneFileLinux：适合 ESP 的 20MB Alpine 元发行版
+
+网站：hub.zhovner.com
+
+OneFileLinux 是一个紧凑的实时 Linux 发行版，打包成一个 ~20MB 的文件。它可以在任何 UEFI 计算机（PC 或 Mac）上运行，无需安装。只需将文件复制到 EFI 系统分区并启动即可。主要优点包括无需额外的分区、USB 驱动器或 GRUB 等启动管理器。它不会改变启动顺序，并且与 macOS FileVault 和 dm-crypt 等磁盘加密方法兼容。此设置对于需要在裸机上使用 Linux 但 USB 使用不切实际的情况特别有用。作者的个人目标是利用笔记本电脑的内部 PCIe WiFi 卡，使用 aircrack-ng 和 reaver 等工具进行 WiFi 破解，因为 PCIe 设备无法转发到虚拟机中。
+
+在 Macbook 上运行：
+1. 下载 OneFileLinux.efi。
+2. 挂载 EFI 系统分区。
+3. 将 OneFileLinux.efi 复制到 EFI 分区。
+4. 如果启用了 SIP，则在恢复模式下使用 bless 命令在 NVRAM 中设置启动选项。
+5. 重新启动以运行 OneFileLinux。
+
+在 PC 上运行：
+1. 将 OneFileLinux.efi 复制到 EFI 分区。
+2. 在 Linux 环境中使用 efibootmgr 添加 NVRAM 启动选项。
+
+从 USB 闪存运行：
+在 GPT 方案中将闪存驱动器格式化为 FAT32，并将 OneFileLinux.efi 复制到默认路径。
+
+构建您自己的：
+克隆存储库，进行更改，然后使用提供的脚本进行构建。
+
+争议点：
+使用 OneFileLinux 通过 aircrack-ng 和 reaver 进行 WiFi 破解可能会被视为有争议的，因为此类活动涉及道德和法律问题。]]></description>
+      <guid>https://t.me/hn_summary/98747</guid>
+      <pubDate>Tue, 09 Jul 2024 11:24:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
