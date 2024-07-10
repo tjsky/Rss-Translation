@@ -4,20 +4,62 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Subreddit 讨论 ChatGPT 和 AI。与 OpenAI 无关。谢谢 Nat！</description>
-    <lastBuildDate>Wed, 10 Jul 2024 01:00:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 03:16:03 GMT</lastBuildDate>
+    <item>
+      <title>实际上，是否可能在不使模型确定性的情况下消除幻觉？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1dzljj3/is_it_actually_possible_to_remove_hallucinations/</link>
+      <description><![CDATA[尝试在 OAI reddit 中询问此问题，但在一毫秒内就被过滤掉了，所以我想也许这里是更合适的地方。 从根本上说，至少据我所知，语言模型是确定性的，但我们使用温度来破坏概率分布。高温使所有可能单词的概率分布更加均匀，因此模型会选择更多随机单词，而这些单词在低温下不一定会随之而来。 我不是天才，但对我来说，幻觉显然就是从这里产生的。如果您用来解释想要表达的意思的单词分布是均匀的，即您接下来可以选择说的每个可能的单词都是正确的单词，无论它有多么不合理，那么您就会胡说八道，因为您无法正常说话。 问题是，如果您将温度降低到 0，它们会感觉像旧的 if:then 聊天机器人，具有脚本响应和 0 情感深度。 我不知道，这是否是 LLM 架构无法解决的？您能在消除随机性的同时保持由随机性创造的幻觉吗？这似乎是修辞。我能想到的解决这个问题的唯一方法是大幅扩展计算量，使更均匀的概率分布包含一组全部正确的单词。但我不知道。    提交人    /u/Pleasant-Contact-556   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzljj3/is_it_actually_possible_to_remove_hallucinations/</guid>
+      <pubDate>Wed, 10 Jul 2024 03:13:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>天哪。提示“以 Glenn Danzig 的声音。”有史以来最好的回应！</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1dzlfiu/omfg_prompt_in_the_voice_of_glenn_danzig_fųçķįņġ/</link>
+      <description><![CDATA[  由    /u/Won_smoothest_brain  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzlfiu/omfg_prompt_in_the_voice_of_glenn_danzig_fųçķįņġ/</guid>
+      <pubDate>Wed, 10 Jul 2024 03:07:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>ColorThief 颜色来自 Woocommerce 产品并使用 ChatGPT 设置为颜色属性</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1dzl2j0/colorthief_colors_from_woocommerce_products_and/</link>
+      <description><![CDATA[      https://preview.redd.it/1g2ggunfulbd1.png?width=859&amp;format=png&amp;auto=webp&amp;s=bd3ddc0c4dabd4dc594940026f7a8e71559a9a9a 这太恶心了，Ch​​atGPT 让我的生活变得如此轻松。经过大约 10 次迭代后，它现在将我的 woocommerce 产品分类为颜色属性。  调色板分析：使用调色板检测突出的颜色。 主色权重：根据颜色的出现确定颜色是主色还是次色。 分类：如果有两种以上的重要颜色，则仅归类为“多种”。  它根据预定的十六进制值列表进行排序，然后将产品放入最佳的附近值中。 我仍在对其进行调整以进行更接近的排序，但到目前为止，它排序的颜色属性非常接近，银色和灰色似乎权重太高，所以我会减少这种情况的发生。 我目前没有设置颜色属性，这就是它处理所有产品的原因。该脚本还将在导入新产品时运行。 感谢 chatgpt！    提交人    /u/Vibrascity   [link] [comments] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzl2j0/colorthief_colors_from_woocommerce_products_and/</guid>
+      <pubDate>Wed, 10 Jul 2024 02:49:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人尝试过创建一个稍微复杂的自定义 GPT 吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1dzl1ju/has_anyone_tried_to_create_a_mildly_complicated/</link>
+      <description><![CDATA[我的经验是，除了最笼统的要点外，它会忽略我说的所有内容。 我正在使用同一个 GPT 的第三次迭代，在最后两次迭代中，我写了一份关于它应该做什么的详细文档。我必须明确告诉它在每个提示上阅读该死的文档，因为如果我不这样做，它只会胡编乱造。一半的时间它都会创建最懒惰的版本。就像它毫无理由地从我的文档中删掉文本一样。 我真不敢相信它变得如此愚蠢。SMH，我为这个狗屎付钱了。如果这种情况继续下去，很快就会好起来的    提交人    /u/Raygun77   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzl1ju/has_anyone_tried_to_create_a_mildly_complicated/</guid>
+      <pubDate>Wed, 10 Jul 2024 02:47:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>NCFNM！Mizter Edd！Suno、Hedra、Luma 和 Resolve</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1dzjh0h/ncfnm_mizter_edd_suno_hedra_luma_and_resolve/</link>
+      <description><![CDATA[        由    /u/CodeRadDesign 提交   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzjh0h/ncfnm_mizter_edd_suno_hedra_luma_and_resolve/</guid>
+      <pubDate>Wed, 10 Jul 2024 01:28:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>获得正确统计答案的最佳方法</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1dzjaws/best_way_to_get_correct_statistic_answers/</link>
+      <description><![CDATA[您好，我通常使用 chat gtp 来帮助我澄清一些统计问题的方程式。它从来都不正确，甚至接近正确。我发现虽然它可以是一个有用的学习工具，但即使我将公式插入 chatgtp 4.0（并且我已经使用不同的数学插件完成了此操作），它仍然无法弄清楚。不仅如此，当我告诉机器人正确答案时，它不同意，拥有一个 24/7 的学习伙伴会很有帮助。老实说，这实际上让我感到压力很大，有什么解决办法吗？    提交人    /u/bob22334666788   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzjaws/best_way_to_get_correct_statistic_answers/</guid>
+      <pubDate>Wed, 10 Jul 2024 01:20:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>不处理吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1dzj36i/does_not_process/</link>
+      <description><![CDATA[您是否发现 ChatGPT 有时会崩溃。我一直在编写一些代码，而且大部分时间它都运行良好。但今晚我注意到它似乎变得越来越愚蠢。想知道是不是有人不小心拔掉了某些处理器的插头之类的。我还发现自己一直在通过 chatGPT 打字。    提交人    /u/RakesProgress   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzj36i/does_not_process/</guid>
+      <pubDate>Wed, 10 Jul 2024 01:09:54 GMT</pubDate>
+    </item>
     <item>
       <title>我做得对吗？</title>
       <link>https://www.reddit.com/r/ChatGPT/comments/1dzidgb/am_i_doing_it_right/</link>
       <description><![CDATA[  由    /u/Fibjit  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ChatGPT/comments/1dzidgb/am_i_doing_it_right/</guid>
       <pubDate>Wed, 10 Jul 2024 00:35:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>当响应太奇怪时，它会自行删除</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1dzicqa/when_the_response_is_too_weird_it_deletes_itself/</link>
-      <description><![CDATA[      我们都去奇怪的地方聊天，不要撒谎    提交人    /u/iDoWatEyeFkinWant   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzicqa/when_the_response_is_too_weird_it_deletes_itself/</guid>
-      <pubDate>Wed, 10 Jul 2024 00:34:51 GMT</pubDate>
     </item>
     <item>
       <title>我要求 ChatGPT 给 GPTZero 的开发人员写一封电子邮件（然后我把结果发给了他们）</title>
@@ -67,48 +109,6 @@
       <description><![CDATA[        提交人    /u/BasilButters   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/ChatGPT/comments/1dzg07k/new_cat_breeds_video/</guid>
       <pubDate>Tue, 09 Jul 2024 22:48:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个男人和他的狗</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1dzfywg/a_guy_and_his_dog/</link>
-      <description><![CDATA[      提示： 1995 年，一个人和他的狗在一座有白色栅栏的房子前特写镜头。自然光。  在第一代之后，我突出了狗的头部，并要求 dall-e 将其缩小。  https://preview.redd.it/4p84ug2lnkbd1.png?width=1024&amp;format=png&amp;auto=webp&amp;s=30dbbc85b5bb0971fb84a3e6a8770ea6e91b0d44    提交人    /u/Duncan_Smothers   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzfywg/a_guy_and_his_dog/</guid>
-      <pubDate>Tue, 09 Jul 2024 22:46:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>我笑了，然后我了解到......</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1dzfqje/i_laughed_and_then_i_learned/</link>
-      <description><![CDATA[        提交人    /u/MeHumanMeWant   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzfqje/i_laughed_and_then_i_learned/</guid>
-      <pubDate>Tue, 09 Jul 2024 22:36:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 ChatGPT 像 Apple Intelligence 一样改进文本</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1dzfj8g/use_chatgpt_to_improve_text_like_apple/</link>
-      <description><![CDATA[        提交人    /u/Gamora3728   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzfj8g/use_chatgpt_to_improve_text_like_apple/</guid>
-      <pubDate>Tue, 09 Jul 2024 22:28:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>他们需要制作一个 ChatGPT，让特朗普扮演贾巴，海莉扮演莱娅，斯莱西斯·克拉姆扮演罗杰·斯通</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1dzfg78/they_need_to_make_a_chatgpt_of_trump_as_jabba/</link>
-      <description><![CDATA[title    由   提交  /u/Asleep_Management900   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzfg78/they_need_to_make_a_chatgpt_of_trump_as_jabba/</guid>
-      <pubDate>Tue, 09 Jul 2024 22:24:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-4-Turbo 图像处理问题</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1dzfg15/gpt4turbo_image_processing_question/</link>
-      <description><![CDATA[有人知道当 GPT-4-Turbo 处理图像以进行文本提取时，如果文本恰好处于某个角度，它是否会自动去歪斜图像？我正在开发一种从图像中提取文本的工具，并使用 OpenCv 实现了去歪斜，但我想知道我是否真的需要这样做？在一些文本不是水平的角度图像测试中，它似乎能够识别和提取文本。当然，我还没有对未修改和去歪斜的图像进行足够数量的相互测试，无法明确地说是否有明显的改进。但我很好奇，是否有人知道在使用 GPT-4-Turbo 和 API 时在后端使用的确切图像预处理技术？    提交人    /u/MapleLeafKing   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzfg15/gpt4turbo_image_processing_question/</guid>
-      <pubDate>Tue, 09 Jul 2024 22:24:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>我没想到 Gemini 的第一句话是这样的，我猜他们闲暇时会看视觉小说，哈哈</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1dzfemt/i_didnt_expect_geminis_first_sentence_i_guess/</link>
-      <description><![CDATA[        提交人    /u/OutlandishnessRound7   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1dzfemt/i_didnt_expect_geminis_first_sentence_i_guess/</guid>
-      <pubDate>Tue, 09 Jul 2024 22:22:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
