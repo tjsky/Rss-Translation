@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 12 Jul 2024 03:17:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2024 06:19:51 GMT</lastBuildDate>
+    <item>
+      <title>人工智能编码助手为开源维护者和贡献者提供积分</title>
+      <link>https://www.reddit.com/r/opensource/comments/1e17nc7/ai_coding_assistant_credits_for_open_source/</link>
+      <description><![CDATA[  由    /u/creativefisher  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1e17nc7/ai_coding_assistant_credits_for_open_source/</guid>
+      <pubDate>Fri, 12 Jul 2024 03:29:45 GMT</pubDate>
+    </item>
     <item>
       <title>[线上活动] 围巾峰会，2024 年 7 月 16 日</title>
       <link>https://www.reddit.com/r/opensource/comments/1e0vxsw/online_event_scarf_summit_july_16th_2024/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[        由    /u/reps_up 提交   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1e0aw0o/openvino_ai_plugins_for_audacity_a_set_of/</guid>
       <pubDate>Wed, 10 Jul 2024 23:53:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个小型的可自托管的、以隐私为重点的网站分析工具</title>
-      <link>https://www.reddit.com/r/opensource/comments/1e08sim/i_made_a_tiny_selfhostable_privacyfocused_website/</link>
-      <description><![CDATA[大家好， 我想分享 Medama，它是一款注重隐私、轻量级且易于自托管的 Google Analytics 替代方案。 该项目提供单二进制设置，没有外部依赖项，例如设置单独的数据库。 与其他需要大型数据库（如 ClickHouse）的自托管解决方案不同（对于普通网站所有者来说，这可能有点过头了），Medama 可以在大多数小型网站上的 256MB VM 上有效运行。它使用以文件形式存储的嵌入式数据库（SQLite 和 DuckDB），使备份变得简单、直观和直接。 该项目的另一个重点是它能够使用 OpenAPI 规范作为 API 服务器无头运行。这使开发人员能够将 Medama 无缝集成到他们的个人或专业仪表板中。我为该项目选择了非限制性的 Apache 2.0 和 MIT 许可证，以鼓励针对各种用例进行修改和改编（我个人认为 AGPLv3 许可证不支持真正的开放开发）。 这个项目仍处于早期阶段，还有很多功能有待添加，但我希望得到一些早期的反馈，以帮助长期改善最终用户体验。 存储库：medama-io/medama 演示：demo.medama.io 文档：medama.io 感谢您查看这个项目！    提交人    /u/DeathlyLotus   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1e08sim/i_made_a_tiny_selfhostable_privacyfocused_website/</guid>
-      <pubDate>Wed, 10 Jul 2024 22:21:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
