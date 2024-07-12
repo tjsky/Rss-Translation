@@ -4,101 +4,95 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Fri, 12 Jul 2024 12:20:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2024 15:05:59 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 所以你想租用 NVIDIA H100 集群？</title>
-      <link>https://t.me/hn_summary/99261</link>
-      <description><![CDATA[所以你想租用 NVIDIA H100 集群？2024 年消费者指南
-由于 NVIDIA H100 备受追捧，您可能会将其视为一份独特的礼物。然而，消费者报告缺乏有关租用这些集群的详细指导。在为 Photoroom 的 ML 团队寻找 256 H100 集群后，我们优先考虑可靠性而不是成本。关键见解包括互连的重要性，Infiniband 在速度和稳定性方面优于以太网。我们还强调在承诺之前测试集群并考虑环境影响，因为 GPU 集群会显著增加二氧化碳排放量。最终，我们选择了 Genesis Cloud 作为其无二氧化碳水力发电的 Infiniband 集群。本指南旨在帮助您做出明智的决定，而无需认可任何特定提供商。]]></description>
-      <guid>https://t.me/hn_summary/99261</guid>
-      <pubDate>Fri, 12 Jul 2024 12:20:08 GMT</pubDate>
+      <title>[媒体] 本周，AWS 宣布 Graviton4 正式上市，并推出全新的 R8G 实例 [...]</title>
+      <link>https://t.me/hn_summary/99286</link>
+      <description><![CDATA[AWS Graviton4 基准测试证明可提供最佳 ARM 云服务器性能
+本周，AWS 宣布 Graviton4 将在新的 R8G 实例中全面上市，此前该实例于去年首次亮相。Graviton4 基于 Arm Neoverse-V2 内核构建，与 Graviton3 相比，性能显著提升。在基准测试中，Graviton4 可与 Intel Sapphire Rapids 相媲美，可与 AMD EPYC“Genoa”相媲美，展现了令人印象深刻的代际改进。新的 R8g 实例比之前的 R7g 实例性能提高了 30%。AWS 声称 Graviton4 可将 Web 应用程序性能提高 30%，将数据库性能提高 40%，并将 Java 软件性能提高 40% 以上。测试包括各种实例，但由于可用性问题，无法比较 Ampere Computing 的云 ARM64 处理器。每美元的性能也是根据按需小时费率进行评估的。]]></description>
+      <guid>https://t.me/hn_summary/99286</guid>
+      <pubDate>Fri, 12 Jul 2024 15:05:59 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] AT&T 确认发生重大数据泄露事件，影响到其“几乎所有”客户，[...]</title>
-      <link>https://t.me/hn_summary/99260</link>
-      <description><![CDATA[AT&amp;T 称，犯罪分子在数据泄露事件中窃取了“几乎所有”客户的电话记录
-AT&amp;T 已确认发生了一起重大数据泄露事件，影响了其“几乎所有”客户，涉及电话记录被盗，包括通话和文本元数据，但不包括通信内容。此次泄露事件影响了约 1.1 亿客户，还包括使用 AT&amp;T 网络的其他运营商的数据。该事件与云数据巨头 Snowflake 的入侵有关，由于客户未使用多因素身份验证，该公司多次遭遇入侵。AT&amp;T 正在与执法部门合作，至少有一名嫌疑人已被逮捕。这是 AT&amp;T 今年发生的第二起重大安全事件。]]></description>
-      <guid>https://t.me/hn_summary/99260</guid>
-      <pubDate>Fri, 12 Jul 2024 12:15:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 2024 年，综合监控工具 Checkly 旨在通过优化 com 来降低成本 [...]</title>
-      <link>https://t.me/hn_summary/99259</link>
-      <description><![CDATA[我们通过单个 Grafana 查询每月节省了 5,000 美元
-2024 年，综合监控工具 Checkly 旨在通过优化计算时间来降低成本。最初，他们的检查在 AWS ECS 容器上运行，但他们过渡到 Kubernetes 临时 pod，以实现更好的自动扩展和效率。然而，pod 启动时间变得至关重要，促使他们深入研究优化。他们首先使用模块化 AWS SDK v3 减小了容器映像大小，但启动时间仍然很长。通过添加日志行，他们发现多个 AWS SDK 版本导致了延迟。标准化这些版本将启动时间缩短了 300 毫秒，每月节省了 5,500 美元。这个故事强调了好奇心和简单的可观察性技术在发现隐藏效率方面的重要性。加入 Checkly 的 Slack 以获取有关进一步优化的更新。]]></description>
-      <guid>https://t.me/hn_summary/99259</guid>
-      <pubDate>Fri, 12 Jul 2024 12:09:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Legion Health 是一家开拓性的远程精神病学初创公司，由 Y Combinator 和顶级公司支持 [...]</title>
-      <link>https://t.me/hn_summary/99258</link>
-      <description><![CDATA[Legion Health (YC S21) 正在招聘技术产品营销主管
-Legion Health 是一家由 Y Combinator 和顶级投资者支持的开创性的远程精神病学初创公司，其使命是通过先进的人工智能和数据分析彻底改变心理健康护理。我们正在招聘技术产品营销主管来推动患者获取、临床医生招聘和产品改进。这个角色需要结合技术专长、战略思维和跨职能协作。职责包括设置 PostHog 等分析软件、领导增长实验以及增强患者体验。该职位的薪资范围为 80,000 至 160,000 美元，股权在 0.20% 至 1.00% 之间。加入我们在德克萨斯州奥斯汀或远程的团队，帮助改变数百万人的心理健康护理。]]></description>
-      <guid>https://t.me/hn_summary/99258</guid>
-      <pubDate>Fri, 12 Jul 2024 12:00:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>您可以通过在 URL 后附加 #page=X 轻松地深度链接到 PDF 中的特定页面，其中 X [...]</title>
-      <link>https://t.me/hn_summary/99257</link>
-      <description><![CDATA[您可以深度链接到特定的 PDF 页面
-您可以通过在 URL 后附加 #page=X 轻松深度链接到 PDF 中的特定页面，其中 X 是所需的页码。例如，链接到 Raspberry Pi Pico 入门指南的第 70 页如下所示：https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf#page=70。此功能的兼容性因浏览器和操作系统而异。它适用于 Firefox（Android 和 gLinux）、Chrome 126（gLinux）、Firefox 115（gLinux）、Safari（macOS 14.5）和 Edge 103（Windows 10），但不适用于 Safari（iOS）。 Safari iOS 上的不一致性可能会让一些用户感到惊讶。]]></description>
-      <guid>https://t.me/hn_summary/99257</guid>
-      <pubDate>Fri, 12 Jul 2024 11:56:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>在苹果生态系统中扎根二十年后，我发现转向 Linux 和 Android [...]</title>
-      <link>https://t.me/hn_summary/99256</link>
-      <description><![CDATA[在 Apple 工作二十年后，我仍使用 Linux 和 Android
-在 Apple 生态系统中扎根二十年后，我发现转向 Linux 和 Android 不仅可行，而且非常令人愉快。这并不是对 Apple 的批评；他们仍然制造出色的硬件和软件。然而，爱上新事物（如 Linux）比讨厌旧事物更能激励人心。我的 Omakub 项目体现了 Linux 如何超越 macOS 体验，尤其是对于那些职业生涯扎根于开源的人来说。Android 虽然并不完美，但提供了 Apple 所缺乏的真正开放性。定制（例如使用最小的 olauncher）改变了我的移动体验。这次转变让我对新软件和硬件有了新的认识，例如 Neovim、Framework 13 笔记本电脑和机械键盘。我分享这些并不是为了说服苹果爱好者，而是为了告诉那些对苹果不满的人，存在着可行、有吸引力的替代品。拥抱冒险并给它时间；你可能会以新的方式找到新家。]]></description>
-      <guid>https://t.me/hn_summary/99256</guid>
-      <pubDate>Fri, 12 Jul 2024 11:46:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 网站：arstechnica.com</title>
-      <link>https://t.me/hn_summary/99255</link>
-      <description><![CDATA[SpaceX 猎鹰 9 号火箭无与伦比的完美纪录终结了
-标题：SpaceX 猎鹰 9 号火箭无与伦比的完美纪录终结了
-网站：arstechnica.com
+      <title>[媒体] 网站：me.mashable.com</title>
+      <link>https://t.me/hn_summary/99285</link>
+      <description><![CDATA[欧盟称，X 上的蓝色检查现在很糟糕
+标题：欧盟称，X 上的蓝色检查现在很糟糕
+网站：me.mashable.com
 
-SpaceX 猎鹰 9 号火箭最近从加利福尼亚州范登堡太空部队基地发射时，上级发动机发生故障，这是自 2016 年以来 300 多次任务中首次出现故障。故障发生在火箭上级发动机试图重新点火时，导致在将 Starlink 卫星部署到危险的低轨道时。埃隆·马斯克证实了发动机的“快速计划外解体”（RUD），并指出原因正在调查中。这一事件可能会推迟 SpaceX 即将进行的飞行，包括两次载人飞行任务。尽管遭遇了这一挫折，猎鹰 9 号 Block 5 仍然是历史上最可靠的运载火箭之一，成功率高达 99.7%。调查结果将决定对 SpaceX 雄心勃勃的发射计划的影响。]]></description>
-      <guid>https://t.me/hn_summary/99255</guid>
-      <pubDate>Fri, 12 Jul 2024 11:34:34 GMT</pubDate>
+欧盟正在针对埃隆·马斯克在 X（前身为 Twitter）上改进的蓝色检查系统。欧盟专员蒂埃里·布雷顿在推特上表示，蓝色检查曾经是可信度的象征，但在马斯克的统治下，它现在欺骗了用户，违反了《数字服务法》（DSA）。此前，蓝色检查表示经过验证的专业知识或冒充风险很高。马斯克的付费验证模式优先回复付费账户，这导致了广泛的混乱和假冒问题。马斯克甚至允许用户隐藏他们的蓝色支票，并亲自支付了一些账户的验证费用。欧盟正在调查 X 未能打击非法内容和虚假信息，可能被处以高达全球营业额 6% 的罚款。有争议的是，马斯克威胁要将 X 从欧洲撤出，而支持者认为这侵犯了言论自由。]]></description>
+      <guid>https://t.me/hn_summary/99285</guid>
+      <pubDate>Fri, 12 Jul 2024 14:59:52 GMT</pubDate>
     </item>
     <item>
-      <title>欧盟指责伊隆马斯克的社交媒体平台X从事欺骗性活动[...]</title>
-      <link>https://t.me/hn_summary/99254</link>
-      <description><![CDATA[欧盟指责埃隆·马斯克的社交媒体平台 X 因蓝色“复选标记”而采取欺骗性做法
-欧盟指责埃隆·马斯克的社交媒体平台 X 在其蓝色“复选标记”验证系统方面采取欺骗性做法。争议的焦点是指控 X 误导用户了解蓝色复选标记的性质和意义，这些标记旨在表示已验证的账户。欧盟的批评凸显了人们对该平台透明度和用户信任的担忧。鉴于马斯克的高调领导力和该平台的重大影响力，这个问题尤其令人惊讶。欧盟的立场凸显了对社交媒体巨头及其在数字实践中的责任的持续审查。]]></description>
-      <guid>https://t.me/hn_summary/99254</guid>
-      <pubDate>Fri, 12 Jul 2024 11:11:23 GMT</pubDate>
+      <title>[媒体] 摩羯一号——1978 年的假火星任务</title>
+      <link>https://t.me/hn_summary/99284</link>
+      <description><![CDATA[摩羯一号——1978 年的假火星任务
+1978 年 6 月 2 日上映的《摩羯一号》之所以大获成功，很大程度上是因为华纳兄弟备受期待的夏季大片《超人》的延期。这一意外的转变让《摩羯一号》获得了巨大的营销推动力和黄金影院的预订量。这部电影围绕着一个假火星任务展开，在后托拉斯时代引起了观众的共鸣，这个时代以越南战争、水门事件和肯尼迪遇刺事件的潜在阴谋曝光为标志。然而，并不是每个人都是它的粉丝。巴兹·奥尔德林是第二位踏上月球的人，他批评这部电影与阿波罗任务相似，担心这可能会助长登月阴谋论。尽管奥尔德林的评论很轻松，但他以不容忍阴谋论而闻名，2002 年他曾殴打过一位阴谋论者。]]></description>
+      <guid>https://t.me/hn_summary/99284</guid>
+      <pubDate>Fri, 12 Jul 2024 14:54:45 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Deno 1.45 引入了重大增强，特别是增加了工作区支持 [...]</title>
-      <link>https://t.me/hn_summary/99253</link>
-      <description><![CDATA[Deno 1.45：工作区和 Monorepo 支持
-Deno 1.45 引入了重大增强功能，尤其是增加了工作区支持，通过简化依赖项管理和配置共享，简化了 monorepos 的管理。此更新还提高了 Node.js 兼容性，改进了 deno install 命令以与 npm 工作流程更加一致，并引入了 deno init --lib 命令以更轻松地设置库。deno vendor 命令已弃用，取而代之的是 --vendor 标志。此外，--frozen 标志可确保锁定文件的完整性，这对于 CI 管道至关重要。Deno 现在支持 npm 生命周期脚本并增强了测试文件发现。值得注意的是，deno compile 中的 --env 标志允许将环境变量嵌入二进制文件，但建议谨慎使用，因为可以从二进制文件中读取这些变量。
-
-有争议：对于习惯于旧方法的用户来说，弃用 deno vendor 可能会引起争议。
-
-独特/巧妙：npm 和 Deno 工作区的无缝集成允许混合使用，这是一个非常巧妙的功能。（基于 77% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/99253</guid>
-      <pubDate>Fri, 12 Jul 2024 10:57:15 GMT</pubDate>
+      <title>[媒体] Artyom Bologov 的博客文章“我想要回我的滚动条”，对可靠性的丧失表示遗憾 [...]</title>
+      <link>https://t.me/hn_summary/99283</link>
+      <description><![CDATA[我想要回滚动条
+Artyom Bologov 的博客文章“我想要回滚动条”哀叹可靠的滚动条作为衡量在线内容长度的工具的消失。作为一个注意力和时间有限的狂热读者，Artyom 依靠滚动条来判断一篇文章是快速阅读还是长篇文章。然而，通过 JavaScript 动态加载内容的兴起使得滚动条具有误导性，破坏了他的阅读体验。Artyom 敦促内容创建者使用静态页面、积极加载内容、对大文本进行分页，或者提供“阅读分钟数”等替代长度指示器来恢复滚动条的实用性。]]></description>
+      <guid>https://t.me/hn_summary/99283</guid>
+      <pubDate>Fri, 12 Jul 2024 14:53:41 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：www.ultratechnology.com</title>
-      <link>https://t.me/hn_summary/99252</link>
-      <description><![CDATA[查尔斯·摩尔的 Forth 方法论
-标题：查尔斯·摩尔的 Forth 方法论
-网站：www.ultratechnology.com
+      <title>[媒体] 伦敦帝国理工学院的一项研究使用了来自英国 26,000 多名个人的数据 [...]</title>
+      <link>https://t.me/hn_summary/99282</link>
+      <description><![CDATA[“夜猫子”与思维敏锐有关
+伦敦帝国理工学院的一项研究利用了英国生物库中超过 26,000 名个体的数据，结果显示“夜猫子”——那些喜欢在晚上活动的人——在认知测试中的表现通常比“早起鸟”更好。这项由 Raha West 博士领导的研究发现，大脑功能的最佳睡眠时间为 7-9 小时，较短和较长的睡眠时间都会对认知能力产生负面影响。有趣的是，晚睡型得分明显高于早睡型，中度睡眠者的表现也更好。该研究调整了各种健康和生活方式因素，强调虽然自然的睡眠倾向很重要，但保持平衡的睡眠时间对认知健康至关重要。研究结果表明，可以采取潜在的政策干预措施来改善普通人群的睡眠模式。]]></description>
+      <guid>https://t.me/hn_summary/99282</guid>
+      <pubDate>Fri, 12 Jul 2024 14:37:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 当然，我可以帮忙。</title>
+      <link>https://t.me/hn_summary/99281</link>
+      <description><![CDATA[WildGaussians：野外 3D 高斯溅射
+当然，我可以帮忙。请提供 arxiv.org 上标题为“WildGaussians：野外 3D 高斯溅射”的页面内容。]]></description>
+      <guid>https://t.me/hn_summary/99281</guid>
+      <pubDate>Fri, 12 Jul 2024 14:33:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>网站：silogy-io.github.io</title>
+      <link>https://t.me/hn_summary/99280</link>
+      <description><![CDATA[Show HN：我们为芯片开发人员开源了我们的测试运行器
+标题：Show HN：我们为芯片开发人员开源了我们的测试运行器
+网站：silogy-io.github.io
 
-摘要：
-查尔斯·摩尔开发的 Forth 方法论是一种系统化的编程方法，强调迭代改进和解决问题。它首先识别并拒绝无用的想法和不成问题的东西，然后探索非常规解决方案以改进算法。该方法论涉及构建和优化解决方案，不断重新审视和改进它们，直到它们“设计正确”。只有在彻底理解问题之后才能着手编码，因此编码是一项简单的任务。文档也经过简化以防止出现错误。几十年来，Moore 将这种方法应用于软件和硬件，声称它解决了编程问题，并强调迭代学习和优化。Jeff Fox 钦佩 Moore 承认错误的意愿，并鼓励其他人采取“向上阶梯”的方法以获得更好的结果。
+我们很高兴地宣布，我们已经开源了专为芯片开发人员设计的测试运行器。我们的工具允许通过迭代各种分支大小并使用 Zig 编译本地微基准来对定向分支历史进行全面的基准测试。测试运行器最多支持 1024 个分支和 10,000 次迭代，确保强大的性能分析。每个基准测试都经过精心分析，捕获了必要的元数据，例如观察到的分支数量和历史大小。这项开源计划旨在为芯片开发社区提供强大的资源，以优化和验证他们的设计。]]></description>
+      <guid>https://t.me/hn_summary/99280</guid>
+      <pubDate>Fri, 12 Jul 2024 14:27:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>网站：news.mit.edu</title>
+      <link>https://t.me/hn_summary/99279</link>
+      <description><![CDATA[大型语言模型的推理能力经常被高估
+标题：大型语言模型的推理能力经常被高估
+网站：news.mit.edu
 
-争议：Moore 声称编程问题已经解决，剩下的问题是硬件，这可能会被视为有争议的。
-
-独特/聪明：该方法强调拒绝传统智慧并重新开始以获得更深入的理解，这是一种独特的解决问题的方法。]]></description>
-      <guid>https://t.me/hn_summary/99252</guid>
-      <pubDate>Fri, 12 Jul 2024 10:14:58 GMT</pubDate>
+麻省理工学院 CSAIL 的研究人员发现，GPT-4 和 Claude 等大型语言模型 (LLM) 的推理能力经常被高估。通过比较“默认任务”和“反事实场景”，他们发现这些模型在熟悉的任务中表现出色，但在陌生的任务中却表现不佳。例如，虽然模型在十进制算术中表现良好，但它们在其他数字进制中的表现却下降了，这表明缺乏可推广的加法技能。这种模式延伸到音乐和弦指法、空间推理和国际象棋等任务。该研究表明，模型的成功很大程度上归功于记忆，而不是真正的推理。这一见解对于提高未来法学硕士的适应性和稳健性至关重要。然而，这项研究有局限性，因为它侧重于特定的任务和设置，突出了对更多样化测试环境的需求。这项研究得到了麻省理工学院-IBM Watson AI 实验室、麻省理工学院智能探索项目和美国国家科学基金会的支持，并在 NAACL 会议上进行了展示。]]></description>
+      <guid>https://t.me/hn_summary/99279</guid>
+      <pubDate>Fri, 12 Jul 2024 14:25:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 千禧年似乎是生命科学的黄金时代，以 H [...] 为标志。</title>
+      <link>https://t.me/hn_summary/99278</link>
+      <description><![CDATA[我们需要新的隐喻，将生命置于生物学的中心
+千禧年的到来似乎是生命科学的黄金时代，人类基因组计划 (HGP) 承诺为生命的基础带来革命性的见解。然而，尽管基因组测序取得了实际进展，但预期的大量新疗法和个性化医疗并未实现。文章认为，HGP 将 DNA 视为“生命的秘密”是错误的。最近的发现表明，RNA 而不是 DNA 是“细胞的计算引擎”，基因调控比以前想象的要复杂得多。这种复杂性表明，生物学需要新的隐喻和叙述，以便更好地理解和传达这些发现。大多数人类基因并不编码蛋白质而是编码调节性 RNA，这一令人惊讶的发现挑战了人们长期以来的信念，并强调了生物科学范式转变的必要性。（基于 53% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/99278</guid>
+      <pubDate>Fri, 12 Jul 2024 14:17:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>四月下旬，萨斯喀彻温省的农民在准备收割庄稼时发现了航天器碎片 [...]</title>
+      <link>https://t.me/hn_summary/99277</link>
+      <description><![CDATA[SpaceX 碎片坠落加拿大农田，凸显潜在灾难
+4 月下旬，萨斯喀彻温省的农民在准备田地时发现了航天器碎片，凸显了坠落太空碎片的迫在眉睫的危险。碎片来自 SpaceX 龙飞船的货舱，该货舱在被遗弃在轨道上后重新进入加拿大上空的大气层。与联邦航空管理局声称此类货舱通常在重返大气层时“烧毁”的说法相反，北卡罗来纳州和澳大利亚也发生过类似事件，碎片构成了重大风险。1972 年《责任公约》和 1967 年《外层空间条约》要求各国对太空物体损坏负责，但私人公民和太空公司之间的互动仍然很复杂。需要立即采取行动来规范不受控制的重返大气层并防止潜在的灾难。]]></description>
+      <guid>https://t.me/hn_summary/99277</guid>
+      <pubDate>Fri, 12 Jul 2024 14:16:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
