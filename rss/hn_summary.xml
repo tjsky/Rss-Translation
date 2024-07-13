@@ -4,106 +4,93 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Sat, 13 Jul 2024 12:15:25 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jul 2024 15:11:29 GMT</lastBuildDate>
     <item>
-      <title>拉斯维加斯最近打破了其历史最高温度记录，达到了 120 华氏度，这个温度对于人们来说已经很熟悉了 [...]</title>
-      <link>https://t.me/hn_summary/99450</link>
-      <description><![CDATA[如何在没有空调的情况下在极端高温下保持凉爽
-拉斯维加斯最近创下了 120 华氏度的历史最高纪录，这个温度对于印度北方邦的人来说很熟悉，在那里空调是少数人能负担得起的奢侈品。随着全球气温上升，人们正在寻找在没有空调的情况下保持凉爽的方法。根据我在印度的童年经历，我提供了一些实用的建议：喝 aam ka pana 和 lassi 等补水饮料，吃富含电解质的食物，洗冷水澡，在家里寻找凉爽的地方。jaali 屏风和沼泽冷却器等建筑技巧也可以提供帮助。穿轻便、透气的衣服，遮住头部，避开正午的阳光，拥抱阴凉处。通过 goatsandsoda@npr.org 与我们分享您的防暑妙招。 
-
-西雅图高温研究员 Gulrez Shah Azhar 博士强调了这些策略在对抗极端高温方面的重要性。]]></description>
-      <guid>https://t.me/hn_summary/99450</guid>
-      <pubDate>Sat, 13 Jul 2024 12:15:25 GMT</pubDate>
+      <title>[媒体] 英特尔第 13 代和第 14 代高端 CPU 存在问题，尤其是 Core i [...]</title>
+      <link>https://t.me/hn_summary/99470</link>
+      <description><![CDATA[英特尔酷睿 i9 CPU 崩溃问题看起来比我们想象的更严重
+英特尔第 13 代和第 14 代高端 CPU（尤其是酷睿 i9 型号（13900K 和 14900K））的问题比最初想象的更严重。Level1Techs 的 YouTube 视频显示，这些处理器的崩溃率很高，尤其是在游戏中执行解压任务时。游戏开发商崩溃日志的数据显示，90% 的错误涉及 13900K 或 14900K CPU。令人惊讶的是，即使在稳定的 W680 主板中使用这些 CPU 的数据中心也面临类似的问题，导致更高的支持成本和芯片更换。这种情况给英特尔造成了严重的声誉损害，人们担心这可能会影响其下一代 Arrow Lake CPU 的接受度。英特尔尚未提供明确的解决方案，而且问题似乎会随着时间的推移而恶化，引起消费者和开发者的担忧。]]></description>
+      <guid>https://t.me/hn_summary/99470</guid>
+      <pubDate>Sat, 13 Jul 2024 15:11:29 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：www.jeffquast.com</title>
-      <link>https://t.me/hn_summary/99449</link>
-      <description><![CDATA[HAMURABI.BAS 及其反乌托邦教训
-标题：HAMURABI.BAS 及其反乌托邦教训
-网站：www.jeffquast.com
-
-这不是财务或政治建议
-
-HAMURABI.BAS 出现在 David H. Ahl 1973 年出版的《基础电脑游戏》一书中，是我玩过的第一批电脑游戏之一。最近，我在一台 Apple 1 复制品上重新玩了这款游戏，将它移植到 Python 上，并创建了一个“自动玩家”来探索获胜策略。令人惊讶的是，这些策略揭示的金融和政治教训似乎与游戏对六年级学生的教育意图背道而驰。
-
-这款游戏是一种早期的城市建设游戏，涉及在 10 个回合内管理资源。关键策略包括尽量减少粮食储存以避免鼠患、将剩余粮食投资于土地以及利用瘟疫通过减少人口来增加财富。值得注意的是，少量的饥饿可能是有益的，最后一轮的行动应该优先考虑土地而不是食物。
-
-有争议的是，这款游戏表明生物武器和控制饥饿可以增加财富，而且领导者只会根据他们的直接行动而不是长期后果来评判。这些见解虽然可能不是原作者的本意，但却为金融和政治体系提供了独特的视角。]]></description>
-      <guid>https://t.me/hn_summary/99449</guid>
-      <pubDate>Sat, 13 Jul 2024 12:15:22 GMT</pubDate>
+      <title>Disruptor-rs 是一个专为低延迟线程间通信而设计的 Rust 库，灵感来自 [...]</title>
+      <link>https://t.me/hn_summary/99469</link>
+      <description><![CDATA[Disruptor-rs：比 crossbeam 具有更好的延迟和吞吐量
+Disruptor-rs 是一个 Rust 库，专为低延迟线程间通信而设计，灵感来自 LMAX Disruptor 库。它旨在提供比 Crossbeam 更好的延迟和吞吐量，尤其是在批量事件发布场景中表现出色。该库支持各种配置，包括单生产者单消费者 (SPSC)、多生产者单消费者 (MPSC) 和具有消费者相互依赖性的多生产者多消费者 (MPMC)。主要功能包括忙旋转等待策略、线程亲和性和批处理。基准测试表明，与 Crossbeam 相比，性能有显著提升，尤其是在突发场景中。Disruptor-rs 的独特之处在于它支持来自不同线程的多个生产者，这是 Turbine 和 Disrustor 等类似库所没有的功能。]]></description>
+      <guid>https://t.me/hn_summary/99469</guid>
+      <pubDate>Sat, 13 Jul 2024 15:00:22 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 德国已决定逐步淘汰华为和中兴通讯的设备，不再使用其 5G 网络，原因是 [...]</title>
-      <link>https://t.me/hn_summary/99448</link>
-      <description><![CDATA[德国因担心“破坏和间谍活动”而移除华为 5G 设备
-出于网络安全方面的考虑，德国决定逐步从其 5G 网络中淘汰华为和中兴的设备。政府与德国电信、沃达丰和西班牙电信等主要电信公司达成协议，将分两个阶段移除华为和中兴的组件：2026 年底前移除核心网络设备，2029 年底前移除外围硬件。内政部长南希·费瑟强调，有必要保护德国关键基础设施免受“破坏和间谍活动”的侵害，并减少对单一供应商的依赖。此举是在美国和英国等盟友的压力下采取的，这些盟友已经出于类似的担忧禁止了华为。华为否认了这些指控，而北京方面则谴责了这一决定，并警告称这将损害中欧科技合作。这一逐步淘汰举措加剧了德国和中国之间日益加剧的经济紧张局势，鉴于两国紧密的贸易关系，可能会产生重大的经济影响。]]></description>
-      <guid>https://t.me/hn_summary/99448</guid>
-      <pubDate>Sat, 13 Jul 2024 12:06:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 网站：genomic.social</title>
-      <link>https://t.me/hn_summary/99447</link>
-      <description><![CDATA[不要使用 Excel 进行数据分析
-标题：不要使用 Excel 进行数据分析
-网站：genomic.social
+      <title>[媒体] 标题：X 已将其旧金山总部的大部分空间转租</title>
+      <link>https://t.me/hn_summary/99468</link>
+      <description><![CDATA[X 已将其旧金山总部的大部分空间转租
+标题：X 已将其旧金山总部的大部分空间转租
 
-Excel 是一种广泛使用的工具，但它不适合数据分析，尤其是在基因组学领域。它的局限性包括缺乏可重复性、难以处理大型数据集以及易受人为错误的影响。相反，请考虑使用 R 或 Python 等专业软件，它们提供更好的数据处理、可视化和统计分析功能。这些工具还支持可重复性和可扩展性，这对科学研究至关重要。虽然 Excel 可能对于简单的任务很方便，但依赖它进行复杂的数据分析可能会导致严重的问题和不准确性。]]></description>
-      <guid>https://t.me/hn_summary/99447</guid>
-      <pubDate>Sat, 13 Jul 2024 12:05:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] LLM 非常适合编码，因为您的文档是......</title>
-      <link>https://t.me/hn_summary/99446</link>
-      <description><![CDATA[LLM 非常适合编码，因为您的文档是...
-大型语言模型 (LLM) 擅长编码，因为它们可以有效地解析和处理文本（包括编程文档），以提供有用的输出。例如，当被问及如何在 Python 中添加两个数字时，LLM 可以筛选 Python 文档并提供直接的答案，而不像通常复杂的官方文档。这凸显了一个常见的挫折：糟糕的文档。许多程序员发现自己迷失在复杂、无用的文档中，导致他们依赖 StackOverflow 等平台。虽然 LLM 偶尔会出错并消耗大量电力，但它们无限的耐心和处理重复查询的能力使它们变得无价，尤其是考虑到人类对编写和测试文档的厌恶。]]></description>
-      <guid>https://t.me/hn_summary/99446</guid>
-      <pubDate>Sat, 13 Jul 2024 12:03:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Substack（YC W18）正在寻找经验丰富的机器学习工程师加入其动态 [...]</title>
-      <link>https://t.me/hn_summary/99445</link>
-      <description><![CDATA[Substack (YC W18) 正在招聘机器学习工程师
-Substack (YC W18) 正在寻找经验丰富的机器学习工程师加入其充满活力的团队。在这个职位上，您将在开发和集成高级 ML 解决方案以增强 Substack 的产品供应方面发挥关键作用。您将与软件工程师和数据科学家合作，将 ML 模型引入代码库并确保无缝集成。该职位提供有竞争力的薪水，从 185,000 美元到 240,000 美元不等，还有股权和优厚福利。理想的候选人将拥有超过 7 年的相关经验、强大的 Python 技能以及对 ML 算法的深刻理解。Substack 重视独立性、高标准和协作。精通 Node.js、JavaScript 和熟悉云平台的人是有利的。 Substack 致力于提供平等就业机会，并寻求对转型媒体和内容创作充满热情的个人。]]></description>
-      <guid>https://t.me/hn_summary/99445</guid>
-      <pubDate>Sat, 13 Jul 2024 12:02:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 今天早些时候，斯蒂芬·约翰逊分享了“标准误差”的迷人起源 [...]</title>
-      <link>https://t.me/hn_summary/99444</link>
-      <description><![CDATA[标准误差的诞生 (2013)
+网站：www.sfexaminer.com
 
-今天早些时候，斯蒂芬·约翰逊在 Unix 遗产协会运营的邮件列表中分享了“标准误差”概念的迷人起源。这一概念，即程序的错误输出被发送到与其正常输出不同的通道，在过去四十年中已被主要操作系统和语言库普遍采用。
-
-
-故事始于贝尔实验室在 20 世纪 70 年代使用的 C/A/T 照排机。这台笨重的机器需要一个涉及化学浴的复杂开发过程。贝尔实验室绕过了纸带输入，将照排机直接连接到 PDP-11，这让制造商感到惊讶。有趣的是，第一份照相排版手稿让一位期刊编辑感到困惑，他以为它之前已经发表过。
-
-标准错误概念诞生于一个令人沮丧但又幽默的事件，在开发论文后出现了“无法打开文件 foobar”等精美排版的错误消息。团队的抱怨导致在几天内创建了标准错误文件。]]></description>
-      <guid>https://t.me/hn_summary/99444</guid>
-      <pubDate>Sat, 13 Jul 2024 11:37:50 GMT</pubDate>
+出人意料的是，X 决定转租其旧金山总部的大部分空间。这一决定是在 COVID-19 疫情和向远程办公转变之后，公司重新评估办公空间需求的广泛趋势下做出的。转租包括市中心几层黄金办公空间。这一发展引发了人们对传统办公环境的未来以及远程工作对城市商业房地产市场的长期影响的质疑。鉴于 X 之前承诺在旧金山保持重要的实体存在，其这一决定尤其引人注目。]]></description>
+      <guid>https://t.me/hn_summary/99468</guid>
+      <pubDate>Sat, 13 Jul 2024 14:57:18 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 周二，OpenAI 和 Google DeepMind 的前员工发表了一封公开信，信中提到 [...]</title>
-      <link>https://t.me/hn_summary/99443</link>
-      <description><![CDATA[前 OpenAI 员工呼吁“有权警告”人工智能风险而不遭到报复
-周二，OpenAI 和 Google DeepMind 的前员工发表了一封公开信，敦促人工智能公司采取保护对人工智能风险表示担忧的员工免受报复的原则。这封信的标题是“有权警告高级人工智能”，有 13 位签名者，其中一些人因害怕受到报复而匿名。他们认为，人工智能虽然有益，但也带来了严重的风险，例如加剧不平等和可能导致人类灭绝。这封信呼吁人工智能公司允许批评而不遭到报复，支持匿名举报，并培养公开批评的文化。此前，OpenAI 的限制性保密协议遭到批评，该公司后来修改了该协议。玛格丽特·米切尔博士强调了举报人所遭受的心理伤害以及个人和公司之间的权力不平衡。这封信得到了 Yoshua Bengio 和 Geoffrey Hinton 等人工智能专家的支持，尽管 Meta 的 Yann LeCun 等一些人对存在风险的说法提出质疑。米切尔强调需要进行法律改革以保护工人。]]></description>
-      <guid>https://t.me/hn_summary/99443</guid>
-      <pubDate>Sat, 13 Jul 2024 10:55:34 GMT</pubDate>
+      <title>[媒体] 关于先天与后天的古老争论随着新的形势而发生了重大转变 [...]</title>
+      <link>https://t.me/hn_summary/99467</link>
+      <description><![CDATA[开创性研究揭示了遗传因素对智商得分的影响
+《性格与个体差异》杂志发表的一项新研究，使关于先天与后天的古老争论发生了重大转变。这项由 Nancy L. Segal 领导的开创性纵向研究考察了分开抚养的年轻同卵双胞胎，并揭示了遗传因素对个体年龄增长的智商影响越来越大。该研究涉及三组：因中国独生子女政策而分开抚养的年轻中国双胞胎、分开抚养的丹麦成年双胞胎和“虚拟双胞胎”——年龄相同、无血缘关系但一起长大的兄弟姐妹。研究结果表明，分开长大的双胞胎的智商相似度会随着时间的推移而增加，这凸显了遗传因素的重要性日益增加，而虚拟双胞胎的智商相似度则有所下降，这凸显了共同环境的影响正在减弱。尽管样本量很小，但这些结果为先天与后天之争提供了令人信服的见解。]]></description>
+      <guid>https://t.me/hn_summary/99467</guid>
+      <pubDate>Sat, 13 Jul 2024 14:56:14 GMT</pubDate>
     </item>
     <item>
-      <title>2023 年，随着 Twitter 在伊隆·马斯克的领导下步履蹒跚，许多用户开始寻求替代性的庇护 [...]</title>
-      <link>https://t.me/hn_summary/99442</link>
-      <description><![CDATA[Threads 不欢迎 LGBT 和边缘化的声音
-随着 Twitter 在 2023 年在埃隆·马斯克的领导下步履蹒跚，许多用户在 Mastodon 和 Meta 的 Threads 等替代平台上寻求庇护。最初，Threads 看起来很有希望，尤其是对于那些对 Twitter 感到失望的人来说。然而，对于像我这样的 LGBT 活动家来说，这个平台很快就变得充满敌意。许多人感到被暗中禁止，尽管有报道，但仇恨言论（包括恐同和恐跨性别内容）仍在激增。Meta 模糊的审核政策和有争议的“政治内容控制”功能进一步压制了边缘化的声音。值得注意的是，流行的法国 LGBT+ 账户 Le Coin des LGBT+ 被暂停，凸显了 Meta 不一致且不透明的审核。 GLAAD 的报告强调了这些问题，揭示了 Meta 未能遏制其平台上的有害内容。（基于 84% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/99442</guid>
-      <pubDate>Sat, 13 Jul 2024 10:41:27 GMT</pubDate>
+      <title>[媒体] Mozilla 基金会令人惊讶地与其社区脱节，并且更紧密地联系在一起 [...]</title>
+      <link>https://t.me/hn_summary/99466</link>
+      <description><![CDATA[Mozilla 基金会没有成员
+Mozilla 基金会与社区的联系出人意料地脱节，仔细研究其章程就会发现原因。根据“Mozilla 基金会章程”，该组织在第二条第 2.1 节中明确规定“不得有成员”。这意味着基金会不是以社区为基础的，而是由其董事会单独管理，如第三条第 3.1 节所述。该董事会不是由贡献者或社区选举产生的，导致定期贡献者在决策过程中缺乏发言权。这种设置与其他更以社区为主导的互联网激进主义组织形成了鲜明对比。真恶心。]]></description>
+      <guid>https://t.me/hn_summary/99466</guid>
+      <pubDate>Sat, 13 Jul 2024 14:55:10 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] gpu.cpp 项目是一个轻量级的 C++ 库，旨在简化便携式 GPU 的通信 [...]</title>
-      <link>https://t.me/hn_summary/99441</link>
-      <description><![CDATA[gpu.cpp：用于可移植低级 GPU 计算的轻量级库
-gpu.cpp 项目是一个轻量级 C++ 库，旨在利用 WebGPU 规范简化跨各种硬件平台的可移植 GPU 计算。它旨在提供最小的 API 表面积来满足广泛的 GPU 计算需求，确保快速的编译/运行周期和最小的依赖性，只需要一个标准的 C++ 编译器。该库支持 Nvidia、Intel、AMD GPU，并可在支持 Vulkan、Metal 或 DirectX 的设备上运行。gpu.cpp 通过其较小的实现大小（约 1000 行代码）和预构建的 Dawn WebGPU 实现脱颖而出，有助于快速进行实验和降低维护成本。它包括矩阵乘法和物理模拟等示例来展示其功能。 （根据 71% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/99441</guid>
-      <pubDate>Sat, 13 Jul 2024 10:32:21 GMT</pubDate>
+      <title>[媒体] Wretch 是一个轻量级（~2KB g-zip）的 Fetch API 包装器，旨在简化 [...]</title>
+      <link>https://t.me/hn_summary/99465</link>
+      <description><![CDATA[Wretch：一个围绕 fetch 构建的小型包装器，具有直观的语法
+Wretch 是一个轻量级（~2KB g-zip 压缩）的 Fetch API 包装器，旨在通过直观的语法简化网络请求。它解决了 Fetch 的常见问题，例如需要多个回调来处理响应和手动错误处理。Wretch 提供了一个精简的 API，可以处理错误、标头和（反）序列化，并且是不可变的，这意味着每次调用都会创建一个可重复使用的克隆实例。它支持现代浏览器、Node.js 14+ 和 Deno，并使用 TypeScript 编写以确保类型安全。差异化因素包括其体积小、具有附加组件和中间件的模块化以及全面的错误处理方法。安装非常简单，只需通过 npm 或脚本标签即可。 （根据 30% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/99465</guid>
+      <pubDate>Sat, 13 Jul 2024 14:48:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 题为“探索针对 Linux S 的纯数据攻击的新型文件系统对象”的论文 [...]</title>
+      <link>https://t.me/hn_summary/99464</link>
+      <description><![CDATA[探索针对 Linux 系统进行纯数据攻击的新型文件系统对象
+这篇题为“探索针对 Linux 系统进行纯数据攻击的新型文件系统对象”的论文深入探讨了针对 Linux 文件系统执行纯数据攻击的创新方法。作者研究了可以利用来破坏系统完整性而无需执行代码的非常规文件系统对象。这项研究强调了 Linux 系统中经常被忽视的潜在漏洞，强调了加强安全措施的必要性。这项研究的一个令人惊讶的方面是将以前未考虑的文件系统对象识别为攻击媒介，这可能会彻底改变 Linux 系统安全的方法。本文呼吁立即关注这些漏洞，以防止将来被利用。]]></description>
+      <guid>https://t.me/hn_summary/99464</guid>
+      <pubDate>Sat, 13 Jul 2024 14:39:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>网站：www.theguardian.com</title>
+      <link>https://t.me/hn_summary/99463</link>
+      <description><![CDATA[“新常态”：美国数据显示，在家办公将成为常态
+标题：“新常态”：美国数据显示，在家办公将成为常态
+网站：www.theguardian.com
+
+根据美国劳工统计局的最新数据，远程办公已从疫情期间的必需品转变为美国工作文化中的永久固定装置。美国时间使用调查显示，2023 年从事远程工作的就业人员比例与 2022 年保持一致，这是自疫情前以来的首次稳定。斯坦福大学教授尼古拉斯·布鲁姆（Nicholas Bloom）长期倡导远程工作，他强调，这一趋势主要惠及那些拥有大学学位的人。研究表明，远程工作不会影响生产力，而且可以显著减少员工流动率，为公司节省大量成本。布鲁姆认为，混合工作模式提供了一种平衡的解决方案，既能提高员工满意度和忠诚度，又能保持生产力。这种不断变化的工作环境甚至可能在夏季等较慢的时期提高灵活性。]]></description>
+      <guid>https://t.me/hn_summary/99463</guid>
+      <pubDate>Sat, 13 Jul 2024 14:25:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>STEMFIE 是一款创新的开源建筑套装玩具，旨在促进 STEM 学习 [...]</title>
+      <link>https://t.me/hn_summary/99462</link>
+      <description><![CDATA[STEMFIE，一款可 3D 打印的建筑套装玩具
+STEMFIE 是一款创新的开源建筑套装玩具，旨在促进儿童的 STEM 学习。最好的部分是什么？它完全免费，并且可以 3D 打印！您可以轻松从我们的网站下载文件并立即开始构建。您的支持对于帮助我们扩展这个激动人心的项目至关重要。加入我们，让每个人都能轻松享受 STEM 教育的乐趣！]]></description>
+      <guid>https://t.me/hn_summary/99462</guid>
+      <pubDate>Sat, 13 Jul 2024 14:11:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 约翰·拉斯特的文章《幽灵萦绕历史》深入探讨了备受争议的 [...]</title>
+      <link>https://t.me/hn_summary/99461</link>
+      <description><![CDATA[幽灵困扰着历史
+约翰·拉斯特的文章《幽灵困扰着历史》深入探讨了备受争议且常常怪异的历史修正主义世界。文章以西格蒙德·弗洛伊德的最后一部作品《摩西与一神论》开始，该作品有争议地声称摩西的一神论源自埃及崇拜，古代犹太人出于精神罪恶感谋杀了摩西。这种伪历史影响了伊曼纽尔·维利科夫斯基，他试图通过重新配置古代时间线将《出埃及记》与伊普沃纸莎草书联系起来。维利科夫斯基的想法虽然受到学术界的嘲笑，但却吸引了公众。随后，本文探讨了赫里伯特·伊利格的“幻影时间”理论，该理论认为中世纪有 297 年的历史是虚构的。尽管这种理论被认为是过度批评，但它反映了人们对历史正统观念和专业历史学家作品根深蒂固的不信任。这篇文章强调，历史本质上是一种讲故事的艺术，经常受到叙述者的偏见和议程的影响。（基于 49% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/99461</guid>
+      <pubDate>Sat, 13 Jul 2024 13:43:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
