@@ -4,97 +4,92 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Mon, 15 Jul 2024 03:15:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 05:51:22 GMT</lastBuildDate>
     <item>
-      <title>[媒体] ZeroMQ，也称为 ØMQ、0MQ 或 zmq，不仅仅是一个可嵌入的网络库；</title>
-      <link>https://t.me/hn_summary/99665</link>
-      <description><![CDATA[ZeroMQ：高性能并发框架
-ZeroMQ，也称为 ØMQ、0MQ 或 zmq，不仅仅是一个可嵌入的网络库；它还可以用作高性能并发框架。它提供通过各种传输方式传输原子消息的套接字，包括进程内、进程间、TCP 和多播。这些套接字可以使用扇出、发布-订阅、任务分配和请求-回复等模式进行 N 对 N 连接，使其适用于不同的用例。ZeroMQ 速度足够快，可以作为集群产品的骨干。其异步 I/O 模型支持作为异步消息处理任务构建的可扩展多核应用程序。此外，它还拥有众多语言 API 并与大多数操作系统兼容。]]></description>
-      <guid>https://t.me/hn_summary/99665</guid>
-      <pubDate>Mon, 15 Jul 2024 03:15:52 GMT</pubDate>
+      <title>[媒体] 在博客文章“隐私保护”归因：Mozilla 再次让我们失望，P [...]</title>
+      <link>https://t.me/hn_summary/99678</link>
+      <description><![CDATA[“隐私保护”归因：Mozilla 再次让我们失望
+在博客文章“隐私保护”归因：Mozilla 再次让我们失望”中，Privacy Guides 批评 Mozilla 在 Firefox 128 中集成了新的“隐私保护归因”(PPA) API，该 API 是与 Meta 共同开发的，专为广告行业设计。该功能（用户必须手动选择退出）被视为另一种破坏传统内容拦截扩展的跟踪工具。该博客强调了几个问题：Mozilla 的激励机制不合理，偏向广告商而非用户，缺乏用户同意，“隐私保护”声明具有误导性，以及该技术的整体无用性。该帖子认为，Mozilla 的行为背叛了他们保护用户隐私的使命，侵蚀了用户的信任。争议在于 Mozilla 决定优先考虑广告利益，并将 PPA 欺骗性地包装为隐私友好。]]></description>
+      <guid>https://t.me/hn_summary/99678</guid>
+      <pubDate>Mon, 15 Jul 2024 05:51:22 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 卡罗琳斯卡医学院的研究人员在王阳的带领下开发出了一种纳米机器人设备 [...]</title>
-      <link>https://t.me/hn_summary/99664</link>
-      <description><![CDATA[配备隐形武器的纳米机器人可杀死癌细胞
-卡罗琳斯卡医学院的研究人员在王阳的带领下开发出一种配备隐形武器的纳米机器人，能够杀死癌细胞。这种创新方法涉及一个 DNA 机器人开关，可自主显示细胞毒性配体纳米图案。该团队旨在在更先进的癌症模型中测试纳米机器人，并在人体试验前评估潜在的副作用。未来的计划包括通过添加与某些癌症类型特异性结合的蛋白质或肽来增强纳米机器人的靶向能力。这项研究由几个知名组织资助，将获得专利。该研究发表在《自然纳米技术》杂志上。
+      <title>Parse Vision 是一个开源工具，旨在可视化 OCR（光学字符识别）[...]</title>
+      <link>https://t.me/hn_summary/99677</link>
+      <description><![CDATA[显示 HN：Parse Vision，用于可视化 OCR 输出的开源工具
+Parse Vision 是一个开源工具，旨在可视化 PDF 文档的 OCR（光学字符识别）输出。它帮助开发人员和产品团队识别解析文档中缺失的信息，确保所选的 OCR 库捕获所有必要的数据。该项目是在作者在智能文档处理 (IDP) 平台上工作时遇到缺失信息后启动的。与其他工具不同，Parse Vision 允许用户快速验证和比较不同 OCR 库（如 Tesseract 和 EasyOCR）的有效性。该工具在本地运行，确保数据隐私，未来的增强功能包括可配置的检测级别和对其他 OCR 库（如 PaddleOCR）的支持。]]></description>
+      <guid>https://t.me/hn_summary/99677</guid>
+      <pubDate>Mon, 15 Jul 2024 05:08:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 网站：www.foonathan.net</title>
+      <link>https://t.me/hn_summary/99676</link>
+      <description><![CDATA[Malloc() 和 free() 是糟糕的 API (2022)
+标题：Malloc() 和 free() 是糟糕的 API (2022)
+网站：www.foonathan.net
 
-争议：在人类身上使用这种先进纳米技术的潜在副作用和伦理影响仍有待充分了解。
+本文批评了传统的 C 内存分配函数 malloc() 和 free()，认为它们已经过时且效率低下。尽管它们被广泛使用，并且存在 jemalloc、tcmalloc 和 mimalloc 等替代实现，但这些替代方案仍然复制了有缺陷的接口。突出的关键问题包括 malloc() 中缺乏自定义对齐、元数据存储效率低下以及 realloc() 无法正确处理 C++ 对象。作者提出了一个带有函数 allocate()、deallocate() 和 try_expand() 的新接口来解决这些缺点。本文还涉及 C++ 内存管理的改进，例如 C++17 中引入的对齐分配和大小释放。批评并不具有争议性，但提供了深思熟虑的分析和创新的解决方案，以解决内存分配中的长期问题。（基于 88% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/99676</guid>
+      <pubDate>Mon, 15 Jul 2024 05:07:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Minigrad 是一个用 Golang 实现的神经网络库，灵感来自 Andrej Karpath [...]</title>
+      <link>https://t.me/hn_summary/99675</link>
+      <description><![CDATA[显示 HN：Minigrad – 一个用 Golang 编写的小型神经网络库
+Minigrad 是一个用 Golang 实现的神经网络库，灵感来自 Andrej Karpathy 的 Micrograd。它具有一个自动求导引擎，使其既快速又易于使用，类似于 PyTorch。该项目旨在提供一种简单而有效的工具，用于在 Go 中构建和训练神经网络。用户可以执行加法、乘法和 ReLU 激活等运算，并可以使用后向方法计算梯度。作者鼓励通过问题或拉取请求做出贡献，特别是添加测试用例。Minigrad 已获得 MIT 许可。]]></description>
+      <guid>https://t.me/hn_summary/99675</guid>
+      <pubDate>Mon, 15 Jul 2024 05:01:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 白喉麻雀是一种看似普通的鸟类，常见于美国东部地区 [...]</title>
+      <link>https://t.me/hn_summary/99674</link>
+      <description><![CDATA[白喉麻雀迷人而复杂的性生活
+白喉麻雀是一种看似普通的鸟类，常见于美国东部，但它却隐藏着一个迷人的秘密：它有四种不同的颜色变体，与独特的行为特征相对应。这些变体——白色条纹和棕褐色条纹——是永久性的，在雄性和雌性中均匀分布。白色条纹的鸟更具攻击性，而棕褐色条纹的鸟更具养育性。有趣的是，交配对几乎总是由每种变体中的一只鸟组成，从而导致复杂的社会动态。遗传学研究表明，这些差异与 2 号染色体上的“超基因”有关，使白喉麻雀的运作方式就像它有四种性别一样。这种独特的安排突显了即使最熟悉的野生动物中也隐藏着复杂性。]]></description>
+      <guid>https://t.me/hn_summary/99674</guid>
+      <pubDate>Mon, 15 Jul 2024 05:01:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 自推出以来，Rabbit R1 AI 助手一直将用户的聊天记录存储在设备上 [...]</title>
+      <link>https://t.me/hn_summary/99673</link>
+      <description><![CDATA[Rabbit R1 一直在记录用户的聊天记录，但无法清除它们
+自推出以来，Rabbit R1 AI 助手一直在设备上存储用户的聊天记录，而没有清除它们的选项。Rabbit 现在通过软件更新解决了这个问题，该更新引入了恢复出厂设置选项来清除设备。以前，取消链接帐户不会清除所有用户数据。此更新还修复了另一个问题，即存储的配对数据可以读取 Rabbithole 日志，如果设备被盗和被黑客入侵，则会带来安全风险。Rabbit 声称没有滥用的证据。此外，上个月，安全研究人员在 Rabbit 的代码库中发现了硬编码的 API 密钥，追踪到一名已被解雇的员工。Rabbit 承诺将加强安全实践并审查日志记录实践，以防止将来出现问题。]]></description>
+      <guid>https://t.me/hn_summary/99673</guid>
+      <pubDate>Mon, 15 Jul 2024 04:56:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duc 是一套多功能工具，用于检查和可视化磁盘使用情况。</title>
+      <link>https://t.me/hn_summary/99672</link>
+      <description><![CDATA[Duc：用于检查和可视化磁盘使用情况的工具集合
+Duc 是一套多功能工具，用于检查和可视化磁盘使用情况。要使用默认设置安装 Duc，您只需运行几个命令：./configure、make 和 sudo make install。对于 Debian 或 Ubuntu 系统，您可以通过执行 sudo apt-get install libncursesw5-dev libcairo2-dev libpango1.0-dev build-essential 来获取必要的依赖项。在 RHEL 或 CentOS 系统上，等效命令是 sudo yum install pango-devel cairo-devel tokyocabinet-devel。有关更详细的安装说明和完整的配置选项列表，请参阅 GitHub 存储库中提供的 INSTALL 文件。]]></description>
+      <guid>https://t.me/hn_summary/99672</guid>
+      <pubDate>Mon, 15 Jul 2024 04:53:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：您是如何找工作的？</title>
+      <link>https://t.me/hn_summary/99671</link>
+      <description><![CDATA[问 HN：你是如何找工作的？
+标题：问 HN：你是如何找工作的？
+网站：news.ycombinator.com
 
-独特/巧妙：使用 DNA 机器人开关自主显示细胞毒性配体纳米图案是癌症治疗的突破性方法。]]></description>
-      <guid>https://t.me/hn_summary/99664</guid>
-      <pubDate>Mon, 15 Jul 2024 03:15:49 GMT</pubDate>
+过去 15 多年来，我主要通过我的专业网络找到工作。偶尔，我通过 LinkedIn 上的招聘人员联系或随机招聘人员消息找到工作。尽管看到了很多招聘信息并使用 LinkedIn Premium 来衡量申请人数，但 FAANG 公司和热门初创公司的顶级职位似乎吸引了数百名申请人。这让我想知道现在有多少公司实际上直接通过招聘信息招聘。鉴于时代的变化，我很好奇 HN 社区最近在求职方面的经历。]]></description>
+      <guid>https://t.me/hn_summary/99671</guid>
+      <pubDate>Mon, 15 Jul 2024 04:45:39 GMT</pubDate>
     </item>
     <item>
-      <title>网站：www.task.kitchen</title>
-      <link>https://t.me/hn_summary/99663</link>
-      <description><![CDATA[展示 HN：我开发了一款可以自动设置时间限制的应用程序
-标题：展示 HN：我开发了一款可以自动设置时间限制的应用程序
-网站：www.task.kitchen
-
-我很高兴向大家介绍 Task Kitchen，这是一款旨在自动设置时间限制并简化您的日程安排的应用程序。使用 Task Kitchen，您可以轻松同步整个日历，确保每个任务都分配有特定的时间段。这款应用程序不仅可以帮助您更有效地管理时间，还可以减轻手动安排的压力。它的一个独特功能是其智能算法可以适应您的习惯和偏好，使其成为个性化的时间管理工具。尝试一下，体验更有条理、更高效的一天！]]></description>
-      <guid>https://t.me/hn_summary/99663</guid>
-      <pubDate>Mon, 15 Jul 2024 03:14:45 GMT</pubDate>
+      <title>弗吉尼亚·伍尔夫的列表爱好极大地影响了她的文学创新，[...]</title>
+      <link>https://t.me/hn_summary/99670</link>
+      <description><![CDATA[弗吉尼亚·伍尔夫的列清单习惯为她的文学实验铺平了道路
+弗吉尼亚·伍尔夫的列清单习惯极大地影响了她的文学创新，FT.com 上的一篇深刻文章对此进行了详述。伍尔夫的清单非常细致，从日常任务到深刻反思，为她的实验性叙事技巧奠定了基础。这种做法使她能够探索和构建自己的思想，最终塑造了她的开创性作品。本文重点介绍了这些清单如何为伍尔夫的创作过程提供了独特的视角，强调了它们在她成为作家的过程中的重要性。这一发现提供了一个令人惊讶且巧妙的视角，说明看似平凡的习惯如何激发艺术天才。]]></description>
+      <guid>https://t.me/hn_summary/99670</guid>
+      <pubDate>Mon, 15 Jul 2024 04:35:33 GMT</pubDate>
     </item>
     <item>
-      <title>网站：apps.apple.com</title>
-      <link>https://t.me/hn_summary/99662</link>
-      <description><![CDATA[Show HN：100% 设备上的 AI 图片检测（iOS $）
-标题：Show HN：100% 设备上的 AI 图片检测（iOS $）
-网站：apps.apple.com
-
-开发者 handsfree.ly 推出了一款 iOS 应用，该应用完全在设备上执行基于 AI 的图片检测，确保用户隐私。值得注意的是，该应用不会收集任何用户数据，这一点已得到开发者隐私政策的确认。但是，隐私保护措施可能会因使用的功能或用户年龄而异。这种方法独特而巧妙，因为它通过消除数据收集的需要来解决人们对数据隐私日益增长的担忧。如需了解更多详细信息，建议用户查看开发者的隐私政策。]]></description>
-      <guid>https://t.me/hn_summary/99662</guid>
-      <pubDate>Mon, 15 Jul 2024 03:14:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 2016 年，Nextdoor 面临一项重大挑战：处理有关 [...] 的种族偏见帖子。</title>
-      <link>https://t.me/hn_summary/99661</link>
-      <description><![CDATA[Nextdoor 将种族偏见减少了 75%
-2016 年，Nextdoor 面临一项重大挑战：在不审查合法安全问题的情况下处理有关“可疑黑人”的种族偏见帖子。活动团体，尤其是种族正义邻居，强调了这个问题，促使 Nextdoor 重新设计他们的平台。前邻里运营负责人 Gordon Strause 在最近的一次研讨会上详细介绍了他们的历程。他们在发布过程中引入了“深思熟虑的摩擦”，鼓励用户暂停、关注行为并提供结构化的描述。这导致种族定性帖子减少了 75%。关键经验包括倾听受影响社区的意见、寻求专家见解以及优先考虑设计而不是审核。这种方法强调了深思熟虑的技术设计在促进社会凝聚力和包容性方面的潜力。]]></description>
-      <guid>https://t.me/hn_summary/99661</guid>
-      <pubDate>Mon, 15 Jul 2024 03:11:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>《Instagram 上匿名账户的兴起》一文深入探讨了“Fac [...]</title>
-      <link>https://t.me/hn_summary/99660</link>
-      <description><![CDATA[Instagram 上匿名账户的兴起
-文章“Instagram 上匿名账户的兴起”深入探讨了“匿名账户”这一日益增长的趋势，即使用传统上有吸引力的女性的库存视频来销售财务自由的梦想，而无需个人品牌。这一趋势与“主转售权”（MRR）密切相关，允许个人购买和转售数字营销课程而无需创建原创内容。虽然支持者认为这不是多层次营销（MLM）计划，但批评者强调了其相似之处，质疑此类模式的可持续性和真实性。作者对这些账户的真正价值和可信度表示怀疑，并思考谁真正从这种假象中受益。该文章还反思了 Instagram 的审美驱动文化的更广泛影响以及对数字营销信任的潜在侵蚀。]]></description>
-      <guid>https://t.me/hn_summary/99660</guid>
-      <pubDate>Mon, 15 Jul 2024 03:05:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 玛雅人的“零”或“Nik”是一个深刻的概念，象征着开始和结束，[...]</title>
-      <link>https://t.me/hn_summary/99659</link>
-      <description><![CDATA[“Nik”：中美洲的零表示法
-玛雅人的零，或称“Nik”，是一个深刻的概念，它表示开始和结束、数量的缺失以及过去和未来之间的桥梁。这个零以各种形式出现，如花朵、种子、人头或海螺壳，种子通常用于算术，花朵则用于长计数玛雅历法。最古老的表示法可以追溯到公元前 31 年墨西哥的 Tres Zapotes。玛雅人以周期性的方式看待时间，将零视为更新点，类似于月相。有趣的是，玛雅语言中的“今天”也用 Nik 来表示，强调了它在时间中的核心作用。这种对零的独特视角凸显了它在玛雅文化中的深刻哲学和数学意义。]]></description>
-      <guid>https://t.me/hn_summary/99659</guid>
-      <pubDate>Mon, 15 Jul 2024 03:04:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在这篇文章中，作者反思了人类历史的漫长历程，强调 [...]</title>
-      <link>https://t.me/hn_summary/99658</link>
-      <description><![CDATA[人类历史长河：大部分时间都相当糟糕
-在这篇文章中，作者回顾了人类历史的漫长历程，强调大部分时间里，生活相当艰苦。他们强调，虽然我们经常假设进步和生活水平不断提高的趋势是稳定的，但这是一个相对较新的现象。在人类历史的大部分时间里，技术进步都非常缓慢，直到最近几个世纪才取得重大进展。农业革命通常被视为向前迈出的一大步，但实际上由于劳动力增加和精英阶层的剥削，降低了许多人的生活水平。然而，工业革命和随后的全球发展带来了前所未有的生活水平改善。作者建议，鉴于过去长期的停滞和衰退，我们应该谨慎地假设进步是不可避免的和持续的。 （根据 88% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/99658</guid>
-      <pubDate>Mon, 15 Jul 2024 03:04:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] GitHub 上的“etime”项目通过整合 e [...] 增强了传统的时间命令。</title>
-      <link>https://t.me/hn_summary/99657</link>
-      <description><![CDATA[显示 HN：我在命令执行期间测量能耗
-GitHub 上的“etime”项目通过在命令执行期间加入能耗测量来增强传统的 time 命令。它利用 Emporia 智能插头收集电力消耗数据，提供焦耳、瓦特和置信度分数等指标。此工具对于需要监控脚本或命令能效的开发人员和系统管理员非常有用。与其他计时工具不同，“etime”提供能源意识，使其独一无二。用户必须设置智能插头、安装二进制文件并使用 Emporia 凭据进行身份验证。该项目是根据 MIT 许可证开源的。]]></description>
-      <guid>https://t.me/hn_summary/99657</guid>
-      <pubDate>Mon, 15 Jul 2024 03:01:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 该研究调查了智能手机的存在对注意力表现的影响，p [...]</title>
-      <link>https://t.me/hn_summary/99656</link>
-      <description><![CDATA[智能手机的存在会降低基础注意力表现
-
-这项研究调查了智能手机的存在对注意力表现的影响，尤其是对大学生的影响。研究显示，即使没有主动使用，智能手机的存在也会消耗认知资源，导致工作速度变慢和注意力下降。这种影响在复杂和简单的任务中都有观察到，挑战了之前的研究，这些研究表明这种影响仅限于高级任务。令人惊讶的是，研究发现，即使关机的智能手机也会对注意力产生负面影响，强调需要完全的空间分离来减轻这些影响。虽然智能手机可以在某些情况下培养创造力，但它们的整体认知成本需要平衡和有意识地使用它们，尤其是在学术环境中。这项研究强调了批判性地反思数字设备在日常生活和教育中的整合的重要性。]]></description>
-      <guid>https://t.me/hn_summary/99656</guid>
-      <pubDate>Mon, 15 Jul 2024 02:59:17 GMT</pubDate>
+      <title>“用于在 Linux 上管理蓝牙的 TUI”项目为 Linux 上的蓝牙管理提供了一个基于文本的用户界面 (TUI) [...]</title>
+      <link>https://t.me/hn_summary/99669</link>
+      <description><![CDATA[用于在 Linux 上管理蓝牙的 TUI
+“用于在 Linux 上管理蓝牙的 TUI”项目提供了一个基于文本的用户界面 (TUI)，用于在 Linux 系统上管理蓝牙设备。它需要安装了 bluez 的 Linux 操作系统，并可选地使用 nerdfonts 来显示图标。该项目可以通过预构建的二进制文件、crates.io、Arch 用户存储库 (AUR) 或从源代码构建来安装。TUI 允许用户使用按键绑定来管理蓝牙适配器和设备，以执行扫描、配对、连接和重命名设备等操作。可以在 TOML 文件中配置自定义按键绑定。该项目采用 GPLv3 许可，以注重开源原则而著称。]]></description>
+      <guid>https://t.me/hn_summary/99669</guid>
+      <pubDate>Mon, 15 Jul 2024 04:04:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
