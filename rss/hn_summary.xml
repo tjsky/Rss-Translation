@@ -4,102 +4,120 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Wed, 17 Jul 2024 03:12:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 06:12:58 GMT</lastBuildDate>
     <item>
-      <title>[媒体]“免费的 Bash 脚本入门电子书”是一本开源指南，旨在教授 [...]</title>
-      <link>https://t.me/hn_summary/99987</link>
-      <description><![CDATA[免费 Bash 脚本入门电子书
-“免费 Bash 脚本入门电子书”是一本开源指南，旨在教授 Bash 脚本的基础知识，使用户能够在 SysOps、DevOps 和开发环境中自动执行重复性任务。该电子书适合开发人员、系统管理员和 DevOps 工程师，涵盖基础主题并提供实际示例。它以全面的结构脱颖而出，包括有关调试、创建自定义命令和使用 API 的章节。其他资源包括迷你视频课程、互动培训和 DigitalOcean 等公司的赞助。该项目由 Bobby Iliev 撰写，强调社区学习和开源协作。]]></description>
-      <guid>https://t.me/hn_summary/99987</guid>
-      <pubDate>Wed, 17 Jul 2024 03:12:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Java 虚拟线程：案例研究</title>
-      <link>https://t.me/hn_summary/99986</link>
-      <description><![CDATA[Java 虚拟线程：案例研究
-Java 虚拟线程：案例研究
+      <title>数学等层次化知识结构中的间隔重复提出了独特的挑战[...]</title>
+      <link>https://t.me/hn_summary/100000</link>
+      <description><![CDATA[分层知识结构中的个性化间隔重复
+分层知识结构（如数学）中的间隔重复带来了独特的挑战，因为高级主题本质上是练习更简单的主题。为了解决这个问题，我开发了分数隐式重复 (FIRe) 模型，该模型通过考虑这些隐式重复并最大限度地减少所需的复习次数来优化复习计划。该模型还适应学生的个人能力和主题难度，确保个性化的学习速度。一项关键的创新是“重复压缩”，其中高级问题包含更简单的技能，减少了对明确复习的需求。这种方法显著提高了学习效率，使得在数学等相互关联的学科中实现接近最大的理论学习效率成为可能。 
 
-JDK 21 中引入的 Java 虚拟线程旨在通过提供轻量级、可扩展的模型来增强 Java 应用程序中的并发性。然而，我们的评估表明，对于典型的云原生 Java 工作负载，Open Liberty 的自主线程池通常优于虚拟线程，尤其是在 CPU 密集型场景中，虚拟线程的吞吐量降低了 10-40%。尽管加速时间更快，但由于 DirectByteBuffers 等因素，虚拟线程的内存占用优势并不一致。值得注意的是，虚拟线程的意外性能问题值得 OpenJDK 社区进一步调查。这项研究强调，尽管虚拟线程前景光明，但它们可能还不能在所有情况下都明显替代 Liberty 的线程池。（基于 60% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/99986</guid>
-      <pubDate>Wed, 17 Jul 2024 03:06:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 瑞典为什么要付钱给祖父母来照顾孩子？</title>
-      <link>https://t.me/hn_summary/99985</link>
-      <description><![CDATA[瑞典为什么要付钱给祖父母照看孩子？
-瑞典出台了一项新政策，允许祖父母因照看孙辈而获得政府补贴。虽然这似乎很荒谬，尤其是对许多美国人来说，但这项举措引发了争议。作为一名自豪的祖父母，我很乐意无偿照看孩子，而接受政府的钱感觉不对。即使在以优秀且补贴充足的托儿设施而闻名的瑞典，这项计划也显得有些过度。考虑到该国政府支出和税收水平已经很高，人们不禁要质疑这项额外福利是否真的有必要。]]></description>
-      <guid>https://t.me/hn_summary/99985</guid>
-      <pubDate>Wed, 17 Jul 2024 02:45:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在戴尔，员工们利用公司一年一度的“告诉戴尔”调查来表达对公司的不满 [...]</title>
-      <link>https://t.me/hn_summary/99984</link>
-      <description><![CDATA[戴尔员工利用公司调查向老板讲述 RTO 后的感受
-在戴尔，员工利用公司一年一度的“告诉戴尔”调查来表达对近期变化的不满，包括裁员、严格的重返办公室 (RTO) 规定和新的员工监控系统。员工净推荐值 (eNPS) 从 62 大幅下降至 48，表明员工满意度急剧下降。一些部门的降幅甚至更大，全球营销团队的降幅高达 68%。尽管这项调查很重要，但员工们认为领导层忽视了负面反馈。戴尔首席人力资源官 Jenn Saavedra 承认了这一下降，但强调了其他积极指标。许多员工认为，公司的重点已经从员工福祉转向削减成本和盈利，导致一些员工转而寻求其他公司就业。]]></description>
-      <guid>https://t.me/hn_summary/99984</guid>
-      <pubDate>Wed, 17 Jul 2024 02:34:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 意大利的 1 欧元房屋：谁可以购买以及它如何运作？</title>
-      <link>https://t.me/hn_summary/99983</link>
-      <description><![CDATA[意大利的一欧元房屋：谁可以买？它是如何运作的？
-意大利的一欧元房屋计划为准房主提供了一个独特的机会，只需 1 欧元，即可购买风景如画但人口稀少的村庄中的空置房产。该计划旨在通过吸引新居民来翻新和入住房屋，从而刺激当地经济，从而使这些地区焕发活力。买家必须承诺进行大规模翻新，通常花费 20,000 欧元至 50,000 欧元，并严格遵守项目完成时间表。虽然该计划对国际买家开放，但非欧盟居民面临更高的税收和居住限制。值得注意的是，一些房产引发了竞价战，售价远高于象征性的 1 欧元。]]></description>
-      <guid>https://t.me/hn_summary/99983</guid>
-      <pubDate>Wed, 17 Jul 2024 02:23:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>“comp.lang.c 常见问题解答”是超文本页面的综合集合[...]</title>
-      <link>https://t.me/hn_summary/99982</link>
-      <description><![CDATA[comp.lang.c 常见问题解答
-“comp.lang.c 常见问题解答”是 Steve Summit 精心策划的超文本页面综合集合，基于他的著作《C 编程常见问题解答：常见问题解答》（Addison-Wesley，1995 年）。此在线资源受国际版权法保护，可供个人免费使用，但未经许可不得重新发布。它旨在通过提供常见问题的明确答案来减少 Usenet 新闻组 comp.lang.c 上的重复查询，从而促进更高级的讨论。常见问题解答有多种格式，包括书籍长度的版本，但书中包含一些在勘误表中解决的错误。用户可以通过各种链接浏览内容，包括目录、所有问题列表和连续阅读选项。对于寻求可靠信息的 C 程序员来说，此资源非常宝贵。
+有争议的方面：FIRe 模型的具体实施的专有性质可能会引发有关透明度和可访问性的疑问。
 
-争议：未突出显示。
-独特/巧妙：不同格式的常见问题解答同步以及为用户提供的详细导航选项。]]></description>
-      <guid>https://t.me/hn_summary/99982</guid>
-      <pubDate>Wed, 17 Jul 2024 02:09:33 GMT</pubDate>
+独特/巧妙的方面：“重复压缩”的概念和通过包罗万象的图表可视化重复流特别具有创新性，为理解和优化复杂主题中的间隔重复提供了一种新方法。（基于 80% 的故事文本的总结。）]]></description>
+      <guid>https://t.me/hn_summary/100000</guid>
+      <pubDate>Wed, 17 Jul 2024 06:12:58 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在纽约联合国总部，OSPOS for Good 2024 会议高 [...]</title>
-      <link>https://t.me/hn_summary/99981</link>
-      <description><![CDATA[开源成为联合国关注的焦点
-在纽约联合国总部，OSPOS for Good 2024 会议强调了开源在全球外交和可持续发展中日益重要的意义。会议的主要内容包括开源的成熟度、其不断发展的性质及其文化多样性。值得注意的是，来自肯尼亚的 Philip Thigo 强调了其在实现可持续发展目标方面不可或缺的作用。然而，此次活动也揭示了联合国正式协议与休闲科技文化之间的脱节，给与会者带来了后勤挑战。人工智能部分引发了不同的意见，反映了该技术的新生状态。会议讨论了维护人员倦怠和可持续性等持续存在的问题，并呼吁将开源视为必不可少的基础设施。联合国旨在将开源解决方案纳入其使命，并敦促与会者在未来的技术会议上推广这些解决方案。 
-
-争议：此次活动凸显了关于开源人工智能的定义和道德考量持续不断的争论。
-
-独特见解：正式的联合国协议与随意的科技文化并置，产生了一种“极客出水”的效果，凸显了文化冲突。]]></description>
-      <guid>https://t.me/hn_summary/99981</guid>
-      <pubDate>Wed, 17 Jul 2024 02:05:28 GMT</pubDate>
+      <title>[媒体] EspoTek Labrador 是一款开源主板，可以将您的 PC、Raspberry Pi 或 [...]</title>
+      <link>https://t.me/hn_summary/99999</link>
+      <description><![CDATA[EspoTek Labrador：一款开源主板
+EspoTek Labrador 是一款开源主板，可将您的 PC、Raspberry Pi 或 Android 智能手机转变为综合电子实验台，配备示波器和信号发生器等工具。此 GitHub 存储库包含 Labrador 所需的所有软件和硬件文件。该项目非常适合需要便携式和经济实惠的实验室设备的电子爱好者和专业人士。独特的功能包括社区贡献的 3D 可打印外壳和针对初学者的详细教程。该软件可以安装在各种平台上，并带有针对 Raspberry Pi 的特定说明和使用 Qt Creator 从源代码构建的选项。该项目已获得 GNU GPL v3、BSD 3-Clause 和 Creative Commons 4.0 的许可。]]></description>
+      <guid>https://t.me/hn_summary/99999</guid>
+      <pubDate>Wed, 17 Jul 2024 05:27:41 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Zaibatsu（財閥，“金融集团”）是强大的家族控制的商业集团[...]</title>
-      <link>https://t.me/hn_summary/99980</link>
-      <description><![CDATA[财阀
-财阀（財閥，意为“金融集团”）是日本从明治时期到二战时期的强大家族企业集团。这些垂直整合的垄断企业包括一家控股公司、一家银行和各种工业子公司。它们在日俄战争和第一次世界大战后声名鹊起，对日本的经济和政策产生了重大影响。二战后，盟军占领解散了许多财阀，导致了更加水平整合的业务结构——企业集团的兴起。尽管有解散的努力，但财阀的遗产仍然存在于现代金融集团中。有争议的是，他们的垄断行为和与军国主义的联系受到了批评，但它们被视为日本经济复苏的关键。 （基于 96% 的故事文本摘要。）]]></description>
-      <guid>https://t.me/hn_summary/99980</guid>
-      <pubDate>Wed, 17 Jul 2024 02:04:22 GMT</pubDate>
+      <title>[媒体] 在“破解不受支持的机器的 Mac OS X 内核”一文中，Ryan Rempel 详细介绍了他的经历 [...]</title>
+      <link>https://t.me/hn_summary/99998</link>
+      <description><![CDATA[破解不受支持的机器的 Mac OS X 内核 (2005) [pdf](https://news.ycombinator.com/item?id=40980901)
+在“破解不受支持的机器的 Mac OS X 内核”一文中，Ryan Rempel 详细介绍了他在较旧的、不受支持的 Apple 硬件（特别是他的 Power Macintosh 7300）上运行 Mac OS X 的过程。尽管官方 Mac OS X 版本中删除了必要的驱动程序，但 Rempel 还是利用 Apple 的开源 Darwin 操作系统来更新这些驱动程序。然而，他面临着额外的内核和内核扩展问题。利用 Mac OS X 的 IOKit 系统，他开发了自定义内核扩展来动态修复这些问题，而无需重新编译整个内核。一个值得注意的例子是他修复了一个持久的 NVRAM 错误，展示了开发人员如何超越 Apple 的内置驱动程序。这项工作强调了 Mac OS X 驱动程序模型的灵活性和内省性，即使在未受支持的系统上也可以进行复杂的干预。
+
+争议点：该论文巧妙地批评了 Apple 决定放弃对旧型号的支持，暗示这可能是出于营销考虑，而不是纯粹的技术原因。
+
+独特/巧妙的方面：Rempel 使用内核扩展动态修复内核问题的方法，而不是重新编译整个内核，特别具有创新性和资源丰富性。（基于 13% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/99998</guid>
+      <pubDate>Wed, 17 Jul 2024 05:26:37 GMT</pubDate>
     </item>
     <item>
-      <title>DDG 能否提供更多的 Mistral AI 模型 um ddg AI？</title>
-      <link>https://t.me/hn_summary/99979</link>
-      <description><![CDATA[DDG 能否提供更多 Mistral AI 模型 um ddg AI？
-标题：DDG 能否提供更多 Mistral AI 模型 um ddg AI？
-网站：news.ycombinator.com
+      <title>针对最近的帖子“为什么 6 年后我不再使用 GraphQL”，我想解决一些问题 [...]</title>
+      <link>https://t.me/hn_summary/99997</link>
+      <description><![CDATA[GraphQL 八年
 
-讨论的焦点是 DuckDuckGo (DDG) 是否会在其网站上免费提供更先进的 Mistral AI 模型，例如 Mixtral 8x22B、Codestral 22B 或 Mixtral Large。作者指出，DDG 已经在使用较小的 Mistral 型号，并质疑提供这些较大型号的可行性，因为 8x22B 的运营成本据称低于 DDG 目前运营的 Llama 3。这里令人惊讶的是，8x22B 型号的运营成本低于 Llama 3，这可能使其成为更广泛使用的可行选择。]]></description>
-      <guid>https://t.me/hn_summary/99979</guid>
-      <pubDate>Wed, 17 Jul 2024 02:02:19 GMT</pubDate>
+针对最近的帖子“为什么六年后我不再使用 GraphQL”，我想解决一些提出的问题，并提供我使用 GraphQL 八年后的看法。作者批评 GraphQL 存在安全性、性能和可维护性问题，但我认为其中一些担忧被夸大或歪曲了。
+
+
+持久查询对于强大的 GraphQL API 至关重要，不使用它们会使事情变得不必要地复杂化。作者关于公共 GraphQL API 的攻击面增加的观点是正确的，但对于内部 API 来说，这不是什么大问题。授权挑战并非 GraphQL 独有；它们存在于所有 API 样式中。速率限制和性能问题（例如 n+1 查询）在不同类型的 API 中也很常见，而不仅仅是 GraphQL。
+
+GraphQL 将业务逻辑强制放入传输层的说法是一种误解；正确的设计可以避免这种情况。GraphQL 不鼓励重大变更并且缺乏管理这些变更的工具的想法也具有误导性。GraphQL 的架构演进功能实际上有助于避免重大变更。
+
+总之，虽然公共 GraphQL API 可能具有挑战性，但提出的许多问题都是一般 API 问题，而不是 GraphQL 特有的问题。持久化查询并将 GraphQL 用于内部 API 可以缓解许多这些问题。]]></description>
+      <guid>https://t.me/hn_summary/99997</guid>
+      <pubDate>Wed, 17 Jul 2024 05:23:26 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 人工智能驱动的网络钓鱼正在彻底改变诈骗格局，使欺诈者更容易实施诈骗 [...]</title>
-      <link>https://t.me/hn_summary/99978</link>
-      <description><![CDATA[诈骗者的黄金时代：人工智能驱动的网络钓鱼
-人工智能驱动的网络钓鱼正在彻底改变诈骗格局，使诈骗者更容易实施令人信服的大规模诈骗。人工智能显著升级了网络钓鱼策略，自 2022 年底以来恶意电子邮件增加了 1,265%，这与 ChatGPT 等工具的兴起相吻合。WormGPT 和 FraudGPT 等暗网工具使诈骗者能够生成网络钓鱼电子邮件、欺骗网站等，而不受道德约束。与依赖社会工程的传统网络钓鱼不同，人工智能网络钓鱼使用机器学习来创建个性化、令人信服的骗局。尽管人工智能网络钓鱼兴起，但传统网络钓鱼仍然是一个威胁。 DMARC（基于域的消息认证、报告和一致性）对于防御这些复杂的攻击至关重要，尽管它的采用速度很慢。Gmail 和 Yahoo 等主要电子邮件提供商现在正在强制执行 DMARC 来保护用户。文章强调需要采取强有力的安全措施和持续的教育来对抗这些不断演变的威胁。
+      <title>[媒体] 网站：workspaceupdates.googleblog.com</title>
+      <link>https://t.me/hn_summary/99996</link>
+      <description><![CDATA[在 Google Docs 中导入和导出 Markdown
+标题：在 Google Docs 中导入和导出 Markdown
+网站：workspaceupdates.googleblog.com
 
-争议点：将 WormGPT 和 FraudGPT 等 AI 工具用于恶意目的凸显了没有保障措施的 AI 技术的道德困境。
+变化：2022 年，我们扩大了对在 Web 版 Google Docs 中使用 Markdown 撰写的支持。今天，我们推出了备受期待的功能，以增强 Docs 与其他支持 Markdown 的工具的互操作性。这些功能包括粘贴时将 Markdown 转换为 Docs 内容、将 Docs 内容复制为 Markdown、将 Doc 导出为 Markdown 以及将 Markdown 导入为 Doc。
 
-令人惊讶/聪明的一点：5/5 规则展示了 AI 的效率，表明 AI 可以在 5 分钟内通过 5 次提示创建一个几乎成功的网络钓鱼活动，而人类工程师则需要 16 个小时。]]></description>
-      <guid>https://t.me/hn_summary/99978</guid>
-      <pubDate>Wed, 17 Jul 2024 02:02:14 GMT</pubDate>
+受影响对象：最终用户和开发人员。
+
+使用原因：此更新对技术内容编写者特别有用，使他们能够将 Docs 内容转换为 Markdown 或从 Markdown 转换为 Markdown。开发人员可以在 Docs 中协作编写软件文档，并将其导出为 Markdown 以供其他工具使用。
+
+入门：管理员无法控制此功能。最终用户会发现导入和导出选项默认处于开启状态，而“复制为 Markdown”和“从 Markdown 粘贴”选项默认处于关闭状态，可在 Docs 中的“工具”&gt;“偏好设置”&gt;“启用 Markdown”下启用。
+
+推出速度：适用于所有 Google Workspace 客户、Workspace 个人订阅者和拥有个人 Google 帐户的用户。]]></description>
+      <guid>https://t.me/hn_summary/99996</guid>
+      <pubDate>Wed, 17 Jul 2024 05:23:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 网站：cryptocode.github.io</title>
+      <link>https://t.me/hn_summary/99995</link>
+      <description><![CDATA[一款功能出奇强大的 RPN 计算器，仅包含约 100 行 Zig 代码（2021 年）
+标题：一款功能出奇强大的 RPN 计算器，仅包含约 100 行 Zig 代码（2021 年）
+网站：cryptocode.github.io
+
+逆波兰表示法 (RPN) 和 Zig 都很棒。本文演示了如何用约 100 行 Zig 代码创建一个功能出奇强大的 RPN 计算器。该计算器可处理基本算术、三角函数，甚至可以求解二次方程。通过使用内存槽（M0、M1 等），它简化了复杂的计算，例如求二次方程的根或球体的体积。实现非常简单，利用读取-求值-打印循环 (REPL) 逐行处理输入。代码很容易通过新函数和运算符进行扩展，使其成为用于各种计算的多功能工具。
+
+令人惊讶/聪明：仅用 100 行代码实现的简单性和效率令人印象深刻。
+
+独特：使用内存槽存储中间结果，并通过更新标记器循环中的 switch 语句轻松扩展功能。（基于 76% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/99995</guid>
+      <pubDate>Wed, 17 Jul 2024 05:22:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在 Paul Bourke 的网站上，有一份全面的 3D、音频和图像数据列表，可供 [...]</title>
+      <link>https://t.me/hn_summary/99994</link>
+      <description><![CDATA[数据格式：3D、音频、图像
+Paul Bourke 的网站上提供了各种 3D、音频和图像数据格式的综合列表。该列表包括立体 CAD-3D 对象的 3D2、Flatland 3DML 语言的 3DML 和 AC3D 等格式。它还涵盖了 3D Studio Max 的 3DS、ASE 和 ASC 等知名格式，以及分子数据的 ALC 和 AL2 等专用格式。独特条目包括 FleetFeet 和 Volumental 足部扫描仪使用的 BMF，以及 Povray 密度的 DF3 等格式。该网站是任何使用 3D 建模、音频和成像等各种数据格式的人的宝贵资源。 （基于 96% 的故事文本摘要。）]]></description>
+      <guid>https://t.me/hn_summary/99994</guid>
+      <pubDate>Wed, 17 Jul 2024 05:22:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 麻省理工学院的研究人员开发出了一种突破性的便携式海水淡化装置，可以转移[...]</title>
+      <link>https://t.me/hn_summary/99993</link>
+      <description><![CDATA[科学家只需按一下按钮即可将海水转化为饮用水
+麻省理工学院的研究人员开发了一种突破性的便携式海水淡化装置，只需按一下按钮即可将海水转化为饮用水。这种手提箱大小的设备重量不到 10 公斤，超过了世界卫生组织的质量标准，运行功耗低于手机充电器，甚至与小型太阳能电池板兼容。与依赖过滤器的传统装置不同，该设备使用电力去除颗粒，大大减少了维护需求。这项创新对于偏远地区、救灾和军事行动至关重要。该系统采用离子浓度极化 (ICP) 和电渗析来有效去除盐和杂质。该项研究由 Jongyoon Han 领导，发表在《环境科学与技术》杂志上，标志着海水淡化技术的重大进步。]]></description>
+      <guid>https://t.me/hn_summary/99993</guid>
+      <pubDate>Wed, 17 Jul 2024 05:20:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>据 www.textfiles.com 记载，互联网起源于 20 世纪 60 年代末的一个小型网络，[...]</title>
+      <link>https://t.me/hn_summary/99992</link>
+      <description><![CDATA[互联网
+正如www.textfiles.com上所记载的，互联网始于 20 世纪 60 年代末的一个小型网络，主要连接部分大学校园和政府机构。互联网最初被蓬勃发展的公告板系统 (BBS) 文化所掩盖，后来逐渐扩张，最终超越了 BBS。这种转变迫使 BBS 要么适应，要么被淘汰，导致 BBS 文化衰落。尽管如此，互联网仍具有显著的优势，例如全球覆盖范围和更成熟、更深入的讨论。然而，它的民主化带来了优质与平庸的混合。该网站存档了 80 年代末和 90 年代初的各种文本文件，记录了那个时代为定义和驾驭这一蓬勃发展的数字景观所做的努力。]]></description>
+      <guid>https://t.me/hn_summary/99992</guid>
+      <pubDate>Wed, 17 Jul 2024 05:12:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>在《利用运筹学赢得你的梦幻联赛》一书中，作者幽默地承认自己缺乏[...]</title>
+      <link>https://t.me/hn_summary/99991</link>
+      <description><![CDATA[使用运筹学赢得你的梦幻联赛
+在“使用运筹学赢得你的梦幻联赛”一文中，作者幽默地承认自己缺乏足球专业知识，但用竞争精神和解决问题的诀窍弥补了这一点。面对梦幻足球联赛的挑战，作者巧妙地将选择梦幻球队与解决背包问题（一个经典的优化问题）进行了类比。本文详细介绍了收集球员数据、使用简单平均值预测表现以及实施约束以组建有效球队的过程。利用 Google 的 OR 工具，作者构建了一个求解器，以在预算约束内最大化球队价值，展示了一种独特的分析性梦幻体育方法。令人惊讶的是，运筹学应用于看似不相关的领域，突出了数学问题解决技术的多功能性。 （根据 52% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/99991</guid>
+      <pubDate>Wed, 17 Jul 2024 05:09:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
