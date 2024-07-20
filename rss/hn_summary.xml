@@ -4,7 +4,34 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Sat, 20 Jul 2024 06:12:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 07:09:02 GMT</lastBuildDate>
+    <item>
+      <title>[媒体] 6 月，我参加了在哥本哈根举行的 PLDI 会议，并发表了一篇与 [...]</title>
+      <link>https://t.me/hn_summary/100425</link>
+      <description><![CDATA[使用 Z3 查找 JIT 的简单重写规则
+6 月，我参加了哥本哈根的 PLDI 会议，发表了与 Max Bernstein 合著的论文。我终于见到了 John Regehr，他是编译器正确性和优化技术方面的资深专家。受到 John 的工作启发，特别是在使用 Z3 进行超级优化方面，我将他的一些见解应用于 PyPy 的 JIT 跟踪。这篇文章旨在简化使用 Z3 的 Python-API 查找 PyPy 的 JIT 操作的本地窥孔重写规则的解释。我们探讨如何使用 Z3（一个具有出色位向量支持的强大 SMT 求解器）来验证和发现整数操作简化。该过程涉及将 PyPy 的中间表示操作编码为 Z3 公式并检查其有效性。
+
+令人惊讶/巧妙的方面：使用 Z3 自动验证和发现 JIT 编译的优化规则既创新又实用，展示了 SMT 求解器在实际应用中的强大功能。（基于 29% 的故事文本总结。）]]></description>
+      <guid>https://t.me/hn_summary/100425</guid>
+      <pubDate>Sat, 20 Jul 2024 07:09:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gothem Stack 项目是一个端到端模板，旨在简化使用 [...] 的 Web 开发</title>
+      <link>https://t.me/hn_summary/100424</link>
+      <description><![CDATA[显示 HN：Gothem 堆栈 - Htmx 和 templ 模板
+Gothem Stack 项目是一个端到端模板，旨在使用 HTMX 和 Go-Templ 简化 Web 开发，使用 Echo 作为 Web 服务器，使用 Mage 作为部署。它旨在提供一个灵活、不受约束的框架，让开发人员能够集成他们喜欢的技术。该堆栈包括用于样式设置的 TailwindCSS 和 DaisyUI，并可选地支持 Alpine.js 以提供额外的前端功能。主要功能包括在代码更改时自动重新生成和自动重新加载网页。该项目以其简单易用而脱颖而出，并且专注于通过 Mage 等工具为开发人员提供便利，用于管理依赖项和构建。]]></description>
+      <guid>https://t.me/hn_summary/100424</guid>
+      <pubDate>Sat, 20 Jul 2024 06:48:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>西南航空正在解决由于极端天气导致过热饮料在空中爆裂的问题 [...]</title>
+      <link>https://t.me/hn_summary/100423</link>
+      <description><![CDATA[西南航空航班因极端高温导致汽水罐爆裂
+
+西南航空正在解决美国夏季极端高温导致饮料在空中爆裂的问题，尤其是在凤凰城、拉斯维加斯和达拉斯等城市。这些由气候变化引发的热浪导致一些汽水罐变形或爆裂，约 20 名空乘人员受伤。西南航空正在采取措施缓解这一问题，使用空调卡车和数字温度计在飞行前检查罐子温度。西南航空处理机上饮料的方式与其他航空公司不同，该公司建议空乘人员避免打开变形或过热的罐子。这凸显了气候变化对航空旅行的更广泛影响，而不仅仅是饮料问题。]]></description>
+      <guid>https://t.me/hn_summary/100423</guid>
+      <pubDate>Sat, 20 Jul 2024 06:25:42 GMT</pubDate>
+    </item>
     <item>
       <title>[媒体] 拜登总统最近签署了《ADVANCE法案》，这是美国第一份全面的核法案[...]</title>
       <link>https://t.me/hn_summary/100422</link>
@@ -37,7 +64,7 @@ FusionAuth Cloud 采取了突破性举措，现在支持无限自定义域，这
       <pubDate>Sat, 20 Jul 2024 05:10:07 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在我们的“廉价 10GbE 交换机购买指南”中，我们整合了对 10Gb [...]</title>
+      <title>[媒体] 在我们的“廉价 10GbE 交换机购买指南”中，我们整合了对 10Gb [...] 的广泛评论。</title>
       <link>https://t.me/hn_summary/100419</link>
       <description><![CDATA[廉价 10GbE 交换机购买指南
 在我们的“廉价 10GbE 交换机购买指南”中，我们将对 10GbE 交换机的广泛评论整合到一个可访问的资源中。我们专注于以 SFP+ 或 10Gbase-T 为主要端口类型的交换机，不包括那些具有大多数低速端口的交换机。本指南是一份动态文档，从最近的评论开始，并随着我们测试更多的交换机而不断发展。值得注意的是，10GbE 交换机的成本已大幅下降，有些现在的价格仅为 2016 年高端型号的 1/40。我们按端口类型和管理功能对交换机进行分类，列出每种型号的详细规格和价格。请继续关注即将发布的评论，包括更高速的交换机。本指南旨在成为对 10GbE 网络感兴趣的任何人的宝贵资源。
@@ -78,33 +105,6 @@ FusionAuth Cloud 采取了突破性举措，现在支持无限自定义域，这
 独特：Wiz Security Graph 提供了一种新颖的方法，通过关联和优先考虑所有云环境层中的风险，为开发人员和安全团队提供必要的背景信息。]]></description>
       <guid>https://t.me/hn_summary/100416</guid>
       <pubDate>Sat, 20 Jul 2024 03:50:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nic Magnier 在 Playdate Develop 上分享了他将 Doom 移植到 Playdate 游戏机的历程 [...]</title>
-      <link>https://t.me/hn_summary/100415</link>
-      <description><![CDATA[Playdate 上的 Doom
-Nic Magnier 在 Playdate 开发者论坛上分享了他将 Doom 移植到 Playdate 控制台的历程。尽管最初遇到了 makefile 和编译器问题的挑战，但 Nic 还是成功地让游戏在硬件上运行起来。他通过在 CMakeLists.txt 中添加特定选项并修改 Playdate SDK 来解决链接器错误。Nic 使用基于 Chocolate Doom 的 STM32Doom 进行移植，并计划在进一步改进后分享源代码。虽然游戏还不能完全玩，并且面临崩溃的问题，但 Nic 正在努力改进控制和图形，包括试验蓝色噪声纹理。社区反应热烈，提出了一些建议，例如使用曲柄控制 Gatling 枪和使用摄像头旋转抖动图案。Nic 的进步引起了人们对 Playdate 功能的兴奋和兴趣。]]></description>
-      <guid>https://t.me/hn_summary/100415</guid>
-      <pubDate>Sat, 20 Jul 2024 03:44:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>CrowdStrike 已发现并解决了近期内容更新中影响 Windows 的缺陷 [...]</title>
-      <link>https://t.me/hn_summary/100414</link>
-      <description><![CDATA[Crowdstrike – 关于 Windows 主机的 Falcon 内容更新的声明
-CrowdStrike 已发现并解决了最近影响 Windows 主机的内容更新中的缺陷，而 Mac 和 Linux 主机仍未受到影响。这不是网络攻击。导致蓝屏错误的问题已被隔离并修复。建议客户查看支持门户以获取更新并确保通过官方渠道进行沟通。CrowdStrike 保证其 Falcon 平台系统正常运行且不受影响。提供了识别受影响主机的详细说明和解决方法步骤。公司对给您带来的不便深表歉意，并致力于为所有受影响的客户恢复正常运营。]]></description>
-      <guid>https://t.me/hn_summary/100414</guid>
-      <pubDate>Sat, 20 Jul 2024 03:42:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>凯尔·斯托克（Kyle Stock），彭博新闻社</title>
-      <link>https://t.me/hn_summary/100413</link>
-      <description><![CDATA[美国公共电动汽车充电器将在 8 年内超过加油站
-作者：Kyle Stock，彭博新闻社
-
-
-4 月 16 日，迈诺特市 Simonson Station Store 的一家新快速充电站建成后，驾驶电动汽车穿越北达科他州变得更加容易。德克萨斯州埃尔帕索和阿拉巴马州莫比尔也在进行类似的扩建。第二季度，美国新增了 704 个公共快速充电站，增幅达 9%。按照这个速度，公共快速充电站的数量将在 8 年内超过加油站，预计到 2030 年，对充电基础设施的投资将翻一番。零售商和加油站运营商正在不断增加电动汽车充电器，以吸引越来越多的电动汽车驾驶员。尽管人们对电动汽车的需求存在担忧，但预计到 2025 年，美国纯电动汽车的销量将达到 250 万辆。充电站目前盈利，平均每天使用近 5 个小时。拜登政府的 NEVI 计划旨在填补充电空白，尽管前总统唐纳德·特朗普批评该计划效率低下。充电焦虑仍然是一个问题，但意识到充电站数量不断增加至关重要。]]></description>
-      <guid>https://t.me/hn_summary/100413</guid>
-      <pubDate>Sat, 20 Jul 2024 03:42:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
