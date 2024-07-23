@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 23 Jul 2024 09:15:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2024 12:27:08 GMT</lastBuildDate>
+    <item>
+      <title>介绍 Expedite - 一种简单的人类加密文件传输服务</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ea5qky/introducing_expedite_a_simple_encrypted_file/</link>
+      <description><![CDATA[目标 Expedite 是一种简单的加密文件传输服务，允许人们彼此同步共享资产，而不必依赖第三方文件共享服务（并且不断担心他们的数据可能被如何使用）或需要有公开可见的 IP 地址（并​​且不断担心脚本小子攻击您的计算机）。 Expedite Server 可以部署在虚拟专用服务器上，该服务器具有一个可被 Expedite Client 用户发现的 IP 地址，以代理文件内容。使用 WebSockets 进行的传输使用 128 位高级加密标准 进行端到端加密，并且服务器仅限于将无法识别的活动记录到易失性存储器中。 插图 Expedite Bridge - GUI 客户端 感觉很方便  https://raw.githubusercontent.com/gridhead/expedite/main/data/bridge-send-stat.png https://raw.githubusercontent.com/gridhead/expedite/main/data/bridge-recv-stat.png https://raw.githubusercontent.com/gridhead/expedite/main/data/bridge-send-prog.gif https://raw.githubusercontent.com/gridhead/expedite/main/data/bridge-recv-prog.gif  Expedite Prompt - CLI 客户端 看起来很酷  https://raw.githubusercontent.com/gridhead/expedite/main/data/prompt-send-stat.png https://raw.githubusercontent.com/gridhead/expedite/main/data/prompt-recv-stat.png https://raw.githubusercontent.com/gridhead/expedite/main/data/prompt-send-prog.gif https://raw.githubusercontent.com/gridhead/expedite/main/data/prompt-recv-prog.gif  Expedite Server - 经纪服务 啊，是的 - 谈判者  https://raw.githubusercontent.com/gridhead/expedite/main/data/brok-stat.png  尝试 如果这看起来让您感到兴奋，请考虑使用公开可用的服务器试用该项目，并让我知道如何通过提交软件错误或功能请求问题单来进一步改进该项目。 为项目存储库加星标、为代码库做贡献或赞助我继续从事更多 FOSS 项目，将永远不胜感激！&lt;3 每当将提交推送到存储库时，都会使用 PyInstaller 在 GitHub Actions CI 上构建二进制文件。请访问项目存储库的 GitHub Actions 页面 下载构建。虽然该项目可以在任何支持 Python 的平台上运行，但自动构建仅适用于 GNU/Linux 发行版和 x86-64 架构的 Microsoft Windows。 资源  Expedite - GitHub Expedite - PyPI Expedite - Docker Hub Gridhead - GitHub 赞助商     提交人    /u/t0xic0der   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ea5qky/introducing_expedite_a_simple_encrypted_file/</guid>
+      <pubDate>Tue, 23 Jul 2024 11:43:42 GMT</pubDate>
+    </item>
     <item>
       <title>我想开源一个到目前为止已经关闭并且有过去贡献者的项目</title>
       <link>https://www.reddit.com/r/opensource/comments/1ea3bn0/i_want_to_open_source_a_project_that_until_now/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[但我也想问，这是否合法。希望这篇文章不会马上被删除，我真的不知道 Spotify 的开源替代品是否合法，以及目前最好的替代品是什么    提交人    /u/Why-are-you-geh   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1e8yaje/do_you_know_a_good_open_source_alternative_for/</guid>
       <pubDate>Sun, 21 Jul 2024 22:21:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>为 WebKit 做出贡献的十五年</title>
-      <link>https://www.reddit.com/r/opensource/comments/1e8x4mp/fifteen_years_of_contributing_to_webkit/</link>
-      <description><![CDATA[  由    /u/der_gopher  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1e8x4mp/fifteen_years_of_contributing_to_webkit/</guid>
-      <pubDate>Sun, 21 Jul 2024 21:28:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
