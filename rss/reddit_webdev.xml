@@ -3,8 +3,36 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Wed, 24 Jul 2024 01:02:42 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Wed, 24 Jul 2024 03:16:47 GMT</lastBuildDate>
+    <item>
+      <title>导航问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ear1g0/nav_issues/</link>
+      <description><![CDATA[嗨， 有人可以帮我解决这个问题吗？导航在手机/平板电脑视图中无法展开。 如何修复？谢谢  https://dev1.icg.asn.au/    提交人    /u/SessionSure5920   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ear1g0/nav_issues/</guid>
+      <pubDate>Wed, 24 Jul 2024 03:06:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于启动页的理想视频尺寸的问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eaqycg/question_about_ideal_video_size_for_splash_page/</link>
+      <description><![CDATA[嘿书呆子们 不确定这是否是要问的正确 subreddit，但它似乎符合要求。  我正在制作一个单页网站，页面上的主要功能是视频前景中的表格。我的问题是，我在 Google 上似乎找不到可靠的答案，视频应该有多大？它最初是 4K 的 200MB，我可以将其压缩到 5MB 左右，但质量显然会受到影响。我可以将 1080p 版本缩小到 2-3MB，但我不确定我是否可以接受更大的文件，并且仍然让页面加载得相当快，而且重要的是，不会受到谷歌广告算法的惩罚。  希望这有意义。我是否坚持大约 5MB 和 4K，我可以使用稍大一点的文件吗？使用压缩率较低的 1080P 会更好吗？我希望它看起来很清晰，但也希望页面简洁。     提交人    /u/RD2Point0   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eaqycg/question_about_ideal_video_size_for_splash_page/</guid>
+      <pubDate>Wed, 24 Jul 2024 03:01:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>是 Vue 不受公司欢迎，还是 React 很受欢迎？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eaowj5/is_vue_unpopular_with_companies_or_is_react_just/</link>
+      <description><![CDATA[我申请职位时感觉很奇怪，因为我有丰富的 VueJS 和 Vue 经验，但几乎没有 React 经验。你们对这两个有什么看法？    提交人    /u/yelly4ce   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eaowj5/is_vue_unpopular_with_companies_or_is_react_just/</guid>
+      <pubDate>Wed, 24 Jul 2024 01:20:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Teo 方式在自定义域上进行电子邮件通信</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eaomjv/teo_way_email_communication_on_a_custom_domain/</link>
+      <description><![CDATA[嗨，我正在为一个家庭成员创建一个小型电子商务平台。问题在于销售通常涉及与客户（艺术佣金）的一些电子邮件沟通。 理想情况下，我希望系统向客户发送电子邮件，然后跟踪进一步的通信。大多数电子邮件平台似乎提供“发送”功能，但不提供接收功能。 其他人遇到过这个问题吗？（需要使用自定义域） 感谢您的任何建议。    提交人    /u/unforgivencode   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eaomjv/teo_way_email_communication_on_a_custom_domain/</guid>
+      <pubDate>Wed, 24 Jul 2024 01:06:21 GMT</pubDate>
+    </item>
     <item>
       <title>您怎样才能告诉个人（而非企业）他们的网络空间很糟糕？</title>
       <link>https://www.reddit.com/r/webdev/comments/1eao957/how_do_you_go_about_telling_an_individual_not_a/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[.aa    由   提交  /u/whateverwhoknowswhat   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1eaj35q/where_do_i_even_start_with_backend_authn_and_authz/</guid>
       <pubDate>Tue, 23 Jul 2024 21:05:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>[问题] 需要浏览器渲染专家的帮助！有关 Chrome 和（大量）图像的特定 CSS 性能问题。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eaizw7/question_need_the_aid_of_a_browser_rendering/</link>
-      <description><![CDATA[上下文：简而言之，我正在制作一个 Miro/Google Jamboard 风格的东西，只是为了好玩。我希望它完全在 DOM 节点中呈现（为了便于添加功能等）。 这是我几个月前在 YouTube 上贴出来的一个剪辑，给一个朋友看，让你确切地了解我的意思： https://www.youtube.com/watch?v=VcjoolhZ8do （大量我家狗狗的随机照片，每张都随机摆放，我可以单击并拖动并选择它们并移动，我可以放大和缩小等。） 元素设置为 left:0 和 top:0，然后使用变换进行定位。缩放是通过变换容器框等来完成的。 问题： 我在一个非常的具体实例中遇到了一些严重的性能问题：很多很多图像都“彼此重叠”。 例如，如果我在相同的 X 和 Y位置生成 500 个图像，放大、缩小或平移会让我觉得我的浏览器即将发生核熔毁，但 2000 个图像的布局使得它们“彼此相邻”则没问题。 这是我在 10 秒内平移和缩放 2000 个对象的性能，其中它们不“在......之上”彼此： https://i.imgur.com/btEEAAW.png （不算好，也不算太糟……） 这是我（尝试）平移和缩放 500 个对象的 10 秒性能，但它们都彼此重叠： https://i.imgur.com/IuGJHMc.png 是啊哈哈。 我觉得我已经尝试了所有该死的组合：  translateZ(0) 强制进行一些 GPU 渲染（这会导致疯狂闪烁的错误） will-change（这会导致无法渲染更改 DOM 结构 将图像的 image-rendering 设置为 pixelated（无） transform: Translation(x, y) vs transform: TranslationX(x) TranslationY(y)（无） backface-visibility（其他奇怪的错误） 禁用我的一堆 Chrome 扩展程序（很烦人，也没有帮助）  更令人愤怒的是，Microsoft Edge 完全没有任何性能问题。它绝对流畅！ 我基本上是发帖看看是否有人有这种应用程序的经验，并且有什么建议，可以帮助一个做愚蠢事情的白痴（我）！感谢你们！    由   提交  /u/thunderchild15   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eaizw7/question_need_the_aid_of_a_browser_rendering/</guid>
-      <pubDate>Tue, 23 Jul 2024 21:01:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何顺利整合苹果的“添加到主屏幕”。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eaior3/how_to_smoothly_integrate_apples_add_to_home/</link>
-      <description><![CDATA[我发现有些网站使用“添加到主屏幕”共享功能使其感觉像一个完整的应用程序，而有些网站根本没有集成它，主屏幕上的应用程序直接重定向到 Safari。我试过在谷歌上搜索这是如何做到的，但一无所获。如果你能随时帮助我，我将不胜感激！    提交人    /u/ApalyYT   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eaior3/how_to_smoothly_integrate_apples_add_to_home/</guid>
-      <pubDate>Tue, 23 Jul 2024 20:49:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>您能仅使用来自 OAuth 的访问/刷新令牌来访问 Reddit API 吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eai6dt/can_you_access_reddit_api_only_with_accessrefresh/</link>
-      <description><![CDATA[有没有办法无需提供登录凭据（用户名和密码）而仅使用通过 OAuth 登录后提供的访问或刷新令牌来访问 Reddit API？    提交人    /u/Maximum_Town_931   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eai6dt/can_you_access_reddit_api_only_with_accessrefresh/</guid>
-      <pubDate>Tue, 23 Jul 2024 20:28:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于为篮球视频游戏创建统计跟踪网站的建议？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eai1j6/advice_for_creating_a_stat_tracking_website_for_a/</link>
-      <description><![CDATA[https://bread2basket.com 是一个跟踪游戏组 (NBA 2K24/PC) 内玩家统计数据的网站。   比赛结束时所有十名玩家的数据是否会以某种方式自动同步/上传到他们的网站？他们是否手动上传统计数据（对于一个相当大的玩家群体来说，这似乎是一项艰巨的工作）。 有人告诉我源代码是公开的，可以免费使用。我使用过 WordPress 和 Dreamweaver（很久以前）。我在这里会不会有点力不从心？我没有编码经验。  理想情况下，我想以相同的方式跟踪统计数据，但也能够编辑和更改网站上的设计/颜色。我完全没有编写代码的经验，我应该放弃吗？或者有没有什么建议可以让我入门？非常感谢任何帮助或信息，谢谢。     提交人    /u/alcloudz1972   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eai1j6/advice_for_creating_a_stat_tracking_website_for_a/</guid>
-      <pubDate>Tue, 23 Jul 2024 20:23:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
