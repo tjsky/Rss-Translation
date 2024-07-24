@@ -4,11 +4,81 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 24 Jul 2024 12:26:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 15:16:04 GMT</lastBuildDate>
+    <item>
+      <title>为什么每个主题都有进度条，我从来没有用过进度条</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb3qn4/why_does_every_theme_have_a_progress_bar_ive/</link>
+      <description><![CDATA[      https://preview.redd.it/172bqauzehed1.png?width=1612&amp;format=png&amp;auto=webp&amp;s=22a6526d0fd20ff08c48612ef804f6bee7ce3fec 我也想知道为什么这么多主题看起来都一样。如果有人知道值得购买的优质主题，请随时告诉我。一个主题森林似乎遵循相同的模式   由    /u/miguste  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb3qn4/why_does_every_theme_have_a_progress_bar_ive/</guid>
+      <pubDate>Wed, 24 Jul 2024 15:05:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>我不明白为什么有些人如此痴迷于 Express.js。如果你正在决定使用什么工具进行个人项目，我会理解，但在公司环境中，情况就大不相同了。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb3mrw/i_dont_get_why_some_people_dog_on_expressjs_so/</link>
+      <description><![CDATA[我只想先声明一下，这并不是试图破坏允许我们创建后端 API 的其他工具，如 Golang、PHP 等，也不是试图成为 Express 的辩护者。在构建后端 API 时，我曾使用过 Express、Python 和 Golang，因此我完全愿意使用任何人喜欢的任何类型的工具，只要它能让他们完成工作。我认为这是最重要的事情：只需选择能让你得到你想要的工具。 归根结底，这只是基于我自己过去的经历以及基于我几个月来一直在阅读的一些新旧文章的个人反思。 在我的职业生涯中，我曾在 4 家公司工作过，2 家大型企业和 2 家初创公司。在这 4 家公司中，我们的后端 API 都是用 Express.js 构建的。当然，一个很大的原因是，在整个堆栈中使用单一编程语言（JS）使我们的工程师能够保持一致性和可维护性，同时能够在需要时在客户端和 API 代码库之间快速切换（如果他们正在全栈工作，或者他们愿意接受跳转到另一端的挑战）。 我们从未真正考虑过集成（缓慢或完全替换）构建 API 的其他方式（例如 Golang 或 Python）的原因是这没有必要，而且我认为这是很多反 Express 辩护者往往不承认的一个非常重要的观点。 归根结底，虽然速度很重要，但用户不会注意到加载时间相差几毫秒的差异。例如，对于许多用例来说，足够快与更快一样好。当然，如果我们遇到需要更快速度的任何用例，我们可能会放弃 Express 来处理某些业务逻辑，但我们从未这样做过。 Express 已经足够好了。 它工作正常，运行速度快，最重要的是，它允许我们在整个堆栈中快速迭代共享语言，这在全面扩展时非常强大。 我个人认为 Express 和其他基于 JS 的后端框架/库都很棒。 虽然它们确实有缺点，并且可以从其他语言中的功能中受益，例如 Golang 的并发性，但如果您正在进行的项目不需要它，那么 Express 就完全没问题。 没有必要因为有“更好”的选择而对框架甚至整个 JavaScript 进行纠结。 至少，我是这么认为的。     提交人    /u/sYfPxiq2sDlIltLc5ux1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb3mrw/i_dont_get_why_some_people_dog_on_expressjs_so/</guid>
+      <pubDate>Wed, 24 Jul 2024 15:01:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>吐槽我的投资组合</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb3hps/roast_my_portfolio/</link>
+      <description><![CDATA[大家好！我刚刚完成了我的作品集，希望得到一些反馈来改进它。我认为它在移动设备上看起来不错，但在大屏幕上就不怎么样了。 使用的技术：Nextjs、Tailwind 和 Resend 用于表单中的电子邮件。 作品集 存储库 提前致谢！    提交人    /u/FrancoCanzani   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb3hps/roast_my_portfolio/</guid>
+      <pubDate>Wed, 24 Jul 2024 14:55:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>约会网站开发者</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb3gih/dating_site_developer/</link>
+      <description><![CDATA[您好，我有兴趣创建一个与主流网站或应用类似的约会网站或应用。我只是好奇成本和维护，以及它是否值得。有人可以推荐某人吗，还是我应该忘掉它？谢谢     提交人    /u/Douchebiggerhoe   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb3gih/dating_site_developer/</guid>
+      <pubDate>Wed, 24 Jul 2024 14:53:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何使用 Supabase 创建不同的 Google 身份验证环境？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb30ny/how_can_i_create_a_different_google_auth/</link>
+      <description><![CDATA[我有一个 Svelte 应用，并且正在使用 Supabase 进行身份验证。我已经设置了 Google 提供商，并且它运行良好，但我想拥有不同的环境：一个生产环境和一个开发环境。 我想这样做是因为目前我有 Google 客户端 ID 和生产版本设置的密钥，当我想在开发应用时登录时，它会将我重定向到已部署的应用而不是本地主机。 我如何为开发创建不同的环境？我研究了使用 Docker 自托管 Supabase，但它没有身份验证。 我不是 GCP 专家，所以我可能错过了一些可以让我设置所需内容的东西。    提交人    /u/Tixarer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb30ny/how_can_i_create_a_different_google_auth/</guid>
+      <pubDate>Wed, 24 Jul 2024 14:35:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的网站有多丑？我正在使用 React 来实现这个功能。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb2zz5/how_ugly_is_my_website_i_am_using_react_for_this/</link>
+      <description><![CDATA[      我是前端新手，但我可以用后端做很多事情。如果我必须重写所有内容，哪个 css 库比较好？ 我希望它看起来像一份报纸，比如纽约时报。 堆栈：React + 纯 css（使用样式化组件） https://preview.redd.it/r1tk4o7y9hed1.png?width=1620&amp;format=png&amp;auto=webp&amp;s=be040e51355c3837521139a660c0e6b90d558b72    提交人    /u/give_me_a_job_pls   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb2zz5/how_ugly_is_my_website_i_am_using_react_for_this/</guid>
+      <pubDate>Wed, 24 Jul 2024 14:34:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>网站加载问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb1qcs/loading_issues_with_website/</link>
+      <description><![CDATA[在停机一年后，几个月来我一直在尝试将我的网站 (ezidi-heritage.com) 恢复运行。它已准备就绪，但不幸的是，我遇到了这个问题，似乎无法找到解决方案。当访问者尝试打开网站时，他们会在 Google Chrome 上收到以下消息： &quot;无法访问此网站，请检查 ezidi-heritage.com DNS_PROBE_FINISHED_NXDOMAIN 中是否有拼写错误&quot; 在 Safari 上： &quot;Safari 无法打开页面，因为找不到服务器。&quot; 我尝试清除网站缓存，但仍然不起作用。多位不同的读者告诉我，他们可以在 PC 上顺利打开它，有时切换到移动数据而不是 WiFi 时也可以（但并非总是如此）。我还应该补充一点，对于我和网站的其他所有者来说，除了切换 WiFi 时，它都可以正常打开。 希望有更专业的人能给我指明正确的方向。    提交人    /u/XelatShamsani   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb1qcs/loading_issues_with_website/</guid>
+      <pubDate>Wed, 24 Jul 2024 13:39:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Figma 中的完整 shadcn 设计系统，具有变体、颜色、排版、自动布局和明/暗模式。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb14pt/full_shadcn_design_system_in_figma_with_variants/</link>
+      <description><![CDATA[  由    /u/JourneyStudios  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb14pt/full_shadcn_design_system_in_figma_with_variants/</guid>
+      <pubDate>Wed, 24 Jul 2024 13:12:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>有谁在使用 meta graph api 时遇到过分页问题吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb0hyy/does_anyone_have_problems_with_pagination_in_meta/</link>
+      <description><![CDATA[我非常感谢您的帮助。 https://stackoverflow.com/questions/78787990/meta-graph-api-missing-previous-token-for-previous-page    提交人    /u/philosopher_ibrahim   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb0hyy/does_anyone_have_problems_with_pagination_in_meta/</guid>
+      <pubDate>Wed, 24 Jul 2024 12:41:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要一名能够设计静态公司登陆页面的 Web 开发人员</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eb07o0/need_a_web_developer_who_can_design_a_static/</link>
+      <description><![CDATA[正如标题所说，我们正在建立一家初创公司，我们需要有人以非常便宜的价格为我们设计和建立一个公司页面，因为我们负担不起太多费用。实际上只是象征性的价格。    提交人    /u/Lcs_0703   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eb07o0/need_a_web_developer_who_can_design_a_static/</guid>
+      <pubDate>Wed, 24 Jul 2024 12:27:49 GMT</pubDate>
+    </item>
     <item>
       <title>我创建了一个 .eu 域名，但我的受众是巴西人。这有问题吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1eb05yg/i_created_a_eu_domain_but_my_audience_is/</link>
-      <description><![CDATA[大家好！我在 go daddy 上购买了一个 .eu 域名。我这样做是因为“eu”是我品牌名称的一部分，所以听起来不错。那是 2 天前的事了。今天我意识到，这会成为我的问题吗？我的域名会不会对谷歌排名产生影响？ 我有葡萄牙国籍，所以我认为这对 mEurope 来说没问题，我可能必须遵守一些我甚至不知道的法律。    提交人    /u/Effective_Owl_9814   [链接] [评论]]]></description>
+      <description><![CDATA[大家好！我在 go daddy 上购买了一个 .eu 域名。我这样做是因为“eu”是我品牌名称的一部分，所以听起来不错。那是 2 天前的事了。今天我意识到，这会成为我的问题吗？我的域名会不会对谷歌排名产生影响？ 我有葡萄牙国籍，所以我认为拥有一个欧洲域名是可以的。我和 perplexity 谈过，它说了一些让我思考的话，我可能必须遵守一些我甚至不知道的法律。你们觉得呢？    提交人    /u/Effective_Owl_9814   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1eb05yg/i_created_a_eu_domain_but_my_audience_is/</guid>
       <pubDate>Wed, 24 Jul 2024 12:25:22 GMT</pubDate>
     </item>
@@ -22,7 +92,7 @@
     <item>
       <title>在现有模板上生成代码</title>
       <link>https://www.reddit.com/r/webdev/comments/1eaznc6/code_generation_on_top_of_existing_templates/</link>
-      <description><![CDATA[嗨，我一直在探索 Claude 3.5 的代码生成能力，看起来它可以生成比其他模型更一致的代码。但是，如果你要求它编写大量代码，它仍然无法维护，而且它在系统设计方面仍然很糟糕。 所以，我一直在考虑使用带有目录布局和基础架构模板的代码存储库，然后将存储库信息添加到 Claude 并要求它生成代码。它似乎有效，如果我传递一些基于 OpenAPI 的后端的结构，它可以非常一致地更新 API 定义和实现。查看 PoC 并分享您对此的想法：https://github.com/mify-io/mify-llm-editor。我想看看是否有其他人正在研究类似的想法，我愿意聊聊！    提交人    /u/heraldev   [链接] [评论]]]></description>
+      <description><![CDATA[嗨，我一直在探索 Claude 3.5 的代码生成能力，看起来它可以生成比其他模型更一致的代码。但是，如果您要求它编写大量代码，并且它在系统设计方面仍然很糟糕，它仍然无法维护。 因此，我一直在考虑使用带有目录布局和基础架构模板的代码存储库，然后将存储库信息添加到 Claude 并要求它生成代码。它似乎有效，如果我传递一些基于 OpenAPI 的后端的结构，它可以非常一致地更新 API 定义和实现。请查看 PoC 并分享您对此的想法：https://github.com/mify-io/mify-llm-editor。我想看看是否有其他人正在研究类似的想法，我愿意聊聊！    提交人    /u/heraldev   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1eaznc6/code_generation_on_top_of_existing_templates/</guid>
       <pubDate>Wed, 24 Jul 2024 11:59:11 GMT</pubDate>
     </item>
@@ -39,76 +109,6 @@
       <description><![CDATA[       由    /u/KarenOfficial  提交  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1eayxjs/what_the_hell_is_this_man_way_to_make_your/</guid>
       <pubDate>Wed, 24 Jul 2024 11:18:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要相信任何告诉你学习编码很容易的人</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eayvwr/dont_believe_anyone_who_tells_you_learning_to/</link>
-      <description><![CDATA[       由    /u/wonderful_utility  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eayvwr/dont_believe_anyone_who_tells_you_learning_to/</guid>
-      <pubDate>Wed, 24 Jul 2024 11:16:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站被黑客入侵/感染，需要帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eaybxd/website_hackedinfected_need_help/</link>
-      <description><![CDATA[您好，我为朋友制作了一个 wordpress 网站，但遇到了一些问题。在搜索栏中输入网址时，网站会重定向到一个试图向用户传播病毒的网页，但再次输入时会将您带到真实网站。这显然对商业页面不利！我运行了一个搜索恶意代码的插件，但什么也没找到。Htacess 似乎没问题。感谢您的时间，任何帮助都将不胜感激！    提交人    /u/Weak-Two-3579   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eaybxd/website_hackedinfected_need_help/</guid>
-      <pubDate>Wed, 24 Jul 2024 10:44:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>带有嵌入超链接的电子邮件图像签名？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eaxsb4/email_image_signature_with_embedded_hyperlinks/</link>
-      <description><![CDATA[大家好，如何创建带有指向我们的 LinkedIn、网站等的单独嵌入超链接的电子邮件签名图像？ 这可能吗？ 谢谢    提交人    /u/robbiedigital001   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eaxsb4/email_image_signature_with_embedded_hyperlinks/</guid>
-      <pubDate>Wed, 24 Jul 2024 10:10:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了一个小型辅助脚本来使用 TailwindCSS 和 Flowbite 完全设置 Symfony</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eaxi5j/i_created_a_small_helper_script_to_fully_setup/</link>
-      <description><![CDATA[嘿，我最近想使用 TailwindCss 和 Flowbite 创建一个 Symfony 项目。 但是，根据 TailwindCss 的指南，我无法让 Symfony 与样式配合使用。因此，我决定创建一个小帮助脚本，使用 Tailwind 和 Flowbite 完全设置完整的 Symfony 应用程序。 ICEatm/easySTW：一键使用 TailwindCSS 创建 Symfony 项目。（github.com） 如果有人想尝试一下：D    提交人    /u/daaaarbyy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eaxi5j/i_created_a_small_helper_script_to_fully_setup/</guid>
-      <pubDate>Wed, 24 Jul 2024 09:53:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想做一个婚礼场地安排网站，但不需要用 WP 写代码</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eax913/i_want_to_make_an_scheduling_website_for_marriage/</link>
-      <description><![CDATA[我没有编码经验，但热衷于创建一个婚礼场地安排网站。虽然我计划使用 WordPress 开发和自定义网站的外观，但我的挑战在于功能要求。 具体来说，我需要一个具有条件逻辑的表单。例如，一旦用户选择了一个场地，后续的表单字段应该根据该选择进行调整。此外，表单必须包含一个日历视图，允许用户选择和预订日期。一旦为某个场地预订了日期，该日期应该变灰，并且不可用于该特定场地的进一步预订，但仍可用于其他场地。 您能推荐一些 WordPress 插件或方法来在我的网站上创建和嵌入这样的表单吗？    提交人    /u/Kracayne   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eax913/i_want_to_make_an_scheduling_website_for_marriage/</guid>
-      <pubDate>Wed, 24 Jul 2024 09:37:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>请提供 LMS 和内容站点建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eaweip/lms_and_content_site_advice_please/</link>
-      <description><![CDATA[你好，我被要求寻找当前解决方案的替代方案：  支持门控内容订阅，也支持免费开放内容（博客文章） 支持平台上的学习环境和封闭社区（免费和付费会员） 支持电子商务 - 联盟产品和电子书。  目前，该网站在性能非常低的主机上使用 WordPress 运行。我已经将 Kajabi 和 Learnworlds 视为替代方案，但它们无法轻松设置门控和非门控内容，而这是网站所有者赚取收入的主要方式（占收入的 90%）。 是的，客户对成本很敏感，因此我试图提出一些建议，以帮助他们扩展到可以开发自己的解决方案的程度，但这不会在不久的将来实现。 有人对提供这些功能的平台有什么建议吗？ 我的直觉是在 wordpress 中重做一次，去除所有臃肿的东西，然后转移到更好的主机，直到业务扩展到足够的程度，但是哪个主机可以支持大约 50 000 个用户、200 种产品、1500 个食谱和 40 门课程呢？    提交人    /u/wernersgf   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eaweip/lms_and_content_site_advice_please/</guid>
-      <pubDate>Wed, 24 Jul 2024 08:40:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么才是正确的道路？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eaw596/what_is_the_right_track/</link>
-      <description><![CDATA[嗨！ 我正在考虑在 Web 开发领域开发一些技能。  到目前为止，我已经开始学习 jekyll。所以，它是关于静态站点的，我想知道对于几乎没有 Web 开发知识的人来说，这是否是一种正确的方法。？ 我的目标：我不知道 :) 我只是在空闲时间做这件事！    提交人    /u/Same_Half3758   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eaw596/what_is_the_right_track/</guid>
-      <pubDate>Wed, 24 Jul 2024 08:22:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>微小的绝对图像有响应吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eaw4rr/tiny_absolute_images_responsive/</link>
-      <description><![CDATA[你好！ 我想知道是否有人知道一种方法，可以使微小的绝对定位图像响应而无需使用大量媒体查询？ 我可以将绝对图像粘贴到某物上并使其跟随它吗？ 我尝试将相对和绝对放在一起，但也许我搞砸了。 提前致谢！    提交人    /u/Least_Programmer7   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eaw4rr/tiny_absolute_images_responsive/</guid>
-      <pubDate>Wed, 24 Jul 2024 08:21:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Excalidraw 自动保存如何工作？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eavy76/how_does_excalidraw_autosaves_works/</link>
-      <description><![CDATA[我一直在尝试 excalidraw，我想知道即使我关闭选项卡、删除 cookie 并关闭浏览器，它如何保留我的绘图。在他们的 github 上写着：本地优先支持（自动保存到浏览器）。如果我想实现类似的东西？我该怎么做？    提交人    /u/doa-doa   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eavy76/how_does_excalidraw_autosaves_works/</guid>
-      <pubDate>Wed, 24 Jul 2024 08:08:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>参与高效的学习资源</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eavxht/engaging_efficient_learning_resources/</link>
-      <description><![CDATA[我希望学习更多编程知识，特别是 Python，以补充我的技术堆栈。  我开始学习 Python fcc，但它从 100% 的指导变成了一项没有得到很好覆盖的大作业。我想这还不错，但我想知道是否有更有效的学习方法。  我自己喜欢一些指导（而不是只是自己动手做一些东西） 我倾向于 100 天 100python 的 udemy 课程，但我对加入后续课程也持谨慎态度。  有什么想法吗？    提交人    /u/Putrid_Acanthaceae   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eavxht/engaging_efficient_learning_resources/</guid>
-      <pubDate>Wed, 24 Jul 2024 08:07:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
