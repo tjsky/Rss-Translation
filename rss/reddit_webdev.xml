@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 26 Jul 2024 01:01:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 03:17:02 GMT</lastBuildDate>
+    <item>
+      <title>npm 缓存投毒</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ecdrp5/npm_cache_poisoning/</link>
+      <description><![CDATA[  由    /u/fagnerbrack  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ecdrp5/npm_cache_poisoning/</guid>
+      <pubDate>Fri, 26 Jul 2024 03:06:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>大家对于 figma code connect 有什么看法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ecc4v3/what_do_you_guys_think_about_figma_code_connect/</link>
+      <description><![CDATA[一直在狂看 figma config 2024 视频，最后看了关于 code connect 的这个视频。我不是开发人员，但我想了解开发人员在分发 figma 设计时是如何工作的 https://youtu.be/RvFSyxAWriw?si=uJETzy02x2wpotKG    提交人    /u/Even-Accountant7732   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ecc4v3/what_do_you_guys_think_about_figma_code_connect/</guid>
+      <pubDate>Fri, 26 Jul 2024 01:42:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>锁定..</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ecbbli/locking_in/</link>
+      <description><![CDATA[就像我在学习和做项目并分解代码工作原理时获得了动力一样。这种情况持续了大约一周左右，然后我突然停下来，变得懒惰，几乎不想做，然后我转而回去磨练，这只是一个重复的循环。我怎样才能保持一致？！     提交人    /u/Ancient_Pop_117   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ecbbli/locking_in/</guid>
+      <pubDate>Fri, 26 Jul 2024 01:01:41 GMT</pubDate>
+    </item>
     <item>
       <title>帮助编码的人工智能工具推荐</title>
       <link>https://www.reddit.com/r/webdev/comments/1ecand1/ai_tool_recs_to_help_with_coding/</link>
@@ -74,27 +95,6 @@
       <description><![CDATA[&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en-US&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;UTF-8&quot;&gt; &lt;title&gt;创建帐户&lt;/title&gt; &lt;script src=&quot;../Forms/createAnAccount.js&quot; defer&gt;&lt;/script&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;../Static/homePage.css&quot;&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;../Static/CreateAnAccount.css&quot;&gt; &lt;script&gt;函数validateForm（）{var username = document.getElementById（&quot;用户名&quot;）.value; var password = document.getElementById（&quot;密码&quot;）.value; var errorMessage = document.getElementById（&quot;错误消息&quot;）; 如果（username.trim（）===&quot;&quot; || password.trim（）===&quot;&quot;）{errorMessage.style.display =&quot;block&quot;;返回false; } else {errorMessage.style.display =&quot;none&quot;;返回true; } }&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;accountForm&quot;&gt;&lt;form class=&quot;createAccountForm&quot; method=&quot;POST&quot; action=&quot;/neilFun&quot; onsubmit=&quot;return verifyForm();&quot;&gt; &lt;div class=&quot;inputContainer usernameContainer&quot;&gt; &lt;div class=&quot;usernameInputLabel&quot;&gt; &lt;label for=&quot;username&quot; class=&quot;usernameLabel&quot;&gt;用户名:&lt;/label&gt;&lt;br&gt;&lt;br&gt; &lt;/div&gt; &lt;div class=&quot;usernameInputBar&quot;&gt; &lt;input type=&quot;text&quot; class=&quot;usernameBar&quot; name=&quot;username&quot; id=&quot;username&quot;&gt;&lt;br&gt;&lt;br&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;inputContainer passwordContainer&quot;&gt; &lt;div class=&quot;passwordInputLabel&gt; &lt;label for=&quot;password&quot;&gt;密码：&lt;/label&gt;&lt;br&gt; &lt;/div&gt; &lt;div class=&quot;passwordInputBar&quot;&gt; &lt;input type=&quot;password&quot; class=&quot;passwordBar&quot; name=&quot;password&quot; id=&quot;password&quot;&gt;&lt;br&gt;&lt;br&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;message&quot;&gt; &lt;div class=&quot;error&quot; id=&quot;error-message&quot; style=&quot;display:none;&quot;&gt;用户名和密码不能为空。&lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;submitButton&quot;&gt; &lt;button type=&quot;submit&quot; class=&quot;submit&quot;&gt;提交&lt;/button&gt; &lt;/div&gt; &lt;/form&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt; var button = document.querySelector(&#39;.createAccountButton&#39;); var left = Math.floor((screen.width - 600) / 2); var top = Math.floor((screen.height - 400) / 2); button.addEventListener(&#39;click&#39;, function() { // 在新窗口中打开 /createaccount 路由 var popupWindow = window.open(&#39;/createaccount&#39;, &#39;createAccountForm&#39;, &#39;width=600,height=400,left=&#39; + left + &#39;,top=&#39; + top); });这是从 flask 导入 Flask、render_template、request、send_from_directory、render_template_string 的 js 文件 app = Flask(__name__) @app.route(&#39;/neilfungames&#39;) def neilFun(): return render_template(&#39;neilufungames.html&#39;) @app.route(&#39;/homepage&#39;) def homepage(): return render_template(&#39;homePage.html&#39;) @app.route(&#39;/createaccount&#39;) def createAccount(): return render_template(&#39;formCreateAccount.html&#39;) if __name__==&#39;__main__&#39;: app.run(debug=True) 这是 py 文件 这是 html 模板 每当访问表单时，都会弹出消息 Cannot GET /Templates/createaccount.html ，我不知道为什么它无法识别表单。我可以得到帮助吗？     提交人    /u/Decent-Truck104   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ec6877/need_help_with_getting_a_form/</guid>
       <pubDate>Thu, 25 Jul 2024 21:14:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何像高级人员一样向后端团队报告 API 错误</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ec5qlh/how_to_report_api_errors_to_your_backend_team/</link>
-      <description><![CDATA[是否曾经遇到过 API 错误并难以有效地将问题传达给后端团队？https://www.karim.run/blog/report-api-errors-backend-team/    提交人    /u/alirezainjast   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ec5qlh/how_to_report_api_errors_to_your_backend_team/</guid>
-      <pubDate>Thu, 25 Jul 2024 20:54:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何制作一个供公司内部使用的实用网络应用程序，以便只有公司各个地点的员工才能访问它？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ec5bxb/how_does_one_make_a_utility_web_app_for_a/</link>
-      <description><![CDATA[它只是一个 CRUD 应用程序，用于搜索公司与之打交道的第三方提供商的公开数据。其中存储的信息不会真正敏感。但我相信只有他们才能使用。关于可访问性，传统上是如何做到的？ 我不是专业人士，所以我问这个？ 谢谢    提交人    /u/setdelmar   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ec5bxb/how_does_one_make_a_utility_web_app_for_a/</guid>
-      <pubDate>Thu, 25 Jul 2024 20:37:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作这样一个简单的宣传视频我可以使用什么技术？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ec59lf/what_technology_can_i_use_for_a_simple_promo/</link>
-      <description><![CDATA[https://www.youtube.com/watch?v=dhxrHvgXpSM&amp;t=3s 谢谢    提交人    /u/Meow_wo   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ec59lf/what_technology_can_i_use_for_a_simple_promo/</guid>
-      <pubDate>Thu, 25 Jul 2024 20:34:49 GMT</pubDate>
     </item>
     <item>
       <title>帮助查明域名瘫痪的原因！</title>
