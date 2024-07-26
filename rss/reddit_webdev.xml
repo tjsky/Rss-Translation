@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 26 Jul 2024 03:17:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 06:20:26 GMT</lastBuildDate>
+    <item>
+      <title>Zara 风格的网站——水平旋转，也可以垂直滑动。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ech02r/zara_style_website_horizontal_carousel_which_can/</link>
+      <description><![CDATA[大家好， 我最近受到 Zara 网站 (https://www.zara.com/us/) 的启发，并决定创建一些类似的东西。经过一番探索，我主要利用 GS​​AP Observer 来实现预期的效果。我制作了一个基本的演示，希望听听您对我的实现的想法。您可以在此处查看：https://carousel-git-carousel-xnslxs-projects.vercel.app。 本质上，它是一个水平轮播，每个主水平容器都可以垂直滑动。 期待您的反馈！   由    /u/Pipe-Silly  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ech02r/zara_style_website_horizontal_carousel_which_can/</guid>
+      <pubDate>Fri, 26 Jul 2024 06:15:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>VPS 上的 Nextjs 部署</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ecgq67/nextjs_deployment_on_a_vps/</link>
+      <description><![CDATA[      嗨，reddit 的开发人员。我有一个 nextjs 应用程序。我想将其部署到 vps。我已经完成了在 vps 上设置它的所有初始步骤。现在是时候在域上对其进行测试了，我一直收到“无法访问此站点”错误  这里可能是什么问题？我正在使用 nginx 作为反向代理并使用 pm2 来管理该过程。  我已经使用 curl 请求在服务器上本地对其进行了测试，并且可以正常返回主页。 我将非常感谢您的帮助。 附言：如果您需要有关此问题的更多信息，请告诉我。    提交人    /u/Late-Panda04   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ecgq67/nextjs_deployment_on_a_vps/</guid>
+      <pubDate>Fri, 26 Jul 2024 05:57:59 GMT</pubDate>
+    </item>
     <item>
       <title>npm 缓存投毒</title>
       <link>https://www.reddit.com/r/webdev/comments/1ecdrp5/npm_cache_poisoning/</link>
@@ -39,13 +53,6 @@
       <description><![CDATA[我和我的朋友为汽车零部件制造行业的客户开发了一个定制的业务管理应用程序。我们现在有兴趣将类似的定制版本出售给其他制造业的企业。 但是，我们不确定我们这样做的合法权利，因为原始应用程序是专门为我们的第一位客户开发的。 要点：  我们按小时获得开发报酬。 我们不清楚合同中关于所有权和转售权的具体规定。 虽然该应用程序是根据该客户的需求量身定制的，但许多功能可能对不同行业的类似企业有用。  问题：  我们是否可能有权转售此应用程序或它的某个版本？ 如果没有，我们有哪些选择可以利用这种经验向其他客户销售？ 我们应该注意什么以避免法律问题？ 关于如何就此事与我们的原始客户接洽，您有什么建议吗？  任何见解，特别是那些在软件开发合同或知识产权法方面有经验的见解，都将不胜感激。    提交人    /u/0aesna0   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1eca9aa/can_i_resell_a_custom_business_app_i_developed/</guid>
       <pubDate>Fri, 26 Jul 2024 00:11:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果我（实习生）发现错误代码该怎么办？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ec9txw/what_to_do_if_i_intern_found_bad_code/</link>
-      <description><![CDATA[所以，为了让你们了解情况，我是一家大公司的实习生（不说名字）。我和我的团队在一个小项目中工作……在它变得重要之前，它很小。该项目最初完全由实习生组成，但随着这些实习生成为初级员工，该项目变得与公司相关。我被分配了一项任务，要求我在前端应用程序中创建一个新路由。问题是，由于这个应用程序自实习生部署以来就没有被触及过，它包含的代码在添加新功能时不起作用。问题是我必须添加的新路线需要有身份验证和授权，问题是什么？已经实现的身份验证写在导航栏组件内。不仅如此，导航栏还包含仅适用于 /home（这是目前唯一的路线）的功能。快速的解决方法是简单地将导航栏中的所有内容复制并粘贴到新组件中并进行调整。但我真的认为我应该和我的上级讨论这个问题，看看我是否能帮忙解决它。我不知道如何处理这个问题，我想知道我有什么选择。值得一提的是，我们团队中只有几个开发人员，实际上一个只是后端，另一个是人工智能开发人员……而且他们也有很多任务，所以……是的。    提交人    /u/Beagles_Are_God   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ec9txw/what_to_do_if_i_intern_found_bad_code/</guid>
-      <pubDate>Thu, 25 Jul 2024 23:51:52 GMT</pubDate>
     </item>
     <item>
       <title>什么是 htmx，为什么它在 stackoverflow 开发者调查中几乎和 Svelte 一样受欢迎？</title>
@@ -88,13 +95,6 @@
       <description><![CDATA[嗨 尝试为正在进行的项目查找一些图像。  我正在寻找不适合工作但不是 xxx 的人的图像。有人有什么想法吗？ 谢谢    提交人    /u/chyllyphylly   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ec6bgy/does_anyone_know_where_i_can_find_adult_stock/</guid>
       <pubDate>Thu, 25 Jul 2024 21:18:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要帮助获取表格</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ec6877/need_help_with_getting_a_form/</link>
-      <description><![CDATA[&lt;!DOCTYPE html&gt; &lt;html lang=&quot;en-US&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;UTF-8&quot;&gt; &lt;title&gt;创建帐户&lt;/title&gt; &lt;script src=&quot;../Forms/createAnAccount.js&quot; defer&gt;&lt;/script&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;../Static/homePage.css&quot;&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;../Static/CreateAnAccount.css&quot;&gt; &lt;script&gt;函数validateForm（）{var username = document.getElementById（&quot;用户名&quot;）.value; var password = document.getElementById（&quot;密码&quot;）.value; var errorMessage = document.getElementById（&quot;错误消息&quot;）; 如果（username.trim（）===&quot;&quot; || password.trim（）===&quot;&quot;）{errorMessage.style.display =&quot;block&quot;;返回false; } else {errorMessage.style.display =&quot;none&quot;;返回true; } }&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;accountForm&quot;&gt;&lt;form class=&quot;createAccountForm&quot; method=&quot;POST&quot; action=&quot;/neilFun&quot; onsubmit=&quot;return verifyForm();&quot;&gt; &lt;div class=&quot;inputContainer usernameContainer&quot;&gt; &lt;div class=&quot;usernameInputLabel&quot;&gt; &lt;label for=&quot;username&quot; class=&quot;usernameLabel&quot;&gt;用户名:&lt;/label&gt;&lt;br&gt;&lt;br&gt; &lt;/div&gt; &lt;div class=&quot;usernameInputBar&quot;&gt; &lt;input type=&quot;text&quot; class=&quot;usernameBar&quot; name=&quot;username&quot; id=&quot;username&quot;&gt;&lt;br&gt;&lt;br&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;inputContainer passwordContainer&quot;&gt; &lt;div class=&quot;passwordInputLabel&gt; &lt;label for=&quot;password&quot;&gt;密码：&lt;/label&gt;&lt;br&gt; &lt;/div&gt; &lt;div class=&quot;passwordInputBar&quot;&gt; &lt;input type=&quot;password&quot; class=&quot;passwordBar&quot; name=&quot;password&quot; id=&quot;password&quot;&gt;&lt;br&gt;&lt;br&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;message&quot;&gt; &lt;div class=&quot;error&quot; id=&quot;error-message&quot; style=&quot;display:none;&quot;&gt;用户名和密码不能为空。&lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;submitButton&quot;&gt; &lt;button type=&quot;submit&quot; class=&quot;submit&quot;&gt;提交&lt;/button&gt; &lt;/div&gt; &lt;/form&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt; var button = document.querySelector(&#39;.createAccountButton&#39;); var left = Math.floor((screen.width - 600) / 2); var top = Math.floor((screen.height - 400) / 2); button.addEventListener(&#39;click&#39;, function() { // 在新窗口中打开 /createaccount 路由 var popupWindow = window.open(&#39;/createaccount&#39;, &#39;createAccountForm&#39;, &#39;width=600,height=400,left=&#39; + left + &#39;,top=&#39; + top); });这是从 flask 导入 Flask、render_template、request、send_from_directory、render_template_string 的 js 文件 app = Flask(__name__) @app.route(&#39;/neilfungames&#39;) def neilFun(): return render_template(&#39;neilufungames.html&#39;) @app.route(&#39;/homepage&#39;) def homepage(): return render_template(&#39;homePage.html&#39;) @app.route(&#39;/createaccount&#39;) def createAccount(): return render_template(&#39;formCreateAccount.html&#39;) if __name__==&#39;__main__&#39;: app.run(debug=True) 这是 py 文件 这是 html 模板 每当访问表单时，都会弹出消息 Cannot GET /Templates/createaccount.html ，我不知道为什么它无法识别表单。我可以得到帮助吗？     提交人    /u/Decent-Truck104   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ec6877/need_help_with_getting_a_form/</guid>
-      <pubDate>Thu, 25 Jul 2024 21:14:52 GMT</pubDate>
     </item>
     <item>
       <title>帮助查明域名瘫痪的原因！</title>

@@ -4,7 +4,14 @@
     <title>最新投稿：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>此子版块面向后专业人士。您想成为专业人士吗？请随意使用我们的“向专业人士提问”主题。副业？使用“向专业人士提问”主题。爱好？为了好玩？我们的姐妹子版块 r/videoediting 正是您想要的！</description>
-    <lastBuildDate>Fri, 26 Jul 2024 03:16:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 06:19:56 GMT</lastBuildDate>
+    <item>
+      <title>您是如何制作这样的动画标题的？</title>
+      <link>https://www.reddit.com/r/editors/comments/1ecfp6r/how_do_you_animate_titles_like_these/</link>
+      <description><![CDATA[ 如果可能的话，我想做类似这样的标题动画吗？   https://www.youtube.com/watch?v=-k2gsEI34CE&amp;t=29s  我喜欢标题在屏幕上进出动画的方式。我有一个理论上的方法，但至少需要几周时间。有没有更快的方法来制作这样的标题动画，有人知道吗？  非常感谢！我真的很感激！    提交人    /u/harmonica2   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1ecfp6r/how_do_you_animate_titles_like_these/</guid>
+      <pubDate>Fri, 26 Jul 2024 04:54:32 GMT</pubDate>
+    </item>
     <item>
       <title>为什么 Avid 在处理媒体方面如此糟糕？我想切换到 Premiere，但变化太大了</title>
       <link>https://www.reddit.com/r/editors/comments/1ecd4dc/why_is_avid_so_terrible_at_dealing_with_media_i/</link>
@@ -43,7 +50,7 @@
     <item>
       <title>避免（重大的）小错误</title>
       <link>https://www.reddit.com/r/editors/comments/1ec2nkk/avoiding_big_small_mistakes/</link>
-      <description><![CDATA[大家好 我是一名视频编辑，在一家代理机构工作，是个新手。我有一些经验（1 年多或少），我认为我最大的缺点是我经常犯很多小错误（一些闪烁，没有居中等等）。  每个人都会犯错，但我总是重复犯错，我觉得我给团队和我自己带来了麻烦，我想改变这种状况。  今天，我认为创建一个包含我经常犯的错误清单，以便在发送之前检查它，这可能是一个好主意。但我认为从长远来看，我可以忽略该清单，所以...你们是如何系统地避免这些错误的？     提交人    /u/SrThomsen   [链接] [评论]]]></description>
+      <description><![CDATA[大家好 我是一名视频编辑，在一家代理机构工作，是个新手。我有一些经验（1 年多或少），我认为我最大的缺点是我经常犯很多小错误（一些闪烁、没有居中等等）。  每个人都会犯错，但我总是重复犯错，我觉得我给团队和我自己带来了麻烦，我想改变这种状况。  今天，我觉得创建一个包含我经常犯的错误清单，这样在发送之前检查一下，这可能是一个好主意。但我认为从长远来看，我可以忽略那张清单，所以……你们是如何系统地避免这些错误的？     提交人    /u/SrThomsen   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1ec2nkk/avoiding_big_small_mistakes/</guid>
       <pubDate>Thu, 25 Jul 2024 18:48:49 GMT</pubDate>
     </item>
@@ -64,7 +71,7 @@
     <item>
       <title>寻求帮助恢复损坏的 Davinci Resolve Studio 项目库（PostgreSQL）</title>
       <link>https://www.reddit.com/r/editors/comments/1ec1rd2/looking_for_help_recovering_a_corrupt_davinci/</link>
-      <description><![CDATA[我们在共享环境中运行 Davinci Resolve Studio。项目数据库在 OWC Jellyfish（Linux 机器）上运行。我本周在服务器上运行了更新，像个傻瓜一样，忘记备份我的项目库。真倒霉，更新损坏了我的项目库，特别是包含根项目数据的表。该表称为 SM_Project。SM_Config 也不见了。在 pgAdmin 4 中打开这些表时，我收到的错误是“错误：pg_toast_432604 中缺少 toast 值 524986 的块编号 0。”恢复表格似乎毫无希望，这意味着项目本身似乎无法恢复。 但是，我可以看到我的所有时间线都在数据库中，即使托管它们的项目已经消失了。 这里有没有人足够熟悉 Davinci Resolve Studio 的 PostgreSQL 数据库，他们可以指导我以某种方式恢复这些时间线？这是一个长远的目标，到目前为止，Blackmagic 支持忽略了我，但我想我会问！ 目前，我们正在处理较旧的备份并重建一些丢失的时间线。 系统规格：OWC Jellyfish Rack Server - 2019 - 120TB 软件规格：Resolve Studio 18.6.6 素材规格：无关紧要，但主要是 4k Canon MXF 和 Canon Raw。    提交人    /u/jonjiv   [链接] [评论]]]></description>
+      <description><![CDATA[我们在共享环境中运行 Davinci Resolve Studio。项目数据库在 OWC Jellyfish（Linux 机器）上运行。我本周在服务器上运行了更新，像个傻瓜一样，忘记备份我的项目库。真倒霉，更新损坏了我的项目库，特别是包含根项目数据的表。该表称为 SM_Project。SM_Config 也不见了。我在 pgAdmin 4 中打开这些表时收到的错误是“错误：pg_toast_432604 中缺少 toast 值 524986 的块编号 0。”恢复表格似乎是无望的，这意味着项目本身似乎无法恢复。 但是，我可以看到我的所有时间线都在数据库中，即使托管它们的项目已经消失了。 这里有没有人足够熟悉 Davinci Resolve Studio 的 PostgreSQL 数据库，他们可以指导我以某种方式恢复这些时间线？这是一个长远的目标，到目前为止，Blackmagic 支持忽略了我，但我想我会问！ 目前，我们正在处理较旧的备份并重建一些丢失的时间线。 系统规格：OWC Jellyfish Rack Server - 2019 - 120TB 软件规格：Resolve Studio 18.6.6 素材规格：无关紧要，但主要是 4k Canon MXF 和 Canon Raw。    提交人    /u/jonjiv   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1ec1rd2/looking_for_help_recovering_a_corrupt_davinci/</guid>
       <pubDate>Thu, 25 Jul 2024 18:13:03 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[我们有大量专业人士访问此 subreddit - 同时还有很多人试图成为该领域的专业人士。 我们要求我们的专业人员每周一次检查我们的“问任何问题”和“职业”线程，并提供帮助！ 这些可以在新 Reddit 上的 subreddit 菜单区域或通过官方客户端找到。 需要清楚的是 - 我们正在从子版块顶部的每周链接中进行讨论。 https://i.imgur.com/I19zmc2.png 我们的想法是你进入那里并为以下人员提供有用的建议：  “问任何事情”人群 寻求职业建议的人。  谢谢（不是这里，请发那些帖子！） ​ 问任何帖子 职业帖子    提交人    /u/AutoModerator   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1ebzykn/regular_mod_request_of_our_professionals_please/</guid>
       <pubDate>Thu, 25 Jul 2024 17:00:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>修复损坏的档案视频？</title>
-      <link>https://www.reddit.com/r/editors/comments/1ebx41r/fix_for_damaged_archival_video/</link>
-      <description><![CDATA[视频播放时有“雪花”干扰。但如果我逐帧播放，我可以看到图像。有什么建议吗？我在 FCPX 中工作。以下是发生的情况： https://www.youtube.com/watch?v=wPCxoG8E_PA    提交人    /u/PaulKropfl   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1ebx41r/fix_for_damaged_archival_video/</guid>
-      <pubDate>Thu, 25 Jul 2024 15:02:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
