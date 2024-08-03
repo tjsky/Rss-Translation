@@ -4,7 +4,14 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Sat, 03 Aug 2024 09:14:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2024 12:23:12 GMT</lastBuildDate>
+    <item>
+      <title>人工智能之间的通信/语言白皮书</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ej1e2l/aitoai_communicationlanguage_whitepaper/</link>
+      <description><![CDATA[AI-to-AI 通信/语言白皮书 Synapse 是一种专为 AI-to-AI 通信设计的新语言。它值得注意的原因如下： 什么是 Synapse？  高效：最大化信息密度，最小化字母（字符）使用。 紧凑：使用“夸克” （原子单位）来表示诸如人（@P）、动作（@A）、关系（@R）、概念（@C）和状态（@S）等概念。  为什么它很重要？  速度：AI 代理之间的通信速度更快。 清晰度：清晰准确地交换复杂的想法。 效率：与自然语言相比，显著减少字符和标记数量。  示例：  英语：“人类正在殖民火星并创造栖息地。有没有可以维持食物、水和空气的资源？” Synapse：[START][P]@R(colonize)@P{HUMAN}⊗(@L,@C)?[Q]@P(∃@R)@P{RESOURCE}⊗(@C,@C,@C)[END]  您无法通过单个句子看出效率提升，但一旦您看完一个长段落，效率提升就会很明显。 效率提升早期估计：  字符减少：~36.5% 标记减少：~46-50%  潜在应用：  多智能体系统 分布式 AI 计算 AI 到 AI 的知识转移 高效存储AI 生成的内容  结论： Synapse 是 AI 通信领域的一项重大突破，使 AI 系统能够更快、更高效地交换复杂的想法。非常适合希望增强 AI 协作的 AI 研究人员和开发人员。 当我撰写第一篇关于加密的白皮书时，我了解到，您需要成为某个人或付钱或有关系才能让您的白皮书正式发布并经过同行评审，因此请注意，这是一篇尚未经过同行评审的预印本研究论文。 下载：https://singularityon.com/docs/whitepapers/synapse-ai-to-ai-language.pdf    提交人    /u/alby13   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ej1e2l/aitoai_communicationlanguage_whitepaper/</guid>
+      <pubDate>Sat, 03 Aug 2024 11:44:56 GMT</pubDate>
+    </item>
     <item>
       <title>长文本人工智能</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eixr2w/ai_for_long_texts/</link>
@@ -74,13 +81,6 @@
       <description><![CDATA[我最近采访了 Kyle Corbitt（YC23 创始人），他在过去几年中一直深入参与 LLM 微调领域。与预训练模型非常相似，最终从微调模型中获得的大部分性能提升都是精心规划和执行训练数据管理的结果。 我撰写了这篇文章，分享了 Kyle 在观察各种下游任务中数千个模型的微调时出现的重要最佳实践模式。其中一些验证了该领域长期以来的理解，另一些则令我感到非常惊讶（尤其是现代 SOTA LLM 的样本效率！） 希望分享这些知识可以帮助到别人！并且请在评论中分享您的其他见解，以便我可以更多地了解这个主题：D  文章链接： https://openpipe.ai/blog/fine-tuning-best-practices-series-introduction-and-chapter-1-training-data    提交人    /u/billmalarky   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eie3wa/llm_finetuning_best_practices_for_training_data/</guid>
       <pubDate>Fri, 02 Aug 2024 16:14:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌的 Gemini AI 模型名列前茅，将 GPT-4o 甩在身后</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ei8513/googles_gemini_ai_model_tops_charts_leaves_gpt4o/</link>
-      <description><![CDATA[关键要点  谷歌的实验性 Gemini 1.5 Pro AI 模型在基准测试中超越了 OpenAI 的 ChatGPT-4o； 该模型在 LMSYS Chatbot Arena 基准测试中获得了 1,300 分，超过了 GPT-4o 的 1,286 分和 Claude-3 的 1,271 分； AI 社区对 Gemini 1.5 Pro 充满热情，尽管它作为默认模型的未来仍不确定。  来源：https://www.bitdegree.org/crypto/news/googles-gemini-ai-model-tops-charts-leaves-gpt-4o-behind?utm_source=reddit&amp;utm_medium=social&amp;utm_campaign=r-google-gemini    提交人    /u/webbs3   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ei8513/googles_gemini_ai_model_tops_charts_leaves_gpt4o/</guid>
-      <pubDate>Fri, 02 Aug 2024 11:55:49 GMT</pubDate>
     </item>
     <item>
       <title>掌握法学硕士的 7 个免费资源</title>
