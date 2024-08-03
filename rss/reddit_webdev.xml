@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 03 Aug 2024 03:15:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2024 06:20:17 GMT</lastBuildDate>
+    <item>
+      <title>DocuRun — 作为端到端测试的文档</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eiv4zh/docurun_documentation_that_serves_as_endtoend_test/</link>
+      <description><![CDATA[        提交人    /u/lovasoa   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eiv4zh/docurun_documentation_that_serves_as_endtoend_test/</guid>
+      <pubDate>Sat, 03 Aug 2024 05:03:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>我认为客户搞砸了他们的网站？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1eit8f1/i_think_client_screwed_up_their_site/</link>
+      <description><![CDATA[大约 3 个月前，我为 Wix 上的一个客户（我知道）完成了网站重新设计。 在将网站交给他们之前，我确保将他们现有的域名转移到新网站，并在多种设备、浏览器等上进行了适当的测试。一切看起来都很好，运行正常。 我碰巧今晚查看了这个网站，因为我要把它展示给另一个潜在客户，但它链接到了旧网站！ 我感觉业务经理做了什么？我想知道在这种情况下我该怎么办..    提交人    /u/dreamingofbantam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1eit8f1/i_think_client_screwed_up_their_site/</guid>
+      <pubDate>Sat, 03 Aug 2024 03:19:46 GMT</pubDate>
+    </item>
     <item>
       <title>这就是现在的软件开发</title>
       <link>https://www.reddit.com/r/webdev/comments/1eisypc/this_is_what_software_development_looks_like_now/</link>
@@ -15,7 +29,7 @@
     <item>
       <title>您使用什么策略来调试未按预期运行的代码？</title>
       <link>https://www.reddit.com/r/webdev/comments/1eisws4/what_strategies_do_you_use_to_debug_code_that/</link>
-      <description><![CDATA[      来自书籍《The Eloquent Javascript》的屏幕截图    提交人    /u/wonderful_utility   [链接] [评论] ]]></description>
+      <description><![CDATA[      https://preview.redd.it/tz7gv56o9dgd1.png?width=927&amp;format=png&amp;auto=webp&amp;s=4f6d1a8c03716ae280583d822ac1c9614cc74ccd    提交人    /u/wonderful_utility   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1eisws4/what_strategies_do_you_use_to_debug_code_that/</guid>
       <pubDate>Sat, 03 Aug 2024 03:03:06 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[我正在制作一个简单的 HTML 和 CSS 网站。为了在移动设备上进行响应式网页设计，我正在学习媒体查询，但它们相互重叠。  例如：@media max-width 500px 影响 @media max-width 1000px。这只是它的要点。任何建议都会有帮助，谢谢。    提交人    /u/twooten11   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1eioed5/media_queries_are_overlapping/</guid>
       <pubDate>Fri, 02 Aug 2024 23:22:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于备份配置文件的 CLI 工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1einvjh/cli_tool_to_backup_config_files/</link>
-      <description><![CDATA[.zshrc、.zprofile、.npmrc，等等…… 我记得在某处听说过，有一些 CLI 工具可以自动监视这些文件并将更改提交到私有 github repo（虽然不记得名字了）。 我很好奇你现在在用什么    提交人    /u/8isnothing   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1einvjh/cli_tool_to_backup_config_files/</guid>
-      <pubDate>Fri, 02 Aug 2024 22:59:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要帮助了解该往哪个方向走吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eimtw9/need_help_understanding_which_direction_to_go/</link>
-      <description><![CDATA[大家好， 我不是开发人员，也不从事任何其他技术工作。 我很快就要为一家在线金融经纪公司开展业务，我有一个由 figma 的人设计的网站，它已准备好进行编码。 我的问题实际上围绕着在 CMS 方面该走哪条路或哪个平台最适合。 最初，我想做 webflow，因为我认为它很容易满足需求并能完成所有需要的事情。  唯一的问题是，我必须将此工具集成到我的网站上，下面是他们如何操作的指南链接； https://www.youxpowered.com.au/integration-find/ 它具体指出它不能在静态网站上使用，这让我有点担心。我只能想象它可能与 webflow 的嵌入代码选项一起使用，但如果它不起作用，那么我需要使用其他东西。 理想情况下，我希望网站非常快，除了图像、一些动画之外没有什么疯狂的，该工具将是查询功能，但具有良好的 SEO。 我考虑过 wordpress，但我知道人们经常抱怨需要很多插件才能达到良好的程度，速度可能是因此而出现的问题。  如能得到任何帮助，我们将不胜感激！     提交人    /u/Artificial93   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eimtw9/need_help_understanding_which_direction_to_go/</guid>
-      <pubDate>Fri, 02 Aug 2024 22:12:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
