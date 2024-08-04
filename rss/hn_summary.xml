@@ -4,107 +4,90 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Sun, 04 Aug 2024 11:20:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Aug 2024 18:05:51 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 符号分析工具是一个基于 Python 的应用程序，旨在分析文本 [...]</title>
-      <link>https://t.me/hn_summary/102543</link>
-      <description><![CDATA[显示 HN：符号分析工具
-符号分析工具是一款基于 Python 的应用程序，旨在通过检查各种符号系统来分析文本和视觉数据。它集成了先进的 NLP 技术、机器学习模型和外部知识源，以提供对含义和上下文的深入分析。主要功能包括文本和图像输入支持、高级预处理、符号提取、话语分析、情绪和情感分析、句法和范式关系计算、上下文影响、主题建模和数据丰富。该工具以全面的错误处理、强大的可视化选项和安全的 API 通信脱颖而出。它以多种格式输出详细报告，并提供交互式 Streamlit 仪表板供您探索结果。]]></description>
-      <guid>https://t.me/hn_summary/102543</guid>
-      <pubDate>Sun, 04 Aug 2024 11:20:20 GMT</pubDate>
+      <title>[媒体] WhenFS 是一个异想天开的项目，它将 Google 日历转变为 FUSE 文件系统，[...]</title>
+      <link>https://t.me/hn_summary/102587</link>
+      <description><![CDATA[WhenFS：日历现在是一个文件系统
+WhenFS 是一个异想天开的项目，它将 Google 日历转变为 FUSE 文件系统，允许用户使用日历事件创建、读取和写入文件和目录。它可以通过挂载朋友的 WhenFS 日历文件系统以独特的方式共享文件。该项目演示了如何操纵 Google 日历事件以作为文件系统运行，尽管存在限制和潜在错误。作者创建 WhenFS 作为 Rust 和 FUSE 文件系统的学习练习，强调了实验和混乱在学习过程中的重要性。欢迎贡献，只要它们包含轻松的模因。]]></description>
+      <guid>https://t.me/hn_summary/102587</guid>
+      <pubDate>Sun, 04 Aug 2024 18:05:51 GMT</pubDate>
     </item>
     <item>
-      <title>网络安全公司 CrowdStrike 面临投资者的集体诉讼，由普利茅斯 (Plymout) 牵头 [...]</title>
-      <link>https://t.me/hn_summary/102542</link>
-      <description><![CDATA[CrowdStrike 因全球 IT 中断被投资者起诉
-网络安全公司 CrowdStrike 因 Falcon 平台更新错误导致全球 IT 中断，面临投资者的集体诉讼，由普利茅斯县退休协会牵头。此次更新影响了超过 850 万台 Windows 设备，导致机场、医院和金融公司等各个部门的系统大面积崩溃和严重的运营中断。投资者声称 CrowdStrike 声称其平台的可靠性和全面测试是虚假的，导致股价下跌近 38%。该诉讼以违反《交易法》为由，要求赔偿财务损失。值得注意的是，达美航空报告称，此次事件造成 5 亿美元的损失，总体而言，此次停电估计给企业造成了 54 亿美元的损失。]]></description>
-      <guid>https://t.me/hn_summary/102542</guid>
-      <pubDate>Sun, 04 Aug 2024 10:45:08 GMT</pubDate>
+      <title>www.officedaytime.com 上的 x86/x64 SIMD 指令列表 (SSE 至 AVX512) 提供了全面的 [...]</title>
+      <link>https://t.me/hn_summary/102586</link>
+      <description><![CDATA[x86 amd64 SIMD 指令列表：SSE 到 AVX512
+www.officedaytime.com 上的 x86/x64 SIMD 指令列表 (SSE 到 AVX512) 提供了适用于 x86 和 x64 架构的 SIMD 指令的综合指南，涵盖了从 SSE 到 AVX512。它省略了 MMX 寄存器指令，并重点介绍了如何通过添加“V”前缀将 SSE 指令转换为 AVX。该指南介绍了 YMM 寄存器上 256 位操作的使用方法以及操作系统支持的要求，特别是 AVX512 指令。它强调了在编码前查阅英特尔手册的重要性，并提供了错误报告的反馈表。独特功能包括详细的指令名称及其对应的 C/C++ 内在函数名称。（基于 13% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/102586</guid>
+      <pubDate>Sun, 04 Aug 2024 18:00:46 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：www.economist.com</title>
-      <link>https://t.me/hn_summary/102541</link>
-      <description><![CDATA[当中国将灾难隐藏在记忆洞中
-标题：当中国将灾难隐藏在记忆洞中
-网站：www.economist.com
+      <title>[媒体] 摩托罗拉 Razr 2024 较其前代产品有了显着改进，具有 [...]</title>
+      <link>https://t.me/hn_summary/102585</link>
+      <description><![CDATA[摩托罗拉 Razr 2024 评测：尽管相机不尽如人意，但仍物超所值
+摩托罗拉 Razr 2024 比其前代产品有了显着改进，具有翻盖折叠屏中最大的外部屏幕、精致的铰链和更好的防水性。售价 700 美元，提供 3.6 英寸外部显示屏、联发科 Dimensity 7300X 处理器和一系列新功能，包括 Gemini AI 语音助手。这款手机的设计包括康宁大猩猩玻璃和素食皮革，既时尚又耐用。然而，它的相机性能，尤其是在低光照条件下，仍然令人失望。Razr 的电池寿命令人印象深刻，在适度使用的情况下可持续长达两天。尽管存在缺陷，Razr 2024 仍然是可折叠手机市场的有力竞争者。
 
-在中国南方一个僻静的山谷中，只有几根烧焦的树枝和树桩，现在被年轻的绿色蕨类植物部分遮盖，暗示着两年多前发生的悲剧。 2022 年 3 月 21 日，一架从昆明飞往广州的东航波音 737 客机在近乎垂直的俯冲中坠毁，机上 132 名乘客全部遇难。尽管灾难规模巨大，但没有任何神龛或纪念碑来纪念遇难者。没有任何公众纪念活动凸显了中国处理此类悲剧的一个有争议的方面，这种做法往往会将其从集体记忆中抹去。]]></description>
-      <guid>https://t.me/hn_summary/102541</guid>
-      <pubDate>Sun, 04 Aug 2024 10:39:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] RP2040 的 USB Sniffer Lite</title>
-      <link>https://t.me/hn_summary/102540</link>
-      <description><![CDATA[RP2040 的 USB Sniffer Lite
-“RP2040 的 USB Sniffer Lite”是一款专为 Raspberry Pi RP2040 设计的简单 USB 嗅探器，支持低速和全速 USB 模式。它充当虚拟 COM 端口，使其与所有操作系统兼容，无需额外软件。该项目旨在捕获 USB 数据以进行调试，但它缺乏数据包解码功能。独特的功能包括简单的硬件连接、针对性捕获的触发机制以及集成 USB 集线器以简化设置的专用板。嗅探器支持用于捕获和显示 USB 数据的各种设置和命令，并提供用于自定义硬件构建的原理图和 Gerber 文件。]]></description>
-      <guid>https://t.me/hn_summary/102540</guid>
-      <pubDate>Sun, 04 Aug 2024 10:29:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 网站：schengen.news</title>
-      <link>https://t.me/hn_summary/102539</link>
-      <description><![CDATA[欧盟机场乘客随身行李中不得携带超过 100 毫升液体
-标题：欧盟机场乘客随身行李中不得携带超过 100 毫升液体
-网站：schengen.news
+争议点：相机性能明显较差，尤其是在低光条件下，这可能会让某些用户望而却步。
 
-从 2024 年 9 月 1 日起，欧盟乘客将面临重新实施的限制，随身行李中的液体（包括气雾剂和凝胶）不得超过 100 毫升。据 Schengen.News 报道，这项措施遭到国际机场理事会 (ACI) 欧洲分部的批评，该理事会认为这将对乘客和机场产生负面影响。ACI 欧洲分部敦促欧盟委员会和成员国为这项临时措施制定路线图。争议在于对投资于先进 C3 扫描仪的机场进行处罚，这些扫描仪以前允许无限制地携带液体。这些扫描仪价格昂贵，早期采用者现在面临财务和运营压力。]]></description>
-      <guid>https://t.me/hn_summary/102539</guid>
-      <pubDate>Sun, 04 Aug 2024 10:09:46 GMT</pubDate>
+独特/巧妙的功能：外部显示器能够处理各种任务，改进的铰链设计是突出的功能。（基于 88% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/102585</guid>
+      <pubDate>Sun, 04 Aug 2024 17:56:40 GMT</pubDate>
     </item>
     <item>
-      <title>大型科技公司正在发出信号，他们在人工智能方面的 1000 亿美元巨额投资 [...]</title>
-      <link>https://t.me/hn_summary/102538</link>
-      <description><![CDATA[大型科技集团表示，他们 1000 亿美元的人工智能支出狂潮才刚刚开始
-大型科技公司表示，他们在人工智能 (AI) 方面的 1000 亿美元巨额投资才刚刚开始。这些科技巨头致力于进一步扩展他们的人工智能能力，他们认为这将推动未来的增长和创新。本文强调了人工智能对这些公司的重大财务承诺和战略重要性。然而，它也涉及围绕如此大规模人工智能部署的伦理影响和潜在社会影响的争议。这里令人惊讶的是投资规模之大，表明人工智能不仅是一种趋势，而且是未来技术的基础要素。]]></description>
-      <guid>https://t.me/hn_summary/102538</guid>
-      <pubDate>Sun, 04 Aug 2024 10:03:41 GMT</pubDate>
+      <title>[媒体] 在最近的 Gabfest Reads 节目中，John Dickerson 与 Roland Allen 谈论了他的 [...]</title>
+      <link>https://t.me/hn_summary/102584</link>
+      <description><![CDATA[日记如何从列表演变为个人历史
+在最近的 Gabfest Reads 节目中，约翰·迪克森 (John Dickerson) 与罗兰·艾伦 (Roland Allen) 谈论了他的书《笔记本：纸上思考的历史》。艾伦探讨了日记从单纯的列表演变为个人历史的过程，并指出尽管笔记本在欧洲广泛使用，但个人日记的采用却出现了有趣的延迟。令人惊讶的是，个人日记在 1560 年代左右出现在英格兰农村，而其他欧洲地区并没有出现这种发展。艾伦强调了日记中平凡事件和重大事件的融合，塞缪尔·佩皮斯 (Samuel Pepys) 对伦敦大火的详细描述就是一个例子。佩皮斯未经修饰、充满人性化的日记与他同时代人更为内敛的日记形成了鲜明对比。讨论还涉及马克·吐温在旅行日记中创新性地使用复写纸，这样可以轻松共享而不会损害原始日记。]]></description>
+      <guid>https://t.me/hn_summary/102584</guid>
+      <pubDate>Sun, 04 Aug 2024 17:39:32 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 2006 年，Sylvain Lesné 及其合著者在《自然》杂志上发表了一篇关于阿尔茨海默病的关键论文 [...]</title>
-      <link>https://t.me/hn_summary/102537</link>
-      <description><![CDATA[学术欺诈文化
-2006 年，Sylvain Lesné 及其合著者在《自然》杂志上发表了一篇关于阿尔茨海默病的关键论文，该论文大大支持了淀粉样蛋白假说，并吸引了超过 10 亿美元的研究资金。然而，2022 年，神经科学家 Matthew Schrag 发现了 Lesné 作品中的篡改图像，揭露了同行评审未发现的大规模欺诈行为。尽管不当行为严重，但 Lesné 仍然受雇于明尼苏达大学并受其资助，而明尼苏达大学对进一步调查此事几乎没有兴趣。此案体现了更广泛的学术欺诈问题以及机构未能追究肇事者的责任，就像 Marc Tessier-Lavigne 和 Dan Ariely 等知名人物的类似丑闻一样。文章认为，此类欺诈行为会延迟关键的医疗进步，并呼吁采取更严格的问责措施。
-
-争议点：
-- 文章表明，学术机构和同行评审流程是促成欺诈的同谋。
-- 文章批评学术欺诈者没有受到严厉惩罚，将其比作大规模过失杀人。
-
-独特/聪明的见解：
-- 将阿尔茨海默氏症治疗延迟的人道主义影响与战争伤亡进行比较。
-- 强调学术界的系统性问题，这些问题导致欺诈行为持续存在且不受惩罚。（基于 58% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/102537</guid>
-      <pubDate>Sun, 04 Aug 2024 09:49:35 GMT</pubDate>
+      <title>[媒体] 我喜欢辣酱，尤其是“火环”，它是哈瓦那辣椒和塞拉辣椒的美味混合 [...]</title>
+      <link>https://t.me/hn_summary/102583</link>
+      <description><![CDATA[制作自己的辣酱
+我喜欢辣酱，尤其是“火环”，这是一种由哈瓦那辣椒和塞拉诺辣椒、番茄、醋和香料混合而成的美味辣酱。不幸的是，在英国很难找到这种辣酱，所以我决定自己制作。制作过程很简单：将辣椒与蔬菜或水果一起在盐水中进行乳酸发酵，倒掉大部分盐水，加入醋，混合，慢炖，然后装瓶。乳酸发酵可以增强风味并杀死有害细菌，但要小心未排出的气体爆炸！我的实验结果好坏参半：成功的绿辣椒和洋葱酱、令人惊叹的苏格兰帽和菠萝酱，以及灾难性的苏格兰帽和香蕉泥。始终确保清洁以避免肉毒杆菌中毒，并将酱汁冷藏。如需更多提示，请查看 YouTube 上的 Chillichump。]]></description>
+      <guid>https://t.me/hn_summary/102583</guid>
+      <pubDate>Sun, 04 Aug 2024 17:02:19 GMT</pubDate>
     </item>
     <item>
-      <title>网站：vermaden.wordpress.com</title>
-      <link>https://t.me/hn_summary/102536</link>
-      <description><![CDATA[完美的 NAS 解决方案
-标题：完美的 NAS 解决方案
-网站：vermaden.wordpress.com
-
-
-我在选择硬件时优先考虑“性价比”，力求以最少的资源实现最高效率。最近，我转而使用静音无风扇 Dell Wyse 3030 LT FreeBSD 服务器进行备份，但我需要更多电力来执行 FreeBSD Poudriere/Bhyve 任务。我的基于 AMD 的游戏 PC 效率低下，空闲时消耗 40W。我探索了基于 AMD Ryzen 的替代方案，最终选择了 HP EliteDesk 705 G4 迷你电脑，但它在空闲时仍然消耗 14W。最终，我找到了一台配备 AMD Ryzen 3 5300U CPU 的 GenMachine Ren5000 迷你电脑，空闲时消耗不到 6W。它提供 4C/8T 性能、16GB RAM 和三个 M.2 插槽用于存储。我选择了 Crucial P3 Plus 4TB 和 WD SN740 2TB NVMe 硬盘，实现了 6TB 的存储量。我的备份策略遵循增强的“4.1 - 2 - 1 - 1”规则，确保跨多个系统和媒体类型的冗余。我还使用 FreeBSD 电源管理设置和 amdgpu.ko 内核模块来降低功耗。此外，EATON 3S Mini UPS 有效地保护了我的设置。如有任何其他问题，请随时联系我们。]]></description>
-      <guid>https://t.me/hn_summary/102536</guid>
-      <pubDate>Sun, 04 Aug 2024 09:03:17 GMT</pubDate>
+      <title>[媒体] BBC 的文章题为“他们正在加大压力：克里姆林宫加大对批评者的攻击[...]</title>
+      <link>https://t.me/hn_summary/102582</link>
+      <description><![CDATA[“他们正在收紧压力”：克里姆林宫加强对海外批评者的攻击
+BBC 的文章《他们正在收紧压力：克里姆林宫加强对海外批评者的攻击》强调了流亡俄罗斯反对派人士面临的日益增加的威胁。英国警方警告俄罗斯政客德米特里·古德科夫被列入危险名单。克里姆林宫对异见人士的镇压已经超出了俄罗斯的边界，针对欧洲的批评者。马克·加莱奥蒂等分析人士将此归因于克里姆林宫日益增长的偏执以及使用包括犯罪团伙在内的代理人来恐吓和伤害反对者。文章还详细介绍了其他活动人士的经历，例如 Alesya Marokhovskaya 和 Olesya Krivtsova，他们曾面临网络攻击、威胁和护照取消。俄罗斯驻伦敦大使馆没有回应置评请求。]]></description>
+      <guid>https://t.me/hn_summary/102582</guid>
+      <pubDate>Sun, 04 Aug 2024 16:54:14 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：news.ycombinator.com</title>
-      <link>https://t.me/hn_summary/102535</link>
-      <description><![CDATA[展示 HN：Remix Gear 和 Next.js Gear – 启动项目的最简洁方式
-标题：展示 HN：Remix Gear 和 Next.js Gear – 启动项目的最简洁方式
-网站：news.ycombinator.com
-
-我喜欢从头开始启动项目，但并非完全从零开始。我首选的堆栈包括 Remix 或 Next.js、Tailwind CSS、TypeScript、shadcn/ui 和 i18n。对于那些感兴趣的人，你可以在这里找到存储库：Remix Gear 和 Next.js Gear。这些设置为新项目提供了一个简化且高效的起点，结合了现代工具和最佳实践来加速开发。GitHubGitHub - rockstack-dev/remix-gear：启动 Remix 应用程序的最干净方式：TypeScript、Tailwind CSS、shadcn/ui 和 i18n。启动 Remix 应用程序的最干净方式：TypeScript、Tailwind CSS、shadcn/ui 和 i18n。 - rockstack-dev/remix-gear]]></description>
-      <guid>https://t.me/hn_summary/102535</guid>
-      <pubDate>Sun, 04 Aug 2024 08:52:09 GMT</pubDate>
+      <title>[媒体] 在“没有 RCE 就无法拼写 WebRTC - 第 1 部分”一文中，作者深入探讨了 WebRTC 的复杂性 [...]</title>
+      <link>https://t.me/hn_summary/102581</link>
+      <description><![CDATA[没有 RCE 就无法拼写 WebRTC - 第 1 部分
+在“没有 RCE 就无法拼写 WebRTC - 第 1 部分”中，作者深入研究了 Signal-iOS 和 WebRTC 的复杂性，以探索潜在的漏洞。本文首先强调了安全消息应用程序研究的重要性，特别是考虑到像 Signal 这样的应用程序在注重隐私的用户中很受欢迎。作者使用 Frida 和 Corellium 等工具建立了一个研究环境，并专注于 WebRTC，这是一个用于音频和视频通话的库。通过注入合成漏洞，作者演示了如何与 WebRTC 协议交互并深入了解 Signal 的数据库管理。这项研究旨在使复杂的移动漏洞利用任务变得更容易实现，最终创建了 ARM64 ROP 链以泄露 Signal 的设备数据库。值得注意的是，所讨论的漏洞是合成的，避免了提出零日漏洞利用的争议。本文的灵感来自 Natalie Silvanovich 在 Android 消息应用程序上的工作，但专门针对 iOS 和 Signal。所有引用的代码都可以在 Margin Research 的 GitHub 页面上找到，以供进一步探索。（基于 26% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/102581</guid>
+      <pubDate>Sun, 04 Aug 2024 16:46:09 GMT</pubDate>
     </item>
     <item>
-      <title>六年前，我为 2018 年成立的物联网初创公司撰写了一篇关于 Kubernetes 的博客文章。</title>
-      <link>https://t.me/hn_summary/102534</link>
-      <description><![CDATA[Kubernetes (k8) 简介——简要回顾
-六年前，我在 2018 年为我的 IoT 初创公司撰写了一篇关于 Kubernetes 的博客文章。从那时起，Kubernetes 取得了显著的增长，其 GitHub 统计数据就是明证：从 2018 年的 37,578 颗星和 1,693 名贡献者增加到 2024 年的 109k 颗星和 3,674 名贡献者。这一激增凸显了其作为有史以来最成功的开源项目之一的地位。Kubernetes 最初由 Google 开发，被认为很复杂，但其水平扩展、自动部署和自我修复等功能使其不可或缺。关键组件包括 Kubernetes 主节点和节点，以及 Pod 和服务等基本对象以及 ReplicaSet 和 Deployment 等高级对象。对于新手来说，Minikube 和《Kubernetes 入门与运行》一书等资源非常有价值。Kubernetes 将继续存在，亲身体验是掌握它的最佳方式。]]></description>
-      <guid>https://t.me/hn_summary/102534</guid>
-      <pubDate>Sun, 04 Aug 2024 08:47:03 GMT</pubDate>
+      <title>[媒体] 在《黑暗之星：航天飞机的新历史》中，马修·H.</title>
+      <link>https://t.me/hn_summary/102580</link>
+      <description><![CDATA[《暗星：航天飞机新史》评论
+在《暗星：航天飞机新史》中，马修·H·赫希探讨了长期以来开发航天飞机的雄心，NASA 的航天飞机就是一个典型例子。尽管航天飞机在技术上堪称奇迹，但它未能实现频繁、低成本进入太空的目标，赫希通过将其置于数十年的航天飞机开发工作中来强调这一点。这本书批评了航天飞机的设计妥协和技术缺陷，认为这些是其失败的根本原因，而不是广为接受的“偏差正常化”理论。赫希总结说，虽然航天飞机的独特情况不太可能被复制，但人们对太空飞机的兴趣仍然存在，塞拉太空公司的“追梦者”和美国太空部队的 X-37B 等当前项目就是明证。这本书的书名取自一部黑色喜剧科幻电影，反映了航天飞机的矛盾性和固有的危险性。]]></description>
+      <guid>https://t.me/hn_summary/102580</guid>
+      <pubDate>Sun, 04 Aug 2024 16:37:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>优化 Emacs 的速度和效率涉及微调其启动过程、管理 [...]</title>
+      <link>https://t.me/hn_summary/102579</link>
+      <description><![CDATA[使用 minimal-emacs.d 实现高效的 Emacs 启动和配置
+优化 Emacs 的速度和效率涉及微调其启动过程、管理基本设置和处理软件包安装。 minimal-emacs.d 存储库提供了带有 early-init.el 和 init.el 文件的最小 Emacs 配置，为更好的原始 Emacs 体验提供了坚实的基础。主要功能包括性能改进，例如减少渲染工作量和避免不必要的 UI 更新，以及配置本机和字节编译设置。该设置还管理软件包存档、自动保存和备份文件，并通过自定义 UI 元素和缓冲区行为来增强用户体验。要安装，请将存储库克隆到 ~/.emacs.d。通过在不同的启动阶段加载的其他初始化文件支持自定义。要更新，请从存储库中提取最新更改。]]></description>
+      <guid>https://t.me/hn_summary/102579</guid>
+      <pubDate>Sun, 04 Aug 2024 16:33:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 印度人正在为全球诈骗中心提供动力。</title>
+      <link>https://t.me/hn_summary/102578</link>
+      <description><![CDATA[印度人正在为全球诈骗中心提供资金。这不是出于选择
+成千上万的印度人被迫为全球诈骗中心提供资金，这不是出于选择，而是由于贩卖和胁迫。年轻人被贩卖到柬埔寨、老挝和缅甸的诈骗农场，在那里他们被迫在恶劣的条件下工作。这些业务类似于跨国呼叫中心，员工在迪拜接受培训，收集客户信息并将其传递给客户服务代理。来自 Telangana 贾格蒂尔区的 Rajiv（化名）讲述了他在柬埔寨西哈努克城的一个办公室的经历，那里的团队领导有来自喀拉拉邦的“Thor”、“Loki”和“Robin”等化名，以及来自孟加拉国的“David”。文章强调了这些诈骗行动中人口贩卖和强迫劳动的令人不安的趋势。]]></description>
+      <guid>https://t.me/hn_summary/102578</guid>
+      <pubDate>Sun, 04 Aug 2024 16:30:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
