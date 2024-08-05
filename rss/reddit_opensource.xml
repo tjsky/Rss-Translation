@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 04 Aug 2024 21:14:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2024 01:06:04 GMT</lastBuildDate>
+    <item>
+      <title>新的 Discord 开源替代品 - 意见和想法？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ek6chf/new_discord_open_source_alternative_opinions/</link>
+      <description><![CDATA[大家好！ 我是来自奥地利的开发人员，我对这篇文章感到非常兴奋。不久前，我开始开发一款新的聊天应用程序，该应用程序应该成为 discord / guilded 等的替代品。 该应用程序的目标是能够自己托管聊天应用程序，例如 TeamSpeak，同时它看起来更现代，如 discord / guiled 等。它仍处于早期访问状态，但可以使用 :) 我曾经在 discord 上有一个大约有 2k 名成员的服务器，我们遇到了用户使用 alt 帐户等大量发送直接消息的问题，当我联系 discord 时，他们的支持并不是最好的。这种依赖是我不喜欢的，因为他们的回复花了 3 个月的时间，而且也没有解决任何问题。 我对 discords 审核工具也不太满意，曾经有一个自定义机器人，我在其中实现了自己的“更高级”的审核工具。 因此，我尝试公会并成为 16k 服务器 /anime 的工作人员，但结果发现它和 discord 一样有缺陷。 还有其他替代方案，例如revolt，但我不太喜欢它的用户界面（个人喜好）和矩阵，它似乎“很难”上手。 fosscord 是我从未尝试过的东西，因为据我所知它是一个逆向工程的服务器等等，这就是为什么我没有开始使用它，因为我看不到它的未来。 （最初） 人们还提到了像 discourse 这样的平台，但检查之后发现它好像是付费的，这一点我不喜欢。 我还记得当时的 TeaSpeak，但它也值得怀疑，并且不再积极开发了。 不久前，我在 github 上发布了我的应用程序“DCTS”。我喜欢从事这项工作，看到人们在项目中互相贡献和帮助，这种感觉真是无法用语言描述，但它给我带来了很多快乐。我很好奇这个项目未来的发展如何。    提交人    /u/HackTheDev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ek6chf/new_discord_open_source_alternative_opinions/</guid>
+      <pubDate>Sun, 04 Aug 2024 21:24:25 GMT</pubDate>
+    </item>
     <item>
       <title>与 Astro 和 Tailwind 合作的开发者博客项目</title>
       <link>https://www.reddit.com/r/opensource/comments/1ejvvk2/developer_blog_project_with_astro_and_tailwind/</link>
@@ -29,7 +36,7 @@
     <item>
       <title>岔路。</title>
       <link>https://www.reddit.com/r/opensource/comments/1ejm4b2/fork_in_the_road/</link>
-      <description><![CDATA[大家好， 我一生都与技术息息相关，从我年轻时（12 岁）开始，我就一直在组装自己的电脑，13 岁时我第一次使用 Ubuntu，自从我发现大约在同一时期有一个庞大的开源开发者社区以来，我就一直关注并热爱开源软件。 快进到现在，我 28 岁，我从未上过大学，在 18 到 25 岁之间做过大约 7 年的厨师，在企业 IT 领域工作了大约 3 年，尽管我已经管理我父亲的小型企业网络基础设施大约 5 年了。在此期间，我已从初级 IT 技术员晋升为我们支持服务部​​门的二级技术员，我一直在努力学习。我已经完成了安全 +、Microsoft SC-200（Azure）以及本月晚些时候计划参加的 CCNA 考试的所有培训。我所修的课程都配有相当全面的实验室，我对通过考试充满信心。 我有一个相当强大的家庭网络，配有防火墙（使用 proxmox 虚拟化）、基于 Truenas 构建的 NAS，并且我托管了一系列 Web 服务，包括一个 AI 聊天服务器（使用 Ollama + Openweb-UI）、几个 WordPress 网站（一个是个人网站，一个是我父亲的公司网站）、一个项目管理套件（甘特图、票证、全部 9 码）、Wazuh XDR 和一个媒体服务器等。 我发现自己想要进入下一个级别，无论是在网络工程还是安全方面，尽管我面临的一个明显问题是，我觉得我对典型的 Windows 服务器架构和层次结构没有得到足够的了解。我对评估版进行了一些修改，尽管我从未在工作或实验室环境中设置和完成基于 Windows 的环境。主要是因为它对我来说非常无聊，我的整个实验室和家庭环境都在 Linux 和开源软件上运行。 如果没有这方面的经验，我在网络安全或网络工程领域有前途吗？是否值得努力奋斗并建立 Windows 环境，或者我是否可以在行业中前进，而重点不在于典型的 Windows 运行时？ 谢谢。    提交人    /u/PP_Mclappins   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 我一生都与技术息息相关，从我年轻时（12 岁）开始，我就一直在组装自己的电脑，13 岁时我第一次使用 Ubuntu，自从我发现大约在同一时期有一个庞大的开源开发者社区以来，我就一直关注并热爱开源软件。 快进到现在，我 28 岁，我从未上过大学，在 18 至 25 岁之间做过大约 7 年的厨师，在企业 IT 领域工作了大约 3 年，尽管我已经管理我父亲的小型企业网络基础设施大约 5 年了。在此期间，我已从初级 IT 技术员晋升为我们支持服务部​​门的二级技术员，我一直在努力学习。我已经完成了安全 +、Microsoft SC-200（Azure）以及本月晚些时候计划参加的 CCNA 考试的所有培训。我所修的课程都配有相当全面的实验室，我对通过考试充满信心。 我有一个相当强大的家庭网络，配有防火墙（使用 proxmox 虚拟化）、基于 Truenas 构建的 NAS，并且我托管了一系列 Web 服务，包括一个 AI 聊天服务器（使用 Ollama + Openweb-UI）、几个 WordPress 网站（一个是个人网站，一个是我父亲的公司网站）、一个项目管理套件（甘特图、票证、全部 9 码）、Wazuh XDR 和一个媒体服务器等。 我发现自己想要进入下一个级别，无论是在网络工程还是安全方面，尽管我面临的一个明显问题是，我觉得我对典型的 Windows 服务器架构和层次结构没有得到足够的了解。我对评估版进行了一些修改，尽管我从未在工作或实验室环境中设置和完成基于 Windows 的环境。主要是因为它对我来说非常无聊，我的整个实验室和家庭环境都在 Linux 和开源软件上运行。 如果没有这方面的经验，我在网络安全或网络工程领域有前途吗？是否值得努力奋斗并建立 Windows 环境，或者我是否可以在行业中前进，而重点不在于典型的 Windows 运行时？ 谢谢。    提交人    /u/PP_Mclappins   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ejm4b2/fork_in_the_road/</guid>
       <pubDate>Sun, 04 Aug 2024 03:50:22 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[我最初制作 OffTiktok 是为了与那些拒绝下载应用程序的人分享 tiktoks。 （因为在过去的几个月里，tiktok 使得没有应用程序观看视频变得更加困难）。 但后来一位用户提到我的网站在印度是如何运作的，而 Tiktok 在那里被禁止多年，所以这让我想到将它构建成一个替代的 Tiktok 客户端。 这是我的第一个开源项目，所以我可以使用我能得到的所有提示和建议。如果您对自托管感兴趣或只是查看代码，我已经在这里发布了前端，在这里发布了后端    提交人    /u/Mars-ALT   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1eip2cc/an_open_source_alternative_tiktok_client_and/</guid>
       <pubDate>Fri, 02 Aug 2024 23:53:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪种许可证对于开源来说尽可能开放，而对于模仿者来说尽可能限制？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1einkb2/which_license_is_as_open_as_possible_for_open/</link>
-      <description><![CDATA[我正在开发一个目前已获得 MIT 许可的项目。我的目标是允许我认为大多数人称之为合理使用的东西：个人使用和公司内部使用，并对软件进行更改，同时不允许数字再分发。什么是好的许可证？    由   提交  /u/morkelpotet   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1einkb2/which_license_is_as_open_as_possible_for_open/</guid>
-      <pubDate>Fri, 02 Aug 2024 22:44:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
