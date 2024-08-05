@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 05 Aug 2024 09:15:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2024 12:28:06 GMT</lastBuildDate>
+    <item>
+      <title>“pigg”（适用于 Raspberry Pi GPIO 的 Rust 驱动 GUI）v0.3.3 发布！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1eklg74/pigg_rustpowered_gui_for_raspberry_pi_gpio_v033/</link>
+      <description><![CDATA[我们很高兴地宣布 PIGG v0.3.3 具有新功能和改进：  联网 GPIO：远程控制 GPIO 硬件。 改进的 GUI：增强的引脚布局和功能。 兼容性：适用于 macOS、Linux、Windows 和 Raspberry Pi。 用户反馈集成：根据用户建议增强体验。  视频  带有连接对话框的视频 使用 CLI 参数进行连接的视频  安装 使用 cargo 或 make 从源代码构建。请参阅 BUILDING.md。 贡献和反馈 欢迎贡献和反馈！查看 CONTRIBUTING.md 和 讨论。 GitHub 项目 感谢您的支持！    提交人    /u/Pure_Squirrel175   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1eklg74/pigg_rustpowered_gui_for_raspberry_pi_gpio_v033/</guid>
+      <pubDate>Mon, 05 Aug 2024 11:31:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源世界里有类似 Kindle Immersion Reading 的东西吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ekkfrs/is_there_something_like_kindle_immersion_reading/</link>
+      <description><![CDATA[Kindle 沉浸式阅读是 Kindle 应用（我认为不是 Kindle 设备）的一项功能，当您打开电子书时，如果您同时收听有声读物，电子书上的单词会在音频叙述时突出显示。 我很确定没有完全替代它，但是有没有与此功能相关的工作？无论是包含同步的文本和音频的文件格式。比如带有单词精度字幕的音频。或者经过训练以同步文本和音频的 AI 模型。    提交人    /u/BlueSialia   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ekkfrs/is_there_something_like_kindle_immersion_reading/</guid>
+      <pubDate>Mon, 05 Aug 2024 10:30:22 GMT</pubDate>
+    </item>
     <item>
       <title>我制作了一个开源 AI 搜索引擎，可以查找 AI 工具（也可以用于其他用途）</title>
       <link>https://www.reddit.com/r/opensource/comments/1ekjawc/i_made_an_open_source_ai_search_engine_that_finds/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[Omegle 几个月前因创建者的财务和个人原因正式关闭。我不知道还有其他类似的网站，并且搜索了很长时间。我使用过的其他每个应用程序都没有相同的按兴趣搜索功能，或者有一些糟糕的基于代币/硬币的支付系统。随着 Omegle 的消失，我看不到一个可以轻松填补其空白的网站。我相信开源社区能够创造出同等或更伟大的东西。 我是一名计算机科学专业的学生，​​已经编程了几年，很想找到其他有兴趣开始这样一个项目的人。这是一个时间敏感的问题，如果开源社区不抓住这个机会，公司就会抓住。 Element Calls 似乎是一个潜在的平台，它的界面比 Omegle 更简洁，并支持屏幕共享。它是根据 Apache 2.0 许可证开源的，这是一个非常宽松的许可证。Element 还使用了 Node.js 和 Typescript 等现代技术。现在您可以访问他们的 Web 应用程序，创建呼叫，并通过无需登录的链接邀请其他人，因此很容易进行实验。 必须添加的功能包括加入与陌生人的随机通话并添加聊天框。否则，它全部已由开源开发人员构建，甚至看起来是加密的，这比非常不安全的 Omegle 要好得多。 让我知道你们的想法。您可以查看 github 此处 并通过第一个链接进行实验。    提交人    /u/rickowensfather   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ejjvtg/omegle_is_dead_lets_build_a_new_one/</guid>
       <pubDate>Sun, 04 Aug 2024 01:49:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找一种简单的方法来跟踪我的业务订单</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ejgjgd/looking_for_a_simple_way_to_keep_track_of_orders/</link>
-      <description><![CDATA[我在圣路易斯拥有一家电子产品维修店，我正在寻找一种以数字方式存储和跟踪正在进行的维修和客户联系信息的方法。我不一定需要整个 POS 系统，因为到目前为止，我一直在使用 Obsidian 来处理这个问题，但它不是最好的解决方案。我也尝试过将 Anytype 与 Freelance Dashboard 结合使用，但是我仍在学习 Anytype，到目前为止使用起来有点尴尬。 有哪些选项可以探索？我最好使用基于云的服务，或者至少是可以在我自己的服务器上托管或使用 Syncthing 或 Nextcloud 等备份的服务。谢谢！    提交人    /u/HonestRepairSTL   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ejgjgd/looking_for_a_simple_way_to_keep_track_of_orders/</guid>
-      <pubDate>Sat, 03 Aug 2024 23:02:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>跑步应用程序比较</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ejgfmh/running_apps_comparison/</link>
-      <description><![CDATA[RunnerUp、FitoTrack 和 OpenTracks，你们使用/推荐哪个，为什么？    提交人    /u/Zabarocky   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ejgfmh/running_apps_comparison/</guid>
-      <pubDate>Sat, 03 Aug 2024 22:58:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
