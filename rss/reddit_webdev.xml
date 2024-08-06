@@ -3,21 +3,98 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 06 Aug 2024 15:16:32 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
+    <lastBuildDate>Tue, 06 Aug 2024 18:20:19 GMT</lastBuildDate>
+    <item>
+      <title>团队中的非开发人员需要更新 HTML 和 CSS</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elofm8/nondevelopers_in_team_required_to_update_html_css/</link>
+      <description><![CDATA[嗨，webdevs， 我有一个关于不寻常情况的问题，我很好奇其他人是否经历过类似的事情，以及您或您的团队如何处理这个问题。  我在一个小部门（6 名团队成员）工作，技术上属于营销部门。我们管理公司的网站。我们其中 3 人是 Web 开发人员，另外 3 人是营销人员。最近我注意到营销人员经常想进入网站并对页面进行更改，主要是内容方面，但这引起了一些问题。   他们不太了解 html 他们不太了解 css 他们对现代 Web 概念一无所知  我们的新技术堆栈是 .net core MVC + api 路由。我们最近重新设计了网站，该网站使用 asp vb.net 和 shtml 页面，并且经常包含从...dreamweaver 模板生成的 html。（这里的开发人员都不知道 vb.net，当我被聘用时，我被告知技术是 C# MVC） 对于新设计，他们无法掌握模板化某些组件的重要性。我还推动为网站的文章部分开发或实施 CMS，该部分专门用于 SEO，不用于其他任何用途。我被拒绝了，所以我们选择使用 JSON 系统来处理页面内容并将其呈现到模板中。我知道这基本上只是一个非常基本的 CMS 系统。他们不断抱怨现在必须读取 JSON，并且抱怨要更改页面，他们可能必须打开 3 个文件而不是一个。  所以基本上我只是想知道，你们中有多少人必须在非开发人员编辑 HTML 并对网站进行更改的团队中工作。这是一种常见情况吗？如果您在这种情况下工作过，您是如何处理工作的？    提交人    /u/d0rf47   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elofm8/nondevelopers_in_team_required_to_update_html_css/</guid>
+      <pubDate>Tue, 06 Aug 2024 17:55:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人能推荐一个可以列出项目中使用的所有颜色的工具吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elo93t/can_anyone_suggest_a_tool_that_would_list_all_the/</link>
+      <description><![CDATA[我迷失在项目中的几十种灰色阴影中。 我想要一个 CLI (?) 工具来扫描项目并列出使用的所有颜色、它们的外观以及使用频率。 有这样的东西吗？    提交人    /u/punkpeye   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elo93t/can_anyone_suggest_a_tool_that_would_list_all_the/</guid>
+      <pubDate>Tue, 06 Aug 2024 17:48:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 markdown 文章页面中显示 PDF 文件/指南类型内容的最优雅方式是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elo596/what_would_be_the_most_elegant_way_to_display_a/</link>
+      <description><![CDATA[因此，我使用 Astro 为一个大学项目建立了一个旅游网站，它旨在收集大量关于城市周边景点等的书面文章，因此文章页面从自动提交的 markdown 文件中提取其内容、slug 等。但是，有些作者提交了指南风格的 PDF 文件，旨在像书一样阅读。 现在我只使用带有 &lt;iframe&gt; 的 PDF 查看器，但它看起来有点丑。我尝试了 Issuu 之类的东西，但您必须付费才能发布内容。有没有更好的方法来显示这些类型的东西？或者可能有其他解决方案？    提交人    /u/spookee3   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elo596/what_would_be_the_most_elegant_way_to_display_a/</guid>
+      <pubDate>Tue, 06 Aug 2024 17:44:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>评价我的作品集！我学习和使用 laravel 已经 3 个月了，所以可能有一些过时的代码。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elnpw3/rate_my_portfolio_im_3_months_into_learning_and/</link>
+      <description><![CDATA[大家好，我创建了我的第一个网站来分享我的作品，也是为了展示我的技能。该网站在网络上运行完美，我只想设计指针。但是，我确实有一个输入文本动画，因为我对 Java 和 Laravel 比较陌生，我不知道如何正确地为移动设备创建一个容器，这样它就不会干扰正常的网络动画。如果您确实遇到了错误，那么聊天和了解一些关于它的事情会很棒，除此之外，请让我知道您的第一印象。我将发布有问题的 Java，它可能有点过时，如果有更好的编码方法，请告诉我。 网站：https://cddesign.co.za/    提交人    /u/Clasuis_C   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elnpw3/rate_my_portfolio_im_3_months_into_learning_and/</guid>
+      <pubDate>Tue, 06 Aug 2024 17:27:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>提示：IIS 上的 PHP、服务器变量和手动编辑</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elmw5d/tip_php_on_iis_server_variables_and_manual_editing/</link>
+      <description><![CDATA[自从 1998 年左右开始我的职业生涯以来，我一直在 IIS 中工作，界面一直很糟糕。它就像是由一个听说过导航 UI 但从未真正做过的人设计的。 由于界面非常笨重，我喜欢手动编辑 URL 重写和服务器变量，因此我将在 VSCode 或 Codium（无论我在哪里安装）中打开 web.config。我今天学到了一些东西，我想传授给大家： 如果您正在使用服务器变量 - 我确实使用了其中的几个 - 它们必须位于任何重写规则之前，该规则重写到引用它们的页面。 例如： &lt;rule name=&quot;credit app routes&quot; stopProcessing=&quot;true&gt;  &lt;match url=&quot;^credit-app\/([^/]*)(\/([^/]*)|)$&quot; /&gt;  &lt;conditions logicalGrouping=&quot;MatchAll&quot; trackAllCaptures=&quot;false&quot; /&gt;  &lt;action type=&quot;Rewrite&quot; url=&quot;/admin/credit-app/?foo={R:1}&amp;amp;bar={R:3}&quot; appendQueryString=&quot;true&quot; logRewrittenUrl=&quot;true&quot; /&gt; &lt;/rule&gt; &lt;rule name=&quot;server var - local templates&quot;&gt;  &lt;match url=&quot;.*&quot; /&gt;  &lt;serverVariables&gt;  &lt;set name=&quot;HTTP_LOCAL_TEMPLATES&quot; value=&quot;d:\my-path\templates&quot; /&gt;  &lt;/serverVariables&gt; &lt;action type=&quot;None&quot; /&gt; &lt;/rule&gt; 如果 credit-app/index.php 尝试引用 HTTP_LOCAL_TEMPLATES，则会抛出错误“未定义索引”。 我原以为服务器变量一直可用，但与所有其他规则一样，它们按照解析的顺序进行定义。 今天早上我花了三个小时才弄清楚。    提交人    /u/mapsedge   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elmw5d/tip_php_on_iis_server_variables_and_manual_editing/</guid>
+      <pubDate>Tue, 06 Aug 2024 16:54:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>relume、framer、wix、其他。您认为最简单的网站建设工作流程是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elm5ac/relume_framer_wix_other_what_say_you_for_the_best/</link>
+      <description><![CDATA[大家好，我是这个小组的新手。搜索了历史记录以查找此类帖子，已经有一段时间了。 我是一名平面设计师，几乎没有网络经验，我的老板正在寻找一个好的内部网络解决方案。我一直在寻找并找到了上述 3 个。我很想听听您对这些人工智能网站建设者或其他您认为效果很好的网站建设者的想法或经验。 我们谈论的是简单的 2-3 页网站，没有电子商务，足够简单，客户可能有一天会接管内容管理。 我的专长是动画和 3D 可视化。所以，我绝不是开发人员，您分享的任何内容都将非常棒。    提交人    /u/littleGreenMeanie   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elm5ac/relume_framer_wix_other_what_say_you_for_the_best/</guid>
+      <pubDate>Tue, 06 Aug 2024 16:24:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>初级网络开发人员应该收费多少</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ellxny/how_much_should_a_beginner_web_dev_charge/</link>
+      <description><![CDATA[嗨，我是一名学生，用 React 做了几个简单的项目，我要和一位教授面谈。像这样的网站，使用 Google 表格可以轻松添加公告等更新，合理的时间/工资是多少：https://eecs485.org/# 老实说，我基本上必须查找任何语法    提交人    /u/sub2ddshoo   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ellxny/how_much_should_a_beginner_web_dev_charge/</guid>
+      <pubDate>Tue, 06 Aug 2024 16:15:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找我的单页网站构建器的测试人员</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ells4q/looking_for_testers_on_my_1page_website_builder/</link>
+      <description><![CDATA[最近一直在研究这个逐块构建网站的概念，重点是使用图像和视频内容来营销产品。最初试图构建一个更好的 linktree 版本，但意识到该产品可能有更广泛的应用，比如用作小型企业的内容组合。寻找可能想要测试产品并提供反馈的人，任何帮助都将不胜感激！链接可以在评论中找到。    提交人    /u/clarkeg02   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ells4q/looking_for_testers_on_my_1page_website_builder/</guid>
+      <pubDate>Tue, 06 Aug 2024 16:10:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发团队经理的职责是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elllc9/what_is_a_dev_team_managers_job/</link>
+      <description><![CDATA[请教一下最近刚调到新团队的某位经理（我），我现在对这位经理对开发、规划、沟通等知识的匮乏感到震惊……我原以为开发经理应该知道这些，但也许我错了？    提交人    /u/da_rose   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elllc9/what_is_a_dev_team_managers_job/</guid>
+      <pubDate>Tue, 06 Aug 2024 16:02:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>这是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elkyov/what_is_this/</link>
+      <description><![CDATA[      选择文本时弹出的这个黑框叫什么名字？ 我是一名后端开发人员，但喜欢在业余时间玩全栈项目。 我正在创建类似于这个黑框的功能，但很好奇它叫什么。    提交人    /u/Grapefruit6543   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elkyov/what_is_this/</guid>
+      <pubDate>Tue, 06 Aug 2024 15:37:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果您正在使用 HonoJS 和其他...</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elkpgx/if_youre_using_honojs_others/</link>
+      <description><![CDATA[嘿 r/WebDev - 我是 Fiberplane 团队的 los_cairos。我们是一群致力于开发一些可观察性产品的开发人员。 tl:dr: 我们推出了一个我们首选堆栈的模板和一个充满 Goose Quotes 的 API，我们很乐意听到您的想法。 最近，我们意识到构建并向世界提供您的产品仍然有点困难。随着技术复杂性的增加，构建事物并使其可用的复杂性也在增加。我们遇到了一套技术，这些技术使您从无到有到开发、测试和运送您的产品和 API 变得非常容易。我们称之为 HONC 堆栈，它基本上代表：  HonoJS ORM Neon（或任何其他无服务器数据库，但我们喜欢 neon） 云（专注于 Fastly、Cloudflare 等边缘产品）  我们已经玩了这套工具几个月了，我们真的很喜欢&quot;HONC&quot; 堆栈。它使我们的构建和运输方式更加容易。 为什么我们会成为这样的粉丝？ HonoJS 是一种在考虑性能和速度的情况下进行开发的好方法。该框架大约 14kb，依赖关系极少，但速度仍然很快。 ORM（如 Drizzle）让您可以轻松地使用编写代码的语言与数据库通信 Neon 的无服务器数据库非常适合用于可扩展性和开发工作。例如，它类似于 git 的分支功能让您可以轻松地使用与生产完全一样的数据库进行开发。（他们在 YouTube 频道上分享了更多相关信息） 云（特别是边缘）- Cloudflare 的 Workers 让在任何地方运送产品都变得低延迟，这对开发人员和用户来说都是一次很棒的体验。 我们看到人们对类似体验（不一定是 HONC）的兴趣日益浓厚，我们希望将其变成其他开发者社区可以使用的东西。我们已经创建了一个模板来开始使用所有这些作品，以及一个我们称之为 Goose Quotes 的 API，它可以生成（你猜对了）来自鹅的名言，以便任何人都可以使用它来测试他们的作品。你可以在 (honc.dev)[https://honc.dev] 上找到如何使用它们。 你现在在使用这些工具中的任何一个吗？我们很想听听你的经验。    提交人    /u/Los_Cairos   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elkpgx/if_youre_using_honojs_others/</guid>
+      <pubDate>Tue, 06 Aug 2024 15:27:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSS 输入边框颜色伪状态优先级</title>
+      <link>https://www.reddit.com/r/webdev/comments/1elkf9d/css_input_border_color_pseudostate_precedence/</link>
+      <description><![CDATA[我正在寻找 Web 上输入的默认或推荐的 border-color 伪状态优先顺序（即哪种状态应覆盖其他状态）。通过提示 Gemini，我得到了以下顺序： 无效 &gt; 聚焦 &gt; 悬停 &gt; 默认 听起来是对的，但我找不到可靠的来源，例如 MDN 或类似提到此约定的地方。 您能告诉我这条规则的出处吗？我需要证明这种行为的合理性，并且“我提示了 IA”不会浮动。 谢谢。    提交人    /u/sin_esthesia   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1elkf9d/css_input_border_color_pseudostate_precedence/</guid>
+      <pubDate>Tue, 06 Aug 2024 15:16:31 GMT</pubDate>
+    </item>
     <item>
       <title>📜超棒的页面滚动效果 | HTML 和 CSS✨</title>
       <link>https://www.reddit.com/r/webdev/comments/1elk7iy/awesome_page_scroll_effect_html_css/</link>
       <description><![CDATA[📜超棒的页面滚动效果 | HTML 和 CSS✨ 👉https://youtu.be/uV8kH5RgSZU    提交人    /u/robson_muniz   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1elk7iy/awesome_page_scroll_effect_html_css/</guid>
       <pubDate>Tue, 06 Aug 2024 15:07:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>我该如何解决这个问题？我不想让文本出现在网站上其他网页的链接下方</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eljtzu/how_do_i_fix_this_i_dont_want_the_text_to_go/</link>
-      <description><![CDATA[      这是我正在制作的一个实验性网站，我不知道如何解决这个问题。我希望文本“拥抱”链接并绕过它们。    提交人    /u/Alexs1897   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eljtzu/how_do_i_fix_this_i_dont_want_the_text_to_go/</guid>
-      <pubDate>Tue, 06 Aug 2024 14:52:52 GMT</pubDate>
     </item>
     <item>
       <title>为什么 r/webdev 和 r/freelance 之间有如此大的区别</title>
@@ -32,83 +109,6 @@
       <description><![CDATA[嘿， 我在 Windows 上使用 Opera 浏览器。 假设有一个带图片的网页，除了右键单击、单击另存为，然后在弹出窗口中按回车键外，没有其他方法可以下载图片。我在考虑两件事：  一个脚本/注入器，我可以将它绑定到一个键/鼠标上，当我按下它时，只需单击 1 次即可下载图像。 一个脚本/注入器，它添加了一个类似于下载按钮的 Web 元素，如果我按下它，它就会下载图像。  （在后台，这些脚本基本上应该使用页面的资源来访问页面的原始文件，而不仅仅是下载缩小的预览/缩略图） 我该怎么做，这可能吗？ （仅供参考，这只是想法，我对网络开发和脚本根本不了解）    提交人    /u/markedone66   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1elily4/quick_question_on_web_script_injections/</guid>
       <pubDate>Tue, 06 Aug 2024 14:02:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>离开 DevOps 领域几年了，现在发布应用程序的可靠方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1elg7qo/been_out_of_the_devops_space_a_few_years_what_is/</link>
-      <description><![CDATA[如果您要启动一个需要 Web 服务器、SQL 数据库、Redis 和 Worker 的应用程序，并且该项目具有严肃的意图，那么您将使用哪种部署配置来专注于将成本保持在最低水平，但具有自动扩展支持？ 任何东西都可以，无论是云编排还是 Docker，什么都可以。 感兴趣的人可以看看背景故事：5 年前，我曾经为 2 家初创公司运行 DevOps，我们做了我讨厌的 Cloudformation，Beanstalk 很难调试，所有 AWS 似乎都非常昂贵。在我最辉煌的 DevOps 时代，当我们拥有一个带有机架的 NOC 时，它变得非常容易，从长远来看也更便宜，现在我感觉自己完全不了解云的东西。我会学习更便宜/更简单的东西，我一直听说人们使用 ECS 而不是 Beanstalk，希望得到一些指导。     由    /u/IAmRules 提交   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1elg7qo/been_out_of_the_devops_space_a_few_years_what_is/</guid>
-      <pubDate>Tue, 06 Aug 2024 12:16:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cookie 同意问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1elfug2/cookie_consent_questions/</link>
-      <description><![CDATA[（这应该是一个相当简单的问题，但我搜索了好久都没找到简单的答案）： 如果用户点击拒绝或完全忽略 cookie 同意，每个使用 Google Analytics 的网站会做什么？ 我在网上找到的所有 cookie 同意示例和样板似乎都有接受/拒绝按钮，而拒绝按钮什么都不做。 但是，让我们以一个需要 cookie 才能工作的网站的用例为例。会话 cookie，是的，我知道这些不需要同意。但是，像 Google Analytics 这样的基本功能，我猜甚至第三方登录都需要同意。 所以我的问题是，如果用户点击拒绝或忽略，而网站仍然加载分析脚本，会发生什么？从技术上讲，该网络应用是否不合规？ 在这种情况下，设置接受和拒绝按钮有什么意义呢？只显示一个“确定”按钮并提及“如果您不同意，请勿使用本网站”之类的内容（类似于条款和条件）不是更好吗？ 但是，我认为上述内容也不符合 GDPR 规定，例如：指南中写道：“... 访问服务和功能不得以用户同意为条件...（所谓的 Cookie 墙）”。 因此，在这种情况下，我想知道... 当用户拒绝 Cookie 时，Web 应用程序究竟会做什么/应该做什么？只是不加载（比如说）分析脚本？在加载脚本之前等待 Cookie 同意“接受”？这如何与第三方登录（例如 Auth0）一起工作？ 如果用户完全忽略 cookie 同意，既不点击“接受”也不点击“拒绝”，应该有什么行为？那么，您是否会避免将 Google Analytics / Facebook 像素加载到页面上？在这种情况下，像 auth0 这样的第三方登录（应该）如何工作（如果有的话）？（或者那些是豁免的，被认为是必需的？）    提交人    /u/anonperson2021   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1elfug2/cookie_consent_questions/</guid>
-      <pubDate>Tue, 06 Aug 2024 11:57:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要网站设计</title>
-      <link>https://www.reddit.com/r/webdev/comments/1elfnug/need_website_designs/</link>
-      <description><![CDATA[我是一名前端开发人员，希望为自己建立一个合适的作品集，我需要合适的网站来向潜在客户展示。问题是，我不会设计一个网站来拯救我的生活。理想情况下，我希望面前有一个网站设计，这样我就可以简单地将其转换为代码。但显然，我没有，我该怎么办？忍受并设计我自己的东西？肯定还有其他方法。    提交人    /u/Neat_Place_3859   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1elfnug/need_website_designs/</guid>
-      <pubDate>Tue, 06 Aug 2024 11:47:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何决定缓存什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1elfnjh/how_do_you_decide_what_to_cache/</link>
-      <description><![CDATA[我知道缓存是什么以及它是如何工作的，但我不确定何时缓存某些内容以及应该缓存哪种数据。 或者我应该将哪种类型的缓存数据保留在内存中以及应该将哪些数据缓存为文件。 以这个为例。这是一个简单的笔记应用程序。我是否应该在用户每次保存笔记时都缓存他们的笔记，还是根本不应该使用缓存？    提交人    /u/mekmookbro   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1elfnjh/how_do_you_decide_what_to_cache/</guid>
-      <pubDate>Tue, 06 Aug 2024 11:47:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何将项目转移给客户</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eleyfw/how_to_transfer_a_project_to_client/</link>
-      <description><![CDATA[您好，最近我接受了一位客户的自由职业请求，我将使用 SvelteKit 创建一个 Web 应用程序。我想知道，一旦我完成了 Web 应用程序，我想将所有登录名和代码转移给客户。你通常是怎么做的？你会为 GitHub、Supabase、Hetzner、Vercel 等创建新帐户吗？或者你在工作完成后共享/转移代码和登录名吗？ 谢谢。    提交人    /u/fr0stx1337   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eleyfw/how_to_transfer_a_project_to_client/</guid>
-      <pubDate>Tue, 06 Aug 2024 11:09:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>评价我的投资组合</title>
-      <link>https://www.reddit.com/r/webdev/comments/1elekwq/rate_my_portfolio/</link>
-      <description><![CDATA[https://saurav-upadhyay.vercel.app/ 我终于完成了。看起来很基础。请给出改进建议。谢谢！！    提交人    /u/saurav193   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1elekwq/rate_my_portfolio/</guid>
-      <pubDate>Tue, 06 Aug 2024 10:47:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人告诉我我的网站看起来不专业（里面没有链接，可以接受奖励）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ele0pr/a_person_told_me_my_website_doesnt_look/</link>
-      <description><![CDATA[      大家好， 有外部人员告诉我，我们的网站看起来不专业，导致缺少惯例。 你的真实看法是什么？ 我喜欢给予，而不仅仅是接受。如果您需要我对您的网站提出意见，请随意附上您的图片。 https://preview.redd.it/vlndhyisp0hd1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=77eb8e5af082fdc54b84ced3582dba86b2a6f0ee    提交人    /u/alessiomavica   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ele0pr/a_person_told_me_my_website_doesnt_look/</guid>
-      <pubDate>Tue, 06 Aug 2024 10:12:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想要 ipad 上的 chrome devtools</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eld8uo/i_want_chrome_devtools_on_ipad/</link>
-      <description><![CDATA[我有一台 2022 年的 ipad m2。这东西真的很强大。我不明白为什么尽管如此我仍然无法访问 chrome devtools。在 ipad 上使用 github codespaces 编写代码真的很有趣。我想如果我可以访问具有所有功能的 devtools，我的 MacBook 使用量将大大减少。    提交人    /u/cancrkn   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eld8uo/i_want_chrome_devtools_on_ipad/</guid>
-      <pubDate>Tue, 06 Aug 2024 09:22:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>轻度动态网站的消亡</title>
-      <link>https://www.reddit.com/r/webdev/comments/1eld0t3/the_demise_of_the_mildly_dynamic_website/</link>
-      <description><![CDATA[  由    /u/fagnerbrack  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1eld0t3/the_demise_of_the_mildly_dynamic_website/</guid>
-      <pubDate>Tue, 06 Aug 2024 09:06:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为一名开发人员，当你看到产品上出现 AI 流行语时，你的反应是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1elcpxm/what_is_your_reaction_when_you_see_ai_buzzwords/</link>
-      <description><![CDATA[当您看到“人工智能驱动的未来”、“人工智能元素”之类的流行语时，您本能地有什么感觉？在看到 GitHub Universe 宣传片上到处都是人工智能后，我突然想问这个问题。包括面向开发人员的产品（如 GitHub），不那么面向开发人员的产品（如 Intercom），或者那些完全不适合开发人员且相当缺乏技术含量的产品 查看投票    由   提交 /u/blckJk004   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1elcpxm/what_is_your_reaction_when_you_see_ai_buzzwords/</guid>
-      <pubDate>Tue, 06 Aug 2024 08:45:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>博客垃圾邮件和搜索引擎优化</title>
-      <link>https://www.reddit.com/r/webdev/comments/1elcbjm/blogspam_and_seo/</link>
-      <description><![CDATA[我只是想发泄一下。我是一名开发人员，我经常需要跟踪我们为其创建登录页面的内容。 在 Google Analytics 中连接所有内容相对简单，但天哪，使用仪表板简直是一场噩梦。仪表板本身很好，但尝试找到任何不是博客垃圾邮件，SEO诱饵或AI生成的有用文档几乎是不可能的。 我想弄清楚事件报告的一些细节，我遇到了最长的文章：  Google Analytics（分析）中的事件历史记录 Google Analytics（分析）中的事件是什么 将我们的工具与Google Analytics（分析）结合使用 如何在Google Analytics（分析）中设置事件 在Google Analytics（分析）中报告事件  我明白这个主题特别受SEO专家这类文章的困扰，但我只想要一些好的文档，这样我就可以完成我的工作。 我只想编码..    提交人    /u/LISCoxH1Gj   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1elcbjm/blogspam_and_seo/</guid>
-      <pubDate>Tue, 06 Aug 2024 08:18:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
