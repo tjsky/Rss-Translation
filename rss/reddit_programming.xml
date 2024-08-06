@@ -4,14 +4,7 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>电脑编程</description>
-    <lastBuildDate>Tue, 06 Aug 2024 01:02:17 GMT</lastBuildDate>
-    <item>
-      <title>Codewars 问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1el4m8l/codewars_problems/</link>
-      <description><![CDATA[我无法理解 kata 的解决方案，它是 5 级的简单音乐编码器问题。它的解决方案如下：https://www.codewars.com/kata/reviews/5a9ce7f28bff1718c2001268/groups/6108769656bf4d0001ba88dd。我尝试在脑海中使用示例 [1,2,2,3,4,5,5,5,8,10,12,14,16] 来理解代码的工作原理。最初， &#39;stack&#39; 被分配为 [1,2] 而 &#39;difference&#39; 被分配为 1 ，然后发生第一次迭代，其中 &#39;value&#39; 为 2 ，唯一满足的条件是 else 块语句，因此 &#39;out&#39; 变为 [1] 且 &#39;difference&#39; 变为 0 且新的 &#39;stack&#39; 为 [2,2] ，下一次迭代发生在 &#39;value&#39; 变为 3 的地方，因为 len(stack)&gt;1 ，第一个 elif 块语句被执行，因此 &#39;out&#39; 变为 [1,2*2] 且 &#39;stack&#39; 变为 [3] ，但 &#39;difference&#39; 仍然为 0 ，在此之后似乎没有任何条件得到满足，代码应该停止工作，但事实并非如此，代码运行正常，有人能告诉我我的理解错在哪里吗？    提交人    /u/thanos2131   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1el4m8l/codewars_problems/</guid>
-      <pubDate>Tue, 06 Aug 2024 01:00:41 GMT</pubDate>
-    </item>
+    <lastBuildDate>Tue, 06 Aug 2024 03:16:15 GMT</lastBuildDate>
     <item>
       <title>配置编辑必不可少</title>
       <link>https://www.reddit.com/r/programming/comments/1el22s3/configuration_editing_is_imperative/</link>
@@ -109,6 +102,13 @@
       <description><![CDATA[  由    /u/ketralnis  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ektv0z/sqlpage_building_data_uis_entirely_in_sql/</guid>
       <pubDate>Mon, 05 Aug 2024 17:34:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>skint：便宜又快速的 R7RS Scheme 解释器</title>
+      <link>https://www.reddit.com/r/programming/comments/1ektu9c/skint_cheap_and_fast_r7rs_scheme_interpreter/</link>
+      <description><![CDATA[  由    /u/ketralnis  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ektu9c/skint_cheap_and_fast_r7rs_scheme_interpreter/</guid>
+      <pubDate>Mon, 05 Aug 2024 17:33:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
