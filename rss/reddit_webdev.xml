@@ -3,8 +3,43 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Thu, 08 Aug 2024 09:15:33 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Thu, 08 Aug 2024 12:27:19 GMT</lastBuildDate>
+    <item>
+      <title>向用户提供 Spotify 歌词的迷你项目</title>
+      <link>https://www.reddit.com/r/webdev/comments/1en42lw/mini_project_to_provide_spotify_lyrics_to_users/</link>
+      <description><![CDATA[由于 Spotify 决定停止向非付费用户显示歌词，我决定制作一个 next js 网站，该网站可与用户的 Spotify 同步，并获取和显示他们当前正在收听的歌曲的歌词。查看并告诉我你的想法！如果有人想测试 Spotify-sync 路线，请给我你的 Spotify 用户名和电子邮件，以便将其添加到 spotify web 应用程序，因为我没有付费版 :/ 还请告诉我如何添加一项功能，使我可以根据正在播放的歌曲的歌词突出显示歌词    提交人    /u/TheTempest848   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1en42lw/mini_project_to_provide_spotify_lyrics_to_users/</guid>
+      <pubDate>Thu, 08 Aug 2024 11:59:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>新手需要帮助将 codepen 整合到我的网站中</title>
+      <link>https://www.reddit.com/r/webdev/comments/1en3u15/newbie_here_need_help_incorporating_codepen_in_my/</link>
+      <description><![CDATA[请 dm     由   提交  /u/Susy_provides   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1en3u15/newbie_here_need_help_incorporating_codepen_in_my/</guid>
+      <pubDate>Thu, 08 Aug 2024 11:46:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>生产端 SaaS 项目适合使用 Java 还是 ASP.NET？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1en3cgq/java_or_aspnet_for_productive_side_saas_project/</link>
+      <description><![CDATA[假设您要构建 SAAS 解决方案，如果您同时具有 C# 和 Java 经验，您会选择使用 Spring 的 Java 还是使用 C# 和 ASP.NET？  我最有 C# 经验，但我在大学里有 Java 经验，所以对我来说，这两种方法都相当可行。起初，我在考虑像 supabase 这样的东西，但我确实喜欢控制后端，而且我认为学习 supabase 的效率与启动和运行简单的 Java/C# 后端一样高。 那么，除了开发人员更有经验之外，还有没有其他真正的生产力论据可以说明两者孰优孰劣？    提交人    /u/Ok-Commercial-4504   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1en3cgq/java_or_aspnet_for_productive_side_saas_project/</guid>
+      <pubDate>Thu, 08 Aug 2024 11:20:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>性能基准测试：gRPC+Protobuf 与 HTTP+JSON</title>
+      <link>https://www.reddit.com/r/webdev/comments/1en2d8y/performance_benchmarking_grpcprotobuf_vs_httpjson/</link>
+      <description><![CDATA[        由    /u/der_gopher   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1en2d8y/performance_benchmarking_grpcprotobuf_vs_httpjson/</guid>
+      <pubDate>Thu, 08 Aug 2024 10:20:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>地图上不显示图钉 - 救命！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1en25xc/pin_doesnt_display_on_the_map_help/</link>
+      <description><![CDATA[      正如标题所示，地图上缺少图钉，导致客户难以找到我们的建筑物。 请参阅所附图片 - 仅显示带有图片占位符的黑框。 https://preview.redd.it/877yvcerzehd1.jpg?width=1190&amp;format=pjpg&amp;auto=webp&amp;s=b3c440fba45efdd746184965bab353eecd2d79d7 阅读 OSM 论坛后，我怀疑该插件可能已过时：https://kriesi.at/support/topic/openstreetmap-marker-not-showing/ 以下是带图钉的位置的链接：https://www.openstreetmap.org/?mlat=57.23124&amp;mlon=-2.18573#map=12/57.2312/-2.1857 对于实际的网站，我只能访问构建器，它对 OSM 插件的选项有限，例如坐标、地图类型、大小、间距、锚点、类名和 onClick JS 事件，但这些都无济于事。 感谢您的帮助！:) .    提交人    /u/BISU47   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1en25xc/pin_doesnt_display_on_the_map_help/</guid>
+      <pubDate>Thu, 08 Aug 2024 10:09:01 GMT</pubDate>
+    </item>
     <item>
       <title>从 Heroku 迁移到 Coolify，现在面临持续的客户端错误 - 急需帮助！</title>
       <link>https://www.reddit.com/r/webdev/comments/1en1ady/migrated_from_heroku_to_coolify_and_now_facing/</link>
@@ -25,13 +60,6 @@
       <description><![CDATA[我是 Docker 新手，我想获得一些关于如何使用它进行前端开发的建议。 我认为 Docker 的主要优点是可以自动设置开发环境。但我找不到正确的方法。 许多资源都解释了如何在 Docker 容器中运行 Web 服务器。令我惊讶的是，甚至还介绍了实时重载。但是很少（如果有的话）解释如何将开发工具集成到 Docker 工作流程中，例如：  IDE 与开发工具的集成  使用 prettier 重新格式化模块（在保存时或使用键盘快捷键） 突出显示文件中的 ESLint 错误/警告 突出显示文件中的 TS 错误  在终端中运行命令  npx tsc --noEmit，显示整个项目中的 TS 错误 npx eslint src，显示整个项目中的 ESLint 错误 各种 NPM 脚本，例如 npm run test   运行 git hooks  pre-commit hook（由 Husky 配置）以重新格式化暂存文件prettier   所有这些任务都需要 Node.js 运行时。如果我要将 Node 完全抽象到 Docker 后面，我需要为它们每个找到一个 Docker 等效项。这感觉不对，我不认为自己会为了运行 prettier 而生成一个容器。目前，我觉得我这样做只是因为一些关于没有在我的计算机上安装 Node 的教条主义观点。 我目前关于这个主题的结论是： - Node.js 在 Web 开发中无处不在，以至于将它隐藏在 Docker 下会适得其反 - 在处理多个项目时，使用 NVM（或类似的东西）管理 Node 似乎是一个更好的折衷方案 - 在开发环境中，Docker 特别适合运行您不维护的软件（DBMS、消息代理等）。 这些结论公平吗？您在使用 Docker 进行开发方面有什么经验？   由    /u/debel27  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1emzyph/how_are_you_using_docker_for_frontend_development/</guid>
       <pubDate>Thu, 08 Aug 2024 07:40:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>这就是有关 TypeScript 的全部内容吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1emzglx/is_this_all_there_is_about_typescript/</link>
-      <description><![CDATA[这听起来可能有点扯，但作为一名以前没用过 TypeScript 的开发者，在我看来，在 TypeScript 中你必须学会​​如何输入原语和对象，这很简单，还有泛型（这些比较令人困惑），实用类型（比如 Record 或 Omit），还有 keyof/typeof 关键字，然后你就可以开始了……？我印象中，要想用好 TypeScript，你必须学会​​的东西列表要更详细，但似乎并非如此，除非我遗漏了什么。    提交人    /u/Royal-Reindeer9380   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1emzglx/is_this_all_there_is_about_typescript/</guid>
-      <pubDate>Thu, 08 Aug 2024 07:06:27 GMT</pubDate>
     </item>
     <item>
       <title>对 Apple Safari 分心控制功能有何看法？</title>
@@ -81,34 +109,6 @@
       <description><![CDATA[        提交人    /u/pahel_miracle13   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1emvdob/what_the_hell_could_be_possibly_causing_this_on/</guid>
       <pubDate>Thu, 08 Aug 2024 03:06:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的 JavaScript Set 方法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1emvde6/new_javascript_set_methods/</link>
-      <description><![CDATA[        提交人    /u/fagnerbrack   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1emvde6/new_javascript_set_methods/</guid>
-      <pubDate>Thu, 08 Aug 2024 03:06:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 AWS S3 上托管静态 HTML 页面，同时保持源代码的私密性？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1emun4j/how_to_host_a_static_html_page_on_aws_s3_while/</link>
-      <description><![CDATA[我是 WebDev 新手，仍在学习中。我构建了一个自定义 HTML 页面，该页面使用 &lt;model-viewer&gt; 代码在网络上显示 3D 模型，以及一些其他功能来更改灯光等。我想让这个页面可供公众访问，以便我可以将其嵌入到我的网站中。我是否必须将保存 HTML 的整个存储桶公开？这是否意味着任何人都可以访问该 HTML 文件中的源代码？    提交者    /u/FlickerJab408   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1emun4j/how_to_host_a_static_html_page_on_aws_s3_while/</guid>
-      <pubDate>Thu, 08 Aug 2024 02:30:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要帮助理解 SSO 实现。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1emtvtv/need_help_in_understanding_sso_implementation/</link>
-      <description><![CDATA[      大家好， 我正在尝试了解实现支持以下结构的经济高效的 SSO 的最佳方法。  我们有一组基于 WordPress 的网站，每个用户（即客户）都有一个唯一的登录名，然后还有一组第三方服务（如新闻通讯、支持系统等），这些客户也可以访问。 目前，用户需要维护单独的登录凭据才能访问所有服务（即 WordPress 网站、新闻通讯、支持系统）。我们希望实现一个单一登录选项，让用户在这些服务中使用单一登录详细信息。 我正在浏览各种资源，但我仍然有些困惑（尤其是不同的服务提供商使用不同的术语），不知道该选择正确的路径。我目前正在考虑的选项列表是 Auth0、OneLogin、Firebase/GIP、Clerk、Supertokens 等。 假设有 50 个独特的 WordPress 网站，是否有可能拥有一个 IdP 数据库，同时仍然允许特定用户仅访问他们自己的 WordPress 网站和共享的第三方服务？我很难具体理解这部分。 我已经创建了我们希望实现的结构的粗略图。没有公开注册选项，所有用户都是手动创建的。 全球用户（我们的团队）将可以访问所有内容。应用程序（即 WordPress 网站）用户只能访问该特定的应用程序/网站**并且**这些用户的**选择性**列表（通常每个站点只有一个）也将可以访问第三方服务。  https://preview.redd.it/4x2x5q4zhchd1.jpg?width=1142&amp;format=pjpg&amp;auto=webp&amp;s=64c5653c68de75228fc33a93b0c2d606fe26d00f 对于 WordPress，有几个 OAuth 或 SAML 插件可以连接到 Auth0（或其他提供商）。第三方服务确实允许我们配置基于 SAML 的登录。是否需要托管我们自己的登录页面？或者像 Auth0、OneLogin 等提供商也可以处理这个问题吗？ 有人可以推荐哪个提供商最适合我们的情况吗？或者如果您有任何其他建议，请分享。 旁注：在测试 WordPress 插件时，出现了 miniOrange，我想了解它的付费服务除了使用像 Auth0 这样的 IdP 之外还能带来什么额外价值，即向他们付费而不是直接在 WordPress 上使用 Auth0（或任何其他提供商）有什么好处吗？ 谢谢。    提交人    /u/tracer-tee   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1emtvtv/need_help_in_understanding_sso_implementation/</guid>
-      <pubDate>Thu, 08 Aug 2024 01:54:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>无需 API 密钥即可向另一个应用程序发出 Restful 请求</title>
-      <link>https://www.reddit.com/r/webdev/comments/1emsmfh/restful_requests_to_another_application_without/</link>
-      <description><![CDATA[      我有一个 Dockerized Backend 应用程序，我无法修改它（将其视为没有使用 API 密钥选项的开源项目）。 我有另一个名为 my-backend 的后端。我想从我的后端向dockerized后端发送Restful请求，但是每个发送到dockerized的请求都需要一个身份验证令牌，并且要获取令牌，您需要向其登录api发送请求。 我唯一能做的就是做一些类似cron作业的事情，定期在my-backend中发送登录请求以获取令牌，以便my-backend可以访问dockerized中的所有其他api。 最终我将有一个与my-backend通信的前端 有人遇到过同样的事情吗？你是怎么做的 https://preview.redd.it/ir3r3tuzidhd1.png?width=1294&amp;format=png&amp;auto=webp&amp;s=ea225395db8517b5cbe4f0e606d5f6cf0b887bc9    提交人    /u/More-Ad-5258   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1emsmfh/restful_requests_to_another_application_without/</guid>
-      <pubDate>Thu, 08 Aug 2024 00:53:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
