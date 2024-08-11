@@ -4,107 +4,95 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Sun, 11 Aug 2024 15:14:27 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 21:09:34 GMT</lastBuildDate>
     <item>
-      <title>ChatGPT 和 Claude 的质量随着时间的推移而下降是否已被证实？</title>
-      <link>https://t.me/hn_summary/103540</link>
-      <description><![CDATA[ChatGPT 和 Claude 的质量随着时间的推移而下降是否已被证实？
-Hacker News 上的讨论围绕着 ChatGPT 和 Claude 等 AI 模型的质量是否随着时间的推移而下降。用户报告了各种形式的下降，例如懒惰增加、表达能力下降和错误更频繁。然而，也有人声称没有发生退化，指出了不同的体验和解释。争论仍未解决，一些人认为感知到的退化可能是由于用户期望的变化或特定用例的差异造成的。争议在于缺乏共识和所报告体验的主观性。]]></description>
-      <guid>https://t.me/hn_summary/103540</guid>
-      <pubDate>Sun, 11 Aug 2024 15:14:27 GMT</pubDate>
+      <title>[媒体] 主板供应商已经开始推出针对英特尔酷睿第 13 代处理器的更新 BIOS 版本 [...]</title>
+      <link>https://t.me/hn_summary/103582</link>
+      <description><![CDATA[英特尔 Raptor Lake 0x129 CPU 微码对 Linux 性能的影响
+主板供应商已开始推出针对英特尔酷睿第 13/14 代主板的更新 BIOS 版本，这些主板具有新的“0x129”CPU 微码，旨在解决导致崩溃的 Raptor Lake 稳定性问题。英特尔的 Windows 测试表明性能影响很小，但我决定在 Linux 下运行基准测试来验证。上周末，我在搭载英特尔酷睿 i9 14900K 处理器的华硕 PRIME Z790-P WIFI 主板上测试了新的微码。比较 BIOS 更新前后的性能，我发现在 188 个基准测试中，整体性能基本保持不变，但也有一些例外。这是第一部分测试，根据读者的兴趣和遇到的任何特殊情况，可能会有更多测试。]]></description>
+      <guid>https://t.me/hn_summary/103582</guid>
+      <pubDate>Sun, 11 Aug 2024 21:09:34 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：www.jamesgmartin.center</title>
-      <link>https://t.me/hn_summary/103539</link>
-      <description><![CDATA[迫在眉睫的学生贷款灾难
-标题：迫在眉睫的学生贷款灾难
-网站：www.jamesgmartin.center
+      <title>[媒体] Hetzner 物理机上通过 QEMU 运行 OpenBSD 7.5（无物理。</title>
+      <link>https://t.me/hn_summary/103581</link>
+      <description><![CDATA[通过 QEMU 在 Hetzner 物理机上安装 OpenBSD 7.5（无物理访问/KVM 控制台）
 
-围绕拜登总统学生债务减免计划的持续法律纠纷掩盖了一个更紧迫的问题：迫在眉睫的学生贷款拖欠危机。教育部的一年过渡期将于 9 月结束，该过渡期允许借款人在疫情暂停后重新偿还贷款。然而，数千万借款人尚未恢复还款。截至 2024 年 3 月，有 730 万借款人拖欠还款，590 万借款人违约。拜登政府的 SAVE 计划目前因法律挑战而暂停，也导致了不还款现象。超过 2000 万借款人未偿还贷款，这对纳税人和借款人来说都是严峻的形势。政府可能会延长还款期限，但这不是一个可持续的解决方案。更负责任的做法是结束还款期限，停止大规模贷款取消的谈判，并改革还款制度，以确保借款人偿还贷款。降低借款限额和学生贷款制度私有化等根本性改革也是防止未来危机的必要条件。还款期限的结束需要立即引起注意，因为国家即将面临普遍不还款的后果。]]></description>
-      <guid>https://t.me/hn_summary/103539</guid>
-      <pubDate>Sun, 11 Aug 2024 14:52:18 GMT</pubDate>
+在本指南中，作者详细介绍了使用 QEMU 在 Hetzner 物理机上设置 OpenBSD 7.5 的过程，无需物理访问或 KVM 控制台。该设置包括两个 SSD 驱动器上的 RAID1 和一个加密分区。作者强调需要一种方法来完全控制安装和救援模式，绕过 Hetzner 的 KVM 接口的限制。该过程包括从 Hetzner 的救援映像启动、下载 OpenBSD 安装 ISO 以及使用 QEMU 模拟安装环境。这种方法的灵感来自用于 NetBSD 的类似方法。该指南非常详尽，提供了硬件规格和详细命令以确保顺利安装。巧妙地使用 QEMU 来保持对安装和救援过程的控制是此设置的一个独特方面。（基于 16% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/103581</guid>
+      <pubDate>Sun, 11 Aug 2024 21:06:30 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 20 世纪后期，口琴，尤其是 Hohner 的 Marine Band 型号，受到了 [...]</title>
-      <link>https://t.me/hn_summary/103538</link>
-      <description><![CDATA[一群口琴爱好者拯救了蓝调竖琴的灵魂（2013 年）
-20 世纪后期，由于削减成本的措施，口琴（尤其是 Hohner 的 Marine Band 型号）的质量下降。这导致该乐器的可演奏性大幅下降，令音乐家感到沮丧。然而，一群专注的口琴定制师，包括 Joe Filisko 和 Richard Sleigh，通过改进乐器的设计和调音，带头复兴了口琴。他们的努力被称为 Filisko 方法，恢复了口琴的声誉和可演奏性。爱好者们在诸如口琴保护与发展协会的大会等活动中庆祝口琴的复兴，强调口琴的持久吸引力和地下酷炫。
-
-争议：Hohner 在 20 世纪 70 年代和 80 年代采取的削减成本措施大大降低了口琴的质量，导致音乐家普遍不满。
-
-独特/巧妙：Filisko 方法可以根据个人演奏风格定制口琴，在恢复口琴的质量和受欢迎程度方面发挥了至关重要的作用。（基于 36% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/103538</guid>
-      <pubDate>Sun, 11 Aug 2024 14:22:02 GMT</pubDate>
+      <title>[媒体] 2023 年泰坦号潜水器内爆导致的首起非正常死亡诉讼已经结束 [...]</title>
+      <link>https://t.me/hn_summary/103580</link>
+      <description><![CDATA[罗技 F710 游戏手柄，据称是导致泰坦号潜水器内爆的原因
+2023 年泰坦号潜水器内爆导致的首起非正常死亡诉讼已经提起，突显了可能导致悲剧发生的几个因素。一个值得注意的争论点是使用廉价的罗技 F710 游戏控制器作为潜水器导航的唯一手段。著名泰坦尼克号专家 Paul-Henri Louis Emile Nargeolet 的遗产已对 OceanGate, Inc. 和其他公司提起诉讼，要求至少 5000 万美元的赔偿金。诉讼称，OceanGate 忽视了深海潜水专家对潜水器设计和构造的反复警告，包括使用游戏控制器、用碳纤维代替钛以及膨胀/压缩系数不同的材料。原告辩称，这些选择以及对安全问题的漠视态度导致了导致内爆的“一连串故障”。诉讼并未将责任归咎于任何单一因素，而是要求对被告的粗心和疏忽行为进行赔偿。]]></description>
+      <guid>https://t.me/hn_summary/103580</guid>
+      <pubDate>Sun, 11 Aug 2024 20:57:22 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 像 Graphene OS 这样的自定义 ROM 越来越受到人们的不满，因为它们被视为次要的 [...]</title>
-      <link>https://t.me/hn_summary/103537</link>
-      <description><![CDATA[自定义 ROM 已经受够了成为 Android 的二等公民
-自定义 ROM（如 Graphene OS）越来越不满于在 Android 生态系统中被视为二等公民。这些项目为用户提供增强的功能、隐私和安全性，尤其是在官方终止对其设备的支持时。然而，兼容性问题出现了，例如当多因素身份验证应用 Authy 拒绝在 Graphene OS 上运行，因为它依赖 Google 的 Play Integrity API。Graphene OS 批评 Google 的设备认证方法存在缺陷和不完整，认为兼容性测试套件和兼容性定义文档的要求经常被忽略并很容易被绕过。尽管提供了替代验证方法，但 Graphene OS 仍面临坚持使用 Play Integrity 的开发人员的抵制。如果谷歌不允许其通过 Play Integrity 检查，该项目准备采取法律行动，这凸显出潜在的监管之争可能会影响 Android 平台的开放性。]]></description>
-      <guid>https://t.me/hn_summary/103537</guid>
-      <pubDate>Sun, 11 Aug 2024 14:19:57 GMT</pubDate>
+      <title>[媒体] 在 newrepublic.com 上发表的《不良姿态的不良政治》一文中，作者探讨了社会 [...]</title>
+      <link>https://t.me/hn_summary/103579</link>
+      <description><![CDATA[不良姿势的不良政治
+在newrepublic.com上的“不良姿势的不良政治”中，作者探讨了 20 世纪早期姿势意识的社会经济影响。上流社会女性中舒适鞋履的兴起为蓬勃发展的鞋业创造了就业机会，尤其是对于弱势女性而言。然而，良好的姿势可以提升社会地位的观念是一个神话。本文还深入探讨了在著名大学拍摄裸体本科生的有争议的做法，这是一种与姿势研究有关的仪式，由于 20 世纪 60 年代和 70 年代的抗议而终止。令人惊讶的是，耶鲁大学的格雷琴·迪克 (Gretchen Dieck) 在 1976 年进行的一项研究表明，不良姿势对健康的影响可以忽略不计，这挑战了人们长期以来的观念。]]></description>
+      <guid>https://t.me/hn_summary/103579</guid>
+      <pubDate>Sun, 11 Aug 2024 20:53:17 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 伊隆马斯克的 X 社交网络最近对 Global Allia 提起了联邦诉讼 [...]</title>
-      <link>https://t.me/hn_summary/103536</link>
-      <description><![CDATA[X 在抵制诉讼中胜诉的可能性比我想象的要高
-埃隆·马斯克的社交网络 X 最近对全球负责任媒体联盟 (GARM) 提起了联邦诉讼，指控其组织了非法广告抵制。起初我持怀疑态度，但深入研究了这份长达 44 页的投诉，发现 X 的法律论据比我预期的要强。X 声称 GARM 在竞争对手之间协调抵制违反了《谢尔曼法》禁止集体抵制的规定，集体抵制被视为“本身”违法。虽然 GARM 可以辩称其有“支持竞争”的理由，但诉讼的财务压力已经导致其解散。此案提出了有关反垄断法与集体行业标准之间平衡的重要问题。]]></description>
-      <guid>https://t.me/hn_summary/103536</guid>
-      <pubDate>Sun, 11 Aug 2024 13:58:47 GMT</pubDate>
+      <title>[媒体] 在《即将到来的欧洲宗教战争及其避免方法》一书中，作者探讨了 [...]</title>
+      <link>https://t.me/hn_summary/103578</link>
+      <description><![CDATA[即将到来的欧洲宗教战争及其避免方法
+在《即将到来的欧洲宗教战争及其避免方法》中，作者探讨了由于穆斯林人口不断增加而导致欧洲发生重大冲突的可能性，到 2050 年，穆斯林人口在某些国家可能达到 30%。本文强调了历史先例，例如南斯拉夫战争和最近的恐怖袭击，作为未来可能发生动乱的指标。作者认为，伊斯兰教的核心教义，特别是伊斯兰教法，本质上与西方价值观相冲突，可能导致社会和政治冲突。有争议的是，这篇文章表明伊斯兰教义会促进与非信徒的永久冲突，一夫多妻制会加剧年轻穆斯林男性之间的暴力行为。然而，作者也指出了潜在的改革，例如沙特阿拉伯的穆罕默德·本·萨勒曼所倡导的改革，这些改革可以通过现代化伊斯兰教义来缓解这些紧张局势。本文最后指出，欧洲有可能采用更严格的治理模式来维持和平。]]></description>
+      <guid>https://t.me/hn_summary/103578</guid>
+      <pubDate>Sun, 11 Aug 2024 20:48:12 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 我在 Textual 上工作了一年多，学到了很多关于终端的知识 [...]</title>
-      <link>https://t.me/hn_summary/103535</link>
-      <description><![CDATA[构建现代 TUI 框架时我学到的东西
-我已经在 Textual 上工作了一年多，学到了很多关于 Python 终端和软件开发的知识。现代终端仿真器非常复杂，使用类似于视频游戏的图形技术。使用“覆盖，不清除”等技巧、在单个输出中写入新内容以及使用同步输出协议可以实现流畅的动画。Python 中的 DictViews 功能强大，可以优化更新，而 lru_cache 装饰器的速度非常快。不可变对象简化了代码，Unicode 艺术增强了文档。令人惊讶的是，Python 的 fractions 模块解决了布局中的浮点错误。然而，由于字符宽度不同和渲染不可预测，终端对表情符号的支持仍然存在问题。Textualize 正在招聘人员进一步开发这个 TUI 框架。
-
-争议：由于渲染不一致和字符宽度不同，终端对表情符号的支持是一项重大挑战。]]></description>
-      <guid>https://t.me/hn_summary/103535</guid>
-      <pubDate>Sun, 11 Aug 2024 13:53:43 GMT</pubDate>
+      <title>当我加入 Trolltech 时，Qt 的文档稀少且过时。</title>
+      <link>https://t.me/hn_summary/103577</link>
+      <description><![CDATA[Trolltech 的文档流程
+当我加入 Trolltech 时，Qt 的文档非常稀少且过时。作为第一位外部 Qt 用户，我感到缺乏适当的文档，因此我决定自己创建一个可用的文档工具并改进文档流程。我成为了文档主管，编写了 Qdoc 等工具，通过识别未记录的函数和参数来简化文档流程。我们的方法强调不会干扰程序员工作流程的简约工具。我们还调整了我们的工具以满足不断变化的需求，例如当 Eirik 编写 Qt 教程时。士气高涨，因为 Trolltech 看到了他们文档工作的价值。用户的兴趣和内部反馈推动了持续改进。基本的写作技巧至关重要，我们及时回应读者的问题。令人惊讶的是，缺乏管理监督可能对我们的流程有益。我离开后，技术作家接手了这项工作，结果好坏参半——有些解释更好，但也有一些内容毫无意义。我无法谈论涉及技术作家的成功文档流程，因为我的经验仅限于我们的程序员驱动方法。]]></description>
+      <guid>https://t.me/hn_summary/103577</guid>
+      <pubDate>Sun, 11 Aug 2024 20:45:08 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 本文探讨了在[...]上建造高能强子对撞机的概念。</title>
-      <link>https://t.me/hn_summary/103534</link>
-      <description><![CDATA[月球上的高能强子对撞机
-本文探讨了在月球上建造高能强子对撞机的概念，此前欧洲核子研究中心的大型强子对撞机 (LHC) 发现了希格斯玻色子。主要目标是高精度地研究希格斯玻色子和其他标准模型粒子，并获得更高的碰撞能量以发现新粒子。虽然​​未来环形对撞机 (FCC) 和环形电子-正电子对撞机 (CEPC) 等地球项目面临着重大的地理和政治挑战，但月球提供了一个有希望的替代方案。月球对撞机的质子-质子碰撞能量可能达到 14 PeV，远远超过 LHC 的 13 TeV。本文讨论了各种建造方法和挑战，包括极端温度和流星体撞击。这个想法是在 NASA 的 Artemis 计划和国际合作的背景下提出的，强调了月球作为突破性科学基础设施场所的潜力。
-
-争议：考虑到技术和财务挑战，在月球上建造如此庞大而复杂的基础设施的可行性和实用性可能是一个争论点。
-
-独特/巧妙的方面：利用月球的自然真空来降低成本和根据《联合国外层空间条约》进行国际合作的潜力是特别创新的想法。（基于 24% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/103534</guid>
-      <pubDate>Sun, 11 Aug 2024 13:51:38 GMT</pubDate>
+      <title>[媒体] 在《科学》杂志上发表的一项开创性研究中，一个国际科学家团队 [...]</title>
+      <link>https://t.me/hn_summary/103576</link>
+      <description><![CDATA[遗传学解决了一个棘手的问题：植物为何长有刺
+在一项发表于《科学》杂志的开创性研究中，一个国际科学家团队发现了植物长刺的遗传基础。尽管植物长刺在外形上相似，但它们在不同植物物种中至少独立进化了 28 次，这种现象被称为趋同进化。研究人员发现了一个名为 LONELY GUY (LOG) 的基因家族，该基因家族负责产生激素细胞分裂素，从而促进细胞分裂和扩增。令人惊讶的是，这些 LOG 基因存在于玫瑰和水稻等不同植物中，这表明长刺的遗传原因相同。利用 CRISPR，该团队成功培育出没有刺的转基因植物，为农业提供了实际应用，特别是对于像玫瑰这样的劳动密集型作物。该研究还承认了土著人对一些植物物种的管理。]]></description>
+      <guid>https://t.me/hn_summary/103576</guid>
+      <pubDate>Sun, 11 Aug 2024 20:45:05 GMT</pubDate>
     </item>
     <item>
-      <title>网站：uicolorful.com</title>
-      <link>https://t.me/hn_summary/103533</link>
-      <description><![CDATA[显示 HN：轻松的 Shadcn 和 Tailwind 颜色主题生成器
-标题：显示 HN：轻松的 Shadcn 和 Tailwind 颜色主题生成器
-网站：uicolorful.com
-
-使用uicolorful.com，轻松从您最喜欢的图像或颜色创建独特的 Shadcn 主题，确保您的网站以个性化风格脱颖而出。该平台提供与您的品牌形象相符的定制调色板生成器，增强视觉吸引力和用户体验。此外，您还可以以各种格式（如 HSV、HSL、RGB 和 HEX）导出自定义调色板，为您的所有设计和开发需求提供灵活性。该工具特别巧妙，因为它能够将个性化美学无缝集成到网页设计中。]]></description>
-      <guid>https://t.me/hn_summary/103533</guid>
-      <pubDate>Sun, 11 Aug 2024 13:40:28 GMT</pubDate>
+      <title>[媒体] 独立安全研究员 Matthew Bryant 最近购买了一台旧的 Apple Time Ca [...]</title>
+      <link>https://t.me/hn_summary/103575</link>
+      <description><![CDATA[Apple 原型机和公司机密在网上出售——如果你知道在哪里
+独立安全研究员 Matthew Bryant 最近在 eBay 上购买了一个旧的 Apple Time Capsule，结果发现它包含来自欧洲 Apple Stores 的大量敏感数据，包括服务单、员工银行账户详细信息和内部文件。这一意外发现是 Bryant 在 Defcon 安全会议上展示的更广泛项目的一部分，他使用计算机视觉分析来识别在二手市场上出售的公司 IT 设备。通过将 iPhone SE 串联在一起进行光学字符识别，Bryant 识别出像 iPhone 14 原型机这样的重要物品。Apple 此后要求归还 Time Capsule，但没有对 Bryant 的研究发表评论。令人惊讶的是，在二手设备上发现如此敏感的数据，凸显了企业 IT 资产处置中可能存在的安全漏洞。]]></description>
+      <guid>https://t.me/hn_summary/103575</guid>
+      <pubDate>Sun, 11 Aug 2024 20:33:58 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 标题：OpenDevin：面向人工智能软件开发人员的通用代理开放平台</title>
-      <link>https://t.me/hn_summary/103532</link>
-      <description><![CDATA[OpenDevin：面向 AI 软件开发人员的通用代理开放平台
-标题：OpenDevin：面向 AI 软件开发人员的通用代理开放平台
+      <title>[媒体] 加拿大梦曾经是希望和机遇的灯塔，但现在却似乎陷入了困境。</title>
+      <link>https://t.me/hn_summary/103574</link>
+      <description><![CDATA[加拿大梦岌岌可危
+加拿大梦曾经是希望和机遇的灯塔，现在似乎岌岌可危。作家、哈佛大学拉德克利夫研究员奥默·阿齐兹 (Omer Aziz) 回顾了加拿大从一个充满乐观的国度变成一个充满沮丧和幻灭的国度的彻底转变。2023 年底回到加拿大后，阿齐兹发现，来自不同背景的加拿大人普遍感到愤怒和不满。曾经前景光明的经济现在感觉被操纵了，住房成本飙升，犯罪率上升，而政治领导层却无法解决这些问题。国际学生的涌入和不受控制的移民加剧了住房危机，许多人只能永久租房。阿齐兹认为，系统性的政治失败和肤浅的进步主义背叛了加拿大梦，导致经济停滞和社会衰落。他呼吁重新审视旧的假设，转向以努力工作和平等机会为基础的积极愿景。他断言，加拿大没有被摧毁，而是受到了伤害，它的未来必须尽快恢复。
 
-OpenDevin 是一个创新平台，旨在通过提供工具和资源来创建通用代理，从而增强 AI 软件开发人员的能力。这个开放平台旨在使尖端 AI 研究和开发的访问民主化，营造一个开发人员可以分享见解和进步的协作环境。OpenDevin 的一个独特之处在于它致力于包容性，确保残障人士可以访问研究成果。这一举措强调了开放科学和推动 AI 技术的集体努力的重要性。对于那些有兴趣为这一使命做出贡献的人来说，9 月份的 arXiv 无障碍论坛提供了一个绝佳的参与机会。]]></description>
-      <guid>https://t.me/hn_summary/103532</guid>
-      <pubDate>Sun, 11 Aug 2024 13:39:24 GMT</pubDate>
+争议点：
+- 对加拿大移民政策和国际学生涌入的批评。
+- 断言加拿大的政治领导失败了，该国正在经历系统性的政治失败。
+
+独特/聪明的见解：
+- 将加拿大的现状与 COVID-19 限制导致的一种全国性创伤后应激障碍进行比较。
+- 呼吁政客们放弃他们的剧本，向加拿大人坦诚未来的挑战。]]></description>
+      <guid>https://t.me/hn_summary/103574</guid>
+      <pubDate>Sun, 11 Aug 2024 20:32:55 GMT</pubDate>
     </item>
     <item>
-      <title>网站：louisabraham.github.io</title>
-      <link>https://t.me/hn_summary/103531</link>
-      <description><![CDATA[显示 HN：可视化国际象棋游戏
-标题：显示 HN：可视化国际象棋游戏
-网站：louisabraham.github.io
-
-Louis Abraham 开发的这款可视化工具提供了一种独特的方式，可以一目了然地查看整个国际象棋游戏。棋盘上的每个方格都有一个类似时钟的图标，指示哪个玩家在整个游戏中占据了该方格。每个方格时钟的边缘颜色显示最后一个占据该方格的玩家。此外，连接方格的线表示所有动作，让用户可以追踪游戏顺序。源代码可在 GitHub 上找到。所有图像仅供教育和非商业用途，严禁未经授权的商业使用、分发或复制。]]></description>
-      <guid>https://t.me/hn_summary/103531</guid>
-      <pubDate>Sun, 11 Aug 2024 13:38:21 GMT</pubDate>
+      <title>[媒体] 佳士得国际地产前总裁 Chris Lim 负责 [...]</title>
+      <link>https://t.me/hn_summary/103573</link>
+      <description><![CDATA[没有水，没有电，成群的鸟：旧金山价值 2500 万美元的私人岛屿
+Chris Lim 曾是佳士得国际地产的总裁，他负责出售红岩岛，这是旧金山湾一个独特的 5.8 英亩的私人岛屿，标价 2500 万美元。与典型的热带天堂不同，红岩岛是一个崎岖的露头，没有自来水或电力，横跨加州三个不同的县，使开发变得复杂。尽管面临挑战，但 Lim 仍将其宣传为“享有盛誉的奖杯投资”。这座岛屿有着丰富多彩的历史，从俄罗斯皮毛贸易商到潜在的花花公子豪宅计划。最近，它与一位匿名买家签订了合同，这引发了人们对其未来的质疑——它是继续作为野生动物保护区还是被开发。该岛的出售凸显了私人岛屿的利基市场，通常吸引寻求隐私或独特投资的超级富豪。]]></description>
+      <guid>https://t.me/hn_summary/103573</guid>
+      <pubDate>Sun, 11 Aug 2024 20:30:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
