@@ -4,41 +4,55 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Mon, 12 Aug 2024 06:19:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 09:15:06 GMT</lastBuildDate>
     <item>
-      <title>寻找一个人工智能来为我的狗创建肖像</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq4pjq/looking_for_an_ai_to_create_a_portrait_of_my_dogs/</link>
-      <description><![CDATA[具体来说，我想让我的两只吉娃娃穿上厨师服在厨房里做玉米饼。这可能吗？有没有可以让我这样做的网站或应用？    提交人    /u/Valuable-Diver   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq4pjq/looking_for_an_ai_to_create_a_portrait_of_my_dogs/</guid>
-      <pubDate>Mon, 12 Aug 2024 04:31:29 GMT</pubDate>
+      <title>对于我的任务来说最好的图像生成/增强工具是什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq8qpu/what_could_be_the_best_image/</link>
+      <description><![CDATA[问题是，使用 photoshop 可能可以更好地完成这项任务。但是，这次的主题是生成式人工智能，我们希望从另一幅图像中提取一个人，并将这个人放在完全不同的环境中。目标是让最终结果图像尽可能逼真。 那么，目前可用于这项任务的最佳工具是什么？将一个人的照片（全身照）作为输入，然后将该人放在一个全新的环境中，同时保持逼真的外观？    提交人    /u/ValorousAnt   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq8qpu/what_could_be_the_best_image/</guid>
+      <pubDate>Mon, 12 Aug 2024 08:53:45 GMT</pubDate>
     </item>
     <item>
-      <title>最好的免费文本转语音 AI？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq3wu8/best_free_text_to_speech_ai/</link>
-      <description><![CDATA[大家好， 我正在寻找可以给我读文章的免费文本转语音 AI。 我找到了一些免费的选择，但它们要么免费限制较低（200 - 7000 个字符或 5 分钟），要么感觉过时，即它们的声音不像一些顶级现代文本转语音生成器那样自然。 如果您知道一个高质量且免费的、没有低字数/时间限制的，请分享。    提交人    /u/PashkaTLT   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq3wu8/best_free_text_to_speech_ai/</guid>
-      <pubDate>Mon, 12 Aug 2024 03:46:38 GMT</pubDate>
+      <title>使用 DSPy 构建 LangChain RAG？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq7qcb/building_langchain_rag_with_dspy/</link>
+      <description><![CDATA[在 LLM 中添加 RAG 是一个绝妙的主意。它帮助 LLM 变得更加具体和个性化。从行业角度来看，这正是我们想要的。但众所周知，向任何系统添加新组件都会导致更多的交互和一系列问题。将 RAG 添加到 LLM 会导致几个问题，例如如何检索最佳内容、编写什么类型的提示等等。 在今天的博客中，我们将把 LangChain RAG 与 DSPy 结合起来。所以，事不宜迟，让我们开始吧。 简介  什么是 RAG？ 什么是 DSPy？ 什么是 RAGA？评估 LLM 管道 如何结合 RAG 和 DSPy？ 构建我们的 RAG DSPy 管道   完整教程在这里： https://medium.com/aiguys/how-to-build-hierarchical-multi-agent-systems-dc26b19201d2?sk=90958e39e1a28f5030872a90f8e3f3da  RAG 的流程涉及两个主要组件：密集向量检索和上下文学习。在密集向量检索中，用户的查询被转换为密集向量，然后用于在向量存储中搜索类似信息。检索到的数据为模型提供了必要的上下文。然后，上下文学习将检索到的上下文与原始查询一起以结构化的提示格式呈现给 LLM，指导模型如何将这些信息集成到其响应中。 此外，还开发了 RAGA（检索增强生成评估）框架来评估 RAG 系统的有效性，重点关注上下文相关性、召回率和生成答案的准确性等指标。该框架使用 LLM 进行评估，而无需大量人工注释数据。 为了优化 RAG 系统，可以使用 DSPy 框架，它将 LLM 视为可编程模块，从而实现自动提示优化和系统改进。该框架与 RAG 系统集成，通过更好地构建和增强输入提示来增强生成过程，确保检索和生成阶段无缝协作。    提交人    /u/Difficult-Race-1188   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq7qcb/building_langchain_rag_with_dspy/</guid>
+      <pubDate>Mon, 12 Aug 2024 07:43:01 GMT</pubDate>
     </item>
     <item>
-      <title>有没有完全免费的在线 AI 换脸？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq2tjd/is_there_a_totally_free_ai_face_swap_online/</link>
-      <description><![CDATA[在讨论“完全免费”的工具时，必须澄清的是，这意味着它们同时提供图像换脸和视频换脸功能，没有任何隐藏费用、免费试用或免费积分。市场上的许多工具可能会提供免费的图像换脸服务，但随后会施加限制或要求为视频换脸付费。其他人可能最初会提供一些免费积分，但最终需要订阅或付费才能访问完整功能。 据我所知，AIFaceswap 和 Vidwud 是“完全免费”的。  Vidwud  它是一个简单的工具，提供图像换脸和视频换脸功能，完全免费。它的操作简单，是需要基本换脸功能而又不需要复杂附加功能的用户的绝佳选择。  AIFaceswap  AIFaceswap 凭借全面的功能脱颖而出。它不仅允许用户在图像和 GIF 中换脸，还允许用户在视频中换脸。这使其成为适用于各种媒体的多功能选项。除了这些核心功能外，AIFaceswap 还支持批量换脸，如果您需要一次处理多个文件，此功能特别有用。 与 Vidwud 相比，AIFaceswap 的突出功能之一是它能够更精确地处理视频换脸。具体来说，它包含一项名为“捕捉帧”的功能，可让您在原始视频的任何随机帧中换脸。这意味着您可以选择性地针对视频中的特定时刻进行换脸。 此外，AIFaceswap 还可以控制原始视频的时间，允许您设置换脸过程的开始和结束时间。这种控制级别增强了最终输出的灵活性和可定制性。 此外，AIFaceswap 允许您同时渲染最多三个视频，这对于需要同时处理多个视频的用户来说非常方便。此功能不仅节省时间，而且使该工具更高效、更人性化。 如果您有任何建议，请随时与我分享。谢谢！    提交人    /u/GroceryExcellent788   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq2tjd/is_there_a_totally_free_ai_face_swap_online/</guid>
-      <pubDate>Mon, 12 Aug 2024 02:47:22 GMT</pubDate>
+      <title>DeepEval：LLM 评估包</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq7gzc/deepeval_llm_evaluation_package/</link>
+      <description><![CDATA[DeepEval 是用于评估 LLM 应用程序的最重要的 Python 包。在此处查看如何开始使用 DeepEval：https://youtu.be/ZNs2dCXHlfo?si=3j1DeWELacIFm_VE    提交人    /u/mehul_gupta1997   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq7gzc/deepeval_llm_evaluation_package/</guid>
+      <pubDate>Mon, 12 Aug 2024 07:24:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能中的奖励/惩罚模仿</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq7bby/rewardpunishment_mimics_in_ai/</link>
+      <description><![CDATA[是否有任何 LLM 试图模仿人类生物奖励/惩罚系统，例如多巴胺、血清素、催产素、肾上腺素和皮质醇？  这些似乎都是我们作为生物智能做出反应的主要输入。只是好奇 AI 是否有类似的工作，而不仅仅是知识    提交人    /u/SavingsDimensions74   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq7bby/rewardpunishment_mimics_in_ai/</guid>
+      <pubDate>Mon, 12 Aug 2024 07:13:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>利用 LinkedIn 上的休眠账户打造品牌知名度</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq6l00/creating_brand_awareness_with_sleepy_accounts_on/</link>
+      <description><![CDATA[好吧，这是我测试该工具性能的实际情况，它让我无事可做。这个故事在我之前的帖子里。 所以，~Marketowl.ai~ 的创建者为它提供了不错的折扣，我已经在客户的账户上对其进行了测试。毕竟，这是一个在短短 30 天内将 LinkedIn 上的自然覆盖率从 +400 提高到令人印象深刻的 +3500 的故事。我测试了三种不同的账户，它们有不同的营销策略、目标受众和语调： 第一个账户是初创公司所有者的账户，他制作了用于死后交流的 AI 头像（不确定它到底是什么意思：） 第二个账户是我的营销自由职业者的辅助账户，开始时没有 1 个初始连接 第三个账户是一家销售家具的公司的账户销售人员。 在我的工具中，我创建了三个活动，并在每个账户上自动安排每周发布三次，持续一个月。花了一些时间检查每个帐户生成的帖子。一个月最多花2个小时。 一个月后的结果显示出以下改进： 第一个帐户显示+3552自然展示 第二个显示+551自然展示 第三个显示+2303自然展示 总体而言，最好的展示数字是一个月后+3552，即一个帐户的展示次数增加了9倍。更重要的是，使用该工具不会导致帐户被屏蔽。 下一篇文章将更多地讲述半年后我生活中的变化。现在我是自由职业者和咖啡站特许经营的兼职编辑。    提交人    /u/WebsterPepster   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq6l00/creating_brand_awareness_with_sleepy_accounts_on/</guid>
+      <pubDate>Mon, 12 Aug 2024 06:24:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>每日一分钟人工智能新闻 2024 年 8 月 12 日</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq6ky4/oneminute_daily_ai_news_8122024/</link>
+      <description><![CDATA[ 《宇宙》杂志的人工智能生成文章不利于人们对科学的信任。[1] 开源工具可提高您的工作效率。如果您想摆脱大型科技公司的专有控制，最好有选择。[2] 匹兹堡程序员创立的新创业公司 Gray Swan AI 希望将人工智能开发人员从他们自己手中拯救出来。[3] 美国、英国和澳大利亚在整合人工智能防御系统方面迈出了下一步。[4]  来源包括：https://bushaicave.com/2024/08/12/8-12-2024/   由    /u/Excellent-Target-847  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq6ky4/oneminute_daily_ai_news_8122024/</guid>
+      <pubDate>Mon, 12 Aug 2024 06:24:45 GMT</pubDate>
     </item>
     <item>
       <title>自动日历软件</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq266g/automated_calendar_software/</link>
-      <description><![CDATA[因此，我创建了一个自动日历软件，它简化了我在日历上安排活动所需的时间。我通常每天花大约 15 到 20 分钟制作日历，但这个软件使这个过程快了很多。现在平均需要 5 分钟。由于这个软件对我真的很有用，我决定将它编码到一个网站中：asorti.co 要使用此日历，只需输入一两句话说明您一天中想要的活动，软件就会自动为该活动创建活动和描述。然后，软件会在将活动集成到主日历之前向您显示待批准的活动。  该软件是免费的，所以请尝试一下 :) 此外，如果您有任何问题或意见，请随时给我发私信。    提交人    /u/One-Smile-69420   [链接] [评论]]]></description>
+      <description><![CDATA[因此，我创建了一个自动日历软件，它简化了我在日历上安排活动所需的时间。我通常每天花大约 15 到 20 分钟制作日历，但这个软件使这个过程快了很多。现在平均需要 5 分钟。由于这个软件对我真的很有用，我决定将它编码到一个网站中：asorti.co 要使用此日历，只需输入一两句话说明您一天中想要的活动，软件就会自动为该活动创建活动和描述。然后，软件会向您显示活动以供批准，然后再将其集成到主日历中。  该软件是免费的，所以请尝试一下 :) 此外，如果您有任何问题或意见，请随时给我发私信。    提交人    /u/One-Smile-69420   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq266g/automated_calendar_software/</guid>
       <pubDate>Mon, 12 Aug 2024 02:14:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 ChatGPT 构建 AI 应用程序</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eq1bvx/building_ai_apps_with_chatgpt/</link>
-      <description><![CDATA[所以遇到了这个 23 岁年轻人使用 ChatGPT 构建应用程序的相当有趣的故事。这对大多数非程序员来说可行吗？只是感兴趣，因为这似乎是一个非常大的商机。  https://www.capitalfriday.com/blog/using-chatgpt-to-build-million-dollar-apps-rizzgpt-umax-cal-ai    提交人    /u/capitalfriday   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eq1bvx/building_ai_apps_with_chatgpt/</guid>
-      <pubDate>Mon, 12 Aug 2024 01:31:51 GMT</pubDate>
     </item>
     <item>
       <title>是否有任何应用情感的语音到语音模型？</title>
@@ -46,20 +60,6 @@
       <description><![CDATA[我尝试了各种各样的文本转语音模型，并且使用了一代又一代的 rvc。我发现，这些 tts 要么听起来非常自然，但会发错很多单词，要么听起来非常机械化，但发音正确。鉴于有 rvc 之类的东西，它允许您使用任何 tts 进行语音克隆，是否有任何语音转语音模型可以将情感应用于听起来机械化的 tts 模型？    提交人    /u/Hefty_Wolverine_553   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1epz48m/are_there_any_speechtospeech_models_that_apply/</guid>
       <pubDate>Sun, 11 Aug 2024 23:45:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>是否存在任何 AI 软件可以将包含作者的歌曲列表转换为 Spotify 播放列表？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1epy6pz/does_any_ai_software_exist_to_take_a_list_of/</link>
-      <description><![CDATA[是否有任何 AI 软件可以将包含作者的歌曲列表转换为 Spotify 播放列表？    提交人    /u/petrastales   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1epy6pz/does_any_ai_software_exist_to_take_a_list_of/</guid>
-      <pubDate>Sun, 11 Aug 2024 23:03:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Trivia Universe AI - 实时单人和多人琐事问答</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1epy2zs/trivia_universe_ai_real_time_solo_multiplayer/</link>
-      <description><![CDATA[大家好！ 我开发了一个有趣的问答应用，想与更多人分享。它在底层使用了聊天 GPT4o（最近从 3.5 升级，哇，真是一个游戏规则的改变者）。 该应用允许玩家创建他们喜欢的任何主题的问答游戏，并单独玩或邀请朋友进行实时比赛。您可以通过主屏幕的“立即播放”部分自定义难度和问题数量。 截至目前，它没有广告，没有注册，没有付款，您可以独自或与朋友一起享受乐趣。 快乐的问答！ https://triviauniverseai.com    提交人    /u/ItsRyeGuyy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1epy2zs/trivia_universe_ai_real_time_solo_multiplayer/</guid>
-      <pubDate>Sun, 11 Aug 2024 22:59:09 GMT</pubDate>
     </item>
     <item>
       <title>人工智能是否会变得足够先进，可以制作出极高质量的游戏/电影/节目等？</title>
