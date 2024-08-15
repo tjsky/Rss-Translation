@@ -4,101 +4,107 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Thu, 15 Aug 2024 17:54:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 21:14:09 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 标题：零利率时代为何毁了软件架构</title>
-      <link>https://t.me/hn_summary/104143</link>
-      <description><![CDATA[为何零利率时代毁了软件架构
-标题：为何零利率时代毁了软件架构
+      <title>[媒体] 昨天，我收到了 Google Cloud 对我的精装版 Debi 收取的 100 美元意外费用 [...]</title>
+      <link>https://t.me/hn_summary/104172</link>
+      <description><![CDATA[我们每秒处理 10k 次请求：紧急情况下切换到签名资产 URL
+昨天，我的 Hardcover 借记卡意外收到了 Google Cloud 的 100 美元费用，很快增加到 200 美元。经过调查，我发现我们的 Google Cloud Storage 费用激增了 2,098%。罪魁祸首是什么？我们的公共存储桶每秒最多会收到 10,000 次图像请求，导致大量数据下载。
 
-在零利率时代，金融和人力资源充裕，科技领域出现了引入不必要复杂性的做法。“关注点分离”的极端应用导致微服务激增，导致系统碎片化，样板代码过多，设置复杂。过度招聘导致组织臃肿，团队通过管理单独的微服务创建孤岛。由于基础设施复杂和管道错综复杂，DevOps 复杂性增加。
+为了解决这个问题，我在回家的路上集思广益。最终的解决方案是使用 Ruby on Rails 为图像生成签名 URL，并缓存它们 24 小时。这种方法可确保安全、高效的访问，而不会导致系统过载。我们还创建了一个新的 API 端点，用于为 API 用户生成签名 URL。
 
-在后零利率时代，重点将转向效率，强调简单性、速度和利用现有工具。关键的架构转变包括 monorepos 的兴起、AWS/GCP 之上的新平台层、低代码平台的成熟以及围绕 Typescript 和 Python 的技术堆栈的整合。]]></description>
-      <guid>https://t.me/hn_summary/104143</guid>
-      <pubDate>Thu, 15 Aug 2024 17:54:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在《请不要崇拜我（或任何人，真的）》一书中，约翰·斯卡尔齐反思了最近的[...]</title>
-      <link>https://t.me/hn_summary/104142</link>
-      <description><![CDATA[请不要崇拜我（或任何人，真的）
-在《请不要崇拜我（或任何人，真的）》中，约翰·斯卡尔齐反思了最近针对尼尔·盖曼的指控以及崇拜创意人士的更广泛问题。斯卡尔齐认为，崇拜艺术家是错误的，因为公众只看到了他们生活和工作的媒介版本。他强调，创意人士和其他人一样，有缺点和复杂性，崇拜他们会设定不切实际的标准。斯卡尔齐坦率地承认自己的不完美，并敦促读者欣赏艺术，而不要将其创作者提升到不切实际的神坛。这篇文章是对名人文化和人类寻找偶像倾向的深思熟虑的批评。 （根据 64% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/104142</guid>
-      <pubDate>Thu, 15 Aug 2024 17:49:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Kim Dotcom，原名 Kim Schmitz，是网络犯罪界臭名昭著的人物，目前 [...]</title>
-      <link>https://t.me/hn_summary/104141</link>
-      <description><![CDATA[Kim Dotcom：完整故事
-Kim Dotcom，原名 Kim Schmitz，是网络犯罪界的臭名昭著的人物，目前居住在新西兰，等待于 2024 年 7 月引渡到美国。他的旅程始于 1990 年代中期，在被称为“Release Scene”的黑客亚文化中，他从事电话诈骗并交易非法电话卡。Dotcom 的早期业务包括运营一个名为“House of Coolness”的公告板系统 (BBS)，该系统促进了盗版数据和伪造电话卡的交换。他第一次被捕是在警方突袭发现大量伪造卡和设备之后。 Dotcom 与律师 Günter von Gravenreuth 的有争议的合作导致黑客社区内多人被捕，他被打上了叛徒的烙印。尽管因欺诈性 GSM 黑客攻击而被禁止加入混沌计算机俱乐部 (CCC)，Dotcom 还是利用媒体的关注与 T-Mobile 签订了一份利润丰厚的咨询合同。后来，他创立了 Data Protect，这家公司据称可以发现安全漏洞，但却被批评为骗局。Dotcom 操纵股市，尤其是通过 Letsbuyit.com，为他带来了巨额利润，并因内幕交易被判假释。他奢华的生活方式和自称为“金布尔一世”的自我宣传进一步巩固了他备受争议的遗产。（基于 91% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/104141</guid>
-      <pubDate>Thu, 15 Aug 2024 17:47:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Denormalized 是一个用 Rust 开发并建立在 [...] 上的可嵌入流处理引擎</title>
-      <link>https://t.me/hn_summary/104140</link>
-      <description><![CDATA[显示 HN：Denormalized – Rust 和 DataFusion 中的可嵌入流处理
-Denormalized 是一个用 Rust 开发并基于 Apache DataFusion 构建的可嵌入流处理引擎。它旨在处理实时数据流，目前支持 Kafka 作为源和接收器。该项目提供窗口聚合和流连接等功能，使其适用于需要实时数据处理和分析的应用程序。作者正在积极寻找设计合作伙伴来进一步完善该项目。独特之处包括它以 DataFusion 为基础，以及未来计划提供检查点、会话窗口和对多种语言和数据库的支持等广泛功能。该项目仍在开发中，路线图概述了即将推出的增强功能。]]></description>
-      <guid>https://t.me/hn_summary/104140</guid>
-      <pubDate>Thu, 15 Aug 2024 17:40:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 来自“最后一代”的气候活动家扰乱了德国四个机场的空中交通[...]</title>
-      <link>https://t.me/hn_summary/104139</link>
-      <description><![CDATA[德国气候活动人士闯入四个机场后中断空中交通
-“最后一代”气候活动人士破坏了四个德国机场（科隆-波恩、纽伦堡、柏林勃兰登堡和斯图加特）的空中交通，他们剪断围栏、将自己粘在停机坪上，并打出“石油杀人”和“签署条约”等横幅。他们的行动导致纽伦堡和科隆-波恩的航班短暂中断，随后警方介入。活动人士要求德国签署一项国际条约，在 2030 年前禁止使用石油、天然气和煤炭。内政部长南希·费瑟谴责抗议活动，呼吁判处监禁并加强机场安保。“最后一代”为他们的行为辩护，称政府在气候变化问题上不作为。政府计划加强航空安全法，以防止未来再次发生入侵事件。机场协会 ADV 也批评抗议活动是犯罪勒索，而不是和平行动。]]></description>
-      <guid>https://t.me/hn_summary/104139</guid>
-      <pubDate>Thu, 15 Aug 2024 17:39:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在 FMS 2024 上，Kioxia 展示了一种新型 RAID 卸载方法的概念验证 [...]</title>
-      <link>https://t.me/hn_summary/104138</link>
-      <description><![CDATA[Kioxia 演示 NVMe 驱动器的 Raid 卸载方案
-在 FMS 2024 上，Kioxia 展示了一种新的 RAID 卸载方法的概念验证，旨在提高企业级 SSD 的性能。随着 SSD 速度的提高，传统的 RAID 阵列难以跟上，通常需要多次读写操作，这会给 CPU 和主内存带来负担。Kioxia 的创新方法利用 PCIe 直接内存访问和 SSD 控制器的内存缓冲区来绕过 CPU，使用 SSD 控制器内的加速器块进行奇偶校验计算。与传统软件 RAID 相比，该方法显著降低了 CPU (50%) 和系统 DRAM (90%) 的利用率。 Kioxia 正在努力通过 NVM Express 工作组标准化这种卸载方案，有可能使其成为各个 SSD 供应商的共同功能。]]></description>
-      <guid>https://t.me/hn_summary/104138</guid>
-      <pubDate>Thu, 15 Aug 2024 17:29:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 网站：www.ghacks.net</title>
-      <link>https://t.me/hn_summary/104137</link>
-      <description><![CDATA[启用企业策略，让 uBlock Origin 在 Chrome 中再保留一年
-标题：启用企业策略，让 uBlock Origin 在 Chrome 中再保留一年
-网站：www.ghacks.net
+争议：将存储桶保持公开的决定是有风险的，并导致了这个问题。
 
-Google 正在更新 Chrome 扩展程序的规则集，此举将有争议地终止对 uBlock Origin 等热门扩展程序的支持。此更改还会影响其他基于 Chromium 的浏览器，例如 Microsoft Edge、Opera 和 Vivaldi，尽管 Brave 已宣布将继续支持 uBlock Origin 和其他一些扩展程序。不过，有一个巧妙的解决方法：通过启用企业策略，用户可以将这些经典扩展的支持延长一年。这涉及通过 Windows 上的注册表编辑器将 ExtensionManifestV2Availability 策略设置为 2。用户可以通过 chrome://policy 验证设置。对于 Linux 和 Mac 用户，可以在 Chrome 支持文档中查看其他说明。
-
-争议：新规则集将禁用许多流行的扩展，包括 uBlock Origin，这引发了强烈的反对。
-
-巧妙的解决方法：利用企业策略将支持延长一年。]]></description>
-      <guid>https://t.me/hn_summary/104137</guid>
-      <pubDate>Thu, 15 Aug 2024 17:27:59 GMT</pubDate>
+独特/巧妙：使用 Ruby on Rails 代理图像请求和缓存签名 URL 是一种巧妙的解决方案，可以有效地管理大量请求。（基于 75% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/104172</guid>
+      <pubDate>Thu, 15 Aug 2024 21:14:09 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 人们普遍认为每天需要喝 6-8 杯水，这是一个误区， [...]</title>
-      <link>https://t.me/hn_summary/104136</link>
-      <description><![CDATA[水的神话
-人们普遍认为每天需要喝 6-8 杯水，这是源于对基本生理学的误解。虽然水是生命之必需，但人类每天会通过呼吸和汗水等无意识的流失而损失约 1.5-2 升水，必须补充。然而，这些水的大部分摄入量可能来自食物和其他饮料，而不仅仅是白开水。1945 年最初建议的 2.5 升水摄入量包括来自食物来源的水，这一细节经常被忽视。美国医学会杂志的一项研究证实，喝过量的水对健康没有显著的好处，也不会帮助排出毒素或改善肾功能。关键点是，口渴时喝水，但要注意在炎热天气或体力活动期间增加饮水需求。
+      <title>[媒体] 为什么有些人不愿意为新闻付费？</title>
+      <link>https://t.me/hn_summary/104171</link>
+      <description><![CDATA[为什么有些人不愿意为新闻付费？（2022 年）
+标题：为什么有些人不愿意为新闻付费？（2022 年）
 
-争议：本文揭穿了流行但毫无根据的信念，即多喝水有助于排出毒素或有益于肾功能。
-
-独特/聪明的见解：1945 年的原始建议包括来自食物来源的水，这一事实在现代解释中经常被忽视。]]></description>
-      <guid>https://t.me/hn_summary/104136</guid>
-      <pubDate>Thu, 15 Aug 2024 17:23:47 GMT</pubDate>
+在这篇富有洞察力的文章中，作者深入探讨了许多人不愿意为新闻付费的原因。本文探讨了各种因素，包括免费新闻来源的丰富、将新闻视为公共物品以及对媒体组织的不信任。一个令人惊讶的因素是人们低估了他们可以免费获得的内容的心理方面。作者还谈到了有争议的媒体偏见问题以及它如何影响人们在经济上支持新闻机构的意愿。讨论很全面，全面审视了一个复杂的问题。]]></description>
+      <guid>https://t.me/hn_summary/104171</guid>
+      <pubDate>Thu, 15 Aug 2024 21:07:01 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 阿兰图灵是一位多才多艺的天才：战争英雄、先驱计算机科学家，[...]</title>
-      <link>https://t.me/hn_summary/104135</link>
-      <description><![CDATA[不要用人工智能复活艾伦·图灵，以免不尊重他
-艾伦·图灵是一位多才多艺的天才：战时英雄、先驱计算机科学家、人工智能之父和受迫害的同性恋男子。他去世 70 年后，布莱切利园（二战期间他曾在那里担任密码破译员）计划创建一个模仿图灵与游客互动的人工智能聊天机器人。这项与英国公司 1956 Individuals 合作开发的计划旨在通过互动方式讲述图灵的故事来吸引观众。然而，以这种方式复活图灵的伦理影响存在争议。这是对他遗产的尊重，还是冒着贬低他深远贡献和复杂生活的风险？]]></description>
-      <guid>https://t.me/hn_summary/104135</guid>
-      <pubDate>Thu, 15 Aug 2024 17:22:40 GMT</pubDate>
+      <title>[媒体] 埃隆·马斯克和 J.K.</title>
+      <link>https://t.me/hn_summary/104170</link>
+      <description><![CDATA[埃隆·马斯克和 JK·罗琳可能因网络欺凌被判处五年徒刑
+如果阿尔及利亚拳击手伊曼·哈利夫赢得针对埃隆·马斯克和 JK·罗琳的网络欺凌诉讼，他们可能面临最高五年监禁和最高 214,000 英镑的罚款。哈利夫在 2024 年巴黎奥运会上获得金牌，在马斯克和罗琳批评她参加奥运会后，她提起诉讼，指控“严重网络骚扰”。争议的焦点是哈利夫的性别资格，据称她有男性 XY 染色体，导致她被取消参加 2023 年世界锦标赛的资格。法国当局正在调查此案，此案还可能牵涉唐纳德·特朗普等其他知名人物。哈利芙的律师强调，诉讼的目的是捍卫她的尊严和荣誉。]]></description>
+      <guid>https://t.me/hn_summary/104170</guid>
+      <pubDate>Thu, 15 Aug 2024 20:55:52 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Hertz 是一个高性能、高可用性、高度可扩展的 Golang HTTP 框架 [...]</title>
-      <link>https://t.me/hn_summary/104134</link>
-      <description><![CDATA[Hertz：面向微服务的高性能 Go HTTP 框架
-Hertz 是一款高性能、高可用性、高扩展性的 Golang HTTP 框架，专为构建微服务而设计。Hertz 受到 fasthttp、gin、echo 等框架的启发，最初是为了满足字节跳动内部需求而开发的，目前在公司内部得到广泛使用。它解决了高性能、可定制需求的微服务需求，利用自研的 Netpoll 网络库实现卓越的 QPS 和延迟性能。Hertz 的分层设计增强了可扩展性，支持多种协议（HTTP/1.1、HTTP/2、HTTP/3、ALPN），并允许在 Netpoll 和 Go Net 之间切换网络层。它还提供了有关 WebSocket、HTTP/2 和基于 Prometheus 的监控等功能的大量文档、示例和扩展。（基于 47% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/104134</guid>
-      <pubDate>Thu, 15 Aug 2024 17:18:35 GMT</pubDate>
+      <title>[媒体] 科学家们发现了一种恢复大脑废物处理系统的方法，可以 [...]</title>
+      <link>https://t.me/hn_summary/104169</link>
+      <description><![CDATA[清理老化的大脑：科学家恢复大脑的垃圾处理系统
+科学家发现了一种恢复大脑垃圾处理系统的方法，可能为阿尔茨海默病、帕金森病和其他神经系统疾病提供新的治疗方法。衰老会削弱大脑清除有毒废物的能力，但小鼠研究表明，恢复颈部淋巴管功能可以逆转这种衰退。研究人员使用临床上可用的药物前列腺素 F2α，将废物清除效率提高到年轻水平。这一突破发表在《自然衰老》杂志上，强调了淋巴系统在大脑健康中的作用，并提出了新的治疗策略。这项研究由罗切斯特大学的 Douglas Kelley 和 Maiken Nedergaard 领导。 
+
+争议：无。
+
+独特/巧妙：使用现有药物恢复大脑功能特别具有创新性。]]></description>
+      <guid>https://t.me/hn_summary/104169</guid>
+      <pubDate>Thu, 15 Aug 2024 20:55:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 标题：揭秘 Hermes 3：首款经过精细调校的 Llama 3.1 405B 型号</title>
+      <link>https://t.me/hn_summary/104168</link>
+      <description><![CDATA[揭晓 Hermes 3：首款经过微调的 Llama 3.1 405B 模型
+标题：揭晓 Hermes 3：首款经过微调的 Llama 3.1 405B 模型
+
+网站：lambdalabs.com
+
+Nous Research 与 Lambda Labs 合作，自豪地推出了 Hermes 3，这是 Meta 的 Llama 3.1 405B 模型的首个全参数微调。 Hermes 3 在 Lambda 的 1-Click Cluster 上进行训练，是一种具有卓越推理能力的中立通用模型，现在可通过 Lambda Chat Completions API 和 Lambda Chat 界面免费访问。该模型擅长复杂的角色扮演、创意写作和高级决策，使其成为创意和专业应用的多功能工具。Hermes 3 针对效率进行了优化，通过 Neural Magic 的 FP8 量化方法将 VRAM 和磁盘要求降低了 50%。值得注意的是，它被设计为解锁、不受审查和可操控的，符合用户需求而不是公司指令。在有限的时间内，AI/ML 社区可以免费试用 Hermes 3，只需通过 Lambda 的云 API 轻松设置即可。
+
+争议亮点：该模型的设计是“解锁、不受审查和可操纵的”，可能会引发对滥用或道德影响的担忧。
+
+独特/巧妙的亮点：Hermes 3 能够高效地在单个节点上运行，这得益于细致的优化，并且它符合用户需求而不是企业利益，这一点尤其具有创新性。]]></description>
+      <guid>https://t.me/hn_summary/104168</guid>
+      <pubDate>Thu, 15 Aug 2024 20:53:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 谷歌的新人工智能搜索功能可以在搜索页面顶部提供即时答案， [...]</title>
+      <link>https://t.me/hn_summary/104167</link>
+      <description><![CDATA[谷歌的人工智能搜索让网站面临严峻选择：分享数据或死亡
+谷歌的新人工智能搜索功能在搜索页面顶部提供即时答案，从而可能减少用户访问原始网站的需要。这让网站所有者陷入困境：他们无法阻止谷歌的人工智能使用他们的内容，因为生成人工智能答案的同一工具也会为搜索结果索引他们的页面。因此，阻止谷歌会降低他们在网上的知名度。这种情况迫使网站在与谷歌分享数据或冒着默默无闻的风险之间做出选择。争议在于权力不平衡，因为网站觉得必须遵守谷歌的条款才能保持他们的在线形象。]]></description>
+      <guid>https://t.me/hn_summary/104167</guid>
+      <pubDate>Thu, 15 Aug 2024 20:48:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>嘿 HN！</title>
+      <link>https://t.me/hn_summary/104166</link>
+      <description><![CDATA[启动 HN：Manaflow (YC S24) – 通过表格自动执行重复的办公室工作
+嗨，HN！我们是 Manaflow 的 Austin、Lawrence 和 Wesley。Manaflow 是一款革命性的电子表格工具，其中每一列代表一个任务步骤，每一行代表一个执行该任务的 AI 代理。只需单击一下，就可以自动执行数千项任务，例如数据检索、API 集成和采取行动。这个想法源于我们与中小企业经理的讨论，他们在手动工作流程和未充分利用的技术方面苦苦挣扎。与传统电子表格不同，Manaflow 可以连接应用程序、调用 API、读取 PDF 等，所有这些都用简单的英语编写而成。一位客户使用 Manaflow 将 20 小时的任务缩短到 20 分钟。我们正在探索两种工作流编程方法，希望得到您的反馈！]]></description>
+      <guid>https://t.me/hn_summary/104166</guid>
+      <pubDate>Thu, 15 Aug 2024 20:42:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 想象一下，你收到了工作邀请，但近一年的时间却无法开始工作或获得报酬 [...]</title>
+      <link>https://t.me/hn_summary/104165</link>
+      <description><![CDATA[与初创公司速度同步的安全审查
+想象一下，你收到了工作邀请，但近一年内无法开始工作或获得报酬，如果无法通过安全审查，工作邀请就会被取消。对于那些希望在国防初创公司或政府机构从事机密项目的人来说，这就是当前的现实。硅谷公司 Palantir 旨在通过加快安全审查流程来改变这一现状。他们建议在学生还在上学的时候就雇用他们作为承包商，这样审查流程就可以提前开始。这一举措可能会对国防部门产生重大影响，因为新员工一毕业就能立即开始工作。这种创新方法不仅使 Palantir 受益，而且还加强了更广泛的国防生态系统。]]></description>
+      <guid>https://t.me/hn_summary/104165</guid>
+      <pubDate>Thu, 15 Aug 2024 20:33:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 研究人员已经证明，Shimano 的电子变速器可以利用 j [...] 进行黑客攻击。</title>
+      <link>https://t.me/hn_summary/104164</link>
+      <description><![CDATA[研究人员用几百美元的硬件破解电子变速器
+
+研究人员已经证明，只需几百美元的硬件就可以破解 Shimano 的电子变速器。Shimano 已经向专业自行车队提供了固件更新，但要到 8 月底才会广泛发布，而且没有详细说明如何防止攻击。更新过程仍不清楚，也不确定它是否涵盖前拨链器和后拨链器。虽然普通骑手不太可能成为目标，但专业自行车手应该立即安装补丁。研究人员警告说，其他品牌可能也存在类似的漏洞，并认为这种形式的黑客攻击类似于竞技自行车中的一种新型兴奋剂。他们警告不要在各种技术中广泛添加无线功能，这突显了在现实世界中造成危害的可能性。]]></description>
+      <guid>https://t.me/hn_summary/104164</guid>
+      <pubDate>Thu, 15 Aug 2024 20:09:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 加州居民很快就能将他们的驾驶执照和州身份证添加到 Apple W [...]</title>
+      <link>https://t.me/hn_summary/104163</link>
+      <description><![CDATA[Apple Wallet 中的驾驶执照和州身份证即将在加州推出
+加州人很快就能将他们的驾驶执照和州身份证添加到 Apple Wallet 中，从而能够使用 iPhone 或 Apple Watch 无缝安全地出示这些身份证。Apple 的 Apple Pay 和 Apple Wallet 副总裁 Jennifer Bailey 对与加州合作提供此功能表示兴奋，该功能简化了旅行、年龄验证和身份检查的身份证出示。该系统利用 Apple 设备的安全功能，确保只共享必要的信息，用户必须通过 Face ID 或 Touch ID 授权交易。值得注意的是，身份证信息是加密的，仅存储在用户的设备上，Apple 或州发证机构无法访问。该计划是加州 DMV mDL 试点计划的一部分，其他五个州也已实施类似计划。如需了解更多详情，请访问 Apple 和加州 DMV 各自的网站。]]></description>
+      <guid>https://t.me/hn_summary/104163</guid>
+      <pubDate>Thu, 15 Aug 2024 20:04:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
