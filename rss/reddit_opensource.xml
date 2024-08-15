@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 15 Aug 2024 15:15:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 18:20:16 GMT</lastBuildDate>
+    <item>
+      <title>适用于 Windows 的最佳 FOSS 播客策划器？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1esyzvs/best_foss_podcast_planer_for_windows/</link>
+      <description><![CDATA[  由    /u/PragmaticTree  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1esyzvs/best_foss_podcast_planer_for_windows/</guid>
+      <pubDate>Thu, 15 Aug 2024 16:04:01 GMT</pubDate>
+    </item>
     <item>
       <title>canvasLab v0.6.137（预发布）</title>
       <link>https://www.reddit.com/r/opensource/comments/1esx427/canvaslab_v06137_prerelease/</link>
@@ -39,13 +46,6 @@
       <description><![CDATA[    /u/dstala 提交   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1esk8c8/just_released_nocodb_0255_introducing_button/</guid>
       <pubDate>Thu, 15 Aug 2024 02:40:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 C# 进行 PLC 通信的库，以及用于 UI 的 Avalonia</title>
-      <link>https://www.reddit.com/r/opensource/comments/1esek8e/a_library_for_plc_communication_using_c_and/</link>
-      <description><![CDATA[该项目处于 WIP 阶段，但已包含最低限度的框架。您可以使用唯一 ID 注册/取消注册 PLC 设备，并且您的 UI 元素可以直接通过 XAML 访问该 ID 以及特定的内存地址，并且它们可以使用这个完整地址来执行例如读取按钮按下状态的布尔值、读取和写入数据寄存器等操作。 该项目还支持我在代码中称为“批量数据”的功能，由于开销较大，它尝试优化来自 PLC 的读取调用。每个活动的 UI 控件都需要内存地址，然后这些地址都会被打包到数组请求中。因此，例如如果您有 8 个按钮请求位 M0、M1、M5、Y0、Y1、Y2、X9、X10，它会将其压缩为 4 个请求而不是 8 个，这可以大大提高性能，假设您对 PLC 进行编程以协助此功能 如果您有兴趣，这里是 GitHub 链接：https://github.com/AngryCarrot789/JetTechMI    提交人    /u/tea-vs-coffee   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1esek8e/a_library_for_plc_communication_using_c_and/</guid>
-      <pubDate>Wed, 14 Aug 2024 22:22:19 GMT</pubDate>
     </item>
     <item>
       <title>制作了一个可以在多台机器上扩展 ffmpeg 的 API，并打包媒体以进行在线流媒体播放。</title>
