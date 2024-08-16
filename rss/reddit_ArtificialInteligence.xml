@@ -4,7 +4,7 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Fri, 16 Aug 2024 01:01:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2024 03:17:24 GMT</lastBuildDate>
     <item>
       <title>基于人工智能的图雷特氏症的潜在解决方案</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eta81k/potential_aibased_solution_to_tourettes/</link>
@@ -18,13 +18,6 @@
       <description><![CDATA[  由    /u/AlexFigas  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1et9kwo/ai_agents_for_2048_check_out_my_new_repo/</guid>
       <pubDate>Thu, 15 Aug 2024 23:16:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>你好，我是 Tobias jacob du preez，请帮我建立一个开源 Jarvis</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1et9k8l/greetings_i_am_tobias_jacob_du_preez_please_help/</link>
-      <description><![CDATA[我没有计算资源来测试我的代码。请帮忙： https://github.com/FootlooseNomad/Gadget1.0 我将附加音频处理过程，让 AI 在说话时仍能执行任务。但与此同时，请告诉我你们是否会使用它？    提交人    /u/idunnojustanotherguy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1et9k8l/greetings_i_am_tobias_jacob_du_preez_please_help/</guid>
-      <pubDate>Thu, 15 Aug 2024 23:15:54 GMT</pubDate>
     </item>
     <item>
       <title>据这位物理学家称，大型语言模型可能会被基于数理逻辑的模型取代</title>
@@ -46,6 +39,13 @@
       <description><![CDATA[我对所有与 AI 相关的技术还很陌生，并且对它所呈现的可能性感到不知所措。我目前痴迷于在我简陋的计算机上本地尝试不同的 AI 模型，不幸的是，到目前为止，这台电脑还没有专用的显卡，只有一块 AMD APU。 硬件规格： AMD 4650G APU 32GB RAM 1TB SSD 磁盘 Ollama 设置： 在 Ubuntu / WSL2 Windows 11 上 为其专用了大约 17GB 的 RAM 使用 Snap 而不是 docker 安装的 Open-webui Edge。 我注意到流行的 GGUF 模型通常不会崩溃，比如 Gemma2-2B、Gemma2-9B、Llama3.1、Mistral-7B 所以，我实际上想知道，是因为这些流行的模型经过了严格的微调，还是我加载模型的方式有问题？当模型表现不如预期时，我通常会更改参数，例如将 num_ctx 从 4096 减少到 1024 或 512，或将温度从 0.7 降低到 0.3。 huggingface 的所有以下模型在我的计算机上都崩溃了。在我购买专用显卡进行升级之前，我想知道您对这个问题的原因的看法。我是否需要使用更多高级参数来加载这些模型以避免出现问题？ Phi-3.1-mini-4k-instruct-Q8_0.gguf aya-23-8B-Q6_K.gguf Wizard-Vicuna-7B-Uncensored.Q6_K.gguf Wizard-Vicuna-13B-Uncensored.Q2_K.gguf Wizard-Vicuna-13B-Uncensored.Q5_K_M.gguf Wizard-Vicuna-13B-Uncensored.Q6_K.gguf codegeex4-all-9b-Q6_K.gguf codegeex4-all-9b-Q5_K_S.gguf 我遇到的问题类型如下：  简单崩溃&quot;抱歉，Ollama 没有生成响应&quot;。这似乎是内存溢出！ 只有在我说&quot;嗨&quot; 之后，AI 模型才开始给我讲故事，这种情况发生在我身上好几次，Aya 开始给我讲她自己的故事，CodeGeex 也开始运行虚构的 Web 开发场景。 该模型开始不停地一遍又一遍地生成重复的文本。  您的见解将帮助我对我正在做的事情更有信心，因为下载这些具有数十亿个参数的模型会占用大量数据，我想降低为我的设置下载不正确的版本的可能性。此外，如果有一些高级参数，我可以用来使这些模型工作，那将会很有帮助，非常感谢！    提交人    /u/tommy737   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1et4h8c/help_from_experienced_users_with_local_ai_models/</guid>
       <pubDate>Thu, 15 Aug 2024 19:43:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 生成的环境音乐</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1et2wzm/ai_generated_ambient_music/</link>
+      <description><![CDATA[大家好！我在 YouTube 上看到了很多这样的“氛围”频道，想尝试制作一些类似的音乐。这些是如何生成的？我试过几个网站，但它们的时间限制为 2-5 分钟。有没有可以生成 2-3 小时的？ https://www.youtube.com/watch?v=LzNT5ReohcM    提交人    /u/cyb0rgasm   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1et2wzm/ai_generated_ambient_music/</guid>
+      <pubDate>Thu, 15 Aug 2024 18:42:18 GMT</pubDate>
     </item>
     <item>
       <title>谷歌推出 Gemini Live AI 产品</title>
