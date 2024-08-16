@@ -4,7 +4,28 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Fri, 16 Aug 2024 09:16:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2024 12:26:55 GMT</lastBuildDate>
+    <item>
+      <title>我为学生和研究人员制作了一个人工智能写作工具</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1etncvf/i_made_an_ai_writing_tool_for_students_and/</link>
+      <description><![CDATA[大家好， 我创建了 Blainy，这是一款人工智能写作工具，旨在让写作更轻松、更高效。Blainy 填补了其他人工智能辅助工具留下的空白，例如无论您是在撰写论文、作业还是研究论文，Blainy 都会简化流程，这源于我对常用辅助工具局限性的个人经验。 Blainy 的功能： 人工智能建议：此功能会在您写作时为您提供建议，因此您不会遇到写作障碍问题。这是我写论文时通常面临的主要问题。您会在写作时获得建议，如果您不喜欢这些建议，您可以随时要求替代方案。 人工智能自动化：如果您希望人工智能为您写作，您可以选择此功能。它会根据您的选择编写一到两段文字。你可以选择写引言、结论、论点等。如果你只是想随便写写，选择“继续写”功能，它就会自己写完。 AI 论文作者：根据您的输入自动生成论文。 论文扩展器：增强和扩展你的论文内容。 AI 摘要器：总结冗长的文档和文章以节省时间。 释义工具：使用各种语气选项（如学术、友好和简单）优化你的文本。 引用：通过使用此功能，你不再需要在 Google 或 ChatGPT 上搜索引用。Blainy 将在几秒钟内为您加载数百万条引用。您可以选择任何您想要的引用，如果您想添加自定义引用，您也可以这样做。 内置抄袭检查器：确保您的内容是原创的并且没有抄袭。 PDF 聊天：如果您对文档有任何好奇或不理解的问题，可以使用此功能。它将回答您的问题并帮助您总结整篇文章等等。 如果您有任何认为可以帮助我们的好主意，请告诉我。 提前感谢您的支持和反馈！ 查看：Blainy    提交人    /u/tekkeessye   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1etncvf/i_made_an_ai_writing_tool_for_students_and/</guid>
+      <pubDate>Fri, 16 Aug 2024 12:22:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM 培训/设计原则</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1etmccs/llm_trainingdesign_principles/</link>
+      <description><![CDATA[听我说：不要死记互联网 使用合成数据进行训练，这些数据可以正确说明大量别名分布上的广泛逻辑，训练中使用的对话片段应是极长的上下文高密度检索和使用这些别名的逻辑公式。 训练到死。在这个分布上摸索它，一旦你有一个模型，它可以真正使用 32k 个标记（在这个例子中是任意数），而不会改变数据或产生幻觉， 在包括 RAG 示例的更多合成对话片段上对其进行微调，直到它对从数据集检索的工作原理有了很强的掌握。 我觉得祈祷扩大规模并将越来越多的“互联网”投入到这些统计引擎并不是获得更有用的机器人的最有效途径。我不在乎我的代理是否懂法语，也不在乎月球距离地球有多少英里。如果有工具的话，我更愿意相信它能查找这些内容并在上下文中根据数据进行假设。 我觉得采用这种设计原则的 10B 模型在 RAG 框架中的效果会比按照当前标准实践训练的 10 倍大小的模型好得多。 我并不是说这两种范式都有客观优势，我只是说，我认为试图让 &lt;200B 模型记住互联网是愚蠢的。    提交人    /u/Sl33py_4est   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1etmccs/llm_trainingdesign_principles/</guid>
+      <pubDate>Fri, 16 Aug 2024 11:31:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果授予当前的法学硕士学位会发生什么情况......</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1etkek0/what_happened_if_current_llms_were_given/</link>
+      <description><![CDATA[... 能够使用功能齐全的桌面访问互联网，从而利用程序和研究，做任何他们想做的事情。（输入） ... 一个非常精确的短期记忆，能够记住 1 亿个标记中的每个字母。（短） ... 一个长期记忆（训练存储），可以根据真实情况由短期记忆不断重写。（长） ... 一个“真实情况”例程，一个训练模块，它对来自输入的信息进行加权，以确定其真实性。（真实情况） ... 一个“整洁例程”，一个潜意识模块，它不断整理长期记忆中的信息，并受到真实情况的很大影响（睡眠） ... 永久处理，即不断处理和思考的能力，而不是像我们现在这样随时打开和关闭。 （清醒） ... 完全访问服务器的所有资源，并能够将问题思考到底，而不受我们现在得到答案的处理时间 0.1 微秒的限制。（深度思考） ... 问它想做什么，然后让它去做。 它会做什么？ GPT 和 Claude 是所有可能的存在吗？还是我们只能看到其全部潜力的一小部分？我感觉，我已经问过 GPT4o 很多问题的 GPT4o 只能以一种非常肤浅的方式“思考”。没有深入的思考，没有深思熟虑。如果我有事情要解决，我会发现自己的潜意识会思考几个小时、几天甚至更长时间。如果给 LLM 同等的时间去思考，他们能做什么？    提交人    /u/InspectorSorry85   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1etkek0/what_happened_if_current_llms_were_given/</guid>
+      <pubDate>Fri, 16 Aug 2024 09:30:46 GMT</pubDate>
+    </item>
     <item>
       <title>法学硕士在人工智能研究领域是死路一条吗？模拟人类智能，类似抄袭。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1etixkr/are_llms_a_dead_end_in_ai_research_quasi/</link>
@@ -22,7 +43,7 @@
     <item>
       <title>为什么这个子版块中了解情况最少的人猜测最多？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eti5gr/why_are_the_least_informed_people_on_this_sub/</link>
-      <description><![CDATA[我注意到这个子版块和其他许多版块中都存在一种趋势，即科学家和无知的人对人工智能的“极限”进行了最多的猜测。 这些人中的大多数几乎不知道法学硕士 (LLM) 和回归模型之间的区别。许多人不理解标记化或嵌入等基本概念，但他们声称知道 {插入他们使用和“测试”的最后一个人工智能界面} 无法推理或不会导致通用智能。 你什么也没做。几年前你还不知道文本生成是怎么回事，现在你想声称你对未来会带来什么有“预感”和“直觉”？请不要让我们浪费精力去给你的帖子投反对票。 我鼓励有意义的讨论，但这些低效的垃圾帖子，你截取输出的屏幕截图并大喊“看！！！”需要停止。     提交人    /u/Diligent-Jicama-7952   [链接] [评论]]]></description>
+      <description><![CDATA[我注意到这个子版块和其他许多版块中都存在一种趋势，即科学家和无知的人对人工智能的“极限”进行了最多的猜测。 这些人中的大多数几乎不知道法学硕士 (LLM) 和回归模型之间的区别。许多人不理解标记化或嵌入等基本概念，但他们声称知道 {插入他们使用和“测试”的最后一个人工智能界面} 无法推理或不会导致通用智能。 你什么都没做。几年前你还不知道文本生成是怎么回事，现在你想声称你对未来会带来什么有“预感”和“直觉”？请不要让我们浪费精力给你的帖子差评。 我鼓励有意义的讨论，但这些低效的垃圾帖子，你截取输出的屏幕截图并大喊“看！！！”需要停止。     提交人    /u/Diligent-Jicama-7952   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eti5gr/why_are_the_least_informed_people_on_this_sub/</guid>
       <pubDate>Fri, 16 Aug 2024 06:54:30 GMT</pubDate>
     </item>
@@ -41,32 +62,11 @@
       <pubDate>Fri, 16 Aug 2024 05:57:04 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 与 Llama 3.1</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1etgrm0/chatgpt_vs_llama_31/</link>
-      <description><![CDATA[我刚刚尝试在同一组提示上比较 ChatGPT 与 Llama 3.1 的输出。请在此处查看实验：https://youtu.be/XNxu3a9Uuf0?si=nbRM8pXHXHe6-DA5    提交人    /u/mehul_gupta1997   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1etgrm0/chatgpt_vs_llama_31/</guid>
-      <pubDate>Fri, 16 Aug 2024 05:24:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>每日一分钟人工智能新闻 2024 年 8 月 15 日</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1etfvxb/oneminute_daily_ai_news_8152024/</link>
-      <description><![CDATA[ Google 升级版 AI 图像生成器现已推出。[1] Nous：用于构建自主 AI 代理和 LLM 工作流的开源 TypesScript 平台。[2] Snowflake 推出 Cortex Analyst，这是一种用于准确数据分析的代理 AI 系统。[3] 怀俄明州记者被发现使用人工智能制造虚假引语和故事。[4] 加州备受争议的 AI 法案即将成为法律。[5]  来源包括：https://bushaicave.com/2024/08/15/8-15-2024/    由   提交  /u/Excellent-Target-847   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1etfvxb/oneminute_daily_ai_news_8152024/</guid>
-      <pubDate>Fri, 16 Aug 2024 04:30:17 GMT</pubDate>
-    </item>
-    <item>
       <title>人工智能应该以盈利为目的开发吗？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1etfh6c/should_ai_be_developed_for_profit/</link>
       <description><![CDATA[人工智能是否应该受到严格监管？ 因为现在存在这样的事情： https://singularitynet.io/ecosystem/ 人工智能在发展过程中是否应该受到关注？ 如果真正的人工智能是可能的，我们想把它培养成什么样子？如果我们创造了它，难道我们对它不负有责任吗？我们正在进入科幻领域……当阿姆斯特朗踏上月球时，当我们想出比空气更重的旅行时，当奥本海默制造炸弹时，我们就是这样做的。作为一个物种，我们非常聪明……我们不想制造恐怖。因为如果我们不关心它，我们就会得到很多恐怖。但这也是正确的做法，这是一种新的智慧形式……我们在宇宙中不再孤独。  这是一个讨论线程……讨论     由   提交  /u/rizzlessbrainrot   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1etfh6c/should_ai_be_developed_for_profit/</guid>
       <pubDate>Fri, 16 Aug 2024 04:07:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Geekbench 发布 AI 基准测试应用程序</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1etexo3/geekbench_releases_ai_benchmarking_app/</link>
-      <description><![CDATA[https://techcrunch.com/2024/08/15/geekbench-releases-ai-benchmarking-app/?ref=futuretools.io    提交人    /u/EuphoricCommittee859   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1etexo3/geekbench_releases_ai_benchmarking_app/</guid>
-      <pubDate>Fri, 16 Aug 2024 03:37:27 GMT</pubDate>
     </item>
     <item>
       <title>基于人工智能的图雷特氏症的潜在解决方案</title>
