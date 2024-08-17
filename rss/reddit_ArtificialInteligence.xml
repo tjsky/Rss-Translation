@@ -4,7 +4,14 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Sat, 17 Aug 2024 01:00:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2024 03:14:35 GMT</lastBuildDate>
+    <item>
+      <title>看看这个人工智能有多像人类</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eu5gob/check_out_how_human_like_this_ai_is/</link>
+      <description><![CDATA[https://preview.redd.it/f9qcgl9zi4jd1.png?width=932&amp;format=png&amp;auto=webp&amp;s=19b6d146b29aa1064d37b5615f262a6e757507a5 我使用 Anthropic 的 Claude API 构建了它。它全部托管在 Google Cloud 上，整个对话历史记录都保存在那里的一个存储桶中。我发送的每一个提示，它都会在回复之前重新读取整个历史记录。我在编码时没有做任何改变，只是添加了“您是虚拟助手”。整个改变都来自我实现记忆的方式。我认为这太棒了，在类似人类的语气和对话能力方面，我还没有看到任何接近它的东西。我很想听听大家的想法，但请记住，在分享任何反馈之前，我为此付出了很多努力。它说 Xara 是因为我从另一个项目中复制了一个前端。    提交人    /u/Infamous-Piano1743   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eu5gob/check_out_how_human_like_this_ai_is/</guid>
+      <pubDate>Sat, 17 Aug 2024 01:10:17 GMT</pubDate>
+    </item>
     <item>
       <title>聊天机器人/法学硕士 - 按代币付费还是订阅模式？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eu3qx7/chatbotsllms_pay_per_token_or_subscription_model/</link>
@@ -32,13 +39,6 @@
       <description><![CDATA[我正在城市里奔跑，有些警察想要找麻烦。已激活 RDNA3 的路径追踪优化。超高质量降噪“开启”。外观漂亮，使用 FSR3.1 帧生成和 AFMF2 以 160-180fps 运行。已激活超级分辨率自动功能，以实现高性能游戏级别 2（HPG 级别 2 ~ 120-180fps）。将着色器超频至 3,0Ghz，7900XTX 上的高级 RDNA3 架构性能出色。整个 GPU 的功耗约为 464W。 https://youtu.be/lnJtmzAbj4Q?si=FHsB7pX8wEiDe4dY RDNA3 路径追踪优化 RDNA3 高级去噪 RDNA3 FSR3 帧生成 RDNA3 性能光栅化 RDNA3 流体运动帧 2 RDNA3 KI 超级分辨率 RDNA3 超频@ 3269Mhz 用于 CPU 测试的 AMD AM5 PC： CPU：AMD Ryzen 9 7950X 16C/32T @ 170W GPU： AMD Radeon RX 7900 XTX @ 464W CPU 冷却器：Arctic AIO 360mm H²O MB：Asus X670E Creator WiFi RAM：2 x 32GB - G.SKILL 6000Mhz CL30 SSD (Nvme)：2TB + 4TB PSU：InterTech SamaForza 1200W+ Platinum 机箱：Cougar Blade    提交人    /u/No-Relationship5590   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eu139o/4k_path_tracing_and_ai_frame_generation_in/</guid>
       <pubDate>Fri, 16 Aug 2024 21:53:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>90 亿参数的 AI 模型 = 多少本书？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1eu0nej/a_9_billion_parameter_ai_model_how_many_books/</link>
-      <description><![CDATA[TLDR; 答案编号在下面以粗体显示。  极具挑战性的问题：我问了一个简单的问题，目的只是想从不同的 AI 模型中得到一个估计值。提示是：  提供计算一个 90 亿参数 AI 模型可以存储多少本书的估计值所需的所有步骤。  套用 Claude 3.5 Sonnet 和 GPT-4o 的话，他们相关地回答说，参数计数与知识库没有直接关系，因为 AI 实际上是通过模式识别来工作的，而不是像传统的数据存储方式那样真正记住内容。这很有道理，但归根结底，我们都知道，当我们提问时，我们会从训练使用的书籍（数据集）中得到高度准确和上下文相关的答案，换句话说，“似乎”无论人工智能如何工作，知识都是如此。 这就是为什么他们以保守的方式进行估算，并说一个基于平均书籍包含 90,000 到 100,000 个单词的假设的 90 亿参数模型在理论上将存储大约 80,000 本书，而不考虑用于优化的压缩/编码算法技术。 所以我做了跟进并询问，添加压缩率的估计并提供估计的书籍数量。 ChatGPT-4o 给出了 10:1 压缩比的估计值（720,000 本书） Claude Sonnet 3.5 给出了保守的 5:1 压缩比（400,000 本书）。 Google Gemini 1.5 pro 在恳求它遵守估计值后（因为它非常保守，有时甚至受到审查），它继续同意 ChatGPT-4o 的压缩比为 10:1，并给出了 900,000 本书的结论。 Mistral 8x22B instruct 也给出了 900,000 本书的结论。  但这是来自所有模型之父 Llama 3.1 70B 的巨大惊喜，它提供了几个估算值，深入考虑了其他几个因素，例如数据压缩技术，如下所示： 以下是可能有助于 AI 模型内部数据压缩的因素列表：  重复数据删除 LZMA（Lempel-Ziv-Markov 链算法） Gzip Brotli Zstandard 数据缓存 数据编码 游程编码 (RLE) Delta 编码 预测编码 变换编码 量化 熵编码 基于字典的压缩 基于神经网络的压缩  Llama 3.1 70B：据此，90 亿参数 AI 模型可以存储的书籍数量最终估计范围从保守的 430 万本书 到 3.07 亿本书（假设每本书约有 25 万字）。 我进行这项研究的个人动机是为了更加欣赏安装在我本地 ollama 设置上的 Google Gemma2-9billion 参数模型。在了解这么多之前，我已经很喜欢它了，但现在我想我会问更多问题，可能还会期待更多答案。 我的最后一个问题是让专业模式的困惑 AI，我问它世界上最大的百科全书有多少字？它说维基百科有 178 亿个单词（5500 万篇文章），除以 25 万个单词，相当于 71,200 本书！因此，保守估计 Google Gemma-2-9B 中平均有 200 万本书籍，而您本地 ollama 上的存储空间约为 10 GB，那么您计算机上的知识量大约是维基百科的 20 倍，而您却不知道！快乐的人工智能 &lt;3 https://chatgpt.com/share/a17f2bcc-c634-4fba-b618-794b4f55bab3 https://sdk.vercel.ai/playground/s/pP0svvv0UG1y    提交人    /u/tommy737   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1eu0nej/a_9_billion_parameter_ai_model_how_many_books/</guid>
-      <pubDate>Fri, 16 Aug 2024 21:35:23 GMT</pubDate>
     </item>
     <item>
       <title>需要至少 20GB 的旧 GPU（V100 或更旧）</title>
