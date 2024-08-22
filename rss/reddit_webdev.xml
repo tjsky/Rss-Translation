@@ -4,11 +4,32 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 22 Aug 2024 01:05:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2024 03:17:20 GMT</lastBuildDate>
+    <item>
+      <title>到底需要多长时间？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey76c1/how_long_does_it_really_take/</link>
+      <description><![CDATA[自从你知道自己从事 Web 开发以来，你花了多长时间才找到工作？你被拒绝了多少次？由于这个市场已经饱和，我很害怕。经验丰富的开发人员，如何让自己在人群中脱颖而出？    提交人    /u/nitin_is_me   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey76c1/how_long_does_it_really_take/</guid>
+      <pubDate>Thu, 22 Aug 2024 01:39:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>让 git-hooks 再次伟大！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey6nbl/make_githooks_great_again/</link>
+      <description><![CDATA[我一直未能解释的一点是，pipelight 提供了一种管理 git hooks 的强大方法。 它允许组合事件和分支！🤯 ``` [[pipelines]] name = &quot;test&quot; [[pipelines.steps]] name = &quot;js tests&quot; command = [&quot;bun test&quot;] 见下文，该钩子将仅在 dev 和 feature 分支上运行！！ 😯 [[pipelines.triggers]] branch = [&quot;feature-*&quot;,&quot;dev&quot;] action= [&quot;pre-push&quot;, &quot;pre-commit&quot;] ``` 此外，如果您尝试绕过这些规则，cli 将会发出一些错误消息！ https://github.com/pipelight/pipelight    提交人    /u/poulain_ght   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey6nbl/make_githooks_great_again/</guid>
+      <pubDate>Thu, 22 Aug 2024 01:14:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>适合 1k-5k 名收件人的最佳电子邮件营销平台？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey6gn7/best_email_marketing_platform_for_1k5k_recipients/</link>
+      <description><![CDATA[我为一个网站编写了一个基本的电子邮件群发功能，邮件列表已经增长到需要更灵活的程度。有没有推荐的平台来管理邮件列表和设计要发送的电子邮件？    提交人    /u/blakealex   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey6gn7/best_email_marketing_platform_for_1k5k_recipients/</guid>
+      <pubDate>Thu, 22 Aug 2024 01:05:14 GMT</pubDate>
+    </item>
     <item>
       <title>我写了一篇文章，通过挑战问题来解释 JSON Web 令牌 (JWT)，以测试您的知识。</title>
       <link>https://www.reddit.com/r/webdev/comments/1ey6d4v/i_wrote_an_article_explaining_json_web_tokens/</link>
-      <description><![CDATA[      JSON Web Tokens » https://i.redd.it/x957fu1u64kd1.gif 这是我在理解 Firebase 身份验证的过程中写的内容。我知道这是一个之前已经多次涉及过的主题，但我读过很多解释，它们跳过或掩盖了一两个重要细节。    提交人    /u/neb2357   [链接] [评论] ]]></description>
+      <description><![CDATA[      JSON Web Tokens » 这是我在寻求了解 Firebase 身份验证时写的内容。我知道这是一个之前已经多次涉及过的主题，但我读过很多解释，它们跳过或掩盖了一两个重要细节。    提交人    /u/neb2357   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ey6d4v/i_wrote_an_article_explaining_json_web_tokens/</guid>
       <pubDate>Thu, 22 Aug 2024 01:00:56 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[大家好！ 坦白说，我至少现在还不是网页开发人员。虽然我知道 HTML、JS、Java 和 C# 的基础知识。我想做的是利用这些技能为朋友制作一份礼物 - 一个带有交互式动画地图的网页。它只包含一个问候屏幕和 2D 地图本身（地球），其中有各种 2D 对象在循环中围绕它移动 + 一些文本。 据我所知，我有两种方法可以实现它：从头开始创建它或使用网页构建器。起初我以为我可以通过第二种选择相当容易地制作类似的东西，但后来我想到，考虑到项目的范围和复杂程度，也许我应该选择完全自己制作。这样做的好处可能是它必须提供的灵活性和自由度。同时，由于我已经很长时间没有练习编码了，所以我也不完全确定。 因此，我决定在这里征求一些更有经验的人的意见。您会选择什么，为什么？ 提前谢谢您！    提交人    /u/reddit_tourist_08   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ey1by8/would_it_be_wise_to_create_a_gift_webpage_like/</guid>
       <pubDate>Wed, 21 Aug 2024 21:18:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于多线程和后端应用程序可扩展性的问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exzu7v/question_on_muktithreading_and_scalability_on/</link>
-      <description><![CDATA[如果我们可以扩展您的应用程序，多线程的意义何在？ 我最近看了一个关于垂直和水平扩展的视频，想知道多线程与单线程且可以扩展的 JS 等语言相比有什么优势（我知道任何后端 Web 都可以扩展，但如果您可以扩展单线程应用程序，多线程的意义何在）    提交人    /u/ever_Brown   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exzu7v/question_on_muktithreading_and_scalability_on/</guid>
-      <pubDate>Wed, 21 Aug 2024 20:18:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>只是好奇......</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exzb2o/just_a_curiosity/</link>
-      <description><![CDATA[YouTube 等网站如何在主页上填充视频。我是编程新手，昨晚偶然想到的。每次加载时视频都不一样，那么是什么控制了它？JavaScript？还是服务器端配置规则集？    提交人    /u/roguemead   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exzb2o/just_a_curiosity/</guid>
-      <pubDate>Wed, 21 Aug 2024 19:56:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪些面试危险信号会让你不想得到这份工作？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exxmfn/what_are_some_interview_red_flags_that_make_you/</link>
-      <description><![CDATA[我遇到的一些情况：  &quot;我们每天都要参加 4 小时的 Zoom 会议，每周三都是会议。&quot; GlassDoor 评论称其&quot;运行&quot;、&quot;避免&quot;、&quot;微观管理&quot;、&quot;管理不善&quot; 等。 我们会按分钟跟踪您的编程任务。 联系之前在那里工作过的开发人员，他们会说&quot;也许他们自从我离开后就变了，但是...&quot; 开发人员在面试中对我表现出敌意。 开发人员在面试中互相敌对。     提交人    /u/Beginning-Comedian-2   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exxmfn/what_are_some_interview_red_flags_that_make_you/</guid>
-      <pubDate>Wed, 21 Aug 2024 18:48:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
