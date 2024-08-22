@@ -4,13 +4,90 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 21 Aug 2024 21:14:18 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2024 01:05:26 GMT</lastBuildDate>
     <item>
-      <title>我写了一篇文章，通过挑战问题来解释 JavaScript Web 令牌 (JWT)，以测试您的知识。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ey0w94/i_wrote_an_article_explaining_javascript_web/</link>
-      <description><![CDATA[      JavaScript Web Tokens  https://i.redd.it/cm43opqh03kd1.gif 这是我在寻求了解 Firebase 身份验证时写的内容。我知道这是一个之前已经多次涉及过的主题，但我读过很多解释，它们跳过或掩盖了一两个重要细节。    提交人    /u/neb2357   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ey0w94/i_wrote_an_article_explaining_javascript_web/</guid>
-      <pubDate>Wed, 21 Aug 2024 21:00:42 GMT</pubDate>
+      <title>我写了一篇文章，通过挑战问题来解释 JSON Web 令牌 (JWT)，以测试您的知识。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey6d4v/i_wrote_an_article_explaining_json_web_tokens/</link>
+      <description><![CDATA[      JSON Web Tokens » https://i.redd.it/x957fu1u64kd1.gif 这是我在理解 Firebase 身份验证的过程中写的内容。我知道这是一个之前已经多次涉及过的主题，但我读过很多解释，它们跳过或掩盖了一两个重要细节。    提交人    /u/neb2357   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey6d4v/i_wrote_an_article_explaining_json_web_tokens/</guid>
+      <pubDate>Thu, 22 Aug 2024 01:00:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要有关托管、数据库等方面的建议。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey5m9p/advice_needed_about_hosting_databases_etc/</link>
+      <description><![CDATA[我正在推出一个小型 SAAS 应用程序。目前我使用的是 VPS，而且我在 Oracle Cloud 上还有另一个站点，因此我倾向于将这个 VPS 站点也转到 Oracle。 我很好奇人们对 DigitalOcean、Hertzner 和其他公司的看法。我还需要一个 MySQL 托管实例，为此我一直在考虑 PlanetScale，但我不确定我需要什么样的规格。想知道人们是否认为 PlanetScale 是 DB 的好选择？如果我可以避免传统的迁移和备份，我会很高兴。除了 Planetscale 之外，我还应该考虑其他可行的选择吗？ 欢迎任何拥有生产应用程序的人提供反馈。谢谢！    提交人    /u/jstanaway   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey5m9p/advice_needed_about_hosting_databases_etc/</guid>
+      <pubDate>Thu, 22 Aug 2024 00:25:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人尝试过创办自己的网页设计公司吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey57i6/has_anyone_tried_to_start_their_own_web_design/</link>
+      <description><![CDATA[TL;DR 我是不是妄想我可以在没有页面构建器平台的情况下开始做网站业务？ 让我这样说吧...我已经做了 10 年的全职开发人员。我没有从我的工作中获得任何成就感，我的假设是我无法与我所做东西的实际受益者互动。   我身边没有好工作 我现在不能搬家，因为家庭原因 我可能太笨了，不适合任何薪水丰厚的远程职位 我对创业没有想法  所以，很自然地，我所有的借口都指向为小型企业制作网站。 但是，进入这个行业大约一年后，似乎这实际上不是一个网页设计行业，而是一个恰好制作 WordPress 网站的营销行业。 老实说，我对这个认识感到沮丧。我不想学习网站构建器。 我知道我可以在 NextJS 项目上使用像 Payload 和 Strapi 这样的东西，但我读过太多评论说，“只使用 WordPress，兄弟” 就这样了吗？我该继续前进了吗？或者说，在这个市场上，传统的 Web 开发还有一席之地吗？ TIA    提交人    /u/GitPushCoast   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey57i6/has_anyone_tried_to_start_their_own_web_design/</guid>
+      <pubDate>Thu, 22 Aug 2024 00:06:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>嘿，孤独的开发人员，当您开发非常长且复杂且难以测试和记录的代码时，您如何设法不迷失在您所创建的代码中？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey573s/hey_lone_developers_out_there_when_you_develop/</link>
+      <description><![CDATA[我意识到阻碍我进步的首要因素是试图理解我之前编写的代码，尤其是：  复杂的原始代码，涉及大量数学和图形算法， 为每个函数 / 类编写几行注释来描述功能是远远不够的， 为每个复杂函数创建一个测试应用程序非常耗时 相反，创建大量简单的函数会破坏性能，并肯定会导致性能依赖的项目失败。  在我寻找解决方案的过程中，我很好奇您发现了哪些技术 / 措施在您遇到上述苛刻情况时最适合您。 我提到了“单独的开发人员” （现有的或未来的自由职业者），因为我们通常是一个单人乐队，必须完成多项任务，而不仅仅是编程，这与在公司团队中工作不同，在团队中，不同的任务和不同的职责分配给不同的人。    提交人    /u/FM596   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey573s/hey_lone_developers_out_there_when_you_develop/</guid>
+      <pubDate>Thu, 22 Aug 2024 00:05:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>获取请求好像还没有完成？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey45kb/fetch_request_seeming_to_not_finish/</link>
+      <description><![CDATA[      因此，由于末尾的“1”没有打印，因此似乎我的代码执行没有完成。有人知道为什么会这样吗？ https://preview.redd.it/73hfaqh5o3kd1.png?width=1308&amp;format=png&amp;auto=webp&amp;s=a12d54e33343b803d13521153e3773552e18c130 但与此同时，我的获取方法似乎运行到最后，因为最后的“7”被正确打印了。  https://preview.redd.it/2dsc48cbo3kd1.png?width=1746&amp;format=png&amp;auto=webp&amp;s=1afee08728e745ba1ce253a6f17769f5ae7d75dc    提交人    /u/Willing-Insurance654   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey45kb/fetch_request_seeming_to_not_finish/</guid>
+      <pubDate>Wed, 21 Aug 2024 23:17:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>2024 薪资线索</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey3xwe/2024_salary_thread/</link>
+      <description><![CDATA[2024 年，你们作为 Web 开发人员能赚多少钱。  你们的堆栈是什么，你们的角色是什么（后端/前端/全栈），如果你们愿意，你们可以评论你们的位置，但你不必当然。请也提及你的 YOE。    提交人    /u/Dreezoos   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey3xwe/2024_salary_thread/</guid>
+      <pubDate>Wed, 21 Aug 2024 23:08:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要有关学习服务器工作原理的建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey3x39/need_advice_on_learning_server_works/</link>
+      <description><![CDATA[我想学习如何从头开始（或接近于零）创建一个服务器并连接到它，这样我就可以了解它的工作原理 是否有这样的指南/教程？    提交人    /u/techlover1010   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey3x39/need_advice_on_learning_server_works/</guid>
+      <pubDate>Wed, 21 Aug 2024 23:07:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>SaaS 的定价？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey3vlw/pricing_on_saas/</link>
+      <description><![CDATA[嗨，我正在为工业公司开发 SaaS，需要帮助设定合适的价格。有人知道如何计算此类软件的价格的论文或研究吗？谢谢！    提交人    /u/joansws   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey3vlw/pricing_on_saas/</guid>
+      <pubDate>Wed, 21 Aug 2024 23:05:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>推荐使用哪种 USB 电缆进行 Web 开发</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey3uzy/which_usb_cable_is_recommended_for_web_dev/</link>
+      <description><![CDATA[提前致谢。     由   提交  /u/Arch-by-the-way   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey3uzy/which_usb_cable_is_recommended_for_web_dev/</guid>
+      <pubDate>Wed, 21 Aug 2024 23:05:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>想要开始从事 Web 开发、训练营或获得计算机科学学位的职业？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey3ayu/to_begin_a_career_in_web_development_bootcamp_or/</link>
+      <description><![CDATA[大家好， 我是这个社区的新人，目前在社区大学就读 webdev 课程，因为这听起来很有趣，而且似乎我会喜欢这份职业。我很好奇你们是否会推荐我攻读计算机科学学位，这可能需要 3 到 4 年的时间，或者参加训练营，让我进入这个行业。 我刚刚获得经济学副学士学位，但我没有转到四年制大学，因为我没有进入离我住处很近的大学学习商业经济学。我住在圣地亚哥，那里的大学竞争很激烈。我也觉得会计非常无聊，正在考虑换职业道路。我现在 21 岁，每周工作 20-40 小时，具体取决于季节。有什么建议或推荐给我吗？任何建议都是有帮助的，因为我是新手:)     提交人    /u/earthquakejake03   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey3ayu/to_begin_a_career_in_web_development_bootcamp_or/</guid>
+      <pubDate>Wed, 21 Aug 2024 22:41:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>快速 TIL：字体是从操作系统而不是浏览器加载的，又名“comic sans 真的是网络安全的吗？”</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey2hrm/quick_til_fonts_are_loaded_from_the_os_and_not/</link>
+      <description><![CDATA[      我知道这很蠢。您可能在想“别胡扯，夏洛克”，但是……我今天才学到这个艰难的教训，所以就在这里。 我以为字体是浏览器特定的。Chrome 或 Firefox 在其浏览器中捆绑了一组“网络安全”字体。因此，如果它在 Firefox 上有效，它应该在 PC 和移动设备上都能使用。 事实证明它是操作系统特定的。我在所有 PC 浏览器上测试了我的网站，它已经上线多年了。在移动设备上打开它，我以为 Impact 是网络安全的，结果却变成了愚蠢的字体（糟糕的后备选择），我原以为 Impact 是网络安全的，结果却让我大吃一惊。 我会自己去看的 expectation 与现实    提交人    /u/ZnV1   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey2hrm/quick_til_fonts_are_loaded_from_the_os_and_not/</guid>
+      <pubDate>Wed, 21 Aug 2024 22:06:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>从头开始创建这样的礼品网页明智吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ey1by8/would_it_be_wise_to_create_a_gift_webpage_like/</link>
+      <description><![CDATA[大家好！ 坦白说，我至少现在还不是网页开发人员。虽然我知道 HTML、JS、Java 和 C# 的基础知识。我想做的是利用这些技能为朋友制作一份礼物 - 一个带有交互式动画地图的网页。它只包含一个问候屏幕和 2D 地图本身（地球），其中有各种 2D 对象在循环中围绕它移动 + 一些文本。 据我所知，我有两种方法可以实现它：从头开始创建它或使用网页构建器。起初我以为我可以通过第二种选择相当容易地制作类似的东西，但后来我想到，考虑到项目的范围和复杂程度，也许我应该选择完全自己制作。这样做的好处可能是它必须提供的灵活性和自由度。同时，由于我已经很长时间没有练习编码了，所以我也不完全确定。 因此，我决定在这里征求一些更有经验的人的意见。您会选择什么，为什么？ 提前谢谢您！    提交人    /u/reddit_tourist_08   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ey1by8/would_it_be_wise_to_create_a_gift_webpage_like/</guid>
+      <pubDate>Wed, 21 Aug 2024 21:18:42 GMT</pubDate>
     </item>
     <item>
       <title>关于多线程和后端应用程序可扩展性的问题</title>
@@ -32,83 +109,6 @@
       <description><![CDATA[我遇到的一些情况：  &quot;我们每天都要参加 4 小时的 Zoom 会议，每周三都是会议。&quot; GlassDoor 评论称其&quot;运行&quot;、&quot;避免&quot;、&quot;微观管理&quot;、&quot;管理不善&quot; 等。 我们会按分钟跟踪您的编程任务。 联系之前在那里工作过的开发人员，他们会说&quot;也许他们自从我离开后就变了，但是...&quot; 开发人员在面试中对我表现出敌意。 开发人员在面试中互相敌对。     提交人    /u/Beginning-Comedian-2   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1exxmfn/what_are_some_interview_red_flags_that_make_you/</guid>
       <pubDate>Wed, 21 Aug 2024 18:48:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>移动和 Web 应用程序的身份验证建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exx1ba/authentication_advice_for_both_mobile_and_web_app/</link>
-      <description><![CDATA[      大家好  我发了几个小时的帖子，关于我遇到的一个身份验证问题，我正在尝试使用 NextJS 做一个身份验证系统，我还有一个基于 React Native 构建的移动应用程序。因此，我的主要目标是构建一个可以安全用于两个平台的系统。我很乐意收到你们的一些反馈，任何缺陷或我应该在这个系统中做的任何改变，我做了一个身份验证流程的快速图表，希望你理解。 非常感谢 https://preview.redd.it/xb8urwfy82kd1.png?width=1153&amp;format=png&amp;auto=webp&amp;s=b2c04a6c78452365506c595aff370d587c1a1bf1    由   提交  /u/MalvadoEZY   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exx1ba/authentication_advice_for_both_mobile_and_web_app/</guid>
-      <pubDate>Wed, 21 Aug 2024 18:25:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在不使用 JavaScript 的情况下向我的网站添加评论？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exw60y/how_do_i_add_comments_to_my_site_without/</link>
-      <description><![CDATA[我正在运营一个极简主义博客，并希望对个别文章发表评论。目前，我正在使用 Cactus 评论，但这需要 javascript，而我不希望有 javascript（我的网站上没有其他需要它的东西）关于如何在没有 javascript 的情况下添加评论有什么建议吗？     提交人    /u/emailemile   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exw60y/how_do_i_add_comments_to_my_site_without/</guid>
-      <pubDate>Wed, 21 Aug 2024 17:50:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>有保障的薪水值多少钱？从自由和不确定的自由职业转向薪水较低的固定工作。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exvs0q/what_is_a_guaranteed_paycheck_worth_shifting_from/</link>
-      <description><![CDATA[我做自由网页开发者已经 10 多年了。我与一些创意和营销机构有长期的合作关系，这意味着客户获取/收集项目一直都有人负责。他们带来客户，我负责工作。我可以自由地选择工作时间和日期，尽管我大部分时间都是周一到周五，早上 9 点到下午 5 点。 今年项目有所减少 - 去年我赚了约 16 万美元。今年我有望赚到接近 11 万美元。 我和我的伴侣即将迎来我们的第一个孩子。我预计生活费用会更高。所以我四处寻找工作并得到了一份工作。 这份工作比我现在赚的少得多（约 7 万美元），但我希望保留我最亲密的自由客户作为补充收入。  最大的缺点是，转变为固定的时间表，假期有限，没有选择走出办公室去赴约或外出，这将是一个巨大的生活方式改变。这种自由是我目前工作环境的一大优势，而且在有了新宝宝之后肯定会改变现状。 这对你来说有什么价值？用灵活性/自由换取稳定（较低）的薪水。 我从未做过员工开发人员，我让客户工作与工作同时进行的计划现实吗？ 我还没有接受这个提议。寻求建议。谢谢。    提交人    /u/leather-and-oakmoss   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exvs0q/what_is_a_guaranteed_paycheck_worth_shifting_from/</guid>
-      <pubDate>Wed, 21 Aug 2024 17:35:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我觉得现在第三方工具中的 bug 越来越多了。几乎到了我害怕使用它们的地步。还有人有这种感觉/注意到吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exvfze/i_feel_like_i_run_into_more_and_more_bugs_in/</link>
-      <description><![CDATA[不久前，我们遇到了 Craft 前端表单错误问题。我们花了好几个小时修复代码，却发现这是 CMS 中的一个错误。他们立即修复了它，这是值得称赞的，但这是一个相当基本的问题，只需在浏览器中进行测试即可轻松发现。这对 Craft 来说不算什么。因为...... 两个不同的项目的两个主要 WordPress 插件中也存在错误。Gutenberg 中存在重大错误问题。PayPal 中也有错误。由于 Salesforce 的问题，Marketo 表单出现问题。基本上，我现在正在处理的所有工作都因支持而暂停。它真的让我精疲力竭，而且似乎越来越糟，越来越频繁。其他人注意到了吗，还是我只是运气不好？ 并不是说我自己不写有错误的代码。但至少我可以处理我的代码，而不是只是坐着等待支持。    提交人    /u/HaddockBranzini-II   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exvfze/i_feel_like_i_run_into_more_and_more_bugs_in/</guid>
-      <pubDate>Wed, 21 Aug 2024 17:21:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>在移动版 Safari 上滚动时，`touchmove` 事件触发不一致</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exur95/touchmove_event_fires_inconsistently_when/</link>
-      <description><![CDATA[嗨，我对 touchmove 事件感到困惑，我打印出触摸次数，以及第一次触摸的 x 和 y 坐标：https://cute-gregarious-responsibility.glitch.me/ 在我的 iPhone 上，该事件仅在我滚动操作的一半时间内触发。但我真的看不出这里的逻辑，滚动始终有效，但 touchmove 事件并不总是触发。这是移动版 Safari 的错误吗？    提交人    /u/isbtegsm   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exur95/touchmove_event_fires_inconsistently_when/</guid>
-      <pubDate>Wed, 21 Aug 2024 16:54:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>我无法通过手机连接</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exu1z8/im_having_problems_connecting_from_my_phone/</link>
-      <description><![CDATA[我正在为我的课程开发一个 android studio 应用程序，并且我被指示使用 flask 连接到 sql workbench 上的数据库。第一件事是，当我尝试使用该应用程序从手机连接到我的电脑所连接的同一路由器时，它无法通过其 IP 找到服务器。现在，在花了几个小时尝试解决这个问题之后，它似乎已经停止工作，即使在 android studio 上也是如此。 我很绝望，如果你们中的任何人知道可能出了什么问题，请告诉我 ps。对于任何语法错误，英语不是我的主要语言，我们深表歉意    提交人    /u/Annoying_Crow   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exu1z8/im_having_problems_connecting_from_my_phone/</guid>
-      <pubDate>Wed, 21 Aug 2024 16:27:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何抓取一个网站、提取一条信息并创建一个包含该信息及其来源 URL 的表格？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1extqfm/how_can_i_crawl_a_website_extract_one_piece_of/</link>
-      <description><![CDATA[好的，长话短说，我正在尝试恢复一个相当大的网站上的图片。 我尝试过 wayback machine，但是因为图片托管在外部 CDN 上，所以我在使用此方法时遇到了问题。 另一种方法是，我可以访问一个 Shutterstock 帐户，该帐户似乎拥有所有图片，但它们根本没有组织起来。但是，该网站保存了来自 Shutterstock 的所有具有相同 ID 的图像。 所以，我在想，我可以抓取网站或进行查询或其他操作，我真的不知道，以提取每个 URL 的图像 ID，然后将它们放在 Google 表格中，这样至少我知道哪些图像放在了哪里。 从那里，我需要弄清楚如何从 Shutterstock 批量下载、匹配它们、上传它们并让 WP 将它们与正确的 URL 匹配。 呃，有什么想法吗？    提交人    /u/onemansbrand   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1extqfm/how_can_i_crawl_a_website_extract_one_piece_of/</guid>
-      <pubDate>Wed, 21 Aug 2024 16:14:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>您推荐哪个 Linux 发行版用于 Web 开发？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1extjmg/which_linux_distro_do_you_recommend_for_web_dev/</link>
-      <description><![CDATA[嘿。我一直使用 Windows，但我非常喜欢 Linux，而且我现在买不起 Mac。与我见过的朋友在 Linux 上所做的相比，我不喜欢 Windows 的工作环境。 我对 Linux 发行版有些熟悉，但之前我从未在家中使用过 Linux。只是在学校里短暂地使用过，那是几年前的事了，当时使用的是 Ubuntu。 那么您使用或推荐哪个发行版？我使用所有常用的工具和软件。    提交人    /u/xreepurr   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1extjmg/which_linux_distro_do_you_recommend_for_web_dev/</guid>
-      <pubDate>Wed, 21 Aug 2024 16:07:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>设计</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ext1p9/design/</link>
-      <description><![CDATA[我做前端开发人员已经 10 年了，但一直不愿意学习设计技能。主要是因为我一直在有优秀设计师的团队中工作或与他们共事。长话短说，我被要求抛开顾虑，开始学习。我在这里向其他开发人员询问，因为我过去也问过设计师这个问题，但得到的答复没有帮助，而且大多是负面的。 你们中有人成功涉足过网页设计的黑暗艺术吗？如果是，你能分享一下在开始这段旅程时应该把精力集中在哪里的想法吗？我以前是一名城市规划师，就读于一所优秀的设计学校，这让我获得了一些设计原则方面的经验，而且我可以使用 Photoshop 和 Illustrator。但是，我在图形/网页设计方面没有实际的基础，如果不回学校学习，我不知道从哪里开始。 提前感谢您愿意分享的任何见解！    提交人    /u/canobeano   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ext1p9/design/</guid>
-      <pubDate>Wed, 21 Aug 2024 15:47:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何自行托管一个简单的静态网站。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exsyfq/how_to_self_host_a_simple_static_website/</link>
-      <description><![CDATA[我刚刚购买了我的第一个网站（个人网站），有一段时间我没有计划将任何内容放在某个地方，我现在很忙，我只想放一张正在建设中的图片。有什么方法可以轻松做到这一点？我快速阅读了一些东西 github cname 一些东西（我是新手）。只是一张图片，没有别的。     提交人    /u/Both-Ganache-5393   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exsyfq/how_to_self_host_a_simple_static_website/</guid>
-      <pubDate>Wed, 21 Aug 2024 15:44:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>PSA：更新样板 Web 项目的默认配置</title>
-      <link>https://www.reddit.com/r/webdev/comments/1exrsd3/psa_update_the_default_config_of_your_boilerplate/</link>
-      <description><![CDATA[        提交人    /u/tanepiper   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1exrsd3/psa_update_the_default_config_of_your_boilerplate/</guid>
-      <pubDate>Wed, 21 Aug 2024 14:58:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
