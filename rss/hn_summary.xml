@@ -4,109 +4,89 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Mon, 26 Aug 2024 15:15:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2024 21:11:48 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 马萨诸塞大学阿默斯特分校的计算机工程师最近进行的一项研究表明 [...]</title>
-      <link>https://t.me/hn_summary/105603</link>
-      <description><![CDATA[新研究揭示数字钱包存在漏洞——即使持卡人不使用
-马萨诸塞大学阿默斯特分校的计算机工程师最近进行的一项研究发现了 Apple Pay、Google Pay 和 PayPal 等数字钱包存在重大安全漏洞。尽管这些钱包越来越受欢迎，而且人们认为它们很安全，但它们依赖于过时的身份验证方法，优先考虑便利性而不是安全性，因此很容易受到欺诈。研究强调，恶意行为者可以轻松绕过初始身份验证，并在卡被盗后继续进行未经授权的购买。该研究呼吁银行和数字钱包公司之间进行更好的协调，以加强安全措施。令人惊讶的是，银行往往优先考虑便利性，例如维持订阅，而不是强大的安全措施。研究人员建议用户采用最佳安全做法，包括启用通知和定期查看信用卡对账单。 
-
-争议：该研究批评银行优先考虑便利性而非安全性，这可能是金融机构之间的争论点。]]></description>
-      <guid>https://t.me/hn_summary/105603</guid>
-      <pubDate>Mon, 26 Aug 2024 15:15:10 GMT</pubDate>
+      <title>[媒体] 在北卡罗来纳州摩尔县迦太基一个安静的街区，居民们听到了六声 [...]</title>
+      <link>https://t.me/hn_summary/105660</link>
+      <description><![CDATA[“恐怖电报”聊天室正在助长电网攻击浪潮
+2022 年 12 月 3 日晚上 8 点之前，在北卡罗来纳州摩尔县迦太基的一个安静社区，居民听到了六声巨响。当地居民迈克尔·坎贝尔最初听到声音后躲了起来，而另一名目击者误以为是烟花。这声噪音实际上是针对杜克能源公司运营的附近变电站的枪声。枪声损坏了电力变压器的散热器，导致其泄漏了大量油。调查将这次袭击与当地一个右翼组织联系起来，突显了对电力基础设施的袭击令人不安的趋势。这一事件凸显了关键公用事业容易受到有针对性的暴力行为的攻击。&lt;​​br /&gt;]]></description>
+      <guid>https://t.me/hn_summary/105660</guid>
+      <pubDate>Mon, 26 Aug 2024 21:11:48 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 到了 20 世纪 60 年代，在前所未有的财富和技术的推动下，进步主义兴起 [...]</title>
-      <link>https://t.me/hn_summary/105602</link>
-      <description><![CDATA[进步的神秘主义者
-到了 20 世纪 60 年代，进步主义风起云涌，受到前所未有的财富和技术进步的推动。这个时代见证了人们脱离宗教信仰的转变，许多人接受了科学驱动世界的承诺。然而，这种新的科学“宗教”缺乏宗教提供的引人入胜的叙事。亚瑟·克拉克和艾萨克·阿西莫夫等科幻作家通过编织故事填补了这一空白，这些故事重新引入了命运和更高目标的元素，尽管是通过理性主义的视角。克拉克的《2001：太空漫游》和阿西莫夫的《基地》系列体现了这一趋势，将科学进步与神话故事融合在一起。这些故事虽然在科学上令人生疑，但却给人一种使命感和冒险感，引起了观众的强烈共鸣。这种理性主义与神话的矛盾融合继续塑造着现代的故事叙述，反映了我们的集体愿望和信念。]]></description>
-      <guid>https://t.me/hn_summary/105602</guid>
-      <pubDate>Mon, 26 Aug 2024 15:12:05 GMT</pubDate>
+      <title>[媒体] 当然！</title>
+      <link>https://t.me/hn_summary/105659</link>
+      <description><![CDATA[大边缘望远镜
+当然可以！请提供您希望从arxiv.org上的“大边缘望远镜”中总结的内容。]]></description>
+      <guid>https://t.me/hn_summary/105659</guid>
+      <pubDate>Mon, 26 Aug 2024 21:07:42 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Astral 网站上的文档解释了如何使用 uv 工具来管理和执行 [...]</title>
-      <link>https://t.me/hn_summary/105601</link>
-      <description><![CDATA[uv – 声明脚本依赖项
-Astral 网站上的文档解释了如何使用 uv 工具轻松管理和执行 Python 脚本，确保自动处理依赖项。uv 通过声明式管理虚拟环境和依赖项简化了脚本的运行。对于没有依赖项的脚本，您只需使用 uv run。对于有依赖项的脚本，您可以内联声明它们，或者使用 --with 选项在每次调用时指定它们。值得注意的是，uv 支持内联脚本元数据，允许在脚本本身内声明依赖项，并且它尊重 Python 版本要求，如果未安装，则下载必要的版本。这种方法消除了对长期虚拟环境和手动依赖项管理的需求。此外，uv 支持使用 pythonw 在 Windows 上运行 GUI 脚本。
-
-独特/巧妙的方面：使用内联脚本元数据直接在脚本中声明依赖项是一项巧妙的功能，可简化依赖项管理。
-
-重要提示：使用内联脚本元数据时，项目的依赖项将被忽略，并且不需要 --no-project 标志。]]></description>
-      <guid>https://t.me/hn_summary/105601</guid>
-      <pubDate>Mon, 26 Aug 2024 15:12:01 GMT</pubDate>
+      <title>[媒体] 伯尔尼大学心理学家马尔特·埃尔森（Malte Elson）批评了当前的教育制度[...]</title>
+      <link>https://t.me/hn_summary/105658</link>
+      <description><![CDATA[发现科学错误可获现金：为学术出版提供漏洞赏金
+伯尔尼大学心理学家马尔特·埃尔森 (Malte Elson) 批评了当前科学研究中的错误检测系统，认为该系统无效。他引用了经济学家卡门·莱因哈特 (Carmen Reinhart) 和肯尼斯·罗戈夫 (Kenneth Rogoff) 2010 年发表的一篇颇具影响力的论文，其中包含偶然发现的重大错误。为了解决这个问题，埃尔森和同事启动了“评估研究的可靠性和稳健性 (ERROR)”项目，该项目向审稿人支付报酬，以找出被广泛引用的心理学论文中的错误。该项目由“数字化转型中的人类”计划资助，审稿人因发现重大错误而获得奖金。尽管面临确保作者合作和寻找合格审稿人等挑战，该项目仍旨在扩展到其他学科并展示可扩展的系统错误检测模型。]]></description>
+      <guid>https://t.me/hn_summary/105658</guid>
+      <pubDate>Mon, 26 Aug 2024 21:02:39 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：www.bloomberg.com</title>
-      <link>https://t.me/hn_summary/105600</link>
-      <description><![CDATA[特朗普的“美国制造”比特币威胁中国巨头比特大陆的统治地位
-标题：特朗普的“美国制造”比特币威胁中国巨头比特大陆的统治地位
-网站：www.bloomberg.com
-
-多年来，总部位于北京的比特大陆科技有限公司一直主导着比特币挖矿硬件市场，占有高达 90% 的份额。这种主导地位就像戴比尔斯对钻石市场的控制，使比特大陆能够通过调整产量来影响全球价格。然而，不断加剧的政治紧张局势以及唐纳德·特朗普可能重返白宫，对比特大陆的统治构成了前所未有的威胁。特朗普领导下的“美国制造”比特币计划的前景可能会严重破坏比特大陆的据点，挑战中国在这个利润丰厚领域的霸主地位。]]></description>
-      <guid>https://t.me/hn_summary/105600</guid>
-      <pubDate>Mon, 26 Aug 2024 15:10:56 GMT</pubDate>
+      <title>[媒体] Y Combinator 2023 年夏季创业公司 Roame 的使命是通过实现 [...]</title>
+      <link>https://t.me/hn_summary/105657</link>
+      <description><![CDATA[Roame (YC S23) 正在招聘 iOS 创始工程师
+Roame 是 Y Combinator 2023 年夏季创业公司，其使命是让用户使用信用卡积分和里程搜索航班，从而实现完美旅行。Roame 拥有数十万用户，发展迅速，正在旧金山招聘 iOS 创始工程师。这个职位需要主人翁心态、对旅行和信用卡积分的热情，以及独立管理 iOS 应用的能力。工程师将与 CTO 和工程团队密切合作，平衡技术债务和最佳实践。Roame 提供丰厚的福利，包括健康计划、匹配的 401(k) 以及公司外的豪华旅行。公司文化强调强烈的职业道德、主人翁精神、责任感和善良。]]></description>
+      <guid>https://t.me/hn_summary/105657</guid>
+      <pubDate>Mon, 26 Aug 2024 21:02:36 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Prisme Analytics 是一项开源的、以隐私为中心的分析服务，专为网络而设计[...]</title>
-      <link>https://t.me/hn_summary/105599</link>
-      <description><![CDATA[显示 HN：Prisme – 面向 Web 工匠的分析
-Prisme Analytics 是一种开源、注重隐私的分析服务，专为 Web 工匠设计。它提供简单的设置和用户友好的仪表板，以提供有关网站或 Web 应用程序的宝贵见解。主要功能包括自定义事件、无 cookie 分析以符合 GDPR 要求、轻量级跟踪脚本以及非人类流量的自动过滤。Prisme 支持单页应用程序 (SPA) 并与 Grafana 集成以实现高级用户和团队管理。它旨在轻松自托管，不受供应商锁定。性能测试表明它每秒可以处理超过 50,000 个请求。欢迎贡献，该项目仅在 AGPL-3.0 下获得许可。]]></description>
-      <guid>https://t.me/hn_summary/105599</guid>
-      <pubDate>Mon, 26 Aug 2024 15:08:52 GMT</pubDate>
+      <title>[媒体] 最近的一项研究表明，新墨西哥州洛斯阿拉莫斯附近的土壤、植物和水 [...]</title>
+      <link>https://t.me/hn_summary/105656</link>
+      <description><![CDATA[美国洛斯阿拉莫斯原子能设施附近的钚含量与切尔诺贝利核电站相似
+最近的一项研究表明，原子弹诞生地新墨西哥州洛斯阿拉莫斯附近的土壤、植物和水中钚的浓度“极高”，与切尔诺贝利的水平相当。首席研究员迈克尔·凯特勒称，这一发现是他在美国公共区域见过的最高水平之一。尽管有人呼吁联邦政府采取行动，但政府驳回了这些担忧，声称钚含量在安全暴露限度内。公共卫生倡导者对洛斯阿拉莫斯被排除在扩大放射性废物暴露者资助范围之外感到愤怒。这项研究强调了长期的环境风险，包括水源和食物链的污染。]]></description>
+      <guid>https://t.me/hn_summary/105656</guid>
+      <pubDate>Mon, 26 Aug 2024 21:01:31 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 司法部（DOJ）和八个州再次提起反垄断诉讼[...]</title>
-      <link>https://t.me/hn_summary/105598</link>
-      <description><![CDATA[美国司法部对租金设定算法制造商 RealPage 提起反垄断诉讼
-美国司法部 (DOJ) 和八个州对总部位于德克萨斯州的科技公司 RealPage 提起反垄断诉讼，指控其非法操纵价格并垄断租金设定软件市场。该诉讼在北卡罗来纳州格林斯博罗的联邦地区法院提起，指控 RealPage 的软件使房东能够共享机密数据并设定类似的租金，从而有效地减少了竞争并推高了价格。此前，ProPublica 在 2022 年进行了一项调查，该调查强调了 RealPage 在房东之间可能类似卡特尔的行为中扮演的角色。美国司法部近两年的调查包括数据科学家对该软件算法的检查。 Thoma Bravo 旗下的 RealPage 否认存在不当行为，并声称其软件的影响被夸大了。与租户提出的投诉不同，司法部的诉讼没有将房东列为被告。此案对于拜登政府下司法部的反垄断执法至关重要，对其他行业具有更广泛的影响。]]></description>
-      <guid>https://t.me/hn_summary/105598</guid>
-      <pubDate>Mon, 26 Aug 2024 15:01:47 GMT</pubDate>
+      <title>[媒体] NBER.org 上的文章“美国教师罢工的原因和后果”深入探讨了 [...]</title>
+      <link>https://t.me/hn_summary/105655</link>
+      <description><![CDATA[美国教师罢工的原因和后果
+NBER.org 上的文章“美国教师罢工的原因和后果”深入探讨了导致美国教师罢工的因素及其后续影响。该研究由奥尔巴尼大学洛克菲勒公共事务与政策学院的 Melissa Arnold Lyon 撰写，由 NAEd/Spencer 博士后奖学金资助。该研究受益于多位研究人员的协助，并收到了来自各种学术活动的专家和研讨会参与者的宝贵反馈。本文提出的研究结果和观点仅代表作者本人，不代表美国国家经济研究局的观点。]]></description>
+      <guid>https://t.me/hn_summary/105655</guid>
+      <pubDate>Mon, 26 Aug 2024 20:59:28 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 为什么选择 Rust？</title>
-      <link>https://t.me/hn_summary/105597</link>
-      <description><![CDATA[为什么选择 Rust？
-Emil Ernerfeldt 是一位经验丰富的程序员，拥有超过二十年的经验，他在 rerun.io 上的文章“为什么选择 Rust？”中热情地倡导 Rust。Emil 自 2014 年以来从 C++ 过渡到 Rust，并从 2018 年开始全职使用它，他与他人共同创立了 Rerun，这是一家专注于计算机视觉和机器人可视化工具的公司，他自然而然地选择了 Rust，因为它的速度、安全性和易于并行化。 Rust 能够编译为 WebAssembly (Wasm)，并且其统一的堆栈既可用于前端开发，也可用于后端开发，这简化了招聘流程并吸引了高素质开发人员。Emil 强调了 Rust 独特的内存安全性和性能组合，这得益于其创新的借用检查器。尽管 Rust 存在一些缺陷，例如语法复杂和生态系统尚不成熟，但它的工具、错误处理和文档都非常出色。Emil 总结说，Rust 虽然具有挑战性，但它是未来的语言，是构建高级工具的理想选择。
-
-争议：Emil 承认 Rust 的复杂性以及借用检查器和生命周期注释相关的陡峭学习曲线，这可能会让一些开发人员望而却步。
-
-独特/聪明：Rust 的借用检查器无需垃圾收集器即可确保内存安全性和并发性，被誉为系统编程的突破性创新。]]></description>
-      <guid>https://t.me/hn_summary/105597</guid>
-      <pubDate>Mon, 26 Aug 2024 14:58:42 GMT</pubDate>
+      <title>[媒体] “每个孩子一台笔记本电脑”（OLPC）计划于 2005 年至 2014 年间开展，旨在彻底改变 [...]</title>
+      <link>https://t.me/hn_summary/105654</link>
+      <description><![CDATA[每个孩子一台笔记本电脑
+“每个孩子一台笔记本电脑” (OLPC) 计划于 2005 年至 2014 年间实施，旨在通过提供低成本、低功耗的笔记本电脑（即由 Yves Béhar 设计的 OLPC XO 笔记本电脑）来彻底改变发展中国家的教育。该计划由 AMD、eBay 和 Google 等大公司资助，受到赞扬和批评。它因开创了经济实惠的笔记本电脑和促进计算机素养而受到称赞，但也因其以美国为中心的做法、高成本和有限的成功而受到批评。有争议的是，英特尔在被指控破坏 OLPC 的情况下退出了该项目，该计划对开源软件的依赖也受到质疑，导致人们开始有争议地转向 Windows XP。尽管已售出 300 多万台笔记本电脑，但该项目在可持续性和有效性方面仍存在困难，最终导致其关闭。（根据 26% 的故事文本总结。）]]></description>
+      <guid>https://t.me/hn_summary/105654</guid>
+      <pubDate>Mon, 26 Aug 2024 20:31:12 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] FreeBSD 基金会宣布从德国获得 686,400 欧元的巨额投资 [...]</title>
-      <link>https://t.me/hn_summary/105596</link>
-      <description><![CDATA[主权科技基金将投资 686,400 欧元用于 FreeBSD 基础设施现代化
-FreeBSD 基金会宣布从德国主权科技基金 (STF) 获得一笔 686,400 欧元的巨额投资，用于 FreeBSD 基础设施的现代化。这笔资金将增强零信任构建、CI/CD 自动化、安全控制和 SBOM 工具，最终改善开发人员体验。该计划与美国国家网络总监办公室最近关于保护开源软件生态系统的报告相一致。STF 的 Fiona Krakenbürger 强调了这些改进对全球公共和商业部门的广泛影响。FreeBSD 基金会的 Deb Goodkin 强调了这项投资对于保持 FreeBSD 在开源安全性和可靠性方面的领导地位的重要性。]]></description>
-      <guid>https://t.me/hn_summary/105596</guid>
-      <pubDate>Mon, 26 Aug 2024 14:37:28 GMT</pubDate>
+      <title>[媒体] 埃克森美孚预测，石油和天然气仍将占全球天然气消费量的一半以上[...]</title>
+      <link>https://t.me/hn_summary/105653</link>
+      <description><![CDATA[埃克森美孚仍预计化石燃料将在 25 年内成为能源的主要来源
+埃克森美孚预测，尽管不断努力向可再生能源转型，但到 2050 年，石油和天然气仍将占全球能源结构的一半以上。根据国际能源署 (IEA) 的数据，目前化石燃料约占世界能源的 80%。埃克森美孚预测，虽然石油需求将在 2030 年后达到稳定水平，但到 2050 年，石油需求仍将保持在每天 1 亿桶以上，这对实现净零碳排放和将全球变暖限制在 1.5 摄氏度以内构成挑战。该公司强调，大多数原油用于制造、化学生产和重型运输，而不仅仅是汽车汽油。即使电动汽车销量激增，到 2050 年，石油需求预计仍将保持在每天 8500 万桶。有争议的是，埃克森美孚和其他石油行业领导者反对减少产量，声称这将导致供应冲击和经济危机。沙特阿美首席执行官称能源转型是“幻想”，理由是新兴经济体的需求不断增长。埃克森美孚强调需要继续投资新项目，以防止全球石油供应急剧下降并避免经济动荡。]]></description>
+      <guid>https://t.me/hn_summary/105653</guid>
+      <pubDate>Mon, 26 Aug 2024 20:30:07 GMT</pubDate>
     </item>
     <item>
-      <title>Linus Torvalds 对最近的 bcachefs 拉取请求表示沮丧，批评其 si [...]</title>
-      <link>https://t.me/hn_summary/105595</link>
-      <description><![CDATA[Linus Torvalds 开始后悔将 Bcachefs 纳入 Linux 内核
-Linus Torvalds 对最近的 bcachefs 拉取请求表示失望，批评其规模以及包含非 bcachefs 更改。他强调，补丁看起来更像是开发而不是修复，修复应该在发布周期之前发生。Torvalds 强调，bcachefs 仍处于实验阶段，预计不会稳定，这表明如果它不能遵守正常的上游内核发布时间表，它可能不属于主内核。他对将 bcachefs 合并到 Linux 内核的遗憾显而易见，标志着一个重要的争论点。]]></description>
-      <guid>https://t.me/hn_summary/105595</guid>
-      <pubDate>Mon, 26 Aug 2024 14:26:20 GMT</pubDate>
+      <title>[媒体] 逮捕杜罗夫可能是明智之举。</title>
+      <link>https://t.me/hn_summary/105652</link>
+      <description><![CDATA[逮捕杜罗夫可能是明智之举。科技老板们关心的是自己，而不是你
+Telegram 首席执行官帕维尔·杜罗夫在巴黎附近的布尔歇机场被捕是一个具有里程碑意义的事件，因为他面临的指控包括助长欺诈、贩毒和网络欺凌。杜罗夫以坚决捍卫用户隐私和言论自由而闻名，长期以来一直是一个有争议的人物，尤其是考虑到他拒绝与政府分享用户数据。尽管他被流放出俄罗斯，但人们仍怀疑他与克里姆林宫的关系，俄罗斯官员呼吁释放他，这进一步加剧了这种怀疑。此次逮捕标志着欧盟监管大型科技公司的方式可能发生变化，表明科技大亨现在可能因其平台的滥用而面临个人责任。此举可能对马克·扎克伯格和埃隆·马斯克等其他科技领袖起到警告作用，表明欧洲可能最终准备好执行其严格的数字法规。]]></description>
+      <guid>https://t.me/hn_summary/105652</guid>
+      <pubDate>Mon, 26 Aug 2024 20:27:02 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 标题：浏览器中的数据库，一个规范</title>
-      <link>https://t.me/hn_summary/105594</link>
-      <description><![CDATA[浏览器中的数据库，一个规范
-标题：浏览器中的数据库，一个规范
+      <title>网站：www.ft.com</title>
+      <link>https://t.me/hn_summary/105651</link>
+      <description><![CDATA[加密货币逃税现象“无处不在”
+标题：加密货币逃税现象“无处不在”
+网站：www.ft.com
 
-网站：www.instantdb.com
-
-在这篇文章中，作者探讨了 Web 应用程序开发的未来，设想了一个通过新的抽象简化复杂任务的世界。中心论点是“浏览器中的数据库”可能是最有用的抽象之一。本文首先详细介绍了客户端数据管理中当前的挑战，例如数据一致性、更改传播、乐观更新和反应性。作者认为，如果浏览器可以直接处理类似 SQL 的查询，这些问题就可以得到缓解。在服务器端，本文讨论了创建 API 端点的重复性以及管理权限、审计和离线模式的复杂性。作者提出，将数据库功能直接集成到浏览器中可以简化其中许多任务，使 Web 开发更高效、更不容易出错。
-
-争议点：
-由于安全问题以及在如此精细的级别管理权限的复杂性，将数据库直接公开给客户端的想法存在争议。
-
-独特见解：
-本文巧妙地提出，将事实视为数据库中的一等公民可以简化撤消/重做功能和离线模式，并从 Datomic 等系统中汲取灵感。（基于 43% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/105594</guid>
-      <pubDate>Mon, 26 Aug 2024 14:22:16 GMT</pubDate>
+根据最近的调查结果，加密货币逃税现象十分普遍。加密货币的去中心化性质使得当局难以追踪交易和执行税收法规。这导致世界各国政府的收入损失惨重。本文强调，迫切需要更严格的法规和更好的追踪机制来遏制这一问题。有争议的是，一些人认为加强监管可能会扼杀加密货币领域的创新。这篇文章的独特之处在于强调了问题的全球规模，表明国际合作对于有效执行至关重要。]]></description>
+      <guid>https://t.me/hn_summary/105651</guid>
+      <pubDate>Mon, 26 Aug 2024 20:04:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
