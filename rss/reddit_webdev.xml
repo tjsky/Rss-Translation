@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 29 Aug 2024 03:16:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 06:21:09 GMT</lastBuildDate>
+    <item>
+      <title>PySkyWiFi：长途航班上完全免费、愚蠢至极的 Wi-Fi</title>
+      <link>https://www.reddit.com/r/webdev/comments/1f3ufq6/pyskywifi_completely_free_unbelievably_stupid/</link>
+      <description><![CDATA[        由    /u/fagnerbrack  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1f3ufq6/pyskywifi_completely_free_unbelievably_stupid/</guid>
+      <pubDate>Thu, 29 Aug 2024 05:05:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何通过反向代理路由 MQTT</title>
+      <link>https://www.reddit.com/r/webdev/comments/1f3tecz/how_to_route_mqtt_via_a_reverse_proxy/</link>
+      <description><![CDATA[我有使用 docker-compose 创建的应用程序 services: backend: image: backend:latest ports: - 8005:8005 depending_on: - mytb mytb: restart: always image: &quot;thingsboard/tb-postgres&quot; ports: - &quot;8080:9090&quot; - &quot;1883:1883&quot; // MQTT 端口  然后我在 Cloudflare 中创建了一些 A 记录。 api-dev 1.2.3.4 // 我的 VM 公共 IP tb-dev 1.2.3.4  并且我使用 nginx 作为反向代理。 Nginx.conf server { listen 443;服务器名称 api-dev.mydomain.org; 位置 / { proxy_pass http://localhost:8005; proxy_set_header 主机 $host; proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; } } 服务器 { 监听 443; 服务器名称 tb-dev.mydomain.org; 位置 / { proxy_pass http://localhost:8080; proxy_set_header 主机 $host; proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; } }  问题 现在我想在 `mytb` 中为 MQTT 公开端口 1883。 我想做类似的事情 server { listen 80; server_name mqtt-dev.mydomain.org; location / { proxy_pass http://localhost:1883; proxy_set_header Host $host; proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; } }  然后我做了一些研究，知道我们不能通过 nginx 暴露 MQTT 端口，因为 nginx 是一个 HTTP 代理。 我只能想到一个选择，那就是使用 1.2.3.4:1883，但它不安全！ 这种情况下我该怎么做？    submitted by    /u/More-Ad-5258   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1f3tecz/how_to_route_mqtt_via_a_reverse_proxy/</guid>
+      <pubDate>Thu, 29 Aug 2024 04:02:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 repo 更新时自动服务器 GIT PULL 吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1f3slco/automatic_server_git_pull_on_repo_update/</link>
+      <description><![CDATA[      我已经完成了 95%，但最后一部分还没搞清楚。 我的服务器已连接到 repo，我可以通过 SSH 进入服务器并手动执行 git pull，一切正常。 我在 GitHub 上设置了一个 web-hook，并将 Payload URL 设置为 mysite/pull.php，交付成功，没有错误，并且有一个 payload。 我的 pull.php 如下所示： https://preview.redd.it/787r1tv5sild1.png?width=862&amp;format=png&amp;auto=webp&amp;s=9fafc817fbff6b0a34f3f391168cc5fd6c9a8f88 我猜想这就是我搞砸的地方。pull.php 文件就在我的根目录中，而我是 PHP 新手。 我在 Git 文件夹中看到了有关 post-update.sample 的信息。删除 .sample 会在更新后运行该文件吗？ 这篇文章顺便说一句，如果你想做同样的事情，这篇文章很棒，它让我明白了我要说的。    提交人    /u/CodeGregDotNet   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1f3slco/automatic_server_git_pull_on_repo_update/</guid>
+      <pubDate>Thu, 29 Aug 2024 03:18:28 GMT</pubDate>
+    </item>
     <item>
       <title>你能在单个 Monolith 中实现 DDD 吗？你如何在 Monolith 中分离有界上下文？</title>
       <link>https://www.reddit.com/r/webdev/comments/1f3qqgx/can_you_do_ddd_in_a_single_monolith_how_would_you/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[因此，许多人都知道像 mobalytics、maxroll 等网站。通常它们涵盖竞技性或 RPG 实时服务游戏（暗黑破坏神 4、暗黑破坏神 3、命运、魔兽世界）。我很好奇，他们如何获得所有这些工具提示 - 装备、技能、消耗品等？ https://preview.redd.it/jzzkujp8pwfd1.png?width=744&amp;format=png&amp;auto=webp&amp;s=0c2c8c9752b2e342f293c1c9acf59316bde1adbd 我猜他们正在对游戏文件进行某种数据挖掘，然后将这些文件添加到他们的网站。这合法吗？使用游戏资产来创建这类东西？ 如果有人了解这方面知识，我想了解更多信息？    提交人    /u/Thin_Music8288   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1f3j3tt/can_someone_explain_these_gaming_sites_and_if/</guid>
       <pubDate>Wed, 28 Aug 2024 19:32:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何组织和构建文档？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1f3j3kd/how_to_organise_structure_documentation/</link>
-      <description><![CDATA[您好 r/webdev 我正在构建一个调查表单集合（Web 组件）。您可以使用 &lt;script&gt; 标签、本机插件（Wordpress）和通过 NPM 将它们嵌入到网站中，具体取决于您使用的前端技术。可以通过将属性值传递到组件并使用 CSS ::parts 设置样式来自定义这些表单。 为这个集合开发文档比我预想的要麻烦得多。我在多个方面感到困惑，例如我应该在文档中涵盖哪些内容以及如何轻松浏览信息。为此，我需要您的帮助。 您能指出与我想要实现的目标类似的文档吗？这样我就可以参考它们来获得想法。此外，您希望从 UI 库文档中得到什么？您按照什么顺序浏览文档？您希望文档中必须包含哪些内容/交互？ 谢谢。我热切地等待您的回复。    提交人    /u/SurelyFML   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1f3j3kd/how_to_organise_structure_documentation/</guid>
-      <pubDate>Wed, 28 Aug 2024 19:32:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>MS Teams JS Teams SSO 如何在到期前更新令牌</title>
-      <link>https://www.reddit.com/r/webdev/comments/1f3h3md/ms_teams_js_teams_sso_how_to_renew_token_before/</link>
-      <description><![CDATA[所以这对我来说很奇怪。我们有一堆用作团队应用程序的 Web 应用程序，通过将它们显示为个人选项卡。 @microsoft/teams-js 提供 SSO，因此通过调用  app.initialize()，后跟 getContext() 和 authentication.getAuthToken() 为我的 API 提供了一个令牌，我的 API 可以运行 OBO 流来获取图形 API 的令牌。 效果很好 - 通常情况下。 现在我遇到了一个 Graph API 端点，它拒绝该令牌太旧，即使它尚未过期。 https://learn.microsoft.com/en-us/graph/api/teamwork-sendactivitynotificationtorecipients?view=graph-rest-1.0&amp;tabs=http States 令牌的有效期必须至少为 45 分钟。 不幸的是，Teams JS 库仅在令牌过期时才会刷新令牌。所以我只得到了缓存的令牌。 我也没有从 getAuthToken() 获取刷新令牌  https://learn.microsoft.com/en-us/javascript/api/@microsoft/teams-js/microsoftteams.authentication?view=msteams-client-js-1.13.1#@microsoft-teams-js-microsoftteams-authentication-getauthtoken 我甚至尝试了我老板的解决方案“ask copilot” - 它返回一个参数“forceRefresh：true”，该参数既没有记录也不允许在类型定义中，也不起作用。 有人知道强制 Microsoft Teams JS 库的 getAuthToken 函数请求新令牌的方法吗？    提交人    /u/skyrahfall   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1f3h3md/ms_teams_js_teams_sso_how_to_renew_token_before/</guid>
-      <pubDate>Wed, 28 Aug 2024 18:09:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何处理后端访问拒绝？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1f3f8us/how_to_handle_backend_access_refusal/</link>
-      <description><![CDATA[嗨， 我有一个应用程序，它会在对群组中的项目执行任务之前检查用户是否有权访问群组。对于用户无权访问群组的场景中对前端的响应，响应应该是 2xx 类型吗？还是 4xx 类型？在我看来，我认为是 2xx，因为 - 对后端的调用确实成功了，后端也确实正确执行了其工作 - 它断言用户是否具有访问权限，然后在决定这不是一个批准的操作后返回。因此，浏览器网络控制台应该从后端读取 200 响应。但是，200 响应内部的消息应该是...到底是什么？new ForbiddenException()？    提交人    /u/0x4A5753   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1f3f8us/how_to_handle_backend_access_refusal/</guid>
-      <pubDate>Wed, 28 Aug 2024 16:54:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
