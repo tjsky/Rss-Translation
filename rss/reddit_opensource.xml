@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 08 Sep 2024 21:14:18 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2024 01:08:24 GMT</lastBuildDate>
+    <item>
+      <title>catbox.moe 替代品</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fcatg2/catboxmoe_alternatives/</link>
+      <description><![CDATA[我是某些网站论坛的活跃成员，这些论坛不允许上传图片，只能通过 [img] 标签嵌入图片，我需要类似 catbox.moe 的东西，有推荐吗？谢谢     提交人    /u/asapprivacy   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fcatg2/catboxmoe_alternatives/</guid>
+      <pubDate>Sun, 08 Sep 2024 22:59:57 GMT</pubDate>
+    </item>
     <item>
       <title>PostgreSQL 备份工具 - PG Back Web v0.3.0 发布！</title>
       <link>https://www.reddit.com/r/opensource/comments/1fc8c7e/postgresql_backup_tool_pg_back_web_v030_released/</link>
@@ -43,12 +50,12 @@
     <item>
       <title>为什么人类不为 Android 制作一个简单的开源 IP 摄像头？</title>
       <link>https://www.reddit.com/r/opensource/comments/1fc0xbq/why_does_humanity_not_make_a_simple_open_source/</link>
-      <description><![CDATA[我找不到一个没有以某种方式故意破坏的。难道真的没有一个人具备将这些软件组件组装成免费/开放/安全解决方案所需的技能吗？我真的对此感到沮丧，希望我只是瞎了眼。我在 fdroid 上搜索“cam”，似乎 FOSS 世界根本就没有将相机输出到 IP 的能力。但付费项目并不缺乏，人们希望我从他们那里租用我自己的手机相机。 请告诉我我错过了一些简单的事情。 编辑：是的，每次都是：“没有你！” 所以我想我的答案是：每一个有能力做到这一点的人都宁愿尝试成为数字房东。    提交人    /u/Innomen   [链接] [评论]]]></description>
+      <description><![CDATA[我找不到一个没有以某种方式故意破坏的。难道真的没有一个人具备将这些软件组件组装成免费/开放/安全解决方案所需的技能吗？我真的对此感到沮丧，希望我只是瞎了眼。我在 fdroid 上搜索“cam”，似乎 FOSS 世界直接缺乏将相机输出到 IP 的能力。但付费项目并不缺乏，人们希望我从他们那里租用我自己的手机相机。 请告诉我我错过了一些简单的事情。 编辑：是的，每次都是：“没有你！” 所以我想我的答案是：每一个有能力做到这一点的人都宁愿尝试成为数字房东。    提交人    /u/Innomen   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fc0xbq/why_does_humanity_not_make_a_simple_open_source/</guid>
       <pubDate>Sun, 08 Sep 2024 15:49:52 GMT</pubDate>
     </item>
     <item>
-      <title>让开源项目支持付费！</title>
+      <title>让开源项目支持付费！！</title>
       <link>https://www.reddit.com/r/opensource/comments/1fc0oxo/make_opensource_projects_support_paid/</link>
       <description><![CDATA[只是想讨论一个想法。 如果任何开源项目所有者都对问题提供支持，比如如果有人希望他们解决某个问题，他们可以向他们支付少量费用（例如 10 美元）以优先处理他们的问题。并且所有者可以为他们提供解决问题的时间表等。 这会起作用吗？我还有其他一些想法，例如开源软件包提供商，例如 npm、pub.dev 等， 可以根据其产品的受欢迎程度和使用量向其合作者付费，并且在免费试用后，例如第一年是免费的，然后，将需要付费安装软件包，或者每月订阅使用他们的服务，每月订阅费用为 1 美元，然后他们可以使用这笔钱来适当地支付每个软件包的开发人员？基于他们项目的受欢迎程度？ 我相信这也将使我们拥有更多强大的开源应用程序。    提交人    /u/ViLSaBly   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fc0oxo/make_opensource_projects_support_paid/</guid>
@@ -57,7 +64,7 @@
     <item>
       <title>Homebox v0.14.1 发布！</title>
       <link>https://www.reddit.com/r/opensource/comments/1fbz204/homebox_v0141_released/</link>
-      <description><![CDATA[Homebox v0.14.1 - 发布 什么是 Homebox Homebox 是专为家庭用户构建的库存和组织系统！Homebox 注重简洁性和易用性，是满足您家庭库存、组织和管理需求的完美解决方案。在开发此项目时，我们试图牢记以下原则：  简单 - Homebox 设计简单易用。无需复杂的设置或配置。使用单个 docker 容器或通过为您选择的平台编译二进制文件来自行部署。 极快 - Homebox 用 Go 编写，这使其速度极快并且部署所需的资源最少。一般而言，整个容器的空闲内存使用量不到 50MB。 便携 - Homebox 设计为便携的，可在任何地方运行。我们使用 SQLite 和嵌入式 Web UI 来简化部署、使用和备份。  更新 此更新包含许多修复和小解决方案，但它还包含一个巨大的更新，使 Homebox 更易于国际用户访问。我们终于为 Homebox 添加了 i18n 支持，允许用户以自己的语言使用 Homebox。现在还为时过早，我们已经翻译了大部分主页，我们将继续努力。 要使用翻译，只需打开 Homebox，就这么简单，它将使用您的浏览器设置为使用的任何默认语言设置。如果您的首选语言尚不可用，则可恢复为英语。如果您的语言尚不可用，请考虑贡献。对于那些已经做出贡献的人，包括那些已命名的人，以及那些在 Weblate 中没有 GitHub 链接的人（因此不会出现在提交消息中提及），非常感谢，我们不可能自己将 Homebox 翻译成这么多语言。请注意，我们仍处于过渡阶段，许多字符串仍然硬编码为英语。我们将继续致力于翻译整个应用程序。 此外，我们购买了 https://homebox.software 域名，为 Homebox 在互联网上提供自己的家。这不仅会使其更容易被 SEO 找到，而且还会使其更容易记住文档/主页的链接。此外，我们设置了一些子域名来重定向到各种网站，例如 https://git.homebox.software 用于 Github，https://discord.homebox.software 用于转到我们的 Discord 服务器，等等。 更改的内容  由 @victorhooi 在 #149 中修复标签讨论线程 URL 中的小拼写错误&gt; 由 @blessedbiped 在 #152 由 @rpavlik 在 #154 中修复了工具页面 由 @tankerkiller125 在 #155 中增加了 i18n 初始支持 由 @101br03k 在 #158 [语言更新] 意大利语和德语的前端翻译由 @lukasitaly 在 #170 中完成 添加电子邮件验证器由 @RomuloGatto 在 #178 中完成 修复：CSV 导出不包含项目注释由 @LarssonOliver 在 #180 由 @cjmielke 在 #173 中添加了在项目创建模式中添加照片的功能  完整更新日志：v0.13.0...v0.14.0    提交人    /u/katos8858   [链接] [评论]]]></description>
+      <description><![CDATA[Homebox v0.14.1 - 发布 什么是 Homebox Homebox 是专为家庭用户构建的库存和组织系统！Homebox 注重简单易用，是满足您家庭库存、组织和管理需求的完美解决方案。在开发此项目时，我们试图牢记以下原则：  简单 - Homebox 设计简单易用。无需复杂的设置或配置。使用单个 docker 容器或通过为您选择的平台编译二进制文件来自行部署。 极快 - Homebox 用 Go 编写，这使其速度极快并且部署所需的资源最少。一般而言，整个容器的空闲内存使用量不到 50MB。 便携 - Homebox 设计为便携的，可在任何地方运行。我们使用 SQLite 和嵌入式 Web UI 来简化部署、使用和备份。  更新 此更新包含许多修复和小解决方案，但它还包含一个巨大的更新，使 Homebox 更易于国际用户访问。我们终于为 Homebox 添加了 i18n 支持，允许用户以自己的语言使用 Homebox。现在还为时过早，我们已经翻译了大部分主页，我们将继续努力。 要使用翻译，只需打开 Homebox，就这么简单，它将使用您的浏览器设置为使用的任何默认语言设置。如果您的首选语言尚不可用，则可恢复为英语。如果您的语言尚不可用，请考虑贡献。对于那些已经做出贡献的人，包括那些已命名的人，以及那些在 Weblate 中没有 GitHub 链接的人（因此不会出现在提交消息中提及），非常感谢，我们不可能自己将 Homebox 翻译成这么多语言。请注意，我们仍处于过渡阶段，许多字符串仍然硬编码为英语。我们将继续致力于翻译整个应用程序。 此外，我们购买了 https://homebox.software 域名，为 Homebox 在互联网上提供自己的家。这不仅会使其更容易被 SEO 找到，而且还会使其更容易记住文档/主页的链接。此外，我们设置了一些子域名来重定向到各种网站，例如 https://git.homebox.software 用于 Github，https://discord.homebox.software 用于转到我们的 Discord 服务器，等等。 更改的内容  由 @victorhooi 在 #149 中修复标签讨论线程 URL 中的小拼写错误&gt; 由 @blessedbiped 在 #152 由 @rpavlik 在 #154 中修复了工具页面 由 @tankerkiller125 在 #155 中增加了 i18n 初始支持 由 @101br03k 在 #158 [语言更新] 意大利语和德语的前端翻译由 @lukasitaly 在 #170 中完成 添加电子邮件验证器由 @RomuloGatto 在 #178 中完成 修复：CSV 导出不包含项目注释由 @LarssonOliver 在 #180 由 @cjmielke 在 #173 中添加了在项目创建模式中添加照片的功能  完整更新日志：v0.13.0...v0.14.0    提交人    /u/katos8858   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fbz204/homebox_v0141_released/</guid>
       <pubDate>Sun, 08 Sep 2024 14:27:53 GMT</pubDate>
     </item>
@@ -78,7 +85,7 @@
     <item>
       <title>VS Code 不为人知的故事——一部迷你纪录片</title>
       <link>https://www.reddit.com/r/opensource/comments/1fbv7dz/the_untold_story_of_vs_code_a_mini_documentary/</link>
-      <description><![CDATA[嗨，开源爱好者们！我刚刚发布了一部简短的纪录片，揭示了 VS Code 鲜为人知的历史，追溯了它的发展以及使其成为如今开源强国的关键时刻。 这是一部快速而深入的纪录片，从它的创建到沿途的一些争议。如果您对 VS Code 的幕后花絮感到好奇，或者只是喜欢了解更多有关开源工具的信息，我很乐意让您查看！ 这是迷你纪录片的链接：VS Code 不为人知的故事 如果能得到您的反馈或听听您自己使用 VS Code 的经历，那就太好了。让我们聊聊吧！   提交者    /u/deven_rathore   [链接] [评论]]]></description>
+      <description><![CDATA[嗨，开源爱好者们！我刚刚发布了一部简短的纪录片，揭示了 VS Code 鲜为人知的历史，追溯了它的发展以及使其成为如今开源强国的关键时刻。 这是一部快速而深入的纪录片，从它的创建到沿途的一些争议。如果您对 VS Code 的幕后花絮感到好奇，或者只是喜欢了解更多有关开源工具的信息，我很乐意让您查看！ 这是迷你纪录片的链接：VS Code 不为人知的故事 如果能得到您的反馈或听听您自己使用 VS Code 的经历，那就太好了。让我们聊聊吧！   由    /u/deven_rathore  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fbv7dz/the_untold_story_of_vs_code_a_mini_documentary/</guid>
       <pubDate>Sun, 08 Sep 2024 11:02:35 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[HMF4J 是一个从应用程序中抽象出消息传递层的框架。它抽象了如何与不同的消息传递系统（如 Apache Kafka、Google Pubsub、MQTT 等）交互的细节……因此，该框架使您能够专注于核心应用程序细节，而无需花费精力与消息传递层集成。这还使您能够无缝地从一种消息传递服务切换到另一种消息传递服务。除了标准化消息层的核心功能外，HMF4J 还提供以下功能：  非常高效的调度程序，为开发人员在处理传入数据方面提供不同级别的灵活性 与多个消息系统无缝互操作 按顺序排列消息以避免竞争条件情况 标准化消息类型 使用打包的测试工具包和名为 Photon Messaging System 的内存消息系统对应用程序进行无缝测试  更多详细信息请点击此处 - https://handy-messaging-framework.github.io/handy-messaging4j-docs/     提交人    /u/aronsajan   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fbp14d/handymessagingframework4jhmf4j/</guid>
       <pubDate>Sun, 08 Sep 2024 03:54:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想在其他浏览器中使用 Edge 的工作区，所以我制作了一个 FOSS 扩展</title>
-      <link>https://www.reddit.com/r/opensource/comments/1fbkcek/i_wanted_edges_workspaces_in_other_browsers_so_i/</link>
-      <description><![CDATA[我非常喜欢 Microsoft Edge 的工作区，但我喜欢使用 Google Chrome。因此，我决定制作一个扩展程序，无需使用 Edge 即可复制大部分行为。 演示 gif 链接  Github repo Chrome 网上应用店 Firefox 插件商店     由   提交  /u/Elec0   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1fbkcek/i_wanted_edges_workspaces_in_other_browsers_so_i/</guid>
-      <pubDate>Sat, 07 Sep 2024 23:35:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
