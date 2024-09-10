@@ -4,97 +4,100 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Tue, 10 Sep 2024 09:12:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 12:17:57 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 华为技术有限公司</title>
-      <link>https://t.me/hn_summary/107753</link>
-      <description><![CDATA[在苹果发布 iPhone 16 数小时后，华为推出售价 2,800 美元的三折手机 Mate XT
-在苹果发布 iPhone 16 数小时后，华为技术有限公司推出了全球首款商用三折手机 Mate XT。Mate XT 售价 19,999 元人民币（2,800 美元），采用独特设计，可展开成 10 英寸平板电脑，这一功能历时五年多才开发完成。这款创新设备是在深圳的一场直播活动中亮相的，旨在占领中国高端市场。过去一年，华为一直在从苹果手中夺回市场份额。发布时机凸显了两大科技巨头之间的竞争紧张关系。]]></description>
-      <guid>https://t.me/hn_summary/107753</guid>
-      <pubDate>Tue, 10 Sep 2024 09:12:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Taildrop 是 Tailscale 的一项新功能，目前处于 alpha 阶段，它允许您发送 [...]</title>
-      <link>https://t.me/hn_summary/107752</link>
-      <description><![CDATA[Taildrop 可让您在 Tailscale 网络上的个人设备之间发送文件
-Taildrop 是 Tailscale 的一项新功能，目前处于 alpha 阶段，可让您在 Tailscale 网络或“tailnet”上的个人设备之间发送文件。与所有 Tailscale 流量一样，Taildrop 使用加密的点对点连接，确保安全快速的文件传输，而无需依赖第三方服务器。Taildrop 适用于所有计划，但需要通过管理控制台选择加入。它支持各种文件类型，并且可以恢复中断的传输，但 macOS 或 iOS 设备除外。值得注意的是，Taildrop 仅在您自己的设备之间工作，不支持与同一网络上的其他用户设备共享文件。此功能对于安全高效地传输敏感文件特别有用，即使在不同的平台上也是如此。]]></description>
-      <guid>https://t.me/hn_summary/107752</guid>
-      <pubDate>Tue, 10 Sep 2024 08:51:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在“美国的心理障碍：保险公司如何干涉心理健康护理”一文中，ProPubl [...]</title>
-      <link>https://t.me/hn_summary/107751</link>
-      <description><![CDATA[美国的心理障碍：保险公司如何干预心理健康护理
-在“美国的心理障碍：保险公司如何干预心理健康护理”一文中，ProPublica 揭露了美国保险公司对心理健康护理的重大影响，这些影响往往损害了有需要的人的利益。该文章揭示了保险公司如何在政府监督最少的情况下实施限制性政策，限制获得必要的心理健康服务。这种干预导致患者在接受适当护理方面面临巨大障碍，加剧了他们的痛苦。该文章强调了迫切需要进行监管改革，以解决这些系统性问题，并确保所有美国人都能平等地获得心理健康护理。]]></description>
-      <guid>https://t.me/hn_summary/107751</guid>
-      <pubDate>Tue, 10 Sep 2024 08:40:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在本指南中，作者重点介绍了嵌入式和远程 d 中的一个关键漏洞 [...]</title>
-      <link>https://t.me/hn_summary/107750</link>
-      <description><![CDATA[使用 NetBSD 制作自己的只读设备
-在本指南中，作者重点介绍了嵌入式和远程设备中的一个关键漏洞：文件系统。非 COW 文件系统（如 ext4 和 FFS）容易因崩溃或断电而损坏，尤其是在使用 SD 卡时。为了缓解这种情况，建议设置只读根文件系统以获得更好的可靠性。NetBSD 虽然没有原生的只读支持，但由于其轻量级特性和稳定性，是一个绝佳的选择。作者提供了一个分步过程，通过使用内存文件系统（如 /tmp 和 /var）目录来配置 NetBSD 的只读根文件系统。这种方法可确保系统即使在恶劣条件下也能保持功能和可靠性。本指南包括准备环境、创建自定义启动脚本、修改启动过程以及配置 /etc/fstab 文件的详细说明。作者还解释了如何切换回读写模式以进行更新。
+      <title>[媒体] 网站：tmendez.dev</title>
+      <link>https://t.me/hn_summary/107767</link>
+      <description><![CDATA[我们的 RNG Git Hash Bug
+标题：我们的 RNG Git Hash Bug
+网站：tmendez.dev
 
-独特/巧妙的方面：巧妙地使用内存文件系统 (mfs) 作为 /tmp 和 /var 来维护系统功能，同时保持根文件系统为只读，这一点尤其值得注意。
+在我从事实时服务游戏Dragon Prince: Xadia的工作时，我们遇到了一个与游戏服务器版本的 YAML 配置相关的特殊错误。此配置使用 git hash 来确保客户端是最新的。有一天，我们的 QA 主管报告说，Sandbox2 分片上的客户端错误地接收了更新提示。经过调查，我发现 git 哈希“556474e378”被解释为数学表达式（科学记数法）而不是字符串。这是因为哈希周围没有引号。解决方案很简单：将 git 哈希括在引号中。这个意外原因凸显了 YAML 中正确数据格式的重要性。]]></description>
+      <guid>https://t.me/hn_summary/107767</guid>
+      <pubDate>Tue, 10 Sep 2024 12:17:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] osquery 是一个跨平台（Linux、macOS、Windows）框架，它可以将 opera [...]</title>
+      <link>https://t.me/hn_summary/107766</link>
+      <description><![CDATA[基于 SQL 的操作系统检测、监控和分析
+osquery 是一个跨平台（Linux、macOS、Windows）框架，可将操作系统转换为高性能关系数据库，使用户能够编写 SQL 查询来探索和监控操作系统数据。它通过将系统信息（例如正在运行的进程、网络连接）表示为 SQL 表来解决与系统检测、监控和分析相关的问题。这允许通过 Thrift API 进行临时查询、计划监控和与自定义应用程序集成。差异化功能包括其可扩展的插件和扩展 API 以及各种预建表。该项目鼓励社区贡献，并通过各种渠道提供广泛的文档和支持。]]></description>
+      <guid>https://t.me/hn_summary/107766</guid>
+      <pubDate>Tue, 10 Sep 2024 12:16:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Roame 是一家总部位于旧金山的初创公司，主要提供信用卡积分航班搜索引擎，[...]</title>
+      <link>https://t.me/hn_summary/107765</link>
+      <description><![CDATA[Roame (YC S23) 正在招聘一名总参谋
+Roame 是一家总部位于旧金山的初创公司和信用卡积分航班搜索引擎，正在招聘一名总参谋。该职位涉及与首席执行官密切合作，制定产品、销售、营销和运营等各个领域的战略计划。理想的候选人应该具有主人翁心态，适应能力强，对旅行和积分充满热情。职责包括处理模糊任务、管理内部运营和同步产品发布。Roame 提供丰厚的福利，包括健康计划、匹配的 401(k) 和公司外部活动。公司文化强调强烈的职业道德、主人翁精神、责任感和善良。有争议的是，Roame 要求员工投入大量时间，这可能并不适合所有人。]]></description>
+      <guid>https://t.me/hn_summary/107765</guid>
+      <pubDate>Tue, 10 Sep 2024 12:00:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Damian Williams，美国</title>
+      <link>https://t.me/hn_summary/107764</link>
+      <description><![CDATA[音乐家被控利用人工智能进行音乐流媒体欺诈
+纽约南区美国检察官 Damian Williams 和 FBI 纽约外地办事处代理助理主任 Christie M. Curtis 宣布对 Michael Smith 提起三项指控。Smith 被指控利用人工智能创作数十万首歌曲，并部署自动机器人将这些歌曲播放数十亿次，骗取了超过 1000 万美元的版税。Smith 的计划包括在 Spotify 和 Apple Music 等流媒体平台上创建大量虚假账户以避免被发现。他与一家人工智能音乐公司合作制作了足够数量的歌曲，这些歌曲被随机命名以显得合法。史密斯面临电信诈骗阴谋、电信欺诈和洗钱阴谋指控，每项指控最高可判处 20 年监禁。这些指控都是指控，史密斯在被证明有罪之前被推定无罪。
 
-令人惊讶的方面：尽管 NetBSD 缺乏对这种配置的原生支持，但本指南在将 NetBSD 转换为只读系统方面的简单性和有效性令人惊讶。]]></description>
-      <guid>https://t.me/hn_summary/107750</guid>
-      <pubDate>Tue, 10 Sep 2024 08:37:46 GMT</pubDate>
+争议：使用人工智能生成音乐和操纵流媒体平台引发了有关音乐行业诚信的道德和法律问题，以及该技术被用于欺诈的可能性。]]></description>
+      <guid>https://t.me/hn_summary/107764</guid>
+      <pubDate>Tue, 10 Sep 2024 11:58:38 GMT</pubDate>
     </item>
     <item>
-      <title>谁使用 Accept-Language 标头？</title>
-      <link>https://t.me/hn_summary/107749</link>
-      <description><![CDATA[谁在使用 Accept-Language 标头？
-在过去一周，我们的 Yelp API 出现了明显的减速，响应时间从通常的 3.x 秒跃升至 40-50 秒。尽管我们没有更新，但我们注意到 403 - Forbidden 错误有所增加。令人惊讶的是，我们通过添加 Accept-Language 标头解决了这个问题，恢复了正常速度。这引发了人们对网站是否尊重此标头的疑问。测试表明，Yelp 不会使用它来确定语言，而 Google 则使用它。这表明，在设计多语言 Web 应用程序时，尊重 Accept-Language 标头至关重要。对于 Web 抓取，包括 User-Agent 和 Accept-Language 等常见标头是一种很好的做法。这有意义吗？请随时通过 terry@serpapi.com 与我联系。]]></description>
-      <guid>https://t.me/hn_summary/107749</guid>
-      <pubDate>Tue, 10 Sep 2024 08:19:36 GMT</pubDate>
+      <title>展示 HN：Fire for the Wall – 抗审查工具和网络指南</title>
+      <link>https://t.me/hn_summary/107763</link>
+      <description><![CDATA[显示 HN：Fire for the Wall – 抗审查工具和网络指南
+“Fire For The Wall”是一本全面的指南，旨在帮助个人抵制互联网审查并保持对必要信息的访问。该项目提供了有关各种审查规避工具、协议和网络的实用建议，以及了解和避免审查的技术和分析工具。指南的每一部分都解释了这些工具和方法的工作原理，提供了隐私和安全措施，并包括详细的设置和使用说明。该项目脱颖而出，提供了全面、用户友好的资源来对抗审查。欢迎根据 CC BY-NC 4.0 许可证做出贡献，该许可证允许在适当信用和非商业用途下共享和修改。]]></description>
+      <guid>https://t.me/hn_summary/107763</guid>
+      <pubDate>Tue, 10 Sep 2024 11:41:30 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 欧洲最高法院在长达十年的 130 亿欧元专利纠纷中裁定苹果败诉 [...]</title>
-      <link>https://t.me/hn_summary/107748</link>
-      <description><![CDATA[科技 苹果在爱尔兰 130 亿欧元税单的欧盟法庭之争中败诉
-欧洲最高法院在长达十年的爱尔兰 130 亿欧元税单之争中裁定苹果败诉。欧洲法院的裁决恰逢苹果推出新产品以增强其 iPhone、Apple Watch 和 AirPod 系列之际。该公司股价在盘前交易中下跌 1%。这场争议始于 2014 年，当时欧盟委员会调查了苹果的纳税情况，声称该公司从爱尔兰获得了非法税收优惠。尽管苹果和爱尔兰在 2020 年赢得了上诉，但委员会随后的上诉导致了这项最新裁决。此案凸显了美国科技巨头与欧盟在税收和反垄断等问题上持续存在的紧张关系。值得注意的是，苹果最近因违反反垄断法被罚款 18 亿欧元，欧盟的《数字市场法》继续审查大型科技公司。]]></description>
-      <guid>https://t.me/hn_summary/107748</guid>
-      <pubDate>Tue, 10 Sep 2024 08:15:30 GMT</pubDate>
+      <title>[媒体] 欧洲法院（ECJ）对苹果和谷歌做出了重大裁决[...]</title>
+      <link>https://t.me/hn_summary/107762</link>
+      <description><![CDATA[欧盟最高法院对苹果、谷歌作出不利裁决
+欧洲法院 (ECJ) 在重大反垄断和税务案件中对苹果和谷歌作出不利裁决。苹果被要求向欧盟补缴 130 亿欧元税款，因为爱尔兰向该公司提供了非法援助。这一裁决是在苹果在爱尔兰的税收安排引发长期争议之后做出的，该公司认为这导致了双重征税。与此同时，谷歌因在搜索中优先显示自己的谷歌购物链接而被罚款 24 亿欧元，违反了欧盟反垄断法规。尽管谷歌提出上诉并在 2017 年做出了随后的修改，但欧洲法院仍维持了罚款。这两项裁决都是最终裁决，不可推翻。]]></description>
+      <guid>https://t.me/hn_summary/107762</guid>
+      <pubDate>Tue, 10 Sep 2024 11:39:26 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 新闻稿 编号 133/24 卢森堡，2024 年 9 月 10 日</title>
-      <link>https://t.me/hn_summary/107747</link>
-      <description><![CDATA[欧盟法院：苹果获得 140 亿欧元非法税收补贴 [pdf](https://news.ycombinator.com/item?id=41498377)
-新闻稿 No 133/24 卢森堡，2024 年 9 月 10 日
+      <title>[媒体] 嘿 HN - 我们是滑铁卢大学的毕业生，我们很高兴向大家介绍 LeetPro（h [...]</title>
+      <link>https://t.me/hn_summary/107761</link>
+      <description><![CDATA[向 HN 展示：Leetpro – LeetCode，但用于软技能面试
+嗨，HN — 我们是滑铁卢大学的毕业生，我们很高兴向您介绍 LeetPro (https://tryleetpro.com)。LeetPro 本质上是 Leetcode，但针对基于软技能的问题和案例量身定制，旨在帮助您在行为、产品和基于案例的面试中脱颖而出，就像 Leetcode 对技术面试所做的那样。我们将人工智能模拟面试与社区驱动的内容相结合，为系统设计、产品和业务面试提供全面的准备工具。
 
-法院对 C-465/20 P 案作出最终判决，确认了欧盟委员会 2016 年的决定，即爱尔兰向苹果提供了非法国家援助，必须追回。这笔援助估计为 140 亿欧元，源于爱尔兰在 1991 年和 2007 年发布的税收裁决，这些裁决允许苹果将美国以外产生的利润排除在其爱尔兰税基之外。普通法院于 2020 年撤销了该裁决，但欧洲法院现已撤销该判决，认定税收优惠确实违法。该裁决强调了欧盟内部市场公平竞争的重要性。]]></description>
-      <guid>https://t.me/hn_summary/107747</guid>
-      <pubDate>Tue, 10 Sep 2024 08:15:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 标题：马来西亚封锁海外 DNS 计划仅一天就夭折</title>
-      <link>https://t.me/hn_summary/107746</link>
-      <description><![CDATA[马来西亚封锁海外 DNS 计划在一天后夭折
-标题：马来西亚封锁海外 DNS 计划在一天后夭折
+我们上周才构思出这个想法，并且已经推出了一个值得一看的 MVP。当我（Eric）从软件工程转向产品管理时，我注意到非技术角色的准备资源存在很大差距。Leetcode 简化了技术准备，但对于金融、业务分析师和产品管理领域中注重软技能的面试，却没有同等的东西。这就是 LeetPro 旨在填补的空白。
 
-马来西亚电信监管机构马来西亚通信与多媒体委员会 (MCMC) 在宣布封锁海外 DNS 服务计划仅一天后就迅速放弃了这项备受争议的计划。此举旨在阻止访问有害网站，但立即遭到强烈反对，原因是政府可能越权和审查。包括州议员 Syed Ahmad Syed Abdul Rahman Alhadad 和 Lim Yi Wei 在内的批评人士称该计划“过于严厉”，不利于马来西亚的数字经济。尽管 MCMC 辩称该措施旨在保护弱势群体，但该指令被通讯部长 Fahmi Fadzil 叫停，他呼吁业界提出反馈意见。社交媒体用户批评这项草率的政策变化，凸显了人们对马来西亚投资环境的担忧。]]></description>
-      <guid>https://t.me/hn_summary/107746</guid>
-      <pubDate>Tue, 10 Sep 2024 07:34:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 告诉模特“不要产生幻觉”是荒谬的吗？</title>
-      <link>https://t.me/hn_summary/107745</link>
-      <description><![CDATA[告诉模型“不要产生幻觉”是荒谬的吗？
-标题：告诉模型“不要产生幻觉”是荒谬的吗？
-网站：gist.github.com
+我们对 LeetPro 的愿景包括一个平台，用户可以在其中浏览各种面试问题和案例，与人工智能面试官进行模拟面试，并获得详细的绩效反馈。未来的迭代甚至会分析自信和肢体语言等非语言线索。
 
-指示语言模型 (LLM)“不要产生幻觉”是荒谬的吗？最初，这似乎很愚蠢，但经过深思熟虑，事实并非如此。如果 LLM 能够根据此类指示进行偏好微调，它确实可以遵循这些指示。为了使法学硕士能够遵守指令，它需要能够执行任务并将指令置于其参数中。有证据表明，模型可以区分与幻觉相关的“从记忆中检索”和“即兴回答”。因此，可以训练法学硕士减少幻觉。争议在于明确要求这种行为的必要性以及始终避免幻觉的潜在不良后果。如果有人知道这些后果，分享这些信息将会很有启发。]]></description>
-      <guid>https://t.me/hn_summary/107745</guid>
-      <pubDate>Tue, 10 Sep 2024 07:34:09 GMT</pubDate>
+如果您在准备行为或案例面试时遇到困难，我们很乐意让您尝试 LeetPro。我们在过去 48 小时内构建了它，并渴望看到它是否能引起人们的共鸣。我们欢迎您在评论中提出反馈和问题！]]></description>
+      <guid>https://t.me/hn_summary/107761</guid>
+      <pubDate>Tue, 10 Sep 2024 11:38:23 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 根据英国通讯管理局的一项新调查，人们获取新闻的方式发生了重大变化。</title>
-      <link>https://t.me/hn_summary/107744</link>
-      <description><![CDATA[Ofcom 报告显示，人们获取新闻的方式正在发生变化
-根据 Ofcom 的一项新调查，人们获取新闻的方式发生了重大变化。自 1960 年代以来，在线网站和应用程序首次在受欢迎程度上超过了电视新闻。然而，电视和广播仍然是最值得信赖的新闻来源。Ofcom 战略和研究部门主管 Yih-Choung Teh 指出，一代人正在转向在线新闻，而在线新闻通常被认为不太可靠。研究显示，现在 71% 的成年人在网上获取新闻，Facebook、YouTube 和 Instagram 等社交媒体平台的使用率越来越高。尽管如此，69% 的人仍然信任电视新闻，而信任在线来源的人只有 53%。Ofcom 正在对公共服务媒体进行审查，以确保它们继续支持英国的民主和公共辩论。此次审查将评估公共服务广播公司为英国观众提供的服务情况，并探讨潜在的监管变化。]]></description>
-      <guid>https://t.me/hn_summary/107744</guid>
-      <pubDate>Tue, 10 Sep 2024 07:32:03 GMT</pubDate>
+      <title>[媒体] 网站：storyartai.com</title>
+      <link>https://t.me/hn_summary/107760</link>
+      <description><![CDATA[Show HN：这灵感来自我 5 岁的孩子
+标题：Show HN：这灵感来自我 5 岁的孩子
+网站：storyartai.com
+
+使用 StoryArtAI 探索人工智能的魔力，该工具旨在将您的儿童书籍创意转化为引人入胜的插图。只需提供提示，即可观看您的故事以令人惊叹的独特视觉效果栩栩如生。这个创新平台的灵感来自 5 岁孩子的创造力，让作者和父母能够充分发挥他们的想象力。无论您是经验丰富的作家还是刚刚起步，StoryArtAI 都可让您轻松为您的故事创作精美、引人入胜的插图。进入人工智能驱动的故事讲述世界，让您的叙述变得前所未有的生动！]]></description>
+      <guid>https://t.me/hn_summary/107760</guid>
+      <pubDate>Tue, 10 Sep 2024 11:38:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 经过两年的开发，Godot 3.6 现已发布，具有显着增强的功能 [...]</title>
+      <link>https://t.me/hn_summary/107759</link>
+      <description><![CDATA[Godot 3.6 发布
+经过两年的开发，Godot 3.6 现已发布，具有显著的增强功能，如 2D 物理插值、分层剔除、3D 网格合并和细节级别改进。虽然主要关注的是 4.x 版本，但 3.x 分支已经经历了大量社区驱动的更新，使其稳定且适用于低端硬件。值得注意的是，该版本强调向后兼容性，确保新功能是可选的并且不会破坏现有功能。建议所有 Godot 3.5.x 用户进行更新。该版本还强调了社区在开发中的作用，并鼓励财务和非财务贡献来维持该项目。（基于 66% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/107759</guid>
+      <pubDate>Tue, 10 Sep 2024 11:13:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 欧洲最高法院裁定，谷歌因滥用市场支配地位必须支付 24 亿欧元的罚款 [...]</title>
+      <link>https://t.me/hn_summary/107758</link>
+      <description><![CDATA[欧盟法院裁定谷歌必须支付 24 亿欧元罚款
+欧洲最高法院裁定谷歌必须支付 24 亿欧元罚款，原因是其滥用了购物比较领域的市场主导地位。这项罚款最初由欧盟委员会于 2017 年实施，是当时最大的罚款，但后来被另一项针对谷歌的 43 亿欧元罚款所超越。该案始于 2009 年英国公司 Foundem 的投诉，指控谷歌将自己的购物推荐做得比竞争对手的更突出。欧洲法院驳回了谷歌的上诉，称其行为“具有歧视性”。谷歌对此表示失望，并指出它已在 2017 年做出了改变以遵守委员会的决定。法律专家表示，这项裁决可能会导致对谷歌的进一步赔偿要求。此外，谷歌在美国和英国面临着广告技术业务和反竞争行为方面的持续法律挑战。欧盟对谷歌市场行为的审查仍在继续，根据《数字市场法》，罚款金额可能高达其年营业额的 10%。在一项相关判决中，欧洲法院还裁定苹果必须向爱尔兰偿还 130 亿欧元的未缴税款。]]></description>
+      <guid>https://t.me/hn_summary/107758</guid>
+      <pubDate>Tue, 10 Sep 2024 11:11:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
