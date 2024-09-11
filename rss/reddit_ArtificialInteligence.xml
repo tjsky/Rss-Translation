@@ -4,20 +4,34 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供门户，并促进有关我们所知的人工智能理念和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Tue, 10 Sep 2024 21:13:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2024 01:05:24 GMT</lastBuildDate>
+    <item>
+      <title>人工智能不是一个平台</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fdxzhr/ai_is_not_a_platform/</link>
+      <description><![CDATA[AI 不是像网络或移动设备这样的平台。 它是一个催化剂，而不是一个舞台。 https://www.lycee.ai/blog/ai-is-not-a-platform    提交人    /u/franckeinstein24   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fdxzhr/ai_is_not_a_platform/</guid>
+      <pubDate>Wed, 11 Sep 2024 01:01:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>文档或非文档分类器</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fdvgo7/document_or_not_a_document_classifier/</link>
+      <description><![CDATA[我正在寻找一种模型或技术（尽可能便宜），可以将文档（以图像形式输入）与其他任何内容（如图标、Outlook 签名等）区分开来。  我的第一个想法是布局模型，并使用文本分类器检查输出。这感觉很笨拙。 有什么建议吗？     提交人    /u/TheGonadWarrior   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fdvgo7/document_or_not_a_document_classifier/</guid>
+      <pubDate>Tue, 10 Sep 2024 22:59:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有一种可以轻松并排比较 AI 图像模型输出的方法？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fdu00e/a_way_to_easily_compare_the_output_of_ai_image/</link>
+      <description><![CDATA[我们的想法是比较针对相同提示生成的图像，以及每个图像的速度和成本。也许您可以选择最佳输出，然后使用不同的模型对其进行迭代。以前有人这样做过吗？我正在为此做一些事情，但对其他人可能会觉得有用的东西感兴趣。    提交人    /u/Ramisugar   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fdu00e/a_way_to_easily_compare_the_output_of_ai_image/</guid>
+      <pubDate>Tue, 10 Sep 2024 21:52:50 GMT</pubDate>
+    </item>
     <item>
       <title>人工智能艺术就是盗窃。用我训练过的 Lora 窃取我的审美。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fdrp5d/ai_art_is_theft_steal_my_aesthetics_with_a_lora_i/</link>
       <description><![CDATA[AI 艺术是盗窃，但正如毕加索所说 好的艺术家借鉴，伟大的艺术家窃取 我是一名专业摄影师，我根据自己的摄影风格训练了 Flux Lora： Herbst 照片风格通过 civit 通过谷歌驱动器直接下载 开源我自己的一部分风格感觉很好。这就像反向守门。 关于 Lora 提示中要包含的标签：herbstphoto、herbst photo 训练数据中的所有图像都是来自各种库存的模拟 35 毫米胶片，新的和过期的。我拥有所有图像的版权。v2 数据集很小，但手动标记，并且远远优于更大的数据集 v1。 该模型使用以下短语的标题进行训练，并在提示中很好地响应它们：偏离中心、不对称、背光、漏光、颗粒状、颗粒、胶片颗粒、偷拍、高对比度、胶片灼伤、模拟纹理、部分轮廓、明暗对比、高光绽放、电影胶片色彩、胶片发光、过度高光、喜怒无常、轻微碎片、荷兰角度、闪光摄影。 ***推荐设置**\* Lora 强度和通量引导。 2.0 与 2.5 通量引导配对时是最佳点。这会导致 lora 具有高强度，从而产生均衡的瑕疵量并增加阴影和高光之间的色调差异。  .9 与 2.0 通量引导配对时是最佳点。这会导致 lora 具有较低的强度。 3.0 强度和 4.0 引导可产生更好的偷拍时刻、闪光摄影和胶片灼伤。 3.5 强度和 5.0 引导可产生更抽象的图像，具有高光溢出和运动模糊，同时仍保持雅致  对于强度，0.5 是看到效果的最低量，而 1.5 是最高量，不会对输出产生严重变化。 1.5 之后，结果通常会更加扭曲和柔和，但仍然很有品味。2.0 之后收益递减。 \此版本经过训练非常强大，除非以最低强度 .9 和 2.0 的通量指导使用，否则不能与其他 lora 很好地搭配* 我不确定为什么将通量指导增加到与 lora 强度 2:1 的增量比率会有所帮助。如果有人可以详细说明这个概念，我将不胜感激。 调度程序和采样器 huen &amp; simple - 标准基线 unipc_bh2 &amp; Simple - 标准基线，类似于 huen &amp; simple unipc_bh2 &amp; normal - 通过在中间色调中添加对比度和清晰度提供最高的纹理 unipc_bh2 &amp; ddim_uniform - 给出更多的退化但倾向于改变输出 dpm_fast &amp; sgm_uninform - 重度运动模糊和纹理，但往往会改变输出 最大偏移：0.0 基本偏移：8.0 是 35mm 颗粒纹理的最佳点，4.0 是较轻的颗粒，1.0 是最轻的。 如果进行升级，请使用 SD 终极升级器： 模型：4x_NMKD-Siax_200k 模型。 步骤： CFG 2 采样器：欧拉 调度程序：正常 去噪 .2 长度 - 匹配（升级量 x 原始分辨率） 高度 - 匹配（升级量 x 原始分辨率） * 经过大量测试，我发现 FLux升级效果最佳的是，图块大小以 1 为步长反映升级输出分辨率。这是个好消息，因为它提高了升级速度。 我创建了一个针对 Lora 优化的工作流程，您可以 在此处下载。 -CrunchyBagpipe    提交人    /u/Cold-Dragonfly-144   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fdrp5d/ai_art_is_theft_steal_my_aesthetics_with_a_lora_i/</guid>
       <pubDate>Tue, 10 Sep 2024 20:15:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>你 vs.你</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fdrazz/ai_vs_ai/</link>
-      <description><![CDATA[我是一名房地产经纪人，很多人都在谈论人工智能接管这个行业。由于买卖房屋涉及两个不同的当事人，那么双方是否都可以部署人工智能来创建数据、进行谈判等，从而为使用它的一方谋利？换句话说，谁的人工智能会赢？我应该相信谁？    提交人    /u/rdd22   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fdrazz/ai_vs_ai/</guid>
-      <pubDate>Tue, 10 Sep 2024 19:59:11 GMT</pubDate>
     </item>
     <item>
       <title>我在人工智能方面做错了什么？</title>
@@ -34,25 +48,11 @@
       <pubDate>Tue, 10 Sep 2024 19:21:41 GMT</pubDate>
     </item>
     <item>
-      <title>利用MIPRO和DSPY构建优化问答系统（1）</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fdpmki/building_an_optimized_questionanswering_system/</link>
-      <description><![CDATA[自动优化提示的能力是 DSPy 的一大特色。MIPRO 是 DSPy 团队最近推出的一款新型提示优化器。几天前，我决定探索这款强大而迷人的优化器。 简而言之，MIPRO 允许您优化构成语言模块提示的指令和一些示例。 优化的工作原理如下。要使用 MIPRO，您需要一个数据集。例如，对于问答系统，您需要一个问题和答案的数据集。然后，您将此数据集提供给 MIPRO 优化器，优化器使用它来推断从提供的数据集生成提供的答案的指令类型。推理考虑了响应格式、长度、样式和其他变量，所有这些都使用另一个语言模型自动完成。 https://medium.com/gitconnected/building-an-optimized-question-answering-system-with-mipro-and-dspy-9fe325ca33a9    提交人    /u/franckeinstein24   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fdpmki/building_an_optimized_questionanswering_system/</guid>
-      <pubDate>Tue, 10 Sep 2024 18:50:40 GMT</pubDate>
-    </item>
-    <item>
       <title>CNN 中的 SPP 层</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fdp2r5/spp_layers_in_cnn/</link>
       <description><![CDATA[嗨，我是 Reddit 的新手，我不知道这是否是适合我问题的子版块，但我需要有关以下问题的帮助：我想创建一个 CNN 并对其进行训练，使其能够推断各种大小的图像。我搜索了一下，发现 SPP 池化层可能对此很有趣。有没有人已经实现过它？    提交人    /u/Hot-Matter5577   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fdp2r5/spp_layers_in_cnn/</guid>
       <pubDate>Tue, 10 Sep 2024 18:27:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI游戏卡牌生成</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fdoivy/ai_game_card_generation/</link>
-      <description><![CDATA[我想创建一包 100 张的简单卡片，每张卡片背面的设计都相同，正面有 1 到 100 的数字。生成这 100 个简单变体的最佳方法是什么？谢谢 :)    提交人    /u/KevinCPLdn   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fdoivy/ai_game_card_generation/</guid>
-      <pubDate>Tue, 10 Sep 2024 18:05:58 GMT</pubDate>
     </item>
     <item>
       <title>我该用 NPU 做什么？</title>
