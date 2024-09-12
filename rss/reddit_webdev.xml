@@ -4,9 +4,30 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 12 Sep 2024 01:06:54 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 03:17:21 GMT</lastBuildDate>
     <item>
-      <title>建议为拖放排序添加动画。</title>
+      <title>无头 Wordpress 有市场吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1feso3n/is_there_a_market_for_headless_wordpress/</link>
+      <description><![CDATA[我说的是完全 SEO 优化的 next.js 主题，它可以非常快速地将客户当前的 wordpress 内容拉入并在 SSG 中使用它。甚至可以允许 Woocommerce 集成和其他东西。 我知道这将是一项艰巨的工作。有市场吗？    提交人    /u/defuzeqt   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1feso3n/is_there_a_market_for_headless_wordpress/</guid>
+      <pubDate>Thu, 12 Sep 2024 03:04:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>保护虚拟机中的本地主机</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ferwp5/securing_a_local_host_in_a_vm/</link>
+      <description><![CDATA[不确定这里是否是发布此内容的正确位置，但我有点绝望。我目前正在为一个需要我们使用 CentOS 的 Linux 课程做作业。作业要求我使用某些程序保护我们设置的网页，但是，在安装 fail2ban 时，我每次都收到相同的错误消息。  错误： 问题：已安装软件包 selinux-policy-targeted-3.14.3-80.el8_5.2.noarch 存在问题  软件包 fail2ban-server-1.0.2-3.el8.noarch 需要（如果 selinux-policy-targeted，则需要 fail2ban-selinux），但无法安装任何提供程序 软件包 fail2ban-1.0.2-3.el8.noarch 需要 fail2ban-server = 1.0.2-3.el8，但无法安装任何提供程序 请求冲突 没有提供 fail2ban-selinux-1.0.2-3.el8.noarch 所需的 selinux-policy &gt;= 3.14.3-108.el8_7.1 没有提供 fail2ban-selinux-1.0.2-3.el8.noarch 所需的 selinux-policy-base &gt;= 3.14.3-108.el8_7.1  （尝试添加“--skip-broken”以跳过可卸载的软件包或“--nobest”以不仅使用最佳候选软件包） 我尝试了提供的解决方案，但无济于事。以及清除缓存、检查存储库问题或 chat-GPT 能给我的任何其他解决方案。我遇到了一点障碍，我希望得到一些额外的帮助来解决这个问题，因为我正在等待教授的（可能的）回复。谢谢大家     提交人    /u/HispanicFrijoles   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ferwp5/securing_a_local_host_in_a_vm/</guid>
+      <pubDate>Thu, 12 Sep 2024 02:23:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于旧网站设计的问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1feqfrc/questions_about_old_website_design/</link>
+      <description><![CDATA[嗨——我知道这个问题听起来很无趣，但我对编码或网页设计不是很精通。 我浏览过 (https://www.wiby.me)，这是一个显示“经典”网站（较旧的博客和档案等）的搜索引擎。 其中很多网站仍在积极更新并用作博客。我想制作一些类似的东西，我想知道这些网站是如何制作的/它们托管在哪里？它们中的很多都没有主机名，只是简单的“blogname.net/com/org”。我知道它们不是 geocities 或 live journal，因为大多数这些博客都无法再访问，而这些博客功能齐全（尽管是基本的 HTML 设计 - 这很好）。 知道如何制作其中一个吗？    提交人    /u/sorrynotsorry11   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1feqfrc/questions_about_old_website_design/</guid>
+      <pubDate>Thu, 12 Sep 2024 01:09:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于为拖放排序添加动画的建议。</title>
       <link>https://www.reddit.com/r/webdev/comments/1feppum/suggestions_to_animate_drag_and_drop_sorting/</link>
       <description><![CDATA[有人有想法如何在没有第三方的情况下做到这一点吗？我一直在尝试找出解决方案，并且非常接近使用同级偏移和变换定位，但它并没有按照我想要的方式工作。     提交人    /u/Scynse   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1feppum/suggestions_to_animate_drag_and_drop_sorting/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[我对 webdev 一无所知，但我认为这是最好的提问 subreddit 有一个浏览器游戏 https://openguessr.com/，我想检查其中的 fps，我尝试使用帧渲染统计选项，但它检查的是屏幕角落地图的 fps，而不是我想要的。有没有办法用这个工具检查页面另一部分的 fps？或者有其他工具可以实现这样的功能？    提交人    /u/Nickademas207   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1fek8e4/how_to_check_fps_of_a_specific_part_of_a_website/</guid>
       <pubDate>Wed, 11 Sep 2024 20:26:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>创建网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fejr2z/create_a_website/</link>
-      <description><![CDATA[我对 Python 相当了解，并且用 Python 创建了一个程序，该程序可以生成包含某些财务信息的图表。该程序从多个来源获取数据，我需要至少每 15 分钟运行一次，最好更频繁。 我如何以经济有效的方式托管该程序并将程序中的图表粘贴到 weebly 或任何其他类似拖放服务中内置的网站上？    提交人    /u/HuckleberryOk3057   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fejr2z/create_a_website/</guid>
-      <pubDate>Wed, 11 Sep 2024 20:06:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>除了 ChatGPT、Claude、Cursor 和 Copilot 之外，您在日常 webdev 任务中还使用哪些 AI 工具？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fej71v/what_ai_tools_are_you_using_during_your_daily/</link>
-      <description><![CDATA[我觉得除了这些主流工具之外，一定还有一些隐藏的宝石。 您还在使用哪些其他工具，为什么？ 更新：哈哈，冷静下来，仇恨者    提交人    /u/AlvaroFranz   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fej71v/what_ai_tools_are_you_using_during_your_daily/</guid>
-      <pubDate>Wed, 11 Sep 2024 19:43:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>复制 Zara 的时尚网站：使用 S3 和 CloudFront 存储图像和视频的专业技巧</title>
-      <link>https://www.reddit.com/r/webdev/comments/1feglzn/replicating_zaras_sleek_website_pro_tips_for/</link>
-      <description><![CDATA[      大家好，社区， 这是本系列的最后一部分。我谈到了在 Amazon S3 和 CloudFront 上存储图像和视频。欢迎任何反馈。谢谢！https://medium.com/@xianli_74374/replicating-zaras-website-design-tips-and-tricks-for-developers-last-part-d8fe6b3fcd20  https://preview.redd.it/xxray8vcy7od1.png?width=940&amp;format=png&amp;auto=webp&amp;s=6e8994c2f157e4137ffc8e33a15cada8ec3b8913    提交人    /u/Pipe-Silly   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1feglzn/replicating_zaras_sleek_website_pro_tips_for/</guid>
-      <pubDate>Wed, 11 Sep 2024 17:57:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
