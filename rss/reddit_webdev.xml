@@ -3,12 +3,33 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发事务的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Sun, 15 Sep 2024 03:22:03 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Sun, 15 Sep 2024 06:20:24 GMT</lastBuildDate>
+    <item>
+      <title>对 node + AWS Lambda 感到非常沮丧</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fh4vfn/seriously_frustrated_with_node_aws_lambda/</link>
+      <description><![CDATA[这里完全透明，我在这里通过 Netlify 函数使用 Lambda，但是......这是一个抽象级别，并没有解决这里的实际问题。实际问题是模糊的要求和非标准环境。此外，完全无用的错误消息和随机/无模式的错误。 正如所提到的，我通过 Netlify 函数使用 AWS Lambda。似乎毫无理由，我会收到关于“无效响应 JSON”的错误响应。检查日志，似乎导入模块时出错......我在其他地方导入的完全相同的模块运行良好。我可以肯定地说，该包是作为依赖项安装的，并且它在本地运行良好，并且无论我是否通过 esbuild 将其列为外部，都没有任何区别。我在这里也没有得到任何构建错误，当找不到包时肯定会报告......这太荒谬了？那绝对应该是一个构建错误！  将包括代码、配置和日志，但是……在 Reddit 上提供完整上下文是不可能的。这里重要的是，错误消息是响应中关于 JSON 的一些无用的东西，日志报告找不到已安装的包，它在本地运行，并且相同的包在其他地方运行良好，在 esbuild 中包含或不包含它都没有任何区别，并且无论如何这里都没有构建错误。  为了增加上下文，我在这里使用 NVM 和 package.lock.json。它是使用完全相同依赖项的完全相同版本的节点。我在本地使用的是 Mac，而不是最新的 Ubuntu，但是……我看不出有什么区别。我编写了有问题的包，它只是具有最少标准依赖项的模块，绝对没有任何特定于操作系统的东西。另外，完全相同的包在其他地方确实运行良好，所以显然不是它。  我已经花了两天时间尝试调试这个，但一无所获！这根本毫无意义，日志也没有意义，而且我的本地/开发和生产之间也没有实际区别。  而且不...Docker 或任何一个在这里都不是一个选择。图像对于上下文来说太大了，这只是一个死循环。我所能做的最好的就是使用 NVM 来拥有相同版本的节点并通过锁文件安装以传递相同的依赖项和版本。并且可以肯定的是，所讨论的包不依赖于任何操作系统或特定设置。它基本上只是一些模块，最多需要 node:fs 和读取文件。而且......同样，完全相同的包在其他地方完美地运行，在这里找不到它是毫无意义的。     提交人    /u/shgysk8zer0   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fh4vfn/seriously_frustrated_with_node_aws_lambda/</guid>
+      <pubDate>Sun, 15 Sep 2024 05:00:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源实时聊天和预订？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fh458n/open_source_live_chat_and_booking/</link>
+      <description><![CDATA[我目前正在重回 Web 开发世界，正在与一位朋友讨论他的网站。我过去曾为他建立过静态网站，我们正在讨论如何更新它。 我的计划是在 Payload CMS 上构建它，但他有兴趣添加预约功能，可能还有实时聊天功能。在开源/自托管软件方面，您是否有什么建议可以添加到网站以节省成本？ 如果没有，我们正在考虑使用 Calendly 进行预约，我还没有对实时聊天进行深入研究，但通过快速搜索，Zendesk 或 LiveChat 似乎是其发展方向。因此，任何有关这些服务的个人经验或建议也非常受欢迎！    提交人    /u/VAPRx   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fh458n/open_source_live_chat_and_booking/</guid>
+      <pubDate>Sun, 15 Sep 2024 04:15:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>第四个用于 JWT 的 JS 库</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fh3a50/a_4th_js_library_for_jwts/</link>
+      <description><![CDATA[跳转到这里的库/包，它是 https://www.npmjs.com/package/@shgysk8zer0/jwk-utils 这适合谁？需要跨环境兼容性、模块化和更小的包大小以及更大控制力的开发人员。和/或想要更多基于 Web 标准的东西。或者更少的依赖，以及更大的信任（签名的提交和标签、包省份、测试中的高代码覆盖率）。此外，尤其是那些想要 Web 标准稳定性的人 - 这一切都基于 crypto.subtle，而且这不会改变（除了添加）。这不需要在界面或任何东西中进行更新/更改。 我主要是为了一个完全兼容但简约的密钥和 JWT 库而制作的。忽略临时的 polyfill，整个东西（压缩和最小化）只有 6.2kb。并且，除了专门用于从节点中的 process.env 导入密钥的 3 个小函数之外，假设 crypto.subtle，这完全与环境无关。不管它是节点还是浏览器还是 deno 还是其他什么......它只是 JS。 总包大小更大，但其中包括 ESM、CJS、最小化的浏览器包和源映射。不过......我认为，所有这些大约 500kb 已经相当不错了。  我不想复制任何密钥管理或通常不需要的功能，例如 jose...这几乎只是为了导入/导出密钥和创建/决定/验证令牌。更小、更简单、更模块化。 支持的算法  RS256 RS384 RS512 ES256 ES384 ES512 HS256 HS384 HS512 PS256 PS384 PS512 EdDSA（由 crypto.subtle 支持...它是实验性的）  我认为我无法支持的唯一主要算法是 ES256K - 它只是尚未由 crypto.subtle 支持。 它经过测试并符合以下测试jwt.io 并且我认为有 92.11% 的测试覆盖率（有点不准确，因为除了 Firebase 令牌功能之外，100% 都覆盖了，因为......我没有在代码库中放置实际的 ID 令牌......我已经手动测试过了，而不是只是没有发布它们）。 如上所述，虽然这主要关注基础知识，但我确实包括了对 Firebase Auth ID 令牌的支持 - 我从 Google 获取公共 JWK 并找到 kid。显然无法访问公钥，但这完全可以替代 Firebase SDK。我的意思是......我主要是为了自己使用而制作的，这是一个关键功能，所以我确实包括了它。 无论如何，如果您正在寻找一个更简约但兼容的......我会说“面向未来”的 JWT 库，那么这适合您。我并不是想在这里重新发明轮子，只是想得到一个没有旋转器和垃圾的基本轮子。这一切都基于规范，旨在不对此发表任何意见......它会根据当前时间检查例如 nbf 和 exp 声明（具有可自定义的“余地”），让您可以验证令牌有效负载中的预期声明，以及可选的 entitlements 数组（基本上是权限，但有点模糊）......但这就是全部了。  我还添加了所谓的“来源令牌”。它们基本上只是 JWT，其中 sub 需要与 CORS 请求中的 Origin 标头匹配。它们有点像 API 密钥，只不过它们包含它们所针对的来源/站点以及到期信息。由于 Origin 标头不能在客户端被欺骗（与服务器端或例如 PostMan 相反），这基本上消除了一个站点的 API 密钥在另一个站点上的使用。并且它们都在标头中包含 kid 并在有效负载中包含 jti，因此撤销它们非常简单。  重要的是，特别是对于我的用例（Lambda 和 Netlify 函数），这意味着捆绑包大小更小、请求更早失败以及对任何 DB 或第三方服务的依赖更少。大多数情况下响应速度也更快。并且，考虑到 AWS（再次通过 Netlify）上捆绑包大小和环境变量的限制，这就是某些东西能否正常工作的区别。     提交人    /u/shgysk8zer0   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fh3a50/a_4th_js_library_for_jwts/</guid>
+      <pubDate>Sun, 15 Sep 2024 03:24:46 GMT</pubDate>
+    </item>
     <item>
       <title>如何使 Image Magick 升级操作运行得更快？（目前每张图像需要 10 秒...）</title>
       <link>https://www.reddit.com/r/webdev/comments/1fh35sd/how_to_make_image_magick_upscaling_operation_run/</link>
-      <description><![CDATA[我当前的工作流程是使用 AWS Lambda 函数内部的 Image Magick 调整图像大小/放大图像。 它使用 Image Magick 层，代码用 node.js 编写如下：  // 步骤 1：从 S3 下载图像 console.log(&quot;从 S3 bucket 下载图像：&quot;, bucket, &quot;使用 key：&quot;, key); const inputImagePath = path.join(os.tmpdir(), &#39;input.jpg&#39;); const outputImagePath = path.join(os.tmpdir(), &#39;resized-image.jpg&#39;); const downloadImageFromS3 = async () =&gt; { const getObjectCommand = new GetObjectCommand({ Bucket: bucket, Key: key }); const s3Object = await s3Client.send(getObjectCommand);等待管道（s3Object.Body，fs.createWriteStream（inputImagePath））； }； 等待下载图像从S3（）； console.log（“图像下载成功！”）； // 步骤2：使用ImageMagick调整图像大小 console.log（“将图像大小调整为${desiredWidth}x${desiredHeight}……”）； const command = `convert ${inputImagePath} -adaptive-resize ${desiredWidth}x${desiredHeight}！-density 300x300 ${outputImagePath}`； execSync（command）； console.log（“图像大小调整成功！”）；  由于图像被放大到相当大的尺寸（宽度或高度超过 6000 像素），因此该操作大约需要 10 秒钟才能完成。 我尝试将 Lambda 函数的内存分配增加到当前最大允许的 3008 MB。 （我还要求我的帐户也可以访问绝对最大 10,280 MB 级别，看看这是否有助于加快速度。） 除了简单地将最大数量的 Lambda CPU 资源专用于操作之外，我还可以采取其他措施来提高执行速度吗？我可以编写代码的更智能的方式，不同的方法等？ 我尝试过的其他方法： 1) 在同一个转换命令中压缩图像，看看它是否会更快地返回输出。 这对速度没有明显的影响。 2) 使用非自适应调整大小的方法。 &quot;-scale&quot; 的执行速度确实快了大约 2 倍。但最终的图像质量很差 —— 而此工作流程需要最好的图像质量（我发现自适应调整大小到目前为止可以产生最好看的输出。） 任何想法/提示都将不胜感激。谢谢！    提交人    /u/What_The_Hex   [link] [评论]]]></description>
+      <description><![CDATA[我当前的工作流程是使用 AWS Lambda 函数内部的 Image Magick 调整图像大小/放大图像。 它使用 Image Magick 层，代码用 node.js 编写如下：  // 步骤 1：从 S3 下载图像 console.log(&quot;从 S3 bucket 下载图像：&quot;, bucket, &quot;使用 key：&quot;, key); const inputImagePath = path.join(os.tmpdir(), &#39;input.jpg&#39;); const outputImagePath = path.join(os.tmpdir(), &#39;resized-image.jpg&#39;); const downloadImageFromS3 = async () =&gt; { const getObjectCommand = new GetObjectCommand({ Bucket: bucket, Key: key }); const s3Object = await s3Client.send(getObjectCommand);等待管道（s3Object.Body，fs.createWriteStream（inputImagePath））； }； 等待下载图像从S3（）； console.log（“图像下载成功！”）； // 步骤2：使用ImageMagick调整图像大小 console.log（“将图像大小调整为${desiredWidth}x${desiredHeight}……”）； const command = `convert ${inputImagePath} -adaptive-resize ${desiredWidth}x${desiredHeight}！-density 300x300 ${outputImagePath}`； execSync（command）； console.log（“图像大小调整成功！”）；  由于图像被放大到相当大的尺寸（宽度或高度超过 6000 像素），因此该操作大约需要 10 秒钟才能完成。 我尝试过的方法： 1) 我尝试将 Lambda 函数的内存分配增加到当前最大允许的 3008 MB。（我还要求我的帐户也可以访问绝对最大值 10,280 MB，看看这是否有助于加快速度。）“最大内存使用量”的上限非常低，大约为 300-500 MB。有什么方法可以强制它使用更多 CPU 资源来更快地处理它？就像某种 Image Magick 和/或 AWS Lambda 命令明确表示“使用尽可能多的 CPU 能力尽可能快地完成此操作”？ 2) 在相同的转换命令中压缩图像，看看它是否会更快地返回输出。这对速度没有明显的影响。 我有其他想法： 3) 由于我需要将每幅图像的大小调整为几个略有不同的纵横比，而不是在循环中按顺序执行，我是否可以编写代码来同时执行所有这些不同的操作 - 因此，不是连续执行 3 次，总共需要 30 秒，所有 3 次都可以在大致相同的时间执行和完成，因此总共只需要 10 秒？ 4) 有没有办法完全避免“下载我的图像”步骤？有什么方法可以让升级操作直接作用于 S3 存储桶中已有的图像？比如，让 Lambda 函数以某种方式直接进入其中，然后对其采取行动，而不是通过中间的下载步骤将其转换为图像数据，然后传递给 Image Magick？ 5) 测试另一种调整大小方法。普通的“-resize”实际上输出了非常可靠的结果，并且执行速度比“-adaptive-resize”快 2 倍。 任何想法/提示都将不胜感激。谢谢！    提交人    /u/What_The_Hex   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1fh35sd/how_to_make_image_magick_upscaling_operation_run/</guid>
       <pubDate>Sun, 15 Sep 2024 03:17:48 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[https://therandoms.pages.dev    由    /u/Arztiser 提交   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1fgvd5l/the_randoms/</guid>
       <pubDate>Sat, 14 Sep 2024 20:36:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>后端开发人员尝试从头开始开发 React 应用</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fguxzd/backend_dev_trying_to_start_a_react_app_from/</link>
-      <description><![CDATA[我是一名后端开发人员，自 2019 年以来就没有构建过前端项目（我开发的最后一个应用程序是使用 Next.js）。 我应该使用 Next.js、Vite、Create React App，还是应该使用一些新产品？    提交人    /u/Wide_Possibility_594   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fguxzd/backend_dev_trying_to_start_a_react_app_from/</guid>
-      <pubDate>Sat, 14 Sep 2024 20:16:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>遭受 DDOS 攻击后该怎么办</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fgurq2/what_to_do_after_a_ddos_attack/</link>
-      <description><![CDATA[我最近有一个网站遭受了 DDOS 攻击，每小时的请求数从 5 个增加到了数万个 攻击开始后大约一小时就结束了 大多数请求来自印度尼西亚、中国和美国 所以我对印度尼西亚和中国发起了 JS 挑战 我应该做的其他事情 我使用 Cloudflare 和 Hostinger    提交人    /u/Mrcool654321   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fgurq2/what_to_do_after_a_ddos_attack/</guid>
-      <pubDate>Sat, 14 Sep 2024 20:08:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 MaplibreGL 和 ThreeJS 创建了 Skyrim 3D 地图</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fguj35/i_created_a_skyrim_3d_map_using_maplibregl_and/</link>
-      <description><![CDATA[      https://preview.redd.it/grd9haibytod1.png?width=1168&amp;format=png&amp;auto=webp&amp;s=2517b609357b84dc71fd34c1f78a95ede0b317e5 https://atlasforge.gg/skyrim/map 我开始玩《Skyrim》的新游戏，并决定这将是从游戏中提取 3D LOD 资源以及一些位置数据来构建一个小型交互式网络地图很酷。不幸的是，maplibre 不支持地图点的高程，但我做了一个快速的 npm 补丁来使其工作（我需要清理它并打开 PR 返回 maplibre repo）。 无论如何，让我知道你的想法！    提交人    /u/lowpoly_nomad   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fguj35/i_created_a_skyrim_3d_map_using_maplibregl_and/</guid>
-      <pubDate>Sat, 14 Sep 2024 19:57:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
