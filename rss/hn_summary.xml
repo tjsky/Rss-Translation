@@ -4,116 +4,110 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Wed, 18 Sep 2024 15:16:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2024 21:01:47 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 网站：fortune.com</title>
-      <link>https://t.me/hn_summary/108905</link>
-      <description><![CDATA[亚马逊下令员工重返办公室——但研究表明他们会撤回
-标题：亚马逊下令员工重返办公室——但研究表明他们会撤回
-网站：fortune.com
-
-Flex Index 分析了 9,000 多家公司（雇用超过 1 亿人）的办公室要求，发现去年 1 月约有一半的美国公司要求员工重返办公室。然而，只有三分之一的公司严格执行了 5 天的办公室工作要求。现在，37% 的雇主提供混合工作，高于 2023 年初的 20%。尽管有新闻报道说公司强迫员工返回，但像亚马逊这样的公司是例外。工作场所位置的灵活性普遍在提高，69% 的企业现在提供一定的灵活性。另一项研究显示，科技公司的首席执行官正在放弃 RTO 规定，只有 3% 的科技公司要求全职在办公室。亚马逊面临着巨大的员工阻力，30,000 人签署了反对其三天强制令的请愿书，超过 1,800 人承诺罢工。该公司威胁要解雇不遵守规定的员工，并要求远程工作者搬迁或辞职。然而，遵守率仍然很低。FlexOS 的 Daan Van Rossum 表示，公司正在谈判，要求五天工作才能获得三天，因为员工看重混合工作的自主性和生产力。他预测政策会放松，并指出即使在疫情前，办公室的占用率也只有 70%。]]></description>
-      <guid>https://t.me/hn_summary/108905</guid>
-      <pubDate>Wed, 18 Sep 2024 15:16:33 GMT</pubDate>
+      <title>[媒体] 最近，我们在 Hetzne 上托管的 CI 构建作业遇到了重大问题 [...]</title>
+      <link>https://t.me/hn_summary/108956</link>
+      <description><![CDATA[Cloudflare 错误地将 Hetzner IP 识别为位于伊朗
+最近，我们在 Hetzner VPS 上托管的 CI 构建作业遇到了重大问题，特别是在从 registry.gitlab.com 提取 Docker 映像时遇到高故障率。这个问题在过去 2-3 周内不断升级，频繁出现超时和错误，例如“等待标头时超出 Client.Timeout”。尽管尝试通过重新启动管道来缓解问题，但故障仍然存在，这表明问题更深层次。有趣的是，这个问题似乎只出现在 registry.gitlab.com 服务上，因为其他 GitLab 存储库操作均顺利进行。这表明 Cloudflare 可能错误识别了 Hetzner IP，可能将其标记为位于伊朗，这可能导致这些中断。]]></description>
+      <guid>https://t.me/hn_summary/108956</guid>
+      <pubDate>Wed, 18 Sep 2024 21:01:47 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] DistrictCon 宣布举办“报废设备 0day 竞赛”，邀请安全人士 [...]</title>
-      <link>https://t.me/hn_summary/108904</link>
-      <description><![CDATA[宣布推出针对报废设备的 0day 竞赛
-DistrictCon 宣布推出“针对报废设备的 0day 竞赛”，邀请安全研究人员展示他们在报废产品中最具影响力、最具创意或最值得模仿的零日漏洞。参与者将在舞台上现场展示他们的发现，获奖者将获得 100 至 5,000 美元不等的现金奖励，具体取决于赞助。前 20 名提交者还将获得额外奖品。竞赛强调负责任的披露、遵守美国法律和道德研究实践。奖项类别包括最具影响力的系统、最佳模仿目标和最具创新性的利用技术。提交的作品必须专注于报废产品，即使它们包含非报废组件。此次活动旨在强调过时系统中的漏洞，同时确保以负责任的方式通知供应商。]]></description>
-      <guid>https://t.me/hn_summary/108904</guid>
-      <pubDate>Wed, 18 Sep 2024 15:09:25 GMT</pubDate>
+      <title>网站： forums.developer.apple.com</title>
+      <link>https://t.me/hn_summary/108955</link>
+      <description><![CDATA[iOS 18 破坏 IMAPS 自签名证书
+标题：iOS 18 破坏 IMAPS 自签名证书
+网站：forums.developer.apple.com
+
+iOS 18.0 beta 6 (22A5338b) 中仍然有问题！自 WWDC 以来，我一直无法在 iPhone 上使用邮件 :(
+
+摘要：
+IMAPS 自签名证书的问题在 iOS 18.0 beta 6 (22A5338b) 中仍未解决。自 WWDC 宣布以来，用户一直无法在 iPhone 上访问他们的邮件。这个持续存在的问题造成了很大的不便，凸显了测试版中的一个关键缺陷。开发人员和用户的沮丧是显而易见的，因为他们急切地等待苹果的修复。]]></description>
+      <guid>https://t.me/hn_summary/108955</guid>
+      <pubDate>Wed, 18 Sep 2024 20:18:27 GMT</pubDate>
     </item>
     <item>
-      <title>为什么没有基于 (se)L4 微内核/虚拟机管理程序的浏览器？</title>
-      <link>https://t.me/hn_summary/108903</link>
-      <description><![CDATA[为什么没有基于 (se)L4 微内核/虚拟机管理程序的浏览器？
-news.ycombinator.com 上的帖子质疑为什么没有基于 (se)L4 微内核或虚拟机管理程序的浏览器，尽管有基于安全内核构建的 Microsoft Gazelle 和 Illinois Browser OS 等示例。作者指出，缺乏有关基于安全内核/操作系统的浏览器的最新信息，这表明该概念可能已经失败。令人惊讶的是，尽管具有潜在的安全优势，但似乎没有任何现代尝试来创建这样的浏览器。作者的探究凸显了当前浏览器开发中值得探索的差距。]]></description>
-      <guid>https://t.me/hn_summary/108903</guid>
-      <pubDate>Wed, 18 Sep 2024 15:08:21 GMT</pubDate>
+      <title>你好，Tor，</title>
+      <link>https://t.me/hn_summary/108954</link>
+      <description><![CDATA[关于 Tor/洋葱服务的德国广播新闻的最新消息
+嗨，Tor，
+
+我想向您介绍北德意志广播公司 (NDR) 即将发布的一则新闻，该新闻涉及洋葱服务可能遭受的去匿名化攻击。记者声称，德国执法部门已成功定位 Tor 入口节点并去匿名化用户，影响了 2019 年第三季度至 2021 年第二季度之间的 V2 和 V3 洋葱地址。他们据称使用了时间分析和对 Tor 节点的广泛监控。然而，由于无法访问支持文档，Tor 项目尚未证实这些说法。
+
+我们敦促任何有信息的人通过 security@torproject.org 与我们联系。尽管有这些说法，但 Tor 浏览器对用户来说仍然是安全的。我们会随时向您通报最新情况。
+
+谢谢！
+
+Isabela]]></description>
+      <guid>https://t.me/hn_summary/108954</guid>
+      <pubDate>Wed, 18 Sep 2024 20:09:20 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Mozilla 宣布关闭其 Mastodon 实例 Mozilla.social。</title>
-      <link>https://t.me/hn_summary/108902</link>
-      <description><![CDATA[Mozilla 将关闭其 Mastodon 实例 Mozilla.social
-Mozilla 宣布关闭其 Mastodon 实例 Mozilla.social。建议用户启用 JavaScript 以使用 Mastodon Web 应用程序或考虑使用适用于其各自平台的本机应用程序。这一决定标志着 Mozilla 在社交媒体参与和去中心化努力方面的方法发生了重大转变。此次关闭可能会引发有关维护独立社交媒体实例的可持续性和挑战的讨论。]]></description>
-      <guid>https://t.me/hn_summary/108902</guid>
-      <pubDate>Wed, 18 Sep 2024 15:04:40 GMT</pubDate>
+      <title>[媒体] 自 2018 年或 2019 年开始推出 5G 以来，该网络已在全球范围内扩展，覆盖 [...]</title>
+      <link>https://t.me/hn_summary/108953</link>
+      <description><![CDATA[玻璃天线将窗户变成 5G 基站
+自 2018 年或 2019 年开始推出 5G 以来，该网络已在全球范围内扩展，覆盖了数百万用户。然而，与 4G 相比，5G 的更高频谱需要更多基站，而覆盖范围更小。为了满足对更多基站的需求，同时又不扰乱城市景观，日本公司开发了透明玻璃天线，将窗户变成 5G 基站。总部位于东京的 JTower 与玻璃制造商 AGC 和移动运营商 NTT Docomo 合作，最近在东京新宿区部署了第一根此类天线。创新的 WAVEANTENNA 使用夹在玻璃板之间的透明导电材料，使其几乎不可见，同时提高了耐用性和信号质量。该技术与 5G Sub6 频段兼容，这对于穿透墙壁等障碍物至关重要。玻璃天线还被应用于汽车以减少信号丢失，拉斯维加斯的 Halo.Car 等用户受益于远程车辆交付的高速网络。]]></description>
+      <guid>https://t.me/hn_summary/108953</guid>
+      <pubDate>Wed, 18 Sep 2024 20:09:07 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 研究人员发现，人们倾向于低估世界穷人的收入[...]</title>
-      <link>https://t.me/hn_summary/108901</link>
-      <description><![CDATA[研究人员发现，人们低估了最富有人群的收入
-研究人员发现，人们倾向于低估世界上最富有人群的收入。尽管收入不平等现象日益严重，尤其是在美国，最富有的 1% 人目前拥有全国 19% 的收入，但自 1970 年代以来，对财富再分配政策的支持并没有增加。Barnabas Szaszi 及其同事进行了四项研究，结果显示，参与者对较低百分位数收入的估计更为准确，但始终低估了最富有的 1%。这种低估可能是由于“范围不敏感”，即人们将高收入归入一般的“富人”类别，而无法掌握具体数额。这种现象通过各种实验设置得到证实，包括激励调查和虚构社会场景。该研究发表在 PNAS Nexus 上。
+      <title>[媒体] 网站：507movements.com</title>
+      <link>https://t.me/hn_summary/108952</link>
+      <description><![CDATA[五百零七种机械运动
+标题：五百零七种机械运动
+网站：507movements.com
 
-争议：尽管不平等现象加剧，但对最高收入的持续低估可能会引发关于公众意识和财富再分配政策支持的争论。
-
-独特见解：“范围不敏感性”的概念巧妙地解释了为什么人们难以准确感知最富有的人的财富。]]></description>
-      <guid>https://t.me/hn_summary/108901</guid>
-      <pubDate>Wed, 18 Sep 2024 15:03:37 GMT</pubDate>
+等一下……您说它们是动画！啊，是的……嗯，不幸的是，我们还没有让所有动画都运行起来，但我们确实有不少。查找彩色缩略图；它们标识已完成的动画。使用上一个和下一个链接（右上方）浏览缩略图页面。随着时间的推移，我们将添加更多，直到所有 507 个都完成。点击下面的 Facebook“订阅”或 Twitter“关注”按钮，即可收到我们进展的通知。同时，我们希望您喜欢我们完成的动画，以及 Henry T. Brown 在这本经典技术参考书中的原创插图。有关更多信息，请参阅“关于”页面。关闭]]></description>
+      <guid>https://t.me/hn_summary/108952</guid>
+      <pubDate>Wed, 18 Sep 2024 19:59:56 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 介绍 Unin，一种先进的简历搜索引擎，旨在简化您的招聘流程 [...]</title>
-      <link>https://t.me/hn_summary/108900</link>
-      <description><![CDATA[显示 HN：Unin – 简历搜索引擎
-介绍 Unin，这是一款旨在简化招聘流程的尖端简历搜索引擎。借助 Unin，招聘人员可以轻松筛选庞大的简历数据库，以找到完美的候选人。该平台提供直观的搜索功能和详细的简历预览，使识别顶尖人才变得前所未有的容易。访问 www.unin.io 体验招聘的未来。 
-
-（注：内容直白，不包含任何争议性内容，独特之处在于创新的简历搜索方式，可大幅提升招聘效率。）]]></description>
-      <guid>https://t.me/hn_summary/108900</guid>
-      <pubDate>Wed, 18 Sep 2024 15:02:27 GMT</pubDate>
+      <title>[媒体] IBM 本周悄然裁减了大量员工，令人不悦的是 [...]</title>
+      <link>https://t.me/hn_summary/108951</link>
+      <description><![CDATA[消息人士称，IBM 正在悄悄裁员
+IBM 本周一直在悄悄裁掉大量员工，消息人士表示，IBM Cloud 部门受到的影响尤其严重。一位内部人士透露，这些裁员是秘密进行的，管理人员必须签署保密协议。裁员留言板上的帖子和确凿的消息来源表明，裁员规模很大。IBM 发言人提到了“劳动力再平衡”指控，但没有具体说明裁员人数。裁员主要针对高级员工，特别是那些任职时间较长的 50-55 岁员工，许多职位正在转移到印度。尽管年龄歧视诉讼不断，但 IBM 否认存在系统性的年龄偏见。]]></description>
+      <guid>https://t.me/hn_summary/108951</guid>
+      <pubDate>Wed, 18 Sep 2024 19:32:42 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：www.bbc.com</title>
-      <link>https://t.me/hn_summary/108899</link>
-      <description><![CDATA[研究：美国是寡头政治，不是民主国家
-标题：研​​究：美国是寡头政治，不是民主国家
-网站：www.bbc.com
-
-普林斯顿大学教授马丁·吉伦斯和西北大学教授本杰明·佩奇最近的一项研究得出结论：美国是由富裕精英主导的，而不是真正的民主国家。通过广泛的研究，他们发现经济精英和商业利益集团显著影响着美国政府的政策，而普通民众和大众利益集团的影响微乎其微。他们对 1981 年至 2002 年 1,779 个调查问题的分析表明，富人青睐的政策更有可能得到实施，而多数人支持的政策往往失败。尽管民主具有选举和言论自由等特点，但该研究表明，美国的民主主张受到精英统治的破坏。《Counterpunch》杂志的 Eric Zuess 和《Death and Taxes》杂志的 Robyn Pennacchia 也表达了同样的看法，Pennacchia 认为美国人可能需要接受他们的阶级社会。
-
-争议：该研究暗示美国是寡头政治多于民主，这挑战了人们对美国民主的基本信念。
-
-独特见解：该研究采用详细的数据驱动方法，为政策受到富人过度影响的论点提供了有力证据。]]></description>
-      <guid>https://t.me/hn_summary/108899</guid>
-      <pubDate>Wed, 18 Sep 2024 15:02:24 GMT</pubDate>
+      <title>[媒体] OpenTelemetry 的供应商中立性是一个显著的优势，特别是对于那些 [...]</title>
+      <link>https://t.me/hn_summary/108950</link>
+      <description><![CDATA[OpenTelemetry 和供应商中立性：如何构建可观察性策略
+OpenTelemetry 的供应商中立性是一个显著的优势，特别是对于那些经历过在商业供应商之间迁移挑战的人来说。在 Grafana Labs，这种中立性符合我们的大帐篷理念，尽管它有实际限制。OpenTelemetry 的愿景旨在通过将遥测收集与存储和分析分离来避免供应商锁定，促进开放标准和松散耦合。这种方法允许灵活地选择不同的组件和后端，尽管后端层的真正供应商中立性仍然具有挑战性。为了最大限度地利用选项，请从应用程序和跟踪的 OpenTelemetry 开始，分层采用并确保可重复使用的仪表。此策略有助于在保持灵活性的同时为您的架构提供面向未来的保障。]]></description>
+      <guid>https://t.me/hn_summary/108950</guid>
+      <pubDate>Wed, 18 Sep 2024 19:25:36 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：arstechnica.com</title>
-      <link>https://t.me/hn_summary/108898</link>
-      <description><![CDATA[由于人工智能造假，“深度怀疑”时代已经到来
-标题：由于人工智能造假，“深度怀疑”时代已经到来
-网站：arstechnica.com
+      <title>[媒体] ASOMO 上的加速主义剧本探索了技术如何简化 [...]</title>
+      <link>https://t.me/hn_summary/108949</link>
+      <description><![CDATA[加速主义剧本
+ASOMO 上的加速主义剧本探讨了技术如何加速生活，而不是简化生活，而且通常以不可避免的进步为幌子。作者批评了主流叙事，即将技术进步描述为线性、高分竞赛，社会必须跟上，否则就会落后。这种意识形态就像电子游戏一样，假设利益不断积累，而不会归零，并提倡单一的进步道路。这篇文章强调了这种叙事如何边缘化那些抵制或对快速变化感到焦虑的人，经常将他们贴上保守或怀旧的标签。作者提出了一种范式转变，转向“平行轨道”视角，其中多样化、平衡的系统共存，挑战了“更新总是更好的”这一观念。这种方法重新定义了进步，强调韧性和自主性，而不是单纯的加速和扩张。
 
-鉴于 X 和 Facebook 等社交媒体平台上人工智能生成的逼真图像激增，我们正在进入我所说的“深度怀疑”时代。这个媒体怀疑论的新时代是由可以轻松获得创建令人信服的虚假内容的工具所推动的，这些工具让骗子可以否认真实的文件证据。这加剧了公众对网络内容的怀疑，使人们能够更可信地声称真实事件没有发生，并暗示书面证据是使用人工智能工具伪造的。
+争议：对主流技术叙事的批判是宣传，以及认为数字进步意识形态是一种经济保守主义，这些都可能被视为有争议的。
 
-“深度怀疑”的概念并不新鲜，但其影响现在已经显而易见。自 2017 年“深度伪造”一词出现以来，人工智能生成的媒体能力迅速发展。最近的例子包括阴谋论者声称总统乔·拜登是一个人工智能全息图，前总统唐纳德·特朗普对副总统卡马拉·哈里斯的毫无根据的指控以及与 E. Jean Carroll 的合影。法律学者 Danielle K. Citron 和 Robert Chesney 预测了这一趋势，并在 2019 年创造了“骗子红利”一词来描述深度伪造如何抹黑真实证据。
-
-深度伪造的兴起是使用怀疑作为政治武器的最新演变，这种策略可以追溯到古代。在过去十年中，深度学习技术让虚假或篡改媒体变得更加容易。这一现象将削弱我们对 20 世纪媒体的信任，并影响政治话语、法律体系和我们对历史事件的共同理解。今年 4 月，一组联邦法官讨论了在法庭审判中验证数字证据的挑战，强调了人工智能生成的深度伪造可能会引入虚假证据并对真实证据产生怀疑。]]></description>
-      <guid>https://t.me/hn_summary/108898</guid>
-      <pubDate>Wed, 18 Sep 2024 14:59:17 GMT</pubDate>
+独特/巧妙：将现金比作“支付自行车”，将 ApplePay 比作“支付 Uber”，巧妙地说明了技术进步中平行轨道的概念。]]></description>
+      <guid>https://t.me/hn_summary/108949</guid>
+      <pubDate>Wed, 18 Sep 2024 19:24:28 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Glyphion 游戏引擎是一个基于 .NET 的实验性游戏引擎，旨在渲染 2D [...]</title>
-      <link>https://t.me/hn_summary/108897</link>
-      <description><![CDATA[显示 HN：用于终端的实验性 2D/3D 游戏引擎
-Glyphion 游戏引擎是一款基于 .NET 的实验性游戏引擎，旨在使用 ASCII 图形直接在终端中渲染 2D 和 3D 游戏。它旨在通过利用终端渲染、多线程性能以及纹理支持和 Figlet 字体等各种图形功能为现代游戏设计带来独特的魅力。该引擎支持 Windows 和 macOS 平台，并包含一个示例项目 TerminalCraft，这是一个基本的 Minecraft 克隆，展示了其功能。Glyphion 专注于基于终端的游戏开发和 ASCII 美学，从而脱颖而出。欢迎贡献，并计划在未来进行多项增强，包括游戏手柄支持和实体系统。]]></description>
-      <guid>https://t.me/hn_summary/108897</guid>
-      <pubDate>Wed, 18 Sep 2024 14:54:10 GMT</pubDate>
+      <title>[媒体] 周日提出了一个补丁，为 Linux 内核引入新的配置选项 [...]</title>
+      <link>https://t.me/hn_summary/108948</link>
+      <description><![CDATA[提议在内核中添加 x86_64 功能级别的补丁
+周日提出了一个补丁，旨在引入新的 Linux 内核配置选项，以优化不同 x8664 微架构功能级别的构建，旨在提高现代 Intel 和 AMD 系统的性能。然而，这个补丁面临着上游 Linux 内核开发人员的强烈批评，不太可能被接受进入主线内核。该补丁建议将 x8664 功能级别 v2、v3 和 v4 添加为 Kconfig 选项，但开发人员认为，与应用程序代码相比，内核的收益微乎其微。英特尔工程师 Dave Hansen 和 AMD 工程师 Borislav Petkov 都表示怀疑，指出现有的方法和优化已经足够，增加复杂性是不合理的。争议在于提议的变更是否提供了任何实际优势，还是仅仅使内核构建过程变得复杂。]]></description>
+      <guid>https://t.me/hn_summary/108948</guid>
+      <pubDate>Wed, 18 Sep 2024 19:23:24 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 突发新闻：黎巴嫩因“真主党对讲机”爆炸而遭受更多爆炸袭击[...]</title>
-      <link>https://t.me/hn_summary/108896</link>
-      <description><![CDATA[在传呼机爆炸一天后，黎巴嫩各地的对讲机也发生爆炸
-突发新闻：在传呼机炸弹大屠杀一天后，“真主党对讲机”在全国范围内爆炸，黎巴嫩遭受更多爆炸袭击
+      <title>[媒体] 网站：www.docsboard.io</title>
+      <link>https://t.me/hn_summary/108947</link>
+      <description><![CDATA[显示 HN：DocsBoard – 所有文档格式的知识库
+标题：显示 HN：DocsBoard – 所有文档格式的知识库
+网站：www.docsboard.io
 
-作者：Elena Salvoni
-
-
-发布时间：美国东部时间 2024 年 9 月 18 日 10:24 | 更新时间：美国东部时间 2024 年 9 月 18 日 10:36
-
-据目击者和安全部门消息人士称，真主党战士使用的对讲机在黎巴嫩各地爆炸，造成至少 10 名真主党战士受伤。就在前一天，该组织使用的数千台寻呼机发生爆炸，造成近 3,000 人受伤，十几人死亡，其中包括平民和儿童。这些受损的手持收音机是真主党五个月前购买的，与寻呼机购买时间大致相同。今天的爆炸影响了该国南部和贝鲁特南部郊区，至少有一次爆炸发生在前一天遇难者的葬礼附近。这是一个正在发展的故事，更多更新将随后发布。]]></description>
-      <guid>https://t.me/hn_summary/108896</guid>
-      <pubDate>Wed, 18 Sep 2024 14:41:02 GMT</pubDate>
+DocsBoard 是一个创新平台，旨在作为所有文档格式的综合知识库。目前，该应用程序免费提供，为用户提供了免费探索其功能的绝佳机会。开发人员暗示将很快宣布更多定价计划，这表明未来可能会推出高级功能或订阅模式。最初的免费提供是一种聪明的策略，可以在推出其他计划之前吸引早期采用者并收集用户反馈。]]></description>
+      <guid>https://t.me/hn_summary/108947</guid>
+      <pubDate>Wed, 18 Sep 2024 19:21:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
