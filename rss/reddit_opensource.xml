@@ -4,18 +4,18 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 22 Sep 2024 01:14:14 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2024 03:22:30 GMT</lastBuildDate>
     <item>
       <title>我编写了一个 Python 脚本，使用 AI 来组织文件，100% 在你的设备上运行</title>
       <link>https://www.reddit.com/r/opensource/comments/1fmglr7/i_built_a_python_script_uses_ai_to_organize_files/</link>
-      <description><![CDATA[嗨 r/opensource！ GitHub 上的项目链接： (https://github.com/QiuYannnn/Local-File-Organizer) 我想要一个真正了解我的文件内容的文件管理工具。以前的项目如 LlamaFS (https://github.com/iyaja/llama-fs) 不是 100% 本地的，需要 AI API。因此，我创建了一个 Python 脚本，利用 AI 来组织本地文件，完全在您的设备上运行，以完全保护隐私。它使用 Google Gemma2 2B 和 llava-v1.6-vicuna-7b 模型进行处理。 注意：您不需要任何 API 密钥和互联网连接来运行此项目，它完全在您的设备上运行模型。 它的作用：   扫描指定的输入目录中的文件 了解文件的内容（文本、图像等）以生成相关的描述、文件夹名称和文件名 根据生成的元数据将文件组织到新的目录结构中  支持的文件类型：  图像： .png、.jpg、.jpeg、.gif、.bmp 文本文件： .txt, .docx PDF： .pdf  支持的系统： macOS、Linux、Windows 它是完全开源的！ 有关演示和安装指南，这里再次提供项目链接： (https://github.com/QiuYannnn/Local-File-Organizer) 您对这个项目有何看法？您希望在未来版本中看到什么吗？ 谢谢！    提交人    /u/unseenmarscai   [链接] [评论]]]></description>
+      <description><![CDATA[嗨 r/opensource！ GitHub 上的项目链接： (https://github.com/QiuYannnn/Local-File-Organizer) 我使用 Nexa SDK (https://github.com/NexaAI/nexa-sdk) 在不同系统上本地运行模型。 我想要一个真正了解我的文件内容的文件管理工具。之前的项目，例如 LlamaFS (https://github.com/iyaja/llama-fs) 并非 100% 本地化，需要 AI API。因此，我创建了一个 Python 脚本，利用 AI 来组织本地文件，完全在您的设备上运行，以保证完全的隐私。它使用 Google Gemma2 2B 和 llava-v1.6-vicuna-7b 模型进行处理。 注意：您不需要任何 API 密钥和互联网连接来运行此项目，它完全在您的设备上运行模型。 它的作用：   扫描指定的输入目录中的文件 了解文件的内容（文本、图像等）以生成相关的描述、文件夹名称和文件名 根据生成的元数据将文件组织到新的目录结构中  支持的文件类型：  图像： .png、.jpg、.jpeg、.gif、.bmp 文本文件： .txt, .docx PDF： .pdf  支持的系统： macOS、Linux、Windows 它是完全开源的！ 有关演示和安装指南，这里再次提供项目链接： (https://github.com/QiuYannnn/Local-File-Organizer) 您对这个项目有何看法？您希望在未来版本中看到什么吗？ 谢谢！    提交人    /u/unseenmarscai   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fmglr7/i_built_a_python_script_uses_ai_to_organize_files/</guid>
       <pubDate>Sun, 22 Sep 2024 00:08:39 GMT</pubDate>
     </item>
     <item>
       <title>LLM 文档拼写和语法检查器</title>
       <link>https://www.reddit.com/r/opensource/comments/1fmb9qa/llm_spelling_and_grammar_checker_for_docs/</link>
-      <description><![CDATA[嘿 r/opensource-- Spellcaster 是一个基于 Python 的 CLI 工具，用于在文档文件中运行拼写和语法检查。 LLM 是出色的校对员，虽然存在基于规则的拼写检查器，但我们注意到没有一个好的 CLI 工具可以利用 AI 代理。所以我们建了一个！Spellcaster 在旧金山的 Mintlify AI DevTools 黑客马拉松上一个周末诞生，并在那里获得了最佳演示奖。 我们对几个大型开源项目运行了 Spellcaster，并在他们的文档中发现了数百个可读性问题。一些流行的：  Cursor：116 个错误 Mintlify 245 Vercel：1053（我最喜欢的是 Vercel 在他们的一个页面中拼写错误了“Lorem ipsum”）。  Spellcaster 使用 LiteLLM 轻松进行模型交换，使用 AgentOps 进行成本和错误跟踪。 我一直在用它来修复我自己的文档中的大量错误。这似乎是一个被低估的问题，很想听听大家对此的想法和反馈。 https://github.com/AgentOps-AI/Spellcaster    提交人    /u/Reibmachine   [链接] [评论]]]></description>
+      <description><![CDATA[嘿 r/opensource-- Spellcaster 是一个基于 Python 的 CLI 工具，用于在文档文件上运行拼写和语法检查。 LLM 是出色的校对员，虽然存在基于规则的拼写检查器，但我们注意到没有一个好的 CLI 工具可以利用 AI 代理。所以我们建了一个！Spellcaster 在旧金山的 Mintlify AI DevTools 黑客马拉松上一个周末诞生，并在那里获得了最佳演示奖。 我们对几个大型开源项目运行了 Spellcaster，并在他们的文档中发现了数百个可读性问题。一些流行的：  Cursor：116 个错误 Mintlify 245 Vercel：1053（我最喜欢的是 Vercel 在他们的一个页面中拼写错误了“Lorem ipsum”）。  Spellcaster 使用 LiteLLM 轻松进行模型交换，使用 AgentOps 进行成本和错误跟踪。 我一直在用它来修复我自己的文档中的大量错误。这似乎是一个被低估的问题，很想听听大家对此的想法和反馈。 https://github.com/AgentOps-AI/Spellcaster    提交人    /u/Reibmachine   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fmb9qa/llm_spelling_and_grammar_checker_for_docs/</guid>
       <pubDate>Sat, 21 Sep 2024 19:49:01 GMT</pubDate>
     </item>
