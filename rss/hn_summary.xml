@@ -4,108 +4,98 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Sun, 22 Sep 2024 12:05:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2024 15:12:08 GMT</lastBuildDate>
     <item>
-      <title>询问 HN：Kotlin SpringBoot 与……</title>
-      <link>https://t.me/hn_summary/109418</link>
-      <description><![CDATA[问 HN：Kotlin SpringBoot 与 Python Django 哪个更适合最低可行产品
-标题：问 HN：Kotlin SpringBoot 与 Python Django 哪个更适合最低可行产品
-网站：news.ycombinator.com
+      <title>[媒体] 年轻人中癌症发病率的上升引起了肿瘤学家的警惕，促使人们集中精力研究癌症 [...]</title>
+      <link>https://t.me/hn_summary/109435</link>
+      <description><![CDATA[围绕年轻人癌症神秘增长的未知因素
+年轻人癌症增长令肿瘤学家感到震惊，在巴塞罗那举行的欧洲肿瘤医学学会 (ESMO) 大会上引发了一场专题讨论。哈佛医学院的 Shuji Ogino 强调了这一“新兴全球流行病”，指出过去 30 年来 50 岁以下人群的肿瘤发病率增加了近 80%。虽然饮食、吸烟和饮酒等生活方式因素与此有关，但它们并不能完全解释这种激增。这种现象涉及各种癌症，包括结直肠癌、胰腺癌和乳腺癌。专家强调长期接触的作用以及开展更多研究、早期检测工具和公共卫生教育的必要性。有争议的是，确切原因仍不清楚，一些人将其归因于环境因素，另一些人将其归因于遗传倾向。]]></description>
+      <guid>https://t.me/hn_summary/109435</guid>
+      <pubDate>Sun, 22 Sep 2024 15:12:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 不列颠哥伦比亚省高地发现大量恐龙化石</title>
+      <link>https://t.me/hn_summary/109434</link>
+      <description><![CDATA[不列颠哥伦比亚省高山发现大量恐龙化石
+古生物学家在不列颠哥伦比亚省北部的斯帕齐齐高原荒野省立公园取得了突破性发现，在一个以前从未发现过此类化石的地区发现了 90 多块恐龙化石。皇家不列颠哥伦比亚博物馆馆长维多利亚·阿尔伯指出，该团队在第三次探险期间发现的这一发现挑战了人们对恐龙栖息地的传统理解，因为化石通常在沙漠地区发现。这些化石估计有 6600 万到 6800 万年的历史，包括牙齿和骨头碎片，可能来自霸王龙或猛禽等物种。这一发现有望为不列颠哥伦比亚省的史前生活提供新的线索，尽管要对化石进行全面分析还需要数年时间。这一发现的独特之处在于它位于高海拔地区，这表明恐龙曾经在这些山区漫游。]]></description>
+      <guid>https://t.me/hn_summary/109434</guid>
+      <pubDate>Sun, 22 Sep 2024 15:06:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 显示 HN：将 PDF 转换为 HTML 表格</title>
+      <link>https://t.me/hn_summary/109433</link>
+      <description><![CDATA[显示 HN：将 PDF 转换为 HTML 表格
+“删除您的 PDF”是一个 Python 库，旨在从 PDF 文件中提取信息，允许用户在提取后删除原始 PDF。该项目提供工具来计算 PDF 页面、将 PDF 转换为图像页面、获取图像尺寸、裁剪和旋转图像以及使用 Roboflow OCR 将图像转换为文本。它支持以 base64 字符串或 BytesIO 对象的形式输入。该库以其处理 PDF 和图像的全面功能以及与 Roboflow 进行 OCR 的集成而与众不同。该项目是开源的，根据 APACHE 2.0 许可，并包含现场演示和安装说明。]]></description>
+      <guid>https://t.me/hn_summary/109433</guid>
+      <pubDate>Sun, 22 Sep 2024 14:36:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Martin Alexander 的“入站电子邮件（SMTP）到 Webhook”项目提供了一个简单的 [...]</title>
+      <link>https://t.me/hn_summary/109432</link>
+      <description><![CDATA[显示 HN：入站电子邮件 (SMTP) 到 Webhook
+Martin Alexander 的“入站电子邮件 (SMTP) 到 Webhook”项目提供了一个简单而高效的脚本，用于通过 SMTP 服务器接收电子邮件、解析其内容、将附件存储在 Amazon S3 中，并将解析的内容转发到 webhook。它可以优雅地处理多个并发 SMTP 会话和 webhook 请求。主要功能包括电子邮件解析、附件存储和通过环境变量配置的设置。该项目非常适合电子邮件到工单系统、文档处理、电子邮件营销分析、自动报告和 DMARC 报告等用例。差异化因素包括对大型附件的强大处理和强大的队列系统。该项目需要 Node.js v18+、AWS S3 访问和 webhook 端点。]]></description>
+      <guid>https://t.me/hn_summary/109432</guid>
+      <pubDate>Sun, 22 Sep 2024 14:25:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Iconify 的 Circum Icons 集采用 Mozilla Public License 2.0 许可，提供了 v [...]</title>
+      <link>https://t.me/hn_summary/109431</link>
+      <description><![CDATA[开源图标集
+Iconify 的 Circum Icons 集采用 Mozilla Public License 2.0 提供，提供了一套用途广泛的开源图标。这些图标旨在轻松集成到各种项目中，提供一致且专业的外观。使用 Mozilla Public License 可确保图标可以自由使用、修改和分发，为开发人员和设计人员营造协作环境。这种开源方法不仅可以促进创造力，还可以确保每个人都能获得高质量的设计资源。Circum Icons 的独特之处在于其适应性，使其适用于各种应用程序和平台。]]></description>
+      <guid>https://t.me/hn_summary/109431</guid>
+      <pubDate>Sun, 22 Sep 2024 14:20:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 一支由 23 人组成的乐高团队完成了一项非凡壮举，建造了一座全尺寸的 […]</title>
+      <link>https://t.me/hn_summary/109430</link>
+      <description><![CDATA[一支由 23 人组成的乐高团队使用 342,817 块乐高积木建造了一辆 1:1 比例的迈凯伦 P1
+一支由 23 人组成的乐高团队取得了非凡成就，他们使用 342,817 块乐高积木建造了一辆全尺寸、可操作的迈凯伦 P1 复制品。这个雄心勃勃的项目彰显了团队精湛的工艺和奉献精神，展示了乐高创造真人大小、可操作模型的潜力。与著名的高性能超级跑车制造商迈凯伦汽车的合作凸显了两个品牌共同的创新精神。这一独特的创作不仅彰显了工程实力，也证明了乐高作为大型功能性艺术媒介的无限可能性。]]></description>
+      <guid>https://t.me/hn_summary/109430</guid>
+      <pubDate>Sun, 22 Sep 2024 14:07:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 从外向内发展：尔湾能否成为中心城市？</title>
+      <link>https://t.me/hn_summary/109429</link>
+      <description><![CDATA[从外向内发展：尔湾能成为中心城市吗？
+标题：从外向内发展：尔湾能成为中心城市吗？
 
-大家好，我是一名后端开发人员，有 Spring Boot 和 Java 经验，对 Angular 也有一定的了解。我有一个应用想法，正在考虑使用 Kotlin+SpringBoot 或 Django+Python 构建后端。我通过过去的项目熟悉了 Python，并且知道 Django 很有效，Instagram 上的使用就是明证。但是，鉴于我目前使用 Java+Spring Boot 的经验，我很好奇 Kotlin+SpringBoot 是否可行。我不喜欢使用 Java，因为它太冗长，而且我欣赏 Django 的内置身份验证，不像 Spring Boot 需要 Spring Security。该应用程序是一个社交网络平台，需要用户、喜欢、评论、消息传递和活动流/新闻提要等功能。您有什么看法？]]></description>
-      <guid>https://t.me/hn_summary/109418</guid>
-      <pubDate>Sun, 22 Sep 2024 12:05:10 GMT</pubDate>
+城市传统上是从内向外发展的，但加利福尼亚州奥兰治县却是一个例外，它从外向内发展。尔湾位于奥兰治县的中心地带，正在迅速扩张，并可能成为美国的下一个大城市。与其他地区不同，尔湾的开发由尔湾公司精心管理，形成了住宅和商业空间的混合。尔湾以其高住房需求、快速的人口增长和显着的价格升值而独树一帜。尽管一些居民觉得它单调乏味，但尔湾的高品质设施和生活方式吸引了许多人，包括国际买家。该市还因其 Yimby 立场而引人注目，计划建造数千套新住房。然而，这种快速增长引发了人们对交通和排放的担忧。尔湾成为奥兰治县中心城市枢纽的潜力是独一无二的，但它必须在发展与保持其特色和宜居性之间取得平衡。]]></description>
+      <guid>https://t.me/hn_summary/109429</guid>
+      <pubDate>Sun, 22 Sep 2024 14:05:26 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在我探索来自各种托管 LLM 提供商的 HTTP 流式 API 如何工作时，我 [...]</title>
-      <link>https://t.me/hn_summary/109417</link>
-      <description><![CDATA[流式 LLM API 的工作原理
-在我探索来自各种托管 LLM 提供商的 HTTP 流式 API 的工作原理时，我发现它们都使用 content-type: text/event-stream 标头，与服务器发送事件机制保持一致，并以 \r\n\r\n 分隔的块形式流式传输数据。每个块包含一个 data: JSON 行，Anthropic 还包括一个 event: 行。不幸的是，由于这些 API 依赖于 POST 请求，因此无法使用浏览器的 EventSource API 直接使用这些 API。使用带有 --no-buffer 选项的 curl，我使用 GPT-4o Mini、Claude 3 Sonnet 和 Google Gemini 测试了提示，注意到令牌块大小和所需选项的差异。
+      <title>[媒体] 网站：www.economist.com</title>
+      <link>https://t.me/hn_summary/109428</link>
+      <description><![CDATA[FIFA 如何被 Electronic Arts 超越
+标题：FIFA 如何被 Electronic Arts 超越
+网站：www.economist.com
 
-令人惊讶/聪明：curl 中的 --no-buffer 选项可确保实时流式传输到控制台，这是一种处理流式响应的巧妙方法。
+9 月 27 日，新的足球赛季拉开帷幕，但不是英超联赛或西甲联赛，而是深受喜爱的足球视频游戏系列（原名“FIFA”）。自 1993 年像素化首次亮相以来，该游戏已成为一种全球现象，每年销量近 3000 万份。 MoffettNathanson 分析师称，游戏内消费使其年收入超过 30 亿美元。这占其发行商 Electronic Arts (EA) 利润的近三分之二。游戏界很少有名字能像“FIFA”这么响亮。]]></description>
+      <guid>https://t.me/hn_summary/109428</guid>
+      <pubDate>Sun, 22 Sep 2024 13:52:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在《连线》杂志最近的一篇文章中，作者探讨了人工智能语音主持人在 [...]</title>
+      <link>https://t.me/hn_summary/109427</link>
+      <description><![CDATA[当您给餐厅打电话时，您可能会与 AI 主持人聊天
+在 Wired 最近的一篇文章中，作者探讨了餐饮业 AI 语音主持人的兴起。当您给餐厅打电话时，您可能会受到 Jasmine 这样的 AI 助手的欢迎，它可以回答有关座位、预订等问题。这项技术在纽约、迈阿密、亚特兰大和旧金山等城市越来越受欢迎，Maitre-D AI、Newo、RestoHost 和 Slang 等初创公司引领了这一潮流。尽管在线工具盛行，但许多顾客仍然喜欢给餐厅打电话，尤其是在最后一刻预订或开车时。餐厅老板，比如 Bodega SF 的 Matt Ho，发现这些 AI 系统对于管理大量呼叫和改善客户服务非常有价值。值得注意的是，Slang 在 2023 年获得了 2000 万美元的融资，凸显了人们对这一领域日益增长的兴趣。]]></description>
+      <guid>https://t.me/hn_summary/109427</guid>
+      <pubDate>Sun, 22 Sep 2024 13:43:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>网站：nkrycek.mataroa.blog</title>
+      <link>https://t.me/hn_summary/109426</link>
+      <description><![CDATA[Gandi 的 .com 续费价格上涨 60%
+标题：Gandi 的 .com 续费价格上涨 60%
+网站：nkrycek.mataroa.blog
 
-有争议：由于这些流式 API 的 POST 请求要求，无法直接将 EventSource API 与这些流式 API 一起使用，这可能被视为一种限制或疏忽。（基于 64% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/109417</guid>
-      <pubDate>Sun, 22 Sep 2024 12:04:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] HTTP：、FTP：和 Dict：？</title>
-      <link>https://t.me/hn_summary/109416</link>
-      <description><![CDATA[HTTP:、FTP: 和 Dict:?
-标题：HTTP:、FTP: 和 Dict:?
-网站：shkspr.mobi
+Gandi 的收费一直比预算竞争对手略高，但他们的优质服务让包括我在内的许多人觉得物有所值。Total Webhosting Solutions 于 2023 年收购 Gandi 后，一些服务发生了变化——免费邮箱停用，域名续费略有增加。这些变化不足以让我更换注册商。然而，2024 年 8 月的价格表显示 .com 续费惊人地上涨了 60%，迫使客户重新考虑他们的选择。有趣的是，第一年的注册费保持不变，似乎是为了吸引新客户。以下是简要的价格历史：
 
-最近深入研究旧代码库时发现了一个令人困惑的正则表达式：{&lt;((https?|ftp|dict|tel):^\&#39;&quot;&gt;\s+)&gt;}i。虽然熟悉 HTTP、FTP 和 tel，但作者对 DICT 的加入感到惊讶。DICT 指的是词典服务器，允许通过网络查询词典。从历史上看，“webster”协议是用于自然语言定义，但其流行度已经下降。尽管如此，现在仍然可以使用可自由分发的词典，尽管并非统一可访问。1997 年发布的 DICT 协议仍然是磁盘空间有限和软件昂贵的时代的一个绝妙想法。用户今天仍然可以使用 curl dict://dict.org/d:Internet 等命令尝试它。作者想知道是否还有其他词典服务器仍在使用，以及韦伯斯特协议是否已在晦涩难懂的代码之外指定。]]></description>
-      <guid>https://t.me/hn_summary/109416</guid>
-      <pubDate>Sun, 22 Sep 2024 11:05:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：对于‘您在工作中有最好的朋友吗？’这个问题，您有何感想？</title>
-      <link>https://t.me/hn_summary/109415</link>
-      <description><![CDATA[问 HN：你对“你在工作中有一个最好的朋友吗”这个问题有什么看法？
-盖洛普 Q12 员工敬业度调查包括一个有争议的问题：“你在工作中有一个最好的朋友吗？”尽管遭到质疑，但盖洛普坚持认为这个问题可以预测高绩效团队。这个问题在敬业度调查中的有效性和公平性存在争议，一些人怀疑其背后的研究。争议在于个人关系是否应该成为衡量专业表现的标准。]]></description>
-      <guid>https://t.me/hn_summary/109415</guid>
-      <pubDate>Sun, 22 Sep 2024 10:18:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在我将同伦概念应用于统计学和机器学习的探索中，我[...]</title>
-      <link>https://t.me/hn_summary/109414</link>
-      <description><![CDATA[当然不能来回改变符号（机器学习模型同源性）
-在我将同伦概念应用于统计学和机器学习的探索中，我介绍了一个引人入胜的例子，标题为“当然不能来回改变符号”。这个例子表明，在线性回归中，拟合系数可以改变符号的次数与变量数减一的次数相同。这一发现挑战了直觉信念，即当权重不断调整时，拟合系数应该平滑地插值。虽然回归拟合在解释变量中是非线性的，但它在结果中仍然是线性的，这使我们能够通过仅改变结果来操纵情况。查看完整文章以深入了解这一有趣的现象。]]></description>
-      <guid>https://t.me/hn_summary/109414</guid>
-      <pubDate>Sun, 22 Sep 2024 09:05:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 我们现在生活在寄生文化中吗？</title>
-      <link>https://t.me/hn_summary/109413</link>
-      <description><![CDATA[我们现在生活在寄生文化中吗？
-在本文中，作者讲述了在拉瓜迪亚机场使用票务的个人经历，介绍了当今社会的“寄生文化”概念。叙述转向对 Facebook、Google、Spotify 和 TikTok 等现代数字平台的批评，作者认为这些平台通过从用户的无偿劳动和创造力中获利，以寄生的方式运作。这些平台本身创造的东西很少，但却获得了巨大的经济回报，通常是以牺牲真正的创造者为代价的。作者强调了人工智能生成内容的令人担忧的趋势，这种趋势进一步利用了知识产权而没有得到适当的补偿。提出的解决方案包括人工智能使用的透明度、对欺骗行为的经济处罚以及“创作者权利法案”。文章指出，未能实施这些措施表明政客们可能参与了这个寄生系统。
-
-争议点：
-- 断言主要数字平台是寄生的，几乎没有任何创造性贡献。
-- 声称人工智能生成的内容是历史上最大的知识产权盗窃案。
-
-独特/巧妙的亮点：
-- 用拉瓜迪亚机场的勾号来比喻数字经济中的寄生行为。
-- 用“我们偷”代替美国钢铁公司，用“IB抢劫你”代替 IBM 来玩文字游戏。]]></description>
-      <guid>https://t.me/hn_summary/109413</guid>
-      <pubDate>Sun, 22 Sep 2024 08:33:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] GitHub 项目“适用于 Android 的 Flappy Bird，仅使用 C 语言，不到 100KB”旨在创建一个最小 [...]</title>
-      <link>https://t.me/hn_summary/109412</link>
-      <description><![CDATA[Flappy Bird for Android，仅使用 C，小于 100KB
-GitHub 项目“Flappy Bird for Android，仅使用 C，小于 100KB”旨在仅使用 C 而不使用 Java/Kotlin 为 Android 创建 Flappy Bird 游戏的极简版本，并将 APK 大小保持在 100KB 以下。该项目解决了在 APK 大小通常超过 500MB 的时代开发轻量级游戏的挑战。作者详细介绍了从最初失败到最终成功的历程，重点介绍了使用 OpenGL ES 2、OpenSLES 和 upg 等工具进行渲染和声音。该项目因其最小的规模和使用 Android Native Activity 而脱颖而出，绕过了传统的 Android 开发环境。]]></description>
-      <guid>https://t.me/hn_summary/109412</guid>
-      <pubDate>Sun, 22 Sep 2024 08:05:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] peepDB 是一个开源命令行工具和 Python 库，专为开发人员设计 [...]</title>
-      <link>https://t.me/hn_summary/109411</link>
-      <description><![CDATA[用于快速检查数据库的开源 CLI 工具
-peepDB 是一个开源命令行工具和 Python 库，专为开发人员和数据库管理员设计，无需编写 SQL 查询即可快速检查数据库表。它支持 MySQL、PostgreSQL 和 MariaDB，提供轻量级、安全且用户友好的界面。主要功能包括多数据库支持、快速数据检查、带加密的安全本地存储、格式化输出和大型数据集的分页。该工具可通过 PyPI 轻松安装，并提供用于保存、列出、查看和删除数据库连接的命令。安全措施包括连接详细信息的加密本地存储。peepDB 在 GNU 通用公共许可证版本 3 下分发。]]></description>
-      <guid>https://t.me/hn_summary/109411</guid>
-      <pubDate>Sun, 22 Sep 2024 08:04:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 标题：LsCs 是一个专注于医疗设备的跨平台 C++ GUI 库</title>
-      <link>https://t.me/hn_summary/109410</link>
-      <description><![CDATA[LsCs 是一个专注于医疗设备的跨平台 C++ GUI 库
-标题：LsCs 是一个专注于医疗设备的跨平台 C++ GUI 库
-
-网站：lscs-software.com
-
-LsCs 是一个源自 CopperSpice 的跨平台 GUI 库，专为台式机和嵌入式系统设计，主要关注医疗设备及其开发人员。值得注意的是，该库将不支持任何手机。最终目标是提供一个免费的、跨平台的 C++ 库，可以轻松通过 FDA 510k 验证。路线图概述了当前的进展和未来的任务。决定从 CopperSpice 分叉是出于这样的信念：CopperSpice 优先考虑 C++ 编译器标准，而不是创建实用的预打包解决方案。]]></description>
-      <guid>https://t.me/hn_summary/109410</guid>
-      <pubDate>Sun, 22 Sep 2024 08:04:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Nextcloud 推出了首个直接内置于 Nextclou 中的本地 AI 助手 [...]</title>
-      <link>https://t.me/hn_summary/109409</link>
-      <description><![CDATA[Nextcloud：开源云应用
-Nextcloud 推出了首个直接内置于 Nextcloud Hub 协作平台的本地 AI 助手。这项创新功能可无缝集成到各种应用中，使其能够生成内容、回答有关数据的问题、汇总电子邮件、翻译和执行大量其他任务。这一发展标志着 Nextcloud 生态系统在提高用户生产力和数据管理方面迈出了重要一步。]]></description>
-      <guid>https://t.me/hn_summary/109409</guid>
-      <pubDate>Sun, 22 Sep 2024 07:59:32 GMT</pubDate>
+- 2023 年 1 月：注册费 17.75 美元，续费 17.75 美元
+- 2024 年 1 月：注册费 17.75 美元，续费 23.99 美元
+- 2024 年 9 月：注册费 17.75 美元，续费 38.38 美元]]></description>
+      <guid>https://t.me/hn_summary/109426</guid>
+      <pubDate>Sun, 22 Sep 2024 13:37:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
