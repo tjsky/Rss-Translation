@@ -4,7 +4,21 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Sat, 21 Sep 2024 21:12:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2024 01:12:58 GMT</lastBuildDate>
+    <item>
+      <title>我编写了一个 Python 脚本，使用 AI 来组织文件，100% 在你的设备上运行</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fmg7yg/i_built_a_python_script_uses_ai_to_organize_files/</link>
+      <description><![CDATA[嗨，r/ArtificialInteligence！ GitHub 上的项目链接： (https://github.com/QiuYannnn/Local-File-Organizer) 我想要一个真正了解我的文件内容的文件管理工具。以前的项目如 LlamaFS (https://github.com/iyaja/llama-fs) 不是 100% 本地的，需要 AI API。因此，我创建了一个 Python 脚本，利用 AI 来组织本地文件，完全在您的设备上运行，以完全保护隐私。它使用 Google Gemma2 2B 和 llava-v1.6-vicuna-7b 模型进行处理。 注意：您不需要任何 API 密钥和互联网连接来运行此项目，它完全在您的设备上运行模型。 它的作用：   扫描指定的输入目录中的文件 了解文件的内容（文本、图像等）以生成相关的描述、文件夹名称和文件名 根据生成的元数据将文件组织到新的目录结构中  支持的文件类型：  图像： .png、.jpg、.jpeg、.gif、.bmp 文本文件： .txt, .docx PDF： .pdf  支持的系统： macOS、Linux、Windows 它是完全开源的！ 有关演示和安装指南，这里再次提供项目链接： (https://github.com/QiuYannnn/Local-File-Organizer) 您对这个项目有何看法？您希望在未来版本中看到什么吗？ 谢谢！    提交人    /u/unseenmarscai   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fmg7yg/i_built_a_python_script_uses_ai_to_organize_files/</guid>
+      <pubDate>Sat, 21 Sep 2024 23:48:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>论文编辑人工智能</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fmg6v0/ai_for_thesis_redaction/</link>
+      <description><![CDATA[大家好， 在这个人工智能威胁要取代人类智能的时代，我想听听你对撰写长篇论文的最佳工具的看法。我们都知道 ChatGPT，但随着人工智能在最近几个月的迅速发展，你还有其他关于写论文的人工智能建议吗？ 当然，最重要的标准之一是教授使用的最强大和付费的抄袭检测和人工智能使用软件（Ouriginal 等）无法检测到人工智能的使用。 我愿意接受所有建议，谢谢你的帮助。    提交人    /u/outhinking   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fmg6v0/ai_for_thesis_redaction/</guid>
+      <pubDate>Sat, 21 Sep 2024 23:47:16 GMT</pubDate>
+    </item>
     <item>
       <title>我问 ChatGPT，如果政府拥有不受审查和监管的人工智能，他们会怎么做。以下是答案</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fmcwqq/i_asked_chatgpt_what_governments_would_do_if_they/</link>
@@ -18,13 +32,6 @@
       <description><![CDATA[大家好， 希望你一切顺利， 我听说很多关于新模型能够进行“推理”的说法 - 我试图在技术层面上研究这一点，但一直找不到令人满意的答案。关于这个主题的大多数文章都是由营销人员而不是工程师撰写的。有谁能解释一下这种新的“推理”能力在技术上有什么不同，这种能力以前是没有的，或者能告诉我在哪里可以找到一些关于这个主题的可访问但技术性的论文/信息？我将不胜感激！ 提前谢谢 :)    提交人    /u/AddendumLow4692   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fm9z09/gpt4o1_reasoning/</guid>
       <pubDate>Sat, 21 Sep 2024 18:48:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么像 ChatGPT 这样的 LLM 产品不能打开数学问题的计算器？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fm9fvw/why_cant_llm_products_like_chatgpt_open_a/</link>
-      <description><![CDATA[大家好， 希望你们都过得很好， 我在 X 上读到了这篇关于 ChatGPT 在解决数学问题方面仍然存在的问题的帖子。 https://x.com/colin_fraser/status/1836670721239462146?s=08 但是，我知道 LLM 可以识别何时有人想要制作图像，例如运行稳定扩散模型 - 那么为什么不能触发某些运行科学计算器的功能，以便它可以输入需要完成的计算并因此输出与计算器相同的答案？ 提前谢谢您 :)    提交人    /u/AddendumLow4692   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fm9fvw/why_cant_llm_products_like_chatgpt_open_a/</guid>
-      <pubDate>Sat, 21 Sep 2024 18:24:28 GMT</pubDate>
     </item>
     <item>
       <title>[请求] 文本到图像生成器</title>
@@ -81,13 +88,6 @@
       <description><![CDATA[我想分享我日常活动的首选，我经常使用人工智能，实际上，甚至在&quot;大爆炸&quot;（又名 ChatGPT 发布）之前，我就已经在使用 GPT3，从那时起，我几乎完全取代了谷歌。 最近改变了我生活的几个工具，我建议任何人都尝试一下： 用于开发目的（Claude-Dev）： https://github.com/saoudrizwan/claude-dev 自从看到他们发布以来，我就一直在使用它，它彻底改变了我编码的方式，说清楚点，我估计自己是一个相对优秀的开发人员，而且，这让我走了很多捷径，我可以以我从未梦想过的速度交付项目。我甚至回到了旧的&quot;PHP&quot; 方式，因为它如此快速地生成大量代码片段这一事实让我改变了我的默认标准。 对于图像（Stability Ultra）： https://platform.stability.ai/ Stability，特别是 Ultra，使用他们的 API，我制作了一个小的 Node 脚本，我可以直接从 VSCode 提示，彻底改变了我制作图标、图形甚至模因的生活，如果你要求超高清的图片，它完全可以做到，在负面提示中，我总是要求不要生成任何包含&quot;手指&quot; 的图片总的来说，它非常好。 对于日常提示（Hoody）： https://hoody.com/ai 这个“仪表板”非常酷，它不仅让我可以免费访问 o1-mini，而且让我不再那么担心将我的个人提示与我的身份联系起来，最近我越来越注意自己的隐私，因为现在几乎所有的事情都会被记录下来，我认为人们并没有真正意识到政府访问你的提示意味着什么。我没有将它用于开发，因为它没有 API。  在我看来，即将推出的最令人兴奋的是 Opus 3.5，随着 Strawberry 的最近推出，他们必须设定非常高的标准，Claude-dev 可能会立即将其集成，我无法想象它能将我的工作效率提高多少。    提交人    /u/AnKaSo   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fm3hgo/3_known_tools_that_have_changed_the_way_i_use_ai/</guid>
       <pubDate>Sat, 21 Sep 2024 13:50:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌在大型数字营销会议上首次推出针对广告的人工智能更新</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fm2n3a/google_debuts_ai_updates_for_ads_at_major_digital/</link>
-      <description><![CDATA[Google 为其 AI 广告工具添加了对多种语言的支持、更好的视觉生成、品牌指南和效果洞察，从而使所有格式的广告系列都更加有效。https://theaiwired.com/google-debuts-ai-updates-for-ads-at-major-digital-marketing-conference/    提交人    /u/alyis4u   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fm2n3a/google_debuts_ai_updates_for_ads_at_major_digital/</guid>
-      <pubDate>Sat, 21 Sep 2024 13:09:13 GMT</pubDate>
     </item>
     <item>
       <title>我讨厌 Google 赞助搜索结果。因此，我仅使用 Reddit、YT 和 TikTok 的众包意见构建了一个 AI 搜索引擎</title>
