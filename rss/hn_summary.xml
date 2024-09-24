@@ -4,98 +4,125 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Mon, 23 Sep 2024 21:06:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2024 01:07:11 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 国际工会联合会 (ITUC) 将亚马逊、Meta 和特斯拉列为 [...]</title>
-      <link>https://t.me/hn_summary/109593</link>
-      <description><![CDATA[亚马逊、特斯拉、Meta 被认为对民主有害
-国际工会联合会 (ITUC) 将亚马逊、Meta 和特斯拉列为破坏民主的最严重企业。据 ITUC 称，这些公司侵犯工会和人权、垄断媒体和技术、加剧气候问题，并将公共服务私有化以保护其利润。亚马逊因破坏工会、低工资、逃税和游说活动而名列榜首。Meta 因其强大的算法和无视隐私法规而受到批评。特斯拉因糟糕的劳工实践和环境问题而闻名。ITUC 认为，这些公司的行为与反民主政治运动一致，尤其是极右翼。该联盟呼吁将人民和地球置于利润之上，以维护民主。 
+      <title>[媒体] 缓存是出了名的困难，而且我们在这方面做得很糟糕。</title>
+      <link>https://t.me/hn_summary/109610</link>
+      <description><![CDATA[缓存我，不要缓存我，不要缓存我
+缓存是出了名的困难，我们在这方面都很糟糕。公共 Wi-Fi 设置经常让我觉得自己像小丑，因为 Web SPA 应用程序在任何非有线对称千兆位连接上都会失败。多年来一直相同的图标突然在连接不良时无法加载。更好缓存的关键在于将内容分为四种类型：推送 + 自有、推送 + 用户、拉取 + 自有和拉取 + 用户。通过使尽可能多的内容成为推送 + 自有，您可以避免不必要的重新获取并提高性能。对自有内容使用哈希 URL 和无限 TTL，对用户生成内容使用短 TTL。这种方法可以大大改善用户体验并减少挫败感。所以，别再搞乱我的咖啡店体验了，正确制定你的缓存策略吧！]]></description>
+      <guid>https://t.me/hn_summary/109610</guid>
+      <pubDate>Tue, 24 Sep 2024 01:07:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 加州政府颁布了 AB 3216《无电话学校法案》，以限制小学生使用手机 [...]</title>
+      <link>https://t.me/hn_summary/109609</link>
+      <description><![CDATA[法案限制加州学校智能手机的使用
+加州政府颁布了 AB 3216《无手机学校法案》，限制学校智能手机的使用，解决青少年心理健康问题。过度使用智能手机与焦虑、抑郁和学习成绩下降有关。众议员 Josh Hoover 和众议员 Al Muratsuchi 强调了这项立法在保护学生心理健康和提高学习成绩方面的重要性。州教育主管 Tony Thurmond 强调了与学生、家长和教育工作者的合作努力。这项举措是更广泛的努力的一部分，包括州长 Newsom 的《儿童心理健康总体规划》，旨在加强对加州年轻人的心理健康支持。这项立法得到了广泛支持，没有引起重大争议。]]></description>
+      <guid>https://t.me/hn_summary/109609</guid>
+      <pubDate>Tue, 24 Sep 2024 00:52:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 网站：www.mindthenoise.com</title>
+      <link>https://t.me/hn_summary/109608</link>
+      <description><![CDATA[显示 HN：交互式噪音水平地图
+标题：显示 HN：交互式噪音水平地图
+网站：www.mindthenoise.com
 
-争议：企业利益与极右翼政治运动的结盟以及破坏民主的指控。
-令人惊讶/聪明：Meta 被描述为一个拥有绝对权力的领导人的“外国”。]]></description>
-      <guid>https://t.me/hn_summary/109593</guid>
-      <pubDate>Mon, 23 Sep 2024 21:06:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Reddit 用户 harritaco 发现了 iPhone 和 Apple Watch 的一个不寻常的问题 [...]</title>
-      <link>https://t.me/hn_summary/109592</link>
-      <description><![CDATA[氦气与 iPhone 怪异故障有关
-Reddit 用户 harritaco 发现他们工作场所的 iPhone 和 Apple Watch 存在一个不寻常的问题：这些设备停止工作，几天后才恢复，有时还会造成持久损坏。故障发生时，正在安装一台新的 MRI 机器，该机器使用氦冷却超导体。令人惊讶的是，造成这一问题的不是强力磁铁，而是氦气。在 MRI 安装过程中，120 升液氦泄漏，浓度过高导致 Apple 硬件失效。Harritaco 的实验证实，氦气暴露导致设备故障。Reddit 用户 captaincool 推测，氦气渗透到设备内微机电系统 (MEMS) 的密封件中，破坏了它们的功能。这是智能手机故障的一个独特且出乎意料的原因。非 Apple 设备可能使用不同的密封件或 MEMS 配置，这解释了它们的弹性。]]></description>
-      <guid>https://t.me/hn_summary/109592</guid>
-      <pubDate>Mon, 23 Sep 2024 21:06:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>上锁的展示柜原本是为了遏制商店偷窃，但实际上，它对销售额的阻止作用可能大于对盗窃的阻止作用，[...]</title>
-      <link>https://t.me/hn_summary/109591</link>
-      <description><![CDATA[三分之二的购物者不会购买锁着的展示柜中的商品
-根据消费者世界 (Consumer World) 的一项调查，锁着的展示柜旨在遏制商店盗窃，但其阻止销售的效果可能比阻止盗窃的效果更好。只有 32% 的购物者会寻求帮助来解锁展示柜，而 55% 的购物者会到其他地方寻找商品，13% 的购物者会选择在同一家商店内寻找其他商品。消费者世界 (Consumer World) 出版商 E​​dgar Dworsky 对超过一半的受访者和他一样不愿意处理锁着的展示柜感到惊讶。他指出，由于该调查的选择性，可能会存在偏见。塔吉特 (Target) 等全国连锁店已经增加了锁着展示柜的使用，以应对有组织的零售犯罪，但一些人认为这个问题被夸大了。有趣的是，2024 年财报电话会议上“缩水”的提及减少了 20%，这表明有关商店盗窃的叙述发生了变化。德沃斯基承认，没有简单的解决方案，因为零售商面临着一个两难境地：让物品触手可及并冒着被盗的风险，或者把它们锁起来并损失销售额。彭博社的阿曼达·穆尔将锁起来的箱子比作当铺，警告说过度使用可能会把商店变成“巨型自动售货机”，促使顾客转向网上购物。]]></description>
-      <guid>https://t.me/hn_summary/109591</guid>
-      <pubDate>Mon, 23 Sep 2024 21:02:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 网站：www.404media.co</title>
-      <link>https://t.me/hn_summary/109590</link>
-      <description><![CDATA[隐私服务 Optery 计划向 OpenAI 发送用户数据后面临强烈反对
-标题：隐私服务 Optery 计划向 OpenAI 发送用户数据后面临强烈反对
-网站：www.404media.co
+是否曾经搬到新地方才发现意想不到的噪音问题？或者去酒吧或餐厅时发现那里太吵了？进入 MindTheNoise — 一个交互式工具，您可以在其中放置任何地址、分享噪音水平、识别来源并提供其他有用信息。如果您拥有一个地址，您可以进行验证以命名它并获得徽章。请通过 hi@mindthenoise.com 联系我们。
 
-Optery 是一家数据删除服务公司，在更新其服务条款以允许将用户数据传输给 OpenAI 后面临强烈反对，此设置默认启用。这一变化被一个以隐私为重点的论坛发现，随后停止推荐 Optery。作为回应，Optery 将数据传输恢复为选择加入模式。 Optery 创始人兼首席执行官 Lawrence Gentilello 解释说，OpenAI 之所以被选中，是因为其强大的 AI 模型不需要预先训练或使用客户数据进行微调。这场争议凸显了利用先进 AI 与维护用户隐私之间的矛盾。]]></description>
-      <guid>https://t.me/hn_summary/109590</guid>
-      <pubDate>Mon, 23 Sep 2024 20:50:27 GMT</pubDate>
+令人惊讶/巧妙的元素：该平台不仅允许用户报告噪音水平，还可以获得地址的验证所有权，从而增加了一层可信度和社区信任。]]></description>
+      <guid>https://t.me/hn_summary/109608</guid>
+      <pubDate>Tue, 24 Sep 2024 00:39:57 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 网站：www.theverge.com</title>
-      <link>https://t.me/hn_summary/109589</link>
-      <description><![CDATA[Twitter/X 将允许你屏蔽的人查看你的帖子
-标题：Twitter/X 将允许你屏蔽的人查看你的帖子
-网站：www.theverge.com
+      <title>[媒体] 由史蒂文斯教授 Igor Pikovski 领导的团队提出了一种突破性的方法来 [...]</title>
+      <link>https://t.me/hn_summary/109607</link>
+      <description><![CDATA[科学家提出突破性方法来检测单个引力子
+由史蒂文斯教授 Igor Pikovski 领导的团队提出了一种突破性的方法，使用先进的量子传感技术来检测单个引力子，即难以捉摸的引力量子粒子。这项曾经被认为不可能实现的实验，随着未来技术的进步，可能很快就会成为现实。该团队的研究发表在《自然通讯》上，建议使用声谐振器结合改进的能量状态检测方法来观察引力子。这种创新方法与导致爱因斯坦提出光量子理论的光电效应相似。虽然必要的传感技术尚不存在，但该团队对未来的发展持乐观态度。这一提议标志着将引力与量子力学联系起来的重要一步，这是物理学中一个长期存在的挑战。 
 
-X，原名 Twitter，现在将允许你屏蔽的用户查看你的帖子。X 的所有者 Elon Musk 澄清说，屏蔽功能将阻止参与，但不会阻止公开帖子的可见性。以前，被屏蔽的用户会看到“你已被屏蔽”的消息，并且无法查看个人资料、回复、媒体、关注者或关注列表。尽管 X 声称这一变化反映了被屏蔽的用户仍可以使用其他帐户或注销后查看帖子的现实，但 The Verge 的工作人员发现，X 在注销后会阻止查看个人资料。马斯克批评了屏蔽按钮，建议用更强大的静音功能代替它，甚至考虑将其完全删除，但私信除外。这一变化可能会让坏人更容易继续骚扰受害者。]]></description>
-      <guid>https://t.me/hn_summary/109589</guid>
-      <pubDate>Mon, 23 Sep 2024 20:49:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 铁电 RAM (FRAM) 是一种独特的存储技术，它使用特殊的“铁电”[...]</title>
-      <link>https://t.me/hn_summary/109588</link>
-      <description><![CDATA[铁电 RAM 芯片内部
-铁电 RAM (FRAM) 是一种独特的存储技术，它使用特殊的“铁电”材料来存储数据。与闪存不同，FRAM 是非易失性的，可以保留数据数十年，同时允许快速写入数据并承受数万亿次写入周期。尽管有这些优势，但 FRAM 仍然价格昂贵，限制了其在小众应用中的使用。本文深入探讨了 1999 年 Ramtron FRAM 芯片的内部工作原理，重点介绍了其复杂的设计和历史发展。尽管该技术具有潜在的优势，但其高昂的制造成本和复杂的制造工艺阻碍了其广泛采用。值得注意的是，FRAM 的弹性使其适合特殊用途，例如卫星中的抗辐射存储器。]]></description>
-      <guid>https://t.me/hn_summary/109588</guid>
-      <pubDate>Mon, 23 Sep 2024 20:31:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 动漫曾经是一种小众流派，如今已发展成为一个价值数十亿美元的产业，影响着 [...]</title>
-      <link>https://t.me/hn_summary/109587</link>
-      <description><![CDATA[动漫正在席卷全球
-动漫曾经是一种小众题材，如今已发展成为一个价值数十亿美元的产业，通过《Pokémon Go》和《原神》等游戏以及《鬼灭之刃》等电影影响着全球流行文化。动漫（包括漫画和游戏）的市场规模估计超过 500 亿美元。在新技术和新商业模式的推动下，该行业有望进一步增长。动漫的吸引力涵盖了不同的受众，通过 AI 伙伴、用户生成内容 (UGC) 和 VTubing 吸引了大量粉丝。源自视觉小说的 AI 伙伴正在将准社会关系转变为互动体验。Roblox 等 UGC 平台使内容创作民主化，让粉丝可以重新构想他们最喜欢的 IP。专业游戏工作室不断创新，制作出扩展动漫世界的优质游戏。动漫的未来在于它能够整合人工智能和 UGC，使其成为内容消费和互动的主导形式。（基于 66% 的故事文本的摘要。）]]></description>
-      <guid>https://t.me/hn_summary/109587</guid>
-      <pubDate>Mon, 23 Sep 2024 20:13:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 1870 年，瑞利勋爵仅使用 [...] 就计算出了单个分子的大小。</title>
-      <link>https://t.me/hn_summary/109586</link>
-      <description><![CDATA[1870 年，瑞利勋爵使用油和水计算分子的大小
-1870 年，瑞利勋爵仅使用油、水和一支笔就计算出了单个分子的大小，这一发现受到了本杰明·富兰克林 1770 年观察结果的启发。富兰克林注意到油可以平息湍急的水流，并在伦敦的一个池塘进行了实验，但他从未意识到分子的影响。一个多世纪后，著名物理学家瑞利重新审视了富兰克林的工作。通过测量少量橄榄油在水面上的扩散情况，瑞利估算出了油膜的厚度，相当于一个分子的长度。他计算出的 1.63 纳米与现代测量值惊人地接近。这个故事展示了如何从简单的实验中得出深刻的科学见解，强调了独创性对复杂设备的力量。有关这些实验的更多信息，强烈推荐查尔斯·坦福德 (Charles Tanford) 的书《本·富兰克林平静了浪潮》。]]></description>
-      <guid>https://t.me/hn_summary/109586</guid>
-      <pubDate>Mon, 23 Sep 2024 20:09:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 美国商务部宣布了一项禁止联网汽车技术的拟议规则[...]</title>
-      <link>https://t.me/hn_summary/109585</link>
-      <description><![CDATA[美国提议禁止中国、俄罗斯的联网汽车技术
-美国商务部宣布了一项拟议规则，禁止来自中国和俄罗斯的联网汽车技术 (VCS) 和自动驾驶系统 (ADS) 硬件或软件。此举旨在防止这些国家的潜在间谍活动，因为这些技术可能使他们能够监视美国。该规则将禁止进口、销售和在美国制造的车辆中使用此类技术，影响从 2027 年车型开始的软件和 2030 年车型开始的硬件。这项先发制人的禁令是在拜登政府担心国家安全风险之后出台的。值得注意的是，该规则在颁布之前仍可能发生变化，制造商可以申请豁免。此外，美国政府还提高了对中国产电动汽车的关税，促使中国誓言采取报复措施。]]></description>
-      <guid>https://t.me/hn_summary/109585</guid>
-      <pubDate>Mon, 23 Sep 2024 20:03:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站：www.rapidreview.cc</title>
-      <link>https://t.me/hn_summary/109584</link>
-      <description><![CDATA[展示 HN：我制作了一个小型平台来收集反馈
-标题：展示 HN：我制作了一个小型平台来收集反馈
-网站：www.rapidreview.cc
+争议：检测单个引力子的可行性仍存在争议，因为所需的技术尚未实现。
 
-我很高兴推出 RapidReview，这是一个旨在高效收集反馈的精简平台。我们闪电般的快速表单可确保无缝的用户体验，使收集有价值的见解变得前所未有的简单。无论您是想改进产品、服务还是网站，RapidReview 都能提供快速有效的解决方案。该平台的速度和简单性使其与众不同，让用户能够专注于真正重要的事情：反馈。请访问www.rapidreview.cc，亲自体验其中的不同之处！]]></description>
-      <guid>https://t.me/hn_summary/109584</guid>
-      <pubDate>Mon, 23 Sep 2024 20:00:48 GMT</pubDate>
+独特/巧妙：声谐振器的使用和与光电效应的类比是所提出方法特别巧妙的方面。]]></description>
+      <guid>https://t.me/hn_summary/109607</guid>
+      <pubDate>Tue, 24 Sep 2024 00:31:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 台北的晚上好，</title>
+      <link>https://t.me/hn_summary/109606</link>
+      <description><![CDATA[LCD 的消亡意味着芯片的新生
+台北的晚上好，
+
+大约 20 年前，我参加了一次媒体发布会，当时我与友达光电的一位高管一起出席，友达光电是当时台湾最大的平板电视制造商。当时，LCD 显示器蓬勃发展，笨重的阴极射线管电视机逐渐过时。一位精明的记者提出了一个尖刻但公平的问题：当每个人都拥有平板电视时会发生什么？这位高管自信地回答说，LCD 分辨率将继续提高，电视机的使用寿命只有大约 8 到 10 年，确保消费者需求持续增长。他错了。
+
+最近的事态发展让我相信，LCD 的末日即将来临。尽管在 20 世纪 90 年代和 21 世纪初取得了重大进展，但十年前进展停滞。由三星等公司引领的 OLED 技术已占据主导地位，让传统 LCD 制造商陷入困境。甚至夏普在堺市备受赞誉的 10G 晶圆厂也将于明年停产。
+
+有趣的是，台积电和美光正在从群创和友达收购工厂，不是为了进入显示器业务，而是为了专注于高带宽内存 (HBM) 和新的芯片封装技术。台积电的 CoWoS（晶圆基板芯片）处于领先地位，英特尔的 Foveros 和三星的 I-Cube 也在其中。这些技术涉及将芯片粘合到硅中介层上，然后粘合到基板上，通过缩短组件之间的距离来提高性能。
+
+越来越多的人相信玻璃面板，而不是硅晶圆，可能是芯片封装的未来。玻璃可以容纳更大的基板，从而减少浪费并提高性能。英特尔和台积电等公司正在探索这一领域，而 LCD 工厂凭借在玻璃上铺设微型电路的专业知识，已经做好了转型的准备。
+
+群创光电将其台南工厂出售给台积电似乎是一种经济机会，因为它已经在将其他工厂转换为面板级封装 (PLP)。鉴于 LCD 市场的衰退以及 OLED 和其他技术的兴起，此举是务实的。
+
+在中国政府的支持下，京东方和华星光电等中国巨头仍控制着 70% 的 LCD 市场。他们可能是这个曾经辉煌的行业衰落前最后获利的人，但技术和面板工厂将在人工智能时代继续存在。
+
+感谢您的阅读。与其承诺订阅，您能做的最好的事情就是与您最聪明的三个朋友分享这篇文章。并告诉他们订阅。
+
+干杯，
+蒂姆]]></description>
+      <guid>https://t.me/hn_summary/109606</guid>
+      <pubDate>Tue, 24 Sep 2024 00:07:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：有非西方作家的科幻小说推荐吗？</title>
+      <link>https://t.me/hn_summary/109605</link>
+      <description><![CDATA[问 HN：非西方作家的科幻小说推荐？
+标题：问 HN：非西方作家的科幻小说推荐？
+网站：news.ycombinator.com
+
+在与朋友的交谈中，我意识到我读过的绝大多数科幻小说都是西方作家写的，主要是白人男性。阅读刘慈欣的《三体》是一种令人耳目一新的体验，因为他的背景为叙事带来了独特的视角。我现在正在寻求来自不同背景的作者的科幻小说推荐，无论他们是非西方人、难民，还是生活在南极洲隐秘天堂的不知名宗教信徒。欢迎任何建议！]]></description>
+      <guid>https://t.me/hn_summary/109605</guid>
+      <pubDate>Mon, 23 Sep 2024 23:50:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 网站：torrentfreak.com</title>
+      <link>https://t.me/hn_summary/109604</link>
+      <description><![CDATA[Telegram 删除 Z-Library 帖子“因侵犯版权”
+标题：Telegram 删除 Z-Library 帖子“因侵犯版权”
+网站：torrentfreak.com
+
+Telegram 每月活跃用户约 10 亿，是一种广泛使用的消息服务，以其端到端加密和广泛的通信功能而闻名。然而，它也因促进非法活动而受到批评，包括贩毒和传播虐待儿童的图片。最近，Telegram 首席执行官 Pavel Durov 在法国因刑事调查被捕，尽管没有以侵犯版权为由。
+
+尽管存在问题，Telegram 确实对 DMCA 删除通知做出了回应。这从“Z-Library Official”频道删除几篇帖子就可以看出，该频道拥有超过 50 万订阅者。Z-Library 是一家受到美国刑事调查的影子图书馆，它使用 Telegram 向用户更新新域名，这让图书出版商和执法部门感到沮丧。Telegram 最近的行动导致 Z-Library 将用户重定向到维基百科和 Reddit 以获取链接。
+
+有趣的是，欺诈性的 Z-Library 模仿者正在利用这种情况发布非官方链接，使打击行动复杂化。尽管面临这些挑战，Z-Library 仍在继续运营，并发起了一项新的捐赠活动，在短短几天内筹集了数千美元。]]></description>
+      <guid>https://t.me/hn_summary/109604</guid>
+      <pubDate>Mon, 23 Sep 2024 23:49:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：运营小型新闻通讯的廉价方法是什么？</title>
+      <link>https://t.me/hn_summary/109603</link>
+      <description><![CDATA[询问 HN：运行小型新闻通讯的廉价方法？
+标题：询问 HN：运行小型新闻通讯的廉价方法？
+网站：news.ycombinator.com
+
+Hacker News 上的一位用户正在寻找 Mailchimp 的经济高效的替代方案来管理大约 1,500 名订阅者的新闻通讯，因为 Mailchimp 每月收费 34 英镑。他们正在探索将 Amazon SES 与开源工具相结合的选项，并向社区寻求有关订阅者少于 2,000 人的新闻通讯的更好或更便宜的解决方案的建议。讨论可能会重点介绍各种提供有竞争力的价格和功能的开源工具和服务，为小规模的新闻通讯管理提供宝贵的见解。]]></description>
+      <guid>https://t.me/hn_summary/109603</guid>
+      <pubDate>Mon, 23 Sep 2024 23:27:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 以色列军队突袭了半岛电视台位于被占领的约旦河西岸的办公室，并发布了为期 45 天的 [...]</title>
+      <link>https://t.me/hn_summary/109602</link>
+      <description><![CDATA[以色列军方在西岸突袭中关闭半岛电视台办事处
+以色列军队突袭了半岛电视台在被占领的西岸的办事处，并下达了为期 45 天的关闭令。镜头显示全副武装的部队进入拉马拉的办公场所，没收了文件和设备。半岛电视台谴责这次突袭是“犯罪行为”，并誓言采取法律行动，指责以色列的指控毫无根据。以色列通讯部长 Shlomo Karhi 将半岛电视台称为哈马斯和真主党的“喉舌”。此前，以色列最近吊销了半岛电视台记者的记者证。巴勒斯坦记者联合会和加沙政府媒体办公室谴责此举，称其违反国际法并对新闻自由构成威胁。]]></description>
+      <guid>https://t.me/hn_summary/109602</guid>
+      <pubDate>Mon, 23 Sep 2024 23:11:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 亚利桑那州斯科茨代尔</title>
+      <link>https://t.me/hn_summary/109601</link>
+      <description><![CDATA[Snowflake 客户数据泄露事件背后的黑客仍然活跃
+亚利桑那州斯科茨代尔 — 据 Mandiant 高级威胁分析师 Austin Larsen 称，今年早些时候造成重大 Snowflake 客户数据泄露事件的黑客“Judische”或“Waifu”仍然活跃。Larsen 在 SentinelOne 的 LABScon 安全会议上透露，Judische 继续以软件即服务提供商为目标。网络安全记者 Brian Krebs 虽然没有直接透露姓名，但确认黑客是一位来自加拿大安大略省的 26 岁软件工程师。Judische 在 4 月份的黑客事件中扮演了关键角色，影响了多达 165 名 Snowflake 客户，包括 AT&amp;T、Ticketmaster 和 Santander。该黑客及其同伙已勒索高达 270 万美元，但 Judische 声称这个数字更接近 200 万美元。有争议的是，Judische 与 John Binns 合作，后者因对 AT&amp;T 发动另一次攻击而被土耳其当局逮捕。Binns 利用窃取的数据针对网络犯罪社区“The Com”中的调查人员和竞争对手。美国联邦调查局和加拿大皇家骑警拒绝对正在进行的调查发表评论。]]></description>
+      <guid>https://t.me/hn_summary/109601</guid>
+      <pubDate>Mon, 23 Sep 2024 23:09:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
