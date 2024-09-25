@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 25 Sep 2024 18:22:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 21:15:24 GMT</lastBuildDate>
+    <item>
+      <title>要下载的项目</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fpe2cu/projects_to_torrent/</link>
+      <description><![CDATA[我的带宽比我所能使用的还要多。我知道像 ubuntu、debian 和 kali 这样的项目都提供种子供人们下载，我可以通过播种种子来帮助其他哪些项目？    提交人    /u/smilesnd   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fpe2cu/projects_to_torrent/</guid>
+      <pubDate>Wed, 25 Sep 2024 20:12:28 GMT</pubDate>
+    </item>
     <item>
       <title>我们的开源之旅：我们做对了什么（以及做错了什么）</title>
       <link>https://www.reddit.com/r/opensource/comments/1fpalup/our_opensource_journey_what_we_got_right_and_wrong/</link>
@@ -85,7 +92,7 @@
     <item>
       <title>终于成功更新了基于UWB的MaUWB软件，现在不仅可以使用AT命令控制UWB模块在500米范围内建立多锚多标签定位系统，还可以进行标签和锚之间的数据通信，所以我想和大家分享一下我的团队是如何做到的</title>
       <link>https://www.reddit.com/r/opensource/comments/1fou4x3/finally_managed_to_update_the_software_for/</link>
-      <description><![CDATA[首先，我认为介绍一下UWB是个好主意，为什么要创建MaUWB： 超宽带（UWB）是一种通过无线通信实现安全可靠测距和精确感应的技术，但UWB最大的问题是当存在多个锚点和标签时信号相互冲突/干扰。为了解决这个问题，我和我的团队制作了MaUWB模块，它最多支持8个锚点，64个标签，传输距离可达500米，可以通过简单的AT命令进行控制。 关于MaUWB，该模块专为室内多锚点和多标签之间的距离测量而设计。标签，基于 STM32 控制器和 DW3000，板载天线/PA/LNA，特点： - AT 命令和串行输出  - 长距离：使用板载 PA/LNA，最大距离至少 300m - 角色设置：每个 MaUWB 都可以通过 AT 命令设置为锚点或标签 - 易于与任何控制器配合使用 在实践中，我们面临着无法在锚点和标签之间进行通信的不便，因此为了解决这个问题，我们的团队找到了一种升级软件的方法。 在这里我想与大家分享： 我们如何在锚点和标签之间进行数据传输 我们引入了两组新的 AT 指令：AT + DATA 和 AT + RDATA。 AT+DATA用于数据传输，最大支持32字节；AT+RDATA用于接收数据，允许双向通信。这些指令使系统更加灵活和实用。 锚点和标签之间的可靠通信允许扩展MaUWB应用。例如，锚点可以控制标签的位置，发送“前进”或“后退”命令等，实现目标物体位置的精细化管理和动态调度。 此外，标签还可以主动将环境传感器数据（包括精确的温度和湿度读数）中继给锚点。这种双向通信使系统能够持续监控和了解特定区域的环境条件，从而为明智的决策提供全面的实时数据。 当前结果 我们的团队已经进行了稳定性测试以确保软件正常运行，并且我们制作了有关整个过程的视频。如果您想了解有关此软件更新的更多信息，我们还整理了一篇包含所有详细信息的博客帖子 支持数据传输的最新固件现已发布。最新的固件可以在这里找到：MaUWB(v1.1.1).hex: 固件和如何升级 MaUWB 可以在我们的 Github 上找到。 如果有任何建议，请随时在评论部分提出，如果我能帮助你们，我会很高兴！    提交人    /u/Vearts   [链接] [评论]]]></description>
+      <description><![CDATA[首先，我认为介绍一下UWB是个好主意，为什么要创建MaUWB： 超宽带（UWB）是一种通过无线通信实现安全可靠测距和精确感应的技术，但UWB最大的问题是当存在多个锚点和标签时，信号相互冲突/干扰。为了解决这个问题，我和我的团队制作了MaUWB模块，它最多支持8个锚点，64个标签，传输距离可达500米，可以通过简单的AT命令进行控制。 关于MaUWB，该模块专为室内多锚点和多标签之间的距离测量而设计。标签，基于 STM32 控制器和 DW3000，板载天线/PA/LNA，特点： - AT 命令和串行输出  - 长距离：使用板载 PA/LNA，最大距离至少 300m - 角色设置：每个 MaUWB 都可以通过 AT 命令设置为锚点或标签 - 易于与任何控制器配合使用 在实践中，我们面临着无法在锚点和标签之间进行通信的不便，因此为了解决这个问题，我们的团队找到了一种升级软件的方法。 在这里我想与大家分享： 我们如何在锚点和标签之间进行数据传输 我们引入了两组新的 AT 指令：AT + DATA 和 AT + RDATA。 AT+DATA用于数据传输，最大支持32字节；AT+RDATA用于接收数据，允许双向通信。这些指令使系统更加灵活和实用。 锚点和标签之间的可靠通信允许扩展MaUWB应用。例如，锚点可以控制标签的位置，发送“前进”或“后退”命令等，实现目标物体位置的精细化管理和动态调度。 此外，标签还可以主动将环境传感器数据（包括精确的温度和湿度读数）中继给锚点。这种双向通信使系统能够持续监控和了解特定区域的环境条件，从而为明智的决策提供全面的实时数据。 当前结果 我们的团队已经进行了稳定性测试以确保软件正常运行，并且我们制作了有关整个过程的视频。如果您想了解有关此软件更新的更多信息，我们还整理了一篇包含所有详细信息的博客帖子 支持数据传输的最新固件现已发布。最新的固件可以在这里找到：MaUWB(v1.1.1).hex: 固件和如何升级 MaUWB 可以在我们的 Github 上找到。 如果有任何建议，请随时在评论部分提出，如果我能帮助你们，我会很高兴！    提交人    /u/Vearts   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fou4x3/finally_managed_to_update_the_software_for/</guid>
       <pubDate>Wed, 25 Sep 2024 02:32:01 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好，希望你们都很好。我目前是 DRL 研究小组的成员。我的职责是支持小组的研究人员，因为我不再攻读该领域的硕士学位，但我留在小组是因为我喜欢这个研究领域。 我正在与我的研究小组讨论开始使用一些开源平台/项目来组织整个小组。我们想要做的事情的例子：  我们目前使用成员的 Notion 来保存一些关于如何做某事的内部教程。我们正在选择将所有这些迁移到哪个工具。目前我们有的选项是：AFFiNE、Outline 和 Docmost。 我们的指标以前存储在文件中并通过 Jupyter Notebook 呈现，将迁移到 Comet 或 MLflow。 我们还在寻找 Zotero 的网络替代品，以组织我们的引用等。  这些只是几个例子，但我们希望为整个小组建立一个理想的开源结构，并在未来在这方面帮助大学的其他研究小组。托管将轻而易举，因为大学为此提供支持，我们有一些具有运营专业经验的人员来管理一切。 您在研究小组中使用了哪些其他开源工具？你有什么建议？ 提前感谢您的支持。    提交人    /u/barash-616   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fol0yz/which_opensource_projects_do_you_recommend_for/</guid>
       <pubDate>Tue, 24 Sep 2024 19:26:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软开源基于 Linux 的“Paravisor”OpenHCL</title>
-      <link>https://www.reddit.com/r/opensource/comments/1foko8i/microsoft_open_sources_openhcl_a_linuxbased/</link>
-      <description><![CDATA[       由    /u/CrankyBear  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1foko8i/microsoft_open_sources_openhcl_a_linuxbased/</guid>
-      <pubDate>Tue, 24 Sep 2024 19:12:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
