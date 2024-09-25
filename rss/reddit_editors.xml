@@ -4,14 +4,7 @@
     <title>最新投稿：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>此子版块面向后专业人士。您想成为专业人士吗？请随意使用我们的“向专业人士提问”主题。副业？使用“向专业人士提问”主题。爱好？为了好玩？我们的姐妹子版块 r/videoediting 正是您想要的！</description>
-    <lastBuildDate>Wed, 25 Sep 2024 12:30:08 GMT</lastBuildDate>
-    <item>
-      <title>长篇修订的最佳实践</title>
-      <link>https://www.reddit.com/r/editors/comments/1fp2hpg/best_practices_for_feature_length_revisions/</link>
-      <description><![CDATA[我是完全自学的剪辑师，正在制作我的第一个长片项目。在准备阶段研究了专业的工作流程后，我使用卷轴制作了我们电影的初稿 - 今天我将它们拼接成一个序列以供审查。 可以预料的是，即使在我指定的 Mac Studio 上，这种端到端时间线也不太好用，这让我对实施修订感到焦虑。在这个阶段的最佳做法是什么？是将部分复制回卷轴，在那里编辑并重新导入主序列的情况吗？如果是这样，当场景/卷轴没有明确的起点/终点并且经常有重叠的轨道等时，如何优雅地完成此操作（在 Premiere Pro 中工作） 感谢这里的任何/所有建议！    提交人    /u/Cjammer7   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1fp2hpg/best_practices_for_feature_length_revisions/</guid>
-      <pubDate>Wed, 25 Sep 2024 11:51:16 GMT</pubDate>
-    </item>
+    <lastBuildDate>Wed, 25 Sep 2024 15:16:42 GMT</lastBuildDate>
     <item>
       <title>复原解锁序列的技巧</title>
       <link>https://www.reddit.com/r/editors/comments/1fp1c7t/reversioning_an_unlocked_sequence_tips/</link>
@@ -41,7 +34,7 @@
       <pubDate>Wed, 25 Sep 2024 05:05:37 GMT</pubDate>
     </item>
     <item>
-      <title>你在编辑时使用宏命令板吗？（即使你不使用它们，也请告诉我你的想法）</title>
+      <title>你在编辑时使用宏命令吗？（即使你不使用它们，也请告诉我你的想法）</title>
       <link>https://www.reddit.com/r/editors/comments/1foti5m/do_you_use_a_marco_pad_when_editing_let_me_know/</link>
       <description><![CDATA[大家好，我想买一个宏键盘用于编辑，比如 Tourbox Elite、loupedeck + 侧面的小键盘，上面有我最常用的所有快捷键，因为当我必须按任何涉及 2 个以上键的快捷键时，我总是感到分心，当有三个键时，我的头会爆炸，你用过类似的东西吗？你会建议吗？    提交人    /u/HovercraftDazzling48   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1foti5m/do_you_use_a_marco_pad_when_editing_let_me_know/</guid>
@@ -85,7 +78,7 @@
     <item>
       <title>导入 Premiere Pro 时音频压缩</title>
       <link>https://www.reddit.com/r/editors/comments/1fom91b/audio_compressing_when_importing_to_premiere_pro/</link>
-      <description><![CDATA[大家好！你好吗？ 我感觉当我将一首歌曲导入 Premiere Pro 时，音乐会被压缩。看起来质量下降了。我从 Universal Production Music 下载了它，当我将它放入时间线时，音量会稍微增加，但质量会变差。我尝试在设置中进行一些调整，但没有任何帮助。序列是 48000 Hz，就像音乐文件一样。有人知道问题可能是什么吗？谢谢！    提交人    /u/WakeMeUpIn10min   [链接] [评论]]]></description>
+      <description><![CDATA[大家好！你好吗？ 我感觉当我将一首歌曲导入 Premiere Pro 时，音乐会被压缩。看起来质量下降了。我从 Universal Production Music 下载了它，当我将它放入时间线时，音量会稍微增加，但质量会变差。我尝试在设置中进行一些调整，但没有任何帮助。序列是 48000 Hz，就像音乐文件一样。有人知道可能是什么问题吗？谢谢！    提交人    /u/WakeMeUpIn10min   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1fom91b/audio_compressing_when_importing_to_premiere_pro/</guid>
       <pubDate>Tue, 24 Sep 2024 20:17:22 GMT</pubDate>
     </item>
@@ -109,6 +102,13 @@
       <description><![CDATA[您好！我们遇到了一个反复出现的问题，即过一段时间（五分钟或五天）后，外部音轨将在源查看器窗口中的多机位剪辑的一个或两个角度上停止播放，并且仅在源查看器窗口中停止播放。有什么提示吗？ 更多信息：  如果我们删除本地缓存剪辑音频并重新启动 Da Vinci，有时会修复问题，但并非总是如此。 所有媒体都存储在 20tb Raid6 SAN 上，数据速率为 3gig+，并流式传输到 Apple M2 工作室。 Da Vinci 项目是一个共享的“团队”项目存储在 Blackmagic 的云端。 它是时间码同步的多波音频，我们在制作多机位之前将其同步到单机位剪辑，以便每个音频“角度”都是相同的音轨，通常是 8 轨自适应。 视频是 4k 到 6k 或高清代理，它是垂直的，因为这是人们想要的。 它是 Da Vinci 的最新版本，19.01，但 19 上也发生了这种情况，粗略的研究表明人们已经处理这个问题好几年了。 它可能与 SAN 有关，但该怎么办？如果我们将音频放在每个人的工作室上，但将视频放在服务器上，会发生什么？呼叫鲍勃泽林？     由    /u/gptg  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1foivvd/no_audio_playback_in_da_vinci_resolve_multicams/</guid>
       <pubDate>Tue, 24 Sep 2024 17:58:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sony SxS 读卡器 - 传输速度慢</title>
+      <link>https://www.reddit.com/r/editors/comments/1fohbok/sony_sxs_card_reader_slow_transfer_speeds/</link>
+      <description><![CDATA[我需要从几张 64gb 的 Sony SxS 卡中取出素材。我使用的是 M1 Max MacBook Pro 和通过 thunderbolt usb-c 连接的 Sony SxS 读卡器。我在 Mac OS 13.6.9 上安装了最新的 SxS 驱动程序 (5.0)。传输速度非常慢。传输 41gb 需要 2 个多小时。任何解决此问题的提示都将不胜感激！    提交人    /u/vac373   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1fohbok/sony_sxs_card_reader_slow_transfer_speeds/</guid>
+      <pubDate>Tue, 24 Sep 2024 16:54:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
