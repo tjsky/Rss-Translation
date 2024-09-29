@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 29 Sep 2024 18:19:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 21:14:14 GMT</lastBuildDate>
+    <item>
+      <title>使用 Windows signtool.exe 和 proCertum CardManager 的说明</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fsb1nl/instructions_for_using_windows_signtoolexe_w/</link>
+      <description><![CDATA[我会在我的个人 Wiki 中写下这个，但世界其他地方可能也有类似的问题。几个小时的挣扎和谷歌搜索没有帮助，所以我只把信息放在这里。正如之前提到的，Certum 为开源开发人员提供低成本的代码签名证书（因此这篇文章在 r/opensource 上），与每年仅证书费用数百美元的大牌相比，Certum 每年的费用约为 28 美元（不包括一次性购买的硬件）。 所以我有了加密卡和智能卡读卡器，是时候更新我的证书了。我记得上次很简单，所以我没有写下说明。但是在将证书安装到加密卡，然后将其颁发给本地 Windows 证书管理器后，它一直失败。使用详细（/debug）模式显示私钥丢失......但这以前从来都不是问题！以前，它只会 ping 智能卡以获取私钥，要求我输入 PIN 并签名。这个新的挂断是怎么回事？？？ 进一步挖掘后，我意识到无论我如何尝试从 proCertum CardManager（或 Certum 网站）导出密钥，然后将其添加到证书存储区，都会导致它链接到卡上的私钥。它只添加了公钥，当 signtool.exe 寻找它时，它说没有可用的私钥。 看起来 proCertum CardManager 在过去一两年内进行了更新。变化在于有两个驱动程序选项可用 - 在程序中打开卡后，在“选项”下，“微型驱动程序（推荐）”是默认选项，但有一个“CSP”选项。选择“CSP”并重新启动。CSP 是 Microsoft 的加密服务提供商 - 因此，一旦重新启动，使用 CSP 驱动程序运行程序并打开卡，它就会与 Windows 一起简化。在通用配置文件下，会出现一个以前没有的按钮！“注册证书”。是的，该按钮将使用 Windows 证书管理器注册您的证书，让它知道私钥在卡上。 然后关闭卡或程序（因为如果它被另一个程序打开，signtool.exe 无法读取它）。 然后返回 signtool.exe 并像以前一样运行它。代码：已签名。    由   提交  /u/tanjera   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fsb1nl/instructions_for_using_windows_signtoolexe_w/</guid>
+      <pubDate>Sun, 29 Sep 2024 18:24:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elastic 创始人在专有化四年后重返开源</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fsayrn/elastic_founder_on_returning_to_open_source_four/</link>
+      <description><![CDATA[        提交人    /u/Franco1875   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fsayrn/elastic_founder_on_returning_to_open_source_four/</guid>
+      <pubDate>Sun, 29 Sep 2024 18:20:57 GMT</pubDate>
+    </item>
     <item>
       <title>Jikken：支持源代码控制和 CI/CD 的 API 测试工具（Rust）</title>
       <link>https://www.reddit.com/r/opensource/comments/1fs8ilp/jikken_an_api_testing_tool_supporting_source/</link>
@@ -64,7 +78,7 @@
     <item>
       <title>开源开发者应该学习设计</title>
       <link>https://www.reddit.com/r/opensource/comments/1frsw2i/open_source_developers_should_learn_design/</link>
-      <description><![CDATA[UI 和 UX 是许多 FOSS 项目最缺乏的部分，它阻碍了许多开源项目的发展。许多程序主要或仅由开源爱好者使用，而不是专业人士或业余爱好者使用。因此，买不起专有软件的人更愿意盗版它们，而不是使用 FOSS 替代品。确实没有多少开源项目具有良好的设计和经过深思熟虑的用户体验（也是用户真正需要的功能）。 Blender 花了十多年的时间才最终决定并重写了 UI，此后近十年后，它在改进其 UI（~2013，2.49 vs 2.5）后开始流行起来，使其更易于理解和使用，并在添加了大量请求或需要的功能（如实时渲染）后第二次流行起来（2019，2.8）。然而，GIMP 仍然无法使用，只有赞美它或说每天都使用它的人不是设计师，或者只是开源爱好者，因为糟糕的 UI 和糟糕的 UX。 我知道我会因为这篇文章而遭到很多仇恨，但我不在乎。我只是希望社区开始了解界面和用户体验的重要性。您可以学习 UI 设计、产品和 UX 设计，或吸引设计师为开源项目做出贡献。是的，开源开发人员已经有很多事情要做，但不妨开始学习，并通过不投入更多时间而改进东西，而是做一些不同的事情，以不同的方式思考，拥有知识而不是猜测。当然，这可能不会有太大变化，特别是在开始的时候，但对于整个社区来说，这将是朝着正确方向迈出的一小步。 UI 并不意味着美学或美感，而是可用性、清晰度、无阻碍性。 UX 并不意味着拥有大量的功能，而只是一些使体验更简单、更容易的功能，甚至可能删除一些功能。另外，我并不是说 UIUX 是最重要的，它肯定不是。 开发人员不需要创建数百个设计概念，进行 UX 研究和访谈，创建复杂的设计系统以及所有其他一切。开发人员已经设计了程序，考虑了功能，创建了程序工作流程，并通过思考、猜测和依靠直觉以他们认为最好的方式去做。了解基础知识、基础到中级设计可以消除早期的错误、猜测、额外的计划、重写，以及花费数小时思考如何做某事。这对于大多数情况来说已经足够了，不需要专门的 UIUX 设计师或深厚/高级知识。达到 70% 是巨大的。 这里有一个免费资源，你可以从这里开始：https://www.uxdatabase.io 关于 Blender 的 UI 的讨论，它把它变成了今天的样子：https://youtu.be/prD6BFYIWRY    提交人    /u/khronoblakov   [link] [评论]]]></description>
+      <description><![CDATA[UI 和 UX 是许多 FOSS 项目最缺乏的部分，它阻碍了许多开源项目的发展。许多程序主要或仅由开源爱好者使用，而不是专业人士或业余爱好者使用。因此，买不起专有软件的人更愿意盗版它们，而不是使用 FOSS 替代品。确实没有多少开源项目具有良好的设计和经过深思熟虑的用户体验（也是用户真正需要的功能）。 Blender 花了十多年的时间才最终决定并重写了 UI，此后近十年后，它在改进其 UI（~2013，2.49 vs 2.5）后开始流行起来，使其更易于理解和使用，并在添加了大量请求或需要的功能（如实时渲染）后第二次流行起来（2019，2.8）。然而，GIMP 仍然无法使用，只有赞美它或说每天都使用它的人不是设计师，或者只是开源爱好者，因为糟糕的 UI 和糟糕的 UX。 我知道我会因为这篇文章而遭到很多仇恨，但我不在乎。我只是希望社区开始了解界面和用户体验的重要性。您可以学习 UI 设计、产品和 UX 设计，或吸引设计师为开源项目做出贡献。是的，开源开发人员已经有很多事情要做，但不妨开始学习，并通过不投入更多时间而改进东西，而是做一些不同的事情，以不同的方式思考，拥有知识而不是猜测。当然，这可能不会有太大变化，特别是在开始的时候，但对于整个社区来说，这将是朝着正确方向迈出的一小步。 UI 并不意味着美学或美感，而是可用性、清晰度、无阻碍性。 UX 并不意味着功能过多，只是一些使体验更简单、更容易的功能，甚至可能删除一些功能。另外，我并不是说 UIUX 是最重要的，它肯定不是。 开发人员不需要创建数百个设计概念，进行 UX 研究和访谈，创建复杂的设计系统，以及其他一切。开发人员已经设计了程序，考虑了功能，创建了程序工作流程，并通过思考、猜测和依靠直觉以他们认为最好的方式进行。了解基础知识、基础到中级设计可以消除早期的错误、猜测、额外的计划、重写，花费数小时思考如何做某事。对于大多数情况来说，这就足够了，不需要专门的 UIUX 设计师、深厚/高级知识或额外的工作量，只需用获得的知识做你已经做过的事情。这将使大多数项目能够实现大部分目标。而且达到 70% 已经是巨大的进步了。 这里有一个免费资源，你可以从这里开始：https://www.uxdatabase.io 关于 Blender 的 UI 的讨论，它使它变成了今天的样子：https://youtu.be/prD6BFYIWRY    提交人    /u/khronoblakov   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1frsw2i/open_source_developers_should_learn_design/</guid>
       <pubDate>Sun, 29 Sep 2024 01:06:47 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[        提交人    /u/Wervice   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1frlnhj/test_releasing_zentrox_simple_home_lab_device/</guid>
       <pubDate>Sat, 28 Sep 2024 19:08:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>您能分享一个 Github 上公开提供的优秀路线图的示例吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1frjenb/can_you_share_an_example_of_a_great_publicly/</link>
-      <description><![CDATA[嗨， 对于从事开源项目的项目经理，您是否有几个直接在 Github 中使用的出色路线图示例？或者您是否认为 Github 的“项目”功能有限，无法创建良好的路线图，而您更愿意与其他产品集成？ 这是一个随机示例，但我正在寻找更好的东西：https://github.com/orgs/fonoster/projects/9    提交人    /u/canarysplit   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1frjenb/can_you_share_an_example_of_a_great_publicly/</guid>
-      <pubDate>Sat, 28 Sep 2024 17:27:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找 Java 或 Javascript/Typescript 项目</title>
-      <link>https://www.reddit.com/r/opensource/comments/1frj75z/looking_for_projects_in_java_or/</link>
-      <description><![CDATA[我是一名拥有 3 年经验的软件工程师，我希望为 Java、Javascript/Typescript 中的一些开源项目做出贡献。 我在 Github 上搜索过，但要么 repos 不经常更新，要么最近没有太多问题。 如果您正在或知道任何需要贡献者的项目，请随时联系我。我很乐意帮助修复错误、添加新功能或完成任何其他需要完成的工作。 谢谢    提交人    /u/iibracool   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1frj75z/looking_for_projects_in_java_or/</guid>
-      <pubDate>Sat, 28 Sep 2024 17:17:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
