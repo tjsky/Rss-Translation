@@ -4,7 +4,49 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 30 Sep 2024 15:16:53 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 18:22:21 GMT</lastBuildDate>
+    <item>
+      <title>如果我们使用 TypeScript，那么使用 Javascript 还有什么意义呢！我们可以选择 C# asp.net。</title>
+      <link>https://www.reddit.com/r/programming/comments/1ft25zv/if_we_use_typescript_then_whats_the_point_of/</link>
+      <description><![CDATA[  由    /u/LevelCarry199  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ft25zv/if_we_use_typescript_then_whats_the_point_of/</guid>
+      <pubDate>Mon, 30 Sep 2024 18:04:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>9 月份新增网页平台</title>
+      <link>https://www.reddit.com/r/programming/comments/1ft23yh/new_to_the_web_platform_in_september/</link>
+      <description><![CDATA[  由    /u/feross  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ft23yh/new_to_the_web_platform_in_september/</guid>
+      <pubDate>Mon, 30 Sep 2024 18:01:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要害怕重新发明轮子</title>
+      <link>https://www.reddit.com/r/programming/comments/1ft0lja/dont_be_afraid_to_reinvent_the_wheel/</link>
+      <description><![CDATA[  由    /u/BotBarrier  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ft0lja/dont_be_afraid_to_reinvent_the_wheel/</guid>
+      <pubDate>Mon, 30 Sep 2024 17:00:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要试图正确</title>
+      <link>https://www.reddit.com/r/programming/comments/1fszft0/stop_trying_to_be_right/</link>
+      <description><![CDATA[  由    /u/sidwyn  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1fszft0/stop_trying_to_be_right/</guid>
+      <pubDate>Mon, 30 Sep 2024 16:13:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>可以将任何 AST 重构为纯前缀或后缀执行吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1fsyihi/can_any_ast_be_refactored_to_a_purely_prefix_or/</link>
+      <description><![CDATA[所以，我一直把编写编程语言当做业余爱好。其实没什么，但简而言之，任何程序都可以用中缀、前缀或后缀格式来表达。运行时，所有代码都以后缀执行。 我想知道是否有任何代码无法重构以运行后缀？ 我之所以想知道这一点，是因为我一直在考虑类型和内存安全。不管程序是如何编译的，如果 AST 可以重构为后缀格式，那么就更容易知道某些东西是否已定义且处于有效状态。 或者相反，如果设为前缀，然后使用组合器抽象出变量范围，则可以将数据的状态和有效性作为前瞻进行验证。 这样的检查将以三种格式监视变量：定义、域和范围。编译器可以在编译时执行这些操作。  我正在学习后缀检查，因为这样大部分工作就只需要监控堆栈的状态。这似乎比 lambda 抽象评估更容易。     提交人    /u/maxjmartin   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1fsyihi/can_any_ast_be_refactored_to_a_purely_prefix_or/</guid>
+      <pubDate>Mon, 30 Sep 2024 15:36:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>超越多核并行：使用 SIMD 加快 Mandelbrot 速度</title>
+      <link>https://www.reddit.com/r/programming/comments/1fsyh5x/beyond_multicore_parallelism_faster_mandelbrot/</link>
+      <description><![CDATA[  由    /u/itamarst  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1fsyh5x/beyond_multicore_parallelism_faster_mandelbrot/</guid>
+      <pubDate>Mon, 30 Sep 2024 15:35:09 GMT</pubDate>
+    </item>
     <item>
       <title>广播还是不广播：微妙的视角</title>
       <link>https://www.reddit.com/r/programming/comments/1fsvi3a/to_broadcast_or_not_to_broadcast_a_nuanced/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[  由    /u/inelp  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1fsqiyw/productive_developer_workflow_with_tmux_vim_and/</guid>
       <pubDate>Mon, 30 Sep 2024 08:14:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>保护你的微服务：综合指南</title>
-      <link>https://www.reddit.com/r/programming/comments/1fsq2g2/securing_your_microservices_a_comprehensive_guide/</link>
-      <description><![CDATA[  由    /u/InspectionSpirite  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1fsq2g2/securing_your_microservices_a_comprehensive_guide/</guid>
-      <pubDate>Mon, 30 Sep 2024 07:38:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Godot 用于应用程序开发</title>
-      <link>https://www.reddit.com/r/programming/comments/1fspqic/godot_for_app_development/</link>
-      <description><![CDATA[  由    /u/Wor_king2000  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1fspqic/godot_for_app_development/</guid>
-      <pubDate>Mon, 30 Sep 2024 07:12:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>建筑现代化 • Nick Tune & Eduardo da Sliva</title>
-      <link>https://www.reddit.com/r/programming/comments/1fspnq2/architecture_modernization_nick_tune_eduardo_da/</link>
-      <description><![CDATA[  由    /u/goto-con  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1fspnq2/architecture_modernization_nick_tune_eduardo_da/</guid>
-      <pubDate>Mon, 30 Sep 2024 07:07:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 React 中编写代码时可以遵循的一些好技巧</title>
-      <link>https://www.reddit.com/r/programming/comments/1fsoblx/some_good_tips_to_follow_on_writing_code_in_react/</link>
-      <description><![CDATA[  由    /u/freakma-shadow  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1fsoblx/some_good_tips_to_follow_on_writing_code_in_react/</guid>
-      <pubDate>Mon, 30 Sep 2024 05:31:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用 Google Gemini AI 随机生成网站登录页面（第一部分）</title>
-      <link>https://www.reddit.com/r/programming/comments/1fsnzsx/how_to_randomly_generate_a_website_landing_page/</link>
-      <description><![CDATA[大家好， 我正在尝试使用 google Gemini AI API 随机生成一个网站登录页面。这是一个有趣的附带项目。它涉及大量的反复试验。我正在尝试撰写一系列文章来记录整个过程。这是一个链接， https://uxplanet.org/how-to-randomly-generate-a-website-landing-page-with-google-gemini-ai-747bdf1c23af 已更新。我最近偶然发现了在提示中使用模式作为文本，我尝试在我的应用程序中实现它，这对我的应用程序来说是一个很好的补充。  这是本文的链接，https://medium.com/@xianli_74374/generate-structured-output-with-the-gemini-api-505a337aa450 我真诚地希望得到您的想法和见解。或者任何关于我的项目的想法。谢谢！     提交人    /u/Pipe-Silly   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1fsnzsx/how_to_randomly_generate_a_website_landing_page/</guid>
-      <pubDate>Mon, 30 Sep 2024 05:08:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 MirageJS 模拟 React Native 应用中 API 调用</title>
-      <link>https://www.reddit.com/r/programming/comments/1fsnkjp/using_miragejs_to_mock_api_calls_in_a_react/</link>
-      <description><![CDATA[  由    /u/TheLostWanderer47  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1fsnkjp/using_miragejs_to_mock_api_calls_in_a_react/</guid>
-      <pubDate>Mon, 30 Sep 2024 04:41:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
