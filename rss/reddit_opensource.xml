@@ -4,7 +4,35 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 29 Sep 2024 21:14:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 01:13:06 GMT</lastBuildDate>
+    <item>
+      <title>什么应该开源/什么应该变得更加用户友好？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fsiizy/what_should_be_made_open_source_what_should_be/</link>
+      <description><![CDATA[我正在为人民互联网开发 FOSS 软件，我希望听到大家对面向用户的免费软件的任何想法。我通常寻找较小的在线软件建议而不是大型软件建议，但任何建议都有帮助。    由   提交  /u/ThankYouNeutronix_02   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fsiizy/what_should_be_made_open_source_what_should_be/</guid>
+      <pubDate>Mon, 30 Sep 2024 00:05:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Open-core真的是一种“扭曲的生产模式”吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fsg4mq/is_opencore_really_a_twisted_production_model/</link>
+      <description><![CDATA[我是开源图表工具 Isoflow 的创建者和维护者。 我于一年多前的 2023 年创建了我的 repo。实际上，早在 2021 年，我就编写了 Isoflow 的第一个版本作为闭源项目，但是当代码变得太复杂且难以扩展时，我决定在 MIT 许可下从头开始重建它。 到目前为止，该 repo 已有大约 200 多颗星，我目前通过在 isoflow.io 上提供托管版本，从我的工作中赚取了非常少的收入（不幸的是，还远远不够支付账单，但我相信它有很大的潜力）。 从一开始，开源的想法就是回馈 OSS 社区（我以前从未参与过 OSS，这似乎是一个很好的贡献机会）。我还希望让社区参与到项目的发展方向，让更多人使用它，当然，也希望吸引一些对付费版本的关注。  这个项目花费了我很多钱；我在 2023 年辞去了工作，花了 6 个月的时间从事这个项目。我耗尽了我的积蓄和精力，才让它成为 FOSS。我从来没有对外部贡献抱有太大的期望，但在近 500 次提交中，可能只有不到 10 次来自社区。  我正试图在 Isoflow 上建立一个可持续发展的业务，这样我就可以有效地全职从事我真正喜欢的事情（并实现我的“ikigai”）。完全开源有一些明显的商业负面影响，例如，它让玩家 2 更容易进入游戏，而且更难要求人们为已经免费提供的东西付费。  这时，我开始寻找更复杂的方法来将我的 OSS 项目货币化。就在那时，我偶然发现了开放核心模型，我立即认为它非常适合我的情况。使用开放核心，我可以将我目前的所有工作作为 Isoflow 的 OSS 版本（即“社区版”）提供，同时保留一组高级功能作为付费版本。我们的想法是，新功能最终会在 12 个月后进入社区版。 这听起来很适合我的情况……直到我读到 2019 年开源倡议博客上的一篇文章（https://opensource.org/blog/open-source-in-2019）。在书中，作者将开放核心称为“扭曲的生产模式”，主要是因为它阻碍了开放协作和设计。 在我看来，作者过于浪漫化一个 100% 开放协作是理想的世界，也许很大程度上是因为看到太多次大公司利用社区贡献作为免费劳动力，将其注入他们的专有软件（我说的就是 Hashicorp）。我在一定程度上同意，是的，开放核心确实意味着我预先定义了项目的方向，但现实，我的现实，是在将近一年半的时间里，我把 99% 的总精力投入到我的小项目中，我已经完成了大部分必要的架构和设计思考，此外，我还在做必要的市场调查，以便做出更明智的决定，决定将项目带向何方。我现在的想法是，我该如何推进这个项目。要做到这一点，我需要花更多的时间，要做到这一点，我需要让它变得如此有价值，以至于人们愿意为它花钱，要做到这一点，我需要在 FOSS 和商业模式之间找到更好的平衡。我相信开放核心是实现这一目标的方法。 你怎么看？有没有比开放核心更好的选择？    提交人    /u/markmanx   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fsg4mq/is_opencore_really_a_twisted_production_model/</guid>
+      <pubDate>Sun, 29 Sep 2024 22:07:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>用户界面糟糕的软件示例</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fsfvsj/examples_of_software_with_terrible_ui/</link>
+      <description><![CDATA[作为学习课程的一部分，我必须选择一个具有“糟糕”UI 的应用程序，并使用 Figma 重新设计它以改善用户体验。有人对我可以选择什么有什么建议吗？它可以是移动或桌面应用程序，但它应该在 Android 或 Windows 上运行。 /edit：它的范围也不应太大。像 Gimp 这样的东西太复杂了。理想情况下是一些鲜为人知的东西。    提交人    /u/Letarking   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fsfvsj/examples_of_software_with_terrible_ui/</guid>
+      <pubDate>Sun, 29 Sep 2024 21:56:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们是否缺少一个开源社区？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fsft0p/are_we_missing_a_community_for_open_source/</link>
+      <description><![CDATA[我热爱开源，我是一名程序员，我不得不说，如果没有开源，我们就不会成为程序员。开发者社区是独一无二的。在资本主义世界里，我们生活的唯一一个人们真正愿意互相帮助而不求个人利益的地方就是教会和开源。 在教会里，我作为一名东正教徒待了一段时间，我总是看到人们出于纯粹的爱而互相帮助。我看到的程序员也是如此。这就是编程的美妙之处，也是我认为它是世界上最好的工作的原因。 开源是惊人的，Github 是代码的方城，它托管着数百万甚至数十亿行开源软件。 然而，除了 Github 之外，我还没有看到任何其他可以发现很酷的新开源项目并为它们做出贡献的地方。即使 Github 有趋势页面，但即使在那里，你也看不到很多项目或正在崛起的项目。您只会看到拥有数千颗星和贡献的顶级 Github 项目。 对于 Indie Hackers 来说，有大量不太知名的小型项目，我们可以轻松地做出贡献并提供帮助。 这是一个尚未实现的想法吗？Product Hunt 和 Github 的混合体，您可以贡献或发现很酷的项目和问题。使用先进的算法，它不仅会推荐大型存储库，还会推荐可能值得一看的小型存储库。 您知道任何这样做的网站吗？只有我在寻找类似的东西吗？    提交人    /u/TheDeveloper12345   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fsft0p/are_we_missing_a_community_for_open_source/</guid>
+      <pubDate>Sun, 29 Sep 2024 21:53:02 GMT</pubDate>
+    </item>
     <item>
       <title>使用 Windows signtool.exe 和 proCertum CardManager 的说明</title>
       <link>https://www.reddit.com/r/opensource/comments/1fsb1nl/instructions_for_using_windows_signtoolexe_w/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[UI 和 UX 是许多 FOSS 项目最缺乏的部分，它阻碍了许多开源项目的发展。许多程序主要或仅由开源爱好者使用，而不是专业人士或业余爱好者使用。因此，买不起专有软件的人更愿意盗版它们，而不是使用 FOSS 替代品。确实没有多少开源项目具有良好的设计和经过深思熟虑的用户体验（也是用户真正需要的功能）。 Blender 花了十多年的时间才最终决定并重写了 UI，此后近十年后，它在改进其 UI（~2013，2.49 vs 2.5）后开始流行起来，使其更易于理解和使用，并在添加了大量请求或需要的功能（如实时渲染）后第二次流行起来（2019，2.8）。然而，GIMP 仍然无法使用，只有赞美它或说每天都使用它的人不是设计师，或者只是开源爱好者，因为糟糕的 UI 和糟糕的 UX。 我知道我会因为这篇文章而遭到很多仇恨，但我不在乎。我只是希望社区开始了解界面和用户体验的重要性。您可以学习 UI 设计、产品和 UX 设计，或吸引设计师为开源项目做出贡献。是的，开源开发人员已经有很多事情要做，但不妨开始学习，并通过不投入更多时间而改进东西，而是做一些不同的事情，以不同的方式思考，拥有知识而不是猜测。当然，这可能不会有太大变化，特别是在开始的时候，但对于整个社区来说，这将是朝着正确方向迈出的一小步。 UI 并不意味着美学或美感，而是可用性、清晰度、无阻碍性。 UX 并不意味着功能过多，只是一些使体验更简单、更容易的功能，甚至可能删除一些功能。另外，我并不是说 UIUX 是最重要的，它肯定不是。 开发人员不需要创建数百个设计概念，进行 UX 研究和访谈，创建复杂的设计系统，以及其他一切。开发人员已经设计了程序，考虑了功能，创建了程序工作流程，并通过思考、猜测和依靠直觉以他们认为最好的方式进行。了解基础知识、基础到中级设计可以消除早期的错误、猜测、额外的计划、重写，花费数小时思考如何做某事。对于大多数情况来说，这就足够了，不需要专门的 UIUX 设计师、深厚/高级知识或额外的工作量，只需用获得的知识做你已经做过的事情。这将使大多数项目能够实现大部分目标。而且达到 70% 已经是巨大的进步了。 这里有一个免费资源，你可以从这里开始：https://www.uxdatabase.io 关于 Blender 的 UI 的讨论，它使它变成了今天的样子：https://youtu.be/prD6BFYIWRY    提交人    /u/khronoblakov   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1frsw2i/open_source_developers_should_learn_design/</guid>
       <pubDate>Sun, 29 Sep 2024 01:06:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源软件如何改变了你的生活？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1frs6yq/how_are_open_source_software_changed_your_life/</link>
-      <description><![CDATA[我先来。 我大约在 11 岁的时候学会了编码（我现在 40 岁了）。图书馆里，坐在我旁边的人在写 JavaScript，我问那是什么，然后我们就开始写了。从那时起，我进入了 IRC 的世界，开始问东西是如何工作的。然后我开始设置自己的 IRCd 服务器、Web 服务器等，以了解东西是如何工作的。这一切都让我接触到了 Linux，当然还有 GNU，当然还有开源的概念。 随着时间的推移，我因为开源软件而获得了 IT 工作。最终，我成为了一名 Linux 系统工程师，这让我加入了 FOSDEM。我于 2014 年加入，在那里我遇到了我现在的妻子（她不是 IT 行业的 - 我们在旅馆认识的。）如果不是因为开源，我现在就不会住在澳大利亚了。这是一段相当漫长的旅程。 开源对你的生活有什么影响？我很想听听那些因为开源软件而改变人生的人的故事。我正在制作一部关于开源软件对现实生活的影响的纪录片，而不是只关注全球影响，我认为很多人都知道这一点。 我期待着阅读您的回复。    提交人    /u/opsfactoryau   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1frs6yq/how_are_open_source_software_changed_your_life/</guid>
-      <pubDate>Sun, 29 Sep 2024 00:28:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>从事我热衷的 FOSS 项目 - Darnahi</title>
-      <link>https://www.reddit.com/r/opensource/comments/1frr9zk/working_on_a_foss_project_i_am_passionate_about/</link>
-      <description><![CDATA[Darnahi v2.3 是一款个人健康智能应用，可让您将健康数据存储在计算机上，并在本地运行 AI 工具以生成个人见解。您的数据永远不会离开您的计算机。它是：1. 自托管（这意味着您必须在自己的 Linux 计算机上运行/安装它，并且您的所有数据都保留在您的计算机上；您的数据不会离开您的计算机，并且安全性受您自己计算机的安全性限制），2. 开源（永远免费） 要求：Linux Ollama； mistral-nemo 模型（需要下载） 要获得功能齐全的应用程序，请转到此处并按照说明操作： https://github.com/seapoe1809/Health_server 新功能：1.更安全 2.使用您的健康数据做更多事情 2.询问以结构化和非结构化 RAG 存储的医疗记录 3.本地运行 LLM 和本地运行 darnahi 服务器#privacy 4.更好的 AI 引擎，使用 NLP 分析您的健康文件以创建健康筛查建议（基于 USPTF）、wordclouds、darnabot 的 RAG 5.症状记录器（可选使用 AI 生成注释）用于存储在 darnahi 文件服务器中）。如果您愿意，可以以 pdf 的形式与您的提供商共享 5. 更全面的 Chartit 以 FHIR R4 格式记录您的基本信息 6. 能够查看医疗 dicom 图像文件、xml 文件、适合您年龄的健康建议 7. 能够安全地远程加密和压缩文件 8. 新的 AI 模块 a) 体重/血压/血糖/AI 水追踪器 b) IBS 模块 - 追踪您的饮食和排便习惯；AI FODMAP 引擎；锻炼来管理您的 IBS，了解您的 IBS 和其他提示 c) 免疫护照 - 追踪和记录您的免疫接种；AI 旅行顾问；旅行地图；和其他提示 查看视频：对于 Darnahi Landing：darnahi_landing.webm 对于 Darnabot：darnabot2.webm 对于可选模块 https://nostrcheck.me/media/49a2ed6afaabf19d0570adab526a346266be552e65ccbd562871a32f79df865d/ea9801cb687c5ff0e78d43246827d4f1692d4bccafc8c1d17203c0347482c2f9.mp4 如需演示 UI 体验，请单击此处（功能已关闭）：https://seapoe1809.pythonanywhere.com/login pwd- health    提交人    /u/TestPilot1980   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1frr9zk/working_on_a_foss_project_i_am_passionate_about/</guid>
-      <pubDate>Sat, 28 Sep 2024 23:40:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>FOSS：可从任何互联网媒体中去除噪音/音乐/效果的声音提取器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1frqldq/foss_vocal_extractor_with_noisemusiceffects/</link>
-      <description><![CDATA[我最近开源了一个工具，它可以从任何 YouTube 视频（以及其他平台）中提取人声/语音。它能够在不到一分钟的时间内过滤和增强 10 分钟视频的音频。根据 MIT 许可证发布这里，已 dockerized 供您试用。 感谢 DeepFilterNet，它的音频质量非常好，我设法显著提高了性能。非常希望您能做出贡献！我的目标是为所有人提供这个免费工具，无论是用于实时供稿还是离线分析。感谢您的反馈    提交人    /u/Apart-Status9082   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1frqldq/foss_vocal_extractor_with_noisemusiceffects/</guid>
-      <pubDate>Sat, 28 Sep 2024 23:05:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>测试发布 Zentrox：简单的家庭实验室设备管理 (Rust)</title>
-      <link>https://www.reddit.com/r/opensource/comments/1frlnhj/test_releasing_zentrox_simple_home_lab_device/</link>
-      <description><![CDATA[        提交人    /u/Wervice   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1frlnhj/test_releasing_zentrox_simple_home_lab_device/</guid>
-      <pubDate>Sat, 28 Sep 2024 19:08:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
