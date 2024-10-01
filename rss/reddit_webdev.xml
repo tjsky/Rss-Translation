@@ -4,7 +4,42 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 01 Oct 2024 01:16:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 03:29:38 GMT</lastBuildDate>
+    <item>
+      <title>从网站访问或下载图像</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ftea39/accessing_or_downloading_images_from_a_website/</link>
+      <description><![CDATA[大家晚安。首先，希望这是发布此帖子的正确地方。我以前看到过一些类似的帖子，但不太正确。 所以，有一个较旧的 fanarts 网站（可追溯到 2008 年），我过去经常访问，直到几个月前所有子页面都无法访问。图像仍然全部上传到此网站服务器。所以，我想知道是否有任何方法可以下载上传到该网站的图像，或者访问索引目录以允许一定程度地浏览该网站。 再次抱歉，如果这是错误的 subreddit 来询问这个问题，并提前感谢您。    提交人    /u/yukeee   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ftea39/accessing_or_downloading_images_from_a_website/</guid>
+      <pubDate>Tue, 01 Oct 2024 03:08:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>现代（JS）网络趋势对于制作高效的大型项目来说是垃圾</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fte7mi/modern_js_web_trends_are_garbage_for_making/</link>
+      <description><![CDATA[我知道我只是一个普通人，这是后端开发人员的普遍看法，但我正在为一个体面的 webapp + API 做后端。我编写服务器是为了提高效率，一个整体来支持有限数量的预期用户，通过本地数据库提供快速体验，并最大限度地降低托管成本。 我真的很喜欢 React 函数式设计，但我很想回到用 webpack 捆绑在一起的一堆 HTML 模板——当我看到这些为 SSR 设计的框架时，从我的角度来看，这至少对我的项目毫无意义。为什么我要付费渲染非静态页面以供潜在机器人访问，为什么我通常不想要 SSG 来进行 SEO？而且，对小型 JSON 对象的获取请求比大型渲染包对网络的使用要轻得多。更不用说 SSR 服务似乎甚至专注于边缘上的小型应用程序，这些应用程序仍然有启动时间，与数据库在物理上较远，并且通常更昂贵。并不是说没有显示需要 SEO 的实时信息的应用程序，带有缓存的 SSR 会很有用，但我觉得这种情况有点罕见。 我不同意尝试混合服务器和客户端，现实是服务器和客户端的关注点非常不同，应该以非常不同的方式对待。对服务器的每个请求都可能是敌对的，通常除非出现问题，否则对客户端的响应是安全的 - 所以在我看来，开发人员应该很好地了解对其服务器的每个请求的生命周期，我觉得 SSR 可以隐藏其中的一些并导致潜在的漏洞（即使只是在配置错误的情况下）。 所以，我选择不使用众多 SSR 工具中的一种，而我看到的其他工具似乎专注于 SPA。我为什么要使用 SPA？ 为什么我需要路由 /login 客户端和服务器端才能提供 index.html，为什么不直接使用 URL 来实现其实际用途并分离不同的上下文，而不是使用大量 JS 来查看主页。我确实看到了在 URL 中存储一些客户端状态的巨大价值，但在我看来，这对于分离内部菜单选项卡比整个单独的路径更好（尽管这当然是主观的）。看到像有人问“如何在 React 中制作多页应用程序？”并被告知“制作一个模仿多页功能的单页应用程序”这样的事情，我感到很荒谬。 /rant    提交人    /u/Aidan_Welch   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fte7mi/modern_js_web_trends_are_garbage_for_making/</guid>
+      <pubDate>Tue, 01 Oct 2024 03:04:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Radix-UI 存在很多问题，我不愿看到它被到处炒作。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fte3a0/radixui_has_a_lot_of_issues_and_i_hate_seeing_it/</link>
+      <description><![CDATA[总体而言，我对 Radix-ui 以及 Shadcn 感到很失望。说实话，根据网上的炒作，我以为它会是一个很棒的 UI 库，但我在使用它时发现一个又一个令人沮丧的问题。 例如，如果您想在模式（对话框原语）中使用任何原始组件，请准备好查找错误，例如（https://github.com/radix-ui/primitives/issues/1159）。 它还缺少关键组件，例如组合框和自动完成，而这些组件如今在 Web 开发中非常标准。我已经转向 Downshift 来满足这些组件的需求。  我发现了其他问题，现在我记不清了，但我只是好奇社区是否也觉得它很难用，或者这只是一个技能问题？我正在进行的一些项目的最后期限很紧迫，但我真的被一件又一件的小事困扰着。     提交人    /u/smooth_tendencies   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fte3a0/radixui_has_a_lot_of_issues_and_i_hate_seeing_it/</guid>
+      <pubDate>Tue, 01 Oct 2024 02:57:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>随着人工智能的兴起，到 2024 年我是否适合成为一名 Web 开发人员？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ftdghl/am_i_cooked_as_a_web_developer_in_2024_with_ai_on/</link>
+      <description><![CDATA[嗨，开发者们， 我有点担心自己作为 Web 开发者的职业发展轨迹。随着 AI 变得越来越强大，我想知道我的 HTML、CSS 和 JavaScript 技能是否足以让我保持相关性。 我在这个行业已经工作了几年，但我目前的工作并没有给我带来太多的成长机会。如果我只精通基础知识，我觉得找一份新工作会很难。 你怎么看？我应该专注于学习新的前端框架，比如 React 或 Vue 吗？还是应该使用 Python 或 Node.js 等语言深入研究后端开发？任何建议都将不胜感激！    提交人    /u/bignotch   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ftdghl/am_i_cooked_as_a_web_developer_in_2024_with_ai_on/</guid>
+      <pubDate>Tue, 01 Oct 2024 02:24:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>公司通常使用什么堆栈？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ftcfxk/what_stack_do_companies_usually_use/</link>
+      <description><![CDATA[title    由    /u/tinker_b3lls 提交   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ftcfxk/what_stack_do_companies_usually_use/</guid>
+      <pubDate>Tue, 01 Oct 2024 01:32:56 GMT</pubDate>
+    </item>
     <item>
       <title>CSS 样式不适用于 ID/Class，但适用于元素</title>
       <link>https://www.reddit.com/r/webdev/comments/1ftb2ei/css_styling_doesnt_work_with_idclass_but_works/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[我终于受够了其他几个主要挑战网站的付费获胜机制，所以我决定创建自己的网站。 后端应该完成了 80% 左右，我准备邀请几个 (3-5) 人来测试网站机制。前端 UI/UX 由后端工程师 (我) 完成，后端完成后将几乎完全进行彻底改造，是的，我知道它很丑陋。 该网站可用，所以我正在寻找愿意测试、打破常规并对出现的机制和问题提供反馈的人。 如果您想测试，请给我发送 DM，我会提供所有信息。    提交人    /u/allbyoneguy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ft8f34/working_on_a_photography_challenge_website/</guid>
       <pubDate>Mon, 30 Sep 2024 22:22:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能现在可以生成贝塞尔曲线</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ft8bp8/ai_can_now_generate_bezier_curves/</link>
-      <description><![CDATA[  由    /u/vcremonez  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ft8bp8/ai_can_now_generate_bezier_curves/</guid>
-      <pubDate>Mon, 30 Sep 2024 22:17:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Safari 技术预览版 204 发行说明</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ft89nm/release_notes_for_safari_technology_preview_204/</link>
-      <description><![CDATA[  由    /u/feross  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ft89nm/release_notes_for_safari_technology_preview_204/</guid>
-      <pubDate>Mon, 30 Sep 2024 22:15:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>无法编译 ts 文件并运行 express 服务器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ft7ov1/cant_compile_ts_file_to_and_run_the_express_server/</link>
-      <description><![CDATA[嘿，我只是一个新手，正在做一个项目。事情是这样的，我在 .ts 中编写了路线和所有后端，现在将其编译为 js 后，它就是无法运行。它说找不到模块并抛出其他错误。如果有人能帮助我，那将会很有帮助，因为我已经被困了很长时间了。    提交人    /u/Interesting_River634   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ft7ov1/cant_compile_ts_file_to_and_run_the_express_server/</guid>
-      <pubDate>Mon, 30 Sep 2024 21:50:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>无法选择一个好的域名</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ft774z/cant_pick_a_good_domain/</link>
-      <description><![CDATA[各位，我正在开发一个带有分析二维码自定义重定向等功能的网址缩短器。哪个域名更适合这个功能？tini.ee 还是 urrl.ink？    提交人    /u/MrBilal34   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ft774z/cant_pick_a_good_domain/</guid>
-      <pubDate>Mon, 30 Sep 2024 21:29:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>你的老板是否知道你将一半的任务外包给了 chatgpt？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ft76vp/is_your_boss_aware_of_you_outsourcing_half_of/</link>
-      <description><![CDATA[对我来说，在 JS 或 PHP 中节省的时间简直是疯了。 编辑：您是将节省的时间用于自己，还是为公司完成更多工作？    提交人    /u/I_smell_a_dank_meme   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ft76vp/is_your_boss_aware_of_you_outsourcing_half_of/</guid>
-      <pubDate>Mon, 30 Sep 2024 21:29:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
