@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 04 Oct 2024 06:22:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2024 09:17:34 GMT</lastBuildDate>
+    <item>
+      <title>需要帮助创建和维护开源 chrome 扩展</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fvujny/need_help_in_creating_and_maintaining_open_source/</link>
+      <description><![CDATA[主要功能是自动生成 html 表单数据。需要您的指导和帮助 URL：- https://github.com/pramodsharma1496/FormBot    提交人    /u/Curious_Second4284   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fvujny/need_help_in_creating_and_maintaining_open_source/</guid>
+      <pubDate>Fri, 04 Oct 2024 08:46:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Streamlit 聊天应用程序链接到多个模型。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1fvtwdl/streamlit_chat_app_linked_to_multiple_models/</link>
+      <description><![CDATA[        提交人    /u/-Baloo   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1fvtwdl/streamlit_chat_app_linked_to_multiple_models/</guid>
+      <pubDate>Fri, 04 Oct 2024 07:56:09 GMT</pubDate>
+    </item>
     <item>
       <title>线束设计软件</title>
       <link>https://www.reddit.com/r/opensource/comments/1fvq1b3/harness_design_software/</link>
@@ -85,7 +99,7 @@
     <item>
       <title>PyTraceToIX - 用于调试 lambda、列表推导、方法链和表达式的 Python 表达式跟踪器。</title>
       <link>https://www.reddit.com/r/opensource/comments/1fuvvgg/pytracetoix_a_python_expression_tracer_for/</link>
-      <description><![CDATA[PyTraceToIX 是一个表达式跟踪器，用于调试 lambda、列表推导、方法链和表达式。 代码编辑器无法在表达式、lambda 函数、列表推导和链式方法内设置断点，从而迫使进行重大代码更改才能调试此类代码。 PyTraceToIX 为这个问题提供了一个简单的解决方案。 它的设计很简单，具有易于识别的函数，一旦发现错误就可以将其删除。 PyTraceToIX 有 2 个主要功能：  c__ 捕获表达式输入的输入。例如：c__(x) d__ 显示表达式的结果和所有捕获的输入。例如：d__(c__(x) + c__(y))  以及 2 个可选函数：  init__ 初始化显示格式、输出流和多线程。 t__ 为当前线程定义一个名称。  特点  多线程支持。 简单、简短的极简函数名称。 带有输入跟踪的结果。 可在全局级别和函数级别配置格式。 可配置结果和输入命名。 输出到 stdout 或流。 多个级别。 使用 allow 和 name 回调捕获输入方法。  ​ #!/usr/bin/env python3 from pytracetoix import d__, c__ [x, y, w, k, u] = [1, 2, 3, 4 + 4, lambda x:x] # 表达式 z = x + y * w + (k * u(5)) # 显示没有输入的表达式 z = d__(x + y * w + (k * u(5))) # 输出：# _:`47` # 显示有输入的表达式结果 z = d__(c__(x) + y * c__(w) + (k * u(5))) # 输出：# i0:`1` | i1:`3` | _:`47` # 显示表达式内带有输入的表达式结果 z = d__(c__(x) + y * c__(w) + d__(k * c__(u(5), level=1))) # 输出：# i0:`5` | _:`40` # i0:`1` | i1:`3` | _:`47` # lambda 函数 f = lambda x, y: x + (y + 1) f(5, 6) # 显示 lambda 函数结果和输入 f = lambda x, y: d__(c__(x) + c__(y + 1)) f(5, 6) # 输出：# i0:`5` | i1:`7` | _:`12` # 显示 lambda 函数输入和结果，以及输入和结果名称 f = lambda x, y: d__(c__(x, name=&#39;x&#39;) + c__(y + 1, name=&#39;y+1&#39;), name=&#39;f&#39;) f(5, 6) # 输出：# x:`5` | y+1:`7` | f:`12` # 列表推导式 l = [5 * y * x for x, y in [(10, 20), (30, 40)]] # 显示列表推导式，以及输入和结果名称 l = d__([5 * c__(y, name=f&quot;y{y}&quot;) * c__(x, name=lambda index, _, __: f&#39;v{index}&#39;) for x, y in [(10, 20), (30, 40)]]) # 输出：# y20:`20` | v1:`10` | y40:`40` | v3:`30` | _:`[1000, 6000]` # 如果 `input count` 为 2，则显示表达式 d__(c__(x) + c__(y), allow=lambda data: data[&#39;input_count__&#39;] == 2) # 如果第一个输入值为 10.0，则显示表达式 d__(c__(x) + c__(y), allow=lambda data: data[&#39;i0&#39;] == 10.0) # 如果 `allow_input_count` 为 2，则显示表达式，在这种情况下，如果 `x &gt; 10` d__(c__(x, allow=lambda index, name, value: value &gt; 10) + c__(y), allow=lambda data: data[&#39;allow_input_count__&#39;] == 2) # 如果生成的输出包含文本 10，则显示表达式 d__([c__(x) for x in [&#39;10&#39;, &#39;20&#39;]], before=lambda data: &#39;10&#39; in data[&#39;output__&#39;]) # 如果允许显示，则显示表达式和调用后 `call_after` d__([c__(x) for x in [&#39;10&#39;, &#39;20&#39;]], allow=lambda data: data[&#39;allow_input_count__&#39;] == 2, after=lambda data: call_after(data) if data[&#39;allow__&#39;] else &quot;&quot;) class Chain: def __init__(self, data): self.data = data def map(self, func): self.data = list(map(func, self.data)) return self def filter(self, func): self.data = list(filter(func, self.data)) return self # 具有链式方法的类 Chain([10, 20, 30, 40, 50]).map(lambda x: x * 2).filter(lambda x: x &gt; 70) # 显示结果并捕获映射和过滤输入 d__(Chain([10, 20, 30, 40, 50]).map(lambda x: c__(x * 2)).filter(lambda x: c__(x &gt; 70)).data) # 输出： # i0:`20` | i1:`40` | i2:`60` | i3:`80` | i4:`1​​00` | i5:`False` | i6:`False` | i7:`False` | i8:`True` | i9:`True` | _:`[80, 100]`     提交人    /u/abentofreire   [链接] [评论]]]></description>
+      <description><![CDATA[PyTraceToIX 是一个表达式跟踪器，用于调试 lambda、列表推导、方法链和表达式。 代码编辑器无法在表达式、lambda 函数、列表推导和链式方法内设置断点，从而迫使进行重大代码更改才能调试此类代码。 PyTraceToIX 为这个问题提供了一个简单的解决方案。 它的设计很简单，具有易于识别的函数，一旦发现错误就可以将其删除。 PyTraceToIX 有 2 个主要功能：  c__ 捕获表达式输入的输入。例如：c__(x) d__ 显示表达式的结果和所有捕获的输入。例如：d__(c__(x) + c__(y))  以及 2 个可选函数：  init__ 初始化显示格式、输出流和多线程。 t__ 为当前线程定义一个名称。  特点  多线程支持。 简洁、简短的极简函数名。 带有输入跟踪的结果。 可在全局级别和函数级别配置格式。 可配置结果和输入命名。 输出到 stdout 或流。 多个级别。 使用 allow 和 name 回调捕获输入方法。  ​ #!/usr/bin/env python3 from pytracetoix import d__, c__ [x, y, w, k, u] = [1, 2, 3, 4 + 4, lambda x:x] # 表达式 z = x + y * w + (k * u(5)) # 显示没有输入的表达式 z = d__(x + y * w + (k * u(5))) # 输出：# _:`47` # 显示有输入的表达式结果 z = d__(c__(x) + y * c__(w) + (k * u(5))) # 输出：# i0:`1` | i1:`3` | _:`47` # 显示表达式内带有输入的表达式结果 z = d__(c__(x) + y * c__(w) + d__(k * c__(u(5), level=1))) # 输出：# i0:`5` | _:`40` # i0:`1` | i1:`3` | _:`47` # lambda 函数 f = lambda x, y: x + (y + 1) f(5, 6) # 显示 lambda 函数结果和输入 f = lambda x, y: d__(c__(x) + c__(y + 1)) f(5, 6) # 输出：# i0:`5` | i1:`7` | _:`12` # 显示 lambda 函数输入和结果，以及输入和结果名称 f = lambda x, y: d__(c__(x, name=&#39;x&#39;) + c__(y + 1, name=&#39;y+1&#39;), name=&#39;f&#39;) f(5, 6) # 输出：# x:`5` | y+1:`7` | f:`12` # 列表推导式 l = [5 * y * x for x, y in [(10, 20), (30, 40)]] # 显示列表推导式，以及输入和结果名称 l = d__([5 * c__(y, name=f&quot;y{y}&quot;) * c__(x, name=lambda index, _, __: f&#39;v{index}&#39;) for x, y in [(10, 20), (30, 40)]]) # 输出：# y20:`20` | v1:`10` | y40:`40` | v3:`30` | _:`[1000, 6000]` # 如果 `input count` 为 2，则显示表达式 d__(c__(x) + c__(y), allow=lambda data: data[&#39;input_count__&#39;] == 2) # 如果第一个输入值为 10.0，则显示表达式 d__(c__(x) + c__(y), allow=lambda data: data[&#39;i0&#39;] == 10.0) # 如果 `allow_input_count` 为 2，则显示表达式，在这种情况下，如果 `x &gt; 10` d__(c__(x, allow=lambda index, name, value: value &gt; 10) + c__(y), allow=lambda data: data[&#39;allow_input_count__&#39;] == 2) # 如果生成的输出包含文本 10，则显示表达式 d__([c__(x) for x in [&#39;10&#39;, &#39;20&#39;]], before=lambda data: &#39;10&#39; in data[&#39;output__&#39;]) # 如果允许显示，则显示表达式和调用后 `call_after` d__([c__(x) for x in [&#39;10&#39;, &#39;20&#39;]], allow=lambda data: data[&#39;allow_input_count__&#39;] == 2, after=lambda data: call_after(data) if data[&#39;allow__&#39;] else &quot;&quot;) class Chain: def __init__(self, data): self.data = data def map(self, func): self.data = list(map(func, self.data)) return self def filter(self, func): self.data = list(filter(func, self.data)) return self # 具有链式方法的类 Chain([10, 20, 30, 40, 50]).map(lambda x: x * 2).filter(lambda x: x &gt; 70) # 显示结果并捕获映射和过滤输入 d__(Chain([10, 20, 30, 40, 50]).map(lambda x: c__(x * 2)).filter(lambda x: c__(x &gt; 70)).data) # 输出： # i0:`20` | i1:`40` | i2:`60` | i3:`80` | i4:`1​​00` | i5:`False` | i6:`False` | i7:`False` | i8:`True` | i9:`True` | _:`[80, 100]`     提交人    /u/abentofreire   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fuvvgg/pytracetoix_a_python_expression_tracer_for/</guid>
       <pubDate>Thu, 03 Oct 2024 00:58:18 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[  由    /u/ssddanbrown  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1fuq6ls/common_misconceptions_of_the_agpl/</guid>
       <pubDate>Wed, 02 Oct 2024 20:28:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>这可能是我收到过措辞最严厉的邮件之一。我现在还浑身发抖。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1fupgrn/probably_one_of_the_most_harshly_worded_issues/</link>
-      <description><![CDATA[        由    /u/AmruthPillai 提交   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1fupgrn/probably_one_of_the_most_harshly_worded_issues/</guid>
-      <pubDate>Wed, 02 Oct 2024 19:57:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>支持互联网档案馆保存的民间努力</title>
-      <link>https://www.reddit.com/r/opensource/comments/1fumh8y/grassroots_efforts_to_support_the_internet/</link>
-      <description><![CDATA[草根努力可以通过满足网站的存档需求来支持互联网档案馆。这可以通过将他们与具有专业知识的律师联系起来，以建立与音乐、视频游戏和电影行业的共同点来实现。这种合作确保我们不会失去软件开发历史的宝贵进步，并有助于保存记录各自艺术形式演变的历史音乐和电影。否则，该网站可能会永久关闭，这将是毁灭性的。此外，我们必须加强与企鹅等主要出版商和其他可能试图关闭 Archive.org 的公司的谈判。失去对如此庞大的知识和文化库（尤其是稀有书籍和文本）的访问权，对人类来说将是重大损失。我们必须保护这些资源（其中一些资源已不再印刷），因为限制对知识的访问会阻碍进步。让我们团结起来，为子孙后代保护这个重要的档案馆。    提交人    /u/MisterTTS   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1fumh8y/grassroots_efforts_to_support_the_internet/</guid>
-      <pubDate>Wed, 02 Oct 2024 17:52:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
