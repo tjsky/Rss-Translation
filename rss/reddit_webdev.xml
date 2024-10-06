@@ -3,8 +3,64 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 06 Oct 2024 12:28:29 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
+    <lastBuildDate>Sun, 06 Oct 2024 15:16:04 GMT</lastBuildDate>
+    <item>
+      <title>显然我不被允许通过网络软件赚钱</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fxiqth/apparently_im_not_allowed_to_make_money_from_web/</link>
+      <description><![CDATA[        提交人    /u/TheThingCreator   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fxiqth/apparently_im_not_allowed_to_make_money_from_web/</guid>
+      <pubDate>Sun, 06 Oct 2024 15:14:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>请批评我的简历。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fxibfm/roast_my_resume_please/</link>
+      <description><![CDATA[      https://preview.redd.it/auus1tksg5td1.jpg?width=5100&amp;format=pjpg&amp;auto=webp&amp;s=a69ebefd32fd1f22b8fc22edd35944e0d0b6500c  我从未申请过任何公司，也没有任何作为开发人员的工作经验。 我现在应该开始申请吗？还是我还没有准备好？ 有人说我需要让简历看起来更具视觉吸引力。我应该在简历中添加一些图形来脱颖而出，而不是使用传统的简单布局吗？ 我最近为韩国的外国人制作了一个简单的网站，向他们介绍韩国的交通卡。它值得写在我的简历里吗？我使用了 Next.js、Tailwind CSS 和 JSON。 我离成为一名开发人员还有多远？  很抱歉问了这么多问题，也没有出色的作品可以展示，但请批评我的简历。    提交人    /u/otterinseoul   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fxibfm/roast_my_resume_please/</guid>
+      <pubDate>Sun, 06 Oct 2024 14:55:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要一个简单的聊天机器人来连接后端的 API</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fxhykj/need_a_simple_chatbot_to_connect_with_my_apis_in/</link>
+      <description><![CDATA[这不是自我推销，但我提供了链接来解释到目前为止所做的工作以及我为什么需要帮助。 我们已经建立了一个奖学金 AI 搜索工具 https://www.collegehippo.com/ai-scholarship 它基于 RAG 架构并使用 OpenAI API 构建。 现在，我们希望在网站的其余部分有一个聊天机器人，用户可以在其中询问有关奖学金的问题（首先），然后该聊天窗口应该能够连接到我的 API。简而言之，奖学金 AI 工具将通过网站用作聊天机器人。在第 2 阶段，我们希望这个聊天可以在第三方网站上使用，只需几行简单的代码就可以嵌入其中。  我不想使用现有的无代码机器人网站并支付月费，也不想从头开始开发。  感谢您的帮助。     提交人    /u/skillguru   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fxhykj/need_a_simple_chatbot_to_connect_with_my_apis_in/</guid>
+      <pubDate>Sun, 06 Oct 2024 14:39:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我正在使用 TypeScript 构建 NodeJs 应用程序。我的类型（“模块”）使用的是 ES6+，但 CommonJS 方面存在问题。我该如何修复这个问题？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fxhd63/i_am_building_a_nodejs_application_with/</link>
+      <description><![CDATA[基本上，当我的 typescript 编译时，dist 文件夹中的 index.js 导入了没有 .js 扩展名的程序。这会引发错误，如果我手动添加 .js 扩展名，它就可以正常工作。但每次我运行 npx tsc 时，它都会删除 .js 扩展名，然后我就会收到错误。我该如何修复它？ tsconfig.json ``` { &quot;compilerOptions&quot;: { &quot;target&quot;: &quot;es2016&quot;, &quot;module&quot;: &quot;ESNext&quot;, &quot;rootDir&quot;: &quot;./src&quot;, &quot;outDir&quot;: &quot;./dist&quot;, &quot;esModuleInterop&quot;: true, &quot;forceConsistentCasingInFileNames&quot;: true, &quot;strict&quot;: true, &quot;skipLibCheck&quot;: true }  ``` package.json ``` { &quot;name&quot;: &quot;server&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;main&quot;: &quot;index.js&quot;, &quot;scripts&quot;: { &quot;start&quot;: &quot;nodemon dist/index.js&quot; }, &quot;keywords&quot;: [], &quot;author&quot;: &quot;&quot;, &quot;license&quot;: &quot;ISC&quot;, &quot;description&quot;: &quot;&quot;, &quot;dependencies&quot;: { &quot;dotenv&quot;: &quot;16.4.5&quot;, &quot;express&quot;: &quot;4.21.0&quot;, &quot;nodemon&quot;: &quot;3.1.7&quot;, &quot;pg&quot;: &quot;8.13.0&quot;, &quot;typescript&quot;: &quot;5.6.2&quot; }, &quot;type&quot;: &quot;module&quot;, &quot;devDependencies&quot;: { &quot;@types/express&quot;: &quot;5.0.0&quot;, &quot;@types/node&quot;: &quot;22.7.4&quot;, &quot;@types/pg&quot;: &quot;8.11.10&quot; }  ```    提交人    /u/Intelligent_Will_948   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fxhd63/i_am_building_a_nodejs_application_with/</guid>
+      <pubDate>Sun, 06 Oct 2024 14:11:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为自由网络开发人员进行电子商务/博客开发</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fxgfnd/ecommerceblog_development_as_a_freelance_web_dev/</link>
+      <description><![CDATA[大家好， 我遇到了一些麻烦，所以想请教一下大家。 我有一个咨询自由职业，是一名全栈 Web 开发人员（更倾向于前端），我将其称为朝九晚五的工作。我还拥有网页设计和文案写作背景。 最近，我家乡的很多人联系我，问我是否可以为他们建立一个电子商务或博客网站。我很乐意这样做，以赚取更多收入并帮助我的社区，但现在已经 2 个月了，我一直在业余时间寻找解决方案，但没有任何收获。 让我们来谈谈电子商务。我认为类似的东西可以应用于博客：当然，我不想重新发明轮子，所以我转向了 WooCommerce 和 Shopify。这两种解决方案听起来都很棒，但我不得不放弃 Shopify，因为我知道我的客户不想支付（对我的位置来说很高的）月度定价。 那么，假设 WooCommerce 是我的选择。不过，我找不到自己开设商店的好理由。一切似乎都很容易处理，即使对于非技术人员也是如此。我能做的最多就是设计网站并稍微更改 CSS，但即使这样，谁会为此买单呢？ 我尝试研究 Next.js 电子商务存储库，与 Shopify 集成，但对于我的客户范围而言，好处相对较小，而且总是存在定价问题。 我不介意投入工作，但这一切似乎有点太多了。我也研究过 无头 CMS 解决方案，但是当有更简单的解决方案可用时，我感觉自己给自己施加了很大压力。 我有点迷失了。请给我一些指点。我喜欢使用 Next.js 和 Tailwind，但是我怎样才能以安全快速的方式构建这种级别的东西，同时做一些我的客户无法做到的事情呢？ 我的梦想是设计网站，在几周内（朝九晚五的工作时间之外）开发它，并让他们管理所有产品、变体、价格等等。也许我有妄想症，但我还没能找到正确的解决方案，这对我来说似乎很奇怪。    提交人    /u/salvstamp   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fxgfnd/ecommerceblog_development_as_a_freelance_web_dev/</guid>
+      <pubDate>Sun, 06 Oct 2024 13:25:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有免费的股票 Kafka 服务？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fxfxqo/is_there_any_free_kafka_service_for_stocks/</link>
+      <description><![CDATA[大家好， 我计划创建一个简单的纸质交易应用程序，为此我需要“实时”股票数据。我发现 Kafka 在这方面非常有用，有时甚至会使用 Web 套接字。 我知道有一些免费股票 API，但我想问是否有任何免费的 Kafka 服务可用于相同目的，尽管我非常怀疑。  使用历史数据创建自己的 Kafka 服务是个好主意吗？还是 Web 套接字方法更好？ 如果问题没有多大意义，请见谅。    提交人    /u/Actual-Wall3083   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fxfxqo/is_there_any_free_kafka_service_for_stocks/</guid>
+      <pubDate>Sun, 06 Oct 2024 13:00:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找对游戏行业感兴趣的网络开发者作为合作伙伴。（不支付报酬，但一旦收入到账，我们会按照双方都满意的百分比支付）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fxfuss/looking_for_a_web_dev_interested_in_the_gaming/</link>
+      <description><![CDATA[大家好，希望大家一切顺利！ 几年来，我一直在从事游戏和游戏开发项目，现在我的经验和技能在网络开发方面遇到了障碍。一些投资者对这个想法很感兴趣，并一直与我保持联系，以了解进展情况。有些人只是在等待最终结果，但从他们所说来看，该项目具有巨大的创收潜力，成功的机会很高。 截至目前，我想要的网站本身的所有功能都已设置并运行，但我知道它可以在效率和设计方面得到改进。 我知道钱有多重要，所以我不指望在没有报酬的情况下获得大量点击量，但我想补充一点，我不是在找一个花很多时间的人，在空闲时间帮忙对我来说就足够了。这就是为什么在标题中，我想找到对游戏开发领域感兴趣的人，一旦我们开始带来收入，他有潜力全职从事这一行业。  如果有任何问题/疑虑，请随时回复，我会尽快回答。  无论如何，无论我是否获得点击量，我仍然希望祝大家的项目好运，并感谢您花时间阅读这篇文章。  干杯！     提交人    /u/TalkingPixelsStudio   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fxfuss/looking_for_a_web_dev_interested_in_the_gaming/</guid>
+      <pubDate>Sun, 06 Oct 2024 12:55:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>“contenteditable="plaintext-only” 起什么作用？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1fxfkc2/what_does_contenteditableplaintextonly_do/</link>
+      <description><![CDATA[我阅读了文档但仍然不明白。    提交人    /u/yukiiiiii2008   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1fxfkc2/what_does_contenteditableplaintextonly_do/</guid>
+      <pubDate>Sun, 06 Oct 2024 12:39:56 GMT</pubDate>
+    </item>
     <item>
       <title>纯网络基金会倡议</title>
       <link>https://www.reddit.com/r/webdev/comments/1fxf2zq/pure_web_foundation_initiative/</link>
@@ -22,7 +78,7 @@
     <item>
       <title>一个免费的开源电子邮件编辑器和模板生成器。</title>
       <link>https://www.reddit.com/r/webdev/comments/1fxddai/a_free_and_open_source_email_editor_and_template/</link>
-      <description><![CDATA[演示：https://designer.sendune.com/ 代码：https://github.com/SendWithSES/Drag-and-Drop-Email-Designer 电子邮件的 HTML 可能是最难编写的代码。即使是规则的微小偏差也会在操作系统/桌面/移动客户端的无数组合中破坏电子邮件。 现在是 2024 年中期。电子邮件发明已有近 50 年，HTML 诞生已有 35 年。“基本开源 HTML 电子邮件设计器”一定是一个已解决的问题，对吗？我们也这么认为。 遗憾的是，事实并非如此。 有一些不错的开源电子邮件设计器，但它们带有依赖项，这使得它们很难嵌入到您的应用程序中。这就是我们决定开源 HTML 电子邮件设计器的原因。 SENDUNE 电子邮件设计器专注于简单性和易用性。它很轻量。它只处理纯 HTML - 没有像 mjml 这样的中间代码管理器。没有任何形式的锁定。将 HTML 输出保存为模板并与任何电子邮件服务提供商一起使用。 请随意分叉存储库、进行改进和提交拉取请求。    提交人    /u/Karmaseed   [链接] [评论]]]></description>
+      <description><![CDATA[演示：https://designer.sendune.com/ 代码：https://github.com/SendWithSES/Drag-and-Drop-Email-Designer 电子邮件的 HTML 可能是最难编写的代码。即使是规则的微小偏差也会在操作系统/桌面/移动客户端的无数组合中破坏电子邮件。 现在是 2024 年中期。电子邮件发明已有近 50 年，HTML 诞生已有 35 年。“基本开源 HTML 电子邮件设计器”一定是一个已解决的问题，对吧？我们也这么认为。 遗憾的是，事实并非如此。 有一些不错的开源电子邮件设计器，但它们带有依赖项，这使得它们很难嵌入到您的应用程序中。这就是我们决定开源 HTML 电子邮件设计器的原因。 SENDUNE 电子邮件设计器专注于简单性和易用性。它很轻量。它只处理纯 HTML - 没有像 mjml 这样的中间代码管理器。没有任何形式的锁定。将 HTML 输出保存为模板并与任何电子邮件服务提供商一起使用。 请随意分叉存储库、进行改进和提交拉取请求。    提交人    /u/Karmaseed   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1fxddai/a_free_and_open_source_email_editor_and_template/</guid>
       <pubDate>Sun, 06 Oct 2024 10:17:44 GMT</pubDate>
     </item>
@@ -46,62 +102,6 @@
       <description><![CDATA[最近我使用 node.js 部署了一个密码管理器网站，作为我作品集的额外展示。 最近我一直在使用该网站存储我的真实帐户密码。 对于身份验证/授权，我只使用 JWT 和 bcrypt，然后像您在简单的 YouTube 教程中看到的那样应用它。我还对用户密码进行了哈希处理并加密了帐户密码。 所以问题是： 这些安全措施对我的用例来说足够安全吗？ 对于不存储敏感数据的网站来说，它足够安全吗？    提交人    /u/smittywerbmanjensen   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1fxa1h2/are_jwt_and_bcrypt_enough_security_for_my/</guid>
       <pubDate>Sun, 06 Oct 2024 06:10:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>API：监控/测试它们的最佳方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fx8879/apis_best_ways_to_monitortest_them/</link>
-      <description><![CDATA[我知道一些常用的方法，比如单元测试。此外，在监控方面，根据日志获取问题警报。 我对这些方法的看法有两个方面：1) 它通常不直接测试实时端点 2) 我认为用代码测试代码是不明智的。您很容易在测试中发现错误，并错过面向用户的错误。 其他人对确保可靠性的最佳方法有什么想法或意见？    提交人    /u/metalprogrammer2024   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fx8879/apis_best_ways_to_monitortest_them/</guid>
-      <pubDate>Sun, 06 Oct 2024 04:08:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了扩展程序，希望大家对我最近制作的 Design Copilot 提供一些反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fx6i6c/i_build_extensions_and_would_love_some_feedback/</link>
-      <description><![CDATA[        提交人    /u/ShadowPixel42   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fx6i6c/i_build_extensions_and_would_love_some_feedback/</guid>
-      <pubDate>Sun, 06 Oct 2024 02:25:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>终于感觉我完成了一些事情</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fx5r8c/finally_feel_like_i_completed_something/</link>
-      <description><![CDATA[大约 20 年前，我十几岁的时候就开始从事专业开发和业余开发，现在我终于觉得我完成了自己的项目。我的大多数业余项目（论坛系统、CMS 系统、日志系统、会计软件）一直未完成，而且除了我自己之外，其他人基本上都无法使用。通常都是定制的，以解决我自己的问题。 今年年初，我想完成一些事情。早在 2018 年，我就有了一个想法，想做一个简单的童谣应用程序/网站。当我以前给我女儿读童谣的时候，那些网站太垃圾了，读起来很不方便。我只想要基本的列表和歌词。 我从 Angular（我目前首选的框架）开始，使用 Ionic（全新的）和电容器使其成为原生的（对我来说很新）。在我最好的朋友的帮助下，她帮助我添加了所有的押韵诗。 这很傻，我看到很多其他人都完成了事情，而我总是觉得自己失败了。应用程序开发很难制作出人们真正想要使用的成品。 我为世界引以为豪的小成品 https://rosierhymes.com    提交人    /u/sevnollogic   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fx5r8c/finally_feel_like_i_completed_something/</guid>
-      <pubDate>Sun, 06 Oct 2024 01:43:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于基于角色的访问控制</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fx5p4m/about_role_based_access_control/</link>
-      <description><![CDATA[执行 RBAC 时，您建议在应用程序级别还是数据库级别授予角色特定操作？ 这是我为解释我的问题而制作的图表    提交人    /u/Coder_Koala   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fx5p4m/about_role_based_access_control/</guid>
-      <pubDate>Sun, 06 Oct 2024 01:39:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>您希望设计师使用自动布局吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fx5jc1/do_you_expect_designers_to_use_autolayout/</link>
-      <description><![CDATA[Tldr 问题：您应该编写 figma 设计代码，但设计师只是自由拖动了所有内容。你疯了吗？ 我与其他 webdev 发生了激烈的争论，因为大多数图形设计师不使用自动布局，而只是使用自由拖动方法进行设计。我知道自由拖动对于不需要编码的图形很有用，但我不明白为什么如果您设计网站或应用程序而不使用它？ 我自己就是一名平面设计师，我无法想象不使用这个功能。我认为只是自由拖动所有东西的设计师是糟糕的设计师，或者至少是不了解如何正确使用他们的工具完成工作的设计师 - 它使您的设计更加一致并节省开发时间。 最近，图形给我发送了一个设计，其边框实际上是由自由拖动的线条对象组成的，这让我很疯狂。     由    /u/panzenko 提交   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fx5jc1/do_you_expect_designers_to_use_autolayout/</guid>
-      <pubDate>Sun, 06 Oct 2024 01:30:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是客户。移动响应能力在行业中是否被视为“不言而喻”的要求？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fx4s39/client_here_is_mobile_responsiveness_considered_a/</link>
-      <description><![CDATA[背景信息：我与一名网页开发人员签订了合同，但合同中并未具体提及移动响应性，因此我想知道根据合同我是否可以合理地期望他们做到这点。在签订合同时，我从未想过要问这个问题。我只是假设到 2024 年，所有网页开发工作都将实现跨设备响应。不幸的是，这位网页开发人员并未制作移动响应性页面，现在我只能自己完成这项工作。我不知道我是否有能力根据本合同条款强制执行移动响应性。     提交人    /u/moonbunny119   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fx4s39/client_here_is_mobile_responsiveness_considered_a/</guid>
-      <pubDate>Sun, 06 Oct 2024 00:48:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作的新 VSCode 扩展：LeoJS（Leo Outline Editor 的 Typescript 实现）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fx30r6/new_vscode_extension_i_made_leojs_typescript/</link>
-      <description><![CDATA[        由    /u/boltex   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fx30r6/new_vscode_extension_i_made_leojs_typescript/</guid>
-      <pubDate>Sat, 05 Oct 2024 23:16:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要主页的灵感和提示</title>
-      <link>https://www.reddit.com/r/webdev/comments/1fx0tgc/need_inspiration_and_tips_for_homepage/</link>
-      <description><![CDATA[      我是一名优秀的后端开发人员，前端我可以做，但问题是我没有丰富的经验和良好的艺术感。我已经在网站中添加了很多东西，但甚至不知道如何在我的首页上正确展示这些东西。 为了方便起见，当前网站围绕 Pokemon Go 展开，并支持以下功能：  跟踪您捕获的 Pokemon 以及您希望拥有的 Pokemon 您可以查看其他用户的 Pokemon（他们拥有什么以及他们需要什么）并通过消息向他们提供交易 您可以对此进行截图，作为您的 Pokemon 库存/愿望清单，以便将其发布在 reddit、facebook 等不同平台上 您可以找到大量的训练师代码列表，这些代码基本上是需要更多朋友的人的 ID  我看过 dribble 和很多网站，但仍然无法弄清楚应该如何呈现这些功能并让人们轻松访问。 这是网站链接：pogotrades.com 我会添加更多内容，但我想在主页上展示即将推出的功能并不好，但您可能会有不同意见，这没关系。如果有人向我推荐，我也可以在主页上添加。我只是不知道如何以得体的方式将所有这些内容放在我的主页上。我的艺术感最差，因此非常欢迎所有建议！提前感谢大家。 https://preview.redd.it/rwk9sb2h90td1.png?width=1826&amp;format=png&amp;auto=webp&amp;s=1b144783b20cb6f6eeacf834dda140879a5a72d7 上面的图片是我的首页，它有一张最喜欢的口袋妖怪的浮动卡片。下面是两个随机人物的 Pokemon 轮播，由他们的愿望清单和库存分隔开。    提交人    /u/AndayWalaBurger1   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1fx0tgc/need_inspiration_and_tips_for_homepage/</guid>
-      <pubDate>Sat, 05 Oct 2024 21:27:47 GMT</pubDate>
     </item>
     <item>
       <title>我的第一个 Web 应用程序 - 一款可从任意两个列表生成配对的应用程序</title>
