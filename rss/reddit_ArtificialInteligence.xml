@@ -4,7 +4,14 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Mon, 07 Oct 2024 18:20:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2024 21:16:49 GMT</lastBuildDate>
+    <item>
+      <title>为什么单靠摩尔定律无法预测人工智能的进步：需要纳入缩放定律</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fyerbo/why_moores_law_alone_cant_predict_ai_progress_the/</link>
+      <description><![CDATA[我经常看到人们讨论AI 进展，好像它与摩尔定律直接相关，但这可能会产生误导。摩尔定律只告诉我们计算能力（晶体管数量）如何随时间增加，而不是模型性能（例如，错误率）如何随时间提高。 我们真正需要的是缩放定律，它描述了模型性能如何随计算而扩展。关键点在于：缩放定律表明，您需要越来越多的计算才能实现相同的性能提升。因为 的指数仍然是指数，所以模型性能仍然会随着时间的推移呈指数级增长，但是，比摩尔定律慢得多。 更大的图景：  摩尔定律：描述计算如何随时间增加（时间 → 计算）。 扩展定律：描述 AI 模型性能如何随着计算而提高（计算 → 性能）。  将两者联系起来，就会得到真正的关系：时间 → 计算 → 性能。这个调整后的模型是 AI 进步的下限，这意味着它对 AI 随着时间的推移可以改进的速度给出了保守的估计。 为什么这很重要？ 这具有巨大的实际意义。例如，尽管摩尔定律可能导致计算量在 10 年内增长 16 倍，但由于缩放定律的 alpha（约 0.28），AI 性能仅增长 2 倍。 如果 AI 目前可以自动化 10% 的人工任务，那么按照摩尔定律，要达到 99% 的自动化程度需要 8.2 年。考虑到缩放定律，实际上需要 29.2 年！ 注意：我说的是 下限：这意味着根据（相对）稳定的定律（摩尔定律和缩放定律），我们可以预测 AI 性能至少应该会像这个下限一样快地增长。这意味着，由于投资增加、算法更好、自我完善等原因，AI 进展仍可远高于此界限。但我们不会将其用作界限，因为与我们的法律相比，它们很难预测。    提交人    /u/PianistWinter8293   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fyerbo/why_moores_law_alone_cant_predict_ai_progress_the/</guid>
+      <pubDate>Mon, 07 Oct 2024 18:26:03 GMT</pubDate>
+    </item>
     <item>
       <title>微调 GPT-4o Mini：初学者指南</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fydcy6/finetuning_gpt4o_mini_beginners_guide/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[ Nvidia 收购 OctoAI，以主导企业生成式 AI 解决方案。[1] Uber 借助 Avride 扩展机器人送货和 Robotaxi 产品。[2] Hitachi 与 Nvidia 合作推出 AI 驱动的铁路维护服务。[3] 适用于 Unreal Engine 5 的新 Nvidia ACE 插件简化了 AI 数字人类的创建。[4]  来源包括：https://bushaicave.com/2024/10/06/10-6-2024/    由   提交  /u/Excellent-Target-847   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fxzf2q/oneminute_daily_ai_news_1062024/</guid>
       <pubDate>Mon, 07 Oct 2024 04:23:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能最新进展：生成技术的新工具和令人兴奋的功能</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1fxmvmt/latest_in_ai_new_tools_and_exciting_features_in/</link>
-      <description><![CDATA[大家好！我在 AI 领域发现了一些令人兴奋的更新，想与大家分享一下：  Facepoke 可让您使用有趣的交互式工具轻松调整图像的某些部分（例如移动某人的头部）。 XDoG Sketch 可将照片变成酷炫的线条画，并增强边缘以获得艺术感。 StackBlitz 的 bolt.new 可让您在浏览器中创建 Twitter 帖子、演示文稿甚至动画。 场景添加了“MULTI-LoRA”让您实时调整情景计划的不同部分。 Blinkshot 可即时生成 AI 图像 - 无需注册，而且免费！ NVIDIA 的 EdgeRunner 可平滑 3D 模型，通过修复不完整的细节使其看起来更逼真。 3D Doll Control Net 可帮助您使用文本提示调整 3D 角色的姿势和表情。 DepthFlow 为您的照片添加动作和深度，将它们变成 2.5D 视频。 Voice-Pro 为 100 多种语言提供字幕、翻译和文本转语音功能，拥有 400 多种声音。 FaceFusion 可让您在图像和视频中进行脸部交换，并获得超详细的效果。 TorchChat 现在支持Llama 3.2 模型，包括视觉功能，用于本地 AI 处理。  来源：https://comfyuiblog.com/ai-news-real-time-api-video-creation-tools-and-more/    提交人    /u/hackerzcity   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1fxmvmt/latest_in_ai_new_tools_and_exciting_features_in/</guid>
-      <pubDate>Sun, 06 Oct 2024 18:13:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
