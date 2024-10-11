@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 11 Oct 2024 12:30:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2024 15:17:04 GMT</lastBuildDate>
+    <item>
+      <title>SAP Java GUI 连接配置器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1g1brfj/sap_java_gui_connection_configurator/</link>
+      <description><![CDATA[大家好， 这可能有点小众，但我希望它对你们中的一些人有用。如果您正在使用 SAP 并在 Linux 或 Mac 上运行它，您就会知道连接到服务器的唯一方法是使用配置字符串。我个人不得不多次在线查找参数以构造字符串，因此为了简化我的生活，我建立了一个小网站来帮我完成这项工作。我与你们分享它，希望它也能让你们的生活更简单。 SAP JAVA 连接配置 (kbkozlev.github.io)    提交人    /u/masterzeng   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1g1brfj/sap_java_gui_connection_configurator/</guid>
+      <pubDate>Fri, 11 Oct 2024 14:57:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ikto：基于 NATS 的 Wireguard 网状网络构建器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1g18n9w/ikto_a_nats_based_wireguard_mesh_network_builder/</link>
+      <description><![CDATA[       由    /u/SoftwareCitadel  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1g18n9w/ikto_a_nats_based_wireguard_mesh_network_builder/</guid>
+      <pubDate>Fri, 11 Oct 2024 12:30:33 GMT</pubDate>
+    </item>
     <item>
       <title>开发我的第一个 Chrome 扩展程序：胡说八道翻译器</title>
       <link>https://www.reddit.com/r/opensource/comments/1g17s8o/built_my_first_chrome_extension_bullshit/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[介绍 rjq - 一款超快的 JSON 过滤 CLI 工具 我很高兴地宣布发布 rjq，这是一款基于 Rust 的 CLI 工具，可轻松过滤 JSON 数据。 主要特点：  简单的查询语法，轻松过滤 超快的性能 支持流式 JSON 数据  使用 rjq，您可以：  从大型 JSON 数据集中快速提取特定数据 轻松过滤和转换数据 自动执行 JSON 数据处理任务  适用于：  使用 JSON 数据的开发人员 寻求高效数据提取的数据分析师 自动化数据处理任务的 DevOps 团队  在 GitHub 上探索 rjq：https://github.com/mainak55512/rjq 立即开始使用 rjq 并加速您的 JSON 数据处理！    提交人    /u/Mainak1224x   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1g0hsug/unlock_fast_json_filtering_with_rjq/</guid>
       <pubDate>Thu, 10 Oct 2024 12:37:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>MINIO 开源</title>
-      <link>https://www.reddit.com/r/opensource/comments/1g0gp2y/minio_opensource/</link>
-      <description><![CDATA[大家好，我很好奇是否有人使用开源 MINIO 成功将服务货币化。有人有任何参考或示例吗？有了 AGPLv3 许可证，我们甚至可以这样做吗？有人可以解释一下吗？    提交人    /u/xtremerkr   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1g0gp2y/minio_opensource/</guid>
-      <pubDate>Thu, 10 Oct 2024 11:34:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Subsetter - 基于 Python 的 CLI 工具，用于对 mysql/postgres/sqlite 数据库进行采样</title>
-      <link>https://www.reddit.com/r/opensource/comments/1g0dbbd/subsetter_python_based_cli_tool_to_sample/</link>
-      <description><![CDATA[想分享一个工具，subsetter，我一直在研究这个工具，旨在从关系数据库（目前支持 mysql、postgresql、sqlite）生成语义一致的样本。 此工具由配置驱动；至少您必须创建一个配置文件，告诉子集生成器从哪里开始（例如“我想要 5% 的用户”或“我想要上周的所有订单”）以及应该对哪些表进行采样。然后，子集生成器将分析数据库中表之间的关系，以制定一个采样计划，该计划将遵循外键关系来生成语义一致的数据样本。所需的只是采样表通过外键关系连接，并且没有外键循环。 一旦制定了计划，就可以开始采样阶段。每个表都将使用在源数据库上运行的单个 SQL 查询进行采样，并直接流式传输到目标数据库中。无需缓冲，因此理论上它可以在相当大的数据集上工作。一些需要后续查询引用的表将首先在源数据库上“具体化”为临时表。源数据库只需要读取权限，它可以正确地针对副本实例运行。 这是为了测试或演示目的而设计的。为此，它支持过滤和匿名化任何需要它的列，以避免在采样数据集中出现真实姓名、地址等内容。 查看https://github.com/msg555/subsetter中的更多详细信息、来源、安装说明和用法。也很乐意回答任何进一步的问题。    提交人    /u/msg555   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1g0dbbd/subsetter_python_based_cli_tool_to_sample/</guid>
-      <pubDate>Thu, 10 Oct 2024 07:24:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
