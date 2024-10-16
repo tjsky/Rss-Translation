@@ -4,7 +4,71 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Wed, 16 Oct 2024 08:19:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 12:00:26 GMT</lastBuildDate>
+    <item>
+      <title>[媒体] 据报道，以色列在一次聪明而不同寻常的行动中使用了伪装的爆炸装置 [...]</title>
+      <link>https://t.me/hn_summary/112732</link>
+      <description><![CDATA[以色列笨重的传呼机欺骗了真主党
+据报道，以色列在一次巧妙而不同寻常的行动中，使用了一种伪装的爆炸装置欺骗了真主党。该装置类似于一个笨重的传呼机，包含一片薄薄的 PETN 塑料炸药，夹在两个电池之间，一条易燃材料作为雷管。独特的是，这个装置没有使用标准的金属雷管，因此无法通过 X 射线检测。尽管真主党试图使用机场安检扫描仪识别爆炸物，但该装置没有被发现。专家认为，该装置的设计目的是在电池组内产生火花，点燃雷管并引爆爆炸物。争议在于该设备的复杂性和欺骗性，引发了对此类秘密行动的道德问题。]]></description>
+      <guid>https://t.me/hn_summary/112732</guid>
+      <pubDate>Wed, 16 Oct 2024 12:00:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 上周，互联网档案馆面临严重的安全漏洞，黑客破坏了 [...]</title>
+      <link>https://t.me/hn_summary/112731</link>
+      <description><![CDATA[互联网档案馆及其保存的 916B 网页已恢复上线
+上周，互联网档案馆面临重大安全漏洞，黑客破坏了其网站，声称网站存在漏洞，并引用了数据泄露通知服务 Have I Been Pwned (HIBP)。此次漏洞暴露了注册会员的身份验证信息，包括电子邮件地址和 Bcrypt 哈希密码。作为回应，互联网档案馆的创始人 Brewster Kahle 宣布努力升级安全性，此前 DDoS 攻击导致该网站暂时下线。该团队将数据安全置于服务可用性之上，估计停机时间为几天而不是几周。尽管面临挑战，Kahle 幽默地指出，他们储备了充足的披萨，凸显了危机中的独特之处。]]></description>
+      <guid>https://t.me/hn_summary/112731</guid>
+      <pubDate>Wed, 16 Oct 2024 11:52:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开发了一款 2D 太空射击游戏，玩家可以设计 AI 脚本来控制他们的飞船 [...]</title>
+      <link>https://t.me/hn_summary/112730</link>
+      <description><![CDATA[询问 HN：AI 战争 - 使用 AI 控制您的 2D 太空射击游戏
+我开发了一款 2D 太空射击游戏，玩家可以设计 AI 脚本来控制他们的飞船，而不是直接控制。使用类似 ChatGPT 的提示系统，玩家可以用“分数低时积极进攻，分数增加时变得更具防御性”等策略来指导他们的飞船。游戏将这些提示转换成代码，让飞船能够自主航行和对抗敌人。随着分数的增加，挑战也会增加，会出现更多的敌舰。我正在考虑将其扩展为一场竞技锦标赛，让玩家的脚本争夺最高分。有人有兴趣尝试一下吗？]]></description>
+      <guid>https://t.me/hn_summary/112730</guid>
+      <pubDate>Wed, 16 Oct 2024 11:43:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>“30cc”项目是一个用 C 语言编写的玩具 C 编译器，其设计目标是成为 [...]</title>
+      <link>https://t.me/hn_summary/112729</link>
+      <description><![CDATA[显示 HN：30cc：用 C 编写的玩具 C 编译器
+“30cc”项目是一个用 C 编写的玩具 C 编译器，其设计目标是能够自行编译。它生成 x86-64 汇编代码作为输出。该项目可作为那些有兴趣了解编译器构造和 C 语言编译复杂性的人的教育工具。作者强调了编译器解析和编译相对复杂的 C 代码的能力，包括用于计算阶乘和斐波那契数的函数，以及处理基本数据结构和算术运算。该项目通过专注于自我编译来脱颖而出，提供了一个可以处理其自身源代码的编译器的实际示例。]]></description>
+      <guid>https://t.me/hn_summary/112729</guid>
+      <pubDate>Wed, 16 Oct 2024 10:54:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 我们很高兴推出 FLOSS/fund，这是一项每年 100 万美元的计划，旨在支持 Fre [...]</title>
+      <link>https://t.me/hn_summary/112728</link>
+      <description><![CDATA[Floss/fund：每年 100 万美元用于免费和开源项目
+我们很高兴推出 FLOSS/fund，这是一项每年 100 万美元的计划，旨在支持全球的自由和开源软件 (FOSS) 项目。该基金源于我们在 Zerodha 对 FOSS 的依赖，旨在解决 FOSS 项目面临的财务可持续性挑战，尤其是当大型科技公司在没有足够互惠的情况下从中获利时。我们的结构化方法包括一个专门的团队和一个简化的申请流程，提供 10,000 至 100,000 美元的资助。我们提出了一个新颖的“funding.json”清单文件，供项目透明地传达他们的财务需求，减少临时资金讨论的尴尬。这项计划强调了我们对黑客善意和可持续商业实践的承诺。 （根据 60% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/112728</guid>
+      <pubDate>Wed, 16 Oct 2024 10:52:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 欧洲道路安全组织对特斯拉 Cyber​​truck 的到来感到震惊，因为 [...]</title>
+      <link>https://t.me/hn_summary/112727</link>
+      <description><![CDATA[欧洲道路安全组织对 Cyber​​truck 感到恐惧
+欧洲道路安全组织对特斯拉 Cyber​​truck 的到来感到震惊，担心它会对整个欧洲大陆的道路安全构成重大威胁。包括欧洲道路安全委员会在内的六个非政府组织共同签署了一封信，敦促将 Cyber​​truck 从欧洲道路上移除。这场争议源于捷克共和国决定将 Cyber​​truck 注册为乘用车，据称是通过虚报其重量。这封信强调了 Cyber​​truck 未能满足欧洲安全标准，并指出其溃缩区不足和锋利的边缘是主要问题。此外，还有一个巧妙的解决方法，即使用橡胶保险杠来绕过设计法规，这引发了人们对通过捷克共和国大规模进口的担忧。尽管存在安全隐患，但目前仅报告了一起涉及 Cyber​​truck 的致命事故，这促使美国国家公路交通安全管理局展开调查。]]></description>
+      <guid>https://t.me/hn_summary/112727</guid>
+      <pubDate>Wed, 16 Oct 2024 10:20:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在这篇博文中，我分享了我应对土耳其 Discord 禁令的历程，这是 [...]</title>
+      <link>https://t.me/hn_summary/112726</link>
+      <description><![CDATA[现在不能相信任何 VPN
+在这篇博文中，我分享了我应对土耳其对 Discord 的禁令的历程，该禁令是由于 Discord 拒绝与政府共享用户数据而实施的。虽然最初令人沮丧，但这种情况促使我更多地了解 VPN 和 DNS，最终提高了我的技术技能。我发现我的 VPN 设置泄露了 DNS 请求，导致其无效。经过反复试验，我通过在 Arch Linux 系统上正确配置 DNS 设置解决了该问题。我还创建了一个终端工具来检查 DNS 泄漏，并将 VPN 管理集成到我的 i3 设置中以方便使用。这次经历虽然具有挑战性，但却出人意料地具有教育意义和回报。]]></description>
+      <guid>https://t.me/hn_summary/112726</guid>
+      <pubDate>Wed, 16 Oct 2024 10:18:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 我们发现 macOS 可能会在系统更新后泄漏流量，重新启动后 [...]</title>
+      <link>https://t.me/hn_summary/112725</link>
+      <description><![CDATA[Mullvad：macOS 有时会在系统更新后泄露流量
+我们发现 macOS 可能会在系统更新后泄露流量，重新启动通常可以解决此问题。发生这种情况的原因是 macOS 防火墙有时无法强制执行规则，允许某些应用程序（尤其是 Apple 自己的应用程序）绕过 VPN 隧道。从 macOS 14.6 到最近的 15.1 测试版都观察到了此问题。我们已向 Apple 报告了此问题，并正在进一步调查以提供更多信息和可能的解决方法。要检查您是否受到影响，您可以运行特定的终端命令来测试流量路由。这种情况令人担忧，因为它凸显了依赖 VPN 进行安全连接的用户的潜在隐私风险。]]></description>
+      <guid>https://t.me/hn_summary/112725</guid>
+      <pubDate>Wed, 16 Oct 2024 09:37:15 GMT</pubDate>
+    </item>
     <item>
       <title>[媒体] 自 2023 年春季以来，全球气温上升幅度超出预期，令人困惑的是 [...]</title>
       <link>https://t.me/hn_summary/112724</link>
@@ -20,70 +84,6 @@
 总部位于明尼苏达州的电子商务提供商 Digital River 自 7 月以来一直未向众多开发者支付通过其 MyCommerce 平台进行的销售费用。Traction Software 的 Lee Midgley 将这种情况比作“地毯拉扯”，理由是付款停止、缺乏支持以及延迟解决的新条款。在以处理类似情况而闻名的新首席执行官 Barry Kasoff 的领导下，Digital River 可能正走向破产。该公司已经裁员并面临财务不稳定，正如英国子公司的审计报告所指出的那样。有争议的是，Digital River 一直在未经商家批准的情况下“预签”合同，引入新费用并延迟付款。Softland 等供应商已停止使用该平台，理由是信誉丧失。 Digital River 对商家债务索赔提出异议，促使受影响的供应商考虑提起集体诉讼。]]></description>
       <guid>https://t.me/hn_summary/112723</guid>
       <pubDate>Wed, 16 Oct 2024 08:11:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 我们很高兴地宣布 GSAP 已被 Webflow 收购，这标志着一项重大的 [...]</title>
-      <link>https://t.me/hn_summary/112722</link>
-      <description><![CDATA[GSAP 已被 Webflow 收购
-我们很高兴地宣布，GSAP 已被 Webflow 收购，这标志着我们在增强动画功能方面迈出了重要一步。这种合作关系对于多年来一直与 GSAP 保持密切联系的 Webflow 社区来说尤其令人兴奋。GSAP 的广泛影响力，为超过 1200 万个网站提供支持，现在将受益于 Webflow 对开发资源的投资，确保持续创新并为所有网络用户提供服务。此次收购有望保持 GSAP 作为网络动画师领先工具集的地位，而不会改变当前的定价计划。Webflow 的民主化开发使命与 GSAP 的目标完美契合，我们共同致力于简化复杂流程并赋予创作者权力。虽然未来确切的发展仍在展开，但我们在踏上这一激动人心的旅程时渴望合作并听取您的想法。]]></description>
-      <guid>https://t.me/hn_summary/112722</guid>
-      <pubDate>Wed, 16 Oct 2024 08:08:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在《大都市：看三遍》中，詹姆斯·兰特曼充满激情地为弗朗西斯·福辩护 [...]</title>
-      <link>https://t.me/hn_summary/112721</link>
-      <description><![CDATA[《大都市：看三遍》
-在《大都市：看三遍》中，詹姆斯·兰特曼热情地为弗朗西斯·福特·科波拉的最新电影《大都市》辩护，称其为一种独特的电影体验，让人想起《现代启示录》。尽管这部电影的反响两极分化，票房表现不佳，但兰特曼认为这部电影雄心勃勃、戏剧化、视觉震撼的品质令人着迷。他将其与《穆赫兰道》和《银翼杀手》等作品进行了比较，称赞其富有想象力的故事叙述和丰富的人物刻画。兰特曼承认这部电影的复杂性和非传统性，这可能会疏远一些观众，但他认为它的原创性和对人类潜力的乐观态度使其成为一部潜在的杰作。这部电影的分裂性质和非传统拍摄手法成为争议的焦点。]]></description>
-      <guid>https://t.me/hn_summary/112721</guid>
-      <pubDate>Wed, 16 Oct 2024 08:06:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 加州理工学院的研究人员开发出了一种突破性的算法，即功能不变的算法 [...]</title>
-      <link>https://t.me/hn_summary/112720</link>
-      <description><![CDATA[新算法使神经网络能够持续学习
-加州理工学院的研究人员开发了一种突破性的算法，即功能不变路径 (FIP) 算法，该算法允许神经网络持续学习而不会忘记之前的任务——这是一个常见的问题，被称为“灾难性遗忘”。受生物大脑适应性的启发，这项创新使神经网络能够无缝更新新数据。FIP 算法由 Matt Thomson 和 Guru Raghavan 开发，利用微分几何来修改神经网络而不抹去现有知识。这一进步具有重大意义，从增强在线推荐到改进自动驾驶汽车。这项研究发表在《自然机器智能》杂志上，突出了神经科学和计算生物学的巧妙交集。该项目还促成了 Yurts 公司的成立，该公司旨在扩展这项技术。这一发展在模仿大脑灵活性方面是独一无二的，这一概念以前在人工神经网络中从未实现过。]]></description>
-      <guid>https://t.me/hn_summary/112720</guid>
-      <pubDate>Wed, 16 Oct 2024 08:06:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 书店怎么突然变得很酷了？</title>
-      <link>https://t.me/hn_summary/112719</link>
-      <description><![CDATA[书店是如何突然变得如此酷的？
-近年来，书店在 Z 世代和千禧一代中意外地流行起来，挑战了年轻人沉迷于屏幕的刻板印象。书商协会的一项调查显示，这些年龄段的人比老一辈更倾向于根据面对面的推荐购买书籍。年轻读者欣赏书店的氛围和人际互动，认为逛书店是一种无法在网上复制的丰富体验。虽然像 BookTok 这样的平台影响着文学潮流，但许多年轻读者对算法驱动的推荐持怀疑态度，更喜欢书商的个性化服务。然而，一些争议源于阅读的“游戏化”，书店被用作社交媒体帖子的背景，而人们并没有真正对购买书籍感兴趣。尽管如此，书店所培养的社区氛围和个人联系继续吸引着年轻读者，为文学提供了更深入、更有意义的接触。]]></description>
-      <guid>https://t.me/hn_summary/112719</guid>
-      <pubDate>Wed, 16 Oct 2024 07:54:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：您一天编码几个小时？</title>
-      <link>https://t.me/hn_summary/112718</link>
-      <description><![CDATA[问 HN：你一天要写几个小时的代码？
-在 Hacker News 最近的一次讨论中，用户分享了他们每天写代码的时间。许多参与者回顾了他们职业生涯的早期，指出他们经常花很长时间写代码，这是由激情和学习的兴奋所驱动的。一些人提到，在刚开始工作或工作转换期间，他们每天写代码的时间长达 12 个小时。然而，其他人强调了工作与生活平衡的重要性，提倡可持续的编码实践以避免倦怠。一个值得注意的争论点是，更长的工作时间是否等同于更高的生产力，贡献者的观点各不相同。]]></description>
-      <guid>https://t.me/hn_summary/112718</guid>
-      <pubDate>Wed, 16 Oct 2024 07:47:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在 geek.sg 上的这篇博客文章中，我分享了我使用 Cooli 自托管 Llama 3.2 的历程 [...]</title>
-      <link>https://t.me/hn_summary/112717</link>
-      <description><![CDATA[我在家用服务器上使用 Coolify 自托管 Llama 3.2：分步指南
-在 geek.sg 上的这篇博文中，我分享了我在家用服务器上使用 Coolify 自托管 Llama 3.2 的历程，灵感来自于出于成本考虑将 Next.js 应用从 Vercel 迁移到 VPS 的趋势。我的目标是重新利用一台以前用于高频交易的旧服务器来为我的公司 Wisp 运行 AI 应用程序。该过程涉及设置 Coolify、配置 Cloudflare Tunnel 以实现安全访问，以及使用 CUDA 工具包启用 GPU 加速以提高性能。一个值得注意的挑战是配置 NVIDIA 驱动程序和 CUDA 工具包，但坚持不懈导致推理时间缩短了 10 倍。这次经历是一个宝贵的学习机会，展示了自托管 AI 模型的潜力。（基于 94% 的故事文本的总结。）]]></description>
-      <guid>https://t.me/hn_summary/112717</guid>
-      <pubDate>Wed, 16 Oct 2024 06:53:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>尽管处于“临时、只读”模式，但 Wayback Machine 已重新上线。</title>
-      <link>https://t.me/hn_summary/112716</link>
-      <description><![CDATA[告诉 HN：Wayback Machine 已恢复，但处于只读模式
-Wayback Machine 已恢复在线，但处于“临时、只读”模式。这意味着用户可以访问已存档的网页，但不能贡献新网页或进行更改。虽然这一宝贵资源的部分恢复令人欣慰，但 Archive.org 的其余服务仍然不可用。这种情况凸显了 Wayback Machine 在保存互联网历史方面的重要性，但也引发了人们对数字档案的可靠性和可访问性的担忧。临时只读状态是一种独特的解决方案，允许在恢复完整功能的同时继续访问。]]></description>
-      <guid>https://t.me/hn_summary/112716</guid>
-      <pubDate>Wed, 16 Oct 2024 06:24:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] FIDO 联盟发布了新规范的工作草案，旨在促进 [...]</title>
-      <link>https://t.me/hn_summary/112715</link>
-      <description><![CDATA[FIDO 联盟发布新规范，让用户在提供商之间转移密钥
-FIDO 联盟发布了一份新规范的工作草案，旨在促进提供商之间的安全凭证交换，增强用户体验并加速密钥的采用。这项计划由凭证提供商特别兴趣小组制定，包括苹果、谷歌和微软等主要行业参与者。凭证交换协议 (CXP) 和凭证交换格式 (CXF) 规范旨在标准化凭证（如密钥）的安全传输，而无需将其暴露在明文中。这标志着迈向开放生态系统的重要一步，促进了用户选择并减少了技术障碍。值得注意的是，该草案向社区反馈开放，强调协作和透明度。缺乏安全凭证移动的先前标准凸显了这一发展的重要性。]]></description>
-      <guid>https://t.me/hn_summary/112715</guid>
-      <pubDate>Wed, 16 Oct 2024 06:07:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
