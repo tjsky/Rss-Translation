@@ -4,11 +4,25 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 18 Oct 2024 01:10:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Oct 2024 03:23:37 GMT</lastBuildDate>
+    <item>
+      <title>动态错误处理和 AI 辅助查询调整以弥补 API 限制</title>
+      <link>https://www.reddit.com/r/webdev/comments/1g67o3d/dynamic_error_handling_and_aiassisted_query/</link>
+      <description><![CDATA[      嗨，开发人员， 我正在集成第三方 API，以允许用户通过选择 UI 中的各种选项来生成图像。但是，API 对查询参数有限制，当用户尝试不受支持的组合时，可能会导致错误。最初，我考虑将用户选择限制为仅有效组合，但由于有多个选项，这种方法并不实用。 相反，我正在考虑一个更灵活的解决方案： 当由于无效组合而发生 API 错误时，我可以捕获错误消息，并将其与请求正文一起传递给 LLM（语言模型 API）。LLM 将分析错误并相应地更新请求正文，建议支持的组合。然后，我将使用更新后的请求再次调用第三方 API，检索结果，并向用户显示结果以及一条消息，说明不支持他们选择的组合，但这里有另一种选择。 https://preview.redd.it/c1zd1zfacfvd1.png?width=1169&amp;format=png&amp;auto=webp&amp;s=4b6cf4e4aa5b527347f242a3702bc3df1b51eecf 您认为这是个好主意吗，或者我把事情复杂化？    提交人    /u/Few-Huckleberry9656   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1g67o3d/dynamic_error_handling_and_aiassisted_query/</guid>
+      <pubDate>Fri, 18 Oct 2024 02:15:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为自由职业者寻找客户的最佳方法是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1g6746s/whats_the_best_way_to_find_clients_as_a_freelancer/</link>
+      <description><![CDATA[我想开始兼职做自由职业，但我完全不知道如何找客户。我有一个客户是前雇主，但我的联系人已经退休了，接手的人没有回复我的电子邮件。    提交人    /u/Xyrack   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1g6746s/whats_the_best_way_to_find_clients_as_a_freelancer/</guid>
+      <pubDate>Fri, 18 Oct 2024 01:46:01 GMT</pubDate>
+    </item>
     <item>
       <title>尝试为我有特殊需要的侄子保存一些游戏，以免它们在 11 月被删除。</title>
       <link>https://www.reddit.com/r/webdev/comments/1g66dar/trying_to_save_some_games_for_my_special_needs/</link>
-      <description><![CDATA[我正在寻找 DisneyNow.com 上 Lion Guard 和 Super Arcade 游戏（可能还有其他游戏，但这两个是主要的）的备份，以免他们下个月关闭该网站。  我的侄子不善言辞，对网站上的游戏非常着迷。当这些游戏消失时，他会非常伤心，而且不明白为什么。我和弟弟已经直接联系了迪士尼，但到目前为止只得到了一般性的回复。希望这里有人能帮忙，或者让我们知道这是否是无望的。  另一位 redditor 帮助我们从每个页面的 HTML 源代码中获取了这些原始链接： Super Arcade：https://cdn1.edgedatg.com/tml/apps/dnow/games/games/game-super-summer-arcade/1.0.44/index.html Lion Guard：https://cdn1.edgedatg.com/tml/apps/dnow/games/games/game-lion-guard-protectors-of-the-pridelands/1.0.1/index.html 如果有人能帮我提取这些游戏的内容并托管它们（或者我可以托管它们），那就太好了。它看起来像是 JavaScript 和远程加载内容的混合体。    提交人    /u/mucktino   [链接] [评论]]]></description>
+      <description><![CDATA[我正在寻找 DisneyNow.com 上 Lion Guard 和 Super Arcade 游戏（可能还有其他游戏，但这两个是主要的）的备份，以免他们下个月关闭该网站。  我的侄子不善言辞，对网站上的游戏非常着迷。当这些游戏消失时，他会非常伤心，而且不明白为什么。我和弟弟已经直接联系了迪士尼，但到目前为止只得到了一般性的回复。希望这里有人能帮忙，或者让我们知道这是否是无望的。  另一位 redditor 帮助我们从每个页面的 HTML 源代码中获取了这些原始链接： Super Arcade：https://cdn1.edgedatg.com/tml/apps/dnow/games/games/game-super-summer-arcade/1.0.44/index.html Lion Guard：https://cdn1.edgedatg.com/tml/apps/dnow/games/games/game-lion-guard-protectors-of-the-pridelands/1.0.1/index.html 如果有人能帮我提取这些游戏的内容并托管它们（或者我可以托管它们），那就太好了。它看起来像是 JavaScript 和远程加载内容的混合体。 编辑：他在 iPad 上玩这些游戏，因此目标是继续让他这样做。    提交人    /u/mucktino   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1g66dar/trying_to_save_some_games_for_my_special_needs/</guid>
       <pubDate>Fri, 18 Oct 2024 01:05:55 GMT</pubDate>
     </item>
@@ -81,20 +95,6 @@
       <description><![CDATA[您好，我建立了一个 AI，它完全模仿 SEO 代理机构会做的事情。我的愿景是匹配高端 SEO 代理机构的表现，但价格便宜 50 到 100 倍。 TLDR：（1）它最多可抓取您网站的 100 个页面，（2）根据谷歌的 SEO 入门指南自动将代码更改应用于您的网站，（3）根据 10 亿个谷歌 SERP 研究相关关键字以定位，（4）自动推送内容到您的网站以增加这些关键词的流量。 请在此处查看：joinrankai.com 欢迎您 100% 诚实的反馈 - 请不要犹豫。谢谢。    提交人    /u/happy_influx   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1g62n8f/please_rate_i_built_an_1click_solution_to_put_seo/</guid>
       <pubDate>Thu, 17 Oct 2024 22:00:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>获得 100% SEO 分数不是开玩笑</title>
-      <link>https://www.reddit.com/r/webdev/comments/1g61sdi/getting_100_seo_score_aint_a_joke/</link>
-      <description><![CDATA[      过去 3 个小时里，我一直在 pagespeed Insights 上尝试优化我的产品着陆页，我以为获得 100% 的分数很容易，但事实并非如此。  有人破解了吗？    由    /u/originalfaskforce 提交   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1g61sdi/getting_100_seo_score_aint_a_joke/</guid>
-      <pubDate>Thu, 17 Oct 2024 21:21:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>您只做“网络”编程吗，还是探索过其他编程领域？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1g61hqh/do_you_just_do_web_or_have_you_explored_other/</link>
-      <description><![CDATA[过去几年我一直“只是”一名前端开发人员。 我的工作和所有周末项目都“只是”专注于前端。 这让我在今年早些时候非常疲惫，最重要的是，我觉得我的计算机科学知识存在重大差距。 所以最近我学习了 C 编程 + 图形，这让我大开眼界，了解了其他的东西。空闲时间等等。 我强烈建议尝试你主要关注领域之外的东西，它真的有助于缓解倦怠    提交人    /u/ShadowPixel42   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1g61hqh/do_you_just_do_web_or_have_you_explored_other/</guid>
-      <pubDate>Thu, 17 Oct 2024 21:08:25 GMT</pubDate>
     </item>
     <item>
       <title>DNS 查找需要 11 秒，为什么？</title>
