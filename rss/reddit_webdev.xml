@@ -4,11 +4,32 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 20 Oct 2024 01:15:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 03:26:30 GMT</lastBuildDate>
+    <item>
+      <title>关于如何让自托管 Judge0 做好生产准备的指南</title>
+      <link>https://www.reddit.com/r/webdev/comments/1g7ohdx/guidance_on_making_selfhosted_judge0_production/</link>
+      <description><![CDATA[嗨，我正在使用 Vue3 和 .NET 构建一个学习应用程序。我的设计中有些部分包括一个内置的交互式代码编辑器。对于语法突出显示，我计划使用 Ace Editor 或类似的东西，它们很容易实现。但是我需要将用户的脚本发送回我的后端，解释它们并返回输出。我希望至少有 4 种语言可用（JavaScript、C#、Java、Python）。从头开始自己编写它只是愚蠢且非常痛苦，所以我一直在寻找第三方等，我的第一个选择是 JDoodle，因为它有一个我喜欢的 API 选项，但是我真的不想为零花钱，他们的免费计划每天有 15 次 API 调用，这似乎太低了，甚至无法测试。因为我放弃了它，再深入挖掘了一下，我找到了 Judge0。因此，正如我所提到的，我正在尝试最大限度地削减成本……因此，为了让这个生产就绪，我的计划是将整个东西捆绑在一个 EC2（可能是 t4g.nano）中，这将需要 Vue 应用程序、.NET 应用程序、SQL Server DB 和 Judge0，我计划将其作为 Docker 映像运行……我预计流量会很少，但是我想知道，使用这样的设置：  这可行吗？ 如果由于某种原因它变得更大，你们认为需要多少流量才能将其拆开？我不会在 DB 上写任何繁重的东西。 需要做多少工作来保护 Judge0 免受无限循环等漏洞的攻击？     提交人    /u/Outrageous-Cow-   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1g7ohdx/guidance_on_making_selfhosted_judge0_production/</guid>
+      <pubDate>Sun, 20 Oct 2024 02:05:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人可以解释一下服务器端跟踪的局限性吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1g7o584/can_someone_please_explain_the_limitations_to/</link>
+      <description><![CDATA[我一直在研究服务器端跟踪作为 cookie 的替代方案，特别是在了解如何跟踪网站上的广告展示次数、点击次数和转化次数的背景下。  如果服务器端用户 ID 只是 IP 地址 + 用户代理 + 盐，那么当使用相同操作系统 + 浏览器从相同 IP 访问时，它如何唯一地标识某人？例如，如果两个 iPhone 用户使用 Safari 访问一个网站，服务器会在会话结束后立即失去对他们的跟踪，对吗？  我读过的所有服务器端跟踪文章都宣称它是完美的解决方案，但我不明白他们如何解决这个根本问题。  我错过了什么？    提交人    /u/amplify895   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1g7o584/can_someone_please_explain_the_limitations_to/</guid>
+      <pubDate>Sun, 20 Oct 2024 01:46:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>流量很大的网站使用什么进行记录</title>
+      <link>https://www.reddit.com/r/webdev/comments/1g7nqum/what_do_very_high_traffic_sites_use_for_logging/</link>
+      <description><![CDATA[我为自己和他人编写自定义节点应用程序，但到目前为止，它们的大小都很适中。我制作了自己的小型日志模块，目前使用 pm2 查看它。它有一些不同的标志，我可以针对不同的环境等打开/关闭它们。但它仍然只是一个日志文件，我发现它对于调查网站上的奇怪现象几乎太有用了，即我记录的越多，它就越有用。我不知道如果流量增加 10 倍或更多我会怎么做，因为我认为 grep 会变得非常大。  那么，对于每天访问量超过 1k 的网站，典型的日志设置是什么？    提交人    /u/elendee   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1g7nqum/what_do_very_high_traffic_sites_use_for_logging/</guid>
+      <pubDate>Sun, 20 Oct 2024 01:23:30 GMT</pubDate>
+    </item>
     <item>
       <title>为什么有些公司使用静态网站来记录文档？</title>
       <link>https://www.reddit.com/r/webdev/comments/1g7nk88/why_do_some_companies_use_a_static_website_for/</link>
-      <description><![CDATA[我知道有很多方法可以创建文档，但我注意到有些公司有自己的静态网站仅用于文档。为什么？    提交人    /u/Annual-Ad-416   [link] [评论]]]></description>
+      <description><![CDATA[我知道有很多方法可以创建文档，但我注意到有些公司有自己的静态网站，仅用于文档。为什么？ 编辑：该死，我只是出于好奇才问的。并不是想冒犯什么的。没有反对静态 Web 文档的意思，只是问问。我并不是将它与动态网站进行比较，更像是其他工具，例如 Confluence、markdown、google doc。天哪。    提交人    /u/Annual-Ad-416   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1g7nk88/why_do_some_companies_use_a_static_website_for/</guid>
       <pubDate>Sun, 20 Oct 2024 01:13:05 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[        提交人    /u/Anomalydetector   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1g7ko77/cicube_we_build_a_tool_to_provide_monitoring/</guid>
       <pubDate>Sat, 19 Oct 2024 22:43:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>WebP 图像是否值得回退？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1g7kkwf/is_it_worth_having_fallbacks_for_webp_images/</link>
-      <description><![CDATA[我一直在优化为客户构建的网站，并且正在考虑使用 WebP 来处理图像。我想知道是否仍有必要为不支持 WebP 的浏览器添加 JPEG 或 PNG 等后备格式。 看起来现代浏览器现在都支持 WebP，那么是否值得付出额外的努力来添加这些后备格式，或者 WebP 支持是否已经变得足够广泛，不再是问题？是否存在后备格式仍然重要的特定用例或区域？任何处理此问题的技巧或最佳实践都将不胜感激！    提交人    /u/Coding-Newbie   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1g7kkwf/is_it_worth_having_fallbacks_for_webp_images/</guid>
-      <pubDate>Sat, 19 Oct 2024 22:38:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了一个色情明星股票市场</title>
-      <link>https://www.reddit.com/r/webdev/comments/1g7k3h0/i_made_a_pornstar_stock_market/</link>
-      <description><![CDATA[  由    /u/hellalosses  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1g7k3h0/i_made_a_pornstar_stock_market/</guid>
-      <pubDate>Sat, 19 Oct 2024 22:13:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个类似 iOS 的 Web 应用引擎</title>
-      <link>https://www.reddit.com/r/webdev/comments/1g7jr0k/i_made_an_ioslike_web_app_engine/</link>
-      <description><![CDATA[我尝试尽可能精确地重新创建 iOS 系统应用程序 UI，即使没有 iPhone。 要使用此引擎创建自己的网站，您必须编写应用程序的布局（JSON），并将脚本和样式表导入空白网站。它会自动生成元素。 请注意，这仍处于早期开发阶段，您可能会遇到限制、错误，或者只是找不到元素类型。    提交人    /u/OptimalAnywhere6282   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1g7jr0k/i_made_an_ioslike_web_app_engine/</guid>
-      <pubDate>Sat, 19 Oct 2024 21:56:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
