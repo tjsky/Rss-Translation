@@ -4,7 +4,7 @@
     <title>帖子 IndieHackers</title>
     <link>https://feed.indiehackers.world</link>
     <description>这是 indiehackers.com 的非官方信息</description>
-    <lastBuildDate>Tue, 22 Oct 2024 18:21:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 21:15:13 GMT</lastBuildDate>
     <item>
       <title>50-50 规则如何改变我的初创公司的增长</title>
       <link>https://feed.indiehackers.world/post/668479bc0b</link>
@@ -34,7 +34,7 @@ get(&quot;/api/employees/&quot; + testEmployee.getId())
 .body(&quot;id&quot;, equalTo((int) testEmployee.getId())) // 确保 ID 正确
 .body(&quot;firstName&quot;, equalTo(&quot;John&quot;))
 .body(&quot;lastName&quot;, equalTo(&quot;Doe&quot;))
-.body(&quot;email&quot;, equalTo(&quot;john.doe@example.com&quot;&gt;john.doe@example.com&quot;));
+.body(&quot;email&quot;, equalTo(&quot;john.doe@example.com&quot;));
 
 @Test
 public void testUpdateEmployee() {
