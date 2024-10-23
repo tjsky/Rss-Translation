@@ -4,7 +4,20 @@
     <title>帖子 IndieHackers</title>
     <link>https://feed.indiehackers.world</link>
     <description>这是 indiehackers.com 的非官方信息</description>
-    <lastBuildDate>Tue, 22 Oct 2024 21:15:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 01:10:16 GMT</lastBuildDate>
+    <item>
+      <title>5 个严峻的营销事实以及如何解决它们</title>
+      <link>https://feed.indiehackers.world/post/5719077c86</link>
+      <description><![CDATA[了解这些事实是您迈向真正进步的第一步。当您在科技世界中前进时，请记住，好的品牌不仅仅是被看到——它还在于与您的客户真正想要和需要的东西建立联系并产生共鸣。
+作为一个多年来一直在应对这些挑战的人，我很乐意提供帮助。如果您想聊聊如何将您的愿景变成人们信赖的现代品牌，请随时与我们联系。
+让我们联系 - 
+LinkedIn - https://www.linkedin.com/in/victorbonora
+Instagram - https://www.instagram.com/theoutsidevision
+电子邮件 - theoutsidevision@gmail.com
+Discord Indiehackers 聊天广告 此处]]></description>
+      <guid>https://feed.indiehackers.world/post/5719077c86</guid>
+      <pubDate>Mon, 21 Oct 2024 17:09:43 GMT</pubDate>
+    </item>
     <item>
       <title>50-50 规则如何改变我的初创公司的增长</title>
       <link>https://feed.indiehackers.world/post/668479bc0b</link>
@@ -34,7 +47,7 @@ get(&quot;/api/employees/&quot; + testEmployee.getId())
 .body(&quot;id&quot;, equalTo((int) testEmployee.getId())) // 确保 ID 正确
 .body(&quot;firstName&quot;, equalTo(&quot;John&quot;))
 .body(&quot;lastName&quot;, equalTo(&quot;Doe&quot;))
-.body(&quot;email&quot;, equalTo(&quot;john.doe@example.com&quot;));
+.body(&quot;email&quot;, equalTo(&quot;john.doe@example.com&quot;&gt;john.doe@example.com&quot;));
 
 @Test
 public void testUpdateEmployee() {
@@ -165,20 +178,6 @@ WordPress 营销
 Discord Indiehackers 聊天广告 此处]]></description>
       <guid>https://feed.indiehackers.world/post/0049ffb0fe</guid>
       <pubDate>Wed, 16 Oct 2024 06:02:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>最新消息：a16z 解释如何在人工智能时代进行销售</title>
-      <link>https://feed.indiehackers.world/post/c536dca204</link>
-      <description><![CDATA[Channing 的推文精选 🐦
-
-只要 WordPress 的剧情不断上演，我们就会不断收获。—@channingallen
-喜欢这份时事通讯吗？ 🏁
-将其转发给朋友，并让他们知道他们可以此处订阅。
-此外，您可以提交一个部分以供我们包含在未来的新闻通讯中。
-特别感谢 Jay Avery 编辑本期内容，感谢 Gabriella Federico 提供插图，感谢 Stephen Flanders、Michelle Hampson、Darko Gjorgjievski 和 James Fleischmann 贡献帖子。 —_Channing_
-Discord Indiehackers Chat广告这里]]></description>
-      <guid>https://feed.indiehackers.world/post/c536dca204</guid>
-      <pubDate>Tue, 15 Oct 2024 19:36:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
