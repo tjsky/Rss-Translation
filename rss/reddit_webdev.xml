@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 26 Oct 2024 01:08:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 03:19:50 GMT</lastBuildDate>
+    <item>
+      <title>创建了一个简单的本地流媒体网站 - SOYO</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gcb9iw/created_a_simple_local_streaming_website_soyo/</link>
+      <description><![CDATA[SOYO - Stream Own Your Own 因为我想在手机上看动漫但没有剩余存储空间，所以做了这个，把我的膝盖变成了本地服务器，现在可以从中流式传输内容 fal3n-4ngel/Soyo 查看建议和评论，感谢您的建议和评论，如果您喜欢，请留下一个 github 星星    提交人    /u/hi_kki   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gcb9iw/created_a_simple_local_streaming_website_soyo/</guid>
+      <pubDate>Sat, 26 Oct 2024 02:36:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>用大约 150 行纯 JavaScript 代码对 8 位迷你游戏进行简单重制</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gc9t8m/a_simple_remake_of_an_8_bit_minigame_in_150_lines/</link>
+      <description><![CDATA[        提交人    /u/swe129   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gc9t8m/a_simple_remake_of_an_8_bit_minigame_in_150_lines/</guid>
+      <pubDate>Sat, 26 Oct 2024 01:13:57 GMT</pubDate>
+    </item>
     <item>
       <title>React 的替代品?</title>
       <link>https://www.reddit.com/r/webdev/comments/1gc9ace/alternatives_to_react/</link>
@@ -25,6 +39,13 @@
       <description><![CDATA[很高兴收到有关我的作品集的一些反馈和建议，包括其设计和引人注目的功能，以及项目和作品的质量。谢谢！ https://www.aleganza.dev    提交人    /u/aleganza_   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gc7xav/rate_my_portfolio/</guid>
       <pubDate>Fri, 25 Oct 2024 23:35:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求建议以确保 Web 开发人员遵循我的 Figma 设计并创建 SEO 友好型网站（WordPress 与自定义构建）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gc7tgz/seeking_advice_on_ensuring_a_web_developer_sticks/</link>
+      <description><![CDATA[大家好，我最近在 Figma 中为我的新业务设计了一个网站 UI，现在我想聘请一名开发人员来实现它。我不知道是让他们通过自定义代码还是 WordPress 来构建它，该网站只有 7 页，包括标准的公司信息、我们做什么、示例、联系方式、隐私等... 但我主要关心的是。   忠实于我的设计：我希望开发人员完全遵循 Figma 设计，而不会偷工减料或进行不必要的更改。 SEO 友好代码：由于我的编码知识很少，我担心如何确保开发人员创建一个干净的、SEO 优化的网站，以便它可以在 Google 上获得良好的排名。 开发后检查：我想知道是否应该在之后聘请其他专业人员（例如 SEO 专家或网络审核员）来验证网站是否设置正确并且不会损害我的搜索引擎排名。 WordPress 与自定义构建的 SEO：使用 WordPress 与自定义编码网站时，是否存在 SEO 限制或优化潜力差异？使用 WordPress 网站是否有可能获得 Google 首页排名，或者自定义编码对 SEO 有优势？  我应该特别要求或注意什么以确保我的开发人员做得正确？此外，任何关于如何表述我的期望的建议，以便他们知道我理解基础知识，都会非常有帮助。感谢您提供的任何指导！ P.s. 我知道 SEO 不仅仅是网页设计和性能，但这个问题目前是基于网站的前端和后端，所以我只是更好地理解，如果有人可以给我一些提示和建议。 谢谢大家    提交人    /u/yosafa1990   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gc7tgz/seeking_advice_on_ensuring_a_web_developer_sticks/</guid>
+      <pubDate>Fri, 25 Oct 2024 23:30:33 GMT</pubDate>
     </item>
     <item>
       <title>作为新人，简历中应该写些什么？</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[有一个输入框和一个表格，在输入框中输入内容时，表格中会显示表格第一行最相似的值。 输入并搜索值时，可以正常工作。但是使用 JavaScript 更改输入框的值时，表格不会接收输入框中输入的值。 如何使用 JS 更改输入框的值，并让表格理解输入了值？ -&gt; 使用 document.querySelector(...).setAttribute(&#39;value&#39;, &#39;desired value&#39;); 和 dispatchEvent() 解决问题。    submitted by    /u/dexteriano   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gc1vp4/how_to/</guid>
       <pubDate>Fri, 25 Oct 2024 18:59:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>理解在运行单个选项卡的浏览器上访问单个站点时产生的如此多进程的最佳方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gc0z16/whats_the_best_way_to_understand_so_many/</link>
-      <description><![CDATA[如所问。当访问页面时，Windows 操作系统会产生这么多进程。Linux 可能也是如此，尚未检查     提交人    /u/DesiBail   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gc0z16/whats_the_best_way_to_understand_so_many/</guid>
-      <pubDate>Fri, 25 Oct 2024 18:20:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻求建议 - Web 应用程序文档</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gc0xi2/seeking_advice_web_app_documentation/</link>
-      <description><![CDATA[大家好 - 我正在一个 Web 应用程序团队工作，我正在尝试制作跨职能文档，以便许多不同的团队可以从中提取价值。我的总体愿景是拥有以下文档：  业务案例 - 应用程序组件功能的描述性概述。例如，我们应用程序的注释选项卡会捕获用户所选产品的注释，以便他们以后可以了解他们对此的看法。 应用程序组件的屏幕截图 - 提供应用程序的视觉概述，并用线条等表示应用程序组件与其他组件的区别。显示它的基本位置。 API 操作 - 我知道 swagger（我们有它）可以做到这一点，但会捕获作为此组件的一部分发生的 API 调用的示例。例如，单击提交按钮会触发 POST - 想要标记进入该调用的参数 数据库操作 - 一旦生成类似上一个 API 调用的内容，我们需要执行哪些支持数据库查询才能检索以前的笔记或将它们写入  到目前为止，我们只是在 wiki 页面中执行此操作，但想知道是否有任何工具或多或少可以做到这一点或增强这种体验。 即使只是一个我们可以应用的通用框架也会有所帮助。 谢谢！    提交人    /u/golfmetric   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gc0xi2/seeking_advice_web_app_documentation/</guid>
-      <pubDate>Fri, 25 Oct 2024 18:18:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 monorepo 中组织测试模拟/存根的最佳实践？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gc0pbj/best_practice_for_organizing_test_mocksstubs_in_a/</link>
-      <description><![CDATA[我有一个 Turborepo monorepo，它有两个应用程序 - 一个 React + Vite 前端和一个 Fastify REST API。所有共享包都配置为原生 ES 模块（“type”：“module”），并且具有“sideEffects: false”，因为它们仅包含类型、模式和常量。 我需要为我的类型和模式添加测试模拟/存根，并且我正在尝试决定构建它们的最佳方式。它们应该放在类型旁边，还是放在单独的测试包中？ 这就是我的意思： 选项 1：共置模拟 import { ApiResponse, apiResponseStub } from &#39;@acme/contract&#39;; import { User, userStub } from &#39;@acme/database&#39;;从 &#39;@acme/common&#39; 导入 { Config, configStub };  选项 2：单独的测试包 从 &#39;@acme/contract&#39; 导入 { ApiResponse }; 从 &#39;@acme/database&#39; 导入 { User }; 从 &#39;@acme/common&#39; 导入 { Config }; 从 &#39;@acme/testing&#39; 导入 { apiResponseStub, userStub, configStub };  虽然将存根与其类型 / 模式放在一起感觉容易得多，但我还是有一些顾虑：  Tree-shaking 可靠性：即使使用 `sideEffects: false`，我能否相信测试代码不会泄漏到生产版本中？ 包结构：如果我使用单独的测试包，我应该如何组织它？  感谢我对此提供的任何意见 :)    提交人    /u/Busy-Spell-6735   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gc0pbj/best_practice_for_organizing_test_mocksstubs_in_a/</guid>
-      <pubDate>Fri, 25 Oct 2024 18:08:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
