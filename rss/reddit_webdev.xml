@@ -3,8 +3,99 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Wed, 30 Oct 2024 12:31:16 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Wed, 30 Oct 2024 15:17:21 GMT</lastBuildDate>
+    <item>
+      <title>我的作品集可以开始申请初级开发职位了吗？[链接在评论中]</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfox9j/is_my_portfolio_ready_to_start_applying_for/</link>
+      <description><![CDATA[        提交人    /u/WeirdDetail9   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfox9j/is_my_portfolio_ready_to_start_applying_for/</guid>
+      <pubDate>Wed, 30 Oct 2024 15:14:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>今年万圣节您如何装饰您的网站？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfogla/how_do_you_decorate_your_website_for_halloween/</link>
+      <description><![CDATA[链接或款待    由   提交  /u/Hellobox1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfogla/how_do_you_decorate_your_website_for_halloween/</guid>
+      <pubDate>Wed, 30 Oct 2024 14:55:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tiptap 目录 初始内容</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfof96/tiptap_table_of_contents_initial_content/</link>
+      <description><![CDATA[我对 Tiptap 的目录扩展非常失望。我有初始内容。但是，页面加载时目录将为空。由于编辑器中有内容，我期望目录已经反映了这一点。但它是空的，直到我手动编辑内容。  即使是官方的 Tiptap 模板也存在这个问题：https://templates.tiptap.dev/rw9fKC8JrC 有人可以给我指明正确的方向吗？    提交人    /u/control_the_mind   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfof96/tiptap_table_of_contents_initial_content/</guid>
+      <pubDate>Wed, 30 Oct 2024 14:53:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何将图片对齐到 div 的右下角或左下角，无需绝对定位或弹性定位</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfof7e/how_can_i_align_picture_to_bottom_right_or_bottom/</link>
+      <description><![CDATA[      我正在寻找这样做。我不能使用 position absolute，因为文本不会换行，也不能使用 flex 将所有内容放在底部，因为这会弄乱文本。还有其他方法吗？我在这里和其他地方找到了解释，说使用 position absolute 或 flex 来做到这一点，但都没有像我想要的那样工作。这是我目前拥有的代码。它没有我曾经尝试过和删除的所有内容，但它是可以借鉴的。 ``` m3{ grid-row: 3; grid-column: 3; border-style: solid; position:relative; padding: 10px;  &gt; m4{ grid-row: 3; grid-column: 4; border-style: solid; position:relative; padding: 10px;  &gt; .bl{ float: left; width: 25%; height: 25%; padding: 5px;  .br{ float: right; width: 25%; height: 25%; padding: 5px; } ```    提交人    /u/DanSensei   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfof7e/how_can_i_align_picture_to_bottom_right_or_bottom/</guid>
+      <pubDate>Wed, 30 Oct 2024 14:53:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>制造先进组件</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfoe0c/making_advanced_components/</link>
+      <description><![CDATA[我目前正在参加高级路径课程，还有一个目标：通过使用 React、Tailwind CSS 和 TypeScript 构建复杂组件，遵循常见模式并使用状态繁重的组件来提高我的前端技能。我的目标是获得高级样式技术的经验并达到熟练程度以获得远程工作。您能推荐一些样式资源吗？您对这种方法有什么反馈吗？谢谢 :)    提交人    /u/ferhattaher   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfoe0c/making_advanced_components/</guid>
+      <pubDate>Wed, 30 Oct 2024 14:52:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>什么 Web 技术栈适合我学习？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfoded/what_web_stack_is_right_to_learn_for_me/</link>
+      <description><![CDATA[大家好， 我受到了Pieter Levels 对 Lex Friedman 的采访的启发。Pieter 几乎都在自己的网站上进行开发，并且每月从这些网站上赚取约 176k 美元 Pieter 表示，他仍然使用 PHP、jquery 和 sqlight 来构建他的网站。这是因为这些是他熟悉的技术，他没有太多时间去学习其他东西。 此外，Pieter 认为，许多现代框架只是营销得很好，而不是真正适合他的东西。 问题：作为一名非专业 Web 开发人员，我应该学习什么样的实用技术堆栈才能构建商业网站？ 我的背景：  对 HTML 和 CSS 有基本的了解 相当好的 Python 知识（但与 Web 无关）。所以我真的很想使用 Python 作为后端，据我所知，这限制了我使用 flask、fastAPI 和 Django。 相当好的 Javascript 知识，但在应用 Google Apps Script 方面     提交人    /u/Chary_314   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfoded/what_web_stack_is_right_to_learn_for_me/</guid>
+      <pubDate>Wed, 30 Oct 2024 14:51:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在 IOS 上使用 Capacitorjs 调试获取请求？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfocg5/how_to_debug_fetch_request_with_capacitorjs_on_ios/</link>
+      <description><![CDATA[我试图弄清楚为什么我的 fetch 调用错误只在我的 ios 设备上，它在浏览器和模拟器中有效，但是当我直接从手机上运行它时，它不起作用并且只返回错误消息：“加载失败”，这是一些苹果的东西，不会暴露太多信息 这是请求的代码： export async function login(credentials: LoginCredentials): Promise&lt;boolean&gt; { console.log(&quot;LOGIN API_URL:&quot;, API_URL , &quot;creds&quot;, credentials, `full url: ${ API_URL }/api/login`);尝试 { const response = await fetch(`${ API_URL }/api/login`, { method: &#39;POST&#39;, headers: { &#39;Accept&#39;: &#39;application/json&#39;, &#39;Content-Type&#39;: &#39;application/json&#39;, }, body: JSON .stringify(credentials), }); console .log(&quot;请求发送后&quot;) if (!response.ok) { const errorText = await response.text(); // 在此处记录完整的响应和状态代码 console .error(&#39;HTTP 错误！&#39;, &#39;状态：&#39;, response.status, &#39;响应：&#39;, errorText); return false; } console .log(response) const tokens: AuthTokens = await response.json(); await saveTokens(tokens); return true; } catch (error) { console .error(&#39;登录失败：&#39;, error.message, error.stack); return false; } }  我检查了控制台中的 URL 以及正确的电子邮件和密码： 我如何从中获取更多信息？XCode 网络检查器也不起作用，它不允许我扩展 http 流量跟踪。 当我从 http 客户端发送请求时，请求有效。 任何帮助都值得赞赏。请求在 ios 模拟器中有效！    提交人    /u/SleepAffectionate268   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfocg5/how_to_debug_fetch_request_with_capacitorjs_on_ios/</guid>
+      <pubDate>Wed, 30 Oct 2024 14:50:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit 与 ResearchGate 网站（不适合移动设备）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfnm8e/reddit_meets_researchgate_site_not_mobile_friendly/</link>
+      <description><![CDATA[编辑：抱歉，我不得不重新提交以更改标题 我的想法是 reddit 与 researchgate 的结合，因此研究人员/学生可以在这里讨论各种研究主题/趋势 简短的博客文章：https://dianetc.github.io/musings/kleesia/ 代码：https://github.com/dianetc/kleesia 网站：https://www.kleesia.com/ 您可以使用以下凭据进行测试： 电子邮件：[tester@umd.edu](mailto:tester@umd.edu) pwd: tester 仍存在很多问题: (1) 不适合移动设备，(2) 无法编辑/删除评论，(3) 闪烁问题，(4) 没有多级评论，(5) 可以看到其他用户的个人资料 可能还有更多 任何关于此的反馈都将非常有用！    提交人    /u/MathMajor19   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfnm8e/reddit_meets_researchgate_site_not_mobile_friendly/</guid>
+      <pubDate>Wed, 30 Oct 2024 14:18:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>我是不是想太多了？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfmzzc/am_i_overthinking_auth/</link>
+      <description><![CDATA[当我正在构建一个网站（一个带有推荐系统的简单书店网站）进行身份验证/授权时，我对使用什么方法进行身份验证感到困惑，我应该使用简单会话还是 JWT？还是 OAuth？ 我知道会话和 JWT 之间的区别，主要区别在于会话存储在数据库中，会话 ID 通过 cookie 发送到客户端，当然，正因为如此，会话是有状态的，而 JWT 是无状态和轻量级的，不需要每次都调用数据库。 会话需要多次数据库调用，而 JWT 的问题是如何安全地存储它们以及如何使它们失效。 如果我采用使用访问令牌和刷新令牌对的方法，将访问令牌作为 httpOnly 安全 cookie 发送，并将刷新令牌存储在我的数据库中，并且每当访问令牌过期时，我都可以生成一对新的令牌，这对于身份验证来说足够吗？因为（别来找我），我认为这种方法解决了 JWT 的问题。 或者我应该只使用 OAuth2？ 我怎么知道何时使用什么方法进行身份验证？     由    /u/Not-the_honouredOne  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfmzzc/am_i_overthinking_auth/</guid>
+      <pubDate>Wed, 30 Oct 2024 13:50:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌首席执行官表示，公司超过四分之一的新代码是由人工智能创建的 - 代码生成后，会由员工进行检查和审查，他补充道</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfmyr1/google_ceo_says_more_than_a_quarter_of_the/</link>
+      <description><![CDATA[        提交人    /u/magenta_placenta   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfmyr1/google_ceo_says_more_than_a_quarter_of_the/</guid>
+      <pubDate>Wed, 30 Oct 2024 13:49:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用了多年 Laravel + Vue 后，我决定尝试 Next。使用一周后，我无法想象自己会再回去。感觉就像我在 3 英尺深的水中奔跑却没有意识到。我错过了什么？有什么问题会让我怀念 Laravel？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfmv31/after_years_of_laravel_vue_i_decided_to_try_next/</link>
+      <description><![CDATA[使用一种语言而不是两种语言非常棒，拥有一个流畅的代码库也很棒。但是，做这么多事情是多么容易，这才是最大的吸引力。 最佳示例：服务器操作 Laravel + Vue 方式是您的 Vue 方法通过您公开的 API 访问您的控制器，控制器获取您的数据并将其作为 json 响应返回给方法。 在 Next 中，您只需在与 HTML 相同的文件中编写一个快速方法即可。而且没有 json，它只返回数据。 getUsersFromDb() { // 几行代码。return prisma(&#39;users&#39;).all();或者类似的东西。 &gt; 在 Laravel 中，这就像在 4 个不同的地方总共 30 行代码一样。 简而言之，这就是 Next 的样子。更干净、更快、更容易。 我知道在某个时候我会说“哦……”但我只是不知道为什么。我错过了什么？为什么 Laravel 更好或至少是相当的。    提交人    /u/Fit_Examination_8315   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfmv31/after_years_of_laravel_vue_i_decided_to_try_next/</guid>
+      <pubDate>Wed, 30 Oct 2024 13:44:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>当谈到我的服务安全时，我实际上应承担哪些责任？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfmimh/what_actually_falls_under_my_responsibility_when/</link>
+      <description><![CDATA[为了使我的服务更安全，我需要做些什么？ 你好！我是一名全栈开发人员，但在网络安全方面没有任何经验，对该领域的了解有限。 我有一个 Node.js 应用程序，它将数据托管在 Supabase 中的 Sequallize DB 上，并将服务器托管在 Railway 上。我使用 jwt 构建了身份验证，私钥作为环境变量存储在 Railway 中。 除了在我的路线中进行基本检查（例如允许用户根据我服务的逻辑执行某些操作）之外，我还需要做些什么来使我的服务更安全，还是这都是 Railway 和 Supabase 的责任？ 我想为我的用户提供安全的服务，但不确定还能做些什么？当服务/公司开始托管自己的服务器而不是像我一样依赖其他提供商时，他们在网络安全方面的主要工作是否都从他们开始托管自己的服务器开始？或者现在还有很多工作要做？ 同样，我已经拥有基于 JWT 的 Auth 的可靠实现，以及基于角色/用户的访问，因此基本内容都已涵盖。    提交人    /u/Yanaytsabary   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfmimh/what_actually_falls_under_my_responsibility_when/</guid>
+      <pubDate>Wed, 30 Oct 2024 13:28:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Webdev 工作室网站的页面体验和 SEO</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gfljtk/page_experience_and_seo_of_webdev_studio_sites/</link>
+      <description><![CDATA[我看到很多 webdev studio 网站，其他人通过这里的帖子来寻找灵感，我发现它们在 pagespeed insights 上的排名通常很差，加载时间非常长。还有相当多的滚动劫持，我觉得用户通常会对此感到恼火（当然，这取决于它是如何完成的）。即使在他们自己的网站之外查看他们的项目，这些问题似乎仍然存在。我是否错过了什么，或者这些灵感是否更侧重于设计方面，而不是用户体验和实际的网站速度和响应能力？ 背景信息：3 年前在这里从事网络开发的系统管理员。我打算重新开始做兼职，因为我的时间表允许我有很多空闲时间，而且我已经自动化了很多工作。对我来说，/u/Citrous_Oyster 是激励我重新开始的一大因素，我总体上似乎同意他的观点，即企业，尤其是个人开发者可能与之合作的小型企业，通常只关心网站是否看起来干净整洁，是否在所有设备上运行良好。过去，他们从网站到企业的转化率更高，他们往往似乎并不真正关心，因此制作降低用户体验的华而不实的元素在我看来是一种浪费。 编辑以添加：我还看到一些投资组合最终看起来非常漂亮，但除了快速连接之外，我无法想象体验会是怎样的。我最近看到的最糟糕的获得称赞的作品（我不会提到具体细节）是一个投资组合，虽然设计得非常好，但得分为 23/100，通过洞察完全加载需要大约 7 秒的时间。    提交人    /u/No-Razzmatazz7854   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gfljtk/page_experience_and_seo_of_webdev_studio_sites/</guid>
+      <pubDate>Wed, 30 Oct 2024 12:40:35 GMT</pubDate>
+    </item>
     <item>
       <title>忘记了我的发布，获得了当天产品徽章。Web 开发太棒了！</title>
       <link>https://www.reddit.com/r/webdev/comments/1gfkyvs/forgot_my_launch_got_product_of_the_day_badge_web/</link>
@@ -18,97 +109,6 @@
       <description><![CDATA[Hi redditers，我是亚马逊的一名 SDE，从事全栈开发，除了工作之外，我想学习一些东西，可以是任何东西，不仅仅是与 Web 开发相关，你认为什么有趣且有用值得学习。 我的技术栈是：React、java、spring、graphql    提交人    /u/Realistic-You-4684   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gfkftz/what_is_good_to_learn_right_now/</guid>
       <pubDate>Wed, 30 Oct 2024 11:39:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建交互式 3D Hero 动画</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfk3jg/building_an_interactive_3d_hero_animation/</link>
-      <description><![CDATA[        提交人    /u/enyovelcora   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfk3jg/building_an_interactive_3d_hero_animation/</guid>
-      <pubDate>Wed, 30 Oct 2024 11:19:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Twilio 的 WhatsApp 消息替代品</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfjbak/alternatives_for_twilio_for_whatsapp_messages/</link>
-      <description><![CDATA[嗨， 我正在开发一个可以在 whatsapp 上发送一些消息的应用程序。没有花哨的 AI 东西，只有一些关于约会或类似内容的模板消息。所以我在研究如何集成它。我看到 Twilio 是这里最著名的竞争者，但它似乎有点矫枉过正而且很贵 (?)。  你们有人用过其他 API 来实现这个吗？它应该支持 whatsapp 上的一些商业消息，就是这样。    提交人    /u/NiPinga   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfjbak/alternatives_for_twilio_for_whatsapp_messages/</guid>
-      <pubDate>Wed, 30 Oct 2024 10:27:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找非技术客户易于理解的网站托管业务创意</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfj9er/looking_for_ideas_for_a_webhosting_business_that/</link>
-      <description><![CDATA[当然，问题在于涉及三个不同的系统，它们被分开出售。我可以使用 WHMCS 或（可能更好的）其他系统进行销售，我甚至可以使用像 shopify 这样的系统，尽管我从未使用过它。我可以使用 Plesk 或 cPanel 进行托管，我甚至可以让客户访问 DNS 服务提供商，我自己充当经销商。虽然 DNS 设置可以在其他两个系统中完成。无论如何，关键是，作为客户，您不必关心什么是什么。这对您来说是一样的。您希望一个登录名就可以完成所有事情。我更想考虑 Laravel 项目，或者我可以在 WP 中完成，客户看到他们的网络空间已满，然后按下按钮购买更多空间。我不确定我是否可以从托管面板获得这样的反馈，比如 WHMCS，尽管也许我缺乏经验（和远见，哈哈哈）。  我只是在这里寻找想法，因为我是一个有想法但经验不足的人。如果有人碰巧知道 Blesta 可以成为我需要的前端，但它最适合 cPanel，并且需要特定的 DNS 提供商，那么这对我来说将是有价值的信息。这里有人以前做过这样的项目吗？非常感谢    提交人    /u/EmPalsPwrgasm   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfj9er/looking_for_ideas_for_a_webhosting_business_that/</guid>
-      <pubDate>Wed, 30 Oct 2024 10:23:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有一个网站可以让我做日常项目？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfj6vx/is_there_a_site_where_i_can_do_daily_projects/</link>
-      <description><![CDATA[我很快就要从大学放假了，我想提高我的记忆力和不假思索地做事的能力，当涉及到 HTML、CSS 和 JavaScript 时。 有没有一个网站，里面有我可以跟着编写的日常项目，可以通过重复来帮助我提高自己。 提前谢谢您！    提交人    /u/dvjar   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfj6vx/is_there_a_site_where_i_can_do_daily_projects/</guid>
-      <pubDate>Wed, 30 Oct 2024 10:18:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>咆哮：我的客户不断做出突破性的用户体验发现：以牺牲边距为代价减少滚动更有利于内容的可读性。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfip6f/rant_my_client_keeps_on_making_the_groundbreaking/</link>
-      <description><![CDATA[他们每隔几个月就会这样做。 我是一名设计师/开发人员，为我所在地区的一家公司担任外部顾问。他们时不时地会要求我设计一个包含一些内容的新页面，我会按照要求进行设计。 作为一名主修用户体验设计的好心设计师，我充分利用了边距和空白，在文本块之间留出喘息空间。而且每隔一段时间他们就会想出这样的想法，即每个内容，无论长度如何，都应该适合两次折叠，最好是一次折叠。 我确实每次都设法说服他们，带有滚动条的一些边距比没有滚动条的边距要好，但他们完全忘记了我们进行过这次谈话，并且循环重复。 这个客户付的钱很多，而且通常只要我保持他们的网站运行，他们就不会妨碍我，但是当这种情况发生时，我真的想停止为这个客户工作，无论他们付多少钱......    提交人    /u/hdd113   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfip6f/rant_my_client_keeps_on_making_the_groundbreaking/</guid>
-      <pubDate>Wed, 30 Oct 2024 09:44:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>指数速率限制</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfi8ey/exponential_rate_limiting/</link>
-      <description><![CDATA[  由    /u/fagnerbrack  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfi8ey/exponential_rate_limiting/</guid>
-      <pubDate>Wed, 30 Oct 2024 09:08:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有办法在网站上显示 turtle 和 colorsys 库？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfi5ir/is_there_a_way_to_display_the_turtle_and_the/</link>
-      <description><![CDATA[我尝试使用 trinket，但它说他们还不支持 colorsys，有解决方法吗？    提交人    /u/KyleIstGeil   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfi5ir/is_there_a_way_to_display_the_turtle_and_the/</guid>
-      <pubDate>Wed, 30 Oct 2024 09:01:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Firefox 开发人员</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfi3u2/firefox_developer/</link>
-      <description><![CDATA[嗨，我刚刚发现了 Firefox 开发者版的存在。 过去几年我一直在专门使用 Chrome，想知道这里是否有人有文章或教程可以带我了解其最重要的功能以及它与 Chrome 工具包的区别。 提前谢谢您！    提交人    /u/Mrcheeseburger96   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfi3u2/firefox_developer/</guid>
-      <pubDate>Wed, 30 Oct 2024 08:58:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 SVG Sprite 创建可重复使用的 Font Awesome 风格图标</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfhkgj/use_svg_sprite_to_create_reusable_font_awesome/</link>
-      <description><![CDATA[在我的组织中，我们旨在为我们的自定义需求创建引导样式资源。作为其中的一部分，我正在创建图标资源。开发人员可以在界面上看到图标列表，然后单击它们以复制代码片段并粘贴以呈现图标。目前，由于我正在使用 svg-sprite，开发人员在单击图标时将复制的代码是 &lt;svg&gt;&lt;use href=&quot;path_to_svg-sprite#icon-name /&gt;&lt;/svg&gt;，但这会暴露正在使用的 svg-sprite 的路径。所以我不想要这个，我只想通过 &lt;i class=&quot;icon-name&quot;&gt;&lt;/i&gt; 来呈现图标，类似于 font awesome。有人可以指导我吗？之前，我对单个 svg 文件使用了 SVG 的 CSS Mask，但效率不高，因此我改用了 SVG Sprite。    submitted by    /u/SmilingBuddha_   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfhkgj/use_svg_sprite_to_create_reusable_font_awesome/</guid>
-      <pubDate>Wed, 30 Oct 2024 08:15:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netlify 踢出使用 Cloud flare 作为 cdn 的网站。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfgkgh/netlify_kicking_websites_off_that_use_cloud_flare/</link>
-      <description><![CDATA[多个用户在 netlify 论坛上报告了同一问题。     由   提交  /u/josephadam1   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfgkgh/netlify_kicking_websites_off_that_use_cloud_flare/</guid>
-      <pubDate>Wed, 30 Oct 2024 06:55:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们使用 astro.js、hugo、jekyll 网站构建静态网站收费多少？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gffz5e/how_much_do_you_guys_charge_for_building_static/</link>
-      <description><![CDATA[我想构建一些 astro js、hugo、jekyll 模板。所以想找自由职业者来做这个副业？ 我应该只使用预先构建的开源模板吗？    提交人    /u/EliteEagle76   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gffz5e/how_much_do_you_guys_charge_for_building_static/</guid>
-      <pubDate>Wed, 30 Oct 2024 06:09:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 CI/CD 中处理环境变量和机密的最佳实践？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfeujh/best_practices_for_handling_environment_variables/</link>
-      <description><![CDATA[大家好， 我的朋友必须为全栈应用程序 (React、Node.js、PostgreSQL) 设置 CI/CD，并遇到部署脚本和环境配置问题，尤其是在暂存和生产之间移动时。在部署期间安全地管理环境变量和机密的最佳方法是什么？任何有关工具或最佳实践的提示都将非常有用。谢谢    提交人    /u/RitikaRawat   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfeujh/best_practices_for_handling_environment_variables/</guid>
-      <pubDate>Wed, 30 Oct 2024 04:50:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助理解 API 密钥</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gfe5dr/help_understanding_api_keys/</link>
-      <description><![CDATA[上下文：我正在为行为轮次做准备，并试图回忆代码库。试图解决冲突 我需要你的帮助来弄清楚 API 密钥及其存储。 代码库的前端在请求标头中使用硬编码的静态 API 密钥（团队负责人每隔几周就会更改一次）。然后在后端进行比较（在 javascript 中使用 ===）。只有密钥匹配时，才会处理请求。 据我所知，它应该是一个私有 API 密钥（我是对的吗？）。前端的 API 密钥是硬编码的，存储在变量中（大 LMAO），更不用说 .env 文件了。 存储密钥的正确/可接受方式是什么。我知道任何最终出现在前端的东西都不再是秘密了。 我知道很多人会说“将密钥存储在后端”，但我又有一个后续问题 - 如果前端无法访问后端，它如何首先获取密钥？对我来说，这有点像僵局。 我知道我听起来很蠢 :(    提交人    /u/Extreme-Effort6000   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gfe5dr/help_understanding_api_keys/</guid>
-      <pubDate>Wed, 30 Oct 2024 04:06:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
