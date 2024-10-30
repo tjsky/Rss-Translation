@@ -4,18 +4,67 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 29 Oct 2024 18:22:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 03:24:05 GMT</lastBuildDate>
     <item>
-      <title>你的开源 h 指数是多少？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gf0ubc/what_is_your_open_source_hindex/</link>
-      <description><![CDATA[        提交人    /u/gorimur   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gf0ubc/what_is_your_open_source_hindex/</guid>
-      <pubDate>Tue, 29 Oct 2024 17:52:54 GMT</pubDate>
+      <title>K4 - 高性能开源事务、持久存储引擎/嵌入式数据库</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gfdb5t/k4_high_performance_open_source_transactional/</link>
+      <description><![CDATA[向我的开源爱好者们问好！我想向你们介绍一种新的开源存储引擎/嵌入式数据库，适用于 GO 和其他语言，名为 K4！ K4 是一个可以嵌入到您的应用程序中并用作快速、持久、耐用、事务性存储解决方案的库。 K4 建立在日志结构合并树之上，以优化写入，但也提供非常高效的读取速度。 基准测试 ------------------------------------- goos：linux goarch：amd64 pkg：github.com/guycipher/k4 cpu：第 11 代 Intel(R) Core(TM) i7-11700K @ 3.60GHz BenchmarkK4_Put BenchmarkK4_Put-16 158104 6862 ns/op # 145,000 ops/s 特点 ------------------------------------- - 高速写入和读取 -耐用性 - 可变长度的二进制键和值。键及其值可以是任意长度 - 预写日志 (WAL)。系统在将 PUT 和 DELETE 操作应用于 LSM 树之前，将它们写入日志文件。 - 原子事务。多个 PUT 和 DELETE 操作可以组合在一起并以原子方式应用于 LSM 树。 - 配对压缩。SSTable 在压缩期间配对并合并为单个 SSTable。这减少了 SSTable 的数量并最大限度地减少了读取操作的磁盘 I/O。 - Memtable 作为跳过列表实现。 - 内存和基于磁盘的存储 - 可配置的 memtable 刷新阈值 - 可配置的压缩间隔（以秒为单位） - 可配置的日志记录 - 可配置的跳过列表 - 布隆过滤器用于更快的查找。 SSTable 初始页面包含一个布隆过滤器。 - 在扫描 SSTable 之前，系统使用布隆过滤器确定键是否在 SSTable 中。 - 从 WAL 恢复 - 细粒度页面锁定 - 线程安全 - TTL（生存时间）支持 - 可选压缩支持（简单轻量级和优化的 Lempel-Ziv 1977 启发压缩算法 - 范围和等值功能（Get、NGet、Range、NRange、GreaterThan、GreaterThanEq、LessThan、LessThanEq） - 无依赖项 我目前正在研究 C 绑定，然后我将为各种语言创建 FFI，包括 Python、Node.JS、Ruby、Java 等！ 请让我知道您的想法！:)    提交人    /u/diagraphic   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gfdb5t/k4_high_performance_open_source_transactional/</guid>
+      <pubDate>Wed, 30 Oct 2024 03:17:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tuxguitar 刚刚毁掉了我的 PC。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gfcwn1/tuxguitar_just_murdered_my_pc/</link>
+      <description><![CDATA[Tuxguitar 是一个开源吉他指法谱编辑器。在原先的负责人离职后，该项目更换了领导层；现在官方下载在 SourceForge 和 GitHub 上。这个 subreddit 已经关闭多年了，所以我不知道在哪里问这个问题。 我从 GitHub 页面下载了 Mac 和 Windows 的官方稳定安装程序。在每个平台上，它们都被独立标记为潜在恶意软件。 无论如何，我以管理员身份运行了 Windows 安装程序，要完成安装，它需要重新启动；重新启动后，我的电脑进入自动修复模式。任何修复或系统还原都无法修复它。 … Tuxguitar 是灾难性的损坏，还是纯粹的恶意软件？    提交人    /u/Plembert   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gfcwn1/tuxguitar_just_murdered_my_pc/</guid>
+      <pubDate>Wed, 30 Oct 2024 02:56:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>为任何项目自动生成有用的 README 文件的工具</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gf98il/a_tool_that_automatically_generates_a_useful/</link>
+      <description><![CDATA[我厌倦了从头开始编写 README，并且不得不为 LLM 提供大量上下文以使其准确，因此我使用 Google 的 Gemini API 构建了一个为您完成此操作的工具。 它会扫描您的项目，了解代码库，并生成详细的 README，其中包含安装步骤、使用示例以及您期望的所有其他内容。 https://github.com/mainnebula/ReadMe-Generator 您需要自己的 Gemini API 密钥，但 Google 会为您提供免费的每月积分，这对于此工具来说已经足够了。 这是我的第一个真正的 Python CLI 工具，我很乐意收到一些反馈 - 什么会让它对您的项目更有用？    提交人    /u/the_void_the_void   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gf98il/a_tool_that_automatically_generates_a_useful/</guid>
+      <pubDate>Tue, 29 Oct 2024 23:52:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Omnivore 正在加入 11 个实验室</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gf4zw8/omnivore_is_joining_eleven_labs/</link>
+      <description><![CDATA[大家好-  我们很高兴地告诉大家，Omnivore 正在与领先的 AI 音频研究和技术公司 ElevenLabs 合作。我们的团队将加入 ElevenLabs，通过其新的 ElevenReader 应用推动无障碍阅读和聆听的未来。 作为 ElevenLabs 团队的一员，我们将拥有一个更大的平台，为认真的读者创造无障碍且引人入胜的体验。我们通过将 ElevenLabs 超逼真的 AI 语音集成到 Omnivore 中而认识了他们——很快，使用 ElevenLabs 的声音收听文章和书籍就成为了 Omnivore 中最受欢迎的功能之一。我们很高兴有这个机会，我们想分享一些对您来说很重要的信息。 首先，邀请所有 Omnivore 用户在 ElevenReader 创建一个免费帐户。我们的团队已经为 ElevenReader 应用提供了有价值的更新，作为一款免费的首选阅读器和音频收听应用，它功能强大。 接下来，所有 Omnivore 用户都可以从服务中导出他们的信息，截止日期为 2024 年 11 月 15 日，此后所有信息都将被删除。 最后，ElevenLabs 致力于服务开发者社区，Omnivore 代码库将对所有用户保持 100% 开源。这一决定确保了更广泛的开发社区可以继续在 Omnivore 技术的基础上进行构建和改进。 如需了解有关 ElevenLabs 和 ElevenReader 应用的更多信息，或体验 AI 驱动的文本转语音技术的强大功能，请访问 elevenlabs.io 继续，杰克逊和洪博    提交人    /u/slashtab   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gf4zw8/omnivore_is_joining_eleven_labs/</guid>
+      <pubDate>Tue, 29 Oct 2024 20:44:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>pgai Vectorizer 今日发布（可在 GitHub 上获取），用于自动创建和同步 PostgreSQL 中的向量嵌入，就像数据库索引一样</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gf3tgx/pgai_vectorizer_launched_today_available_on/</link>
+      <description><![CDATA[        提交人    /u/xenophenes   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gf3tgx/pgai_vectorizer_launched_today_available_on/</guid>
+      <pubDate>Tue, 29 Oct 2024 19:55:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源表格和预订功能相结合</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gf2q0q/open_source_forms_and_bookings_combined/</link>
+      <description><![CDATA[我正在寻找的是表单和预订相结合的东西。这是针对学校环境的，因此学生可以选择第一学期的课程，然后选择第二学期的课程，但不能与第一学期相同。最好我们想找到一些开源的东西。有人有想法吗？    提交人    /u/IanBauters   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gf2q0q/open_source_forms_and_bookings_combined/</guid>
+      <pubDate>Tue, 29 Oct 2024 19:10:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>公开洗涤的秘密</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gf2n6o/the_open_secret_of_open_washing/</link>
+      <description><![CDATA[        提交人    /u/CrankyBear   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gf2n6o/the_open_secret_of_open_washing/</guid>
+      <pubDate>Tue, 29 Oct 2024 19:06:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>我一直在研究的很酷的图书馆</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gf2cef/cool_library_ive_been_working_on/</link>
+      <description><![CDATA[        提交人    /u/RevolutionarySize915   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gf2cef/cool_library_ive_been_working_on/</guid>
+      <pubDate>Tue, 29 Oct 2024 18:54:50 GMT</pubDate>
     </item>
     <item>
       <title>我该如何向我爸爸解释开源？</title>
       <link>https://www.reddit.com/r/opensource/comments/1gezomu/how_do_i_explain_open_source_to_my_dad/</link>
-      <description><![CDATA[我是一名软件工程师。我父亲是那种老派的总承包商。他所有的工作都是用铅笔和纸完成的，50 岁时才拥有第一部智能手机。 我经常在我的项目中使用开源软件，如果我找到机会回馈他们，我就会这么做。从我父亲的角度来看，他无法理解为什么有人会免费编写软件并将其公开，因为这个想法违背了他大脑中作为企业主的那部分。 这不是一个非常紧迫的问题，我只是看到他努力去理解我正在做的事情，我不确定如何向完全不熟悉开源的人解释开源。 我很想听听你的想法。    提交人    /u/EcstaticPudding6251   [链接] [评论]]]></description>
+      <description><![CDATA[我是一名软件工程师。我父亲是那种老派的总承包商。他所有的工作都是用铅笔和纸完成的，50 岁时才拥有第一部智能手机。 我经常在我的项目中使用开源软件，如果我找到回馈的机会，我就会去做。从我父亲的角度来看，他无法理解为什么有人会免费编写软件并将其公开，因为这个想法违背了他大脑中作为企业主的那部分。 这不是一个非常紧迫的问题，我只是看到他努力去理解我正在做的事情，我不确定如何向完全不熟悉开源的人解释开源。 我很想听听你的想法。    提交人    /u/EcstaticPudding6251   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gezomu/how_do_i_explain_open_source_to_my_dad/</guid>
       <pubDate>Tue, 29 Oct 2024 17:04:49 GMT</pubDate>
     </item>
@@ -29,14 +78,14 @@
     <item>
       <title>哪里可以找到开发人员帮助开源项目</title>
       <link>https://www.reddit.com/r/opensource/comments/1gexiv4/where_can_i_find_developers_help_to_open_source/</link>
-      <description><![CDATA[各位编辑您好， 我正在创建一个开源项目，希望很快获得资金，尽管我知道这可能是一个雄心勃勃的目标。我正在寻找各种经验水平和年龄的开发人员来自愿为该项目做出贡献。长期愿景是，如果该项目将来获得资金，这些志愿者将获得奖励，甚至可能被提供官方职位。 您能告诉我在哪里可以找到这样的志愿者吗？ 感谢您的帮助。    提交人    /u/stathmarxis   [链接] [评论]]]></description>
+      <description><![CDATA[各位编辑您好， 我正在创建一个开源项目，希望很快获得资金，尽管我知道这可能是一个雄心勃勃的目标。我正在寻找各种经验水平和年龄的开发人员来自愿为该项目做出贡献。 长期愿景是，如果该项目将来获得资金，这些志愿者将得到奖励，甚至可能 获得官方职位。 您能告诉我在哪里可以找到这样的志愿者吗？ 感谢您的帮助。    提交人    /u/stathmarxis   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gexiv4/where_can_i_find_developers_help_to_open_source/</guid>
       <pubDate>Tue, 29 Oct 2024 15:35:34 GMT</pubDate>
     </item>
     <item>
       <title>KoalaKeys - 创建便携式备忘单</title>
       <link>https://www.reddit.com/r/opensource/comments/1gex719/koalakeys_create_portable_cheat_sheets/</link>
-      <description><![CDATA[大家好， 当我决定少用鼠标时，我寻找一种工具来创建自定义键盘备忘单，但找不到合适的。所以，我决定开发 KoalaKeys。它可以生成时尚、可自定义的 HTML 备忘单，您几乎可以在任何地方使用 - 本地或托管。 您可以在此处找到 GitHub 存储库：KoalaKeys 我还在此处托管了一个公共实例：KoalaKeys Demo 期待您的反馈！    提交人    /u/rtuszik   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 当我决定少用鼠标时，我寻找一种工具来创建自定义键盘备忘单，但找不到合适的。所以，我决定构建 KoalaKeys。它可以生成时尚、可自定义的 HTML 备忘单，您几乎可以在任何地方使用 - 本地或托管。 您可以在此处找到 GitHub 存储库：KoalaKeys 我还在此处托管了一个公共实例：KoalaKeys Demo 期待您的反馈！    提交人    /u/rtuszik   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gex719/koalakeys_create_portable_cheat_sheets/</guid>
       <pubDate>Tue, 29 Oct 2024 15:21:31 GMT</pubDate>
     </item>
@@ -60,55 +109,6 @@
       <description><![CDATA[  由    /u/_HSAY04  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gen6f8/query_about_a_project/</guid>
       <pubDate>Tue, 29 Oct 2024 05:16:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Python 开发一个 GNU/Linux 系统实用程序，提醒您定期短暂休息以放松眼睛。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gei7qk/developing_a_gnulinux_system_utility_that_reminds/</link>
-      <description><![CDATA[正如标题所说，我正在开发一个系统实用程序，提醒您定期休息以放松视力。我选择Python是因为我认为它是最好的技术。我是一名 Web 开发人员，但我正在通过开源社会大学学习它并进行研究。 由于我的工作是开发人员和在线学习，我不得不花很多时间盯着笔记本电脑的屏幕。寻找休息视力的方法，有时甚至在下午或晚上变得模糊，我发现短暂的休息很有帮助。但是，为一天设置多个闹钟非常烦人，所以我决定深入开发一个提醒您通知的系统实用程序。  当然，它是开源的，可以免费下载和使用。我的目标是让它在 Debian、Arch Linux 和 Redhat/Fedora（以及基于此的）发行版中可用，但我仍在尝试寻找实现它的方法。 由于我有一份全职工作，而且还在学习，所以我没有太多时间恢复它的开发，自三周前暂停以来。但我想分享这个存储库，以防有人有任何建议：  如何继续开发。 改进它的想法。 提高代码质量和实践的建议。 如果您有兴趣，可以合作。  提前谢谢！ 这里是链接。    由    /u/frambuesasychoco 提交   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gei7qk/developing_a_gnulinux_system_utility_that_reminds/</guid>
-      <pubDate>Tue, 29 Oct 2024 00:47:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用具有优先级排序功能的 OpenSource 进行 DevSecOps 漏洞管理</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gedgpn/vulnerability_management_for_devsecops_using/</link>
-      <description><![CDATA[大家好！ 前段时间，我与大家分享了我的项目 MixewayFlow，我在这个项目中收集了 DevSecOps 网络安全的免费开源工具。这些工具很容易集成到一个终极解决方案中，只要有一个 Git 存储库，就可以使用 SAST、SCA、Secret Leakage 和 IaC 扫描来检测威胁。 效果非常好，而且效率很高。 在新发布的版本中，我引入了与漏洞优先级相关的开源项目中从未见过的功能：) 您是否曾遇到过检测到的威胁数量问题，或者难以说服开发团队查看包含 300 条发现的报告？您是否只关注基于从扫描仪获取的严重性的发现？有一个更好的方法： ✅ 考虑 EPSS（漏洞预测评分系统），它对于计算可能的威胁暴露非常有用。 ✅ 考虑是否已经有针对检测到的威胁的可用最终用户漏洞（例如，使用 KEV）。 ✅ 评估检测到威胁的应用程序是否正在处理敏感数据。 也许 Mixeway Flow 还不是最好的漏洞管理系统，但请向我指出一个可以进行漏洞管理、执行全范围预定义的完整扫描并进行优先级排序的开源项目。😉 任何反馈都表示赞赏。 https://github.com/Mixeway/Flow（如果可以，请留下 GH 星，这可以帮助我获得更多覆盖面）    提交人    /u/m1thr   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gedgpn/vulnerability_management_for_devsecops_using/</guid>
-      <pubDate>Mon, 28 Oct 2024 21:17:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于 PII 屏蔽的开源 AI 工具 – 关于隐私和数据安全的思考</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ge9fh4/opensource_ai_tool_for_pii_masking_thoughts_on/</link>
-      <description><![CDATA[大家好！ PII Masker 是一款开源工具，旨在通过检测和屏蔽文本中的 PII 来帮助保护敏感信息。隐私和合规性已变得至关重要，因此我们专注于一款不仅性能良好而且可实现数据安全性的工具。 为什么选择 PII Masker？ 处理敏感信息时，使用确保合规性和保护隐私的工具至关重要。 PII Masker 脱颖而出的原因如下：  高精度：基于 DeBERTa-v3 构建，可跨 PII 类型进行准确检测。 合规友好：帮助组织遵守隐私法。 灵活集成：使用 Python API 顺利集成到现有系统中。  主要功能  全面保护：检测和屏蔽多种 PII 类型，如姓名和地址。 高性能：通过 1024 个令牌支持处理较长的文档。 注重精度：针对 PII 检测准确性进行了微调。 结构化输出：提供屏蔽文本和结构化 PII 词典。  好奇了解其他人如何看待 PII 隐私屏蔽。仅屏蔽就足够了吗？您认为哪些工具或方法对数据安全最有效？如果您有兴趣查看或提供反馈，以下是 GitHub 链接：https://github.com/HydroXai/pii-masker-v1    提交人    /u/lial4415   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ge9fh4/opensource_ai_tool_for_pii_masking_thoughts_on/</guid>
-      <pubDate>Mon, 28 Oct 2024 18:31:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>开放源代码倡议宣布发布业界首个开源人工智能定义</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ge5r0f/the_open_source_initiative_announces_the_release/</link>
-      <description><![CDATA[       由    /u/opensourceinitiative  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ge5r0f/the_open_source_initiative_announces_the_release/</guid>
-      <pubDate>Mon, 28 Oct 2024 16:03:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源+SaaS项目的数据库模式分离？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ge1vlf/database_schema_seperation_for_open_source_saas/</link>
-      <description><![CDATA[我将开始从事一个以开源形式开始的项目。最终，我想开始提供该产品的“托管”版本。我的问题是关于 SaaS 的独特性，我需要在我的数据库中添加一个“组织”表，并为这个新表添加外键。在代码本身中，我需要引用“组织”表并确保没有 2 个“客户”相互冲突。我还需要处理许多不需要在 OSS 存储库中发生的支付订阅逻辑。我不想将其添加到开源版本，因为该版本是单租户。其他项目如何实现这一点？ 谢谢！    提交人    /u/MixAdministrative439   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ge1vlf/database_schema_seperation_for_open_source_saas/</guid>
-      <pubDate>Mon, 28 Oct 2024 13:21:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源人工智能真的存在吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ge112m/does_open_source_ai_really_exist/</link>
-      <description><![CDATA[        提交人    /u/jlpcsl   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ge112m/does_open_source_ai_really_exist/</guid>
-      <pubDate>Mon, 28 Oct 2024 12:41:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>支持开放源代码定义 (OSD) 的社区声明</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gdzhvm/a_community_statement_supporting_the_open_source/</link>
-      <description><![CDATA[        提交人    /u/GiacomoTesio   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gdzhvm/a_community_statement_supporting_the_open_source/</guid>
-      <pubDate>Mon, 28 Oct 2024 11:17:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
