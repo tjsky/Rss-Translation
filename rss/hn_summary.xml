@@ -4,87 +4,87 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Wed, 30 Oct 2024 20:52:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 00:44:16 GMT</lastBuildDate>
     <item>
-      <title>Screen Canvas 提供了一种无缝且高效的解决方案，可使用 Apple [...] 创建数字标牌。</title>
-      <link>https://t.me/hn_summary/114677</link>
-      <description><![CDATA[Show HN：Screen Canvas – 使用 Apple TV 立即制作数字标牌
-Screen Canvas 提供了一种使用 Apple TV 创建数字标牌的无缝高效解决方案，其用户友好的界面和即时设置使其有别于其他数字标牌软件。与通常需要复杂安装和持续维护的传统系统不同，Screen Canvas 利用 Apple TV 的简单性和可访问性，使其成为寻求快速部署的企业的理想选择。该平台的直观设计使用户能够轻松创建和管理内容，无需专门培训或技术专长。这种创新方法不仅降低了成本，还提高了灵活性，使用户能够以最小的努力实时更新显示。]]></description>
-      <guid>https://t.me/hn_summary/114677</guid>
-      <pubDate>Wed, 30 Oct 2024 20:52:52 GMT</pubDate>
+      <title>[媒体] 在本文中，我讨论了 KWin 服务器端扩展中分数扩展的挑战 [...]</title>
+      <link>https://t.me/hn_summary/114707</link>
+      <description><![CDATA[PSA：KDecoration API 在 Plasma 6.3 中中断
+在这篇文章中，我讨论了 KWin 服务器端装饰中分数缩放的挑战，以及在 Plasma 6.3 中中断 API 以解决这些问题的必要性。核心问题在于使用整数逻辑坐标，这会导致像素完美的元素（如轮廓）在缩放时错位。这种不匹配会导致明显且令人讨厌的差异。为了解决这个问题，KWin 现在将提供具有分数逻辑大小和缩放因子的装饰，这需要更新 KDecoration3 API。虽然 Aurorae 装饰不受影响，但 C++ API 用户必须适应以避免缩放问题。移植指南将在 Plasma 6.3 发布之前提供。如果您有任何疑问，请通过 Matrix 上的 #kwin:kde.org 与我们联系。]]></description>
+      <guid>https://t.me/hn_summary/114707</guid>
+      <pubDate>Thu, 31 Oct 2024 00:44:16 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Meta 的 Reality Labs 报告第三季度运营亏损 44 亿美元，轻微 [...]</title>
-      <link>https://t.me/hn_summary/114676</link>
-      <description><![CDATA[Meta 旗下 Reality Labs 第三季度亏损 44 亿美元
-Meta 旗下 Reality Labs 报告称，第三季度运营亏损 44 亿美元，略好于分析师预期的 46.8 亿美元。尽管遭遇财务挫折，Meta 仍在 Meta Connect 活动上展示了其 Orion AR 眼镜，让人们对其作为未来计算平台的潜力感到兴奋。Reality Labs 的收入增长了 29%，达到 2.7 亿美元，但低于预期的 3.104 亿美元。自 2020 年以来，Reality Labs 累计亏损超过 580 亿美元。Meta 旨在利用其 Ray-Ban Meta 智能眼镜和新发布的 Quest 3S VR 耳机的成功来推动 AR 和 VR 技术的未来增长。对 Reality Labs 的巨额资金投入凸显了 Meta 对元宇宙的雄心勃勃愿景所引发的争议。]]></description>
-      <guid>https://t.me/hn_summary/114676</guid>
-      <pubDate>Wed, 30 Oct 2024 20:51:44 GMT</pubDate>
+      <title>[媒体] 在最近的一次演示中，RISC-V 公司 Milk-V 展示了运行 A [...] 的能力。</title>
+      <link>https://t.me/hn_summary/114706</link>
+      <description><![CDATA[RISC-V SiFive P550 CPU 在 Debian Linux 中与 AMD Radeon RX 7900 XTX GPU 一起演示
+在最近的一次演示中，RISC-V 公司 Milk-V 展示了在其基于 RISC-V 的 Megrez 主板上运行 AMD Radeon RX 7900 XTX GPU 的能力，该主板采用 Eswin 的 EIC7700X SoC 和 SiFive 的 P550 CPU 内核。虽然 P550 内核并不是最先进的，但该演示标志着 RISC-V 在 PC 市场潜力的一个重要里程碑，而 PC 市场一直由 x86 和 Arm 架构主导。该系统由于对 RISC-V 的出色支持而在 Debian Linux 上运行，成功执行了 glmark2 基准测试。尽管 RISC-V 在数据中心和 AI 领域的影响力日益扩大，但它在 PC 市场的渗透率仍然有限，只有少数笔记本电脑可用，没有完全组装的台式机。RISC-V 面临的挑战在于获得 Windows 等主要操作系统平台的支持，就像 Arm 在微软的支持下所做的那样。如果没有这样的支持，RISC-V 在 PC 上的采用可能取决于操作系统格局的转变，而这在近期似乎不太可能发生。]]></description>
+      <guid>https://t.me/hn_summary/114706</guid>
+      <pubDate>Thu, 31 Oct 2024 00:30:09 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 俄罗斯采取前所未有的举措，向俄罗斯征收了 20 亿卢布的天价罚款 [...]</title>
-      <link>https://t.me/hn_summary/114675</link>
-      <description><![CDATA[俄罗斯对谷歌处以 25 亿美元罚款
-俄罗斯采取前所未有的举措，对谷歌处以 25 亿美元巨额罚款，原因是该公司未恢复亲克里姆林宫媒体的 YouTube 账户。这笔罚款数额大得令人难以置信，远远超过了谷歌母公司 Alphabet 约 2 万亿美元的市值。这场争议源于谷歌拒绝遵守俄罗斯法院命令，恢复因美国制裁而被封锁的账户。这笔罚款每周翻一番，凸显了俄罗斯入侵乌克兰后紧张局势的升级。谷歌俄罗斯子公司于2022年宣布破产，该公司正在美国和英国法院寻求法律保护，以避免支付这笔无法支付的罚款。]]></description>
-      <guid>https://t.me/hn_summary/114675</guid>
-      <pubDate>Wed, 30 Oct 2024 20:48:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 任天堂出人意料地发布了 Alarmo，这是一款具有以下功能的闹钟 [...]</title>
-      <link>https://t.me/hn_summary/114674</link>
-      <description><![CDATA[深入研究 Nintendo Alarmo
-任天堂出人意料地发布了 Alarmo，这是一款具有游戏主题声音、Wi-Fi 更新和存在传感器等功能的闹钟。起初，由于 99 欧元的价格，我犹豫不决，但还是买了一个来探索其内部工作原理。在里面，我发现了一个 STM32H730ZBI6 MCU 和一个 KIOXIA 4GB eMMC。尽管读出保护 (RDP) 阻止了对固件的直接访问，但我还是设法使用 CRYP 接口解密了内容。巧妙的部分覆盖攻击使我获得了 AES-128-CTR 密钥。第二个加载器的 USB 模式出奇地不安全，允许加载自定义固件。虽然我无法绕过所有安全措施，但我还是在 GitHub 上发布了我的发现和工具，邀请其他人进一步探索。争议在于发现的安全漏洞，特别是 USB 模式下签名验证不充分，这可能允许未经授权的固件加载。]]></description>
-      <guid>https://t.me/hn_summary/114674</guid>
-      <pubDate>Wed, 30 Oct 2024 20:30:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>在本文中，我们探讨了 Chroma（一个开源 c [...]）的查询执行引擎的设计。</title>
-      <link>https://t.me/hn_summary/114673</link>
-      <description><![CDATA[设计查询执行引擎
-在本文中，我们探讨了 Chroma 的查询执行引擎设计，Chroma 是一家重视外部影响的开源公司。我们的多租户系统使用查询和压缩器节点来提供查询和构建索引，从而优化资源利用率并降低成本。一个关键挑战是构建工作以确保租户之间公平使用资源。我们选择了一种基于推送、碎片驱动的执行模型，该模型受到 Mark Raasveldt 的见解的启发，允许动态并行和高效调度。该模型使用查询执行编排器和调度程序来管理任务，确保服务质量和适应性。我们的实现利用 Rust 和 Tokio 实现高效的任务管理。我们对未来的增强功能（如租户公平性和查询优化）感到兴奋，并正在招聘对这些挑战感兴趣的人。]]></description>
-      <guid>https://t.me/hn_summary/114673</guid>
-      <pubDate>Wed, 30 Oct 2024 20:29:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在《偷窃的艺术》一书中，作者详细描述了一起盗窃案之后进行的复杂调查 [...]</title>
-      <link>https://t.me/hn_summary/114672</link>
-      <description><![CDATA[偷窃的艺术 (2013)
-在《偷窃的艺术》中，作者详细描述了一起备受瞩目的艺术品盗窃案之后的复杂调查。一支由 25 名警官组成的专业团队 TGO Art 迅速组建，他们全力以赴收集证据。尽管他们付出了努力，包括挨家挨户搜查和咨询艺术专家，但线索仍然难以捉摸。低质量的监控录像和稀缺的实物证据阻碍了调查。媒体猜测夸大了这些画作的价值，估计价值从 1810 万欧元到“数亿欧元”。警方陷入困境，不确定是在犯罪黑社会还是艺术界寻找线索，这凸显了案件的复杂性和不确定性。被盗艺术品估价的惊人差异凸显了媒体报道中经常出现的耸人听闻的倾向。]]></description>
-      <guid>https://t.me/hn_summary/114672</guid>
-      <pubDate>Wed, 30 Oct 2024 20:29:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在本文中，作者反思了他们建立数据驱动模型以实现 [...]</title>
-      <link>https://t.me/hn_summary/114671</link>
-      <description><![CDATA[建立倒卖音乐会门票模型时犯的错误
-在这篇文章中，作者回顾了他们尝试建立一个数据驱动模型以从音乐会门票转售中获利的尝试，这一尝试受到了混乱的泰勒·斯威夫特 Ticketmaster 惨败的启发。他们旨在使用来自 Ticketmaster、StubHub 和 Spotify 的数据来预测门票的“真实价格”。然而，他们面临着许多挑战，包括反机器人措施、复杂的市场动态和高昂的费用。尽管最初遭遇挫折，但他们发现了一个可以预测门票售罄的开放 Ticketmaster 端点，但该策略因市场不可预测性和道德问题而受到破坏。作者强调了 Swagg Seats 等专业经纪人的复杂运作，他们利用内部联系和高级分析来主导市场。这篇文章强调了门票转售行业的复杂性，以及作者低估了成功所需的基础设施。令人惊讶的是，票务经纪人的规模和老练程度，他们一边制造人为需求，一边声称要帮助球迷。（基于 99% 的故事文本的总结。）]]></description>
-      <guid>https://t.me/hn_summary/114671</guid>
-      <pubDate>Wed, 30 Oct 2024 20:23:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 论文“思维链可能会损害人类在需要思考的任务中的表现[...]</title>
-      <link>https://t.me/hn_summary/114670</link>
-      <description><![CDATA[思维链可能会损害在思考会使人类表现更差的任务上的表现
+      <title>[媒体] 微软 GitHub 网站上的“生成式 AI 脚本”内容介绍了 GenAIScrip [...]</title>
+      <link>https://t.me/hn_summary/114705</link>
+      <description><![CDATA[生成式 AI 脚本
 
-论文“思维链可能会损害在思考会使人类表现更差的任务上的表现”探讨了一个有趣的观点，即虽然思维链推理可以提高许多任务的表现，但它实际上可能会在过度思考有害的情况下损害结果。作者深入探讨了这种悖论，即通常被视为有益的深思熟虑的推理可能会导致更糟糕的结果，而这些结果更适合直觉或自动反应。这一违反直觉的发现挑战了传统观点，即更多的思考总是等同于更好的表现，表明在某些情况下，少即是多。该研究为理解认知过程和优化任务表现开辟了新的途径。]]></description>
-      <guid>https://t.me/hn_summary/114670</guid>
-      <pubDate>Wed, 30 Oct 2024 20:20:09 GMT</pubDate>
+微软 GitHub 网站上的“生成式 AI 脚本”内容介绍了 GenAIScript，这是一种将大型语言模型 (LLM) 提示工具集成到基于 JavaScript 的脚本环境中的工具。它允许开发人员以编程方式组装提示、定义数据模式并使用 LLM 自动执行任务。主要功能包括能够将 JavaScript 函数注册为 LLM 工具、创建结合工具和提示的代理以及跨项目共享脚本。该平台支持各种模型，包括 GitHub 模型和 Phi-3 等本地开源模型。它还为文件查询和代码解释等任务提供内置代理。一个独特的方面是使用 Gitmojis 进行错误报告，为编码过程增添了趣味。内容全面，提供指南、案例研究和示例脚本，帮助用户开始使用 GenAIScript。]]></description>
+      <guid>https://t.me/hn_summary/114705</guid>
+      <pubDate>Thu, 31 Oct 2024 00:23:02 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Meta Platforms, Inc.</title>
-      <link>https://t.me/hn_summary/114669</link>
-      <description><![CDATA[Meta 公布 2024 年第三季度业绩
-Meta Platforms, Inc. 公布了 2024 年第三季度强劲的财务业绩，收入较上年增长 19%，达到 405.9 亿美元。该公司将这一增长归因于其应用和业务中人工智能的进步，包括 Meta AI、Llama 采用和人工智能眼镜。营业收入增长 26%，净收入增长 35%，反映出运营效率的提高。每日活跃用户达到 32.9 亿，同比增长 5%。然而，Meta 在欧盟和美国面临监管挑战，这可能会影响未来的财务结果。该公司预计 2025 年资本支出将大幅增长，主要得益于基础设施扩张。 （根据 54% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/114669</guid>
-      <pubDate>Wed, 30 Oct 2024 20:20:06 GMT</pubDate>
+      <title>[媒体] KDE 的年度筹款活动现已开始，主题是专有技术的“幽灵”性质 [...]</title>
+      <link>https://t.me/hn_summary/114704</link>
+      <description><![CDATA[帮助对抗专有软件怪物
+KDE 的年度筹款活动现已上线，主题围绕专有软件的“诡异”本质。该活动有效地突出了许多人在使用专有软件时面临的相关问题，以及 FOSS（免费和开源软件）如何提供解决方案。我回想起自己的经历：由于软件更新和格式更改而丢失项目，例如 AlamDV 和 Apple 的 iMovie，并且必须为过时的文件格式编写解决方案脚本。FOSS 让我能够使用 Plasma 重振旧电脑，让我的家人受益。筹款活动旨在帮助 KDE e.V. 平衡预算，避免像 GNOME 基金会那样面临的财务陷阱。您的捐款可以支持软件领域的这一重要运动。]]></description>
+      <guid>https://t.me/hn_summary/114704</guid>
+      <pubDate>Thu, 31 Oct 2024 00:14:53 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Rubocop-Obsession 是 RuboCop 的扩展，旨在强制执行更高级别的编码概念 [...]</title>
-      <link>https://t.me/hn_summary/114668</link>
-      <description><![CDATA[Rubocop-obsession：专注于更高级别概念的 RuboCop 扩展
-Rubocop-Obsession 是一个 RuboCop 扩展，旨在强制执行更高级别的编码概念，例如确保代码从上到下可读，并将单元测试重点放在公共方法上。它还包括一些较低级别的 cop。该项目旨在提供现成的 cop 或启发针对项目特定最佳实践量身定制的 cop。安装非常简单，可以通过 gem 或 Gemfile 进行，扩展可以通过 RuboCop 的配置文件、命令行或 Rake 任务加载。cops 是主观的，有些默认情况下是禁用的，反映了作者不断变化的偏好。鼓励贡献，该项目在 MIT 许可下是开源的。]]></description>
-      <guid>https://t.me/hn_summary/114668</guid>
-      <pubDate>Wed, 30 Oct 2024 20:04:56 GMT</pubDate>
+      <title>在《消失的文化：关于我们脆弱的文化记录的报告》中，archive.or 的博客文章 [...]</title>
+      <link>https://t.me/hn_summary/114703</link>
+      <description><![CDATA[消失的文化：关于我们脆弱的文化记录的报告
+在“消失的文化：关于我们脆弱的文化记录的报告”中，来自archive.org的博客文章强调了我们数字文化遗产的不稳定状态。在企业利益和临时许可协议的推动下，向数字格式的转变对录音、书籍、电影和其他文化遗产的保存构成了重大风险。这些材料曾经是实物拥有的，现在如果没有适当的归档，就有可能消失。该报告强调了对互联网档案馆和公共图书馆等机构的网络攻击威胁，这危及了数字文化的获取。该文件呼吁在法律和财政上赋予图书馆和档案馆权力，以保护我们的集体记忆。令人惊讶和独特的一点是，该文件强调了数字资料容易受到故意删除和网络威胁的威胁，并敦促立即采取行动保护我们的文化历史。]]></description>
+      <guid>https://t.me/hn_summary/114703</guid>
+      <pubDate>Thu, 31 Oct 2024 00:05:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Sekino 的艺术世界展示了三位艺术家的早期作品：Junpei、Yowsaku 和 Ayuko。</title>
+      <link>https://t.me/hn_summary/114702</link>
+      <description><![CDATA[Sekino 的艺术世界
+Sekino 的艺术世界展示了三位艺术家的早期作品：Junpei、Yowsaku 和 Ayuko。这三位艺术家均出生于 20 世纪 40 年代，在非常年轻的时候就开始创作艺术，作品创作时间从 1947 年到 1949 年。Junpei 的作品尺寸为 50 厘米 x 65 厘米，Yowsaku 的作品尺寸为 43 厘米 x 45 厘米，均创作于 1947 年，而 Ayuko 较小的作品尺寸为 41 厘米 x 32 厘米，完成于 1949 年。该网站重点介绍了这些艺术家的年轻起点，强调了他们早期的才华和潜力。一个独特的方面是关注他们的童年创作，让人们一窥这些现已成名的艺术家的成长岁月。]]></description>
+      <guid>https://t.me/hn_summary/114702</guid>
+      <pubDate>Thu, 31 Oct 2024 00:05:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 1905 年，爱因斯坦引入了光的概念，将光视为离散单位，称为“量子”，c [...]</title>
+      <link>https://t.me/hn_summary/114701</link>
+      <description><![CDATA[或许终究可以探测到引力子
+1905 年，爱因斯坦提出了光作为离散单位的概念，称为“量子”，挑战了当时流行的光波动理论。尽管有人持怀疑态度，但他的理论还是获得了支持，尤其是在实验表明动量也是成块出现之后，导致光子在 1925 年被接受。最终的证据出现在 20 世纪 70 年代，当时量子光学实验证实了光的量化性质。快进到 2023 年 8 月，丹尼尔·卡尼及其同事受到过去光子研究的启发，提出了探测引力子的提议，重新点燃了这场争论。然而，他们承认，证明引力子的量子性需要巨大的行星级机器，这与光子战争中面临的挑战如出一辙。令人惊讶的是，引力子探测所需的规模非常大，凸显了推进量子理论的复杂性。]]></description>
+      <guid>https://t.me/hn_summary/114701</guid>
+      <pubDate>Thu, 31 Oct 2024 00:05:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在接受《观察家报》的一次深入采访时，前 SpaceX 工程师 Nikita Ermoshkin 透露 [...]</title>
+      <link>https://t.me/hn_summary/114700</link>
+      <description><![CDATA[前 SpaceX 工程师正在建造一架任何人都可以在一小时内驾驶的飞机：问答
+在接受《观察家报》的一次深入采访时，前 SpaceX 工程师 Nikita Ermoshkin 讨论了他雄心勃勃的创业公司 Airhart Aeronautics，该公司旨在通过制造一架任何人都可以在一小时内学会驾驶的飞机来彻底改变私人航空业。受传统驾驶复杂性的启发，Ermoshkin 和他的团队正在开发 Airhart Sling，这是一款旨在简化飞行的四座飞机，类似于汽车中的自动变速器。虽然目前 Airhart 被归类为 FAA 的实验类别，但它希望获得更广泛的商业化认证。这家初创公司利用现有的航空基础设施，凸显了通用航空机场尚未开发的潜力。令人惊讶的是，他们声称完全的新手在经过最少的培训后就可以操作这架飞机，有些人可能会觉得这太过雄心勃勃了。该项目依靠现有技术而不是发明新技术，这是一种让航空业更容易实现的聪明方法。]]></description>
+      <guid>https://t.me/hn_summary/114700</guid>
+      <pubDate>Thu, 31 Oct 2024 00:03:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 疾病预防控制中心调查了两起与私人户外活动有关的军团病疫情[...]</title>
+      <link>https://t.me/hn_summary/114699</link>
+      <description><![CDATA[游轮上发生两次军团病爆发，起因是私人户外热水浴缸
+CDC 调查了两起与游轮 A 和 B 上的私人户外热水浴缸有关的军团病爆发。在游轮 A 上，2022 年 11 月至 2024 年 4 月期间报告了 8 例病例。初步调查发现公共区域没有军团菌，但经过进一步检测，在十个私人阳台热水浴缸中有六个检测到了军团菌。补救工作取得了成功，到 2024 年 8 月没有进一步的检测。在游轮 B 上，2024 年 1 月至 6 月报告了 4 例病例。在所有八个私人阳台热水浴缸和一个饮用水位置都发现了军团菌。尽管采取了补救措施，但军团菌仍然在两个热水浴缸中持续存在，因此需要采取进一步措施。此次爆发凸显了在游轮环境中管理军团菌的挑战，特别是在最初未进行测试的私人热水浴缸中。令人惊讶的是，尽管采取了补救措施，但军团菌仍然持续存在，这凸显了严格维护规程的必要性。]]></description>
+      <guid>https://t.me/hn_summary/114699</guid>
+      <pubDate>Thu, 31 Oct 2024 00:02:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Wonder Dynamics（现为 Autodesk 的一部分）很高兴地宣布推出 Wond [...] 测试版。</title>
+      <link>https://t.me/hn_summary/114698</link>
+      <description><![CDATA[Wonder Animation – 视频转 3D 动画
+Wonder Dynamics 现已成为 Autodesk 的一部分，很高兴宣布推出 Wonder Animation 的测试版，这是 Wonder Studio 的一项尖端功能。这款创新工具利用突破性的视频转 3D 场景技术，让艺术家能够在 3D 环境中将实景镜头转换为带有 CG 角色的动画场景。该技术以其处理具有多个剪辑和镜头的序列的能力而脱颖而出，使用 AI 在 3D 空间中重建场景。这为艺术家提供了他们场景的虚拟表示，并带有 Maya 或 Blender 等软件中的可编辑元素。与 AI 是一键式解决方案的误解相反，Wonder Animation 强调赋予艺术家创造性控制权，从而与其他生成式 AI 工具区分开来。]]></description>
+      <guid>https://t.me/hn_summary/114698</guid>
+      <pubDate>Wed, 30 Oct 2024 23:49:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
