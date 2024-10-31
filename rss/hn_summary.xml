@@ -4,86 +4,87 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Thu, 31 Oct 2024 18:15:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 21:11:33 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 本月，《财富》网站重点介绍了 TikTok 通过其网站积极抓取内容的行为 [...]</title>
-      <link>https://t.me/hn_summary/114775</link>
-      <description><![CDATA[我们近 90% 的 AI 爬虫流量来自 TikTok/ByteDance
-本月，Fortune.com 强调了 TikTok 通过其网络爬虫 Bytespider 积极抓取内容，以支持生成式 AI 模型。我们在 HAProxy Edge 的分析证实了这一趋势，表明我们近 90% 的 AI 爬虫流量来自 Bytespider。这引发了对内容抓取的担忧，因为企业可能不同意第三方重复使用其内容。虽然 AI 爬虫存在风险，但它们也通过 AI 聊天机器人为品牌知名度提供了机会。我们目前允许使用 AI 爬虫，但正在评估这一立场。为了打击有害的机器人活动，HAProxy 提供了高级机器人管理解决方案。值得注意的是，Bytespider 的规避策略使其成为该领域的争议性参与者。]]></description>
-      <guid>https://t.me/hn_summary/114775</guid>
-      <pubDate>Thu, 31 Oct 2024 18:15:24 GMT</pubDate>
+      <title>[媒体] GitHub 项目“Mail2github”允许用户将文件提交到 GitHub 存储库 [...]</title>
+      <link>https://t.me/hn_summary/114815</link>
+      <description><![CDATA[显示 HN：Mail2github – 通过电子邮件向 GitHub 提交内容
+GitHub 项目“Mail2github”允许用户通过电子邮件将文件提交到 GitHub 存储库，提供一种方便的方式来存档内容（例如 ChatGPT 回复），而无需安装其他软件。该项目利用电子邮件的广泛可用性和内置安全功能（如 SPF 和 DKIM）进行访问控制。用户可以使用电子邮件主题中的控制标记指定提交详细信息，例如提交消息、分支、作者、存储库和标签。该项目的与众不同之处在于使用电子邮件作为通用的、无需应用程序的 GitHub 交互界面，使其可访问且安全。设置包括配置电子邮件和 GitHub 凭据，以及运行脚本来处理电子邮件。]]></description>
+      <guid>https://t.me/hn_summary/114815</guid>
+      <pubDate>Thu, 31 Oct 2024 21:11:33 GMT</pubDate>
     </item>
     <item>
-      <title>作为一名独立博主和 SEO 爱好者，我通过惨痛的经历了解到了管理的复杂性 [...]</title>
-      <link>https://t.me/hn_summary/114774</link>
-      <description><![CDATA[Robots.txt 陷阱：我学到的惨痛教训
-作为一名独立博主和 SEO 爱好者，我学到了管理网站 robots.txt 文件的复杂性。为了通过屏蔽 /uploads/ 目录来优化我网站的抓取预算，我无意中导致我网站的图标从移动搜索结果中消失。这是因为图标存储在我屏蔽的同一目录中。这里令人惊讶的教训是 robots.txt 文件的敏感性以及更改对搜索引擎索引的延迟影响。这次经历告诉我，SEO 调整的体现很慢，就像驾驶一艘大船一样。]]></description>
-      <guid>https://t.me/hn_summary/114774</guid>
-      <pubDate>Thu, 31 Oct 2024 18:09:17 GMT</pubDate>
+      <title>在对人工智能和数据挑战进行广泛研究之后，我们很高兴推出 PromptQL，一款 [...]</title>
+      <link>https://t.me/hn_summary/114814</link>
+      <description><![CDATA[显示 HN：Hasura PromptQL：与数据对话的新方式
+在对 AI 和数据挑战进行广泛研究后，我们很高兴推出 PromptQL，这是一款旨在创建与数据交互的助手的工具。Hasura 最初以“Postgres 上的 GraphQL”而闻名，现已发展壮大，推出了 Hasura DDN，将来自任何来源的数据统一为一个有凝聚力的图表。这种方法完全符合大型语言模型 (LLM) 的需求，可实现高效的 AI 应用程序开发。我们发现，有效的 AI 架构源于强大的数据架构，可无缝集成各种数据源。现有的 AI 往往表现不佳，导致用户不信任。我们的解决方案包括使 LLM 能够编写程序并利用外部内存，从而降低幻觉风险。 PromptQL 体现了这些原则，在 Hasura 的图表上提供了可编程 API。我们还开发了 Agentic Data Access 基准来突出这些问题并比较解决方案。试用并分享您的反馈！]]></description>
+      <guid>https://t.me/hn_summary/114814</guid>
+      <pubDate>Thu, 31 Oct 2024 21:11:30 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：如果 Google 和 YouTube 分道扬镳，您认为会发生什么？</title>
-      <link>https://t.me/hn_summary/114773</link>
-      <description><![CDATA[问 HN：如果 Google 和 YouTube 分道扬镳，您认为会发生什么？
-在 Hacker News 的讨论中，作者推测了 Google 和 YouTube 分道扬镳可能带来的技术影响。他们确定了可能受到影响的两项主要服务：Google TV/YouTube 影视库和 YouTube 音乐目录。作者承认对这些服务的复杂运作方式了解有限，这表明他们的调查更具探索性而非确定性。此次对话邀请社区提供进一步的见解，突显了人们对 Google 和 YouTube 产品整合的好奇心。该话题的推测性质可能会引发技术爱好者对这种分道扬镳的可行性和后果的争论。]]></description>
-      <guid>https://t.me/hn_summary/114773</guid>
-      <pubDate>Thu, 31 Oct 2024 18:01:12 GMT</pubDate>
+      <title>[媒体] 爱达荷州卫生局最近做出决定，停止接种 COVID-19 疫苗 [...]</title>
+      <link>https://t.me/hn_summary/114813</link>
+      <description><![CDATA[爱达荷州卫生区在反疫苗言论泛滥的情况下放弃新冠疫苗接种
+在最近的一项决定中，爱达荷州卫生区选择在反疫苗言论激增的情况下停止新冠疫苗接种。董事会成员詹妮弗·里贝 (Jennifer Riebe) 对可能出现的滑坡表示担忧，质疑类似的决定是否会影响其他疫苗，如麻疹或带状疱疹疫苗。董事会主席凯利·阿贝拉斯特里 (Kelly Aberasturi) 也反对这一决定，她强调了个人选择的重要性以及医生在指导患者方面的作用。该区已经收到了 50 支用于专业护理机构的新冠疫苗。鉴于爱达荷州疫苗接种率低，这一举措并不完全令人意外，幼儿园接种率仅为 79-80%，远低于预防疾病传播所需的 95% 的目标。爱达荷州的疫苗接种豁免率也是全美最高的，为 14.3%，凸显了一项重大的公共卫生挑战。争议在于个人选择与公共卫生需求之间的紧张关系。]]></description>
+      <guid>https://t.me/hn_summary/114813</guid>
+      <pubDate>Thu, 31 Oct 2024 21:11:27 GMT</pubDate>
     </item>
     <item>
-      <title>嗨 HN，我们是 Asankhaya 和 Rohan，是 Patched 的创造者，Patched 是一个旨在简化后期制作的工具 [...]</title>
-      <link>https://t.me/hn_summary/114772</link>
-      <description><![CDATA[启动 HN：Patched (YC S24) – 用于后编码任务的 AI 工作流
-嗨，HN，我们是 Asankhaya 和 Rohan，是 Patched 的创建者，该工具旨在通过可定制、可自托管的 AI 工作流简化后编码任务（如代码审查和文档）。虽然重点放在代码生成上，但我们解决了开发“外循环”中的瓶颈。Patched 具有一个在无代码和全代码之间转换的工作流构建器，以及一个用于代码和问题查询的基于聊天的界面。我们的开源拼凑库和 LLM 优化代理允许集成到 CI/CD 管道中，提供灵活性而无需供应商锁定。我们提倡采用开放、整体的方法而不是单点解决方案，并邀请大家对我们的平台提出反馈。]]></description>
-      <guid>https://t.me/hn_summary/114772</guid>
-      <pubDate>Thu, 31 Oct 2024 17:41:00 GMT</pubDate>
+      <title>[媒体] EA 和 Respawn 宣布《Apex Legends》将不再在 Linux 上提供访问 [...]</title>
+      <link>https://t.me/hn_summary/114812</link>
+      <description><![CDATA[EA/Respawn 现在禁止在 Linux 和 Steam Deck 上运行 Apex Legends
+EA 和 Respawn 宣布，由于担心作弊，Apex Legends 将不再在 Linux 平台（包括 Steam Deck）上可用。开发人员指出，在 Linux 上区分合法用户和恶意用户非常困难，而 Linux 已成为作弊的热门平台。这一旨在维护竞争公平性的决定将影响少数玩家，但有望大大减少作弊行为。虽然 Linux 用户仍然可以通过安装 Windows 来玩游戏，但此举在 Linux 游戏社区中引发了争议。Valve 现在已将 Apex Legends 在 Steam Deck 上标记为“不受支持”，以反映这一变化。尽管 Linux 用户有所流失，但《Apex Legends》最近并未跻身 Steam Deck 上最受欢迎的 100 款游戏之列，尽管它在过去一年中排名第 48 位。这一决定是游戏因反作弊措施而无法在 Linux 上访问的更广泛趋势的一部分，凸显了游戏行业持续面临的挑战。]]></description>
+      <guid>https://t.me/hn_summary/114812</guid>
+      <pubDate>Thu, 31 Oct 2024 21:09:21 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Cerebellum 是一个开源工具，旨在使用键盘和 [...] 自动进行网页浏览。</title>
-      <link>https://t.me/hn_summary/114771</link>
-      <description><![CDATA[显示 HN：Cerebellum – 使用 Claude 3.5 计算机使用开源浏览器控制
-Cerebellum 是一种开源工具，旨在使用键盘和鼠标操作自动进行网页浏览，以实现用户定义的目标。它通过将每个网页视为有向图中的节点，将用户操作作为边，简化了网页导航。该工具采用 Claude 3.5 Sonnet 模型来分析页面内容并决定下一步操作，使其在使用大型语言模型 (LLM) 进行决策方面独树一帜。Cerebellum 与任何支持 Selenium 的浏览器兼容，可以填写表格并动态调整策略。未来计划包括扩展 LLM 支持和改进交互功能。已知的限制包括拒绝解决 CAPTCHA 和浏览政治内容。该项目由麻省理工学院 (MIT) 授权，欢迎贡献。]]></description>
-      <guid>https://t.me/hn_summary/114771</guid>
-      <pubDate>Thu, 31 Oct 2024 17:35:54 GMT</pubDate>
+      <title>[媒体] Crux，Rust 和其他语言的精确验证器</title>
+      <link>https://t.me/hn_summary/114811</link>
+      <description><![CDATA[Crux，Rust 和其他语言的精确验证器
+“Crux，Rust 和其他语言的精确验证器”探讨了 Crux 的开发，Crux 是一种验证工具，旨在提高用 Rust 和其他编程语言编写的软件的可靠性。本文重点介绍了 Crux 利用符号执行和 SMT 求解器精确验证软件复杂属性的能力。Crux 的一个独特之处在于它对多种语言的适应性，这使其适用范围扩大到 Rust 之外。作者强调了 Crux 在检测细微错误方面的精确性，这对于确保软件安全性和正确性至关重要。本文没有深入探讨有争议的话题，但提供了一个令人信服的案例来说明 Crux 对软件验证实践的潜在影响。]]></description>
+      <guid>https://t.me/hn_summary/114811</guid>
+      <pubDate>Thu, 31 Oct 2024 21:04:15 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在快速发展的人工智能领域，ChatGPT 的引入标志着人工智能的一次转型 [...]</title>
-      <link>https://t.me/hn_summary/114770</link>
-      <description><![CDATA[我使用 AI 构建时学到的东西
-在快速发展的 AI 领域，ChatGPT 的推出标志着一个类似于过去技术里程碑的变革时刻。作为 Halcyon 的一名工程师，我观察到 AI“富人”和“穷人”之间的差距越来越大，OpenAI 和 Google 等大型组织设定了许多初创公司难以达到的高标准。然而，AI 初创公司可以通过利用领域专业知识并将 AI 集成到现有工作流程中来保持竞争力。在 Halcyon，我们专注于构建知识图谱等抽象概念，为原始数据提供上下文基础，我们优先将 AI 解决方案融入用户的工作流程，而不是强制更改。这种方法强调了我们的价值主张，因为我们相信 AI 成功的未来在于将先进技术与用户体验相协调。 Stack Overflow 的衰落以及 ChatGPT 的兴起体现了人工智能无缝融入既定流程的强大力量。展望未来，了解领域和用户对于实现有价值的技术进步仍然至关重要。]]></description>
-      <guid>https://t.me/hn_summary/114770</guid>
-      <pubDate>Thu, 31 Oct 2024 17:34:45 GMT</pubDate>
+      <title>[媒体] 在他的博客文章中，Bradley M.</title>
+      <link>https://t.me/hn_summary/114810</link>
+      <description><![CDATA[开源 AI 定义侵蚀了“开源”的含义
+
+Bradley M. Kuhn 在他的博客文章中批评了开放源代码倡议 (OSI) 发布的开放源代码人工智能定义 (OSAID) 1.0，认为它破坏了“开源”的传统含义。Kuhn 强调了 OSAID 未能强制公开复制 AI 系统的科学过程的争议，特别是在许可和披露训练集方面。他批评 OSI 决定发布现有 AI 系统可以满足的定义，暗示这是对企业利益的让步。Kuhn 呼吁将 OSAID 重新命名为“建议”而不是正式定义，并宣布他将竞选 OSI 董事会以倡导这一变革。该帖子强调了软件自由倡导者与企业驱动的开源方法之间的紧张关系，强调需要更广泛的社区参与来定义开源人工智能。]]></description>
+      <guid>https://t.me/hn_summary/114810</guid>
+      <pubDate>Thu, 31 Oct 2024 20:59:10 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在《1374 天——我与长期新冠疫情的抗争之旅》一书中，作者深刻地分享了他们正在进行的 [...]</title>
-      <link>https://t.me/hn_summary/114769</link>
-      <description><![CDATA[1374 天——我与长期新冠的抗争
-在《1374 天——我与长期新冠的抗争》中，作者深刻地分享了他们与长期新冠的持续斗争，强调虽然许多人认为疫情已经结束，但对于那些症状持续存在的人来说，战斗仍在继续。缺乏治疗让患者感到孤立和被误解，即使是最亲近的人也是如此。作者表达了对未来的衷心希望，希望他们能够重新获得简单的快乐，比如散步、旅行和社交，而不受恐惧或限制。这篇文章强调了长期新冠经常被忽视的现实，强调需要提高认识和同理心。]]></description>
-      <guid>https://t.me/hn_summary/114769</guid>
-      <pubDate>Thu, 31 Oct 2024 17:28:08 GMT</pubDate>
+      <title>在 2024 年 X.Org 开发者大会上的一次异想天开的演讲中，Alyssa Rosenzweig 穿着 [...]</title>
+      <link>https://t.me/hn_summary/114809</link>
+      <description><![CDATA[Apple M1/M2 GPU 驱动程序更新
+在 2024 年 X.Org 开发者大会上的一次异想天开的演讲中，Alyssa Rosenzweig 戴着传统的巫师帽，向与会者介绍了 Rust 编写的 Apple M1/M2 GPU 内核图形驱动程序的进展情况。尽管硬件限制阻止使用内置曲面细分器，但该驱动程序现在拥有 OpenGL 4.6 和 Vulkan 1.3 一致性。相反，Rosenzweig 的团队巧妙地使用 OpenCL 模拟曲面细分，实现了令人印象深刻的性能提升。一种涉及虚拟化的独特解决方案允许通过克服页面大小差异在 Apple 硬件上运行 AAA 游戏。这种巧妙的解决方法使《传送门》和《赛博朋克 2077》等游戏能够在 M1/M2 系统上运行，尽管高端游戏需要 16GB RAM。Rosenzweig 幽默地淡化了光线追踪，称其为“噱头功能”，并暗示未来将在 M3 GPU 上开展工作。会议强调了技术挑战和创造性解决方案，强调了社区致力于扩展 Apple 硬件上的游戏功能。]]></description>
+      <guid>https://t.me/hn_summary/114809</guid>
+      <pubDate>Thu, 31 Oct 2024 20:58:06 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在最近的一项决定中，Electronic Arts 和 Respawn 宣布取消对 [...] 的支持。</title>
-      <link>https://t.me/hn_summary/114768</link>
-      <description><![CDATA[Apex Legends 将取消对 Steam Deck 和 Linux 的支持
-在最近的一项决定中，Electronic Arts 和 Respawn 宣布取消对 Linux 和 Steam Deck 上 Apex Legends 的支持，理由是存在反作弊问题。尽管使用了 Epic Games 的 Easy Anti-Cheat（已与 Linux 兼容三年多），但 EA 已将 Linux 确定为作弊和漏洞的重要来源。此举与 Riot Games 等其他开发商的做法一致，他们也因类似的作弊漏洞而避免为 Valorant 和英雄联盟等游戏提供 Linux 支持。Linux 的开放性允许内核操纵，因此很难确保游戏的完整性。虽然有些人可能将此视为 Linux 问题，但它也反映了为小规模玩家群体证明资源合理性的挑战。有趣的是，EA 建议仍然可以通过安装 Windows 在 Steam Deck 上玩 Apex Legends，尽管 Valve 尚未发布双启动安装程序来简化此过程。]]></description>
-      <guid>https://t.me/hn_summary/114768</guid>
-      <pubDate>Thu, 31 Oct 2024 17:12:58 GMT</pubDate>
+      <title>[媒体] AMD 推出了 Ryzen 7 9800X3D 处理器，这是其台式计算机的新成员 [...]</title>
+      <link>https://t.me/hn_summary/114808</link>
+      <description><![CDATA[AMD 推出下一代 AMD Ryzen 7 9800X3D 处理器
+AMD 推出了 Ryzen 7 9800X3D 处理器，这是其台式机计算产品线的新成员，采用先进的“Zen 5”架构和第二代 AMD 3D V-Cache 技术。与上一代相比，这款处理器的游戏性能平均提高了 8%，比竞争对手快了 20%。一个独特的功能是将 64MB 缓存重新定位到处理器下方，增强了散热能力并实现了极限超频。这是第一款完全解锁的 X3D 处理器，让发烧友能够最大限度地提高性能。AMD 与 Activision 和 Saber Interactive 等游戏开发商的合作凸显了该处理器提升游戏体验的潜力。该公告包含有关前瞻性陈述的警告，强调了潜在的风险和不确定性。（基于 84% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/114808</guid>
+      <pubDate>Thu, 31 Oct 2024 20:56:59 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 福特汽车公司</title>
-      <link>https://t.me/hn_summary/114767</link>
-      <description><![CDATA[随着电动汽车需求下降，福特将停止 F-150 Lightning 的生产
-由于电动汽车需求下降，福特汽车公司将暂时停止其密歇根工厂的旗舰电动汽车 F-150 Lightning 的生产，直到今年年底。这一决定标志着福特电动汽车战略核心车型遭遇重大挫折。首席执行官吉姆·法利此前曾强调 Lightning 是电动汽车普及的关键测试。迪尔伯恩工厂在 2021 年总统乔·拜登访问并称赞该车性能时引起了人们的关注，该工厂将从 11 月中旬开始停工七周。电动汽车需求的减弱给该行业带来了意想不到的挑战。]]></description>
-      <guid>https://t.me/hn_summary/114767</guid>
-      <pubDate>Thu, 31 Oct 2024 17:12:56 GMT</pubDate>
+      <title>[媒体]《每日电讯报》的文章称，英国政府正在考虑一项争议[...]</title>
+      <link>https://t.me/hn_summary/114807</link>
+      <description><![CDATA[科技巨头正密谋通过版权法窃取英国的创造力
+《每日电讯报》的文章认为，英国政府正在考虑对版权法进行有争议的修改，这可能会让微软和谷歌等大型科技公司受益，而英国的创意产业则会因此受损。拟议的修改将允许人工智能公司使用受版权保护的材料来训练他们的系统，而无需向原创者支付报酬。这引发了创作者的愤怒，26,000 名专业人士签署了一份请愿书，其中包括凯文·贝肯和罗伯特·史密斯等知名人物，他们反对这一举措。文章强调了潜在的经济风险和创意控制权的丧失，敦促人工智能公司寻求使用此类内容的公平商业协议。争议在于人们认为这种不平衡有利于科技巨头而不是个人创作者，这可能会破坏英国的创意产业。]]></description>
+      <guid>https://t.me/hn_summary/114807</guid>
+      <pubDate>Thu, 31 Oct 2024 20:45:50 GMT</pubDate>
     </item>
     <item>
-      <title>网站 freetvz.com 提供了一个独特且巧妙的工具，允许用户创建自己的 [...]</title>
-      <link>https://t.me/hn_summary/114766</link>
-      <description><![CDATA[Show HN：创建自己的电视频道 ◉
-网站 freetvz.com 提供了一个独特而巧妙的工具，允许用户创建自己的个性化电视频道，指定为 CH 0。通过输入最多五个关键字、用户名或播放列表 ID，用户可以根据自己的兴趣策划定制观看体验。这种创新方法使个人能够控制自己的媒体消费，打造一个反映他们个人品味的频道。这个概念很简单，但提供了令人惊讶的定制水平，使其成为那些寻求更个性化娱乐体验的人的一个有趣的选择。]]></description>
-      <guid>https://t.me/hn_summary/114766</guid>
-      <pubDate>Thu, 31 Oct 2024 16:46:42 GMT</pubDate>
+      <title>[媒体] 美国正采取重要举措，支持其半导体产业[...]</title>
+      <link>https://t.me/hn_summary/114806</link>
+      <description><![CDATA[美国 NSTC EUV 加速器即将落户奥尔巴尼
+美国在纽约奥尔巴尼纳米技术中心建立 NSTC EUV 加速器，这是推动其半导体产业发展的重要一步。该计划是《芯片与科学法案》的一部分，旨在解决疫情期间暴露的脆弱半导体供应链问题，并确保美国在先进芯片技术领域的领导地位。奥尔巴尼工厂由 NY CREATES 运营，是 IBM 开创性研究的所在地，将拥有北美第一台公私合作的高 NA EUV 机器。这项技术对于生产更小的芯片尺寸至关重要，预计将推动未来的创新。奥尔巴尼公共和私人实体之间的合作凸显了重建北美作为半导体制造中心的战略举措。该声明强调了 EUV 光刻技术的重要性，该技术可以模仿艺术技术来创建纳米级设备，并使奥尔巴尼成为美国半导体计划中的关键参与者。]]></description>
+      <guid>https://t.me/hn_summary/114806</guid>
+      <pubDate>Thu, 31 Oct 2024 20:44:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
