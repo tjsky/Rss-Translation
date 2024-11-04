@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 04 Nov 2024 03:25:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 06:23:57 GMT</lastBuildDate>
+    <item>
+      <title>dperf：基于 DPDK 的超高性能 HTTP 客户端/服务器，用于负载测试</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gj7f4z/dperf_a_super_high_performance_http_clientserver/</link>
+      <description><![CDATA[        由    /u/Electrical-Wear773   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gj7f4z/dperf_a_super_high_performance_http_clientserver/</guid>
+      <pubDate>Mon, 04 Nov 2024 05:45:22 GMT</pubDate>
+    </item>
     <item>
       <title>我创建了一个开源声明性框架来构建 LLM 应用程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1gj3dng/i_created_an_opensource_declarative_framework_to/</link>
@@ -57,14 +64,14 @@
     <item>
       <title>我的 faker.js 包装器现已开源 - 帮助我创建用于模拟数据生成的最佳 UI</title>
       <link>https://www.reddit.com/r/opensource/comments/1gipnv0/my_fakerjs_wrapper_is_now_open_source_help_me_to/</link>
-      <description><![CDATA[我一直将这个工具设计为社区的免费工具，所以我认为理想的做法是将其开源，以便人们可以作为一个社区为其做出贡献并加以改进。  就我个人而言，我喜欢合成数据的世界和 UI 开发的生成，它们有助于访问非技术配置文件，甚至可以加快技术配置文件的工作速度。 这就是为什么如果您给我一颗星，我会激励我继续创建这种工具的原因  GITHUB：https://github.com/BreisOne/data-generator    提交人    /u/Charco6   [链接] [评论]]]></description>
+      <description><![CDATA[我一直将这个工具设计为社区的免费工具，所以我认为理想的做法是将其开源，以便人们可以作为一个社区为其做出贡献并加以改进。  就我个人而言，我喜欢合成数据的世界和 UI 开发的生成，它们可以方便地访问非技术配置文件，甚至可以加快技术配置文件的工作速度。 这就是为什么如果您给我一颗星，我会激励我继续创建这种工具的原因  GITHUB：https://github.com/BreisOne/data-generator    提交人    /u/Charco6   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gipnv0/my_fakerjs_wrapper_is_now_open_source_help_me_to/</guid>
       <pubDate>Sun, 03 Nov 2024 15:40:00 GMT</pubDate>
     </item>
     <item>
       <title>药品文献综述和药物警戒应用程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1gip31r/pharmaceutical_literature_review_and/</link>
-      <description><![CDATA[几个月前，我为医院的药房服务创建了这个小应用程序。主要功能如下：  它允许对疾病和药物进行联合结果搜索，以查看 pubmed 中可用的文献。 它允许使用 Faers API 从所用药物列表中提取不良反应，并过滤用户最感兴趣的不良反应。这是一个开源项目。  查看一下，如果您认为有用，请鼓励您做出贡献。 GitHub：https://github.com/BreisOne/pharmacovigilance-literature-mining    提交人    /u/Charco6   [链接] [评论]]]></description>
+      <description><![CDATA[几个月前，我为医院的药房服务创建了这个小应用程序。主要功能包括：  它允许在疾病和药物之间进行联合结果搜索，以查看 pubmed 中可用的文献。 它允许使用 Faers API 从使用的药物列表中提取不良反应，并过滤用户最感兴趣的不良反应。这是一个开源项目。  看一看，如果您认为它有用，请鼓励您做出贡献。 GitHub：https://github.com/BreisOne/pharmacovigilance-literature-mining    提交人    /u/Charco6   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gip31r/pharmaceutical_literature_review_and/</guid>
       <pubDate>Sun, 03 Nov 2024 15:14:44 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好，我编写了一个软件包，可以从 SEC 文件中下载、解析和创建结构化数据集。这样做的一个很酷的结果是，您现在可以花几美元从文件中创建有趣的数据集。 例如，我的一些研究生朋友想使用董事会进入/退出数据进行研究实验，但数据集的成本为 35,000 美元。使用 SEC 文件，我能够创建一个仅需 5 美元的数据集。警告：它确实需要一些数据整理，但在正确的提示下幻觉不是问题。 安装 pip install datamule[all]  快速入门： import datamule as dm downloader = dm.Downloader() downloader.download(form=&#39;10-K&#39;, ticker=&#39;AAPL&#39;)  链接：GitHub，文档 它确实需要 Gemini API 密钥。我使用了 300 美元的免费试用积分（1500rpm），但完全免费的套餐也适用（15rpm）。    提交人    /u/status-code-200   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gii2yy/datamule_construct_expensive_financial_datasets/</guid>
       <pubDate>Sun, 03 Nov 2024 08:06:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>我用 Python 制作了一个开源网络摄像头注视跟踪模型</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gihnzn/i_made_an_open_source_webcam_gaze_tracking_model/</link>
-      <description><![CDATA[        提交人    /u/ck-zhang   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gihnzn/i_made_an_open_source_webcam_gaze_tracking_model/</guid>
-      <pubDate>Sun, 03 Nov 2024 07:34:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
