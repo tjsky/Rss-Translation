@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 04 Nov 2024 01:13:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2024 03:25:37 GMT</lastBuildDate>
+    <item>
+      <title>从我的投资组合中剔除。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gj3crn/roast_tf_out_of_my_portfolio/</link>
+      <description><![CDATA[Roast tf out of my portfolio. I will appreciate any feedback on it: https://www.richardlechko.com/    提交人    /u/Careless_Care_9246   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gj3crn/roast_tf_out_of_my_portfolio/</guid>
+      <pubDate>Mon, 04 Nov 2024 01:51:02 GMT</pubDate>
+    </item>
     <item>
       <title>希望得到有关我的第一个网站的反馈</title>
       <link>https://www.reddit.com/r/webdev/comments/1gj22mx/looking_for_feedback_on_my_first_site_please/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[我目前从加拿大安大略省的一所大学毕业，想知道几年工作经验后我能获得什么样的薪水。 我目前了解 JavaScript、React、Tailwind、Vue、PHP、一些 Python 和节点。 我想扩展我的知识，想知道 2025 年学习什么最理想。 如果你们能给我任何建议，我将不胜感激，谢谢。    提交人    /u/Susmore   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1giqup1/as_a_full_stack_web_dev_whats_your_salary_and/</guid>
       <pubDate>Sun, 03 Nov 2024 16:31:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>与 Next.js 项目一起运行服务器的最佳方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1giq3t6/what_would_be_the_best_way_to_run_a_server/</link>
-      <description><![CDATA[      我正在尝试构建一个 Next.js 项目，但 Next 的缺点是它在处理队列和 Cron 作业等有状态的东西时效果不佳。所以我决定设置另一个节点实例来运行。在开发模式下使用“concurrently”包没问题，但当涉及到构建文件时，我不知道我是否走在正确的方向上。我有一个“服务器”文件夹如下： https://preview.redd.it/1x63j3iflpyd1.png?width=258&amp;format=png&amp;auto=webp&amp;s=6fa829e5e08c4af8dcbcb5599c9​​cfa3beb99e826 其中 `index.ts` 可能会从外部导入一些共享模块： https://preview.redd.it/78fjbxhjlpyd1.png?width=346&amp;format=png&amp;auto=webp&amp;s=d941cb4edf21872602e6c00bd8142ac5cd8ae973 我试过只对它进行 `tsc`，但是没有运气，我的一个软件包 esm-only: https://preview.redd.it/ly71fk5smpyd1.png?width=1415&amp;format=png&amp;auto=webp&amp;s=3dfcd1bce14042e08a79b480d42a792b27b0b291 也许我应该设置一个带有共享 `lib/` 包的 monorepo？或者有没有更好的方法，只需编译 `index.ts` 并使用 `node` 运行它？我还想知道：如果我使用“tsx”之类的东西运行节点，是否会有性能开销（当然会丢弃初始启动时间）？ 编辑：好的，我已经设置了一个带有“noExternal”的“tsup”来抵消T3的包： https://preview.redd.it/dauzbe2sopyd1.png?width=682&amp;format=png&amp;auto=webp&amp;s=a6b6bf24d7ee6bbc5046aac4b6408e2955200881 不知道有没有更好的办法！    提交人    /u/ExiledDude   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1giq3t6/what_would_be_the_best_way_to_run_a_server/</guid>
-      <pubDate>Sun, 03 Nov 2024 15:59:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
