@@ -4,13 +4,20 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 05 Nov 2024 01:09:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2024 03:19:42 GMT</lastBuildDate>
     <item>
-      <title>帮助减少我的总阻塞时间</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gjuiub/help_reducing_my_total_blocking_time/</link>
-      <description><![CDATA[        提交人    /u/jennyxmas   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gjuiub/help_reducing_my_total_blocking_time/</guid>
-      <pubDate>Tue, 05 Nov 2024 00:57:02 GMT</pubDate>
+      <title>SQL 与 NOSQL（MySQL 与 MongoDB）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gjvzh6/sql_vs_nosql_mysql_vs_mongodb/</link>
+      <description><![CDATA[这是一篇发泄文章。请随意忽略。 我和一个朋友正在为一家小公司构建一个工作调度 Web 应用程序。他应该在前端部分工作，我在后端部分工作。但是，我们在争论使用哪个数据库。 在应用程序的早期阶段，模型之间没有太多关系。基本思想是员工上下班打卡，管理员将看到员工工作时间的总体结果。 我的朋友认为 SQL 更适合用于基于关系的设计，这是可以理解的，但我们可以使用 Typegoose 或 Primsa for MongoDB 实现相同的效果。我在这里问的或只是想在这里得到一些见解，MongoDB 真的存在性能问题吗？另外，另一个问题是，如果 MongoDB 在关系繁重的系统中确实存在性能问题，那么它到底有什么用呢？世界上不可能有太多行业级的无关系系统。     提交者    /u/Mr-Robot-2022   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gjvzh6/sql_vs_nosql_mysql_vs_mongodb/</guid>
+      <pubDate>Tue, 05 Nov 2024 02:08:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>维基百科有多少个 html 页面.....</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gjv1zq/how_many_html_pages_does_wikipedia_have/</link>
+      <description><![CDATA[基本上是标题... 就像每个主题都有一个单独的 html 页面显示在网络上一样，或者他们是否有一个数据服务器将其转换为 html 页面并发送....    提交人    /u/iamawizaard   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gjv1zq/how_many_html_pages_does_wikipedia_have/</guid>
+      <pubDate>Tue, 05 Nov 2024 01:22:12 GMT</pubDate>
     </item>
     <item>
       <title>爱好网站 - 帮助通过服务器访问 API 并更新 html</title>
@@ -18,13 +25,6 @@
       <description><![CDATA[我几乎没有这方面的经验。我为朋友托管一个网站，该网站旨在访问 API 并显示来自该 API 的一些信息。 我们希望将该 API 远离访问该网站的任何人，据我所知，我可以通过在服务器上进行 API 调用来更新 html 来实现这一点。此外，我们的想法是将 API 调用次数保持在最低限度。某些数据应仅调用一次进行更新/天。其他数据被设置为 webhook，以便在更新时将数据发送给我。 那么，我如何获取服务器正在拉取的数据并使用它来更新人们正在查看的 HTML？    提交人    /u/Derka_Derper   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gjteiz/hobby_site_help_with_accessing_an_api_via_the/</guid>
       <pubDate>Tue, 05 Nov 2024 00:04:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么让你对管理 API 访问感到抓狂？[5 分钟调查 + 将分享结果]</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gjrrw5/what_drives_you_crazy_about_managing_api_access_5/</link>
-      <description><![CDATA[嗨，各位开发者 👋 我正在研究 API 管理和访问控制中的痛点。您知道该怎么做 - 跨服务处理数十个不同的 API 密钥，为开发/准备/生产环境管理单独的密钥，尝试跟踪跨多个服务的使用情况... 我正在开展一项匿名调查（大约需要 5 分钟），以了解其他开发者如何应对这些挑战。目标是收集有关常见痛点以及人们真正想要的解决方案（而不是供应商认为我们想要的解决方案）的数据。 我想了解的一些事情：  人们在 API 密钥管理上浪费了多少时间 团队为了方便做出了哪些安全权衡 基于使用情况的定价是有帮助还是有害 是否有人实际上已经在使用带有 API 的 AI 代理了   https://forms.gle/tqWiFHLmrqucyrbcA    提交人    /u/Zimster5810   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gjrrw5/what_drives_you_crazy_about_managing_api_access_5/</guid>
-      <pubDate>Mon, 04 Nov 2024 22:51:51 GMT</pubDate>
     </item>
     <item>
       <title>请继续审阅</title>
