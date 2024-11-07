@@ -4,7 +4,63 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 07 Nov 2024 12:29:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 15:16:04 GMT</lastBuildDate>
+    <item>
+      <title>Bento：尝试让与性能相关的数据更容易获取。</title>
+      <link>https://www.reddit.com/r/programming/comments/1glslvu/bento_trying_to_make_performancerelated_data_more/</link>
+      <description><![CDATA[  由    /u/-tobehuman  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1glslvu/bento_trying_to_make_performancerelated_data_more/</guid>
+      <pubDate>Thu, 07 Nov 2024 15:08:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>务实工程师在艰难时期的职业建议</title>
+      <link>https://www.reddit.com/r/programming/comments/1glrrkj/the_pragmatic_engineers_career_advice_for_tough/</link>
+      <description><![CDATA[  由    /u/shift_devs  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1glrrkj/the_pragmatic_engineers_career_advice_for_tough/</guid>
+      <pubDate>Thu, 07 Nov 2024 14:31:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的终端中的 ASCII 控制字符</title>
+      <link>https://www.reddit.com/r/programming/comments/1glqwhh/ascii_control_characters_in_my_terminal/</link>
+      <description><![CDATA[  由    /u/stackoverflooooooow  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1glqwhh/ascii_control_characters_in_my_terminal/</guid>
+      <pubDate>Thu, 07 Nov 2024 13:51:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何使用 Zod 验证 TypeScript 中的 ENV 变量</title>
+      <link>https://www.reddit.com/r/programming/comments/1glq7rq/how_to_validate_env_variables_in_typescript_using/</link>
+      <description><![CDATA[  由    /u/jsdevspace  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1glq7rq/how_to_validate_env_variables_in_typescript_using/</guid>
+      <pubDate>Thu, 07 Nov 2024 13:18:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>代码审查，由人工智能驱动 - 寻找有兴趣测试产品并合作进一步开发的团队</title>
+      <link>https://www.reddit.com/r/programming/comments/1glq5iy/code_reviews_supercharged_by_ai_looking_for_teams/</link>
+      <description><![CDATA[  由    /u/valtlfelipe  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1glq5iy/code_reviews_supercharged_by_ai_looking_for_teams/</guid>
+      <pubDate>Thu, 07 Nov 2024 13:15:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>容器查询简介</title>
+      <link>https://www.reddit.com/r/programming/comments/1glpxy9/a_friendly_introduction_to_container_queries/</link>
+      <description><![CDATA[  由    /u/kseluythel  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1glpxy9/a_friendly_introduction_to_container_queries/</guid>
+      <pubDate>Thu, 07 Nov 2024 13:04:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>EDA 世界中的 DynamoDB • Alex DeBrie</title>
+      <link>https://www.reddit.com/r/programming/comments/1glpxsm/dynamodb_in_an_eda_world_alex_debrie/</link>
+      <description><![CDATA[  由    /u/goto-con  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1glpxsm/dynamodb_in_an_eda_world_alex_debrie/</guid>
+      <pubDate>Thu, 07 Nov 2024 13:03:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>陷入困境？为何忙碌的工程师仍感到不满足以及如何摆脱困境</title>
+      <link>https://www.reddit.com/r/programming/comments/1glpv3x/stuck_in_a_loop_why_busy_engineers_still_feel/</link>
+      <description><![CDATA[  由    /u/eng1nuity  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1glpv3x/stuck_in_a_loop_why_busy_engineers_still_feel/</guid>
+      <pubDate>Thu, 07 Nov 2024 13:00:26 GMT</pubDate>
+    </item>
     <item>
       <title>幕井主题</title>
       <link>https://www.reddit.com/r/programming/comments/1gloxcj/makurai_theme/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[我正在尝试将 AI 用于我的日常编码，尤其是 REST API。假设我有一个函数涉及：1）从标头中提取 jwt，2）使用外部哈希函数加密/解密某些数据，3）使用 ORM 写入数据库，以及 4）返回 http 响应和错误处理。我必须在提示中解释所有内容（与编写纯代码相比，这是一项艰巨的任务），包括在哪里导入外部函数，每次我询问 GPT 时都很难得到不一致的答案。 您认为我在错误的用例上使用 AI 了吗？如果是，那么 AI 用于编码的用例是什么？ 我的经验是，直接在编程语言上编写代码比向 GPT 解释所有内容更省力（有时我需要在 GPT 响应后手动调整代码）    提交人    /u/rioriorioooo   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1gllj7t/prompting_ai_for_coding_is_not_really_efficient/</guid>
       <pubDate>Thu, 07 Nov 2024 08:03:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hacker News 头版是一份可个性化的印刷报纸</title>
-      <link>https://www.reddit.com/r/programming/comments/1glkxh1/hacker_news_frontpage_as_a_print_newspaper_that/</link>
-      <description><![CDATA[  由    /u/mahin1384  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1glkxh1/hacker_news_frontpage_as_a_print_newspaper_that/</guid>
-      <pubDate>Thu, 07 Nov 2024 07:17:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>#Elixir 中的主管和主管树</title>
-      <link>https://www.reddit.com/r/programming/comments/1glhjqr/supervisores_y_árboles_de_supervisión_en_elixir/</link>
-      <description><![CDATA[ 由   提交/u/emanuelpeg  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1glhjqr/supervisores_y_árboles_de_supervisión_en_elixir/</guid>
-      <pubDate>Thu, 07 Nov 2024 03:45:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>IMC Prosperity 2 撰写</title>
-      <link>https://www.reddit.com/r/programming/comments/1glhbq8/imc_prosperity_2_writeup/</link>
-      <description><![CDATA[  由    /u/david-teather  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1glhbq8/imc_prosperity_2_writeup/</guid>
-      <pubDate>Thu, 07 Nov 2024 03:32:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>我作为 MIT Battlecode 2024 决赛选手的经历</title>
-      <link>https://www.reddit.com/r/programming/comments/1glhbij/my_experience_as_a_mit_battlecode_2024_finalist/</link>
-      <description><![CDATA[  由    /u/david-teather  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1glhbij/my_experience_as_a_mit_battlecode_2024_finalist/</guid>
-      <pubDate>Thu, 07 Nov 2024 03:31:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 ImHex 的 DSL（“模式语言”）可视化二进制文件</title>
-      <link>https://www.reddit.com/r/programming/comments/1glae25/visualizing_binary_files_with_imhexs_dsl_the/</link>
-      <description><![CDATA[  由    /u/shot-master  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1glae25/visualizing_binary_files_with_imhexs_dsl_the/</guid>
-      <pubDate>Wed, 06 Nov 2024 21:59:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过从头编写 HTTP 服务器来探索 Postgres 的竞技场分配器</title>
-      <link>https://www.reddit.com/r/programming/comments/1gl9t7e/exploring_postgress_arena_allocator_by_writing_an/</link>
-      <description><![CDATA[  由    /u/alexeyr  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1gl9t7e/exploring_postgress_arena_allocator_by_writing_an/</guid>
-      <pubDate>Wed, 06 Nov 2024 21:34:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为全职 CTO，我如何安排自己的时间</title>
-      <link>https://www.reddit.com/r/programming/comments/1gl5irh/how_i_organized_my_time_as_a_fulltime_cto/</link>
-      <description><![CDATA[  由    /u/gregorojstersek  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1gl5irh/how_i_organized_my_time_as_a_fulltime_cto/</guid>
-      <pubDate>Wed, 06 Nov 2024 18:35:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>在我用来生成提交信息的 AI 工具遭到强烈反对后，我尝试对其进行改进</title>
-      <link>https://www.reddit.com/r/programming/comments/1gl574j/after_getting_backlash_for_my_ai_tool_that/</link>
-      <description><![CDATA[  由    /u/TheGreaT1803  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1gl574j/after_getting_backlash_for_my_ai_tool_that/</guid>
-      <pubDate>Wed, 06 Nov 2024 18:22:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
