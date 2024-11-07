@@ -4,11 +4,32 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 07 Nov 2024 15:16:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 18:20:51 GMT</lastBuildDate>
+    <item>
+      <title>开源预测软件助力更好的决策</title>
+      <link>https://www.reddit.com/r/opensource/comments/1glw6hx/opensource_forecasting_software_for_better/</link>
+      <description><![CDATA[嘿 r/opensource :) 我想向您介绍我们的免费开源预测软件 SocialPredict： https://github.com/openpredictionmarkets/socialpredict 我们帮助个人和组织做出更明智的决策。当有人决定在 SocialPredict 实例上提问时，同一实例中的任何其他人都可以说“是的，我认为这会发生”或“不，这不会发生”并在上面下注游戏币。 如果有足够多的人下注游戏币，您就会开始了解您的实例中的人们认为总体上会发生什么……这样您就可以对生活，宇宙和一切做出更好的决定！ 如果您喜欢所看到的内容，请查看并对我们的 repo 加注    提交人    /u/CosmicDystopia   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1glw6hx/opensource_forecasting_software_for_better/</guid>
+      <pubDate>Thu, 07 Nov 2024 17:39:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>我尝试了不同的 AI 代码助手来解决实际问题 - 结果如下</title>
+      <link>https://www.reddit.com/r/opensource/comments/1glvss5/i_tried_different_ai_code_assistants_on_a_real/</link>
+      <description><![CDATA[我一直使用 Cursor 作为我的主要编码助手，并且对它非常满意。事实上，我是一个付费客户。但最近，我决定探索一些可以融入我的开发工作流程的开源替代方案。我在一个实际问题上测试了 cursor、continue.dev 和 potpie.ai，以查看它们的表现。 测试用例 我从 SigNoz 存储库（前端和后端有超过 3,500 个文件）中挑选了一个“好的第一个问题”，其中有人需要禁用时间选择字段的自动完成功能，因为他们的密码管理器一直在干扰。我认为这将是一个良好的基准测试用例，因为它需要理解大型代码库中的组件关系。 作为参考，这里是原始问题。 以下是每个工具的表现： 光标  IDE 原生，无需扩展 Composer 功能真的很棒 聊天问答可能成功也可能失败 建议修改多个文件（CustomTimePicker、DateTimeSelection 和 DateTimeSelectionV2） - 这太过分了，正如我在下一个工具中发现的那样：  potpie.ai  聊天链接：https://app.potpie.ai/chat/0193013e-a1bb-723c-805c-7031b25a21c5 基于 Web 的界面，具有针对不同软件任务的专门代理 响应速度较慢但更彻底 第一次尝试就做对了 - 正确识别出只有 CustomTimePicker 需要更新。 这让我最初认为 cursor 做得很好而 potpie 搞砸了，但后来我检查了代码并注意到其他两个组件都在内部导入了 CustomTimePicker 组件，因此确实只有 CustomTimePicker 组件需要更新。 很好地理解了组件如何在内部使用 CustomTimePicker  continue.dev :  具有自动完成和聊天问答功能的 VSCode 扩展 不幸的是，它在这个特定任务上表现不佳 即使可以访问代码库，它也只提供了一般的建议 最好的回应是“它可能在像 TimeSelector.tsx 这样的文件中”  奖励：Codeium 我最终也尝试了 Codeium，尽管它不是开源的。有趣的是，它在确定正确解决方案方面的准确性与 Potpie 相当。 关键要点  响应速度越快并不总是越好 - Potpie 的透彻分析被证明更有价值 IDE 集成很不错，但不应以牺牲准确性为代价 更详细的答案并不一定更准确，正如 Cursor 的初步回应所示  作为参考，我还通过查看针对该问题的开放 PR 来确认解决方案。 这是一个非常有启发性的实验，可以了解不同的 AI 助手如何处理相同的任务。虽然每种工具都有其优势，但看看它们如何理解和解决实际问题还是很有趣的。 我相信还有很多我错过的工具，我很乐意尝试更多。请在评论中留下您的建议。   由    /u/ner5hd__  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1glvss5/i_tried_different_ai_code_assistants_on_a_real/</guid>
+      <pubDate>Thu, 07 Nov 2024 17:23:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>您是否有开源社区中“入门”指南的出色示例？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1glt7cw/do_you_have_great_examples_of_getting_started/</link>
+      <description><![CDATA[为我们的开源项目创建一个新的入门指南，想知道您是否有任何您认为非常出色的示例。我真的想确保人们从无到有拥有很棒的体验。我仔细阅读了很多，绝对可以创建一个“足够好”的指南，但我想尽可能做到最好。    提交人    /u/Visual_Bluejay9781   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1glt7cw/do_you_have_great_examples_of_getting_started/</guid>
+      <pubDate>Thu, 07 Nov 2024 15:35:06 GMT</pubDate>
+    </item>
     <item>
       <title>我为搜索引擎创建了一个公共域数据库</title>
       <link>https://www.reddit.com/r/opensource/comments/1glsjzi/i_made_a_public_domain_database_for_search_engines/</link>
-      <description><![CDATA[我正在开发自己的搜索引擎数据库。不幸的是，该项目目前仅包含土耳其语。如果您想开发搜索引擎，您可以为我的项目做出贡献，并使用 JavaScript 中的 fetch 函数将其添加到您的项目中。如果您能做出贡献，我会很高兴 :) 从 DeepL 翻译。我不会说英语 提前感谢您的贡献。这是我为开源和免费软件所做的事情 链接：https://github.com/oyuncunettv/public-domain-search-engine-db/tree/main    提交人    /u/oyuncunettv   [链接] [评论]]]></description>
+      <description><![CDATA[我正在开发自己的搜索引擎数据库。不幸的是，该项目目前仅包含土耳其语。如果您想开发搜索引擎，您可以为我的项目做出贡献，并使用 JavaScript 中的 fetch 函数将其添加到您的项目中。如果您能做出贡献，我会很高兴 :) 从 DeepL 翻译而来。我不会说英语 提前感谢您的贡献。这是我为开源和免费软件所做的事情 链接：https://github.com/oyuncunettv/public-domain-search-engine-db/tree/main    提交人    /u/oyuncunettv   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1glsjzi/i_made_a_public_domain_database_for_search_engines/</guid>
       <pubDate>Thu, 07 Nov 2024 15:06:31 GMT</pubDate>
     </item>
@@ -22,7 +43,7 @@
     <item>
       <title>您最喜欢但又被低估的开源库是什么？</title>
       <link>https://www.reddit.com/r/opensource/comments/1glo61h/whats_your_favourite_yet_underrated_open_source/</link>
-      <description><![CDATA[我正在尝试检查一些新的开源库，我很乐意听到您的意见！    由   提交  /u/Arindam_200   [链接] [评论]]]></description>
+      <description><![CDATA[我正在尝试检查一些新的开源库，我很乐意听到您的意见！    提交人    /u/Arindam_200   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1glo61h/whats_your_favourite_yet_underrated_open_source/</guid>
       <pubDate>Thu, 07 Nov 2024 11:20:21 GMT</pubDate>
     </item>
@@ -41,7 +62,7 @@
       <pubDate>Thu, 07 Nov 2024 10:51:47 GMT</pubDate>
     </item>
     <item>
-      <title>Redis 简报：“开源许可已损坏。我们该如何修复它？”</title>
+      <title>Redis 简报：“开源许可已被破坏。我们该如何修复它？”</title>
       <link>https://www.reddit.com/r/opensource/comments/1glmof5/redis_newsletter_open_source_licensing_is_broken/</link>
       <description><![CDATA[Redis 在分叉后如此绝望： “开源许可是否需要修复？维护开源软件的开发者和公司如何保护自己免受大型科技公司的侵害？这些公司通过转售他们的软件赚取数百万美元，却没有为社区做出太多贡献？ 我们的首席执行官 Rowan Trollope 受邀参加 TechCrunch Disrupt 的小组讨论，与 Docker 首席执行官 Scott Johnston 和 Accel Ventures 合伙人 Casey Aylward 一起讨论这些问题及其他问题。以下是他所说的话：“如果一家公司正在考虑开源，那么他们在某个时候就会遇到麻烦——那时你想将你的产品货币化并保护它免受具有压倒性优势的垄断竞争对手的侵害，如谷歌、亚马逊等。在某个时候，你会意识到这种商业模式已经崩溃，因为其他人可以拿走你的代码并发布它。” Trollope 接着说，大型科技公司能够“大规模地欺骗整个行业”它如何使用开源软件——因为官方对什么是开源、什么不是开源的定义在制定时并没有考虑到超大规模时代的挑战。 观看整个小组的有趣讨论，了解如何解决开源软件维护者面临的问题，以及围绕开源建立业务的初创公司应该做哪些准备。&quot;    提交人    /u/EyedApproximation   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1glmof5/redis_newsletter_open_source_licensing_is_broken/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[大约一个月以来，我一直在开发一个 AAC 程序，我称之为 Wingman。 它目前是一个内部测试中的 Android 应用程序（稍后将针对 Linux、Windows 等进行开发），并且确实需要一些程序开发方面的帮助。 我自己就是一个用户，一直在使用 Tobii Communicator 5 等软件进行说话 - 这是一款非常流行的软件，感觉非常老旧。出于某种原因，它无法在 WINE 下运行，这使我只能在至少一台计算机上使用 Windows，而且 Communicator 的声音非常计算机化（尤其是丹麦语） 我找到了 Azure Neural Voices（我知道这是一种专有的 TTS 服务，但它比我以前使用过的任何服务都要好得多），并开始开发（之前对软件开发人员的知识很少），并且需要很多开发方面的帮助。这是一个业余项目，它可以用真正伟大的声音彻底改变 AAC 世界，不需要花费太多的钱来获得许可证，而且是由知道什么会很好用的用户开发的。ISAAC Denmark 和 Elsass Fonden 对我的项目非常感兴趣。 当我向 SQLite 数据库添加新列、重构非常混乱的代码库并添加用户友好的音素支持（通过 Azure API）时，我真的需要一些迁移脚本方面的帮助。 我将在一月份开始软件工程教育，这基本上将是我的永久业余项目，因为我对我使用的说话方式非常挑剔。  它将永远免费，条件是用户获取自己的 Azure 订阅（F0）或向我支付费用以管理他们的订阅（50 丹麦克朗（含税和 Google 计费系统）大约相当于我预计如果我不得不给普通用户 S0 订阅（100 万个字符 120 丹麦克朗，随用随付），则需要支付的费用。  如果你们中有人有兴趣为这个项目做出贡献： GitHub.com/jdreioe/wingman    提交人    /u/jonumand   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gl78a3/the_beginning_of_open_sourcing_aacspeech_programs/</guid>
       <pubDate>Wed, 06 Nov 2024 19:46:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>ClearlyDefined 将在 SOSS Fusion 2024 上亮相：开源许可证合规性的协作解决方案</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gl3z5m/clearlydefined_at_soss_fusion_2024_a/</link>
-      <description><![CDATA[        由    /u/opensourceinitiative  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gl3z5m/clearlydefined_at_soss_fusion_2024_a/</guid>
-      <pubDate>Wed, 06 Nov 2024 17:31:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>项目经理和时间追踪者</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gl15so/project_manager_and_time_tracker/</link>
-      <description><![CDATA[嗨！我正在寻找 ClickUp 的开源替代品，以便管理项目和跟踪时间，从而提高个人工作效率。我正在寻找具有以下功能的软件：  强大的时间跟踪功能 具有不同视图（甘特图、看板、列表）的项目管理 Android 应用 Web 门户  我研究过一些选项，例如 Huly、Solidtime 和 Taiga，它们引起了我的注意，但它们与我的要求有些差距。我想知道您是否还有其他平台可以推荐。    提交者    /u/lexcard91   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gl15so/project_manager_and_time_tracker/</guid>
-      <pubDate>Wed, 06 Nov 2024 15:31:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>开放一个使用自然语言而不是 CSS 选择器与网站交互的框架。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gkzjfs/open_sourcing_a_framework_for_interacting_with/</link>
-      <description><![CDATA[嘿！我打算开源一个我最近一直在研究的工具。这是一个使用自然语言与网站交互的框架。 browser.click(&quot;sign up button&quot;) 您无需查找元素的 css 选择器或 xpath，只需使用简单的提示描述元素即可检索它们。想象一下具有 LLM 功能的剧作家。除了检索元素之外，您还可以以所需的格式从网站中提取数据。使用提示、JsonSchema 或 Pydanctic BaseModel 指定格式，然后您就可以根据需要获取数据。 Github：https://github.com/dendrite-systems/dendrite-python-sdk 我还构建了一个 chrome 扩展，以便能够存储您自己浏览器中的会话，以便能够在具有身份验证的网站上使用该框架。 我对如何开源该软件包有一些考虑，我将不胜感激任何意见。由于该项目现在的结构是，有一个用 python 编写的服务器可以处理所有 HTML 解析和 LLM 逻辑，并且 python sdk 使用页面的 html 和屏幕截图向其发送请求。我原本打算将这两个组件合并为一个，但问题是构建 typescript 变体会很困难。也希望获得有关最佳实践和思考内容的提示！    提交人    /u/rivernotch   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gkzjfs/open_sourcing_a_framework_for_interacting_with/</guid>
-      <pubDate>Wed, 06 Nov 2024 14:18:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
