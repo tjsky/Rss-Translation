@@ -4,7 +4,7 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 10 Nov 2024 03:20:54 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 06:19:56 GMT</lastBuildDate>
     <item>
       <title>允许在人工智能的帮助下搜索网络的软件列表</title>
       <link>https://www.reddit.com/r/opensource/comments/1gnq4wy/list_of_software_that_allows_searching_the_web/</link>
@@ -13,9 +13,9 @@
       <pubDate>Sun, 10 Nov 2024 02:10:09 GMT</pubDate>
     </item>
     <item>
-      <title>今天我第一次认真地致力于一个开源项目，但最终只为两个项目做出了贡献！</title>
+      <title>今天我第一次认真地致力于一个开源项目，但最终为两个项目做出了贡献！</title>
       <link>https://www.reddit.com/r/opensource/comments/1gno2a0/did_my_first_serious_commit_to_an_open_source/</link>
-      <description><![CDATA[我之前贡献过一些小东西，比如添加问题和修复小拼写错误，但我决定将我最喜欢的开源应用程序同步到 Android 的 Health Connect 系统中。这在几个问题中都有要求，但还没有人来得及做。 结果发现，由于该应用程序是用 Cordova 编写的，因此需要一个兼容层插件，将 JavaScript 函数转换为 API 可以理解的 Java 调用。我看到有一个，但我真正需要的功能未经测试就被合并了，而且严重损坏了，所以现在除了为我最喜欢的应用程序做贡献外，我还为另一个插件贡献了 Java，这是一种我从未使用过的语言！经过几个小时的研究，了解其他 API 调用的工作原理、阅读文档并反复试验（如此多的反复试验），我让 API 100% 正常工作，并最终为该项目提交了 PR，修复后立即被接受！ 然后，我可以为想要添加支持的应用开发 WIP PR，导入插件，初始化 Health Connect API，进行一些测试调用等。期待完成功能并获得批准和合并！    提交人    /u/Frequent_Computer388   [链接] [评论]]]></description>
+      <description><![CDATA[我之前贡献过一些小东西，比如添加问题和修复小拼写错误，但我决定将我最喜欢的开源应用程序同步到 Android 的 Health Connect 系统中。几个问题中都要求这样做，但还没有人来得及。 结果发现，由于该应用程序是用 Cordova 编写的，因此需要一个兼容层插件，将 JavaScript 函数转换为 API 可以理解的 Java 调用。我看到有一个，但我真正需要的功能未经测试就被合并了，而且严重损坏了，所以现在，除了为我最喜欢的应用程序做贡献外，我还为另一个插件贡献了 Java，这是一种我从未使用过的语言！经过几个小时的研究，了解其他 API 调用的工作原理、阅读文档并反复试验（如此多的反复试验），我让 API 100% 正常工作，并最终为该项目提交了 PR，修复后立即被接受！ 然后，我可以为想要添加支持的应用开发 WIP PR，导入插件，初始化 Health Connect API，进行一些测试调用等。期待完成功能并获得批准和合并！    提交人    /u/Frequent_Computer388   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gno2a0/did_my_first_serious_commit_to_an_open_source/</guid>
       <pubDate>Sun, 10 Nov 2024 00:21:18 GMT</pubDate>
     </item>
@@ -29,7 +29,7 @@
     <item>
       <title>为什么像 Arch、Vlc 这样的大项目更喜欢 GitLab 而不是 Github？</title>
       <link>https://www.reddit.com/r/opensource/comments/1gnn3s2/why_do_big_projects_like_arch_and_vlc_prefer/</link>
-      <description><![CDATA[它们几乎具有相同的功能，而且 Github 甚至有更多用户做出贡献。但是 Gitlab 中是否有他们更喜欢的更好的东西？ 编辑：明白了，谢谢。两者都在两个平台上作为原始 repo 的镜像，但许多人使用 gitlab 是因为微软收购了 github    提交人    /u/paramint   [link] [评论]]]></description>
+      <description><![CDATA[它们几乎具有相同的功能，而且 Github 甚至有更多用户做出贡献。但是 Gitlab 中还有他们更喜欢的更好的东西吗？ 编辑：明白了，谢谢。两者都在两个平台上作为原始 repo 的镜像，但许多人使用 gitlab 是因为微软收购了 github    提交人    /u/paramint   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gnn3s2/why_do_big_projects_like_arch_and_vlc_prefer/</guid>
       <pubDate>Sat, 09 Nov 2024 23:33:52 GMT</pubDate>
     </item>
@@ -50,7 +50,7 @@
     <item>
       <title>openboard Android 键盘有哪些替代品？</title>
       <link>https://www.reddit.com/r/opensource/comments/1gniut8/what_are_the_alternatives_to_openboard_android/</link>
-      <description><![CDATA[我使用过一段时间的 Android 版 Openboard 键盘。https://Github.Com/Openboard-team/Openboard 它运行良好，但有一些小问题，已经 2 年没有更新了。我也检查了它的分支，但没有发现更好的。因此，我正在寻找替代方案。这些是我正在寻找的功能： - FOSS。 - 多语言。 - 预测文本。 - 个人词典。 - 表情符号。    提交人    /u/abentofreire   [链接] [评论]]]></description>
+      <description><![CDATA[我使用过一段时间的 Android 版 Openboard 键盘。https://Github.Com/Openboard-team/Openboard 它运行良好，但有一些小故障，已经 2 年没有更新了。我也检查了它的分支，但没有发现更好的。因此，我正在寻找替代方案。这些是我正在寻找的功能： - FOSS。 - 多语言。 - 预测文本。 - 个人词典。 - 表情符号。    提交人    /u/abentofreire   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gniut8/what_are_the_alternatives_to_openboard_android/</guid>
       <pubDate>Sat, 09 Nov 2024 20:14:39 GMT</pubDate>
     </item>
