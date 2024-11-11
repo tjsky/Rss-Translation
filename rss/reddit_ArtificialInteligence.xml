@@ -4,7 +4,14 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供门户，并促进有关我们所知的人工智能理念和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Mon, 11 Nov 2024 06:21:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2024 09:16:58 GMT</lastBuildDate>
+    <item>
+      <title>ChatGPT 的 Orion 遇到瓶颈：“衍生”自然语言 AI ​​能否达到 AGI？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gonbz9/chatgpts_orion_hit_a_wall_can_derivative_natural/</link>
+      <description><![CDATA[&quot;一些测试过 Orion 的 OpenAI 员工报告说，它在完成仅 20% 的训练后就达到了 GPT-4 级别的性能，但质量提升小于从 GPT-3 到 GPT-4 的飞跃，这表明随着高质量数据变得有限，传统的扩展改进可能会放缓。...- OpenAI 已经成立了一个&quot;基础&quot;团队，以开发新方法来在高质量数据供应减少的情况下维持改进。&quot; *** 如果没有庞大的人造自然语言数据库（其中包含几乎所有可能问题的所有可能答案），自然语言 LLM 能否达到 AGI ？如果人工智能不能在人类水平上产生新的合成数据，那么 LLM 如何达到 AGI 水平？换句话说：如果 LLM 是&quot;衍生&quot;（次要的）自然语言产品，那么如果没有完美的人造训练数据，它们如何达到 AGI？我们是否应该专注于较小的认知模型，这些模型实际上可以以“纯粹”的形式创造新的人类水平的知识？*** 来源：Tibor Blaho az X-en：“一些测试过 Orion 的 OpenAI 员工报告说，它在完成仅 20% 的训练后就达到了 GPT-4 级别的性能，但质量提升小于从 GPT-3 到 GPT-4 的飞跃，这表明随着高质量 https://t.co/tuuMuLvKpA” / X     提交人    /u/custodiam99   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1gonbz9/chatgpts_orion_hit_a_wall_can_derivative_natural/</guid>
+      <pubDate>Mon, 11 Nov 2024 08:08:13 GMT</pubDate>
+    </item>
     <item>
       <title>寻找可以同时创建静止图像和视频的工具？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1golfq3/rec_for_tool_that_can_create_both_still_images/</link>
@@ -74,13 +81,6 @@
       <description><![CDATA[我每天都会查找和总结有趣的 AI 研究论文，这样你就不必费力地浏览它们了。今天的论文题为“AlignXIE：通过跨语言对齐改进多语言信息提取”，作者是 Yuxin Zuo、Wenxuan Jiang、Wenxuan Liu、Zixuan Li、Long Bai、Hanbin Wang、Yutao Zeng、Xiaolong Jin、Jiafeng Guo 和 Xueqi Cheng。 本文探讨了由于大型语言模型 (LLM) 中跨语言对齐不平衡导致多语言信息提取 (IE) 面临的挑战。作者提出了 AlignXIE，这是一种利用基于代码的方法通过两种创新策略增强跨语言 IE 的新方法。以下是本研究的一些主要发现：  统一模式表示：AlignXIE 使用 Python 类将多语言 IE 任务制定为统一的代码生成框架。这种方法可以跨语言标准化模式，从而促进一致的知识传递。 跨语言对齐阶段：该框架结合了跨语言对齐阶段，利用一项称为翻译实例预测的任务。此阶段增强了跨语言的模式和提取对齐，旨在提高非英语环境中的性能。 高质量并行数据集创建：作者介绍了一种基于 LLM 的自动管道，用于构建双语 NER 数据集 ParallelNER，其中包含 257,190 个带注释的样本。这对于增强跨语言泛化能力至关重要。 性能提升：AlignXIE 显著超越了现有的最先进模型（包括 ChatGPT）30.17%，超越了其他多语言 IE 系统 20.03%，在 63 个中英文 IE 基准测试中展示了卓越的跨语言能力。 综合评估：大量测试表明，AlignXIE 的跨语言泛化能力显著提升，在大多数英文和中文 IE 任务中排名前 2，并在所有中文 IE 基准测试中达到最先进水平。  AlignXIE 代表了多语言信息提取方面迈出的重要一步，有效地利用跨语言对齐来解决语言不平衡问题并提高多语言 IE 系统的整体性能。 您可以在此处查看完整细分：这里 您可以在此处获取完整的原始研究论文：原始论文    提交人    /u/steves1189   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1go9hoz/alignxie_improving_multilingual_information/</guid>
       <pubDate>Sun, 10 Nov 2024 20:04:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Pro 是否提供类似 ChatGPT Plus 的付费记忆功能？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1go8zqu/does_claude_pro_offer_paid_memory_features_like/</link>
-      <description><![CDATA[我正在考虑是否要续订 iClaude Pro 的初始月度付款，但我很好奇它是否提供任何像 ChatGPT Plus 那样的付费记忆功能。具体来说，它是否保留多个会话的上下文或提供任何高级个性化选项？ 此外，任何其他主要 AI 模型（例如 Google Advanced、CoPilot Pro）是否提供类似的记忆功能，无论是免费的还是通过订阅提供的？我很想知道他们是否处理记忆保留，以及他们是否会对诸如防止对话修剪（DP 丢失）等事情收费。    提交人    /u/TheLawIsSacred   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1go8zqu/does_claude_pro_offer_paid_memory_features_like/</guid>
-      <pubDate>Sun, 10 Nov 2024 19:43:12 GMT</pubDate>
     </item>
     <item>
       <title>作为一个完全的初学者，如何深入学习人工智能？</title>
