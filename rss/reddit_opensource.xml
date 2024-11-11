@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 11 Nov 2024 01:11:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2024 03:21:34 GMT</lastBuildDate>
+    <item>
+      <title>PDF 编辑器删除所有书签</title>
+      <link>https://www.reddit.com/r/opensource/comments/1goi8c5/pdf_editor_to_delete_all_the_bookmarks/</link>
+      <description><![CDATA[大家好！ 我需要一个可以一次性删除所有书签的 PDF 编辑器，我是 Windows 8 用户，它需要免费。我试过使用可以做到这一点的网站，但它们的大小限制低于我的需求。请帮帮我！    提交人    /u/pestenegro   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1goi8c5/pdf_editor_to_delete_all_the_bookmarks/</guid>
+      <pubDate>Mon, 11 Nov 2024 02:54:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>2024 年开源来临</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gohscs/advent_of_open_source_2024/</link>
+      <description><![CDATA[        提交人    /u/raybb   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gohscs/advent_of_open_source_2024/</guid>
+      <pubDate>Mon, 11 Nov 2024 02:30:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>对索尼 Alpha 相机的开源项目及与该相机相关的更多项目进行分类</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gogplt/cataloging_open_source_projects_for_sony_alpha/</link>
+      <description><![CDATA[大家好。我正在努力创建一份全面的索尼 alpha 相机开源项目列表，或与索尼 alpha 相机相关的开源项目列表。之所以在这里发布这份列表，是因为我推测 r/Sonyalpha 上的很多人似乎对开源不感兴趣。 无论如何，我创建这份列表是因为我看到索尼相机的黑匣子中有很多潜力，以及索尼有时真的会在某些相机上犯错，要么是应用程序不好，要么是删除了应用程序中相机的兼容性，而相机应该可以正常工作。另外，还有一些其他项目，通过打开索尼 Alpha 相机的黑匣子来增加更多信息。 到目前为止，我只有这三个： Staacks 的 Alpha 遥控器（索尼 Alpha 相机的蓝牙控制器应用程序，大约一两天前在这里发布，激发了我制作此类列表的兴趣）：  https://github.com/Staacks/alpharemote  epietrowicz 的索尼多端口控制器（索尼多端口配件制作指南，由于 repo 中列出的供应商要么删除了该项目，要么关闭了他们的页面，因此略有贬值，但如果您查看，其他供应商仍然可用  https://github.com/epietrowicz/Sony-Multiport-Controller  Wenting Zeng 的 Sitina1（全画幅索尼 E 卡口兼容相机）  https://gitlab.com/zephray/sitina1  可能缺少一些，但会添加任何适用于或与索尼 alpha 相机配合使用的项目。我只在最近几天才开始做这件事，但愿意添加人们提到的任何项目。我计划将它们全部编译成一个“awesome-Sony-alpha”风格的 GitHub 列表。还将致力于为这些项目创建兼容性列表，以便人们知道哪些项目适合他们的相机。    提交人    /u/furculture   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gogplt/cataloging_open_source_projects_for_sony_alpha/</guid>
+      <pubDate>Mon, 11 Nov 2024 01:34:48 GMT</pubDate>
+    </item>
     <item>
       <title>数字资产管理？图片和文件管理器等等。</title>
       <link>https://www.reddit.com/r/opensource/comments/1gofywr/digital_asset_management_picture_and_file/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我正在寻找一款开源白名单浏览器。该浏览器只允许您访问您列入白名单的网站。 我在 Play 商店中找到了这款 白名单浏览器应用。 它看起来不像是开源的，所以我想知道是否有人知道有开源的！    提交人    /u/Fit_Quiet_7423   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gnkrb7/foss_whitelist_browser/</guid>
       <pubDate>Sat, 09 Nov 2024 21:42:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>SMTP 基本身份验证问题</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gnjrah/smtp_basic_authentication_problems/</link>
-      <description><![CDATA[嗨，开源人士， 我正在考虑为一个开源项目做贡献，该项目目前仅支持 smtp 的基本身份验证，这会导致问题，因为它不再受各种提供商的支持。 我正在考虑解决这个问题，我能找到的就是实现 OAuth 支持。 这个问题是用户可能没有知识、经验或访问权限来设置应用程序注册以创建客户端 ID。 开源项目做了什么来允许用户发送电子邮件而无需做任何主要技术工作？ 非常感谢 丹    提交人    /u/Motor_Style2408   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gnjrah/smtp_basic_authentication_problems/</guid>
-      <pubDate>Sat, 09 Nov 2024 20:56:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>openboard Android 键盘有哪些替代品？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gniut8/what_are_the_alternatives_to_openboard_android/</link>
-      <description><![CDATA[我使用过一段时间的 Android 版 Openboard 键盘。https://Github.Com/Openboard-team/Openboard 它运行良好，但有一些小问题，已经 2 年没有更新了。我也检查了它的分支，但没有发现更好的。因此，我正在寻找替代方案。这些是我正在寻找的功能： - FOSS。 - 多语言。 - 预测文本。 - 个人词典。 - 表情符号。    提交人    /u/abentofreire   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gniut8/what_are_the_alternatives_to_openboard_android/</guid>
-      <pubDate>Sat, 09 Nov 2024 20:14:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我需要一个开源预算软件供我的家庭使用</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gnhbhy/i_need_an_opensource_budgeting_software_for_my/</link>
-      <description><![CDATA[我尝试了 archlinux 存储库中的一些软件包 - kmymoney、gnucash 和 homebank。但它们都不是我所寻找的：  它需要易于使用。它不应该包含复杂、难以理解的内容，因为不仅我会使用它，我的妻子也会使用它。我不想用命令行、双重会计思想、交易对手概念和分离信用卡和借记卡来折磨她，我只想把支出和未来费用放在那里。 它应该包含未来支出和计划。例如，我想买一张新显卡，而我的妻子想买一架电子钢琴。我想在程序中保留这些条目，因为它们与一件事有关：钱。 尽管现在我们可以使用 Syncthing 或类似程序同步文件，但最好是在线同步。因为我使用 Linux，而我的妻子使用 Windows，所以最好找一些在线的、可同步的和多平台的程序。  基本上就是这样。我只希望该程序能够跟踪成本分摊、一些愿望或其他东西。好吧，还有一份关于花钱情况的良好报告。所以在线电子表格很可能不适合我。你知道任何这样的程序吗？    提交人    /u/hurleymjohnston   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gnhbhy/i_need_an_opensource_budgeting_software_for_my/</guid>
-      <pubDate>Sat, 09 Nov 2024 19:04:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
