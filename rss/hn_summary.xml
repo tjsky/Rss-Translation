@@ -4,86 +4,87 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Thu, 14 Nov 2024 01:06:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 02:50:51 GMT</lastBuildDate>
     <item>
-      <title>Obsidian 的 Textgram 插件是一款旨在通过允许用户使用 [...]</title>
-      <link>https://t.me/hn_summary/116478</link>
-      <description><![CDATA[显示 HN：在 Obsidian 中存储和呈现 ASCII 图表
-Obsidian 的 Textgram 插件是一种旨在增强笔记记录的工具，它允许用户直接在笔记中创建和存储 ASCII 图表。此插件对于软件工程师和其他需要使用图表、流程图、表格和甘特图记录技术信息的人特别有用，这些图表、流程图、表格和甘特图在预览模式下呈现为 SVG 图形。该项目基于 Sam Goto 的 typograms 库，旨在提供一种灵活、便携的解决方案，用于创建可在文本文件中轻松编辑和版本控制的视觉内容。该插件通过无缝集成到 Obsidian 中而脱颖而出，允许用户在不离开应用程序的情况下创建和修改 ASCII 图形。通过 Obsidian 的第三方插件浏览器可以轻松安装。鼓励用户通过各种方式为项目做出贡献或支持作者。]]></description>
-      <guid>https://t.me/hn_summary/116478</guid>
-      <pubDate>Thu, 14 Nov 2024 01:06:31 GMT</pubDate>
+      <title>[媒体] 就我最近的经验而言，我在移动 ISO 文件时遇到了传输速度缓慢的问题 [...]</title>
+      <link>https://t.me/hn_summary/116489</link>
+      <description><![CDATA[使用 Tailscale 时，Windows 会降低 SMB 速度
+在我最近的体验​​中，尽管我的 NAS 能够使千兆位链路饱和，但在从 TrueNAS SMB 共享移动 ISO 文件时，我遇到了传输速度缓慢的问题。罪魁祸首似乎是 Tailscale，它是运行在我的 Proxmox VM 上的子网路由器，它导致我的桌面有两个接口访问同一个网络。Windows 使用其“接口度量”系统，由于其宣传的 100Gbps 链路速度而优先考虑 Tailscale 虚拟适配器，导致性能不佳。通过 PowerShell 调整 Tailscale 的接口度量，我恢复了以太网的近千兆位速度。令人惊讶的是，Windows 的度量系统可能会无意中优先考虑虚拟适配器而不是物理适配器，从而影响网络性能。未来的计划包括切换到 Linux 并升级到 10G NIC。]]></description>
+      <guid>https://t.me/hn_summary/116489</guid>
+      <pubDate>Thu, 14 Nov 2024 02:50:51 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] ESP32 Rainbow 是对标志性的 Sinclair ZX Spectrum 的现代致敬，无需 [...]</title>
-      <link>https://t.me/hn_summary/116477</link>
-      <description><![CDATA[显示 HN：ESP32 Rainbow – ZX Spectrum 模拟器
-ESP32 Rainbow 是对标志性的 Sinclair ZX Spectrum 的现代致敬，为复古计算爱好者提供怀旧而又创新的体验。这个开源硬件项目模拟了 48K 和 128K 型号，具有全彩触摸键盘、320x240 TFT 显示屏和强大的 ESP32-S3 处理器。它通过其 QWIIC 连接器和扩展端口支持各种应用程序，使其成为个人项目的多功能平台。该设备售价 99 美元，融合了怀旧和现代技术。虽然该项目经过了充分测试，但该团队承认由于他们在大规模生产方面相对缺乏经验，因此可能面临制造挑战。然而，他们通过外包给 PCBWay 并确保组件可用性来降低风险。ESP32 Rainbow 的设计易于复制，减少了对特定制造商的依赖。]]></description>
-      <guid>https://t.me/hn_summary/116477</guid>
-      <pubDate>Thu, 14 Nov 2024 00:50:21 GMT</pubDate>
+      <title>问 HN：作为单人 SaaS，如何处理敏感文档上传？</title>
+      <link>https://t.me/hn_summary/116488</link>
+      <description><![CDATA[问 HN：作为单人 SaaS，如何处理敏感文档上传？
+我正在考虑开发一款专注于处理敏感文档（例如律师使用的文档）的 SaaS 产品，该产品也可能适用于其他行业。虽然存在类似的产品，但我发现了一个独特的角度，可以为用户带来重大好处。然而，作为一名个人企业家，我不确定如何处理与管理敏感文档相关的法律复杂性，尤其是当它们可能存储在 AWS S3 等平台上时。这引发了对合规性和数据安全性的担忧，而这对于赢得用户信任和确保产品成功至关重要。]]></description>
+      <guid>https://t.me/hn_summary/116488</guid>
+      <pubDate>Thu, 14 Nov 2024 02:47:46 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：独立开发者是否比软件工程师更不喜欢编程？</title>
-      <link>https://t.me/hn_summary/116476</link>
-      <description><![CDATA[问 HN：独立开发者是否比软件工程师更不喜欢编程？
-Hacker News 上的讨论探讨了独立开发者是否比传统软件工程师更不喜欢编程。对话表明，对于许多独立开发者来说，编码主要是实现他们创意的工具，而不是目的本身。这种观点与软件工程师形成鲜明对比，他们可能会从编程本身的技术方面找到乐趣。一个独特的观点是独立开发需要创造力和技术技能的融合，这既令人满足又充满挑战。这场辩论强调了编程社区内不同的动机和满足感，没有任何明显的争议。]]></description>
-      <guid>https://t.me/hn_summary/116476</guid>
-      <pubDate>Thu, 14 Nov 2024 00:46:15 GMT</pubDate>
+      <title>[媒体] 塔菲是一头出生于 1946 年的亚洲象，因在西德发生了一起戏剧性事件而声名鹊起 [...]</title>
+      <link>https://t.me/hn_summary/116487</link>
+      <description><![CDATA[Tuffi
+Tuffi 是一头 1946 年出生的亚洲象，1950 年 7 月 21 日发生的一起戏剧性事件使它闻名西德。在马戏团导演 Franz Althoff 策划的一次宣传噱头中，Tuffi 被带到了乌珀塔尔单轨列车上。这头小象惊慌失措，撞破了车厢窗户，从 12 米高的地方坠入乌珀河，奇迹般地只受了轻伤。这一事件引起了乘客的恐慌，导致一些人受伤。Althoff 和一名官员因该事件被罚款。尽管缺乏真实的照片，但 Tuffi 的故事仍然很受欢迎，激发了一本儿童读物和当地纪念品的创作。事发地点附近的一栋建筑上有一幅 Tuffi 的壁画，当地一个牛奶品牌以她的名字命名。争议在于使用动物进行宣传噱头的安全性和道德性，罚款的征收凸显了这一点。]]></description>
+      <guid>https://t.me/hn_summary/116487</guid>
+      <pubDate>Thu, 14 Nov 2024 02:43:38 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Apple 发布了 Final Cut Pro 11，这是其视频编辑软件的一次重大更新 [...]</title>
-      <link>https://t.me/hn_summary/116475</link>
-      <description><![CDATA[Apple 推出 Final Cut Pro 11，具有更多 AI 功能
-Apple 发布了 Final Cut Pro 11，这是其视频编辑软件的重大更新，具有增强的 AI 功能。值得注意的新增功能包括 AI 遮罩工具，例如 Magnetic Mask，它可以有效地隔离镜头中的主体，以及直接在时间轴中生成字幕的功能。虽然 Magnetic Mask 的速度和准确性令人印象深刻，但有时需要手动调整。字幕功能虽然速度快，但准确性较差，经常拼错常用词。此更新对现有用户免费，新用户需花费 299 美元。iPad 版 Final Cut Pro 和 Final Cut Camera 也收到更新，增强了颜色工具并增加了新的拍摄功能。尽管进行了这些改进，但一些用户仍然希望获得基于文本的编辑和更强大的颜色选项等功能，以便与 Adob​​e 和 DaVinci 充分竞争。磁性面膜的推出可能会吸引一些用户转换，但某些功能的缺乏可能会让其他用户犹豫不决。]]></description>
-      <guid>https://t.me/hn_summary/116475</guid>
-      <pubDate>Thu, 14 Nov 2024 00:38:09 GMT</pubDate>
+      <title>自六月份被解雇以来，我自九月初以来一直在充满挑战的就业市场中摸索。</title>
+      <link>https://t.me/hn_summary/116486</link>
+      <description><![CDATA[找工作很难
+自 9 月初以来，我一直在充满挑战的就业市场中摸索，因为我在 6 月份被解雇了。虚假招聘信息泛滥，很难获得面试机会，但我也有一些值得注意的经历。一次积极的接触是与一家初创公司合作招聘设计工程师。面试过程很有吸引力，很有见地，尽管我最终因缺乏设计经验而被拒绝。相反，一个网络工程师的职位却出现了许多危险信号，包括突然降薪和招聘人员反复重新安排，最终尽管职位空缺，但还是被拒绝了。求职仍在继续，我渴望新的机会。如果您正在寻找熟练的网络开发人员或前端工程师，请联系我们。]]></description>
+      <guid>https://t.me/hn_summary/116486</guid>
+      <pubDate>Thu, 14 Nov 2024 02:35:31 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 国际信号规则 (ICS) 是海上航行的重要通信系统 [...]</title>
-      <link>https://t.me/hn_summary/116474</link>
-      <description><![CDATA[HTML/CSS 中的海事信号旗
-国际信号规则 (ICS) 是海上安全的重要通信系统，使船只无需口头交流即可传达重要信息。每个字母和数字都由一面旗帜表示，各个旗帜和组合都有特定的含义。例如，旗帜“O”表示“有人落水”，而“U W”表示祝您旅途愉快。该系​​统还包括三个替代旗帜，以避免携带重复旗帜。ICS 信息在九种语言中标准化，确保全球理解。此页面从 Rabbit Waves 的插图指南中汲取灵感，并在知识共享许可下使用其中的一些内容。视觉信号与语言多样性的巧妙结合凸显了该系统的普遍适用性。]]></description>
-      <guid>https://t.me/hn_summary/116474</guid>
-      <pubDate>Thu, 14 Nov 2024 00:14:58 GMT</pubDate>
+      <title>[媒体] 文档“C++ 契约”提出了一种用于 C++ 编程的契约工具 [...]</title>
+      <link>https://t.me/hn_summary/116485</link>
+      <description><![CDATA[C++ 契约 (DbC) [pdf](https://news.ycombinator.com/item?id=42131473)
+
+文档“C++ 契约”提出了一种适用于 C++ 编程语言的契约功能，旨在通过契约断言来增强软件安全性和正确性。这些断言包括先决条件、后置条件和断言语句，可用于指定函数执行前后必须满足的条件。该提案概述了这些断言的语法和语义，允许在运行时忽略、观察或强制执行它们。一个独特的方面是能够为契约违规定义自定义处理程序，从而为管理此类事件提供灵活性。该文档强调运行时检查，但也提到了基于契约断言的潜在未来优化。值得注意的是，该提案旨在为现有的 assert 宏提供更强大的替代方案，因为该宏缺乏自定义和语言支持。该文档是一个最小可行产品 (MVP)，并没有深入探讨历史背景或替代设计，这些内容在单独的理论论文中进行了介绍。（摘要基于 9% 的故事文本。）]]></description>
+      <guid>https://t.me/hn_summary/116485</guid>
+      <pubDate>Thu, 14 Nov 2024 02:34:27 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 欧盟指责苹果违反反地理封锁规则，声称 [...]</title>
-      <link>https://t.me/hn_summary/116473</link>
-      <description><![CDATA[欧盟对 Apple ID 的地理锁定感到愤怒
-欧盟指责苹果违反反地理封锁规则，声称这家科技巨头根据欧盟消费者的居住国对其进行歧视。比利时、德国和爱尔兰当局联合调查发现，苹果的媒体服务（包括 App Store 和 iTunes）对访问、支付方式和下载施加了不合理的限制。这种做法违反了欧盟的地理封锁法规和服务指令，这些法规禁止基于国籍或居住地的歧视。争议在于苹果将用户账户限制在特定国家，给欧盟公民在欧盟境内旅行带来困难。欧盟给苹果一个月的时间来处理这些违规行为，否则可能会面临执法措施。此前，苹果曾被处以罚款，包括因反操纵行为被处以 18 亿欧元罚款，以及 130 亿欧元税收裁定。这一情况凸显了欧盟致力于防止地理封锁和确保统一市场的决心。]]></description>
-      <guid>https://t.me/hn_summary/116473</guid>
-      <pubDate>Wed, 13 Nov 2024 23:37:43 GMT</pubDate>
+      <title>[媒体] 特勤局一直在利用一种名为“Locate X”的技术，该技术利用 [...]</title>
+      <link>https://t.me/hn_summary/116484</link>
+      <description><![CDATA[特勤局称您同意使用位置数据进行跟踪
+特勤局一直在使用一种名为 Locate X 的技术，该技术利用从智能手机上的日常应用程序收集的位置数据。这种做法引发了严重的隐私问题，因为它取决于用户是否同意这种跟踪，即同意通常不明确的服务协议条款。争议在于特勤局的立场，即这种同意否定了搜查令的必要性，引发了关于国家安全与个人隐私权之间平衡的争论。这种情况凸显了一个更广泛的问题，即用户通过应用程序权限在不知情的情况下共享了多少个人数据。]]></description>
+      <guid>https://t.me/hn_summary/116484</guid>
+      <pubDate>Thu, 14 Nov 2024 02:07:09 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 在菲律宾阿尼洛附近的一次迷人邂逅中，摄影师哈里斯·纳拉宁 (Harris Narainen) 目睹了 [...]</title>
-      <link>https://t.me/hn_summary/116472</link>
-      <description><![CDATA[阿尔戈章鱼掌握了自由乘船的技能
-在菲律宾阿尼洛附近的一次迷人邂逅中，摄影师哈里斯·纳拉宁目睹了这只神出鬼没的阿尔戈章鱼用糖果包装纸作为临时筏子。与大多数栖息在海底的章鱼不同，阿尔戈章鱼在公海中航行，经常搭乘漂浮的碎片或海洋生物。这种行为被记录在无数黑水潜水照片中，让我们深入了解了它们对底物的偏好，揭示了它们对塑料垃圾的惊人适应能力。这项由海洋生物学家罗杰·维拉纽瓦领导的研究强调了阿尔戈章鱼独特的生活方式和紧迫的海洋污染问题。巧妙地利用社交媒体照片进行科学研究，凸显了研究这些神秘生物的创新方法。争议在于阿尔戈英雄对塑料的适应，凸显了解决海洋污染问题的迫切性。]]></description>
-      <guid>https://t.me/hn_summary/116472</guid>
-      <pubDate>Wed, 13 Nov 2024 23:14:29 GMT</pubDate>
+      <title>[媒体] 2024 年，开发人员将面临众多实时操作系统 (RTOS) 的选择 [...]</title>
+      <link>https://t.me/hn_summary/116483</link>
+      <description><![CDATA[了解 2024 年的实时操作系统
+2024 年，开发人员面对着众多实时操作系统 (RTOS) 的选择，很难为项目选择最佳操作系统。虽然 FreeRTOS 因其灵活性和广泛的平台支持而仍然是一种受欢迎的选择，但其他 RTOS 选项（如 ThreadX、Contiki-NG 和 Zephyr）提供了独特的功能，但也带来了一系列挑战，例如复杂的构建系统或有限的文档。本文强调了将项目需求与 RTOS 功能相结合的重要性，并强调了某些 RTOS 的潜在缺陷，例如 Mbed 的不确定未来和其他 RTOS 的繁琐设置。作者欣赏 FreeRTOS 的可破解性和简约方法，允许开发人员根据需要使用尽可能多的或尽可能少的 RTOS。令人惊讶的是，RTOS 选项种类繁多，而且巧妙地洞察到简单性和减少潜在痛点可以提高开发效率。争议在于对某些 RTOS 文档和设置过程的批评，这些可能并不符合每个开发人员的偏好。]]></description>
+      <guid>https://t.me/hn_summary/116483</guid>
+      <pubDate>Thu, 14 Nov 2024 01:37:56 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 今天，我们宣布 Keras 背后的梦想家 Francois Chollet 的离职，因为他 [...]</title>
-      <link>https://t.me/hn_summary/116471</link>
-      <description><![CDATA[再见，感谢继续合作，Francois Chollet
-今天，我们宣布 Keras 的远见者 Francois Chollet 离职，他将在 Google 之外开启新的职业篇章。虽然他的离职令人喜忧参半，但我们庆祝他对人工智能的巨大贡献。Keras 拥有超过 200 万用户，通过简化复杂的工作流程和扩大先进技术的使用范围，彻底改变了人工智能开发。它支撑着各种全球应用，包括 Waymo 的自动驾驶汽车和 YouTube 和 Netflix 等平台上的个性化推荐。Francois 仍然致力于 Keras，继续支持 JAX、TensorFlow 和 PyTorch。谷歌对 Keras 3 的持续投资和 Keras Hub 的推出凸显了我们致力于提供多样化的 ML 框架选项。我们感谢 Francois 的持久影响力，并鼓励大家关注他未来的努力。敬请期待 Google 令人兴奋的 AI 框架发展。]]></description>
-      <guid>https://t.me/hn_summary/116471</guid>
-      <pubDate>Wed, 13 Nov 2024 23:01:19 GMT</pubDate>
+      <title>[媒体] Unifi 成为第一家提供哭泣现金的公司，从而彻底改变了支付格局[...]</title>
+      <link>https://t.me/hn_summary/116482</link>
+      <description><![CDATA[显示 HN：Unifi – 接受加密支付 – 零交易费
+Unifi 是第一家提供零交易费加密支付解决方案的公司，正在彻底改变支付格局。我们的平台提供顶级安全性和全球覆盖范围，确保您的业务可以跨境无缝运营。凭借全面的管理工具，Unifi 使企业能够高效处理交易，而无需承担额外成本。我们服务的独特之处在于完全取消交易费，这使我们与竞争对手区分开来，并且在此类费用为标准的行业中可能会被视为有争议的。这种创新方法使 Unifi 成为加密支付领域的领导者。]]></description>
+      <guid>https://t.me/hn_summary/116482</guid>
+      <pubDate>Thu, 14 Nov 2024 01:31:47 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 软件工程师 Bartosz Korczynski 通过重新创建 [...] 踏上了一段怀旧之旅。</title>
-      <link>https://t.me/hn_summary/116470</link>
-      <description><![CDATA[Visual Basic 6 在现代 .NET 中重新创建为跨平台 IDE——只是为了“好玩”
-软件工程师 Bartosz Korczynski 踏上了一段怀旧之旅，使用 C# 和跨平台框​​架 Avalonia 重新创建了经典的 Visual Basic 6 (VB 6) IDE 和语言。这个开源项目被称为“Avalonia Visual Basic 6”，可在 GitHub 上根据 MIT 许可获得。虽然 VB6 语言实现有限，但 Korczynski 强调这是一个“玩具和好玩的项目”。该项目可在各种平台上运行，包括 macOS 和通过 WebAssembly 在浏览器中运行，尽管浏览器功能有限。重新设计不仅让人钦佩其细节，也让人对 VB 6 的历史怪癖和意大利面条式代码倾向感到恐惧。尽管微软未能提供从 VB 6 到 VB .NET 的平滑迁移路径，但该项目暗示，如果实现跨平台功能或迁移到 C#，将带来潜在的商业利益。Korczynski 的业余爱好努力可能为更轻松地编辑和编译旧版 VB6 代码库铺平道路，从而激发仍在与大型 VB6 应用程序交互的开发人员的兴趣。]]></description>
-      <guid>https://t.me/hn_summary/116470</guid>
-      <pubDate>Wed, 13 Nov 2024 23:00:13 GMT</pubDate>
+      <title>[媒体] OpenAI 即将推出“Operator”，这是一个旨在自动执行任务的人工智能代理[...]</title>
+      <link>https://t.me/hn_summary/116481</link>
+      <description><![CDATA[OpenAI 即将推出 AI 代理工具，为用户自动执行任务
+OpenAI 即将推出“Operator”，这是一种旨在为用户自动执行编码和旅行预订等任务的 AI 代理。该工具将于 1 月作为研究预览版和开发人员 API 发布，标志着行业向能够在最少监督下执行多步骤任务的 AI 代理转变迈出了重要一步。此举与 Anthropic、微软和谷歌的类似发展相一致。OpenAI 首席执行官 Sam Altman 暗示，代理可能代表下一个重大的 AI 突破。这一举措是在对更先进的 AI 模型的投资回报递减的背景下出现的，凸显了 AI 开发的战略支点。]]></description>
+      <guid>https://t.me/hn_summary/116481</guid>
+      <pubDate>Thu, 14 Nov 2024 01:21:54 GMT</pubDate>
     </item>
     <item>
-      <title>Segflow 是 Customer.io 的开源替代品，以代码形式提供电子邮件营销。</title>
-      <link>https://t.me/hn_summary/116469</link>
-      <description><![CDATA[显示 HN：电子邮件营销代码（开源 Customer.io 替代方案）
-Segflow 是 Customer.io 的开源替代方案，提供电子邮件营销代码。它允许开发人员使用 TypeScript 配置电子邮件活动，为电子邮件营销提供灵活且程序化的方法。配置文件 segflow.config.ts 演示了如何设置电子邮件模板和定义用户属性。它使用 Postmark 作为电子邮件提供商，并包含欢迎和挽回电子邮件的模板。Segflow 支持细分用户，例如识别有资格参加挽回活动的用户，并将活动行为定义为静态或动态。一个巧妙的功能是挽回活动中的指数等待时间，它以越来越长的间隔发送电子邮件，从而增强了参与策略。]]></description>
-      <guid>https://t.me/hn_summary/116469</guid>
-      <pubDate>Wed, 13 Nov 2024 22:45:03 GMT</pubDate>
+      <title>[媒体] developer.apple.com 上的网页讨论了生成高质量 [...] 的技术。</title>
+      <link>https://t.me/hn_summary/116480</link>
+      <description><![CDATA[从视频生成高质量缩略图
+developer.apple.com 上的网页讨论了从视频生成高质量缩略图的技术，强调了缩略图在增强用户参与度和视频可发现性方面的重要性。它可能为开发人员提供了指南和工具，以使用 Apple 的开发资源创建具有视觉吸引力和上下文相关的缩略图。内容可能涵盖最佳实践，例如选择关键帧和优化图像质量，以确保缩略图有效地代表视频内容。虽然页面需要 JavaScript 才能查看，但这项技术要求是交互式网络内容的标准，并不特别有争议或令人惊讶。]]></description>
+      <guid>https://t.me/hn_summary/116480</guid>
+      <pubDate>Thu, 14 Nov 2024 01:14:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
