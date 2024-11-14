@@ -4,87 +4,87 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Thu, 14 Nov 2024 02:50:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 06:22:37 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 就我最近的经验而言，我在移动 ISO 文件时遇到了传输速度缓慢的问题 [...]</title>
-      <link>https://t.me/hn_summary/116489</link>
-      <description><![CDATA[使用 Tailscale 时，Windows 会降低 SMB 速度
-在我最近的体验​​中，尽管我的 NAS 能够使千兆位链路饱和，但在从 TrueNAS SMB 共享移动 ISO 文件时，我遇到了传输速度缓慢的问题。罪魁祸首似乎是 Tailscale，它是运行在我的 Proxmox VM 上的子网路由器，它导致我的桌面有两个接口访问同一个网络。Windows 使用其“接口度量”系统，由于其宣传的 100Gbps 链路速度而优先考虑 Tailscale 虚拟适配器，导致性能不佳。通过 PowerShell 调整 Tailscale 的接口度量，我恢复了以太网的近千兆位速度。令人惊讶的是，Windows 的度量系统可能会无意中优先考虑虚拟适配器而不是物理适配器，从而影响网络性能。未来的计划包括切换到 Linux 并升级到 10G NIC。]]></description>
-      <guid>https://t.me/hn_summary/116489</guid>
-      <pubDate>Thu, 14 Nov 2024 02:50:51 GMT</pubDate>
+      <title>[媒体] 在一项开创性的研究中，麻省理工学院的研究人员发现，运动可以促进神经元的生长 [...]</title>
+      <link>https://t.me/hn_summary/116505</link>
+      <description><![CDATA[运动通过生化和物理影响刺激神经生长
+在一项开创性的研究中，麻省理工学院的研究人员发现，运动通过生化信号和物理影响促进神经元生长。肌肉收缩时会释放肌动蛋白，从而显著促进神经元的生长和成熟。令人惊讶的是，神经元在机械拉伸时也会大幅生长，模仿运动期间的肌肉运动。这种双重机制凸显了“运动即药物”在神经修复和神经退行性疾病治疗中的潜力。该研究强调了肌肉-神经交流的新概念，挑战了神经仅控制肌肉的传统观点。这项研究开辟了新的治疗途径，表明有针对性的肌肉刺激可以帮助神经愈合并恢复活动能力。]]></description>
+      <guid>https://t.me/hn_summary/116505</guid>
+      <pubDate>Thu, 14 Nov 2024 06:22:37 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：作为单人 SaaS，如何处理敏感文档上传？</title>
-      <link>https://t.me/hn_summary/116488</link>
-      <description><![CDATA[问 HN：作为单人 SaaS，如何处理敏感文档上传？
-我正在考虑开发一款专注于处理敏感文档（例如律师使用的文档）的 SaaS 产品，该产品也可能适用于其他行业。虽然存在类似的产品，但我发现了一个独特的角度，可以为用户带来重大好处。然而，作为一名个人企业家，我不确定如何处理与管理敏感文档相关的法律复杂性，尤其是当它们可能存储在 AWS S3 等平台上时。这引发了对合规性和数据安全性的担忧，而这对于赢得用户信任和确保产品成功至关重要。]]></description>
-      <guid>https://t.me/hn_summary/116488</guid>
-      <pubDate>Thu, 14 Nov 2024 02:47:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 塔菲是一头出生于 1946 年的亚洲象，因在西德发生了一起戏剧性事件而声名鹊起 [...]</title>
-      <link>https://t.me/hn_summary/116487</link>
-      <description><![CDATA[Tuffi
-Tuffi 是一头 1946 年出生的亚洲象，1950 年 7 月 21 日发生的一起戏剧性事件使它闻名西德。在马戏团导演 Franz Althoff 策划的一次宣传噱头中，Tuffi 被带到了乌珀塔尔单轨列车上。这头小象惊慌失措，撞破了车厢窗户，从 12 米高的地方坠入乌珀河，奇迹般地只受了轻伤。这一事件引起了乘客的恐慌，导致一些人受伤。Althoff 和一名官员因该事件被罚款。尽管缺乏真实的照片，但 Tuffi 的故事仍然很受欢迎，激发了一本儿童读物和当地纪念品的创作。事发地点附近的一栋建筑上有一幅 Tuffi 的壁画，当地一个牛奶品牌以她的名字命名。争议在于使用动物进行宣传噱头的安全性和道德性，罚款的征收凸显了这一点。]]></description>
-      <guid>https://t.me/hn_summary/116487</guid>
-      <pubDate>Thu, 14 Nov 2024 02:43:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>自六月份被解雇以来，我自九月初以来一直在充满挑战的就业市场中摸索。</title>
-      <link>https://t.me/hn_summary/116486</link>
-      <description><![CDATA[找工作很难
-自 9 月初以来，我一直在充满挑战的就业市场中摸索，因为我在 6 月份被解雇了。虚假招聘信息泛滥，很难获得面试机会，但我也有一些值得注意的经历。一次积极的接触是与一家初创公司合作招聘设计工程师。面试过程很有吸引力，很有见地，尽管我最终因缺乏设计经验而被拒绝。相反，一个网络工程师的职位却出现了许多危险信号，包括突然降薪和招聘人员反复重新安排，最终尽管职位空缺，但还是被拒绝了。求职仍在继续，我渴望新的机会。如果您正在寻找熟练的网络开发人员或前端工程师，请联系我们。]]></description>
-      <guid>https://t.me/hn_summary/116486</guid>
-      <pubDate>Thu, 14 Nov 2024 02:35:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 文档“C++ 契约”提出了一种用于 C++ 编程的契约工具 [...]</title>
-      <link>https://t.me/hn_summary/116485</link>
-      <description><![CDATA[C++ 契约 (DbC) [pdf](https://news.ycombinator.com/item?id=42131473)
+      <title>[媒体] 全球最大的芯片制造商台积电正面临现任和前任员工的诉讼 [...]</title>
+      <link>https://t.me/hn_summary/116504</link>
+      <description><![CDATA[台积电亚利桑那州因种族和公民身份歧视被起诉
 
-文档“C++ 契约”提出了一种适用于 C++ 编程语言的契约功能，旨在通过契约断言来增强软件安全性和正确性。这些断言包括先决条件、后置条件和断言语句，可用于指定函数执行前后必须满足的条件。该提案概述了这些断言的语法和语义，允许在运行时忽略、观察或强制执行它们。一个独特的方面是能够为契约违规定义自定义处理程序，从而为管理此类事件提供灵活性。该文档强调运行时检查，但也提到了基于契约断言的潜在未来优化。值得注意的是，该提案旨在为现有的 assert 宏提供更强大的替代方案，因为该宏缺乏自定义和语言支持。该文档是一个最小可行产品 (MVP)，并没有深入探讨历史背景或替代设计，这些内容在单独的理论论文中进行了介绍。（摘要基于 9% 的故事文本。）]]></description>
-      <guid>https://t.me/hn_summary/116485</guid>
-      <pubDate>Thu, 14 Nov 2024 02:34:27 GMT</pubDate>
+全球最大的芯片制造商台积电正面临现任和前任员工的诉讼，其中包括人才招聘总监 Deborah Howington，他们指控台积电亚利桑那州工厂存在种族和公民身份歧视。诉讼称台积电偏袒台湾公民，并对非亚裔员工进行更严格的审查。指控包括招聘偏见、语言要求排除非普通话人士，以及利用台湾签证持有者减少美国工人的工会职位。这场争议是在台积电通过《芯片和科学法案》从美国获得 116 亿美元用于在亚利桑那州建造晶圆厂之际引发的。台积电坚称其致力于多元化和平等就业机会。该诉讼的结果可能会影响 CHIPS 法案资金的分配，尤其是在即将出现潜在的政治变化的情况下。]]></description>
+      <guid>https://t.me/hn_summary/116504</guid>
+      <pubDate>Thu, 14 Nov 2024 06:17:32 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 特勤局一直在利用一种名为“Locate X”的技术，该技术利用 [...]</title>
-      <link>https://t.me/hn_summary/116484</link>
-      <description><![CDATA[特勤局称您同意使用位置数据进行跟踪
-特勤局一直在使用一种名为 Locate X 的技术，该技术利用从智能手机上的日常应用程序收集的位置数据。这种做法引发了严重的隐私问题，因为它取决于用户是否同意这种跟踪，即同意通常不明确的服务协议条款。争议在于特勤局的立场，即这种同意否定了搜查令的必要性，引发了关于国家安全与个人隐私权之间平衡的争论。这种情况凸显了一个更广泛的问题，即用户通过应用程序权限在不知情的情况下共享了多少个人数据。]]></description>
-      <guid>https://t.me/hn_summary/116484</guid>
-      <pubDate>Thu, 14 Nov 2024 02:07:09 GMT</pubDate>
+      <title>[媒体] 在我出售一家自力更生的硬件公司 TinyPilot 的过程中，我学到了宝贵的经验 [...]</title>
+      <link>https://t.me/hn_summary/116503</link>
+      <description><![CDATA[我第一次退出的经验教训
+在我出售 TinyPilot（一家自力更生的硬件公司）的过程中，我学到了宝贵的经验教训，希望与大家分享。这笔交易的价格为 598,000 美元，让我明白了投资文档的重要性，这简化了过渡过程。我还意识到与值得信赖的经纪人合作的价值，尽管有些人对 89,000 美元的费用感到犹豫，因为他们找到了一个我自己无法找到的买家。避免卖方融资至关重要，因为这可能会让我容易受到买方违约的影响。我还学会了假设我在交易结束后不会收到任何东西，以确保对预付款交易感到满意。此外，我认识到我在售后影响力的局限性，并修改了经纪协议以调整付款条款。直接与买家讨论有争议的问题，而不是通过律师，可以节省时间和金钱。未来，我计划为现金买家提供激励措施，并提前讨论关键合同条款，以避免紧张的谈判。（基于 37% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/116503</guid>
+      <pubDate>Thu, 14 Nov 2024 06:06:25 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 2024 年，开发人员将面临众多实时操作系统 (RTOS) 的选择 [...]</title>
-      <link>https://t.me/hn_summary/116483</link>
-      <description><![CDATA[了解 2024 年的实时操作系统
-2024 年，开发人员面对着众多实时操作系统 (RTOS) 的选择，很难为项目选择最佳操作系统。虽然 FreeRTOS 因其灵活性和广泛的平台支持而仍然是一种受欢迎的选择，但其他 RTOS 选项（如 ThreadX、Contiki-NG 和 Zephyr）提供了独特的功能，但也带来了一系列挑战，例如复杂的构建系统或有限的文档。本文强调了将项目需求与 RTOS 功能相结合的重要性，并强调了某些 RTOS 的潜在缺陷，例如 Mbed 的不确定未来和其他 RTOS 的繁琐设置。作者欣赏 FreeRTOS 的可破解性和简约方法，允许开发人员根据需要使用尽可能多的或尽可能少的 RTOS。令人惊讶的是，RTOS 选项种类繁多，而且巧妙地洞察到简单性和减少潜在痛点可以提高开发效率。争议在于对某些 RTOS 文档和设置过程的批评，这些可能并不符合每个开发人员的偏好。]]></description>
-      <guid>https://t.me/hn_summary/116483</guid>
-      <pubDate>Thu, 14 Nov 2024 01:37:56 GMT</pubDate>
+      <title>[媒体] 苹果在英国卷入近 30 亿英镑的诉讼，遭到消费者组织 Which? 的指控。</title>
+      <link>https://t.me/hn_summary/116502</link>
+      <description><![CDATA[苹果因云存储“垄断”在英国面临近 30 亿英镑的诉讼
+苹果在英国卷入了一场近 30 亿英镑的诉讼，消费者组织 Which? 指控苹果的 iCloud 服务存在垄断行为。该指控表明，苹果以高价将数百万英国用户锁定在其云存储中，受影响客户的潜在赔付平均为 70 英镑。Which? 认为苹果的 iOS 系统不公平地偏袒 iCloud，限制了竞争并向消费者收取过高的费用。这起向英国竞争上诉法庭提起的诉讼强调，2023 年 6 月 20-29% 的价格上涨是“令人震惊的涨价”。苹果驳斥了这些说法，声称用户有其他选择，而且其定价与竞争对手一致。争议的焦点在于苹果的做法是否扼杀了竞争并利用了其市场主导地位。]]></description>
+      <guid>https://t.me/hn_summary/116502</guid>
+      <pubDate>Thu, 14 Nov 2024 05:50:15 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Unifi 成为第一家提供哭泣现金的公司，从而彻底改变了支付格局[...]</title>
-      <link>https://t.me/hn_summary/116482</link>
-      <description><![CDATA[显示 HN：Unifi – 接受加密支付 – 零交易费
-Unifi 是第一家提供零交易费加密支付解决方案的公司，正在彻底改变支付格局。我们的平台提供顶级安全性和全球覆盖范围，确保您的业务可以跨境无缝运营。凭借全面的管理工具，Unifi 使企业能够高效处理交易，而无需承担额外成本。我们服务的独特之处在于完全取消交易费，这使我们与竞争对手区分开来，并且在此类费用为标准的行业中可能会被视为有争议的。这种创新方法使 Unifi 成为加密支付领域的领导者。]]></description>
-      <guid>https://t.me/hn_summary/116482</guid>
-      <pubDate>Thu, 14 Nov 2024 01:31:47 GMT</pubDate>
+      <title>[媒体] 联邦特工突袭了 Polymarket 首席执行官 Shayne Coplan 的家，没收了他的手机和 [...]</title>
+      <link>https://t.me/hn_summary/116501</link>
+      <description><![CDATA[FBI 突袭 Polymarket 首席执行官的住所，没收手机和电子产品
+联邦特工突袭了 Polymarket 首席执行官 Shayne Coplan 的住所，没收了他的手机和电子产品，同时对该公司的运营情况进行了调查。Polymarket 是一个基于加密货币的博彩平台，它因将唐纳德·特朗普在最近的总统大选中获胜的几率设定得比卡马拉·哈里斯高得多而引起了人们的关注，这与民意调查结果相反。据报道，司法部正在调查 Polymarket 是否允许美国用户在其平台上下注，这是不允许的。该公司声称，这次突袭是对准确预测选举结果的政治报复。值得注意的是，一位神秘的法国交易员从押注特朗普中获利超过 4600 万美元，这进一步引发了人们的关注。]]></description>
+      <guid>https://t.me/hn_summary/116501</guid>
+      <pubDate>Thu, 14 Nov 2024 05:38:07 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] OpenAI 即将推出“Operator”，这是一个旨在自动执行任务的人工智能代理[...]</title>
-      <link>https://t.me/hn_summary/116481</link>
-      <description><![CDATA[OpenAI 即将推出 AI 代理工具，为用户自动执行任务
-OpenAI 即将推出“Operator”，这是一种旨在为用户自动执行编码和旅行预订等任务的 AI 代理。该工具将于 1 月作为研究预览版和开发人员 API 发布，标志着行业向能够在最少监督下执行多步骤任务的 AI 代理转变迈出了重要一步。此举与 Anthropic、微软和谷歌的类似发展相一致。OpenAI 首席执行官 Sam Altman 暗示，代理可能代表下一个重大的 AI 突破。这一举措是在对更先进的 AI 模型的投资回报递减的背景下出现的，凸显了 AI 开发的战略支点。]]></description>
-      <guid>https://t.me/hn_summary/116481</guid>
-      <pubDate>Thu, 14 Nov 2024 01:21:54 GMT</pubDate>
+      <title>[媒体] 苹果陷入法律纠纷，遭消费者组织 Which? 指控。</title>
+      <link>https://t.me/hn_summary/116500</link>
+      <description><![CDATA[Apple 被指控诱捕并欺骗 4000 万 iCloud 用户
+Apple 陷入了一场法律纠纷，消费者团体 Which? 指控其将 4000 万英国客户锁定在其 iCloud 服务中并收取高昂的价格。如果诉讼成功，可能会产生 30 亿英镑的赔款，相当于每位客户 70 英镑。Apple 驳斥了反竞争行为的指控，强调用户有其他选择，数据传输也得到了简化。此案是针对大型科技公司的集体诉讼趋势的一部分，突显了人们对其不受制约的权力的担忧。值得注意的是，该法律诉讼得到了 Willkie Farr &amp; Gallagher 的支持，Which? 不会获得任何比例的赔偿。争议在于苹果涉嫌市场操纵以及对面临类似审查的科技巨头的更广泛影响。]]></description>
+      <guid>https://t.me/hn_summary/116500</guid>
+      <pubDate>Thu, 14 Nov 2024 05:35:03 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] developer.apple.com 上的网页讨论了生成高质量 [...] 的技术。</title>
-      <link>https://t.me/hn_summary/116480</link>
-      <description><![CDATA[从视频生成高质量缩略图
-developer.apple.com 上的网页讨论了从视频生成高质量缩略图的技术，强调了缩略图在增强用户参与度和视频可发现性方面的重要性。它可能为开发人员提供了指南和工具，以使用 Apple 的开发资源创建具有视觉吸引力和上下文相关的缩略图。内容可能涵盖最佳实践，例如选择关键帧和优化图像质量，以确保缩略图有效地代表视频内容。虽然页面需要 JavaScript 才能查看，但这项技术要求是交互式网络内容的标准，并不特别有争议或令人惊讶。]]></description>
-      <guid>https://t.me/hn_summary/116480</guid>
-      <pubDate>Thu, 14 Nov 2024 01:14:45 GMT</pubDate>
+      <title>[媒体] 一名男子在巴西最高法院附近引爆炸药，造成 [...]</title>
+      <link>https://t.me/hn_summary/116499</link>
+      <description><![CDATA[巴西最高法院附近发生两次爆炸，一人死亡
+一名男子在巴西最高法院附近引爆炸弹，造成他死亡，巴西利亚法院工作人员和立法者被疏散。当局在他的身上发现了爆炸物，正在调查进一步的威胁。此次袭击发生在 G20 峰会前几天，促使联邦警察展开了严格调查。据报道，这名嫌疑人与前总统雅伊尔·博索纳罗的政党有联系，他试图进入最高法院，但被阻止，导致外面发生第二次爆炸。这一事件凸显了巴西司法系统的紧张局势，一些人指责司法系统在处理政治极端主义和虚假信息方面做得过分，引发了人们对司法系统在保护民主和限制保守派声音方面所扮演的角色的争议。]]></description>
+      <guid>https://t.me/hn_summary/116499</guid>
+      <pubDate>Thu, 14 Nov 2024 05:34:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Mozilla 的 Firefox 浏览器迎来 20 岁生日。</title>
+      <link>https://t.me/hn_summary/116498</link>
+      <description><![CDATA[Mozilla 的 Firefox 浏览器问世 20 周年。它仍然重要吗？
+Mozilla 的 Firefox 浏览器迎来了 20 周年纪念日，首席执行官 Laura Chambers 强调了其在促进选择、隐私和透明度方面的作用。尽管 Firefox 在挑战微软的主导地位方面具有历史意义，但它现在正在与谷歌 Chrome 等巨头争夺一小块市场份额。一位前 Mozilla 高管指出，浏览器的相关性已经发生了变化，当前的技术挑战更多地集中在人工智能、错误信息和社交媒体上，而不是浏览器协议上。Mozilla 转向隐私保护广告的潜在举措被视为一种有争议但有希望的减少对谷歌依赖的策略。此外，Mozilla 的人工智能计划尚未产生重大影响，而消息人士认为 Mastodon 和 ActivityPub 等社交媒体解决方案具有潜力。]]></description>
+      <guid>https://t.me/hn_summary/116498</guid>
+      <pubDate>Thu, 14 Nov 2024 05:17:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在我研究感知和计算机视觉的十五年历程中，我收集了关键信息 [...]</title>
+      <link>https://t.me/hn_summary/116497</link>
+      <description><![CDATA[感知领域 15 年的五大经验
+在我 15 年的感知和计算机视觉之旅中，我收获了反映该领域发展的关键见解。最初，在 ReTel Technologies，我们的目标是使用 RFID 标签来增强购物者的体验，但后来转向利用现有的安全摄像头和 OpenCV 进行数据分析——这是引领我职业生涯的关键时刻。如今，人工智能主导着计算机视觉，掩盖了尚未解决但仍有突破潜力的核心挑战。令人惊讶的是，许多资金充足的机器人初创公司部署的设备很少，这通常是由于“不是我制造的”心态，经验丰富的创始人通过与 Tangram Vision 等专业公司合作来避免这种情况。感知技术如今无处不在，影响着从医学到娱乐等各个行业，其重要性只会越来越大。Tangram Vision 准备为这个激动人心的未来做出贡献。]]></description>
+      <guid>https://t.me/hn_summary/116497</guid>
+      <pubDate>Thu, 14 Nov 2024 05:15:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体]专家向立法者作证说，美国</title>
+      <link>https://t.me/hn_summary/116496</link>
+      <description><![CDATA[专家在立法者面前作证称美国正在秘密开展 UAP 计划
+在众议院监督委员会最近举行的听证会上，专家就美国政府涉嫌开展与不明异常现象 (UAP) 有关的秘密计划作证。记者迈克尔·谢伦伯格和其他证人，包括退役海军少将蒂姆·加劳德特和前国防部官员路易斯·埃利桑多，呼吁提高透明度。埃利桑多声称美国拥有先进的 UAP 技术，而加劳德特讲述了一封与 UAP 相关的电子邮件神秘消失的故事。谢伦伯格强调了一项名为“完美星座”的秘密计划。听证会强调了消除 UAP 研究污名并确保开放科学对话的必要性。有争议的是，埃利桑多证实了秘密的 UAP 坠毁回收计划，这引发了人们对外星飞船潜在逆向工程的质疑。]]></description>
+      <guid>https://t.me/hn_summary/116496</guid>
+      <pubDate>Thu, 14 Nov 2024 05:07:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
