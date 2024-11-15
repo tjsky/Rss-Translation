@@ -4,7 +4,21 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供门户，并促进有关我们所知的人工智能理念和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Thu, 14 Nov 2024 21:14:13 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 01:13:06 GMT</lastBuildDate>
+    <item>
+      <title>思想的不确定性：通过不确定性感知规划和奖励传播增强 LLM 信息搜索</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1grk8tv/uncertainty_of_thoughts_enhancing_llm_information/</link>
+      <description><![CDATA[刚刚阅读了这篇新论文，它介绍了一种使 LLM 能够通过战略性提问主动寻求信息的算法。核心创新是将不确定性感知规划与奖励传播相结合，帮助模型决定要问什么问题。 关键技术组件：  不确定性感知模拟：模型生成潜在的未来对话轨迹并估计每个轨迹的不确定性 基于不确定性的奖励：问题的价值取决于它们减少不确定性和提高任务完成度的潜力 奖励传播：使用这些奖励估计通过对话树选择最佳问题 规划机制：展望多个步骤以评估不同问题选择的长期价值  实验结果： - 三个领域的任务完成度平均提高 38.1% - 在医疗诊断、技术故障排除和 20 个问题游戏上进行测试 - 与基线​​方法相比，所需问题数量减少 - 消融研究表明所有组件都有助于提高性能 理论意义很有趣——这表明了如何使用不确定性量化来指导语言模型中的信息搜索行为。这是朝着更具互动性的人工智能系统迈出的一步，这些系统可以主动解决自身的不确定性。 从实际角度来看，这可以改善自动客户服务、诊断系统和交互式辅导等应用，人工智能需要有效地收集信息。 TLDR：新算法通过对不确定性进行建模和提前规划，帮助语言模型提出更好的问题，显示出在多个任务中的显着改进。 完整摘要在这里。论文这里。    提交人    /u/Successful-Western27   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1grk8tv/uncertainty_of_thoughts_enhancing_llm_information/</guid>
+      <pubDate>Fri, 15 Nov 2024 00:54:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能领域正在发生哪些新闻</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1grg5nq/heres_what_is_making_news_in_ai/</link>
+      <description><![CDATA[聚焦 - Google 在全球推出适用于 iOS 的 Gemini 应用程序（来源：TechCrunch）  Tiger Global 支持的 InVideo 推出基于 AI 的新一代视频创作（来源：TechCrunch） Tessl 以 5 亿美元以上的估值融资 1.25 亿美元，用于构建编写和维护代码的 AI（来源：TechCrunch） 到 2027 年，近一半的 AI 数据中心可能没有足够的电力（来源：TechCrunch） ChatGPT 现在可以读取您的一些 Mac 桌面应用程序（来源：TechCrunch） Team-GPT 融资 450 万美元，为公司提供一套 AI 工具（来源：TechCrunch） AI先驱 François Chollet 离开 Google  今日 AI Product Hunt  Recall dot ai 的 Output Media API（赞成 95） Playdialog（赞成 75） Speek AI（赞成 65） Kalavai（赞成 57）  我开始了 Product Hunt 工具排名列表，但仅针对 AI    提交人    /u/codeharman   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1grg5nq/heres_what_is_making_news_in_ai/</guid>
+      <pubDate>Thu, 14 Nov 2024 21:44:43 GMT</pubDate>
+    </item>
     <item>
       <title>关系型与交易型</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1grf4hw/relational_vs_transactional/</link>
@@ -13,25 +27,11 @@
       <pubDate>Thu, 14 Nov 2024 20:59:59 GMT</pubDate>
     </item>
     <item>
-      <title>帮助查找该帖子</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1grf02f/help_in_finding_that_post/</link>
-      <description><![CDATA[我看到一篇帖子，有人发布了一些免费使用 ChatGPT 4 的链接..我猜它是重定向到一个中文网站，然后你必须添加令牌或密钥才能使用该模型。有人可以帮我找到那篇帖子或分享那篇帖子中提到的链接吗？这真的很有帮助……提前谢谢了🎀    提交人    /u/lakshmi_chitfund_   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1grf02f/help_in_finding_that_post/</guid>
-      <pubDate>Thu, 14 Nov 2024 20:54:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>[研究] 构建快速工程测试工具 - 寻求专业快速工程师的帮助</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1grewyc/research_building_a_prompt_engineering_testing/</link>
-      <description><![CDATA[  由    /u/Varad13Plays  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1grewyc/research_building_a_prompt_engineering_testing/</guid>
-      <pubDate>Thu, 14 Nov 2024 20:50:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>视频文本转音频？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gretef/video_text_to_audio/</link>
-      <description><![CDATA[我正在寻找一种可以读取我们制作的视频中的文本的工具。有没有像这样的工具？ 例如，我们创建一个在每个屏幕上都有文本的视频。我们想要一个自定义语音逐屏朗读文本？    提交人    /u/mindset1984   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1gretef/video_text_to_audio/</guid>
-      <pubDate>Thu, 14 Nov 2024 20:46:41 GMT</pubDate>
+      <title>人工智能能用于运动心理学吗？需要人工智能专家的见解。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1grefyh/could_ai_be_used_in_sport_psychology_need_ai/</link>
+      <description><![CDATA[大家好， 我会尽量简短明了。我想给运动员戴上麦克风，这样我就可以记录他们在比赛或训练过程中的对话和自言自语。然后我想建立一个人工智能程序，可以分析这些录音，例如...... - 消极与积极的自我对话 - 语气 - 节奏（也许是为了发现高压力情况的迹象） - 等等。 这将使我能够非常轻松地与我的运动员进行清晰而直接的讨论，讨论我们需要在整个表演过程中改变他们的对话的方式。我知道现在有一些人工智能程序可以帮助公开演讲并评估其中的一些事情，但我很好奇这是否是一个相当可行的想法？    提交人    /u/GolfMindsetGuy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1grefyh/could_ai_be_used_in_sport_psychology_need_ai/</guid>
+      <pubDate>Thu, 14 Nov 2024 20:30:43 GMT</pubDate>
     </item>
     <item>
       <title>人工智能使科技债务更加昂贵</title>
