@@ -4,7 +4,63 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Sun, 17 Nov 2024 01:09:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2024 03:25:58 GMT</lastBuildDate>
+    <item>
+      <title>在最近的观察中，我发现我的旧 IPv6 /64 网络（我在 [...] 之后保持活动状态）</title>
+      <link>https://t.me/hn_summary/116882</link>
+      <description><![CDATA[IPv6 网络显然确实受到探测
+在最近的一次观察中，我发现我的旧 IPv6 /64 网络（在我的 ISP 为我分配了新的 /56 后，我将其保持活动状态）正在接收意外的网络流量。尽管近两个月前已从 DNS 中删除，但旧地址仍在受到探测，尤其是基于云的 IPv6 地址。令人惊讶的是，许多探测都针对 /64 中的低编号地址，而不仅仅是 DNS 中列出的地址。这表明 IPv6 网络正在积极扫描易受攻击的端口，即使在未公开列出的地址上也是如此。要点是避免将服务器放置在低编号的 IPv6 地址上，以减少受到此类探测的风险。这对经验丰富的 IPv6 用户来说可能不是什么新鲜事，但它凸显了战略地址分配和强大防火墙配置的重要性。]]></description>
+      <guid>https://t.me/hn_summary/116882</guid>
+      <pubDate>Sun, 17 Nov 2024 03:25:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在金融领域，入门级任务传统上对于职业发展至关重要[...]</title>
+      <link>https://t.me/hn_summary/116881</link>
+      <description><![CDATA[人工智能如何打破职业阶梯
+在金融领域，入门级任务传统上对于职业发展至关重要，新分析师和承销商会在文档搜索和数据分析等日常工作中磨练自己。然而，据《纽约时报》报道，生成式人工智能现在能够处理这些任务，引发了关于减少新分析师班规模的讨论。这种转变不仅可能危及金融领域的早期职业机会，还可能危及法律、咨询、媒体、营销、技术和创意产业等领域的早期职业机会。对新人就业机会的潜在影响是一个重大且有争议的问题。]]></description>
+      <guid>https://t.me/hn_summary/116881</guid>
+      <pubDate>Sun, 17 Nov 2024 03:22:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Joshua Liebow-Feeser 在他的 RustConf 演讲中详细介绍了一种对反义词进行编码的方法 [...]</title>
+      <link>https://t.me/hn_summary/116880</link>
+      <description><![CDATA[不安全世界中的安全
+在 RustConf 演讲中，Joshua Liebow-Feeser 详细介绍了在 Rust 类型系统中编码约束的方法，特别是在 Fuchsia 的 netstack3（一个用 Rust 编写的网络堆栈）的上下文中。这种方法旨在通过确保在编译时维护不变量来最大限度地减少错误。Liebow-Feeser 概述了一个三步流程：定义、执行和使用，强调使用字段隐私和不安全标记来维护不变量。他用例子说明了这一点，包括 netstack3 中的死锁预防，展示了 Rust 在内存和线程安全之外强制执行属性的潜力。他认为，这种方法可以通过使工具能够验证关键域的正确性来彻底改变软件工程。这种方法的巧妙之处在于它能够教会 Rust 新属性，使其成为一种“X-safe”语言。然而，他承认存在一些实际挑战，并敦促开发人员在新的领域探索这种方法。]]></description>
+      <guid>https://t.me/hn_summary/116880</guid>
+      <pubDate>Sun, 17 Nov 2024 03:21:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在这篇文章中，我解决了在 shell 脚本中使用 find 命令时遇到的一个令人困惑的问题 [...]</title>
+      <link>https://t.me/hn_summary/116879</link>
+      <description><![CDATA[解决 find 的一个神秘问题
+在这篇文章中，我解决了一个令人困惑的问题，即在 shell 脚本中使用 find 命令按名称或内容搜索文件。最初，该脚本在内容搜索方面效果很好，但在按名称搜索时意外地将 ASCII 命名的文件标记为二进制。根本原因是输出中不可见的空字符，grep 会误解这些字符。一个简单的解决方法是使用 strings 命令提取 ASCII 字符串，从而有效地拆分文件名。或者，sed 可以用换行符替换空字符。这个解决方案很聪明，但并不完美，因为它可能会忽略短文件名。读者的反馈对于改进这些方法非常有价值。]]></description>
+      <guid>https://t.me/hn_summary/116879</guid>
+      <pubDate>Sun, 17 Nov 2024 02:44:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 众议院议长迈克·约翰逊已要求众议院道德委员会不要公布其 [...]</title>
+      <link>https://t.me/hn_summary/116878</link>
+      <description><![CDATA[众议院议长约翰逊表示不应公布盖茨的道德报告
+众议院议长迈克·约翰逊要求众议院道德委员会不要公布对前众议员马特·盖茨的调查报告，后者是当选总统唐纳德·特朗普提名的司法部长。这一要求引起了争议，因为它挑战了委员会传统的独立性，并引发了对透明度的担忧，尤其是考虑到盖茨在特朗普内阁中的潜在作用。两党参议员都要求查阅该报告以审查盖茨的提名，理由是他辞职的情况不寻常。尽管司法部过去曾对性交易指控进行调查，但盖茨否认有不当行为。这一情况凸显了特朗普对司法部的计划以及他对政治对手进行报复的承诺所带来的紧张局势。]]></description>
+      <guid>https://t.me/hn_summary/116878</guid>
+      <pubDate>Sun, 17 Nov 2024 02:13:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 詹姆斯·格雷克的《混沌：软件》</title>
+      <link>https://t.me/hn_summary/116877</link>
+      <description><![CDATA[James Gleick 的混沌：软件
+“James Gleick 的混沌：软件”是 1991 年 Autodesk DOS 程序的免费版本，由 Josh Gordon、Rudy Rucker 和 John Walker 在 James Gleick 的指导下开发。该软件受到 Gleick 的书《混沌：创造一门新科学》的启发，提供六个模块，探索混沌理论和分形的各个方面，例如曼德布洛特集、奇异吸引子和细胞自动机。它可以使用 DOSBox 在现代平台上运行。该项目的与众不同之处在于允许用户在 GNU 许可下修改和扩展代码，潜在的升级包括增强显示分辨率和消除对过时的 DOS 图形调用的依赖。]]></description>
+      <guid>https://t.me/hn_summary/116877</guid>
+      <pubDate>Sun, 17 Nov 2024 01:43:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 五角大楼已连续第七次未能通过审计，无法完全说明其 [...]</title>
+      <link>https://t.me/hn_summary/116876</link>
+      <description><![CDATA[五角大楼连续第七次审计失败但表示取得了进展
+五角大楼连续第七次审计失败，无法完全说明其 8240 亿美元的预算。尽管如此，包括国防部副部长审计长迈克尔·麦考德在内的官员强调，在 2028 年前实现清洁审计方面取得了进展。国防部收到了一份免责声明，表明审计人员没有足够的信息形成准确的意见。然而，五角大楼 28 个实体中有 9 个实现了清洁审计，这表明情况有所改善。麦考德对失败的说法提出异议，强调一半的审计都是干净的。五角大楼的目标是使其系统现代化并保持各政府之间的连续性，以实现其 2028 年的目标。审计过程耗资 1.78 亿美元，涉及 1,700 名审计员。争议在于，自2018年以来，五角大楼不顾法律义务，屡屡出现审计失败，引发了人们对财务问责的担忧。]]></description>
+      <guid>https://t.me/hn_summary/116876</guid>
+      <pubDate>Sun, 17 Nov 2024 01:24:00 GMT</pubDate>
+    </item>
     <item>
       <title>[媒体] 在《JavaScript 的注意事项》一书中，Mu-An Chiou 强调了使用 JavaScript 的深思熟虑的方法 [...]</title>
       <link>https://t.me/hn_summary/116875</link>
@@ -29,62 +85,6 @@
 网页“以 Windows XP 屏幕保护程序的样式查看的 Bluesky 消防水带”通过将 Bluesky 社交媒体源可视化为经典的 Windows XP 屏幕保护程序，提供了独特而怀旧的体验。这个创意项目将现代数字内容与复古美学相结合，提供了一种有趣且引人入胜的信息消费方式。这个概念巧妙地利用了人们对 21 世纪初技术的怀旧情绪，同时以意想不到的格式呈现实时数据。这个内容似乎没有任何争议，但其创新的数据可视化方法无疑令人惊讶和愉悦。]]></description>
       <guid>https://t.me/hn_summary/116873</guid>
       <pubDate>Sun, 17 Nov 2024 01:06:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 30 亿多年前，一颗巨大的陨石，比结束 [...]</title>
-      <link>https://t.me/hn_summary/116872</link>
-      <description><![CDATA[比灭绝恐龙的陨石大 200 倍的陨石重置了早期生命
-30 多亿年前，一颗比灭绝恐龙的陨石大得多的巨型陨石撞击了地球，给早期微生物生命造成了广泛的破坏，但也释放了大量的营养物质。哈佛大学地质学家 Nadja Drabon 强调，这次撞击比白垩纪事件大 500 到 200 倍，引发了大规模海啸，并使天空黑暗了数年。令人惊讶的是，这场大灾变还使海洋富含生物可利用的铁和磷，促进了微生物的复苏。Drabon 的团队在南非发现了这次撞击的证据，球状层表明它来自地外。这项研究表明，这种撞击虽然最初具有破坏性，但可能反复刺激微生物进化，挑战了陨石纯粹是灾难性事件的看法。]]></description>
-      <guid>https://t.me/hn_summary/116872</guid>
-      <pubDate>Sun, 17 Nov 2024 00:43:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 亚历克斯·琼斯（Alex Jones）正试图阻止《Infowars》的销售。</title>
-      <link>https://t.me/hn_summary/116871</link>
-      <description><![CDATA[亚历克斯·琼斯试图阻止 Infowars 的出售。马斯克的 X 刚刚介入
-出人意料的是，德克萨斯州的一名联邦破产法官下令审查导致 Infowars 被出售给讽刺网站 The Onion 的拍卖过程。Infowars 的创始人亚历克斯·琼斯声称拍卖是“作弊的”，并相信审查会将网站归还给他。有趣的是，X（前身为 Twitter，现为埃隆·马斯克所有）的律师也参与其中，尽管他们的角色尚不清楚。琼斯在 X 上推出了亚历克斯·琼斯网络，他暗示了马斯克的参与，并提到了特朗普的支持。The Onion 计划重新推出讽刺版的 Infowars，但琼斯发誓要对模仿者采取法律行动。争议源于琼斯对桑迪胡克家庭的诽谤，这导致了 Infowars 的破产。法官强调，在举行证据听证会之前，任何人都不应该对拍卖结果感到满意。]]></description>
-      <guid>https://t.me/hn_summary/116871</guid>
-      <pubDate>Sun, 17 Nov 2024 00:20:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 婴儿时期失去视力的丹尼尔·基什掌握了回声​​定位的技术，n [...]</title>
-      <link>https://t.me/hn_summary/116870</link>
-      <description><![CDATA[自学回声定位
-丹尼尔·基什在婴儿时期就失去了视力，他掌握了回声​​定位的技巧，像蝙蝠一样用嘴巴发出的咔嗒声来导航世界。这些咔嗒声可以被人耳听到，帮助他创建周围环境的心理地图，从大结构到精细细节。基什现在主要向盲人学生教授这项技能，以培养自信和独立性。他的方法得到了研究的支持，表明回声定位是一项可以学习的技能。基什鼓励每个人都提高他们的听力能力，建议进行练习，例如练习咔嗒声和蒙着眼睛在空间中导航。他的方法挑战了视觉的主导地位，倡导更丰富的感官体验。这里令人惊讶的元素是人类学习回声定位的能力，这是一项通常与蝙蝠相关的技能，以及巧妙地将这种技术改编为人类使用。]]></description>
-      <guid>https://t.me/hn_summary/116870</guid>
-      <pubDate>Sun, 17 Nov 2024 00:15:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 在过去的几年里，我在使用 Rust 的过程中遇到了重大挑战 [...]</title>
-      <link>https://t.me/hn_summary/116869</link>
-      <description><![CDATA[别再让我记住借用检查器了
-在过去几年使用 Rust 的过程中，我遇到了借用检查器的重大挑战，这通常需要对我的代码进行大量重构。借用检查器虽然有助于确保代码的正确性，但可能会令人沮丧，因为它需要编译整个函数才能运行，从而导致“传染性”生命周期，使架构复杂化。这反映了 C++ 中未定义行为的问题，尽管 Rust 因其编译时检查而可以说更好。然而，Rust 的冗长和需要记住借用检查器规则降低了它的可用性。尽管将错误推迟到运行时，但语言的复杂性促使一些开发人员转向 C，因为它被认为是简单的。 Rust 与“安全 C++”的竞争凸显了对一种能够平衡正确性和易用性的语言的需求，摆脱编程的陈旧感。Rust 向前迈出了一步，但并不是最终的解决方案。]]></description>
-      <guid>https://t.me/hn_summary/116869</guid>
-      <pubDate>Sun, 17 Nov 2024 00:10:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 论文《卷积可微分逻辑门网络》介绍了一种新方法[...]</title>
-      <link>https://t.me/hn_summary/116868</link>
-      <description><![CDATA[卷积可微分逻辑门网络
-论文“卷积可微分逻辑门网络”介绍了一种通过使用可微分逻辑门将逻辑推理与深度学习相结合的新方法。这种创新方法可以无缝结合符号逻辑和神经网络，增强人工智能模型的可解释性和鲁棒性。作者提出了一个利用卷积架构来处理和学习逻辑运算的框架，为弥合符号人工智能和神经计算之间的差距提供了独特的视角。将这种方法应用于大规模数据集时，一个潜在的争议在于可扩展性和效率的挑战，作者承认并通过实验结果解决了这个问题。]]></description>
-      <guid>https://t.me/hn_summary/116868</guid>
-      <pubDate>Sun, 17 Nov 2024 00:09:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] ActivityBot 是一个简单的 PHP 解决方案，旨在用作基本活动 [...]</title>
-      <link>https://t.me/hn_summary/116867</link>
-      <description><![CDATA[ActivityBot：PHP 中的简单 ActivityPub 机器人服务器
-ActivityBot 是一种简单的 PHP 解决方案，旨在用作基本的 ActivityPub 机器人服务器。这种单文件实现简化了设置机器人服务器的过程，即使是技术专业知识有限的人也可以访问它。该项目托管在 GitLab 上，提供了一种与 ActivityPub 协议集成的开源方法。虽然单个 PHP 文件的简单性独特而巧妙，但它可能会引起对更复杂应用程序的可扩展性和安全性的担忧。尽管如此，ActivityBot 仍然是有兴趣通过 ActivityPub 探索去中心化社交网络的开发人员的绝佳起点。]]></description>
-      <guid>https://t.me/hn_summary/116867</guid>
-      <pubDate>Sun, 17 Nov 2024 00:07:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 今天又有百万用户加入了 Bluesky——Bluesky 的激增会引发 X 的终结吗？</title>
-      <link>https://t.me/hn_summary/116866</link>
-      <description><![CDATA[今天又有 100 万用户加入了 Bluesky——Bluesky 的激增会引发 X 的终结吗？
-在社交媒体格局发生重大转变之际，由前 Twitter 首席执行官杰克·多西 (Jack Dorsey) 创立的强调审核的平台 Bluesky 在一天内新增了 100 万用户。在马斯克被任命为唐纳德·特朗普政府成员后，埃隆·马斯克的平台 X 出现了大规模迁移，引发了用户的不满。社交媒体专家亚当·廷沃思 (Adam Tinworth) 指出，这种大规模迁移不仅仅是出于政治原因；许多用户离开是因为对 X 用户体验下降和缺乏审核的务实担忧。有趣的是，尽管规模较小，但 Bluesky 正在赢得谷歌对事实信息的信任。社交媒体的这种分裂引发了人们对意识形态回音室的担忧，X 可能会变得更加右翼。Bluesky 作为 X 的替代品的未来取决于是否能吸引到足够多的用户。Sky News 联系了 X 寻求评论，但没有得到回复。]]></description>
-      <guid>https://t.me/hn_summary/116866</guid>
-      <pubDate>Sun, 17 Nov 2024 00:06:59 GMT</pubDate>
     </item>
     </channel>
 </rss>

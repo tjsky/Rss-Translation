@@ -4,7 +4,14 @@
     <title>最新投稿：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>此子版块面向后专业人士。您想成为专业人士吗？请随意使用我们的“向专业人士提问”主题。副业？使用“向专业人士提问”主题。爱好？为了好玩？我们的姐妹子版块 r/videoediting 正是您想要的！</description>
-    <lastBuildDate>Sun, 17 Nov 2024 01:17:35 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2024 03:30:12 GMT</lastBuildDate>
+    <item>
+      <title>Premiere Pro 中重新连接全分辨率媒体 BUG</title>
+      <link>https://www.reddit.com/r/editors/comments/1gt1izw/reconnect_full_resolution_media_bug_in_premiere/</link>
+      <description><![CDATA[您好，我使用了摄像机内代理，现在视频已经制作完成。我只需通过替换代理将完整分辨率的视频附加到时间线中，然后导出视频即可。 简单介绍一下：我有多个 Bin，我在其中安排了我的工作流程。我想重新连接完整分辨率媒体，将完整分辨率文件附加到代理（这是 Premiere 具有的功能）。 问题是： 例如，当我在 Bin 1 中并且想要附加完整分辨率媒体时，在单击附加时从 Premiere Pro 打开的媒体浏览器选项卡中，我需要的完整分辨率剪辑没有出现。相反，出现了来自 Bin 2 的文件（它们都位于我电脑上的同一个文件夹中）。 当我对 Bin 2 中的剪辑执行同样的事情时，Bin 2 中的文件没有出现，但 Bin 1 中的文件出现了 :)  我检查过了，我电脑的根文件夹中有所有文件。 当我打开 Bin 附加相应的文件时，它们就是不出现。 有人可以帮我解决这个问题吗？ 我希望你们明白发生了什么，因为这个问题很难解释。 附言：我在 Adob​​e 上有付费订阅，Premiere 是最新的。    提交人    /u/-Graceful   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1gt1izw/reconnect_full_resolution_media_bug_in_premiere/</guid>
+      <pubDate>Sun, 17 Nov 2024 00:43:26 GMT</pubDate>
+    </item>
     <item>
       <title>向代理机构人员提问..</title>
       <link>https://www.reddit.com/r/editors/comments/1gt1fbf/question_for_agency_peeps/</link>
@@ -36,7 +43,7 @@
     <item>
       <title>Premiere Pro 中用于多平台交付的 Gamma 设置</title>
       <link>https://www.reddit.com/r/editors/comments/1gsv6f7/gamma_settings_in_premiere_pro_for_multiplatform/</link>
-      <description><![CDATA[TL;DR：在 Premiere Pro 中为针对广播、网络和 QuickTime 的项目苦苦挣扎伽玛设置。我正在以 Rec. 709 导出，但在应用伽玛补偿 LUT 时面临色彩压缩问题，在 QuickTime 与 VLC 中尤其明显。无法按序列调整伽玛，只能在项目级别调整。您如何在 Premiere 中管理这些差异，特别是对于不同类型的可交付成果？  ---- 大家好， 我目前正在 Premiere Pro 中改进我的工作流程，以针对电影和各种社交媒体平台的项目。平衡伽玛设置以在不同环境中获得最佳观看效果被证明是棘手的，尤其是考虑到设备类型的变化（例如 Mac 的伽玛与标准网络伽玛 2.2）。 在我的工作流程中，Premiere 主要采用 Rec. 709 适用于高清内容，虽然通常很有效，但由于伽马差异，在非标准设备上并不总是表现良好。我尝试使用 LUT 进行伽马补偿并调整导出设置，以便更好地跨平台对齐视觉效果。但是，我遇到了应用伽马补偿 LUT 往往会破坏我的颜色的问题，这并不理想。有趣的是，当我在 VLC 中播放相同的文件时，颜色显示恰到好处，这表明它可能主要是 Mac“问题”（QuickTime）。 此外，我认为我们无法在 Premiere 中的序列级别调整伽马设置（只能在项目级别）。我很好奇你们中是否有人在 Premiere 中找到了管理这些设置的有效方法。 此外，对于超出简单网络的交付物，您是否在 Premiere 中调整颜色并为每种类型的交付物创建特定的伽马补偿 LUT？如果是这样，您如何处理？ 谢谢您的帮助！    提交人    /u/Available-Witness329   [link] [comments]]]></description>
+      <description><![CDATA[TL;DR：在 Premiere Pro 中为针对广播、网络和 QuickTime 的项目苦苦挣扎伽玛设置。我正在以 Rec. 709 导出，但在应用伽玛补偿 LUT 时面临色彩压缩问题，在 QuickTime 与 VLC 中尤其明显。无法按序列调整伽玛，只能在项目级别调整。您如何在 Premiere 中管理这些差异，特别是对于不同类型的可交付成果？  ---- 大家好， 我目前正在 Premiere Pro 中改进我的工作流程，以针对电影和各种社交媒体平台的项目。平衡伽玛设置以在不同环境中获得最佳观看效果被证明是棘手的，尤其是考虑到设备类型的变化（例如 Mac 的伽玛与标准网络伽玛 2.2）。 在我的工作流程中，Premiere 主要采用 Rec. 709 适用于高清内容，虽然通常很有效，但由于伽玛差异，在非标准设备上并不总是表现良好。我尝试使用 LUT 进行伽玛补偿并调整导出设置，以便更好地跨平台对齐视觉效果。但是，我遇到了应用伽玛补偿 LUT 往往会破坏我的颜色的问题，这并不理想。有趣的是，当我在 VLC 中播放相同的文件时，颜色显示恰到好处，这表明它可能主要是 Mac“问题”（QuickTime）。 此外，我认为我们无法在 Premiere 中的序列级别调整伽玛设置（只能在项目级别调整）。我很好奇你们中是否有人在 Premiere 中找到了管理这些设置的有效方法。 此外，对于超出简单网络的交付物，您是否在 Premiere 中调整颜色并为每种类型的交付物创建特定的伽玛补偿 LUT？如果是这样，您如何处理？ 谢谢您的帮助！    提交人    /u/Available-Witness329   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1gsv6f7/gamma_settings_in_premiere_pro_for_multiplatform/</guid>
       <pubDate>Sat, 16 Nov 2024 19:40:20 GMT</pubDate>
     </item>
@@ -95,13 +102,6 @@
       <description><![CDATA[这些 15、30 秒的剪辑。你知道，“今晚……”  对我来说似乎同样简单和时间敏感。我在两个方面都错了吗？    由   提交  /u/Proud_Golf334   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1gs6bgq/network_promo_editors/</guid>
       <pubDate>Fri, 15 Nov 2024 20:48:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>谁的任务是稳定 FPV 镜头？</title>
-      <link>https://www.reddit.com/r/editors/comments/1grwucl/whos_task_is_stabilizing_fpv_footage/</link>
-      <description><![CDATA[我经常在所有素材中都包含 fpv 无人机镜头。你们认为将原始镜头通过 gyroflow/reelsteady 处理是我的任务，还是拍摄它的无人机飞行员的任务是将流畅的镜头发送给编辑？ 80% 的时间我都会收到已经稳定的镜头。但其他时候我总是回头问摄影师他是否可以稳定它。我是不是很讨厌，我应该自己做吗？    提交人    /u/Expensive_Loss_334   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1grwucl/whos_task_is_stabilizing_fpv_footage/</guid>
-      <pubDate>Fri, 15 Nov 2024 13:53:18 GMT</pubDate>
     </item>
     <item>
       <title>streamdeck mk2 还是 streamdeck plus 用于视频编辑？</title>
