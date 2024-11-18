@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 18 Nov 2024 06:24:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 09:19:28 GMT</lastBuildDate>
+    <item>
+      <title>我用 Tauri 和 SolidJS 构建了一个小型音频库</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gu0qwz/i_built_a_small_audio_library_in_tauri_and_solidjs/</link>
+      <description><![CDATA[      https://preview.redd.it/zjgov858am1e1.png?width=1905&amp;format=png&amp;auto=webp&amp;s=9b648e81537adbc3dd086cc1b3249931b894278e 大家好！ 虽然不完全是一个 Web 应用程序，但是使用 Web 技术，我最近完成了“chamber”的构建，这是一个为视频编辑器构建的音频库。作为一名兼职视频编辑，我发现在整个内容编辑过程中，编译音频是最不必要的繁琐任务，特别是如果我事先没有得到音频，因为我必须访问在线的网络应用程序来简化重要的任务，例如下载、转换和修剪剪辑，或者使用 ffmpeg 来简化这些任务（我发现直接使用很烦人）。这个项目的目标是将许多这些功能划分为一个界面，这使音频编译过程变得更加容易和高效！ chamber 支持的一些功能包括：  音频播放和播放列表创建 从 YouTube 批量下载；下载是多线程的，因此批量下载的速度与下载最大音频文件的速度一样快！ mp3、ogg、opus、m4a 和 m4b 的音频转码 从波形中剪辑音频  我用来构建这个项目的一些东西：  Tauri + SolidJS 嵌入式 yt-dlp 和 ffmpeg 二进制文件，用于处理下载 + 转码的繁重工作 Wavesurfer 呈现波形和剪辑区域  Chamber 还支持 Linux、macOS 和 Windows 操作系统，可以通过安装程序或从源代码安装 该项目位于在此 repo 中。很乐意回答任何问题，也非常感谢任何批评！    由   提交  /u/a4aider   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gu0qwz/i_built_a_small_audio_library_in_tauri_and_solidjs/</guid>
+      <pubDate>Mon, 18 Nov 2024 09:08:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>新安装的灯丝没有顺风样式</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gtz0sb/fresh_install_of_filament_doesnt_have_tailwind/</link>
+      <description><![CDATA[      https://preview.redd.it/i8u6x548yl1e1.png?width=954&amp;format=png&amp;auto=webp&amp;s=e43d3095233b78d0f90953150d8c59b37736dd7a 我新安装的 fibre 加载如下。我还没有配置任何东西，我不知道该怎么做。tailwind 配置也在那里。如果您遇到过这种情况，您是如何解决的？    提交人    /u/gunnerxt   [link] [comments] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gtz0sb/fresh_install_of_filament_doesnt_have_tailwind/</guid>
+      <pubDate>Mon, 18 Nov 2024 06:57:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>您在哪里销售网站？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gtys39/where_do_you_sell_websites/</link>
+      <description><![CDATA[我创建了一个网站，我想出售它。我在哪里出售它？    由   提交  /u/lrxc0   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gtys39/where_do_you_sell_websites/</guid>
+      <pubDate>Mon, 18 Nov 2024 06:40:06 GMT</pubDate>
+    </item>
     <item>
       <title>2024 年有人靠卖网站模板谋生吗？我开始卖，但赚得不多。有什么建议吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1gtxpfx/did_anyone_make_a_living_by_selling_website/</link>
@@ -15,7 +36,7 @@
     <item>
       <title>如何获取用户多平台API Token？</title>
       <link>https://www.reddit.com/r/webdev/comments/1gtxhbo/how_to_get_users_api_tokens_for_multiple_platforms/</link>
-      <description><![CDATA[我正在开发一个应用程序，需要获取用户的 Shopify、eBay、Amazon 等 API 令牌。但我发现为每个平台开发“应用程序”以便用户授权我访问他们的帐户非常费力。 除了为每个平台手动创建应用程序之外，一定有更简单的方法可以做到这一点。有吗？还有人遇到过这个问题吗？    提交人    /u/sessionletter   [链接] [评论]]]></description>
+      <description><![CDATA[我正在开发一个应用程序，需要获取用户的 Shopify、eBay、Amazon 等 API 令牌。但我发现为每个平台开发“应用程序”以便用户授权我访问他们的帐户非常费力。 除了为每个平台手动创建应用程序之外，一定还有更简单的方法。有吗？还有人遇到过这个问题吗？    提交人    /u/sessionletter   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gtxhbo/how_to_get_users_api_tokens_for_multiple_platforms/</guid>
       <pubDate>Mon, 18 Nov 2024 05:17:11 GMT</pubDate>
     </item>
@@ -36,7 +57,7 @@
     <item>
       <title>您使用什么后端语言</title>
       <link>https://www.reddit.com/r/webdev/comments/1gtul4g/what_backend_language_do_you_use/</link>
-      <description><![CDATA[嗨，我对后端还很陌生，我只使用过 javascript 作为后端语言。我看到很多人在谈论 js。比如它有多慢，它有多不支持多线程，我做了一些研究，发现它相对不如其他一些后端语言好，但对我来说还是有用的。我期待为我的后端学习一种不同的语言。话虽如此，你们在后端使用什么语言，你们建议我学习什么。我更喜欢有点挑战性的语言。理想情况下，你也能给我一个小路线图！    提交人    /u/ascot_lemon   [链接] [评论]]]></description>
+      <description><![CDATA[嗨，我对后端还很陌生，我只使用过 javascript 作为后端语言。我看到很多人在谈论 js。比如它有多慢，它有多不支持多线程，我做了一些研究，发现它相对不如其他一些后端语言好，但它对我来说还是有用的。我期待为我的后端学习一种不同的语言。话虽如此，你们在后端使用什么语言，你们建议我学习什么。我更喜欢有点挑战性的语言。理想情况下，你也能给我一个小路线图！    提交人    /u/ascot_lemon   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gtul4g/what_backend_language_do_you_use/</guid>
       <pubDate>Mon, 18 Nov 2024 02:35:23 GMT</pubDate>
     </item>
@@ -50,7 +71,7 @@
     <item>
       <title>Web 开发人员不允许我们进行更改。这正常吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1gtrm21/web_dev_wont_let_us_make_changes_is_this_normal/</link>
-      <description><![CDATA[您好。我的父母聘请了一名网站开发人员，为他们的医疗中心建立一个网站。该网站已经完成一段时间了，但是，出于各种原因，我的父母需要能够保持网站更新，其中包括上传每周新闻通讯等。网站开发人员告诉他们，我们自己不可能对网站进行任何更改。这个特定的问题已经反复讨论了一段时间，我确保我们的需求已经得到明确解释（如果没有必要，我们不需要访问网站代码本身，只需要进行某些更改，例如在员工页面添加新个人资料或添加之前提到的每周新闻更新）。所以我的问题是，这是正常的吗？我们有没有办法在不访问代码或每次都询问网站开发人员的情况下更改某些内容？其他网站是如何做到这一点的？它需要相当频繁地更新，很难让我们的网站开发人员做任何事情，我们通常几天都不会收到回复。是的，他已经全额付款了。抱歉，这个问题似乎有点无知，但我真的不了解这种情况  只需快速说明一下：如果合同中未包含 CMS（需要检查），我们不希望他在事后实施 CMS，我们非常乐意为他实施此操作的时间付费。这篇文章更多的是询问他拒绝我们更改网站的能力是否合理！谢谢 :)     提交人    /u/nenes_mum   [链接] [评论]]]></description>
+      <description><![CDATA[您好。我的父母聘请了一名网站开发人员，为他们的医疗中心建立一个网站。该网站已经完成一段时间了，但是，出于各种原因，我的父母需要能够保持网站更新，其中包括上传每周新闻通讯等。网站开发人员告诉他们，我们自己不可能对网站进行任何更改。这个特定的问题已经反复讨论了一段时间，我确保我们的需求已经得到明确解释（如果没有必要，我们不需要访问网站代码本身，只需要进行某些更改，例如在员工页面添加新个人资料或添加之前提到的每周新闻更新）。所以我的问题是，这是正常的吗？我们有没有办法在不访问代码或每次都询问网站开发人员的情况下更改某些内容？其他网站是如何做到这一点的？它需要相当频繁地更新，很难让我们的网站开发人员做任何事情，我们通常几天都不会收到回复。是的，他已经全额付款了。抱歉，如果这个问题看起来像一个无知的问题，但我真的对这种情况一无所知  只需快速说明一下：如果合同中未包含 CMS（需要检查），我们不希望他在事后实施 CMS，我们非常乐意为他实施此操作的时间付费。这篇文章更多的是询问他拒绝我们更改网站的能力是否合理！谢谢 :)  编辑：kia Ora！有很多非常乐于助人的可爱人！如果您只是想说一些无益的话，例如“选择便宜的选项是你的错”，请不要发表评论，请不要发表评论。您可以从我的其他评论中看到，我们非常愿意为开发人员完成我们要求的任何时间付费 - 这次讨论是在网站完成之前进行的。我们不是在“选择便宜的选项”并且没有要求这样做，我们的开发人员只是坚持认为这是不可能的，这就是我来这里问这个问题的原因。  请记住，普通人 - 特别是 50 岁以上的人实际上对网站开发一无所知，我认为希望网站开发人员知识渊博并传达他们认为适合客户的内容是公平的。     提交人    /u/nenes_mum   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gtrm21/web_dev_wont_let_us_make_changes_is_this_normal/</guid>
       <pubDate>Mon, 18 Nov 2024 00:05:53 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[我将向我的应用添加功能，以便用户可以从其他服务输入他们的登录凭据，我的应用将为他们执行请求，因为其他网站上的会话时间非常短，UI/UX 非常糟糕。但我对将密码存储在我的数据库中有些担心。如果我使用一些秘密加密密码（存储在环境变量中），然后在需要时再次解密它们，这样会安全吗？我还有其他选择吗？或者这总体上是个坏主意，我应该停止制作这样的应用程序吗？提前感谢您的帮助！    提交人    /u/Perfect-Macaron-758   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gtpkoj/storing_encrypted_passwords/</guid>
       <pubDate>Sun, 17 Nov 2024 22:30:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>为 Web 开发人员准备一份礼物，下列哪一项最受赞赏？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gtpgc4/getting_a_gift_for_a_web_developer_which_of_these/</link>
-      <description><![CDATA[      如果这不是问这个问题的好地方，请告诉我     提交人    /u/CallMeJimi   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gtpgc4/getting_a_gift_for_a_web_developer_which_of_these/</guid>
-      <pubDate>Sun, 17 Nov 2024 22:24:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一款数学游戏，灵感来自已故的《纽约时报数字》游戏！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gtow21/i_built_a_math_game_inspired_by_the_late_nyt/</link>
-      <description><![CDATA[  由    /u/shaqb4  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gtow21/i_built_a_math_game_inspired_by_the_late_nyt/</guid>
-      <pubDate>Sun, 17 Nov 2024 21:59:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>您当前的计算机配置如何？足够吗？您认为最适合您的配置是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1gtodnc/whats_your_current_computer_configuration_is_it/</link>
-      <description><![CDATA[你的机器的规格是什么，目前够用吗？你觉得最低配置是多少？ 嗨， 我想买一台新的 MacBook，我一直在考虑是 m1 max 64GB 还是 m2 max 32gb。我目前有一台 M1 pro 16GB，它在处理我给它的东西时表现得很糟糕。 我运行一些 docker，摆弄本地 LLM，视频/照片编辑，当然还有前端开发。 老实说，我觉得 64gb 太过分了，但你知道，我看到了 RAM，我想要 RAM... 你们的情况怎么样？最近换了一台新的吗？对你的情况满意吗？您认为什么样的配置才算理想，又不会过于复杂？ 谢谢！    提交人    /u/rm-rf-npr   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1gtodnc/whats_your_current_computer_configuration_is_it/</guid>
-      <pubDate>Sun, 17 Nov 2024 21:37:01 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,7 +4,42 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 18 Nov 2024 06:23:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 09:19:07 GMT</lastBuildDate>
+    <item>
+      <title>数据库匿名化工具发布。Greenmask v0.2.4</title>
+      <link>https://www.reddit.com/r/programming/comments/1gu0kii/database_anonymization_tool_release_greenmask_v024/</link>
+      <description><![CDATA[  由    /u/anyweny  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1gu0kii/database_anonymization_tool_release_greenmask_v024/</guid>
+      <pubDate>Mon, 18 Nov 2024 08:54:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Maia AI 电子邮件助手</title>
+      <link>https://www.reddit.com/r/programming/comments/1gu0c85/maia_ai_powered_email_assistant/</link>
+      <description><![CDATA[你好 Reddit， 这已经是近四个星期的工作了。作为免责声明，我不是任何类型的程序员，我有一些通过他们的 api 与 AI 打交道的 Python 经验，但这是一个完全不同的事情...... 这一切都始于一位使用 Chatgpt 回复电子邮件的朋友的评论，他抱怨复制粘贴部分很累，因为它很慢，缺乏上下文，而且因为他甚至没有使用自定义 GPT，所以这对回答他的客户没有什么帮助。 所以我决定弄乱代码，看看我是否能从中做出一些有用的东西。我制作了一个早期原型来从 Gmail 检索电子邮件并通过 API 使用我的一个 OpenAi 助手回复它们，这似乎很容易。然后我开始在 Claude 的帮助下将其应用于可视化界面，以创建 MAIA 应用程序（邮件人工智能助手） 与 Claude 合作非常有趣，它对项目有深入的了解。您只需将代码上传给他，然后开始进行更改、添加等即可……唯一的问题是，有时当您从开发环境（我的情况是 Jupyter 实验室）传递到实际的 python 项目时，它会忘记某些函数或类。知道您可以将一些提示发送给它，并确保一切都在正确的位置。 还值得一提的是，要求它从一开始就创建一个强大的错误处理系统，并尽可能创建稳定的版本。Claude 对每个聊天的令牌有限制，聊天越大，它消耗的令牌就越多。因此，最好先获得一个稳定的版本，然后再次开始聊天，上传此版本，然后再要求它进行更改。 Maia 电子邮件助手应用程序有超过 2500 行代码，通过安全的 OAuth 通过 API 连接到 GMail 和 Exchange，并连接到任何 SMTP/IMAP 帐户。它支持多个助手，可以同时回复多封电子邮件，并且有一个“重新生成答案”按钮，您可以在其中添加评论，它会将它们添加到答案中。显然，您需要解决助手部分的问题，但添加自定义说明和文档库作为内部知识可以完全改变游戏规则，为任何客户提供正确的答案。 如果您想了解有关 MAIA 的更多信息，您可以查看我的 YouTube 视频，其中解释了它的工作原理，如果您愿意，可以下载它。它是免费的，可以在任何安装了 python 的计算机上运行（我还制作了一个安装所有必要库的 Windows 安装程序） MAIA 电子邮件助手     提交人    /u/Nalrod   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1gu0c85/maia_ai_powered_email_assistant/</guid>
+      <pubDate>Mon, 18 Nov 2024 08:36:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>服务器错误让我得到了一顿免费的饭菜（系统设计故事）</title>
+      <link>https://www.reddit.com/r/programming/comments/1gtzpyl/a_server_error_got_me_a_free_meal_system_design/</link>
+      <description><![CDATA[  由    /u/No-Bug-242  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1gtzpyl/a_server_error_got_me_a_free_meal_system_design/</guid>
+      <pubDate>Mon, 18 Nov 2024 07:48:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>FORTRAN II 超级资源</title>
+      <link>https://www.reddit.com/r/programming/comments/1gtz9bm/fortran_ii_hypersource/</link>
+      <description><![CDATA[  由    /u/texdraft  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1gtz9bm/fortran_ii_hypersource/</guid>
+      <pubDate>Mon, 18 Nov 2024 07:14:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>教程 - 将 .NET 应用程序作为单个文件发布到 Windows、Linux 和 Mac！</title>
+      <link>https://www.reddit.com/r/programming/comments/1gtylv0/tutorial_publish_net_apps_as_a_single_file_to/</link>
+      <description><![CDATA[  由    /u/nickproud  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1gtylv0/tutorial_publish_net_apps_as_a_single_file_to/</guid>
+      <pubDate>Mon, 18 Nov 2024 06:27:59 GMT</pubDate>
+    </item>
     <item>
       <title>我已经开源了一个插件，支持Python代码和其他AI平台代码在浏览器中渲染UI并实时交互！</title>
       <link>https://www.reddit.com/r/programming/comments/1gtxwrz/i_have_opensourced_a_plugin_that_supports_python/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[  由    /u/hyperaeolian  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1gtquy3/foss_json_schema_editor/</guid>
       <pubDate>Sun, 17 Nov 2024 23:30:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何利用 Python 自动化在一周内使销售额翻倍</title>
-      <link>https://www.reddit.com/r/programming/comments/1gton5z/how_i_doubled_my_sales_in_1_week_with_python/</link>
-      <description><![CDATA[来源： https://github.com/DankoOfficial/Tiktok-Angrybird    由   提交  /u/ConfectionAvailable8   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1gton5z/how_i_doubled_my_sales_in_1_week_with_python/</guid>
-      <pubDate>Sun, 17 Nov 2024 21:48:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Printf 无用</title>
-      <link>https://www.reddit.com/r/programming/comments/1gto4nk/printf_is_useless/</link>
-      <description><![CDATA[  由    /u/aartaka  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1gto4nk/printf_is_useless/</guid>
-      <pubDate>Sun, 17 Nov 2024 21:26:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>带有 OLED 和编码器/旋钮的 DIY 定制可编程机械宏键盘</title>
-      <link>https://www.reddit.com/r/programming/comments/1gtnqs9/diy_custom_programmable_mechanical_macro_keyboard/</link>
-      <description><![CDATA[  由    /u/Keyboard_Warrior364  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1gtnqs9/diy_custom_programmable_mechanical_macro_keyboard/</guid>
-      <pubDate>Sun, 17 Nov 2024 21:09:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>公钥加密的真正工作原理</title>
-      <link>https://www.reddit.com/r/programming/comments/1gtmuw3/how_public_key_cryptography_really_works/</link>
-      <description><![CDATA[  由    /u/waozen  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1gtmuw3/how_public_key_cryptography_really_works/</guid>
-      <pubDate>Sun, 17 Nov 2024 20:30:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Terminal3d - 在终端中查看 3d 模型，用 Rust 编写🦀</title>
-      <link>https://www.reddit.com/r/programming/comments/1gtmrz1/terminal3d_view_3d_models_in_your_terminal/</link>
-      <description><![CDATA[  由    /u/liamilan  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1gtmrz1/terminal3d_view_3d_models_in_your_terminal/</guid>
-      <pubDate>Sun, 17 Nov 2024 20:26:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
