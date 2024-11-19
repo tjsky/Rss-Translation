@@ -4,7 +4,55 @@
     <title>HN 摘要</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的热门 Hacker News 故事的自动摘要。</description>
-    <lastBuildDate>Tue, 19 Nov 2024 06:04:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 08:46:54 GMT</lastBuildDate>
+    <item>
+      <title>[媒体] 在我们的数学加速之旅中，我们从一个简单的意图开始：培养我们的[...]</title>
+      <link>https://t.me/hn_summary/117160</link>
+      <description><![CDATA[一旦开始，就很难停止
+在我们开展数学加速计划的过程中，我们一开始的意图很简单：培养孩子们对数学的热爱，超越他们的年级水平。这个天真的开始导致了现在被认为是“激进加速”的计划，我们的孩子比同龄人领先了几年。令人惊讶的是，学校在很大程度上没有准备好支持这样的学生，这常常让我们感到沮丧和没有指导。争议在于数学加速是否公平，因为它需要一个并非所有家庭都能提供的支持性环境。我们与其他面临类似挑战的家庭建立了联系，探索数学竞赛、暂停数学或继续以更快的速度学习等选择。最终，我们关注的是孩子们对数学的日常兴趣，一天一天地培养。坚持数学！]]></description>
+      <guid>https://t.me/hn_summary/117160</guid>
+      <pubDate>Tue, 19 Nov 2024 08:46:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在我最近为公司构建可观察性项目的过程中，我探索了 v [...]</title>
+      <link>https://t.me/hn_summary/117159</link>
+      <description><![CDATA[使用 ClickHouse 构建可观察性
+在我最近为公司构建可观察性项目的过程中，我探索了各种技术堆栈，最后决定使用 ClickHouse 进行数据仓库，使用 Grafana 进行可视化和警报。最初，我们使用 Elastic Stack (EFK) 进行日志管理，但事实证明它资源密集且不灵活。尽管 Elasticsearch 具有水平扩展的潜力，但它的 JSON API 和 Painless 脚本语言却很麻烦。我评估了 Loki、Timescale 和 InfluxDB 等替代方案，但每个方案都有局限性，例如 Loki 的 LogQL 文档不足，而 InfluxDB 的免费版本缺乏集群功能。最终，ClickHouse 满足了我们对可扩展、兼容 SQL 的解决方案的需求，并提供了强大的社区支持。对于数据收集，我结合了 Fluent Bit 和 Vector，欣赏 Vector 的 VRL 语言的易用性和安全性。这段旅程凸显了技术堆栈选择的主观性以及平衡性能、可扩展性和可用性的重要性。（基于 37% 的故事文本的总结。）]]></description>
+      <guid>https://t.me/hn_summary/117159</guid>
+      <pubDate>Tue, 19 Nov 2024 07:46:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在本文中，我探讨了运行高通量重新所面临的挑战和解决方案 [...]</title>
+      <link>https://t.me/hn_summary/117158</link>
+      <description><![CDATA[批量奖励模型推理和 Best-of-N 采样
+在本文中，我探讨了运行高吞吐量奖励模型推理的挑战和解决方案，特别是在涉及大型语言模型 (LLM) 的强化学习应用中。奖励模型对于 RLHF 等技术和 SimPO 等偏好优化方法至关重要。我在树搜索等动态用例的有效推理方面遇到了困难，因为流行的推理服务器尚不支持序列分类模型。但是，Mixedbread 的动态批处理库提供了一个有希望的解决方案。我演示了如何使用 Modal 设置奖励模型端点，利用 RLHFlow/ArmoRM-Llama3-8B-v0.1 模型。此设置允许以最小的延迟对 LLM 完成进行有效评分。我还使用 TruthfulQA 基准的一个子集来评估该模型，在将正确答案排在第一位时实现了 53% 的准确率。此外，我还探索了 Best-of-N 采样，它可以增强测试时间计算而不会产生显著的延迟，从而证明了其在提高零样本准确率方面的有效性。动态批处理和 Best-of-N 采样的巧妙使用凸显了在实时应用中优化 LLM 性能的潜力。（基于 97% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/117158</guid>
+      <pubDate>Tue, 19 Nov 2024 07:39:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 在 PyTorch 的本教程系列中，我们深入探讨了图形、自动机的核心概念 [...]</title>
+      <link>https://t.me/hn_summary/117157</link>
+      <description><![CDATA[PyTorch 101：了解图表、自动微分和 Autograd
+在本 PyTorch 教程系列中，我们将深入探讨图表、自动微分和 Autograd 引擎的核心概念，这些概念对于深度学习至关重要。PyTorch 是一个领先的深度学习 Python 库，越来越多地被研究人员和公司采用。与典型的教程不同，我们从自动微分开始，这是所有深度学习库的一个基本方面，重点介绍了 PyTorch 的 Autograd 作为一个示例工具。我们探索计算图，这是一种简化梯度计算的数据结构，对于训练复杂的神经网络至关重要。本教程还介绍了 PyTorch 的张量，它利用 GPU 功能实现高效计算。一个独特之处是 requires_grad 属性的传染性，它通过操作传播，简化了梯度跟踪。本系列旨在让您掌握有效原型设计、扩展和调试深度学习模型的技能。（基于 54% 的故事文本的摘要。）]]></description>
+      <guid>https://t.me/hn_summary/117157</guid>
+      <pubDate>Tue, 19 Nov 2024 07:37:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] Qlty CLI 是一款多功能工具，专为工程团队执行静态分析而设计[...]</title>
+      <link>https://t.me/hn_summary/117156</link>
+      <description><![CDATA[显示 HN：Qlty CLI – 适用于 20 种编程语言的 Meta-linter 和自动格式化程序
+Qlty CLI 是一款多功能工具，专为工程团队设计，可使用单一高效平台对 20 种编程语言执行静态分析、自动格式化和安全扫描。得益于其 Git 感知功能，它通过专注于新问题简化了将 linting 集成到开发工作流程中的过程。它以 Rust 实现并由 Qlty Software 支持，根据 Fair Source 许可免费提供。主要功能包括 linting、自动格式化、安全扫描、复杂性指标和可维护性评估。Qlty CLI 通过提供全面的多语言解决方案来脱颖而出，该解决方案易于配置并集成到现有的 Git 存储库中。]]></description>
+      <guid>https://t.me/hn_summary/117156</guid>
+      <pubDate>Tue, 19 Nov 2024 06:46:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>[媒体] 推出单文件可观察笔记本捆绑器，这是一种旨在增强您的工具[...]</title>
+      <link>https://t.me/hn_summary/117155</link>
+      <description><![CDATA[显示 HN：单文件可观察笔记本捆绑器
+介绍单文件可观察笔记本捆绑器，该工具旨在增强您的数据可视化和应用程序开发体验。这款创新的捆绑器允许您使用实时 JavaScript 笔记本进行实验和原型设计，促进团队内部的协作，以决定进一步开发的关键概念。借助 Observable Framework，您可以本地构建数据应用程序，利用与各种语言和库（包括 Python、SQL 和 R）兼容的数据加载器。无缝部署到 Observable，再加上自动部署提交等功能，可确保您的项目始终是最新的，并在交付前经过彻底测试。此工具以独特的方式简化了开发流程，使其成为数据驱动团队的宝贵资产。]]></description>
+      <guid>https://t.me/hn_summary/117155</guid>
+      <pubDate>Tue, 19 Nov 2024 06:37:02 GMT</pubDate>
+    </item>
     <item>
       <title>[媒体] Iumenta：动物数字双胞胎的通用框架</title>
       <link>https://t.me/hn_summary/117154</link>
@@ -36,54 +84,6 @@ CATL发布第二代钠离子电池，计划于2025年上市，预计2027年实�
 在 SpaceX 位于德克萨斯州的工厂进行的一次富有洞察力的采访中，埃隆·马斯克分享了他的“5 步流程”工程，强调质疑和改进设计要求的重要性。他认为所有要求本质上都是有缺陷的，并强调需要严格删除不必要的部分或流程，确保每个要求都得到负责任的个人而不是部门的支持。马斯克警告不要优化不应该存在的元素，主张对系统进行整体理解。他建议仅在改进先前的步骤后才加快周期时间，并警告不要过早实现自动化。令人惊讶的是，马斯克强调，与设计相比，制造业被大大低估了，挑战了设计是最具挑战性的方面的普遍看法。对于那些优先考虑设计创新而不是制造效率的人来说，这种观点可能会引起争议。]]></description>
       <guid>https://t.me/hn_summary/117151</guid>
       <pubDate>Tue, 19 Nov 2024 05:59:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 以机箱、散热和电源解决方案闻名的 SilverStone 于 4 月迎来了 [...]</title>
-      <link>https://t.me/hn_summary/117150</link>
-      <description><![CDATA[复古米色 PC 机箱从愚人节玩笑变成零售
-SilverStone 以其机箱、散热和电源解决方案而闻名，即将推出其复古米色 FLP01 PC 机箱，将愚人节玩笑变成了现实。这款机箱最初在日本博览会上展出，其灵感来自日本流行的经典 NEC PC-9800 系列。FLP01 售价约为 130 美元，可兼作显示器支架，并配有仿制的 5.25 英寸软盘驱动器，巧妙地隐藏了光驱和前置 I/O 端口。尽管外观复古，但它可以容纳现代组件，包括全尺寸 ATX 主板和高端 GPU。机箱的设计将进行轻微的外观调整，以更好地体现其 NEC 灵感。这种怀旧致敬引起了人们的兴趣，尤其是科技爱好者，他们欣赏其复古美学与现代功能的融合。希望 SilverStone 能在日本市场以外提供这种独特的机壳。]]></description>
-      <guid>https://t.me/hn_summary/117150</guid>
-      <pubDate>Tue, 19 Nov 2024 05:55:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 新教科书《数据科学、机器学习和信号处理的线性代数》[...]</title>
-      <link>https://t.me/hn_summary/117149</link>
-      <description><![CDATA[新教科书向学生传授矩阵方法及其实际应用
-新教科书《数据科学、机器学习和信号处理的线性代数》由 ECE 教授 Jeffrey Fessler 和 Raj Nadakuditi 撰写，提供了一种引人入胜且实用的矩阵方法，弥合了本科学习与高级文献之间的差距。该书以密歇根大学的 ECE 551 课程为蓝本，将理论与实际应用相结合，例如来自多个传感器的数据分析、推荐系统和神经网络。它以 Julia 中的交互式在线演示和编码练习为特色，增强了学生的理解力。作者与刘忠明和密歇根大学校友等贡献者一起，旨在使线性代数变得易于理解和适用，并将部分版税用于支持 STEM 中的边缘群体。该教科书可通过剑桥大学出版社和亚马逊购买。其独特之处在于它注重应用驱动的学习，挑战了传统的理论优先方法。]]></description>
-      <guid>https://t.me/hn_summary/117149</guid>
-      <pubDate>Tue, 19 Nov 2024 05:46:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] “hyrumtoken”项目是一个 Go 包，旨在加密分页令牌、确保 [...]</title>
-      <link>https://t.me/hn_summary/117148</link>
-      <description><![CDATA[Hyrumtoken：用于加密分页令牌的 Go 包
-“hyrumtoken”项目是一个用于加密分页令牌的 Go 包，确保 API 客户端不能依赖令牌的内容、顺序或特征。此包解决了与 Hyrum 定律相关的问题，即用户依赖于 API 的可观察行为，这可能会导致意外的使用模式和对 API 演进的限制。通过使用 NaCL 的 secretbox 和随机随机数加密分页令牌，hyrumtoken 强制执行令牌不透明度，防止用户创建或解析令牌来导航数据。这种方法通过提供强大的解决方案来保持 API 灵活性并防止滥用，从而使 hyrumtoken 与其他方法区分开来。此外，该软件包还支持过期令牌和密钥轮换等高级功能，以增强安全性和适应性。]]></description>
-      <guid>https://t.me/hn_summary/117148</guid>
-      <pubDate>Tue, 19 Nov 2024 03:51:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 问 HN：有人使用 Retool 来制作面向用户的应用程序吗？</title>
-      <link>https://t.me/hn_summary/117147</link>
-      <description><![CDATA[问 HN：有人使用 Retool 开发面向用户的生产应用程序吗？
-一位白手起家的创始人正在探索使用 Retool 开发 B2B 物流领域的 SaaS 产品的可行性。该产品需要具有成本效益、视觉吸引力和适应性，并具有面向客户的界面，需要个人或团队登录。虽然 Retool 看起来令人印象深刻，但它似乎主要用于内部应用程序。创始人寻求其他使用 Retool 开发面向用户的生产级应用程序的人的见解、经验和建议。潜在的争议在于 Retool 在面向客户的应用程序中的非常规使用，这可能与其典型用例不一致，从而引发了人们对其在这种情况下的适用性和有效性的质疑。]]></description>
-      <guid>https://t.me/hn_summary/117147</guid>
-      <pubDate>Tue, 19 Nov 2024 03:45:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] Sequin 是一个实用程序，旨在帮助用户调试命令行界面 (CLI) 和 [...]</title>
-      <link>https://t.me/hn_summary/117146</link>
-      <description><![CDATA[Sequin：用于检查 ANSI 转义序列的强大小工具
-Sequin 是一种实用程序，旨在通过检查和描述 ANSI 转义序列来帮助用户调试命令行界面 (CLI) 和基于文本的用户界面 (TUI)。它对于理解复杂的转义序列和探索 TUI 操作特别有用。Sequin 还可用于检查黄金文件（例如由 teatest 生成的文件），以分析 Bubble Tea 输出。一个突出的功能是它能够为原始 ANSI 序列提供语法突出显示，从而更容易区分序列和常规文本。Sequin 可在多个平台上使用，并支持各种 shell 的 shell 补全。该项目鼓励用户做出贡献和反馈。]]></description>
-      <guid>https://t.me/hn_summary/117146</guid>
-      <pubDate>Tue, 19 Nov 2024 03:41:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>[媒体] 一本名为《Aphex Twin：A Disco Pogo Tribute》的新书将于今年秋天出版，[...]</title>
-      <link>https://t.me/hn_summary/117145</link>
-      <description><![CDATA[有关 Aphex Twin 的新书将于今年秋季出版
-一本名为Aphex Twin：Disco Pogo Tribute的新书将于今年秋季出版，深入探究神秘的英国艺术家 Richard D. James（又名 Aphex Twin）。这本 250 页的书由Disco Pogo杂志编辑 Jim Butler 编撰，收录了独家采访、论文和图片，记录了 James 的职业生涯。值得注意的是，标志性 Aphex Twin 标志的设计师 Paul Nicholson 贡献了档案材料，而与 James 关系密切的唱片公司 Warp Records 和 Rephlex 也支持了该项目。继向 Daft Punk 致敬之后，这本书有望成为对 Aphex Twin 遗产的全面致敬。现在可以预订，正式发布时间为 2024 年 10 月 30 日。]]></description>
-      <guid>https://t.me/hn_summary/117145</guid>
-      <pubDate>Tue, 19 Nov 2024 03:29:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
