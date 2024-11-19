@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 19 Nov 2024 01:13:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 03:29:26 GMT</lastBuildDate>
+    <item>
+      <title>共享主机，服务器上其他网站的部分流量被导向我的网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1gum04t/shared_hosting_some_traffic_to_other_sites_on_the/</link>
+      <description><![CDATA[所以最近我注意到我的日志中出现了一些奇怪的 404 错误，这不是机器人扫描到的那种错误，而是对看起来像合法博客类型文章的请求（我的网站上没有类似的东西）。今天我在 Google Search Console 中看到一些关于规范 URL 的内容，其中提到一个我从未听说过的域名的 URL 是我的某个页面的重复。  跳到最后，似乎我的共享主机搞砸了某种配置，现在对托管在同一服务器上的其他站点的某些子域的 https 请求被定向到我的站点。我不知道它的全部范围，但我至少看到了 10-15 个。许多看起来像“垃圾” （例如 ftp.domain.com，可能没有人尝试通过 https 访问）但有些看起来是合法的（例如 portal.othersite.com 和回溯机器显示它之前有“真实”内容）。我看到来自门户网站的请求看起来与上传尝试有关。一个有一个 .us 域名转发给它（一个 .org），然后转发给我。 这似乎是主机方面的一个严重错误配置，因为他们让我处于一个可以从我自己的网站“伪造”目标网站并拦截东西的位置（当然，https 抱怨证书上的名称与 URL 不匹配）。我知道人们会犯错误，但这是否像看起来那样是一个重大失误？或者这只是偶尔发生的事情之一？ 这是一个相对较小的主机，我猜这里没人真正听说过他们，但我相信有 150 多个网站共享此服务器/IP（所以这不是夫妻店的事情）。    提交人    /u/akkruse   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1gum04t/shared_hosting_some_traffic_to_other_sites_on_the/</guid>
+      <pubDate>Tue, 19 Nov 2024 01:53:01 GMT</pubDate>
+    </item>
     <item>
       <title>如何正确学习CSS移动优先？</title>
       <link>https://www.reddit.com/r/webdev/comments/1gujrjg/how_to_learn_css_mobilefirst_properly/</link>
@@ -71,7 +78,7 @@
     <item>
       <title>我的老板想转到 Shopify...我们应该吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1gue0hw/my_boss_wants_to_move_to_shopifyshould_we/</link>
-      <description><![CDATA[我们使用 React、AWS、MySQL 等创建了一个自定义商业商店。如果公司发展顺利，我会为未来的规模做准备，我避免使用 Shopify 等现成的 SaaS 解决方案。我们的商店有很多正常的电子商务产品，我相信 Shopify 可以做到，甚至可能做得更好。但我们还有一个自定义管理工具和一个像 EBay 这样的拍卖系统，我们在其中进行物品拍卖和竞标等。 我基本上没有使用 Shopify 的经验，现在我们正在招募新人来帮助网站，每个人都说要使用 Shopify，等等。基本上，他们可以修改网站内容和布局，而无需开发人员参与。 鉴于我们构建的以下列表，Shopify 端口是好主意还是坏主意？ - 使用不同竞价系统的拍卖 - 中奖、竞标等时的短信提醒 - 品牌的单独店面（我们经营一个市场） - 不同实体之间的定制付款分割（我们有慈善机构、捐赠者、品牌等，所有付款分割都不同） - 闪购 - 与 SPS Commerce 的 EDI 集成 - 与第三方履行中心的 API 集成 - 直接发货（我们的品牌和客户从我们的市场上销售商品直接发货）    提交人    /u/peelman1978   [链接] [评论]]]></description>
+      <description><![CDATA[我们使用 React、AWS、MySQL 等创建了一个自定义商业商店。如果公司发展顺利，我会为未来的规模做准备，我避免使用 Shopify 等现成的 SaaS 解决方案。我们的商店有很多正常的电子商务产品，我相信 Shopify 可以做到，甚至可能做得更好。但我们还有一个自定义管理工具和一个像 EBay 这样的拍卖系统，我们在其中进行物品拍卖和竞价等。 我基本上没有使用 Shopify 的经验，现在我们正在招募新人来帮助网站，每个人都说要使用 Shopify，等等。基本上，他们可以修改网站内容和布局，而无需开发人员参与。 鉴于我们构建的以下列表，Shopify 端口是好主意还是坏主意？ - 使用不同竞价系统的拍卖 - 中奖、竞标等时的短信提醒 - 品牌的单独店面（我们经营一个市场） - 不同实体之间的定制付款分割（我们有慈善机构、捐赠者、品牌等，所有付款分割都不同） - 闪购 - 与 SPS Commerce 的 EDI 集成 - 与第三方履行中心的 API 集成  - 直接发货（我们的品牌和客户从我们的市场上销售商品直接发货）    提交人    /u/peelman1978   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1gue0hw/my_boss_wants_to_move_to_shopifyshould_we/</guid>
       <pubDate>Mon, 18 Nov 2024 20:02:06 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好， 我是一名新开发人员，今年早些时候从编码训练营毕业。谢天谢地，大约 10 个月前，通过训练营中某人的推荐，我找到了一份工作。 自毕业以来，我一直在相当持续地申请其他工作。但是，除了拒绝之外，我没有收到任何回复。在开始目前的职位后，我放慢了申请速度，但我对未来感到担忧。 我担心没有学位可能会限制我在这个行业的成长或损害我找到另一份工作的机会。我很想听听你的想法和观点，尤其是那些经历过类似情况的人。 谢谢！ 编辑：我想事先道歉，我知道人们厌倦了训练营的人，但我只是在寻求不同的观点。感谢与我聊天的每个人！    提交人    /u/luckymeiseeghosts   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1guclio/employed_bootcamp_grad/</guid>
       <pubDate>Mon, 18 Nov 2024 19:04:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何处理摄影业务的付款和交付？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1guck54/how_to_handle_payments_and_deliverables_for_a/</link>
-      <description><![CDATA[大家好， 我希望获得一些关于提供摄影服务的最佳做法的建议，特别是针对宠物摄影业务。我的家人最近开始把摄影当作一种爱好，在实际摄影方面做得相当不错。问题在于业务/技术方面。 这是他目前的流程：  他在拍摄期间拍摄宠物的照片。 拍摄后，他选择最佳图像，编辑它们以提高质量，并加水印。 他将带水印的照片发送给客户进行审核。  问题是什么？他没有预先收取任何费用，客户在收到带水印的照片后经常会对他不理不睬。他怀疑他们可能会绕过水印或只是保持图像原样，让他的所有工作都得不到报酬。 我知道这种方法并不理想。我很乐意听听你们这些在这方面有经验的人的意见：  摄影业务中处理付款和交付的标准程序是什么？ 如果通过 WordPress 网站进行管理，您会推荐哪些工具、插件或工作流程？ 您将如何构建此流程以确保预付款或保证客户在收到编辑好的照片之前做出承诺？  如果您能分享任何技巧或资源来帮助他过渡到更专业、更可持续的流程，我将不胜感激。提前感谢您的意见！    提交人    /u/ProspectBleak   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1guck54/how_to_handle_payments_and_deliverables_for_a/</guid>
-      <pubDate>Mon, 18 Nov 2024 19:02:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
