@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 22 Nov 2024 18:23:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2024 21:16:22 GMT</lastBuildDate>
+    <item>
+      <title>预提交——即时 AI 代码审查您的拉取请求</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gxi3xp/presubmit_instant_ai_code_reviews_for_your_pull/</link>
+      <description><![CDATA[      嗨，开源， 今年我审查了 1000 多个代码更改。大部分时间都花在了发现明显的错误上，而不是讨论复杂的设计决策。估计每次审查大约需要 10 分钟，一年内审查代码就需要 160 多个小时。 所以我想：我可以使用 LLM 节省一些时间吗？ 这就是为什么我花了几个周末的时间构建 Presubmit，这是一个开源 AI 审阅器，当您打开 Pull 请求时，它会作为 Github Action 运行。到目前为止，结果令人鼓舞：我估计它可以将审阅时间缩短 50%，对我来说，这意味着我每年可以节省 80 小时（约 10 个工作日）。 与类似的 SaaS 解决方案不同，我们的目标不是取代人工审阅者，而是尽早发现明显的错误，发现安全漏洞并提供有关更改的更多背景信息。我喜欢把它想象成一个“预审员”。 它的一些功能包括：• 逐行注释 • PR 摘要 • 根据要求生成标题 • 回复审核评论 它支持所有主要的 LLM，但在我看来，Anthropic 的 Claude 最适合这种用例。 请尝试一下，期待任何反馈或贡献！这可能是第一个真正的开源项目😅 https://github.com/presubmit/ai-reviewer    提交人    /u/Lucky_Swim_178   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gxi3xp/presubmit_instant_ai_code_reviews_for_your_pull/</guid>
+      <pubDate>Fri, 22 Nov 2024 20:54:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>我可以在哪里找到可以贡献的新开源项目？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gxhbsz/where_can_i_find_new_opensource_projects_to/</link>
+      <description><![CDATA[作为一名不太专注于为开源项目做出贡献的开发人员，我在哪里可以找到准备启动但需要开发人员组建完整团队的项目？ 我认为对于准备加入此类“行业”的开发人员来说，这是正确的讨论主题。    提交人    /u/KoalNix   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gxhbsz/where_can_i_find_new_opensource_projects_to/</guid>
+      <pubDate>Fri, 22 Nov 2024 20:20:29 GMT</pubDate>
+    </item>
     <item>
       <title>在框架之上还是从头开始构建开源项目？</title>
       <link>https://www.reddit.com/r/opensource/comments/1gxbzbc/building_opensource_project_on_top_of_a_framework/</link>
@@ -64,7 +78,7 @@
     <item>
       <title>带有开放 API 软件的 GPS 硬件</title>
       <link>https://www.reddit.com/r/opensource/comments/1gws7ms/gps_hardware_with_open_api_software/</link>
-      <description><![CDATA[正在寻找开源的 airtag 复制品，有人知道好的吗？    提交人    /u/LongevityFutureMe   [链接] [评论]]]></description>
+      <description><![CDATA[正在寻找开源的 airtag 复制品，有人知道好的吗？    由   提交  /u/LongevityFutureMe   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gws7ms/gps_hardware_with_open_api_software/</guid>
       <pubDate>Thu, 21 Nov 2024 22:26:53 GMT</pubDate>
     </item>
@@ -78,7 +92,7 @@
     <item>
       <title>商业硬件中的开源许可证</title>
       <link>https://www.reddit.com/r/opensource/comments/1gwpgsj/open_source_license_in_commercial_hardware/</link>
-      <description><![CDATA[嗨，我很难理解一件事： 我正在使用一款采用 GPL V3 许可证的软件。我计划将我开发的所有软件都置于同一许可证之下。但我计划开发自己的硬件（PCB、外壳等），并销售产品及其安装。因此，从技术上讲，我是将该软件用于商业用途。不是吗？我这样做是否违反了许可证条款？换句话说，软件许可证是否会转移到最终产品的非软件方面？    提交人    /u/Wild-Carry-9253   [链接] [评论]]]></description>
+      <description><![CDATA[嗨，我很难理解一些事情： 我正在使用具有 GPL V3 许可证的软件。我计划将我开发的所有软件保留在同一许可证下。但我计划开发自己的硬件（PCB、外壳等），并销售产品及其安装。因此，从技术上讲，我是将该软件用于商业用途。不是吗？我这样做是否违反了许可条款？换句话说，软件许可证是否会转移到最终产品的非软件方面？    提交人    /u/Wild-Carry-9253   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gwpgsj/open_source_license_in_commercial_hardware/</guid>
       <pubDate>Thu, 21 Nov 2024 20:30:38 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[如果有人购买一家公司的资产，并且该资产包括 GPL 许可软件，您认为这应该触发 GPL 2.0 许可证的分发条款吗？    提交人    /u/newz2000   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gwlwn7/should_this_trigger_the_distribution_clause_of/</guid>
       <pubDate>Thu, 21 Nov 2024 18:08:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于图像生成、音效生成和语音生成的最佳本地运行人工智能软件？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gwlin8/best_locally_running_ai_softwares_for_image/</link>
-      <description><![CDATA[  由    /u/Agreeable_Middle_711  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gwlin8/best_locally_running_ai_softwares_for_image/</guid>
-      <pubDate>Thu, 21 Nov 2024 17:53:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人正试图劫持 OpenSign 项目🚨</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gwgpvj/someone_is_attempting_to_hijack_the_opensign/</link>
-      <description><![CDATA[大家好， 我是 OpenSign 的联合创始人，OpenSign 是 DocuSign 的一个开源替代方案。我想与大家分享我们项目中正在发生的令人担忧的情况。 最近，有人分叉了 OpenSign，并积极尝试取消所有付费计划限制，用他们自己的徽标替换我们项目的徽标。为了让事情变得更加复杂，他们甚至提出了这些更改的拉取请求。虽然在 AGPLv3 许可下技术上允许，但这感觉像是一个道德灰色地带。 可选的付费计划是 OpenSign 如何在免费提供核心功能的同时维持自身的关键部分。这次分叉直接危及我们资助开发和进一步发展项目的能力。 开源是关于协作和透明的，但这更像是剥削。这难道只是“开源的代价”吗？是否应该有一些不成文的道德/伦理规则或指导方针来防止分叉损害母项目的可持续性？ 我很想听听你对此的看法，特别是如果你在自己的项目中遇到过类似的情况。最好的回应方式是什么？    提交人    /u/andrew-opensign   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gwgpvj/someone_is_attempting_to_hijack_the_opensign/</guid>
-      <pubDate>Thu, 21 Nov 2024 13:50:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
