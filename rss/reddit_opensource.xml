@@ -4,13 +4,27 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 22 Nov 2024 21:16:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 Nov 2024 01:12:03 GMT</lastBuildDate>
     <item>
-      <title>预提交——即时 AI 代码审查您的拉取请求</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gxi3xp/presubmit_instant_ai_code_reviews_for_your_pull/</link>
-      <description><![CDATA[      嗨，开源， 今年我审查了 1000 多个代码更改。大部分时间都花在了发现明显的错误上，而不是讨论复杂的设计决策。估计每次审查大约需要 10 分钟，一年内审查代码就需要 160 多个小时。 所以我想：我可以使用 LLM 节省一些时间吗？ 这就是为什么我花了几个周末的时间构建 Presubmit，这是一个开源 AI 审阅器，当您打开 Pull 请求时，它会作为 Github Action 运行。到目前为止，结果令人鼓舞：我估计它可以将审阅时间缩短 50%，对我来说，这意味着我每年可以节省 80 小时（约 10 个工作日）。 与类似的 SaaS 解决方案不同，我们的目标不是取代人工审阅者，而是尽早发现明显的错误，发现安全漏洞并提供有关更改的更多背景信息。我喜欢把它想象成一个“预审员”。 它的一些功能包括：• 逐行注释 • PR 摘要 • 根据要求生成标题 • 回复审核评论 它支持所有主要的 LLM，但在我看来，Anthropic 的 Claude 最适合这种用例。 请尝试一下，期待任何反馈或贡献！这可能是第一个真正的开源项目😅 https://github.com/presubmit/ai-reviewer    提交人    /u/Lucky_Swim_178   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gxi3xp/presubmit_instant_ai_code_reviews_for_your_pull/</guid>
-      <pubDate>Fri, 22 Nov 2024 20:54:24 GMT</pubDate>
+      <title>使用 AI 为 Python 项目生成自述文件</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gxloq9/readme_document_generator_for_python_projects/</link>
+      <description><![CDATA[大家好， 我创建了一个实用程序，用于自动化 Python 项目的文档编制过程。我到处都有很多脚本，因此需要一种方法来自动化 README.md 生成和项目/脚本理解。 它执行目录级分析，识别主要脚本，计算标记以进行成本估算，提取依赖项，并生成结构化的 README 文件。它还可以提取和创建 `requirements.txt` 文件。 此工具旨在提高 Python 软件文档编制的一致性和效率。  需要更多工作，因此欢迎反馈和贡献！ https://github.com/mrks111/code-readme-generator    提交人    /u/psmrk   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gxloq9/readme_document_generator_for_python_projects/</guid>
+      <pubDate>Fri, 22 Nov 2024 23:34:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找基于网络的排行榜</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gxkvtx/looking_for_web_based_leaderboard/</link>
+      <description><![CDATA[大家好 正在寻找一个基于 Web 的（最好是自托管）程序来托管销售排行榜。这是为销售竞赛准备的。希望参与者能够增加销售额并让其显示在排行榜上。 我尝试过的： Knack：用户无法使用 knack 删除记录，所以我没有选择他们。除非您额外付费，否则没有使用自定义域的选项。没有自托管选项。 LeaderboardHQ：无法跟踪销售金额，用户很难添加数据。 欢迎任何和所有建议 - 首选开源/免费/免费增值，但也愿意为程序付费。 提前谢谢您    提交人    /u/caliinsuranceguy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gxkvtx/looking_for_web_based_leaderboard/</guid>
+      <pubDate>Fri, 22 Nov 2024 22:59:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>vueframe V2 就在这里！！！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1gxkd7y/vueframe_v2_is_here/</link>
+      <description><![CDATA[大家好，我正式发布了 vueframe V2 版，它从头开始完全重建，性能大幅提升，并配备了全新的吉祥物。 https://github.com/vueframe/vueframe 一颗星就太棒了 + 我希望得到你的反馈 :)    提交人    /u/Medical_Start4604   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1gxkd7y/vueframe_v2_is_here/</guid>
+      <pubDate>Fri, 22 Nov 2024 22:35:21 GMT</pubDate>
     </item>
     <item>
       <title>我可以在哪里找到可以贡献的新开源项目？</title>
@@ -78,7 +92,7 @@
     <item>
       <title>带有开放 API 软件的 GPS 硬件</title>
       <link>https://www.reddit.com/r/opensource/comments/1gws7ms/gps_hardware_with_open_api_software/</link>
-      <description><![CDATA[正在寻找开源的 airtag 复制品，有人知道好的吗？    由   提交  /u/LongevityFutureMe   [链接] [评论]]]></description>
+      <description><![CDATA[正在寻找开源的 airtag 复制品，有人知道好的吗？    提交人    /u/LongevityFutureMe   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gws7ms/gps_hardware_with_open_api_software/</guid>
       <pubDate>Thu, 21 Nov 2024 22:26:53 GMT</pubDate>
     </item>
@@ -92,23 +106,9 @@
     <item>
       <title>商业硬件中的开源许可证</title>
       <link>https://www.reddit.com/r/opensource/comments/1gwpgsj/open_source_license_in_commercial_hardware/</link>
-      <description><![CDATA[嗨，我很难理解一些事情： 我正在使用具有 GPL V3 许可证的软件。我计划将我开发的所有软件保留在同一许可证下。但我计划开发自己的硬件（PCB、外壳等），并销售产品及其安装。因此，从技术上讲，我是将该软件用于商业用途。不是吗？我这样做是否违反了许可条款？换句话说，软件许可证是否会转移到最终产品的非软件方面？    提交人    /u/Wild-Carry-9253   [链接] [评论]]]></description>
+      <description><![CDATA[嗨，我很难理解一件事： 我正在使用一款采用 GPL V3 许可证的软件。我计划将我开发的所有软件都置于同一许可证之下。但我计划开发自己的硬件（PCB、外壳等），并销售产品及其安装。因此，从技术上讲，我是将该软件用于商业用途。不是吗？我这样做是否违反了许可证条款？换句话说，软件许可证是否会转移到最终产品的非软件方面？    提交人    /u/Wild-Carry-9253   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1gwpgsj/open_source_license_in_commercial_hardware/</guid>
       <pubDate>Thu, 21 Nov 2024 20:30:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么开源开发者使用 Discord 来解决问题和提供支持？我认为这并不理想，因为有价值的问题和答案很难通过 Google 等搜索引擎找到。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gwmdr9/why_do_open_source_developers_use_discord_for/</link>
-      <description><![CDATA[  由    /u/Kurdipeshmarga  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gwmdr9/why_do_open_source_developers_use_discord_for/</guid>
-      <pubDate>Thu, 21 Nov 2024 18:26:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是否应该触发 GPL 的分发条款？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1gwlwn7/should_this_trigger_the_distribution_clause_of/</link>
-      <description><![CDATA[如果有人购买一家公司的资产，并且该资产包括 GPL 许可软件，您认为这应该触发 GPL 2.0 许可证的分发条款吗？    提交人    /u/newz2000   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1gwlwn7/should_this_trigger_the_distribution_clause_of/</guid>
-      <pubDate>Thu, 21 Nov 2024 18:08:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
