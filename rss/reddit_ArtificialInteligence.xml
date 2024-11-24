@@ -4,7 +4,21 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供门户，并促进有关我们所知的人工智能理念和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、在哪里可以找到资源和工具、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Sun, 24 Nov 2024 01:17:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 03:31:35 GMT</lastBuildDate>
+    <item>
+      <title>学士学位</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gyh1lk/bachelors_degree/</link>
+      <description><![CDATA[大家好！ 我现在正处于学习的间歇期。我尝试过 AI，但 6 个月后就退学了。我想回去，但我听说现在的技术就业市场相当艰难。我应该避免学习计算机科学或人工智能吗？    提交人    /u/Ellihb   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1gyh1lk/bachelors_degree/</guid>
+      <pubDate>Sun, 24 Nov 2024 02:53:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>智力的强度是否存在类似于声音和光速传输极限的极限？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gyg3g3/could_there_be_a_limit_to_the_strength_of/</link>
+      <description><![CDATA[雷·库兹韦尔 (Ray Kurzweil) 在其优秀著作《奇点临近》中指出，人工智能最终将比人类智能十亿倍。 尽管这一前景确实令人惊叹，我当然会对此表示欢迎，但最近我开始怀疑智能是否有极限，就像声音和光速有极限一样。 例如，理解 2+2+2=6 表示一定程度的智能，而理解 2x3=6 似乎表示更高水平的智能，但相对于算术计算，可能没有更高的水平。 可能我们已经比自己意识到的更接近智能极限，一旦达到极限，科学和医学就可以解决任何理论上可解的问题。 有什么想法？    提交人    /u/Georgeo57   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1gyg3g3/could_there_be_a_limit_to_the_strength_of/</guid>
+      <pubDate>Sun, 24 Nov 2024 02:01:53 GMT</pubDate>
+    </item>
     <item>
       <title>以下是人工智能领域的新闻动态。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gyf210/heres_whats_making_news_in_ai/</link>
@@ -48,20 +62,6 @@
       <pubDate>Sat, 23 Nov 2024 20:22:11 GMT</pubDate>
     </item>
     <item>
-      <title>Marco-o1：将大型推理模型扩展到开放式问题解决</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gy8uft/marcoo1_extending_large_reasoning_models_to/</link>
-      <description><![CDATA[本文介绍了一种使用蒙特卡洛树搜索 (MCTS) 结合大型语言模型来探索复杂问题的多种解决路径的推理模型。关键创新在于使用 MCTS 系统地规划和评估不同的推理方法，而不是仓促得出单一答案。 主要技术要点： - MCTS 用于构建潜在推理步骤和解决方案的树 - 树中的每个节点代表一个推理状态，分支代表可能的后续步骤 - 该模型包含一个价值函数来评估有希望的路径 - 实现“战略撤退” - 当推理路径似乎没有成效时能够回溯 - 使用强化学习来优化探索与利用 基准测试结果： - 在 GSM8K 数学问题上的表现比基线 LLM 高出 12% - 在思路链推理任务上达到 78% 的准确率 - 每个问题平均产生 3.2 个有效的不同解决方案 - 问题分解准确率提高 15% 我认为这种方法对于需要 AI 系统展示其工作并探索多种可能解决方案的应用程序非常有价值 - 例如自动数学辅导或科学研究协助。回溯和尝试不同方法的能力以一种有趣的方式反映了人类的推理。 我还认为战略撤退能力特别值得注意 - 这种关于推理是否有成效的元认知可能有助于使 AI 系统更加健壮。 然而，MCTS 的计算开销很大，这可能会限制实际应用。尽管结果令人鼓舞，但这与人类水平的推理能力之间仍然存在明显差距。 TLDR：新模型将 MCTS 与 LLM 相结合，系统地探索多种推理路径和解决方案，在数学和推理任务上表现出色，但计算成本很高。 完整摘要在这里。论文这里。    提交人    /u/Successful-Western27   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1gy8uft/marcoo1_extending_large_reasoning_models_to/</guid>
-      <pubDate>Sat, 23 Nov 2024 20:21:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找从二维图片推断素数的例子</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gy8q8a/looking_for_examples_making_inference_of_prime/</link>
-      <description><![CDATA[您好，我正在寻找使用不同类型的图像处理对素数的 2D 图片进行推断的结果。您知道其中一些吗？ 谢谢！    提交人    /u/Outrageous-Pepper-50   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1gy8q8a/looking_for_examples_making_inference_of_prime/</guid>
-      <pubDate>Sat, 23 Nov 2024 20:15:49 GMT</pubDate>
-    </item>
-    <item>
       <title>与 Chatgpt/Claude 相比，哪些 AI 工具在各自的领域中遥遥领先？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gy7ph4/what_ai_tools_are_far_ahead_in_their_respective/</link>
       <description><![CDATA[为特殊有限目的而训练的 AI 工具比最流行的 LLM 更先进。 您知道有哪些类似的 AI 工具可用？ 例如：thispersondoesnotexist.com (1024×1024) 用于逼真的面部图片，或 Flux 用于一般图片。两者都可以如此逼真，人们无法将它们与真实照片区分开来。    提交人    /u/Beautiful_Exam1234   [链接] [评论]]]></description>
@@ -99,7 +99,7 @@
     <item>
       <title>每周自我推销贴</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1gwi8vr/weekly_self_promotion_post/</link>
-      <description><![CDATA[如果您有产品要推广，可以在这里进行推广，本帖之外的内容将被删除。  不得引用链接或带有 utms 的链接，请遵守我们的推广规则。    提交人    /u/AutoModerator   [链接] [评论]]]></description>
+      <description><![CDATA[如果您有产品要推广，可以在这里进行推广，本帖之外的内容将被删除。  禁止引用链接或带有 utms 的链接，请遵守我们的推广规则。    提交人    /u/AutoModerator   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1gwi8vr/weekly_self_promotion_post/</guid>
       <pubDate>Thu, 21 Nov 2024 15:03:10 GMT</pubDate>
     </item>
