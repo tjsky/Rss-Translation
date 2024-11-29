@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 29 Nov 2024 06:23:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2024 09:18:12 GMT</lastBuildDate>
+    <item>
+      <title>Emailbackup 黑色星期五特惠 60% 折扣</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h2htot/emailbackup_60_off_black_friday_deal/</link>
+      <description><![CDATA[  由    /u/risharde  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h2htot/emailbackup_60_off_black_friday_deal/</guid>
+      <pubDate>Fri, 29 Nov 2024 09:06:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>您是否及时了解计算机科学问题？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h2hpos/do_you_keep_yourself_updated_on_computer_science/</link>
+      <description><![CDATA[我很好奇的是，也许我们大多数人都接受过工程教育，学习过某些基础科学。我们学习电学，学习计算机的工作原理，但后来我们决定成为一名 Web 开发人员，但我们学到的大部分知识在该领域都没有用到或不需要（是吗？）您是否及时了解这些问题？您是否需要您在大学学到的信息？或者您学到的这些信息是否会在您的职业中发挥推动作用？如果是这样，那么如何？当我进行 Web 开发时，我不希望我在学校学到的知识和工程技能被浪费或遗忘（至少是重点）。我如何确保这一点？    提交人    /u/Ced3j   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h2hpos/do_you_keep_yourself_updated_on_computer_science/</guid>
+      <pubDate>Fri, 29 Nov 2024 08:58:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>当今 CSS：你可能不知道的强大功能</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h2hiv7/css_today_powerful_features_you_might_not_know/</link>
+      <description><![CDATA[       由    /u/jtimo  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h2hiv7/css_today_powerful_features_you_might_not_know/</guid>
+      <pubDate>Fri, 29 Nov 2024 08:44:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vite/React 用于构建 Chrom 扩展？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h2h7pv/vitereact_for_building_chrom_extensions/</link>
+      <description><![CDATA[大家好！ 我刚开始开发 chrome 扩展程序，最近几天看了很多教程。教程中几乎每个人都在使用 Vanilla JS、HTML 和 CSS。React 的工作流程非常粗糙，让人有点不满意。 所以我的问题是，使用 Vite + React 开发 chrome 扩展程序是否可行，甚至是否流行？ 提前谢谢 :)     提交人    /u/Floloppi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h2h7pv/vitereact_for_building_chrom_extensions/</guid>
+      <pubDate>Fri, 29 Nov 2024 08:22:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>我应该使用人工智能来打造产品吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h2h5ad/should_i_use_ai_to_build_products/</link>
+      <description><![CDATA[所以基本上现在许多人工智能聊天机器人都能够根据您的指示为您提供整个代码库，当然您仍然需要了解所涉及的任何技术的基础知识和概念，我的问题是如果您可以完善预制产品，您是否仍然需要自己编码？  这不是一个主观的声明，我正在寻求您的意见？ 谢谢    提交人    /u/voormath   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h2h5ad/should_i_use_ai_to_build_products/</guid>
+      <pubDate>Fri, 29 Nov 2024 08:17:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要帮助提高具有动态数据源的应用程序的可扩展性</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h2fln9/need_help_with_scalability_of_app_with_dynamic/</link>
+      <description><![CDATA[我正在构建一个生产仪表板，其中每个部分（例如条形图）都需要从动态源（如 SQL、API 和 IoT 设备）获取数据。这些来源在配置文件中指定，并且它们会随时间而变化。我需要应用程序以最少的维护来处理这些变化。 这是我当前的方法：我将数量/时间条形图分成两个部分：数量和时间。每个组件都与不同数据源（SQL、API、IoT）的自己的插件绑定。这导致仅更新单个条形图就需要六个以上的插件，因为数据更新通常需要混合和匹配不同的数据源（例如 SQL + IoT 或 API + SQL），我需要创建其他插件来处理新的数据源组合 随着插件数量的增加，维护变得越来越困难。我如何改进这种方法，使系统更具可扩展性和更易于管理，同时仍然允许灵活地更改和混合来自每个组件的配置文件的数据源？ 提前致谢！    提交人    /u/Flimsy_Ninja_6125   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h2fln9/need_help_with_scalability_of_app_with_dynamic/</guid>
+      <pubDate>Fri, 29 Nov 2024 06:28:53 GMT</pubDate>
+    </item>
     <item>
       <title>AI 编码工具很流行，但它们的文档总是过时。您如何处理这个问题？</title>
       <link>https://www.reddit.com/r/webdev/comments/1h2f0ae/ai_coding_tools_are_coom_but_their_documentation/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[我一直对其他开发人员如何处理他们的作品集很感兴趣。 欢迎在评论中放置您作品集的链接。它不必完美无缺 - 正在进行的工作也欢迎！ 我还将对此处分享的作品集提供反馈。开始建立您的在线形象。    提交人    /u/yeahimjtt   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1h28at8/share_your_portfolios/</guid>
       <pubDate>Thu, 28 Nov 2024 23:16:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要非常快速地学习使用 Silverstripe - 感谢任何帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h2889b/need_to_very_quickly_learn_to_use_silverstripe/</link>
-      <description><![CDATA[Kia ora 我将于周一开始一份短期编辑工作，我刚刚收到合同。他们似乎希望我知道如何使用 Silverstripe。我查看了网站和操作指南，但乍一看，我只能找到开发方面的东西。我只是一个普通用户——我当了 13 年的编辑，并且拥有相当不错的 Microsoft 套件技能，但我从未参与过“将内容放到网上”部门。  如果有人能为我指明正确的方向或正确的 subreddit，那就太好了。提前感谢你的帮助！    提交人    /u/quixotrice   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h2889b/need_to_very_quickly_learn_to_use_silverstripe/</guid>
-      <pubDate>Thu, 28 Nov 2024 23:12:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>在规划未来的微服务时，从整体开始的最佳方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h27xw3/best_way_to_start_with_a_monolith_while_planning/</link>
-      <description><![CDATA[大家好， 我计划以单体架构启动我的项目，但想确保将来向微服务的过渡是可管理的。 我应该考虑哪些最佳实践、设计模式或工具来确保以支持平稳过渡的方式构建单体架构？ 我很感激那些采用这种方法的人的任何见解或建议。 谢谢！    提交人    /u/Aymsep   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h27xw3/best_way_to_start_with_a_monolith_while_planning/</guid>
-      <pubDate>Thu, 28 Nov 2024 22:57:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>在规划未来的微服务时，从整体开始的最佳方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h27r8w/best_way_to_start_with_a_monolith_while_planning/</link>
-      <description><![CDATA[大家好， 我计划以单体架构启动我的项目，但想确保将来向微服务的过渡是可管理的。 我应该考虑哪些最佳实践、设计模式或工具来确保以支持平稳过渡的方式构建单体架构？ 我很感激那些采用这种方法的人的任何见解或建议。 谢谢！    提交人    /u/Aymsep   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h27r8w/best_way_to_start_with_a_monolith_while_planning/</guid>
-      <pubDate>Thu, 28 Nov 2024 22:47:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于浏览器的可重用库和框架解决方案？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h2714j/a_browserbased_solution_for_reusable_libraries/</link>
-      <description><![CDATA[嘿，我不是专家，但我想我偶然发现了一个天才的想法： 如果浏览器提供将常用的库和框架（如 Tailwind CSS）存储在本地，而不是为每个网站重复下载它们，会怎么样？ 想法如下：  浏览器可以缓存可重复使用的库，尤其是 CSS 框架或 JavaScript 库等流行的库。 如果网站使用已修改或自定义的类，浏览器可以检测到这一点并确保它们不会被覆盖。（Web 开发人员应在标头或其他内容中通知浏览器不要覆盖） 对于 JavaScript，库的核心功能可以存储在浏览器中，而任何其他自定义代码都会像往常一样捆绑并提供。 （再次强调，开发人员应该通知浏览器，并为此目的拆分他们的代码）  这可以节省大量带宽并提高加载速度，只需要对库进行少量更新，我相信这是 Web 开发速度的未来。 你怎么看？这可行吗？ 编辑：澄清。    提交人    /u/Salahkai   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h2714j/a_browserbased_solution_for_reusable_libraries/</guid>
-      <pubDate>Thu, 28 Nov 2024 22:10:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的 Github Actions CD/CI 流程是怎样的？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h26u56/what_is_your_github_actions_cdci_flow/</link>
-      <description><![CDATA[加入了一家新公司，我对他们的 github 操作发布流程不太适应。 它在这里：TaskBranch ----&gt; 代码审查 -------&gt; DevBranch -&gt; github 操作到 QA 环境 Manuel：------&gt; DevBranch -&gt; github 操作到 Prod 环境 如您所见。这里的问题是 Dev 是真相的来源，但在任何给定时间它都可能有大量尚未经过 QA 验证的项目/错误修复等。 因此，在发布到 Prod 时，您必须选择一个已由 QA 批准的 Dev PR……但该版本仍可能包含未经批准的项目。 真是一团糟。 它是在我来之前设置的。所以不管什么原因，它都会随着时间而流失。 由于成本原因，我认为设置另一个环境是不可能的。 您使用 github action 的流程是什么？我们这里有什么解决方案？    提交人    /u/VeniceBeachDean   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h26u56/what_is_your_github_actions_cdci_flow/</guid>
-      <pubDate>Thu, 28 Nov 2024 22:00:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Turbopack、Biome、Next.js、Express、Tailwind CSS 和 ShadCN 构建全栈 Monorepo</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h26o7l/building_a_fullstack_monorepo_with_turbopack/</link>
-      <description><![CDATA[大家好！ 我刚刚使用 Turbopack、Biome、Next.js、Express.js、Tailwind CSS 和 shadcn 更新了我的全栈 monorepo 入门模板！🚀 它将前端和后端结合在一个代码库中，使开发变得超级高效。如果您正在使用现代 Web 工具为下一个项目寻找一个坚实的起点，请随时查看！  GitHub 链接：https://github.com/ivesfurtado/next-express-biome-turborepo 分步教程：https://www.thehalftimecode.com/building-a-full-stack-monorepo-with-turbopack-biome-next-js-express-js-tailwind-css-and-shadcn/ 非常乐意听到您的想法，如果您有任何改进想法，请随时做出贡献！    由    /u/IvesFurtado  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h26o7l/building_a_fullstack_monorepo_with_turbopack/</guid>
-      <pubDate>Thu, 28 Nov 2024 21:52:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
