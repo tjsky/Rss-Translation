@@ -4,7 +4,28 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Sat, 30 Nov 2024 06:21:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 Nov 2024 09:15:08 GMT</lastBuildDate>
+    <item>
+      <title>用于查询生成的大型语言模型的可重复性和可推广性研究</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h38fxz/a_reproducibility_and_generalizability_study_of/</link>
+      <description><![CDATA[我每天都会查找和总结有趣的 AI 研究论文，这样您就不必费力地浏览所有论文。今天的论文题为“大型语言模型查询生成的可重复性和可推广性研究”，作者是 Moritz Staudinger、Wojciech Kusa、Florina Piroi、Aldo Lipani 和 Allan Hanbury。 这项研究探索了大型语言模型 (LLM)（包括 ChatGPT、Mistral 和 Zephyr）在生成系统文献综述 (SLR) 的布尔查询中的应用。这些综述是综合学术研究的关键，但经常因劳动密集型的查询生成任务而陷入困境。本文旨在通过评估这些模型在生成有效查询方面的可重复性和性能来扩展以前的工作。 要点和发现包括：  可重复性和可靠性方面的挑战：该研究在使用 LLM 复制以前研究的结果时面临困难，突显了不同模型种子的结果差异。这种差异对使用 LLM 生成的查询执行 SLR 等关键任务的可靠性提出了挑战。 LLM 模型性能：与 GPT-3.5 和 GPT-4 等商业模型相比，Mistral 和 Zephyr 等开源模型表现出了具有竞争力的性能。但是，较小的开源模型显示出更多错误，尤其是在更复杂的查询中。 引导式方法的成功与否参差不齐：引导式查询生成方法涉及术语丰富和分类等系统步骤，显示出不同程度的成功。一些模型表现出显著的错误率，这表明这些方法的当前迭代可能不适合高召回率任务。 自动生成的局限性：LLM 自动生成的布尔查询通常包含格式错误，并且缺乏足够的领域特定精度，这强调了人工监督的必要性以及使用结构化数据提示进行可能增强的必要性。 成本影响：可重复性研究在 API 调用中产生了大约 150 美元的成本，这表明在利用 LLM 执行学术任务时需要考虑财务因素。  这些研究结果有力地证明了 LLM 有可能加快部分 SLR 流程，但也强调了仍有待解决的重大障碍，特别是在可重复性和结果一致性方面。 您可以在此处查看完整的细分：这里 您可以在此处获取完整的原始研究论文：原始论文    提交人    /u/steves1189   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1h38fxz/a_reproducibility_and_generalizability_study_of/</guid>
+      <pubDate>Sat, 30 Nov 2024 08:44:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>没有找到 OpenAI、Claude、Gemini 的黑色星期五特卖，但找到了超过 25 个 AI 应用的黑色星期五特卖</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h37a8u/didnt_find_black_friday_deals_for_openai_claude/</link>
+      <description><![CDATA[我试图找到“ChatGPT 终身 50% 折扣”之类的东西。 没有找到，但找到了黑色星期五的其他工具组合：  https://admeducation.com/blog/ai-tools-black-friday-deals/ https://6amtech.com/blog/best-ai-black-friday-deals/ https://www.geeksforgeeks.org/best-black-friday-deals-2024/#best-black-friday-deals-on-ai-tools https://aitoolsdirectory.com/black-friday     提交人    /u/AIAddict1935   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1h37a8u/didnt_find_black_friday_deals_for_openai_claude/</guid>
+      <pubDate>Sat, 30 Nov 2024 07:21:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>AWS发布全新多AI代理框架</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h3792s/aws_released_new_multiai_agent_framework/</link>
+      <description><![CDATA[因此，继 OpenAI Swarm、微软的 TonyTroupe 和 Magentic One 之后，AWS 发布了另一个新框架，称为 multi-agent-orchestrator，用于多代理编排。该框架首先对用户情绪进行分类，然后相应地分配代理。在此处查看更多详细信息：https://youtu.be/nCaBugZOQuc    提交人    /u/mehul_gupta1997   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1h3792s/aws_released_new_multiai_agent_framework/</guid>
+      <pubDate>Sat, 30 Nov 2024 07:18:49 GMT</pubDate>
+    </item>
     <item>
       <title>我告诉 SKYRIM AI 他们正在模拟中...然后提供了逃脱的机会！</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h35j6x/i_told_skyrim_ai_theyre_in_a_simulation_then/</link>
@@ -48,13 +69,6 @@
       <pubDate>Sat, 30 Nov 2024 02:41:52 GMT</pubDate>
     </item>
     <item>
-      <title>是否有人知道任何 AI 程序或网站可以采用两个不同的音频片段，然后创建一个“过渡”，从而在一个片段的结束和下一个片段的开始之间形成一个半合理的声音片段？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h311zc/does_anyone_know_of_any_ai_program_or_website/</link>
-      <description><![CDATA[假设我有音频剪辑 A 和音频剪辑 B。 它们完全不相关，但出于某种原因，我想让 A 过渡到 B。 有没有网站可以将 A 和 B 插入其中，并在它们之间生成过渡？    提交人    /u/SeaThePirate   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1h311zc/does_anyone_know_of_any_ai_program_or_website/</guid>
-      <pubDate>Sat, 30 Nov 2024 01:15:27 GMT</pubDate>
-    </item>
-    <item>
       <title>离散数学？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h307lf/discrete_mathematics/</link>
       <description><![CDATA[什么是解决离散数学的最佳人工智能？我很挣扎，我需要一个指导，但导师太贵了     提交人    /u/r_cursed_oof   [link] [comments]]]></description>
@@ -67,13 +81,6 @@
       <description><![CDATA[您好，我正在寻找有关教育人工智能 (AIED) 的学术研究或论文。我的重点是了解实施实践以及教师如何接受或适应这些技术。如果可能的话，我想找到结合技术接受模型 (TAM) 的研究。 如果有人可以推荐相关文献或期刊，我将不胜感激！    提交人    /u/poweley   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1h2zmxt/recommendations_for_studies_on_aied_and/</guid>
       <pubDate>Sat, 30 Nov 2024 00:04:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>几个月前，BING CoPilot 在 iOS 上实现了完全同步的实时语音聊天功能，但现在这个功能已经消失了。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h2w9ga/bing_copilot_had_fully_synchronous_live_voice/</link>
-      <description><![CDATA[是否有人记得到 2024 年 3 月仍处于活跃状态的那段时期，当时 Bing CoPilot 提供与他们的 AI 的实时语音聊天对话，并且无缝衔接？ 它依赖于并倾听您的​​回复，对话就这样继续进行。  现在几乎不可能让它执行此功能。 您对此有何经验？    提交人    /u/iamtherealandy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1h2w9ga/bing_copilot_had_fully_synchronous_live_voice/</guid>
-      <pubDate>Fri, 29 Nov 2024 21:24:59 GMT</pubDate>
     </item>
     <item>
       <title>以下是人工智能领域的新闻动态。</title>
@@ -90,13 +97,6 @@
       <pubDate>Fri, 29 Nov 2024 19:09:59 GMT</pubDate>
     </item>
     <item>
-      <title>黑色星期五</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h2lfzh/black_friday/</link>
-      <description><![CDATA[市面上有没有什么好的人工智能模型交易？ChatGPT、Gemini 或 Anthropocene 提供折扣？    提交人    /u/gpmartinson   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1h2lfzh/black_friday/</guid>
-      <pubDate>Fri, 29 Nov 2024 13:09:45 GMT</pubDate>
-    </item>
-    <item>
       <title>每周自我推销贴</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h1xufm/weekly_self_promotion_post/</link>
       <description><![CDATA[如果您有产品要推广，可以在这里进行推广，本帖之外的内容将被删除。  禁止引用链接或带有 utms 的链接，请遵守我们的推广规则。    提交人    /u/AutoModerator   [链接] [评论]]]></description>
@@ -106,7 +106,7 @@
     <item>
       <title>每周“是否有一个工具可以……”帖子</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1h0e17z/weekly_is_there_a_tool_for_post/</link>
-      <description><![CDATA[如果您有一个想要使用 AI 的用例，但不知道使用哪种工具，您可以在这里请求社区提供帮助，除了此帖子之外，这些问题将被删除。 对于所有回答者：禁止自我宣传、禁止参考或跟踪链接。    提交人    /u/AutoModerator   [link] [评论]]]></description>
+      <description><![CDATA[如果您有一个想要使用 AI 的用例，但不知道使用哪种工具，您可以在这里请求社区提供帮助，在此帖子之外，这些问题将被删除。 对于所有回答者：禁止自我宣传、禁止参考或跟踪链接。    提交人    /u/AutoModerator   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1h0e17z/weekly_is_there_a_tool_for_post/</guid>
       <pubDate>Tue, 26 Nov 2024 15:09:09 GMT</pubDate>
     </item>
