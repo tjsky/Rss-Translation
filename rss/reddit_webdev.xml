@@ -3,8 +3,29 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 07 Dec 2024 01:16:14 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
+    <lastBuildDate>Sat, 07 Dec 2024 03:32:06 GMT</lastBuildDate>
+    <item>
+      <title>[Showoff Saturday] 这是一个有趣的挑战。仅使用 html、css 和 javascript。（瑞典语文本）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h8ji1q/showoff_saturday_this_was_a_fun_challenge_only/</link>
+      <description><![CDATA[  由    /u/wilwester  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h8ji1q/showoff_saturday_this_was_a_fun_challenge_only/</guid>
+      <pubDate>Sat, 07 Dec 2024 03:26:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 一个让你无缘无故付钱的网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h8hdwl/showoff_saturday_a_site_that_lets_you_pay_money/</link>
+      <description><![CDATA[  由    /u/xbrrx  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h8hdwl/showoff_saturday_a_site_that_lets_you_pay_money/</guid>
+      <pubDate>Sat, 07 Dec 2024 01:32:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么以及如何使用 React + DOM 制作 3D 地形渲染器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1h8h4y6/why_and_how_i_made_a_3d_terrain_renderer_with/</link>
+      <description><![CDATA[        由    /u/samanpwbb  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1h8h4y6/why_and_how_i_made_a_3d_terrain_renderer_with/</guid>
+      <pubDate>Sat, 07 Dec 2024 01:20:06 GMT</pubDate>
+    </item>
     <item>
       <title>我创建了一个免费网站，提供有关您的 Bluesky 🦋 个人资料的有趣见解</title>
       <link>https://www.reddit.com/r/webdev/comments/1h8gfok/i_made_a_free_website_for_interesting_insights_on/</link>
@@ -27,7 +48,7 @@
       <pubDate>Fri, 06 Dec 2024 22:11:14 GMT</pubDate>
     </item>
     <item>
-      <title>您能针对我的登陆页面给我一些反馈吗？</title>
+      <title>您能对我的登陆页面提供反馈吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1h8bxj0/can_you_please_give_me_feedback_for_my_landing/</link>
       <description><![CDATA[好奇有关我的新入职页面的任何评论。 我怎样才能使它变得更好或者你喜欢它什么？ 查看它 - 在几秒钟内看到你想象的任何东西 简短说明；这是一个只是为了好玩的 AI 艺术社区平台，它重视共同构建图像并且速度非常快 - 它几乎就像你在玩视频游戏一样，它不是基于订阅的，也不计划成为其他 gens 那样的工具。    提交人    /u/GenTube0   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1h8bxj0/can_you_please_give_me_feedback_for_my_landing/</guid>
@@ -69,7 +90,7 @@
       <pubDate>Fri, 06 Dec 2024 17:59:35 GMT</pubDate>
     </item>
     <item>
-      <title>如何验证我的 React 应用 API 是安全的？</title>
+      <title>如何验证我的 React 应用程序 API 是安全的？</title>
       <link>https://www.reddit.com/r/webdev/comments/1h8791w/how_can_i_verify_my_react_app_api_is_secured/</link>
       <description><![CDATA[我是一名初级 React 开发人员，正在从事个人项目，目的是学习并最终成为一名专业人士。我的 Web 应用程序使用后端服务器来处理 API 通信（我的 API 密钥放在 .env 文件中），前端将用户数据发送到后端。因为我是新手，我想知道如何验证没有人可以在代码中找到 API 密钥。我猜我会打开浏览器开发工具，转到选项卡并查看我构建的 React 应用程序的特定文件，然后尝试找到 API 密钥？有人有我可以遵循的具体步骤吗？ 编辑：阐明了我如何使用前端和后端    提交人    /u/CutMonster   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1h8791w/how_can_i_verify_my_react_app_api_is_secured/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[tldr：我有一个应用程序，它要求用户输入位置并将其存储在本地存储中，但它给我带来了问题。我正在寻找一篇文章或一些关于如何在 react/next 应用程序中处理用户位置的提示。 完整故事- 我计划在整个应用程序中使用位置，因此我计划使用上下文。一个问题是我是否应该在加载时询问位置，这意味着任何加载的页面都会询问用户位置，即使在不需要的页面上也是如此。为此，我可以在我的上下文中添加第二个函数，如 fetchLocation，并且在页面上需要位置，如果 !location fetchLocation。所以现在我需要检查每个页面位置是否需要？ 此外，有些人不喜欢分享位置。在某种程度上，我不想打扰他们，但我应该尝试处理这个问题，至少要优雅地处理它，而不是出现页面错误。我正在考虑使用 API 调用来尝试从 IP 地址获取某个位置，或者只是让人们选择他们想要使用的城市 此主页是一个使用位置的事件页面，也可以移动地图并获取纬度/经度，因此有一些逻辑可以更改事件位置。在那里的某个地方，我把事情搞混了，在初始加载时，地图试图加载而没有任何一个并且出现错误。如果前两个问题解决了，也许我就不会陷入这种情况。但我显然做了一些不合时宜的事情。例如，在隐身模式下测试时，页面失败，因为使用位置的请求仍然在屏幕上。     提交人    /u/mrdanmarks   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1h86m3z/working_with_users_location/</guid>
       <pubDate>Fri, 06 Dec 2024 17:25:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>嘿伙计们，我很乐意得到一些帮助，你们知道如何在屏幕角落重现这种弯曲效果吗？还有元素失真。任何提示都值得赞赏<3<3<3<3</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h86eei/hey_guys_i_would_love_to_have_some_help_on_this/</link>
-      <description><![CDATA[        提交人    /u/Sweet-Hurry-5782   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h86eei/hey_guys_i_would_love_to_have_some_help_on_this/</guid>
-      <pubDate>Fri, 06 Dec 2024 17:16:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮我为我的自由职业组合选择一个堆栈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h867zd/help_me_choose_a_stack_for_my_freelance_portfolio/</link>
-      <description><![CDATA[大家好， 我是一名自由开发者，目前正在修改我的旧作品集 - 它并没有真正展示我的技能 - 而且我在为它选择一个堆栈时遇到了麻烦。 让我解释一下： 我是一名前端开发人员，专长于 CSS / 集成，但也是一名 WordPress 开发人员，因此我也做了很多 PHP。我真的不习惯 JS 框架，无论是前端还是后端，所以我可以利用这个机会学习一个！ 由于本网站的目标是展示我的前端和 WordPress 服务，我不确定我该怎么做。 基本上，我将其缩小到以下四个选择：  带有自制 ACF / Gunterberg 主题的 WordPress：似乎合乎逻辑，因为我无论如何都做了很多 WP 网站。 只是一个从头开始的 HTML/CSS/Vanilla JS 网站：很简单，我可以为联系表单添加一点 PHP。甚至没有后台来添加项目，我可以手动进行，老式风格。 另一个像 ProcessWire 这样的 CMS： 一个让我学习更多 CMS 的机会，而不必费心创建某种后台。 使用像 Vue.js 或 React 这样的 JS 框架： 我感觉自己远远落后于现代 webdev，我可以使用一些经验。但对于一个简单的投资组合来说，这可能有点小题大做。我可以使用样板来拥有后台/管理员等  那么，如果我在其他服务中推广 Wordpress 开发，最好这样做吗？还是我应该学习一些现代的和新的东西？ 提前感谢您的建议！    提交人    /u/GaretSD   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h867zd/help_me_choose_a_stack_for_my_freelance_portfolio/</guid>
-      <pubDate>Fri, 06 Dec 2024 17:08:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>曾经在 fiverr 上工作过的开发人员，感觉怎么样？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1h85xuf/developers_who_have_done_work_on_fiverr_whats_it/</link>
-      <description><![CDATA[我听过很多恐怖故事，也知道竞争非常激烈，但对于那些真正找到工作的人来说，我想更好地了解实际工作是什么样的。你通常最终从事什么样的工作？合同通常持续多长时间？我知道经验会因您所在的位置而有很大差异，所以我想听听发达国家和发展中国家的开发人员的观点。    提交人    /u/chocolate_shart   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1h85xuf/developers_who_have_done_work_on_fiverr_whats_it/</guid>
-      <pubDate>Fri, 06 Dec 2024 16:56:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
