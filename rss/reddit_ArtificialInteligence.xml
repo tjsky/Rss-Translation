@@ -4,7 +4,56 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Fri, 13 Dec 2024 09:17:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2024 12:31:50 GMT</lastBuildDate>
+    <item>
+      <title>需要帮助优化稳定扩散工作流程以更快地生成帧</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hdax9k/need_help_optimizing_stable_diffusion_workflow/</link>
+      <description><![CDATA[大家好！我正在开展一个项目，该项目涉及使用稳定扩散生成一系列 AI 生成的帧，以创建流畅一致的动画。我的工作流程要求：  跨帧的一致艺术风格（使用 LoRA 微调）。 一致的关键元素，如角色或对象（使用 DreamBooth）。 帧之间的平滑过渡（使用 Flux 等技术）。  目前，我遇到了一个主要瓶颈 - 在我的设置上，每帧需要大约 3 分钟才能渲染，即使是为短动画创建足够的帧也非常耗时。按照这个速度，生成一分钟的视频可能需要 24 个多小时！ 我已经在探索 AWS g4 实例（Tesla T4 GPU）以加快渲染速度，但我想知道是否有人有以下方面的提示或经验：  优化的稳定扩散模型或替代的轻量级架构。 模型优化技术，如量化或修剪。 平衡成本和性能的管道优化或硬件设置。 时间一致性或帧插值的有效技术。  我愿意接受任何建议，无论是关于特定工具、模型配置还是基础设施设置。提前感谢您提供的任何帮助！    提交人    /u/Otherwise_Builder235   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hdax9k/need_help_optimizing_stable_diffusion_workflow/</guid>
+      <pubDate>Fri, 13 Dec 2024 12:14:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成式人工智能的输出已经开始影响各种出版渠道</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hdao6q/outputs_of_the_generative_ai_are_already_starting/</link>
+      <description><![CDATA[https://preview.redd.it/swnyxsw6ul6e1.png?width=800&amp;format=png&amp;auto=webp&amp;s=dc1c4589761aed7f35ebbec550552fcc8c024302 生成式人工智能的简便性、速度和可承受性意味着大众能够快速生产大量低质量的人工智能材料，从而污染各种发布渠道。熟练、深思熟虑且负责任的用户可以使用 AI 制作出好材料，但低质量的大量材料将掩盖它和其他一切。    提交人    /u/True-Telephone-5070   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hdao6q/outputs_of_the_generative_ai_are_already_starting/</guid>
+      <pubDate>Fri, 13 Dec 2024 11:59:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>好玩的AI手机游戏</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hda94a/fun_ai_mobile_games/</link>
+      <description><![CDATA[有人知道任何很酷的集成 AI 的新手机游戏吗？我知道他们制作了那些奇怪的聊天机器人，但我更多地谈论您玩的正确游戏。 他们甚至可以做到这一点吗？或者像 Chat GPT 这样的聊天机器人是我们目前能走的最远的吗？    提交人    /u/Live-Arrival5610   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hda94a/fun_ai_mobile_games/</guid>
+      <pubDate>Fri, 13 Dec 2024 11:30:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>从单独的AI辅助任务转向AI解决方案？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hd9utu/going_from_separate_aiassisted_tasks_to_ai/</link>
+      <description><![CDATA[我是一名技术素养一般但非 AI 专家，如何才能制作自定义 AI 解决方案，将我可以分别访问的各个功能“粘合在一起”？ 我感到很沮丧，因为我确定我想做的事情是可能的，但我不知道如何才能实现。 示例：我想将专家之间的对话细节捕获到标准布局的规范文档中 过去：手动将笔记记入 Word 模板 现在：记录 Teams 会议，获取 AI 记录，将其输入 CoPilot，并提示我希望将其放入的标题 下一步：我很乐意邀请​​ AI 会议与会者参加 Teams 会议，随后在正确的 Teams 文件夹中创建文档。这肯定是有人已经做过的事情吧？    提交人    /u/Otterly_wonderful_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hd9utu/going_from_separate_aiassisted_tasks_to_ai/</guid>
+      <pubDate>Fri, 13 Dec 2024 11:02:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能设计房屋</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hd9sn8/ai_for_designing_houses/</link>
+      <description><![CDATA[最近，我有机会尝试一款被低估的 AI 工具，你可能在谷歌的前几页都找不到它，我自己是设计专业的，我一直对尝试新的 AI 工具感兴趣，用于图形、网页、室内设计、建筑、工业设计等领域的设计。  这款工具允许我在几秒钟内将草图或未渲染的模型上传到整洁、逼真且漂亮的渲染图中。我在想这个工具或 AI 如何在建筑设计领域更加规范化，别误会我的意思，它目前无法取代任何人，但它肯定在工作流程中占有一席之地，不记得有多少次客户想要多种风格的变体，这需要一天以上的时间来完成所有这些变体，只是在挑选一两种之后丢弃其中的大部分。所以我明白它应该属于哪里。该工具的开发人员非常友好，我很高兴认识他们。  根据规则，以下是该工具的直接链接：https://neolocus.ai    提交人    /u/Burntout_designer   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hd9sn8/ai_for_designing_houses/</guid>
+      <pubDate>Fri, 13 Dec 2024 10:58:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>2024 年排名前 9 位的 AI 音乐生成器</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hd9izs/top_9_ai_music_generators_in_2024/</link>
+      <description><![CDATA[2024 年排名前 9 的 AI 音乐生成器（播客创建者）https://www.patreon.com/posts/top-9-ai-music-117881912?utm_medium=clipboard_copy&amp;utm_source=copyLink&amp;utm_campaign=postshare_creator&amp;utm_content=join_link    提交人    /u/djquimoso   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hd9izs/top_9_ai_music_generators_in_2024/</guid>
+      <pubDate>Fri, 13 Dec 2024 10:38:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德和困惑——会提升你的游戏水平吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hd8ol2/claude_and_perplexity_going_to_lift_your_game/</link>
+      <description><![CDATA[过去几天，我们看到了 Open AI、Gemini 和 Grok 的更新。另外两名选手会做些什么吗？    提交人    /u/AppropriateRespect91   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hd8ol2/claude_and_perplexity_going_to_lift_your_game/</guid>
+      <pubDate>Fri, 13 Dec 2024 09:33:09 GMT</pubDate>
+    </item>
     <item>
       <title>您是否发现过可以分析整个网站并根据该文本输出信息的 GPT？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hd7vgu/have_you_found_any_gpts_that_can_analyze_a_whole/</link>
@@ -18,27 +67,6 @@
       <description><![CDATA[ 诉讼：一个聊天机器人暗示一个孩子应该因为屏幕时间限制而杀死他的父母。[1] Meta 发布 AI 模型以增强元宇宙体验。[2] 微软在研究预览中首次推出了一种新的生成 AI 模型 Phi-4。[3] 谷歌 构建了一个可以为您进行研究的 AI 工具。[4]  来源包括：https://bushaicave.com/2024/12/12/12-12-2024/    提交人    /u/Excellent-Target-847   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hd5lta/oneminute_daily_ai_news_12122024/</guid>
       <pubDate>Fri, 13 Dec 2024 05:43:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>HIX AI 可以提高技术写作吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hd5ffy/can_hix_ai_improve_technical_writing/</link>
-      <description><![CDATA[嘿， 我一直在使用 AI 编写用户指南，但输出结果往往过于模糊或难以理解。我看到了 HIX AI，它声称可以帮助使 AI 写作更清晰，并使其具有检测能力。 有人尝试过用它制作指导内容吗？它真的提高了可读性和清晰度吗？某些服务的检测率是多少？提前致谢！    提交人    /u/glutenbag   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hd5ffy/can_hix_ai_improve_technical_writing/</guid>
-      <pubDate>Fri, 13 Dec 2024 05:31:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过人工智能提高能源效率</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hd59v4/energy_efficiency_gains_through_ai/</link>
-      <description><![CDATA[人工智能能源管理系统可显著提高各个领域的能源效率。智能电网利用人工智能算法分析来自众多来源（天气模式、能源消耗水平、电网稳定性指标）的实时数据，动态调整能源分配，以最大限度地减少浪费并优化资源配置。这种精细的控制可降低公用事业的运营成本，减少对峰值发电（通常来自效率较低的能源）的依赖，并最终减少碳足迹。 https://sustainability-directory.com/question/what-are-the-long-term-implications-of-ai-powered-energy-management-for-the-energy-sector-and-society/ 来源：https://remoteupskill.com    提交人    /u/Diligent_Relative_36   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hd59v4/energy_efficiency_gains_through_ai/</guid>
-      <pubDate>Fri, 13 Dec 2024 05:22:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于稳定扩散视频生成更快模型或技术的建议</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hd4nij/recommendations_for_faster_models_or_techniques/</link>
-      <description><![CDATA[大家好！我正在构建一个视频生成流程，其中涉及使用 AI 生成的图像和关键帧创建视频。我的工作流程依赖于 LoRA、DreamBooth 和 Flux 等稳定扩散微调技术，以确保风格、元素和帧间平滑过渡的一致性。 LoRA 用于艺术风格一致性。 DreamBooth 用于元素一致性。 Flux 用于关键帧过渡一致性。 正在考虑微调这三个模型并将它们合并，以确保风格、元素和帧间平滑过渡的一致性。 目前，在我的设置上，每个图像/关键帧大约需要 3 分钟才能渲染，这造成了严重的瓶颈。由于流程需要为单个视频提供多个帧，因此我想优化并减少渲染时间。即使渲染一分钟的视频，估计也需要至少 24 小时。我目前无法使用更快的 GPU，目前正在考虑使用 AWS G4。 是否有更快或更有效的模型/技术可用于实现此目标？例如：  LoRA/DreamBooth/Flux 的优化版本或替代方法？ 轻量级架构或模型修剪技术？ 平衡成本和性能的硬件配置？  如果有人有使用 AI 生成的帧或类似管道生成视频的经验，我很乐意听取您的提示和建议。提前感谢您的帮助！    提交人    /u/Otherwise_Builder235   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hd4nij/recommendations_for_faster_models_or_techniques/</guid>
-      <pubDate>Fri, 13 Dec 2024 04:45:46 GMT</pubDate>
     </item>
     <item>
       <title>“人工智能竞赛的疯狂”对这篇文章有什么看法？下面我会摘录一些片段</title>
@@ -55,32 +83,11 @@
       <pubDate>Fri, 13 Dec 2024 01:11:24 GMT</pubDate>
     </item>
     <item>
-      <title>我们如何确保人工智能被用于善事而不是恶事？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hcwif3/how_can_we_ensure_ai_is_used_for_good_not_evil/</link>
-      <description><![CDATA[需要采取哪些保障措施和法规来防止人工智能被用于恶意目的，例如网络攻击或自动武器？    提交人    /u/Imagine-your-success   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hcwif3/how_can_we_ensure_ai_is_used_for_good_not_evil/</guid>
-      <pubDate>Thu, 12 Dec 2024 21:54:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我对人工智能的体验与“炒作”如此不同。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hcutpn/why_is_my_experience_with_artificial_intelligence/</link>
-      <description><![CDATA[我花了相当多的时间使用所有可用的 AI 模型。如果你上 Youtube 听听他们的炒作，你会认为他们正处于 AGI 的边缘。然而，我对 AI 的体验完全不同。我使用的 AI 无法通过高中数学课程，更不用说大学水平的考试了。如果我用问题提示任何可用的 AI 模型；它们 75% 以上的时间都是错的。我从教科书中寻找问题，只更改名称和变量，这样他们实际上必须解决它们，而不是使用记忆。 我挑战这里的任何人向我展示 ChatGPT，例如解决数学、化学或编程中的复杂问题。 我对 AI 编程的经验甚至比我的化学和数学测验还要糟糕。他们似乎理解了这个问题，但他们的实现并不遵循细节，是一种“幻觉”经常如此。 我只想留下一个非常非常简单的数学问题。 约翰将 10,500 美元存入 3 年期存款证明，年利率为 4.75%，每年复利。约翰没有向存款证明存入任何额外款项，也没有从存款证明中提取任何款项。3 年期末存款证明的价值是多少？你能给我看看你的工作吗？  CHATGPT 回复 为了计算 3 年后 Jonathan 的存款证明的价值，我们使用复利公式： 其中： • = 投资的未来价值 • = 初始存款（本金） • = 年利率（十进制形式） • = 年数 步骤 1：确定给定值 • • • 年 步骤 2：将值代入公式 简化： 步骤 3：计算 步骤 4：乘以本金 最终答案： 3 年后存款证明的价值为 12,063.27 美元。 不，ChatGPT，这是错误答案。即使考虑到舍入误差，答案也很接近但错误。接近并不等于正确。 当您告诉 ChatGPT 重新进行数学运算时，我给了它正确答案，它才会给出正确答案 12.068.45 +/- .03 舍入差异 我可以用数学和化学一遍又一遍地重复这一点。 ChatGPT 甚至没有高中水平的准确性，更不用说大学水平了。它可以提供正确的公式，但无法真正解决公式。一次又一次。 怎么回事？我还没见过有人真正质疑任何人工智能的说法。每篇帖子读起来都像是一份证言，没有任何技术细节支持他们的主张。    提交人    /u/Implement1982   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hcutpn/why_is_my_experience_with_artificial_intelligence/</guid>
-      <pubDate>Thu, 12 Dec 2024 20:43:09 GMT</pubDate>
-    </item>
-    <item>
       <title>人工智能焦虑</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hctz7n/ai_anxiety/</link>
       <description><![CDATA[目前，全世界对人工智能的情绪暗流涌动。每天都有年轻人发布诸如“我是否应该完成我的数据科学学位？”之类的帖子，因为他们觉得人工智能会在他们毕业前解决这些问题。 我称之为焦虑。 你怎么称呼它？ 这是一个真正的问题。随着越来越多的事情通过人工智能实现自动化，各个年龄段的人都对自己如何谋生感到焦虑。    提交人    /u/OldManSysAdmin   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hctz7n/ai_anxiety/</guid>
       <pubDate>Thu, 12 Dec 2024 20:05:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>非标题党 YouTube 频道（具有附加值）</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hcp15s/nonclickbaity_youtube_channels_with_added_value/</link>
-      <description><![CDATA[大家好，我正在寻找一些 YouTube 频道的推荐，这些频道以非点击诱饵的方式讨论 AI / LLM / 类似内容，最好能有一些附加值。 我不喜欢的示例：  标题如“Google GEMINI 2.0 震惊了整个行业！（OpenAI 被击败）全面分析”（这样的废话让我头疼。） 报道 AI 新闻时只读发布说明 / 博客文章，没有任何有用的内容可添加。一些大型频道就是这么做的，我无法忍受。 在视频中大喊大叫并制造戏剧性的人。或者频道无法在不插入 meme 或其他东西的情况下连续 5 秒钟停留在主题上，只是为了“吸引人们的注意力”。  我喜欢：  修补匠和跳出框框的思想家测试新想法。 善于解释基本原理的科学家。 实际的例子、展示、测试或新的主流技术，可以快速掌握，而不必自己测试所有内容。  有人有什么好的建议吗？    提交人    /u/dero_name   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hcp15s/nonclickbaity_youtube_channels_with_added_value/</guid>
-      <pubDate>Thu, 12 Dec 2024 16:34:25 GMT</pubDate>
     </item>
     <item>
       <title>每周自我推销贴</title>
@@ -95,13 +102,6 @@
       <description><![CDATA[关键要点  ChatGPT 在 12 月 11 日遭遇严重中断，影响全球用户，恰逢其与 Apple 的 Siri 集成； OpenAI 在数小时内解决了中断问题，但此次事件是 ChatGPT 近几个月来的第四次重大中断； Siri 新的由 ChatGPT 提供支持的功能在中断期间推出，这引发了人们对扩展 AI 集成挑战的质疑。  来源：https://news.bitdegree.org/openais-chatgpt-goes-dark-after-apples-big-update?utm_source=reddit&amp;utm_medium=social&amp;utm_campaign=r-openais-chatgpt-goes-dark    提交人    /u/webbs3   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hcmfps/openais_chatgpt_goes_dark_after_apples_big_update/</guid>
       <pubDate>Thu, 12 Dec 2024 14:36:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 Python 和 AI 实现了我所有工作的自动化 - 问我如何实现你最讨厌的任务的自动化</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hc93pz/i_automated_my_entire_job_with_python_ai_ask_me/</link>
-      <description><![CDATA[嘿 r/ArtificialInteligence - 我是一名开发人员，负责自动化整个营销机构的工作流程。您可以向我询问有关自动化您无聊任务的任何问题。我所构建的一些快速概述： • 将每天 5-6 小时的研究和发布转化为 CrewAI+Langchain+DDG 机构 • 构建了 AI 机器人，每天分析和回复 1000 多封客户电子邮件（非常便宜 - 每天 0.5 美元） • 创建了 Tweepy-Tiktok-bot+Instapy 机器人来管理整个社交媒体存在，其中 CrewAI 用于代理，Flux Dev 用于图像生成 • 使用 Selenium+Gemini Flash 1.5 在 LinkedIn 上自动申请工作 • 使用本地 AI 模型自动生成内容（免费） • 使用自定义 FLUX Dev Lora 自动化整个 YouTube 频道（缩略图、描述、标签、发布），最便宜、最有效的 LLM 并托管在云端 • 构建了网络抓取机器人，可监控数千种代币的价格和交易者• 使用 PRAW+discord.py 制作了一个监控和自动响应 Reddit/Discord 机会的系统 问我关于： 如何自动化您的特定任务哪些工具真正有效（哪些是垃圾） 实际成本和时间节省 常见的自动化错误 满足您的自动化需求的特定技术堆栈 如何选择 AI 模型以节省成本 定制解决方案与现有工具 我已经使用这些系统处理了数百万个任务。不是理论上的 - 全部经过测试并正在运行。 我使用 Python、JS 和现代 AI Stack（不仅仅是 Zapier 或 make.com 连接）。 我正在建立我的投资组合并寻找有趣的问题来解决。但首先 - 问我任何有关您的自动化需求的问题。我会免费为您提供解决方案的分析。 一些入门问题：您每天最耗时的任务是什么？您希望哪一部分工作实现自动化？您在重复任务上浪费了多少时间？或者问任何您想知道的问题…… 在下面提出您的问题 - 我会向您展示如何实现自动化（附有我做过的类似项目的证据）：)    提交人    /u/Kakachia777   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hc93pz/i_automated_my_entire_job_with_python_ai_ask_me/</guid>
-      <pubDate>Thu, 12 Dec 2024 00:55:18 GMT</pubDate>
     </item>
     <item>
       <title>每周“是否有一个工具可以……”帖子</title>
