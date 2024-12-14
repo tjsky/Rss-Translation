@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 14 Dec 2024 06:21:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2024 09:16:12 GMT</lastBuildDate>
+    <item>
+      <title>从前端开始职业发展。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hdyl6q/career_progresstion_from_frontend/</link>
+      <description><![CDATA[我从事前端工作，使用 React/NextJs 和 typescript。已经 3 年了。我喜欢这份工作，非常酷。人工智能无法取代我，但我觉得它让我做的很多事情变得无聊。我该何去何从，我要做后端吗？我不太喜欢它。UXUI 似乎与经济学密切相关，目前我所在的公司没有招聘 UX UI。 我的兴趣是前端开发，因为我可以尽快看到我的工作。我喜欢使用 linux 和服务器工作和思考。    提交人    /u/stfuandkissmyturtle   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hdyl6q/career_progresstion_from_frontend/</guid>
+      <pubDate>Sat, 14 Dec 2024 08:33:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 使用 .NET Blazor WASM 构建的开源密码和别名管理器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hdy8ro/showoff_saturday_opensource_password_alias/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hdy8ro/showoff_saturday_opensource_password_alias/</guid>
+      <pubDate>Sat, 14 Dec 2024 08:07:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立了我的第一个网站，在那里我可以尝试各种东西</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hdxwd3/made_my_first_website_where_i_try_things_out/</link>
+      <description><![CDATA[Title，所以我创建了我的第一个网站，在那里我尝试使用 html、css 和 javascript。如果您有任何建议或一些可以帮助我学习的东西，请转到主页底部给我留言！ https://goatzy-codes.xyz    提交人    /u/RealGoatzy   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hdxwd3/made_my_first_website_where_i_try_things_out/</guid>
+      <pubDate>Sat, 14 Dec 2024 07:41:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>功能访问控制 NodeJS 库</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hdxq55/feature_access_control_nodejs_library/</link>
+      <description><![CDATA[寻找一个简单的功能访问控制库的建议。我得到的建议和搜索结果主要针对 A/B 测试、功能发布、用户行为测试等。 我们应用程序的需求现在非常小。我们只有少数几个计划，只是想控制谁可以做什么。 举个（假的）例子，免费计划只能发送 5 封电子邮件，基本计划用户可以发送 50 封电子邮件，专业计划可以发送 300 封电子邮件。所以在发送电子邮件之前，我想检查过去 X 天内的所有计数，并获取 canProceed 作为布尔值。 我不是在寻找像 docker 容器这样的解决方案。希望集成一个库。我们可以向数据库添加一些表。    提交人    /u/nrealybgniod   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hdxq55/feature_access_control_nodejs_library/</guid>
+      <pubDate>Sat, 14 Dec 2024 07:29:02 GMT</pubDate>
+    </item>
     <item>
       <title>我需要为等级列表创建一个网站，但我不知道该怎么做</title>
       <link>https://www.reddit.com/r/webdev/comments/1hdwo19/i_need_to_make_a_website_for_a_tierlist_and_i/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我有一个使用 Eleventy 构建的个人小型静态网站。我在自己的计算机上构建它，手动创建 Markdown 文件并将输出传输到我的托管服务提供商。我并不介意手动管理我的内容，但我正在寻找方法使其更容易，因为文件正在堆积如山。 是否有类似 GUI 前端的东西可以以传统 CMS 方式管理我的源内容，而无需连接到任何在线服务，全部在本地？我不打算使用 GitHub/GitLab 或 Netlify 或任何东西。我希望我的计算机管理和构建静态网站，然后我可以简单地将其上传到托管服务器，托管服务器的唯一工作就是提供静态文件。 Decap CMS 似乎需要一个远程 git 存储库并大力推动 Netlify；我不知道如何改变这一点。 Strapi 没有与 Eleventy 集成的官方文档。 我见过的唯一一款产品是 BuhoCMS，它完全满足了我的需求，但无法读取，只能在我的 20 多篇帖子中写入预先存在的前言，我不想手动重新创建。它的 repo 也设置为只读，这可能意味着现在开始使用它可能不是一个好主意。 我绝不是一名开发人员，但我能应付，我可以遵循明确的说明。    提交人    /u/swillfreat   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hdqy7v/local_offline_cms_for_ssg_11ty_preferably/</guid>
       <pubDate>Sat, 14 Dec 2024 00:46:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>原生 Bluesky 搜索不如此工具好</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hdpb61/native_bluesky_search_isnt_as_good_as_this_tool/</link>
-      <description><![CDATA[Bluesky 上的原生搜索会向您显示几个排序选项，包括“热门”和“最新”。这两个选项实际上都不会向您显示参与度最高的最新帖子。 最新帖子总是一堆参与度为零的随机帖子，而热门帖子则显示几天前的陈旧帖子。 TrendSpotter.blue 实际上会显示过去几个小时（最多 24 小时）内包含您的关键字的每篇帖子。 在对同一关键字进行正面测试时，它绝对胜过 Bluesky 上的原生搜索。    提交人    /u/eastburnn   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hdpb61/native_bluesky_search_isnt_as_good_as_this_tool/</guid>
-      <pubDate>Fri, 13 Dec 2024 23:24:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>组织代码片段并在几分钟内构建静态网站。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hdonzh/organize_code_snippets_and_build_static_websites/</link>
-      <description><![CDATA[因此，我正在为 Web 开发人员构建一个工具，主要处理简单的静态网站。此工具将帮助您： - 保存和组织您的代码片段（包含 html、css 和 js 的部分，您可以堆叠它们来构建网页） - 成倍地加快您的网站构建过程；只需单击几下，您就可以准备好一个网页。 - 通过公共代码片段从社区获得灵感我知道 CodeStitch 是代码片段的绝佳资源，这实际上是我的灵感来源。我只是想要一个工具将这些代码片段放在一起形成一个网页并保存整个页面以供日后使用。  我是唯一需要这个工具的人吗？即便如此，我首先是为自己构建它，但我很好奇这是否也有市场。很高兴能得到一些回报。    由    /u/88Smiley  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hdonzh/organize_code_snippets_and_build_static_websites/</guid>
-      <pubDate>Fri, 13 Dec 2024 22:54:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>您使用-webkit-line-clamp 吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hdon0t/do_you_use_webkitlineclamp/</link>
-      <description><![CDATA[有没有基于高度的&quot;显示更多&quot;的替代方案，可以显示特定数量的行？    提交人    /u/zlt_nv   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hdon0t/do_you_use_webkitlineclamp/</guid>
-      <pubDate>Fri, 13 Dec 2024 22:53:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作功能性 Web 应用程序的最短方法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hdoize/shortest_way_to_make_a_functional_web_app/</link>
-      <description><![CDATA[嗨，我需要构建一个与数据库交互并执行基本 CRUD 操作的 Web 应用程序。我可以使用 Node.js、Python（Flask 或 Django）或 Java（Spring Boot）。截止日期是一周，我只懂 HTML、CSS、Python 和基础到中级 Java，没有后端开发经验。你能推荐一门课程或教程来教我如何完成这个吗？我现在不专注于学习底层原理或最佳实践——我只需要完成项目并能够向我的老师解释代码。    提交人    /u/Anass_Lpro   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hdoize/shortest_way_to_make_a_functional_web_app/</guid>
-      <pubDate>Fri, 13 Dec 2024 22:47:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
