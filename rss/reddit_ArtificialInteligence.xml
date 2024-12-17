@@ -4,7 +4,21 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Mon, 16 Dec 2024 21:15:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2024 01:15:36 GMT</lastBuildDate>
+    <item>
+      <title>我们如何防止人工智能偏见和歧视？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hfynua/how_can_we_prevent_ai_bias_and_discrimination/</link>
+      <description><![CDATA[可以采取哪些措施来确保人工智能算法公平、无偏见，并且不会延续有害的刻板印象？    提交人    /u/Imagine-your-success   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hfynua/how_can_we_prevent_ai_bias_and_discrimination/</guid>
+      <pubDate>Tue, 17 Dec 2024 00:54:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>库尔特·冯内古特 (Kurt Vonegut Jr.) 在 1959 年是否对人工智能的最终工作方式做出过描述？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hfu4j5/did_kurt_vonegut_jr_in_1959_offer_up_a/</link>
+      <description><![CDATA[我正在阅读库尔特·冯内古特的《泰坦的塞壬》，偶然发现了这句话，说实话，这句话似乎与 1959 年你能描述的 AI 的工作方式非常接近： “它就像一朵云，每个人都给它喷了一点薄雾，然后这朵云就替大家做了所有繁重的思考。我不是说真的有一朵云。我只是说它就像那样。如果你不明白我在说什么，Skip，试图向你解释它是没有意义的。” 这对其他人来说是否绝对不可思议？天哪，里面有云这个词。    提交人    /u/iamtherealandy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hfu4j5/did_kurt_vonegut_jr_in_1959_offer_up_a/</guid>
+      <pubDate>Mon, 16 Dec 2024 21:30:12 GMT</pubDate>
+    </item>
     <item>
       <title>具有大规模人物角色数据工程的对话语言模型</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hft97r/dialogue_language_model_with_largescale_persona/</link>
@@ -22,7 +36,7 @@
     <item>
       <title>AI TEXT 有哪些免费的 API 选项？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hfqw7g/what_are_all_the_free_api_options_available_out/</link>
-      <description><![CDATA[我知道 Gemini AI 提供免费套餐，而 chatgpt (openAI) 不提供免费套餐。 我想知道您可能知道的所有其他选项？我可能错过了什么。当然还有您使用它们的经验。 谢谢    提交人    /u/Unreal_777   [link] [评论]]]></description>
+      <description><![CDATA[我知道 Gemini AI 提供免费套餐，而 chatgpt (openAI) 则不提供免费套餐。 我想知道您可能知道的所有其他选项？我可能错过了什么。当然还有您使用它们的经验。 谢谢    提交人    /u/Unreal_777   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hfqw7g/what_are_all_the_free_api_options_available_out/</guid>
       <pubDate>Mon, 16 Dec 2024 19:13:38 GMT</pubDate>
     </item>
@@ -32,13 +46,6 @@
       <description><![CDATA[大家好， 随着 MCP（模型上下文协议）的发布，现在可以将本地系统插入 Claude。因此，我决定使用 JXA 从 Notes.app 中提取内容，使用 Transformer.js 将它们转换为本地/设备上的嵌入，并将它们存储在本地 LanceDB 数据库中，以便我们可以在其上构建适当的 RAG（语义和 BM25 搜索的混合） 希望你们中的一些人觉得它有用！ https://github.com/RafalWilinski/mcp-apple-notes     提交人    /u/thoorne   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hfqcaz/talk_with_your_apple_notes_in_claude_model/</guid>
       <pubDate>Mon, 16 Dec 2024 18:50:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么人工智能转录这么糟糕</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hfpq1e/why_ai_transcription_is_so_bad/</link>
-      <description><![CDATA[过去几年，AI 转录的进展似乎停滞不前。从表面上看，AI 转录似乎相对简单：(1) 转录音频或视频 (2) 指定说话者。但是，指定说话者需要几个独立的任务。首先是说话者分类（例如，哪个独特的声音说了什么），这实际上需要相当多的预处理才能执行。其次是说话者识别（例如，说话者的名字是什么）。虽然语音转文本模型不断改进，但说话者分类和说话者识别领域似乎进展甚微。值得注意的是，说话者识别主要由上下文驱动。人类转录员能够相对轻松地做到这一点，但语音转文本和分类模型并未接受过这些任务的训练。 那么我们如何解决这些问题？好吧，我花了很多时间在转录领域，并将许多这些模型引入我们的流程，以提高我们更快地完成转录的能力，但几乎没有成功。我们还尝试了我看到的所有相同的服务，Otter、Rev、Sonix 等。 因此，在过去的几个月里，我和一小队开发人员决定尝试自己解决说话人识别问题。我们创建了一个服务来进行端到端的机器转录，并已在内部使用了几周。我们的系统仍然在说话人分类方面遇到困难——我们希望随着时间的推移，新的和更好的模型将可用——但我们的系统（大部分）解决了说话人识别问题。我想在这里分享我们的服务 - https://hello.transcriberai.com - 我认为我们是第一个向公众提供说话人识别的服务。该服务是免费的，可供所有人使用。我很想知道大家的想法。  此外，如果有人知道任何更好的说话人分类模型，我们很乐意将其插入并尝试一下！    提交人    /u/Broland   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hfpq1e/why_ai_transcription_is_so_bad/</guid>
-      <pubDate>Mon, 16 Dec 2024 18:24:59 GMT</pubDate>
     </item>
     <item>
       <title>自主人工智能代理聊天</title>
@@ -55,23 +62,23 @@
       <pubDate>Mon, 16 Dec 2024 17:39:09 GMT</pubDate>
     </item>
     <item>
-      <title>用于在 Android 上制作动画照片的 AI 视频制作器？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hfmbz2/ai_video_maker_for_animating_photos_on_android/</link>
-      <description><![CDATA[有人能推荐一些适用于 Android 的人工智能视频制作应用吗？这些应用可以将人物照片制作成动画，并将其转换成动态视频？我的朋友最近去世了，我想制作一段我和他在一起的视频。    提交人    /u/monkey_rice   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hfmbz2/ai_video_maker_for_animating_photos_on_android/</guid>
-      <pubDate>Mon, 16 Dec 2024 16:01:17 GMT</pubDate>
+      <title>可以根据特定标准从长视频中创建单独片段的 AI 平台？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hfmz7l/ai_platform_that_can_create_separate_clips_from_a/</link>
+      <description><![CDATA[有这个功能吗？我想从较长的视频中创建剪辑，但我不确定哪个 AI 平台（如果有的话）有这个功能。 提前谢谢您！    提交人    /u/badger802   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hfmz7l/ai_platform_that_can_create_separate_clips_from_a/</guid>
+      <pubDate>Mon, 16 Dec 2024 16:29:21 GMT</pubDate>
     </item>
     <item>
       <title>我希望人们了解关于人工智能的一件事</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hfj3ox/the_one_thing_i_wish_people_understood_about_ai/</link>
-      <description><![CDATA[想象一下，你有一个超级智能的机器人。人们对这些机器人非常兴奋，他们会说：“这个机器人可以写故事、修理玩具或帮你做作业！” 但有时，这些机器人并不能很好地完成这些工作。例如，如果机器人写了一个故事，它可能看起来不错，但当你读到它时却没有多大意义。现在，一些公司像魔术一样炫耀这些机器人，而有些公司仍然担心人工智能会取代工作。 但事实是，这些机器人更擅长于你不常见到的小而有用的任务。比如，它们可以在你忙着玩耍的时候安静地清理你的玩具箱，或者它们可以在不需要你帮助的情况下修理你坏掉的蜡笔。他们并非样样精通，但他们确实擅长让你的生活更轻松的小事。 真正令人兴奋的应该是那些在幕后提供帮助的小事，有点像有一个秘密帮手，他不炫耀，但可以让一切变得更顺利、更容易。    提交人    /u/karterbrad12   [link] [评论]]]></description>
+      <description><![CDATA[想象一下，你有一个超级智能的机器人。人们对这些机器人非常兴奋，他们会说：“这个机器人可以写故事、修理玩具或帮你做作业！” 但有时，这些机器人并不能很好地完成这些工作。例如，如果机器人写了一个故事，它可能看起来不错，但当你读的时候却没有多大意义。现在，一些公司像魔术一样炫耀这些机器人，而有些公司仍然担心人工智能会取代工作。 但事实是，这些机器人更擅长于你不常见到的小而有用的任务。比如，它们可以在你忙着玩耍的时候安静地清理你的玩具箱，或者它们可以在不需要你帮助的情况下修理你坏掉的蜡笔。他们并非样样精通，但他们确实擅长让你的生活更轻松的小事。 真正令人兴奋的应该是那些在幕后提供帮助的小事，有点像有一个秘密帮手，他不炫耀，但可以让一切变得更顺利、更容易。    提交人    /u/karterbrad12   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hfj3ox/the_one_thing_i_wish_people_understood_about_ai/</guid>
       <pubDate>Mon, 16 Dec 2024 13:30:04 GMT</pubDate>
     </item>
     <item>
       <title>我们什么时候才能看到自主的人工智能代理？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hffm3i/how_soon_are_we_going_to_see_autonomous_ai_agents/</link>
-      <description><![CDATA[LLM 是否已经取得了足够的进展，可以构建自主 AI 代理，这些代理可以规划任务并将其分配给完成任务的其他专门代理？在 llms 的初期，我们遇到了诸如 llms 陷入循环和上下文窗口变小等问题。随着最近发布的强大模型（如 claude 3.5-sonnet、o1 系列和 gemini 2.0），情况有何改善。是否有人构建了足以满足生产用例的自主系统？    提交人    /u/SnooSquirrels6702   [链接] [评论]]]></description>
+      <description><![CDATA[LLM 是否已经取得了足够的进展，可以构建自主 AI 代理，这些代理可以规划任务并将其分配给完成任务的其他专门代理？在 llms 的初期，我们遇到了诸如 llms 陷入循环和上下文窗口较小的问题。随着最近发布的强大模型（如 claude 3.5-sonnet、o1 系列和 gemini 2.0），情况有何改善。是否有人构建了足以满足生产用例的自主系统？    提交人    /u/SnooSquirrels6702   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hffm3i/how_soon_are_we_going_to_see_autonomous_ai_agents/</guid>
       <pubDate>Mon, 16 Dec 2024 09:41:53 GMT</pubDate>
     </item>
@@ -81,13 +88,6 @@
       <description><![CDATA[我读到了一个由 OORT 创建的新平台，该平台几天前刚刚推出。引起我注意的是它专注于去中心化——使用区块链支持的系统在 AI 训练中进行数据收集和标记。我最近看到 AI 代币在空间中四处流传，但实际上没有任何有趣的价值。这个想法是它可以削减中介机构，并为处理 AI 数据集提供更多的信任、透明度甚至全球协作。 如果有人好奇，这里有文章。有没有人看到类似的去中心化方法在 AI 领域获得关注？很想听听你的想法。    提交人    /u/nadofa841   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hf4yst/are_decentralized_ai_data_platforms_a_good_idea/</guid>
       <pubDate>Sun, 15 Dec 2024 23:05:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要再成为人工智能销售代理的牺牲品了。他们太可怕了，而且从来都不起作用。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hf4wll/stop_falling_pray_to_aisales_agents_they_are/</link>
-      <description><![CDATA[在过去的一年里，我见过几十个 AI-SDR 和 AI 销售代理，有趣的是，大多数的价格都与一名人类员工的价格相同，一名优秀的员工。 SDR 必须解决的最大问题是寻找具有正确电话号码和电子邮件的联系人，然后制定销售活动。大多数时候，它是碎片化的数据、研究、直觉和尝试。 AI-SDR 是旨在自动化该过程的提示链，但它们解决了一个不存在的问题。阅读脚本不是问题，学习前 10 个反对意见，拨号，这些都很容易解决。 语音 AI 仍然很糟糕。对方的打断没有得到很好的考虑，使对话变得乏味。 任何有脚本和最低工资的大学生，如果他们有好的电话号码、脚本和一点指导，都会比 AI-SDR 更好。     由    /u/Gabr3l 提交   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hf4wll/stop_falling_pray_to_aisales_agents_they_are/</guid>
-      <pubDate>Sun, 15 Dec 2024 23:02:26 GMT</pubDate>
     </item>
     <item>
       <title>世界上大多数人都不知道他们的工作迟早会被人工智能取代。您如何为即将到来的时代做好准备？</title>
