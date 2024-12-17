@@ -4,7 +4,35 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 17 Dec 2024 06:23:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2024 12:33:39 GMT</lastBuildDate>
+    <item>
+      <title>争论“OSS 为何需要这么糟糕？”</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hg7psh/argue_with_why_oss_needs_to_be_so_bad/</link>
+      <description><![CDATA[我喜欢使用 FOSS。但是当我向朋友和同事推荐应用程序时，他们会使用它，比如 GIMP，很快我就会听到诸如“为什么 OSS 总是这么糟糕”之类的句子。 当然，我知道所有支持 foss 的论点。 但是，人们怎么能真正反驳糟糕的体验，因为 OSS 缺乏功能或只是糟糕的 GUI 或工作流程（感觉）2000 年代初期？“资金不足、人手不足、学习工作流程”的论点感觉不对。    提交人    /u/Hans_Wurst_42   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hg7psh/argue_with_why_oss_needs_to_be_so_bad/</guid>
+      <pubDate>Tue, 17 Dec 2024 10:21:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人知道任何开源音频编辑软件吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hg7k1s/does_anyone_know_any_open_source_audio_editing/</link>
+      <description><![CDATA[有人知道任何用于音乐或声音的开源音频编辑软件吗？我现在就需要一个。一些易于使用的东西，一些真正开源的东西，你可以真正保留它，而不是试用版，或者你需要支付一点费用。感谢所有回复的人。    提交人    /u/tomatonator_0427   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hg7k1s/does_anyone_know_any_open_source_audio_editing/</guid>
+      <pubDate>Tue, 17 Dec 2024 10:09:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>PeerTube v7：彻底改造您的视频平台！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hg6n9w/peertube_v7_offer_a_complete_makeover_to_your/</link>
+      <description><![CDATA[        由    /u/Framasoft  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hg6n9w/peertube_v7_offer_a_complete_makeover_to_your/</guid>
+      <pubDate>Tue, 17 Dec 2024 08:59:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>时间链</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hg4mrr/timechain/</link>
+      <description><![CDATA[大家好， 我发布了开源 REST 微服务的第一个版本，用于生成和使用无密钥加密时间戳。它引入了新概念（哈希证明的结构、承诺方案等）：它仍然很粗糙（正在进行大量重构），但我已尝试将其记录好，希望您尝试一下。 这是发布页面： https://github.com/crums-io/timechain/releases/tag/v0.1.0-ALPHA 此版本中有 2 个可交付成果：  ergd。时间链独立 REST 服务器 crum。用于见证远程链上的哈希和存档见证收据的 CLI。  我们在 https://crums.io 上设置了一个测试时间链，您可以使用它来测试客户端 CLI crum（而无需使用 ergd 设置自己的时间链）。 另请参阅  crums.io 演示网站。请注意，如果您使用 --demo 选项运行 ergd，您基本上会获得相同的网站。（仅将此选项用于测试。） 项目网站。概述和工具指南。 Github Repo     提交人    /u/gnahraf   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hg4mrr/timechain/</guid>
+      <pubDate>Tue, 17 Dec 2024 06:28:35 GMT</pubDate>
+    </item>
     <item>
       <title>虚拟开源/Linux 用户组？</title>
       <link>https://www.reddit.com/r/opensource/comments/1hg1v70/virtual_open_source_linux_user_groups/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我将其命名为 partdec。它的灵感来自 axel、aria2 和 gnu/posix split。 用例：  下载加速 数据分区和分发 大文件管理  小众用例，但您也可以将其用作普通下载器、文件传输工具或文件分割器。 Repo：https://github.com/cjijcb/partdec    提交人    /u/CiedJij   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hfdpw2/i_made_a_command_line_tool_that_downloads_a_file/</guid>
       <pubDate>Mon, 16 Dec 2024 07:14:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>适用于多个平台的轻量级 TypeScript AI 工具包</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hfdc51/a_lightweight_typescript_ai_toolkit_for_multiple/</link>
-      <description><![CDATA[        提交人    /u/wangzuo   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hfdc51/a_lightweight_typescript_ai_toolkit_for_multiple/</guid>
-      <pubDate>Mon, 16 Dec 2024 06:46:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>大家好，我创建了一个网站来帮助找到开源项目中的良好第一个问题</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hfboam/hi_everyone_i_made_a_site_to_help_find_good_first/</link>
-      <description><![CDATA[我创建了这个网站 ContributeOpenSource.com 来帮助新开发人员在开源项目中找到一些第一个问题，因为现在在其他网站上我发现他们没有提供很多搜索或过滤语言的选项。 此外，我正在寻找更多建议（比如我可以添加什么）    提交人    /u/sanjeev284   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hfboam/hi_everyone_i_made_a_site_to_help_find_good_first/</guid>
-      <pubDate>Mon, 16 Dec 2024 04:59:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>字幕下载器：从文件资源管理器直接下载字幕的简单方法</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hf5xt9/subtitle_downloader_simple_way_to_download/</link>
-      <description><![CDATA[大家好！我想分享一个我制作的免费开源工具，如果您经常为电影和节目下载字幕，它可能会让您的生活更轻松一些。 它的作用： 此应用程序在视频文件的右键菜单中添加了“下载字幕”选项。只需单击一下，它就会自动从 OpenSubtitles.com 获取最匹配的字幕。 我做这个只是因为我厌倦了手动下载字幕的过程，并认为其他人也会发现它很有用。这是我的第一个公开发布，因此任何反馈都将非常感谢。 下载和说明在此 github 链接中    提交人    /u/Fiinw   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hf5xt9/subtitle_downloader_simple_way_to_download/</guid>
-      <pubDate>Sun, 15 Dec 2024 23:53:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chess-tui 🦀 您的终端上一款生疏的国际象棋游戏！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1heyk6n/chesstui_a_rusty_chess_game_in_your_terminal/</link>
-      <description><![CDATA[嗨，我一直在开发我的开源国际象棋游戏 chess-tui。这是一个简单的 rust 编写的 TUI，可让您从终端下棋。您现在可以与其他在线玩家或任何兼容 UCI 的国际象棋引擎对战！ 希望得到您的反馈！ Repo：https://github.com/thomas-mauran/chess-tui 网站：https://thomas-mauran.github.io/chess-tui/    提交人    /u/_sw1fty_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1heyk6n/chesstui_a_rusty_chess_game_in_your_terminal/</guid>
-      <pubDate>Sun, 15 Dec 2024 18:14:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
