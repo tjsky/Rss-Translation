@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 18 Dec 2024 01:13:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 06:22:38 GMT</lastBuildDate>
+    <item>
+      <title>有哪些知名的 Docker 容器品牌？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hgt562/reputable_docker_container_brands/</link>
+      <description><![CDATA[嘿，我对 docker 真的很陌生，尝试过几次但总是学不会。我想整合它，但我有点担心。有什么好的、有信誉的 docker 容器制造商吗？我在我制作的几个 Dockerfile 上运行了 node:18、alpine 之类的东西，但是当我在 Docker Desktop 中打开一个时，发现有很多不同的 CVE！ 有什么建议吗？ 现在我正在学习构建阶段，因此我正在一个阶段构建我的 SvelteKit 应用程序，并尝试在另一个阶段将其推送到另一个容器，以使容器尽可能小！    提交人    /u/P-TownHero   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hgt562/reputable_docker_container_brands/</guid>
+      <pubDate>Wed, 18 Dec 2024 03:54:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>网页设计 – 独立的电子商务网站？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hgrrhh/web_design_separate_ecommerce_site/</link>
+      <description><![CDATA[我有一个网站，主要是一般信息和图片，但每年我们都会举办一次活动并出售门票。过去，我将电子商务（Wordpress-Woocommerce）内置到主站点中。门票销售开始后，我们通常在 10 分钟内售出 400 张门票，这是一个相当大的负担，但网站处理得很好。我正在考虑将网站分成一个普通网站和一个电子商务网站。当我们出售门票时，一个按钮会从普通网站链接到电子商务网站。这将允许我每年将更改保存在单独的网站中，并隔离网站的电子商务部分。我认为这对两个网站来说都会更有效率。我有兴趣对拆分网站的利弊提出反馈吗？    提交人    /u/psylonaught   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hgrrhh/web_design_separate_ecommerce_site/</guid>
+      <pubDate>Wed, 18 Dec 2024 02:38:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>测试你的技能的好网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hgrj9f/good_sites_to_test_your_skills/</link>
+      <description><![CDATA[我是初学者，想开始测试我的技能！哪些网站适合测试你的技能并保持记忆力！！    由    /u/crochetwithkriss 提交   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hgrj9f/good_sites_to_test_your_skills/</guid>
+      <pubDate>Wed, 18 Dec 2024 02:26:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>最好的 AI 编码工具是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hgq4kj/what_is_the_best_ai_tool_for_coding/</link>
+      <description><![CDATA[嗨，我想知道目前最好的 AI 工具是什么，可以协助您作为开发人员的日常工作？ 谢谢    提交人    /u/InternetMedium4325   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hgq4kj/what_is_the_best_ai_tool_for_coding/</guid>
+      <pubDate>Wed, 18 Dec 2024 01:13:28 GMT</pubDate>
+    </item>
     <item>
       <title>寻找一个可以参与 Web 开发项目的社区</title>
       <link>https://www.reddit.com/r/webdev/comments/1hgo1yf/looking_for_a_community_to_join_where_i_can/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[嗨，我有一个网页，其中包含一段文字，如果有人在 Google 上搜索它，我不希望它显示出来。这段文字非常具体，经检查，它基本上是 Google 搜索这段特定文字时的唯一结果。是否有一段代码可以围绕这段文字，使这段文字不受 Google 搜索的影响？或者还有其他可能的解决方案？ 任何帮助都将非常有帮助。谢谢！    提交人    /u/eggandspoonracer   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hgmo9p/hiding_a_specific_piece_of_text_within_a_webpage/</guid>
       <pubDate>Tue, 17 Dec 2024 22:28:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立安全连接</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hglxs0/make_secure_connection/</link>
-      <description><![CDATA[我有两个域，A 和 B。 A 用作浏览器的客户端，B 是 API 服务器，它响应 A 发出的所有请求。A 只是一个 index.html。 我想在 A 和 B 之间建立安全连接，以便 B 只能对 A 做出响应。我使用了 AJAX，但不太安全。 我该怎么做？如果有必要，我准备基于 Ajax（Node.js）更改 B 上的服务器逻辑。    提交人    /u/Commercial_Hall8413   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hglxs0/make_secure_connection/</guid>
-      <pubDate>Tue, 17 Dec 2024 21:55:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>初学者 php 电子邮件提交表单</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hgkf06/beginner_php_email_submit_form/</link>
-      <description><![CDATA[        提交人    /u/vredditr   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hgkf06/beginner_php_email_submit_form/</guid>
-      <pubDate>Tue, 17 Dec 2024 20:47:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们有许可证吗？如果有，你们有什么许可证？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hgka8w/do_yall_have_permits_if_so_what_do_yall_have/</link>
-      <description><![CDATA[我想以自由职业者的身份合法地做所有事情。我已经联系了我所在城市的议会并获得了一般信息，但我想知道除了营业执照、税务登记、责任保险之外是否还有其他需要注意的事项。    提交人    /u/Ok_Custard8289   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hgka8w/do_yall_have_permits_if_so_what_do_yall_have/</guid>
-      <pubDate>Tue, 17 Dec 2024 20:41:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>找到自由职业的最快方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hgk19s/fasted_way_to_find_a_freelancing/</link>
-      <description><![CDATA[5 年军队经验，有些是使用 Flutter，有些是后端，有时甚至开发驱动程序。 我实际上有 0 个项目可以展示，因为它们都是秘密的。 我目前无法参加真正的工作，需要尽快拿到钱。 你认为有可能在没有过去经验证明的情况下作为自由职业者获得项目吗？    提交人    /u/MasterMake   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hgk19s/fasted_way_to_find_a_freelancing/</guid>
-      <pubDate>Tue, 17 Dec 2024 20:30:12 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 18 Dec 2024 01:13:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 06:22:43 GMT</lastBuildDate>
+    <item>
+      <title>构建了一个 golang slack 机器人，用于通过 slash 命令创建 opsgenie 事件</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hgt21t/built_a_golang_slack_bot_for_create_opsgenie/</link>
+      <description><![CDATA[仅分享我构建的一个小型 golang 工具，该工具允许您使用 Slack 中的斜线命令在 opsgenie 中创建事件。 只需输入斜线命令，在模式中填写详细信息，就完成了！🙃可在 gcp 云函数或 docker 上运行， 如果有人感兴趣，这里是项目：https://github.com/hcavarsan/slack-opsgenie-bot    提交人    /u/Beginning_Dot_1310   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hgt21t/built_a_golang_slack_bot_for_create_opsgenie/</guid>
+      <pubDate>Wed, 18 Dec 2024 03:50:00 GMT</pubDate>
+    </item>
     <item>
       <title>介绍 LightUp：一款用于即时 AI 注释的开源 Chrome 扩展程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1hgndg6/introducing_lightup_an_opensource_chrome/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[场景：  使用开源（GPLv3）软件作为工具来处理某些文件（比如说图像）。  源图像的版权属于我。 不接触源代码、不修改源代码、不分发源代码。  使用源图像和处理后的图像来训练自己的神经网络（完全独立的源代码，没有任何指向原始使用的软件的链接）。 将这个训练好的神经网络捆绑为软件包，进行商业分发（闭源）。  您可以将 GIMP 作为开源工具的示例（它不是，它是一个小得多的工具 - 但仅供参考）。 这种情况可以吗？我尝试用谷歌搜索，但没有在网上找到这个确切的用例描述。    提交人    /u/dmytrot   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hfnnyj/licensing_question_using_gplv3_software_as_a_tool/</guid>
       <pubDate>Mon, 16 Dec 2024 16:59:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用开源应用程序和可互操作协议使 Apple Watch 可以与 Android 兼容</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hfncrm/i_made_apple_watch_functional_with_android_using/</link>
-      <description><![CDATA[       由    /u/Abishek_Muthian  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hfncrm/i_made_apple_watch_functional_with_android_using/</guid>
-      <pubDate>Mon, 16 Dec 2024 16:46:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
