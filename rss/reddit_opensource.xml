@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 21 Dec 2024 09:15:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2024 15:14:58 GMT</lastBuildDate>
+    <item>
+      <title>我为我的 FOSS 项目添加了一个成熟的 AI 功能面板</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hj7i2g/i_added_a_fullfledged_aifeature_palette_to_my/</link>
+      <description><![CDATA[大家好，👋， 临近年底，我想分享一些关于向我的开源项目添加 AI 功能的历程以及它如何影响其可见性和使用情况的见解。最后，我将分享一些有关这些功能的令人惊讶的指标。 该项目是一个 Markdown 编辑器，您可以在 Github 上找到它：https://github.com/fynnfluegge/rocketnotes 您可能会问，为什么要创建另一个 Markdown 编辑器？我在 Obsidian 流行之前就开始了这个项目，当时我并不知道 Obsidian。像 Evernote 这样的替代品对我来说不是一个选择，所以我决定自己构建一个。现在，我支付的费用远低于使用同步和发布附加组件的 Obsidian 许可证的费用，并且我在自己的应用程序中拥有所有这些功能（包括 AI 功能）——100％ 自托管且完全在我的控制之下。除此之外，我还免费向大约一千名活跃用户提供这个工具。 所以，我真的没有理由换用 Obsidian 或任何其他工具。 今年 4 月，我开始陆续添加以下 AI 功能： - ✍️ 类似 Copilot 的文本补全 - 🔦 语义搜索 - 🤖 与文档聊天 - 100% 无服务器 RAG - 📥 具有语义归档的 Zettelkasten - 使用向量索引将注释插入到语义排名最高的文档中 - 🗣️ 语音转文本笔记 这是对我的项目明星历史的影响：![明星历史图表]（https://api.star-history.com/svg?repos=fynnfluegge/rocketnotes&amp;type=Date） 令人惊讶的是——自从我开始添加 AI 功能以来，GitHub 星星和用户数量的明显增加形成了鲜明对比——只有大约 10% 的新用户真正为他们的帐户启用了这些 AI 功能。更不用说这 10% 中有多少人在积极使用它们。 这个事实让我怀疑：我的 AI 功能是否很花哨但最终毫无用处？还是说人们一般都喜欢具有花哨 AI 功能的工具，但最终并没有按照他们最初的意图使用它们？如果是这样的话，我会说 AI 功能至少是一个很好的营销机会。 但是，在接下来的一年里，我不会过多地关注新功能，而是希望在性能、稳定性和可用性方面改进应用程序。 感谢您的阅读，节日快乐！    提交人    /u/Fleischkluetensuppe   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hj7i2g/i_added_a_fullfledged_aifeature_palette_to_my/</guid>
+      <pubDate>Sat, 21 Dec 2024 10:50:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>这里有没有人推广他们的烹饪书？如果有，哪些平台/内容效果最好？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hj7a6v/does_anyone_here_promote_their_cookbooks_if_so/</link>
+      <description><![CDATA[我想发展一些开源项目。 提前致谢！    提交人    /u/omnisvosscio   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hj7a6v/does_anyone_here_promote_their_cookbooks_if_so/</guid>
+      <pubDate>Sat, 21 Dec 2024 10:34:10 GMT</pubDate>
+    </item>
     <item>
       <title>在我的专有软件中使用多许可代码作为库</title>
       <link>https://www.reddit.com/r/opensource/comments/1hj52ca/using_multilicensed_code_as_a_library_in_my/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好， 在不伤害社区的情况下，将开源产品货币化的最佳方式是什么。销售插件、限制功能还是其他什么？你对此事有什么经验？    提交人    /u/kalintush   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hildeu/business_model_for_open_source_product/</guid>
       <pubDate>Fri, 20 Dec 2024 14:48:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个免费发送短信的短信网关并将其开源</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hiksyl/i_made_an_smsgateway_for_sending_sms_for_free_and/</link>
-      <description><![CDATA[我构建了 textbee.dev，一个基于 Android 的开源免费短信网关。 以下是主要功能：  短信发送：无论是双因素身份验证 (2FA)、一次性密码 (OTP)、警报、CRM 集成、电子商务交付通知，还是您的应用所需的任何其他用例，textbee.dev 都可让您直接从其仪表板或通过其 API 发送短信。 批量短信：使用 API 高效地发送批量短信，使其成为大众传播的理想选择。 批量短信：上传您的 CSV 文件并使用模板为每个收件人自定义包含动态内容的消息 - 直接从您的仪表板发送 短信接收：除了发送短信外，您还可以启用接收功能，通过 API 或仪表板访问传入消息（用于实时通知的 Webhook 正在开发中 😉 ） 免费和开源：作为免费和开源平台，您无需支付任何费用即可使用其服务。您还可以选择自行托管实例，从而获得完全的控制权和灵活性。  textbee 目前正在积极开发中，非常感谢您提供反馈和任何功能请求。此外，欢迎在 GitHub 上做出贡献  Github：github.com/vernu/textbee 站点网址：textbee.dev     由   提交  /u/Anxious_Situation_60   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hiksyl/i_made_an_smsgateway_for_sending_sms_for_free_and/</guid>
-      <pubDate>Fri, 20 Dec 2024 14:21:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sirang - 基于 QUIC 的实验性 TCP 隧道</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hihx3w/sirang_an_experimental_tcp_tunnel_over_quic/</link>
-      <description><![CDATA[       由   提交/u/Icelain  [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hihx3w/sirang_an_experimental_tcp_tunnel_over_quic/</guid>
-      <pubDate>Fri, 20 Dec 2024 11:35:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
