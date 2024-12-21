@@ -4,7 +4,21 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Fri, 20 Dec 2024 21:13:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2024 01:08:17 GMT</lastBuildDate>
+    <item>
+      <title>我怎样才能在人工智能革命中发挥作用？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hivtm7/how_can_i_be_useful_in_the_ai_revolution/</link>
+      <description><![CDATA[我是一名专门从事肿瘤外科手术的外科医生，我想在我的专业领域培养法学硕士学位，我的动机是参与这一革命性过程，并迫使自己为了个人发展而更深入地思考我的职业细节。你有什么建议可以让我开始吗？    提交人    /u/Lairuth   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hivtm7/how_can_i_be_useful_in_the_ai_revolution/</guid>
+      <pubDate>Fri, 20 Dec 2024 22:43:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何掩盖图像使得人工智能无法读取，同时又不影响人们的感知？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hiue8o/how_to_mask_images_so_they_are_unreadable_to_ai/</link>
+      <description><![CDATA[问题：我们有一些由人完成的在线任务。他们可以使用人工智能来完成它，尤其是在发布了更智能的模型之后。我们如何让图片对人工智能来说难以辨认？ 很久以前，我读过一些研究论文，其中提到给图片添加了噪点，这些噪点在人类看来是一样的，但完全让人工智能感到困惑。我遇到了 Nightshade，它承诺了同样的功能，但它什么也没做。还有其他类似的工具吗？    提交人    /u/Efrayl   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hiue8o/how_to_mask_images_so_they_are_unreadable_to_ai/</guid>
+      <pubDate>Fri, 20 Dec 2024 21:35:26 GMT</pubDate>
+    </item>
     <item>
       <title>Open AI 的 o3 模型在 ARC-AGI 基准上得分为 87.5%</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hitny3/open_ais_o3_model_scores_875_on_the_arcagi/</link>
@@ -15,14 +29,14 @@
     <item>
       <title>法学硕士 (LLM) 是否能看到全局，还是只能逐个像素地拼凑起来？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hitis1/do_llms_see_the_big_picture_or_just_piece_it/</link>
-      <description><![CDATA[大家好，我一直在想：当谈到大型语言模型时，它们是否像我们人类一样，一次性以整体的方式“看到”所有概念？还是它们更像机器，一点一点地处理所有事情，慢慢地添加细节，直到得出结论？ 例如，当我看一个苹果时，我不会分析每个像素然后确定它是一个苹果——它会立即点击。法学硕士是否在做类似的事情，或者他们基本上是在处理微观层面的数据后再给出答案？他们的流程与我们自己的“即时”理解有何不同？    提交人    /u/gizia   [链接] [评论]]]></description>
+      <description><![CDATA[大家好，我一直在想：当谈到大型语言模型时，它们是否像我们人类一样，一次性以整体的方式“看到”所有概念？还是它们更像机器，一点一点地处理所有事情，慢慢地添加细节，直到得出结论？ 例如，当我看一个苹果时，我不会分析每个单独的像素，然后确定它是一个苹果——它会立即点击。法学硕士是否在做类似的事情，或者他们基本上是在处理微观层面的数据后再给出答案？他们的流程与我们自己的“即时”理解有何不同？    提交人    /u/gizia   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hitis1/do_llms_see_the_big_picture_or_just_piece_it/</guid>
       <pubDate>Fri, 20 Dec 2024 20:54:54 GMT</pubDate>
     </item>
     <item>
       <title>Instruct — 类似于 Microsoft Guidance，但是用 Ruby 编写</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hit4q3/instruct_similar_to_microsoft_guidance_but_in_ruby/</link>
-      <description><![CDATA[https://github.com/instruct-rb/instruct Instruct 的灵感来自微软指导，它自然地交织了代码和 LLM 完成，但它具有 Ruby 风格和自己独特的功能。  这只是一个关于如何使用 instruct 轻松创建多轮代理对话的示例。  ```ruby # 创建两个代理：Noel Gallagher 和一个带有系统提示的面试官。 noel = p.system{&quot;你是 Noel Gallagher。回答面试官的问题。&quot;} interviewer = p.system{&quot;您是一位熟练的面试官，正在向 Noel Gallagher 提问。&quot; # 我们通过启动 # 面试代理并捕获 :reply 键下的响应来与面试官开始动态问答循环。 interviewer &lt;&lt; p.user{&quot;Noel 坐在您面前。&quot;} + gen.capture(:reply) puts interviewer.captured(:reply) # =&gt; &quot;您好 Noel，今天感觉怎么样？&quot; 5.times do # 向 Noel 发送 :reply 键下面试官记录中捕获的最后一个值。# 类似地，我们为 Noel 生成响应并将其捕获到 :reply 键下。noel &lt;&lt; p.user{&quot;&lt;%= interviewer.captured(:reply) %&gt;&quot;} + gen.capture(:reply, list: :replies) # Noel 捕获的回复现在发送给面试官，面试官以相同的方式捕获它。 面试官 &lt;&lt; p.user{&quot;&lt;%= noel.captured(:reply) %&gt;&quot;} + gen.capture(:reply, list: :replies)  end # 对话结束后，我们可以访问从两个代理捕获的回复列表 noel_said = noel.captured(:replies).map{ |r| &quot;noel: #{r}&quot; } interviewer_said = interviewer.captured(:replies).map{ |r| &quot;interviewer: #{r}&quot;  puts interviwer_said.zip(noel_said).flatten.join(&quot;\n\n&quot;) # =&gt; &gt; &quot;noel: ... \n\n interviewer: ..., ...&quot; ``` 我已经利用业余时间研究这个 gem 几个月了。API 尚未完全稳定，因此除了实验之外，我不建议使用它。尽管如此，我的公司仍在生产中使用它（截至今天 :)），所以现在似乎是分享的好时机。 那么我为什么要编写另一个 LLM 提示库呢？ 我发现现有的 Ruby 库要么太抽象 - 将 LLM 的功能隐藏在看不见的提示后面，太低级 - 让我的课程难以理解，并且充斥着管理提示和响应的样板，要么使用类级抽象 - 迫使我在我不想创建类时创建类。 在阅读 Obie Fernandez 的《使用 AI 进行应用程序开发模式》的早期版本并使用 Obie 的库 raix 后，我感到很受启发。这本书有很多很棒的模式，raix 的成绩单管理和工具管理是我用过的第一个感觉像 ruby​​ 的库。同时，python 社区中的库（如指导、DSPy、LangSmith 和 TEXTGRAD）引起了我的注意。我也喜欢跨平台 BAML 的功能。我不喜欢代码生成和免费增值方面。 在积极性高涨的情况下，我开始构建一个有主见的 gem 库，以改善我的 Ruby（和 Rails）LLM 开发人员体验。 第一个 gem 是 instruct。它是其他 gem 构建的灵活基础。虽然 API 与指导类似，但它具有基于属性字符串和中间件的不同架构，这启用了一些独特的功能（如异步防护栏、内容过滤器、自我修复、自动延续和本机多模式支持）。 我目前正在开发一个希望优雅的 API，它使请求和处理流式结构化输出变得容易（从 BAML 中汲取灵感，但如果 API 支持，则自动升级到 json 模式）。除此之外，我还在开发一个对话记忆中间件，它会自动修剪对话记录中不相关的历史部分。我希望这能让模型更具可操作性，但不会丢失关键细节。 提前感谢您的关注并提供任何建设性的反馈或想法。最后，如果您有兴趣做出贡献，请给我留言。    提交人    /u/mackross   [link] [评论]]]></description>
+      <description><![CDATA[https://github.com/instruct-rb/instruct Instruct 的灵感来自微软指导，它自然地交织了代码和 LLM 完成，但它具有 Ruby 风格和自己独特的功能。  这只是一个关于如何使用 instruct 轻松创建多轮代理对话的示例。  ```ruby # 创建两个代理：Noel Gallagher 和一个带有系统提示的面试官。 noel = p.system{&quot;你是 Noel Gallagher。回答面试官的问题。&quot;} interviewer = p.system{&quot;您是一位熟练的面试官，正在向 Noel Gallagher 提问。&quot; # 我们通过启动 # 面试代理并捕获 :reply 键下的响应来与面试官开始动态问答循环。 interviewer &lt;&lt; p.user{&quot;Noel 坐在您面前。&quot;} + gen.capture(:reply) puts interviewer.captured(:reply) # =&gt; &quot;您好 Noel，今天感觉怎么样？&quot; 5.times do # 向 Noel 发送 :reply 键下面试官记录中捕获的最后一个值。# 类似地，我们为 Noel 生成响应并将其捕获到 :reply 键下。noel &lt;&lt; p.user{&quot;&lt;%= interviewer.captured(:reply) %&gt;&quot;} + gen.capture(:reply, list: :replies) # Noel 捕获的回复现在发送给面试官，面试官以同样的方式捕获它。 面试官 &lt;&lt; p.user{&quot;&lt;%= noel.captured(:reply) %&gt;&quot;} + gen.capture(:reply, list: :replies)  end # 对话结束后，我们可以访问从两个代理捕获的回复列表 noel_said = noel.captured(:replies).map{ |r| &quot;noel: #{r}&quot; } interviewer_said = interviewer.captured(:replies).map{ |r| &quot;interviewer: #{r}&quot;  puts interviwer_said.zip(noel_said).flatten.join(&quot;\n\n&quot;) # =&gt; &gt; &quot;noel: ... \n\n interviewer: ..., ...&quot; ``` 我已经利用业余时间研究这个 gem 几个月了。API 尚未完全稳定，因此除了实验之外，我不建议使用它。尽管如此，我的公司仍在生产中使用它（截至今天 :)），所以现在似乎是分享的好时机。 那么我为什么要编写另一个 LLM 提示库呢？ 我发现现有的 Ruby 库要么太抽象 - 将 LLM 的功能隐藏在看不见的提示后面，太低级 - 让我的课程难以理解，并且充斥着管理提示和响应的样板，要么使用类级抽象 - 迫使我在我不想创建类时创建类。 在阅读 Obie Fernandez 的《使用 AI 进行应用程序开发模式》的早期版本并使用 Obie 的库 raix 后，我感到很受启发。这本书有很多很棒的模式，raix 的成绩单管理和工具管理是我用过的第一个感觉像 ruby​​ 的库。同时，python 社区中的库（如指导、DSPy、LangSmith 和 TEXTGRAD）引起了我的注意。我也喜欢跨平台 BAML 的功能。我不喜欢代码生成和免费增值方面。 在积极性高涨的情况下，我开始构建一个有主见的 gem 库，以改善我的 Ruby（和 Rails）LLM 开发人员体验。 第一个 gem 是 instruct。它是其他 gem 构建的灵活基础。虽然 API 与指导类似，但它具有基于属性字符串和中间件的不同架构，这启用了一些独特的功能（如异步防护栏、内容过滤器、自我修复、自动延续和本机多模式支持）。 我目前正在开发一个希望优雅的 API，它使请求和处理流式结构化输出变得容易（从 BAML 中汲取灵感，但如果 API 支持，则自动升级到 json 模式）。除此之外，我还在开发一个对话记忆中间件，它会自动修剪对话记录中不相关的历史部分。我希望这能让模型更具可操作性，但不会丢失关键细节。 提前感谢您的关注并提供任何建设性的反馈或想法。最后，如果您有兴趣做出贡献，请给我留言。    提交人    /u/mackross   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hit4q3/instruct_similar_to_microsoft_guidance_but_in_ruby/</guid>
       <pubDate>Fri, 20 Dec 2024 20:37:15 GMT</pubDate>
     </item>
@@ -32,13 +46,6 @@
       <description><![CDATA[O3 在 AGI-arc 测试中表现出色，但有趣的是他们公布了计算成本。因此，为了在 100 个问题中获得 75% 的分数，他们花费了 2000 美元的零售成本。而为了获得 82% 的分数，他们花费了 172 倍的计算成本，并要求不公布成本。但对于一堆合乎逻辑的问题来说，这似乎是一大笔钱，不是吗？ 来源  https://arcprize.org/blog/oai-o3-pub-breakthrough    提交人    /u/NoWeather1702   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hirxjp/o3_price/</guid>
       <pubDate>Fri, 20 Dec 2024 19:43:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI o3 和 o3-mini 发布</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hirhk2/openai_o3_and_o3mini_annouced/</link>
-      <description><![CDATA[因此，OpenAI 发布了 o3 和 o3-mini，它们在编码和数学任务上表现出色。Arc AGI 数字看起来很疯狂！查看此帖子中总结的所有详细信息：https://youtu.be/E4wbiMWG1tg?si=lCJLMxo1qWeKrX7c    提交人    /u/mehul_gupta1997   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hirhk2/openai_o3_and_o3mini_annouced/</guid>
-      <pubDate>Fri, 20 Dec 2024 19:22:59 GMT</pubDate>
     </item>
     <item>
       <title>探索安全、合作的人工智能之路</title>
@@ -81,13 +88,6 @@
       <description><![CDATA[当然是保持相同的工资。不同意这一点的公司应该支付比留住工人更昂贵的自动化税。 盈利的公司将由于人工智能比以前生产更多而增加收入。 人们将有时间调整他们的心态，并在工作之外寻找其他东西来形成他们身份的花瓶。 经济可以继续照常运转。作为奖励，消费者有更多的时间，并且会消费更多。    提交人    /u/dom-dos-modz   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hihv2a/during_the_transition_to_a_mainly_jobless_society/</guid>
       <pubDate>Fri, 20 Dec 2024 11:31:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们是否都有使用各种超参数调整过的 LLM 的不同版本？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hihkok/are_we_all_different_versions_of_llms_tuned_with/</link>
-      <description><![CDATA[这是我和几个朋友前几天讨论的话题。随着所有 LLM 都趋向于人类智能，模仿人类大脑，如果我们反转这个思想实验会怎么样？ 如果我们所有人实际上都是具有不同超参数（即不同温度、topK、topP、上下文窗口、领域知识等）的 AI 的一种或另一种形式，会怎么样？我们在特定领域接受的训练越多，我们就会变得越好，变得越专业。是的，我们所有的神经网络都有一个初始配置（原始智能），但随着时间的推移，根据我们训练它的数据集（体育、编码、法律），我们会做得更好。 我们称之为创造性的小习惯或行为只是我们被烘烤的不同温度设置。更有创造力的人会产生更多幻觉，这与 LLM 在较高温度下发生的情况相同。 我们的讨论陷入僵局的地方是意识问题。我们还不知道意识在哪里，我们如何模仿意识？我的意思是真正的 AGI 不是 LLM 能够解决 NP 难题或胜过 PhD 级数学家，而是它能够真正感受到。    提交人    /u/Top-Victory3188   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hihkok/are_we_all_different_versions_of_llms_tuned_with/</guid>
-      <pubDate>Fri, 20 Dec 2024 11:11:02 GMT</pubDate>
     </item>
     <item>
       <title>我提取了 Microsoft Copilot 的系统指令——这里的东西太疯狂了。它被指示说谎，让微软看起来不错，而且充满了令人尴尬的企业联盟。以下是分析的关键部分和整个提示本身。</title>
