@@ -4,7 +4,56 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 22 Dec 2024 21:13:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 01:12:47 GMT</lastBuildDate>
+    <item>
+      <title>可加载数据的二维码图像链接！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hkbikh/a_qr_code_image_link_that_can_be_loaded_with_data/</link>
+      <description><![CDATA[      链接如下：https://qr-code-generator.webjeda.com/qr/[YOUR_TEXT_OR_LINK_HERE]/qr.svg 您可以将任何数据（文本、链接）放在[YOUR_TEXT_OR_LINK_HERE]的位置，生成的图像将是包含该数据的二维码。 随时随地获取二维码生成器图片链接 例如 https://qr-code-generator.webjeda.com/qr/https://google.com/qr.svg 此图片链接显示一个二维码，扫描后会带您进入 google.com。    提交人    /u/sharath725   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hkbikh/a_qr_code_image_link_that_can_be_loaded_with_data/</guid>
+      <pubDate>Mon, 23 Dec 2024 00:13:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>自托管数据库还是付费服务？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hkbh5t/selfhost_database_or_pay_for_a_service/</link>
+      <description><![CDATA[我正在构建我的第一个应用程序，它有一个后端、前端和一个数据库。后端可能必须放在 docker 容器中，我认为数据库必须放在单独的容器中。 我相信支付数据库主机的费用大约为每月 10 美元，而自己托管后端只会增加微不足道的成本？ 我应该选择付费服务吗，因为它更容易管理？ 只是想获得一些建议，看看其他人怎么做。 编辑：我应该说它是一个 Postgres 数据库。    提交人    /u/AchillesFirstStand   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hkbh5t/selfhost_database_or_pay_for_a_service/</guid>
+      <pubDate>Mon, 23 Dec 2024 00:11:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>布局网格实际上仍然有用吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hkao6m/are_layout_grids_actually_still_relevant/</link>
+      <description><![CDATA[过去，人们经常谈论网页设计的 12 列网格。这意味着在每个页面上，列之间的间距都非常一致，并且页面上的所有元素都占用了与定义列数相等的空间。例如，即使是英雄部分，文本也会占用一定数量的列，而周围的空间则占用其余的列。 我在设计理论中经常看到这个概念，但在编写 CSS 或设计 Web 应用程序时，我再也没有看到任何人谈论它了？这个概念实际上仍然有意义吗？还是它已被一种更具动态性的网页设计风格所取代，其中一致的间距很重要，但屏幕元素或多或少可以位于它们似乎适合的任何地方？    提交人    /u/therottenworld   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hkao6m/are_layout_grids_actually_still_relevant/</guid>
+      <pubDate>Sun, 22 Dec 2024 23:29:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>创建个人博客 - 旧式互联网风格 - 用于我的写作和其他创意作品/冒险</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hk9x70/creating_a_personal_blog_old_internet_style_for/</link>
+      <description><![CDATA[大家好，我有点想创建自己的“博客网站”，有点想走老式的互联网路线，似乎每个人都有自己的博客和网站，他们自己写的东西。  是的，我非常清楚 WordPress 的存在，并且知道如果我只使用 WordPress 来完成这项任务，可能会更容易、更省时。然而，这不是重点。  是的，如果重点只是有一个平台来托管我的作品，WordPress 将是完美的选择，但我实际上想把这个项目当作一种学习体验，以真正发展我的技能并更多地了解 web-dev 和诸如此类的东西。  所以我真正想在这里请求的是你们可以指导我的任何建议/资源/路线图，我将不胜感激。谢谢 &lt;3    由    /u/mallratserf 提交   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hk9x70/creating_a_personal_blog_old_internet_style_for/</guid>
+      <pubDate>Sun, 22 Dec 2024 22:51:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>抓取了一个网站，并尝试复制。可以使用信息。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hk8jya/scraped_a_site_and_trying_to_get_a_clone_up_could/</link>
+      <description><![CDATA[因此，我主要从事后端开发，只有几年的经验。最近，我管理的一个论坛的所有者去世了。在我们丢失域名之前，我抓取了与之相关的网站和论坛，以尽可能多地存档。  好吧，域名丢失是今天发生的。这超出了我的能力范围，但是有没有一种简单的方法可以获取存档信息并克隆网站，或者我们需要访问所有其他内容？我需要什么？  首先，我假设可以访问数据库以及任何其他后端内容？     提交人    /u/A_little_rose   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hk8jya/scraped_a_site_and_trying_to_get_a_clone_up_could/</guid>
+      <pubDate>Sun, 22 Dec 2024 21:45:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>限制个人项目的工作时间是个好主意吗？（即使你有空闲时间）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hk858x/is_it_a_good_idea_to_limit_the_time_you_work_on_a/</link>
+      <description><![CDATA[我在观看 code with me 视频时遇到了这个问题。为了回答观众的问题，那个人说了类似“我每天花大约 2 到 4 个小时开发这个应用”这样的话。 我有一个像墓地一样的文件夹，里面全是我最终失去兴趣的项目。有些项目处于开始阶段，有些项目几乎已经准备好启动。我相信我们大多数人都有这样的墓地 不过，所有这些项目都有一个共同点：我为它们付出了巨大的努力。比如，一旦我有了想法并认为“我可以构建它”，我就会立即开始工作，直到我睁不开眼睛或被其他事情分散注意力为止。 而且大多数时候，我都会在项目出现烦人的错误或需要处理的繁重工作时离开。也许这就是我没有完成它们的原因之一。 由于我目前只从事自由职业，我可以花一两天时间在自己的项目上。大多数时候我都这样做。 也许完成它们的答案是慢慢来，不要一口吃掉整个甜点？    提交人    /u/mekmookbro   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hk858x/is_it_a_good_idea_to_limit_the_time_you_work_on_a/</guid>
+      <pubDate>Sun, 22 Dec 2024 21:26:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我什么时候应该使用状态？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hk7vxe/when_should_i_use_state/</link>
+      <description><![CDATA[今天，我正在为我的网络应用制作一个类似俱乐部的功能，我决定将用户所在的所有俱乐部存储在状态中（从 api 检索俱乐部数据之后）。但后来我心想，这太多了吗？我还将非敏感用户数据存储在状态中以便快速访问，但你们觉得呢。我什么时候应该使用状态？    提交人    /u/Altugsalt   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hk7vxe/when_should_i_use_state/</guid>
+      <pubDate>Sun, 22 Dec 2024 21:13:44 GMT</pubDate>
+    </item>
     <item>
       <title>协会网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1hk5lip/association_website/</link>
@@ -22,7 +71,7 @@
     <item>
       <title>对于 Web 应用程序，我需要查看哪些内容</title>
       <link>https://www.reddit.com/r/webdev/comments/1hk2kq9/what_do_i_need_to_take_a_look_at_for_a_webapp/</link>
-      <description><![CDATA[嗨，我正在制作我的第一个 Web 应用程序。它应该是一个用于问答之夜的应用程序，因此它应该有一个管理员端，可以在其中提问和开始回合，以及一个用户端，可以在其中回答上述问题。我的主要问题是设置问题的自动生成页面，从用户那里获取答案，并将用户从一轮的 html 端重定向到下一轮。 提前致谢！    提交人    /u/entity_Theix   [链接] [评论]]]></description>
+      <description><![CDATA[嗨，我正在制作我的第一个 Web 应用程序。它应该是一个用于问答之夜的应用程序，因此它应该有一个管理员端，可以在其中提出问题并开始轮次，以及一个用户端，可以在其中回答上述问题。我的主要问题是设置问题的自动生成页面，从用户那里获取答案，并将用户从一轮的 html 端重定向到下一轮。 提前致谢！    提交人    /u/entity_Theix   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hk2kq9/what_do_i_need_to_take_a_look_at_for_a_webapp/</guid>
       <pubDate>Sun, 22 Dec 2024 17:00:47 GMT</pubDate>
     </item>
@@ -36,14 +85,14 @@
     <item>
       <title>在网站标题中添加实时待办事项列表</title>
       <link>https://www.reddit.com/r/webdev/comments/1hk1ipt/adding_real_time_to_do_list_to_website_header/</link>
-      <description><![CDATA[大家好，我是网页设计、Wordpress 等方面的新手，在发布此信息之前，我花了几个小时研究这个问题。 有人知道我该如何在我的网站中添加实时、响应式的待办事项列表吗（例如，参见图片） 我知道我可以嵌入整个谷歌日历，但这对我的目的来说有点大材小用。 我的想法是让人们通过我的博客实时查看我每天重复任务的进度。 https://preview.redd.it/355837kybf8e1.png?width=1512&amp;format=png&amp;auto=webp&amp;s=a6ef31a4e87972edd0150c2a2e62ae0e66d37fda 任何意见都值得赞赏。甚至相关教程的链接等    提交人    /u/melborn_1334   [链接] [评论]]]></description>
+      <description><![CDATA[大家好，我是网页设计、Wordpress 等方面的新手，在发布此信息之前，我花了几个小时研究这个问题。 有人知道我该如何在我的网站中添加实时、响应式的待办事项列表吗（例如，参见图片） 我知道我可以嵌入整个谷歌日历，但这对我的目的来说有点大材小用。 我的想法是让人们通过我的博客实时查看我每天重复任务的进度。 https://preview.redd.it/355837kybf8e1.png?width=1512&amp;format=png&amp;auto=webp&amp;s=a6ef31a4e87972edd0150c2a2e62ae0e66d37fda 任何意见都值得赞赏。 甚至相关教程的链接。等等    提交人    /u/melborn_1334   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hk1ipt/adding_real_time_to_do_list_to_website_header/</guid>
       <pubDate>Sun, 22 Dec 2024 16:09:38 GMT</pubDate>
     </item>
     <item>
       <title>LiveAPI Devlogs：通过 3 种行业启发的方法转变用户入职方式</title>
       <link>https://www.reddit.com/r/webdev/comments/1hk0776/liveapi_devlogs_transforming_user_onboarding_with/</link>
-      <description><![CDATA[在开发产品时，我面临的一个挑战是难以让人们加入平台。  为了解决这个问题，我决定分析市场上类似产品的表现，从中获得一些见解，并利用这些经验来开发我产品的入门功能。 我想以文章的形式分享我的学习成果。如果您想为新用户创建流畅的入门体验，请随时在此处查看。 https://journal.hexmos.com/liveapi-devlogs03/    提交人    /u/lordwiz360   [链接] [评论]]]></description>
+      <description><![CDATA[在开发产品时，我面临的一个挑战是难以让人们加入平台。  为了解决这个问题，我决定分析市场上类似产品的表现，从中获得一些见解，并利用这些经验来开发我产品的入门功能。 我想以文章的形式分享我的经验。如果您想为新用户创建流畅的入门体验，请随时在此处查看。 https://journal.hexmos.com/liveapi-devlogs03/    提交人    /u/lordwiz360   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hk0776/liveapi_devlogs_transforming_user_onboarding_with/</guid>
       <pubDate>Sun, 22 Dec 2024 15:04:32 GMT</pubDate>
     </item>
@@ -53,55 +102,6 @@
       <description><![CDATA[它有一些不错的功能，如果你将它与 SolidJS 一起使用，它可以很好地集成，但我发现它有点受限。 如果你使用的是 Google oauth 或类似程序，它会出奇地棘手，在 webviewwindows 上的自定义有限，启动 rust 监听器以向 js 发送数据等，... 不知不觉中，你就编写了很多 Rust 来让 electron 中开箱即用的东西工作（显然是更成熟的框架）。 我很好奇你将 Tauri 用于什么样的应用程序？    提交人    /u/dmart89   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hjz8vt/has_anyone_used_tauri_to_build_a_desktop_app/</guid>
       <pubDate>Sun, 22 Dec 2024 14:13:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sass：你可以嵌套命名空间属性吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hjxqc0/sass_can_you_nest_namespaced_properties/</link>
-      <description><![CDATA[我读到这是可能的，但是当我尝试下面的代码时，它似乎对我不起作用： body { `color: $primary;` `font {` `family: $type-serif;` `size: 18px;` `}`  &gt; 我遗漏了什么吗？    提交人    /u/Weekly_Frosting_5868   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hjxqc0/sass_can_you_nest_namespaced_properties/</guid>
-      <pubDate>Sun, 22 Dec 2024 12:40:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>除了 Web 开发以外，您还擅长其他什么吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hjxn1f/are_you_specialized_in_something_else_alongside/</link>
-      <description><![CDATA[我之前和一些技术人员交谈过，发现他们中的大多数人都不太重视 Web 开发。我觉得大多数人都把 Web 开发视为在专攻其他领域之前的垫脚石。大多数人声称他们在专攻其他领域之前曾从事过 Web 开发。我已经独自学习了几年 Web 开发并完成了一些项目，但这让我觉得自己有点像冒名顶替综合症，因为我多年来所做的所有这些工作都是别人的垫脚石或他们职业生涯中的小点。    提交人    /u/starengates   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hjxn1f/are_you_specialized_in_something_else_alongside/</guid>
-      <pubDate>Sun, 22 Dec 2024 12:33:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>我最近建立了一个 LinkedIn Scraper 解决方案</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hjx2yy/i_recently_built_a_linkedin_scraper_solution/</link>
-      <description><![CDATA[        提交人    /u/powerful52   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hjx2yy/i_recently_built_a_linkedin_scraper_solution/</guid>
-      <pubDate>Sun, 22 Dec 2024 11:54:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 DNS 中，当主 A 记录的 IP 没有响应请求时，是否可以路由到不同的 IP 地址？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hjwzps/is_it_possible_to_route_to_a_different_ip_address/</link>
-      <description><![CDATA[我有一个指向我家庭 IP 的 A 记录。问题是这个 IP 地址上的服务器并非一直在运行。有没有办法为始终运行的服务器提供备用 IP？我知道一种可以提供始终运行的服务器的服务，但我真的不确定如何解决这个问题。 任何帮助都将不胜感激！！    提交人    /u/RadoslavL   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hjwzps/is_it_possible_to_route_to_a_different_ip_address/</guid>
-      <pubDate>Sun, 22 Dec 2024 11:48:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>避免感染 bubbi.app</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hjwpan/avoid_bubbiapp_like_plague/</link>
-      <description><![CDATA[曾经使用过他们的服务来生成图像，收费 1 欧元 一周后，他们试图从我的卡上收取 29 欧元，让我注册了他们最昂贵的订阅。 我错了，因为我使用的网站没有信誉。希望这能为其他人省去麻烦 :)    提交人    /u/thibthib18   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hjwpan/avoid_bubbiapp_like_plague/</guid>
-      <pubDate>Sun, 22 Dec 2024 11:25:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>许多程序员使用 .sh tld 有什么特殊原因吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hjvt00/is_there_any_particular_reason_why_many/</link>
-      <description><![CDATA[最近我看到很多程序员都在使用这个顶级域名。我试着搜索这个域名到底是什么意思，根据维基百科；  .sh 是英国海外领土圣赫勒拿、阿森松和特里斯坦达库尼亚的互联网国家代码顶级域名，尽管它主要用于圣赫勒拿。  我不知道，但它甚至不意味着与编程或其他任何东西有关的东西。它只是一个普通的域名（或者我的意思是，普通的）。 我也试着搜索它的价格，也许这就是很多人使用它的原因，但当我在 porkbun 上查看时，它的价格是 26-46 美元？！ 我只是对这个顶级域名很好奇，仅此而已。也许有人知道原因是什么。 提前谢谢您。    提交人    /u/Old-Property3847   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hjvt00/is_there_any_particular_reason_why_many/</guid>
-      <pubDate>Sun, 22 Dec 2024 10:14:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>创建面向公众的搜索索引最简单、最适合初学者的方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hjurn2/whats_the_easiest_most_beginnerfriendly_way_to/</link>
-      <description><![CDATA[我只有非常基本的编码经验，虽然我愿意在这里学习简单的东西，但我更愿意走最简单的路线。我曾尝试过 Algolia 和 Django，但它们可能有点超出我现在的技能范围。我不希望索引很多项目或让很多人访问索引。是否有网站/网站组合可以创建和构建索引（如 Algolia）并创建和托管前端 UI 以使用搜索，这些网站/网站组合是免费的，对初学者友好，编码最少？谢谢！    提交人    /u/Kalsain   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hjurn2/whats_the_easiest_most_beginnerfriendly_way_to/</guid>
-      <pubDate>Sun, 22 Dec 2024 08:50:28 GMT</pubDate>
     </item>
     <item>
       <title>Hono.js 与 Express.js 的比较</title>
