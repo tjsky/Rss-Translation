@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 26 Dec 2024 01:09:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 03:20:18 GMT</lastBuildDate>
+    <item>
+      <title>在使用 Reddit 等第三方 API 时，还有其他人遇到过速率限制问题吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hmdljh/has_anyone_else_faced_issues_with_ratelimiting/</link>
+      <description><![CDATA[您是如何优化调用的？    提交人    /u/Aleena_22   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hmdljh/has_anyone_else_faced_issues_with_ratelimiting/</guid>
+      <pubDate>Thu, 26 Dec 2024 01:18:02 GMT</pubDate>
+    </item>
     <item>
       <title>移动版 Safari（iOS、iPadOS）忽略了某些 CSS 样式</title>
       <link>https://www.reddit.com/r/webdev/comments/1hmcgma/mobile_safari_ios_ipados_ignores_some_cssstyles/</link>
@@ -25,13 +32,6 @@
       <description><![CDATA[大家好。大约 2 个月前，我发布了我的作品集，请其他人批评。我对作品集进行了大量改进，我认为它处于非常好的状态。我没有以前作品集的快照，所以我无法真正进行前后对比。但我仍然希望其他专业人士或至少其他 Web 开发人员对我的作品提出批评 🙂 这里是：https://www.richardlechko.com/     提交人    /u/Careless_Care_9246   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hmbrdl/roast_my_portfolio_part_2/</guid>
       <pubDate>Wed, 25 Dec 2024 23:35:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>大多数软件只是被美化的 JSON/XML 抽象</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hmaszg/majority_of_software_are_just_glorified_jsonxml/</link>
-      <description><![CDATA[      拿任何一个应用程序或工具，把它拆开，你会得到什么？一堆结构化数据在 XML、JSON、YAML 或我们猴子想到的任何专有的 `key:value` 数据结构中被混洗  CMS：一个用于博客文章和元数据的 JSON 编辑器。 API 客户端：用于调整 JSON 负载的精美 UI。 基础设施即代码：具有斯德哥尔摩综合症的 YAML。 工作流工具：拖放式 GUI 生成与您手写相同的 JSON，如果您不是太忙于假装高效的话。 排队系统？一种混洗 JSON 消息的复杂方法，它会产生更多的 JSON，即关于 JSON 如何移动的 JSON。 无服务器计算？更多 YAML 配置 CI/CD 管道？ YAML，用于自动部署 JSON 编辑器  REST/GraphQL/Soap：所有这些只是通过网络发送 JSON 的方法。  M$ Office 工具和文件：等等？它们都只是引擎盖下的 XML 文件？  谁是“JSON Silvia”？！😵‍💫    提交人    /u/Master-Variety3841   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hmaszg/majority_of_software_are_just_glorified_jsonxml/</guid>
-      <pubDate>Wed, 25 Dec 2024 22:43:15 GMT</pubDate>
     </item>
     <item>
       <title>刚刚发现 black.com</title>
@@ -83,13 +83,6 @@
       <pubDate>Wed, 25 Dec 2024 18:30:52 GMT</pubDate>
     </item>
     <item>
-      <title>关于链接预览/嵌入的安全性的问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hm5dt4/question_about_the_safety_of_link_previewsembeds/</link>
-      <description><![CDATA[许多社交媒体应用允许或倾向于在以链接形式发送时生成网页预览。Discord、Twitter 等都这样做。在这里问这个问题可能有点奇怪，如果是这样，我深表歉意。但这些预览安全吗？收到一个生成预览的链接，在恶意软件或其他方面是否已经很危险了？这些预览是在服务器端还是在设备上生成的？    提交人    /u/DrWhiteWolf   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hm5dt4/question_about_the_safety_of_link_previewsembeds/</guid>
-      <pubDate>Wed, 25 Dec 2024 17:53:42 GMT</pubDate>
-    </item>
-    <item>
       <title>关于我的投资组合网站的想法 | Next.JS 和 Contenful CMS</title>
       <link>https://www.reddit.com/r/webdev/comments/1hm57pw/thoughts_on_my_portfolio_site_nextjs_contenful_cms/</link>
       <description><![CDATA[https://alhasin.com 我刚刚完成了我的新个人投资组合的首次发布，非常感谢您能分享的任何建设性反馈。    提交人    /u/itsMajed   [link] [评论]]]></description>
@@ -109,6 +102,13 @@
       <description><![CDATA[       由    /u/josh252  提交  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hm3qe2/dashlane_publishes_web_extension_code_for/</guid>
       <pubDate>Wed, 25 Dec 2024 16:27:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Cloud Run 中运行的 Laravel 前端和 FastAPI 后端之间的 API 令牌的最佳实践是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hm3ehp/what_is_the_best_practice_for_api_tokens_between/</link>
+      <description><![CDATA[此 Web 应用程序有两个部分：用户与之交互的 Laravel 前端和第三方调用者可以进行 API 调用的 FastAPI Python 后端。我需要 Laravel 前端也能够对后端进行 API 调用。在这种情况下，Laravel 是否应向用户发出 authn 令牌，该令牌由 laravel 应用程序与后端令牌进行交易，后端令牌必须存储在数据库中才能进行后端调用，第三方编程调用者直接通过 oauth2 向后端获取令牌？ 或者 Laravel 前端应用程序是否应向用户发出 authn 令牌，但从后端的角度来看是单个“用户”，并且有一个后端令牌用于进行后端 API 调用？这似乎是一个安全问题 任何有关最佳实践的建议都将不胜感激！ 编辑：我正在考虑的一件事是让 Laravel 和后端访问同一个用户数据库（包含用户名、密码等），这样 oauth2 机制就可以相同    提交人    /u/ThisImpressi0n   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hm3ehp/what_is_the_best_practice_for_api_tokens_between/</guid>
+      <pubDate>Wed, 25 Dec 2024 16:08:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
