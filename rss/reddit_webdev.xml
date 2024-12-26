@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 26 Dec 2024 12:30:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 15:15:53 GMT</lastBuildDate>
+    <item>
+      <title>开发浏览器扩展时被内容安全策略阻止</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hmq290/blocked_by_content_security_policy_when/</link>
+      <description><![CDATA[我正在创建我的第一个浏览器扩展。目的是在用户导航到服务器 A 上的管理仪表板中的特定页面后，自动将文件从服务器 A 传输到服务器 B。 一旦在页面上检测到文件链接，就会插入一个按钮。当用户单击按钮时，我尝试 fetch(&lt;link_url&gt;) 以便将其上传到服务器 B。这时会发生以下错误： 错误屏幕截图 据我了解，这可能是由远程服务器设置的内容安全策略中的规则引起的，该规则阻止列表中的主机获取文件，或者可能是我的浏览器扩展 manifest.json 文件中设置的限制。 如果我使用 window.open(&lt;link_url&gt;)，文件会成功下载，但会下载到我的下载文件夹中，而不是下载到我的脚本可以处理的 blob 中。有没有办法完成我尝试的操作？如果不使用 fetch/post，那么我可以使用扩展下载 API 吗？我以前从未使用过它，所以我不确定是否可以将文件从下载 API 上传到服务器 B。我很感激任何帮助。    提交人    /u/Produkt   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hmq290/blocked_by_content_security_policy_when/</guid>
+      <pubDate>Thu, 26 Dec 2024 15:02:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reddit 大量使用 Web 组件/自定义元素。奇怪吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hmpylx/reddits_extensive_use_of_web_componentscustom/</link>
+      <description><![CDATA[如果您检查（新）reddit 页面，您会发现它充满了自定义元素，这些元素可以执行各种操作并引用其他自定义元素来传播数据；我从未见过这样的模式，其中 Web 组件用于如此多的功能。通常，您会将它们视为小部件或构建块，或具有便于组合的“单一责任”功能。  这几乎感觉像是对 Web 组件的滥用。不过，我真的不知道 Web 组件适合在哪里。我认为它们作为 HTML 的扩展非常棒 - 创建您希望存在的元素或特定于您的域的元素。但是，它们有点破坏了语义网的理念，对吧？在您的站点之外，没有人知道 my-foo-element 是什么意思。  我很纠结，因为它们很有吸引力，但有时（对我而言）整个概念似乎有点误导。 有什么想法吗？    提交人    /u/kizerkizer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hmpylx/reddits_extensive_use_of_web_componentscustom/</guid>
+      <pubDate>Thu, 26 Dec 2024 14:57:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>可视化建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hmpkv2/suggestions_for_visualization/</link>
+      <description><![CDATA[伙计们，我刚刚进入前端框架并使用 React 构建了一个小项目来创建家谱。后端在 fastapi 上，带有 neo4j graphdb。我需要一些库或 UI 的建议，以便在 React 中构建可视化图表的前端。我该如何开始呢？ 谢谢！    提交人    /u/Kooky_Impression9575   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hmpkv2/suggestions_for_visualization/</guid>
+      <pubDate>Thu, 26 Dec 2024 14:37:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>现在学习 Web 开发已经过时了吗？2025 年还有人从头开始学习 Web 开发吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hmpk5e/is_learning_web_dev_dead_now_should_anyone_start/</link>
+      <description><![CDATA[我知道提出这种表面层面的担忧会冒犯很多人，但是随着可以创建网站（即使是非常基本的网站）的AI代理和低代码和无代码工具的复杂性不断上升，学习webdev会不会变得和学习英语语法一样，人们可以在不学习正确语法的情况下说一点英语。    提交人    /u/indianladka   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hmpk5e/is_learning_web_dev_dead_now_should_anyone_start/</guid>
+      <pubDate>Thu, 26 Dec 2024 14:36:21 GMT</pubDate>
+    </item>
     <item>
       <title>其他“非主流”设计语言/组件库，比如新野兽派？最好是 React。</title>
       <link>https://www.reddit.com/r/webdev/comments/1hmlgok/other_nonmainstream_design_languagescomponent/</link>
@@ -78,37 +106,9 @@
     <item>
       <title>Lib 文件与 Util 文件</title>
       <link>https://www.reddit.com/r/webdev/comments/1hm7oru/lib_file_vs_util_file/</link>
-      <description><![CDATA[所以，这可能是一个“不重要”的问题，但你们在 utils 目录和 lib 目录中放了什么？我看到 DB 连接都在其中，类型文件夹都在其中，常量文件夹都在其中。你们是怎么做？ 我是编程新手，但我一直很注重 PC 上的组织，这已经转移到项目结构上，我很想知道从事这项工作的专业人士是怎么想的。    提交人    /u/zakkmylde2000   [链接] [评论]]]></description>
+      <description><![CDATA[所以，这可能是一个“不重要”的问题，但你们在 utils 目录和 lib 目录中放了什么？我看到了 DB 连接、类型文件夹和常量文件夹。你们是怎么做呢？ 我是编程新手，但我一直很注重 PC 的组织，这已经转移到项目结构上，我很想知道从事这项工作的专业人士是怎么想的。    提交人    /u/zakkmylde2000   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hm7oru/lib_file_vs_util_file/</guid>
       <pubDate>Wed, 25 Dec 2024 19:54:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要帮助对实时竞价网站进行报价 – 成本和时间表估算吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hm7i15/need_help_quoting_a_realtime_bidding_website_cost/</link>
-      <description><![CDATA[大家好， 我住在美国，目前正在与一位顾问合作，计划并建立一个实时竞价网站。我需要帮助估算项目的成本和时间表。以下是我们正在考虑的功能的简要列表： 核心功能 (MVP)：  实时竞价功能（支持 WebSocket）。 为买家和管理员提供安全的用户身份验证。 用于管理/查看拍卖的管理员和买家门户。 用于查看出价、历史记录和关注列表的仪表板。 拍卖管理（开始、停止和安排拍卖）。 用于中标的支付网关集成。 通知系统（出价高于、拍卖结束和中标时发出警报）。 拍卖的出价历史记录、关注列表和底价。 针对跨设备使用的移动优化。  我们还在考虑一些高级功能，例如托管服务、基于角色的访问控制和高级安全措施以供以后开发使用。 我的问题：  开发这样的东西（MVP）要花多少钱？ 我应该期待什么样的开发时间表？ 对于我应该优先考虑或简化哪些事情以保持成本可控，您有什么建议吗？  我很感激任何意见或建议！如果您曾经参与过类似的项目，或者对预算和确定此类应用程序的范围有见解，我很乐意听取您的意见。 提前谢谢您！    提交人    /u/Philo2099   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hm7i15/need_help_quoting_a_realtime_bidding_website_cost/</guid>
-      <pubDate>Wed, 25 Dec 2024 19:44:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>当你得到第一份开发工作时你感觉如何？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hm7cia/how_did_you_feel_when_you_got_your_first_dev_job/</link>
-      <description><![CDATA[你对自己感到非常自豪吗？你情绪激动吗？感觉怎么样？    由    /u/EspressoOverdose  提交  [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hm7cia/how_did_you_feel_when_you_got_your_first_dev_job/</guid>
-      <pubDate>Wed, 25 Dec 2024 19:36:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们使用什么控制台工具/命令来解决一些项目问题？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hm63j9/what_console_toolscommands_you_guys_use_to_solve/</link>
-      <description><![CDATA[所以，我是一名 Web 开发人员，也是控制台工具爱好者，我还不算是专家，但我已经使用 Neovim 进行 Web 开发大约 3 年了，我有点喜欢它的使用方式。我开始深入研究可能对我作为 Web 开发人员有用的控制台工具。您能否分享一些有助于解决一些典型项目问题的终端命令用例？ 例如：它是一个简单而漂亮的“树”控制台工具，可能有助于为 README 文件生成项目的文件树。或者您可以将 jq 用于一些 json 翻译文件。或者您可能会运行一些简单的 shell 脚本来做一些事情…… 你们能分享一下你们的问题和解决方案吗？具体来说，我正在寻找使用 UI 解决相同问题效率不高的情况，但一些简单的控制台工具可以轻松解决它。 提前致谢！    提交人    /u/white_texter   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hm63j9/what_console_toolscommands_you_guys_use_to_solve/</guid>
-      <pubDate>Wed, 25 Dec 2024 18:30:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于我的投资组合网站的想法 | Next.JS 和 Contenful CMS</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hm57pw/thoughts_on_my_portfolio_site_nextjs_contenful_cms/</link>
-      <description><![CDATA[https://alhasin.com 我刚刚完成了我的新个人投资组合的首次发布，非常感谢您能分享的任何建设性反馈。    提交人    /u/itsMajed   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hm57pw/thoughts_on_my_portfolio_site_nextjs_contenful_cms/</guid>
-      <pubDate>Wed, 25 Dec 2024 17:44:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
