@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 28 Dec 2024 15:14:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2024 18:19:23 GMT</lastBuildDate>
+    <item>
+      <title>对于具有免费许可的项目来说，使用 CLA 有多普遍？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hoadru/how_common_is_the_use_of_cla_for_projects_with/</link>
+      <description><![CDATA[Drew DeVault 在他多年的旧博文中这样开头：  绝大多数开源项目都附带 CLA（贡献者许可协议）...  如今这是否或多或少是事实？是少数、绝大多数项目还是几乎没有项目？ 您知道哪些当前的例子？    提交人    /u/esiy0676   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hoadru/how_common_is_the_use_of_cla_for_projects_with/</guid>
+      <pubDate>Sat, 28 Dec 2024 17:23:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>复制文件并创建目录结构？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hoa48m/file_copy_with_directory_structure_creation/</link>
+      <description><![CDATA[我已经在 Google 上搜索到手指都流血了，却找不到解决办法。可能是因为咖啡不够，也可能只是我没有找到正确的搜索词。 我正在寻找一个 Windows 工具，无论是 UI 还是命令行，都可以让我指定一个文件目录并将它们复制到新的根目录，并根据源文件的日期和时间创建目录结构。 我放弃了 Lightroom，它做得很好的一件事就是提取媒体并将其放入我的根媒体文件夹中，结构如下： &lt;root&gt;\&lt;year&gt;\&lt;day&gt;最后一个文件夹的格式为 year-mo-day 如果该工具可以跳过目标中存在的文件，则可以获得加分。 我发现了很多专业的付费程序，它们可以做我想做的事情，但是无法证明成本是合理的，因为这些文件的创建/维护都不是用 $$ 进行的    提交人    /u/michaelh98   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hoa48m/file_copy_with_directory_structure_creation/</guid>
+      <pubDate>Sat, 28 Dec 2024 17:11:02 GMT</pubDate>
+    </item>
     <item>
       <title>正在寻找一款可以跨设备同步我的播客收听的应用程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1ho5p7x/looking_for_an_app_to_sync_my_podcast_listening/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[https://github.com/katanemo/archgw 披露：我在这里工作，并沿着 Envoy 代理的核心贡献者构建了 Arch。问我任何事情。 Arch 建立在 Envoy Proxy 之上（并由其核心贡献者构建），其信念是： 提示是细致入微且不透明的用户请求，它们需要与传统 HTTP 请求相同的功能，包括安全处理、智能路由、强大的可观察性以及与后端（API）系统的集成以实现个性化——所有这些都在业务逻辑之外。 Arch 采用专门构建的 LLM 设计，可处理与提示的处理和处理有关的关键但未分化的任务，包括检测和拒绝越狱尝试、智能地调用“后端” API 来满足提示中表示的用户请求，路由到上游 LLM 并提供其之间的灾难恢复，以及集中管理提示和 LLM API 调用的可观察性。    提交人    /u/AdditionalWeb107   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hn84xa/arch_gateway_intelligent_gateway_for_ai_agents/</guid>
       <pubDate>Fri, 27 Dec 2024 05:43:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>自托管 ebook2audiobook 转换器，支持语音克隆和 1107 多种语言:)</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hn5ncv/self_hosted_ebook2audiobook_converter_supports/</link>
-      <description><![CDATA[      我一直在研究的一个很酷的可访问性副项目 完全免费离线 演示音频文件位于自述文件中 :) 如果您需要，它有一个独立的 docker 镜像    提交人    /u/Impossible_Belt_7757   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hn5ncv/self_hosted_ebook2audiobook_converter_supports/</guid>
-      <pubDate>Fri, 27 Dec 2024 03:20:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>⚙️ 介绍 Godini，一个 INI 配置管理工具</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hn50fb/introducing_godini_an_ini_configuration/</link>
-      <description><![CDATA[大家好！👋 我一直在研究这个名为 Godini 的小工具，我很高兴终于能与大家分享它！🎉 这是一个灵活的命令行工具，可帮助您轻松读取和操作 INI 配置文件中的设置——但它不止于此！它还适用于其他简单的键值格式，如 .env 文件。对于 DevOps 任务、快速配置调整和自动化工作流程非常方便。 如果这听起来像你会觉得有用的东西，请在 GitHub 上查看它，看看它如何简化你的工作流程。反馈、想法，甚至只是一颗星都意义重大！💬 ⭐ --- 附言还请查看我的另一个项目 TreeGen 的新版本，之前我还没有机会在这个 sub-reddit 上介绍它。🙌    提交人    /u/4r7if3x   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hn50fb/introducing_godini_an_ini_configuration/</guid>
-      <pubDate>Fri, 27 Dec 2024 02:45:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
