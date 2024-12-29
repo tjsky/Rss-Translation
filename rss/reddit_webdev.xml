@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 29 Dec 2024 18:19:17 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2024 21:13:54 GMT</lastBuildDate>
+    <item>
+      <title>如何让我的网站出现在 Google 上？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hp5ye7/how_do_i_get_my_website_on_google/</link>
+      <description><![CDATA[如何索引我的网站以便在 Google 上可搜索？有人有好的教程视频吗？ 此外，如何确保在搜索结果中显示正确的链接（https 和 www）？ 示例 https://www.mysite.com    提交人    /u/Mrreddituser111312   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hp5ye7/how_do_i_get_my_website_on_google/</guid>
+      <pubDate>Sun, 29 Dec 2024 21:11:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>帮助非技术专业人员转型进入技术行业</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hp5s43/helping_nontech_professionals_transition_into_the/</link>
+      <description><![CDATA[您是否对开始科技职业生涯感到好奇，但却不知道从哪里开始？作为帮助许多非技术人员转型到科技行业的人，我很乐意指导您踏上这段激动人心的旅程。 我提供个性化的 1:1 指导，专为初学者量身定制。以下是我可以为您提供的帮助： • 为您的技术之旅创建分步个性化路线图。 • 将复杂的概念分解为简单的步骤。 • 通过现场编码课程、调试和代码审查进行动手实践。 • 作业可帮助您建立信心和实际技能。 无论您是在探索编程、Web 开发还是技术基础知识，我都会按照您自己的节奏为您提供支持。欢迎随时联系我们，让我们开始构建您在科技领域的未来！    提交人    /u/FewLifeguard4544   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hp5s43/helping_nontech_professionals_transition_into_the/</guid>
+      <pubDate>Sun, 29 Dec 2024 21:03:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>今天我了解到...</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hp3gu3/til_that/</link>
+      <description><![CDATA[... 即使设置了 z-index，position: absolute 看起来也高于 position: fixed    提交人    /u/Past-Sugar827   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hp3gu3/til_that/</guid>
+      <pubDate>Sun, 29 Dec 2024 19:20:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>既然在 GitLab 中直接编辑 Astro Starlight 或 Docusaurus 的 Markdown 文件很简单，为什么还要使用无头 CMS 来管理它们？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hp283p/why_use_a_headless_cms_to_manage_markdown_files/</link>
+      <description><![CDATA[TL;DR 要编辑 Markdown 文件，我应该使用 Payload CMS 还是 GitLab？我试用了 Gitea 和 GitLab，但实际上还没有试用过任何无头 CMS 平台。 暂时，在自托管的 GitLab 实例（使用大约 3.5 GB 的 RAM）上，我计划使用 Astro Starlight 或 Docusaurus 来撰写博客和文档。 虽然我偶尔会借助 ChatGPT 和/或 Claude.ai 编写简单的 Python 或 Bash 脚本来自动执行任务，但我既不是软件开发人员，也不渴望成为软件开发人员。 当我第一次了解无头 CMS 平台时，我认为它们可能是更新 Markdown 文件的合适工具。经过几个小时的研究，我暂时倾向于使用 Payload CMS。 但是，我阅读的反馈和评论越多，我就越犹豫是否使用 Payload CMS — 或者任何 CMS。 随着进一步深入研究，我意识到直接在 GitLab 中编辑 Markdown 文件非常简单。我还了解到，通过使用 webhook，我可以将 GitLab 配置为在我添加或修改 Markdown 文件时自动通知 Astro。这将触发几乎立即重建我的博客或文档，从而大大简化工作流程。 我也试用了 Gitea，但它缺少 GitLab 中对我很重要的功能：在编辑 Markdown 时查看同时并排预览的能力。它不完全是所见即所得，但对我来说已经足够接近了。 如果您好奇，GitLab 可能需要大约 3.5 GB 的 RAM，因为我打算遵循本指南在内存受限的环境中运行 GitLab。    提交人    /u/erfollain   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hp283p/why_use_a_headless_cms_to_manage_markdown_files/</guid>
+      <pubDate>Sun, 29 Dec 2024 18:26:09 GMT</pubDate>
+    </item>
     <item>
       <title>有人能向我解释一下 git/github 中的分支是如何工作的吗</title>
       <link>https://www.reddit.com/r/webdev/comments/1hp1rad/can_someone_explain_to_me_how_branching_works_in/</link>
@@ -22,7 +50,7 @@
     <item>
       <title>从哪里开始将 llms 集成到我的 webdev 工作流程中？</title>
       <link>https://www.reddit.com/r/webdev/comments/1hp0s6r/where_to_start_on_integrating_llms_into_my_webdev/</link>
-      <description><![CDATA[嗨，我是一名 Web 开发人员，我开发了一个小型 SaaS 应用程序并将其推向市场。  堆叠 Typescript、react、redux-tk、phaser.js（游戏引擎）和 firestore。 最近主要使用 Shad 进行样式设计。 无论如何，到目前为止，我已经非常成功地使用了 Claude + copilot，主要是因为我在 AI 热潮之前就学习了 Web 开发，因此了解我的整个代码库，并且可以闻到糟糕的代码。我以在 Claude.ai 网站上提示 Claude 的传统方式来做到这一点。  我还没有跳转到光标等，但想知道我是否错过了更大的生产力提升。  我很想知道 2024 年底的状况？人们每天都在使用什么并推荐什么？  人们从花费整整一年的时间使用各种人工智能工具等中学到了什么教训。 谢谢！    提交人    /u/deadant88   [链接] [评论]]]></description>
+      <description><![CDATA[嗨，我是一名 Web 开发人员，我开发了一个小型 SaaS 应用程序并将其推向市场。  堆叠 Typescript、react、redux-tk、phaser.js（游戏引擎）和 firestore。 最近主要使用 Shad 进行样式设计。 无论如何，到目前为止，我已经非常成功地使用了 Claude + copilot，主要是因为我在 AI 热潮之前就学习了 Web 开发，因此了解我的整个代码库，并且可以闻到糟糕的代码。我以在 Claude.ai 网站上提示 Claude 的方式做到这一点。  我还没有跳转到光标等，但想知道我是否错过了更大的生产力提升。  我很想知道 2024 年底的状况？人们每天都在使用什么并推荐什么？  人们从花费整整一年的时间使用各种人工智能工具等中学到了什么教训。 谢谢！    提交人    /u/deadant88   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hp0s6r/where_to_start_on_integrating_llms_into_my_webdev/</guid>
       <pubDate>Sun, 29 Dec 2024 17:23:25 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[嗨 正如标题所示，我想通过向电子邮件发送邀请来实现 WizzAir、Airbnb、Zoom、Google Meet 等可以实现的功能。 如我所见，会议/航班/预订已自动添加到我的日历中。 我尝试通过通过电子邮件发送 .ics 文件来实现这一点，但 gmail 只能识别约会并建议我手动将其添加到我的日历中。 你知道我该怎么做吗？ 谢谢    提交人    /u/Sapessiii   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hox3su/auto_add_event_to_calendar_from_mail/</guid>
       <pubDate>Sun, 29 Dec 2024 14:29:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>CSS 特殊性地狱</title>
-      <link>https://www.reddit.com/r/webdev/comments/1howpk3/css_specificity_hell/</link>
-      <description><![CDATA[因此，我决定重建一个网站，完全重新编写 HTML 和 CSS。 当我开始处理 CSS 时，我的问题出现了。 对我来说，事情变得更加复杂，网站的移动版和桌面版使用基本媒体查询的相同 CSS。但是，CSS 的某些方面会显示在其中一个上，而不会显示在另一方上。 经过几个小时无意义地移动元素后，我发现特异性是一个大问题。 我正在寻找的是某种工具，它可以向我显示正在使用的 CSS 以及未使用的 CSS，具体取决于特异性。chrome 中的 Dev Tools 有点帮助，但它没有向我显示我期望使用 CSS 的地方没有使用什么 CSS。 如果有人有任何见解或链接，我将不胜感激。    提交人    /u/MaxxB1ade   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1howpk3/css_specificity_hell/</guid>
-      <pubDate>Sun, 29 Dec 2024 14:08:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>corepack 的 packageManager 字段破坏了 package.json</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hownic/corepacks_packagemanager_field_is_breaking/</link>
-      <description><![CDATA[        提交人    /u/hyperknot   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hownic/corepacks_packagemanager_field_is_breaking/</guid>
-      <pubDate>Sun, 29 Dec 2024 14:05:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在 DigitalOcean 和 Hetzner 上部署了相同的应用程序！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hovril/i_deployed_the_same_app_on_digitalocean_and/</link>
-      <description><![CDATA[过去几年来，我一直是从 DigitalOcean 购买 VPS 的首选。然而，最近，一些更便宜的云提供商，特别是 Hetzner，受到了很多关注！ 在他们最便宜的计划中，您只需每月 4 美元 即可获得 2 个核心、4 GB RAM、40 GB SSD 和 20 TB 带宽！ ![Hetzner 定价 SS](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3x55o2e1jtllcd86yl1w.png) 要在 DigitalOcean 上获得类似的东西，您需要支付 24 美元/月！ 现在从纸面上看，这听起来很划算！似乎转用 Hetzner 是明智之举。但有什么问题吗？它真的像大家说的那么好吗？与 DigitalOcean 等相比，Hetzner 最便宜的计划可以处理多少流量？ 为了找出答案，我在同一地区的两个平台上部署了相同的应用程序，比较了它们的加载时间，并在此视频中分享了我的发现：https://youtu.be/mrDXF-Y9T50 如果你着急，这里是结果 👇   虚拟用户 Digital Ocean Hetzner    50 593.4ms 575.99   100 754.84ms 626.04   250 1.4s+ 950.23   500 6s 1.8s   费用 6 美元/月 4 美元/月      提交人    /u/devarifhossain   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hovril/i_deployed_the_same_app_on_digitalocean_and/</guid>
-      <pubDate>Sun, 29 Dec 2024 13:13:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>希望获得一些关于我的开源项目 UI 的意见</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hovqar/looking_to_get_some_opinion_on_my_open_source/</link>
-      <description><![CDATA[        提交人    /u/scoop_creator   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hovqar/looking_to_get_some_opinion_on_my_open_source/</guid>
-      <pubDate>Sun, 29 Dec 2024 13:11:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
