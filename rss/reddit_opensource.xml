@@ -4,7 +4,56 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 03 Jan 2025 15:16:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 18:20:52 GMT</lastBuildDate>
+    <item>
+      <title>批量创建带有简介和结尾的多个视频片段</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hss4q8/create_multiple_video_clips_with_intro_outro_in/</link>
+      <description><![CDATA[如果您和我一样，您就会知道从长视频中手动提取多个剪辑可能非常麻烦。这就是我构建批量剪辑生成器（一种免费的开源工具）来解决这个问题的原因！ 提供多个时间范围并一次导出所有相关剪辑，额外的好处是，它会为每个剪辑添加简介和结尾。 使用批量剪辑生成器，您可以： * ✅ 通过设置不同的时间范围，一次性提取多个视频剪辑。 * ✅ 为每个剪辑添加简介和结尾视频，以进行专业品牌推广。 * ✅ 在无损和压缩输出之间进行选择，以平衡质量和文件大小。 * ✅ 通过硬件加速加快您的进程。 * ✅ 自动保存所有设置以便快速重复使用。 批量剪辑生成器旨在提供一种简单、快速、有效的方法来剪辑多个视频片段。 这是项目的链接：GitHub 项目链接 下载应用程序：下载链接（Windows） 如果您发现它有用，请考虑在 GitHub 上留下一颗星！期待您的反馈！    提交人    /u/444_Guy   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hss4q8/create_multiple_video_clips_with_intro_outro_in/</guid>
+      <pubDate>Fri, 03 Jan 2025 17:41:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>我正在创建一个开源产品开发社区</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hss23h/im_starting_a_opensource_product_development/</link>
+      <description><![CDATA[我正在创建一个社区，让拥有不同技能的人聚集在一起，从产品规划到部署和推广，共同打造产品。 我希望通过创建可供人们使用并解决实际问题的产品来获得编程经验。我知道有很多人和我的想法一样，希望获得一些有效的经验，找到他们的第一份技术工作。 作为一名程序员，我面临的另一个问题是，我对我的代码没有信心，其他程序员会说它是一堆垃圾。但克服这个问题的最好方法是面对它，敞开心扉接受反馈，提高我的代码技能。而且我再次看到有很多初学者。 因此，CollabSquare 旨在成为一个自由判断的空间，初学者和专家可以聚集在一起，互相帮助、互相学习，构建重要的项目。 我知道初学者开始在开源项目中进行协作的最大障碍是不知道从哪里开始，以及难以看到正在构建的全局。因此，我们的想法是在项目中提供任务的详细描述和文档，包括项目理想化和规划过程。 目前，一切都将通过 GitHub Projects 和 GitHub 上的其他工具进行管理，但未来项目的想法之一是建立一个去中心化团队管理平台，允许私人项目注册协作和使用智能合约的利润分享协议。 我向社区公开的第一个项目是 CombatHub。这是单独工作的 Spring Boot Rest API 的后端存储库。我正在创建问题以跟踪已完成的工作，之后我将创建其他合作者可以处理的新功能问题，我会将其标记为“需要帮助”以供处理。我还创建了一个存储库，用于跟踪与产品文档、设计等相关的协作。产品和后端开发也有一个看板，以及为每个开发计划的里程碑。我还将创建前端和通用项目板，以及前端存储库。 组织页面中有一个讨论选项卡。我将在组织中创建后端、前端和产品团队。如果有人想加入团队，你可以在讨论主题或你想处理的问题中发表评论，我会将你添加到团队中。 如果有人加入我的冒险，我将创建一个 Slack 工作站以便更好地沟通。 所以，请查看我将在下面留下的链接，并告诉我你对这整个事情的看法。 GitHub 组织页面：https://github.com/orgs/CollabSphere-Community CombatHub 产品仓库：https://github.com/CollabSphere-Community/CombatHub_product-planning CombatHub 后端仓库：https://github.com/CollabSphere-Community/CombatHub-Rest-API 您可以在讨论主题中发表评论以加入我们的团队：https://github.com/orgs/CollabSphere-Community/discussions/3    提交人    /u/Available_Bluejay595   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hss23h/im_starting_a_opensource_product_development/</guid>
+      <pubDate>Fri, 03 Jan 2025 17:38:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Spectrum：用于非样板测试的 Selenium/JUnit 框架</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsrrlj/spectrum_a_seleniumjunit_framework_for/</link>
+      <description><![CDATA[在过去的 2 年里，我一直在研究 Spectrum，这是一个 E2E 测试框架，可通过 yaml 文件完全配置，让您专注于编写测试逻辑。 它可以生成几种报告、执行视频等等，无需显式交互：您只需利用注入的对象编写 JUnit 测试，Spectrum 将通过许多功能极大地丰富测试套件。 它支持 Web、移动和桌面应用程序自动化。 欢迎反馈！    提交人    /u/Giulio_Long   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsrrlj/spectrum_a_seleniumjunit_framework_for/</guid>
+      <pubDate>Fri, 03 Jan 2025 17:26:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源视频背景去除器？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsracx/open_source_video_background_remover/</link>
+      <description><![CDATA[我尝试过一个，但 1 分钟的视频花了 24 小时。想知道是否还有更多我可以测试的。 我最初使用的是 CapCut，但现在背景去除器每年要花费 200 美元，而且 After Effects 也不是很精确。    提交人    /u/orodltro   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsracx/open_source_video_background_remover/</guid>
+      <pubDate>Fri, 03 Jan 2025 17:07:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源不等于本地资源，而是全球合作的案例</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsqku2/open_source_is_not_local_source_and_the_case_for/</link>
+      <description><![CDATA[        提交人    /u/CrankyBear   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsqku2/open_source_is_not_local_source_and_the_case_for/</guid>
+      <pubDate>Fri, 03 Jan 2025 16:38:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>我制作了一个简单的工具，可将您的 Spotify 播放列表移动到 YouTube Music</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsq5eq/i_made_a_simple_tool_to_move_your_spotify/</link>
+      <description><![CDATA[大家好！我刚刚开发了一个免费的应用程序，可以帮助您将 Spotify 播放列表转移到 YouTube Music。这非常简单 - 只需插入您的 Spotify 链接，获取您的请求标头，就可以开始了！ 在这里查看：https://wemor.vercel.app • 它还会向您显示所有失败/重复的歌曲或 Spotify 上不可用的歌曲。 它使用 GitHub 上的 Youtubemusicapi（开源）来创建播放列表并使用歌曲匹配算法添加歌曲。 它真的有效吗？优惠券在哪里？ https://www.reddit.com/r/YoutubeMusic/s/Pu3m5KGIZy https://www.reddit.com/r/xManagerApp/s/jJCsa71MjK 希望对您有所帮助！欢迎分享任何反馈或建议。享受您的音乐！    提交人    /u/FabulousHuckleberry4   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsq5eq/i_made_a_simple_tool_to_move_your_spotify/</guid>
+      <pubDate>Fri, 03 Jan 2025 16:19:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>MJ PDF：为什么“窗口”保持打开状态？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsoy0m/mj_pdf_why_the_window_stays_open/</link>
+      <description><![CDATA[您好， 在 Android 上使用 MJ PDF，每当我打开 PDF 时，它都会在后台保持打开状态，即使我打开 5 个 PDF，它们都会一直保留在那里。有没有办法关闭并只保留那个 PDF？ 谢谢    提交人    /u/Embody248   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsoy0m/mj_pdf_why_the_window_stays_open/</guid>
+      <pubDate>Fri, 03 Jan 2025 15:27:01 GMT</pubDate>
+    </item>
     <item>
       <title>PhantomGate：用于开源恶作剧的极简 Python 端口欺骗器</title>
       <link>https://www.reddit.com/r/opensource/comments/1hsoodm/phantomgate_minimalistic_python_port_spoofer_for/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[        提交人    /u/mrgaturus   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hskmvb/im_creating_a_free_fast_and_simple_painting/</guid>
       <pubDate>Fri, 03 Jan 2025 11:40:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找贡献者</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hskk9a/looking_for_contributors/</link>
-      <description><![CDATA[大家好！ 我们正在构建 Mandulis 票务系统，这是一个使用 Spring Boot 和 React 构建的开源问题和票务管理平台。后端已经取得了很大进展，现在我们需要前端开发人员和UI / UX设计师来帮助我们创建一个流畅，用户友好的界面！ 我们需要（但不限于）：  React开发人员帮助构建前端。 设计师创建干净，直观的UI。  为什么要贡献？  这是一个很棒的开源项目，具有很大的潜力。 您将与不断壮大的开发者社区合作。 我们的目标是很快发布MVP！  加入我们，让世界各地的团队更轻松地管理问题！ Github repo    由    /u/thesarfo  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hskk9a/looking_for_contributors/</guid>
-      <pubDate>Fri, 03 Jan 2025 11:36:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>“Infinity New Tab” 的开源替代品？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hskb1s/open_source_alternative_to_infinity_new_tab/</link>
-      <description><![CDATA[我使用 Infinity Homepage 很长时间了，因为它最适合我的需求。 这些是我在主页/开始页中寻找的东西  图标，而不是基于文本的链接 自动获取图标和网站名称 能够从界面本身添加新网站，而不是通过 YAML 文件。 支持网站分组 能够从界面修改布局和网格 支持同步 在网络上——必要的；附加组件是一个加分项  问题是，我知道这个平台存在许多不正当的做法，我想改变，但我找不到合适的替代品。 大多数 FOSS 替代方案要么是静态的，这意味着我必须为每个新条目更改一个配置文件，不支持我正在寻找的一些功能，要么对我的需求来说过于复杂。 我找到的最接近的 FOSS 替代方案是 sourcetab/sourcetab：用于新标签页的开源仪表板。 但该项目已经 2 年多没有更新了，当我测试它时发现它有很多错误。 所以我的问题是，你知道合适的替代方案吗？ 最好是自托管的，这样它就与浏览器无关了？    由    /u/masterzeng 提交   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hskb1s/open_source_alternative_to_infinity_new_tab/</guid>
-      <pubDate>Fri, 03 Jan 2025 11:19:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>2024 意外惊喜：ExtractThinker，法学硕士的文档智能</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hsizzw/2024_happy_little_accident_extractthinker/</link>
-      <description><![CDATA[我启动了一个名为 OpenLLM 的项目，最初是为 Medium 文章创建的 GitHub 存储库。它最终引起了广泛关注，因此我将其转换为标准存储库并将其重命名为 ExtractThinker，因为人们对文档智能确实感兴趣。 今天，它是一个完全开源的项目，基本上是我作为承包商的全职工作。我使用它来实现我的工作中的文档提取解决方案，这通常围绕 LLM 和智能文档处理 (IDP)。到目前为止，我已经与金融科技公司甚至 Y Combinator 初创公司合作。 我希望你喜欢它！它本质上是 LangChain，但专门为文档智能量身定制。在此之前，我从未使用过任何 Python，我来自 .NET/C# 谢谢！    提交人    /u/GeorgiaWitness1   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hsizzw/2024_happy_little_accident_extractthinker/</guid>
-      <pubDate>Fri, 03 Jan 2025 09:50:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>录制时跳过太多帧</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hsic15/to_many_frames_are_skipped_while_recording/</link>
-      <description><![CDATA[我在带有 coral usb 的专用服务器上使用 docker compose 提供服务。使用 25 个摄像头时，它运行良好，但无法以全帧速率录制。最初，我尝试使用 MergerFS 将录制内容保存在 2 个合并驱动器上。考虑到这可能是问题所在，我选择了单个驱动器进行测试。 CPU 负载约为 25%，IOWAIT 为 0.3%。似乎没有任何帮助...您能帮我找出问题所在吗？ 配置： compose.yaml 版本：“3.9”服务： 护卫舰： 容器名称： 护卫舰 特权： true # 这可能不是所有设置所必需的 重新启动：除非停止 图像： ghcr.io/blakeblackshear/frigate：stable shm_size： 768mb # 根据上述计算更新您的相机 设备： - /dev/bus/usb：/dev/bus/usb # 通过 USB Coral，需要针对其他版本进行修改 - /dev/dri/renderD128：/dev/dri/renderD128 # 对于英特尔 hwaccel，需要针对您的硬件进行更新 卷： - /etc/localtime：/etc/localtime：ro - /mnt/storage/frigate/config：/config - /mnt/storage/frigate/storage：/media/frigate - 类型：tmpfs 目标：/tmp/cache tmpfs： 大小：1600000000 端口： - 8971：8971 - 8554：8554 # RTSP 提要 - 8555：8555/tcp # WebRTC over tcp - 8555：8555/udp # WebRTC over udp networks：{}  config.yaml mqtt： enabled：false tls： enabled：false detectors： coral： type：edgetpu device：usb ffmpeg： global_args：-hide_banner -loglevel warning -threads 10 hwaccel_args： preset-vaapi detect： enabled：true # &lt;---- 禁用检测，直到您有一个正常工作的摄像头 feed width：704 height：576 record： enabled：true retain： days：30 mode：motion events： retain： default：60 mode：active_objectsobjects： track： - person - car - motorcycle - bus - car filters： person： min_area: 5000 max_area: 100000 cameras: cam-1: # &lt;------ 命名摄像机 enabled: true ffmpeg: 输入： - 路径：rtsp://XX:XX@XX.XX.XX.XX:554/cam/realmonitor?channel=1&amp;subtype=1 # &lt;----- 您想要用于检测角色的流： - 检测 - 路径：rtsp://XX:XX@XX.XX.XX.XX:554/cam/realmonitor?channel=1&amp;subtype=0 # &lt;----- 您想要用于检测角色的流： - 记录运动： 掩码： - 0.685,0.04,0.684,0,1,0,1,0.041 - 0.476,0.041,0.669,0.031,0.666,0,0.475,0 ........................ ........................ ........................ ........................ ........................ 版本：0.14 camera_groups：{}     由   提交  /u/eiacub   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hsic15/to_many_frames_are_skipped_while_recording/</guid>
-      <pubDate>Fri, 03 Jan 2025 09:02:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>在木星空投宣布之后，我想对其进行检查。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hsi4sz/after_jupiter_airdrop_was_announced_i_wanted_to/</link>
-      <description><![CDATA[现在我想分享它，以防有人也想使用它或者只是想对它点赞 你好 r/opensource！ 我的产品是开源的，大量检查地址/种子短语以获得空投的可能性，如果你支持它会非常高兴 我的程序的源代码可以在https://github.com/jupiter-volume-checker/Jupiter-Volume-Checker找到。    提交人    /u/Jar_of_Jam   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hsi4sz/after_jupiter_airdrop_was_announced_i_wanted_to/</guid>
-      <pubDate>Fri, 03 Jan 2025 08:48:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动了开源新闻或基于 RSS 源的服务？感觉怎么样？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hsc0ft/started_an_open_source_news_or_rss_feeds_based/</link>
-      <description><![CDATA[你的经历是怎样的？你面临了哪些挑战？如果你停止了，原因是什么？如果你继续坚持，什么方法有效？ 我在不同的子版块上看到过很多帖子，包括这个，关于人们开始建立网站或自托管新闻和/或 RSS 源的解决方案。其中大多数似乎都失败了。虽然有 Feedly 和其他一些选择，还有 Google 新闻，但我对它们并不是很满意，更重要的是，我对这个话题充满热情。所以我正在尝试从你的经验中学习。 对于那些说，继续做下去的人，我已经建立了一项服务。不放链接以避免自我推销。 为了提供更多背景信息，以下是我能想到的一些具体问题： 你停止是因为（或者尽管如此仍继续）吗？  运行成本太高（不适用于自托管解决方案）？ 太耗时？ 用户保留率低？ 没有盈利机会？ 法律问题？     提交人    /u/logicalcliff   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hsc0ft/started_an_open_source_news_or_rss_feeds_based/</guid>
-      <pubDate>Fri, 03 Jan 2025 02:39:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>美颜滤镜</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hs6m3n/beauty_face_filter/</link>
-      <description><![CDATA[我正在开发一个开源项目，该项目包含您自己的虚拟克隆。 有人知道任何易于使用的免费开源美颜脸部滤镜吗？ 我尝试在 GitHub 和 Google 上搜索，但没有找到任何有希望的东西，大多数是为 Android SDK 或实时脸部滤镜流制作的。 我只需要一个具有皮肤平滑功能的图像到图像美颜滤镜，仅此而已。 提前致谢！    提交人    /u/OneKe   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hs6m3n/beauty_face_filter/</guid>
-      <pubDate>Thu, 02 Jan 2025 22:35:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
