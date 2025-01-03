@@ -4,7 +4,84 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 03 Jan 2025 09:16:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2025 15:16:40 GMT</lastBuildDate>
+    <item>
+      <title>PhantomGate：用于开源恶作剧的极简 Python 端口欺骗器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsoodm/phantomgate_minimalistic_python_port_spoofer_for/</link>
+      <description><![CDATA[嘿 r/opensource！ 我刚刚发布了一个名为 PhantomGate 的小型开源 Python 项目，旨在通过向端口扫描器发送虚假或随机的服务横幅来摆脱它们。整个目的是与任何在你的端口周围探索的人混在一起，同时保持部署超轻量级。 里面有什么？  端口欺骗魔法：基于 Python，单个文件 + 签名文件夹。 轻松设置：  克隆或下载 repo：  git clone https://github.com/keklick1337/PhantomGate  选择或自定义签名文件。 启动它：  python3 phantomgate.py -s signatures.txt -l 0.0.0.0:8888 -v  轰！它将在端口 8888 上响应随机或预定义的横幅。   你为什么要关心？  通过模拟各种虚假服务来迷惑潜在的入侵者或扫描仪。 调整签名以创建您自己的扫描仪小“镜厅”。 完全开源（GNU 许可证） - 随时提出您自己的改进或建议。  想要帮忙吗？ 欢迎随时打开问题，提交 PR，或者只是发表评论！我完全支持社区的意见和合作。 Repo 链接：https://github.com/keklick1337/PhantomGate 期待听到您的想法 - 感谢您的阅读！    提交人    /u/Front-Buyer3534   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsoodm/phantomgate_minimalistic_python_port_spoofer_for/</guid>
+      <pubDate>Fri, 03 Jan 2025 15:15:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个 Python 工具来将图像转换为 WebP - 既有 GUI 也有 CLI！期待反馈</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hso1jv/i_built_a_python_tool_to_convert_images_to_webp/</link>
+      <description><![CDATA[嗨，各位开发者们！👋 我创建了一个开源图像转换工具，可以非常轻松地将图像转换为 WebP 格式。它既具有带深色主题的现代 GUI，又具有强大的 CLI，可满足自动化需求。这是我学习过程中的一个小工具，所以肯定还有改进的空间，但我相信它对你们中的一些人可能会有用。 主要特点：  免费和开源 具有深色主题和拖放功能的现代 GUI 用于自动化的命令行界面 将 PNG、JPG、GIF 转换为 WebP 并行处理以提高速度 配置文件预设（高质量、平衡、针对网络优化） 实时转换进度 提供 CLI 和 Windows exe 版本  GitHub：github.com/NazzarenoGiannelli/image-to-webp-converter 如果您发现这很有用，请考虑：  尝试并分享反馈 ⭐ 为 repo 加星标 贡献或建议功能 根据您自己的需要分叉     提交人    /u/NazzarenoGiannelli   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hso1jv/i_built_a_python_tool_to_convert_images_to_webp/</guid>
+      <pubDate>Fri, 03 Jan 2025 14:46:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要 OSX 端口帮助 (Voidsprite)</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsnz3r/osx_port_help_needed_voidsprite/</link>
+      <description><![CDATA[      你好！我想请求任何能够协助我们创建合适的 OsX 端口的人 - 我们目前的活跃维护者都没有（或无法获得）Mac - 因此任何帮助都将不胜感激！    提交人    /u/ZLDFN101   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsnz3r/osx_port_help_needed_voidsprite/</guid>
+      <pubDate>Fri, 03 Jan 2025 14:43:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>新的 Wordpress 插件：通过头像上传提升 BuddyPress 注册率</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsns3g/new_wordpress_plugin_boost_buddypress/</link>
+      <description><![CDATA[BuddyPress 社区的激动人心的消息：推出简单的 BuddyPress 注册头像！ 嘿，WordPress 和 BuddyPress 爱好者们！ 首先，祝大家 2025 年快乐！！ 我发布了我的第一个 Wordpress 插件：简单的 Buddypress 注册头像。这是一个全新的插件，旨在增强您社区的注册流程并从一开始就提高用户参与度！ 📖 我的故事背景： 作为 BuddyPress 用户，我一直认为在注册期间上传头像的功能可以从一开始就显着提高用户参与度。然而，我在寻找合适的插件时却大失所望——现有的解决方案要么被废弃，要么与最新版本不兼容，要么就是没有按预期工作。 随着用户参与和个性化的重要性日益增加，我觉得社区需要一个可靠的、最新的解决方案。 Simple BuddyPress Signup Avatar 旨在解决这一问题，提供一种强大、安全且用户友好的方式，允许在注册期间上传头像。它采用现代编码标准构建，考虑定期更新，并致力于持续支持和改进。 🎭 为什么要使用这个插件？ Buddypress 用户可能都知道建立一个充满活力的社区的艰辛。那些默认的“神秘人”头像甚至可以让最热闹的论坛看起来有点……嗯，像幽灵。这就是 Simple BuddyPress Signup Avatar 的作用所在！ 🙃 ✨ 它有什么用？ Simple BuddyPress Signup Avatar 允许新成员在注册过程中上传他们的头像。无需再等待用户注册后导航到他们的个人资料。将这些个性化头像放在最显眼的位置！ 🛠 主要特点：  与 BuddyPress 注册无缝集成 适用于电子邮件确认和管理员批准工作流程 可自定义的文件大小和尺寸限制 内置图像压缩，让您的服务器保持正常运行 自动删除 EXIF 数据以保护隐私 安全的临时文件存储 每周清理未使用的头像文件 上传期间实时预览  🌐 完全支持翻译： 我已确保该插件完全可翻译。在非英语网站上使用它？没问题！ 🤝 开源 &amp;社区驱动： 此插件在 GPL v2 下发布，我很高兴欢迎社区做出贡献。无论是代码、翻译还是仅仅是想法，我都很乐意听到您的声音！ 🔗 在哪里可以找到它： 在我的 GitHub 上查看插件：Simple Buddypress Signup Avatar（一旦再次接受新的插件提交，它将很快出现在 WordPress 插件存储库中！） 我很乐意听到您的想法、问题或建议，以使插件变得更好！ 透明说明：这是我第一次创建和发布公共 WordPress 插件，也是我第一次涉足开源开发。虽然我已经尽了最大的努力来创建一个可靠、功能良好的插件，但我确信还有很多东西需要学习。在我探索这个新领域时，我将非常感谢您的耐心、反馈和指导。您的见解，无论是关于代码改进、功能建议还是开源开发的最佳实践，都是受欢迎和重视的。 🌸 问候，祝一切顺利！    提交人    /u/Butterfly088   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsns3g/new_wordpress_plugin_boost_buddypress/</guid>
+      <pubDate>Fri, 03 Jan 2025 14:34:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>一款新的开源航行路线软件</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsnmi7/a_new_opensource_sailing_routing_software/</link>
+      <description><![CDATA[我正在开发一款用于航行的新型开源导航和路线规划软件。如果有人有兴趣为其做出贡献，欢迎加入仓库：https://github.com/dakk/gweatherrouting/  这是当前版本的演示：https://www.youtube.com/watch?v=iV7IZFwXUXA     提交人    /u/dak91   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsnmi7/a_new_opensource_sailing_routing_software/</guid>
+      <pubDate>Fri, 03 Jan 2025 14:27:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源项目</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsn8pj/open_sourcing_a_project/</link>
+      <description><![CDATA[        提交人    /u/Spiritual-Fudge5427   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsn8pj/open_sourcing_a_project/</guid>
+      <pubDate>Fri, 03 Jan 2025 14:08:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>请推荐开源软件来创建像这样的动态图形视频</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hslali/please_suggest_open_source_software_to_create/</link>
+      <description><![CDATA[我没有预算为我的小企业制作视频。我想制作一个类似于这个的宣传视频。当图形动画无缝时。请推荐一款我可以制作此类视频的简单软件。 https://www.youtube.com/watch?v=vxxKfhxIS44    提交人    /u/Mental-Pen-4223   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hslali/please_suggest_open_source_software_to_create/</guid>
+      <pubDate>Fri, 03 Jan 2025 12:22:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>我正在创建一个免费、快速且简单的绘画软件</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hskmvb/im_creating_a_free_fast_and_simple_painting/</link>
+      <description><![CDATA[        提交人    /u/mrgaturus   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hskmvb/im_creating_a_free_fast_and_simple_painting/</guid>
+      <pubDate>Fri, 03 Jan 2025 11:40:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找贡献者</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hskk9a/looking_for_contributors/</link>
+      <description><![CDATA[大家好！ 我们正在构建 Mandulis 票务系统，这是一个使用 Spring Boot 和 React 构建的开源问题和票务管理平台。后端已经取得了很大进展，现在我们需要前端开发人员和UI / UX设计师来帮助我们创建一个流畅，用户友好的界面！ 我们需要（但不限于）：  React开发人员帮助构建前端。 设计师创建干净，直观的UI。  为什么要贡献？  这是一个很棒的开源项目，具有很大的潜力。 您将与不断壮大的开发者社区合作。 我们的目标是很快发布MVP！  加入我们，让世界各地的团队更轻松地管理问题！ Github repo    由    /u/thesarfo  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hskk9a/looking_for_contributors/</guid>
+      <pubDate>Fri, 03 Jan 2025 11:36:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>“Infinity New Tab” 的开源替代品？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hskb1s/open_source_alternative_to_infinity_new_tab/</link>
+      <description><![CDATA[我使用 Infinity Homepage 很长时间了，因为它最适合我的需求。 这些是我在主页/开始页中寻找的东西  图标，而不是基于文本的链接 自动获取图标和网站名称 能够从界面本身添加新网站，而不是通过 YAML 文件。 支持网站分组 能够从界面修改布局和网格 支持同步 在网络上——必要的；附加组件是一个加分项  问题是，我知道这个平台存在许多不正当的做法，我想改变，但我找不到合适的替代品。 大多数 FOSS 替代方案要么是静态的，这意味着我必须为每个新条目更改一个配置文件，不支持我正在寻找的一些功能，要么对我的需求来说过于复杂。 我找到的最接近的 FOSS 替代方案是 sourcetab/sourcetab：用于新标签页的开源仪表板。 但该项目已经 2 年多没有更新了，当我测试它时发现它有很多错误。 所以我的问题是，你知道合适的替代方案吗？ 最好是自托管的，这样它就与浏览器无关了？    由    /u/masterzeng 提交   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hskb1s/open_source_alternative_to_infinity_new_tab/</guid>
+      <pubDate>Fri, 03 Jan 2025 11:19:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>2024 意外惊喜：ExtractThinker，法学硕士的文档智能</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hsizzw/2024_happy_little_accident_extractthinker/</link>
+      <description><![CDATA[我启动了一个名为 OpenLLM 的项目，最初是为 Medium 文章创建的 GitHub 存储库。它最终引起了广泛关注，因此我将其转换为标准存储库并将其重命名为 ExtractThinker，因为人们对文档智能确实感兴趣。 今天，它是一个完全开源的项目，基本上是我作为承包商的全职工作。我使用它来实现我的工作中的文档提取解决方案，这通常围绕 LLM 和智能文档处理 (IDP)。到目前为止，我已经与金融科技公司甚至 Y Combinator 初创公司合作。 我希望你喜欢它！它本质上是 LangChain，但专门为文档智能量身定制。在此之前，我从未使用过任何 Python，我来自 .NET/C# 谢谢！    提交人    /u/GeorgiaWitness1   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hsizzw/2024_happy_little_accident_extractthinker/</guid>
+      <pubDate>Fri, 03 Jan 2025 09:50:02 GMT</pubDate>
+    </item>
     <item>
       <title>录制时跳过太多帧</title>
       <link>https://www.reddit.com/r/opensource/comments/1hsic15/to_many_frames_are_skipped_while_recording/</link>
@@ -32,83 +109,6 @@
       <description><![CDATA[我正在开发一个开源项目，该项目包含您自己的虚拟克隆。 有人知道任何易于使用的免费开源美颜脸部滤镜吗？ 我尝试在 GitHub 和 Google 上搜索，但没有找到任何有希望的东西，大多数是为 Android SDK 或实时脸部滤镜流制作的。 我只需要一个具有皮肤平滑功能的图像到图像美颜滤镜，仅此而已。 提前致谢！    提交人    /u/OneKe   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hs6m3n/beauty_face_filter/</guid>
       <pubDate>Thu, 02 Jan 2025 22:35:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub 上有 450 万个（疑似）假星星：人气竞赛、诈骗和恶意软件不断滋生</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hs3qsu/45_million_suspected_fake_stars_in_github_a/</link>
-      <description><![CDATA[  由    /u/TradingAllIn  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hs3qsu/45_million_suspected_fake_stars_in_github_a/</guid>
-      <pubDate>Thu, 02 Jan 2025 20:36:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Github - Cyber​​bro（可观察分析）- 进行了公开演示</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hs2qnr/github_cyberbro_observables_analysis_made_a/</link>
-      <description><![CDATA[  由    /u/stan_frbd  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hs2qnr/github_cyberbro_observables_analysis_made_a/</guid>
-      <pubDate>Thu, 02 Jan 2025 19:56:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>具有人工智能机器人的开源 IRC 网络</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hs2dhu/open_source_irc_network_with_aipowered_bots/</link>
-      <description><![CDATA[我想分享一个我一直在从事的项目 - 一个自托管的 IRC 网络，其中包括用 Python 构建的开源 AI 机器人。 该项目包括： - MistralBot：使用 Mistral API 的 AI 助手，具有速率限制和自定义提示 - WeatherBot：使用 Open-Meteo API 提供天气信息 - SearchBot：使用 Hearch API 进行以隐私为中心的网页搜索 所有机器人源代码均可在 GitHub 上找到：https://github.com/MansionNET 这些机器人设计为易于部署、有据可查且适应性强。一些主要功能： - 速率限制和用户配额以防止滥用 - SSL/TLS 支持安全连接 - 可配置的频道管理 - 清晰的错误处理和日志记录 - 以隐私为中心的设计原则 我正在寻找反馈、贡献者和有兴趣测试或使用网络的用户。如果您想尝试一下，请直接给我发送服务器连接详细信息。 目标是表明 IRC 仍然具有相关性，并且可以通过现代 AI 功能进行增强，同时忠于开源价值观和隐私问题。    提交人    /u/avatar_one   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hs2dhu/open_source_irc_network_with_aipowered_bots/</guid>
-      <pubDate>Thu, 02 Jan 2025 19:41:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenSox：轻松发现开源项目</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hs08au/opensox_discover_open_source_projects_easily/</link>
-      <description><![CDATA[查看：👇 实时链接：https://open-sox.vercel.app GitHub Repo：https://github.com/shubGupta10/OpenSox 大家好， 我刚刚完成 OpenSox 的工作，这是一个旨在帮助开发人员发现符合他们的技能和兴趣的开源项目的平台。无论您是开源新手还是已经做出贡献，OpenSox 都能让您更轻松地找到合适的项目。 功能： 按语言搜索：查找 JavaScript、Python、TypeScript、Go 等语言的项目。 按受欢迎程度过滤：发现活跃且维护良好的项目。 关键字搜索：使用关键字根据您的兴趣探索项目。 适合初学者的问题：查找适合首次贡献者的问题。 已保存的存储库：为项目或问题添加书签以供将来贡献。 黑暗模式：享受深夜浏览的舒适体验。 寻求反馈 该平台已上线，我很乐意听取您的想法！ 您希望看到哪些功能？ 它易于使用吗？ 如果您发现任何错误或有建议。 查看并告诉我你的想法！    由   提交  /u/Kira_X_10   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hs08au/opensox_discover_open_source_projects_easily/</guid>
-      <pubDate>Thu, 02 Jan 2025 18:14:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我正在寻找用于生成头像 UGC 视频的开源模型。喜欢这些示例。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hrzakf/im_looking_for_opensource_models_for_avatar_ugc/</link>
-      <description><![CDATA[是否有可用的公共 comfyUI 模型？它基本上只是创建高质量的人物视频。对 UGC 广告很有用。 www.creatify.ai www.sythenticugc.com    提交人    /u/orodltro   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hrzakf/im_looking_for_opensource_models_for_avatar_ugc/</guid>
-      <pubDate>Thu, 02 Jan 2025 17:36:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>介绍 grpcmd-gui：用于 gRPC API 开发和测试的现代桌面应用程序</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hrz7hl/introducing_grpcmdgui_a_modern_desktop_app_for/</link>
-      <description><![CDATA[        由    /u/AkshayKalose 提交   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hrz7hl/introducing_grpcmdgui_a_modern_desktop_app_for/</guid>
-      <pubDate>Thu, 02 Jan 2025 17:33:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>面向 VOIP 爱好者推出新 Diago</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hrvw9k/new_diago_release_for_voip_enthusiast/</link>
-      <description><![CDATA[新 Diago 版本。此版本添加了带转码功能的 OPUS 编解码器支持！ 它使 Diago lib 现已完整支持当今标准的强制性编解码器。Opus 通过其宽频率范围、低延迟和对网络条件的适应性实现了卓越的语音清晰度。 有关发布的更多信息，请访问此处：https://github.com/emiago/diago/releases/tag/v0.12.0 即将推出：支持 opus 编解码器的 Gophone 用于 E2E 测试 -&gt; https://github.com/emiago/gophone 什么是 Diago？-&gt; Diago 是一个用 GO 编写的库，注重高性能，提供现代 VOIP 堆栈，用于快速构建 VOIP 服务器和客户端（例如 B2BUA、软件电话）。    提交人    /u/emiago   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hrvw9k/new_diago_release_for_voip_enthusiast/</guid>
-      <pubDate>Thu, 02 Jan 2025 15:13:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是您会使用的工具吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hrubzn/is_this_some_tool_you_would_use/</link>
-      <description><![CDATA[过去几周，我一直在开发一款简单的基于终端的工具，名为 LastNote。该工具旨在帮助用户直接从终端记录和管理他们的工作（笔记）。其突出的功能是能够在不同的机器之间同步笔记，确保无论您身在何处都能无缝访问。此外，当您登录 PC 时，它可以选择自动运行，显示当天的笔记，让您保持进度。 在此处查看： GitHub 存储库：LastNote GitHub 网站：LastNote 网站（主要用作存储和同步笔记的服务器）。 我很乐意听取您的反馈、建议或贡献！   由    /u/ComprehensiveWing542  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hrubzn/is_this_some_tool_you_would_use/</guid>
-      <pubDate>Thu, 02 Jan 2025 14:01:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>介绍 Univer Clipsheet – 一款功能强大的 Chrome 网页抓取扩展程序</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hrt22r/introducing_univer_clipsheet_a_powerful_chrome/</link>
-      <description><![CDATA[嗨，Reddit！👋 我一直在研究 Univer Clipsheet，这是一个开源 Chrome 扩展程序，旨在使网页抓取更容易、更高效。 主要特点：  用于抓取结构化数据的直观界面。 与 Univer Sheet 无缝集成以进行数据管理。 开源且可根据您的特定需求进行定制。  此工具非常适合开发人员、分析师或任何希望简化其数据收集工作流程的人。 👉 在 GitHub 上查看：Univer Clipsheet 我很乐意听到您的想法、反馈或改进建议。感谢您的关注！    由   提交  /u/Dushusir   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hrt22r/introducing_univer_clipsheet_a_powerful_chrome/</guid>
-      <pubDate>Thu, 02 Jan 2025 12:54:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>意大利手机扑克应用程序无需真钱，只是为了好玩？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hrrmly/italian_mobile_poker_app_without_real_money_and/</link>
-      <description><![CDATA[我一直在寻找不是骗局、没有广告、没有真钱和真正赌博的扑克应用程序 到目前为止，我发现的最好的是 PokerTH，但它是正常的世界扑克，我想要一个像 PokerTH 这样的东西，但它使用意大利扑克变体，有人知道替代方案吗？    提交人    /u/Sissiogamer1Reddit   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hrrmly/italian_mobile_poker_app_without_real_money_and/</guid>
-      <pubDate>Thu, 02 Jan 2025 11:24:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了一个工具来不断测量我的打字速度和准确性</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hrixg7/i_built_a_tool_that_constants_measures_my_typing/</link>
-      <description><![CDATA[      大家好！作为一个新年假期项目，我开发了一个 MacOS 工具，它可以在后台不断测量打字速度和准确度并将其显示在状态栏上。 我总是想知道我的真实打字速度是否与我在 typeracer 等打字测试中的表现相似。我寻找类似的工具，但找不到任何东西。 所以，我通过实际创建这个应用程序给了自己一份新年礼物。 如果你可以尝试一下并让我知道你的想法，那就太好了。 注意：请确保您按照 README 文件中概述的方式授予它权限。    提交人    /u/AvikalpGupta   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hrixg7/i_built_a_tool_that_constants_measures_my_typing/</guid>
-      <pubDate>Thu, 02 Jan 2025 02:06:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
