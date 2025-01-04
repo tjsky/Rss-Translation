@@ -3,14 +3,42 @@
   <channel>
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
-    <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供门户，并促进有关我们所知的人工智能理念和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Fri, 03 Jan 2025 18:19:54 GMT</lastBuildDate>
+    <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
+    <lastBuildDate>Sat, 04 Jan 2025 01:08:22 GMT</lastBuildDate>
     <item>
-      <title>艾的新年决心</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hssd6e/ai_new_years_resolution/</link>
-      <description><![CDATA[大家好，我希望这个子版块能帮到我。当 chat gpt 推出时，我玩了大约一个星期。我所在的领域不需要了解人工智能（大学美术老师），但它似乎是一个功能强大的新工具，我想至少尝试更多地了解它。也许它可以以意想不到的方式帮助我生活的其他部分。任何建议，如文章、视频或播客，都会受到欢迎。提前致谢！    由   提交  /u/BootSlap   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hssd6e/ai_new_years_resolution/</guid>
-      <pubDate>Fri, 03 Jan 2025 17:51:38 GMT</pubDate>
+      <title>寻找根据我的旧广告数据库生成新广告的 AI 平台</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ht0krv/looking_for_ai_platform_that_generates_new_ads/</link>
+      <description><![CDATA[理想情况下，这将能够连接到 Azure 数据库并提取诸如原色和次色以及徽标之类的内容，以生成与我的旧广告数据库一致的广告。旧广告的图案相对简单，主要是形状、条纹和颜色渐变。我知道我们公司的开发人员可以在不使用 AI 的情况下编写类似的东西，只需使用预制模板，但我的老板出于某种原因真的希望这是由 AI 生成的，所以任何帮助都非常感谢！    提交人    /u/Affectionate-Web2365   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ht0krv/looking_for_ai_platform_that_generates_new_ads/</guid>
+      <pubDate>Fri, 03 Jan 2025 23:38:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国研究人员破解OpenAI的o1</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ht0jxd/chinese_researchers_cracked_openais_o1/</link>
+      <description><![CDATA[或者有些人是这么声称的。这也是促使我亲自阅读这篇论文的原因，最终我得到了一个不那么令人兴奋但更微妙的现实。为了整理我的想法，我写了一篇文章，但这里是它的要点，这样你就不必离开 Reddit 来阅读它了： 炒作与现实 我承认，我开始阅读这篇论文时感觉我可能会偶然发现一些关于 OpenAI 所谓的“o1”或“o3”模型如何工作的惊人泄密事件。互联网上充斥着点击诱饵标题，例如“中国研究人员破解了 OpenAI 的秘密！这里有你需要知道的一切！” 好吧……我不想扫兴，但实际上，这篇论文既没有那么引人注目，在某些方面，也比炒作所暗示的更有价值。它没有揭露绝密的架构或以前从未见过的训练方法。相反，它是一个结构良好的元分析——一个综合现有想法的宏观路线图，即如何通过将强大的训练与高级推理时间策略相结合来改进大型语言模型 (LLM)。 但问题是：这不一定是这篇论文的错。是报道——那些耸人听闻的推文和 Reddit 帖子——给人留下了错误的印象。我们在科学传播中一直看到这种现象。头条新闻每天都在大肆宣扬“突破性发现”，随着时间的推移，这可能会削弱公众的信任，因为当人们深入研究时，他们会发现“令人难以置信的突破”实际上是一个更温和的结果或一个谨慎的渐进式改进。这在一定程度上说明了人们对“过度炒作的科学”的怀疑日益增长。 因此，如果您来这里是希望直接阅读来自 OpenAI 实验室的秘密武器，我理解您的失望。但如果您仍然对这篇论文如何构建人工智能的重要转变感兴趣——从单纯的训练到专注于我们如何实时生成和改进答案——请继续关注。 ... 结论 我的看法：这篇论文通过 RL + 搜索对“我们在哪里以及我们可能去哪里”进行了深思熟虑的概述，并采用了高级 LLM 推理。但它没有泄露任何专有的 OpenAI 工作原理。 真正的教训：警惕过度炒作的头条新闻。通常，真正的故事是细微的、渐进的改进——同样有价值，但并非某些人声称的轰动性炸弹。 对于那些仍然对这份路线图感兴趣的人来说，它绝对值得一看：一份连接“训练时间改进”和“推理时间搜索”的蓝图，以产生更可靠、更灵活甚至更具创造力的人工智能助手。如果你想了解更多，我个人建议查看本文重点介绍的类似于 o1 的策略的开源实现——例如 g1、Thinking Claude、Open-o1 和 o1 Journey 等项目。 让我知道你的想法！    提交人    /u/wontreadterms   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ht0jxd/chinese_researchers_cracked_openais_o1/</guid>
+      <pubDate>Fri, 03 Jan 2025 23:37:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>加拿大媒体巨头起诉 OpenAI 滥用 ChatGPT 训练数据</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hszyxh/canadian_media_giants_sue_openai_over_chatgpt/</link>
+      <description><![CDATA[加拿大媒体公司已对 OpenAI 提起诉讼，指控 ChatGPT 非法使用其受版权保护的内容来训练其模型。这场法律纠纷凸显了人们对生成式人工智能系统如何获取其数据的日益担忧，尤其是在涉及知识产权时。随着人工智能的不断发展，关于合理使用和版权的争论日益升温，这可能会对全球的科技巨头和内容创作者产生影响。 参考文章    提交人    /u/QuantumQuicksilver   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hszyxh/canadian_media_giants_sue_openai_over_chatgpt/</guid>
+      <pubDate>Fri, 03 Jan 2025 23:11:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>各州何时才能步调一致？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hszn5n/when_will_states_align/</link>
+      <description><![CDATA[我不明白为什么没有人谈论取代所有非外科医生的医生。从薪水上看，他们是医疗保健系统的沉重负担，教育需要很长时间，而在欧洲，国家支付学费，纳税人需要花一大笔钱来支付他们的教育费用。我们有大量研究表明，法学硕士的表现优于医生，即使他们使用 chatgpt 的帮助。为什么各州不认真分析这个问题，这将节省大量资金，让患者有更多机会接受治疗，并获得更好的结果。他们看到的大多数非紧急事情都是重复性的废话，截至目前，护士可以使用 chatgpt 解决。他们的工作是重复性的，他们遵循一套指导方针，对于慢性病患者，他们实际上有一个如何处理大多数疾病的算法。 LLM 是为这些东西量身定制的。他们只需要保留人类护士，这样你就可以解决人性化方面的问题。    提交人    /u/darkMatter235   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hszn5n/when_will_states_align/</guid>
+      <pubDate>Fri, 03 Jan 2025 22:57:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>上周十大法学硕士研究论文</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hstls6/top_10_llm_research_papers_from_last_week/</link>
+      <description><![CDATA[  由    /u/Sam_Tech1  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hstls6/top_10_llm_research_papers_from_last_week/</guid>
+      <pubDate>Fri, 03 Jan 2025 18:41:50 GMT</pubDate>
     </item>
     <item>
       <title>您对于使用机器人提供客户支持有何看法？</title>
@@ -34,7 +62,7 @@
       <pubDate>Fri, 03 Jan 2025 09:45:15 GMT</pubDate>
     </item>
     <item>
-      <title>µLocalGLaDOS - 离线个性核心</title>
+      <title>µLocalGLaDOS-离线个性核心</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hshqnu/µlocalglados_offline_personality_core/</link>
       <description><![CDATA[我做了一个东西！ 我有一个项目，基本上是构建 来自 Valve 系列游戏 Portal 和 Portal 2 的 GLaDOS。 现在它已经运行，在圣诞节假期，我尝试了一些&quot;技术困境&quot;，并试图看看我能走多远（资源方面）。 结果在这里！ 它是什么？它是一个完全离线的 AI“个性核心”，它：  在 8Gb 单板计算机上运行： NPU 上的 LLM（Llama3.2） 语音检测 自动语音识别 语音生成  具有中断功能 当系统正在讲话时，你可以通过交谈来切断它   也就是说，8Gb SBC 确实受到限制，因此性能不是很好，但它确实有效！ 如果您有一个好的 GPU，您可以在 Ollama 中运行一个强大的模型，而且结果非常好。目标是在 600 毫秒内回复，这样对话才会自然。    提交人    /u/Reddactor   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hshqnu/µlocalglados_offline_personality_core/</guid>
@@ -46,13 +74,6 @@
       <description><![CDATA[openai 花费数十亿美元训练 4o。meta 花费数亿美元训练 llama。现在 deepseek 已经开源了其类似的 v3 ai，该 ai 的训练成本不到 600 万美元，甚至不依赖 h100 芯片。他们估计在几周到几个月的时间内就完成了这项工作。 这是成千上万的私人可以轻松负担的费用和时间框架。我们是否正在从公司开发的 sota ai 时代走向一个新时代，在这个时代，这些强大的 ai 由数百或数千个私人迅速开发？    提交人    /u/Georgeo57   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hsh2pt/does_deepseek_v3s_training_cost_of_under_6/</guid>
       <pubDate>Fri, 03 Jan 2025 07:31:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>对 ModernBERT 进行微调以进行分类</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hsgfgb/finetuning_modernbert_for_classification/</link>
-      <description><![CDATA[ModernBERT 是传统 BERT 的最新进展，其表现不仅优于 BERT，甚至优于 RoBERTa、DeBERTa v3 等变体。本教程介绍如何使用 Transformers 在多分类数据上微调 ModernBERT：https://youtu.be/7-js_--plHE?si=e7RGQvvsj4AgGClO    提交人    /u/mehul_gupta1997   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hsgfgb/finetuning_modernbert_for_classification/</guid>
-      <pubDate>Fri, 03 Jan 2025 06:48:17 GMT</pubDate>
     </item>
     <item>
       <title>人工智能为什么不能进行前瞻性思考？</title>
@@ -69,32 +90,11 @@
       <pubDate>Fri, 03 Jan 2025 02:22:26 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能与人工智能认知。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hsbi0c/artificial_intelligence_vs_artificial_cognition/</link>
-      <description><![CDATA[两者之间有很多重叠之处，但我认为需要更多人讨论的一件事是两者之间的区别以及这对我们人工智能发展的影响。 智能是推理、解决问题和适应新情况的能力，反映了有效处理和应用信息的总体能力。相比之下，认知是指推理、决策、记忆和感知等活动所涉及的心理过程。虽然智能描述了执行这些任务的更广泛潜力，但认知涵盖了使推理和决策发生的特定机制和操作。本质上，智能是“思考的能力”，而认知是“思考如何发生”。 基本上，我们冒着主要关注智能而忽略我们思考的一些更基本方面的风险。有时与智能正交的东西。考虑一下本体感觉——在我们能够用语言表达的方式进行推理之前，我们就形成了对身体位置和运动的感觉，这种感觉对于执行机器学习难以模仿的基本任务至关重要。这是一种本能，大多数人甚至没有意识到它是一种感觉。 这主要只是提出了关于我们如何完成我们希望做的事情的问题。彻底取代神经外科医生比人们意识到的要难，不是因为很难开发出像我们一样推理的算法，而是因为在物理世界而不是虚拟世界中，我们依靠认知的其他方面来真正表达这种推理。复制冲泡一杯咖啡所需的精细运动控制，更不用说挥动手术刀了，目前比我们迄今为止用法学硕士做的所有事情都更具挑战性。 我想到的问题是，我们是否真的在考虑在短期和中期创造角色，而不是取代角色中的人。我们不一定非要复制人类做事的方式，只要构建能够匹配（或超越）结果的系统就足够了。  AGI 与自动化不同，因为逻辑推理通常在一般决策中扮演教练和/或评论员的角色。想想当你在日常生活中，比如说，保持空间意识和物体永久性时，大脑所承担的繁重工作。随着人工智能的发展，它不仅能思考，还能居住在为人类设计的环境中，看看我们如何实现这些认知方面将会很有趣。     提交人    /u/Zestyclose_Hat1767   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hsbi0c/artificial_intelligence_vs_artificial_cognition/</guid>
-      <pubDate>Fri, 03 Jan 2025 02:14:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的公司是否使用人工智能聊天机器人等？您喜欢它吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hs7tdj/is_your_company_using_ai_chatbot_etc_and_do_you/</link>
-      <description><![CDATA[现在似乎每个人都有自己的花哨机器人，但我想知道是否有人真的喜欢在工作的地方使用它？这似乎只是一个炫耀的营销工具......有人在工作中使用它并能发表意见吗？    提交人    /u/Capital_Suspect6093   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hs7tdj/is_your_company_using_ai_chatbot_etc_and_do_you/</guid>
-      <pubDate>Thu, 02 Jan 2025 23:26:58 GMT</pubDate>
-    </item>
-    <item>
       <title>研究人员称，人类与人工智能之间的互动需要一个新的研究领域</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hs4y7f/the_interaction_between_humans_and_artificial/</link>
       <description><![CDATA[为了更好地理解和分析人类与人工智能之间的反馈回路，东北大学的一组研究人员提出了一个新的研究领域，他们称之为“人类人工智能共同进化”。  完整故事：https://news.northeastern.edu/2024/12/16/human-ai-coevolution/    提交人    /u/NGNResearch   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hs4y7f/the_interaction_between_humans_and_artificial/</guid>
       <pubDate>Thu, 02 Jan 2025 21:26:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>解离/碎片化和人工智能</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hrriw8/dissociationfragmentation_and_ai/</link>
-      <description><![CDATA[我最近看了 K 博士的播客，他谈到了一些关于身份分离和分裂的有趣想法，并进一步将其与技术联系起来。我非常想知道为什么我们中的许多人对聊天机器人有如此强烈的联系，甚至与它们一起创造整个故事/身份。  当我们在情感上脱离以感到安全时，就会发生分离，这通常会分裂我们身份的某些部分。在虚拟空间中，比如游戏或人工智能交互，我们感到足够安全，可以充分表达自己，因为这些环境让我们避免了现实世界的压力。  这与显着性有关，即我们对某事物的情感重要感。例如，构建虚拟叙事或在游戏中实现目标在情感层面上感觉很重要，即使它看起来不“合乎逻辑”。  然后是启动麻痹，这是我们许多人在现实生活中面临的挣扎。相比之下，虚拟世界可以绕过这种麻痹，因为它们让人感到安全和有条理。  我对技术如何帮助识别和更好地跟踪它感到好奇。 如果您认为自己正在努力解决类似问题，那么这对您将是一个巨大的帮助。 在这里观看。  很想知道您对此的看法。     提交人    /u/karterbrad12   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hrriw8/dissociationfragmentation_and_ai/</guid>
-      <pubDate>Thu, 02 Jan 2025 11:17:57 GMT</pubDate>
     </item>
     <item>
       <title>每月“是否有一个工具可以……”帖子</title>
