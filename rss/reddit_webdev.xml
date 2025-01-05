@@ -4,11 +4,88 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 05 Jan 2025 12:28:14 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2025 15:15:12 GMT</lastBuildDate>
+    <item>
+      <title>您最喜欢或必须具备的 VS Code 设置是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu8tsa/what_are_your_favorite_or_musthave_vs_code/</link>
+      <description><![CDATA[嘿，刚刚看到介绍“最流畅”设置的主题，现在我想知道人们实际使用和喜欢什么设置？那么，您觉得需要从默认设置更改的实际 VS Code 设置是什么？ 对我来说，必备层中只有几个 - 使用 WSL，禁用括号嘉年华，禁用文件移动弹出窗口并禁用侵入式 GitLens 弹出窗口（喜欢 GitLens，但仅在需要时使用）： json &quot;terminal.integrated.profiles.windows&quot;: { ... } &quot;terminal.integrated.defaultProfile.windows&quot;: &quot;Ubuntu-22.04 (WSL)&quot;, &quot;editor.bracketPairColorization.enabled&quot;: false, &quot;javascript.updateImportsOnFileMove.enabled&quot;: &quot;never&quot;, &quot;gitlens.currentLine.enabled&quot;: false, &quot;gitlens.codeLens.enabled&quot;: false,  我也喜欢下面的这些。它们不是强制性的，但它们使 git 集成更简洁一些：  &quot;scm.alwaysShowRepositories&quot;: true, &quot;git.suggestSmartCommit&quot;: false, &quot;git.confirmSync&quot;: false, &quot;git.showActionButton&quot;: { &quot;commit&quot;: false, &quot;publish&quot;: false, &quot;sync&quot;: false },  第一个使源代码控制侧边栏始终使用多存储库模式，并在那里显示分支信息（包括用于分支切换和同步的小控件）。所以我永远不必查看状态栏。其他禁用“跳过暂存”模式和所有大按钮。因为我使用前面提到的小型内联控件进行发布/同步，并使用 Ctrl+Enter 进行提交。在我的工作流程中，从来不需要那些大按钮。    提交人    /u/Tontonsb   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu8tsa/what_are_your_favorite_or_musthave_vs_code/</guid>
+      <pubDate>Sun, 05 Jan 2025 15:00:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>与使用网站构建器相比，您自己编写网站代码能做的最令人印象深刻的事情是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu8gbm/whats_the_most_impressive_things_you_can_do/</link>
+      <description><![CDATA[我已经开始建立我的博客，我很享受我正在学习的东西，但有时我确实觉得我可能会让自己变得更难，应该只使用 wix/Squarespace/wordpress。所以我正在寻找继续努力的动力。现在它真的很基础，但我希望期待添加我在网站构建器中无法实现的功能。    提交人    /u/sammyybaddyy   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu8gbm/whats_the_most_impressive_things_you_can_do/</guid>
+      <pubDate>Sun, 05 Jan 2025 14:42:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>带有 API 调用的多步骤表单 - WordPress 上的最佳方法</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu85th/multistep_form_with_api_calls_best_approach_on/</link>
+      <description><![CDATA[我正在为一家小型企业构建自动报价工具。我是营销经理，但我们都身兼数职，因此我从事一些 Web 开发工作，因为尽管我不是 Web 开发人员，但我有一些经验。 我已经在 Flask 中为我们的自动报价工具构建了一个 API，该 API 托管在 Google Cloud Run 上。它运行完美，但现在我需要制作 UI 来实际与它交互。这是预期的功能： 表单第 1 页：输入财务详细信息表单第 2 页：输入联系信息*API 调用 #1* 表单第 3 页：验证我们拥有的信息是否正确（来自 API 响应）*API 调用 #2* 表单第 4 页：带有附加组件、总价和支付押金选项的完整报价 我们的网站建立在 WordPress 上，我们所有的其他表单都是使用 Formidable 构建的。我们使用的是基础计划，但我确实看到升级到商业计划时有一个本机 API 集成。但是，我想在表单中途进行调用并动态更新表单内的 HTML - 我不确定这是否是本机支持的（尽管我想我可以用 JavaScript 来实现）。另外，我一直在努力确定 Formidable 是否本机支持页面之间的加载动画。 在着手构建完全定制的东西之前，我想知道 Formidable 或其他表单构建器是否会本机支持我正在尝试构建的表单 Web 应用程序的全部功能。    提交人    /u/-ThatGingerKid-   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu85th/multistep_form_with_api_calls_best_approach_on/</guid>
+      <pubDate>Sun, 05 Jan 2025 14:27:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>所以我开发了这个网络应用，每天早上打印新闻。你们觉得怎么样？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu80bb/so_i_built_this_web_app_to_print_my_news_out_in/</link>
+      <description><![CDATA[https://papertrail.news ThePaperTrail 是一款因应需要而诞生的产品。我明年会买一部 Light Phone III，但仍然想保持联系。虽然我不会放弃我的电脑，但我的手机将无法上网。我仍然喜欢看新闻。所以我想，如果我可以每天早上把新闻打印出来会怎么样。这将大大减少我每天的屏幕时间，希望也能减少你的屏幕时间。 我想这更像是一种反技术产品，但作为一个每天与科技打交道的人，减少每一点屏幕时间都有帮助。 祝你好运！    提交人    /u/Himmself   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu80bb/so_i_built_this_web_app_to_print_my_news_out_in/</guid>
+      <pubDate>Sun, 05 Jan 2025 14:19:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>他们是不是可以通过这种方式来追踪您是否打开了电子邮件？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu7ycr/is_this_how_they_can_track_if_you_open_an_email/</link>
+      <description><![CDATA[      TLDR 如下。  我去年申请了一份工作，但从未收到回复。最近，我偶然发现了一个奇怪的 Google 搜索结果，搜索我的名字，它引导我找到了一份文件。该文件似乎是该职位的申请人名单。该文件似乎是无意中公开的，因为它包含个人信息，并且似乎仅供管理员使用。 文件： https://preview.redd.it/dt8uz994n6be1.png?width=1240&amp;format=png&amp;auto=webp&amp;s=ee140ecba9ff88b51fecfa534280894e997c0620 在“最后一封电子邮件”中列中，他们与申请人的电子邮件通信有明显的递送状态，例如&lt;2024 年 4 月 17 日开启&gt;或&lt;已递送，尚未打开&gt;。这表明他们可以追踪我是否打开了他们的电子邮件。 我重新查看了他们去年 4 月发给我的电子邮件，发现底部有一段代码片段，包含一个 &lt;img&gt; 标签。我怀疑此标签用于跟踪目的。 当我打开电子邮件时，&lt;img&gt; 标签的 src URL（其中包含链接到我的唯一 ID）会从他们的服务器加载。此操作很可能通知他们电子邮件已被打开。 这听起来合理吗？ TL;DR：我申请工作后，一家招聘机构向我发送了一封验证电子邮件。该电子邮件包含一个可疑的 &lt;img&gt; 标签，我认为该标签用于跟踪交付和打开状态。 以下电子邮件中的代码：  &lt;img width=3D&quot;1px&quot; height=3D&quot;1px&quot; alt=3D&quot;&quot; src=3D&quot;https://email.app.bam= boohr.com/o/eJyMkM2uojAYhq_G7jC0ID-LLggZTYmoUUdHN6R8_dAylBItmeDVT_ScCzi792_= zPmCNGXsN0mnbV1pxxShEMmReA8A8ShG9mtLUS1hEscEkRVAErBlkP733oFXFIhYHBMans4bjVP= jX8-Je9_vimotItIKVLbyE_qcvLHWwWo74u_srWqvL9jJtXqVe58V4OdPunR3M0​​l3_lLfj6jTA6= jSpvEiJ4hDGBDmNaRBELAwW5M4loFxg06DykyaOa9-HBCiLWQ1AGwyI_tGbWejLYZjX0tTW3h9z= sIY8eId6wIebt9Lgcxb6NyN19-kcz46HKtvt1iLPjmK7qfLtZin25Zf5VWZiTRz2sndvQN_qw-h= _AAAA__8u23XQ&quot;&gt;&lt;/body&gt; &lt;/html&gt;     提交人    /u/Jameson2800   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu7ycr/is_this_how_they_can_track_if_you_open_an_email/</guid>
+      <pubDate>Sun, 05 Jan 2025 14:16:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于网站扩展的建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu7m0y/advice_on_web_extention/</link>
+      <description><![CDATA[我编写了这个原型，让用户可以更改 Chrome 书签栏的颜色。  有人可以就这个想法给我一些建议吗？考虑到谷歌可能不允许开发人员更改 Chrom UI，这可行吗？ https://github.com/Huang-Zi-Zheng/Chrome_bookmark_file_color_extention.git    提交人    /u/politicsRgay ​​  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu7m0y/advice_on_web_extention/</guid>
+      <pubDate>Sun, 05 Jan 2025 13:59:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>你们使用片段管理器吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu70qe/do_you_guys_use_a_snippet_manager/</link>
+      <description><![CDATA[所以，不久前我看到了一篇关于代码片段管理器的帖子——它是为 Mac 设计的。我尝试了 Windows 版本，但不太喜欢，然后就忘了它了。最近，我在 YouTube 上看到了一个视频，视频中讲的是一个网站而不是软件。我只是想知道你们是否经常或经常使用这样的东西？    提交人    /u/z-727   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu70qe/do_you_guys_use_a_snippet_manager/</guid>
+      <pubDate>Sun, 05 Jan 2025 13:26:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>出售网站源代码模板</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu6sv0/website_source_code_templates_for_sale/</link>
+      <description><![CDATA[DM 我以获取店面和作品集网站➡️    提交人    /u/matr-x   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu6sv0/website_source_code_templates_for_sale/</guid>
+      <pubDate>Sun, 05 Jan 2025 13:13:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>当骨架加载器需要 3 秒以上才能加载内容时，说“0.01 秒”有点荒谬</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu6nft/kinda_ridiculous_to_say_001_seconds_when_the/</link>
+      <description><![CDATA[       由    /u/mekmookbro  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu6nft/kinda_ridiculous_to_say_001_seconds_when_the/</guid>
+      <pubDate>Sun, 05 Jan 2025 13:04:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>回归基础：为什么我们选择长轮询而不是 WebSockets</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu6m1c/back_to_basics_why_we_chose_long_polling_over/</link>
+      <description><![CDATA[  由    /u/DraxusLuck  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu6m1c/back_to_basics_why_we_chose_long_polling_over/</guid>
+      <pubDate>Sun, 05 Jan 2025 13:02:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>您对无薪实习有何看法？（英国）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hu63il/what_is_your_opinion_on_unpaid_internships_uk/</link>
+      <description><![CDATA[      在浏览 LinkedIn 招聘信息时偶然发现了这个职位。目前正在 OU 攻读学位，目前正处于学习的最后一年。     提交人    /u/danjwilko   [link] [comments] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hu63il/what_is_your_opinion_on_unpaid_internships_uk/</guid>
+      <pubDate>Sun, 05 Jan 2025 12:30:10 GMT</pubDate>
+    </item>
     <item>
       <title>为什么存在单方法 npm 包？</title>
       <link>https://www.reddit.com/r/webdev/comments/1hu60ym/why_do_singlemethod_npm_packages_exist/</link>
-      <description><![CDATA[我偶然发现了 NPM 包 is-even，有点困惑。这是一个检查数字是否为偶数的包，它只包含一个方法。虽然我明白这样的包在某些情况下很有用，但我想知道为什么这种微小的单一功能包首先存在......？    提交人    /u/kadketon   [link] [评论]]]></description>
+      <description><![CDATA[我偶然发现了 NPM 包 is-even，有点困惑。这是一个检查数字是否为偶数的包，它只包含一个方法。虽然我知道这样的包在某些情况下很有用，但我想知道为什么首先存在如此微小的单一功能包......？ P.S 刚刚意识到这个（包）是一个模因......我的错误误导了帖子！    提交人    /u/kadketon   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hu60ym/why_do_singlemethod_npm_packages_exist/</guid>
       <pubDate>Sun, 05 Jan 2025 12:25:29 GMT</pubDate>
     </item>
@@ -27,88 +104,11 @@
       <pubDate>Sun, 05 Jan 2025 11:49:17 GMT</pubDate>
     </item>
     <item>
-      <title>使用浏览器自动化来自动发布列表，我完全错了吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu5fui/automating_publishing_listings_using_browser/</link>
-      <description><![CDATA[我有一个客户，他在不同的房产列表网站上发布了许多他们正在出售的房产。这是一个小众行业，因此房产列表网站已经很老旧了，不提供任何 API 或其他以编程方式在其网站上发布房源的方式。目前，客户通过登录不同的网站并从房产列表中复制粘贴信息来手动完成所有发布。所有房产列表网站的表格略有不同，需要的信息也不同。不过，我的客户已经拥有的有关房源的信息通常会被改装到各个平台上。 我现在正在看我是否可以自动化这个过程。我的客户的房产存储在 Airtable 数据库中，这是主要的真实来源。从那里，我可以使用 Airtable 和他们的 CMS 之间现有的同步服务自动在他们的网站上发布。现在，我想在不同的房产列表网站上发布该房产。 我已经开始尝试构建一个简单的 Web 界面，客户可以在其中输入房产详细信息、选择平台、添加他们想要发布的每个平台的登录凭据，然后使用 Playwright，我尝试自动完成发布房产的过程。但我不知道这是否可行，或者我的方法是否完全错误。现在，随着 Claude 的计算机使用和几家初创公司的出现，这些初创公司允许您提示 LLM 简单地为您完成任务，或者只是使用 Browserflow 之类的东西来半自动化手动任务，我想知道是否值得尝试构建这个解决方案。能够在服务器端执行此操作而不必保持浏览器窗口打开来执行任务会非常好。    提交人    /u/winterborn   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu5fui/automating_publishing_listings_using_browser/</guid>
-      <pubDate>Sun, 05 Jan 2025 11:48:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>当我对所有内容都使用 JWT 时，android/iOS 应用程序是否需要 csrf 令牌？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu4ot4/is_csrf_tokens_required_for_androidios_apps_when/</link>
-      <description><![CDATA[我使用 django 作为后端，它建议对所有内容使用 CSRF 令牌。但我使用 GraphQL 来处理 API，并使用一点 Allauth 进行身份验证。我不确定是否应该使用 csrf 豁免，因为我看到过一些 stackoverflow 答案和 reddit 上的帖子，它们都说不需要 csrf 令牌，因为应用程序没有 cookie（我是新手，不知道这些信息是否正确）。 应用程序如何管理所有内容？如果我需要移动应用程序和浏览器应用程序连接到同一个 API，我该怎么办？ 我将 CORS 设置为同源。    提交人    /u/give_me_a_job_pls   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu4ot4/is_csrf_tokens_required_for_androidios_apps_when/</guid>
-      <pubDate>Sun, 05 Jan 2025 11:05:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>与 pos 应用程序相关的查询</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu3vnp/query_related_to_pos_application/</link>
-      <description><![CDATA[我想为当地一家快餐企业开发一款 pos 应用程序。目前，他们正在使用一款基于订阅的桌面应用程序，但它缺少一些功能，例如每个项目中的多个子类别等，而他们使用的软件不提供这些功能。我从哪里开始呢？从头开始，或者如果您愿意的话，任何开源存储库都会有所帮助。我不喜欢桌面应用程序，所以考虑使用 Web 应用程序/网站之类的东西。    提交人    /u/Alarmed_Doubt8997   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu3vnp/query_related_to_pos_application/</guid>
-      <pubDate>Sun, 05 Jan 2025 10:17:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>我需要有关选择正确的后端堆栈的咨询。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu33r7/i_need_counseling_about_picking_the_right_backend/</link>
-      <description><![CDATA[我从事 Reactjs 工作 3 年。我了解 Javascript 和 Reactjs。这就是我的技术背景。 我愿意增加后端技能，但我不知道应该从哪里开始。我可以从 nodejs 开始，因为我了解 javascript。 我了解 Golang 的基础知识，我可以使用 go 或 django。我曾使用过 Laravel。 昨天，我和我的朋友进行了讨论，他建议我学习一些技能组合。长时间停留在 React 上并不好。我可以使用 Nextjs 或 Remix。我也有关于 React Native 或 Expo 的选择。 我有很多技术知识，我应该从哪里开始？需要咨询    提交人    /u/junaidklair   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu33r7/i_need_counseling_about_picking_the_right_backend/</guid>
-      <pubDate>Sun, 05 Jan 2025 09:38:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>该类型的 UI 设计的名称</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu2g2u/name_of_this_type_of_ui_design/</link>
-      <description><![CDATA[      我对这些我们越来越多看到的漂亮 UI 元素印象深刻。如果有人知道它叫什么，请告诉我。   由    /u/Edgeog  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu2g2u/name_of_this_type_of_ui_design/</guid>
-      <pubDate>Sun, 05 Jan 2025 09:05:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于静态或 SPA 的初学者问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu283o/beginner_question_on_static_or_spa/</link>
-      <description><![CDATA[我是一名尝试创建博客网站的初学者。由于 SPA 随处可见，我开始在 React 中创建网站并将我的博客放在数据库中。但是有一个问题，因为我是通过从数据库获取数据然后在组件中显示来创建博客的，而且由于博客不是它自己的页面，所以如果有人搜索它，它不会显示在浏览器搜索结果中。  问题：如果我的想法正确，我是否需要获取页面而不是数据来解决这个问题，或者有没有办法解决这个问题？ 在这个想法之前，我认为 SPA 和静态之间的区别在于页面不会刷新，但现在经过研究，我对它如何影响 SEO 和搜索结果有了更多的怀疑。    提交人    /u/ghostfreak999   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu283o/beginner_question_on_static_or_spa/</guid>
-      <pubDate>Sun, 05 Jan 2025 08:53:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>SkipSong Chrome 扩展程序 - 欢迎贡献！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu23oj/skipsong_chrome_extension_contributions_welcome/</link>
-      <description><![CDATA[大家好！ 我为宝莱坞电影制作了一个名为 SkipSong 的 Chrome 扩展程序，用于跳过那些对剧情没有真正帮助的随机歌曲。它从 URL（如 Netflix 81686136）中获取电影 ID，从 Google Sheet 中查找歌曲的开始和结束时间，并在电影播放时跳过它们。 目前这只是一个概念验证，所以它并不完美，但如果有人想帮忙，请随时 fork 该仓库！添加功能、修复错误或只是按照您喜欢的方式改进它。 这是仓库链接，感谢您的任何反馈或贡献！   由    /u/Unusual_Application  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu23oj/skipsong_chrome_extension_contributions_welcome/</guid>
-      <pubDate>Sun, 05 Jan 2025 08:47:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么现代前端框架推行自己的构建系统，却对直接使用其编译器的支持不足？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu1r1h/why_do_modern_frontend_frameworks_push_their_own/</link>
-      <description><![CDATA[当一个新的框架出现并寻找采用者时，可能会采用新技术作为其现有技术堆栈一部分的现有项目比可能端到端采用此框架的新项目多得多。虽然这可能并不完全正确，但这是我的企业应用程序开发经验。任何主要应用程序的完全重写都极为罕见，而且大多数时候，与现有项目中的工具“配合良好”是任何框架被采用的明确要求。 然而，根据我的经验，作者通常强烈支持构建其框架的特定方式，而对其他方式的文档不足。Astro 使用 Astro CLI 构建，Svelte 鼓励使用 Sveltekit 构建，这两者都是在 Vite 之上构建的。如果我有一个现有的项目，它有自己的构建和捆绑系统（例如 Webpack、vanilla Rollup、vanilla Vite），那么如何使用我现有的构建系统组合 Sveltekit 和 AstroCLI 就不太直观了。虽然这两个框架都提供了可以用于此目的的原始编译器，但它们感觉像是事后才想到的，没有充分的文档记录。 我只是想在这里澄清一下，我不是指运行时接口——一旦我找到了构建它们的方法，单独的 Svelte 组件和静态 Astro 页面就很容易与应用程序集成。 这种情况并不少见。我可能有一个多页应用程序，想使用 Astro 来构建我的下一个页面。如果我有一个现有的 SPA，我可能会使用 Svelte 或 React 添加一些新组件，并逐渐（几个月到几年）重写旧组件。我不想为了编译单个组件或页面而完全改变我的构建系统以使用 AstroCLI 或 Sveltekit - 我想要一个没有构建系统的更简单的编译器。这种情况在专业领域比从头开始编写新应用程序更常见。 作为比较，C++ 或 Java 中的编译器接口足够稳定，普通开发人员可以将基本的、独立开发的工具（linter、编译器、静态分析）串联到工具链中。即使对于像 Golang 和 Rust 这样带有自己的构建系统的语言，编译器接口也足够原子，可以通过 Make、Bazel 等轻松地将其与其他构建时实用程序进行协调。那么相比之下，为什么 Astro 和 Svelte 试图“构建自己的 Vite”，而 Vite 必须支持向它抛出的每个 SSR Web 服务器、捆绑器等用例呢？如果我有一个现有的 Webpack 或 Rollup Svelte 项目，并且想要添加一个静态 Astro 页面，我宁愿为这个简单的 .astro-to-.html 转换添加一个简单、有据可查的 Astro 编译器，而不是弄清楚 Astro CLI 的魔力。 &amp;32; 构建可组合工具，每个工具都做好一件事&amp;32; 的理念似乎在这些框架中完全缺失。也许这就是重点，我在错误的地方寻找或将它们更多地视为库，但我相信为不同的框架编写构建工具应该很容易推理。我喜欢 Svelte/Astro DSL 的语法，并且不希望 AstroCLI 或 Sveltekit 的概念开销分散我对这些框架优点的注意力。    提交人    /u/draconicsheep123   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu1r1h/why_do_modern_frontend_frameworks_push_their_own/</guid>
-      <pubDate>Sun, 05 Jan 2025 08:28:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>我需要帮助调试 Next.js 代理配置以进行 Plausible Analytics</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu1k2i/i_need_help_with_debugging_nextjs_proxy_config/</link>
-      <description><![CDATA[我使用官方推荐的软件包在 Next.js 应用中集成 Plausible 分析。它使用代理从本地域加载脚本以避免广告拦截器，但它也会将所有访问者的国家/地区覆盖为服务器的国家/地区。我怎样才能获得正确的国家/地区？ 这是软件包： https://github.com/4lejandrito/next-plausible 我已经按照文档中的说明设置了提供程序和代理。 ```tsx // components/base-head.tsx const BaseHead: FC = () =&gt;; （ // eslint-disable-next-line @next/next/no-head-element &lt;head&gt; &lt;PlausibleProvider // 此站点 url，仅限运行时 domain={plausibleDomain} selfHosted // 服务器 url，不包含 /js/script.js，这里和 next.config.mjs 中都有 // 构建时、Docker build-args、Github Actions customDomain={plausibleServerUrl} // 用于调试的 true trackLocalhost={true} /&gt; &lt;/head&gt; ）； ``` ```ts // next.config.mjs 从&#39;next-plausible&#39;导入 { withPlausibleProxy }; /** @type {import(&#39;next&#39;).NextConfig} */ const nextConfig = { reactStrictMode: true, output: &#39;standalone&#39;, }; // 必须在这里和提供程序中设置它 // 这里必须在 BUILD TIME、Docker 中的 build-arg、Github Actions 中设置它 const withPlausibleProxyFn = withPlausibleProxy({ customDomain: process.env.PLAUSIBLE_SERVER_URL, }); export default withPlausibleProxyFn(nextConfig); ``` 分析有效，但我得到了所有访问服务器国家/地区的访问者的国家/地区覆盖，这是关于代理的事情。我的服务器在德国和塞尔维亚，这是结果。 https://i.postimg.cc/QNvFTqcS/image.png 有关更多详细信息，这些是我的 repo，其中包含代码和 Plausible 仪表板： https://github.com/nemanjam/hn-new-jobs https://plausible.arm1.nemanjamitic.com/hackernews-new-jobs.arm1.nemanjamitic.com   由    /u/nemanja_codes  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu1k2i/i_need_help_with_debugging_nextjs_proxy_config/</guid>
-      <pubDate>Sun, 05 Jan 2025 08:17:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>还在为 CSS Flexbox 烦恼吗？这个 Playground 就是为你准备的！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu1jrs/struggle_with_css_flexbox_this_playground_is_for/</link>
-      <description><![CDATA[  由    /u/ChoiceTwist7237  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu1jrs/struggle_with_css_flexbox_this_playground_is_for/</guid>
-      <pubDate>Sun, 05 Jan 2025 08:16:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>自主 AI webdev 渗透测试</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu13d8/autonomous_ai_webdev_peneration_test/</link>
-      <description><![CDATA[我构建了一个可以进行网络渗透测试的 AI 代理，目前正在考虑免费提供它来测试一下人们是否对此感兴趣。 代理 Tarantula 已经解决了网络安全学院的许多入门级实验室问题。其中一些在不到一分钟的时间内就解决了。 让我知道你对这个想法的看法。    提交人    /u/dvnci1452   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu13d8/autonomous_ai_webdev_peneration_test/</guid>
-      <pubDate>Sun, 05 Jan 2025 07:51:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coursera 证书</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hu09zu/coursera_certificate/</link>
-      <description><![CDATA[我可以在简历/履历中使用类似这样的 Coursera 证书 https://www.coursera.org/professional-certificates/meta-back-end-developer 吗？或者 Coursera 就像 udemy 的证书一样，毫无用处。    提交人    /u/imStan2000   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hu09zu/coursera_certificate/</guid>
-      <pubDate>Sun, 05 Jan 2025 07:13:50 GMT</pubDate>
+      <title>我的第一个 Web 应用程序是一个图书推荐器——请告诉我你的反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1htq3su/my_first_ever_web_app_is_a_book_recommender_let/</link>
+      <description><![CDATA[  由    /u/No-Device-6554  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1htq3su/my_first_ever_web_app_is_a_book_recommender_let/</guid>
+      <pubDate>Sat, 04 Jan 2025 22:21:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
