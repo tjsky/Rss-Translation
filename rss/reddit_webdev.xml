@@ -3,12 +3,26 @@
   <channel>
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请访问 /r/web_design。</description>
-    <lastBuildDate>Sat, 11 Jan 2025 01:11:00 GMT</lastBuildDate>
+    <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
+    <lastBuildDate>Sat, 11 Jan 2025 03:20:33 GMT</lastBuildDate>
+    <item>
+      <title>市场支付</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hymiyh/marketplace_payments/</link>
+      <description><![CDATA[大家好，我正在开发一个市场，将需要设备运输的人与经过审查的运输企业联系起来。 我很好奇，什么样的支付处理在这里是最理想的？ 使用 Stripe 并使用 Stripe Connect 收款会更好吗？（这里的主要抱怨是资金可能会在服务交付之前释放） 或者最好使用另一个支付提供商作为平台、中间人来收款，然后进行支付？ 渴望听到您的观点。    提交人    /u/just-coding-tonight   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hymiyh/marketplace_payments/</guid>
+      <pubDate>Sat, 11 Jan 2025 03:05:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>帮助我理解 API 的实现？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1hyl8gx/help_me_understand_api_implementation/</link>
+      <description><![CDATA[首先我要说的是，我并不想自己实现这一点……我不是开发人员。 我通过 API 获取了将数据从 PTEverywhere 移动到 Hubspot 的报价。目前有一个基于订阅的系统，但我正在单独制作它，因此我将拥有解决方案。 有人告诉我，我需要一个单独的网络托管服务（他们提到了 GoDaddy、namecheap）来托管代码。我原本以为，由于 PTEverywhere 的文档谈到了通过 AWS，所以我不需要单独的托管解决方案。需要说明的是，当前的解决方案并未使用 webhook。 这是 PTEverywhere 在其发布内容 此处 中写到的内容：   “PtEverywhere 的 API 是根据 HIPAA 合规性要求设计的，这促使我们做出了采用 Amazon Web Services (AWS) Cognito 进行身份验证和授权受保护健康信息 (PHI) 的安全处理和传输的技术决定。”   Amazon API Gateway 自动使用 HTTPS 端点进行传输加密，从而保护 PtEverywhere 用户免受“中间人”攻击。在传输 PHI 数据时，所有请求都会在受 AWS 保护的 AWS CloudWatch 上进行跟踪。  在 PtEverywhere 中以及从 PtEverywhere 发出时，您的数据在符合 HIPAA 标准的环境中是安全的。一旦数据到达另一个系统，您有责任确保接收数据的系统符合 HIPAA 标准。&quot; 作为参考，这是 PTEverywhere 的文档：https://openapi.pteverywhere.com/api/v2/swagger.html  所以我的问题是： 1) 我真的需要网络托管解决方案吗？还是通过 AWS 来处理？ 2) 数据是否有意义地通过此服务器，以至于我需要获得符合 HIPAA 标准的网络服务器解决方案，或者正常服务就足够了？    提交人    /u/CaveDwellinAg   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1hyl8gx/help_me_understand_api_implementation/</guid>
+      <pubDate>Sat, 11 Jan 2025 01:56:44 GMT</pubDate>
+    </item>
     <item>
       <title>他如何在他的网站上销售其他游戏产品？</title>
       <link>https://www.reddit.com/r/webdev/comments/1hyitf8/how_is_he_selling_other_games_products_on_his/</link>
-      <description><![CDATA[此网站 https://starlightshop.net/shop 由一个家伙经营，他以低价出售多种游戏货币并自己留着这些钱。 他是如何以低于游戏售价的价格出售的，而买家实际上收到了它？他使用什么工具来完成此操作？为什么公司不追究他？    提交人    /u/Pukers   [link] [评论]]]></description>
+      <description><![CDATA[此网站 https://starlightshop.net/shop 由一个家伙经营，他以低价出售多种游戏货币并自己留着这些钱。 他是如何以低于游戏售价的价格出售的，而买家实际上收到了它？他使用什么工具来完成这项工作？为什么公司不追究他？    提交人    /u/Pukers   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hyitf8/how_is_he_selling_other_games_products_on_his/</guid>
       <pubDate>Fri, 10 Jan 2025 23:57:45 GMT</pubDate>
     </item>
@@ -22,7 +36,7 @@
     <item>
       <title>我做错了什么？帮助 Nodejs 动态动画程序</title>
       <link>https://www.reddit.com/r/webdev/comments/1hyi0k0/what_am_i_doing_wrong_help_with_nodejs_dynamic/</link>
-      <description><![CDATA[我要解决的问题是什么： 我需要转换一个 mp4 文件（使用 Pivot Animator 5 制作的预制动画文件）并向其中添加图像和文本，然后重新拼接所有内容并将包含添加的图像和文本的 gif 或 .mp4 文件导出回我的原始 .mp4 文件。这必须通过我的 nodejs 后端服务器动态自动完成。一个请求到达我的端点，我需要响应是基于原始请求中的数据的完整动态更新动画。 完整上下文： 我的 nodejs 服务器收到了一个新“游戏”的请求，还获得了每个玩家的名称及其头像。我在 Pivot Animator 5 中预先选择了一些 mp4 格式的动画，这些动画对应于不同的游戏结果，一旦我的 nodejs 服务器随机确定了游戏的结果，它就会选择适当的 gif 动画。我需要做的是将每个玩家的名字动态添加到该预制动画中，我想要的是将他们的头像添加到场景中。动画有一个类似房间的设置。这个想法是将每个玩家的每个头像动态添加到房间内的每把椅子中。之后，将帧转换为 gif/mp4 并将该文件发送回我的应用程序。 我的代码在做什么： 我几乎可以使用诸如 canvas2d、pixijs 甚至 gsap 之类的前端库来操作 DOM 元素和动画。但是，严格使用我的 nodejs 后端服务器，这会更具挑战性，因为我没有直观的库，必须使用更多低级图形库来完成所有这些视频和文本的转换。我尝试过使用 AI，并且有一个工作起来有些粗糙的版本，可以动态地向 gif/mp4 文件添加文本。但是我需要更复杂的东西，因为我想动态更新此 mp4 文件中的艺术作品，并更精确地安排动画，这需要更精细的控制。我无法使用 AI 生成的通用代码来做到这一点，但它确实有点用。  我尝试过什么： 我已经尝试将 pixijs 集成到我的节点应用程序中，这简直是地狱。除了所有终端错误之外，还有一百万个版本冲突、子库、子类和插件不能很好地协同工作。Pixi 是为前端设计的，任何后端“版本”都是无用的。如果我错了，我很乐意是错的。 我曾考虑过使用其他游戏引擎，但我使用 pixi 的糟糕经历让我一想到要走 html 游戏引擎路线就感到不舒服。如果我能以某种方式使用 Unity2D 包装器作为后端或我不知道的东西来做到这一点，那么昨天就可以完成了。 问题： 是否存在适合我的用例的东西可以让事情变得更容易？或者我注定要真正学习如何使用以下低级库来做到这一点：fluent-ffmpeg、canvas、gifencoder。如果我注定只能使用这些类型的软件，那么自由职业者会收取多少费用来构建这样的程序，它可以接收自定义 mp4/gif 将其解构为框架，然后将我想要的任何艺术作品添加到我想要的这些框架中的任何位置以及我需要的任何文本，然后将它们全部拼接在一起并将其编码为 gif/mp4？ 任何帮助、建议、追逐的兔子洞，我已经为此工作了大约 7 个月。我已经把整个后端、前端和预制动画都建好了，现在只剩下这个后端动态动画部分了。    submitted by    /u/awp8912   [link] [comments]]]></description>
+      <description><![CDATA[我要解决的问题是什么： 我需要转换一个 mp4 文件（使用 Pivot Animator 5 制作的预制动画文件）并向其中添加图像和文本，然后重新拼接所有内容并将包含添加的图像和文本的 gif 或 .mp4 文件导出回我的原始 .mp4 文件。这必须通过我的 nodejs 后端服务器动态自动完成。一个请求到达我的端点，我需要响应是基于原始请求中的数据的完整动态更新动画。 完整上下文： 我的 nodejs 服务器收到了一个新“游戏”的请求，还获得了每个玩家的名称及其头像。我在 Pivot Animator 5 中预先选择了一些 mp4 格式的动画，这些动画对应于不同的游戏结果，一旦我的 nodejs 服务器随机确定了游戏的结果，它就会选择适当的 gif 动画。我需要做的是将每个玩家的名字动态添加到该预制动画中，我想要的是将他们的头像添加到场景中。动画有一个类似房间的设置。这个想法是将每个玩家的每个头像动态添加到房间内的每把椅子中。之后，将帧转换为 gif/mp4 并将该文件发送回我的应用程序。 我的代码在做什么： 我几乎可以使用诸如 canvas2d、pixijs 甚至 gsap 之类的前端库来操作 DOM 元素和动画。但是，严格使用我的 nodejs 后端服务器，这会更具挑战性，因为我没有直观的库，必须使用更多低级图形库来完成所有这些视频和文本的转换。我尝试过使用 AI，并且有一个工作起来有些粗糙的版本，可以动态地向 gif/mp4 文件添加文本。但是我需要更复杂的东西，因为我想动态更新此 mp4 文件中的艺术作品，并更精确地安排动画，这需要更精细的控制。我无法使用 AI 生成的通用代码来做到这一点，但确实有点用。  我尝试过什么： 我已经尝试将 pixijs 集成到我的节点应用程序中，这简直是地狱。除了所有终端错误等之外，还有一百万个版本冲突、子库、子类和插件无法很好地协同工作。Pixi 是为前端设计的，任何后端“版本”都毫无用处。如果我错了，我很乐意是错的。 我曾考虑过使用其他游戏引擎，但我使用 pixi 的糟糕经历让我一想到要走 html 游戏引擎路线就感到不舒服。如果我能以某种方式使用 Unity2D 包装器作为后端或我不知道的东西来做到这一点，那么昨天就可以完成了。 问题： 是否存在适合我的用例的东西可以让事情变得更容易？或者我注定要真正学习如何使用以下低级库来做到这一点：fluent-ffmpeg、canvas、gifencoder。如果我注定只能使用这些类型的软件，那么自由职业者会收取多少费用来构建这样的程序，它可以接收自定义 mp4/gif 将其解构为框架，然后将我想要的任何艺术作品添加到我想要的这些框架中的任何位置以及我需要的任何文本，然后将它们全部拼接在一起并将其编码为 gif/mp4？ 任何帮助、建议、追逐的兔子洞，我已经为此工作了大约 7 个月。我已经把整个后端、前端和预制动画都建好了，现在只剩下这个后端动态动画部分了。    submitted by    /u/awp8912   [link] [comments]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hyi0k0/what_am_i_doing_wrong_help_with_nodejs_dynamic/</guid>
       <pubDate>Fri, 10 Jan 2025 23:20:26 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[    /u/darkhorsematt   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1hydd1f/javascript_in_2025_still_on_top_sveltekit_astro/</guid>
       <pubDate>Fri, 10 Jan 2025 19:58:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找一个好的纯 JS OPFS 库/包装器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hydc87/looking_for_a_good_pure_js_opfs_librarywrapper/</link>
-      <description><![CDATA[我需要使用 OPFS 来完成一个项目，但老实说，网上关于它的资源并不多，而且使用起来总体来说有点令人沮丧，所以我正在寻找一个纯 JS 包装器/库，我可以使用它来让事情变得更容易，任何建议都很棒！    提交人    /u/Labbo-lab   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hydc87/looking_for_a_good_pure_js_opfs_librarywrapper/</guid>
-      <pubDate>Fri, 10 Jan 2025 19:57:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>“zqxq”攻击中 2800 个网站受到恶意 JavaScript 攻击</title>
-      <link>https://www.reddit.com/r/webdev/comments/1hybfl9/2800_websites_hit_by_malicious_javascript_in_zqxq/</link>
-      <description><![CDATA[        由    /u/yash13 提交   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1hybfl9/2800_websites_hit_by_malicious_javascript_in_zqxq/</guid>
-      <pubDate>Fri, 10 Jan 2025 18:38:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
