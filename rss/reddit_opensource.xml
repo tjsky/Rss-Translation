@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 12 Jan 2025 18:19:35 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 21:14:26 GMT</lastBuildDate>
+    <item>
+      <title>亚历山大计划</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hzunq2/alexandrie_project/</link>
+      <description><![CDATA[大家好，我想向大家介绍我过去几个月一直在做的一个小项目。这是一款专为课程和学生设计的笔记应用。目标是拥有一个不错的应用来组织不同的笔记，并通过内置工具（如代码片段、命令、快捷方式等）实现一定程度的生产力。因此，与 Notion 等应用不同，这里的主要优势是您可以专注于内容并立即获得格式良好的结果。 我之所以与你们分享它，是因为这是我完全托管且功能齐全的首批应用之一。所以，如果你们中的一些人喜欢这个项目，那么得到一些反馈会很棒，我真的很感兴趣！ 🤗 https://github.com/Smaug6739/Alexandrie    由   提交  /u/ConfidentCoffee827   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hzunq2/alexandrie_project/</guid>
+      <pubDate>Sun, 12 Jan 2025 19:28:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>我最近推出了 ArveleaWriter，一款 iOS 开源所见即所得的 markdown 和文本编辑器。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hztw74/ive_recently_launched_arveleawriter_an_ios/</link>
+      <description><![CDATA[大家好，我最近推出了 ArveleaWriter，这是一款适用于 iOS 和 iPadOS 的开源文本和所见即所得的 markdown 编辑器。 ArveleaWriter 利用 iOS 面向用户的文件浏览器（Files.app 界面）来访问和创建文件，从而能够在 iOS 的文件应用程序中可访问的任何文件夹或位置存储、打开和编辑 markdown 和文本文件，而不必担心被锁定在特定的存储位置或云存储提供商。 ArveleaWriter 的总体愿景是提供直观而强大的笔记记录和写作体验，同时为笔记/文档数据所有权提供灵活性。我个人期待在应用程序发布后继续进行迭代并进一步实现这一愿景。 演示视频：https://bsky.app/profile/arvelea.com/post/3ldjmdxvzts27 App Store：apps.apple.com/us/app/arveleawriter/id6621181209 官方网站：arvelea.com/writer GitHub：github.com/arveleaofficial/ArveleaWriter Bluesky：bsky.app/profile/arvelea.com X / Twitter：x.com/arveleaofficial 主题：threads.net/@arveleaofficial    提交人    /u/CoiLWiRE   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hztw74/ive_recently_launched_arveleawriter_an_ios/</guid>
+      <pubDate>Sun, 12 Jan 2025 18:56:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>微型媒体服务器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1hztkmn/tiny_media_server/</link>
+      <description><![CDATA[如果您的计算机上堆积了大量旧视频和照片，并且您想通过手机或平板电脑访问它们，tinytune 可以提供帮助。我出于自己的目的亲自完成了该项目，因此如果它对某人有用，我会很高兴。 功能：  一个可执行文件 搜索 视频的动画预览 流式传输 .flv、.avi 等 丰富的设置，用于优化索引大媒体文件夹  https://github.com/alxarno/tinytune    提交人    /u/SwimmingTutor4046   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1hztkmn/tiny_media_server/</guid>
+      <pubDate>Sun, 12 Jan 2025 18:42:54 GMT</pubDate>
+    </item>
     <item>
       <title>基于浏览器的生产力工具包</title>
       <link>https://www.reddit.com/r/opensource/comments/1hzrtrx/browser_based_productivity_toolkit/</link>
@@ -29,7 +50,7 @@
     <item>
       <title>AI 代理工作流的新交互式 UI：观看 OpenAI 的 o1 预览版，使用 Anthropic 的 Claude Computer-Use 使用计算机</title>
       <link>https://www.reddit.com/r/opensource/comments/1hzpmu1/new_interactive_ui_for_ai_agent_workflows_watch/</link>
-      <description><![CDATA[我一直在研究一个令人兴奋的开源项目，名为 MarinaBox，这是一个为 AI 代理创建安全沙盒环境的工具包。 最近，我们添加了一个 交互式 UI，让 AI 工作流变得生动。此 UI 可让您：  输入提示来指导 AI 代理。 在浏览器中实时观看代理执行任务。 跟踪日志，显示 Vision、Think 和 Act 等节点如何交互以解决任务。  它以 Claude Computer-Use 为基础，并添加了“思考”功能，从而能够更好地为 Web 任务做出决策。无论您是在调试、试验还是只是对 AI 工作流感到好奇，此工具都可以让您透明地了解代理的工作方式。  我写了一篇文章来解释所有这些内容，并附上如何使用它的说明。 您可以在此处找到它：https://medium.com/@smothermate/visualizing-ai-agent-workflows-with-marinabox-openthropic-a-new-interactive-ui-0f402efccd69 它是开源的，因此请随意探索和贡献：https://github.com/marinabox/marinabox 期待您的反馈！   由    /u/Severe_Expression754  提交  [链接] [评论]]]></description>
+      <description><![CDATA[我一直在研究一个令人兴奋的开源项目，名为 MarinaBox，这是一个为 AI 代理创建安全沙盒环境的工具包。 最近，我们添加了一个 交互式 UI，让 AI 工作流变得生动。此 UI 可让您：  输入提示来指导 AI 代理。 在浏览器中实时观看代理执行任务。 跟踪日志，显示 Vision、Think 和 Act 等节点如何交互以解决任务。  这基于 Claude Computer-Use，并添加了“思考”功能，从而能够更好地为 Web 任务做出决策。无论您是在调试、实验还是只是对 AI 工作流感到好奇，此工具都可以让您透明地了解代理的工作方式。  我写了一篇文章来解释所有这些内容，并附上如何使用它的说明。 您可以在此处找到它：https://medium.com/@smothermate/visualizing-ai-agent-workflows-with-marinabox-openthropic-a-new-interactive-ui-0f402efccd69 它是开源的，因此请随意探索和贡献：https://github.com/marinabox/marinabox 期待您的反馈！   由    /u/Severe_Expression754  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hzpmu1/new_interactive_ui_for_ai_agent_workflows_watch/</guid>
       <pubDate>Sun, 12 Jan 2025 15:54:33 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[这不是一个重点很突出的帖子。我正在考虑一个决定，并寻求外部意见。 我一直在寻找一个开源项目来构建，理想情况下是可以让我构建 GUI 和/或开发人员工具领域的项目。 长期以来，我对 Postman 或 Insomnia 等桌面 HTTP 客户端感到不满意。他们总是强行推销云功能和企业集成。在某些方面，我很想自己构建一个。 我的想法是，除了典型的 HTTP API 测试之外，还要能够很好地理解 IDL，可以执行基本的客户端代码生成，并支持测试脚本。我还想知道您是否可以围绕它创建一个表单生成器，并以“信息亭模式”运行以生成内部应用程序。 但竞争对手很多。 Bruno 就是其中之一，尽管我觉得它缺乏质量和完善。还有其他几个。 我想知道是否仍然值得构建我自己的东西，或者尝试不同的领域是否更有意义。 我不是在寻找一个具有巨大成功的项目，而是寻找一些令人愉快的东西来让我继续练习我的 GUI 开发技能（我的工作 100％ 是后端）。 与此同时 - 我会后悔构建别人已经做得更好的东西吗？    提交人    /u/yojimbo_beta   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hz2grf/thinking_of_working_on_a_desktop_http_client_but/</guid>
       <pubDate>Sat, 11 Jan 2025 18:35:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>您认为开源但受地区限制的软件是免费的吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hywn5u/do_you_consider_opensource_but_regionblocked/</link>
-      <description><![CDATA[2022 年，ClamAV 禁止从俄罗斯 IP 地址访问任何网站或更新，并采取措施使 VPN 的使用复杂化以绕过该限制。不久之后，俄语 ClamAV 维基百科页面上出现了以下段落：  它是根据 GNU 通用公共许可证发布的，但它不是自由 [如自由] 软件，因为开发人员限制了下载发行版的能力。  似乎指的是自由软件定义中的自由 0。但是，该项目的分支经过微调以允许从俄罗斯访问是合法的。英文维基百科仍然认为 ClamAV 是免费的。 您是否认为阻止按地区分发的软件是免费的？    提交人    /u/Qwert-4   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hywn5u/do_you_consider_opensource_but_regionblocked/</guid>
-      <pubDate>Sat, 11 Jan 2025 14:09:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>[开源] 我建立了一个 AI 拼图基准，挑战您对隐藏字节转换进行逆向工程 - 欢迎反馈！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hyuhgu/open_source_i_built_an_ai_puzzle_benchmark_that/</link>
-      <description><![CDATA[嘿/r/OpenSource！  我一直在研究一个由 MIT 授权的项目，名为 **GTA-Benchmark** - 这是一个谜题平台，通过让你对隐藏的 64 字节转换进行逆向工程来测试 AI（和人类！）推理能力。 **为什么它很有趣**： • 每个谜题都会提供 20 多个示例输入输出对（和 20 个隐藏测试） • 你提交一个 Python 函数来复制转换 • 分数显示在实时排行榜上 • 整个项目都是开源的，包括服务器、Docker 沙盒和谜题生成脚本 **我的期望**： • 关于谜题界面的一般反馈 - 它有意义吗？ • 对基于 Docker 的提交过程的看法 - 简单还是令人困惑？ • 关于谜题难度进展或新谜题的建议想法 **链接**： • GitHub：https://github.com/Habitante/gta-benchmark • 现场演示：http://138.197.66.242:5000/ 任何反馈或建议都非常感谢。谢谢，如果您发现任何需要修复或改进的地方，请随时打开问题或 PR！    提交人    /u/habitante   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hyuhgu/open_source_i_built_an_ai_puzzle_benchmark_that/</guid>
-      <pubDate>Sat, 11 Jan 2025 12:03:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>c99extend——我的扩展 C99 库（线程、队列、UTF-8 等）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hyuf17/c99extend_my_extended_c99_library_threads_queues/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hyuf17/c99extend_my_extended_c99_library_threads_queues/</guid>
-      <pubDate>Sat, 11 Jan 2025 11:59:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
