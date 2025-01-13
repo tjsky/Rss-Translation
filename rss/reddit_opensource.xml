@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 12 Jan 2025 21:14:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 03:25:57 GMT</lastBuildDate>
+    <item>
+      <title>XDA 上的 Android 反取证</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i03lzp/antiforensics_for_android_on_xda/</link>
+      <description><![CDATA[这不是促销，只是没有找到更合适的标签。所以基本上分享一些我在浏览 XDA 论坛时发现的很酷的东西：一个 FOSS 应用程序，旨在保护敏感数据免受任何可能迫使您解锁设备的压力。 显然，开发人员受到另一个名为 Wasted by x13a（但不是分叉的）的应用程序的启发，它可以在胁迫下使用特殊密码或 USB 连接等触发器将设备恢复出厂设置。虽然这很棒，但如果拿着你设备的人意识到发生了什么，恢复出厂设置可能会很明显，而且很危险。此应用程序通过秘密擦除特定用户配置文件内的数据，然后卸载或隐藏自身以尽可能少地留下痕迹，从而更上一层楼。 您可以将其设置为在锁定屏幕上输入胁迫密码、USB 设备未经批准连接或多次输入密码失败后擦除数据。还有一些其他功能可用：禁用日志以隐藏应用程序操作、禁用安全启动模式以及在数据销毁后运行 TRIM。应用程序具有伪装成其他应用程序的版本，使得在系统中检测到它的痕迹更加困难。 对我来说看起来很有趣，但我不确定重命名软件包是否可以防止在设备上找到应用程序活动的痕迹。此外，应用程序需要 root 权限才能使用大多数高级功能，您必须使用 ADB 才能安装它。这是分享这些东西并获得答案的正确地方吗？重命名软件包是否可以防止找到痕迹？使用 root 安装一些无名的东西安全吗？我也很高兴听到任何关于它的评论，特别是关于它的可信度    提交人    /u/IVKIK55   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i03lzp/antiforensics_for_android_on_xda/</guid>
+      <pubDate>Mon, 13 Jan 2025 02:18:28 GMT</pubDate>
+    </item>
     <item>
       <title>亚历山大计划</title>
       <link>https://www.reddit.com/r/opensource/comments/1hzunq2/alexandrie_project/</link>
@@ -22,7 +29,7 @@
     <item>
       <title>微型媒体服务器</title>
       <link>https://www.reddit.com/r/opensource/comments/1hztkmn/tiny_media_server/</link>
-      <description><![CDATA[如果您的计算机上堆积了大量旧视频和照片，并且您想通过手机或平板电脑访问它们，tinytune 可以提供帮助。我出于自己的目的亲自完成了该项目，因此如果它对某人有用，我会很高兴。 功能：  一个可执行文件 搜索 视频的动画预览 流式传输 .flv、.avi 等 丰富的设置，用于优化索引大媒体文件夹  https://github.com/alxarno/tinytune    提交人    /u/SwimmingTutor4046   [链接] [评论]]]></description>
+      <description><![CDATA[如果您的计算机上堆积了大量旧视频和照片，并且您想通过手机或平板电脑访问它们，tinytune 可以提供帮助。我出于自己的目的亲自完成了该项目，因此如果它对某人有用，我会很高兴。 特点：  一个可执行文件 搜索 视频的动画预览 流式传输 .flv、.avi 等 丰富的设置，用于优化索引大媒体文件夹  https://github.com/alxarno/tinytune    提交人    /u/SwimmingTutor4046   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hztkmn/tiny_media_server/</guid>
       <pubDate>Sun, 12 Jan 2025 18:42:54 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[当我读到有关一个濒临失败的开源项目的消息时，我有时会看到这样的评论：该项目应该成立一个基金会来挽救它。 在断断续续地读了几年这篇文章之后，我不得不问，人们是否知道基金会到底是什么？ 我的假设是，人们看到像 Blender 这样的项目是成功的，有基金会，因此得出结论，每个项目都应该有一个基金会。我觉得这种观点忽略了一个事实，即成立基金会需要有专业知识的人自愿去做，而且它不会神奇地为项目提供资金和开发人员。 我遗漏了什么吗？    提交人    /u/thezimkai   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hz2w68/does_starting_a_foundation_save_a_project/</guid>
       <pubDate>Sat, 11 Jan 2025 18:53:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>正在考虑开发桌面 HTTP 客户端 - 但不确定是否值得</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hz2grf/thinking_of_working_on_a_desktop_http_client_but/</link>
-      <description><![CDATA[这不是一个重点很突出的帖子。我正在考虑一个决定，并寻求外部意见。 我一直在寻找一个开源项目来构建，理想情况下是可以让我构建 GUI 和/或开发人员工具领域的项目。 长期以来，我对 Postman 或 Insomnia 等桌面 HTTP 客户端感到不满意。他们总是强行推销云功能和企业集成。在某些方面，我很想自己构建一个。 我的想法是，除了典型的 HTTP API 测试之外，还要能够很好地理解 IDL，可以执行基本的客户端代码生成，并支持测试脚本。我还想知道您是否可以围绕它创建一个表单生成器，并以“信息亭模式”运行以生成内部应用程序。 但竞争对手很多。 Bruno 就是其中之一，尽管我觉得它缺乏质量和完善。还有其他几个。 我想知道是否仍然值得构建我自己的东西，或者尝试不同的领域是否更有意义。 我不是在寻找一个具有巨大成功的项目，而是寻找一些令人愉快的东西来让我继续练习我的 GUI 开发技能（我的工作 100％ 是后端）。 与此同时 - 我会后悔构建别人已经做得更好的东西吗？    提交人    /u/yojimbo_beta   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hz2grf/thinking_of_working_on_a_desktop_http_client_but/</guid>
-      <pubDate>Sat, 11 Jan 2025 18:35:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
