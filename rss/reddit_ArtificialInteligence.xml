@@ -3,8 +3,57 @@
   <channel>
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
-    <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Mon, 13 Jan 2025 15:16:43 GMT</lastBuildDate>
+    <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供门户，并促进有关我们所知的人工智能理念和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
+    <lastBuildDate>Mon, 13 Jan 2025 21:13:26 GMT</lastBuildDate>
+    <item>
+      <title>通过大型语言模型实现渐进式文档级文本简化</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0orf2/progressive_documentlevel_text_simplification_via/</link>
+      <description><![CDATA[我每天都会查找和总结有趣的 AI 研究论文，这样你就不必费力地浏览它们了。今天的论文题为“通过大型语言模型实现渐进式文档级文本简化”，作者是 Dengzhao Fang、Jipeng Qiang、Yi Zhu、Yunhao Yuan、Wei Li 和 Yan Liu。 本文探讨了 AI 驱动的文档简化的新领域，该任务旨在通过降低文本的复杂性使文本更易于理解。传统方法通常侧重于在词汇或句子级别改变文本，通常会失去较长文档的整体完整性。以下是这项开创性研究的主要发现：  分层简化：作者介绍了一种渐进式简化方法 (ProgDS)，将简化任务分解为三个级别：话语、主题和词汇。这种多阶段协作更紧密地模仿了人类的编辑策略，确保了更连贯和全面的文档简化。 当前 LLM 的局限性：尽管像 ChatGPT 这样的大型语言模型 (LLM) 在自然语言处理方面非常熟练，但它们经常将文档简化与摘要混为一谈，导致关键信息的意外丢失。ProgDS 通过分层进展构建简化过程，提供了一种替代方案。 卓越的性能：在与 Newsela 和 Wiki-auto 等数据集上的其他方法进行比较时，ProgDS 的表现优于较小的模型和直接 LLM 提示。它的分层方法更有效地解决了文档简化的挑战，特别是在保持可读性的同时保留基本内容。 类人简化策略：ProgDS 的方法模拟人类编辑的过程，从文档的整体结构开始，逐步简化到词汇选择，有效地应对歧义和主观性等挑战。 灵活性和迭代：与其他基线不同，ProgDS 允许迭代简化，调整简化级别以更好地满足读者的理解需求。与传统方法相比，这提供了更高质量、更灵活的解决方案。  本文提出的研究进展标志着人工智能在文档简化应用中迈出了重要一步，特别是在处理历来对人工智能系统具有挑战性的长篇文档方面。 您可以在此处查看完整的细分：这里您可以在此处查看完整的原始研究论文：原始论文    提交人    /u/steves1189   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0orf2/progressive_documentlevel_text_simplification_via/</guid>
+      <pubDate>Mon, 13 Jan 2025 21:10:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于网络安全专家来说，您如何看待人工智能发展的现状？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0olvk/to_cybersecurity_experts_what_do_you_think_about/</link>
+      <description><![CDATA[我们面临的主要风险和保障措施是什么？ 是否有关于这一领域受控和不受控制发展的国际治理或法规？ 只是真的很好奇，想了解人工智能伦理/安全方面正在发生的事情。    提交人    /u/GalaxygunnerX   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0olvk/to_cybersecurity_experts_what_do_you_think_about/</guid>
+      <pubDate>Mon, 13 Jan 2025 21:04:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>我有 77 个 PDF，每个 PDF 都列出了 15-20 个指标</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0nxb0/i_have_77_pdfs_each_with_a_list_of_1520_indicators/</link>
+      <description><![CDATA[抱歉，这里不适合提问，但是有没有什么工具可以抓取所有这些指标并将它们组织到 Excel 表中？     提交人    /u/L00TER   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0nxb0/i_have_77_pdfs_each_with_a_list_of_1520_indicators/</guid>
+      <pubDate>Mon, 13 Jan 2025 20:36:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们花了很多时间讨论模型在基准测试中的表现</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0myev/we_spend_a_lot_of_time_talking_about_how_well/</link>
+      <description><![CDATA[但是基准测试本身的表现如何呢？是否有人像心理测量学家一样对智商测试进行分析，分析基准测试与智力各个维度的匹配程度、它们对依赖智力的任务的预测能力，或者它们的可靠性（在稳定性/一致性的意义上）？ 编辑：还有几件事：  我更感兴趣的是了解我们在这里的发展方向，而不是我们做过/没做过的二元论。智商测试背后是心理学和统计学理论的一个世纪的发展，所以我想我们只是触及了皮毛。 最初的 ARC-AGI 论文提到了以下限制，我很难找到有关当前状况的任何信息：   有效性表示测试表现对其他非测试活动表现的可预测性。应遵循心理测量学建立的流程，通过对人类进行大样本统计研究来调查 ARC 的有效性。此外，当 AI ARC 解算器成为现实时，我们还将能够研究 ARC 性能在一系列任务中转化为现实世界的实用性。     提交人    /u/Murky-Motor9856   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0myev/we_spend_a_lot_of_time_talking_about_how_well/</guid>
+      <pubDate>Mon, 13 Jan 2025 19:56:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>记住——对于机器学习来说“不要一遍又一遍地重写代码”</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0kxqe/catch_that_dont_rewrite_code_over_and_over_for_ml/</link>
+      <description><![CDATA[我喜欢 Daniel 此处 在他的帖子中的想法。我引用了一些。  对我来说，训练模型就像点击按钮一样简单！我花了很多年时间实现模型开发的自动化。我真的认为 ML 工程师不应该浪费时间一遍又一遍地重写相同的代码来开发不同的（但相似的）模型。一旦您将业务问题重新定义为 ML 解决方案，您就应该能够建立有意义的实验设计，生成相关特征，并按照基本优化原则完全自动化模型开发。  是的！ 另一种方法是拥有一个功能库，您可以在适合业务的情况下调用它。但是“每个”问题都有解决方案吗？不！    由   提交  /u/Brilliant-Gur9384   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0kxqe/catch_that_dont_rewrite_code_over_and_over_for_ml/</guid>
+      <pubDate>Mon, 13 Jan 2025 18:34:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用神经网络模拟捕食者和猎物</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0k7ym/predator_and_prey_simulation_with_neural_networks/</link>
+      <description><![CDATA[大家好，我是一名喜欢学习人工智能的数据工程师。我创建了这个模拟来研究神经网络和遗传算法。我和 ChatGPT 当然试图模拟捕食者和猎物环境。我对结果很满意，但我不确定神经网络是否正常工作。如果有专家想看一看，我会在 github 上发布它。提前致谢。 https://github.com/laroccathebrux/colony/tree/main    提交人    /u/laroccathebrux   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0k7ym/predator_and_prey_simulation_with_neural_networks/</guid>
+      <pubDate>Mon, 13 Jan 2025 18:05:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何用尽可能少的步骤，根据给定的歌词进行 AI 创建：一个活泼的歌曲视频模仿，风格类似儿童教育歌曲视频，但风格讽刺，适合成年人，处理一些荒诞、滑稽等成人生活话题。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0jpke/with_as_few_steps_as_possible_how_to_aicreate/</link>
+      <description><![CDATA[抱歉，句子太长了。（我小时候读了太多卡夫卡的作品。）深呼吸！ -最终产品应该是幽默、讽刺的，不是为孩子制作的，但不应包含任何可怕或淫秽的内容。因此，无需在 Youtube 上的任何单词上加哔哔声。 并且，制作者应该拥有文本、声音、音乐和视频的所有版权，以及在商业上浏览视频的权利等。 我是为一个年轻的朋友问这个问题的，他不是特别精通技术，但是对视频有很多有趣的想法。 任务：使用尽可能少的步骤和尽可能少的不同工具，从给定的歌词（txt）创建一个模仿视频。 所以，如果我写了一首模仿歌曲的“教育歌词”关于一些幽默或荒谬的无关成人生活主题（但不是四个字母的东西），我希望 AI 能为我制作一个歌曲视频，视频中这首模仿歌曲最好是由孩子和“老师”演唱，伴奏一些儿童电视乐器（玩具钢琴、马林巴琴、尤克里里琴，等等），图像欢快，带有“儿童”电视色彩，并显示歌词中提到的物体和人物，什么 AI 软件标题可以以尽可能少的修修补补、尽可能经济的方式完成这项工作？ 抱歉，句子太长了。（我小时候读了太多卡夫卡。）深呼吸！ -最终产品应该是一个模仿作品，非常幽默、讽刺，不适合儿童，但不含任何可怕或淫秽的内容。绝对适合工作。因此无需在 Youtube 上的任何文字上加嘟嘟声。 并且制作者应该拥有文本、声音、音乐和视频的所有版权，以及在商业上浏览视频的权利等。 我是为一位年轻的朋友问这个问题的，他不是特别精通技术，但是对视频有很多有趣的想法。 感谢您的帮助！    提交人    /u/Most_Philosophy_7555   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0jpke/with_as_few_steps_as_possible_how_to_aicreate/</guid>
+      <pubDate>Mon, 13 Jan 2025 17:44:40 GMT</pubDate>
+    </item>
     <item>
       <title>库兹韦尔的“加速回报定律”、deepseek v3、sky-t1，以及可能在下周推出的一些更大事件。系好安全带！</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0ff8t/kurzweils_law_of_accelerating_returns_deepseek_v3/</link>
@@ -27,60 +76,11 @@
       <pubDate>Mon, 13 Jan 2025 12:33:23 GMT</pubDate>
     </item>
     <item>
-      <title>教育领域有人工智能成功的案例吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0cpqt/any_ai_success_story_in_education/</link>
-      <description><![CDATA[虽然我对许多 AI 应用持怀疑态度，但我真的相信 AI 在教育领域可以产生伟大的成果，AI 有潜力以一个有几十名学生的老师没有时间去帮助个别学生的方式帮助学生。当然，前提是我们找到方法，除了教师之外，还能智能地使用 AI，而不仅仅是解雇教师。 有人知道这个领域的成功实验吗？不仅仅是传闻中的“我使用 AI [而不是书籍或网络搜索] 来学习”，而是一些更具变革性的东西。    提交人    /u/ImYoric   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0cpqt/any_ai_success_story_in_education/</guid>
-      <pubDate>Mon, 13 Jan 2025 12:20:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>将大约 5 本医学教科书（每本 25mb）加载到基于网络的 LLM 中进行概念验证的最快方法是什么？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0cgu7/quickest_way_to_load_about_5_medical_textbooks/</link>
-      <description><![CDATA[我很快将为大约 500 人的团队举办一场关于 AI 的讲座。我想向他们展示我如何将大约 5 本教科书上传到模型中，然后像导师一样使用它，向它询问如何治疗患者的问题。如果我可以使用便宜的 EC2 实例在 AWS 上相当快速地完成此操作，那么观众可以在讲座期间访问网站并尝试它，那就更好了。我曾在 AWS 上简要研究过 Llama3，但想确保这是最简单的方法，而不是其他现成的方法。谢谢    提交人    /u/pistonian   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0cgu7/quickest_way_to_load_about_5_medical_textbooks/</guid>
-      <pubDate>Mon, 13 Jan 2025 12:05:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么 AI 可以制定市场进入战略？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0c775/what_ai_for_developing_a_gotomarket_strategy/</link>
-      <description><![CDATA[我必须为我的公司制定 GtM 策略。我在 Excel 中拥有大量数据集，并希望首次使用 AI 来分析它并查看潜力。 我有一个 GPT Plus 订阅。这足够了吗，还是有更好的工具？它基本上是关于筛选数据以确定市场规模、潜力等。然后。根据它制定一个复杂的策略以供审查。 谢谢！    提交人    /u/10nerMitAuge   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0c775/what_ai_for_developing_a_gotomarket_strategy/</guid>
-      <pubDate>Mon, 13 Jan 2025 11:48:04 GMT</pubDate>
-    </item>
-    <item>
       <title>因 r/singularity 而患上精神分裂症</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0bn0x/having_a_schizophrenia_breakdown_cause_of/</link>
       <description><![CDATA[您认为这纯粹是发泄愤怒和引发焦虑吗？ 即使在 r/Futurology 上也无济于事 工作、住房和一般情况让我崩溃    提交人    /u/TheJesterOfHyrule   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0bn0x/having_a_schizophrenia_breakdown_cause_of/</guid>
       <pubDate>Mon, 13 Jan 2025 11:08:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>WAPlus CRM 的全新 AI 聊天机器人/AI 回复 – 小型企业的智能解决方案 - 无需编码，只提供结果</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0bip1/waplus_crms_new_ai_chatbotai_reply_a_smart/</link>
-      <description><![CDATA[随着中小型企业的发展，管理客户互动可能成为一项重大挑战。这就是 WAPlus CRM 的新 AI 聊天机器人的用武之地，旨在自动化您的对话并简化您的客户支持，而无需复杂的编码或昂贵的软件。 以下是我认为值得一试的原因：  上传培训材料的多种方式：您可以上传网站网址、PDF 或手动添加文本。它非常灵活，具体取决于您拥有的内容。 支持多种语言：AI可以根据对话自动切换语言，这对于拥有国际客户的企业非常有用。 可定制：您可以设置角色和默认回复，因此它可以适应不同的需求，例如销售或预订。 上线前预览和测试：您可以测试聊天机器人以确保一切按您希望的方式运行，然后再推出它。 无需编码：价格实惠，不需要任何编码或 API 设置，这使得小型企业真正可以使用它。 适用于跨行业：无论您从事销售、客户支持还是预订，它似乎都适合很多用例。     提交人    /u/Superb-Outcome9740   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0bip1/waplus_crms_new_ai_chatbotai_reply_a_smart/</guid>
-      <pubDate>Mon, 13 Jan 2025 11:00:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>还有人使用 AI Galaxy 吗？(aigalaxy.app)</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i0ac8k/does_anyone_else_use_ai_galaxy_aigalaxyapp/</link>
-      <description><![CDATA[TL;DR 我找到了终极的一体化 AI 网站，我很高兴成为第一个告诉人们这个网站的人。一体化网站将成为 AI 的未来。 当 Reddit 上有人推荐 AI Galaxy 的图像生成器 正式优于 MidJourney 时，我才发现这一点。老实说，它与 MidJourney 差不多，但免费（有小时限制）。 我认为免费用户可以免费使用 10 种不同的 AI 工具。我个人在第一天就以 11 美元的价格升级到了 Ultimate 计划，这太疯狂了，因为所有其他网站都为一种工具收取那么多费用，而 AI Galaxy 为我提供了他们的所有工具，图像、视频、音乐等。从那时起，我总是向所有人推荐它，因为它确实是每个任务的最佳 AI 模型的集合，除了音乐生成。对于音乐，Suno 在我看来更好。但对于图像和视频，它与 MidJourney 和 RunwayML、Sora 以及所有顶级 AI 模型一样好（甚至更好）。 有一件事我不喜欢，那就是你必须输入他们的网站名称 aigalaxy.app，否则谷歌会认为你只是想了解 Galaxy 上的 AI 功能哈哈。此外，还有一个试图抄袭“AI Galaxy”的仿冒品，他们称自己为“Galaxy AI”哈哈。但是现在我安装了 AI Galaxy 应用程序，网站上有一个直接安装该应用程序的按钮。我更喜欢这个，因为现在我可以直接从手机分享到应用程序。 无论如何，这是我的诚实评论和最佳推荐，享受吧！    提交人    /u/fomoFace   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i0ac8k/does_anyone_else_use_ai_galaxy_aigalaxyapp/</guid>
-      <pubDate>Mon, 13 Jan 2025 09:32:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了一个网络安全中心 - 所有网络工具和资源！</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i09wgj/i_created_a_cybersecurity_hub_all_cyber_tools_and/</link>
-      <description><![CDATA[  由    /u/BST04  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i09wgj/i_created_a_cybersecurity_hub_all_cyber_tools_and/</guid>
-      <pubDate>Mon, 13 Jan 2025 08:58:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能增长区和超级计算机：英国政府的创新战略</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i09vs7/ai_growth_zones_and_supercomputers_uk_governments/</link>
-      <description><![CDATA[关键要点  英国的 50 点 AI 计划包括 AI 增长区、超级计算机和国家数据库，以推动创新； Vantage、Nscale 和 Kyndryl 等私营公司投资 170 亿美元支持 AI 基础设施发展； AI 能源委员会和 DSIT 旨在确保可持续电力和 AI 计划的有效实施。  来源：https://www.bitdegree.org/crypto/news/ai-growth-zones-and-supercomputers-uk-governments-strategy-for-innovation?utm_source=reddit&amp;utm_medium=social&amp;utm_campaign=r-uk-governments-strategy-for-innovation    提交人    /u/webbs3   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i09vs7/ai_growth_zones_and_supercomputers_uk_governments/</guid>
-      <pubDate>Mon, 13 Jan 2025 08:56:27 GMT</pubDate>
     </item>
     <item>
       <title>人工智能工作只是神话吗？现实情况是，硅谷最多会有几百名绝对天才的核心人物在开发这个东西，就这样了吗？</title>

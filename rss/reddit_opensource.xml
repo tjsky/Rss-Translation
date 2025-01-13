@@ -4,11 +4,18 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 13 Jan 2025 18:22:34 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 21:14:28 GMT</lastBuildDate>
+    <item>
+      <title>Cataphract - 一个开源跨平台 Shell</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i0lhlg/cataphract_an_opensource_cross_platform_shell/</link>
+      <description><![CDATA[你好！ 我用 Java 编写了一个简单的、开源的、跨平台的 shell。目前我已经在 Windows 和 Linux 上对其进行了测试。 该程序是单线程的，具有简单的脚本解析逻辑。我想知道您对这个项目的想法和反馈。我也可以使用 Termux 在 Android 上运行它。 https://github.com/DAK404/Cataphract/tree/Development 注意：* Development 分支具有最新代码，因此我在此处链接了相同的代码。 * 我已经在 openJDK 21 上编译了二进制文件。 * 有一个 make 文件，应该可以直接制作项目。 命令应该是 make project=Cataphract all    提交人    /u/DAK404   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i0lhlg/cataphract_an_opensource_cross_platform_shell/</guid>
+      <pubDate>Mon, 13 Jan 2025 18:56:33 GMT</pubDate>
+    </item>
     <item>
       <title>我开发了一个开源应用程序，可以在你打字时添加打字声音</title>
       <link>https://www.reddit.com/r/opensource/comments/1i0hcfb/i_developed_an_opensource_application_that_adds/</link>
-      <description><![CDATA[大家好！ 很长一段时间以来，一直有一款名为 MechVibes 的应用程序，它可以在您打字时添加可自定义的打字声音。但是，对我来说，它缺少一项核心功能。那就是根据我当前正在使用的应用程序来控制声音出现的时间。 我曾考虑将此功能添加到 MechVibes，但现有的技术堆栈确实不允许这样的功能。所以，几年前我决定创建自己的能够做到这一点的应用程序。 由此，我开发了键盘声音。 键盘声音是一个完全免费的开源应用程序，可以使任何键盘听起来像机械键盘。它包括 11 个内置配置文件、一个用于创建自己的声音包的配置文件编辑器、应用程序规则和一个全面的后端 /CLI 界面。 目前，桌面应用程序支持 Windows，而后端 /CLI 支持 macOS、Linux 和 Windows。 您可以在项目官方网站或GitHub 存储库上找到更多信息。    提交人    /u/MediocreAnywhere1221   [链接] [评论]]]></description>
+      <description><![CDATA[大家好！ 很长一段时间以来，一直有一款名为 MechVibes 的应用程序，它可以在您打字时添加可自定义的打字声音。但是，对我来说，它缺少一项核心功能。那就是根据我当前正在使用的应用程序来控制何时出现声音的能力。 我曾考虑将此功能添加到 MechVibes，但现有的技术堆栈确实不允许这样的功能。所以，几年前我决定创建自己的能够做到这一点的应用程序。 由此，我开发了键盘声音。 键盘声音是一个完全免费的开源应用程序，可以使任何键盘听起来像机械键盘。它包括 11 个内置配置文件、一个用于创建自己的声音包的配置文件编辑器、应用程序规则和一个全面的后端 /CLI 界面。 目前，桌面应用程序支持 Windows，而后端 /CLI 支持 macOS、Linux 和 Windows。 您可以在项目官方网站或GitHub 存储库上找到更多信息。    提交人    /u/MediocreAnywhere1221   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i0hcfb/i_developed_an_opensource_application_that_adds/</guid>
       <pubDate>Mon, 13 Jan 2025 16:06:59 GMT</pubDate>
     </item>
@@ -29,7 +36,7 @@
     <item>
       <title>我分析了近 500 家开源公司的技术栈</title>
       <link>https://www.reddit.com/r/opensource/comments/1i0e0ic/ive_analyzed_the_tech_stack_of_nearly_500/</link>
-      <description><![CDATA[你好！ 我经营着一个致力于收集最佳开源公司的网站。最近，我分析了每家公司使用的技术。这是一项具有挑战性的任务，但我能够识别出近 250 种不同的语言、框架和开发工具。 您可以在以下位置找到它们：https://openalternative.co/stacks 尽情享受吧！    提交人    /u/piotrkulpinski   [链接] [评论]]]></description>
+      <description><![CDATA[你好！ 我经营着一个致力于聚集最佳开源公司的网站。最近，我分析了每家公司使用的技术。这是一项具有挑战性的任务，但我能够识别出近 250 种不同的语言、框架和开发工具。 您可以在以下位置找到它们：https://openalternative.co/stacks 尽情享受吧！    提交人    /u/piotrkulpinski   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i0e0ic/ive_analyzed_the_tech_stack_of_nearly_500/</guid>
       <pubDate>Mon, 13 Jan 2025 13:32:48 GMT</pubDate>
     </item>
@@ -92,7 +99,7 @@
     <item>
       <title>微型媒体服务器</title>
       <link>https://www.reddit.com/r/opensource/comments/1hztkmn/tiny_media_server/</link>
-      <description><![CDATA[如果您的计算机上堆积了大量旧视频和照片，并且您想通过手机或平板电脑访问它们，tinytune 可以提供帮助。我出于自己的目的亲自完成了该项目，因此如果它对某人有用，我会很高兴。 特点：  一个可执行文件 搜索 视频的动画预览 流式传输 .flv、.avi 等 丰富的设置，用于优化索引大媒体文件夹  https://github.com/alxarno/tinytune    提交人    /u/SwimmingTutor4046   [链接] [评论]]]></description>
+      <description><![CDATA[如果您的计算机上堆积了大量旧视频和照片，并且您想通过手机或平板电脑访问它们，tinytune 可以提供帮助。我出于自己的目的亲自完成了该项目，因此如果它对某人有用，我会很高兴。 功能：  一个可执行文件 搜索 视频的动画预览 流式传输 .flv、.avi 等 丰富的设置，用于优化索引大媒体文件夹  https://github.com/alxarno/tinytune    提交人    /u/SwimmingTutor4046   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hztkmn/tiny_media_server/</guid>
       <pubDate>Sun, 12 Jan 2025 18:42:54 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[我一直在研究一个名为“tiny tool crate”的小型生产力工具集合，到目前为止，共有 24 种工具。 仅举几例：   Qrcode 生成器 颜色选择器 绘制数学表达式 JWT 解码器 SHA 校验和计算器  我们的想法是，创建一个经常使用的工具网格，然后将该页面加入书签，这样当您回来时，它们都是打开的。 GitHub 上的所有开源    提交人    /u/aptacode   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hzrtrx/browser_based_productivity_toolkit/</guid>
       <pubDate>Sun, 12 Jan 2025 17:29:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>应付账款和小额现金对账软件</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hzqv8w/accounts_payable_and_petty_cash_reconciliation/</link>
-      <description><![CDATA[您好，有没有什么自托管软件可以推荐，可以让用户输入供应商的发票和审批工作流程，以跟踪小额现金进出？    提交人    /u/Express_Steak   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hzqv8w/accounts_payable_and_petty_cash_reconciliation/</guid>
-      <pubDate>Sun, 12 Jan 2025 16:48:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
