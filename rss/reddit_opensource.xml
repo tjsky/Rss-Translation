@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 13 Jan 2025 21:14:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2025 01:07:28 GMT</lastBuildDate>
+    <item>
+      <title>我汇总了 150 家航空公司的随身行李限额，这样你就不必</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i0q9nn/ive_combined_carryon_allowances_for_150_airlines/</link>
+      <description><![CDATA[大家好 r/opensource， 在寻找一款符合各家航空公司随身行李要求的新背包时，我意识到比较政策是多么繁琐。这启发我创建了 CarryFit，这是一个小型 SPA，旨在为其他人简化流程。 CarryFit 可帮助旅行者检查他们的随身行李是否符合航空公司尺寸要求。它支持 150 多家航空公司，并允许您输入行李尺寸以查看其是否符合要求。 在后端工作了 10 年后，这个项目也是我探索前端开发的方式，我很乐意收到一些反馈。该应用程序包括响应式设计、航空公司政策直接链接和视觉合规指示器等功能。 如果您有时间，我将非常感激您提出任何想法或建议。您可以查看源代码 (GitHub) 或网站 (Live app)。感谢您的关注！    由    /u/axel-user 提交  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i0q9nn/ive_combined_carryon_allowances_for_150_airlines/</guid>
+      <pubDate>Mon, 13 Jan 2025 22:14:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们仅知道不到 1% 的 OSS 漏洞受影响的功能</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i0ph8m/we_only_know_the_affected_functions_for_less_than/</link>
+      <description><![CDATA[       由    /u/CirclesWeRun4  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i0ph8m/we_only_know_the_affected_functions_for_less_than/</guid>
+      <pubDate>Mon, 13 Jan 2025 21:41:27 GMT</pubDate>
+    </item>
     <item>
       <title>Cataphract - 一个开源跨平台 Shell</title>
       <link>https://www.reddit.com/r/opensource/comments/1i0lhlg/cataphract_an_opensource_cross_platform_shell/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好，我最近推出了 ArveleaWriter，这是一款适用于 iOS 和 iPadOS 的开源文本和所见即所得的 markdown 编辑器。 ArveleaWriter 利用 iOS 面向用户的文件浏览器（Files.app 界面）来访问和创建文件，从而能够在 iOS 的文件应用程序中可访问的任何文件夹或位置存储、打开和编辑 markdown 和文本文件，而不必担心被锁定在特定的存储位置或云存储提供商。 ArveleaWriter 的总体愿景是提供直观而强大的笔记记录和写作体验，同时为笔记/文档数据所有权提供灵活性。我个人期待在应用程序发布后继续进行迭代并进一步实现这一愿景。 演示视频：https://bsky.app/profile/arvelea.com/post/3ldjmdxvzts27 App Store：apps.apple.com/us/app/arveleawriter/id6621181209 官方网站：arvelea.com/writer GitHub：github.com/arveleaofficial/ArveleaWriter Bluesky：bsky.app/profile/arvelea.com X / Twitter：x.com/arveleaofficial 主题：threads.net/@arveleaofficial    提交人    /u/CoiLWiRE   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1hztw74/ive_recently_launched_arveleawriter_an_ios/</guid>
       <pubDate>Sun, 12 Jan 2025 18:56:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>微型媒体服务器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hztkmn/tiny_media_server/</link>
-      <description><![CDATA[如果您的计算机上堆积了大量旧视频和照片，并且您想通过手机或平板电脑访问它们，tinytune 可以提供帮助。我出于自己的目的亲自完成了该项目，因此如果它对某人有用，我会很高兴。 功能：  一个可执行文件 搜索 视频的动画预览 流式传输 .flv、.avi 等 丰富的设置，用于优化索引大媒体文件夹  https://github.com/alxarno/tinytune    提交人    /u/SwimmingTutor4046   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hztkmn/tiny_media_server/</guid>
-      <pubDate>Sun, 12 Jan 2025 18:42:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于浏览器的生产力工具包</title>
-      <link>https://www.reddit.com/r/opensource/comments/1hzrtrx/browser_based_productivity_toolkit/</link>
-      <description><![CDATA[我一直在研究一个名为“tiny tool crate”的小型生产力工具集合，到目前为止，共有 24 种工具。 仅举几例：   Qrcode 生成器 颜色选择器 绘制数学表达式 JWT 解码器 SHA 校验和计算器  我们的想法是，创建一个经常使用的工具网格，然后将该页面加入书签，这样当您回来时，它们都是打开的。 GitHub 上的所有开源    提交人    /u/aptacode   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1hzrtrx/browser_based_productivity_toolkit/</guid>
-      <pubDate>Sun, 12 Jan 2025 17:29:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
