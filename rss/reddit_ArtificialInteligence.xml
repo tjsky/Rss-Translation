@@ -4,13 +4,41 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Thu, 16 Jan 2025 12:28:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2025 15:15:12 GMT</lastBuildDate>
     <item>
-      <title>你们有兴趣探索不同行业的 AI 用例吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2nd3m/would_you_guys_be_interested_in_exploring_ai/</link>
-      <description><![CDATA[我有一个全面的良好 AI 用例列表。如果您感兴趣，请告诉我，我会与您分享。    由   提交  /u/Several-Republic-609   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2nd3m/would_you_guys_be_interested_in_exploring_ai/</guid>
-      <pubDate>Thu, 16 Jan 2025 12:00:58 GMT</pubDate>
+      <title>我建立了一个 AI 日历预订助手并解决了我朋友遇到的一个问题。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2qmwc/i_built_an_ai_calendar_booking_assistant_and/</link>
+      <description><![CDATA[基本上，我使用 claude 来获取代码，然后使用 gemini 作为 LLM 来处理自然语言。我的朋友是企业主，需要一种方法来提醒他必须完成的任务，而他不是技术人员。 任何反馈都非常感谢 演练 - https://youtu.be/r2pe083bV2E    提交人    /u/MindlessStation3260   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2qmwc/i_built_an_ai_calendar_booking_assistant_and/</guid>
+      <pubDate>Thu, 16 Jan 2025 14:53:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>利用闪电网络注意力机制和 MoE 将基础模型扩展到百万代币上下文</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2q7pb/scaling_foundation_models_to_milliontoken/</link>
+      <description><![CDATA[使用闪电注意力机制扩展基础模型的新方法允许在训练期间处理多达 1M 个 token 的序列，在推理期间处理多达 4M 个 token 的序列，同时保持与当前领先模型的竞争性能。 关键技术组件包括：* 闪电注意力机制，将复杂度从 O(n²) 降低到 O(n) * 具有 32 位专家的稀疏混合专家 (MoE) 架构 * 总共 456B 个参数，但每次前向传递仅激活 45.9B * 用于处理长序列的新型训练优化 基准测试中报告的结果：* 在标准 NLP 任务上匹配或超过 GPT-4 和 Claude 2 * 在从 32K 到 1M 个 token 的序列长度上保持一致的性能 * 在包括视觉语言理解在内的多模态任务上表现出色 * 在 C4 验证集上实现 2.67 困惑度 我认为这项工作代表了使长上下文模型更具实用。高效注意力和 MoE 架构的结合可以帮助解决当前模型中序列长度有限的计算瓶颈。该实现的公开发布可能会加速对有效处理更长上下文的研究。 我认为最有趣的方面是它们如何在显着增加上下文长度的同时保持性能。这表明我们可能不需要牺牲模型质量来处理更长的序列，这可以启用文档处理和分析中的新应用。 TLDR：新架构结合了闪电注意力和 MoE，可以处理非常长的序列（最多 4M 个标记），同时匹配顶级模型性能。开源实现可用。 完整摘要在这里。论文这里。   由    /u/Successful-Western27  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2q7pb/scaling_foundation_models_to_milliontoken/</guid>
+      <pubDate>Thu, 16 Jan 2025 14:33:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>字幕生成</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2pz62/caption_generation/</link>
+      <description><![CDATA[我正在研究使用 AI 自动生成字幕。  想法是提供一个视频文件，然后它输出 .srt 文件。理论上 AI 应该很适合这个。我发现一些选项相当昂贵，更多用于商业用途。 我在 Github 上找到了一个叫做 gen-subs 的免费选项，但我无法生成输出。（可能是旧软件，也可能是我缺乏技能） 有人有这些东西的经验吗？可以推荐一些东西吗？    提交人    /u/HullTyyp   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2pz62/caption_generation/</guid>
+      <pubDate>Thu, 16 Jan 2025 14:21:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Python 创建 AI Udemy 课程</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2pof8/ai_udemy_course_creator_with_python/</link>
+      <description><![CDATA[因此，我最近编写了一个 Python 脚本，使用 F5-TTS、Manim（3blue1brown 使用）和 videopy 创建带有音频的整个课程视频。该课程甚至得到了 Udemy 版主的批准，现已上线。在此处查看整个教程：https://youtu.be/X5nJXUG-96c?si=PFJKwytiJzmE6pMU    提交人    /u/mehul_gupta1997   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2pof8/ai_udemy_course_creator_with_python/</guid>
+      <pubDate>Thu, 16 Jan 2025 14:07:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>我卖掉了自己的眼睛：加密货币公司为虹膜扫描买单 - 巴西趋势</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2p1qk/i_sold_my_eye_cryptocurrency_company_pays_for/</link>
+      <description><![CDATA[由 OpenAI 首席执行官 Sam Altman 联合创办的公司 Tools for Humanity 提供加密货币以换取个人虹膜扫描服务。 在收集到虹膜图像后，该公司平均支付 48 个 Worldcoins，这是该公司的加密货币，可以兑换成当地货币并提取。 该公司声称的目标是为人们提供一种验证其人性的方法，让他们证明自己是真正的人类而不是机器人，因为虹膜和指纹一样都是独一无二的。 然而，Tools for Humanity 计划背后的确切动机仍不清楚，即使对于那些已经参与该程序并获得虹膜扫描报酬的人来说也是如此。 到目前为止，全球已有超过 2200 万人下载了该公司的应用程序 (WorldApp)，其中包括巴西的 100 万人。其中，已有 1000 万人接受了虹膜验证，其中 40 万人在巴西。 巴西国家数据保护局 (ANPD) 已启动程序，以收集更多信息并确定该项目是否符合该国的《通用数据保护法》 (LGPD)。 仅在圣保罗，就有 38 个“人性验证”点，人们通常对该项目没有太多了解，他们允许扫描虹膜以换取加密货币。 专家警告提供生物特征数据存在风险，尤其是由于其独特和永久性，这可能导致隐私和安全问题。    提交人    /u/xMoonknightx   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2p1qk/i_sold_my_eye_cryptocurrency_company_pays_for/</guid>
+      <pubDate>Thu, 16 Jan 2025 13:36:12 GMT</pubDate>
     </item>
     <item>
       <title>本地安装的人工智能对于个人治疗来说有多可行？</title>
@@ -27,13 +55,6 @@
       <pubDate>Thu, 16 Jan 2025 11:41:11 GMT</pubDate>
     </item>
     <item>
-      <title>任何帮助我的提示</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2mzh6/any_prompts_to_help_me/</link>
-      <description><![CDATA[我正在尝试编辑一张图片，尝试了不少 AI 平台，但似乎都无法做到这一点。基本上，我想将一张图片（卡通人物）编辑成不同的面部表情、不同的位置等。然而，无论我使用什么提示，我得到的只是一张完全不同的图像，看起来与原始图像完全不同。似乎 AI 只能生成新图像，无法编辑您已有的图像。或者我需要使用特定的提示？    提交人    /u/Soutpoledom   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2mzh6/any_prompts_to_help_me/</guid>
-      <pubDate>Thu, 16 Jan 2025 11:35:49 GMT</pubDate>
-    </item>
-    <item>
       <title>我在工作中建议使用人工智能，但他们拒绝了。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2l3hj/i_suggested_at_work_to_use_ai_and_they_said_no/</link>
       <description><![CDATA[我在一家汽车生产公司担任项目协调员。我在工作中使用人工智能完成各种任务，并且我的同事也能有效地使用它。 今天，我听我的两个同事讨论如何写一封关于与供应商终止交易的电子邮件，他们不知道该如何写才好。所以已经过了 30 多分钟，我建议他们让 LLM 为他们提供一些他们想要写的内容的版本。 他们打断了我并拒绝了，说“不，你应该自己想！” 我对他们的无知感到沮丧，失去了在工作中帮助或建议任何类似事情的意愿。 你在工作中是否也遇到过这种拒绝使用人工智能的情况？    提交人    /u/Herflik90   [链接] [评论]]]></description>
@@ -48,23 +69,9 @@
       <pubDate>Thu, 16 Jan 2025 09:09:37 GMT</pubDate>
     </item>
     <item>
-      <title>发现了一个 AI YouTube 缩略图生成器</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2k6xj/found_an_ai_youtube_thumbnaill_generator/</link>
-      <description><![CDATA[如果这里有人是 YouTuber 并且正在寻找 AI 替代品来为您提供“好用”的 YouTube 缩略图，那么这个 AI 工具绝对令人难以置信，但我不知道为什么出于某种原因在这个子版块 reddit 我既无法显示结果也无法发送它的链接！ 对于感兴趣的人：你可以给我发私信    提交人    /u/Ok-Term8373   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2k6xj/found_an_ai_youtube_thumbnaill_generator/</guid>
-      <pubDate>Thu, 16 Jan 2025 08:08:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>学校项目帮助</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2hx48/school_project_help/</link>
-      <description><![CDATA[对于一个学校项目，我想用自己的歌词重新制作《Mr. Sandman》，但不知道该怎么做。我对 AI 很陌生，不知道自己在做什么。无论如何，反馈很受欢迎，而且总是有帮助的！    提交人    /u/Djembiboy95   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2hx48/school_project_help/</guid>
-      <pubDate>Thu, 16 Jan 2025 05:28:27 GMT</pubDate>
-    </item>
-    <item>
       <title>谷歌的新巨头——持续学习还是更长远的背景？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i2hr2y/googles_new_titan_continuous_learning_or_longer/</link>
-      <description><![CDATA[https://arxiv.org/abs/2501.00663 向那里的专家询问。这难道不只是指“学习”，因为 ChatGPT 已经可以跟踪上下文窗口内的信息并在对话期间“了解”它？ 现在唯一的区别是它有一个内置的内存来存储这些事实，允许它在交互过程中保留它们。 如果是这样的话，模型似乎并没有更新它的权重，所以它并不是像新模型在训练期间那样“学习”。我错了吗？ 因为实时的体重更新使模型能够模仿动物的神经可塑性。我认为这就是人们认为正在发生的事情。 如果这与实时体重更新无关，那么记忆力得到改善是件好事，但我看不出它有什么革命性。    提交人    /u/No-Ad-8409   [link] [评论]]]></description>
+      <description><![CDATA[https://arxiv.org/abs/2501.00663 向那里的专家询问。这难道不只是指“学习”，因为 ChatGPT 已经可以跟踪上下文窗口内的信息并在整个对话期间“了解”它？ 现在唯一的区别是它有一个内置的内存来存储这些事实，允许它在交互过程中保留它们。 如果是这样的话，模型似乎并没有更新它的权重，所以它并不是像新模型在训练期间那样“学习”。我错了吗？ 因为实时的体重更新使模型能够模仿动物的神经可塑性。我认为这就是人们认为正在发生的事情。 如果这与实时体重更新无关，那么记忆力得到改善是件好事，但我看不出它有什么革命性。    提交人    /u/No-Ad-8409   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i2hr2y/googles_new_titan_continuous_learning_or_longer/</guid>
       <pubDate>Thu, 16 Jan 2025 05:17:57 GMT</pubDate>
     </item>
@@ -74,13 +81,6 @@
       <description><![CDATA[这正是我们应该使用人工智能做的事情——并展示了人工智能的真正潜力。 科学家创建了一个名为 AsymMirai 的人工智能系统。这是一种精简的深度学习算法，可以提前五年检测出乳腺癌。 杜克大学的研究人员使用 AsymMirai 分析乳房 X 光检查中可见的左右乳房组织之间的差异——这是以前未充分利用的长期癌症预测因素。通过这种方法，人工智能可以实现与以前的系统几乎相同的准确性，同时对放射科医生来说更容易理解，也更可靠。  该研究涉及超过 210,000 次乳房 X 线摄影，强调了乳房不对称在预测癌症风险方面的临床重要性。 首席研究员 Jon Donnelly 强调了 AsymMirai 对公共卫生的潜在影响，并指出其见解可以制定乳房 X 线摄影频率建议并改善早期检测策略。 了解更多信息：https://www.rsna.org/news/2024/march/deep-learning-for-predicting-breast-cancer    提交人    /u/Scarpoola   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i26f0g/researchers_develop_deep_learning_model_to/</guid>
       <pubDate>Wed, 15 Jan 2025 20:05:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何学习人工智能从基础到高级。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1i1wn0g/how_to_learn_ai_from_basic_to_advanced/</link>
-      <description><![CDATA[大家好，这是我作为计算机科学本科生新学期的开始。我想得到一些关于如何以及从哪些资源中学习人工智能的建议。我有一些关于人工智能的基本知识，但我仍然想要一些包含关于人工智能的最佳内容的资源。请提出建议。    提交人    /u/Independent-Sand-372   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1i1wn0g/how_to_learn_ai_from_basic_to_advanced/</guid>
-      <pubDate>Wed, 15 Jan 2025 12:48:33 GMT</pubDate>
     </item>
     <item>
       <title>被人工智能逮捕：警方在面部识别匹配后无视标准，对未经证实的面部识别技术充满信心，有时调查人员会跳过一些步骤；至少有八名美国人被错误逮捕。</title>
@@ -99,7 +99,7 @@
     <item>
       <title>每月“是否有一个工具可以……”帖子</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1hr4p1x/monthly_is_there_a_tool_for_post/</link>
-      <description><![CDATA[如果您有一个想要使用 AI 的用例，但不知道使用哪种工具，您可以在这里请求社区提供帮助，在此帖子之外，这些问题将被删除。 对于所有回答者：禁止自我宣传、禁止参考或跟踪链接。    提交人    /u/AutoModerator   [link] [评论]]]></description>
+      <description><![CDATA[如果您有一个想要使用 AI 的用例，但不知道使用哪种工具，您可以在这里请求社区提供帮助，在此帖子之外，这些问题将被删除。 对于每个回答的人：没有自我宣传，没有参考或跟踪链接。    提交人    /u/AutoModerator   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1hr4p1x/monthly_is_there_a_tool_for_post/</guid>
       <pubDate>Wed, 01 Jan 2025 15:09:07 GMT</pubDate>
     </item>
