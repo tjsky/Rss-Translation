@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 17 Jan 2025 01:08:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2025 06:21:15 GMT</lastBuildDate>
+    <item>
+      <title>Teatree - 一个开源的个人登陆页面/个人简介链接工具</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i398vy/teatree_an_open_source_personal_landing/</link>
+      <description><![CDATA[大家好！我已经在这个项目上工作了一段时间，现在是时候将它公开了。这是一个开源的个人登陆页面/个人简介链接工具。 https://github.com/aronlebani/teatree.git 它使用 Ruby 和 Sinatra 构建，可自行托管。我还在 https://teatr.ee 提供完全免费的完全托管服务，如果您愿意，也可以进行小额捐赠。 动机： 每个人都应该能够在互联网上拥有一个空间，您可以免费展示您的作品，并以您喜欢的任何方式进行品牌化。专有的个人简介链接服务非常臃肿，如果您想删除品牌，则非常昂贵。对于创意人士和小企业主来说，它并不便宜。该项目的目的是通过提供一种简单、轻量级的替代方案来帮助社区，该替代方案是免费的，并且尊重您的隐私。您甚至可以上传自己的自定义 css，以便您的个人资料页面可以完全按照您想要的方式显示。 功能：  收集链接以显示在公共个人资料页面上 通过 CSS 完全可自定义的个人资料页面 与您的邮件列表集成（目前仅支持 Mailchimp）  就是这样！它设计得非常精简，只提供对人们真正有价值的功能。但是，如果它们为用户增加了显着的价值，我愿意接受功能建议。 有关更多信息，请参阅 Github 存储库中的 README。如果有任何问题，也可以随时给我发私信或评论此帖子。 该软件目前处于测试阶段。如果有人想尝试一下，任何反馈都非常感激。 希望你觉得它有用！    提交人    /u/evencuriouser   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i398vy/teatree_an_open_source_personal_landing/</guid>
+      <pubDate>Fri, 17 Jan 2025 05:19:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>在数千台机器上运行 Python 代码，无需任何 DevOps</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i38yjs/run_python_code_on_thousands_of_machines_with/</link>
+      <description><![CDATA[嗨，开源社区， 我真的厌倦了不断帮助我周围的数据工程师和科学家在云中扩展他们的代码。这应该简单得多。我有一段任意的 Python 代码，需要通过它运行 2500 万个输入 - 为什么我不能只定义我想在云中使用的机器，指定我需要的并行级别，并让它在运行时正常工作？ 如果您处理大数据，您可能遇到过这个常见问题，即需要在多个虚拟机上并行化您的代码，才能在合理的时间内处理您的输出。毕竟，拥有十台 96-CPU 机器组成的集群来并行处理代码比依赖一台机器要快得多。 为了解决这个问题，我构建了 Burla：一个开源 Python 包，只有一个函数 remote_parallel_map。Burla 的设计非常简单，即使是完全的初学者也可以有效地利用云资源。目标是让它感觉就像您在本地运行代码一样，只是……更快、更大规模。 以下是 Burla （文档）的实际示例： from burla import remote_parallel_map my_arguments = [1, 2, 3, 4] def my_function(my_argument: int): print(f&quot;在云中的远程计算机 #{my_argument} 上运行！&quot;) return my_argument * 2 results = remote_parallel_map(my_function, my_arguments) print(f&quot;return values: {list(results)}&quot;)  运行时，remote_parallel_map 在所有对象上调用 my_function my_arguments，同时，每个都在云中的单独 CPU 上。 试用一下：Burla 是自托管的，但现在我们有一个公共集群已启动并正在运行，因此您可以在安装前对其进行测试（我们会支付计算费用，您不必担心）。如果您愿意做出贡献，我很乐意听到您有任何有趣的用例或获得您的反馈。我还希望构建解决社区面临的常见问题的教程。 欢迎所有反馈 - 即使是苛刻的东西。让我们让在云中扩展 Python 代码变得非常简单。   由    /u/Ok_Post_149  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i38yjs/run_python_code_on_thousands_of_machines_with/</guid>
+      <pubDate>Fri, 17 Jan 2025 05:02:06 GMT</pubDate>
+    </item>
     <item>
       <title>Zulip Server 9.4 安全版本</title>
       <link>https://www.reddit.com/r/opensource/comments/1i30xam/zulip_server_94_security_release/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[过去几年，我一直在开发自己的开源 SEO 审核工具。该工具基于 Web，侧重于 SEO 的技术方面。它在后端使用 Go 构建，在前端使用纯 HTML + CSS 构建。图表和 websocket 只使用了少量 JS。 您可以在 https://github.com/StJudeWasHere/seonaut 查看。非常欢迎提交请求和反馈。    提交人    /u/tt_256   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i211q3/seonaut_opensource_seo_audit_tool/</guid>
       <pubDate>Wed, 15 Jan 2025 16:19:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>FluentAssertions 取代 Apache 2.0 许可证</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i1xb56/fluentassertions_replaces_apache_20_license/</link>
-      <description><![CDATA[对于 FluentAssertions，大家有什么看法和法律情况？他们刚刚将许可证从 Apache 2.0 更改为商业 Xceed 许可证。 我个人认为这对开源社区来说是一个明显的损失。但人们都在分叉并转向竞争项目，因此它会恢复。我更反对的是法律含义。他们没有任何 CLA，以我门外汉的法律理解，这意味着他们不能从不同意此更改的其他贡献者代码中删除 Apache 2.0 许可证。是这样吗？    提交者    /u/Possibly-Functional   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i1xb56/fluentassertions_replaces_apache_20_license/</guid>
-      <pubDate>Wed, 15 Jan 2025 13:25:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>OneUptime 的反馈：开源监控和可观察性平台</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i1xap2/feedback_for_oneuptime_open_source_monitoring_and/</link>
-      <description><![CDATA[我们正在构建一个开源可观察性平台 - OneUptime (https://oneuptime.com)。将其视为 Datadog、NewRelic、PagerDuty 和 Incident.io 的开源替代品 - 100% FOSS 和 Apache 许可。 已经在使用 OneUptime 了吗？非常感谢！我们很乐意听到您的反馈。 尚未加入？我们很好奇原因，并渴望知道如何更好地满足您的需求。您希望实现哪些功能？我们非常认真地倾听这个社区的意见，并将为你们所有人提供更新。 期待听到您的想法和反馈！    提交人    /u/OuPeaNut   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i1xap2/feedback_for_oneuptime_open_source_monitoring_and/</guid>
-      <pubDate>Wed, 15 Jan 2025 13:24:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
