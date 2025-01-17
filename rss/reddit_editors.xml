@@ -4,7 +4,14 @@
     <title>最新投稿：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>此子版块面向后专业人士。您想成为专业人士吗？请随意使用我们的“向专业人士提问”主题。副业？使用“向专业人士提问”主题。爱好？为了好玩？我们的姐妹子版块 r/videoediting 正是您想要的！</description>
-    <lastBuildDate>Thu, 16 Jan 2025 21:14:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2025 01:08:02 GMT</lastBuildDate>
+    <item>
+      <title>嘿，编辑们！你有什么省时小窍门吗？</title>
+      <link>https://www.reddit.com/r/editors/comments/1i34hi2/hey_editors_what_are_your_tiny_timesaving_tips/</link>
+      <description><![CDATA[我们使用的这些应用程序包含如此多的微小功能，总有新的功能等待我们去发现！ 这是我最喜欢的功能之一： PPro 和 AE 中的时间码不需要任何前导 0，也不需要冒号和分号！ 想快速将合成设置为 5 分钟长吗？在 Comp 设置中，您不必输入 5:00;00。您只需编写 5..，它就会神奇地将所有句点转换为分号/冒号，并在它们之间放置必要的 0！ 因此 10.2.5 变为 00:10:02;05，1.9..30 变为 01:09:00;30，25... 变为 25:00:00;00，等等。它非常适合防止因重复按键而导致的 RSI 哈哈    提交人    /u/OliveBranchMLP   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1i34hi2/hey_editors_what_are_your_tiny_timesaving_tips/</guid>
+      <pubDate>Fri, 17 Jan 2025 01:01:56 GMT</pubDate>
+    </item>
     <item>
       <title>编辑卷轴应该是什么样的？</title>
       <link>https://www.reddit.com/r/editors/comments/1i2y20v/what_is_an_editors_reel_supposed_to_look_like/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好， 我正在使用最新版本的 Adob​​e Premiere Pro 编辑一个项目，视频制作者和混音师之间沟通不畅。视频使用佳能相机以 30p (29.97) 拍摄，音频使用 Zoom F8n Pro 以 24p (23.976) 录制。我试图将音频与视频结合起来，但由于帧速率不同，同步会随着时间的推移而偏移。 有人知道我该如何将它们正确匹配在一起吗？最终产品需要以 30p (29.97) 交付，因此我需要以某种方式更改音频文件的帧速率。 提前致谢！    提交人    /u/jrv3034   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1i2c23s/change_audio_files_from_24p_to_30p/</guid>
       <pubDate>Thu, 16 Jan 2025 00:17:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Premiere Pro 内存泄漏 - Mac OS</title>
-      <link>https://www.reddit.com/r/editors/comments/1i2b2er/premiere_pro_memory_leak_mac_os/</link>
-      <description><![CDATA[编辑：目前推测这与多机位源序列有关。我没有做太多测试，因为为了编辑，我需要查看两个机位，但我认为当不在多机位视图中时一切都很好，但当打开多机位视图时，我进行的编辑越多，内存就开始增加。  规格：Mac Studio M1 Ultra 64GB Premiere Pro 25.1 RED Raw r3d 文件，带有在 Premiere 中制作的 Prores 代理 尝试的解决方案： - 删除缓存，使用 Premiere 并手动使用 Finder - 从项目移动到生产工作流程，因为这是一部大型故事片，将场景分成不同的项目，因此它们不会同时打开 - 将代理移动到不同的驱动器（认为问题出在我提供的 HDD）并离线所有原始媒体 - 卸载并重新安装 - 使用 Premiere Pro BETA - 降级到 25.0，遇到同样的问题，然后降级到 24.6.4，我无法打开，因为项目是使用较新版本制作的。 - 重启电脑并进行软件更新 - 偏好设置下的内存有限 问题：我正在编辑一部故事片。主要是两个摄像机设置。大约 6.5TB 的原始素材和音频（我相信是变焦录音机）。所有素材都是 Red Raw。我相信是 Dragon 和 Gemini。我使用 Premiere 代理工作流程制作了代理。 我能够进行同步、冲印，甚至可以毫无问题地完成选择。现在我正在实际进行编辑，突然我不得不每 20-30 分钟关闭一次 Premiere，因为它使用了太多的应用程序内存，在 140-160GB 之间。如果我不这样做，它也会崩溃，但幸运的是这种情况很少见，让我有机会保存进度并重新启动。 我在网上搜索过类似的问题，并尝试了上述每种解决方案，但都没有成功。似乎找不到其他方法来尝试解决这个问题。 我正在从事的其他项目没有这个问题。只有这一个。 我显然想要一个不需要从头开始的解决方案。如果我不得不忍受它，我会的，因为我宁愿继续前进，但不断停止我的进步，不理解这个问题真的很痛苦。考虑到我下个月可能会再次与制作方合作制作他们的下一部故事片，如果再次发生这种情况，最好能解决这个问题。     提交人    /u/mattiasalegro   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1i2b2er/premiere_pro_memory_leak_mac_os/</guid>
-      <pubDate>Wed, 15 Jan 2025 23:30:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
