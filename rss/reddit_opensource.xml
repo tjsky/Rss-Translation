@@ -4,7 +4,7 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 18 Jan 2025 18:18:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2025 21:14:24 GMT</lastBuildDate>
     <item>
       <title>构建 OSS“电视流媒体”？</title>
       <link>https://www.reddit.com/r/opensource/comments/1i4cerk/building_an_oss_tv_streamer/</link>
@@ -20,13 +20,6 @@
       <pubDate>Sat, 18 Jan 2025 17:08:44 GMT</pubDate>
     </item>
     <item>
-      <title>UniGetUI 适用于 Android 吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i4bw60/unigetui_for_android/</link>
-      <description><![CDATA[你好！ 您是否有类似 UniGetUI 的应用程序，可将所有应用程序保存在一个地方并将它们传输到新设备中？ 谢谢！    提交人    /u/Embody248   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i4bw60/unigetui_for_android/</guid>
-      <pubDate>Sat, 18 Jan 2025 16:59:53 GMT</pubDate>
-    </item>
-    <item>
       <title>我修复了 googlesearch-python</title>
       <link>https://www.reddit.com/r/opensource/comments/1i4bpj4/i_made_a_fix_for_googlesearchpython/</link>
       <description><![CDATA[您好， 虽然没什么问题，但是我修复了库 googlesearch-python，该库返回了空结果，因为 Google 对不使用 JS 的浏览器添加了限制。 我的修复使用了 Lynx 用户代理。 我经常将这个库用于我的 开源项目，所以我希望修复它。 如果您需要安装我的 fork，请像这样（在 venv 中左右）：  pip install git+https://github.com/stanfrbd/googlesearch@lynx-user-agent  PR 在这里（等待所有者）：PR 希望有帮助！ 干杯， 斯坦    由   提交  /u/stan_frbd   [链接] [评论]]]></description>
@@ -36,7 +29,7 @@
     <item>
       <title>Ux/UI 设计师希望为开源软件项目做出贡献</title>
       <link>https://www.reddit.com/r/opensource/comments/1i4bl6z/uxui_designer_looking_to_contribute_to_open/</link>
-      <description><![CDATA[浏览过这里的帖子，阅读了一些评论，看到了很多关于 Ui 的反馈。如果你认为我对你的项目有用，可以联系我    提交人    /u/Professional_Set27​​36   [link] [评论]]]></description>
+      <description><![CDATA[浏览过这里的帖子，阅读了一些评论，看到了很多关于 Ui 的反馈。如果你认为我对你的项目有用，可以联系我 我的作品集；https://ocwmn5om5.sites.cv/    提交人    /u/Professional_Set27​​36   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i4bl6z/uxui_designer_looking_to_contribute_to_open/</guid>
       <pubDate>Sat, 18 Jan 2025 16:46:22 GMT</pubDate>
     </item>
@@ -78,7 +71,7 @@
     <item>
       <title>我的学习资料库包含许多机器学习方法和概念的实现</title>
       <link>https://www.reddit.com/r/opensource/comments/1i3sbwd/my_learning_repository_with_implementations_of/</link>
-      <description><![CDATA[我想分享我的学习库，我在其中使用 scikit-learn、tensorflow、keras 和其他工具练习机器学习和深度学习。它涵盖了机器学习的许多概念，希望它对机器学习和深度学习者有用！自从这次我添加了 MIT 许可证后，我重新发布。如果您觉得这有用，请点赞！https://github.com/chtholine/Machine_Learning_Projects    提交人    /u/epipremnumus   [链接] [评论]]]></description>
+      <description><![CDATA[我想分享我的学习库，我在其中使用 scikit-learn、tensorflow、keras 和其他工具练习机器学习和深度学习。它涵盖了机器学习的许多概念，希望它对机器学习和深度学习者有用！自从这次重新发布以来，我添加了 MIT 许可证。如果您觉得这有用，请点赞！https://github.com/chtholine/Machine_Learning_Projects    提交人    /u/epipremnumus   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i3sbwd/my_learning_repository_with_implementations_of/</guid>
       <pubDate>Fri, 17 Jan 2025 22:16:29 GMT</pubDate>
     </item>
@@ -109,6 +102,13 @@
       <description><![CDATA[大家好！👋 我正在开发 depthviz，这是一款开源 CLI 工具，可根据潜水电脑日志为自由潜水视频生成深度跟踪叠加层。目标是提供一种简单有效的方法来可视化潜水资料并增强自由潜水镜头。  GitHub repo：https://github.com/noppanut15/depthviz 主要功能：  解析来自各种来源（Apnealizer、Shearwater、Garmin、Suunto 和手动模式）的潜水日志。 生成具有可自定义文本格式的 MP4 视频叠加以显示深度。 使用线性插值获得平滑的深度剖面。  我正在寻找社区对以下方面的反馈和贡献：  代码质量和最佳实践。 （Python） 潜在的改进和新功能。 可用性和整体用户体验。 支持其他潜水电脑/数据格式。  如果您有兴趣为开源项目做出贡献、从事数据可视化工作，或者只是想尝试一下，请查看 repo 并分享您的想法！欢迎所有反馈、错误报告和功能请求。    提交人    /u/noppanut15   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i3mcb5/depthviz_opensource_freediving_depth_overlay_tool/</guid>
       <pubDate>Fri, 17 Jan 2025 17:55:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pixelfed，去中心化的 Instagram 竞争对手</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i3lu65/meet_pixelfed_the_decentralized_instagram/</link>
+      <description><![CDATA[        提交人    /u/Sastamotive1134   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i3lu65/meet_pixelfed_the_decentralized_instagram/</guid>
+      <pubDate>Fri, 17 Jan 2025 17:34:38 GMT</pubDate>
     </item>
     </channel>
 </rss>

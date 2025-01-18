@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有 Web 开发相关事宜的社区：前端和后端。如需更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 18 Jan 2025 15:14:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2025 21:14:19 GMT</lastBuildDate>
     <item>
-      <title>使用一个命令获取本地主机的公共 URL - 无需安装</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i4931c/get_public_urls_to_localhost_with_one_command_no/</link>
-      <description><![CDATA[       由    /u/Outrageous_Car4912  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i4931c/get_public_urls_to_localhost_with_one_command_no/</guid>
-      <pubDate>Sat, 18 Jan 2025 14:49:00 GMT</pubDate>
+      <title>Nginx 路由问题：访问 Astro.js 博客 (/blog/posts → /posts) 时博客子路径被剥离</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4guad/nginx_routing_issue_blog_subpaths_get_stripped/</link>
+      <description><![CDATA[我在使用 Dockerized 设置运行 Next.js 主站点和 Astro.js 博客时遇到了令人沮丧的路由问题，这两个站点都位于 Nginx 反向代理之后。虽然基本博客路径运行正常，但任何子路径在导航过程中都会莫名其妙地丢失其 /blog 前缀。 当前设置：  主站点：Next.js（dockerized，在 localhost:3000 上运行） 博客：Astro.js（dockerized，在 localhost:7000 上运行） Nginx 作为反向代理 已启用 SSL（由 Certbot 管理）  问题：基本博客路径运行正常 - domain.com/blog 正确提供内容。但是，当访问任何子路径时，URL 都会被重写以删除 /blog 前缀。例如：  domain.com/blog/posts 被重写为 domain.com/posts domain.com/blog/about 被重写为 domain.com/about  此行为与本文中关于从 Gatsby 子域移动到子路径的描述完全匹配：https://perfects.engineering/blog/moving\_blog\_to\_subpath。该人遇到了完全相同的问题，即子路径会莫名其妙地丢失其 /blog 前缀，从而导致 404 错误和资产加载失败，我曾尝试使用 Astro 复制它，但就是无法使其工作 :( Nginx 配置（已清理）： server { server_name ; location /blog { proxy_pass ; proxy_redirect off; proxy_http_version 1.1; proxy_set_header Upgrade $http_upgrade; proxy_set_header Connection &#39;upgrade&#39;; proxy_set_header Host $host; proxy_cache_bypass $http_upgrade; proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; proxy_set_header X-Forwarded-Host $host; proxy_set_header X-Forwarded-Port $server_port; } location / { proxy_pass ; proxy_redirect off; proxy_http_version 1.1; proxy_set_header 升级 $http_upgrade; proxy_set_header 连接“升级”; proxy_set_header 主机 $host; proxy_cache_bypass $http_upgrade; proxy_set_header X-Real-IP $remote_addr; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto $scheme; proxy_set_header X-Forwarded-Host $host; proxy_set_header X-Forwarded-Port $server_port; } # 由 Certbot 管理的 SSL 配置 }  Astro 配置： export default defineConfig({ site: &quot;https://example.com&quot;, base: &#39;/blog&#39;, integrations: [mdx(), sitemap(), tailwind()], markdown: { rehypePlugins: [sectionize as unknown as [string, any]], syntaxHighlight: false, }, image: { domains: [&quot;img.youtube.com&quot;], }, });  就像博客所建议的那样，这似乎不是服务器端重定向 - 网络请求表明它发生在客户端。这些 dockerized 应用程序可以完美地独立运行，并且基本路径也可以正常工作，这表明这是一个路由/路径处理问题。 我花了无数的时间试图解决这个问题，所以任何帮助或见解都将不胜感激！！    提交人    /u/Busy-Spell-6735   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4guad/nginx_routing_issue_blog_subpaths_get_stripped/</guid>
+      <pubDate>Sat, 18 Jan 2025 20:40:30 GMT</pubDate>
     </item>
     <item>
-      <title>stop-nagging 一个 CLI 工具，用于消除工具中的升级唠叨和遥测</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i490rd/stopnagging_a_cli_tool_to_silence_upgrade_nags/</link>
-      <description><![CDATA[        由    /u/mehyay76  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i490rd/stopnagging_a_cli_tool_to_silence_upgrade_nags/</guid>
-      <pubDate>Sat, 18 Jan 2025 14:46:01 GMT</pubDate>
+      <title>开源、浏览器内数据分析仪表板工具/库？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4gcx9/opensource_inbrowser_data_analysis_dashboard/</link>
+      <description><![CDATA[客户需要一个相当强大的 UI，以便他们从数据库中查询统计数据。我可以自己构建这个，但没有预算来做这么大的事情，我们最初同意我只提供一个报告页面，列出他们想要的统计数据（直到今天他们仍然无法向我提供确切的详细信息）。 有人知道，例如，一个 React 应用程序，我可以把它推到一个页面上，给它一个 CSV/JSON 文件来解析（+ 一个模式），它会吐出一个界面，让你从这些数据中查询结果/总数/等等？基本上就是 Tableau 的一元店版本。    提交人    /u/zumoro   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4gcx9/opensource_inbrowser_data_analysis_dashboard/</guid>
+      <pubDate>Sat, 18 Jan 2025 20:18:15 GMT</pubDate>
     </item>
     <item>
-      <title>经常被忽视的漏洞概述</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i48kho/an_overview_of_frequently_overlooked_vulnerability/</link>
-      <description><![CDATA[        提交人    /u/ssj_aleksa   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i48kho/an_overview_of_frequently_overlooked_vulnerability/</guid>
-      <pubDate>Sat, 18 Jan 2025 14:23:46 GMT</pubDate>
+      <title>约会网站开发</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4g0cn/dating_website_development/</link>
+      <description><![CDATA[您好，Wordpress 是一个创建廉价约会网站的好网站吗？它容易制作和托管吗？我可以通过托管获利吗？您认为我的成本是多少？ 我对此很陌生 谢谢任何有帮助的信息     提交人    /u/Dismal_Scheme1014   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4g0cn/dating_website_development/</guid>
+      <pubDate>Sat, 18 Jan 2025 20:02:18 GMT</pubDate>
     </item>
     <item>
-      <title>最适合客户工作的最佳 Wordpress 替代品是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i482j0/best_wordpress_alternatives_that_work_well_for/</link>
-      <description><![CDATA[首先，我本人和我的很多同事都是，或者至少曾经是，Wordpress 的粉丝。开源且免费，有什么不喜欢的呢？ 但是 WP 引擎的整个事情只是在大喊垄断强权，我看不出这对最终用户来说会有什么好结果。他们已经表明，他们非常乐意按照马特勋爵的意愿剥夺社区访问权限，谁知道他们下一步会做什么？他们目前的做法确实让人没有信心 现在谈谈手头的问题。我已经签了几个新客户，他们希望我们避免使用 wordpress。我们还希望未来其他客户能够远离 wordpress，至少在我们的领域（技术相关/电子商务，主要是小型企业）。我主要使用 wordpress，并且对 webflow 有一些经验。我们也考虑过 drupal 和 squarespace，但我从使用过的人那里只听到了后者的坏话。 当然我们不会完全放弃 Wordpress。只是在研究其他选择，如果情况真的发生变化，我们就会抢占先机。说实话，wp 不再是存放我们所有鸡蛋的篮子了。公司是这么说的，我们必须从长远考虑。 我有一些基本要求，我们想确保满足这些要求。 首先，这应该是一个长期的解决方案——不想因为事情在几年后出现问题而被迫更换。 其次是客户端编辑。我们完成后，客户端应该能够轻松维护。 下一步——学习曲线。如果我们让一个团队专注于某个特定平台，他们很快就能掌握一切。 该平台还应该能够走向小众市场。在后端开发、可访问性或平衡开箱即用功能以及根据需要自定义逻辑的能力方面没有任何限制。我们可能会遇到一些棘手的情况，我们最不需要的就是一些平台限制阻碍我们找到解决方案 最后，虽然这更像是我的许多同事都讨厌的事情 - 没有人愿意摆弄基础设施。我们喜欢 wordpress，我们真的宁愿专注于设计和功能，而不是填补不属于我们工作范围的漏洞 那么，寻找可行的 Wordpress 替代方案是否现实，或者现在摆脱马特勋爵的隐形枷锁还为时过早？    提交人    /u/ohyeeeahdad   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i482j0/best_wordpress_alternatives_that_work_well_for/</guid>
-      <pubDate>Sat, 18 Jan 2025 13:58:21 GMT</pubDate>
+      <title>如何实际与你的团队合作？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4ffla/how_to_actually_work_with_your_team/</link>
+      <description><![CDATA[需要一些帮助，关于如何改变我的思维方式，作为团队成员正常工作。作为背景，我是一名全栈开发人员，自学成才，过去 3 年大部分时间都是独自工作，每 2-4 周只有一名经理汇报，我开发并维护了管理第三世界国家医疗保健和政府现场报道的软件。我不能透露更多细节，因为我在离开那份工作时签署了保密协议。我喜欢编码。我在工作中和空闲时间都做编码。这很有趣，也是我的激情所在。而且我认为我很擅长。在我的新工作是一家初创公司，我是一名产品开发人员，我的工作包括与团队集思广益和定义新功能以改善 ARR，开发前端和一些后端（需要时）。问题不在于代码。而是团队合作和沟通。就好像我从上一份（也是第一份）工作中培养了这种习惯，每次临近截止日期，我都会完全专注于我所了解和控制的事情，而忘记了 Slack、Gmail、Notion 等等。正因为如此，我建立了一个名声，是的，我可以快速而正确地编写代码，但有时甚至需要一天时间才能回复消息。我也不太参加团队会议，这是因为在我的脑海里，我很了解自己的工作，但不知道他们的工作，而且我没有足够的信心去挑战或补充他们所展示的内容。当我工作时，我倾向于超级专注于代码，而把时间花在休息上，即使在吃午饭的时候，如果这是紧张的一天，当其他人说话时，我会一直思考代码，我能感觉到我和他们之间有一些距离。我觉得我可以放慢我的编码节奏，投入更多的时间成为一名团队成员，但我不知道如何改变我做事的方式来做到这一点。您能给我一些关于如何成为更好的团队成员的建议吗？    提交人    /u/zqmbgn   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4ffla/how_to_actually_work_with_your_team/</guid>
+      <pubDate>Sat, 18 Jan 2025 19:36:39 GMT</pubDate>
     </item>
     <item>
-      <title>元广告活动</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i47q0r/meta_ad_campaign/</link>
-      <description><![CDATA[我想为元广告或任何人工智能自动化制作一个输出即服务 (Oaas)，任何输入我如何才能基本做到也很好    提交人    /u/Itsscienceboy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i47q0r/meta_ad_campaign/</guid>
-      <pubDate>Sat, 18 Jan 2025 13:39:03 GMT</pubDate>
+      <title>我喜欢随机单词生成器，但网上的所有生成器都很丑，所以我自己做了一个</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4f6w8/i_love_random_word_generators_but_all_the_ones/</link>
+      <description><![CDATA[        提交人    /u/theparkpoet   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4f6w8/i_love_random_word_generators_but_all_the_ones/</guid>
+      <pubDate>Sat, 18 Jan 2025 19:26:00 GMT</pubDate>
     </item>
     <item>
-      <title>最好的方法是……</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i473gg/best_way_to_do_this/</link>
-      <description><![CDATA[      大家好。 这里有新手的问题。 🙋‍♂️ 我想知道，实现这种布局的最佳方法是什么。 如何像此屏幕截图一样安排绿卡后面的女孩图像？ https://preview.redd.it/ywsbgy8n3rde1.png?width=244&amp;format=png&amp;auto=webp&amp;s=52e56cd705bfc6d07b946ad1b473227c457e46c4    由   提交  /u/lableite   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i473gg/best_way_to_do_this/</guid>
-      <pubDate>Sat, 18 Jan 2025 13:03:09 GMT</pubDate>
+      <title>分享您的前端工具和前端平台工程学习资源</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4eyyv/share_your_learning_resources_for_frontend/</link>
+      <description><![CDATA[嘿，我是一名前端平台工程师，经常从事 AST 转换、monorepos、bundler 以及诸如此类的工作。我注意到这个小众领域没有很好的学习路径，所以我目前正在收集大量有用的材料，包括文档、博客、视频、github 讨论和代码。 我很乐意通过分享您认为此列表中缺少的内容来获得您的帮助。  [ ] https://www.typescriptlang.org/docs/handbook/modules/theory.html [ ] https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html [ ] https://www.typescriptlang.org/docs/handbook/modules/appendices/esm-cjs-interop.html [ ] https://www.typescriptlang.org/tsconfig/#isolatedModules [ ] https://www.typescriptlang.org/docs/handbook/modules/theory.html#the-module-output-format [ ] https://webpack.js.org/concepts/loaders/ [ ] https://webpack.js.org/concepts/plugins/ [ ] https://webpack.js.org/concepts/configuration/ [ ] https://github.com/microsoft/TypeScript/wiki/Using-the-Compiler-API [ ] https://github.com/Coly010/ng-rspack-build#readme [ ] https://github.com/orgs/web-infra-dev/discussions/24 [ ] https://github.com/orgs/web-infra-dev/discussions/17 [ ] https://github.com/orgs/web-infra-dev/discussions/15 [ ] https://www.youtube.com/watch?v=0iKZEkJgkOw&amp;ab_channel=SeanLarkin [ ] https://www.joshuakgoldberg.com/blog/the-cost-of-a-lint-rule/ [ ] https://www.joshuakgoldberg.com/blog/the-blurry-line-between-formatting-and-style/ [ ] https://www.jonathancreamer.com/how-to-successfully-manage-a-monorepo-aka-megarepo/ [ ] https://www.jonathancreamer.com/write-async-node-scripts-using-the-only-native-nodejs-modules/ [ ] https://eslint.org/docs/latest/use/formatters/ [ ] https://eslint.org/docs/latest/extend/custom-formatters [ ] https://pnpm.io/workspaces [ ] https://pnpm.io/catalogs     提交人    /u/haasilein   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4eyyv/share_your_learning_resources_for_frontend/</guid>
+      <pubDate>Sat, 18 Jan 2025 19:15:48 GMT</pubDate>
     </item>
     <item>
-      <title>POS 系统问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i46z0w/pos_system_question/</link>
-      <description><![CDATA[因此，我正在使用 nextjs 和 postgres 为本地商店创建一个 POS 系统，它仅供商店内的员工使用 我现在唯一的问题是我正在使用 react query persist 将产品缓存在本地存储中以避免在刷新时重新获取它们 + 因为快速访问所有产品对于快速创建订单和处理它们来说是必要的，所以我不想做分页 现在的问题是，如果员工 1 要添加新产品，则失效只会发生在他的系统上，而不会发生在员工 2 身上，例如，他仍然会处理缓存在他的系统上的旧数据 有没有办法解决这个问题，而不必引入一些发布/订阅系统或 websocket 来在发生突变时通知所有客户端？ （例如添加新产品/类别/供应商）  我可以做的解决方案是将缓存持续时间从 1 年减少到 5 分钟，但这意味着每 5 分钟执行一次查询，获取 200/300 多种产品并将它们与用户、类别、供应商等不同的表连接起来，我不知道这是否理想    提交人    /u/Mjz11   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i46z0w/pos_system_question/</guid>
-      <pubDate>Sat, 18 Jan 2025 12:56:08 GMT</pubDate>
+      <title>如何使用 vite 作为捆绑器在 javascript 中导入自定义字体</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4exef/how_to_import_custom_fonts_in_javascript_using/</link>
+      <description><![CDATA[大家好， 我正在做一个项目，需要在我的 javascript 中导入自定义字体文件（.fnt），我将使用它来用于 WebGL 场景 但是当我导入字体时，vite 给了我错误 我试过使用 vite-plugin-font 包，但它也不起作用    提交人    /u/Opposite_Squirrel_32   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4exef/how_to_import_custom_fonts_in_javascript_using/</guid>
+      <pubDate>Sat, 18 Jan 2025 19:13:51 GMT</pubDate>
     </item>
     <item>
-      <title>我制作了一个精美的网页游戏，你可以解读视频 - VideoPuzzle.org</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i46w2w/i_made_a_slick_webgame_where_you_unscramble_a/</link>
-      <description><![CDATA[        提交人    /u/oliwary   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i46w2w/i_made_a_slick_webgame_where_you_unscramble_a/</guid>
-      <pubDate>Sat, 18 Jan 2025 12:50:54 GMT</pubDate>
+      <title>我的任务重复得令人恼火，我认为如果我花一点钱购买 WebStorm 的 Copilot 扩展，我会获得更高的效率。现在哪个是最好的？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4eqgd/my_task_is_infuriating_repetitive_and_i_think_i/</link>
+      <description><![CDATA[基本上就是标题，我今天接到一个任务，将一些 CRUD 屏幕迁移到模态形式，并将一些重复代码分解为可重用的组件，以供即将到来的屏幕使用，但需要重新处理的屏幕相当多，如果 IA 可以帮我做这件事，我会很高兴，因为此时只是从代码片段切换到新创建的组件，等等...... 很抱歉，说了这么多。但是目前最好的编码助手是什么？我说付费是因为免费的 99% 的时间都不能正确完成。有很多，jetbrains、githubs、codium 等。提前谢谢。    提交人    /u/PotatoBreadDad   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4eqgd/my_task_is_infuriating_repetitive_and_i_think_i/</guid>
+      <pubDate>Sat, 18 Jan 2025 19:05:08 GMT</pubDate>
     </item>
     <item>
-      <title>CLI 驱动的 React Hooks 库（类似 shadcn/ui，但用于 Hooks！）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i46ril/a_clidriven_react_hooks_library_like_shadcnui_but/</link>
-      <description><![CDATA[        提交人    /u/lastborn69   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i46ril/a_clidriven_react_hooks_library_like_shadcnui_but/</guid>
-      <pubDate>Sat, 18 Jan 2025 12:43:11 GMT</pubDate>
+      <title>我构建了一个可自托管的 OSS 表单后端。它是 Formspree 的替代品。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4eoy6/i_built_a_selfhostable_oss_form_backend_its_an/</link>
+      <description><![CDATA[        由    /u/OiaOrca  提交  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4eoy6/i_built_a_selfhostable_oss_form_backend_its_an/</guid>
+      <pubDate>Sat, 18 Jan 2025 19:03:16 GMT</pubDate>
     </item>
     <item>
-      <title>是否有人愿意使用或支付文本（文本、json、base64 图像等）托管服务？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i46rho/will_anyone_be_willing_to_use_or_pay_for_a_text/</link>
-      <description><![CDATA[考虑这个问题有一段时间了，人们是否需要托管、共享和协作纯文本内容？这个想法是让用户进入一个平台，将一些文本转储到文本区域，然后生成一个可以在任何地方使用的链接。当然，可以有一个内容类型的选择字段，以便可以适当地使用返回的数据。 是否已经存在这样的服务？您还想从这个平台获得什么，甚至考虑加入？您使用这样一个平台的选择标准是什么？    提交人    /u/Live-Basis-1061   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i46rho/will_anyone_be_willing_to_use_or_pay_for_a_text/</guid>
-      <pubDate>Sat, 18 Jan 2025 12:43:08 GMT</pubDate>
+      <title>Instagram 开发人员是否忘记了如何将 div 居中？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4ed9j/did_instagram_devs_forgot_how_to_center_a_div/</link>
+      <description><![CDATA[      这看起来太可怕了🥲    提交人    /u/bancaletto   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4ed9j/did_instagram_devs_forgot_how_to_center_a_div/</guid>
+      <pubDate>Sat, 18 Jan 2025 18:48:55 GMT</pubDate>
     </item>
     <item>
-      <title>UiBun - 拖放式顺风构建器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i462xi/uibun_drag_drop_tailwind_builder/</link>
-      <description><![CDATA[      大家好，我为制造商和工程师构建了一个拖放式 tailwindcss 网站构建器。 在 UiBun 中您可以：  拖放预制的 BunUI 模板块 导入您自己的 HTML/tailwind 代码块（包括 TailwindUI 和其他 UI 工具包） 导出可用于生产的 HTML 代码（下载 zip）  链接：https://www.uibun.dev 希望你们都喜欢它 和平✌️    提交人    /u/Mesthabro   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i462xi/uibun_drag_drop_tailwind_builder/</guid>
-      <pubDate>Sat, 18 Jan 2025 11:59:33 GMT</pubDate>
+      <title>使用 React Native Expo 和 Payload CMS 构建全栈移动应用程序</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4e4ko/build_a_fullstack_mobile_app_with_react_native/</link>
+      <description><![CDATA[        提交人    /u/aaronksaunders   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4e4ko/build_a_fullstack_mobile_app_with_react_native/</guid>
+      <pubDate>Sat, 18 Jan 2025 18:38:02 GMT</pubDate>
     </item>
     <item>
-      <title>如果我想进行无 Docker 部署，获取运行时的最佳方式是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i45ygd/if_i_wanted_to_do_a_dockerless_deployment_what/</link>
-      <description><![CDATA[假设我想在没有 Docker 的情况下部署我的 Python 项目。 （我认为我所写的内容适用于多个（如果不是全部）运行时。Python 只是我熟悉的流行运行时之一） 获取所需版本的最佳方法是什么？ 在我看来，有几种选择。  取决于系统的包管理器提供的版本。在我看来，问题是它可能会过时，或者可能会突然更新并弃用某些功能。理想情况下，就像依赖项一样，我希望我的 Python 版本冻结。 获取第三方二进制文件。我知道，对于 Python，至少有 Anaconda 和 Deadsnakes（适用于 Ubuntu）。我猜缺点是它们可能不存在，或者很难找到，或者很难验证。 在您的服务器上构建二进制文件。事实上，如果您使用 asdf 或 pyenv 进行开发，您通常会在您的计算机上构建所需的二进制文件。但我不敢想象如果我尝试在我的 1 CPU、1 Gb RAM 机器上构建 Python 会发生什么。 在您的计算机上构建二进制文件并将其上传到服务器。我想说遇到某种不兼容的可能性相当高。  所以，如果你想要/必须进行无 docker 部署，你会选择哪个选项？    提交人    /u/art-solopov   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i45ygd/if_i_wanted_to_do_a_dockerless_deployment_what/</guid>
-      <pubDate>Sat, 18 Jan 2025 11:50:39 GMT</pubDate>
+      <title>我制作了一个现代复利计算器。首先是移动设备，但与台式机兼容。mathcritter-compoundinterest.vercel.app</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4dxnd/i_made_a_modern_compound_interest_calculator/</link>
+      <description><![CDATA[      大家觉得用户体验和易用性如何？这两个是我主要关注的。    提交人    /u/jcgiraldo   [link] [comments] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4dxnd/i_made_a_modern_compound_interest_calculator/</guid>
+      <pubDate>Sat, 18 Jan 2025 18:29:25 GMT</pubDate>
     </item>
     <item>
-      <title>双向支付 SDK 不是加密的吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i4501r/2_way_payment_sdk_thats_not_crypto/</link>
-      <description><![CDATA[嗨， 正在开发一个游戏类项目，用户可以购买数字物品、出售它们并通过交易赚取现金。 你们有人知道有什么方法可以设置它吗？ 有任何允许支付和收款的网络支付 SDK 吗？ 我不是在寻找 web3/区块链/加密解决方案 编辑上下文： 我是一名法国自由职业者，客户是一位美国企业家，他很快就会得到一些资金。    提交人    /u/wellandr   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i4501r/2_way_payment_sdk_thats_not_crypto/</guid>
-      <pubDate>Sat, 18 Jan 2025 10:44:10 GMT</pubDate>
+      <title>吐槽一下我的 SaaS 网站，别客气，如果你注册了但是没付费的话也一样。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4dv2o/roast_my_saas_website_dont_hold_back_and_also_if/</link>
+      <description><![CDATA[您刚刚注册了我的 SaaS，但没有付款，为什么？ 我想尽可能地改进登录页面，并提供最大的价值来证明付费是合理的。  这是我的 SaaS：TalkNotes    提交人    /u/Ornery-Length8689   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4dv2o/roast_my_saas_website_dont_hold_back_and_also_if/</guid>
+      <pubDate>Sat, 18 Jan 2025 18:26:16 GMT</pubDate>
     </item>
     <item>
-      <title>我制作了一个 WhatsApp AI 代理，它使用 Cal.com 而不是 Calendly 进行预约</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i44wjo/i_made_a_whatsapp_ai_agent_who_books_appointments/</link>
-      <description><![CDATA[        提交人    /u/ngsayjoe   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i44wjo/i_made_a_whatsapp_ai_agent_who_books_appointments/</guid>
-      <pubDate>Sat, 18 Jan 2025 10:37:15 GMT</pubDate>
+      <title>IndustrialKit - 用于工业 UI 的 React 组件库（寻求贡献者和反馈）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4dmda/industrialkit_a_react_component_library_for/</link>
+      <description><![CDATA[大家好！我刚刚发布了我的第一个 React 组件库 IndustrialKit。它专为构建工业和企业监控界面而设计。 灵感来源： 我最近偶然发现了 [plasticlist.org](https://www.plasticlist.org/)，这是一个分析产品中塑料含量的网站，他们的工业风格的 UI 给我留下了深刻的印象。 它是什么？ - 专注于工业 UI 模式的 React 组件集合 - 使用 React 19、TypeScript 和 Tailwind CSS 构建 - 包括终端仿真器、数据网格、时间序列图表和状态指示器等组件 当前功能： - 📊 数据可视化组件（图表、仪表、指示器） - 🎛️ 控制元素（工业风格的按钮、开关） - 🖥️ 监控组件（终端模拟器、状态面板） - 📱 布局组件（分割视图、响应式网格） 寻求帮助： 这是我的第一个库，我将完全透明 - 我边学边做。我非常希望得到有经验的开发人员的帮助： - 了解 React 库的最佳实践 - 具有 monorepo 设置经验（使用 Turborepo） - 了解包发布工作流程 - 可以帮助进行正确的 TypeScript 配置 - 对组件 API 设计有想法 **当前状态：** - npm 上的 0.0.2 版本（`npm install industrialkit`） - 文档站点（WIP）：[https://industrialkit-docs.vercel.app/\] - GitHub：[https://github.com/al3xstathis/industrialkit\] **下一步：** 我想将其构建为工业应用、研究仪表板、监控系统和科学接口的首选库。考虑以下 UI： - 工厂监控系统 - 实验室设备接口 - 研究数据可视化 - 环境监测仪表板 - 质量控制系统 如果您有兴趣做出贡献或只是想分享一些最佳实践，我将不胜感激。该项目是麻省理工学院授权的，旨在由社区驱动。 感谢您的阅读！请告诉我您的想法或是否想参与其中！    提交人    /u/alexstathis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4dmda/industrialkit_a_react_component_library_for/</guid>
+      <pubDate>Sat, 18 Jan 2025 18:15:27 GMT</pubDate>
     </item>
     <item>
-      <title>纯 HTML + CSS + JS 还存在吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1i44mlz/is_pure_html_css_js_still_a_thing/</link>
-      <description><![CDATA[我是一名自由网页开发者，最近我发现自己在中小型项目中使用越来越多的纯（手写）代码。 以前我是从纯 HTML 开始的，很快转向 WordPress，最近又切换到 Webflow。由于我的技术背景，我发现 Webflow 有点限制（尤其是 CSS 选择器）。 几个月前，一位客户要求制作一张简单的“数字名片”。对于一个千篇一律的网站来说，Webflow 和 WordPress 似乎有点小题大做。所以 HTML / CSS / JS 就是最好的选择 - 我不得不承认：CSS 已经取得了长足的进步！显然，我知道 flexbox 和 grid，但很多“微小的改进”我都不知道。那时我决定让自己了解最新的发展。* 现在我又回到了 00 年代早期的风格，在文本编辑器中制作网站。当然不是全部，但大多数中小型网站不需要花哨的 CMS，每年唯一的内容变化就是版权日期。此外，例如，准系统托管比 Webflow 便宜得多。 但客户需要能够自己更新网站吗？老实说，我可能有五个客户真的自己更新了他们的主页（或需要博客**）。大多数客户还是会打电话给我更新页面。 当然，我事先和主题谈过，并向他们解释，托管更便宜，但更新网站需要支付我的小时费。对于十年更新一两次的客户来说，这仍然是更好的解决方案。 你对此有何看法？你还手工编码吗？ ... [] 我当然知道 webdev 的最新变化，但不是那么详细。 [*] 大多数真正“需要”博客的客户只需发布一篇文章即可。    提交人    /u/anonRexus   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1i44mlz/is_pure_html_css_js_still_a_thing/</guid>
-      <pubDate>Sat, 18 Jan 2025 10:16:42 GMT</pubDate>
+      <title>一年前，我开始着手构建一个平台，让用户无需编写任何代码即可轻松创建美观、实用的网页。今天我们发布了 Alpha 版本。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1i4comf/a_year_ago_i_set_out_to_build_a_platform_that/</link>
+      <description><![CDATA[        由    /u/Stephane_B 提交   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1i4comf/a_year_ago_i_set_out_to_build_a_platform_that/</guid>
+      <pubDate>Sat, 18 Jan 2025 17:34:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
