@@ -1,21 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title></title>
+    <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
-    <description></description>
-    <lastBuildDate>Wed, 22 Jan 2025 18:21:21 GMT</lastBuildDate>
+    <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
+    <lastBuildDate>Thu, 23 Jan 2025 01:09:02 GMT</lastBuildDate>
+    <item>
+      <title>有兴趣为 Fediverse 构建吗？以下是现有的开源项目领域</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i7od9q/interested_in_building_for_the_fediverse_heres/</link>
+      <description><![CDATA[        由    /u/Spaduf 提交   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i7od9q/interested_in_building_for_the_fediverse_heres/</guid>
+      <pubDate>Wed, 22 Jan 2025 22:47:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rip Roop-unleashed - GitHub 已将其停用，因为它违反了其政策。好奇为什么这么久之后才停用。不管怎样，它目前是一个无关紧要的应用程序，但仍然是一个值得一试的有趣事情</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i7n6e7/rip_roopunleashed_github_has_deactivated_it_for/</link>
+      <description><![CDATA[今天收到一封电子邮件，说 repo 已关闭，我检查了 count floyds repo 并发现这是真的。  自从 rope 以来，这个应用程序已经很长时间没有用了，但我很好奇 GitHub 在这里是怎么想的。原始版本是开源的，所以不应该是更改代码的问题。我想知道反解锁/未经审查的模型应急是否一直在施加压力。    提交人    /u/FitContribution2946   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i7n6e7/rip_roopunleashed_github_has_deactivated_it_for/</guid>
+      <pubDate>Wed, 22 Jan 2025 21:56:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>这是浪费时间还是一个好主意？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i7mxl9/is_it_a_waste_of_time_or_a_good_idea/</link>
+      <description><![CDATA[想法： 开源开发者/组织可以在此网站上索要徽标/设计，想要为开源做出贡献的设计师可以在请求帖子下上传他们的设计。设计师还可以自己创建帖子，设计/重新设计一个开源项目。 受到下面帖子的启发。    提交人    /u/Flick9000   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i7mxl9/is_it_a_waste_of_time_or_a_good_idea/</guid>
+      <pubDate>Wed, 22 Jan 2025 21:46:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>自托管的 Strava 统计 APP 正在寻找愿意帮助添加语言环境和翻译的人</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i7m1jx/self_hosted_strava_statistics_app_in_search_for/</link>
+      <description><![CDATA[Hi r/opensource  Strava statistics 📈 是一款应用程序，可让您自行托管使用 Strava 数据生成的统计数据：https://github.com/robiningelbrecht/strava-statistics 我已经在这个 sub-reddit 上发了几篇帖子，得到了很多积极的反馈。我一直在致力于本地化实施。目前，该应用程序已翻译成英文和法文，但我还想添加对西班牙语、葡萄牙语和德语的支持。 如果有人愿意帮助我，我将不胜感激！！    提交人    /u/frogfuhrer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i7m1jx/self_hosted_strava_statistics_app_in_search_for/</guid>
+      <pubDate>Wed, 22 Jan 2025 21:08:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 应用程序可以检查来自不同来源的消息吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i7iof3/windows_app_to_check_messages_from_different/</link>
+      <description><![CDATA[你好！ 您是否知道任何可以链接到网站/应用程序（WhatsApp 网页、Instagram...）以便在有新消息到达时显示通知的开源应用程序？ 不知道是否可能。 谢谢！    提交人    /u/Embody248   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i7iof3/windows_app_to_check_messages_from_different/</guid>
+      <pubDate>Wed, 22 Jan 2025 18:53:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>OSI 2025 年董事会：选举详情</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i7icil/osis_board_of_directors_in_2025_details_about_the/</link>
+      <description><![CDATA[  由    /u/opensourceinitiative  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i7icil/osis_board_of_directors_in_2025_details_about_the/</guid>
+      <pubDate>Wed, 22 Jan 2025 18:40:00 GMT</pubDate>
+    </item>
     <item>
       <title>对于那些想要快速开始使用 ImGui 构建 C++ 跨平台应用程序的人来说。此库提供即插即用设置和预配置的入口点，使开发变得简单。欢迎所有贡献。（更多 C++ 项目在这里 https://github.com/Interactive-Echoes）</title>
       <link>https://www.reddit.com/r/opensource/comments/1i7fp3h/for_those_wanting_to_quickly_start_building_c/</link>
-      <description><![CDATA[]]></description>
+      <description><![CDATA[  由    /u/mozahzah  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i7fp3h/for_those_wanting_to_quickly_start_building_c/</guid>
       <pubDate>Wed, 22 Jan 2025 16:53:36 GMT</pubDate>
     </item>
     <item>
       <title>大多数开源应用程序的糟糕图标</title>
       <link>https://www.reddit.com/r/opensource/comments/1i7bmmd/the_bad_icons_of_most_open_source_apps/</link>
-      <description><![CDATA[我当时正在 fossdroid 商店中徘徊，想用开源应用程序替换我的一些 gplay 应用程序。我遇到的一个问题是，50% 的开源应用程序的图标很糟糕，25% 的甚至没有图标，只有 25% 的图标还不错。 我可能比较肤浅，但我认为图标对于更广泛地采用应用程序非常重要，它是人们看到的第一件事。此外，在 PC 上，这个问题可能不大，因为很多应用程序（特别是在 Linux 中）都是在无需与图标交互的情况下启动的。但在 Android 上，图标的好坏/解释性直接决定了您可以跟踪和打开它的速度。 抱怨够多了，现在来谈谈可能的解决方案，我的女朋友是一名平面设计师，我让她制作了几个图标捐赠给我使用的应用程序的开发人员，我们给了他们很多变体，他们选择了他们喜欢的那个，并告诉我们要调整什么。没什么特别的，她花了不到半个小时的时间，这是一个有趣的活动，让我们思考一下。显然，这不是一个专业工作，但对于一个目前没有资源委托专业人士的项目来说，总比什么都没有好。 我觉得，如果人们有一种简单的方式可以捐赠图标，许多学生/图形设计师会在业余时间这样做，只是为了锻炼身体，也许创建一个作品集。 你们觉得呢？    提交人    /u/NorthmanTheDoorman   [link] [评论]]]></description>
+      <description><![CDATA[我徘徊在 fossdroid 商店，想用开源应用程序替换我的一些 gplay 应用程序。我遇到的一个问题是，50% 的开源应用程序的图标很糟糕，25% 的甚至没有图标，只有 25% 的图标还不错。 我可能很肤浅，但我认为图标对于更广泛地采用应用程序很重要，它是人们看到的第一件事。此外，在 PC 上，这可能不是什么大问题，因为很多应用程序（特别是在 Linux 中）都是在无需与图标交互的情况下启动的。但在 Android 上，图标的好坏/解释性直接决定了您跟踪和打开它的速度。 抱怨够多了，现在来谈谈一个可能的解决方案，我的女朋友是一名平面设计师，我让她制作了几个图标捐赠给我使用的应用程序的开发人员，我们给了他们很多变体，他们选择了他们喜欢的那个，并告诉我们要调整什么。没什么特别的，她花了不到半个小时，对我们来说这是一个有趣的活动。显然这不是一个专业的工作，但对于一个目前没有资源委托专业人士的项目来说，总比没有好。 我觉得如果人们有一种简单的方式可以捐赠图标，许多学生/图形设计师会在业余时间这样做，只是为了锻炼身体，也许创建一个作品集。 你们觉得呢？    提交人    /u/NorthmanTheDoorman   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i7bmmd/the_bad_icons_of_most_open_source_apps/</guid>
       <pubDate>Wed, 22 Jan 2025 13:55:58 GMT</pubDate>
     </item>
@@ -27,7 +69,7 @@
       <pubDate>Wed, 22 Jan 2025 11:03:14 GMT</pubDate>
     </item>
     <item>
-      <title></title>
+      <title>针对开源维护者的可疑电子邮件 (gitsponsors dot com)</title>
       <link>https://www.reddit.com/r/opensource/comments/1i783hg/suspicious_emails_targeting_open_source/</link>
       <description><![CDATA[检查垃圾邮件过滤器中的电子邮件时，我发现一封声称来自 gitsponsors[.]com 的电子邮件。 看起来很多人也收到了它（&lt;- 此链接中也有电子邮件示例）。 总的来说，这似乎很可疑，我忽略了它，但在这里分享它，以防其他人收到了它而不知道该怎么做。 编辑：格式    提交人    /u/nicholashairs   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i783hg/suspicious_emails_targeting_open_source/</guid>
@@ -41,7 +83,7 @@
       <pubDate>Wed, 22 Jan 2025 09:59:00 GMT</pubDate>
     </item>
     <item>
-      <title></title>
+      <title>回顾我大一时的 ML 项目！</title>
       <link>https://www.reddit.com/r/opensource/comments/1i73tmy/revisit_of_my_freshman_year_ml_project/</link>
       <description><![CDATA[我目前是一名在香港学习数据科学的大二学生。我最近更新了我大一时做的机器学习项目的文档。它是关于仅根据用户名模式对香港 Instagram 用户进行分类，而无需外部元数据。  请随意查看，并欢迎提供反馈！  https://github.com/kuntiniong/HK-Insta-Identifier 使用此 streamlit 应用程序试用    提交人    /u/Low-Caregiver-2694   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i73tmy/revisit_of_my_freshman_year_ml_project/</guid>
@@ -67,48 +109,6 @@
       <description><![CDATA[页面：https://www.deepseek.com/ github：https://github.com/deepseek-ai/DeepSeek-R1 中国人工智能公司 DeepSeek 发布了他们的 r1 模型。 它是 MIT 许可下的免费开源模型 基准测试显示它的表现与 gpt-4o 和 claude-3.5 相当    提交人    /u/zeemouu   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i6xb1m/opensource_llm_with_o1_capabilities/</guid>
       <pubDate>Tue, 21 Jan 2025 23:57:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用哪些工具可以为组织成员和贡献者生成详细的 GitHub 贡献统计报告？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i6ups2/which_tools_to_use_to_generate_detailed_github/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i6ups2/which_tools_to_use_to_generate_detailed_github/</guid>
-      <pubDate>Tue, 21 Jan 2025 22:04:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>编码新手：对开源的兴趣达到顶峰</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i6suem/brand_new_to_coding_peak_interest_in_open_source/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i6suem/brand_new_to_coding_peak_interest_in_open_source/</guid>
-      <pubDate>Tue, 21 Jan 2025 20:47:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>以防万一它能帮助某人/给你一些想法：我构建（并开源）IGOR - 一个高度可扩展的跟踪平台。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i6mgqo/just_in_case_it_helps_someone_gives_you_some/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i6mgqo/just_in_case_it_helps_someone_gives_you_some/</guid>
-      <pubDate>Tue, 21 Jan 2025 16:26:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个想法：为开源开发者提供收入</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i6mcm4/an_idea_income_for_open_source_developers/</link>
-      <description><![CDATA[tl;dr 公司将有一种简单的方式为他们使用的开源项目捐款。 付款将根据每个开发人员的贡献分配给使用的项目及其开发人员。 如何： 盈利的公司将被提示在使用开源软件时支付公平份额 - 自愿。此过程将方便地实施到包管理器中：每年一次，他们在与包管理器交互时被要求填写一份简短的调查。如果您是一家盈利公司，则需要您支付公平的金额（建议的金额正在为您计算），作为回报，您会收到一个可以放在网站上的徽章。然后，基于绩效的算法将付款分配给所有参与的开源开发人员，基于他们对公司项目使用的软件包的贡献。因此，这种新算法将评估对开源软件包的所有贡献，进而评估每个软件包对最终用户项目的重要性。 示例： 当 FooBarSaaS 公司运行其软件包安装程序 yarn 来更新其 SaaS 应用程序时，yarn 会提示他们（每年一次）填写一份简短的调查问卷。由于他们的利润很高，仅此项目去年就为他们带来了 300 万美元的利润，因此他们被提示为当年支付 200 美元。他们决定超支并支付三倍的金额，从而为他们赢得了特殊的“2025 年黄金级开源支持者”称号徽章他们可以放在他们的网站上。 如果您有兴趣（或感到困惑😅），请在此处阅读完整想法：https://github.com/EOT-Projects/EOT-OpenSource 你怎么看？    提交人    /u/Easy-Peacy   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i6mcm4/an_idea_income_for_open_source_developers/</guid>
-      <pubDate>Tue, 21 Jan 2025 16:21:38 GMT</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://www.reddit.com/r/opensource/comments/1i6lxkz/does_anybody_know_a_great_opensource_discord_bot/</link>
-      <description><![CDATA[我正在寻找创建一个漂亮的人工智能图像生成器机器人（用于 discord），因为我不擅长编码，所以我需要一些东西来开始，问题是：我找不到一个，有什么建议吗？    提交人    /u/Do_I_Tech   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i6lxkz/does_anybody_know_a_great_opensource_discord_bot/</guid>
-      <pubDate>Tue, 21 Jan 2025 16:03:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找开源 ASP.NET Core 项目的合作伙伴</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i6if22/looking_for_collaborators_for_an_opensource/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i6if22/looking_for_collaborators_for_an_opensource/</guid>
-      <pubDate>Tue, 21 Jan 2025 13:20:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
