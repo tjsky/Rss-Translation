@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 24 Jan 2025 01:09:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2025 03:17:48 GMT</lastBuildDate>
+    <item>
+      <title>带键盘输入的 AutoCAD 替代品</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i8kuoa/autocad_alternative_w_keyboard_input/</link>
+      <description><![CDATA[我正在寻找一个开源的 AutoCAD 替代品，用于基本的 2D 绘图。有人向我推荐过 LibreCAD 和 QCAD，但我最喜欢的 AutoCAD 功能是工具的键盘热键。有人知道有类似功能的开源软件吗？Libre 和 Q 似乎没有。    提交人    /u/JMcDoubleR   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i8kuoa/autocad_alternative_w_keyboard_input/</guid>
+      <pubDate>Fri, 24 Jan 2025 02:18:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找合作伙伴：将 Micro OCPP 库移植到 STM32 控制器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i8kqg8/looking_for_collaborators_porting_micro_ocpp/</link>
+      <description><![CDATA[嗨，Redditors， 我目前正在开展一个令人兴奋的项目，将 Micro OCPP 库移植到 STM32 控制器上。这项工作的重点是使用 STM32 微控制器使电动汽车充电站高效地符合 OCPP 1.6 标准。 如果您有 STM32 开发、嵌入式系统或 OCPP 协议方面的经验，并且有兴趣合作，我很乐意为您提供专业知识。 该项目涉及：  了解 Micro OCPP 代码库。 使其适应 STM32 架构。 集成 UART 和以太网通信（用于 Wi-Fi 的 ESP32 也在筹备中）。  让我们共同努力，让电动汽车基础设施更易于访问和更强大！查看 GitHub repo 了解更多详情：MicroOCPP-on-STM32F4。 如果您有兴趣，请随时在此处回复或直接发信息给我。我们非常感谢您的想法和贡献！    提交人    /u/Spirited-Escape-8180   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i8kqg8/looking_for_collaborators_porting_micro_ocpp/</guid>
+      <pubDate>Fri, 24 Jan 2025 02:12:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>IEMidi - 用 C++ 构建的简单 MIDI 编辑器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1i8jovt/iemidi_simple_midi_editor_built_in_c/</link>
+      <description><![CDATA[IEMidi 一个使用 RtMidi、ImGui 和 RapidYaml 以 C++ 构建的轻量级 MIDI 编辑器。该应用程序的许多组件都是模块化的，并在单独的存储库中维护，您可以在此处找到：Interactive-Echoes GitHub。  目前正在探索将应用程序移植到 Linux，因为核心引擎已经支持它。     提交人    /u/mozahzah   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1i8jovt/iemidi_simple_midi_editor_built_in_c/</guid>
+      <pubDate>Fri, 24 Jan 2025 01:19:54 GMT</pubDate>
+    </item>
     <item>
       <title>哪个开源 UI 框架在美观度上与 Apple 的 SwiftUI/UIKit 最接近？</title>
       <link>https://www.reddit.com/r/opensource/comments/1i8esy0/what_opensource_ui_framework_is_the_closest_to/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[你好！ 您是否知道任何可以链接到网站/应用程序（WhatsApp 网页、Instagram...）以便在有新消息到达时显示通知的开源应用程序？ 不知道是否可能。 谢谢！    提交人    /u/Embody248   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1i7iof3/windows_app_to_check_messages_from_different/</guid>
       <pubDate>Wed, 22 Jan 2025 18:53:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>OSI 2025 年董事会：选举详情</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i7icil/osis_board_of_directors_in_2025_details_about_the/</link>
-      <description><![CDATA[  由    /u/opensourceinitiative  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i7icil/osis_board_of_directors_in_2025_details_about_the/</guid>
-      <pubDate>Wed, 22 Jan 2025 18:40:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于那些想要快速开始使用 ImGui 构建 C++ 跨平台应用程序的人来说。此库提供即插即用设置和预配置的入口点，使开发变得简单。欢迎所有贡献。（更多 C++ 项目在这里 https://github.com/Interactive-Echoes）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i7fp3h/for_those_wanting_to_quickly_start_building_c/</link>
-      <description><![CDATA[  由    /u/mozahzah  提交  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i7fp3h/for_those_wanting_to_quickly_start_building_c/</guid>
-      <pubDate>Wed, 22 Jan 2025 16:53:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>大多数开源应用程序的糟糕图标</title>
-      <link>https://www.reddit.com/r/opensource/comments/1i7bmmd/the_bad_icons_of_most_open_source_apps/</link>
-      <description><![CDATA[我当时正在 fossdroid 商店中徘徊，想用开源应用程序替换我的一些 gplay 应用程序。我遇到的一个问题是，50% 的开源应用程序的图标很糟糕，25% 的甚至没有图标，只有 25% 的图标还不错。 我可能比较肤浅，但我认为图标对于更广泛地采用应用程序非常重要，它是人们看到的第一件事。此外，在 PC 上，这个问题可能不大，因为很多应用程序（特别是在 Linux 中）都是在无需与图标交互的情况下启动的。但在 Android 上，图标的好坏/解释性直接决定了您可以跟踪和打开它的速度。 抱怨够多了，现在来谈谈可能的解决方案，我的女朋友是一名平面设计师，我让她制作了几个图标捐赠给我使用的应用程序的开发人员，我们给了他们很多变体，他们选择了他们喜欢的那个，并告诉我们要调整什么。没什么特别的，她花了不到半个小时，对我们来说这是一个有趣的活动。显然这不是一个专业的工作，但对于一个目前没有资源委托专业人士的项目来说，总比没有好。 我觉得如果人们有一种简单的方式可以捐赠图标，许多学生/图形设计师会在业余时间这样做，只是为了锻炼身体，也许创建一个作品集。 你们觉得呢？    提交人    /u/NorthmanTheDoorman   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1i7bmmd/the_bad_icons_of_most_open_source_apps/</guid>
-      <pubDate>Wed, 22 Jan 2025 13:55:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
