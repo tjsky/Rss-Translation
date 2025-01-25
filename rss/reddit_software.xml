@@ -4,7 +4,7 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的内容。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Sat, 25 Jan 2025 18:18:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 21:12:57 GMT</lastBuildDate>
     <item>
       <title>我正在构建一个由社区驱动的最新欧洲科技项目列表！</title>
       <link>https://www.reddit.com/r/software/comments/1i9sob6/im_building_an_uptodate_communitydriven_list_of/</link>
@@ -22,7 +22,7 @@
     <item>
       <title>我怎样才能不使用 AutoHotKey 来做到这一点？</title>
       <link>https://www.reddit.com/r/software/comments/1i9m9mt/how_can_i_do_this_withour_autohotkey/</link>
-      <description><![CDATA[大家好。在工作中，我需要始终以相同的顺序按下特定的键盘键。我开始寻找解决方案，先在家里尝试，然后再在工作中执行。最后，我使用了 AutoHotkey，它成功了。但是，我需要向 IT 部门请求许可才能在工作中安装 AutoHotKey。所以，我在想是否有办法使用 Windows 11 上预装的其他程序获得类似的快速结果。也许这里有人知道得更多。 这是 AutoHotKey 脚本： +q:: { ; Shift + Q if !WinExist(&quot;我希望 AutoHotKey 打开的打开选项卡的名称&quot;) { MsgBox(&quot;未找到特定窗口&quot;) ;错误消息 return &gt; WinActivate(&quot;我希望 AutoHotKey 打开的打开选项卡的名称&quot;) MouseMove(624, 184) Click() Send(&quot;!c&quot;) ; Alt + C Sleep(3000) currentDate := A_DD . &quot;-&quot; . A_MM . &quot;-&quot; . A_YYYY 循环 14 { if (A_Index = 3 || A_Index = 14) { Send(currentDate) } else { Send(&quot;{Tab}&quot;)  Sleep(100)   在此先感谢所有愿意帮助我的人    提交人    /u/Ocrim-Issor   [链接] [评论]]]></description>
+      <description><![CDATA[大家好。在工作中，我需要始终以相同的顺序按下特定的键盘键。我开始寻找解决方案，先在家里尝试，然后再在工作中执行。最后，我使用了 AutoHotkey，它成功了。但是，我需要向 IT 部门请求许可才能在工作中安装 AutoHotKey。所以，我在想是否有办法使用 Windows 11 上预装的其他东西获得类似的快速结果。也许这里有人知道得更多。 这是 AutoHotKey 脚本： +q:: { ; Shift + Q if !WinExist(&quot;我希望 AutoHotKey 打开的打开选项卡的名称&quot;) { MsgBox(&quot;未找到特定窗口&quot;) ;错误消息 return &gt; WinActivate(&quot;我希望 AutoHotKey 打开的打开选项卡的名称&quot;) MouseMove(624, 184) Click() Send(&quot;!c&quot;) ; Alt + C Sleep(3000) currentDate := A_DD . &quot;-&quot; . A_MM . &quot;-&quot; . A_YYYY 循环 14 { if (A_Index = 3 || A_Index = 14) { Send(currentDate) } else { Send(&quot;{Tab}&quot;)  Sleep(100)   在此先感谢所有愿意帮助我的人    提交人    /u/Ocrim-Issor   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1i9m9mt/how_can_i_do_this_withour_autohotkey/</guid>
       <pubDate>Sat, 25 Jan 2025 12:50:13 GMT</pubDate>
     </item>
