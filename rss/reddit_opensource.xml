@@ -4,13 +4,34 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 28 Jan 2025 18:20:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 21:14:36 GMT</lastBuildDate>
     <item>
-      <title>用于构建 LLM 输出的五大开源库</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ic87gu/top_5_open_source_libraries_to_structure_llm/</link>
-      <description><![CDATA[精选了前 5 个开源库列表，使 LLM 输出更加可靠和结构化，使其更适合生产：  Instructor 简化了引导 LLM 生成结构化输出的过程，并具有内置验证功能，非常适合简单的用例。 Outlines 擅长创建可重复使用的工作流程并利用高级提示来获得一致的结构化输出。 Marvin 使用 Pydantic 提供强大的模式验证，确保数据可靠性，但它依赖于来自 LLM 的干净输入。 Guidance 提供高级模板和工作流程编排，使其成为需要高精度的复杂任务的理想选择。 Fructose 非常适合无缝数据提取和转换，特别是在 API 响应和数据管道中。  Dive深入了解代码示例，以了解最适合您组织的内容：https://hub.athina.ai/top-5-open-source-libraries-to-structure-llm-outputs/    提交人    /u/Sam_Tech1   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ic87gu/top_5_open_source_libraries_to_structure_llm/</guid>
-      <pubDate>Tue, 28 Jan 2025 18:19:27 GMT</pubDate>
+      <title>Signal 为链接设备添加加密消息历史同步功能</title>
+      <link>https://www.reddit.com/r/opensource/comments/1icbu3u/signal_adds_encrypting_message_history_sync_for/</link>
+      <description><![CDATA[Signal 正在推出一项新功能，允许用户在将主设备链接到新桌面或 iPad 时传输消息历史记录。以前，只有新消息会同步到链接的设备，但现在用户可以随身携带聊天记录和最多 45 天的媒体 - 同时保持 Signal 严格的端到端加密。 此功能目前处于测试阶段，需要大量工程工作才能确保消息在整个传输过程中保持私密。与许多其他将用户数据存储在集中式服务器上的消息平台不同，Signal 通过确保消息历史记录只能在用户的设备上访问来优先保护隐私。这对在链接设备之间同步消息同时保持 Signal 最小数据暴露的核心原则提出了独特的挑战。 https://cyberinsider.com/signal-adds-encrypting-message-history-sync-for-linked-devices/    提交人    /u/KingSash   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1icbu3u/signal_adds_encrypting_message_history_sync_for/</guid>
+      <pubDate>Tue, 28 Jan 2025 20:45:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Signal 为链接设备添加加密消息历史同步功能</title>
+      <link>https://www.reddit.com/r/opensource/comments/1icbu35/signal_adds_encrypting_message_history_sync_for/</link>
+      <description><![CDATA[Signal 正在推出一项新功能，允许用户在将主设备链接到新桌面或 iPad 时传输消息历史记录。以前，只有新消息会同步到链接的设备，但现在用户可以随身携带聊天记录和最多 45 天的媒体 - 同时保持 Signal 严格的端到端加密。 此功能目前处于测试阶段，需要大量工程工作才能确保消息在整个传输过程中保持私密。与许多其他将用户数据存储在集中式服务器上的消息平台不同，Signal 通过确保消息历史记录只能在用户的设备上访问来优先保护隐私。这对在链接设备之间同步消息同时保持 Signal 最小数据暴露的核心原则提出了独特的挑战。 https://cyberinsider.com/signal-adds-encrypting-message-history-sync-for-linked-devices/    提交人    /u/KingSash   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1icbu35/signal_adds_encrypting_message_history_sync_for/</guid>
+      <pubDate>Tue, 28 Jan 2025 20:45:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>看来 Limited Run Games 违反了 PCSX 的 GPL 许可证来发布 Tomba！特别版</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ica0e7/seems_like_limited_run_games_violated_the_gpl/</link>
+      <description><![CDATA[  由    /u/DaemonBatterySaver  提交  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ica0e7/seems_like_limited_run_games_violated_the_gpl/</guid>
+      <pubDate>Tue, 28 Jan 2025 19:31:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>🚀 Strava Statistics v0.4.0 已发布！添加了本地化、PWA 支持等</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ic9o8k/strava_statistics_v040_released_added/</link>
+      <description><![CDATA[嗨 r/opensource ！ 我很高兴地宣布 Strava Statistics `v0.4.0` 已于本周早些时候发布。  Strava Statistics 是一个自托管的 Web 应用程序，旨在为您提供更好的 Strava 统计数据。   示例：https://strava-statistics.robiningelbrecht.be/ GitHub：https://github.com/robiningelbrecht/strava-statistics  警告 升级前请务必备份数据库。此版本具有从 v0.3.x 到 v0.4.0 的有效迁移路径，但由于后端进行了大规模改造，所以谨慎行事总比事后后悔好，对吧？😎 v0.4.0 中的新功能和改进：  添加了 PWA 支持。Web 应用程序现在可以安装在移动设备上 对后端进行了重大改造，应能减少 50% 的资源使用量 添加了本地化和翻译。 改进了跑步和步行活动的统计数据 添加了内部调度程序，使外部 cron 作业变得过时 修复了搜索、过滤和排序概览时的几个问题 改进了错误消息  Plannen 功能：https://github.com/robiningelbrecht/strava-statistics/issues 与往常一样，感谢您的反馈，我期待更多功能请求！    提交人    /u/frogfuhrer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ic9o8k/strava_statistics_v040_released_added/</guid>
+      <pubDate>Tue, 28 Jan 2025 19:18:32 GMT</pubDate>
     </item>
     <item>
       <title>是什么让人工智能模型“开源”？</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[  由    /u/ehsangd  提交  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ibxrvt/i_rebuilt_a_cloud_download_manager_with_blazor/</guid>
       <pubDate>Tue, 28 Jan 2025 09:24:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Eric Migicovsky] 我们为何要重新推出 Pebble</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ibm561/eric_migicovsky_why_were_bringing_pebble_back/</link>
-      <description><![CDATA[        由    /u/berryer  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ibm561/eric_migicovsky_why_were_bringing_pebble_back/</guid>
-      <pubDate>Mon, 27 Jan 2025 22:29:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>查看 Pebble 智能手表的代码 - Google 开源博客</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ibkfma/see_the_code_that_powered_the_pebble_smartwatches/</link>
-      <description><![CDATA[       由    /u/ssddanbrown  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ibkfma/see_the_code_that_powered_the_pebble_smartwatches/</guid>
-      <pubDate>Mon, 27 Jan 2025 21:20:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个带有动画和程序节点的免费开源通用 2D 图形编辑器。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ibhpeb/i_made_a_free_and_open_source_universal_2d/</link>
-      <description><![CDATA[        由    /u/flabbet  提交  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ibhpeb/i_made_a_free_and_open_source_universal_2d/</guid>
-      <pubDate>Mon, 27 Jan 2025 19:29:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
