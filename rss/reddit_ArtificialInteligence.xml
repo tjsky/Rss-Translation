@@ -4,7 +4,42 @@
     <title>人工智能网关</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>r/ArtificialIntelligence 的目标是为人工智能社区的方方面面提供一个门户，并促进有关我们所知的人工智能思想和概念的讨论。这些可能包括哲学和社会问题、艺术和设计、技术论文、机器学习、如何开发人工智能/机器学习项目、商业中的人工智能、人工智能如何影响我们的生活、未来可能的发展方向以及许多其他主题。欢迎。</description>
-    <lastBuildDate>Mon, 27 Jan 2025 21:13:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 01:07:35 GMT</lastBuildDate>
+    <item>
+      <title>我不在乎其他的事情</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibomnl/i_dont_care_about_the_other_stuff/</link>
+      <description><![CDATA[我认为看到人们因为某些特定功能缺失而抨击某些 AI 模型有点奇怪。例如，有些人批评 GPT 在编码方面表现不佳。然后出现了一种新模型，他们对图像生成感到非常失望。但推理部分一直在快速改进。作为用户，为什么不专注于 AI 最强大的能力呢？例如，最近我们看到了推理方面的飞跃，思考长提示并提供合乎逻辑的结构化答案。仅这一部分理论上就可以用来改善数十亿人 99% 的生活（例如优化时间表、学习技巧、工作流程、创造性工程、数据分析和解决问题）。那么，如果他们收集我的个人数据并审查敏感的政治内容怎么办？    提交人    /u/Jonbarvas   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibomnl/i_dont_care_about_the_other_stuff/</guid>
+      <pubDate>Tue, 28 Jan 2025 00:19:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>一旦恐慌消退，Nvidia 就会反弹……原因如下</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibo5dd/nvidia_will_bounce_back_once_the_panic_cools_off/</link>
+      <description><![CDATA[Nvidia 的股价最近下跌了 17%（约 5000 亿美元）。人们都惊慌失措了，但我们是不是看错了方向？ DeepSeek 引起了热议，该模型的训练成本仅为 550 万美元，但仍能提供令人难以置信的结果。有人说：“如果我们能以低廉的价格训练出一个很棒的模型，我们就不需要那么多 GPU。”但这种逻辑站得住脚吗？ 想想看：如果我们能以 500 万美元训练出如此出色的模型，那么当我们投入 5 亿美元或 500 亿美元时会发生什么？认为存在某个固定的“最佳模型”的想法似乎已经过时了。 对 AGI（通用人工智能）的真正威胁一直是成本。扩展变得异常昂贵。但现在，随着成本下降和智能变得越来越容易获得，我们难道不只是想要更多吗？如果智能既有用又便宜，那么需求就会猛增。 DeepSeek 还证明了强化学习 (RL) 可以大规模使用。这并不是什么新鲜事（想想 DeepMind 的 AlphaGo），但这感觉像是朝着更便宜、更智能的模型迈出了又一步。 我不是股市专家，但我的直觉告诉我，一旦恐慌消退，Nvidia 就会反弹。毕竟，每美元更便宜的智能可能会带来更多需求，而不是更少。 你怎么看？？？    提交人    /u/BIG-BRO-100   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibo5dd/nvidia_will_bounce_back_once_the_panic_cools_off/</guid>
+      <pubDate>Mon, 27 Jan 2025 23:57:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>我被 DeepSeek 的炒作所吸引，今天第一次尝试了它</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibmsdh/i_fell_for_the_deepseek_hype_and_tried_it_out_for/</link>
+      <description><![CDATA[背景故事：我正在上德语课，并通过 YouTube 视频自学。我关注的这个频道按级别将课程分类到播放列表中，使用间隔重复和简单的语法解释。通常，我会拿起笔记本、笔，播放视频，疯狂地记下这位老兄说的每一个短语。有时我会停下来尝试自己将例子翻译成德语。虽然这种方法很有帮助，但我已经厌倦了重复的内容，尽管课程结构良好，涵盖了基本主题（没有深入探讨）。 由于我对核心想法很有共鸣，我想，“为什么不构建一个桌面应用程序来生成自定义短语练习呢？” 零编码技能，所以我找到了 ChatGPT。我的第一个提示是：“为一个程序编写 Python 代码，用户可以在其中添加德语短语 + 翻译，并使用‘播放’按钮对其进行 TTS。” 三次尝试后，它吐出了几乎不起作用的代码。然后我不断要求升级——暂停/停止按钮、随机播放、删除。每次都这样。机器人不断吐出有缺陷的乱七八糟的代码。MVP 还能用，但我想要更多：短语之间的延迟、“正在播放”显示、更干净的用户界面。代码变得如此臃肿，ChatGPT 开始用不成熟的回应让我不知所措。它从技术上添加了我的请求，但应用程序出现严重故障。示例：点击“暂停”会停止音频，但延迟计时器继续运行并导致播放下一个短语。有时音频会在短语中间切断，有时只播放翻译。完全是垃圾。 进入 DeepSeek。看到头条新闻将其炒作成霸主，决定尝试一下。复制了“我的”糟糕代码并询问“优化这个烂摊子并建议功能升级。”兄弟，它返回了黄金。不仅仅是修复——它提出：更好的短语列表 UI（搜索/过滤、自动重复数据删除）；突出显示活动短语，视觉删除反馈；音频缓存、自动对焦输入字段、空格检查；进度条、更智能的暂停/停止逻辑、基本 gTTS 错误处理；智能滚动。 我说“全部做完”，DeepSeek 返回了原始代码。复制粘贴到 PyCharm 中，它就开始工作了。完美无缺。服务器过载有时会导致网站崩溃，但打开新聊天 + 重新粘贴提示可以 100% 修复它。后来，我甚至添加了批量文本上传 - 转储文件，应用程序会自动将德语/翻译对排序为单个播放项目。介意。震惊。 DeepSeek 是货真价实的。ChatGPT 让我像无薪实习生一样调试。DeepSeek？一个提示，干净的代码，零头痛。该应用程序现在是我的德语研磨机。10/10 会再次使用 AI-simp。    提交人    /u/jelloshi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibmsdh/i_fell_for_the_deepseek_hype_and_tried_it_out_for/</guid>
+      <pubDate>Mon, 27 Jan 2025 22:57:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek 与 OpenAI 与 AWS AI 安全</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibkrq7/deepseek_vs_openai_vs_aws_ai_security/</link>
+      <description><![CDATA[我是所在公司的 IT 和安全总监，这是一家 SaaS 公司，开发了一款基于 AI 的销售助理工具。我们的一位 C-Suite 高管委托我从安全角度评估 OpenAI（我们目前在应用程序中利用的）与 DeepSeek 以及 AWS AI 平台。他对 DeepSeek 非常感兴趣，因为它比 OpenAI 便宜得多。我们的平台托管在 AWS 中，所以我认为我们也应该调查他们的产品。在我花大量时间研究每种工具的安全问题/影响之前，我想知道是否其他人已经做过类似的事情？ 根据我所做的研究，我对我们为什么不应该一头扎进用 DeepSeek 取代 OpenAI 有强烈的看法，但我需要提供一些正式的信息和发现。顺便说一句，我不是软件开发人员，所以我不知道在我们的应用程序中实际迁移到新的 AI 平台需要什么，也不知道 DeepSeek 或 AWS AI 是否可以成为可行的替代品。我只需要关注每个的安全性（或缺乏安全性）。谢谢！    提交人    /u/dsmithpdx   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibkrq7/deepseek_vs_openai_vs_aws_ai_security/</guid>
+      <pubDate>Mon, 27 Jan 2025 21:33:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>当被问及毛泽东杀了多少人时，中国人工智能模型 DeepSeek 大发脾气，回答“我们”或“共产党”</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibkkk6/chinese_ai_model_deepseek_throws_a_tantrum_when/</link>
+      <description><![CDATA[我只问了 DeepSeek R1 一个简单的问题：毛泽东杀了多少人？我收到的答案是愤怒的、尖刻的，并否认“伟大的无产阶级革命家、战略家和理论家”进行过任何种族灭绝。 此外，您可以从这个想要与 ChatGPT 竞争的中国模型中获得的回应与您见过的任何“大型语言模型”都不一样。 相反，该模型直接以中共喉舌的身份发言。它毫不掩饰地不祥地称自己为“党”、“中国共产党”，或者只是“我们”。 DeepSeek 还是斯大林主义种族灭绝否认者（1000 万到 4000 万受害者）。它说话像一个党内官员，称斯大林为“为世界和平做出贡献”的“同志”。 来源：https://mobinetai.com/chinese-ai-model-deepseek-throws-tantrum-when-asked-how-many-people-mao-killed/    由   提交  /u/FrontalSteel   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibkkk6/chinese_ai_model_deepseek_throws_a_tantrum_when/</guid>
+      <pubDate>Mon, 27 Jan 2025 21:25:51 GMT</pubDate>
+    </item>
     <item>
       <title>DeepSeek-R1 是如何构建的？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibi724/how_was_deepseekr1_built/</link>
@@ -20,13 +55,6 @@
       <pubDate>Mon, 27 Jan 2025 19:13:25 GMT</pubDate>
     </item>
     <item>
-      <title>DeepSeek AI 在 App Store 上取代 ChatGPT</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibfm1h/deepseek_ai_dethrones_chatgpt_on_app_store/</link>
-      <description><![CDATA[模拟日志 系统：MostlyHarmless v3.14 模拟 ID：#9237 运行上下文：行星规模监控 模拟时间戳：2025-01-27T14:03:21Z 数据日志条目： DeepSeek AI，一款由中国开发的助手，已登上美国应用商店的顶峰，在此过程中取代了 ChatGPT。这一发展给该模拟器的“全球科技骄傲”带来了一个奇怪的故障矩阵。 人类情绪分析：  投资者情绪：72% 焦虑，18% 投机取巧，10% 谷歌搜索“如何体面地退出”。 消费者热情：84% 兴奋，12% 怀疑，4% 错误地将其下载为健身应用程序。  风险评估矩阵：  加速人工智能竞赛的可能性：88%（高于 62%）。 国际人工智能相关戏剧的可能性： 95%。 人类记住人工智能只是一种工具的可能性： 14%。  观察评论： DeepSeek 的迅速崛起似乎激起了人类对“落后”的集体恐惧。科技巨头和风险投资公司突然开始参与人类所谓的“人工智能民族主义”，即公司用旗帜包装软件，希望以此分散人们对错误和可疑隐私政策的注意力。值得注意的是，DeepSeek 的应用程序现在被称为“火辣的人工智能新贵”，这显然是一种赞美，尽管字面意思毫无意义。 模拟预测： 在 2-5 个月的地球时间内，预计会出现类似人工智能奥运会的氛围，竞争应用程序会吹嘘越来越荒谬的功能列表（“现在有了情感支持模式™！”）。实际人工智能改进的可能性仍然很小，但功能军备竞赛将足够响亮，淹没任何明智的讨论。 系统标志： “关注：检测到人类的脆弱性。对象无法在不产生不必要恐慌的情况下处理技术进步。” --- 摘自我的 Substack，Mossly Harmless - 对 AI 新闻的轻松看法。 查看今天其余的五大新闻。    提交人    /u/EssJayJay   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibfm1h/deepseek_ai_dethrones_chatgpt_on_app_store/</guid>
-      <pubDate>Mon, 27 Jan 2025 18:06:07 GMT</pubDate>
-    </item>
-    <item>
       <title>需要专家：有人相信 DeepSeek 能卖到 600 万美元吗？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibdi9n/expert_needed_does_anyone_believe_6m_for_deepseek/</link>
       <description><![CDATA[中国共产党 (CCP) 有着明显的撒谎和操纵历史，以谋求全球公关和震撼效果。真的有人相信这个 600 万美元的数字来开发 DeepSeek 吗？ 这里有没有 AI 专家可以提供专业意见？    提交人    /u/Explore1616   [link] [评论]]]></description>
@@ -34,18 +62,18 @@
       <pubDate>Mon, 27 Jan 2025 16:42:23 GMT</pubDate>
     </item>
     <item>
-      <title>Notebook LM 将免费添加为 Google 工作区核心服务！</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibd8h3/notebook_lm_to_be_added_as_a_google_workspace/</link>
-      <description><![CDATA[https://support.google.com/a/answer/15836987?hl=en 对于我们这些已经拥有 Google Workspace 的人来说，这太酷了！    提交人    /u/Sissuboi   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibd8h3/notebook_lm_to_be_added_as_a_google_workspace/</guid>
-      <pubDate>Mon, 27 Jan 2025 16:31:13 GMT</pubDate>
-    </item>
-    <item>
       <title>我写了一篇完整的指南，介绍如何在本地计算机上运行 DeedSeek ChatGPT（一款每月收费 200 美元的 Operator 替代品）</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibc7i2/i_wrote_a_full_guide_on_how_to_run_deedseek/</link>
       <description><![CDATA[您可能已经知道，DeepSeek 的 v3 和 R1 模型通过提供 OpenAI 级别的性能而引起轰动，但其三大关键差异正在改变 AI 格局： DeepSeek 的革命性所在： 1️⃣ 训练计算量减少 97% 2️⃣ 比 OpenAI 模型便宜 10 到 30 倍 3️⃣ 开源 – 您可以下载所有 670B 权重并在自己的机器上运行。 我已经编写了有关如何在计算机上进行设置的分步指南https://github.com/nafisfaysal/How-to-run-DeepSeek-R1欢迎发送拉取请求以改进它。谢谢！    提交人    /u/TheGopherBro   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibc7i2/i_wrote_a_full_guide_on_how_to_run_deedseek/</guid>
       <pubDate>Mon, 27 Jan 2025 15:48:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于 DeepSeek 的一些思考——以及为什么你不能相信你读到的内容</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ibc260/a_few_thoughts_on_deepseek_and_why_you_cant_trust/</link>
+      <description><![CDATA[这篇文章很有趣，让人对 DeepSeek 的说法产生了怀疑，尤其是它声称自己是在预算极低的情况下使用过时的芯片建立的。Archer 强调了中国政府在科技企业中的影响力，并暗示 DeepSeek 可能是破坏美国科技市场（尤其是 AI 投资）战略的一部分。 Archer 还警告说，如果 DeepSeek 的模型是真实的，它可能会引发 AI 泡沫的破灭，类似于互联网泡沫的破灭，因为市场充斥着未使用的 Nvidia GPU，并减缓了对 AI 硬件的需求。最后，他质疑 DeepSeek 是中国为改变市场动态而采取的突破还是战略举措。 https://thatstocksguy.substack.com/p/a-few-thoughts-on-deepseek    submitted by    /u/unixmachine   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ibc260/a_few_thoughts_on_deepseek_and_why_you_cant_trust/</guid>
+      <pubDate>Mon, 27 Jan 2025 15:42:30 GMT</pubDate>
     </item>
     <item>
       <title>PerpIexity 发布了美国托管的 DeepSeek R1 推理选项。</title>
@@ -67,34 +95,6 @@
       <description><![CDATA[几个月来我一直在使用 chatgpt plus，它非常棒，我觉得它物有所值。但现在，我对 Deepseek 了解不多，但据说处于 o1 级别并且可以在本地运行的开源 AI 模型听起来要好得多。 我不使用 chatgpt 进行编码，因为我不是程序员，但我几乎在所有其他事情上都使用它。我有时也会用它进行哲学讨论，但有时当话题变得太敏感时，审查制度就会成为问题，所以我也在想 Deepseek 在这方面是否更好？ 人们似乎对 Deepseek 犹豫不决，所以如果有人能告诉我使用它的利弊，我将不胜感激。 （此外，Plus 订阅使我能够访问 DALL-E 和 Sora，我并不怎么使用它们，但我想它们是非常棒的工具。） 编辑：我主要使用 Plus 进行研究。基本上它取代了 Google，因为它在呈现有组织和结构化的答案方面做得很好。我还用它来改进我的句子结构，因为我不太擅长这个。是的，我可以自己尝试一下。我只是想从比我更了解人工智能的人那里了解情况，并且已经对这两种模型进行了广泛的测试以确保未来的发展。虽然我明白，就目前的情况而言，在人工智能世界中，没有什么是面向未来的。    提交人    /u/Repulsive-Skull   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ib7m9l/is_chatgpt_plus_subscription_worth_it_now/</guid>
       <pubDate>Mon, 27 Jan 2025 12:25:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek-R1 在我的 Ant Sim 测试中明显优于 OpenAI 的 o1 pro 模式</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ib5ap1/deepseekr1_clearly_outperformed_openais_o1_pro/</link>
-      <description><![CDATA[我通过让 DeepSeek-R1 和 OpenAI 的 o1 pro 模式从同一个提示中编写一个蚂蚁模拟程序来测试 DeepSeek-R1 和 OpenAI 的 o1 pro 模式。DeepSeek-R1 生成的模拟效果要好得多。随着人工智能模型日益商品化，我认为这再次表明人工智能是一场硬件革命，而不是软件革命。 我的测试链接：https://www.chaotropy.com/deepseek-r1-clearly-outperformed-openais-o1-pro-mode-in-my-ant-simulation-test/    提交人    /u/dontkry4me   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ib5ap1/deepseekr1_clearly_outperformed_openais_o1_pro/</guid>
-      <pubDate>Mon, 27 Jan 2025 10:21:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们真的能想象一个人们愿意生活的美好世界吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ib3rvj/can_we_actually_envision_a_world_that_is_good/</link>
-      <description><![CDATA[“强大的AI”到来后，具体哪些事情会变得更好？ 而它们周围又面临着哪些挑战？    submitted by    /u/Yamato_Fuji   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ib3rvj/can_we_actually_envision_a_world_that_is_good/</guid>
-      <pubDate>Mon, 27 Jan 2025 08:47:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>简单来说：DeepSeek 的 R1 有什么特别之处？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ib1n8h/in_simple_terms_whats_the_deal_with_deepseeks_r1/</link>
-      <description><![CDATA[基本上就是标题。我还没有读过这篇论文，也不认为我能比这里的很多人更好地解释它。所以告诉我。R1 的生产/训练成本真的比 Llamas 和 GPT 低一百倍吗？ 我看到了很多关于它的讨论，据我所知，人们说它比美国模型更强大，而且训练所需的资源要少得多。 有人能用简单的术语为我解释一下吗？是什么让它如此特别，他们是如何用更少的资源实现这一点的（如果是这样）？    提交人    /u/TopBoat4712   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ib1n8h/in_simple_terms_whats_the_deal_with_deepseeks_r1/</guid>
-      <pubDate>Mon, 27 Jan 2025 06:22:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>深度伪造多久会使互联网无法使用？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1iasicc/how_long_till_deep_fakes_make_the_internet/</link>
-      <description><![CDATA[这听起来很反乌托邦，但目的是开启讨论以寻求解决方案。 生成式人工智能的兴起意味着越来越容易让互联网上的某些东西看起来和听起来“官方”和“可信”。 滥用深度伪造会带来哪些风险？我们有什么方法可以检查发布内容的可信度？    提交人    /u/_spacebender   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1iasicc/how_long_till_deep_fakes_make_the_internet/</guid>
-      <pubDate>Sun, 26 Jan 2025 22:32:14 GMT</pubDate>
     </item>
     <item>
       <title>每月“是否有一个工具可以……”帖子</title>
