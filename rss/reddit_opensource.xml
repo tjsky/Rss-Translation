@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有开源相关的 subreddit（就此而言，我们引用了此处开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 31 Jan 2025 01:08:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2025 02:05:08 GMT</lastBuildDate>
+    <item>
+      <title>NLLBTranslateSystem - 本地运行的 Google 翻译替代机器翻译系统</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ie3x7j/nllbtranslatesystem_an_alternative_machine/</link>
+      <description><![CDATA[为什么我制作了这个捆绑翻译系统 Google Translate API 都很方便使用，但有些人担心“隐私”，因为必须将用户数据发送到远程才能进行机器翻译工作。 完全免费和开源。 优势  使用 NLLB-200，一种很好的机器翻译模型 提供即用型 GUI 应用程序。 从屏幕截图中抓取文本，然后直接翻译 与 LibreTranslate 相比，该系统更易于设置 完全免费和开源  链接  NLLBTranslator --&gt; NLLBTranslator NLLBTranslateServer --&gt; NLLBTranslateServer 工作演示 --&gt; NLLBTranslator+NLLBTranslateServer  使用指南 NLLBTranslateServer  sudo chmod 777 path/to/NTS_darwin 允许可执行文件运行并获取 nllb 文件 xattr -cr path/to/NTS_darwin 消除 Apple Signature 警告 ./NTS_darwin 启动服务器  NLLBTranslator  解压并将应用拖到应用程序文件夹 xattr -cr path/to/nllbtranslator.app 消除 Apple Signature 警告 允许应用在设置中弹出通知     由   提交  /u/Desperate-Sound-5977   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ie3x7j/nllbtranslatesystem_an_alternative_machine/</guid>
+      <pubDate>Fri, 31 Jan 2025 01:56:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求建议：ISO认证和培训公司你们使用什么平台？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ie3bpd/seeking_advice_what_platforms_do_you_use_for_iso/</link>
+      <description><![CDATA[大家好， 我在一家提供 ISO 认证和培训课程的公司工作，我想从类似行业的人那里了解你们如何实现运营数字化。 我对各种平台都感兴趣——任何有助于简化流程的平台，从自动化到 LMS、CRM、电子商务和认证跟踪。具体来说，我很想了解：  用于管理课程的学习管理系统 (LMS) 用于处理客户和培训记录的 CRM 减少手动工作的自动化工具 用于颁发和跟踪认证的平台 用于销售课程或相关服务的电子商务解决方案  无论您使用开源还是付费解决方案，我都想了解哪些方法对您有用（或无用）。任何建议或经验都将不胜感激！ 提前致谢！    提交人    /u/cristake007   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ie3bpd/seeking_advice_what_platforms_do_you_use_for_iso/</guid>
+      <pubDate>Fri, 31 Jan 2025 01:27:32 GMT</pubDate>
+    </item>
     <item>
       <title>Shiloh 正在寻找一位开源微影响者</title>
       <link>https://www.reddit.com/r/opensource/comments/1ie2xft/shiloh_is_looking_for_an_open_source/</link>
@@ -36,7 +50,7 @@
     <item>
       <title>提升您的提交水平：将 Quake 和 UT 怀旧风格带入您的编码中！</title>
       <link>https://www.reddit.com/r/opensource/comments/1idwz1c/level_up_your_commits_bring_quake_ut_nostalgia_to/</link>
-      <description><![CDATA[大家好！ 如果您曾经花太多时间玩 Quake 或 Unreal Tournament，这里有一个有趣的方式将怀旧之情带入您的编码日常工作中。我整理了“unreal-git-hook”，这是一组自定义 Git 钩子，每当您提交或合并时，它们都会播放那些标志性的游戏内感叹号！ - 当您提交 (git commit) 时，您会听到史诗般的台词，如“Godlike”、“Monster Kill”或“Rampage”，具体取决于您当天提交的次数。计数器每天早上重置 - 有点像重生！ - 当您合并 (git merge) 时，您会随机听到“Impressive”或“Perfect”。 总共有 15 种不同的声音，在不同的提交计数时触发。把它当作是那些马拉松式编码过程中让您保持精力充沛的小礼物 — — 也是对我们都喜爱的那些老式竞技场射击游戏的甜蜜致敬。 编码愉快！ https://github.com/dmayboroda/unreal-git-hook    提交人    /u/davidvroda   [link] [评论]]]></description>
+      <description><![CDATA[大家好！ 如果您曾经花太多时间玩 Quake 或 Unreal Tournament，这里有一个有趣的方式将怀旧之情带入您的编码程序中。我整理了“unreal-git-hook”，这是一组自定义 Git 钩子，每当您提交或合并时，它们都会播放那些标志性的游戏内感叹号！ - 当您提交 (git commit) 时，您会听到史诗般的台词，如“Godlike”、“Monster Kill”或“Rampage”，具体取决于您当天提交的次数。计数器每天早上重置 - 有点像重生！ - 当您合并 (git merge) 时，您会随机听到“Impressive”或“Perfect”。 总共有 15 种不同的声音，在不同的提交计数时触发。把它当作是那些马拉松式编码过程中让您保持精力充沛的小礼物 — — 也是对我们都喜爱的那些老式竞技场射击游戏的甜蜜致敬。 编码愉快！ https://github.com/dmayboroda/unreal-git-hook    提交人    /u/davidvroda   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1idwz1c/level_up_your_commits_bring_quake_ut_nostalgia_to/</guid>
       <pubDate>Thu, 30 Jan 2025 20:42:44 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1id8rba/reddit_scraper_that_counts_how_many_posts_a_user/</guid>
       <pubDate>Thu, 30 Jan 2025 00:04:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mathesar 是一款类似电子表格的 DB 工具，目前处于测试阶段，发布版本为 v0.2.0。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1id746f/mathesar_spreadsheetlike_db_tool_is_now_in_beta/</link>
-      <description><![CDATA[嗨 /r/opensource，  我从事一个名为 Mathesar 的项目，我们刚刚发布了 0.2.0，这是我们的初始测试版本！这标志着我们从 alpha 过渡到 beta，这意味着该项目现在更加稳定，经过了全面测试，我们可以放心地说它已准备好与生产 PostgreSQL 数据库一起使用。  如果这是您第一次听说 Mathesar：我们是一个直观、开源、类似于电子表格的 PostgreSQL 数据库 UI。Mathesar 使用和操作 Postgres 模式、主键、外键、约束和数据类型。例如：“关系”在我们的 UI 中是数据库中的外键。我们尝试尽可能坚持 Postgres 范例，而不添加我们自己的自定义抽象。  你不应该“学习 Mathesar”；而是应该通过使用 Mathesar 来了解有关 Postgres 的更多信息。 我们的功能包括：  连接到现有的 Postgres 数据库，或从头开始创建一个新的数据库。 使用 Postgres 角色和权限进行访问控制。 与您的数据库以及 Postgres 生态系统中的数千种其他工具和谐地协同工作。 轻松创建和更新 Postgres 模式和表。 使用我们类似电子表格的界面来查看、创建、更新和删除表记录。 过滤、排序和分组 - 以不同的方式切分您的数据。 使用我们的数据资源管理器来构建查询，而无需了解任何有关 SQL 或连接的知识。 轻松将数据导入和导出到 Mathesar 以便在其他地方使用您的数据。 数据建模支持 - 只需两次单击即可在表之间传输列。  此版本添加了基于 Postgres 的访问控制，成倍地提高了 UI 性能，并添加了一些不错的生活质量功能，如导出数据、全面的用户指南等。  以下是一些链接：  发行说明 安装：Docker Compose 安装 和 从头开始安装 GitHub repo 和 文档 网站  我很乐意收到反馈、想法、批评，几乎任何东西。如果您需要安装 Mathesar 方面的帮助，我也很乐意帮助您入门。您还可以加入我们在 Matrix 上的社区，与我们实时聊天。谢谢！ 以下是我们接下来考虑构建的一些功能：  为管理员提供更好的工具，包括 SSO、PostgreSQL 行级安全性的 UI 以及通过外部数据包装器对非 Postgres 数据库的支持。 更多编辑和查询数据的方式，例如用于查询构建和编辑的统一界面、自定义输入表单和内置 SQL 编辑器。 扩展对数据类型的支持，包括位置数据（通过 PostGIS）、长格式/格式化文本（例如 Markdown）以及各种文件和图像类型。  我们的路线图最终将由我们的 beta 用户的反馈决定。如果您想在 Mathesar 中看到什么，请告诉我们！    提交人    /u/zack-krida   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1id746f/mathesar_spreadsheetlike_db_tool_is_now_in_beta/</guid>
-      <pubDate>Wed, 29 Jan 2025 22:51:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在不为新贡献者做所有工作的情况下提供反馈？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1id5kep/how_do_you_give_feedback_without_doing_all_the/</link>
-      <description><![CDATA[最近，我一直在审查大量首次为 SymPy（一种基于 Python 的计算机代数系统）做出贡献的 PR。我认为，他们大多在尝试满足 Google Summer of Code 的错误修复要求并增强他们的 GSoC 应用程序。 我正在尝试找出向他们提供反馈的最佳方式。在许多情况下，我自己修复错误所花的时间可能比指导他们修复所花的时间要短。当我看到效率低下或难以理解的代码时，我很想重写它并建议他们使用我的版本。但我知道这不一定是帮助他们学习的最佳方式。 无论对错，我有时会留下这样的印象：他们有点自以为是。他们经常@我——在他们回复我的评论后立即回复。如果我花超过 24 小时的时间来审查他们的 PR，他们会再次@我。他们中的一些人英语不太好，留下的信息让我不得不花很长时间去解读。通常，我感觉他们是在寻求解决方案，而不是自己思考问题。 我是一名大学生，非常忙。我帮助他们是因为我关心 SymPy，并且发现帮助别人很有成就感 — — 而不是因为我有任何义务这么做。 话虽如此，我还是尽力鼓励他们。我知道第一次贡献代码有多难，所以当我合并 PR 时，我会留下“干得好”这样的信息来承认他们的努力。我尽量不去假设他们有恶意，因为不可能知道每个人的意图。对我来说显而易见的事情对新贡献者和那些 Python 和编程经验较少的人来说可能并不明显。 我想让贡献更受欢迎、更容易接受，但我也不想最终为他们做大部分工作。你如何处理这种情况？    提交人    /u/TiloRC   [link] [comments]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1id5kep/how_do_you_give_feedback_without_doing_all_the/</guid>
-      <pubDate>Wed, 29 Jan 2025 21:45:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
