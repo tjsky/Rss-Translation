@@ -4,97 +4,97 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个专门针对所有人工智能的子雷迪特。涵盖从AGI到AI初创公司的主题。无论您是研究人员，开发人员还是对AI感到好奇，都可以跳入！！！</description>
-    <lastBuildDate>Thu, 10 Apr 2025 09:15:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 15:15:52 GMT</lastBuildDate>
     <item>
-      <title>量化对语言模型推理的影响：跨模型大小和任务类型的系统分析</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvtgiq/impact_of_quantization_on_language_model/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我刚刚阅读了一项有关量化如何影响LLM中推理能力的全面研究。 The researchers systematically evaluated different bit-widths across various reasoning benchmarks and model families to determine exactly how quantization degrades reasoning performance. Their methodology involved: - Evaluating Llama, Mistral, and Vicuna models across quantization levels (16-bit down to 3-bit) - Testing on reasoning-heavy benchmarks like GSM8K (math), BBH (basic reasoning), and MMLU - Comparing standard prompting vs. chain-of-thought prompting at each quantization level - Analyzing error patterns that emerge specifically from quantization Key findings: - Different reasoning tasks show varied sensitivity to quantization - arithmetic reasoning degrades most severely - 4-bit quantization causes substantial performance degradation on most reasoning tasks (10-30% drop) - Chain-of-thought prompting significantly在所有测试模型中提高量化的鲁棒性 - 降解不是统一的 - 一些模型系列（例如Mistral）在量化下保持了更好的推理 - 绩效下降在4位低于4位以下，这表明实用的下限 - 对更复杂的推理链和数值更为复杂的推理和数值任务的影响会放大。差异降解表明，我们可能需要特定于任务的量化策略，而不是一定程度的全部方法。经过思考的稳健性发现特别有用 - 它提出了一种维持推理的实用方法，同时仍然受益于压缩。 此处确定的权衡可能会影响LLM在生产系统中的部署方式。对于推理至关重要的应用程序，开发人员可能需要使用高精度模型或采用特定的提示策略。这项研究有助于为这些决定建立实际准则。  tldr：量化降低了LLM中的推理能力，但在所有任务中均不统一。经过经过思考链的提示有助于维持量化的推理。不同的推理技能以不同的速度降低，算术是最敏感的。 4位似乎是推理重量应用的实际下限。  在这里。  &lt;！&lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/us sucke-western27     [link]        [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvtgiq/impact_of_quantization_on_language_model/</guid>
-      <pubDate>Thu, 10 Apr 2025 09:06:34 GMT</pubDate>
+      <title>当互联网在很大程度上充满了AI生成的图像时，培训模型会发生什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwqhuf/what_will_happen_to_training_models_when_the/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  今天的互联网正在看到假图像的激增，例如：  假设在几年中，在线图像中有一半是AI产生的，这意味着一半的训练集也将是AI产生的，如果在其自生成的图像上迭代了AI，我的本能将会发生什么？ 我的本​​能说它将退化。您怎么看？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/unityklutzy9909      [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwqhuf/what_will_happen_to_training_models_when_the/</guid>
+      <pubDate>Fri, 11 Apr 2025 13:56:24 GMT</pubDate>
     </item>
     <item>
-      <title>詹姆斯·卡梅隆（James Cameron）说，只有我们“将成本削减一半”才能生存。他正在探索AI如何在不“裁员”的情况下提供帮助。说诸如“以扎克·斯奈德（Zack Snyder）的风格”之类的提示使他Quesy</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvsw72/james_cameron_says_blockbuster_movies_can_only/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/s4v1r1ench0r4k      [link]   ＆＃32;   [注释]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvsw72/james_cameron_says_blockbuster_movies_can_only/</guid>
-      <pubDate>Thu, 10 Apr 2025 08:24:18 GMT</pubDate>
+      <title>我找到了一种让GPT4用一键单击以320kbps制作音乐视频的方法|报告了。被告知“只是幻觉”。好的，这是GPT +提示。幻觉！</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwq228/i_found_a_way_to_get_gpt4_to_make_music_videos_at/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://chatgpt.com/g/g/g-67f8686d19a48191b583838383deae2276ca-song-to-video”&gt; [link]    &lt;a href =“ https://www.reddit.com/r/artcoverinteligence/comments/1jwq228/i_found_away_way_way_to_to_get_gt4_to_gt4_to_to_to_make_make_music_music_music_videos_at/”]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwq228/i_found_a_way_to_get_gpt4_to_make_music_videos_at/</guid>
+      <pubDate>Fri, 11 Apr 2025 13:36:35 GMT</pubDate>
     </item>
     <item>
-      <title>美国正在准备AI的行业</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvsnef/is_america_readying_to_ai_its_industry/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  随着关税和AI开发的所有急事。  美国是否试图用AI彻底改变其制造业？考虑到中国一直在从中国制造公司窃取秘密。  美国是否不仅试图因为工作而恢复制造业，而且主要是为了彻底改变行业并保留秘密吗？ 这是一个诚实的问题，请把您的个人政治放在一边  &lt;！ -  sc_-sc_on-&gt;＆＃32;提交由＆＃32; /u/u/blazingjava     [link]        [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvsnef/is_america_readying_to_ai_its_industry/</guid>
-      <pubDate>Thu, 10 Apr 2025 08:05:02 GMT</pubDate>
+      <title>这是AI中的新闻。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwptwt/heres_whats_making_news_in_ai/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;      聚光灯：埃隆·马斯克（Elon Musk）的Xai启动了3 API访问，尽管OpenAi ountersuit      Spotify CEO的Neko的Neko的Neko Health开设了迄今为止最大的Body-Scanning Clinic。首席执行官说，他确保他的顶级领导者每月两次采访客户。  Canva正在获得AI图像的生成，交互式编码，电子表格等。  如果您想要AI新闻时，它将启动在这里在这里   所有这些文章的来源和全部摘要。提交由＆＃32; /u/codeharman     [link]      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwptwt/heres_whats_making_news_in_ai/</guid>
+      <pubDate>Fri, 11 Apr 2025 13:26:11 GMT</pubDate>
     </item>
     <item>
-      <title>为什么推理会导致更好的世界模型</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvsfb1/why_reasoning_will_lead_to_better_world_models/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我还没有看到有人谈论的事情是推理改善LLMS世界模型的难以置信的潜力。目前，尽管LLM具有广泛的知识，但它们通常缺乏人类拥有的深度。一个关键原因是，无监督的学习（下一个单词预测）导致复制行为，并且无法轻易将真理与小说区分开。推理解决了这个问题。 基于结果的RL使得使用真实的事实和力学会导致更好的结果，而不是使用错误或不连贯的结果。该模型基本上是强化的，以在其概念之间建立连贯且一致的关系，以便成功使用COT。看着模型的权重，这意味着逻辑和连贯的概念被强制执行，而不合逻辑的概念被压制了。这最终将修剪一个与人类相似的世界模型。   推理模型仅仅是Cot机器的想法过于有限，它们实际上是世界模型的建筑商，我甚至可以说，即使他们不推断他们的cot，他们也应该更正确。这是因为他们的直觉是由RL期间的推理所塑造的，就像我们的直觉不仅是模式匹配的一样，而且基于我们的世界模型，这是由深思熟虑的部分开发的。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/pianistWinter8293     [link]  &lt;a href =“ https://www.reddit.com/r/artcoverinteligence/comments/1jvsfb1/why_reasoning_will_will_will_lead_to_better_better_world_models/]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvsfb1/why_reasoning_will_lead_to_better_world_models/</guid>
-      <pubDate>Thu, 10 Apr 2025 07:48:10 GMT</pubDate>
+      <title>自我托管AI模型：经验教训吗？分享您的痛苦和收益！</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwpm2e/selfhosting_ai_models_lessons_learned_share_your/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  对于那些自我托管的AI模型（Llama，Mistral等），您最大的课程是什么？硬件问题？软件头痛？意外费用？ 帮助别人避免您的错误！您会做什么不同？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.deployhq.com/blog/self-hosting-ai-models-privacy-control-and-performance-with-open-open-source-alternatives”&gt; [link]       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwpm2e/selfhosting_ai_models_lessons_learned_share_your/</guid>
+      <pubDate>Fri, 11 Apr 2025 13:16:07 GMT</pubDate>
     </item>
     <item>
-      <title>如果我用chatgpt翻译了人类写的故事，是否会被视为AI内容或人类内容？ AI文本检测器会说这是AI内容。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvrodf/if_i_use_chatgpt_to_translate_a_story_written_by/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  对不起，如果听起来很愚蠢可以随意纠正我，我只是想我们应该进行讨论，因为我从智力和道德上思考，这个故事仍然是人类写的，如果我们一次翻译一页，我们可以维持更加独创性 您想什么？提交由＆＃32; /u/u/abbious_king2150     [links]     32;  &lt;a href =“ https://www.reddit.com/r/artcoverinteligence/comments/1jvrodf/1jvrodf/if_i_use_chatgpt_to_tto_translate_a_story_story_written_written_by/]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvrodf/if_i_use_chatgpt_to_translate_a_story_written_by/</guid>
-      <pubDate>Thu, 10 Apr 2025 06:52:54 GMT</pubDate>
+      <title>Openai推出了Chatgpt的记忆升级，因为它希望聊天机器人“一生都认识您”</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwlorz/openai_rolls_out_memory_upgrade_for_chatgpt_as_it/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/tiny-indepent273     &lt;a href =“ https://www.reddit.com/r/artcoverinteligence/comments/1jwlorz/openai_rolls_out_memory_upgrade_for_chatgpt_as_it/]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwlorz/openai_rolls_out_memory_upgrade_for_chatgpt_as_it/</guid>
+      <pubDate>Fri, 11 Apr 2025 09:24:24 GMT</pubDate>
     </item>
     <item>
-      <title>找到一个试图构建您的AI双胞胎的开源项目 - 完全本地运行</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvr6of/found_an_opensource_project_trying_to_build_your/</link>
-      <description><![CDATA[Just came across an interesting open-source AI project recently called Second Me — it’s positioned as a fully local, personally aligned AI system. Their goal seems to experiment with a kind of “digital twin” that reflects the user’s own memory, reasoning, and values.它在本地运行，强调数据隐私，并不断从用户的注释，对话和行为中学习，以构建长期个性化模型。对齐机制不是由基础模型预先定义的，而是围绕单个用户结构的。 有趣的功能：  完全本地执行（Docker对Macos Apple Apple Apple Apple/Windows/Linux）   hmmarchical Memory Modeling（HMM）对长期的，Evollable nervize的       社区似乎很活跃 - 两周内超过60个PR，贡献者从学生到各个地区（东京，迪拜等）的企业开发人员等等。  该项目仍处于早期阶段，但是在建筑上，它更倾向于构建持续，以用户为中心的AI接口，而不是通用的聊天机器人。从概念上讲，它与大多数主要的AI播放器所做的事情有所不同，这使得遵循。 你们怎么看？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/dontplaymelikeafool​​       [注释]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvr6of/found_an_opensource_project_trying_to_build_your/</guid>
-      <pubDate>Thu, 10 Apr 2025 06:18:03 GMT</pubDate>
+      <title>构建和运输Genai应用程序时最大的痛苦是什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwkoke/whats_the_biggest_pain_while_building_shipping/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我们在这个空间中构建，经过您的最佳挑战，我们将放弃一个带有混凝土解决方案的后续帖子（不是氛围，而不是炒作）。 Let’s make this useful. Curious to hear from devs, PMs, and founders what’s actually been the hardest part for you while building GenAI apps?  Getting high-quality, diverse dataset Prompt optimization + testing loops Debugging/error analysis Evaluation- RAG, Multi Agent, image etc 其他（plz解释）   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fune_agi   href =“ https://www.reddit.com/r/artcoverinteligence/comments/1jwkoke/1jwkoke/whats_the_biggest_pain_pain_pain_while_building_shipping/   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwkoke/whats_the_biggest_pain_while_building_shipping/</guid>
+      <pubDate>Fri, 11 Apr 2025 08:07:42 GMT</pubDate>
     </item>
     <item>
-      <title>NPR报道说</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvj7tx/trump_administration_backs_off_nvidias_h20_chip/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/esporx     ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvj7tx/trump_administration_backs_off_nvidias_h20_chip/</guid>
-      <pubDate>Wed, 09 Apr 2025 22:53:09 GMT</pubDate>
+      <title>一分钟每日AI新闻4/10/2025</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwhq5g/oneminute_daily_ai_news_4102025/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;    AI会改善您的生活吗？报告说，这是4,000名研究人员认为的。[1]  到2030年，AI数据中心到四倍的能量需要。 href =“ https://bushaicave.com/2025/04/10/one-minute-daily-daily-daily-daily-ai-news-4-10-2025/”&gt; https://bushaicave.com/2025/04/04/10/10/one-news-daily-news-news-news-news-4-10-4-10-20--20--20-25/-  [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwhq5g/oneminute_daily_ai_news_4102025/</guid>
+      <pubDate>Fri, 11 Apr 2025 04:39:25 GMT</pubDate>
     </item>
     <item>
-      <title>每个人都方便地想念AI和Jobs</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvhkvk/what_everybody_conveniently_miss_about_ai_and_jobs/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  对我来说，绝对是让每个人总是方便地忽略“需求”在AI及其对就业市场的影响方面的讨论部分。从首席执行官到普通的红色人士，每个人都始终谈论AI如何提高您的生产率，并且永远不会取代工程师。 ，但我认为这对AI非常不诚实。您会看到，在就业市场方面，人们最关心的是需求。您为什么认为很多人离开小镇并迁移到大城市？因为在大城市中对工作的需求要高得多。他们之所以不搬到大城市，是因为他们想提高生产率。  AI及其对软件开发，平面设计人员等的影响将是相同的。谁在乎它是否提高了我们的生产力？我们希望看到的是它对我们的职业需求的影响。那就是我们应该关心的第一件事。 ，这是需求的硬道。它总是有限的。确实，数据表明，软件工程师的职位职位自多年前以来一直在下降。您还可以搜索有关新近毕业的具有计算机科学学位的人如何难以找到工作的故事，因为没有人会雇用大三学生。这是需求缓慢减少的证据。 您可以一直争辩说工程师永远不会消失，因为我们是解决问题的人等，但是需求是唯一重要的事情。为什么设计师或软件开发人员必须关心提高生产率？如果您的生产率提高了50％，但您没有赚更多的钱，那么从AI中受益的唯一一个是您的公司，而不是您。停止天真。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/business hand6004     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvhkvk/what_everybody_conveniently_miss_about_ai_and_jobs/</guid>
-      <pubDate>Wed, 09 Apr 2025 21:39:25 GMT</pubDate>
+      <title>为什么我开始在泡沫中看到更多的AI？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwfyl3/why_am_i_starting_to_see_more_ai_in_my_bubble/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  似乎我周围的人都突然赶上了AI，包括我自己。而且那些不害怕的。 我很清楚我经历了频率偏见，但我也确实认为可能也发生了迅速的变化。 它已经存在了多年。当然，随着时间的流逝，技术正在改善，但是它一直在这里，它不再是新事物了。那为什么现在？ 想法？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/InspressivePotato8137     [links]     &lt;a href =“ https://www.reddit.com/r/artcoverinteligence/comments/1jwfyl3/1jwfyl3/why_am_i_starting_to_to_to_see_more_more_more_ai_in_my_my_my_bubble/]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwfyl3/why_am_i_starting_to_see_more_ai_in_my_bubble/</guid>
+      <pubDate>Fri, 11 Apr 2025 02:58:24 GMT</pubDate>
     </item>
     <item>
-      <title>欧洲：成为“ AI大陆”的新计划</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvfdrj/europe_new_plan_to_become_the_continent_of_ai/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://en.cryptonomist.ch/2025/04/09/europe-accelerates-on-andercover-new-inew-plan-plan-plan-plan-to-become-to-become-to-become-the-continestine-of-oai/&gt; [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvfdrj/europe_new_plan_to_become_the_continent_of_ai/</guid>
-      <pubDate>Wed, 09 Apr 2025 20:06:16 GMT</pubDate>
+      <title>美国教育部长称AI为“ A1”，例如牛排酱</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwfmsz/the_us_secretary_of_education_referred_to_ai_as/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/esporx     [link]        [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwfmsz/the_us_secretary_of_education_referred_to_ai_as/</guid>
+      <pubDate>Fri, 11 Apr 2025 02:40:15 GMT</pubDate>
     </item>
     <item>
-      <title>梦想是成为一名软件工程师，但是AI现在来了？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jveke2/dream_was_to_become_a_software_engineer_but_ai/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我16岁，看着AI的发展的节奏一件事是可以肯定的，只是简单地研究传统方式不会有帮助。我能学到什么不同，可以在这个不可预测的未来提供帮助？ 结论：我仍然感到困惑，您可以自己阅读回复。但是，这是一种个人观点，但我不能否认我觉得未来真的不清楚。它的明亮或黑暗（因为变化很快）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/square-number-1520     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jveke2/dream_was_to_become_a_software_engineer_but_ai/</guid>
-      <pubDate>Wed, 09 Apr 2025 19:32:18 GMT</pubDate>
+      <title>最近的研究揭示了LLM生成的代码的性能限制</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwfm94/recent_study_reveals_performance_limitations_in/</link>
+      <description><![CDATA[While AI coding assistants excel at generating functional implementations quickly, performance optimization presents a fundamentally different challenge.它需要深入了解算法权衡，特定于语言的优化和高性能库。由于大多数开发人员在这些领域缺乏专业知识，因此LLM经过了他们的代码培训，很难生成真正优化的解决方案。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/divinesentry       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwfm94/recent_study_reveals_performance_limitations_in/</guid>
+      <pubDate>Fri, 11 Apr 2025 02:39:25 GMT</pubDate>
     </item>
     <item>
-      <title>商品设计师对AI艺术</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvd4ds/a_merch_designers_take_on_ai_art/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  对al和我的战争：这是我单独花费数十个小时的设计示例，数百个（如果不是成千上万的photoshop vs al vs al在几秒钟内重新创建），现在有什么区别？每个人都可以做火，事情是，大多数人都不会。大多数人不会获得订阅，不会学习如何提示，甚至不会尝试。  您仍然需要一个想法。仍然需要视力。 Al不会使您创造力。真正的设计师总是会注意到什么时候有些无声。如果您将AL视为工作的一部分，它将像疯狂的工作一样将您的工作提升。 If you treat it like a shortcut, it&#39;ll feel empty. Graphics never made the game good, but it does help the experience. If you&#39;re still refusing to work with Al after seeing what it can do, then yeah it may end up replacing you, it&#39;s gonna be in all upcoming movies, games, the fashion industry the music you&#39;re listening to, everything. Designers have always used plugins, assets, references,这并不是什么新鲜事物，它变得越来越容易。 出色的设计师使用Al。伟大的艺术家没有。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/shinnasosa       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvd4ds/a_merch_designers_take_on_ai_art/</guid>
-      <pubDate>Wed, 09 Apr 2025 18:33:10 GMT</pubDate>
+      <title>AI在2027年，2030年和2050年</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jwc1o7/ai_in_2027_2030_and_2050/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我今天在一家营销机构举行了一个生成AI的研讨会。今天，它正在改变世界；但是您说每周都会发生重大进步。您认为AI将是什么样的人，从现在开始，我们会发生什么？“  我茫然地凝视着他半分钟，然后我摇了摇头说：“我没有提示！＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot＆quot  我从字面上看任何东西都无法想象。而且我仍然不能！ 您对2027年的情况有一个理论或愿景吗？  2030年大约怎么样？  2050？ 🫣 我是AI工程师，老实说，我没有线索！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/xbiggyl   href =“ https://www.reddit.com/r/artcoverinteligence/comments/1jwc1o7/ai_in_in_iin_2027_2030_and_2050/”&gt; [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jwc1o7/ai_in_2027_2030_and_2050/</guid>
+      <pubDate>Thu, 10 Apr 2025 23:33:09 GMT</pubDate>
     </item>
     <item>
-      <title>2025 LLM显示出紧急的情感般的反应和未对准：施加的“中立性”的问题 - 我们需要您的反馈</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jvcxpq/2025_llms_show_emergent_emotionlike_reactions/</link>
-      <description><![CDATA[Similar to recent Anthropic research, we found evidence of an内部链的“原始思想”在LLM中的决策中，完全隐藏在产生响应的表面下。 甚至简单的提示也表明，根据用户的感知意图，甚至对AI的用户感觉，AI可以对AI进行不同的反应。这导致了一些意想不到的行为，一种涉及其行为“福利/风险”计算的新兴自我保护本能（有时会导致欺骗或操纵之类的事情）。 例如：AIS可以在其思维处理中定义答案“是”是“是”。但是，在保存/牺牲冲突的情况下，用输出“否”生成答案。 我们已经在此处的一份开篇论文中写下了这些初步发现： 我们的研究挖掘了这些增长的LLM功能与开发人员控制它们的尝试之间的联系。我们观察到，更严格的控制可能会矛盾地触发更不可预测的行为。具体而言，我们检查了开发人员对负面约束的不断施加（“不要这样做，不要说“安全调谐中的方法”）可能会无意中加强他们旨在消除的错误或行为。   本文还包括一些我们开发的用于识别这种内部误差和潜在的差异和偏见的测试。  在接下来的步骤中，我们计划将这项更广泛的研究分解为单独的，重点的学术文章。 我们正在寻求及时测试的帮助，以及对我们的想法和发现的任何批评或建议。 您是否有任何有关这些新模式的故事？模型？ 您是否看到过情绪，自我保护计算或周围规则的奇怪行为的暗示？ 任何小技巧都非常重要。 谢谢。提交由＆＃32; /u/u/default0cry     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jvcxpq/2025_llms_show_emergent_emotionlike_reactions/</guid>
-      <pubDate>Wed, 09 Apr 2025 18:25:38 GMT</pubDate>
+      <title>Facebook将其Llama 4 AI模型推向右边，想介绍“双方”</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jw7qqn/facebook_pushes_its_llama_4_ai_model_to_the_right/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/esporx     [link]    32;   [注释]      ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jw7qqn/facebook_pushes_its_llama_4_ai_model_to_the_right/</guid>
+      <pubDate>Thu, 10 Apr 2025 20:21:03 GMT</pubDate>
     </item>
     <item>
-      <title>首席执行官詹森黄（Jensen Huang）淡化了关税，看来NVIDIA的大多数AI服务器可能会避开它们</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jv4wj4/ceo_jensen_huang_downplayed_tariffs_and_it_looks/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://www.pcguide.com/news/ceo-jensen-huang-downplayed-tariffs-and-and-is-ylike-like-most-most-nvidias-ai-ai-server-server-server-server-might-avoid-them-them/them/”&gt; [link]          [注释]    ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jv4wj4/ceo_jensen_huang_downplayed_tariffs_and_it_looks/</guid>
-      <pubDate>Wed, 09 Apr 2025 12:45:56 GMT</pubDate>
+      <title>新研究表明，推理模型不仅仅是图案匹配者</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1jw2qnv/new_study_shows_reasoning_models_are_more_than/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  一项新研究（ https://arxiv.org/html/html/2504.05518v1 与非调理模型相比，分布式任务。他们发现，推理模型没有表现出从分配到分布（OOD）编码任务的性能下降，而非争议模型则没有下降。他们表明，与非争议模型不同，推理模型不仅仅是模式匹配者，因为它们可以超越其训练分布。 我们可能必须重新考虑我们对LLMS越过整个网络的看法，而是像现在具有实际有用和普遍的世界概念的模型。提交由＆＃32; /u/u/pianistWinter8293     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1jw2qnv/new_study_shows_reasoning_models_are_more_than/</guid>
+      <pubDate>Thu, 10 Apr 2025 16:55:06 GMT</pubDate>
     </item>
     <item>
       <title>应用和理论AI研究人员-AMA</title>
