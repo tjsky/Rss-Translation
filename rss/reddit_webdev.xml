@@ -4,7 +4,28 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Sat, 26 Apr 2025 03:30:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 06:20:24 GMT</lastBuildDate>
+    <item>
+      <title>我为Android创建了一个AI Image Upscaler，可以直接在您的设备上增强图像。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1k866ng/ive_created_an_ai_image_upscaler_for_android_that/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  这是我一直在努力使应用程序脱颖而出的方法： 发生了变化的内容：          no no note  li  li&gt; li&gt; li&gt; li&gt; li&gt;     smoother and faster based on your suggestions. Offline Upscaling – Now you can upscale images completely offline, with no internet connection required.  Key Features:  Unlimited Free 4K Upscales – Upscale your images to 4K, all for free. Local处理  - 一切都发生在您的设备上，不涉及云。关闭您的互联网。  以下是应用程序的链接 -    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/ecstatic-gate1968       [注释]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1k866ng/ive_created_an_ai_image_upscaler_for_android_that/</guid>
+      <pubDate>Sat, 26 Apr 2025 06:08:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>WASM静态Web应用程序</title>
+      <link>https://www.reddit.com/r/webdev/comments/1k84nlb/static_web_app_with_wasm/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，我有一个即将到来的项目，涉及将一大堆静态资源运送到客户端浏览器，所有交互将在客户端。  想想诸如crontab/ w3school代码沙盒/ 2048。 是对这样的事情的反应吗？我很愿意从头开始写HTML/CSS，但是当React会给您“免费”状态时，我会害怕自己陷入状态管理地狱，尤其是如果您不必与后端服务器调和。关于您如何进行的任何想法？ （WASM可能在Golang）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/tamerlein3     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1k84nlb/static_web_app_with_wasm/</guid>
+      <pubDate>Sat, 26 Apr 2025 04:31:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>试图成为创意的网络开发人员</title>
+      <link>https://www.reddit.com/r/webdev/comments/1k84ifh/trying_to_be_a_creative_web_developer/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，嘿！我很高兴最终分享我的第一个WebGL ShowReel！我一直在深入研究这个世界，旨在成为一名创造性的开发人员，这卷轴展示了我一直在研究的一些项目。 您可以在此处查看：  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1k84ifh/trying_trying_to_be_a_a_a_a_a_a_web_developer/”&gt; [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1k84ifh/trying_to_be_a_creative_web_developer/</guid>
+      <pubDate>Sat, 26 Apr 2025 04:22:04 GMT</pubDate>
+    </item>
     <item>
       <title>大型列表的好UI设计？</title>
       <link>https://www.reddit.com/r/webdev/comments/1k82rub/good_ui_designs_for_large_lists/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我想创建一个网站来发布我的故事，但是每当我查找作家网站时，我得到的所有是portfolios是否有人都有任何网站发布我可以在Inspo中使用的网站？   &lt;！&lt;！ -  sc_on--&gt; 32;&gt; 32;提交由＆＃32; /u/nurastone     [link]   ＆＃32;   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1k7y0hb/anyone_has_writer_website_inspo/</guid>
       <pubDate>Fri, 25 Apr 2025 22:40:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么可能有必要返回指向下一页的链接，而不是基于光标的分页端点中的下一个光标</title>
-      <link>https://www.reddit.com/r/webdev/comments/1k7xmf1/why_it_may_be_necessary_to_return_a_link_to_the/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我们正在与一个实施许多用户广泛使用的REST API的团队，我们正在研究基于光标的分页。我们已经看到了几种模式，关于如何通过前端采用它，一些API返回下一个和以前的光标，并让前端构建URL本身，一些返回链接已经包含了一个光标，您可以打电话给您以获取下一页，而无需在前端构建链接。 基于此问题：我有一个问题：为什么有2个方法可以更好地处理该方法，并且可以更好地处理该方法？也许每个人都有一些特定的目标，我很高兴知道这一点。因为现在我们无法确定哪个对我们更好  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/over_mechanic_3643     [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1k7xmf1/why_it_it_may_may_be_be_nexces_to_to_to_return_to_return_a_link_link_link_to_to_to_to/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1k7xmf1/why_it_may_be_necessary_to_return_a_link_to_the/</guid>
-      <pubDate>Fri, 25 Apr 2025 22:22:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>离线网络建设者 - 大火</title>
-      <link>https://www.reddit.com/r/webdev/comments/1k7xi7z/offline_web_builders_blazor/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我正在使用Blazor使用Web应用程序。 我的问题是，他们的离线网络构建器是否与Blazor一起使用？我在一个项目上工作了几个月，现在使用Rider手动编写C＃，HTML，JavaScript和CSS。这个项目是非商业的，因此我没有任何钱可以购买外部包裹。我开始有点厌倦不得不以finiky的方式编写CSS和格式html，以获取应该有效的基本事物（花费数小时才能获得页面的一小部分，而不是正确地正确地实现其功能），并且希望他们的解决方案是一个更好的解决方案，而是一个更好的解决方案，然后在CSS中获得更好的态度，我可以在CSS中获得更好的工作。以一种相同的方式来进行网站设计（但对于游戏UI），UXML，USS和C＃替换HTML，CSS和JavaScript。 UIToolKit的主要目的是，您可以构建元素，然后在此之后构建元素，然后如果需要特殊的uss，您可以应用课程和选择器。 我想知道他们是否是网络开发的开源版本是否是网络开发的开源版本或连接适当的后端）。 我知道Windows表单用于某些情况，尽管从我的理解中，Microsoft随着新的“ Web App Pipeline”已移开了。使用Glazor。 任何帮助将不胜感激！我真的很想继续这个项目，而不是花几个小时来处理DIV格式。 XD  谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/keiishkii     [link]    32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1k7xi7z/offline_web_builders_blazor/</guid>
-      <pubDate>Fri, 25 Apr 2025 22:17:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>为AI艺术生成器（Next.js + tailwind）构建了前端 - 动态图像以3个纵横比呈现。 ama！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1k7wlme/built_the_frontend_for_an_ai_art_generator_nextjs/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿devs！ 我最近在AI艺术生成平台的超级有趣的前端项目上工作。 Users can generate unique artwork in portrait, landscape, or square format and order them as real framed prints. I built the entire frontend using Next.js + Tailwind, and the biggest challenge was rendering and maintaining clean UX across the 3 dynamic aspect ratios while integrating multiple APIs for generation, checkout, and order processing. Happy to break down how I handled the image layout如果您很好奇，逻辑，状态管理或任何性能进行调整！  [评论中的fiverr gig链接 - 乐于帮助类似的构建]   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/egotisticburhan     [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1k7wlme/built_the_front_the_frontend_for_ai_ai_ai_ai_ai_ai_ai_ai_ai_ai_ai _ARETOD_GENERATOR_NEXTJS/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1k7wlme/built_the_frontend_for_an_ai_art_generator_nextjs/</guid>
-      <pubDate>Fri, 25 Apr 2025 21:36:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
