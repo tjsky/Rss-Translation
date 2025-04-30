@@ -4,7 +4,35 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Wed, 30 Apr 2025 15:20:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 18:24:25 GMT</lastBuildDate>
+    <item>
+      <title>有关电子邮件的更新</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kbmi1c/update_on_emailsleuth/</link>
+      <description><![CDATA[        &lt;！ -  sc_off-&gt;  想要分享一个巨大的更新。通常，我们对SMTP进行验证。但是问题是有些提供商确实会抓住一切（尽管不存在Event Event Mail，但请接受所有事件）。因此，我通过Fantaoccini板条箱对Yahoo和Outlook实施了无头浏览器验证。这只是等于从前端键入电子邮件并检查是否存在。  我认为他们让我们这样做很愚蠢。例如，Google具有强大的机器人检测。目前我无法绕过这一点。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/consenent_equal5327       [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kbmi1c/update_on_emailsleuth/</guid>
+      <pubDate>Wed, 30 Apr 2025 17:40:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muyan-TTS：我们为开发人员建立了一个开源，低延迟，高度可定制的TTS模型</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kblyo7/muyantts_we_built_an_opensource_lowlatency_highly/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我是chatpods团队的开发人员。在过去的一年中，我们经常遇到相同的问题：开源TTS型号要么低质量或不完全开放，因此很难重新训练和适应。因此，我们构建了Muyan-TTS，这是一种完全开源的低成本模型，旨在易于微调和次要开发。当前版本最适合英语，因为公共培训数据仍然相对较小。但是我们已经开源了完整的培训和数据处理管道，因此团队可以根据他们的需求轻松适应或扩展它。我们欢迎反馈，讨论和贡献。  您可以在此处找到该项目：    arxiv论文：  github： https://github.com/myzy-ai/muyan/muyan-tts  href =“ https://huggingface.co/myzy-ai/muyan-tts”&gt; https://huggingface.co/myzy-ai/muyan-tts      https://huggingface.co/MYZY-AI/Muyan-TTS-SFT   Muyan-TTS gives full access to model weights, training scripts, and data workflows.有两个模型版本：   基本模型，对零拍摄tts的多扬声器音频数据进行了培训。       sft模型在单扬声器数据上进行了微调，以提供更好的语音和个性化的培训。 It runs efficiently, generating one second of audio in about 0.33 seconds on standard GPUs and supports lightweight fine-tuning without large hardware requirements.We focused on solving a few real-world issues:  Long-form audio stability: Designed for podcast-length coherence. Retrainability: Modular pipeline, easy to对新声音进行微调。  效率：推理期间的低计算成本。  该模型使用微调的Llama-3.2-3B作为语义编码器和基于优化的Sovits的解码器。培训和数据清洁管道是完全打开的，用耳语，funasr，mss和Nisqa过滤构建。 为什么开源这个 我们相信，就像萨曼莎（Samantha）一样，就像她的她中的萨曼莎一样，声音将成为人类与AI互动的核心方式 - 使每个人都可以与AI伴侣进行交流，他们可以与AI伴侣进行交流。 Muyan-TTS只是朝该方向迈出的一小步。在模型设计，数据准备和培训方法方面，仍然有很大的改进空间。我们希望其他对语音技术，TTS或实时语音互动充满热情的人将加入我们的旅程。我们期待您的反馈，想法和贡献。请随时打开问题，发送PR或简单地发表评论。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1kblyo7/muyantts_we_built_built_an_opensource_lowlatency_highly/”&gt; [link]   [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kblyo7/muyantts_we_built_an_opensource_lowlatency_highly/</guid>
+      <pubDate>Wed, 30 Apr 2025 17:17:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>咆哮...和倦怠...</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kbkbo7/rant_burnout/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  人们说，为OpenSource项目做出贡献很棒 - 它们是正确的。但是有时候，为OSS项目做出贡献就像与Reddit中的某人争论。  我这样说的第一个原因是，前几天，我在OSS项目上制作了一个新的PR，该项目修复了他们的软件中的一个小错误，并且维护者已经审查了这些更改，但告诉我       - 所以我做到了，我再次重写了修复程序并将其添加到文档中。然后它被拒绝了，因为我在推送之前做了正确的测试 - 即使我这样做。似乎浪费时间，不是吗？ 2小时来修复错误，然后一天等待，然后再进行2小时的重写，然后被拒绝...  第二个原因是，我们的贡献者没有得到足够的信用，就像维护者一样。就像...我们非常努力地修复或添加一件东西，有时被拒绝，有时被接受，我们可能会被归功于ChangElog，但是那些大型软件（例如Firefox或Obs），用户只是知道该公司做到了并资助了它...是的...他们做到了，但是我们的工作呢？我们花费的时间修复，添加和删除代码，而我们几乎没有由一般用户群体获得信誉。 冒名顶替综合症每当我开始开始为一个新项目做出贡献时 - 是的，我们都经历过，但每当我开始做一个PR PR项目时，我总是会得到冒名顶替综合症。它总是使我从贡献OpenSource软件中脱颖而出。  使用混乱的代码库。我真的不知道为什么有些人 /贡献者不使用功能...他们对他们过敏吗？为什么在世界上有4个代码段，这是完全相同的事情，但书写不同...这使整个事情放慢了余地...   idk如果只是我，我自己自己维持了大约2个项目，但我自己为许多不同的OSS项目做了PR，我发现自己走了下来。有时我会因为制作PRS和Allat而感到非常疲惫，但是我仍然有一个目标 - 是通过改进我们使用的软件来使世界变得更美好！ 可以随意评论您的想法，我只需要在某个地方种一个  &lt;！ -  sc_on-&gt; 32;&gt; 32;提交由＆＃32; /u/u/tr0lliee      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kbkbo7/rant_burnout/</guid>
+      <pubDate>Wed, 30 Apr 2025 16:10:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开源的Deepwiki ...</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kbjpzd/i_opensourced_deepwiki/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   $ 300K Devinai的DeepWiki Secret现在是开源的 您可能已经听说过Devinai的新版本DeepWiki，DeepWiki，该工具，该工具可以分析Github Repos并获得AI驱动的文档。捕获？据报道，它的计算费用为30万美元，并锁定在私人存储库的付费板后面。 我想：为什么不使每个人都可以访问它？  介绍开放式deepwiki： 我对自己的开放式，自我备用的作品的实施，以使任何github repos逐步构造，以使自己全面地构造了一个全面的架构，并全心全意地构造了一个全面的fiki wik。图和代码解释。   没有云锁定，没有付费墙，只有本地，私人分析。功能：    ai生成的文档（支持GPT，Gemini和本地模型） 视觉图（使用Mermeraid.js）   li&gt; li&gt; li&gt; li&gt;＆amp;私人存储库，完全在您的机器上运行   github： https：//github.com/github.com/asyncfuncai/ashyncfuncai/deepwiki--deepwiki-open/deepwiki-open   /u/u/noad5720     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kbjpzd/i_opensourced_deepwiki/</guid>
+      <pubDate>Wed, 30 Apr 2025 15:45:26 GMT</pubDate>
+    </item>
     <item>
       <title>每天共享开源项目的博客</title>
       <link>https://www.reddit.com/r/opensource/comments/1kbi3c4/a_blog_for_sharing_open_source_projects_everyday/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  最后，我为报价匹配和自动移动vimrc config开发配置href =“ https://gist.github.com/WA008/4DA70E1970B590497BF057E4358A6248#FILE-VIMRC”&gt; https://gist.github.com/WA008/4DA70E1970B590497BF057E4358A6248#FILE-VIMRC    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/logical_divide_3595      [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1kb8gdn/vimrc_bracket_and_quote_matching_and_automatic/</guid>
       <pubDate>Wed, 30 Apr 2025 04:58:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>是否有OpenSource PDF编辑器实际运行良好？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kb4o9c/is_there_an_opensource_pdf_editor_that_actually/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  一直在寻找Adobe替代方案有一段时间吗？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/bc006f     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kb4o9c/is_there_an_opensource_pdf_editor_that_actually/</guid>
-      <pubDate>Wed, 30 Apr 2025 01:29:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>BitCoinMessagesigner：一种移动应用程序，可以用比特币私钥签署消息，然后将签名发送到Webhook。源代码在“ Flutterflow”分支中！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kaydmh/bitcoinmessagesigner_a_mobile_app_to_sign_a/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  嗨，嗨， ，我制作了一个带有flutterflow的简单移动应用程序来扫描包含消息和webhook的QR码，然后使用BitCoin private键签名，然后将签名为floft offute&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;&#39;insature of Floffult ofer forefult&#39;flof flof flof flof，floft of floff offult&#39; github repo。  APK也可以在APK文件夹的主分支中使用。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/wouterglorieux       [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kaydmh/bitcoinmessagesigner_a_mobile_app_to_sign_a/</guid>
-      <pubDate>Tue, 29 Apr 2025 20:41:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发中的OpenLitterMap V5，几乎完全由AI撰写</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kay4h4/openlittermap_v5_in_development_written_almost/</link>
-      <description><![CDATA[        &lt;！ -  sc_off- sc_off-&gt;  在2008年启动Pre-iphone，并使用垃圾＆amp＆amp; plastic pollution mapping, OpenLitterMap was inspired by OpenStreetMap to become the real-time in-world open source data collection layer for the internet. Now supercharged by AI, I am rebuilding OLM entirely from the ground up and would like to invite contributions which are now much more stressless to review. So far, OLM has been almost entirely developed and self-financed by me.这是我的生命工作，投资了超过100,000欧元和16年以上。 我们在100多个国家的8,500人的498,131张照片中挤满了820,0884个标签，并收到了来自未付费，首次，首次和付费开发人员的数十个代码贡献。所有标签都从2014年的初稿迁移到新的2025年格式。 多年来，我一直在杀死自己作为开发人员工作，以成为更好的程序员，然后牺牲了多年的晚上和周末来改善Olm的数据收集经验。 现在，AI与AI的兼职工作相关的是，在1-2-2级的工作中，我会获得1-2次兼职的工作，并最大程度地发挥了作用，并最大程度地发挥了创造性的创造力和最大的创造力。 AI确实给了我我的生活，并让我更加控制了空闲时间。 My programming experience has been totally transformed and makes applying my 10+ years working as a software engineer for other startups WAY more fun, empowering, and enjoyable than it ever was before. If anyone enjoys working on Laravel, Vue, React Native and soon we will release the non-human ethical OpenLitterAI with all images and weights to help foster AI innovation - which will make data collection a lot more fun and enjoyable too - there is a lot going on而且，您的帮助和专业知识，无论多么小，都会产生重大影响。 请参阅此处。由联合国秘书长责任的专家联盟认可，该联盟是找到可以加速可加速可持续发展目标的开源项目，OLM超越了所有17个，以通过科学实现和平。 我期待与您共享OLM v5，我可以尽快与您共享！  谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/littercoin   [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kay4h4/openlittermap_v5_in_development_written_almost/</guid>
-      <pubDate>Tue, 29 Apr 2025 20:31:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>代码审查是一种痛苦（所以我们建立了）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kawpbm/code_review_is_a_pain_so_we_built_this/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我一直将代码评论视为过程的重要组成部分。 但是，老实说？这是坐在那里的工作流程中最令人筋疲力尽的步骤之一。坐在那里等待审核，反馈不一致以及在重复性的东西上花费了大量的能量。 当团队成长或开始运送大量AI生成的代码时，我们会变得更糟。 会。    ，这是一个代码审核代理：  从团队的评论模式中学习 让您为每个repo  设置自定义规则，在Github，Gitlab，gitlab，bitbucket，及其e On和oh oh   上，     如果您想尝试一下，做出贡献，或者只是查看我们正在构建的内容：  repo：提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1kawpbm/code_review_is_is_a_a_pain_so_so_so_so_so_be_built_this/”&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kawpbm/code_review_is_a_pain_so_we_built_this/</guid>
-      <pubDate>Tue, 29 Apr 2025 19:31:41 GMT</pubDate>
     </item>
     </channel>
 </rss>

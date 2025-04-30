@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 30 Apr 2025 15:18:44 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 18:22:46 GMT</lastBuildDate>
+    <item>
+      <title>实验：使用歧管的Java中的向量数学</title>
+      <link>https://www.reddit.com/r/programming/comments/1kbn1ka/experimental_vector_math_in_java_using_manifold/</link>
+      <description><![CDATA[An experimental library for more concise, readable vector syntax in Java--built on the Manifold project, which enables operator overloading and dimensional arithmetic. Length vectors are expressed naturally using rational numbers with SI units like meters (m) and angular units like degrees, including directions such as N, S, E和W.向量操作（如加法）直接与操作员一起编写：``````````````````````````````````````````````````````````` ``````````通过歧管对用户定义的单元常数的支持和， vector类型，例如长度向量：````````java公共最终班级长度向量向量扩展了vector＆lt; length，lengthunit，length vortector＆gt; {公共长度向量（长度大小，角度角）{super（幅度，角度）; }   @Override public Lengusvector Make（长度大小，角度角）{返回新长度向量（幅度，角度）; }   @Override public length vector副本（理性幅度）{返回新的长度向量（new Length（agent getsMagnitude（）。getBaseunit（）。getBaseunit（），getMagnitude（）。getDisPlayunit（）），getangle（getAngle（）），getangle（））; `}}```` 也可以使用其他向量类型，包括 timeVector 和 velocityvector 。 探索 cistrold-science 库库来了解更多。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://github.com/manifold-systems/manifold/blob/master/manifold-deps-parent/manifold-science/readme.md”&gt; [link]   ＆＃32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kbn1ka/experimental_vector_math_in_java_using_manifold/</guid>
+      <pubDate>Wed, 30 Apr 2025 18:02:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要让实施详细信息破坏您的微服务测试</title>
+      <link>https://www.reddit.com/r/programming/comments/1kbkwlq/dont_let_implementation_details_ruin_your/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/nejcko      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kbkwlq/dont_let_implementation_details_ruin_your/</guid>
+      <pubDate>Wed, 30 Apr 2025 16:34:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>现代版本控制应用程序和平台 - 备忘单</title>
+      <link>https://www.reddit.com/r/programming/comments/1kbkf6q/modern_version_control_apps_platforms_a_cheatsheet/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/hereiClife       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kbkf6q/modern_version_control_apps_platforms_a_cheatsheet/</guid>
+      <pubDate>Wed, 30 Apr 2025 16:14:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI时代的Java：建立具有开源力的AI模型</title>
+      <link>https://www.reddit.com/r/programming/comments/1kbj644/java_in_the_age_of_ai_building_ai_models_with/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我写了一篇文章，讲述了java是如何用来构建AI模型的文章，如果用于构建AI模型以及您应该感兴趣的原因，Java强度是什么，本文是由网络研讨会启发的。提交由＆＃32; /u/u/lolmaz    [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kbj644/java_in_the_age_of_ai_building_ai_models_with/</guid>
+      <pubDate>Wed, 30 Apr 2025 15:22:19 GMT</pubDate>
+    </item>
     <item>
       <title>Minecraft像不到一条推文的景观</title>
       <link>https://www.reddit.com/r/programming/comments/1kbiu8w/minecraft_like_landscape_in_less_than_a_tweet/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/techtalksweekly     ＆＃32;   [注释]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1kbcw5k/tech_talks_weekly_57_vibe_coding_costsaving/</guid>
       <pubDate>Wed, 30 Apr 2025 10:12:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>矢量化ML模型以娱乐</title>
-      <link>https://www.reddit.com/r/programming/comments/1kbckil/vectorizing_ml_models_for_fun/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/foxintheredbox      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kbckil/vectorizing_ml_models_for_fun/</guid>
-      <pubDate>Wed, 30 Apr 2025 09:50:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mariadb 11.8矢量功能是新的，但已经具有一堆集成</title>
-      <link>https://www.reddit.com/r/programming/comments/1kb90rt/mariadb_118_vector_features_are_new_but_already/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/ottokekalainen      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kb90rt/mariadb_118_vector_features_are_new_but_already/</guid>
-      <pubDate>Wed, 30 Apr 2025 05:34:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用PYQT5的代码提取器</title>
-      <link>https://www.reddit.com/r/programming/comments/1kb8u9o/code_extractor_using_pyqt5/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我创建了一个基于PYQT5的代码提取器，该代码提取器扫描，过滤和导出整个代码库作为Markdown。   github repo： https://github.com/adco30/codeextractor  href =“ https://www.youtube.com/watch?v=nwzmap8d0sm”&gt; https://www.youtube.com/watch?v=nwzmap8d0sm    排除列表和扩展过滤器，然后显示可折叠的凹痕视图。特定于语言的解析器提取详细大纲的类和功能签名。 Markdown服务将每个文件的内容都包装到带有代码栅栏的单个文档中。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/small_trife_2309      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kb8u9o/code_extractor_using_pyqt5/</guid>
-      <pubDate>Wed, 30 Apr 2025 05:22:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>合同软件开发的糟糕状态</title>
-      <link>https://www.reddit.com/r/programming/comments/1kb7ubh/the_abysmal_state_of_contract_software_development/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/reeses_boi     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kb7ubh/the_abysmal_state_of_contract_software_development/</guid>
-      <pubDate>Wed, 30 Apr 2025 04:19:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
