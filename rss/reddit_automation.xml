@@ -4,7 +4,35 @@
     <title>Chatgpt，人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇观着迷，被Chatgpt的力量迷住，或者对人工智能和自动化的无尽可能性所吸引？别再看！我们充满活力的Reddit社区是像您这样的爱好者的完美枢纽。作为我们社区的成员，您将获得大量资源，包括：🔬关于自动化，Chatgpt和AI的发人深省的讨论。 🌟对最新进步和行业新闻的独家见解</description>
-    <lastBuildDate>Thu, 01 May 2025 15:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 18:20:23 GMT</lastBuildDate>
+    <item>
+      <title>如果您可以在生活或工作中自动化一件事，那会是什么，为什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1kcexq9/if_you_could_automate_one_thing_in_your_life_or/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  好奇这里的人如果您只能将一项任务移交给自动化。可能是无聊，烦人，重复的，或者奇怪地满足自动化。是什么？是什么？是什么？是什么？提交由＆＃32; /u/u/full-foot1488     [link]     32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1kcexq9/if_you_could_automate_one_thing_in_your_life_or/</guid>
+      <pubDate>Thu, 01 May 2025 17:47:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要帮助将OpenAi输出分配成品（不加倍成本）</title>
+      <link>https://www.reddit.com/r/automation/comments/1kcdgpg/need_help_splitting_openai_output_in_make_without/</link>
+      <description><![CDATA[I’m working on a Make automation where data is pulled from Google Sheets, passed through OpenAI (gpt-3.5-turbo), and the result is written back into Google Sheets. The OpenAI response contains two parts:  A label/classification A 1-line说明或策略   问题是，OpenAI将这两条线返回一条字符串，而我试图将它们分为Google表中的两个单独的列。 我已经尝试在类似的“更新行”模块中使用split（）在类似的“更新行”中使用： split（result; &#39;\ n \ n）[1]  ，但它仅将完整的响应粘贴到两个字段中。 我可以使用两个带有拆分提示的OpenAI模块运行，但这并不是API使用情况或代币限制的成本效率，或者在不使用此输出的情况下进行额外更新google jes jes je sheets of fore for the Inn offer opfipi strai。有建议吗？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/automation/comments/1kcdgpg/need_help_splitting_openai_output_in_in_make_without/”&gt; [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1kcdgpg/need_help_splitting_openai_output_in_make_without/</guid>
+      <pubDate>Thu, 01 May 2025 16:47:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求建议：跨多页无代码的形式AI响应</title>
+      <link>https://www.reddit.com/r/automation/comments/1kcd4sa/seeking_advice_inform_ai_responses_across_a/</link>
+      <description><![CDATA[I’m building a five-step form using a no-code form builder and Make(Integromat), and on each page I need to collect user input, send it to a Make(Integromat) webhook to run an AI process, then display the AI’s response directly on that same page (with a loading indicator to handle latency) before allowing the user to move to the next step.我的目标是无缝的“输入→AI反馈→下一步”流，而没有全页重新加载，仅使用无代码工具 - 任何指导哪种形式的平台或集成模式可以实现此页面内的AI注入！提交由＆＃32;态href =“ https://www.reddit.com/r/automation/comments/1kcd4sa/seeking_advice_advice_inform_ai_ai_responses_across_a/&gt; [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1kcd4sa/seeking_advice_inform_ai_responses_across_a/</guid>
+      <pubDate>Thu, 01 May 2025 16:33:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何通过自动客户端CRM将手动任务变成无声的工作流，而无需编写代码</title>
+      <link>https://www.reddit.com/r/automation/comments/1kcbsi4/how_i_turn_manual_tasks_into_silent_workflows_by/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  自动化CRM系统不需要编码。 Zapier，Make，N8N之类的工具可让您在视觉上将触发器（例如新的潜在客户提交）连接到操作（更新CRM记录或发送后续电子邮件）。大多数工作流程都涉及简单的逻辑：如果交易阶段在Salesforce发生变化，请在Slack上通知销售团队，或直接从TypeForm直接进入HubSpot联系人配置文件的Sync调查响应。核心工作是正确映射数据字段和设置条件（例如，“仅标记高价值引线”）。  在“边缘案例”中编码的情况下，例如清洁杂乱的API数据或从自定义应用程序中解析JSON。 N8N中的5行Python脚本或Zapier代码步骤中的JavaScript片段可以解决这些问题，而无需完整的开发人员技能。首先自动执行一个重复任务（例如，自动添加LinkedIn导致您的CRM），记录客户的工作流程，然后使用虚拟数据进行测试。随着时间的流逝，基本脚本层面以满足利基需求。真正的价值不是代码，而是通过将手动流程变成无声，可靠的系统来释放团队的时间。  卡住了？启动小，迭代并解决问题时解决问题。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/overvect_energy_393     [link]   [注释]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1kcbsi4/how_i_turn_manual_tasks_into_silent_workflows_by/</guid>
+      <pubDate>Thu, 01 May 2025 15:38:41 GMT</pubDate>
+    </item>
     <item>
       <title>AI代理</title>
       <link>https://www.reddit.com/r/automation/comments/1kc99zi/ai_agency/</link>
@@ -22,7 +50,7 @@
     <item>
       <title>在AI时代，为什么这么多年轻的独奏企业主仍陷入模拟管理？ （讨论）</title>
       <link>https://www.reddit.com/r/automation/comments/1kc4um9/in_the_age_of_ai_why_are_so_many_young_solo/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在公司工作，在这种情况下，运营团队使用自己的智慧进行修补系统差距。在实践中，这通常意味着团队中的某人学到足够的Excel来使事情工作 - 从简单的公式到复杂的VBA脚本。 来自IT背景，我从事入门级客户服务工作，发现Excel（尤其是VBA）非常有用。它已经安装了，我不需要征求超负荷商业工程团队的许可来创建为我节省数小时的小型自动化。 一年快进：在AI工具的帮助下，我教会自己进行编程。我现在在日常操作中看到各处的自动化机会。 令我震惊的是：AI无处不在，但是我仍然会从像VBA这样的32年历史的语言中获得巨大的杠杆作用 - 我周围的许多人仍在手动地抓住所有事情。 最近，我开始与小型企业主和牛皮包讲话。他们擅长核心技巧 - 但淹没在管理员：簿记，预约设置，发票等。 一些真实的例子：  在我镇上的年轻私人教练（22F）在我的城镇中经营着一个不断增长的业务 - 但通过文本和发送票据的方式来启用票据。 invoice.  This raises a question:   That got me thinking: what if I created something simple and local — a lightweight ERP or automation hub in Excel that empowers solo business owners to handle admin and bookkeeping easily, without needing to &quot;learn tech&quot;? I’ve already built a semi-automated invoice generator in Excel:  Services, clients, and price lists live in structured tables The invoice template uses dropdowns to fetch this info dynamically Press a button → it auto-generates a PDF invoice and drafts an Outlook email with it附加  所有事物在本地运行，没有超越Excel和Outlook的设置。我的想法是从这里开始，然后帮助用户最终在准备就绪时毕业于基于云的自动化。  我很想听听您的想法。 其他人是否看到了同样的差距？从低技术开始但结构化帮助人们最终加入更高技术？让我们讨论一下吗？也许甚至可以帮助更多独奏企业家进行这种飞跃。  ps：我使用AI来使我的原始草稿更加愉快，所以当您看到Em Dash haha​​h haha​​h haha​​h haha​​h /u/u/ryancan345     [link]   [注释]   ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在公司工作，在这种情况下，运营团队使用自己的智慧进行修补系统差距。在实践中，这通常意味着团队中的某人学到足够的Excel来使事情工作 - 从简单的公式到复杂的VBA脚本。 来自IT背景，我从事入门级客户服务工作，发现Excel（尤其是VBA）非常有用。它已经安装了，我不需要征求超负荷商业工程团队的许可来创建为我节省数小时的小型自动化。 一年快进：在AI工具的帮助下，我教会自己进行编程。我现在在日常操作中看到各处的自动化机会。 令我震惊的是：AI到处都是，但是我仍然从像VBA这样的32年历史的语言中获得了巨大的杠杆作用 - 我周围的许多人仍在手动地停留在我手动做所有事情。 最近，我开始与小型企业主和牛皮包讲话。他们擅长核心技巧 - 但淹没在管理员：簿记，预约设置，发票等。 一些真实的例子：  在我镇上的年轻私人教练（22F）在我的城镇中经营着一个不断增长的业务 - 但通过文本和发送票据的方式来启用票据。 invoice.  This raises a question:   That got me thinking: what if I created something simple and local — a lightweight ERP or automation hub in Excel that empowers solo business owners to handle admin and bookkeeping easily, without needing to &quot;learn tech&quot;? I’ve already built a semi-automated invoice generator in Excel:  Services, clients, and price lists live in structured tables The invoice template uses dropdowns to fetch this info dynamically Press a button → it auto-generates a PDF invoice and drafts an Outlook email with it附加  所有事物在本地运行，没有超越Excel和Outlook的设置。我的想法是从这里开始，然后帮助用户最终在准备就绪时毕业于基于云的自动化。  我很想听听您的想法。 其他人是否看到了同样的差距？从低技术开始但结构化帮助人们最终加入更高技术？让我们讨论一下吗？也许甚至可以帮助更多独奏企业家进行这种飞跃。  ps：我使用AI来使我的原始草稿更加愉快，所以当您看到Em Dash haha​​h haha​​h haha​​h haha​​h /u/u/ryancan345     [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1kc4um9/in_the_age_of_ai_why_are_so_many_young_solo/</guid>
       <pubDate>Thu, 01 May 2025 09:48:57 GMT</pubDate>
     </item>
@@ -48,13 +76,6 @@
       <pubDate>Thu, 01 May 2025 04:01:28 GMT</pubDate>
     </item>
     <item>
-      <title>我应该如何收费PLZ帮助</title>
-      <link>https://www.reddit.com/r/automation/comments/1kbz0ry/how_money_should_i_charge_plz_help/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，我是完全初学者，我刚刚学会了N8N。我针对特定的利基市场，而利基是房地产idk，我应该向他们出售什么自动化，如果有人知道PLZ帮助我🙏🙏  &lt;！ -  sc_on-&gt; sc_on-&gt;＆＃32;提交由＆＃32; /u/u/no/no-distribution2188     [link]       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1kbz0ry/how_money_should_i_charge_plz_help/</guid>
-      <pubDate>Thu, 01 May 2025 03:15:39 GMT</pubDate>
-    </item>
-    <item>
       <title>您是在AI或自动化中进行凉爽的事情吗？分享你的故事！</title>
       <link>https://www.reddit.com/r/automation/comments/1kbvsyj/are_you_working_on_something_cool_in_ai_or/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  作为此subreddit的主持人，并为（在Yahoo Finance，BusinessInster，More＆Meys from in Indorts in Indorts and Indort ai ai ai ai ai ai ai ai ai ai ai ai ai ai ai in o a in Initage and Indents of ai of ai of in of in Initical and of ai https://betterauds.com    &lt; /p&gt; ✔️它绝对是免费的✔️填写✔️的表格，并非所有条目都不会发布（如果发布您的条目，将通知您的通知）✔️优先级将对具有良好社交媒体的人提供✔的出版物，可能需要4-8周或更多的✔ href =“ https://docs.google.com/forms/d/e/1faipqlscec5pbsy5iiiwbdb2o-ixgpes3abbjmmbjmmbwp5yohxjdplixisg/view&gt;登录您的Google帐户以提交您的面试） 让我们展示此空间中发生的惊人工作！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/ragingboomerang     [link]       [注释]  ]]></description>
@@ -76,13 +97,6 @@
       <pubDate>Wed, 30 Apr 2025 22:45:00 GMT</pubDate>
     </item>
     <item>
-      <title>有人可以帮我吗？</title>
-      <link>https://www.reddit.com/r/automation/comments/1kbpqaf/can_anybody_help_me_in_this/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我想学会为当地企业主（我的客户）创建自动化。但是我对100年的在线课程yt视频感到非常困惑。因此，如果您遵循的一些YT视频或播放列表可以帮助任何人建议您遵循的一些视频或播放列表，如果专门专注于为本地企业创建自动化  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/jignesh_1313      [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1kbpqaf/can_anybody_help_me_in_this/</guid>
-      <pubDate>Wed, 30 Apr 2025 19:55:15 GMT</pubDate>
-    </item>
-    <item>
       <title>自动化流程是一次性演出。但是监视它们吗？这是经常出现的收入。</title>
       <link>https://www.reddit.com/r/automation/comments/1kbg88o/automating_flows_is_a_onetime_gig_but_monitoring/</link>
       <description><![CDATA[I’ve been building automations for clients with tools like Make, Zapier, n8n and custom scripts. One pattern kept showing up: I build the automation → it works → months later, something breaks silently → the client blames the system → I get called to fix it. 那是我意识到的：✅自动化是一项一次性工作。🔁但是监视实际上是客户长期需要的东西 - 他们只是不知道该如何要求它。 ，所以我开始在一个称为 flowmetr 开始，&lt;代码&gt;检查点，错误， stop ）） 给您一个干净的状态dashboard  在事情失败或挂起    时，请发送警报，或者是最好的部分？ “监控-AS-A-Service” 给他们的客户 - 结果是重复收入。结果。 如果您进行自动化工作并且想要：  减少支持消防演习   添加一个每月的retainer retainer at em     我很想听听您的想法，也许邀请您尝试一下。只需发表评论或DM ME   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/da0_1     [link]     32;   [注释]   ]]></description>
@@ -95,20 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，大家，现在已经呆了一段时间了，主要是为自己自动化事物并学习绳索。我知道，当您刚开始使用N8N或制造的功能强大的工具时，它可能会有多大的挑战 - 感觉就像是一条陡峭的学习曲线！ 我已经使用这些平台了一段时间，通过建造和修补来弄清楚事情。虽然我不会称自己为师师，但我很舒服，可以指导一个感觉卡住或全新的人。 如果您努力地努力使第一个工作流程运行，了解特定的节点，或者只需要使用N8N（或MAKE）朝着正确的方向推动，我想提供一些帮助。根据我的可用性，我可以实际坐着大约15-30分钟的会话，并每天开放给人们的数量，以便每天进行快速通话或聊天。 很高兴跳上屏幕共享并尝试找出一个基本问题，或者尝试找出一个基本问题，或者只是将您指向正确的资源。 （不和谐或变焦）不费用，只是想回馈社区并帮助您超越最初的驼峰。 如果您有兴趣，请给我发送一个dm，对您要做的事情或粘住的位置有所了解。  也完全是新的，如果您也不在乎。  时区：GMT+4我将在白天，每天上午5点至下午6点至少2周。我将编辑带有更新的原始帖子。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/automation/comments/1kbdh4f/are_you_starting_out_in_automation/”&gt; [link]   ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1kbdh4f/are_you_starting_out_in_automation/</guid>
       <pubDate>Wed, 30 Apr 2025 10:51:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个小型自动化，可节省3个客户端的每周5个小时以上的自动化</title>
-      <link>https://www.reddit.com/r/automation/comments/1kbc0la/one_small_automation_that_saved_5_hoursweek/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  这个简单但功能很强大：根据客户活动的自动创建和内部警报。 每当： 时：   crm   在CRM  中，一项交易阶段移动了 客户向客户提交了       听起来很小，但是在此之前，帐户经理正在执行所有此类手动。在3个客户中，这节省了大约5个小时/周 帐户。 不再错过的交接。没有更多的“谁在跟进这件事？”  有时胜利不是闪光。它正在删除快速堆叠的小任务。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/janithkavinda     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1kbc0la/one_small_automation_that_saved_5_hoursweek/</guid>
-      <pubDate>Wed, 30 Apr 2025 09:09:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>我做了一个镀铬扩展，将您的N8N聊天加载到侧面面板中！</title>
-      <link>https://www.reddit.com/r/automation/comments/1kbbfxw/i_made_a_chrome_extension_to_load_your_n8n_chats/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  嘿， 您是否发现自己经常与N8N聊天聊天触发器互动？也许对于内部工具，支持机器人或仅进行测试？我经常发现自己正在浏览书签或不断切换选项卡以访问不同的聊天URL。 以使其更容易，我构建了一个名为N8N Chat Loader的简单Chrome扩展程序，可让您直接加载和管理Chrome Side Panel中的N8N CHAT URL！面板。 管理多个聊天：为几个不同的n8n聊天网址保存配置。 快速切换：轻松从面板标题中的下拉列表中选择要聊天。 在此处查看： https://chromewebstore.google.com/detail/n8n-chat-loader/ojbijgjpblmoacniohaakgcbhdobpdof    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/unity_bird_219      ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1kbbfxw/i_made_a_chrome_extension_to_load_your_n8n_chats/</guid>
-      <pubDate>Wed, 30 Apr 2025 08:25:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
