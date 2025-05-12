@@ -4,7 +4,21 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Mon, 12 May 2025 03:43:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 06:26:18 GMT</lastBuildDate>
+    <item>
+      <title>构建了一个镀铬扩展名，可在16倍上跳过YT广告</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kkl8zv/built_a_chrome_extension_that_skips_yt_ads_on_16x/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 所以我是一名大学生，我以2.5倍的速度观看YT讲座，有时还会使用其他Chrome扩展名来提高视频速度。但是我注意到，当广告降临时，它的速度也提高了，我很早就得到了跳过按钮。  这单击了我，我想为什么不构建一个扩展程序，该扩展名可以检测其广告并在16倍中自动播放它，然后您可以轻松地跳过它并再次回到视频。 我的意思是，我的意思是，有广告阻滞剂，但对我而言，它并不总是有效。是的，我构建了它，尚未发布它，而是添加了我的GitHub存储库，以便您可以下载并在浏览器中使用它。 https://github.com/anshaneja5/yt-ads-skipper If you have any review, please write in the comments Thanks   提交由＆＃32; /u/u/u/clear_reserve_8089     &lt;a href =“ https://www.reddit.com/r/opensource/comments/1kkl8zv/built_a_a_chrome_extension_that_skips_skips_yt_yt_ads_ads_onds_on_on_16x/]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kkl8zv/built_a_chrome_extension_that_skips_yt_ads_on_16x/</guid>
+      <pubDate>Mon, 12 May 2025 05:57:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>MixClick：cookie clicker样式游戏。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kkkd18/mixclick_a_cookie_clicker_style_game/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好！我一直在制作一个简单而令人上瘾的游戏，可以在名为MixClick的浏览器中玩。 这个项目是一年前创建的，但是我从未真正更新它。我很想有一些贡献者，或者只是人们喜欢游戏并给我反馈。该项目的某些内容是：  - 以不同的升级购物 - 要转换的不同样式点  - 赌博 *（是的，赌博大声笑） *  - 以及更多。 href =“ https://github.com/mixtapejaxson/mixclick/”&gt; https://github.com/mixtapejaxson/mixclick/  href =“ https://mixtapejaxson.github.io/mixclick/”&gt; https://mixtapejaxson.github.io/mixclick/ 提交由＆＃32; /u/u/low_television_4498       [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kkkd18/mixclick_a_cookie_clicker_style_game/</guid>
+      <pubDate>Mon, 12 May 2025 04:59:01 GMT</pubDate>
+    </item>
     <item>
       <title>我只是打开PeerSuite，这是一种分散的松弛/不和谐替代品</title>
       <link>https://www.reddit.com/r/opensource/comments/1kkftut/i_just_opensourced_peersuite_a_decentralized/</link>
@@ -78,7 +92,7 @@
     <item>
       <title>MIDA：对于那些勇敢的灵魂仍在2025年仍在写C</title>
       <link>https://www.reddit.com/r/opensource/comments/1kk4244/mida_for_those_brave_souls_still_writing_c_in/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  对于那些仍在记忆安全的语言时代（我和你在一起）的人，我想分享一个我制作的小图书馆，这些库有助于C解决一个最令人讨厌的怪癖之一 - 完全缺乏阵列元数据。 Augmentation）是一个仅小型标头的C库，它将元数据附加到您的阵列和结构上，因此您实际上可以知道它们的大小而无需手动跟踪此信息。我知道革命性的概念。 为什么有人会这样做？ ，因为有时您卡住了维护旧版C代码。或在嵌入式系统上工作。或者，您只是喜欢偶尔的Segfault，以使您保持谦虚。 Whatever your reasons for using C in 2024, MIDA tries to make one specific aspect less painful. If you&#39;ve ever written code like this: c void process_data(int *data, size_t data_length) { // pray that the caller remembered the right length for (size_t i = 0; i &lt; data_length; i++) { // do stuff } }  并希望您可以做： c void process_data（int *data）{size_t data_length = mida_length（data）; // ✨ magic ✨ for (size_t i = 0; i &lt; data_length; i++) { // do stuff without 27 redundant size parameters } }  Then this might be for you! How it works In true C fashion, it&#39;s all just pointer arithmetic and memory trickery. MIDA attaches a small metadata header before your actual data, so your pointers work exactly like normal C arrays: ```c // For the brave C99 users int *numbers = mida_array(int, { 1, 2, 3, 4, 5 }); // For C89 holdouts (respect for maintaining 35-year-old code) int data[] = {1, 2, 3、4、5}; MIDA_BYTEMAP（bytemap，sizeof（data））; int *包装= mida_wrap（数据，bytemap）; ```` 但是，等等，还有更多！ 您甚至可以添加自己的自定义元数据字段： ``c // c //定义自己的元数据结构packet_metadata {uint16_t packet_id; //您自己的字段uint32_t crc; uint8_t标志; MIDA_EXT_METADATA; //标准元数据字段是最后一个};   //现在每个阵列都可以随身携带您的自定义信息uint8_t *packet = mida_ext_malloc（struct packet_metadata，sizeof（uint8_t），128），128），     // packet_metadata，数据包）; meta-＆gt; packet_id = 0x1234; meta-＆gt; flags = flag_urgent | flag_encrypted; ```` &#39;但是我在一个嵌入式平台上，不能使用malloc！＆quot&#39; 没问题！ MIDA可与堆栈分配的内存（或任何预先分配的缓冲区）： ```````c //带有元数据Uint8_t uint8_t Raw_buffer [64]; MIDA_BYTEMAP（bytemap，sizeof（raw_buffer））; uint8_t *buffer = mida_wrap（raw_buffer，bytemap）;    //现在您可以假装像C具有适当的阵列printf（“缓冲长度：％zu” zu \ n＆quort&#39;＆quort&#39;＆quid&#39;mida_length（buffer（buffer））; ```` 这是个玩笑吗？ 仅部分！虽然我认识到C更优雅地解决这些问题的现代替代方案，但有时您只需要与C一起工作。   整个事情都在单个标头文件（〜600行）中，已获得MIT许可，并且可用： https://github.com/lcsmuller/mida     ，如果像我一样，您会发现自己喃喃自语“我希望C知道它的阵列有多大，第1000次，也许尝试一下。 ，或者您知道，使用Rust/Go/任何现代语言，并从内存安全的高度嘲笑我们C程序员。那也很好。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/lucasmull     [link]   [注释]   ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  对于那些仍在记忆安全的语言时代（我和您同在）的人，我想分享一个我制作的小图书馆，这些库有助于C解决C最令人讨厌的怪癖之一 - 完全缺乏阵列元数据。 Augmentation）是一个仅小型标头的C库，它将元数据附加到您的阵列和结构上，因此您实际上可以知道它们的大小而无需手动跟踪此信息。我知道革命性的概念。 为什么有人会这样做？ ，因为有时您卡住了维护旧版C代码。或在嵌入式系统上工作。或者，您只是喜欢偶尔的Segfault，以使您保持谦虚。 Whatever your reasons for using C in 2024, MIDA tries to make one specific aspect less painful. If you&#39;ve ever written code like this: c void process_data(int *data, size_t data_length) { // pray that the caller remembered the right length for (size_t i = 0; i &lt; data_length; i++) { // do stuff } }  并希望您可以做： c void process_data（int *data）{size_t data_length = mida_length（data）; // ✨ magic ✨ for (size_t i = 0; i &lt; data_length; i++) { // do stuff without 27 redundant size parameters } }  Then this might be for you! How it works In true C fashion, it&#39;s all just pointer arithmetic and memory trickery. MIDA attaches a small metadata header before your actual data, so your pointers work exactly like normal C arrays: ```c // For the brave C99 users int *numbers = mida_array(int, { 1, 2, 3, 4, 5 }); // For C89 holdouts (respect for maintaining 35-year-old code) int data[] = {1, 2, 3、4、5}; MIDA_BYTEMAP（bytemap，sizeof（data））; int *包装= mida_wrap（数据，bytemap）; ```` 但是，等等，还有更多！ 您甚至可以添加自己的自定义元数据字段： ``c // c //定义自己的元数据结构packet_metadata {uint16_t packet_id; //您自己的字段uint32_t crc; uint8_t标志; MIDA_EXT_METADATA; //标准元数据字段是最后一个};   //现在每个阵列都可以随身携带您的自定义信息uint8_t *packet = mida_ext_malloc（struct packet_metadata，sizeof（uint8_t），128），128），     // packet_metadata，数据包）; meta-＆gt; packet_id = 0x1234; meta-＆gt; flags = flag_urgent | flag_encrypted; ```` &#39;但是我在一个嵌入式平台上，不能使用malloc！＆quot&#39; 没问题！ MIDA可与堆栈分配的内存（或任何预先分配的缓冲区）： ```````c //带有元数据Uint8_t uint8_t Raw_buffer [64]; MIDA_BYTEMAP（bytemap，sizeof（raw_buffer））; uint8_t *buffer = mida_wrap（raw_buffer，bytemap）;    //现在您可以假装像C具有适当的阵列printf（“缓冲长度：％zu” zu \ n＆quort&#39;＆quort&#39;＆quid&#39;mida_length（buffer（buffer））; ```` 这是个玩笑吗？ 仅部分！虽然我认识到C更优雅地解决这些问题的现代替代方案，但有时您只需要与C一起工作。   整个事情都在单个标头文件（〜600行）中，已获得MIT许可，并且可用： https://github.com/lcsmuller/mida     ，如果像我一样，您会发现自己喃喃自语“我希望C知道它的阵列有多大，第1000次，也许尝试一下。 ，或者您知道，使用Rust/Go/任何现代语言，并从内存安全的高度嘲笑我们C程序员。那也很好。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/lucasmull     [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1kk4244/mida_for_those_brave_souls_still_writing_c_in/</guid>
       <pubDate>Sun, 11 May 2025 15:47:30 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我构建了一个更简单，更轻，更快的react-tostify版本。您可以使用＆quot＆quot＆quort＆quot＆quot＆quot＆quot selport install distall untotatify＆quot＆quort＆quot＆quot＆quot; href =“ https://github.com/clouds440/untoastify”&gt; utoastify    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1kk2tqt/reacttoastify_how_how_about_untoastify/”&gt; [link]   ＆＃32;   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1kk2tqt/reacttoastify_how_about_untoastify/</guid>
       <pubDate>Sun, 11 May 2025 14:52:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>AirStation：自托住的互联网广播电台</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kk23cy/airstation_selfhosted_internet_radio_station/</link>
-      <description><![CDATA[      Hello everyone ✌️ I’d like to share my new open-source project that makes it quick and easy to deploy your own Internet radio station. The application features a clean and intuitive interface with only the essential functionality.它包括一个控制面板，您可以在其中上传轨道并为您的车站创建播放队列。也有一个内置的播放器，可供听众进行调整并查看播放历史记录。一切都包装在紧凑的Docker容器中，以进行快速和简单的部署。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/yurace       [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kk23cy/airstation_selfhosted_internet_radio_station/</guid>
-      <pubDate>Sun, 11 May 2025 14:19:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>在您看来，有什么很棒的读数文件？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kk1wd8/what_in_your_opinion_makes_for_a_great_readme_file/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正式正处于开放式项目的最后阶段 - 编写readme文件。 我会喜欢社区的输入 - 您认为什么会造成一个很棒的读数文件？您首先要寻找什么？有什么需要的？ 我注意到流行套餐之间有一些很大的差异。似乎并没有清楚的格式。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/yantab     [link]  &lt;a href =“ https://www.reddit.com/r/opensource/comments/1kk1wd8/what_in_in_your_opinion_makes_makes_for_a_great_great_great_readme_file/]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kk1wd8/what_in_your_opinion_makes_for_a_great_readme_file/</guid>
-      <pubDate>Sun, 11 May 2025 14:10:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
