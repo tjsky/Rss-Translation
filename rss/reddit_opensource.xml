@@ -4,111 +4,111 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Mon, 12 May 2025 12:32:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 May 2025 15:21:55 GMT</lastBuildDate>
     <item>
-      <title>由Python和Gemini AI提供动力的开源WhatsApp聊天机器人 - 每月只需6美元</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkpubz/open_source_whatsapp_chatbot_powered_by_python/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，大家！ 我最近使用google的Gemini AI和Wasenderapi开发了开源的WhatsApp Chatbot。 The goal was to create an affordable yet powerful chatbot solution. Key Features:  AI-Powered Responses: Utilizes Google&#39;s Gemini AI to generate intelligent and context-aware replies. WhatsApp Integration: Handles sending and receiving messages through WaSenderAPI.  成本效益：使用Wasenderapi以每月6美元的价格运行，Gemini的免费级别提供1,500个请求/月。    开源：在Github上完全可用。 href =“ http://github.com/yonkosam/whatsapp-python-chatbot”&gt; github.com/yonkosam/yonkosam/whatsapp-python-chatbot   我期待您的反馈和建议！提交由＆＃32; /u/u/samla123li     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkpubz/open_source_whatsapp_chatbot_powered_by_python/</guid>
-      <pubDate>Mon, 12 May 2025 11:12:03 GMT</pubDate>
+      <title>我使用本地AI重写创建了一个纯粹的客户端，基于浏览器的PDF到Markdown库</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kvvs6w/i_created_a_purely_clientside_browserbased_pdf_to/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我很高兴分享一个我一直在研究的项目： extract2md 。这是一个客户端的JavaScript库，可将PDF转换为Markdown，但有一些强大的曲折。最大的功能是，它可以使用本地大型语言模型（LLM）完全在浏览器中运行并重新格式化输出，因此任何数据都不会离开您的机器。     ，而不是一种尺寸适合的方法，我将其设计在5个特定的“方案”左右。取决于您的需求：   快速转换：这是为了速度。它使用pdf.js拔出可选文本并将其快速转换为降价。最适合简单的基于文本的PDF。  高精度仅转换：对于诸如扫描文档或具有很多图像的PDF之类的艰难内容。 This uses Tesseract.js for Optical Character Recognition (OCR) to extract text.  Quick Convert + LLM: This takes the fast extraction from scenario 1 and pipes it through a local AI (using WebLLM) to clean up the formatting, fix structural issues, and make the output much cleaner.  High Accuracy + LLM: Same as above,但是对于OCR输出。它使用AI来增强Tesseract.js。  组合 + LLM（推荐）：这是最全面的选择。它使用  pdf.js和tesseract.js，然后使用特殊提示将两个结果馈送到LLM，该提示告诉其如何最好地组合它们。这通常通过利用这两种提取方法的优势产生最好的结果。  以下快速浏览一下它的简单性： ```` Extract2MDConverter.comBinedConvertWithllm（pdffile）;   //或者，如果您只需要快速，简单的简单转换const QuickmarkDown =等待Extract2MdConverter.quickConvertonly（pdffile）（pdffile）; ````  技术堆栈：       pdf.js 用于标准文本提取。        QWEN完全在浏览器中。  它也是高度可配置的。您可以为LLM设置自定义提示，调整OCR设置，甚至携带自己的自定义模型。它还具有完整的打字稿支持和用于UI集成的详细进度回调系统。 对于使用较旧版本的任何人，我都保留了遗产API，但可以将其包裹起来，以使迁移顺利进行。 该项目是在 mit许可下开放式的  mit&gt;。您可以在/u/u/u/designer_athlete7286      [link]  &lt;a href =“ https://www.reddit.com/r/opensource/comments/1kvvs6w/i_created_a_purely_purely_clientside_browside_browserbased_pdf_to/”]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kvvs6w/i_created_a_purely_clientside_browserbased_pdf_to/</guid>
+      <pubDate>Mon, 26 May 2025 14:29:34 GMT</pubDate>
     </item>
     <item>
-      <title>我打开了用Python编写的终端端模因播放器。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkpmm8/i_opensourced_a_terminalside_meme_player_written/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在认真寻找可以看的人。 🎉在您的终端中玩nyan cat  -  python ascii动画项目       github ： Billloic/nyan-cat-cat-in-terminal   🐱音乐使用ffplay。 The video is processed frame by frame using OpenCV, and the terminal updates at full speed to display it like a retro media player. 💡 Why did I make this? The original Nyan Cat meme was created by prguitarman with music by daniwell (&quot;Nyanyanyanyanyanyanya!&quot;), and it became a symbol of joy and resilience after the 2011 Tohoku地震。 上个月标志着其14周年纪念日，作为长期的嗓音/utau的迷，我想通过建立python的乐趣和怀旧的东西来庆祝。 &gt;   🧑‍💻终端黑客或ASCII Art  复古互联网文化和模因的粉丝 任何想在其终端工具中添加轻松的复活节式    &gt;  🔍  这个版本是：    完全写在python  中，使其易于理解或延长 使用 opencv 现代框架处理    🎨可能使用  在您的CLI工具中将其添加为隐藏的复活节式  在启动脚本 时将其用作有趣的介绍，以便将其运行以恢复MEME历史              &lt;！提交由＆＃32; /u/u/unartial_garbage8557     [link]      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkpmm8/i_opensourced_a_terminalside_meme_player_written/</guid>
-      <pubDate>Mon, 12 May 2025 10:59:55 GMT</pubDate>
+      <title>Urbackup具有巨大的潜力 - 谁准备将其带入2025年？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kvulbr/urbackup_has_massive_potentialwhos_ready_to_bring/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  只是花了很多时间挖掘 urbackup ，老实说，我被  原始的力量和功能 。 It rivals commercial players like Veeam, Nakivo, and Macrium in terms of functionality-but man, the UI/UX looks like it’s stuck in 2012. This is an open-source backup platform with everything going for it:  Free and cross-platform Image-level and file-based backups Web UI for管理（尽管我也很想也希望看到一个本机Windows应用程序选项） 与Windows，Linux，Mac，NAS目标和更多 裸露的金属恢复选项 实时文件备份    替代方案。 该项目位于github上（ https://github.com/uroni ），由Martin Raiber维护。我敢打赌，他欢迎支持或贡献者。如果没有？叉子并建造世界上见过的最光滑，最直观的备份平台。 现在已经有一个坚固的引擎，现在只需要一个新的机构。 谁愿意承担挑战？设计师，前端devs，系统招认，这是一个开放式的项目。 ＆＃32;提交由＆＃32; /u/u/jamescorman   href =“ https://www.reddit.com/r/opensource/comments/1kvulbr/burbackup_has_has_massive_potentialwhos_potentialwhos_dready_to_bring/&gt; [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kvulbr/urbackup_has_massive_potentialwhos_ready_to_bring/</guid>
+      <pubDate>Mon, 26 May 2025 13:38:59 GMT</pubDate>
     </item>
     <item>
-      <title>宣布Keyed-Emaphore的第一个版本：基于密钥的并发限制的GO库！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkpm1a/announcing_the_first_release_of_keyedsemaphore_a/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/tibfromparis     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkpm1a/announcing_the_first_release_of_keyedsemaphore_a/</guid>
-      <pubDate>Mon, 12 May 2025 10:58:54 GMT</pubDate>
+      <title>开源项目卷曲厌倦了用户提交“ AI Slop”漏洞的用户</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kvukz9/open_source_project_curl_is_sick_of_users/</link>
+      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/u/unoctional-plum-5970        [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kvukz9/open_source_project_curl_is_sick_of_users/</guid>
+      <pubDate>Mon, 26 May 2025 13:38:31 GMT</pubDate>
     </item>
     <item>
-      <title>我如何支持和捐赠给开源开发人员？ （非常感谢大家！）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkpjwo/how_can_i_support_and_donate_to_opensource/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我只是想花点时间对所有开源开发人员表示深刻的赞赏。 Over the years, I&#39;ve come to rely on so many amazing tools, libraries, and applications—many of which are completely free and maintained by people who are generously giving their time, skill, and energy to make technology better for everyone. Whether it&#39;s a command-line tool that saves me hours, a beautiful UI library that simplifies development, or a rock-solid backend framework that powers a personal project, I know none of this would be possible without the incredible open-source 社区。我什至无法想象如果他们不存在的话，我的生活会是什么样。我知道有些项目在Github上具有捐赠链接或赞助商，但并不总是清楚如何以有意义的方式在财务上贡献。因此，我想问：  在财务上支持开源开发人员的最佳方法是什么？ 是否有公平平台或资金可以公平地分配支持？我是否应该专注于我使用的特定维护人员或项目？严重地。您的工作比您可能意识到的更多。 期待听到其他人如何接近这一点，也许可以得到一些具体的帮助。 再次感谢。   &lt;！ -  sc_on- sc_on-&gt;＆＃32;提交由＆＃32; /u/u/unartial_garbage8557     [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkpjwo/how_can_i_support_and_donate_to_opensource/</guid>
-      <pubDate>Mon, 12 May 2025 10:55:07 GMT</pubDate>
+      <title>社交媒体交叉共享工具</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kvt8du/social_media_cross_sharing_tool/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在寻找一种开源社交媒体交叉共享工具，该工具可处理相关平台的身份验证，并在Tiktok，Twitter，LinkedIn等上分享。最好在Node.js。 上它是我的应用程序中的一个功能，如果存在，我只是不想从头开始写。 有任何建议，建议？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/white_crown_1272     [link]   ＆＃32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kvt8du/social_media_cross_sharing_tool/</guid>
+      <pubDate>Mon, 26 May 2025 12:34:21 GMT</pubDate>
     </item>
     <item>
-      <title>引入无检测的YouTube广告块Zen🛡️</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkp4d6/introducing_detectionfree_youtube_adblocking_in/</link>
-      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/anfragment     [link]        [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkp4d6/introducing_detectionfree_youtube_adblocking_in/</guid>
-      <pubDate>Mon, 12 May 2025 10:27:55 GMT</pubDate>
+      <title>野猫 - 带有无锁的并发交易的嵌入式DB</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kvnfym/wildcat_embedded_db_with_lockfree_concurrent/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/databasedevelopment/comments/1kvnauw/wildcat_embedded_db_with_lockfree_concurrent/”&gt; [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kvnfym/wildcat_embedded_db_with_lockfree_concurrent/</guid>
+      <pubDate>Mon, 26 May 2025 06:24:00 GMT</pubDate>
     </item>
     <item>
-      <title>Rclone Manager v0.1.0 Beta发布！ 🎉</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kknlv6/rclone_manager_v010_beta_released/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿 r/opensource ！ 👋 我很高兴分享一个我一直在开展的项目 -  Rclone Manager-用于管理Rclone遥控器的GUI。它是由Tauri和Angular建造的，目前为Beta，可用于Linux＆amp; Windows（MACOS支持即将推出）。 Tauri   它是开源的，并且正在积极开发。我很想从社区那里获得反馈或建议！ 🚀  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1kknlv6/rclone_manager_v010_beta_relears/”&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kknlv6/rclone_manager_v010_beta_released/</guid>
-      <pubDate>Mon, 12 May 2025 08:43:18 GMT</pubDate>
+      <title>帮助Modyfi替代搜索</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kvj55m/help_with_modyfi_alternative_search/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  帮助我找到Modyfi Photo Editor的替代方案。我需要一些开源的东西，并且具有AI背景删除剂  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/madmex412     [link]     32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kvj55m/help_with_modyfi_alternative_search/</guid>
+      <pubDate>Mon, 26 May 2025 02:10:58 GMT</pubDate>
     </item>
     <item>
-      <title>福斯数字福利应用程序</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kknasz/foss_digital_wellbeing_app/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   Google的数字福利wpuld是理想的，如果它可以在我的手机上使用。因此，我正在寻找一个可以可靠地跟踪我的应用程序使用的应用程序，并且高于任何视觉设计和设计语言，然后与Google的应用程序尽可能地相似  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/cy-routine-6933     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kknasz/foss_digital_wellbeing_app/</guid>
-      <pubDate>Mon, 12 May 2025 08:20:40 GMT</pubDate>
+      <title>Kemono Downloader  - 开源GUI用于有效的内容下载和组织</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kvityv/kemono_downloader_opensource_gui_for_efficient/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我创建了一个名为kemono downloader的GUI应用程序，并认为与所有可能会有用的人共享它。它允许从kemono.su和coomer.party下载内容，并具有简单但干净的界面（基于PYQT5）。它支持通过字符名称，自动折叠下载的过滤，跳过特定的单词，甚至下载创建者或单个帖子的完整供稿。 它也具有cookie支持，因此您可以通过加载浏览器cookie查看订户材料。有一个强大的过滤系统，基于一个名为已知的文件。TXT，可以帮助您分组角色，分配别名并长期保持组织。 如果您有大量的艺术品，漫画或档案或档案的下载，则它具有特定的设置，它的设置以及诸如漫画/漫画模式， &lt; Open-Source和在GitHub上： https://github.com/yuvi9587/kemono-down7/kemono-downloader  提交由＆＃32; /u/u/okreflection4635      [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kvityv/kemono_downloader_opensource_gui_for_efficient/</guid>
+      <pubDate>Mon, 26 May 2025 01:54:09 GMT</pubDate>
     </item>
     <item>
-      <title>系统硬件贷款开源项目的建议，例如vast.ai，runpod.io等SaaS</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkmkz6/suggestion_for_system_hardware_lending_open/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  根据标题，我正在寻找专门从事此类事物的github repos，我可以让其他人使用我的设备硬件而无需明确访问所有内容。  &lt;！ -  sc_on- sc_on-&gt; 32;&gt; 32;提交由＆＃32; /u/u/professional_helper_     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkmkz6/suggestion_for_system_hardware_lending_open/</guid>
-      <pubDate>Mon, 12 May 2025 07:27:39 GMT</pubDate>
+      <title>URL.JS简约的移动和WebApp导航管理库</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kvim4z/urljs_a_minimalistic_mobile_and_webapp_navigation/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;    https://github.com/iagofg/url.url.url.url.js 有时我是一个小型应用程序和大框架，似乎是一个小框架。同样，有时有时历史记录导航（反向按钮或背部操作）表现得很奇怪。 这个简单的库允许您管理每个页面更改哪些库将哪些存储在历史中，如果您正在编辑表单并尝试更改选项卡，则可以允许代码允许使用它并易于使用并易于使用并允许检测多个生命周期事件。提交由＆＃32; /u/iagofg     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kvim4z/urljs_a_minimalistic_mobile_and_webapp_navigation/</guid>
+      <pubDate>Mon, 26 May 2025 01:41:41 GMT</pubDate>
     </item>
     <item>
-      <title>构建了一个镀铬扩展名，可在16倍上跳过YT广告</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkl8zv/built_a_chrome_extension_that_skips_yt_ads_on_16x/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 所以我是一名大学生，我以2.5倍的速度观看YT讲座，有时还会使用其他Chrome扩展名来提高视频速度。但是我注意到，当广告降临时，它的速度也提高了，我很早就得到了跳过按钮。  这单击了我，我想为什么不构建一个扩展程序，该扩展名可以检测其广告并在16倍中自动播放它，然后您可以轻松地跳过它并再次回到视频。 我的意思是，我的意思是，有广告阻滞剂，但对我而言，它并不总是有效。是的，我构建了它，尚未发布它，而是添加了我的GitHub存储库，以便您可以下载并在浏览器中使用它。 https://github.com/anshaneja5/yt-ads-skipper If you have any review, please write in the comments Thanks   提交由＆＃32; /u/u/u/clear_reserve_8089     &lt;a href =“ https://www.reddit.com/r/opensource/comments/1kkl8zv/built_a_a_chrome_extension_that_skips_skips_yt_yt_ads_ads_onds_on_on_16x/]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkl8zv/built_a_chrome_extension_that_skips_yt_ads_on_16x/</guid>
-      <pubDate>Mon, 12 May 2025 05:57:05 GMT</pubDate>
+      <title>有哪些GPLV2式许可证？允许使用允许的使用，但要分享力改善？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kve2tm/which_gplv2like_licenses_are_there_allowing/</link>
+      <description><![CDATA[I am exploring licenses at the moment and curious what are the available licenses if what i want is basically:  Anyone can use that software, commercially or not, regardless of the environment in which it is used. Any changes and improvements done to the source code must be shared even if not distributed to users.  从我的理解中，GPLV2检查＃1，而不是＃2，因为仅必须与任何在自己的机器上运行软件的人共享源代码，因此基本上有人仍然可以复制代码，在面对用户的后端上运行它，并进一步开发它而不共享他的改进。同样，它不再被更新（AFAIK），因此无法修补漏洞。 我想找到的另一个许可证也将从附加的角度上找到第三个要求：  可以与专有软件一起使用该代码。与IN一样，如果它是图书馆，则可以使用它，但仍强迫与图书馆本身分享改进。如果它是一个加载插件的程序，则可以编写专有插件。它可以在另一个过程中与专有软件进行通信。你明白了。   ＃3的目的是允许更多的营利性公司使用实际用途，同时仍要求他们共享直接改进。 和2个奖励点可能对任何一个许可证都很好的奖励点：                  与其他许多开放量的限制。项目的源代码在某种程度上。也许使用源代码将AI培训视为常规软件，因此必须像在源代码更改的方式一样共享AI模型。 *我不在乎实际执行它是多么不可能，只要它使其违法行为。提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1kve2tm/which_gplv2like_license_are_are_there_there_allowing/”&gt; [link]      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kve2tm/which_gplv2like_licenses_are_there_allowing/</guid>
+      <pubDate>Sun, 25 May 2025 21:50:53 GMT</pubDate>
     </item>
     <item>
-      <title>MixClick：cookie clicker样式游戏。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkkd18/mixclick_a_cookie_clicker_style_game/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好！我一直在制作一个简单而令人上瘾的游戏，可以在名为MixClick的浏览器中玩。 这个项目是一年前创建的，但是我从未真正更新它。我很想有一些贡献者，或者只是人们喜欢游戏并给我反馈。该项目的某些内容是：  - 以不同的升级购物 - 要转换的不同样式点  - 赌博 *（是的，赌博大声笑） *  - 以及更多。 href =“ https://github.com/mixtapejaxson/mixclick/”&gt; https://github.com/mixtapejaxson/mixclick/  href =“ https://mixtapejaxson.github.io/mixclick/”&gt; https://mixtapejaxson.github.io/mixclick/ 提交由＆＃32; /u/u/low_television_4498       [link]       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkkd18/mixclick_a_cookie_clicker_style_game/</guid>
-      <pubDate>Mon, 12 May 2025 04:59:01 GMT</pubDate>
+      <title>是否有类似于吸血鬼幸存者的开源游戏？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kv7199/is_there_an_open_source_game_that_is_similar_to/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  是否有类似于吸血鬼幸存者的开源游戏？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/roman_triller     [link]   [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kv7199/is_there_an_open_source_game_that_is_similar_to/</guid>
+      <pubDate>Sun, 25 May 2025 16:45:45 GMT</pubDate>
     </item>
     <item>
-      <title>我只是打开PeerSuite，这是一种分散的松弛/不和谐替代品</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkftut/i_just_opensourced_peersuite_a_decentralized/</link>
-      <description><![CDATA[       &lt;！ -  sc_off- sc_off-&gt;  它也可以从网络上使用 组之间的所有流量均已加密WEBRTC，没有服务器，只有P2P通信。 该工具集包括与文件发送，视频通话，屏幕共享，共享白板，斜线，斜线，斜线，斜线和协作文档界面的聊天。提交由＆＃32;  /u/thebadslime   [link]   [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkftut/i_just_opensourced_peersuite_a_decentralized/</guid>
-      <pubDate>Mon, 12 May 2025 00:43:53 GMT</pubDate>
+      <title>试图找到开源解决方案。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kv68ol/trying_to_find_an_open_source_solution/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我已经遇到了很多这样的工作流/节点映射解决方案，我觉得在某个地方必须有一个开源的打字字节界面。 理想情况下，像escelidraw一样，但是现代且适用于代理工作流。我希望能够自定义每个节点的上下文/范围 任何人都知道什么？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fun-hat6813     [link]    ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kv68ol/trying_to_find_an_open_source_solution/</guid>
+      <pubDate>Sun, 25 May 2025 16:11:26 GMT</pubDate>
     </item>
     <item>
-      <title>生锈工具：port.pub</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kke82b/rust_tool_portpub/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我已经构建了一个生锈的CLI工具，将您的本地http服务器发布到Internet。    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/theahya      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kke82b/rust_tool_portpub/</guid>
-      <pubDate>Sun, 11 May 2025 23:20:34 GMT</pubDate>
+      <title>带JavaScript的浏览器中的开源有限元模拟</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kv5cku/opensource_finite_element_simulations_in_the/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我一直在开发一个名为feoScript的开源项目 - 有限元素仿真（FEA）库完全写在JavaScript中，直接在没有后端设置的浏览器中运行。     这个想法是使模拟工具更容易访问，尤其是用于学习和实验。您可以调整输入并立即查看结果 - 就像FEA的JSFIDDLE。  一个基于区块的no-code GUI（早期WIP）     feascript.com     会喜欢反馈 - 贡献者非常受欢迎！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/nikoscham     [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kv5cku/opensource_finite_element_simulations_in_the/</guid>
+      <pubDate>Sun, 25 May 2025 15:33:09 GMT</pubDate>
     </item>
     <item>
-      <title>DJANGO REST API密钥软件包</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kkacwf/a_django_rest_api_key_package/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿， 我已经在使用Django的一些项目工作了大约五年了。但是，当我发现DRF时，我决定专注于构建后端API应用程序，而无需与前端打交道。但是大约一两年前，我开始为某些SaaS项目构建API，我意识到我需要一个强大的API密钥管理系统。 我最初使用 https://github.com/florimondmanca/florimondmanca/djangorestframework-pramework-api-key       非常出色，并且拥有API密钥系统，包括API密钥系统，包括per in prectife in prectife in prectife perfiely perdiation perdiation per  ，但是，当我想进一步推动包装时，我会遇到一些限制。我需要诸如密钥旋转，监视和用法分析之类的功能来帮助按请求和权限计费，并在包装​​使用密码使用Hashing Algorithms创建API键的情况下进行计费。 因此，我决定创建自己的软件包。我已经在研究大约九个月到一年了，这已经走了很长一段路。 Here are some of the key features:  Quick Authentication and Permission System: You can easily implement authentication and permissions, for example, for organizations or businesses. Monitoring and Analytics: There&#39;s a built-in application to track the usage of API keys per endpoint and the number of requests made, which is great for billing or security措施。   API键旋转：此功能花了一些时间才能完美。因为包装使用 fernet 用于加密和解密API键，您可以平稳旋转API键。如果您有泄漏，则可以开始使用新的Fernet键，同时逐步淘汰旧键而不会中断。您可以在自动旋转和手动旋转之间进行选择。旧的Fernet键将用于解密API键，而新的Fernet键将用于加密新的API键。这使您有时间向用户发送有关正在进行的密钥迁移的消息。  https：////cryptography.io/en/latest/latest/latest/fernet/#cryptography.fernet.fernet.multifernet.multifernet.multifernet.multifernet  at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at at&gt;最初，我在一开始就以1.0的价格发布了版本，但是很快就意识到我应该从较低的版本编号开始。我不断地致力于改进，主要是在版本上进行。例如，键入尚未完全实现，我正在努力在接下来的几周内使用Nextra来增强文档。 我正在寻找反馈以使该软件包变得更好。无论是关于安全措施，缺失功能还是任何其他建议，我都希望收到您的来信。 您可以找到包装您可以提供的任何反馈！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/mapdue7360     [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kkacwf/a_django_rest_api_key_package/</guid>
-      <pubDate>Sun, 11 May 2025 20:21:18 GMT</pubDate>
+      <title>我为行业证书做了开源准备问题生成器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kv57xo/i_made_an_open_source_prep_question_generator_for/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我的辅助项目（ https：//github.com/ygithub.com/ilya-smmut/blue-book-book-bbook-book 最终都可以在强大的问题中概述过任何问题，而不是为了生成强大的问题，而不是生成强大的工具。具有多项选择问题的认证作为考试的一部分。 最新版本的蓝书使您可以在选择的考试之间添加和切换！每次考试都使您可以将一组单独的主题和问题保存到持续记忆中，以进行将来的重复使用/评论。 生成准备问题从未如此简单。 选择考试 - ＆gt;指定问题数 - ＆gt; （选项）指定一个主题以关注 - ＆gt;生成问题。 此外，您还可以将主题保存以供将来重复使用，并将您与之挣扎的问题保存到保存的问题库中，以进行将来的审查！ 和最好的事情 - 您只需要创建一个免费的Google Gemini图表即可运行该应用程序。是的，所有这些都是免费的！  Student -Bluebook是出于唯一目的而开发的 - 解决了为行业认证寻找实践考试的问题。如果您曾经为Comptia Security+等考试做准备，那么您可能会知道找到一些高质量的准备问题的痛苦。我什至不是免费谈论“这绝不是首先的选择。 随时可以通过从pypi安装： https：/ 另外，您可以部署一个预先配置的Docker容器运行蓝书： https：// https：//hub.docker.com/r/ylyasmut/r/ilyasmut/student/student/student/student-bluebookbook 指南请访问github上的Wiki（ https://student-bluebook.notion.site/site/     &lt;！ -  sc_on-提交由＆＃32; /u/u/cyber_kitten_03     [link]  &lt;a href =“ https://www.reddit.com/r/opensource/comments/1kv57xo/i_made_an_open_source_prep_question_generator_for/”]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kv57xo/i_made_an_open_source_prep_question_generator_for/</guid>
+      <pubDate>Sun, 25 May 2025 15:27:29 GMT</pubDate>
     </item>
     <item>
-      <title>Starguard  - 发现伪造GitHub星星，危险依赖和许可陷阱的CLI</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kk9gf5/starguard_cli_that_spots_fake_github_stars_risky/</link>
-      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/welecomemysterious122      &lt;a href =“ https://www.reddit.com/r/opensource/comments/1kk9gf5/starguard_cli_that_that_that_spots_fake_github_stars_risky/]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kk9gf5/starguard_cli_that_spots_fake_github_stars_risky/</guid>
-      <pubDate>Sun, 11 May 2025 19:42:21 GMT</pubDate>
+      <title>开源可以替换Google生态系统吗？探索想法 - 欢迎建议</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kv3fn9/can_open_source_replace_the_google_ecosystem/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我一直在想：我们能否实际建立一个社区驱动的，尊重隐私的替代方案？ Not just search — but accounts, Drive, Maps, even a CDN or video platform — all under one open-source, modular, ethical umbrella. Imagine: A search engine (open-source, self-hostable, optionally personalized) A Drive-like encrypted storage system Account system syncing user history and preferences Mapping, navigation,也许将来的日历和邮件在 社区供电的CDN和托管工具 完全透明度，没有跟踪，完全用户控制的 它是雄心勃勃的 - 显然只能通过社区输入和协作来使用。我正在尝试后端概念，并尝试将现有的FOSS工具作为潜在的构建块。 现在，我只是在探索和勾勒出所有内容。我很想听听这个社区的来信： 今天的Google替代方案中缺少什么？ 您想要什么？ 您建议作为基础的任何项目/工具？ 是否会引起任何愿景？义务 - 只是良好的共鸣和开放协作。 （由AI编写为我的语法不好）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/ibtisam-shahid-kh      [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kv3fn9/can_open_source_replace_the_google_ecosystem/</guid>
+      <pubDate>Sun, 25 May 2025 14:09:08 GMT</pubDate>
     </item>
     <item>
-      <title>构建开源JavaScript数字标牌播放器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1kk9g45/building_an_opensource_javascript_digital_signage/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好！ 当今的数字标牌软件市场由专有的解决方案占主导项目。 而不是从完整的CMS开始，我决定首先创建一个独立的播放器应用程序，该应用程序可以使用预定义的时间表和布局独立运行。 当前WIP。对于学习目的而言，但尚未准备好生产使用。 它支持多区域屏幕布局和平稳的过渡，并用JavaScript编写，以实现最大的灵活性，在浏览器中或通过电子或Tauri作为桌面应用程序。这也为轻松适应WebOS和Tizen的基础奠定了基础，该Webos和Tizen支持JS（由LG和Samsung标牌显示）。 我还在探索React Native以构建本机Android版本。我希望它能在Android电视和Android盒子上运行良好，因为它们不像PC。 href =“ https://github.com/screenlite/web-player”&gt; https://github.com/screenlite/web-player    首先运行可能会有点张开，可能是由于实时缓存而导致的，但是在第一次循环后平稳。  如果您对开放源代码数字标牌感兴趣，我很想反馈，在低端设备上进行测试，甚至是合作者！   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1kk9g45/building_an_opensource_javascript_digital_signage/”&gt; [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1kk9g45/building_an_opensource_javascript_digital_signage/</guid>
-      <pubDate>Sun, 11 May 2025 19:41:58 GMT</pubDate>
+      <title>现代广播电台查找器和播放器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1kuzq9h/modern_radio_station_finder_player/</link>
+      <description><![CDATA[         &lt;！ -  sc_off-&gt;  🎵🎵   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/dascanardus       [注释]  &gt;]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1kuzq9h/modern_radio_station_finder_player/</guid>
+      <pubDate>Sun, 25 May 2025 10:50:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
