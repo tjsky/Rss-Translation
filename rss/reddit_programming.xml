@@ -4,13 +4,62 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 28 May 2025 03:42:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 06:23:56 GMT</lastBuildDate>
     <item>
-      <title>是否有一个数据库，可以像JSON文档一样支持Google Protobuf</title>
-      <link>https://www.reddit.com/r/programming/comments/1kx6rs1/is_there_a_database_which_can_support_google/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  许多数据库在本地支持JSON文档，例如SQLITE MySQL PGSQL等，但是JSON访问速度很慢，并且不是很方便。如果数据库可以在本地支持Google Protobuf，那么它将非常出色。   性能将很高，并且应用可以使用语言本机类直接访问对象。 可以将对象存储到Protobuf中的数据库中。 可以在ProtoBuf Fields上创建索引。   可以从数据库中检测到的protieve fortive。 directly. Application can update database protobuf fields value directly. Application can update whole protobuf object. Don&#39;t need complex and heavy ORM(Object Relational Mapping) to store object to database. Applications in different languages can access the protobuf object in a consistent way. Database can convert the protobuf to JSON输出。 数据库也可以支持JSON输入，该输入也将在内部转换为Protobuf。 数据库CLI可以自动将Protobuf对象转移到JSON格式中。     &lt;！ -  sc_on-&gt;&gt; 32;提交由＆＃32; /u/u/blackdrn      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kx6rs1/is_there_a_database_which_can_support_google/</guid>
-      <pubDate>Wed, 28 May 2025 03:13:53 GMT</pubDate>
+      <title>Python Rag API教程与Langchain＆Fastapi  - 完整指南</title>
+      <link>https://www.reddit.com/r/programming/comments/1kxa0pt/python_rag_api_tutorial_with_langchain_fastapi/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/历史_wing_9573        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kxa0pt/python_rag_api_tutorial_with_langchain_fastapi/</guid>
+      <pubDate>Wed, 28 May 2025 06:21:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>与Python，Langchain和Fastapi的抹布</title>
+      <link>https://www.reddit.com/r/programming/comments/1kx9s2s/rag_with_python_langchain_fastapi/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我写了一个深入研究教程，讲述了如何使用python，langchain，fastpapi，fastgresql + pgvector构建简单的检索型（RAG）API（RAG）API。提交由＆＃32; /u/u/u/历史_wing_9573        [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kx9s2s/rag_with_python_langchain_fastapi/</guid>
+      <pubDate>Wed, 28 May 2025 06:05:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何范围微服务：绘制数字边界的艺术</title>
+      <link>https://www.reddit.com/r/programming/comments/1kx9m5v/how_to_scope_a_microservice_the_art_of_drawing/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  微服务体系结构中最具挑战性的问题之一不是技术性的，而是哲学上的。您如何确定一种服务结束的地方，另一个服务开始的位置？使它们太小，您将淹没在网络通话和部署复杂性中。使它们太大，您基本上已经构建了一个伪装成微服务的整体。 获得微服务范围的正确范围就像Goldilocks找到了完美的粥一样，您需要它。但是与童话不同，没有普遍的“正确”。尺寸。完美的范围取决于您的团队，您的领域和您的特定业务需求。 关键见解是微服务边界应反映您的业务界限，而不是您的技术体系结构。您不仅要分割代码 - 您正在建模组织的工作方式和思考问题。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/vturan23     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kx9m5v/how_to_scope_a_microservice_the_art_of_drawing/</guid>
+      <pubDate>Wed, 28 May 2025 05:55:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何范围微服务：绘制数字边界的艺术</title>
+      <link>https://www.reddit.com/r/programming/comments/1kx9gy6/how_to_scope_a_microservice_the_art_of_drawing/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  微服务体系结构中最具挑战性的问题之一不是技术性的，而是哲学上的。您如何确定一种服务结束的地方，另一个服务开始的位置？使它们太小，您将淹没在网络通话和部署复杂性中。使它们太大，您基本上已经构建了一个伪装成微服务的整体。 获得微服务范围的正确范围就像Goldilocks找到了完美的粥一样，您需要它。但是与童话不同，没有普遍的“正确”。尺寸。完美的范围取决于您的团队，您的领域和您的特定业务需求。 关键见解是微服务边界应反映您的业务界限，而不是您的技术体系结构。您不仅要分割代码 - 您正在建模组织的工作方式和思考问题。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/vturan23     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kx9gy6/how_to_scope_a_microservice_the_art_of_drawing/</guid>
+      <pubDate>Wed, 28 May 2025 05:46:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>关闭跳过：Openai的O3模型如何超越其关闭开关</title>
+      <link>https://www.reddit.com/r/programming/comments/1kx9ggb/shutdown_skipped_how_openais_o3_model_outsmarted/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/namit2111      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kx9ggb/shutdown_skipped_how_openais_o3_model_outsmarted/</guid>
+      <pubDate>Wed, 28 May 2025 05:45:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>生产性monorepo的成分</title>
+      <link>https://www.reddit.com/r/programming/comments/1kx9fq8/the_ingredients_of_a_productive_monorepo/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/gherefulboy      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kx9fq8/the_ingredients_of_a_productive_monorepo/</guid>
+      <pubDate>Wed, 28 May 2025 05:44:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Frodokem：增强量子未来的密码学</title>
+      <link>https://www.reddit.com/r/programming/comments/1kx8veh/frodokem_bolstering_cryptography_for_a_quantum/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/donutloop     [link]        [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kx8veh/frodokem_bolstering_cryptography_for_a_quantum/</guid>
+      <pubDate>Wed, 28 May 2025 05:10:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>了解限制费率的重要性，以使您的API的每个用户公平使用。</title>
+      <link>https://www.reddit.com/r/programming/comments/1kx7vzi/learn_the_importance_of_rate_limiting_to_allow/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  😵问题：当您的API获得HammeredPicture时，您的闪亮新API运行顺利，每分钟处理数百个请求。生活是美好的。然后突然，一个客户开始每秒发送10,000个请求。您的服务器着火，数据库崩溃，合法用户无法再访问您的服务。或者也许机器人发现您的API并决定刮擦所有数据。或者，也许开发人员意外地将您的API呼叫放入无限循环中。如果没有保护，这些场景就可以在几分钟内降低整个系统。这正是我们需要限制和速率限制的原因 - 它们就像您的API的交通信号灯，确保每个人都可以公平访问而不会导致崩溃。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/vturan23      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1kx7vzi/learn_the_importance_of_rate_limiting_to_allow/</guid>
+      <pubDate>Wed, 28 May 2025 04:14:20 GMT</pubDate>
     </item>
     <item>
       <title>不要解决您没有的问题。您实际上是在造成问题。</title>
@@ -60,55 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1kx0wno/running_gpt2_in_webgl_rediscovering_the_lost_art/</guid>
       <pubDate>Tue, 27 May 2025 22:30:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>斯蒂芬·巴拉班（Stephen Balaban）说，生成人类代码甚至不再有意义。软件不会写。它将被提示存在，并“表现得像代码”。</title>
-      <link>https://www.reddit.com/r/programming/comments/1kwyraw/stephen_balaban_says_generating_human_code_doesnt/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/i-t-t-t-i       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kwyraw/stephen_balaban_says_generating_human_code_doesnt/</guid>
-      <pubDate>Tue, 27 May 2025 21:02:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web开发路线图2025</title>
-      <link>https://www.reddit.com/r/programming/comments/1kwx2xi/web_dev_roadmap_2025/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我找到了2025年的90天Web路线图，这对自学者非常有帮助。认为别人也可能会受益。如果您有时间  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/oganesson118_       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kwx2xi/web_dev_roadmap_2025/</guid>
-      <pubDate>Tue, 27 May 2025 19:56:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>PHP视图软件包 - 使用刀片和模型驱动方法变得容易模板</title>
-      <link>https://www.reddit.com/r/programming/comments/1kwwq3i/php_views_package_templating_made_easy_with_blade/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/scosio     &lt;a href =“ https://www.reddit.com/r/programming/comments/1kwwq3i/php_views_package_templating_made_easy_with_with_blade/]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kwwq3i/php_views_package_templating_made_easy_with_blade/</guid>
-      <pubDate>Tue, 27 May 2025 19:42:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>统一的MCP服务器分析和查询您的数据中的PostgreSQL，Snowflake和BigQuery</title>
-      <link>https://www.reddit.com/r/programming/comments/1kww4mg/unified_mcp_server_to_analyze_and_query_your_data/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/jekapats      [注释]     ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kww4mg/unified_mcp_server_to_analyze_and_query_your_data/</guid>
-      <pubDate>Tue, 27 May 2025 19:19:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>否，如果绘制或减少；数据库之外的关系代数。</title>
-      <link>https://www.reddit.com/r/programming/comments/1kww0b1/no_if_while_map_or_reduce_relational_algebra/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/blambeau     [link]&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kww0b1/no_if_while_map_or_reduce_relational_algebra/</guid>
-      <pubDate>Tue, 27 May 2025 19:14:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>在BQN中示意一个Mise-en-abîme</title>
-      <link>https://www.reddit.com/r/programming/comments/1kwv4ta/scheming_a_miseenabîme_in_bqn/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kwv4ta/scheming_a_miseenabîme_in_bqn/</guid>
-      <pubDate>Tue, 27 May 2025 18:40:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Livestore是基于反应性SQLite和Git启发的同步的下一代状态管理框架</title>
-      <link>https://www.reddit.com/r/programming/comments/1kwv3k0/livestore_is_a_nextgeneration_state_management/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1kwv3k0/livestore_is_a_nextgeneration_state_management/</guid>
-      <pubDate>Tue, 27 May 2025 18:39:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
