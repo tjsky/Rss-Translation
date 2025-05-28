@@ -4,111 +4,111 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Tue, 27 May 2025 15:17:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 03:42:56 GMT</lastBuildDate>
     <item>
-      <title>帮助医学学生（网站/AI NOOB）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwpu0d/help_out_a_med_student_websiteai_noob/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我是一名现任医学生，与神经病学系主任一起开发一个网站，其中包含Clerkship练习问题，该练习问题与集成的AI教练一起，向用户解释其答案的解释提供了反馈。我对最终目标有一个总体的想法，但我对起步方向感到不知所措。我确实有几个问题，任何建议都将不胜感激。  是否有一个推荐的平台来构建一个用户友好的网站（即我是菜鸟），理想情况下是低成本或免费的（即我打破了） 是否值得尝试使用我自己的AI IS ai IS e  是否有可能限制AI思考选择资源/教科书？尤其是在医学中，不一致的AI反应可能会引起难以置信的误导。 对我级别上的某人的任何一般学习资源或建议，他们可能没有时间掌握机器学习或网络开发。   谢谢！提交由＆＃32; /u/u/stony24k     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwpu0d/help_out_a_med_student_websiteai_noob/</guid>
-      <pubDate>Tue, 27 May 2025 15:14:45 GMT</pubDate>
+      <title>设计帮助：保护公共回购中的秘密</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx5qtu/design_help_protect_secrets_in_public_repo/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在github上发表了一个Discord bot作为开源，我部署到Cloudflare Worker上，因此仅在称为但不存在时才运行。这使其可以免费托管且响应迅速，这很酷。我想以这样的方式添加一个简单的数据库，以便我可以通过其他方式定期更新数据库，并且该机器人将能够访问该数据集。弄清楚如何安全地将机器人推向数据库而不使其公开写入的奖励点。本质上，我希望能够将数据与电子邮件地址联系起来，然后能够让Discord用户查询自己的数据。  假设我已经构建了一个函数，将Discord用户链接到我已经存储的电子邮件地址。设计是什么是什么，或者有人认为甚至有可能做到（类似） *盐+哈希电子邮件地址，并将其用作SQLite DB文件中的主要钥匙。 * *将Sqlite DB文件推到Github，将盐推向CloudflareSecrets。 *  *在更新DB时，将其恢复到DB，将其恢复到新的盐和新的盐时，并更新CF。 *当用户与Bot交互时，CF Worker可以使用盐和用户输入来生成Hashed的电子邮件值（输入参数）并查找。如果匹配，请返回该用户的数据，其他错误。 *另外，如果不符合的用户ID与电子邮件，盐和哈希用户相匹配，请在用户表上查找。如果匹配，则返回数据，否则错误。 这是行不通的，对吗？知道我如何在不托管任何服务器的情况下做到这一点？我想扩展机器人功能，但也挑战自己在完全无服务器，开源和免费设计中构建它。  我知道GDPR和CCPA，并且对隐私感到关注。这就是为什么我在构建对我有疑问的东西之前在设计之前寻求帮助的原因。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/humor4fun     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx5qtu/design_help_protect_secrets_in_public_repo/</guid>
+      <pubDate>Wed, 28 May 2025 02:21:44 GMT</pubDate>
     </item>
     <item>
-      <title>如何正确使用WordPress？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwpnpe/how_to_use_wordpress_properly/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我被迫使用WordPress创建一个网站。这是一个简单的静态网站。我通常什至不用使用这种事情来使用框架。 客户很固执，因为她需要“一些插件”。和“自由”。即使我可以拒绝这份工作，我已经说过要做。 ，但是，我从未使用过WordPress。我不想学习如何使用页面构建器和YT上的数小时来学习这一点。有没有办法实施HTML，CSS＆amp;直接在其中？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1kwpnpe/how_to_to_use_wordpress_properly/”&gt; [link]    32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwpnpe/how_to_use_wordpress_properly/</guid>
-      <pubDate>Tue, 27 May 2025 15:07:46 GMT</pubDate>
+      <title>渲染的服务器被机构wifi所阻挡，但不是Heroku的服务器？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx5hee/renders_server_gets_blocked_by_institutional_wifi/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我很困惑，因为这对于使用渲染是一个严重的劣势，即使它便宜得多，更现代。不知何故，我们在国外的用户使用业务/机构wifi时，请求我们的 render.com  PAAS被阻止。但是，当我们曾经使用Heroku时，它并没有被阻止... Heroku多年来是否刚刚建立了很多信用，并在白名单中列出了？ ，如果是这样，还有Heroku的其他选择吗？我认为AWS ElasticBeanstalk或Digitalocean可能也可能在那里  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1kx5hee/renders_server_gets_blocked_by_institutional_wifi/&gt; [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx5hee/renders_server_gets_blocked_by_institutional_wifi/</guid>
+      <pubDate>Wed, 28 May 2025 02:08:59 GMT</pubDate>
     </item>
     <item>
-      <title>心理健康与健康仪表板 - 需要反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwp5kj/mental_health_wellness_dashboard_need_feedback/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我开始研究一个小主意 - “心理健康＆quot”＆amp;健康仪表板“您可以用来跟踪您的心理健康和健康的平台。 仍然没有使用UI。 Focused on making all functionality work. What is has so far:Overall daily moodYou can log multiple moods throughout the dayYou can share notes in a journalYou can log how much time you have slept last nightYou can add habits and goals and keep track of themThere is a dedicated Meditation page in which you can play a music for meditation, log your meditation timeInsights for weekly/montly reports about your overall wellness, cross-mapping “星期一，您感到焦虑，只睡了4个小时。也许睡觉会为您提供帮助。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/criting       [注释]            ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwp5kj/mental_health_wellness_dashboard_need_feedback/</guid>
-      <pubDate>Tue, 27 May 2025 14:48:01 GMT</pubDate>
+      <title>试图使用Next/Framer Animations/ett制作双面个人投资组合网站（平原而漂亮）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx4t6p/tried_to_make_a_doublesided_personal_portfolio/</link>
+      <description><![CDATA[      Working on my personal site and thought it would be cool to do one classic resume-style version and another more design-forward with a constellation and have it seamlessly switch between the two.使用共享数据模型但生成两个站点，如果有人有这种事情的经验  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/usteri     [link]   [注释]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx4t6p/tried_to_make_a_doublesided_personal_portfolio/</guid>
+      <pubDate>Wed, 28 May 2025 01:35:26 GMT</pubDate>
     </item>
     <item>
-      <title>您是否使用站立式桌子进行编码？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwp4gr/do_you_code_using_a_standing_desk/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我当前的桌子摇摆不定，这使我疯狂地试图做到这一点，而我的屏幕巧妙地发抖。我很确定稳定事物的驼背是为什么我的背部杀死了我的原因。我的朋友告诉我要找到一个新的站立式桌子，但我没有说服。 我知道所有关于“坐着是新的吸烟”的话题，但实际上是真的吗？立即站起来完全拧紧我的注意力。我几乎无法完成工作。而且我从来没有看到任何人实际使用它们，这总是只是普通的桌子。感觉更像是炒作的东西！  我们不能像正常坐着去健身房一样吗？但是我的坐骨神经痛仍然迫使我做某事。有更好的recs吗？谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1kwp4gr/do/do_you_code_usis_a_a_a_astance_andand_desk/”&gt; [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwp4gr/do_you_code_using_a_standing_desk/</guid>
-      <pubDate>Tue, 27 May 2025 14:46:46 GMT</pubDate>
+      <title>讨厌前端</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx42b8/hate_frontend/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我不明白一个人会喜欢它。 Frotnend太糟糕了。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/utageous_world_868      [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx42b8/hate_frontend/</guid>
+      <pubDate>Wed, 28 May 2025 00:58:38 GMT</pubDate>
     </item>
     <item>
-      <title>网站能够在未经外部许可，警告或指示的情况下启动屏幕共享？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwor7q/a_website_is_able_to_initiate_screen_sharing/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  在与Airbnb支持联系时，他们要求我通过单击其实时聊天页面中的任意“启动屏幕共享”按钮来共享我的屏幕。该按钮可以通过例如。恶意网站。  起初，我以为没有明显效果，但支持代表确认他可以看到我在做什么，包括切换到其他标签后。  这是在Windows 11（24H2 Build 26100.4061）上的Opera（一个）118.0.5461.104中的普通浏览器会话中，没有安装相关的插件，扩展名或应用程序。在对Airbnb问题进行故障排除过程中，我是新安装的Google Chrome（136.0.7103.114），并登录使用隐身窗口，并且屏幕共享功能再次表明我是否有活跃，除了Airbnb Live winding winds以外，它可能会出现任何机构，并且可以通过哪种机构进行操作。启动屏幕共享而无需用户知道吗？我最近购买了这台笔记本电脑，但没有更改任何设置来抑制警告或类似设置。如果这是一个设置问题（甚至会影响刚启用的浏览器），则必须随附OEM Windows安装或其他内容。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/svenviking   href =“ https://www.reddit.com/r/webdev/comments/1kwor7q/a_website_is_is_is_to_initiate_screen_sharing/”&gt; [link]         [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwor7q/a_website_is_able_to_initiate_screen_sharing/</guid>
-      <pubDate>Tue, 27 May 2025 14:31:46 GMT</pubDate>
+      <title>职业休息</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx35c9/career_break/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  你好，我一直是一个满是一个全幕，我想休息一下并尝试其他工作，但是当我决定返回Fullstack时，我会被雇用的人低头看，因为我离开了Fullstack一段时间？  我想到的是3至5年不做全幕，但确实认为它的时间很长，当我返回太多事情时，显然发生了变化。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/pluns_leather_2351     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx35c9/career_break/</guid>
+      <pubDate>Wed, 28 May 2025 00:13:44 GMT</pubDate>
     </item>
     <item>
-      <title>寻找网站审计顾问（Performance，UX，SEO和代码评论）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwoi3r/looking_for_a_website_audit_consultant/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  类型：Freelance /基于兼职 /基于项目的位置：远程持续时间：1–2周审核 +可选执行阶段&lt; /p&gt;         我们正在使用Supabase进行SUPABASE的suptimized网站，以存储supabase。该网站是功能性的，但我们希望进行全面的审核来识别和修复任何阻止它的东西 - 跨速度，用户体验，代码质量和SEO。  ✅您的职责：进行完整的网站审核涵盖：   🧠ux/ui评估 - 分析布局，移动响应能力，视觉错误和用户摩擦。   ⚙️绩效优化 - 运行核心Web Vitals/Lighthouse测试；识别瓶颈。   seo＆amp;可访问性审查 - 检查缺少的元标签，结构化数据，爬网性问题，ALT文本使用情况和WCAG合规性。  🔐技术＆amp;代码审查 - 审查前端代码，API呼叫（Supabase），代码逻辑，缓存，懒惰的加载等。 使用： 优先级的操作点   ScreenShots或测试报告（Lighthouse，GTMERTRIX等），使用： 优先级的审计报告       code-code。 &lt; /p&gt;  🧑‍💻你是谁：熟悉React，Tailwind或类似框架。  可以将技术，设计和SEO镜头组合到一个整体审核中。  Bonus: Ability to execute fixes after audit (optional, not mandatory)  📦 Deliverables: One-time full website audit (PDF or Notion doc preferred)  30–60 minute walkthrough call to discuss findings and improvements  Optional: Proposal for execution and optimization (if interested) Anyone whose interested can drop me直接消息，我可以共享网站详细信息，我们可以讨论激励结构。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/chuphojayash     [link]      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwoi3r/looking_for_a_website_audit_consultant/</guid>
-      <pubDate>Tue, 27 May 2025 14:21:22 GMT</pubDate>
+      <title>跟踪网站通过社交媒体访问本地浏览器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx2vju/tracking_website_visits_through_social_media/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  您好，我正在研究一个应用程序，该应用程序允许其他企业跟踪哪些社交媒体网站正在吸引其网站的流量。我最初计划通过在其网站的标题中设置脚本来执行此操作，该网站发送以下信息[社交媒体源URL，Bubble用户ID]。 Then this information would be captured by an api and each visit would be stored in a database that can then be used to create dashboards. The problem that I am having is that this works completely fine on the desktop version of social media sites however it doesn&#39;t seem to be sending information to my api when the link is opened from native social media apps (which would defeat the purpose of this entire project tbh). Im not sure if this is因为当社交媒体网站（例如Twitter或Instagram）在其本机浏览器中打开网站时，它会阻止一些功能。但是，考虑到我觉得自己终于有了一个扎实的想法。 请让我知道，如果您能想到任何工作或在这里可以使用的方式，请告诉我，我真的很失望。 （函数（）{函数getutmparam（name）{var url = new url（window.location.href）; return url url.searchparams.get（name）;} var utm_source = getutmparam（&#39;utm_source&#39; hostName）{尝试{var refhost = new url（referrrer）.hostname; utm_source ||。 ＆lt;/script＆gt;    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/final_willingness_65     [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx2vju/tracking_website_visits_through_social_media/</guid>
+      <pubDate>Wed, 28 May 2025 00:00:48 GMT</pubDate>
     </item>
     <item>
-      <title>明确付款</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwof8e/klarna_payment/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  有人以前是否有人从事克拉纳付款工作？我目前正在将Webhooks与Klarna集成。我已经成功注册了Webhook，并且当我使用文档中提供的curl命令时会触发它。但是，当我启动并创建结帐会话（无论是成功还是失败结束时）时，Webhook不会触发。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/astroworld89     ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwof8e/klarna_payment/</guid>
-      <pubDate>Tue, 27 May 2025 14:17:53 GMT</pubDate>
+      <title>搜索结果中不正确的站点图像（WordPress站点）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx27et/incorrect_site_image_in_search_results_wordpress/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  在搜索我的投资组合站点并正确拼写我的名字时，搜索结果旁边出现了过时的图像。当我错误地拼写它时，同一网页显示了描述旁边的更新图像。任何想法为什么？ 相同的确切URL具有相同的（在图像时更新）元描述在结果中显示出具有不同图像的结果...我认为这是因为旧图像已索引，但是该描述在两个搜索查询中都正确更新了。我使用Yoast设置了图像，为页面设置特色图像，甚至将图像发布到我的页面顶部，并使用CSS隐范。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/jbonezzz     [link]      [commist]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx27et/incorrect_site_image_in_search_results_wordpress/</guid>
+      <pubDate>Tue, 27 May 2025 23:29:37 GMT</pubDate>
     </item>
     <item>
-      <title>哪些网站和/或应用程序可以使您个性化调色板？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwo8sk/what_are_some_websites_andor_apps_that_allow_you/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  所以我是产品设计师，而不是开发人员，但我认为我在这里会得到更好的结果。我创造了一项项目计划，允许我们的用户个性化仪表板的着色。不仅是黑暗和光线模式，而且是一个更个性化的选择。过去，我从事了一个应用程序，并从中收到了压倒性的积极反馈。因此，我正在创建一个案例研究来展示这些好处，但是除了Loona之外，我找不到许多适用的示例。  如果有人有任何好的例子，例如，但没有loona（或对同一概念的另一种方法），请分享。非常感谢。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/krispykingtheprophet      [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwo8sk/what_are_some_websites_andor_apps_that_allow_you/</guid>
-      <pubDate>Tue, 27 May 2025 14:10:15 GMT</pubDate>
+      <title>为什么Svelte鲜为人知？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx0db7/why_is_svelte_so_little_known/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我只用html css和js进行了很长时间的前端，问题是，当我发现这一点时，我们很快就有大量重复的文件，当我喜欢有可重复使用的元素的事实时，我不需要提出这么复杂的东西，但是我不需要我们的事实。那是我最近发现Svelte的时候，它只是可重复使用的组件，轻巧，简单，易于处理。为什么没有这么大的社区？我错过了妥协吗？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1kx0db7/why_is_svelte_selte_so_so_little_known/”&gt; [link]    32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx0db7/why_is_svelte_so_little_known/</guid>
+      <pubDate>Tue, 27 May 2025 22:07:21 GMT</pubDate>
     </item>
     <item>
-      <title>针对学校项目太高，需要帮助。我在哪里可以学习如何做？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwnl6t/aimed_too_high_for_a_school_project_and_need_help/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  因此，对于上下文：我的学校专注于编程和东西 - 这是我参与其中的主要原因。我们也有这个称为“综合项目”的东西。或您用英语称呼的任何东西，我们在这里花费了整个三年的高中（因此直到2026年底为我为我）计划和开发该项目，这些项目必须涉及计算机科学的东西和联合国的可持续发展目标之一（这些事情在2030年到2030年，诸如“停止污染”之类的东西。大多数人只是计划制作小型网页，只是为了提高人们对贫困或其他方式的认识，但愚蠢的我的目标是更高。  我的想法是使某种wiki像一个Wiki一样，但是让所有事物都非常正式，而是为了解释像您5岁那样的学校科目，或者好像实际上是一位老师在教您这些东西（现在我在写这篇文章，这几乎只是简单的英语Wikipedia，但无论如何）。问题是我不知道：如何在线发布网站（我只通过github完成了网站），如何将其集成到数据库中，以使任何人都能发布任何内容，也不知道如何在不花费很多钱的情况下（我赚钱）（我赚了很多钱）或不得不出售我的计算机的灵魂才能成为服务器（当前有10gb的东西），这是当前的东西。如果所有人都足够友善，您可以将我链接到Discord服务器或我会惹恼People 的东西。提交由＆＃32; /u/u/spacialCommieci   href =“ https://www.reddit.com/r/webdev/comments/1kwnl6t/aimed_too_too_high_high_for_for_a_school_projel_project_project_and_need_help/”&gt; [links]      &lt;a href =“ https://www.reddit.com/r/webdev/comments/1kwnl6t/1kwnl6t/aimed_too_high_high_for_for_school_school_projel_project_and_need_need_help/”]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwnl6t/aimed_too_high_for_a_school_project_and_need_help/</guid>
-      <pubDate>Tue, 27 May 2025 13:42:34 GMT</pubDate>
+      <title>需要使用运动的帮助和建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kx03ho/need_help_suggestions_in_animation_using_motion/</link>
+      <description><![CDATA[      &lt;！ -  sc_off-&gt;  我是在使用运动在线和离线组之间移动的动作来构建动画。事情主要是在工作，但是我陷入了一个奇怪的问题，不确定是什么原因引起的。 当阿凡达从从在线到离线时，动画看起来不错。 ，但是当它从脱机移动到在线时，它会从 shownder  请参见图像： -    1st One是初始＆amp;当化身向在线组过渡时，第二个。     代码的stackblitz链接： https://stackblitz.com/estackblitz.com/edit/stackblitz-starkblitz-starter-94fbhda9,4fbhda9 file peile=pppage.pppage.pppage pppage pppage pppage pppage；发生或如何强迫过渡化的阿凡达在上面总是动画？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/new-ad6482     [link]     32;   [注释]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kx03ho/need_help_suggestions_in_animation_using_motion/</guid>
+      <pubDate>Tue, 27 May 2025 21:56:13 GMT</pubDate>
     </item>
     <item>
-      <title>BASE64编码</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwnbpr/base64_encoding/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，有人知道安全使用base64编码图像并显示结果字符串的在线服务吗？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/FreshMozart      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwnbpr/base64_encoding/</guid>
-      <pubDate>Tue, 27 May 2025 13:30:51 GMT</pubDate>
+      <title>我想亲吻这些设计师的手</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kwyg28/id_like_to_kiss_these_designers_hands/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  真的很喜欢从事这些设计工作，    ill进行一次设置，然后将它们分配给ClassNames and Boom和Boom！          drave  prange  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/aggression_talk968      [注释]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kwyg28/id_like_to_kiss_these_designers_hands/</guid>
+      <pubDate>Tue, 27 May 2025 20:50:10 GMT</pubDate>
     </item>
     <item>
-      <title>是时候从MongoDB切换到PostgreSQL了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwn4ba/is_it_time_to_switch_from_mongodb_to_postgresql/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  ，所以我已经为我的Web应用程序使用了MongoDB一段时间了，这对我的大多数需求都很稳固。但是我现在正在研究计费申请，我想知道鉴于DB的要求较重，Postgres是否会更合适。 我在谈论的是复杂的交易，强大的数据一致性以及对可靠的报告的需求 - 在Mongo中感觉有些粗略的事情。您在野外看到的真正优势是什么？ 我需要您的意见：）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/_sonu_singha     href =“ https://www.reddit.com/r/webdev/comments/1kwn4ba/is_it_time_time_time_time_switch_from_mongodb_to_postgresql/”&gt; [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwn4ba/is_it_time_to_switch_from_mongodb_to_postgresql/</guid>
-      <pubDate>Tue, 27 May 2025 13:21:51 GMT</pubDate>
+      <title>我正在寻求有关我构建的软件的反馈。我在评论中添加了一个gif和链接。从本质上讲，这是一个软件，可帮助您创建在线商店，然后从中创建AI聊天，客户可以在其中使用AI聊天的Payapl / Stripe创建购物车并结帐。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kwxbhs/i_am_seeking_for_feedback_on_a_software_i_had/</link>
+      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/u/hendrixstring       [注释]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kwxbhs/i_am_seeking_for_feedback_on_a_software_i_had/</guid>
+      <pubDate>Tue, 27 May 2025 20:05:44 GMT</pubDate>
     </item>
     <item>
-      <title>寻找静态站点发生器，卡在110或Astro之间</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwn12m/looking_for_a_static_site_generator_and_stuck/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  下午好， 我希望开始使用静态站点生成器来增强我的工作流程，但是在查看所有选项之后，我将其范围缩小到110 and Astro。我一直在学习建设网站已有几年了，但是由于家庭承诺和工作，我从来没有时间真正地缩小并从事我真正喜欢的事业。我现在有时间掌握在我的手上，也许我可能会努力改变职业，但我真的很想尝试一下。 我在HTML/CSS和一些JavaScript和一些JavaScript和一些JavaScript方面非常好，并建立了着陆页作为业余爱好，但现在我想开始在当地的小型企业，并希望在我的本地构建小型企业，以使我的网站变得更加轻松，并使我的网站更加轻松。我有一个想针对目标的利基市场，但只是在寻找合适的平台来真正选择它。  感谢使用Astro或11ty的人提供的任何建议，以及您如何找到它 谢谢大家  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/udecational_draw5032     [link]        [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwn12m/looking_for_a_static_site_generator_and_stuck/</guid>
-      <pubDate>Tue, 27 May 2025 13:17:41 GMT</pubDate>
+      <title>网站如何进行？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kwvut2/how_do_website_do_this/</link>
+      <description><![CDATA[        &lt;！ -  sc_off-&gt;  编辑：对不起，标题上的错误是一个漫长的夜晚 如何做这样的网站动画？      https://lovefrom.com     是否过于复杂？ 它看起来真的很干净，很简单，但是我不确定某人是从划痕开始的吗？ ＆＃32;提交由＆＃32; /u/u/u/tehnewbie   href =“ https://www.reddit.com/r/webdev/comments/1kwvut2/how_do_do_website_do_to_this/”&gt; [link]   ＆＃32;   [注释]           ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kwvut2/how_do_website_do_this/</guid>
+      <pubDate>Tue, 27 May 2025 19:08:36 GMT</pubDate>
     </item>
     <item>
-      <title>建立一个健康地点。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwm96p/building_a_wellness_site/</link>
-      <description><![CDATA[        &lt;！ -  sc_off-&gt;  有什么想法吗？这是针对那些想要感觉更好并发泄健康和健康的人。  也不希望它只是另一个对话ai，la脚。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/ligitimate-virus1096        [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwm96p/building_a_wellness_site/</guid>
-      <pubDate>Tue, 27 May 2025 12:41:37 GMT</pubDate>
+      <title>帮助我建立一个镀铬扩展</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kwvlsi/help_me_build_a_chrome_extension/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  你们嗨，大家好，所以我正在处理一个分配，我应该跟踪已经安装的镀铬扩展名，其主要任务是使用Chrome TabCapture和Chopeedesktopmedia api录制当前窗口。 我想检查扩展记录状态，如果录制了录制或录制的记录， If it is paused then I want throw an alert. The said chrome extension which is recording the screen has it&#39;s status being displayed through badge icon in the chrome browser action button by displaying the recording status by changing this browser action button icon. So I was wondering how to perform this task i.e. to track the recording status of some installed extension and throw an alert stating that the recording is on or paused.我们可以构建一个简单的镀铬扩展，有助于执行此任务吗？ 我知道，由于Google由于其隐私政策而限制了此行为，我们无法从另一个扩展中访问一个扩展的数据。 我们也可以使用管理API访问已安装的扩展元数据，但我们实际上无法访问plose partime partime the of the of the of the of pl of the browsripation part/chorome browse part &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;    &lt;！ -  sc_on--&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1kwvlsi/help_me_build_a_a_chrome_extension/”&gt; [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kwvlsi/help_me_build_a_chrome_extension/</guid>
+      <pubDate>Tue, 27 May 2025 18:59:13 GMT</pubDate>
     </item>
     <item>
-      <title>开发人员和创始人：这种痛苦也让您烦恼吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwlpwj/devs_founders_does_this_pain_annoy_you_too/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  正文：🔍问题我每次在50页的PDF（手册，合同等）中寻找信息时，我会失去10–15分钟。 gpt-4o/gemini。 🤔您的拍摄（选择任何）：  这种痛苦多久一次撞到您？ （从不 /每月 /每周 /每日 /每日）&lt; / li&gt; 如果工具在5秒内回答了您的PDF问题，您每月要支付多少？ （$ 0 /＆lt; $ 10 / $ 10-30 / $ 30+）&lt; / li&gt; 您会看到任何有关技术，隐私或价格的破坏交易？&lt; / li&gt; &lt; / ol&gt; 我还没有建造任何东西 - 只是在研究是否值得2周的冲刺。将其撕开；野蛮诚实欢迎！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/upa11      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwlpwj/devs_founders_does_this_pain_annoy_you_too/</guid>
-      <pubDate>Tue, 27 May 2025 12:14:49 GMT</pubDate>
+      <title>域名-Namecheap，Porkbun，Cloudflare</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kwvge0/domain_name_namecheap_porkbun_cloudflare/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我希望开始以自己的域名托管我的项目，从我的投资组合开始。我发现自己 我希望能够使用子域，例如“示例。我了解所有注册服务商都可以使用哪个？我很担心，因为我是新来的，我会弄乱一些意想不到的事情，所以我认为越抽象越好，但我不反对学习失败是否没有破坏性。 我的总体希望是我计划在5年内散布的最低成本，因为我计划尽可能长时间地保持这个领域。如果可以解释这些选项，将不胜感激。谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1kwvge0/domain_name_namecheap_porkbun_cloudflare/”&gt; [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kwvge0/domain_name_namecheap_porkbun_cloudflare/</guid>
+      <pubDate>Tue, 27 May 2025 18:53:12 GMT</pubDate>
     </item>
     <item>
-      <title>“是否使用饼干？”在法国为客户建立网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kwkt6p/use_cookies_or_not_making_website_for_a_client_in/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在法国为律师创建一个网站。它与Vanilla CSS和JavaScript是静态的。我们同意了网站的草案。客户对技术一无所知。有关您的信息，我可以使用React和Node。我不知道她是否需要从用户那里收集数据...我搜索了这个想法，如果您不使用像Google Analytics（分析）和其他人这样的第三方。您不需要使用cookie策略...请告诉我是否应该使用它们？我对任何建议都开放。谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/med-vir     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kwkt6p/use_cookies_or_not_making_website_for_a_client_in/</guid>
-      <pubDate>Tue, 27 May 2025 11:25:29 GMT</pubDate>
+      <title>切换到页面报价。还有其他人吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kwuoez/switching_to_page_by_page_quotations_anyone_else/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，伙计，经过多年的报价基于页面 type 或 groupp  offem 或 groups               。这不仅使事情变得更加透明，而且还将文档的结构与引号本身紧密相结合，这感觉就像是双赢的。 我曾经依靠章鱼来构建视觉站点地图，认为这会帮助客户更好地掌握该项目。但实际上，大多数客户一次（如果有的话）检查章鱼链接，然后忽略它。同时，他们始终查看Google文档。因此，尽管章鱼在我们的末端看起来很酷，但从客户的角度看来，它似乎还没有得到充分利用。 有趣的是，我注意到许多代理商仍直接在 google docs 使用子弹点和子页面的凹痕中直接构建站点地图。起初，这对我来说已经过时了，但是事实证明，客户似乎更喜欢这种格式，尤其是因为它很容易分享，评论和编辑，并进行协作。 ，我很好奇 您如何构建报价以避免引用的报价， 您是否找到了速度或page page&gt;             预先感谢，很想听听对您有用的东西！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/aryanblurr     [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kwuoez/switching_to_page_by_page_quotations_anyone_else/</guid>
+      <pubDate>Tue, 27 May 2025 18:22:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
