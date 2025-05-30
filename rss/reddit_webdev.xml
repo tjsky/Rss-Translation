@@ -4,7 +4,63 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Fri, 30 May 2025 01:14:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 May 2025 06:28:10 GMT</lastBuildDate>
+    <item>
+      <title>关于我正在建立的项目需要帮助/建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kyx93q/need_helpsuggestions_regarding_a_project_that_i/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  所以，我正在构建一个项目，这就是它的作用。 我创建了一个程序，您可以使用该程序来轻松地创建带有样式的HTML文件，class，class，ids eTs。 我制作的文件和我制作的compiler compiler the compiler compiler compiles the the html the html to html to html to html to html for html。 Here is the structure of the file in general: The main building blocks of my file (for now I call it &#39;.supd&#39;) are definers they are keywords which start with &#39;@&#39; Here is how some of them look: 0.@(props) sub_title  @(props) main_title @(props) title @(props) description @(props) link @(props) code @(props) h1  @（props）h2     @（props）类似的内容：   @sub_title {这是subtetle}`` ` @(&quot;custom-class1 custom-class2&quot;, &quot;custom id&quot;, &quot;styles&quot;)title {Title} You get it, You can overwrite/append the class and other specifiers. Now incase of divs or divs inside divs we can do @enclose like this  @enclose { @title {title} @description {description} @enclose { another div enclosed } }  Now if you want some other HTML elements which may not be implemented by me now you can even use the @inject to inject custom HTML directy to the HTML page. My progress: 我已经为此语言构建了Lexer，Parser（几乎）（几乎），并着手构建编译器的其余部分，然后将其编译为HTML。将来（希望）我还将以这种语言将与Python脚本的直接集成在一起，以便我们可以在运行时动态地格式化HTML！编译器完全写在c。  我正在寻找的东西...我想知道这个项目曾经完成的是否对人有用。建议。如果您有兴趣为这个项目做出贡献。  该项目称为 supernova ，您可以在此处查看该项目： href =“ https://github.com/aavtic/supernova”&gt; https://github.com/aavtict/supernova 提交由＆＃32; /u/u/aadish_m     [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kyx93q/need_helpsuggestions_regarding_a_project_that_i/</guid>
+      <pubDate>Fri, 30 May 2025 06:27:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>DB交易的替代方案</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kywwce/alternative_for_db_transaction/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  目前正在处理一个模块化成就，该模块化很快将成为微服务。当前整体中的每个模块都将成为其自己的微服务。当前的实现在后台共享数据库，这是一个关系。此外，这是一个恢复的API，这意味着必须调用第一个端点的用途，并且使用该信息（在大多数情况下在ID中），下一个端点要调用。有时，将其链接到最多4-5个API接一个电话。现在，我正在寻找一种解决方案，如果至少一个人失败  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/briancohen18     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kywwce/alternative_for_db_transaction/</guid>
+      <pubDate>Fri, 30 May 2025 06:03:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>将大量数据存储在URL中</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kyw9iu/store_somewhat_large_data_in_url/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，人！ 这不是XY问题。我们已经以不同的方式解决了Y，但是在讨论时，我团队中的一个人只有在不需要数据库或外部服务的情况下将大型数据存储在URL中。 实际上是否有一种可靠的方式来拿一个大字符串，即10,000个字符，也只保存在URL中？ Afaik没有压缩可以压缩足以使其在浏览器中可靠或我缺少某些内容？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/fleauberlin     [link]     [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kyw9iu/store_somewhat_large_data_in_url/</guid>
+      <pubDate>Fri, 30 May 2025 05:22:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>我什么时候应该在路由器 +查询上使用tanstack启动？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kyvp8d/when_should_i_use_tanstack_start_over_router_query/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我打算将我的一些项目迁移到Next.js。接下来，我的主要堆栈是React（CRA）并表达后端。 我从来没有在任何Tanstack库中都有经验，但看起来很有希望。  我知道每个库的作用，但是对tanstack启动的东西有些困惑。我知道这是一个全面的框架，重点是SPA/CSR（而不是下一个专注于MPA/SSR）。  但是，如果我想为我的后端表达，那么使用启动仍然值得吗？或者我应该使用Vite +路由器？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/nyamuk91     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kyvp8d/when_should_i_use_tanstack_start_over_router_query/</guid>
+      <pubDate>Fri, 30 May 2025 04:48:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用AI网络构建器进行新颖的翻译？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kyv47p/using_ai_web_builder_for_novel_translation/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  如果我问一些愚蠢/明显的事情，我会提前道歉。我并不是真的很喜欢网络开发，但是我在网上观看了一个视频，其中有人通过放置描述来在一分钟内在一分钟内进行撕裂Duolingo，我有一个想法，并且想看看它是否也可以正常工作。   。 。 gets picked up and you have to read the most god awful machine translation. I was wondering if I could use the ai to make a website, let’s call it A, I was thinking I could make website A by plugging in the site with the untranslated webnovels, so when you type the novel name in the new website it can show the ai translated chapters. I’m sorry if I’m rambling or hard to follow, it was just something that看到视频后，我的脑海中弹出了脑袋，我来到了我看到的第一个网络subreddit。  如果以任何方式可以说，请告诉我并解释我可以采取的步骤  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/puzzleheadzone7197      [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kyv47p/using_ai_web_builder_for_novel_translation/</guid>
+      <pubDate>Fri, 30 May 2025 04:14:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>在圆圈中概念化嵌套评论系统的清洁结构，该结构可以加载多个层的懒惰加载和排序？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kyun49/going_in_circles_conceptualizing_clean_structure/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  当我集思广益时，我的大脑时钟循环一直在燃烧我的大脑时钟周期。 我已经实现了基本的懒惰加载。单击“扩展”注释，它要求回复。如果有更多的加载，它将显示更多的负载。 将其与诸如黑客新闻之类的东西进行对比，后者一次加载了许多层。我可以概念化一种递归方法来检索整个树。  supabase限制返回的1000行；虽然我还没有达到这些限制，但未来的证明可能是一个很好的做法。或者简单地限制一般。 但是，使用一个API调用的递归呼叫限制，限制，小贩和整理所有的障碍。 如果限制限制了一个注释的答复，我是否只需要有一个直接的回复来对待？过度提取在这里不太好起来吗？ 是否可以在递归查询中进行排序，以便如果其中一个仍然需要加载更多，则订单将是正确的？提交由＆＃32; /u/cyjackx     [link]   ＆＃32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kyun49/going_in_circles_conceptualizing_clean_structure/</guid>
+      <pubDate>Fri, 30 May 2025 03:47:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>在我的技能跟踪MVP上寻找开发人员的反馈 - 我可以如何改进？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kyu5yz/looking_for_developer_feedback_on_my_skill/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，大家！ 我一直在研究一个名为SkillShub的项目，该平台旨在帮助求职者跟踪和发现各个行业需求的技能。现在，我正在测试我的MVP，并寻找开发人员的反馈以完善关键功能。 这是平台所做的：  策划与行业与行业相关的技能 提供结构化的技能类别（AI，营销，项目管理，项目管理等）                    我特别希望改进：  技能的采购方式＆amp;经过验证（可信度问题） 过滤＆amp;搜索功能（有效地找到相关技能） 集成可能性（LinkedIn认可，基于项目的学习） 用户流＆amp;经验（使它变得直觉，而不是压倒性的）  我很想获得您的反馈：  技能跟踪方法似乎有用吗？ 是否有可以使它变得更好的功能？ 您期望您对此有何链接？ 探索。任何见解，批评或建议都将非常有帮助！ 事先感谢 - 我非常感谢您的想法。在 &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/what-olive847     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kyu5yz/looking_for_developer_feedback_on_my_skill/</guid>
+      <pubDate>Fri, 30 May 2025 03:21:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>考虑高级UI。如果是Jetelina</title>
+      <link>https://www.reddit.com/r/webdev/comments/1kyrw47/considering_about_the_advanced_ui_in_case_of/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，您是否曾经想过什么是高级UI？您可能会认为它与设计和响应有关。嗡嗡声，它可能会引起重点，但我希望您重新考虑事实是什么。我认为，“图标”的时代结束了，因为“图标”是针对不了解计算机/应用程序和英语的人。现在，人们知道什么是计算机，以及他们可以通过应用程序做些什么，并且很好地使用了英语。糟糕，我不是本地人，他。 ：） 这些意见在Jetelina博客中，检查&gt; IT 提交由＆＃32; /u/onoke99     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1kyrw47/considering_about_the_advanced_ui_in_case_of/</guid>
+      <pubDate>Fri, 30 May 2025 01:26:43 GMT</pubDate>
+    </item>
     <item>
       <title>希望聘请网络开发人员对网站进行一些更改</title>
       <link>https://www.reddit.com/r/webdev/comments/1kypfxj/looking_to_hire_a_web_developer_to_make_a_few/</link>
@@ -22,7 +78,7 @@
     <item>
       <title>有没有技术原因为什么Angular不在本地支持“一旦部署了许多人的构建”？</title>
       <link>https://www.reddit.com/r/webdev/comments/1kyor7a/is_there_a_technical_reason_why_angular_does_not/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我最近了解了“十二个因子应用”他们建议构建一次，并使用释放应用程序时使用的配置文件。    angular使用`evromition.ts&#39;文件，并且在整个环境中只能在整个环境中替换了noverment noverments noverment nove we we/we/we/pe we/pe y/p&gt;在我们需要做的就是定义后端API的域时，请使用不同的环境文件构建应用程序4个单独的时间。 我以为Angular在部署所有部署后都具有某种功能可以实现构建，但我没有发现任何此类功能。  相反，我发现了无数的博客文章，其中包含有关如何从头开始实现此功能的不同建议，每种都以不同的方式实现了某些缺点。   ex： 1 ， href =“ https://medium.com/@fabiozuin/build-once-once-once-anywhere-with-with-with-17-bf477c49668f”&gt; 2 ，是否有技术原因为什么这不作为替代方案或仅仅是补充`emoverition.ts&#39;文件的替代方案？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/edg-r     [link]    [注释]  ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我最近了解了“十二个因子应用”他们建议构建一次，并使用释放应用程序时使用的配置文件。    angular使用`evromition.ts&#39;文件，并且在整个环境中只能在整个环境中替换了noverment noverments noverments neverne nove we we/we/we/per we/p&gt;在我们需要做的就是定义后端API的域时，请使用不同的环境文件构建应用程序4个单独的时间。 我以为Angular在部署所有部署后都具有某种功能可以实现构建，但我没有发现任何此类功能。  相反，我发现了无数的博客文章，其中包含有关如何从头开始实现此功能的不同建议，每种都以不同的方式实现了某些缺点。   ex： 1 ， href =“ https://medium.com/@fabiozuin/build-once-once-once-anywhere-with-with-with-17-bf477c49668f”&gt; 2 ，是否有技术原因为什么这不作为替代方案或仅仅是补充`emoverition.ts&#39;文件的替代方案？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/edg-r     [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1kyor7a/is_there_a_technical_reason_why_angular_does_not/</guid>
       <pubDate>Thu, 29 May 2025 22:55:44 GMT</pubDate>
     </item>
@@ -53,62 +109,6 @@
       <description><![CDATA[       &lt;！ -  sc_off-&gt;  我很敬畏。  如果只有一个噩梦。但是，这是正常的模式并不是非常盲目的，所以我会通过。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/nedal8      [注释]            ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1kylvgk/is_this_the_best_website_of_all_time/</guid>
       <pubDate>Thu, 29 May 2025 20:52:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于尝试与网络机构提供自由职业服务的意见？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kylpiw/opinions_on_trying_to_approach_web_agencies_to/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我应该以自由职业者开发人员的身份接近Web代理商吗？  背景： 27yo Full-Stack Dev（4年Exp，in vue/react in vue/react in vue/react/react/react/next.js +后端）。目前正在寻求自由职业者和我的最佳位置是需要偶尔开发的非科技公司，但希望自由职业者的灵活性。  问题：考虑与Web机构联系以提供我作为承包商/溢出者的服务。有人尝试过这种方法吗？  关注点：   他们会把我视为竞争而不是资源吗？ 费率可能会降低，因为他们是中间人？ 较少直接的客户关系？值得追求还是我应该坚持指导客户收购？   tl; dr; dr：经验丰富的开发人员考虑与网络代理商合作进行溢出工作 - 好主意或浪费时间？  &lt;！ -  sc_on- sc_on-&gt;＆＃32;提交由＆＃32; /u/u/unenters_respond_106     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kylpiw/opinions_on_trying_to_approach_web_agencies_to/</guid>
-      <pubDate>Thu, 29 May 2025 20:45:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的投资组合需要一些反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kykn5a/need_some_feedback_for_my_portfolio/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我正在寻找一些对我的投资组合的反馈，如果您可以看一下，让我知道您的想法，我将非常感谢。任何反馈都受到欢迎，即使是小建议也是如此。谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/pancement_train997      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kykn5a/need_some_feedback_for_my_portfolio/</guid>
-      <pubDate>Thu, 29 May 2025 20:02:38 GMT</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://www.reddit.com/r/webdev/comments/1kyj4gs/why_webaudio_isnt_enough_for_serious_realtime/</link>
-      <description><![CDATA[      We&#39;ve been building real-time voice apps in the browser and kept running into the same brick wall: WebAudio. It’s solid for playback, synthesis, and music apps.但是，一旦您需要低延迟，多线程音频，它就会落下。 最终，我们不再尝试与之抗争，并为实时音频工作构建了更多专门构建的东西。我们写了我们在这里学到的知识，其中包括：   https://switchboard.audio/hub/why-webaudio-isn-t-enough-for-serious-apps/   好奇：其他人遇到这些问题吗？您是如何解决它们的？您是否坚持使用Webaudio或Go native？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/trolleycrash   [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kyj4gs/why_webaudio_isnt_enough_for_serious_realtime/</guid>
-      <pubDate>Thu, 29 May 2025 19:02:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>HTTP在我们的行业中是否“普遍”？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kygoio/is_http_pervasive_in_our_industry/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我看了一个查询语言fb，我发现了一些docs lowkey beltitting http的实例，好像是错误的标准化的Web协议。几乎就像他们认为自己可以做得更好。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/shot-buy6013     [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kygoio/is_http_pervasive_in_our_industry/</guid>
-      <pubDate>Thu, 29 May 2025 17:26:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>您首选的构建Web代码的方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kygl7k/what_is_your_preferred_way_of_structuring_web_code/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我问这个问题是因为我看到了WebDev中的一个非常好奇的趋势：一切仅由层次分开，而不是按业务逻辑，业务上下文或类似的事物划分。 。  Level.c   代码主要由业务上下文分开。  在WebDev中，我们倾向于看到更多的“分层驱动”：  型号/{用户，书，付款}   view/{用户，书籍，付款}      用户录/{用户，书，付款}   业务上下文都在用户模型，用户控制器，用户服务，用户用户用户等... 上分配了这对我来说很奇怪。是否必须这样？ 这更像是一项调查，所以请告诉我您的想法...   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/akaigor     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kygl7k/what_is_your_preferred_way_of_structuring_web_code/</guid>
-      <pubDate>Thu, 29 May 2025 17:22:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>我正在寻找将VPS提供商从Vultr切换到Racknerd。任何人每年支付不到$ 22.99的人</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kygfvk/im_looking_to_switch_vps_provider_from_vultr_to/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在过去的两年中一直在弗拉特（Vultr）每月支付约4个简单的1 CPU，512 RAM，每月10GB存储空间。另一个线程中的某人提到Racknerd的年度包裹为22.99，我打算切换。是否有人要为比这便宜的软件包付费？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/mediocre-subject4867      [link]    [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kygfvk/im_looking_to_switch_vps_provider_from_vultr_to/</guid>
-      <pubDate>Thu, 29 May 2025 17:16:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>最佳高级搜索框架？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kyfizr/best_advanced_search_framework/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在使用Craft CMS构建网站。目前，我正在使用tail挥（4），Daisyui和AlpineJS。 该项目需要进行一些高级过滤 - 我想做这些前端，而不是多个页面负载。 有人从一个好的框架中获得任何重新计算，让我可以让我做这个。提交由＆＃32; /u/u/tcoysh     ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kyfizr/best_advanced_search_framework/</guid>
-      <pubDate>Thu, 29 May 2025 16:41:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用GSAP进行平滑文本和页面过渡构建了一小部分React组件 - 免费使用</title>
-      <link>https://www.reddit.com/r/webdev/comments/1kyewsq/built_a_small_collection_of_react_components/</link>
-      <description><![CDATA[     &lt; /td&gt;  &lt;！ -  sc_off-&gt;  嘿，我一直在少数反应项目中使用GSAP，主要是为了少数反应，以ii react和microsion Inter comptions and i i i i i i i i i i      live demo ： https://github.com/bdeguigne/gsap-box-box-box    在x 上找到我href =“ https://x.com/brice_deg”&gt; https://x.com/brice_deg    希望它有用！始终对要添加的新效果的反馈或想法开放。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/bdeguigne       [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1kyewsq/built_a_small_collection_of_react_components/</guid>
-      <pubDate>Thu, 29 May 2025 16:16:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
