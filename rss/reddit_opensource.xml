@@ -4,111 +4,111 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Mon, 02 Jun 2025 03:51:44 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jul 2025 18:25:47 GMT</lastBuildDate>
     <item>
-      <title>我制作了一个开源代理工具，但是社区没有反馈。我做错了吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l12pia/i_made_an_opensource_proxy_tool_but_theres_no/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  这是我开源工具的链接。  https://github.com/suxin2017/lynx-server   您有什么好建议吗？提交由＆＃32; /u/u/u/vidived_ad4049     [link]  &lt;a href =“ https://www.reddit.com/r/opensource/comments/1l12pia/i_made_made_an_opensource_proxy_tool_tool_but_theres_no/”]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l12pia/i_made_an_opensource_proxy_tool_but_theres_no/</guid>
-      <pubDate>Sun, 01 Jun 2025 23:07:41 GMT</pubDate>
+      <title>新的OSS项目 -  Alt -core-自托管文件/聊天/媒体服务器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1lu0zlk/new_oss_project_altcore_selfhosted_filechatmedia/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿。  我很高兴地宣布一个新的OSS项目：alt-core   alt-core是用java/clojure/angular编写的自托管文件/聊天/媒体服务器。它在从头开始构建的分布式文件系统上运行。 它在任何OS Mac/win/linux上运行。移动应用也可用于iOS＆amp; APP上的Android存储。 以下是链接到repo： https：//github.com/github.com/sync-com/sync-different/alt-core/alt-core/alt-core  您所有内容的私人搜索索引。标记文件以易于访问。 保护我们的文件 - 自动文件复制/备份（使用设备上的自由空间） 访问您的文件 - 访问文件＆amp;通过安全的加密通道（端到端加密）聊天 流式传输视频 - 直接流式传输到任何Web浏览器。 No video uploads/downloads needed. Self-hosted - runs on your Mac/PC/Linux, not in the cloud (all processing+storage is on your devices) Share files, chat with peers, stream videos, privately and securely  Build &amp;安装步骤，技术文档，全部在GitHub上可用。我们有一个不符合社区聊天的服务器＆amp;支持。  寻找可以旋转并提供反馈的人。 开发和最终用户欢迎 - 我们有一些非常适合加速的问题。  加入我们！快乐的自我托管。  〜Ale   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/reddituser_xyzzy     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1lu0zlk/new_oss_project_altcore_selfhosted_filechatmedia/</guid>
+      <pubDate>Mon, 07 Jul 2025 17:52:47 GMT</pubDate>
     </item>
     <item>
-      <title>Turbolfs- Git LFS的快速转移代理</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l123ob/turbolfs_a_fast_transfer_agent_for_git_lfs/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;     https://github.com/turbolfs/turbolfs/turbolfs/turbolfs/turbolfs 比简单地从github克隆更快。是的，这是代理人，Github仍然是真理的来源。 我建造了Turbolfs，因为我的设计师正在等待10-15个小时才能完成Git克隆。我们有一个20 GB的存储库，其中包含30,000多种LFS跟踪的文件 - 游戏开发完全正常，但是Git LFS无法有效地处理它。 当我切换到自托管的CI跑步者时，情况变得更糟。我意识到这个问题没有消失 - 所以我开始建立修复程序。 我决定将其做出一个开源项目并在公开场合建造。我会感谢任何人对此的兴趣/反馈：）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/leopospelov   href =“ https://www.reddit.com/r/opensource/comments/1l123ob/turbolfs_a_fast_fast_fast_transfer_agent_for_git_git_lfs/”&gt; [link]     [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l123ob/turbolfs_a_fast_transfer_agent_for_git_lfs/</guid>
-      <pubDate>Sun, 01 Jun 2025 22:40:21 GMT</pubDate>
+      <title>培训AI学习中文</title>
+      <link>https://www.reddit.com/r/opensource/comments/1lu0v19/training_ai_to_learn_chinese/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我训练了一个对象分类模型来识别手写的汉字。  该模型使用简单的网络摄像头捕获输入并显示预测。  这是一个完整的端到端项目：从数据收集和培训到构建硬件接口。  我可以用键盘或使用arduino和按钮构建的自定义控制器来控制AI。在这种情况下，结果也出现在面包板上的小型IPS屏幕上。  我认为最大的挑战是在低端PC上训练该模型。以下是规格：    CPU ：Intel Xeon E5-2670 V3 @ 2.30GHZ     ram ：16GB DDR4 @ 2133 MHz MHz       gpu&gt; gpu&gt; gpu&gt; gpu  System ：Ubuntu 24.04.2 LTS   我真的认为这种设置是行不通的，但是有了正确的优化和轻量级的体系结构，该模型在经过几次训练之后的速度近90％（近100％的100％带有微调）。  我开源了整个东西，以便其他人也可以探索它。  您可以：  阅读  我希望这对您的下一个Python＆amp; AI项目。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/lucasCreator101     [link]   ＆＃32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1lu0v19/training_ai_to_learn_chinese/</guid>
+      <pubDate>Mon, 07 Jul 2025 17:48:04 GMT</pubDate>
     </item>
     <item>
-      <title>在实践中赞助的自动AI分析</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0y37c/automatic_ai_analysis_for_sponsorships_in_practice/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我们介绍了一个自动赞助系统，我认为这很有趣。我们会自动使用AI来分析每个贡献者对我们项目的贡献的影响，然后在本月底，使用AI分析来提出得分，并在Github上为这些贡献者进行批量赞助。对于透明度，我们编写所有AI分析以每晚降低文件并计算具有赞助价值的暂定性CSV。上个月，我们在9位维护人员中赞助了约1,677美元。 该跟踪器完全是开源的，并由贡献者维护，这是一周的贡献分析 https://github.com/tscircuit/contribution-tracker/blob/main/contribution-overviews/2025-05-21.md   实际项目是tscircuit（用于构建电子设备的反应框架），但是我们在贡献跟踪上花费了越来越多的时间，因为它很有趣。我已经注意到一些弊端 - 特别是在描述您的拉请请求会产生重大影响的描述中，可以很容易地使用AI。贡献者倾向于不想解决这些问题，因为它们从慷慨的评分中受益。我们也有很多技术上有效但有点损失的贡献，例如adding github workflows for format checking etc. We tried bounties in the past but I like sponsorships more because there&#39;s more ownership/freedom for contributors within the project and a lot less work doing project management from our small 2 person staff. We&#39;re going to continue extending the system because we think it&#39;s a reasonable alternative to hiring full time engineers and allows people to engage with tscircuit in small but important方式  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/seveibar     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0y37c/automatic_ai_analysis_for_sponsorships_in_practice/</guid>
-      <pubDate>Sun, 01 Jun 2025 19:50:33 GMT</pubDate>
+      <title>有什么...吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1lu0jgw/is_there_any/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  开源，A-driven do-do应用程序设计用于任务管理和增强生产力，我们可以使用Mac和移动同步的应用程序自我托管？    &lt;！ -  SC_ON- sc_on-&gt;＆＃32;&gt;＆＃32;提交由＆＃32; /u/mrtcarson      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1lu0jgw/is_there_any/</guid>
+      <pubDate>Mon, 07 Jul 2025 17:36:14 GMT</pubDate>
     </item>
     <item>
-      <title>屏幕截图和注释工具（冰）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0vk1i/screenshot_and_annotation_tool_iced/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/decipher3114    href =“ https://www.reddit.com/r/rust/comments/1kswjab/screenshot_and_annotation_tool_ceed/”&gt; [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0vk1i/screenshot_and_annotation_tool_iced/</guid>
-      <pubDate>Sun, 01 Jun 2025 18:06:19 GMT</pubDate>
+      <title>我们迈向开源的第一步...独立团队的本地化工具 - 巴比伦！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1lu0g4r/our_first_step_into_open_source_a_localization/</link>
+      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/mere_curry       [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1lu0g4r/our_first_step_into_open_source_a_localization/</guid>
+      <pubDate>Mon, 07 Jul 2025 17:32:47 GMT</pubDate>
     </item>
     <item>
-      <title>有一个很好的第一期吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0sppn/got_a_really_good_first_issue/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  如果您是一个花时间的维护者，策划了一个好的第一期，对于从未为开放的开源而做出贡献的第一期，请与下面的链接共享下面的链接以及所需的特定语言来解决它。 这将自私地帮助我自己策划我自己的第一个问题！  😈交替共享一个非常糟糕的第一期。但是，请用表情符号来表示它很糟糕。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1l0sppn/got_a_really_good_good_first_issue/”&gt; [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0sppn/got_a_really_good_first_issue/</guid>
-      <pubDate>Sun, 01 Jun 2025 16:10:07 GMT</pubDate>
+      <title>JobRunr V8，开源Java工作调度程序，现在带有碳意识工作</title>
+      <link>https://www.reddit.com/r/opensource/comments/1lu01m3/jobrunr_v8_opensource_java_job_scheduler_now_with/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  想为从事Java或JVM项目工作的任何人分享这一点。我们刚刚发布了Java，Kotlin，Quarkus，Spring Boot，Micronaut，Micronaut等。   V8中的大突出显示：  碳感知工作，现在，当能量网格更清洁时，您的背景作业现在可以运行。因此，您可以在没有额外的中性头痛的情况下削减应用程序的覆盖范围。只是一个微小的配置调整，规模较大。  本地kotlin序列化，简单的本地kotlin json支持。   👉释放注释：  https：//github.com.com/jobrunr/jobrunr/jobrunr/jobrunr/jobrunr/releases/tag/tag/v8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0  href =“ https://www.jobrunr.io/en/guides/intro/how-to-to-carbon-impact-with-carbon-aware-jobs/”&gt; https://www.jobrunr.io/en/guides/intro/how-to-to-carbon-impact-with-carbon-aware-jobs/   很想听听其他人是否正在从事可持续开源的工作或有改进的想法，我们始终对反馈开放。 🚀  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1lu01m3/jobrunr_v8_opensource_java_job_job_scheduler_now_now_with/  &lt;a href =“ https://www.reddit.com/r/opensource/comments/1lu01m3/jobrunr_v8_opensource_java_job_job_scheduler_now_now_with/”]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1lu01m3/jobrunr_v8_opensource_java_job_scheduler_now_with/</guid>
+      <pubDate>Mon, 07 Jul 2025 17:17:38 GMT</pubDate>
     </item>
     <item>
-      <title>pipeps简单但功能强大的多站点多语言多格式或无头CMS</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0qzex/pipeps_a_simple_but_powerful_multisite/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;    https：//github.com/iagofg/pipepeps  一段时间以前，像Eons一样，开发了带有扩展模块支持的此混音器-Template处理器。我们将其包装成一个无依赖项的单核STB库，并在MPL-2.0下发布：它是多站点，多语性的，多格式的，具有高级功能，例如油门，I/O虚拟化，它的数据驱动程序在使用集成数据驱动程序时允许响应时间在0,05下，并且非常灵活；我们开发了许多网站，例如博客，新闻通讯和应用后端。可能更艰难的障碍是无法从UI编辑器中管理部分，因此需要部署至少空的文件，因此，这很容易，它仍然是开发人员辅助工具，而不是最终用户。同样，目前我们还没有将泵引擎包含在后端和前端上运行异步任务。我们更喜欢将其分为一个单独的项目，以使事情保持简单。包括有条件的多填充物，使其与最新和最古老的几乎所有PHP版本都兼容。 另一方面，因为几乎可以处理任何数据格式（不仅可以处理HTML），它可以作为传统的多语言媒介CMS或您的应用程序或反应性webapp的无头CMS;而且，由于包括数据虚拟化并与远程获取兼容，因此您可以将其与其他CMS，数据量或实例集成在一起，以便它可以在包括云轮毂在内的分布式设置上工作。 最后，我们在目前的基本站点示例部署中包括了基本的文档，但是如果您可以快速查看代码，您会很快查看该可能性超出了可能的范围！希望您喜欢它！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/iagofg     [link]       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0qzex/pipeps_a_simple_but_powerful_multisite/</guid>
-      <pubDate>Sun, 01 Jun 2025 14:59:15 GMT</pubDate>
+      <title>简单的工具：工作中没有人理解时间时钟...</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltzroq/simple_tools_nobody_at_work_understands_the_time/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ki4jgt     [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltzroq/simple_tools_nobody_at_work_understands_the_time/</guid>
+      <pubDate>Mon, 07 Jul 2025 17:07:31 GMT</pubDate>
     </item>
     <item>
-      <title>您如何管理联系人？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0ovlm/how_do_you_manage_your_contacts/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正计划从Google切换到新事物。我有一个希望是找到长期解决方案。也许我尝试质子，但最终要在几年内使用完全自托管的解决方案。  您如何管理联系人？我也希望还可以添加可以移至其他平台的图片和自定义标签。您如何将其与Android / iOS智能手机同步？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/cgpipeliner    href =“ https://www.reddit.com/r/opensource/comments/1l0ovlm/how_do_do_do_you_manage_your_your_contacts/”&gt; [link]    [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0ovlm/how_do_you_manage_your_contacts/</guid>
-      <pubDate>Sun, 01 Jun 2025 13:23:49 GMT</pubDate>
+      <title>Kickstart ++</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltypze/kickstart/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;    kickstart ++（kpm）  npm ，但对于所有编程语言。  什么是kpm？ 当您想创建一个新项目时，只需运行：     bash kpm kpm kpm init  init       新的项目文件夹  git存储库  readme文件 许可证文件 标准化的项目结构 所选语言的适当构建系统    ，而不是需要记忆性语言构建或运行命令，您可以使用：   这些命令将使用幕后的正确工具来编译或运行您的项目。  软件包管理  kpm也支持软件包安装。如果您在项目目录中，只需运行：   bash kpm install＆lt; package＆gt;    kpm将自动检测项目的语言，并使用适当的命令安装软件包。对于C项目，它将将库放置在 libs/文件夹中。 您还可以通过指定语言在全球安装包裹：    bash kpm kpm kpm install＆ltangual＆gt;@@@@@@@＆lt; pockage＆gt; gt; gt; gt;     注意：全局安装do 不是当前支持c。    语言模板 每个编程语言都以 .json  .json 文件&gt;  href =“ https://github.com/kingventrix007/kickstartfiles”&gt; kickstartfiles 存储库。 kpm解析这些文件以生成适当的项目布局。  kpm也支持离线模式，使用本地存储的缓存版本。   为什么C？ kpm在C中是最常见的选择。  c-lib   - 我尝试构建类似于 pip 的C软件包管理器，以及一种深入了解C语言的方法。  交叉平台支持  kpm是跨平台（linux和Windows），但最初是针对Linux开发的。新功能通常首先降落在Linux上，然后移植到Windows。虽然它应该在Windows上进行编译，但您可能会遇到偶尔出现错误或缺少功能。  最终注释 我是一个独奏的开发人员，同时杂乱无章。开发步伐可能会有所不同，有时我会在目标或功能之间跳来跳去。如果您感兴趣，请感谢您的耐心配合 - 我非常感谢任何支持或反馈！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/crazycoderperson      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltypze/kickstart/</guid>
+      <pubDate>Mon, 07 Jul 2025 16:28:23 GMT</pubDate>
     </item>
     <item>
-      <title>hortusfox v5.0刚刚发布🌿🦊💚</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0nnw8/hortusfox_v50_was_just_released/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/electronic_fart666     [link]    ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0nnw8/hortusfox_v50_was_just_released/</guid>
-      <pubDate>Sun, 01 Jun 2025 12:23:05 GMT</pubDate>
+      <title>为Raycast做了开源替代方案</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltxxy9/made_an_open_source_alternative_for_raycast/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  大家好！我尝试构建一个灵感来自Raycast，Wifi和Krunner的应用程序。它仍然是WIP，我希望对此做出尽可能多的帮助和批评。我是开源世界的新手，希望您必须分享任何建议。谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/pure35_       [注释] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltxxy9/made_an_open_source_alternative_for_raycast/</guid>
+      <pubDate>Mon, 07 Jul 2025 15:59:18 GMT</pubDate>
     </item>
     <item>
-      <title>您如何运行开源项目？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0llq5/how_do_you_run_with_your_open_source_project/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  老实说。大多数开源项目开始是因为有人讨厌手动或以错误的方式做事，否则他们认为世界需要比当今可用的更好的东西。也有一些瞬间的创造力火花导致一个新项目。  无论如何，构建项目，编写代码，文档和示例可能是50％或更少，实际上将OSS项目带入了生活 - 用户和贡献者的社区。恕我直言，一个项目超越了创造者的发展，可以拥有自己的生命。  您如何运行OSS项目，驱动器采用，修复＆amp;改进它，最终随用户有机地生长。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1l0llq5/how_do_do_do_you_run_with_your_your_your_open_source_source_project/”&gt; [link]  &lt;a href =“ https://www.reddit.com/r/opensource/comments/1l0llq5/how_do_do_you_run_with_your_your_your_your_source_source_project/]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0llq5/how_do_you_run_with_your_open_source_project/</guid>
-      <pubDate>Sun, 01 Jun 2025 10:18:59 GMT</pubDate>
+      <title>开放电视是快速，简单和开源的IPTV应用程序，今天在iOS上启动</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltr43j/open_tv_the_fast_simple_and_opensource_iptv_app/</link>
+      <description><![CDATA[       &lt;！&lt;！ -  sc_off- sc_off-&gt;   制作已经有一段时间了，这是第一个代码的代码。  79F7H67E4JKH   fra9kmrkwr9l    9w46hyalf7ry    tnpykamf4j7m        t3ekxaa7x3y3   77ptytyhkpm9   rmnlmr94jy3m    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fredol       [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltr43j/open_tv_the_fast_simple_and_opensource_iptv_app/</guid>
+      <pubDate>Mon, 07 Jul 2025 10:54:42 GMT</pubDate>
     </item>
     <item>
-      <title>我已经构建了一个CLI工具，用于使用GO上传</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0lcvh/ive_built_a_cli_tool_for_file_uploads_with_go/</link>
-      <description><![CDATA[I use UploadThing in a bunch of my projects, it&#39;s a super clean file upload service, especially if you&#39;re into things like Next.js or modern web dev in general. But one thing I was missing: a quick way to upload files without opening a浏览器或构建UI。因此，我制作了一个简单的CLI工具，可让您从终端直接上载文件。  no拖放和掉落。只需 ut推动./myconfig.json ，您的文件被上传了。 这还很早，我希望其他人尝试它，使用它，甚至可以做出贡献！如果您有想法，想打开问题或PRS，或者打开问题或PR，或者只是想让它旋转。 href =“ https://github.com/mhemedab​​derrahmen/ut”&gt; github repo   -   nebsite  eblity     让我知道您怎么想！很高兴回答问题或聊天。   ps：这是我与GO的第一个侧面项目。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/starkoid23     [links]      &lt;a href =“ https://www.reddit.com/r/opensource/comments/1l0lcvh/ive_built_a_cli_cli_file_file_file_file_file_file_file_uploads_withs_with_with_with_go/]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0lcvh/ive_built_a_cli_tool_for_file_uploads_with_go/</guid>
-      <pubDate>Sun, 01 Jun 2025 10:02:42 GMT</pubDate>
+      <title>P2P分发了AI模型培训 - 这有意义吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltqras/p2p_distributed_ai_model_training_would_this_make/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨！我正在研究一个开源项目，该项目可以通过多台个人计算机（甚至是通过浏览器或轻量级客户端）进行AI模型的分布培训。 Instead of relying on cloud GPUs, the system uses available resources like RAM, CPU, and GPU of connected machines. Each client trains on a small chunk of data based on its hardware score, and sends back the model weights to the server which aggregates them. It’s currently working on local networks via sockets, but I&#39;m exploring WebRTC and TURN/STUN to make it work across the互联网。 我想知道的是：   - 这在技术上和实际上是有意义的吗？   - 您是否看过类似的项目？   - 最大的风险或瓶颈是什么？   - 您亲自使用或对这样的系统使用或贡献？我将很快开放整个存储库  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/trick_journalist_389      [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltqras/p2p_distributed_ai_model_training_would_this_make/</guid>
+      <pubDate>Mon, 07 Jul 2025 10:33:28 GMT</pubDate>
     </item>
     <item>
-      <title>有白板应用吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0jbqz/is_there_an_app_for_whiteboard/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我最近寻找一个用于白板的应用程序，因为MS WhiteBoard使用Internet。当我寻找离线选项时，其中许多缺乏完美的用户界面或用户体验。请为此推荐任何应用程序。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1L0JBQZ/IS_THERE_APP_APP_FOR_FOR_WHITEBOOD/”&gt; [link]    32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0jbqz/is_there_an_app_for_whiteboard/</guid>
-      <pubDate>Sun, 01 Jun 2025 07:42:11 GMT</pubDate>
+      <title>MEREAD-本地预览GitHub如何呈现Markdown</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltppvk/meread_locally_preview_how_github_renders_markdown/</link>
+      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/sermuns     [link link]&gt; [link]   ＆＃32;   [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltppvk/meread_locally_preview_how_github_renders_markdown/</guid>
+      <pubDate>Mon, 07 Jul 2025 09:28:16 GMT</pubDate>
     </item>
     <item>
-      <title>TLDX-快速域名发现的CLI工具发现</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0gen1/tldx_a_cli_tool_for_fast_domain_name_discovery/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  刚刚发布的TLDX，我用来快速检查一个CLI工具，以快速检查是否可以在一系列TLD和VARIATIONS上使用一个域名。&lt; /p&gt; 希望，有些CLI爱好者可以发现它有用！ href =“ https://github.com/brandonyoungdev/tldx”&gt; https://github.com/brandonyounngdev/tldx    我总是为自己建立小工具，最终埋在私人储备中。 （认真 -  111个中只有31个是公开的，其中大多数只是叉子。）认为是时候开始分享其他人可能会发现有用的了。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/brandutchmen   href =“ https://www.reddit.com/r/opensource/comments/1l0gen1/tldx_a_cli_tool_for_for_fort_ford_fast_fast_fast_fast_domain_name_discovery/”&gt; [link]     32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0gen1/tldx_a_cli_tool_for_fast_domain_name_discovery/</guid>
-      <pubDate>Sun, 01 Jun 2025 04:36:21 GMT</pubDate>
+      <title>我建造了Ccundo-立即撤消Claude Code的错误而不会浪费令牌</title>
+      <link>https://www.reddit.com/r/opensource/comments/1lthdpw/i_built_ccundo_instantly_undo_claude_codes/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  厌倦了克劳德代码所做的更改，然后必须花更多的代币要求它来修复问题。 ，所以我制作了 ccundo   -  NPM包装  - 一个让您快速地使用Prevo claude code preeiep preepm cascads and cascadsepm     CCUNDO列表＃请参阅最新操作Ccundo undo＃undo with preview     github ： href =“ https://www.npmjs.com/package/ccundo”&gt; https://www.npmjs.com/package/package/ccundo       请星其他人处理类似的克劳德代码挫败感？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/compitive-noise905     [link]   [commist]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1lthdpw/i_built_ccundo_instantly_undo_claude_codes/</guid>
+      <pubDate>Mon, 07 Jul 2025 01:13:31 GMT</pubDate>
     </item>
     <item>
-      <title>我为Konsave做了一个UI</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l0ag7j/i_have_made_a_ui_for_konsave/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我喜欢在我的KDE系统上使用主题，并且我在Github上的prayag2找到了Konsave。 “问题”这是它是一个CLI工具，我希望它有一点UI来处理我的主题，所以我自己写了！ 如果您是Linux Newcomer，并且您仍然害怕终端，或者您只是懒惰，或者您不想每次打开终端，您必须更改您的主题，这可能是一个方便的工具！ href =“ https://github.com/theuruz/konui”&gt; https://github.com/theuruz/konui    和平！ ：）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/theuruz     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l0ag7j/i_have_made_a_ui_for_konsave/</guid>
-      <pubDate>Sat, 31 May 2025 23:17:12 GMT</pubDate>
+      <title>开源应用程序可以使屏幕截图变得模糊？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltgsnf/open_source_app_to_unblur_a_blurry_screenshot/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我问 perplexity.ai 它为免费提供屏幕截图所建议的应用程序提供了什么应用，并且它为我提供了3个应用程序，这些应用程序都需要创建一个只需blul blul blur blur blur blur searenshot的应用程序。你们可以推荐一个免费的开源Web应用程序，该应用程序会使我毫无疑问屏幕截图，而不是强迫我使用电子邮件创建帐户？谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1ltgsnf/open_source_source_app_to_to_unblur_a_blurry_blurry_screenshot/&gt; [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltgsnf/open_source_app_to_unblur_a_blurry_screenshot/</guid>
+      <pubDate>Mon, 07 Jul 2025 00:43:10 GMT</pubDate>
     </item>
     <item>
-      <title>向 @turbodocx/html-to-docx添加了打字稿支持（基于社区反馈）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l08nal/added_typescript_support_to_turbodocxhtmltodocx/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   @turbodocx/html-to-docx  - 现在有typescript支持！   ，我们被要求提供打字稿以支持更现代的应用程序，以支持更多的现代应用程序 - 因此！除了正在进行的安全性更新外，我们还添加了本机打字条支持，以使其更易于在现代项目中使用。 我们的主要应用程序主要应用程序是打字稿，因此对于我们来说，添加键入只是有意义的...我在周六的随机星期六下午还能做什么...  始终向反馈和贡献开放，因为它始终向反馈和贡献开放。 href =“ https://github.com/turbodocx/html-to-docx”&gt; https://github.com/turbodocx/hturbodocx/hturbodocx/hturbodocx/htblml-tocx     ps--如果有人想提供超级ci/cd的ci/cd  /u/u/nicolascoding   href =“ https://www.reddit.com/r/opensource/comments/1l08nal/added_typescript_support_to_turbodocxhtmltodocx/”&gt; [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l08nal/added_typescript_support_to_turbodocxhtmltodocx/</guid>
-      <pubDate>Sat, 31 May 2025 21:53:41 GMT</pubDate>
+      <title>OpenSource替代旅行地图应用程序</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltei2s/opensource_alternative_for_been_travel_map_app/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我刚移至eu，并注意到了最简单的数据。应用收集。所以我一天做了更好的事情。这也是我20岁生日，所以恭喜yay   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/vityachel       [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltei2s/opensource_alternative_for_been_travel_map_app/</guid>
+      <pubDate>Sun, 06 Jul 2025 22:52:30 GMT</pubDate>
     </item>
     <item>
-      <title>寻找贡献者的开源项目 - 发布您的</title>
-      <link>https://www.reddit.com/r/opensource/comments/1l05d35/open_source_projects_looking_for_contributors/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我认为分享我们正在研究的开源项目并可能找到贡献者。 如果您正在开发开源项目并且需要帮助，请随时在评论中分享它。这可能是一个个人项目，一个为他人的工具，也可能是您正在为娱乐或学习而建的东西。 开源时，当人们协作时，开源最佳。 You never know who might be interested in helping, testing, or offering feedback. If you cannot contribute directly but like an idea, consider starring the repository to show support and encouragement to the creator. Comment template: Project name: Repository link: What it does: Tech stack: Help needed: Additional information:   有兴趣贡献吗？  按“ new＆quot”进行评论，探索项目，并伸出援手。即使是小贡献也可以产生有意义的差异。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1l05d35/open_source_projects_looking_for_contributors/”&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1l05d35/open_source_projects_looking_for_contributors/</guid>
-      <pubDate>Sat, 31 May 2025 19:27:02 GMT</pubDate>
+      <title>EasyClone-非常方便的RCLONE散装备用包装器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ltbr19/easyclone_very_convenient_rclone_bulk_backup/</link>
+      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/forvirringssirkel       [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ltbr19/easyclone_very_convenient_rclone_bulk_backup/</guid>
+      <pubDate>Sun, 06 Jul 2025 20:52:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
