@@ -4,20 +4,20 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Thu, 10 Jul 2025 09:20:42 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 12:35:08 GMT</lastBuildDate>
+    <item>
+      <title>停电 - 紧急情况的网络范围内加密的Killswitch</title>
+      <link>https://www.reddit.com/r/opensource/comments/1lw9m63/blackout_a_networkwide_encrypted_killswitch_for/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  此工具通过本地网络安全广播加密的心跳消息。具有正确键的设备可以识别信号。触发内置的Killswitch停止广播，这是执行紧急命令和网络范围关闭的理想选择。 源代码和详细信息：  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1lw9m63/blackout_a_networkwide_encrypted_killswitch_for/”&gt; [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1lw9m63/blackout_a_networkwide_encrypted_killswitch_for/</guid>
+      <pubDate>Thu, 10 Jul 2025 10:48:25 GMT</pubDate>
+    </item>
     <item>
       <title>如何为静态链接的库获得类似LGPL的许可？</title>
       <link>https://www.reddit.com/r/opensource/comments/1lw7wek/how_can_i_achieve_lgpllike_licensing_for_a/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我想在lgpl样许可机制下发布图书馆，但由于两个原因，它是一个静态链接的库。 首先，它的平台旨在为了真正支持动态链接，至少没有多个库的函数，并且在库中却没有多个函数，因此，它是一个函数的函数，第二个是一个完善的函数）  我想通过库来实现，当它在新的库/软件中被修改或用作组件时，该库/软件需要以相同的许可条款发布该库/软件 - 但是，如果库仅集成到项目中，以将其使用的许可使用（通过使用该库的preption press preption/pr）&lt; （或LGPL或GPL的修改/异常）我可以实现吗？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/strighonOnix     [link]        [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1lw7wek/how_can_i_achieve_lgpllike_licensing_for_a/</guid>
       <pubDate>Thu, 10 Jul 2025 08:58:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是否应该从主包装中删除一些真正的基本软件包，因为有专门内置的功能</title>
-      <link>https://www.reddit.com/r/opensource/comments/1lw7ole/should_i_remove_some_really_basic_packages_from/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  喜欢：   is-extglob（有道理）  is-glob（有道理）  is-number（我认为我们可以使用isnan） iSnan）     li&gt; li&gt; li and and y romece; （很有意义）  这些非常简单的软件包，即使它很小，有些软件包也很有意义，但有些软件包   ，而这个小包装在其他软件包中使用。因此，它使依赖关系循环 因此，我可以做出贡献，例如从其他包装中删除这些依赖项并添加软件包本身？ 就像您可以看到“软件包”代码     // is-promise module.exports.exports = ispromise; Module.exports.default = iSpromise;函数ispromise（obj）{return !! obj＆amp;＆amp; （obj ===&#39;object&#39;||类型obj ===&#39;函数&#39;）＆amp; amp; obj.typ obj.then ===&#39;function&#39;; } // is-number /*！ * is-number＆lt; https：//github.com/jonschlinkert/is-number&gt; * *版权（c）2014年至今，乔恩·施林克特（Jon Schlinkert）。 *根据麻省理工学院许可发布。 */&#39;使用严格&#39;; module.exports = function（num）{if（typeof num ===&#39;number&#39;）{return num -num === 0; } if（typeof num ===&#39;string&#39;＆amp;＆amp; num.trim（）！==&#39;&#39;）{return number.Isfinite？ number.Isfinite（+num）：isfinite（+num）; }返回false; };    像is-number一样，可以用isnan代替，isnan构建的javaScript（es6）    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1lw7ole/should_i_remove_some_some_really_basic_basic_basic_packages_from/”&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1lw7ole/should_i_remove_some_really_basic_packages_from/</guid>
-      <pubDate>Thu, 10 Jul 2025 08:43:03 GMT</pubDate>
     </item>
     <item>
       <title>我们开源视频下载器的主要更新</title>
