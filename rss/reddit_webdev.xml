@@ -4,111 +4,111 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Sat, 12 Jul 2025 04:00:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jul 2025 04:03:27 GMT</lastBuildDate>
     <item>
-      <title>gitops和argocd介绍</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxr0uo/gitops_with_argocd_introduction/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，我写了一篇有关gitops的介绍。如果您感兴趣的话，请看一下。您的部署过程是什么？您是用GitHub操作写CI/CD管道还是类似的内容？ 如果您有一个媒介：  https://medium.com/@erwinschleier/gitops-introduction-with-argo-cd-51f81302e013 Personal blog:   https://erwin-schleier.com/2025/2025/207/07/07/04/gitops-introdops-introdops-introdact--introdact--with--argo-cd/argo-cd/-cd/ scd/ sc.-  [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxr0uo/gitops_with_argocd_introduction/</guid>
-      <pubDate>Sat, 12 Jul 2025 03:59:05 GMT</pubDate>
+      <title>需要CloudFlare后端的建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1m07n3s/need_advice_with_cloudflare_backend/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我有一个Cloudflare页面工人，该工人从前端接收图像，调用OpenAI的Image-Edit API（每个图像≈30s），然后将处理的图像返回给客户端。  最多2张图像（总计约60 s）。对于3个以上的图像，响应＆GT; 100 s和Cloudflare返回524，客户端失败。 处理这些长期运行任务的最佳模式是什么，以便用户可以提交8张图像而不会达到100秒的限制？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/far-newt2088     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1m07n3s/need_advice_with_cloudflare_backend/</guid>
+      <pubDate>Tue, 15 Jul 2025 03:48:25 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Satuday]我正在操作新的免费DNS域后缀ZZ.AC，带有免费的WebDav和电子邮件转发服务</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxpwm8/showoff_satuday_i_am_operating_new_free_dns/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   hi， 我正在操作新的免费DNS域suffix  zz.ac 个人学习和学术目的。 它很短，但有意义，但您可以免费设置WebDav的空间，以便于 hello@example.org ，您还会获得 example@zz.ac.ac 的电子邮件别名，所有收到的邮件将转发到 hello@example.org 。 可以在 https://tao.zz.ac.ac.ac.ac/dns/dns/free-zz-domain-name.html 将您的域直接应用于 https://nic.zz.ac/     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/bithipp     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxpwm8/showoff_satuday_i_am_operating_new_free_dns/</guid>
-      <pubDate>Sat, 12 Jul 2025 02:58:15 GMT</pubDate>
+      <title>Google Drive克隆需要帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1m07emy/need_help_with_a_google_drive_clone/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  所以我正在为学校做一个注释共享平台。监视器将能够以pdf的形式共享笔记，是的，最好的方法就是使用驱动器，但他们不想使用驱动器，但不想在存储上花钱，我不想在储存中使用amazon s3，但我会想到什么，但是我要读取什么？无法决定如何存储pdfs谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/bubbly-exit-6569      [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1m07emy/need_help_with_a_google_drive_clone/</guid>
+      <pubDate>Tue, 15 Jul 2025 03:36:23 GMT</pubDate>
     </item>
     <item>
-      <title>制作一个较重的网络应用程序，可以选择什么堆栈？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxp2y0/making_an_seoheavy_web_app_what_stack_to_choose/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在制作一个事件Web应用程序，该应用程序允许您注册事件，并且它具有社区功能（重型客户端工作）和MultiSearch。我不确定是使用下一个JS还是Astro还是新的Tanstack Start。 编辑：我想要对代码的全部所有权，因此没有网站构建器。如果您给我使用这三种解决方案中的任何一种经验，我将不胜感激。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/mouradslim     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxp2y0/making_an_seoheavy_web_app_what_stack_to_choose/</guid>
-      <pubDate>Sat, 12 Jul 2025 02:14:30 GMT</pubDate>
+      <title>在没有docker的情况下，将数据库添加到节点项目</title>
+      <link>https://www.reddit.com/r/webdev/comments/1m06d2m/adding_a_database_to_a_node_project_without_docker/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  典型的三层Web应用程序需要MariadB或Postgres。这增加了建立开发环境的复杂性，尤其是对于可能的贡献者而言。对于Endor，我们使在您的节点项目中添加数据库依赖关系是简单的，而无需离开NPM生态系统或必须安装Docker   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/ridruejo      &lt;a href =“ https://www.reddit.com/r/webdev/comments/1m06d2m/adding_a_database_a_a_a_a_node_project_project_without_docker/]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1m06d2m/adding_a_database_to_a_node_project_without_docker/</guid>
+      <pubDate>Tue, 15 Jul 2025 02:43:55 GMT</pubDate>
     </item>
     <item>
-      <title>Glassmorphic嵌套的子类型？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxp0mj/glassmorphic_nested_submenues/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxp0mj/glassmorphic_nested_submenues/</guid>
-      <pubDate>Sat, 12 Jul 2025 02:11:07 GMT</pubDate>
+      <title>对于聊天机器人应用程序，有200个并发请求/分钟，什么是一个很好的SQLalchemy DB池大小？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1m02yj9/whats_a_good_sqlalchemy_db_pool_size_for_a/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿， 我正在使用充当聊天机器人平台的Python Web应用程序（FastAPI），从不同的AI模型（一些内部且相当慢）进行了响应。 Some of these requests can take up to 20 seconds to respond, during which time a DB connection is held open. We’re using SQLAlchemy + asyncpg connected to PostgreSQL on AWS RDS, and max_connections returns 3000+. The app is expected to handle up to min 300 concurrent requests per minute with some spiking fluctuations, and I want to make sure our DB连接池适当尺寸适合此并发级别。  kubernetes上下文：每个后端pod均具有容器和限制，如下所示： 资源：   限制：cpu：cpu：1000m＃= 1000m＃= 1 cpu core remore：2gi＃= 2048mi   默认配置 - 未从基线  create_engine（database_url，pool_size = 5，max_overflow = 10，） 这似乎太小了，对于我们的使用情况来说，这似乎太小了，并且导致大量超时。我正在考虑将其提高到：  create_engine（database_url，pool_size = 350，＃，但也可以位置500，max_overflow = 100 ,, pool_timeout = 30，pool_recycle = 3600，） 这感觉更合适，尤其是我向社区的问题： 这种配置对您而言是否有意义？ 以这种方式扩展连接池的任何问题或风险？ 您是否看到了每个Pod的CPU/CPU/Memory压力？  会喜欢听到您的经验或不好意思 preepaight       &gt;很抱歉成为菜鸟。  编辑：从移动设备发布。对不起，格式不好  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1m02yj9/whats_a_good_sqlalchemy_db_pool_size_size_for_a/&gt; [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1m02yj9/whats_a_good_sqlalchemy_db_pool_size_for_a/”]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1m02yj9/whats_a_good_sqlalchemy_db_pool_size_for_a/</guid>
+      <pubDate>Tue, 15 Jul 2025 00:05:45 GMT</pubDate>
     </item>
     <item>
-      <title>引导或尾风？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxowiq/bootstrap_or_tailwind/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我已经使用了bootstrap一段时间了，但最近我看了尾风，在我看来，现在它比bootstrap更好。您可以在HTML中的不同断点中设置响应属性，我认为BS在BS中是不可能的。显然，它具有更多的属性选项，例如文本大小。我在短时间内尝试了逆风，发现它更容易和友好。 您怎么看？哪一个更好？我应该使用尾风吗？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/durianlongjumping329      [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxowiq/bootstrap_or_tailwind/</guid>
-      <pubDate>Sat, 12 Jul 2025 02:05:12 GMT</pubDate>
+      <title>我构建了一个启动器，可让您从单个文件（类似于PDF）在本地构建并运行前端。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1m01yrs/i_built_a_launcher_that_lets_you_build_and_run_a/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我制作了一个启动器，该启动器像应用程序一样通过我调用Microtools（.mrl扩展名）的文件运行包装前端，就像应用程序一样。 Microtool是一个带有索引的压缩文件夹。启动器。 这些工具对我非常有用。我一直在用它来制作简单的IDE，照片编辑器等。我认为其他人也可以从中使用一些。 它称为toubador，您可以在此处下载启动器：还向网站添加了一个市场，以销售您制作的微型工具（但这是可选的，启动器是完全免费下载和使用的）。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1m01yrs/i_built_a_a_launcher_that_lets_you_you_build_and_run_a/  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1m01yrs/i_built_a_a_launcher_that_lets_you_build_and_and_run_run_a/”]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1m01yrs/i_built_a_launcher_that_lets_you_build_and_run_a/</guid>
+      <pubDate>Mon, 14 Jul 2025 23:22:22 GMT</pubDate>
     </item>
     <item>
-      <title>我认为我认为可以是项目管理的替代方案的Twitter/Jira Hybrid</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxoipi/made_a_twitterjira_hybrid_that_im_thinking_could/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我制作了一个我一直在考虑一段时间的应用程序，一种日记/项目管理的东西，这个想法是我提供了几种工具，您可以在其中只需在您的团队中添加Relavant/“重要信息”。您做了什么，您需要的任务，提醒，关注，决策等...这只是一个知识存储库，我早上启动，我说，“我的团队上周做了什么？或“本周需要做什么以及我的帖子以及我的团队帖子，所有这些都是提供准确，上下文答案的信息。至少这是我的希望，但是如果项目有意义，我很想听听您的反馈，如果该项目可以做我希望的。该应用程序不是活的，这是一个低级的演示站点，我在每个构建中都迁移了新鲜，因此没有任何永久性。如果登录，您将自动将其放置在团队1上，这只是假装的团队数据。不过，您将能够看到彼此的帖子，因此请友好。  https://mindstorm-preview-zbepzo.laravel.laravel.laravel.laravel.cloud/login/login/login 这是一个无用的服务器，因此可以从几秒钟开始启动。 它。  这是我第一次获得反馈，所以让我在这里知道或DM我，如果您真的认为这是臭味并想私下告诉我。  登录，每当我按代码时，它都会再次重置。发布，问问题，告诉我您的想法。如果您想要有关该项目的更多信息，我也制作了一个着陆页，这又一次仍在开发中，因此许多AI内容和错误。  https://mindstorm-preview-zbepzo.laravel.laravel.cloud.cloud/landing/landing  提交由＆＃32; /u/iamrules     [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1lxoipi/made_a_twitterjira_hybrid_hhybrid_hhybrid_that_im_thinking_tinking_cold/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxoipi/made_a_twitterjira_hybrid_that_im_thinking_could/</guid>
-      <pubDate>Sat, 12 Jul 2025 01:45:48 GMT</pubDate>
+      <title>首次设置Google Auth</title>
+      <link>https://www.reddit.com/r/webdev/comments/1m00wni/setting_up_google_auth_for_the_first_time/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  你好， 我一直在应用程序中使用电子邮件 +密码进行身份验证。但是，我想尝试添加Oauth提供商，从Google开始。 我遵循了一些教程和Google文档（在 我知道访问令牌在1小时后到期，并且我可以使用刷新令牌来获取新的访问令牌，但是我是否也设定了刷新令牌的到期日期？还是我应该不定地保留它，直到用户注销并撤销令牌，然后根据这些文档。如果我错过了任何东西，请提及它。非常感谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/sorciers     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1m00wni/setting_up_google_auth_for_the_first_time/</guid>
+      <pubDate>Mon, 14 Jul 2025 22:38:25 GMT</pubDate>
     </item>
     <item>
-      <title>第一个项目</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxnu3b/first_project/</link>
-      <description><![CDATA[     十一月，所以我手上有很多时间。大约一个月前，我一直在寻找（另一个）计划和组织应用程序，没有什么真正做我想要的所有事情，或者来回有太多的信息。因此，由于我有时间，我决定尝试自己做一些对我的大脑工作的东西！  到目前为止，我拥有主流的主流（您想要标记的随机注释/想法），一个日历页面和每日页面。每日页面上的手机上仍然有点奇怪，所以我没有凝聚力的屏幕截图（我在想可能可折叠的部分。时间表列表，从主日历页面进行的任何约会都将加载到时间表待办事项：创建带有令人满意的tick框的条目，并在完成优先级时交叉：任何“重要事件”从主日历页面上，每日页面上的优先级将加载：整理所有杂物，反思，或者只是任何流条目的空间：当天主流中主流中所做的任何条目都将加载，允许用户按日期和编译思想和优先级（注释的想法）返回条目。  到目前为止，您如何看待？我对此感到非常满意，尤其是当我最后一次进行编码的冒险是在Neopets的宠物页面上！谢谢，我会花时间看我的小项目！ :)   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/usydratedRasin       [注释]         ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxnu3b/first_project/</guid>
-      <pubDate>Sat, 12 Jul 2025 01:11:52 GMT</pubDate>
+      <title>嗨，我对想使用网站制造的产品有一个想法，但我不知道从哪里开始</title>
+      <link>https://www.reddit.com/r/webdev/comments/1m00l0x/hi_i_have_an_idea_about_a_product_i_want_to_make/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  对于上下文，我不是编程的初学者，我对Python，C，C ++ ASM，LUA甚至一些JS有经验。我知道网络如何工作。我知道TC，HTTP ...等，但似乎网站制作似乎有所不同。我在YouTube上找不到一个很好的资源来教授最重要的事情，所有这些资源都漫步于CSS，HTML和JS。他们没有表现出太多的后端，我也很困惑。在其他领域，有一些工具可以做某些事情，并且在用语上它们有一个出色的文档，但我什至不知道我是否应该使用普通的CSS和HTML或学习角或反应，或者其他内容不再提及这些框架语法中的其他内容，甚至像JS一样，就像JS一样，他们中的每一个都像JS一样，他们中的每一个都像是再次学习c遍历       &lt;！提交由＆＃32; /u/u/usearch_document9593     &lt;a href =“ https://www.reddit.com/r/webdev/comments/1m00l0x/hi_i_i_i_i_i_i_have_an_idea_about_a_a_a_product_i_want_i_want_to_to_make/]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1m00l0x/hi_i_have_an_idea_about_a_product_i_want_to_make/</guid>
+      <pubDate>Mon, 14 Jul 2025 22:25:14 GMT</pubDate>
     </item>
     <item>
-      <title>我现在没有PC。只有一部Android手机。有什么方法可以访问控制台或CSS规则窗口？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxno05/i_dont_have_a_pc_right_now_only_an_android_phone/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我找到了让您加载网页并调整视口维度（例如Chrome的设备模拟器）的网站。不久前，我对猕猴桃的Devtools进行了修补，但此时似乎不太好。我太懒了，无法打开样式表和JS文件，无法在脑海中手动运行代码以捕获错误。我也很懒惰，无法阅读几个并发的重叠样式表，以计算哪些规则具有最终发言权，并从那里进行适当的调整。我已经检查了第一天的检查元素。不确定是否依赖它是一个合法的问题，或者我只是对此感到不安全，但是我最终会遇到它...  ，所以...是的。到目前为止，任何Android应用程序，网站或其他手段都可以访问这些内容？ 哦，是的。如果有人想知道，我曾经使用termux，然后在手机上使用它。最终开始涉足我的服务器并直接在服务器上工作。我认为Termux也踢了bcket，所以我希望每当我回到本地工作时都必须找到替代品。但是，这是一个无关的问题。 提前感谢，如果这篇文章比需要的时间更长，更漫长！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/pentsk     [links]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1lxno05/i_dont_have_pc_pc_pc_right_now_now_only_only_an_android_android_phone/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxno05/i_dont_have_a_pc_right_now_only_an_android_phone/</guid>
-      <pubDate>Sat, 12 Jul 2025 01:03:28 GMT</pubDate>
+      <title>Next.js 15.4</title>
+      <link>https://www.reddit.com/r/webdev/comments/1m0001o/nextjs_154/</link>
+      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/feross       [注释]         ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1m0001o/nextjs_154/</guid>
+      <pubDate>Mon, 14 Jul 2025 22:02:09 GMT</pubDate>
     </item>
     <item>
-      <title>🚀当您的github页面使用此应用程序更新时，请监视！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxmgm8/monitor_when_your_github_pages_update_with_this/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;    github页面部署监视器 如果您曾经使用 github页面  您可能会再次更新了……然后再及时……      服务器端。 因此，我制作了一种工具来解决这种不确定性： 🎯    观看您的github页面存储库的新提交 监视部署状态检查（通过github api）   在部署实际上是 Features  🔄 Tracks deploys in real-time (via check runs) 🔔 Sends Windows toast notifications when deploy finishes ⚙️ Customizable polling interval, branches, repo settings, etc. 🧼 Simple UI减少干扰（这是  🧪 Looking for Beta Testers! I&#39;d really appreciate:  🐞 Bug reports if anything breaks 💡 Suggestions to improve the UI or add new features ✅ Feedback on usability and performance   📦立即尝试  ➡️ href =“ https://github.com/redbackspider77/githubpagesdeploymonitor”&gt; https://github.com/redbackspider77/githubpagesdeploymonitor  href =“ https://github.com/redbackspider77/githubpagesdeploymonitor/issues”&gt;打开问题讨论如果您有任何反馈！   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/redbackspider69     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxmgm8/monitor_when_your_github_pages_update_with_this/</guid>
-      <pubDate>Sat, 12 Jul 2025 00:04:17 GMT</pubDate>
+      <title>什么对你有用？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1lzyvrz/whats_working_for_you/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   hi  r/webdev ， 我是我试图在2025年销售服务的网络开发人员，我遇到了一些重要的路障。我一直在尝试提供各种Web开发解决方案，认为它们满足了真正的客户需求，但是我很难进行任何销售。感觉我什至没有机会证明我可以提供的价值。  对于那些在2025年成功出售您的服务的人来说，当前对您有什么效果，对您有什么好处？是否有特定类型的项目，技术，技术或需求高需求？什么样的推销或销售策略让客户说“是？ 有关客户实际寻找的东西以及如何有效销售Web Dev服务的任何建议将不胜感激。感谢您的见解！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/no_technology7451      [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1lzyvrz/whats_working_for_you/</guid>
+      <pubDate>Mon, 14 Jul 2025 21:18:25 GMT</pubDate>
     </item>
     <item>
-      <title>用户数据结构的最佳实践？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxlqm1/best_practice_for_user_data_structure/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在扩展我的项目，用户记录将变得非常大。用父母的记录将其细分是有意义的，但是有很多方向可以走，我宁愿不重新发明轮子。是否有人可以为此推荐任何资源吗？开始。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/man_as_idea     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxlqm1/best_practice_for_user_data_structure/</guid>
-      <pubDate>Fri, 11 Jul 2025 23:30:57 GMT</pubDate>
+      <title>内容映射</title>
+      <link>https://www.reddit.com/r/webdev/comments/1lzy404/content_mapping/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  你好，你们想知道什么工具让你们给客户创建网站时创建内容的内容。 我不确定这是您的大多数人的问题可以开始插入内容（不仅与SEO相关，还可以图像选择，标题，描述，漫长等） 想知道你们在使用什么/是否是您提供的东西。   &lt;！ -  sc_on-&gt; sc_on-&gt;＆＃32;提交由＆＃32; /u/u/darkshb      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1lzy404/content_mapping/</guid>
+      <pubDate>Mon, 14 Jul 2025 20:48:17 GMT</pubDate>
     </item>
     <item>
-      <title>Instagram在应用程序内浏览器停止视频时</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxl3f0/instagram_inapp_browser_pauses_a_video_when_unmute/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在尝试拥有一个自动播放yt视频，自动播放视频播放播放，但在移动设备上单击“无静音”按钮，我必须全屏幕上屏幕以查看该按钮，所以我添加了此自定义按钮：    ＆quet; mute tuge; mute; sute; sute; mut; style =&#39;位置：绝对；底部：20px;右：20px;   z-index：10;字体大小：14px;背景：RGBA（0,0,0,0.7）;  颜色：白色；边界：无；边界 - 拉迪乌斯：4px;  填充：6px 12px; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.3); transition: opacity 0.5s ease;&quot;&gt; 🔊 click to unmute &lt;/button&gt; all working so far, but when entering the website from Instagram它打开了应用程序内浏览器，当我单击此应用程序内浏览器上的“取消静音自定义”按钮时，它会暂停视频！ 我该怎么办？ 这是完整的代码：      ＆lt; div class class =＆quot; video-container＆quot＆quot＆quot＆quot＆quot＆quot;;;;样式=＆quot;宽度：100％;最大宽度：1386px;保证金：0自动；位置：相对； expact-ratio：16/9;＆quot＆gt;     ＆lt; iframe id =＆quot&#39;youtube-player;样式=＆quot;宽度：100％;身高：100％；边界：无； src =＆quort; https：//www.youtube.com/embed/------？autoplay = 1＆amp; amp; mute = 1＆amp; amp; enablejsapi = 1＆quort允许=＆quot; autoplay;加密媒体allowfullscreen =＆quord＆quord＆quot＆quot&#39;    ＆lt;/iframe＆gt;        ＆lt; button id =＆quort id =＆quot; style =&#39;位置：绝对；底部：20px;右：20px;      z-index：10;字体大小：14px;背景：RGBA（0,0,0,0.7）;     颜色：white;边界：无； Border-Radius：4PX;     填充：6px 12px;光标：指针;     box-shadow：0 2px 5px rgba（0,0,0,0,0.3）;        transition：不透明度0.5S ease; &lt;/button&gt; &lt;/div&gt; &lt;script&gt; let player; // Make API callback global   window.yoneoutubeiframeaepiready = function（）{      player = new yt.player（&#39;youtube-player&#39;，{          evest } }); }; function onPlayerReady(event) { const muteBtn = document.getElementById(&#39;mute-toggle&#39;); muteBtn.addEventListener(&#39;click&#39;, function () { event.target.unMute(); // Fade out muteBtn.style.opacity = &#39;0&#39;;   // fade      settimeout（（（）=＆gt; {     mutebtn.style.display =&#39;none&#39;; none&#39;;       }）;     }      //加载youtube iframe iframe iframe iframe api           tag.src =＆quot; https：//www.youtube.com/iframe_api&quot; ;;  ＆lt;/script＆gt;    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1lxl3f0/instagram_inapp_browser_pauses_a_video_video_when_unmute/”&gt; [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1lxl3f0/1lxl3f0/instagram_inapp_browser_pauses_a_a_video_video_when_when_unmute/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxl3f0/instagram_inapp_browser_pauses_a_video_when_unmute/</guid>
-      <pubDate>Fri, 11 Jul 2025 23:01:59 GMT</pubDate>
+      <title>Web服务创意？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1lzwmxh/web_services_ideas/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  所以，我有一个自由职业业务，在其中为小型企业提供网络开发，网络维护和网络优化服务。即使是自由职业者，我也计划开发新的服务来扩展，因为我们的市场如此有竞争力。 您可以建议我喜欢什么想法，就像我所说的这三种服务一样，我可以提供的服务？  thabk you    &lt;！&lt;！ -  sc_on--&gt; 32;提交由＆＃32; /u/u/u/ldmauritius     ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1lzwmxh/web_services_ideas/</guid>
+      <pubDate>Mon, 14 Jul 2025 19:53:01 GMT</pubDate>
     </item>
     <item>
-      <title>如何制作快速网络前端</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxjkzp/how_to_make_fast_web_frontends/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  在本文中，我提出了优化网站和Web应用程序前端性能的技术。我将这些技术分为两个类别：第一个包括减少向用户交付内容所需工作量的技术，第二个包括通过优化任务计划来减少延迟的工作量。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/nawfel_bgh      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxjkzp/how_to_make_fast_web_frontends/</guid>
-      <pubDate>Fri, 11 Jul 2025 21:55:29 GMT</pubDate>
+      <title>您如何获得完整堆栈.NET作业所需的经验（C＃Web开发人员）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1lzv5o3/how_do_you_get_the_required_experience_for_full/</link>
+      <description><![CDATA[Hi everyone I’m a new learner currently studying HTML, and I’ll be starting my Computer Science major next year (I’m on a gap year right now). I’ve been looking into full stack .NET (or its called C# dev I guess) jobs, but I keep seeing job postings especially on LinkedIn that ask for 3-5 years of experience.  我几乎从未见过真正的入门级角色，而且确实存在的少数人在几个小时内获得了100多名申请人 我有两个问题：  1做入门级的工作，例如帮助sock，soc分析师，初级前端开发人员，少年前端开发人员，或与nonode.js相关的经验&lt;  2-如果我有很多完整的堆栈.NET项目，是否有可能申请需要3年经验的工作？您真的可以单独根据投资组合而被录用吗？或者，你们是如何在大三学生时期进行实验的？  非常感谢您的任何建议！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/rezhaykamal     [link]     32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1lzv5o3/how_do_you_get_the_required_experience_for_full/</guid>
+      <pubDate>Mon, 14 Jul 2025 18:58:22 GMT</pubDate>
     </item>
     <item>
-      <title>什么最适合后端？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxj820/what_is_best_for_backend/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;    heroku ， render 或 digitalocean 。提交由＆＃32; /u/u/u/sweaty-art-8966      [link]   ＆＃32;   [commist]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxj820/what_is_best_for_backend/</guid>
-      <pubDate>Fri, 11 Jul 2025 21:40:00 GMT</pubDate>
+      <title>最佳实践和信息博客</title>
+      <link>https://www.reddit.com/r/webdev/comments/1lzu1yo/best_practices_and_information_blog/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  您是否知道有一个博客可以共享我可以经常阅读的最佳实践，技巧和整体代码snippents（主要是反应）吗？ 似乎是个好主意提交由＆＃32; /u/or_atias     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1lzu1yo/best_practices_and_information_blog/</guid>
+      <pubDate>Mon, 14 Jul 2025 18:18:01 GMT</pubDate>
     </item>
     <item>
-      <title>Reddit如何为帖子（特别是阿拉伯语）生成OG图像？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxhyq9/how_does_reddit_generate_og_images_for_posts/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  一些上下文：我需要我的网站显示一个包含页面摘要的OG映像，我使用的是NUXT3，该nuxt3具有一个称为NUXT OG Image的模块，该模块使用Satori。  我注意到reddit有一个非常好的阿拉伯语OG图像，例如： https://www.reddit.com/r/saudiprofessionals/comments/1lwbwuw/%D8%A8%D9%86%D9%8 A％D8％AA_％D9％85％D9％D9％D9％82％D8％D9_％D9％D9％83％D8％A7％D9％D9％D9％D9％84_％D9％D9％D9％8A％D8％D8％B3％D8％D8％d8％d8％d8％d8％d 8％B9％D8％AF％D9％83_％D8％AA％D9％83％D8％D8％D8％A8_％D8％D8％B3％D9％D9％D9％D8％D8％B1％D8％D9％D9％D9％83_％D8％a 7％D9％84％D8％B0％D8％A7％D8％AA％D9％D9％D9％D8％A9_％D8％D8％D8％D8％D8％D8％A8_％D9％D9％83％D9％D9％84/    og图像： https://imgur.com/a/ffdjd5o    ，所以他们怎么做？我在nuxt3上（无服务器nodejs），但是可以为图像使用另一个后端。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/saad5400     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxhyq9/how_does_reddit_generate_og_images_for_posts/</guid>
-      <pubDate>Fri, 11 Jul 2025 20:48:15 GMT</pubDate>
+      <title>Next.js模板 - 批评，校对，代码审阅者欢迎！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1lzrale/nextjs_template_criticisms_proofreaders_code/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  嘿，大家！ 我希望这是发布此信息的正确位置。 我最近已经进入了与React建立更多的事物，并认为我会更好地熟悉Eco-Seco Sepystystystystystystystystystystystysty的现代部分。  我几乎总是想拥有语言键，自定义选择媒体，自定义通知和黑暗/光模式支持之类的东西。因此，我使这个模板很快开始。 我非常喜欢一些反馈！  Cheers！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/tissla-xyz      [注释]            ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1lzrale/nextjs_template_criticisms_proofreaders_code/</guid>
+      <pubDate>Mon, 14 Jul 2025 16:37:29 GMT</pubDate>
     </item>
     <item>
-      <title>Google recaptcha由于某种原因变得疯狂复杂吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1lxgars/google_recaptcha_has_become_insanely_complex_for/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨， ，所以我正在管理一些使用recaptcha的20-30个网站。由于某种原因，现在将其迁移到Google Cloud Console中，据我所知，这非常复杂。我只为客户使用recaptcha。这有数百万我永远不会使用的额外选择。 有人知道我在哪里可以找到我正在使用的recaptcha的概述？似乎出于某种原因而消失了...  非常感谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/noidz     [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1lxgars/google_recaptcha_has_become_insanely_complex_for/</guid>
-      <pubDate>Fri, 11 Jul 2025 19:40:33 GMT</pubDate>
+      <title>使用WP多语言插件（WPML）时，如何计划网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1lzqh6d/how_do_you_plan_your_site_when_using_the_wp/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在接管一个计划将其所有内容翻译成几种语言的网站。以前的开发人员使用了我从未在 起初从未使用过的WPML插件，这是一场噩梦，看着所有选项，但我慢慢地想了解它是如何工作的。 在脸上，在 上，您似乎是钥匙。模板或快捷代码。然后只需将任何新字符串添加到阵列中。 无论如何，使用WPML进行多语言网站似乎没有简单的方法。也许我缺少某些内容？ 我才开始浏览文档，但很想听听任何其他设置WPML的开发人员，尤其是在较大的网站上  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/designer-street3319     [link]   [注释]    ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1lzqh6d/how_do_you_plan_your_site_when_using_the_wp/</guid>
+      <pubDate>Mon, 14 Jul 2025 16:06:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
