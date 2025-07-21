@@ -4,7 +4,21 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Mon, 21 Jul 2025 06:27:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jul 2025 09:29:29 GMT</lastBuildDate>
+    <item>
+      <title>bitchat-tui：安全，匿名的，离网的聊天应用程序在您的终端中的蓝牙</title>
+      <link>https://www.reddit.com/r/opensource/comments/1m5e2h9/bitchattui_secure_anonymous_offgrid_chat_app_over/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，大家，  i构建 bitchat-tui ，是bitchat的第一个tui客户端，这是一个在蓝牙上运行的分散的同伴到同行消息的同行消息。您可以直接与附近的其他人聊天，而无需任何Internet连接，蜂窝服务或中央服务器。所有通信都是端到端加密的，并支持公共渠道，受密码保护的组和直接消息。 该客户端以安全性作为第一个原则构建，并具有现代的加密堆栈（X25519，AES-256-GCM）。该界面专为仅键盘操作而设计，并具有一个侧边栏，可在公共聊天，私人频道和DMS之间易于导航。它还可以通知您有关未读消息的信息，并让您看到阻止的用户和其他有用的信息。 它具有通用的安装脚本，可在Linux，MacOS和Windows上使用（带有WSL或Git Bash）。它也可以通过货物，货物，啤酒和Aur。 href =“ https://github.com/vaibhav-mattoo/bitchat-tui”&gt; https://github.com/vaibhav-mattoo/bitchat-tui       &lt;！提交由＆＃32; /u/u/yboma2     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1m5e2h9/bitchattui_secure_anonymous_offgrid_chat_app_over/</guid>
+      <pubDate>Mon, 21 Jul 2025 09:11:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>您如何确保您的OpenSource项目最终不会被盗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1m5cvw4/what_do_you_do_to_make_sure_your_opensource/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我听说过很多有关初创企业复制后端代码的故事，然后拍打着闪亮的前端，最近梨是一家YC支持的公司犯有同一件事。您可以找到一个博客在这里   ，但这只是实际上有人被抓住的少数情况之一。如果有人拿起您的代码库，旋转AI代理，重写您的代码，重新包装并开始出售它？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/uchanceed_one_820     [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1m5cvw4/what_do_you_do_to_make_sure_your_opensource/</guid>
+      <pubDate>Mon, 21 Jul 2025 07:55:41 GMT</pubDate>
+    </item>
     <item>
       <title>ParadedB-建立在PostgreSQL上的Elasticsearch替代方案</title>
       <link>https://www.reddit.com/r/opensource/comments/1m5ak7q/paradedb_an_elasticsearch_alternative_built_on/</link>
@@ -15,7 +29,7 @@
     <item>
       <title>小型企业的开源业务管理工具。</title>
       <link>https://www.reddit.com/r/opensource/comments/1m5ajc7/open_source_business_management_tool_for_small/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 已经对我一直在研究的开源业务管理工具进行了一些更新。现在，在整个应用程序中，UI更加一致。另外，还对代码进行了必要，以使应用程序在设计中更模块化。  https://github.com/oitcode/oitcode/samarium               对小型商务或小型企业有用。  欢迎任何反馈，评论，贡献。 谢谢。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/southbaseball7761     [link]    [注释]  ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 已经对我一直在研究的开源业务管理工具进行了一些更新。现在，在整个应用程序中，UI更加一致。另外，还对代码进行了必要，以使应用程序在设计中更模块化。  https://github.com/oitcode/oitcode/samarium                  对小型企业或小型商务有用。  欢迎任何反馈，评论，贡献。 谢谢。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/southbaseball7761     [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1m5ajc7/open_source_business_management_tool_for_small/</guid>
       <pubDate>Mon, 21 Jul 2025 05:29:06 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我正在使用一个名为fpw（文件夹密码包装器）的小型开源CLI工具，该工具使Linux用户可以使用密码锁定终端或最终通过thunar or nautilus。要手动设置权限，编写脚本或设置加密。我自己遇到了这个问题 - 我只是想用密码锁定一个文件夹，但是没有一个轻巧的工具可以干净地进行。 ，所以我构建了一个。我的目标是减少这种摩擦，不仅是为了我自己，而且对于遇到同一问题的其他人。我想要一些只能有效的东西：简单，安全且友好。 〜/.config/fpw/.shadow具有严格的权限  密码创建和身份验证零件正常工作 - 哈希，存储和验证密码都可以正常运行。 当前挑战在成功的身份验证后，我面临的主要问题是在成功的身份验证后面临的主要问题。尽管密码验证非常有效，但事实证明，将终端实际移入身份验证的目录非常困难。 身份验证后，我希望用户自动移动（CD）到他们已解锁的文件夹中。这听起来很简单，但实际上很棘手：由于CD是一个内置的外壳，因此无法像python脚本那样从子过程中执行它 - 它只会影响子进程，而不是父母的外壳。 。 ，即使成功的身份验证，fpw也无法更改终端中的当前目录。这是我现在正在努力解决的部分。 我目前正在探索类似：  外壳功能覆盖或别名包裹CD行为 创建一个包装器外壳命令，以使用Fuse来创建Fuse Oversy Overs-logiend logiriide  Tech Stack    Python 3   linux（在Debian，MX Linux，Arch上进行测试） 安全哈希（目前SHA256 +盐）（当前SHA256 +盐，迁移到Bcrypt或Pbkdf2）或PBKDF2）工具，Linux访问控制或保险丝文件系统，我很喜欢您的反馈。向贡献者，审阅者或有兴趣进行实验的任何人开放。  github： ＆＃32;提交由＆＃32; /u/u/u/targetAcrobatic2644     [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1m4ol8a/a_python_cli_to_lock_folders_on_linux_feedback/</guid>
       <pubDate>Sun, 20 Jul 2025 13:12:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amazon S3兼容服务器实现PHP / Laravel</title>
-      <link>https://www.reddit.com/r/opensource/comments/1m4o1wy/amazon_s3_compatible_server_implementation_for/</link>
-      <description><![CDATA[       &lt;！ -  sc_off- sc_off-&gt;  我刚刚创建了一个与Laravel Framework一起使用的Amazon S3兼容服务器实现。 However, I&#39;m planning to extend the feature set as time progresses. What to expect?  An AWS CLI compatible authentication provider A file storage provider utilizing Laravel&#39;s built-in storage management capabilities Global and bucket-based authentication credential management Basic file and directory operation support (Create / Read / Update / DELETE） 一个配置文件允许切换身份验证功能，完全交换身份验证提供商和/或文件存储提供商（例如，对于某些自定义的东西）     免责声明：                  我已经使用AWS Command-command-command-Line工具进行了测试。但是，我不能保证与任何其他工具的兼容性。 请不要期望到目前为止到目前为止有任何类型的图形用户界面。   下一步是什么？           创建广泛的单位检验以确保复杂的更新     通过提供反馈甚至做出贡献来参与该项目，随时可以通过我来打击我。 Github或加入社区。欢迎任何帮助！ 我感谢每个人每天创建开放软件的人，并希望我最终可以回馈这个项目。 期待您的反馈！   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/therealaniixx       [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1m4o1wy/amazon_s3_compatible_server_implementation_for/</guid>
-      <pubDate>Sun, 20 Jul 2025 12:46:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用HTML和CSS创建YouTube的克隆</title>
-      <link>https://www.reddit.com/r/opensource/comments/1m4lzu6/creating_a_clone_of_youtube_using_html_and_css/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  在过去的几天里，我一直在刷新我对HTML和CSS的了解。我也试图习惯开源，但我迷路了。我正在寻找想为我的项目做出贡献以添加JavaScript的人，并建议添加以完善我的知识的功能。谢谢你！这是指向我的github repo的链接： https://github.com/yasminserag08/yousterag08/youtube-clone-html-clone-html-clone-html-clone-html-css   /u/u/jasitranquil234      [link]  &lt;a href =“ https://www.reddit.com/r/opensource/comments/1m4lzu6/creating_a_clone_clone_of_youtube_usis_html_and_and_and_css/]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1m4lzu6/creating_a_clone_of_youtube_using_html_and_css/</guid>
-      <pubDate>Sun, 20 Jul 2025 10:50:18 GMT</pubDate>
     </item>
     </channel>
 </rss>

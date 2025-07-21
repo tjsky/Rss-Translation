@@ -4,11 +4,32 @@
     <title>Chatgpt，人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇观着迷，被Chatgpt的力量迷住，或者对人工智能和自动化的无尽可能性所吸引？别再看！我们充满活力的Reddit社区是像您这样的爱好者的完美枢纽。作为我们社区的成员，您将获得大量资源，包括：🔬关于自动化，Chatgpt和AI的发人深省的讨论。 🌟对最新进步和行业新闻的独家见解</description>
-    <lastBuildDate>Mon, 21 Jul 2025 06:25:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jul 2025 09:25:12 GMT</lastBuildDate>
+    <item>
+      <title>自动化COD和NDR订购工作流程在Shopify上的工作流程，并与N8N播放</title>
+      <link>https://www.reddit.com/r/automation/comments/1m5d6yr/automating_cod_ndr_order_workflows_on_shopify_and/</link>
+      <description><![CDATA[       我刚刚结束了一个项目，我使用n8n完全自动化了我们如何处理Shopify的现金交付和不交付的订单，并在Airtable中跟踪的所有内容。 这是流程的作用。小时  发生了什么：  每当订单或更改时，n8n检查是否是鳕鱼订单。 如果是cod订单。确认COD     触发：一个预定的n8n cron，每小时运行   流量：  拉动所有记录的标记为“ cod perdending。 among them.   3) Keeping Shipping Status in Sync  Trigger: Same Shopify “order updated” webhook Flow:  Every time an order’s shipping status changes, we grab that new status. Translate Shopify’s raw status into our five类别（待处理，部分发货，发货，取消，错误）。 将该值的值添加到该订单的可动性行上的“装运状态”字段中。          4）处理返回＆amp; amp; ndrs    触发：每天上午9点   流动：  查找所有已标记为“尝试交付的订单”在我们的订单表中。 将其发送到具有与初始可动用表相同的列的新纸。 新流程再次将员工分配给这些NDR订单，与以前相同的过程。        感谢您的时间通过我的设置来阅读。我很想听听您的反馈或通过解决类似COD或返回N8N的挑战的任何提示。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/automation/comments/1m5d6yr/automating_cod_cod_ondr_order_order_workflows_on_shopify_and/”&gt; [link]    [注释]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1m5d6yr/automating_cod_ndr_order_workflows_on_shopify_and/</guid>
+      <pubDate>Mon, 21 Jul 2025 08:14:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>[供雇用]需要刮擦数据吗？我以很高的速度写网上刮擦机器人，发现和爬行脚本</title>
+      <link>https://www.reddit.com/r/automation/comments/1m5cns5/for_hire_need_data_scraped_i_write_web_scraping/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/javascriptjobs/comments/1kvlvji/1kvlvji/for_hire_need_data_scraped_i_i_write_write_web_scraping/  &lt;a href =“ https://www.reddit.com/r/automation/comments/1m5cns5/1m5cns5/for_hire_need_need_data_scraped_i_i_write_write_web_scraping/]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1m5cns5/for_hire_need_data_scraped_i_write_web_scraping/</guid>
+      <pubDate>Mon, 21 Jul 2025 07:40:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>我自动化将YouTube视频重新用于LinkedIn，Reddit，Skool和电子邮件内容 - 它的价格仅为我每月7美元</title>
+      <link>https://www.reddit.com/r/automation/comments/1m5bw0y/i_automated_repurposing_my_youtube_videos_into/</link>
+      <description><![CDATA[       &lt;！ -  sc_off- sc_off-&gt;  ，如果您喜欢我，请在频道上发展新的视频，并促销其他所有内容，并促销其他所有内容，并且可以促销其他所有东西，并且可以促销其他所有东西，并且可以促销其他所有内容，并且可以促销其他所有内容，并且可以播放其他所有内容，并且可以促销其他所有东西，并且可以促进您的所有内容 -  manually. Every time I publish a video, I want to:  Post a summary on LinkedIn Share it on Reddit (sometimes tailored to different subreddits) Create a discussion post in my Skool/Facebook group Send an email to my list to trigger some early views (important for the algorithm)  但是，每次视频手动执行所有这些手动完成1到1.5个小时。老实说，这有时会延迟我的视频发布时间表。 因此，我使用N8N（一种自托管的无代码自动化工具）构建了一个小型自动化。它的作用是：  使用Apify  将其发送给OpenAi，将内容发送到：  linkedin post   reddit Post  post 我会自动获得4个平台准备的帖子 - 不到一分钟。  💸&lt;它花费了什么？      n8n（在小VPS上进行自托管）：$ 7/li&gt;   apifie  apifie：免费计划是足够的：免费计划是足够的。生成所有4个帖子  因此，以每月10美元的价格低于$ 10，我节省了数小时的手动工作，并大大提高了我的内容。 没有人为复杂性付钱。他们付给我，因为它每周为他们节省了数小时。 这与您的工作流程的聪明程度无关。这是关于解决一个真正的问题。  如果您对我的思维过程感兴趣或想看看我的构建方式，我会在YouTube上快速分解：👉很想听听您的想法或改进！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/kalladaacademy       [注释]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1m5bw0y/i_automated_repurposing_my_youtube_videos_into/</guid>
+      <pubDate>Mon, 21 Jul 2025 06:52:07 GMT</pubDate>
+    </item>
     <item>
       <title>我想从图像中自动读取订单数据并将其发送到网站 - 我应该如何开始？</title>
       <link>https://www.reddit.com/r/automation/comments/1m5bd0b/i_want_to_automate_reading_order_data_from_images/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，大家👋 我正在尝试构建帮助我重复和手动任务的东西。我使用物理目录（印刷杂志），然后在页面上浏览它们，以查找我的客户放置的手写或打印订单（诸如产品名称，代码，数量等）。 我的想法是为拍摄页面的照片，并自动阅读“  ocr。 Then:  The extracted data is added to an existing Excel spreadsheet I already use to track orders. That same data is later used to fill out a web form on a platform where I submit these orders officially.  I’m looking for guidance or advice on what tools, libraries, or approach I should follow to make this possible.我尝试了一些python，OCR，Chatgpt和Excel操纵，但是到目前为止还没有任何效果。 我的一些主要疑问：   Tesseract在这种情况下是OCR的好选择吗？是否有更好的选项，特别是对于手写或扫描的文本？ 我将如何将程序连接到网络平台并自动填充表格？ 我如何获得该程序来确定文本的哪一部分是a a a n name n name&#39;name&#39;n name＆quot&#39;code&#39;code;方向，我真的很感激。我愿意学习和尝试新事物。 预先感谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/ofdingurous_cod6558      [link]   [注释]]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，大家👋 我正在尝试构建帮助我重复和手动任务的东西。我使用物理目录（印刷杂志），然后在页面上浏览它们，以查找我的客户放置的手写或打印订单（诸如产品名称，代码，数量等）。 我的想法是为拍摄页面的照片，并自动阅读“  ocr。 Then:  The extracted data is added to an existing Excel spreadsheet I already use to track orders. That same data is later used to fill out a web form on a platform where I submit these orders officially.  I’m looking for guidance or advice on what tools, libraries, or approach I should follow to make this possible.我尝试了一些python，OCR，Chatgpt和Excel操纵，但是到目前为止还没有任何效果。 我的一些主要疑问：   Tesseract在这种情况下是OCR的好选择吗？是否有更好的选择，特别是对于手写或扫描的文本？ 我将如何将程序连接到网络平台并自动填充表格？ 我如何获得该程序来确定文本的哪一部分是a a a n name n name&#39;name&#39;n name＆quot&#39;code&#39;code;方向，我真的很感激。我愿意学习和尝试新事物。 预先感谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/ofdingurous_cod6558      [link]   [注释]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1m5bd0b/i_want_to_automate_reading_order_data_from_images/</guid>
       <pubDate>Mon, 21 Jul 2025 06:18:51 GMT</pubDate>
     </item>
@@ -55,20 +76,6 @@
       <pubDate>Sun, 20 Jul 2025 21:24:42 GMT</pubDate>
     </item>
     <item>
-      <title>Zapier + AI +概念</title>
-      <link>https://www.reddit.com/r/automation/comments/1m50ckx/zapier_ai_notion/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/dkage      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1m50ckx/zapier_ai_notion/</guid>
-      <pubDate>Sun, 20 Jul 2025 21:15:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的第一个N8N工作流程..没有API？</title>
-      <link>https://www.reddit.com/r/automation/comments/1m4zqt7/my_first_n8n_workflowno_apis/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，第一次在这里。试图使用AI指南来构建自动化工作流程以配音内容并使用Telegram，Heygen，DeepSeek＆amp;缓冲。  我花了大约12天的时间，直到发现我几乎无法使用工作流程中的任何API，并且通过HT TPS节点更好地完成了整个过程。现在看来，Telegram对我试图多次执行工作流程（从字面上收到一条消息，说“在1＆quot”中，我不知道如何继续使用其他节点。  这是正常的吗？有更容易的路吗？有人试图这样做吗？感谢您可以为我提供的任何提示。我在设计结束时的目的是将带有文本描述的视频发送到电报，并将该视频称为称为，标题和在社交网络上发布。我想大规模这样做，我负担不起价格过高的API订阅。  感谢您的反馈，成为和平的人。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/automation/comments/1m4zqt7/my_first_n8n_workflowno_apis/”&gt; [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1m4zqt7/my_first_n8n_workflowno_apis/</guid>
-      <pubDate>Sun, 20 Jul 2025 20:51:04 GMT</pubDate>
-    </item>
-    <item>
       <title>我用chatgpt构建和出售我的第一个概念模板 - 这就是发生的事情</title>
       <link>https://www.reddit.com/r/automation/comments/1m4y8ys/i_used_chatgpt_to_build_sell_my_first_notion/</link>
       <description><![CDATA[     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/knight-king-007     [link]   ＆＃32;   [注释]]]></description>
@@ -92,16 +99,9 @@
     <item>
       <title>在X上运行不露面影响者的4天（完全自动化，没有API）</title>
       <link>https://www.reddit.com/r/automation/comments/1m4m33w/4_days_into_running_a_faceless_influencer_on_x/</link>
-      <description><![CDATA[       &lt;！ -  sc_off- sc_off-&gt;  嘿，只是想分享我一直在运行的一些小实验的一些早期结果。    i建立了一个自动化的自动化系统，该系统运行了X. IT X. IT api api api。它自动发布，回复其他帖子，只是在不需要我的任何干预的情况下继续进行自动驾驶。 我现在在第4天（剩下12小时），这是我当前的统计数据。考虑到到目前为止的情况非常满意，考虑到自设置以来我没有一次触摸它。整个事情每天要花约50美分。 好奇这里是否有人在做类似的事情。很想听听您获得的结果或设置的工作原理。 让我们比较注释。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/happy-assumption-555       [注释]]]></description>
+      <description><![CDATA[       &lt;！ -  sc_off- sc_off-&gt;  嘿，只是想分享我一直在运行的一些小实验中的一些早期结果。    i建立了一个自动化的自动化系统，该系统运行了X. IT X. IT API。它自动发布，回复其他帖子，只是在不需要我的任何干预的情况下继续进行自动驾驶。 我现在在第4天（剩下12小时），这是我当前的统计数据。考虑到到目前为止的情况非常满意，考虑到自设置以来我没有一次触摸它。整个事情每天要花约50美分。 好奇这里是否有人在做类似的事情。很想听听您获得的结果或设置的工作原理。 让我们比较注释。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/happy-assumption-555       [注释]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1m4m33w/4_days_into_running_a_faceless_influencer_on_x/</guid>
       <pubDate>Sun, 20 Jul 2025 10:55:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>您想要的API是什么，但尚未找到？</title>
-      <link>https://www.reddit.com/r/automation/comments/1m4l5lb/whats_the_api_you_wish_existed_but_havent_found/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，自动化构建者 您知道，当一切流动时……然后，然后 bam ，您遇到了一个无聊，混乱或烦人的任务，您必须在50个时间内呆在一起？ 也许是在格式化来自6个不同国家/地区的电话号码。或编写相同的重试和webhook逻辑，您发誓您要抽象“  我一直在构建一个称为插入式Async api的工具。    黑客：  您的一个API是什么？基于此线程的端点，并乐于荣誉或尽早获得任何想法在 中使其在每个人中都减轻痛苦的人。很想听听您遇到的东西。   &lt;！ -  sc_on- sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/georgehadjisavvas     [link]  &lt;a href =“ https://www.reddit.com/r/automation/comments/1m4l5lb/whats_phats_the_api_you_wish_wish_existed_but_havent_fount/]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1m4l5lb/whats_the_api_you_wish_existed_but_havent_found/</guid>
-      <pubDate>Sun, 20 Jul 2025 09:56:25 GMT</pubDate>
     </item>
     <item>
       <title>获取您的AI工具 /教程的免费宣传，请在此处提交详细信息</title>
