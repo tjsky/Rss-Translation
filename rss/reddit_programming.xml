@@ -4,27 +4,90 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 20 Jul 2025 18:26:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jul 2025 04:04:52 GMT</lastBuildDate>
+    <item>
+      <title>通过Python重制Spotify</title>
+      <link>https://www.reddit.com/r/programming/comments/1m58tp2/remake_of_spotify_via_python/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我使用django使用python重新创建了Spotify。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/Fantomkiller999   [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m58tp2/remake_of_spotify_via_python/</guid>
+      <pubDate>Mon, 21 Jul 2025 03:53:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>缩放分布式计数器：设计100K+ RPS的视图计数系统</title>
+      <link>https://www.reddit.com/r/programming/comments/1m58q2a/scaling_distributed_counters_designing_a_view/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/local_ad_6109     [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m58q2a/scaling_distributed_counters_designing_a_view/</guid>
+      <pubDate>Mon, 21 Jul 2025 03:48:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>安全实践规则的整体，您怎么看？</title>
+      <link>https://www.reddit.com/r/programming/comments/1m5810s/the_monolith_of_safe_practice_rules_what_do_you/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   python  导入numpy作为np  从numpy.typtiment import import inddarray  中输入导入tuple，Union，inounal，fim，tuple，fim，tuple，fimion  定义 ＃===========================   matrix = ndarrix = ndarray [np.float64]   vector = vector = ndarray [np.float64] ====================  ＃＃核心操作 ＃====================================   def add_intercept_ctect_column（x：matrix） - ＆gt;＆gt;矩阵： ; quot; quot; quot twith intercept列（纯）（纯）; quot&#39;&#39; &#39;&#39;&#39;使用QR分解（纯，数值稳定）求解“求解”&#39;  x：矩阵，  y：向量，  alpha：float = 0.0，  skip_last_reg：bool = bool = false   ） -  xtx = x.t @ x  如果skip_last_reg：  geg = arpha * np.eye（xtx.shape [0]）  greg [-1，-1，-1，-1] = 0.0  else of e  else：      geg = age = alpha * alpha * alpha * np.s. 返回np.linalg.solve（XTX + reg，x.t @ y） ＃====================================================矩阵，  y：vector，  add_intercept：bool = true，  solver：solvertype =&#39;qr&#39;，  alpha：float = 0.0    ）功能线性回归拟合  args：  x：输入特征矩阵（n_samples，n_features）  y：target vector（n_samples，n_samples，）  add_intercept：add_intercept：add_intercept：是否添加intercept intercept Term permecce     solver  solver  solver  alpha：l2正则化强度 返回： 系数：特征系数（n_features，） 截距：模型拦截术语 提高：  linalgerror：for ninal siller in fornor singular silver：for Stornular silver in Stornular sivever/p&gt;   ;  x_aug = add_intercept_column（x）如果add_intercept else x   skip_reg = add_intercept和（alpha＆gt; 0） 如果solver ==&#39;qr&#39;： 增强＆quot;）  coef_full = qr_solve（x_aug，y）  else：  coef_full = normal_equation_solve_solve（x_aug，y，y，y，y，alpha，alpha，skip_reg，skip_reg） （COEF_FULL，0.0）  def预测（x：矩阵，系数：矢量，截距：float） - ＆gt; ===================== # ERROR SAFE OPERATIONS # ===================== def safe_fit( X: Matrix, y: Vector, add_intercept: bool =是的，  solver：solverType =&#39;qr&#39;，  alpha：float = 0.0，  hallback_alpha：float = 1e -9   ） - 适合优雅错误恢复 返回： 元组[结果，成功] ：（系数，截距）成功，在失败     &#39; &#39; np.linalg.LinAlgError: if alpha == 0: return fit(X, y, add_intercept, &#39;normal&#39;, fallback_alpha), False return None, False # ===================== # STATISTICAL METRICS  ====================   def r_squared（y_true：vector，y_pred：vector：vector） - ＆gt; y_pred）** 2）  ss_tot = np.sum（（y_true -np.mean（y_true））** 2） 返回1  - （ss_res/（ss_tot + 1e -e -be）操作 ＃============================   def ridge_regession_path（  x：matrix， y：vector，vector，vector，    alpha元组[矩阵，向量]： &#39;pure Ridge系数路径;  normal_equation_solve（x_aug，y，alpha，skip_reg）  alpha中的alpha  ]），alpha /u/content_ad2019     [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m5810s/the_monolith_of_safe_practice_rules_what_do_you/</guid>
+      <pubDate>Mon, 21 Jul 2025 03:11:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>容器：您需要知道的一切</title>
+      <link>https://www.reddit.com/r/programming/comments/1m57di3/containers_everything_you_need_to_know/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/shubham0204_dev    href =“ https://equipintelligence.medium.com/containers-verythers-verything-you-need-to-know-0758fb5e1aa”&gt; [link]   ＆＃32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m57di3/containers_everything_you_need_to_know/</guid>
+      <pubDate>Mon, 21 Jul 2025 02:38:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>从缩放后排队到100k事件的课程</title>
+      <link>https://www.reddit.com/r/programming/comments/1m55zp3/lessons_from_scaling_postgresql_queues_to_100k/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32;  /u/ephemeral404   [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m55zp3/lessons_from_scaling_postgresql_queues_to_100k/</guid>
+      <pubDate>Mon, 21 Jul 2025 01:31:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在刮擦中制作了自己的马里奥卡丁车</title>
+      <link>https://www.reddit.com/r/programming/comments/1m55wfx/i_made_my_own_mario_kart_in_scratch/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  可能不是“真实编程”对于某些人来说，但我认为这在编程中的许多基本面中都是一个很好的练习。这不是完美的，您可以看到，当我稍后在视频中与兄弟姐妹一起播放时，很高兴知道我可以做些不同的事情。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/kuroma_maku      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m55wfx/i_made_my_own_mario_kart_in_scratch/</guid>
+      <pubDate>Mon, 21 Jul 2025 01:26:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用Lambda和Fargate在AWS上缩放AI代理：使用MCP部署链SDK</title>
+      <link>https://www.reddit.com/r/programming/comments/1m55f7u/scaling_ai_agents_on_aws_deploying_strands_sdk/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/no-abies7108     [link]    32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m55f7u/scaling_ai_agents_on_aws_deploying_strands_sdk/</guid>
+      <pubDate>Mon, 21 Jul 2025 01:03:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>MirrorVM：使用反射编译WebAssembly</title>
+      <link>https://www.reddit.com/r/programming/comments/1m52eb6/mirrorvm_compiling_webassembly_using_reflection/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/birdbrainswagtrain     [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m52eb6/mirrorvm_compiling_webassembly_using_reflection/</guid>
+      <pubDate>Sun, 20 Jul 2025 22:43:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vibe编码AI“ panicks”并删除生产数据库</title>
+      <link>https://www.reddit.com/r/programming/comments/1m51vpw/vibecoding_ai_panicks_and_deletes_production/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/el_muchacho      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m51vpw/vibecoding_ai_panicks_and_deletes_production/</guid>
+      <pubDate>Sun, 20 Jul 2025 22:21:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM是使我们变得更好的程序员还是更自满？</title>
+      <link>https://www.reddit.com/r/programming/comments/1m51bh4/is_llm_making_us_better_programmers_or_just_more/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  副驾驶及其堂兄在几年内从新颖性变成了背景噪音。我们中的许多人现在通过指导LLM来“编写”代码，但我一直想知道：我的技能是否在提高或萎缩，而自动完整的舞蹈？两个新的研究将辩论推向了相反的方向，我很想听听 最近的一项MIT媒体实验室研究，名为“您的大脑在chatgpt上” 对此进行了确切的调查 - 但在论文写作中。  参与者使用  no Tools 写作的参与者  表明最高的大脑活动最高的记忆      中间。   llm group （chatgpt用户）显示了最弱的神经连接性，具有更重复或公式化的写作，感觉较少的作品所有权，甚至努力回忆起他们自己的文本 https://arxiv.org/pdf/2506.08872       更糟糕的是：更糟糕的是，更糟糕的是没有llm的写作后，没有llm，那些最初使用的是b的 buck 他们的神经参与度保持下部。作者警告“认知债务”的积累。 -  通过AI过度融合引起的一种精神萎缩。 现在想象编码中发生的类似动态：早期的迹象表明编程可能会更糟。该研究的作者注意到AI辅助编程的“结果甚至更糟”。 对社区的问题：       深度与效率： llm&gt; 是否可以帮助您解决更复杂的问题，或者仅仅在您自己的理解上越来越多地产生更复杂的代码？结构算法或没有AI提示的结构算法？    co -pilot或拐杖？：在测试您的副驾驶输出时，您是否感觉像是一名导师（已经知道您要去的地方）或旁观者（解码复杂的输出）？ Apprentice‑Style Use: Could treating Copilot like a teacher - asking why, tweaking patterns, challenging its suggestions—beat using it as a straight-up code generator? Attention Span Atrophy: Do you find yourself uninterested in reading a long document or post without having LLM summarize it for you?   思想的食物：    MIT发现是基于写作，而不是编程，而是对弱记忆，创造力和所有权的警告，与Dev的工作相关。速度，不了解  arxiv 。           botton line Line Line  copiLot 如果em&gt; em&gt;如果em&gt; em&gt; em&gt; em&gt; nove  automator（作为代理AI广泛可用）。 它是提高您的开发技能还是软化它们？ 好奇地听到您的经历👇   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/primeNteNature8572      lincl&gt;    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m51bh4/is_llm_making_us_better_programmers_or_just_more/</guid>
+      <pubDate>Sun, 20 Jul 2025 21:57:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Java的教学将如何改变（或学习Java将如何变得更容易）</title>
+      <link>https://www.reddit.com/r/programming/comments/1m4xeg7/how_teaching_of_java_is_about_to_change_or_how/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ewig_luftenglanz       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m4xeg7/how_teaching_of_java_is_about_to_change_or_how/</guid>
+      <pubDate>Sun, 20 Jul 2025 19:14:56 GMT</pubDate>
+    </item>
     <item>
       <title>您的工程团队应该寻求解决客户问题</title>
       <link>https://www.reddit.com/r/programming/comments/1m4vydc/your_engineering_team_should_be_looking_to_solve/</link>
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/u/gregorojstersek       [注释]   ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1m4vydc/your_engineering_team_should_be_looking_to_solve/</guid>
       <pubDate>Sun, 20 Jul 2025 18:17:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我共同编写了Google Gemini API的便携式，无依赖性C命令行客户端</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4vx5h/i_cowrote_a_portable_dependencyfree_c_commandline/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ubert__sinclair      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4vx5h/i_cowrote_a_portable_dependencyfree_c_commandline/</guid>
-      <pubDate>Sun, 20 Jul 2025 18:16:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>干净，快速的时区转换器 - 无广告，没有膨胀，只能起作用</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4vpch/clean_fast_timezone_converter_no_ads_no_bloat/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  在烦恼广告和缓慢的加载时间之后，将其作为世界时代的替代方案构建。&lt; /p&gt;  &lt;&lt; /p&gt; ✅立即加载✅在移动上效果很好地在移动上效果很好，没有广告或跟踪 tho  dist dest dest dest dest dest the dest dest d.处理所有边缘案例已经知道的所有边缘案例的INTL API。   timezoneconverter.co         有时这些简单工具是最佳工具。提交由＆＃32; /u/u/ds_gaming       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4vpch/clean_fast_timezone_converter_no_ads_no_bloat/</guid>
-      <pubDate>Sun, 20 Jul 2025 18:07:21 GMT</pubDate>
     </item>
     <item>
       <title>为什么工程师讨厌截止日期（以及如何解决）</title>
@@ -41,74 +104,11 @@
       <pubDate>Sun, 20 Jul 2025 17:26:30 GMT</pubDate>
     </item>
     <item>
-      <title>Gingerbill  - 行业工具 -  BSC 2025</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4ucwz/gingerbill_tools_of_the_trade_bsc_2025/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/gingerbill      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4ucwz/gingerbill_tools_of_the_trade_bsc_2025/</guid>
-      <pubDate>Sun, 20 Jul 2025 17:14:14 GMT</pubDate>
-    </item>
-    <item>
       <title>丹尼斯·里奇（Dennis Ritchie）：给我们C语言的人</title>
       <link>https://www.reddit.com/r/programming/comments/1m4swa1/dennis_ritchie_the_man_who_gave_us_c_language/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  丹尼斯·里奇（Dennis Ritchie）并不是您经常听到的名字，但是没有他，我们知道今天就不存在的数字世界。他是C编程语言的创建者，该语言成为当今几乎每个主要系统的基础。除此之外，他还在建立Unix（仍然影响现代技术的操作系统中发挥了关键作用。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/heisenberg8497     [link]   ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1m4swa1/dennis_ritchie_the_man_who_gave_us_c_language/</guid>
       <pubDate>Sun, 20 Jul 2025 16:16:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>国际象棋美洲驼 - 培训一个小骆驼模特来下棋</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4s25d/chess_llama_training_a_tiny_llama_model_to_play/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/lazyguy -__-      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4s25d/chess_llama_training_a_tiny_llama_model_to_play/</guid>
-      <pubDate>Sun, 20 Jul 2025 15:42:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI的强迫使用正在失控</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4rprc/the_forced_use_of_ai_is_getting_out_of_hand/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/ullionairejoker      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4rprc/the_forced_use_of_ai_is_getting_out_of_hand/</guid>
-      <pubDate>Sun, 20 Jul 2025 15:28:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMS vs Brainfuck：Potemkin理解的演示</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4rk3r/llms_vs_brainfuck_a_demonstration_of_potemkin/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4rk3r/llms_vs_brainfuck_a_demonstration_of_potemkin/</guid>
-      <pubDate>Sun, 20 Jul 2025 15:22:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>逐步了解控制和依赖注入反转的分步指南</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4qo8y/a_stepbystep_guide_to_understanding_inversion_of/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://cellosblog.hashnode.dev/how-i-i--ioc--ioc-and-di-to-to-to-r-senior-software-wardeneer”&gt; [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4qo8y/a_stepbystep_guide_to_understanding_inversion_of/</guid>
-      <pubDate>Sun, 20 Jul 2025 14:45:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>系统设计中的势力：完整示例</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4qgu9/idempotency_in_system_design_full_example/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/trolleid     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4qgu9/idempotency_in_system_design_full_example/</guid>
-      <pubDate>Sun, 20 Jul 2025 14:36:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025年夏天与LLMS编码（由Redis的创建者）</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4ptlk/coding_with_llms_in_the_summer_of_2025_by_the/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/gametorch       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4ptlk/coding_with_llms_in_the_summer_of_2025_by_the/</guid>
-      <pubDate>Sun, 20 Jul 2025 14:08:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Angular面试问答：第27天</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4pn2l/angular_interview_qa_day_27/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/myssiriouseye8494     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4pn2l/angular_interview_qa_day_27/</guid>
-      <pubDate>Sun, 20 Jul 2025 14:00:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>周日读工程经理</title>
-      <link>https://www.reddit.com/r/programming/comments/1m4n1ej/sunday_reads_for_engineering_managers/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/stmoreau       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m4n1ej/sunday_reads_for_engineering_managers/</guid>
-      <pubDate>Sun, 20 Jul 2025 11:52:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
