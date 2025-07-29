@@ -4,7 +4,28 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Tue, 29 Jul 2025 04:08:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 06:28:39 GMT</lastBuildDate>
+    <item>
+      <title>减少加载时间的技巧？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mc3krf/tricks_to_cut_load_times/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  其他人是否尝试过将关键CSS或异步JS插入？您切割加载时间的首选技巧是什么？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1mc3krf/tricks_tricks_tricks_to_cut_load_times/”&gt; [link]   ＆＃32;   [commist]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mc3krf/tricks_to_cut_load_times/</guid>
+      <pubDate>Tue, 29 Jul 2025 05:54:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们需要一个实时仪表板进行协作B2B搜索UI。好奇您在2025年会使用什么堆栈？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mc3elk/we_needed_a_realtime_dashboard_for_a/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我们正在建立一个协作B2B搜索平台，许多公司用户在同一数据集上实时一起工作。前端需要立即反映变化：过滤器，状态，注释，用户行动...所有反应性，最小的延迟。 我们尝试了一些通常的嫌疑犯（Postgres Triggers，redis流，GraphQL订阅），但与复杂的问题和自我固定的速度和自我固定型 hydraide ，一个开源＆amp;自托管的数据引擎，专为实时，低延迟用例而设计。对于这样的场景，它是二进制的，无模式的，无模式的。 我们通过最小的Websocket桥推动后端状态变化，而Angular Frontend通过RXJS Observables聆听。到目前为止，没有民意调查，没有重新介绍，没有外部酒吧/sub infra。仍然命中疼痛点？  我真的很好奇人们使用了什么，有效的东西，什么仍然很糟糕。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/petergebri     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mc3elk/we_needed_a_realtime_dashboard_for_a/</guid>
+      <pubDate>Tue, 29 Jul 2025 05:43:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>在Node，Python和Java之间，您通常喜欢哪个个人项目？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mc1xza/between_node_python_and_java_which_one_do_you/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  用于后端*，为什么？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/nitin_is_me      [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mc1xza/between_node_python_and_java_which_one_do_you/</guid>
+      <pubDate>Tue, 29 Jul 2025 04:20:55 GMT</pubDate>
+    </item>
     <item>
       <title>您是哪个WebDev气泡？</title>
       <link>https://www.reddit.com/r/webdev/comments/1mc0w7o/in_which_webdev_bubble_are_you/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我认为我有很好的想法，但我不知道该如何编程，Chatgpt说，成本大约是5K-7K，这是准确的吗？有人可以向我推荐他们认识的人吗？这确实不是一个艰难的概念。谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/lukasx18     [link]   ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1mbtqhd/need_help_for_app_idea/</guid>
       <pubDate>Mon, 28 Jul 2025 21:59:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何与没有公共API的平台集成？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mbr372/how_do_you_integrate_with_platforms_without/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，我想知道人们是如何与当前不揭露公共API的平台建立集成的。正常的浏览器自动化通常是脆弱的，需要维护。我目前正在探索这个空间 - 使用没有公共API的平台来构建确定性和低延迟API端点。 如果您在构建集成的空间中遇到任何问题，或者让我知道您是否有其他解决方案，则可以伸出援手。谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1mbr372/how_do_do_do_you_integrate_with_with_with_platforms_without/”&gt; [link]    [commist]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mbr372/how_do_you_integrate_with_platforms_without/</guid>
-      <pubDate>Mon, 28 Jul 2025 20:16:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使Ajax脚本与Back按钮一起使用？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mbnqr9/how_to_get_ajax_script_working_with_back_button/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  因此，我已经编码了一个ajax脚本来处理我的WP网站上的类别过滤器，并且需要使其与浏览器返回按钮一起使用。&lt; /p&gt; 我正在考虑使用以下tute：    href =“ https://www.youtube.com/watch？v = j1zhuyhhapg”&gt; https://www.youtube.com/watch?v=j1zhuyhhapg   sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/weekly_frosting_5868      [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mbnqr9/how_to_get_ajax_script_working_with_back_button/</guid>
-      <pubDate>Mon, 28 Jul 2025 18:12:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>到S3或不到S3。您如何托管静态文件？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mbn8yb/to_s3_or_not_to_s3_how_do_you_host_your_static/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我目前正在构建一个项目，编辑器可以上传内容以便在主站点上反思。它将它们上传到S3兼容的存储（在我的情况下为CloudFlare R2），并且与我的CMS中的实体相关联。 这导致我可以从存储桶中提供的页面提供资产，我可以重新验证这些更改以反映现场的更改。英雄图像，背景，您选择的库未提供的小图标，等等？资产。 大公司如何管理其静态资产？他们使用CMS吗？他们如何处理版本控制和备份？它是自动化的吗？ 人们如何处理存储桶的访问控制或安全策略？ 桶文件的命名方案是什么？ 我找不到问题的好资源，所以我会很喜欢我的方向。提交由＆＃32; /u/u/fuukuyo     &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mbn8yb/to_s3_or_not_to_s3_how_how_do_do_do_you_host_your_your_your_static/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mbn8yb/to_s3_or_not_to_s3_how_do_you_host_your_static/</guid>
-      <pubDate>Mon, 28 Jul 2025 17:54:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
