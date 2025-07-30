@@ -4,7 +4,42 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 30 Jul 2025 09:27:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jul 2025 12:39:29 GMT</lastBuildDate>
+    <item>
+      <title>记录了我从Monolith地狱到事件驱动的幸福的旅程（带有实际代码，而不仅仅是漂亮的图表）</title>
+      <link>https://www.reddit.com/r/programming/comments/1md5bjs/documented_my_journey_from_monolith_hell_to/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  好吧，所以我刚刚完成了我职业生涯中最彻底的拖延项目 - 记录如何正确分解单片应用程序。 您知道那些显示出您美丽的建筑图的文章，但遗漏了所有混乱的实施详细信息？是的，这与之相反。构建了一个完整的示例应用程序，并逐步介绍了迁移的每一个痛苦的步骤。  进化：    单片（一切都是耦合，这是一团糟，这是一团糟） 模块化巨石（同一应用，更好的bort bort bort bort bort bort&gt; li&gt;  li&gt;  li&gt; li&gt; liemertion-li&gt;  &lt;&gt; （异步所有内容）   我实际学到的内容：   即使它会损坏东西，也要首先拆分数据库。迫使您思考实际边界 使用工具来执行您的体系结构规则（人类在遵循惯例时很糟糕） 逐渐更改＆gt＆gt;大改写。每个步骤都应易于畅通 在API级别的测试覆盖范围比这些东西的单位测试     示例是一个食品传递应用程序，因为它具有所有有趣的跨服务复杂性 - 订单，付款，付款，交付，交付，状态更新等。每个阶段都有工作代码并处理所有令人讨厌的边缘案例，例如“当您无法再加入时会发生什么事”。 ＆quot“您如何处理跨服务的交易。”  完整的东西：&lt; href=&quot;https://medium.com/@ilyachase/practical-example-of-decoupling-a-monolithic-php-application-6ff82fefc80a&quot;&gt;https://medium.com/@ilyachase/practical-example-of-decoupling-a-monolithic-php-application-6ff82fefc80a  代码： https://github.com/ylyyachase/monolith-monolith-decoupling-monolith-decoupling-epling-amepling-epling-epling-epling-epling-epling-pling-plling-monolith-com          实际上，哪些模式可以使用什么模式，而在纸上看起来不错？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/iylachase    href =“ https://medium.com/@lyachase/practical-example-of-decoupling-a-a-monolithic-php-php-application-6ff82fefc80a”&gt; [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1md5bjs/documented_my_journey_from_monolith_hell_to/</guid>
+      <pubDate>Wed, 30 Jul 2025 12:30:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>我建立了一个覆盖AI。</title>
+      <link>https://www.reddit.com/r/programming/comments/1md34op/i_built_an_overlay_ai/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  免费和开源的自由和开源，生锈，用于闪电般的性能（无电子膨胀），支持所有主要的云AI服务以及通过Ollama通过Ollama进行完整隐私的本地模型。   &lt;！ -  sc_on--&gt; 32;&gt; 32;提交由＆＃32; /u/u/kamlendras       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1md34op/i_built_an_overlay_ai/</guid>
+      <pubDate>Wed, 30 Jul 2025 10:36:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025年的大多数观看软件工程演讲（到目前为止）</title>
+      <link>https://www.reddit.com/r/programming/comments/1md34bm/most_watched_software_engineering_talks_of_2025/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/garethx      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1md34bm/most_watched_software_engineering_talks_of_2025/</guid>
+      <pubDate>Wed, 30 Jul 2025 10:36:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立了一个API密钥管理工具，在世界上最大的黑客马拉松上获得了第三名（和5万美元）...课程和反思</title>
+      <link>https://www.reddit.com/r/programming/comments/1md2y45/built_an_api_key_management_tool_took_3rd_place/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我想分享一个最近的里程碑和一些可能会引起其他程序员的想法：我在博尔特（Bolt）的世界上最大的黑客马拉松（Keyhaven）赢得了第三名（并赢得了50,000美元）。这是一种API密钥管理工具，旨在使安全的钥匙存储和团队协作的痛苦较小。在压力下运送工作的MVP迫使我专注于必需品并迅速迭代。 安全始终是最高的，尤其是像API键一样敏感的东西。平衡易用性和强大的保护是一个核心设计挑战。 向技术受众进行演示既令人不安，又是有益的。我从其他开发人员和法官那里得到了一些最好的反馈（也是最棘手的问题）。 编程社区令人难以置信。我从其他参与者那里学到了一吨，这次活动很好地提醒了我们分享想法和代码时我们可以完成的工作。  下一步：我将这笔奖金投入到使Keyhaven变得更好的情况下。更多集成，更强大的安全功能以及为开发人员提供更好的文档。如果您对API密钥管理，疼痛点或功能请求有想法，那么我全都。 我将在KL开放校园，如果其他人热衷于开放...申请是开放的： sc_on-&gt;＆＃32;提交由＆＃32; /u/u/0xtommythomas      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1md2y45/built_an_api_key_management_tool_took_3rd_place/</guid>
+      <pubDate>Wed, 30 Jul 2025 10:25:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>您在哪里编程？</title>
+      <link>https://www.reddit.com/r/programming/comments/1md22ta/where_do_you_rank_as_a_programmer/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/peterbrobby      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1md22ta/where_do_you_rank_as_a_programmer/</guid>
+      <pubDate>Wed, 30 Jul 2025 09:33:16 GMT</pubDate>
+    </item>
     <item>
       <title>🕹️虚拟办公室2D游戏自托管和开源！</title>
       <link>https://www.reddit.com/r/programming/comments/1md1fxd/virtual_office_2d_game_selfhostable_opensourced/</link>
@@ -62,7 +97,7 @@
       <pubDate>Wed, 30 Jul 2025 01:16:23 GMT</pubDate>
     </item>
     <item>
-      <title>broadcom到停止免费的Bitnami Helm图表</title>
+      <title>broadcom停止免费的Bitnami Helm图表</title>
       <link>https://www.reddit.com/r/programming/comments/1mcoacg/broadcom_to_discontinue_free_bitnami_helm_charts/</link>
       <description><![CDATA[在概述了禁用基于Debian的图像的图像生成，并逐渐将现有图像移至Bitnami Legacy存储库。  Bitnami Legacy存储库将用作一个档案，该存档将托管所有旧容器图像。不再保留在Bitnami Mainte目录中。这些图像将不会收到更新，修复或支持，并且只能用作迁移目的的临时回退。 请注意，它是2025年8月28日生效的，因此最好开始准备偶然性。  &lt;！ -  sc_on-&gt; &lt;！ - &gt; 32;提交由＆＃32; /u/u/horovits      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mcoacg/broadcom_to_discontinue_free_bitnami_helm_charts/</guid>
@@ -74,41 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/bluegoliach      [注释]   ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mcnc6q/deprecations_and_removals_inside_java_podcast_39/</guid>
       <pubDate>Tue, 29 Jul 2025 20:57:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>当“类型”是一种类型（1989）时，打字是不可决定的</title>
-      <link>https://www.reddit.com/r/programming/comments/1mcma9y/typechecking_is_undecidable_when_type_is_a_type/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/ketralnis     [link]    [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mcma9y/typechecking_is_undecidable_when_type_is_a_type/</guid>
-      <pubDate>Tue, 29 Jul 2025 20:17:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.16带来更快的文件系统，改进的机密内存支持以及更多的生锈支持</title>
-      <link>https://www.reddit.com/r/programming/comments/1mck0ey/linux_616_brings_faster_file_systems_improved/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/goodlnouck     [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mck0ey/linux_616_brings_faster_file_systems_improved/</guid>
-      <pubDate>Tue, 29 Jul 2025 18:52:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>测试基于GCC的Rust编译器（后端）</title>
-      <link>https://www.reddit.com/r/programming/comments/1mcjapd/testing_the_gccbased_rust_compilerbackend/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mcjapd/testing_the_gccbased_rust_compilerbackend/</guid>
-      <pubDate>Tue, 29 Jul 2025 18:25:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>生产中的Bevy：在Metabuild建造建模</title>
-      <link>https://www.reddit.com/r/programming/comments/1mcja35/bevy_in_production_building_modeling_at_metabuild/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mcja35/bevy_in_production_building_modeling_at_metabuild/</guid>
-      <pubDate>Tue, 29 Jul 2025 18:24:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>身份和行为</title>
-      <link>https://www.reddit.com/r/programming/comments/1mcj9j4/identity_and_behaviour/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mcj9j4/identity_and_behaviour/</guid>
-      <pubDate>Tue, 29 Jul 2025 18:24:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
