@@ -4,111 +4,111 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Sat, 02 Aug 2025 21:21:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 09:26:57 GMT</lastBuildDate>
     <item>
-      <title>在Rust🦀建造了高性能的Websocket服务器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mg15fd/built_a_highperformance_websocket_server_in_rust/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  只是想共享我一直在为实时应用程序设计的生产的Websocket服务器 sockudo 。缩放使用REDIS/NATS   推动器协议兼容性（与现有客户库一起使用）   内置身份验证        PromeTheus Metrics  用 Rust 编写，以提高性能和安全性  docker支持一个命令设置（进行快速启动）） 多个部署选项（本地，redis cluster，redis cluster，redis clust，cloud-cloud-Ready-repon-cloud-&gt; 创建可以处理数千个并发连接的东西，同时易于部署和扩展。 It&#39;s particularly useful for chat applications, live updates, gaming, collaborative tools, or any app that needs real-time features. GitHub: https://github.com/RustNSparks/sockudo  crates.io ： https://crates.io/crates/crates/sockudo    一直在生产中运行它，并且是坚固的。很高兴回答有关架构或实施的任何问题！  根据AGPL-3.0许可证可用。欢迎贡献！   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/acanthopterygiikey62      [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mg15fd/built_a_highperformance_websocket_server_in_rust/</guid>
-      <pubDate>Sat, 02 Aug 2025 20:59:49 GMT</pubDate>
+      <title>熬到AI</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mi3hm2/staying_up_to_date_to_ai/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  您如何保持技术领先？我的意思是，似乎每周都有另一个工具或AI模型，我非常感兴趣你们如何保持最新状态？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/ivo_sa     [link]    32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mi3hm2/staying_up_to_date_to_ai/</guid>
+      <pubDate>Tue, 05 Aug 2025 08:20:46 GMT</pubDate>
     </item>
     <item>
-      <title>我制作了一个用于创建自定义上下文菜单项的Chrome扩展程序</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mg07ay/i_made_a_chrome_extension_for_creating_custom/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿 r/webdev ， 我最近运送了菜单mod，browsers，可让您在browsers上构建&lt;您自己的自定义菜单上的promsign ports ports ports proces your proces intern proces。    使用菜单模式，您可以：  直接从页面上直接从页面上查看亚马逊产品的价格历史记录。您在Yahoo!的一篇文章中遇到了财务。  菜单mod随附 wysiwyg编辑器带有高级模板引擎，可让您为菜单创建复杂的动作。       想从URL提取产品ID，然后将其传递到另一个URL？您可以使用菜单mod轻松地完成。   https://www.example.com/p/jumqurextract（％url，＆quot; \/dp \/（[[a-Z0-9]*）*）您可以从扩展图标切换配置文件。     预设库为流行网站提供现成的模板，以帮助您快速入门。     get菜单mod在这里 -   https://chromewebstore.google.com/detail/menu-mod/hidbgnneihkhinffhjbkkkkdacpgmdlcgj    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/mintonne     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mg07ay/i_made_a_chrome_extension_for_creating_custom/</guid>
-      <pubDate>Sat, 02 Aug 2025 20:18:47 GMT</pubDate>
+      <title>AI在网上搜索</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mi31vr/ai_search_on_a_webshop/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我对在网络商店实现AI搜索的不同方法感到好奇，以在产品上更好地击中产品。到目前为止，我只能获得“发送一个修改的提示来chatgpt，并要求它回答10个最佳命中的URL列表。  任何确实有经验并愿意分享的人？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/mormonius     ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mi31vr/ai_search_on_a_webshop/</guid>
+      <pubDate>Tue, 05 Aug 2025 07:52:31 GMT</pubDate>
     </item>
     <item>
-      <title>网页中的卡动画</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfzt9f/card_animation_in_web_page/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   i m试图构建一个Web应用程序，并希望拥有一个动画类型的布局。当我单击“新卡”时，页面中心将显示一种灰色名卡。如何实现这种动画？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/llamazookeeper     [link]    32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfzt9f/card_animation_in_web_page/</guid>
-      <pubDate>Sat, 02 Aug 2025 20:01:40 GMT</pubDate>
+      <title>在学习“良好”备份后，建立了备份验证工具仍然可能被损坏 - 反馈需要</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mi1oie/built_a_backup_validation_tool_after_learning/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿 r/webDev ！  当您的“彻底测试”时，曾经有这种沉没的感觉。当您最需要时，备份被损坏了吗？  我在关键的后Ql迁移期间以艰难的方式了解了这一点。备份通过了我们所有的基本检查，但存在细微的交易完整性问题，这些问题仅在恢复过程中出现。  应该很快回滚了。具有迁移置信度得分的详细报告   - 与PostgreSQL，MySQL，SQLITE   **技术堆栈：**    -  frontend：react + react + vite + vite +现代css     - 开源  ** live demo：**  https://www.backupguardian.org  href =“ https://github.com/pasika26/backupguardian”&gt; https://github.com/pasika26/backupguardian       Web界面处理最多100MB的文件（较大文件的CLI）。尝试进行备份验证，就像上传文件一样简单。  ** devs的问题：**    - 您当前如何验证基本文件检查以外的备份？     - 在演示中是否有任何UI/UX反馈？在过去的几周中，备份实际上不是很好吗？一直希望根据实际开发人员需求改进！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/mindseyekeen    href =“ https://www.reddit.com/r/webdev/comments/1mi1oie/built_a_backup_validation_tool_after_learning/”&gt; [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mi1oie/built_a_backup_validation_tool_after_learning/</guid>
+      <pubDate>Tue, 05 Aug 2025 06:25:01 GMT</pubDate>
     </item>
     <item>
-      <title>[展示我的宝宝]  - 以录音机速度进行高质量的E2E测试 - 您拥有代码！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfzqpd/showcasing_my_baby_highquality_e2e_tests_at/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  嘿，伙计！ 如果您是开发人员或质量检查工程师，您知道端到端测试的痛苦可能会多么痛苦。 It often feels like a constant battle between brittle tests and spending too much time writing solid ones from scratch - the kind that actually last. I’m a FE dev who’s been obsessed with this for years, and IMO the root problem is that most tools focus on the wrong thing:  There are the conventional recorders that only capture the fragile “how” - the clicks, selectors, DOM spaghetti - which all break the moment someone refactors a组件。 其他竞争者是无代码/低代码AI工具，要求您相信“黑匣子”“＆quot”，但是当事情向南行驶时，您就会挂在悬挂时，您必须将手弄脏来修复片状测试。   构建最后的测试，以捕捉到持续时间的唯一方法。 The tool needs to understand the system, not just the UI. So, I’m working on something different: an intelligent tool that isn’t claiming to be the “AI magic bullet” that will replace your whole QA department: it’s designed to augment your expertise rather than replacing it. It works as a simple recorder, but while observing your actions, it builds a domain-rich Page Object Model on the fly.最后，它吐出了干净，专业级的剧作家代码 - 您实际上要维护和控制的那种。 下面是操作中工作流程的快速演示。我真的很喜欢您的反馈。烘烤它，批评它，或者只是丢弃您想看到的想法。不要犹豫，用DM发表评论或打我：） 感谢您的阅读＆amp;观看！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/transfortatorude4917      &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mfzqpd/showcasing_my_my_my_baby_highquality_e2e_tests_ats_at/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfzqpd/showcasing_my_baby_highquality_e2e_tests_at/</guid>
-      <pubDate>Sat, 02 Aug 2025 19:58:47 GMT</pubDate>
+      <title>您如何处理跨应用程序状态？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mi16k5/how_do_you_handle_cross_app_state/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  您如何处理像应用程序更新状态的交叉应用状态，然后应用B更改基于该状态的行为？  redis？或只使用数据库？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/yersyas     [link]    ＆＃32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mi16k5/how_do_you_handle_cross_app_state/</guid>
+      <pubDate>Tue, 05 Aug 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
-      <title>Chrome/Firefox稍后访问，固定标签Plus，AutoreFresh功能</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfz2ez/chromefirefox_visit_later_pinned_tab_plus/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   嘿&lt; /strong&gt;，第一帖子（tabbro v1）： https://www.reddit.com/r/webdev/comments/1m3vjr2/chromefirefox_smart_smart_manager_reminder_tab/   在Tabbro    1中添加了一个新功能。请稍后访问&lt; /strong&gt;  -  请访问以后的&lt; /strong&gt;功能可帮助您节省页面，而无需保持杂物，减少杂物并改善焦点。 * *请跟踪有趣的链接而无需添加书签。与书签有些不同，它与书签有些不同，就像“临时”。当您单击它时自动消失的书签。我经常在新标签中打开链接，使得标签过于完整 /混乱。该扩展可以解决该问题。  它的工作原理：     在任何页面上，单击浏览器工具键中的 tabbro扩展图标。列表。 打开 tabbro Manager （主界面），然后单击稍后部分。部分。 准备就绪时，单击保存的项目以在新的选项卡中打开它。   为什么要使用它？   将浏览器从不必要的标签中释放出来。 跟踪有趣的链接，而无需为所有内容添加书签。 完美的内容，非常适合文章，研究或您希望以后返回的任何东西。        固定选项卡加（始终在活动窗口中的URL）  - 此功能在活动浏览器窗口中始终保持特定的URL（TAB）。它不能关闭，当浏览器启动时它会自动打开。 与固定的一个不同，它是正常的尺寸，您可以看到图标和标题，并且自动在窗户之间移动在Windows之间，并且总是在Active One。  每次启动浏览器时都可以自动恢复页面来节省时间。 可以防止意外关闭一个关键选项卡。（不可删除）         3。您选择页面重新加载的频率，其余的。 为什么它有用：  非常适合实时数据监视（例如，股票价格，分析仪表板，upvotes😅）。 无法自动更新内容的页面，从而自动更新内容。   不活动。   chrome：https://chromewebstore.google.com/detail/tabbro/bbloncegjgdfjeanliaaondcpaedpcak  firefox： htttps://addons.mozilla.org/en-us/en-us/firefox/firefox/addon/addon/addon/tabbro/tabbro/  /u/u/deimosfobos     [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfz2ez/chromefirefox_visit_later_pinned_tab_plus/</guid>
-      <pubDate>Sat, 02 Aug 2025 19:29:30 GMT</pubDate>
+      <title>前端开发趋势2025：您需要了解的顶级趋势，工具和框架</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhz7k0/frontend_development_trends_2025_top_trends_tools/</link>
+      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/arunittech     &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mhz7k0/frontend_develodment_trends_2025_top_top_trends_tools_tools/]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhz7k0/frontend_development_trends_2025_top_trends_tools/</guid>
+      <pubDate>Tue, 05 Aug 2025 04:03:33 GMT</pubDate>
     </item>
     <item>
-      <title>通过动画流行图标来学习CSS动画 - 想法？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfyars/learning_css_animations_by_animating_popular/</link>
-      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/u/madovermoto       [注释]            ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfyars/learning_css_animations_by_animating_popular/</guid>
-      <pubDate>Sat, 02 Aug 2025 18:56:52 GMT</pubDate>
+      <title>如果我需要网络仪表板，该雇用谁？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhyw1d/who_to_hire_if_i_need_a_web_dashboard/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   hello devs， 我有一个项目，登录页面在其中登录到用户仪表板。这需要展示CMS市场以及文件上传ECT，以及一些后端功能，以便用户可以创建“项目”。在他们的帐户中。  我正在寻找这个角色的团队，并且想知道这个项目是可以在诸如WebFlow的插件之类的项目中完成的，还是应该从头开始完全定制？ 不要试图超越。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/drakewilliam    href =“ https://www.reddit.com/r/webdev/comments/1mhyw1d/who_to_hire_hire_if_ie_need_a_a_web_dashboard/”&gt; [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhyw1d/who_to_hire_if_i_need_a_web_dashboard/</guid>
+      <pubDate>Tue, 05 Aug 2025 03:47:12 GMT</pubDate>
     </item>
     <item>
-      <title>最佳的动画库用于平稳的UI过渡？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfxumg/best_animation_libraries_for_smooth_ui_transitions/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在前端使用反应，我正在寻找有关库或包装的建议，这些建议有助于创建流畅，抛光的动画，例如折叠/扩展菜单，滑动抽屉或细微的UI过渡。 您的使用工具或图书馆是什么？提交由＆＃32; /u/u/strice_trip2321     [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfxumg/best_animation_libraries_for_smooth_ui_transitions/</guid>
-      <pubDate>Sat, 02 Aug 2025 18:37:39 GMT</pubDate>
+      <title>如果您可以搜寻自己的生活怎么办？ （我是唯一想要这个的人吗？）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhwec4/what_if_you_could_search_your_life_am_i_the_only/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;     tl; dr：我想要一个数字生活的搜索栏。当前使用文档，概念，松弛，Gmail等搜索。我希望能够找到我所看到的任何类似标签，聊天记录，笔记，电子邮件，文档的东西。  我已经厌倦了在我的50多个选项卡，5个镀铬帐户，文件夹，应用程序，应用程序等之间切换之间的切换我。 哦，等等，他还在Instagram和Slack上发送了DM吗？我不能通过统一导航在一个地方获取所有这些信息吗？为什么我必须在标签和应用程序之间切换以找到我需要的东西？ 我希望我只能输入查询并按照相关的顺序弹出结果。 请告诉我，我不是唯一一个想要这个    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/shot-fly-6980     [link]&gt; [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhwec4/what_if_you_could_search_your_life_am_i_the_only/</guid>
+      <pubDate>Tue, 05 Aug 2025 01:48:37 GMT</pubDate>
     </item>
     <item>
-      <title>我在Beta中找到了我的第一个用户！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfx9lg/i_got_my_first_users_in_beta/</link>
-      <description><![CDATA[        &lt;！ -  sc_off-&gt;  自StackDag启动到Public Beta以来已经一周了。感谢所有尝试过并分享反馈的人。 （上一篇文章以获取更多信息： https://www.reddit.com/r/webdev/comments/1m9vq4z/using_dags_to_to_plan_your_your_application_stacks_is_is_is_the/  ） 这是第1周的新事物：   新鲜的主页外观  - 已重新设计了主页，以更好地传达stackdag是什么以及如何快速开始启动。      安全性解决方案   - 一些早期的早期安全问题是修补的。如果您注意到任何事情或可能易受伤害，请随时接触，因为早期反馈非常有帮助。  自定义节点标题＆amp;描述  - 您现在可以命名并描述DAG中的各个组件，从而更容易组织和记录您的堆栈。  添加了新建议的组件  - 作为建议的组件。现在，您可以在构建后端堆栈时包括它。如果需要，您可以推荐更多组件或DAG模板！这就是beta的力量。  错误修复＆amp; UI改进  - 多亏了用户报告，解决了一些小错误和UI不一致。    加入beta：，如果您有兴趣帮助塑造StackDag的未来，那是当时的。您可以在： https://stackdag.pages.pages.dev    我们也有一个主动的分歧中，讨论了更新并讨论了想法： https://discord.gg/vqwqhmg5fn     beta期间，所有帐户在beta期间，所有帐户都会标记为早期测试人员，并将获得早期的premium test。更多更新即将推出！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/javredstone       [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfx9lg/i_got_my_first_users_in_beta/</guid>
-      <pubDate>Sat, 02 Aug 2025 18:12:54 GMT</pubDate>
+      <title>育儿网站帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhv36g/childcare_website_help/</link>
+      <description><![CDATA[Hi all, hope your having a good day/night. I have been tasked with designing a simply website for a small family run child care business, it will contain the usual pages such as enrolment form, contact us, insurance and childcare certificates, about us and other assortment of downloadable documents such as policies and procedures. The eventual goal is为了有一个后端，员工将能够进行管理工作，例如通过业务电子邮件，工资单，出勤率和文件管理和文件管理/存储和文件自动发送儿童文件，电子邮件和注册表格。 我拥有基本HTML，Python，Python的经验我最近完成了我的AWS认证的云实践者（如果有任何帮助） 我更不熟悉技术和产品，例如WordPress，AWS Lightsail，stacks and Backend。 我的问题是，我的问题是，我应该在A IAK中获得基础并在  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/jackod20     ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhv36g/childcare_website_help/</guid>
+      <pubDate>Tue, 05 Aug 2025 00:48:00 GMT</pubDate>
     </item>
     <item>
-      <title>深夜编码的三个星期，这是我尝试修复旅行计划的尝试</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfwu9p/three_weeks_of_latenight_coding_later_heres_my/</link>
-      <description><![CDATA[     ＆＃32;提交由＆＃32; /u/u/u/nerdbackpack      &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mfwu9p/1mfwu9p/three_weekes_of_latenight_coding_coding_later_heres_my//]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfwu9p/three_weeks_of_latenight_coding_later_heres_my/</guid>
-      <pubDate>Sat, 02 Aug 2025 17:55:13 GMT</pubDate>
+      <title>您的客户构建需要多长时间？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhuwkv/how_long_do_your_client_builds_take/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我是使用Angular和webpack的商店工作的初级开发人员。我对构建工具的经验不太经验，并且想询问在客户更改相对较大的项目之后，构建所需的平均时间是多少。每当我进行客户更改时，重建就需要大约2分钟，这对于大型代码库来说是否正常？我知道有很多变量可以影响这一点，答案不一定直接  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/standardBusiness9536     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhuwkv/how_long_do_your_client_builds_take/</guid>
+      <pubDate>Tue, 05 Aug 2025 00:39:40 GMT</pubDate>
     </item>
     <item>
-      <title>这是我的第一个计算器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfwkri/heres_my_first_calculator/</link>
-      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/u/pristine-elevator198        [注释]    ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfwkri/heres_my_first_calculator/</guid>
-      <pubDate>Sat, 02 Aug 2025 17:44:16 GMT</pubDate>
+      <title>收集了股票价格API数据，因此您不必</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhu953/gathered_stock_price_api_data_so_you_dont_have_to/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;                     polygon  poly&gt; poly&gt; poly&gt;  Prixe.io FMP    Free Tier 5 requests/min 2 requests/min 60 requests/min 60请求/min   250请求/天      付费tier（个人）    $ 29/td&gt; $ 29/td&gt;   $ 15/td&gt; $ 15/td&gt;    $ 3000/td&gt; $ 3000/td  $ 6/  $ 19/月    付费的API限制   无限（15分钟延迟）   500请求/min     900请求/min Min   600&gt; 600  600 min/min/min     实时数据                                             ✅（5年限制）         websocket支持             &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/mc587     [links]      &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mhu953/gathered_stock_price_price_api_api_so_so_so_you_you_dont_have_have_have_have_to/”]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhu953/gathered_stock_price_api_data_so_you_dont_have_to/</guid>
+      <pubDate>Tue, 05 Aug 2025 00:10:17 GMT</pubDate>
     </item>
     <item>
-      <title>你们使用哪些平台/工具为您的项目生成精美的模型？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfw8vh/what_platformstools_do_you_guys_use_to_generate/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我想让我的投资组合看起来更专业，因为我目前只有所有项目的常规屏幕截图。    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/pablokaskobar      [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfw8vh/what_platformstools_do_you_guys_use_to_generate/</guid>
-      <pubDate>Sat, 02 Aug 2025 17:30:35 GMT</pubDate>
+      <title>身份验证安全</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhu0nf/authentication_security/</link>
+      <description><![CDATA[I am very new to this, i am trying to make my first real full application and i have been trying to learn on authentication. As far as i could learn, is Access token jwt in sessionStorage, short lived like 5-10 mins, and then a Refresh token jwt as httponly cookies, long lived 7-30 days, and then implementing a令牌旋转，以便每次刷新时，它都会刷新访问令牌和刷新令牌，但是将刷新的令牌放在连锁店或家人中，以便如果有人可以访问一个人，我可以删除整个家庭。我也将刷新令牌存储在数据库中，每次刷新时，我都会将上一张用作残疾人或SMTH的标记，以便只有新的，以便 有效。 这是一个很好的，正常的，安全的和使用的选项。提交由＆＃32; /u/u/ok-abbreviations9899       [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhu0nf/authentication_security/</guid>
+      <pubDate>Mon, 04 Aug 2025 23:59:46 GMT</pubDate>
     </item>
     <item>
-      <title>HTTP服务器所需的数学，ORM开发</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfw5y4/needed_math_for_http_server_orm_development/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  您好，我有兴趣开发HTTP服务器和一个ORM，但是在我开始学习之前，我有一些问题。我需要知道数学以构建可用的ORM和HTTP服务器吗？我想创建自己的ORM和HTTP服务器库。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/field-masterpiece1242     [link]    [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfw5y4/needed_math_for_http_server_orm_development/</guid>
-      <pubDate>Sat, 02 Aug 2025 17:27:08 GMT</pubDate>
+      <title>概括还是专业？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhsk0m/generalize_or_specialize/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我再次遇到了一个我问自己的问题：  &#39;我是否应该推广或专注于开发人员？ 我选择开发人员选择了各种技术相关域（我猜Dev ovs也很重要）。但是，您对此有何看法？如果您或多或少地粘贴在域内？或者，您是在每个有趣的github存储库中散布并直接跳入它？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/edgarhuber      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhsk0m/generalize_or_specialize/</guid>
+      <pubDate>Mon, 04 Aug 2025 22:56:23 GMT</pubDate>
     </item>
     <item>
-      <title>我制造了日语打字游戏</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfw0jd/i_built_a_japanese_typing_game/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;     https://taipingir.link.link   href =“ https://github.com/entibo/taipingu”&gt; https://github.com/entibo/entibo/entibo/taipingu     我遇到了问题，我遇到了问题来使浏览器变得完美的问题，请让我知道是否有任何问题，请让我知道是否有任何问题！呈现html。因此，我不得不使用Fonttools生成一个覆盖UI和初始句子的子集（40KB）。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/entibo       [注释]            ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfw0jd/i_built_a_japanese_typing_game/</guid>
-      <pubDate>Sat, 02 Aug 2025 17:20:46 GMT</pubDate>
+      <title>在SaaS中运行诸如Blip-2之类的模型之类的模型（在SaaS中的图像到文本）（重复与HF推理与一起）的最佳方法是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhs8gr/whats_the_best_and_most_affordable_way_to_run/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我有点不知所措，非常感谢一些指导。如果有一个更好的子雷迪特可以发布此信息，请发送一个链接。 我正在构建SaaS产品，用户可以使用诸如Blip-2之类的AI模型来发送图像并恢复字幕或回答有关图像的问题。在一个理想的世界中，我可能需要每月处理数十万个请求，因此每个请求的成本很重要 - 我的目标少于每张图像的0.01美元。 我的堆栈：       frontend：vue.js         php php php（la avel） Render  My ideal setup would be:  An API endpoint I can call from my backend An API key for access + billing No need to manage infrastructure or train models—just simple inference  我已经研究了重复，它的Blip-2（ https://replate.com/andreasjansson/blip-2 ）如果他的帐户消失或删除模型会发生什么？而且，他们的定价似乎包括图像处理和GPU时间。在测试时，还不清楚多少加起来 - 也许每个图像接近$ 0.01，这是我的极限。 我坚持了一些问题：    在拥抱脸部推断端点是同一件事吗？还是他们提供类似的服务？   为什么HF推断不直接提供BLIP-2？还是我错过了什么？   这些服务之间有什么区别：复制与hf的推理vs vs.ai vs sagemaker vs sagemaker vs自主？      最便宜且最可扩展的选择是在像blip-2一样模型（例如Blip-2，GPT-4O，Gemini等），我将如何比较成本？例如，将4K映像发送给GPT-4O视觉或类似并获得标题并获得标题的实际费用是多少？   我不是想幻想的，我只是想让我的应用程序插入我的应用程序。提交由＆＃32; /u/-sploosh--     [link]        [commist]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhs8gr/whats_the_best_and_most_affordable_way_to_run/</guid>
+      <pubDate>Mon, 04 Aug 2025 22:42:50 GMT</pubDate>
     </item>
     <item>
-      <title>这个着陆页是否会说服您我们的产品？我的意思是，这足够“ SaaS-Sy”！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfvo4m/does_this_landing_page_convince_you_of_our/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;   反馈。 我们认为此版本的着陆页可以很好地推动技术的要点以及为什么非常容易实施。 您如何看待此页面？有什么模棱两可的吗？ easy on the eyes? Qrogin is a privacy-first social login that developers can use for a secure passkey only login, either as an additional or primary user auth option. If you want to checkout the page then - https://qrogin.com/landingPage  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/life-spring1857     [link]    [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfvo4m/does_this_landing_page_convince_you_of_our/</guid>
-      <pubDate>Sat, 02 Aug 2025 17:06:03 GMT</pubDate>
+      <title>Mailman 2.2.0</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhr3jf/mailman_220/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   hello  几年来我运行了一个邮件列表。然后，我需要将文件移至另一个帐户，同一Webhosting Co  有些事情没有正确地转移，我不得不重新创建邮件列表。但是，CPanel不允许我使用上一个名称创建一个新列表。  所以我制作了一个新列表。 与使用原始列表名称有关的任何错误。但是他们拒绝进一步协助，因为我的清单很小，他们没有看到为什么我不能只是手动重新创建它。 （也许他们会有所帮助，因为这些问题是由于他们对转移的处理失败而引起的？） 几个月后，我的名单成员（他们花了一年的时间才适应使用列表地址，而不是其他所有人都无法保持下去）。一些关注的人发送到新列表地址。一些只在零星上注意的人仍会发送到旧列表地址。  所以…..我想设置一个别名，将任何发送到 old_list@mynamehere.com 转发到 new_list@myname.com  有任何建议吗？谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/tlaeri      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhr3jf/mailman_220/</guid>
+      <pubDate>Mon, 04 Aug 2025 21:57:17 GMT</pubDate>
     </item>
     <item>
-      <title>为我的下一个项目设计了此卡，怎么样？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mfvbf4/designed_this_card_for_my_next_project_hows_it/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  如果您需要时尚的UI Designs！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/aromatic-sugarr      &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mfvbf4/designed_this_card_card_for_my_my_my_my_next_project_project_project_hows_it/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mfvbf4/designed_this_card_for_my_next_project_hows_it/</guid>
-      <pubDate>Sat, 02 Aug 2025 16:51:26 GMT</pubDate>
+      <title>您是否在简历中包括自由职业者？如果是，在工作经验或项目下？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mhpj30/do_you_include_freelance_work_on_your_resume_if/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我很好奇人们如何处理简历。您通常会列出自由演出作为您的工作经验的一部分或项目的一部分吗？另外，我听说有些招聘人员可能对自由职业者犹豫不决，因为他们担心候选人可能会继续自由职业，而不是完全致力于全职角色。你曾经遇到过这个吗？您如何以保证招聘人员的方式提出自由职业者？很想听听您的想法和策略！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/crinnxx     [link]    [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mhpj30/do_you_include_freelance_work_on_your_resume_if/</guid>
+      <pubDate>Mon, 04 Aug 2025 20:56:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
