@@ -4,7 +4,21 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Wed, 06 Aug 2025 18:29:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 21:17:03 GMT</lastBuildDate>
+    <item>
+      <title>软件包：邮件时间</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mjeoli/package_mailtime/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/dr/dr-dimitru      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mjeoli/package_mailtime/</guid>
+      <pubDate>Wed, 06 Aug 2025 19:48:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们厌倦了托管的昂贵文档</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mjd989/we_grew_tired_of_how_expensive_documentation/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿社区， 我是克莱德（Clidey）的联合创始人Hemang。在构建Docucod（我们生成和维护技术文档的平台）时，我们需要一种简单，快速，灵活的方式来托管文档。 我们从Next.js + Vercel开始，但感觉就像是过分的。不需要SSR，我们遇到了模糊的Webhook错误和部署问题。对于静态文档网站而言，感觉就像是太多的复杂性。 因此，我们构建了Dory，这是一种针对技术文档进行了优化的最小静态站点生成器。 It&#39;s built with Preact, Vite, Tailwind, FontAwesome, Mermaid, and Typescript. What makes Dory work for us: • Reads a folder of .mdx files • A single dory.json defines structure/layout • No SSR, no cloud lock-in • Fast builds, minimal config,在任何地方部署  Dory的目标是使事物保持真正的简单 - 易于设置，易于使用且轻松地为构建静态文档的任何人部署。它的设计灵感来自Gitbook，Docusaurus，Readme，Mintlify和阅读文档等优秀工具。虽然我们计划随着时间的推移添加更多功能，但简单性将是核心原则。 一旦变得更加稳定，我们将进行适当的比较，以查看负载时间，捆绑尺寸，所有好东西。 它早（beta！），但是它对我们和我们的爱情效果很好，我们对社区的爱反馈。 href =“ https://github.com/clidey/dory”&gt; https://github.com/clidey/dory    感谢您检查一下！如果您想为开源项目创建文档，可以在此处进行： https://docucod.com/oss/oss      &lt;！ -  sc_on-&gt; 32;提交由＆＃32; /u/u/hkdeman     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mjd989/we_grew_tired_of_how_expensive_documentation/</guid>
+      <pubDate>Wed, 06 Aug 2025 18:54:16 GMT</pubDate>
+    </item>
     <item>
       <title>Android应用程序建议：安装应用程序的官方下载URL的智能提取器</title>
       <link>https://www.reddit.com/r/opensource/comments/1mjbamh/android_app_proposal_smart_extractor_of_official/</link>
@@ -18,13 +32,6 @@
       <description><![CDATA[GitHub link: https://github.com/cooldude6000/meeting-bot69 Youtube link:  https://www.youtube.com/watch?v=5meg9kb1w0g 但是由于我的视频长30小时，所以我将其上传为3个不同的部分。 The link above is of the first part(2nd and 3rd parts of tutorial link in description) so i built an open-source alternative to Fireflies.ai and  otter.ai ，还制作了一个30小时的视频（是的，30小时🙏😁），我从Scratch构建了它，我在YouTube上发布了该视频。 （注释中的链接）您可以自动连接Google日历，并自动连接会议（Google Meet，Zoom＆Zoom＆amp; MSFT团队）。您可以看到成绩单，摘要和动作项目以及会议的音频。会议结束后，自动化电子邮件将通过摘要和操作项目发送给您。用户可以将其帐户连接并将操作项推到 asana ，jira，trello。用户可以与任何会议聊天，并提出有关任何会议的问题。 （杰克在何架会议上谈论了未来的招聘预算，预算是什么？“杰克在“ x＆quot”中指定了未来的招聘预算，上述预算是“ x＆quot”。您可以安装会议bot的 slack 在您的工作空间中bot bot，并从Slack Workspace中询问有关您的任何会议的任何问题。您还可以发布会议详细信息，摘要和行动项目，以供懈怠。机器人的自定义名称和图像。使用条纹的3个分层计划。您也可以与其他人分享会议。  在 notion ， href =“ https://www.linkedin.com/company/salesforce/”&gt; salesforce ， hubspot  intemations  intempations  intempations。  Features: 🤖 Automatic AI bot deployment to Zoom, Google Meet, and Microsoft Teams 📝 Meeting transcription with speaker identification and diarization 🧠 AI-generated meeting summaries and action items using OpenAI 📅 Real-time calendar sync with Google Calendar 💬 Chat with meeting Pinecone Vector数据库提供动力的RAG管道的会话AI   🔍语义搜索所有会议记录和摘要   🔗 🔗一单击的动作项目同步到Jira，Asana和Trello。 Webhook处理 🔒秘书       &lt;即将举行的会议仪表板带有机器人出勤的切换控件 💭💭💭个人会议聊天界面的特定对话   🗨️全局聊天功能同时在所有会议上查询所有会议    qu q quarts  ⚙使用SVIX  🗄️AWSAWS AWS S3存储用于音频文件和用户配置文件图像 🎯自定义机器人个性化，并使用名称更改和配置文件图像上传                       🔔使用Sonner Toast System  🌙黑暗主题支持下一个主题  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/usipers-repair-2452     [link]   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mjao4z/i_built_an_opensource_alternative_to_firefliesai/</guid>
       <pubDate>Wed, 06 Aug 2025 17:17:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>🚀使用OpenCL 2.0 SVM在AMD RX 5700 XT上使用OpenCL 2.0 SVM开源Alphago风格的语义引擎</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mj8e1y/opensource_alphagostyle_semantic_engine_using/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   hi  r/opensource 社区👋 我已经在Amphago的增强架构中启发了Amporcection tement obsect obs inphago inforceent obs inphago inforceent inphago inphago inforcection inphago a inphago a inphago inforcection inphago a Emportect in abpogago - 在Windows。 repo： https://github.com/ixu2486/meta_knowledge_knowledge_close_close_close_cloped_clops_loop 学术用途，商业用途需要许可🔍寻找贡献者，测试人员和反馈！ 该项目旨在使用基于内存的认知而不是蛮力计算来推动开源语义推理的边界。欢迎所有反馈和协作！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/inhogon     [link]       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mj8e1y/opensource_alphagostyle_semantic_engine_using/</guid>
-      <pubDate>Wed, 06 Aug 2025 15:52:17 GMT</pubDate>
     </item>
     <item>
       <title>厌倦了在多个GIT存储库中手动切换分支（带有子模块）？我为此构建了一个简单的工具！</title>
@@ -88,13 +95,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;    OpenStatus.dev 几天前2岁。 我们想释放一些很酷的商品。作为一个小型独立项目，我们从DIY朋克场景中汲取了灵感。我们在我的办公室打印机上打印了整个GIT历史记录，并将其作为有限批次（30印刷）为我们的社区和贡献者 以下是一些图片：     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/tibozaurus   href =“ https://www.reddit.com/r/opensource/comments/1mixytj/our_opensource_project_project_has_has_turned_two_years_old/”&gt; [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mixytj/our_opensource_project_has_turned_two_years_old/</guid>
       <pubDate>Wed, 06 Aug 2025 07:13:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立了浏览器扩展程序，以与实时计时器和AI进行拖延</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mixnlk/built_a_browser_extension_to_fight/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  刚刚启动了狂欢仪表。我建立了它是为了解决自己的拖延问题，并决定为每个人提供效果。 github repo： https://github.com/sahaj-b/binge-meter/     它是直播在Chrome网络商店中的，并在Chrome网上和Firefox上添加了prof ins。可以在同一域上区分有用和无用的内容的阻滞剂，以及更大的功能，例如阻止，分析等。 任何反馈都得到了大大赞赏。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/sahajbhatt     [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mixnlk/built_a_browser_extension_to_fight/</guid>
-      <pubDate>Wed, 06 Aug 2025 06:53:39 GMT</pubDate>
     </item>
     <item>
       <title>引入开放式ASPM：请求反馈并寻找贡献者</title>
