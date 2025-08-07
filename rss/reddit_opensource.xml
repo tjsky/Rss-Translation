@@ -4,7 +4,42 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Thu, 07 Aug 2025 15:21:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Aug 2025 18:27:44 GMT</lastBuildDate>
+    <item>
+      <title>我在广泛使用的统一数据集合存储库中发现了一个错误，并增加了重大改进。我应该分叉更改或创建新的回购并给予积分吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mk7tkj/i_found_a_bug_in_a_widelyused_unity/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   hi redditors， 我从没想到这是我的第一个reddit post haha。我真的在这里遇到了困境。  tldr：如果我分叉，我觉得我的主要贡献将没有信用，我也觉得自己贪婪，如果我创建自己的仓库，我的实验室可能会使我不喜欢我。我该怎么办..  我是一个研究实验室的博士生，该研究实验室生产了GitHub repo（我们称其为 repo a ），从设备中收集数据内部的统一性。该仓库已在许多研究论文中使用。 该回购中的代码是根据官方设备生产商的示例脚本编写的（ repo示例）。但是，该示例代码是为控制台构建编写的，因此将代码复制为 repo a 结果是错误的，从而导致采样率下降，例如收集数据时的100倍。而且，根据官方文件，对于研究而言，这似乎不是一件好事……绝对隐藏了这个错误，因为除非您分析包装之间的时间段，否则您永远不会找到数据，因为数据仍然可以收集到的好处，也许不是因为它每几个帧重复了每几个帧，但我宁愿不知道该错误是。 B 来自收集不同数据的同一生产商。我最初最初依赖 repo ，并且永远无法让我的设备B工作数周之久，只有在意识到此存储库可能是错误的情况下，我决定潜入官方的控制台代码文档中...我周围的每个研究人员都不会使用它来收集数据不正确...但是，是的，是的，是的，我的工作习惯了，我的工作是一个愚蠢的官方，并且一定要努力，这是一个愚蠢的官方构想，并且一定的官方构成了一项愚蠢的工作，并且一定的工作是一定的。关于团结。我为研究人员添加了一大堆用户友好的UI，甚至添加了设备生产商的优质功能。想到这一点，该死的，我简直不敢相信我做到了。 现在我面临困境，我应该分叉回购，让原始作者本质上要求一切赞成荣誉吗？还是我应该创建一个新的回购并在一行中确认原始作者？原始回购确实提到，请引用回购以确认作者。 我努力决定的原因是因为我提供了一个适用于设备A和B的接口。这些设备用于不同的角色，因此可以在研究中使用。它们可以一起使用。由于研究中的引用有多有意义，所以我对仓库的分配并不是“正确的”，从本质上讲，让原始作者得到所有未来的引用……也许我是自私/贪婪的？我在描述中应该说什么...？说“此存储库改进了数据收集故障的回购A，并将设备B添加到大量实用程序中“”？我不知道这是否是“正确的”，并且会使我的实验室中的人们最初创建repo a恨我。 感谢您到目前为止的阅读。我很想听听您的想法。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/pxtien     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mk7tkj/i_found_a_bug_in_a_widelyused_unity/</guid>
+      <pubDate>Thu, 07 Aug 2025 18:23:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>C ++中的简单NBP（波兰国家银行）API包装器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mk7ecx/a_simple_nbp_nationa_bank_of_poland_api_wrapper/</link>
+      <description><![CDATA[     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/source guy1009     &lt;a href =“ https://www.reddit.com/r/opensource/comments/comments/1mk7ecx/a_simple_nbp_nationa_bank_bank_of_poland_api_api_api_api_prapper/]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mk7ecx/a_simple_nbp_nationa_bank_of_poland_api_wrapper/</guid>
+      <pubDate>Thu, 07 Aug 2025 18:07:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>polyuploader-同时将文件上传到130多个主机</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mk52ho/polyuploader_upload_files_to_130_hosts/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我正在与您共享我的软件， polyuploader 。它允许您一次远程上传文件    网站：  https://github.com/spel.com/spel987/polyuploader      快速概述：  Link your own API keys for compatible hosts View a detailed history of your uploads with expiration status and delete buttons Create and manage upload profiles to automate frequent tasks Generate a single sharing link to bundle multiple主机链接（例如示例后端   🛠️polyuploader是 fircor.to ， href=&quot;https://multiup.io&quot;&gt;Multiup.io:  More supported hosts No registration required, instant use Remote file deletion and expiration tracking Unlimited file size uploads Open-source and fully transparent 干净，无ad的接口   您可以访问一个摘要表。提交由＆＃32; /u/u/spel_987     [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mk52ho/polyuploader_upload_files_to_130_hosts/</guid>
+      <pubDate>Thu, 07 Aug 2025 16:40:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>抗垃圾邮件的WhatsApp工具/机器人吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mk4o9h/any_whatsapp_toolbot_for_antispam/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在寻找一个可以管理垃圾邮件的工具，例如阻止用户以x的时间发送x数量以上的x数量x，也许也可能将单个消息长度限制为x字符的数量？谢谢。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/dirtbagbbyg4l     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mk4o9h/any_whatsapp_toolbot_for_antispam/</guid>
+      <pubDate>Thu, 07 Aug 2025 16:26:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的第一个开源项目！一个简单的库来处理加密的连接字符串和插头</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mk3n52/my_first_opensource_project_a_simple_library_to/</link>
+      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/u/stonktrader37       [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mk3n52/my_first_opensource_project_a_simple_library_to/</guid>
+      <pubDate>Thu, 07 Aug 2025 15:47:25 GMT</pubDate>
+    </item>
     <item>
       <title>我为对开源感兴趣的人创建了对初学者友好的任务</title>
       <link>https://www.reddit.com/r/opensource/comments/1mk168m/i_created_beginnerfriendly_tasks_for_anyone/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/nordsalad     [link]        [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mjhvdb/where_to_take_notes_for_projects/</guid>
       <pubDate>Wed, 06 Aug 2025 21:51:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>软件包：邮件时间</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mjeoli/package_mailtime/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/dr/dr-dimitru      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mjeoli/package_mailtime/</guid>
-      <pubDate>Wed, 06 Aug 2025 19:48:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们厌倦了托管的昂贵文档</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mjd989/we_grew_tired_of_how_expensive_documentation/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿社区， 我是克莱德（Clidey）的联合创始人Hemang。在构建Docucod（我们生成和维护技术文档的平台）时，我们需要一种简单，快速，灵活的方式来托管文档。 我们从Next.js + Vercel开始，但感觉就像是过分的。不需要SSR，我们遇到了模糊的Webhook错误和部署问题。对于静态文档网站而言，感觉就像是太多的复杂性。 因此，我们构建了Dory，这是一种针对技术文档进行了优化的最小静态站点生成器。 It&#39;s built with Preact, Vite, Tailwind, FontAwesome, Mermaid, and Typescript. What makes Dory work for us: • Reads a folder of .mdx files • A single dory.json defines structure/layout • No SSR, no cloud lock-in • Fast builds, minimal config,在任何地方部署  Dory的目标是使事物保持真正的简单 - 易于设置，易于使用且轻松地为构建静态文档的任何人部署。它的设计灵感来自Gitbook，Docusaurus，Readme，Mintlify和阅读文档等优秀工具。虽然我们计划随着时间的推移添加更多功能，但简单性将是核心原则。 一旦变得更加稳定，我们将进行适当的比较，以查看负载时间，捆绑尺寸，所有好东西。 它早（beta！），但是它对我们和我们的爱情效果很好，我们对社区的爱反馈。 href =“ https://github.com/clidey/dory”&gt; https://github.com/clidey/dory    感谢您检查一下！如果您想为开源项目创建文档，可以在此处进行： https://docucod.com/oss/oss      &lt;！ -  sc_on-&gt; 32;提交由＆＃32; /u/u/hkdeman     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mjd989/we_grew_tired_of_how_expensive_documentation/</guid>
-      <pubDate>Wed, 06 Aug 2025 18:54:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Android应用程序建议：安装应用程序的官方下载URL的智能提取器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mjbamh/android_app_proposal_smart_extractor_of_official/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  就像已经提取已安装应用程序的APK一样，我正在寻找具有不同功能的工具：要提取每个应用程序的官方下载URL或Web位置已安装在Android系统上的每个应用程序。 我没有引用APK Extractor，而不是PP    🔧 Main features this app should have:  Automatic detection of all apps安装在Android系统上。   在执行任何操作之前，必须提供强制选择选项（Check/Uncheck Apps），以完全控制哪些应用程序应用于哪些智能功能。这使用户可以选择与所有应用程序一起工作。   智能提取正式下载URL的明智提取：   该应用程序将自动搜索整个Internet（不仅是App Store），而不仅仅是官方网站的官方网站，该应用程序的最新官方范围均可避免使用。   生成信息列表的生成：   app name  已安装版本 开发者名称  properties  Optional automated features for selected apps:  Automatically download and install each app from its official URL. Automatically update apps, especially those not on Google Play. Generate and save a lightweight backup file with official URLs for later reinstallation (more efficient and lightweight than backing up APKs).   🧠关键优势： 它将充当“智能的官方URL提取器/检测器/定位器。”    它比提取apks更有效，因为URL会占用更少的空间。 process we currently do manually: searching for the official, secure website to download an external app in its latest, most up-to-date version.  While this idea doesn&#39;t yet exist as an application, I believe it has great functional and practical value, especially for users who manage many apps, install outside of the Play Store, or want to control their backups and updates with greater precision and security. Is there something similar out there, or are there developers有兴趣构建它吗？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/luis_angel_23     [link]      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mjbamh/android_app_proposal_smart_extractor_of_official/</guid>
-      <pubDate>Wed, 06 Aug 2025 17:40:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建造了fireflies.ai和otter.ai的开源替代品，还制作了30小时的YouTube视频构建</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mjao4z/i_built_an_opensource_alternative_to_firefliesai/</link>
-      <description><![CDATA[GitHub link: https://github.com/cooldude6000/meeting-bot69 Youtube link:  https://www.youtube.com/watch?v=5meg9kb1w0g 但是由于我的视频长30小时，所以我将其上传为3个不同的部分。 The link above is of the first part(2nd and 3rd parts of tutorial link in description) so i built an open-source alternative to Fireflies.ai and  otter.ai ，还制作了一个30小时的视频（是的，30小时🙏😁），我从Scratch构建了它，我在YouTube上发布了该视频。 （注释中的链接）您可以自动连接Google日历，并自动连接会议（Google Meet，Zoom＆Zoom＆amp; MSFT团队）。您可以看到成绩单，摘要和动作项目以及会议的音频。会议结束后，自动化电子邮件将通过摘要和操作项目发送给您。用户可以将其帐户连接并将操作项推到 asana ，jira，trello。用户可以与任何会议聊天，并提出有关任何会议的问题。 （杰克在何架会议上谈论了未来的招聘预算，预算是什么？“杰克在“ x＆quot”中指定了未来的招聘预算，上述预算是“ x＆quot”。您可以安装会议bot的 slack 在您的工作空间中bot bot，并从Slack Workspace中询问有关您的任何会议的任何问题。您还可以发布会议详细信息，摘要和行动项目，以供懈怠。机器人的自定义名称和图像。使用条纹的3个分层计划。您也可以与其他人分享会议。  在 notion ， href =“ https://www.linkedin.com/company/salesforce/”&gt; salesforce ， hubspot  intemations  intempations  intempations。  Features: 🤖 Automatic AI bot deployment to Zoom, Google Meet, and Microsoft Teams 📝 Meeting transcription with speaker identification and diarization 🧠 AI-generated meeting summaries and action items using OpenAI 📅 Real-time calendar sync with Google Calendar 💬 Chat with meeting Pinecone Vector数据库提供动力的RAG管道的会话AI   🔍语义搜索所有会议记录和摘要   🔗 🔗一单击的动作项目同步到Jira，Asana和Trello。 Webhook处理 🔒秘书       &lt;即将举行的会议仪表板带有机器人出勤的切换控件 💭💭💭个人会议聊天界面的特定对话   🗨️全局聊天功能同时在所有会议上查询所有会议    qu q quarts  ⚙使用SVIX  🗄️AWSAWS AWS S3存储用于音频文件和用户配置文件图像 🎯自定义机器人个性化，并使用名称更改和配置文件图像上传                       🔔使用Sonner Toast System  🌙黑暗主题支持下一个主题  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/usipers-repair-2452     [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mjao4z/i_built_an_opensource_alternative_to_firefliesai/</guid>
-      <pubDate>Wed, 06 Aug 2025 17:17:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>厌倦了在多个GIT存储库中手动切换分支（带有子模型）？我为此构建了一个简单的工具！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mj7oyp/tired_of_switching_branches_manually_in_multiple/</link>
-      <description><![CDATA[Hi all, Recently, I was working on a project where I had to manage several git repositories at once, many of them with submodules. Every time I needed to switch to a specific release branch (for example, when deploying or integrating), I had to go into each repo, checkout the right branch, make sure the submodules were on the same branch, and sometimes I forgot one and things broke… It was a huge headache, especially when using tools like Helm and mounting multiple environments. So, I decided to build a simple open-source GUI tool in Python (with Tkinter) to handle this pain point:  Scan a folder and find all git repos (including submodules) See the current branch每次回复   单击单击    批量设置所有repos的目标分支       自动完整分支选择      ＆amp; MacOS可执行文件），开放源代码和开箱即用 -  我希望它可以为您节省下来的挫败感。&lt; /p&gt;   github link：&lt; /strong&gt;    https://github.com/orinu/multi-repo-git-git-manager    提交由＆＃32; /u/u/u/pale-luck-163     [link]        [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mj7oyp/tired_of_switching_branches_manually_in_multiple/</guid>
-      <pubDate>Wed, 06 Aug 2025 15:26:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
