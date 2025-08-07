@@ -4,7 +4,35 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Thu, 07 Aug 2025 18:27:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Aug 2025 21:16:33 GMT</lastBuildDate>
+    <item>
+      <title>为什么虫子休息后感到愚蠢</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mkbzxi/why_bugs_feel_stupid_after_a_break/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我花了6个小时卡在一个错误上，然后散步。当我回来时，我立即看到了明显的修复程序。从现在开始，每次我都会编写100行代码，我将进行30分钟的步行  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/no_two_3617     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mkbzxi/why_bugs_feel_stupid_after_a_break/</guid>
+      <pubDate>Thu, 07 Aug 2025 21:03:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何将年龄验证添加到网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mkb97d/how_to_add_age_verification_to_website/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我想让它到达某人必须说的21个进入网站   &lt;！ -  sc_on- sc_on-&gt;＆＃32;提交由＆＃32; /u/ibstz       [注释]            ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mkb97d/how_to_add_age_verification_to_website/</guid>
+      <pubDate>Thu, 07 Aug 2025 20:34:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub首席执行官说，AI将“重塑”开发人员，而不是更换它们。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mkan8e/ai_will_reinvent_developers_not_replace_them_says/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   github首席执行官托马斯·杜赫姆克（Thomas Dohmke）是AI编码工具的支持者，写了一篇有趣的博客文章，标题为“ 帖子中的报价：  ;当我们向开发人员询问AI的前景90％的代码的前景时，他们回答了。他们中有一半认为90％的AI编写的代码场景不仅是可行的，而且很可能在5年内，而其中一半的人期望在2年内。但是，至关重要的是，对于他们来说，这种未来的情况并没有觉得它们的价值或身份降低了，而是重新发明。“我们倾向于将乐观和现实主义视为对立的心态。但是，我们听到的开发人员具有有趣的融合，他们是现实的乐观主义者。他们看到了转变，他们不会假装不会改变工作，但他们也认为这是一个升级的机会。“  &#39; “某些传统的编码角色将减少或显着发展，因为核心重点从编写代码转变为授权和验证。同时，美国劳工统计局的项目预计软件开发商工作将在未来十年内增长18％，几乎是全国平均职业的五倍。他们不会像我们今天所知道的那样与他们所知道的软件开发人员工作相同，但是有更多理由承认破坏和倾向于适应，而不是绝望。“    &#39;开发人员很少提到“节省时间”是与代理商以这种新方式工作的核心好处。他们全都是要增加野心。“  “当您从考虑减少努力到扩大范围的思考时，最先进的代理能力才能做到。     ＆quord“从现实的乐观角度来看，从AI中的AI中的兴起，在软件开发中的兴起，对计算机科学教育的需求依赖于   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/zgeekie     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mkan8e/ai_will_reinvent_developers_not_replace_them_says/</guid>
+      <pubDate>Thu, 07 Aug 2025 20:11:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>前端框架如何处理DOM绑定？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mk9tuc/how_do_frontend_frameworks_handle_dom_bindings/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   js提供了一个非常令人信服的API，可以观察属性（mutationObserver），从而使DOM-to-JS属性属性易于创建。您还可以使用访问者属性来创建JS-DOM属性绑定。 ，但属性 bindings真的有用吗？答案是否定的，因为并非所有内容实际上都是由属性处理的。最著名的示例是表单输入：它们具有 value 属性，该属性反映了用户当前在UI文本/号码/任何条目中看到的内容。要注意输入，您需要输入事件。但是字符串输入看起来与 value 看起来不太相似。现在鲜为人知的属性呢？有一些属性，例如 clientwidth / clientheight 需要观看resizeObserver。它甚至不是一个事件，那么JS应该如何知道该怎么做？ 在对所有可能的DOM-JS属性绑定进行硬编码时，这并不是一个正式的解决方案：随着时间的推移，网络会随着时间的流逝而变化，例如，如果项目不受限制，那么它可能会比它更快地渗透。因此，我的问题是：大型框架如何处理双向和DOM-js绑定？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/gulgplayer     [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mk9tuc/how_do_frontend_frameworks_handle_dom_bindings/</guid>
+      <pubDate>Thu, 07 Aug 2025 19:39:49 GMT</pubDate>
+    </item>
     <item>
       <title>可以从旧版本的jQuery更新中引起现有功能的问题吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1mk77o5/can_updating_from_an_old_old_version_of_jquery/</link>
@@ -55,13 +83,6 @@
       <pubDate>Thu, 07 Aug 2025 16:08:28 GMT</pubDate>
     </item>
     <item>
-      <title>🚀[招聘]员工 /主要前端工程师 - （远程，美国或田纳西州纳什维尔的混合动力）（$ 170-250K /可谈判）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mk41e5/hiring_staff_principal_frontend_engineer_remote/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;    360隐私保护高知名人士，高管和组织的数字生活。我们正在雇用员工或主要前端工程师，以帮助领导和扩展我们的Web应用程序和内部工具。 您将与一个小型前端高级工程师和实习生团队一起工作，并拥有对建筑，UI质量和工程最佳实践的所有权。 You’ll also be encouraged to leverage AI tools like Claude and Cursor to boost development speed and polish. 🛠️ What You’ll Do  Lead architecture and development of performant, secure, and elegant front-end systems using React and TypeScript Set frontend engineering standards and mentor a team of senior engineers and interns Collaborate across产品，后端和运营运输直觉UI的功率隐私和智力工作流程 使用AI工具（例如Claude，Cursor）加速原型，开发和界面质量           &lt;强度，您可能会在 在反应，打字和现代前端工具方面的专业知识（组件库，SSR，CI/CD管道） 在建筑和指导方面已证明了领导才能 强大的产品思维和对UX的详细信息              位置＆amp;资格   🏠远程，基于美国的 🇺🇸🇺🇸仅由于数据敏感性和隐私限制                &lt;&gt;  $ 250,000    $ 250,000  公平 +全部好处（健康，PTO等）    🎁为什么加入我们    影响：构建直接保护高风险数字环境中的真实人的软件  和快速移动的团队   📩如何应用   👉您的简历，github或投资组合。  加入我们，构建保护重要物品的软件。 🛡️   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1mk41e5/hiring_staff_staff_princal_frontend_engineer_remote/”&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mk41e5/hiring_staff_principal_frontend_engineer_remote/</guid>
-      <pubDate>Thu, 07 Aug 2025 16:02:18 GMT</pubDate>
-    </item>
-    <item>
       <title>我应该选择用于网络，移动（和API）的monorepo吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1mk3xum/should_i_go_with_a_monorepo_for_web_mobile_and_api/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿， 我正在研究一个新项目，并试图找出最佳的回购结构。这是我计划的内容： - 使用React + Tanstack路由器的Web应用 - 使用React Anative的移动应用程序（与Web共享尽可能多的逻辑） - 使用Fastify  后端API  我将在Web和Mobile中使用相同的API。我还想重复使用身份验证逻辑（使用BetterAuth），共享API请求功能。 ，所以我的问题是：1。我应该使用monorePo用于Web和移动应用吗？还是将它们放在单独的存储库中更好？ 2。API（快速后端）也应该生活在同一Monorepo中，还是应该分开？ 3。当React和React本机之间共享逻辑（例如API客户端或AUTH模块）时，我应该注意任何缺点或边缘案例吗？ 很想听听其他人如何接近这种设置。预先感谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1mk3xum/should_go_go_go_with_with_with_with_monorepo_for_web_mobile_and_api/”&gt; [links]       [注释]     ]]></description>
@@ -83,32 +104,11 @@
       <pubDate>Thu, 07 Aug 2025 15:29:11 GMT</pubDate>
     </item>
     <item>
-      <title>如何切换网站服务器？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mk2ddk/how_to_switch_website_servers/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  你好！我正在寻找有关如何将我的网站切换到另一台不同且价格较低的服务器的建议？我从GoDaddy开始，甚至还没有制作该网站 - 但我不想失去该领域。 GD刚刚以166美元的价格续签了它，这是很多事情，因为我什至没有做任何事情！ 我什至可以将其切换为更便宜的选择吗？如果是这样，有什么好建议吗？还是有一种方法可以保留域，但要以更便宜的价格停下来？ 预先感谢您！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/darcyreyne     [link]    32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mk2ddk/how_to_switch_website_servers/</guid>
-      <pubDate>Thu, 07 Aug 2025 14:59:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>为ITAR受监管（和类似）的客户构建工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mk28iy/building_a_tool_for_customers_that_are_itar/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  你好！  我和一个好友建立了一个网络工具，该工具针对的是帮助解决努力（WARE）技术问题的工程师。  我们意识到，对于许多目标用户来说，我们从未处理过的Gov数据合规性（即，在AWS Gov和类似的符合条件下的服务上建立） 在我们深入研究之前，我想看看是否有智慧，我们可以从任何人那里借鉴这种常见的人。   1）下面的高级迁移计划是否有意义  2）我是在最好的地方问这个问题，还是我应该去其他地方  3）是否会限制其他国家（例如欧盟）采用类似用户的能力。  感谢提前！  •用AWS GovCloud-Native服务（Lambda，dynamoDB）替换凸后端•迁移数据存储从convex到DynamoDB和S3•重建身份验证（例如，重建身份验证）交换CloudFront + S3或ECS的Vercel（前端托管）•从条纹转移到政府或合规的计费工具•用Gov-Commiant可观察性替换Sentry（例如Datadog Gov或CloudWatch）        &lt;！提交由＆＃32; /u/u/be_your_best_today      [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mk28iy/building_a_tool_for_customers_that_are_itar/</guid>
-      <pubDate>Thu, 07 Aug 2025 14:54:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人知道如何使用JavaScript构建像Brave这样的机器人过滤器吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mk22as/does_anyone_know_how_to_build_a_bot_filter_like/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我很好奇如何像勇敢一样创建一个。这与recaptcha或cloudflare使用的不同，并且在移动设备上运行良好。 这是我从勇敢的社区中获得的屏幕截图。  ref：https://community.brave.com/t/confirm-youre-not-a-robot-pops-up-for-every-search-result/363519  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/dikiprawisuda     &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mk22as/does_anyone_know_how_to_build_a_a_bot_bot_filter_filter_like/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mk22as/does_anyone_know_how_to_build_a_bot_filter_like/</guid>
-      <pubDate>Thu, 07 Aug 2025 14:47:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何操纵在铁路上托管的MySQL数据库？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mk1zpa/how_to_manipulate_mysql_database_hosted_on_railway/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  对不起，如果这是一个愚蠢的问题，我仍然习惯铁路的运作方式。 我有一个在铁路上托管的MySQL数据库，但是我很难找到操纵它的方法。我所能看到的只是添加/删除表并添加列的选项。 是否有一种方法可以使用终端与本地MySQL数据库相同的方式与数据库进行交互？   &lt;！ -  sc_on- sc_on-&gt;＆＃32;提交由＆＃32; /u/u/culturaljellyfish682     [links]   &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mk1zpa/how_to_to_to_to_manipulate_mysql_database_hosted_on_railway/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mk1zpa/how_to_manipulate_mysql_database_hosted_on_railway/</guid>
-      <pubDate>Thu, 07 Aug 2025 14:44:39 GMT</pubDate>
+      <title>定价建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mjf7ro/pricing_advice/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，我有一个潜在的客户端，他想要一个与，包括CMS，自定义样式，页面，以及潜在的博客和产品部分。 我正在考虑使用 wagtail + tailwind + tailwind + django plates 我可以用自定义的pps  ，我可以使用自定义  What would be a fair quote including a blog section? What would be a fair quote without the blog section?  Any insight from people with experience quoting similar custom projects would be really helpful.另外，我来自一个东欧国家，因此定价应低于平均水平（？）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/FakeBlueJoker   [link] ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mjf7ro/pricing_advice/</guid>
+      <pubDate>Wed, 06 Aug 2025 20:08:44 GMT</pubDate>
     </item>
     </channel>
 </rss>

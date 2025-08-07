@@ -4,13 +4,13 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Thu, 07 Aug 2025 18:27:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Aug 2025 21:16:42 GMT</lastBuildDate>
     <item>
-      <title>我在广泛使用的统一数据集合存储库中发现了一个错误，并增加了重大改进。我应该分叉更改或创建新的回购并给予积分吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mk7tkj/i_found_a_bug_in_a_widelyused_unity/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   hi redditors， 我从没想到这是我的第一个reddit post haha。我真的在这里遇到了困境。  tldr：如果我分叉，我觉得我的主要贡献将没有信用，我也觉得自己贪婪，如果我创建自己的仓库，我的实验室可能会使我不喜欢我。我该怎么办..  我是一个研究实验室的博士生，该研究实验室生产了GitHub repo（我们称其为 repo a ），从设备中收集数据内部的统一性。该仓库已在许多研究论文中使用。 该回购中的代码是根据官方设备生产商的示例脚本编写的（ repo示例）。但是，该示例代码是为控制台构建编写的，因此将代码复制为 repo a 结果是错误的，从而导致采样率下降，例如收集数据时的100倍。而且，根据官方文件，对于研究而言，这似乎不是一件好事……绝对隐藏了这个错误，因为除非您分析包装之间的时间段，否则您永远不会找到数据，因为数据仍然可以收集到的好处，也许不是因为它每几个帧重复了每几个帧，但我宁愿不知道该错误是。 B 来自收集不同数据的同一生产商。我最初最初依赖 repo ，并且永远无法让我的设备B工作数周之久，只有在意识到此存储库可能是错误的情况下，我决定潜入官方的控制台代码文档中...我周围的每个研究人员都不会使用它来收集数据不正确...但是，是的，是的，是的，我的工作习惯了，我的工作是一个愚蠢的官方，并且一定要努力，这是一个愚蠢的官方构想，并且一定的官方构成了一项愚蠢的工作，并且一定的工作是一定的。关于团结。我为研究人员添加了一大堆用户友好的UI，甚至添加了设备生产商的优质功能。想到这一点，该死的，我简直不敢相信我做到了。 现在我面临困境，我应该分叉回购，让原始作者本质上要求一切赞成荣誉吗？还是我应该创建一个新的回购并在一行中确认原始作者？原始回购确实提到，请引用回购以确认作者。 我努力决定的原因是因为我提供了一个适用于设备A和B的接口。这些设备用于不同的角色，因此可以在研究中使用。它们可以一起使用。由于研究中的引用有多有意义，所以我对仓库的分配并不是“正确的”，从本质上讲，让原始作者得到所有未来的引用……也许我是自私/贪婪的？我在描述中应该说什么...？说“此存储库改进了数据收集故障的回购A，并将设备B添加到大量实用程序中“”？我不知道这是否是“正确的”，并且会使我的实验室中的人们最初创建repo a恨我。 感谢您到目前为止的阅读。我很想听听您的想法。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/pxtien     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mk7tkj/i_found_a_bug_in_a_widelyused_unity/</guid>
-      <pubDate>Thu, 07 Aug 2025 18:23:30 GMT</pubDate>
+      <title>帮助版权和AGPLV3</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mkcc0q/help_with_copyright_and_agplv3/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   hello！ 我最近一直在MIT许可证转换为AGPLV3许可证。但是，我注意到AGPLV3没有MIT许可证的名字/版权年。  在我的项目中，我在哪里发表版权通知？在每个python文件中还是主要文件？谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/starchystarky     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mkcc0q/help_with_copyright_and_agplv3/</guid>
+      <pubDate>Thu, 07 Aug 2025 21:16:04 GMT</pubDate>
     </item>
     <item>
       <title>C ++中的简单NBP（波兰国家银行）API包装器</title>
