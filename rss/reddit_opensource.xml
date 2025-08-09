@@ -4,7 +4,28 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Sat, 09 Aug 2025 18:24:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 21:18:57 GMT</lastBuildDate>
+    <item>
+      <title>我构建了运行时：基于技能的浏览器自动化，它使用的令牌较少</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mm0bsy/i_have_built_runtime_skillsbased_browser/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，我是tito。我正在启动运行时 - 一种桌面工具，可以使用较小的可重复使用技能而不是大型，脆弱的提示来自动化您现有的浏览器。 为什么我要构建它？ 我为自己的作品使用浏览器自动化，但是它变得很慢，但是它使该页面的巨大块向模型推向了型号。我还看到了诸如浏览器使用的代理系统，这些系统试图流式传输Live DOM/处理器并“猜测”下一次点击。看起来很酷，但是感觉很沉重。这三个人都说：“我想教我的浏览器，或者只是向它解释如何完成我的任务。”另外：“请不要让我切换浏览器 - 我已经有了我的扩展名，主题和设置。”这就是运行时的来源：保持浏览器，保持控制，使自动化可预测 运行时可以在聊天中执行任务（我愿意挑战用户与运行时交谈的体验），然后运行一个由技能制成的简短计划。技能是一组功能：它具有输入和预期输出。例如：“搜索站点”，“打开结果”，“提取产品字段”，“单击一个按钮”，“提交表格”。因为计划使用技能（不是整个页面），所以提示保持很小，过程保持确定性和快速。 链接   readme： https://github.com/runtime-org/runtime-runtime/blob/main/main/main/readme.md，md-md-md-md  href =“ https://github.com/runtime-org/runtime/blob/main/skills.md”&gt; https://github.com/runtime-org/runtime-org/runtime/blob/main/main/skills.mds.mds.mdskills.md  勇敢的）。没有新的浏览器要安装。  按设计确定性。技能是明确的和打字的；跑步是可审核的。  低令牌使用。我们通过紧凑的动作，而不是完整的DOM。最重要的是，我们根本不拍摄屏幕截图。我们认为，如果我们使用选择器进行导航，则屏幕截图是没有用的。  在循环的人类。您可以随时关注步骤并停止/重试。  是谁？ 在网上进行研究/OPS的人：拉结构化信息，文件表格，文件表格，在工具之间移动数据或在不编写完整的RPA脚本的情况下运行可重复的流量，或者不使用任何API。这只是“运行时运行时运行”  尝试第一个（5-10分钟）  克隆回购并关注读书中的QuickStart。  运行样本流：搜索→打开→提取字段。  阅读“ skills.md”，然后为您每天使用的网站做一个小技能。  尚不完美的 网站会改变。技能也会改变，但我们将发布有关解决此问题的信息。 我很想听听它破裂的位置。 我要求的反馈：  技能格式清楚吗？声明性，这有帮助吗？  计划者在哪里超出指定步骤？  我们应该首先运送哪些网站？  很乐意回答评论中的所有内容，并希望拆除。谢谢！  tito   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/tihiera     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mm0bsy/i_have_built_runtime_skillsbased_browser/</guid>
+      <pubDate>Sat, 09 Aug 2025 21:07:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>通用发行工具</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mlzqf3/generic_distro_toolk1t/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在共享通用的发行工具，这是一个教育工具包，旨在帮助您在LFS（从scratch）项目之后构建GNU/Linux分布。   该工具为提供 strong  strong  strong&gt; strong&gt; strong&gt;逐步。一切都是使用 Ansible 完全自动化的，因此您可以专注于学习和自定义自己的发行版，而无需迷失手动任务。 该项目是开源的，并积极地维护了 - 我很想听听您的反馈，想法或贡献！可以随意在Github上进行检查： href =“ https://github.com/lucky-sideburn/generic-distro--toolk1t”&gt; https://github.com/lucky-sideburn/generic-sideburn/generic-distro-toolk1t 提交由＆＃32; /u/u/uckysideburn2     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mlzqf3/generic_distro_toolk1t/</guid>
+      <pubDate>Sat, 09 Aug 2025 20:42:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Debian 13“ Trixie”发行</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mlx629/debian_13_trixie_released/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32;  /u/ssddanbrown   [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mlx629/debian_13_trixie_released/</guid>
+      <pubDate>Sat, 09 Aug 2025 18:54:43 GMT</pubDate>
+    </item>
     <item>
       <title>Q Flow Workflow和代理自动化</title>
       <link>https://www.reddit.com/r/opensource/comments/1mlvomz/qflow_workflow_and_agent_automation/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，伙计们！我很高兴分享，我们在Coplay的团队购买了最受欢迎的Open -Source Unity MCP存储库，我们现在是官方的维护者。原始的创作者贾斯汀正在加入我们，以便我们可以一起建造更大的东西。 为什么这么重要？对于像我们这样的游戏开发人员，构建和测试游戏可能会很痛苦（“添加多人游戏……”。我们的目标是消除摩擦，并帮助任何人创建想法，原型和分发史诗般的游戏。自从我们开始使用仓库以来，每周的功能完成为我们的用户从750增加到3,000 。 我们希望这是社区驱动的。 您想看到什么功能？我们在这里倾听并贡献。随时向我们询问有关收购，路线图或维护开放式项目的挑战。 如果您想阅读更多信息，这是完整的故事：” https://www.pocketgamer.biz/coplay-takes-takes-over-unity-mcp-as-it-raches-key-milestones-with-public-beta-launch/    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/msanatan     [link]   [注释]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ml95b0/we_just_acquired_a_popular_opensource_unity_tool/</guid>
       <pubDate>Fri, 08 Aug 2025 22:32:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>MEMU：让AI真正记住您</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ml1qgr/memu_let_ai_truly_memorize_you/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   github： https://github.com/nevamind-ai/meme/memu/memu        memu为我提供了智能的记忆层。它将内存视为层次文件系统：一个可以随着时间的推移而自动编写，连接，修订和优先级的条目的一个。 MEMU的核心是专用的内存代理。它接收对话输入，文档，用户行为和多模式上下文，转换结构化的内存文件并更新现有内存文件。 使用memu，您可以构建真正记住您的AI伴侣。他们了解您是谁，您关心的事物，并通过每一次互动。基准 ·最高 90％的成本降低  - 通过优化的在线平台 ·先进的检索策略 - 多种方法，包括语义搜索，搜索，混合搜索，上下文检索     ·24/7 24/7支持企业客户自主内存管理 您的内存是由内存代理管理的智能文件夹的结构。我们没有为记忆做明确的建模。内存代理会自动确定要记录，修改或存档的内容。可以将其视为拥有一个私人图书馆员，他确切地知道如何组织您的想法。 ·链接 - 互连知识图 记忆并不孤立地存在。我们的系统会自动在相关记忆之间建立有意义的联系，建立丰富的超链接文档网络，并将内存发现从搜索转变为毫不费力的回忆。 ·进化 - 连续的自我改进 即使离线，您的内存代理也可以继续工作。它通过分析现有记忆，标识模式并通过自我反射创建摘要文档来产生新的见解。随着时间的流逝，您的知识库变得更加聪明，不仅更大。最近，访问的记忆仍然很容易获得，而相关内容则被剥夺或遗忘。这创建了一个个性化信息层次结构，该信息层次结构随您的需求而发展。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/ok_pass_2818      [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ml1qgr/memu_let_ai_truly_memorize_you/</guid>
-      <pubDate>Fri, 08 Aug 2025 17:38:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发人员友好，开源GDPR合规性API</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mkw8zj/developerfriendly_opensource_gdpr_compliance_api/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我已经使用.NET 8和MongoDB构建了一个完全开源的GDPR合规性API和MongoDB，该API和MongoDB是为想要处理GDPR的简单，安全和生产方法的开发人员而设计的。 管理数据主题请求，用户和审核登录而无需头痛。它是可扩展的，对开发人员的友好且对社区免费的。的贡献，反馈和想法总是欢迎！&lt; /p&gt; 如果有人有兴趣，想贡献或使用它，这是链接： https://github.com/heybaldur/gdprapi-open 提交由＆＃32; /u/heybaldur     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mkw8zj/developerfriendly_opensource_gdpr_compliance_api/</guid>
-      <pubDate>Fri, 08 Aug 2025 14:09:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>除了自我促销，您在哪里找到了很棒的开源项目？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mkrfzv/self_promo_aside_where_do_you_find_great_open/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  这可能是一个愚蠢的问题，但我想看看您的意见。当您实际上正在寻找一个开源项目以利用或贡献的开源项目时，您会在哪里看？问你的朋友？只是谷歌搜索：“开源 *用例” Github上的流行内容？  趋势技术如何变得如此流行？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/subnetliz     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mkrfzv/self_promo_aside_where_do_you_find_great_open/</guid>
-      <pubDate>Fri, 08 Aug 2025 10:19:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
