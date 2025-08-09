@@ -4,13 +4,27 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Sat, 09 Aug 2025 01:16:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 Aug 2025 03:50:22 GMT</lastBuildDate>
     <item>
-      <title>我学到的氛围编码是Faang工程师（以及为什么AI可以成为一个混乱的队友）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mlasvv/what_i_learned_vibe_coding_as_a_faang_engineer/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  在我的日常工作中，一切都计划，审查和构建以进行扩展。几个月前，我决定把它扔到窗户上，只是为了有趣的趣味。 我在大多数情况下都依靠AI，几个模式脱颖而出：   •对于第一张通行证来说，这是很棒的，它会立即使您80％。但是，它仍然需要努力来审查和修复其生成的代码•如果在第一对夫妇的尝试中错过了，它就会开始自信地弥补。 •修复错误时，它喜欢添加代码而不是删除或重构 - 适合于生产可怕的玩具。   这个小弯路的结果是一个网站，可以对您喜欢的任何东西进行填字游戏（ https://crossable.dev ）。这不是练习的重点，但分享非常有趣。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/Intelligentpin1428     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mlasvv/what_i_learned_vibe_coding_as_a_faang_engineer/</guid>
-      <pubDate>Fri, 08 Aug 2025 23:45:51 GMT</pubDate>
+      <title>我（不）为这个分数感到骄傲！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mldh18/im_so_not_proud_of_this_score/</link>
+      <description><![CDATA[        &lt;！ -  sc_off-&gt;  我创建的游戏改装和游戏工具的投资组合。表演真的那么糟糕吗？  https://moxopixel.com    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/bobemil       [注释]    ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mldh18/im_so_not_proud_of_this_score/</guid>
+      <pubDate>Sat, 09 Aug 2025 01:52:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>带有凭证请求的CORS限制</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mldgd0/cors_restrictions_with_credentialed_requests/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  在 cors指南中，它说：  per&gt; pred&gt; pred&gt; pred&gt; prients 不指定*  access-control-allow-oligin 响应头值的通配符，但必须指定明确的原点； for example: Access-Control-Allow-Origin: https://example.com The server must not specify the * wildcard for the Access-Control-Allow-Headers response-header值，但必须指定标题名称的明确列表； for example, Access-Control-Allow-Headers: X-PINGOTHER, Content-Type The server must not specify the * wildcard for the Access-Control-Allow-Methods response-header value, but must instead specify an explicit list of method names; for example, Access-Control-Allow-Methods: POST, GET The server must not specify the * wildcard for the Access-Control-Expose-Headers response-header value, but must instead specify an explicit list of header names;例如，访问控制 -  expose-header：内容编码，kuma-revision     为什么这样的设计是这样设计的？提交由＆＃32; /u/u/david_fire_vollie     [link]        [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mldgd0/cors_restrictions_with_credentialed_requests/</guid>
+      <pubDate>Sat, 09 Aug 2025 01:51:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>重建我的整个个人网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mld4hc/remade_my_whole_personal_website/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  光标是一个随机打开网站的人。您可以看到其他人游标。 ，Reddit状态也是实时不符合的状态。是WebM（设置为NSFW BC不确定，如果不是，请编辑）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/justlilneko       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mld4hc/remade_my_whole_personal_website/</guid>
+      <pubDate>Sat, 09 Aug 2025 01:35:25 GMT</pubDate>
     </item>
     <item>
       <title>在自托管React网站上进行本地化的提示</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我以前从未在任何地方看到任何安静的东西。因此，我不确定这是有史以来常见的，最天才的事情。 我们必须集成客户的API请求。而且我的高级人士获得了创建一个UI设置页面的好主意，用户（管理员级别）可以将其放入其中的任何参数。这个想法是，我将获取从数据库中设置的任何用户，并将字典作为请求参数发送到API并处理结果。当API更新时。我们不需要部署任何东西，只需进行管理级别设置并调整它即可。他在第一页上使用此的原因是因为这组API基本上每年都会更新版本。老年人希望很快再次进行更新，因此他使用了这个解决方案。 我的意思是，我可以看到它会有多方便。从技术上讲，字典已经是JSON请求。但是，我知道最明显的事情之一就是开发人员UX。没有对象，没有Intellisense，没有类型。我们从数据库中获取参数，并将其发送为IS。想分配某些值吗？进行比赛或其他事情。如果将来，我们的客户决定变得有趣并更改一些端点呢？    当然，我不知道这对那里的任何人都是普遍的做法，所以我会赞赏一些或反馈有关如何介绍一些类型安全能力的反馈。现在，我正在考虑做“ dict [enum.type] = value`对某些理智检查。安全风险呢？谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1ml3jwx/users_ui_setting_setting_setup_setup_api_api_parameter_is_it/”&gt; [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ml3jwx/users_ui_setting_to_setup_api_parameter_is_it/</guid>
       <pubDate>Fri, 08 Aug 2025 18:47:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>[US] [EU]寻找有兴趣加入小型团队进行附带项目的React开发人员</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ml39r0/useu_looking_for_react_developer_interested_in/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  你好！ 我是一个后端开发人员，喜欢与我9-5以外的其他人合作，并且想与对前端开发充满热情的人建立联系，并且很想一起做小型的侧面项目。开发）。 如果有兴趣，请随时在这里回复或DM我！我是我们的，并寻求一个基于我们或欧盟的人。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/visual_box_5136     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ml39r0/useu_looking_for_react_developer_interested_in/</guid>
-      <pubDate>Fri, 08 Aug 2025 18:37:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>熟练却没有演出，您是如何突破的？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ml3074/skilled_yet_gigless_how_did_you_break_through/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   hola folks， 我一直在花时间，学习和建立自己不间断，但无法降落演出。 这是我带上的桌子：1。我熟悉前端＆amp＆amp＆amp＆amp;后端Web开发（HTML，CSS，JS，Python等）2。对API和DBMS舒适。 3. Recently started shifting focus to software development with DSA in python 4. Can also handle logo design, basic graphic work, editing, and content writing etc. I’ve worked on several personal projects, made portfolios, have applied on Upwork, Freelancer, Fiverr, even tried Discord servers, cold emails, etc. Still feels like I’m stuck in a fog, cause I genuinely accomplished shit by making cold email composing, dms，叫blah blah.aur ab chutiya rha kyuki ghanta kuch nahi milra，并没有关于如何获得演出的想法。  我只需要从我所在的地方那里得到的一些真正的建议:) 1。什么是对您有用的一件事？ 2。我应该放下或炫耀自己的多功能性吗？ 3。我如何真正吸引真正的客户？  如果有人愿意批评我的投资组合，我将非常感谢。我不是放弃，但只想在黑暗中更聪明地工作，停止射门。 任何帮助将不胜感激。 🙏  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/farhaan_07468     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ml3074/skilled_yet_gigless_how_did_you_break_through/</guid>
-      <pubDate>Fri, 08 Aug 2025 18:26:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
