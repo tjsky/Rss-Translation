@@ -4,11 +4,46 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 10 Aug 2025 18:22:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 21:15:41 GMT</lastBuildDate>
+    <item>
+      <title>雇用移动开发人员以及我们如何减轻他们的隐藏风险</title>
+      <link>https://www.reddit.com/r/programming/comments/1mmu1yi/hidden_risks_in_hiring_mobile_developers_and_how/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我们多年来雇用了许多移动开发人员。有些是摇滚明星，有些是纸上看起来很棒，但在生产中表现不佳。 困难的部分？大多数访谈并未透露某人如何处理现实世界的移动问题。 我们开始使用预审查服务（Dalent Sidekick），在我们甚至与候选人会面之前进行代码评论和技术访谈。它已经从一些不好的员工中救出了我们。在签订合同之前，您如何审查移动开发人员？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/deathKingtom      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mmu1yi/hidden_risks_in_hiring_mobile_developers_and_how/</guid>
+      <pubDate>Sun, 10 Aug 2025 21:02:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zig的可爱语法</title>
+      <link>https://www.reddit.com/r/programming/comments/1mmtcfv/zigs_lovely_syntax/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/steveklabnik1     [link]  ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mmtcfv/zigs_lovely_syntax/</guid>
+      <pubDate>Sun, 10 Aug 2025 20:34:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何提出对代码库的有影响力的改进并拥有实施</title>
+      <link>https://www.reddit.com/r/programming/comments/1mmrk79/how_to_propose_an_impactful_improvement_to_the/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/gregorojstersek      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mmrk79/how_to_propose_an_impactful_improvement_to_the/</guid>
+      <pubDate>Sun, 10 Aug 2025 19:24:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>从害羞的工程师到甲骨文的导演，以及熟练的沟通者</title>
+      <link>https://www.reddit.com/r/programming/comments/1mmrjmd/from_shy_engineer_to_director_at_oracle_and_a/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/u/gregorojstersek       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mmrjmd/from_shy_engineer_to_director_at_oracle_and_a/</guid>
+      <pubDate>Sun, 10 Aug 2025 19:24:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>偷偷摸摸地提交</title>
+      <link>https://www.reddit.com/r/programming/comments/1mmq9en/sneaky_git_commits/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/tavianator      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mmq9en/sneaky_git_commits/</guid>
+      <pubDate>Sun, 10 Aug 2025 18:35:30 GMT</pubDate>
+    </item>
     <item>
       <title>大规模负载平衡：隐藏的挑战和经验教训</title>
       <link>https://www.reddit.com/r/programming/comments/1mmo3d0/load_balancing_at_scale_hidden_challenges_and/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  负载平衡似乎很简单，直到您在动态环境中以大规模运行。 在大型系统中，无论是Kubernetes，Cansure Erchingeration，还是传统的服务部署，上游服务器都在不断变化。 Workloads vary in complexity, requests can be uneven, and simple algorithms like round-robin often break down. This post looks at the real-world issues that show up in production: • Traffic imbalance during host rotation • Cold-start spikes when new instances join • How different algorithms (least connections, power-of-two-choices, consistent hashing) behave under stress • The impact of proxy architecture （Envoy vs Haproxy）关于负载分配精度 它是基于从高流量环境中的操作反向代理中学到的经验教训，以及公平，效率和弹性之间的权衡。  href =“ https://startwithawhy.com/reverseproxy/2025/08/08/reverseproxy-deep-dive-part-part4.html?utm_source = reddit＆utm_medium = post = post 2 post 2 post 2 post 2 post 2 post 2 post 2 post 2 post 2 post 2 post 2 post＆amp； “&gt; https://startwithawhy.com/reverseproxy/2025/08/08/reverseproxy-deep-dive-part4.html?utm_source = reddit＆utm_medium = post＆utm_medium = post＆umtm_camp; utm_campeign=r_campeign=r_programmoggrogment   很好奇听到他人如何在自己的系统中解决这些挑战。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/miggyishu      [注释]   ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  负载平衡似乎很简单，直到您在动态环境中以大规模运行。 在大型系统中，无论是Kubernetes，Cansure Erchingeration，还是传统的服务部署，上游服务器都在不断变化。 Workloads vary in complexity, requests can be uneven, and simple algorithms like round-robin often break down. This post looks at the real-world issues that show up in production: • Traffic imbalance during host rotation • Cold-start spikes when new instances join • How different algorithms (least connections, power-of-two-choices, consistent hashing) behave under stress • The impact of proxy architecture （Envoy vs Haproxy）关于负载分配精度 它是基于从高流量环境中的操作反向代理中学到的经验教训，以及公平，效率和弹性之间的权衡。  href =“ https://startwithawhy.com/reverseproxy/2025/08/08/reverseproxy-deep-deep-dive-part4.html”&gt; https://startwithhy.com/reverseproxy/2025/2025/08/08/08/08/08/reverseproxy-deep-deep-dive-part4.hhh.hhh.hhhh.hhhhh.hhhhhhh.hhhhhhhhhh.hhhhhhhh pret 要听到他人如何在自己的系统中解决这些挑战。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/miggyishu      [注释]   ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mmo3d0/load_balancing_at_scale_hidden_challenges_and/</guid>
       <pubDate>Sun, 10 Aug 2025 17:12:01 GMT</pubDate>
     </item>
@@ -74,41 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;   嘿大家！  我刚刚发布了一份简单线性回归的初学者友好指南，我涵盖了我所涵盖的：      理解回归vs分类 li&gt; fir&gt; line li&gt; li li li li li  li  一个带有代码，视觉效果和预测的动手Python项目  它是为刚开始在ML中启动的任何人设计的，而他们想通过构建而不会学习 -     。 如果您有机会阅读它，我会喜欢您的反馈，upvote，如果您觉得很有用，我会喜欢它。您的支持将帮助更多的初学者发现！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/motor_cry_4380       [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mmjgrw/wrote_a_beginnerfriendly_linear_regression/</guid>
       <pubDate>Sun, 10 Aug 2025 14:06:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>软件现代化项目难题：三思而后行 - 焦点是说没有</title>
-      <link>https://www.reddit.com/r/programming/comments/1mmh9ze/software_modernization_projects_dilemma_think/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://medium.com/@hobokendays/software-modernization-projects-dilemma-part-part-2-7f6002c4b6f1”&gt; [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mmh9ze/software_modernization_projects_dilemma_think/</guid>
-      <pubDate>Sun, 10 Aug 2025 12:27:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>功能颜色代表不同的执行上下文</title>
-      <link>https://www.reddit.com/r/programming/comments/1mmfakw/function_colors_represent_different_execution/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/shadowys     ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mmfakw/function_colors_represent_different_execution/</guid>
-      <pubDate>Sun, 10 Aug 2025 10:38:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>☝️撰写像高级工程师一样的验尸</title>
-      <link>https://www.reddit.com/r/programming/comments/1mmb7br/write_a_postmortem_like_a_senior_engineer/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;  /u/strategizeyourcareer   [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mmb7br/write_a_postmortem_like_a_senior_engineer/</guid>
-      <pubDate>Sun, 10 Aug 2025 06:17:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>[P]我通过编码含义而不是数据完成了5000：1的压缩</title>
-      <link>https://www.reddit.com/r/programming/comments/1mm6t2s/p_i_accomplished_50001_compression_by_encoding/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我找到了一种压缩含义（不是数据）的方法，即AI系统可以以不可能的比率进行解压缩。 传统压缩：10：1最大值（Shannon&#39;s Entropoy ottopy Limit）（Shannon&#39;s Entropoy limit）语义压缩：5000：1 per（17,500：1 p&gt;） href =“ https://docs.google.com/document/d/1xcbmxiu1rrsrsrsrsrsrsr0itw-ju85b_lyxkvk4ju6r0aekovti8/edit?usp = drive_link”将其参与完整的实现，因为他们理解含义，而不仅仅是数据模式。 乐于回答问题或在评论中提供更多示例。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/barphite       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mm6t2s/p_i_accomplished_50001_compression_by_encoding/</guid>
-      <pubDate>Sun, 10 Aug 2025 02:14:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>Java 25 RC1现在可用</title>
-      <link>https://www.reddit.com/r/programming/comments/1mm4hid/java_25_rc1_builds_now_available/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/bluegoliath      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mm4hid/java_25_rc1_builds_now_available/</guid>
-      <pubDate>Sun, 10 Aug 2025 00:18:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
