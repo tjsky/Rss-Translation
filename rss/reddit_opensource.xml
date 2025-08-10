@@ -4,20 +4,27 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Sat, 09 Aug 2025 21:18:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 01:28:36 GMT</lastBuildDate>
+    <item>
+      <title>Sonatype从获得许可的Eclipse公共许可转移到了关闭的来源和专有权中，在3.76的发行版中从3.76发行到3.77</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mm5oje/sonatype_moved_from_the_eclipse_public_licensed/</link>
+      <description><![CDATA[        ＆＃32;提交由＆＃32; /u/sumdog     [link]   [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mm5oje/sonatype_moved_from_the_eclipse_public_licensed/</guid>
+      <pubDate>Sun, 10 Aug 2025 01:18:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>您想要在开源学习应用中哪些功能？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mm2roi/what_features_would_you_want_in_an_open_source/</link>
+      <description><![CDATA[Hey r/opensource, I’ve been working on a project called Mnemo for 2 years now, a free and open source study app aimed at making learning tools accessible to everyone.该编程始于两个星期前（尚未下载），但是网站上有详细信息，UI展示和背后的理念：  基本学习工具没有昂贵的订阅 完全开源＆amp;可自定义 默认情况下，您的数据与您保持联系 由学习者而不是公司优先级指导的功能  我很喜欢您的想法：  这是有用的吗？ 您发现其他工具缺少的任何特定内容？  这并不意味着作为促销，更像是一项理智检查，然后才深入研究编码。我真的希望从重视开源原理的人那里得到反馈。 感谢您阅读！       &lt;！&lt;！ -  sc_on-&gt;&gt; &lt;！提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1mm2roi/what_features_would_you_want_want_in_an_open_open_source/”&gt; [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mm2roi/what_features_would_you_want_in_an_open_source/</guid>
+      <pubDate>Sat, 09 Aug 2025 22:56:25 GMT</pubDate>
+    </item>
     <item>
       <title>我构建了运行时：基于技能的浏览器自动化，它使用的令牌较少</title>
       <link>https://www.reddit.com/r/opensource/comments/1mm0bsy/i_have_built_runtime_skillsbased_browser/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，我是tito。我正在启动运行时 - 一种桌面工具，可以使用较小的可重复使用技能而不是大型，脆弱的提示来自动化您现有的浏览器。 为什么我要构建它？ 我为自己的作品使用浏览器自动化，但是它变得很慢，但是它使该页面的巨大块向模型推向了型号。我还看到了诸如浏览器使用的代理系统，这些系统试图流式传输Live DOM/处理器并“猜测”下一次点击。看起来很酷，但是感觉很沉重。这三个人都说：“我想教我的浏览器，或者只是向它解释如何完成我的任务。”另外：“请不要让我切换浏览器 - 我已经有了我的扩展名，主题和设置。”这就是运行时的来源：保持浏览器，保持控制，使自动化可预测 运行时可以在聊天中执行任务（我愿意挑战用户与运行时交谈的体验），然后运行一个由技能制成的简短计划。技能是一组功能：它具有输入和预期输出。例如：“搜索站点”，“打开结果”，“提取产品字段”，“单击一个按钮”，“提交表格”。因为计划使用技能（不是整个页面），所以提示保持很小，过程保持确定性和快速。 链接   readme： https://github.com/runtime-org/runtime-runtime/blob/main/main/main/readme.md，md-md-md-md  href =“ https://github.com/runtime-org/runtime/blob/main/skills.md”&gt; https://github.com/runtime-org/runtime-org/runtime/blob/main/main/skills.mds.mds.mdskills.md  勇敢的）。没有新的浏览器要安装。  按设计确定性。技能是明确的和打字的；跑步是可审核的。  低令牌使用。我们通过紧凑的动作，而不是完整的DOM。最重要的是，我们根本不拍摄屏幕截图。我们认为，如果我们使用选择器进行导航，则屏幕截图是没有用的。  在循环的人类。您可以随时关注步骤并停止/重试。  是谁？ 在网上进行研究/OPS的人：拉结构化信息，文件表格，文件表格，在工具之间移动数据或在不编写完整的RPA脚本的情况下运行可重复的流量，或者不使用任何API。这只是“运行时运行时运行”  尝试第一个（5-10分钟）  克隆回购并关注读书中的QuickStart。  运行样本流：搜索→打开→提取字段。  阅读“ skills.md”，然后为您每天使用的网站做一个小技能。  尚不完美的 网站会改变。技能也会改变，但我们将发布有关解决此问题的信息。 我很想听听它破裂的位置。 我要求的反馈：  技能格式清楚吗？声明性，这有帮助吗？  计划者在哪里超出指定步骤？  我们应该首先运送哪些网站？  很乐意回答评论中的所有内容，并希望拆除。谢谢！  tito   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/tihiera     [link]        [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mm0bsy/i_have_built_runtime_skillsbased_browser/</guid>
       <pubDate>Sat, 09 Aug 2025 21:07:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>通用发行工具</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mlzqf3/generic_distro_toolk1t/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在共享通用的发行工具，这是一个教育工具包，旨在帮助您在LFS（从scratch）项目之后构建GNU/Linux分布。   该工具为提供 strong  strong  strong&gt; strong&gt; strong&gt;逐步。一切都是使用 Ansible 完全自动化的，因此您可以专注于学习和自定义自己的发行版，而无需迷失手动任务。 该项目是开源的，并积极地维护了 - 我很想听听您的反馈，想法或贡献！可以随意在Github上进行检查： href =“ https://github.com/lucky-sideburn/generic-distro--toolk1t”&gt; https://github.com/lucky-sideburn/generic-sideburn/generic-distro-toolk1t 提交由＆＃32; /u/u/uckysideburn2     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mlzqf3/generic_distro_toolk1t/</guid>
-      <pubDate>Sat, 09 Aug 2025 20:42:39 GMT</pubDate>
     </item>
     <item>
       <title>Debian 13“ Trixie”发行</title>
@@ -102,13 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/wtdawson     [link]   ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ml9bm1/choacuryos_moved_to_teamchoacury/</guid>
       <pubDate>Fri, 08 Aug 2025 22:40:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们刚刚获得了一种流行的开源统一工具 - 创作者加入了我们的Tiny Startup（AI + GameDev）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ml95b0/we_just_acquired_a_popular_opensource_unity_tool/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，伙计们！我很高兴分享，我们在Coplay的团队购买了最受欢迎的Open -Source Unity MCP存储库，我们现在是官方的维护者。原始的创作者贾斯汀正在加入我们，以便我们可以一起建造更大的东西。 为什么这么重要？对于像我们这样的游戏开发人员，构建和测试游戏可能会很痛苦（“添加多人游戏……”。我们的目标是消除摩擦，并帮助任何人创建想法，原型和分发史诗般的游戏。自从我们开始使用仓库以来，每周的功能完成为我们的用户从750增加到3,000 。 我们希望这是社区驱动的。 您想看到什么功能？我们在这里倾听并贡献。随时向我们询问有关收购，路线图或维护开放式项目的挑战。 如果您想阅读更多信息，这是完整的故事：” https://www.pocketgamer.biz/coplay-takes-takes-over-unity-mcp-as-it-raches-key-milestones-with-public-beta-launch/    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/msanatan     [link]   [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ml95b0/we_just_acquired_a_popular_opensource_unity_tool/</guid>
-      <pubDate>Fri, 08 Aug 2025 22:32:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
