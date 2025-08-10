@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 10 Aug 2025 04:04:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 06:24:01 GMT</lastBuildDate>
+    <item>
+      <title>☝️撰写像高级工程师一样的验尸</title>
+      <link>https://www.reddit.com/r/programming/comments/1mmb7br/write_a_postmortem_like_a_senior_engineer/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32;  /u/strategizeyourcareer   [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mmb7br/write_a_postmortem_like_a_senior_engineer/</guid>
+      <pubDate>Sun, 10 Aug 2025 06:17:12 GMT</pubDate>
+    </item>
     <item>
       <title>[P]我通过编码含义而不是数据完成了5000：1的压缩</title>
       <link>https://www.reddit.com/r/programming/comments/1mm6t2s/p_i_accomplished_50001_compression_by_encoding/</link>
@@ -32,13 +39,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/safe-ball4818       [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mm3p0s/from_zero_to_production_a_free_platform_for/</guid>
       <pubDate>Sat, 09 Aug 2025 23:39:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用GPT-5，FastApi和芹菜构建智能网站分析仪</title>
-      <link>https://www.reddit.com/r/programming/comments/1mlxbfe/how_to_build_a_smart_website_analyzer_with_gpt5/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/tholud_serve9696      ＆＃32;  &lt;a href =“ https://www.reddit.com/r/programming/comments/1mlxbfe/how_to_build_a_smart_smart_website_website_analyzer_with_with_with_with_gpt5/”]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mlxbfe/how_to_build_a_smart_website_analyzer_with_gpt5/</guid>
-      <pubDate>Sat, 09 Aug 2025 19:00:49 GMT</pubDate>
     </item>
     <item>
       <title>MCP vs SDK：LLM驱动的可扩展性的两条途径</title>
@@ -90,25 +90,25 @@
       <pubDate>Sat, 09 Aug 2025 14:24:38 GMT</pubDate>
     </item>
     <item>
-      <title>如何使用GPT-5和FastAPI构建网站分析仪</title>
-      <link>https://www.reddit.com/r/programming/comments/1mlqaem/how_to_build_a_website_analyzer_using_gpt5_and/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我一直在尝试FastApi，芹菜和GPT-5，最终建立了一项小型服务，该小型服务占用了网站URL，将文本传递给GPT-5，并将其传递给GPT-5进行分析。 URL. Celery worker handles scraping (with requests + basic UA headers) and truncates content to ~8k characters. A LangChain prompt formats the system/human messages. GPT-5 returns a structured JSON “business report” (business model, target audience, UX notes, growth opportunities, etc.). The API returns that JSON to the client, along with a preview snippet and a unique report ID.  The main challenges were:  Making scraping resilient but still simple (basic headers, timeout, no full browser automation). Getting GPT to reliably output parseable JSON (occasionally falls back to free-form text). Ensuring analysis runs asynchronously so requests don’t hang.  Code is based on the fastlaunchapi.dev starter for boilerplate, with extra pieces for LangChain + OpenAI integration. &lt;!-- sc_on-&gt;＆＃32;提交由＆＃32; /u/u/tholud_serve9696       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mlqaem/how_to_build_a_website_analyzer_using_gpt5_and/</guid>
-      <pubDate>Sat, 09 Aug 2025 14:06:25 GMT</pubDate>
+      <title>构建音乐应用程序使我重新考虑AI和音乐流媒体</title>
+      <link>https://www.reddit.com/r/programming/comments/1mloa94/building_a_music_app_made_me_rethink_ai_music/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/derjanni      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mloa94/building_a_music_app_made_me_rethink_ai_music/</guid>
+      <pubDate>Sat, 09 Aug 2025 12:31:14 GMT</pubDate>
     </item>
     <item>
-      <title>我的项目，OpenFreeMap每秒幸存100,000个请求</title>
-      <link>https://www.reddit.com/r/programming/comments/1mlpk7r/my_project_openfreemap_survived_100000_requests/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/hyperknot      [注释]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mlpk7r/my_project_openfreemap_survived_100000_requests/</guid>
-      <pubDate>Sat, 09 Aug 2025 13:33:39 GMT</pubDate>
+      <title>这是编程的未来吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1mlmtx1/is_this_the_future_of_programming/</link>
+      <description><![CDATA[Aside from this free AI coding agent, Google is also working on creating another AI that incorporates design, coding, testing, deployment all in one AI package, a layman or any person(aka consumer) can use the AI and just describe verbally their requirements for an app and voila a full working app is produced by this AI ready to download with no human programmer needed.预计Google将从现在两年后部署此AI。如果AI接管整个游戏，程序员现在需要立即开始准备备份计划。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/_dark_wing     [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mlmtx1/is_this_the_future_of_programming/</guid>
+      <pubDate>Sat, 09 Aug 2025 11:09:06 GMT</pubDate>
     </item>
     <item>
-      <title>伊斯兰教，基督教和印度教的主要圣书的所有Github和JSON CDN链接。</title>
-      <link>https://www.reddit.com/r/programming/comments/1mlpbka/all_the_github_and_json_cdn_link_for_islam/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  圣经   https://raw.githubusercontent.com/jadenzaleski/bibletranslations/refs/heads/heads/master/akjv/akjv/akjv_bible.json   在原始上方转换为cdn  https://cdn.jsdelivr.net/gh/jadenzaleski/bibletranslations@master/akjv/akjv_bible.json      （但是这与所有经文一样） 古兰经   https://cdn.jsdelivr.net/npm/best-bible@1.7.5/dist/browser/best-bible.min.js     https：//raw.githubusercercontent.com/risan/risan/risan/quran-quran-quran-quran-json-json-json/refs/rean/puran/quran/quran/quran/quran/jen/jen/jen/jen/dises-iast-a一下 bhagavad gita    https://raw.githubusercontent.com/gita/gita/refs/heads/main/archive/corrceted_translation_gpt3.json   从上面的链接转换  https://cdn.jsdelivr.net/gh/gita/gita@main/archive/corrected_translation_gpt3.json  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/federal-daikon-412      [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mlpbka/all_the_github_and_json_cdn_link_for_islam/</guid>
-      <pubDate>Sat, 09 Aug 2025 13:22:08 GMT</pubDate>
+      <title>MBCOMPASS- FOSS指南针和导航应用程序</title>
+      <link>https://www.reddit.com/r/programming/comments/1mlmiw5/mbcompass_foss_compass_and_navigation_app/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我很高兴地宣布MBCompass，它是一个现代，免费和开源的指南针和导航应用程序，没有ADS，IAP或跟踪。  这是支持指南针和导航功能，轻巧且简单！ 我构建了mbcompass，而不仅仅是另一个福斯指南针应用程序；它弥合了 Compass 和完整导航应用程序  功能：  显示明确的基本方向和磁性方位。 在µT。 （加速度计，磁力计，陀螺仪）。 通过设置控制光和黑暗主题支持。 在导航期间保持屏幕。 景观取向支持。 使用JetPack组成和材料设计构建。 Android 5.0+ 网站上的完整列表   即使有所有这些功能，MBCompass也只有1.35MB APK APK尺寸，没有ADS，没有IAIAP，没有跟踪器    ，以获取更多信息： https://compassmb.github.io/mbcompass-site/ 提交由＆＃32; /u/u/u/u/abate-devs      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mlmiw5/mbcompass_foss_compass_and_navigation_app/</guid>
+      <pubDate>Sat, 09 Aug 2025 10:50:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
