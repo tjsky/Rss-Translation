@@ -4,7 +4,56 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Wed, 13 Aug 2025 18:23:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 Aug 2025 21:20:09 GMT</lastBuildDate>
+    <item>
+      <title>我建造了（最好的）房地产投资计算器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mpfygb/i_built_the_best_real_estate_investment_calculator/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  其他房地产开发人员吗？我厌倦了要求聊天gpt“运行数字”。对我来说，所以我构建了自己的计算器，我可以真正信任。 您可以在这里查看： calculaterealestate.com  href =“ https://www.youtube.com/watch?v=paqccxkcz6ku”&gt;链接     以下快速介绍了这些功能：        Zillow Integration: Just enter a Zillow URL to automatically pull property data. Manual Entry: You can also input all the details manually for off-market deals or more control. Comprehensive Simulations: Covers everything from income tax and capital gains to write-offs. Recurring费用：添加任何重复的费用（HOA，维护等），并包括年度调整  节省机会：保存您的分析为“机会”审查或比较以后进行比较。  详细的结果表：在30年的时间表中，请参阅诸如ROI，CAP率，每月支出等指标的完整分解。    交互式图表    ：可视化诸如公平，现金流量和债务范围 li&gt;  &lt;并排的图表以确定哪些投资的性能更好。  方案计划：创建和比较单个属性的不同场景（例如，较高的首付与较低付款与较低），以查看如何最大程度地提高ROI。     免费使用：完全免费使用计算器。登录仅用于节省和比较投资，并且没有限制。  简单的UI ：设计为简单而易于解释。   可共享的链接：生成一个将您的分析发送给伙伴，贷方或强烈的             LLMS或其他工具。  如果要检查出来，也可以在GitHub上获得计算的源代码：  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1mpfygb/i_built_the_best_the_best_real_estate_investment_calculator/”&gt; [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mpfygb/i_built_the_best_best_real_estate_investment_investment_calculator/]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mpfygb/i_built_the_best_real_estate_investment_calculator/</guid>
+      <pubDate>Wed, 13 Aug 2025 20:39:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>第一个项目 - 进化</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mpfdqi/first_project_evolution/</link>
+      <description><![CDATA[     从那时起，我已经完成了一堆重构和调整，并且我对可运行的任务流有了很酷的文本输入。  我学到的越多，我发现专注于小事可以使更大的事情变得更好，但是只有首先将其设计为这样。我正在花时间，但绝对喜欢这个过程！  到目前为止，您如何看待它？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/usydratedRasin       [注释]         ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mpfdqi/first_project_evolution/</guid>
+      <pubDate>Wed, 13 Aug 2025 20:17:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>您如何处理混乱的CSV上传和不可预测的Webhook有效载荷？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mpego4/how_do_you_handle_messy_csv_uploads_and/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我一直在项目中遇到一个反复出现的问题 - 我最终需要的每个应用都需要摄取CSV/Excel上传或webhook Poreloads，并且它们是永不一致的。标题  Webhook有效载荷来自不同的服务，具有不同的现场结构  AI模型的JSON输出与您预期的模式不符，这些模型   我通常每次都编写自定义Parsers/Converters的方法，但最近我一直在使用“ API Plugin”进行了更清洁的应用程序，并确定了MAP，MAPS，并在MAPS上进行了更清洁的应用程序。  您正在使用哪些策略或工具来归一化这些东西？    （如果有人有兴趣，我可以分享我基于API的方法的一些演示 - 但是我想先听听您当前的工作流程。）提交由＆＃32; /u/perothobs   href =“ https://www.reddit.com/r/webdev/comments/1mpego4/how_do_do_do_you_handle_messy_messy_csv_uploads_and/&gt; [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mpego4/how_do_you_handle_messy_csv_uploads_and/</guid>
+      <pubDate>Wed, 13 Aug 2025 19:43:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要建议：构建文档问答AI聊天机器人的最佳方法？ （文档→答案）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mpd395/advice_needed_best_way_to_build_a_document_qa_ai/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在建立一个科学基础的平台，并想添加文档Q＆amp; ai chatbot。  学生会提出问题，它应该仅使用我们的PDF和研究论文回答。 对于MVP，最聪明的方法是什么？    - 与现有模型一起使用抹布？    - 在文档上微调模型？    - 其他东西？ 我通常与Laravel + React一起工作，但是如果它们更有意义，我对其他堆栈开放。  主要需求：准确性，某些文档的隐私以及添加新的文档时的简单更新。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1mpd395/advice_needed_best_way_way_way_way_to_a_a_a_a_document_qa_ai/”&gt; [links]       &lt;a href =“ https://www.reddit.com/r/webdev/comments/1MPD395/ADVICE_NEEDED_BEST_BEST_WAWE_WAWE_TO_BUILD_BUILD_A_DOCUMENT_QA_QA_QA_AI/]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mpd395/advice_needed_best_way_to_build_a_document_qa_ai/</guid>
+      <pubDate>Wed, 13 Aug 2025 18:52:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有人将美杜莎和供应商用于电子商务？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mpclsx/has_anyone_used_medusa_and_vendure_for_ecommerce/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  两者如何表现？哪一种对于具有100000多种产品的大型电子商务网站可靠？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/maleficent_mess6445      [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mpclsx/has_anyone_used_medusa_and_vendure_for_ecommerce/</guid>
+      <pubDate>Wed, 13 Aug 2025 18:34:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>我应该使用Python+Django还是坚持使用JavaScript进行网站？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mpcdcu/should_i_use_pythondjango_or_stick_to_javascript/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  当前我要在一个网站上建立一个我希望用户上传图像的网站，我想使其互动（按钮，输入等） 我在python的写作逻辑方面更加精通，但是要为frontend进行写作，我需要将其连接到html和我需要学习blask（我想学习blask）（我想学习blask（dj）。  代码的逻辑部分不是很难，它的小（python中的40行）我只是习惯于python。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/good_apricot_2210     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mpcdcu/should_i_use_pythondjango_or_stick_to_javascript/</guid>
+      <pubDate>Wed, 13 Aug 2025 18:25:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>感到无法动力。可以使用一些建议。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mpcbuv/feeling_unmotivated_could_use_some_advice/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  在4月1日被解雇，可悲的是，这不是四月的傻瓜笑话。我花了一个星期左右的时间来收集轴承，然后重做简历，并在这里和那里建立一些小项目。但是现在我认为，一直没有工作的所有时间都在精神上付出了代价。  几周来，它的生产力很高。重新设计并重新推出了我的投资组合网站。制作了一些很酷的应用程序，例如为星星谷的拖放作物计划者制作，其中有大量的数据诸如利润预测之类的数据。带卡，标签和排序的视频游戏的后日志跟踪器。但是，现在我只是没有动力。我知道我应该继续编码，但我陷入了“为什么打扰”或“我实际上不知道如何很好地编码”的阶段被解雇并受到如此多的拒绝。  烦人的部分是，我知道我至少是体面的，这可能只是一个动机问题，但我可以停止殴打自己并摆脱这种低迷。因此，如果有人有任何建议，如何重新推销激情，我将感谢它。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/imafknwizardxii    href =“ https://www.reddit.com/r/webdev/comments/1mpcbuv/feeling_unmotivated_could_use_some_advice/”&gt; [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mpcbuv/feeling_unmotivated_could_use_some_advice/</guid>
+      <pubDate>Wed, 13 Aug 2025 18:23:52 GMT</pubDate>
+    </item>
     <item>
       <title>想要建立一个没有经验的网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1mpc7q7/looking_to_build_a_website_with_no_experience/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我用wix制作了我的网络，但是在WordPress中购买它更便宜，我可以将我的网络转移到WordPress并在那里购买吗？我不知道它是如何工作的，我不想他妈的或重新开始，因为我几乎完成了在wix   &lt;！ -  sc_on-&gt;＆＃32中设计它。提交由＆＃32; /u/u/soyrisotto   href =“ https://www.reddit.com/r/webdev/comments/1mpah1x/first_time_making_making_my_own_web_help/”&gt; [link]      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1mpah1x/first_time_making_my_own_web_help/</guid>
       <pubDate>Wed, 13 Aug 2025 17:16:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>在联系表上防止垃圾邮件/错误的电子邮件。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mpadd1/preventing_spamwrong_emails_on_a_contact_form/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我不确定这是否是问这个问题的正确地方...我经营着一个小型营销机构...我们管理各种客户端网站。我本人不是开发人员，我有一些为我工作的。他们在技术技能上很强，但并非总是具有实用的解决方案。情况是这样：我的客户不断从订购某件事的个人那里询问其联系表，并且该物品尚未出现。 （他们从其他地方订购的物品，从脸部到鞋子等的所有东西。我的客户是美国制造商，这与他们无关。 href =“ https：//www.17 track.net/en”&gt; https：//www.17track.net/en 显然是合法的网站，但我再次认为它与我的catse the Catchpa有关他明显（那几天，经销商，制造商，最终用户等），我不喜欢将其备用，因为这是客户的一步，我们希望人们很容易与我们联系/u/auntiedee2020     [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mpadd1/preventing_spamwrong_emails_on_a_contact_form/</guid>
-      <pubDate>Wed, 13 Aug 2025 17:12:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建“一站式”客户端门户网站 - 您如何安全地处理文件存储 +电子签名？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mpa08j/building_a_onestop_client_portal_how_would_you/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我正在从事一个侧面项目，自由职业者和客户可以：  共享文件   签名   我现在要接收/li&gt;       Using AWS S3 for file storage (private buckets) JWT-based auth for both parties E-signature integration (DocuSign vs. building custom)  The challenge I’m hitting: How to keep it secure for non-technical clients without making the UX annoying (extra logins, verification hoops, etc.). 如果您构建了类似的东西 - 如何处理安全文件共享 +数字签名？很想听听其他开发人员的想法。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/neat_entrance_1684        [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mpa08j/building_a_onestop_client_portal_how_would_you/</guid>
-      <pubDate>Wed, 13 Aug 2025 16:59:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>刚刚部署了我的投资组合！会喜欢你的反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mp9evh/just_deployed_my_portfolio_would_love_your/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;    https://himanshu-codes.vercel.app/     这是一种由 reack ， vite&gt; vite  parts and  partss and  strong&gt; strong&gt; strong&gt; strong&gt; strong&gt; stront&gt; strong&gt; strong&gt; strong&gt; strong&gt; strong&gt; stront&gt; strong&gt;我的目标是创建一些完全响应的东西，以创造性的方式使您成为开发人员的旅程。 现在，它在笔记本电脑/台式机屏幕上看起来最好。我仍在努力使其在较小的设备上同样令人着迷。会喜欢您的建议！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/over_effort6298       [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mp9evh/just_deployed_my_portfolio_would_love_your/</guid>
-      <pubDate>Wed, 13 Aug 2025 16:37:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示内容与显示无最终定界符</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mp7y19/display_contents_vs_display_none_with_end/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  试图在此处获得一些意见。我正在建造一些香草JS，必须找到一种封装现场直播元素的方法。我可以找到两种方法，2个哨兵元素（自定义元素，我需要连接和断开连接的回调），并且实时收集是在介于两者之间的所有内容，或一个带有显示内容的元素，而实时收集是它的孩子。前者非常喜欢，但我正在测试一下，并且可以看到它在DOM上的重量要重得多，似乎在DOM的深度上有限制。第一种方法更笨拙，但它很平坦，因此DOM不会抱怨太多。我想知道当今的显示内容是否普遍接受，以及这些天关于容器化元素的一般意见是什么。我非常不想为我的特定用途btw   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1mp7y19/display_contents_vs_vs_display_none_with_end/”&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mp7y19/display_contents_vs_display_none_with_end/</guid>
-      <pubDate>Wed, 13 Aug 2025 15:43:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们构建了一个使用集装箱级键的密码管理器，好奇是否解决了一个真正的问题或过度复杂化的问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mp7irh/we_built_a_password_manager_with_containerlevel/</link>
-      <description><![CDATA[     我们是 syfly 背后的小团队，我们一直在重新思考密码管理器的工作方式。 大多数密码管理员都使用使用一个主密码。如果遭到妥协，您的所有登录都处于危险之中。我们决定对此进行翻转：Syfly使用单独的加密容器，每个容器 都有自己的解锁方法 - 一个可能是您的主密码，另一个是Yubikey，另一个生物特征或2FA。 我们还添加了：          加密  - 我们无法访问您的数据 在 macos，Windows，Android，ios 和所有主要浏览器上都可以自由注册和使用，并提供付费计划，并为他们提供了更多的                ，如果某个想法可以减少“爆炸式”的控制。数据。  我想在哪里输入：   在现实世界中，这种额外的分离实际上是有意义的吗？ 团队或小型企业在其中看到价值，还是可以更简单地保持简单？还是可以从事此类 在此功能上，您是否会在此范围内进行过这种特征，或者如果您的特定效果，或者您是否可以在li&gt;中进行否决？     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1mp7irh/we_built_a_a_password_manager_with_with_containerlevel/”&gt; [link]    [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mp7irh/we_built_a_password_manager_with_containerlevel/</guid>
-      <pubDate>Wed, 13 Aug 2025 15:26:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何将我的Web Dev Side hustle扩展到这方面？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mp7cyz/how_can_i_scale_my_web_dev_side_hustle_beyond_this/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我是一位经验约4。5年的开发人员。作为我的FT工作的侧面，我执行了各种Web解决方案，例如构建Web应用程序和数据管道。我每年只收取约60,000至70,000美元的收费。最近，我每小时雇用了几个家庭成员，我开始认为我可能想扩展这一点。我唯一能想到的是，我将需要更长期的更稳定的合同，以便我负担得起雇用开发人员和IT专业人员的FT。  我的问题是我不确定如何与固定人获得长期合同。我的大多数客户都是其他机构，我不介意每份工作合同较小，因为它们很灵活。而且，我所有的客户也都来自推荐，我从来没有出售我的服务，所以这对我来说是陌生的。它像冷呼叫企业一样简单并解释我提供的东西吗？我觉得我的网络很难利用。 下一步的任何帮助都是很棒的，无论是阅读的书还是您的个人经验轶事。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/due_cap_7720     &lt;a href =“ https://www.reddit.com/r/webdev/comments/1mp7cyz/how_can_can_i_scale_my_my_my_my_web_deb_dev_side_hustle_hustle_beyond_beyond_this/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mp7cyz/how_can_i_scale_my_web_dev_side_hustle_beyond_this/</guid>
-      <pubDate>Wed, 13 Aug 2025 15:20:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>在Docker学习发展的资源。 （我发现的大多数是关于容器已经建立的项目，以便将其上传到Docker Hub上）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1mp78t4/resources_to_learn_development_in_docker_most_of/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在计划在一个新项目上工作： 快速API作为后端，姿势为数据库，redis for Cache，Next.js for Front End for Front End and nginx for api Gateway。但是我想在Docker容器中开发整个项目，以便在此过程中学习Docker。 我对Docker有一个基本的了解，例如哪些图像，容器，卷和网络是什么。我正在尝试找到可以指导我在此过程中的教程或指南，但是我所能找到的只是关于容器化已开发的应用程序以上载于Docker Hub的文章。 我真的很感谢任何资源。谢谢。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/seaweed_widef    href =“ https://www.reddit.com/r/webdev/comments/1mp78t4/resources_to_to_learn_development_in_in_docker_most_oft_of/”&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1mp78t4/resources_to_learn_development_in_docker_most_of/</guid>
-      <pubDate>Wed, 13 Aug 2025 15:16:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
