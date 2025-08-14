@@ -4,13 +4,20 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 13 Aug 2025 21:18:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 01:23:01 GMT</lastBuildDate>
     <item>
-      <title>重新输入软件行业（一种）</title>
-      <link>https://www.reddit.com/r/programming/comments/1mpfx36/reentering_software_industry_sort_of/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，嗨，自从游戏开发毕业以来，我决定返回软件并开始申请工作。寻找在这种情况下对我有帮助的任何建议。 在某些情况下，我现在要进入Web Dev，我熟悉Mern Stack和Java的一些基础知识，PHP。主要是大学级别。除了令人耳目一新的知识，您还建议您脱颖而出并帮助找到工作？  portfolio： www.shaikhofallcode.com  ＆＃32;提交由＆＃32; /u/u/sahilts       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mpfx36/reentering_software_industry_sort_of/</guid>
-      <pubDate>Wed, 13 Aug 2025 20:37:58 GMT</pubDate>
+      <title>我已经建立了AI代理已经有一段时间了，而且有一个基本问题，没有人在谈论</title>
+      <link>https://www.reddit.com/r/programming/comments/1mphyt6/ive_been_building_ai_agents_for_a_while_now_and/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mphyt6/ive_been_building_ai_agents_for_a_while_now_and/</guid>
+      <pubDate>Wed, 13 Aug 2025 21:57:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>等待！不要产生该任务！ - 比较并发应用中可变状态的模式</title>
+      <link>https://www.reddit.com/r/programming/comments/1mpgz99/wait_dont_spawn_that_task_comparing_patterns_for/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/conectado2      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mpgz99/wait_dont_spawn_that_task_comparing_patterns_for/</guid>
+      <pubDate>Wed, 13 Aug 2025 21:18:38 GMT</pubDate>
     </item>
     <item>
       <title>代码名称不好</title>
@@ -85,7 +92,7 @@
     <item>
       <title>wrkflw v0.7.0带有安全的沙箱，用于在本地运行github操作</title>
       <link>https://www.reddit.com/r/programming/comments/1mp58ms/wrkflw_v070_with_secure_sandboxing_for_running/</link>
-      <description><![CDATA[Hello everyone, I&#39;m excited to share wrkflw v0.7.0 with some major workflow execution improvements! What&#39;s wrkflw? A Rust CLI tool for validating and executing GitHub Actions workflows locally, with support for Docker, Podman, and secure emulation modes. Key Features in v0.7.0: Comprehensive Secure Sandboxing  Safe execution of untrusted workflows with command validation and filtering Blocks dangerous commands like rm -rf /, sudo, etc. Resource limits (CPU, memory, execution time) 文件系统访问控制和过程监视 建议用于本地开发的建议 - 无需容器  可重复使用的工作流支持  执行工作的作业来调用可重复使用的工作流程（作业。 适当的输入/秘密传播  多路径验证   跨文件和目录同时验证多个工作流程 自动检测github/gitlab/gitlab/gitlab/gitlab cip              一次  wrkflw验证.github/workflows/.gitlab-ci.yml other-workflows/  auto-detects gitlub/gitlab/file   wrkflw wrkflw vellice path/to/g flkflw to/to/githithub-workflow.git.gitlab-plab-plab-plab-plab-plab/gitlab-p&gt;文件  wrkflw验证 -  gitlab *.yml    增强的tui帮助tab   全面文档 更好的导航和用户体验和用户体验                  pred pred pred pred pred pred dec     安装  货物安装wrkflw    安全的沙箱模式使得从本地进行不信任的来源测试工作流是安全的，而可重复使用的工作流程，而可重复使用的工作流程支持启用pecters toss poss pos to po&gt; github！ href =“ https://github.com/bahdotsh/wrkflw”&gt; github      crates.io  crates.io   href =“ https://github.com/bahdotsh/wrkflw/releases/tag/v0.7.0”&gt;完整的ChangElog     始终感谢社区的反馈！     &lt;！ -  sc_on-&gt; &lt;！ -  sc_on-&gt; 32;提交由＆＃32; /u/u/u/new-blacksmith8524       [注释]  ]]></description>
+      <description><![CDATA[Hello everyone, I&#39;m excited to share wrkflw v0.7.0 with some major workflow execution improvements! What&#39;s wrkflw? A Rust CLI tool for validating and executing GitHub Actions workflows locally, with support for Docker, Podman, and secure emulation modes. Key Features in v0.7.0: Comprehensive Secure Sandboxing  Safe execution of untrusted workflows with command validation and filtering Blocks dangerous commands like rm -rf /, sudo, etc. Resource limits (CPU, memory, execution time) 文件系统访问控制和过程监视 建议用于本地开发的建议 - 无需容器  可重复使用的工作流支持  执行工作的作业来调用可重复使用的工作流程（作业。 适当的输入/秘密传播  多路径验证   在文件和目录之间同时验证多个工作流程 自动检测github/gitlab/gitlab/gitlab/gitlab cip             一次  wrkflw验证.github/workflows/.gitlab-ci.yml other-workflows/  auto-detects gitlub/gitlab/file   wrkflw wrkflw vellice path/to/g flkflw to/to/githithub-workflow.git.gitlab-plab-plab-plab-plab-plab/gitlab-p&gt;文件  wrkflw验证 -  gitlab *.yml    增强的tui帮助tab   全面文档 更好的导航和用户体验和用户体验                  pred pred pred pred pred pred dec     安装  货物安装wrkflw    安全的沙箱模式使得从本地进行不信任的来源测试工作流是安全的，而可重复使用的工作流程，而可重复使用的工作流程支持启用pecters toss poss pos to po&gt; github！ href =“ https://github.com/bahdotsh/wrkflw”&gt; github      crates.io  crates.io   href =“ https://github.com/bahdotsh/wrkflw/releases/tag/v0.7.0”&gt;完整的ChangElog     始终感谢社区的反馈！     &lt;！ -  sc_on-&gt; &lt;！ -  sc_on-&gt; 32;提交由＆＃32; /u/u/u/new-blacksmith8524       [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mp58ms/wrkflw_v070_with_secure_sandboxing_for_running/</guid>
       <pubDate>Wed, 13 Aug 2025 13:58:41 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mp4pok/7_ways_to_stop_form_spam_in_remix_nodejs/</guid>
       <pubDate>Wed, 13 Aug 2025 13:38:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>从最终到不变的：“最终”上的不太结束词</title>
-      <link>https://www.reddit.com/r/programming/comments/1mp4be2/from_final_to_immutable_the_notsofinal_word_on/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/bluegoliach      [commistion]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mp4be2/from_final_to_immutable_the_notsofinal_word_on/</guid>
-      <pubDate>Wed, 13 Aug 2025 13:22:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
