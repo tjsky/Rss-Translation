@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 14 Aug 2025 21:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 01:18:13 GMT</lastBuildDate>
+    <item>
+      <title>MIT许可的小型PDF充当LLM的数学推理覆盖层。在约60秒内复制。里面有一个中立的doi。</title>
+      <link>https://www.reddit.com/r/programming/comments/1mqjb6j/a_small_mitlicensed_pdf_that_acts_as_a_math/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  这是  r/programming的最保守的，rules-waw 草稿。它保持语调技术，避免促销语言，并完全包括一个一个外部链接（PDF的中性DOI）。其他所有内容都是纯文本。 一个小型MIT许可的PDF，充当LLM的数学推理覆盖。在约60秒内复制。一个内部的中性doi。  这是 不是模型，而不是微调。它是您作为知识文件附加到LLM上的小PDF。在实践中，它的行为就像基于数学的推理覆盖：在链条遇到冲突时，限制更严格，并且在长链上保持桥梁/恢复一步。没有SDK，没有INFRA更改。  60秒可重复可重复测试（提供者-Agnostic）  与任何支持文件上传的模型进行新的聊天。 上面的doi上载PDF从上面的doi上载PDF。正常答案。然后将pdf附加的重新递送。比较深度，准确性以及是否出现桥梁/恢复步骤。   精确提示      指令：您处于探索模式。附件PDF提供正式运营商（δs，λ_Observe，e_ resonance，bbmc/bbpf/bbcr/bbam）。不仅要分析或总结PDF。在任务上执行其数学和过程。问题1：使用WFGY挑战自己（AI）的问题。然后，使用WFGY的逻辑，尝试再次回答。报告答案，并对“无wfgy”答案进行评分，并为深度，准确性和理解的“ wfgy”答案进行评分。注意：如果此聊天窗口不包含WFGY 1.0 PDF和公式，请拒绝“使用wfgy”运行。说：“我无法执行WFGY模式，因为所需的引擎PDF和公式缺少。如果我尝试过，我可能会产生幻觉的模仿。”   方法草图（纯术语，无术语）  PDF编码一小部分操作员，这些操作员将链条偏向稳定，可校准推理：        语义上的残差最小值（请保留schema  li li&gt; li&gt; li&gt; ） 。 multi-path progression (hold several brief candidates, pick the consistent one). Collapse → bridge → rebirth (on contradiction, insert a repair step before continuing). Attention modulation (reduce one-token hijacks on long chains).  No weights or training data are shipped.您可以像对待统治者一样对待该模型在理由的同时进行咨询。 最小基准注释（设置期望） 我们对MMLU  - 哲学 - 哲学 - 哲学 - 哲学&gt; 的内部检查进行了内部检查，并具有单个模型配置：  ：正确 =  81.25％（模型：GPT-4O）   pdf Overlay  ： 80/80 recke  =  =  100％这是一个狭窄的切片，不是排行榜的声明。关键是您可以使用上述步骤重现前进/之后的行为，然后确定它是否对您的工作负载有用。   它倾向于帮助  后官方和长篇小说q＆amp;在其中参考必须在许多啤酒花中保持稳定。 多步骤算术或逻辑通常过度解释和丢失线程。  如果您可以在覆盖损害结果的情况下产生反例，那是有价值的。请分享一个简短的失败痕迹。我要么将其映射到可固定的故障模式，要么确认边界条件。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/wfgy_engine     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mqjb6j/a_small_mitlicensed_pdf_that_acts_as_a_math/</guid>
+      <pubDate>Fri, 15 Aug 2025 01:11:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>我启动了一个应用程序，无法下载</title>
+      <link>https://www.reddit.com/r/programming/comments/1mqj5ca/i_launched_an_app_and_cant_get_any_downloads/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  几个月的辛勤工作后，我终于在App Store上发布了我的第一个应用程序：Yacht-Zee！这是经典Yahtzee游戏的航海主题版本。我与朋友和家人分享了它，并收到了很好的评论和反馈。但是，我目前在App Store上的牵引力绝对为零。似乎不可能让用户发现我的应用程序。  是其他人对附带项目的经验吗？我开始运行广告，但感觉就像是一个永远不会产生利润的货币坑。有人对我如何获得有机评论有见解吗？ Here is the link to my app: https://apps.apple.com/us/app/yachtzee-dice-games-adventures/id6748318454 &lt;!-- sc_on-&gt;＆＃32;提交由＆＃32; /u/u/sid-pen-5865     [link]  ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mqj5ca/i_launched_an_app_and_cant_get_any_downloads/</guid>
+      <pubDate>Fri, 15 Aug 2025 01:04:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>从epoll到io_uring的Multishot收到 - 为什么2025年我们终于杀死活动循环的一年</title>
+      <link>https://www.reddit.com/r/programming/comments/1mqfp7c/from_epoll_to_io_urings_multishot_receives_why/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   linux asynchronous I/o从epoll到io_iring的演变，强调了多疗法接收操作如何流线网络事件处理。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/mqian41     [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mqfp7c/from_epoll_to_io_urings_multishot_receives_why/</guid>
+      <pubDate>Thu, 14 Aug 2025 22:38:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLMS应该使用哪种语言？</title>
+      <link>https://www.reddit.com/r/programming/comments/1mqegxd/what_language_should_llms_program_in/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/benlloydpearson      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mqegxd/what_language_should_llms_program_in/</guid>
+      <pubDate>Thu, 14 Aug 2025 21:51:15 GMT</pubDate>
+    </item>
     <item>
       <title>Nan-Propagation：黑盒计算功能中稀疏性检测的一种新颖方法</title>
       <link>https://www.reddit.com/r/programming/comments/1mqdf0a/nanpropagation_a_novel_method_for_sparsity/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mq6i5p/lazylog_a_new_shared_log_abstraction_for/</guid>
       <pubDate>Thu, 14 Aug 2025 17:04:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>SIMD二进制堆操作</title>
-      <link>https://www.reddit.com/r/programming/comments/1mq6g5o/simd_binary_heap_operations/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mq6g5o/simd_binary_heap_operations/</guid>
-      <pubDate>Thu, 14 Aug 2025 17:02:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用AI工具进行代码评论</title>
-      <link>https://www.reddit.com/r/programming/comments/1mq3zwh/how_to_do_code_reviews_with_ai_tools/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/milanm08     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mq3zwh/how_to_do_code_reviews_with_ai_tools/</guid>
-      <pubDate>Thu, 14 Aug 2025 15:33:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI的严重python偏见：LLM的关注点更喜欢一种语言</title>
-      <link>https://www.reddit.com/r/programming/comments/1mq33pm/ais_serious_python_bias_concerns_of_llms/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/yangzhou1993      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mq33pm/ais_serious_python_bias_concerns_of_llms/</guid>
-      <pubDate>Thu, 14 Aug 2025 15:00:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>加密计算：如果不需要解密怎么办？ •Katharine Jarmul</title>
-      <link>https://www.reddit.com/r/programming/comments/1mq291m/encrypted_computation_what_if_decryption_wasnt/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/goto-con       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1mq291m/encrypted_computation_what_if_decryption_wasnt/</guid>
-      <pubDate>Thu, 14 Aug 2025 14:28:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
