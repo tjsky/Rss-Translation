@@ -4,7 +4,21 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Sat, 16 Aug 2025 15:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 Aug 2025 18:22:49 GMT</lastBuildDate>
+    <item>
+      <title>我为学生和创作者构建了一个宣传笔记应用程序 - 我很喜欢您的反馈</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ms28bn/i_built_a_markdown_notetaking_app_for_students/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;    嘿大家！ 我很想分享一个我过去几年中一直在建立的项目： alexandrie       它是一个基于网络的笔记应用程序，是一个为 wry&gt; wry/whor&gt; whore而言， nork norne&gt; 很多。 The goal is to offer a beautiful, intuitive interface and produce clean, well-formatted documents—without the frustration of traditional tools like Word. You can easily manage hundreds of notes, organize them into folders, export them, and boost your productivity with custom snippets, markdown shortcuts, and more. 🛠 Tech堆栈：  前端： vue.js + nuxt    后端： go    文件存储： minio        我目前是唯一的开发人员，但是我的唯一开发人员，但我的爱情是我的爱好！无论您是要进行编码，UI/UX，文档，还是只想分享反馈和建议，您都欢迎加入     github repo： https://github.com/smaug6739/alexandrie     如果您喜欢这个想法，那么在github上的想法就会有很多含义，如果您想可以接触到/u/u/rich butterscotch434      [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ms28bn/i_built_a_markdown_notetaking_app_for_students/</guid>
+      <pubDate>Sat, 16 Aug 2025 17:44:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>集中式云平台</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ms0j1z/centralised_cloud_platform/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  你好， 是否有任何开源或替代平台，例如meshcloud.io？   tia     &lt;！ -  sc_on-&gt; 32;提交由＆＃32; /u/u/u/sysy-oven9410     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ms0j1z/centralised_cloud_platform/</guid>
+      <pubDate>Sat, 16 Aug 2025 16:43:01 GMT</pubDate>
+    </item>
     <item>
       <title>寻找Windows的FOSS闹钟。</title>
       <link>https://www.reddit.com/r/opensource/comments/1mrx1p6/looking_for_foss_alarm_clock_for_windows/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[        &lt;！ -  sc_off-&gt;   ai游戏引擎，适用于希望快速和良好游戏的游戏开发者和游戏玩家。它是开源的，基于OG Godot 4.4，上面有一个代理聊天（目前是免费的推断）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/soft_negotiation3487        [注释]         ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mrc2lr/ai_game_engine/</guid>
       <pubDate>Fri, 15 Aug 2025 22:10:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我需要一种有效的方法将仅使用笔记本电脑使用5TB的非结构化HTML转换为词典，因此我写了Doc2dict。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mrbkno/i_needed_an_efficient_way_to_convert_5tb_of/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我是开源量量与SEC数据一起使用的开源软件包。事实证明，SEC具有5TB的HTML。这些数据在视觉上标准化为人类，但在引擎盖下是不同的标签和CSS的混乱。  有一些现有的解析HTML解决方案，但它们通常涉及LLMS和OCR的组合，这是缓慢而昂贵的。因此，我决定编写一个灵活的，算法的解决方案： doc2dict 。  instancation           pip pip doc2dict doc2dict doc2dict doc2dict pip  pre&gt; pre  html2dict（content，mapping_dict = none）＃将内容转换为字典visualize_dict（dct）＃使用浏览器可视化字典。   注意：我不多使用此UI，因为我主要是通过SEC软件包使用它。  docs       通过构建通过domistical instarrity anderations of entartials等等，例如（例如，在一个街区内）创建指令，例如 [{&#39;text&#39;：&#39;董事会会议&#39;，&#39;all_caps&#39;：true，bold&#39;：true，&#39;font-size&#39;：15.9999999999999999}]      使用规则设置以确定如何将nested dictife to nested dictife to nested difcections toction nested dictife to nested Difctions进行转换。这是可以自定义的。例如，下面的映射dict告诉解析器，除了默认规则外，还应在“零件”下嵌套“项目”。   ＆＃8203;       tenk_mapping_dict_dict = {（&#39;part&#39;part&#39;part&#39;，r&#39;^part&#39;^part&#39;^part \ s*（ivx]+&#39;ivx $&#39;$&#39;0，$&#39;0，$ 0，$ 0，$ 0，$&#39;0，$ 0，$ 0，$ 0，，$ &#39;0，，， （&#39;签名&#39;，r&#39;^签名？\。*$&#39;）：0，（&#39;item&#39;，r&#39;^item \ s*（\ d+）&#39;）：1，}   注意：这种方法适用于现代PDFS。文本流通常按照人认为正确的顺序，因此这种有效。我已经将功能添加到DOC2DICT，但它是在早期阶段。 （又名，很烂）。 基准 基准变化在我更新软件包W.R.T.时变化。要功能（表很慢！）。通过我的笔记本电脑：  每秒500页单线 每秒5,000页每秒多螺纹    链接             lie&gt;   dictionary （old）          &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/status-code-200     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mrbkno/i_needed_an_efficient_way_to_convert_5tb_of/</guid>
-      <pubDate>Fri, 15 Aug 2025 21:51:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>项目：非结构性 - >结构化</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mr9rms/project_unstructored_structured/</link>
-      <description><![CDATA[I’m building an open-source AI Agent that converts messy, unstructured documents into clean, structured data. The idea is simple: You upload multiple documents — invoices, purchase orders, contracts, medical reports, etc. — and get back structured data (CSV tables) so you can visualize and work with您的信息更容易。 这是我正在测试的方法：  inference_schema     vllm分析您的文档，并建议最好的 shema a shust          invoice_data_capture  A specialized LLM maps the extracted fields strictly to the schema. For each uploaded document, it returns something like this, always following the same structure:    generate_csv  Once all documents是在JSON中结构的，这是另一个专业的LLM（带有Pandas之类的工具）设计 CSV表清楚地呈现提取的数据。   您如何看待这种方法？提交由＆＃32; /u/_coder23t8      [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mr9rms/project_unstructored_structured/</guid>
-      <pubDate>Fri, 15 Aug 2025 20:43:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
