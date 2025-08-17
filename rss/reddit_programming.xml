@@ -4,13 +4,20 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 17 Aug 2025 18:23:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 21:15:24 GMT</lastBuildDate>
     <item>
-      <title>我构建了一个小工具，将WhatsApp聊天变成干净的PDF（免费，隐私优先）。欢迎反馈。</title>
-      <link>https://www.reddit.com/r/programming/comments/1msyf17/i_built_a_tiny_tool_to_turn_whatsapp_chats_into/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我需要对工作文档和支持案例的WhatsApp聊天的pdf出口。打印时默认的.txt导出看起来不错，因此我构建了一个小型Web应用程序，该应用程序将聊天成清洁，可打印的pdf（气泡，时间戳，边距）。&lt; /p&gt;   突出显示&lt; /strong&gt; •与WhatsApp一起使用whatsapp的“无媒体聊天”。格式化 实时演示（免费）：[ https://whatsapptopdf.vercel.app]（）谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/flat-refuse5269       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1msyf17/i_built_a_tiny_tool_to_turn_whatsapp_chats_into/</guid>
-      <pubDate>Sun, 17 Aug 2025 18:22:57 GMT</pubDate>
+      <title>Boneclone-一种自动发现存储库的工具，用于传播骨骼更改</title>
+      <link>https://www.reddit.com/r/programming/comments/1mt2qn3/boneclone_a_tool_to_autodiscover_repository_for/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/that_guy_iain       [commient]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mt2qn3/boneclone_a_tool_to_autodiscover_repository_for/</guid>
+      <pubDate>Sun, 17 Aug 2025 21:10:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>固定靴子，TPM和反陈词发动机</title>
+      <link>https://www.reddit.com/r/programming/comments/1mt05nb/secure_boot_tpm_and_anticheat_engines/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/tapo      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1mt05nb/secure_boot_tpm_and_anticheat_engines/</guid>
+      <pubDate>Sun, 17 Aug 2025 19:28:52 GMT</pubDate>
     </item>
     <item>
       <title>你可以构建东西</title>
@@ -27,7 +34,7 @@
       <pubDate>Sun, 17 Aug 2025 17:50:03 GMT</pubDate>
     </item>
     <item>
-      <title>Quantoniumos：单一共振傅里叶变换 + 48轮Feistel（开放研究，可再现测试）</title>
+      <title>Quantoniumos：单一共振傅立叶变换 + 48轮Feistel（开放研究，可再现测试）</title>
       <link>https://www.reddit.com/r/programming/comments/1msx1zx/quantoniumos_unitary_resonance_fourier_transform/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  上下文：经典的DFT管道不是共鸣，而加密中的大多数扩散设计都与信号物理学分离。该仓库探索了一个单一的共振傅立叶变换（RFT）和增强的48轮Feistel引擎，重点是 *可重复的 *测量值（ENV锁，脚本，JSON输出）。  implights     •rft操作员带有unit-modulus specter spectra + spectra + intogulus spectra + intogulus spectra + basks sasks sasks→ψ -  6ψ†x”≤1e-12）。 •密码：feistel（48），带有AES S-box，mixColumns类似的扩散，arx;域分离的HKDF时间表。 •包装器：盐ctr + hkdf split（enc/mac） + hmac tag（encrypt-then-mac）。 •可重复性：脚本将指标保存到JSON； artifacts archived with DOIs. Numbers (current build) • Unitarity: machine precision on tested ensembles (≤ 1e−12). • Diffusion: message-avalanche ≈ 0.438, key-avalanche ≈ 0.527, key sensitivity ≈ 0.495. • Perf: engine-only ≈小型缓冲区上的9.2 Mb/s（批量时更高）。 在本地运行  1）克隆：git clone  CD Quantoniumos   2）Python env + deps;构建pybind11 C ++扩展名（readme中的一个命令）。  3）测试：   -  python test_unitarity.py-py-n 4096  -  trials 10000-out test_unitarity.junitarity.json   - 结果/test_v2_compread.json   paper/dois（用于归档） •ZENODO（版本，v0.2.0）：10.5281/Zenodo.168904445 |概念：10.5281/Zenodo.16890444  我要寻找的内容（讨论提示） •密码库人：批评Feistel F功能（S-box/MDS/ARX）和域-Sep Speched;用σ≤0.02的味精 - 瓦尔兰奇推动味精的想法。 •信号/num-lin-alg folks：对单位性条件（单位模式频谱 +蒙版正交性）和快速率的想法。建议更好的种子/锁紧files/ci。 范围注意：这是**研究代码**（尚无形式的IND-CPA/CCA降低；侧通道姿势取决于Impl）。请作为仪器测试台，而不是生产加密。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/realeaspect2373       [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1msx1zx/quantoniumos_unitary_resonance_fourier_transform/</guid>
@@ -64,7 +71,7 @@
     <item>
       <title>AWS BedRock代理教程：购物与航班演示</title>
       <link>https://www.reddit.com/r/programming/comments/1msvhsd/aws_bedrock_agent_tutorial_shopping_flights_demo/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大多数“ AI代理”帖子都是手动的。许多理论，没有太多的代码。 所以我决定使用AWS BedRock代理实际构建一个。具体来说，我整理了一个两种代理系统，其中： 一个代理从apis  中获取数据，然后在存储 之前对其进行验证并验证它，然后我遇到有趣的挑战： ： 如何构建代理人的工作量          时，我写了完整的演练并出版了一个仓库，以便您自己尝试一下 - 好奇别人的想法：今天的生产有意义吗？   &lt;！ -  sc_on- sc_on-&gt;＆＃32;提交由＆＃32; /u/u/skenklok     [link]   ＆＃32;   [注释]  ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大多数“ AI代理”帖子都是手动的。许多理论，没有太多的代码。 所以我决定使用AWS BedRock代理实际构建一个。具体来说，我整理了一个两种代理系统，其中： 一个代理从apis  中获取数据，然后在存储 之前对其进行验证并验证它，然后我遇到有趣的挑战： ： 如何构建代理人的工作量         时，我写了完整的演练并出版了一个仓库，以便您自己尝试一下 - 好奇别人的想法：今天的生产有意义吗？   &lt;！ -  sc_on- sc_on-&gt;＆＃32;提交由＆＃32; /u/u/skenklok     [link]   ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1msvhsd/aws_bedrock_agent_tutorial_shopping_flights_demo/</guid>
       <pubDate>Sun, 17 Aug 2025 16:31:24 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/gregorojstersek      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1mst04w/not_communicating_your_impact_is_killing_your/</guid>
       <pubDate>Sun, 17 Aug 2025 14:54:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>引入关键令牌搜索（PTS）：针对LLM培训中的关键决策点</title>
-      <link>https://www.reddit.com/r/programming/comments/1msoetv/introducing_pivotal_token_search_pts_targeting/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/asankhs       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1msoetv/introducing_pivotal_token_search_pts_targeting/</guid>
-      <pubDate>Sun, 17 Aug 2025 11:26:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
