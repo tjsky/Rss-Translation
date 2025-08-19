@@ -4,7 +4,35 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Tue, 19 Aug 2025 18:24:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 21:19:16 GMT</lastBuildDate>
+    <item>
+      <title>YouTube在智能电视上？ Freetube（PC），NewPipe（Android）集成</title>
+      <link>https://www.reddit.com/r/opensource/comments/1muv7xd/youtube_on_smart_tv_freetube_pc_newpipe_android/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  在PC上，我在Android上使用freetube客户端，我使用newPipe/tabular。我有一个带有Android电视盒的智能电视。   我希望一种简单的方法，可以在Android手机上发送YouTube视频链接/播放列表来在智能电视上播放，这是否可以不使用第三方服务？我更喜欢为此目的不愿将电话屏幕屏幕播放到电视上（可能会耗尽电池寿命，在屏幕上显示不需要的通知等）。      是否有任何3个客户（Freetube，NewPipe，NewPipe，NewPipe，以及用于Android电视盒的所有客户）之间的集成方式？理想情况下，他们共享相同的订阅，播放列表等。客户似乎没有一种能够将它们同步的方法，也不支持一个本地托管的帐户，该帐户彼此相处。     我使用可以在设备之间进行同步的数据，但是他们不使用相同的形式，而不是在同一范围之间进行同步的帮助。 Freetube/Newpipe and presumably SmarTubeNext for the TV are great apps on their own, the is there really no integration between them such that you seamlessly switch between them with auto-synced subscriptions and playlists? My workaround is to download the videos on a Jellyfin server and play from there but obviously it requires storage space and seems too expensive for what is usually &quot;come across a video of any interest,下载，也许一次观看一次，删除。  我不确定KDE Connect是否可以将YouTube链接复制到剪贴板并将其分享到Android TV Box，但这很烦人，因为这也需要手动粘贴到YouTube客户端进行播放。 jellyfin允许呈现YouTube链接/播放列表，就像它是库的一部分一样。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/jkaiser6     [links]   &lt;a href =“ https://www.reddit.com/r/opensource/comments/1muv7xd/youtube_on_smart_smart_tv_freetube_pc_newpipe_newpipe_android/”]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1muv7xd/youtube_on_smart_tv_freetube_pc_newpipe_android/</guid>
+      <pubDate>Tue, 19 Aug 2025 21:11:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>带有AI搜索与协作的IT专业的开源文档平台</title>
+      <link>https://www.reddit.com/r/opensource/comments/1muthvg/opensource_docs_platform_for_it_pros_w_ai_search/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在建立一个IT团队的开源文档平台，提供企业级功能，而无需供应商锁定。它结合了AI驱动的搜索，强大的协作和强大的安全性，以简化知识管理。 关键功能：🚀协作：实时编辑，螺纹注释，使用diffs的版本控制。 🏢工作区：多工作空间设置，基于角色的权限，分析，自定义品牌。 AI搜索：自然语言查询，智能建议，OCR处理。 🔒安全性：SSO/LDAP，粒状访问，审核日志，安全DOC VAULTS。 📱ui：移动优化的PWA，离线支持，带有图的丰富文本编辑。 链接：github： href =“ https://demo.bitsurge.io”&gt; https://demo.bitsurge.io    早期舞台项目 - 是否会喜欢您对此的想法。  &lt;！&lt;！ -  sc_on--&gt; 32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1muthvg/opensource_docs_docs_platform_it_it_it_pros_w_ai_ai_search/&gt; [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1muthvg/opensource_docs_platform_for_it_pros_w_ai_search/</guid>
+      <pubDate>Tue, 19 Aug 2025 20:08:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>与Postgres同步：逻辑复制与ETL</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mut73q/syncing_with_postgres_logical_replication_vs_etl/</link>
+      <description><![CDATA[    Src =“ https://external-preview.redd.it/g9e5hndcx2b66xk49gl2inwpu8c5yhshejakgt3_byw.png？ width = 640＆amp; crop = smart＆amp; auto = webp＆amp; s = af962ec89418315f79113d5120a2f8eff63f27a“ title =“与Postgres同步：逻辑复制与ETL”/&gt;   ＆＃32;提交由＆＃32; /u/u/philippemnoel      [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mut73q/syncing_with_postgres_logical_replication_vs_etl/</guid>
+      <pubDate>Tue, 19 Aug 2025 19:57:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>为Fediverse发布了一个开源启发的工具：loftly.social</title>
+      <link>https://www.reddit.com/r/opensource/comments/1musgzu/built_an_opensourceinspired_tool_for_fediverse/</link>
+      <description><![CDATA[I couldn’t find a good way to post across Mastodon, Bluesky, Pixelfed, and Lemmy simultaneously, so I built one: Loftly.social It’s live now, and I’d love to hear from the open-source community—what features or改进将使您对您最有用？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/campfire-games     [link]     [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1musgzu/built_an_opensourceinspired_tool_for_fediverse/</guid>
+      <pubDate>Tue, 19 Aug 2025 19:31:10 GMT</pubDate>
+    </item>
     <item>
       <title>新的，如果大家都可以提出建议或可能做出贡献</title>
       <link>https://www.reddit.com/r/opensource/comments/1mup8ic/new_here_would_like_if_yall_can_give_suggestions/</link>
@@ -22,14 +50,14 @@
     <item>
       <title>完整的开源仪表板模板</title>
       <link>https://www.reddit.com/r/opensource/comments/1mukzy3/full_opensource_dashboard_template/</link>
-      <description><![CDATA[       &lt;！ -  sc_off- sc_off-&gt;  在过去的几个月中，我们一直在为OpenStatus进行修改。虽然我们是开源的，但很难仅分配并重复使用仪表板应用程序。 我们为一个模板工作，供我们快速前进（不涉及后端），并将其与用户分享以获取反馈。  为您重复使用。 Axiom  共享，恒星，叉子！ 如果您想阅读更多信息，请查看我们的最新博客文章：   https://www.openstatus.dev/blog/new-dashboard-dashboard-we-are-are-so-so-so-so-so-so-back一下提交由＆＃32; /u/u/mxkaske       [注释]    ]]></description>
+      <description><![CDATA[       &lt;！ -  sc_off- sc_off-&gt;  在过去的几个月中，我们一直在为OpenStatus进行修改。虽然我们是开源的，但很难仅分配并重复使用仪表板应用程序。 ，我们为一个模板工作，供我们快速前进（不涉及后端），并与用户分享它以获得反馈。  为您重复使用。 Axiom  共享，恒星，叉子！ 如果您想阅读更多信息，请查看我们的最新博客文章：   https://www.openstatus.dev/blog/new-dashboard-dashboard-we-are-are-so-so-so-so-so-so-back一下提交由＆＃32; /u/u/mxkaske       [注释]    ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mukzy3/full_opensource_dashboard_template/</guid>
       <pubDate>Tue, 19 Aug 2025 15:04:17 GMT</pubDate>
     </item>
     <item>
       <title>保留本地网络托管的Web链接和镜子列表，并使用公共链接和其他好处</title>
       <link>https://www.reddit.com/r/opensource/comments/1muj4q0/keep_local_webhosted_lists_of_web_links_and/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我将一些文档页面保存在概念上。因此，我保留软件和URL列表的公共页面，因此我和我的朋友（如果有公共链接）可以使用它们 是有组织的Web链接的集合，通过某些标签或分类组织。因此，当我需要此时，我可以很容易地找到它们示例，我有“ Linux ISO下载网站”的列表，按“ Linux ISO”类型进行分类。以及“ Linux ISO”上的内容。本身。 概念数据库，对于此用例，它很酷（跟踪URL，向其添加标签，添加笔记，使用视图对滤波器进行前滤波器的行），尽管我必须说。 。 ，但是现在我想改善系统，因为我想在我的服务器上移动这些东西，并且不依靠notion或 ，尽管我知道很多软件，这些软件是我可以在其中复制它的概念的替代品（例如，offineoffine。siyuan）（例如，siyuan）或简单地使用了一些链接收集软件（例如，我都可以使用这些链接，例如，我可以找到这些链接，例如，我可以找到这些链接，我可以找到，例如，我可以找到这些链接，我可以找到这些链接，我可以找到这些链接，我可以找到这些链接，我可以找到这些链接（例如，我都可以找到，例如，我可以找到这些链接（例如，我都可以找到，例如，我可以找到这些链接（例如，我都可以使用，我可以使用这些软件（例如，我都可以使用它。事物：  保持分类的链接，并带有一个简单的模板，我可以填充 有可能为每个链接放置多个标签（如上面的示例） 我可以轻松地保留“镜像”。与“实体”相同的“实体”有关（重要的是，因为当a linux网站“离线可能是好的，有其他选择是好的）。  Selfhosted, optionally OICD (I&#39;m implementing it lately with PocketID and it&#39;s amazing) That have public pages (good alternative, I can always use gatekeeping to ensure that only those who have access to server can see it) Dream: easily access these links from a browser like Firefox, Chrome or Mobile. OSS: albeit I use proprietary在需要的情况下，我想在这里依靠一些开放和社区驱动的东西  自授权的世界有很多选择可以符合这些要求的一部分，但是我很好奇是否存在一些完美的选择，或者社区如何解决这个确切的问题。    &lt;！ -  sc_on--&gt; 32;提交由＆＃32; /u/miocuggino     [link]   [注释]   ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我将一些文档页面保存在概念上。因此，我保留软件和URL列表的公共页面，因此我和我的朋友（如果有公共链接）可以使用它们 是有组织的Web链接的集合，通过某些标签或分类组织。因此，当我需要像此时，我可以很容易地找到它们。示例，我有“ Linux ISO下载网站”的列表，按“ Linux ISO”类型进行分类。以及“ Linux ISO”上的内容。本身。 概念数据库，对于此用例，它很酷（跟踪URL，向其添加标签，添加笔记，使用视图对滤波器进行前滤波器的行），尽管我必须说。 。 ，但是现在我想改进系统，因为我想在我的服务器上移动这些东西，并且不依赖于我的doteion或 ，尽管我知道很多软件，这些软件是我可以在其中复制它的概念的替代品（例如，offineoffine。siyuan）（例如，siyuan）或简单地使用了一些链接收集软件（例如，我都可以使用这些链接，例如，我可以找到这些链接，例如，我可以找到这些链接，我可以找到，例如，我可以找到这些链接，我可以找到这些链接，我可以找到这些链接，我可以找到这些链接，我可以找到这些链接（例如，我都可以找到，例如，我可以找到这些链接（例如，我都可以找到，例如，我可以找到这些链接（例如，我都可以使用，我可以使用这些软件（例如，我都可以使用它。事物：  保持分类的链接，并带有一个简单的模板，我可以填充 有可能为每个链接放置多个标签（如上面的示例） 我可以轻松地保留“镜像”。与“实体”相同的“实体”有关（重要的是，因为当a linux网站“离线可能是好的，有其他选择是好的）。  Selfhosted, optionally OICD (I&#39;m implementing it lately with PocketID and it&#39;s amazing) That have public pages (good alternative, I can always use gatekeeping to ensure that only those who have access to server can see it) Dream: easily access these links from a browser like Firefox, Chrome or Mobile. OSS: albeit I use proprietary在需要的情况下，我想在这里依靠一些开放和社区驱动的东西  自授权的世界有很多选择可以符合这些要求的一部分，但是我很好奇是否存在一些完美的选择，或者社区如何解决这个确切的问题。    &lt;！ -  sc_on--&gt; 32;提交由＆＃32; /u/miocuggino     [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1muj4q0/keep_local_webhosted_lists_of_web_links_and/</guid>
       <pubDate>Tue, 19 Aug 2025 13:55:13 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/u/jeff-in-bournemouth      [注释]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1muf05f/i_built_inputright_an_opensource_ai_voice_agent/</guid>
       <pubDate>Tue, 19 Aug 2025 10:50:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>我发行了ZLI-一款功能强大的CLI解析器，用打字稿和ZOD构建，用于类型安全命令行接口</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mue3gu/i_released_zli_a_powerful_cli_parser_built_with/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我最近建立了一个功能强大的CLI Parser，基于打字稿和ZOD，用于类型安全命令行接口，重点是开发人员体验和可用性。解析器支持高级功能，例如标志解析，参数验证并帮助开箱即用。 href =“ https://www.npmjs.com/package/@robingenz/zli”&gt; https://www.npmjs.comcom/package/ppackage/@robingenz/zliz/zliz/zli  ＆＃32;提交由＆＃32; /u/u/ubingenz       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mue3gu/i_released_zli_a_powerful_cli_parser_built_with/</guid>
-      <pubDate>Tue, 19 Aug 2025 09:58:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>我启动了一个NPM软件包，让您在网站顶部绘制素描 - 完美的注释。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mucg8l/i_launched_a_npm_package_that_lets_you_sketch_on/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  大家好，我最近构建了一个强大的NPM pacakge，让您在任何网页的顶部添加一个完全透明的草图层。用户可以自由绘制，输入注释，放置贴纸并用作白板，同时仍然与下面的内容进行交互。 github： https://github.com/a-ryan-kalra/reaectble-pad-pad-pad  href =“ https://scribble-pad-pad-psi.ver.app/”&gt; https://scribble-pad-pad-pad-psi.ver.app/     如果您觉得这个项目有用，请考虑在存储库中留下一定的动机，以使我保持不可成立的时间，以使我保持努力的努力，以构建社区 -  /u/u/u/devil_777777777       &lt;a href =“ https://www.reddit.com/r/opensource/comments/1mucg8l/i_launched_a_a_npm_package_that_that_that_lets_you_sket_sketh_one/]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mucg8l/i_launched_a_npm_package_that_lets_you_sketch_on/</guid>
-      <pubDate>Tue, 19 Aug 2025 08:13:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>LRU-MEMOIZE：LUA功能的基于LRU的回忆缓存</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mu9wzs/lrumemoize_lru_based_memoization_cache_for_lua/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/piyuple     [link]   [commist]    ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mu9wzs/lrumemoize_lru_based_memoization_cache_for_lua/</guid>
-      <pubDate>Tue, 19 Aug 2025 05:40:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI的开源符号认知框架：介绍ZER00LOGY和VARIA数学课程</title>
-      <link>https://www.reddit.com/r/opensource/comments/1mu9pua/opensource_symbolic_cognition_framework_for_ai/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1mu9pua/opensource_symbolic_cognition_framework_for_ai/</guid>
-      <pubDate>Tue, 19 Aug 2025 05:28:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
