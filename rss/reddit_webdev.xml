@@ -4,7 +4,21 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Wed, 20 Aug 2025 01:14:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 Aug 2025 03:41:08 GMT</lastBuildDate>
+    <item>
+      <title>这是我们将地理编码成本降低90％的方式</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mv2sgo/heres_how_we_cut_our_geocoding_costs_by_90/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mv2sgo/heres_how_we_cut_our_geocoding_costs_by_90/</guid>
+      <pubDate>Wed, 20 Aug 2025 02:33:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>我创建了一种在Markdown中动态渲染JSX组件的方法，以让AI和用户生成的内容嵌入React和其他JSX框架组件</title>
+      <link>https://www.reddit.com/r/webdev/comments/1mv1tib/i_created_a_way_to_dynamically_render_jsx/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我想分享一个我在工作中从事开源库的项目。它建立在 React-Markdown 和MDX顶部，它使解析JSX标签可嵌入框架本地的React组件中，将其嵌入生成的Markdown中。 （它也应该与任何JSX运行时框架一起使用） 它由MDX Parser提供动力，但是与MDX不同，它仅允许静态JSX语法，因此可以在运行时安全地运行，而不是编译时间使其适合于诸如ATATIC SECUSES之类的非整体源或使用sakdate safe saf the Antatic或ser ser ser sers的组件。我深入研究了它在引擎盖下的工作原理，因此希望它具有教育意义且有用！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/tmetler      [commist]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1mv1tib/i_created_a_way_to_dynamically_render_jsx/</guid>
+      <pubDate>Wed, 20 Aug 2025 01:47:40 GMT</pubDate>
+    </item>
     <item>
       <title>认识Kuba-完全摆脱.env</title>
       <link>https://www.reddit.com/r/webdev/comments/1muyz8q/meet_kuba_get_rid_of_env_entirely/</link>
@@ -36,7 +50,7 @@
     <item>
       <title>一台功能强大的笔记本电脑/监视器就足够了。</title>
       <link>https://www.reddit.com/r/webdev/comments/1muvpgb/one_powerful_laptopmonitor_is_enough/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  当我开始使用Web开发时，我只有一台PC。随着我的进步，我认为我需要2个PC和一些监视器来提高我的生产力。但是，猜猜是什么，在我获得它们后，我只用它们来进行游戏而不是编码，大声笑。现在，他们已经将灰尘沉降了近一年。我仍然使用我启动的PC，它几乎可以做到。  我不认为我会称呼“工具”的东西。 would become a distraction..   提交由＆＃32; /u/u/no_two_3617     [link]    32;   [注释]   ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  当我开始使用Web开发时，我只有一台PC。随着我的进步，我认为我需要2个PC和一些监视器来提高我的生产力。但是，猜猜是什么，在我获得它们后，我只用它们来进行游戏而不是编码，大声笑。现在，他们已经将灰尘沉降了近一年。我仍然使用我启动的PC，它几乎可以做到。  我不认为我会称呼“工具”的东西。会分散注意力。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/no_two_3617     [link]    32;   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1muvpgb/one_powerful_laptopmonitor_is_enough/</guid>
       <pubDate>Tue, 19 Aug 2025 21:29:28 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  这是一个WebDev子。评论“评论”时主要动作的按钮是红色。到底是什么。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/orcanz     [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1muoxnn/who_the_hell_hell_hell_thought_red_was_was_a_good_good_good_primary_color/]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1muoxnn/who_the_hell_thought_red_was_a_good_primary_color/</guid>
       <pubDate>Tue, 19 Aug 2025 17:25:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>我需要在现场环境上进行逆风吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1muotl6/do_i_need_tailwind_on_live_environment/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  非常愚蠢的问题，更多的理智检查，但是我实际上需要在我的实时环境上的任何尾风文件吗？从本质上讲，Tailwind只是CSS编译器的权利，因此我可以在登台环境上进行尾风，构建我的东西，然后将编译的CSS上传到现场Env（当然是HTML）？这样，我避免在实时服务器上安装尾风的开销，除非我专门想编译CSS或将来直接在此处进行更改。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1muotl6/do_i_need_tail_tailwind_on_live_environment/”&gt; [link]        [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1muotl6/do_i_need_tailwind_on_live_environment/</guid>
-      <pubDate>Tue, 19 Aug 2025 17:21:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>渲染SaaS的铁路？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1muoer4/render_vs_railway_for_saas/</link>
-      <description><![CDATA[Hi, Please help me choose between Render and Railway for a small SaaS (web service). Details:  stack: Deno, Postgres, Websockets for client-server comm EU compliant (EU data hosting, GDPR etc.) 最初有200个用户（最大20个并发连接） 可能需要很快适应（在启动后几个月内）3000多个用户（〜300个并发连接） - 因此需要快速扩展。 云服务初始预算的初始预算 - 最大100（€）/mo。  请不要坚持AWS，Azure，GCP-我不感兴趣。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/us forg-nectarine-1148     [link]    32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1muoer4/render_vs_railway_for_saas/</guid>
-      <pubDate>Tue, 19 Aug 2025 17:06:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
