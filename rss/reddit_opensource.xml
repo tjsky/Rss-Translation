@@ -4,7 +4,14 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Mon, 25 Aug 2025 12:36:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 Aug 2025 15:18:46 GMT</lastBuildDate>
+    <item>
+      <title>Hyperfan</title>
+      <link>https://www.reddit.com/r/opensource/comments/1mzpcbv/hyperfan/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/umblemood      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1mzpcbv/hyperfan/</guid>
+      <pubDate>Mon, 25 Aug 2025 12:38:46 GMT</pubDate>
+    </item>
     <item>
       <title>介绍Univer MCP  - 每个人的AI本地电子表格</title>
       <link>https://www.reddit.com/r/opensource/comments/1mzoz7y/introducing_univer_mcp_ainative_spreadsheets_for/</link>
@@ -15,7 +22,7 @@
     <item>
       <title>我构建了一个生锈CLI，用于在AWS S3上共享安全的临时文件。使用服务器加密上的S3，链接/文件会自动过期，并且几乎没有运行（免费层）</title>
       <link>https://www.reddit.com/r/opensource/comments/1mzoo4d/i_built_a_rust_cli_for_secure_temporary_file/</link>
-      <description><![CDATA[      I built TempS3 to solve file sharing, either its for transferring personal files或在团队/开发人员之间共享资源。这是一种用生锈编写的简单，安全的命令行工具，可让您使用自己的AWS S3存储桶进行临时文件存储。   github repo：  为什么会有所不同？     首先：凭据使用AES-2GCM加密并存储在系统的本机键环（带有加密的文件倒退）中。所有共享都是通过临时的预设URL完成的。从来没有凭证存储在纯文本中。  智能文件生命周期：忘记手动清理。 Files are automatically deleted from your S3 bucket after 1, 3, or 5 days using S3 Lifecycle Policies, which keeps your storage costs incredibly low. Performance Optimized: For files over 5MB, it automatically switches to a multipart upload, processing chunks concurrently for maximum speed. Local History: It keeps a local上传历史记录的sqlite数据库，因此您可以轻松地搜索，过滤和查找文件及其链接。   cross-platform：在Windows，Linux，MacOS，Docker和CI/CD/CD环境上工作。                   &lt;！提交由＆＃32; /u/u/u/lostmathematician621      &lt;a href =“ https://www.reddit.com/r/opensource/comments/1mzoo4d/i_built_a_rust_rust_cli_for_secure_secure_secure_secure_temporary_file/]]></description>
+      <description><![CDATA[        &lt;！ -  sc_off-sc_off-sc_off-sc_off  -  sc_&gt;    github repo：  为什么会有所不同？     首先：凭据使用AES-2GCM加密并存储在系统的本机键环（带有加密的文件倒退）中。所有共享都是通过临时的预设URL完成的。从来没有凭证存储在纯文本中。  智能文件生命周期：忘记手动清理。 Files are automatically deleted from your S3 bucket after 1, 3, or 5 days using S3 Lifecycle Policies, which keeps your storage costs incredibly low. Performance Optimized: For files over 5MB, it automatically switches to a multipart upload, processing chunks concurrently for maximum speed. Local History: It keeps a local上传历史记录的sqlite数据库，因此您可以轻松地搜索，过滤和查找文件及其链接。   cross-platform：在Windows，Linux，MacOS，Docker和CI/CD/CD环境上工作。                   &lt;！提交由＆＃32; /u/u/u/lostmathematician621      &lt;a href =“ https://www.reddit.com/r/opensource/comments/1mzoo4d/i_built_a_rust_rust_cli_for_secure_secure_secure_secure_temporary_file/]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mzoo4d/i_built_a_rust_cli_for_secure_temporary_file/</guid>
       <pubDate>Mon, 25 Aug 2025 12:07:04 GMT</pubDate>
     </item>
@@ -29,7 +36,7 @@
     <item>
       <title>开源聊天应用程序？</title>
       <link>https://www.reddit.com/r/opensource/comments/1mzng8s/open_source_chatting_app/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  是否有允许完全自定义的开源聊天应用程序？因为不需要它需要满足某些要求，因此它们要走了：   - 至少需要支持Android    - 它需要具有某种加密来避免消息 的内容   - 它需要在其上添加一些机构，因为我需要在其上添加新的功能，因为我需要在其上添加新的功能   - 不是强制性的。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1mzng8s/open_source_chatting_app/”&gt; [link]   ＆＃32;   [注释]  ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  是否有允许完全自定义的开源聊天应用程序？因为不需要它需要满足某些要求，所以它们要走了：   - 至少需要支持Android    - 它需要具有某种加密来避免消息 的内容   - 它需要在其上添加一些功能，因为我需要在其上添加新的功能，因为我需要在其上添加新的功能   -     - 不是强制性的。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1mzng8s/open_source_chatting_app/”&gt; [link]   ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mzng8s/open_source_chatting_app/</guid>
       <pubDate>Mon, 25 Aug 2025 11:04:22 GMT</pubDate>
     </item>
@@ -43,7 +50,7 @@
     <item>
       <title>引入分子UI V1</title>
       <link>https://www.reddit.com/r/opensource/comments/1mzh3q8/introducing_molecule_ui_v1/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  引入分子UI  我们很高兴引入分子UI V1。  https://www.moleculeui.design/       molecule ui ui是基于使开发人员易于访问的动画组成部分的概念。动画是使用Motion和CSS动画处理的。 Tailwind用于样式和Radix UI，可用于可访问性。 ，而不仅仅是为您提供构建块分子UI的目标，目的是提供插头和播放，组件和块。我们的目的是为应用程序提供每个必需的部分。复选框  - 扭曲对话框  - 讨论  - 可扩展按钮  - 语音输入和10多准备使用组件&lt; /p&gt; 我们是MIT许可证和寻找贡献者的开源项目。如果您有兴趣，请拿起我们的仓库，开始创造出色的事情。  https://github.com/molecule-com/molecule-lab/molecule-ui/molecule-ui/fork 提交由＆＃32; /u/u/u/bagzelecealideal9913     [link]   ＆＃32;   [注释]   ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  引入分子UI  我们很高兴引入分子UI V1。  https://www.moleculeui.design/       molecule ui ui是基于使开发人员易于访问的动画组成部分的概念。动画是使用Motion和CSS动画处理的。 Tailwind用于样式和Radix UI，可用于可访问性。 ，而不仅仅是为您提供构建块分子UI的目标，目的是提供插头和播放，组件和块。我们的目的是为应用程序提供每个必需的部分。复选框  - 扭曲对话框  - 讨论  - 可扩展按钮  - 语音输入和10多准备使用组件&lt; /p&gt; 我们是MIT许可证和寻找贡献者的开源项目。如果您有兴趣，请拿出我们的仓库，然后开始创造出色的事情。  https://github.com/molecule-com/molecule-lab/molecule-ui/molecule-ui/fork 提交由＆＃32; /u/u/u/bagzelecealideal9913     [link]   ＆＃32;   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mzh3q8/introducing_molecule_ui_v1/</guid>
       <pubDate>Mon, 25 Aug 2025 04:31:34 GMT</pubDate>
     </item>
@@ -57,7 +64,7 @@
     <item>
       <title>我构建了最佳的投资组合模板：开源，用框架运动动画，并通过简单的JSON文件进行完全自定义。</title>
       <link>https://www.reddit.com/r/opensource/comments/1mzelql/i_built_the_best_portfolio_template_opensource/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我想要一些看起来现代且专业的东西，但很容易更新，而无需触摸React代码。因此，我构建了这个： NextGen投资组合。这是一个完全开源的模板，旨在使您在几分钟之内启动并运行一个令人惊叹的现代投资组合。  在此处查看：          https://nextgenportfolio.vercel.app       github repo：  https://github.com/killcod3/nextgenportfolio          最好的部分？自定义。您的所有个人信息，项目，技能，工作经验和社交链接均以简单的 .json 文件管理/config&gt;/config 目录。不再只是为了改变您的生物！ 我很想听听您的想法和反馈。我希望这有助于某人参加下一场演出！欢呼。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/lostmathematician621       [注释]]]></description>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我想要一些看起来现代且专业的东西，但很容易更新，而无需触摸React代码。因此，我构建了这个： NextGen投资组合。这是一个完全开源的模板，旨在使您在几分钟之内启动并运行一个令人惊叹的现代投资组合。  在这里查看：        live demo：  https://nextgenportfolio.vercel.app       github repo：  https://github.com/killcod3/nextgenportfolio          最好的部分？自定义。您的所有个人信息，项目，技能，工作经验和社交链接均以简单的 .json 文件管理/config&gt;/config 目录。不再只是为了改变您的生物！ 我很想听听您的想法和反馈。我希望这有助于某人参加下一场演出！欢呼。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/lostmathematician621       [注释]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mzelql/i_built_the_best_portfolio_template_opensource/</guid>
       <pubDate>Mon, 25 Aug 2025 02:20:15 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我一直在尝试几何 + kotlin，并整理一个小库，称为组成形状fitter  。  drawscope   或将它们近似为形状（目前：圆，椭圆，三角形，方形，五角大楼，五角大楼，六角形，定向边界框）。      https://github.com/sarimmehdi/sarimmehdi/compose-shape-fitter-fitter 提交由＆＃32; /u/u/zimmer550king     [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1mz28q9/library_compose_shape_fitter_shape_approximation/</guid>
       <pubDate>Sun, 24 Aug 2025 17:45:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cadoodle- 3D打印的FOSS拖放CAD</title>
-      <link>https://www.reddit.com/r/opensource/comments/1myzrae/cadoodle_foss_draganddrop_cad_for_3d_printing/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   cadoodle是tinkercad的免费开源替代方案。它具有与TinkerCad相同的可用性，但是一个本地应用程序，其模型文件牢固地存储在您自己的计算机上。这是一个Java应用程序，配备了用于DEB，Appimage，Windows和MacOS的安装程序。我是Cadoodle的作者，所以请随时问我任何事情！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/hephaestusness      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1myzrae/cadoodle_foss_draganddrop_cad_for_3d_printing/</guid>
-      <pubDate>Sun, 24 Aug 2025 16:12:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
