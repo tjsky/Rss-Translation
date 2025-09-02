@@ -4,20 +4,20 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Tue, 02 Sep 2025 18:22:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 21:14:30 GMT</lastBuildDate>
+    <item>
+      <title>哪些最佳实践是优化CSS加载过程以避免FOUC并避免构造障碍Global.css文件等？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1n6rers/what_are_some_best_practices_for_optimising_css/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  您是否将英雄部分的样式嵌入式，将相关的媒体查询添加到样式标签中，然后将所有非关键CSS加载到单独的文件中以示为例如。还是有更好的方法可以解决？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/stranded_in_a_desert      [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1n6rers/what_are_some_best_practices_for_optimising_css/</guid>
+      <pubDate>Tue, 02 Sep 2025 18:27:32 GMT</pubDate>
+    </item>
     <item>
       <title>经营第一个Web应用程序的常见错误？</title>
       <link>https://www.reddit.com/r/webdev/comments/1n6qe58/common_mistakes_operating_your_first_web/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  你好！大多数情况下，我发现了多年有关此主题的帖子，因此，由于世界快速变化的世界，我想询问您最近的经历。 我想与烧瓶（Python）创建一个连接到PostgreSQL数据库的Web应用程序。第一个功能将只是简单地提交数字列表，然后检查它是否在数据库中。稍后将扩展。我正在考虑将其托管在Google Cloud上。 总的来说，我对最常见和琐碎的错误或我应该意识到的方面感到很感兴趣。你经历了什么？您的应用程序如何崩溃了吗？安全方面？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/sevirekon     [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1n6qe58/common_mistakes_operating_your_first_web/</guid>
       <pubDate>Tue, 02 Sep 2025 17:50:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的HTML文件在静态部署上返回404，但旧文件有效 - 可能原因？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1n6q7ru/new_html_files_returning_404_on_static_deployment/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;     ##我正在将静态HTML网站部署到GitHub的Vercel。这是怪异的部分：存储库中的现有HTML文件完美地服务，但是成功构建和部署后，我添加了返回404的任何新HTML文件。这似乎是一个通用的静态托管问题，而不仅仅是特定于Vercel的问题。有人在其他平台上遇到过类似的行为吗？ ##什么有效，而无效的工作**✅工作：**  - `index.html`，`of.html`，`services.html`-全部负载罚款 - 域名 - 域连接和现有功能 - 构建logs show show show show＆quort show＆quot of quot&#39;&#39; with no errors **❌ Not Working:** - `new-page.html` - returns 404 - `test-simple.html` - returns 404 - Any HTML file added after initial deployment ## Troubleshooting Steps Tried - ✅ Multiple redeployments from dashboard - ✅ Confirmed new files exist in GitHub repo root - ✅ Verified build logs show successful completion - ✅ Force pushed new commits要触发新鲜的版本 - 与NetLify部署（在那里工作正常）相比，检查了缓存问题（等待24小时以上） - ✅技术细节**设置：**普通的HTML文件，无需构建过程** VERCEL CONFICT：** framework：** framework =; **存储库：**文件目录中的文件，标准结构````````json // vercel.json（基本路由）{;为“快照”服务。从添加新文件之前。就像平台索引了初始文件，但并未检测到新文件，即使成功构建完整也是如此。 **问题：** 1。这是静态站点主机的已知行为吗？ 2。诸如Vercel/Netlify之类的平台通常索引新文件？ 3。是否有可能引起这一点的配置？这将阻止生产网站上的新页面部署，因此任何见解都将不胜感激！    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/lymanmaze     [links]     &lt;a href =“ https://www.reddit.com/r/webdev/comments/1n6q7ru/new_html_files_files_returning_404_on_static_deployment/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1n6q7ru/new_html_files_returning_404_on_static_deployment/</guid>
-      <pubDate>Tue, 02 Sep 2025 17:43:28 GMT</pubDate>
     </item>
     <item>
       <title>需要真正的意见</title>
@@ -29,7 +29,7 @@
     <item>
       <title>为什么要重新合并？</title>
       <link>https://www.reddit.com/r/webdev/comments/1n6p7il/why_rebase_over_merge/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  为什么团队强迫使用合并的重新安装，如果一般合并的问题较小？ 🤔  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/haronclv      [注释]  ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  为什么团队强迫使用合并的折线，如果一般合并的问题较小？ 🤔  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/haronclv      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1n6p7il/why_rebase_over_merge/</guid>
       <pubDate>Tue, 02 Sep 2025 17:05:26 GMT</pubDate>
     </item>
@@ -39,13 +39,6 @@
       <description><![CDATA[&lt; src =“ https://external-preview.redd.it/mfpxobopdmxexdcf9bnets9kp6kpsblmflmflmflm2krxs0.png？宽度= 640＆amp; crop = smart＆amp; auto = webp＆amp; s = fbca9accf0a71219066c86c86ef716cb6de77b54dddc“ title =“ node.js”的下一代FlameGraph可视化/&gt;   ＆＃32;提交由＆＃32; /u/feross      [注释]     ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1n6p2a8/introducing_nextgeneration_flamegraph/</guid>
       <pubDate>Tue, 02 Sep 2025 17:00:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个浏览器扩展程序，该扩展程序可以自动转换外国电子商务网站的价格 - 无点击，没有弹出窗口，只是无缝注入。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1n6p1xj/built_a_browser_extension_that_autoconverts/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我厌倦了笨拙的工作流程：请参阅价格→打开转换器→粘贴→convert→重复。因此，我为 Firefox和Edge 建造了一个：  检测国际购物网站上的价格 将它们转换为您的首选货币   注入了转换的价格，只需转换为原始的            &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fighticy_toe255     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1n6p1xj/built_a_browser_extension_that_autoconverts/</guid>
-      <pubDate>Tue, 02 Sep 2025 17:00:02 GMT</pubDate>
     </item>
     <item>
       <title>从Vue转到反应</title>
@@ -97,11 +90,18 @@
       <pubDate>Tue, 02 Sep 2025 12:56:53 GMT</pubDate>
     </item>
     <item>
-      <title>大家好，我最近制作了我的第一个投资组合网站，我希望您对其进行评分，也许告诉我您的任何建议，我仍然没有制作移动版本，因此请在台式机上检查它，就像在移动设备上一样，即使在桌面模式下也有一些意外的问题。谢谢。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1n6ipps/hey_guys_i_recently_made_my_first_portfolio/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;    https://geom3.github.io/personal-portersonal-portfolio/ 提交由＆＃32; /u/u/notorious2169     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1n6ipps/hey_guys_i_recently_made_my_first_portfolio/</guid>
-      <pubDate>Tue, 02 Sep 2025 12:56:01 GMT</pubDate>
+      <title>依赖性地狱：依赖关系在软件开发中的隐藏成本</title>
+      <link>https://www.reddit.com/r/webdev/comments/1n6ictw/dependency_hell_the_hidden_costs_of_dependency/</link>
+      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/oupanut     [link]    32;   [注释]            ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1n6ictw/dependency_hell_the_hidden_costs_of_dependency/</guid>
+      <pubDate>Tue, 02 Sep 2025 12:39:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>帮助，我的index.html文件打开时为空白，我不知道该怎么办。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1n6hr6w/help_my_indexhtml_file_is_blank_when_opened_i/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在三月/四月为我设计了一个网站，这是呕吐的。我真的很讨厌它。因此，我决定采用Figma的帮助来制作新的帮助，我给我留下了深刻的印象。我下载了代码，并使用node.js和powerShell将.TSX文件转换为.js和.css文件，因此我可以将它们与index.html文件一起上传到我的文件管理器。问题是，我打开它时是空白的。我尝试了不同的事情，它们只是不起作用。有人可以帮忙吗？我不知道该怎么办。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/no_assumption_4944      [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1n6hr6w/help_my_mmy_indexhtml_file_is_blank_blank_blank_blank_blank_when_opened_i/”]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1n6hr6w/help_my_indexhtml_file_is_blank_when_opened_i/</guid>
+      <pubDate>Tue, 02 Sep 2025 12:10:41 GMT</pubDate>
     </item>
     <item>
       <title>如何制作多级别的下拉/删除？</title>
