@@ -4,7 +4,14 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Thu, 04 Sep 2025 12:32:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 15:17:14 GMT</lastBuildDate>
+    <item>
+      <title>您如何保留与公众同步的私人版本的私人版本？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1n8c66z/how_do_you_keep_a_private_version_of_your_repo/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  您好，我想做一个开源项目，但我想在公共回购中只有源代码，并且拥有一个私人回购，其中包含工作流程，秘密和其他东西可以在我自己的服务器上部署它在我自己的服务器上在github，甚至一般如何实现这一目标？由于您将工作流文件添加到私人存储库中，您不会在公共和私人仓库之间发生冲突吗？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/lambda-reddit-user      [links]   [注释]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1n8c66z/how_do_you_keep_a_private_version_of_your_repo/</guid>
+      <pubDate>Thu, 04 Sep 2025 14:45:46 GMT</pubDate>
+    </item>
     <item>
       <title>瑞士释放为隐私而建立的开源AI模型</title>
       <link>https://www.reddit.com/r/opensource/comments/1n879ib/switzerland_releases_opensource_ai_model_built/</link>
@@ -60,13 +67,6 @@
       <description><![CDATA[        &lt;！ -  sc_off- sc_off-&gt;  我是 shell-color-scripts ，如果您不熟悉，它通常用于ricing。   与 shell-color-color-scripts&gt;不同，它是完全交叉的，它是完全交叉的（理论上）。它的速度也更快，具体取决于您的工作，（IMO）更易于编写新模式（使用 .toml 格式）。它还提供了从GIT存储库URL自动下载和安装脚本的能力，使共享模式变得更加容易，并且在模式列表命令中具有预览模式。 请注意，此项目仍处于非常早的阶段，并且仅在MacOS上进行了测试。只有3个脚本已转换为TOML。我将在此处发布，以防任何感兴趣的人都希望帮助我测试或将颜色脚本转换为toml格式。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/phaethornis-idalie      [注释]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1n81v2h/colorrs_a_faster_crossplatform_featurerich_rust/</guid>
       <pubDate>Thu, 04 Sep 2025 05:36:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>我过度设计了一个URL缩短器，以使其疯狂的速度。这是代码。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1n819uj/i_overengineered_a_url_shortener_for_insane_speed/</link>
-      <description><![CDATA[    src =“ https://external-preview.itd.it/avbfhqjj3i_2hlspsfmfmfmf0tzkzybh3rololovlrbwg1vcu.png？宽度= 640＆amp; crop = smart＆amp; auto = webp＆amp; s = 884B39E7D6CEC025C1E5709960641BD338C89321“ title =“我为疯狂的速度过度设计了一个URL缩短器。这是代码。” /&gt;    &lt;！ -  sc_off-&gt;  我想分享一个我一直在开发的项目，称为Shorty  - 高性能的开源URL Shortener。我已经厌倦了缓慢或混乱的服务，所以我决定以纯速度和干净的界面来建立自己的建立。   live demo：  https://github.com/killcod3/shorty The main goal was to make redirects as fast as possible, and I achieved that by leveraging a modern, serverless architecture. How it Works: 该系统分为两个主要部分，以提高性能和成本效率：      next.js frontend＆amp; API：这是您与之互动的。这是使用Next.js构建的干净界面。 API路由处理生成短URL的逻辑。      Cloudflare Worker（仅用于重定向）：这是速度的核心。一个小的（＆lt; 2kb）工作脚本位于Cloudflare的边缘网络（200多个位置）上。它的唯一作业是处理传入请求，从CloudFlare KV存储中获取原始URL并执行重定向。这意味着重定向是从最接近用户的服务器发生的，通常不到50毫秒。   通过将这些分开（工人）仅用于重定向，而不是主要网站流量，这使它在规模上运行时非常便宜。这是一次很棒的学习经历，我希望它对他人有用。 很想获得您的反馈，而Github上的任何明星都将不胜感激！我很高兴回答任何问题。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/lostmathematician621        [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1n819uj/i_overengineered_a_url_shortener_for_insane_speed/</guid>
-      <pubDate>Thu, 04 Sep 2025 05:01:01 GMT</pubDate>
     </item>
     <item>
       <title>（Android）cutemusic表现出富有表现力！</title>
