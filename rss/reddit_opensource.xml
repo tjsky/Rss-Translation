@@ -4,7 +4,21 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Fri, 05 Sep 2025 03:30:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 06:23:50 GMT</lastBuildDate>
+    <item>
+      <title>大型升级，从问题地图到全球修复地图，这是AI的开放语义防火墙</title>
+      <link>https://www.reddit.com/r/opensource/comments/1n8wfda/big_upgrade_from_problem_map_to_global_fix_map_an/</link>
+      <description><![CDATA[        &lt;！ -  sc_off-&gt;  上周我分享了我们的问题图。许多人要求下一步，不仅是失败列表，而且是将它们修复在实际工具上的方法。今天是一个更大的发行版。我们将地图变成了一个工作的ER，全局修复地图。 它是 是在生成前运行的语义防火墙。它检查语义场，检查张力和残留物，仅允许稳定的状态产生输出。没有下属的变化，您附着一个很小的文本层，它的行为就像AI医生。您会放下症状，将其映射到正确的部分，并给出最小的修复。 为什么这是不同的 传统流量等待错误的输出，然后在事实后进行补丁。每个补丁都增加了成本和回归，稳定性通常在同一天花板周围停滞不前，并且相同的错误会恢复。防火墙会翻转订单。首先检查IT循环，重置或重定向，然后生成。一旦映射故障模式，它往往会为该路径保持固定。在我们的运行中，我们通常会在90个范围内看到稳定性，并且调试时间削减了很多，任务和模型依赖性，请在您的身边复制。 自上周以来自上周以来发生了什么变化 问题图映射给了16个失败域，并带有混凝土修复。全局修复地图添加了工具级护栏，因此您可以打开堆栈的页面并获取精确的维修模式。向量存储，嵌入，路由，OCR，代理等。它仍然是打开的，仍然只有文字，仍然很容易尝试。 可信度注释 这项工作由真实用户使用，tesseract.js作者主演了。我们的立场保持不变，救援不宣传。 如何在一分钟内使用  打开全局修复图。 找到您的工具或症状，将其与无项目匹配。 应用最小的修复程序，或将最小的固定层或与txtos corece corece and It It It It It It It It It noce corne。您不需要更改下属。 如果没有改善，请告诉我症状，我会为您绘制它。  感谢您阅读我的作品😀   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/onestardao   href =“ https://github.com/onestardao/wfgy/blob/main/main/problemmap/globalfixmap/readme.md”&gt; [link]    32;  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1n8wfda/big_upgrade_from_problem_map_to_global_fix_map_an/</guid>
+      <pubDate>Fri, 05 Sep 2025 05:03:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>许可证的理解。出于商业目的</title>
+      <link>https://www.reddit.com/r/opensource/comments/1n8vx0l/license_understanding_for_commercial_purposes/</link>
+      <description><![CDATA[GPL v3 AGPLv3 GPLV3 - MIT  Apache 2.0 ref 4.1 Apache 2.0 ref 5.1 Can someone explain to me the differences in these from a commercial use point of view, for a project.使用具有不同版本的这些许可证的工具。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/carancomistanxious5913     [link]    ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1n8vx0l/license_understanding_for_commercial_purposes/</guid>
+      <pubDate>Fri, 05 Sep 2025 04:35:18 GMT</pubDate>
+    </item>
     <item>
       <title>直到我们可以针对Google禁止“侧重加载”的事情</title>
       <link>https://www.reddit.com/r/opensource/comments/1n8uicf/til_something_that_we_can_do_against_google/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，我想共享一个我一直在开发的应用程序 trayce 。它源于我对现有的API客户的沮丧，似乎所有这些都是基于电子或某种浏览器渲染的GUI。 我真的很喜欢Bruno让您在Git友好友好的文件中保存请求的方式，因此我决定不重新发明方向盘并使Trayce使用与Bruno完全相同的文件格式。这意味着您可以使用Trayce打开Bruno收藏，修改它们，并且它们仍将与Bruno客户端合作。 最重要的是，它使您可以监视docker网络流量，包括TLS网络流量，而无需使用A Proxy或自定义认证。谢谢！   https://trayce.dev/     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1n844ek8/love_bruno_api_api_client_but_hate_electron_apps/”&gt; [link]   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1n84ek8/love_bruno_api_client_but_hate_electron_apps/</guid>
       <pubDate>Thu, 04 Sep 2025 08:18:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Indiaexams数据库 - 练习为开源做出贡献</title>
-      <link>https://www.reddit.com/r/opensource/comments/1n8499s/indiaexams_database_practice_contributing_to_open/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好：＆gt;  记住有时候在印度有一百万入学考试，而您永远不确定哪些人实际上适合您的背景或兴趣？ Well, the IndiaExams Database is aiming to solve that by crowdsourcing detailed info on all the exams you’ve probably never heard of (but might want to know about). Right now, there are over 200 exams waiting to be filled in with details like资格，日期和官方链接。这是令人兴奋的部分：由于贡献不需要编码，我们可以通过此练习做出PR和开源贡献，我们也将填充此资源也很快也可以使成千上万的学生更容易来。   如何做出贡献（真的很简单！）想要进行。 每个问题对应于仅文本 .yml 文件 - 打开它以查看需要哪些信息并在线进行一些研究。官方网站，通知和PDF是最好的来源。 使用已验证的信息填写文件中的空白。 在github上创建一个拉动请求（pr），并提及相应的问题编号。  就是这样！没有复杂的任务 - 只需通过考试添加信息考试即可。另外，如果您稍后愿意，您也可以通过验证其他人的信息来提供帮助。 您是否想提高github的个人资料，为有影响力的项目做出贡献，还是只是学习所有的考试，这是一种友好的，这是一种友好的方法，如果您有任何疑问，请让我有任何疑问，或者在您的疑问中享受                  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/udecational_lynx286     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1n8499s/indiaexams_database_practice_contributing_to_open/</guid>
-      <pubDate>Thu, 04 Sep 2025 08:08:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Yamlresume更新：部分自定义和开发模式</title>
-      <link>https://www.reddit.com/r/opensource/comments/1n82oy3/yamlresume_updates_section_customization_and_dev/</link>
-      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/u/hot-chemistry7557       [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1n82oy3/yamlresume_updates_section_customization_and_dev/</guid>
-      <pubDate>Thu, 04 Sep 2025 06:26:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
