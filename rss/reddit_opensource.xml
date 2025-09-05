@@ -4,7 +4,28 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Fri, 05 Sep 2025 01:13:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 03:30:37 GMT</lastBuildDate>
+    <item>
+      <title>直到我们可以针对Google禁止“侧重加载”的事情</title>
+      <link>https://www.reddit.com/r/opensource/comments/1n8uicf/til_something_that_we_can_do_against_google/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/endo231     [link]     [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1n8uicf/til_something_that_we_can_do_against_google/</guid>
+      <pubDate>Fri, 05 Sep 2025 03:20:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找泡泡茶库图书馆的贡献者，以在TUI UI上进行合作</title>
+      <link>https://www.reddit.com/r/opensource/comments/1n8txed/looking_for_a_bubble_tea_go_library_contributor/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我正在为项目的后端工作，并想在Go中使用Bubble Tea创建TUI。我正在寻找一个有经验的泡泡茶可以与之合作的人 - 我可以处理后端，他们可以为UI提供帮助。 如果您有兴趣一起工作或有泡泡茶的经验，请伸出援手！很想在社区帮助的情况下建立出色的东西。 谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/durrwinzz     [link]     [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1n8txed/looking_for_a_bubble_tea_go_library_contributor/</guid>
+      <pubDate>Fri, 05 Sep 2025 02:51:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>对初学者贡献者的建议？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1n8tnki/advice_for_beginner_contributors/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我是最近的计算机科学毕业生，希望加强我的项目组合并开始为开源项目做出贡献。理想情况下，我很想与我热衷的东西一起工作，但我想找到一个不错的起点。您会给初学者贡献者有什么建议（如果有的话）？我也希望继续我自己的个人项目工作，并有兴趣创建开源的东西。 谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/jacuzzicosmos     [link]    32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1n8tnki/advice_for_beginner_contributors/</guid>
+      <pubDate>Fri, 05 Sep 2025 02:37:57 GMT</pubDate>
+    </item>
     <item>
       <title>蓝色 - 彩色/fasmg爱的孩子</title>
       <link>https://www.reddit.com/r/opensource/comments/1n8o1qs/blue_a_colorforthfasmg_love_child/</link>
@@ -50,14 +71,14 @@
     <item>
       <title>我的第一个独奏Opensource项目！ OutputBuddy，一种用于重定向命令输出的CLI工具</title>
       <link>https://www.reddit.com/r/opensource/comments/1n8eerh/my_first_solo_opensource_project_outputbuddy_a/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;     https://github.com/zmunro/zmunro/zmunro/outputbuddy 经常我想在我想要的命令中，我想在一个段落中找到一个段落的命令。日志以后。解决此问题的一种方法是将stdout和stderr送到文件（如果您记得如何做到这一点），然后在命令运行时 tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tailr 该文件以查看所说的内容。 My grievances with this process was that it took up time, I had to either choose to see loading bars and progress meters and have them clutter up the logs or to forego seeing progress bars entirely by disabling them. OutputBuddy allows you to easily redirect stdout and stderr to files and/or the terminal while stripping the the ANSI characters for terminal colors and loading bars/spinners when writing to the文件。 使用它必须要做的至少是：  ob  - ＆lt; command; command-here＆gt;   上面的命令将将stdout和stderr重定向到一个称为 buddy.log 在当前目录中的文件，并在当前的目录中以及stddout and stddr and stderr a a and ands ands and ands and ands a ands ands a ands a ands a ands ands a。 You can override this default behavior using by doing things like the following: # Custom logging: redirect both to a specific file AND show on terminal ob stderr+stdout=output.log stderr+stdout -- python script.py # Or use the shorthand of 2 and 1 for stderr and stdout respectively ob 2+1=output.log 2+1 -- python script.py # Separate stdout and stderr到不同的文件ob 1 = out.log 2 = err.log-＃唯一的日志错误，但仍在屏幕上显示它们，但仍显示它们。提交由＆＃32; /u/u/didgeridoome24     [link]   [注释]   ]]></description>
+      <description><![CDATA[https://github.com/zmunro/outputbuddy Often times I find myself wanting to run commands in the terminal that are going to be running for a long time, and I want to look at the日志以后。解决此问题的一种方法是将stdout和stderr送到文件（如果您记得如何做到这一点），然后在命令运行时 tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tail&gt; tailr 该文件以查看所说的内容。 My grievances with this process was that it took up time, I had to either choose to see loading bars and progress meters and have them clutter up the logs or to forego seeing progress bars entirely by disabling them. OutputBuddy allows you to easily redirect stdout and stderr to files and/or the terminal while stripping the the ANSI characters for terminal colors and loading bars/spinners when writing to the文件。 使用它必须要做的至少是：  ob  - ＆lt; command;您的command-here＆gt;   上述命令将将stdout和stdrr重定向到一个称为 buddy.log 在当前目录中的文件，并在当前的目录中以及stddout and stddr and stderr a a and ands and ands a ands and ands ands a a and. a。 You can override this default behavior using by doing things like the following: # Custom logging: redirect both to a specific file AND show on terminal ob stderr+stdout=output.log stderr+stdout -- python script.py # Or use the shorthand of 2 and 1 for stderr and stdout respectively ob 2+1=output.log 2+1 -- python script.py # Separate stdout and stderr到不同的文件ob 1 = out.log 2 = err.log-＃唯一的日志错误，但仍在屏幕上显示它们，但仍显示它们。提交由＆＃32; /u/u/didgeridoome24     [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1n8eerh/my_first_solo_opensource_project_outputbuddy_a/</guid>
       <pubDate>Thu, 04 Sep 2025 16:09:12 GMT</pubDate>
     </item>
     <item>
       <title>开源Langgraph平台替代品（免费主机Langgraph代理商）</title>
       <link>https://www.reddit.com/r/opensource/comments/1n8e9nf/open_source_langgraph_platform_alternative_self/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我厌倦了langgraph平台的价格，所以我建立了一个开源替代方案。  为什么langgraph平台会令人沮丧：      selfs host host host host&#39;&#39;没有身份验证企业自我托管的成本 saaS迫使您使用langsmith 定价惩罚您的成功完整的供应商锁定&lt; /p&gt;    ，所以我建立了aegra：&lt; /strong&gt; &lt; /strong&gt; &lt; /strong&gt; &lt; /p&gt; &lt; /p&gt;  ✅apache 2.0许可✅零锁定&lt; /p&gt;   响应真是太神奇了：&lt; /strong&gt; &lt; /p&gt;  92 GitHub星星在3周内真实的项目真实的项目迁移到开发者中迁移了自己的生活，  一个用户告诉我：＆quot&#39;你挽救了我的生命。我正在为心理健康和执行节点的薪水做一个先进的聊天机器人，杀死了我的项目。 href =“ https://github.com/ibbybuilds/aegra”&gt; https://github.com/ibbybuilds/aegra      开源社区应提供更好的替代方案。提交由＆＃32; /u/u/lost-trust7654     [link]        [注释]  ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我厌倦了langgraph平台的价格，所以我建立了一个开源替代方案。  为什么langgraph平台会令人沮丧：      selfs host host host host&#39;&#39; has no authentication Enterprise self-hosting costs a fortune SaaS forces you to use LangSmith Pricing punishes your success Complete vendor lock-in  So I built Aegra: ✅ Same LangGraph SDK ✅ Your infrastructure ✅ 5-minute docker设置✅apache 2.0许可✅零锁定&lt; /p&gt;   响应真是太神奇了：&lt; /strong&gt; &lt; /p&gt;  92 GitHub星星在3周内真实的项目真实的项目迁移到开发者中迁移了自己的生活，  一个用户告诉我：＆quot&#39;你挽救了我的生命。我正在为心理健康和执行节点的薪水做一个先进的聊天机器人，杀死了我的项目。 href =“ https://github.com/ibbybuilds/aegra”&gt; https://github.com/ibbybuilds/aegra      开源社区应提供更好的替代方案。提交由＆＃32; /u/u/lost-trust7654     [link]        [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1n8e9nf/open_source_langgraph_platform_alternative_self/</guid>
       <pubDate>Thu, 04 Sep 2025 16:03:59 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/u/hot-chemistry7557       [注释]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1n82oy3/yamlresume_updates_section_customization_and_dev/</guid>
       <pubDate>Thu, 04 Sep 2025 06:26:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有人研究假职位？寻找参考</title>
-      <link>https://www.reddit.com/r/opensource/comments/1n82gya/has_anyone_worked_on_detecting_fake_job_postings/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在探索一个想法，通过与官方公司网站进行跨验证帖子来处理假职位广告（提取公司→Check Careers Page→确认工作是否存在）。 是否存在）。 我想在我潜水之前，我想知道：&gt;   li li e  li&gt;数据集或事先工作，我应该研究？  感谢您的任何指针🙏  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/Mysterious_egg_2519      [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1n82gya/has_anyone_worked_on_detecting_fake_job_postings/</guid>
-      <pubDate>Thu, 04 Sep 2025 06:12:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub- burnsedia/Waywind：一种从您的tailwindcss和daisyui配置生成Waybar主题的CLI工具。非常适合想要一致的，RIEDS台式机的Hyprland用户。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1n81vkm/github_burnsediawaywind_a_cli_tool_that_generates/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  我只是想获得有关我最新项目的反馈  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/u/前_atmosphere_19       ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1n81vkm/github_burnsediawaywind_a_cli_tool_that_generates/</guid>
-      <pubDate>Thu, 04 Sep 2025 05:36:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>科尔尔 - 更快，跨平台，富含特征的锈蚀替代壳彩色的替代品</title>
-      <link>https://www.reddit.com/r/opensource/comments/1n81v2h/colorrs_a_faster_crossplatform_featurerich_rust/</link>
-      <description><![CDATA[        &lt;！ -  sc_off- sc_off-&gt;  我是 shell-color-scripts ，如果您不熟悉，它通常用于ricing。   与 shell-color-color-scripts&gt;不同，它是完全交叉的，它是完全交叉的（理论上）。它的速度也更快，具体取决于您的工作，（IMO）更易于编写新模式（使用 .toml 格式）。它还提供了从GIT存储库URL自动下载和安装脚本的能力，使共享模式变得更加容易，并且在模式列表命令中具有预览模式。 请注意，此项目仍处于非常早的阶段，并且仅在MacOS上进行了测试。只有3个脚本已转换为TOML。我将在此处发布，以防任何感兴趣的人都希望帮助我测试或将颜色脚本转换为toml格式。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/phaethornis-idalie      [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1n81v2h/colorrs_a_faster_crossplatform_featurerich_rust/</guid>
-      <pubDate>Thu, 04 Sep 2025 05:36:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
