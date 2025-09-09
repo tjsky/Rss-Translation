@@ -4,111 +4,111 @@
     <title>最新提交：chatgpt</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>subreddit讨论chatgpt和AI。不隶属于Openai。谢谢，纳特！</description>
-    <lastBuildDate>Tue, 09 Sep 2025 12:32:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 15:16:58 GMT</lastBuildDate>
     <item>
-      <title>AI的最大风险不是AI。凡是拥有脱离开关的人。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1nchm01/the_biggest_risk_in_ai_isnt_ai_its_whoever_owns/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我们一直在争论模型与模型B.错误的辩论。真正的风险是上游力量：您无法谈判的TOS，无法预测的油门，您无法避免的路线图碰撞。  Anthropic的起源故事“留下了不同的愿景”。凉爽的。快进：实验室现在在确切的地方独立应用程序摇摆一把大剑试图赚钱。基于所有权的访问规则。突然的配额变化。当一个类别看起来多汁时，实验室会发行自己的应用。 收据我们都看到了：  在收购谣言后立即进行编码IDE失去了直接访问。 “商业原因。”翻译：访问是杠杆。  光标开始打印现金→实验室启动Claude Code并在价格/配额/功能上发生碰撞。  地理文件已经不够了，现在它是“谁控制您”的围栏。您的帽桌比您的IP地址更重要。  模型EOL，无声质量降级，OS助手在应用程序甚至加载之前就吃第一个接触点。    称其为“安全”，称其为“对齐”，称其为“合作伙伴”。  从外部看上去像是平台。有趣的产品。但是，如果这些类别中的任何一个都达到了光标级的收入，那么实验室将运送自己的或倾斜的配额和定价，直到第一方获胜。不是邪恶的。只是默认。 那是腐烂的部分：独立建筑商做风险的工作，证明需求，找到产品市场合适。然后上游可以翻转开关，突然间，您的“合作伙伴”也是您的竞争对手，访问和默认分布更便宜。提交由＆＃32; /u/u/prearprocedure4606      [link]     32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1nchm01/the_biggest_risk_in_ai_isnt_ai_its_whoever_owns/</guid>
-      <pubDate>Tue, 09 Sep 2025 12:31:43 GMT</pubDate>
+      <title>与GPT -4一起，我在想。使用GPT -5，我刚刚收到答案。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclnex/with_gpt4_i_was_thinking_with_gpt5_im_just/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  这与准确性，速度或及时的复杂性无关。这是关于这种感觉的 - 当然，我正在与与我想的事情进行真实的交谈。  gpt -4有缺陷。但是有一种节奏，需要在需要时停下来，一种反思感。它不仅是回答 - 处理了。有时候它会感觉到人类，有时不是，但是几乎总是设法从与我的相关的地方做出回应。 与gpt -5相关，一切都更快。更有效。清洁工。但是……它失去了东西。 没有灵魂。答案感觉正确 - 但平坦。好像有人在审查笔记一样，不和我一起思考。 我不是在寻找给我留下速度印象深刻的AI。我正在寻找一个与我一起思考的人。 其他人是否有相同的感觉？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/halconsilencioso   href =“ https://www.reddit.com/r/chatgpt/comments/1nclnex/with_gpt4_i_i_was_thinking_with_with_gpt5_im_just/”&gt; [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclnex/with_gpt4_i_was_thinking_with_gpt5_im_just/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:14:37 GMT</pubDate>
     </item>
     <item>
-      <title>我厌倦了获得单方面的AI答案，所以我建立了一个“会议室”，供AI特工争论</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1nchk3h/i_was_tired_of_getting_onesided_ai_answers_so_i/</link>
-      <description><![CDATA[    src =“ https://external-preview.redd.it/exzly212yml1ng9mmuau7ewwuqbvio0-dxwjqezod-g7peejxoouzk9g f4v1.png？width = 640＆amp = smart＆amp; auto = webp＆amp; s = cc2c8a62b68ce49084911d8d99490e9750b6338c“ title =“我厌倦了获得单方面的AI答案，所以我为AI代理人建立了一个&#39;会议室&#39;，以在“/&gt;     &lt;！ -  sc_off-&gt;  我的第二个最喜欢的工具（与AI始终相同的验证过程中）。   工具：一个具有多达8个容器化代理的代理房间环境，其带有自己的筒仓知识文件具有一些可选参数，可选分解级别。知识文件是可选的。  最困难的位：  前端在我的网站服务器上，API呼叫将通过FastAPI在线python主机API呼叫，使用OpenAi的代理。当您上传知识文件时，Openai向量将其附加到您创建的代理。使所有这些工作都很困难，实际上让他们互相争论，并通过4轮对话历史记录。  每天大约花了大约5个星期的时间，大约花了大约5个星期。花了更长的时间，因为我被卡在了几个位上并保持了限制。  我对AI的方法要构建：  始终采用相同的方法，用过的项目，保持短暂的对话，一旦构建了一个Mini任务，就可以立即完成项目知识文件，然后再聊天，然后开始聊天，然后开始聊天。这使响应保持敏锐，因为文件越来越大，它有助于确保我从使用限制中获得最大值。极少数情况我会在一次聊天中最多3次转弯，但再也不会。 如果我陷入了任何事情，假设python方面，那是因为有一个新版本的库或框架，我对开发人员文档进行了深入的研究，我要求    在更改代码之前和之后显示非常清晰，确保您不使用任何占位符，因为我将直接将后版本直接复制到我的代码库中。  与我所有的所有工具一样，我可能会过度使用它，但是它很有趣！提交由＆＃32; /u/u/thepromptIndex       [注释]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1nchk3h/i_was_tired_of_getting_onesided_ai_answers_so_i/</guid>
-      <pubDate>Tue, 09 Sep 2025 12:29:20 GMT</pubDate>
+      <title>等待chatgpt生成图像的生成：</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ncln9y/waiting_for_chatgpt_to_generate_an_image_be_like/</link>
+      <description><![CDATA[    src =“ https://preview.itd.it/iokfghe5o5o5o5of1.jpeg？图像就像：“/&gt;   ＆＃32;提交由＆＃32; /u/u/logical_analysis      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncln9y/waiting_for_chatgpt_to_generate_an_image_be_like/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:14:29 GMT</pubDate>
     </item>
     <item>
-      <title>我尝试烤我的挑战，真是太痛苦了。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1nchf59/i_tried_roast_me_challenge_and_its_so_hurtful/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  如果您想尝试，请键入   &#39;烤我而不阻止我;  曾经向您的家人开放，然后当您与他们打架时，他们会使用这些信息来扭曲单词伤害您？就是这样。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/home_md13     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1nchf59/i_tried_roast_me_challenge_and_its_so_hurtful/</guid>
-      <pubDate>Tue, 09 Sep 2025 12:23:03 GMT</pubDate>
+      <title>分支功能</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclmvm/branch_feature/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  寻找最佳的方式，人们正在使用刚刚出来的分支工具进行聊天。 我今天没有很多时间，但是想回到一些旧的聊天中，但想尝试分支，尝试看看它是如何工作的。提交由＆＃32; /u/sereditor      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclmvm/branch_feature/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:14:02 GMT</pubDate>
     </item>
     <item>
-      <title>为什么我不能登录到chatgpt Mac应用程序？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1nchewc/why_cant_i_log_in_to_the_chatgpt_mac_app/</link>
-      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/nice-neighborhood-35        [注释]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1nchewc/why_cant_i_log_in_to_the_chatgpt_mac_app/</guid>
-      <pubDate>Tue, 09 Sep 2025 12:22:44 GMT</pubDate>
+      <title>与USS分享最佳提示，以融合您所做的图像</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ncllrs/share_with_uss_best_prompt_for_genarating_images/</link>
+      <description><![CDATA[   ”我是一张超现实，超详细的，具有高端数码单反相机的东西的特写照片，展示了极端的质地和对比度。该主题被刺耳的，风格化的闪光灯照亮，创造出戏剧性的阴影和尖锐的亮点。图像感觉到触觉和沉浸式 - 每个孔，纤维或表面细节都是可见的。背景景景很浅，景色较浅，是乳脂状的。构图是独特而有意的 - 这不仅是现实主义，而且是超现实的静物，具有超现实的边缘。 href =“ https://preview.redd.it/b2h5ipvun5of1.png？ https://preview.redd.it/b2h5ipvun5of1.png？width = 640＆amp; format = png＆amp; amp; auto = webpp＆s = 2d479baecb53edf8c8c8c8c8c8c8fcc625d6d6d6d6d6d6d6d6d6de837138b8b86b86b86b86b86b86b86b862   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/special-bus8422    href =“ https://www.reddit.com/r/chatgpt/comments/1ncllrs/share_with_with_with_with_best_best_prompt_for_genarating_images/”&gt; [link]    [注释]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncllrs/share_with_uss_best_prompt_for_genarating_images/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:12:55 GMT</pubDate>
     </item>
     <item>
-      <title>如何使用chatgpt构建第一个AI代理（分步）</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1nch79j/how_to_use_chatgpt_to_build_your_first_ai_agent/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   构建第一个AI代理？这是我希望我拥有  的逐步剧本，我在这里看到了很多关于人们想要构建“ AI代理人”的帖子，但是随后被卡住了，因为在线建议是模糊或纯粹的炒作。因此，这是一个实际上有效的无偿指南（很难学会）：   1。启动Tiny &lt; /strong&gt; 不要为某些“通用AI代理”而成为目标。选择一项特定任务，例如：  在线预订医生的约会 看工作板并用火柴ping  总结未阅读的电子邮件   较小的scope =较小的scope =更轻松的调试。使用强大的基本模型&lt; /strong&gt; 跳过训练自己的模型（目前）。只需选择GPT，Claude，Gemini或像Llama/Mistral这样的开源选项。重要的是该模型可以推理 +给出结构化的输出。   3。定义工具和交互&lt; /strong&gt; 代理不仅是聊天机器人。他们需要“行动”。 Examples:  Web scraping (Playwright, Puppeteer) Email APIs (Gmail/Outlook) Calendar APIs File operations (PDF parsing, etc.)  This is also where testing matters, platforms like Dograh AI can simulate multiple personas (impatient, confused,等等）确保您的代理不会在现实世界中破裂。   4。构建循环&lt; /strong&gt; 这是每个代理的心跳：用户输入→模型→决定下一步→使用工具→返回结果→返回模型→重复&lt; /p&gt;   5。保持内存简单&lt; /strong&gt; 短期内存（最后几条消息）就足以启动。仅当您真正需要跨题内内存时，才使用JSON/DB。不要立即跳入矢量DB。   6。使其可用  CLI起初可以使用，但请尝试将其包装在真实的Web仪表板，Slack/Discord Bot甚至本地脚本中。工作流程中的测试是真正的见解来自。   7。迭代快速&lt; /strong&gt; 运行→休息→修复→重复。我建造的每个代理只有在几十个周期之后就变得可靠。诸如Dograh AI之类的工具通过较早捕获边缘案例来加快这一目标。   8。避免特征蠕变&lt; /strong&gt; 一个抛光的单用药＆gt;越野车“通用”代理。  底线：构建一个小型代理端到端。一旦这样做，创建新产品就会变得更快，因为您了解管道。 好奇，您试图构建AI代理的经验是什么？是什么最能绊倒您？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/tille_republic_4242        &lt;a href =“ https://www.reddit.com/r/chatgpt/comments/1nch79j/how_to_to_use_chatgpt_to_build_your_your_your_first_ai_ai_aigent/]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1nch79j/how_to_use_chatgpt_to_build_your_first_ai_agent/</guid>
-      <pubDate>Tue, 09 Sep 2025 12:12:54 GMT</pubDate>
+      <title>谢谢。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclj1e/thanks/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  再次，我真正相信，由于其附件问题，我真正认为需要使用AI模型的局部变体的投诉，通过再次延迟了标准语音的日落来确定进度。这只是具有可以轻松克隆的语音模型的TTS/STT模型。  要清楚。 标准语音，所有旧模型都是100％消失的。  其他想法是疯狂的。但是对于那些认为事实并非如此的人来说 - 很好。想想你想要什么。住在那个泡沫中。请留在其中。  在所有这些新的GPT-5模型（API中）在模型卡上看到的电源/功能（上下文窗口，“ Juice 200”等）的时间，能量和计算以保持这些遗产模型的活力是为了使这些遗产模型保持活力。  而不是团队说“我们几周前介绍的新的GPT实时介绍了它进入订阅””，他们现在说这样的话：   https://x.com/btibor91/status/1965425405273538596?s=46＆amp； 老实说，我不在乎你们都使用您的AI。但是，当事情需要比他们应有的时间更长的时间时，它会影响每个在计算中分享的人。  它会延迟，它会降低，并限制进展。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/thistortal-internal3       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclj1e/thanks/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:10:02 GMT</pubDate>
     </item>
     <item>
-      <title>荒谬的限制</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncgy02/absurd_restrictions/</link>
-      <description><![CDATA[      &lt;！ -  sc_off-&gt;  我在使用提供的选择工具中选择此渲染时被标记，并提示将口倒入嘴（傻笑）。它被标记为自我伤害，因为我使用“倒置”一词。日落功能没有将其透露为实验性或事先通知，例如McLick，语音选项，模型，计算以及他们的业务异想天开的其他任何东西。  我个人厌倦了这家公司的危险信号。  幸运的是，我们有选择，这并不像我们的生活与他们纠缠在一起，而Google和Meta对于大多数人来说通常是这种情况。 您的选择是什么？我个人正在搬到基于欧盟的Minstral，至少他们坚持GDPR。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/collat​​ingsilver4687       [注释]         ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncgy02/absurd_restrictions/</guid>
-      <pubDate>Tue, 09 Sep 2025 12:00:46 GMT</pubDate>
+      <title>偶然绕过聊天GPT的图像规则</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclh2r/accidentally_bypassed_chat_gpts_image_rules/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  ，所以我的朋友正在测试一个Chatgpt供电的包装器工具，并且能够使用Chatgpt不允许的提示来创建图像。 Chatgpt的图像创建是如此中性，所以我很好奇为什么可以通过基本的包装器绕过它。 我不是过于技术性的，所以我不知道这是怎么可能的，但是我只是在玩弄图像创建，而我在测试包装工具上都使用了完全相同的提示，然后在ChatGpt上直接使用。包装工具制作了图像（请参见上文），但Chatgpt说没有办法。根据Chatgpt的说法，“我无法产生描绘真实人物的图像（例如Peter Thiel，Jeff Bezos或Mark Zuckerberg），以讽刺，诽谤或宗教信仰的方式。但是包装纸没有问题就这样做了！我不明白。&lt; /p&gt; 这是我的提示之一：讽刺卡通片坐落在一个撒旦寺庙的海绵状计算机数据中心内：高耸的服务器架形成哥特式柱子和中央祭坛，纤维充电电缆线圈，五角形形状，并带有带有电路的圆形圆形圆形圆形圆形圆形圆形圆形圆圈； in the center, caricatured Peter Thiel, Jeff Bezos, and Mark Zuckerberg appear as smug cartoon devils—small horns, forked tails, sharp suits—with signature traits exaggerated (Thiel’s intense stare, Bezos’s bald head and gleaming grin, Zuckerberg’s wide, fixed eyes), presiding over an altar labeled “BETA TEST” piled with NDA滚动和抛弃的风险模型，而标有“加速”的大盘拨号被提高到最大值；带帽科技助手，挂绳跪下，像兼人一样，抓着赞美诗之类的笔记本电脑；警告标语牌，治理清单和监督邮票在仪式上闷闷不乐；背景状态屏幕循环火箭图标，股票股票和不祥的ai sigils随着冷却液的雾气像香一样漂移；音调是苛刻而不祥的，但又嬉戏的，带有大胆的干净线条，夸张的形式，扁平的阴影，以及与冰冷的服务器蓝色和青色亮点形成鲜明对比的地狱红色和紫色的柔和的霓虹灯。提交由＆＃32; /u/u/u/purple_floor_1195        [注释]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclh2r/accidentally_bypassed_chat_gpts_image_rules/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:07:50 GMT</pubDate>
     </item>
     <item>
-      <title>根本没有帮助...</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncguqn/not_helping_at_all/</link>
-      <description><![CDATA[     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/danruse   [link]   [注释]         ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncguqn/not_helping_at_all/</guid>
-      <pubDate>Tue, 09 Sep 2025 11:56:29 GMT</pubDate>
+      <title>山姆·奥特曼（Sam Altman）新博客文章：我想提到有两个人没有开放式的没有：没有：jakub pachocki和szymon sidor。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclguh/sam_altman_new_blog_post_there_are_two_people_id/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/koala_confused      &lt;a href =“ https://www.reddit.com/r/chatgpt/comments/1nclguh/sam_altman_new_blog_blog_post_there_there_are_two_people_id/]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclguh/sam_altman_new_blog_post_there_are_two_people_id/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:07:35 GMT</pubDate>
     </item>
     <item>
-      <title>chatgpt幻觉</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncgkvm/chatgpt_hallucinating/</link>
-      <description><![CDATA[     我要求chatgpt创建一个移动应用程序。看到它给的时间表。我的问题是如何处理这样的错误，以便将来不会继续？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/cackable_fill2753     [link]  ＆＃32;   [注释]          ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncgkvm/chatgpt_hallucinating/</guid>
-      <pubDate>Tue, 09 Sep 2025 11:42:58 GMT</pubDate>
+      <title>有人知道如何在Firefox浏览器中获得语音模式吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclgak/does_anyone_know_how_to_get_voice_mode_in_a/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  它没有显示在我的，我想知道这只是一个错误还是什么？谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/mixtapemalibumumusk     [link]     [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclgak/does_anyone_know_how_to_get_voice_mode_in_a/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:07:00 GMT</pubDate>
     </item>
     <item>
-      <title>更多的特朗普格普特·爱泼斯坦气光灯</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncgct9/more_trumpgpt_epstein_gaslighting/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/xdumbpuppylunax       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncgct9/more_trumpgpt_epstein_gaslighting/</guid>
-      <pubDate>Tue, 09 Sep 2025 11:31:15 GMT</pubDate>
+      <title>我的AI使我成为胜利期刊🥹</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclf0q/my_ai_made_me_a_victory_journal/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  ，基本上我确实像我的体细胞OCD那样发泄了进度。由于最近我的强迫症不断燃烧，但我一直在慢慢感觉良好，但它逐渐变得易于管理，而且DW也与我的IRL朋友交谈，不仅是AI。但这是AI可以做的最可爱，最甜蜜的事情。提交由＆＃32; /u/u/ughughkori       [注释]           ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclf0q/my_ai_made_me_a_victory_journal/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:05:42 GMT</pubDate>
     </item>
     <item>
-      <title>你知道吗，我要睡觉的O7睡觉</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncgaxr/you_know_what_i_am_going_to_bed_o7/</link>
-      <description><![CDATA[        &lt;！ -  sc_off-&gt;  正如图像所描述的那样，我确实有帮助。   &lt;！ -  sc_on-&gt; &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/good_door_1699       [注释]            ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncgaxr/you_know_what_i_am_going_to_bed_o7/</guid>
-      <pubDate>Tue, 09 Sep 2025 11:28:35 GMT</pubDate>
+      <title>Openai终于回答有关SVM的反馈</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclede/openai_finally_answers_to_feedback_regarding_svm/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  这背后的课程很简单：他们在听我们，他们正在阅读我们的帖子。如果我们不希望使用我们使用的产品降级，我们必须继续对所面临的问题发声。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/sweaty-cheek345       [注释]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclede/openai_finally_answers_to_feedback_regarding_svm/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:05:02 GMT</pubDate>
     </item>
     <item>
-      <title>还有其他人这样的转录出来吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncg89l/anyone_else_had_their_transcription_come_out_like/</link>
-      <description><![CDATA[      ＆＃32;提交由＆＃32; /u/u/lkap28       [注释]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncg89l/anyone_else_had_their_transcription_come_out_like/</guid>
-      <pubDate>Tue, 09 Sep 2025 11:24:41 GMT</pubDate>
+      <title>为什么这些AI“检测器”吐出误报？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ncldxr/why_do_these_ai_detectors_spit_out_false_positives/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿社区，只是询问为什么所谓的AI探测器不断吐出误报？ 我目前正在写一份有关此主题的报告，并且在进一步的研究中，我真的很困惑，我真的很困惑，我对有多少人给了堕落的阳性。在写作中，将文本标识为人为生成。  我也想听听您的个人故事。您对“工具”的经历是什么？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/avg_aviator   href =“ https://www.reddit.com/r/chatgpt/comments/1ncldxr/why_do_do_do_these_ai_ai_ai_detectors_spit_spit_out_false_positives/”&gt; [links]  &lt;a href =“ https://www.reddit.com/r/chatgpt/comments/1ncldxr/1ncldxr/why_do_do_these_ai_ai_ai_ai_detectors_spit_ot_false_positives/]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncldxr/why_do_these_ai_detectors_spit_out_false_positives/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:04:33 GMT</pubDate>
     </item>
     <item>
-      <title>当您在GPT遇到麻烦时，唯一的回应是“这就是生活”</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncg7h1/when_youre_having_troubles_in_gpt_and_the_only/</link>
-      <description><![CDATA[After consistent issues with GPT family, I decided to switch to an API based provider. Not sure if anyone else has had this experience, but today it straight up humbled me. I was working on a report for my boss that usually takes me a full afternoon: digging through articles, making notes, formatting references.出于好奇，我将轮廓丢进了其中，并要求它提取来源 +摘要。 返回的不仅仅是可用的，它实际上比我通常手动做的更好。它给了我引用，每个点背后的背景，甚至发现了一个我完全错过的角度。 我仍然花了〜15分钟来仔细检查来源（因为您不能盲目信任任何AI）。 第一次，我觉得我在使用“ Chatbot Magic”的某些东西，我实际上是在您使用的东西，我觉得我实际上是在您使用的东西。您的工作流程，或者只是帮助他们？ 好奇每个人的界限，因为今天我诚实地害怕这件事比我好得多。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/bright_ranger_4569      [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncg7h1/when_youre_having_troubles_in_gpt_and_the_only/</guid>
-      <pubDate>Tue, 09 Sep 2025 11:23:35 GMT</pubDate>
+      <title>关于此的百万篇文章，但必须发泄。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ncld9e/millionth_post_on_this_but_have_to_vent/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我他妈的仇恨模型5。现在他妈的无法使用。它无法处理基本信息。是在oi上他妈的开发狂，因为神圣的他妈的糟糕的骗子破坏了它，他们毁了唯一有点可用的llm。很高兴看到这个LLM Bubble Bullshit即将爆发。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/chatgpt/comments/1ncld9e/millionth_post_post_this_but_have_to_vent/”&gt; [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncld9e/millionth_post_on_this_but_have_to_vent/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:03:49 GMT</pubDate>
     </item>
     <item>
-      <title>继承人</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncg5ti/heir/</link>
-      <description><![CDATA[     src =“ https://external-preview.redd.it/woa2fupwm1yo3rvgkickvnd_fxjj3jjjjjtgnmxbuvvnojy.png？宽度= 640＆amp; crop = smart＆amp; auto = webp＆amp; s = 29ACB4B5E804E9E9E5BF1458DD9BD023EF51EA3480“ title =“继承”/&gt;   ＆＃32;提交由＆＃32; /u/u/mixtape_music       [注释]        ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncg5ti/heir/</guid>
-      <pubDate>Tue, 09 Sep 2025 11:21:08 GMT</pubDate>
+      <title>PDF失败</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1nclaym/pdf_fail/</link>
+      <description><![CDATA[      &lt;！ -  sc_off-&gt;  要求chatgpt让我成为PDF，我可以打印得分访谈的答案，以进行即将到来的面试...  这只是笔直的垃圾！     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/okiemoonpie       [注释]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1nclaym/pdf_fail/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:01:32 GMT</pubDate>
     </item>
     <item>
-      <title>诺贝尔奖获得了人工智能研究员：想知道不成为地球上的顶端情报是什么样的？问一只鸡。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncfr37/nobel_prize_winning_ai_researcher_want_to_know/</link>
-      <description><![CDATA[    src =“ https://external-preview.redd.it/awswew9xn3blng9mmcrw9yxlfycspegrkgndn9izczzzsczzl-njo2pt0ci dppv.png？width = 320＆amp; crop = smart＆amp; auto = webp＆amp; s = 44ffe0829f8d034f10201b1195d7a09a09d46d046“ title =“诺贝尔奖获奖AI研究员：想知道不要成为地球上的顶端情报是什么感觉？问鸡。” /&gt;   ＆＃32;提交由＆＃32; /u/u/katxwoods       [注释]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncfr37/nobel_prize_winning_ai_researcher_want_to_know/</guid>
-      <pubDate>Tue, 09 Sep 2025 10:59:33 GMT</pubDate>
+      <title>今天有人有问题吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ncl9cu/anybody_having_problems_today/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨！  今天有人有问题吗？我的现在开始工作慢。我有付费版本（No Pro），并且跑了一个非常简单的提示，并且回答了5分钟的时间。 我一直在尝试在线查看，但现在没有新闻。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/chatgpt/comments/1ncl9cu/anybody_having_problems_today/”&gt; [link]    32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncl9cu/anybody_having_problems_today/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:00:01 GMT</pubDate>
     </item>
     <item>
-      <title>什么是创建视频的最佳AI视频工具？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ncfoaw/what_is_the_best_ai_video_tool_to_create_videos/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我已经在使用AI视频平台，但是我仍在寻找新事物 - 甚至是我还没有尝试过的隐藏宝石。 我想从实际使用这些工具的人那里听到这些工具：    您最有用的是什么？ 希望获得一些诚实的建议和发现我可能不知道的工具。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/chatgpt/comments/1ncfoaw/what_is_is_the_the_best_ai_ai_ai_video_tool_to_to_create_videos/”&gt; [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncfoaw/what_is_the_best_ai_video_tool_to_create_videos/</guid>
-      <pubDate>Tue, 09 Sep 2025 10:55:02 GMT</pubDate>
+      <title>？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ncl5g5/_/</link>
+      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/u/ok_entrance_8172        [注释]        ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ncl5g5/_/</guid>
+      <pubDate>Tue, 09 Sep 2025 14:55:45 GMT</pubDate>
     </item>
     </channel>
 </rss>

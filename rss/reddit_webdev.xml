@@ -4,7 +4,63 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Tue, 09 Sep 2025 12:34:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 15:19:26 GMT</lastBuildDate>
+    <item>
+      <title>这个图像是什么意思？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1nclige/what_does_this_image_mean/</link>
+      <description><![CDATA[        &lt;！ -  sc_off-&gt;  我不是Web开发人员，只是对此徽标/符号的意义感到好奇。我已经看到了它的变化，但是它似乎并不代表单个公司或实体，所以我不确定。我的一位教授在书中有这个符号的纹身，我不确定这是更具体的还是个人的选择？  谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/intepid-ad1191      [注释]           ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1nclige/what_does_this_image_mean/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:09:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>您在哪里记录客户向您发送的问题？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ncl6np/where_do_you_record_the_issues_to_be_reviewed/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  通常每个项目分别分别分配给一个人。 我们不使用github问题或类似的工具来跟踪客户告诉我们需要审查或固定的客户，我的项目经理之一通过团队将其发送给我。对于版本控制，我们使用Bitbucket，如果有帮助。  Currently, I note them down in a Markdown file in the root directory of the corresponding project, differentiating between reviewed and pending items, but I&#39;m considering changing this approach. I&#39;m considering these two options for now: 1) Markdown table with 3 columns: - Status (emoji depending on whether it is completed, in progress, or pending) - Description of the issue - Notes (optional, in case there   2）在vs代码中以列指示进度（我仍在尝试使用不同的扩展名的可能性）。 您是否还有其他方法可以跟踪这些问题的方法？您会推荐此列表中的哪些选项或外部？如果可能的话，在VS代码中的一个选项，因为这将有助于我避免在应用程序之间不断切换。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/dcj96     [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ncl6np/where_do_you_record_the_issues_to_be_reviewed/</guid>
+      <pubDate>Tue, 09 Sep 2025 14:56:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>另一个成功的故事</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ncl10j/another_success_story/</link>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;  为另一个客户提供了。让我帮助您将目标实现为有形产品！   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/supertroopperr      [注释]         ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ncl10j/another_success_story/</guid>
+      <pubDate>Tue, 09 Sep 2025 14:50:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个是新闻通讯，也是投资组合的博客，也是...</title>
+      <link>https://www.reddit.com/r/webdev/comments/1nckwai/a_blog_that_is_a_newsletter_but_also_a_portfolio/</link>
+      <description><![CDATA[I&#39;m a seasoned developer with 10 years of experience, but this project is grinding my gears. Please, any guidance here would be appreciated.  Part 1: I need to build an iteractive project — I&#39;ll get to that — that starts as a blog that can have three content types:   博客文章（Markdown，外部托管的图片，不太喜欢，最大的MDX事物）；  一个小笔记（与博客文章相同，但对于较小的，独立的信息，例如“个人twitter“带有更多的空间”） 一个投资组合条目（带有项目信息和更多数据，例如在哪里可以看待它，还有谁在其中工作）。路由器7（这是我的最爱）。   第2部分： ，但这是迭代部分。该博客将需要作为“项目第2部分”。成为具有一些特定用途的新闻通讯：  将有一个新的帖子。类型：新闻通讯。 It would not show on the blog, be only sent via Amazon SES. The blog posts could be sent as newsletters on publish (or when scheduled to be published). There would be a once-every-two-weeks digest with the lastest blog posts, select notes, and new portfolio entries.  There&#39;s a lot going on there that I have never worked with — emails,定期构建和发送此摘要（并使其可编辑，例如某种“下一个摘要”介绍“某个地方”，并了解如何标记笔记，以便它们出现在下一个摘要上（以及如何过滤掉那些已经出现的人）。   在MDX中，我可以在MDX中添加一些定制的成员，以便我可以添加一些定制的新闻单位，以便我可以启动per。我的客户可以开始生产内容 - 博客文章，投资组合条目，注释等。他们想在我构建整个新闻业务时开始写作和添加内容。 那么，您将开始哪种方式？您会使用什么（了解新闻通讯的项目增长）？ 我非常习惯于打字稿，反应和整个Nodejs生态系统。 我感谢您的帮助。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/qagir     [links]       [注释]     ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1nckwai/a_blog_that_is_a_newsletter_but_also_a_portfolio/</guid>
+      <pubDate>Tue, 09 Sep 2025 14:45:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mayweb？有人有任何见解吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ncjx80/mayweb_anyone_have_any_insights/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我遇到了这个名为Mayweb的新工具。 UI看起来很棒。功能看起来很棒。选中所有框中的所有框中我想要的东西。 我担心的是，尽管在Github上托管了，但我看不到任何源代码。您下载了仅预编译的版本，该版本似乎可以在我的工具中进行扫描，但是Windows想要阻止作为未知的发布者。 有人对此工具或开发人员有任何见解吗？我很想尝试一下，但是这些天，您只是不能太小心地装在机器上。   href =“ https://github.com/oyin25/mayweb”&gt; https://github.com/oyin25/mayweb     &lt;！ -  sc_on-&gt; &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1ncjx80/mayweb_anyone_have_have_any_insights/”&gt; [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ncjx80/mayweb_anyone_have_any_insights/</guid>
+      <pubDate>Tue, 09 Sep 2025 14:08:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用误导来快速使本地优先的应用程序加载</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ncj8e2/using_misdirection_to_make_a_localfirst_app_load/</link>
+      <description><![CDATA[    src =“ https://external-preview.redd.it/ixaqkqmw8nggv8zdq2q2424_mcfzwj50susaoiy1g.jpeg ？ title =“使用误导使本地优先的应用程序快速加载”/&gt;   ＆＃32;提交由＆＃32; /u/u/pandaman1999      [注释]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ncj8e2/using_misdirection_to_make_a_localfirst_app_load/</guid>
+      <pubDate>Tue, 09 Sep 2025 13:40:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>HTMS-JS：流异步HTML，保持SEO友好型</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ncicqz/htmsjs_stream_async_html_stay_seofriendly/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ncicqz/htmsjs_stream_async_html_stay_seofriendly/</guid>
+      <pubDate>Tue, 09 Sep 2025 13:03:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们如何应对现代角度</title>
+      <link>https://www.reddit.com/r/webdev/comments/1nci30q/how_were_tackling_modern_angular/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我们的团队一直在谈论Angular的新方向，我们注意到了一个主要的断开连接。从RXJ到信号的转变是一个巨大的转变，但感觉就像许多开发人员（甚至经验丰富的老年人）都被抛在后面。我们不断看到同样的挣扎：  “现在管理状态的正确方法是什么？&#39;  ;什至如何开始迁移旧代码？  为了找出所有人。因此，我们进行了一个工作坊来切屑并直接进入重要的事情。这不是一个无聊的演讲。这是一个合法的，动手的会议，我们可以正面解决这些问题。亮点？我们正在将一个完整的购物车从RXJ迁移到信号，并沿着我们沿途做出的每个决定漫步。  fyi，我们将其保持小而专注，因此斑点非常稀缺。如果您是新来者，甚至是新的Angular范式失去的兽医，这可能是解决方案。  代码：Angular60  60％的折扣（结束9月14日）。只需问！   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1nci30q/how_were_tackling_modern_angular/”&gt; [link]    32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1nci30q/how_were_tackling_modern_angular/</guid>
+      <pubDate>Tue, 09 Sep 2025 12:52:29 GMT</pubDate>
+    </item>
     <item>
       <title>您如何在2025年构建SRC/？分享您的前端文件夹树</title>
       <link>https://www.reddit.com/r/webdev/comments/1nchg6r/how_do_you_structure_your_src_in_2025_share_your/</link>
@@ -48,67 +104,11 @@
       <pubDate>Tue, 09 Sep 2025 09:37:58 GMT</pubDate>
     </item>
     <item>
-      <title>94回复，但$ 0管道……我想念什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ncecz6/94_replies_but_0_pipeline_what_am_i_missing/</link>
-      <description><![CDATA[    src =“ https://b.thumbs.redditmedia.com/npt0zjtqkii2zdxdxdkvaquw8yosdogyfe-mk0mlflmu.jpg” title =“ title =” 94回复，但$ 0 pipeline…我缺少什么？” /&gt;    &lt;！ -  sc_off-&gt;   最近运行了一封冷电子邮件推动（附加了屏幕截图）。联系了2,578人，有94个答复，甚至标记为39个“机会”。 但最终结果？ $ 0创建的管道。    关于为什么会发生这种情况的一些想法：\    - 受众群体适合→回答→回答来自足够好奇的人，但没有真正的买家。  看到很高的答复数字，但没有收入影响很奇怪。让我认为答复率只是故事的一半，应用程序质量真正重要的是。&lt; /p&gt; 我记得杰伊·杰伊（Lead Jay）提到，并非所有答复都是平等的，有些是好奇心，有些只是礼貌，只有少数是真正的意图。看着这一点，感觉很有。 所以我很好奇：对于那些出站的人，您如何尽早过滤噪音？一旦答复进来，就可以更好地完善定位目标，或者在排位赛中变得更加清晰？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/freelancerluna4101      [link]   [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ncecz6/94_replies_but_0_pipeline_what_am_i_missing/</guid>
-      <pubDate>Tue, 09 Sep 2025 09:35:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>混合动力网站的最佳解决方案（静态页面 +博客文章）？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ncea6l/best_solution_for_a_hybrid_website_static_pages/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我现在是一个漂亮的WebDEV和软件架构师，我大多用来习惯于Astro，React，Typecript，Tailwind等。我想为一个靠近我内心的个人项目建立一个网站，因此我希望它看起来专业，整合等。可以说，它的要旨是在自己的博客部分中拥有一些静态页面，然后在自己的博客部分中文章，但其中一些在静态页面中显示。主要约束是：  静态页面应非常可定制，理想地直接用HTML/CSS，JSX或Astro等编写...美学对它们非常重要，它们充当“钩子”。对于来网站和美学的人来说，这本身就是一个卖点。 文章应由非技术用户进行编辑，与WordPress块编辑器相似。 该软件本身必须便宜，理想地是免费的，理想情况下，我可以很好地付费并为基础付费。 I could imagine switching languages redirects you to the localized domain name, in your language, but this also needs to work with articles. If there&#39;s out of the box options for sitemaps, rss feeds and newsletters it&#39;s a plus, otherwise I can do it myself. Good web vitals etc etc  At first I went with a static site in astro (from scratch, no主题）和一个替代出版物，但是我发现替代限制了我可以使用内容，显示方式等。更不用说我的网站是两种语言，每个语言都有一个替代出版物对我和最终用户的体验都很糟糕。 ，所以我一直在考虑使用payloadCms（似乎强烈推荐并且是免费的）与Astro使用之类的东西。但是显然有payloadCMS与Next.js紧密整合在一起。看来您可以将有效载荷用作纯无头CM，但我不知道它是否是“最佳”。提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1ncea6l/best_solution_for_hhybrid_hybrid_hybrid_website_static_pages/”&gt; [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ncea6l/best_solution_for_a_hybrid_website_static_pages/</guid>
-      <pubDate>Tue, 09 Sep 2025 09:30:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>锚定位的基础</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ncdq28/the_basics_of_anchor_positioning/</link>
-      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/u/ossreleasefeed      [注释]    ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ncdq28/the_basics_of_anchor_positioning/</guid>
-      <pubDate>Tue, 09 Sep 2025 08:53:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>语法类似于pug.js的模板 / SSR解决方案？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1nccwxp/template_ssr_solutions_with_syntax_similar_to/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我喜欢 pug ，直到它进入了这个奇怪的不支持状态。  pug-cli 也不处于有利的状态。 我喜欢它，因为它是基于简洁的凹痕语法。  如今，您可以推荐什么代码，以避免使开发人员处理角度括号和闭合标签，可以将其存储为一个单独的文件，并允许直接从其他模板文件中导入模板文件？ 或任何解决方案与pug syle-pug ode syle？  /u/u/tsilvs0     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1nccwxp/template_ssr_solutions_with_syntax_similar_to/</guid>
-      <pubDate>Tue, 09 Sep 2025 07:58:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>当您实际上需要次秒延迟而不是当您不需要时</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ncbh3i/when_you_actually_need_subsecond_latency_vs_when/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  花了几个月的时间来设计我们的视频基础架构，然后才意识到我们解决了错误的问题。并非每个人”功能需要实时延迟。 下一秒实际上很重要：  视频通话/会议（明显） 实时拍卖或下注 交互式游戏流   远程远程协助/支持 li&gt; secort  li&gt; secict  secict      Webinars  现场购物表演 体育流媒体 音乐会广播 大多数事件  我们的错误是对待所有内容，就像需要的WebRTC一样。构建了这个复杂的网络网络，然后是SFU设置，处理眩晕/转向服务器，连接问题，所有这些都适用于HLS完全可以很好的用例。 现在，我们按照实际的延迟需求进行细分。将Agora用于毫秒至关重要的真正互动的东西。对于其他所有内容，标准HLS具有CDN分布。  有趣的部分是用户甚至在大多数情况下都无法分辨差异。他们更关心质量和可靠性，而不是落后于实时的500ms还是5秒钟。 最大的课程：问问自己是在构建视频会议还是视频广播。基础架构要求完全不同。当简单的解决方案正常时，大多数开发人员默认为复杂的解决方案。 您实际上有哪些延迟要求，而您认为所需的内容？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/letmebefreefromitall      [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1ncbh3i/1ncbh3i/when_you_actallal_need_need_subsecond_latency_vs_vs_when/”]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ncbh3i/when_you_actually_need_subsecond_latency_vs_when/</guid>
-      <pubDate>Tue, 09 Sep 2025 06:23:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪个托管服务提供了永久的子域，还可以为其启用SSL证书吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1nc9bqa/which_hosting_service_provides_permanent/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，我正在建立一个网站，只能访问。因此，我不介意域名是什么样的。但是域名应为固定且永久，并且可以使用 https   访问它，并且不是静态网站。并且需要一些存储。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/shaunyip     [link]     [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1nc9bqa/which_hosting_service_provides_permanent/</guid>
-      <pubDate>Tue, 09 Sep 2025 04:15:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>优化可调 /可缩放元素</title>
-      <link>https://www.reddit.com/r/webdev/comments/1nc93r1/optimizing_a_pannable_zoomable_element/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我对涉及一些平移和缩放的非常互动的UI有一个相当独特的要求。提出了一些解决方案，但是唯一有意义的解决方案是您期望的解决方案，只需根据输入应用CSS转换即可。我自己实施了它，发现它运行良好，还发现了一个非常受欢迎的软件包“ React-Zoom-Panchch”。  我发现的问题是，当被转换的父容器包含多个简单元素时，性能开始显着降低。 是否有人有任何提示或想法来优化标准超出标准的“ will-change”。提交由＆＃32; /u/u/lewissunn     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1nc93r1/optimizing_a_pannable_zoomable_element/</guid>
-      <pubDate>Tue, 09 Sep 2025 04:04:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人成功地从可爱或螺栓迁移了一个项目吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1nc6v87/has_anyone_successfully_migrated_a_project_from/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在过去几个月中一直在测试可爱，螺栓和其他一些。  他们很有趣地旋转快速原型，但是我一直遇到相同的问题：    toy backends ：通常是您无法迁移的supabase或专有的Infra。非常适合周末黑客，但是一旦您需要生产级别的控制。您与他们的信用，下文和路线图有关。   自定义限制：是否要插入您自己的API或扩展独特的工作流程？   这就是为什么我开始使用Solid，而不是递给您玩具堆栈，而是生成您完全拥有并可以在任何地方部署的地方，而是生成 react + node.js + postgres codebases 。感觉就像演示和实际产品之间的区别。 对于那些仍在使用可爱或螺栓的人：  您是否遇到了这些缩放/自定义问题？ 您如何处理它们？您正在使用的其他选择吗？    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/shot-practice-5906     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1nc6v87/has_anyone_successfully_migrated_a_project_from/</guid>
-      <pubDate>Tue, 09 Sep 2025 02:11:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>探索为什么减小TLS记录大小可以改善网页负载</title>
-      <link>https://www.reddit.com/r/webdev/comments/1nc42uf/exploring_why_decreasing_tls_record_size_can/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/tootac      [commist]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1nc42uf/exploring_why_decreasing_tls_record_size_can/</guid>
-      <pubDate>Tue, 09 Sep 2025 00:01:30 GMT</pubDate>
+      <title>卡在持续的“不能解析元数据”的github页面（视频背景）上</title>
+      <link>https://www.reddit.com/r/webdev/comments/1nc3f0k/stuck_on_persistent_cannot_parse_metadata_error/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正处于我的智慧，试图在我的个人github页面网站上使用一个简单的视频背景，我希望这里有人尚未尝试过我尚未尝试的想法。 我已经设置了一个随机的视频背景，这些视频背景从我的 script.js 文件中删除。问题是，无论我做什么，我都在浏览器控制台中遇到相同的错误，并且视频永远不会播放。  持续错误的错误是：  uncoverf（Promise）domexception：domexception：src属性或分配的媒体提供者指示的媒体资源不合适。 ...无法解析元数据  这似乎是一个编码问题，但是我已经尝试了所有内容。  我到目前为止所做的事情：        html/css：视频标签与 autopoplay  loop 和 PlayaySinline 。 CSS在后台正确定位。   git/lfs：我已经确认 git lfs 已建立并起作用。我的 git lfs push 命令成功。我什至重新定位了整个存储库以确保清洁的历史记录。   github页面：网站的jekyll构建成功，并且页面是实时的。我已经清除了浏览器缓存并尝试了隐身模式。  视频编码（主要嫌疑人）：我使用 Handbrake 多次重新编码视频。我尝试了多个预设，这应该保证兼容性。我在网络选项卡中有一个 200 OK 状态，这证明浏览器正在成功下载文件。  浏览器正在找到该文件，但它无法播放。我想念什么？是否存在可能导致此的微妙github页面或服务器端设置？任何帮助将不胜感激。预先感谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/willy988     [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1nc3f0k/stuck_on_persistent_cannot_parse_metadata_error/</guid>
+      <pubDate>Mon, 08 Sep 2025 23:32:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
