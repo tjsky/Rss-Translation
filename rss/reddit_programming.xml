@@ -4,20 +4,62 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 09 Sep 2025 15:18:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 18:20:34 GMT</lastBuildDate>
     <item>
-      <title>我使终端更聪明，所以我停止了复制命令</title>
-      <link>https://www.reddit.com/r/programming/comments/1nclo8a/i_made_my_terminal_smarter_so_i_stopped/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我是一个开发人员，他厌倦了在终端中手动编辑长时间的重复命令。因此，我构建了 Intellishell ，这是一种用Rust编写的开源CLI工具，以使命令行更聪明。 核心想法是自动化在外壳中工作的烦人部分。关键特征是：   智能模板：在命令中使用动态变量，而不是静态文本。     ai集成：从普通的英语查询中生成新命令，并从普通的英语查询中生成新的命令，并获得帮助调试失败脚本的命令。  您可以在github上找到该项目：   https://github.com/lasantosr/lasantosr/intelli/intelli-shell   ＆＃32;提交由＆＃32; /u/u/isparco       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nclo8a/i_made_my_terminal_smarter_so_i_stopped/</guid>
-      <pubDate>Tue, 09 Sep 2025 15:15:30 GMT</pubDate>
+      <title>在纯SQL中构建类似厄运的多人射击游戏</title>
+      <link>https://www.reddit.com/r/programming/comments/1ncoxl8/building_a_doomlike_multiplayer_shooter_in_pure/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/avinassh      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ncoxl8/building_a_doomlike_multiplayer_shooter_in_pure/</guid>
+      <pubDate>Tue, 09 Sep 2025 17:17:39 GMT</pubDate>
     </item>
     <item>
-      <title>最小HMAC-SHA256承诺验证骨骼（Python）</title>
-      <link>https://www.reddit.com/r/programming/comments/1ncldf3/minimal_hmacsha256_commitment_verification/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   https://github.com/RayanOgh/Minimal-HMAC-SHA256-Commitment-Verification-Skeleton-Python-  ＆＃32;提交由＆＃32; /u/u/frage_jicama_759      [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ncldf3/minimal_hmacsha256_commitment_verification/</guid>
-      <pubDate>Tue, 09 Sep 2025 15:03:59 GMT</pubDate>
+      <title>世界是否需要另一个分布式队列？</title>
+      <link>https://www.reddit.com/r/programming/comments/1ncnrfs/does_the_world_need_another_distributed_queue/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我最近在这里看到了一篇文章，正在谈论建立分布式队列。我们在Cloudkitchens建造了自己的建造，它基于内部建造的Sharder和CRDB。它还通过跟踪每个键的消耗，为在线阻塞带来整洁的解决方案，我们称之为钥匙事件队列或keq。认为这就像卡夫卡（Kafka）一样，几乎没有数量的分区。我们已经在生产中运行关键任务工作负载已有近五年的历史，因此进行了战斗证实。  它可以开发事件驱动的系统，这些系统需要一个真正的主动活动多区域拓扑，我可以看到它如何发展为更加可靠和更具成本效益。  我们在内部谈论了开源，但是由于它与我们的内部库相结合，它将需要一些工作才能完成。您认为外面的任何人都会受益/使用这样的系统？团队会喜欢您的反馈。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/alex_cloudkitchens      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ncnrfs/does_the_world_need_another_distributed_queue/</guid>
+      <pubDate>Tue, 09 Sep 2025 16:34:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个交互式绽放过滤器视觉模拟器，因此您可以更好地了解此数据结构</title>
+      <link>https://www.reddit.com/r/programming/comments/1ncnlku/i_built_an_interactive_bloom_filter_visual/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我第一次阅读此概率数据结构我很难理解概率部分，因此最终我陷入了理论，但忘记了它。前几天，我决定在博客上写些什么，然后思考：＆quot，也许如果我使它更具视觉和互动性＆quot＆quot” 。  无论如何，希望您能理解Bloom过滤器更轻松地工作的方式。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/prox_sea     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ncnlku/i_built_an_interactive_bloom_filter_visual/</guid>
+      <pubDate>Tue, 09 Sep 2025 16:27:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>NPM安全失败的课程</title>
+      <link>https://www.reddit.com/r/programming/comments/1ncnhmi/lessons_from_npms_security_failures/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/upeanut       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ncnhmi/lessons_from_npms_security_failures/</guid>
+      <pubDate>Tue, 09 Sep 2025 16:23:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kubernetes不够吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1ncndp2/isnt_kubernetes_enough/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  许多开发人员问我：‘kubernetes还不够吗？’ 我已经做了研究，并把我的想法放在下面，并想在这里分享在这里为了每个人的利益，会喜欢您的想法，并且会喜欢您的想法！  这个5分钟的Visual Explion  href =“ https://youtu.be/hklwecgxohw”&gt; https://youtu.be/hklwecgxohw 展示我们为什么仍然需要API Gateways + Istio-使用有趣的机场类比。 href =“ https://faun.pub/how-api-gateways-and-istio-service-mesh-work-work-work-together-serving-serving-microservices-on-a-k8s-k8s-k8s-8dad951d22d2d0c”&gt; https://faun.pub/how-api-gateways-and-istio-service-mesh-work-work-together-for-servor-servors-servorn-microservices-on-a-k8s-a-k8s-k8s-8dad951d20cd0c     https://medium.com/faun/why-kubernetes-alone-isnt-enough-enough-case-for-api-gateways-and-gateways-and-service-meshes-2ee856ce53a4    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/mmk4mmk_simplifies       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ncndp2/isnt_kubernetes_enough/</guid>
+      <pubDate>Tue, 09 Sep 2025 16:19:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>让我们做游戏吧！ 324：交换和重新排列变量</title>
+      <link>https://www.reddit.com/r/programming/comments/1ncmp2z/lets_make_a_game_324_swapping_and_rearranging/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/apeloverage      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ncmp2z/lets_make_a_game_324_swapping_and_rearranging/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:54:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>数据管理的最后几十年的简短摘要•HannesMühleisen</title>
+      <link>https://www.reddit.com/r/programming/comments/1ncmnj2/a_short_summary_of_the_last_decades_of_data/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/goto-con       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ncmnj2/a_short_summary_of_the_last_decades_of_data/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:52:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>热烈欢迎ASN.1和der</title>
+      <link>https://www.reddit.com/r/programming/comments/1nclsok/a_warm_welcome_to_asn1_and_der/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/u/u/u/perfect-praline3232      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nclsok/a_warm_welcome_to_asn1_and_der/</guid>
+      <pubDate>Tue, 09 Sep 2025 15:20:13 GMT</pubDate>
     </item>
     <item>
       <title>工程高性能GO PDF微服务</title>
@@ -67,48 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/primeentbid2476      [注释]   ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ncj2as/generic_constraints_and_mapped_types_in/</guid>
       <pubDate>Tue, 09 Sep 2025 13:33:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>我爱乌伊德，我讨厌uuid</title>
-      <link>https://www.reddit.com/r/programming/comments/1ncht77/i_love_uuid_i_hate_uuid/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/u/bobbymk10     link&gt; link&gt; link&gt; link&gt;     [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ncht77/i_love_uuid_i_hate_uuid/</guid>
-      <pubDate>Tue, 09 Sep 2025 12:40:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>杂草 +编程=创造力提升还是错误工厂？</title>
-      <link>https://www.reddit.com/r/programming/comments/1ncdwpi/weed_programming_creativity_boost_or_bug_factory/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我最近遇到了一项研究，说许多开发人员在编码时使用大麻。我很好奇...您个人是否在影响下进行编码？提交由＆＃32; /u/u/tiposbingo      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ncdwpi/weed_programming_creativity_boost_or_bug_factory/</guid>
-      <pubDate>Tue, 09 Sep 2025 09:05:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>从模块化到公用事业领先的尾风迁移</title>
-      <link>https://www.reddit.com/r/programming/comments/1ncd7dh/from_modular_to_utilityfirst_tailwind_migration/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/primeentbid2476       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ncd7dh/from_modular_to_utilityfirst_tailwind_migration/</guid>
-      <pubDate>Tue, 09 Sep 2025 08:17:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>流程系统设计：构建LLM编排平台</title>
-      <link>https://www.reddit.com/r/programming/comments/1nccxwt/flowrun_system_design_building_an_llm/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;     flow-run：建立生产准备的LLM编排服务  我深入研究了 flow flow-run&gt;的系统设计（open-source）。亮点： •任务是原子单位（LLM呼叫，电子邮件等），然后流动以图形连接；通过BFS并行执行。  •数据模型（帐户，提供者，模型，任务，流）→多年轻 +可靠的重试。  •提供者/型号/任务/流的YAML DSL； /v1  API带有dedupe的客户端分类ID。  •缩放选项：水平节点，DB读取副本/群集；如何选择多个LLM提供商与多个帐户。 从建立编排层或分布式系统的人们来欢迎反馈：[ https://vitaliihonchar.com/insights/flow-run-system-designs/flow-run-system-design]（）  提交由＆＃32; /u/u/u/history_wing_9573        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nccxwt/flowrun_system_design_building_an_llm/</guid>
-      <pubDate>Tue, 09 Sep 2025 07:59:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>人类事件报告</title>
-      <link>https://www.reddit.com/r/programming/comments/1ncb4wu/incident_report_for_anthropic/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/Geaverfulboy      [commist]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ncb4wu/incident_report_for_anthropic/</guid>
-      <pubDate>Tue, 09 Sep 2025 06:01:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>iPhone Dumbphone</title>
-      <link>https://www.reddit.com/r/programming/comments/1ncb4oe/iphone_dumbphone/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/gherefulboy       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ncb4oe/iphone_dumbphone/</guid>
-      <pubDate>Tue, 09 Sep 2025 06:01:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
