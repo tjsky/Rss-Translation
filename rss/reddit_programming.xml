@@ -4,13 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 08 Sep 2025 21:16:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 01:09:47 GMT</lastBuildDate>
     <item>
-      <title>我如何阻止AI编码代理破坏我的代码库</title>
-      <link>https://www.reddit.com/r/programming/comments/1nbz709/how_i_stopped_ai_coding_agents_from_breaking_my/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在编码代理时一直注意到的一件事：  大多数故障都与模型无关。它们是关于上下文的。  太少了→幻觉。 太多→混乱和混乱和混乱和杂乱的输出。 和跨提示，代理人会完全“忘记”仓库。 为什么上下文是bottleneck   possect    体系结构健忘症代理不记得您的应用程序如何连接在一起 - 数据库，API，前端，后台作业。因此，他们做出了不合适的孤立更改。  不一致的模式 而不知道您的约定（命名，文件夹结构，代码样式），它们会陷入默认情况下。突然，您的存储库看起来像其他人写了。  手动重复我发现自己从多个文件中复制了摘要中的每个提示符 - 使模型不会幻觉。这起作用了，但是很缓慢且容易出错。  我一开始如何处理它 ，我像少年开发者一样对待了代理商。我没有要求它“只是弄清楚”，而是开始准备：    prds和Tech Specs   定义了我想要的东西，而不仅仅是一个模糊的提示。    当前状态图与目标状态图 以使体系结构变得明确。 increments. File references so it knew exactly where to add or edit code instead of spawning duplicates.  This manual process worked, but it was slow, which led me to think about how to automate it. Lessons learned (that anyone can apply)  Context loss is the root cause. If您的经纪人正在制作垃圾，问问自己：它实际上现在知道建筑吗？还是猜测？  惯例是看不见的胶。不知道您的命名模式的代理人无论代码多么出色，都会感到“关闭”。   手动上下文不会扩展。拷贝性抛光作品适用于小功能，但是随着存储库的增长，它会分解。   精确的杂句。给出模型仅相关文件           的工作要比倾倒整个仓库好得多。   令人惊讶的部分是：通过上下文处理，我将功能一直运送到生产 100％100％vibe编码  - 即使项目缩放。   最终，我都无法将所有人包装到每个人中，所以我不得不将其包装到每个人中，所以我不得不将其设置为per/p redo。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/u/bralca_      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nbz709/how_i_stopped_ai_coding_agents_from_breaking_my/</guid>
-      <pubDate>Mon, 08 Sep 2025 20:39:49 GMT</pubDate>
+      <title>我正在寻找node.js开发人员</title>
+      <link>https://www.reddit.com/r/programming/comments/1nc5k7s/im_looking_for_a_nodejs_developer/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我们正在寻找     node.js（v18+），具有websocket繁重的系统经验。 了解实时流的理解多个服务之间的实时流媒体。自动化工具（N8N，PIPEDREAM等）。 能够管理多种配置的能力，将入站会话映射到独特的行为。 基本可观察性实践：结构化日志，结构化的日志，基本的健康端点和基本的健康终点和简单的衡量范围。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/far-recording6027      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nc5k7s/im_looking_for_a_nodejs_developer/</guid>
+      <pubDate>Tue, 09 Sep 2025 01:09:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>法典的崛起</title>
+      <link>https://www.reddit.com/r/programming/comments/1nc1djw/the_rise_of_codex/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/kirbyhood      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nc1djw/the_rise_of_codex/</guid>
+      <pubDate>Mon, 08 Sep 2025 22:05:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么UUID击败整数作为主要键（以及为什么性能不是问题）</title>
+      <link>https://www.reddit.com/r/programming/comments/1nc1aog/why_uuids_beat_integers_as_primary_keys_and_why/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/bizzehdee     [link]    [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nc1aog/why_uuids_beat_integers_as_primary_keys_and_why/</guid>
+      <pubDate>Mon, 08 Sep 2025 22:02:40 GMT</pubDate>
     </item>
     <item>
       <title>C ++游戏体系结构中的冒险</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis              [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1nbvhnx/fortyfour_esolangs_the_art_of_esoteric_code/</guid>
       <pubDate>Mon, 08 Sep 2025 18:20:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>无银弹：软件工程的本质和事故（1986）[PDF]</title>
-      <link>https://www.reddit.com/r/programming/comments/1nbvh5t/no_silver_bullet_essence_and_accidents_of/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nbvh5t/no_silver_bullet_essence_and_accidents_of/</guid>
-      <pubDate>Mon, 08 Sep 2025 18:19:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>探索网格感知的网站</title>
-      <link>https://www.reddit.com/r/programming/comments/1nbvguz/exploring_gridaware_websites/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nbvguz/exploring_gridaware_websites/</guid>
-      <pubDate>Mon, 08 Sep 2025 18:19:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
