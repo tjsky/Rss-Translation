@@ -4,7 +4,70 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 12 Sep 2025 09:17:36 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 15:18:20 GMT</lastBuildDate>
+    <item>
+      <title>大小作弊表的质量良好</title>
+      <link>https://www.reddit.com/r/programming/comments/1nf4a4n/bigo_cheatsheet_in_good_quality_in_coments/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/greatmandalore      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nf4a4n/bigo_cheatsheet_in_good_quality_in_coments/</guid>
+      <pubDate>Fri, 12 Sep 2025 14:10:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于Android的销售点系统的技术堆栈。</title>
+      <link>https://www.reddit.com/r/programming/comments/1nf32sd/tech_stack_for_android_based_point_of_sale_system/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我正在考虑为开发Android开发的销售点系统，并具有外部开发团队。 我们目前拥有C＃/。应用程序中所需的大多数功能 transfer with various systems. Does anyone have any suggestions / comments to this stack setup? Frontend: Android Kotlin + SQLite + Firestore SDK Backend: Cloud Run (Node.js, Python, or Go) + Firebase Auth Database: Postgres (system of record) + Firestore (realtime镜子） 消息传递：pub/sub  报告：bigquery  仪表板：react/react/next.js + firebase托管 被锁定的原因对于Google来说，我们有一些非常严格的国家法律，涉及应该存储此类信息的位置。我最初是在看kotlin/firebase和sqlite，因此其余的在AI的帮助下进行了详细说明。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/weerno      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nf32sd/tech_stack_for_android_based_point_of_sale_system/</guid>
+      <pubDate>Fri, 12 Sep 2025 13:20:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>共同开发了全面的UUID API -17+功能，完全免费</title>
+      <link>https://www.reddit.com/r/programming/comments/1nf2oh0/codeveloped_a_comprehensive_uuid_api_17_features/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿 r/programming ！ 我刚刚完成了我认为是最全面的uuId Generation Generation Api Api之一。在进行了几个月的工作之后，我很高兴与社区分享。  我们解决的问题：现有的UUID API非常有限 - 大多数仅提供具有严格速率限制的基本V4生成。我们需要可以满足现代发展要求的东西。  我们构建的内容：     所有UUID版本（v1 -v8） +现代替代方案（nanoid，ulid，ulid）      qr qr代码生成  （CODE128，EAN13，CODE39）  行业标准IDS （Gtin，isrc，ean）    批处理生成（最多可容纳1000个UUID）用法，没有身份验证   技术亮点：   用node.js/express  部署在全球性能    100％测试覆盖范围  文档   非常适合：    电子商务平台（产品IDS，订单号） 库存管理（资产跟踪，SKUS，SKUS） 移动应用程序（用户ID，session tokens tokens） （带有QR码的票证号）   尝试：       live api：  https://uuid-generator-generator-generator-generator-generator-generator-generator-7cdiy8ttttuy8ttuysideuts.-yossideutsch1973s-propijects.verjects.ver.ver.ver.app/ li&gt; stront stront li&gt; https://uuid-generator-7cdiy8ttu-yossideutsch1973s-projects.vercel.app/docs   github：  https://github.com/yossideub.com/yossideutsch1973/uuid-generator-generator-generator-generator-generator-generator-generator-generator-papi-phip strong-generator-generator-papi 示例：    //生成UUID v4 const响应=等待fetch（&#39;https://uuid-generator-7cdiy8ttttttttu-yossideutsch1973s-projects.vercel.app/uuid？type=v4&#39;）; const {uuid} =等待响应。JSON（）; //生成QR代码const qrresponse =等待fetch（&#39;https://uuid-generator-7cdiy8tttuy8ttttttttttu-yossideutsch1973s-projects.vercel.app/barcode？ const {barcode} =等待qrresponse.json（）; //立即生成10个UUID const batchResponse =等待fetch（&#39;https://uuid-generator-7cdiy8tttuy8tttttu-yossideutsch1973s-projects.vercel.app/uuid？ const {uuids} =等待batchresponse.json（）;    为什么我们免费提供它：我们相信开发人员工具应该可以访问。无费用限制，无需信用卡，无隐藏费用。只是一个有效的功能API。  下一步是什么：我们计划添加基于社区反馈的webhook支持，自定义UUID格式以及更多的条形码类型。 您怎么看？您想添加任何功能吗？我们对建议！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/carutious_radio9350     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nf2oh0/codeveloped_a_comprehensive_uuid_api_17_features/</guid>
+      <pubDate>Fri, 12 Sep 2025 13:03:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人擅长解决问题吗？我需要将我的电子商务股票与供应商同步</title>
+      <link>https://www.reddit.com/r/programming/comments/1nf2e3i/anyone_good_at_problem_solving_i_need_to/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  首先，让我道歉，因为我不是开发人员，只是一个开始电子商务的女孩，并且必须学习如何在工作中开发。 上下文：我的电子商务销售约600个独特的产品。不像T恤衫，但每种产品都是100％独特的，就像具有序列号的艺术品一样。 My supplier has 10000s of unique products like that and has a very fast turnover of its own stock, so I have to constantly make sure that the stock that is on my website isn’t obsolete, and synchronized and everything available. At first, I thought, « Ok, I’ll just create a webpage with all the suppliers products links that I am using, then process the page with a link checker app and every broken link means the product has been sold ».  不幸的是，它不起作用，因为每当我的供应商出售产品时，该页面都不会被删除，而是变为空白。 因此，我考虑过使用一个可以检测到HTML中是否有“添加到购物车”的爬行软件。 I did not work neither, cause their page is in JS and the html is blank, wether the product was available or not (I don’t know if that makes sense, sorry again I am just a novice) So in the end I decided to code a small script in python which basically looks like that:  I copy paste all the urls in my python file The bot goes to my供应商网站并使用我的ID登录  bot打开了我复制粘贴的每个URL，并验证是否可用  bot在«可用&#39;&#39;或«not link        y是的3和4看起来像  url：  print（f＆quot;→vérification：{url} timeout = 60000） 等待new_page.wait_for_load_state（＆quot; networkIdle＆quot; timeout = 60000） ＃＃＃vérifiersi le boutoneee    等待超时= 10000）  print（f＆quot;✅doponible：{url} \ n＆quot;;＆quot; new_page.close（） 等待browser.close（） 但是，虽然这似乎是一个好主意，但此选项有重大问题。主要的是，我的供应商的网站在某种意义上不是100％可靠的是，对于某些产品页面，我必须刷新它们，直到它们出现为止（机器人无法做到），否则它们需要加载（大约10秒）。     如此，现在我的机器人一直在检查每个链接（如果我的时间都不在30 sec/1 min中），但我的时间均不再努力，因为我的时间均不再努力，因为我的时间均不再努力，因为我的时间均匀，因为我的时间均匀，因为我的时间不变，因为我的时间均匀，因为我的时间不变，因为我的时间均匀，因为我的时间均不错。 Also, the way that my python bot is giving me the results « available » or « not available » is not practical at all, within in a full sentence, and it’s completely unmanageable for 600 products. I must precise that my supplier also has an app, and contrary to the website this app is working perfectly, zero delay, very smooth, but I have seriously no idea how to use the app’s data instead of the website ones, if that make sense. 我还考虑过将我添加到网站上的每个产品中添加到收藏夹中，因此每当有人售罄时，我都会收到通知，但我无法添加600个收藏夹，而且似乎我实际上并没有在供应商的尽头收到每种产品的电子邮件。 我真的在如何管理和解决此问题上丢失了我的确丢失了。这绝对不是我的专业领域，在这一点上，我正在寻找任何建议，任何可以帮助我的建议。 非常感谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/lostwanderlust       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nf2e3i/anyone_good_at_problem_solving_i_need_to/</guid>
+      <pubDate>Fri, 12 Sep 2025 12:51:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找反馈：头部扑克培训应用程序</title>
+      <link>https://www.reddit.com/r/programming/comments/1nf25fp/looking_for_feedback_headsup_poker_training_app/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我们是一家来自德国的小型创业公司，它构建了一个具有许多功能的扑克培训应用程序： elo比赛，每日锦标赛，具有奖品的每日奖项，基于GTO和AI的培训功能，基于GTO和AI，AIR Academy Secort，Friend System，Friend System等。&lt; /p&gt; 。我们的用户群很小，但我们最常用的功能是锦标赛模式。人们通常会在比赛开始之前见面并参加一些ELO比赛或我们的机器人挑战。 但是，我们最令人印象深刻的功能实际上是我们建造的AI以及整个学院。从GTO求解器到手分析再到错误评论 - 它具有所有内容。这就是为什么看到它不是我们最常用的功能会有些痛苦的原因。 您如何看待：我们应该接受它并专注于锦标赛，还是应该添加更多的游戏化或其他东西来突出学院？我们很想从您那里得到一些反馈！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/pokerheads-poker       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nf25fp/looking_for_feedback_headsup_poker_training_app/</guid>
+      <pubDate>Fri, 12 Sep 2025 12:40:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>跑步者技巧＃1</title>
+      <link>https://www.reddit.com/r/programming/comments/1nf0s0d/runner_tricks_1/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  跑步者技巧＃1  网站： what the heck?  because you want to have full understanding of your app (how tasks and events are related, how listeners are related to the system, what side effects can happen on a complex workflow), and your AI assistant can with a query do wonderful things. because you want a beautiful documentation of your app and not have to work for it and it&#39;s not about documentation of your exposed api, it&#39;s about the inner胆量。  详细信息：   Runner-dev公开了一个GraphQl API，该API使您可以在单个GraphQl查询中获取所有资源（Singletons）/任务（业务功能），中间件（业务功能）。 This graphql server is of two types: dry run (can only see structure, relations and diagnostics) and the mcp/runner-dev one which open a http graphql server in which you can also see telemetry (logs, events emitted, tasks run, error happened) etc. all the data is tied together, you can get all errors, emittors, their dependencies and their file contents, no biggie.   show： ````````runner-dev查询&#39;query&#39;query {tasks {id，meta {title}}}&#39;-entry-file ./src/main.ts-pretty      { ＆quot; app.http.tasks.healthz’; quot; quot; }}，{; }}，{; }}，// ...  或尝试：  runner-dev查询&#39;query&#39;query {diagnostics {diagnostics {code message straile}}&#39;-entry-file ./src/main.ts-pretts-pretty-pretty i npm运行开发＃这将为您打开各种文档。正确的端点环境变量GraphQL曝光。现在，您可以在IDE/代码工具中使用它。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/theodordiaconu       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nf0s0d/runner_tricks_1/</guid>
+      <pubDate>Fri, 12 Sep 2025 11:35:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>看不见的角色花了我太多的调试时间</title>
+      <link>https://www.reddit.com/r/programming/comments/1nf0dli/the_invisible_character_that_cost_me_too_much/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/ludovicianul      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nf0dli/the_invisible_character_that_cost_me_too_much/</guid>
+      <pubDate>Fri, 12 Sep 2025 11:13:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Graph Rag Pipeline完全在本地使用Ollama运行，并具有完整的源归因</title>
+      <link>https://www.reddit.com/r/programming/comments/1nf08e5/graph_rag_pipeline_that_runs_entirely_locally/</link>
+      <description><![CDATA[Hey , I&#39;ve been deep in the world of local RAG and wanted to share a project I built, VeritasGraph, that&#39;s designed from the ground up for private, on-premise use with tools we all love. My setup uses Ollama with llama3.1 for generation and nomic-embed-text for embeddings.整个东西在我的计算机上运行而不会击中任何外部API。 主要目标是解决两个大问题： 多跳​​的推理：当您需要从不同文档连接事实时，标准向量抹布失败。 Veritasgraph构建了一个知识图来遍历这些关系。  Trust＆amp;验证：它为每个生成的语句提供了完整的源归因，因此您可以准确看到源文档的哪一部分用于构建答案。 我遇到（并已解决）的关键挑战之一是Ollama的默认上下文长度。我发现2048年的违约正在截断上下文并导致不良结果。该存储库包括一个具有12K上下文窗口的Llama3.1版本的途径，该版本完全解决了问题。 该项目包括： 完整的图形rag ragpipeline。  gradio ui用于交互式聊天体验。代码和说明： https://github.com/bibinprathap/veritasgraph    我真的很感兴趣地听到您的想法，尤其是在本地LLM上实施和提示。我敢肯定有可以进一步优化的方法。 谢谢！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/bitterhouse8234       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nf08e5/graph_rag_pipeline_that_runs_entirely_locally/</guid>
+      <pubDate>Fri, 12 Sep 2025 11:05:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用AI（主要是LLM）的限制因素</title>
+      <link>https://www.reddit.com/r/programming/comments/1nezpel/the_limiting_factor_in_using_ai_mostly_llms/</link>
+      <description><![CDATA[ You can’t automate what you can’t articulate.  To me, this is one of the core principles of working with generative AI. This is another, perhaps more powerful principle:  In knowledge work, the bottleneck is not the external availability of information.这是处理能力的内部带宽，这取决于您的先天能力和思想的训练状态。源  我认为这已经是发生的问题。 我广泛使用AI。但是，我主要在最了解的领域中受益。这与AI在软件工程中杀死初级职位的假设相吻合，而高级职位仍未受到影响。   ai应用作乘数，而不是代理。     所以，我的假设是我们的假设是AI是AI是乘坐的基础。因此，总的来说，我们从训练我们的思想而不是AI-Improvements中总共受益。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fastsascha      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nezpel/the_limiting_factor_in_using_ai_mostly_llms/</guid>
+      <pubDate>Fri, 12 Sep 2025 10:35:46 GMT</pubDate>
+    </item>
     <item>
       <title>屏蔽高需求系统免受欺诈</title>
       <link>https://www.reddit.com/r/programming/comments/1ney0wh/shielding_highdemand_systems_from_fraud/</link>
@@ -46,69 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/iamkeyur     [link]&gt; [link]&gt; [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1nesqgh/behind_the_scenes_of_bun_install/</guid>
       <pubDate>Fri, 12 Sep 2025 03:26:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>保持卷发的挑战</title>
-      <link>https://www.reddit.com/r/programming/comments/1nesqco/the_challenge_of_maintaining_curl/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/iamkeyur      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nesqco/the_challenge_of_maintaining_curl/</guid>
-      <pubDate>Fri, 12 Sep 2025 03:26:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>浮点在视觉上解释</title>
-      <link>https://www.reddit.com/r/programming/comments/1nesp2g/floating_point_visually_explained/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/iamkeyur      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nesp2g/floating_point_visually_explained/</guid>
-      <pubDate>Fri, 12 Sep 2025 03:24:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ebitengine游戏引擎（教程）的建筑</title>
-      <link>https://www.reddit.com/r/programming/comments/1nep5ew/architecture_of_the_ebitengine_game_engine/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/tslocum      [commist]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nep5ew/architecture_of_the_ebitengine_game_engine/</guid>
-      <pubDate>Fri, 12 Sep 2025 00:28:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>程序合成简介</title>
-      <link>https://www.reddit.com/r/programming/comments/1nenpd7/an_introduction_to_program_synthesis/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/chavxo      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nenpd7/an_introduction_to_program_synthesis/</guid>
-      <pubDate>Thu, 11 Sep 2025 23:19:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>RSL开放许可协议：保护内容免受AI刮板的影响并带回RSS？如果我在做梦，捏我</title>
-      <link>https://www.reddit.com/r/programming/comments/1nemhc0/rsl_open_licensing_protocol_protecting_content/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我还没有看到过讨论的讨论，只有在录音时短暂地通过了它。这似乎有潜力，周围的任何人都戳了吗？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/muhznit      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nemhc0/rsl_open_licensing_protocol_protecting_content/</guid>
-      <pubDate>Thu, 11 Sep 2025 22:24:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发人员倦怠的真正原因</title>
-      <link>https://www.reddit.com/r/programming/comments/1nei4ig/the_real_reasons_why_developers_burnout/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  当人们谈论“开发人员倦怠”时，假设工程师工作太多小时，而淹没了代码。 But after 20+ years in this industry, I’ve rarely seen burnout caused by too much coding. Instead, developers burn out because of the environment around coding: * Unclear priorities — constant shifting goals, wasted effort. * Constant interruptions — meetings, Slack pings, context switching. * Politics — decisions driven by ego instead of merit. 代码复杂性可能很困难，但这是合乎逻辑的。您可以对其进行重构，测试，改进它。混乱是不同的。您无法调试中断或重构不清楚的优先级。  我对开发人员的建议陷入了这些环境。  *知道何时离开不会改变的文化。 思想？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/u/bajcmartinez      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nei4ig/the_real_reasons_why_developers_burnout/</guid>
-      <pubDate>Thu, 11 Sep 2025 19:28:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>异步编程的兴起</title>
-      <link>https://www.reddit.com/r/programming/comments/1nehbw7/the_rise_of_async_programming/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/doniisthemaindog     lincl&gt; link&gt; link&gt;    [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nehbw7/the_rise_of_async_programming/</guid>
-      <pubDate>Thu, 11 Sep 2025 18:58:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>React Hooks仅在2025年简单地解释[旁遮普语]  -  USESTATE，USEFECT，USEREF</title>
-      <link>https://www.reddit.com/r/programming/comments/1negekx/react_hooks_explained_simply_in_2025_punjabi/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/chintanbawa       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1negekx/react_hooks_explained_simply_in_2025_punjabi/</guid>
-      <pubDate>Thu, 11 Sep 2025 18:23:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>带打字稿装饰器和反射的域驱动设计</title>
-      <link>https://www.reddit.com/r/programming/comments/1neg7r4/domaindriven_design_with_typescript_decorators/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://auslake.vercel.app/blog/domain-driven-design-with-typescript-decorators”&gt; [link]  ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1neg7r4/domaindriven_design_with_typescript_decorators/</guid>
-      <pubDate>Thu, 11 Sep 2025 18:15:43 GMT</pubDate>
     </item>
     </channel>
 </rss>

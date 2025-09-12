@@ -4,7 +4,14 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个专门针对所有人工智能的子雷迪特。涵盖从AGI到AI初创公司的主题。无论您是研究人员，开发人员还是对AI感到好奇，都可以跳入！！！</description>
-    <lastBuildDate>Fri, 12 Sep 2025 12:29:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 15:15:20 GMT</lastBuildDate>
+    <item>
+      <title>控制GUI的代理正在扩散：浏览器，桌面 - 现在移动。这是我建造的和硬零件。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1nf2ky3/agents_that_control_guis_are_spreading_browser/</link>
+      <description><![CDATA[We’ve seen a wave of GUI automation tools:  Browser agents like Comet / BrowserPilot → navigate pages, click links, fill forms Desktop tools like AutoKey (Linux) / pywinauto (Windows) →用击键自动化应用程序＆amp; UI事件  我一直在为手机的类似事物：  blurr   - 开源移动GUI代理（语音 + LLM + Android可访问性）。它可以点击，滑动，跨应用程序类型 - 几乎就像“手机的jarvis”。 ，但我遇到了一些大问题：     canvas/canvas/custom ui apps         “帆布。”代理人无法分开按钮，因此它可以猜测位置或失败。      跨用户/语言的语音到文本  在法国的用户在法国的用户不断工作，但是在法国的用户不断报告不良识别。 VS Cloud STT（准确但较慢/隐私敏感）仍然很混乱。     与浏览器/桌面代理相比，移动设备较不可预测：布局变化，许可证中断，访问性丢失，每个应用程序都在其UI   ：  Canvas Apps ，我应该回到OCR/Vision Models吗？ 如何使  最好的语音识别强大的在口音上＆amp;嘈杂的环境？ 如果您有这样的移动代理，您希望它要做什么 ？？？  （我会在评论中放置一个github链接＆＃32;提交由＆＃32; /u/u/u/salty-bodybuilder179       [link]  &lt;a href =“ https://www.reddit.com/r/artcoverinteligence/comments/1nf2ky3/agents_that_that_that_control_guis_are_spreading_browser/]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1nf2ky3/agents_that_control_guis_are_spreading_browser/</guid>
+      <pubDate>Fri, 12 Sep 2025 12:59:50 GMT</pubDate>
+    </item>
     <item>
       <title>Elon Musk＆Grok实时重写历史</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1nf10su/elon_musk_grok_rewriting_history_in_real_time/</link>
@@ -15,7 +22,7 @@
     <item>
       <title>论文声称GPT-4可以帮助您进行心理健康……结果对我来说似乎不稳定</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1nf0oiq/paper_claims_gpt4_could_help_with_mental_health/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我阅读的这项研究，在心理学考试中测试了Chatgpt Plus，发现其在推理测试中得分为83-91％。研究人员认为，这意味着AI可以处理基本的心理健康支持，例如工作压力或焦虑。 ，但是我看到一些危险信号使我担心这些主张。 最大的问题是他们如何测试它。他们没有像我们其他人一样使用Chatgpt加上API，而是使用了Chatgpt Plus。这意味着我们不知道Chatgpt是否对同一问题的不同方法给出了一致的答案。任何曾经使用过Chatgpt的人都知道，您的用语如何在您的回来中产生巨大的不同。 结果也很奇怪。 Chatgpt在逻辑测试中获得了100％的速度，但是研究人员承认这可能只是因为它记住了所有示例都具有相同的答案模式。  此外，Chatgpt在代数问题上得分为84％，但从完全相同的测试中的几何问题上只有35％。我一点都不知道，如果您擅长数学，通常在代数和几何学上都体面。这表明Chatgpt并没有真正了解数学概念或测试问题。 尽管所有这些问题，研究人员声称这可能会彻底改变治疗和心理健康，但是这些测试并未捕获真正的治疗涉及的。理解情绪，读物之间的阅读，适应个人个性，这些都没有经过测试。 不一致的人担心我，尤其是对于像心理健康一样敏感的事情。希望看到人们在这里对此有何看法。 研究URL-  https://arxiv.org/abs/2303.11436 提交由＆＃32; /u/u/mohityadavx     [link]   [注释]   ]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我阅读的这项研究，在心理学考试中测试了Chatgpt Plus，发现其在推理测试中得分为83-91％。研究人员认为，这意味着AI可以处理基本的心理健康支持，例如工作压力或焦虑。 ，但是我看到一些危险信号使我担心这些主张。 最大的问题是他们如何测试它。他们没有像我们其他人一样使用Chatgpt加上API，而是使用了Chatgpt Plus。这意味着我们不知道Chatgpt是否对同一问题的不同方法给出了一致的答案。任何曾经使用过Chatgpt的人都知道，您的用语如何在您的回来中产生巨大的不同。 结果也很奇怪。 Chatgpt在逻辑测试中获得了100％的速度，但是研究人员承认这可能只是因为它记住了所有示例都具有相同的答案模式。  此外，Chatgpt在代数问题上得分为84％，但从完全相同的测试中的几何问题上只有35％。我一点都不知道，如果您擅长数学，通常在代数和几何学上都体面。这表明Chatgpt并没有真正了解数学概念或测试问题。 尽管所有这些问题，研究人员声称这可能会彻底改变治疗和心理健康，但是这些测试并未捕获真正的治疗涉及的。理解情绪，读物之间的阅读，适应个人个性，这些都没有经过测试。 不一致的人担心我，尤其是对于像心理健康一样敏感的事情。希望看到人们在这里对此有何看法。 研究URL-  https://arxiv.org/abs/2303.11436 提交由＆＃32; /u/u/mohityadavx     [link]  &lt;a href =“ https://www.reddit.com/r/artcoverinteligence/comments/1nf0oiq/paper_claims_gpt4_could_help_help_with_with_mental_health/]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1nf0oiq/paper_claims_gpt4_could_help_with_mental_health/</guid>
       <pubDate>Fri, 12 Sep 2025 11:29:57 GMT</pubDate>
     </item>
@@ -74,13 +81,6 @@
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1nem5m0/ai_weekly_jus_mundi_launches_jus_ai_2/</guid>
       <pubDate>Thu, 11 Sep 2025 22:10:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>您最近从AI模型中看到的最出乎意料的功能是什么？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1nek4ku/whats_the_most_unexpected_capability_youve_seen/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   ai使我们感到惊讶的是新的能力和创意输出。最近，我一直在探索一些深入的资源，这些资源确实扩大了我对AI潜力的看法。现代AI的一项功能或行为是什么使您措手不及？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/cute_dog_8410     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1nek4ku/whats_the_most_unexpected_capability_youve_seen/</guid>
-      <pubDate>Thu, 11 Sep 2025 20:46:45 GMT</pubDate>
     </item>
     <item>
       <title>您有2027 = BS吗？</title>
