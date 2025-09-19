@@ -4,111 +4,111 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 17 Sep 2025 15:19:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 03:35:22 GMT</lastBuildDate>
     <item>
-      <title>快速傅立叶转换第1部分：Cooley-Tukey</title>
-      <link>https://www.reddit.com/r/programming/comments/1njfhd8/fast_fourier_transforms_part_1_cooleytukey/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;  /u/Revolutionary-Ad-65   [link] ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1njfhd8/fast_fourier_transforms_part_1_cooleytukey/</guid>
-      <pubDate>Wed, 17 Sep 2025 14:58:58 GMT</pubDate>
+      <title>人们仍然用手写代码吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkpkpb/do_people_still_write_code_by_hands/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  你们是否在没有AI的情况下写代码？如果是这样，为什么？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/unigingalweb7799     [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkpkpb/do_people_still_write_code_by_hands/</guid>
+      <pubDate>Fri, 19 Sep 2025 00:51:16 GMT</pubDate>
     </item>
     <item>
-      <title>UUIDV47：将V7保存在您的DB中，在外部发射V4（Siphash屏蔽时间戳）</title>
-      <link>https://www.reddit.com/r/programming/comments/1njebn0/uuidv47_keep_v7_in_your_db_emit_v4_outside/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨，我是 uuidv47 的作者。 The idea is simple: keep UUIDv7 internally for database indexing and sortability, but emit UUIDv4-looking façades externally so clients don’t see timing patterns. How it works: the 48-bit timestamp is XOR-masked with a keyed SipHash-2-4 stream derived from the UUID’s random 场地。保留随机位，版本在7（内部）和4（外部）之间翻转，并保留RFC变体。该映射是注入的：（TS，RAND）→（ENCT，RAND）。解码只是 encts⊕mask ，因此往返是准确的。 安全性：Siphash是PRF，因此观察立面不会泄漏钥匙。错误键=错误的时间戳。可以使用UUID之外的键ID进行旋转。 性能：一个超过10个字节 +的siphash +几个48位载荷/存储。纳秒高架，仅标题C89，无dep，无分配。 测试：siphash参考矢量，往返编码/解码和版本/变体不变性。 奇怪的是，对反馈！当它外出时，它将转换为蒙版的UUIDV4。一个全球密钥是所需的一切都没有泄漏的风险，并且性能影响实际上为零。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/aabbdev     [link]   [注释]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1njebn0/uuidv47_keep_v7_in_your_db_emit_v4_outside/</guid>
-      <pubDate>Wed, 17 Sep 2025 14:14:47 GMT</pubDate>
+      <title>Java后端开发人员访谈：完整的问题清单</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkpk4d/java_backend_developer_interview_the_complete/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  第1回合：core java＆amp;春季基础  java基础知识  您如何从命令行中编译和运行Java程序？ 解释Java平台独立性背后的原理。 打破公共静态void main（string [] args）方法。每个关键字（public，static，void）的目的是什么？   oop概念  抽象类和接口之间的关键差异是什么？ 接口可以实现类别的界面吗？为什么或为什么不呢？   Spring Core＆amp;注释  解释控制反转（IOC）和依赖注入（di）的概念。 在春季创建bean的不同注释是什么（例如，@component，@servone，@service，@service，@service，@service， @repository，@repository，@controller，@controller，@controller， @controller）？ 如果春季找到两个相同参考类型的豆会发生什么？它如何解决这种歧义？ 解释bean分辨率的 @primary和@qualifier注释之间的区别。 您如何处理Spring中的循环依赖问题？     spring aop aop aop（面向面向面向面向的编程）    是什么？解释其核心概念：方面，尖端，建议。  @befor， @after和@around Advices做什么？   春季交易    @transactactional Antotation in @transactation notation @transactation   什么是什么？ 春季实用  您如何在春季应用程序中从另一个服务中调用一项服务？    回合1：sql＆amp; java流  sql查询  写一个SQL查询，以列出由城市和性别分组的员工数量。 写一个sql查询，以查找雇员名称，以查找具有第二大薪水的雇员名称，从&#39;Bangalore&#39;bangalore&#39;&#39;&#39;位置。 Java流，找到来自班加罗尔第二大工资的员工（模仿Java中的SQL Logic）。 使用Java流编写一个程序，以计数给定字符串中每个字符的频率。    第2季：高级Java＆amp＆amp＆amp;微服务  Java Collections＆amp;比较  您如何比较Java中的自定义对象？使用了对象类的哪些方法？ 解释可比较和比较器界面之间的差异。  春季交易（深水潜水）  解释春季的交易传播。您可以姓名并描述其不同类型（例如，需要，需要_new）？阵列。   Spring MVC＆amp; Layers  Name some commonly used annotations at the Controller layer in Spring (e.g., @RestController, @RequestMapping, @GetMapping). Name some commonly used annotations at the Service layer.  Microservices Architecture  How do microservices communicate with each other? （例如，同步休息/http vs.异步消息传递） 什么是apache kafka，它在微服务生态系统中的作用是什么？ 为apache kafka kafka kafka kafka生产者写一个基本模板。它可以工作吗？它与kafka有何不同？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/ajit_45288     [link]   ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkpk4d/java_backend_developer_interview_the_complete/</guid>
+      <pubDate>Fri, 19 Sep 2025 00:50:31 GMT</pubDate>
     </item>
     <item>
-      <title>软件性能：避免代码缓慢，神话和理智方法 -  Casey Muratori |马可表演</title>
-      <link>https://www.reddit.com/r/programming/comments/1nje6fk/software_performance_avoiding_slow_code_myths/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/marbehl      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nje6fk/software_performance_avoiding_slow_code_myths/</guid>
-      <pubDate>Wed, 17 Sep 2025 14:09:01 GMT</pubDate>
+      <title>尼克斯转向委员会回顾</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkmzm4/nix_steering_committee_retrospective/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkmzm4/nix_steering_committee_retrospective/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:52:57 GMT</pubDate>
     </item>
     <item>
-      <title>可观 - 解决无效的歧义</title>
-      <link>https://www.reddit.com/r/programming/comments/1njbvjp/omittable_solving_the_ambiguity_of_null/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/themrmilchmann      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1njbvjp/omittable_solving_the_ambiguity_of_null/</guid>
-      <pubDate>Wed, 17 Sep 2025 12:33:22 GMT</pubDate>
+      <title>应用程序脚本引擎现在具有打字稿支持</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkmpi2/apps_script_engine_now_has_typescript_support/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/congolomera     [link]    ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkmpi2/apps_script_engine_now_has_typescript_support/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:40:49 GMT</pubDate>
     </item>
     <item>
-      <title>最终的SRE可靠性清单</title>
-      <link>https://www.reddit.com/r/programming/comments/1njbhx3/the_ultimate_sre_reliability_checklist/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/oupeanut      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1njbhx3/the_ultimate_sre_reliability_checklist/</guid>
-      <pubDate>Wed, 17 Sep 2025 12:16:08 GMT</pubDate>
+      <title>应用程序与数据库：权限应该在哪里居住？</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm5rc/application_vs_database_where_should_permissions/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm5rc/application_vs_database_where_should_permissions/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:17:26 GMT</pubDate>
     </item>
     <item>
-      <title>为什么事件驱动的系统并不难</title>
-      <link>https://www.reddit.com/r/programming/comments/1njauz5/why_event_driven_systems_are_not_that_hard/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;  /u/bizzehdee   [link] ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1njauz5/why_event_driven_systems_are_not_that_hard/</guid>
-      <pubDate>Wed, 17 Sep 2025 11:45:39 GMT</pubDate>
+      <title>在Scala中使用功能控制程序流量</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm5pz/controlling_program_flow_with_capabilities_in/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm5pz/controlling_program_flow_with_capabilities_in/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:17:24 GMT</pubDate>
     </item>
     <item>
-      <title>设计国家经理以进行绩效：深入研究层次反应性</title>
-      <link>https://www.reddit.com/r/programming/comments/1nja7lz/designing_a_state_manager_for_performance_a_deep/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   hee /r/r/编程， 我想在复杂的，事件驱动的应用程序中 在复杂，事件驱动的应用程序中分享         编程是，随着应用程序的状态变得更加复杂，计算更新所需的工作可能会开始干扰用户界面的响应能力。这通常会导致掉落的框架（jank）和降级的用户体验。 链接的文章深入研究了一种旨在通过以特定方式组合两个众所周知的编程概念来解决此问题的体系结构：    1。并发：整个状态模型及其所有相关的计算都从主UI线程中移动到单独的工作线程中。 UI线程被视为简单的“视图层”。其唯一的工作是根据最小的批处理消息从工人那里收到的批量批处理。该架构将UI与应用程序的计算负载分离。   2。自动反应性的元编程：，而不是要求开发人员手动声明状态的哪些部分A UI组件取决于（例如，通过依赖阵列或手动订阅），该系统使用元编程（具体而言，特别是JavaScript Proxies）在运行时拦截了属性属性。这允许系统自动构建精确的依赖关系图。当一段状态发生变化时，只有精确的计算和取决于它的UI组件被通知。 本文探索这两个想法如何使用现实世界的实现作为案例研究。 我很好奇地听到您在模式上的想法，超出了任何特定的语言或框架：同时使用的UI架构？ （例如，内存开销，调试复杂性）。 “自动依赖性跟踪”如何通过代理与您合作过的其他反应性系统（例如RXJS或其他语言中的模式）？ 在UI之外还有其他域，在其中这种并发性和自动反应性的组合可能特别强大？    期待讨论。提交由＆＃32; /u/u/tobiasuhlig     [link]    ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nja7lz/designing_a_state_manager_for_performance_a_deep/</guid>
-      <pubDate>Wed, 17 Sep 2025 11:12:41 GMT</pubDate>
+      <title>公共场合</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm5oh/monoids_in_public/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm5oh/monoids_in_public/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:17:21 GMT</pubDate>
     </item>
     <item>
-      <title>Chatgpt是堆栈溢出的两倍。这可能是一个问题。</title>
-      <link>https://www.reddit.com/r/programming/comments/1nj9zi2/chatgpt_is_twice_as_chatty_as_stack_overflow_that/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  皇后大学的研究人员分析了82,845个chatgpt日志， wildchat corpus ：与典型的典型&lt;336 a相比，平均型号响应： href =“ https://leaddev.com/technical-direction/how-stack-overflow-innovating-keep-ai-disruption”&gt;堆栈溢出答案。  不仅仅是代币的用法含义，编码助手是否太冗长？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/scarey102   [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nj9zi2/chatgpt_is_twice_as_chatty_as_stack_overflow_that/</guid>
-      <pubDate>Wed, 17 Sep 2025 11:00:49 GMT</pubDate>
+      <title>通道以求解接口阻抗不匹配</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm5na/go_channels_to_solve_interface_impedance_mismatch/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/ketralnis       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm5na/go_channels_to_solve_interface_impedance_mismatch/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:17:19 GMT</pubDate>
     </item>
     <item>
-      <title>高级DevOps工程师在Uber举行的采访。</title>
-      <link>https://www.reddit.com/r/programming/comments/1nj9urv/senior_devops_engineer_interview_at_uber/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ajit_45288      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nj9urv/senior_devops_engineer_interview_at_uber/</guid>
-      <pubDate>Wed, 17 Sep 2025 10:53:35 GMT</pubDate>
+      <title>翡翠源代码评论</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm480/emerald_source_code_commentary/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm480/emerald_source_code_commentary/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:15:43 GMT</pubDate>
     </item>
     <item>
-      <title>我从高级工程师那里学到的清洁代码提示</title>
-      <link>https://www.reddit.com/r/programming/comments/1nj7hb3/clean_code_tips_i_learned_from_senior_engineers/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/rag1987      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nj7hb3/clean_code_tips_i_learned_from_senior_engineers/</guid>
-      <pubDate>Wed, 17 Sep 2025 08:27:07 GMT</pubDate>
+      <title>生产管理台101</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm3nh/hypervisor_101_in_rust/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm3nh/hypervisor_101_in_rust/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:15:02 GMT</pubDate>
     </item>
     <item>
-      <title>您可以使用Java来解析具有10亿行天气数据的文件？ •罗伊·范·里恩（Roy van Rijn）</title>
-      <link>https://www.reddit.com/r/programming/comments/1nj6z9d/how_fast_can_you_parse_a_file_with_1_billion_rows/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/goto-con      &lt;a href =“ https://www.reddit.com/r/programming/comments/1nj6z9d/how_fast_fast_can_you_parse_a_a_a_file_with_1_billion_billion_rows/]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nj6z9d/how_fast_can_you_parse_a_file_with_1_billion_rows/</guid>
-      <pubDate>Wed, 17 Sep 2025 07:53:06 GMT</pubDate>
+      <title>Linter打破我的代码的那一天</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm2df/the_day_the_linter_broke_my_code/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm2df/the_day_the_linter_broke_my_code/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:13:33 GMT</pubDate>
     </item>
     <item>
-      <title>斯威夫特有多快？重金属版（壮举Nardi）</title>
-      <link>https://www.reddit.com/r/programming/comments/1nj4ogb/how_fast_is_swift_heavy_metal_edition_feat_nardi/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  一位朋友说swift现在很快，所以我着手在粒子模拟中给它旋转。我认为你们都会从中受到踢球。  tldr; Swift比Rust慢，但比我的M1 Air上的JS V8快，它具有惊人的SIMD指令支持。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/Outrageous-guffin   [link] ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nj4ogb/how_fast_is_swift_heavy_metal_edition_feat_nardi/</guid>
-      <pubDate>Wed, 17 Sep 2025 05:30:44 GMT</pubDate>
+      <title>自动差异可能是不正确的</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm2c0/automatic_differentiation_can_be_incorrect/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/ketralnis     [link]        [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm2c0/automatic_differentiation_can_be_incorrect/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:13:30 GMT</pubDate>
     </item>
     <item>
-      <title>负载平衡：“僵尸服务器”问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1nj3sgn/load_balancing_the_zombie_server_problem/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;     僵尸服务器解剖学：了解对其健康依据的服务器     健康检查的进化：从基本的pings到智能的应用程序级别   Real-World Patterns: How Netflix, Uber, and Amazon solve this problem Hands-On Implementation: Build a complete zombie detection system  The Zombie Server Phenomenon A zombie server looks alive to your load balancer but cannot serve real user requests.与健康检查失败的完全死亡的服务器不同，僵尸通过基本连接测试，同时默默地损坏用户体验。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fefres_ear_10      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nj3sgn/load_balancing_the_zombie_server_problem/</guid>
-      <pubDate>Wed, 17 Sep 2025 04:40:14 GMT</pubDate>
+      <title>内基三十年</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm1q6/three_decades_in_kernelland/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm1q6/three_decades_in_kernelland/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:12:46 GMT</pubDate>
     </item>
     <item>
-      <title>LLVM中的机器调度程序 - 第一部分</title>
-      <link>https://www.reddit.com/r/programming/comments/1nj2z06/machine_scheduler_in_llvm_part_i/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/mariuz      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nj2z06/machine_scheduler_in_llvm_part_i/</guid>
-      <pubDate>Wed, 17 Sep 2025 03:56:49 GMT</pubDate>
+      <title>缓存崩溃</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm1jk/the_cache_crash/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm1jk/the_cache_crash/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:12:32 GMT</pubDate>
     </item>
     <item>
-      <title>自2021年以来，华硕游戏笔记本电脑已经被打破了：深入潜水</title>
-      <link>https://www.reddit.com/r/programming/comments/1niy72f/asus_gaming_laptops_have_been_broken_since_2021_a/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32;  /u/BlueGoliath   [link]   [注释]    ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1niy72f/asus_gaming_laptops_have_been_broken_since_2021_a/</guid>
-      <pubDate>Wed, 17 Sep 2025 00:08:51 GMT</pubDate>
+      <title>反思 -  C ++的十年定义火箭引擎</title>
+      <link>https://www.reddit.com/r/programming/comments/1nkm0cw/reflection_cs_decadedefining_rocket_engine/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/ketralnis     [link]    ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nkm0cw/reflection_cs_decadedefining_rocket_engine/</guid>
+      <pubDate>Thu, 18 Sep 2025 22:11:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
