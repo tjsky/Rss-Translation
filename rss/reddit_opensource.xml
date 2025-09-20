@@ -4,7 +4,21 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Sat, 20 Sep 2025 15:15:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Sep 2025 18:22:08 GMT</lastBuildDate>
+    <item>
+      <title>人们如何在本世纪的第二季度推广他们的OSS项目？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1nm4ac7/how_people_promote_their_oss_projects_in_this/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我曾担任FL/OSS贡献者和维护者。许多年前，如果您有东西要展示，人们即将贡献，使用或只是在您的项目上乱扔狗屎。。 href =“ https://www.reddit.com/r/coolgithubprojects”&gt; r/coolgithubprojects ，一开始，这是令人惊讶的，很多积极或负面的互动，有时甚至受到一些诚实的批评，有时甚至受到欢迎。  现在，这些社区的每个社区都有巨大的噪音，您的项目可能是好事或狗屎，但是通常您也不知道，因为即使到达合适的受众也是一场噩梦，或者至少这是我的感觉。 人们如何做？他们是否会定期向所有互联网转弯垃圾邮件，直到他们引起注意？ 这不是火焰，我真的很好奇地理解它是如何工作的，而无需要求随机的llm bot😅   &lt;！ -  sc_on-&gt; sc_on-&gt;＆＃32;提交由＆＃32; /u/antenore     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1nm4ac7/how_people_promote_their_oss_projects_in_this/</guid>
+      <pubDate>Sat, 20 Sep 2025 17:32:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>“ sphyr”蒙面的睡眠恶魔</title>
+      <link>https://www.reddit.com/r/opensource/comments/1nm41eq/sphyr_the_masked_sleep_demon/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1nm41eq/sphyr_the_masked_sleep_demon/</guid>
+      <pubDate>Sat, 20 Sep 2025 17:22:31 GMT</pubDate>
+    </item>
     <item>
       <title>如何开源？</title>
       <link>https://www.reddit.com/r/opensource/comments/1nlu2vc/how_to_open_source/</link>
@@ -29,7 +43,7 @@
     <item>
       <title>吉米 - 将您的笔记转换为Markdown</title>
       <link>https://www.reddit.com/r/opensource/comments/1nltk3k/jimmy_convert_your_notes_to_markdown/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;   hi！我正在开发 jimmy ，一种将笔记从各种格式转换为Markdown的工具。 您可以基于pandoc或从pandoc转换文件（例如 Google keep ，更多）。目的是保留尽可能多的信息（注意内容，标签/标签，图像/附件，链接），同时靠近 commonMark markdown Specification 。   用例用例&gt;          在注意应用程序之间。吉米的输出与 joplin，obsidian和更多。。 将笔记保存在未来的，可读的，人为的格式中。 功能    离线：没有用于转换笔记的在线服务。没有人能够获取您的数据。  开源：请参阅下面的github链接。    cross-platform ：linux，macos，macos，windows       独立独立&gt;：没有AI用于转换笔记。  更多信息     github repo  href =“ https://marph91.github.io/jimmy/”&gt;文档     obsidian Forum      可以随意共享您的反馈。    &lt;！ -  sc_on--&gt; &lt;！ -  sc_on-&gt;＆＃32222222;提交由＆＃32; /u/rphux       [注释]]]></description>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;   hi！我正在开发 jimmy ，一种将笔记从各种格式转换为Markdown的工具。 您可以基于pandoc或从pandoc转换文件（例如 Google keep ，更多）。目的是保留尽可能多的信息（注意内容，标签/标签，图像/附件，链接），同时靠近 commonkark markdown Specification 。   用例用例&gt;         吉米的输出与 joplin，obsidian和更多。。 将笔记保存在未来的，可读的，人为的格式中。 功能    离线：没有用于转换笔记的在线服务。没有人能够获取您的数据。  开源：请参阅下面的github链接。    cross-platform ：linux，macos，macos，windows       独立独立&gt;：没有AI用于转换笔记。  更多信息     github repo  href =“ https://marph91.github.io/jimmy/”&gt;文档     obsidian Forum      可以随意共享您的反馈。    &lt;！ -  sc_on--&gt; &lt;！ -  sc_on-&gt;＆＃32222222;提交由＆＃32; /u/rphux       [注释]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1nltk3k/jimmy_convert_your_notes_to_markdown/</guid>
       <pubDate>Sat, 20 Sep 2025 09:19:38 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  为什么 自我寄托通常意味着很多小脚本和容器。 G‑Man centralizes secret storage and injects values when you run commands (env, flags, or files). Local‑first  Encrypted vault on disk (Argon2id + XChaCha20‑Poly1305);切勿登录明文。 可选的git同步以在机器之间移动库（支持的SSH遥控器）。现在，您可以自我托管自己的git repo，并轻松地将其转变为带有内置版本操作的另一个自托管远程库。  用法    add/get：     | gman add MY_API_KEY gman get MY_API_KEY  Inject into docker:  gman docker run my/image # injects -e KEY=VALUE  File injection for templated configs:  gman docker compose up # write secrets to files, run, restore   Clouds too (optional)  AWS, GCP, Azure secret managers supported if you prefer cloud storage.  Install  cargo install gman （macos/linux/windows）。   brew brew install dark-alex-17/managarr/gman/gman （macos/linux）。 单行bash/powerShell install：         bash bash （linux/macos）（linux/macos）（linux/macos）：    powershell (Linux/MacOS/Windows): powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;iwr -useb https://raw.githubusercontent.com/Dark-Alex-17/gman/main/scripts/install_gman.ps1 | iex＆quort     或从发布page page page 。我刚刚对另一个更大的，基于生锈的项目有非常具体的要求，在该项目中，我需要一个本地秘密的管理器，可以通过git并将秘密同步，并将秘密注入命令和文件，例如 mcp.json 配置文件。 我敢肯定还有其他类似的应用程序。我只是想建立自己的东西，因为为什么不呢？建造东西很有趣！ 😄  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/hamilcar_barca_17      [link]    [commist]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1nlh73u/gman_a_universal_secret_manager_and_injector/</guid>
       <pubDate>Fri, 19 Sep 2025 22:18:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>建造Zeno-插件优先的Markdown博客框架（需要反馈！）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1nleb92/built_zeno_a_pluginfirst_markdown_blog_framework/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，嘿， ，我一直在黑客攻击一个名为 zeno 的附带项目 - 一个轻巧的，插件 - 插入标记博客框架用javascript。 FrontMatter  使用基于简单文件夹的主题（ post.html ， index.html ， style.css ））） 与plagins（ onmarkDownparse  on renderhtml 只用一个命令运送一个博客  我刚刚推出了第一个版本：   docs： href =“ https://github.com/mine3krish/zeno”&gt; github.com/mine3krish/zeno     它仍然是早期;实验性，但已经支持：    zeno init →脚手架新博客    zeno构建→生成静态html                  ⚡️我真的很喜欢开源开发开发人员的反馈 - 您期望在现代博客框架中有什么功能？也很好奇是否有人有兴趣（主题，插件，文档等）。 。 感谢您阅读🙏      &lt;！ -  sc_on--&gt; &lt;！ - &gt; 32;提交由＆＃32; /u/u/useanisticbite5737     [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1nleb92/built_zeno_a_pluginfirst_markdown_blog_framework/</guid>
-      <pubDate>Fri, 19 Sep 2025 20:19:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>SEEDIT-完全开源的P2P Reddit替代方案，您可以自我主持自己的社区</title>
-      <link>https://www.reddit.com/r/opensource/comments/1nldoce/seedit_fully_open_source_p2p_reddit_alternative/</link>
-      <description><![CDATA[       ＆＃32;提交由＆＃32; /u/u/plebbitog       [注释]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1nldoce/seedit_fully_open_source_p2p_reddit_alternative/</guid>
-      <pubDate>Fri, 19 Sep 2025 19:54:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
