@@ -4,7 +4,14 @@
     <title>最新提交：Opensource</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Thu, 02 Oct 2025 09:19:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 12:31:55 GMT</lastBuildDate>
+    <item>
+      <title>GTHR V0.2.0：通过文件停止复制粘贴路径和内容文件以提供上下文</title>
+      <link>https://www.reddit.com/r/opensource/comments/1nw1q1c/gthr_v020_stop_copy_pasting_path_and_content_file/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   gthr是一种锈cli，可让您模糊地摘要文件或目录，然后按Ctrl-e将语法高点标记的Markdown Digest转移到您的剪贴板上，并戒除 保存到文件中，并为其他定制的定制范围提供了lmm，也可以提供lmm。与任何人一起对一堆文本文件进行紧凑的摘要。 尝试以下方式：brew install asthrast adarsh-roy/gthr/gthr   repo： https://youtu.be/xmquyc3hn8o     建议，功能请求，问题报告，并欢迎您的贡献，并欢迎！提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1nw1q1c/gthr_v020_stop_copy_copy_pasting_path_path_and_and_content_file/”&gt; [link]  &lt;a href =“ https://www.reddit.com/r/opensource/comments/1NW1Q1C/GTHR_V020_STOP_COPY_COPY_PASTING_PASTING_PASTER_AND_AND_CONTENTENTENTENT_FILE/]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1nw1q1c/gthr_v020_stop_copy_pasting_path_and_content_file/</guid>
+      <pubDate>Thu, 02 Oct 2025 11:56:31 GMT</pubDate>
+    </item>
     <item>
       <title>关于多线程渲染的故事| Pixieditor九月状态</title>
       <link>https://www.reddit.com/r/opensource/comments/1nvynck/a_story_about_multithreaded_rendering_pixieditor/</link>
@@ -62,13 +69,6 @@
       <pubDate>Wed, 01 Oct 2025 22:43:18 GMT</pubDate>
     </item>
     <item>
-      <title>如果Reddit是真正的交易，那么促进开源项目的最佳策略是什么？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1nviicu/if_reddit_is_the_real_deal_what_are_the_best/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿， 我一直在与团队合作使用开源多代理劳动力框架。 The tech side is exciting, but now I’m hitting the part that feels trickier: getting actual adoption and visibility. Since Reddit seems to be one of the best places for honest feedback and real-world marketing insights, I wanted to ask here: what strategies have worked for you when promoting open-source projects (or even niche tools) to the right audiences?  Do you focus on community building first (Discord, Slack,等等）？ ，还是您更倾向于内容营销（指南，用例，教程）？ 您如何在到达Devs与可以受益的ORG之间取得平衡？  我不希望在各处爆炸促销链接。我想向那些经历过的人学习，理想情况下是通过小型团队或开源项目成长为有意义的东西。 很想听听实际有效的东西，而不是炒作。  &lt;！ -  sc_on-&gt; sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fitheron1933     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1nviicu/if_reddit_is_the_real_deal_what_are_the_best/</guid>
-      <pubDate>Wed, 01 Oct 2025 19:50:15 GMT</pubDate>
-    </item>
-    <item>
       <title>寻找贡献者| AR移动应用程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1nvgv16/looking_for_contributiors_ar_mobile_app/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，我目前正在构建Artag：一个开源移动应用程序，允许用户在其他人可以通过手机相机发现的现实位置留下AR消息，图纸和表情符号。认为Instagram会见PokémonGo会见街头艺术。 我雄心勃勃地想让这个项目启动并运行，但我绝对不能独自一人。如果您感兴趣的话，请在下面放下消息或DM我以获取更多详细信息。  React Native + Expo将用于前端。其余的技术堆栈将尽快确定。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/snomarzipans6759      [link]    [注释]  ]]></description>
@@ -97,18 +97,18 @@
       <pubDate>Wed, 01 Oct 2025 14:00:32 GMT</pubDate>
     </item>
     <item>
-      <title>AWSUI：现代文字动力的AWS CLI TUI</title>
-      <link>https://www.reddit.com/r/opensource/comments/1nv846n/awsuia_modern_textualpowered_aws_cli_tui/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  为什么要构建此？ 当使用AWS CLI时，有时我需要在多个配置文件之间切换。很容易忘记配置文件名称，这意味着我必须花更多的时间搜索。 因此，我需要一个工具，不仅集成了AWS配置文件管理和快速切换功能，而且还允许我直接执行AWS CLI命令。 Furthermore, I wanted to be able to directly call AWS Q to perform tasks or ask questions. What can awsui do? Built by Textual, awsui is a completely free and open-source TUI tool that provides the following features:  Quickly switch and manage AWS profiles. Use auto-completion to execute AWS CLI commands without记住它们。 与AWS Q集成，消除了在终端窗口之间切换的需要。  如果您遇到任何问题或有您想看到的功能，请随时让我知道，我会尽快进行改进和修复。 href =“ https://github.com/junminhong/awsui”&gt; https://github.com/junminhong/awsui      &lt;！ -  sc_on-提交由＆＃32; /u/u/training_winter6395     [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1nv846n/awsuia_modern_textualpowered_aws_cli_tui/</guid>
-      <pubDate>Wed, 01 Oct 2025 13:24:27 GMT</pubDate>
-    </item>
-    <item>
       <title>Hacktoberfest：非常适合贡献者，对维护者的噩梦？</title>
       <link>https://www.reddit.com/r/opensource/comments/1nv6x0u/hacktoberfest_great_for_contributors_nightmare/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我维护一个小型开源项目，我注意到这段时间每年都会拾取的模式。随着Hacktoberfest的临近，人们开始为从未分配给他们的问题创建拉动请求。 有时它是无害的，例如修复错字或更新文档。其他时候，这意味着重复的工作，半完成的更改或与项目方向不符的PR。审查和关闭它们的同时也可以使项目继续前进。 我知道贡献者意味着很好，但是作为维护者，很难在不浪费所有人的时间来迎来欢迎。 好奇地听到其他维护者的声音：您如何处理或未分配的PRS，尤其是在Hackto tickto tick tick trive-dive /u/u/majesticace4     [link]        [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1nv6x0u/hacktoberfest_great_for_contributors_nightmare/</guid>
       <pubDate>Wed, 01 Oct 2025 12:32:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>无限帆布笔记应用</title>
+      <link>https://www.reddit.com/r/opensource/comments/1nv6vsi/infinite_canvas_notes_app/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  有人知道一个类似于概念的良好的无限帆布注释应用吗？我已经开始非常喜欢它，但是由于一些错误的功能，我正在寻找替代方案。开源会很好，但不是必需的。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/pyro_gcode     [link]    32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1nv6vsi/infinite_canvas_notes_app/</guid>
+      <pubDate>Wed, 01 Oct 2025 12:30:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
