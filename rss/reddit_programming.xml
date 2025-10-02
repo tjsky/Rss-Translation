@@ -4,13 +4,62 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 02 Oct 2025 06:23:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 09:18:10 GMT</lastBuildDate>
     <item>
-      <title>使用kafka Connect的文件到文件流媒体管道</title>
-      <link>https://www.reddit.com/r/programming/comments/1nvw007/filetofile_streaming_pipeline_with_kafka_connect/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我想知道如何制作几乎实时的ftf treeming proming popeline。在阅读了戴夫·克莱因（Dave Klein）的这本书（Kafka in cancy in Dave klein），我必须了解kafka connect的信息。事件。在消费者方面，该事件已记录并在文件B中进行了复制。在您听起来很有趣并且您想自己尝试，我的博客包含一个详细的指南以及终端命令来复制它。如果您是Kafka的新手，我鼓励您阅读这篇文章并分享您的反馈，我很想听听您的想法。 谢谢！ 😊  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/dhairya-chauhan      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nvw007/filetofile_streaming_pipeline_with_kafka_connect/</guid>
-      <pubDate>Thu, 02 Oct 2025 06:10:40 GMT</pubDate>
+      <title>编码更快10×。验证没有。谁在使用生产跟踪重播来缩小差距？</title>
+      <link>https://www.reddit.com/r/programming/comments/1nvyuu5/coding_got_10_faster_validation_didnt_whos_using/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  在去年我们的产生代码跳跃的能力（AI助手，Codegen等），但我们的 repares cadence 却没有。瓶颈从编写代码转变为验证行为。 经典答案 - “只需写更多的测试”  - 开始感觉像是用更多的火焰打火：更多的固定装置，更多的固定装置，更多的模拟，更多的INFRA，更多的片状，更多的片状，并且仍然错过了合同的合同。 Capture real interactions in prod (HTTP in/out, DB queries, queues) with strict PII scrubbing. Curate a small “golden path” set of traces that covers the highest-value flows. Replay those traces in CI against fresh builds and diff only外部可观察的行为（状态代码，有效载荷形状，关键字段，定时信封）。 进行重播确定性（冻结时间/ids/ids/dandans; stub nost; stub nonderminisism        对我们有用的是   捕获了无声的API/合同回归，有时会错过单位/集成套件。 更少的薄片与基于重型模拟的测试。 更快地“ go/no-go go/no-go go go/no-go”在关键路径上进行。 新功能在锻炼之前才涵盖。 多步/状态流需要仔细缝制。  Golden Sets漂移； curation is ongoing work. Privacy/compliance engineering is non-optional.  Questions for folks who’ve tried similar:  How do you select traces (top-N endpoints, error-prone flows, revenue paths, statistical sampling)? Tips to keep the golden set新鲜不爆炸存储？ 您的比较有多严格 - 行为差异与字节字节？ 您喜欢的任何工具模式（捕获/重播，pii擦洗），oss或homegrown？ 提交由＆＃32; /u/u/u/wide-chocaly-763     [link&gt; [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nvyuu5/coding_got_10_faster_validation_didnt_whos_using/</guid>
+      <pubDate>Thu, 02 Oct 2025 09:11:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>直到编程成瘾是真实的</title>
+      <link>https://www.reddit.com/r/programming/comments/1nvyqrz/til_that_programming_addiction_is_real/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/head_sundae7767      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nvyqrz/til_that_programming_addiction_is_real/</guid>
+      <pubDate>Thu, 02 Oct 2025 09:04:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>与Valhalla #jvmls的Kotlin中更好的不变性</title>
+      <link>https://www.reddit.com/r/programming/comments/1nvyhgr/better_immutability_in_kotlin_with_valhalla_jvmls/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/bluegoliach      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nvyhgr/better_immutability_in_kotlin_with_valhalla_jvmls/</guid>
+      <pubDate>Thu, 02 Oct 2025 08:48:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于多线程渲染的故事| Pixieditor九月状态</title>
+      <link>https://www.reddit.com/r/programming/comments/1nvyd1u/a_story_about_multithreaded_rendering_pixieditor/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/flabbet      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nvyd1u/a_story_about_multithreaded_rendering_pixieditor/</guid>
+      <pubDate>Thu, 02 Oct 2025 08:40:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何开始编程</title>
+      <link>https://www.reddit.com/r/programming/comments/1nvy19a/how_i_started_programming/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   ngl我18岁时约会了22岁，以为我是狗屎。就像，一个年长的女孩选择了 me ？巨大的W.我非常渴望她的验证，我忽略了所有的危险信号。然后我发现她被骗了。这并不伤心，它打断了我的大脑。它证实了我的每一个不安全感。我还不够。我甚至相信她很愚蠢。它解锁了一些我什至不知道我有过的深层妈妈问题，总是追逐那些觉得“家”的女孩但实际上只是混乱的。多年来，我对自己的人际关系感到如此无能为力。总是开始比赛是一个低点。直到我意识到世界是否会发挥肮脏为止，我需要学习游戏的规则。更好的是，我需要构建自己的作弊代码。 所以我开始编码。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/extract_trainer_1697         [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nvy19a/how_i_started_programming/</guid>
+      <pubDate>Thu, 02 Oct 2025 08:19:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>我已经建立了一个工具，可以在从基础到面试的结构化路径中可视化算法。会喜欢您的反馈！</title>
+      <link>https://www.reddit.com/r/programming/comments/1nvy0cu/ive_built_a_tool_to_visualize_algorithms_in_a/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/over_effort6298      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nvy0cu/ive_built_a_tool_to_visualize_algorithms_in_a/</guid>
+      <pubDate>Thu, 02 Oct 2025 08:17:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI正在开发人员劳动力中造成沉默的危机</title>
+      <link>https://www.reddit.com/r/programming/comments/1nvxty1/ai_is_creating_a_silent_crisis_in_the_developer/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  毫无否认的是，像副铜和chatgpt这样的AI已成为开发人员的生产力火箭助推器。它可以将30分钟的样板任务变成30秒的提示。但是，当我将这些工具更深入地集成到工作流程中时，我看到了一个有关副作用的信息：我们默默地创建了一个两层的系统。 在一侧，新一波的开发人员对AI的高度倾斜，潜在的运输代码，他们不了解他们不了解。另一方面，拒绝这些工具的经验丰富的开发人员被抛在后面，相比之下，它们的生产力开始变得苍白。感觉就像我们正在为原始速度提供深刻的了解，而且我不确定长期的成本是否值得。 让我打破我看到的两个主要挑战。  vibe编码者：当您不理解“  ”时，“作为学生，我会看到一个学生，我会看到colea not ai no n ai no a in ai deep for to real tape after nevely却学习时，但要避免学习时，但要避免学习。令人困惑。一种用于提高效率的工具正在使用拖延。周围，​​经验丰富的开发人员，雇主和讲师都在引起警报：“初级开发人员不知道如何编码！＆quot&#39; 这是AI过度依赖的固有风险。这让我想知道：这是未来吗？一个没有人了解代码背后的齿轮和机制的世界，只是它起作用了吗？当AI无法修复关键错误时，您缺乏介入的基本知识时会发生什么？  AI-ABSTAINERS：被留在后面的风险 相反，我们有出色，经验丰富的开发人员被抛在后面，因为他们选择不采用这些工具，因为他们选择了这些工具。尽管深层知识是无价的，但生产率较慢的缺点正在成为一种真正的责任。 我们必须说实话：AI只会变得更好，更快，更有效。问题不是会很快构建软件的最佳选择，而是什么时候。忽略这就是冒着无关紧要的风险。 “工艺之神”的课程“  这个难题使我想起了神秘之王的神灵，“手工艺之神”。他代表了传统的手工艺术。一位领先时代的国王引发了一场工业革命，这位上帝面临选择：坚持过去或拥抱未来。他明智地将自己重塑为“蒸汽和机械之神”，“”象征创新和技术。 现实世界中的工业革命遵循相同的脚本。抵制的工匠和铁匠陷入了贫困，而适应工厂和机械的人则蓬勃发展。这一转变建立了现代世界，并创造了持续到今天的命运。 我的结论：锻造一条新的道路 我不想成为没有AI的开发人员，我也不想成为由于顽固而留下的那个人。我的目标是成为新一代的一部分：具有深厚基本知识的开发人员，使用AI来编写其大部分代码，并具备调试和解决AI无法做到的问题的技能。  ai无法做所有事情，但是很快就会做。了解您的手艺，但要掌握该工具。不要被抛在后面。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/heis_king_of_none      [link]   ＆＃32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nvxty1/ai_is_creating_a_silent_crisis_in_the_developer/</guid>
+      <pubDate>Thu, 02 Oct 2025 08:05:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个node.js + Express回购，以生成DB Metadata +用户提示（OpenAI API）的SQL</title>
+      <link>https://www.reddit.com/r/programming/comments/1nvx3go/a_nodejs_express_repo_to_generate_sql_from_db/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/someonesopranos      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nvx3go/a_nodejs_express_repo_to_generate_sql_from_db/</guid>
+      <pubDate>Thu, 02 Oct 2025 07:18:58 GMT</pubDate>
     </item>
     <item>
       <title>我创建了最好的IA搜索引擎</title>
@@ -60,55 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/mttd       [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1nvmaot/f3_the_opensource_data_file_format_for_the_future/</guid>
       <pubDate>Wed, 01 Oct 2025 22:14:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>公司应该停止痴迷于AI工具，而要专注于创造一种伟大的文化</title>
-      <link>https://www.reddit.com/r/programming/comments/1nvkq79/companies_should_stop_obsessing_over_ai_tools_and/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/u/gregorojstersek      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nvkq79/companies_should_stop_obsessing_over_ai_tools_and/</guid>
-      <pubDate>Wed, 01 Oct 2025 21:12:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>停止谈论技术债务</title>
-      <link>https://www.reddit.com/r/programming/comments/1nvhery/stop_talking_about_technical_debt/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/countkillalot      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nvhery/stop_talking_about_technical_debt/</guid>
-      <pubDate>Wed, 01 Oct 2025 19:08:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>9月Web平台的新手</title>
-      <link>https://www.reddit.com/r/programming/comments/1nvh88n/new_to_the_web_platform_in_september/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/feross     link&gt; link&gt; link&gt; [链接]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nvh88n/new_to_the_web_platform_in_september/</guid>
-      <pubDate>Wed, 01 Oct 2025 19:02:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>系统设计中的势力：完整示例</title>
-      <link>https://www.reddit.com/r/programming/comments/1nvfocn/idempotency_in_system_design_full_example/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/trolleid     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nvfocn/idempotency_in_system_design_full_example/</guid>
-      <pubDate>Wed, 01 Oct 2025 18:06:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么会发生过度工程</title>
-      <link>https://www.reddit.com/r/programming/comments/1nvf0jz/why_overengineering_happens/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/proceiptlady      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nvf0jz/why_overengineering_happens/</guid>
-      <pubDate>Wed, 01 Oct 2025 17:43:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>tritium |网络驱动器问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1nveiiv/tritium_the_network_drive_issue/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在处理网络驱动器时遇到了一些令人惊讶的问题。博客。我希望这对您可能很有趣。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/urandomd       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nveiiv/tritium_the_network_drive_issue/</guid>
-      <pubDate>Wed, 01 Oct 2025 17:25:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>戒指编程语言版本1.24已发布！</title>
-      <link>https://www.reddit.com/r/programming/comments/1nve3e8/ring_programming_language_version_124_is_released/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/mrpro1a1      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nve3e8/ring_programming_language_version_124_is_released/</guid>
-      <pubDate>Wed, 01 Oct 2025 17:09:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
