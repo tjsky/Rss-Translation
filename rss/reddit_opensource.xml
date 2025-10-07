@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>最新提交：Opensource</title>
+    <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>所有与开源相关的所有内容的子reddit（在此上下文中，我们在此处删除开源的定义http://en.wikipedia.org/wiki/open_source）</description>
-    <lastBuildDate>Tue, 07 Oct 2025 06:26:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 09:19:35 GMT</lastBuildDate>
+    <item>
+      <title>是否有不需要您下载一堆依赖项或预先现有游戏的开源游戏？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1o09h6d/are_there_any_open_source_games_that_doesnt/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/upper-ad9228     [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1o09h6d/are_there_any_open_source_games_that_doesnt/</guid>
+      <pubDate>Tue, 07 Oct 2025 08:54:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ezantianticheat v1.0.0</title>
+      <link>https://www.reddit.com/r/opensource/comments/1o08y0m/ezantianticheat_v100/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;    git repo： https：// https://github.com.com.com.com/palordersoftworksoftworksoftworksoftworksoftworksofficial/ezantiantiantiantiantianticheat__- /u/u/一致的big9735      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1o08y0m/ezantianticheat_v100/</guid>
+      <pubDate>Tue, 07 Oct 2025 08:19:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果互联网上的每个人都移至开源</title>
+      <link>https://www.reddit.com/r/opensource/comments/1o08jva/what_if_every_person_on_internet_moved_to_open/</link>
+      <description><![CDATA[只是随机的钱，付费仍然有效   由   提交 /u/its_noice   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1o08jva/what_if_every_person_on_internet_moved_to_open/</guid>
+      <pubDate>Tue, 07 Oct 2025 07:53:41 GMT</pubDate>
+    </item>
     <item>
       <title>DOMO AI AFATAR与Leiapix vs为社交活动所做的</title>
       <link>https://www.reddit.com/r/opensource/comments/1o06wpt/domo_ai_avatars_vs_leiapix_vs_did_for_socials/</link>
@@ -22,14 +43,14 @@
     <item>
       <title>使开源的LC-3格式化器使组件减轻了痛苦。</title>
       <link>https://www.reddit.com/r/opensource/comments/1o03xp5/made_an_opensource_lc3_formatter_to_make_assembly/</link>
-      <description><![CDATA[嘿伙计们👋 我最近一直在玩一些 LC-3 组装项目，并且厌倦了常见的痛点：  缩进不一致 随机 .FILL 间距 不可读的陷阱 矢量代码 “为什么我的标签又错位了？”诸如此类的东西  所以我决定为 LC-3 构建一个基于 Rust 的小型工具链，主要是为了乐趣（和理智）。 板条箱：https://github.com/robcholz/lc3-toolchain Github：https://github.com/robcholz/lc3-toolchain 目前包括：  Linter – 捕获常见语法和语义问题（例如重复标签、无效标签） 常量） 格式化程序 – 自动将代码格式化为干净、一致的风格 命令行工具，带有子命令（lc3 fmt、lc3 lint） 100% 用 Rust 编写 🦀（快速且 clean)  我知道 LC-3 并不完全是“生产技术”——但我认为小型的教育架构也值得拥有好的工具。我希望得到任何对编译器、Rust CLI 设计感兴趣，或者只是怀念大学水平 ISA 项目的人的反馈。 如果您曾经编写过 ADD R1、R2、#1，并且想知道为什么汇编器讨厌您，那么这个工具可能会拯救您的夜晚。 非常感谢：  有关命令行 UX 的反馈 关于新检查或格式化规则的想法 如果发现错误，请提出 PR/问题！  我正在努力将其打造成一个友好的小众项目 - 让学习低级编程变得不那么痛苦。 感谢阅读！！！   由   提交 /u/YupDreamBroken   [链接] [评论]]]></description>
+      <description><![CDATA[Hey folks 👋 I’ve been playing around with some LC-3 assembly projects recently, and got tired of the usual pain points:  inconsistent indentation random .FILL spacing unreadable trap向量代码   “为什么我的标签再次错位？”一种东西   ，所以我决定为LC-3构建一种基于锈蚀的小工具链，主要是为了娱乐（和理智）。 板条箱： https://github.com/robcholz/lc3-toolchain     github： https://github.com/robcholz/robcholz/lc3-toolchain       当前包括：                          常数）     格式化  - 自动形式的代码为干净，一致的样式      命令行工具 subcommands（lc3 fmt，lc3 lint，lc3 lint）  清洁）   我知道LC-3并不是完全“生产技术”，但我认为小型的教育体系结构也应该得到很好的工具。 I’d love feedback from anyone who’s into compilers, Rust CLI design, or just nostalgic about college-level ISA projects. If you ever wrote ADD R1, R2, #1 and wondered why your assembler hates you, this tool might save your evening. Would really appreciate:  feedback on command-line UX  新检查或格式化规则的想法    prs/问题，如果您找到错误！    我正在尝试使这个友好的小壁ni族项目 - 使学习低级编程变得更加痛苦。提交由＆＃32; /u/u/yupdreambroken     [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o03xp5/made_an_opensource_lc3_formatter_to_make_assembly/</guid>
       <pubDate>Tue, 07 Oct 2025 03:22:42 GMT</pubDate>
     </item>
     <item>
       <title>我制作了一个开源工具Cyber​​PatchMaker，以为大型应用程序创建微型更新补丁（例如，将5GB更新变成50MB）。</title>
       <link>https://www.reddit.com/r/opensource/comments/1o01yx3/i_made_an_opensource_tool_cyberpatchmaker_to/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在GO中构建了一个名为Cyber​​PatchMaker的开源（AGPLV3）二进制补丁创建者，[我用GUI和CLI工具都想到了一个更好的名称TBH]。它适用于分发大型应用程序（例如游戏）并想要发送微小更新的开发人员，而不是让用户重新下载所有内容。 您可以在此处在Github上查看： 我一直对获得大量多gabyte更新的经验感到沮丧，因为它对用户来说是一个很小的错误修复。我检查了许多其他应用程序，他们觉得过时了，并且有些费用，例如出于某些未知原因将首付。因此，我发现自己发现有用的功能。  Cyber​​PatchMaker使用二进制扩散来找到应用程序的两个版本之间的确切更改，然后将它们包装到一个小型，有效的补丁文件中。 我的主要目标是使其安全可靠。它包含安全功能：  三重验证：使用SHA-256校验和修补。 自动备份。 我还添加了一些关键功能，使开发人员和最终用户都可以灵活：   gui＆amp; CLI可用：它配备了强大的命令行工具（补丁程序，补丁程序）和一个喜欢视觉方法的人进行的实验性GUI。 独立的可执行文件：您可以为您的用户生成一个.exe文件，该文件为您的用户生成一个。键），用户数据（SAVES/）或临时文件。  该项目以GO编写，并且是完全开源的。我很想让社区看看，提供反馈甚至做出贡献。如果您认为这是一个很酷的主意，那么Github上的一颗星星将是惊人的。如果您有想法的话，反馈就受到了欢迎。 该项目已充分记录并包装在“文档”文件夹中的信息，但如果粘贴或有疑问，请随时伸出手。 感谢您检查一下，如果您确实对其进行了检查。                  &lt;！提交由＆＃32; /u/u/cyb3rofficial     [link]    [注释]  ]]></description>
+      <description><![CDATA[我在 Go 中构建了一个开源 (AGPLv3) 二进制补丁创建器，名为 Cyber​​PatchMaker，[我想不出更好的名字了]，同时具有 GUI 和 CLI 工具。它适用于分发大型应用程序（如游戏）并希望发送微小更新而不是让用户重新下载所有内容的开发人员。 您可以在 GitHub 上查看：https://github.com/cyberofficial/Cyber​​PatchMaker 对于用户来说，获得一个巨大的数千兆字节的更新，却感觉像是修复了一个小错误，这让我一直感到沮丧。我检查了许多其他应用程序，它们感觉过时了，并且有些费用例如出于某种未知原因支付汽车首付。因此，我使用了我认为有用的功能。 Cyber​​PatchMaker 使用二进制比较来查找应用程序的两个版本之间的确切更改，并将它们打包到一个小型、高效的补丁文件中。 我的主要目标是使其安全可靠。它具有安全功能：  三重验证：在修补之前、期间和之后使用 SHA-256 校验和来验证文件。 自动备份：仅对在进行任何操作之前更改的文件创建选择性备份。 自动回滚：如果修补过程中出现任何问题，它会自动恢复备份。  我还添加了一些关键功能，使其对开发人员和最终用户都灵活：  GUI 和CLI 可用：它配备了强大的自动化命令行工具（patch-gen、patch-apply）和一个实验性 GUI，适合喜欢可视化方法的用户。 自包含的可执行文件：您可以为用户生成包含补丁和应用程序的单个 .exe 文件。 .cyberignore 文件：就像 .gitignore 一样，您可以告诉工具忽略敏感文件（.env、 键）、用户数据（saves/）或临时文件。  该项目是用 Go 编写的，并且完全开源。我希望社区能够关注、提供反馈，甚至做出贡献。如果您认为这是一个很酷的想法，那么在 GitHub 上加一个 star 就太棒了。如果您有想法，我们非常欢迎提供反馈。 该项目有完整的文档记录，并在“docs”文件夹中包含信息，但如果遇到困难或有疑问，请随时与我们联系。 感谢您查看它。   由   提交/u/cyb3rofficial  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o01yx3/i_made_an_opensource_tool_cyberpatchmaker_to/</guid>
       <pubDate>Tue, 07 Oct 2025 01:47:32 GMT</pubDate>
     </item>
@@ -50,14 +71,14 @@
     <item>
       <title>构建仪表板，例如乐高：网格 +形式 +状态，我应该开源吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1nzri9q/build_dashboards_like_lego_grid_form_state_should/</link>
-      <description><![CDATA[🧩 TL;DR 考虑开源基于 React 的所见即所得仪表板编辑器 - 网格驱动、状态驱动且与后端无关。您会使用或贡献吗？ ⚙️ 它是什么 一个轻量级的 React-Grid-Layout 编辑器，允许用户直观地拖动、调整大小和配置（编辑面板属性，想象一下编辑图表或电子邮件编辑器）仪表板面板。  网格引擎：用于布局控制的 React Grid Layout 面板编辑器：Formik 用于轻松面板配置和自定义控制的包装器 状态编排：Redux（草稿/发布、撤消/重做） 与后端无关：消费者定义其面板持久层 可扩展 SDK：添加您自己的面板、数据源或可视化  💡 为什么开源 BI 工具（Grafana、Superset）和通用 UI 构建器之间存在差距。 它位于中间 - 一个可以嵌入到任何地方的领域中立的仪表板编辑器工具包。 这样的工具包对您有用吗？您希望从第一天开始看到哪些功能或文档？   由   提交/u/Junior_Apartment_948   [链接] [评论]]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   tl; dr  思考开源基于反应的Wysiwyg仪表板编辑器 - 网格驱动，州驱动的，以状态驱动和后端 - 敏捷性。您会使用或贡献吗？ ⚙️ 是一个轻巧的，反应网格网格的编辑器，可以让用户拖动，调整和配置（编辑面板属性，想象图表，图表或电子邮件编辑器）视觉上。 wrapper for easy panel configuration and customisation control State orchestration: Redux (draft/publish, undo/redo) Backend-agnostic: consumer defines their panel persistence layer Extensible SDK: add your own panels, data sources, or visualizations  💡 Why open source it  BI工具（Grafana，Superset）与通用UI构建器之间存在差距。这位于中间 - 您可以在任何地方嵌入的域中性仪表板编辑器工具包。   工具包可以对您有用吗？提交由＆＃32; /u/junior_apartment_948      [link]   [注释]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1nzri9q/build_dashboards_like_lego_grid_form_state_should/</guid>
       <pubDate>Mon, 06 Oct 2025 18:42:52 GMT</pubDate>
     </item>
     <item>
       <title>是什么阻止您为大型开源项目做出贡献？</title>
       <link>https://www.reddit.com/r/opensource/comments/1nzqz9h/what_is_stopping_you_from_contributing_to_large/</link>
-      <description><![CDATA[大家好。对于那些有兴趣进入开源领域并为一些更大的项目做出贡献的人来说，对您来说最大的障碍是什么？您认为为开源项目做贡献最困难/最烦人的是什么？需要做出哪些改变才能让您更轻松地做出贡献？ 从过去 Reddit 上的其他帖子中，我发现最大的原因通常与代码库复杂性、缺乏时间和繁琐的 PR 审核流程有关，但我想征求意见，看看情况是否仍然如此。   由   提交/u/genesis_2602   [链接] [评论]]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好。对于那些有兴趣进入开源并为一些较大项目做出贡献的人，最大的阻塞器是什么？您发现为开源项目做出贡献最困难/最烦人吗？需要改变什么才能使您更容易做出贡献？ 过去，我已经看到，我已经看到，最大的原因通常与代码库的复杂性，缺乏时间和繁琐的公关审查过程有关，但我想调查以查看是否仍然如此，以了解是否仍然如此。    &lt;！提交由＆＃32; /u/u/genesis_2602    href =“ https://www.reddit.com/r/opensource/comments/1nzqz9h/what_is_istopping_you_from_from_contributing_to_large/”&gt; [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1nzqz9h/what_is_stopping_you_from_contributing_to_large/</guid>
       <pubDate>Mon, 06 Oct 2025 18:23:09 GMT</pubDate>
     </item>
@@ -69,14 +90,14 @@
       <pubDate>Mon, 06 Oct 2025 18:10:03 GMT</pubDate>
     </item>
     <item>
-      <title>我做了一个多合一的USB开车，作为同事的告别礼物</title>
+      <title>我制作了一个一体式 USB 驱动器作为送给同事的告别礼物</title>
       <link>https://www.reddit.com/r/opensource/comments/1nzq8j5/i_made_an_allinone_usb_drive_as_a_farewell_gift/</link>
       <description><![CDATA[       &lt;！ -  sc_off- sc_off-&gt;  我喜欢与我一起工作的同事本周离开了公司。我们分享有关软件，操作系统和开源项目的兴趣，因此我想给他一些有用的东西。我购买了一个USB驱动器，将其转换为带有救援工具包，Linux Live Environments，OS安装程序，Microsoft Installers和Microsoft Activation脚本的Ventoy USB驱动器。 我已经创建了一个存储库作为参考点。它列出了程序，分步指南，并包括下载链接。随时检查一下！   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fathulfahmy      &lt;a href =“ https://www.reddit.com/r/opensource/comments/1nzq8j5/i_made_an_allinone_usb_usb_aas_a_a_farewell_gift/]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1nzq8j5/i_made_an_allinone_usb_drive_as_a_farewell_gift/</guid>
       <pubDate>Mon, 06 Oct 2025 17:55:47 GMT</pubDate>
     </item>
     <item>
-      <title>推出增强型自动模板生成器 — 用于 UI 模板生成的 AI + RAG（需要反馈！）</title>
+      <title>介绍增强的自动模板生成器 -  UI模板生成的AI +抹布（需要反馈！）</title>
       <link>https://www.reddit.com/r/opensource/comments/1nzq0r8/introducing_enhanced_auto_template_generator_ai/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我一直在研究一个名为“模板”/“增强自动模板生成器”的项目（repo：使用AI + Design-Pattern学习简化和加速UI模板创建。我会喜欢您的想法，想法，批评 - 一切都会有所帮助。 🙏 What it is Here’s what the system currently supports: AI-powered template generation using Gemini Pro API RAG (Retrieval-Augmented Generation): learn from designs you upload (images, Figma, or code), extract embeddings, and reuse design patterns Support for multiple UI libraries: Shadcn/UI，Chakra UI，Mantine，radix UI，材料UI  多种模板类型：反应，Next.js，Vue，vue，plain html，inteion模板 自然语言编辑文档）和预览屏幕截图生成（通过剧作家）  fastapi rest api + cli接口 项目结构是模块化的（带有rag/，services/，api/，utils/等）。它还包括测试（单位，集成，视觉回归），CI/CD，并使用诸如Faiss/Chromadb之类的矢量商店进行模式存储。 为什么我将此 构建为开发人员/设计师，我注意到很多UI模板是重复的。许多页面仅略有不同（布局重排，颜色调整）。如果AI系统可以随着时间的推移学习您的设计风格，并帮助您更快地生成或调整UI模板，则可以节省大量的努力。 也可以通过将抹布（图案检索）与一代相结合，我希望减少“幻觉”，并确定与某些风格的限制性的开放。我在辩论。我将非常感谢您的见解，观点或指示：  设计功能的表示  什么是一系列“正确”的设计功能集（调色板，间距，排版，布局，布局图形，组件图形，组件hieRanchies）defter efterne deftere for ni of deckert forepertive   您存储了几种模式？在什么粒度（全屏，部分，组件）？ context management  How much context/history to feed into generation (previous designs, user edits)? Strategies to avoid drift from the original style over chained generations.  Visual regression / unit testing for UI  Best practices / tools to ensure generated templates don’t break layout, CSS, responsiveness. How to集成快照测试，分散等。  可伸缩性＆amp; cost control  Modeling costs: Gemini API calls, embedding costs, compute for previews. Batching, caching, rate limits, fallback strategies.  User interface / UX  How should users interact: CLI, web UI, Figma plugin?什么是最小可行的UI流量？ 用户在生成的模板上应具有哪些反馈/控制（例如Nudge布局，交换组件，完善的颜色）？插件体系结构  如何允许第三方UI框架/组件库轻松地插入。 随着库的发展和迁移。请参阅？ 如果您愿意，我还可以共享一个演示视频或实时实例，以便您可以在行动中看到它。 如果您有兴趣，我很想让您尝试一下，打开问题或贡献。我欢迎批评，建议，功能创意，甚至是拉的请求。 感谢您的阅读，我期待您的想法！   -  aka-nine    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/aka_nine     [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1nzq0r8/introducing_enhanced_auto_template_generator_ai/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/python/comments/1nu9n4l/telelog_a_a_a_highperformance_diarostic/”&gt; [link]   ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1nzpq7t/telelog_a_highperformance_diagnostic/</guid>
       <pubDate>Mon, 06 Oct 2025 17:36:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>做了一个figma-> penpot转换器。如果你们中的任何一个有兴趣迁移应用程序模型或整个设计系统进入开源区域，请测试并提供反馈:)</title>
-      <link>https://www.reddit.com/r/opensource/comments/1nznwkc/did_a_figmapenpot_converter_if_any_of_you_are/</link>
-      <description><![CDATA[      Hi, had the need of experimenting a huge design system on Penpot and unfortunately the current official Figma plugin to export to Penpot从未成功地做到这一点。 因此，我启动了一个使用API​​到API策略的转换器，该策略使转移成为可能。更重要的是，我可以将无花果作为真理的来源，对其进行处理，同步器将逐渐补丁差异到PenPot文档上。 如果您愿意测试您使用的某些设计系统（ niTitled UI   ui   code&gt; chakra ui ），或者您会更喜欢订阅，因为您会culious！  ps：使用命令线以来，用法比FIGMA插件要高一些，但是由于技术限制，它无法在浏览器中站立。 （告诉我文档是否足够清楚）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/sneko7      &lt;a href =“ https://www.reddit.com/r/opensource/comments/1nznwkc/did_a_figmapenpot_converter_converter_if_any_of_you_are_are/]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1nznwkc/did_a_figmapenpot_converter_if_any_of_you_are/</guid>
-      <pubDate>Mon, 06 Oct 2025 16:29:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>建造的管道替代品 -  Rust的分布式AI代理编排</title>
-      <link>https://www.reddit.com/r/opensource/comments/1nzmwmm/built_pipecat_alternative_distributed_ai_agent/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  它不是处于最佳状态，而是有效，我愿意接受反馈。   ＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/opensource/comments/1nzmwmm/built_pipecat_alternative_distributed_ai_agent/”&gt; [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1nzmwmm/built_pipecat_alternative_distributed_ai_agent/</guid>
-      <pubDate>Mon, 06 Oct 2025 15:53:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>您不存在哪种开源解决方案？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1nzkxg8/what_open_source_solution_doesnt_exist_for_you/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我很好奇，有很多专有或公司软件的替代方案，您定期使用的是什么，目前似乎仍然没有（足够的）开源解决方案？     &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/izzyboris     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1nzkxg8/what_open_source_solution_doesnt_exist_for_you/</guid>
-      <pubDate>Mon, 06 Oct 2025 14:40:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
