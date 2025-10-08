@@ -4,53 +4,102 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Wed, 08 Oct 2025 09:18:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 12:35:40 GMT</lastBuildDate>
     <item>
-      <title>构建了一个基于浏览器的视频编辑器，具有90％AI生成的代码（next.js + ffmpeg.wasm + ellyotion）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o15dnc/built_a_browserbased_video_editor_with_90/</link>
-      <description><![CDATA[   &lt;A href =“ https://www.reddit.com/r/webdev/comments/1o15dnc/built_a_a_a_browserbased_video_editor_editor_editor_editor_with_with_90/” + Remotion)&quot; src=&quot;https://preview.redd.it/b28427errutf1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=e238ce138475f78b4c14a467de47f4ea361834b9&quot; title=&quot;Built a基于浏览器的视频编辑器，具有90％AI生成的代码（next.js + ffmpeg.wasm + ellyotion）”/&gt;     &lt;！&lt;！ -  sc_off- sc_off-&gt;  嘿href =“ https://www.reddit.com/r/webdev”&gt; r/webdev ， 我让Claude代码进行大部分编码，并最终获得了功能齐全的基于浏览器的视频编辑器。是的，它主要是AI生成的。是的，它实际上是有效的。 从WebDev的角度来看，这使它有趣的是：  ffmpeg.wasm实际上在浏览器中工作的事实仍然使我震惊。我们正在谈论真正的视频编码（MP4/WebM/gif最高1080p），完全通过WebAssembly运行了客户端。没有服务器上传，没有API调用 - 只有纯浏览器魔术。 关键功能：   - 带有拖动/resize/split    的多轨安排 - 使用remotion player      -  prestions，captions，srt/vtt），媒体媒体覆盖范围      (FFmpeg.wasm) - Everything stored locally in IndexedDB - Privacy-first: your media never leaves your device Tech Stack: - Next.js 14 (App Router) + React 18 + TypeScript - Remotion for real-time video preview - FFmpeg.wasm对于客户端的视频编码   - 用于状态管理的REDUX工具包   -  indexeddb（通过IDB）用于本地存储   -  tailwind css + tailwind css + radix ui   ai ai部分： claude代码的状态管理大多数。我主要只是调试并指向正确的方向。   redux商店体系结构，索引eddb集成和远程组合物在很大程度上是生成的。  github： https://github.com/mageh21/mageh21/video-editor-code-code      会喜欢来自WebDev社区的反馈 - 特别是在FFMPEG  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/prafbora90      [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o15dnc/built_a_browserbased_video_editor_with_90/</guid>
-      <pubDate>Wed, 08 Oct 2025 09:01:18 GMT</pubDate>
+      <title>安全食谱包</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o190zg/security_recipes_package/</link>
+      <description><![CDATA[嗨，我发布了一个新的 npm 包。它可用于增强 Web 应用程序的安全性。  如果您想到其他食谱并希望合作，请这样做， 请注意 https://www.npmjs.com/package/security-recipes https://gitHub.com/bacloud22/security-recipes   由   提交/u/Sracer2018  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o190zg/security_recipes_package/</guid>
+      <pubDate>Wed, 08 Oct 2025 12:26:00 GMT</pubDate>
     </item>
     <item>
-      <title>CSS有42个单元</title>
+      <title>寻找志趣相投的人服务</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o18hir/find_likeminded_people_service/</link>
+      <description><![CDATA[我创建了一些 Web 应用程序，可以帮助您找到可以交谈的人。我认为人们对此有问题。我想问你 - 这是我的想法还是我应该离开？ https://talker.website - 就是这样。   由   提交/u/Leo_Krasava   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o18hir/find_likeminded_people_service/</guid>
+      <pubDate>Wed, 08 Oct 2025 12:01:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络刮擦是否合法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o18eo7/web_scraping_legal_or_not/</link>
+      <description><![CDATA[我有一个真正的问题。我们如何衡量我们是否尊重网站的 robots.txt 并从该网站获取数据（例如：房地产列表等）。我们假设该网站是公开的，这不是个人数据。如果我们修改这些数据，转售它是否合法？   由   提交 /u/Typical_Basil7625   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o18eo7/web_scraping_legal_or_not/</guid>
+      <pubDate>Wed, 08 Oct 2025 11:57:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI和网络</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o187r7/ai_and_the_web/</link>
+      <description><![CDATA[这会给人一种居高临下和粗鲁的感觉，但作为经常光顾这个 Reddit 子版块的人，我觉得有必要提醒你们。 如果你花一半的时间谈论 AI 是否会取代你的工作，真正进行开发。练习技巧。或者只是其他任何事情，你的时间会更好地度过。  谈论人工智能并不能解决它是否有用的问题。分享有关使用和工具的积极或消极的经验或智慧肯定会有所帮助。但是，大量的帖子和评论只是将你对人工智能的看法付诸实践，这是空洞的，对你的旅程没有任何帮助。 仅此而已。   由   提交 /u/Stratose   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o187r7/ai_and_the_web/</guid>
+      <pubDate>Wed, 08 Oct 2025 11:47:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>投票：实时编码与接受家庭测试访谈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o17vy7/poll_live_coding_vs_take_home_tests_interviews/</link>
+      <description><![CDATA[我是一家大型跨国科技公司的首席工程师。目前，我们的团队内部对于我们的招聘流程以及如何最好地展示候选人的技能存在很多争论。 我们的一些团队更喜欢注重实时编码的流程，而其他团队更喜欢带回家的测试（1-2 小时），然后根据候选人的表现进行后续技术面试。 我在内部听到了很多意见，但我真的很想了解 其他开发人员对其偏好的看法。 就本次民意调查而言，“实时编码”可以包括使用 IDE 或基于 Web 的 IDE 环境在笔记本电脑上进行编码，或者在白板上进行编码。主要的一点是，面试官会与你实时互动，无论是面对面还是远程视频通话。 带回家的测试将在初步筛选电话之后进行（不仅仅是用作候选人过滤器）。 我也很想听到任何评论 - 有兴趣听到人们的想法。谢谢！ 查看投票   由   提交 /u/ep1cw1n   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o17vy7/poll_live_coding_vs_take_home_tests_interviews/</guid>
+      <pubDate>Wed, 08 Oct 2025 11:31:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>投票：实时编码与接受家庭测试访谈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o17vtn/poll_live_coding_vs_take_home_tests_interviews/</link>
+      <description><![CDATA[我是一家大型跨国科技公司的首席工程师。目前，我们的团队内部对于我们的招聘流程以及如何最好地展示候选人的技能存在很多争论。 我们的一些团队更喜欢注重实时编码的流程，而其他团队更喜欢带回家的测试（1-2 小时），然后根据候选人的表现进行后续技术面试。 我在内部听到了很多意见，但我真的很想了解 其他开发人员对其偏好的看法。 就本次民意调查而言，“实时编码”可以包括使用 IDE 或基于 Web 的 IDE 环境在笔记本电脑上进行编码，或者在白板上进行编码。主要的一点是，面试官会与你实时互动，无论是面对面还是远程视频通话。 带回家的测试将在初步筛选电话之后进行（不仅仅是用作候选人过滤器）。 我也很想听到任何评论 - 有兴趣听到人们的想法。谢谢！ 查看投票   由   提交 /u/ep1cw1n   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o17vtn/poll_live_coding_vs_take_home_tests_interviews/</guid>
+      <pubDate>Wed, 08 Oct 2025 11:31:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>完整的堆栈？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o17ghu/full_stack/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  类型：）快速问题。&lt; /p&gt; 我正在考虑开始学习诸如Web Development &lt; /p&gt; 之类的学习编程，我只是想知道我只专注于HTML，CSS，CSS，CSS，javascript，node.js，node.js，node.js， git， git， git。 提前：）   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/hollow_melancholic   [link] ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o17ghu/full_stack/</guid>
+      <pubDate>Wed, 08 Oct 2025 11:08:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么每个人都表现得好像人工智能已经取代了前端开发人员？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o16wnk/whys_everyone_acting_like_ai_already_replaced/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  每隔一周，我都会看到开发者的帖子在谈论“前端devs is doneai现在可以做所有事情”真的吗？人工智能对颜色确实很可悲。当您实际尝试使用AI构建真实的应用程序时，您将意识到这离现实有多远。 It can generate components, write Tailwind and even create a complete nextjs app (full of bugs errors and when you run it locally you will understand) but the moment you need design consistency, accessibility, responsive layouts or just a little UI/UX logic it breaks down fast. NO MODEL CAN GRASP UNDERSTANDING USERS, DESIGN AESTHETICS AND INTENT MAYBE IT CAN IN FUTURE BUT RIGHT NOW IT&#39;S A BIG NO So是的，AI可能会改变我们的工作方式，但它并没有在很快就会替换Frontend Devs。这只是迫使我们成为更好的设计师，问题解决者和系统思想家。 高级开发人员，您会向一个新的人建议什么？     &lt;！提交由＆＃32; /u/u/sad_impact9312     [link]    [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o16wnk/whys_everyone_acting_like_ai_already_replaced/</guid>
+      <pubDate>Wed, 08 Oct 2025 10:37:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>抛弃手册点击</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o16ula/ditching_manual_clicking/</link>
+      <description><![CDATA[每次部署后点击相同的流程我感到很无聊。登录、添加到购物车、结账、动态用户输入、注销、重复……然后意识到有些东西仍然破坏了测试没有捕获 我是一个全栈开发人员，而不是质量检查人员，我想要一些轻量级的东西，不会花费几周的时间来维护。花了几个周末建立了一个适当的自动化流程，老实说我希望我早点做。  但这并不完美。不稳定的选择器、缓慢的环境和测试数据重置。但是，一旦我获得了一致的环境和更智能的等待，稳定性就会提高 Wondeirng，您如何平衡足够好的测试与过度工程？您是进行完整的 Cypress/Playwright 设置还是只是自动化关键流程并收工？   由   提交 /u/andreigaspar   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o16ula/ditching_manual_clicking/</guid>
+      <pubDate>Wed, 08 Oct 2025 10:33:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSS有42个单位</title>
       <link>https://www.reddit.com/r/webdev/comments/1o14wk5/css_has_42_units/</link>
-      <description><![CDATA[ 由   提交 /u/harromeister   [链接] [评论]]]></description>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/harromeister      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o14wk5/css_has_42_units/</guid>
       <pubDate>Wed, 08 Oct 2025 08:29:56 GMT</pubDate>
     </item>
     <item>
-      <title>gogen - 用于引导全栈 Go 应用程序的 CLI</title>
+      <title>GOGEN-一个用于自举的CLI Fullstack Go应用程序</title>
       <link>https://www.reddit.com/r/webdev/comments/1o1476y/gogen_a_cli_for_bootstrapping_fullstack_go_apps/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  如果您是一个全面的网络工程，负责创建一个新的GO MonorePo，那么您可能知道如何为后端和Frontend复制命令。 。初始化 前端库集成（react，solidjs，angular，svelte，vue）  go路由器选择（chi，stdlib，gorilla，httprouter） 支持  typescript或javaScript选择前端    路线图    数据库选择 记录 href =“ https://github.com/luigimorel/gogen.git”&gt; https://github.com/luigimorel/gogen/gogen    向反馈    &lt;！提交由＆＃32; /u/morel_     [link]   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o1476y/gogen_a_cli_for_bootstrapping_fullstack_go_apps/</guid>
       <pubDate>Wed, 08 Oct 2025 07:43:13 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub个人资料展示iframe Generator</title>
+      <title>Github 简介展示 Iframe 生成器</title>
       <link>https://www.reddit.com/r/webdev/comments/1o13xwl/github_profile_showcase_iframe_generator/</link>
       <description><![CDATA[大家好！ 最近我想集成某种“github 个人资料卡”在我的作品集网站上，但我还没有找到任何适合我需求的东西。 所以我很快创建了一个新的（开源）工具来做到这一点！ 它生成了一个可以在任何网页上工作的可粘贴 iframe 代码，我尝试使其尽可能可配置，同时保持简单。 它显示了您的基本用户信息、固定存储库以及简单的活动 图表。 如果这有意义，请随时向我提供任何反馈以改进这一点。 页面：https://ehrencreative.de/github-profile-showcase/ Github： https://github.com/aalolexx/github-profille-showcas e-iframe   由   提交/u/alexeh99  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o13xwl/github_profile_showcase_iframe_generator/</guid>
       <pubDate>Wed, 08 Oct 2025 07:25:55 GMT</pubDate>
     </item>
     <item>
-      <title>如何合法地废弃数据？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o12i4m/how_to_scrap_datas_legally/</link>
-      <description><![CDATA[亲爱的网络构建者，您好，我正在开发一个事件侦听器网站，该网站应列出任何城市即将举行的围兜比赛。我曾使用来自某个来源的免费 API 进行试用，现在它即将结束。在寻找其他替代方案时，许多 API 提供商的成本比我从该网站获得的收入要高得多。  有没有办法在 W3 中获取原始数据或您知道合法的抓取技术？ 寻求您的真实建议   由   提交/u/ExpertKnowledge2937   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o12i4m/how_to_scrap_datas_legally/</guid>
-      <pubDate>Wed, 08 Oct 2025 05:56:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>将 PDF 链接到 GitHub 网站</title>
+      <title>将PDF链接到GitHub网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1o12ajx/link_pdfs_to_github_website/</link>
-      <description><![CDATA[             &lt;！它让用户拼贴书。问题目前我必须在“书籍/quot”中上传书籍。耗时且回购大小的文件夹正在迅速增加。如何以及在哪里可以上传PDF并将其链接到源代码？用直接下载链接替换文件的位置也无法正常工作，既不是Archive.org URL或GDRIVE。我尝试了我建议的一切。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/belikedead       [注释]             ]]></description>
+      <description><![CDATA[      我通过 AI 制作了这个网站 它可以让用户制作书籍拼贴画。问题是目前我必须在“书籍/”中上传书籍。文件夹，这非常耗时，并且存储库大小正在迅速增加。如何以及在哪里可以上传 PDF 并将其链接到源代码？用直接下载链接替换文件位置也不起作用，archive.org url 或 gdrive 都不起作用。我尝试了我建议的一切。    由   提交 /u/BeLikeDead   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o12ajx/link_pdfs_to_github_website/</guid>
       <pubDate>Wed, 08 Oct 2025 05:43:22 GMT</pubDate>
     </item>
     <item>
-      <title>销售网站的过程是什么样的？</title>
+      <title>销售网站的流程是什么样的？</title>
       <link>https://www.reddit.com/r/webdev/comments/1o11ehc/what_does_the_process_of_selling_a_website_look/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  专门从事自由网络开发的人。  如果您通过WordPress或类似方法进行操作，您该如何对？  如果您使用Web框架从头开始构建它，您是否在家庭服务器或AWS之类的东西上托管？  我不是要满足特定需求。只是对自由网络开发的来龙去脉感到好奇。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o11ehc/what_does_the_process_process_of_selling_a_website_alook/&gt; [link]    [注释]  ]]></description>
+      <description><![CDATA[适合专门从事自由 Web 开发的人员。  如果您通过 Wordpress 或类似方式进行操作，您如何计费？  如果您使用 Web 框架从头开始构建它，您是否将其托管在家庭服务器或 AWS 之类的服务器上？  我并不是想满足特定的需求。只是对自由网络开发的来龙去脉感到好奇。    由   提交/u/oraclehurts  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o11ehc/what_does_the_process_of_selling_a_website_look/</guid>
       <pubDate>Wed, 08 Oct 2025 04:51:05 GMT</pubDate>
     </item>
@@ -60,55 +109,6 @@
       <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在处理一个软件，它的设计完全白色标记，这意味着每个公司都可以上传自己的徽标，自定义颜色，并感觉像是他们的软件，但它也将与客户和付款打交道，我仍然在此过程中学习，这是一个小型的项目，我在 我向大家提出的问题是，如果您有任何技巧可以在处理诸如地址和信用卡等有价值的信息时保持安全和安全的提示，例如     &lt;！提交由＆＃32; /u/u/u/natural-size-4849     [link]   ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o10las/help_staying_secure/</guid>
       <pubDate>Wed, 08 Oct 2025 04:06:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>💬 创意分享：DevClub — 面向 Web 开发人员的全球每周编码会议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0zisu/idea_share_devclub_a_global_weekly_coding_session/</link>
-      <description><![CDATA[嘿伙计们👋 我想分享我一直在研究的一个想法，并从这个社区获得一些反馈。 我注意到很多网络开发人员（包括我自己）很难找到一致的时间来处理个人项目。在工作、生活和倦怠之间，业余项目往往会积满灰尘——尽管它们往往是我们最初开始编码的原因。 所以我一直在尝试一种叫做 DevClub 的东西——基本上是全球每周一次的编码会议。 🧠 这个概念很简单：每周一次，每个开发者都会选择 2 小时的时间来编码、学习或构建——无论他们想要什么——而成千上万的其他人也这样做 世界各地都是同样的事情。没有直播，没有付费社区，没有压力。只是一个简单的每周习惯，可以帮助人们腾出编码空间。 每周都有： • 松散的主题（例如启动模式、重构周、学习新东西） • 一个聚焦的共享播放列表 • 在 Bluesky 上分享进度和项目的空间（只有一个个人资料发布每周提示） 💡 为什么我认为这很重要 它试图解决的一些问题： • 寻找动力和责任 独自工作 • 在工作之外编码时感到孤立 • 在个人或学习项目中保持创造性动力 这不是生产力黑客 - 更像是一个温和的结构，可以帮助您始终如一地表现出来。 💬 我希望得到什么反馈 • 这样的事情实际上会激励您更频繁地编码吗？ • 您愿意选择一个固定的全球时间，还是每周选择自己的 2 小时时段？ • 哪些主题或仪式可能会让它更有趣（例如音乐、视觉效果、条纹、挑战）？ 现在我只是与一些开发朋友一起测试这个概念 - 没有商​​业或封闭 - 我很乐意在它走向任何地方之前根据这个社区的意见来塑造它。 感谢您的阅读🙏 如果您最近很难为自己的项目腾出时间，我真的很喜欢您 想法。 — TL;DR：考虑每周一次的“DevClub”——2 小时的全球聚焦编码时间，帮助开发人员在自己的项目上取得持续进展。是什么让你加入这样的组织？   由   提交/u/NightLight5953  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0zisu/idea_share_devclub_a_global_weekly_coding_session/</guid>
-      <pubDate>Wed, 08 Oct 2025 03:10:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>网络应用程序何时开始感觉像本地应用</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0zbid/when_did_web_apps_start_feeling_like_native_apps/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  还记得与桌面软件相比，网络应用程序何时感到笨拙吗？现在，有些网络应用程序比本地应用程序更光滑。相互作用是流体的，过渡是平稳的，整个体验都感到抛光。发生了什么变化？更好的浏览器，更快的JavaScript，提高了CSS功能？还是开发人员只是在Web UI模式上变得更好？ 一直在比较Mobbin上的Web和本机版本，有时Web版本实际上感觉更快。这是未来还是仍然存在基本的限制，本机应用程序总是可以更好地处理？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o0zbid/when_did_web_apps_start_feeling_feeling_like_like_native_apps/”&gt; [link]   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0zbid/when_did_web_apps_start_feeling_like_native_apps/</guid>
-      <pubDate>Wed, 08 Oct 2025 03:00:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>调试 Web 应用程序：人工智能之前与副驾驶时代（WebDev 短片）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0y0ta/debugging_web_apps_before_ai_vs_the_age_of/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我一直在思考开发中最令人沮丧的部分（debugging）是如何改变的。特别是对于网络开发，从手动跟踪到AI帮助的转变是一个大规模的游戏规则。  AI之前：前/后端GRIND  删除Web代码是手动隔离和浏览器特异性的地狱的艰苦过程：通过刷新页面一千次来打击CORS错误和计时比赛条件。浪费一个小时跟踪状态错误，只是意识到您忘记了依赖性挂钩或滥用使用效果。  *后端痛苦：盯着500个状态代码。 manually stepping through Node.js code or Django views, meticulously checking every database query and API payload that was supposed to look like JSON.  The Oracle: Copying the full Chrome DevTools stack trace and hoping a random GitHub issue from 2018 held the key to your specific Webpack config error.  It built deep intuition, but at the cost AI：辅助诊断后的无数小时。它通常会立即发现逻辑缺陷，例如破坏错误的对象或不正确的异步模式。    框架 - 意识到的修复：AI为您的堆栈提供特定的解决方案。您可以使用正确的下一步或春季启动方法来获得建议的替换，而不是通用代码修复。    cross-browser预防：AI工具主动地捕捉到许多常见的CSS Quirks或Minor JS兼容性问题，甚至直接击中部署。建议。  WebDev Dremma  现在，我们现在要快得多，尤其是在处理复杂的状态和数据流时。  但这是一个想法： 是否依靠AI进行即时修复（例如CORS问题或棘手的Usestate更新）会使我们在我们最喜欢的框架的深层，微妙的失败中流利，这只是我们工具集的自然演变吗？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/propecorist-day-7406     [link]    [注释]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0y0ta/debugging_web_apps_before_ai_vs_the_age_of/</guid>
-      <pubDate>Wed, 08 Oct 2025 01:56:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>较大字体的字体对齐问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0wn1u/font_alignment_issue_for_larger_fonts/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在页面中文本的水平对齐有问题。我在英雄组件中使用了两个不同的字体尺寸，一个用于标题，一个用于描述。标题比描述大。他们俩都来自同一字体家庭。由于标题是如此之大，因此与较小的描述文本相比，字体的放置看起来有点偏离，尤其是对于某些字母，例如-b，f。我读到某些字体可能是这种情况，因为它们并不总是完全填充每个方面。 有什么方法可以克服这个问题？我认为添加负距离或填充物不会有帮助，因为文本可能是动态的，并且在这种情况下，它可能会完全粘在侧面，而负边距可能会进一步错误地对齐。 我在沙盒中重新创建了类似的东西。让我知道你们是否以前遇到过这个问题并找到了解决方案。   https://codesbox.io/p/sandbox/sandbox/sandbox/33rj8s tlele and s）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o0wn1u/font_alignment_issue_issue_for_for_larger_fonts/”&gt; [link]       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0wn1u/font_alignment_issue_for_larger_fonts/</guid>
-      <pubDate>Wed, 08 Oct 2025 00:52:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>API最近给您带来了最多的头痛？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0vxz4/what_api_has_given_you_the_most_headaches_recently/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  一些集成看起来很容易……直到您击中那些真实的边缘案例。 付款，auth和Analytics；每个人都以自己的特殊方式打破。 现在，哪一个正在减慢您的团队。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o0vxz4/what_api_has_given_you_the_most_heast_heast_headaches_recelly/”&gt; [link]   [commist]   ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0vxz4/what_api_has_given_you_the_most_headaches_recently/</guid>
-      <pubDate>Wed, 08 Oct 2025 00:19:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>NED帮助抗机器人检测执行。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0rtxc/ned_help_with_anti_bot_detecting_enforcements/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  在反机器人阻止软件 中需要帮助，我正在构建一个与市场上其他应用程序相似的Web应用程序，但具有更多功能，但更便宜。我已经完成了整个后端，Vercel将任务发送给负责处理这些任务的铁路工人。所有终点都很好，健康，工人效果很好。我的主要问题是，我正在尝试将人民帐户与以下市场Depop，Grailed，Mercari，Poshmark和Ebay联系起来。 eBay之所以完成，是因为它们足够友善，可以提供自己的API，并且设置了到市场的THR端点，并且登录区域具有无头浏览器，并采用了木偶登录，并采用了安全措施，以防止像Rebrowser这样的安全措施，它在2FA时甚至还为我的应用程序用户提供了一个弹出窗口。  我的问题是。登录屏幕和2FA提示在尝试登录并链接我的用户帐户后消失。我知道每个人都使用自己的反机器人检测，并且在偷偷摸摸的情况下遇到了麻烦，预先完成工人的任务并成功地链接了帐户。是否有人有任何最佳实践或确定的消防解决方案以避免反机器人检测。我目前有住宅粘性IP最多30分钟，以便有足够的时间捕获他们的登录会话cookie并存储会话，并取出了通常可以触发鼠标动作的东西以示例。从我的代理列表集成的每个登录会话中随机加载IP地址。我正在使用无头浏览器，而我的代理使用了HTTPS。但是我只是无法在未被检测到的情况下踢到链接帐户的大门，需要一些建议。我是否执行完全错误的发展任务？有一个更好的方法吗？谁能告诉我一个不带头部浏览器的好木偶设置，也许可以使用？我很沮丧，我花了很多时间尝试将这些帐户链接到来自市场和其他应用程序中的列表和自动化任务，例如Vendoo，onesehop，nifty，nifty，poshmark sidekick或Sidekick工具，等等。我想念他们似乎都完美地弄清楚了什么？请帮忙。这可能意味着要为我和我的家人带来贫困，但如果我什至无法超越机器人检测以将帐户链接起来，我什至无法开始为用户自动化任务等有趣的东西。任何帮助将是极大的，非常感谢。感谢您的阅读以及您可以分享的任何专业知识。   绝望的开发人员❤️   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o0rtxc/ned_help_with_with_anti_anti_anti_bot_detecting_enforcements/”&gt; [link]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0rtxc/ned_help_with_anti_bot_detecting_enforcements/</guid>
-      <pubDate>Tue, 07 Oct 2025 21:27:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪个尺度？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0pou5/which_one_scales/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  所以，我已经缩小到一些竞争者来鞭打我的Web应用程序。到目前为止，有潜力的3个是：  bolt.new equent.sp google stitch  初步结果看起来不错，但是我需要花一些优质的时光与他们一起使一切正常。但是我想确保我不会浪费时间。那么，我的问题是：哪些会比100万用户更好地扩展？该应用程序非常利基，但我听到的人在我的领域里听到的东西很大，因此潜力在那里可以使用。我可以从自由层开始并随着增加客户群的费用支付更多，但是我需要知道上述任何一个平台都可以满足需求。如果没有，那么将应用程序扩展到1M的某个地方有多容易？  基本上，简而言之，人们将上传文档（因此需要存储和每个用户的数据库），我也会以各个间隔发送电子邮件。我知道Bolt和Emprent具有带有条纹集成的数据库和身份验证，但是在与任何一个一起移动之前，我还需要考虑其他问题吗？ tia。   没有负面评论。我将响应   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/novemberman23   [link] ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0pou5/which_one_scales/</guid>
-      <pubDate>Tue, 07 Oct 2025 20:07:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
