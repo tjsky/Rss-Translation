@@ -4,7 +4,49 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 08 Oct 2025 03:31:34 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 06:28:40 GMT</lastBuildDate>
+    <item>
+      <title>2025 年最难到最容易学习的 20 种编程语言排名 |商务部</title>
+      <link>https://www.reddit.com/r/programming/comments/1o12xcz/20_hardest_to_easiest_rankings_of_programming/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;    20最难的编程语言供开发人员在2025年学习。   &lt;！ -  sc_on-&gt;提交由＆＃32; /u/waozen      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o12xcz/20_hardest_to_easiest_rankings_of_programming/</guid>
+      <pubDate>Wed, 08 Oct 2025 06:22:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSS有42个单元</title>
+      <link>https://www.reddit.com/r/programming/comments/1o12gps/css_has_42_units/</link>
+      <description><![CDATA[ 由   提交 /u/harromeister   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o12gps/css_has_42_units/</guid>
+      <pubDate>Wed, 08 Oct 2025 05:54:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>十年前的一堂课中的代码不起作用（显然）</title>
+      <link>https://www.reddit.com/r/programming/comments/1o126jj/code_from_a_lesson_a_decade_ago_for_unity_not/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，我正在关注有关2014年从2014年起关于Unity的游戏开发的课程？无论如何，此代码的目的是增加X偏移量 - 材料四元对象。编译没有错误，但不会改变启动时X偏移。这些数字至少在脚本上仍在增加。材料不受影响。我正在使用Unity 2022。代码有任何问题吗？另外，我并不是真的在Reddit上发布，我对发布的URL要求是lmao完全一无所知。 I just copied and pasted the page I was on at time of posting. using UnityEngine; using System.Collections; public class TextureOffsetAnimator1 : MonoBehaviour { public Vector2 ScrollSpeeds = new Vector2(0.0f, 0.0f);  public renderer targetRenderer = null;   // private  私人vector2 _offset =  vector2.zer.2.zer.zer.zer.zero ;        //首次在pr aft the morobe is efters per the monobe is efters per at have p. p ippation p.papt p. start（）  {  if（targetRenderer == null）  {  targetRenderer = getComponent＆lt; renderer＆gt;（） targetRenderer.material.getTextureOffset（&#39;_maintex＆quord;）;  }   } }    //更新一次是每个frage   void Updation（void Updation（） * time.deltatime;   targetRenderer.material.material.setTextureOffset（&#39;_maintex＆quot; _offset）;  } }    }      &lt;！提交由＆＃32;  /u/GRILL3DCHEESEBOB   [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o126jj/code_from_a_lesson_a_decade_ago_for_unity_not/</guid>
+      <pubDate>Wed, 08 Oct 2025 05:36:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>重建世界计划</title>
+      <link>https://www.reddit.com/r/programming/comments/1o114bv/rebuild_the_world_project/</link>
+      <description><![CDATA[ 一旦陷入死胡同，请从后退一些步骤开始  一个致力于当代信息技术（尤其是编程）退化趋势的新网站刚刚出现。 其中涵盖的大多数主题对于公众来说可能极具争议性，但是，在我看来，每个主题背后都有强有力的理由，它们不应该被简单地忽略。   由   提交/u/SureCoyote9650   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o114bv/rebuild_the_world_project/</guid>
+      <pubDate>Wed, 08 Oct 2025 04:35:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>设计用于分支AI对话的SDK（Python + Typescript）</title>
+      <link>https://www.reddit.com/r/programming/comments/1o110i0/designing_an_sdk_for_branching_ai_conversations/</link>
+      <description><![CDATA[传统的 AI 聊天 API 是线性的 - 从头到尾都是一条消息链。 当我们开始尝试分支对话（任何消息都可以分叉到新路径）时，出现了很多有趣的技术问题。 一些更具挑战性的部分：  将分支表示为 图而不是列表，同时保持可查询性和轻量级。 有效维护上下文 - 决定分支是继承完整历史记录、部分历史记录还是重新开始（我们将这些上下文模式称为“完整/部分/无”）。 跨多个分支同时流式传输响应，而不会破坏顺序保证。 确保每个分支都有一个真正的 UUID（没有“主”占位符），以便合并和引用在以后保持一致。 处理令牌限制以及跨不同分支的使用情况跟踪。  最终结果是一个小型跨语言 SDK (Python + TypeScript)，它可以抽象出这些问题并公开简单的调用 比如 conversations.create()、branches.create()和messages.stream()。 我写了一篇简短的技术文章，解释了我们如何处理这些设计决策以及我们在构建它时学到了什么： https://afzal.xyz/rethinking-ai-conversations-why-branching-beats-线性-thinking-85ed5cfd97f5 很想听听其他人如何建模类似的分支或树结构对话系统 - 特别是在有效维护上下文或可视化对话图方面。   由   提交 /u/sleaktrade   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o110i0/designing_an_sdk_for_branching_ai_conversations/</guid>
+      <pubDate>Wed, 08 Oct 2025 04:29:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>设计用于分支AI对话的SDK（Python + Typescript）</title>
+      <link>https://www.reddit.com/r/programming/comments/1o10zkb/designing_an_sdk_for_branching_ai_conversations/</link>
+      <description><![CDATA[传统的 AI 聊天 API 是线性的 - 从头到尾都是一条消息链。 当我们开始尝试分支对话（任何消息都可以分叉到新路径）时，出现了许多有趣的技术问题。 一些更具挑战性的部分：  将分支表示为图形而不是列表，同时保留它 可查询且轻量级。 高效维护上下文 - 决定分支是继承完整历史记录、部分历史记录还是重新开始（我们将这些上下文模式称为“完整”/“部分”/“无”）。 跨多个分支同时流式传输响应，而不破坏顺序保证。 确保每个分支都有一个真正的 UUID（无“主”占位符），以便合并和引用保持一致  跨不同分支处理令牌限制和使用情况跟踪。  最终结果是一个小型跨语言 SDK (Python + TypeScript)，它将这些问题抽象出来并公开简单的调用，例如conversations.create()、branches.create() 和 messages.stream()。 我写了一篇简短的技术文章 解释我们如何处理这些设计决策以及我们在构建过程中学到了什么： https://afzal.xyz/rethinking-ai-conversations-why-branching-beats-线性-thinking-85ed5cfd97f5 很想听听其他人如何建模类似的分支或树结构对话系统 - 特别是在有效维护上下文或可视化对话图方面。   由   提交 /u/sleaktrade   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o10zkb/designing_an_sdk_for_branching_ai_conversations/</guid>
+      <pubDate>Wed, 08 Oct 2025 04:28:24 GMT</pubDate>
+    </item>
     <item>
       <title>Chandler Carruth：铁锈和碳的内存安全无处不在 | RustConf 2025</title>
       <link>https://www.reddit.com/r/programming/comments/1o0vlzd/chandler_carruth_memory_safety_everywhere_with/</link>
@@ -13,7 +55,7 @@
       <pubDate>Wed, 08 Oct 2025 00:04:39 GMT</pubDate>
     </item>
     <item>
-      <title>裸体检测、人工智能架构：我们如何在我的初创公司中解决它</title>
+      <title>裸露检测，AI架构：我们如何在创业公司中解决它</title>
       <link>https://www.reddit.com/r/programming/comments/1o0v1mx/nudity_detection_ai_architecture_how_we_solved_it/</link>
       <description><![CDATA[＆＃32;提交由＆＃32; /u/trolleid     [link]   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o0v1mx/nudity_detection_ai_architecture_how_we_solved_it/</guid>
@@ -22,42 +64,42 @@
     <item>
       <title>可组合状态机：在 RTS 游戏中构建可扩展的单元行为</title>
       <link>https://www.reddit.com/r/programming/comments/1o0ukwq/composable_state_machines_building_scalable_unit/</link>
-      <description><![CDATA[ 由   提交 /u/EgregorAmeriki   [链接] [评论]]]></description>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/egregorameriki     [link]        [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o0ukwq/composable_state_machines_building_scalable_unit/</guid>
       <pubDate>Tue, 07 Oct 2025 23:19:11 GMT</pubDate>
     </item>
     <item>
-      <title>解释人工智能决策树的童年游戏</title>
+      <title>解释AI的决策树的童年游戏</title>
       <link>https://www.reddit.com/r/programming/comments/1o0t8ml/the_childhood_game_that_explains_ais_decision/</link>
       <description><![CDATA[一位工程师最近探索了经典棋盘游戏猜猜谁？揭示了人工智能决策树的底层逻辑。 在游戏中，玩家不会猜测 - 他们会提出提供最多信息的问题，系统地消除可能性，直到只剩下一个。这反映了机器学习中的决策树如何分割数据：每个“问题”（特征）旨在减少不确定性并创建更清晰的分区。 该项目在游戏的是/否机制和预测机器学习过程（例如特征选择和信息增益）之间建立了直接的相似之处。就像玩家可能会问“你的角色戴眼镜吗？”为了删除一半的选项，模型可能会问“血压高吗？”来完善其分类。 通过使用一个怀旧的视觉示例，工程师说明了如何理解简单游戏中的问题效率可以揭开人工智能模型如何学习以最少的步骤做出准确预测的神秘面纱。   由   提交/u/shift_devs  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o0t8ml/the_childhood_game_that_explains_ais_decision/</guid>
       <pubDate>Tue, 07 Oct 2025 22:22:18 GMT</pubDate>
     </item>
     <item>
-      <title>局部和时间空间假设</title>
+      <title>局部性和时空假设</title>
       <link>https://www.reddit.com/r/programming/comments/1o0ov3x/locality_and_temporalspatial_hypothesis/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]   ]]></description>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o0ov3x/locality_and_temporalspatial_hypothesis/</guid>
       <pubDate>Tue, 07 Oct 2025 19:36:58 GMT</pubDate>
     </item>
     <item>
       <title>创始人的盲点杀死了初创企业</title>
       <link>https://www.reddit.com/r/programming/comments/1o0olp1/the_founders_blind_spot_that_kills_startups/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大多数初创公司失败了，因为非技术创始人失去了产品的技术现实。了解“创始人的盲点”如何不受管理的技术债务导致灾难性失败。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/gamunu      [注释]  ]]></description>
+      <description><![CDATA[大多数初创公司都失败了，因为非技术创始人脱离了产品的技术现实。了解“创始人的盲点”如何解决和不受管理的技术债务会导致灾难性的失败。   由   提交/u/gamunu  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o0olp1/the_founders_blind_spot_that_kills_startups/</guid>
       <pubDate>Tue, 07 Oct 2025 19:27:12 GMT</pubDate>
     </item>
     <item>
       <title>打字稿就像c＃</title>
       <link>https://www.reddit.com/r/programming/comments/1o0m43p/typescript_is_like_c/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o0m43p/typescript_is_like_c/</guid>
       <pubDate>Tue, 07 Oct 2025 17:58:26 GMT</pubDate>
     </item>
     <item>
-      <title>QT 6.10发布，QML中有Flexbox</title>
+      <title>Qt 6.10 发布，QML 中包含 Flexbox</title>
       <link>https://www.reddit.com/r/programming/comments/1o0m3kj/qt_610_released_with_flexbox_in_qml/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ketralnis       [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o0m3kj/qt_610_released_with_flexbox_in_qml/</guid>
       <pubDate>Tue, 07 Oct 2025 17:57:56 GMT</pubDate>
     </item>
@@ -67,48 +109,6 @@
       <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o0m32k/the_handle_trait/</guid>
       <pubDate>Tue, 07 Oct 2025 17:57:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>具有动态扇出的缓存友好型 B+树节点</title>
-      <link>https://www.reddit.com/r/programming/comments/1o0m2dc/cachefriendly_btree_nodes_with_dynamic_fanout/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o0m2dc/cachefriendly_btree_nodes_with_dynamic_fanout/</guid>
-      <pubDate>Tue, 07 Oct 2025 17:56:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于研究的Android通知优化</title>
-      <link>https://www.reddit.com/r/programming/comments/1o0kkrz/researchbased_android_notification_optimization/</link>
-      <description><![CDATA[ 由   提交/u/th3_artificery  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o0kkrz/researchbased_android_notification_optimization/</guid>
-      <pubDate>Tue, 07 Oct 2025 17:03:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我停止在高吞吐量系统中使用 WebSockets</title>
-      <link>https://www.reddit.com/r/programming/comments/1o0jkp3/why_i_stopped_using_websockets_for_highthroughput/</link>
-      <description><![CDATA[I recently redesigned our location tracking system (500K active users) and made a counter-intuitive choice: switched FROM WebSockets TO HTTP. Here&#39;s why: **The Problem:** - 500K WebSocket connections = 8GB just for connection state - Sticky会议使噩梦缩放  - 移动电池从心跳ping   - 重新连接风暴崩溃时&lt; /p&gt;  **解决方案：**   - 带有连接池的http   - 无遗嘱状态  - 无遗嘱的无遗传架构  -  60％更好的移动电池lib /plane&gt; linear limet  Websockets与吞吐量无关 - 他们关于双向通信。如果您的服务器不需要将数据推向客户端，则 http通常更好。&lt; /p&gt; 我写了一个详细的细分，并使用10个真实的系统设计访谈问题来测试此概念： https://medium.com/@shivangsharma6789/websockets-vs-http-stop-choosing-the-wrong-protocol-fd0e92b204cd    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/bed-reporter-2154     [link]    [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o0jkp3/why_i_stopped_using_websockets_for_highthroughput/</guid>
-      <pubDate>Tue, 07 Oct 2025 16:28:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>剧作家发布了AI测试代理商。该技术令人印象深刻，但是该体系结构仍然依赖于反应性的康复和DOM定位器。</title>
-      <link>https://www.reddit.com/r/programming/comments/1o0itpc/playwright_released_ai_test_agents_the_tech_is/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/Geaverfulboy     [link]&gt; [link]    [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o0itpc/playwright_released_ai_test_agents_the_tech_is/</guid>
-      <pubDate>Tue, 07 Oct 2025 16:00:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Python 发布 Python 3.14.0</title>
-      <link>https://www.reddit.com/r/programming/comments/1o0ik5m/python_release_python_3140/</link>
-      <description><![CDATA[ 由   提交/u/BrewedDoritos  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o0ik5m/python_release_python_3140/</guid>
-      <pubDate>Tue, 07 Oct 2025 15:50:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tcl-Lang Showcase，可能是第一个“通用”编程语言。</title>
-      <link>https://www.reddit.com/r/programming/comments/1o0ihdf/tcllang_showcase_probably_was_the_first_general/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/Geaverfulboy     [link]&gt; [link]&gt; [link]       32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o0ihdf/tcllang_showcase_probably_was_the_first_general/</guid>
-      <pubDate>Tue, 07 Oct 2025 15:47:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
