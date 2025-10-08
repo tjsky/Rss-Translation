@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Chatgpt，人工智能和自动化</title>
+    <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇观着迷，被Chatgpt的力量迷住，或者对人工智能和自动化的无尽可能性所吸引？别再看！我们充满活力的Reddit社区是像您这样的爱好者的完美枢纽。作为我们社区的成员，您将获得大量资源，包括：🔬关于自动化，Chatgpt和AI的发人深省的讨论。 🌟对最新进步和行业新闻的独家见解</description>
-    <lastBuildDate>Tue, 07 Oct 2025 21:12:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 01:06:44 GMT</lastBuildDate>
     <item>
-      <title>我构建了一个应用程序，可以为您回复电子邮件</title>
+      <title>[q]将卷轴和tiktoks变成知识 - 为我保存的内容构建AI图书馆员</title>
+      <link>https://www.reddit.com/r/automation/comments/1o0wu4d/q_turning_reels_tiktoks_into_knowledge_building/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿，大家嘿 我正在探索一种方法，将无尽的短形式视频流（卷轴，短裤，tiktoks）变成有意义的和结构化的东西 - 使用自动化和ai。工作流程或教程），系统自动：  下载或提取音频 将其转录为文本 使用 ai agent 来总结并说明了    afts li&gt; saft      一切都作为降级，准备生活在我的黑曜石库中   最终目标：一个个人的“ AI知识图书馆员”，它组织了我保存的每个视频 - 对，分类，汇总和可以立即搜索。对于这种用例吗？ 您是否认为视频对知识概念尺度，还是宁愿将其保留为人类？  很想看到其他人如何自动化其学习管道pipelines ：）提交由＆＃32; /u/xramos     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1o0wu4d/q_turning_reels_tiktoks_into_knowledge_building/</guid>
+      <pubDate>Wed, 08 Oct 2025 01:00:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过使用 n8n 构建的 AI 实现业务自动化</title>
+      <link>https://www.reddit.com/r/automation/comments/1o0uy4y/automate_your_business_with_ai_built_using_n8n/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我专注于使用N8N构建AI自动化工作流程 - 从语音机器人到现实世界的业务自动化。如果您有兴趣合作或希望我为您建立一个，请与我聊天  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/aphandered-cow2824     [link]   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1o0uy4y/automate_your_business_with_ai_built_using_n8n/</guid>
+      <pubDate>Tue, 07 Oct 2025 23:35:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>努力将Chatgpt与Tidio联系起来</title>
+      <link>https://www.reddit.com/r/automation/comments/1o0tv2s/struggling_to_connect_chatgpt_with_tidio/</link>
+      <description><![CDATA[      我正在尝试使用 ChatGPT 为我的在线商店训练 Tidio 聊天机器人，但遇到了一些问题。 问题是 Tidio 使用 Lyro，并且不允许 ChatGPT 等第三方平台训练聊天机器人或直接响应客户。 我尝试使用 Zapier 作为解决方法。我将 OpenAI 的 API 连接到 Zapier 并设置了所有步骤。一切都显示为正确连接，但当我发送消息时，我没有收到来自 GPT 的响应。 我什至在 Zapier 中创建了一个工作流程，其中我从 Tidio 收到的每封电子邮件都会发送到 GPT，但仍然没有响应。 经过一番研究，Tidio 似乎阻止了 GPT 直接控制，这可能就是这不起作用的原因。 有人找到了解决此问题或解决此问题的方法吗？ Tidio 的限制？如有任何建议，我们将不胜感激！   由   提交/u/Rayaria22  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1o0tv2s/struggling_to_connect_chatgpt_with_tidio/</guid>
+      <pubDate>Tue, 07 Oct 2025 22:48:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>WhatsApp自动化民意调查</title>
+      <link>https://www.reddit.com/r/automation/comments/1o0t661/whatsapp_automating_polls/</link>
+      <description><![CDATA[我刚刚创建了一个 pyautogui 脚本（第一次，所以非常缺乏经验......但它有效 ^^）在群聊中发送关于 Whatsapp 的每周民意调查。 必须这样做，因为 Whatsapp 中的民意调查没有简单的自动化功能，只有简单的短信。 所以，我现在找到了 Whatsapp 流， 您基本上可以做同样的事情，但在我的设置过程中，我陷入了“Meta for Developers”上的应用程序创建过程。显然，我首先需要验证我的业务 - 但我没有业务...是否可以在没有业务的情况下使用 Whatsapp api 并基本上使用 Whatsapp 流程？ （要将 Whatsapp 添加为应用程序中的产品，我认为，我需要首先“验证”我的业务，但我没有） thx :)   由   提交/u/Feds_the_Freds   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1o0t661/whatsapp_automating_polls/</guid>
+      <pubDate>Tue, 07 Oct 2025 22:19:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何使用AI充当好莱坞风格的执行助理？</title>
+      <link>https://www.reddit.com/r/automation/comments/1o0t4lr/how_can_i_use_ai_to_act_as_a_hollywoodstyle/</link>
+      <description><![CDATA[我在电影行业工作，我想看看人工智能工具在处理好莱坞行政助理通常会做的各种任务方面能走多远，比如管理提醒、会议和后续行动。 人工智能（如 ChatGPT、Claude 或 Gemini）真的可以读取我的 Google 日历并自动提醒我即将举行的会议或活动吗？ 截止日期？理想情况下，我希望像助手一样使用它，跟踪日程安排，显示重要任务，甚至可能总结或起草快速回复。哪个聊天机器人最好？ 有人尝试过设置这样的东西吗？使人工智能充当娱乐行业个人行政助理的工具、扩展或工作流程的最佳组合是什么？   由   提交 /u/Abarsanti   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1o0t4lr/how_can_i_use_ai_to_act_as_a_hollywoodstyle/</guid>
+      <pubDate>Tue, 07 Oct 2025 22:17:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>为Adspower RPA自动化生成有效JSON的最佳工具是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1o0shfr/whats_the_best_tool_to_generate_valid_json_for/</link>
+      <description><![CDATA[我正在尝试为 AdsPower RPA 工具构建 JSON 脚本，但 ChatGPT 经常创建无效的结构或发明官方文档中实际不存在的命令。 是否有任何工具、AI 助手或工作流程构建器可以读取 AdsPower 的文档并帮助我自动为其 RPA 系统生成正确的 JSON？ 基本上，我正在寻找真正理解其语法和参数的东西 - 而不仅仅是基于一般 JSON 逻辑进行猜测。 任何建议或示例将不胜感激！   由   提交/u/Appressive-King682   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1o0shfr/whats_the_best_tool_to_generate_valid_json_for/</guid>
+      <pubDate>Tue, 07 Oct 2025 21:52:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Riya -24/7 AI呼叫者现在可以添加到您的网站上</title>
+      <link>https://www.reddit.com/r/automation/comments/1o0rr1v/riya_247_ai_caller_can_now_be_added_to_your/</link>
+      <description><![CDATA[ 由   提交/u/Ok-Rest-8029   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1o0rr1v/riya_247_ai_caller_can_now_be_added_to_your/</guid>
+      <pubDate>Tue, 07 Oct 2025 21:24:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个可以为您回复电子邮件的应用程序</title>
       <link>https://www.reddit.com/r/automation/comments/1o0qutp/i_built_an_app_which_replies_to_emails_for_you/</link>
-      <description><![CDATA[   嗨！听到人们如何不断地与他们需要回复的大量电子邮件作斗争，我开始着手解决这个问题。因此，我构建了 Mailio，一个可以回复电子邮件的应用程序（链接 2 代码：https://docs.google.com/document/d/e/2PACX-1vQ4FODOS_n5qR9H9MS_H-bhCeG1glTEazxbm24c_1v8AwncHoDiVm90wW9bA3DZSAQr2PgqZk_Vc4Fx/pub）。抱歉，如果不好的话，我会尽力修复。如果您有任何建议，请说出来。泰和GB！    由   提交/u/Next_Signal132   [链接] [评论] ]]></description>
+      <description><![CDATA[       &lt;！ -  sc_off-&gt;   hi！听到人们如何不断地挣扎，因为他们有2个答复的电子邮件，我着手解决这个问题。因此，我构建了Mailio，一个应用程序，可以回复您的电子邮件（链接2代码： https://docs.google.com/document/d/e/2pacx-1vq4fodos_n5qr9h9ms_h-bhceg1g1glteazxbm24c_1v8awnchodivm90wawnawnchodivm90www9ba3dzsaqr2pgr2pgqqzkqzkqzk_vc _vc _vc _vc4fx/pub   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/next_signal132      [注释]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1o0qutp/i_built_an_app_which_replies_to_emails_for_you/</guid>
       <pubDate>Tue, 07 Oct 2025 20:50:39 GMT</pubDate>
     </item>
     <item>
-      <title>当你想到一个创业想法时，你做的第一件事是什么？</title>
+      <title>当创业创意打击您时，您要做的第一件事是什么？</title>
       <link>https://www.reddit.com/r/automation/comments/1o0pcvn/whats_the_first_thing_you_do_when_a_startup_idea/</link>
-      <description><![CDATA[ 由   提交/u/Ok-Onion5251   [链接] [评论]]]></description>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ok-onion5251      [link]   [注释]    ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1o0pcvn/whats_the_first_thing_you_do_when_a_startup_idea/</guid>
       <pubDate>Tue, 07 Oct 2025 19:55:18 GMT</pubDate>
     </item>
     <item>
-      <title>Quirk-用Make和Google表自动自动化家庭装修跟踪</title>
-      <link>https://www.reddit.com/r/automation/comments/1o0olvy/quirk_automates_home_renovation_tracking_with/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我最近为一个朋友解决一个棘手的家庭装修项目建立了一个聪明的自动化，该项目被埋葬在迷宫和收据中。管理承包商的时间表，跟踪材料成本，记录进度照片以及确保多个房间的预算合规性是一个后勤难题，威胁到他们梦dream以求的家。 So I created Quirk, an automation that feels like a trusty toolbox, transforming this complex and finicky process into a creative, organized workflow that keeps the renovation on track with a playful, human touch. Quirk uses Make, which navigates the chaos of home projects like a pro, and Google Sheets to centralize renovation tracking in a dynamic, accessible hub.尽管细节很棘手，但它与周末DIY会议一样平易近人。这就是怪癖的钉子：  收集承包商的更新和从标记的Gmail线程和共享的Google Drive文件夹中收集的收据。 在Google Shees预算跟踪器中记录费用，按照房间进行预算成本，并用房间进行分类，并用有条件的逻辑进行了限制。  可用的可用性。档案在Google表格中使用时间戳和房间标签，以提供视觉翻新时间表。 通过WhatsApp通过预算更新，任务提醒和有趣的diy小费或MEME或MEME的乐趣。随着翻新项目的复杂性。它解决了预算，时间表和文档的棘手相互作用，将混乱的过程变成了一个易于管理的，以人为以人为本的旅程，可以使锤子摆动和视觉保持活力。 快乐自动化！    &lt;！ -  sc_on--&gt; 32;提交由＆＃32; /u/due-way-7959      [link]       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1o0olvy/quirk_automates_home_renovation_tracking_with/</guid>
-      <pubDate>Tue, 07 Oct 2025 19:27:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能摘要工具，一位不知所措的营销人员——我的收获</title>
-      <link>https://www.reddit.com/r/automation/comments/1o0o2oj/ai_summarizer_tools_one_overwhelmed_marketer_my/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  在报告和案例研究之间，我淹没了一个新项目的材料。我给了五个不同的摘要工具，以查看哪些实际上有帮助，这就是我发现的。我把一些非常漫长的研究文档投入了，它带着干净，简单的摘要回来了，这实际上很有意义。感觉并没有愚蠢 - 只是要点，清晰易于遵循。内置的AI聊天还开始了一些想法，然后您可以继续询问您想要的任何想法。您将获得一个免费的摘要和三个免费的聊天问题，然后再付款……但是价格似乎很公平，所以我继续订阅。  ai文本摘要 我一直在使用它来短，信息较短的东西，而且它比我预期的……超级快，摘要是有道理的。您可以在文本中粘贴或添加文件，并且有一个内置的聊天以进行后续问题。 由于它是免费的，因此它是实验和查看免费工具可以带您到付费计划之前可以带您多远的可靠选择。差距很明显，但很合理。 问AI问题 当我经历一堆营销研究时，每当我偶然发现的东西时，我都会使用此工具。我问了诸如指标真正衡量的事情或策略在实践中的工作方式，在几秒钟之内为我提供了明确的答案。  我没有在更长的时间或深度潜水中使用它，但是要快速解释，它是一个保持开放的有用工具。  pdfsimpli  该设计感觉很过时，就像在2010年外，它不是最好的界面 - 但它是最好的界面 - 它可以做到工作。令我惊讶的是，它不仅仅是PDF，还可以使用。我尝试上传一个Word Doc，甚至是PowerPoint，并且都可以很好地处理。当我用波兰语运行100页的研究论文时，它确实放慢了脚步，尽管我不能说是否总是这样。一旦进入编辑器，我还发现了一堆额外的工具，如果您想做的不仅仅是总结一下，这些工具可能会派上用场。收获是您需要一个付费计划。  notegpt  我陷入了比我想象的要长的时间 - 有很多事情可以玩。它不只是总结；它可以制作可编辑的思维地图，挑选关键点，并且也可以翻译。每当我要问什么时，提示库都是一个不错的奖励。 您确实需要注册以解锁所有内容，但是对于它提供的内容，我根本不介意。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/juggernaut_6692     [link]        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1o0o2oj/ai_summarizer_tools_one_overwhelmed_marketer_my/</guid>
-      <pubDate>Tue, 07 Oct 2025 19:07:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chatgpt告诉我继续前进。 🗿🙂</title>
+      <title>ChatGPT 告诉我继续前进。 🗿🙂</title>
       <link>https://www.reddit.com/r/automation/comments/1o0o2bh/chatgpt_told_me_to_move_on/</link>
       <description><![CDATA[       ＆＃32;提交由＆＃32; /u/u/uthite-hard-taco      [注释]            ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1o0o2bh/chatgpt_told_me_to_move_on/</guid>
       <pubDate>Tue, 07 Oct 2025 19:07:17 GMT</pubDate>
     </item>
     <item>
-      <title>最好的学习资源？</title>
-      <link>https://www.reddit.com/r/automation/comments/1o0nlrq/best_learning_resources/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  希望自学N8N和AI代理。没有什么只是一些基础知识，所以我可以更好地理解AI和将来的证明一些技能 我正在寻找围绕一般AI原理，特别是代理AI和自动化的学习资源，我认为我对托管的托管以及这些系统的生活和运行方式都感到困惑。  特别是当您提供。向企业出发，您会云主机并支付使用费用，并向公司收取持续的“维护”。这涵盖了您的云成本。还是有些人在场所解决方案上？真的只想了解更多！  预先感谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/swagvonyolo     ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1o0nlrq/best_learning_resources/</guid>
-      <pubDate>Tue, 07 Oct 2025 18:50:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>老实说：您实际上是在业务中使用人工智能还是只是在玩 ChatGPT？</title>
+      <title>老实说：您实际上是在业务中使用AI还是只是与Chatgpt一起玩？</title>
       <link>https://www.reddit.com/r/automation/comments/1o0nakg/be_honest_are_you_actually_using_ai_in_your/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  让员工使用副本进行电子邮件与实际自动化节省真实时间的工作流程之间存在巨大差距。您是自动化（或想要）实际移动针的一个过程？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/automation/comments/1o0nakg/be_honest_are_are_you_actallal_usival_usis_ai_in_your/”&gt; [link]        [注释]  ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1o0nakg/be_honest_are_you_actually_using_ai_in_your/</guid>
       <pubDate>Tue, 07 Oct 2025 18:40:02 GMT</pubDate>
     </item>
     <item>
-      <title>你的迭代策略是什么？</title>
-      <link>https://www.reddit.com/r/automation/comments/1o0n79s/what_is_your_iteration_strategy/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  实现自动化算法时，如何对自动化系统进行评估和迭代？   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/ub news_breadfruit_566      [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1o0n79s/what_is_your_iteration_strategy/</guid>
-      <pubDate>Tue, 07 Oct 2025 18:36:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立了AI接待员。只有语音代理使用AI，其他所有内容都在逻辑上运行。</title>
-      <link>https://www.reddit.com/r/automation/comments/1o0mecf/built_an_ai_receptionist_only_the_voice_agent/</link>
-      <description><![CDATA[       &lt;！ -  sc_off-&gt;  嘿，我最近完全在N8N中建立了一个餐厅预订系统，与大多数“ AI-drived”解决方案不同，与大多数“ AI-DRIEN”解决方案不同，这几乎完全是基于逻辑的工作流程，除了AI Voice Admitions，PP 这就是使其独特的👇  ⚙️逻辑＆gt; AI（对于核心系统）所有预订逻辑，检查表的可用性，管理重叠的预订，分配表和存储数据都可以在 n8n 内部使用纯工作流进行全面处理。没有LLM，没有API成本，没有延迟。   AI仅适用于语音代理  -  AI部分仅限于对客户说话的语音接待员。 Once it collects booking details, everything after that (validation, slot management, updates) runs on logic. 🗓️ Google Sheets as the Database - All booking details are stored in Google Sheets. 🌐 The Frontend is Linked with Google API - The frontend uses Google’s API to instantly reflect any updates made in Sheets, so staff can see live   处理大多数系统错过的边缘案例 -  工作流程涵盖了常见的监督，例如重叠的插槽，无效的输入，同时的请求和经过全额预订的小时 - 全部由N8n logic。 href =“ https://preview.redd.it/v9hyxpuscqtf1.png?width=1919＆amp; amp; format = png&amp;； amp; amp; amp; amp; amp; amp; amp; amp; amp; am https://preview.redd.it/v9hyxpuscqtf1.png?width=1919＆amp; amp; format = png＆amp;Auto = webppumpp; s = f6324d5a186354f6354f6111117d3d222228a94c1db364c1db36aee  This setup turned out to be faster, cheaper, and easier to maintain than fully AI-based systems. It really shows how far you can go with n8n and a bit of structured logic, AI is only needed where it actually adds value (like the voice layer). This system can be easily adapted for other businesses like clinics, salons, repair services, or any appointment-based setup, and I can fully customize it to your specific需求。 我正在共享它，因为这种设置确实是实用的，负担得起的，并且可以为想要自动化而无需不必要的AI成本的真实企业实施。 如果您有兴趣或想看到演示，可以随意伸出来，可以随意伸出来提交由＆＃32; /u/u/prestigious_fix_8319       [link]   [注释]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1o0mecf/built_an_ai_receptionist_only_the_voice_agent/</guid>
-      <pubDate>Tue, 07 Oct 2025 18:08:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么不是一个国家，他们在什么方面讲英语？</title>
-      <link>https://www.reddit.com/r/automation/comments/1o0l2uq/what_aint_a_country_they_speak_engrlish_in_what/</link>
-      <description><![CDATA[     src =“ https://preview.redd.it/olrqfpla4qtf1.jpeg？乡村，他们在什么方面讲英语？” /&gt;   ＆＃32;提交由＆＃32; /u/u/theodbball      [注释]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1o0l2uq/what_aint_a_country_they_speak_engrlish_in_what/</guid>
-      <pubDate>Tue, 07 Oct 2025 17:21:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建 AI 通话助手，可接听未接来电并处理任务</title>
-      <link>https://www.reddit.com/r/automation/comments/1o0kc4m/built_an_ai_call_assistant_that_answers_missed/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/whitewolf855    href =“ https://www.reddit.com/r/ai_agents/comments/comments/1o0kaw0/built_an_ai_ai_ai_asistant_that_that_answers_missed/”&gt; [link]   [注释]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1o0kc4m/built_an_ai_call_assistant_that_answers_missed/</guid>
-      <pubDate>Tue, 07 Oct 2025 16:55:29 GMT</pubDate>
-    </item>
-    <item>
       <title>我免费帮你设计一个AI Agent</title>
       <link>https://www.reddit.com/r/automation/comments/1o0i6iz/ill_help_you_design_an_ai_agent_for_free/</link>
-      <description><![CDATA[嗨！我是一名软件工程师，拥有 10 年的 ML/AI 工作经验。自从 ChatGPT 出现以来，我一直在为一家资金雄厚的人工智能初创公司和我自己编写 AI 代理。 我相信 Claude Code 是目前世界上最好的 AI 代理。我目前正在使用 Claude Agent SDK 为其他人构建 AI 代理。这些代理与WhatsApp、短信、电子邮件、Slack、知识库、CRM、电子表格、数据库、API、Zapier等连接。 如果您正在考虑构建人工智能 代理或正在构建一个，我很乐意提供帮助！我们将讨论如何端到端设计它并回答问题。我真的很喜欢谈论人工智能代理！   由   提交/u/mod assembly   [链接] [评论]]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  嗨！我是一名软件工程师，拥有10年的经验，与ML/AI合作。自Chatgpt出来以来，我一直在编码AI代理商，既是一个资金充足的AI创业公司，也是我自己的。 我相信Claude Code是目前世界上最好的AI代理商。我目前使用 Claude Agent SDK 为其他人建立AI代理。这些代理商与 WhatsApp ， sms ，电子邮件，懈怠，知识基础，， crms ， vendrysheets ， database  ， apis  apis 代理商或被困在建筑物中，我很想帮忙！我们将介绍如何端对端设计并回答问题。我真的很喜欢谈论AI代理！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/automation/comments/1O0I6IZ/ill_help_help_you_design_an_ai_ai_agent_for_free/”&gt; [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1o0i6iz/ill_help_you_design_an_ai_agent_for_free/</guid>
       <pubDate>Tue, 07 Oct 2025 15:36:30 GMT</pubDate>
     </item>
@@ -97,14 +97,14 @@
       <pubDate>Tue, 07 Oct 2025 14:38:50 GMT</pubDate>
     </item>
     <item>
-      <title>[更新] 新的输出格式：目录、层次结构和 Markdown 以及扫描 PDF 和图像的边界</title>
+      <title>[更新]新的输出格式：目录，层次结构和降标，扫描PDF和图像的边界</title>
       <link>https://www.reddit.com/r/automation/comments/1o0c3xr/update_new_output_formats_table_of_contents/</link>
       <description><![CDATA[       &lt;！ -  sc_off-&gt;  嗨，我以前共享了有关将扫描文档转换为各种格式的软件的帖子。有很多积极的反馈。我正在共享一些有关对更高级输出格式的支持的更新 -    目录的目录自动生成文档结构，并带有标题/截面，用于即时导航。非常适合长期PDF，研究论文和技术文档。非常适合复杂报告，法律文档和技术手册很重要。  层次结构输出将文档转换为树结构的嵌套数据。非常适合复杂的报告，法律文档和技术手册，其中分区关系很重要。 href =“ https://www.reddit.com/r/automation/comments/1nqxiax/software_for_for_converting_scanned_pdf_images_and/”&gt; https://www.reddit.com/r/automation/comments/1nqxiax/software_for_for_for_converting_scanned_pdf_images_and/    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/lostambassador6872       [注释]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1o0c3xr/update_new_output_formats_table_of_contents/</guid>
       <pubDate>Tue, 07 Oct 2025 11:28:24 GMT</pubDate>
     </item>
     <item>
-      <title>在AI出现之前，什么是一种自动化是什么？</title>
+      <title>在人工智能出现之前，有哪一种自动化是根本不可能实现的？</title>
       <link>https://www.reddit.com/r/automation/comments/1o09cok/whats_one_automation_that_simply_wasnt_possible/</link>
       <description><![CDATA[我不是在谈论基本的“如果-这个-那么-那个”自动化 - 我指的是那些真正思考、适应并进行创造性或基于判断的工作的东西。 好奇其他人构建或看到的哪些让你大吃一惊的 - 你认为只有人工智能才能实现的自动化是什么？   由   提交 /u/craniacfroaking   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1o09cok/whats_one_automation_that_simply_wasnt_possible/</guid>
