@@ -4,23 +4,51 @@
     <title>最新提交：WebDev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>一个致力于所有网络开发事物的社区：前端和后端。有关更多与设计有关的问题，请尝试 /r /web_design。</description>
-    <lastBuildDate>Wed, 08 Oct 2025 06:30:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 09:18:59 GMT</lastBuildDate>
     <item>
-      <title>如何合法地废除数据？</title>
+      <title>构建了一个基于浏览器的视频编辑器，具有90％AI生成的代码（next.js + ffmpeg.wasm + ellyotion）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o15dnc/built_a_browserbased_video_editor_with_90/</link>
+      <description><![CDATA[   &lt;A href =“ https://www.reddit.com/r/webdev/comments/1o15dnc/built_a_a_a_browserbased_video_editor_editor_editor_editor_with_with_90/” + Remotion)&quot; src=&quot;https://preview.redd.it/b28427errutf1.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=e238ce138475f78b4c14a467de47f4ea361834b9&quot; title=&quot;Built a基于浏览器的视频编辑器，具有90％AI生成的代码（next.js + ffmpeg.wasm + ellyotion）”/&gt;     &lt;！&lt;！ -  sc_off- sc_off-&gt;  嘿href =“ https://www.reddit.com/r/webdev”&gt; r/webdev ， 我让Claude代码进行大部分编码，并最终获得了功能齐全的基于浏览器的视频编辑器。是的，它主要是AI生成的。是的，它实际上是有效的。 从WebDev的角度来看，这使它有趣的是：  ffmpeg.wasm实际上在浏览器中工作的事实仍然使我震惊。我们正在谈论真正的视频编码（MP4/WebM/gif最高1080p），完全通过WebAssembly运行了客户端。没有服务器上传，没有API调用 - 只有纯浏览器魔术。 关键功能：   - 带有拖动/resize/split    的多轨安排 - 使用remotion player      -  prestions，captions，srt/vtt），媒体媒体覆盖范围      (FFmpeg.wasm) - Everything stored locally in IndexedDB - Privacy-first: your media never leaves your device Tech Stack: - Next.js 14 (App Router) + React 18 + TypeScript - Remotion for real-time video preview - FFmpeg.wasm对于客户端的视频编码   - 用于状态管理的REDUX工具包   -  indexeddb（通过IDB）用于本地存储   -  tailwind css + tailwind css + radix ui   ai ai部分： claude代码的状态管理大多数。我主要只是调试并指向正确的方向。   redux商店体系结构，索引eddb集成和远程组合物在很大程度上是生成的。  github： https://github.com/mageh21/mageh21/video-editor-code-code      会喜欢来自WebDev社区的反馈 - 特别是在FFMPEG  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/prafbora90      [注释]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o15dnc/built_a_browserbased_video_editor_with_90/</guid>
+      <pubDate>Wed, 08 Oct 2025 09:01:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSS有42个单元</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o14wk5/css_has_42_units/</link>
+      <description><![CDATA[ 由   提交 /u/harromeister   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o14wk5/css_has_42_units/</guid>
+      <pubDate>Wed, 08 Oct 2025 08:29:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>gogen - 用于引导全栈 Go 应用程序的 CLI</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o1476y/gogen_a_cli_for_bootstrapping_fullstack_go_apps/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  如果您是一个全面的网络工程，负责创建一个新的GO MonorePo，那么您可能知道如何为后端和Frontend复制命令。 。初始化 前端库集成（react，solidjs，angular，svelte，vue）  go路由器选择（chi，stdlib，gorilla，httprouter） 支持  typescript或javaScript选择前端    路线图    数据库选择 记录 href =“ https://github.com/luigimorel/gogen.git”&gt; https://github.com/luigimorel/gogen/gogen    向反馈    &lt;！提交由＆＃32; /u/morel_     [link]   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o1476y/gogen_a_cli_for_bootstrapping_fullstack_go_apps/</guid>
+      <pubDate>Wed, 08 Oct 2025 07:43:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub个人资料展示iframe Generator</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o13xwl/github_profile_showcase_iframe_generator/</link>
+      <description><![CDATA[大家好！ 最近我想集成某种“github 个人资料卡”在我的作品集网站上，但我还没有找到任何适合我需求的东西。 所以我很快创建了一个新的（开源）工具来做到这一点！ 它生成了一个可以在任何网页上工作的可粘贴 iframe 代码，我尝试使其尽可能可配置，同时保持简单。 它显示了您的基本用户信息、固定存储库以及简单的活动 图表。 如果这有意义，请随时向我提供任何反馈以改进这一点。 页面：https://ehrencreative.de/github-profile-showcase/ Github： https://github.com/aalolexx/github-profille-showcas e-iframe   由   提交/u/alexeh99  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o13xwl/github_profile_showcase_iframe_generator/</guid>
+      <pubDate>Wed, 08 Oct 2025 07:25:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何合法地废弃数据？</title>
       <link>https://www.reddit.com/r/webdev/comments/1o12i4m/how_to_scrap_datas_legally/</link>
       <description><![CDATA[亲爱的网络构建者，您好，我正在开发一个事件侦听器网站，该网站应列出任何城市即将举行的围兜比赛。我曾使用来自某个来源的免费 API 进行试用，现在它即将结束。在寻找其他替代方案时，许多 API 提供商的成本比我从该网站获得的收入要高得多。  有没有办法在 W3 中获取原始数据或您知道合法的抓取技术？ 寻求您的真实建议   由   提交/u/ExpertKnowledge2937   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o12i4m/how_to_scrap_datas_legally/</guid>
       <pubDate>Wed, 08 Oct 2025 05:56:34 GMT</pubDate>
     </item>
     <item>
-      <title>将PDF链接到GitHub网站</title>
+      <title>将 PDF 链接到 GitHub 网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1o12ajx/link_pdfs_to_github_website/</link>
       <description><![CDATA[             &lt;！它让用户拼贴书。问题目前我必须在“书籍/quot”中上传书籍。耗时且回购大小的文件夹正在迅速增加。如何以及在哪里可以上传PDF并将其链接到源代码？用直接下载链接替换文件的位置也无法正常工作，既不是Archive.org URL或GDRIVE。我尝试了我建议的一切。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/belikedead       [注释]             ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o12ajx/link_pdfs_to_github_website/</guid>
       <pubDate>Wed, 08 Oct 2025 05:43:22 GMT</pubDate>
     </item>
     <item>
-      <title>销售网站的流程是什么样的？</title>
+      <title>销售网站的过程是什么样的？</title>
       <link>https://www.reddit.com/r/webdev/comments/1o11ehc/what_does_the_process_of_selling_a_website_look/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;  专门从事自由网络开发的人。  如果您通过WordPress或类似方法进行操作，您该如何对？  如果您使用Web框架从头开始构建它，您是否在家庭服务器或AWS之类的东西上托管？  我不是要满足特定需求。只是对自由网络开发的来龙去脉感到好奇。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o11ehc/what_does_the_process_process_of_selling_a_website_alook/&gt; [link]    [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o11ehc/what_does_the_process_of_selling_a_website_look/</guid>
@@ -41,9 +69,9 @@
       <pubDate>Wed, 08 Oct 2025 03:10:42 GMT</pubDate>
     </item>
     <item>
-      <title>Web 应用程序什么时候开始感觉像本机应用程序</title>
+      <title>网络应用程序何时开始感觉像本地应用</title>
       <link>https://www.reddit.com/r/webdev/comments/1o0zbid/when_did_web_apps_start_feeling_like_native_apps/</link>
-      <description><![CDATA[还记得网络应用程序与桌面软件相比何时感觉笨重吗？现在，一些网络应用程序感觉比本机应用程序更流畅。交互流畅，过渡流畅，整个体验感觉很优雅。发生了什么变化？更好的浏览器、更快的 JavaScript、改进的 CSS 功能？或者开发人员只是在 Web ui 模式方面变得更好了？ 一直在 mobbin 上比较应用程序的 Web 版本和本机版本，有时 Web 版本实际上感觉响应更快。这是未来还是仍然存在原生应用程序始终能够更好地处理的基本限制？   由   提交/u/OrganicAd1884   [链接] [评论]]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  还记得与桌面软件相比，网络应用程序何时感到笨拙吗？现在，有些网络应用程序比本地应用程序更光滑。相互作用是流体的，过渡是平稳的，整个体验都感到抛光。发生了什么变化？更好的浏览器，更快的JavaScript，提高了CSS功能？还是开发人员只是在Web UI模式上变得更好？ 一直在比较Mobbin上的Web和本机版本，有时Web版本实际上感觉更快。这是未来还是仍然存在基本的限制，本机应用程序总是可以更好地处理？  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o0zbid/when_did_web_apps_start_feeling_feeling_like_like_native_apps/”&gt; [link]   [注释]   ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o0zbid/when_did_web_apps_start_feeling_like_native_apps/</guid>
       <pubDate>Wed, 08 Oct 2025 03:00:33 GMT</pubDate>
     </item>
@@ -57,7 +85,7 @@
     <item>
       <title>较大字体的字体对齐问题</title>
       <link>https://www.reddit.com/r/webdev/comments/1o0wn1u/font_alignment_issue_for_larger_fonts/</link>
-      <description><![CDATA[我在页面中的文本水平对齐方面遇到问题。我在英雄组件中使用两种不同的字体大小，一种用于标题，一种用于描述。标题比描述大得荒谬。它们都来自同一个字体系列。由于标题太大，与较小的描述文本相比，字体的放置看起来有点偏离，特别是对于一些字母，如 - B、F。我读到某些字体可能会出现这种情况，因为它们并不总是完全填充每一面。 有什么方法可以克服这个问题吗？我不认为添加负边距或填充会有帮助，因为文本可能是动态的，在这种情况下，它可能会有完全粘在一边的字母，而负边距可能会进一步使其错位。 我在沙箱中重新创建了类似的东西。如果有人以前遇到过这个问题并找到了解决方案，请告诉我。 https://codesandbox.io/p/sandbox/33rj8s?file=%2Findex.html%3A15%2C23 （注意字母 B 在这里）   由   提交/u/aamirmalik00   [链接] [评论]]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我在页面中文本的水平对齐有问题。我在英雄组件中使用了两个不同的字体尺寸，一个用于标题，一个用于描述。标题比描述大。他们俩都来自同一字体家庭。由于标题是如此之大，因此与较小的描述文本相比，字体的放置看起来有点偏离，尤其是对于某些字母，例如-b，f。我读到某些字体可能是这种情况，因为它们并不总是完全填充每个方面。 有什么方法可以克服这个问题？我认为添加负距离或填充物不会有帮助，因为文本可能是动态的，并且在这种情况下，它可能会完全粘在侧面，而负边距可能会进一步错误地对齐。 我在沙盒中重新创建了类似的东西。让我知道你们是否以前遇到过这个问题并找到了解决方案。   https://codesbox.io/p/sandbox/sandbox/sandbox/33rj8s tlele and s）  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o0wn1u/font_alignment_issue_issue_for_for_larger_fonts/”&gt; [link]       [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o0wn1u/font_alignment_issue_for_larger_fonts/</guid>
       <pubDate>Wed, 08 Oct 2025 00:52:03 GMT</pubDate>
     </item>
@@ -76,39 +104,11 @@
       <pubDate>Tue, 07 Oct 2025 21:27:12 GMT</pubDate>
     </item>
     <item>
-      <title>需要帮助寻找自由职业客户</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0qyhc/need_help_finding_freelance_clients/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我是一个完整的堆栈开发人员，我在一家初创公司中首先做WordPress，但感觉不像我的东西，所以我转向nextjs。很难找到客户。我有技能和一切，但我不知道该去哪里。  我现在唯一拥有的人是我正在为所有事情做所有事情的人，就像我在VPS上部署了3个React站点和PostgreSQL数据库，设置安全性并提供维护，支持。每当他需要一个新功能时，我都会添加并为此充电，但几乎没有任何东西。像160美元的3个站点的每月维护费用，然后对于我添加的功能可能不是基本内容的50美元左右。因此，它会吞噬我的时间，无法完成我的个人项目。 我知道我在迈尔斯（Miles）收费不足，这就是为什么我正在寻找更好的客户。有人可以在这方面帮助我吗？ 我现在无法做好工作，因为我现在正在做单身汉，所以想在我的时机上保持灵活性，因此想留住自由职业   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;态href =“ https://www.reddit.com/r/webdev/comments/1o0qyhc/need_help_help_finding_freelance_freelance_clients/”&gt; [link]      &lt;a href =“ https://www.reddit.com/r/webdev/comments/1o0qyhc/need_help_finding_finding_freelance_clients/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0qyhc/need_help_finding_freelance_clients/</guid>
-      <pubDate>Tue, 07 Oct 2025 20:54:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>为Apache服务器为整个国家 /地区封锁吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0q9nl/geoblocking_an_entire_country_for_apache_server/</link>
-      <description><![CDATA[我根本不懂技术，但一位亲戚要求我在他的 CPanel 上屏蔽中国，因为他最近注意到过去三个月里有大量来自中国的用户涌入他的网站。很多讨论 apache 服务器这个问题的帖子似乎都有 6 年或更久的历史了，所以我想知道是否有更好或更新的方法来做到这一点，以及通过 .htaccess 文件阻止 IP 是否仍然是一个好的策略？   由   提交 /u/ortvertka   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0q9nl/geoblocking_an_entire_country_for_apache_server/</guid>
-      <pubDate>Tue, 07 Oct 2025 20:28:40 GMT</pubDate>
-    </item>
-    <item>
       <title>哪个尺度？</title>
       <link>https://www.reddit.com/r/webdev/comments/1o0pou5/which_one_scales/</link>
-      <description><![CDATA[因此，我已将范围缩小到几个竞争者来构建我的网络应用程序。到目前为止，有潜力的 3 个是： Bolt.new Emergent.sp Googlestitch 初步结果看起来不错，但我需要花一些时间与他们在一起才能使一切顺利进行。但我想确保我没有在他们任何一个身上浪费时间。所以，我的问题是：哪些可以更好地扩展到 100 万用户？该应用程序非常小众，但我听说人们在我的领域想要的东西很多，所以自从它可用以来，潜力就在那里。我可以从免费套餐开始，随着客户群的增加而支付更多费用，但我需要知道上述平台是否可以满足需求。如果不是，那么将应用程序移动到可以扩展到 1M 的地方有多容易？基本上，简而言之，人们会上传文档（因此每个用户都需要存储和数据库），我也会以不同的时间间隔发送电子邮件。我知道 Bolt 和 Emergent 通过 Stripe 集成内置了数据库和身份验证，但是在使用其中任何一个之前我还需要考虑其他事项吗？ TIA。  没有负面评论。我会以实物回应    由   提交/u/novemberman23  [链接] [评论]]]></description>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  所以，我已经缩小到一些竞争者来鞭打我的Web应用程序。到目前为止，有潜力的3个是：  bolt.new equent.sp google stitch  初步结果看起来不错，但是我需要花一些优质的时光与他们一起使一切正常。但是我想确保我不会浪费时间。那么，我的问题是：哪些会比100万用户更好地扩展？该应用程序非常利基，但我听到的人在我的领域里听到的东西很大，因此潜力在那里可以使用。我可以从自由层开始并随着增加客户群的费用支付更多，但是我需要知道上述任何一个平台都可以满足需求。如果没有，那么将应用程序扩展到1M的某个地方有多容易？  基本上，简而言之，人们将上传文档（因此需要存储和每个用户的数据库），我也会以各个间隔发送电子邮件。我知道Bolt和Emprent具有带有条纹集成的数据库和身份验证，但是在与任何一个一起移动之前，我还需要考虑其他问题吗？ tia。   没有负面评论。我将响应   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32;  /u/novemberman23   [link] ＆＃32;   [注释]  ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o0pou5/which_one_scales/</guid>
       <pubDate>Tue, 07 Oct 2025 20:07:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费网络应用程序托管</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0oxb9/free_webapp_hosting/</link>
-      <description><![CDATA[嗨，我想开始构建自己的应用程序，但我将从网络应用程序开始。我正在考虑使用 github 页面，然后发现只有将存储库公开时才能使用该选项。我想知道它有多安全？我想玩一玩（仍在学习基本编程）并让一些人创建帐户并使用它。所以希望他们的帐户信息安全。交互式网页的很多设计/艺术都将是我自己的。我还没有法律团队或版权作者之类的东西（正如我所说，只是开始思考如何编码），例如，我真的不希望有人从我这里窃取它。我是 github 的新手，甚至是 page 的新手。任何帮助/回应表示赞赏。  哪里是免费获得动态网络应用程序最安全/最好的地方？   由   提交/u/Sehrli_Magic   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0oxb9/free_webapp_hosting/</guid>
-      <pubDate>Tue, 07 Oct 2025 19:39:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>字体问题：上面有一个差距，它使我的网站弄乱了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o0mzd6/font_issue_there_is_a_gap_above_text_and_it_is/</link>
-      <description><![CDATA[    我目前正在使用Adobe字体家庭区域正常区域的网站上工作。这些字体是从Adobe Typekit加载到的。 我在另一个项目上使用了完全相同的字体系列，并且没有一个奇怪的问题，因为由于某种线路高度问题，文本似乎要转移了。在这里，您可以看到我可以看到文本在站点和差异上都没有播放。工作。  先前的项目网站：    新项目  当任何文本都需要良好的垂直对齐（按钮，菜单等）  这一切的后果看起来都很奇怪，没有居中，就像下面的此按钮中一样。任何帮助都非常感谢。 这个问题是我的机器上的交叉浏览器。网站是由WP和自定义块主题构建的。   333.99.999. https://preview.redd.it/emc1hxi0gqtf1.png?width=362&amp; amp; format = png＆amp;Auto = webppumpp; s = aae93f2eae93f2ee5990b540540585858d013E713E713E71E452079C33  发布更新：  左键带有字体区域正常，右键与sans-serif。这意味着问题不是弯曲或线的高度。看看区域字体家族如何在标准sans-serif没有的情况下在顶部拥有这个怪异的空白。很奇怪的是，字体在我的早期项目网站上没有这样的行为。    &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/netzure     [link]  &lt;a href =“ https://www.reddit.com/r/webdev/comments/1o0mzd6/font_issue_there_there_is_is_is_a_gap_above_bap_above_text_and_it_it_is/]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o0mzd6/font_issue_there_is_a_gap_above_text_and_it_is/</guid>
-      <pubDate>Tue, 07 Oct 2025 18:28:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
