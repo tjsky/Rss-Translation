@@ -4,13 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 09 Oct 2025 18:24:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Oct 2025 21:14:56 GMT</lastBuildDate>
     <item>
-      <title>2025 年 9 月（版本 1.105）</title>
-      <link>https://www.reddit.com/r/programming/comments/1o2bhth/september_2025_version_1105/</link>
-      <description><![CDATA[ 由   提交/u/feross  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o2bhth/september_2025_version_1105/</guid>
-      <pubDate>Thu, 09 Oct 2025 17:01:47 GMT</pubDate>
+      <title>在无服务器上构建弹性 AI 代理 |重申</title>
+      <link>https://www.reddit.com/r/programming/comments/1o2hcar/building_resilient_ai_agents_on_serverless_restate/</link>
+      <description><![CDATA[无服务器平台（Lambda、Vercel、Cloudflare Workers）似乎非常适合 AI 代理 — 自动扩展、按使用付费、无需基础设施。直到您的代理需要等待某些事情。 您的代理在采取行动之前需要人工批准。现在怎么办？  保持 Lambda 运行吗？ → 您将达到 15 分钟的暂停时间。还有$$$。 将状态保存到数据库并稍后恢复？ → 恭喜，您现在正在构建一个具有队列、状态管理和协调逻辑的分布式系统。 使用传统的工作流编排器？ → 告别无服务器。现在您正在管理工作线程基础设施。  这些都不是好的答案。 这篇博文介绍了持久执行作为解决方案。想法：在日志中记录代理采取的每一步（LLM 调用、API 请求、工具执行）。当您的函数需要等待或崩溃时，它不会重新开始 - 它会重播日志并从中断处继续。 Restate 将工作推送到无服务器函数，而不是要求工作人员拉取任务。您的代理保持真正的无服务器状态，同时获得：  崩溃时的持久性（永远不会丢失进度） 等待时扩展到零（无空闲成本） 用于调试的实时执行时间表 安全版本控制（正在进行的工作在部署时永远不会中断）  这篇文章包括与 Vercel AI SDK 集成的代码示例，以及 OpenAI 代理。针对实际生产问题的非常优雅的解决方案。 如果您正在构建需要在现实世界中生存的代理，那么值得一读。   由   提交 /u/stsffap   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o2hcar/building_resilient_ai_agents_on_serverless_restate/</guid>
+      <pubDate>Thu, 09 Oct 2025 20:44:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare 刚刚解决了 mcps，我用基准测试了它，它是合法的</title>
+      <link>https://www.reddit.com/r/programming/comments/1o2ge3m/cloudflare_just_solved_mcps_i_tested_it_with/</link>
+      <description><![CDATA[我为 Python 创建了基准测试和代码模式沙箱环境。结果非常令人难以置信。 10 次工具调用迭代变成一次迭代。在某些情况下节省超过 50% 的代币。  原始文章 https://blog.cloudflare.com/code-mode/ 我真的认为这改变了“工具调用和 mcps”的游戏规则 注意，我用 Python 编写了这篇文章作为测试，但这可以用任何语言完成，并且 高度适用于所有llm编程开发   由   提交/u/Crafty_Disk_7026   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o2ge3m/cloudflare_just_solved_mcps_i_tested_it_with/</guid>
+      <pubDate>Thu, 09 Oct 2025 20:08:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>这是我见过的关于人工智能编程主题的最合理的视频之一</title>
+      <link>https://www.reddit.com/r/programming/comments/1o2g3ee/this_is_one_of_the_most_reasonable_videos_ive/</link>
+      <description><![CDATA[ 由   提交/u/mahdi_lky   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o2g3ee/this_is_one_of_the_most_reasonable_videos_ive/</guid>
+      <pubDate>Thu, 09 Oct 2025 19:57:05 GMT</pubDate>
     </item>
     <item>
       <title>使用 mimalloc 和 heapless 削减 Rust 分配以构建最快的代理</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[嘿伙计们， 这是我的时事通讯The Coder Cafe背后的故事。 它并不算真正的促销，更多的是对流程本身、挣扎、有关付费内容的问题等的见解。 如果您正在考虑在线写作（并且也了解如何复杂），您可能会有兴趣阅读它 有时可能会这样）。 很高兴回答问题（如果有的话）:)   由   提交/u/teivah  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o27vyd/the_story_of_the_coder_cafe/</guid>
       <pubDate>Thu, 09 Oct 2025 14:46:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>大规模开源包的动态恶意软件分析</title>
-      <link>https://www.reddit.com/r/programming/comments/1o27v9t/dynamic_malware_analysis_of_open_source_packages/</link>
-      <description><![CDATA[ 由   提交/u/N1ghtCod3r   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o27v9t/dynamic_malware_analysis_of_open_source_packages/</guid>
-      <pubDate>Thu, 09 Oct 2025 14:46:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>服务器慢吗？从客户端角度估计服务器端点处理时间</title>
-      <link>https://www.reddit.com/r/programming/comments/1o27hrb/is_server_slow_estimating_server_endpoint/</link>
-      <description><![CDATA[ 由   提交 /u/tootac   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o27hrb/is_server_slow_estimating_server_endpoint/</guid>
-      <pubDate>Thu, 09 Oct 2025 14:31:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
