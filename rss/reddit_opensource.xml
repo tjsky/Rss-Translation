@@ -4,14 +4,7 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 08 Oct 2025 21:21:04 GMT</lastBuildDate>
-    <item>
-      <title>开源已被污染。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o1newx/open_source_has_been_polluted/</link>
-      <description><![CDATA[那些曾经更新 README 的人现在正在用 AI 生成的 PR 淹没项目，乞求分配任务，并向维护者发送垃圾邮件以获取批准 - 却不懂一行代码。 维护者应该得到更好的。  抱歉，这些人中 99% 来自特定的领域 国家。   由   提交 /u/nafisreza   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o1newx/open_source_has_been_polluted/</guid>
-      <pubDate>Wed, 08 Oct 2025 21:08:13 GMT</pubDate>
-    </item>
+    <lastBuildDate>Thu, 09 Oct 2025 01:10:46 GMT</lastBuildDate>
     <item>
       <title>开源背页替代品</title>
       <link>https://www.reddit.com/r/opensource/comments/1o1kbci/open_source_overleaf_altenative/</link>
@@ -43,7 +36,7 @@
     <item>
       <title>EzAnti反作弊</title>
       <link>https://www.reddit.com/r/opensource/comments/1o1hzw3/ezantianticheat/</link>
-      <description><![CDATA[大家好， 我正在开发 EzAntiAntiCheat（不是通用程序），这是一个开源项目，旨在研究和实验内核级反作弊系统。其目的是提供一个安全的框架，用于研究和管理激进的反作弊软件相互干扰的情况，例如 Riot Vanguard 与其他反作弊平台之间的冲突。 该项目在 GitHub 上完全开源：https://github.com/PalorderSoftWorksOfficial/EzAntiAntiCheat 我正在寻找对以下方面感兴趣的贡献者： • 内核驱动程序开发 • 系统级安全研究 • 软件冲突和主动保护机制的安全实验 • 文档、 测试和工具改进 注释： • 该项目纯粹用于研究和教育目的。 • 它并非旨在绕过或禁用游戏的反作弊系统。 • 使用不当可能导致软件无法使用；请负责任地使用。 非常欢迎贡献、反馈和合作！如果这篇文章违反了社区规则，请联系我，而不是立即禁止我进入 Reddit 子版块，这样我就可以解决问题中的帖子！额外注意：EzAntiAntiCheat 会完全擦除反作弊驱动程序，如果它消失，游戏可能会重新安装或崩溃作为故障保护。请在 reddit 上私信我进行贡献。我们的网站：EzAntiAntiCheat   由   提交/u/Concient-Big9735   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 我正在开发 EzAntiAntiCheat（不是通用程序），这是一个开源项目，旨在研究和实验内核级反作弊系统。其目的是提供一个安全的框架，用于研究和管理激进的反作弊软件相互干扰的情况，例如 Riot Vanguard 与其他反作弊平台之间的冲突。 该项目在 GitHub 上完全开源：https://github.com/PalorderSoftWorksOfficial/EzAntiAntiCheat 我正在寻找对以下方面感兴趣的贡献者： • 内核驱动程序开发 • 系统级安全研究 • 软件冲突和主动保护机制的安全实验 • 文档、 测试和工具改进 注释： • 该项目纯粹用于研究和教育目的。 • 它并非旨在绕过或禁用游戏的反作弊系统。 • 使用不当可能导致软件无法使用；请负责任地使用。 非常欢迎贡献、反馈和合作！如果这篇文章违反了社区规则，请联系我，而不是立即禁止我进入 Reddit 子版块，这样我就可以解决问题中的帖子！额外注意：EzAntiAntiCheat 会完全擦除反作弊驱动程序，如果它消失，游戏可能会重新安装或崩溃作为故障保护。请在reddit上私信我做出贡献。我们的网站：EzAntiAntiCheat   由   提交/u/Concient-Big9735   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o1hzw3/ezantianticheat/</guid>
       <pubDate>Wed, 08 Oct 2025 18:05:06 GMT</pubDate>
     </item>
@@ -67,13 +60,6 @@
       <description><![CDATA[      大家好，我一直在致力于 DailyForever，一个专注于真正的端到端加密和零知识架构的开源项目。 这是一个透明的构建实验 实际上任何人都可以审核的隐私设计软件。 它的不同之处如下： - 所有加密都发生在您的浏览器中。服务器永远看不到明文、密码或密钥。 - AES-GCM（256 位）内容加密，通过 WebCrypto API 在客户端进行处理。 - SRP-6a 身份验证 – 密码永远不会被服务器传输、散列或知晓。 - 具有实验性后量子预密钥的零知识证明（研究级补充）。 - 透明文档：https://dailyforever.com/how-it-works - 源代码：https://github.com/DailyForever/DailyForever 我的目标是创建一个平台，证明开源隐私工具既可以用户友好，又可以在数学上保密——无需信任任何后端。 希望得到开源的反馈 和密码学社区    由   提交/u/Warm-History-9023   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o1b0pf/i_built_an_opensource_zeroknowledge_platform/</guid>
       <pubDate>Wed, 08 Oct 2025 13:49:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了RemoveMD.com——一个谷歌扩展程序，用于在您的文件发布到社交媒体之前清理它们。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o1aylc/i_built_removemdcom_a_google_extension_to_clean/</link>
-      <description><![CDATA[嘿，你还记得我吗？我正在开发一个名为“RemoveMD”的小型副项目，这是一个隐私工具，可让您从文件中删除泄露的私人数据。这个想法不是很原创，但我想创建一些开源、易于使用且现代的东西。在发布网站和本地版本后，我现在很高兴地宣布，RemoveMD Chrome 扩展程序终于可用它允许您直接从浏览器访问该工具，以便您可以在在线共享文件之前清理文件 - 快速、私密且免费。 RemoveMD 是完全开源的，您可以自行托管本地版本（可在 GitHub 上获取） - 没有任何限制，也没有广告。 一如既往，没有广告，帐户完全匿名 - 从哈希创建，不需要电子邮件，您可以创建任意数量的帐户。 您可以在此处找到新的 Chrome 扩展程序：  https://chromewebstore.google.com/detail/icpfcjlmldjmanbnhdpmcpmkdhndgij?utm_source=item-share-cb   由   提交/u/Adventurous_Ad_5150   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o1aylc/i_built_removemdcom_a_google_extension_to_clean/</guid>
-      <pubDate>Wed, 08 Oct 2025 13:47:24 GMT</pubDate>
     </item>
     <item>
       <title>有人使用 Aiven 进行托管开源吗？</title>
@@ -109,6 +95,20 @@
       <description><![CDATA[作为标题。我想在我的平板电脑上安装自由和开源操作系统，因为性能已经开始下滑，我想尝试一下它。对于官方（首选）或非官方支持我的设备的任何建议？    由   提交/u/phoooooo0   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o12psj/is_there_a_os_that_supports_my_galaxy_tab_a_smt510/</guid>
       <pubDate>Wed, 08 Oct 2025 06:09:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Typo：使用 TypeScript 类型的编程语言</title>
+      <link>https://www.reddit.com/r/opensource/comments/1o12op5/typo_a_programming_language_using_typescripts/</link>
+      <description><![CDATA[ 由   提交/u/aliberro  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1o12op5/typo_a_programming_language_using_typescripts/</guid>
+      <pubDate>Wed, 08 Oct 2025 06:07:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找免费开源 Adob​​e Commerce B2B 替代方案</title>
+      <link>https://www.reddit.com/r/opensource/comments/1o129hy/looking_for_free_open_source_adobe_commerce_b2b/</link>
+      <description><![CDATA[大家好 我正在为 B2B 电子商务项目寻找 Adob​​e Commerce 的免费开源替代方案。我需要的主要功能包括：  拥有多个用户的公司帐户 每个客户的自定义定价/目录 报价请求和报价请求价格协商 批量订购和快速订单表单 强大的 API 支持  Adobe Commerce 提供了这些功能，但对于我的需求来说太贵了。我见过 OroCommerce、Bagisto 和 Sale 等选项，或者有任何将它们用于 B2B 的想法或经验吗？ 谢谢   由   提交 /u/jackfill09   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1o129hy/looking_for_free_open_source_adobe_commerce_b2b/</guid>
+      <pubDate>Wed, 08 Oct 2025 05:41:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
