@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 11 Oct 2025 03:27:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 06:22:14 GMT</lastBuildDate>
+    <item>
+      <title>我升级了 HTML 表格生成器，使设计复杂的表格变得更加容易（并且更具创意！）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o3nv17/i_upgraded_my_html_table_generator_to_make/</link>
+      <description><![CDATA[大家好， 几个月前，我在这里分享了我的 HTML 表格生成器。我收到了很多很好的反馈。 我听取了你们的所有反馈，并专注于让设计过程更加流畅和强大。 如果您是新手，它是一个免费工具，它为您提供类似电子表格的画布，以直观方式设计复杂的表格，无需手动编码。 以下是令人兴奋的新更新：  用图像和图像进行设计链接：现在，您可以通过简单的 UI 将图像和超链接直接添加到任何单元格中，从而使表格变得栩栩如生。 立即开始设计：从客户的文档、网站或电子表格复制表格并将其直接粘贴到其中。它非常适合快速模拟现有数据并设计样式。 轻松布局：创建高级布局 通过直观的“合并”和“分割”用于直观地管理列跨度和行跨度的工具。您可以右键单击并设置scope=“col”或scope=“row” 更流畅的体验：我还修复了一些错误，使整个过程更加无缝。  所有这些都与您已经喜欢的功能相结合，例如实时显示样式的实时预览和“使表格可滚动”功能。确保您的设计在移动设备上看起来很棒的选项。 在此处查看更新的工具： https://www.innateblogger.com/p/html-table-generator.html   由   提交 /u/Dimention_less   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o3nv17/i_upgraded_my_html_table_generator_to_make/</guid>
+      <pubDate>Sat, 11 Oct 2025 05:56:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025 年博客还值得吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o3ntpn/is_a_blog_worth_it_in_2025/</link>
+      <description><![CDATA[我喜欢就多个主题写作并发表意见。不是直接“代码” - 我发现写代码毫无意义，而是写诸如职业、面试之类的东西。我不确定我准备写多少帖子，但我想知道您是否认为 2025 年博客值得投资——X、Reddit、Substack、Linkedin 占据主导地位的十年……这将是一个签名博客——与我的个人资料一起使用。    由   提交/u/athens2019  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o3ntpn/is_a_blog_worth_it_in_2025/</guid>
+      <pubDate>Sat, 11 Oct 2025 05:54:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>抵制维塞尔人</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o3nqn4/boycott_vercel_guys/</link>
+      <description><![CDATA[      那个家伙 右为Vercel首席执行官Guillermo Rauch。右边的人是以色列总理。当我们人类变得更好时，我们就不能支持种族灭绝的人。    由   提交/u/BoringAd6806   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o3nqn4/boycott_vercel_guys/</guid>
+      <pubDate>Sat, 11 Oct 2025 05:49:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mixio.ai - 人工智能直播平台</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o3n37r/mixioai_ai_livestreaming_platform/</link>
+      <description><![CDATA[ 由   提交/u/Prodigious1995   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o3n37r/mixioai_ai_livestreaming_platform/</guid>
+      <pubDate>Sat, 11 Oct 2025 05:11:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>将后端数据库添加到交互式数据可视化 Web 应用程序的最佳方法是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o3lwb0/whats_the_best_way_to_add_a_backend_database_to/</link>
+      <description><![CDATA[你好！！我是一名 UI/UX 设计师，拥有一些前端经验（主要是 HTML/CSS，所以我正在努力学习 React 这个项目），并且正在使用 Figma Make（一种 AI 编码工具，它使用 React 和 Typescript 为我构建应用程序）开发一个小艺术项目。我在尝试设置后端时遇到了一些困难，希望得到一些建议！ 所以该项目是一个交互式数据可视化，其中有两种类型的数据：可视化数据（例如日期、情感、作者、区域）和用户登录数据（用户添加/编辑/删除数据可视化详细信息的管理员、编辑器和查看者权限）。 每次我尝试通过vibe编码添加此数据时 完全崩溃了......所以我一直在尝试用代码和supabase自己做，并且真的很挣扎，有人有任何可以分享的技巧或资源吗？或者知道我在哪里可以找到开发人员来合作这个个人/开源项目？如果有帮助的话，我也可以分享我的 github 存储库！   由   提交/u/alittlegoose321  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o3lwb0/whats_the_best_way_to_add_a_backend_database_to/</guid>
+      <pubDate>Sat, 11 Oct 2025 04:04:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>时间轴 - 现在可视化的位置</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o3lnpo/timeline_position_of_now_visualized/</link>
+      <description><![CDATA[https://timeline.genxdev.net/   由   提交 /u/renevaessen   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o3lnpo/timeline_position_of_now_visualized/</guid>
+      <pubDate>Sat, 11 Oct 2025 03:51:09 GMT</pubDate>
+    </item>
     <item>
       <title>案例研究：我重建了一个巴厘岛租赁网站，重点关注 Luxury UX、Framer Motion 和 SSR on the Edge。</title>
       <link>https://www.reddit.com/r/webdev/comments/1o3ktei/case_study_i_rebuilt_a_bali_rental_site_with_a/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[大家好！我构建了一个小型副项目，将 MonkeyType 的快速打字流程与 ZetaMac 的快速心算练习相结合。这是一款基于浏览器的游戏，挑战您的算术速度，同时保持干净、简约的打字练习美感。它使用 React、Next.js、Node 和 TypeScript 构建，可以在浏览器中流畅运行，无需注册，但您可以创建一个帐户来跟踪您的进度和统计数据。如果您喜欢 Zetamac、Monkeytype、拼图或未来量化，请尝试一下！非常欢迎提供反馈，我将尝试经常更新此内容，如果您喜欢它，请在存储库上加一颗星，我将非常感激。    由   提交/u/Chance-Protection366   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o3dw3o/i_combined_zetamac_and_monkeytype_into_the_best/</guid>
       <pubDate>Fri, 10 Oct 2025 21:39:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 X 时间范围内完整编码并部署网站有多合理？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o3dsrv/how_reasonable_it_is_to_fully_code_and_then/</link>
-      <description><![CDATA[嘿大家！ 我已经开始学习更多编码，已经有了一些过去的经验。截至目前，我正在研究如何扩展我的技能以及我想学习解决哪些问题。 因此，我想到了 Web 开发。因此，我与一位家庭成员进行了交谈，他们显然要求某人为她开发一个网站。看起来并没有那么复杂，或者非常非常实用和错综复杂，但是如果你们中有人非常了解 Web 开发并且编写了一堆优秀的网站，您可以看一下它，看看经验丰富的开发人员在哪个时间范围内编写它是合理的（有或没有 AI 工具的帮助）？ 参考网站是：gerviusodai(dot)lt。  这是一个关于开发时间框架的真正问题，以便更好地了解需要多长时间，而不是广告，因为来自 reddit 的流量（尤其是来自非我们国家的人）非常无关紧要，而且我的家人目前没有参加。  我只是真诚地想更好地了解为有一定（或高度）经验的人创建这样的东西需要多长时间。   由   提交/u/iNhab   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o3dsrv/how_reasonable_it_is_to_fully_code_and_then/</guid>
-      <pubDate>Fri, 10 Oct 2025 21:36:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>在我的新闻聚合网站上请求反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o3de5a/requesting_feedback_on_my_news_aggregation_site/</link>
-      <description><![CDATA[       由   提交/u/Economy_Vacation_761   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o3de5a/requesting_feedback_on_my_news_aggregation_site/</guid>
-      <pubDate>Fri, 10 Oct 2025 21:20:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>对 Netlify 和 Github 与 Client 感到困惑</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o3c7t9/confused_with_netlify_and_github_with_client/</link>
-      <description><![CDATA[我的客户有一个连接到他的 GitHub 的 Netlify 帐户。我从事一个 Web 项目，该存储库位于我的 GitHub 帐户下。他有免费版本，但他让我用他的凭据访问这个 Netlify 帐户。处理这种情况的最佳方法是什么？我读过一些有关 GitHub Organizations 的内容，这也是一个选择吗？我不想将仓库移到他的 github 帐户下。    由   提交/u/Dangerous-Ad4246   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o3c7t9/confused_with_netlify_and_github_with_client/</guid>
-      <pubDate>Fri, 10 Oct 2025 20:34:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>这些人怎么建得这么快？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o3be79/how_do_these_people_build_so_fast/</link>
-      <description><![CDATA[所以我是一名开发人员，从小就开始构建和编码。不是吹牛，但我也不会说我在这方面特别糟糕。  我已经在我的应用程序上工作了几个月，但无论我看到什么，我都看到这些年轻的开发人员在短短几天内就推出了全栈应用程序和功能齐全的 MVP。  从逻辑上讲，他们不可能那么快地完成所有工作。我知道有些人正在对他们的应用程序进行振动编码，但我查看了其中一些人的代码库，它们似乎也不完全是振动编码的。 我遗漏了什么吗？    由   提交/u/avillalobos310   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o3be79/how_do_these_people_build_so_fast/</guid>
-      <pubDate>Fri, 10 Oct 2025 20:03:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Firefox 的 DevTools 不显示某些 cookie，但 Chrome 会显示</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o3afxz/devtools_of_firefox_doesnt_show_some_cookies_but/</link>
-      <description><![CDATA[我有一个 API (api.app.com) 和我的网页 (web.app.com)。 API 设置了一个域名为“.api.app.com”的 cookie。当我在 Firefox 的 DevTools 中查找此 cookie（存储 &gt; Cookies）时，它没有显示，但在 Chrome 中却显示了（应用程序 &gt; Cookies）。 在“网络”选项卡中，我还可以看到 Cookie 在 Firefox 的请求中发送，因此 cookie 没有显示在“存储”选项卡中似乎非常奇怪。 是否有任何晦涩的设置使其显示在 DevTools 中 Firefox 的？   由   提交 /u/CodeAndChaos   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o3afxz/devtools_of_firefox_doesnt_show_some_cookies_but/</guid>
-      <pubDate>Fri, 10 Oct 2025 19:26:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>第一次体验：客户问我为什么他的网站没有出现在搜索引擎的第一页？我有责任这样做吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o39q3s/first_experience_client_ask_me_why_his_site_is/</link>
-      <description><![CDATA[您好，我在 Next JS 中为一位律师（我朋友的熟人）制作了网站，然后使用处理表单的 PHP 代码将其转换为静态网站。客户购买了域名和共享主机。可访问性、SEO和性能得分不低于95%。我在头部使用了关键字和描述...我没有使用框架，因为据我所知，它们需要维护。请告诉我网站在搜索引擎中的排名是我的责任吗？最糟糕的是，他没有按照我的要求创建社交媒体页面，而是给了我两个相关的关键字...   由   提交/u/med-vir   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o39q3s/first_experience_client_ask_me_why_his_site_is/</guid>
-      <pubDate>Fri, 10 Oct 2025 18:59:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
