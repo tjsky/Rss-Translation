@@ -4,7 +4,14 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Sun, 12 Oct 2025 12:28:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 15:15:27 GMT</lastBuildDate>
+    <item>
+      <title>使用 EXR 序列时，我应该在编辑之前进行转码吗？ （首映+狂热提问）</title>
+      <link>https://www.reddit.com/r/editors/comments/1o4o0m6/working_with_exr_sequences_should_i_have/</link>
+      <description><![CDATA[我最近正在制作一个广告，其中给我一个 EXR 图像序列（30 秒的超级），而我的机器在 Premiere 中尝试播放它时遇到了困难。 我知道 EXR 在后期处理和 VFX 中被大量使用，但我实际上从未在编辑中直接处理它们。在这种情况下，Premiere 在技术上可以链接到序列，但使用起来仍然很繁重。 所以我想知道：  在开始之前将 EXR 序列转码为 DNxHR 444 或 ProRes 4444 之类的内容会更好吗？ 将其保留为图像序列与将其展平为视频文件相比是否有任何真正的优势？ 特别是在 Avid 中，因为这是我通常切入的内容，如果我尝试链接 EXR 序列，Media Composer 是否会识别它，或者我是否需要先将其放入 Resolve 中以重新包装它？  只是想了解此处的“正确”管道是什么。我觉得我的系统可能无缘无故地过度工作。 谢谢！   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1o4o0m6/working_with_exr_sequences_should_i_have/</guid>
+      <pubDate>Sun, 12 Oct 2025 12:39:35 GMT</pubDate>
+    </item>
     <item>
       <title>周日“展示你的作品”。</title>
       <link>https://www.reddit.com/r/editors/comments/1o4m60b/show_your_work_sunday/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[      您好， 在所附的屏幕截图中，左侧您可以看到我的 Avid 转码（相机原始文件，.MP4），右侧是我从 Resolve 导出回来用于重新链接的分级 MXF 文件（前者分配了磁带名称，但为了 这个测试）。 现在，有趣的是： - 没有通用的磁带名称（未在 Avid 转码中分配）。 - 名称字段也不匹配，因为分级 MXF 有额外的后缀，如 _V1-0001 等，是的，我可以使用“忽略上次出现后的字符”选项，但这不是什么我正在测试 此处。 - 唯一可能的共同点似乎是“源文件”列，但即使如此也是不同的，因为 MXF 包含带有这些后缀的完整文件名。  https://preview.redd.it/fnojufgea9uf1.png?width=2952&amp;format=png&amp;auto=webp&amp;s=25b728a7778bf2cbaff25f6c9dbaccf387bb9f8c 尽管如此，当我通过源文件名重新链接时，Avid 不知何故知道如何匹配它们。 这是怎么发生的？ Avid 会自动忽略后缀吗？或者它可能正在读取一些隐藏的元数据，例如嵌入 MXF 标头中的原始文件名？ 这只是用于重新链接目的的模拟测试，而不是真正的符合，因此我没有使用磁带/卷轴名称。但我想了解当没有磁带并且名称不 100% 匹配时，Avid 实际读取的链接密钥是什么。  谢谢！   由   提交 /u/Available-Witness329   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1o2wl86/avid_relink_avid_matches_source_files_when_names/</guid>
       <pubDate>Fri, 10 Oct 2025 09:51:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>无法从 Adob​​e Premiere pro 导出文件。请帮助我！</title>
-      <link>https://www.reddit.com/r/editors/comments/1o2ta9o/cant_able_to_export_file_from_adobe_premiere_pro/</link>
-      <description><![CDATA[编辑们大家好，我是一名自由职业菜鸟。我正在尝试从 adobe Premiere pro 24.6（卸载了 25 版本）导出 4K 文件。所以我将文件拼接到新的时间线中，剪辑后视频时长为 59 分钟。当我导出它时，编码器停在 14% 或 48% 处。谁能帮我如何成功导出文件。请帮助我。  原始文件信息： 分辨率：3840 x 2160帧速率：23.98 fps   由   提交 /u/Asleep_Ad_7744   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1o2ta9o/cant_able_to_export_file_from_adobe_premiere_pro/</guid>
-      <pubDate>Fri, 10 Oct 2025 06:17:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
