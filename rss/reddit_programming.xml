@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 13 Oct 2025 01:14:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 03:40:35 GMT</lastBuildDate>
+    <item>
+      <title>🏛️ 从头开始​​构建法学硕士 – 第 2 部分：数据收集和自定义标记器</title>
+      <link>https://www.reddit.com/r/programming/comments/1o56elg/building_llms_from_scratch_part_2_data_collection/</link>
+      <description><![CDATA[这是我从头开始构建法学硕士的 4 部分系列的第 2 部分。 第 1 部分介绍了快速入门和整体架构。 在这篇文章中，我将深入探讨任何严肃的 LLM 的基础层：数据收集和 分词器设计。该数据集基于1500-1850 年伦敦的218 个历史来源构建，包括法庭记录、文献、报纸和个人日记。这是超过 5 亿个字符的混乱、不一致且经常被损坏的历史英语。 标准分词器会分割“quoth”和“hast”等古老单词，而扫描文档中的 OCR 错误可能会破坏语义连贯性。这篇文章将指导您完成构建可处理 PDF、HTML、XML 和 TXT 文件的模块化、格式感知管道的过程。它解释了如何使用 30,000 个词汇和超过 150 个特殊标记来训练自定义 BPE 标记器，以保持语言真实性。 当然，这是一个玩具示例，尽管是一个完整的 LLM，旨在帮助人们理解和学习基本原理。现实世界的实现要复杂得多。我还在博文中阐述了这些观点。 🔍 内容  218+ 历史来源：从 Old Bailey 试验到 17 世纪文学  5 阶段清理管道：OCR 校正、编码修复和特定于格式的提取  自定义 分词器：根据古老英语和伦敦特定术语进行训练的 BPE 分词器  质量验证：平衡真实性与训练质量的多层评分  技术实现： 用于处理 PDF、HTML、XML 和 TXT 的代码 分词器 使用 Hugging Face 进行训练 质量评分和验证框架 用于数据摄取和报告的模块化架构   资源  第 2 部分：数据收集和数据收集分词器 第 1 部分讨论 GitHub 代码库 LinkedIn 发布（如果您喜欢的话）  下一步：第 3 部分将介绍模型架构、GPU 优化和训练基础设施。   由   提交/u/amitbahree  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o56elg/building_llms_from_scratch_part_2_data_collection/</guid>
+      <pubDate>Mon, 13 Oct 2025 01:20:13 GMT</pubDate>
+    </item>
     <item>
       <title>在高层跟踪系统调用</title>
       <link>https://www.reddit.com/r/programming/comments/1o53kpg/tracing_the_syscall_on_a_high_level/</link>
@@ -71,7 +78,7 @@
     <item>
       <title>LLmentalist 效应：人工智能程序员和用户如何欺骗自己</title>
       <link>https://www.reddit.com/r/programming/comments/1o4vas9/the_llmentalist_effect_how_ai_programmers_and/</link>
-      <description><![CDATA[ 由   提交/u/grauenwolf   [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/grauenwolf  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o4vas9/the_llmentalist_effect_how_ai_programmers_and/</guid>
       <pubDate>Sun, 12 Oct 2025 17:35:18 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[ 由   提交 /u/DateFriendly8502   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o4oqu9/c_reflection_p2996_and_moc/</guid>
       <pubDate>Sun, 12 Oct 2025 13:13:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>介绍测试瓶：测试钻石和测试金字塔的（更好？）替代方案</title>
-      <link>https://www.reddit.com/r/programming/comments/1o4lons/introducing_the_testing_vial_a_better_alternative/</link>
-      <description><![CDATA[测试金字塔强调单元测试。测试钻石强调集成测试。 但我真的认为我们不应该关注技术方面。 这就是我想出测试瓶的原因。 让我知道你的想法！   由   提交/u/davidebellone  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o4lons/introducing_the_testing_vial_a_better_alternative/</guid>
-      <pubDate>Sun, 12 Oct 2025 10:32:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
