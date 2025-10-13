@@ -4,7 +4,49 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 12 Oct 2025 21:13:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 01:14:39 GMT</lastBuildDate>
+    <item>
+      <title>在高层跟踪系统调用</title>
+      <link>https://www.reddit.com/r/programming/comments/1o53kpg/tracing_the_syscall_on_a_high_level/</link>
+      <description><![CDATA[曾经在 Python 中调用 f.write() 并想知道实际上击中金属的是什么。假设您正在编写一个涉及写入文件的 python 函数。您是否想知道编写该函数时内核级别会发生什么？让我们跟踪一个函数调用，直到它进入内核级别 先决条件  用户空间和内核空间：Linux 以两种模式运行应用程序，一种是权限最高的内核模式，一种是权限最小的用户模式。在内核模式下运行的系统调用是理解它们如何跟踪的重要先决条件 陷阱：Linux 内核中有一种称为陷阱的东西。这有点像同步 CPU 异常，我们将控制权从用户空间转移到内核空间。这些与中断不同，中断是异步的并且来自硬件   注意：这只是 write 系统调用的高级跟踪，还有很多深度需要介绍，但它是理解系统调用执行的一个很好的介绍。 []() []()   由   提交 /u/killer-resume   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o53kpg/tracing_the_syscall_on_a_high_level/</guid>
+      <pubDate>Sun, 12 Oct 2025 23:04:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>C++23：从命令式循环到声明性范围</title>
+      <link>https://www.reddit.com/r/programming/comments/1o53cyk/c23_from_imperative_loops_to_declarative_ranges/</link>
+      <description><![CDATA[ 由   提交 /u/alefore   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o53cyk/c23_from_imperative_loops_to_declarative_ranges/</guid>
+      <pubDate>Sun, 12 Oct 2025 22:54:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>初创公司创始人必读的书</title>
+      <link>https://www.reddit.com/r/programming/comments/1o52ksq/the_book_startup_founders_must_read/</link>
+      <description><![CDATA[ 由   提交/u/Bulky_Nectarine_2417   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o52ksq/the_book_startup_founders_must_read/</guid>
+      <pubDate>Sun, 12 Oct 2025 22:20:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI代码中隐藏的风险</title>
+      <link>https://www.reddit.com/r/programming/comments/1o52hdo/the_hidden_risk_in_ai_code/</link>
+      <description><![CDATA[ 由   提交/u/South-Reception-1251   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o52hdo/the_hidden_risk_in_ai_code/</guid>
+      <pubDate>Sun, 12 Oct 2025 22:16:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>像约翰一样</title>
+      <link>https://www.reddit.com/r/programming/comments/1o526wh/be_like_john/</link>
+      <description><![CDATA[ 由   提交/u/balianone  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o526wh/be_like_john/</guid>
+      <pubDate>Sun, 12 Oct 2025 22:04:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>从文本到令牌：令牌化管道如何工作</title>
+      <link>https://www.reddit.com/r/programming/comments/1o51z48/from_text_to_token_how_tokenization_pipelines_work/</link>
+      <description><![CDATA[ 由   提交 /u/jamesgresql   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1o51z48/from_text_to_token_how_tokenization_pipelines_work/</guid>
+      <pubDate>Sun, 12 Oct 2025 21:55:17 GMT</pubDate>
+    </item>
     <item>
       <title>投票：纪录片</title>
       <link>https://www.reddit.com/r/programming/comments/1o500cl/vite_the_documentary/</link>
@@ -29,7 +71,7 @@
     <item>
       <title>LLmentalist 效应：人工智能程序员和用户如何欺骗自己</title>
       <link>https://www.reddit.com/r/programming/comments/1o4vas9/the_llmentalist_effect_how_ai_programmers_and/</link>
-      <description><![CDATA[ 由   提交/u/grauenwolf  [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/grauenwolf   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o4vas9/the_llmentalist_effect_how_ai_programmers_and/</guid>
       <pubDate>Sun, 12 Oct 2025 17:35:18 GMT</pubDate>
     </item>
@@ -67,48 +109,6 @@
       <description><![CDATA[测试金字塔强调单元测试。测试钻石强调集成测试。 但我真的认为我们不应该关注技术方面。 这就是我想出测试瓶的原因。 让我知道你的想法！   由   提交/u/davidebellone  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o4lons/introducing_the_testing_vial_a_better_alternative/</guid>
       <pubDate>Sun, 12 Oct 2025 10:32:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>马里奥 64 的声音引擎比游戏本身更好</title>
-      <link>https://www.reddit.com/r/programming/comments/1o4lats/mario_64s_sound_engine_is_better_than_the_game/</link>
-      <description><![CDATA[ 由   提交/u/Chii  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o4lats/mario_64s_sound_engine_is_better_than_the_game/</guid>
-      <pubDate>Sun, 12 Oct 2025 10:08:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据库的一致性——为什么重要</title>
-      <link>https://www.reddit.com/r/programming/comments/1o4iox0/consistency_in_databases_why_it_matters/</link>
-      <description><![CDATA[ 由   提交/u/smit2k14  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o4iox0/consistency_in_databases_why_it_matters/</guid>
-      <pubDate>Sun, 12 Oct 2025 07:20:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>编码冒险：模拟烟雾</title>
-      <link>https://www.reddit.com/r/programming/comments/1o4ifwl/coding_adventure_simulating_smoke/</link>
-      <description><![CDATA[ 由   提交/u/Chii  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o4ifwl/coding_adventure_simulating_smoke/</guid>
-      <pubDate>Sun, 12 Oct 2025 07:04:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Zed 的 DeltaDB 想法 - 真正的问题还是矫枉过正？</title>
-      <link>https://www.reddit.com/r/programming/comments/1o4h34t/zeds_deltadb_idea_real_problem_or_overkill/</link>
-      <description><![CDATA[Zed 编辑推荐了这个叫做 DeltaDB 的东西——一个版本控制系统，可以跟踪每一个小的代码更改和讨论，而不仅仅是提交。 https://zed.dev/blog/sequoia-backs-zed 我们的想法是，这有助于：  人类 - 他们浪费时间弄清楚为什么代码以某种方式编写，因为提交消息失去了意义，真正的讨论被埋藏在 Slack 中  人工智能代理——如今只能看到代码快照，看不到其背后的推理，因此它们提出的建议忽略了意图。  基本上，DeltaDB 希望代码能够承载其原因，而不仅仅是其内容。 ⸻ 这些问题在现实生活中真的会伤害你吗？您是否希望您的编辑器或版本控制记住那么多上下文，或者这只是不必要的复杂性？分享你的故事。 当我还是一名开发人员时，我个人经常点击 #1 — 追逐旧的 Slack 线程只是为了理解一行奇怪的代码。   由   提交/u/anonymous085  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o4h34t/zeds_deltadb_idea_real_problem_or_overkill/</guid>
-      <pubDate>Sun, 12 Oct 2025 05:40:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我用 5 种语言（C#、Java、Go、TypeScript、Python）构建相同的 REST API</title>
-      <link>https://www.reddit.com/r/programming/comments/1o4ex3p/why_i_built_the_same_rest_api_in_5_languages_c/</link>
-      <description><![CDATA[ 由   提交/u/AdventurousArticle40   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o4ex3p/why_i_built_the_same_rest_api_in_5_languages_c/</guid>
-      <pubDate>Sun, 12 Oct 2025 03:36:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>氚|更新桌面 Rust</title>
-      <link>https://www.reddit.com/r/programming/comments/1o49ypb/tritium_updating_desktop_rust/</link>
-      <description><![CDATA[分析更新用 Rust 编写的跨平台应用程序的一些注意事项，并对 Zed 的方法进行一些思考。   由   提交/u/urandomd  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o49ypb/tritium_updating_desktop_rust/</guid>
-      <pubDate>Sat, 11 Oct 2025 23:25:37 GMT</pubDate>
     </item>
     </channel>
 </rss>

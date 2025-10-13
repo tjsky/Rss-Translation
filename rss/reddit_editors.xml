@@ -4,11 +4,11 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Sun, 12 Oct 2025 21:13:34 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 01:14:00 GMT</lastBuildDate>
     <item>
       <title>Avid：嵌入式 AAF</title>
       <link>https://www.reddit.com/r/editors/comments/1o4yo5t/avid_embedded_aaf/</link>
-      <description><![CDATA[这实际上是我第一次尝试在 Pro Tools 中打开 AAF。 我总是从 Avid 导出并发送嵌入式 AAF 给声音团队，认为这是标准方式，“所有内容都在一个文件中。” 但是当我今天尝试通过文件 → 导入 → 会话数据在 Pro Tools 中打开一个 AAF 时，AAF 呈灰色且 Pro 工具。 所以现在我想知道，我一直都做错了吗？ 从我读到的内容来看，Pro Tools 似乎并不总是喜欢嵌入式 AAF，特别是当它们很大时，而且大多数人实际上使用链接的 AAF（将 WAV 放在单独的文件夹中）。 这是真的吗？我是否应该一直发送链接的 AAF + WAV 而不是嵌入式 AAF？如果是这样，为什么这么多编辑器（包括我自己）仍然认为嵌入式是“安全”或“正确”的方式？ 希望听到经常在 Avid 和 Pro Tools 之间切换的人的意见，这里真正的最佳实践是什么？ 谢谢！   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
+      <description><![CDATA[这实际上是我第一次尝试在 Pro Tools 中打开 AAF。 我总是从 Avid 导出并发送嵌入式 AAF 给声音团队，认为这是标准方式，“所有内容都在一个文件中。” 但是当我今天尝试通过文件 → 导入 → 会话数据在 Pro Tools 中打开一个 AAF 时，AAF 呈灰色且 Pro 工具。 所以现在我想知道，我一直以来都做错了吗？ 从我读到的内容来看，Pro Tools 似乎并不总是喜欢嵌入式 AAF，尤其是当它们很大时，而且大多数人实际上使用链接的 AAF（将 WAV 放在单独的文件夹中）。 这是真的吗？我是否应该一直发送链接的 AAF + WAV 而不是嵌入式 AAF？如果是这样，为什么这么多编辑器（包括我自己）仍然认为嵌入式是“安全”或“正确”的方式？ 希望听到经常在 Avid 和 Pro Tools 之间切换的人的意见，这里真正的最佳实践是什么？ 谢谢！   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1o4yo5t/avid_embedded_aaf/</guid>
       <pubDate>Sun, 12 Oct 2025 19:44:28 GMT</pubDate>
     </item>
@@ -106,7 +106,7 @@
     <item>
       <title>Avid：重新链接已删除的媒体？</title>
       <link>https://www.reddit.com/r/editors/comments/1o34bb9/avid_relinking_deleted_media/</link>
-      <description><![CDATA[嘿伙计们， 我最近一直在深入研究 Avid 的重新链接和媒体管理，但仍有一件事我一直不太清楚，即管理媒体（转码剪辑）被删除后，Avid 将如何处理它们。 以下是今天发生的情况： 我不小心删除了 从我的垃圾箱中转码主剪辑，并从 MediaFiles 文件夹中删除与其关联的实际媒体。当然，我的时间线的这一部分离线了。 所以这就是令人困惑的地方： 我的第一反应是将同一个剪辑带回 Avid 并重新转码，效果很好，但当然它会生成具有不同 Avid 分配的文件名（数据库中的随机乱码 .mxf 名称）的新媒体。 现在，当我尝试重新链接时 我的离线部分到新创建的剪辑，Avid 说“无需重新链接”。因此，我有两个选择：  用新剪辑手动替换该离线部分。 尝试右键单击原始离线剪辑，然后以某种方式批量重新导入它。  但是由于原始媒体是我自己制作的分级 Resolve 转码，而不是 AMA 链接或从相机导入 原创，我不确定哪个工作流程是“正确的”。 所以我的主要问题是： • 有没有办法让 Avid “看到”这个新转码的剪辑与我删除的剪辑相同？ • Avid 是否在 .mdb 中存储一个唯一的 ID，一旦删除就会破坏链接？ • 一般来说，你们都如何处理 从磁盘删除后重新链接到托管媒体？ 再次感谢！   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
+      <description><![CDATA[嘿伙计们， 我最近一直在深入研究 Avid 的重新链接和媒体管理，但仍有一件事我一直不太清楚，即管理媒体（转码剪辑）被删除后，Avid 将如何处理它们。 以下是今天发生的情况： 我不小心删除了 从我的垃圾箱中转码主剪辑，并从 MediaFiles 文件夹中删除与其关联的实际媒体。当然，我的时间线的这一部分离线了。 所以这就是令人困惑的地方： 我的第一反应是将同一个剪辑带回 Avid 并重新转码，效果很好，但当然它会生成具有不同 Avid 分配的文件名（数据库中的随机乱码 .mxf 名称）的新媒体。 现在，当我尝试重新链接时 我的离线部分到新创建的剪辑，Avid 说“无需重新链接”。因此，我有两个选择：  用新剪辑手动替换该离线部分。 尝试右键单击原始离线剪辑并以某种方式批量重新导入它。  但是由于原始媒体是我自己制作的分级 Resolve 转码，而不是 AMA 链接或从相机导入 原创，我不确定哪个工作流程是“正确的”。 所以我的主要问题是： • 有没有办法让 Avid “看到”这个新转码的剪辑与我删除的剪辑相同？ • Avid 是否在 .mdb 中存储一个唯一的 ID，一旦删除就会破坏链接？ • 一般来说，你们都如何处理 从磁盘删除后重新链接到托管媒体？ 再次感谢！   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1o34bb9/avid_relinking_deleted_media/</guid>
       <pubDate>Fri, 10 Oct 2025 15:37:53 GMT</pubDate>
     </item>
