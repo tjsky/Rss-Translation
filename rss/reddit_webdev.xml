@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 13 Oct 2025 12:34:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 15:17:40 GMT</lastBuildDate>
+    <item>
+      <title>生产代码库中必须有全局异常吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o5m2na/is_global_exception_a_must_in_a_production/</link>
+      <description><![CDATA[我学会了如何使用 try catch。 而且我最近发现有一个全局异常。 正如标题所说。   由   提交/u/KiraLawliet68  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o5m2na/is_global_exception_a_must_in_a_production/</guid>
+      <pubDate>Mon, 13 Oct 2025 15:00:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何实现基于人脸识别的身份验证？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o5l8gp/how_to_implement_facial_recognitionbased/</link>
+      <description><![CDATA[例如，我想让用户能够使用他们的脸登录他们的帐户。现在，我发现了这个名为faceApi.js的js库，据我所知，你只能使用图像来检查上面是谁的脸。有没有办法让它使用常规网络摄像头工作？   由   提交/u/rentallymetardedII   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o5l8gp/how_to_implement_facial_recognitionbased/</guid>
+      <pubDate>Mon, 13 Oct 2025 14:28:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>找到了学习 C# 和 Web 开发的有用资源</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o5jg1c/found_a_useful_resource_for_learning_c_and_web/</link>
+      <description><![CDATA[嘿伙计们，看看这个 发现它对软件开发人员非常有用 https://youtube.com/@user-deardotnet?si=5W-wDBHJHDnVC5L_   由   提交 /u/Misterwellaware   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o5jg1c/found_a_useful_resource_for_learning_c_and_web/</guid>
+      <pubDate>Mon, 13 Oct 2025 13:16:56 GMT</pubDate>
+    </item>
     <item>
       <title>我应该将我的静态网站转变为社区吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1o5if83/should_i_transform_my_static_website_into_a/</link>
@@ -43,7 +64,7 @@
     <item>
       <title>水平表格滚动是一种糟糕的用户体验。这是解决方案</title>
       <link>https://www.reddit.com/r/webdev/comments/1o5dps5/horizontal_table_scrolling_is_a_bad_ux_heres_the/</link>
-      <description><![CDATA[关于开发人员为网站构建表格，我有一个想法：在一个长的水平行中显示数据并不舒服，尤其是在移动设备上，当行很长时。 当我在 Fillout 仪表板中看到类似的功能时，我得到了灵感，但它的样式非常有限。 因此，我使用高级 CSS 网格来构建它，以在有组织的框中显示数据。它的工作原理如下： 用户看到的是传统的水平表格。他们可以单击特定行，而不是单击并水​​平滚动来查看隐藏内容。然后，表格上方会出现一个弹出框，跨两个或三个框（取决于设备大小）显示该行的数据以及列名称。 它非常易于使用，但我仍然没有在任何设计良好的仪表板中看到这种情况，这些仪表板甚至在 ThemeForest 仪表板中也没有看到这种功能。 此功能需要一些 JavaScript、CSS 和 HTML。如果用户想要一次比较多行，水平滚动仍然可用。 这次我的大多数网站用户都没有意识到这一点，我真的希望这个功能被采用并成为大多数仪表板和系统中的默认功能。 您觉得怎么样？您认为还有更好的选择吗？   由   提交 /u/sunsetRz   [链接] [评论]]]></description>
+      <description><![CDATA[关于开发人员为网站构建表格，我有一个想法：在一个长的水平行中显示数据并不舒服，尤其是在移动设备上，当行很长时。 当我在 Fillout 仪表板中看到类似的功能时，我得到了灵感，但它的样式非常有限。 因此，我使用高级 CSS 网格来构建它，以在有组织的框中显示数据。它的工作原理如下： 用户看到的是传统的水平表格。他们可以单击特定行，而不是单击并水​​平滚动来查看隐藏内容。然后，表格上方会出现一个弹出框，跨两个或三个框（取决于设备大小）显示该行的数据以及列名称。 它非常易于使用，但我仍然没有在任何设计良好的仪表板中看到这种情况，这些仪表板甚至在 ThemeForest 仪表板中也没有看到这种功能。 此功能需要一些 JavaScript、CSS 和 HTML。如果用户想要一次比较多行，水平滚动仍然可用。 这次我的大多数网站用户都没有意识到这一点，我真的希望这个功能被采用并成为大多数仪表板和系统中的默认功能。 您觉得怎么样？您认为有更好的选择吗？ 已编辑 这是评论者之一构建的演示，https://codepen.io/keefblurgu/pen/MYKvXjP   由   提交 /u/sunsetRz   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o5dps5/horizontal_table_scrolling_is_a_bad_ux_heres_the/</guid>
       <pubDate>Mon, 13 Oct 2025 08:01:18 GMT</pubDate>
     </item>
@@ -57,7 +78,7 @@
     <item>
       <title>使用我自己的版本控制来恢复文件</title>
       <link>https://www.reddit.com/r/webdev/comments/1o5da9e/used_my_own_version_control_to_recover_files/</link>
-      <description><![CDATA[在我大学的最后一年，我正在做一个项目，这是一个简单的 HTML CSS 和 JS 项目，我没有太多使用 git。 所以当我完成这个项目时，我认为我应该清理我的代码库，我删除了一些我认为无用的文件，然后我 Shift 删除了它们 😭 花了一整天的时间爬行谷歌进行恢复  在我的最后一年，我正在学习网络取证，我们有一个数据恢复实践，所以我们使用 FTK Imager 从文件夹和硬盘驱动器中恢复数据，我使用该工具来恢复那些已删除的文件。   由   提交 /u/Sad_Impact9312   [链接] [评论]]]></description>
+      <description><![CDATA[在大学的最后一年，我正在做一个项目，这是一个简单的 HTML CSS 和 JS 项目，我并没有太多使用 git。 所以当我完成该项目时，我认为我应该清理我的代码库，我删除了一些我认为无用的文件，然后我 Shift 删除了它们 😭 花了一整天的时间爬行谷歌进行恢复  在我的最后一年，我正在学习网络取证，我们有一个数据恢复实践，所以我们使用 FTK Imager 从文件夹和硬盘驱动器中恢复数据，我使用该工具来恢复那些已删除的文件。   由   提交 /u/Sad_Impact9312   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o5da9e/used_my_own_version_control_to_recover_files/</guid>
       <pubDate>Mon, 13 Oct 2025 07:33:47 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[嘿，我记得曾经找到一个网站，可以选择您想要包含在入门项目中的技术/框架。 我不记得这个名字了，但我相当确定它可以从 Nextjs、Vue、Supabase、Clerk、shadcn 和 Tailwind 中进行选择，还有很多其他选项。 如果有人的话。 知道类似的事情，我将不胜感激你的帮助！谢谢！   由   提交 /u/Wurrsin   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o571d3/website_that_generates_a_customized_starter/</guid>
       <pubDate>Mon, 13 Oct 2025 01:51:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>尝试使用商品硬件和软件优化来实现低延迟 HFT 管道</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o56f8g/attempt_at_a_lowlatency_hft_pipeline_using/</link>
-      <description><![CDATA[      我对完整高频交易 (HFT) 管道的尝试，从合成报价生成到订单执行和交易发布。它旨在演示网络、时钟同步和硬件限制如何影响分布式系统中的端到端延迟。&lt;​​/p&gt; 使用C++、Go和Python构建，所有服务都使用 PUB/SUB 和 PUSH/PULL 模式通过 ZeroMQ 进行通信。该堆栈通过 Docker Compose 完全容器化，并且可以在 K8s 下扩展。此演示中没有使用专门的硬件（例如 FPGA、RDMA NIC 等），目的是探索通过商品硬件和软件优化可以实现哪些目标。 寻找你们可能建议的任何改进！   由   提交/u/akkik1   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o56f8g/attempt_at_a_lowlatency_hft_pipeline_using/</guid>
-      <pubDate>Mon, 13 Oct 2025 01:21:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>这里有人使用过sheetjs (xlsx) 专业版吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o56433/anyone_here_used_sheetjs_xlsx_pro_version/</link>
-      <description><![CDATA[我正在尝试查找sheetjs专业版的评论，但找不到任何评论。我现在正在使用 Exceljs，该模块有很多错误，以至于很难继续我的新实现。 谢谢。   由   提交 /u/PoopySoothu   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o56433/anyone_here_used_sheetjs_xlsx_pro_version/</guid>
-      <pubDate>Mon, 13 Oct 2025 01:05:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>创建 html 网站的最佳人工智能工具是什么（比 deepsite 更好）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o563uc/whats_the_best_ai_tools_to_create_html_websites/</link>
-      <description><![CDATA[?   由   提交/u/Mean_Priority_5741   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o563uc/whats_the_best_ai_tools_to_create_html_websites/</guid>
-      <pubDate>Mon, 13 Oct 2025 01:05:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
