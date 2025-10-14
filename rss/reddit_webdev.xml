@@ -4,7 +4,56 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 14 Oct 2025 15:21:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 18:24:43 GMT</lastBuildDate>
+    <item>
+      <title>当使用 esbuild 创建具有外部依赖项的包（使用 --external 标志）时，是否有标准方法使 node_modules 仅包含外部依赖项？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o6lpwy/when_using_esbuild_to_create_a_bundle_that_has/</link>
+      <description><![CDATA[我的具体案例：我正在将 lambda 函数部署为 Docker 映像。这是我的构建脚本的样子（来自 package.json）： &quot;build&quot;: &quot;esbuild src/handler.ts --bundle --platform=node --format=cjs --outfile=dist/handler.js --minify --sourcemap --external:@prisma/client --external:.prisma/client --外部：pino”  所以你可以看到我捆绑了除 prisma 和 pino 之外的所有依赖项。这意味着我必须在 lamda 映像中包含 node_modules，并且我的 node_modules 必须包含 prisma 和 pino。 但是，由于我正在捆绑其余的依赖项，如果我只是运行 npm i，那么 node_modules 将包含已捆绑的所有依赖项，并且由于它们是捆绑的，因此它们不会被解析 根本没有node_modules。因此，我的node_modules 的大小将大于它需要的大小。 这只是我应该排除的东西（node_modules 将包含未使用的内容）吗？或者是否有一种标准方法来优化它，以便我的node_modules仅包含外部依赖项？   由   提交/u/PuppyLand95  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o6lpwy/when_using_esbuild_to_create_a_bundle_that_has/</guid>
+      <pubDate>Tue, 14 Oct 2025 17:21:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>BentoPDF 现已开源</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o6lkwf/bentopdf_is_now_open_sourced/</link>
+      <description><![CDATA[大家好。我创建了 BentoPDF，这是一个在浏览器中运行的 PDF 工具包，因此您的机密信息永远不会离开您的设备。我几周前发布了这篇文章，反馈非常好。所以我昨天决定开源它，我们已经有 400 颗星了！ 我也在寻找维护者，任何反馈都将不胜感激。谢谢 仓库：https://github.com/alam00000/bentopdf   由   提交/u/paglaulta   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o6lkwf/bentopdf_is_now_open_sourced/</guid>
+      <pubDate>Tue, 14 Oct 2025 17:16:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>这个课程好不好</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o6kxhc/is_this_syllabus_good/</link>
+      <description><![CDATA[      这个是吗 适合前端的教学大纲。还是已经过时了   由   提交 /u/Imaginary_Place_1044   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o6kxhc/is_this_syllabus_good/</guid>
+      <pubDate>Tue, 14 Oct 2025 16:52:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 Lovable 和 V0 替代品。您自己的 WebDev AI 平台。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o6ksoj/launching_lovable_and_v0_alternative_your_own/</link>
+      <description><![CDATA[   为 V0 和 Lovable 构建这个开源替代方案。令人沮丧的是，这些工具每天都变得越来越贵，而我们甚至仍然无法选择自己的型号。说真的，为什么我不能使用 Gemini Flash 2.5 来完成更简单的任务并节省大量积分？ 所以，是的，我构建了自己的平台，您可以使用它。 您只需要使用自己的 API 密钥来构建 UI。 现在它支持 OpenRouter、ChatGPT 和 Claude，并且 沙箱，它使用E2B平台。 github：链接 站点：链接 它仍处于非常早期阶段 阶段。尝试一下，提出问题，我会解决它们。评论中的每一条反馈都值得赞赏，我会对此进行改进。残酷地对待你的反馈   由   提交/u/BootPsychological454  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o6ksoj/launching_lovable_and_v0_alternative_your_own/</guid>
+      <pubDate>Tue, 14 Oct 2025 16:48:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>W3C 标志刷新</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o6kled/w3c_logo_refresh/</link>
+      <description><![CDATA[       由   提交/u/magenta_placenta   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o6kled/w3c_logo_refresh/</guid>
+      <pubDate>Tue, 14 Oct 2025 16:40:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>宣布 @platformatic/flame 和 Watt 提供堆分析支持</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o6kbqs/announcing_heap_profiling_support_in/</link>
+      <description><![CDATA[       由   提交 /u/feross   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o6kbqs/announcing_heap_profiling_support_in/</guid>
+      <pubDate>Tue, 14 Oct 2025 16:30:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show /r/webdev：我构建了一个免费的 API 来提取 PDF 数据</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o6jv33/show_rwebdev_i_built_a_free_api_to_extract_pdf/</link>
+      <description><![CDATA[嗨 /r/webdev， 和大家一样，我正在开发一款使用 LLM 从照片和文档中提取数据的产品。处理管道的一部分是从 PDF 中提取数据作为原始文本或光栅图像。 作为我们的潜在客户开发策略的一部分，我们开放了 REST API，可让您处理 PDF 页面。该 API 完全免费，可以匿名使用，但速率限制为每 30 秒 1 页。创建免费帐户可以消除此限制。 两个端点是：  https://extract.dev/api/pages/extract/raster - 栅格化 PDF 页面 https://extract.dev/api/pages/extract/text - 从 PDF 页面中提取文本  两者具有相同的请求格式： { &quot;file&quot;: &quot;https://assets.extract-cdn.com/data/hd-receipt.pdf&quot;, &quot;page&quot;: 1 }  我在这里概述了更多文档：https://extract.dev/docs 在底层，API 使用 Poppler 来提取文本和光栅化页面。请注意，文本提取功能提取 PDF 中编码的实际文本，并且不采用 OCR 模型。很想听听您的反馈。   由   提交/u/leftnode  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o6jv33/show_rwebdev_i_built_a_free_api_to_extract_pdf/</guid>
+      <pubDate>Tue, 14 Oct 2025 16:13:43 GMT</pubDate>
+    </item>
     <item>
       <title>非营利性注册商、邮件和网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1o6idqs/registrar_mail_and_website_for_non_profit/</link>
@@ -22,7 +71,7 @@
     <item>
       <title>符合 GDPR 要求的联系表以及数据处理协议 (DAP)？</title>
       <link>https://www.reddit.com/r/webdev/comments/1o6he9d/gdpr_compliant_contact_form_with_data_processing/</link>
-      <description><![CDATA[是否有人使用符合 GDPR 的联系表单服务（或简单的 json 转发到电子邮件服务）？如果我理解正确的话，它只能符合数据处理协议 (DAP)，因为它处理个人数据（例如电子邮件、姓名、电话号码）。据我了解，在隐私政策中提及这一点是不够的。我听说有时您可以在联系表格提供商的门户中下载填写的 DAP。  您知道一些具有此功能的提供商吗？  谢谢！   由   提交/u/muh2k4  [链接] [评论]]]></description>
+      <description><![CDATA[是否有人使用符合 GDPR 的联系表单服务（或简单的 json 转发到电子邮件服务）？如果我理解正确的话，它只能符合数据处理协议 (DAP)，因为它处理个人数据（例如电子邮件、姓名、电话号码）。据我了解，在隐私政策中提及这一点还不够。我听说有时您可以在联系表格提供商的门户中下载填写的 DAP。  您知道一些具有此功能的提供商吗？  谢谢！   由   提交/u/muh2k4  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o6he9d/gdpr_compliant_contact_form_with_data_processing/</guid>
       <pubDate>Tue, 14 Oct 2025 14:42:26 GMT</pubDate>
     </item>
@@ -60,55 +109,6 @@
       <description><![CDATA[别像我一样...起一个非常好的名字，检查一下，看看它是否可用...然后什么也不做，只是围绕这个身份构建我的应用程序。一个月后，我决定是时候购买该域名了。你猜怎么着？别人已经拿走了。当然，我可以想到另一个名字。这没什么大不了的，但发生这种事有点糟糕。我也不能只是从那个人那里购买它，因为那时它不值得。所以是的..不要做我所做的事情。  或者也许不要太执着于品牌标识，只需选择你想要的任何名称即可，idk。    由   提交/u/No_Post647  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o6cvza/pro_tip_if_youre_confident_in_your_brand_name/</guid>
       <pubDate>Tue, 14 Oct 2025 11:27:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 React 组件 4 年后，我将转向无聊的技术 ^</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o69mx9/after_4_years_with_react_components_im_switching/</link>
-      <description><![CDATA[使用 nextjs、nuxtjs 和 React 4 年之后，我意识到我们可能会让事情变得过于复杂。 别误会我的意思，这些 js 框架非常适合复杂的交互式应用程序。但对于更简单的项目？在 ssr 和 csr 之间不断跳转，编写 api（获取、缓存、redux、状态管理库等），加上依赖管理（漏洞、版本冲突、额外维护）通常会花费比节省的时间更多的时间。 人工智能编码使情况变得更糟，现在每个小型初创公司都默认使用 React 组件，不是因为他们需要它，而是因为它很容易生成，但结果（？）导致应用程序臃肿且性能不佳 当一个更简单的解决方案效果更好时。 我开始问自己我是否真的需要一个完整的框架，或者我可以使用 vanillajs、alpinejs、htmx 和一些轻量级组件来实现这一目标吗？我的新堆栈已转向 go、gotempl、alpinejs 和 htmx。 特别是对于单独/小型团队，更少的依赖项意味着更容易维护和真正持久的项目。有时无聊的解决方案是明智的。   由   提交/u/0nxdebug  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o69mx9/after_4_years_with_react_components_im_switching/</guid>
-      <pubDate>Tue, 14 Oct 2025 08:12:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我刚刚推出了一个工具，可以让您的 Webflow 网站更快</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o69lx8/i_just_launched_a_tool_to_make_your_webflow/</link>
-      <description><![CDATA[嘿 r/webdev， 我是 Jesse，一名自由 Web 开发人员，在过去的几年里优化了数百个客户端站点（其中许多内置于 Webflow）。在一遍又一遍地进行相同的手动速度和 Core Web Vitals 修复之后，我决定构建 PagePatcher.com 一个工具，以弥补高级优化报告与 Webflow 中实际可行之间的差距。 这就是我构建它的原因： 大多数 优化工具给你模糊或过于技术性的建议，例如：  “优化你的图像”，而不告诉你如何在 Webflow 中做到这一点 “消除渲染阻塞资源”，即使你无法轻松修改头部 或者它们根本不考虑 Webflow 的托管和结构  所以我做了一些事情： - 自动检测网站是否是使用 Webflow 构建的 - 提供特定于构建者的建议，您可以在 Webflow 中实际应用 - 解释为什么某些事情很重要（不假设您是开发人员） 它仍处于早期阶段，更像是 v0.8，但它已经为我在审核客户端站点时节省了宝贵的时间。 如果您曾经 我对“一刀切”的优化工具感到沮丧，我很想听听您的想法。此子的反馈特别有价值，因为你们中的许多人以前都处理过无代码工具的性能权衡。 在这里尝试一下，让我知道您的想法：pagepatcher.com 谢谢！ - Jesse   由   提交 /u/Future_Founder   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o69lx8/i_just_launched_a_tool_to_make_your_webflow/</guid>
-      <pubDate>Tue, 14 Oct 2025 08:10:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找网络开发人员</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o69haf/searching_for_a_web_developer/</link>
-      <description><![CDATA[其他事情会在dm中讨论，有兴趣请dm，基础知识也可以   由   提交/u/RanatheWirter  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o69haf/searching_for_a_web_developer/</guid>
-      <pubDate>Tue, 14 Oct 2025 08:01:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能让聘用优秀开发人员变得如此困难</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o68sch/ai_is_making_it_so_hard_to_hire_good_developers/</link>
-      <description><![CDATA[我已经尝试招聘两个月了。没有人工智能就无法编码的人数量是疯狂的。他们带来了令人印象深刻的产品组合，其中充满了复杂的应用程序和干净的代码。然后你问他们有关他们项目的技术问题，他们不知道如何解释。  问题是人们正在学习提示而不是学习编码。他们可以生成整个应用程序，但无法调试简单的问题。有一位候选人构建了这个令人印象深刻的演示。请他解释一项基本功能是如何工作的。他字面意思是“我不确定，克劳德处理了那部分。” 我并不反对人工智能工具。我们整个团队都使用它们。但使用人工智能来加快速度和使用人工智能来跳过理解之间是有区别的。如果当人工智能给你提供损坏的代码时你无法调试或无法理解实际发生的情况，那么你就不是开发人员。你只是一个复制粘贴的人。   由   提交 /u/notdl   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o68sch/ai_is_making_it_so_hard_to_hire_good_developers/</guid>
-      <pubDate>Tue, 14 Oct 2025 07:15:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>定制投资组合网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o68ilo/custom_portfolio_websites/</link>
-      <description><![CDATA[将设计并托管网站。这样做主要是为了建立自己的投资组合和经验并获得一些额外的现金。如果您有兴趣，请私信我，我们可以讨论细节。每个网站大约需要 1-2 天的时间。   由   提交/u/PomegranateFar0   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o68ilo/custom_portfolio_websites/</guid>
-      <pubDate>Tue, 14 Oct 2025 06:58:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找2年以上经验的全栈开发人员</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o684wx/looking_for_a_full_stack_developer_with_2_years/</link>
-      <description><![CDATA[我们正在组建我们的团队，并寻找有才华的全栈开发人员加入我们。理想的候选人应拥有至少 2 年 Java 和 React 经验。这是一个远程机会，我们可以根据您的经验、兴趣和时间灵活安排全职或兼职。如果您有兴趣或认识可能适合的人，请私信我。 提前致谢！   由   提交 /u/Affectionate-You7906   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o684wx/looking_for_a_full_stack_developer_with_2_years/</guid>
-      <pubDate>Tue, 14 Oct 2025 06:33:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>音乐播放器 Widget UI 这样好吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o67pc6/music_player_widget_ui_is_this_good/</link>
-      <description><![CDATA[   我设计了一个具有柔和渐变风格和简单播放控件的音乐播放器小部件。   由   提交/u/Pristine-Elevator198  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o67pc6/music_player_widget_ui_is_this_good/</guid>
-      <pubDate>Tue, 14 Oct 2025 06:06:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
