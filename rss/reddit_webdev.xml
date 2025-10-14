@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 14 Oct 2025 01:10:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 03:33:13 GMT</lastBuildDate>
+    <item>
+      <title>Vite+确实令人兴奋</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o64m9n/vite_is_genuinely_exciting/</link>
+      <description><![CDATA[我想现在每个人都听说过Vite+。感觉它会把水里的一切都吹出来。所以让我们讨论一下。 我认为它将取代我目前在 Javascript/Typescript 项目中使用的所有工具。我将列出我的个人用例。 vite lint - 目前根据项目使用 biome 和 eslint。 vite format - 目前根据项目使用 prettier 和 biome。 Biome 等不支持 Svelte。 vite lib - 目前使用 tsc 和 esbuild。 vite run - 这是最有趣的一个。我过去使用过nx和turborepo，现在选择了nx。 nx 时不时地会出现一些令人讨厌的错误，我们无法跟上他们的发布速度。 Turborepo 缺乏 nx 所具有的一些功能。 而且还有一些不错的小细节。例如，始终确保依赖项实际上是最新的。人们在拉取新提交时不会运行yarn install 或npm install 并搞砸了本地构建，以至于我们不得不围绕我们的任务构建一个小包装器。看起来 eslint 排序导入器将内置到他们的格式化程序等中。 对他们的路线图和即将发布的版本感到兴奋。看看他们的盈利模式将如何运作将会很有趣。我想它会非常好，以至于公司不会介意为此付费。   由   提交 /u/monad__   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o64m9n/vite_is_genuinely_exciting/</guid>
+      <pubDate>Tue, 14 Oct 2025 03:17:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>请继续反馈！没有对实习和应届毕业生的回复</title>
+      <link>https://www.reddit.com/r/webdev/comments/1o6474f/resume_feedback_please_no_responses_for/</link>
+      <description><![CDATA[      我担心我已经在 fronted/ui 利基领域挖掘得太深了，这是人工智能最可替代的领域之一。有谁对如何使其成为更好的前端/全栈简历有任何建议吗？ 任何帮助将不胜感激！  https://preview.redd.it/62dudpg4tzuf1.png?width=1098&amp;format=png&amp;auto=webp&amp;s=3f0d708a4518a94639e3d8e1339207f3be748ae6   由   提交 /u/TzuyuTz   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1o6474f/resume_feedback_please_no_responses_for/</guid>
+      <pubDate>Tue, 14 Oct 2025 02:56:17 GMT</pubDate>
+    </item>
     <item>
       <title>已经脱离自由职业/副业工作一段时间了。每小时的费率是多少？</title>
       <link>https://www.reddit.com/r/webdev/comments/1o60ufl/been_out_of_the_freelanceside_work_gig_for_a/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好， 我很高兴宣布 html-to-markdown 的 v2 版本。 这个库最初是作为 markdownify 的一个分支而诞生的。 用于将 HTML 转换为 Markdown 的 Python 库。我最初分叉它是因为我需要现代类型提示，但后来发现自己重写了整个东西。随着时间的推移，它对于 kreuzberg 变得至关重要，它作为 html -&gt; 和 html 的支柱。 Markdown 和 hOCR -&gt; markdown。 我正在开发 Kreuzberg v4，它将大部分内容迁移到 Rust。这也需要更新这个组件，这导致了 Rust 的完全重写，提供了改进的性能、内存稳定性和更强大的功能集。 v2 通过 CLI 和 Rust 箱提供了 Rust 支持的 HTML → Markdown 转换。它包括 python 和 JS/TS 的绑定，支持 Node、Bun、Deno 和边缘运行时。  重写使其成为迄今为止 Python 中 HTML 到 Markdown 转换的最高效、最完整的解决方案，我怀疑在 JS 中也是如此。  以下是一些基准测试： Apple M4 • 真实维基百科文档 • convert() (Python)   文档 大小 延迟 吞吐量 文档/秒    列表（时间轴） 129KB 0.62ms 208 MB/s 1,613   表格（国家/地区） 360KB 2.02ms 178 MB/s 495   混合（Python wiki） 656KB 4.56ms 144 MB/s 219    V1 平均约为 2.5 MB/s (Python/BeautifulSoup)。 V2 的 Rust 引擎可提供 60-80 倍的吞吐量。  Python 包仍然通过 html_to_markdown.v1_compat 公开 markdownify 风格的调用，因此迁移相对简单，尽管 v2 确实引入了一些重大更改（有关完整详细信息，请参阅 CHANGELOG.md），并且 compat 层是 由于 python 开销，速度要慢得多。 JS 绑定甚至比 Python 更快，因为 NAPI-RS 具有非常强大的 jit 集成！ 亮点 除了巨大的性能改进之外，以下是 v2 版本的主要亮点：  当您需要遗留行为时，具有显式切换的 CommonMark 兼容默认值。 内联图像提取 (convert_with_inline_images)，用于捕获数据 URI 资产和具有大小和配额控制的内联 SVG。 完全符合 hOCR 1.2 规范，包括 hOCR 表重建和用于元数据的 YAML frontmatter，以保持 OCR 输出结构化。 内存通过专用工具保持检查：重复转换保持在 200 MB 以下 多兆字节语料库上的 RSS。  目标受众  工程师替换基于 BeautifulSoup 的转换器，这些转换器在大型文档或 OCR 输出上会崩溃。 需要库、管道和批处理工具中的相同 Markdown 的用户。 构建文档理解堆栈（包括 kreuzberg）的团队 生态系统），依赖于严格的内存行为和并行吞吐量。 需要高效处理 hOCR 的 OCR 专家。  与替代方案的比较  markdownify： 精神始祖，不过还是Python + BeautifulSoup。 html-to-markdown v2 保留了 API 垫片，同时提供 60-80 倍以上的吞吐量、表格感知 hOCR 支持以及重复转换中确定性的内存使用情况。 html2text：对于快速脚本来说是可靠的， 但它缺乏 CommonMark 合规性，并且在复杂的表格和 OCR 布局上往往会出现偏差；它也会在压力下分配大量资源，因为它从来没有考虑到长时间运行的进程。 pandoc：非常灵活（并且令人惊叹！），但是对于纯 HTML → Markdown 管道来说很大，速度慢得多，并且不能嵌入到 Python 中 子进程杂耍。 html-to-markdown v2 提供了一个带有直接绑定的精简 Rust 核心，因此您可以在处理过程中保持性能。  如果您最终使用重写，repo 上的 ⭐️ 总是让您真正满意！   由   提交/u/Goldziher   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1o5q78c/announcing_htmltomarkdown_v2_rust_engine_and_cli/</guid>
       <pubDate>Mon, 13 Oct 2025 17:27:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站收费多少</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o5ppw2/how_much_do_u_charge_for_the_website/</link>
-      <description><![CDATA[大家好 我是一名网络开发新手，我的目标客户是想要开展电子商务的小型企业 你们收费多少，具体收费多少 你们的服务参数是什么 你们与客户签订了长期合同吗？或者只是制作一个网站，仅此而已？ 您的收费是多少？ 有很多问题，但您明白 您的收费系统是什么？    由   提交/u/funkymunky_10   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o5ppw2/how_much_do_u_charge_for_the_website/</guid>
-      <pubDate>Mon, 13 Oct 2025 17:10:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年 Spotify Web API 状况报告</title>
-      <link>https://www.reddit.com/r/webdev/comments/1o5oqt7/state_of_spotify_web_api_report_2025/</link>
-      <description><![CDATA[      去年 Spotify Web API 发生了很多变化：弃用的功能、增强的安全性以及严格的扩展访问新标准，这些都疏远了独立应用程序。我没有抱怨，而是整理了一份报告来了解这些新限制并找到实用的替代方案。如果您过去使用 Web API 进行过开发或正在考虑将来使用它进行构建，那么这是必读的。   由   提交/u/leemartin  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1o5oqt7/state_of_spotify_web_api_report_2025/</guid>
-      <pubDate>Mon, 13 Oct 2025 16:36:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
