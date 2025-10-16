@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Thu, 16 Oct 2025 15:18:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 18:23:46 GMT</lastBuildDate>
+    <item>
+      <title>有没有一种自动化的方法来设置一台新的电脑来进行人工智能辅助编码，比如巧克力包之类的？</title>
+      <link>https://www.reddit.com/r/software/comments/1o8d1td/is_there_an_automated_way_to_set_up_a_new_pc_for/</link>
+      <description><![CDATA[我不是程序员，但我能够使用 claude 代码和 codex 来制作一些 web 应用程序。我对其中的任何一无所知，每一步我都必须安装一些东西（其中许多我不明白）-终端中的东西，设置 github，安装 vs 代码和扩展，等等。这一切都是一点一点发生的，如果我必须再做一次，我不知道如何进行。 我想知道是否有像 Chocolatey 这样的软件包，可以设置一台新的电脑，为人工智能辅助编码做好准备，它将为你处理所有基础知识。所以你的终端可以工作，vs code 可以工作，本地运行代码然后发送到 github 可以工作，等等。   由   提交 /u/Okumam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1o8d1td/is_there_an_automated_way_to_set_up_a_new_pc_for/</guid>
+      <pubDate>Thu, 16 Oct 2025 17:48:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>来自摄影师的提问</title>
+      <link>https://www.reddit.com/r/software/comments/1o891gm/question_from_a_photographer/</link>
+      <description><![CDATA[ 由   提交 /u/Fantastic-Long-6261   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1o891gm/question_from_a_photographer/</guid>
+      <pubDate>Thu, 16 Oct 2025 15:21:41 GMT</pubDate>
+    </item>
     <item>
       <title>在浏览器中设计漂亮的可 3D 打印花盆 — 然后一键导出 STL</title>
       <link>https://www.reddit.com/r/software/comments/1o87pws/design_beautiful_3dprintable_planters_in_your/</link>
@@ -48,7 +62,7 @@
       <pubDate>Thu, 16 Oct 2025 08:00:30 GMT</pubDate>
     </item>
     <item>
-      <title>2025 年我们是否会过度设计软件？让我们来谈谈简单性与复杂性</title>
+      <title>2025 年我们是否会过度设计软件？让我们谈谈简单性与复杂性</title>
       <link>https://www.reddit.com/r/software/comments/1o7v85v/are_we_overengineering_software_in_2025_lets_talk/</link>
       <description><![CDATA[我最近注意到一种奇怪的模式。我加入的每个新项目似乎都有 10 个微服务、4 个抽象层和 0 个真实用户。 我们有用于小型应用程序的 Kubernetes 集群，有用于事件流的 Kafka（可能是简单的 cron 作业），以及产生比提交更多错误的“人工智能副驾驶”。 别误会我的意思 - 创新是惊人的。但感觉一路走来，简单性被低估了。 我最近仅使用简单的 Python + SQLite + Flask（没有云依赖项，没有花哨的框架）重构了一个内部工具，并且它就工作了。它快速、可维护，并且在 2 分钟内完成部署。 所以现在我很好奇： 我们是否因为它看起来“现代”而过度设计了一切？ 对于一个简单的项目，您见过的最不必要的复杂设置是什么？ 什么时候“保持简单”绝对可以让您保持理智？ 放下您的想法、故事，或在下面咆哮 让我们讨论一下——软件的未来是更简单还是更混乱？   由   提交/u/ReenuKher   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1o7v85v/are_we_overengineering_software_in_2025_lets_talk/</guid>
@@ -57,7 +71,7 @@
     <item>
       <title>一个简单的工具，可以根据您当前的心情为您提供音乐和视觉效果</title>
       <link>https://www.reddit.com/r/software/comments/1o7suou/a_simple_tool_that_gives_you_music_visuals_based/</link>
-      <description><![CDATA[ https://preview.redd.it/l6lul21eidvf1.png?width=3210&amp;format=png&amp;auto=webp&amp;s=68d5190946dc7112d86fcb4569f4781353ce067b 我总是有这样的时刻，我无法清楚地表达出我的感受或我需要什么来改变我的情绪。因此，我构建了一个工具，您只需描述自己的感受，它就会为您提供匹配的音乐和图像。 尝试一下：https://moodboard-app-black.vercel.app/ 这是一个周末项目，我在很长时间后终于发布了，所以欢迎反馈 - 这实际上有帮助吗？ 这只是一个好主意，没什么作用？ （使用 Unsplash API 和 YouTube 嵌入制作，完全免费使用）   由   提交 /u/Upbeat_Lettuce_1741   [链接] [评论]]]></description>
+      <description><![CDATA[ https://preview.redd.it/l6lul21eidvf1.png?width=3210&amp;format=png&amp;auto=webp&amp;s=68d5190946dc7112d86fcb4569f4781353ce067b 我总是有这样的时刻，我无法清楚地表达出我的感受或我需要什么来改变我的情绪。因此，我构建了一个工具，您只需描述自己的感受，它就会为您提供匹配的音乐和图像。 尝试一下：https://moodboard-app-black.vercel.app/ 这是一个周末项目，我在很长时间后终于发布了，所以欢迎反馈 - 这是否真的有帮助或有帮助 这只是一个好主意，没什么作用？ （使用 Unsplash API 和 YouTube 嵌入制作，完全免费使用）   由   提交 /u/Upbeat_Lettuce_1741   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1o7suou/a_simple_tool_that_gives_you_music_visuals_based/</guid>
       <pubDate>Thu, 16 Oct 2025 01:06:46 GMT</pubDate>
     </item>
@@ -83,25 +97,11 @@
       <pubDate>Wed, 15 Oct 2025 22:29:57 GMT</pubDate>
     </item>
     <item>
-      <title>MP4 转 SCR</title>
-      <link>https://www.reddit.com/r/software/comments/1o7n9ff/mp4_to_scr/</link>
-      <description><![CDATA[大家好！我在一家广告公司工作，我需要将 MP4 转换为 SCR，以便客户在所有计算机上用作屏幕保护程序，但我一生都无法转换。 Adobe 没有帮助。我想避免粗略的网站。有人可以帮忙吗？    由   提交 /u/Square_Nose1696   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1o7n9ff/mp4_to_scr/</guid>
-      <pubDate>Wed, 15 Oct 2025 21:07:28 GMT</pubDate>
-    </item>
-    <item>
       <title>正在寻找带有认证的免费 Java 课程 – 推荐？</title>
       <link>https://www.reddit.com/r/software/comments/1o7k7ih/looking_for_free_java_courses_with_certification/</link>
       <description><![CDATA[ 由   提交 /u/Glass_Leg_3151   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1o7k7ih/looking_for_free_java_courses_with_certification/</guid>
       <pubDate>Wed, 15 Oct 2025 19:11:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个 Chrome 扩展程序，可以像人类一样输入文本以避免复制粘贴检测</title>
-      <link>https://www.reddit.com/r/software/comments/1o7faz7/built_a_chrome_extension_that_types_text_like_a/</link>
-      <description><![CDATA[我厌倦了标记复制粘贴文本的平台，所以我构建了 HumanTyper  - 一个 Chrome 扩展程序，可模拟真实的人类打字，并具有随机延迟 击键。 它除了避免检测之外还非常有用。我一直在现场演示中使用它，我想要打字效果，填写重复的表单而不看起来像机器人，并使用真实的用户输入测试应用程序。 该扩展允许您将打字速度从非常慢调整到非常快，并且您可以启用可选功能，例如具有自动更正和自然停顿的随机拼写错误，使其更加人性化。适用于任何网站、文本字段或编辑器。 一切都在浏览器本地运行，无需收集数据。只需复制您的文本，单击扩展程序图标，将其粘贴到弹出窗口中，选择您的设置，然后单击任何文本字段即可开始输入。 前两周就纯粹通过有机增长吸引了 130 名用户，这令人鼓舞。我很想听听其他人是否处理过复制粘贴检测问题或发现了打字自动化的创造性用途。 如果有人想尝试，可以在 Chrome 网上应用店和 Edge 插件上找到。   由   提交 /u/TechnologyCrafty3546   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1o7faz7/built_a_chrome_extension_that_types_text_like_a/</guid>
-      <pubDate>Wed, 15 Oct 2025 16:10:56 GMT</pubDate>
     </item>
     <item>
       <title>有类似的艺术软件/模板/网站吗？</title>
