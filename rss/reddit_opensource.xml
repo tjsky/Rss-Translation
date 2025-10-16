@@ -4,20 +4,20 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 16 Oct 2025 06:25:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 09:20:18 GMT</lastBuildDate>
+    <item>
+      <title>大规模法律嵌入基准 (MLEB) 简介</title>
+      <link>https://www.reddit.com/r/opensource/comments/1o81cmr/introducing_the_massive_legal_embedding_benchmark/</link>
+      <description><![CDATA[https://isaacus.com/blog/introducing-mleb MLEB 包含 10 个数据集，涵盖多种文档类型、司法管辖区、法律领域和  数据集都是开源的，并且有一个 github 存储库可以帮助您对其进行基准测试： https://github.com/isaacus-dev/mleb   由   提交/u/Neon0asis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1o81cmr/introducing_the_massive_legal_embedding_benchmark/</guid>
+      <pubDate>Thu, 16 Oct 2025 09:13:44 GMT</pubDate>
+    </item>
     <item>
       <title>找到了一个带有 NextJS 堆栈的 Open WebUI 克隆</title>
       <link>https://www.reddit.com/r/opensource/comments/1o7vog6/found_an_open_webui_clone_with_a_nextjs_stack/</link>
       <description><![CDATA[https://github.com/openchatui/openchat 我已经使用 Open WebUI 一段时间了，想要开发一项功能，但发现它非常烦人。我对堆栈不熟悉，当我询问有关技术堆栈的问题时，社区也表现得居高临下。我个人使用 NextJS，Open WebUI 使用 svelte。所以我遇到了这个开源 NextJS Open Web UI 克隆，我喜欢它。它仍然是新的，所以它只有大约 20%（如果有的话）的功能，但我想我应该对它大加赞扬。它只有一名开发人员在研究它，我认为它应该得到更多关注。   由   提交/u/blexotti   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o7vog6/found_an_open_webui_clone_with_a_nextjs_stack/</guid>
       <pubDate>Thu, 16 Oct 2025 03:24:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Keycloak 中的多租户架构（领域、客户端、新组织）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o7mpn4/multitenant_architectures_in_keycloak_realms_vs/</link>
-      <description><![CDATA[我一直在探索在 Keycloak 中处理多租户的不同方法，因为这是一个经常出现的主题（领域、客户端与多个部署）。以下是主要模型的快速细分，它们擅长什么，以及它们容易崩溃的地方。 单租户（每个客户/应用一个 Keycloak） 在此设置中，每个客户都有一个完全隔离的 Keycloak 实例。  主要优点是完全分离：一个租户中的错误或配置错误不会影响另一个租户。 由于每个堆栈都是独立的，因此故障排除更加简单。 但规模较大时，这将成为运营的噩梦。每个 Keycloak 版本都必须单独应用于每个租户。一年内有 3 个租户和 18 个版本，需要处理 54 次升级。  多领域（一个 Keycloak，多个领域） 这里，单个 Keycloak 实例托管多个领域，每个领域专用于一个租户。  这使您可以池化基础设施并降低成本，同时保持各个领域之间的逻辑分离。  但是，身份很快就会变得混乱：跨多个领域的同一用户意味着多个帐户和密码。 性能还会降低到超过约 100 个领域：启动缓慢、管理控制台滞后和实体创建问题。 团队通常需要构建同步覆盖来解决这些限制。  多客户端（一个） 领域，多个客户端） 在此模型中，所有租户都生活在同一个领域，每个租户都代表一个客户端。  它比多领域更具可扩展性：您可以在一个领域中托管数千个客户。 成本和精力集中，维护也得到简化。 权衡是访问控制转移到应用程序。必须仔细解释角色和标签，以强制实施租户边界。 这需要更多的自定义，如果处理不当，还会带来跨租户暴露的风险。  组织（在 v25 中引入，在 v26 中改进） 组织在领域内提供一个新的抽象层来对租户及其用户进行分组。 自 v26，Keycloak 正式支持组织，早期用户报告许多核心操作（CRUD、成员管理等）都可以正常运行。然而，一些边缘情况，例如通过 API 将现有领域用户链接到组织，仍然存在摩擦。 此功能可以降低多领域设置的复杂性，并在可扩展性和分离之间提供中间立场，但我们还没有足够的生产案例来了解它如何在规模上保持不变。 结论 没有通用的答案。每个模型都会在隔离性、可扩展性、用户体验和运营痛苦之间进行权衡。 “正确”的选择实际上取决于您的环境：SaaS 增长、企业合规性或严格隔离。 TL;DR  首先需要隔离 → 单租户。 需要通过一些权衡降低成本 → 多领域。 需要规模和数千个客户 → 多客户端。 对 未来 → v26 中的组织得到了官方支持并且看起来很有前途，但大规模生产反馈仍然有限。  如果您已经扩展了多领域或多客户端设置，什么对您有效（或失败）？对于那些已经在 v26 中测试过组织的人来说，它是否改变了您的多租户方法？ （我还编写了一个较长的版本，并在我的公司网站上发布了图表。如果您认为我错过了任何内容，很高兴听到：https://www.cloud-iam.com/post/keycloak-multi-tenancy/)   由   提交/u/Will-from-CloudIAM   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o7mpn4/multitenant_architectures_in_keycloak_realms_vs/</guid>
-      <pubDate>Wed, 15 Oct 2025 20:46:48 GMT</pubDate>
     </item>
     <item>
       <title>开源互联网</title>
