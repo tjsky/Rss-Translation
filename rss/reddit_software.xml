@@ -4,9 +4,9 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Thu, 16 Oct 2025 21:15:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 01:09:31 GMT</lastBuildDate>
     <item>
-      <title>为老年人复制/粘贴操作系统</title>
+      <title>适合老年人的复制/粘贴操作系统</title>
       <link>https://www.reddit.com/r/software/comments/1o8hppw/copypasting_os_for_older_folks/</link>
       <description><![CDATA[为这个愚蠢的问题道歉，但我年纪大了，而且陷入困境。 这纯粹是一个“是”的问题。或“否”问题，但我们将不胜感激。 我有一个全新的 512 GB SSD，但没有 Windows 闪存驱动器。 是否可以将我的 Windows 从旧硬盘复制到新 SSD？行得通吗？我以后可以从新的 SSD 启动 Windows 吗？   由   提交/u/Jkat17  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1o8hppw/copypasting_os_for_older_folks/</guid>
@@ -78,12 +78,12 @@
     <item>
       <title>BentoPDF 现已开源</title>
       <link>https://www.reddit.com/r/software/comments/1o80982/bentopdf_is_now_open_sourced/</link>
-      <description><![CDATA[BentoPDF 是一个隐私优先的 PDF 工具包，可在客户端离线运行。我们两天前开源了它，并且已经突破了 500 星！您也可以自行托管它。 存储库：https://github.com/alam00000/bentopdf   由   提交/u/paglaulta   [链接] [评论]]]></description>
+      <description><![CDATA[BentoPDF 是一个隐私优先的 PDF 工具包，可在客户端离线运行。我们两天前开源了它，并且已经突破了 500 星！您也可以自行托管它。 存储库：https://github.com/alam00000/bentopdf   由   提交/u/paglaulta  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1o80982/bentopdf_is_now_open_sourced/</guid>
       <pubDate>Thu, 16 Oct 2025 08:00:30 GMT</pubDate>
     </item>
     <item>
-      <title>2025 年我们是否会过度设计软件？让我们谈谈简单性与复杂性</title>
+      <title>2025 年我们是否会过度设计软件？让我们来谈谈简单性与复杂性</title>
       <link>https://www.reddit.com/r/software/comments/1o7v85v/are_we_overengineering_software_in_2025_lets_talk/</link>
       <description><![CDATA[我最近注意到一种奇怪的模式。我加入的每个新项目似乎都有 10 个微服务、4 个抽象层和 0 个真实用户。 我们有用于小型应用程序的 Kubernetes 集群，有用于事件流的 Kafka（可能是简单的 cron 作业），以及产生比提交更多错误的“人工智能副驾驶”。 别误会我的意思 - 创新是惊人的。但感觉一路走来，简单性被低估了。 我最近仅使用简单的 Python + SQLite + Flask（没有云依赖项，没有花哨的框架）重构了一个内部工具，并且它就工作了。它快速、可维护，并且在 2 分钟内完成部署。 所以现在我很好奇： 我们是否因为它看起来“现代”而过度设计了一切？ 对于一个简单的项目，您见过的最不必要的复杂设置是什么？ 什么时候“保持简单”绝对可以让您保持理智？ 放下您的想法、故事，或在下面咆哮 让我们讨论一下——软件的未来是更简单还是更混乱？   由   提交/u/ReenuKher   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1o7v85v/are_we_overengineering_software_in_2025_lets_talk/</guid>
@@ -92,7 +92,7 @@
     <item>
       <title>一个简单的工具，可以根据您当前的心情为您提供音乐和视觉效果</title>
       <link>https://www.reddit.com/r/software/comments/1o7suou/a_simple_tool_that_gives_you_music_visuals_based/</link>
-      <description><![CDATA[ https://preview.redd.it/l6lul21eidvf1.png?width=3210&amp;format=png&amp;auto=webp&amp;s=68d5190946dc7112d86fcb4569f4781353ce067b 我总是有这样的时刻，我无法清楚地表达出我的感受或我需要什么来改变我的情绪。因此，我构建了一个工具，您只需描述自己的感受，它就会为您提供匹配的音乐和图像。 尝试一下：https://moodboard-app-black.vercel.app/ 这是一个周末项目，我在很长时间后终于发布了，所以欢迎反馈 - 这是否真的有帮助或有帮助 这只是一个好主意，没什么作用？ （使用 Unsplash API 和 YouTube 嵌入制作，完全免费使用）   由   提交 /u/Upbeat_Lettuce_1741   [链接] [评论]]]></description>
+      <description><![CDATA[ https://preview.redd.it/l6lul21eidvf1.png?width=3210&amp;format=png&amp;auto=webp&amp;s=68d5190946dc7112d86fcb4569f4781353ce067b 我总是有这样的时刻，我无法清楚地表达出我的感受或我需要什么来改变我的情绪。因此，我构建了一个工具，您只需描述自己的感受，它就会为您提供匹配的音乐和图像。 尝试一下：https://moodboard-app-black.vercel.app/ 这是一个周末项目，我在很长时间后终于发布了，所以欢迎反馈 - 这实际上有帮助吗？ 这只是一个好主意，没什么作用？ （使用 Unsplash API 和 YouTube 嵌入制作，完全免费使用）   由   提交 /u/Upbeat_Lettuce_1741   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1o7suou/a_simple_tool_that_gives_you_music_visuals_based/</guid>
       <pubDate>Thu, 16 Oct 2025 01:06:46 GMT</pubDate>
     </item>
