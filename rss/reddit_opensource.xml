@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 17 Oct 2025 01:10:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 06:23:30 GMT</lastBuildDate>
+    <item>
+      <title>这就是我们过去 6 个月来一直在努力的事情</title>
+      <link>https://www.reddit.com/r/opensource/comments/1o8t0uc/this_is_what_we_have_been_working_on_for_past_6/</link>
+      <description><![CDATA[超过 30 亿人每天在移动设备上花费数小时，但该平台在很大程度上仍未受到 AI 自动化的影响。桌面？解决了。网络？简单的。移动的？仍然是不可能的。 之前的尝试试图让人工智能像人类一样“看到”移动屏幕；但现在却失败了。速度慢、成本高，而且在实际应用程序上容易崩溃。 我们选择了一条不同的路线：将移动用户界面转换为大型语言模型自然理解的结构化文本。结果呢？真正有效的准确、可用于生产的移动自动化。到目前为止，我们已经赢得了 4000 多个 GitHub 星星，筹集了 210 万欧元的资金，并被评为 Product Hunt 的每日产品。 但这仅仅是开始。我们最近在 AndroidWorld 上取得的成功证明了自主移动代理的潜力，而且还有更多的未来。移动自动化领域正在快速发展，我们致力于突破其极限。 请记住，所有这些进步都是在我们当前的设置下取得的。想象一下，当我们不断完善和扩展 Droidrun 时，会发生什么。由于完全开源，每一项改进不仅使我们受益，而且使整个社区受益。 在 github 上为我们的项目做出贡献 - https://github.com/droidrun/droidrun   由   提交/u/ya_Priya  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1o8t0uc/this_is_what_we_have_been_working_on_for_past_6/</guid>
+      <pubDate>Fri, 17 Oct 2025 05:32:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>NordVPN 在 GPLv3 下开源其 Linux GUI 客户端</title>
+      <link>https://www.reddit.com/r/opensource/comments/1o8o0n3/nordvpn_open_sources_its_linux_gui_client_under/</link>
+      <description><![CDATA[       由   提交/u/swe129  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1o8o0n3/nordvpn_open_sources_its_linux_gui_client_under/</guid>
+      <pubDate>Fri, 17 Oct 2025 01:16:45 GMT</pubDate>
+    </item>
     <item>
       <title>嘿伙计，喜欢一些开源项目吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1o8jlng/hey_mate_fancy_some_open_source_projects/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好，我一直在开发一个名为 Rachoon 的自托管发票应用程序（该名称来自波斯尼亚语单词 račun，意思是发票）。我构建它是因为我想要一些轻量级的东西，完全在我的控制之下。 这一切都始于 2016 年，当时我成为个体经营者，我需要一些东西来创建发票。起初，我使用了专有的 SaaS 产品，它本身是一个很好的产品，但至少可以说，他们的支持很糟糕。我研究了自托管的替代方案，当时这些方案看起来基本能满足我的需求。因此，我把事情掌握在自己手中，并开始研究 Rachoon。 我已经让它很好地满足了我的需求，并继续私下使用它，托管在我的 HomeLab 上。现在我有更多时间，我决定将其投入生产，供其他人使用。 它的作用如下：  创建和管理发票和报价 跟踪客户和付款 使用 nunjucks 高度可定制的发票模板，并带有您的品牌 生成 PDF 和预览 支持多种货币和税收  它是开源的，因此我能够调整内容以适应我的工作流程，并且我可以看到它对于希望将所有内容保留在本地的自由职业者或小型团队有何用处。 如果您喜欢自托管并希望避免订阅 发票工具，可能值得一看：https://github.com/ad-on-is/rachoon 我很乐意回答有关设置或如何在自己的工作流程中使用它的问题。   由   提交/u/ad-on-is   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o7bywg/rachoon_selfhosted_invoicing_made_simple/</guid>
       <pubDate>Wed, 15 Oct 2025 14:06:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于那些想要为回购做出贡献但从未这样做过的人</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o79k5g/for_those_who_want_to_contribute_to_a_repo_but/</link>
-      <description><![CDATA[      大家好，你们当中有谁想要做出贡献，但没有能力或不知道如何做？这是很多刚接触编程并想参与开源社区的人都会遇到的问题。 hacktoberfest 将于本月举行，这是一个专注于开源的活动，您可以在其中找到许多新项目，这是以简单的方式开始贡献的好方法！为了这次活动，我创建了一个完全用 Python 开发的开源项目，专注于人工智能和金融，专为那些初学者但想要忙于实际项目的人而设计。您会发现各种类型的问题，有些是专门为简单而设计的，有些是为更有经验的人设计的更具挑战性。 Hacktoberfest 规则：https://hacktoberfest.com/ 我希望它对您有用！快乐编码和 Hacktoberfest！   由   提交/u/Warm_Interaction_375   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o79k5g/for_those_who_want_to_contribute_to_a_repo_but/</guid>
-      <pubDate>Wed, 15 Oct 2025 12:25:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>问：Micro G 和 Aurora Store 的安全性如何？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o78sco/question_how_safe_is_micro_g_and_aurora_store/</link>
-      <description><![CDATA[我已在华为手机上安装了 Micro G 并使用 Aurora Store 下载/安装应用程序。我想了解 Micro G 和 Aurora Store 的隐私政策。我不敢下载银行应用程序。   由   提交 /u/SilveryGaming   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o78sco/question_how_safe_is_micro_g_and_aurora_store/</guid>
-      <pubDate>Wed, 15 Oct 2025 11:48:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
