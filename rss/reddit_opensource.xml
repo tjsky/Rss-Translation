@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 19 Oct 2025 01:19:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 03:46:09 GMT</lastBuildDate>
+    <item>
+      <title>Rivet.dev</title>
+      <link>https://www.reddit.com/r/opensource/comments/1oaeurb/rivetdev/</link>
+      <description><![CDATA[寻找持久对象的开源替代品。搜索了一段时间，我找到了rivet.dev。 有人用过这个项目吗，这是一个非常有趣的项目，有很多明星。但看看 npm 下载，好像没有人使用它们。   由   提交 /u/Flashy_Reality8406   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1oaeurb/rivetdev/</guid>
+      <pubDate>Sun, 19 Oct 2025 02:56:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Flowgramming——读起来像句子的程序</title>
+      <link>https://www.reddit.com/r/opensource/comments/1oadjsw/flowgramming_programs_that_read_like_sentences/</link>
+      <description><![CDATA[大多数编程语言首先是为机器构建的，其次是为人类构建的。 Flowgramming 颠覆了这一点。 这是一个开源项目，旨在设计一个模块化、基于流程的编程环境，其中逻辑读起来就像自然语言一样。 您无需编写语法，而是描述应该发生的情况 - FlowOS 通过以下方式构建逻辑： 模块化、可审核的组件，称为 FlowBlocks。 例如，这是有效的 FlowScript： action:intent:“sort_list”输入：“数据块：numbers.raw”输出：“DataBlock：numbers.sorted”标签：[low_memory，auditable]  该行的含义是：   Flowgramming 处理剩下的事情 — 选择最佳的 ActionBlock，执行内存和安全规则，并记录整个过程以进行审核。 完整的系统包括：  FlowDirector — 运行时和调度程序 ActionSystem - 模块化、独立的逻辑单元 CommSystem - 受控通信块 DataSystem - 可信数据处理和版本控制 FlowGuard  - 内置信任和安全实施 FlowLog — 透明的可观察性和审计跟踪  它已获得 MPL 2.0 许可，因此它保持开放性，但可以灵活地供研究或企业使用。 该文档每周都会扩展 — 非常欢迎早期贡献者。 GitHub 存储库：https://github.com/donsauber/FlowOS 如果您感兴趣：  声明式系统设计 基于流程的编程 模块化运行时架构 或真正编写代码 人类可读  …来看看，留下一个星星，或者加入“讨论”选项卡。 Flowgramming 还处于早期阶段 - 但目标很简单： 让编程成为你可以阅读、解释和信任的东西。   由   提交/u/IllustriousAd6785   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1oadjsw/flowgramming_programs_that_read_like_sentences/</guid>
+      <pubDate>Sun, 19 Oct 2025 01:48:58 GMT</pubDate>
+    </item>
     <item>
       <title>我刚刚发布了适用于 Windows 的 NETworkManager 2025.10.18.0</title>
       <link>https://www.reddit.com/r/opensource/comments/1oacqze/i_just_released_networkmanager_202510180_for/</link>
@@ -69,7 +83,7 @@
       <pubDate>Sat, 18 Oct 2025 08:52:15 GMT</pubDate>
     </item>
     <item>
-      <title>Kaizen v2.1.0 即将推出！喜欢的话就支持一下吧</title>
+      <title>Kaizen v2.1.0 即将推出！！如果喜欢就支持一下吧</title>
       <link>https://www.reddit.com/r/opensource/comments/1o9omoa/kaizen_v210_on_its_way_support_and_drop_a_star_if/</link>
       <description><![CDATA[      我和我的一位朋友一起构建了 kaizen。 Kaizen 是一个用 Go 编写的 TUI 动漫客户端。随着 TUI 最近的成功（38 颗星，4 颗叉子），我们决定将其发布在这里以分享这一点。新的更新将在终端本身中附带动漫海报，并增强视频播放和优化 API。支持这个项目，如果你喜欢你所看到的，请给个星！！ 谢谢：D Github 链接：https://github.com/serene-brew/Kaizen   由   提交/u/late-garlic-5024   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o9omoa/kaizen_v210_on_its_way_support_and_drop_a_star_if/</guid>
@@ -95,20 +109,6 @@
       <description><![CDATA[作为一名电子竞技迷，我厌倦了手动跟踪不同游戏的锦标赛日程并错过重要比赛。因此，我构建了一个免费使用的 API，可以将电子竞技比赛自动同步到任何日历应用程序。 它的酷所在： - 通用兼容性：可与 Google 日历、Apple 日历、Outlook、iOS、Android 配合使用 - 任何支持 iCal 源的内容 - 支持 50 多种游戏：从《火箭联盟》、《英雄联盟》和 CS2 到《Deadlock》和《Marvel Rivals》等较新游戏 - 智能过滤：正则表达式支持 适用于球队/比赛（例如，仅 RLCS 比赛，或仅与您最喜爱的球队比赛） - 实时更新：安排新比赛时，您的日历会自动刷新 - 零设置：只需将 URL 添加到您的日历 - 无需帐户，无需 API 密钥，无需 BS 技术堆栈： - TypeScript + Node.js + Express - 用于网页抓取的 Axios Liquipedia - Cheerio for HTML 解析 - 生成符合标准的 iCal/ICS 提要 它完全免费且可自行托管。我在自己的服务器上运行公共实例，因为我相信电子竞技迷不应该为基本的日历集成付费。 GitHub：github.com/snwfdhmp/liquipedia-cal 希望获得社区的反馈！哪些功能会让它对您更有用？   由   提交/u/snwfdhmp  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o9hc4q/esports_matches_now_in_your_calendar/</guid>
       <pubDate>Sat, 18 Oct 2025 00:05:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助决定是否开源工具</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o9h6n4/help_with_decision_on_whether_to_open_source_a/</link>
-      <description><![CDATA[我已经构建了一个智能合约工具，我确信该工具还不是为 web3 构建的。它是Web2中非常常用的工具。但在web3中却找不到。我正在尝试决定是否应该在 GitHub 上使用许可证开源该工具，或者保持其闭源并将其用作收入模式。我担心公司在确定差距后会采用代码并构建自己的代码并构建具有相同功能的不同工具。我如何确定开源是否是一个好主意以及我应该如何解决这个问题？我希望社区可以使用该工具。如何确定我构建的工具是否适合开源？ 任何建议或讨论将不胜感激。   由   提交/u/0x077777  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o9h6n4/help_with_decision_on_whether_to_open_source_a/</guid>
-      <pubDate>Fri, 17 Oct 2025 23:58:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想制作一个受 Monkeytype 启发的美观、简约的日语学习平台</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o9fege/i_want_to_make_an_aesthetic_minimalist_platform/</link>
-      <description><![CDATA[      这个想法实际上很简单。作为一名日语学习者和程序员，我一直希望有一个开源的、100%免费的日语学习应用程序，类似于打字社区中的 Monkeytype。 不幸的是，现在几乎所有语言学习应用程序都是闭源且付费的，而免费的应用程序不幸已被放弃。 但是，当然，仅仅创建另一个语言学习应用程序是不够的 - 必须有一个独特的卖点。然后我有了一个疯狂的想法：我将做其他语言学习应用程序从未做过的事情，添加无数种不同的颜色主题和字体，以真正击中要害并尊重该应用程序的原始灵感，Monkeytype！ 所以我做到了。现在，我正在寻找该应用程序早期阶段的贡献者和测试人员。该应用程序已拥有 5,000 名每月活跃用户，在 GitHub 上有近 300 颗星，我们希望进一步发展该项目。 为什么？因为宅男和宅男们也应该拥有一个免费、美观、社区驱动、高质量的日语学习平台哈哈哈。 GitHub：https://github.com/lingdojo/kanadojo どもありがとうございます！   由   提交/u/icy_skies  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o9fege/i_want_to_make_an_aesthetic_minimalist_platform/</guid>
-      <pubDate>Fri, 17 Oct 2025 22:37:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
