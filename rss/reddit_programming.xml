@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 18 Oct 2025 21:15:15 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 01:18:01 GMT</lastBuildDate>
+    <item>
+      <title>预测 2027 年科技行业会是什么样子</title>
+      <link>https://www.reddit.com/r/programming/comments/1oabk38/prediction_of_what_tech_industry_in_2027_could/</link>
+      <description><![CDATA[预测 2027 年科技行业会是什么样子。找到了这个 2027 年就业行业的模拟   由   提交/u/Exact_Log_3354   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oabk38/prediction_of_what_tech_industry_in_2027_could/</guid>
+      <pubDate>Sun, 19 Oct 2025 00:08:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>[周六项目] 回购演练：从第一次提交开始了解大型回购的小型实用工具</title>
+      <link>https://www.reddit.com/r/programming/comments/1oa9gtm/saturday_project_repo_walkthrough_small_utility/</link>
+      <description><![CDATA[我刚刚制作了一个实用工具，以更好地了解大型项目是如何制作的 例如，Next.js 现在非常庞大且令人畏惧。 但是，如果您进行第一次提交，就不难看出正在做什么以及意图是什么。 该工具可以让您轻松地及时推进 &lt;- 和 -&gt;  您可以按“d”键进入差异模式，它将获取提交之间的差异并将其应用为更改，以便您可以轻松查看 VSCode 或光标中的更改。 在下面的视频示例中，我使用 Next.js 存储库并及时逐步执行它以查看做出了哪些决定。 我使用“更改”按钮在光标中查看以获得良好的差异视图   由   提交 /u/sandalphone   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oa9gtm/saturday_project_repo_walkthrough_small_utility/</guid>
+      <pubDate>Sat, 18 Oct 2025 22:33:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>嵌入式编程器电源</title>
+      <link>https://www.reddit.com/r/programming/comments/1oa9698/power_supply_for_embedded_programmers/</link>
+      <description><![CDATA[我一直致力于一个名为 BenchVolt PD 的小型开源项目，这是一款专为家庭实验室和像我这样的创客设计的低成本电源。它的诞生是为了满足工作台上简单、实惠且可靠的需求。 很快它将在 Crowd Supply 上以裸 PCB 形式提供 和一个完整的单元。您可以支持该项目，甚至可以使用开源设计文件构建自己的项目。我很想听听您的想法和反馈。 https://www.crowdsupply.com/fusionxvision/benchvolt-pd   由   提交/u/EEEngineer4Ever  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oa9698/power_supply_for_embedded_programmers/</guid>
+      <pubDate>Sat, 18 Oct 2025 22:19:57 GMT</pubDate>
+    </item>
     <item>
       <title>我们来做个游戏吧！ 341：电锯</title>
       <link>https://www.reddit.com/r/programming/comments/1oa69z4/lets_make_a_game_341_chainsaws/</link>
@@ -50,14 +71,14 @@
     <item>
       <title>规范驱动的人工智能工具包</title>
       <link>https://www.reddit.com/r/programming/comments/1o9yivq/specdriven_ai_toolkit/</link>
-      <description><![CDATA[GitHub 提供的一种新方法，利用 AI 和代理工具通过 Spec Kit（开源）更智能地完成您的工作，将需求转化为可操作的蓝图，简化开发并提高团队的代码质量。   由   提交 /u/abdelrhman-arnos   [链接] [评论]]]></description>
+      <description><![CDATA[GitHub 提供的一种新方法，可利用 AI 和代理工具通过 Spec Kit（开源）更智能地完成您的工作，将需求转化为可操作的蓝图，简化开发并提高团队的代码质量。   由   提交 /u/abdelrhman-arnos   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o9yivq/specdriven_ai_toolkit/</guid>
       <pubDate>Sat, 18 Oct 2025 15:18:08 GMT</pubDate>
     </item>
     <item>
       <title>我们构建了 Sidian，这是一个隐私第一的人工智能代码编辑器，它使用上下文引擎来理解您的整个代码库。</title>
       <link>https://www.reddit.com/r/programming/comments/1o9wz55/we_have_built_sidian_a_privacy_first_ai_code/</link>
-      <description><![CDATA[大家好， 经过大量工作，我和我的团队很高兴能分享 Sidian 的公开测试版，这是我们为解决让我们抓狂的问题而构建的 AI 代码编辑器。 像你们中的许多人一样，我们发现大多数 AI 编码工具非常适合小型、孤立的任务，但在理解大型、复杂的上下文时就会崩溃。 项目。他们不知道另一个目录中的内部库或您的团队使用的特定模式。 我们的解决方案是一个专有的上下文引擎，它可以索引您的整个存储库。这使得人工智能能够获得全面的了解，从而提供更加智能和准确的帮助。 这就是 Sidian 的不同之处：  完整的存储库上下文：它不仅仅读取您当前的文件；它还会读取您当前的文件。它了解整个项目。这是重构、调试和生成功能代码的游戏规则改变者。 隐私第一： Sidian 专为在本地计算机上工作而构建。它永远不会存储您的代码或将您的代码发送到外部服务器。您计算机上的内容将保留在您的计算机上。 多提供商和多提供商本地模型：我们支持所有主要的人工智能提供商（OpenAI、Anthropic、Google 等），但更重要的是，我们与 Ollama 和 LM Studio 具有一流的集成。您可以在自己的硬件上运行推理，以实现完全的隐私和控制。 不仅仅是一个助手：它具有强大的代理，用于规划、调试和数据分析，所有这些都由相同的上下文引擎提供支持。  我们处于公开测试版，可以免费下载，我们真诚地渴望来自社区的反馈。让我们知道您的想法、您讨厌的内容以及我们下一步应该构建什么。 感谢您查看！   由   提交/u/BHAWESHBHASKAR   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 经过大量工作，我和我的团队很高兴分享 Sidian 的公开测试版，这是我们为解决让我们抓狂的问题而构建的 AI 代码编辑器。 像你们中的许多人一样，我们发现大多数 AI 编码工具非常适合小型、孤立的任务，但在理解大型、复杂的上下文时就会崩溃。 项目。他们不知道另一个目录中的内部库或您的团队使用的特定模式。 我们的解决方案是一个专有的上下文引擎，它可以索引您的整个存储库。这使得人工智能能够获得全面的了解，从而提供更加智能和准确的帮助。 这就是 Sidian 的不同之处：  完整的存储库上下文：它不仅仅读取您当前的文件；它还会读取您当前的文件。它了解整个项目。这是重构、调试和生成功能代码的游戏规则改变者。 隐私第一： Sidian 专为在本地计算机上工作而构建。它永远不会存储您的代码或将您的代码发送到外部服务器。您计算机上的内容将保留在您的计算机上。 多提供商和多提供商本地模型：我们支持所有主要的人工智能提供商（OpenAI、Anthropic、Google 等），但更重要的是，我们与 Ollama 和 LM Studio 具有一流的集成。您可以在自己的硬件上运行推理，以实现完全的隐私和控制。 不仅仅是一个助手：它具有强大的代理，用于规划、调试和数据分析，所有这些都由相同的上下文引擎提供支持。  我们处于公开测试版，可以免费下载，我们真诚地渴望来自社区的反馈。让我们知道您的想法、您讨厌的内容以及我们下一步应该构建什么。 感谢您查看！   由   提交/u/BHAWESHBHASKAR   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o9wz55/we_have_built_sidian_a_privacy_first_ai_code/</guid>
       <pubDate>Sat, 18 Oct 2025 14:15:50 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[我写了一篇文章，探讨开发人员工具如何塑造我们的情感体验。 Stack Overflow 常常让我们感觉自己很愚蠢。 ChatGPT 的即时清晰度让我们很满意。但这种才华是真实的吗？ 希望得到其他开发人员的反馈： https://medium.com/@nurrehman/stack-overflow-makes-you-feel-stupid-chatgpt-makes-you-feel-brilliant-one-of-them-is-lying-c3a49849d724   由   提交 /u/Stromedy1   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1o9tq1m/stack_overflow_vs_chatgpt_whos_gaslighting_you/</guid>
       <pubDate>Sat, 18 Oct 2025 11:51:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>刚刚构建了我自己的多式联运 RAG</title>
-      <link>https://www.reddit.com/r/programming/comments/1o9s3bm/just_built_my_own_multimodal_rag/</link>
-      <description><![CDATA[上传 PDF、图像、音频文件 用自然语言提出问题 获得准确答案 - 全部在您的计算机上本地运行  无云。没有 API 密钥。没有数据泄露。纯粹的人工智能魔法正在您的笔记本电脑上发生！ 看看   由   提交 /u/tanitheflexer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o9s3bm/just_built_my_own_multimodal_rag/</guid>
-      <pubDate>Sat, 18 Oct 2025 10:16:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>赛博朋克控制台</title>
-      <link>https://www.reddit.com/r/programming/comments/1o9ri1n/cyberpunk_console/</link>
-      <description><![CDATA[你好。我创建了一个赛博朋克风格的终端模拟，我想您可能会感兴趣。该项目的原因是为了好玩并提高我的技能。我希望你喜欢它！ https://sabbat.cloud 如果你想了解内幕，你可以在https://github.com/Sabbat-cloud/sabbat-cyberpunk-console   由   提交/u/Nica_Bcn   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o9ri1n/cyberpunk_console/</guid>
-      <pubDate>Sat, 18 Oct 2025 09:39:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rust 依赖生态系统的状态</title>
-      <link>https://www.reddit.com/r/programming/comments/1o9rgso/the_state_of_the_rust_dependency_ecosystem/</link>
-      <description><![CDATA[ 由   提交/u/fittyscan  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1o9rgso/the_state_of_the_rust_dependency_ecosystem/</guid>
-      <pubDate>Sat, 18 Oct 2025 09:37:06 GMT</pubDate>
     </item>
     </channel>
 </rss>

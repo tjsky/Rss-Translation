@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 18 Oct 2025 21:16:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 01:19:22 GMT</lastBuildDate>
+    <item>
+      <title>我刚刚发布了适用于 Windows 的 NETworkManager 2025.10.18.0</title>
+      <link>https://www.reddit.com/r/opensource/comments/1oacqze/i_just_released_networkmanager_202510180_for/</link>
+      <description><![CDATA[您好r/opensource， 我很高兴地宣布发布NETworkManager 2025.10.18.0，这是一款用于网络管理和故障排除的强大开源工具！此更新通过新标签和过滤器选项改进了配置文件管理，使组织主机和网络变得更加容易。现在，您还可以通过右键单击上下文菜单折叠/展开所有配置文件组，并在浅色主题中享受增强的可读性。 什么是 NETworkManager？ NETworkManager 是一款面向网络管理员和 IT 爱好者的综合工具。它提供：  网络分析：WiFi 分析器、IP 扫描器、端口扫描器、Ping 监视器、Traceroute、DNS 查找和 LLDP/CDP 捕获等工具。 远程系统管理：通过远程桌面 (RDP)、PuTTY（SSH、Telnet、串行）、PowerShell 连接 (WinRM)、TigerVNC (VNC) 或 AWS SSM。 配置文件管理：将主机/网络保存在加密配置文件中，以便跨功能无缝使用。 轻松故障排除：通过统一界面诊断和解决网络问题。  下载：抓取 从 GitHub 版本页面 或 下载最新版本（安装版、便携版或存档版） 页 源代码：在 GitHub 上探索或贡献。 NETworkManager 是免费、开源且无广告的，是我在业余时间开发的。如果您发现它有用，请考虑为该存储库加注星标并分享它！ 欢迎提供反馈、错误报告或功能请求。让我知道你的想法！ 🚀 #opensource #networking #sysadmin   由   提交 /u/BornToBeRoot   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1oacqze/i_just_released_networkmanager_202510180_for/</guid>
+      <pubDate>Sun, 19 Oct 2025 01:07:48 GMT</pubDate>
+    </item>
     <item>
       <title>tududi v0.84 - 🎉 项目分享来了！</title>
       <link>https://www.reddit.com/r/opensource/comments/1oa59lb/tududi_v084_project_sharing_is_here/</link>
@@ -41,13 +48,6 @@
       <pubDate>Sat, 18 Oct 2025 15:01:03 GMT</pubDate>
     </item>
     <item>
-      <title>ScreenDiffusion v01 简介 — 实时 img2img 工具现已免费且开源</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o9r9yo/introducing_screendiffusion_v01_realtime_img2img/</link>
-      <description><![CDATA[      大家好！ 👋 我刚刚发布了我已经研究了一段时间的东西 - ScreenDiffusion，一个围绕 Stream Diffusion 构建的免费开源实时屏幕到图像生成器。 这样想：无论您放置在浮动捕获窗口中 - 3D 场景、艺术品、视频或游戏 - 都可以在您观看时立即转换。不保存屏幕截图，不导出文件。只需移动窗口，即可看到 AI 直接融入您的实时屏幕。 ✨ 功能 🎞️ 实时转换 — 捕获任何窗口或屏幕区域，并观看它通过 AI 实时演变。 🧠 本地 AI 模型 — 使用您的 GPU 实时运行稳定扩散变体。 🎛️ 可调整的提示和提示设置 - 动态更改提示、样式和扩散步骤。 ⚙️ 针对 RTX GPU 进行了优化 - 专为 Windows 11 上的速度和效率而设计，具有 CUDA 加速功能。 💻 1 单击设置 - 旨在使您的设置快速、轻松。如果您想支持该项目并 访问 https://screendiffusion.itch.io/screen-diffusion-v01 谢谢！   由   提交 /u/Rudy_AA   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o9r9yo/introducing_screendiffusion_v01_realtime_img2img/</guid>
-      <pubDate>Sat, 18 Oct 2025 09:24:40 GMT</pubDate>
-    </item>
-    <item>
       <title>PeaZip 10.7.0 发布！</title>
       <link>https://www.reddit.com/r/opensource/comments/1o9r4ym/peazip_1070_released/</link>
       <description><![CDATA[       由   提交 /u/peazip   [链接] [评论] ]]></description>
@@ -69,7 +69,7 @@
       <pubDate>Sat, 18 Oct 2025 08:52:15 GMT</pubDate>
     </item>
     <item>
-      <title>Kaizen v2.1.0 即将推出！！如果喜欢就支持一下吧</title>
+      <title>Kaizen v2.1.0 即将推出！喜欢的话就支持一下吧</title>
       <link>https://www.reddit.com/r/opensource/comments/1o9omoa/kaizen_v210_on_its_way_support_and_drop_a_star_if/</link>
       <description><![CDATA[      我和我的一位朋友一起构建了 kaizen。 Kaizen 是一个用 Go 编写的 TUI 动漫客户端。随着 TUI 最近的成功（38 颗星，4 颗叉子），我们决定将其发布在这里以分享这一点。新的更新将在终端本身中附带动漫海报，并增强视频播放和优化 API。支持这个项目，如果你喜欢你所看到的，请给个星！！ 谢谢：D Github 链接：https://github.com/serene-brew/Kaizen   由   提交/u/late-garlic-5024   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o9omoa/kaizen_v210_on_its_way_support_and_drop_a_star_if/</guid>
