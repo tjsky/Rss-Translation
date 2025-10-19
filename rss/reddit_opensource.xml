@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 19 Oct 2025 06:24:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 09:16:06 GMT</lastBuildDate>
+    <item>
+      <title>认识 Journiv — 一个自托管的私人日记和情绪追踪器（Day One / Apple Journal 替代品）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1oak21g/meet_journiv_a_selfhosted_private_journaling_mood/</link>
+      <description><![CDATA[大家好！ 我去年开始使用自托管。在探索过程中，我注意到没有真正的自托管开源与 Day One 或 Apple Journal 相当。大多数建议都是笔记应用程序或旧的废弃项目 - 不完全是我想要的。我特别想要《在这一天》以及基于提示的日记体验，具有简洁、简洁的书写界面。 因此，我构建了自己的：Journiv - 一个私人、自托管的日记和情绪跟踪应用程序。 演示视频：https://imgur.com/a/Z5oBMgU（subreddit 不允许视频附件） Stack  后端： Python + FastAPI + PostgreSQL （Docker化） 前端： Flutter（跨平台网络+移动）  功能  干净、简约、无干扰的写作 “这一天”视图 基于提示的日记 情绪跟踪 多个 期刊+标签 全文搜索 见解与内容分析 浅色/深色模式 媒体库视图  即将推出  快速音频笔记 Apple Journaling Suggestions 集成 天气和天气健康元数据 位置标记（旅行条目的地图视图）  我计划尽快开源，并且希望首先获得一些早期反馈。很好奇这里的人们是否会发现这样的自托管日记应用程序很有用，以及您希望看到哪些功能。这是我第一个真正使用 Python + Flutter 的项目，所以肯定有一些难点。早期测试人员和反馈意义重大！   由   提交 /u/Open-Coder   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1oak21g/meet_journiv_a_selfhosted_private_journaling_mood/</guid>
+      <pubDate>Sun, 19 Oct 2025 08:05:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们可以采取的阻止开发者验证的操作集合</title>
+      <link>https://www.reddit.com/r/opensource/comments/1oajgbf/collection_of_actions_we_can_take_to_stop/</link>
+      <description><![CDATA[ 由   提交/u/Endo231   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1oajgbf/collection_of_actions_we_can_take_to_stop/</guid>
+      <pubDate>Sun, 19 Oct 2025 07:26:29 GMT</pubDate>
+    </item>
     <item>
       <title>您如何管理开源项目中的不良代码审查？</title>
       <link>https://www.reddit.com/r/opensource/comments/1oai5m6/how_do_you_manage_bad_code_reviews_on_your_open/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[       由   提交 /u/open-trade   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1o9qrw1/rustdesk_143_remote_desktop/</guid>
       <pubDate>Sat, 18 Oct 2025 08:52:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kaizen v2.1.0 即将推出！喜欢的话就支持一下吧</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o9omoa/kaizen_v210_on_its_way_support_and_drop_a_star_if/</link>
-      <description><![CDATA[      我和我的一位朋友一起构建了 kaizen。 Kaizen 是一个用 Go 编写的 TUI 动漫客户端。随着 TUI 最近的成功（38 颗星，4 颗叉子），我们决定将其发布在这里以分享这一点。新的更新将在终端本身中附带动漫海报，并增强视频播放和优化 API。支持这个项目，如果你喜欢你所看到的，请给个星！！ 谢谢：D Github 链接：https://github.com/serene-brew/Kaizen   由   提交/u/late-garlic-5024   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o9omoa/kaizen_v210_on_its_way_support_and_drop_a_star_if/</guid>
-      <pubDate>Sat, 18 Oct 2025 06:36:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>OSS 的凸函数</title>
-      <link>https://www.reddit.com/r/opensource/comments/1o9o56f/convex_for_oss/</link>
-      <description><![CDATA[嗨！我有一个凸后端，我想将其带到我的 OSS 存储库中以成为单一存储库。后端有支付数据、我们的数据模型和其他逻辑。有人这样做过或者有强烈的推荐吗？   由   提交/u/Ahamed-Earth2525   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1o9o56f/convex_for_oss/</guid>
-      <pubDate>Sat, 18 Oct 2025 06:06:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
