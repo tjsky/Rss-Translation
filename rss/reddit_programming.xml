@@ -4,7 +4,42 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 21 Oct 2025 18:22:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 21:17:37 GMT</lastBuildDate>
+    <item>
+      <title>Claude Code Creator：我们并不是有意构建它，但它改变了一切</title>
+      <link>https://www.reddit.com/r/programming/comments/1ocmgth/claude_code_creator_we_didnt_mean_to_build_it_but/</link>
+      <description><![CDATA[ 由   提交/u/Hot_Transportation87   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ocmgth/claude_code_creator_we_didnt_mean_to_build_it_but/</guid>
+      <pubDate>Tue, 21 Oct 2025 19:28:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么 Git 的 HEAD 不是大多数开发人员想象的那样</title>
+      <link>https://www.reddit.com/r/programming/comments/1ocm5vj/why_gits_head_isnt_what_most_developers_think_it/</link>
+      <description><![CDATA[就微妙的 Git 概念编写了一个简短的解释 - HEAD（您当前的提交指针）和分支头 (.git/refs/heads/) 之间的区别。 它使用简单的示例来说明为什么“分离的 HEAD”不是错误以及引用实际上如何移动。   由   提交/u/sshetty03  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ocm5vj/why_gits_head_isnt_what_most_developers_think_it/</guid>
+      <pubDate>Tue, 21 Oct 2025 19:17:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>用记录器替换了所有 System.out.println() - 感觉就像是专业升级</title>
+      <link>https://www.reddit.com/r/programming/comments/1oclw5e/replaced_all_systemoutprintln_with_a_logger_and/</link>
+      <description><![CDATA[我终于将我的小型 Spring Core 项目从使用 System.out.println() 切换到使用 SLF4J with Logback 进行日志记录。 差别是白天和黑夜。 现在我可以控制日志级别、格式输出，甚至按环境分离日志 - 所有这些都无需触及代码。 我意识到为什么真正的生产应用程序从不依赖println。 对于任何刚刚起步的人来说：尽早切换到记录器是立即让您的项目感觉更易于维护的小步骤之一。 好奇 - 您在 Java 项目中更喜欢哪种日志记录设置？普通 SLF4J + Logback，还是 Log4j2？   由   提交/u/AyouboXx  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oclw5e/replaced_all_systemoutprintln_with_a_logger_and/</guid>
+      <pubDate>Tue, 21 Oct 2025 19:07:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立您自己的数据库</title>
+      <link>https://www.reddit.com/r/programming/comments/1ocl9ko/build_your_own_database/</link>
+      <description><![CDATA[ 由   提交/u/iamkeyur   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ocl9ko/build_your_own_database/</guid>
+      <pubDate>Tue, 21 Oct 2025 18:44:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Alexander Stathis：在 AngelList 上扩展模块化 Rails 整体 - On Rails</title>
+      <link>https://www.reddit.com/r/programming/comments/1ockyqe/alexander_stathis_scaling_a_modular_rails/</link>
+      <description><![CDATA[ 由   提交 /u/robbyrussell   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ockyqe/alexander_stathis_scaling_a_modular_rails/</guid>
+      <pubDate>Tue, 21 Oct 2025 18:33:27 GMT</pubDate>
+    </item>
     <item>
       <title>为什么 Postgres FDW 让我的查询变慢（以及我如何修复它）|斯维克斯博客</title>
       <link>https://www.reddit.com/r/programming/comments/1ock2c4/why_postgres_fdw_made_my_queries_slow_and_how_i/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[嗨，最近我一直在 Rust 中开发一个名为 Walrus 的高性能存储引擎， 稍微介绍一下，Walrus 是一个根据第一原理构建的嵌入式进程内存储引擎，可以用作开箱即用的构建块：  Timeseries 事件日志：不可变的审计跟踪、合规性 追踪。每个事件都会立即保留，只读取一次。 数据库 WAL：PostgreSQL 样式事务日志。提交的最大持久性、确定性的崩溃恢复。 消息队列：Kafka 风格的流。批量写入（最多2000个条目），高吞吐量，至少一次交付。 键值存储：简单的持久缓存。每个键都是一个主题，50ms fsync 窗口快速写入。 任务队列：异步作业处理。至少使用重试安全工作人员进行一次交付（处理程序应该是幂等的）。 ...以及更多  最近的版本在其选择的工作负载（存储库中的基准）上优于单节点 apache kafka 和rocksdb 存储库：https://github.com/nubskr/walrus 如果您有兴趣了解 walrus 的内部结构，这两个发布帖子将为您提供所需的一切：  v0.1.0 发布帖子：https://nubskr.com/2025/10/06/walrus（是的，一开始应该是预写日志） v0.2.0 发布帖子：https://nubskr.com/2025/10/20/walrus_v0.2.0  我期待听到社区的反馈，海象的“分布式”版本的工作正在进行中。   由   提交 /u/Ok_Marionberry8922   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ocb0w2/walrus_a_high_performance_storage_engine_built/</guid>
       <pubDate>Tue, 21 Oct 2025 12:01:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>关注产品创意，而不是需求：构建灵活的软件设计</title>
-      <link>https://www.reddit.com/r/programming/comments/1ocaxpb/focus_on_product_ideas_not_requirements_building/</link>
-      <description><![CDATA[ 由   提交/u/teivah  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ocaxpb/focus_on_product_ideas_not_requirements_building/</guid>
-      <pubDate>Tue, 21 Oct 2025 11:57:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Constant Database（djb 的 cdb）：具有 cdb64 支持和打包文档的新版本</title>
-      <link>https://www.reddit.com/r/programming/comments/1ocam91/constant_database_djbs_cdb_a_new_release_with/</link>
-      <description><![CDATA[ 由   提交/u/self  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ocam91/constant_database_djbs_cdb_a_new_release_with/</guid>
-      <pubDate>Tue, 21 Oct 2025 11:40:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>WLJS Notebook 中的基本操作和混合高斯 Splats 🫟</title>
-      <link>https://www.reddit.com/r/programming/comments/1ocacik/basic_manipulation_mixing_gaussian_splats_in_wljs/</link>
-      <description><![CDATA[在类似 Jupyter 的笔记本中使用高斯图非常有趣。特别是如果您需要快速执行某些操作并分享结果   由   提交/u/Inst2f  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ocacik/basic_manipulation_mixing_gaussian_splats_in_wljs/</guid>
-      <pubDate>Tue, 21 Oct 2025 11:26:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>AWS US-EAST-1 中断（2025 年 10 月）：发生了什么以及我们可以学到什么</title>
-      <link>https://www.reddit.com/r/programming/comments/1oca1a9/aws_useast1_outage_oct_2025_what_happened_and/</link>
-      <description><![CDATA[希望大家都好:)   由   提交/u/BrilliantWaltz6397  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oca1a9/aws_useast1_outage_oct_2025_what_happened_and/</guid>
-      <pubDate>Tue, 21 Oct 2025 11:09:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们为开源开发人员提供高达 158.000 欧元的资助 - 在 r/opensource 上向我们询问任何问题！</title>
-      <link>https://www.reddit.com/r/programming/comments/1oca0wr/we_fund_open_source_developers_with_up_to_158000/</link>
-      <description><![CDATA[大家好， 我们是原型基金，我们的主要目标是通过资助开源开发者和小团队来支持开源社区。我们为每个项目提供高达 158,000 欧元的资金以及辅导、网络和咨询服务。我们的目标是资助开源领域的新想法，并为他们提供达到原型状态所需的资源 - 因此得名。我们专门资助符合公共利益的软件项目，这些项目可以作为开源软件免费获得、可持续访问和可定制。 我们正在 r/opensource 上进行“Ask-Me-Anything”活动，因此请随时在那里向我们提出任何问题，我们将在今天下午（欧洲中部夏令时间下午 5 点至下午 6 点）回答您的问题。 UTC+02:00):  https://www.reddit.com/r/opensource/comments/1oc9tjn/ama_we_fund_free_open_source_software_with_up_to/   由   提交/u/ptf_pr   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oca0wr/we_fund_open_source_developers_with_up_to_158000/</guid>
-      <pubDate>Tue, 21 Oct 2025 11:08:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
