@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 22 Oct 2025 21:13:45 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 01:10:56 GMT</lastBuildDate>
+    <item>
+      <title>同位素仅 60 行...</title>
+      <link>https://www.reddit.com/r/webdev/comments/1odoc9n/isotope_in_just_60_lines/</link>
+      <description><![CDATA[我看到了原始 Isotope Javascript 的花哨，我只需要使用现代 Web 标准编写一个重建。 查看我的重建！ 我的 Isotope 版本使用网格布局并使用视图过渡进行动画处理。它如丝般光滑，速度极快，并且具有优雅的降解性。该代码仅包含 63 行普通 JS，而旧版本需要惊人的 3500 多行。如果您选择不进行排序，甚至可以将代码减少到 37 行。是的...网络已经取得了长足的进步。 如何使用它？ 只需在任何容器上设置 id=“isotope” 并为其提供代表类别的子类，例如 class=“metal”。然后创建一些具有数据属性的按钮，例如 data-filter=“.metal” 或 data-sortby=“symbol”。从页脚的 演示 加载 JS，它就可以工作了。您不需要任何 CSS。这些都是奇特的东西。 注意事项 请注意，我的版本仅支持基本的过滤和排序（这是我在原始代码中使用过的唯一内容）。另请注意，动画在 Firefox 中还无法运行。最后，请注意，您不能在同一页面上两次使用此同位素过滤器，因为它缺乏对此的抽象。   由   提交/u/tsoojr   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1odoc9n/isotope_in_just_60_lines/</guid>
+      <pubDate>Wed, 22 Oct 2025 23:46:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>还有其他人难以平衡多种爱好吗？我为此制作了网站和应用程序</title>
+      <link>https://www.reddit.com/r/webdev/comments/1odmn2j/anyone_else_struggle_to_balance_multiple_hobbies/</link>
+      <description><![CDATA[在过去的一年里，我一直在兼顾几种不同的爱好，比如学习语言、打高尔夫球和下国际象棋。我一直遇到同样的问题：几周以来我都会专注于一个问题，而完全忘记其他问题。或者干脆把其中一些放在一起，我正在看着你钩编。 所以我决定做一些东西来提供帮助。它称为FlowState。一个以海洋为主题的爱好追踪网站......有一个有趣的名字。它可以让您在一个地方跟踪多种爱好并查看您随着时间的推移所取得的进展。您可以记录练习、设置连胜、获得小见解，甚至找到与您的爱好相关的本地活动，以帮助您保持一致。 我最初是为了自己在兴趣之间保持平衡而创建的，但我决定为任何想要在 iPhone 上尝试的人开放一个带有测试版应用程序的网站。您可以直接在网站上注册，并会收到一封加入电子邮件。在我收集反馈期间，它现在是免费的。 我很想听听您会使用这样的东西来做什么爱好，以及对应用程序或想法的任何反馈。我总是乐于接受其他有多种爱好的人的建议！   由   提交/u/hotdog_buddy  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1odmn2j/anyone_else_struggle_to_balance_multiple_hobbies/</guid>
+      <pubDate>Wed, 22 Oct 2025 22:31:59 GMT</pubDate>
+    </item>
     <item>
       <title>我将为您的代理机构/工作室/作品集网站提供诚实的反馈</title>
       <link>https://www.reddit.com/r/webdev/comments/1odkqao/i_will_give_you_honest_feedback_on_your/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[我想为我的作品集购买域名firstnamelastname.it（当然是我的真实姓名），而且我注意到很多网站都提供这项服务。 在 Squarespace 上，他们询问 20 欧元/年，而在 Aruba（意大利服务）上，第一年为 4 欧元/年，随后几年为 11 欧元。 相差 9 欧元，无论如何，但我真的不明白哪个更好，为什么。 如果 Aruba 明天倒闭并完全关闭，我的域名也会丢失吗？ 我的域名质量与 Aruba 服务的质量有关吗？ 提供吗？ 注意：我想要一个 .it，因为我居住在意大利，主要为意大利公司工作（尽管一小部分是美国公司）。这是一个坏主意吗？我应该改用 .com？   由   提交 /u/PainfulFreedom   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1odagjr/where_to_buy_a_it_domain_and_why_choose_one/</guid>
       <pubDate>Wed, 22 Oct 2025 14:52:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个用于生成现代格式（WebP、AVIF 等）占位符图像的工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1odafwv/i_made_a_tool_for_generating_placeholder_images/</link>
-      <description><![CDATA[       由   提交/u/alexmacarthur  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1odafwv/i_made_a_tool_for_generating_placeholder_images/</guid>
-      <pubDate>Wed, 22 Oct 2025 14:52:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在具有正确上下文的列表中设置列表（Bricks 和 JetEngine）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1od97t4/how_to_set_up_a_listing_inside_a_listing_with_the/</link>
-      <description><![CDATA[我有一个列表，在 CPT“listas”的单个页面中显示来自名为“atri_mob”的 CCT 的数据。它基于一个查询，通过关系 (ID 200) 提取与当前 CPT 相关的所有 atri_mob CCT。 以下是查询（请记住，这是 SQL 简单模式，我将其“翻译”为代码以在此处显示）：  SELECT * FROM wp_jet_cct_atri_mob AS jet_cct_atri_mob LEFT加入 wp_jet_rel_200 AS jet_rel_200 ON jet_cct_atri_mob._ID = jet_rel_200.child_object_id 其中 jet_cct_atri_mob.cct_status = &#39;发布&#39; AND jet_rel_200.parent_object_id = &#39;%current_id%{&quot;context&quot;:&quot;default_object&quot;}&#39; ORDER BY jet_cct_atri_mob.cct_created DESC;  然后，我尝试在现有列表网格中插入另一个列表网格。第二个清单应该使用 ID 208 的关系提取与 CCT“atri_mob”相关的所有 CCT“sessao_mob”。需要在代码的 WHERE 部分中插入什么才能使其正常工作？ SELECT jet_cct_sessao_mob._ID AS &#39;jet_cct_sessao_mob._ID&#39;, jet_cct_sessao_mob.cct_status AS &#39;jet_cct_sessao_mob.cct_status&#39;, jet_cct_sessao_mob.titulo_sessao AS &#39;jet_cct_sessao_mob.titulo_sessao&#39;, jet_cct_sessao_mob.inicio_dt AS &#39;jet_cct_sessao_mob.inicio_dt&#39;，jet_cct_sessao_mob.fim_dt AS&#39;jet_cct_sessao_mob.fim_dt&#39;，jet_cct_sessao_mob.dia AS&#39;jet_cct_sessao_mob.dia&#39;，jet_cct_sessao_mob.dia_da_semana AS &#39;jet_cct_sessao_mob.dia_da_semana&#39;, jet_cct_sessao_mob.duracao_min AS &#39;jet_cct_sessao_mob.duracao_min&#39;, jet_cct_sessao_mob.local AS &#39;jet_cct_sessao_mob.local&#39;, jet_cct_sessao_mob.hash_slot AS &#39;jet_cct_sessao_mob.hash_slot&#39;，jet_cct_sessao_mob.cct_author_id AS&#39;jet_cct_sessao_mob.cct_author_id&#39;，jet_cct_sessao_mob.cct_created AS &#39;jet_cct_sessao_mob.cct_created&#39;，jet_cct_sessao_mob.cct_modified AS&#39;jet_cct_sessao_mob.cct_modified&#39;，jet_rel_208.parent_object_id AS&#39;jet_rel_208.parent_object_id&#39;，jet_rel_208.child_object_id AS &#39;jet_rel_208.child_object_id&#39; FROM wp_jet_cct_sessao_mob AS jet_cct_sessao_mob LEFT JOIN wp_jet_rel_208 AS jet_rel_208 ON jet_cct_sessao_mob._ID = jet_rel_208.parent_object_id - 我的问题是关于这部分的！ WHERE jet_rel_208.child_object_id = &#39;%query_results|213|selected|jet_cct_atri_mob._ID%{&quot;context&quot;:&quot;default_object&quot;}&#39;    由   提交/u/CSGamer1234  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1od97t4/how_to_set_up_a_listing_inside_a_listing_with_the/</guid>
-      <pubDate>Wed, 22 Oct 2025 14:05:27 GMT</pubDate>
     </item>
     </channel>
 </rss>

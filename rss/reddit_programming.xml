@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 22 Oct 2025 21:13:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 01:10:30 GMT</lastBuildDate>
+    <item>
+      <title>制作软件：编写可维护的代码</title>
+      <link>https://www.reddit.com/r/programming/comments/1odpeow/crafting_software_writing_maintainable_code/</link>
+      <description><![CDATA[ 由   提交/u/paltman94  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1odpeow/crafting_software_writing_maintainable_code/</guid>
+      <pubDate>Thu, 23 Oct 2025 00:36:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>15 个你可能还不知道的 Go 微妙之处</title>
+      <link>https://www.reddit.com/r/programming/comments/1odohs4/15_go_subtleties_you_may_not_already_know/</link>
+      <description><![CDATA[ 由   提交/u/iamkeyur   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1odohs4/15_go_subtleties_you_may_not_already_know/</guid>
+      <pubDate>Wed, 22 Oct 2025 23:54:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>工程团队如何设定目标和衡量绩效</title>
+      <link>https://www.reddit.com/r/programming/comments/1odobik/how_engineering_teams_set_goals_and_measure/</link>
+      <description><![CDATA[ 由   提交 /u/gregorojstersek   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1odobik/how_engineering_teams_set_goals_and_measure/</guid>
+      <pubDate>Wed, 22 Oct 2025 23:46:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑客一级方程式赛车：通过 FIA 漏洞获取 Max Verstappen 的护照和 PII</title>
+      <link>https://www.reddit.com/r/programming/comments/1odmevh/hacking_formula_1_accessing_max_verstappens/</link>
+      <description><![CDATA[ 由   提交 /u/lolsokje   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1odmevh/hacking_formula_1_accessing_max_verstappens/</guid>
+      <pubDate>Wed, 22 Oct 2025 22:21:55 GMT</pubDate>
+    </item>
     <item>
       <title>我想看看爪子 - Vicki Boykis</title>
       <link>https://www.reddit.com/r/programming/comments/1odiyla/i_want_to_see_the_claw_vicki_boykis/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交 /u/codingindoc   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1od6z2h/simplify_your_code_functional_core_imperative/</guid>
       <pubDate>Wed, 22 Oct 2025 12:32:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Rust 响应服务器组件：P99 延迟比 Next.js 快 12 倍</title>
-      <link>https://www.reddit.com/r/programming/comments/1od6vja/react_server_components_with_rust_12x_faster_p99/</link>
-      <description><![CDATA[我构建了 Rari，一个带有 Rust 运行时的 React 框架。我们刚刚添加了适当的应用程序路由器支持、SSR 和正确的 RSC 语义。 结果： - 0.69 毫秒平均响应（比 Next.js 快 3.8 倍） - 20,226 请求/秒吞吐量（高 10.5 倍） - 负载下 4 毫秒 P99 延迟（快 12 倍） - 包小 68% 架构：默认情况下服务器组件，“使用客户端” 交互性，来自 Rust 运行时的真正 SSR。当您的实现符合 React 的设计理念时，性能自然会随之而来。 阅读全文：https://ryanskinner.com/posts/the-rari-ssr-breakthrough-12x-faster-10x-higher-throughput-than-nextjs 尝试一下：npm create rari-app@latest GitHub：https://github.com/rari-build/rari 所有基准测试：https://github.com/rari-build/benchmarks   由   提交/u/BadDogDoug  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1od6vja/react_server_components_with_rust_12x_faster_p99/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:27:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过迭代器和转换器在 JavaScript 和 Clojure 中进行流数据转换</title>
-      <link>https://www.reddit.com/r/programming/comments/1od6fbb/streamed_data_transformation_in_javascript_and/</link>
-      <description><![CDATA[ 由   提交/u/roman01la  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1od6fbb/streamed_data_transformation_in_javascript_and/</guid>
-      <pubDate>Wed, 22 Oct 2025 12:07:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们来做个游戏吧！ 343：快滚</title>
-      <link>https://www.reddit.com/r/programming/comments/1od4ulo/lets_make_a_game_343_the_squick_roll/</link>
-      <description><![CDATA[ 由   提交/u/apeloverage  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1od4ulo/lets_make_a_game_343_the_squick_roll/</guid>
-      <pubDate>Wed, 22 Oct 2025 10:44:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>系统设计中的幂等性：完整示例</title>
-      <link>https://www.reddit.com/r/programming/comments/1od451a/idempotency_in_system_design_full_example/</link>
-      <description><![CDATA[ 由   提交/u/trolleid   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1od451a/idempotency_in_system_design_full_example/</guid>
-      <pubDate>Wed, 22 Oct 2025 10:03:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
