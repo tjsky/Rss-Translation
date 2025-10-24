@@ -4,11 +4,46 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 24 Oct 2025 09:18:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 12:34:27 GMT</lastBuildDate>
+    <item>
+      <title>我的 CI 构建中的幻影引用之谜</title>
+      <link>https://www.reddit.com/r/programming/comments/1oew0ul/the_mystery_of_the_phantom_quote_in_my_ci_builds/</link>
+      <description><![CDATA[ 由   提交 /u/_shadowbannedagain   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oew0ul/the_mystery_of_the_phantom_quote_in_my_ci_builds/</guid>
+      <pubDate>Fri, 24 Oct 2025 12:10:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌的 Quantum Echo 算法展示了世界上第一个量子计算的实际应用——Willow 105 量子位芯片运行算法的速度比超级计算机快 13,000 倍</title>
+      <link>https://www.reddit.com/r/programming/comments/1oevgaz/googles_quantum_echo_algorithm_shows_worlds_first/</link>
+      <description><![CDATA[ 由   提交/u/donutloop  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oevgaz/googles_quantum_echo_algorithm_shows_worlds_first/</guid>
+      <pubDate>Fri, 24 Oct 2025 11:42:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>F-Droid 和 Google 的开发者注册法令</title>
+      <link>https://www.reddit.com/r/programming/comments/1oev552/fdroid_and_googles_developer_registration_decree/</link>
+      <description><![CDATA[ 由   提交 /u/alexeyr   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oev552/fdroid_and_googles_developer_registration_decree/</guid>
+      <pubDate>Fri, 24 Oct 2025 11:25:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>堆叠差异 - 简单解释</title>
+      <link>https://www.reddit.com/r/programming/comments/1oeu74t/stacked_diffs_simply_explained/</link>
+      <description><![CDATA[ 由   提交/u/sdxyz42  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oeu74t/stacked_diffs_simply_explained/</guid>
+      <pubDate>Fri, 24 Oct 2025 10:32:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么渠道无法解释用户行为（以及我们构建的内容）</title>
+      <link>https://www.reddit.com/r/programming/comments/1oeu3g6/why_funnels_fail_to_explain_user_behavior_and/</link>
+      <description><![CDATA[去年花了一年时间从头开始构建用户分析。问题是：传统渠道假设用户沿直线移动。现实？它们会返回、跳过步骤、走上你从未设计过的路径。 Built Grain 可以实时重建实际旅程。以下是我们了解到的内容： 隐藏模式问题： 大多数分析都会向您显示预定义的渠道（步骤 A → 步骤 B → 步骤 C）。但用户不会遵循你的心理模型。他们： - 进展后返回到先前的步骤 - 通过意想不到的序列发现捷径 - 专注于“中心”您未设计为中心的事件 - 在聚合数据中不明显的特定时刻放弃 技术方法： - Cassandra + ClickHouse 后端用于快速摄取和查询 - 从任何开始事件到任何目标的旅程重建 - 可视化路径分析显示主要路线、中心和之前的最后步骤 drop-off - 内置远程配置（无需部署即可翻转变体/变量） - 同意感知 SDK（无需 GDPR/CCPA 的非必要存储预先同意） 不同之处： 你问“用户如何从注册到获得第一个价值？”该系统重建真实路径，显示循环和死胡同，并让您通过远程配置立即响应。 今天在 ProductHunt 上启动。发布时仅限网络（保持范围紧凑）。 grainql.com 上的演示展示了真实的旅程重建。 很高兴回答有关架构或方法的技术问题。另外很好奇：如果您现在正在跟踪用户行为，您当前的堆栈会错过哪些模式？   由   提交/u/Prestigious-Street25   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oeu3g6/why_funnels_fail_to_explain_user_behavior_and/</guid>
+      <pubDate>Fri, 24 Oct 2025 10:26:41 GMT</pubDate>
+    </item>
     <item>
       <title>WebFragments：一种新的微前端方法（来自 Angular 的共同创建者和 Microsoft DX 的负责人）</title>
       <link>https://www.reddit.com/r/programming/comments/1oeryvj/webfragments_a_new_approach_to_microfrontends/</link>
-      <description><![CDATA[大家好👋 刚刚发布了新的 Señors @ Scale 剧集，我认为任何从事大型前端平台或微前端工作的人都会感兴趣。 我与 Igor Minar（Angular 联合创始人，现供职于 Cloudflare）和 Natalia 坐下来。 Venditto（微软 JavaScript 开发者体验首席 PM）谈论 WebFragments — 一种构建实际可扩展的模块化前端的新方法。 想法： → 每个微前端都在自己独立的 JavaScript 上下文中运行（就像浏览器的 Docker） → DOM 使用 Shadow DOM 进行虚拟化，而不是使用 Shadow DOM 进行虚拟化。 iframes → 片段保持独立，但呈现为一个无缝应用程序 → 它与框架无关 - React、Vue、Qwik、Angular…都可以工作 他们还分享了 Cloudflare 如何使用 WebFragments 已经迁移其生产仪表板 - 增量地，而不破坏现有平台。   由   提交/u/cresta29  [链接] [评论]]]></description>
+      <description><![CDATA[大家好👋 刚刚发布了新的 Señors @ Scale 剧集，我认为任何从事大型前端平台或微前端工作的人都会感兴趣。 我与 Igor Minar（Angular 联合创始人，现供职于 Cloudflare）和 Natalia 坐下来。 Venditto（微软 JavaScript 开发者体验首席 PM）谈论 WebFragments — 一种构建实际可扩展的模块化前端的新方法。 想法： → 每个微前端都在自己独立的 JavaScript 上下文中运行（就像浏览器的 Docker） → DOM 使用 Shadow DOM 进行虚拟化，而不是使用 Shadow DOM 进行虚拟化。 iframes → 片段保持独立，但呈现为一个无缝应用程序 → 它与框架无关 - React、Vue、Qwik、Angular…都可以工作 他们还分享了 Cloudflare 如何使用 WebFragments 已经迁移其生产仪表板 - 逐步增量，而不破坏现有平台。   由   提交/u/cresta29  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1oeryvj/webfragments_a_new_approach_to_microfrontends/</guid>
       <pubDate>Fri, 24 Oct 2025 08:08:28 GMT</pubDate>
     </item>
@@ -67,41 +102,6 @@
       <description><![CDATA[ 由   提交/u/feross  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1oedwhc/expanding_model_choice_in_vs_code_with_bring_your/</guid>
       <pubDate>Thu, 23 Oct 2025 20:15:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>无服务器是一个架构障碍</title>
-      <link>https://www.reddit.com/r/programming/comments/1oeds7s/serverless_is_an_architectural_handicap/</link>
-      <description><![CDATA[ 由   提交/u/avin_2020  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oeds7s/serverless_is_an_architectural_handicap/</guid>
-      <pubDate>Thu, 23 Oct 2025 20:11:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>移动、破坏、遗忘和生锈</title>
-      <link>https://www.reddit.com/r/programming/comments/1oedp9h/move_destruct_forget_and_rust/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oedp9h/move_destruct_forget_and_rust/</guid>
-      <pubDate>Thu, 23 Oct 2025 20:08:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>解决难题的满意方案</title>
-      <link>https://www.reddit.com/r/programming/comments/1oedoz8/satisfying_solutions_to_difficult_problems/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oedoz8/satisfying_solutions_to_difficult_problems/</guid>
-      <pubDate>Thu, 23 Oct 2025 20:08:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>修复 UUIDv7（针对数据库用例）</title>
-      <link>https://www.reddit.com/r/programming/comments/1oedosz/fixing_uuidv7_for_database_usecases/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oedosz/fixing_uuidv7_for_database_usecases/</guid>
-      <pubDate>Thu, 23 Oct 2025 20:07:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>C++ 中基于概念的通用编程</title>
-      <link>https://www.reddit.com/r/programming/comments/1oedoid/conceptbased_generic_programming_in_c/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oedoid/conceptbased_generic_programming_in_c/</guid>
-      <pubDate>Thu, 23 Oct 2025 20:07:36 GMT</pubDate>
     </item>
     <item>
       <title>开发人员仅花费 1% 的编码时间使用 VS Code 的调试器（分析了 11,805 个会话）</title>
