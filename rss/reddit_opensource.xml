@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 24 Oct 2025 18:23:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 21:16:29 GMT</lastBuildDate>
+    <item>
+      <title>选择合适的人工智能代理的介绍</title>
+      <link>https://www.reddit.com/r/opensource/comments/1of8nvg/an_intro_to_choosing_the_right_ai_agent/</link>
+      <description><![CDATA[并非所有人工智能代理都是相同的。选择正确的可以防止很多头痛。这是考虑它们的简单方法： -固定自动化适合可预测的任务。快速、可靠，但如果情况发生变化，就会变得脆弱。考虑宏或脚本。 - React 和 rag 代理 这些可以实时推理外部信息。当数据经常变化或太大而无法存储时，它们非常有用。非常适合研究、分析或决策支持。 - 工具增强型代理它们连接到外部工具或 API 以扩展它们的功能。当任务需要代理本身之外的东西时使用它们。 -记忆增强代理它们记住过去的交互以提高未来的性能。非常适合多步骤推理、持续对话或上下文繁重的任务。 -自我反思和自我学习代理他们评估自己的输出并随着时间的推移进行调整。非常适合持续学习很重要的开放式任务。 关键是将代理与任务相匹配，而不是追逐最新或最华丽的技术。合适的代理让工作更快、更智能、适应性更强&gt;&gt;   由   提交/u/memmachine_ai   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1of8nvg/an_intro_to_choosing_the_right_ai_agent/</guid>
+      <pubDate>Fri, 24 Oct 2025 20:33:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>管理医院官方信件的最佳免费工具？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1of6eli/best_free_tool_to_manage_official_correspondence/</link>
+      <description><![CDATA[ 由   提交/u/Organic_Airline8031   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1of6eli/best_free_tool_to_manage_official_correspondence/</guid>
+      <pubDate>Fri, 24 Oct 2025 19:04:02 GMT</pubDate>
+    </item>
     <item>
       <title>帮助塑造开源的未来 — 时刻准备着</title>
       <link>https://www.reddit.com/r/opensource/comments/1of2ztp/help_shape_the_future_of_open_source_on_the_clock/</link>
@@ -50,7 +64,7 @@
     <item>
       <title>IronBucket：用 Rust 编写的高性能 S3 兼容存储服务器</title>
       <link>https://www.reddit.com/r/opensource/comments/1oer80h/ironbucket_highperformance_s3compatible_storage/</link>
-      <description><![CDATA[      IronBucket 是 S3 / MinIO 的开源替代品 功能：S3 API 兼容性：核心 S3 操作的完整实现 Bucket 操作：创建、删除、列表、头对象 操作：PUT、GET、DELETE、HEAD 分段上传：启动、上传部分、完成、中止 查询操作：版本控制、ACL、位置、批量删除 AWS 签名 V4：完整身份验证实施 分块传输编码：完全支持带有签名的 AWS 分块传输 异步 I/O：基于 Tokio 和 Axum 构建，以实现最大并发性 磁盘持久性：基于可靠文件系统的存储 CORS 支持：完全跨源资源共享支持零复制操作：大文件的高效内存使用出色的性能：每秒 20,000 多次操作 另请在此处检查 Web UI：https://github.com/vibecoder-host/ironbucket-ui   由   提交/u/UniversalJS   [链接] [评论] ]]></description>
+      <description><![CDATA[      IronBucket 是 S3 / MinIO 的开源替代品 功能：S3 API 兼容性：核心 S3 操作的完整实现 Bucket 操作：创建、删除、列表、头对象 操作：PUT、GET、DELETE、HEAD 分段上传：启动、上传部分、完成、中止 查询操作：版本控制、ACL、位置、批量删除 AWS 签名 V4：完整身份验证实施 分块传输编码：完全支持带签名的 AWS 分块传输 异步 I/O：基于 Tokio 和 Axum 构建，以实现最大并发性 磁盘持久性：基于可靠文件系统的存储 CORS 支持：完全跨源资源共享支持零复制操作：大文件的高效内存使用出色的性能：每秒 20,000 多次操作 另请在此处检查 Web UI：https://github.com/vibecoder-host/ironbucket-ui   由   提交/u/UniversalJS   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1oer80h/ironbucket_highperformance_s3compatible_storage/</guid>
       <pubDate>Fri, 24 Oct 2025 07:19:00 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[我在一家知名公司担任开发人员。我正在参加一个有关不同项目创新的演示演示，当时我看到有人解释如何“不安全”。这是当有人使用开源软件时。他们迁移到闭源专有模型，所有“中小企业”都开始使用闭源专有模型。我们就“安全增强”向那个人表示祝贺。 高层人士对开源软件解决方案仍然一无所知。 你们中有人遇到过类似的情况吗？   由   提交 /u/3BravoMikeTango   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1oenk9n/misconceptions_surrounding_opensource/</guid>
       <pubDate>Fri, 24 Oct 2025 03:38:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nyno 2.0“引擎”版本：使用纯文本 YAML + 使用多进程工作引擎的高性能 Python、PHP、JavaScript 扩展构建工作流程。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1oef8aw/nyno_20_the_engine_release_build_workflows_using/</link>
-      <description><![CDATA[       由   提交/u/EveYogaTech   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1oef8aw/nyno_20_the_engine_release_build_workflows_using/</guid>
-      <pubDate>Thu, 23 Oct 2025 21:06:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nightlio v0.1.6 现已上线 + 我们赢得了由 Github 主办的黑客马拉松！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1oecdxc/nightlio_v016_is_now_live_we_won_a_hackathon/</link>
-      <description><![CDATA[       由   提交 /u/mash_the_conqueror   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1oecdxc/nightlio_v016_is_now_live_we_won_a_hackathon/</guid>
-      <pubDate>Thu, 23 Oct 2025 19:17:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
