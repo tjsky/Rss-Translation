@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 24 Oct 2025 01:07:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 03:33:55 GMT</lastBuildDate>
+    <item>
+      <title>有没有比postman更好的API测试工具？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1oel5ab/is_there_any_api_testing_tool_better_than_postman/</link>
+      <description><![CDATA[   /u/Pristine-Elevator198  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1oel5ab/is_there_any_api_testing_tool_better_than_postman/</guid>
+      <pubDate>Fri, 24 Oct 2025 01:36:00 GMT</pubDate>
+    </item>
     <item>
       <title>顺风有什么问题？</title>
       <link>https://www.reddit.com/r/webdev/comments/1oej6lu/what_is_wrong_with_tailwind/</link>
@@ -69,7 +76,7 @@
       <pubDate>Thu, 23 Oct 2025 19:46:08 GMT</pubDate>
     </item>
     <item>
-      <title>您会选择哪种网络服务器进行设置，其中 99% 的工作都是在文件夹中查找文件，然后重定向到该文件？</title>
+      <title>您会选择哪种网络服务器进行设置，其中 99% 的工作是在文件夹中查找文件，然后重定向到该文件？</title>
       <link>https://www.reddit.com/r/webdev/comments/1oeave2/what_webserver_would_you_choose_for_a_setup_where/</link>
       <description><![CDATA[例如，我输入 https://example.com/id1 ，我将被重定向到 https://example.com/id1/filename1.html filename1.html 文件将被积极缓存， 因此，虽然偶尔会有点击，但大多数情况下都不会提供服务。该文件永远不会更改，但可能会被删除并添加一个新文件（具有不同的文件名），因此重定向的目的是确定当前文件名是什么，并将用户重定向到那里。  如果我刷新 https://example.com/id1/filename1.html，我总是会看到该文件，但如果我返回 https://example.com/id1，我这次可能会被重定向到 https://example.com/id1/filename8.html 在服务器端，服务器端进程（当前是 PHP，但可以是任何东西）在文件夹中查找 id1，获取当前其中任何 html 文件的文件名（只有一个 html 文件），并向该文件发送 307 重定向  哪个网络服务器（例如 apache2、nginx 等）在性能方面可以最好地处理这个问题？   由   提交/u/lindymad   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1oeave2/what_webserver_would_you_choose_for_a_setup_where/</guid>
@@ -97,18 +104,11 @@
       <pubDate>Thu, 23 Oct 2025 15:05:13 GMT</pubDate>
     </item>
     <item>
-      <title>当涉及到 Web 开发时，Javascript 中的对象、继承、多态性和抽象等概念重要吗？</title>
+      <title>当涉及到 Web 开发时，Javascript 中的对象、继承、多态性和抽象等概念是否重要？</title>
       <link>https://www.reddit.com/r/webdev/comments/1oe3v6p/are_concepts_like_objects_inheritance/</link>
       <description><![CDATA[你发现它出现过吗？如果是的话，在什么情况下？  编辑：听起来它在网络开发中很重要。现在我对 SuiteScript（用于 Netsuite 的 JavaScript 类型）感到好奇。 SuiteScript（或其他 ERP 和 CRM 的 JS）是否需要对象以及与对象相关的概念？    由   提交 /u/Typical_Cap895   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1oe3v6p/are_concepts_like_objects_inheritance/</guid>
       <pubDate>Thu, 23 Oct 2025 13:53:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>🚀 我构建了一个人工智能驱动的 Chrome 扩展程序，可以自动组织您的书签！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oe3dvm/i_built_an_aipowered_chrome_extension_that/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oe3dvm/i_built_an_aipowered_chrome_extension_that/</guid>
-      <pubDate>Thu, 23 Oct 2025 13:33:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
