@@ -4,7 +4,49 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 25 Oct 2025 09:14:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Oct 2025 15:14:41 GMT</lastBuildDate>
+    <item>
+      <title>现代完美哈希</title>
+      <link>https://www.reddit.com/r/programming/comments/1oftyzn/modern_perfect_hashing/</link>
+      <description><![CDATA[ 由   提交/u/iamkeyur   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oftyzn/modern_perfect_hashing/</guid>
+      <pubDate>Sat, 25 Oct 2025 15:11:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能测试不是软件测试。欢迎来到人工智能测试工程师的时代。</title>
+      <link>https://www.reddit.com/r/programming/comments/1oftk6g/ai_testing_isnt_software_testing_welcome_to_the/</link>
+      <description><![CDATA[经过多年的数字化项目工作以及最后一对构建代理人工智能系统，有一件事已经变得公然、痛苦地清楚：人工智能测试不是软件测试。 作为技术专家，我们正在尝试使用旧地图来构建一个全新的大陆。这也是许多有前途的人工智能项目在交付真正价值之前就崩溃和烧毁的主要原因。 我们都痴迷于即时工程、上下文工程和代理工程。但我们完全忽略了最关键的学科：人工智能测试工程。 大反转：你的测试金字塔是颠倒的 在传统的软件测试中，我们靠测试金字塔生存和呼吸。基础广泛，具有快速、廉价的单元测试。然后是组件测试、集成测试，最后是高峰期的一些缓慢且昂贵的端到端 (E2E) 测试。 整个模型建立在一个基本假设之上：确定性。给定相同的输入，您总是得到相同的输出。 生成式人工智能破坏了这一假设。 从其设计本身来看，生成式人工智能是不确定的。即使将温度调低至 0，也不能保证逐位相同的响应。现在，想象一个具有多个子代理、一个规划模块和多个链接在一起的模型调用的代理系统。 这种非确定性不仅仅是相加，它还传播和放大。 结果是什么？人工智能中的测试金字塔是倒置的。  新的“简单”基础：当然，你的代理有工具。这些工具（例如对“get_customer_data”端点的 API 调用）通常是确定性的。您可以为它们编写单元测试，而且您应该这么做。您可以测试您的微服务。这部分快速而简单。 大规模、笨重的“顶部”：真正的工作，即 90% 的工作量，就是我们过去所说的“集成测试”。在代理人工智能中，这是整个系统的推理过程。它正在测试代理的行为，而不是其代码。这成为最大、最复杂、最关键的工作。  在这里阅读我的全文！ AI 测试不是软件测试。欢迎来到人工智能测试工程师的时代。 |作者：乔治·卡拉佩蒂安 | 2025 年 10 月 |中 你的想法是什么？   由   提交/u/AnythingNo920   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oftk6g/ai_testing_isnt_software_testing_welcome_to_the/</guid>
+      <pubDate>Sat, 25 Oct 2025 14:55:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Python Web 服务的未来看起来将不再需要 GIL</title>
+      <link>https://www.reddit.com/r/programming/comments/1ofqqdh/the_future_of_python_web_services_looks_gilfree/</link>
+      <description><![CDATA[ 由   提交 /u/ashvar   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ofqqdh/the_future_of_python_web_services_looks_gilfree/</guid>
+      <pubDate>Sat, 25 Oct 2025 12:50:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>创办一家位于匈牙利的购买网上商店公司</title>
+      <link>https://www.reddit.com/r/programming/comments/1ofomak/start_a_buy_webshop_company_is_based_in_hungary/</link>
+      <description><![CDATA[“我想购买或拥有一个定制开发的网上商店。我应该如何开始？ 这里有人可以为我编程，还是我应该购买一个现有的、功能正常的程序？ 我应该从哪里开始？从谁开始？开发一个网上商店需要多长时间？ 我愿意支付咨询费用，我也可以在发票上正式提供约定，或者我可以雇用你。我有两家 IT 公司（FEOR 6201）成立于 2012 年，主要从事咨询工作。 通过这些公司，我可以正式雇用您，或者您可以作为承包商向我开具发票。”   由   提交/u/Additional_Ant_8546   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ofomak/start_a_buy_webshop_company_is_based_in_hungary/</guid>
+      <pubDate>Sat, 25 Oct 2025 10:54:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>我做了一个终端编辑器。</title>
+      <link>https://www.reddit.com/r/programming/comments/1ofojoh/i_have_made_a_terminal_editor/</link>
+      <description><![CDATA[我对终端编辑器的工作原理非常感兴趣，所以我制作了我的终端编辑器。这是我的爱好项目，我真的不知道我能走多远。欢迎任何建议。 https://github.com/Old-Farmer/Mango-Editor   由   提交/u/Charlie__Chai  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ofojoh/i_have_made_a_terminal_editor/</guid>
+      <pubDate>Sat, 25 Oct 2025 10:49:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>我认识的最好的程序员不再编程了</title>
+      <link>https://www.reddit.com/r/programming/comments/1ofn6ac/the_best_programmer_i_know_does_not_program/</link>
+      <description><![CDATA[我有一位绝对天才的朋友，他可以立即掌握任何概念。他是迄今为止我认识的最快、最有才华的程序员。我有一段时间没和他说话了，昨天他告诉我他不再编程了。他已经成为一切人工智能自动化流程的专家。使用光标和 n8n 来处理任何问题，并且他对公司中的每个人都强制执行相同的做法。由于他的客户知道他们可以更快地实现更多目标，因此他们变得比以前更加急躁并且期望更高。 我知道这种新的编程方式即将到来，但与他聊天让我点击了。这种情况已经发生了，实际上我们适应得越快，专业发展可能就越好。显然，任何擅长编程的人都能够将逻辑和技术知识应用到其他工具中，但我特指的是编写代码，显然不再需要它了。也许比我们想象的要早。只是更高层次的东西，比如连接系统和用户体验焦点。 您经历过这样的巨大变化吗？ 编辑：这不是广告！我只需要输入 n8n，因为需要链接才能发布。 显然有些人认为这是我编造的。我将部分对话的屏幕截图放在评论中。 （意大利语）： https://ibb.co/FLtfsKDP A： 相反，对我来说已经几个月了我爱上了n8n我向你推荐它 任何你想要自动化的事情 你都可以做到 任何事情 没有它我就活不下去了 我不再写代码了😂 我用它解决了所有问题 你： 我听说过它，但我还没有测试过 喜欢吗？举几个例子 A： 你知道 Zapier 吗？ 它就像开源的 Zapier   由   提交/u/OpeningChemical5316   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ofn6ac/the_best_programmer_i_know_does_not_program/</guid>
+      <pubDate>Sat, 25 Oct 2025 09:21:51 GMT</pubDate>
+    </item>
     <item>
       <title>支持 OCR 的快速文档提取库</title>
       <link>https://www.reddit.com/r/programming/comments/1ofmxuh/fast_document_extraction_library_with_ocr_support/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[ 由   提交/u/dmp0x7c5  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1of9qf4/five_whys_toyotas_framework_for_finding_root/</guid>
       <pubDate>Fri, 24 Oct 2025 21:17:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>原创作品现已濒临灭绝</title>
-      <link>https://www.reddit.com/r/programming/comments/1of973a/original_work_is_now_an_endangered_species/</link>
-      <description><![CDATA[ 由   提交 /u/Beautiful-Floor-7801   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1of973a/original_work_is_now_an_endangered_species/</guid>
-      <pubDate>Fri, 24 Oct 2025 20:55:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Minio 社区并未积极开发新功能</title>
-      <link>https://www.reddit.com/r/programming/comments/1of8ak4/minio_community_is_not_actively_being_developed/</link>
-      <description><![CDATA[ 由   提交 /u/He_knows   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1of8ak4/minio_community_is_not_actively_being_developed/</guid>
-      <pubDate>Fri, 24 Oct 2025 20:18:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>未来低级语言的愿景</title>
-      <link>https://www.reddit.com/r/programming/comments/1of31ci/a_vision_for_future_lowlevel_languages/</link>
-      <description><![CDATA[ 由   提交/u/RndmPrsn11   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1of31ci/a_vision_for_future_lowlevel_languages/</guid>
-      <pubDate>Fri, 24 Oct 2025 16:54:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ken Thompson 的“Trusting Trust”编译器后门 - 现在提供实际源代码 (2023)</title>
-      <link>https://www.reddit.com/r/programming/comments/1of2toi/ken_thompsons_trusting_trust_compiler_backdoor/</link>
-      <description><![CDATA[Ken Thompson 1984 年的“对信任信任的反思”是供应链安全方面的基础论文，证明仅信任源代码是不够的 - 您必须信任整个工具链。 攻击分三个阶段进行：  自我复制：创建一个输出自己的源代码（a quine）的程序 编译器学习：使用编译器的自编译来教它以下知识： 仅存在于二进制文件中 特洛伊木马部署：注入后门： 编译login.c时插入密码后门 编译编译器时重新注入自身 “训练”后在源代码中不留下任何痕迹   2023 年，在 Russ Cox 的要求下，Thompson 最终发布了实际代码（文件：nih.a）。我编写了详细的演练，并逐行注释了实际实现。 为什么这对现代安全性很重要：  强调源代码审计的局限性 可重现构建计划的基础（Debian 等） 与当前的供应链攻击相关（SolarWinds、XZ） Utils） 说明为什么需要多样化的双重编译（DDC）  后门密码为“codenih” （NIH =“不是这里发明的”）。 Thompson 确认它是作为概念验证而构建的，但从未在生产中部署。   由   提交 /u/fizzner   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1of2toi/ken_thompsons_trusting_trust_compiler_backdoor/</guid>
-      <pubDate>Fri, 24 Oct 2025 16:46:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>仔细看看 TypeScript 编译器的 Go 端口背后的细节</title>
-      <link>https://www.reddit.com/r/programming/comments/1oewzuo/a_closer_look_at_the_details_behind_the_go_port/</link>
-      <description><![CDATA[ 由   提交/u/mariuz  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oewzuo/a_closer_look_at_the_details_behind_the_go_port/</guid>
-      <pubDate>Fri, 24 Oct 2025 12:55:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的 CI 构建中的幻影引用之谜</title>
-      <link>https://www.reddit.com/r/programming/comments/1oew0ul/the_mystery_of_the_phantom_quote_in_my_ci_builds/</link>
-      <description><![CDATA[ 由   提交 /u/_shadowbannedagain   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oew0ul/the_mystery_of_the_phantom_quote_in_my_ci_builds/</guid>
-      <pubDate>Fri, 24 Oct 2025 12:10:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
