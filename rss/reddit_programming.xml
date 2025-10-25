@@ -4,20 +4,20 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 25 Oct 2025 06:21:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Oct 2025 09:14:32 GMT</lastBuildDate>
+    <item>
+      <title>支持 OCR 的快速文档提取库</title>
+      <link>https://www.reddit.com/r/programming/comments/1ofmxuh/fast_document_extraction_library_with_ocr_support/</link>
+      <description><![CDATA[我一直在为个人项目开发一个文档提取库，并希望分享它：extractous-go，Extractous 库的 Go 绑定。 我一直在寻找能够快速从 PDF、Word 文档、电子表格和我正在构建的 RAG 应用程序的其他格式中提取文本的工具。非结构化 io 速度慢且内存繁重，而且纯 Go 解决方案没有我需要的格式覆盖范围。 Extractous 看起来很完美，因为它在底层使用 Apache Tika，但只有 Rust 和 Python 绑定，因此我构建了 Go 版本。 它的作用：  从多种文件格式（PDF、DOCX、XLSX、HTML 等）中提取文本 通过 Tesseract 对扫描文档提供 OCR 支持 用于低内存占用的大文件的流式 API 跨平台：Linux、macOS、Windows  简单示例：  goextractor := extractous.New() content,metadata, err := extractor.ExtractFileToString(&quot;document.pdf&quot;)  希望得到任何尝试过它或有建议的人的反馈！   由   提交 /u/ChattyChidiya   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ofmxuh/fast_document_extraction_library_with_ocr_support/</guid>
+      <pubDate>Sat, 25 Oct 2025 09:07:10 GMT</pubDate>
+    </item>
     <item>
       <title>C实际上没有传递引用</title>
       <link>https://www.reddit.com/r/programming/comments/1ofjlo8/c_actually_dont_have_passbyreference/</link>
       <description><![CDATA[ 由   提交/u/Sushant098123  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ofjlo8/c_actually_dont_have_passbyreference/</guid>
       <pubDate>Sat, 25 Oct 2025 05:34:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>卡在“双音序列”问题上。我的 DP 解决方案与示例匹配，但所有测试用例均失败。</title>
-      <link>https://www.reddit.com/r/programming/comments/1ofiuea/stuck_on_bitonic_sequences_problem_my_dp_solution/</link>
-      <description><![CDATA[双调序列 我们将和N的正双调序列定义为正整数序列S_1，S_2，...，S_k，使得S_1 + S_2 + ... + S_k = N，并且存在索引j满足：  S_i &lt;= S_{i+1} 对于所有 1 &lt;= i &lt; j S_i &gt;= S_{i+1} 对于所有 j &lt;= i &lt; k  查找总和为 N 的不同正双调序列的数量，对于所有 1 &lt;= N &lt;= M，模 10^9 + 7。 如果两个双调序列 S1 和 S2 具有不同的长度，或者存在索引 j&#39; 使得 S1[j&#39;] != S2[j&#39;]，则两个双调序列 S1 和 S2 被认为是不同的。 标准输入 第一个 输入行包含单个整数 M。 标准输出打印每个 N（从 1 到 M）模 10^9 + 7 的不同正双调序列的数量。 约束和注释  1 &lt;= M &lt;= 3 * 10^5  输入：5 输出：1 2 4 8 15 我的失败代码 (Java) 我注意到示例输出 (1, 2, 4, 8, 15) 有差异 (1, 2, 4, 7)，这些差异本身也有差异 (1, 2, 3)。我基于此模式构建了一个 DP 解决方案： Java import java.util.*;导入java.lang.*；导入java.io.*；类 Main { public static void main (String[] args) throws java.lang.Exception { BufferedReader jenevanthReader = new BufferedReader(new InputStreamReader(System.in)); } PrintWriter jenevanthWriter = new PrintWriter(System.out); int bigM = Integer.parseInt(jenevanthReader.readLine());长 magicMod = 1_000_000_007; long[] jenevanthAnswers = new long[bigM + 1]; long[] jenevanthDiffs = new long[bigM + 1]; if (bigM &gt;= 1) { jenevanthAnswers[1] = 1; jenevanthDiffs[1] = 1; jenevanthWriter.print(jenevanthAnswers[1]); } for (int i = 2; i &lt;= bigM; i++) { jenevanthDiffs[i] = (jenevanthDiffs[i - 1] + i - 1) % magicMod; jenevanthAnswers[i] = (jenevanthAnswers[i - 1] + jenevanthDiffs[i - 1]) % magicMod; jenevanthWriter.print(&quot; &quot; + jenevanthAnswers[i]); } jenevanthWriter.println(); jenevanthWriter.flush(); } }  这段代码完美地生成了 1 2 4 8 15，但它得到了一个“错误答案”在所有其他测试用例上。这意味着该模式是一种转移注意力的模式。正确的 DP 状态或组合方法是什么？   由   提交/u/Better-Star-7181   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ofiuea/stuck_on_bitonic_sequences_problem_my_dp_solution/</guid>
-      <pubDate>Sat, 25 Oct 2025 04:50:06 GMT</pubDate>
     </item>
     <item>
       <title>什么是 Monad？</title>
@@ -32,13 +32,6 @@
       <description><![CDATA[嘿伙计们 我一直在开发一个名为 SevenDB 的项目 - 它是一个反应式数据库（或者更确切地说是一个分布式键值存储），专注于确定性和可预测复制（基于 Raft），我们 已经完成了 raft、持久订阅、排放合同等工作，现在是展示工作的时候了。我正在尝试建立一个公平和透明的基准测试设置来共享性能数据。 如果您正在评估这样的新系统，您认为什么基准测试有意义？ 我知道原始吞吐量很好，但是我应该运行和显示哪些基准测试来证明数据库的实用性？ 我只是想设计一个可靠的测试套件，对于了解该系统的人来说是有意义的 这东西比我做的好。由于这项工作是开源的，采用率将在很大程度上取决于我们展示的基准以及我们在基准中的表现 很想听听什么样的指标或实验让您认真对待新的数据库。   由   提交 /u/shashanksati   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ofi1wt/benchmarks_for_a_distributed_keyvalue_store/</guid>
       <pubDate>Sat, 25 Oct 2025 04:04:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>这可能是人类为人类制作的最简单的构建系统 ☠️</title>
-      <link>https://www.reddit.com/r/programming/comments/1ofhp5i/this_is_probably_the_easiest_build_system_ever/</link>
-      <description><![CDATA[大家很久以前刚刚制作了这个构建系统，现在它正在编译项目！！！！我的意思是没有任何问题的复杂项目。就像看到这个 main.cc: out = &quot;main.bin&quot;;  您已经完成了没有依赖项的源文件的编译，增量构建也已自动化！   由   提交/u/Murky_Ad_4255  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ofhp5i/this_is_probably_the_easiest_build_system_ever/</guid>
-      <pubDate>Sat, 25 Oct 2025 03:45:04 GMT</pubDate>
     </item>
     <item>
       <title>90 年代的 Vibe 编码</title>
@@ -109,6 +102,13 @@
       <description><![CDATA[ 由   提交/u/mariuz  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1oewzuo/a_closer_look_at_the_details_behind_the_go_port/</guid>
       <pubDate>Fri, 24 Oct 2025 12:55:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的 CI 构建中的幻影引用之谜</title>
+      <link>https://www.reddit.com/r/programming/comments/1oew0ul/the_mystery_of_the_phantom_quote_in_my_ci_builds/</link>
+      <description><![CDATA[ 由   提交 /u/_shadowbannedagain   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oew0ul/the_mystery_of_the_phantom_quote_in_my_ci_builds/</guid>
+      <pubDate>Fri, 24 Oct 2025 12:10:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
