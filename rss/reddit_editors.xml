@@ -4,11 +4,18 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Sun, 26 Oct 2025 12:29:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 15:14:53 GMT</lastBuildDate>
+    <item>
+      <title>隐藏式字幕 (608/708) 嵌入软件</title>
+      <link>https://www.reddit.com/r/editors/comments/1ogjvw2/closed_caption_608708_embedding_software/</link>
+      <description><![CDATA[嘿 r/editors - 我们是隐藏式字幕创建器背后的团队，我们最近发布了字幕嵌入工作流程。我们最近一直在与更多客户就广播交付成果进行合作，并希望分享我们对嵌入隐藏式字幕的软件选项当前状态的了解。 如果您要交付广播内容，则可能需要将隐藏式字幕直接嵌入到视频文件（而不仅仅是附属文件）中。两个主要标准是 CEA-608（较旧的 line 21 标准）和 CEA-708（较新的数字标准）。许多广播公司现在需要 708，或者至少希望两者都向后兼容。 我们研究的当前选项： Premiere Pro 和 Resolve 在 MXF 导出方面做得很好 - 您可以轻松地将字幕嵌入其中。但是，它们不支持将字幕嵌入到 MP4 或 MOV 容器中，这可能会受到限制，具体取决于您的交付规格。 如果字幕位于 D1 数据轨道上，Avid 还可以导出嵌入的字幕（除非 AAF 文件中包含字幕，否则很难做到这一点）。 FCP 的结果好坏参半，但似乎能够在大多数情况下很好地处理 608 个字幕。 格式。 我们测试了处理具有 608 字幕的 MOV 文件的其他解决方案，但大多数不支持向上转换到 708，这对许多交付来说都是一个问题。 同时支持 608 和 708 嵌入的少数选项是：  CaptionMaker（按 GB 收费，可能会增加大文件） Vantage Transcoder Closed Caption Creator（我们的工具 - 我们刚刚发布了此功能）  我们的解决方案支持大多数编解码器和容器（包括 ProRes、XDCAM、DNxHD、MPEG 等）的 608/708 嵌入。如果您正在处理这些要求，我们希望您在将来的交付中考虑它。 很高兴回答有关字幕嵌入工作流程或我们的工具的任何问题！   由   提交 /u/linedcaptioncreator   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1ogjvw2/closed_caption_608708_embedding_software/</guid>
+      <pubDate>Sun, 26 Oct 2025 12:53:48 GMT</pubDate>
+    </item>
     <item>
       <title>Avid：使用干净的文件名或独特的散列 MXF 进行转码</title>
       <link>https://www.reddit.com/r/editors/comments/1ogj7mp/avid_transcodes_wiht_clean_filenames_or_unique/</link>
-      <description><![CDATA[大家好， 很想听听其他人是如何解决这个问题的。 我一直在比较 Shutter Encoder 和 Resolve 为 Avid 创建 MXF OP-Atom 转码。 Resolve 保持文件名干净（例如 A001C001_v1.mxf），但 Shutter Encoder 在每个文件名后添加一个长的唯一哈希（例如 A001C0018D089C6C6A_v1.mxf）。 据我了解，该哈希来自 FFmpeg 的 MXF 复用器，它源自 Material Package ID 或 Source Package ID，以确保每个 即使两个文件共享相同的基本名称，剪辑也是唯一的。 通常我更喜欢 Resolve 更简洁的命名，但在从事政府和档案密集型项目后，我经常不得不争论来自数十个未知来源的镜头、重复的文件名、丢失的卡片结构和作品。在这些情况下，将真正唯一的文件 ID 嵌入到 MXF 中实际上可能是一种更安全的长期方法。 (?) 所以我想知道： 如果您要为混合或存档媒体设置转码工作流程，您会：  坚持使用干净、人类可读的文件名（Resolve 风格）吗？ 还是选择散列的、独特的 MXF（Shutter 风格）来完全避免冲突？  好奇其他人在大规模或多源一致性设置中做了什么。 谢谢！   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 很想听听其他人是如何解决这个问题的。 我一直在比较 Shutter Encoder 和 Resolve 为 Avid 创建 MXF OP-Atom 转码。 Resolve 保持文件名干净（例如 A001C001_v1.mxf），但 Shutter Encoder 在每个文件名后添加一个长的唯一哈希（例如 A001C0018D089C6C6A_v1.mxf）。 据我了解，该哈希来自 FFmpeg 的 MXF 复用器，它源自 Material Package ID 或 Source Package ID，以确保每个 即使两个文件共享相同的基本名称，剪辑也是唯一的。 通常我更喜欢 Resolve 更简洁的命名，但在从事政府和档案密集型项目后，我经常不得不争论来自数十个未知来源的镜头、重复的文件名、丢失的卡片结构和作品。在这些情况下，将真正唯一的文件 ID 嵌入到 MXF 中实际上可能是一种更安全的长期方法。 (?) 所以我想知道： 如果您要为混合或存档媒体设置转码工作流程，您会：  坚持使用干净、人类可读的文件名（Resolve 风格）吗？ 还是选择散列的、唯一的 MXF（Shutter 风格）来完全避免冲突？  另外 很好奇是否有人认为这是直接在 Avid 内部进行转码的主要好处之一，因为与 Shutter Encoder 非常相似，Avid 生成自己的 MXF 媒体并自动构建数据库结构，完全不考虑文件命名。 好奇其他人在大规模或多源一致性设置中做了什么。 谢谢！   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1ogj7mp/avid_transcodes_wiht_clean_filenames_or_unique/</guid>
       <pubDate>Sun, 26 Oct 2025 12:19:38 GMT</pubDate>
     </item>
@@ -43,7 +50,7 @@
     <item>
       <title>我的短片快完成了，但遇到了声音问题。有人可以帮我弄清楚吗？</title>
       <link>https://www.reddit.com/r/editors/comments/1og8lvh/almost_done_with_my_short_film_but_stuck_on_a/</link>
-      <description><![CDATA[大家好， 我叫 Elijah，是纽约市的一名电影制片人。这是我第一次发帖，但我潜伏了很长时间。 我有一部短片即将完成，但我遇到了一个奇怪的混音问题。我的混音器非常棒！这个在我身上。我在片场以一种时髦的方式录制了音频，他在尝试修复它方面做得非常出色，但仍然感觉有点不对劲。 在我开始考虑 ADR（我真的不想这样做）之前，我想知道这里是否有人可以快速听一下并帮助我查明发生了什么。 非常感谢一组新鲜的耳朵，这样我终于可以把这件事结束了。 标题和 剧情简介。 ü&amp;i 当伊莎贝拉的前男友莲花突然出现时，她与维克多的完美生活开始破裂。一开始的友好追忆后来变成了更深层次的事情，迫使伊莎贝拉面对过去的感情并决定她真正想要什么以及她想和谁在一起。 提前致谢 第一次剪辑：https://youtu.be/tUy1wwtMwy4?si=gODMCineFW-V7xLZ 第二次剪辑：https://youtu.be/-IxygkTwhjY   由   提交/u/gatmanandrobhim   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 我叫 Elijah，是纽约市的一名电影制片人。这是我第一次发帖，但我潜伏了很长时间。 我有一部短片即将完成，但我遇到了一个奇怪的混音问题。我的混音器非常棒！这个在我身上。我在现场以一种时髦的方式录制了音频，他在尝试修复它方面做得非常出色，但仍然感觉有点不对劲。 在我开始考虑 ADR（我真的不想这样做）之前，我想知道这里是否有人可以快速听一下并帮助我查明发生了什么。 非常感谢一组新鲜的耳朵，这样我终于可以把这件事结束了。 标题和 剧情简介。 ü&amp;i 当伊莎贝拉的前男友莲花突然出现时，她与维克多的完美生活开始破裂。一开始的友好追忆后来变成了更深层次的事情，迫使伊莎贝拉面对过去的感情并决定她真正想要什么以及她想和谁在一起。 提前致谢 第一次剪辑：https://youtu.be/tUy1wwtMwy4?si=gODMCineFW-V7xLZ 第二次剪辑：https://youtu.be/-IxygkTwhjY   由   提交/u/gatmanandrobhim   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1og8lvh/almost_done_with_my_short_film_but_stuck_on_a/</guid>
       <pubDate>Sun, 26 Oct 2025 01:48:19 GMT</pubDate>
     </item>
@@ -71,7 +78,7 @@
     <item>
       <title>OWC 水母游牧替代品</title>
       <link>https://www.reddit.com/r/editors/comments/1oflkfw/owc_jellyfish_nomad_alternatives/</link>
-      <description><![CDATA[嘿，r/editors 的美丽人们。可以使用一些建议来替代 Jellyfish Nomad。  一些简单的背景知识是，我的工作场所在过去一年左右的时间里一直在使用它进行拍摄，但问题却接二连三。除了一些软件不稳定之外，主要问题是耐用性。我们为此配备了专用的 Pelican 机箱，但尽管我们尽了最大努力，但它似乎总是出现故障、风扇松动等问题。  想知道是否有任何其他端口或 NAS 解决方案可以让 4-6 名编辑人员连接并使用约 20TB -26TB 的存储（包括冗余）进行编辑？    由   提交 /u/Familiar-Garage-3488   [链接] [评论]]]></description>
+      <description><![CDATA[嘿，r/editors 的美丽人们。可以使用一些建议来替代水母游牧者。  一些简单的背景知识是，我的工作场所在过去一年左右的时间里一直在使用它进行拍摄，但问题却接二连三。除了一些软件不稳定之外，主要问题是耐用性。我们为此配备了专用的 Pelican 机箱，但尽管我们尽了最大努力，但它似乎总是出现故障、风扇松动等问题。  想知道是否有任何其他端口或 NAS 解决方案可以让 4-6 名编辑人员连接并使用约 20TB -26TB 的存储（包括冗余）进行编辑？    由   提交 /u/Familiar-Garage-3488   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1oflkfw/owc_jellyfish_nomad_alternatives/</guid>
       <pubDate>Sat, 25 Oct 2025 07:37:28 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[嘿，我在我工作的大学里拍摄和剪辑了很多 B 卷。我们想用我们自己的镜头制作一个视频库，供其他员工和实习生创建自己的视频。 我说的是数千个带有元数据的剪辑。  谁提供这个服务平台有什么建议吗？  如果您想告诉我如何导出（设置）或命名此剪辑等的提示。 提前致谢！   由   提交 /u/Ch1ch04   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1ofa6a7/creating_a_video_library/</guid>
       <pubDate>Fri, 24 Oct 2025 21:36:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>第1099章 短期合同，提前结束</title>
-      <link>https://www.reddit.com/r/editors/comments/1of7vtm/1099_shortterm_contracts_and_ending_them_early/</link>
-      <description><![CDATA[嘿，我正在努力寻找有关此问题的一些信息，因此我想联系这里的社区。 我作为 1099 承包商获得了一份为期数月的视频编辑合同，并成立了一家有限责任公司来处理。合同本身是准系统。它有标准的“不招揽客户”的内容，其中唯一的其他内容基本上是“您将在 X 个月内每月收到 X 美元”。并且发票是按月开具的。  其中没有提到如果任何一方想要提前终止合同会给任何一方带来什么后果。显然，这样做会产生一些社会后果，而且我知道这里的人不是律师，但总的来说，是否有什么因素可以阻止任何一方提前终止合同并保留剩余时间？据我了解，措辞是这是一种期望，而不是义务。    由   提交/u/FrankPapageorgio  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1of7vtm/1099_shortterm_contracts_and_ending_them_early/</guid>
-      <pubDate>Fri, 24 Oct 2025 20:02:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
