@@ -4,7 +4,63 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 25 Oct 2025 21:16:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 01:17:53 GMT</lastBuildDate>
+    <item>
+      <title>如何在我的网址中获取 /favicon</title>
+      <link>https://www.reddit.com/r/webdev/comments/1og7jbp/how_to_get_favicon_in_my_url/</link>
+      <description><![CDATA[嘿，我知道这是一个超级简单的问题，但我对编码和网络开发来说是超级新手。我在 netlify 上托管我的网站，我想在我的网站上获取（我的域名 url）/favicon 以及 favicon 图像，以便它显示在 google 广告上。有人可以帮我提供超级基本的操作方法（我已经下载了 favicon.ico 图像）   由   提交/u/Ender3025  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1og7jbp/how_to_get_favicon_in_my_url/</guid>
+      <pubDate>Sun, 26 Oct 2025 00:53:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>卡通动画</title>
+      <link>https://www.reddit.com/r/webdev/comments/1og7h5w/cartoon_animations/</link>
+      <description><![CDATA[我想开始在网站中实现我自己的动画，例如卡通人物或卡片等自定义手绘项目。 问题是我完全不知道从哪里开始能够做到这一点。我想要的审美是一个 90 年代类型的卡通网站，我在其中使用插图和小部分，例如一个部分的闪电型角等。此外，我想为英雄部分制作自己的自定义卡通人物，并有小动画，如漂浮在它们周围的气泡，或者它们只是眨眼，甚至跟随鼠标。 我想知道这个过程，我知道像 Rive 这样的软件，并在我的 ipad 上繁殖。哪个最好使用，或者我必须使用两者的组合，或者使用 css 关键帧？？？ 图像必须是什么格式或图像必须是 svg，我真的不知道起点，但我真的很想学习这项技能，所以任何帮助将不胜感激！   由   提交/u/HectoLogic20  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1og7h5w/cartoon_animations/</guid>
+      <pubDate>Sun, 26 Oct 2025 00:50:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于 vivicoder 的想法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1og702w/thoughts_on_vibecoders/</link>
+      <description><![CDATA[你们觉得他们怎么样？  你羡慕他们吗？ 编辑：你认为人工智能可以达到让人们有能力与真正的程序员竞争的水平吗？  （半严肃的问题）   由   提交 /u/Cpt-Usopp   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1og702w/thoughts_on_vibecoders/</guid>
+      <pubDate>Sun, 26 Oct 2025 00:25:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>[周六炫耀]自由单位计算器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1og6ghm/showoff_saturday_freedom_units_calculator/</link>
+      <description><![CDATA[https://freedom-units.com/ 我一直在尝试构建一个有趣的顶级计算器，将任何东西转换为“自由单位”。我真的不是一个设计人员，所以我希望人们对布局有任何反馈或想法，或者是否有任何可能的改进。我真的希望它看起来超越顶部，但仍然是一个干净且可用的网站。    由   提交/u/Sarranti   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1og6ghm/showoff_saturday_freedom_units_calculator/</guid>
+      <pubDate>Sat, 25 Oct 2025 23:59:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在获取包装器中实现请求重复数据删除？ （TypeScript/JavaScript，包括存储库）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1og6g85/how_would_you_implement_request_deduplication_in/</link>
+      <description><![CDATA[大家好， 我一直在开发 TypeScript 优先的获取包装器，最近添加了自动请求重复数据删除功能。目标：如果有多个相同的请求正在运行，则仅进行一次网络调用，并且所有调用者共享相同的承诺/结果。 以下是我的实现方法： - 我使用 Map 通过重复数据删除键（方法、URL、正文等）跟踪正在运行的请求。- 用户如果想要插入标头等，可以提供自己的自定义哈希。 - 对于每个重复数据删除的请求，我都会存储 Promise 及其解析/拒绝闭包，因此所有并发调用者都会一起解析/拒绝。 - 哈希函数会跳过 FormData 和 ReadableStream 主体的重复数据删除，因为它们无法可靠地进行哈希或重播。 - 我公开了哈希函数类型，以便用户可以提供自己的逻辑。 我遇到的一些陷阱： - 处理不同的正文类型（流、blob、循环引用等）。 - 确保所有承诺都得到解决/拒绝，而不仅仅是第一个。 - 避免非幂等请求（POST、PUT 等）的重复数据删除。 问题： - 如何在 获取包装器？有其他模式或改进吗？ - 是否有我可能错过的边缘情况，特别是在正文序列化或 Promise 处理方面？ - 在 JS/TS 中是否有更惯用的方法来共享解析/拒绝闭包？ 如果您感兴趣，存储库位于此处：[https://github.com/fetch-kit/ffetch](vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-browser/workbench/workbench.html) 很想听听您的想法、反馈，或者看看您如何解决这个问题！   由   提交 /u/OtherwisePush6424   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1og6g85/how_would_you_implement_request_deduplication_in/</guid>
+      <pubDate>Sat, 25 Oct 2025 23:58:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人能告诉我 webauthn“验证”到底是什么吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1og5eoy/will_someone_just_tell_me_what_webauthn/</link>
+      <description><![CDATA[我找了很多地方都找不到。我不知道应该如何使用公钥将挑战解码回其原始状态。我尝试阅读规范，但它也什么也没说。这个程序的独角兽是什么，我该怎么做？显然有人知道一些事情，因为至少 GitHub 拥有他们的登录系统的密码。    由   提交 /u/Ronin-s_Spirit   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1og5eoy/will_someone_just_tell_me_what_webauthn/</guid>
+      <pubDate>Sat, 25 Oct 2025 23:09:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>刚刚完成了我的 AI 工具的 MVP — 上传音频 → 获取案例研究</title>
+      <link>https://www.reddit.com/r/webdev/comments/1og3fqs/just_finished_the_mvp_of_my_ai_tool_upload_audio/</link>
+      <description><![CDATA[      经过几周的构建，我终于让主管道正常工作了： 上传 -&gt; SUPABASE转录-&gt; assemblyai分析-&gt; deepseek 或 gpt-4o 输出 -&gt;干净、格式化的案例研究准备发布 stack 是 next.js、supabase、assembleai、better auth、用于计费的极地插件，以及一些用于案例研究生成的自定义 AI 工具。 计划尽快完善 ui 并发布测试版。关于定价、抢先体验策略或发布前我应该改进的方面有什么建议吗？  https://preview.redd.it/de05rtaeubxf1.png?width=1913&amp;format=png&amp;auto=webp&amp;s=1a4cc2a7434cf63b17483d4950a779f094787433   由   提交 /u/Knuckleclot   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1og3fqs/just_finished_the_mvp_of_my_ai_tool_upload_audio/</guid>
+      <pubDate>Sat, 25 Oct 2025 21:39:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要有关某些事情的帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1og2zum/need_help_regarding_some_stuff/</link>
+      <description><![CDATA[大家好，我是一个青少年，试图为我的国家制作一个 PC Part Picker 风格的网站，这个想法是为了让比较当地价格和构建 PC 变得容易，而无需在 5 个不同的网站之间跳转，所以我破产了，所以我将使用以下（免费计划）前端：Vercel 后端：渲染数据库：Supabase Scraper：Python（beautifulsoup）（试图让一切正常工作）免费 计划😔）所以我想问一下，在不被封锁的情况下爬取价格的最佳方法如何保持多个商店之间的数据一致 我希望得到任何建议，因为我是一个自学成才的青少年   由   提交 /u/ChillPixel69   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1og2zum/need_help_regarding_some_stuff/</guid>
+      <pubDate>Sat, 25 Oct 2025 21:20:04 GMT</pubDate>
+    </item>
     <item>
       <title>偶尔短信群发</title>
       <link>https://www.reddit.com/r/webdev/comments/1og2kpd/occasional_sms_message_blasts/</link>
@@ -15,7 +71,7 @@
     <item>
       <title>对我的个人代码库有什么想法吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1og28dz/thoughts_on_my_personal_code_library/</link>
-      <description><![CDATA[   我使用用于我的网站项目的脚本创建了此页面（主要作为我自己的库）。有什么想法、想法或改进吗？喜欢听！ https://code.usecue.com   由   提交/u/tsoojr   [链接] [评论] ]]></description>
+      <description><![CDATA[   我使用用于网站项目的脚本创建了此页面。所有项目总计 1.4MB，包括所有图像（我构建高性能网站）。我的项目之一是使用现代网络技术重写同位素库。我将重量减轻了 100 倍。有什么想法、想法或改进吗？喜欢听它！ 在这里查看：https://code.usecue.com   由   提交/u/tsoojr   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1og28dz/thoughts_on_my_personal_code_library/</guid>
       <pubDate>Sat, 25 Oct 2025 20:47:43 GMT</pubDate>
     </item>
@@ -25,13 +81,6 @@
       <description><![CDATA[      嘿开发者，  我自己是一名前端开发人员，我不太擅长设计或颜色。我花了很多时间从一个网站到另一个网站，寻找设计和调色板。因此，我制作了我的应用程序，可以生成漂亮的调色板并在实际设计中将它们可视化。 我称其为智能，因为已经有很多“快速”调色板。调色板生成器。这不仅快速而且智能。您可以生成调色板，以您喜欢的格式（css、tailwind、img）导出它们，检查可访问性以及它的智能之处，使用人工智能助手将您的想法转化为调色板。  现在还处于早期阶段，我正在添加更多功能。现在，您可以：  从图像中导出调色板 在现实设计中可视化您的调色板 创建自定义配置文件  我在 /design 和另一个 Reddit 子版块上分享了它，但遭到了残酷的批评。我最初是为自己作为一个不擅长颜色的开发人员构建的，但我也为其他开发人员制作了它，所以你不必经历 我也一样。希望您能提供反馈！！ 这是应用程序：Palettt   由   提交/u/mustafaistee  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1og1zj4/got_roasted_in_design_what_do_you_think/</guid>
       <pubDate>Sat, 25 Oct 2025 20:37:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何：询问任何事情。获取准确的命令。直接从您的终端</title>
-      <link>https://www.reddit.com/r/webdev/comments/1og1x39/how_ask_anything_get_the_exact_command_right_from/</link>
-      <description><![CDATA[      我总是忘记命令。老实说，我不想每次都用谷歌搜索它们...... 所以我构建了 How-CLI：一个基于终端的 AI 助手，可以立即生成您需要的确切 shell 命令。 输入您想要的内容，获取命令。没有语法搜索，没有 Stack Overflow 兔子洞。 pip install how-cli-assist 然后尝试： 如何创建 Python 虚拟环境 如何列出过去 7 天内修改的所有文件 停止记忆命令。只需询问“如何”即可立即获取命令。 Github：https://github.com/Ademking/how 演示：https://www.youtube.com/watch?v=r3REobP8Kzs   由   提交/u/ademkingTN   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1og1x39/how_ask_anything_get_the_exact_command_right_from/</guid>
-      <pubDate>Sat, 25 Oct 2025 20:34:15 GMT</pubDate>
     </item>
     <item>
       <title>我做了一个 shadcn/ui 主题编辑器（开源）——轻松设计和分享 shadcn 主题</title>
@@ -60,55 +109,6 @@
       <description><![CDATA[   跟踪我不断增长的乐高收藏变得越来越困难，替代品也不是很好。 已经添加了跟踪、简单统计（即将推出更多）、愿望清单、“类似套装”并发布。 查看 -&gt; https://brickver.com/   由   提交/u/Badosz   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1og1a5r/needed_to_track_and_share_my_lego_collection_so_i/</guid>
       <pubDate>Sat, 25 Oct 2025 20:07:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要全栈开发人员 - TikTok Scraper、编辑器和自动化工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1og171x/fullstack_developer_needed_tiktok_scraper_editor/</link>
-      <description><![CDATA[需要全栈开发人员 - TikTok Scraper、编辑器和自动化工具 预算：3,000 美元（在完成和无错误交付后通过托管）状态：部分构建 - 开放继续或完全重建资源：Figma 设计和完整的 ClickUp 任务列表已准备就绪 ⸻ 概述 我正在寻找一位熟练的全栈开发人员来构建一个工具，该工具可以抓取 TikTok 视频、对其进行编辑，并通过多种智能功能自动上传到 Google 云端硬盘。 我目前已经构建了大部分内容，但需要有人接管或重新开始并完成它。 ⸻  该工具的用途  1.1 视频 抓取和存储 • 使用 Tikwm.com 抓取 TikTok 视频（通过帐户、URL 或搜索） • 在 Supabase 中存储视频和元数据（URL、日期、喜欢等） • 防止重复下载 • 下载整个配置文件或特定 URL 的选项 1.2 视频编辑和字幕 • 使用 FFMPEG 转录音频并生成样式字幕 (ASS) • 导出为 MP4、PNG 缩略图或 GIF 预览 1.3 批量字幕管理 • 复制和批量编辑字幕（删除 #fyp 等关键字、添加自定义主题标签等） • 在导出前查看已编辑的标题 • 删除或附加文本的选项 1.4 Google Drive 集成 • 按照设定的时间表（例如，每天凌晨 2 点）自动将编辑后的视频上传到 Google Drive • 使用 Google Drive Service Account API 1.5 上传逻辑和轮换 • 处理上传排序（按点赞、日期或手动顺序） • 包括“利基内容轮换”，以按类别或规则集均匀分配上传内容 1.6 评论系统 • 从原始 TikTok 帖子中收集热门评论 • 构建和维护前 100 条评论的主列表（仅供参考） 1.7 Web 应用程序和 UI • 干净、 使用 Nuxt.js 构建的简单 Web 界面 • 管理机器人（创建、编辑、删除）、查看统计信息和切换自动化 • 具有无限滚动和悬停播放功能的 TikTok 风格内容源 • 响应桌面和移动设备 1.8 错误处理 • 检测 API 或网络问题 • 通过电子邮件或应用内警报发送通知 ⸻  技术 Stack   Nuxt.js（前端）  Supabase（后端和元数据存储）  FFMPEG（视频处理）  Vercel（托管和可扩展性）  Google Drive API（自动上传）  Tikwm.com（TikTok 抓取）   ⸻  要求   作为全栈开发人员（前端和后端）拥有丰富的经验  熟悉 FFMPEG 和 API 集成（Google Drive、RapidAPI 等）  能够使用 Nuxt.js 构建干净、可扩展的 UI 并在 Vercel 上部署  奖励：具有抓取、自动化或视频编辑管道的经验   ⸻  付款和流程 总计 3,000 美元，一旦工具完成且无错误，将通过托管释放  完整的 ClickUp 任务列表和 Figma UI 设计将与认真的申请者共享  愿意讨论里程碑 和进度更新   ⸻  如何申请  发送包含以下内容的直接消息：1. 简短介绍以及您对列出的技术堆栈的经验 2. 过去相关项目的链接（GitHub、投资组合等） 3. 您完成项目的预计时间表 ⸻ 很高兴能为这个项目找到合适的开发商。如果您有任何疑问，请随时联系或发表评论。   由   提交/u/cloutboicade_  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1og171x/fullstack_developer_needed_tiktok_scraper_editor/</guid>
-      <pubDate>Sat, 25 Oct 2025 20:03:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>您（您的团队）如何处理开发环境？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1og16wn/how_do_you_your_team_deals_with_dev_environment/</link>
-      <description><![CDATA[问题与 python 无关，只是与 webdev 相关。 我习惯于“只运行 `python main.py`”。方法，uvicorn 处理变化时的重新加载。但我经常听说 docker-compose.dev 方法，因为可能有 nginx 和一些服务。我习惯了热重载。但是docker通常构建镜像，我真的不知道如何处理热重载。它使开发更快、更可靠。这就是标题中的问题。   由   提交/u/Snezhok_Youtuber   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1og16wn/how_do_you_your_team_deals_with_dev_environment/</guid>
-      <pubDate>Sat, 25 Oct 2025 20:03:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Safari IOS 26 中的视口高度问题非常烦人</title>
-      <link>https://www.reddit.com/r/webdev/comments/1og0ipp/the_viewport_height_issue_in_safari_ios_26_is/</link>
-      <description><![CDATA[我只是想咆哮。 100vh/dvh/svh/lvh 都没有使视口的实际部分达到 100% 全高，这让我很恼火...... 我什至不知道 Apple 如何使新的 UI 可行。 Safari 中的新 UI 设计很糟糕。即使他们确实解决了 100 vh 问题，底部 UI 也会阻碍网站的设计，覆盖在英雄部分找到 CTA 的位置...... 白痴。   由   提交/u/cchurchill1985   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1og0ipp/the_viewport_height_issue_in_safari_ios_26_is/</guid>
-      <pubDate>Sat, 25 Oct 2025 19:36:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>跨不同foreignObjects的CSS继承</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ofzph6/css_inheritance_across_different_foreignobjects/</link>
-      <description><![CDATA[假设我的 SVG 代码结构如下： ; &lt;外来对象&gt;  &lt;/foreignObject&gt; &lt;g&gt; &lt;外来对象&gt;  &lt;/foreignObject&gt; &lt;/g&gt; &lt;/g&gt;  有没有办法让第二个foreignObject的div继承第一个的CSS、背景颜色等？ 谢谢。   由   提交 /u/HaydnH   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ofzph6/css_inheritance_across_different_foreignobjects/</guid>
-      <pubDate>Sat, 25 Oct 2025 19:02:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Paletteo - 从图像、网站和老式绘画中提取调色板</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ofzlxo/paletteo_extract_palettes_from_images_websites/</link>
-      <description><![CDATA[      这是我待办事项中的一个旧项目，我终于很高兴将其放到网上：https://paletteo.com 。这是一个小应用程序，可以从任何图像中提取调色板，并让您在大模态的假 UI（导航栏/英雄/卡片/表单）上预览它。 我一直想看看经典画家调色板在网站上的外观。我发现令人难以置信的是同一画家的不同绘画之间的调色板是多么相似。 我添加了许多功能（但我还有一些要添加）：  每种颜色的 HEX/RGB/HSL/CMYK 阴影和颜色色调生成器 点击从图像中选取精确像素 WCAG 对比徽章 (AA/AAA) 导出为 PNG 或 CSS 变量 保存/加载调色板（本地存储） 暗/亮模式  使用普通 JS + Canvas + Bootstrap 构建；没有框架。 我很想得到您的反馈。   由   提交/u/websilvercraft  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ofzlxo/paletteo_extract_palettes_from_images_websites/</guid>
-      <pubDate>Sat, 25 Oct 2025 18:58:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了具有各种背景模式的可定制番茄钟计时器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ofz933/built_a_customizable_pomodoro_timer_with_various/</link>
-      <description><![CDATA[过去几天制作了一个番茄钟网络应用程序。它采用 Rails 8 + Stimulus 构建，具有一些我在其他计时器应用中未见过的功能： - 多种背景模式：纯色、静态图像或嵌入 YouTube 视频 - 可自定义焦点/休息时间的计时器持续时间 - 设置保留在 localStorage 中 - 具有玻璃形态 UI 的移动响应式 YouTube 后台模式的实现很有趣 - 用户可以粘贴任何视频 URL，它会在计时器后面以影院模式播放。 堆栈：Rails 8、Stimulus、Tailwind CSS 非常感谢有关 UI/UX 的任何反馈或建议。链接：https://pomodoropower.com/   由   提交/u/McWipey   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ofz933/built_a_customizable_pomodoro_timer_with_various/</guid>
-      <pubDate>Sat, 25 Oct 2025 18:43:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] 构建了一个 AI PowerPoint 生成器（导出为可编辑的 .pptx）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ofz6zq/showoff_saturday_built_an_ai_powerpoint_generator/</link>
-      <description><![CDATA[https://takuslides.com/ Heyyy ALL 我已经构建了大量项目，我最近正在构建的项目之一是takuslide.com 这是一个 Powerpoint 生成器，仍处于开发阶段，但应该足够稳定以进行演示 您使用 AI 生成 powerpoint 幻灯片，您可以在前端编辑，或导出到 powerpoint 进行进一步编辑。 作为构建了很多 Powerpoint 的人 PowerPoint 幻灯片，我认为这将是一个非常有用的工具。 你们觉得怎么样？  它是人们制作 PowerPoint 幻灯片的一个很好的起点。   由   提交 /u/takuonline   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ofz6zq/showoff_saturday_built_an_ai_powerpoint_generator/</guid>
-      <pubDate>Sat, 25 Oct 2025 18:41:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
