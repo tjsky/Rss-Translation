@@ -4,7 +4,7 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 27 Oct 2025 01:17:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 03:51:39 GMT</lastBuildDate>
     <item>
       <title>需要 WordPress 开发人员进行 WordPress 网站迁移和品牌重塑</title>
       <link>https://www.reddit.com/r/webdev/comments/1oh1hjk/need_wordpress_developer_for_wordpress_website/</link>
@@ -43,14 +43,14 @@
     <item>
       <title>分享我为给去世的亲人写信而建立的平台</title>
       <link>https://www.reddit.com/r/webdev/comments/1ogt6j6/sharing_a_platform_i_built_for_writing_letters_to/</link>
-      <description><![CDATA[大家好。我想分享我和姐姐在失去一个非常亲近的人后创造的一些东西。 LettersBeyond 是一个给亲人写信的平台，尤其是那些不再在这里阅读信件的人。为什么重要：我们都有希望说的话。 LettersBeyond 为您提供一个私密、美丽的空间来倾述这些事情、处理您的悲伤并保存记忆。您可以做什么： - 给亲人写信（无论他们是否与您在一起） - 创建个人日记 - 以美丽、安全的格式保存记忆 - 花时间按照自己的方式处理悲伤 这并不是试图取代传统的悲伤咨询或治疗。 ** 它只是一个帮助我们的工具，我们希望与其他可能认为它有用的人分享。没有压力，只是一个写作和治愈的空间。我们希望收到您的反馈或想法：https://www.lettersbeyond.co.uk 注意：我不是来大力宣传任何东西的。如果这不适合这个子，我提前道歉。    由   提交/u/Material_Poem_9438  [链接] [评论]]]></description>
+      <description><![CDATA[大家好。我想分享我和姐姐在失去一个非常亲近的人后创造的一些东西。 LettersBeyond 是一个给亲人写信的平台，尤其是那些不再在这里阅读信件的人。为什么重要：我们都有希望说的话。 LettersBeyond 为您提供一个私密、美丽的空间来倾述这些事情、处理您的悲伤并保存记忆。您可以做什么： - 给亲人写信（无论他们是否与您在一起） - 创建个人日记 - 以美丽、安全的格式保存记忆 - 花时间按照自己的方式处理悲伤 这并不是试图取代传统的悲伤咨询或治疗。 ** 它只是一个帮助我们的工具，我们希望与可能认为它有用的其他人分享它。没有压力，只是一个写作和治愈的空间。我们希望收到您的反馈或想法：https://www.lettersbeyond.co.uk 注意：我不是来大力宣传任何东西的。如果这不适合这个子，我提前道歉。    由   提交/u/Material_Poem_9438  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ogt6j6/sharing_a_platform_i_built_for_writing_letters_to/</guid>
       <pubDate>Sun, 26 Oct 2025 19:13:53 GMT</pubDate>
     </item>
     <item>
       <title>开发了一款追踪世界顶级艺术家的应用程序</title>
       <link>https://www.reddit.com/r/webdev/comments/1ogrewy/built_an_app_that_tracks_the_worlds_top_artists/</link>
-      <description><![CDATA[大家好，我一直在致力于一个名为世界顶级艺术家的小项目：它跟踪世界排名前 500 名的艺术家，每天更新，提供见解、实时统计数据和发现功能。 数据来自 Spotify 和 Apple Music，汇总到一个地方。它包括一堆很酷的视图： – 为听众显示顶级城市的世界地图 – 显示艺术家如何联系的星座图（基于相关艺术家） – 一个“前 500 名”页面，用于跟踪从图表中退出的艺术家 – 基于每日趋势的艺术家和音乐发现功能 现在，该应用程序从 kworb.net，但我还保留了一个单独的文件，其中包含大约15,000位可能进入顶级列表的潜在艺术家。我选择这种方法是因为现在它是一个展示/mvp，我不想进行大量的抓取。如果应用程序显示出潜力并且 人们喜欢它，我计划将其移动到适当的服务器和域。我已经有了一种算法，可以直接从 Spotify 获取前 500 名，而不依赖其他来源。 有趣的是，整个事情完全是客户端，所以根本没有后端。 所有数据都作为静态 json 文件存储在 github 上，并且脚本通过 github actions 每 24 小时运行一次 重建并推送新数据。它快速、轻量，并且令人惊讶地能够处理仅 html、json 和 javascript 的内容。 链接：https://music.eduardlupu.com 我真的很想听到任何类型的信息 反馈：您要添加、改进或探索的内容。我想继续努力，但目前我缺乏新想法。您认为接下来会看到哪些有趣或有趣的功能？   由   提交/u/Appropriate-Chip-224   [链接] [评论]]]></description>
+      <description><![CDATA[大家好，我一直在致力于一个名为世界顶级艺术家的小项目：它跟踪世界排名前 500 位的艺术家，每天更新，提供见解、实时统计数据和发现功能。 数据来自 Spotify 和 Apple Music，汇总到一个地方。它包括一堆很酷的视图： – 为听众显示顶级城市的世界地图 – 显示艺术家如何联系的星座图（基于相关艺术家） – 一个“前 500 名”页面，用于跟踪从图表中退出的艺术家 – 基于每日趋势的艺术家和音乐发现功能 现在，该应用程序从 kworb.net，但我还保留了一个单独的文件，其中包含大约15,000位可能进入顶级列表的潜在艺术家。我选择这种方法是因为现在它是一个展示/mvp，我不想进行大量的抓取。如果应用程序显示出潜力并且 人们喜欢它，我计划将其移动到适当的服务器和域。我已经有了一种算法，可以直接从 Spotify 获取前 500 名，而不依赖其他来源。 有趣的是，整个事情完全是客户端，所以根本没有后端。 所有数据都作为静态 json 文件存储在 github 上，并且脚本通过 github actions 每 24 小时运行一次 重建并推送新数据。它快速、轻量，并且令人惊讶地能够处理仅 html、json 和 javascript 的内容。 链接：https://music.eduardlupu.com 我真的很想听到任何类型的信息 反馈：您要添加、改进或探索的内容。我想继续努力，但目前我缺乏新想法。您认为接下来会看到哪些有趣或有趣的功能？   由   提交/u/Appropriate-Chip-224   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ogrewy/built_an_app_that_tracks_the_worlds_top_artists/</guid>
       <pubDate>Sun, 26 Oct 2025 18:04:33 GMT</pubDate>
     </item>
