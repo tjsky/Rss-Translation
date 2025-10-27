@@ -4,7 +4,49 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 27 Oct 2025 15:19:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 18:24:06 GMT</lastBuildDate>
+    <item>
+      <title>如何在事件驱动架构中设计和测试读取模型</title>
+      <link>https://www.reddit.com/r/programming/comments/1ohlczl/how_to_design_and_test_read_models_in_eventdriven/</link>
+      <description><![CDATA[ 由   提交 /u/Adventurous-Salt8514   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ohlczl/how_to_design_and_test_read_models_in_eventdriven/</guid>
+      <pubDate>Mon, 27 Oct 2025 17:51:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的第一家初创公司的糟糕技术架构</title>
+      <link>https://www.reddit.com/r/programming/comments/1ohkm2m/the_terrible_technical_architecture_of_my_first/</link>
+      <description><![CDATA[ 由   提交/u/jacobs-tech-tavern   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ohkm2m/the_terrible_technical_architecture_of_my_first/</guid>
+      <pubDate>Mon, 27 Oct 2025 17:24:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Spring Boot 中异步 Webhooks 的线程池调优：真实经验教训和实用指南</title>
+      <link>https://www.reddit.com/r/programming/comments/1ohjuen/thread_pool_tuning_for_async_webhooks_in_spring/</link>
+      <description><![CDATA[我最近写了一篇关于在 Spring Boot 中优化 webhook 和异步调用线程池的详细指南。它的目的是帮助初级 Java 开发人员通过实际的线程池调整来更多地利用我们的后端服务。 我希望获得您的想法、实际经验和反馈！ 链接： https://medium.com/gitconnected/how-to-tune-thread-pools-for-webhooks-and-async-calls-in-spring-boot-e9b76095347e?sk=f4304bb38bd2f44820647f7af6dc822b   由   提交/u/sshetty03  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ohjuen/thread_pool_tuning_for_async_webhooks_in_spring/</guid>
+      <pubDate>Mon, 27 Oct 2025 16:56:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>[项目] PyTorch 中的自适应稀疏训练 — 训练速度提高 2-3 倍，能量减少约 61%（在 ImageNet-100 上具有相同的精度）</title>
+      <link>https://www.reddit.com/r/programming/comments/1ohj74h/project_adaptive_sparse_training_in_pytorch_23/</link>
+      <description><![CDATA[如果您希望在不更改模型的情况下使训练循环更便宜、更快，这可能很有用。 我开源了自适应稀疏训练 (AST) 的 PyTorch 实现，它只选择每个时期信息最丰富的样本，因此您可以跳过“简单”示例上的反向传播。在带有预训练 ResNet-50 的 ImageNet-100 上，它与基线精度相匹配，同时减少了约 61% 的能量。更激进的模式可实现 2.78 倍加速，但精度下降约 1-2 个百分点。 为什么程序员可能会关心  插入：保留模型/优化器/时间表；在损失周围添加几行以仅激活前 K% 样本。 更低的费用/更快的 CI：挂钟训练时间加速约 1.9–2.8 倍。 便携式：适用于免费的 Kaggle P100；没有外来操作或自定义 CUDA。 确定性和确定性。可测试：单前向传递，矢量化掩蔽；微小的开销。  它是如何工作的（核心思想） 每个批次使用损失幅度和预测不确定性（熵）计算每个样本的显着性分数。只有前 K% 的“活跃”样本才会贡献梯度。简单的 PI 控制器使激活率保持在目标附近。 # logits: [B, C], Targets: [B] loss_vec = F.cross_entropy(logits, Targets,duction=“none”) # 每个样本损失 probs = logits.softmax(dim=1) entropy = -(probs * probs.clamp_min(1e-12).log()).sum(dim=1) # 每个样本熵显着性 = 0.7 * loss_vec + 0.3 * 熵 # 可加权 thr =controller.update(significance, target_activation=0.35) # 例如35% active = (significance &gt;= thr) # 仅活跃样本贡献；单次前向传递，无需重新计算损失 = (loss_vec * active.float()).sum() / active.float().sum().clamp_min(1.0) loss.backward()   无第二次前向：仅屏蔽每个样本的损失。 PI 控制器调整 thr 保持约 10–40% 的活跃度（可配置）。  结果（在 IN-1K 上预训练的 ImageNet-100、ResNet-50） 生产（最佳准确度）  Top-1： 92.12%（基线 92.18%）→ Δ +0.06 pp 能量： –61.49% 速度： 1.92× 激活： 38.51% 样本/周期  效率（最大 速度）  Top-1： 91.92% 能量： –63.36% 速度： 2.78× 激活： 36.64%  设置：10 纪元预热 u/100% 样本 → 90 纪元 AST u/10–40%；基线和 AST 均开启 AMP；相同的 aug/optimizer/schedule 进行奇偶校验。 尝试一下 git clone https://github.com/oluwafemidiakhoa/adaptive-sparse-training cd adjustment-sparse-training # (可选) conda create -n ast python=3.10 &amp;&amp; conda activate ast pip install -rrequirements.txt # 生产（注重精度） python KAGGLE_IMAGENET100_AST_PRODUCTION.py --data /path/to/imagenet100 # 效率（最大速度） python KAGGLE_IMAGENET100_AST_TWO_STAGE_Prod.py --data /path/to/imagenet100   仓库： https://github.com/oluwafemidiakhoa/adaptive-sparse-training 使用哪个脚本： FILE_GUIDE.md 更多详细信息： README.md  寻求反馈  大规模实现每样本损失+掩蔽的最简洁方式 代码库？ 熵的替代方案（例如，边际、温度缩放置信度、MC-dropout 方差）？ 与梯度累积/DDP / ZeRO 集成时遇到的问题？ 您下一步想看到的基准（ImageNet-1K、LLM 微调等）？  很高兴回答问题或 审核 PR。   由   提交 /u/Klutzy-Aardvark4361   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ohj74h/project_adaptive_sparse_training_in_pytorch_23/</guid>
+      <pubDate>Mon, 27 Oct 2025 16:32:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>美好的住宿体验——这是科技工作者的新现实</title>
+      <link>https://www.reddit.com/r/programming/comments/1ohifyi/the_great_stay_heres_the_new_reality_for_tech/</link>
+      <description><![CDATA[ 由   提交/u/KitchenTaste7229  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ohifyi/the_great_stay_heres_the_new_reality_for_tech/</guid>
+      <pubDate>Mon, 27 Oct 2025 16:04:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Postgres 临时连接</title>
+      <link>https://www.reddit.com/r/programming/comments/1ohhujc/postgres_temporal_joins/</link>
+      <description><![CDATA[ 由   提交/u/winsletts  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ohhujc/postgres_temporal_joins/</guid>
+      <pubDate>Mon, 27 Oct 2025 15:42:04 GMT</pubDate>
+    </item>
     <item>
       <title>不可能的优化以及实现它的元编程</title>
       <link>https://www.reddit.com/r/programming/comments/1ohh2xu/the_impossible_optimization_and_the/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[ 由   提交/u/BestRef  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ohaqg8/python_314_vs_313_312_311_310_performance_testing/</guid>
       <pubDate>Mon, 27 Oct 2025 10:24:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的数据，他们的规则：在美国云中托管欧盟数据的风险越来越大</title>
-      <link>https://www.reddit.com/r/programming/comments/1ohapof/your_data_their_rules_the_growing_risks_of/</link>
-      <description><![CDATA[ 由   提交/u/danielrothmann   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ohapof/your_data_their_rules_the_growing_risks_of/</guid>
-      <pubDate>Mon, 27 Oct 2025 10:22:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>极快的数据压缩库</title>
-      <link>https://www.reddit.com/r/programming/comments/1oha4zd/extremely_fast_data_compression_library/</link>
-      <description><![CDATA[我需要一个压缩库来实现快速内存压缩，但没有一个足够快。所以我必须创建自己的：memlz 它在压缩和解压缩速度上都比 LZ4 好几倍，但当然压缩比更差。   由   提交/u/South_Acadia_6368   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oha4zd/extremely_fast_data_compression_library/</guid>
-      <pubDate>Mon, 27 Oct 2025 09:46:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>🦀 Rust 有了垃圾收集器</title>
-      <link>https://www.reddit.com/r/programming/comments/1oh9l9t/rust_gets_a_garbage_collector/</link>
-      <description><![CDATA[ 由   提交/u/web3writer  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oh9l9t/rust_gets_a_garbage_collector/</guid>
-      <pubDate>Mon, 27 Oct 2025 09:10:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>具有可验证共享的 Shamir 秘密共享的轻量级 Python 实现</title>
-      <link>https://www.reddit.com/r/programming/comments/1oh944a/lightweight_python_implementation_of_shamirs/</link>
-      <description><![CDATA[嗨/编程！ 我为 Shamir 的秘密共享 (SSS) 构建了一个轻量级 Python 库，它将秘密（如密钥）分割成多个共享，只需要一个阈值即可重建。它还支持 Feldman 的可验证秘密共享，以安全地检查共享有效性。 我的项目的用途 基本上，您有一个秘密（密码、密钥、访问令牌、API 令牌、加密钱包密码、秘密公式/配方、核导弹代码）。您可以将您的秘密分享给您的朋友、同事、合作伙伴等，并且要重建您的秘密，您将需要至少 k 份。例如：总共 5 份，但您至少需要 3 份才能恢复秘密）。拥有少于 k 个份额的冒名顶替者对秘密一无所知（对于上下文，如果他拥有 3 个份额中的 2 个，即使具有无限的计算能力，他也无法恢复秘密 - 除非他利用离散对数问题，但这对于当前计算机来说是不可行的）。如果你愿意，你可以不使用这个 Feldman 方案（验证共享），这样即使有无限的计算能力，即使有无限的量子计算机，你的秘密也是安全的 - 从数学上讲，少于 k 个共享是不可能恢复秘密的 特点：  最小的 deps (pycryptodome)，纯 Python。 基于文件或变量 具有 Base64 共享的工作流程。 用于分割、验证和恢复秘密的简单 API。 MIT 许可，非常适合安全密钥管理或学习加密。  与其他实现的比较：  pycryptodome - 它只允许分割 16 个字节，而我的允许无限分割（只要你愿意） 等待，因为所有内容都是在本地计算机上计算的）。此外，此实现没有此功能，您可以在其中验证共享的有效性。另外，这会返回原始字节数组，其中我的返回base64（更容易传输/发送） 此存储库允许您共享您的秘密，但它应该已经采用数字格式，我的会自动将您的秘密转换为数字。此外，此存储库要求您将共享作为原始坐标，我认为这太技术性了。 其他说明：我的项目允许您使用变量或文件恢复您的秘密。它实施费尔德曼方案来验证您的份额。它以方便的格式存储共享 base64 等等，请查看文档  目标受众 我想说它已经做好了生产准备，因为它涵盖了所有安全措施：至少 1024 位的离散对数问题的质数、完美的保密性等等。 即便如此，我也不建议将其用于高机密数据（例如核导弹的代码），除非有专家确认其安全 检查一下：  PyPI：https://pypi.org/project/shamir-lbodlev/（pip install shamir-lbodlev） GitHub：https://github.com/lbodlev888/shamir（带示例的自述文件）  -反馈或功能想法？让我知道这里！   由   提交/u/Excellent_Double_726   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oh944a/lightweight_python_implementation_of_shamirs/</guid>
-      <pubDate>Mon, 27 Oct 2025 08:37:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI Atlas“代理模式”刚刚使 ARIA 标签成为您路线图上最重要的事情</title>
-      <link>https://www.reddit.com/r/programming/comments/1oh8lug/openai_atlas_agent_mode_just_made_aria_tags_the/</link>
-      <description><![CDATA[我一直在分析新的 OpenAI Atlas 浏览器，大多数人都忽略了开发人员最大的收获。 因此，我花了时间深入研究我正在撰写的一篇文章的技术架构，而现实要复杂得多。这不是浏览器；而是浏览器。这是一个代理平台。 &lt;一 href=&quot;https://medium.com/ai-advances/openai-atlas-beyond-the-browser-window-unpacking-agentic-web-ai-memories-the-future-of-7a1900fe0999?sk=f86d5cadb904bb8aae15458cfcc71e72&quot;&gt;文章 重要的两件事是：  “浏览器记忆”：这是一项可选功能，可以为您所看到的内容构建个人的、可查询的知识图谱。你可以问它，“找到我上周读过的关于 Python 的那篇文章，总结一下要点。”这是人工智能的持久、长期记忆。 “代理模式”：这是既令人惊奇又令人恐惧的部分。它是一个人工智能，可以代表您实际点击按钮并填写表格。这不是一个愚蠢的脚本；它是一个简单的脚本。它使用 LLM 来理解页面的意图。  最疯狂的部分是安全性。 OpenAI 公开承认这很容易受到“间接提示注入”的影响。 （即隐藏在您的代理读取的网页上的恶意提示）。 我们都知道“代理模式”。该功能可让人工智能自动导航网站、填写表格和单击按钮。但是如何知道要点击什么？这不仅仅是使用脆弱的选择器。它使用 LLM 在语义上理解 DOM。给它明确指示的最佳方法是什么？ ARIA 标签。 您将那个  设置为看起来像一个按钮吗？代理可能会感到困惑。但是&lt;按钮 aria-label=“提交付款”&gt;？这是一个直接的、机器可读的指令。 可访问性一直很重要，但我认为它现在对于“Agent-SEO”来说是关键任务。我们即将看到一个为 AI 代理优化站点的全新学科，它从正确的语义 HTML 和 ARIA 开始。 我就此编写了更深入的指南，包括这一切引入的巨大安全缺陷（间接提示注入）。如果您为网络进行构建，这将会影响您。 链接   由   提交 /u/Paper-Superb   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oh8lug/openai_atlas_agent_mode_just_made_aria_tags_the/</guid>
-      <pubDate>Mon, 27 Oct 2025 08:02:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>GlobalCVE — 面向开发人员和安全工具的统一 CVE 源</title>
-      <link>https://www.reddit.com/r/programming/comments/1oh4ge4/globalcve_unified_cve_feed_for_developers/</link>
-      <description><![CDATA[对于构建或维护安全感知软件的开发人员来说，GlobalCVE.xyz 将来自多个全球来源（NVD、MITRE、CNNVD 等）的 CVE 数据聚合到一个干净的源中。 它是开源的 GitHub.com/GlobalCVE 、API 就绪，旨在减少漏洞跟踪  如果您将 CVE 检查集成到 CI/CD、编写扫描程序或只是想要更好的可见性，则非常有用。   由   提交/u/reallylonguserthing  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oh4ge4/globalcve_unified_cve_feed_for_developers/</guid>
-      <pubDate>Mon, 27 Oct 2025 03:41:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
