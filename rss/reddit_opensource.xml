@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 27 Oct 2025 09:21:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 12:34:10 GMT</lastBuildDate>
+    <item>
+      <title>我构建了 Flowcraft，这是一个轻量级、零依赖的替代方案，可替代 Temporal/Airflow/Vercel 等重型工作流程平台</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ohbuza/i_built_flowcraft_a_lightweight_zerodependency/</link>
+      <description><![CDATA[      您好 r/opensource， 我想向社区贡献一个名为 Flowcraft 的新项目。它是一个工作流程编排引擎，诞生于我对一种工具的探索，它比简单的任务队列更强大，但比 Airflow 或 Temporal 等成熟的平台简单。 项目理念： 我的目标是创建一个基础的、不带偏见的引擎，它能做好一件事：执行定义为数据的函数图。它被设计为您使用的库，而不是您服务的平台。  轻量级优先： 核心具有零运行时依赖性。您可以在任何 Javascript/TypeScript 运行时中使用它，而无需引入大量依赖树。 打开并打开它。可扩展：整个系统是围绕可插拔接口构建的。您可以用中间件替换记录器、表达式求值器、序列化器，甚至整个执行模型。 渐进可扩展性：我想避免过早的扩展决策。使用 Flowcraft，您只需编写一次业务逻辑。在内存中运行它。如果您的项目增长，您可以引入分布式系统的适配器（BullMQ、SQS、Kafka、RabbitMQ 等都有官方适配器）并进行扩展，而无需重写核心逻辑。这避免了架构级别的供应商锁定。 许可许可：该项目已获得 MIT 许可，因此您可以在任何个人或商业项目中自由使用它。  它有什么作用？ 它允许您将复杂的工作流程定义为 WorkflowBlueprint（一个简单的工作流程） 节点和边的 JSON 对象）并使用重试、回退、并行执行和条件分支等功能来执行它们。因为工作流程只是数据，所以您可以存储它、对其进行版本控制，甚至在其上构建可视化编辑器。 我投入了大量精力来使该项目受到欢迎，包括文档和演示、良好的测试覆盖率以及存储库中的示例，展示了如何将其用于从简单的 ETL 到复杂的 AI 代理的所有内容。 我在这里回答有关架构、动机或未来路线图的任何问题。如果您愿意查看并分享您的想法，我将非常荣幸。  GitHub 存储库： https://github.com/gorango/flowcraft 文档： https://flowcraft.js.org    由   提交 /u/goguspa   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ohbuza/i_built_flowcraft_a_lightweight_zerodependency/</guid>
+      <pubDate>Mon, 27 Oct 2025 11:28:23 GMT</pubDate>
+    </item>
     <item>
       <title>解锁索尼 PSP 的第二个 CPU</title>
       <link>https://www.reddit.com/r/opensource/comments/1oh9qzv/unlocking_the_sony_psps_second_cpu/</link>
@@ -50,7 +57,7 @@
     <item>
       <title>我的开源项目的新更新......现在有一个 UI</title>
       <link>https://www.reddit.com/r/opensource/comments/1oguhoj/new_updated_for_my_open_source_project_having_a/</link>
-      <description><![CDATA[      我的开源项目想法对我来说变得越来越明显我将它命名为 Olan 顺便说一句，它就像 owl + learn 无论如何，我现在尽量保持简单的想法，我构建了一个前端应用程序，所以它当然会更现实 我还在考虑你也可以给我建议的主题我也希望你喜欢这个标志，是的，它看起来像duolingo ...实际上我想到了创建这个抽认卡应用程序，因为anki给我留下了深刻的印象，而且由于我是duolingo用户，我可以用猫头鹰来象征学习，所以我制作了这个版本请您的反馈让我为此更加努力！感谢您观看视频和您的时间   由   提交/u/AmenAngelo   [链接] [评论] ]]></description>
+      <description><![CDATA[      我的开源项目想法对我来说变得越来越明显我将它命名为 Olan 顺便说一句，它就像 owl + learn 无论如何，我现在尽量保持简单的想法，我构建了一个前端应用程序，所以它当然会更现实 我还在考虑你也可以给我建议的主题我也希望你喜欢这个标志，是的，它看起来像duolingo ...实际上我有创建这个抽认卡应用程序的想法，因为anki给我留下了深刻的印象，而且由于我是duolingo用户，我可以猫头鹰非常适合象征学习，所以我制作了这个版本请你的反馈让我为此更加努力！感谢你观看视频和你的时间   由   提交/u/AmenAngelo   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1oguhoj/new_updated_for_my_open_source_project_having_a/</guid>
       <pubDate>Sun, 26 Oct 2025 20:06:17 GMT</pubDate>
     </item>
@@ -64,14 +71,14 @@
     <item>
       <title>开发了一款追踪世界顶级艺术家的应用程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1ogrv9w/built_an_app_that_tracks_the_worlds_top_artists/</link>
-      <description><![CDATA[大家好，我一直在致力于一个名为世界顶级艺术家的小项目：它跟踪世界排名前 500 名的艺术家，每天更新，提供见解、实时统计数据和发现功能。 数据来自 Spotify 和 Apple Music，汇总到一个地方。它包括一堆很酷的视图： – 为听众显示顶级城市的世界地图 – 显示艺术家如何联系的星座图（基于相关艺术家） – 一个“前 500 名”页面，用于跟踪从图表中退出的艺术家 – 基于每日趋势的艺术家和音乐发现功能 现在，该应用程序从 kworb.net，但我还保留了一个单独的文件，其中包含大约15,000位可能进入顶级列表的潜在艺术家。我选择这种方法是因为现在它是一个展示/mvp，我不想进行大量的抓取。如果应用程序显示出潜力并且 人们喜欢它，我计划将其移动到适当的服务器和域。我已经有了一种算法，可以直接从 Spotify 获取前 500 名，而不依赖其他来源。 有趣的是，整个事情完全是客户端，所以根本没有后端。 所有数据都作为静态 json 文件存储在 github 上，并且脚本通过 github actions 每 24 小时运行一次 重建并推送新数据。由于 next.js 导出优化，它速度快、轻量级，而且令人惊讶地能够处理 html、json 和 javascript 的内容：D 链接：https://music.eduardlupu.com github：https://github.com/EduardLupu/spotify-artists 我真的很想听到任何类型的反馈：您添加、改进或探索的东西。我想继续努力，但我有点缺乏新的东西 目前的想法。您认为接下来会看到哪些有趣或有趣的功能？   由   提交/u/Appropriate-Chip-224   [链接] [评论]]]></description>
+      <description><![CDATA[大家好，我一直在致力于一个名为世界顶级艺术家的小项目：它跟踪世界排名前 500 位的艺术家，每天更新，提供见解、实时统计数据和发现功能。 数据来自 Spotify 和 Apple Music，汇总到一个地方。它包括一堆很酷的视图： – 为听众显示顶级城市的世界地图 – 显示艺术家如何联系的星座图（基于相关艺术家） – 一个“前 500 名”页面，用于跟踪从图表中退出的艺术家 – 基于每日趋势的艺术家和音乐发现功能 现在，该应用程序从 kworb.net，但我还保留了一个单独的文件，其中包含大约15,000位可能进入顶级列表的潜在艺术家。我选择这种方法是因为现在它是一个展示/mvp，我不想进行大量的抓取。如果应用程序显示出潜力并且 人们喜欢它，我计划将其移动到适当的服务器和域。我已经有了一种算法，可以直接从 Spotify 获取前 500 名，而不依赖其他来源。 有趣的是，整个事情完全是客户端，所以根本没有后端。 所有数据都作为静态 json 文件存储在 github 上，并且脚本通过 github actions 每 24 小时运行一次 重建并推送新数据。由于 next.js 导出优化，它速度快、轻量级，而且令人惊讶地能够处理 html、json 和 javascript 的内容：D 链接：https://music.eduardlupu.com github：https://github.com/EduardLupu/spotify-artists 我真的很想听到任何类型的反馈：您添加、改进或探索的东西。我想继续努力，但我有点缺乏新的东西 目前的想法。您认为接下来会看到哪些有趣或有趣的功能？   由   提交/u/Appropriate-Chip-224   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ogrv9w/built_an_app_that_tracks_the_worlds_top_artists/</guid>
       <pubDate>Sun, 26 Oct 2025 18:22:17 GMT</pubDate>
     </item>
     <item>
       <title>proton,单个 C++ 二进制文件中最快的 SQL 管道引擎，用于流处理、分析、可观察性和 AI,下载proton的源码_GitHub_酷徒</title>
       <link>https://www.reddit.com/r/opensource/comments/1ogrbv6/github_timeplusioproton_fastest_sql_pipeline/</link>
-      <description><![CDATA[      Timeplus Proton 刚刚发布 3.0 在开源我们的核心引擎 Proton 两年后，我们很高兴地宣布推出 Proton 3.0 - 社区版迄今为止最大的升级。该版本为每位开发人员带来了成熟的流连接、处理和路由功能，并在单个二进制文件中提供了无与伦比的性能和效率。  借助 Proton 3.0，构建实时管道现在比以往更快、更简单、更有趣，其效率和性能在其他大型企业部署中得到了证明。  第一个在 Apache 2.0 下使用现代 C++ 编写的矢量化流 SQL 引擎 高吞吐量、低延迟、高基数  完全流处理 端到端：ETL、联接和聚合、警报和任务 与 Kafka、Redpanda、Pulsar、ClickHouse、Splunk、Elastic、MongoDB、S3、Apache Iceberg 等的原生连接 原生 Python/JavaScript UDF/UDAF 支持 零依赖的单一二进制文件    由   提交/u/gangtao  [link] [评论] ]]></description>
+      <description><![CDATA[      Timeplus Proton 刚刚发布 3.0 在开源我们的核心引擎 Proton 两年后，我们很高兴地宣布推出 Proton 3.0 - 社区版迄今为止最大的升级。该版本为每位开发人员带来了成熟的流连接、处理和路由功能，并在单个二进制文件中提供了无与伦比的性能和效率。  借助 Proton 3.0，构建实时管道现在比以往更快、更简单、更有趣，其效率和性能在其他大型企业部署中得到了证明。  第一个在 Apache 2.0 下使用现代 C++ 编写的矢量化流 SQL 引擎 高吞吐量、低延迟、高基数  完全流处理 端到端：ETL、连接和聚合、警报和任务 与 Kafka、Redpanda、Pulsar、ClickHouse、Splunk、Elastic、MongoDB、S3、Apache Iceberg 等的原生连接 原生 Python/JavaScript UDF/UDAF 支持 零依赖的单一二进制文件    由   提交/u/gangtao  [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ogrbv6/github_timeplusioproton_fastest_sql_pipeline/</guid>
       <pubDate>Sun, 26 Oct 2025 18:01:10 GMT</pubDate>
     </item>
@@ -81,13 +88,6 @@
       <description><![CDATA[嗨，我想分享过去几周在 PondPilot 上工作的经验。我修复了一些 UI 错误——没有什么突破性的，但它让我对这个项目的工作原理产生了兴趣。如果您不熟悉，PondPilot 本质上是一个使用 DuckDB-WASM 在浏览器中运行的 SQL 服务器。一切都存储在本地，无需将数据上传到服务器。 这是一个有趣的想法；我将在我的项目中实现它，并以它为起点。 GitHub：https://github.com/pondpilot/pondpilot   由   提交/u/Significant-Guest-14   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ogqvpp/fixed_some_ui_bugs_in_pondpilot_thoughts_on/</guid>
       <pubDate>Sun, 26 Oct 2025 17:43:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>[OC] Summit - AI 在终端中生成提交消息！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ogqgb2/oc_summit_aigenerated_commit_messages_in_the/</link>
-      <description><![CDATA[这是我捡起并改进的一个旧项目。在 GitHub 上查看！ https://github.com/fwtwoo/summit   由   提交/u/1samsepiol_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ogqgb2/oc_summit_aigenerated_commit_messages_in_the/</guid>
-      <pubDate>Sun, 26 Oct 2025 17:27:33 GMT</pubDate>
     </item>
     <item>
       <title>我刚刚发布了 AMI：一个 Apache 2.0 开源工具，用于监控真实的互联网连接（不仅仅是本地 Wi-Fi）。</title>
