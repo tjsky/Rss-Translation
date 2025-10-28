@@ -4,18 +4,18 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 28 Oct 2025 03:41:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 06:25:32 GMT</lastBuildDate>
     <item>
       <title>良好的 Java 后端重型开源代码库</title>
       <link>https://www.reddit.com/r/opensource/comments/1ohzap0/good_java_backend_heavy_opensource_codebases/</link>
-      <description><![CDATA[作为标题。如果有这些东西的文档，那就太好了。认为最好的学习方式是阅读和贡献    由   提交 /u/SoftwareArchitect101   [链接] [评论]]]></description>
+      <description><![CDATA[作为标题。如果有这些东西的文档，那就太好了。认为最好的学习方式是阅读和贡献。如果社区存在不和谐的情况，那将是锦上添花:)    由   提交 /u/SoftwareArchitect101   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ohzap0/good_java_backend_heavy_opensource_codebases/</guid>
       <pubDate>Tue, 28 Oct 2025 03:34:49 GMT</pubDate>
     </item>
     <item>
       <title>Synthalingua v1.2.5 - 开源、自托管实时人工智能翻译和转录（100% 本地，无云）</title>
       <link>https://www.reddit.com/r/opensource/comments/1ohz3ww/synthalingua_v125_opensource_selfhosted_realtime/</link>
-      <description><![CDATA[嘿r/opensource！我是 Synthalingua 的开发者，这是一款完全开源、隐私第一的人工智能工具，可以在您自己的机器上实时转录和翻译音频。 GitHub： github.com/cyberofficial/Synthalingua 许可证： AGPL v3 内置 Windows 下载： itch.io（包含有用的 GUI） 它的作用  实时翻译70 多种语言 → 英语（或任何通过 Whisper 支持的目标） 与 live 配合使用 流（YouTube、Twitch）、麦克风或本地文件 生成SRT字幕、将其刻录到视频或嵌入为曲目 AI 声音隔离 - 自动去除背景音乐/噪音 输出到控制台、Discord webhook或本地网络服务器（例如，您可以在 OBS 上使用。） 静音检测、重复抑制、黑名单、字级时间戳  所有处理都在本地进行。没有数据离开您的设备。 最新版本：v1.2.5（2025 年 10 月）  自适应批处理 - 为长视频提供更智能的 CPU/GPU 负载平衡，以生成字幕/字幕。 在混合工作负载上字幕生成速度提高 3 倍，请查看新的和改进的功能 用于创建字幕的批处理模式处理。 https://streamable.com/7b2by2 改进了 Linux 上的 AMD GPU 支持（仍处于实验阶段，因为我没有 AMD 设备，所以内容取决于 AMD 用户是否提交错误报告。） 便携式 GUI 构建 (Windows) - 无需安装 Sys Python  技术堆栈  Python 3.12 + PyTorch Whisper、SeamlessM4T、Demucs、FFmpeg CUDA (NVIDIA)、ROCm (AMD、Linux)、CPU 后备 最小的依赖关系，包括完整的设置脚本  为什么构建它 第一个公开版本于2023 年 3 月 30 日发布，（仅来自 单个脚本），在过去的两年里，我一直在完善它，调整每个细节，并充满激情地制作它。 它开始于一个 个人修复：我想关注日本 VTuber 直播，而不需要等待粉丝订阅数天。现在，它被语言学习者、会议记录员、无障碍倡导者和全球社区所使用。 使命仍然是：打破语言障碍 - 不牺牲隐私。 很长一段时间，我对此保持沉默，不是出于保密，而是出于不安全感。我已经做了两次广告了，但是。我不想再继续“做广告”了。大约一年前我觉得它还没有成熟。它通过口口相传慢慢传播，这对我来说感到安全和理智。但经过两年的不断迭代、数百次修复、每天都被滥用的可怜的 3090，以及我真正引以为豪的功能，我终于准备好公开分享它了。不是作为推销 - 只是作为我相信的工具，为需要它的人构建，或者可能从中找到一些用处。   由   提交/u/cyb3rofficial  [链接] [评论]]]></description>
+      <description><![CDATA[嘿r/opensource！我是 Synthalingua 的开发者，这是一款完全开源、隐私第一的人工智能工具，可以在您自己的机器上实时转录和翻译音频。 GitHub： github.com/cyberofficial/Synthalingua 许可证： AGPL v3 内置 Windows 下载： itch.io（包含有用的 GUI） 它的作用  实时翻译70 多种语言 → 英语（或任何通过 Whisper 支持的目标） 与 live 配合使用 流（YouTube、Twitch）、麦克风或本地文件 生成SRT字幕、将其刻录到视频或嵌入为曲目 AI 声音隔离 - 自动去除背景音乐/噪音 输出到控制台、Discord webhook或本地网络服务器（例如，您可以在 OBS 上使用。） 静音检测、重复抑制、黑名单、字级时间戳  所有处理都在本地进行。没有数据离开您的设备。 最新版本：v1.2.5（2025 年 10 月）  自适应批处理 - 为长视频提供更智能的 CPU/GPU 负载平衡，以生成字幕/字幕。 在混合工作负载上字幕生成速度提高 3 倍，请查看新的和改进的功能 用于创建字幕的批处理模式处理。 https://streamable.com/7b2by2 改进了 Linux 上的 AMD GPU 支持（仍处于实验阶段，因为我没有 AMD 设备，所以内容取决于 AMD 用户是否提交错误报告。） 便携式 GUI 构建 (Windows) - 无需安装 Sys Python  技术堆栈  Python 3.12 + PyTorch Whisper、SeamlessM4T、Demucs、FFmpeg CUDA (NVIDIA)、ROCm (AMD、Linux)、CPU 后备 最小的依赖关系，包括完整的设置脚本  为什么构建它 第一个公开版本于2023 年 3 月 30 日发布，（仅来自 单个脚本），在过去的两年里，我一直在完善它，调整每个细节，并充满激情地制作它。 它开始于一个 个人修复：我想关注日本 VTuber 直播，而不需要等待粉丝订阅数天。现在，它被语言学习者、会议记录员、无障碍倡导者和全球社区所使用。 使命仍然是：打破语言障碍 - 不牺牲隐私。 很长一段时间，我对此保持沉默，不是出于保密，而是出于不安全感。我已经做了两次广告了，但是。我不想再继续“做广告”了。大约一年前我觉得它还没有成熟。它通过口口相传慢慢传播，这对我来说感到安全和理智。但经过两年的不断迭代、数百次修复、每天都被滥用的可怜的 3090，以及我真正引以为傲的功能，我终于准备好公开分享它了。不是作为推销 - 只是作为我相信的工具，为需要它的人构建，或者可能从中找到一些用处。   由   提交/u/cyb3rofficial  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ohz3ww/synthalingua_v125_opensource_selfhosted_realtime/</guid>
       <pubDate>Tue, 28 Oct 2025 03:25:04 GMT</pubDate>
     </item>
@@ -64,7 +64,7 @@
     <item>
       <title>所以 OpenObserve 是“开源的”......直到你真正尝试使用它</title>
       <link>https://www.reddit.com/r/opensource/comments/1ohmsso/so_openobserve_is_opensource_until_you_actually/</link>
-      <description><![CDATA[我最近一直在探索 OpenObserve — 乍一看很有希望，但老实说，它感觉像是另一个开放核心陷阱。 RBAC、SSO、细粒度访问 — 全部都锁定在“企业”后面。 OSS 版本适合演示，但对于实际生产使用毫无用处。如果我不能在生产中安全地运行它，那么称其为开源还有什么意义？ 我自己维护开源项目，所以我需要可持续性。但是，将基本安全和访问控制隐藏在付费墙后面只会破坏信任。 甚至 Grafana 在 OSS 中也提供了适当的 RBAC。 OpenObserve 的模式给人的感觉就像是“为营销而开源，为现实而封闭”。令人失望。 显然我可以构建一个包装器，这只是一些工作，但开源的东西实际上应该是生产就绪的   由   提交 /u/hello-world012   [链接] [评论]]]></description>
+      <description><![CDATA[我最近一直在探索 OpenObserve — 乍一看很有希望，但说实话，感觉像是另一个开放核心陷阱。 RBAC、SSO、细粒度访问 — 全部都锁定在“企业版”后面。 OSS 版本适合演示，但对于实际生产使用毫无用处。如果我不能在生产中安全地运行它，那么称其为开源还有什么意义？ 我自己维护开源项目，所以我需要可持续性。但是，将基本安全和访问控制隐藏在付费墙后面只会破坏信任。 甚至 Grafana 在 OSS 中也提供了适当的 RBAC。 OpenObserve 的模式给人的感觉就像是“为营销而开源，为现实而封闭”。令人失望。 显然我可以构建一个包装器，这只是一些工作，但开源的东西实际上应该是生产就绪的   由   提交 /u/hello-world012   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ohmsso/so_openobserve_is_opensource_until_you_actually/</guid>
       <pubDate>Mon, 27 Oct 2025 18:44:48 GMT</pubDate>
     </item>
