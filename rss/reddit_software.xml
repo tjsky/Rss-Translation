@@ -4,11 +4,32 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Tue, 28 Oct 2025 18:24:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 21:16:44 GMT</lastBuildDate>
+    <item>
+      <title>Realtek 音频控制不再工作</title>
+      <link>https://www.reddit.com/r/software/comments/1oij6fe/realtek_audio_control_no_longer_working/</link>
+      <description><![CDATA[您好 几周前，我的计算机停止识别我的耳机，经过一些诊断工作后，我发现 Realtek 音频控制由于某种原因不再在我的笔记本电脑上运行。我尝试卸载并重新安装该软件以及在网上找到的各种修复程序，但似乎没有任何效果，还有其他方法可以再次运行我的耳机吗？任何帮助将不胜感激。 顺便说一句，我的笔记本电脑仍在运行 Windows 10，我对间谍软件 11 并不真正感兴趣。   由   提交/u/Cute-Ad-4525  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1oij6fe/realtek_audio_control_no_longer_working/</guid>
+      <pubDate>Tue, 28 Oct 2025 19:39:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>访问私有/内部 API 合乎道德/好吗？</title>
+      <link>https://www.reddit.com/r/software/comments/1oij4lt/accessing_privateinternal_apis_ethicalokay/</link>
+      <description><![CDATA[如果像 CRM 这样的东西使用它自己的内部/私有 API 来水合前端，我检索必要的 cookie（通过我自己的登录）并使用这些 cookie 对这些端点进行调用，必要时刷新，这是否被视为不好？ 这与水合前端的调用相同，但以编程方式进行。最坏的情况是他们要求我停下来？或者？想法？ 谢谢大家   由   提交/u/OriahVinree   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1oij4lt/accessing_privateinternal_apis_ethicalokay/</guid>
+      <pubDate>Tue, 28 Oct 2025 19:37:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找基准测试人员（Android 设备 -> CPU）！</title>
+      <link>https://www.reddit.com/r/software/comments/1oihuxq/looking_for_benchmarktesters_androiddevice_cpu/</link>
+      <description><![CDATA[大家好！我正在寻找 Android（应用程序）版本“System-Meeter-Bar”的基准测试人员。 “System-Meeter-Bar”旨在为许可友好的支持和分析工具提供解决方案，这些工具结构紧凑，与需要商业用途许可的 EULA 无关。 SMB 是一款集系统数据收集工具、系统概述工具、基准测试和系统报告工具于一体的工具。您可以使用它来显示系统概述、查找问题或通过内置基准测试工具测试系统的稳定性，无论它是在私有系统上使用还是在商业环境中使用。 ( https://www.app-smb.com/ )   关键功能之一是 CPU 计算能力和存储速度的基准。它可以帮助用户检查设备的性能是否符合预期或低于/高于其正常性能水平。 为了提供良好的比较，我需要基于实际基准结果的数据。到目前为止，结果相当有限： https://www.app-smb.com/benchmark.php?type=1   我需要您的帮助并获取更多数据来填充 Android 设备/CPU 数据库及其性能与 SMB 应用程序的 CPU 基准。   我需要的只是 1 分钟单线程测试和 1 分钟多线程测试的结果。 该应用程序可以通过 GooglePlaystore 轻松安装：https://play.google.com/store/apps/details?id=com.it_huskys.smb 我需要的只是基准测试结果的屏幕截图（包含应用中的设备数据）。   提前感谢大家的帮助我出去了，还有你们在这种情况下的大力支持！   由   提交 /u/Unreal_NeoX   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1oihuxq/looking_for_benchmarktesters_androiddevice_cpu/</guid>
+      <pubDate>Tue, 28 Oct 2025 18:48:37 GMT</pubDate>
+    </item>
     <item>
       <title>我厌倦了设置自动化并成为自己的助手，所以我在本地构建了一个可以为我自动化一切的助手</title>
       <link>https://www.reddit.com/r/software/comments/1oigqkc/i_got_tired_of_setting_up_automations_and_being/</link>
-      <description><![CDATA[我是每天使用 10 多个应用程序的人之一； Chrome、Notion、Slack、Sheets、Figma，凡是你能想到的。 每天，我都会发现自己一遍又一遍地做同样的 20 件小事： • 复制工具之间的名称或链接 • 重写简短的电子邮件 • 查找某些内容，将其粘贴到其他地方 • 像 2005 年一样手动填写电子表格 我尝试将这一切自动化；但我尝试将这一切自动化。 ChatGPT、n8n、Zapier、OpenAI 的代理……但事实是：它们都是为技术人员构建的，或者更糟糕的是，它们将你的一半屏幕上传到云端只是为了做一些简单的事情。我不想让人工智能老大哥看着我工作——我只是想要一个小兄弟来帮助我完成工作。 所以几个月前，我开始构建 MonAI——一个小桌面代理，它实际上存在于你的计算机上，学习你的工作流程，并在不需要提示或设置管道的情况下实现自动化。一切都在本地运行，因此数据不会离开您的计算机。它就像您自己的个人数字孪生，可以悄悄地了解您正在使用的内容，并建议对一次性任务或重复性任务进行自动化，而无需您询问。 现在，还为时过早（我们首先在 macOS 上进行测试），但我想在这里分享这个想法，因为我认为生产力的未来不是另一个 SaaS 工具，而是与您一起工作的本地伴侣。 很好奇，你们都好吗？ 如今，您的日常数字工作自动化了吗？您是否找到了真正适合您的工作流程而无需花费数小时进行设置或冒隐私风险的东西？这有助于解决您的任何问题吗？ :) 非常感谢您的反馈:))   由   提交/u/GreenIcy7338  [链接] [评论]]]></description>
+      <description><![CDATA[我是每天使用 10 多个应用程序的人之一； Chrome、Notion、Slack、Sheets、Figma，凡是你能想到的。 每天，我都会发现自己一遍又一遍地做同样的 20 件小事： • 复制工具之间的名称或链接 • 重写简短的电子邮件 • 查找某些内容，将其粘贴到其他地方 • 像 2005 年一样手动填写电子表格 我尝试将这一切自动化；但我尝试将这一切自动化。 ChatGPT、n8n、Zapier、OpenAI 的代理……但事实是：它们都是为技术人员构建的，或者更糟糕的是，它们将你的一半屏幕上传到云端只是为了做一些简单的事情。我不想让人工智能老大哥看着我工作——我只是想要一个小兄弟来帮助我完成工作。 所以几个月前，我开始构建 MonAI——一个小桌面代理，它实际上存在于你的计算机上，学习你的工作流程，并在不需要提示或设置管道的情况下实现自动化。一切都在本地运行，因此数据不会离开您的计算机。它就像您自己的个人数字孪生，可以悄悄地了解您正在使用的内容，并建议自动化一次性任务或重复性任务，而无需您提出要求。 现在，还为时过早（我们首先在 macOS 上进行测试），但我想在这里分享这个想法，因为我认为生产力的未来不是另一个 SaaS 工具，而是与您一起工作的本地伴侣。 很好奇，你们都如何自动化您的日常工作如今的数字惯例？您是否找到了真正适合您的工作流程而无需花费数小时进行设置或冒隐私风险的东西？这有助于解决您的任何问题吗？ :) 非常感谢您的反馈:))   由   提交/u/GreenIcy7338  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1oigqkc/i_got_tired_of_setting_up_automations_and_being/</guid>
       <pubDate>Tue, 28 Oct 2025 18:06:21 GMT</pubDate>
     </item>
@@ -22,21 +43,21 @@
     <item>
       <title>千里 L256 Istele 的 IR 问题</title>
       <link>https://www.reddit.com/r/software/comments/1oiee3f/problème_qianli_ir_avec_qianli_l256_istele/</link>
-      <description><![CDATA[ 由   提交 /u/YohSensei   [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/YohSensei  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1oiee3f/problème_qianli_ir_avec_qianli_l256_istele/</guid>
       <pubDate>Tue, 28 Oct 2025 16:40:03 GMT</pubDate>
     </item>
     <item>
       <title>有没有可以删除像素化图像背景的免费软件？ （像素艺术）</title>
       <link>https://www.reddit.com/r/software/comments/1oidwbx/are_there_any_free_softwares_that_can_remove_the/</link>
-      <description><![CDATA[如果我尝试类似 remove.bg 的内容，它会使像素变得圆形且模糊。有没有可以去除背景像素的软件？   由   提交/u/pedroagiotas  [链接] [评论]]]></description>
+      <description><![CDATA[如果我尝试类似 remove.bg 的内容，它会使像素变得圆形且模糊。有没有可以去除背景像素的软件？   由   提交 /u/pedroagiotas   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1oidwbx/are_there_any_free_softwares_that_can_remove_the/</guid>
       <pubDate>Tue, 28 Oct 2025 16:22:01 GMT</pubDate>
     </item>
     <item>
       <title>用于组织邮政邮件的应用程序</title>
       <link>https://www.reddit.com/r/software/comments/1oib8zu/apps_for_organizing_postal_mail/</link>
-      <description><![CDATA[您是否知道用于扫描和组织普通邮件（即邮寄信件）的工具/应用程序？   由   提交 /u/Pretend-Cheetah2058   [链接] [评论]]]></description>
+      <description><![CDATA[您是否知道用于扫描和组织普通邮件（即邮寄信件）的工具/应用程序？   由   提交/u/Pretend-Cheetah2058  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1oib8zu/apps_for_organizing_postal_mail/</guid>
       <pubDate>Tue, 28 Oct 2025 14:42:50 GMT</pubDate>
     </item>
@@ -57,14 +78,14 @@
     <item>
       <title>当我刻录到光盘时 DVDstyler 文本和按钮不显示</title>
       <link>https://www.reddit.com/r/software/comments/1oi6xvy/dvdstyler_text_and_button_disapres_when_i_burn_to/</link>
-      <description><![CDATA[（我还是 Reddit 的新手，所以不知道该标记什么，如果我弄错了，抱歉。）  这是我第一次尝试制作带菜单的 DVD/DVD，我对任何东西都知之甚少，到目前为止，我已经因为错误而毁掉了 3 张 DVD，但这真的让我很困惑。我发现其他人的帖子存在文本未显示的问题（并且没有找到解决方案），但我也遇到按钮完全消失而不是隐形的问题。主菜单工作正常，主页按钮和第一个标题按钮+文本也工作正常，但没有其他东西。它应该有十个标题+按钮！所有视频都直接链接到每个按钮，并且似乎是正确的格式，因为它可以很好地刻录到光盘，所以我只是卡住了！如果有帮助的话，DVD 是 DVD+R DL，它有剩余空间，因此与项目的大小无关，菜单和问题菜单后面都有图片和相同的字体。   由   提交/u/Mysterious_Laugh_481   [链接] [评论]]]></description>
+      <description><![CDATA[（我还是 Reddit 的新手，所以不知道该标记什么，如果我弄错了，抱歉。）  这是我第一次尝试制作带菜单的 DVD/DVD，我对任何东西都知之甚少，到目前为止，我已经因为错误而毁掉了 3 张 DVD，但这真的让我很困惑。我发现其他人的帖子存在文本未显示的问题（并且没有找到解决方案），但我也遇到按钮完全消失而不是隐形的问题。主菜单工作正常，主页按钮和第一个标题按钮+文本也工作正常，但没有其他东西。它应该有十个标题+按钮！所有视频都直接链接到每个按钮，并且似乎是正确的格式，因为它可以很好地刻录到光盘，所以我只是卡住了！如果有帮助的话，DVD 是 DVD+R DL，它有剩余空间，因此与项目的大小无关，菜单和问题菜单后面都有图片和相同的字体。   由   提交 /u/Mysterious_Laugh_481   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1oi6xvy/dvdstyler_text_and_button_disapres_when_i_burn_to/</guid>
       <pubDate>Tue, 28 Oct 2025 11:36:27 GMT</pubDate>
     </item>
     <item>
       <title>RustyCOV 是一款设计用于使用 cover.musichoarders 半自动检索封面艺术的工具</title>
       <link>https://www.reddit.com/r/software/comments/1oi62x3/rustycov_is_a_tool_designed_to_semiautomate_the/</link>
-      <description><![CDATA[美好的一天。 我在周末制作了一个快速 CLI 工具 RustyCOV 来帮助自动从 covers.musichoarders 目前，它提供两种模式：一种用于每个文件嵌入封面艺术，另一种用于专辑，它从目录中的所有文件中删除封面艺术并将其合并到该专辑的单个图像中。 此外，它支持 PNG 优化、从 PNG 到 JPEG 的转换以及具有可调整质量设置的 JPEG 优化。 例如，您可以链接这些功能将下载的 PNG 文件转换为 JPEG，然后优化 JPEG。 该工具允许您定位目录或单个文件（如果您选择目录，它将递归扫描其中的所有文件）。 它也可以使用 作为 Rust 生态系统中的板条箱/图书馆。但是，如果您尝试在 RustyCOV  上构建自定义逻辑，这可能需要一些改进。 希望您喜欢:)   由   提交 /u/EtherealPlatitude   [链接] [评论]]]></description>
+      <description><![CDATA[美好的一天。 我在周末制作了一个快速 CLI 工具 RustyCOV 来帮助自动从 covers.musicoarders 获取/处理封面艺术 目前，它提供两种模式：一种用于嵌入每个文件的封面艺术，另一种用于专辑，它从目录中的所有文件中删除封面艺术并将其合并为该专辑的单个图像。 此外，它支持 PNG 优化、从 PNG 到 JPEG 的转换以及具有可调整质量设置的 JPEG 优化。 您可以链接这些功能以将下载的 PNG 文件转换为 JPEG，然后优化例如 JPEG。 该工具允许您定位目录或单个文件（如果您选择一个目录，它将递归扫描其中的所有文件）。 它还可以用作 Rust 生态系统中的板条箱/库。但是，如果您尝试在 RustyCOV  上构建自定义逻辑，这可能需要一些改进。 希望您喜欢:)   由   提交 /u/EtherealPlatitude   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1oi62x3/rustycov_is_a_tool_designed_to_semiautomate_the/</guid>
       <pubDate>Tue, 28 Oct 2025 10:49:22 GMT</pubDate>
     </item>
@@ -81,27 +102,6 @@
       <description><![CDATA[ 由   提交 /u/CosmicNostalgiaA   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1oi4tc4/introducing_surfast_video_downloader_fast/</guid>
       <pubDate>Tue, 28 Oct 2025 09:32:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于 Chrome 和 Chromium 的问题</title>
-      <link>https://www.reddit.com/r/software/comments/1oi36yg/so_a_question_about_chrome_and_chromium/</link>
-      <description><![CDATA[最近我注意到 Chrome 变得越来越慢，因此我开始研究一些“非 Google”Chromium 选项。我发现了 Ungoogled Chromium 和一堆其他版本； https://chromium.woolyss.com/ 上的一个甚至提供 Google Sync。我还没有完全切换，因为我正在尝试弄清楚长期影响可能是什么。 与常规 Chrome 相比，我尝试的构建感觉更快，但我想知道这是否只是因为上面几乎没有任何用户数据。我已经使用 Chrome 两年多了，除了缓存之外没有清除任何东西，而且可能每 12-15 个月清除一次。那么，切换实际上有什么长期好处吗？还是我应该坚持使用 Chrome？如果这个非 Google 构建最终像 Chrome 一样在几个月内变慢，那么我真的不明白这一点。   由   提交/u/lalfam9132   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1oi36yg/so_a_question_about_chrome_and_chromium/</guid>
-      <pubDate>Tue, 28 Oct 2025 07:38:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>语音转文本应用程序</title>
-      <link>https://www.reddit.com/r/software/comments/1ohq359/speech_to_text_app/</link>
-      <description><![CDATA[希望能够在勇敢的搜索栏中使用语音。自由和隐私，安全很重要。使用win 10 电脑知识很少。因此，任何帮助将不胜感激。还可以解释天赋和标签。谢谢   由   提交/u/OLD_BUT_LEARNING   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1ohq359/speech_to_text_app/</guid>
-      <pubDate>Mon, 27 Oct 2025 20:47:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有适合经常切换任务的多动症患者的软件？</title>
-      <link>https://www.reddit.com/r/software/comments/1ohj93c/any_software_for_adhd_poeople_who_switch_tasks/</link>
-      <description><![CDATA[尝试了各种 todolists、笔记应用程序等。但仍然在任务之间徘徊太多，而且我对 Chrome 中的分组选项卡、Keep 中的笔记和 Google 日历的效率不够高。有什么建议或程序有帮助吗？   由   提交 /u/Mountain-Affect7482   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1ohj93c/any_software_for_adhd_poeople_who_switch_tasks/</guid>
-      <pubDate>Mon, 27 Oct 2025 16:34:09 GMT</pubDate>
     </item>
     <item>
       <title>网络安全代理应用程序</title>
