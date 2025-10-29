@@ -4,7 +4,77 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 29 Oct 2025 18:25:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 21:16:09 GMT</lastBuildDate>
+    <item>
+      <title>来自 Gadget.dev 的新 ChatGPT 连接</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojguwn/new_chatgpt_connections_from_gadgetdev/</link>
+      <description><![CDATA[您现在可以直接在 Gadget 内构建、托管和发布完整的 ChatGPT 应用程序，无需任何设置。  集成 ChatGPT Apps SDK 身份验证和验证配置了 MCP React UI 就绪 包含托管和数据库  在数小时内从创意 → 实时应用程序。 为什么这很重要 ChatGPT 应用程序是一种新型网络应用程序：它们直接位于 ChatGPT 内部，每月覆盖超过 8 亿用户。没有选项卡，没有重定向，没有上下文切换。对于 B2C 和 B2B 应用程序开发人员来说，这是一个巨大的机会。 但是从头开始构建一个应用程序并不简单。除了应用程序的核心功能之外，您还需要构建 MCP 服务器、用于用户身份验证的 OAuth，并根据 ChatGPT 的 API 指南设置前端嵌入。这是大量的设置和样板工作。 幸运的是，Gadget 的新模板会为您处理所有这些问题。 它是如何工作的？ 将您的 Gadget 应用程序连接到 ChatGPT 字面上需要 10 秒：  您将应用程序 URL 直接复制/粘贴到 ChatGPT 您对自己进行身份验证用户使用模板内置的电子邮件/密码或 Google SSO 身份验证选项 您已完全设置完毕并准备好自定义您的应用 🎥 （视频演示即将推出 - 包括连接流程、HMR 预览和示例应用。）  ChatGPT 生态系统还很年轻，但机会巨大。 Gadget 为开发人员提供了一种无摩擦地探索它的方法。更快地构建、更快地交付并覆盖用户。   由   提交/u/gadget_dev  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojguwn/new_chatgpt_connections_from_gadgetdev/</guid>
+      <pubDate>Wed, 29 Oct 2025 21:15:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>ft_react - 我的 DIY React 克隆</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojg8yx/ft_react_my_diy_react_clone/</link>
+      <description><![CDATA[我接受了一个有趣的挑战：完全由我自己重写核心 React 功能！ 它始于我在 42 编码学校 (ft_transcendence) 的期末项目，那里不允许使用 React。因此，我构建了ft_react，我自己的小型类似React的库。 它的作用：  核心挂钩：useState、useEffect、useRef、useContext、useNavigate 自定义挂钩：useStatic（共享持久状态）和useLocalStorage 之间的路由无需页面重新加载的视图 用于全局状态的基本上下文 API 开发模式下的热重载  我专注于学习，采用更简单的方法来理解 UI 库的工作原理并以我自己的方式解决问题。 结果不是一个完全完善的框架，但对于 ft_transcendence 项目来说它的功能足够了。  看看吧！ 🔗 现场演示：https://react.emanuelscura.me 💾 源代码：https://github.com/Emsa001/ft_react 我很想让你尝试一下！如果您觉得有趣，请在 GitHub 上留下反馈或 ⭐。 谢谢！ 😄✨   由   提交 /u/Visual-Guava-5332   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojg8yx/ft_react_my_diy_react_clone/</guid>
+      <pubDate>Wed, 29 Oct 2025 20:51:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>每页进行 2 次以上的 fetch 调用是否最优？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojfu4m/is_doing_2_fetch_calls_per_page_optimal/</link>
+      <description><![CDATA[大家好，我正在制作一个前后端分离的论坛应用程序类型项目，用户可以在同一页面上看到帖子及其相关评论。问题是我已经制作了 Post api 并使其与前端配合良好，我刚刚添加了评论并使用 REST api 获取评论，下一步是在我的前端应用程序中显示它们。现在我可以编写代码，这样当前端对 /api/post/{topic}/{id} 进行提取调用时，也会返回每个帖子的评论，但我担心它会使 JSON 太大并且会减慢速度，拥有一个单独的 /comment 端点会很方便，因为我可以通过后端对其进行分页，例如 /api/post/{topic}/{id}/comment/1 将返回前 10 条评论，依此类推。实现这一点意味着每个分页对一个页面进行 2 次或更多 fetch 调用。根据您的经验，处理事情的最佳方式是什么？提前致谢！   由   提交 /u/LukeTheBoneless   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojfu4m/is_doing_2_fetch_calls_per_page_optimal/</guid>
+      <pubDate>Wed, 29 Oct 2025 20:35:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>嘿，我刚刚创建了我的第一个登陆页面，希望得到一些反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojfqez/hey_i_just_created_my_first_landing_page_and/</link>
+      <description><![CDATA[我觉得我的网站缺少一些个性，我最近一直在改进它。我会尽量减少，但不偷懒（如果这有意义的话）。如果您有任何反馈或注释，我希望获得一些帮助，如果消息清楚，也请告诉我:) https://mivory.app/    由   提交/u/mayaj47  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojfqez/hey_i_just_created_my_first_landing_page_and/</guid>
+      <pubDate>Wed, 29 Oct 2025 20:31:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>TeleportHQ repl 无法正常工作？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojf3dh/teleporthq_repl_not_working/</link>
+      <description><![CDATA[      https://repl.teleporthq.io/?utm_source=chatgpt.com 查看图片。即使我将文本更新为 Hello11​​1，并按刷新按钮，它仍然呈现 HelloWorld！   由   提交/u/marksteve4  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojf3dh/teleporthq_repl_not_working/</guid>
+      <pubDate>Wed, 29 Oct 2025 20:06:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Instagram Graph API 适用于测试用户，但不适用于真实用户，并出现 OAuth 错误 190 - 卡住了 2 周</title>
+      <link>https://www.reddit.com/r/webdev/comments/1oje3b8/instagram_graph_api_works_for_test_users_but/</link>
+      <description><![CDATA[大家好， 我已经在这个问题上坚持了两周多了，确实需要一些帮助。我正在使用 Instagram Graph API 构建一个元应用程序，对于测试用户来说，一切都运行得很好，但对于真实用户来说却完全崩溃了。 这是发生的情况 👇 ✅ 运行情况 • 该应用程序已经过业务验证。 • 我对 instagram_graph_user_profile 和pages_messaging 都有高级访问权限。 • 该应用程序处于实时状态模式。 • 对于测试用户，一切正常 - 我可以发送/接收消息、Webhooks 正确触发等。 💥 问题 当真正的 Instagram 用户通过 OAuth 授权时： • 我成功获得授权代码。 • 我将其交换为短期令牌 - 这工作正常。 • 但随后： 之后的每个 API 调用失败，并显示 { “错误”：{ “消息”：“无效的 OAuth 2.0 访问令牌”， “类型”：“IGApiException”， “代码”：190 } } 当我尝试生成长期令牌时，我得到： { “错误”：{ “消息”：“不受支持的请求 - 方法类型：get”， “类型”：“IGApiException”， “代码”： 100 } } 当真实用户发送消息时，webhook 不会触发。 🧩 我已经确认的内容 • 业务验证 ✅ • 高级访问 ✅ • 正确的应用 ID、客户端密钥、重定向 URI ✅ • 应用处于实时模式 ✅ •使用不同的短期令牌尝试了多次❌ • 使用 Graph API v19.0 和 v20.0 进行了测试❌ 仍然对真实用户没有任何作用。 😭我完全陷入困境 感觉对于真实用户来说存在一些隐藏的限制或缺少步骤，但我完全遵循了 Meta 的文档。 如果有人经历过这个并解决了这个问题，请帮助我。 我可以分享屏幕截图、代码片段，甚至可以进行一次简短的会议来一起调试这个问题。 请私信我 - 我很乐意详细解释所有内容。   由   提交/u/Upbeat-Consequence77  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1oje3b8/instagram_graph_api_works_for_test_users_but/</guid>
+      <pubDate>Wed, 29 Oct 2025 19:28:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>GTA 6 登陆页面遮罩效果起源于中心顶部</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojdpo8/gta_6_landing_page_mask_effect_origin_from_center/</link>
+      <description><![CDATA[我尝试像原始网站一样重新创建 GTA 6 页面遮罩效果，为此我使用了 GSAP。我希望遮罩像原始网站一样从中心顶部开始缩小，但我无法这样做。 演示：https://stackblitz.com/edit/vitejs-vite-rgo8swx2?file=src%2Findex.css 原始网站：https://www.rockstargames.com/VI 如何让遮罩像原始网站一样从中心顶部开始？   由   提交/u/0xVitalik  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojdpo8/gta_6_landing_page_mask_effect_origin_from_center/</guid>
+      <pubDate>Wed, 29 Oct 2025 19:14:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何有效使用静态关键字/位置 SEO 页面？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojdd0p/how_do_i_effectively_use_static_keywordlocation/</link>
+      <description><![CDATA[我的理解是，您可以拥有数百个静态 SEO 页面，其中包含与机器人拾取的城市和州相关的大块关键字和短语。但我不一定希望人们在单击搜索结果时登陆这些页面。有没有办法立即将这些静态页面重定向到网站上的正常页面？这样只有机器人才能看到这些页面，而最终用户永远不会看到它们。  我可能完全误解了这应该如何运作，但我确实知道这是一种常见的 SEO 策略并且它是有效的。那么到底是如何正确执行的呢？ 感谢您的帮助！   由   提交 /u/vonroyale   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojdd0p/how_do_i_effectively_use_static_keywordlocation/</guid>
+      <pubDate>Wed, 29 Oct 2025 19:01:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>帮助进行网络嵌入</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojcsgu/help_with_web_embed/</link>
+      <description><![CDATA[嗨！那么任何人都可以帮我解决这个问题吗？我不是一名编码员，而且对网络开发还很陌生。我是一名瑜伽老师，我在 Wordpress 上建立了我的网站，我目前为我的课程使用单独的预订系统（gym catch），我想将 Gymcatch 应用程序通过网络嵌入到我的网站中，但 Gym catch 只会为我提供 API 代码，而不是简单的 Web 嵌入代码。由于我不是编码员，我不知道如何使用 API 代码。有人熟悉将 Gymcatch 集成到 Wordpress 网站吗？希望这是有道理的，提前谢谢您！   由   提交/u/Pranayama_to_asana   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojcsgu/help_with_web_embed/</guid>
+      <pubDate>Wed, 29 Oct 2025 18:40:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>dotenv 的新轻量级替代品：@aptd/smart-env</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ojceie/a_new_lightweight_alternative_to_dotenv/</link>
+      <description><![CDATA[🚀 刚刚发布了一个超轻量级 Node.js 包： @aptd/smart-env 如果您曾经对臃肿的 dotenv 替代方案感到烦恼，或者想要更安全的键入环境变量而不需要引入庞大的配置系统，这可能会有所帮助👇 ✅加载 .env 文件（dotenv 样式） ✅ 支持注释 (# ...) 和带引号的值 ✅ 安全地解析干净的 key=value 对 ✅ 自动与 process.env 合并（系统变量总是获胜） ✅ 支持特定于环境的文件（.env、.env.development、.env.Production 等） ✅ 包括getEnv() 帮助器，因此丢失的键永远不会默默失败 ✅ 返回正确键入的值（字符串、数字、布尔值） 目标：为不需要完整配置框架的项目提供简单、可预测、不臃肿的环境加载。 📦 NPM：@aptd/smart-env 👉 https://www.npmjs.com/package/@aptd/smart-env   由   提交 /u/Ok_Charge_5700   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ojceie/a_new_lightweight_alternative_to_dotenv/</guid>
+      <pubDate>Wed, 29 Oct 2025 18:25:56 GMT</pubDate>
+    </item>
     <item>
       <title>在什么情况下您会推荐 BFF（前端后端）？</title>
       <link>https://www.reddit.com/r/webdev/comments/1ojbvgj/in_which_cases_would_you_recommend_a_bff_backend/</link>
@@ -39,76 +109,6 @@
       <description><![CDATA[遇到了一个问题，我认为该问题是我的网站特有的，其中粘性标头有时会被切断，有时不会，但总是在打开 url 模式然后关闭它之后。有人遇到过这个问题或者有任何修复建议吗？ 检查gymshark、Gucci，了解 IOS chrome 上的良好示例，但 android chrome 上也可能存在问题   由   提交 /u/luckylegion   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ojb1un/chrome_has_broken_sticky_headers/</guid>
       <pubDate>Wed, 29 Oct 2025 17:36:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spring引导还是.NET？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ojb1ii/spring_boot_or_net/</link>
-      <description><![CDATA[您会选择哪一个来编写后端？为什么？   由   提交 /u/shotx333   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ojb1ii/spring_boot_or_net/</guid>
-      <pubDate>Wed, 29 Oct 2025 17:36:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>留下你对我的实践的意见</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oja7zc/drop_ur_opinions_on_my_practice/</link>
-      <description><![CDATA[      所以，我学习并练习了 web编码已经快一周了。我遇到了一些事情。我正在学习和练习这个系列初学者网页开发教程，这是“B”这是他在视频中编码的方式。然后我突然意识到，因为在学习期间，无论我学习什么，我也试图找到人们如何在他们的工作中对待这种编码风格。他们经常或有时使用这个？类似的事情。当我学到一点东西时，我会尝试寻找初学者项目并练习我在其中学到的东西。  我意识到我也可以像在“A”中那样编码。当你转到第三张照片时。你会看到他们有相同的结果。  我的问题是 1.你们喜欢什么？ A还是B？ 2. 另外提一下，哪一个是人们经常使用的。 3.其中哪一种风格可能在以后的工作中存在潜在的错误和问题。 4. 对于像我这样的初学者有什么建议吗？   由   提交/u/Tough-Bee6860   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oja7zc/drop_ur_opinions_on_my_practice/</guid>
-      <pubDate>Wed, 29 Oct 2025 17:06:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>全球停电就像下雪天</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oja6ud/global_outages_are_like_snow_days/</link>
-      <description><![CDATA[由于天蓝色全球中断，我们的团队只是在冷静地等待另一个开发团队来处理它。  这就像学校下雪的日子。一旦我们发现这是全球性的停电，老板就吓坏了。我们都松了一口气，然后开始恶作剧，直到它回来。 我不确定每个人都有这种感觉，但对我来说却是这样。这很令人愉快。    由   提交/u/-hellozukohere-   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oja6ud/global_outages_are_like_snow_days/</guid>
-      <pubDate>Wed, 29 Oct 2025 17:05:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>刚刚构建了一个全栈求职板应用程序 - 希望得到反馈！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oj86lf/just_built_a_fullstack_job_board_app_would_love/</link>
-      <description><![CDATA[      嘿伙计们！ 👋 最近完成了这个求职板应用。它做了一些很酷的事情：  使用 RAG 的人工智能工作推荐系统 工作过滤器和工作过滤器搜索 招聘人员可以使用人工智能创建职位帖子 用户可以在人工智能的帮助下撰写求职信 社交媒体发布和消息传递集成 通知和实时仪表板活动  🎥 查看演示 💻代码： https://github.com/sohan01fw/job-board 你认为我已经准备好开始向创始人寻求远程职位了吗？感谢您的想法！   由   提交/u/InknownRich9618  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oj86lf/just_built_a_fullstack_job_board_app_would_love/</guid>
-      <pubDate>Wed, 29 Oct 2025 15:51:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>React Cheatsheet - 并发特性</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oj6jhg/react_cheatsheet_concurrent_features/</link>
-      <description><![CDATA[      `useTransition` - 标记较低优先级的更新可保持界面流畅，并将异步操作同步到 UI  `Suspense` - 为异步数据源和延迟加载组件提供干净、声明性的加载状态 `useDeferredValue` - 让您推迟缓慢或频繁更改的内容的渲染，保持高优先级交互的响应 `useOptimistic` - 在后台操作完成时显示即时 UI 更新 React Certification 将在 11 月 15 日至 16 日的周末免费运行： https://go.certificates.dev/fw25h 由令人惊叹的 Aurora Scharff 为 Certificates.dev ✨   由   提交/u/wanderlust991  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oj6jhg/react_cheatsheet_concurrent_features/</guid>
-      <pubDate>Wed, 29 Oct 2025 14:48:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何使这些图标/按钮保持在原位并与大图像一起缩放</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oj50ns/how_do_i_i_make_these_icon_buttons_stay_in_place/</link>
-      <description><![CDATA[      基本上，我想要制作的是带有文本的小箭头，用于链接到页面的其他部分。我想到的是，我可以将相关图像（图标+箭头）放在大图像上，然后以类似的方式放置文本。  我在 vercel 上托管时使用 Astro 和 tailwind。如果您想查看并提供反馈，new.vejas.site 上有一个实时版本。    由   提交/u/las_vejas  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oj50ns/how_do_i_i_make_these_icon_buttons_stay_in_place/</guid>
-      <pubDate>Wed, 29 Oct 2025 13:48:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>只是一个尝试设计响应式网站的家伙</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oj4wh3/just_a_dude_trying_to_design_responsive_sites/</link>
-      <description><![CDATA[嘿，所以我一直在与网络开发人员打交道，并不断听说响应式设计。老实说，有时感觉就像一个迷宫。我尝试使用 bootstrap 和 tailwind 等框架，但我仍然陷入正确的断点并确保一切在手机和平​​板电脑上看起来都不错。有人有任何技巧或工具可以帮助他们解决问题吗？或者也许有一些需要注意的常见陷阱？对吗？   由   提交 /u/AshfordByte   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oj4wh3/just_a_dude_trying_to_design_responsive_sites/</guid>
-      <pubDate>Wed, 29 Oct 2025 13:43:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>何时使用普通 React (Vite) 而不是 Nextjs？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oj4sue/when_to_use_plain_react_vite_over_nextjs/</link>
-      <description><![CDATA[我对 Web 开发相当陌生，最近开始学习 React 和 Vite 来制作个人项目，但现在我想知道默认使用 Nextjs 是否更好，或者我到底什么时候应该使用其中一个？    由   提交/u/ShatteredTeaCup33  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oj4sue/when_to_use_plain_react_vite_over_nextjs/</guid>
-      <pubDate>Wed, 29 Oct 2025 13:39:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年是否值得加入 CloudDevs、Turing 和其他自由网络？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oj4bya/is_it_worth_joining_the_clouddevs_turing_and/</link>
-      <description><![CDATA[我已经在 Toptal 工作了十多年，大部分时间都很棒，但最近那里的工作池变得非常薄弱，项目往往符合相同的模式费率/小时，而我的堆栈（电子商务全堆栈）的职位发布是真正的罕见。 其他网络做得更好吗？我知道他们中的一些人进行了严格的审查过程（嗯，Toptal 也这样做），我对此表示同意，但我担心在付出努力时会发现同样的空白。 我确实有一个 Upwork 个人资料，但我从未使用过它，在那里完成的项目为零，所以对于一些更频繁的开发人员来说，我的申请可能会被推翻。 我在欧洲，如果这有什么区别的话。   由   提交 /u/sonictank   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oj4bya/is_it_worth_joining_the_clouddevs_turing_and/</guid>
-      <pubDate>Wed, 29 Oct 2025 13:19:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>验证码有效性</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oj3ksu/recaptcha_effectiveness/</link>
-      <description><![CDATA[我正在制作一个网络聊天小部件，并希望保护它免受机器人消息的影响。我使用的工具之一是 Recaptcha Enterprise。是浪费吗？我读过它很容易通过脚本和住宅代理绕过。   由   提交 /u/programmingstarter   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oj3ksu/recaptcha_effectiveness/</guid>
-      <pubDate>Wed, 29 Oct 2025 12:47:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
