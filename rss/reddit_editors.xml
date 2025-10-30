@@ -4,7 +4,14 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Thu, 30 Oct 2025 01:15:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 03:41:32 GMT</lastBuildDate>
+    <item>
+      <title>Adobe 将发布人工智能视频编辑系统“Project Frame Forward”</title>
+      <link>https://www.reddit.com/r/editors/comments/1ojmqxz/adobe_to_release_aipowered_video_editing_system/</link>
+      <description><![CDATA[https://deadline.com/2025/10/adobe-max-ai-video-editing-project-frame-forward-1236601214/   由   提交/u/ox2slickxo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1ojmqxz/adobe_to_release_aipowered_video_editing_system/</guid>
+      <pubDate>Thu, 30 Oct 2025 01:25:47 GMT</pubDate>
+    </item>
     <item>
       <title>音频到文本转录选项？</title>
       <link>https://www.reddit.com/r/editors/comments/1ojl1c3/audio_to_text_transcript_options/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[嘿，你们好，我手头上有一个奇怪的情况，这是一个半完成的项目和一个杂乱无章的客户。 简而言之：客户拍摄了一堆镜头 - 有些是 23.98fps，有些是 25fps。原始编辑器设置了两个项目，一个作为 25fps 摄取项目，另一个作为 23.98 摄取/工作项目。他正在参与 23.98 项目，所有序列都在那里。他将一些 25fps 的镜头放入 25fps 项目中，并对其进行交互播放——这引入了一些重影，但可以通过一些 MFE 插值效果轻松压缩。不过，他还将一些 25fps 镜头直接转码到 23.98 项目中，创建了现在最终序列中的镜头的 .new.01 23.98 变体。所以我们这里有一个大混合的摄取流程。 问题是：该项目需要突然在 25 秒内交付。通常没什么大不了的，我将序列转移到 25 项目中，Avid 做了它的事情来改变帧速率，我在重影镜头上进行了一些 MFE 插值 - 很简单。然而，最初为 25 并直接摄取到 23.98 项目（上述 .new 变体）的素材无法进行插值，并且重影有点......难以融入？ 我的大脑正在试图解决这个问题。我可以通过将 25 个镜头的新版本导入到 25 个项目中并手动匹配所有剪辑剪辑的帧来手动修复此问题 - 但这必须有一些自动化吗？我尝试批量重新导入有问题的文件，但 Avid 不允许您使用混合速率的素材。   由   提交 /u/Trashcan-Ted   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1oihyzb/avid_25fps_to_2398_back_to_25fps/</guid>
       <pubDate>Tue, 28 Oct 2025 18:53:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>从统计数据来看，Avid 在 Mac 上的崩溃次数是否比 PC 上少？</title>
-      <link>https://www.reddit.com/r/editors/comments/1oihiz3/statistically_speaking_does_avid_crash_less_on/</link>
-      <description><![CDATA[我最近发现 99% 的无脚本制作/后期制作公司都在 PC 上运行 Avid。而 99% 的剧本电影和故事片都是在 Mac 上进行的。这让我想知道，是否有一些经验证据表明 Avid 在一个平台上比其他平台上更稳定？  问题的一部分是，无剧本的节目往往涉及更多的镜头和工作站，并且具有更复杂的工作流程，这可能会影响统计数据。但是这里有没有人在 Mac 和 PC 上删除了一个功能，可以解决这个困境？   由   提交 /u/BoilingJD   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1oihiz3/statistically_speaking_does_avid_crash_less_on/</guid>
-      <pubDate>Tue, 28 Oct 2025 18:36:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
