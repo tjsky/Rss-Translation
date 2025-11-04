@@ -4,11 +4,46 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 03 Nov 2025 21:17:49 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 01:12:21 GMT</lastBuildDate>
+    <item>
+      <title>帮助CSS渐变</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ontlui/help_with_css_gradient/</link>
+      <description><![CDATA[      我尝试为我的网站制作背景，但最终看起来像这样。 这是我的 css 文件中的代码 body { background-color: #FFFFF0; font-family: Arial, sans-serif; text-align: center; 背景图像：线性渐变（到顶部，#8B0000，#FFE4C4）； } 我该怎么办。 编辑：还知道我在 15 分钟前就开始研究这个，这就是为什么它如此空的原因。我会学习后端的东西，但很多编程语言都没有预装在 Mac 上。 TL;DR 不要阅读此内容   由   提交/u/zzach_is_not_old  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ontlui/help_with_css_gradient/</guid>
+      <pubDate>Tue, 04 Nov 2025 00:51:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Safari 26.1 的 WebKit 功能</title>
+      <link>https://www.reddit.com/r/webdev/comments/1onr1z4/webkit_features_for_safari_261/</link>
+      <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1onr1z4/webkit_features_for_safari_261/</guid>
+      <pubDate>Mon, 03 Nov 2025 23:02:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>提案：针对阅读障碍、色觉和对比度设置的辅助功能首选项 API</title>
+      <link>https://www.reddit.com/r/webdev/comments/1onp9yb/proposal_accessibility_preferences_api_for/</link>
+      <description><![CDATA[      大家好，我是一名 14 岁的开发人员，一直在研究新的浏览器级辅助功能系统的提案。这个想法是让用户通过浏览器中专用的“辅助功能”选项卡来定义偏好，例如阅读障碍支持、色觉类型（红色盲、绿色盲、蓝色盲）和对比度级别。 这些偏好将通过 JavaScript 公开给网站，从而允许自动调整字体、颜色和布局。开发人员可以使用 navigator.accessibilityPreferences 等内容来检测和响应这些设置。 我已在 Mozilla Connect 上发布了完整的提案 - 链接包含在帖子本身中。如果您关心可访问性或网络标准，我希望得到您的反馈或支持。 感谢您的阅读 - 我真的相信这可以使网络对每个人都更具包容性。   由   提交 /u/CommandLs   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1onp9yb/proposal_accessibility_preferences_api_for/</guid>
+      <pubDate>Mon, 03 Nov 2025 21:53:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>针对用户名的最佳脏话过滤器 API？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1onotdi/best_profanity_filter_apis_for_usernames/</link>
+      <description><![CDATA[我最近开发了一款在线游戏，玩家可以在其中创建自己的用户名。这导致一些不良行为者输入了一些不适当的用户名。 我正在寻找一个免费或低成本的脏话过滤器 API 来帮助解决这个问题。对于此类 API 有什么建议或经验吗？   由   提交/u/benugc  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1onotdi/best_profanity_filter_apis_for_usernames/</guid>
+      <pubDate>Mon, 03 Nov 2025 21:35:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>字体许可勒索 - Futura - Bauer Fonts</title>
+      <link>https://www.reddit.com/r/webdev/comments/1onorvy/font_licensing_extortion_futura_bauer_fonts/</link>
+      <description><![CDATA[有没有想过为什么同一字体有一堆变体（即 Futura Std、Futura PT、Futura POS）？经过20年的思考，我终于明白了。这些字体变体虽然看起来相同，但将来会用来敲诈您或您的客户。 背景故事： 我的一个非营利客户正受到以 Font Radar 为代表的 Futura/Bauer 的骚扰，要求获得他们已经拥有的字体许可。他们不久前购买了 Futura Std 许可证，并提供了证明。但是，Futura Std 字体不涵盖 WOFF 格式，您必须偿还许可费用。他们的流量相当大，所以我想盖世太保字体来敲门只是时间问题。  查看此估算： Bauer 的永久许可证报价：  每月页面浏览量高达 10 万欧元的 Webfont 许可证：9,513 欧元 ≈ 10,369 美元 1 个下载次数高达 10 万欧元的应用程序许可证：8,400 欧元 ≈ $9,156 社交媒体最多 100 位关注者：€3,150 ≈ $3,434  是的，即使他们已经拥有许可证，他们也必须偿还大约 6 年的转换/优化字体费用。我正在帮助他们解决这个问题，但他们非常咄咄逼人，我现在正在帮助客户的法律顾问。他们会尽力让你自证其罪，所以如果你陷入这样的困境，不要让你的客户上当。我确信将会有某种类型的解决方案。 如果您使用任何老式的垃圾字体，请仔细阅读许可协议，尤其是在新的发行媒体出现时。尽管您可能想使用 WOFF 格式来优化您的网站/应用程序，但请务必检查其是否合法。我听说 Monotype 也因敲诈勒索而臭名昭著。 始终尝试尽可能多地使用公共铸造厂，并尽量不要自行托管。这就是我的客户被捕的原因。 P.S.我听说也存在针对可访问性的勒索计划。了解最新的 ADA 合规问题，因为它现在确实很重要。保持安全朋友们。  P.S.S. Futura 就是一坨屎。   由   提交/u/simplesites  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1onorvy/font_licensing_extortion_futura_bauer_fonts/</guid>
+      <pubDate>Mon, 03 Nov 2025 21:34:09 GMT</pubDate>
+    </item>
     <item>
       <title>App Store 网站已公开其所有源代码</title>
       <link>https://www.reddit.com/r/webdev/comments/1onnzlj/app_store_web_has_exposed_all_its_source_code/</link>
-      <description><![CDATA[      App Store 似乎是使用 Svelte 重建的，但他们忘记在生产中删除 sourcemap 配置，导致源代码完全暴露。 https://apps.apple.com/ 我还上传了一份到 GitHub：https://github.com/rxliuli/apps.apple.com   由   提交 /u/rxliuli   [链接] [评论] ]]></description>
+      <description><![CDATA[      App Store 似乎是使用 Svelte 重建的，但他们忘记在生产中删除 sourcemap 配置，导致源代码完全暴露。 https://apps.apple.com/ 我还上传了一份到 GitHub：https://github.com/rxliuli/apps.apple.com  更新：App Store 刚刚修复了此问题。   由   提交 /u/rxliuli   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1onnzlj/app_store_web_has_exposed_all_its_source_code/</guid>
       <pubDate>Mon, 03 Nov 2025 21:04:54 GMT</pubDate>
     </item>
@@ -29,7 +64,7 @@
     <item>
       <title>如何为不同类型的网站调整 VPS 资源大小（基于流量、复杂性和缓存）？</title>
       <link>https://www.reddit.com/r/webdev/comments/1onlds5/how_do_you_size_vps_resources_for_different_types/</link>
-      <description><![CDATA[我试图了解如何估算不同类型网站的 VPS 资源需求 - 不仅仅是从理论出发，而是基于实际经验。 您是否使用任何指南或经验规则（或您推荐的指南）来根据以下情况决定分配多少 CPU、RAM 和磁盘： * 每日平均并发访问者 * 网站复杂性（静态网站） → 轻量级 Web 应用程序 → 高负载动态站点） * 是否使用数据库以及数据库有多大 * 是否实施缓存或 CDN 层 我知道“这取决于情况” - 但我真的很想听听为实际站点做过容量规划的人的意见： 您学到了什么模式或经验教训？ * 哪些设置有效或无效？ * 任何示例您可以分享的配置吗（例如，“对于一个每天约有 10k 访问者和缓存的小型 Django 应用程序，我们使用了 2 个 vCPU 和 4 GB RAM，具有良好的性能。”）？ 我主要寻找基于经验的见解或参考点，而不是严格的公式。 提前致谢！   由   提交 /u/Josephf93   [链接] [评论]]]></description>
+      <description><![CDATA[我试图了解如何估算不同类型网站的 VPS 资源需求 - 不仅仅是从理论出发，而是基于实际经验。 您是否使用任何指南或经验规则（或您推荐的指南）来根据以下情况决定分配多少 CPU、RAM 和磁盘： * 每日平均并发访问者 * 网站复杂性（静态网站） → 轻量级 Web 应用程序 → 高负载动态站点） * 是否使用数据库以及数据库有多大 * 是否实施缓存或 CDN 层 我知道“这取决于情况”，但我真的很想听听为实际站点进行容量规划的人的意见： 您学到了什么模式或经验教训？ * 哪些设置有效或无效？ * 任何示例您可以分享的配置吗（例如，“对于一个每天约有 10k 访问者和缓存的小型 Django 应用程序，我们使用了 2 个 vCPU 和 4 GB RAM，具有良好的性能。”）？ 我主要寻找基于经验的见解或参考点，而不是严格的公式。 提前致谢！   由   提交 /u/Josephf93   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1onlds5/how_do_you_size_vps_resources_for_different_types/</guid>
       <pubDate>Mon, 03 Nov 2025 19:28:45 GMT</pubDate>
     </item>
@@ -71,44 +106,9 @@
     <item>
       <title>Flightapi.io 是热门垃圾......但你可能已经知道这一点</title>
       <link>https://www.reddit.com/r/webdev/comments/1onj462/flightapiio_is_hot_garbage_but_you_prob_knew_this/</link>
-      <description><![CDATA[提供远低于行业平均成本的数据的网站并不是最可靠的，这并不奇怪，但值得一试。老实说，几个月来还不错。 但最近失败率简直令人无法接受。最初几个月我的成功率约为 93%（每月约 100,000 个呼叫）。然后它下降到~83%。我联系了他们，但得到了一堆“这是你的错”。回应。我反驳道，他们说：“哦，我们发现了问题。”我们已经修复了它”。 好吧，现在我的成功率是 3%。是啊，失败率97%。我从他们那里得到的几条简短的回复承认他们已经结束了，但是在总共约 7,250 个呼叫中失败了 7,000 个呼叫之后，我什至无法让他们将钱存入该帐户。你难道不知道吗，他们已经删除了“取消订阅”功能控制面板上的按钮。很好。 所以，我会让我的抄送人来处理这个问题。但我想我会让每个人都知道......甚至不用打扰。即使服务正常工作，运行它的人也不值得您花精力去处理。   由   提交/u/DamagedGoods13  [链接] [评论]]]></description>
+      <description><![CDATA[提供远低于行业平均成本的数据的网站并不是最可靠的，这并不奇怪，但值得一试。老实说，几个月来还不错。 但最近失败率简直令人无法接受。最初几个月我的成功率约为 93%（每月约 100,000 个呼叫）。然后它下降到~83%。我联系了他们，但得到了一堆“这是你的错”。回应。我反驳道，他们说：“哦，我们发现了问题。”我们已经修复了它”。 好吧，现在我的成功率是 3%。是的，失败率97%。我从他们那里得到的几条简短的回复承认他们已经结束了，但是在总共约 7,250 个呼叫中失败了 7,000 个呼叫之后，我什至无法让他们将钱存入该帐户。你难道不知道吗，他们已经删除了“取消订阅”功能控制面板上的按钮。很好。 所以，我会让我的抄送人来处理这个问题。但我想我会让每个人都知道......甚至不用打扰。即使服务正常工作，运行它的人也不值得您花精力去处理。   由   提交/u/DamagedGoods13  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1onj462/flightapiio_is_hot_garbage_but_you_prob_knew_this/</guid>
       <pubDate>Mon, 03 Nov 2025 18:06:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>感谢 1000+ 用户！印度道路安全平台反馈时间到了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1onhyy8/thank_1000_users_time_for_feedback_on_indian_road/</link>
-      <description><![CDATA[2天前，我推出了Roadha，一个专为印度打造的免费道路安全学习平台。 它已经有超过1000名访客！只需2天！那是巨大的。我从来没有想象过，也没有预料到会这样。  https://preview.redd.it/vwd310sfr2zf1.png?width=984&amp;format=png&amp;auto=webp&amp;s=b30d5e46d6b21051f65d4d38a8f1c5df6e13cd4d 现在我想要反馈或功能请求。 我现在非常兴奋。 我确实从道路使用者那里收到了很好的反馈，并对接下来会发生什么感到兴奋。 今天我添加了一个新课程：始终携带有效物品文件 到目前为止，已为印度道路安全初学者课程添加了 10 节课程。会继续补充的。 谢谢大家！  我真的很感谢你们每一个人，他们对这个可以拯救生命的雄心勃勃的项目表示了巨大的支持。  我不知道 Roadha 的未来会怎样，但现在，我将继续建设和发展 Roadha。改进这一点。 需要更多功能！所以请告诉我您对 Roadha 的看法或有什么想法。  或者也许只是告诉我哪里会失败。这至关重要。 了解道路安全：www.roadha.space  https://preview.redd.it/brw10z2ps2zf1.png?width=2337&amp;format=png&amp;auto=webp&amp;s=2570be6050db11a70868bcaab5c8a027dd1cd3d0   由   提交/u/sumsourabh14  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1onhyy8/thank_1000_users_time_for_feedback_on_indian_road/</guid>
-      <pubDate>Mon, 03 Nov 2025 17:26:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪个是学习整个 webdev 的最佳地点？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1onghc3/which_is_best_place_to_learn_entire_webdev/</link>
-      <description><![CDATA[所以我来自印度，这里的 IT 市场很糟糕。所以你想从头开始学习整个 webdev。我在 telegram 上获得了这些课程 1. Harkirat singh 所有队列 2. Chai 和 code 整个 webdev 课程 3. Sheriyans 编码学校整个 webdev 课程 4. Namaste dev React、nodejs 等 5. Sanket singh java fullstack 我应该选择哪一门来掌握 webdev？我说的是前端和后端。   由   提交 /u/Many-Report-6008   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1onghc3/which_is_best_place_to_learn_entire_webdev/</guid>
-      <pubDate>Mon, 03 Nov 2025 16:32:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 CSS 高亮 API 进行高性能语法高亮显示</title>
-      <link>https://www.reddit.com/r/webdev/comments/1onfrei/highperformance_syntax_highlighting_with_css/</link>
-      <description><![CDATA[       由   提交 /u/pavi2410   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1onfrei/highperformance_syntax_highlighting_with_css/</guid>
-      <pubDate>Mon, 03 Nov 2025 16:06:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何创建更具吸引力的网站。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1onfqdo/how_to_create_website_more_engaging/</link>
-      <description><![CDATA[需要一些网站参与建议 跳出率非常高   由   提交 /u/deepanshijn   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1onfqdo/how_to_create_website_more_engaging/</guid>
-      <pubDate>Mon, 03 Nov 2025 16:05:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>是否有 Facebook 登录按钮的 HTML/CSS 生成器或图标存档？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1onfb60/is_there_an_htmlcss_generator_or_an_icon_archive/</link>
-      <description><![CDATA[您好， 我的网站上有社交登录按钮（Google、FB 等）。整个身份验证流程都通过我的服务器，因此我不使用任何 JavaScript。我只需要按钮将用户链接到“https://myserver/login/facebook”，然后处理重定向。 Google 提供了 SVG 按钮和我使用的生成器。 但是，我找不到类似的 HTML/CSS 按钮生成器或用于 Facebook 登录的官方 SVG 资源集。 你知道在哪里可以找到吗那些？ 我所需要的只是满足 Facebook 的按钮设计准则。其他一切都在服务器端处理。 谢谢！   由   提交/u/mylanoo  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1onfb60/is_there_an_htmlcss_generator_or_an_icon_archive/</guid>
-      <pubDate>Mon, 03 Nov 2025 15:49:47 GMT</pubDate>
     </item>
     </channel>
 </rss>

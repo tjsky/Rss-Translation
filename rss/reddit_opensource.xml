@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 03 Nov 2025 21:18:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 01:12:26 GMT</lastBuildDate>
+    <item>
+      <title>AidMap - 急救箱和 AED 的众包地图</title>
+      <link>https://www.reddit.com/r/opensource/comments/1onsqk6/aidmap_crowdsourced_map_for_firstaid_kits_aeds/</link>
+      <description><![CDATA[      大家好， 整个周末，我模拟了 AidMap，这是一个开源网络应用程序，可帮助社区众包并绘制急救箱、AED 和其他紧急用品的地图。 一些当前的情况基本功能和亮点：  基于 Mapbox 的地图界面 用户可以提交带有描述/照片的位置 审核工作流程，以便提交内容保持可靠 投票系统以突出显示有用的资源 可配置的资源类型  我希望这可以作为应急物资的可靠资源，并为城镇、大学和社区提供易于采用的模板其他组织。 计划的功能包括从较小的登记处（例如特定于城镇的登记处）导入数据、更强大的审核工作流程，以及针对组织的一种认证位置的方法。  一个粗略的演示正在运行：https://aidmap.live/ 希望得到任何想法或反馈！   由   提交 /u/OrangeLineEnjoyer   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1onsqk6/aidmap_crowdsourced_map_for_firstaid_kits_aeds/</guid>
+      <pubDate>Tue, 04 Nov 2025 00:13:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Metroid：开源定价和计费基础设施</title>
+      <link>https://www.reddit.com/r/opensource/comments/1onpuot/meteroid_opensource_pricing_and_billing/</link>
+      <description><![CDATA[       由   提交 /u/SoftwareCitadel   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1onpuot/meteroid_opensource_pricing_and_billing/</guid>
+      <pubDate>Mon, 03 Nov 2025 22:15:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>观看：传统的 #appsecurity 工具无法应对 #GenAI 的不可预测性</title>
+      <link>https://www.reddit.com/r/opensource/comments/1onopms/watch_traditional_appsecurity_tools_are/</link>
+      <description><![CDATA[       由   提交/u/WalrusOk4591   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1onopms/watch_traditional_appsecurity_tools_are/</guid>
+      <pubDate>Mon, 03 Nov 2025 21:31:49 GMT</pubDate>
+    </item>
     <item>
       <title>Intercom — Python 中的开源 WebRTC 音频和视频对讲系统</title>
       <link>https://www.reddit.com/r/opensource/comments/1onnt0n/intercom_opensource_webrtc_audio_video_intercom/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我发现了这个新的 OSS 工具，它可以在 Android Studio 和 IntelliJ 中为 Jetpack Compose 提供实时稳定性分析。它通过装订线图标、悬停工具提示、内联参数提示和快速修复检查来突出显示可跳过或不稳定的可组合项。 自述文件中的一些有用的内容：  IntelliJ 插件在您编码时提供实时反馈。该插件正在接受 JetBrains Marketplace 的审核。现在您可以从 zip 进行安装。 @ TraceRecomposition 让您可以在运行时记录重组、设置阈值、添加标签以及连接自定义记录器。非常适合有针对性的性能工作和分析。 具有两个 Gradle 任务的 CI 稳定性验证：stabilityDump 用于快照基线，stabilityCheck 用于在回归上失败构建。适用于多模块项目。 Kotlin 编译器插件作为 Gradle 插件提供。当前版本为 0.4.1，映射到 Kotlin 2.2.21。 Apache-2.0 许可证。  GitHub：https://github.com/skydoves/compose-stability-analyzer 感觉像是 Android 工具向前迈出了坚实的一步。  您会将这样的内容添加到 CI 中还是将其保留在本地以进行调试吗？   由   提交 /u/thewritingwallah   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1on6hnk/jetpack_compose_stability_analyzer_realtime_ide/</guid>
       <pubDate>Mon, 03 Nov 2025 08:33:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Solvex - 我正在构建的一个开源 FastAPI + SciPy API，用于学习优化算法</title>
-      <link>https://www.reddit.com/r/opensource/comments/1on2baz/solvex_an_open_source_fastapi_scipy_api_im/</link>
-      <description><![CDATA[ 由   提交/u/MainWild1290  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1on2baz/solvex_an_open_source_fastapi_scipy_api_im/</guid>
-      <pubDate>Mon, 03 Nov 2025 04:15:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>具有有趣的人工智能集成的开源项目？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1omw3cu/open_source_projects_with_interesting_ai/</link>
-      <description><![CDATA[寻找使用人工智能做一些有趣的事情的开源项目，这些事情超出了典型的聊天机器人或内容生成的范围。对开发人员工具或生产力应用程序特别感兴趣。   由   提交 /u/Money_Principle6730   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1omw3cu/open_source_projects_with_interesting_ai/</guid>
-      <pubDate>Sun, 02 Nov 2025 23:19:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>我希望为开源项目贡献测试</title>
-      <link>https://www.reddit.com/r/opensource/comments/1omvs6m/im_looking_to_contribute_tests_to_open_source/</link>
-      <description><![CDATA[我的专长是自动化测试，我有兴趣帮助改进单元、集成或 E2E 测试。我拥有多个 Web 应用程序测试框架的经验，并且我总是愿意学习新的堆栈。 有谁知道现在可以使用额外的手进行测试的项目吗？   由   提交/u/l_0_o_1  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1omvs6m/im_looking_to_contribute_tests_to_open_source/</guid>
-      <pubDate>Sun, 02 Nov 2025 23:06:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
