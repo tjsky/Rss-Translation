@@ -4,7 +4,63 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 05 Nov 2025 12:33:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 15:18:34 GMT</lastBuildDate>
+    <item>
+      <title>我与 Clerk 和 NextAuth 一起度过的最后两年感觉像是一种浪费</title>
+      <link>https://www.reddit.com/r/webdev/comments/1op5cje/my_last_two_years_with_clerk_and_nextauth_feels/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1op5cje/my_last_two_years_with_clerk_and_nextauth_feels/</guid>
+      <pubDate>Wed, 05 Nov 2025 15:07:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>任何人都可以在 codepen 中重新创建这些按钮上的流体悬停吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1op55jc/can_anyone_recreate_the_fluid_hover_on_these/</link>
+      <description><![CDATA[https://mercury.com/pricing 任何“开设账户”按钮在悬停时具有流体/蒸汽相互作用。我可以看到它使用了 Three.js，但这就是我所知道的：-/   由   提交 /u/ear2theshell   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1op55jc/can_anyone_recreate_the_fluid_hover_on_these/</guid>
+      <pubDate>Wed, 05 Nov 2025 15:00:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>第一次简历审查</title>
+      <link>https://www.reddit.com/r/webdev/comments/1op4p80/first_resume_review/</link>
+      <description><![CDATA[      嘿伙计们！ 我制作了一份简历，但是我不熟悉这种格式，因为我不是来自美国，以前大多使用过简历，您能指出错误并在内容中提供提示吗？ PD：感谢onesirian 在之前的帖子中提供提示  https://preview.redd.it/flnea91jagzf1.jpg?width=860&amp;format=pjpg&amp;auto=webp&amp;s=8a1ff646244ebe01ed9383d9d4a31535f12fe44c   由   提交/u/Theowla14  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1op4p80/first_resume_review/</guid>
+      <pubDate>Wed, 05 Nov 2025 14:42:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>IIS 和 WebDAV</title>
+      <link>https://www.reddit.com/r/webdev/comments/1op4byj/iis_and_webdav/</link>
+      <description><![CDATA[嘿， 尝试使用 IIS 和 WebDAV 通过网址提供文件夹时，我遇到了一场噩梦。 我可以映射驱动器，但无法对其进行写入，而且很多时候无法从中读取。 这些是我在尝试添加文件时看到的日志类型。 &lt;预&gt;&lt;代码&gt;2025-11-05 13:21:07 10.0.2.22 PROPFIND /共享/H - 443 - 81.159.254.115 Microsoft-WebDAV-MiniRedir/10.0.26100 - 401 2 5 7 2025-11-05 13:21:07 10.0.2.22 PROPFIND /共享/H - 443 - 81.159.254.115 Microsoft-WebDAV-MiniRedir/10.0.26100 - 401 2 5 7 2025-11-05 13:21:07 10.0.2.22 PROPFIND /共享/H - 443 - 81.159.254.115 Microsoft-WebDAV-MiniRedir/10.0.26100 - 401 2 5 51 2025-11-05 13:21:07 10.0.2.22 PROPFIND /共享/H - 443 - 81.159.254.115 Microsoft-WebDAV-MiniRedir/10.0.26100 - 401 2 5 7 2025-11-05 13:21:07 10.0.2.22 PROPFIND /共享/H - 443 - 81.159.254.115 Microsoft-WebDAV-MiniRedir/10.0.26100 - 401 2 5 8 2025-11-05 13:21:07 10.0.2.22 PROPFIND /共享/H - 443 - 81.159.254.115 Microsoft-WebDAV-MiniRedir/10.0.26100 - 401 2 5 8 2025-11-05 13:21:07 10.0.2.22 PROPFIND /共享/H - 443 - 81.159.254.115 Microsoft-WebDAV-MiniRedir/10.0.26100 - 401 2 5 56 2025-11-05 13:21:07 10.0.2.22 PROPFIND /共享/H - 443 - 81.159.254.115 Microsoft-WebDAV-MiniRedir/10.0.26100 - 401 2 5 8  该网站的布局使根具有匿名身份验证和 Windows 身份验证可用。需要添加 Windows 身份验证，以便子文件夹可映射。 在根文件夹上启用了 WebDAV，但未设置创作规则。 根文件夹在请求过滤中启用了以下动词： OPTIONS PROPFIND MKCOL PUT DELETE MOVE COPY LOCK UNLOCK HEAD POST GET PROPPATCH 站点子文件夹“/shared/”刚刚启用了Windows身份验证（尽管我也尝试启用基本身份验证来使用winscp进行测试，在尝试创建文件时也会得到403） 这有一个WebDAV规则：路径*用户所有用户角色空白访问读写源条目类型本地 NTFS设置为针对域用户，iis用户和每个人进行修改（为了测试），这是递归 我根本不明白为什么会出错...   由   提交 /u/LinksCourage   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1op4byj/iis_and_webdav/</guid>
+      <pubDate>Wed, 05 Nov 2025 14:28:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>BEEP-8：基于浏览器的幻想控制台，使用纯 C++ + 自定义 JavaScript VM（无 WASM）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1op3yrz/beep8_a_browserbased_fantasy_console_using_plain/</link>
+      <description><![CDATA[      我一直在从事一个名为 **BEEP-8** 的小型副项目 —  一个完全在浏览器中运行的小型幻想控制台。 它的灵感来自于 PICO-8 / TIC-80 等系统，但不是 WebAssembly 或游戏引擎， 它使用 **纯 C++ 编译成自定义字节码**，由 **JavaScript 虚拟机**执行。 --- ### 🛠 工作原理 - 用 **C++** 编写游戏 - 一个小工具将它们编译为 **BEEP-8 字节码** - 该字节码在浏览器内的 **基于 JS 的虚拟机**中运行(`&lt;canvas&gt;` + JS) - 没有 Unity，没有 SDL，没有涉及 WebAssembly - 只有浏览器、JavaScript 和我自己的 VM --- ### 🎮 演示和演示示例 您可以在此处的浏览器中尝试它（完全免费，无广告）： https://beep8.org 它包括小型演示，例如： - **1D Pac-Man** - **ApeSky（钢丝摆动物理实验）** - ...以及一些测试ROMs --- ### 📂 GitHub（源代码 + VM + 编译器） **Repo:** https://github.com/beep8/beep8-sdk  （将其替换为真实链接） 存储库包括： - JavaScript 虚拟机核心  - C++ → 字节码编译器  - 用于图形/输入/音频的最小 API  - 示例游戏 + 构建指令 --- ### 💡 为什么我构建它 我想要： - 一个我可以 100% 了解堆栈的幻想控制台  - 用 C++ 编写小游戏无需交付二进制文件或安装程序  - 足够轻量，可以在任何带有浏览器的设备上运行 --- 如果这里有人喜欢小型虚拟机、复古游戏引擎或奇怪的浏览器运行时， 我很乐意提供反馈或问题！   由   提交/u/Positive_Board_8086  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1op3yrz/beep8_a_browserbased_fantasy_console_using_plain/</guid>
+      <pubDate>Wed, 05 Nov 2025 14:13:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>为所有编码代理提供统一的体验</title>
+      <link>https://www.reddit.com/r/webdev/comments/1op3om8/a_unified_experience_for_all_coding_agents/</link>
+      <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1op3om8/a_unified_experience_for_all_coding_agents/</guid>
+      <pubDate>Wed, 05 Nov 2025 14:02:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我需要了解 Kafka 工作原理的可视化工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1op2fuz/the_visual_tool_i_needed_to_understand_how_kafka/</link>
+      <description><![CDATA[       由   提交 /u/sh_tomer   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1op2fuz/the_visual_tool_i_needed_to_understand_how_kafka/</guid>
+      <pubDate>Wed, 05 Nov 2025 13:11:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>与 Preply 的 Stefano Magni 一起构建大规模设计系统</title>
+      <link>https://www.reddit.com/r/webdev/comments/1op1mdn/building_design_systems_at_scale_with_stefano/</link>
+      <description><![CDATA[我刚刚发布了我的播客 Señors @ Scale 的新一集，其中包括高级前端工程师兼高级工程师 Stefano Magni。 Preply 的技术主管。 我们讨论了在快速增长的产品中构建和扩展设计系统实际需要什么，以及如何平衡工程实用主义与设计完美主义。 一些亮点：  🎨 Preply 的设计系统如何发展以服务数百万学习者 📊 衡量采用率和证明设计投资回报率 ⚙️ 无需测试即可管理大型代码库 ⚖️ 平衡完美主义与快速交付 🌍 在公共场合工作如何帮助您发展职业生涯和声誉  如果您对前端架构、设计系统或开发人员体验感兴趣，那么这篇文章非常有洞察力。  🎧 在此处收听/观看： ▶️ YouTube：https://youtu.be/DMF3dOcAbsM 🎧 Spotify：https://open.spotify.com/episode/59x4sIzWXIO6H2G49IE31d 🍎 Apple 播客：https://podcasts.apple.com/us/podcast/design-system-at-scale-with-stefano-magni-tech-lead-at/id1827500070?i=1000734866829 📬 时事通讯：https://neciudan.dev/subscribe 很想听听您的团队如何处理设计系统和公共工作。   由   提交/u/creasta29  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1op1mdn/building_design_systems_at_scale_with_stefano/</guid>
+      <pubDate>Wed, 05 Nov 2025 12:34:26 GMT</pubDate>
+    </item>
     <item>
       <title>推荐用于快速、可维护的垂直 B2B 应用程序的技术堆栈。</title>
       <link>https://www.reddit.com/r/webdev/comments/1op1hue/recommended_tech_stacks_for_rapid_maintainable/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[我发现它对于使用旧堆栈的利基或遗留项目最有用，这些项目很难开始使用。特别是对于需要许多系统依赖项的 PHP。 开源项目会欣赏 .devcontainer.json 这样的工具贡献吗？   由   提交 /u/BigBootyBear   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ooz0om/is_devcontainerjson_suitable_pr_material/</guid>
       <pubDate>Wed, 05 Nov 2025 10:08:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>再见圆圈，你好松鼠：CSS 和 Canvas 中的完美角</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ooykzz/goodbye_circles_hello_squircles_perfect_corners/</link>
-      <description><![CDATA[      自 2025 年 8 月起，Chrome 通过新的corner-shape: squircle CSS 属性添加了对更好角的支持。我写了一篇博客文章如何使用它以及如何使用三次贝塞尔曲线绘制像素完美的方圆。   由   提交/u/pavelklavik  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ooykzz/goodbye_circles_hello_squircles_perfect_corners/</guid>
-      <pubDate>Wed, 05 Nov 2025 09:40:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个强大而美丽的渐变选择器！完整的 CSS 渐变语法支持！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ooydbn/a_powerful_and_beautiful_gradient_picker_full_css/</link>
-      <description><![CDATA[      由于我在开源社区找不到一个好的、功能齐全的渐变选择器组件，所以我自己构建了一个。 🌈 GitHub：https://github.com/acrodata/gradient-picker 🕹️ 游乐场：https://acrodata.github.io/gradient-picker/   由   提交/u/nzb329  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ooydbn/a_powerful_and_beautiful_gradient_picker_full_css/</guid>
-      <pubDate>Wed, 05 Nov 2025 09:26:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>页面辅助工具栏</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ooy3w8/onpage_accessibility_toolbars/</link>
-      <description><![CDATA[我在英国的公共部门工作，开发网站，我们有法律义务让我们的网页可供访问。组织内的一位经理联系了我们，建议我们考虑实施“页面上”辅助工具栏。 我想知道您对此类工具栏有何看法。当浏览器和操作系统提供本机屏幕阅读、阅读模式、字体缩放等时，它们是否能提供任何真正的好处？我们的所有内容都是按照 WCAG 2 标准构建的，因此，那些有障碍的人是否真的从“页面上”控件中受益，或者它们只是一个噱头。我担心页面级别控件和浏览器/操作系统级别控件之间的潜在冲突，并认为任何需要此类设施的人可能已经在他们的计算机上启用了它们。 有兴趣听听其他人的想法。 编辑：我还在 r/accessibility 子中发布了此内容，该子上的受访者向我指出了以下内容： Overlay Fact Sheet 和 一行代码无法修复您的网站 - YouTube 两者都有一些非常有趣的内容，但我总是质疑此类评论来源的动机。    由   提交/u/Wotsits1984  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ooy3w8/onpage_accessibility_toolbars/</guid>
-      <pubDate>Wed, 05 Nov 2025 09:09:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用 GitHub + Cloudflare 工作流程部署 AI 构建的网站，以实现额外的控制和安心</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ooy1h2/how_i_deploy_aibuilt_sites_with_a_github/</link>
-      <description><![CDATA[      很多人喜欢 Lovable 构建网站的速度，但仍然对直接从 AI 构建器托管所有内容感到不安。  如果您每个项目只构建一个网站（而不是多客户端模板），并且您想要更高的安全性、更多的控制和额外的保证。 有一个简单的工作流程，可以保持 Lovable 的速度，同时又不放弃 CLOUDFLARE、Render 等提供程序的稳定性。 以下是我要做的： 照常在 Lovable 中构建网站 获取网站的核心按照您喜欢的方式工作。 一旦它稳定并且您对此感到满意，请将其导出/推送到 GitHub 存储库。 main 成为您的“事实来源”。 将所有开发和更改保留在 main 上。任何新的编辑、修复、功能或改进都在 Lovable 的 main 上完成。 这可以保持您的项目干净并防止网站出现碎片版本。 对于部署，从主创建一个分支 示例：deploy/v1.0 或生产 此分支代表您网站的实时生产版本。 将分支部署到 Cloudflare Pages 或 Render 这将为您提供： 平台级安全性 自动 TLS（传输层安全）/HTTPS（安全超文本传输协议） WAF（Web应用程序防火墙）+ DDoS（分布式拒绝服务）保护 能够安全地使用机密/环境变量访问控制和审核日志 您的实时站点现在在 Cloudflare/Render 上运行，而不是在 Lovable 的预览环境中运行。 未来有什么变化吗？首先更新 main 当您进行更新时： 在 Lovable 中编辑 main 使用发布按钮提交到 GitHub 将这些更新拉入您的部署分支 批准合并 部署平台安全地重建和重新部署 这可以保护您的实时环境，并确保只有经过审核、批准的更改才会公开。 为什么这种方法给出了额外的控制和保证 此设置只是为您提供了另一种运行 Lovable 构建的方式，特别是如果您希望将构建位置与托管位置分开。 它可以让您组合： Lovable 实现快速、愉快的开发 GitHub 用于版本跟踪和结构化更新 Cloudflare 或 Render 作为托管网站及其平台功能的可选位置 这不是一个存在的问题比另一个更好。  这只是一些人选择的工作流程，因为它在更新实时网站时为他们提供了熟悉的开发流程和稳定感。 您仍在使用 Lovable 进行构建。 这只是在构建、审核和上线之间添加了一条清晰的界限，这让一些人感到放心。 您将获得 适当的 CI/CD（持续基础设施/持续开发）控制 能够如果出现任何问题，则回滚到项目的先前版本 编辑和生产之间的分离 行业标准部署管道内置 DDoS + WAF + 秘密保险库 + HTTPS 查看帖子附带的快速设置摘要 如果您需要暂停或移动平台因为您的代码位于 GitHub 中，您现在可以... 随时切换主机 更改部署提供商 添加 CI 安全扫描 在需要时引入开发人员帮助 您可以掌控自己的网站。 Lovable 只是您的构建者，而不是您的网站赖以保持在线状态的地方。   由   提交/u/Advanced_Pudding9228  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ooy1h2/how_i_deploy_aibuilt_sites_with_a_github/</guid>
-      <pubDate>Wed, 05 Nov 2025 09:04:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何与客户共享密码？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ooxopn/how_do_you_share_passwords_with_your_clients/</link>
-      <description><![CDATA[我有时做自由职业，这些客户从不使用密码管理器。上次我被要求将所有内容都放入 Google 表格中。  您的体验如何？你们如何共享密码？老实说，如果是 Google 表格，请告诉我。   由   提交 /u/Shaddix-be   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ooxopn/how_do_you_share_passwords_with_your_clients/</guid>
-      <pubDate>Wed, 05 Nov 2025 08:41:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>集成支付 API 时 PCI 合规性问题有什么更简单的方法吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ooxhue/pci_compliance_headaches_when_integrating_payment/</link>
-      <description><![CDATA[处理客户的自定义结帐。 PCI SAQ D 很痛苦，而且每个处理器的 API 文档都略有不同。是否有一个网关可以简化合规性，但仍允许开发人员深度定制？   由   提交 /u/Choco_latte101   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ooxhue/pci_compliance_headaches_when_integrating_payment/</guid>
-      <pubDate>Wed, 05 Nov 2025 08:29:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>你的 2025 年技术堆栈中有什么？这是我的</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oox8dw/whats_in_your_2025_tech_stack_heres_mine/</link>
-      <description><![CDATA[这是我用于全栈 Web 开发的堆栈快照： 核心：  Next.js – 处理 SSR、静态导出和全栈需求。 tRPC – 前端和后端之间的类型安全 API。 Drizzle ORM – 适用于 SQL + TypeScript 的轻量级、自然 ORM。 PostgreSQL – 可靠的关系数据库。 TanStack Query – 轻松获取、缓存和更新服务器数据。  工具：  Turborepo、pnpm、Zod、Ultracite、Cursor、Apidog、DeveloperHub.io – Monorepo 管理、包管理、类型验证、生产力提升器、API 测试和文档。  UI：  shadcn/ui、Tailwind CSS、Framer Motion – 组件、样式和流畅的动画。  Auth &amp;付款：  更好的身份验证、Polar – 身份验证和订阅。  人工智能和订阅自动化：  AI SDK 5、Mastra – AI 驱动的功能和自动化。  基础设施：  Vercel、Redis、Inngest、重新发送、PostHog – 部署、缓存、工作流程、电子邮件和分析。  很想知道其他人在现代全栈项目中使用什么堆栈。我可能缺少任何必备工具吗？   由   提交 /u/OpportunityFit8282   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oox8dw/whats_in_your_2025_tech_stack_heres_mine/</guid>
-      <pubDate>Wed, 05 Nov 2025 08:11:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的技术堆栈对客户有多重要？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oovxxs/how_important_is_your_tech_stack_to_clients/</link>
-      <description><![CDATA[我很好奇客户到底有多关心他们项目背后的技术堆栈。因为我用 C# 构建了自己的自定义框架，可以让我快速开发，所以它完全适合我喜欢的工作方式，而且 DX 非常棒。但显然这些对客户来说都不重要。 对于那些使用非标准堆栈完成客户工作的人来说，情况怎么样？您认为应该披露哪些内容吗？客户是否曾经质疑过它，或者只要应用程序快速、安全、稳定且易于更新，他们就不会关心幕后的内容吗？ 我看到这里的其他人说得很完美，他们称之为“构建与简化”。自己构建功能，以便深入理解它们，而不是尝试削减别人的框架。这引起了我的共鸣，因为我已经用自己的框架做了类似的事情，并且发现当我必须将某些东西完全拆开并将其重新组合在一起（或者第一次从头开始构建它）时，我可以学得更好。  很想听听您的经历，特别是这是否是客户的一个因素，如果是的话，影响有多大？   由   提交 /u/BitsBobsDoodads   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oovxxs/how_important_is_your_tech_stack_to_clients/</guid>
-      <pubDate>Wed, 05 Nov 2025 06:48:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
