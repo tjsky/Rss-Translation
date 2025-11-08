@@ -4,20 +4,34 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 08 Nov 2025 06:21:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 09:14:51 GMT</lastBuildDate>
+    <item>
+      <title>如果您曾经想制作体素引擎，请在本周末按照以下步骤进行操作</title>
+      <link>https://www.reddit.com/r/programming/comments/1orkvab/if_youve_ever_wanted_to_make_a_voxel_engine_heres/</link>
+      <description><![CDATA[如果您曾经想进入 Voxel Engines，这里就是您的通行证。我整个夏天都在研究体素引擎，并注意到确实没有一个好的切入点。  所以我在这里，希望它至少能帮助一个人对体素感兴趣   由   提交/u/Commission-Either   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1orkvab/if_youve_ever_wanted_to_make_a_voxel_engine_heres/</guid>
+      <pubDate>Sat, 08 Nov 2025 09:08:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>单一职责如何证明 OOP 是疯狂的</title>
+      <link>https://www.reddit.com/r/programming/comments/1orj7fs/how_single_responsibility_proves_that_oop_is/</link>
+      <description><![CDATA[在过去的几年里，我花了很多时间思考我们如何创建软件，例如，如果您查看 SOLID 中的单一责任，您会意识到这是尝试在 OO 中重新创建 FP 的尝试。如果您添加接口隔离原则和开放/封闭原则，并比较 OO 与 FP 中实现这一点的容易程度，您就会意识到 OO 是迄今为止实现 SOLID 的最差范例。 让我详细说明一下；一旦你在面向对象中拥有一个只有单一责任的类，你基本上就创建了一个“糟糕实现的函数”，因为在面向对象中的单一责任基本上在某种程度上就是单一函数的完全定义，并且你通常会为需要向代码其他部分公开的每个方法得到一个接口。那么为什么不使用 FP 来代替...？ 在 OO 中，通过遵循单一职责，您基本上最终会创建比 FP 多 3 倍的代码，以及 3 倍多的文件，从而降低您随着时间的推移维护软件的能力。你最终会得到“湿透的代码”，因为你总是必须重复你的*结构\*... 面向对象的开发人员会大声喊叫，他们的同事必须使用接口。那么，什么是接口？它实际上只是输入和输出的签名。 FP 中通过引用获取函数的每个函数都是“做同样的事情”。 除了 FP 之外，您可以使用一行代码创建“接口”。使用 OOP，您至少需要 3 个不同的文件；客户端代码、接口和实现。在 FP 中，就像创建一个通过引用获取另一个函数的函数一样简单，只要签名匹配，它就会愉快地使用您的函数“多态性”，而无需了解其实现。 基本上，无论您学习我们工作的哪一部分，随着时间的推移，您都会慢慢意识到，您基本上陷入了“货物崇拜”中，而不是问自己什么有效，我们大部分时间都花在“仪式”上，我们绝对没有任何科学数据可以声称对我们有任何帮助。 我可以继续摧毁自 1995 年 GoF 出版他们臭名昭著的书以来我们集体拥有的每一个“好主意”。只有我一个人有这样的感觉吗……？ 在上面的视频中，我谈论的是如何在遵循 SOLID 的同时创建 DRY 代码，这实际上是*不可能\*。并不是因为你想的原因，而是因为你有两个 DRY 轴；结构和代码。如果您选择遵循 SOLID，您最终会得到“湿”代码，因为您每次执行 *anything\* ... 时都必须重复您的*结构\* ...   由   提交/u/IdeaAffectionate945  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1orj7fs/how_single_responsibility_proves_that_oop_is/</guid>
+      <pubDate>Sat, 08 Nov 2025 07:23:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>我用 Python 构建了一个带有 GUI 的图灵机，并在其上实现了埃拉托斯特尼筛法！</title>
+      <link>https://www.reddit.com/r/programming/comments/1orihsv/i_built_a_turing_machine_with_gui_in_python_and/</link>
+      <description><![CDATA[经过一周的工作，我用 Python 创建了一个带有图形界面的功能齐全的图灵机模拟器。当我决定在其上实现实际算法时，最初的教育项目变得更加复杂。 最酷的部分：我成功实现了埃拉托色尼筛来查找素数 - 这比编写图灵机本身要困难得多！还实现了冒泡排序作为奖励。 功能：  可视化转换表编辑器 带滚动的交互式磁带 逐步执行+撤消 保存/加载程序 带速度控制的自动运行  为什么图灵机上的埃拉托色尼筛法是具有挑战性：  有限的“记忆” （只是磁带） 没有数组或变量 - 只有状态转换 “标记”的手动管理multiples 号码跟踪的复杂状态管理  该项目是完全开源的，并包含两种算法作为示例。希望得到社区的反馈！ P.S.这是我第一个项目100多行代码，请不要太挑剔。虽然我会很感激您的建议   由   提交/u/kotenok_nikitka   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1orihsv/i_built_a_turing_machine_with_gui_in_python_and/</guid>
+      <pubDate>Sat, 08 Nov 2025 06:40:56 GMT</pubDate>
+    </item>
     <item>
       <title>新型人工智能角色的职位数量猛增 800%：前沿部署工程师</title>
       <link>https://www.reddit.com/r/programming/comments/1orgpou/800_jump_in_postings_for_a_new_kind_of_ai_role/</link>
       <description><![CDATA[ 由   提交/u/KitchenTaste7229  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1orgpou/800_jump_in_postings_for_a_new_kind_of_ai_role/</guid>
       <pubDate>Sat, 08 Nov 2025 05:00:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了自己的警报器和闪光应用程序</title>
-      <link>https://www.reddit.com/r/programming/comments/1orgh11/i_made_my_own_siren_and_flash_app/</link>
-      <description><![CDATA[就像我说的，我做了我自己的应用程序，所以你可以批评我，无论是正面的还是负面的。我愿意接受各种评论。   由   提交/u/Acceptable-Talk-68   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1orgh11/i_made_my_own_siren_and_flash_app/</guid>
-      <pubDate>Sat, 08 Nov 2025 04:47:42 GMT</pubDate>
     </item>
     <item>
       <title>关于构建可靠系统的思考</title>
@@ -41,25 +55,11 @@
       <pubDate>Sat, 08 Nov 2025 03:14:44 GMT</pubDate>
     </item>
     <item>
-      <title>遗传编程语言</title>
-      <link>https://www.reddit.com/r/programming/comments/1ordln2/genetic_programming_language/</link>
-      <description><![CDATA[您曾经创建过一种编程语言吗？我创建了一个，它的功能和行为方式总是让我感到惊讶； 30 年来我从未见过这样的事情。   由   提交/u/AttorneyLumpy9055   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ordln2/genetic_programming_language/</guid>
-      <pubDate>Sat, 08 Nov 2025 02:21:40 GMT</pubDate>
-    </item>
-    <item>
       <title>为什么干净的代码还不够——Martin Fowler 谈重构的真正原因</title>
       <link>https://www.reddit.com/r/programming/comments/1ord1or/why_clean_code_isnt_enough_martin_fowler_on_the/</link>
       <description><![CDATA[ 由   提交/u/South-Reception-1251   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ord1or/why_clean_code_isnt_enough_martin_fowler_on_the/</guid>
       <pubDate>Sat, 08 Nov 2025 01:54:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>网络到移动格式</title>
-      <link>https://www.reddit.com/r/programming/comments/1orcw27/web_to_mobile_formatting/</link>
-      <description><![CDATA[下午好！我有 0 编程经验，并且一直在通过 replit 构建游戏的测试版。我想从游戏的角度为移动用户提供相同的桌面体验。后端当前是通过 Node/Python 构建的。但是，当我尝试通过移动设备访问我的网站时，来自移动版本的格式和错误代码使其无法播放。您将如何使移动设备兼容所有设备并像桌面版本一样使用。谢谢！   由   提交/u/CFoster69   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1orcw27/web_to_mobile_formatting/</guid>
-      <pubDate>Sat, 08 Nov 2025 01:47:26 GMT</pubDate>
     </item>
     <item>
       <title>我需要快速的嵌入式存储。 RocksDB 不是。所以我设计了TidesDB。</title>
