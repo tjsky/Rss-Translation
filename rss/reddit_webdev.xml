@@ -4,7 +4,42 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 08 Nov 2025 21:13:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 01:16:49 GMT</lastBuildDate>
+    <item>
+      <title>嵌入/iFrame 滚动问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1os5wr6/embediframe_issue_with_scrolling/</link>
+      <description><![CDATA[您好，我确信已经提出了类似的帮助请求，但我希望获得一些帮助。 我有一个网络应用程序/表单，我希望客户在我的网站上填写它，并使用 iframe 将其嵌入到我的 Google 网站上。但是嵌入有其滚动功能，这意味着当用户尝试滚动到页面底部时，他们只是滚动浏览嵌入而不是页面本身，因此无法导航到表单底部，除非他们设法滚动到 iframe 之外并移动页面。 我尝试使 iframe 更大，以便整个表单适合它，但这并没有解决我的问题。 有什么建议吗？   由   提交/u/ZeroGaming-  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1os5wr6/embediframe_issue_with_scrolling/</guid>
+      <pubDate>Sun, 09 Nov 2025 01:03:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>浏览器自动播放政策 - 咆哮</title>
+      <link>https://www.reddit.com/r/webdev/comments/1os5jpq/browsers_autoplay_policy_ranting/</link>
+      <description><![CDATA[如今，如果网站没有静音，所有主要浏览器都会阻止自动播放，除非您不是像 Google、Microsoft、X 这样的大型钱包公司...... 这是偏袒并造成不公平竞争。我正在建立一个关于流媒体音乐的网站，但由于这个废话政策，我无法自动播放并同时播放音乐，这是我网站的主要功能之一。我不知道您是否遇到过这个问题，但需要采取一些措施来解决这个问题。   由   提交 /u/Ok-Helicopter5781   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1os5jpq/browsers_autoplay_policy_ranting/</guid>
+      <pubDate>Sun, 09 Nov 2025 00:47:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我在工作中总感觉自己像个7岁的孩子？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1os57qw/why_do_i_always_feel_like_a_7yearold_at_work/</link>
+      <description><![CDATA[从技术上讲，我很擅长我所做的事情。到目前为止，我申请的每一家公司都很轻松地雇用了我。我的技能、解决问题的能力和交付能力始终很扎实。但一旦我真正开始工作，我最终感觉自己就像房间里的“7岁孩子”。这与经验或信心无关。更多的是关于我如何与人相处。我不玩政治游戏。我总是直率、清晰、诚实，即使这可能会伤害我或不需要说出来。我真正关心的是产品和工作质量，而不是我在整个过程中的表现，我希望其他人也有同样的想法。但这并不是大多数工作场所的运作方式。人们管理印象、谨慎行事并保护自己的地位。如果你不这样做，你就会显得很天真。不了解事物真正运作方式的人。有时我确实有这样的感觉，就像我是一个知道潜规则的成年人中的孩子。我这么说并不是为了让自己看起来像个好人，而且我绝对不是。只是我的心态一直是：工作成功了，大家就成功了。但有些人不这么认为。有些人对自己的工作缺乏安全感，而另一些人实际上喜欢政治。因为我不玩这种游戏，所以我经常成为人们排挤或试图伤害工作的人。还有人有这样的感觉吗？如何保持诚实和真实，而不总是感觉自己像个不“明白”的办公室宝贝？   由   提交 /u/Professional_Monk534   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1os57qw/why_do_i_always_feel_like_a_7yearold_at_work/</guid>
+      <pubDate>Sun, 09 Nov 2025 00:31:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>滚动驱动的动画在 < iPad Mini 上不起作用。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1os26fh/scrolldriven_animation_not_working_on_ipad_mini/</link>
+      <description><![CDATA[有谁知道滚动驱动的动画是否需要来触发？我在我的作品集上使用了它们，它们在台式机和更大的 iPad 上运行得很好，但 iPad Mini/iPhone 根本不显示它们。我没有向它们添加任何媒体查询，因此我没有任何理由可以看出它们为什么不起作用。我能想到的唯一区别是 iPad Mini 上有一个粘性标题 视频演示：https://share.cleanshot.com/MzjmPhQQ 有问题的页面是：https://merlyndesignworks.co.uk/about 代码： .client-item { --AnimationRangeDistance: 50px;文本对齐：居中；用户选择：无； @supports (动画时间轴: view()) { will-change: 不透明度;不透明度：0；动画时间轴：view()；动画：imageFadeIn 线性向前；动画范围：入口交叉 calc(70% + var(--AnimationRangeDistance)) 入口 calc(100% + var(--AnimationRangeDistance));动画时间轴：view()； &amp;:nth-child(4n + 2) { --AnimationRangeDistance: 70px; } &amp;:nth-child(4n + 3) { --AnimationRangeDistance: 90px; } &amp;:nth-child(4n + 4) { --AnimationRangeDistance: 110px; } } }    由   提交 /u/ConduciveMammal   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1os26fh/scrolldriven_animation_not_working_on_ipad_mini/</guid>
+      <pubDate>Sat, 08 Nov 2025 22:16:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>是否可以在剪辑路径或 svg 中舍入这些点？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1os1hvc/is_it_possible_to_round_these_points_in_a_clip/</link>
+      <description><![CDATA[       https://preview.redd.it/djdwx0xus30g1.png?width=1729&amp;format=png&amp;auto=webp&amp;s=ee22faca82a8869fcf34feac282b80a505231352 此剪辑路径中的两个中心点： `clip-path: Polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 40% 85%, 0 85%);` 我基本上试图在 div 的底部制作这个形状   由   提交 /u/EducationalZombie538   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1os1hvc/is_it_possible_to_round_these_points_in_a_clip/</guid>
+      <pubDate>Sat, 08 Nov 2025 21:47:15 GMT</pubDate>
+    </item>
     <item>
       <title>移植的 Routerify 可与 hyper 1.7 配合使用</title>
       <link>https://www.reddit.com/r/webdev/comments/1os08ew/ported_routerify_to_work_with_hyper_17/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[我想尝试用 JS 创建类似 React 的 JSX 语法。在这里查看： GitHub：//github.com/positive-intentions/dim 演示：https://dim.positive-intentions.com 我的 Web 组件之旅是从 Lit 开始的，虽然我很欣赏它的原生浏览器支持（更少的工具！），但来自 ReactJS 的类组件感觉像是倒退了一步。 React 中的函数式方法显着改善了我的开发人员体验和调试流程。 因此，我开始围绕 Lit 构建一个精简的函数式包装器，结果就是 Dim！现在这是一个概念验证，“主要”功能是：与 React 类似的钩子，加上一些自定义钩子，例如用于静态加密的 useStore。 （注意：静态加密的状态管理仍然不稳定，目前在我探索 WebAuthn/Passkeys 等无密码选项时使用硬编码密码）。 您可以更深入地研究文档并了解其工作原理： 文档：https://positive-intentions.com/docs/category/dim 该项目仍处于早期阶段，非常不稳定，因此预计会发生重大变化。   由   提交 /u/Accurate-Screen8774   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1orx8em/reactjslike_framework_with_web_components/</guid>
       <pubDate>Sat, 08 Nov 2025 18:50:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌广告</title>
-      <link>https://www.reddit.com/r/webdev/comments/1orx5qk/google_ads/</link>
-      <description><![CDATA[你好，我一直在尝试为小型企业建立网站，但当我突然打电话时，他们总是对我不屑一顾，我计划收取押金。我想每月收取 150 美元，我想了解如何操作的一些建议。   由   提交/u/Weak-Drummer-8338   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1orx5qk/google_ads/</guid>
-      <pubDate>Sat, 08 Nov 2025 18:47:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>[周六炫耀]将您的打字变成区块链以证明原创作者身份</title>
-      <link>https://www.reddit.com/r/webdev/comments/1orx3zl/showoff_saturday_turn_your_typing_into_a/</link>
-      <description><![CDATA[你好你好！我制作了一个小型网络应用程序，当您在文本区域字段中输入内容时，它会创建一个独特的区块链。区块链和文本可以被复制/下载并用作您输入文本的证据。从技术上讲，它并不能防止抄袭，因为有人总是可以重新输入从别人那里复制的文本，但它至少表明是一个人打字的。不确定这对任何人是否有用。 这些块还包含时间戳，因此它也可以用于在其他人喜欢将您的想法归功于您的环境中证明原创想法。所有工作都是在客户端完成的，区块链/文本永远不会发送到服务器。它已本地化为 17 种非英语语言（感谢 ChatGPT！），我希望在未来几天/几周内添加对其他语言的支持。 该网络应用程序可在 https://prooferrz.com/ 上获取（带有 2 个 R 和一个 Z - 是的，这是瑞克和莫蒂的参考）。 请随时提供它尝试一下，享受剩下的周末！   由   提交 /u/ToddWellingtom   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1orx3zl/showoff_saturday_turn_your_typing_into_a/</guid>
-      <pubDate>Sat, 08 Nov 2025 18:45:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>客户要求我在开始之前支付“培训费”...清晰度检查让我犹豫，我该怎么办？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1orwzm5/client_wants_me_to_pay_a_training_fee_before/</link>
-      <description><![CDATA[所以我从一家所谓的咨询公司获得了一份“远程网络开发合同”。他们在 LinkedIn 上看到我的作品集后联系了我。那家伙说他喜欢我的 CSS 工作并希望让我参与一个大型的重新设计项目。然后他放弃了这个曲线球......在开始之前，我必须支付50 美元的“培训费”才能访问他们的内部开发环境和“项目文档”。说这对所有承包商都是强制性的。 我现在破产了，老实说，我非常渴望工作。就像，如果这笔交易是真的，它实际上可以改变我的生活。他们催促我在明天之前付款“以锁定位置。” 我进行了快速检查，结果看起来很混乱......没有适当的商业登记，相同的联系人显示在另外两个“机构”上，但名称略有不同。尽管如此，如果这在某种程度上是合法的，我还是害怕走开。他们一直说这是海外开发者的“标准做法”。 我该怎么办？有没有人真正支付过这样的费用并且结果是真实的？或者我会被骗光我最后的积蓄吗？   由   提交 /u/Velour_Dream   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1orwzm5/client_wants_me_to_pay_a_training_fee_before/</guid>
-      <pubDate>Sat, 08 Nov 2025 18:40:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>UnisonDB — 用于边缘人工智能和边缘计算的日志本机数据库</title>
-      <link>https://www.reddit.com/r/webdev/comments/1orwi4s/unisondb_a_lognative_database_for_edge_ai_and/</link>
-      <description><![CDATA[嘿各位， 我一直在尝试一种想法，将数据库和消息总线组合到一个系统中 - 专为需要跨 100 多个节点扩展的边缘 AI 和实时应用程序而构建。  大多数数据库写入 WAL（预写日志）以进行恢复。 UnisonDB 将日志视为数据库本身 - 使复制、流式传输和持久性成为同一机制的一部分。 每次写入都是： * 持久存储（WAL 优先设计） * 立即流式传输（无需单独的 CDC 或 Kafka） * 跨副本全局同步 它是用 Go 构建的，并在流式 WAL 之上使用 B+Tree 存储引擎，因此边缘节点可以在本地读取，同时与上游集线器实时同步。 没有外部代理，没有双管道 - 只是流式传输的单一事实来源。 一个节点上的写入像消息总线一样复制，但仍然像数据库一样可查询 - 即时且持久。 GitHub：github.com/ankur-anand/unisondb￼ 部署拓扑 UnisonDB 支持开箱即用的多种复制设置： * Hub-and-Spoke – 用于边缘部署，其中中央集线器将数据扇出到 100 多个边缘节点 *点对点 - 适用于相互复制更改的区域数据中心 * Follower/Relay - 适用于直接跟踪日志以进行分析或缓存的只读副本 每个节点在 WAL 中维护自己的偏移量，因此副本可以从任何位置赶上，而无需重新同步整个数据集。 UnisonDB 的目标是使日志本机数据库适用于核心和边缘 - 结合复制、存储和事件传播在一个基于 Go 的系统中。 我仍在探索这种日志原生方法可以走多远。很想听听您的想法、反馈或您认为可能有兴趣测试的任何边缘案例。   由   提交/u/ankur-anand  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1orwi4s/unisondb_a_lognative_database_for_edge_ai_and/</guid>
-      <pubDate>Sat, 08 Nov 2025 18:21:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>为 AI 网站建设者提供比较/十大评论网站的建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1orwg1g/suggestions_for_ai_website_builder_for_comparison/</link>
-      <description><![CDATA[我正在为一家公司构建一个用于搜索引擎优化/付费广告目的的比较类型网站。 我对编码不太了解，我想知道哪一个是最有效的解决方案。我以前用过 lovable，但我想知道是否有更有效的替代方案。 这里有人有什么想法吗？真的很感激。   由   提交/u/mastercool18  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1orwg1g/suggestions_for_ai_website_builder_for_comparison/</guid>
-      <pubDate>Sat, 08 Nov 2025 18:19:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
