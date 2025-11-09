@@ -4,7 +4,42 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 09 Nov 2025 12:28:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 15:15:15 GMT</lastBuildDate>
+    <item>
+      <title>尝试了我能找到的每个 shadcn/ui 库</title>
+      <link>https://www.reddit.com/r/webdev/comments/1osjsum/tried_every_shadcnui_library_i_could_find/</link>
+      <description><![CDATA[       https://preview.redd.it/knko603pj80g1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=ee7626cc840f05de04c04adde985557b0152048e 我已经使用 shadcn/ui 进行构建很长时间了。我喜欢它，但老实说，并不是每个围绕它构建的 UI 套件或扩展都很好。  有些库乍一看不错，但定制起来很痛苦，因为代码质量不太好。 这些库实际上感觉很精致，文档齐全，值得集成：  Origin UI（我最喜欢的） Magic UI Shadcn Studio Tailark 11 个实验室组件 AI Element （来自 Vercel） Dice UI ReUI 21stddev Aceternity UI  我花了很长时间才找到并尝试所有这些，所以希望这可以节省某人的时间。   由   提交/u/Annual-Ad2336  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1osjsum/tried_every_shadcnui_library_i_could_find/</guid>
+      <pubDate>Sun, 09 Nov 2025 13:47:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>可以利用人工智能以更低的成本完成你的工作，我们不需要你</title>
+      <link>https://www.reddit.com/r/webdev/comments/1osincb/can_leverage_ai_to_do_your_job_at_much_lower_cost/</link>
+      <description><![CDATA[      他们需要 Next Js、SSR、Graph QL、TypeScript、Node、Express、Redux、Zustand、Firebase、Postgres、Lighthouse、SEO 等。 编辑：公司名称 Hikigai Inc.   由   提交/u/Rare-Chicken-53   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1osincb/can_leverage_ai_to_do_your_job_at_much_lower_cost/</guid>
+      <pubDate>Sun, 09 Nov 2025 12:54:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>我需要在 Nextjs 服务器操作方面拥有丰富经验的人的帮助，我很乐意进行深入对话并分享一些代码。这是我的问题的详细信息：</title>
+      <link>https://www.reddit.com/r/webdev/comments/1osijak/i_need_help_from_someone_who_has_a_big_experience/</link>
+      <description><![CDATA[在我的 Nextjs 14 Web 应用程序中，我使用 Axios 和 Tanstack 来处理 API 调用，但我想改用操作服务器，因为我的客户关心保护 API 的安全。所以，我的问题是：我可以通过服务器操作很好地处理交互式 API 吗？包括分页 API，尤其是在视图中而不是“加载更多”。按钮，或者有过滤器时？我真的习惯了使用“isPending”来自 tanstack 的查询很多。   由   提交/u/SlipLost9620   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1osijak/i_need_help_from_someone_who_has_a_big_experience/</guid>
+      <pubDate>Sun, 09 Nov 2025 12:49:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>托管公共（可编辑）表格或电子表格的最佳位置？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1osie6g/best_place_to_host_a_publicly_editable_table_or/</link>
+      <description><![CDATA[我想创建一个可公开访问的表，具有共享编辑功能（可能是公共编辑或通过邀请）并尝试找出托管它的位置。我在新冠肺炎疫情之前和期间都看过可公开编辑的 Google 表格，我们有一些共享的感染数据 gh 存储库，所以这些只是初步想法。 查看民意调查   由   提交 /u/zerospatial   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1osie6g/best_place_to_host_a_publicly_editable_table_or/</guid>
+      <pubDate>Sun, 09 Nov 2025 12:42:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>我建立了一个免费的基于我们的时区重叠工具[欢迎反馈]</title>
+      <link>https://www.reddit.com/r/webdev/comments/1osibff/i_built_a_free_we_basedtimezone_overlap/</link>
+      <description><![CDATA[      嘿r/webdev！我创建了一个干净的时区转换器，它专注于视觉重叠而不仅仅是转换。 为什么另一个时区工具？ 大多数转换器都是：  广告和跟踪臃肿 需要帐户/登录 不能很好地显示视觉重叠 移动设备上的用户体验很糟糕  我想要一些加载速度快、离线工作且尊重用户的东西隐私。 功能： ✓ 多时区比较 ✓ 视觉重叠突出显示 ✓ 无跟踪/cookies ✓ 无需帐户 ✓ 移动响应 希望获得以下方面的反馈：  您注意到的性能问题 用户体验改进 功能请求 辅助功能问题  该代码尚未开源，但如果有兴趣可以考虑一下。在开发时间管理应用程序时构建了此应用程序，并意识到时区部分独立有用。 哪些功能可以使其对您的远程团队工作流程更有用？   由   提交/u/Stock_Bid_8715   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1osibff/i_built_a_free_we_basedtimezone_overlap/</guid>
+      <pubDate>Sun, 09 Nov 2025 12:38:18 GMT</pubDate>
+    </item>
     <item>
       <title>单独的 Web 开发人员需要遵循不同的规则</title>
       <link>https://www.reddit.com/r/webdev/comments/1oshtkp/solo_web_developers_need_to_play_by_different/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[你们对一些好的、具有高学习回报的 webdev 初学者项目有一些想法吗？   由   提交 /u/chrisrko   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1osec0t/beginner_project/</guid>
       <pubDate>Sun, 09 Nov 2025 08:39:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>我应该如何查看我想要构建的设计和 UI，或者更确切地说是可视化的？有可用的人工智能工具吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1osdv9y/how_should_i_see_the_design_and_ui_i_want_to/</link>
-      <description><![CDATA[我想从头开始构建一个自己的 WebDev 项目。但我发现很难将 UI 可视化。有 AI 工具吗？   由   提交 /u/divyeshp_ftw   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1osdv9y/how_should_i_see_the_design_and_ui_i_want_to/</guid>
-      <pubDate>Sun, 09 Nov 2025 08:11:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用子域会带来所有不好的事情</title>
-      <link>https://www.reddit.com/r/webdev/comments/1osdmo3/is_using_a_subdomain_for_everything_bad/</link>
-      <description><![CDATA[我正在考虑为我的所有个人项目获取一个域名，但显然每个域名都会增加成本 我的朋友给了我一个天才的想法，即只购买 1 个域名 (example.com)，并为我制作的每个应用程序使用一个子域名 (app1.example.com、app2.example.com) 这有什么缺点吗？   由   提交 /u/YogurtclosetWise9803   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1osdmo3/is_using_a_subdomain_for_everything_bad/</guid>
-      <pubDate>Sun, 09 Nov 2025 07:57:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建“Gaze Pong”很有趣..人工智能生成的跟随乒乓球的面孔👀🏓</title>
-      <link>https://www.reddit.com/r/webdev/comments/1osctjr/had_some_fun_building_gaze_pong_aigenerated_faces/</link>
-      <description><![CDATA[      有一天，我遇到了 @clarkcharlie03 的 iisee.me .. 一个有趣的小项目，其中一排面孔跟随你的光标。它的灵感来自于 @kylancodes 的一条推文，立即让我想到......人们凝视着乒乓球😅 所以我花了周六构建了Gaze Pong（见附件 GIF） 它是如何工作的 核心思想很简单..我不是通过模型直接跟随鼠标的面孔，而是我预先生成所有可能的“注视”方向，然后从精灵表中进行渲染。 这使得在浏览器中运行更加轻量且快速。 为了创建精灵，我使用了来自 @fofrAI 的表达式编辑器模型。每个面都是在特定的偏航/俯仰/瞳孔位置生成的，因此 9×9 网格中的每个点都对应于唯一的注视方向。总共 81 帧，被拼接成一个约 3 MB 的精灵表，每个精灵的大小为 512×512 像素。 在底层，生成过程如下所示：  使用 generateExpressionSprites 为每个 (x, y) 位置调用表达式编辑器模型 使用 createSpriteMap.ts 使用 createSpriteSheet.ts  这是 playground 测试（如果您想查看实际操作过程）。 在前端，有一个名为 GazeExpressionSheet 获取精灵图并根据目标位置（如乒乓球或光标）动态更新要显示的工作表的哪一部分。 这只是一个周六的有趣构建，但最终成为了一个简洁的演示将 AI 生成的资源与简单的前端动画逻辑混合在一起。 我正在考虑将其变成一个小型社区库，您只需：  生成一个精灵表一次（通过复制） 将其放入您的 public/ 文件夹 使用像这样的 React 组件&lt;GazeExpression spriteMap={} spriteSheet={} /&gt;  您觉得这有用吗？ 干杯   由   提交/u/BennoDev19  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1osctjr/had_some_fun_building_gaze_pong_aigenerated_faces/</guid>
-      <pubDate>Sun, 09 Nov 2025 07:05:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>这个华夫饼咖啡馆的设计感觉像拥抱吗？ ☕🧇（开发中）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1osc8u4/does_this_waffle_cafe_design_feel_like_a_hug_wip/</link>
-      <description><![CDATA[      这是我为一家名为 DoodleWaffle Café 的虚构咖啡馆设计的前端概念。它仍在进行中，尚未最终确定 - 一些图像是人工智能生成的占位符，直到最终资产获得批准。在我进一步完善之前，希望您对布局、风格和整体氛围有意见！   由   提交 /u/ShubCountEverything   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1osc8u4/does_this_waffle_cafe_design_feel_like_a_hug_wip/</guid>
-      <pubDate>Sun, 09 Nov 2025 06:32:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>副项目协作：用于音频叙述网络漫画的 Chrome 扩展（OCR + 语音 API）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1osc82l/side_project_collab_chrome_extension_for/</link>
-      <description><![CDATA[r/webdev，让我们构建一些很酷且易于访问的东西：一个轻量级的 Chrome 扩展程序，可将网络漫画转换为音频故事。扫描图像中的文本（免费的 Tesseract 或 Gemini API），使用可自定义的 Web 语音大声朗读气泡。 技术亮点： - 仅限 JS：Manifest V3、面板的 DOM 解析、异步 OCR 调用。 - 功能：设置弹出窗口、热键控件、特定于站点的切换。 - 无后端 - 通过 Chrome Web Store 免费部署。 非常适合作品集/JS 实践。我是有创意的人；需要网络开发人员来获取代码。开源的最终目标。感兴趣的？评论您的经验或DM以获取模型。你会使用什么库？ 🔊   由   提交 /u/WinSuperb7251   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1osc82l/side_project_collab_chrome_extension_for/</guid>
-      <pubDate>Sun, 09 Nov 2025 06:30:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
