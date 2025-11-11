@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 11 Nov 2025 15:18:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 18:25:11 GMT</lastBuildDate>
+    <item>
+      <title>开源文件转换网络服务器（Convertio、CloudConvert 的替代品...）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ouh521/opensource_file_conversion_webserver_alternative/</link>
+      <description><![CDATA[我的自托管文件转换器网络服务器现在相当稳定：https://github.com/LoredCast/filewizard 它还支持 OCR、转录和文本转语音。 它支持我能想到的几乎任何格式（400+）。   由   提交/u/Competitive_Cup_8418   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ouh521/opensource_file_conversion_webserver_alternative/</guid>
+      <pubDate>Tue, 11 Nov 2025 18:24:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何保持 Android 开放</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ouf9of/how_to_keep_android_open/</link>
+      <description><![CDATA[       由   提交/u/Endo231  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ouf9of/how_to_keep_android_open/</guid>
+      <pubDate>Tue, 11 Nov 2025 17:16:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>🧮 [项目] 简单的开源 C++ CLI 计算器 – 欢迎贡献者！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1oueeku/project_simple_opensource_c_cli_calculator/</link>
+      <description><![CDATA[      大家好， 我最近发布了我的第一个开源项目，一个用 C++17 编写的轻量级命令行计算器，我很乐意从社区获得一些贡献者和反馈。 目标是保持简单但模块化 - 每个数学函数或命令都干净地实现，因此新贡献者可以轻松扩展它（添加新操作、改进错误处理或重构现有代码）。 ⚙️ 功能 • 跨平台 C++17 代码库 • 简单的 CLI 界面 • 使用 CMake 快速构建 • 易于扩展（可在几分钟内添加新的数学操作） 🧑‍💻 如何尝试 git clone https://github.com/Benedek553/cli-calculator.git cd cli-calculator cmake -S 。 -B构建&amp;&amp; cmake --build build ./build/cli-calculator 💡 寻找贡献者！ 如果您想提供帮助： • 添加新的数学函数（例如 sqrt、pow、sin） • 改进错误处理或参数解析 • 添加测试或文档 • 建议源文件的更好结构 这是我的第一个公开开源项目，因此非常欢迎所有反馈（技术、风格或架构）。预先感谢任何查看或打开 PR 的人！ 🙏   由   提交/u/JustAProgrammer25  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1oueeku/project_simple_opensource_c_cli_calculator/</guid>
+      <pubDate>Tue, 11 Nov 2025 16:44:52 GMT</pubDate>
+    </item>
     <item>
       <title>我需要来自熟练的开源人员的一些反馈......</title>
       <link>https://www.reddit.com/r/opensource/comments/1oubnro/i_need_some_feedback_from_you_skilled_opensource/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交 /u/rusidin   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1otmtbb/how_can_i_get_the_osi_open_source_license_for_a/</guid>
       <pubDate>Mon, 10 Nov 2025 19:08:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Agentic RAG：从零到英雄</title>
-      <link>https://www.reddit.com/r/opensource/comments/1otk7wt/agentic_rag_from_zero_to_hero/</link>
-      <description><![CDATA[大家好， 在花了几个月的时间构建代理并尝试 RAG 系统之后，我决定发布一个 GitHub 存储库，以帮助那些第一次接触代理和 RAG 的人。 我创建了一个具有教育目的的代理 RAG，旨在提供清晰实用的参考。当我开始时，我很难找到一个单一的、结构化的地方来解释所有关键概念。我必须从许多不同的来源收集信息，这正是我想要构建一些更易于访问和对初学者友好的原因。  📚 您将在此存储库中学到什么 基本构建块的端到端演练：  PDF → Markdown 转换 分层分块（父/子）结构） 混合嵌入（密集 + 稀疏） 使用 Qdrant 进行块的向量存储 并行多查询处理 - 能够同时生成和评估多个查询 查询重写 - 在检索之前自动重新表述不清楚或不完整的查询 人机交互澄清不明确的用户查询 使用摘要跨多个消息进行上下文管理 使用 LangGraph 的完全工作的代理 RAG，用于检索、评估、更正和生成答案 使用 Gradio 库的简单聊天机器人   我希望这个存储库对任何开始他们的旅程的人都有帮助。 提前感谢所有看过并发现它有用的人！ 🙂 Github 存储库链接   由   提交/u/CapitalShake3085  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1otk7wt/agentic_rag_from_zero_to_hero/</guid>
-      <pubDate>Mon, 10 Nov 2025 17:35:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>管理短期令牌——一个小型开源配置驱动的解决方案</title>
-      <link>https://www.reddit.com/r/opensource/comments/1otgt7z/managing_shortlived_tokens_a_small_opensource/</link>
-      <description><![CDATA[您好！ 在许多虚拟机上，多个服务需要访问令牌 一些服务从元数据端点读取它们， 其他需要链接调用 - 元数据 → 内部服务 → OAuth2 - 只是为了获取最终令牌， 或者期望来自本地文件（如 vector.dev）的令牌。 每个服务都开始访问网络 因此，我刚刚创建了 token-agent - 一个小型的、配置驱动的服务，它： - 从多个源获取和交换令牌（您在配置中定义）， - 支持链接（source₁ → source² → … → sink）， - 通过文件、套接字或 HTTP 写入或提供令牌， - 句柄安全地缓存、重试和过期， 内置重试、可观察性（包括 Prometheus 仪表板） 我的用例： - 通过文件将令牌传递到 vector.dev - 通过 http 虚拟机上其他服务的令牌源 存储库：github.com/AleksandrNi/token-agent 附带了用于快速测试的 docker-compose 示例 反馈对我来说非常重要，请写下您的意见 谢谢！   由   提交/u/AleksandrNikitin   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1otgt7z/managing_shortlived_tokens_a_small_opensource/</guid>
-      <pubDate>Mon, 10 Nov 2025 15:31:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spot SponsorBlock 现在可以在 Android 上运行！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1otfobr/spot_sponsorblock_now_works_on_android/</link>
-      <description><![CDATA[   在过去的两周里，我一直在致力于此更新，经过一番努力，它终于推出并运行了，请随时查看！如果您对扩展程序有任何建议或问题，欢迎在我们的 GitHub 页面 :)    上创建问题。由   提交 /u/NordKurre   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1otfobr/spot_sponsorblock_now_works_on_android/</guid>
-      <pubDate>Mon, 10 Nov 2025 14:47:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
