@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 11 Nov 2025 06:25:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 09:20:45 GMT</lastBuildDate>
+    <item>
+      <title>我们 SigNoz 发布了第 100 个版本的开源可观察性平台（Datadog、New Relic 替代品）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ou4v8o/we_at_signoz_shipped_the_100th_release_of_our/</link>
+      <description><![CDATA[当我们启动 SigNoz 时，我们希望构建一个“开放”的 SigNoz 系统。可观察性平台：  开源 基于 OpenTelemetry 如果需要，可在您的基础设施中自行托管  一体化，透明的定价，不会因为实际使用监控工具而惩罚您。 v0.100.0 增加：  跨度百分位数 - 捕获性能跟踪中的异常值，而不会淹没在数据中 跟踪中的基础设施指标 - 将应用性能与资源使用情况相关联 成本计量警报 - 跟踪您的可观察性支出，这样您就不会遇到意外的账单  完整变更日志：https://signoz.io/changelog/ 我们并不是想在一夜之间更换所有内容，但如果您厌倦了供应商锁定或为每台主机付费，可能值得一看:) GitHub：https://github.com/SigNoz/signoz   由   提交 /u/ExcitingThought2794   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ou4v8o/we_at_signoz_shipped_the_100th_release_of_our/</guid>
+      <pubDate>Tue, 11 Nov 2025 09:14:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了部署到您的 AWS 的电子邮件基础设施。本周删除代码</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ou2o7m/built_email_infra_that_deploys_to_your_aws/</link>
+      <description><![CDATA[       由   提交 /u/stewartjarod   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ou2o7m/built_email_infra_that_deploys_to_your_aws/</guid>
+      <pubDate>Tue, 11 Nov 2025 06:53:08 GMT</pubDate>
+    </item>
     <item>
       <title>寻求帮助改进我的单一文件财务项目</title>
       <link>https://www.reddit.com/r/opensource/comments/1ou24mx/looking_for_help_improving_my_singlefile_finance/</link>
@@ -20,7 +34,7 @@
       <pubDate>Tue, 11 Nov 2025 06:11:15 GMT</pubDate>
     </item>
     <item>
-      <title>你好，我计划开源我的芝麻替代方案。虽然有点粗糙，但也不算太糟糕！</title>
+      <title>你好，我计划开源我的芝麻替代品。虽然有点粗糙，但也不算太糟糕！</title>
       <link>https://www.reddit.com/r/opensource/comments/1otwag8/hello_im_planning_to_opensource_my_sesame/</link>
       <description><![CDATA[大家好， 我想分享一个我一直在做的项目。我是一名创始人，目前正在开发一款新产品，但直到上个月我还在开发一款对话式人工智能。旋转之后，我想我应该分享我的代码。 演示视频：https://www.loom.com/share/3ef0ffd2844a4f148e087a7e6bd69b9b 该项目是一个可以进行实时对话的语音人工智能。客户端在网络上运行，后端通过gpu在云端运行模型。 详细信息：对于STT，我使用了whisper-large-v3-turbo，对于TTS，我修改了chatterbox以实现实时流媒体。 LLM 是 llama 的 gpt api 或 gpt-oss-20b。 本地 llm 的一个优点是所有数据都可以保留在您的计算机本地。从速度和性能方面来说，我也推荐使用api。而且价格也不贵了。 （30 分钟花费 0.1 美元？我猜） 从数字上看：TTFT 约为 1000 毫秒，即使包含 llm api 成本，在 runpod A40 实例上每小时大约花费 0.50 美元。 我构建了一些小细节，使对话感觉更自然（尽管它们在演示视频中可能并不明显）：  当用户保持沉默时，它偶尔会产生小的自言自语。 总是提示 llm 以预设的“第一个单词”开始，并且该单词的音频是预先生成的，以减少 TTFT。 它可以在句子中间插入短暂的沉默，以实现更自然的节奏。 您可以打断讲话，并且只有在中断之前所说的内容才会记录在对话历史记录中。 借助多语言 Chatterbox，它可以用多种语言进行对话任何语言和语音（迄今为止英语效果最好）。 音频使用 Opus 进行编码和解码。 智能转弯检测。  这是存储库！它包括客户端和服务器代码。 https://github.com/thxxx/harper 我很想听听社区的想法。您认为对于真正自然的语音对话最重要的是什么？   由   提交/u/Danny-1257  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1otwag8/hello_im_planning_to_opensource_my_sesame/</guid>
@@ -69,23 +83,9 @@
       <pubDate>Mon, 10 Nov 2025 17:35:41 GMT</pubDate>
     </item>
     <item>
-      <title>Nixopus：您自己的服务器上托管的一键应用程序（就像在手机上一样安装应用程序）现在可以通过扩展进行扩展。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1otj2j1/nixopus_oneclick_app_hosting_on_your_own_server/</link>
-      <description><![CDATA[      很高兴分享 Nixopus 扩展终于来了！ Nixopus 是 vercel、heroku 的开源替代品，具有简化的工作流程。现在甚至您的奶奶也可以管理您的服务器！ 考虑像 Docker 镜像这样的扩展。一切都在一个良好的 UI 中，浏览数百个自托管应用程序，单击安装它们，它将立即在您的服务器上启动并运行！ 例如，您可以启动 Appwrite、Excalidraw、Ollama、CodeServer 等，零安装麻烦。 以下是扩展带来的功能：  150 多个自托管应用程序，您可以立即部署它们 自定义域您托管的应用程序 实时构建日志，以便您可以查看部署时发生的情况 在一个位置查看所有正在运行的应用程序，跳过 docker ps 舞蹈。 透明的设计，每个扩展都会准确地向您显示它将在您的服务器上运行的内容。没有黑匣子，没有意外。 可自定义的扩展，以便您可以按照自己的方式进行调整 基于浏览器的全面部署管理  这是最好的部分，您甚至可以将自己的应用程序打包为扩展，就像放入单个文件一样简单。 如果您热衷于自托管或基础设施修补，我很乐意提供反馈和想法，请在此处尝试：https://github.com/raghavyuva/nixopus   由   提交 /u/raghavyuva   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1otj2j1/nixopus_oneclick_app_hosting_on_your_own_server/</guid>
-      <pubDate>Mon, 10 Nov 2025 16:54:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个开源的每日 Git 总结器。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1othz9f/i_built_an_opensource_daily_git_summarizer/</link>
-      <description><![CDATA[如果您正在寻找一些工具来总结您在特定日期在某个项目文件夹下提交的所有内容，您可以尝试这个产品，它使用大型语言模型来读取您所有的 Git 提交消息并为您提供摘要。 https://github.com/Qualia-Li/git-summarizer   由   提交 /u/Hefty-Citron2066   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1othz9f/i_built_an_opensource_daily_git_summarizer/</guid>
-      <pubDate>Mon, 10 Nov 2025 16:14:31 GMT</pubDate>
-    </item>
-    <item>
       <title>管理短期令牌——一个小型开源配置驱动的解决方案</title>
       <link>https://www.reddit.com/r/opensource/comments/1otgt7z/managing_shortlived_tokens_a_small_opensource/</link>
-      <description><![CDATA[您好！ 在许多虚拟机上，多个服务需要访问令牌 一些服务从元数据端点读取它们， 其他服务需要链接调用 - 元数据 → 内部服务 → OAuth2 - 只是为了获取最终令牌， 或者期望来自本地文件（如 vector.dev）的令牌。 每个服务都开始访问网络 因此，我刚刚创建了 token-agent - 一个小型的、配置驱动的服务，它： - 从多个源获取和交换令牌（您在配置中定义）， - 支持链接（source₁ → source² → … → sink）， - 通过文件、套接字或 HTTP 写入或提供令牌， - 句柄安全地缓存、重试和过期， 内置重试、可观察性（包括 Prometheus 仪表板） 我的用例： - 通过文件将令牌传递到 vector.dev - 通过 http 虚拟机上其他服务的令牌源 存储库：github.com/AleksandrNi/token-agent 附带了用于快速测试的 docker-compose 示例 反馈对我来说非常重要，请写下您的意见 谢谢！   由   提交/u/AleksandrNikitin   [链接] [评论]]]></description>
+      <description><![CDATA[您好！ 在许多虚拟机上，多个服务需要访问令牌 一些服务从元数据端点读取它们， 其他需要链接调用 - 元数据 → 内部服务 → OAuth2 - 只是为了获取最终令牌， 或者期望来自本地文件（如 vector.dev）的令牌。 每个服务都开始访问网络 因此，我刚刚创建了 token-agent - 一个小型的、配置驱动的服务，它： - 从多个源获取和交换令牌（您在配置中定义）， - 支持链接（source₁ → source² → … → sink）， - 通过文件、套接字或 HTTP 写入或提供令牌， - 句柄安全地缓存、重试和过期， 内置重试、可观察性（包括 Prometheus 仪表板） 我的用例： - 通过文件将令牌传递到 vector.dev - 通过 http 虚拟机上其他服务的令牌源 存储库：github.com/AleksandrNi/token-agent 附带了用于快速测试的 docker-compose 示例 反馈对我来说非常重要，请写下您的意见 谢谢！   由   提交/u/AleksandrNikitin   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1otgt7z/managing_shortlived_tokens_a_small_opensource/</guid>
       <pubDate>Mon, 10 Nov 2025 15:31:03 GMT</pubDate>
     </item>
