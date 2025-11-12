@@ -4,7 +4,35 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 12 Nov 2025 01:13:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 03:44:27 GMT</lastBuildDate>
+    <item>
+      <title>Github Issue Marketplace - 创建/获得资金/交付</title>
+      <link>https://www.reddit.com/r/opensource/comments/1out3fo/github_issue_marketplace_create_get_funded_deliver/</link>
+      <description><![CDATA[刚刚启动了 Reporaise 演示，该平台允许任何人资助 GitHub 问题，并在合并后自动将其标记为已交付。希望得到反馈！ 网站   由   提交/u/bluewaters88  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1out3fo/github_issue_marketplace_create_get_funded_deliver/</guid>
+      <pubDate>Wed, 12 Nov 2025 02:23:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>添加更多功能</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ousdi7/adding_more_features/</link>
+      <description><![CDATA[只是分享我的开源项目，希望得到您的反馈！  欢迎提供任何改进建议或想法 关于该项目： 如果您刚刚获得一个新的 USB 麦克风，并且想轻松地进行现场测试，请查看我的 Live Mic 音频可视化工具（基本）：  以实时波形查看您的声音 通过即时混响效果聆听它 调整增益、平滑、采样率和轻松块大小  这个项目是用来解决我妻子每次在她的香奈儿上设置现场录音时抱怨的问题，她使用移动设备进行流媒体播放，并使用带有麦克风的电脑扬声器。 现在希望在为有特殊需要的人讲话时像实时视觉文本一样改进这一点   由   提交/u/420_rottie  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ousdi7/adding_more_features/</guid>
+      <pubDate>Wed, 12 Nov 2025 01:50:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>介绍 falcraft：实时 AI 块重新纹理！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ouryz5/introducing_falcraft_live_ai_block_retexturing/</link>
+      <description><![CDATA[      大家好，作为 Minecraft 和 AI 的忠实粉丝，我想将它们合并到 Minecraft 模组中！我真的没见过太多这样的东西。目前，重新纹理适用于方块，但我的目标是能够重新纹理任何东西，包括生物和实体。 还将努力让 fal 的 3D 模型之一正常工作，即 /generate 然后你会得到一个 fal 3D 生成，然后我们对最近的块进行体素化和纹理映射，然后将整个东西直接带入 Minecraft！如果您尝试在此基础上进行开发，那么您真正需要的只是安装 Java 21+，Gradle 会满足其余要求。 如果有任何问题或建议，请告诉我！   由   提交 /u/najsonepls   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ouryz5/introducing_falcraft_live_ai_block_retexturing/</guid>
+      <pubDate>Wed, 12 Nov 2025 01:32:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Android开发者验证讲座</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ourtts/android_developer_verification_discourse/</link>
+      <description><![CDATA[大家好，我是 agnostic-apollo，Termux 应用的当前开发者。 我已在 https://gist.github.com/agnostic-apollo/b8d8daa24cbdd216687a6bef53d417a6 的概述和问题 Android 开发者验证要求，并发布了 Android 16 QPR2 Beta 3 中当前存在的内部实现细节（build_id：BP41.250916.009.A1，security_path：2025-10-05）。 除了这篇文章之外，我还在 Google 的 issuestracker 上提出了一个问题，网址为 https://issuetracker.google.com/459832198，其中建议如何实施可能的选择退出，以便即使开发者未经验证，用户也可以在没有 root/adb 的情况下安装应用。   由   提交/u/agnostic-apollo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ourtts/android_developer_verification_discourse/</guid>
+      <pubDate>Wed, 12 Nov 2025 01:25:37 GMT</pubDate>
+    </item>
     <item>
       <title>项目管理工具更新</title>
       <link>https://www.reddit.com/r/opensource/comments/1ouqibb/project_management_tool_update/</link>
@@ -36,7 +64,7 @@
     <item>
       <title>我开源了 cliq — 一个基于 CLI 的 AI 编码代理，您可以从头开始构建</title>
       <link>https://www.reddit.com/r/opensource/comments/1oukn91/i_opensourced_cliq_a_clibased_ai_coding_agent_you/</link>
-      <description><![CDATA[嘿伙计们👋 我开源了cliq，这是一个基于 CLI 的 AI 编码代理，它展示了编码代理如何在后台实际工作。 对于任何对基于 LLM 的编码助手如何推理、计划和执行代码感兴趣的人来说，它是一个参考实现，而不仅仅是一个演示。 您可以在本地运行它，按照详细的文档进行操作，甚至从头开始构建自己的版本。 🧠技术堆栈  Effect-TS 用于输入效果和效果可组合性 Vercel AI SDK，用于LLM编排 Bun，用于超快速运行时  🔗链接  文档： https://kpritam.github.io/cliq/ 代码库： https://github.com/kpritam/cliq/  🎥 观看演示   由   提交/u/kpritam   [链接] [评论]]]></description>
+      <description><![CDATA[大家好👋 我开源了 cliq，这是一个基于 CLI 的 AI 编码代理，它展示了编码代理如何在后台实际工作。 对于任何对基于 LLM 的编码助手如何推理、规划和执行代码感到好奇的人来说，它是一个参考实现，而不仅仅是一个演示。 您可以在本地运行它，按照详细的文档进行操作，甚至从头开始构建自己的版本。 🧠技术堆栈  Effect-TS 用于输入效果和效果可组合性 Vercel AI SDK，用于LLM编排 Bun，用于超快速运行时  🔗链接  文档： https://kpritam.github.io/cliq/ 代码库： https://github.com/kpritam/cliq/  🎥 观看演示   由   提交/u/kpritam   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1oukn91/i_opensourced_cliq_a_clibased_ai_coding_agent_you/</guid>
       <pubDate>Tue, 11 Nov 2025 20:33:21 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[📦 react-native-frame-capture 大家好👋我刚刚开源了一个为 React Native 构建的新库： react-native-frame-capture - 适用于 Android 的原生帧捕获模块（与 Expo 兼容）。  ⚙️ 它的作用 一个小型库，可让您以任意时间间隔捕获应用的屏幕帧，可选择叠加和灵活的存储选项。  ⏱️ 捕获帧几毫秒/秒 🖋️ 为每个捕获的帧添加叠加层（图像/文本） 💾 将帧保存到私有、公共或自定义目录 ⚙️ 在后台工作 ✅ 支持 Expo (Android) 🔧 使用 Kotlin（原生）+ TypeScript（JS 桥）构建   💡 我为什么构建它 在开发 React Native 应用程序时，我需要一种可靠的方法来记录帧序列 - 不是完整的视频，只是以一致的时间间隔记录图像 - 并且现有的解决方案都不稳定或维护良好。因此，我从头开始构建了一个，对其进行了清理，并决定将其作为开源发布给可能需要它的其他人。  ⚡ 安装和安装示例 bash npm install react-native-frame-capture  然后： ```ts import * as FrameCapture from &#39;react-native-frame-capture&#39;; await FrameCapture.requestPermission(); await FrameCapture.startCapture({ capture: {interval: 1000 }, image: {quality: 80, format: &#39;jpeg&#39; }, storage: { saveFrames: true, location: &#39;private&#39; }, }); const sub = FrameCapture.addListener( FrameCapture.CaptureEventType.FRAME_CAPTURED, (event) =&gt; console.log(&#39;Captured:&#39;, event.filePath) ); // 稍后停止等待FrameCapture.stopCapture();子.remove(); ``` 此处有文档、设置和示例 👉 📘 GitHub Repo 📦 npm: react-native-frame-capture  非常欢迎反馈和贡献 - 我很想知道是否有人对此有想法或用例 🙌   由   提交 /u/nasyxrakeeb   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ou8k1s/just_released_a_new_library/</guid>
       <pubDate>Tue, 11 Nov 2025 12:48:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>最后一次通话！开源倡议正在招聘下一任执行董事。申请将于明天（11 月 12 日）截止。如果您准备好帮助塑造开源的未来，请立即申请：</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ou7wyf/last_call_the_open_source_initiative_is_hiring/</link>
-      <description><![CDATA[       由   提交 /u/opensourceinitiative   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ou7wyf/last_call_the_open_source_initiative_is_hiring/</guid>
-      <pubDate>Tue, 11 Nov 2025 12:15:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了部署到您的 AWS 的电子邮件基础设施。本周删除代码</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ou2o7m/built_email_infra_that_deploys_to_your_aws/</link>
-      <description><![CDATA[       由   提交 /u/stewartjarod   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ou2o7m/built_email_infra_that_deploys_to_your_aws/</guid>
-      <pubDate>Tue, 11 Nov 2025 06:53:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻求帮助改进我的单一文件财务项目</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ou24mx/looking_for_help_improving_my_singlefile_finance/</link>
-      <description><![CDATA[我一直在开发一个小型金融项目，该项目当前位于单个 Python 文件中。包括DCF估值、蒙特卡罗模拟、技术分析、财经新闻整合等。它有效，但开始变得混乱，我想让它更干净、更易于维护。 我是开源新手，我不完全确定如何正确构建或呈现这样的项目。我非常感谢以下方面的指导：  如何将单个大型脚本分解为正确的项目结构 如何使代码更具可读性和生产就绪性 开源友好的存储库应包含哪些内容（文档、文件夹、指南） 对逻辑、性能或设计的任何改进 您注意到的任何错误或问题 使其成为人们实际上可以使用的一般建议使用或贡献于  我也愿意接受任何想要帮助改进它的人的请求。即使是小的也会有帮助，因为我仍然熟悉开源工作流程。 GitHub 存储库：Jsuryaboi-08/Synapse 使用 AI 更好地表达消息。   由   提交 /u/Jumpy-Decision-4892   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ou24mx/looking_for_help_improving_my_singlefile_finance/</guid>
-      <pubDate>Tue, 11 Nov 2025 06:19:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>我做了一件事来记录吵醒我的汽车噪音，以向市议会展示</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ou1zo1/i_made_a_thing_to_record_the_loud_cars_that_wake/</link>
-      <description><![CDATA[      我总是在凌晨 1、3、5 点感到夜惊之类的，因为汽车在我窗外拉起引擎，声音就像 95 FREAKEN 分贝.... 所以有一个 python 东西可以记录它们在我的一台破电脑和一个网络摄像头上 我不知道这是否属于这里，但它只是一个小程序 希望分享，如果其他人可能会发现它有用   由   提交 /u/Impossible_Belt_7757   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ou1zo1/i_made_a_thing_to_record_the_loud_cars_that_wake/</guid>
-      <pubDate>Tue, 11 Nov 2025 06:11:15 GMT</pubDate>
     </item>
     </channel>
 </rss>

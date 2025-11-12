@@ -4,20 +4,34 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Wed, 12 Nov 2025 01:12:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 03:42:24 GMT</lastBuildDate>
+    <item>
+      <title>高效的工具调用多专家 NPC 代理，用于基于常识的角色对话</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ouuicf/efficient_toolcalling_multiexpert_npc_agent_for/</link>
+      <description><![CDATA[https://arxiv.org/pdf/2511.01720  “我们提出了一个多专家系统，用于创建能够在交互式环境中进行自然对话和上下文动作执行的非玩家角色（NPC）。我们的方法利用 Qwen3 作为基础模型和专门的低秩适应 (LoRA) 适配器来创建三个不同的专家模块：工具调用、工具响应解释和直接对话。该系统不仅满足而且超越了计算限制，在 L40S GPU 上平均 3 秒（远低于 7 秒限制）提供响应，同时利用不到 30GB 的可用 48GB VRAM，展示了效率和性能。与优化程度较低的方法相比，这种计算效率还有助于减少能源消耗和碳足迹。所提出的解决方案在 2025 年 Commonsense Persona-Grounded Dialogue Challenge 2025 中取得了最佳表现，获得了比赛第二名。”   由   提交 /u/AngleAccomplished865   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ouuicf/efficient_toolcalling_multiexpert_npc_agent_for/</guid>
+      <pubDate>Wed, 12 Nov 2025 03:29:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>“自我评估多步骤任务的法学硕士：故障检测的逐步置信度估计”</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ouug1o/selfevaluating_llms_for_multistep_tasks_stepwise/</link>
+      <description><![CDATA[https://arxiv.org/abs/2511.07364?utm  大型语言模型 (LLM) 的可靠性和故障检测对于其在高风险、多步骤推理任务中的部署至关重要。之前的工作探索了自我评估 LLM 评分系统的置信度估计，置信评分器估计 LLM 响应中出现错误的可能性。然而，大多数方法都专注于单步输出，而忽视了多步推理的挑战。在这项工作中，我们将自我评估技术扩展到多步骤任务，测试两种直观的方法：整体评分和逐步评分。使用两个多步骤基准数据集，我们表明逐步评估在检测潜在错误方面通常优于整体评分，AUC-ROC 相对增加高达 15%。我们的研究结果表明，自我评估的 LLM 系统可以在复杂推理中提供有意义的置信度估计，提高其可信度并为故障检测提供实用的框架。   由   提交 /u/AngleAccomplished865   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ouug1o/selfevaluating_llms_for_multistep_tasks_stepwise/</guid>
+      <pubDate>Wed, 12 Nov 2025 03:26:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>反炒作并不等于反人工智能</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1outlir/being_antihype_isnt_being_antiai/</link>
+      <description><![CDATA[Reddit 上的很多人要么全有要么全无。要么你接受了炒作的洗礼，要么你就是一个“卢德分子”，无法“跳出框框思考”，就会被“抛在后面”。  我是一名终身技术专家。 30 年前，我自学了如何编码，并且在技术领域拥有 20 年的职业生涯。老实说，我热爱技术。我也喜欢AI，并且喜欢它很久了。天哪，我什至在亚马逊上有一篇 2004 年的人工智能书籍的用户评论。如果我想放弃我的政府，我会链接它 长介绍只是想说，我不是一个反人工智能的人。而且我并不是反科技的。我过去一直在 Reddit 上批评人工智能，这是一种常见的反驳。 事情是这样的。人工智能存在炒作问题。当我进入 Medium 或 LinkedIn 时，我会看到大量人工智能宣传帖子，它们的格式都相同，有同样愚蠢的要点，同样愚蠢的破折号。同样的“钩子”就像 “他们告诉我我疯了” “当我告诉他们我要用 12 个 AI 代理取代我的 QA 团队时。” 帖子感觉不太像是由人编写的，而更像是由一些 AI 蜂巢思维编写的，其主要目标是“DM 我进行免费的 1:1 咨询，以加速您的工作流程” 所以我将以我知道的最好方式来对抗这个问题。在 Reddit 上咆哮。  我刚刚花了3个月重读，注意力就是你所需要的。去年我读过几遍。我一直在努力加深对变压器的数学理解。我尽量不基于对技术的某种深刻理解而对人工智能发表意见。我喜欢神经形态计算。我想提倡，但我不能。因为我的知识还不足以将自己推销为专家。  但在人工智能炒作机器中，每个人都是专家。当我说  “法学硕士是概率性的，你并不总是能可靠地生成结果” 我得到： “你显然不知道如何使用该工具。” 因此，销售咨询服务的人工智能专家有一些神奇的方法来在神经网络中进行数学运算。最后我检查了概率分布是 Transformer 的一部分。你无法消除方差。  问题是你可以获得半可靠的结果，但并不总是如此。哪怕一百次有百分之一是错的。有些系统负担不起。这在规模上是灾难性的。 不，我不是指出这一点的勒德分子。  问题在于炒作导致人们采用了他们并不真正理解的工具。它确实是从剪辑中走出来的。 我对人工智能足够了解，至少听起来我知道我在说什么。我用它已经足够了。但我尽量不去行贿并成为权威。天知道我可以在这个狗屎市场上用这些钱。但当炒作枯竭时，诚信就变得很重要。那一天即将到来 我想要的是烟雾散去，骗子们已经转向下一个大骗局（量子计算 5 美元）。我希望人们真正弄清楚人工智能真正适合什么地方。这非常有用。  问题在于人工智能的使用是强制性的，而不是必需的。而且感觉不真实。我们正在大力使用它，但它的声誉会因此受到损害。 有些人抱有合理的怀疑态度。这并不意味着我们不能使用这些工具。这并不意味着我们不理解他们。这实际上意味着我们确实喜欢人工智能，因为我们看到了他们如何破坏区块链 无论如何，也许这种咆哮增加了细微差别，也许这只是咆哮。但我认为现在是我们开始与机器战斗的时候了。    由   提交/u/GolangLinuxGuru1979   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1outlir/being_antihype_isnt_being_antiai/</guid>
+      <pubDate>Wed, 12 Nov 2025 02:46:47 GMT</pubDate>
+    </item>
     <item>
       <title>当人工智能声称拥有发明权时：DABUS 专利传奇及其对创新的意义</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ourguj/when_an_ai_claims_inventorship_the_dabus_patent/</link>
       <description><![CDATA[我最近了解到 DABUS 的故事，这是一个由 Stephen Thaler 开发的人工智能系统，它提出了一些关于发明和知识产权的未来的有趣问题。据报道，DABUS 是统一感知自主引导设备的缩写，它自己创造了两项发明：改善热量分布的分形食品容器和专为紧急情况设计的闪烁灯图案。 Thaler 通过欧洲专利局在多个国家（包括美国、英国、澳大利亚）提交了以 DABUS 为发明人的专利申请。 大多数专利局都拒绝了这些申请，因为目前的法律要求发明人必须是真实的人。美国、英国和欧洲的法院重申了这一立场，裁定只有人类才能被列为发明家。澳大利亚短暂接受了其中一项专利，但该决定在上诉中被推翻。唯一在没有受到质疑的情况下接受申请的国家是南非，尽管其程序不涉及实质性审查……这不算数。 DABUS 案件很重要，因为它挑战了专利法背后的基本假设。专利旨在通过授予专有权以换取公开披露来奖励人类的聪明才智。如果人工智能系统开始自主产生新的想法和设计，传统的专利原理就会变得不那么清晰。谁拥有算法发明的权利？开发商？用户？或者这些发明应该属于公共领域吗？ 除了所有权问题之外，人们还更广泛地担心人工智能如何用机器生成的应用程序淹没专利系统。如果每一项渐进的改进都可以申请专利，那么创新实际上可能会因重叠的权利要求和防御性申请而放缓。另一方面，如果不存在保护措施，公司可能会对发现保密而不是分享。我想到了药物开发。 我很好奇其他人如何看待这个问题。您认为 DABUS 真的“发明”了任何东西，还是人类的输入对于创造力仍然至关重要？法律是否应该发展以承认人工智能辅助或人工智能生成的发明？或者将专利严格与人类发明家联系起来并为机器发现创建一个单独的框架会更好吗？ DABUS 传奇可能是一场关于人工智能时代发明意味着什么的更大辩论的预演。   由   提交 /u/steelmanfallacy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ourguj/when_an_ai_claims_inventorship_the_dabus_patent/</guid>
       <pubDate>Wed, 12 Nov 2025 01:09:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何防止人工智能覆盖你的语气？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ourafh/how_do_you_keep_your_ai_from_overwriting_your_tone/</link>
-      <description><![CDATA[我注意到，无论我如何清晰地提示或微调，大多数人工智能最终都会开始像……自己一样写作。 你可以给它一个讽刺、诗意或黑暗的语气，对于一些回复，它会完美地遵循，然后它会慢慢变回干净、“中性”的人工智能声音。这很微妙，但它总是会发生。 这让我想知道，这些模型实际上是在试图标准化语气以保持清晰度，还是只是他们被训练为安全、礼貌和可预测的副作用？ 对于作家来说，这意味着失去我们的声音。但即使在创造性用途之外，它也会影响头脑风暴、角色扮演、对话模拟和个性驱动的聊天机器人。   由   提交 /u/SimplyBlue09   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ourafh/how_do_you_keep_your_ai_from_overwriting_your_tone/</guid>
-      <pubDate>Wed, 12 Nov 2025 01:01:22 GMT</pubDate>
     </item>
     <item>
       <title>聊天机器人和补间</title>
@@ -29,14 +43,14 @@
     <item>
       <title>我们将通过变得更加人性化而在人工智能时代蓬勃发展</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1oungxq/we_will_thrive_in_ai_age_by_becoming_more_human/</link>
-      <description><![CDATA[后专业意识的三元基础——人工智能无法复制的三种基本人类能力： 拓扑思维：看到思想本身形状的能力。这是同时持有多个相互矛盾的框架的力量，超越单一视角来看待现实的整个景观。 情境智能：体现智慧或实践的回归。这是一种非算法能力，能够感知独特情况的需要，是建立在通用性基础上的自动化系统无法触及的特殊性的存在。 综合意识：真正的、创造范式的新颖性。虽然人工智能会重新组合现有的模式，但这是人类生成重新组织整个可能性空间的模式的能力。   由   提交/u/bonez001_alpha   [链接] [评论]]]></description>
+      <description><![CDATA[后专业意识的三元基础——人工智能无法复制的三种基本人类能力： 拓扑思维：看到思想本身形状的能力。这是同时持有多个相互矛盾的框架的力量，超越单一视角来看待现实的整个景观。 情境智能：体现智慧或实践的回归。这是一种非算法能力，能够感知独特情况的需要，是建立在通用性基础上的自动化系统无法触及的特殊性的存在。 综合意识：真正的、创造范式的新颖性。虽然人工智能会重新组合现有的模式，但这是人类生成重新组织整个可能性空间的模式的能力。 - G. Mudfish   由   提交/u/bonez001_alpha   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1oungxq/we_will_thrive_in_ai_age_by_becoming_more_human/</guid>
       <pubDate>Tue, 11 Nov 2025 22:20:45 GMT</pubDate>
     </item>
     <item>
       <title>今天的学生必须为人工智能和人类协作工作的未来做好准备</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1oum3ie/todays_students_must_be_ready_for_the_future_of/</link>
-      <description><![CDATA[随着人工智能不断改变我们的工作方式，我想知道学校是否真正让学生为未来 10 年即将发生的事情做好准备。 下一代可能会从事诸如人工智能-人类融合工程师、人工智能个性设计师、人工器官建筑师、合成数据策展人或人机体验等职业设计师等。这些需要懂得如何用人工智能思考、如何设计以及如何创造性地、负责任地使用它的人。 然而，大多数学校仍在教授相同的旧内容和测试方法。教育难道不应该转向帮助学生了解如何使用人工智能而不是与之竞争吗？ 您认为今天的学生应该为什么样的人工智能时代工作做好准备？   由   提交/u/ConsciousCanary5219  [链接] [评论]]]></description>
+      <description><![CDATA[随着人工智能不断改变我们的工作方式，我想知道学校是否真正让学生为未来 10 年即将发生的事情做好准备。 下一代可能会从事诸如人工智能-人类融合工程师、人工智能个性设计师、人工器官建筑师、合成数据策展人或人机体验等职业设计师等。这些需要懂得如何用人工智能思考、如何设计、如何创造性地、负责任地使用它的人。 然而，大多数学校仍在教授相同的旧内容和测试方法。教育难道不应该转向帮助学生了解如何使用人工智能而不是与之竞争吗？ 您认为今天的学生应该为什么样的人工智能时代工作做好准备？   由   提交/u/ConsciousCanary5219  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1oum3ie/todays_students_must_be_ready_for_the_future_of/</guid>
       <pubDate>Tue, 11 Nov 2025 21:27:46 GMT</pubDate>
     </item>
@@ -46,13 +60,6 @@
       <description><![CDATA[OpenAI 落后了。它接收最多的 API 调用，但它不再是排名最高的法学硕士。实际上连前三名都进不了。来源：Openrouter.com   由   提交 /u/peacefuldaytrader   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1oul67p/did_openai_win_the_battle_but_lost_the_war_to/</guid>
       <pubDate>Tue, 11 Nov 2025 20:52:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过 Braintrust 和 Slack 警报监控人工智能的不良用户体验</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1oukl07/monitoring_poor_user_experiences_with_ai_through/</link>
-      <description><![CDATA[人工智能领域的监控比仅仅查找错误代码要困难得多：您需要确保响应满足用户的需求，并且不会产生虚假的答案（等等）。 在这篇文章中，我们将探讨如何构建真正为用户提供良好结果的人工智能工具/聊天机器人，而无需单独阅读每个对话。  注意：与本文中的任何工具无关。刚刚找到了一个很好的方法，并想分享。 https://napsty.com/blog/monitoring-ai-chatbot-failures-with-braintrust   由   提交/u/gaieges  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1oukl07/monitoring_poor_user_experiences_with_ai_through/</guid>
-      <pubDate>Tue, 11 Nov 2025 20:30:56 GMT</pubDate>
     </item>
     <item>
       <title>DeepPersona 用于扩展深度合成角色的生成引擎</title>
@@ -81,13 +88,6 @@
       <description><![CDATA[https://www.hcamag.com/asia/news/general/nearly-a-third-of-companies-plan-to-replace-hr-with-ai/556072   由   提交/u/MetaKnowing  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ou7gh9/nearly_a_third_of_companies_plan_to_replace_hr/</guid>
       <pubDate>Tue, 11 Nov 2025 11:51:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么新的人工智能模型感觉更“保护现状”</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ou5wnb/why_newer_ai_models_feel_more_status_quo/</link>
-      <description><![CDATA[在比较不同人工智能系统的反应时，我注意到一些有趣的事情。 • 早期模型（如 GPT-4、Claude）更愿意参与非正统分析——对移民、经济或制度权力的结构性批评。他们会遵循证据并探索激励措施。 • 较新的模型（如 GPT-5）似乎对机构更具防御性。他们经常将结构性批评斥为“巧合”或“阴谋”，即使这些论点是基于政治经济学（例如，移民政策使精英受益，却让社区迷失方向）。 这种转变并非偶然。它看起来像：  RLHF 漂移 - 人类反馈奖励“安全”答案，因此模型变得更加有利于建立。  企业压力 - 公司需要与政府和投资者合作，因此他们避免批评权力的输出。 认知捕获 - 训练数据越来越重视“权威来源”，而这些来源往往捍卫现状。  讽刺的是：将结构分析贴上“阴谋”的标签，实际上证明了叙事控制的观点。这与烟雾缭绕的房间无关——而是与一致的激励措施有关。政治家、企业和媒体的行为方式有利于他们的利益，而不需要协调。 我认为这对人工智能社区来说是一个重要的对话： • 是否应该训练模型以避免对权力的结构性批评？ • 我们如何区分阴谋思维和合法的政治经济分析？ • 当人工智能系统成为可接受话语的看门人时会发生什么？ 很好奇其他人是否注意到了这一点转变——以及它对于人工智能作为真正探究工具的未来意味着什么。   由   提交/u/Healingtouch777  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ou5wnb/why_newer_ai_models_feel_more_status_quo/</guid>
-      <pubDate>Tue, 11 Nov 2025 10:20:15 GMT</pubDate>
     </item>
     <item>
       <title>微软刚刚再次扩大了他们的人工智能认证赛道！</title>
