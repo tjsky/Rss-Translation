@@ -4,20 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 12 Nov 2025 06:26:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 09:19:08 GMT</lastBuildDate>
     <item>
-      <title>创建了一个 Chrome 扩展程序，用于选择性模糊 Gmail 邮件</title>
-      <link>https://www.reddit.com/r/programming/comments/1ouxs1f/created_a_chrome_extension_for_selectively/</link>
-      <description><![CDATA[根据可配置的正则表达式模式有选择地模糊 Gmail 邮件，以保护公共空间中的敏感内容。 https://chromewebstore.google.com/detail/gmail-selective-blur/bombeebplpbjpkjnfiakbbmnidihljdp   由   提交 /u/Organic_Guidance6814   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ouxs1f/created_a_chrome_extension_for_selectively/</guid>
-      <pubDate>Wed, 12 Nov 2025 06:23:29 GMT</pubDate>
+      <title>VS 2026 18.0 / MSVC Build Tools 14.50 发布用于生产使用</title>
+      <link>https://www.reddit.com/r/programming/comments/1ov0eo0/vs_2026_180_msvc_build_tools_1450_released_for/</link>
+      <description><![CDATA[ 由   提交/u/mariuz  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ov0eo0/vs_2026_180_msvc_build_tools_1450_released_for/</guid>
+      <pubDate>Wed, 12 Nov 2025 09:08:15 GMT</pubDate>
     </item>
     <item>
-      <title>更好地进行代码面试的一个想法</title>
-      <link>https://www.reddit.com/r/programming/comments/1ouxbd0/one_idea_for_doing_better_code_interviews/</link>
-      <description><![CDATA[视频标题显然是标题诱饵，但这里有一个有趣的想法。这不是推销任何产品。只是想吸引更多观看次数和订阅者，让 YouTube 知道我的存在。    由   提交/u/stumblingtowards  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ouxbd0/one_idea_for_doing_better_code_interviews/</guid>
-      <pubDate>Wed, 12 Nov 2025 05:56:38 GMT</pubDate>
+      <title>数据驱动的案例研究：我发布了同一篇 43,000 字的文章，内容涉及“从第一原理”HTTP 客户端到 r/cprogramming、r/rust 和 r/Python。接待...不同</title>
+      <link>https://www.reddit.com/r/programming/comments/1ouzjz4/a_datadriven_case_study_i_posted_the_same/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ouzjz4/a_datadriven_case_study_i_posted_the_same/</guid>
+      <pubDate>Wed, 12 Nov 2025 08:13:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>16 个使用 Go 的 Fyne + Rye 的最小多平台 GUI 应用程序示例</title>
+      <link>https://www.reddit.com/r/programming/comments/1ouzfc1/16_minimal_multiplatform_gui_app_examples_with/</link>
+      <description><![CDATA[16 个日益复杂但仍然简约的使用 Go 的 Fyne GUI 库和 Rye 语言的多平台 GUI 应用程序示例。从 Hello world，演示各种 GUI 小部件、goroutine，到将 GUI 与 HTTP 调用相结合以及最后的 SQLite 存储。 其中一个示例，一个使用 goroutine 的简单时钟： fyne: import\go &quot;fyne&quot;应用程序：导入\去“fyne/app”小部件：导入\去“fyne/widget”实验室：小部件/标签“&lt;日期&amp;”时间&gt;” go 执行 { 永远 { fyne/do 执行 { lab .set-text now .to-string } sleep 500 } } w: app/new .window &quot;日期 &amp; }时间” w .set-content lab w .show-and-run  链接上还有 15 个（带屏幕截图）。   由   提交/u/middayc   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ouzfc1/16_minimal_multiplatform_gui_app_examples_with/</guid>
+      <pubDate>Wed, 12 Nov 2025 08:05:21 GMT</pubDate>
     </item>
     <item>
       <title>AGCI：评估通用人工智能编码的框架</title>
@@ -25,27 +32,6 @@
       <description><![CDATA[ 由   提交/u/Independent-Step54  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1oux14f/agci_a_framework_for_evaluating_artificial/</guid>
       <pubDate>Wed, 12 Nov 2025 05:40:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么等待响应是一个坏主意</title>
-      <link>https://www.reddit.com/r/programming/comments/1ousbr1/why_waiting_for_a_response_is_a_bad_idea/</link>
-      <description><![CDATA[我的文章对所有人开放；非会员读者可以点击此链接阅读全文 链接 如果我发送短信并一直盯着手机等待回复，你会认为我很愚蠢。那么为什么我们总是在代码中这样做呢？ 编写代码通过网络发送请求、等待响应，然后继续执行代码是很常见的。但这并不是实现请求-响应通信的唯一方法。 我拥有多年使用分布式系统的经验，在本视频中，我将向您展示如何实现延迟响应、这种方法的优点以及权衡。 按 Enter 或单击以查看全尺寸图像   由   提交/u/Rasathurai_Karan   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ousbr1/why_waiting_for_a_response_is_a_bad_idea/</guid>
-      <pubDate>Wed, 12 Nov 2025 01:48:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>SideWinder - 简介</title>
-      <link>https://www.reddit.com/r/programming/comments/1ourzhz/sidewinder_introduction/</link>
-      <description><![CDATA[这是我放的一个小视频，用于展示我一直在开发的东西 - 纯 Haxe Web 服务器。 如果链接不起作用，请尝试以下操作：https://youtu.be/Lqfd2Fc5D3E?si=1xvCX1YOI2I-lplb 我希望将来能整理更多视频和教程，更深入地展示功能（并且随着我继续添加功能）。  我对这个项目感到非常兴奋。 Haxe 是一种非常棒的语言，通过直接集成到 Visual Studio Code 中的 AI 工具，学习和编写代码变得更加容易，并且可以毫无问题地处理 Haxe 逻辑。  请告诉我您的想法！   由   提交/u/Falagard  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ourzhz/sidewinder_introduction/</guid>
-      <pubDate>Wed, 12 Nov 2025 01:32:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>深度维基 |对于每个存储库，您都可以查阅 AI 文档</title>
-      <link>https://www.reddit.com/r/programming/comments/1ouq3ln/deepwiki_ai_documentation_you_can_talk_to_for/</link>
-      <description><![CDATA[你们都需要尝试一下。这太棒了！！！ 这基本上是 CoPilot 评论的更好版本   由   提交 /u/Gazuroth   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ouq3ln/deepwiki_ai_documentation_you_can_talk_to_for/</guid>
-      <pubDate>Wed, 12 Nov 2025 00:08:31 GMT</pubDate>
     </item>
     <item>
       <title>使用 C 使 Python 速度提高 150 倍</title>
@@ -109,6 +95,20 @@
       <description><![CDATA[ 由   提交/u/_Sharp_  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ouds4r/why_is_metroid_so_laggy/</guid>
       <pubDate>Tue, 11 Nov 2025 16:21:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>ArchUnitTS 与 eslint-plugin-import：TypeScript 项目中的架构测试</title>
+      <link>https://www.reddit.com/r/programming/comments/1oudh2e/archunitts_vs_eslintpluginimport_architecture/</link>
+      <description><![CDATA[ 由   提交 /u/trolleid   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oudh2e/archunitts_vs_eslintpluginimport_architecture/</guid>
+      <pubDate>Tue, 11 Nov 2025 16:10:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>宣布 .NET 10</title>
+      <link>https://www.reddit.com/r/programming/comments/1oucyr5/announcing_net_10/</link>
+      <description><![CDATA[.NET 10 (LTS) 完整版本已发布   由   提交/u/Atulin  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oucyr5/announcing_net_10/</guid>
+      <pubDate>Tue, 11 Nov 2025 15:51:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
