@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 13 Nov 2025 03:46:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 06:26:29 GMT</lastBuildDate>
+    <item>
+      <title>只需几分钟即可将您的 LGS 库存 CSV 转变为实时商店，而我的应用程序仍在开发中</title>
+      <link>https://www.reddit.com/r/programming/comments/1ovszdb/turn_your_lgs_inventory_csv_into_a_live_shop_in/</link>
+      <description><![CDATA[我为本地游戏商店和超级卖家建立了一个现代、快速的 TCG 店面和购买列表平台。导入您的库存，立即获得漂亮的商店，管理购买清单，并让收藏家搜索、构建购物车并跟踪各个商店的需求列表。寻求反馈和一些测试商店。 主要功能  店面：目录、购物车、结帐、商店页面、响应式 UI。 库存：CSV 导入、多租户支持、图像/徽标上传、管理仪表板。 购买列表：提交、跟踪和协调购买列表；干净地处理失败/标记的项目。 搜索和搜索过滤器：游戏选择器、快速文本搜索、稀有度/状况/价格过滤器。 收藏家：具有跨商店匹配的需求列表管理器。 安全与安全性能：API 优先（Symfony + API 平台）、Next.js 前端、JWT 身份验证、CORS 配置、缓存和优化的 UI。  技术堆栈  前端：Next.js（应用程序路由器）、TypeScript、Tailwind、现代组件模式。 后端：Symfony + API 平台、Doctrine、JWT、迁移、多租户架构。 部署：Docker 化；在本地和 VPS/云上工作。通过 Next + Symfony 静态托管处理资产。  我希望获得有关代码库的一些反馈，也许还有一些关于后续步骤以及是否继续构建此项目的指示？如果您想访问，请私信我，在 github 上有以下链接： https://github.com/tedy97123/tcg-store   由   提交/u/General_Performer_95  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ovszdb/turn_your_lgs_inventory_csv_into_a_live_shop_in/</guid>
+      <pubDate>Thu, 13 Nov 2025 05:33:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么你的代码感觉不对（Kevlin Henney 谈 Modelarity）</title>
+      <link>https://www.reddit.com/r/programming/comments/1ovsyp1/why_your_code_feels_wrong_kevlin_henney_on/</link>
+      <description><![CDATA[ 由   提交/u/South-Reception-1251   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ovsyp1/why_your_code_feels_wrong_kevlin_henney_on/</guid>
+      <pubDate>Thu, 13 Nov 2025 05:32:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>有关如何将 Spring Batch 与 Spring Data JPA 和 MySQL 结合使用以有效地将数据从 CSV 文件移动到数据库的分步指南。</title>
+      <link>https://www.reddit.com/r/programming/comments/1ovr5cg/a_stepbystep_guide_on_how_to_use_spring_batch/</link>
+      <description><![CDATA[有时在实时项目中，我们需要将数据从一个位置传输到另一个位置。如果数据量很小，我们可以通过应用任何传统方法来实现。另一方面，如果数据量很大，我们可以利用Spring Batch API来使数据传输更快、更高效。在这篇文章“使用 JPA 将 Spring Batch CSV 传输到 MySQL 的示例”中，我们将使用 Spring Boot Batch 将数据从 CSV 文件传输到 MySQL 数据库。   由   提交/u/erdsingh24  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ovr5cg/a_stepbystep_guide_on_how_to_use_spring_batch/</guid>
+      <pubDate>Thu, 13 Nov 2025 03:57:20 GMT</pubDate>
+    </item>
     <item>
       <title>2024 LLVM Dev Mtg - LLVM 中的浮点：好的、坏的和缺席的</title>
       <link>https://www.reddit.com/r/programming/comments/1ovqpf5/2024_llvm_dev_mtg_floating_point_in_llvm_the_good/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/mooreds  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ovc9y2/the_fortyyear_programmer/</guid>
       <pubDate>Wed, 12 Nov 2025 17:56:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visual Studio 2026 现已全面上市</title>
-      <link>https://www.reddit.com/r/programming/comments/1ovbpnd/visual_studio_2026_is_now_generally_available/</link>
-      <description><![CDATA[ 由   提交/u/mariuz  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ovbpnd/visual_studio_2026_is_now_generally_available/</guid>
-      <pubDate>Wed, 12 Nov 2025 17:36:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>异步和终结器死锁</title>
-      <link>https://www.reddit.com/r/programming/comments/1ova8wi/async_and_finaliser_deadlocks/</link>
-      <description><![CDATA[ 由   提交/u/Xaneris47  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ova8wi/async_and_finaliser_deadlocks/</guid>
-      <pubDate>Wed, 12 Nov 2025 16:44:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立数字银行（分步播放列表）</title>
-      <link>https://www.reddit.com/r/programming/comments/1ov9epi/build_a_digital_bank_stepbystep_playlist/</link>
-      <description><![CDATA[本系列介绍如何从头开始构建数字银行  技术堆栈  Spring Boot微服务（客户、帐户、交易、付款、AuthUser、同意） Auth0用于基于 OAuth2/JWT 的安全性 PostgreSQL 用于持久性  涵盖的关键概念  金融服务领域驱动设计 符合 FDX 的 API 合约（OpenAPI 优先） 幂等性、ETag 和乐观并发   https://www.youtube.com/watch?v=VHBlkZYzSNY&amp;list=PL4tLXdEa5XIWrhuhgJA1pdh2PDMrV7nMM&amp;pp=gAQB0gcJCbAEOCosWNin   由   提交 /u/AdPresent3286   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ov9epi/build_a_digital_bank_stepbystep_playlist/</guid>
-      <pubDate>Wed, 12 Nov 2025 16:13:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
