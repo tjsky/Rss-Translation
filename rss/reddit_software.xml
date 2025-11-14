@@ -4,7 +4,35 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Fri, 14 Nov 2025 09:18:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 12:32:54 GMT</lastBuildDate>
+    <item>
+      <title>每周探索主题 - 2025 年 11 月 14 日</title>
+      <link>https://www.reddit.com/r/software/comments/1owumv9/weekly_discovery_thread_november_14_2025/</link>
+      <description><![CDATA[分享新的、有用的或只是有趣的内容 欢迎来到每周探索主题，在这里您可以分享本周引起您注意的与软件相关的发现 - 特别是那些很酷、有用或发人深省但本身可能不值得讨论的内容。 此主题是您的空间：  Neat工具、库或软件包 值得一读的文章、博客文章或演讲 您正在进行的实验或业余项目 您发现的提示、工作流程或晦涩功能 您正在思考的问题或想法  如果它与软件相关并激发了您的好奇心，请将其放入。  一些快速指南  保持文明和建设性 - 这是为了学习和发现。 自我推销？如果它具有相关性并能增加价值，那完全没问题。保持透明。 没有链接垃圾邮件或人工智能生成的内容转储。我们将删除省力的提交内容。 对有用的内容进行投票，以便其他人看到！   此帖子将每周发布并置顶。如果您想建议对此格式进行更改或添加，请随时发表评论或向模组发送消息。 现在，您本周发现了什么？   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1owumv9/weekly_discovery_thread_november_14_2025/</guid>
+      <pubDate>Fri, 14 Nov 2025 12:01:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有任何应用程序可以让您在屏幕上浮动小笔记或图像？</title>
+      <link>https://www.reddit.com/r/software/comments/1owtrn6/is_there_any_app_that_lets_you_keep_small_notes/</link>
+      <description><![CDATA[就像小笔记屏幕截图或参考文献 但我尝试的每个应用程序要么将所有内容隐藏在窗口后面，要么让整个屏幕变得混乱 有什么东西可以将简单的浮动内容保留在顶部而不感到沉重？ 我不是在寻找一个完整的任务管理器 只是一些轻量级的东西，留在我放置的地方 或者如果我是唯一一个在事情保持不变时工作得更好的人可见   由   提交/u/brettshep  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1owtrn6/is_there_any_app_that_lets_you_keep_small_notes/</guid>
+      <pubDate>Fri, 14 Nov 2025 11:15:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>贪婪搜索者</title>
+      <link>https://www.reddit.com/r/software/comments/1owski9/greedsearcher/</link>
+      <description><![CDATA[大家好， 我构建了 GreedSearcher，一个轻量级的 C++/Qt 应用程序，用于取代 Windows 不可靠的文件搜索。它使用 sharksdp fd-find（基于 Rust）进行快速递归搜索，无需依赖索引。 主要功能： - 递归搜索目录中的所有内容 - 可选文件夹过滤 - 双击打开文件 - GitHub 上开源 目前处于测试阶段，欢迎反馈！在这里下载安装程序：[GitHub 发布链接] 你觉得怎么样？您推荐任何类似的工具吗？由   提交/u/vasquecas  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1owski9/greedsearcher/</guid>
+      <pubDate>Fri, 14 Nov 2025 10:05:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>AlgoArena – 实时编码战斗 + AI 面试教练（免费，专业版 11.99 美元/月，旗舰版 25.99 美元/月）</title>
+      <link>https://www.reddit.com/r/software/comments/1ows2ux/algoarena_realtime_coding_battles_ai_interview/</link>
+      <description><![CDATA[如果您喜欢练习算法，但想要比单独 LeetCode 更具互动性的东西，我们构建了 AlgoArena (https://algoarena.net)。这是一款将多人编码战斗与 AI 反馈相结合的 Web 应用程序：  通过 ELO 天梯、自定义排队和重播时间线进行实时 1v1 决斗 5,000 多个练习题，带有提示、计时器和多语言支持 AI 模拟面试官（语音可选），实时批评您的时间/空间复杂性 通过按键匹配重播重建，以便您可以研究自己的解决方案 Discord 自动化战斗标注、每日挑战和比赛摘要  使用 Next.js、Firebase、Redis 队列、Judge0 执行和 Stripe 进行计费。 定价（来自 Components/PricingContent.tsx）：  免费：无限战斗和免费练习（广告，无 AI 功能） 专业版：11.99 美元/月或 119.90 美元/年 - 无广告，每周 1 次 AI 分析 + 1 次 AI 面试，解锁专家解决方案 终极版：25.99 美元/月或 259.90 美元/年 - 无限制的 AI 分析/面试、优先支持、早期功能访问  希望收到有关人员的反馈性能、用户体验或编码平台的任何必备功能   由   提交/u/Death12th   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1ows2ux/algoarena_realtime_coding_battles_ai_interview/</guid>
+      <pubDate>Fri, 14 Nov 2025 09:34:09 GMT</pubDate>
+    </item>
     <item>
       <title>顶级 SaaS 开发和 MVP 软件公司 |雇用 Node.js、React 和专门的开发人员</title>
       <link>https://www.reddit.com/r/software/comments/1owrkus/top_saas_development_mvp_software_company_hire/</link>
@@ -32,13 +60,6 @@
       <description><![CDATA[我发布此消息是为了向此社区中的每个人发出警告。我深入研究了 Wispr Flow 的网络流量，他们的隐私政策声明绝对是谎言。我听说他们在没有适当匿名的情况下存储用户屏幕截图并将大量遥测数据发送回他们的服务器。 他们声称“完全合规”。遵守所有主要的隐私法规，但他们的后端行为非常粗略。为什么听写应用程序需要发送我的桌面屏幕截图？他们对我的私人对话、客户通话和个人笔记的原始音频做了什么？ 这是一个巨大的安全和隐私风险。我立即卸载了它并撤销了所有权限。我不会信任这家公司提供购物清单，更不用说我的专业和个人数据了。请勿使用此应用程序。   由   提交/u/anshchauhann   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1owpnpu/wispr_flow_stores_user_screenshots_and_is_not/</guid>
       <pubDate>Fri, 14 Nov 2025 06:58:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪些人工智能工具实际上可以节省您的时间——而不仅仅是炒作？</title>
-      <link>https://www.reddit.com/r/software/comments/1owoey3/what_ai_tools_actually_save_you_timenot_just_hype/</link>
-      <description><![CDATA[每周都会推出如此多的人工智能工具，越来越难以区分哪些是真正有用的，哪些只是良好的营销。我正在尝试简化工作流程并减少重复性任务，但我只想使用能够真正交付成果的工具。 对于那些从事软件、开发运维、工程、自动化甚至一般生产力工作的人来说： 哪些 AI 工具确实节省了您的时间？ — 代码生成？ — 调试？ — 文档？ —规划？ — 自动化？ 还很好奇您如何将它们融入您的工作流程以及它们是否取代了您以前使用的东西。 寻找真正的建议，而不是炒作。   由   提交 /u/Square_Vegetable_764   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1owoey3/what_ai_tools_actually_save_you_timenot_just_hype/</guid>
-      <pubDate>Fri, 14 Nov 2025 05:45:17 GMT</pubDate>
     </item>
     <item>
       <title>将 TS 转换为 MP4 的好软件，可能带有硬件/GPU 加速</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[我在一家公司工作，我们使用纸质日志来跟踪项目期间的事件/问题/任何内容。它基本上是一张简单的横格纸。为了将来的方便和可搜索性，希望转向数字化。想过一个Word文档，但我不确定是否有更优雅的东西可用。 只需要能够记录如下内容： （日期）（时间）--这个事件发生了，等等。 （姓名缩写） （日期）（时间）-- 这个里程碑已经完成。 是否有一个简单的轻量级程序可用？使用简单的文本编辑器唯一担心的是一个笨蛋会意外删除或覆盖以前的所有评论（鼓励多人/任何人添加到其中以改进工作流程） 谢谢！   由   提交 /u/Logical_Weird_5885   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1owa6w9/does_this_even_exist_simple_logbookjournal_entry/</guid>
       <pubDate>Thu, 13 Nov 2025 19:18:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>只需查看没有大黑色背景和编辑选项的桌面图像</title>
-      <link>https://www.reddit.com/r/software/comments/1owa0ed/just_view_a_desktop_image_without_a_big_black/</link>
-      <description><![CDATA[直到最近，我的桌面图像*确实*仅显示为图像的副本，但最近的 Windows 更新将其替换为“照片”应用程序，该应用程序将我有趣的路标或狗图片放入一个丑陋且有损于图像的黑色大矩形中。 我不知道我以前使用过什么应用程序。照片是否已“更新”？或者其他什么改变了？ 之前有一篇关于这个主题的文章，答案比选择应用程序要复杂得多。当然，Windows 有一种内置方法可以做到这一点。 希望得到任何帮助。   由   提交/u/JudyinTexas  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1owa0ed/just_view_a_desktop_image_without_a_big_black/</guid>
-      <pubDate>Thu, 13 Nov 2025 19:11:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找允许我在地图上放置颜色编码的点/点的软件，当我单击它们时，会弹出位置信息</title>
-      <link>https://www.reddit.com/r/software/comments/1ow8mzs/looking_for_software_that_allows_me_to_put_color/</link>
-      <description><![CDATA[为自己绘制销售区域。我不确定这是否需要类似于 indesign 或其他软件。先感谢您。    由   提交 /u/stolenscootercredits   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1ow8mzs/looking_for_software_that_allows_me_to_put_color/</guid>
-      <pubDate>Thu, 13 Nov 2025 18:21:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>亮度滚动条卡住</title>
-      <link>https://www.reddit.com/r/software/comments/1ow85vv/brightness_scroll_bar_stuck/</link>
-      <description><![CDATA[我的 Lenovo LOQ 笔记本电脑遇到问题，亮度滑块完全禁用。我可以看到它，但我根本无法移动它。 奇怪的是我的亮度功能键确实可以工作，但 Windows 快速设置中的滑块呈灰色且无法滚动。 不确定是什么原因造成的 - 我没有更改任何主要设置。音量滑块工作正常。 有人以前遇到过这个问题或者知道修复方法吗？   由   提交 /u/Vegetable-Living-134   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1ow85vv/brightness_scroll_bar_stuck/</guid>
-      <pubDate>Thu, 13 Nov 2025 18:03:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
