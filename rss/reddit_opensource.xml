@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 14 Nov 2025 12:33:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 15:17:42 GMT</lastBuildDate>
+    <item>
+      <title>OpenSigner – Web3/加密钱包的自托管密钥管理（OSS 发布，欢迎反馈）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1owyvt7/opensigner_selfhostable_key_management_for/</link>
+      <description><![CDATA[Hii! 在我的团队中，我们刚刚发布了开源 OpenSigner，这是一个用于嵌入式 Web3/加密钱包的自托管密钥管理堆栈，我们希望得到那些关心运行自己的基础设施并避免供应商锁定的人们的反馈。 这里有更多信息：想法是：  您运行基础设施（dockerized 服务 + iframe）。 密钥在客户端创建并分成共享（设备/热/屏蔽）。 签名采用 2-of-3 模型在内存中进行，然后擦除。 您将其插入现有的身份验证（OIDC、密钥等），以便用户获得稳定的钱包，无需种子短语或在您更改时进行迁移  这适用于想要“嵌入式钱包”用户体验但又不想将密钥交给黑盒 SaaS 或永远被锁定的团队。 我们非常感谢以下方面的反馈：  架构和服务威胁模型、 默认值（3 中的 2、组件、策略）、 从操作或安全 POV 看来过度设计/考虑不足的任何内容。  代码和信息文档：  仓库：https://github.com/openfort-xyz/opensigner 文档：https://www.opensigner.dev  很高兴回答问题并根据您的评论进行迭代。 您相信这个吗？ 让我知道您的想法:)   由   提交 /u/Web3Navigators   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1owyvt7/opensigner_selfhostable_key_management_for/</guid>
+      <pubDate>Fri, 14 Nov 2025 15:04:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>NoteVC：Markdown 的版本控制</title>
+      <link>https://www.reddit.com/r/opensource/comments/1owy6vx/notevc_version_control_for_markdown/</link>
+      <description><![CDATA[大家好，我一直在用 Kotlin 开发一个名为 NoteVC 的项目。它是一个 Markdown 版本控制系统，允许块级跟踪。任何开发它的帮助将不胜感激，我希望它对你们有用。   由   提交/u/durrwinzz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1owy6vx/notevc_version_control_for_markdown/</guid>
+      <pubDate>Fri, 14 Nov 2025 14:38:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>其他人都在为尴尬的“我可以分享这个想法吗？”而苦苦挣扎。对话？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1owxe47/anyone_else_struggle_with_the_awkward_can_i_share/</link>
+      <description><![CDATA[我试图写一篇研究论文，但我害怕在发表之前分享这个想法或寻求反馈，因为我不想告诉我经验丰富的朋友“嘿，请不要偷这个”。 - 就像，我完全信任他们，但你知道那种焦虑的感觉“如果他们这样做了......” 这是一种愚蠢的情况，因为：  你要么不分享（并错过有价值的反馈） 或者你分享但什么也不说，只是......希望最好的？  这两种选择都不是很好，这与信任或自私无关 - 这是只是想在边界问题上达成共识，而又不想让事情变得奇怪。 就像，你不能只是说“请不要接受我的想法”。听起来不像你不信任他们。而且保密协议对于随意的“嘿，你觉得这个怎么样？”来说太沉重了。  所以我感到沮丧并构建了一些东西：创意协议 -让我们假装我没有构建它，因为我不想看起来像小组中的“那个人”，因为字面意思就是设置边界的感觉，哈哈，特别是当涉及到随机想法时，也许这只是我 它基本上就像开源许可证，但用于创意。分享时只需添加一行： &gt; &quot;这个想法是在 Idea 协议 (IP-FB）下共享的。仅用于保密反馈。” 共有 6 种不同的“许可证”。范围从“严格私有”到“严格私有”。 “完全开放，想用就用”。所以，如果这成为一件事，双方都会知道哦，好吧，这是你的意图，而不是个人化 - 就像自由和开放源码软件许可证一样 - 我的意思是我有很多带有自己许可证的存储库，但无论如何我永远无法合法化，但就像我们的自由和开放世界中有这个标准，我对此感到非常自豪， 你在道德和社会上（ofc是合法的，但你知道我的意思）尊重许可证背后的意图，同时他们并不是对你进行人身攻击，这只是他们对代码的偏好 每个人都预先知道界限，因此不需要尴尬的对话。 适用于从研究想法到“我应该告诉我喜欢的人我的感受吗？”的所有内容。 （是的，这是我包含的一个真实用例 - 请参阅用例页面 lmao ） 它是完全开源的，并不试图取代实际的 NDA - 只是填补法律合同过度杀伤力的休闲想法共享的空白 还有其他人处理这个问题还是我只是想太多了？因为我合法地写了许可证（为了让它看起来像嘿，看起来这是一件事，这对你来说没有什么个人的） - 这更多的是我想看看我是否是唯一一个过度思考到这种程度的人，或者也许我们中的一些人也有同样的想法哈哈 &lt;！-- SC_ON --&gt;  由   提交 /u/Educational_Lynx286   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1owxe47/anyone_else_struggle_with_the_awkward_can_i_share/</guid>
+      <pubDate>Fri, 14 Nov 2025 14:06:11 GMT</pubDate>
+    </item>
     <item>
       <title>开源项目如何收集真实的用户参考？</title>
       <link>https://www.reddit.com/r/opensource/comments/1owt7u2/how_do_opensource_projects_gather_real_user/</link>
@@ -69,13 +90,6 @@
       <pubDate>Thu, 13 Nov 2025 19:30:12 GMT</pubDate>
     </item>
     <item>
-      <title>为项目提供金钱支持的最佳方式是什么？开发者有没有理由不拥有所有流行平台的帐户（patreon、buymeacoffee、liberapay、ko-fi...）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ow85ec/what_is_the_best_way_to_support_a_project/</link>
-      <description><![CDATA[我最近取消了所有流媒体订阅，并考虑用我之前花的一部分钱直接支持我最喜欢的开发者和创作者。我注意到每个人都使用不同的提供商，并问自己为什么。这有点烦人，我想如果你让人们在已有帐户的地方捐款，会有更多人这样做。   由   提交 /u/amigo_extra   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ow85ec/what_is_the_best_way_to_support_a_project/</guid>
-      <pubDate>Thu, 13 Nov 2025 18:03:22 GMT</pubDate>
-    </item>
-    <item>
       <title>摩擦图形，一种类似 After Effects 的矢量动画工具 [替代]</title>
       <link>https://www.reddit.com/r/opensource/comments/1ow2bem/friction_graphics_an_after_effect_like_tool_for/</link>
       <description><![CDATA[       由   提交/u/NUXTUXent   [链接] [评论] ]]></description>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好。我是一名前端开发人员，正在积极开发开源遥测平台。它更多的是一个与环境相关的项目，并且开发路线图很有希望。我相信我的项目具有坚实的价值，我希望它得到应有的关注。 我经常遇到新的 OSS 项目，它们获得了数千个 GitHub star，并想知道它们是如何到达那里的。其他开发人员究竟是如何做到这一点的？一些指导将会非常有帮助。    由   提交 /u/BadgerInevitable3966   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ovy9he/how_do_opensource_projects_get_visibility_and/</guid>
       <pubDate>Thu, 13 Nov 2025 11:04:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>我正在构建一个轻量级引擎，用于开发自定义分布式 CI/CD 平台。你觉得很酷吗？留下一颗星</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ovw2tx/i_am_building_a_lightweight_engine_for_developing/</link>
-      <description><![CDATA[      我还有一些错误需要帮助。   由   提交/u/Mother-Pear7629   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ovw2tx/i_am_building_a_lightweight_engine_for_developing/</guid>
-      <pubDate>Thu, 13 Nov 2025 08:45:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>FOSDEM 2026 的去中心化互联网和隐私开发室</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ovusl0/decentralized_internet_and_privacy_devroom_at/</link>
-      <description><![CDATA[FOSDEM 的去中心化互联网开发室将在下一届会议（2026 年 1 月 31 日和 2026 年 2 月 1 日在布鲁塞尔）中恢复活力。 在开发室的新生活中，我们不仅寻求有关以下项目的讨论去中心化互联网，同时也关注强大的开源和隐私项目和社区。提交您的技术密集型演讲和项目！   由   提交/u/Character_Inknown   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ovusl0/decentralized_internet_and_privacy_devroom_at/</guid>
-      <pubDate>Thu, 13 Nov 2025 07:21:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
