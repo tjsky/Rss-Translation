@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 14 Nov 2025 21:16:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 01:11:41 GMT</lastBuildDate>
+    <item>
+      <title>您需要N年使用Floorb和Glurb的经验才能申请</title>
+      <link>https://www.reddit.com/r/webdev/comments/1oxd8b9/you_need_n_years_of_experience_using_floorb_and/</link>
+      <description><![CDATA[我不知道这是否是因为我处于大国之外的二级市场，但是... 这不再是作为软件工程师多年的经验，在这一点上，假设的工程师是否拥有 15 年开发强大的软件来处理数万亿交易的经验并不重要，如果他们的简历中没有“使用 leftPad 3 年以上”，他们就是不会得到面试。 我不知道该说什么，只是对着虚空大喊大叫！ 无论如何，这太荒谬了，我不能认为这只是第三方经纪人/机构/咨询公司的一种策略，通过把关工作来制造假想的工作短缺，以迫使工程师通过拒绝大多数职位来降低他们的工资。 所以这是我的见解到目前为止，您可以随意使用它们： 大多数职位发布通常认为有两个有价值的阈值：3 年经验和 5 年经验。避免只做某事 2 年或 4 年。最重要的是，避免在某一件事上拥有超过 5 年的经验。  众所周知，5 年后就没有什么可学的了.../s。 如果你在一个技术堆栈中使用 3 种不同语言的地方工作了 3 年，你就获得了从事 3 份工作、每份工作 3 年、每份工作都使用 1 种语言的人的经验。 （废话！） 并且避免在简历中添加特定的库，您真的希望招聘人员开始根据谁使用 leftPad 和谁没有进行过滤吗？ 祝您好运，玩得开心。   由   提交/u/PoopsCodeAllTheTime   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1oxd8b9/you_need_n_years_of_experience_using_floorb_and/</guid>
+      <pubDate>Sat, 15 Nov 2025 00:19:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>我用 HTML5 画布重新实现了 Photoshop“曲线”滤镜</title>
+      <link>https://www.reddit.com/r/webdev/comments/1oxadeg/i_reimplemented_the_photoshop_curves_filter_with/</link>
+      <description><![CDATA[我写了一篇文章描述了该过程，并提供了实时交互式演示：https://pixlcore.com/blog/curves 如果您愿意，请查看！但如果您不想，请不要查看。   由   提交/u/cgijoe_jhuckaby  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1oxadeg/i_reimplemented_the_photoshop_curves_filter_with/</guid>
+      <pubDate>Fri, 14 Nov 2025 22:17:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>新的“Vine”，看起来像是用人工智能制作的。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1oxa2fs/the_new_vine_looks_like_it_was_made_with_ai/</link>
+      <description><![CDATA[      这个新的 divine 看起来与我在名为 lovable 的人工智能应用程序构建器上的应用程序非常相似。是的，可能只是他们让它看起来像那样，但这看起来确实很相似。   由   提交/u/buzzyboy42  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1oxa2fs/the_new_vine_looks_like_it_was_made_with_ai/</guid>
+      <pubDate>Fri, 14 Nov 2025 22:05:53 GMT</pubDate>
+    </item>
     <item>
       <title>对于可嵌入小部件脚本来说多大算太大？</title>
       <link>https://www.reddit.com/r/webdev/comments/1ox8gfm/how_big_is_too_big_for_an_embeddable_widget_script/</link>
@@ -15,7 +36,7 @@
     <item>
       <title>我可以在 Linux (Mint) 上使用什么 Apache、PHP、MySQL 开发环境 最好有图形界面（类似于 UniformServerZ 或 WAMP 服务器）</title>
       <link>https://www.reddit.com/r/webdev/comments/1ox8egj/what_apache_php_mysql_dev_environment_can_i_use/</link>
-      <description><![CDATA[我曾经使用 UniformServerZ 作为我的项目的快速小型服务器解决方案。对于更严重的事情，我使用 WAMP，它效果很好。 我最近转向 Linux，但很难找到等效的替代方案。我尝试设置 Xamp，但无法让本地域正常工作，并且不断收到权限被拒绝的错误 403。事实上，当我尝试解决权限问题时，我最终意外地从根目录删除了所有权限......递归......而且无法从中恢复......至少根据谷歌的结果不容易。 所以我必须从头开始，使用一个新的操作系统，希望我能找到一个可以正常工作的基于 GUI 的 Web 开发环境套件。您会推荐什么？   由   提交 /u/TheConceptBoy   [链接] [评论]]]></description>
+      <description><![CDATA[我曾经使用 UniformServerZ 作为我的项目的快速小型服务器解决方案。它是一个单一的应用程序，可以自动安装和配置 Apache（使用 PHP）和 Mysqli（使用 PHPmyAdmin），所有这些都在一个包中，并通过一个用户界面进行控制。对于更严肃的事情，我使用 WAMP，效果非常好。同样的原理。 我最近切换到 Linux Mint，但很难找到等效的替代方案。我尝试设置 Xamp，但无法让本地域正常工作，并且不断收到权限被拒绝的错误 403。事实上，当我尝试解决权限问题时，我最终意外地从根目录删除了所有权限......递归......而且无法从中恢复......至少根据谷歌的结果不容易。 所以我必须从头开始，使用一个新的操作系统，希望我能找到一个可以正常工作的基于 GUI 的 Web 开发环境套件。您会推荐什么？   由   提交 /u/TheConceptBoy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ox8egj/what_apache_php_mysql_dev_environment_can_i_use/</guid>
       <pubDate>Fri, 14 Nov 2025 21:00:09 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[我正在构建 arkA，一种新的开放视频协议，第一步是一个简单的静态 HTML/JS 客户端，它：  读取 JSON 索引 显示视频列表 播放来自 IPFS 或 HTTP 的媒体 不需要后端 充当参考实现  如果您喜欢：  构建简约、优雅的网络工具 使用 JSON 架构 从头开始设计界面 开源协作  …您将成为完美的早期贡献者。 存储库：https://github.com/baconpantsuppercut/arkA   由   提交/u/nocans  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ox3v3p/looking_for_frontend_devs_to_help_with_a_static/</guid>
       <pubDate>Fri, 14 Nov 2025 18:07:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>转换 Div 时如何防止质量损失？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ox3u19/how_to_prevent_quality_loss_when_transforming_a/</link>
-      <description><![CDATA[我正在尝试为导航菜单中的按钮设置动画，以便当用户将鼠标悬停在按钮上时放大按钮。然而，每个按钮的边框及其背景图像在转换时都会出现质量损失。  最初，我认为这是图像缩放的问题，尽管图像具有高 DPI - 但事实上，我在 CSS 中添加的边框也失去了质量，这让我怀疑这是一个不同的问题。  另外，当按钮变形时，背景图像和边框之间会出现一个非常小的接缝。 我在网上做了一些简短的搜索，但没有找到解决方案；我必须跑去上班，所以不幸的是我现在没有时间做更多的独立研究（也就是说，请不要判断问题是否真的很容易解决，哈哈），所以非常感谢任何帮助！  我正在使用以下代码转换按钮： #nav &gt; a { 过渡：变换 0.3s 缓入缓出； } #nav &gt; a：悬停{变换：缩放（1.01）； }  如果需要，我可以发送更多信息。提前致谢！！ :)   由   提交/u/Masked_Owl_Man   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ox3u19/how_to_prevent_quality_loss_when_transforming_a/</guid>
-      <pubDate>Fri, 14 Nov 2025 18:06:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>学习 MEAN 堆栈的最佳方法？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ox3fa5/best_way_to_learn_the_mean_stack/</link>
-      <description><![CDATA[大家好，我刚刚接受了使用 Node.js、Express、MongoDB 和 Angular 的完整堆栈角色。我的背景是 Rails、React 和 PostgreSQL，所以我对这个堆栈还很陌生。 距离开始还有大约 3 周的时间，我想快速提升。  考虑到市场的严峻形势，我有动力不落后并超出他们的期望，因此我想在开始担任该职位之前利用这段时间尽可能多地学习。 我找到了一些 Udemy 视频，但如果有其他替代方案可以帮助您学习，我洗耳恭听！   由   提交 /u/Iampoorghini   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ox3fa5/best_way_to_learn_the_mean_stack/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:51:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe 托管支付 vs Polar.sh？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ox3exz/stripe_managed_payments_vs_polarsh/</link>
-      <description><![CDATA[我刚刚访问了“Stripe Managed Payments”私人预览（他们的新 MoR 提供销售/增值税、欺诈等）。有人试过这个吗？有什么好处吗？我应该选择 Polar.sh 吗？只是寻找建议、恐怖故事等。   由   提交/u/cgijoe_jhuckaby  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ox3exz/stripe_managed_payments_vs_polarsh/</guid>
-      <pubDate>Fri, 14 Nov 2025 17:50:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
