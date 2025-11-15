@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Sat, 15 Nov 2025 09:15:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 12:29:42 GMT</lastBuildDate>
+    <item>
+      <title>我为 Windows 构建了一个开源、统一的 PC 实用程序（监控、清理、诊断），它通过 Ollama 集成了本地 AI 助手。</title>
+      <link>https://www.reddit.com/r/software/comments/1oxpsjy/i_built_an_opensource_unified_pc_utility_for/</link>
+      <description><![CDATA[大家好。 我正在分享一个我一直在开发的工具，名为 **PC Tool Manager**。和你们中的许多人一样，我不断地在单独的应用程序之间切换只是为了处理基本维护（检查临时文件、清除垃圾文件和运行诊断）而感到沮丧。 我的解决方案是为 Windows 开发这个单一、干净的实用程序（使用 Python/CustomTkinter 构建）来集中这些基本功能。它是完全**免费和开源的。** --- ## 它的作用和用途为什么有用 目标是整合几个必要的工具，添加一个独特的、注重隐私的功能： * **本地 AI 助手：** 我没有依赖订阅云服务，而是集成了 **Ollama** 在应用程序中运行本地 AI 模型。这可以通过自然语言处理基本的故障排除、系统查询和导航命令。 * **综合监控和导航命令。维护：** * **实时指标：** 提供实时 CPU、GPU 和 RAM 监控。 * **系统清理：** 用于清除临时系统和浏览器缓存文件的自动化工具。 * **RAM 优化：** 管理内存使用和安全终止资源密集型进程的机制。 * **内置诊断：** 包括用于安全执行的 **安全沙箱** 等工具未经验证的程序和用于速度和连接检查的 **网络诊断** 部分。 --- ## 征求反馈 整个项目是开源的，仍在积极开发中。我在此发帖征求用户对整体实用程序、界面以及本地 AI 集成在实践中的实用性的反馈。 如果您运行 Windows 10/11 并正在寻找一种简化的 PC 管理方法，请查看。 * **项目详细信息和内容下载：** [https://github.com/Lostonepelosone-777/PC-Tool-Manager\](https://github.com/Lostonepelosone-777/PC-Tool-Manager) 谢谢检查一下。   由   提交/u/Witty-Breadfruit385  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1oxpsjy/i_built_an_opensource_unified_pc_utility_for/</guid>
+      <pubDate>Sat, 15 Nov 2025 11:51:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>跟踪所有必需软件列表的最佳方法</title>
+      <link>https://www.reddit.com/r/software/comments/1oxpplz/best_way_to_track_a_list_of_all_essential_software/</link>
+      <description><![CDATA[嗨， 我正在寻找一种方法来跟踪我有一天可能需要的所有基本软件。 对于付费软件来说并不是什么大问题，因为我将它们各自的信息存储在密码管理器中，因此如果我需要该软件，我可以快速找到。 而对于免费软件，则是另一回事；当然，我无法保留密码管理器的条目，因为没有必要，再加上有数以千计的免费软件，所以我只需要跟踪对我真正有用的软件。 首先，我创建了一个 .docx 文件，一个用于 Windows，一个用于 Android，我在其中放置了所有软件列表（付费/免费）以及其他有用的信息。 然后，我意识到，这样一来，我的项目就没有组织起来。好吧，然后我将这两个文件迁移到 Access 数据库中，以便更好地组织，并且我还创建了一个带有复选框的字段来查看当前是否安装了该软件。 现在，我不知道是否有专门为此方面设计的特定软件/网站（例如用于电影的 Trakt.tv）。 你知道是否有更好的方法让事情井井有条？我愿意接受建议。 谢谢。   由   提交/u/nicos181987  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1oxpplz/best_way_to_track_a_list_of_all_essential_software/</guid>
+      <pubDate>Sat, 15 Nov 2025 11:46:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>重置无线鼠标设置</title>
+      <link>https://www.reddit.com/r/software/comments/1oxngzx/reset_wireless_mouse_settings/</link>
+      <description><![CDATA[卡在连接上，无法在蓝牙或适配器之间切换  它仍在工作，更换灯光、打开/关闭和充电  如何重置或修复它？   由   提交/u/Secret-Ad3357   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1oxngzx/reset_wireless_mouse_settings/</guid>
+      <pubDate>Sat, 15 Nov 2025 09:29:41 GMT</pubDate>
+    </item>
     <item>
       <title>有没有一个应用程序可以将我带到我开车沿途的每家 GNC 商店？</title>
       <link>https://www.reddit.com/r/software/comments/1oxlfym/is_there_an_app_that_will_route_me_to_every_gnc/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[大家好， 我构建了 GreedSearcher，一个轻量级的 C++/Qt 应用程序，用于取代 Windows 不可靠的文件搜索。它使用 sharksdp fd-find（基于 Rust）进行快速递归搜索，无需依赖索引。 主要功能： - 递归搜索目录中的所有内容 - 可选文件夹过滤 - 双击打开文件 - GitHub 上开源 目前处于测试阶段，欢迎反馈！在这里下载安装程序：[GitHub 发布链接] 你觉得怎么样？你推荐任何类似的工具吗？我测试过。   由   提交/u/vasquecas  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1owski9/greedsearcher/</guid>
       <pubDate>Fri, 14 Nov 2025 10:05:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>AlgoArena – 实时编码战斗 + AI 面试教练（免费，专业版 11.99 美元/月，旗舰版 25.99 美元/月）</title>
-      <link>https://www.reddit.com/r/software/comments/1ows2ux/algoarena_realtime_coding_battles_ai_interview/</link>
-      <description><![CDATA[如果您喜欢练习算法，但想要比单独 LeetCode 更具互动性的东西，我们构建了 AlgoArena (https://algoarena.net)。这是一款将多人编码战斗与 AI 反馈相结合的 Web 应用程序：  通过 ELO 天梯、自定义排队和重播时间线进行实时 1v1 决斗 5,000 多个练习题，带有提示、计时器和多语言支持 AI 模拟面试官（语音可选），实时批评您的时间/空间复杂性 通过按键匹配重播重建，以便您可以研究自己的解决方案 Discord 自动化战斗标注、每日挑战和比赛摘要  使用 Next.js、Firebase、Redis 队列、Judge0 执行和 Stripe 进行计费。 定价（来自 Components/PricingContent.tsx）：  免费：无限战斗和免费练习（广告，无 AI 功能） 专业版：11.99 美元/月或 119.90 美元/年 - 无广告，每周 1 次 AI 分析 + 1 次 AI 面试，解锁专家解决方案 终极版：25.99 美元/月或 259.90 美元/年 - 无限制的 AI 分析/面试、优先支持、早期功能访问  希望收到有关人员的反馈性能、用户体验或编码平台的任何必备功能   由   提交/u/Death12th   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1ows2ux/algoarena_realtime_coding_battles_ai_interview/</guid>
-      <pubDate>Fri, 14 Nov 2025 09:34:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找 G2 Review Exchange 合作伙伴（SaaS、技术和营销产品）</title>
-      <link>https://www.reddit.com/r/software/comments/1owre46/looking_for_g2_review_exchange_partners_saas_tech/</link>
-      <description><![CDATA[大家好， 我们希望与愿意在 G2 上相互提高可信度的 SaaS 创始人、营销人员和产品所有者建立联系。 工作原理如下：我们将在 G2 上发布对您的产品的真实评论，您也可以对我们的产品做同样的事情。这是相互支持并建立对我们产品信任的简单方法。 我们的产品属于技术、SaaS 和视频流领域。 如果您有兴趣，请在评论中附上您的 G2 产品链接或私信我进行协调。让我们一起成长！   由   提交 /u/Helpful_Prior_6766   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1owre46/looking_for_g2_review_exchange_partners_saas_tech/</guid>
-      <pubDate>Fri, 14 Nov 2025 08:50:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Windows] 轻量级编辑器，用于裁剪和调整视频速度</title>
-      <link>https://www.reddit.com/r/software/comments/1owpq05/windows_lightweight_editor_to_crop_adjust_video/</link>
-      <description><![CDATA[我 90% 的时间都不制作视频，因此我的工作流程中没有专用的视频工具。但偶尔，我会在 Lightroom + Photoshop 中制作风景延时摄影，这对于最初的修剪和渲染来说是很好的。  但是，我总是害怕在 Photoshop 中调整 (1) 视频速度和 (2) 将视频裁剪为不同的分辨率/宽高比。最后最好有一个更专业的程序来接管这些琐碎的任务。通常在这里推荐的大多数视频编辑器所做的远远超出了我的需要。   由   提交/u/cogitatingspheniscid   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1owpq05/windows_lightweight_editor_to_crop_adjust_video/</guid>
-      <pubDate>Fri, 14 Nov 2025 07:02:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
