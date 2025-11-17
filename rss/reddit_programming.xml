@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 17 Nov 2025 09:21:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 12:33:44 GMT</lastBuildDate>
+    <item>
+      <title>HALAC 第一版源代码</title>
+      <link>https://www.reddit.com/r/programming/comments/1ozdnvh/halac_first_version_source_codes/</link>
+      <description><![CDATA[我已经发布了 HALAC 第一个版本 (0.1.9) 的源代码。该版本使用 ANS/FSE。它可以在独立于平台的 GCC、CLANG 和 ICC 上无缝编译。我已经收到并将继续收到许多有关源代码的问题。我希望这有用。   由   提交/u/Hakan_Abbas   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ozdnvh/halac_first_version_source_codes/</guid>
+      <pubDate>Mon, 17 Nov 2025 11:17:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用计算机科学课程中的工具查找重复代码</title>
+      <link>https://www.reddit.com/r/programming/comments/1ozdnhl/finding_duplicated_code_with_tools_from_your_cs/</link>
+      <description><![CDATA[ 由   提交/u/imachug  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ozdnhl/finding_duplicated_code_with_tools_from_your_cs/</guid>
+      <pubDate>Mon, 17 Nov 2025 11:16:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么你的模拟稍后会崩溃</title>
+      <link>https://www.reddit.com/r/programming/comments/1ozdah0/why_your_mock_breaks_later/</link>
+      <description><![CDATA[ 由   提交/u/BrewedDoritos  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ozdah0/why_your_mock_breaks_later/</guid>
+      <pubDate>Mon, 17 Nov 2025 10:55:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>🦀 Android 防锈</title>
+      <link>https://www.reddit.com/r/programming/comments/1ozclw7/rustproofing_android/</link>
+      <description><![CDATA[ 由   提交/u/web3writer  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ozclw7/rustproofing_android/</guid>
+      <pubDate>Mon, 17 Nov 2025 10:13:57 GMT</pubDate>
+    </item>
     <item>
       <title>FFM - Java 与本机代码互操作的新方法</title>
       <link>https://www.reddit.com/r/programming/comments/1ozbr1m/ffm_javas_new_approach_to_interop_with_native_code/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[发布了开源 MCP（模型上下文协议）服务器，使 Claude 能够将 CSV 导入到 PostgreSQL。 上下文：Anthropic 最近发布了 MCP，这是一种用于将 LLM 连接到外部工具和数据源的协议。这是我使用它的第一个实现。 它的作用： - 验证 CSV 文件（结构、编码、数据类型） - 推断 PostgreSQL 架构 - 通过 COPY 命令执行批量加载 - 跟踪进度并优雅地处理错误 技术亮点： - 清晰分离关注点（验证、数据库操作、加载） - 综合测试套件（pytest，90%+ 覆盖率） - 全程键入提示 - 使用 psycopg2 进行 PostgreSQL 交互 元有趣的方面：使用 Claude Code（AI 结对编程工具）构建此套件。整个实现都是对话式的 - 我指定了需求，克劳德生成了代码，测试， 和文档。花了大约 1 小时。 GitHub：https://github.com/mylocalaichat/mcp-csv-postgres 欢迎提供反馈，特别是关于 MCP 实现模式的反馈。仍在学习该协议的最佳实践。 MIT 许可。   由   提交/u/mylocalai   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1oyts58/mcp_server_for_csvtopostgresql_loading_via_claude/</guid>
       <pubDate>Sun, 16 Nov 2025 18:53:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么工程师必须成为人工智能时代的倍增者</title>
-      <link>https://www.reddit.com/r/programming/comments/1oysqvg/why_engineers_must_become_multipliers_in_the_aiera/</link>
-      <description><![CDATA[ 由   提交 /u/gregorojstersek   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oysqvg/why_engineers_must_become_multipliers_in_the_aiera/</guid>
-      <pubDate>Sun, 16 Nov 2025 18:13:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>他的法定名字只有一个字母——提醒人们不良的验证规则会伤害人们</title>
-      <link>https://www.reddit.com/r/programming/comments/1oysdqb/his_legal_name_is_one_lettera_reminder_that_bad/</link>
-      <description><![CDATA[ 由   提交/u/grauenwolf   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oysdqb/his_legal_name_is_one_lettera_reminder_that_bad/</guid>
-      <pubDate>Sun, 16 Nov 2025 17:59:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>用 Rust 编写的新 JavaScript 引擎</title>
-      <link>https://www.reddit.com/r/programming/comments/1oyoxq6/new_javascript_engine_written_in_rust/</link>
-      <description><![CDATA[ 由   提交/u/Different-Maize1114  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oyoxq6/new_javascript_engine_written_in_rust/</guid>
-      <pubDate>Sun, 16 Nov 2025 15:44:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 iOS 上运行 Java</title>
-      <link>https://www.reddit.com/r/programming/comments/1oyot0l/running_java_on_ios/</link>
-      <description><![CDATA[考虑到 Apple 的执行限制，这是一个有趣的方法。   由   提交/u/benevanstech  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oyot0l/running_java_on_ios/</guid>
-      <pubDate>Sun, 16 Nov 2025 15:39:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
