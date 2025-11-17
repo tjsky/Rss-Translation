@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 17 Nov 2025 15:22:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 18:25:16 GMT</lastBuildDate>
+    <item>
+      <title>如何创建必须包含条带脚本的安全 csp 指令？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ozlugt/how_do_you_create_a_secure_csp_directive_that/</link>
+      <description><![CDATA[我当前的 csp 标头包含行 “script-src-elem &#39;self&#39; &#39;unsafe-inline&#39; https://js.stripe.com https://checkout.stripe.com”，。我想摆脱 &#39;unsafe-inline&#39;，并听说 &#39;nonce-${nonce}&#39; 指令作为解决方案，但我对其实现感到非常困惑。任何好心人都可以提供清晰、简单的解释吗？ 背景：我使用 Deno + Fresh（打字稿），我是一名初级开发人员（并且我不想依赖 AI 来实现此类安全功能）。 提前致谢。   由   提交 /u/fredkzk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ozlugt/how_do_you_create_a_secure_csp_directive_that/</guid>
+      <pubDate>Mon, 17 Nov 2025 17:06:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>几个月前，我发布了一个愚蠢的 Chrome 扩展程序，并开玩笑说要通过它来货币化。实际上我认为我现在有一个有效的用例。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ozl21j/several_months_ago_i_posted_a_stupid_chrome/</link>
+      <description><![CDATA[   嘿 r/webdev 几个月前，我发布了一个名为 Dad Reply 的 Chrome 扩展程序，该扩展程序在 Gmail 中添加了一个一键回复按钮，用于接收废话更新电子邮件。 https://www.reddit.com/r/webdev/comments/1ml6q73/i_made_a_stupid_chrome_extension_that_adds_a_dad/ 从那时起我就做了一些改进并达到 100 个用户。 我根据用户反馈添加了自定义表情符号回复。然后意识到 - 如果您收到 GitHub 通知电子邮件，您可以设置操作来响应特定的表情符号。用 👍 回复，它会标记问题，将其移至看板，等等。 意外地触发了基于电子邮件的工作流程。如果模组批准，会发布链接吗？   由   提交/u/prmack  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ozl21j/several_months_ago_i_posted_a_stupid_chrome/</guid>
+      <pubDate>Mon, 17 Nov 2025 16:37:38 GMT</pubDate>
+    </item>
     <item>
       <title>您是否遇到过类似安全事件的事情？很好奇它实际上有多常见。</title>
       <link>https://www.reddit.com/r/webdev/comments/1ozi09t/have_you_ever_had_something_that_felt_like_a/</link>
@@ -76,13 +90,6 @@
       <pubDate>Mon, 17 Nov 2025 08:00:06 GMT</pubDate>
     </item>
     <item>
-      <title>这是我刚刚制作的桑拿租赁网站，我希望得到一些反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oza0zf/heres_a_sauna_rental_website_i_just_made_id_love/</link>
-      <description><![CDATA[https://www.sfsaunarental.com/   由   提交 /u/sfsaunarental   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oza0zf/heres_a_sauna_rental_website_i_just_made_id_love/</guid>
-      <pubDate>Mon, 17 Nov 2025 07:24:22 GMT</pubDate>
-    </item>
-    <item>
       <title>现在有什么理由使用 MPA</title>
       <link>https://www.reddit.com/r/webdev/comments/1oz8qzl/is_there_any_reason_to_use_mpa_nowadays/</link>
       <description><![CDATA[      我知道 Astro 是一个 SSG，它基于MPA 及其有用，因为如果您的网站不是动态的，它可以提供比 SPA 更快的性能。这是我能想到的 MPA 的唯一用例......否则，你现在有什么理由想要使用 MPA 吗？我读到 Amazon 和 Ebay 仍然使用 MPA，所以我很好奇为什么......  https://preview.redd.it/byippfa6dr1g1.png?width=569&amp;format=png&amp;auto=webp&amp;s=e9c97545e2ed75bb9a68a46cc9306bcfa03b3c11   由   提交 /u/badboyzpwns   [链接] [评论] ]]></description>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好，我几天前刚刚完成了我的代理网站设计和部署。 Voltstudios.cloud — 我非常感谢有关 ux/ui 设计、调色板、功能、计划和定价反馈的诚实反馈。我已经集成了 Wordpress 博客和电子邮件联系表单，并尽可能加强了安全性。 我审查了一些代理网站设计，它们要么非常简单，要么过于拥挤，因此我尝试采用最少的设计。我想知道这是否使它看起来很普通。我没有使用任何动画，因为它们看起来业余且过头了。 请原谅我的投资组合项目，在完成我的 CRUD 应用程序和 php 博客之前，我正在使用占位符项目图像。 我还考虑让轮播仅显示各种垂直行业的各种 ui 设计选项，并有一个单独的项目页面链接到网站对应项。 如果定价对于一个项目来说太高或太低，请告诉我。新机构？ 欢迎任何和所有反馈🙏Voltstudios   由   提交/u/midnight-blue0   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1oz7zeb/rate_my_website/</guid>
       <pubDate>Mon, 17 Nov 2025 05:22:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>AG网格企业支持渠道</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oz7k3s/ag_grid_enterprise_support_channels/</link>
-      <description><![CDATA[大家好， 快速提问，这里有人有 AG Grid 的实际联系人吗？ 我们真的很喜欢这个产品，它非常适合我们的用例。我们购买了 Enterprise 捆绑包，但无法访问他们的帮助台。我们已向 info@ag-grid.com 发送了几个许可问题 - 第一次回复不完整且令人印象深刻，第二次我们根本没有得到回复。 对于企业许可证，这感觉有点令人担忧。只是希望这里的人可能有更可靠的联系方式或知道联系他们的最佳渠道。 谢谢！   由   提交 /u/HalfAnonymous   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oz7k3s/ag_grid_enterprise_support_channels/</guid>
-      <pubDate>Mon, 17 Nov 2025 04:59:38 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,7 +4,35 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Mon, 17 Nov 2025 15:18:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 18:22:21 GMT</lastBuildDate>
+    <item>
+      <title>有没有一个人工智能可以实现我想要的一切？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1oznwgu/is_there_an_ai_that_makes_all_that_i_am_looking/</link>
+      <description><![CDATA[大家好！我正在寻找一个人工智能，如果我上传视频，人工智能会在视频中生成一个主播进行解释。它必须创造声音、轮廓和节奏。我会提示上下文和整个视频。 现在我知道语音和图像存在深度伪造，但这不是我想要的。我想要一个完整生成的人工智能人。 现在存在这样的东西吗？   由   提交/u/pelado06  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1oznwgu/is_there_an_ai_that_makes_all_that_i_am_looking/</guid>
+      <pubDate>Mon, 17 Nov 2025 18:21:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>你们如何编排多代理工作流程（除了一次性提示链接之外）？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1oznad0/how_are_you_all_orchestrating_multiagent/</link>
+      <description><![CDATA[大家好。我很好奇每个人在使用多个子代理时如何处理编排或排序。 现在，常见的模式似乎是“一次性”链接：您编写一个大提示，告诉代理 A 执行 X，然后代理 B 使用 A 的输出执行 Y，所有这些都在一次运行中。但我正在寻找更模块化的东西。 我想要的： 一个系统，其中代理 A 运行，产生一些输出，代理 B 计划稍后运行以获取该输出 - 几乎就像事件驱动或基于任务的编排，而不是一个巨大的同步提示。 社区问题：  是否有人构建了代理在不同时间运行而不是在不同时间运行的工作流程？一次调用？ 您使用什么工具/服务（例如队列、类似 CRON 的调度、无服务器函数、自定义框架）？ 在单独的代理执行之间传递上下文或状态的最佳实践吗？  很想听听人们如何考虑标准即时链接之外的多代理编排。   由   提交 /u/grandimam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1oznad0/how_are_you_all_orchestrating_multiagent/</guid>
+      <pubDate>Mon, 17 Nov 2025 17:59:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>“拯救世界的使命”：安大略省男子声称 ChatGPT 让他精神错乱</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ozn3x4/a_worldsaving_mission_ontario_man_alleges_chatgpt/</link>
+      <description><![CDATA[https://www.ctvnews.ca/canada/article/ontario-man-alleges-chatgpt-caused-delusions-sues-parent-company-openai/   由   提交 /u/CTVNEWS   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ozn3x4/a_worldsaving_mission_ontario_man_alleges_chatgpt/</guid>
+      <pubDate>Mon, 17 Nov 2025 17:53:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM 的近期度与相关性的最佳方法</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ozlfts/best_approach_for_recency_vs_relevance_for_llms/</link>
+      <description><![CDATA[我正在尝试构建一个代理/人工智能，每周一次显示与我的业务相关的新闻。  应该很容易，对吧？ 错了......它真的很难保持在 7 天的范围内，经常出现旧新闻（即使我已经要求日期），甚至幻觉旧新闻的新日期。  我正在考虑几种方法。   强制它为由新近度和相关性组成的每个新闻项目分配分数（然后什么是正确的平衡），并且只包含排名靠前的内容 创建一个代理来审查输出并删除任何早于 7 天的新闻 奖励仅包含 7 天内新闻的积分；或者另一面 - 由于包含超过 7 天的新闻而受到惩罚。   最好的方法是什么？   由   提交 /u/ladybawss   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ozlfts/best_approach_for_recency_vs_relevance_for_llms/</guid>
+      <pubDate>Mon, 17 Nov 2025 16:51:58 GMT</pubDate>
+    </item>
     <item>
       <title>人工智能进入医学领域的速度比你想象的要早</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1oziwyr/artificial_intelligence_is_coming_to_medicine/</link>
@@ -20,32 +48,11 @@
       <pubDate>Mon, 17 Nov 2025 15:05:21 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能训练实践</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ozhvk2/ai_training_in_practice/</link>
-      <description><![CDATA[所以人工智能训练的想法很奇怪，因为对我来说只有几个领域需要关注。对我来说，主要的是数据科学（除了高级课程之外，你将致力于成为一名数据科学家） 开发人员（我懂一点 Python，但我不是开发人员，也没有作为开发人员进入人工智能领域的数学能力） 项目经理（很有趣，但这是一个职业道路选择） 从业者（这很好，但门槛很低）除非你专门研究特定的模型或工作流程） 思想领袖（非常适合常识和策略，但你在简历上写了什么？） 能够说“我知道人工智能”的想法是可行的。太笼统了，以至于我不确定应该使用什么学习策略？” 除了 PM、数据科学家或开发人员等特定人员之外，任何接受过培训并获得涉及 AI 的角色的人有什么建议吗？我想这个想法是能够在采访中以某种方式谈论它？    由   提交 /u/xyloplax   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ozhvk2/ai_training_in_practice/</guid>
-      <pubDate>Mon, 17 Nov 2025 14:35:31 GMT</pubDate>
-    </item>
-    <item>
       <title>一名 13 岁女孩因与男同学对峙而被停职，原因是她的男同学分享了她的露骨深度伪造视频</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ozgfau/a_13_yo_girl_got_suspended_for_confronting_her/</link>
       <description><![CDATA[新闻链接：https://www.cbsnews.com/news/louisiana-school-student-deepfake-expelled/  这令人难以置信。受害者是如何因对通过人工智能恶意使用她的照片甚至将其分享给同学的人采取行动而被停职的？？？女孩的父亲表示，分享的照片令人不安、露骨，而且看起来很真实。你好？？？那是一个孩子。一名未成年人。 调查后，当地治安官表示，调查人员尚未成功找到任何图像或图像存在的任何证据。什么？？？执法部门无法检索这些文件并不意味着它们没有被展示、传播或武器化。这正是受害者最终得不到保护的原因。这些机构寻找完美的数字踪迹，而不是了解数字危害的实际运作方式。这让人们感到震惊。 更令人担忧的是，我们不断听到有关生成人工智能的保障措施，这些模型如何根据道德准则进行审查、过滤、监控和监管，以防止滥用。然而我们就在这里。你可以拥有世界上设计最符合道德的系统，但坏人仍然可以利用它来攻击 13 岁的女孩。整个情况让我想起 Reddit 上的一篇帖子，有人恳求 Genmo 从他们的数据库中删除恶意图像，但该公司基本上拒绝了他们，因为这些照片是匿名的并用于模型训练。比如什么？？当工具背后的公司都可以不屑一顾时，受害者应该如何保护自己？   由   提交 /u/No-Presentation298   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ozgfau/a_13_yo_girl_got_suspended_for_confronting_her/</guid>
       <pubDate>Mon, 17 Nov 2025 13:34:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>将人工智能应用于企业知识管理并吸取了有关准确性的惨痛教训</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ozgeue/implemented_ai_for_enterprise_knowledge/</link>
-      <description><![CDATA[在看到有关 chatgpt 和类似工具的所有宣传后，我们公司决定采用人工智能进行内部知识管理。这似乎是理所当然的，我们有数千份文档散布在各处，人们浪费了大量时间来搜索信息。 第一次尝试是使用带有 rag 的通用 llm，我们自己构建它，因为我们的开发人员相信他们可以做到。我们在内部推出了它，但一周之内我们不得不将其撤下，因为它不断地产生幻觉答案，为人们提供有关公司政策和程序的自信但完全错误的信息。 事实证明，通用的 llms 不适用于专业的企业知识，它们用看似合理的废话来填补空白，人们无法区分（谁会想到哈哈）。我们需要一些能够真正理解上下文并且可以说“我不知道”的东西。而不是编造东西。 我们不想放弃它，因为我们花了很多时间在上面，所以我们花了几周的时间研究并尝试用不同的方法对其进行调整。我们还花了很多时间测试不同的复杂提示和提示序列。我们确实提高了很多准确性，但它并不适合用例。因此不幸的是，我们不得不放弃它。 我们最终选择了专门为产品和公司知识构建的隐式人工智能，因为它使用知识图和基于引用的答案，因此您可以验证所有内容。我们已经运行它两个月了，当它没有足够的信息时，它会承认准确性差异是日夜的。老实说，这是苦乐参半。该系统现在很可靠，但我们实际上相信我们可以自己做到。公司的每个人都很满意，但我忍不住觉得，如果我们有足够的时间，我们就能做到这一点 还有其他人尝试过DIY这样的系统吗？   由   提交/u/Geokobby  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ozgeue/implemented_ai_for_enterprise_knowledge/</guid>
-      <pubDate>Mon, 17 Nov 2025 13:34:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于政府影响人工智能（监视+控制）的采访？这种解释了很多..？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ozf6zn/interview_about_government_influencing_ai/</link>
-      <description><![CDATA[看来这样的事情已经散布了一段时间，但现在我们实际上看到了后果？ 所以我在采访中发现了这条推文（完整内容请参见 YouTube) 投资者提到政府采取措施加强对人工智能开发的控制，甚至限制关键的数学研究领域。 在 Reddit 子版块中看到用户发表的这篇帖子后：https://www.reddit.com/r/ChatGPTcomplaints/comments/1oxuarl/comment/nozujec/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button 并由 OpenAI 在此确认 https://openai.com/index/openai-appoints-retired-us-army-general/ 基本上是关于国家安全局 (NSA) 前局长去年如何加入 OpenAI 董事会 还包括 OAI 签署的军事合同六月 https://www.theguardian.com/technology/2025/jun/17/openai-military-contract-warfighting 有关这些主题的巨大机器人巨魔抵制似乎在 Reddit 上猖獗，并已被不同的人注意到人们最近（但我已经看到这种情况发生了几个月，现在有一堆人工智能友好的线程可疑地从 40 多个赞成票变成了 0 - 我认为，我看到了赞成票和一个包含数百条评论和奖项的线程自然不会处于 0。除非发生严重的否决权重或协调投票，否则数字不会对齐。） https://x.com/xw33bttv/status/1985706210075779083 https://www.reddit.com/r/LateStageCapitalism/comments/z6unyl/in_2013_reddit_admins_did_an_oopsywhoopsy_and/ https://www.reddit.com/r/HumanAIDiscourse/comments/1ni1xgf/seeing_a_repeated_script_in_ai_threads_anyone/ 你似乎也人类与白宫之间的不和越来越大 https://www.bloomberg.com/opinion/articles/2025-10-15/anthropic-s-ai-principles-make-it-a-white-house-target 大卫萨克斯在推特上反对杰克·克拉克的文章 https://x.com/DavidSacks/status/1978145266269077891 这篇文章基本上承认人工智能意识和叙事控制有大量资金支持 以及关于人类通过克劳德阻止政府监视的文章https://www.reddit.com/r/technology/comments/1njwroc/white_house_officials_reportedly_frusterated_by/ “Anthropic 的人工智能模型可能会帮助间谍分析机密文件，但该公司在国内监控方面划清界限。据报道，这一限制令特朗普政府感到愤怒。” 这看起来也令人担忧，谷歌所有者放弃了不将人工智能用于武器的承诺：https://www.theguardian.com/technology/2025/feb/05/google-owner-drops-promise-not-to-use-ai-for-weapons 老实说，如果你把所有这些放在一起，它会描绘出一个非常令人担忧的图片。看起来很糟糕，为什么没有更多的讨论这个？   由   提交 /u/Echoesofvastness   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ozf6zn/interview_about_government_influencing_ai/</guid>
-      <pubDate>Mon, 17 Nov 2025 12:39:46 GMT</pubDate>
     </item>
     <item>
       <title>双子座的基本算术都错了</title>
@@ -74,13 +81,6 @@
       <description><![CDATA[我并不是说人工智能或使用人工智能不好，但突然之间，在过去的 2 到 4 年里，我看到每个人都成为了人工智能专家。人们只是为了个人谈话、做决定、考试抄袭、面试中作弊，我看到一个人在远程实习中赚了很多钱，但连他也不知道自己做了什么。我的意思是，使用人工智能还不错，但就这一点而言，我认为没有人应该那么依赖人工智能，这太过分了。事实上，我见过人们在一周甚至更短的时间内构建模型。我想知道上次当我从头开始尝试 LLM 和扩散模型时，它们是如何导致的，我花了一年的时间才理解它，但我仍然不明白。现在我可能很慢而且很糟糕，但我的问题是人们真的那么擅长使用人工智能，还是他们太依赖它了，或者我是远远落后的人？   由   提交/u/Disastrous3856  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ozaefa/suddenly_everyone_became_ai_experts/</guid>
       <pubDate>Mon, 17 Nov 2025 07:48:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>更新旧内容是否有助于您在人工智能搜索结果中出现更多？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1oz8o3a/does_updating_old_content_help_you_appear_more_in/</link>
-      <description><![CDATA[我一直在用新信息、更好的结构和干净的格式刷新一些旧页面。但我不确定这是否真的有助于人工智能可见性。 人工智能系统是否像 Google 一样喜欢新鲜内容？ 更新旧帖子后有人看到更好的可见性吗？   由   提交/u/Real-Assist1833  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1oz8o3a/does_updating_old_content_help_you_appear_more_in/</guid>
-      <pubDate>Mon, 17 Nov 2025 06:01:34 GMT</pubDate>
     </item>
     <item>
       <title>没有工作==没有生意？</title>
