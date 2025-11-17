@@ -4,7 +4,7 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 17 Nov 2025 03:48:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 06:26:18 GMT</lastBuildDate>
     <item>
       <title>探索 Vibe 编码 - 早期印象和实用框架</title>
       <link>https://www.reddit.com/r/programming/comments/1oz5ye0/exploring_vibe_coding_early_impressions_and/</link>
@@ -36,7 +36,7 @@
     <item>
       <title>代码模式：通过代码执行执行 MCP 工具，节省 >60% 的代币</title>
       <link>https://www.reddit.com/r/programming/comments/1oyxof9/codemode_save_60_in_tokens_by_executing_mcp_tools/</link>
-      <description><![CDATA[为任何好奇的人提供的存储库：https://github.com/universal-tool-calling-protocol/code-mode 我一直在测试受 Apple/Cloudflare/Anthropic 论文启发的东西： 如果您能更好地处理多步骤任务，LLM 会更好让他们编写一个小程序，而不是一个一个地调用许多工具。 所以我只暴露了一个工具：一个可以调用我的实际工具的 TypeScript 沙箱。模型编写一个脚本 → 它运行一次 → 完成。 为什么它有帮助  &gt; 减少 60% 的标记。每一步都没有重复的工具模式。 代码&gt;编排。本地模型不擅长多调用规划，但擅长编写小脚本。 单次执行。没有重试循环或级联失败。  示例 const pr = wait github.get_pull_request(...); const 评论 = 等待 github.get_pull_request_comments(...); return { 评论: comments.length };  一个脚本而不是 4-6 个工具调用。 在 Llama 3.1 8B 和 Phi-3 上，这使得多步骤工作流程（PR 分析、抓取、数据管道）更加更加可靠。 好奇是否有人尝试为本地模型提供实际的运行时而不是庞大的工具列表。    由   提交/u/juanviera23  [link] [评论]]]></description>
+      <description><![CDATA[为任何好奇的人提供的存储库：https://github.com/universal-tool-calling-protocol/code-mode 我一直在测试受 Apple/Cloudflare/Anthropic 论文启发的东西： 如果您能更好地处理多步骤任务，LLM 会更好让他们编写一个小程序，而不是一个一个地调用许多工具。 所以我只暴露了一个工具：一个可以调用我的实际工具的 TypeScript 沙箱。模型编写一个脚本 → 它运行一次 → 完成。 为什么它有帮助  &gt; 减少 60% 的令牌。每一步都没有重复的工具模式。 代码&gt;编排。本地模型不擅长多调用规划，但擅长编写小脚本。 单次执行。没有重试循环或级联失败。  示例 const pr = wait github.get_pull_request(...); const 评论 = 等待 github.get_pull_request_comments(...); return { 评论: comments.length };  一个脚本而不是 4-6 个工具调用。 在 Llama 3.1 8B 和 Phi-3 上，这使得多步骤工作流程（PR 分析、抓取、数据管道）更加更加可靠。 好奇是否有人尝试为本地模型提供实际的运行时而不是庞大的工具列表。    由   提交/u/juanviera23  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1oyxof9/codemode_save_60_in_tokens_by_executing_mcp_tools/</guid>
       <pubDate>Sun, 16 Nov 2025 21:26:15 GMT</pubDate>
     </item>
