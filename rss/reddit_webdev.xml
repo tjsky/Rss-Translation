@@ -4,20 +4,34 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 17 Nov 2025 06:26:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 09:22:25 GMT</lastBuildDate>
+    <item>
+      <title>将一个 astro 项目用于营销活动的多个登陆页面</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ozb8k2/using_one_astro_project_for_multiple_landing/</link>
+      <description><![CDATA[这种方法在现实世界中使用吗？我基本上会在页面文件夹下有很多登陆页面：pages/landing-1/index.astro、pages/landing-2/index.astro等，以在一个地方管理所有营销登陆。如果可行，适合这种方法的部署策略是什么？   由   提交/u/cyberio24  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ozb8k2/using_one_astro_project_for_multiple_landing/</guid>
+      <pubDate>Mon, 17 Nov 2025 08:43:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>什么是“反应式框架”？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ozakm0/what_is_a_reactive_framework/</link>
+      <description><![CDATA[我看到很多人使用术语“反应式框架”。对于 JS 框架来说，这到底意味着什么？我对 React 很了解，但不知道这些人说的“反应式框架”指的是什么。    由   提交 /u/hassanwithanh   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ozakm0/what_is_a_reactive_framework/</guid>
+      <pubDate>Mon, 17 Nov 2025 08:00:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>这是我刚刚制作的桑拿租赁网站，我希望得到一些反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1oza0zf/heres_a_sauna_rental_website_i_just_made_id_love/</link>
+      <description><![CDATA[https://www.sfsaunarental.com/   由   提交 /u/sfsaunarental   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1oza0zf/heres_a_sauna_rental_website_i_just_made_id_love/</guid>
+      <pubDate>Mon, 17 Nov 2025 07:24:22 GMT</pubDate>
+    </item>
     <item>
       <title>现在有什么理由使用 MPA</title>
       <link>https://www.reddit.com/r/webdev/comments/1oz8qzl/is_there_any_reason_to_use_mpa_nowadays/</link>
       <description><![CDATA[      我知道 Astro 是一个 SSG，它基于MPA 及其有用，因为如果您的网站不是动态的，它可以提供比 SPA 更快的性能。这是我能想到的 MPA 的唯一用例......否则，你现在有什么理由想要使用 MPA 吗？我读到 Amazon 和 Ebay 仍然使用 MPA，所以我很好奇为什么......  https://preview.redd.it/byippfa6dr1g1.png?width=569&amp;format=png&amp;auto=webp&amp;s=e9c97545e2ed75bb9a68a46cc9306bcfa03b3c11   由   提交 /u/badboyzpwns   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1oz8qzl/is_there_any_reason_to_use_mpa_nowadays/</guid>
       <pubDate>Mon, 17 Nov 2025 06:05:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要（“@google/genai”）哇</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oz8d4x/requiregooglegenai_wow/</link>
-      <description><![CDATA[      由   提交/u/Pristine-Elevator198   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oz8d4x/requiregooglegenai_wow/</guid>
-      <pubDate>Mon, 17 Nov 2025 05:44:12 GMT</pubDate>
     </item>
     <item>
       <title>操作方法 - 将设计系统应用于现有的 SaaS</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[嘿伙计们， Mobile Game Hunt 的快速进展更新，这是我为真正优秀的手机游戏精心策划的小角落。 本周我一直专注于改进开发提交流程、完善 UI 并随着更多游戏的推出让网站感觉更加“活跃”。 没想到有这么多开发者加入并分享他们的项目 好奇： 如果您正在构建一个社区驱动的平台，您希望早点做的一件事是什么？   由   提交 /u/losmaglor   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1oyw34s/small_update_on_my_curated_mobile_game_platform/</guid>
       <pubDate>Sun, 16 Nov 2025 20:22:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>有关此 Web 应用程序的帮助 - RevenueCat 设置 + Stripe（订阅）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oyvg1s/help_on_this_web_app_revenuecat_setup_stripe/</link>
-      <description><![CDATA[嗨， 我在 Expo 中创建了一个 Web 应用程序，与 RevenueCat、Stripe 链接 - 创建了订阅页面，我正在努力在 RevenueCat/Stripe 中设置订阅。  我认为我搞乱了我正在创建的包或在 RevenueCat 中创建的产品与 Stripe 中的产品的命名。当我单击任何订阅包时，没有任何反应，但它显示“没有可用的包”或者打开 Stripe 但我看不到任何文字，只能看到价格。  你们中有人可以帮助您在 RevenueCat/Stripe 中进行逐步设置吗？    由   提交 /u/NotUrAverageBoinker   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oyvg1s/help_on_this_web_app_revenuecat_setup_stripe/</guid>
-      <pubDate>Sun, 16 Nov 2025 19:58:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了 Stiches，这是一个现代、无忧的 Next.js 样板，旨在帮助您快速开发 Web 体验。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1oyv6qc/i_created_stiches_a_modern_hasslefree_nextjs/</link>
-      <description><![CDATA[      github 仓库：https://github.com/HxX2/stiches 如果您喜欢，请点个星   由   提交/u/HxX_  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1oyv6qc/i_created_stiches_a_modern_hasslefree_nextjs/</guid>
-      <pubDate>Sun, 16 Nov 2025 19:48:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
