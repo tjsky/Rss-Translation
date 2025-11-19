@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 19 Nov 2025 18:26:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 21:14:46 GMT</lastBuildDate>
+    <item>
+      <title>我正在为 Keycloak 构建一个更好的文档中心 - 希望得到您的反馈！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1p1juuk/im_building_a_better_docs_hub_for_keycloak_would/</link>
+      <description><![CDATA[大家好 我是一名高级软件工程师，我在很多平台（Next.js、NestJS、Expo、Drupal、Odoo、Moodle 等）上使用 Keycloak 已经有一段时间了。一个持续存在的问题是：官方文档通常很难理解、不完整或缺少现实世界的集成示例。 所以……我正在推出 keycloakdocs.com：一个社区驱动的文档中心，提供清晰、最新的集成指南、可运行的示例、人工智能驱动的搜索、多语言支持和贡献者友好的结构。我们的想法是让开发人员能够让 Keycloak 快速工作，而无需花费数小时进行挖掘和摸索。 您愿意花 2 分钟进行快速调查来帮助塑造它吗？ → https://forms.gle/Dn3au3FS23aKWNUz5 您的反馈将直接影响构建的内容（功能、集成等）。如果您正在使用或计划使用 Keycloak，我非常感谢您的想法。 提前致谢   由   提交 /u/Hairy_Item_7309   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1p1juuk/im_building_a_better_docs_hub_for_keycloak_would/</guid>
+      <pubDate>Wed, 19 Nov 2025 21:06:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何测量客户端执行网页上某个命令所花费的时间？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1p1j74x/how_to_measure_the_clientside_time_it_takes_for_a/</link>
+      <description><![CDATA[我需要测量在附加页面上执行的命令的客户端时间  加密命令，我需要从客户端获取时间 解密命令，我也需要从客户端获取时间  我认为我们可以使用 Performance.now() JavaScript，但我对 JavaScript 或整个前端不太熟悉。有什么想法吗？   由   提交 /u/Glad_Individual_4696   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1p1j74x/how_to_measure_the_clientside_time_it_takes_for_a/</guid>
+      <pubDate>Wed, 19 Nov 2025 20:41:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>欧洲正在缩减其具有里程碑意义的隐私和人工智能法律。布鲁塞尔正在取消其旗舰 GDPR 的保护，包括简化其臭名昭著的 cookie 权限弹出窗口，并放宽或推迟具有里程碑意义的人工智能规则</title>
+      <link>https://www.reddit.com/r/webdev/comments/1p1h21g/europe_is_scaling_back_its_landmark_privacy_and/</link>
+      <description><![CDATA[       由   提交/u/magenta_placenta   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1p1h21g/europe_is_scaling_back_its_landmark_privacy_and/</guid>
+      <pubDate>Wed, 19 Nov 2025 19:21:24 GMT</pubDate>
+    </item>
     <item>
       <title>您如何处理客户网站的域名、托管和代码所有权？</title>
       <link>https://www.reddit.com/r/webdev/comments/1p1epqo/how_do_you_handle_domains_hosting_and_code/</link>
@@ -15,7 +36,7 @@
     <item>
       <title>如何为我的项目创建文档？</title>
       <link>https://www.reddit.com/r/webdev/comments/1p1eocd/how_do_i_create_a_documentation_for_my_project/</link>
-      <description><![CDATA[你好。 在过去的 18 个月里，我一直在从事一个业余项目（数学学习网站），代码库和项目文件夹总体上在这段时间内有了相当大的增长。 我对代码库和项目结构仍然有一个很好的心智模型，但最近我一直在想，当项目变得太大而无法一个人完成时，我应该开始为未来的我编写一些东西跟踪一切。 我的代码非常容易理解（对我来说），因为我在编写代码方面保持一致，我尝试使其尽可能简单以及您在 CS 中学到的所有内容（不过我不是惯用的，如果某些事情看起来更好，我会用其他方式来做）。因此，问题不再是“我不明白这段代码”。更多类似“项目的这一部分有一些奇怪的行为，我无法更改，因为它的结构方式，如果它成为问题，我想跟踪它”。 解决这个问题： 我的问题是如何记录所有这些？ 我可能是错的，但我听说你可以在存储库本身的 Github 上有一个项目的 wiki - 但我认为我还听说存储库必须是公开的，而我的不是（如果我错了，请纠正我）。 我可以将所有内容写在自述文件或存储库中的其他文件中，但这感觉不对。  为了澄清我的目的：我并不是真的在寻找诸如“写更多评论”之类的建议。 or &quot;code should self document&quot;或类似的东西。我正在寻找一个地方来记录项目/代码库的不同部分，以免源文件中充斥着太多注释。也许像维基一样？ 您个人会在业余项目中使用什么？公司会使用什么来解决此类问题？ 提前感谢您的回答！   由   提交/u/vivit_  [链接] [评论]]]></description>
+      <description><![CDATA[你好。 在过去的 18 个月里，我一直在从事一个业余项目（数学学习网站），代码库和项目文件夹总体上在这段时间内有了相当大的增长。 我对代码库和项目结构仍然有一个很好的心智模型，但最近我一直在想，当项目变得太大而无法一个人完成时，我应该开始为未来的我编写一些东西跟踪一切。 我的代码非常容易理解（对我来说），因为我在编写代码方面保持一致，我尝试使其尽可能简单以及您在 CS 中学到的所有内容（不过我不是惯用的，如果某些事情看起来更好，我会用其他方式来做）。因此，问题不再是“我不明白这段代码”。更多类似“项目的这一部分有一些奇怪的行为，我无法更改，因为它的结构方式，如果它成为问题，我想跟踪它”。 解决这个问题： 我的问题是如何记录所有这些？ 我可能是错的，但我听说你可以在存储库本身的 Github 上有一个项目的 wiki - 但我认为我还听说存储库必须是公开的，而我的不是（如果我错了，请纠正我）。 我可以将所有内容写在自述文件或存储库中的其他文件中，但这感觉不对。  为了澄清我的目的：我并不是真的在寻找诸如“写更多评论”之类的建议。或“代码应该自我记录”或类似的东西。我正在寻找一个地方来记录项目/代码库的不同部分，以免源文件中充斥着太多注释。也许像维基一样？ 您个人会在业余项目中使用什么？公司会使用什么来解决此类问题？ 提前感谢您的回答！   由   提交/u/vivit_  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1p1eocd/how_do_i_create_a_documentation_for_my_project/</guid>
       <pubDate>Wed, 19 Nov 2025 17:56:37 GMT</pubDate>
     </item>
@@ -62,13 +83,6 @@
       <pubDate>Wed, 19 Nov 2025 16:23:49 GMT</pubDate>
     </item>
     <item>
-      <title>将 Gemini 3 与 Open SaaS 结合使用可获得出色结果</title>
-      <link>https://www.reddit.com/r/webdev/comments/1p1boso/using_gemini_3_with_open_saas_for_great_results/</link>
-      <description><![CDATA[ 由   提交/u/hottown  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1p1boso/using_gemini_3_with_open_saas_for_great_results/</guid>
-      <pubDate>Wed, 19 Nov 2025 16:07:06 GMT</pubDate>
-    </item>
-    <item>
       <title>Cloudflare 中断，哪个网站监控工具首先警告您以及哪个状态页面服务幸存下来</title>
       <link>https://www.reddit.com/r/webdev/comments/1p1bf6h/cloudflare_outage_which_website_monitoring_tool/</link>
       <description><![CDATA[昨天的 Cloudflare 中断导致许多网站和服务瘫痪。您是如何第一次注意到有些问题的？您的网站监控工具是否快速向您发出警报，或者您的用户是否在通知您之前报告了该问题？ 哪种监控或警报服务在中断期间实际发送了警报？电子邮件警报到达了吗？短信或 Slack 通知有用吗？或者某些工具是否因为也依赖 Cloudflare 而失败？ 哪个状态页面服务保持在线状态以便您可以发布事件更新？您是否已经制定了备用沟通计划？如果没有，下次您会更改什么？ 您是否有辅助 DNS 或后备监控设置？有帮助吗？了解这次中断的情况后，您计划进行哪些改进？ 我希望本主题能够为任何试图寻找可靠的网站监控和警报工具以应对重大中断的人提供有用的参考。   由   提交 /u/Then-Chest-8355   [链接] [评论]]]></description>
@@ -90,25 +104,11 @@
       <pubDate>Wed, 19 Nov 2025 15:18:23 GMT</pubDate>
     </item>
     <item>
-      <title>建立了一个游戏测验网站网络 - 希望将设计提升到一个新的水平</title>
-      <link>https://www.reddit.com/r/webdev/comments/1p1aaxd/built_a_network_of_gaming_quiz_sites_looking_to/</link>
-      <description><![CDATA[      嘿 r/webdev, 我一直在运行多个针对不同游戏的游戏测验网站 - Rivalsdle (Marvel Rivals)、Brawldle (Brawl Stars)、Valodle（Valorant），以及其他一些。他们获得了稳定的流量并且表现良好，这令人鼓舞。 问题是我可以很好地处理开发和后端方面，但设计从来都不是我的强项。这些网站很实用，但我知道它们在视觉效果和用户体验方面还可以做得更好。 我计划扩展到更多游戏并添加新功能，但我很乐意与真正了解 UI/UX 和网页设计的人合作。一个既能获得游戏美感又不会太过分的人。 如果这里有人有此类项目的经验，或者只是想看看我构建的内容并分享想法，我会愿意聊天。 如果氛围合适，欢迎合作。  https://preview.redd.it/vaqfolh3d82g1.png?width=3024&amp;format=png&amp;auto=webp&amp;s=5c27c107dbdc3c5a8ef0e54fd62beb0520a6baee   由   提交/u/CustomEntity  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1p1aaxd/built_a_network_of_gaming_quiz_sites_looking_to/</guid>
-      <pubDate>Wed, 19 Nov 2025 15:15:15 GMT</pubDate>
-    </item>
-    <item>
       <title>随时测试网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1p19gbl/testing_website_as_you_go/</link>
       <description><![CDATA[我最近找到了一份专注于 IT 的工作，但也负责维护网站，尽管它不属于我的背景，所以这对我来说是一个很大的学习曲线。我们在 Godaddy 上托管了网站，我已经知道人们对此有何感受，但这不取决于我。我的问题是，在编辑代码时，他们是否有一种简单的方法来设置比 GoDaddy 更容易更新的测试环境？因为使用 GoDaddy，我需要花很多时间来上传带有新代码的文件。如果重要的话，我使用 VS code 进行编辑，只是想找到一种使编辑/测试更快的方法   由   提交 /u/DrawDropper   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1p19gbl/testing_website_as_you_go/</guid>
       <pubDate>Wed, 19 Nov 2025 14:41:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过单独的锚链接打开 Elementor Accordion 选项卡</title>
-      <link>https://www.reddit.com/r/webdev/comments/1p19782/open_elementor_accordion_tab_by_separate_anchor/</link>
-      <description><![CDATA[我目前正在使用 Elementor 在 Wordpress 中构建一个一页网站。客户希望为网站的主要部分实现一个手风琴，该部分应由单独的链接触发/扩展。因此，我插入了 Elementor Accordion 小部件，并为每个 Accordion 项内的每个容器定义了一个 CSS ID。我现在想通过为每个项目分配单独的锚链接来触发每个选项卡。目标是滚动到正确的项目并在单击链接时将其打开。到目前为止，这在 Chrome 中工作得很好，但在 Safari 中却不行。在 Safari 中，当我单击链接时没有任何反应。我已经测试了 Accordion 之外的其他锚链接，它们也适用于 Safari。我能做些什么来让这个功能在 Safari 中也能工作吗？在 Chrome 中，这似乎无需任何脚本即可工作。我在 Javascript 方面没有那么丰富的经验，但是有没有办法让它在 Safari 中也能工作？ 希望我能很好地描述这个问题...   由   提交 /u/vuk_wh   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1p19782/open_elementor_accordion_tab_by_separate_anchor/</guid>
-      <pubDate>Wed, 19 Nov 2025 14:31:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
