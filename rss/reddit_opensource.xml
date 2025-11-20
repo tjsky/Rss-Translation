@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 19 Nov 2025 21:14:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 01:12:08 GMT</lastBuildDate>
+    <item>
+      <title>我们迫切需要贡献</title>
+      <link>https://www.reddit.com/r/opensource/comments/1p1mf3a/we_are_in_dire_need_of_contribution/</link>
+      <description><![CDATA[      由于计算相当复杂，如果没有熟练的专家帮助我，我无法进一步推进该项目。我们非常欢迎您的贡献，这是我们所需要的。   由   提交/u/yolowex  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1p1mf3a/we_are_in_dire_need_of_contribution/</guid>
+      <pubDate>Wed, 19 Nov 2025 22:45:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有针对智能电视的免费开源项目？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1p1l2rx/are_there_any_free_and_open_source_projects_for/</link>
+      <description><![CDATA[有什么办法可以将智能电视变成只能使用 HDMI 和无线广播的哑电视？我厌倦了智能电视速度超慢/未经优化并试图出售我的数据。   由   提交 /u/supinator1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1p1l2rx/are_there_any_free_and_open_source_projects_for/</guid>
+      <pubDate>Wed, 19 Nov 2025 21:52:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们希望能够轻松管理跨区域的 Postgres 集群，因此我们制作了 PostgreSQL 控制平面</title>
+      <link>https://www.reddit.com/r/opensource/comments/1p1kbk6/we_wanted_to_make_management_of_crossregion/</link>
+      <description><![CDATA[       由   提交/u/pgEdge_Postgres   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1p1kbk6/we_wanted_to_make_management_of_crossregion/</guid>
+      <pubDate>Wed, 19 Nov 2025 21:23:53 GMT</pubDate>
+    </item>
     <item>
       <title>我正在使用 (OSS) Observer 构建 AI 应用程序的本地替代品，我需要您的帮助来找到更多！</title>
       <link>https://www.reddit.com/r/opensource/comments/1p1jo0o/im_building_local_replacements_for_ai_apps_using/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我同意人们克隆/分叉并做任何他们想做的事情，除了将其重新共享为自己的，并在他们构建它时在他们的投资组合中共享它们。我注意到很多人一直这样做。我明白没有人能假装到最后。但我仍然不知道应该选择什么许可证？ 如何说服我的想法。   由   提交/u/Blue-Sea2255  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1p13hkv/i_endorse_open_source_projects_and_i_like_to/</guid>
       <pubDate>Wed, 19 Nov 2025 09:53:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux 上有什么好的 Storyboarding 软件？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1p13dia/whats_a_good_storyboarding_software_for_linux/</link>
-      <description><![CDATA[我在工作室担任故事板艺术家已有 5 年了，我在工作中接受教导并使用 Toon Boom Storyboard。盗版版本，因为我生活在第三世界。 我一直在考虑迁移到 Linux，因为 Windows 11 并没有一天天好起来，但 Toon Boom 就是无法在 Linux 上运行。尝试在 Wine 中运行它，但它一次只能运行一个程序，而盗版的 Toon Boom（我怀疑）正在运行核心软件和“破解程序”。也许还需要同时运行一些其他东西。 所以我需要找到另一个可以在 Linux 上运行的软件，但它也需要具有类似于 TB 的某些功能，因为我工作室的工作流程非常紧张。比如自动场景编号、故事板导出格式和补间功能等。 那么你们有什么建议？   由   提交 /u/Metrosaurus   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1p13dia/whats_a_good_storyboarding_software_for_linux/</guid>
-      <pubDate>Wed, 19 Nov 2025 09:46:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>曾经想要在 Windows 上进行 shebang 吗？好吧，我做到了（部分）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1p12bb9/ever_wanted_shebang_on_windows_well_i_did_that/</link>
-      <description><![CDATA[几个月前 (3) 我感到无聊并开始从事这个项目。像往常一样，我的命名意识很差，所以它被称为 Dexec。它所做的就是查看 Shebang 文件的第一行（如果文件类型是原始代码，它可以是注释），并以文件路径作为最后一个参数运行该命令。 在没有目标的情况下以管理员身份运行它会向上下文菜单（Windows 11 上的旧菜单）添加一个条目，以尝试通过它执行任何文件。您也可以像任何其他应用程序一样将文件扩展名与其关联。 GitHub：https://github.com/ZedDevStuff/Dexec   由   提交/u/Devatator_  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1p12bb9/ever_wanted_shebang_on_windows_well_i_did_that/</guid>
-      <pubDate>Wed, 19 Nov 2025 08:41:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>刚刚推出 fluttercn – 通过简单的 CLI 复制粘贴、生产就绪的 Flutter 组件</title>
-      <link>https://www.reddit.com/r/opensource/comments/1p11irx/just_launched_fluttercn_copy_paste_production/</link>
-      <description><![CDATA[嘿伙计们， 我终于发布了 fluttercn，这是一个小型但不断增长的生产就绪库，复制粘贴 Flutter 组件。 如果您在 Web 世界中使用过 shadcn/ui，这与 Flutter 采用相同的理念 您无需安装繁重的 UI 包，而是将组件代码复制到您的项目并完全拥有它。 为什么您可能会关心 • 干净、可访问的组件 • 零依赖 • 代码位于项目内部 • 简单的CLI，可将组件直接放入lib/widgets/common/ • 完全可编辑且易于主题化 工作原理 npm install -g fluttercn cd your-flutter-project fluttercn init fluttercn list fluttercn add card 就这样了。组件文件出现在您的项目中，准备进行调整、扩展或重新设计。 今天可用的组件 卡片、按钮、头像、徽章、复选框 （即将推出更多组件） 我还构建了一个小型游乐场 + 文档网站，其中包含示例和使用模式。 希望得到 Flutter 社区关于组件设计、命名、API 界面以及组件类型的反馈 文档： 网站：https://www.fluttercn.site/ GitHub：https://github.com/pinak3748/fluttercn 如果你尝试一下，请告诉我有什么问题或者感觉笨重的东西。乐于快速迭代。   由   提交/u/nox3748  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1p11irx/just_launched_fluttercn_copy_paste_production/</guid>
-      <pubDate>Wed, 19 Nov 2025 07:50:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
