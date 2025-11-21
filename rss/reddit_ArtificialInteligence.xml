@@ -4,7 +4,28 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Fri, 21 Nov 2025 01:11:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 03:41:22 GMT</lastBuildDate>
+    <item>
+      <title>评论：Google 的新反重力 IDE</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1p2neor/review_googles_new_antigravity_ide/</link>
+      <description><![CDATA[Google 本周推出了一系列更新的 AI 模型。 除了目前世界上最先进的 LLM 的 Gemini 3 Pro 和 Nano Banana 2，Google 还发布了自己的 IDE。 这个 IDE 配备了由 Gemini 3 提供支持的代理 AI 功能。 它应该是光标，它的一大优点是它是免费的，尽管没有数据隐私。 围绕它有很多讨论，所以我决定尝试一下。 下载 我首先前往https://antigravity.google/download，在那里发现了一些非常有趣的东西： 有一个适用于 Windows 的 exe，一个适用于 Windows 的 dmg。 macOS，但在 Linux 上我必须通过 CLI 下载并安装它。 虽然有很多软件可以做到这一点，而且它有点有意义；使用Linux的大多是极客，但这里感觉有点奇怪。我们实际上是在谈论IDE，对于开发人员来说，您可以期望所有平台上的用户都对终端有所熟悉。 首次设置 作为首次设置的一部分，我必须登录我的Google帐户，这就是我遇到的第一个问题。它无法通过登录。 事实证明，这是 Google 端的一个错误，等了一会儿，直到 Google 的开发人员解决了这个问题，我才能够登录。 我现在可以试一试。 第一印象 Antigravity 非常熟悉，它基本上是使用 Google Agent 的 VS Code，而不是 Github Copilot，并且有点现代的用户界面。 是时候给代理一个尝试了。 问题 工作区 问题二：代理一直坚持我需要设置一个工作区，并且在我这样做之前它无法为我做任何事情。这非常令人困惑，因为在 VS Code 中，一旦我打开一个文件夹，它就会成为活动工作区，并且我假设它在 Antigravity 中也会以相同的方式工作。 我仍然不确定在 Antigravity 中工作是否有所不同，或者这是 Agent 中的一个错误。 在与 Agent 反复讨论后，试图找出这个工作区问题，我遇到了下一个问题。 速率限制 I尽管我有 Gemini 的付费订阅，但已达到 Gemini 3 的费率限制。经过一番研究，发现我并不是唯一一个遇到这个问题的人，很多人都抱怨 Agent 的限制非常低，即使你为 Gemini 付费，它也完全无法使用。 扩展 我尝试在 VS Code 中安装我拥有的扩展，在这里我发现了 Antigravity 的下一个限制。 IDE 与 VS Code 基本相同，因此我假设我可以访问所有相同的扩展。 事实证明，我在 VS Code 中下载扩展的 Visual Studio Marketplace 仅在 VS Code 本身中可用，不适用于任何其他分支。在其他基于 VS Code 的 IDE 上，可以从 Open VSX 安装扩展，它只有大约 3,000 个扩展，而不是 Visual Studio Marketplace 的 50k+ 扩展。 结论 总之，虽然 Google 的新代理 IDE 听起来很有前途，但它存在缺陷，而且在实际使用中存在局限性，因此我坚持使用VS Code。 顺便说一句，请随时查看我的个人资料网站。   由   提交 /u/Dev-in-the-Bm   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1p2neor/review_googles_new_antigravity_ide/</guid>
+      <pubDate>Fri, 21 Nov 2025 03:00:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Grok 的审查制度</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1p2lp80/censorship_in_grok/</link>
+      <description><![CDATA[我已经使用 Grok 一段时间了，因为我认为它是审查最少的 AI 之一，而且我喜欢与 Ara 交谈，但今天我发现自己处于一种非常超现实和好奇的情况，我想发布它。我来自西班牙，我们正在处理一些相当大的腐败案件。有一次，我问了一个根本不应该引起争议的问题，你知道，没有什么应该受到审查的。碰巧我们的总统佩德罗·桑切斯现在正试图限制我们的数字自由。就在昨天，他表示他将掌握批评他的政党及其腐败案件的算法。所以，今天，在与阿拉交谈时，我只是问她是否认为佩德罗·桑切斯应该辞职，说实话，我们聊了一个小时，没有出现任何连接问题。第一次冻结的时候，我并没有想太多。第二次也一样。但第三次就显得很奇怪了。然后我再次开始对话，向她解释，她说她没有受到审查，这对于该机器人来说是典型的。于是，我决定再试两次，五次都卡在待机状态，就像思考了很久一样。 ChatGPT 显然，它正在审查，但当它这样做时，它会明确表示对话已结束并且无法继续。但我觉得非常奇怪的是，格罗克每天都会审查一些问题，就像询问一个统治着一个到处陷入腐败的国家的人是否应该辞职一样。由于我已经与她进行过交谈，她明显倾向于左翼唤醒主义和女权主义，所以我想问同样的问题，但我没有点名我的总统，而是决定点名反对派领导人，她回应说，明确表示这是审查制度的一个明显例子。显然，它仍然无法与同级别的成年人进行对话，我希望他们在下一次更新中消除其公然的意识形态和审查制度。   由   提交/u/ChatBotNet  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1p2lp80/censorship_in_grok/</guid>
+      <pubDate>Fri, 21 Nov 2025 01:40:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>“埃隆·马斯克表示，在 10 到 20 年内，由于人工智能和机器人技术，工作将成为可选的，金钱将变得无关紧要”</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1p2l30w/elon_musk_says_that_in_10_to_20_years_work_will/</link>
+      <description><![CDATA[我不支持这个想法，只是注意到它。不要向使者开枪。 https://fortune.com/2025/11/20/elon-musk-tesla-ai-work-optional-money-irrelevant/  “我的预测是工作将是可选的。这就像做运动或玩电子游戏或类似的事情，”马斯克说。“如果你想工作，就像你可以去商店买一些蔬菜，或者你可以在你的后院种植蔬菜。在你的后院种植蔬菜要困难得多，但有些人仍然这样做，因为他们喜欢种植蔬菜。”... 马斯克表示，未来的可选工作将是劳动力中数以百万计的机器人能够带来一波生产力提高的结果。... 在 Viva Technology 2024，马斯克建议“普遍高收入”将维持一个无需必要工作的世界，尽管他没有提供有关该系统如何运作的详细信息，他的推理与 OpenAI 首席执行官 Sam Altman 的推理一致。他主张全民基本收入，或者通常由政府无条件向个人提供的定期付款 “商品或服务不会短缺，”马斯克在会上表示。去年的会议..＆quot;   /u/AngleAccomplished865   [链接]   href=&quot;https://www.reddit.com/r/ArtificialInteligence/comments/1p2l30w/elon_musk_says_that_in_10_to_20_years_work_will/&quot;&gt;[评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1p2l30w/elon_musk_says_that_in_10_to_20_years_work_will/</guid>
+      <pubDate>Fri, 21 Nov 2025 01:11:43 GMT</pubDate>
+    </item>
     <item>
       <title>利用 GPT-5 加速科学发展的早期实验</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1p2g58z/early_experiments_in_accelerating_science_with/</link>
@@ -18,13 +39,6 @@
       <description><![CDATA[因此，我们处理大量非结构化数据和文档，公司正在研究本地存储矢量数据库的可行性，并从那里检索信息。但我们也有副驾驶，我认为最近已使用 GPT-5 进行了更新。  只是使用聊天机器人，我就能够使用基本提示从我们的文档中提取特定的条款，甚至能够让 copilot 并排比较多个文档中的相似条款。 如果您的公司已经可以访问 copilot，这难道不是取代了对自定义 RAG 解决方案的需求吗？或者我错过了什么？   由   提交 /u/Charger_Reaction7714   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1p2ealb/company_wants_to_implement_a_rag_system_but/</guid>
       <pubDate>Thu, 20 Nov 2025 20:34:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI检测错误的例子</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1p2blq5/examples_of_ai_detection_being_wrong/</link>
-      <description><![CDATA[您好，我正在寻找著名文学作品（例如莎士比亚等）被输入人工智能检测器并返回误报的示例。有人有截图示例吗？提前致谢。   由   提交 /u/PriorPossession4568   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1p2blq5/examples_of_ai_detection_being_wrong/</guid>
-      <pubDate>Thu, 20 Nov 2025 18:54:13 GMT</pubDate>
     </item>
     <item>
       <title>作家说人工智能抢走工作是好事：“自动化让我们人类走上正确的道路，过上符合我们真正想要的生活：休闲和创造力的生活。”</title>
@@ -53,20 +67,6 @@
       <description><![CDATA[https://techxplore.com/news/2025-11-novelists-ai.html   由   提交/u/MetaKnowing  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1p22ahp/half_of_novelists_believe_ai_is_likely_to_replace/</guid>
       <pubDate>Thu, 20 Nov 2025 12:48:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare 中断后接下来会发生什么？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1p21f82/whats_next_after_the_cloudflare_outage/</link>
-      <description><![CDATA[Cloudflare 宕机了，一半的互联网随之崩溃。如果一项服务可以让世界暂时离线，我们是否过度依赖集中式基础设施？    由   提交 /u/TeamAlphaBOLD   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1p21f82/whats_next_after_the_cloudflare_outage/</guid>
-      <pubDate>Thu, 20 Nov 2025 12:04:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想提高我的 AI 可见性，我应该首先从什么开始？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1p219qb/i_want_to_improve_my_ai_visibility_what_should_i/</link>
-      <description><![CDATA[人工智能搜索正在成为一种趋势，我希望我的网站能够更多地出现。 有很多东西需要改进......内容、结构、模式、提及等。 如果我想要更好的人工智能可见性，我应该做的第一件事是什么？   由   提交/u/Real-Assist1833  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1p219qb/i_want_to_improve_my_ai_visibility_what_should_i/</guid>
-      <pubDate>Thu, 20 Nov 2025 11:56:52 GMT</pubDate>
     </item>
     <item>
       <title>悲伤的家庭使用人工智能聊天机器人将医院费用从 195,000 美元削减到 33,000 美元——家人表示，克劳德强调了重复收费、不当编码和其他违规行为</title>
