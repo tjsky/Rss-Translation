@@ -4,7 +4,35 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Wed, 26 Nov 2025 18:21:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 21:16:11 GMT</lastBuildDate>
+    <item>
+      <title>解决：将时间线中的所有剪辑重新链接到新母版</title>
+      <link>https://www.reddit.com/r/editors/comments/1p7j7o1/resolve_relink_all_clips_in_my_timeline_to_new/</link>
+      <description><![CDATA[所以我在 Resolve 中把事情搞砸了，我希望有一个更简单的解决方案。 长话短说： 我在编辑后调整了素材（是的，我知道......），以 25fps 创建了新的“干净”主剪辑（有些原本是 HFR），现在我希望时间线中已有的剪辑重新链接到这些新的剪辑 在 Premiere 中，这很简单 - 选择所有内容→重新链接→完成。 但在 Resolve 中，我找不到任何方法将所有时间线剪辑一次重新链接到新媒体。看起来 Resolve 迫使我：  逐个剪辑禁用“Conform Lock” 然后手动将每个剪辑指向媒体池中的新母版 一个。经过。一。  [Screenshot-2025-11-26-at-20-54-18.png](https://postimg.cc/Pvjt1mN7) 文件名相同，新母版匹配，但 Resolve 不会自动重新链接时间线 - 有什么方法可以将整个时间线批量重新链接到 Resolve 中的新媒体吗？ - 或者我是否一直在媒体池中逐个剪辑地执行此操作？ 此时，我希望我忽略了一些明显的事情。如有任何帮助，我们将不胜感激。 谢谢，   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1p7j7o1/resolve_relink_all_clips_in_my_timeline_to_new/</guid>
+      <pubDate>Wed, 26 Nov 2025 20:54:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个小工具来清理凌乱的设计资源文件夹</title>
+      <link>https://www.reddit.com/r/editors/comments/1p7itsh/i_built_a_small_tool_to_clean_up_messy_design/</link>
+      <description><![CDATA[我是一名设计师，一直淹没在充满导出、引用和随机文件的杂乱项目文件夹中。 因此，我构建了一个小工具，可以在几秒钟内按文件类型自动对任何文件夹进行排序。 拖入混乱的文件夹 → 立即获得干净、有组织的结构。 对于整理客户端项目之间的资源非常有帮助。 无需安装或注册 - 只需一个简单的操作网络实用程序。链接：filesorter.lovable.app   由   提交/u/cooltechtoday385  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1p7itsh/i_built_a_small_tool_to_clean_up_messy_design/</guid>
+      <pubDate>Wed, 26 Nov 2025 20:39:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于 Avid ↔ Resolve 工作流程的建议</title>
+      <link>https://www.reddit.com/r/editors/comments/1p7i50p/advice_on_an_avid_resolve_workflow/</link>
+      <description><![CDATA[我最近接手了一部已经制作了大约一年的纪录片。在我加入之前，他们已经拍摄并同步了大约 15 个拍摄日。他们还设置了一个我有些担心的工作流程，因为我不知道如何顺利运行，但也许我遗漏了一些东西。 设置如下：  编辑在 Avid 中工作。 导演将进行第一次粗剪，但无法在 Avid 中工作。 他们的解决方案： 在 Avid 中同步所有内容，创建同步剪辑。 导出包含所有同步剪辑的时间线的 AAF。 将该 AAF 导入 DaVinci Resolve，以便导演可以进行粗剪。 粗剪完成后，将 AAF 导出回Avid.   因为我对此工作流程的可靠性表示怀疑，所以我推动进行适当的测试。到目前为止，我遇到的情况如下： ✔️ 来自 Avid → Resolve 的 AAF  打开正常。 所有媒体链接。 音轨正确输入。 这里没有问题。  ❌ 来自 Resolve → Avid 的 AAF  仅限 Avid 链接1 个音轨，然后在所有其他音轨上复制该波形。 视频根本不链接。 在 Resolve 中更改 AAF 导出设置（例如，将文件路径或源剪辑名称嵌入到卷轴名称中）没有任何区别。  我的问题：  有人成功使用过这样的工作流程吗？ Avid 同步 → AAF → 解决粗剪 → AAF → Avid，同时保持正确的链接？ 是否有任何可靠的方法可以使 Avid 链接回同步剪辑，而不是底层的原始视频/音频文件？ 此工作流程是否根本不切实际，我是否应该寻求其他解决方案？  任何见解、经验或技巧将不胜感激！   由   提交/u/Hot_Time6549  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1p7i50p/advice_on_an_avid_resolve_workflow/</guid>
+      <pubDate>Wed, 26 Nov 2025 20:12:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>LG Ultrafine Evo 6k IPS 显示屏评测（LG 抽奖获胜者）</title>
+      <link>https://www.reddit.com/r/editors/comments/1p7f94s/lg_ultrafine_evo_6k_ips_display_review_winner/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1p7f94s/lg_ultrafine_evo_6k_ips_display_review_winner/</guid>
+      <pubDate>Wed, 26 Nov 2025 18:22:21 GMT</pubDate>
+    </item>
     <item>
       <title>作为编辑、AE 或实习生加入 DGC？</title>
       <link>https://www.reddit.com/r/editors/comments/1p7ecav/joining_the_dgc_as_an_editor_ae_or_trainee/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我可以在文件名中使用非英文字母吗？这些字母将通过 Yoyotta 库转至 LTO-8 磁带。例如韩语、日语、中文... 我找不到有关其文件命名约定的限制，但我只是想确定...   由   提交/u/ddd102  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1p6zz1d/simple_file_naming_question_when_i_lto8_backup/</guid>
       <pubDate>Wed, 26 Nov 2025 05:53:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于看起来更像《金融时报》的自由职业机会的问题</title>
-      <link>https://www.reddit.com/r/editors/comments/1p6tdyh/question_about_a_freelance_opportunity_that_seems/</link>
-      <description><![CDATA[大家好！只是想知道是否有人考虑过或担任过类似的角色。一个地方联系了一份自由职业，但将其列为每周 40 小时，并附带福利（健康、牙科、视力、401k、PTO/病假）。他们称之为混合型，但大多数时候都是远程办公，只有几个办公日。 我要求他们澄清一下他们如何预订时间。我想这可能是一个更长的合同类型的情况，也许最多几个月？但他们回复我说，他们认为这是一份“全职合同”，具有与受薪员工不同的特定自由职业福利。然后他们指出了年薪是多少，这让我觉得他们试图让某人至少工作一整年。  这对我来说听起来并不是真正的“自由职业者”，因为我基本上只能为他们工作一年。其他人也遇到过这种情况吗？我会考虑工作时间较短，特别是因为他们的时薪比我想要的低得多。不是不负责任的低，但低得足以让我因为为他们工作并对其他客户说“不”而遭受损失。任何想法表示赞赏！也许这很正常，只是我不熟悉。   由   提交/u/percymon   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1p6tdyh/question_about_a_freelance_opportunity_that_seems/</guid>
-      <pubDate>Wed, 26 Nov 2025 00:27:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何去除RAW照片中的颗粒？</title>
-      <link>https://www.reddit.com/r/editors/comments/1p6td1n/how_to_remove_grain_from_raw_photos/</link>
-      <description><![CDATA[我刚刚在学校的篮球比赛中拍了一堆照片。我使用 1/640、f4 和 6400 ISO 进行拍摄，因此颗粒感很大，最好使用的免费降噪器是什么？   由   提交/u/fantasyfootballdgen   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1p6td1n/how_to_remove_grain_from_raw_photos/</guid>
-      <pubDate>Wed, 26 Nov 2025 00:26:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>重新链接按钮在 Premiere 中移动（咆哮）</title>
-      <link>https://www.reddit.com/r/editors/comments/1p6q58a/relink_button_moved_in_premiere_rant/</link>
-      <description><![CDATA[我觉得我失去了它，因为肌肉记忆不断点击首映中重新链接对话窗口上的取消按钮，但后来我仔细观察，他们交换了取消和重新链接按钮的位置？？？他们为什么要这样做   由   提交/u/zimbloggy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1p6q58a/relink_button_moved_in_premiere_rant/</guid>
-      <pubDate>Tue, 25 Nov 2025 22:09:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用扫描胶片 - Premiere 中的 4:3 至 16:9</title>
-      <link>https://www.reddit.com/r/editors/comments/1p6m8oq/working_with_scanned_film_43_to_169_in_premiere/</link>
-      <description><![CDATA[嗨，我正在剪辑第一次用胶片拍摄的短片。为了了解更多背景信息，我收到了 4:3 比例 (2048 x 1556) 的单次扫描（2K .mov 文件，Apple ProRes 4444）。没有计划进一步重新扫描，这是我正在使用的唯一文件。影片计划为16:9。  在 Premiere 中，我创建了一个 2K 16:9 (2048 x 1152) 的序列。通过基本上放大 2K 4:3 扫描以填充 2K 16:9 帧，我是否走在正确的道路上？我必须在 Premiere 中将其放大到 127%（与原始的 100% 比例相比）。根据我以前的电影经验，放大这么多不会影响大电影屏幕的质量，但我仍然想知道是否有其他选择。  有人有其他经验/建议吗？谢谢！   由   提交 /u/aseven777   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1p6m8oq/working_with_scanned_film_43_to_169_in_premiere/</guid>
-      <pubDate>Tue, 25 Nov 2025 19:41:12 GMT</pubDate>
     </item>
     </channel>
 </rss>

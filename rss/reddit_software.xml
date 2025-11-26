@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 26 Nov 2025 18:21:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 21:16:23 GMT</lastBuildDate>
+    <item>
+      <title>我制作了一个免费工具，可以使用 Gemini 即时翻译 Windows 上的任何内容（游戏、应用程序等）</title>
+      <link>https://www.reddit.com/r/software/comments/1p7ityb/i_made_a_free_tool_to_translate_anything_on/</link>
+      <description><![CDATA[大家好， 我想分享一个我构建的免费开源工具，名为 Transnap，这是一个轻量级 Windows 实用程序，旨在解决特定的烦恼：在不允许复制粘贴的应用程序或游戏中翻译文本。 我构建这个工具是因为我玩了很多带有大量对话的游戏（通常使用我仍在学习的语言），并且我讨厌必须拿出手机使用 Google Lens 或 Alt-Tab 才能在浏览器中输入文本。 它的作用：  它的工作原理类似于 Windows 截图工具。您按下热键（Win+Shift+A），在屏幕上的任何文本周围画一个框，它就会使用 Google 的 Gemini AI 进行 OCR 并在浮动叠加层中立即进行翻译。 主要功能：  通用：适用于屏幕上可见的任何内容（浏览器、PDF、UI 元素）。 游戏模式：有一个特定的开关，强制它在独家全屏游戏上运行。 人工智能驱动：由于它使用 Gemini，翻译是上下文感知的，比标准直译要好得多。 便携式：它是一个 .exe，无需安装。 开源：用 Python 编写。  成本：该应用程序本身是完全免费和开源的。它需要您自己的 Google Gemini API 密钥（目前免费供个人使用）。 链接：  GitHub &amp;下载： https://github.com/Misaghlb/Transnap/releases/latest    由   提交/u/misaghlb  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1p7ityb/i_made_a_free_tool_to_translate_anything_on/</guid>
+      <pubDate>Wed, 26 Nov 2025 20:39:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Opera 浏览器中的视频问题</title>
+      <link>https://www.reddit.com/r/software/comments/1p7ilj7/problem_with_videos_in_opera_browser/</link>
+      <description><![CDATA[嗨，刚刚加入这个群聊，因为我想我可以在这里找到解决方案。我将放一张图片，以便您可以更好地理解。在每个 YouTube 视频（仅在 OPERA 中）浏览器中，我都有这条紫色线粘在我的十字准线上，无论我把十字准线放在哪里，这条线都会跟着它。  https://preview.redd.it/kf8qf9c4wn3g1.png?width=1886&amp;format=png&amp;auto=webp&amp;s=6a506e12674e9cd075b06793cacbdeedfca31fee   由   提交/u/Front_Wolf7747  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1p7ilj7/problem_with_videos_in_opera_browser/</guid>
+      <pubDate>Wed, 26 Nov 2025 20:30:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>重复文件查找器</title>
+      <link>https://www.reddit.com/r/software/comments/1p7ick2/duplicate_file_finder/</link>
+      <description><![CDATA[正在寻找可以查找重复文件的免费工具。希望能在这里找到评价很高的东西，这样我就不用尝试我能得到的一切了。 TIA   由   提交/u/PlayerTwoHasDied  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1p7ick2/duplicate_file_finder/</guid>
+      <pubDate>Wed, 26 Nov 2025 20:20:25 GMT</pubDate>
+    </item>
     <item>
       <title>我制作了一个无限制的离线背景去除器！ （无订阅或积分）</title>
       <link>https://www.reddit.com/r/software/comments/1p7f2hb/i_made_an_unlimited_offline_background_remover_no/</link>
@@ -78,7 +99,7 @@
     <item>
       <title>寻找免费/便宜的软件来创建 PDF 表单</title>
       <link>https://www.reddit.com/r/software/comments/1p73ki8/looking_for_freecheap_software_to_create_pdf_forms/</link>
-      <description><![CDATA[嘿！我正在寻找可以创建（不仅仅是填写）PDF 表单的软件。显然我正在寻找 Adob​​e 东西的替代品。重要的标准是它需要是离线软件，又称不是基于浏览器的东西，因为我希望它在表单字段中使用自定义字体。到目前为止，我已经尝试过 UPDF，但它有一些令人讨厌的怪癖。我找不到其他东西。 理想情况下，它是免费的或单次购买，不会花太多钱。任何需要订阅的内容我都不会考虑。 为了清晰而编辑：我不是在寻找可以简单添加文本注释或可以填写已有表单字段的软件，我正在寻找可以在我在 Affinity 中设计的现有 PDF 上创建表单字段的软件。 编辑 2：这是我迄今为止尝试过并发现需要的软件列表。  UPDF：最接近我实际需要的内容，但由于某种原因，它不会将我自己安装的任何字体应用到表单字段。 WPS Office：与 UPDF 类似的问题，虽然更容易使用，但如果您尝试保存文件，即使应该有完全免费的版本，也会向您显示订阅广告。事实证明，不存在 PDF24 和 PDFgear，它们不允许创建表单字段，至少在软件的离线版本中是这样。它显然存在于在线版本中，但这意味着我根本无法访问自定义字体 PDFfill 确实会创建表单字段，但似乎不会加载任何自定义安装的字体。 LibreOffice 允许您创建可填写表单的 PDF，但只能从 Writer 中的空白文档创建，而不是从现有的 PDF 中创建，而这正是我需要的  Edit3：我放弃了。我设法以便宜的价格找到了一个可以使用的旧 2020 Acrobat 密钥。操 Adob​​e   由   提交 /u/BlackFenrir   [链接] [评论]]]></description>
+      <description><![CDATA[嘿！我正在寻找可以创建（不仅仅是填写）PDF 表单的软件。显然我正在寻找 Adob​​e 东西的替代品。重要的标准是它需要是离线软件，又称不是基于浏览器的东西，因为我希望它在表单字段中使用自定义字体。到目前为止，我已经尝试过 UPDF，但它有一些令人讨厌的怪癖。我找不到其他东西。 理想情况下，它是免费的或单次购买，不会花太多钱。任何需要订阅的内容我都不会考虑。 为了清晰而编辑：我不是在寻找可以简单添加文本注释或可以填写已有表单字段的软件，我正在寻找可以在我在 Affinity 中设计的现有 PDF 上创建表单字段的软件。 编辑 2：这是我迄今为止尝试过并发现需要的软件列表。  UPDF：最接近我实际需要的内容，但由于某种原因，它不会将我自己安装的任何字体应用到表单字段。 WPS Office：与 UPDF 类似的问题，虽然更容易使用，但如果您尝试保存文件，即使应该有完全免费的版本，也会向您显示订阅广告。事实证明，不存在 PDF24 和 PDFgear，它们不允许创建表单字段，至少在软件的离线版本中是这样。它显然存在于在线版本中，但这意味着我根本无法访问自定义字体 PDFfill 确实会创建表单字段，但似乎不会加载任何自定义安装的字体。 LibreOffice 允许您创建可填写表单的 PDF，但只能从 Writer 中的空白文档创建，而不是从现有的 PDF 中创建，而这正是我需要的  Edit3：我放弃了。我设法以便宜的价格找到了一个可以使用的旧 2020 Acrobat 密钥。操 Adob​​e，但这是唯一可行的选择。   由   提交 /u/BlackFenrir   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1p73ki8/looking_for_freecheap_software_to_create_pdf_forms/</guid>
       <pubDate>Wed, 26 Nov 2025 09:36:55 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[嗨！ 当我进行一些常见操作（例如视频压缩、图像转换等）时，我启动了这个应用程序，我会在 google 上搜索并尝试一些 SAAS 解决方案。与视频编辑一样，对我来说 iMovie 很重，所以最终使用了 veed 或一些在线 SAAS 解决方案。与以前的公司的 csv 或 excel 一样，我讨厌 Numbers 应用程序，我更喜欢 Google 表格。 我意识到没有简单的软件、小型软件可以完成所有这些通用任务。  我每周五都会发布一个新版本。过去 4 个星期五我一直在持续发布。这周五我会发布一个支持字幕编辑、添加字幕、卡拉OK之类的视频字幕的版本。无限制的语音转文本选项。无限制的文本转语音选项。并且还支持无限的图像生成。  我一直想在这里发帖，一直等到周三，所以我可以做这个“周三自我推销”。我希望得到一些反馈..    由   提交/u/BackgroundDig441   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1p736s8/i_made_this_desktop_app_which_does_all_general/</guid>
       <pubDate>Wed, 26 Nov 2025 09:11:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建的一个免费工具，用于加快测试表单的速度 - 寻求开发人员和质量检查的反馈</title>
-      <link>https://www.reddit.com/r/software/comments/1p72z3t/a_free_tool_i_built_to_speed_up_testing_forms/</link>
-      <description><![CDATA[由于周三是自我推销，所以我想分享一些我一直在构建的东西，如果您经常使用网络表单，这些东西可能会很有用。我非常感谢您的反馈，尤其是来自开发人员和 QA 测试人员的反馈。 FakerFill - 一个免费的浏览器扩展，用于使用测试数据立即填写表单 https://i.redd.it/mbsaqi1ffk3g1.gif 我构建它是因为我在测试时不断输入相同的信息注册流程、结帐表单、入职步骤、管理面板和内部工具。 以下是 FakerFill 的逐步操作：  自动检测输入字段  它扫描 DOM 并识别字段类型，例如：  姓名 电子邮件 电话 地址 日期 密码 数字 国家/地区 NIT / RUT 以及更多  它适用于现代前端框架，包括React、Vue、Angular、Next.js、SPA应用程序和Shadow DOM。 2.在本地生成真实的测试数据 使用 Faker.js，它可以直接在浏览器中生成有效的测试值。没有数据发送到任何地方 - 一切都在本地运行。 3.只需单击一下即可填写整个表单 按下按钮，每个字段都会立即填充。测试时有用：  注册 登录 结帐 入门流程 管理仪表板 多步骤和动态表单  它的用途  开发人员在功能开发期间测试表单 QA 测试人员每天重复流程 构建仪表板或 CRUD 应用的独立制作者 使用内部工具的团队 任何想要避免重复手动输入的人  链接  如果您想尝试一下：https://www.fakerfill.com 反馈想要  您使用类似的工具吗？哪些？ 您希望这些工具在哪些方面得到更好的处理？检测、UI、自定义规则、验证、工作流程还是其他？  我想根据实际用例改进该工具，而不仅仅是我自己的用例。 很高兴听到任何想法，甚至是批评性的想法。感谢您的阅读！   由   提交 /u/jundymek   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1p72z3t/a_free_tool_i_built_to_speed_up_testing_forms/</guid>
-      <pubDate>Wed, 26 Nov 2025 08:57:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>转录软件帮助</title>
-      <link>https://www.reddit.com/r/software/comments/1p70y0g/help_with_transcription_software/</link>
-      <description><![CDATA[嗨，有人推荐一款可以在本地运行并准确转录非英语语言（印地语、泰米尔语、卡纳达语）音频的优秀转录软件（最好是免费的，但也可以付费）？  我尝试了免费的小型 MacWhisper，但生成的成绩单非常糟糕。到目前为止，最准确的是notebooklm，但如果可能的话，我不想在线上传我的数据，因为它是一个研究项目，需要保密（敏感信息、人员的个人详细信息）。提前致谢！   由   提交 /u/smollbutfierce   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1p70y0g/help_with_transcription_software/</guid>
-      <pubDate>Wed, 26 Nov 2025 06:49:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>我正在寻找 RGB 软件</title>
-      <link>https://www.reddit.com/r/software/comments/1p70ci1/im_looking_for_an_rgb_software/</link>
-      <description><![CDATA[我正在尝试找到一款 RGB 软件，因为适用于我的主板品牌的软件无法工作，因为它只能在我的内存上工作，而不能在我的 RGB 风扇或电线上工作。我不需要它与我的鼠标或键盘一起工作，我只需要处理我的计算机内部的东西。我不太擅长技术，所以让它简单很重要   由   提交/u/ielufbsaioaslf   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1p70ci1/im_looking_for_an_rgb_software/</guid>
-      <pubDate>Wed, 26 Nov 2025 06:14:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
