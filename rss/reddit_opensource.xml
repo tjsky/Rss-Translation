@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 29 Nov 2025 12:31:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Nov 2025 15:16:00 GMT</lastBuildDate>
+    <item>
+      <title>Connex：Linux 版 Wifi 管理器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1p9qztt/connex_wifi_manager_for_linux/</link>
+      <description><![CDATA[Connex 是一款专为“菜鸟”打造的网络管理器，它的 GUI 提供了一种简单的方法来管理 wifi、代理和 VPN。这是我的第一个项目。 它提供了干净的界面、CLI 模式以及与 Linux 桌面的平滑集成。 功能： - 简单的界面  - 连接、断开和管理 Wi-Fi 网络  - 隐藏网络支持  - 连接历史记录  - 内置速度测试  - 命令行模式 - 二维码连接（例如用手机扫描） - 代理管理 - VPN 管理（仍在开发中） 如果您有任何建议或问题，请告诉我，这里是存储库链接： Github：https://github.com/lluciocc/connex   由   提交/u/Lluciocc   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1p9qztt/connex_wifi_manager_for_linux/</guid>
+      <pubDate>Sat, 29 Nov 2025 15:00:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>99Managers Futsal Edition - FOSS 五人制足球经理游戏 PC 版</title>
+      <link>https://www.reddit.com/r/opensource/comments/1p9pxp1/99managers_futsal_edtion_foss_futsal_manager_game/</link>
+      <description><![CDATA[我最近在 Steam 上发布了我的 AGPLv3 授权游戏 99Managers Futsal Edition，售价 10 欧元，在其他平台上免费。您可以在 99managers.org 上找到所有链接，在 https://codeberg.org/dulvui/99managers-futsal-edition 上找到源代码 对于那些不了解五人制足球的人来说，这是一种快节奏的运动5vs5 室内足球运动，在葡萄牙、巴西、西班牙以及其他国家非常流行。我知道这里可能没有多少开发者对五人制足球或体育管理游戏感兴趣，但我想谁知道呢，也许有人感兴趣。 它仍处于早期访问阶段，存在错误和缺少功能，但游戏的基础现在相当稳定。如果您有任何疑问，请随时询问我！   由   提交/u/dulvui  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1p9pxp1/99managers_futsal_edtion_foss_futsal_manager_game/</guid>
+      <pubDate>Sat, 29 Nov 2025 14:13:25 GMT</pubDate>
+    </item>
     <item>
       <title>这个概念有基础设施吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1p9mxq7/is_there_infrastructure_for_this_concept/</link>
@@ -15,7 +29,7 @@
     <item>
       <title>Common Ground：开源 Discord 替代方案</title>
       <link>https://www.reddit.com/r/opensource/comments/1p9mge3/common_ground_an_open_source_discord_alternative/</link>
-      <description><![CDATA[大家好！ 经过四年的发展，这一天终于到来：今天，我们在 AGPLv3 许可下发布了 Common Ground 平台的所有代码。 Common Ground 是 Discord 的基于浏览器的开源替代方案（但远不止于此）。 我们提供丰富的功能：  创建具有角色和权限的社区 自定义社区成员资格要求（密码、调查问卷等） 社区聊天频道和 DM 语音和视频通话（全高清）、广播、活动调度 功能丰富的插件系统，允许嵌入任何网站或浏览器游戏，并在插件和平台之间进行双向通信。插件也可以在社区之间共享。 社区文章，具有全球文章提要 渐进式 Web 应用程序支持：可以作为 PWA 安装，具有推送通知和离线可用性（适用于所有桌面设备、Android、iOS 以及更多小众操作系统） 社区和平台电子邮件通讯 原生区块链集成（适用于所有 EVM 链）：目前支持 ERC20、用于门控角色的 ERC721、ERC1155、LSP7 和 LSP8  我们还创建了多个插件作为展示（主要是 MIT 或 LGPL 许可）：  用于快速入门的样板插件 Luanti 的网络组装版本，开源 Minecraft 的替代品（非常棒） - 现在还提供 p2p 支持（直接在浏览器中托管游戏）、保存游戏持久性等等 Sauerbraten 的网络组装版本，一个类似 Quake 的开源射击游戏 用于讨论的论坛插件 用于简单代币分配的空投和归属插件  我们的目标是建立一个完全开放的社交基础设施，该基础设施仍然提供 Discord 等平台的便利性和众所周知的模式（例如，用户可以轻松创建自己的“服务器”），同时开放并可供任何人自行托管、改编和修改。问题是，大多数社会是通过少数大型科技公司联系在一起的，这些公司与开放社会的利益并不完全一致，而是努力实现经济收益和影响力最大化。 对我们来说，新的篇章今天开始：我们现在正在公开建设，并邀请所有人加入我们的旅程。让我们一起重新夺回社交网络 - 加入我们的 app.cg 上的 Common Ground 社区 进行联系！这是我们的 ​​Github 存储库 - 查看并告诉我们您的想法！   由   提交/u/kaesual  [链接] [评论]]]></description>
+      <description><![CDATA[大家好！ 经过四年的发展，这一天终于到来：今天，我们在 AGPLv3 许可下发布了 Common Ground 平台的所有代码。 Common Ground 是 Discord 的基于浏览器的开源替代方案（但远不止于此）。 我们提供丰富的功能：  创建具有角色和权限的社区 自定义社区成员资格要求（密码、调查问卷等） 社区聊天频道和 DM 语音和视频通话（全高清）、广播、活动调度 功能丰富的插件系统，允许嵌入任何网站或浏览器游戏，并在插件和平台之间进行双向通信。插件也可以在社区之间共享。 社区文章，具有全球文章提要 渐进式 Web 应用程序支持：可以作为 PWA 安装，具有推送通知和离线可用性（适用于所有桌面设备、Android、iOS 以及更多小众操作系统） 社区和平台电子邮件通讯 原生区块链集成（适用于所有 EVM 链）：目前支持 ERC20、用于门控角色的 ERC721、ERC1155、LSP7 和 LSP8  我们还创建了多个插件作为展示（主要是 MIT 或 LGPL 许可）：  用于快速入门的样板插件 Luanti 的网络组装版本，开源 Minecraft 的替代品（非常棒） - 现在还提供 p2p 支持（直接在浏览器中托管游戏）、保存游戏持久性等等 Sauerbraten 的网络组装版本，一个类似 Quake 的开源射击游戏 用于讨论的论坛插件 用于简单代币分配的空投和归属插件  我们的目标是建立一个完全开放的社交基础设施，该基础设施仍然提供 Discord 等平台的便利性和众所周知的模式（例如，用户可以轻松创建自己的“服务器”），同时开放并可供任何人自行托管、改编和修改。问题是，大多数社会是通过少数大型科技公司联系在一起的，这些公司与开放社会的利益并不完全一致，而是努力实现经济收益和影响力最大化。 对我们来说，新的篇章今天开始：我们现在正在公开建设，并邀请所有人加入我们的旅程。让我们一起重新夺回社交网络 - 加入我们的 app.cg 上的 Common Ground 社区 进行联系！这是我们的 ​​Github 存储库 - 查看并让我们知道您的想法！ 编辑：我忘了将我们的发布视频放入这篇文章中，就在这里。 Florian 和我介绍了该项目并谈论了历史和未来：https://www.youtube.com/watch?v=yMpYiRUlIrI   由   提交/u/kaesual  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1p9mge3/common_ground_an_open_source_discord_alternative/</guid>
       <pubDate>Sat, 29 Nov 2025 11:11:52 GMT</pubDate>
     </item>
@@ -32,13 +46,6 @@
       <description><![CDATA[Github：https://github.com/empowerd-cms/nyno HackerNews：https://news.ycombinator.com/item?id=46079605   由   提交/u/EveYogaTech   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1p9m7pe/yesterday_nyno_opensource_n8n_alternative_for/</guid>
       <pubDate>Sat, 29 Nov 2025 10:57:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源汽车ECU</title>
-      <link>https://www.reddit.com/r/opensource/comments/1p9l7vx/open_source_automotive_ecu/</link>
-      <description><![CDATA[       由   提交/u/Financial-Lettuce-25   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1p9l7vx/open_source_automotive_ecu/</guid>
-      <pubDate>Sat, 29 Nov 2025 09:56:16 GMT</pubDate>
     </item>
     <item>
       <title>SFML 中的粒子碰撞模拟器</title>
@@ -102,13 +109,6 @@
       <description><![CDATA[正如标题所说，我正在寻找 Repairdesk 的替代方案，我见过 erpnext 甚至 odoo，但它们不能说服我，我想看到您所知道的最简单的 erp 系统，适用于 1 到 5 名工人的小型企业，具有销售库存和备件，提供技术服务，可以在内部将维修分配给技术人员或更换技术人员，允许技术人员留下维修评论、照片证据或文件，选择使用过的部件（如果有），从库存中折扣，您必须从收到设备直到交付为止执行该过程，对于客户来说，它必须允许您打印可修改的法律问题服务票，并且这是可以修改的合同类型，客户一旦维修可以向您发送电子邮件，消息或WhatsApp，允许您通过立即销售或在维修，备件或投入中给予客户的信用来管理客户，以便能够对客户进行分类并跟踪他们的购买情况折扣、奖品或奖金以及报价前部分，即向客户提供设备型号、备件和最终价格（无论备件是购买还是有库存）的地方，管理供应商列表以根据采购或库存历史估算备件价格，了解备件价格上涨或下跌的月份，我不是在寻找已完成的事情，无论是单个操作计划还是多个项目，等等。更容易管理，安装 我不是在寻找这个已经解决的问题，我只是想看看当前是否有一个真正简单的开源选项，如果没有的话，看看为什么及其局限性，因为我看到许多新软件正在问世，声称可以完成所有这一切，但非常昂贵的订阅，或者试图使程序如此通用，以至于他们忽略了所需内容和法律的定制   由   提交  [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1p90d41/alternativa_a_repairdesk/</guid>
       <pubDate>Fri, 28 Nov 2025 17:15:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>GFXBench 和 CompuBench 21 年后关闭，源代码和顶级数据库移至 GitHub</title>
-      <link>https://www.reddit.com/r/opensource/comments/1p8zvwu/gfxbench_and_compubench_are_shutting_down_after/</link>
-      <description><![CDATA[       由   提交 /u/reps_up   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1p8zvwu/gfxbench_and_compubench_are_shutting_down_after/</guid>
-      <pubDate>Fri, 28 Nov 2025 16:57:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
