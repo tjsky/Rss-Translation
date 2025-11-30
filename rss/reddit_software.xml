@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Sun, 30 Nov 2025 03:58:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Nov 2025 06:24:43 GMT</lastBuildDate>
+    <item>
+      <title>我构建了一个简单的工具，用于在 USB、电子邮件和云被阻止时临时共享文件</title>
+      <link>https://www.reddit.com/r/software/comments/1pa9j61/i_built_a_simple_tool_for_temporary_file_sharing/</link>
+      <description><![CDATA[我在禁止 USB 驱动器等外部存储的环境中工作。 电子邮件附件被阻止。 Google Drive / Dropbox 被阻止。 甚至蓝牙也受到限制。 但有时您只需要将文件从受限制的系统移动到您的个人设备。 因此我构建了 Kipmi - 一个最小的临时文件共享工具，无需任何操作即可使用任何登录。 工作原理：  上传文件 选择文件应保持活动的时间（5 分钟到 24 小时） 获取 6 位代码 在任何设备上输入代码并下载文件 文件到期时自动删除（不留痕迹）  为什么我这样做： 大多数“文件传输”工具需要登录、帐户、复杂的 UI，或者将文件永远保留在服务器上。 我需要一些快速、临时且一次性的东西 - 所以我构建了它。 技术堆栈： Next.js 前端 Node.js + Express MongoDB 用于文件存储的 Cloudflare R2 Auto清理 cron 作业 如果这里有人在安全的工作场所、实验室、大学系统或共享计算机中工作 - 这可能会有所帮助。 希望得到反馈、功能请求或任何我可以改进它的方法。 实时： https://kipmi-psi.vercel.app   由   提交 /u/MessPitiful9318   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1pa9j61/i_built_a_simple_tool_for_temporary_file_sharing/</guid>
+      <pubDate>Sun, 30 Nov 2025 04:48:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>视频和照片编辑器</title>
+      <link>https://www.reddit.com/r/software/comments/1pa95ls/video_and_photo_editor/</link>
+      <description><![CDATA[大家好，我正在计划创建一个黑暗视频频道（如果您知道任何社区、频道等可以帮助我成长或了解更多信息，我将不胜感激），我希望听到你们中那些对免费（盗版）视频（和照片）编辑应用程序有更多知识和经验的人的意见，因为我创建该频道正是为了赚钱。提前谢谢您。 如果社区不接受此内容或与此相关，我提前表示歉意。 我也为我的英语很差道歉。我用了翻译器哈哈   由   提交/u/Equivalent_Cod_9355   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1pa95ls/video_and_photo_editor/</guid>
+      <pubDate>Sun, 30 Nov 2025 04:28:29 GMT</pubDate>
+    </item>
     <item>
       <title>我正在犹豫...帮助我在整个文件层次结构中创建存储库是否会搞砸我。</title>
       <link>https://www.reddit.com/r/software/comments/1pa1okq/im_hesitating_help_me_whether_creating_repos/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[有没有一个好的准确免费音频语言翻译器？我正在尝试翻译节目中韩语角色的语音片段。他们没有字幕，也没有太多翻译参考资料。   由   提交/u/SpartaGC  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1p9ki8s/looking_for_a_good_audio_language_translator/</guid>
       <pubDate>Sat, 29 Nov 2025 09:10:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪种媒体播放器与流媒体服务最相似？</title>
-      <link>https://www.reddit.com/r/software/comments/1p9iymu/which_media_player_is_most_similar_to_a_streaming/</link>
-      <description><![CDATA[和这里的许多人一样，我的电脑上有几集，我想要一个媒体播放器，除了美观之外，还具有列出我的剧集或允许我从中断处继续播放等功能......例如，我想知道哪种媒体播放器提供最接近观看 Netflix 的体验。    由   提交/u/Guilahad   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1p9iymu/which_media_player_is_most_similar_to_a_streaming/</guid>
-      <pubDate>Sat, 29 Nov 2025 07:35:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>文档生成/工作流程</title>
-      <link>https://www.reddit.com/r/software/comments/1p9i3se/document_generationworkflow/</link>
-      <description><![CDATA[下午好，我正在尝试自动化我们设备租赁业务的文档工作流程，并希望获得一些程序建议。我不是知识渊博，但并不急于学习，也不介意学习 根据我到目前为止所读到的内容，我已经从使用 zapier 转向了到目前为止我非常喜欢的 Make。我遇到的一个大问题是自动生成签名和自定义收据表格的程序。它们看起来非常昂贵，至少我尝试过 pandadoc 和 Signnow 两个，在使用每月或每年的自动化信用额度后，每位客户的 pandadoc 和 Signow 分别约为 4 美元和 3 美元。如果这不贵，请告诉我我很便宜 关于其他文档生成程序有什么建议吗？我正在尝试的主要文档工作流程如下： 表格一 - 拖车租赁协议 - 一个签名和日期以及驾照照片 表格二 - 带有订单信息/门代码等的自定义收据。  Stripe-&gt;Make-&gt;生成租赁协议-&gt;发送/签署-&gt;签名后发送收据   由   提交/u/Adorable-Pickle2798  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1p9i3se/document_generationworkflow/</guid>
-      <pubDate>Sat, 29 Nov 2025 06:43:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
