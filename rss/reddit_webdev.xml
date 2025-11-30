@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 30 Nov 2025 06:25:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Nov 2025 09:16:32 GMT</lastBuildDate>
+    <item>
+      <title>如何提高 970 万次计算的性能！？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pac6d5/how_do_i_improve_the_performance_of_97mil/</link>
+      <description><![CDATA[现在，我们正在开发一个金融科技平台，并正在管理一个页面，该页面显示来自一组 2 个期限组合的纯 CPU 驱动计算的数字。可能的组合的最大数量为 5^8 ~ 390k，加载表数据的最坏情况性能大约需要 8-9 分钟。我们必须以某种方式提高此逻辑的性能，并使其适应未来，因为客户端希望在 30 秒内加载 5^10 ~ 970 万行，并将它们放入表中，而无需任何形式的无限滚动，并保持所有列可排序。 我们的技术堆栈是 nextjs 前端、nodejs 后端和 golang 微服务，我们通常将其用于此类计算。我想说90%的工作是在golang中完成的，然后我们在nodejs上执行迭代线性回归并将其发送到前端。即使完成所有这些，390k 行也有大约 107MB 的 json。有了这么多数据，aggrid 也开始滞后。我的问题是，我在现实生活中该如何处理这个问题... 我有一些想法，例如，  将线性回归转移到 golang 为 golang 提供一个更强大的服务器并实现多线程（因为它在单核 rn 上运行:)） golang 服务正在使用 grpc 进行调用，如果调用多次，它会产生很大的延迟。通过流式传输或增加批处理大小（已将 500 个计算请求一起批处理）来减少 grpc 延迟 减少响应包大小并将其流式传输到 nextjs 将 aggrid 替换为自定义轻量级 html 和 js 专用表 最后一个选项，在午夜重新计算并将其存储在缓存中。虽然我不确定redis和nodejs将如何执行从中读取GBs的流数据  此外，已经存在一些优化...  数据库缓存以尽量减少不必要的调用 req缓存以删除重复请求 过滤掉浪费计算的错误情况  欢迎任何和所有建议！请帮助兄弟  编辑：我们不能直接使用无限滚动，因为数据必须预先排序，并且排序必须根据计算值进行 ui 输入接受 4 个变量，这些变量的每个新组合都有一组新的计算 该平台适合那些期望可以缓存 5-10 分钟的实时数字的交易者    由   提交/u/mrgk21  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pac6d5/how_do_i_improve_the_performance_of_97mil/</guid>
+      <pubDate>Sun, 30 Nov 2025 07:19:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>图片资产经理</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pabqho/image_asset_manager/</link>
+      <description><![CDATA[寻找一些有关简单图像管理解决方案的建议。我的 Google foo 让我失望了，我淹没在一堆 DAM 解决方案、照片管理器、托管提供商、cdns 等中。 我们有几百种产品，每种产品都有十几个相关图像和一堆图像格式的营销材料。主要是人们享受我们产品的照片等。 目前，所有内容都存储在几个 s3 存储桶中。产品具有与目录等一起存储的关联图像。营销人员使用一些非常繁琐的流程来管理其中的大部分内容。 我想为他们提供一个很好的集中位置来轻松查找资产。具有灵活标记的东西，也许是一些人工智能自动露营和标记，调整裁剪工具的大小，一些模糊搜索等。 如果它还有一个简单的 API，我可以用它来用浏览按钮替换我的产品管理应用程序中的文件上传控件，而不是可以显示目录中相关图像的模式搜索，那就太好了。 我可以管理来自 s3 的基本元数据的存储和导入。 我们正在试用 imgix 作为cdn 交付平台，我对此非常满意。 我更喜欢一个自托管解决方案，我可以将其用作构建系统的基础 - 我们开始使用 AI 生成的内容图像，这将使目录管理变得有趣。  但我也愿意考虑 SaaS 解决方案，只要它们不是太具有侵入性。   由   提交/u/taotau  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pabqho/image_asset_manager/</guid>
+      <pubDate>Sun, 30 Nov 2025 06:52:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>光是看着这个表格我的眼睛就痛。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pabc8m/my_eyes_hurt_just_looking_at_this_form/</link>
+      <description><![CDATA[       由   提交/u/CaptainSad00  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pabc8m/my_eyes_hurt_just_looking_at_this_form/</guid>
+      <pubDate>Sun, 30 Nov 2025 06:28:13 GMT</pubDate>
+    </item>
     <item>
       <title>您经历过的最糟糕的上下文切换场景是什么？我需要知道我并不孤单。</title>
       <link>https://www.reddit.com/r/webdev/comments/1pab5b4/whats_the_worst_context_switching_scenario_youve/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我想创建一个网站，但我的编码经验为零。我尝试过 Google AI Studio 和 Google Antigravity。 AI Studio 对我来说更容易，但 Antigravity 看起来更高级。 我也有 GoDaddy 域名，并且我知道我可以使用 Netlify 与某人共享网站的示例版本。 对于完全的初学者，我应该使用哪个工具？ Google AI Studio 是否足够，或者是否有更好/更简单的工具来构建完整的网站？   由   提交 /u/Aggressive-Coffee365   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pa5ash/beginner_here_best_tool_to_build_a_website_google/</guid>
       <pubDate>Sun, 30 Nov 2025 01:13:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>解释一下为什么像我这样的微前端才5岁</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pa4xky/explain_why_microfrontends_like_i_am_5_years_old/</link>
-      <description><![CDATA[我不明白。我在 FAANG 的前端平台团队工作，该团队在生产中使用微前端，但我仍然不明白。他们总是因能够实现独立部署而受到赞扬，但我根本看不到这种情况的发生。 我们靠 CI/CD 为生，并每周在发布序列中不断部署到生产环。每个工程师都知道，我们大约有 7 个发布环，新功能总是放在功能标志后面。我们有一个专门的发布管理部门，负责监管修复和端口。 我不知道微前端会在这里带来什么不同。让我们想象一下某个团队现在拥有微前端。它可能只是同一个发布系列的一部分，或者有自己的发布系列，但最终仍然有一个集中的发布管理团队来监管发布。有什么好处？当功能以任何一种方式被置于功能标志后面并且我们每周从 master 进行部署时，独立发布的动机是什么？我总是听到这样的话：“哦，我们需要微前端，因为现在我们可以部署而无需等待 B 团队的更改”我只是无法理解这实际上是一件事，当你已经有每周的部署节奏时 - 那么是什么阻碍了你？ 我可以看到微前端对于加快大型 monorepos 的构建速度、移动 JS 应用程序的无线更新或白标解决方案很有用。但神圣的“独立部署” - 不，看不到。要么是我太无知，看不到它，要么就是自称专家的万金油卖给我们，为患有花哨工具综合症的工程师出售课程和研讨会。 咆哮结束。 /认真地，请解释一下。   由   提交 /u/Budget-Length2666   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pa4xky/explain_why_microfrontends_like_i_am_5_years_old/</guid>
-      <pubDate>Sun, 30 Nov 2025 00:56:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个开源规划应用程序（例如 Sunsama）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pa3ylh/i_built_an_opensource_planner_app_like_sunsama/</link>
-      <description><![CDATA[      我构建了一个开源规划应用程序适合极简主义者的规划器应用程序。  完全开源（前端和后端，麻省理工学院） 简单的工作流程：捕获→计划→计划→焦点 到处都有键盘快捷键 任何地方都没有人工智能 干净、极简的用户界面 技术堆栈：TypeScript、React、Node、Express、MongoDB、Socket-io 还处于早期阶段，但已经每天使用它来运行我自己的日程安排  希望得到其他开发人员的反馈——用户体验、架构、任何你会做的不同的事情 尝试一下：https://www.compasscalendar.com/ 每日计划程序：议程旁边的任务   由   提交/u/switchback-tech  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pa3ylh/i_built_an_opensource_planner_app_like_sunsama/</guid>
-      <pubDate>Sun, 30 Nov 2025 00:10:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作了一个 iOS 应用程序来帮助演示您的移动网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pa3n5p/made_an_ios_app_to_help_demo_your_mobile_site/</link>
-      <description><![CDATA[刚刚发布 - 我认为它在这里可能有用。 演示范围可以让您录制或流式传输任何移动网站，您的脸在屏幕上，触摸指示器显示每次点击。 我构建它是因为我需要演示我自己的业余项目，并且讨厌 OBS/桌面设置。 在应用程序中加载您的网站，点击录制，完成。或者直接流式传输到 Twitch/YouTube。 免费试用：https://apps.apple.com/us/app/demo-scope/id6755395174 如果有人尝试，希望得到反馈​​​​​​​​​​​​​​​   由   提交/u/Dramatic-Mongoose-95   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pa3n5p/made_an_ios_app_to_help_demo_your_mobile_site/</guid>
-      <pubDate>Sat, 29 Nov 2025 23:55:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
