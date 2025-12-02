@@ -4,7 +4,35 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 02 Dec 2025 18:28:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 21:18:58 GMT</lastBuildDate>
+    <item>
+      <title>在 Mac M3 Pro 上批量处理高档视频 Topaz 级别而不会过热或节流的最佳方法？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pcke5b/best_way_to_batch_upscale_videos_topaz_level_on/</link>
+      <description><![CDATA[大家好， 我有一台 MacBook M3 Pro (18GB RAM)，想要批量将高档短视频达到 Topaz Video AI 质量。在黄玉上本地运行大批量会导致严重的热节流并减慢一切。是否有任何免费或学生友好的云解决方案、代理工作流程、Python 脚本或自动化管道，甚至开源升级程序，可以让我在不使 Mac 超载的情况下保持 4k 质量？ 谢谢。    由   提交/u/DEDSEC7373  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pcke5b/best_way_to_batch_upscale_videos_topaz_level_on/</guid>
+      <pubDate>Tue, 02 Dec 2025 21:01:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoSheet - 使用 Go 构建的强大的基于终端的电子表格应用程序</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pchbu6/gosheet_a_powerful_terminalbased_spreadsheet/</link>
+      <description><![CDATA[嗨 r/opensource！ 在过去的一个月里，我一直在构建一个基于 CLI 的电子表格编辑器。我受到了 sc-im 的启发（我发现它功能强大但不直观）以及经典的 80 年代电子表格程序，这些程序对于现代使用来说太有限了，所以我决定构建自己的东西。 我选择 Go 是因为我正在积极学习它，而且我喜欢它的简单性（它让我想起了 C）。我考虑过 C/C++，但实际上我要到明年才能达到这一点。我很高兴我选择了 Go。 在早期阶段，我使用 tview，因为它提供了很棒的小部件（表格、文本视图、按钮等）。但随着工作表变大，我遇到了巨大的内存使用量 - CLI 应用程序超过 1GB！为了解决这个问题，我重新构建了内部设计以使用视口系统并优化了自定义单元结构。现在只有可见的单元格被渲染，而其余的则在内存中保持轻量。 我还构建了一个公式引擎，它在测试中运行得非常好，并且最近添加了工作簿支持，以便用户可以管理一个文件中的多个工作表。 我很乐意您尝试一下并分享您的反馈。欢迎提出建议、功能想法和错误报告。您的想法将有助于指导项目的后续步骤。 GitHub 存储库：https://github.com/drclcomputers/GoSheet   由   提交/u/Andrew06908  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pchbu6/gosheet_a_powerful_terminalbased_spreadsheet/</guid>
+      <pubDate>Tue, 02 Dec 2025 19:06:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>numla,用数字思考的记事本,下载numla的源码_GitHub_酷徒</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pchat1/github_davidesantangelonumla_the_notepad_that/</link>
+      <description><![CDATA[       由   提交/u/davidesantangelo   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pchat1/github_davidesantangelonumla_the_notepad_that/</guid>
+      <pubDate>Tue, 02 Dec 2025 19:05:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>幻灯片舞台</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pcgham/slidestage/</link>
+      <description><![CDATA[大家好，我构建了 SlideStage 来使用网络摄像头覆盖和实时字幕来录制幻灯片演示文稿 - 所有这些都无需上传任何内容。它是一个免费、开源工具，完全在浏览器中运行 - 无需登录，无需云。只需打开 SlideStage，单击录制即可演示！ 主要功能：  100% 在浏览器内：无需下载或安装；完全在您的设备上运行。 一体化录制：同时捕获幻灯片、网络摄像头视频和实时字幕。 隐私第一：不会将任何数据发送到服务器。 免费且免费。开源：完全免费使用和修改（请参阅 GitHub）。  将其视为用于幻灯片的 Loom 的开源替代品。我很想听听您的反馈或回答任何问题！查看 GitHub 上的演示和源代码。干杯! 🙌  更多见解：https://github.com/IBNKHALID06/SlideStage   由   提交/u/Wisdom_Jotaro   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pcgham/slidestage/</guid>
+      <pubDate>Tue, 02 Dec 2025 18:36:19 GMT</pubDate>
+    </item>
     <item>
       <title>Gmail + 生产力</title>
       <link>https://www.reddit.com/r/opensource/comments/1pcg7mt/gmail_productivity/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/Albertiikun  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1pc5sxx/i_rebuilt_tickerq_based_on_your_feedback_now/</guid>
       <pubDate>Tue, 02 Dec 2025 11:11:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个 AI 视频搜索工具，并将其开源，Reddit 很喜欢它</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pc5r7s/i_built_an_ai_video_search_tool_open_sourced_it/</link>
-      <description><![CDATA[       由   提交 /u/IliasHad   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pc5r7s/i_built_an_ai_video_search_tool_open_sourced_it/</guid>
-      <pubDate>Tue, 02 Dec 2025 11:08:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Angie 的列表适用于开源开发人员吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pc5njn/angies_list_but_for_open_source_developers/</link>
-      <description><![CDATA[是否有像 Fiverr/Angi 的列表这样专门针对开源开发人员的平台？ 不是一个错误赏金计划，而是一个小型企业可以雇用开源开发人员并按其花费的时间付费的平台（相对于订阅产品）   由   提交 /u/Last_Bad_2687   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pc5njn/angies_list_but_for_open_source_developers/</guid>
-      <pubDate>Tue, 02 Dec 2025 11:02:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amber 编程语言编译为 Bash，0.5.1 版本</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pc4lw6/amber_the_programming_language_compiled_to_bash/</link>
-      <description><![CDATA[      新的 0.5.1 版本为编译器提供了很多新内容，从新语法、stdlib 函数、特性等等。 PS：我是共同维护者之一，所以对于任何问题我都在这里 :-)   由   提交/u/Mte90  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pc4lw6/amber_the_programming_language_compiled_to_bash/</guid>
-      <pubDate>Tue, 02 Dec 2025 09:58:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>请愿书正式承认开源工作为德国的公民服务</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pc3s5f/petition_to_formally_recognize_open_source_work/</link>
-      <description><![CDATA[       由   提交/u/mr_house7  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pc3s5f/petition_to_formally_recognize_open_source_work/</guid>
-      <pubDate>Tue, 02 Dec 2025 09:03:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
