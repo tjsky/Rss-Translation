@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 02 Dec 2025 06:27:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Dec 2025 09:23:32 GMT</lastBuildDate>
+    <item>
+      <title>清单：从设计到开发的过渡是项目失去动力的地方。这是我们完美交接的清单。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pc3owd/checklist_the_transition_from_design_to_dev_is/</link>
+      <description><![CDATA[      因为它一直在发生：前端开发人员实际需要什么才能顺利实现（并避免“无休止的问题”循环）的细分。 此列表源自我们在 Team Blueshoe 学到的经验教训。也就是说，这是一份动态文档 - 我们很乐意听到您的想法并采纳您的反馈以使其变得更好。请随意在您的工作流程中使用它。   由   提交 /u/pyschille   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pc3owd/checklist_the_transition_from_design_to_dev_is/</guid>
+      <pubDate>Tue, 02 Dec 2025 08:57:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 CSS 检测页面是否可滚动，关闭溢出时防止页面回流</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pc2aka/detect_whether_a_page_is_scrollable_using_css/</link>
+      <description><![CDATA[ 由   提交 /u/bronkula   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pc2aka/detect_whether_a_page_is_scrollable_using_css/</guid>
+      <pubDate>Tue, 02 Dec 2025 07:26:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建基础设施可视化工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pc1h9g/building_an_infrastructure_visualizer/</link>
+      <description><![CDATA[      使用 Docker-Compose、Kubernetes 和 Terraform YAML 配置文件构建一个可视化基础设施的工具。它可以解析文件并帮助您可视化基础架构，并了解如果服务失败以及安全性和合规性问题，它将如何受到影响。此外，您还可以使用 WebLLM 与集成 AI 模型聊天，并尝试了解您的基础架构。    由   提交/u/alien128  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pc1h9g/building_an_infrastructure_visualizer/</guid>
+      <pubDate>Tue, 02 Dec 2025 06:36:17 GMT</pubDate>
+    </item>
     <item>
       <title>隆重推出 Kona：Rust 中的极速 JS/TS 捆绑器 – 比 esbuild 快 1.3 倍，并支持 HMR 和 React！</title>
       <link>https://www.reddit.com/r/webdev/comments/1pc0845/introducing_kona_a_blazingfast_jsts_bundler_in/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[你让他们先签合同，然后再付款吗？   由   提交/u/walkq   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pbr7wf/how_do_you_take_payments_when_selling_websites/</guid>
       <pubDate>Mon, 01 Dec 2025 22:38:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>我可以通过广告通过我的免费应用获利吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pbqca6/can_i_monetise_my_free_app_with_ads/</link>
-      <description><![CDATA[      大家好！简单问一下，我的应用开始受到一些关注，实际上现在没有免费的在线应用程序可以将您的视频压缩到10GB大小，这使其非常独特，我相信我很快就会获得更多流量。 我应该考虑添加广告吗？如果是这样，您认为下载强制广告或侧边广告会起作用吗？您的策略是什么。 我只是希望每月赚取 20-30 美元来支付服务器费用。   由   提交/u/No-Line-3463  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pbqca6/can_i_monetise_my_free_app_with_ads/</guid>
-      <pubDate>Mon, 01 Dec 2025 22:03:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>关注点分离：表示与数据</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pbpxb9/separation_of_concerns_presentation_vs_data/</link>
-      <description><![CDATA[场景 1： $sql = &quot;选择 round(coalesce(bonus, 0), 2) 作为奖励，... &lt;tr&gt;&lt;td&gt;&lt;?php echo $rs[&#39;bonus&#39;]&lt;/td&gt;&lt;/tr&gt; OR 场景 2： $sql = &quot;选择合并(bonus, 0.00) 作为奖金，... &lt;tr&gt;&lt;td&gt;&lt;?php echo number_format($rs[&#39;bonus&#39;], 2) ?&gt;&lt;/td&gt;&lt;/tr&gt; 将格式应用于 sql 或 PHP 输出？   由   提交/u/mapsedge  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pbpxb9/separation_of_concerns_presentation_vs_data/</guid>
-      <pubDate>Mon, 01 Dec 2025 21:47:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>视频上传限制为 5 kb？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pbovot/5_kb_upload_limit_for_a_video/</link>
-      <description><![CDATA[首先，我本人不是一名网络开发人员，我是一名营销人员，兼职做一些视频编辑。我有一系列短片，需要为某人的网站进行压缩。当我询问文件大小时，他们的 Web 开发人员说每个文件必须低于 5 kb。 问题：也许这是我的经验不足，但是否有可能将视频缩小到该大小......？当我尝试在 Adob​​e Media Encoder 中压缩时，我可以尝试的最小大小是 1 mb，对于该网页设计师来说，这对于 995 kb 来说太大了。 ***答案：谢谢大家的回复！我认为这只是网络开发人员电子邮件中的一个拼写错误。在发布此内容之前我还没有要求澄清，因为我太担心看起来我不知道自己在做什么......所以你的评论增强了我的信心！仍在等待电子邮件回复来确认这一点，但现在我注意到 M 和 K 在键盘上的距离有多近......哈哈。 我决定在这里而不是在视频编辑空间中问这个问题，因为我觉得可能存在对质量而非功能的偏见。是的，我想保持质量，但如果他们无法将其上传到他们的网站，那就没用了。 我很感激有关此事的任何反馈！我不知道我是否被赋予了一项不可能完成的任务，或者我只是一个菜鸟。   由   提交/u/whimsicat777  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pbovot/5_kb_upload_limit_for_a_video/</guid>
-      <pubDate>Mon, 01 Dec 2025 21:07:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
