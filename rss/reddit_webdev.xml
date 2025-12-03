@@ -4,7 +4,56 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 03 Dec 2025 03:50:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 06:27:05 GMT</lastBuildDate>
+    <item>
+      <title>改善项目范围的工具或流程？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcwsoi/tool_or_process_to_improve_project_scope/</link>
+      <description><![CDATA[所以我经营一家机构，我注意到我们的工作周期中存在一个明显的问题。每次的时间表都是这样的： - 我们根据客户的要求（线框）为项目制作低细节草图。我们详细介绍每个按钮、窗口或表格 - 显示什么、它做什么以及它如何影响其他一切。 - 我们以书面形式正式确定最终需求，作为规范，包括数据模型、表模式等。 - 我们进行设计，获得客户批准； - 我们开发解决方案并将其呈现给客户。 现在，有趣的部分从客户实际使用产品时开始 - “改变那个”，“改变这个”，“哦，我们实际上应该这样做”。 我不责怪他们，我承认在第一次通过时很难指定所有内容，并且当你实际使用某些东西时，你可以最好地了解你的需求。 当然我可以指出法律协议，但我们仍然希望为客户提供最佳价值，所以我们继续。 问题是：您是否知道对流程进行的任何调整或可以最大限度地减少这种情况的工具？我可以想象只制作一个没有真实后端的 MVP，或者只制作带有模拟数据的前端，但最好能够通过一些简单的逻辑输入真实数据。尽管这需要时间，这可能与稍后进行客户修复相当。   由   提交 /u/mark_tyler   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcwsoi/tool_or_process_to_improve_project_scope/</guid>
+      <pubDate>Wed, 03 Dec 2025 06:22:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我应该为我的 6 页静态网站选择 Linux 主机还是 Windows 主机？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcwpfc/linux_or_windows_hosting_which_one_should_i_get/</link>
+      <description><![CDATA[正在寻找可以托管至少 3 个网站的虚拟主机，每个网站还需要 10 封电子邮件。 我遇到了“big rock”我喜欢这个计划，但我不知道我是否需要 Windows 或 Linux 托管。 需要你的帮助！！！ 如果有人有任何抱怨，关于大石头的不愉快经历，请告诉。   由   提交 /u/Few_Cockroach5792   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcwpfc/linux_or_windows_hosting_which_one_should_i_get/</guid>
+      <pubDate>Wed, 03 Dec 2025 06:17:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的新网络安全工具 SynapseAudit</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcvudo/my_new_cybersecurity_tool_called_synapseaudit/</link>
+      <description><![CDATA[      我已经在这个名为 SynapseAudit 的项目上工作了一段时间，并且认为我应该分享它，因为它终于开始感觉像一个实际的工具，而不是我桌面上的随机文件夹。 其核心是一个代码扫描器，用于查找通常最终会在以后变成安全问题的模式。诸如粗略的输入处理、硬编码秘密、不安全的函数、弱加密模式等。一切都在 VS Code 内或通过 CLI 离线运行，因此它不会将代码转储到任何地方。 这是我的 VScode 扩展的链接 我还构建了一个小型仪表板（托管）如果您想跟踪一段时间内的问题，您可以在该网站上同步过去的扫描。它是完全可选的，因为我大多数时间都喜欢离线工作，所以同步更像是“如果你想要历史记录就使用它”的事情。 链接到我的网站 对我来说最酷的部分是扩展/CLI 实际上捕获了我过去在快速检查期间错过的内容，并且仪表板可以帮助我查看我重复的错误类型。仍在改进规则集，并尽量不要让它变得太吵闹。 不卖任何东西。只是分享，因为构建它很有趣，而且我很好奇人们希望工具尽早标记出什么样的漏洞模式。    由   提交/u/incel_i9_13gen   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcvudo/my_new_cybersecurity_tool_called_synapseaudit/</guid>
+      <pubDate>Wed, 03 Dec 2025 05:28:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>每个后端工程师都应该了解哪些数据库概念？需要资源+建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcvkoa/what_database_concepts_should_every_backend/</link>
+      <description><![CDATA[大家好！ 我正在加强我的后端基础知识，我意识到数据库概念实际上有多深。我已经了解 postgresql 的基础知识（CRUD、简单查询等），但我想提高水平并正确理解以下内容：  索引（B 树、哈希、复合......） 查询优化和查询解释计划 事务+隔离级别 架构设计和架构设计规范化/反规范化 ACID 深度连接 迁移 ORM 与原始 SQL NoSQL 类型（文档、键值、图形、宽列……） 复制、分区、分片 CAP 定理 缓存（Redis） 对于现实世界的后端工作还有其他重要的事情  （所有这些都来自人工智能） 如果您是一位经验丰富的后端工程师或 DBA，我绝对应该学习哪些概念？您有任何推荐的资源、书籍、课程、YouTube 频道、博客、备忘单或您自己的技巧吗？ 我的目标是打下坚实的基础，而不仅仅是学习随机位，因此结构化方法会很棒。   由   提交 /u/goodguyseif   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcvkoa/what_database_concepts_should_every_backend/</guid>
+      <pubDate>Wed, 03 Dec 2025 05:14:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>从 FTP 编辑：只有 Kate 完全加载文件</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcvhg8/editing_from_ftp_only_kate_loads_the_file/</link>
+      <description><![CDATA[Kubuntu 25.10 连接到运行 Filezilla FTP 服务器的 Windows Server 2022 我通过 Dolphin 使用 FTP 连接到特定服务器。右键单击该文件，选择“打开方式...”  Kate：打开文件，没问题。 VSCode/Codium：在本地下载文件，但没有内容 VIM：不确定它在做什么，但打开时没有内容。 Kate 有很多小烦恼，所以我非常、非常宁愿使用 Codium。 我已经这样工作很多年了，这是我第一次遇到这样的问题。有人知道吗？   由   提交/u/mapsedge  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcvhg8/editing_from_ftp_only_kate_loads_the_file/</guid>
+      <pubDate>Wed, 03 Dec 2025 05:10:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立投资组合是网络开发中一个良好的长期利基市场吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcupoe/is_building_portfolios_a_good_longterm_niche_in/</link>
+      <description><![CDATA[我开始专注于为学生和早期职业开发者构建作品集网站。目标不仅仅是金钱 - 我想要 1. 改进 UI/UX 2. 练习速度 3. 学习客户处理 4. 建立现实世界的证明 对于已经在该领域的人 - 这个利基值得深入研究吗？ 或者我应该将此作为一个起点，然后再进入其他领域？    由   提交 /u/Any_Ground8547   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcupoe/is_building_portfolios_a_good_longterm_niche_in/</guid>
+      <pubDate>Wed, 03 Dec 2025 04:29:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vercel 网站出现 DNS 错误</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcun9g/vercel_site_getting_dns_error/</link>
+      <description><![CDATA[大家好，我们在 Vercel 上托管我们的前端，从昨天开始，一些区域出现了 DNS_PROBE_ERROR。我们没有更改 Vercel 或我们的域名注册商上的任何 DNS 记录。 我注意到 Vercel 最近更新了他们的 DNS 记录，因此我更新了我们的记录以匹配，但这并没有解决问题。奇怪的是，有些区域可以完美解决，而另一些则不能。之前它对我不起作用，但现在突然又起作用了。 我检查了 DNSChecker，看起来有几个 DNS 服务器根本无法解析我们的域。我不完全确定根本原因是什么。 这是 DNSChecker 链接：https://dnschecker.org/#A/thedrive.ai 如果有人有洞察力，我将非常感激。我们的网站已经关闭一天多了。    由   提交/u/karkibigyan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcun9g/vercel_site_getting_dns_error/</guid>
+      <pubDate>Wed, 03 Dec 2025 04:26:33 GMT</pubDate>
+    </item>
     <item>
       <title>人工智能不会很快抢走我们的工作</title>
       <link>https://www.reddit.com/r/webdev/comments/1pcss66/ai_isnt_taking_our_jobs_anytime_soon/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[ 我通过 MediaPipe 示例尝试了 Google 的 Gemma 模型，解决了通过缓冲区在 JS 示例中加载较大文件的问题，之前它只会将整个模型加载到内存中，而对于 Gemma 3N 等较大模型会崩溃。 （在 MediaPipe 存储库上创建了一个问题，并准备好修复，所以祈祷吧。） 由于它可以在常规网页上运行，所以我认为将其放入扩展中将是一个好主意，并且让较小的模型（Gemma 3 1B）工作（是的，我知道 Edge LLM 优势表非常有偏见，这是注定的）：https://github.com/RandomGamingDev/local-on-device-llm-browser-extension-example 所有这些示例甚至可以在普通手机上完美运行，这很棒。 问题： 但是，我遇到了一个问题在哪里，希望模型在后台加载并重用（是的，我知道内容脚本可以处理负载，因为它们是网页的一部分，但它们在初始化时针对每个页面，这是非常昂贵的）我决定使用离屏页面（比后台服务工作者更灵活，包括空闲时间，DOM对于具有多模式模型的媒体内容很好，但如果需要的话我愿意牺牲它），尽管常规网页能够完美处理它，但它似乎无法处理更大的模型使用完全相同的代码。 请记住，我可能在这里犯了一个愚蠢的错误，因为我实际上不太使用浏览器扩展。也许存在一些权限问题限制了其资源，也许首先有一种更好的缓冲方法可以工作。 主要问题：建议的方法是什么，可以在浏览器后台的浏览器扩展中获得足够的资源来运行更大的LLM（例如Gemma 3N系列），而无需为每个页面重新加载它或显示丑陋的侧边栏之类的东西？ 即时上下文： src/index.js（屏幕外页面的脚本）： // HTML 元素 const input = document.getElementById(&#39;input&#39;); const 输出 = document.getElementById(&#39;output&#39;); const Submit = document.getElementById(&#39;提交&#39;); // 创建一个后台监听器，这样就不必重新加载所有内容，并且所有内容都是抽象的 const RUNTIME = typeof browser !== &#39;undefined&#39; ? browser.runtime : chrome.runtime; function connect() { const port = RUNTIME.connect({ name: &quot;mediapipe-llm&quot; }); port.onMessage.addListener((msg) =&gt; { // 流式传输部分结果 output.textContent += msg.partialResult; // 如果响应完成，则允许输入另一个提示 if (msg.complete) { Submit.disabled = false; Submit.value = &quot;获取响应&quot;; } }); // 向后台工作服务器发送请求，以便它可以中继与离屏页面之间的输入和响应submit.onclick = () =&gt;; { // 如果正在生成响应，则停止输入另一个提示 output.textContent = &quot;&quot;;提交.disabled = true; commit.value = &quot;正在生成响应...&quot;; // 来自本地服务器的请求（特别是后台代理，将从屏幕外页面请求）LLM 的推理 port.postMessage({ input: input.value }); }; port.onDisconnect.addListener(() =&gt; { console.log(&quot;与 MediaPipe 本地服务器断开连接&quot;); Submit.disabled = true; Submit.value = &quot;断开连接&quot;; }); } // 将初始状态设置为禁用并开始轮询准备情况。提交.disabled = true; commit.value = &quot;正在初始化...&quot;; const readyInterval = setInterval(() =&gt; { RUNTIME.sendMessage(&#39;is_ready&#39;, (isReady) =&gt;; { if (isReady) {clearInterval(readyInterval); Submit.disabled = false; Submit.value = “获取响应”; connect(); } }); }, 1000); // 每秒轮询一次。  注意： 存储库需要上下文，因为粘贴整个内容将是一个怪物。不是自我推销。   由   提交 /u/RandomGamingDev   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pcm68g/local_llm_doesnt_fit_in_browser_extension/</guid>
       <pubDate>Tue, 02 Dec 2025 22:09:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为学生正在寻找免费的批量 IP 定位 API</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pcm50d/looking_for_free_bulk_ip_to_location_api_as_a/</link>
-      <description><![CDATA[您好！我正在开展一个最终项目，需要获取 50 万多个 IP 地址并将它们转换为数据可视化的位置。我想使用 API，因为我的团队正在考虑将其变成一个假的公共工具（它永远不会真正上线，但我们想推动自己），并且我们很难找到不受超级速率限制的东西，但我们不确定它是否值得付费，当我们尝试使用免费数据集制作我们自己的转换器时，地址非常关闭，例如说达拉斯是休斯顿。我们只需要位置，不需要服务提供商之类的东西，我们只需要填写地图的坐标位置名称的字符串会很棒。我们应该放弃这里并使用我们自己的糟糕转换器还是存在资源？   由   提交 /u/sharlverstappening   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pcm50d/looking_for_free_bulk_ip_to_location_api_as_a/</guid>
-      <pubDate>Tue, 02 Dec 2025 22:08:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何停止过度构建简单项目？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pclwls/how_do_you_stop_overbuilding_simple_projects/</link>
-      <description><![CDATA[每次我开始一个小型网络项目时，我发誓我只会创建一个基本版本......然后突然我花了五个小时，设置一个复杂的文件夹结构并思考我稍后可能需要哪个状态管理器。这个项目本身最终会花费很长时间，有时我会放弃它。如何让事情变得简单而又不会让人觉得自己做错了？您有什么建议可以防止自己添加实际上还不需要的东西吗？   由   提交 /u/datboifranco   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pclwls/how_do_you_stop_overbuilding_simple_projects/</guid>
-      <pubDate>Tue, 02 Dec 2025 21:59:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web 开发远程作业应用程序</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pckx2p/web_development_remote_jobs_app/</link>
-      <description><![CDATA[在我的求职聚合网站上工作了几年之后，我决定制作一个应用程序。它称为“智能远程工作”，您可以从 Google Play 商店下载：https://play.google.com/store/apps/details?id=com.smartremotejobs.twa 它完全免费，包含我从十几个招聘委员会收集的多个远程工作机会。还有一些网络开发机会。请随意使用它来寻找您的下一份远程工作。    由   提交 /u/datadrivenguy86   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pckx2p/web_development_remote_jobs_app/</guid>
-      <pubDate>Tue, 02 Dec 2025 21:21:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bun 加入 Anthropic</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pch41f/bun_is_joining_anthropic/</link>
-      <description><![CDATA[       由   提交/u/Old-School8916   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pch41f/bun_is_joining_anthropic/</guid>
-      <pubDate>Tue, 02 Dec 2025 18:59:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找有关餐厅预订系统的真实意见（Resy、OpenTable、SevenRooms、Tock）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pcgv9t/looking_for_realworld_opinions_on_restaurant/</link>
-      <description><![CDATA[我正在为一家餐厅构建一个新网站，我们正在尝试选择一个不会破坏视觉设计的预订系统。 TouchBistro 的小部件……不太好，根本无法设计样式，因此我们正在寻找替代方案。 如果您曾与 Resy、OpenTable、SevenRooms 或 Tock 合作过，您能分享一下他们的网站集成有多好吗？ 我关心的主要事情：   嵌入/小部件在自定义网站上显示（尤其是深色主题） 它是否真正匹配您网站的品牌或突出 登陆页面内的移动行为 React/Next.js 或标准 HTML 中嵌入的任何问题  不寻找 POS 意见 - 只是网络嵌入 + 美观控制方面。 谢谢！   由   提交 /u/oldzilla   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pcgv9t/looking_for_realworld_opinions_on_restaurant/</guid>
-      <pubDate>Tue, 02 Dec 2025 18:50:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于代理编码的思考</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pcgj3y/thoughts_on_agentic_coding/</link>
-      <description><![CDATA[我一直在更深入地尝试代理编码，这让我重新思考如何构建软件。  我注意到的一个关键区别是前期成本。使用代理编码，我感到前期成本更高：在模型开始生成代码之前，我必须考虑架构、约束和成功标准。我必须将我通常保留在头脑中的心理模型具体化，以便人工智能可以使用它进行操作。  在“精确编码”中，前期成本很小，但这只是因为我在心理上承受了大部分的复杂性。当我写作时，所有的设计决策、边缘情况和上下文假设都在我的脑海中。测试更像是最后的验证步骤。  我意识到，代理编码将我的认知负荷从按需执行转移到更多预先计划的执行（我的行为更像是一名研究人员而不是黑客）。我的角色不是“精确地”实现每一个逻辑，而是足够清晰地定义问题空间，以便代理能够可靠地组装解决方案。  另一个观察结果是，由于编写代码的成本是最小的，因为代理被委托来编写代码，因此我需要转移和上下文，并承担 QA 角色来评估代理的输出。 想听听您的想法吗？   由   提交 /u/grandimam   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pcgj3y/thoughts_on_agentic_coding/</guid>
-      <pubDate>Tue, 02 Dec 2025 18:38:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个工具，使用 Linear() （加上 Bezier 可视化）在纯 CSS 中生成 Spring 物理</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pcg4dt/i_built_a_tool_to_generate_spring_physics_in_pure/</link>
-      <description><![CDATA[      大家好， CSS 过渡本身支持三次贝塞尔曲线（平滑曲线），但不支持弹簧（弹性物理），这一点我一直觉得很烦人。通常，如果我想要弹跳，我必须使用像 Framer Motion 或 GS​​AP 这样的重型 JS 库，或者使用关键帧进行猜测。 我构建了一个名为 EaseMaster 的工具来解决这个问题。 它在浏览器中运行物理模拟（RK4 集成），对轨迹进行采样，并将其转换为 CSS linear() 函数。这使您可以在普通 CSS 或 Tailwind 中使用真实的、有弹性的弹簧物理，而无需任何运行时 JavaScript 开销。 它的作用：  双编辑器：并排可视化三次贝塞尔曲线和弹簧物理。 上下文预览：同时测试位置、缩放、旋转和不透明度的缓动（因为这种缓动看起来很好移动）可能看起来很糟糕的褪色）。 多重导出：为 Tailwind、Framer Motion、GSAP 和标准 CSS 生成代码。 预设：包括标准 Penner 方程、Material Design 曲线和 iOS 风格的弹簧。  技术堆栈：  Next.js 16 Zustand（状态） Shadcn UI + Tailwind v4 物理引擎的自定义数学解算器  免费使用。我很想听听您对用户体验的反馈，或者我是否错过了任何主要的缓动功能！ 链接： EaseMaster Repo： Github   由   提交/u/satishkumar_sajjan   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pcg4dt/i_built_a_tool_to_generate_spring_physics_in_pure/</guid>
-      <pubDate>Tue, 02 Dec 2025 18:23:30 GMT</pubDate>
     </item>
     </channel>
 </rss>

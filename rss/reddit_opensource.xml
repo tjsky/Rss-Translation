@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 03 Dec 2025 03:50:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 06:27:12 GMT</lastBuildDate>
+    <item>
+      <title>BranchBouncer - GitHub 存储库的简单 PR 验证工具</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pcwt5g/branchbouncer_a_simple_pr_validation_tool_for/</link>
+      <description><![CDATA[ 由   提交 /u/Glad-Vehicle-8244   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pcwt5g/branchbouncer_a_simple_pr_validation_tool_for/</guid>
+      <pubDate>Wed, 03 Dec 2025 06:23:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何从 git 历史记录中删除不需要的大文件？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pcvzqi/how_do_i_remove_a_large_unwanted_file_from_my_git/</link>
+      <description><![CDATA[大家好，我的存储库中存在一个问题，其中包含一个大型二进制文件（大约 65MB 的构建输出）的 PR 被意外合并到主存储库，问题是那时我们没有进行压缩合并，现在该文件似乎已永久写入我们的 Git 历史记录中，并且当一个人尝试克隆存储库时，它会下载价值 66mbs 的文件，是的，实际有用的代码以千字节为单位。  最简单的方法是什么？ GitHub 是否提供了解决此类问题的工具？ 即使您有像博客文章这样可能有帮助的资源，请分享它。   由   提交 /u/Mother-Pear7629   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pcvzqi/how_do_i_remove_a_large_unwanted_file_from_my_git/</guid>
+      <pubDate>Wed, 03 Dec 2025 05:36:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>想分享我的三个开源项目！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pcvfrj/wanting_to_share_my_three_open_source_projects/</link>
+      <description><![CDATA[Benday：用于编辑盲文 ASCII 艺术作品的工作流程 CLI 是否曾经想过是否可以加快盲文 ASCII 艺术作品的编辑速度？这可能适合你。您在首选图像编辑器上编辑（半自定义）图像文件，它将反映在终端上。这是三者中最令人印象深刻的，所以如果你只想看一个，看看这个家伙的 Github 页面。 功能  图像上的首选填充（盲文字符之间）以反映终端显示（这就是我首先这样做的原因） 注释像素（不强制清洁就无法清洁）用于任何占位符目的 清洁、填充切换和调整大小操作 导出和导入盲文 ASCII 文本  查看：https://github.com/noAbbreviation/benday 发布：https://github.com/noAbbreviation/benday/releases Dihdah：学习摩尔斯电码的训练练习 其作用非常不言自明。 功能  字母、单词和引用练习 Vim键绑定（只是不是立即显而易见）  查看：https://github.com/noAbbreviation/dihdah 发布：https://github.com/noAbbreviation/dihdah/releases Approxima：一个大声报时的命令行程序（以 5 分钟为单位） 也很不言自明。只是让它变得可移植和其他东西。 功能  可移植、可管道传输、可以静音、替代较短格式 只是做它的东西或其他东西  看看：https://github.com/noAbbreviation/approxima 发布： https://github.com/noAbbreviation/approxima/releases 希望这些东西对其他人有帮助。再见！   由   提交 /u/regSpec   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pcvfrj/wanting_to_share_my_three_open_source_projects/</guid>
+      <pubDate>Wed, 03 Dec 2025 05:07:39 GMT</pubDate>
+    </item>
     <item>
       <title>在 Mac M3 Pro 上批量处理高档视频 Topaz 级别而不会过热或节流的最佳方法？</title>
       <link>https://www.reddit.com/r/opensource/comments/1pcke5b/best_way_to_batch_upscale_videos_topaz_level_on/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[       由   提交/u/aledrone759  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1pc6zmi/just_made_a_kde_yahoo_finance_tracker_applet/</guid>
       <pubDate>Tue, 02 Dec 2025 12:18:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>儿童记忆匹配游戏（Android）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pc65l8/memory_match_for_kids_game_android/</link>
-      <description><![CDATA[      GitHub 链接：https://github.com/RikudouSage/KidMemoryGame Play 商店链接：https://play.google.com/store/apps/details?id=cz.chrastecky.kidsmemorygame Galaxy 商店链接：https://galaxystore.samsung.com/detail/cz.chrastecky.kidsmemorygame  所以我制作这个游戏是因为我想让孩子们有一些有效的方式来度过屏幕时间，而记忆训练感觉是一个很好的方法。我的理由基本上是“如果他们花时间在手机/平板电脑上，不妨学点东西，而不是盲目地看视频。” 特点：  完全开源，无广告，无跟踪 多种可爱的主题包（海洋动物，农场动物，恐龙，车辆等） 友好的背景音乐 大图标，无需阅读，只需学习一些图标 多种尺寸 - 最小的简单为 2x2，一直到 6x5，甚至挑战自己 如果您选择捆绑所有资源的版本，该应用程序甚至无法访问互联网 自定义主题包 - 如果您想将孩子最喜欢的电视节目中的角色添加到游戏中，就是这样（教程即将推出，目前只有如何操作的概述）该流程适用于具有 Android 开发经验的人）   如果您选择 Play 商店路线，我会非常高兴获得评分！欢迎提供所有反馈，无论是在评论中、在 GitHub 问题中还是在 Play 商店评论中！   由   提交/u/Rikudou_Sage  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pc65l8/memory_match_for_kids_game_android/</guid>
-      <pubDate>Tue, 02 Dec 2025 11:31:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>适用于 Android 的开源电子邮件客户端</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pc62vl/open_source_email_client_for_android/</link>
-      <description><![CDATA[是否有任何开源电子邮件客户端，具有干净的 UI 并具有类似于 Outlook 的规则创建功能（针对文件夹）？   由   提交 /u/pointgourd   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pc62vl/open_source_email_client_for_android/</guid>
-      <pubDate>Tue, 02 Dec 2025 11:27:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>我根据您的反馈重建了 TickerQ。现在 v8/9/10 已经准备好了。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pc5sxx/i_rebuilt_tickerq_based_on_your_feedback_now/</link>
-      <description><![CDATA[ 由   提交/u/Albertiikun  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pc5sxx/i_rebuilt_tickerq_based_on_your_feedback_now/</guid>
-      <pubDate>Tue, 02 Dec 2025 11:11:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
