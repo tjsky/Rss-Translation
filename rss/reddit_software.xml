@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 03 Dec 2025 09:21:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 12:35:33 GMT</lastBuildDate>
+    <item>
+      <title>“存储已满”恐慌：如何处理数千个重复项。</title>
+      <link>https://www.reddit.com/r/software/comments/1pd1zaf/the_storage_full_panic_how_to_deal_with_thousands/</link>
+      <description><![CDATA[我们都有这样的习惯：你看到美丽的东西（日落、你的宠物、一群朋友），你不只是拍一张照片。 你需要十个。为了安全起见。 “其中之一必须是锋利的，”对吗？ 这种行为目前很聪明 - 但以后对我们的手机存储来说是一场灾难。 几周过去了，当您想要拍摄视频时，突然会弹出可怕的“存储已满”通知。 现实是：90% 的图库由“安全镜头”组成。您将永远不会再看到它。它们在技术上与“Good Shot”相同。但它们会阻塞您的手机并迫使您购买昂贵的云升级。 解决方案（“胜者为王”规则）：解决此问题而不发疯的唯一方法是改变您查看相机胶卷的方式。把它当作一场比赛。对于每组 10 张照片，只能有一个获胜者。亚军不获得参与奖杯；它们会被删除。 让它变得可以忍受的工具：手动对这些重复项进行排序是乏味而无聊的。这就是我和我的朋友（我们是三个学生）建立画廊排序的原因。它专为解决“重复问题”而设计。  向左滑动：删除 9 个不好的“安全镜头”。 向右滑动：保留 1 个完美的“获胜者”。  它可以帮助您在几分钟而不是几小时内清除垃圾，从而使您免于陷入困境。 “存储已满”无需升级您的 iCloud/Google Drive 套餐即可恐慌。 我们以 0 欧元预算构建了这个项目，作为一个充满热情的项目，因此基本的清洁功能是完全免费的。如果您的重复项失控，请尝试一下！ 您对此有何想法？您的图库中还有很多照片吗？   由   提交 /u/_Cryptnos   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1pd1zaf/the_storage_full_panic_how_to_deal_with_thousands/</guid>
+      <pubDate>Wed, 03 Dec 2025 11:42:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个 Windows 工具，通过在组合层工作来隐藏屏幕共享中选定的窗口</title>
+      <link>https://www.reddit.com/r/software/comments/1pd0us9/i_built_a_windows_tool_that_hides_chosen_windows/</link>
+      <description><![CDATA[我一直在尝试 Windows 如何为 Zoom、Teams、Google Meet 和 Discord 等工具捕获和合成窗口。大多数人认为屏幕共享显示显示器上的所有内容，但 Windows 实际上通过组合层为应用程序提供了桌面的过滤版本。 我想看看是否可以从该捕获中排除特定窗口。这变成了一个名为 Cloakly 的小项目。它创建了一个只有用户才能看到的覆盖窗口，而屏幕共享 API 收到了一个清理版本，其中选定的窗口从组合中删除了。 通过深入研究 Windows 如何处理窗口表面、捕获权限和 DWM 行为，我学到了很多东西。如果有人对技术方面感兴趣，我很乐意分享我的发现，我如何避免向流程中注入任何内容，以及如何保持轻量级，以便它可以在 Teams、Meet、Zoom 和 Discord 上运行。 链接：https://www.getcloakly.com/   由   提交/u/Annual-Chart9466   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1pd0us9/i_built_a_windows_tool_that_hides_chosen_windows/</guid>
+      <pubDate>Wed, 03 Dec 2025 10:37:44 GMT</pubDate>
+    </item>
     <item>
       <title>我不喜欢Windows文件资源管理器中的侧边栏，所以我做了一个更好的版本</title>
       <link>https://www.reddit.com/r/software/comments/1pczd13/i_dont_like_the_sidebar_in_windows_file_explorer/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[我在后端开发方面有大约 4 年的经验，我的技术堆栈是 java with spring、mySql 和 MongoDb 以及用于服务器的 GCP。  我现在处于通知期，在接下来的 1.5 个月内不会收到工资，而且我还有账单要支付。所以我想在这段时间做一些自由职业来赚一些额外的钱。  我的问题是： 1. 哪些平台最适合寻找此类机会？ 2、一个月能赚多少钱，会累吗？ 3. 自由职业者同时为另一家公司工作是否违法？    由   提交/u/jessepinkman-420   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1pcn3ff/how_to_look_for_freelancing_opportunities/</guid>
       <pubDate>Tue, 02 Dec 2025 22:45:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>应用系统公司起诉 Comulate 欺诈和知识产权盗窃</title>
-      <link>https://www.reddit.com/r/software/comments/1pcmm5q/applied_systems_sues_comulate_for_fraud_and_ip/</link>
-      <description><![CDATA[还有人听说 Applied Systems 正在起诉 Comulate 吗？根据 Applied 的说法，Comulate 基本上是应用木马来窃取其专有数据。与此同时，Comulate 声称这只是 Applied 公司的一个策略，因为他们感到很受伤，无法购买 Comulate，而且因为 Comulate 比他们更好（？）。  对我来说，Comulate 似乎不可能通过可公开访问的数据来获取所有这些数据。有人能给我解释一下吗？   由   提交/u/whyme-whytheworld   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1pcmm5q/applied_systems_sues_comulate_for_fraud_and_ip/</guid>
-      <pubDate>Tue, 02 Dec 2025 22:27:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪种麦克风背景噪音消除工具对游戏中的 FPS 影响最小？ Nvidia Broadcast vs OBS RNNoise Filter vs 均衡器 APO 插件</title>
-      <link>https://www.reddit.com/r/software/comments/1pcmm19/which_microphone_background_noise_removal_tool/</link>
-      <description><![CDATA[我的立式风扇产生了很多背景噪音，这些噪音被我的麦克风捕获。我只是想知道哪种降噪工具对游戏中的 FPS 影响最大？ 我有 Ryzen 5 9600x + 5070Ti。 我的理解是 Nvidia Broadcast 更多地使用 GPU，这让我相信它在所有工具中的 FPS 损失最大？ 而 OBS RNNoise Filter 使用 CPU，如果大多数游戏只使用少数 CPU核心，如果 OBS 使用我的其他免费核心，这不会对性能产生影响？ 均衡器 APO RNNoise 插件似乎是性能最高的，因为它与 OBS 类似，因为它使用 CPU，但也比 OBS 更好，因为该应用程序仅专用于音频？   由   提交 /u/Salt_Court_6490   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1pcmm19/which_microphone_background_noise_removal_tool/</guid>
-      <pubDate>Tue, 02 Dec 2025 22:26:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
