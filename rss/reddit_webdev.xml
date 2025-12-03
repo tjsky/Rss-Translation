@@ -4,13 +4,27 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 03 Dec 2025 01:18:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 03:50:25 GMT</lastBuildDate>
     <item>
-      <title>我尝试过的 Critical CSS 生成器仍然失败，这是我第二次尝试做正确的事情</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pcpt52/the_critical_css_generators_ive_tried_still_fail/</link>
-      <description><![CDATA[几个月前我分享了我的 Critical CSS 生成器。它引起了一些关注（尤其是来自 Hacker News）https://news.ycombinator.com/item?id=43901495，当天的访问量高达 14,000 次。 我什至找到了该项目的逐字副本，但结果不同，在我看来并不那么好。公平地说，我的工具的基础是 Penthouse https://github.com/pocketjoso/penthouse，所以要感谢他们。 根据反馈，我做了一些更改：  使其与 React 和 Vue 等前端框架兼容。 使其更漂亮。 移动它到我的主域，因为它获得了反向链接。  这是工具： https://kigo.studio/tools/ritic-css-generator  欢迎任何反馈。   由   提交 /u/stvndocean   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pcpt52/the_critical_css_generators_ive_tried_still_fail/</guid>
-      <pubDate>Wed, 03 Dec 2025 00:41:17 GMT</pubDate>
+      <title>人工智能不会很快抢走我们的工作</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcss66/ai_isnt_taking_our_jobs_anytime_soon/</link>
+      <description><![CDATA[      我要求 Cursor Opus 4.5 修复无线电输入正在返回“on” params，简单的解决方案是将“值”添加到输入的属性。结论是添加隐藏文本输入字段就是答案。 当被问及为什么这样做时，它说：  https://preview.redd.it/nqxacuellw4g1.png?width=714&amp;format=png&amp;auto=webp&amp;s=dc4b212cfb2e9059abbe23cdc014d4174d99ed98   由   提交/u/AnLe90  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcss66/ai_isnt_taking_our_jobs_anytime_soon/</guid>
+      <pubDate>Wed, 03 Dec 2025 02:56:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSV 文件转换为字符串（$binary）？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcshku/csv_file_into_stringbinary/</link>
+      <description><![CDATA[我对使用 api 比较陌生，不确定应该在哪里询问这个问题。为了保持简短，我需要在正文中有一个 csv 文件。查看提供的文档，csv 需要采用 string($binary) 格式，并且调用本身是 multipart/form-data。让它在 Postman 和 Curl 中工作，但仍然很难让调用在 Javascript 中工作。 到目前为止，我已经尝试内置 formdata，直接在 csv 上使用 createReadStream 并将其作为值，并将缓冲区数据放入 Blob 并将其用作值。我还尝试安装 form-data 包并使用它。 我要么收到一条错误消息，指出正文中的所有必需值均为空，要么 csv 文件必须具有标题和至少 1 行数据（我已多次确认已经拥有）。不幸的是，那些应该帮助我的人在 Curl 和 Postman 上工作时就不再这样做了，所以我被迫自己进行调查。 有什么想法我可能做错和/或错过了什么，要修复什么并最终让它工作吗？   由   提交/u/WM1310  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcshku/csv_file_into_stringbinary/</guid>
+      <pubDate>Wed, 03 Dec 2025 02:43:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>TypeScript 7 的进展 - 2025 年 12 月</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pcqzn3/progress_on_typescript_7_december_2025/</link>
+      <description><![CDATA[      TypeScript 的原生移植之旅似乎相当成熟，他们今天正在积极鼓励用户尝试。 TS 7.0 包含了很多东西，例如 - 弃用 AMD、UMD、SystemJS 输出。 - 全力以赴&gt; ES6 仅输出 - 更好的 rootDir 默认值 - baseUrl 消失 - 始终 strict - 删除有利于命名空间的模块 - 默认 target 是 ES2025 最重要的是，大多数项目将在 1 秒内编译。 🚀 但最大的缺点是新的 API 不会与现有的 API 兼容。因此，基于 TS API 构建的现有生态系统需要更新。总的来说，这个版本看起来已经相当不错了。 关于发布时间，TS 6.0 很快就会发布，在接下来的几个月内。然后 TS 7.0 将再煮一两个季度。所以我最好的猜测是 2026 年夏天。   由   提交/u/ray591  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pcqzn3/progress_on_typescript_7_december_2025/</guid>
+      <pubDate>Wed, 03 Dec 2025 01:34:37 GMT</pubDate>
     </item>
     <item>
       <title>创建了一个包来生成代码库的可视化交互式维基</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[      大家好， CSS 过渡本身支持三次贝塞尔曲线（平滑曲线），但不支持弹簧（弹性物理），这一点我一直觉得很烦人。通常，如果我想要弹跳，我必须使用像 Framer Motion 或 GS​​AP 这样的重型 JS 库，或者使用关键帧进行猜测。 我构建了一个名为 EaseMaster 的工具来解决这个问题。 它在浏览器中运行物理模拟（RK4 集成），对轨迹进行采样，并将其转换为 CSS linear() 函数。这使您可以在普通 CSS 或 Tailwind 中使用真实的、有弹性的弹簧物理，而无需任何运行时 JavaScript 开销。 它的作用：  双编辑器：并排可视化三次贝塞尔曲线和弹簧物理。 上下文预览：同时测试位置、缩放、旋转和不透明度的缓动（因为这种缓动看起来很好移动）可能看起来很糟糕的褪色）。 多重导出：为 Tailwind、Framer Motion、GSAP 和标准 CSS 生成代码。 预设：包括标准 Penner 方程、Material Design 曲线和 iOS 风格的弹簧。  技术堆栈：  Next.js 16 Zustand（状态） Shadcn UI + Tailwind v4 物理引擎的自定义数学解算器  免费使用。我很想听听您对用户体验的反馈，或者我是否错过了任何主要的缓动功能！ 链接： EaseMaster Repo： Github   由   提交/u/satishkumar_sajjan   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pcg4dt/i_built_a_tool_to_generate_spring_physics_in_pure/</guid>
       <pubDate>Tue, 02 Dec 2025 18:23:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>推荐课程打折吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pcfvm6/recommended_courses_on_sale/</link>
-      <description><![CDATA[看到 Josh W. Comeau 的 Joy for JS 在黑色星期五促销，我想知道这个假期是否还有其他与 Web 开发相关的推荐课程促销？   由   提交/u/man-with-no-ears   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pcfvm6/recommended_courses_on_sale/</guid>
-      <pubDate>Tue, 02 Dec 2025 18:14:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>我应该向我的 Fiver 开发人员提供我的托管帐户登录信息吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pcfvhd/should_i_give_my_fiver_dev_my_login_to_my_hosting/</link>
-      <description><![CDATA[所以我问这个问题是因为我不知道向我雇用的开发人员提供我的帐户登录信息和我的个人信息是否安全。  他说“与 Dokan 相关的工作需要在后端的自定义文件中编写脚本。这无法从 WordPress 仪表板完成。对于脚本编写，还需要配置数据库，因此无法访问数据库，如何完成工作？如果我正在编辑但没有托管权限，那么我将如何插入脚本？” 所以我在 phpmyadmin 上为他创建了一个数据库开发帐户，这是一个 cPanel ftp 帐户，并在我的 WordPress 网站上为他提供了一个管理员帐户，但他说他仍然需要我的登录。安全吗/我应该给他我的登录信息吗？他在 Fiver 上拥有 5 颗星和 178 条评论，来自孟加拉国。   由   提交 /u/thewobblywalrus   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pcfvhd/should_i_give_my_fiver_dev_my_login_to_my_hosting/</guid>
-      <pubDate>Tue, 02 Dec 2025 18:14:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
