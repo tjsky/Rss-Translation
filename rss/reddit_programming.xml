@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 04 Dec 2025 09:21:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 12:36:29 GMT</lastBuildDate>
+    <item>
+      <title>深入探讨 SwiftUI 富文本布局：超越 AttributedString - 深入 MarkdownView 和 RichText</title>
+      <link>https://www.reddit.com/r/programming/comments/1pdxyhw/a_deep_dive_into_swiftui_rich_text_layout_beyond/</link>
+      <description><![CDATA[ 由   提交 /u/fatbobman3000   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pdxyhw/a_deep_dive_into_swiftui_rich_text_layout_beyond/</guid>
+      <pubDate>Thu, 04 Dec 2025 11:45:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们遭受了 MongooseJS 所以你不必</title>
+      <link>https://www.reddit.com/r/programming/comments/1pdxp6j/we_suffered_mongoosejs_so_you_dont_have_to/</link>
+      <description><![CDATA[ 由   提交/u/scosio   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pdxp6j/we_suffered_mongoosejs_so_you_dont_have_to/</guid>
+      <pubDate>Thu, 04 Dec 2025 11:31:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个零配置、可视化 HTTP 模拟工具，可以在您的浏览器中使用（实时演示）</title>
+      <link>https://www.reddit.com/r/programming/comments/1pdw5iq/i_built_a_zeroconfig_visual_http_mock_tool_that/</link>
+      <description><![CDATA[大家好！  我从事前端开发人员多年，一直发现 API 模拟是一个摩擦点。  在组件中对数据进行硬编码很混乱且容易出错。 代理工具 (Charles/Fiddler) 功能强大，但为每个 HTTPS 域配置都很烦人。 无头库 (MSW)非常适合测试，但缺乏在快速原型设计期间切换状态的快速 UI。  因此我构建了 PocketMocker - 一个轻量级的可视化调试工具，位于浏览器选项卡内。 现场演示（立即尝试）： https://tianchangnorth.github.io/pocket-mocker/ （无需安装，只需点击即可播放） GitHub： https://github.com/tianchangNorth/pocket-mock 它有何不同？  可视化仪表板：它将一个小部件（基于 Svelte、Shadow DOM 隔离）注入到您的页面中。您可以即时创建/编辑模拟，而无需触摸代码或重新启动服务器。 智能数据：停止手动输入虚拟 JSON。  需要一个现实的用户吗？使用“用户”：“@name”。 需要头像？使用“头像”：“@image(100x100)”。 需要列表吗？使用“items|10”：[...]。  动态逻辑：它支持JavaScript函数进行响应。  示例： if (req.query.id === &#39;admin&#39;) return 200 else return 403。  “Click to Mock”： 它记录所有网络请求。您可以单击任何真实请求，立即将其转换为模拟规则。 协作：如果您使用Vite 插件，规则将保存到您的文件系统（mock/ 文件夹），以便您可以将它们提交到 Git 并与您的团队共享。  技术堆栈  核心： Monkey-patching window.fetch 和 XMLHttpRequest。 UI： Svelte（编译为单个 JS 文件）。 编辑器： CodeMirror 6. ### 快速入门 它是完全开源的 (MIT)。 bash npm install pocket-mocker -D   javascript // 在您的入口文件 (main.ts) 中 import { pocketMock } from &#39;pocket-mocker&#39;; if (process.env.NODE_ENV === &#39;开发&#39;) pocketMock();  我很想听听您的反馈！这适合您的工作流程吗？缺少哪些功能？谢谢！   由   提交 /u/Terrible_Trash2850   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pdw5iq/i_built_a_zeroconfig_visual_http_mock_tool_that/</guid>
+      <pubDate>Thu, 04 Dec 2025 09:58:07 GMT</pubDate>
+    </item>
     <item>
       <title>我刚刚发现一个名为 Codefri 的平台正在举办编码竞赛。不确定它是新的还是我从来没有注意到它。奖池对我来说看起来不错，但网站感觉有点太少了。以前有人尝试过吗？这是合法的还是我应该远离？</title>
       <link>https://www.reddit.com/r/programming/comments/1pduhep/i_just_came_across_a_platform_called_codefri/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交 /u/levodelellis   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pdkrbe/my_favorite_principle/</guid>
       <pubDate>Wed, 03 Dec 2025 23:57:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>移动应用程序错误赏金的秘密世界以及如何闯入</title>
-      <link>https://www.reddit.com/r/programming/comments/1pdkjsz/the_secret_world_of_mobile_app_bug_bounties_and/</link>
-      <description><![CDATA[ 由   提交 /u/voidrane   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pdkjsz/the_secret_world_of_mobile_app_bug_bounties_and/</guid>
-      <pubDate>Wed, 03 Dec 2025 23:48:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>采访《过山车大亨》的创造者克里斯·索耶</title>
-      <link>https://www.reddit.com/r/programming/comments/1pdk46j/interview_with_rollercoaster_tycoons_creator/</link>
-      <description><![CDATA[ 由   提交 /u/Ok-Tune-1346   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pdk46j/interview_with_rollercoaster_tycoons_creator/</guid>
-      <pubDate>Wed, 03 Dec 2025 23:29:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>对价值 10 亿美元的合法 AI 工具进行逆向工程，暴露了 10 万多个机密文件</title>
-      <link>https://www.reddit.com/r/programming/comments/1pddgdw/reverse_engineering_a_1b_legal_ai_tool_exposed/</link>
-      <description><![CDATA[ 由   提交/u/bearsyankees  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pddgdw/reverse_engineering_a_1b_legal_ai_tool_exposed/</guid>
-      <pubDate>Wed, 03 Dec 2025 19:12:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
