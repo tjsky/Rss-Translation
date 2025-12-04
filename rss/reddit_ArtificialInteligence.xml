@@ -4,13 +4,41 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Thu, 04 Dec 2025 06:25:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 09:20:06 GMT</lastBuildDate>
     <item>
-      <title>人们追随 OPENAI</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pdrpb8/folks_dogging_openai/</link>
-      <description><![CDATA[那些为 Google 狠狠踢 OpenAI 而兴奋不已的人们……正是三周前尖叫着人工智能已死、泡沫即将破裂的人们。  如果他们庆祝一家公司对人工智能进行了大量投资……。这是否意味着泡沫不会破裂？难道他们没有意识到自己的快乐是虚伪的吗？   由   提交 /u/alecubudulecu   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pdrpb8/folks_dogging_openai/</guid>
-      <pubDate>Thu, 04 Dec 2025 05:23:40 GMT</pubDate>
+      <title>CHATgpt 构建了一个微型“波浪进化”分类器，仅使用 50 个标签，在 CIFAR-10（动物与车辆）上获得了约 97% 的准确率 — 无需训练，无需权重（包括 GITHUB 存储库）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pdvguz/chatgpt_built_a_tiny_waveevolution_classifier/</link>
+      <description><![CDATA[* 不是 AI 生成的* 大家好， 之前我发布过“CHATgpt 构建了一个奇怪的新分类器......”但这次早些时候的结果有点偏差，它包括了 50 个标记示例（动物与车辆）。更难的 10 级分类问题我将在稍后介绍。我只提供了混合三个领域的直觉：哲学-物理-机器学习，我只有物理和机器学习两个领域的表面知识，但 gpt 能够为我深入研究这一点。任何人都可以看一下代码，如果理解它可以帮助我衡量这个领域有多大，能够深入掌握 gpt 产生的内容吗？？相反，整个模型基本上是：  嵌入的k-NN图 归一化拉普拉斯算子 一个非线性扩散规则 两个标量（α，η） 一些种子标签  就是这样。 这个想法来自物理学+图形学习直觉的混合： 你在图形上演化出类振幅场ψ，动态本身“学习”决策边界。 它基本上是数据流形上的反应扩散系统 基准：CIFAR-10 （动物与车辆） 设置：  主干：ResNet-18（预训练的 ImageNet），冻结 嵌入： 训练：20,000 张图像 测试：10,000 张图像  图表：所有 30k 嵌入的 k-NN (k=20) 使用的标签：总共 50 个（25 只动物，25 辆车） 超参数：α=0.2、η=0.05、n_steps=60 比较： k-NN 基线 逻辑回归基线 在50标签和全标签方案中   结果（在我的运行中）： 完整标签（20k）供参考：  k-NN：0.975 逻辑： 0.977  50 个标签体系：  k-NN（50 个标签）：0.9189 Logistic（50 个标签）：0.9493 ψ-evolution（50 个种子）： 0.9725  因此 ψ-evo，零训练和只有 50 个监督点，几乎与完全监督的线性探针相匹配。 这项任务是“几何”的——动物/车辆在嵌入空间中相当干净地分离——而 ψ-evo 做得非常好。 代码和代码代码库 完整代码在这里（干净、可运行的脚本）： https://github.com/Keshu92/qm-evo-cifar-50 它提取嵌入、构建图形、演化 ψ 并打印所有基线 + ψ-evo 结果。 谢谢   由   提交 /u/Loner_Indian   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pdvguz/chatgpt_built_a_tiny_waveevolution_classifier/</guid>
+      <pubDate>Thu, 04 Dec 2025 09:12:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek 的 API 定价极低。对于文本任务来说，感觉几乎是免费的。有人在此基础上构建“永远免费”的工具吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pdugdb/deepseeks_api_pricing_is_insanely_low_it_feels/</link>
+      <description><![CDATA[这实际上是对全球用户的赠品。 上个月我处理了 11 亿个代币。账单？刚刚超过 50 美元。 我想可以免费构建一些东西，但我还不知道具体是什么。  你觉得怎么样？   由   提交 /u/Immediate-Debate8905   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pdugdb/deepseeks_api_pricing_is_insanely_low_it_feels/</guid>
+      <pubDate>Thu, 04 Dec 2025 08:05:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>四大AI视频机型72小时内同步发送音频</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pdtjjb/four_major_ai_video_models_shipped_synchronized/</link>
+      <description><![CDATA[我一直在测试新的 Kling 2.6 模型（在 Higgsfield 上运行），并且视听同步非常完美，我们已经非常接近“AI 视频”的目标了。创建难以区分的镜头。四大视频AI模型在72小时内同步发送音频。 Kling 2.6于12月3日发布。 Runway Gen-4.5于12月1日发布。字节跳动Vidi2于12月1日发布。腾讯HunyuanVideo-1.5于12月1日发布。 与这些最新模型的技术差距已经缩小。 Kling O1 刚刚发布了比 Google Veo 3.1 高出 247% 的性能优势。而 Runway Gen-4.5 以 1,247 Elo 夺得榜首，将 OpenAI 的 Sora 2 Pro 一路下滑至第七。一切都在一周内完成。    由   提交 /u/Educational-Pound269   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pdtjjb/four_major_ai_video_models_shipped_synchronized/</guid>
+      <pubDate>Thu, 04 Dec 2025 07:07:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我的网站有一天出现在人工智能搜索中……第二天就消失了？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pdtefk/why_does_my_site_show_up_in_ai_search_one_day_and/</link>
+      <description><![CDATA[有时候 ChatGPT 和 Gemini 会提到我的网站。 其他时候我完全看不见。 这正常吗？ 到底是什么控制着 AI 可见性内容、提及、反向链接，还是只是随机性？   由   提交/u/Real-Assist1833  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pdtefk/why_does_my_site_show_up_in_ai_search_one_day_and/</guid>
+      <pubDate>Thu, 04 Dec 2025 06:59:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jiddu Krishnamurti，印度哲学家、演说家和作家，1981 年谈论人工智能、机器人和类人机器人</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pdt2s9/jiddu_krishnamurti_indian_philosopher_speaker_and/</link>
+      <description><![CDATA[我正在反思 - Jiddu Krishnamurti，印度哲学家、演说家和作家在 1981 年谈论人工智能和类人机器人的这段视频 在这段视频中，他说人类唯一的选择是沉浸在无尽的娱乐中或深入探究自己。前者已经在我们数十亿人的末日卷轴中出现，但是人类“深入探究自己”的部分又如何呢？这种情况并没有发生太多；然而。    由   提交/u/Mo_h  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pdt2s9/jiddu_krishnamurti_indian_philosopher_speaker_and/</guid>
+      <pubDate>Thu, 04 Dec 2025 06:40:06 GMT</pubDate>
     </item>
     <item>
       <title>安全 CTF 作为人工智能基准？开源CAI横扫2025年各大大赛</title>
@@ -32,13 +60,6 @@
       <description><![CDATA[注意（请观看此卷）：- https://www.instagram.com/reel/DRYOPpdjIBA/?igsh=NHdoOGNzc2FscDU5 所以我把车停在公园外面。混凝土边界上躺着一只死松鼠。我想我应该把他放在公园的土壤上，这样它就可以腐烂。现在我只是想到了这一点，它突然可以向我显示与此相关的类似卷轴？！？！？！？！如何    由   提交/u/drdixlandeez   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pdqdg6/can_algorithm_read_thoughts_noow/</guid>
       <pubDate>Thu, 04 Dec 2025 04:15:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能可以提供的终极应用程序......</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pdmq76/the_ultimate_app_that_ai_could_provide/</link>
-      <description><![CDATA[世界上有很多单身男人不知道如何与女人进行对话并进行约会。如果可以创建一个应用程序来允许这些“incels” （我并不是贬义的）开始发展一种与女性交谈的实际互动技能，这将改变世界。女性的思维方式与男性完全不同，这实际上是火星与金星的差异。  如果一个人可以投入数百个小时的“练习” - 有了说明、技巧、手把手（在虚拟意义上 - 指导培训），这对他来说价值数千美元。 几年前，我实际上想到了一个面对面的系统来做到这一点，雇佣女性来“约会”。男性的明确目的是训练她们变得舒适并能够理解女性如何看待事物。当然，很多人会指责我为了金钱而推销一些非法的东西，这会被明确标记为不可用，并成为终止培训的理由。 但回到这个想法。人工智能应该有能力在可以进行训练的情况下模仿女性。只是一个想法...   由   提交/u/Glp1User  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pdmq76/the_ultimate_app_that_ai_could_provide/</guid>
-      <pubDate>Thu, 04 Dec 2025 01:24:08 GMT</pubDate>
     </item>
     <item>
       <title>只有 3 家主要公司生产消费 RAM 芯片，其中一家刚刚因人工智能而退出</title>
@@ -64,23 +85,9 @@
     <item>
       <title>我们是否处于“POC 泡沫”中？ （为什么部署数量比我们想象的要低）</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pd6buf/are_we_in_the_poc_bubble_why_deployment_numbers/</link>
-      <description><![CDATA[我们看到有关人工智能改变一切的新闻。但从实际的工业化率来看，大多数公司似乎陷入了我所说的“实验室阶段”。 我正在分析我的研究中人工智能项目的失败率，这种模式令人不安。公司因“FOMO”而推出 50 个 POC （竞争压力），但也许有 1 或 2 个能够投入日常生产使用。目前只是一场“PowerPoint革命”在大多数非科技企业中？ 您的组织中实验与部署产品的比例是多少？ 10：1？ 50:1？   由   提交 /u/exomene   [链接] [评论]]]></description>
+      <description><![CDATA[我们看到有关人工智能改变一切的新闻。但从实际的工业化率来看，大多数公司似乎陷入了我所说的“实验室阶段”。 我正在分析我的研究中人工智能项目的失败率，这种模式令人不安。公司因“FOMO”而推出 50 个 POC （竞争压力），但也许有 1 或 2 个能够投入日常生产使用。 只是我，还是“AI 革命”正在兴起？目前只是一场“PowerPoint革命”在大多数非科技企业中？ 您的组织中实验与部署产品的比例是多少？ 10：1？ 50:1？   由   提交 /u/exomene   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pd6buf/are_we_in_the_poc_bubble_why_deployment_numbers/</guid>
       <pubDate>Wed, 03 Dec 2025 14:54:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT 条条大路都通广告？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pd68b7/all_roads_lead_to_ads_in_chatgpt/</link>
-      <description><![CDATA[条条大路通罗马 ChatGPT 中的广告？ Altman 似乎暂停了 OpenAI 的广告计划。您已经在许多有关红色代码时刻的文章中读到过它。但对我来说，这感觉只是一个临时措施。财务压力越来越大，公司每个季度都在亏损，广告或“应用程序建议”不断以用户不信任的方式出现。这感觉像是缓解潜在危机的最直接方法。 甚至 TechCrunch 本周也报道称，X 上的一名用户表示，ChatGPT 在一次与健身无关的对话中随机向付费用户推荐一款健身应用。 OpenAI 表示这不是广告，只是“应用程序发现测试”。但大多数人完全将其视为广告。这就是问题所在。 一旦模型开始推荐应用程序、产品或服务，即使它是“有机的”，有用和货币化之间的界限就会变得模糊。当这种情况发生时，信任就会迅速下降。这也是人们抱怨谷歌搜索的原因。很难区分什么对用户真正有用和个性化，什么是推动、赞助或不相关的。 还存在有偏见的答案问题，它会消除部分吸引力或限制研究或探索的工具。从某种程度上来说，谷歌已经经历了这场危机，这就是为什么 Reddit 和 Quora 等论坛的流量持续上升并非巧合。人们想要更诚实和真实的答案。 你觉得怎么样？广告模型会彻底破坏 ChatGPT 体验吗？您会寻找没有广告的替代方案吗？或者它不打扰你吗？    由   提交/u/NickBaca-Storni   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pd68b7/all_roads_lead_to_ads_in_chatgpt/</guid>
-      <pubDate>Wed, 03 Dec 2025 14:50:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>此子上有多少帖子是由机器人发布的？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pd14cr/how_many_posts_on_this_sub_are_made_by_bots/</link>
-      <description><![CDATA[我不禁注意到该子顶部漂浮的许多内容都来自非人类，完全没有发帖历史或暗示他们是人类。只有空白的个人资料和 GPTslop 作为他们的整个帖子，就像它们是从 ChatGPT 生成的那样编写的。我的意思是，这很合适，但我来 Reddit 就是为了避免这种事。    由   提交 /u/LuridLilia   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pd14cr/how_many_posts_on_this_sub_are_made_by_bots/</guid>
-      <pubDate>Wed, 03 Dec 2025 10:54:11 GMT</pubDate>
     </item>
     <item>
       <title>IBM首席执行官表示，以当今的基础设施成本来看，在人工智能数据中心上花费数万亿美元“不可能”获得回报</title>
@@ -95,13 +102,6 @@
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pcs1m9/openai_just_hit_code_red_three_years_after_google/</guid>
       <pubDate>Wed, 03 Dec 2025 02:22:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 宣布红色代码以拯救 ChatGPT 从 Google 手中</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pc85k6/openai_declares_code_red_to_save_chatgpt_from/</link>
-      <description><![CDATA[OpenAI 首席执行官 Sam Altman 刚刚发布了紧急“红色代码”公司内部。我们的目标是在 Google 永远领先之前让 ChatGPT 更快、更可靠、更智能。 现在发生了什么？ - 与开发人员每日举行紧急会议 - 工程师从其他项目转移到仅在 ChatGPT 上工作 - 暂停广告、购物和个人助理等新功能 Altman 告诉员工，他们必须将一切精力集中在速度、稳定性和回答更难的问题上。 这与 2017 年的“红色代码”相同。谷歌在 2022 年 ChatGPT 首次推出时使用的警报。现在 OpenAI 正在追赶。 人工智能竞赛变得更加激烈。 ChatGPT 会反击并保持第一，还是 Google 即将获胜？  你觉得怎么样？   由   提交 /u/naviera101   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pc85k6/openai_declares_code_red_to_save_chatgpt_from/</guid>
-      <pubDate>Tue, 02 Dec 2025 13:16:05 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
