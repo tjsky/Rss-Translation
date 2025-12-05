@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 04 Dec 2025 21:18:05 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 01:15:53 GMT</lastBuildDate>
+    <item>
+      <title>文件上传到外部服务（新手！）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pehpq7/file_upload_to_an_external_service_newbie/</link>
+      <description><![CDATA[经验丰富但有点老派的 webdev。阔别多年后重返赛场，并试图找到自己的出路。建造多年来的第一个项目，看起来它有希望成功。  网站的一部分将允许用户上传小文件（jpg、pdf 等），但由于显而易见的原因，我并不想上传到我的主机服务器。这也需要扩展，因为网站可能会变得更大。  那么现在最好的解决方案是什么？需要相当简单的集成（如果可能的话，仅使用 PHP）并且成本较低，因为它不会为数百万个文件或任何东西提供服务。  我猜是 A3 或 Cloudflare R2 之类的东西？ AI有推荐数字海洋吗？从来没有听说过他们。  请问有什么建议吗？    由   提交/u/chit76  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pehpq7/file_upload_to_an_external_service_newbie/</guid>
+      <pubDate>Fri, 05 Dec 2025 01:13:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>仅此一点就让我想使用除 Stripe 之外的其他东西</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ped5cj/this_alone_makes_me_want_to_use_something_besides/</link>
+      <description><![CDATA[      由   提交/u/SomeSchmidt   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ped5cj/this_alone_makes_me_want_to_use_something_besides/</guid>
+      <pubDate>Thu, 04 Dec 2025 21:57:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>新的评论社交媒体网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pec9dk/new_social_media_website_for_reviews/</link>
+      <description><![CDATA[嘿哟， 我只是为了好玩而自己创建了一个社交媒体网站，并意识到它可以成为现实。我没有很多用户，我正在寻找人们帮助发送错误并进行审查，以便我可以修复人们发现的问题。我将感谢所有评论，并将姓名放入我将制作的学分页面中，并将所有审阅者姓名放入学分选项卡中。如果您想查看它并查看以下链接：https://solra.online   由   提交 /u/TheOneXboxDev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pec9dk/new_social_media_website_for_reviews/</guid>
+      <pubDate>Thu, 04 Dec 2025 21:23:01 GMT</pubDate>
+    </item>
     <item>
       <title>AI 原生和反 AI 工程师</title>
       <link>https://www.reddit.com/r/webdev/comments/1pec0ur/ainative_and_antiai_engineers/</link>
@@ -48,13 +69,6 @@
       <pubDate>Thu, 04 Dec 2025 18:05:38 GMT</pubDate>
     </item>
     <item>
-      <title>Reddit 上最好的社区是什么，可以在不被禁止或负面评论的情况下推广您的应用程序？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pe6d5g/whats_the_best_community_on_reddit_to_promote/</link>
-      <description><![CDATA[标题不言自明 请帮助我。 ):   由   提交/u/incel_i9_13gen   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pe6d5g/whats_the_best_community_on_reddit_to_promote/</guid>
-      <pubDate>Thu, 04 Dec 2025 17:40:10 GMT</pubDate>
-    </item>
-    <item>
       <title>寻找无头 CMS</title>
       <link>https://www.reddit.com/r/webdev/comments/1pe4n3r/on_the_hunt_for_a_headless_cms/</link>
       <description><![CDATA[Hello Reddit， 我最近一直在与一个社区粉丝网站的小团队合作开发一个项目，该项目有一个 Java 后端和一个 SvelteKit 前端以及一些 C# 工具。我们的功能之一是 CMS (Directus)，社区的内容贡献者可以登录编辑文章和社区活动，而无需开发团队参与。 但是，我们作为开发团队也希望完善我们的流程，这对我们来说意味着将 CMS 引入我们的 monorepo，以便我们可以更轻松地部署应用程序的副本（例如用于本地测试）并监控架构的更改。 Directus 虽然在很多方面都很棒，但由于模板应用程序工具的可怕性能以及架构应用程序 API 对于 CMS 的架构以外的所有其他部分（默认内容、用户、品牌和权限）完全无用，因此在这方面表现得非常糟糕。我几个月来一直在寻找最适合我们的需求和需求的替代方案，但没有成功，所以我向您求助。 我的问题是：您是否遇到过适合我们的无头 CMS（任何语言）？或者我们应该硬着头皮实施我们自己的方案？或者接受它并更改我们的愿望清单？ 要求：  自托管（以便我们可以在本地部署它进行测试）。 API驱动，而不是Git驱动（当有人需要修复拼写错误或创建新内容时，我们不希望必须重建或轮询git存储库） 我们可以轻松存储在git中的架构或配置。 OAuth登录。 国际化支持（我们提供英语和德语内容）。 用户友好的块编辑器体验，并支持自定义块类型。 预算为 0 美元（我们是一个开源粉丝网站，没有广告）。 如果有数据库，那就是 Postgres。 不是基于 NextJS（有太多新的严重依赖项，无法轻松依赖）。   不错的东西：  架构作为代码和真相来源（不是从 UI 编辑架构）。 迁移也存储在 git 中。 一种为内容块获取正确 TypeScript 类型的方法。 不基于 React。 使用 Postgres 数据库（平面文件也可以接受）。 不需要任何电子邮件地址。 草稿和版本控制。 图像处理（例如，我们可以上传大量 PNG 并提供调整大小的 AVIF）  不需要：  实时预览或 UI 来匹配实时网站 - 只要可用，仅限管理的版本就可以（甚至是首选）。 完整页面创建-- 我们实际上只需要将一些内容推送到某些路线上的特定位置。 多租户 -- 我们是唯一的租户，而且永远都是。   到目前为止，我已经评估了以下选项，但由于某种原因，这些选项对我们来说不太适用：  Payload（基于 NextJS，我们不是 React 开发人员 -- 否则它很棒，只是我们很难扩展到我们的需求。此外，未通过 SSO 税务测试。） Contember（基于 React，没有开箱即用的块支持，但如果有必要，我们可以构建自己的 UI - 不过，公共开发似乎已停滞，并且所有示例都已有多年历史） 继续使用 Directus（捕获和部署模板以及 JS SDK/API 的糟糕经验）块内容周围就像恐怖电影中的场景，完全缺少基本类型安全性，并且需要带有未经检查的字符串键的未经检查的对象） Strapi（未通过 SSO 税务测试 - 除了如何实现本地化之外，基本上是一个更糟糕的 Directus） Ghost（MySQL，没有自定义块或内容类型） Decap/Sveltia（基于 Git） Keystone（基于 NextJS） Ponzu（无块） Cockpit（无块） OrchardCore（无块，UI 较差） Apostrope（Mongo，不是 Postgres；无块） dotCMS（架构仅是数据库，无需迁移） Aphex（远未做好生产准备，完全缺少本地化支持）    由   提交/u/lanerdofchristian  [链接] [评论]]]></description>
@@ -95,20 +109,6 @@
       <description><![CDATA[嘿r/webdev！我一直在为 Web 组件构建开发工具，并希望分享一种适合我的团队的方法。 引入 cemserve 专为 Web 组件设计的固执己见的开发服务器： 清单驱动 读取您的自定义元素清单并自动发现演示。没有配置文件。 纯 HTML 演示   &lt;我的按钮变体=“主要”&gt;点击我 &lt;脚本类型=“模块”&gt;导入“@my-design-system/my-button.js”； &lt;/脚本&gt;  就是这样。只是 HTML。没有 JavaScript 故事文件。 自动生成的旋钮 使用 JSDoc 记录您的组件：  /** * @customelement my-button * @attr {string} 变量 - 按钮变量（主要、次要、危险） * @attr {boolean} 禁用 - 禁用状态 * @demo demo/index.html */ export class MyButton extends HTMLElement { }  旋钮是从清单中自动生成的。记录一次，免费获得交互式控件。 智能重新加载 跟踪模块依赖关系图。编辑共享实用程序 → 仅重新加载导入它的 3 个演示。并非全部 50 个。 无构建开发 TypeScript 通过 esbuild 按需转换。编辑.ts文件→保存→浏览器立即获取JavaScript。 工作流程 ``` 安装 npm install --save-dev @pwrs/cem 生成清单 npx @pwrs/cem生成 启动服务器 npx @pwrs/cem 服务 ``` 打开 http://localhost:8000: - 所有演示的列表 - 交互式旋钮面板 - 实时预览 - 清单浏览器 为什么这很重要 您的演示是可移植的 HTML。 用户可以直接从文档复制它们。他们可以在 React、Vue、vanilla JS 等环境中工作。无框架锁定。 比较如何？   功能 cemserve Storybook Vite @web/dev-server    目的 组件预览 组件故事 常规开发 常规开发   演示格式 纯 HTML JSX/MDX 框架 HTML   旋钮 自动生成 手动 无 无   配置 零（清单） 中 低 低   组件隔离 ✅ ✅ ❌ ❌   都是很棒的工具！但是，如果您正在构建与框架无关的组件并希望使用 HTML，那么 cemserve 可能更适合。 尝试一下  文档：https://bennypowers.dev/cem/ GitHub：https://github.com/bennypowers/cem/ 许可证：GPL-3.0-或更高版本  与 LitElement 或普通自定义元素配合使用效果最佳。 很高兴回答问题！   由   提交 /u/benny-powers   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pe1vwu/nev_server_for_web_components_like_storybook_but/</guid>
       <pubDate>Thu, 04 Dec 2025 14:49:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>该网站如何使用 Inter 呈现大写撇号？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pe1spr/how_does_this_website_render_a_curly_apostrophe/</link>
-      <description><![CDATA[      网站：https://fizzy.do 正文字体系列似乎是Inter。据我所知，国际米兰的撇号（以及逗号、引号等）非常“直”。 但是您可以在英雄部分看到一个弯折的撇号：  https://preview.redd.it/w3cw3ub5975g1.png?width=1386&amp;format=png&amp;auto=webp&amp;s=ef171fab112108ec507e09b8f38e366b542a3fc7 我尝试过使用键盘快捷键来输入弯引号（在 Mac 上，shift + option + ]），它确实给出了一种变化，但它仍然是直的，只是倾斜的。 只是好奇我错过了什么。   由   提交 /u/stjduke   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pe1spr/how_does_this_website_render_a_curly_apostrophe/</guid>
-      <pubDate>Thu, 04 Dec 2025 14:45:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>postgresql 中的 100Go 表可以吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pe0njv/is_a_100go_table_in_postgresql_ok/</link>
-      <description><![CDATA[100GB ！抱歉，无法编辑标题 我将把它托管在具有dockploy 和足够磁盘空间的VPS 上。它与我的数据库的其余部分没有链接（它只是我将从中读取和复制的源，但总是通过内存，因此我可以轻松地将其放入单独的数据库中）。它有大约 1 亿条记录 它会减慢我数据库的其余部分吗？我应该把它放在一个单独的数据库中（这会改变什么吗？） 我还应该如何处理它？&lt;​​/p&gt;   由   提交 /u/permaro   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pe0njv/is_a_100go_table_in_postgresql_ok/</guid>
-      <pubDate>Thu, 04 Dec 2025 13:57:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
