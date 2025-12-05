@@ -4,7 +4,63 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 05 Dec 2025 09:20:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 12:34:48 GMT</lastBuildDate>
+    <item>
+      <title>害怕实施订阅流程</title>
+      <link>https://www.reddit.com/r/webdev/comments/1petjar/fear_of_implementing_subscription_flow/</link>
+      <description><![CDATA[各位开发人员大家好 过去几年我一直在进行开发，主要是 BE，主要是 Py，很少是 JS。  最近，在 AI (:D) 的帮助下，我设法获得了一些想法/产品，主要是作为学习 FE/UI/UX 和一些用户流程等的一种方式  我最大的“恐惧”之一是是实现以下两个 - 功能标志 - 订阅流程 原因是由于我对主题的理解有限和假定的复杂性 您是如何解决这个问题的，您是否找到了一种简单的方法来同时执行这两个/任一操作？  未来旗帜可以帮助订阅吗？  我也想使用功能标志，以使一部分用户能够测试新功能（例如 Beta 测试人员等），而且还可以通过一种方式“在生产中进行测试”。  我的一般堆栈是 - NextJS Routed - Supabase（数据库、身份验证、存储、函数） - Cloudflare（尽管他们最近搞得太多了） - Netlify（与我争论 Vercel） - Google Analytics（与我争论 PostHog） - Google Workspace（有更便宜的选择吗？） -光标（用于我无法弄清楚的事情） PS：如果你要发表评论，请表现得友善，否则我告诉你妈妈;p    由   提交 /u/Stiliajohny   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1petjar/fear_of_implementing_subscription_flow/</guid>
+      <pubDate>Fri, 05 Dec 2025 12:14:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>网站收集跟踪器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pet2n5/collection_tracker_for_website/</link>
+      <description><![CDATA[嗨！ 我正在构建一个网站，我想实现一个集合跟踪器，类似于 myfigurecollection.net 和 brickset.com 等网站。 有什么方法可以使用 Elementor 这样的网站构建器来实现此目的吗？我不知道如何编码，因此最好不需要任何解决方案，但如果必须的话我愿意学习。 任何信息将不胜感激。谢谢！   由   提交 /u/WolfyBuilder   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pet2n5/collection_tracker_for_website/</guid>
+      <pubDate>Fri, 05 Dec 2025 11:49:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找开发者友好的短信API（Twilio感觉很重）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pet1lg/looking_for_a_developerfriendly_sms_api_twilio/</link>
+      <description><![CDATA[我正在向网络应用程序添加短信验证+小警报。 Twilio 的文档很棒，但配置/批准/模板变得混乱。这里更简单的替代开发是什么样的？   由   提交/u/ryukendo_25  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pet1lg/looking_for_a_developerfriendly_sms_api_twilio/</guid>
+      <pubDate>Fri, 05 Dec 2025 11:48:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么这么多应用用✨来代表AI？火花什么时候成为AI功能的标志了？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pesu5d/why_do_so_many_apps_use_to_represent_ai_when_did/</link>
+      <description><![CDATA[       由   提交/u/s0journed  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pesu5d/why_do_so_many_apps_use_to_represent_ai_when_did/</guid>
+      <pubDate>Fri, 05 Dec 2025 11:36:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google Analytics 未提供 100% 正确的数据</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pescvf/google_analytics_not_providing_100_correct_data/</link>
+      <description><![CDATA[您好， 需要一些有关 Google 分析的建议。因此，我在我们的网站上手动创建了一些事件，我发现 Google 分析中收到的事件数量少于我们数据库中记录的事件数量。 为什么会发生这种情况？像 Whatsapp 和 Facebook 这样的应用内浏览器不会发送此事件吗？如果是，解决方案是什么？  我想确保分析中收到的数据与数据库中的数据（我们使用的supabase）相匹配   由   提交 /u/Humble_Hope1625   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pescvf/google_analytics_not_providing_100_correct_data/</guid>
+      <pubDate>Fri, 05 Dec 2025 11:08:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare 替代方案</title>
+      <link>https://www.reddit.com/r/webdev/comments/1perubp/cloudflare_alternative/</link>
+      <description><![CDATA[一位客户要求我保护他的网站免受 AI 抓取机器人的侵害，我的第一个选择是 CF，但他们此时遇到了一些麻烦，您有使用 Cloudflare Alternative 或系统来阻止抓取的经验吗？谢谢   由   提交 /u/fuckingsurfslave   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1perubp/cloudflare_alternative/</guid>
+      <pubDate>Fri, 05 Dec 2025 10:37:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare又宕机了吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1per7dv/is_cloudflare_down_again/</link>
+      <description><![CDATA[网站无法加载，显示 500 个错误。 Cloudflare 是否又出现故障，还是只是我的网络出现故障？  还有人看到这个吗？ 🤔   由   提交 /u/haneeraza   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1per7dv/is_cloudflare_down_again/</guid>
+      <pubDate>Fri, 05 Dec 2025 09:56:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>又来了 ！云闪又下线了！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1peqv8m/here_we_go_again_cloudflare_down_again/</link>
+      <description><![CDATA[       由   提交/u/Longjumping_Table740   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1peqv8m/here_we_go_again_cloudflare_down_again/</guid>
+      <pubDate>Fri, 05 Dec 2025 09:35:12 GMT</pubDate>
+    </item>
     <item>
       <title>Cloudflare又宕机了？</title>
       <link>https://www.reddit.com/r/webdev/comments/1peqkei/cloudflare_down_again/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[我的网站是丝路电子商城。它是一个电子商务网站，前端为 HTML，后端为 Woocommerce。这是一个已有三年历史的网站，在谷歌索引方面拥有很大的权威。它有 30 个反向链接。   由   提交 /u/Maleficent_Mess6445   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pepmx8/i_want_to_sell_my_website_how_should_i_proceed/</guid>
       <pubDate>Fri, 05 Dec 2025 08:14:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何设计真正让用户参与的入职流程？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1peplfk/how_do_you_design_onboarding_flows_that_actually/</link>
-      <description><![CDATA[我正在努力改进我们在平台上吸引新用户的方式。我见过的大多数入职流程要么是人们中途放弃的巨大形式，要么是感觉毫无意义的无聊的分步清单。 我很想听听关于如何构建交互式、多步骤流程的想法，以指导用户、收集相关信息，并且不会感到不知所措。哪些方法对您有效？   由   提交/u/pagodnaako143  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1peplfk/how_do_you_design_onboarding_flows_that_actually/</guid>
-      <pubDate>Fri, 05 Dec 2025 08:11:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>我放弃一切有错吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pephqt/am_i_wrong_to_give_it_all_up/</link>
-      <description><![CDATA[多年来，我研究了 Web 开发，我走得很深，学到的东西可能比我应该学到的要多。特别是因为其中很多内容已经过时或不适用。这是 Next.js 和其他云服务开始接管的过渡时期。所以我记得学习了 MVC、SASS（在 tailwind 之前），然后是高级 javascript（旧的 js 没有人使用了，新的 js，它如何像原型链一样工作）。我什至学会了使用草图和设计，天知道是什么原因。最后是 React、Redux、Next.js 和 Node、MongoDB，然后使用现代后端来抽象我学到的所有东西（不再是express.js，哦，我想 Postgres 现在很酷）。在某些方面我喜欢它，但在其他方面它是一场噩梦。然后，当聊天 GPT 出现时，科技招聘泡沫破灭，我就完全放弃了。在不断变化的自学过程中，这只是骆驼背上的最后一根稻草。 这让我烦恼有几个原因，首先，我比十年前的后辈知道的多得多。我什至不认为我的知识水平算初级。我在前端方面做得非常好。就像我是 CSS 专家一样，可以毫不夸张地告诉我们什么时候有一个像素的偏差。并烦扰我学习这么多我实际上不需要的东西。而且让我烦恼的是，无论你学了多少、知道了多少、付出了多少努力，你总是觉得自己还不够。 此外，我成为了一名氛围程序员，不再在意了，所以我忘记了很多东西，甚至不再想编码了。起初，我错过了编码，但一段时间后，我感觉我宁愿快速地把它写出来。 我也是少数几个喜欢 leetcode 的人之一。我只是喜欢纯粹的解决问题，有时这比开发更有趣。所以我是一个怪异的独角兽，实际上对 DSA 感到兴奋，并且也了解 CSS 但是经过那段时间......大约 2000 小时的自学，之后我就完全放弃了。只是感觉有太多的事情对我不利，基本上没有稳定的未来。 无论如何，我只是想读这里的一些帖子，也许我应该重新考虑一下。但我只是不明白它有什么意义了。 话虽如此，我确实觉得自己有能力学习技术技能，因为我为自己构建了一些小东西，也许将来可以从中获利。但这仍然不需要我所学知识的 90%。我不后悔学习它，但我后悔的是为了职业而学习。我基本上是为了 2020 年的职业生涯而学习人们在 2017 年使用的东西，然后学习 2020-21 年新出现的所有内容，最后人工智能和服务将这一切进一步扩大。这让我感觉自己就像一名 Web 开发老手，知道历史上这一切是如何完成的，但从未专业地做过。这就是让我觉得放弃它更加荒谬的原因。   由   提交/u/TVdinnerbythepool  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pephqt/am_i_wrong_to_give_it_all_up/</guid>
-      <pubDate>Fri, 05 Dec 2025 08:04:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>有学习编码原理的播客吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pep8gt/are_there_podcasts_to_learn_coding_principles/</link>
-      <description><![CDATA[我下周要参加 .NET 和 React 工作的面试，我没有太多时间坐在电脑前，但我会经常在车里，因为下周我必须在面试前的各州之间通勤。 我知道有像语法这样的播客，我时不时地听一下，但我希望能有一些东西能刷新我对代码的理解。就像涉及 IoC 或编码设计模式（如工厂或观察者模式）的内容。 显然，没有任何内容涉及具体编码，而只是概念。 我想我可以下载 LinkedIn 离线学习课程，这样我就可以在车上学习这些课程，但我担心他们会依赖视频，而我无法观看和驾驶。   由   提交/u/ShawnyMcKnight   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pep8gt/are_there_podcasts_to_learn_coding_principles/</guid>
-      <pubDate>Fri, 05 Dec 2025 07:48:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于如何继续成为自由开发人员的建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1peoe4d/advice_on_how_to_continue_with_freelancing_a/</link>
-      <description><![CDATA[全栈老手能否私信我，寻求一些关于如何继续经营利基网站的建议。我不知道这个 Reddit 子版块是否适合回答这个问题。提前致谢    由   提交 /u/TimeConfusion9067   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1peoe4d/advice_on_how_to_continue_with_freelancing_a/</guid>
-      <pubDate>Fri, 05 Dec 2025 06:54:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要帮助弄清楚这样的网站（在正文中）是如何构建的</title>
-      <link>https://www.reddit.com/r/webdev/comments/1peoc5m/need_help_figuring_out_how_websites_like_thisin/</link>
-      <description><![CDATA[https://www.meter.com/ 使用什么工具来构建这样的交互式英雄页面。（在手机中不响应）。 TIA   由   提交 /u/Far-Treat8597   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1peoc5m/need_help_figuring_out_how_websites_like_thisin/</guid>
-      <pubDate>Fri, 05 Dec 2025 06:50:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找想法：如何在 Angular 中构建工作流程画布（zapier/n8n 风格）。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1penlh3/looking_for_ideas_how_to_build_a_workflow_canvas/</link>
-      <description><![CDATA[大家好，我正在开发一个 Angular 项目，我需要一个简单的工作流编辑器 - 类似于 Zapier 或 n8n 中的画布 UI，您可以在其中放置节点并连接它们。一开始我不需要任何花哨的东西，只是： - 可拖动的节点 - 它们之间的连接 - 缩放/平移 - 能够使用“+”按钮添加新节点 - 将结构保存为 JSON  我正在尝试找出哪种库或方法在 Angular 中最有意义。到目前为止，我已经了解了 ngx-diagrams、ng-flowchart、ngDiagram、ngx-xyflow、ngx-vflow、folex、Konva.js 和 D3。不确定哪一个是长期最好的。如果您在 Angular 中构建了类似的东西，您使用了什么？或者，如果您知道适合此类 UI 的库，我很想听听它们。谢谢！   由   提交 /u/Double-Cancel-4681   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1penlh3/looking_for_ideas_how_to_build_a_workflow_canvas/</guid>
-      <pubDate>Fri, 05 Dec 2025 06:06:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年，Web 开发初学者应该优先考虑的一项 Web 开发技能是什么？为什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pekmry/whats_one_web_development_skill_beginners_should/</link>
-      <description><![CDATA[Web 开发中有很多东西需要学习——框架、后端、前端、人工智能工具、自动化、用户体验、安全性等。对于 2025 年刚刚开始的人来说，对他们的成长或就业机会产生最大影响的一项技能是什么？是掌握 JavaScript 基础知识、了解 API、学习 Next.js、专注于解决问题还是其他？   由   提交 /u/Real-Assist1833   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pekmry/whats_one_web_development_skill_beginners_should/</guid>
-      <pubDate>Fri, 05 Dec 2025 03:31:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找一个免费的人工智能代理，我可以嵌入或安装在我的反应网站上，以回答有关我的简历的问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pejhul/looking_for_a_free_ai_agent_i_can_embed_or/</link>
-      <description><![CDATA[我正在尝试向我的 React 网站添加一个免费的 AI 聊天机器人，它可以回答有关我的简历的问题。我的想法是，我上传我的简历，机器人可以只使用该信息来回答访问者的问题。 我正在寻找： • 它必须完全免费 • 可定制 • 易于嵌入到 React 网站 • 能够加载我的简历，以便它可以根据它进行问答 我已经看到了 OpenAI 的网络聊天嵌入、Flowise 和 Botpress 等选项，但我不确定哪一个是最好的或者实际上可以免费长期使用。 如果有人有建议或做过类似的事情，我将不胜感激。谢谢！   由   提交/u/Hopeful-Friendship26  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pejhul/looking_for_a_free_ai_agent_i_can_embed_or/</guid>
-      <pubDate>Fri, 05 Dec 2025 02:36:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
