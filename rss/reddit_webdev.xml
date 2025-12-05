@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 05 Dec 2025 15:20:53 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 18:22:42 GMT</lastBuildDate>
+    <item>
+      <title>阅读有关人类购买面包的信息。这实际上对我们有什么改变吗</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pf0vxi/read_about_anthropic_buying_bun_does_this/</link>
+      <description><![CDATA[看到了关于人类收购bun的新闻。一直在一些副项目中使用bun，因为它速度很快，但没想到这个 让我思考人工智能编码工具的走向 现在，当我使用光标或副驾驶时，他们编写代码，但我仍然需要运行它，测试它，自己修复错误。需要时间，特别是当生成的代码看起来正确但以奇怪的方式中断时 如果 anthropic 拥有运行时，理论上他们可以使 claude 生成实际正确运行的代码。就像它了解包子的内部结构一样，因此它可以在您看到兼容性问题之前就捕获它们 我见过一些工具尝试自动验证。就像生成代码后运行测试一样。一些较新的IDE，如antigravity、verdent、windsurf和cursor都内置了此功能。但它通常只是基本测试。拥有整个堆栈（运行时 + 捆绑器 + 测试）可以让他们走得更远 也想知道这是否意味着供应商锁定。就像 claude 与 Bun 配合使用效果最好，而其他工具与 Node 配合使用效果最好吗？现在我可以在任何运行时使用任何人工智能工具。希望保持灵活性 商业模式问题也很有趣。 Bun 现在是免费且开源的。它会保持这种状态还是成为付费的克劳德功能 老实说，我只想要人工智能能够生成实际有效的代码。不在乎谁拥有什么，只要这些工具能够协同工作 但也有点怀疑。大公司一直在买东西，但没有任何改变。还记得微软收购 github 时每个人都吓坏了吗？ github 基本上是一样的 也许这只是人为的对冲他们的赌注。或者也许它实际上是人工智能编码工具工作方式的转变 好奇你们的想法。这里的任何人实际上都经常使用小圆面包   由   提交/u/Secure-Run9146   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pf0vxi/read_about_anthropic_buying_bun_does_this/</guid>
+      <pubDate>Fri, 05 Dec 2025 17:19:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>我不能把 webdev（或任何形式的开发）抛在后面。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pf04tj/i_cant_leave_webdev_or_any_form_of_development/</link>
+      <description><![CDATA[即使我完全拒绝它并说再也不会，我总是会回到它。我总是需要深入研究一些让我把头撞到桌子上的东西。  我也从事了错误的职业。  我曾经在 IT 行业工作过，从一名桌面支持角色晋升为全职开发/开发运营人员，持续了大约十年。然后我就40岁了……在一个炙手可热的超级明星首席执行官们使用裁员策略来提高几个季度盈利的时代，然后他们就走向了夕阳。  40 岁对于科技界来说就像被判了死刑。在我将 5-10% 的时间花在开发上之后，我立即发现了一份利润丰厚的采购工作。我当前角色的计划是临时的，我本来要回到开发人员岗位，但我一直很忙，并且在我所工作的这个小业务领域获得了专业知识。 在这个临时角色中工作了 14 年，我已经完成了这个工作，并想回到开发人员岗位。在这 14 年里，我致力于各种提高个人和工作效率的努力。  对于工作来说，主要是 sql 和 vb 前端。没办法吧？是的，vb还是很相关的。我还设法在其中添加了一些 golang。 就个人而言，我跳入了一个基于 Web 的 MMORPG 想法，因为我知道作为一个兼职开发者永远无法完成它。这持续了大约 2-1/2 年的兼职注意力（中间有休息）。我一开始使用的是 Nodejs，但大约 60 小时后，我转向了 golang，并根据需要添加了 js。一点点 C 和 C++，同时享受各种套接字库，以及大量的欧几里得数学难题。它从来都不是为了完成，我最终认为这是浪费时间并让它消亡。 我之前的职业生涯是在自我管理的 Linux 环境中编写 sql、php、js 和一些 C++ 二进制文件。我也喜欢 Linux 操作，并且像开发人员一样喜欢它的工作，而且这么多年过去了，我已经非常擅长它了。  我正在酝酿新的网络项目，首先作为内容开始。所以我自然会四处看看，看看什么适合。 Astrojs 有很多东西我可以在这个场景中使用，我目前正在尝试它，尽管“全栈”中的 js 还不够。感觉还没有吸引我。在我的个人项目中，我在开始后不久就抛弃了nodejs，因为这可能是我经历过的最混乱的环境（尽管看起来回调主导不再是一个问题），而npm包在更新时让我很失望。 进入正题。我的兼职学士学位无关紧要。如果我要止痒，就需要每天全职工作。在做我的兼职工作时，我做了很多文档参考。当我全职工作时，大部分语法和模式都在我的脑海中。这绝对是一个流程。如果振动编码有一个正确的定义，那么它将包括保持最新状态并处于所使用语言的区域中。 那么我如何回到游戏中呢？或者我该如何解决“右”的问题？项目。我不会打扰，因为我有一份高薪工作，但这种愿望不会消失，所以我需要这样做。我有很多，我已经解决了一些复杂的问题，但就像休眠的酵母培养物一样，我需要一点面粉和水才能进入烘烤状态。   由   提交 /u/inwardPersecution   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pf04tj/i_cant_leave_webdev_or_any_form_of_development/</guid>
+      <pubDate>Fri, 05 Dec 2025 16:51:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何让我的域名 axolotlia.com 在没有 www 的情况下连接到我的 Google 网站？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pez3xr/how_can_i_make_my_domain_axolotliacom_connect_to/</link>
+      <description><![CDATA[现在 www.axolotlia.com 工作正常，但只是 axolotlia.com 损坏了。我在 godaddy 上买了它，chatgpt 帮助连接了大部分内容，但不再有帮助了。   由   提交/u/The1st_TNTBOOM   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pez3xr/how_can_i_make_my_domain_axolotliacom_connect_to/</guid>
+      <pubDate>Fri, 05 Dec 2025 16:12:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人提交了 Firefox 兼容性 PR</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pey2qk/someone_submitted_a_pr_for_firefox_compatibility/</link>
+      <description><![CDATA[      目前，Firefox 似乎是唯一一个支持 Firefox 兼容性的浏览器不支持读取request.body。其他 JavaScript 运行时，甚至包括较新的 Bun/deno，都可以正确支持它。 bugzilla 显示这个问题已经存在了 8 年... https://bugzilla.mozilla.org/show_bug.cgi?id=1387483 MDN: https://developer.mozilla.org/en-US/docs/Web/API/Request/body#browser_compatibility   由   提交 /u/rxliuli   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pey2qk/someone_submitted_a_pr_for_firefox_compatibility/</guid>
+      <pubDate>Fri, 05 Dec 2025 15:32:39 GMT</pubDate>
+    </item>
     <item>
       <title>我正在人生中迈出一大步，开始我的可组合网站机构。</title>
       <link>https://www.reddit.com/r/webdev/comments/1pexbwu/im_taking_a_big_step_in_my_life_start_my/</link>
@@ -25,13 +53,6 @@
       <description><![CDATA[我一直在尝试超越通常形式的铅捕获。有些工具允许您添加测验、分数或互动元素，以使其更具吸引力。我很好奇是否有人通过游戏化潜在客户捕获（例如进度条、小挑战或小测验）而不是无聊的静态形式真正看到了有意义的结果。 它是否提高了完成率或潜在客户质量？什么方法最有效？   由   提交/u/crickastic  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pex47f/has_anyone_successfully_gamified_a_lead_capture/</guid>
       <pubDate>Fri, 05 Dec 2025 14:54:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>CSS 菲兹嗡嗡声</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pevkt7/css_fizz_buzz/</link>
-      <description><![CDATA[ 由   提交/u/fpcoder  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pevkt7/css_fizz_buzz/</guid>
-      <pubDate>Fri, 05 Dec 2025 13:51:14 GMT</pubDate>
     </item>
     <item>
       <title>2026 年 CSS 仍会是一项重要技能吗？</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[我正在向网络应用程序添加短信验证+小警报。 Twilio 的文档很棒，但配置/批准/模板变得混乱。这里更简单的替代开发是什么样的？   由   提交/u/ryukendo_25  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pet1lg/looking_for_a_developerfriendly_sms_api_twilio/</guid>
       <pubDate>Fri, 05 Dec 2025 11:48:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么这么多应用用✨来代表AI？火花什么时候成为AI功能的标志了？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pesu5d/why_do_so_many_apps_use_to_represent_ai_when_did/</link>
-      <description><![CDATA[       由   提交/u/s0journed  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pesu5d/why_do_so_many_apps_use_to_represent_ai_when_did/</guid>
-      <pubDate>Fri, 05 Dec 2025 11:36:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Analytics 未提供 100% 正确的数据</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pescvf/google_analytics_not_providing_100_correct_data/</link>
-      <description><![CDATA[您好， 需要一些有关 Google 分析的建议。因此，我在我们的网站上手动创建了一些事件，我发现 Google 分析中收到的事件数量少于我们数据库中记录的事件数量。 为什么会发生这种情况？像 Whatsapp 和 Facebook 这样的应用内浏览器不会发送此事件吗？如果是，解决方案是什么？  我想确保分析中收到的数据与数据库中的数据（我们使用的supabase）相匹配   由   提交 /u/Humble_Hope1625   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pescvf/google_analytics_not_providing_100_correct_data/</guid>
-      <pubDate>Fri, 05 Dec 2025 11:08:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare 替代方案</title>
-      <link>https://www.reddit.com/r/webdev/comments/1perubp/cloudflare_alternative/</link>
-      <description><![CDATA[一位客户要求我保护他的网站免受 AI 抓取机器人的侵害，我的第一个选择是 CF，但他们此时遇到了一些麻烦，您有使用 Cloudflare Alternative 或系统来阻止抓取的经验吗？谢谢   由   提交 /u/fuckingsurfslave   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1perubp/cloudflare_alternative/</guid>
-      <pubDate>Fri, 05 Dec 2025 10:37:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
