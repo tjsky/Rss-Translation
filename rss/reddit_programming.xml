@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 07 Dec 2025 18:22:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 21:14:19 GMT</lastBuildDate>
+    <item>
+      <title>数据流模板——反应式数据流编程中缺失的语义</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgsymp/dataflow_templating_the_missing_semantic_in/</link>
+      <description><![CDATA[按需克隆子图，类似于函数调用。我在 Observable Dataflow 中编写了此内容，但它应该适用于大多数响应式数据流编程系统，例如 FrTime。   由   提交/u/tlarkworthy  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgsymp/dataflow_templating_the_missing_semantic_in/</guid>
+      <pubDate>Sun, 07 Dec 2025 20:40:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>HTML 已死，JML 万岁。新的基于 JSON 的安全标记语言</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgr0aw/html_is_dead_long_live_jml_the_new_secure/</link>
+      <description><![CDATA[ 由   提交/u/ascoos  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgr0aw/html_is_dead_long_live_jml_the_new_secure/</guid>
+      <pubDate>Sun, 07 Dec 2025 19:21:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>架构案例研究：[开源]开放式进化基础物理研究平台</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgqac8/architecture_case_study_open_source_platform_for/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgqac8/architecture_case_study_open_source_platform_for/</guid>
+      <pubDate>Sun, 07 Dec 2025 18:58:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>F-35 战斗机的 C++ 编码标准</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgq8vc/f35_fighter_jets_c_coding_standards/</link>
+      <description><![CDATA[ 由   提交/u/azhenley  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgq8vc/f35_fighter_jets_c_coding_standards/</guid>
+      <pubDate>Sun, 07 Dec 2025 18:56:39 GMT</pubDate>
+    </item>
     <item>
       <title>尝试使用 Landlock 沙箱网络工具</title>
       <link>https://www.reddit.com/r/programming/comments/1pgp118/trying_sandboxing_network_tools_with_landlock/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/javinpaul   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pgfxs1/authentication_explained_when_to_use_basic_bearer/</guid>
       <pubDate>Sun, 07 Dec 2025 11:11:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Java Swing 中创建专业的选项卡式仪表板 | Java Swing UI 设计</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgfki3/create_a_professional_tabbed_dashboard_in_java/</link>
-      <description><![CDATA[我刚刚使用 Java Swing 构建了一个干净且专业的选项卡式仪表板 UI。 这种设计非常适合希望使桌面应用程序看起来现代、有组织且易于导航的初学者和中级开发人员。 在帖子/视频中，我展示：  如何创建选项卡式仪表板布局 如何设计现代的左侧菜单 如何平滑地切换面板 如何专业地构建您的 Swing 项目 让您的 UI 看起来干净且用户友好的提示  如果您正在开发 Java Swing 项目，这将真正帮助您提高 UI 设计技能。 欢迎随时查看、留下反馈并支持频道！ 在 YouTube 上观看完整内容： 使用 Java Swing 创建专业的选项卡式仪表板 | Java Swing UI 设计 - YouTube   由   提交/u/Substantial-Log-9305   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgfki3/create_a_professional_tabbed_dashboard_in_java/</guid>
-      <pubDate>Sun, 07 Dec 2025 10:48:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>[OSS] HashSmith – Java 的高性能开放寻址哈希表 (SwissTable / Robin Hood)</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgfatm/oss_hashsmith_highperformance_openaddressing_hash/</link>
-      <description><![CDATA[大家好👋 我一直在 JVM 上尝试高性能哈希表实现，最终创建了 HashSmith： 它是什么： - Java 开放寻址哈希表的集合 - 基于 Robin Hood 探测和 SwissTable 风格布局的实现 - 专注于可预测的性能和内存效率 亮点： - 比较 HashSmith 与 JDK HashMap 的 JMH 基准 - 基于 JOL 的内存占用分析 - Java 21，考虑到向量友好的布局（如果适用） 我希望获得以下方面的反馈： - API 设计（是否感觉“Java 风格”？） - 基准方法（显然是任何东西）缺少？） - 您希望测试的边缘案例/工作负载 - 如何改进或扩展 - 下一步值得探索的功能、变体或权衡 谢谢！   由   提交/u/Charming-Top-8583  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgfatm/oss_hashsmith_highperformance_openaddressing_hash/</guid>
-      <pubDate>Sun, 07 Dec 2025 10:31:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>Python AsyncIO：并行性、多处理、并发和线程</title>
-      <link>https://www.reddit.com/r/programming/comments/1pges75/python_asyncio_parallelism_multiprocessing/</link>
-      <description><![CDATA[尽管本文主要是关于 Python 中的 AsyncIO，但它很好地解释了一般并发编程中使用的各种术语以及 CPU 与 IO 密集型处理。具体来说：  并行性包括同时执行多个操作。 多处理是实现并行性的一种方法，需要将任务分散到计算机的中央处理单元 (CPU) 核心上。多处理非常适合 CPU 密集型任务，例如紧密绑定的循环和数学计算。 并发是一个比并行性稍宽泛的术语，表明多个任务能够以重叠方式运行。并发并不一定意味着并行。 线程是一种并发执行模型，其中多个线程轮流执行任务。单个进程可以包含多个线程。由于全局解释器锁 (GIL)，Python 与线程的关系很复杂，但这超出了本教程的范围。    由   提交/u/BinaryIgor  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pges75/python_asyncio_parallelism_multiprocessing/</guid>
-      <pubDate>Sun, 07 Dec 2025 09:59:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>为高效工程师设定目标</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgdcus/goal_setting_for_productive_engineers/</link>
-      <description><![CDATA[ 由   提交 /u/strategizeyourcareer   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgdcus/goal_setting_for_productive_engineers/</guid>
-      <pubDate>Sun, 07 Dec 2025 08:27:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
