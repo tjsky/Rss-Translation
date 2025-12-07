@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 07 Dec 2025 15:16:14 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 18:22:51 GMT</lastBuildDate>
+    <item>
+      <title>不受欢迎的观点：大多数“CRUD”应用程序应该是 PWA，而不是本机应用程序。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pgl1hc/unpopular_opinion_most_crud_apps_should_be_pwas/</link>
+      <description><![CDATA[想一想。大多数非游戏应用程序只是数据库之上的漂亮 UI（CRUD - 创建、读取、更新、删除）。笔记记录器、习惯跟踪器、锻炼日志、食谱应用程序...为什么这些需要是原生的？ 为什么我要通过 App Store、授予十几个权限，并为如此简单的东西处理不断的 200MB 更新？精心构建的 PWA（渐进式 Web 应用程序）与平台无关，占用零存储空间，离线工作，并且始终是最新的。 原生优先方法只是动力，还是有我遗漏的真正技术原因？改变主意。   由   提交 /u/SrPakura   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pgl1hc/unpopular_opinion_most_crud_apps_should_be_pwas/</guid>
+      <pubDate>Sun, 07 Dec 2025 15:27:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 php 中检查管理员的安全方法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pgkwn7/safe_ways_to_check_admin_in_php/</link>
+      <description><![CDATA[所以我正在网站中创建管理员。管理员不会管理任何服务器方面的内容，它只是被列为普通用户。带有一个 is admin bool。管理员将拥有雇佣合同模板，我正在考虑制作可分配和可填写的税务 pdf 文件。一些敏感信息，但没有服务器关键信息。因此，现在我正在构建管理检查来加载管理页面，而不是员工通过分配的 pdf 获取的正常页面。我记得几年前检查 is_admin 时发现由于漏洞而引发了一大堆戏剧性事件。有哪些更安全、更现代的方法或者 isadmin 仍然是安全的，只要你不像笨蛋一样编码。所有管理员和员工文件都将保存在一个安全文件中，该文件将被下载并在上传后清除敏感文档，这些文件将保存在另一台服务器上的私人存储中。   由   提交 /u/Mipibip   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pgkwn7/safe_ways_to_check_admin_in_php/</guid>
+      <pubDate>Sun, 07 Dec 2025 15:22:07 GMT</pubDate>
+    </item>
     <item>
       <title>是否有网站或 CLI 工具可以扫描 CSS 文件并返回支持的最低浏览器版本？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pgkm0x/is_there_a_website_or_cli_tool_to_scan_a_css_file/</link>
@@ -29,7 +43,7 @@
     <item>
       <title>您如何应对非技术人员在工作中寻求发展？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pgk722/how_do_you_handle_nontech_people_pushing_their/</link>
-      <description><![CDATA[就上下文而言，我办公室的产品负责人开始使用 replit，现在他们谈论的只是我们的软件如何陈旧过时，他们甚至说我们的数据库很旧，需要重建，因为数据可以追溯到 15 年前（wtf）。大多数高管对重建我们的遗留应用程序并对其进行“现代化”的想法感到兴奋，因为他们认为这可以在 4 个月内完成，而不是我们估计的 1 年。我不想成为消极的人，但我不禁想到，当产品负责人无法按时交付时，不切实际的截止日期会再次困扰我。你有经历过类似的事情吗？你如何处理？    由   提交 /u/Abject-Bandicoot8890   [链接] [评论]]]></description>
+      <description><![CDATA[就上下文而言，我办公室的产品负责人开始使用 replit，现在他们谈论的只是我们的软件如何陈旧过时，他们甚至说我们的数据库很旧，需要重建，因为数据可以追溯到 15 年前（wtf）。大多数高管对重建我们的遗留应用程序并对其进行“现代化”的想法感到兴奋，因为他们认为这可以在 4 个月内完成，而不是我们估计的 1 年。我不想成为消极的人，但我不禁想到，当产品负责人无法按时交付时，不切实际的截止日期会再次困扰我。你有经历过类似的事情吗？你如何处理？  更新：感谢大家分享他们的经验和建议，我将提出我的担忧，然后坐等他们的项目不可避免地失败。    由   提交 /u/Abject-Bandicoot8890   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pgk722/how_do_you_handle_nontech_people_pushing_their/</guid>
       <pubDate>Sun, 07 Dec 2025 14:52:32 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[对我来说，它是在不同的上下文中准确理解 JavaScript 中 this 的含义。我花了 6 个月的时间假装我明白了，直到它真正发生为止。你的是什么？ （Docker？Flexbox？递归？    提交者   /u/AmaraMehdi   [链接]   href=&quot;https://www.reddit.com/r/webdev/comments/1pg8n1z/junior_devs_and_honest_seniors_what_is_a_concept/&quot;&gt;[评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pg8n1z/junior_devs_and_honest_seniors_what_is_a_concept/</guid>
       <pubDate>Sun, 07 Dec 2025 03:53:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>具有图像网格/图库/列的无头 CMS 类似于 WordPress 古腾堡？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pg7qr8/headless_cms_with_image_gridgallerycolumn_similar/</link>
-      <description><![CDATA[      我目前正在从 WordPress 切换到 Astro。为此，我需要一个 CMS 来发布包含在网格或列中显示的多个图像的帖子和项目。理想情况下，我正在寻找一款具有类似于 WordPress Gutenberg 中的图像支持的无头 CMS（参见图片）。 虽然我研究了许多无头 CMS，但我只尝试了一些，没有进一步定制。   Sanity PagesCMS TinaCMS Hashnode Hygraph Payload  到目前为止，Payload 给我留下了深刻的印象（它的集合功能与 Astro 类似），但我对编辑器的用户体验不太满意。有一个有效负载可视化编辑器，但不幸的是它仅适用于企业。我知道 Payload 有自定义块功能，但在深入研究之前，我想知道是否有替代方案。 我尝试过的大多数 CMS 每行显示一张图像。如果我只能在前端查看图像网格或列，我宁愿继续使用 WordPress 或将 Astro 与 Markdown/MDX 结合使用，然后设置前端样式。我不想使用 WordPress headless，因为除了拥有不同的前端之外，我看不到任何好处，而且我仍然需要处理插件、安全性等问题。我对 WP 性能没有任何问题（97+ 的页面速度和 A 的碳评级）。 P.S.我不是开发人员；只是一个爱好者。 P.S.S.使用 DeepL 进行语法检查。 P.S.S.S.感谢您的阅读。   由   提交/u/alfirous   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pg7qr8/headless_cms_with_image_gridgallerycolumn_similar/</guid>
-      <pubDate>Sun, 07 Dec 2025 03:06:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过侦破犯罪来学习 SQL 的游戏 - SQL 案例文件</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pg7cya/a_game_where_you_learn_sql_by_solving_crimes_sql/</link>
-      <description><![CDATA[我厌倦了通常的 SQL 实践。您知道那些虚假的公司数据库，其中包含人为的场景和问题，没有人真正需要回答。 应有的全部荣誉：我受到 SQL Noir 的启发，它提出了通过侦探故事学习 SQL 的绝妙概念。我喜欢它，但一直希望界面更流畅，学习进程更结构化。所以我决定建立自己的看法。 每个案件都是犯罪。盗窃、欺诈、有人失踪。每个故事背后都有一个真实的 SQLite 数据库，其中包含嫌疑人、交易、地点、时间线。找到真相的唯一方法是正确查询数据。如果您的 SQL 错误，那么故事就会被破坏。 我在界面上花费了太多时间并构建了正确的学习路径。您可以直接跳到案例中，也可以按照结构化的流程进行。大约一个月前开始在 Reddit 上发布相关内容。现在大约有 8000 人在过去三周内使用过它，老实说，这仍然感觉不真实。 它完全在您的浏览器中运行。无需注册，无需付费墙。只需打开它并开始编写查询即可。有些人把它当作一个益智游戏，然后消失一个小时，其他人用它来提高他们的 SQL 技能。 它被称为 SQL Case Files。如果有什么问题或令人困惑，请告诉我。我正在根据反馈积极调整难度和清晰度。   由   提交 /u/TurbulentCountry5901   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pg7cya/a_game_where_you_learn_sql_by_solving_crimes_sql/</guid>
-      <pubDate>Sun, 07 Dec 2025 02:48:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
