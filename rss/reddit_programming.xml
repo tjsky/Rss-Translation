@@ -4,7 +4,63 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 07 Dec 2025 21:14:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 01:15:55 GMT</lastBuildDate>
+    <item>
+      <title>我为 MCP 构建了一个“学习适配器”，可将代币使用量减少 80%</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgyzkg/i_built_a_learning_adapter_for_mcp_that_cuts/</link>
+      <description><![CDATA[大家好！ 👋 只是想分享一个我为节省 API 成本而构建的工具。 我注意到 MCP 服务器经常返回巨大的 JSON 负载，其中包含我不需要的数据（例如头像链接），这浪费了大量令牌。 因此，我构建了一个“学习适配器”位于中间。它会自动找出哪些字段重要并过滤掉其余字段。它实际上将我的令牌使用量减少了大约 80%。 它是开源的，我真的很想让你尝试一下。  如果对你有帮助，也许我们可以分享优化后的架构，帮助大家一起省钱。 仓库：https://github.com/Sivachow/ado-learning-adapter   由   提交/u/Live_Case2204  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgyzkg/i_built_a_learning_adapter_for_mcp_that_cuts/</guid>
+      <pubDate>Mon, 08 Dec 2025 01:01:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>我对工程师和工程领导者更快地获得新职位的建议</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgy4hv/my_advice_for_engineers_and_engineering_leaders/</link>
+      <description><![CDATA[ 由   提交/u/gregorojstersek   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgy4hv/my_advice_for_engineers_and_engineering_leaders/</guid>
+      <pubDate>Mon, 08 Dec 2025 00:21:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>MyCTiger：使用Ring编程语言生成和构建C程序（想法的原型）。</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgx1go/myctiger_use_the_ring_programming_language_for/</link>
+      <description><![CDATA[MyCTiger 将 Ring 编程语言转换为强大的领域特定语言 (DSL)，用于生成和构建 C 程序。 它使开发人员能够享受 C 的性能和效率，同时利用 Ring 的表达语法和生产力来创建 DSL。与将 Ring 嵌入 C 应用程序或使用 C 代码扩展 Ring VM 的传统方法不同，MyCTiger 将 Ring 重新构想为 C 的元语言。 这与运行时语言集成无关，而是与编译时代码生成有关。借助 MyCTiger，Ring 成为生成 C 代码的高级接口，无需绑定即可直接注入原始 C 并无缝使用现有 C 库。 它只是一个演示该想法的原型，因此感兴趣的开发人员可以根据自己的需求、设计或愿景在自己的分支中对其进行增强（即，保持当前原型的简单对于教育目的非常重要）。   由   提交/u/mrpro1a1  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgx1go/myctiger_use_the_ring_programming_language_for/</guid>
+      <pubDate>Sun, 07 Dec 2025 23:31:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>服务器端请求伪造：它是如何工作的</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgwvfu/serverside_request_forgery_how_it_works/</link>
+      <description><![CDATA[ 由   提交/u/GiraffeFire  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgwvfu/serverside_request_forgery_how_it_works/</guid>
+      <pubDate>Sun, 07 Dec 2025 23:23:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个微型输出格式目录，使 LLM 响应可预测（JSNOBJ、JSNARR、TLDR 等）</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgvk0k/a_tiny_outputformat_catalog_to_make_llm_responses/</link>
+      <description><![CDATA[ 由   提交/u/Several-Comment2465   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgvk0k/a_tiny_outputformat_catalog_to_make_llm_responses/</guid>
+      <pubDate>Sun, 07 Dec 2025 22:26:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>有效可观察性的三个系统思维规则</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgv6by/three_systems_thinking_rules_for_effective/</link>
+      <description><![CDATA[ 由   提交 /u/congolomera   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgv6by/three_systems_thinking_rules_for_effective/</guid>
+      <pubDate>Sun, 07 Dec 2025 22:10:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>普罗米修斯叫醒了我。我决定更好地了解它</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgu6r7/prometheus_woke_me_up_i_decided_to_get_to_know_it/</link>
+      <description><![CDATA[ 由   提交/u/Helpful_Geographer430   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgu6r7/prometheus_woke_me_up_i_decided_to_get_to_know_it/</guid>
+      <pubDate>Sun, 07 Dec 2025 21:30:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>尝试解释 Google 的 PageRank</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgtzgy/trying_to_explain_googles_pagerank/</link>
+      <description><![CDATA[我试图以简单的图形方式解释 Google 的网页排名算法，并正在寻求一些反馈以了解其是否易于理解。 我深受 3Blue1Brown 的启发。 非常感谢任何反馈。   由   提交/u/RealSirJoe  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgtzgy/trying_to_explain_googles_pagerank/</guid>
+      <pubDate>Sun, 07 Dec 2025 21:21:46 GMT</pubDate>
+    </item>
     <item>
       <title>数据流模板——反应式数据流编程中缺失的语义</title>
       <link>https://www.reddit.com/r/programming/comments/1pgsymp/dataflow_templating_the_missing_semantic_in/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[在本视频中，我将继续为我的 Java Swing 库管理系统构建用户管理模块。 本课程涵盖：  向用户添加角色 创建新的用户表单 将用户数据保存到数据库中 将用户与角色动态链接 在 Java Swing 和 Java Swing 中逐步实现 UI + 后端MySQL  如果您正在学习 Java Swing 并希望构建一个真实的桌面应用程序，本系列将帮助您了解从设计到数据库集成的工作流程。 👉 在此处观看第 24 部分：(第 24 部分 — Java Swing 库系统 | （第 1 部分）逐步构建完整的用户管理模块） 我希望这可以帮助任何从事 Java Swing 项目的人！请随意提出问题或分享您的进展。   由   提交/u/Substantial-Log-9305   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pgnva6/part_25_java_swing_library_system_part_2_user/</guid>
       <pubDate>Sun, 07 Dec 2025 17:21:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>AWS re:Invent 2025 - 释放 Rust 在 AWS 上的潜力 (DEV307)</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgm0ry/aws_reinvent_2025_unleash_rusts_potential_on_aws/</link>
-      <description><![CDATA[ 由   提交/u/_bijan_  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgm0ry/aws_reinvent_2025_unleash_rusts_potential_on_aws/</guid>
-      <pubDate>Sun, 07 Dec 2025 16:07:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Octoverse：随着 AI 引领 TypeScript 排名第一，每秒都有新开发人员加入 GitHub</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgkiaf/octoverse_a_new_developer_joins_github_every/</link>
-      <description><![CDATA[ 由   提交/u/Akkeri   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgkiaf/octoverse_a_new_developer_joins_github_every/</guid>
-      <pubDate>Sun, 07 Dec 2025 15:05:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>谁真正发明了卷积神经网络？改变人工智能的技术的历史</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgkgv3/who_really_invented_convolutional_neural_networks/</link>
-      <description><![CDATA[ 由   提交/u/Akkeri   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgkgv3/who_really_invented_convolutional_neural_networks/</guid>
-      <pubDate>Sun, 07 Dec 2025 15:03:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>KOllector - 发布 KOReader 亮点</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgkdmr/kollector_publishing_koreader_highlights/</link>
-      <description><![CDATA[ 由   提交/u/iamstonecharioteer   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgkdmr/kollector_publishing_koreader_highlights/</guid>
-      <pubDate>Sun, 07 Dec 2025 15:00:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>自旋锁与互斥体：何时自旋和何时休眠</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgjrbd/spinlocks_vs_mutexes_when_to_spin_and_when_to/</link>
-      <description><![CDATA[每个锁都会让你付出一些代价      由   提交/u/Extra_Ear_10   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgjrbd/spinlocks_vs_mutexes_when_to_spin_and_when_to/</guid>
-      <pubDate>Sun, 07 Dec 2025 14:33:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>软件的表面张力：为什么系统能够结合在一起</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgis1n/surface_tension_of_software_why_systems_hold/</link>
-      <description><![CDATA[一些系统在成长过程中设法保持连贯性，而另一些系统似乎几乎立即失去了形状。 我一直在通过物理学中的一个比喻来思考这个问题：表面张力 - 帮助结构保持在一起的安静力量。 以下是对该想法如何映射到软件系统以及为什么某些架构比其他架构更好地抵抗混乱的简短反思。 https://iamstelios.com/blog/surface-tension-of-software/   由   提交/u/gonefreeksss  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgis1n/surface_tension_of_software_why_systems_hold/</guid>
-      <pubDate>Sun, 07 Dec 2025 13:48:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建百万TPS交易平衡系统——架构分解+开源原型（AXS）</title>
-      <link>https://www.reddit.com/r/programming/comments/1pghjeg/building_a_milliontps_exchange_balance_system/</link>
-      <description><![CDATA[我写了一篇文章，详细介绍了加密货币交易平衡系统如何在保持正确性和一致性的同时达到100k–1M 更新/秒。 我还开源了一个实现该架构的原型 (AXS)： https://github.com/vx416/axs 文章涵盖：  是什么导致高吞吐量余额更新中出现性能瓶颈？ 如何使用事件驱动和事件驱动达到每秒 100 万次以上的更新内存设计 如何在不牺牲耐用性的情况下设计可靠的缓存层 如何构建一个功能强大的事件驱动架构，其行为类似于 DB WAL 如何通过分区和内存扩展从 1000 万用户扩展到 1 亿以上用户分片 如何实现零停机部署和分片高可用 如何实现分布式事务，同时降低微服务集成复杂度  文章链接： https://medium.com/@vicxu/designing-a-high-throughput-balance-system-for-exchanges-handling-millions-of-tps-fa647adc5d70?sk=26c7eb3365b46ac18c73b9fb78f65ccb   由   提交/u/vicxu416  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pghjeg/building_a_milliontps_exchange_balance_system/</guid>
-      <pubDate>Sun, 07 Dec 2025 12:46:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>身份验证说明：何时使用 Basic、Bearer、OAuth2、JWT 和 SSO</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgfxs1/authentication_explained_when_to_use_basic_bearer/</link>
-      <description><![CDATA[ 由   提交/u/javinpaul   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgfxs1/authentication_explained_when_to_use_basic_bearer/</guid>
-      <pubDate>Sun, 07 Dec 2025 11:11:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
