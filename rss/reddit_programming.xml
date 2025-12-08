@@ -4,11 +4,46 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 08 Dec 2025 01:15:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 03:54:31 GMT</lastBuildDate>
+    <item>
+      <title>Oblast：Commodore 64 的更好 Blasto 游戏</title>
+      <link>https://www.reddit.com/r/programming/comments/1ph1vk4/oblast_a_better_blasto_game_for_the_commodore_64/</link>
+      <description><![CDATA[ 由   提交/u/NXGZ   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ph1vk4/oblast_a_better_blasto_game_for_the_commodore_64/</guid>
+      <pubDate>Mon, 08 Dec 2025 03:21:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>感性有意义的礼物</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgzza9/sentimental_meaningful_gift/</link>
+      <description><![CDATA[一个在我生命中重要了 20 多年的人即将从终生的编程职业生涯中退休。自大学毕业以来，她一直在为一家当地小公司编写代码，她全身心投入到编写的每一个代码中，并且在她编写定制程序的职业生涯中，为数十家甚至数百家当地和小型企业提供服务。我想送她一些特别的东西作为退休礼物，但我不知道什么对她来说可能有意义或感伤。我附上了她大学课程的链接，因为这是必需的。请帮我！    由   提交/u/CobaltMaiden  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgzza9/sentimental_meaningful_gift/</guid>
+      <pubDate>Mon, 08 Dec 2025 01:48:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建 RAG 管道很混乱</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgzx6z/building_a_rag_pipeline_is_messy/</link>
+      <description><![CDATA[我一直在开发人工智能聊天机器人。只是意识到构建 RAG 管道有多么混乱。  数据清理、插入、索引、摄取等等。你们对此有何看法？    由   提交/u/Hari-Prasad-12   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgzx6z/building_a_rag_pipeline_is_messy/</guid>
+      <pubDate>Mon, 08 Dec 2025 01:45:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>最近尝试了一个基于浏览器的Postgres工具：poge.dev</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgzuup/tried_a_browserbased_postgres_tool_recently/</link>
+      <description><![CDATA[我偶然发现了一个完全在浏览器中运行的 Postgres 管理工具。老实说，我并没有抱太大期望，但它对于快速查询、模式编辑和一般数据库浏览来说出奇的不错，而无需安装完整的桌面客户端。 它感觉更接近 Supabase 的表编辑器之类的简单性，但没有附加整个平台。不是重型工具的替代品，但对于快速工作或小型项目来说，它实际上非常方便。 想知道这里是否有人尝试过浏览器原生数据库工具？它们是否长期可靠，或者您仍然更喜欢 TablePlus / DBeaver 等传统桌面客户端？   由   提交/u/Hari-Prasad-12   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgzuup/tried_a_browserbased_postgres_tool_recently/</guid>
+      <pubDate>Mon, 08 Dec 2025 01:42:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>按钮效果悬停</title>
+      <link>https://www.reddit.com/r/programming/comments/1pgzlme/button_effect_hover/</link>
+      <description><![CDATA[HTML 和 CSS   由   提交/u/Allito1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pgzlme/button_effect_hover/</guid>
+      <pubDate>Mon, 08 Dec 2025 01:30:26 GMT</pubDate>
+    </item>
     <item>
       <title>我为 MCP 构建了一个“学习适配器”，可将代币使用量减少 80%</title>
       <link>https://www.reddit.com/r/programming/comments/1pgyzkg/i_built_a_learning_adapter_for_mcp_that_cuts/</link>
-      <description><![CDATA[大家好！ 👋 只是想分享一个我为节省 API 成本而构建的工具。 我注意到 MCP 服务器经常返回巨大的 JSON 负载，其中包含我不需要的数据（例如头像链接），这浪费了大量令牌。 因此，我构建了一个“学习适配器”位于中间。它会自动找出哪些字段重要并过滤掉其余字段。它实际上将我的令牌使用量减少了大约 80%。 它是开源的，我真的很想让你尝试一下。  如果对你有帮助，也许我们可以分享优化后的架构，帮助大家一起省钱。 仓库：https://github.com/Sivachow/ado-learning-adapter   由   提交/u/Live_Case2204  [链接] [评论]]]></description>
+      <description><![CDATA[大家好！ 👋 只是想分享一个我为节省 API 成本而构建的工具。 我注意到 MCP 服务器经常返回巨大的 JSON 负载，其中包含我不需要的数据（例如头像链接），这浪费了大量令牌。 因此，我构建了一个“学习适配器”位于中间。它会自动找出哪些字段重要并过滤掉其余字段。它实际上将我的代币使用量减少了大约80%。 它是开源的，我真的很想让你尝试一下。 如果它对你有帮助，也许我们可以分享优化的架构来帮助每个人一起省钱。 存储库：https://github.com/Sivachow/mcp-learning-adapter   由   提交/u/Live_Case2204  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pgyzkg/i_built_a_learning_adapter_for_mcp_that_cuts/</guid>
       <pubDate>Mon, 08 Dec 2025 01:01:16 GMT</pubDate>
     </item>
@@ -74,41 +109,6 @@
       <description><![CDATA[ 由   提交/u/ascoos  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pgr0aw/html_is_dead_long_live_jml_the_new_secure/</guid>
       <pubDate>Sun, 07 Dec 2025 19:21:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>架构案例研究：[开源]开放式进化基础物理研究平台</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgqac8/architecture_case_study_open_source_platform_for/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgqac8/architecture_case_study_open_source_platform_for/</guid>
-      <pubDate>Sun, 07 Dec 2025 18:58:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>F-35 战斗机的 C++ 编码标准</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgq8vc/f35_fighter_jets_c_coding_standards/</link>
-      <description><![CDATA[ 由   提交/u/azhenley  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgq8vc/f35_fighter_jets_c_coding_standards/</guid>
-      <pubDate>Sun, 07 Dec 2025 18:56:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>尝试使用 Landlock 沙箱网络工具</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgp118/trying_sandboxing_network_tools_with_landlock/</link>
-      <description><![CDATA[因为像wireshark等网络监控工具确实需要CAP_NET_RAW来捕获流量，但通常会永远保留这些权限。这可能会产生不必要的攻击面，甚至允许过去的 RCE（参见 cvedetails）。 因此，我一直在探索 Linux 的沙箱 Landlock 安全性：  从所需的功能 (CAP_NET_RAW) 开始 打开数据包捕获句柄 应用 Landlock 限制（阻止文件系统写入、网络连接） 删除 CAP_NET_RAW - 现有的 pcap 句柄仍然有效  这似乎工作正常，我能够阻止文件系统访问，例如将其限制为 /proc 仅用于进程查找，网络沙箱以阻止 TCP 绑定/连接。 在我的情况下 RustNet 虽然我不确定这是否会有那么大的帮助，因为如果您需要 eBPF 进行进程到套接字映射，CAP_BPF 仍然为攻击者提供了重要的功能。也就是说，我非常有信心攻击者将无法窃取信息，因为没有文件系统访问权限，也没有任何方式通过网络发送内容。 还有其他人在他们的工具中实现了 Landlock 沙箱吗？我很好奇如何进一步改进。   由   提交/u/hubabuba44  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgp118/trying_sandboxing_network_tools_with_landlock/</guid>
-      <pubDate>Sun, 07 Dec 2025 18:07:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机如何存储十进制数</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgonfz/how_computers_store_decimal_numbers/</link>
-      <description><![CDATA[我整理了一篇简短的文章，解释计算机如何存储十进制数字，从 IEEE-754 双精度开始，一直到金融系统中使用的十进制类型。 还有一节介绍 Avro 小数以及精度/小数位数如何在分布式数据管道中工作。 它旨在对权衡进行平易近人的概述：准确性、性能、模式设计、等 希望它有用： https://open.substack.com/pub/sergiorodriguezfreire/p/how-computers-store-decimal-numbers   由   提交 /u/Kindly-Tie2234   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgonfz/how_computers_store_decimal_numbers/</guid>
-      <pubDate>Sun, 07 Dec 2025 17:52:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>第 25 部分 — Java Swing 库系统 | （第2部分）用户管理模块-添加角色和创建新用户</title>
-      <link>https://www.reddit.com/r/programming/comments/1pgnva6/part_25_java_swing_library_system_part_2_user/</link>
-      <description><![CDATA[在本视频中，我将继续为我的 Java Swing 库管理系统构建用户管理模块。 本课程涵盖：  向用户添加角色 创建新的用户表单 将用户数据保存到数据库中 将用户与角色动态链接 在 Java Swing 和 Java Swing 中逐步实现 UI + 后端MySQL  如果您正在学习 Java Swing 并希望构建一个真实的桌面应用程序，本系列将帮助您了解从设计到数据库集成的工作流程。 👉 在此处观看第 24 部分：(第 24 部分 — Java Swing 库系统 | （第 1 部分）逐步构建完整的用户管理模块） 我希望这可以帮助任何从事 Java Swing 项目的人！请随意提出问题或分享您的进展。   由   提交/u/Substantial-Log-9305   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pgnva6/part_25_java_swing_library_system_part_2_user/</guid>
-      <pubDate>Sun, 07 Dec 2025 17:21:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
