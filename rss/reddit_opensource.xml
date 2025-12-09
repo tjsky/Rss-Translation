@@ -4,11 +4,25 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 08 Dec 2025 21:17:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 01:16:23 GMT</lastBuildDate>
+    <item>
+      <title>RANDEVU - 适用于任何事物的通用概率每日提醒协调系统</title>
+      <link>https://www.reddit.com/r/opensource/comments/1phrmw4/randevu_universal_probabilistic_daily_reminder/</link>
+      <description><![CDATA[      RANDEVU - 一个小型、无服务器的通用提醒调度程序。将任何字符串（“MARIO_KART”、“THE_MATRIX_1999”、YouTube 视频等）+ 今天的日期输入到库中，它会明确地告诉您（和其他人）今天是否是要提醒的日子 - 以及确切的 UTC 时间。没有应用程序，没有帐户，没有同步；只是基于 BLAKE3 的概率协调，可以永远离线工作。 Rust/Python/JS/TS，完全自由开源。   由   提交/u/TypicalHog  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1phrmw4/randevu_universal_probabilistic_daily_reminder/</guid>
+      <pubDate>Mon, 08 Dec 2025 23:17:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Beliarg 是一个黑暗的、游戏化的生产力和财务管理生态系统。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1phplp9/beliarg_is_a_dark_gamified_productivity_and/</link>
+      <description><![CDATA[这是一个开源项目 - 免费使用、修改和分发。它已被重新打造为全栈 Web 应用程序 (PWA)。它将 React 19 前端（使用 Vite 构建）与 Node.js 和 Node.js 结合在一起。 PostgreSQL 后端确保您的数据即使在世界末日也能幸存））。它具有独特的“地狱”风格。审美，把日常任务变成“链条”，把开支变成“牺牲”，把习惯变成“仪式”。 https://github.com/D371L/beliarg随时留下任何反馈   由   提交 /u/D371L   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1phplp9/beliarg_is_a_dark_gamified_productivity_and/</guid>
+      <pubDate>Mon, 08 Dec 2025 21:55:20 GMT</pubDate>
+    </item>
     <item>
       <title>OpsOrch – 事件、日志、指标和票证的统一 API</title>
       <link>https://www.reddit.com/r/opensource/comments/1phom73/opsorch_unified_api_for_incidents_logs_metrics/</link>
-      <description><![CDATA[我构建了 OpsOrch，这是一个开源编排层，可为您提供用于事件、日志、指标、票证、消息传递和服务元数据的一个统一 API。它位于您已使用的工具（PagerDuty、Jira、Elasticsearch、Prometheus、Slack 等）之上，并将所有内容标准化为单一架构。 OpsOrch 不存储您的运营数据。它只是通过可插入适配器（Go 或 JSON-RPC）代理请求并返回统一的结构。除此之外，还有一个可选的 MCP 服务器，它将所有功能公开为 LLM 代理的类型化工具。 为什么？ 大多数事件工作流程需要跨越 5 个以上供应商 UI 和 API，每个都有自己的查询语言和身份验证模型。 OpsOrch 的目标是成为小型、透明的粘合层，在不强制迁移的情况下消除复杂性。 现在可用的内容  核心编排服务（Go、Apache-2.0） 适配器：PagerDuty、Jira、Prometheus、Elasticsearch、Slack 以及模拟提供程序 MCP 服务器公开events/logs/metrics/tickets/services 作为代理工具 没有供应商锁定，没有数据引力  存储库  https://github.com/OpsOrch/opsorch-core https://github.com/OpsOrch/opsorch-mcp 适配器：https://github.com/OpsOrch  希望获得有关架构、适配器模型、安全问题以及您下一步想要哪些集成的反馈。   由   提交/u/yusufaytas   [链接] [评论]]]></description>
+      <description><![CDATA[      我构建了 OpsOrch，这是一个开源编排层，它为您提供用于事件、日志、指标、票证、消息传递和服务元数据的一个统一 API。它位于您已使用的工具（PagerDuty、Jira、Elasticsearch、Prometheus、Slack 等）之上，并将所有内容标准化为单一架构。 OpsOrch 不存储您的运营数据。它只是通过可插入适配器（Go 或 JSON-RPC）代理请求并返回统一的结构。除此之外，还有一个可选的 MCP 服务器，它将所有功能公开为 LLM 代理的类型化工具。 为什么？ 大多数事件工作流程需要跨越 5 个以上供应商 UI 和 API，每个都有自己的查询语言和身份验证模型。 OpsOrch 的目标是成为小型、透明的粘合层，在不强制迁移的情况下消除复杂性。 现在可用的内容  核心编排服务（Go、Apache-2.0） 适配器：PagerDuty、Jira、Prometheus、Elasticsearch、Slack 以及模拟提供程序 MCP 服务器公开events/logs/metrics/tickets/services 作为代理工具 没有供应商锁定，没有数据引力  存储库  https://github.com/OpsOrch/opsorch-core https://github.com/OpsOrch/opsorch-mcp 适配器：https://github.com/OpsOrch  希望获得有关架构、适配器模型、安全问题以及您下一步想要哪些集成的反馈。   由   提交/u/yusufaytas   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1phom73/opsorch_unified_api_for_incidents_logs_metrics/</guid>
       <pubDate>Mon, 08 Dec 2025 21:16:50 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[当人们请求免费的网络钓鱼模拟工具、LMS 平台和安全意识培训材料时，我一直在关注讨论。这个领域的开源选项似乎非常有限。  说到培训——根本没有找到任何质量不错的培训材料。 事情真的是这样吗？也许我不擅长谷歌搜索，但似乎应该有更多可用的开源替代方案。   由   提交/u/anthonyDavidson31  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1pgwqfy/is_there_a_shortage_of_opensource_tools_in_the/</guid>
       <pubDate>Sun, 07 Dec 2025 23:17:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了一个带有 ASP.NET 和 ML.NET 后端的开源 Web 应用程序</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pgua1k/i_created_an_open_source_web_app_with_aspnet_and/</link>
-      <description><![CDATA[如果有人喜欢 .NET 平台，并希望为项目做出贡献，这是一个很好的机会。您可以在网站上找到 github 存储库链接。我的目标是建立一个复杂的健康管理平台。这只是第一个测试版本，所以当我有时间时它正在开发中。 重要：现在该网站只允许低于 1 MB 的照片，因为我不想让服务器超载。 链接：https://openhealthweb.eu/   由   提交 /u/balazs-dombi   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pgua1k/i_created_an_open_source_web_app_with_aspnet_and/</guid>
-      <pubDate>Sun, 07 Dec 2025 21:33:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找开源彩色电子墨水阅读器来阅读 epub 和 pdf 书籍</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pgu762/looking_for_an_opensource_color_eink_reader_to/</link>
-      <description><![CDATA[嘿，我正在寻找一款开源（软件方面）彩色电子墨水阅读器，例如 Kindle 电子阅读器，因为我很难在电脑上阅读书籍。我主要将它用于 .epub 和 PDF 文件。 我找到了一个，但它没有颜色：https://pine64.org/devices/pinenote/ 谢谢   由   提交/u/Azaruliade  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pgu762/looking_for_an_opensource_color_eink_reader_to/</guid>
-      <pubDate>Sun, 07 Dec 2025 21:30:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
