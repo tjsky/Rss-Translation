@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 09 Dec 2025 06:28:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 09:22:49 GMT</lastBuildDate>
+    <item>
+      <title>为什么谷歌仍然在 4G 速度慢的旧摩托车上模拟移动？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pi1zk2/why_does_google_still_emulate_mobile_on_a_old/</link>
+      <description><![CDATA[      几乎每个人都拥有更快的手机，几乎整个欧盟现在都拥有快速的 5G。 如果你问我的话，那太荒谬了。   由   提交/u/FinalLightNL  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pi1zk2/why_does_google_still_emulate_mobile_on_a_old/</guid>
+      <pubDate>Tue, 09 Dec 2025 08:07:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chrome 合成器中的跳舞字母错误</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pi1oi7/dancing_letters_bug_in_chrome_compositor/</link>
+      <description><![CDATA[      画布渲染会以某种方式干扰字体渲染。不确定我是否可以修复它，或者我是否应该尝试，看起来很有趣   由   提交 /u/torchkoff   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pi1oi7/dancing_letters_bug_in_chrome_compositor/</guid>
+      <pubDate>Tue, 09 Dec 2025 07:46:38 GMT</pubDate>
+    </item>
     <item>
       <title>寻找经济实惠的域名和托管选项</title>
       <link>https://www.reddit.com/r/webdev/comments/1pi0awz/looking_for_affordable_domain_and_hosting_options/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[我一直致力于为 Web 应用程序构建实时仪表板，有一件事变得显而易见：前端经常承受混乱数据结构的痛苦。缓慢的 API、不一致的指标和复杂的连接甚至会让小型交互式仪表板的实施变得像一场噩梦。 了解数据建模的基础知识（例如语义层、预聚合指标和高效连接）可以极大地提高性能并减少客户端的麻烦。这不仅仅是一个后端问题；考虑如何构建数据的前端团队最终会构建更快、更可靠的仪表板，这些仪表板可扩展性良好且对用户来说很直观。 很好奇这里的其他前端开发人员是否遇到了类似的问题，以及您发现哪些策略有助于管理高基数或实时仪表板数据。   由   提交 /u/VisualAnalyticsGuy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1phn49p/why_frontend_devs_should_care_about_data_modeling/</guid>
       <pubDate>Mon, 08 Dec 2025 20:20:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>被指定为项目的主要且唯一的前端开发人员。我是一名专注于后端的全栈开发人员。帮助。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1phljx0/assigned_as_the_main_and_only_frontend_developer/</link>
-      <description><![CDATA[我有责任使用 React 构建一个面向公众的网站的前端，就像一个轻量级的网上商店一样。我最近被一家新公司录用，我强调我的前端经验很一般。  从技术上讲，我是一名全栈开发人员，但实际上我非常专注并且更擅长后端工作（与 JS 无关）。我拥有多年的 React 经验，对 TypeScript、状态管理和组件相当熟悉。我只制作过单独的组件、修复错误等。从未编写过自定义钩子或在前端实现了正确的身份验证，今天是我第一次在 google 上搜索 Next.JS 是什么。  我从未开发过面向公众的应用程序，只有存在于防火墙后面的企业网络上的企业应用程序，安全问题要小得多。 有哪些资源可以让我加快了解现代 React 应用程序的制作方式？  诸如此类的东西：  安全性 - 除了 OWASP Top 10 之外 技术堆栈 - 用于全局状态的 Redux 显然，我是否需要 Next.JS 来使用它有用的实用程序？ （无服务器端渲染） UI/UX - 可能会使用 Tailwind 和 SCSS，但不知道 AntDesign 或 MaterialUI 是否是一个不错的选择？  任何技术性的东西 - 常见的陷阱、有用的库，我可能需要熟悉 Webpack 和 Gulp？   将 UI 模型实现到 T（具有移动缩放）完全吓坏了我。我非常担心我是否能够以他们可能期望的高质量交付这些东西。  我其实不知道我不知道什么。任何指导将不胜感激。   由   提交 /u/TraditionalType9869   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1phljx0/assigned_as_the_main_and_only_frontend_developer/</guid>
-      <pubDate>Mon, 08 Dec 2025 19:21:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>去抖动 fn 的正确模式</title>
-      <link>https://www.reddit.com/r/webdev/comments/1phkify/correct_pattern_for_debounce_fn/</link>
-      <description><![CDATA[function Comp({ 回调 }) { const debouncedFn = debounce(callback, 300);或 constcallbackRef = useRef(callback); useEffect(() =&gt; {callbackRef.current = 回调; }, [回调]); const debouncedFn = useMemo(() =&gt; { return debounce((...args) =&gt; callbackRef.current(...args), 300); }, []);  我正在检查 debounce fn 并发现了这个，我还没有看到任何人使用这种模式。   由   提交 /u/Witty_Intention3873   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1phkify/correct_pattern_for_debounce_fn/</guid>
-      <pubDate>Mon, 08 Dec 2025 18:43:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
