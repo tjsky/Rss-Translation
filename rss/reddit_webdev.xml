@@ -4,20 +4,34 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 10 Dec 2025 18:27:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 21:20:05 GMT</lastBuildDate>
     <item>
-      <title>AILEE-核心</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pj9kix/aileecore/</link>
-      <description><![CDATA[AILEE‑Core 是一个可用于生产的比特币 Layer‑2 框架，可提供高吞吐量、可验证的恢复和能源遥测。强化的人工智能编排确保全球网络的弹性扩展和自适应信任。   由   提交/u/EscapeHistorical178  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pj9kix/aileecore/</guid>
-      <pubDate>Wed, 10 Dec 2025 18:00:52 GMT</pubDate>
+      <title>参与式应用测试：分享您发现的任何错误并获得补偿</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pjdx5x/participatory_app_testing_share_any_bugs_you_find/</link>
+      <description><![CDATA[我们正在对仍在开发中的习惯跟踪应用程序进行技术审查，并正在收集一小部分用户的观察结果。重点是识别正常使用过程中的崩溃、故障和任何意外行为。经验证的调查结果将以固定金额予以承认：重大问题 20 美元，次要问题 5 美元。在高级部分中检测到的问题可能会收到额外的确认。 流程概述： • 以典型方式安装和使用应用程序 • 记下任何违规行为，以及重现步骤和屏幕截图或视频 • 已确认的问题将收到相应的确认金额 如果您想加入审核小组，请随时通过 DM 与我联系。   由   提交 /u/NefiousnessOld2368   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pjdx5x/participatory_app_testing_share_any_bugs_you_find/</guid>
+      <pubDate>Wed, 10 Dec 2025 20:41:47 GMT</pubDate>
     </item>
     <item>
-      <title>我意识到我的初创公司的 MVP 不是代码。这是伪装成进步的恐慌驱动的打字。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pj94ux/i_realized_my_startups_mvp_wasnt_code_it_was/</link>
-      <description><![CDATA[最近，我打开了一份早期的旧文件，我的身体退缩了。 如果您曾经在产品截止日期前破解过，您就会知道这种感觉。你动作很快。您可以将管道胶带的功能结合在一起。突然间，整个系统感觉就像一座由希望、咖啡因和无人修复的// TODO：稍后修复评论组成的 Jenga 塔。我只是疯狂地打字以止血。 去年我还清了技术债务。如果我能回到过去，摇晃过去的自己的肩膀，我会向他尖叫这 6 个现实检验。也许它们可以为您节省一个调试地狱的周末。 1.关注点分离（停止创造上帝对象） 我有一个 User 类处理身份验证、数据库写入、电子邮件通知和格式化日期。这是一场灾难。  解决办法：当一个函数尝试做所有事情时，它什么也做不好。这就像从同一个喝醉的朋友那里获得股票提示和医疗建议。责任划分。如果一个函数需要并描述它的功能，那么它就做得太多了。 2.评论是对未来的自己的道歉 我曾经认为我的代码是自我记录的。事实并非如此。这是凌晨三点写的神秘诗。  解决方法：今天的评论是 6 个月后送给您的礼物。未来的你对你写的那句巧妙的俏皮话的记忆力为零。不要将调试当作犯罪现场调查。 3. DRY 是没有商量余地的 复制粘贴现在感觉很快。感觉就像生产力。  修复：每个重复的块都是未来的错误，等待您在 5 个不同的位置修复它。如果你写了两次，就抽象出来。让函数来完成繁重的工作，而不是 Ctrl+C。 4.聪明是敌人 我曾经编写复杂的三元运算符，因为我想看起来像一个真正的工程师。  修复：复杂的代码看起来令人印象深刻，直到您醒来发现 PagerDuty 警报来修复它。  可读 &gt;聪明。 无聊&gt;神奇。  5。 TDD（即使只是一点点） 我跳过了测试，因为我们需要发货。  解决办法： TDD 就像在学习之前先写考试。测试失败→您添加逻辑→测试通过。它强制遵守纪律，更重要的是，它让您有信心稍后进行重构，而不必担心悄悄破坏登录流程。 6. YAGNI（你不会需要它） 我花了几周的时间为一个零用户的平台构建了一个强大的推荐系统。  解决办法：创始人喜欢为产品的 B 系列版本进行规划。但大多数想象中的功能从未实现。关注用户现在的需求。。获得稍后构建复杂内容的权利。 将代码库视为露营地。让它比你发现它时更干净。如果您触摸文件，请修复缩进或重命名该模糊变量。 P.S.您在遗留代码库中见过的、至今仍困扰着您的最混乱的编码犯罪是什么？   由   提交 /u/ConversationUsed7828   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pj94ux/i_realized_my_startups_mvp_wasnt_code_it_was/</guid>
-      <pubDate>Wed, 10 Dec 2025 17:45:08 GMT</pubDate>
+      <title>您对这个新的虚拟机混淆有何看法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pjbq35/whats_your_opinion_on_this_new_vm_obfuscation/</link>
+      <description><![CDATA[       由   提交 /u/Dimention_less   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pjbq35/whats_your_opinion_on_this_new_vm_obfuscation/</guid>
+      <pubDate>Wed, 10 Dec 2025 19:18:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 WordPress 多年了，现在怎么办？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pjbj28/been_in_wordpress_for_years_what_now/</link>
+      <description><![CDATA[在 WordPress 开发工作已经有 8 年了，我觉得我非常了解它的宇宙，但试图弄清楚下一步该怎么做才能更适合市场。我一直在考虑的一些选择  更好地使用 WP（插件），做更多的自由职业，并尝试寻找另一个全职工作来管理 WP 网站。肯定有资格担任高级职位，但众所周知，现在找工作的市场并不好。 也许是一种无头的方法来学习 React 之类的东西（我认为我不擅长 JS），但要利用 WP 生态系统。 使用完全不同的平台/语言（例如 Sanity/React）并变得更加“现代”。从头开始构建我自己的应用程序听起来很有趣，尽管需要更长的时间，因为我需要清除 JS 上的锈迹。 将其全部转储并成为一名网络营销经理来监督所有与网站相关的事情。   最令人担忧的是时间和倦怠。之前的工作我花了几个月的时间 -&gt;一年来学习一门新语言，但这根本没有提高我的市场竞争力。我一直在与本地仍在 WP 生态系统中的人们建立联系。他们表示，要找到具有 WP 经验的新人非常困难，因为许多开发人员认为它是“旧技术”。与他们一起工作的许多人已经从事 WP 工作十多年了。  为任何有过相关经历的人寻求建议。    由   提交/u/Crafty_Law5538  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pjbj28/been_in_wordpress_for_years_what_now/</guid>
+      <pubDate>Wed, 10 Dec 2025 19:11:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找改进可访问性和设计的建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pjah1u/looking_for_suggestions_to_improve_the/</link>
+      <description><![CDATA[我是一名后端开发人员，为我的国家创建了一个签署 pdf 文件的替代方案，因为使用的主要软件是由政府制造的，所以我创建了一个工具，但我对 UX UI 不太了解，我选择了经典的、切题的网站，但我不知道如何改进它 https://signature.redcron.com/   由   提交/u/javierdromero  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pjah1u/looking_for_suggestions_to_improve_the/</guid>
+      <pubDate>Wed, 10 Dec 2025 18:32:45 GMT</pubDate>
     </item>
     <item>
       <title>构建器 io 问题</title>
@@ -29,12 +43,12 @@
     <item>
       <title>我正在寻找有关创建最小且具有视觉吸引力的网页的建议。</title>
       <link>https://www.reddit.com/r/webdev/comments/1pj7o9g/im_looking_for_suggestions_on_creating_a_minimal/</link>
-      <description><![CDATA[现在的 Web UI 看起来几乎都一​​样。我正在构建一个新产品，我知道 UI 只是一小部分 - 但我仍然希望它漂亮、简约，并且能够让人们说“哇”。 这甚至不是首先为其他人设计的 - 这是为我而设计的。我希望每次打开项目时都能感受到快乐，这样我每天都有动力去构建它。 我花了很多时间试图找到完美的 CSS 框架、库或组件集，但我仍然无法确切地弄清楚我在寻找什么。您有什么建议吗？   由   提交 /u/Jealous-Salary-3348   [链接] [评论]]]></description>
+      <description><![CDATA[现在的 Web UI 看起来几乎都一​​样。我正在构建一个新产品，我知道 UI 只是一小部分 - 但我仍然希望它漂亮、简约，并且能够让人们说“哇”。 这甚至不是首先为其他人设计的 - 这是为我自己设计的。我希望每次打开项目时都能感受到快乐，这样我每天都有动力去构建它。 我花了很多时间试图找到完美的 CSS 框架、库或组件集，但我仍然无法确切地弄清楚我在寻找什么。您有什么建议吗？   由   提交 /u/Jealous-Salary-3348   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pj7o9g/im_looking_for_suggestions_on_creating_a_minimal/</guid>
       <pubDate>Wed, 10 Dec 2025 16:52:36 GMT</pubDate>
     </item>
     <item>
-      <title>允许您抓取并提供社交媒体资料统计信息的网站</title>
+      <title>允许您抓取并提供社交媒体资料统计数据的网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1pj7gma/website_that_allows_you_to_scrape_and_provide/</link>
       <description><![CDATA[嗨， 这个想法最初是针对 Twitter/X 的，但问题是 X API 不允许我检索我需要的信息，抓取也不允许（因为当你没有登录时，你只能访问很少的信息）。 我的问题是：我有哪些替代方法来获取 Twitter/X 个人资料的全面统计信息？ 谢谢！   由   提交 /u/ThinkyCodesThings   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pj7gma/website_that_allows_you_to_scrape_and_provide/</guid>
@@ -90,25 +104,11 @@
       <pubDate>Wed, 10 Dec 2025 14:38:10 GMT</pubDate>
     </item>
     <item>
-      <title>cloudflare 试图修复 React cve 导致 28% 的流量中断，哈哈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pj3ryx/cloudflare_broke_28_of_traffic_trying_to_fix_the/</link>
-      <description><![CDATA[今天阅读 cloudflares 事后分析。 25 分钟中断，28% 的请求返回 500 秒 因此他们将 WAF 缓冲区从 128kb 增加到 1mb 以捕获 React rsc 漏洞。美好的。但后来他们的测试工具不支持新的尺寸 而不是修复工具，他们只是......用终止开关禁用它？全球推送 结果发现他们的代理中有 15 年历史的 lua 代码，假设一个字段总是存在。 Killswitch 使其为零。繁荣 尝试索引字段“执行”（零值） 28% 死亡。这个错误一直存在，只是以前从未遇到过该代码路径 所有公司的 cloudflare 都被零引用咬住了，这有点疯狂。他们的新代理已经生锈，但尚未完全推出 回滚也不起作用，因为配置已经无处不在。必须手动修复 现在我对我们自己的遗留代码感到偏执。可能在我们从未测试过的路径中也有类似的地雷。最近一直在使用 verdent 来帮助重构一些旧的东西，至少它显示了在我接触任何东西之前可能会破坏的东西。但是，您仍然无法测试您不知道存在的东西 cloudflare 试图保护我们免受 cve 的影响，并造成了比漏洞本身更大的中断 lmao   由   提交 /u/Zestyclose_Ring1123   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pj3ryx/cloudflare_broke_28_of_traffic_trying_to_fix_the/</guid>
-      <pubDate>Wed, 10 Dec 2025 14:21:20 GMT</pubDate>
-    </item>
-    <item>
       <title>平面文件 CMS 建议不需要每个帖子都有一个文件夹？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pj3co3/flatfile_cms_suggestion_that_doesnt_require_a/</link>
       <description><![CDATA[这是我的用例：我有很多业余爱好写作，目前我使用 blot.im 来托管它。 Blot 效果很好，因为我的大部分写作都是在手机上完成的，而且我只需通过 Dropbox 添加 Markdown 文件即可将其上传到我的 blot 网站。不过，我开始遇到 blot 的一些限制，即它无法对标签进行分页，因此我正在考虑托管自己的标签。我对 HTML 和 CSS 有很好的掌握，并且我可以笨手笨脚地使用 Composer 进行设置。  我已经浏览了大多数大牌（Grav、Typemill 等），并发现它们由于各种原因而不能令人满意，其中最大的一个是它们中的许多要求您为每个帖子创建一个唯一的文件夹。将我当前的写作集合迁移到这种格式会让这变得非常痛苦。 我正在寻找能够将 example.com/writing/setting-name/filename.md 转换为 example.com/writing/setting-name/filename 的东西，从文件中已有的 YAML 中提取其元数据。 在我检查过的所有内容中，Pico CMS 实际上是最接近我想要的，但我似乎无法使其标记扩展发挥作用。无论如何，我宁愿使用更现代的东西。 我不想做任何涉及将我的工作上传到 Github 然后推送存储库来更新网站的事情。这是我不想处理的额外步骤，而且我不愿意将我的个人小说作品上传到 M$ 可以访问的地方。我也不介意根据成本付费。 TIA！   由   提交/u/birdoge  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pj3co3/flatfile_cms_suggestion_that_doesnt_require_a/</guid>
       <pubDate>Wed, 10 Dec 2025 14:03:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>宣布 ReScript 12</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pj335q/announcing_rescript_12/</link>
-      <description><![CDATA[ReScript 12 带来了重新设计的构建工具链、模块化运行时和一系列符合人体工程学的语言功能。  新功能包括： - 新的构建系统 - 改进的标准库 - 运算符改进 - 字典文字和字典模式匹配 - 嵌套记录类型 - 变体模式传播 - JSX 保留模式 - 函数级指令 - 正则表达式文字 - 实验性 let？语法   由   提交/u/BeamMeUpBiscotti   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pj335q/announcing_rescript_12/</guid>
-      <pubDate>Wed, 10 Dec 2025 13:51:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
