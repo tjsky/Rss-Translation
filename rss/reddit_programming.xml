@@ -4,9 +4,58 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 10 Dec 2025 21:19:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 01:17:49 GMT</lastBuildDate>
     <item>
-      <title>我们如何在 PostgreSQL 中构建单遍高效的分面搜索。</title>
+      <title>ovr@6.0.0 - 基于流式获取的分段上传</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjkhqi/ovr600_streaming_fetch_based_multipart_uploads/</link>
+      <description><![CDATA[ 由   提交 /u/rossrobino   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjkhqi/ovr600_streaming_fetch_based_multipart_uploads/</guid>
+      <pubDate>Thu, 11 Dec 2025 01:16:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>99% 的开发人员没有获得 TLB</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjjmiz/99_of_developers_dont_get_tlbs/</link>
+      <description><![CDATA[ 由   提交/u/BlueGoliath  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjjmiz/99_of_developers_dont_get_tlbs/</guid>
+      <pubDate>Thu, 11 Dec 2025 00:36:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>第 20 天：为常见日志格式构建兼容层</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjiqdt/day_20_building_a_compatibility_layer_for_common/</link>
+      <description><![CDATA[我们今天正在构建的内容    多协议摄取适配器支持 syslog (RFC 3164/5424) 和 systemd Journald 格式规范化服务，可将异构日志格式转换为统一架构 背压感知收集层，处理来自系统服务的突发流量 架构验证网关，在下游处理之前强制执行格式约定  为什么这很重要：协议适配器问题     由   提交/u/Extra_Ear_10   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjiqdt/day_20_building_a_compatibility_layer_for_common/</guid>
+      <pubDate>Wed, 10 Dec 2025 23:57:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>过早的优化是万恶之源，忽视规模也是万恶之源（心智模型）</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjiexo/premature_optimization_is_the_root_of_all_evil_so/</link>
+      <description><![CDATA[ 由   提交/u/dmp0x7c5  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjiexo/premature_optimization_is_the_root_of_all_evil_so/</guid>
+      <pubDate>Wed, 10 Dec 2025 23:43:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我分析了 2025 年第四季度的 500 个自由职业。“初级专家”是如何成长的</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjgtnz/i_analyzed_500_freelance_jobs_in_q4_2025_how_the/</link>
+      <description><![CDATA[我从 2025 年 11 月起在主要自由平台（Upwork/Toptal）上抓取了 500 份已完成合同的数据，看看发生了什么，并发现了一些有趣的东西。 我的发现：  纯粹的“前端”是一场逐底竞争：简单的 React/HTML/CSS 工作的价值已经直线下降（20 - 40 美元/小时），因为 AI 生成的 UI 太好了。 “集成”高级：薪酬最高的初级职位（80+/小时）现在是“Glue Code”工作。将 OpenAI API 连接到 Airtable，将 Stripe 连接到 Discord。     “代理”转变：企业希望代理能够 24/7 自主运行。  “堆栈”已更改： 如果您要在 2025 年末建立一个投资组合以便受聘，并且您正在建立一个“待办事项列表”或“天气应用程序”，甚至磨练leetcode，请停止。 招聘人员和客户希望看到：  无头浏览器：（Playwright/Puppeteer）用于数据收集。 矢量数据库：（Pinecone/Weaviate）用于RAG应用程序。 Webhooks：处理实时数据  我在关于 2025/26 年转换的特定项目的 Medium 文章中对此进行了更深入的探讨，其中包括“Lead Gen Bot”的 Python 代码片段。您可以用它来寻找您的第一个客户。       由   提交/u/Peach_Baker  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjgtnz/i_analyzed_500_freelance_jobs_in_q4_2025_how_the/</guid>
+      <pubDate>Wed, 10 Dec 2025 22:36:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>XPRIZE 量子应用竞赛的 7 名决赛入围者</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjgrvs/the_7_finalists_in_the_xprize_quantum/</link>
+      <description><![CDATA[ 由   提交/u/donutloop  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjgrvs/the_7_finalists_in_the_xprize_quantum/</guid>
+      <pubDate>Wed, 10 Dec 2025 22:34:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>素数域中离散对数的计算（高斯整数法）</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjf5xy/computation_of_discrete_logarithms_in_prime/</link>
+      <description><![CDATA[ 由   提交/u/DataBaeBee  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjf5xy/computation_of_discrete_logarithms_in_prime/</guid>
+      <pubDate>Wed, 10 Dec 2025 21:30:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们如何在 PostgreSQL 中构建单遍高效分面搜索。</title>
       <link>https://www.reddit.com/r/programming/comments/1pjebuz/how_we_built_single_pass_efficient_faceted_search/</link>
       <description><![CDATA[我们刚刚更新了 `pg_search` 以支持分面搜索👀 它使用自定义窗口函数，挂钩规划器并使用自定义扫描，以便所有工作（搜索和聚合）都被推送到我们的 BM25 索引（基于 Tantivy）的单次传递中。 由于索引具有柱状组件，我们可以有效地计算计数并将其作为 JSON 与排名结果一起返回。   由   提交/u/jamesgresql  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pjebuz/how_we_built_single_pass_efficient_faceted_search/</guid>
@@ -60,55 +109,6 @@
       <description><![CDATA[ 由   提交/u/self  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pj5v86/go_126_package_runtimesecret_zeros_out_registers/</guid>
       <pubDate>Wed, 10 Dec 2025 15:44:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux 内核中的 Rust 正式保留</title>
-      <link>https://www.reddit.com/r/programming/comments/1pj586l/rust_in_the_linux_kernel_is_officially_here_to/</link>
-      <description><![CDATA[ 由   提交 /u/NYPuppy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pj586l/rust_in_the_linux_kernel_is_officially_here_to/</guid>
-      <pubDate>Wed, 10 Dec 2025 15:19:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>宣布 ReScript 12</title>
-      <link>https://www.reddit.com/r/programming/comments/1pj34s7/announcing_rescript_12/</link>
-      <description><![CDATA[ReScript 12 带来了重新设计的构建工具链、模块化运行时和一系列符合人体工程学的语言功能。  新功能包括： - 新的构建系统 - 改进的标准库 - 运算符改进 - 字典文字和字典模式匹配 - 嵌套记录类型 - 变体模式传播 - JSX 保留模式 - 函数级指令 - 正则表达式文字 - 实验性 let？语法   由   提交/u/BeamMeUpBiscotti   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pj34s7/announcing_rescript_12/</guid>
-      <pubDate>Wed, 10 Dec 2025 13:53:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能、企业责任和民主合法性——DevOps 是答案吗？ •乔安娜·布赖森</title>
-      <link>https://www.reddit.com/r/programming/comments/1pj2p2q/ai_corporate_responsibility_democratic_legitimacy/</link>
-      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pj2p2q/ai_corporate_responsibility_democratic_legitimacy/</guid>
-      <pubDate>Wed, 10 Dec 2025 13:34:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 React 在 Blender 中驱动 3D 场景</title>
-      <link>https://www.reddit.com/r/programming/comments/1pj0rur/driving_3d_scenes_in_blender_with_react/</link>
-      <description><![CDATA[ 由   提交 /u/roman01la   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pj0rur/driving_3d_scenes_in_blender_with_react/</guid>
-      <pubDate>Wed, 10 Dec 2025 11:59:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Maestro 轻松进行移动 E2E 测试</title>
-      <link>https://www.reddit.com/r/programming/comments/1pj0jcq/effortless_mobile_e2e_testing_with_maestro/</link>
-      <description><![CDATA[ 由   提交 /u/Full_Trade_1063   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pj0jcq/effortless_mobile_e2e_testing_with_maestro/</guid>
-      <pubDate>Wed, 10 Dec 2025 11:45:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>透视微服务炒作</title>
-      <link>https://www.reddit.com/r/programming/comments/1pixxy9/seeing_through_the_microservices_hype/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pixxy9/seeing_through_the_microservices_hype/</guid>
-      <pubDate>Wed, 10 Dec 2025 09:02:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何从头开始打造一个学习日语的开源平台</title>
-      <link>https://www.reddit.com/r/programming/comments/1pix2ud/how_i_cultivated_an_opensource_platform_for/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pix2ud/how_i_cultivated_an_opensource_platform_for/</guid>
-      <pubDate>Wed, 10 Dec 2025 08:04:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
