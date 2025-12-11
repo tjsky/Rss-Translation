@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 11 Dec 2025 03:56:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 06:29:16 GMT</lastBuildDate>
+    <item>
+      <title>绕过社交媒体 API 限制：基于视觉的浏览器自动化桥</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjqe83/bypassing_social_media_api_limitations/</link>
+      <description><![CDATA[因此，每当我想要构建与社交媒体平台交互的东西时，我厌倦了等待 API 批准数周并处理严格的速率限制。官方 API 要么价格昂贵，要么受到严格限制，要么直接不提供您需要的功能（看看您，Instagram DM API）。我的解决方案？构建了一个将浏览器自动化视为统一 API 接口的系统。您无需处理 5 种不同的 API 文档、身份验证流程和审批流程，而是在所有平台上获得一个一致的界面。有趣的技术要点： 1. 基于 Cookie 的身份验证而不是 OAuth 流程 系统使用浏览器 cookie，而不是通过 OAuth（需要应用程序批准）。您在浏览器中进行身份验证后，提取会话 cookie，然后自动维护该会话。简单，但绕过了整个审批瓶颈。 2. 桥接服务器架构 我没有将其拆分为一个单一的自动化脚本，而是将其拆分为桥接服务器 - 每个平台一个运行在不同的端口 (5001-5005) 上。每个桥都处理特定于平台的怪癖，而主 FastAPI 服务器则公开统一的 REST API。这样，如果 Instagram 更改了某些内容，您只需更新其中一座桥梁，而不会影响其他桥梁。 3. 可靠性的剧作家 Selenium 会随着 DOM 的每一次变化而不断崩溃。 Playwright 的自动等待和更好的选择器策略使事情变得更加稳定。视觉功能还有助于动态内容检测。值得讨论的权衡： Cookie 过期是真实存在的（通常为 30-90 天）。不适合“设置后忘记”。场景 速率限制仍然存在，只是在浏览器级别而不是 API 级别 这绝对违反了大多数平台的 TOS，因此只有在个人项目或测试可用时，Playwright 才真正可行，与直接 API 调用相比，Playwright 会增加开销 为什么我认为这种方法很有趣：大多数自动化工具要么太通用（没有结构的 Selenium），要么太具体（每个站点的一次性脚本）。它位于中间——结构足够好，感觉像一个 API，足够灵活，可以跨具有不同交互模式的平台工作。统一的 SDK 模式意味着您可以将“instagram_sdk”替换为“instagram_sdk”。对于“tiktok_sdk”相同的方法也有效：get_user()、like_post()、send_dm()。使多平台工具的构建变得更加容易。我好奇的是：还有其他人对官方 API 限制感到沮丧吗？您如何处理它 - 为企业访问付费、构建自定义抓取工具，或者只是放弃某些功能？还对处理检测/速率限制的想法感兴趣。我添加了随机延迟，但我确信平台在发现自动化模式方面正在变得越来越好。如果您想深入了解实现细节，代码位于 GitHub 上：github.com/LiuLucian/uniapi   由   提交/u/LiuLucian  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjqe83/bypassing_social_media_api_limitations/</guid>
+      <pubDate>Thu, 11 Dec 2025 06:16:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>实际上，门户必须弯曲重力[41:49]</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjpdvu/portals_must_bend_gravity_actually_4149/</link>
+      <description><![CDATA[ 由   提交/u/Chii  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjpdvu/portals_must_bend_gravity_actually_4149/</guid>
+      <pubDate>Thu, 11 Dec 2025 05:18:23 GMT</pubDate>
+    </item>
     <item>
       <title>这就是我进行全面工程组织审核的方式</title>
       <link>https://www.reddit.com/r/programming/comments/1pjmmo7/this_is_how_i_do_a_full_engineering_org_audit/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[关于在 Rust 中实现 Outlook 的 COM 集成的简短文章。   由   提交 /u/urandomd   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pj6huh/com_like_a_bomb_rust_outlook_addin/</guid>
       <pubDate>Wed, 10 Dec 2025 16:08:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Go 1.26 包：runtime/secret -- 在运行以秘密模式运行的函数后将寄存器和内存清零</title>
-      <link>https://www.reddit.com/r/programming/comments/1pj5v86/go_126_package_runtimesecret_zeros_out_registers/</link>
-      <description><![CDATA[ 由   提交/u/self  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pj5v86/go_126_package_runtimesecret_zeros_out_registers/</guid>
-      <pubDate>Wed, 10 Dec 2025 15:44:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux 内核中的 Rust 正式保留</title>
-      <link>https://www.reddit.com/r/programming/comments/1pj586l/rust_in_the_linux_kernel_is_officially_here_to/</link>
-      <description><![CDATA[ 由   提交 /u/NYPuppy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pj586l/rust_in_the_linux_kernel_is_officially_here_to/</guid>
-      <pubDate>Wed, 10 Dec 2025 15:19:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
