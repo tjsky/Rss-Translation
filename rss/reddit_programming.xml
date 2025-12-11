@@ -4,7 +4,56 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 11 Dec 2025 09:23:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 12:37:12 GMT</lastBuildDate>
+    <item>
+      <title>使用 Bisect 查找损坏的迁移</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjvtlv/finding_broken_migrations_with_bisect/</link>
+      <description><![CDATA[ 由   提交 /u/that_guy_iain   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjvtlv/finding_broken_migrations_with_bisect/</guid>
+      <pubDate>Thu, 11 Dec 2025 12:02:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>EventSQL：通过 SQL 的事件</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjvjqh/eventsql_events_over_sql/</link>
+      <description><![CDATA[事件以及更广泛的消息是组件到组件、进程到进程和/或应用程序到应用程序通信的经过实战检验的方式。在这种方法中，当发生某些事情时，我们会发布一个关联的事件。 一般来说，事件应该通知我们某些事情已经发生。相关的是，有些命令可以直接从另一个未指定的进程请求某些内容；它们也可以被称为某种类型的事件，但我们不要在这里为语义争论不休。对于命令来说，大多数情况下并不是发生了什么事情，而是命令发布后应该发生什么事情。 事件是一种非常简洁且方便的解耦通信方式。问题是，在大多数情况下，如果我们不在内存中、在单个进程内发布它们，则必须有一个额外的组件在我们的基础设施上运行来提供此功能。他们有很多； Apache Kafka、RabbitMQ、Apache Pulsar、Amazon SQS、Amazon SNS 和 Google Cloud Pub/Sub 是最广泛使用的示例。其中一些是自托管的，我们必须拥有托管、配置、监控和维护它们的专业知识，并在这些活动中投入额外的时间和资源。其他服务是付费服务 - 我们以金钱换取时间，并接受对所选服务提供商的额外依赖。无论如何，我们必须放弃某些东西 - 金钱、时间或两者。 如果我们能够仅使用基础设施上已管理的一种 SQL 数据库来在其之上构建可扩展的事件平台，会怎么样？ 这正是我对 EventSQL 所做的。它所需要的只是访问一个或多个 SQL 数据库。下面是它能够处理的性能数据，在 Postgres 16 实例上运行，然后是三个 - 16 GB 内存和 8 个 CPU (AMD)。  单个 Postgres db - 16 GB MEM，8 个 CPU  发布 1 200 000 个事件 需要 67.11 秒，这意味着每秒 17 881 个事件 消耗 1 200 000 个事件需要 74.004 秒，这意味着每秒 16 215 个事件  三个 Postgres 数据库 - 16 GB MEM，每个 8 个 CPU  发布 3 600 000 个事件花费了 66.448 秒，这意味着每秒 54 177 个事件 消费 3 600 000 个事件花费了 78.118 秒，这意味着每秒 46 083 个事件     由   提交/u/BinaryIgor  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjvjqh/eventsql_events_over_sql/</guid>
+      <pubDate>Thu, 11 Dec 2025 11:47:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>创世纪：GLSR= SHA256("")</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjvbcw/genesis_glsr_sha256/</link>
+      <description><![CDATA[最简单的可能起源： GLSR = SHA256(&quot;&quot;)  没有密钥。无创始人。没有共识。没有互联网。只是任何人都可以验证的数学。从空虚中，欢迎所有光明。   由   提交/u/vnLEManhThanh   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjvbcw/genesis_glsr_sha256/</guid>
+      <pubDate>Thu, 11 Dec 2025 11:33:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们将与 Databricks Switzerland 一起举办网络研讨会。您对此感兴趣吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjv0ge/were_hosting_a_webinar_together_with_databricks/</link>
+      <description><![CDATA[那么...我们的团队与 Databricks 合作，我们将在欧洲中部时间 12 月 17 日下午 2 点举办一次网络研讨会。 您对这个主题感兴趣吗？您会对不同的主题感兴趣吗？哪些？您对演讲者有什么问题吗？将他们放到这个帖子中，我会确保他们能得到问题。 如果您有兴趣参加，可以注册 此处。任何反馈都将受到高度赞赏。谢谢！   由   提交 /u/ImDoingIt4TheThrill   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjv0ge/were_hosting_a_webinar_together_with_databricks/</guid>
+      <pubDate>Thu, 11 Dec 2025 11:15:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 原生工作流程的分支管理？</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjuf9k/branch_management_for_ai_native_workflows/</link>
+      <description><![CDATA[如果你使用 AI 编码助手，你就会知道其中的痛苦：代理在分支上生成代码，你需要检查它，但切换意味着 60 秒以上的 `git stash &amp;&amp; 代码。结帐&amp;&amp; npm 安装&amp;&amp; npm run dev`。 Peek v0.4.2 (v420) 使用 git worktrees + HMR 解决了这个问题。切换时间为87ms。浏览器热重载。没有藏品。无需重新启动。 JS 开发人员的主要功能： - 包括 Vite 插件：`从 &#39;@peektree/vite-plugin&#39; 导入 peek` - 包括 NextJS 插件：`从 &#39;@peektree/next-plugin&#39; 导入 peek` - `peek 代理/修复` → 沙箱 AI 更改 →如果不好，`peek丢弃` -`peek ctx src/`复制LLM提示的干净上下文-`peek recovery`恢复您意外丢弃的任何内容//检查GH以获取更多信息（多存储库支持等）我们在我的公司使用它来审查每个代理分支50-100个一天。每月节省约 30-50 小时。 好奇：您目前如何使用多个分支和 gitworktree 管理 AI 生成的代码审查？   由   提交/u/No-Economist-4980   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjuf9k/branch_management_for_ai_native_workflows/</guid>
+      <pubDate>Thu, 11 Dec 2025 10:38:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lycky：使用 Monaco 的移动代码编辑器</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjtn6t/lycky_a_mobile_code_editor_using_monaco/</link>
+      <description><![CDATA[Lucky 是我使用 Monaco（VSCode 引擎）用 Flutter 构建的移动代码编辑器。我花了相当长的时间才使它在手机上顺利运行，特别是在性能问题、内存限制和触摸处理方面。我不得不放弃经典的 WebView 方法，因为它的 bug 太多，最后我用 Service Worker 构建了一种内部 PWA，最终效果很好。该应用程序还包括 SSH 支持、小型项目模板、触摸友好界面，并且完全免费，没有广告。如果你想尝试一下，APK可以在这里找到：https://github.com/xdp133-glitch/Lucky/releases/download/v1.0.0/app-release.apk。 当我测试不同的想法时，代码暂时关闭，但是应用程序已经完全可用。 /app-release.apk。    由   提交/u/gabdev133  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjtn6t/lycky_a_mobile_code_editor_using_monaco/</guid>
+      <pubDate>Thu, 11 Dec 2025 09:47:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Open AI 承认企业人工智能的使用仍处于“早期阶段”</title>
+      <link>https://www.reddit.com/r/programming/comments/1pjtdh5/open_ai_admits_that_enterprise_ai_use_still_in/</link>
+      <description><![CDATA[他们真的竭尽全力证明每天 40-60 分钟的生产力增益指标是合理的...   由   提交 /u/scarey102   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pjtdh5/open_ai_admits_that_enterprise_ai_use_still_in/</guid>
+      <pubDate>Thu, 11 Dec 2025 09:29:34 GMT</pubDate>
+    </item>
     <item>
       <title>​ Dylan Beattie 分享了微软对其旗舰操作系统中的标志的立场：🏳️‍🌈🏴‍☠️🏁</title>
       <link>https://www.reddit.com/r/programming/comments/1pjt1z6/dylan_beattie_shares_microsofts_position_on_flags/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[ 由   提交/u/dmp0x7c5  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pjiexo/premature_optimization_is_the_root_of_all_evil_so/</guid>
       <pubDate>Wed, 10 Dec 2025 23:43:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>我分析了 2025 年第四季度的 500 个自由职业。“初级专家”是如何成长的</title>
-      <link>https://www.reddit.com/r/programming/comments/1pjgtnz/i_analyzed_500_freelance_jobs_in_q4_2025_how_the/</link>
-      <description><![CDATA[我从 2025 年 11 月起在主要自由平台（Upwork/Toptal）上抓取了 500 份已完成合同的数据，看看发生了什么，并发现了一些有趣的东西。 我的发现：  纯粹的“前端”是一场逐底竞争：简单的 React/HTML/CSS 工作的价值已经直线下降（20 - 40 美元/小时），因为 AI 生成的 UI 太好了。 “集成”高级：薪酬最高的初级职位（80+/小时）现在是“Glue Code”工作。将 OpenAI API 连接到 Airtable，将 Stripe 连接到 Discord。     “代理”转变：企业希望代理能够 24/7 自主运行。  “堆栈”已更改： 如果您要在 2025 年末建立一个投资组合以便受聘，并且您正在建立一个“待办事项列表”或“天气应用程序”，甚至磨练leetcode，请停止。 招聘人员和客户希望看到：  无头浏览器：（Playwright/Puppeteer）用于数据收集。 矢量数据库：（Pinecone/Weaviate）用于RAG应用程序。 Webhooks：处理实时数据  我在关于 2025/26 年转换的特定项目的 Medium 文章中对此进行了更深入的探讨，其中包括“Lead Gen Bot”的 Python 代码片段。您可以用它来寻找您的第一个客户。       由   提交/u/Peach_Baker  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pjgtnz/i_analyzed_500_freelance_jobs_in_q4_2025_how_the/</guid>
-      <pubDate>Wed, 10 Dec 2025 22:36:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>XPRIZE 量子应用竞赛的 7 名决赛入围者</title>
-      <link>https://www.reddit.com/r/programming/comments/1pjgrvs/the_7_finalists_in_the_xprize_quantum/</link>
-      <description><![CDATA[ 由   提交/u/donutloop  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pjgrvs/the_7_finalists_in_the_xprize_quantum/</guid>
-      <pubDate>Wed, 10 Dec 2025 22:34:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>素数域中离散对数的计算（高斯整数法）</title>
-      <link>https://www.reddit.com/r/programming/comments/1pjf5xy/computation_of_discrete_logarithms_in_prime/</link>
-      <description><![CDATA[ 由   提交/u/DataBaeBee  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pjf5xy/computation_of_discrete_logarithms_in_prime/</guid>
-      <pubDate>Wed, 10 Dec 2025 21:30:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们如何在 PostgreSQL 中构建单遍高效分面搜索。</title>
-      <link>https://www.reddit.com/r/programming/comments/1pjebuz/how_we_built_single_pass_efficient_faceted_search/</link>
-      <description><![CDATA[我们刚刚更新了 `pg_search` 以支持分面搜索👀 它使用自定义窗口函数，挂钩规划器并使用自定义扫描，以便所有工作（搜索和聚合）都被推送到我们的 BM25 索引（基于 Tantivy）的单次传递中。 由于索引具有柱状组件，我们可以有效地计算计数并将其作为 JSON 与排名结果一起返回。   由   提交/u/jamesgresql  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pjebuz/how_we_built_single_pass_efficient_faceted_search/</guid>
-      <pubDate>Wed, 10 Dec 2025 20:57:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用基于主干的开发和非阻塞审查的现代软件工程案例研究。</title>
-      <link>https://www.reddit.com/r/programming/comments/1pjdcy2/modern_software_engineering_case_study_of_using/</link>
-      <description><![CDATA[ 由   提交/u/martindukz   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pjdcy2/modern_software_engineering_case_study_of_using/</guid>
-      <pubDate>Wed, 10 Dec 2025 20:19:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>征文：第 17 届国际计算创造力会议 (ICCC'26) | 2026年6月29日至7月3日</title>
-      <link>https://www.reddit.com/r/programming/comments/1pjboc5/call_for_papers_17th_international_conference_on/</link>
-      <description><![CDATA[ 由   提交 /u/ICCCConf-Publicity   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pjboc5/call_for_papers_17th_international_conference_on/</guid>
-      <pubDate>Wed, 10 Dec 2025 19:17:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么要写工程博客？</title>
-      <link>https://www.reddit.com/r/programming/comments/1pja0sd/why_write_engineering_blogs/</link>
-      <description><![CDATA[来自 antirez、Charity Majors、Jeff Atwood、Gunnar Morling、Eric Lippert、Glauber Costa、Thorsten Ball 的回复...   由   提交/u/swdevtest  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pja0sd/why_write_engineering_blogs/</guid>
-      <pubDate>Wed, 10 Dec 2025 18:16:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
