@@ -4,7 +4,14 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Thu, 11 Dec 2025 06:28:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 09:23:18 GMT</lastBuildDate>
+    <item>
+      <title>修复了 Clean feed 上的黑电平故障</title>
+      <link>https://www.reddit.com/r/editors/comments/1pjsvie/fixed_resolve_black_level_glitch_on_clean_feed/</link>
+      <description><![CDATA[嘿伙计们，发布此内容以防其他人像我一样失去理智。 每当我在 DaVinci Resolve Studio 20.3 中使用 Clean Feed 时，我都会遇到超级烦人的闪烁问题 显示器：LG OLED 55&quot; GPU：5080 软件：Resolve Studio 20.3 连接：HDMI 到 OLED GUI 查看器中一切看起来都很好，但 OLED 上的 Clean Feed 输出一直闪烁。只是黑人。我点击的每个节点都会发生闪烁。现在正在调色的电影也有很多黑人，所以这是完全引人注目的。以为是 HDR 问题、HDMI 电缆、OLED 近乎黑色的怪癖……常见的兔子洞。在思考这个问题相当长一段时间并修改电视设置后，我终于自己解决了这个问题，因为网上没有我可以轻松找到的解决方案。  事实证明，真正的罪魁祸首非常简单： ✅ 修复：将目标显示器（Clean feed）的 Windows 刷新率从 120 Hz 更改为 25 Hz 是的。刚刚进入： Windows显示设置→高级显示→刷新率→25Hz 当我将其切换回25Hz时，闪烁立即消失。即使在深黑色上，清洁饲料也变得坚如磐​​石。  我不知道 Resolve 在 120Hz 显示器上有问题。但问题是我一直都有这个显示屏，但问题最近在更新解决 20 后才开始出现。所以我不知道...你告诉我！ TL;DR 如果您的 OLED 在 Clean Feed 上闪烁，请尝试将显示屏刷新率设置为 25 Hz 或 50 Hz。不要像我一样浪费时间。 希望这对某人有帮助！如果有人对为什么会发生这种情况有更深入的技术故障，请插话。 免责声明 - 使用 chatgpt 创建的帖子。   由   提交 /u/AppuAppi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1pjsvie/fixed_resolve_black_level_glitch_on_clean_feed/</guid>
+      <pubDate>Thu, 11 Dec 2025 08:55:52 GMT</pubDate>
+    </item>
     <item>
       <title>编辑自动化</title>
       <link>https://www.reddit.com/r/editors/comments/1pjpkkg/editing_automation/</link>
@@ -22,7 +29,7 @@
     <item>
       <title>发送文件到混音器问题</title>
       <link>https://www.reddit.com/r/editors/comments/1pjiui3/sending_file_to_sound_mixer_question/</link>
-      <description><![CDATA[嘿那里。我正在编辑我的第一部短片（不是我写的），我们将其交给混音器。我使用的是 Premiere 2025，但混音器将使用 ProTools。我应该采取什么流程来将其移交给他们，以便从头开始新的 PT 课程。另外，预计的最终混音格式是什么？ （立体声，最多 5.1？）如果我遗漏了什么，请告诉我。谢谢！ 我：mac Mini 2020 Apple M1 16 GB 内存 Sonoma 14.1.1 素材：Apple ProRes RAW HQ，线性 PCM 4264 × 2408 -- 从 DP 处理 SSD -- 文件转换为代理    由   提交 /u/frankensteinkeyboard   [链接] [评论]]]></description>
+      <description><![CDATA[嘿那里。我正在编辑我的第一部短片（不是我写的），我们将其交给混音器。我使用的是 Premiere 2025，但混音器将使用 ProTools。我应该采取什么流程来将其移交给他们，以便从头开始新的 PT 课程。另外，预计的最终混音格式是什么？ （立体声，最多 5.1？）如果我遗漏了什么，请告诉我。谢谢！ 我：mac Mini 2020 Apple M1 16 GB 内存 Sonoma 14.1.1 素材：Apple ProRes RAW HQ，线性 PCM 4264 × 2408 -- 从 DP 处理 SSD -- 将文件转换为代理    由   提交 /u/frankensteinkeyboard   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1pjiui3/sending_file_to_sound_mixer_question/</guid>
       <pubDate>Thu, 11 Dec 2025 00:02:14 GMT</pubDate>
     </item>
@@ -71,7 +78,7 @@
     <item>
       <title>开一家咖啡店来补充我的编辑工作是不是一个错误？有人在我们的领域之外开办企业并成功管理这两个行业吗？</title>
       <link>https://www.reddit.com/r/editors/comments/1piryww/is_it_a_mistake_to_open_a_coffee_shop_to/</link>
-      <description><![CDATA[我是一名自由编辑，今年是我第一次连续三个月无法预订演出。这让我意识到我不能把所有的鸡蛋都放在这个编辑篮子里，否则我的家人可能会被彻底搞砸。所以我一直在考虑开一家咖啡店，作为补充我自由编辑收入的一种手段。就背景而言，我不打算在咖啡店工作，只是投入资金来建造和雇用并让它运转起来。我会聘请其他人来管理它，并根据需要帮助管理。我最担心的是做一些完全超出我的领域的事情，这会干扰我的演出。我的妻子认为这不是一个好主意，但我认为除了屏幕之外还有其他东西来占据我的注意力可能会很好。想知道是否有人完全在编辑之外开设了一家公司，并将两者管理得很好？ 更新： 感谢您对这个想法的所有严肃而有趣的批评。我不在美国，所以在这里开一家咖啡店没有同样的障碍，这是我可以进行的投资，因为我作为编辑确实赚了很多钱。我也接受过专业厨师的培训，所以我确实有这个领域的背景，尽管这不是我想涉足的领域。虽然我已经与不同的供应商、建筑师、厨师进行了大量的研究和报价，并制定了商业计划，并且确实认为这可以在我的城镇成为一项成功的冒险，但我确实认为你们中的很多人提出了很好的观点，这需要我比我预期更多的时间。所以我会更多地考虑一下，看看是否是时候继续下去了，因为编辑工作已经有了很大进展。   由   提交 /u/GradientRebel   [link] [评论]]]></description>
+      <description><![CDATA[我是一名自由编辑，今年是我第一次连续三个月无法预订演出。这让我意识到我不能把所有的鸡蛋都放在这个编辑篮子里，否则我的家人可能会被彻底搞砸。所以我一直在考虑开一家咖啡店，作为补充我自由编辑收入的一种手段。就背景而言，我不打算在咖啡店工作，只是投入资金来建造和雇用并让它运转起来。我会聘请其他人来管理它，并根据需要帮助管理。我最担心的是做一些完全超出我的领域的事情，这会干扰我的演出。我的妻子认为这不是一个好主意，但我认为除了屏幕之外还有其他东西来占据我的注意力可能会很好。想知道是否有人完全在编辑之外开设了一家公司，并将两者管理得很好？ 更新： 感谢您对这个想法的所有严肃而有趣的批评。我不在美国，所以在这里开一家咖啡店没有同样的障碍，这是我可以进行的投资，因为我作为编辑确实赚了很多钱。我也接受过专业厨师的培训，所以我确实有这个领域的背景，尽管这不是我想涉足的领域。尽管我已经与不同的供应商、建筑师、厨师进行了大量的研究和报价，并制定了商业计划，并且确实认为这可以在我的城镇成为一项成功的冒险，但我确实认为你们中的很多人提出了很好的观点，这需要我比我预期更多的时间。所以我会更多地考虑一下，看看是否是时候继续下去了，因为编辑工作已经有了很大进展。   由   提交 /u/GradientRebel   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1piryww/is_it_a_mistake_to_open_a_coffee_shop_to/</guid>
       <pubDate>Wed, 10 Dec 2025 03:19:55 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[我正在寻找一款可靠的视频编辑器来帮助我提升我的社交媒体形象。我是一名承包商，拥有大量之前/期间/之后的照片和视频，我需要有人能够将它们转化为 30-60 秒的清晰剪辑，节奏和音乐良好。 50 美元/小时   由   提交 /u/Ill-Act-7432   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1pilmya/will_pay_50hr_for_help_creating_3060_second/</guid>
       <pubDate>Tue, 09 Dec 2025 22:39:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>与其他职位相比，为什么我们的薪水这么低？</title>
-      <link>https://www.reddit.com/r/editors/comments/1pijea6/why_the_f_are_we_paid_so_little_compared_to_other/</link>
-      <description><![CDATA[我是欧洲的编辑。我作为助理剪辑师来支付账单，但我也有自己应有的剪辑工作。 我目前正在剪辑一部低预算短片。我的工资是每周 750 欧元，这在我的国家对于低预算短片来说是相当标准的（考虑到当我在“正常”制作中担任助理编辑时我通常会赚更多）。 我安排了三周的时间。我最好的朋友之一是一位拍摄短片的摄影指导（事实上，他把我的联系方式给了制作团队），他在 4 天的拍摄中得到了 1800 欧元，再加上我认为前期制作最多需要一周的时间（可能更少）。 为什么摄影指导的薪水几乎是我们的两倍。我知道，我们在这里谈论的是便士，因为这只是我们正在做的一个项目，因为我想继续编辑，而不仅仅是同步素材和制作可交付成果，而我的朋友想拍摄一些东西，而不是担任握把或相机助理。尽管如此，这种狗屎还是一路蔓延到了大联盟。为什么？   由   提交/u/pontiacband1t-  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1pijea6/why_the_f_are_we_paid_so_little_compared_to_other/</guid>
-      <pubDate>Tue, 09 Dec 2025 21:10:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
