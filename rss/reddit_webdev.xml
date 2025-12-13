@@ -4,7 +4,63 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 12 Dec 2025 21:18:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 01:13:09 GMT</lastBuildDate>
+    <item>
+      <title>🛡️ Windows 网站审核员建议？需要安全扫描和完整概述</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pl7gop/site_auditor_recommendations_for_windows_need/</link>
+      <description><![CDATA[我正在寻找在 Windows 上本地运行的网站安全审核员/扫描程序的建议。 我有一个托管网站，我需要一个工具来：  扫描和分析网站的常见安全漏洞（例如 SQL 注入、XSS、不安全标头、过时的标头）软件/CMS 问题）。 提供所有可检测到的安全问题的全面概述和报告。 理想情况下，要么一次性购买，要么拥有强大的免费/社区层供个人使用，但如果强烈推荐的话，我也愿意接受付费专业工具的建议。  我的目标是能够提供以下功能的工具：深入分析，而不仅仅是肤浅的检查。您使用过哪些工具并在 Windows 计算机上成功进行了安全审核？ 提前感谢您的建议！   由   提交 /u/Cute_Effect_8825   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pl7gop/site_auditor_recommendations_for_windows_need/</guid>
+      <pubDate>Sat, 13 Dec 2025 00:13:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>第一个不伤眼的 ASCII 网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pl79dt/first_ascii_website_that_doesnt_hurt_your_eyes/</link>
+      <description><![CDATA[      我厌倦了互联网上的 ASCII 表格，看起来就像停留在 1990 年。 因此，我建立了自己的网站，采用时尚的深色主题，接受任何输入的搜索，并且零广告或其他干扰。 Key特点：  默认打开类别，因此您可以立即找到字符，而无需滚动 单击字符进行复制 反向搜索    由   提交/u/bichlasaniadev  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pl79dt/first_ascii_website_that_doesnt_hurt_your_eyes/</guid>
+      <pubDate>Sat, 13 Dec 2025 00:03:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何转变敏捷的非信徒</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pl6xs4/how_to_convert_an_agile_nonbeliever/</link>
+      <description><![CDATA[在我的工作环境中，有一些人积极代理我们的敏捷流程。在最新的表现形式中，它采取了一个新的立场：“当我的代码 100% 是人工智能生成时，为什么我必须遵循流程？”。  我实际上并不是为了咆哮而发布此消息 - 尽管这让我热血沸腾。但我实际上正在寻求建议，了解如何帮助他们和解或让他们看到光明。   由   提交 /u/kitchen-violation   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pl6xs4/how_to_convert_an_agile_nonbeliever/</guid>
+      <pubDate>Fri, 12 Dec 2025 23:49:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>昨天做了我的第一个投资组合网站:)</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pl6que/made_my_first_portfolio_website_yesterday/</link>
+      <description><![CDATA[大家好，正如标题所说，我制作了我的第一个简约作品集网站，我想与其他人分享，希望获得一些反馈。这是我第一次在线部署一些东西 我用：html、tailwind 和 js 来实现。对于动画英雄部分，我使用了 vantajs 和 Threejs 链接：https://my-personal-portfolio-website-7vh5.vercel.app/  希望你喜欢它。    由   提交/u/Lanmi_002  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pl6que/made_my_first_portfolio_website_yesterday/</guid>
+      <pubDate>Fri, 12 Dec 2025 23:40:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>任何人都可以在其上构建应用程序或客户端的开源点对点社交媒体协议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pl6ffz/opensource_peertopeer_social_media_protocol_that/</link>
+      <description><![CDATA[Plebbit 是纯粹的点对点社交媒体协议，它没有中央服务器，没有全局管理员，也无法关闭社区 - 这意味着真正的审查制度阻力。 与 lemmy 和 Mastodon 等联合平台不同，没有可以依赖的实例或服务器 创建这个项目是因为希望将通信和数据的控制权交还给人们。 Plebbit 仅托管文本。来自谷歌和其他网站的图像可以链接/嵌入到帖子中。 . 为什么开发速度变慢？ 我们花了很长时间调试和稳定影响内容可靠性的 IPFS 相关问题。 在构建新功能之前，这些修复是必不可少的，否则协议将无法扩展。 反垃圾邮件如何工作？ 每个社区选择自己的挑战：验证码、加密 ENS、短信、电子邮件 OTP 或自定义规则。这使得垃圾邮件防护保持去中心化，而不是依赖于全球、平台范围的过滤器。 我们已经提供了一个名为 Seedit 的点对点替代客户端 https://github.com/plebbit/seedit 每个社区都会审核自己的内容并对其拥有完全控制权。但没有全局管理员来执行规则。 Seedit 默认推荐 SFW 社区 CSAM 和 NSFW 内容 Seedit 是基于文本的，您无法上传媒体。我们是故意这样做的，所以如果你想发布媒体，你必须发布一个直接链接（界面自动嵌入媒体），一个来自像 imgur 和 stuff 这样的中心化网站的链接，他们知道你的 IP 地址，立即删除媒体（嵌入 404）并向当局报告你。此外，seedit 的工作方式类似于 torrent，因此您的 IP 已经在群中，因此您真的不应该将其用于任何非法用途，否则您会被抓住。 我们主要使用 3 种技术，每种技术都有多种协议和规范： IPFS（用于内容寻址、不可变内容，类似于 bittorrent） IPNS（用于可变内容、公钥寻址） Libp2p Gossipsub（用于发布内容和投票 p2p） 它是开源的，任何人都可以贡献或添加功能   由   提交 /u/AnarchistBorn   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pl6ffz/opensource_peertopeer_social_media_protocol_that/</guid>
+      <pubDate>Fri, 12 Dec 2025 23:26:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>fastcert - Rust 中的零配置本地开发证书</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pl4f7l/fastcert_zeroconfig_local_development/</link>
+      <description><![CDATA[我构建了 fastcert，一个 CLI 工具和一个用 Rust 编写的库，用于创建本地可信的 HTTPS 证书进行开发。 # Installbrew install ozankasikci/tap/fastcert 或：cargo install fastcert # Setup fastcert -install # 生成证书 fastcert example.com localhost 127.0.0.1 主要功能： - 零配置 - 跨平台 - 通配符证书、客户端证书、PKCS#12 支持 - RSA 或 ECDSA 密钥 - 与系统、Firefox、Chrome 和 Java 信任存储集成 Github：https://github.com/ozankasikci/fastcert 欢迎反馈！    由   提交/u/kasikciozan  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pl4f7l/fastcert_zeroconfig_local_development/</guid>
+      <pubDate>Fri, 12 Dec 2025 21:58:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么有些开发者讨厌像 lovable 这样的人工智能平台？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pl45lk/why_do_some_devs_hate_ai_platforms_like_lovable/</link>
+      <description><![CDATA[在此留下您的评论   由   提交 /u/filthyrichboy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pl45lk/why_do_some_devs_hate_ai_platforms_like_lovable/</guid>
+      <pubDate>Fri, 12 Dec 2025 21:47:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何将单页 Web 应用程序嵌入到我的博客中？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pl45ik/how_to_embed_a_singlepage_web_app_into_my_blog/</link>
+      <description><![CDATA[      嘿，开发人员， 我刚刚创建了一个博客，最近我有机会使用 AI Studio 构建一个单页 Web 应用程序。现在我想将此 SPA 集成到我的博客的单独页面上，但我不确定最好的方法。 这里推荐的方法是什么？我应该直接嵌入应用程序（iframe、脚本等），单独托管并链接到它，还是有一个取决于平台的更简洁的方法？ 任何提示、最佳实践或示例都会非常有帮助。谢谢！   由   提交/u/PsychologicalBee4842  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pl45ik/how_to_embed_a_singlepage_web_app_into_my_blog/</guid>
+      <pubDate>Fri, 12 Dec 2025 21:47:17 GMT</pubDate>
+    </item>
     <item>
       <title>在同意价格之前询问我的登录凭据是否合法？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pl321v/legit_to_ask_for_my_login_credentials_before_even/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pkzrra/webkit_features_for_safari_262/</guid>
       <pubDate>Fri, 12 Dec 2025 18:46:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>你如何获得高薪客户？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pkzli3/how_do_you_get_your_high_paying_clients/</link>
-      <description><![CDATA[给富人区打电话？与阿波罗发送电子邮件？提示会很棒   由   提交 /u/Physical-Macaron8744   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pkzli3/how_do_you_get_your_high_paying_clients/</guid>
-      <pubDate>Fri, 12 Dec 2025 18:39:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果回来的时候看不到，是不是就消失了？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pkzgpz/if_it_isnt_viewable_on_way_back_is_it_gone_gone/</link>
-      <description><![CDATA[我正在尝试打开一个我年轻时出售的旧运动鞋系列的链接。  http://forums.nikeskateboarding.org/index.php?s=&amp;act=Stats&amp;CODE=who&amp;t=67742 即使链接可以访问我确信图像主机和图片早已消失了哈哈（不记得很久以前我的上传源了）   由   提交/u/Bromatos  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pkzgpz/if_it_isnt_viewable_on_way_back_is_it_gone_gone/</guid>
-      <pubDate>Fri, 12 Dec 2025 18:34:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>人类要花多少钱才能建造一个潜在的克隆面包？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pky4zk/how_much_would_it_have_taken_anthropic_to_build_a/</link>
-      <description><![CDATA[为什么他们要获得它而不只是将其编码为周六的速通？   由   提交 /u/Crazy-Economist-3091   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pky4zk/how_much_would_it_have_taken_anthropic_to_build_a/</guid>
-      <pubDate>Fri, 12 Dec 2025 17:42:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>您对包含最多 5 页静态页面的时事通讯和预约网站收取多少费用</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pkxwln/how_much_would_you_charge_for_newsletter_and/</link>
-      <description><![CDATA[标题   由   提交 /u/Physical-Macaron8744   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pkxwln/how_much_would_you_charge_for_newsletter_and/</guid>
-      <pubDate>Fri, 12 Dec 2025 17:33:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>大众投票系统的想法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pkx700/ideas_for_mass_voting_system/</link>
-      <description><![CDATA[      您好，我有一个专注于音乐的社交媒体页面。我想要一个可以让用户投票选出歌曲/艺术​​家的系统。只是一个开放的字段来建议歌曲+艺术家，模糊分组并将它们分类到“排行榜”中。理想情况下，它可以防止同一台计算机/人对特定歌曲进行重复投票。然后我可以在制作视频时删除特定结果。 我已经四处寻找类似的东西，但似乎大多数都是针对特定事件（直播）或有预先确定的选项供用户投票。有谁知道这是否已经存在？这是 Squarespace/Wordpress/Wix 可以处理的吗？我自己为个人项目编程（C++、Python、JS），但我没有任何处理网站客户端/服务器内容的经验。  https://preview.redd.it/9bp6hzhe1t6g1.png?width=343&amp;format=png&amp;auto=webp&amp;s=51db70bf1a8ba1733b3934ddd5aa465d1b0da874   由   提交/u/Humble-Ad-2339  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pkx700/ideas_for_mass_voting_system/</guid>
-      <pubDate>Fri, 12 Dec 2025 17:05:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>JavaScript 分布式资产 - 非常简单但功能强大的概念</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pkuz9k/javascript_distributed_assets_very_simple_but/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pkuz9k/javascript_distributed_assets_very_simple_but/</guid>
-      <pubDate>Fri, 12 Dec 2025 15:38:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>CSP 和程序化广告</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pku2fl/csp_and_programmatic_advertising/</link>
-      <description><![CDATA[好吧，我被 Mediavine 录取了，但我在内容安全策略中将地址列入白名单时遇到了很大的困难。  Mediavines 网站只是说要强制使用 https，我在 CSP 中对升级请求执行了此操作，但手动跟上这一点似乎并不可行。  我可以设置一个端点来监视来自的请求，但我假设它们会经常更改。专门用于脚本、框架和连接 src。  有人有这方面的经验吗？我正在考虑联系他们，看看他们对此有何看法。  谢谢。    由   提交/u/SpeedCola  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pku2fl/csp_and_programmatic_advertising/</guid>
-      <pubDate>Fri, 12 Dec 2025 15:02:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>其他 React 漏洞</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pktzes/additional_react_vulnerabilities/</link>
-      <description><![CDATA[上周react出现了一个漏洞。本周他们发现了另外两个： https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components 检查您的项目并再次更新。   由   提交/u/Ongezout_  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pktzes/additional_react_vulnerabilities/</guid>
-      <pubDate>Fri, 12 Dec 2025 14:58:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
