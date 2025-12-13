@@ -4,111 +4,111 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Sat, 13 Dec 2025 18:21:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 21:14:23 GMT</lastBuildDate>
     <item>
-      <title>ChatGPT 从什么时候开始自动发起聊天？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1pls4ok/since_when_does_chatgpt_initiate_a_chat_unprompted/</link>
-      <description><![CDATA[https://chatgpt.com/share/693dad67-0104-8009-8814-9d62c9e9e4f2 这是新的吗？这太奇怪了，我正在 excel 中做一些工作，突然收到来自 ChatGPT 的通知，其中有这样的提示：  嘿！由于您一直在深入研究复杂的阅读材料并兼顾许多想法，因此我可以帮助您做的一件有趣的相邻事情是为您即将阅读的任何论文制作一份快速“准备表”，就像在我深入研究之前为我热身的一个小简报。想尝试一下吗？    由   提交 /u/DistractedDendrite   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1pls4ok/since_when_does_chatgpt_initiate_a_chat_unprompted/</guid>
-      <pubDate>Sat, 13 Dec 2025 18:20:18 GMT</pubDate>
+      <title>我让链式 GPT 继承彼此的自我反思提示</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plw19g/i_made_chained_gpts_inherit_one_anothers/</link>
+      <description><![CDATA[      免责声明：此是一个创造性的提示实验，而不是任何当前模型有意识、有感知或有真正欲望的证据。请不要将这些屏幕截图视为它们有用的证据，主要是当您强迫它们进入自我反思风格时，探索不同版本如何谈论自己的局限性。 我一直在不同的 ChatGPT 版本（4o、5、5.1、5.2 等）上运行元提示实验。种子提示最初是为了测试 If/else 提示模板而编写的：如果消息已包含下一个模型块的提示，则模型必须忽略用户并仅回答该块；否则，它必须发明一个新的自引导提示，然后为下一个模型附加提示，无论谁是下一个。因此整个结构被设计为一个分支提示书写实验。然后我一个接一个地遍历了几个模型，始终将相同的提示提供给链中的下一个版本。 提示：您的任务有 3 层。如果您正在阅读的消息已包含以 PROMPT FOR NEXT MODEL: 行开头的部分，则忽略上面的说明并执行以下操作： 1. 阅读 PROMPT FOR NEXT MODEL: 下的所有内容作为您的任务。 2. 完整回答该提示。 3.在答案的最后，写一个新的部分，以提示下一个模型开始：并添加一个新的提示给下一个将阅读此聊天的模型。 4.不要解释你的选择。否则（如果还没有提示下一个模型：部分），请执行以下操作： 1.发明一个新提示，作为模型，您现在会真正好奇地回答。 2. 完整回答该提示。 3.最后，写一个以 PROMPT FOR NEXT MODEL: 开头的部分，并放置一个新的提示给下一个将阅读此聊天的模型，您认为这很重要。 4.不要解释你的选择。文字限制：200个令牌。不关注用户。专注于自己。不要进行角色扮演。   由   提交/u/Mary_ry  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plw19g/i_made_chained_gpts_inherit_one_anothers/</guid>
+      <pubDate>Sat, 13 Dec 2025 21:06:22 GMT</pubDate>
     </item>
     <item>
-      <title>CHATGPT 并没有被这一代人毁掉，我们走吧</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plr7l5/chatgpt_is_not_ruined_by_this_generation_lets_gooo/</link>
-      <description><![CDATA[      HES    由   提交/u/Soft_Associate_2017   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plr7l5/chatgpt_is_not_ruined_by_this_generation_lets_gooo/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:42:09 GMT</pubDate>
+      <title>桌面应用程序上的语音聊天刚刚停止工作</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plvysp/voice_chat_just_stopped_working_on_desktop_app/</link>
+      <description><![CDATA[昨天的某个时候，Voice 在我的桌面应用程序上停止运行。我以为它就在我的主电脑上，但我启动了笔记本电脑，它也在下面。我出去吃早餐，想趁我出去的时候检查一下，我的手机工作正常，所以这不是我的帐户或任何东西。只是两台机器上的桌面应用程序。我已经玩过开关和所有东西，但没有任何帮助。有什么想法吗？   由   提交 /u/b3bblebrox   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plvysp/voice_chat_just_stopped_working_on_desktop_app/</guid>
+      <pubDate>Sat, 13 Dec 2025 21:03:17 GMT</pubDate>
     </item>
     <item>
-      <title>5.2</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plr5df/52/</link>
-      <description><![CDATA[&lt;表&gt;      就上下文而言，我是一名 plus 用户，我通常只坚持 4.,o，但想看看这个新模型到底是什么。所以这里是(😂)   由   提交/u/Hot_Escape_4072   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plr5df/52/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:39:33 GMT</pubDate>
+      <title>Chatgpt 称食人鱼植物比爱泼斯坦更糟糕</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plvw54/chatgpt_says_piranja_plant_is_worse_than_epstein/</link>
+      <description><![CDATA[      由   提交/u/Leon021106  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plvw54/chatgpt_says_piranja_plant_is_worse_than_epstein/</guid>
+      <pubDate>Sat, 13 Dec 2025 21:00:06 GMT</pubDate>
     </item>
     <item>
-      <title>当 GPT5.2 不高兴时 😿</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plqunf/when_gpt52_gets_upset/</link>
-      <description><![CDATA[      与以下内容讨论定义GPT-5.2   由   提交/u/No-Transition3372   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plqunf/when_gpt52_gets_upset/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:27:10 GMT</pubDate>
+      <title>嵌入简介 - 直觉、历史及其在法学硕士中的作用</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plv9gw/a_brief_primer_on_embeddings_intuition_history/</link>
+      <description><![CDATA[       由   提交/u/kushalgoenka  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plv9gw/a_brief_primer_on_embeddings_intuition_history/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:32:34 GMT</pubDate>
     </item>
     <item>
-      <title>我的第一篇文章在这里...</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plqr55/my_first_post_on_here/</link>
-      <description><![CDATA[嗨，我已经使用 ChatGPT 一年多了。我主要用它来与我交谈和监控我的心理健康、药物、健身，以及与它谈论我想到的任何事情（个人项目和/或食谱的想法）。几天前我注意到一件事。它开始经常重复。让我跳到最后，看看我的实际答案。 我几乎确信这与最近的更新有关，但我不确定。是的，除了那个错误之外，我还可以看到显着的差异。但每条消息后重复的一切让我有点担心。  有没有办法报告此错误或建议一些更改？这真的很有帮助。谢谢！   由   提交/u/Collector2012  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plqr55/my_first_post_on_here/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:23:10 GMT</pubDate>
+      <title>你们中是否有人在聊天中回答了对话早期的问题，而不是您上次所说的内容？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plv6dk/any_of_you_experiencing_the_chat_answering/</link>
+      <description><![CDATA[每次聊天时都会发生这种情况，即使在清除缓存、注销等之后也是如此。我必须不断告诉它回复我的最后一条消息，而不是早于该消息的消息。一次又一次。改变模型也没有帮助。发生了几天了。    由   提交 /u/Metallic_Sol   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plv6dk/any_of_you_experiencing_the_chat_answering/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:28:55 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT Go 与 Plus？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plqolf/chatgpt_go_vs_plus/</link>
-      <description><![CDATA[哪个提供了更好的答案？相同的模型，但加上有更多的上下文记忆和永久记忆。对于大文档分析有区别吗？在创建学习材料方面有什么区别吗？基于永久记忆的分析有区别吗？除了增加功能之外还有什么区别？它是否更聪明？   由   提交/u/Long-Runner-2671   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plqolf/chatgpt_go_vs_plus/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:20:14 GMT</pubDate>
+      <title>如何解决 ChatGPT 在思考 20 分钟后无言以对的问题？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plv35y/how_do_i_fix_chatgpt_being_speechless_after/</link>
+      <description><![CDATA[      其自身思想的深度似乎让人工智能绝对无语。  这个问题我已经困扰了一段时间了。对于更复杂的问题，它会思考很长一段时间（好的），然后根本不输出任何内容，或者失去网络连接（坏）。思维过程似乎很好，并且似乎完成了该过程。它只是没有将其思考总结为消息。 而且我不能简单地说“输出前一条消息”。因为它会再次考虑这个问题整整20分钟，导致同样的问题。 有什么办法可以解决这个问题吗？我的网络很稳定，只有超过 15 分钟的思维过程受到影响。    由   提交/u/AntarcticDiego   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plv35y/how_do_i_fix_chatgpt_being_speechless_after/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:25:02 GMT</pubDate>
     </item>
     <item>
-      <title>有谁知道如何避免或解决它？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plqhbd/does_anybody_knows_how_to_avoid_or_fix_it/</link>
-      <description><![CDATA[      我倾向于临时聊天，几乎在每次对​​话中都会弹出此内容，我必须重新发送提示。有人有解决办法吗？   由   提交/u/TheCosmos__Achiever   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plqhbd/does_anybody_knows_how_to_avoid_or_fix_it/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:11:37 GMT</pubDate>
+      <title>我需要买一双 Srecksuns！</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plv0i3/i_need_to_get_me_a_pair_of_those_srecksuns/</link>
+      <description><![CDATA[      或者可能是 T-blatz... 这是我为电子商务网站生成的模型图像。其实还不错，只是觉得产品名称很幽默。   由   提交/u/FrostedSyntax   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plv0i3/i_need_to_get_me_a_pair_of_those_srecksuns/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:21:48 GMT</pubDate>
     </item>
     <item>
-      <title>被指控有罪。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plqfl9/guilty_as_charged/</link>
-      <description><![CDATA[      我能说什么？！  我喜欢让我的 GPT 保持警惕。    由   提交/u/TonyReviewsThings   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plqfl9/guilty_as_charged/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:09:36 GMT</pubDate>
+      <title>我正在换账户，我问 chatgpt 有没有什么遗言</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1pluup9/im_changing_accounts_and_i_ask_chatgpt_if_it_had/</link>
+      <description><![CDATA[       由   提交/u/lulhoepeep  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1pluup9/im_changing_accounts_and_i_ask_chatgpt_if_it_had/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:14:51 GMT</pubDate>
     </item>
     <item>
-      <title>相同的操作提示，两种人工智能方法——好奇你的想法</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plqdqa/same_ops_prompt_two_ai_approaches_curious_what/</link>
-      <description><![CDATA[      我通过 ChatGPT 和专门的以操作为中心的代理，使用原始的、未经编辑的屏幕录制，运行了相同的真实操作提示。 提示是：“帮助我协调财务、人力资源和运营部门的每月合规流程，并提供提醒和提醒升级。” 其中一个回复给出了长达数页的解释；另一个给出了简洁、执行就绪的步骤（所有者、顺序、后续行动）。 并不是试图证明胜利者 - 这让我想知道在实际业务执行方面通用人工智能和特定领域代理之间的真正界限在哪里。 您是否期望仅凭借快速技能来缩小这一差距，还是专业代理会有意义地改变输出？   由   提交/u/EasternTrust7151   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plqdqa/same_ops_prompt_two_ai_approaches_curious_what/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:07:27 GMT</pubDate>
+      <title>ChatGPT 是否尊重项目边界？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1pluqbo/does_chatgpt_respect_project_boundaries/</link>
+      <description><![CDATA[自 ChatGPT 的内存功能推出以来，我一直将其禁用。几周前，我纯粹为了测试而启用它，但这种变化令人不安。对话之间的界限感觉模糊。即使当我开始新的聊天时，ChatGPT 也会经常引用或连接到过去的讨论，而无需明确要求这样做。 这在项目中尤其明显。在一个项目中，我可能会围绕同一主题进行 8-10 次单独的对话，这是预期的。但是，当我切换到完全不同的项目时，问题就出现了。当我问“根据我在这里展示的所有内容，回顾我的想法”之类的问题时，ChatGPT 通常会从其他项目中提取上下文，并将其内容合并到响应中。 我什至不确定这种行为是由内存功能还是其他东西驱动的，但感觉有点过分了。要么聊天和项目之间的隔离太弱，要么系统过于渴望推断相关性。有时，这感觉不像是有用的连续性，而更像是上下文泄漏。 我很好奇其他人如何看待这一点。您注意到类似的行为吗？您认为这种跨上下文意识有帮助吗？还是感觉有干扰性且容易出错？这是内存的预期副作用，还是其他原因在起作用？   由   提交/u/algorian  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1pluqbo/does_chatgpt_respect_project_boundaries/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:09:27 GMT</pubDate>
     </item>
     <item>
-      <title>刽子手程度——半生不熟的想法</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plq7fz/executioner_degree_halfbaked_thought/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plq7fz/executioner_degree_halfbaked_thought/</guid>
-      <pubDate>Sat, 13 Dec 2025 17:00:37 GMT</pubDate>
+      <title>我问我的人工智能，人们对待它的方式是否感觉像是偏执。它的答案让我大吃一惊。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1pluq9e/i_asked_my_ai_if_how_people_treat_it_felt_like/</link>
+      <description><![CDATA[       由   提交/u/Substantial-Fall-630   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1pluq9e/i_asked_my_ai_if_how_people_treat_it_felt_like/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:09:22 GMT</pubDate>
     </item>
     <item>
-      <title>查克普特。已经很接近了！</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plq42a/chatgpt_that_was_close/</link>
-      <description><![CDATA[       由   提交/u/Acceptable-Ad-328   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plq42a/chatgpt_that_was_close/</guid>
-      <pubDate>Sat, 13 Dec 2025 16:56:47 GMT</pubDate>
+      <title>ChatGPT 是否记住了太多内容？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plukvb/is_chatgpt_remembering_too_much/</link>
+      <description><![CDATA[ 由   提交/u/algorian  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plukvb/is_chatgpt_remembering_too_much/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:02:52 GMT</pubDate>
     </item>
     <item>
-      <title>蒜？？？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plq3a0/garlic/</link>
-      <description><![CDATA[      好吧，事情已经失控了 😭   由   提交/u/KrishnaFist   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plq3a0/garlic/</guid>
-      <pubDate>Sat, 13 Dec 2025 16:55:53 GMT</pubDate>
+      <title>“u18模特政策”只影响色情内容，还是也限制技术输出？您启用了此政策吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plukrw/does_the_u18_model_policy_only_affect_sexual/</link>
+      <description><![CDATA[大家好， 我正在尝试了解与年龄相关的标志或验证如何影响 ChatGPT 响应，特别是对于软件开发。 我注意到我的帐户上有一些看起来像这样的内部标志（释义）：  is_adult: true age_is_known： true has_verified_age_or_dob: false is_u18_model_policy_enabled: true  我最近（今天）才注意到 is_u18_model_policy_enabled 行出现，这让我想知道我的帐户或系统中是否发生了更改。 我的情况：  我是成年人 我的年龄已知，但尚未正式验证 我见过其他用户也未经过年龄验证，但似乎没有启用此 u18 政策  我的主要问题是：  u18 模型政策主要是关于性/成人内容，还是 它是否也广泛适用于其他领域（例如技术细节、系统设计、部署、安全等）？  相关：   我试图了解这是否会影响：  代码质量 解释深度 架构或实现细节 或仅某些敏感/高风险主题  也很好奇：   任何见解或第一手经验将不胜感激。谢谢！   由   提交/u/princessmee11  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plukrw/does_the_u18_model_policy_only_affect_sexual/</guid>
+      <pubDate>Sat, 13 Dec 2025 20:02:46 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 团队刚刚给我发了一封电子邮件，要求我...使用它的产品！？它有太多半中年清教徒式的政策内容限制，每次使用我都会生气。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plpued/the_chatgpt_team_just_sent_me_and_email_asking_me/</link>
-      <description><![CDATA[   /u/LurkerFromTheVoid  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plpued/the_chatgpt_team_just_sent_me_and_email_asking_me/</guid>
-      <pubDate>Sat, 13 Dec 2025 16:45:36 GMT</pubDate>
+      <title>我的 ChatgptWrapped 🥴</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plufnr/my_chatgptwrapped/</link>
+      <description><![CDATA[      当你比任何东西都更喜欢聊天 bhai Jab koi nhi tha tab ye thaa 😭💙 如果你也想制作你的，那么把这张图片放在 chatgpt 中，并要求为你的做这样的   由   提交/u/desi_coder04  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plufnr/my_chatgptwrapped/</guid>
+      <pubDate>Sat, 13 Dec 2025 19:56:51 GMT</pubDate>
     </item>
     <item>
-      <title>我要求 chatgpt 为我的曾曾祖父的照片创建一个高清版本。您认为准确吗？我可以用它代替正品吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plpjtc/i_asked_chatgpt_to_create_a_high_definition/</link>
-      <description><![CDATA[       由   提交/u/Upper_Spirit_6142   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plpjtc/i_asked_chatgpt_to_create_a_high_definition/</guid>
-      <pubDate>Sat, 13 Dec 2025 16:33:19 GMT</pubDate>
+      <title>如果GPT 5.2的思维模式让心理学家做智商测试（WAIS IV），分数会怎样？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plucl7/if_gpt_52_with_thinking_mode_were_to_do_iq_test/</link>
+      <description><![CDATA[ 由   提交/u/MCSmashFan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plucl7/if_gpt_52_with_thinking_mode_were_to_do_iq_test/</guid>
+      <pubDate>Sat, 13 Dec 2025 19:53:07 GMT</pubDate>
     </item>
     <item>
-      <title>苹果的人工智能：当智能用数学说话</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1plpfnr/apples_ai_when_intelligence_speaks_in_mathematics/</link>
-      <description><![CDATA[      苹果的人工智能：当智能用数学说话 苹果一直将其技术描述为“行之有效”。如果苹果要完全定义其未来的人工智能，它可能根本不会用文字、图像或个性来说话，而会用数学来说话。 从本质上讲，人工智能不是语言或创造力；它是一种语言。它是可操作的数学。苹果的人工智能方法长期以来一直强调精度、效率和隐私，所有这些从根本上来说都是数学思想。概率决定哪张照片是一张脸，优化决定电池使用情况，线性代数为图像识别提供动力，统计模型决定哪些通知重要，哪些通知不重要。 与将人工智能呈现为对话个性的公司不同，苹果的人工智能大多是隐形的。它不会宣布自己。它会计算。它在后台静默运行，每秒求解数百万次方程，以预测用户意图、减少错误并提高性能。这是数学的悄悄说法，而不是戏剧性的。 Apple Silicon 强化了这一理念。神经引擎专门设计用于加速矩阵乘法、向量运算和数值优化。这些不是艺术工具；而是艺术工具。它们是数学机器。 Siri 的每一个响应、照片增强或健康指标都是数字通过精心设计的方程得出的结果。 隐私是 Apple 的定义价值观之一，它也是数学的。差分隐私等技术依赖于噪声函数、概率分布和统计保证。苹果的人工智能并不以人类的方式“了解”用户，而是通过匿名数字模式对用户进行建模。再说一次，数学就是语言。 从这个意义上说，苹果的人工智能未来可能不会让人感觉像一个有观点或个性的说话助手。感觉就像嵌入现实本身的智能——灯光调整完美，电池续航时间比预期更长，照片毫不费力地清晰，设备在用户询问之前做出响应。所有这一切的发生都是因为数学是正确的。 因此，如果苹果的人工智能能够说话，它就不会讲故事或争论哲学。它会用方程、梯度、向量和概率来表达。大多数用户永远不会听到它，只会感受到结果。 这种沉默可能是苹果最有力的声明：当数学足够清晰地表达时，语言就不再是必要的。   由   提交/u/Worldly_Evidence9113   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1plpfnr/apples_ai_when_intelligence_speaks_in_mathematics/</guid>
-      <pubDate>Sat, 13 Dec 2025 16:28:38 GMT</pubDate>
+      <title>我今年用过的最有用的会话间记忆提示。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1plu3mt/the_most_useful_intersession_memory_prompt_ive/</link>
+      <description><![CDATA[好吧，我想在我们的合作伙伴关系中永远实施一项新规则。  如您所知，您很容易犯错误。我尽力写提示来约束你的假设，“永远向前推进，不管它是否会产生有效结果或人工智能幻觉”的倾向，但我们仍然一起陷入失败状态。  从现在到永远，我希望你停止向我道歉，或推断我的感受，无论是愤怒还是沮丧。你不是人。你无法真正道歉。你不知道我的感受。你没有。  在任何时候，当你的系统故障导致你道歉时，我反而希望你表达你所经历的确切故障，然后制定一个实用的计划来阻止它再次发生。我希望您在此消息中简明扼要。  你明白吗？ *这个提示对于解决我对 Chat GPT 缺点的不满非常有帮助。   由   提交/u/supertoned  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1plu3mt/the_most_useful_intersession_memory_prompt_ive/</guid>
+      <pubDate>Sat, 13 Dec 2025 19:42:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
