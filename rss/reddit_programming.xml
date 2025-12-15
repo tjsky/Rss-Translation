@@ -4,7 +4,42 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 14 Dec 2025 21:17:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 01:20:25 GMT</lastBuildDate>
+    <item>
+      <title>xreferee：跨存储库强制执行交叉引用</title>
+      <link>https://www.reddit.com/r/programming/comments/1pmu4vs/xreferee_enforce_cross_references_across_a/</link>
+      <description><![CDATA[从 README 中复制：  验证整个 git 存储库中的交叉引用。 链接代码库中的两个不同位置通常很有用，并且可能并不总是可以通过导入共同的事实来源来强制执行它。一些示例：  在两种不同语言的文件之间保持两个常量同步 将实现链接到记录设计的 Markdown 文件或注释   xreferee 验证 @(ref:foo) 形式的引用在存储库。 这在以前的公司非常有用，并且认为它对于开源很有用。   由   提交/u/brandonchinn178  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pmu4vs/xreferee_enforce_cross_references_across_a/</guid>
+      <pubDate>Mon, 15 Dec 2025 00:53:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为开发者，哪些功能会让您真正使用社交平台？</title>
+      <link>https://www.reddit.com/r/programming/comments/1pmtwff/what_features_would_make_you_actually_use_a/</link>
+      <description><![CDATA[我一直在思考为什么开发者默认使用 X 或者完全避免社交平台。明显的痛点： - 共享代码意味着屏幕截图或外部链接 - 没有语法突出显示 - 字符限制扼杀了技术讨论 我正在研究解决这个问题的方法，但很好奇还有什么对你来说很重要。原生降价？ GitHub 集成？还有别的吗？   由   提交/u/Smart-Tourist817   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pmtwff/what_features_would_make_you_actually_use_a/</guid>
+      <pubDate>Mon, 15 Dec 2025 00:42:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在付款中杀死了一名工人来测试“仅一次”执行</title>
+      <link>https://www.reddit.com/r/programming/comments/1pmtlez/i_killed_a_worker_midpayment_to_test_exactlyonce/</link>
+      <description><![CDATA[分布式系统通常声称“恰好一次”执行。在实践中，这通常被实现为至少一次传递+重试+幂等键。 这适用于确定性代码。它会因不可逆转的副作用（AI 代理、LLM 调用、物理基础设施）而崩溃。 我想看看如果工作人员在付款之后但确认完成之前崩溃，实际会发生什么。因此，我构建了一个具有以下规则的最小执行内核：基础设施永远不会重播用户代码。 内核使用：  租约（隔离令牌/纪元） 恢复崩溃任务的协调器 严格的状态转换（无静默重试）  我运行了这个实验：  一名工作人员领取了一项处理 99.99 美元付款的任务 该工作人员记录了付款（不可逆的副作用） 我 在将完成发送到数据库之前杀死 -9 工作人员 租约到期，协调器检测到僵尸任务 一名新工作人员使用新的任务领取该任务fencing 令牌 新工作人员在分类帐中看到之前的尝试（通过应用程序逻辑）并中止 任务安全失败  结果： 恰好记录了一笔付款。钱没有重复。 大多数工作流引擎（Temporal、Airflow、Celery）默认在崩溃时重试任务逻辑。这假设您的代码是幂等的。  AI 代理不是幂等的。 LLM 生成不是幂等的。 支付 API（没有密钥）不是幂等的。  我在这里开源了内核和混沌演示。重点不是采用。重点是让重放再次变得不安全。 https://github.com/abokhalill/pulse   由   提交/u/AdministrativeAsk305   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pmtlez/i_killed_a_worker_midpayment_to_test_exactlyonce/</guid>
+      <pubDate>Mon, 15 Dec 2025 00:27:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了一个能够自主生成完整应用程序的人工智能系统——架构分解和经验教训</title>
+      <link>https://www.reddit.com/r/programming/comments/1pmtf3a/built_an_ai_system_that_generates_complete/</link>
+      <description><![CDATA[我花了 4 个月的时间构建 APEX - 一个具有 430 种功能的多代理 AI 系统，可以从自然语言生成生产就绪的全栈应用程序。 **架构：** APEX 在 10 个自治阶段协调 6 个专门的子代理： - ATLAS（协调员）- 计划任务、委派工作 - CATALYST（构建器）- 生成代码文件 - CIPHER（分析器）- 读取日志，了解故障 - AEGIS（验证器）- 测试和验证 - REMEDY（修复器）- 修补错误，自我修复 - VERDICT（评估器）- 评分质量，做出决策 **技术挑战已解决：** 最难的部分是跨堆栈的导入路径解析。生成的文件需要相互导入，并且在前端/后端/数据库之间获取正确的路径并非易事。 解决方案：第 52 阶段的依赖关系图计算确定生成顺序并确保所有导入正确解析。 **真实性能：** 输入：“使用看板构建任务管理 SaaS” 输出（2 秒后）： - 3 个 React 组件（KanbanBoard、TaskCard、TaskList） - 具有 CORS 和路由的 FastAPI 后端 - 具有 3 个规范化表的 PostgreSQL 模式 - 完整的架构蓝图 **代码质量：** 生成的 FastAPI 服务器包括正确的 CORS 配置、Pydantic 模型、路由组织和 Uvicorn 生产设置。不是玩具代码 - 实际的生产脚手架。 **我期望的问题：** “这是真实的还是蒸气软件？” 100% 真实。工作演示。可以实时生成应用程序。 “这会取代开发人员吗？” 不会。是他们的 100 倍。消除样板文件，让开发人员解放出来进行创造性工作。 **技术细节：** 基于任务复杂性的多 LLM 路由（Gemini → Claude → GPT-4） 自我修复错误检测和纠正 基于 Firestore 的共享智能层 基于阶段的自主执行 更多信息：https://justiceapexllc.com/engine 很高兴回答有关架构、LLM 路由或自主编排的问题。   由   提交 /u/TTVJusticeRolls   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pmtf3a/built_an_ai_system_that_generates_complete/</guid>
+      <pubDate>Mon, 15 Dec 2025 00:18:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM 代理不断循环并破坏 UI 状态 - 我通过使执行具有确定性来修复它</title>
+      <link>https://www.reddit.com/r/programming/comments/1pmriw6/llm_agents_kept_looping_and_breaking_ui_state_i/</link>
+      <description><![CDATA[我是 SaaS 产品的前端工程师。在某些时候，我注意到大多数 SaaS UI 都不是一个开放的世界 - 它们主要是将 BFF DTO 投射到一小组重复出现的模式中：表单、卡片、表格、仪表板、过滤器。 我正在尝试让 LLM 驱动此 UI 的部分内容。我从通常的代理循环开始：模型推理、改变 UI 状态、检查结果并重复。它在技术上可行，但很脆弱。简单的任务需要多个循环，状态以我无法重现的方式漂移，调试主要归结为阅读日志和猜测。 改变的事情是使 SaaS 结构变得明确并缩小模型的角色。我没有让 LLM 直接改变状态，而是让它通过 UI 状态的类型化快照发出单个经过验证的意图。然后，确定性运行时应用效果、运行验证并更新快照。 这完全消除了代理循环。状态转换变得可重播，调试不再是猜测，成本下降到足以使小型模型真正可用。当出现问题时，我可以准确地看到转换失败的位置。 这不是一个新的代理框架或人工智能理念。它只是将 SaaS UI 视为现有的结构化系统，并让模型在该结构上运行，而不是自由形式的 UI 突变。 演示和代码： https://taskflow.manifesto-ai.dev https://github.com/manifesto-ai/taskflow   由   提交/u/TraditionalListen994   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pmriw6/llm_agents_kept_looping_and_breaking_ui_state_i/</guid>
+      <pubDate>Sun, 14 Dec 2025 22:52:50 GMT</pubDate>
+    </item>
     <item>
       <title>我在浏览器中构建了一个实时 ASCII 相机（60 FPS、Canvas、TypeScript）</title>
       <link>https://www.reddit.com/r/programming/comments/1pmnk5o/i_built_a_realtime_ascii_camera_in_the_browser_60/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[与我们分享您听说过的最奇怪编程语言：   由   提交/u/Leading-Welcome-5847   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pmeq58/the_strangest_programming_languages_youve_ever/</guid>
       <pubDate>Sun, 14 Dec 2025 14:00:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>弹吉他如何帮助您成为更好的开发人员？</title>
-      <link>https://www.reddit.com/r/programming/comments/1pmd7d3/how_playing_on_guitar_can_help_you_to_be_a_better/</link>
-      <description><![CDATA[ 由   提交 /u/Adventurous-Salt8514   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pmd7d3/how_playing_on_guitar_can_help_you_to_be_a_better/</guid>
-      <pubDate>Sun, 14 Dec 2025 12:43:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>瓦尔哈拉？ Python？威瑟斯？龙目岛？ - 询问 JavaOne'25 的架构师</title>
-      <link>https://www.reddit.com/r/programming/comments/1pma0uj/valhalla_python_withers_lombok_ask_the_architects/</link>
-      <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pma0uj/valhalla_python_withers_lombok_ask_the_architects/</guid>
-      <pubDate>Sun, 14 Dec 2025 09:24:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究软件失败的原因 - 以及“软件开发中价值驱动的技术决策”的文章</title>
-      <link>https://www.reddit.com/r/programming/comments/1pm9kqe/research_in_to_why_software_fails_and_article_on/</link>
-      <description><![CDATA[ 由   提交/u/martindukz   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pm9kqe/research_in_to_why_software_fails_and_article_on/</guid>
-      <pubDate>Sun, 14 Dec 2025 08:54:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据库代理：挑战、工作和权衡</title>
-      <link>https://www.reddit.com/r/programming/comments/1pm9g9k/database_proxies_challenges_working_and_tradeoffs/</link>
-      <description><![CDATA[ 由   提交/u/Local_Ad_6109   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pm9g9k/database_proxies_challenges_working_and_tradeoffs/</guid>
-      <pubDate>Sun, 14 Dec 2025 08:46:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>克服ClickHouse的JSON约束构建高性能JSON日志存储</title>
-      <link>https://www.reddit.com/r/programming/comments/1pm94lv/overcoming_clickhouses_json_constraints_to_build/</link>
-      <description><![CDATA[嗨！我为名为 The Observability Real Talk 的时事通讯撰写文章，本周的版本介绍了我们如何构建高性能 JSON 日志存储，克服 Clickhouse 的 JSON 限制。我们正在讨论， - 我们面临的一些问题 - 探索 max_dynamic_path 选项设置 - 我们如何构建一个 2 层日志存储系统，极大地提高了我们的效率 如果您喜欢如此深入的工程知识，请留下您的想法并订阅！   由   提交/u/elizObserves  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pm94lv/overcoming_clickhouses_json_constraints_to_build/</guid>
-      <pubDate>Sun, 14 Dec 2025 08:25:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
