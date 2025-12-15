@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 15 Dec 2025 01:21:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 04:03:54 GMT</lastBuildDate>
+    <item>
+      <title>如何诊断某些浏览器版本上的网站问题？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pmxahf/how_to_diagnose_an_issue_with_website_on_certain/</link>
+      <description><![CDATA[嘿大家 最近，一位用户报告说我的网站无法在他们的 Chrome 浏览器上运行，但可以在他们的 Edge 浏览器上运行。在不涉及太多细节的情况下，基本上一些 WASM 模块根本无法运行。 我认为这很奇怪，因为 chrome 和 Edge 都是基于 chromium 的，所以我询问了一些诊断信息，发现它们使用的是旧版本的 chrome (122)。 我下载了这个旧版本的 chromium，结果发现 - 网站被破坏了。我想知道该网站开始工作的版本是哪个版本，有趣的是它是下一个版本（123）。 所以现在我遇到了问题 - 我确切地知道网站中断的版本截止 - 但我没有太多其他可做的。控制台中没有错误/没有崩溃/没有冻结/等等。基本上我的网站遇到了某种幽灵问题。 我想过阅读变更日志，直到我发现了巨大的提交列表，然后很快就放弃了。 所以我不知道该怎么做 - 雪上加霜的是，我使用了一堆可能使用新功能的软件包，但在旧版本或类似的东西上却默默地失败了。 在这样的情况下你会做什么来找到问题？或者你只是说忘记它并阻止旧版本的用户？我尝试隔离问题并添加控制台日志，但无济于事。也许有某种东西可以扫描我的项目并检查 caniuse.com 兼容性？   由   提交/u/a300a300  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pmxahf/how_to_diagnose_an_issue_with_website_on_certain/</guid>
+      <pubDate>Mon, 15 Dec 2025 03:28:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求建议：fullstack webdev 文凭 + gis bach</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pmw7wd/looking_for_advice_fullstack_webdev_diploma_gis/</link>
+      <description><![CDATA[我拥有全栈 Web 开发文凭，希望有机会攻读 2 年 GIS 学士学位。 想知道这在行业方面是否是一个好主意，并且两者是否可以互补？我更喜欢主要从事开发工作，但鉴于该行业的饱和程度，拥有额外的专业知识将有助于我推销自己？ 任何一般建议都会有所帮助。谢谢   由   提交/u/loveandglobes  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pmw7wd/looking_for_advice_fullstack_webdev_diploma_gis/</guid>
+      <pubDate>Mon, 15 Dec 2025 02:34:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>离线优先的网络应用程序是一个坏主意吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pmv05r/is_offlinefirst_web_app_a_bad_idea/</link>
+      <description><![CDATA[似乎大多数现代应用程序都是离线持久的，但不是离线优先的。例如，Notion 桌面和移动应用程序首先是离线的，但 Web 应用程序不是。 Excalidraw 免费版首先是离线的，但 excalidraw+ 不是。 你认为原因是什么？ 编辑：为了避免混淆，我所说的“离线优先”是什么意思？是一种功能齐全的离线模式，可以在长时间（比如1天）不连接后端的情况下完全工作。   由   提交 /u/Illustrious_Web_2774   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pmv05r/is_offlinefirst_web_app_a_bad_idea/</guid>
+      <pubDate>Mon, 15 Dec 2025 01:35:59 GMT</pubDate>
+    </item>
     <item>
       <title>如何以express为后端实现电商SSR（cv项目）</title>
       <link>https://www.reddit.com/r/webdev/comments/1pmtyx6/how_to_achieve_ssr_for_ecom_with_express_as/</link>
@@ -22,12 +43,12 @@
     <item>
       <title>为人工智能密集型应用程序构建可重用的 SaaS 基础，寻求网络开发反馈</title>
       <link>https://www.reddit.com/r/webdev/comments/1pmr447/building_a_reusable_saas_foundation_for_aiheavy/</link>
-      <description><![CDATA[嘿r/webdev， 在过去的几个月里，我一直在构建多个人工智能驱动的网络应用程序，并且一遍又一遍地遇到相同的问题：身份验证设置、付款、信用、队列、后台作业以及真正用户出现后的扩展问题。 所以我开始工作基于可重复使用的SaaS 基础，专门针对人工智能密集型产品，处理无聊的基础设施部分，以便开发人员可以专注于产品逻辑，而不是从头开始连接所有内容。 现在，重点是：  干净的身份验证和安全性。用户管理 基于使用的积分 人工智能作业的异步队列 支付+订阅流程 在并发情况下不会崩溃的基础设施  在进一步讨论之前，我真的很喜欢其他网络开发人员的意见： 当今 SaaS 基础设施的哪些部分浪费了您最多的时间？ 大多数样板文件或入门者在哪里无法满足实际应用程序的要求？ 很想听听其他人在生产中如何处理这个问题。 谢谢！   由   提交 /u/Adventurous-Meat5176   [链接] [评论]]]></description>
+      <description><![CDATA[嘿r/webdev， 在过去的几个月里，我一直在构建多个人工智能驱动的网络应用程序，并且一遍又一遍地遇到相同的问题：身份验证设置、付款、信用、队列、后台作业以及真正用户出现后的扩展问题。 所以我开始工作基于可重复使用的SaaS 基础，专门针对人工智能密集型产品，处理无聊的基础设施部分，以便开发人员可以专注于产品逻辑，而不是从头开始连接所有内容。 现在，重点是：  干净的身份验证和安全性。用户管理 基于使用的积分 人工智能作业的异步队列 支付+订阅流程 在并发情况下不会崩溃的基础设施  在进一步讨论之前，我真的很喜欢其他网络开发人员的意见： 当今 SaaS 基础设施的哪些部分浪费了您最多的时间？ 大多数样板文件或启动器在哪里无法满足实际应用程序的要求？ 很想听听其他人在生产中如何处理这个问题。 谢谢！   由   提交 /u/Adventurous-Meat5176   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pmr447/building_a_reusable_saas_foundation_for_aiheavy/</guid>
       <pubDate>Sun, 14 Dec 2025 22:34:57 GMT</pubDate>
     </item>
     <item>
-      <title>将您的网站转变为刮刮乐彩票</title>
+      <title>将您的网站变成刮刮乐彩票</title>
       <link>https://www.reddit.com/r/webdev/comments/1pmnwad/transform_your_site_into_a_scratchoff_lottery/</link>
       <description><![CDATA[ 由   提交/u/Dramatic-Mongoose-95   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pmnwad/transform_your_site_into_a_scratchoff_lottery/</guid>
@@ -36,7 +57,7 @@
     <item>
       <title>我构建了一个小型 Node/Express API，它从 Zod 模式返回类型化的电子商务副本（OpenAPI 3.0 + 结构化 JSON 输出）</title>
       <link>https://www.reddit.com/r/webdev/comments/1pmmjpp/i_built_a_tiny_nodeexpress_api_that_returns_typed/</link>
-      <description><![CDATA[我想要一个“生产中的 LLM”的非常简单的示例，它不会返回随机垃圾，因此我构建了一个 Node/Express 微服务：  使用 Zod 验证输入 强制模型返回与架构匹配的结构化 JSON 发布 OpenAPI 3.0规范，方便客户生成/市场发布 日志使用+延迟（基本可观察性）  用例： 根据结构化产品功能生成电子商务“列表包”（标题、项目符号、描述、关键字、广告变体），但这里分享的重点是模式：模式中的模式输出。 问题：谁已经交付了 LLM 支持的端点：随着时间的推移，您保持响应确定性和可调试性的首选方法是什么？ （架构执行、评估测试、缓存、回退模型等）在将其连接到批量目录管道之前，您会警告我任何“陷阱”吗？ 这里是快速 api 链接电子商务列表助推器   由   提交/u/DannySun17  [链接] [评论]]]></description>
+      <description><![CDATA[我想要一个“生产中的 LLM”的非常简单的示例，它不会返回随机垃圾，因此我构建了一个 Node/Express 微服务：  使用 Zod 验证输入 强制模型返回与架构匹配的结构化 JSON 发布 OpenAPI 3.0规范，方便客户生成/市场发布 日志使用+延迟（基本可观察性）  用例： 根据结构化产品功能生成电子商务“列表包”（标题、项目符号、描述、关键字、广告变体），但这里分享的要点是模式：模式中的模式输出。 问题：谁已经交付了 LLM 支持的端点：随着时间的推移，您保持响应确定性和可调试性的首选方法是什么？ （架构执行、评估测试、缓存、回退模型等）在将其连接到批量目录管道之前，您会警告我任何“陷阱”吗？ 这里是快速 api 链接电子商务列表助推器   由   提交/u/DannySun17  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pmmjpp/i_built_a_tiny_nodeexpress_api_that_returns_typed/</guid>
       <pubDate>Sun, 14 Dec 2025 19:24:35 GMT</pubDate>
     </item>
@@ -78,7 +99,7 @@
     <item>
       <title>为什么美国网站屏蔽美国以外的用户？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pmk481/why_do_american_websites_block_users_from_outside/</link>
-      <description><![CDATA[嘿，我不知道为什么这在美国网站中如此常见。我在 Reddit 上看到一些新闻链接页面，当我点击阅读时，它显示“该网站在您所在的位置、国家、地区等不可用。”或类似的文字。有趣的是，大多数大型新闻网站都不关心它，但很小的本地新闻网站 %95 使用它。同样的事情也发生在兴趣爱好网站上。我正在寻找船只钓鱼设备评论，一些美国博客也没有打开。为什么他们要阻止它？   由   提交 /u/diomedes-on-rampage   [链接] [评论]]]></description>
+      <description><![CDATA[嘿，我不知道为什么这在美国网站中如此常见。我在 Reddit 上看到一些新闻链接页面，当我点击阅读时，它显示“该网站在您所在的位置、国家、地区等不可用。”或类似的文字。有趣的是，大多数大型新闻网站都不关心它，但很小的本地新闻网站 %95 使用它。同样的事情也发生在兴趣爱好网站上。我正在寻找船只钓鱼设备评论，一些美国博客也没有打开。为什么他们要阻止它？   由   提交/u/diomedes-on-rampage   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pmk481/why_do_american_websites_block_users_from_outside/</guid>
       <pubDate>Sun, 14 Dec 2025 17:46:27 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[      大家好， 我最近创建了一个新的登陆页面并将其托管在 GitHub Pages 上，然后将其连接到一个全新的自定义域。 该网站非常新（只有几天），但是当我尝试在 Chrome 中打开它时，我收到来自 Google 安全浏览的“危险站点”红色警告屏幕（我附上了屏幕截图）。 任何帮助或见解将不胜感激。谢谢！   由   提交 /u/IspkingX   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pmi3dv/new_website_connected_to_github_pages_flagged_as/</guid>
       <pubDate>Sun, 14 Dec 2025 16:25:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>30 年 <br> 标签</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pmhgr7/30_years_of_br_tags/</link>
-      <description><![CDATA[ 由   提交/u/Grannen   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pmhgr7/30_years_of_br_tags/</guid>
-      <pubDate>Sun, 14 Dec 2025 16:00:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>连接到 GitHub Pages 的新网站被 Chrome 标记为“危险网站”</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pmh31s/new_website_connected_to_github_pages_flagged_as/</link>
-      <description><![CDATA[大家好， 我最近创建了一个新的登陆页面并将其托管在 GitHub Pages 上，然后将其连接到一个全新的自定义域。 该网站非常新（只有几天），但当我尝试在 Chrome 中打开它时，我从 Google 安全浏览中收到“危险网站”红色警告屏幕（我附上了屏幕截图）。 任何帮助或见解将不胜感激。谢谢！   由   提交 /u/IspkingX   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pmh31s/new_website_connected_to_github_pages_flagged_as/</guid>
-      <pubDate>Sun, 14 Dec 2025 15:44:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我通过提取 2000 万行维基词典数据，构建了 4,500 种语言的 WaniKani 克隆。以下是开发挑战。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pmg3hl/i_built_a_wanikani_clone_for_4500_languages_by/</link>
-      <description><![CDATA[   我是 WaniKani（日语的游戏化 SRS）的忠实粉丝，但我希望为通常没有良好工具的语言（特别是格鲁吉亚语和卡纳达语）提供相同的用户体验。由于这些应用程序不存在，我决定建立一个通用的 SRS 网站，可以提取任何语言的数据。 最初，我考虑抓取维基词典，但为 4,500 多种不同的语言模板编写解析器将是一项无限的工作。 我发现了一个名为 kaikki.org 的项目，它转储维基词典数据转换为机器可读的 JSON。我提取了他们的完整数据集。 结果是一个包含约 2000 万行的数据库。 将信号与噪声分离。 JSON 包含一切。模糊的科学术语、古老的动词形式等。我需要一个过滤层来识别“可学习的”术语。单词（实际上有定义、清晰词性和翻译的单词 “豆腐”问题。这是 webdev 方面最困难的部分。当您支持 4,500 种语言时，您会遇到标准系统字体根本无法呈现的脚本。 “游戏”逻辑以编程方式生成多项选择题 (MCQ) 更困难如果目标单词是“Cat”（名词），并且干扰项是“Run”（动词）和“Blue”（形容词），则用户可以通过排除来猜测，因此会出现与目标单词的词性和频率相匹配的查询，从而使测验变得更加困难。 前端： Next.js 后端：Supabase 这是一个在前端密集型应用程序上处理“大数据”的有趣实验 这个大小的表有 2 个。    提交href=&quot;https://www.reddit.com/user/biricat&quot;&gt;/u/biricat   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pmg3hl/i_built_a_wanikani_clone_for_4500_languages_by/</guid>
-      <pubDate>Sun, 14 Dec 2025 15:01:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
