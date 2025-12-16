@@ -4,18 +4,39 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 16 Dec 2025 01:21:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 03:56:37 GMT</lastBuildDate>
     <item>
-      <title>在我的 Django 项目中自动化 WhatsApp 消息的最佳 API/软件选项是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pnoe53/whats_the_best_apisoftware_option_for_automating/</link>
-      <description><![CDATA[   我有一个用 Django 构建的理发店调度面板，我们在客户预订时保存客户的号码。现在我想自动化 WhatsApp 消息，每隔 x 时间自动发送一次（例如：客户很长时间没有预订服务、促销、提醒等）。 我的问题： • 您认为哪些 API/软件可以与 Django 很好地集成来发送自动 WhatsApp 消息？ • 使用 Twilio / MessageBird / Zenvia 之类的系统更好，还是特定的 WhatsApp Business API 系统更好吗？ • 以前有人这样做过，并且有关于如何构建计划任务（如 cron 作业、Celery、Django-Q）的提示吗？ • 重点是：可靠、可扩展且不会花太多钱。 注意：我希望在定义触发器和频率后无需人工干预即可发送消息。 谢谢！   由   提交/u/Logical_Valuable_970   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pnoe53/whats_the_best_apisoftware_option_for_automating/</guid>
-      <pubDate>Tue, 16 Dec 2025 00:53:05 GMT</pubDate>
+      <title>用于技术面试的 Bitbucket</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pns5ez/bitbucket_for_technical_interviews/</link>
+      <description><![CDATA[晚上好，基本上我想知道是否有人曾经使用过 Bitbucket 进行过技术面试。 一位技术负责人联系了我，在查看了我的简历后，发送了一个到该平台的链接，要求我解决其中一个可用的问题。 有人使用过它并且可以判断它是否可靠吗？有什么建议吗？谢谢！   由   提交 /u/peanutxrp   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pns5ez/bitbucket_for_technical_interviews/</guid>
+      <pubDate>Tue, 16 Dec 2025 03:52:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为构建者，您会推荐具有成本效益的 AI 模型吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pns0p8/cost_effective_ai_model_you_would_recommend_as_a/</link>
+      <description><![CDATA[大家好，我想知道目前最具成本效益且仍能提供惊人输出的 AI 模型是什么？我已经尝试了很多，但想从更多的建设者那里了解。  特别是在编码和设计方面，您会选择哪种模型？为什么？ 寻找基于真实用例的诚实意见，而不是炒作。 成本效率 + 结果质量是首要任务。   由   提交 /u/Mahi_Singh_0077   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pns0p8/cost_effective_ai_model_you_would_recommend_as_a/</guid>
+      <pubDate>Tue, 16 Dec 2025 03:46:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>长时间的法学硕士对话暴露了真正的用户体验限制</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pnrgyy/long_llm_conversations_expose_real_ux_limitations/</link>
+      <description><![CDATA[      在 ChatGPT、Gemini 和 Claude 中进行长时间会话后，最大的问题不是模型质量 - 而是导航。 一旦聊天增长：  查找早期的假设或决策非常痛苦 线性滚动无法扩展 会话重置时上下文会丢失  我将其视为一个用户体验问题进行了探索，并构建了一个小型 Chrome 扩展程序，该扩展程序添加了对长时间 LLM 聊天的导航，并帮助保留跨会话的上下文。 扩展程序   由   提交/u/Substantial_Shock883   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pnrgyy/long_llm_conversations_expose_real_ux_limitations/</guid>
+      <pubDate>Tue, 16 Dec 2025 03:18:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>今天试图让光标：指针工作，把自己逼到了疯狂的边缘……结果这只是我的机器？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pnp8t6/drove_myself_to_the_brink_of_madness_trying_to/</link>
+      <description><![CDATA[长话短说，我无法获取 css 样式的光标：指针；今天在一个网站上工作。最终，我访问这里作为健全性检查https://www.w3schools.com/cssref/playit.php?filename=playcss_cursor&amp;preval=pointer，你瞧，他们的示例在我的屏幕上也没有做任何事情。光标不会改变。然后我有一个朋友访问了我的网站和 w3schools，他们向我发送了两者完全按预期工作的图像。 我实际上不知道发生了什么或造成这种情况的原因是什么。我尝试了 4 个不同的浏览器。我在运行 Tahoe 26.0.1 的 Mac 上（尽管我不确定这是否对浏览器显示的内容有任何影响）。有人有什么想法吗？   由   提交/u/JustinR8  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pnp8t6/drove_myself_to_the_brink_of_madness_trying_to/</guid>
+      <pubDate>Tue, 16 Dec 2025 01:32:33 GMT</pubDate>
     </item>
     <item>
       <title>单击和悬停时的 svg 动画过渡</title>
       <link>https://www.reddit.com/r/webdev/comments/1pnnj66/svg_animation_transition_on_click_and_hover/</link>
-      <description><![CDATA[我正在疯狂地尝试解决这个问题，希望这里有人能给我一个建议 我制作了带有 svg 图标的汉堡包按钮，并带有典型的“变成关闭按钮”按钮动画，使用 js 来处理 aria 展开，使用 css 转换来对线条进行动画处理。当然还有过渡来控制每个动画持续多长时间以及它们有多长时间的延迟 问题是，如果我还添加悬停状态动画，我为“转场”尝试的任何操作都会失败。从悬停状态开始被基本“去转换”覆盖这意味着适用于关闭菜单动画 我不知道如何克服最后一个问题，除了一些更复杂的事情，比如用js管理悬停状态 任何想法都会非常受欢迎..我发誓我以前在网站上看到过这个，但我找不到任何例子或艾米在任何地方谈论这个 并且不要成为一个屁股，但请避免任何“动画不同”属性”输入答案，这不是我想要实现的目标 tl;dr：如何在悬停和单击时为 svg 行上的同一属性设置动画，但具有单独的动画关闭过渡   由   提交 /u/neetbuck   [链接] [评论]]]></description>
+      <description><![CDATA[我正在疯狂地尝试解决这个问题，希望这里有人能给我一个建议 我已经制作了带有 svg 图标的汉堡包按钮，并带有典型的“变成关闭按钮”按钮动画，使用 js 来处理 aria 展开，使用 css 转换来对线条进行动画处理。当然还有过渡来控制每个动画持续多长时间以及它们有多长时间的延迟 问题是，如果我还添加悬停状态动画，我为“转场”尝试的任何操作都会失败。从悬停状态开始被基本“去转换”覆盖这意味着适用于关闭菜单动画 我不知道如何克服最后一个问题，除了一些更复杂的事情，比如用js管理悬停状态 任何想法都会非常受欢迎..我发誓我以前在网站上看到过这个，但我找不到任何例子或艾米在任何地方谈论这个 并且不要成为一个屁股，但请避免任何“动画不同”属性”输入答案，这不是我想要实现的目标 tl;dr：如何在悬停和单击时为 svg 行上的同一属性设置动画，但具有单独的动画关闭过渡   由   提交 /u/neetbuck   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pnnj66/svg_animation_transition_on_click_and_hover/</guid>
       <pubDate>Tue, 16 Dec 2025 00:14:38 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[我需要一些帮助来解决这个视口问题，该问题使我的图形元素在滚动时改变其位置。由于它不会发生在桌面版本中，我认为这是一个视口问题。我使用 Opera 移动仿真来测试我的网站，前几天还运行得很好，但现在出现了这个错误，我完全不知道是什么原因造成的。 HTML: https://drive.google.com/file/d/1Kg9XVY3mEyf7VA5MeIyMPn_34szEAlYi/view?usp=sharing CSS： https://drive.google.com/file/d/1uLKBFSv-XAALAiLoJxSY7e5JNLWr2W6o/view?usp=drive_link JS: https://drive.google.com/file/d/1tJr5fDX9dwwrfsqsAs-DTgLh8VRvXv9l/view?usp=drive_link 我可以提供一支编码笔，如果必要的，但由于它是一个复杂的代码，我不知道如何正确提供所有必要的代码。   由   提交 /u/astronaut954   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pni3fu/view_port_problem/</guid>
       <pubDate>Mon, 15 Dec 2025 20:28:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>内容是服务器但 URL 不变的 Web 开发概念的名称？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pngu4q/name_of_the_web_dev_concept_where_content_is/</link>
-      <description><![CDATA[https://www.stone-techno.com/ 此网站上有表演艺术家列表。如果您单击某个名称，则会显示一个简短的个人简介 + 图像，但 URL 不会更改，而且我无法向某人发送直接 URL。这是如何实现的，“技术”的名称是什么？用于实现此功能？   由   提交 /u/4r73m190r0s   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pngu4q/name_of_the_web_dev_concept_where_content_is/</guid>
-      <pubDate>Mon, 15 Dec 2025 19:38:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>有谁知道一个不会侵犯我的访问者隐私的网站的横幅添加网络？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pngo23/does_anyone_know_of_a_banner_add_addnetwork_for_a/</link>
-      <description><![CDATA[您好，我不太确定在哪里问这个问题。如果这个 Reddit 子版块不适合，我很抱歉。 所以。我目前正在为我的公司建立自己的艺术/作品集网站，我想在未来开放，我想从我的艺术作品中获得生命。我正在考虑在我的网站上放置横幅广告以通过这种方式赚钱。不过，据我所知。互联网上的广告会根据您收集的 cookie 和元数据向您投放专门的产品/服务广告。 有人知道像 adsense 这样的附加网络吗？...不知道吗？  或者为我的网站提供一种不同的基于添加的赚钱方法，而不监视我的访问者？ 尊重客户隐私和尊严对我来说非常重要。我不想知道我的客户的位置和整个生活，只是想从中创造我的艺术和生活。 添加网络不使用cookie、元数据、搜索结果、指纹或任何类似内容，而只是显示随机添加而不了解有关我的访问者的任何信息，那就太好了。 提前谢谢您:)   由   提交 /u/LifeSymbiont   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pngo23/does_anyone_know_of_a_banner_add_addnetwork_for_a/</guid>
-      <pubDate>Mon, 15 Dec 2025 19:32:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>产品研究：您对 AI 代码生成工具（Lovable、Base44、v0 等）有何体验？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pngkvu/product_research_whats_your_experiences_with_ai/</link>
-      <description><![CDATA[我正在对 Lovable、Base44 等类似的 AI 代码生成工具进行一些产品研究。 尝试了解人们如何在实际项目中实际使用这些工具、哪些效果很好，以及哪些地方出现问题。 如果您使用过其中任何一个，我将非常感谢您的意见。  简短的产品研究调查： https://forms.gle/GNWBjgJFoKU3iQes6   由   提交 /u/lifewithkiyo   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pngkvu/product_research_whats_your_experiences_with_ai/</guid>
-      <pubDate>Mon, 15 Dec 2025 19:28:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
