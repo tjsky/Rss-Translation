@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 16 Dec 2025 21:20:16 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 01:13:16 GMT</lastBuildDate>
+    <item>
+      <title>我构建了一个轻量级网络安全扫描仪 – 寻求反馈 👋</title>
+      <link>https://www.reddit.com/r/webdev/comments/1poij7o/i_built_a_lightweight_web_security_scanner/</link>
+      <description><![CDATA[      直接链接： https://security-scanner.kals.enterprises/ 大家好， 我一直在从事一个小型副项目，希望在这里分享它以从社区获得一些诚实的反馈。 它被称为Lite Security Scanner - 一款适合移动设备的单页网络应用程序，您可以在其中输入网站 URL，它会运行被动安全检查（无侵入或利用式测试）。目标是为网站所有者和开发人员提供快速的安全卫生检查，而无需企业扫描仪的复杂性。 当前检查的内容：  HTTPS 实施和安全检查。重定向 常见安全标头（HSTS、CSP、X-Frame-Options 等） Cookie 标志（Secure、HttpOnly、SameSite） 服务器标头/堆栈信息泄漏 基本混合内容和不安全形式检测  扫描后，它会生成一个清晰的报告，其中包含：  问题的证据 为什么重要 实用的修复建议  它采用 HTML5、PHP、jQuery 和 Bootstrap 构建，设计轻量、快速且适合移动设备。该扫描器是严格被动且基于权限的 - 意味着作为第一步概述，而不是完整的渗透测试。 我主要寻找：  实际上有用的功能想法 感觉混乱或不必要的东西 您对“精简版”安全扫描器的期望  如果有人有兴趣测试它或查看输出格式，我非常感谢您的想法。 提前致谢🙏 直接链接： https://security-scanner.kals.enterprises/   由   提交/u/Khalid_Soufan   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1poij7o/i_built_a_lightweight_web_security_scanner/</guid>
+      <pubDate>Wed, 17 Dec 2025 00:32:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个免费的模拟 API 服务，因为其他服务让我填写的表格比报税还要多 🎉</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pohk0q/i_built_a_free_mock_api_service_because_other/</link>
+      <description><![CDATA[说真的，我只是想测试一个快速的 API 调用，每项服务都类似于“创建帐户、验证电子邮件、为我们的‘免费’级别添加信用卡、阅读我们的 47 页服务条款...” 所以我说搞砸了并构建了 mockapi.dog - 没有注册，没有信用卡，没有BS。只需粘贴您的模拟数据并获取 API URL。 10 秒内完成。 HTTP 方法（GET、POST、PUT、PATCH、DELETE）、自定义 JSON 响应、自定义 HTTP 状态代码 - 基本上是测试前端所需的一切，而无需启动后端。 完全免费，因为我厌倦了为了简单测试而花小钱。没有“高级功能”被锁定在付费墙后面 - 它只是......全部都在那里。 无论如何，希望它可以将其他人从注册地狱中拯救出来！  希望得到任何反馈或功能请求😅   由   提交/u/kshantanu94  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pohk0q/i_built_a_free_mock_api_service_because_other/</guid>
+      <pubDate>Tue, 16 Dec 2025 23:49:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Firefox 146.0 细滚动条有箭头，但有隐藏它们的属性吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1poft04/firefox_1460_thin_scrollbars_get_arrows_but_is/</link>
+      <description><![CDATA[       由   提交/u/DuDekilleR07  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1poft04/firefox_1460_thin_scrollbars_get_arrows_but_is/</guid>
+      <pubDate>Tue, 16 Dec 2025 22:33:55 GMT</pubDate>
+    </item>
     <item>
       <title>Brew 设置脚本推荐？！</title>
       <link>https://www.reddit.com/r/webdev/comments/1poddz9/brew_setup_script_recomendations/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[       由   提交/u/rombreaker  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1po4kmp/i_know_im_not_the_only_one/</guid>
       <pubDate>Tue, 16 Dec 2025 15:19:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>（再次）寻找有关我的应用程序的反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1po4jx3/looking_for_feedback_on_my_app_again/</link>
-      <description><![CDATA[大家好， 我再次请求对我的应用程序提供诚实的反馈。 CampMate 是一款露营打包应用，具有打包模板、协作和天气集成功能。 上次我发帖时（此处）我收到了很多非常有用的反馈，从那时起，我就一直在努力开发该应用。如果您有时间查看并提供一些反馈，我将不胜感激！   由   提交 /u/No-Ad-691   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1po4jx3/looking_for_feedback_on_my_app_again/</guid>
-      <pubDate>Tue, 16 Dec 2025 15:18:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>watt-admin 1.0.0：捕获、分析和共享您的 Node.js 性能数据</title>
-      <link>https://www.reddit.com/r/webdev/comments/1po44l3/wattadmin_100_capture_profile_and_share_your/</link>
-      <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1po44l3/wattadmin_100_capture_profile_and_share_your/</guid>
-      <pubDate>Tue, 16 Dec 2025 15:01:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>我可以使用 ReScript 做什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1po3ioy/what_can_i_do_with_rescript/</link>
-      <description><![CDATA[ 由   提交/u/BeamMeUpBiscotti   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1po3ioy/what_can_i_do_with_rescript/</guid>
-      <pubDate>Tue, 16 Dec 2025 14:37:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
