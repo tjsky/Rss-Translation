@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 19 Dec 2025 06:26:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 09:21:18 GMT</lastBuildDate>
+    <item>
+      <title>后端使用 Node.js 的 Elm：不透明值的实验</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pqgqcl/elm_on_the_backend_with_nodejs_an_experiment_in/</link>
+      <description><![CDATA[       由   提交 /u/cekrem   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pqgqcl/elm_on_the_backend_with_nodejs_an_experiment_in/</guid>
+      <pubDate>Fri, 19 Dec 2025 09:15:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>为小型网站选择免费的无头 CMS</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pqg1ds/choosing_free_headless_cms_for_small_website/</link>
+      <description><![CDATA[我想使用 Vue.js 和免费的无头 CMS 为音乐家预订机构建立一个小型网站。该网站将有大约 2 或 3 个静态页面和动态页面，供（目前）12 位艺术家使用，每个页面都有自己的文本和一些图像，但当然，随着时间的推移，可能会添加新的艺术家。 对无头 CMS 的需求来自于想要自己更改图像或文本的机构所有者。 我知道例如 Strapi 和 contentful 可以在免费套餐中执行此类操作，但您认为哪种无头 CMS 最适合？   由   提交 /u/filnir   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pqg1ds/choosing_free_headless_cms_for_small_website/</guid>
+      <pubDate>Fri, 19 Dec 2025 08:29:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 有助于加快交付速度，但产生的错误数量却增加了 1.7 倍</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pqfwjq/ai_helps_ship_faster_but_it_produces_17_more_bugs/</link>
+      <description><![CDATA[       由   提交 /u/thewritingwallah   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pqfwjq/ai_helps_ship_faster_but_it_produces_17_more_bugs/</guid>
+      <pubDate>Fri, 19 Dec 2025 08:21:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我是否过度为我的预算应用程序构建编译语言？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pqfbon/did_i_mass_go_overboard_building_a_compiled/</link>
+      <description><![CDATA[      我构建了一个信封预算 PWA。足够简单了——用于存储的 IndexedDB、离线工作、P2P 同步、一些报告小部件。 然后我添加了一个插件系统，以便人们可以扩展它。 然后我想“为了安全起见，插件应该沙箱化。” 然后我想“如果插件编译为 WASM 会怎样？”  然后我构建了 ZDScript — 一种静态类型语言，其中包含：  泛型 (Vec&lt;T&gt;, Map&lt;K,V&gt;) 具有继承的类 可空类型和可选链接 (?., ??) 完整的词法分析器、解析器和 WASM 代码生成器  然后我认为“插件作者应该能够分享和出售他们的作品。” 所以现在有一个由 Nostr 支持的市场，您可以在其中发布、发现和购买插件。去中心化，没有中间人。 ...用于预算应用程序。 编译器约为 4000 行。实际的预算逻辑可能更少。 我一直告诉自己为了学习体验这是值得的，但我开始怀疑我是否有问题。 Repo (GPL-v3.0)：github.com/ciphernom/ZeroDollars/ 演示位于 http://ciphernom.github.io/ZeroDollars “好的学习项目”在什么时候会出现？变成“你需要干预”？   由   提交/u/ciphernom  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pqfbon/did_i_mass_go_overboard_building_a_compiled/</guid>
+      <pubDate>Fri, 19 Dec 2025 07:44:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>我应该将第一学期的小型项目上传到 LinkedIn 吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pqevgo/should_i_upload_small_firstsemester_projects_to/</link>
+      <description><![CDATA[大家好，我刚刚完成了 CSE 的第一个学期，并开始建立我的 LinkedIn 个人资料。我听说上传项目很有用，但我不确定对于 LinkedIn 来说太小了。 到目前为止，我已经构建了： 使用 DOM 操作的猜数游戏， 一个带有小型网站的基本服务器，该网站只有两个界面/页面（一个主屏幕和交互后到达的另一个页面）， 一个 Bankist 风格的 JavaScript 应用程序，具有 4 个自定义用户和功能，例如它们之间的发送/接收/借出。 这些项目帮助我了解 JavaScript、DOM、服务器基础知识和解决问题，但它们并不是很大的项目。 我的问题：是否值得将这些上传到 LinkedIn 以显示进度，还是应该等到构建更高级的项目？经历过这个阶段的开发者——您会推荐什么？   由   提交/u/Hello_world_610  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pqevgo/should_i_upload_small_firstsemester_projects_to/</guid>
+      <pubDate>Fri, 19 Dec 2025 07:15:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>这个自动补全到底是什么</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pqeeuu/what_the_hell_is_this_autocompletion/</link>
+      <description><![CDATA[       https://preview.redd.it/3qy549gtx38g1.png?width=955&amp;format=png&amp;auto=webp&amp;s=168452a354f59385cd730fe2411d41b2c7974583 我正在尝试制作一个猜数字游戏，naucate 到底是什么意思？   由   提交 /u/Available-Fishing-43   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pqeeuu/what_the_hell_is_this_autocompletion/</guid>
+      <pubDate>Fri, 19 Dec 2025 06:47:30 GMT</pubDate>
+    </item>
     <item>
       <title>网络工具</title>
       <link>https://www.reddit.com/r/webdev/comments/1pqcaij/webtools/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[你好。我目前正在构建一个简单的应用程序，可以说，最后一步是一个将图像复制到剪贴板的按钮（或使用网络共享 api）。 这在 Google Chrome 上运行得很好，但 Firefox Mobile 却很吝啬。 （我在 MDN 上看到 Firefox 没有默认支持网络共享） 有人可以解决将图像复制到剪贴板或在 Firefox 移动设备上使用网络共享 API 的问题吗？   由   提交/u/TragicBuffalo   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pq1f4s/webshareclipboard_api_on_firefox_mobile/</guid>
       <pubDate>Thu, 18 Dec 2025 20:33:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发周平均有多少时间实际花在编码上，而不是与开发环境作斗争？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pq11fg/how_much_of_the_average_dev_week_is_actually/</link>
-      <description><![CDATA[有一项统计数据声称开发人员花费 75% 的时间维护工具链而不是编写代码。很好奇这是否符合团队实际经历的情况。 讨论中出现的常见时间消耗：  Docker 环境意外中断 安全警报触发的依赖项更新 CI/CD 管道调试会话 引导新开发人员进行本地设置  对于那些在已建立的代码库中工作的人员：  一周的百分比是多少纯功能开发？ 环境/工具维护所占的比例是多少？ 什么时候从头开始重建设置才有意义？  另外：环境配置本质上是脆弱的，还是这是一个实际上可以解决的文档问题？   由   提交 /u/GitKraken   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pq11fg/how_much_of_the_average_dev_week_is_actually/</guid>
-      <pubDate>Thu, 18 Dec 2025 20:18:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>疯狂工作解决方案角色</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pq0wpd/crazy_job_solutions_role/</link>
-      <description><![CDATA[      他们现在在这里寻找根据被盗姓名进行面试的候选人。就像采访一样  https://docs.google.com/forms/d/e/1FAIpQLSdncvuKjuJgjNy8fDa8KiWvbJihd7NIlhABbOMzzO8KGDp-AQ/viewform &lt;一href=&quot;https://preview.redd.it/ljy6xcl9t08g1.png?width=660&amp;format=png&amp;auto=webp&amp;s=e128f8fad11e97d39dcdc4844bb4c34738f53244&quot;&gt; https://preview.redd.it/ljy6xcl9t08g1.png?width=660&amp;format=png&amp;auto=webp&amp;s=e128f8fad11e97d39dcdc4844bb4c34738f53244   由   提交/u/theoneandlonely1   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pq0wpd/crazy_job_solutions_role/</guid>
-      <pubDate>Thu, 18 Dec 2025 20:13:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何实现 2 个颜色搜索过滤器？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ppzvhu/how_to_implement_2_color_search_filters/</link>
-      <description><![CDATA[构建 2 色搜索有多难，任何人都可以参考一些指针   由   提交 /u/deey_dev   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ppzvhu/how_to_implement_2_color_search_filters/</guid>
-      <pubDate>Thu, 18 Dec 2025 19:32:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>Next.js 16.1</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ppz1gf/nextjs_161/</link>
-      <description><![CDATA[&lt;表&gt;       由   提交/u/feross  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ppz1gf/nextjs_161/</guid>
-      <pubDate>Thu, 18 Dec 2025 19:00:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Shopify 标题重叠问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ppyrik/shopify_header_overlay_issue/</link>
-      <description><![CDATA[      我的 Shopify 主题遇到问题，主题元素在向下滚动时与标题重叠，如果有人可以帮助我，那就太好了   由   提交 /u/Rishabh_Bhansali631   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ppyrik/shopify_header_overlay_issue/</guid>
-      <pubDate>Thu, 18 Dec 2025 18:49:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>轻量级 SMS API 不会让企业感觉大材小用？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ppy5lj/lightweight_sms_apis_that_dont_feel_like/</link>
-      <description><![CDATA[我正在向小型 Web 应用程序添加基本的业务消息传递（警报 + 确认）。 Twilio 可以工作，但设置和定价对于我的需求来说感觉很沉重。好奇其他开发人员在只想要简单可靠的东西时正在使用什么。   由   提交 /u/Sea-Car8041   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ppy5lj/lightweight_sms_apis_that_dont_feel_like/</guid>
-      <pubDate>Thu, 18 Dec 2025 18:26:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
