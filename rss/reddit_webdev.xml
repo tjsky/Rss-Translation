@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 19 Dec 2025 03:58:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 06:26:32 GMT</lastBuildDate>
+    <item>
+      <title>网络工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pqcaij/webtools/</link>
+      <description><![CDATA[我发现了一个不错的网站，提供了一些免费工具来帮助年轻的 Web 开发人员：https://ramstar.online/resources 还有一些很棒的学习资源。   由   提交 /u/Mainsteam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pqcaij/webtools/</guid>
+      <pubDate>Fri, 19 Dec 2025 04:48:43 GMT</pubDate>
+    </item>
     <item>
       <title>分割视图对于 webdev 来说非常有用！</title>
       <link>https://www.reddit.com/r/webdev/comments/1pq832l/split_view_is_so_good_for_webdev/</link>
@@ -53,13 +60,6 @@
       <description><![CDATA[请原谅疯狂的阴谋论，我通常会远离这些疯狂的理论，但是... 我一直在想...其他人是否感觉/认为我们的网站可能会受到数百万机器人的攻击，只是为了确保使用一些付费服务，如 CloudFlare、Imperva 等？ 有人为了向我们推销解决方案而造成问题？ 在某些时期，我每天都会获得几百万个唯一的 IP，很多时候我试图识别模式，但没有任何模式，除了一个唯一的 IP 在我的网站上打开一个唯一的有效 URL 并离开（通常只有 1 个请求），而这种情况发生在数百万个不同的个人 IP、来自不同的提供商、许多是住宅 IP 等。所以某人财力雄厚。 我知道住宅代理存在，但它们是仍然很昂贵，尤其是如果您尝试获得 1000 万个独特的住宅 ip。即使它们是住宅代理，这些攻击的目的除了引起问题以出售解决方案之外，仍然没有任何意义。 对于这种独特的 IP 住宅流量（没有可识别的行为模式），没有真正的解决方案，除非我向所有用户显示验证码，这对可用性来说是不好的。 我很好奇是否还有其他人想到了同样的理论或者我只是疯了？顺便说一句，我运行网站和服务器超过 20 年（作为 ~credentials :P）。 稍后编辑 1： 看来我的帖子需要一些澄清，因为许多人认为我从未见过僵尸网络，或者我不知道如何过滤 ip :)  如果 ip 没有可识别的模式并且有数百万个，那么实际上没有办法阻止 ip ips。 这些网址都是有效的，它们不会触发像 /admin 网址这样的敏感网址或已知的易受攻击的网址。 无法在请求 #1 时向每个人显示验证码，因为这会激怒普通用户 无法在第二个、第三个请求上显示验证码（限制过多的请求），因为每个 IP 只打开 1 个有效网址。 无法通过 ISP 进行阻止/过滤/识别，因为它们遍布世界各地，而且大多数是住宅 当然是随机用户代理 甚至声誉列表也无法正常工作，因为许多是住宅代理，我测试了一下，这些 IP 对于返回声誉分数的大多数已知数据库来说似乎是干净的。  现在，如果有人仍然认为可以阻止此行为，我洗耳恭听 :) 当然，除非您是一家大型公司，拥有可访问互联网上大多数网站的 IP 信息。基本上掌握了互联网上任何访问者 IP 的情报，能够建立信誉系统，但在这个特定的阴谋中，他们不需要该信誉分数/情报。 稍后编辑 2： 也许这甚至与月费无关，这些服务只是试图让更多的网站受到保护，因为用户的私人数据可能比月费更有价值。 记住这些服务可以看到您的所有表格发送、所有密码、上传，基本上是您所做的一切。   由   提交 /u/Cyber​​Failure   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pq2k88/conspiracy_someone_ddos_our_websites_to_make_us/</guid>
       <pubDate>Thu, 18 Dec 2025 21:19:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>会喜欢你的想法。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pq2ijf/would_love_your_thoughts/</link>
-      <description><![CDATA[我刚刚推出 adi-q.com  - 一个安静的网络角落，用于慢速写作、永恒的参考和完成的工作，构建时无需提要、指标或执行压力。会喜欢你的想法。   由   提交 /u/musicemporio   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pq2ijf/would_love_your_thoughts/</guid>
-      <pubDate>Thu, 18 Dec 2025 21:18:02 GMT</pubDate>
     </item>
     <item>
       <title>Firefox Mobile 上的网络共享/剪贴板 API</title>
