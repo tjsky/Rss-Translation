@@ -4,27 +4,34 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 22 Dec 2025 06:29:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 09:24:50 GMT</lastBuildDate>
     <item>
-      <title>BASIC 仍然存在 查看 CYBERBASIC</title>
-      <link>https://www.reddit.com/r/programming/comments/1psscdn/basic_is_still_alive_check_out_cyberbasic/</link>
-      <description><![CDATA[ 由   提交/u/darkmatterjesus   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1psscdn/basic_is_still_alive_check_out_cyberbasic/</guid>
-      <pubDate>Mon, 22 Dec 2025 06:14:19 GMT</pubDate>
+      <title>Jai 编程语言（编译时、Invaders 游戏和 Codex-View 可视化工具）</title>
+      <link>https://www.reddit.com/r/programming/comments/1psv2hs/jai_programming_language_compiletime_invaders/</link>
+      <description><![CDATA[ 由   提交/u/mrpro1a1  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1psv2hs/jai_programming_language_compiletime_invaders/</guid>
+      <pubDate>Mon, 22 Dec 2025 09:07:04 GMT</pubDate>
     </item>
     <item>
-      <title>输入验证和恢复逻辑应该位于 Java CLI 程序中的什么位置？ （主循环 vs 输入法 vs 异常）</title>
-      <link>https://www.reddit.com/r/programming/comments/1psq57j/where_should_input_validation_and_recovery_logic/</link>
-      <description><![CDATA[我正在设计一个基于具有多个用户输入点的 while 循环的 Java CLI 应用程序。 我的主要问题是当用户输入无效输入时，输入验证和错误恢复逻辑应该放在哪里。 目前，我正在考虑几种方法： A.在main 中验证 • 输入方法返回原始值• main 检查有效性• 输入无效时，打印错误消息并继续循环 B.验证内部输入方法 • getUserChoice() 等方法在内部循环，直到提供有效输入• 该方法保证返回有效值 C.使用异常 • 输入方法在无效输入时抛出异常• 调用者（例如main）捕获异常并决定如何恢复 所有三种方法都可以正常工作，但我不确定哪一种更适合教学项目或小型系统，特别是在以下方面： • 责任分离• 可读性• 可维护性• 未来可扩展性 对于这种 CLI 应用程序是否有普遍推荐的方法，或者它是否取决于上下文？ 您在实践中将如何构建它？   由   提交/u/Mission_Upstairs_242   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1psq57j/where_should_input_validation_and_recovery_logic/</guid>
-      <pubDate>Mon, 22 Dec 2025 04:13:36 GMT</pubDate>
+      <title>🦀 Rust 1.92.0 中的新增功能</title>
+      <link>https://www.reddit.com/r/programming/comments/1psuu6g/whats_new_in_rust_1920/</link>
+      <description><![CDATA[ 由   提交/u/web3writer  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1psuu6g/whats_new_in_rust_1920/</guid>
+      <pubDate>Mon, 22 Dec 2025 08:51:47 GMT</pubDate>
     </item>
     <item>
-      <title>一年来为我的孩子打造氛围和交付人工智能手表的见解</title>
-      <link>https://www.reddit.com/r/programming/comments/1psp4l9/insights_from_a_year_of_vibebuilding_and_shipping/</link>
-      <description><![CDATA[ 由   提交/u/Simple-Holiday5446  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1psp4l9/insights_from_a_year_of_vibebuilding_and_shipping/</guid>
-      <pubDate>Mon, 22 Dec 2025 03:21:25 GMT</pubDate>
+      <title>Holly Cummins 云中硬件管理的欢乐与悲伤</title>
+      <link>https://www.reddit.com/r/programming/comments/1psu1fw/the_joy_sorrow_of_hardware_management_in_the/</link>
+      <description><![CDATA[ 由   提交 /u/goto-con   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1psu1fw/the_joy_sorrow_of_hardware_management_in_the/</guid>
+      <pubDate>Mon, 22 Dec 2025 07:59:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Terraform：最佳实践和基础知识备忘单</title>
+      <link>https://www.reddit.com/r/programming/comments/1pst4yq/terraform_best_practices_and_cheat_sheet_for_the/</link>
+      <description><![CDATA[ 由   提交 /u/trolleid   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pst4yq/terraform_best_practices_and_cheat_sheet_for_the/</guid>
+      <pubDate>Mon, 22 Dec 2025 07:02:29 GMT</pubDate>
     </item>
     <item>
       <title>编写凌晨 2 点接到传呼时可以理解的代码</title>
@@ -102,13 +109,6 @@
       <description><![CDATA[ 由   提交/u/vladmihalceacom   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1psax77/goodbye_microservices_twilio_developers_blog/</guid>
       <pubDate>Sun, 21 Dec 2025 16:47:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Crunch：用于正确处理事情的消息定义和序列化协议</title>
-      <link>https://www.reddit.com/r/programming/comments/1ps9y9k/crunch_a_message_definition_and_serialization/</link>
-      <description><![CDATA[Crunch 是我使用现代 C++ 开发的一个工具，用于定义、序列化和反序列化消息。考虑一下 protobuf、flatbuffers、bebop 和 mavLINK 的领域。 我开发了 crunch 来解决我对这些现有协议中的接口设计的一些不满。它具有以下功能： 1. 需要字段和消息级别验证。需要。使程序中的字段在语义上正确的因素已融入 C++ 类型系统中。  序列化格式是一个插件。您可以选择读/写速度优化的序列化、protobuf 式标记长度值插件，或编写您自己的插件。 消息内置了完整性检查。 Crunch 附带了 CRC-16 或奇偶校验，您也可以编写自己的校验。 无动态内存分配。使用模板魔法，Crunch 计算所有消息类型、所有序列化协议的最坏情况长度，并公开 constexpr API 来创建用于序列化和反序列化的缓冲区。  我对到目前为止的结果非常满意。我试图通过提供 bazel 和 cmake 目标以及大量文档来使其超级易于使用。未来的工作包括通过 QEMU 自动执行跨平台集成测试、尽可能多地注册包管理器以及用其他语言创建绑定。  希望 Crunch 能够在您的项目中发挥作用！我已经写了关于 Crunch 开发的一系列博客文章中的第一篇，如果您有兴趣，可以在我的个人资料中链接！   由   提交/u/volatile-int   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ps9y9k/crunch_a_message_definition_and_serialization/</guid>
-      <pubDate>Sun, 21 Dec 2025 16:06:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
