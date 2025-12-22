@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 21 Dec 2025 21:15:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 01:22:22 GMT</lastBuildDate>
+    <item>
+      <title>为什么面试感觉与实际的日常开发工作如此不同？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pskkw0/why_does_interviewing_feel_so_different_from/</link>
+      <description><![CDATA[在最近的几次采访中，我一直在思考这个问题，老实说我很困惑。 在我的日常工作中，解决问题是相当反复的。我一边做一边查阅资料、检查文档并完善想法。这很少涉及从记忆中完美记住所有内容。 但是当谈到面试时，尤其是对于更高级的职位，突然感觉规则发生了变化。我被要求在压力下当场回忆起准确的语法或边缘情况，没有真正的空间停下来或像我通常在工作中那样思考。 我并不是想抱怨，老实说我只是想理解差距。我想知道面试是否正在测试一种完全不同的技能，或者他们只是没有跟上开发现在的实际运作方式。 还有其他人感受到这种脱节吗？您个人如何弥合工作方式和面试方式之间的差距？   由   提交/u/Selim2255  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pskkw0/why_does_interviewing_feel_so_different_from/</guid>
+      <pubDate>Sun, 21 Dec 2025 23:41:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>preact-alchemy：“使用 alchemy”处理没有 .value 垃圾邮件的信号</title>
+      <link>https://www.reddit.com/r/webdev/comments/1psiqos/preactalchemy_use_alchemy_for_signals_without/</link>
+      <description><![CDATA[      这是一个将普通 JavaScript 的简单/优雅与 Preact 信号的强大功能相结合的实验。 我的目标是做到最低限度：  Turn let 绑定到信号中，但仅限于根范围（“use alchemy”所在的位置）。循环和嵌套函数保持原样。 将所有引用转换为反应式 let 绑定。 通过 return { foo } 返回 let 应该保留反应性，但突变必须通过方法完成，因此它变成 return { get foo() { return foo.value } }  值得注意的是，您无法访问 alchemized let 的底层信号。 目的是让您将应用程序状态隔离到 alchemized 工厂函数中，仅公开 UI 需要的（只读）值和事件（函数）。我们的目标最终是避免在将状态管理塞入渲染中时出现的“hook spaghetti”（我创造的术语）。 旁注： 当然，我仍然认为 hooks 有一席之地。显而易见的事情，例如引用和布局效果，但我也看到了将简单逻辑与组件放在同一位置的价值。 一个主要好处是自动只读导出。由于返回对象使用 getter，因此 UI 可以读取状态，但不能直接更改状态。它强制 UI 使用导出的函数（操作）来更改状态。 好的，感谢您的阅读。   由   提交 /u/retropragma   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1psiqos/preactalchemy_use_alchemy_for_signals_without/</guid>
+      <pubDate>Sun, 21 Dec 2025 22:18:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>从 Google Analytics 迁移到 Umami 后的惊人差异 - 希望这对其他人有帮助！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pshdhs/shocking_difference_after_migration_from_google/</link>
+      <description><![CDATA[      在有人在此 reddit 帖子中发表评论之前，我什至不知道鲜味 - 在桌面上几乎 100，但在移动设备上很糟糕！ : r/webdev Umami 脚本使用策略 =“afterInteractive”加载确保对核心 Web Vitals（LCP、FID、CLS）的影响为零。    指标 Google Analytics 鲜味    移动得分灯塔 72 89   脚本大小~45KB~1KBCookie多个无隐私需要同意 默认符合GDPR/CCPA   上述更新使页面从72到89。我通过对布局变化和中提琴进行一些调整进一步改进 - 移动设备上的得分为95，桌面上的得分为100！  https://preview.redd.it/blin9jh6jm8g1.png?width=1528&amp;format=png&amp;auto=webp&amp;s=489220eb16929dd170efa7eb10284e240ac757cc 证明：该应用程序是：SuperHotDeals.net   由   提交 /u/SuperHotDeals   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pshdhs/shocking_difference_after_migration_from_google/</guid>
+      <pubDate>Sun, 21 Dec 2025 21:19:05 GMT</pubDate>
+    </item>
     <item>
       <title>我的 WordPress 网站出现错误。</title>
       <link>https://www.reddit.com/r/webdev/comments/1psesh7/bug_with_my_wordpress_website/</link>
@@ -29,7 +50,7 @@
     <item>
       <title>在桌面上接近 100，但在移动设备上却很糟糕！</title>
       <link>https://www.reddit.com/r/webdev/comments/1pscukg/almost_100_on_desktop_but_terrible_on_mobile/</link>
-      <description><![CDATA[我这几天一直在努力提高移动端得分，询问了 chatgpt，更新了 cloudflare，删除了未使用的 JS，但在移动端仍然只有 72。这足够好还是会影响流量？ 桌面 99性能 96辅助功能 100个最佳实践 92 SEO 最大内容绘制0.8秒 总阻塞时间50毫秒 累积布局Shift 0.001 速度指数 0.9 秒 移动 72 性能 91 辅助功能 100 项最佳实践 92 SEO 首次内容绘制 3.3 秒 最大内容绘制 5.0 秒 总计阻塞时间 170 毫秒 累积布局偏移 0.003 速度指数 3.9 秒 我需要 Google Analytics，但这是罪魁祸首之一   Google 跟踪代码管理器标签管理器 139.8 KiB      由   提交 /u/SuperHotDeals   [链接] [评论]]]></description>
+      <description><![CDATA[我这几天一直在努力提高移动端得分，询问了 chatgpt，更新了 cloudflare，删除了未使用的 JS，但在移动端仍然只有 72。这足够好还是会影响流量？ 桌面 99性能 96辅助功能 100个最佳实践 92 SEO 最大内容绘制0.8秒 总阻塞时间50毫秒 累积布局Shift 0.001 速度指数 0.9 秒 移动 72 性能 91 辅助功能 100 项最佳实践 92 SEO 首次内容绘制 3.3 秒 最大内容绘制 5.0 秒 总计阻塞时间 170 毫秒 累积布局偏移 0.003 速度指数 3.9 秒 我需要 Google Analytics，但这是罪魁祸首之一   Google 跟踪代码管理器标签管理器 139.8 KiB    编辑：我在移动设备上获得了 95 分 - 我在这篇文章中详细阐述了步骤 - 从 Google Analytics 迁移到 Umami 后的惊人差异 - 希望这对其他人有帮助！ : r/webdev  感谢您的建议，帮助我在移动设备上从 72 分升至 95 分。   由   提交 /u/SuperHotDeals   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pscukg/almost_100_on_desktop_but_terrible_on_mobile/</guid>
       <pubDate>Sun, 21 Dec 2025 18:06:57 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[我在一家公司工作，创建一个内部工具来帮助开发人员通过模板更快地创建组件。虽然我们的工具将提供模板，但用户也可以贡献自己的模板。 作为一名设计师，我是这个行业的新手，但需要重新考虑通过模板创建组件的过程，以减少时间、摩擦和混乱（现在有很多领域需要信息）。 随着人工智能即将到来，我如何才能使过程快速、简单，以创建一个文件，让开发人员从中受益，而不会花费太长时间或导致过多地查看以前的文件以获取信息或复制和粘贴。 虽然我从内部人员那里得到了一些信息，但我希望得到一般性的想法。我正在考虑从搜索栏类型的体验开始，您可以输入您需要创建的组件类型或您正在构建的一般组件（应用程序、网站等），但只是想深入了解您认为如何才能使其快速有效？ 再说一遍，我是新手，所以请更多地考虑流程而不是技术细节。关于要考虑什么有什么想法吗？什么对你有用？等等？   由   提交 /u/LeftyReader   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ps79ir/component_creation_using_templates/</guid>
       <pubDate>Sun, 21 Dec 2025 14:04:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何修复预渲染时动画不可见运行的问题？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ps6lm2/how_to_fix_animation_running_invisibly_when/</link>
-      <description><![CDATA[我有一个类似演示文稿的网站，为了改善用户体验，我为下一张幻灯片添加了预渲染，但这会导致在页面尚未导航到时执行 CSS 动画，因此用户看不到。有什么办法可以防止这种行为吗？   由   提交 /u/GulgPlayer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ps6lm2/how_to_fix_animation_running_invisibly_when/</guid>
-      <pubDate>Sun, 21 Dec 2025 13:31:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>“零代码”困境：对完全由人工智能构建的软件收取全价是否道德/合理？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ps6flf/the_zerocode_dilemma_is_it_ethicalokay_to_charge/</link>
-      <description><![CDATA[大家好，我发现自己处于软件开发的新境地，我想了解社区对其道德和商业可行性的看法。 背景：我最近为客户开发了一个功能齐全的 B2B Web 应用程序（想想利基业务管理软件，例如健身房或沙龙）。不同之处在于我编写的手动代码几乎为零。我本质上充当了“即时工程师”的角色。和建筑师。我使用 Gemini 等工具来生成样板、数据库模式、前端组件和后端逻辑。我的实际“工作”是从编码转变为：架构：决定需要构建什么。 提示：指导人工智能生成正确的代码。 调试/组装：修复人工智能的幻觉并将不同的块拼接在一起。 部署和组装问/答：设置服务器，保护服务器安全，并确保它真正解决客户的问题。 与手动操作相比，总开发时间大约缩短了 80%。 困境：现在是定价的时候了。我对收取传统的“开发费”感到内疚。当人工智能完成繁重的工作时。我的另一部分认为，客户正在为他们问题的解决方案付费，而不是我花在输入语法上的时间。他们不在乎我是否使用记事本、VS Code 或 ChatGPT，只要应用程序能够运行并保护他们的数据即可。 社区问题：如果您提供了一个可以运行、安全的产品，那么“如何”就可以了。对客户来说很重要吗？ 是否有道德义务向付费客户披露他们的软件 95% 以上是由人工智能生成的？ 这如何改变定价模式？我们是否应该完全放弃按小时计费，而只关注基于价值的定价？很想听听开发商和机构所有者的观点。   由   提交 /u/Other-Occasions   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ps6flf/the_zerocode_dilemma_is_it_ethicalokay_to_charge/</guid>
-      <pubDate>Sun, 21 Dec 2025 13:23:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于这两个 UI，什么是最好的？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ps63kz/based_on_these_two_uis_what_is_the_best/</link>
-      <description><![CDATA[      伙计们，这是我的作品集，第一张图片是我当前使用的设计（在获取 ss 时，侧边栏中的滚动拍摄有点混乱） 第二张图片是我受到启发的生成设计。 基于这两个图片，你们更喜欢当前设计或生成的设计。或者您选择一个，请告诉我为什么它比另一个好，以便我得到一个想法。 提前致谢！   由   提交/u/Horror-Flamingo-2150   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ps63kz/based_on_these_two_uis_what_is_the_best/</guid>
-      <pubDate>Sun, 21 Dec 2025 13:06:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
