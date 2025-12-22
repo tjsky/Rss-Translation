@@ -4,7 +4,14 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Mon, 22 Dec 2025 04:04:36 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 06:29:37 GMT</lastBuildDate>
+    <item>
+      <title>我为 Android 构建了一个完全离线的 AI 图像升级器，以避免云订阅和数据跟踪</title>
+      <link>https://www.reddit.com/r/software/comments/1psraoy/i_built_a_fully_offline_ai_image_upscaler_for/</link>
+      <description><![CDATA[问题：现在几乎每个图像升级器都需要按月订阅或强制您将个人照片上传到云服务器，这让我感到沮丧。我想要一些尊重隐私并且无需互联网连接即可工作的东西。 解决方案 (Rendrflow)：我开发了一款 Android 工具，它完全在设备的硬件 (CPU/GPU) 上运行高性能 AI 模型（高/超）。 主要特点： - 100% 离线：零数据离开您的设备。 - 注重隐私：敏感文档或个人照片的理想选择。 - 硬件加速：包括 GPU 突发模式以加速本地处理。 - 批量工具：可以批量放大（2x/4x/8x）、删除背景和转换格式。 为什么它有价值：它允许您恢复旧照片或增强图像，而不会将您锁定在 SaaS 生态系统中或冒数据隐私的风险。 链接：https://play.google.com/store/apps/details?id=com.saif.example.imageupscaler 我是开发者，将随时回答有关离线模型如何工作的任何技术问题！   由   提交 /u/Fearless_Mushroom567   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1psraoy/i_built_a_fully_offline_ai_image_upscaler_for/</guid>
+      <pubDate>Mon, 22 Dec 2025 05:14:23 GMT</pubDate>
+    </item>
     <item>
       <title>Windows 听写应用程序：真正重要的是什么（热键、VDI、隐私、本地与云）</title>
       <link>https://www.reddit.com/r/software/comments/1psnbpt/windows_dictation_apps_what_actually_matters/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[我的华硕vivobook（4年前购买，序列号是M3N0CX03921510E）在Windows 11上的自动亮度，不断以刺耳的速度随机上升，尤其是在晚上变得更加明显，然后即使设置得低得多，也会下降一点。变得对眼睛不好，成为一场噩梦，有点陷入严重的危机。 尝试了以下方法，仍然不起作用： 禁用： -亮度不足时自动调节亮度 -监控光传感器设备 -windows amd 设置上的varibright（这是我的显卡） -动态照明选项（无论如何都检测不到） 是否： -快速重置并重新安装基本的 AMD 显卡驱动程序 -设置省电模式、电源效率和小夜灯以调暗一点 81% 有点暗，我在一段时间内感到很舒服，所以我保留了它，当它不跳并且目前处于正常状态时，它看起来很好。在我的笔记本电脑上将其设置为 60-75 变得太暗，并且亮度跳跃并没有那么不同。 事实证明会产生问题。或不相关： -任何类型的校准（启用无法轻易摆脱的 truetype 和颜色问题） -HDR 或动态颜色调整 -将 AMD radeon 更新到最新的图形驱动程序（字体细，亮度较差，华硕网站建议 2022 更新，不建议 2025 图形驱动程序） -Bios 和芯片组更新（没有做）多） -未检测到英特尔命令中心适配器，并且与图形无关的驱动程序因此无法禁用亮度，除非重新安装，这是有风险的。 -未检测到 nvidia 驱动程序（仅在控制面板中显示 AMD 没有其他内容） -更换了新屏幕，然后我更换了旧的、新的屏幕没有执行任何操作。 -不确定光传感器是否损坏或相关。 华硕硬件测试未确定任何硬件问题（这些可能是基本问题） 可能的解决方案： -创建还原点并重新访问它可能会停止自动亮度 -Bios/注册表禁用有风险，但可能会停止 -Windows 重新安装可能会有所帮助，但可能不会 -Asus G-helper有一个禁用亮度功能，可以只切换基本的 Windows 功能（据我所知，没有官方的 myasus 或华硕应用程序），但由于这是第 3 方，因此如果安装它可能会导致问题，因为它有很多错误。 这个问题发生得较早，并且由于时间、图形重新安装/重新启动和其他我不记得的事情而自行稳定下来，所以我无法执行该 atm，我注意到它现在没有任何微小的变化。亮度触发了这一点。 我尝试带上光传感器并尝试适应自适应亮度，所以我将其关闭，平衡性能不断提高，性能可能更稳定，但对笔记本电脑不利，因此我在夜间使用节能模式和非常低的夜灯模式，在它稳定下来之前，我不必关闭 varibright（AMD 设置）。设置中的光传感器设备，只是自动亮度+图形重置和其他一些我不记得的东西，也许调整一下它就会自行稳定。 也许应用程序可以稳定亮度？ 我确实认为它来自内容自适应亮度。 您建议如何最轻松地解决这个问题？    提交  /u/Potmelt777   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1prqrvg/brightness_still_increasing_on_its_own_after_all/</guid>
       <pubDate>Sat, 20 Dec 2025 22:39:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>手滑鼠标</title>
-      <link>https://www.reddit.com/r/software/comments/1prq1zn/hand_mouse/</link>
-      <description><![CDATA[我制作了一个小型 Windows 应用程序，让您只需用手即可控制鼠标。 无需鼠标，无需键盘输入。 它实时工作并作为单个 EXE 运行。 GitHub：https://github.com/Fl4ie/Hand-Mouse 我正在寻找有关可用性和性能的反馈。   由   提交/u/Either_Ad_7473   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1prq1zn/hand_mouse/</guid>
-      <pubDate>Sat, 20 Dec 2025 22:06:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
