@@ -4,7 +4,42 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 22 Dec 2025 09:25:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 15:20:40 GMT</lastBuildDate>
+    <item>
+      <title>使用 QtMultimedia + FFmpeg 和硬件加速的开源跨平台媒体播放器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pt1drv/opensource_crossplatform_media_player_using/</link>
+      <description><![CDATA[Pars Local Player (PLP) 是一款开源媒体播放器，专注于简单可靠的 无线电流和视频播放。 它的创建是因为现有播放器对于流通常不可靠，并且 不一致的控件和过时的 UI。 要点： - 跨平台：Windows 和 Linux （64 位） - 干净且可预测的 UI - 可靠的无线电和网络流播放 - 硬件加速解码（Windows 上的 DirectX 11，Linux 上的 VAAPI） - 对视频、音频和播放列表的宽格式支持 - 无遥测或分析 帮助和文档： https://parrothat.com/plp（帮助部分） https://parrothat.com/plp/linuxdguides.html（Linux 发行版指南） 源代码： https://github.com/parrothat/plp   由   提交 /u/RevolutionFit2712   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pt1drv/opensource_crossplatform_media_player_using/</guid>
+      <pubDate>Mon, 22 Dec 2025 14:48:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mosaico：机器人和物理人工智能的开源数据平台</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pt0wkd/mosaico_opensource_data_platform_for_robotics_and/</link>
+      <description><![CDATA[       由   提交/u/mario_candela  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pt0wkd/mosaico_opensource_data_platform_for_robotics_and/</guid>
+      <pubDate>Mon, 22 Dec 2025 14:28:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Prusa 参加 Fosdem 2026？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pszkvg/prusa_at_fosdem_2026/</link>
+      <description><![CDATA[ 由   提交/u/seppestas  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pszkvg/prusa_at_fosdem_2026/</guid>
+      <pubDate>Mon, 22 Dec 2025 13:29:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我的网络漫画使用 100% 开源 - David Revoy</title>
+      <link>https://www.reddit.com/r/opensource/comments/1psxf2d/why_i_use_100_opensource_for_my_webcomic_david/</link>
+      <description><![CDATA[      找到一篇很好读的旧文章，尽管英语不是他的母语 艺术界（可以理解）倾向于青睐专有的行业标准软件，即使他们有编程背景，所以很高兴在开源火车   由   提交 /u/Luke_Username   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1psxf2d/why_i_use_100_opensource_for_my_webcomic_david/</guid>
+      <pubDate>Mon, 22 Dec 2025 11:34:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于检测和诊断人工智能环境中节点级问题的工具</title>
+      <link>https://www.reddit.com/r/opensource/comments/1psvgtf/a_tool_for_detecting_and_diagnosing_nodelevel/</link>
+      <description><![CDATA[      大家好， 想象一下：现在是凌晨 3 点，你正在进行一项关键的 LLM 微调工作，一切看起来都很稳定，你终于入睡，梦想着完美收敛的损失曲线。然后你醒来时会看到可怕的“CUDA 错误：内存不足”。或者，更糟糕的是，一个完全沉默的节点在凌晨 4 点死亡。我们都去过那里，对吧？那种失去进度、浪费计算的感觉，以及知道自己将花费数小时调试随机硬件故障的感觉。 感觉我的 GPU 需要定期进行“体检”或“健康检查”，才能在这些无声杀手演变成全面灾难之前抓住它们。但谁有时间对数十个节点进行手动检查？ 这就是为什么我们倾注了我们的挫败感来构建 Sichek，我们很高兴为社区开源它！ 什么是 Sichek？ 将 Sichek 视为您的 GPU 集群的专用医生。它是一款专门为 AI 环境构建的开源工具，可以主动检测、诊断甚至自动纠正那些困扰 GPU 密集型工作负载的烦人的节点级问题。它旨在让您宝贵的训练和推理作业保持可靠运行，而您无需不断监控其脉搏。 以下是 Sichek 如何对您的 GPU 进行彻底检查：  🔍 主动监控和实时监控早期症状检测：Sichek 不是等待崩溃，而是持续监控细微的故障迹象 - 例如异常的温度峰值、内存带宽的意外下降或暗示 GPU 即将挂起的特殊驱动程序行为。 🛠️ 智能诊断：它旨在告诉您什么类型的问题。是散热问题吗？短暂的软件故障？互连失败？ Sichek 帮助查明根本原因。 ⚡ 自动纠正措施：这就是 Sichek 真正发挥作用的地方。根据诊断情况，它可以触发自动响应： 任务重试：如果是暂时性软件错误，Sichek 可以自动在健康节点上重新排队该任务。 节点隔离：如果检测到硬件问题，它可以标记该节点进行维护，防止将来的作业登陆有故障的计算机。 警报和警报日志记录：当然，它还提供详细的警报和日志，以便您确切地知道发生了什么以及为什么发生。   我为什么要分享这个？作为一个花了无数时间调试基础设施故障的人，我坚信底层 GPU 堆栈不应该是我们 AI 管道中最薄弱的环节。我构建 Sichek 是为了给我自己的工作带来更多的稳定性和理智，我希望它也能为您做同样的事情。 我希望您能尝试一下，踢一下轮胎，并让我知道有哪些类型的“GPU 疾病”。你希望 Sichek 接下来检测！您的反馈非常宝贵。 （只是一位工程师同事，试图让我们的生活变得更轻松一些。热烈欢迎任何明星、问题或 PR！）   由   提交 /u/Odd-Acanthaceae-8205   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1psvgtf/a_tool_for_detecting_and_diagnosing_nodelevel/</guid>
+      <pubDate>Mon, 22 Dec 2025 09:32:28 GMT</pubDate>
+    </item>
     <item>
       <title>lagident - 查找质量差的网络连接的工具</title>
       <link>https://www.reddit.com/r/opensource/comments/1psv6uk/lagident_a_tool_to_find_poor_quality_network/</link>
@@ -15,19 +50,12 @@
     <item>
       <title>案例管理软件</title>
       <link>https://www.reddit.com/r/opensource/comments/1psu2sv/case_management_software/</link>
-      <description><![CDATA[您好，我在一家大型 NHS 信托基金的人力资源部工作，他们不会为我的团队支付案例管理软件的费用。我患有 AuADHD，并且确实在应对大量的工作，并且知道管理系统可以帮助我跟踪所有案例和任务，并在一个地方提供知识库。  我可以尝试使用 PowerApps 和 SharePoint 构建一些东西，但是如果有不错的东西，我很乐意尝试一下。谢谢☺️    由   提交/u/JonFromHR   [链接] [评论]]]></description>
+      <description><![CDATA[您好，我在一家大型 NHS 信托基金的人力资源部门工作，他们不会为我的团队支付案例管理软件的费用。我患有 AuADHD，并且确实在应对大量的工作，并且知道管理系统可以帮助我跟踪所有案例和任务，并在一个地方提供知识库。  我可以尝试使用 PowerApps 和 SharePoint 构建一些东西，但是如果有不错的东西，我很乐意尝试一下。谢谢☺️    由   提交/u/JonFromHR   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1psu2sv/case_management_software/</guid>
       <pubDate>Mon, 22 Dec 2025 08:01:59 GMT</pubDate>
     </item>
     <item>
-      <title>制作了免费的 is-an-ai.dev 子域服务！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pstzuo/made_a_free_isanaidev_subdomain_service/</link>
-      <description><![CDATA[嘿r/opensource， 我最近构建了一个小型开源项目，为人们（最好是开发人员）提供 is-an-ai.dev 域上的免费子域。 我们有一个基于 PR 的工作流程。向我们的 github 存储库提交 PR，维护人员将审核并批准它，您的 dns 记录将被添加。 链接：网站：https://www.is-an-ai.dev 文档：https://docs.is-an-ai.dev GitHub org: https://github.com/is-an-ai-dev 注册：https://github.com/is-an-ai-dev/register 如果您认为有用，请随时尝试或贡献。如果没有，我仍然感谢您对服务的意见以及如何让这项免费服务为人所知！ 谢谢您的期待！   由   提交/u/randomboiii69420   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pstzuo/made_a_free_isanaidev_subdomain_service/</guid>
-      <pubDate>Mon, 22 Dec 2025 07:56:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>FlaskDI - Flask 的最小且干净的 FastAPI 风格的依赖注入系统</title>
+      <title>FlaskDI - Flask 的最小且干净的 FastAPI 风格依赖注入系统</title>
       <link>https://www.reddit.com/r/opensource/comments/1pst038/flaskdi_a_minimal_and_clean_fastapistyle/</link>
       <description><![CDATA[ 由   提交/u/dev-razorblade23  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1pst038/flaskdi_a_minimal_and_clean_fastapistyle/</guid>
@@ -36,7 +64,7 @@
     <item>
       <title>免费语言翻译包，15种语言</title>
       <link>https://www.reddit.com/r/opensource/comments/1psook4/free_language_translation_package_15_languages/</link>
-      <description><![CDATA[不久前发布了我的第一个 NPM 包并想分享。我当时在一家教育科技初创公司工作，发现尽管维基词典上有相关信息，但大规模翻译 API 的可访问性却令人担忧。使用维基词典 HTML 转储，我能够解析出大多数用例的信息。 功能：  自动重音纠正 动词形式检测和基本动词翻译 返回单词类型（形容词、名词等） 要求两种语言之一为英语，但可以在英语和其他 14 种语言（从西班牙语到中文）之间进行翻译 基于罗马和字符的字符语言翻译  希望得到一些反馈，并看看还有什么可以帮助添加。也请随时直接贡献！希望这能让任何构建基于语言的应用程序但没有预算购买超级昂贵的 API 的人变得更轻松。 https://github.com/akassa01/wikiglot https://www.npmjs.com/package/wikiglot   由   提交 /u/intuitivedebater   [链接] [评论]]]></description>
+      <description><![CDATA[不久前发布了我的第一个 NPM 包并想分享。我当时在一家教育科技初创公司工作，发现尽管维基词典上有相关信息，但大规模翻译 API 的可访问性却令人担忧。使用维基词典 HTML 转储，我能够解析出大多数用例的信息。 功能：  自动重音纠正 动词形式检测和基本动词翻译 返回单词类型（形容词、名词等） 要求两种语言之一为英语，但可以在英语和其他 14 种语言（从西班牙语到中文）之间进行翻译 基于罗马和字符的字符语言翻译  希望得到一些反馈，并看看还有什么可以帮助添加。也请随意直接贡献！希望这能让任何构建基于语言的应用程序但没有预算购买超级昂贵的 API 的人变得更轻松。 https://github.com/akassa01/wikiglot https://www.npmjs.com/package/wikiglot   由   提交 /u/intuitivedebater   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1psook4/free_language_translation_package_15_languages/</guid>
       <pubDate>Mon, 22 Dec 2025 02:59:33 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[嗨！ 👋 我正在维护一个开源 C++ CLI 计算器，并且正在寻找贡献者。 项目亮点：  现代 C++（CMake，干净的架构） REPL 模式、表达式解析 矩阵、素数分解、基数转换 批量脚本支持 CI/CD 和多平台打包（Snap、DEB）  寻求帮助：  核心 C++ 功能和重构 性能和解析改进 测试和 CI 文档和 CLI UX 完善  提供适合初学者的问题，并且提供代码审查如果您喜欢干净的 C++ 和结构良好的 CLI 工具，您会有宾至如归的感觉。 👉 GitHub：[https://github.com/Benedek553/cli-calculator]() 欢迎 PR、问题和讨论。   由   提交/u/JustAProgrammer25  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1ps8dct/looking_for_contributors_modern_c_cli_calculator/</guid>
       <pubDate>Sun, 21 Dec 2025 14:57:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>我可以在我的项目中使用 AGPL，但也可以在代码的某些部分使用 MIT 吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ps896r/can_i_use_agpl_for_my_project_but_also_use_mit/</link>
-      <description><![CDATA[我用 kotlin 多平台编写了一个项目，它编译为 JVM、Android、iOS 和 Web。因为 Web 部分我想使用 AGPL。 但是可能有一些代码对其他人来说很有趣（较小的解决方案）。我可以为该部分设置另一个许可证吗，或者会造成混乱或法律问题吗？ 也许将这些部分复制到另一个项目并将其置于 MIT 许可证下会更容易。 到目前为止没有其他贡献者。 我只是想阻止任何人使用该代码，使其专有并从中获利。   由   提交/u/je386  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ps896r/can_i_use_agpl_for_my_project_but_also_use_mit/</guid>
-      <pubDate>Sun, 21 Dec 2025 14:52:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>C++ DataFrame的独特之处（一）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ps77kb/unique_features_of_c_dataframe_1/</link>
-      <description><![CDATA[       由   提交 /u/hmoein   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ps77kb/unique_features_of_c_dataframe_1/</guid>
-      <pubDate>Sun, 21 Dec 2025 14:02:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>适用于 Windows 和 Linux 的最小开源“记事本式”Markdown 便笺本</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ps5ucv/minimal_opensource_notepadstyle_markdown/</link>
-      <description><![CDATA[      我使用 Obsidian 进行主要笔记，喜欢丰富的 Markdown 体验。我还使用 Windows 记事本作为“便笺本”。对于我不需要的随机内容，但它缺乏 Obsidian 提供的简化的降价流程。 我知道记事本最近添加了降价选项，但我发现它有点麻烦，而且不是“flow-y”。对我来说足够了。我只想编写 Markdown 并看到它立即变成格式化文本。 所以，我制作了自己的应用程序。它就像默认的 Windows 记事本一样简单（经过一些设计调整），但具有完整的 Markdown 流程。我现在用它作为我的主要便笺簿，并想我会在这里分享它，以防其他人想要这种体验。这对我来说是一个业余项目，所以它是开源的（MIT 许可证）并且维护工作很少。   由   提交/u/Curious_Internet  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ps5ucv/minimal_opensource_notepadstyle_markdown/</guid>
-      <pubDate>Sun, 21 Dec 2025 12:52:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我找到了正确备份我的点文件和包列表（brew、npm、cargo）的方法</title>
-      <link>https://www.reddit.com/r/opensource/comments/1ps4hs1/i_found_the_way_to_properly_back_up_my_dotfiles/</link>
-      <description><![CDATA[ 由   提交/u/atrtde  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1ps4hs1/i_found_the_way_to_properly_back_up_my_dotfiles/</guid>
-      <pubDate>Sun, 21 Dec 2025 11:31:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
