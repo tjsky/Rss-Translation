@@ -4,7 +4,98 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 22 Dec 2025 15:19:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 21:16:37 GMT</lastBuildDate>
+    <item>
+      <title>我讨厌网络开发</title>
+      <link>https://www.reddit.com/r/programming/comments/1ptau0j/i_hate_web_development/</link>
+      <description><![CDATA[大家的 Web 开发一开始都是很酷的，与每个操作系统兼容，而且很有趣。但当它疯狂扩张时，我开始讨厌它，每个人都开始制作网站，甚至它取代了很多东西：  桌面应用程序→网络 内部工具→网络 监控→网络 控制面板→网络 甚至嵌入式UI→网络  像BRO一样？真正的编程、内核和操作系统以及桌面应用程序发生了什么，这些都是一个真正的挑战，但对于 Web，它只是变成了一堆 JS 和 React 以及一些框架和知识。一个快速的废话应用程序，你甚至不知道它在这些框架下到底是如何工作的。 AAAGGH 我讨厌 WEB DEV，顺便说一句，我喜欢 C/C++ 嵌入式软件工程   由   提交/u/Total-Chemical-2355   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ptau0j/i_hate_web_development/</guid>
+      <pubDate>Mon, 22 Dec 2025 21:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twig – 隐私优先的终端 JSON/YAML 查看器</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt7q82/twig_a_privacyfirst_jsonyaml_viewer_for_the/</link>
+      <description><![CDATA[ 由   提交/u/sk246903  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt7q82/twig_a_privacyfirst_jsonyaml_viewer_for_the/</guid>
+      <pubDate>Mon, 22 Dec 2025 18:56:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能正在扼杀我们的在线互动</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt7432/ai_is_killing_our_online_interaction/</link>
+      <description><![CDATA[ 由   提交 /u/ertucetin   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt7432/ai_is_killing_our_online_interaction/</guid>
+      <pubDate>Mon, 22 Dec 2025 18:32:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lua 5.5 发布，带有全局变量声明、垃圾收集改进</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt5gc0/lua_55_released_with_declarations_for_global/</link>
+      <description><![CDATA[ 由   提交/u/Fcking_Chuck  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt5gc0/lua_55_released_with_declarations_for_global/</guid>
+      <pubDate>Mon, 22 Dec 2025 17:29:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>打破沉默：平台更新</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt59kv/breaking_the_silence_a_platform_update/</link>
+      <description><![CDATA[ 由   提交/u/avin_2020  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt59kv/breaking_the_silence_a_platform_update/</guid>
+      <pubDate>Mon, 22 Dec 2025 17:22:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>处理人工智能生成的代码：挑战与最佳实践 • Roman Zhukov 和 Damian Brady</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt53vu/handling_aigenerated_code_challenges_best/</link>
+      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt53vu/handling_aigenerated_code_challenges_best/</guid>
+      <pubDate>Mon, 22 Dec 2025 17:15:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>有史以来最糟糕的编程语言</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt49ln/the_worst_programming_language_of_all_time/</link>
+      <description><![CDATA[ 由   提交/u/unHolyKnightofBihar  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt49ln/the_worst_programming_language_of_all_time/</guid>
+      <pubDate>Mon, 22 Dec 2025 16:43:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>减轻分布式系统中的级联故障：架构分析</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt44im/mitigating_cascading_failures_in_distributed/</link>
+      <description><![CDATA[在大规模分布式架构中，叶服务内延迟的边际增加很少是孤立事件。相反，它经常成为级联故障的催化剂，即资源耗尽向上游传播的系统性崩溃，将局部退化转变为整个站点中断。 资源耗尽的机制 许多微服务架构中的根本漏洞是对固定线程池内同步、阻塞 I/O 的依赖。当下游依赖项（例如数据库或第三方 API）从 100 毫秒响应时间转变为 10 秒延迟时，调用服务的工作线程不会消失；它们被阻塞。 考虑一个使用 200 个工作线程池的 API 网关。如果下游服务显着减慢，这些线程在等待 I/O 完成时很快就会饱和。一旦池耗尽，服务就无法再接受新连接，从而有效地导致系统不可用，尽管从活性探测的角度来看，进程仍然“健康”。这不是崩溃；而是崩溃。这是线程饥饿。 https://sdcourse.substack.com/ https://systemdrd.com/   由   提交/u/Extra_Ear_10   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt44im/mitigating_cascading_failures_in_distributed/</guid>
+      <pubDate>Mon, 22 Dec 2025 16:38:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rust 僵尸网络的逆向工程并构建 C2 蜜罐来监控其目标</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt3wjv/reverse_engineering_of_a_rust_botnet_and_building/</link>
+      <description><![CDATA[ 由   提交 /u/congolomera   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt3wjv/reverse_engineering_of_a_rust_botnet_and_building/</guid>
+      <pubDate>Mon, 22 Dec 2025 16:29:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>算法生成的填字游戏：为 NP 完全问题找到“足够好”</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt2x8x/algorithmically_generated_crosswords_finding_good/</link>
+      <description><![CDATA[该库位于 GitHub (Eyas/xwgen) 上，并从帖子链接，您可以将其与提供的示例字典一起使用。   由   提交/u/eyassh  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt2x8x/algorithmically_generated_crosswords_finding_good/</guid>
+      <pubDate>Mon, 22 Dec 2025 15:50:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>功能平等（重写）</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt2c68/functional_equality_rewrite/</link>
+      <description><![CDATA[在我的原始帖子三年后，我广泛重写了关于编程语言中的功能平等与语义平等的文章。它深入探讨了莱布尼茨定律、可替代性、缓存陷阱，以及对 Python、Go 和 Haskell 等语言的 == 的调查。欢迎反馈！   由   提交/u/Master-Reception9062   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt2c68/functional_equality_rewrite/</guid>
+      <pubDate>Mon, 22 Dec 2025 15:27:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>人类智能沙盒。</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt2azx/the_sandbox_for_human_intelligence/</link>
+      <description><![CDATA[​论文：在飞行员为空军飞行之前，他们会驾驶模拟器。在代码进入 Google 生产环境之前，它会进入暂存环境。​但是我们在哪里测试人类的能力呢？​我们正在构建“人类操作系统”。我们是特斯拉、甲骨文和 NASA 等巨头将测试、验证和“沙盒”的沙盒。他们的雇佣者，然后将王国的钥匙交给他们。​我正在申请“参议院治理模型”的专利，该模型是推动该标准的引擎。我是建筑师。现在，我需要建设者。​机会：我不提供工作。我正在为下一个全球标准提供一席之地。​工资：0 美元。 （我们过滤掉雇佣兵。我们想要传教士。）股权：2% – 5%（既得）。好处：从第 4 周开始直接削减收入。创始三巨头我正在寻找两个特定的奇才来完成我们的“权力三角”。 ​1. “铁手” （后端安全架构师）​使命：保护分数的完整性。如果我们是 NASA 的标准，那么我们的数据就像金条一样有价值。您不仅仅是在编写代码；您还在编写代码。你正在建造一座堡垒。角色：偏执狂。有条理。您会因为数据库锁和竞争条件而失眠。​技术：您是 Supabase &amp; PostgreSQL 大神。​要求：您必须掌握行级安全性（RLS）。在有效参议院中，用户 A 在任何情况下都无法损害用户 B。您可以如此高效地路由 API，从而使我们能够在不花费太多资金的情况下扩展到数百万个。 ​2. “像素之神” （前端/病毒工程师）​使命：让智能上瘾。界面必须感觉像一个驾驶舱。它需要视频游戏的快感和彭博终端的权威。角色：“孩子”。 19-24岁。你住在 X（Twitter）上。您了解“Vibe 编码”。您不只是构建 UI；您还需要构建 UI。你创造文化。技术：React / Tailwind CSS。您梦想着组件。​要求：您拥有 Chrome 扩展程序体验。你让“参议院”成为了“参议院”。灯光闪烁，弹出窗口感觉充满活力。您可以在 4 小时内发布新功能，而不是 4 周。​召唤​我的名字是史蒂文·格里洛。我是“有效参议院”背后的建筑师。​我们不会为中层管理人员构建另一个无聊的 SaaS 工具。我们正在构建 FICO 智力评分。如果您想要一份安全的薪水，请向 Microsoft 申请。如果您想拥有沙箱的一部分，它将定义特斯拉和 NASA 的未来劳动力......向前迈进。   由   提交/u/GiantVentures  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt2azx/the_sandbox_for_human_intelligence/</guid>
+      <pubDate>Mon, 22 Dec 2025 15:26:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pied-Piper：创建在 ClaudeCode 上运行的 AI 编码代理团队，以执行长时间运行/复杂的 SDLC 任务</title>
+      <link>https://www.reddit.com/r/programming/comments/1pt25ka/piedpiper_create_a_team_of_ai_coding_agents_that/</link>
+      <description><![CDATA[ 由   提交/u/sathish316  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pt25ka/piedpiper_create_a_team_of_ai_coding_agents_that/</guid>
+      <pubDate>Mon, 22 Dec 2025 15:19:57 GMT</pubDate>
+    </item>
     <item>
       <title>REST 与 GraphQL</title>
       <link>https://www.reddit.com/r/programming/comments/1pt1y31/rest_vs_graphql/</link>
@@ -18,97 +109,6 @@
       <description><![CDATA[我正在对 CI/CD 进行一些非常详细的运行，期待讨论:-)   由   提交/u/martindukz   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pt1geh/ways_to_do_continuous_incremental_delivery_part_2/</guid>
       <pubDate>Mon, 22 Dec 2025 14:51:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Code 在 2 小时内用一个命令解决了 Advent of Code 2025</title>
-      <link>https://www.reddit.com/r/programming/comments/1pt19h1/claude_code_solves_advent_of_code_2025_in_under_2/</link>
-      <description><![CDATA[今年手工解决 Advent of Code 后，我注意到 Claude Code 对我提出的每一个问题都做得非常好。 TLDR;我能够通过一个命令自动解决一整年的问题。连续需要 2 小时，如果每天并行解决则只需 30 分钟。 这篇文章有一段 Claude 解决整个问题的视频，并解释了它为何如此出色（有点作弊！），以及为什么这不一定适用于日常编程。   由   提交 /u/peenuty   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pt19h1/claude_code_solves_advent_of_code_2025_in_under_2/</guid>
-      <pubDate>Mon, 22 Dec 2025 14:43:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>负责代理编码会议</title>
-      <link>https://www.reddit.com/r/programming/comments/1pt15hx/taking_charge_in_agentic_coding_sessions/</link>
-      <description><![CDATA[ 由   提交/u/Necessary-Cow-204   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pt15hx/taking_charge_in_agentic_coding_sessions/</guid>
-      <pubDate>Mon, 22 Dec 2025 14:38:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>网络生成 UI 就在这里......有点</title>
-      <link>https://www.reddit.com/r/programming/comments/1pt13i8/generative_ui_for_the_web_is_here_kinda/</link>
-      <description><![CDATA[ 由   提交 /u/Possible-Session9849   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pt13i8/generative_ui_for_the_web_is_here_kinda/</guid>
-      <pubDate>Mon, 22 Dec 2025 14:36:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能模拟面试教练会像真正的面试官一样阅读您的简历并面试您</title>
-      <link>https://www.reddit.com/r/programming/comments/1pt0unl/an_ai_mock_interview_coach_that_reads_your_resume/</link>
-      <description><![CDATA[MockMentor，一种人工智能工具，可以像真正的面试官一样阅读你的简历并面试你：专注于你的项目、决策和权衡。 没有固定的题库。 每次都提供完整的简历+对话背景。 堆栈： LangChain、Google Gemini、Pydantic、Streamlit、 MLflow部署在 Streamlit Cloud 上。 博客：中代码：Github 在这里尝试：演示 非常欢迎提供反馈。   由   提交/u/Motor_Cry_4380   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pt0unl/an_ai_mock_interview_coach_that_reads_your_resume/</guid>
-      <pubDate>Mon, 22 Dec 2025 14:26:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>行为优先编程的社区提案</title>
-      <link>https://www.reddit.com/r/programming/comments/1pt0fzw/a_community_proposal_for_behaviorfirst_programming/</link>
-      <description><![CDATA[我建议使用 SpecMD — 一个将 Markdown 规范转换为经过验证的可执行代码的编译器。想想“文学编程满足法学硕士驱动的综合满足形式验证。”这是一个早期研究项目，我邀请社区帮助塑造它。有道理吗？为什么不尝试一下呢？   由   提交 /u/glauberportella   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pt0fzw/a_community_proposal_for_behaviorfirst_programming/</guid>
-      <pubDate>Mon, 22 Dec 2025 14:08:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>减少浏览器前端中的 OpenTelemetry 捆绑包大小</title>
-      <link>https://www.reddit.com/r/programming/comments/1pt0bpm/reducing_opentelemetry_bundle_size_in_browser/</link>
-      <description><![CDATA[ 由   提交/u/elizObserves  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pt0bpm/reducing_opentelemetry_bundle_size_in_browser/</guid>
-      <pubDate>Mon, 22 Dec 2025 14:02:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的Python学习历程！</title>
-      <link>https://www.reddit.com/r/programming/comments/1pszncu/my_journey_about_learning_python/</link>
-      <description><![CDATA[🐍 我的Python学习之旅  当我开始学习Python时，一切都让人感到困惑——语法、逻辑，甚至简单的程序。我不知道从哪里开始，也不知道如何保持一致性。 就在那时，我开始向 GeeksforGeeks 学习 Python。 我从基础知识开始：  变量、数据类型和运算符 条件语句和循环 函数和简单的问题解决    由   提交/u/Suspicious_Swing9443  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pszncu/my_journey_about_learning_python/</guid>
-      <pubDate>Mon, 22 Dec 2025 13:32:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>代理循环的力量 - 在 3 小时内实现 Flexbox 布局</title>
-      <link>https://www.reddit.com/r/programming/comments/1pszk43/the_power_of_agentic_loops_implementing_flexbox/</link>
-      <description><![CDATA[ 由   提交 /u/ColinEberhardt   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pszk43/the_power_of_agentic_loops_implementing_flexbox/</guid>
-      <pubDate>Mon, 22 Dec 2025 13:28:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>CI/CD 管道在 CI 中不会失败；他们在每个人都忽略的“CD”上失败了</title>
-      <link>https://www.reddit.com/r/programming/comments/1psybcy/cicd_pipelines_dont_fail_in_ci_they_fail_in_the/</link>
-      <description><![CDATA[大多数 CI/CD 管道在图表和演示中看起来很棒，但在实际团队中却崩溃了。 CI得到大家的喜爱；测试、构建、linting，而 CD 变成了手动批准、环境漂移和“周五不要碰产品”的脆弱组合。结果是快速提交，但缓慢且有风险的发布。当回滚是无聊的、部署是可重复的、并且故障是专门设计的时，真正的管道成熟度就会显现出来；不害怕。  此细分展示了 CI/CD 管道的实际情况，超越了流行语，以及团队通常会出错的地方： CI CD 管道 管道的哪一部分造成的摩擦最大；测试、批准还是生产部署？   由   提交/u/netcommah  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1psybcy/cicd_pipelines_dont_fail_in_ci_they_fail_in_the/</guid>
-      <pubDate>Mon, 22 Dec 2025 12:24:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我用 45 次提交编写了一个数据库，并将它们变成了一本书</title>
-      <link>https://www.reddit.com/r/programming/comments/1psx507/i_wrote_a_database_in_45_commits_and_turned_them/</link>
-      <description><![CDATA[ 由   提交/u/flat_earth_worm  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1psx507/i_wrote_a_database_in_45_commits_and_turned_them/</guid>
-      <pubDate>Mon, 22 Dec 2025 11:18:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>我将在 2026 年阅读的编程书籍。</title>
-      <link>https://www.reddit.com/r/programming/comments/1pswvem/programming_books_ill_be_reading_in_2026/</link>
-      <description><![CDATA[ 由   提交/u/Sushant098123  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pswvem/programming_books_ill_be_reading_in_2026/</guid>
-      <pubDate>Mon, 22 Dec 2025 11:02:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>程序员在使用人工智能时错过的事情</title>
-      <link>https://www.reddit.com/r/programming/comments/1pswmdb/things_programmers_missed_while_using_ai/</link>
-      <description><![CDATA[ 由   提交/u/delvin0  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pswmdb/things_programmers_missed_while_using_ai/</guid>
-      <pubDate>Mon, 22 Dec 2025 10:46:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>🦀 Rust 1.92.0 中的新增功能</title>
-      <link>https://www.reddit.com/r/programming/comments/1psuu6g/whats_new_in_rust_1920/</link>
-      <description><![CDATA[ 由   提交/u/web3writer  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1psuu6g/whats_new_in_rust_1920/</guid>
-      <pubDate>Mon, 22 Dec 2025 08:51:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
