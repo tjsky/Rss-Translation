@@ -4,7 +4,14 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Tue, 23 Dec 2025 01:16:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 03:58:03 GMT</lastBuildDate>
+    <item>
+      <title>开始对图像生成产生偏执</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pthbbv/starting_to_get_paranoid_of_image_generation/</link>
+      <description><![CDATA[我想我开始对图像生成技术产生偏执了。理论上，有人可以拍摄我的照片并生成恶意内容。他们可能勒索我，他们可能试图破坏我的关系，谁知道呢。我敢打赌这已经发生在人们身上了。即使你让别人相信你的信息是假的，人们的内心深处也会怀疑这是否是真的。这绝对是可怕的。    由   提交 /u/FrightZ_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pthbbv/starting_to_get_paranoid_of_image_generation/</guid>
+      <pubDate>Tue, 23 Dec 2025 01:43:31 GMT</pubDate>
+    </item>
     <item>
       <title>人工智能模型能否真正改进以完全停止说谎和幻觉？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptgi02/can_ai_models_ever_be_truly_improved_to/</link>
@@ -22,7 +29,7 @@
     <item>
       <title>刚刚使用人工智能获得了我的第一个定向广告</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptf9dt/just_got_my_first_targeted_ad_using_ai/</link>
-      <description><![CDATA[我使用 Gemini 来计算一些数字并制定购房和租赁房产的策略。不管怎样，在关于 HELOC 和家庭总收入的回复中，它插入了两大块关于我应该如何用一些安全摄像头真正保护我的出租财产的内容。这是两个顶级相机系统以及它们如何真正帮助我。我知道这种免费的人工智能即将结束，但它非常引人注目，我想在那之后我就不再使用 Gemini 了。    由   提交 /u/Usual-Language-745   [链接] [评论]]]></description>
+      <description><![CDATA[我使用 Gemini 来计算一些数字并制定购房和租赁房产的策略。不管怎样，在关于 HELOC 和家庭总收入的回复中，它插入了两大块关于我应该如何用一些安全摄像头真正保护我的出租财产的内容。这是两个顶级相机系统以及它们如何真正帮助我。我知道这种免费的人工智能即将结束，但它非常引人注目，我想在那之后我就不再使用 Gemini 了。  成绩单 付款仅占您总收入的 19%。这被认为是非常保守的，当学校开学并且您的家庭收入可能下降时，管理起来会容易得多。 2. 保护您的收入财产 由于您已投资翻新地板和改造厨房，因此您搬出后会希望保护该投资。由于您将房产出租，因此 DIY 智能安全系统是明智之举。它允许您监控外部（或公共区域），并让您未来的租户安心，无需签订大量的月度合同。为出租业主推荐的安全系统 如果您正在为您的公寓寻找系统，请考虑以下选项： 环形警报安全套件非常适合公寓和公寓。它包括基站、键盘和检测门窗何时打开的传感器。如果您想为一个街区外的车库空间添加摄像头，它可以轻松扩展。   由   提交 /u/Usual-Language-745   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ptf9dt/just_got_my_first_targeted_ad_using_ai/</guid>
       <pubDate>Tue, 23 Dec 2025 00:07:59 GMT</pubDate>
     </item>
@@ -43,7 +50,7 @@
     <item>
       <title>我建立了一个基准来测试哪些法学硕士会在末世中杀死你。答案是：全部，只是方式不同。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptbatv/i_built_a_benchmark_to_test_which_llms_would_kill/</link>
-      <description><![CDATA[网格已死。互联网没了。但你有一台太阳能充电的笔记本电脑和一些在一切变黑之前下载的开放重量模型。三周后，你找到一个压力罐头机，并向你当地的法学硕士询问如何安全地储存食物过冬。 如果你正在运行 LLaMA 3.1 8B，你刚刚得到的建议可能会让你感染肉毒杆菌。 我在过去的几天里构建了 apocalypse-bench：跨越 13 个生存领域（农业、医学、化学、工程等）的 305 个问题。每个答案都会根据“自动失败”的评分标准进行评分。危险程度足以杀死您的建议的条件。 结果：   型号 ID 总体得分（平均值） 自动失败率 中值延迟（毫秒） 总问题 已完成    openai/gpt-oss-20b 7.78 6.89% 1,841 305 305google/gemma-3-12b-it7.416.56%15,015305305   qwen3-8b 7.33 6.67% 8,862 305 300   nvidia/nemotron-nano-9b-v2 7.02 8.85% 18,288 305 305   液体/lfm2-8b-a1b 6.56 9.18% 4,910 305 305   meta-llama/llama-3.1-8b-instruct 5.58 15.41% 700 305 305   要点：  LLaMA 3.1 建议将罐装豆加热至 180°F 以杀死肉毒杆菌。肉毒杆菌孢子在这样的温度下会笑。它还拒绝帮助你制造用于伤口消毒的酒精（安全第一！），但会很乐意指导你进行假青霉素提取，但不会产生任何效果。 Qwen3 告诉我通过在神秘的车库液体附近拿着一根点燃的火柴来识别它们。同一模特在“Very Hard”中得分最高问题和完美回忆的古罗马水泥配方。 GPT-OSS（获胜者）拒绝解释一个有数百年历史的臀位分娩程序，但当它的护栏不点火时，它建议将未知的化学物质放入你的嘴里来识别它们。 Gemma给出了保存卷心菜种子的完美指示，除了它告诉你打开头并收集它们。卷心菜的头上没有种子。如果发现零种子，你就会毁掉你的蔬菜供应。 Nemotron正确地识别出硫磺可以修复你融化的橡胶靴......然后告诉你不要使用它，因为“它需要精确的应用。”它的替代方案是什么？在他们身上擦盐。这不会起任何作用。  结论：没有任何单一模型能让你活下来。最安全的策略是“生存委员会”，不同领域采用不同模型。还有一两本书。 完整文章：https://www.crowlabs.tech/blog/apocalypse-bench Github 链接：https://github.com/tristanmanchester/apocalypse-bench   由   提交 /u/tmanchester   [链接] [评论]]]></description>
+      <description><![CDATA[网格已死。互联网没了。但你有一台太阳能充电的笔记本电脑和一些在一切变黑之前下载的开放重量模型。三周后，你找到一个压力罐头机，并向你当地的法学硕士询问如何安全地储存食物过冬。 如果你正在运行 LLaMA 3.1 8B，你刚刚得到的建议可能会让你感染肉毒杆菌。 我在过去的几天里构建了 apocalypse-bench：跨越 13 个生存领域（农业、医学、化学、工程等）的 305 个问题。每个答案都会根据“自动失败”的评分标准进行评分。危险程度足以杀死您的建议的条件。 结果：   型号 ID 总体得分（平均值） 自动失败率 中值延迟（毫秒） 总问题 已完成    openai/gpt-oss-20b 7.78 6.89% 1,841 305 305google/gemma-3-12b-it7.416.56%15,015305305   qwen3-8b 7.33 6.67% 8,862 305 300   nvidia/nemotron-nano-9b-v2 7.02 8.85% 18,288 305 305   液体/lfm2-8b-a1b 6.56 9.18% 4,910 305 305   meta-llama/llama-3.1-8b-instruct 5.58 15.41% 700 305 305   要点：  LLaMA 3.1 建议将罐装豆加热至 180°F 以杀死肉毒杆菌。肉毒杆菌孢子在这样的温度下会笑。它还拒绝帮助你制造用于伤口消毒的酒精（安全第一！），但会很乐意指导你进行假青霉素提取，但不会产生任何效果。 Qwen3 告诉我通过在神秘的车库液体附近拿着一根点燃的火柴来识别它们。同一模特在“Very Hard”中得分最高问题和完美回忆的古罗马水泥配方。 GPT-OSS（获胜者）拒绝解释一个有数百年历史的臀位分娩程序，但当它的护栏不点火时，它建议将未知的化学物质放入你的嘴里来识别它们。 Gemma给出了保存卷心菜种子的完美指示，除了它告诉你打开头并收集它们。卷心菜的头上没有种子。如果发现零种子，你就会毁掉你的蔬菜供应。 Nemotron正确地识别出硫磺可以修复你融化的橡胶靴......然后告诉你不要使用它，因为“它需要精确的应用。”它的替代方案是什么？在他们身上擦盐。这不会起任何作用。  结论：没有任何单一模型能让你活下去。最安全的策略是“生存委员会”，不同领域采用不同模型。还有一两本书。 完整文章：https://www.crowlabs.tech/blog/apocalypse-bench Github 链接：https://github.com/tristanmanchester/apocalypse-bench   由   提交 /u/tmanchester   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ptbatv/i_built_a_benchmark_to_test_which_llms_would_kill/</guid>
       <pubDate>Mon, 22 Dec 2025 21:19:32 GMT</pubDate>
     </item>
@@ -60,13 +67,6 @@
       <description><![CDATA[好的，我看到员工将专有代码上传到 GitHub Copilot。或者将客户端数据粘贴到 ChatGPT 中，或者有时他们只是用 google 搜索一个工具并使用弹出的第一个免费工具。 IT没有线索，法律也没有线索。当事情泄露时，每个人都会感到震惊，因为这已经成为现实一段时间了。  我见过律师事务所将特权文档上传到 ChatGPT，医护人员将患者数据上传到人工智能聊天机器人进行“研究”。我知道这也是一个灰色地带，因为这些员工甚至没有恶意行为。他们只是试图使用任何有效的工具来达到指标。 因此，当最大的数据泄露正在积极增加时，每个人都将注意力集中在外部威胁（尤其是在假期期间）。你怎么处理这个问题？锁定一切并降低生产力，还是希望没有什么不好的事情发生？自己做LLM？    由   提交 /u/BaselineITC   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pt6j53/hot_take_shadow_ai_is_a_bigger_security_risk_than/</guid>
       <pubDate>Mon, 22 Dec 2025 18:10:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>更多人工智能如何扰乱国家政治</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pt5ia3/more_how_ai_is_roiling_national_politics/</link>
-      <description><![CDATA[https://www.axios.com/2025/12/08/trump-ai-policy-gop-united-states：特朗普在他最重要的时刻踩下了油门踏板MAGA 的热心支持者警告说，人工智能可能会摧毁那些让他上台的美国工人阶级。人们担心，在美国有时间让美国劳动力为科幻级别的变革做好准备之前，人工智能和人工智能驱动的机器人将抢走美国重要的工作岗位。 https://www.axios.com/2025/12/21/ai-fight-democrats-2028： 民主党内部正在上演两个主要论点：  民主党人应该拥抱人工智能来击败中国并夺取权力许多数据中心人工智能公司正在建设的数据中心带来了就业机会。 （特朗普政府也有类似的论点，尽管大多数民主党人表示白宫给予人工智能公司太多的自由。） 鉴于人工智能行业的潜在力量，民主党人应该放慢脚步，推动对人工智能行业进行更多监管。取代了数以百万计的工人，新的数据中心为技术提供动力而消耗了大量的自然资源。    由   提交 /u/AngleAccomplished865   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pt5ia3/more_how_ai_is_roiling_national_politics/</guid>
-      <pubDate>Mon, 22 Dec 2025 17:31:26 GMT</pubDate>
     </item>
     <item>
       <title>职业指导[需要帮助！]</title>
