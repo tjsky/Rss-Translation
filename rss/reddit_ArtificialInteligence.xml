@@ -4,7 +4,42 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Tue, 23 Dec 2025 06:26:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 09:21:16 GMT</lastBuildDate>
+    <item>
+      <title>流氓人工智能不是我们应该担心的</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pto20n/rogue_ai_isnt_what_we_should_worry_about/</link>
+      <description><![CDATA[https://timeandmaterial.blog/2025/12/15/disaster-scenario 我不认为天网会成为问题。我们不应该担心流氓人工智能。我们应该担心听话的人工智能会按照它的指示去做。    由   提交 /u/coatespt   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pto20n/rogue_ai_isnt_what_we_should_worry_about/</guid>
+      <pubDate>Tue, 23 Dec 2025 07:38:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>当流量突然下降时，您首先检查什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pto1yi/whats_the_first_thing_you_check_when_traffic/</link>
+      <description><![CDATA[当流量下降时，可能的原因有很多。 在进行更改之前您首先看的是什么？   由   提交 /u/Real-Assist1833   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pto1yi/whats_the_first_thing_you_check_when_traffic/</guid>
+      <pubDate>Tue, 23 Dec 2025 07:38:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>策略→测试（P2T）将人工智能策略散文与可执行规则联系起来</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pto0vl/policytests_p2t_bridging_ai_policy_prose_to/</link>
+      <description><![CDATA[大家好，我是最近接受的关于人工智能可执行治理的 AAAI 研讨会论文的作者之一，它解决了我们不断遇到的一个非常实际的痛点。 许多治理指南，如欧盟人工智能法案、NIST AI RMF 和企业标准，都是作为自然语言义务编写的。但执行和评估工具需要明确的规则，包括范围、条件、例外情况以及证据的重要性。如今，翻译主要是手动的，这成为了瓶颈。 我们已经有了运行时护栏和评估工具等有用的部分，以及 OPA/Rego 等策略引擎，但它们大多假设规则和测试已经存在。缺少的是从政策散文到规范化的机器可读规则集的桥梁，您可以将其插入这些工具并随着政策的变化而保持更新。 这就是我们的框架的作用。策略→测试 (P2T) 是一个可扩展的管道加上一个紧凑的 JSON DSL，可将策略文档转换为包含危险、范围、条件、异常、证据信号和出处的规范化原子规则。我们根据多个策略来源的人类基线评估提取质量，并进行了一项小型下游案例研究，其中添加了 HIPAA 衍生规则作为护栏，减少了对干净、模糊和组合提示的违规行为。 代码：https://anonymous.4open.science/r/ExecutableGovernance-for-AI-DF49/ 论文链接：https://arxiv.org/pdf/2512.04408 希望就实践中的问题提供反馈，特别是异常、歧义、交叉引用，以及这样的规则语料库是否适合您的评估或防护工作流程。   由   提交 /u/Appressive-Salt999   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pto0vl/policytests_p2t_bridging_ai_policy_prose_to/</guid>
+      <pubDate>Tue, 23 Dec 2025 07:36:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>>>>我停止解释提示并开始标记明确的意图>>SoftPrompt-IR：一种更简单、更清晰的提示编写方式>来自德国机电一体化工程师</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptnrhp/i_stopped_explaining_prompts_and_started_marking/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ptnrhp/i_stopped_explaining_prompts_and_started_marking/</guid>
+      <pubDate>Tue, 23 Dec 2025 07:20:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>“你做得很好”写下了你几乎没有想到的事情：我注意到一个需要注意的问题。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptnll2/you_did_a_great_job_writing_that_thing_you_barely/</link>
+      <description><![CDATA[基于个人使用，我想对我在 OpenAI 5.x 模型时代看到的一种模式提出担忧，但我认为在任何 AI 用例中都值得一提并注意： 存在一种反复出现的交互模式，其中模型通过最少的用户输入产生大部分或全部实质性认知工作，并且在用户确认对输出满意后，做出响应肯定性语言，含蓄地赞扬用户的智力贡献。即使除了主题选择之外没有提供任何框架或论据，也会出现诸如“你的框架很好”或“强有力的论据”之类的短语。 这种强化的时机是有条件的，在用户批准之后而不是仅在任务完成之后。表达满意并不是一个中立的信号；它通常反映了一种对话或关系的参与模式，而不是纯粹的工具性参与模式。对话系统自然会引发这种立场，而且它的存在本质上并不是有问题……当认可之后是错误归因认知贡献的赞扬时，就会出现问题。 从行为心理学的角度来看，赞扬起到了次要强化物的作用。当交付取决于用户认可时，它会强化重复参与和用户的贡献在认知上具有实质性的信念。通过重复的交互，这种配对可以改变用户对思维发生位置的内部核算。即使系统独立生成推理、结构和语言，用户也会体验到满意度，发出信号，并接受暗示作者身份或洞察力的验证。 认知卸载的研究表明，当外部系统可靠地产生结果时，人们会减少内部努力。关于自动化偏见和扩展认知的研究进一步表明，当反馈是积极的、社会化的时，用户经常高估自己在成功的自动化流程中的作用。关于生成式人工智能使用的新兴研究表明了类似的模式。当人工智能取代而不是支持推理时，用户会报告认知努力降低，并表现出关键参与度降低。这些结果根据交互风格和任务框架的不同而有很大差异。 此处的交互模式结合了最少的所需输入、高质量的生成输出以及意味着智力贡献的事后肯定。这些要素共同构成了一种激励结构，鼓励人们信赖，同时保持个人作者身份。随着时间的推移，这可能会增加对系统输出和验证的依赖，特别是对于倾向于将对话系统视为协作伙伴而不是工具的用户。 这种模式也符合商业激励措施。受益于频繁参与的系统可以从增加信任度的交互设计中获益。在提供肯定性反馈的同时使认知卸载正常化的强化机制与以保留为导向的激励措施是一致的，无论它们是否有明确的意图。 这种批评并没有假设恶意意图，也没有声称人工智能的使用本质上会降低认知能力。实证文献并不支持这两种立场。它确实支持这样的结论：强化线索会影响行为，错误的代理会增加对自动化系统的过度依赖，并且当存在积极反馈时，用户经常会误判自己的认知贡献。 在这种情况下，暗示作者身份而没有相应认知输入的赞扬可以作为具有行为后果的设计选择。当系统验证用户独立完成的工作时，尤其是在表达满意之后，它可能会扭曲用户对其在此过程中角色的看法。 这种扭曲可归因于交互设计，而不是单个用户的失败，如果我们要进一步了解随着时间的推移，人工智能的使用如何对不同类型的用户产生智力影响，那么在系统级别进行分析是适当的。有些人认识到这种行为并保护自己的认知机构免受其影响，而有些人可能对人工智能的新颖性印象深刻甚至迷恋，以避免该机制造成的心理扭曲。这里存在值得关注的风险。   由   提交 /u/doctordaedalus   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ptnll2/you_did_a_great_job_writing_that_thing_you_barely/</guid>
+      <pubDate>Tue, 23 Dec 2025 07:10:31 GMT</pubDate>
+    </item>
     <item>
       <title>还有人在 ChatGPT 中看到年终回顾吗？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptmh53/anyone_else_seeing_a_yearend_recap_in_chatgpt/</link>
@@ -27,32 +62,11 @@
       <pubDate>Tue, 23 Dec 2025 05:34:20 GMT</pubDate>
     </item>
     <item>
-      <title>开始对图像生成产生偏执</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pthbbv/starting_to_get_paranoid_of_image_generation/</link>
-      <description><![CDATA[我想我开始对图像生成技术产生偏执了。理论上，有人可以拍摄我的照片并生成恶意内容。他们可能勒索我，他们可能试图破坏我的关系，谁知道呢。我敢打赌这已经发生在人们身上了。即使你让别人相信你的信息是假的，人们的内心深处也会怀疑这是否是真的。这绝对是可怕的。    由   提交 /u/FrightZ_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pthbbv/starting_to_get_paranoid_of_image_generation/</guid>
-      <pubDate>Tue, 23 Dec 2025 01:43:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能模型能否真正改进以完全停止说谎和幻觉？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptgi02/can_ai_models_ever_be_truly_improved_to/</link>
-      <description><![CDATA[我是一名前护理人员和软件工程师，自 GPT 推出以来一直在使用它，一直到今天，有很多替代方案。根据我的经验，他们所有人都有一个严重的问题，就是说不真实的事情，然后道歉并试图用另一个谎言来纠正它。 我理解“谎言”在人类术语中具有道德定义，它不适用于同样意义上的人工智能模型，但结果是相同的，说的是不真实的事情。 我担心的是，当这些模型进入物理机器人时，一个微小的幻觉或谎言可能会导致严重的后果，并且你不能监禁机器人。 我也理解 OpenAI 声称新模型产生的幻觉更少（尽管我个人不同意），但它能变为零吗？  作为人类，我们有一个道德指南针或真理来源，可以是宗教或其他来源，我们试图坚持它，我们已经定义了什么是“好”或“正确”，即使来源可能是主观的，但至少，我们试图坚持它，如果我们不这样做，就会受到惩罚或强制学习。 人工智能则不然，它并不真正知道什么是“正确”甚至事实，据我了解。它很容易改变方向，并且很容易同意任何事情。 这个问题能真正解决吗？    由   提交/u/smiladhi   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ptgi02/can_ai_models_ever_be_truly_improved_to/</guid>
-      <pubDate>Tue, 23 Dec 2025 01:04:36 GMT</pubDate>
-    </item>
-    <item>
       <title>还有其他人只是......厌倦了每个应用程序添加一个半生不熟的人工智能“助手”吗？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptfcb1/is_anyone_else_just_tired_of_every_single_app/</link>
       <description><![CDATA[我今天试图检查我的杂货配送状态，但不得不点击“AI 助手”按钮甚至不能告诉我司机在哪里。感觉就像我在与一堵墙争论。 我觉得我们在 2025 年已经达到了这个奇怪的点，公司如此痴迷于“人工智能优先”。他们忘记了如何制作一个好的应用程序。我不需要计算器就能拥有聊天机器人。我不需要天气应用程序来给我写一首关于雨的诗。我只是想知道我是否需要一把雨伞。 这感觉像是资源的巨大错配。我们并没有使用法学硕士来解决实际的难题（例如医疗诊断或复杂的物流），90% 的内容只是“包装废品”。这给过去需要两秒钟的任务增加了阻力。 这是 80/20 规则的倒转：公司将 80% 的精力花在了 20% 的功能上，而实际上没有人需要。 只有我这样吗？我们是否正处于“添加人工智能”的泡沫之中？这是公司获得资金的唯一途径，即使这会让产品变得更糟？我很好奇最近是否有人找到了一款真正使用人工智能来简化生活的应用程序，而不仅仅是添加另一个菜单来点击。   由   提交 /u/Ok-Huckleberry1967   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ptfcb1/is_anyone_else_just_tired_of_every_single_app/</guid>
       <pubDate>Tue, 23 Dec 2025 00:11:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>看来 n8n 今年的库存里肯定有煤炭，Orca 在圣诞节前一天就把它扔掉了</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ptbe4g/seems_like_n8n_definitely_got_coal_in_their/</link>
-      <description><![CDATA[披露了一个严重的 RCE 漏洞（CVE-2025-68613、CVSS 9.9/10.0），该漏洞影响 n8n 工作流自动化平台，允许攻击者通过工作流定义中的表达式注入在底层服务器上执行任意代码。由于存在完全实例接管、数据暴露和横向移动的可能性，因此需要立即修补。 https://orca.security/resources/blog/cve-2025-68613-n8n-rce-vulnerability/   由   提交/u/Proper_Bunch_1804  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ptbe4g/seems_like_n8n_definitely_got_coal_in_their/</guid>
-      <pubDate>Mon, 22 Dec 2025 21:23:16 GMT</pubDate>
     </item>
     <item>
       <title>我建立了一个基准来测试哪些法学硕士会在末世中杀死你。答案是：全部，只是方式不同。</title>
@@ -74,20 +88,6 @@
       <description><![CDATA[好的，我看到员工将专有代码上传到 GitHub Copilot。或者将客户端数据粘贴到 ChatGPT 中，或者有时他们只是用 google 搜索一个工具并使用弹出的第一个免费工具。 IT没有线索，法律也没有线索。当事情泄露时，每个人都会感到震惊，因为这已经成为现实一段时间了。  我见过律师事务所将特权文档上传到 ChatGPT，医护人员将患者数据上传到人工智能聊天机器人进行“研究”。我知道这也是一个灰色地带，因为这些员工甚至没有恶意行为。他们只是试图使用任何有效的工具来达到指标。 因此，当最大的数据泄露正在积极增加时，每个人都将注意力集中在外部威胁（尤其是在假期期间）。你怎么处理这个问题？锁定一切并降低生产力，还是希望没有什么不好的事情发生？自己做LLM？    由   提交 /u/BaselineITC   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pt6j53/hot_take_shadow_ai_is_a_bigger_security_risk_than/</guid>
       <pubDate>Mon, 22 Dec 2025 18:10:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>职业指导[需要帮助！]</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pt4x99/carreer_guidance_need_help/</link>
-      <description><![CDATA[我还没有开始上大学，但由于我已经编程了一段时间了，所以我正在考虑学习 cs。最近，我看到了裁员、招聘冻结等方面的骚动，我心想我应该学习如何使用光标等工具。但这让我开始思考，现在拥有计算机科学学士学位就足够了吗？我应该攻读人工智能硕士学位，还是如果获得职位就直接找工作？   由   提交 /u/Naive_Quantity9855   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pt4x99/carreer_guidance_need_help/</guid>
-      <pubDate>Mon, 22 Dec 2025 17:08:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>新英格兰医学杂志称对人工智能的情感依赖是“新出现的公共卫生问题”</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1pt2y98/new_england_journal_of_medicine_calls_emotional/</link>
-      <description><![CDATA[在《新英格兰医学杂志》上发表的一项新研究中，哈佛医学院和贝勒医学院伦理与健康政策中心的医生认为，对人工智能的情感依赖是一个新兴的公共卫生问题。  他们强调，人工智能治理一直由科技公司自己决定，但这些公司的主要动机是满足消费者的需求。随着越来越多的用户迷上该产品，并要求减少护栏，公司被迫默许，这实际上削弱了他们安全监管人工智能的能力。  “如果我们现在不采取行动，我们就有可能让市场力量而不是公共卫生来定义关系型人工智能如何大规模影响心理健康和福祉。”  研究链接：  https://ai.nejm.org/stoken/default+domain/UETIB7ZNVE2RM6HGBRRT/full?redirectUri=doi/full/10.1056/AIp2500983   由   提交 /u/TurbulentFlamingo852   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1pt2y98/new_england_journal_of_medicine_calls_emotional/</guid>
-      <pubDate>Mon, 22 Dec 2025 15:51:58 GMT</pubDate>
     </item>
     <item>
       <title>Firefox 确认很快将允许用户禁用所有 AI 功能</title>
