@@ -4,11 +4,53 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 24 Dec 2025 09:21:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 12:34:48 GMT</lastBuildDate>
+    <item>
+      <title>🎤 有关于 JavaScript 或现代全栈开发的故事吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1pum8mo/got_a_story_about_javascript_or_modern_fullstack/</link>
+      <description><![CDATA[将“在顶级技术会议上发言”作为你的新年决心之一！ 登上 JSNation 的舞台，与成千上万渴望向您学习的开发者分享您的经验。 ✨ 阿姆斯特丹 + 在线   由   提交/u/gitnationorg  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pum8mo/got_a_story_about_javascript_or_modern_fullstack/</guid>
+      <pubDate>Wed, 24 Dec 2025 12:26:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Docker 让企业安全变得免费：1,000 多个强化镜像现已开源</title>
+      <link>https://www.reddit.com/r/programming/comments/1pum57n/docker_makes_enterprise_security_free_1000/</link>
+      <description><![CDATA[这对于开源社区来说是一个巨大的胜利。 Docker 强化镜像 (DHI) 有助于消除软件供应链中的关键漏洞，现在对所有人免费。 此举有效降低了安全软件开发的准入门槛。不再有借口在生产中运行臃肿、易受攻击的容器。 我分析了对 CI/CD 管道的影响以及这对开发人员意味着什么： [👉 技术故障]https://www.nexaspecs.com/2025/12/docker-hardened-images-open-source.html   由   提交/u/Imaginary-Ad-8278  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pum57n/docker_makes_enterprise_security_free_1000/</guid>
+      <pubDate>Wed, 24 Dec 2025 12:20:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们是否有替代代码的出现？</title>
+      <link>https://www.reddit.com/r/programming/comments/1pulnuh/do_we_have_advent_of_code_alternatives/</link>
+      <description><![CDATA[你好， 我正在寻找 AOC 替代方案，它为我们提供了一个简单的文本文件，然后我们必须使用编程语言执行一些算法。到目前为止，像 leetcode 等平台都没有符合这个标准。 我们还有替代方案吗？ 提前致谢！   由   提交/u/Shoddy_Apartment_149   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pulnuh/do_we_have_advent_of_code_alternatives/</guid>
+      <pubDate>Wed, 24 Dec 2025 11:52:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025 年：SwiftUI 消亡的一年</title>
+      <link>https://www.reddit.com/r/programming/comments/1puky96/2025_the_year_swiftui_died/</link>
+      <description><![CDATA[ 由   提交/u/jacobs-tech-tavern   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1puky96/2025_the_year_swiftui_died/</guid>
+      <pubDate>Wed, 24 Dec 2025 11:07:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们在不改变模型权重的情况下将变压器推理调用减少了约 75%（MFEE 控制平面方法）</title>
+      <link>https://www.reddit.com/r/programming/comments/1puks9j/we_reduced_transformer_inference_calls_by_75/</link>
+      <description><![CDATA[我一直在写一篇系统论文，提出了一个简单的想法：不是优化 Transformer 的运行方式，而是决定它们是否需要运行。 我们引入了意义优先执行 (MFEE)，这是一个控制平面层，用于控制 Transformer 推理并将请求路由到： - RENDER（运行模型） - DIRECT（从缓存/确定性逻辑提供服务） - NO_OP（不执行任何操作） - ABSTAIN（安全拒绝） 在代表性重放工作负载（1,000 个混合提示）上，这将变压器执行量减少了75.1%，同时在调用模型时保持100% 输出等效性。 下面是一个导出的经济影响表，显示了这种减少在规模上意味着什么。这些不是针对任何特定公司的声明，只是根据测量的减少量进行线性推断。 经济影响（派生） 工作负载节省示例（基于原始论文结果）   工作负载类型 每日请求 变压器减少 年度 GPU 成本节省    类似网络搜索 8.5B 75% $2.1B – $4.2B   代码辅助 100M 80% $2.92M – $5.84M   聊天式 LLM 1.5B 70% $511M – $1.0B   企业 API 10M 75% 2700 万美元 – 5500 万美元   假设： - GPU 成本：1.50 美元 - 3.00 美元/小时 - 标准变换器推理成本 - 避免调用的线性缩放 - 基于论文中的75.1% 测量减少 如果您认为这些数字是错误的，则评估harness 是公开的。 令我惊讶的是，生态系统中的大量努力都用于从模型执行中榨取边际收益，而何时需要执行这一更大的问题似乎才是更重要的检查。 MFEE 并不意味着要取代这些优化。它位于它们的上游，从一开始就减少了它们的使用频率。 想法？   由   提交 /u/anima-core   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1puks9j/we_reduced_transformer_inference_calls_by_75/</guid>
+      <pubDate>Wed, 24 Dec 2025 10:57:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么运行时环境变量对纯静态网站不起作用</title>
+      <link>https://www.reddit.com/r/programming/comments/1puju4z/why_runtime_environment_variables_dont_really/</link>
+      <description><![CDATA[ 由   提交 /u/Ok_Animator_1770   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1puju4z/why_runtime_environment_variables_dont_really/</guid>
+      <pubDate>Wed, 24 Dec 2025 09:56:52 GMT</pubDate>
+    </item>
     <item>
       <title>一个轻量级、本地优先的语义搜索引擎，用于用 Rust 编写的个人笔记、日记和文档</title>
       <link>https://www.reddit.com/r/programming/comments/1puixa0/a_lightweight_localfirst_semantic_search_engine/</link>
-      <description><![CDATA[我使用 Rust 编写了一个笔记搜索引擎， 我通常不使用 Rust，但我想尝试创建一个周六的宠物项目。它以 markdown 文件作为输入，使用 candle、bge 嵌入模型、redb 和 Ratatui 为途易！  无论是在根级别还是在每个文件夹中搜索，我都导出了我的 Notion 文件并将其转储到本地并开始搜索 您可以分叉并运行代码，玩转并在笔记中使用它。  一个有趣的实验将通过代码 src/search/model.rs 并尝试不同的替换嵌入模型   由   提交/u/Savings_Delay_5357  [链接] [评论]]]></description>
+      <description><![CDATA[我使用 Rust 编写了一个笔记搜索引擎， 我通常不使用 Rust，但我想尝试创建一个周六的宠物项目。它以 markdown 文件作为输入，使用 candle、bge 嵌入模型、redb 和 Ratatui 为途易！  无论是在根级别还是在每个文件夹上搜索，我都导出了我的 Notion 文件并将其转储到本地并开始搜索 您可以分叉并运行代码，玩转并在笔记中使用它。  一个有趣的实验将通过代码 src/search/model.rs 并尝试不同的替换嵌入模型   由   提交/u/Savings_Delay_5357  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1puixa0/a_lightweight_localfirst_semantic_search_engine/</guid>
       <pubDate>Wed, 24 Dec 2025 08:56:40 GMT</pubDate>
     </item>
@@ -18,13 +60,6 @@
       <description><![CDATA[在处理我的一个项目时，我意识到我实际上没有一个好的系统来命名我的提交。我确实使用了 refactor、feat、chore 等类型，但我想要更多的提交名称。这个系统对我来说并不是很清楚，例如删除一个无用的空行是。另外，我希望更清楚地区分用户看到和看不到的事物。 现在我既没有检查其中有多少已经存在，也没有使用过这个系统。另外，这不是演示或炫耀我认为，它应该是关于 git 提交名称的讨论。 这就是我的设想：  基于此约定。 ``` （可选范围）[“！”如果重大更改]：说明 可选正文 可选页脚 ``` 类型按层次结构进行分类：  类别 面向用户：用户注意到这一点。例如新功能、崩溃或 UI 更改。  类别 源代码：对源代码的更改。  type fix：用户可以看到的修复。使用 fix! 进行关键修复，例如崩溃。 type feat：用户看到的功能。  type ui（可选）：仅影响 UI 的更改，如图标更改。这可以标记为壮举或修复。  类别 非源代码：对非源代码的更改。 类型 文档：对向外文档的更改。这也可以是源代码内的文档，例如 UI 中的解释文本。 ---  类别 内部：用户看不到此内容。例如重构、内部文档。  类别 源代码：对源代码的更改。 类型 bug：对用户看不到或几乎没有注意到的问题的修复。 类型 改进：用户看不到的功能。例如：新端点、更好的内部身份验证处理 type refactor：不影响逻辑的内部更改，例如变量名称更改、删除空格。 类别 非源代码：对非源代码的更改。 type chore：对构建过程的更改， config, ... type kbase（用于知识库）：对内部文档的更改重要的是，feat 和 improvement 等类型是等效的，只是属于不同的类别，因此您可以将它们称为  uf/feat 用于面向用户的功能，而 in/feat 用于内部功能，而不是改进。 bug和修复也是如此，你可以用in/fix代替bug。  这就是所谓的类似文件夹的命名。 建议选择全名或类似文件夹的命名，而不是混合使用。  我在不长的时间内起草了这个，所以在执行时没有考虑太多。 它主要处理类型，其余的在我认为的约定中描述。 我想知道你如何命名你的提交，以及你是否认为这样的系统有意义。另外，如果您想扩展它，请继续。   由   提交/u/Tear4Pixelation  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pui0hc/commit_naming_system/</guid>
       <pubDate>Wed, 24 Dec 2025 07:58:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助</title>
-      <link>https://www.reddit.com/r/programming/comments/1pugoe7/help/</link>
-      <description><![CDATA[ 由   提交/u/No-Blackberry-1684   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pugoe7/help/</guid>
-      <pubDate>Wed, 24 Dec 2025 06:35:53 GMT</pubDate>
     </item>
     <item>
       <title>我构建了一个 Web 应用程序，使用 PostGIS、验证评分和审核提交来收集街道级骑行安全数据</title>
@@ -74,41 +109,6 @@
       <description><![CDATA[ 由   提交/u/mttd  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pu5e7f/oral_history_of_jeffrey_ullman/</guid>
       <pubDate>Tue, 23 Dec 2025 21:18:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>12 次比较如何使整数排序速度提高 30 倍</title>
-      <link>https://www.reddit.com/r/programming/comments/1pu5bxm/how_12_comparisons_can_make_integer_sorting_30x/</link>
-      <description><![CDATA[我花了几周时间试图击败 ska_sort（最快的非 SIMD 排序算法）。在此过程中，我学到了一些关于算法选择的有趣知识。 传统观点认为，基数排序的复杂度为 O(n)，并且优于整数比较排序。对于随机数据来说是正确的。但真实数据不是随机的。 年龄集中在 0-100 之间。传感器读数为 12 位。网络端口围绕众所周知的值聚集。当值范围相对于数组大小较小时，计数排序的复杂度为 O(n + range)，并且会破坏基数排序。 问题：在不首先扫描数据的情况下，如何知道使用哪种算法？ 我的解决方案非常简单。对 64 个值进行采样以估计范围。如果范围 &lt;= 2n，则使用计数排序。成本：64 次阅读。回报：在密集数据上加速 30 倍。 对于排序/反向检测，我尝试了： - 差异方差（失败 - 噪音太大） - 熵估计（失败 - 阈值相关） - 反转计数（失败 - 无法区分反向与随机） 有效方法：检查 arr[0] &lt;= arr[1] &lt;= arr[2] &lt;= arr[3] 在三个位置（头、中、尾）。如果三者都同意，数据可能会被排序。总共 12 次比较。 100k 整数的结果： - 随机：比 std::sort 快 3.8 倍 - 密集（0-100）：比 std::sort 快 30 倍 - 与 ska_sort：随机快 1.6 倍，密集快 9 倍 教训：检测很便宜。 12 次比较和 64 个样本可能需要 100 个 CPU 周期。选择错误的算法会花费数百万个周期。   由   提交 /u/DimitrisMitsos   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pu5bxm/how_12_comparisons_can_make_integer_sorting_30x/</guid>
-      <pubDate>Tue, 23 Dec 2025 21:15:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fabrice Bellard 发布 MicroQuickJS</title>
-      <link>https://www.reddit.com/r/programming/comments/1pu1ois/fabrice_bellard_releases_microquickjs/</link>
-      <description><![CDATA[ 由   提交/u/Ok-Tune-1346   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pu1ois/fabrice_bellard_releases_microquickjs/</guid>
-      <pubDate>Tue, 23 Dec 2025 18:44:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Iceoryx2 v0.8 发布</title>
-      <link>https://www.reddit.com/r/programming/comments/1ptyr3a/iceoryx2_v08_released/</link>
-      <description><![CDATA[ 由   提交/u/elfenpiff   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ptyr3a/iceoryx2_v08_released/</guid>
-      <pubDate>Tue, 23 Dec 2025 16:49:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过可视化和练习对递归进行交互式解释</title>
-      <link>https://www.reddit.com/r/programming/comments/1pty3uv/an_interactive_explanation_of_recursion_with/</link>
-      <description><![CDATA[代码模拟采用伪代码。练习是用 javascript (nodejs) 编写的，并列出了测试用例。可视化效果在较大的屏幕上效果最佳，否则它们会被截断。   由   提交/u/dExcellentb   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pty3uv/an_interactive_explanation_of_recursion_with/</guid>
-      <pubDate>Tue, 23 Dec 2025 16:23:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>20 世纪 60 年代的操作系统虚拟内存概念应用于 AI：PagedAttention 代码演练</title>
-      <link>https://www.reddit.com/r/programming/comments/1ptxiqe/os_virtual_memory_concepts_from_1960s_applied_to/</link>
-      <description><![CDATA[我在尝试本地运行 LLM 时遇到了 vLLM 和 PagedAttention。这是一篇两年前的论文，但了解如何应用 20 世纪 60 年代的操作系统虚拟内存概念来优化 AI 的 GPU 内存使用非常有趣。  这篇文章介绍了 vLLM 在优化 GPU 内存使用方面对块表、双链接 LRU 队列和引用计数的优雅实现。   由   提交/u/noninertialframe96  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ptxiqe/os_virtual_memory_concepts_from_1960s_applied_to/</guid>
-      <pubDate>Tue, 23 Dec 2025 16:00:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
