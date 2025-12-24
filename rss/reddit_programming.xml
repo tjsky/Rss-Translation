@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 24 Dec 2025 18:25:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 21:17:02 GMT</lastBuildDate>
+    <item>
+      <title>每个程序员都应该知道的数字</title>
+      <link>https://www.reddit.com/r/programming/comments/1puwng0/numbers_every_programmer_should_know/</link>
+      <description><![CDATA[ 由   提交/u/Helpful_Geographer430   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1puwng0/numbers_every_programmer_should_know/</guid>
+      <pubDate>Wed, 24 Dec 2025 20:31:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>简短：LLM 毁掉了 Haskell 流</title>
+      <link>https://www.reddit.com/r/programming/comments/1puv2wk/short_llm_ruins_haskell_stream/</link>
+      <description><![CDATA[ 由   提交/u/peterb12  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1puv2wk/short_llm_ruins_haskell_stream/</guid>
+      <pubDate>Wed, 24 Dec 2025 19:18:08 GMT</pubDate>
+    </item>
     <item>
       <title>我用引擎支持制作了控制台国际象棋</title>
       <link>https://www.reddit.com/r/programming/comments/1putt1y/i_made_console_chess_with_engine_support/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交 /u/Ok_Animator_1770   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1puju4z/why_runtime_environment_variables_dont_really/</guid>
       <pubDate>Wed, 24 Dec 2025 09:56:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>提交命名系统。</title>
-      <link>https://www.reddit.com/r/programming/comments/1pui0hc/commit_naming_system/</link>
-      <description><![CDATA[在处理我的一个项目时，我意识到我实际上没有一个好的系统来命名我的提交。我确实使用了 refactor、feat、chore 等类型，但我想要更多的提交名称。这个系统对我来说并不是很清楚，例如删除一个无用的空行是。另外，我希望更清楚地区分用户看到和看不到的事物。 现在我既没有检查其中有多少已经存在，也没有使用过这个系统。另外，这不是演示或炫耀我认为，它应该是关于 git 提交名称的讨论。 这就是我的设想：  基于此约定。 ``` （可选范围）[“！”如果重大更改]：说明 可选正文 可选页脚 ``` 类型按层次结构进行分类：  类别 面向用户：用户注意到这一点。例如新功能、崩溃或 UI 更改。  类别 源代码：对源代码的更改。  type fix：用户可以看到的修复。使用 fix! 进行关键修复，例如崩溃。 type feat：用户看到的功能。  type ui（可选）：仅影响 UI 的更改，如图标更改。这可以标记为壮举或修复。  类别 非源代码：对非源代码的更改。 类型 文档：对向外文档的更改。这也可以是源代码内的文档，例如 UI 中的解释文本。 ---  类别 内部：用户看不到此内容。例如重构、内部文档。  类别 源代码：对源代码的更改。 类型 bug：对用户看不到或几乎没有注意到的问题的修复。 类型 改进：用户看不到的功能。例如：新端点、更好的内部身份验证处理 type refactor：不影响逻辑的内部更改，例如变量名称更改、删除空格。 类别 非源代码：对非源代码的更改。 type chore：对构建过程的更改， config, ... type kbase（用于知识库）：对内部文档的更改重要的是，feat 和 improvement 等类型是等效的，只是属于不同的类别，因此您可以将它们称为  uf/feat 用于面向用户的功能，而 in/feat 用于内部功能，而不是改进。 bug和修复也是如此，你可以用in/fix代替bug。  这就是所谓的类似文件夹的命名。 建议选择全名或类似文件夹的命名，而不是混合使用。  我在不长的时间内起草了这个，所以在执行时没有考虑太多。 它主要处理类型，其余的在我认为的约定中描述。 我想知道你如何命名你的提交，以及你是否认为这样的系统有意义。另外，如果您想扩展它，请继续。   由   提交/u/Tear4Pixelation  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pui0hc/commit_naming_system/</guid>
-      <pubDate>Wed, 24 Dec 2025 07:58:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ring - 2026 年最佳编程语言？</title>
-      <link>https://www.reddit.com/r/programming/comments/1pugi0i/ring_best_programming_language_for_2026/</link>
-      <description><![CDATA[大家好！我刚刚通过 Ring 编程语言上传了一段视频。你可能从未听说过它，但不久前我也没有听说过。我已经检查了几天了，想制作一个涵盖该语言的小视频，但有一点点的总结。它超越了诸如语法灵活性、多范式和内置库之类的东西。我希望您能检查一下并至少在某种程度上享受它。   由   提交/u/sup1109  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pugi0i/ring_best_programming_language_for_2026/</guid>
-      <pubDate>Wed, 24 Dec 2025 06:25:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
