@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 25 Dec 2025 03:59:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Dec 2025 06:28:03 GMT</lastBuildDate>
+    <item>
+      <title>为人工智能执行构建确定性策略防火墙——希望获得基础设施反馈</title>
+      <link>https://www.reddit.com/r/programming/comments/1pv6y6s/building_a_deterministic_policy_firewall_for_ai/</link>
+      <description><![CDATA[我正在试验人工智能系统的控制平面风格方法，并寻找基础设施/架构反馈。 该系统位于人工智能（或自动化）和执行之间，并在任何运行之前强制实施严格的策略约束。 要点： - 它不会像法学硕士那样尝试推理 - 意图规范化是尽力而为的，并且可替换 - 策略执行是确定性的，失败时会关闭 - 每个决策都会生成审计跟踪 我一直在金融科技、健康、法律、保险和政府风格的场景中对其进行测试，包括非结构化输入。 这不是监视或报告 - 它会预先阻止执行。 此处回购：https://github.com/LOLA0786/Intent-Engine-Api 真的很好奇： - 你会攻击什么假设？ - 这会在哪里难以操作？ - 在产品中什么会吓到你？   由   提交/u/Unlucky-Ad7349   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pv6y6s/building_a_deterministic_policy_firewall_for_ai/</guid>
+      <pubDate>Thu, 25 Dec 2025 06:17:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Issue2Prompt - Chrome 扩展，为 AI 助手提取 GitHub 问题上下文</title>
+      <link>https://www.reddit.com/r/programming/comments/1pv6twd/issue2prompt_chrome_extension_that_extracts/</link>
+      <description><![CDATA[在向 AI 助手寻求帮助时，自动执行收集 GitHub 问题上下文的繁琐工作流程。 问题： 在向 ChatGPT 或 Claude 寻求有关 GitHub 问题的帮助时，通常需要手动： • 复制问题标题和描述 • 提取代码块和错误消息 • 总结讨论注释 • 连贯地格式化所有内容 解决方案： 自动提取： • 问题元数据（标题、标签、状态、受让人） • 保留代码块的完整描述 • 错误日志和堆栈跟踪 • 重现步骤 • 相关技术评论 • 链接的PR 和相关问题 主要功能： • 6 个内置模板（错误修复、功能请求、代码审查等） • 具有类似 Handlebars 语法的自定义模板支持 • 用于智能提示生成的可选 OpenAI 集成 • 以 JSON 格式导入/导出模板 • 隐私第一 - 所有数据均保留在本地 技术堆栈：Chrome Manifest V3、Vanilla JavaScript、OpenAI API（可选） 接受反馈和 PR！   由   提交/u/Holiday_Ad_4557   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pv6twd/issue2prompt_chrome_extension_that_extracts/</guid>
+      <pubDate>Thu, 25 Dec 2025 06:09:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Three.js 在浏览器中实现类似 Blender 的建模功能</title>
+      <link>https://www.reddit.com/r/programming/comments/1pv62om/implementing_blenderlike_modeling_features_in_the/</link>
+      <description><![CDATA[我正在使用 Three.js 构建一个基于 Web 的 3D 建模应用程序，旨在直接在浏览器中实现类似 Blender 的建模功能（顶点、边、面编辑、捕捉、变换）。 主要的技术挑战是设计一个自定义网格数据结构来存储基于多边形的拓扑而不是仅三角形的几何图形。所有建模工具都在此网格结构上运行，然后将其转换为可渲染的 Three.js 几何体。这允许高效地编辑复杂模型，同时保持拓扑完整。 探索基于网络的建模和实时网格操作是一次令人着迷的旅程，我想分享我在此过程中遇到的一些见解和挑战。   由   提交 /u/Sengchor   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pv62om/implementing_blenderlike_modeling_features_in_the/</guid>
+      <pubDate>Thu, 25 Dec 2025 05:20:57 GMT</pubDate>
+    </item>
     <item>
       <title>解决人工智能结构化内容爬行效率低下的规范</title>
       <link>https://www.reddit.com/r/programming/comments/1puyk3x/specification_addressing_inefficiencies_in/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[大家好！我刚刚通过 Ring 编程语言上传了一段视频。你可能从未听说过它，但不久前我也没有听说过。我已经检查了几天了，想制作一个涵盖该语言的小视频，但有一点点的总结。它超越了诸如语法灵活性、多范式和内置库之类的东西。我希望您能检查一下并至少在某种程度上享受它。   由   提交/u/sup1109  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pugi0i/ring_best_programming_language_for_2026/</guid>
       <pubDate>Wed, 24 Dec 2025 06:25:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>监控如何扩展：TSBD 中的 XOR 编码</title>
-      <link>https://www.reddit.com/r/programming/comments/1pudwss/how_monitoring_scales_xor_encoding_in_tsbds/</link>
-      <description><![CDATA[ 由   提交/u/Helpful_Geographer430   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pudwss/how_monitoring_scales_xor_encoding_in_tsbds/</guid>
-      <pubDate>Wed, 24 Dec 2025 04:00:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Mac App Store (MAS) 上发布基于 Java 的数据库工具</title>
-      <link>https://www.reddit.com/r/programming/comments/1puavvd/publishing_a_javabased_database_tool_on_mac_app/</link>
-      <description><![CDATA[ 由   提交/u/tanin47  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1puavvd/publishing_a_javabased_database_tool_on_mac_app/</guid>
-      <pubDate>Wed, 24 Dec 2025 01:26:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们如何将 1.5GB 数据库减少 99%</title>
-      <link>https://www.reddit.com/r/programming/comments/1puavnz/how_we_reduced_a_15gb_database_by_99/</link>
-      <description><![CDATA[ 由   提交/u/Moist_Test1013  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1puavnz/how_we_reduced_a_15gb_database_by_99/</guid>
-      <pubDate>Wed, 24 Dec 2025 01:26:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
