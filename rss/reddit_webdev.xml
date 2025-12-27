@@ -4,11 +4,53 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 27 Dec 2025 09:17:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 12:32:02 GMT</lastBuildDate>
+    <item>
+      <title>从 WordPress 中的页面构建升级</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwwqnn/moving_up_the_ladder_from_pagebuilding_in/</link>
+      <description><![CDATA[大家好， 我的“网络开发”职业生涯正处于一个岔路口。作为背景，我在过去几年中一直使用 Webflow 和 Wordpress (Bricks Builder) 来构建企业网站。  我现在主要在 Wordpress 中使用 Bricks，因为它感觉更像是一个开发环境 - 我不断地编写自己的 CSS、GSAP 动画等，并发现我想进一步提高我的技能。  我的疑问和问题是我不知道从这里去哪里 - 感觉下一步就是跳进一个很深的泳池，而且我不知道去哪里（或如何）游泳。上大学并不是一个真正的选择，因为我是唯一的养家糊口，而且还有一个新生儿。我想进一步扩展我的技能，更深入地了解一般编程，而不是在视觉画布上构建页面。 希望得到专业人士的一些建议！   由   提交 /u/blazecreatives   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwwqnn/moving_up_the_ladder_from_pagebuilding_in/</guid>
+      <pubDate>Sat, 27 Dec 2025 12:30:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Javascript 通过 MIDI 协议从浏览器控制音乐软件</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwwf4d/javascript_controls_music_software_from_the/</link>
+      <description><![CDATA[      源代码：https://github.com/MaxAlyokhin/binary-synth 在过去的两年里，我致力于从任何文件的二进制代码生成声音和 MIDI 消息的网络合成器。您可以观看一些视频演示，例如这个（如果您喜欢氛围音乐）和这个（如果您喜欢任何解构/突破核心的声音）。您知道一些使用 Web MIDI API/Web Audio API 的有趣开源项目吗？我想我已经研究了所有这些，但我相信你会告诉我一些我错过的新东西。   由   提交/u/Interesting-Bed-4355   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwwf4d/javascript_controls_music_software_from_the/</guid>
+      <pubDate>Sat, 27 Dec 2025 12:12:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 一个简单的开源文档模板</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pww00x/showoff_saturday_a_simple_open_source/</link>
+      <description><![CDATA[       https://preview.redd.it/h7oq32jhiq9g1.png?width=3024&amp;format=png&amp;auto=webp&amp;s=6f8217c44c372d0787bf770310472bb129d5526a 在处理 Basecoat 和 /dev/push 时，我需要创建文档站点。大多数替代方案都是基于 React 的。我想要一些现代而简单的东西，最好没有 React 依赖。 所以我用 11ty 和 Basecoat 构建了 ReallySimpleDocs：  演示/文档：https://reallysimpledocs.com/ GitHub：https://github.com/hunvreus/reallysimpledocs  您可以使用 GitHub 模板或简单地运行： npm create realsimpledocs@latest my-docs 主要特点：  快速（11ty 是最快的网站生成器之一）。 Vanilla CSS、JS 和 HTML。 基于 Git。如果您需要 CMS，则可以使用 Pages CMS。 自动生成 llms.txt、llms-full.txt 和针对 LLM 的每页 /*.md 导出。 100% 免费且开源。  有关 路线图，从全文搜索开始   由   提交 /u/hunvreus   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pww00x/showoff_saturday_a_simple_open_source/</guid>
+      <pubDate>Sat, 27 Dec 2025 11:47:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了失去 ChatGPT 会话，所以我做了这个</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwvk3v/i_got_tired_of_losing_my_chatgpt_convos_so_i_made/</link>
+      <description><![CDATA[      https://i.redd.it/ov0335xtdq9g1.gif https://i.redd.it/6w330ogudq9g1.gif 想法？   由   提交 /u/Ok-Evidence7289   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwvk3v/i_got_tired_of_losing_my_chatgpt_convos_so_i_made/</guid>
+      <pubDate>Sat, 27 Dec 2025 11:20:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在圣诞节那天被黑了 2100 万美元 - 这是我犯的 Supabase RLS 错误</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwuy1x/i_got_hacked_for_21m_on_christmas_day_heres_the/</link>
+      <description><![CDATA[构建了一个名为 OneDollarChat 的副项目 - 一个全球聊天，每条消息的费用为 1 美元。将其发布在 Reddit 上，获得了一些关注，然后就去睡觉了。 醒来发现一个用户的余额为 21,474,836.47 美元。那是 INT_MAX。圣诞节早上。 发生了什么： 我的 Supabase RLS 策略说“用户可以更新自己的行。”听起来很安全，对吧？ 除了“他们自己的行”之外包括余额列。所以他们只是...更新了它。 -- 我有什么（坏）CREATE POLICY “用户可以更新自己的行” ON 用户使用 (auth.uid() = id) 进行更新； -- 我需要什么（好）创建策略“用户可以更新自己的个人资料” ON users FOR UPDATE USING (auth.uid() = id) WITH CHECK ( -- 只允许更新安全列balance = (SELECT Balance FROM users WHERE id = auth.uid()) );  同一用户也尝试过 XSS： 将他们的 avatar_url 设置为 javascript:alert(“meow”)。我的 RLS 也让他们更新了。头像呈现为“MEOW”而不是单个字母首字母 - 这就是我捕获它的方式。 他们的 2100 万美元消息：  “meowww mrrp :3”  我保留它。现在是艺术。 教训：  “用户可以更新自己的行”不是安全策略 - 这是一个漏洞 明确列出列，不要仅信任行级别 您的第一个真正用户将尝试破坏所有内容 无论如何都要发布，快速修复，公开学习  如果您想看到混乱，该网站是https://onedollarchat.com。   由   提交 /u/Equivalent-Yak2407   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwuy1x/i_got_hacked_for_21m_on_christmas_day_heres_the/</guid>
+      <pubDate>Sat, 27 Dec 2025 10:42:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个开源 VSCode 扩展，它嵌入了大约 30 个工具来替换一堆在线工具。免费、无广告、本地运行</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwuukd/i_built_an_opensource_vscode_extension_that/</link>
+      <description><![CDATA[   /u/TinFungHK  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwuukd/i_built_an_opensource_vscode_extension_that/</guid>
+      <pubDate>Sat, 27 Dec 2025 10:36:09 GMT</pubDate>
+    </item>
     <item>
       <title>寻找组合灵感：“可见网格”美学和极简主义色彩流行。</title>
       <link>https://www.reddit.com/r/webdev/comments/1pwtkal/looking_for_portfolio_inspiration_visible_grid/</link>
-      <description><![CDATA[我正在为开发者组合寻找灵感，但我现在确实陷入了两种特定的美学。 首先，我喜欢“结构”风格。查看布局网格在哪里通过可见的线条和边框变得明显。我见过的最好的例子是 Chanh Dai 和当前的 Tailwind CSS 网站。 或者，我正在寻找极其简约的深色模式网站，这些网站依赖于单一的“流行颜色”。用于互动和亮点，类似于 rauno.me 上的出色工作。 任何指向这两种风格的类似网站的链接将不胜感激！   由   提交/u/jhaatkabaall   [链接] [评论]]]></description>
+      <description><![CDATA[我正在为开发者组合寻找灵感，而我现在确实陷入了两种特定的美学。 首先，我喜欢“结构”风格。查看布局网格在哪里通过可见的线条和边框变得明显。我见过的最好的例子是 Chanh Dai 和当前的 Tailwind CSS 网站。 或者，我正在寻找极其简约的深色模式网站，这些网站依赖于单一的“流行颜色”。用于互动和亮点，类似于 rauno.me 上的出色工作。 任何指向这两种风格的类似网站的链接将不胜感激！   由   提交/u/jhaatkabaall   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pwtkal/looking_for_portfolio_inspiration_visible_grid/</guid>
       <pubDate>Sat, 27 Dec 2025 09:14:08 GMT</pubDate>
     </item>
@@ -43,7 +85,7 @@
     <item>
       <title>DevAegis – 用于防止代码秘密泄露的本地 CLI</title>
       <link>https://www.reddit.com/r/webdev/comments/1pws13b/devaegis_local_cli_for_preventing_secret_leaks_in/</link>
-      <description><![CDATA[      嘿 r/webdev 构建了 DevAegis，这是一个基于 Rust 的本地 CLI，可以实时扫描代码、捕获 API 密钥/令牌/PII 泄漏、建议修复并阻止不良 git提交。 100% 离线（无云/遥测），清洁时静音 - 确保流程安全，无噪音。 Windows 测试版已准备就绪，macOS/Linux 即将推出。 站点/等待列表：https://devaegis.pages.dev/（前 500 名可终身免费获得专业版） Web 开发人员 - 在紧急部署中是否曾泄露过密钥？ 想法/反馈？ 谢谢！ Soumyadyuti   由   提交/u/soumyadyuti_245   [链接] [评论] ]]></description>
+      <description><![CDATA[      嘿 r/webdev 构建了 DevAegis，这是一个基于 Rust 的本地 CLI，可以实时扫描代码、捕获 API 密钥/令牌/PII 泄漏、建议修复并阻止不良 git提交。 100% 离线（无云/遥测），干净时静音 - 确保流程安全，无噪音。 Windows 测试版已准备就绪，macOS/Linux 即将推出。 站点/等待列表：https://devaegis.pages.dev/（前 500 名可终身免费获得专业版） Web 开发人员 - 在紧急部署中是否曾泄露过密钥？ 想法/反馈？ 谢谢！ Soumyadyuti   由   提交/u/soumyadyuti_245   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pws13b/devaegis_local_cli_for_preventing_secret_leaks_in/</guid>
       <pubDate>Sat, 27 Dec 2025 07:36:45 GMT</pubDate>
     </item>
@@ -67,48 +109,6 @@
       <description><![CDATA[hugo、zola、astrojs 等有白板/思维导图主题（如 miro、scrintal、milanote、kinopio）吗？   由   提交/u/ThinkTourist8076  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pwo3uu/whiteboardmindmap_themed_static_site_generator/</guid>
       <pubDate>Sat, 27 Dec 2025 03:59:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个用于公路旅行规划的生产规模的 React + Node 应用程序 - 寻找架构反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwo263/built_a_productionscale_react_node_app_for_road/</link>
-      <description><![CDATA[      我一直在从事一个业余项目，该项目慢慢地变成了比我最初预期的更接近“真实”生产应用程序的东西，并且我正在尝试与其他开发人员一起对一些架构选择进行合理性检查。 该应用程序 (Roadtrip Beaver) 有助于规划 Buc-ee 位置周围的公路旅行并跟踪一段时间内的访问情况，但域名这并不是重点——该项目成为了练习完整应用程序架构而不是构建另一个演示的借口。 我做出的一些我特别不确定的决定： 前端/状态  React 18，服务器状态（TanStack Query）和仅客户端状态（Zustand）之间存在严格划分 没有全局“应用程序商店” - 一切都局限于功能 与后端共享 TypeScript 类型，而不是复制 DTO  后端  每个请求边界上的 Express + Zod 验证 JWT 身份验证，具有刷新令牌轮换（数据库支持）+ OAuth Prisma + Postgres 具有相当标准化的架构（对于副项目来说可能过于标准化）  Monorepo / infra  用于前端、API、共享包的 Turborepo + pnpm 工作区 Docker 多阶段构建，即使部署由 Railway 处理 显式环境分离和迁移工作流程  我可能过度投资的一个领域是 SEO 和内容架构：  动态、基于状态的页面（位置目录、公路旅行指南） JSON-LD 结构化数据 在部署时通过 Puppeteer 进行静态预渲染 CMS 驱动的内容，而不是硬编码的副本  还有一个管理系统（角色、审核日志、重建触发器、数据保留规则），我完全承认这是多余的 - 但学习这些模式是有意的。 我真正喜欢反馈的是：  在业余项目中，哪些是您永远不会费心的？ 您会在哪里停止并让事情变得更简单？ 对于作品集工作，什么信号对您来说是“生产就绪”与“不必要的复杂”？  如果有人想要上下文，该应用程序已上线，但我对架构意见比流量更感兴趣。 https://roadtripbeaver.com   由   提交/u/HerebyGuy   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwo263/built_a_productionscale_react_node_app_for_road/</guid>
-      <pubDate>Sat, 27 Dec 2025 03:56:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>我将失败的平台重建为过期的开放聊天室</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwmy7z/i_rebuilt_my_failed_platform_into_open_chatrooms/</link>
-      <description><![CDATA[      不久前我建立了一个平台，让用户可以使用post context ，是的（有点克隆），基本上是一个社交产品，介于 Reddit 和 Pinterest 之间。 我在 Reddit 上分享了它，前两周内就有了 500 多个用户，人们不断回来发帖。 但我仍然不喜欢结果。它并没有让我觉得非常有趣。 我运行了另一个大约有 7-10k MAU 的工具，与此相比，这个项目感觉……不太好。 所以我关闭了它。 我不想浪费精力，所以我退后一步思考了很长一段时间（太长了）。 我浪费了几个月的思考时间..所以这个项目成为了阻止我继续工作的负担。  最终，我重建了它， Cobbic（新版本） 它现在是一个围绕热门话题而不是帖子构建的实时聊天平台。  人们创建话题（热门话题） 每个话题的生存时间为30天 任何人都可以“嗡嗡”话题以将其延长 5 天分钟 当时间耗尽时，线程永远消失  这不是一个全新的想法，我知道，但我需要做点什么并继续前进。 功能：  实时聊天（线程是聊天室） 可选的匿名参与 仅显示热门对话（旧内容消失） 查看在线的朋友加入同一个线程 一起观看、实时通话等活动（测试版）  我最初发布了 24 小时线程的测试版，但在测试后将其更改为 30 天。 将来，我可能会以社区帖子的形式带回最初的发帖想法，但仅作为次要的事情。 链接：https://cobbic.com  任何任何反馈都会非常棒。    由   提交/u/BeginningCollege970   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwmy7z/i_rebuilt_my_failed_platform_into_open_chatrooms/</guid>
-      <pubDate>Sat, 27 Dec 2025 03:02:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>看看人工智能最近的变化</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwmqf5/seeing_the_recent_changes_in_ai_stuff/</link>
-      <description><![CDATA[所以，我目前是一名大学生，我很好奇是否有任何与人工智能相关的新东西，虽然不是特别是人工智能，但后端人员现在应该知道。 比如我可以在我的项目中使用的东西，这些东西可以作为新兴事物脱颖而出   由   提交 /u/Ok_House_1114   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwmqf5/seeing_the_recent_changes_in_ai_stuff/</guid>
-      <pubDate>Sat, 27 Dec 2025 02:52:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>每天8小时如何真正编码？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwlahy/how_to_actually_code_8_hours_a_day/</link>
-      <description><![CDATA[这里是真正的问题。我看到人们谈论整个工作日的编码，但在我的大脑变得混乱之前，我很难保持专注超过 3-4 个小时。 你们真的会连续 8 小时编写代码吗？或者更像是 4-5 小时的实际编码，加上会议、代码审查和盯着墙壁想知道为什么你的 CSS 无法居中？ 你典型的一天是什么样的？有什么技巧可以增强耐力而不耗尽精力吗？   由   提交 /u/D0ct0r_H0td0g   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwlahy/how_to_actually_code_8_hours_a_day/</guid>
-      <pubDate>Sat, 27 Dec 2025 01:43:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>您认为互联网历史上最酷的网站是什么？为什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwl9mt/what_do_you_think_is_the_coolest_website_in_the/</link>
-      <description><![CDATA[我可能会说维基百科和互联网档案馆，因为它们让每个人都更容易获取知识。  你呢？您会选择哪个网站，为什么？   由   提交 /u/computersmakeart   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwl9mt/what_do_you_think_is_the_coolest_website_in_the/</guid>
-      <pubDate>Sat, 27 Dec 2025 01:42:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>不确定这里是否允许这种帖子，但我需要你们的帮助。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwj7jt/not_sure_if_this_kinda_post_is_allowed_here_but_i/</link>
-      <description><![CDATA[利用我所拥有的技能赚钱最快的方法是什么？（目前还不能真正编码，但我可以在Figma中创建设计）。 我正在考虑（重新）设计网站的英雄部分。我将为 1 种桌面、1 种移动设计收取 200 美元的费用，但我什至不确定这是否合适。或者我是否应该使用自动布局使设计响应式。一直在浏览一些 Facebook 页面...但是嗯。我真的迷路了。我能做什么？   由   提交 /u/Imaginary_Print4910   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwj7jt/not_sure_if_this_kinda_post_is_allowed_here_but_i/</guid>
-      <pubDate>Sat, 27 Dec 2025 00:07:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
