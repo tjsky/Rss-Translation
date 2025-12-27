@@ -4,7 +4,84 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 27 Dec 2025 12:32:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 15:17:31 GMT</lastBuildDate>
+    <item>
+      <title>DevType - 掌握您的编码速度</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwzwiz/devtype_master_your_coding_speed/</link>
+      <description><![CDATA[我了解了这个工具，所以分享一下，我发现非常有用链接：https://devtype.pankajk.tech/ 仓库：https://github.com/pankajkumardev/devtype   由   提交 /u/Much_Ask3471   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwzwiz/devtype_master_your_coding_speed/</guid>
+      <pubDate>Sat, 27 Dec 2025 15:05:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>有一个基本的网站并需要开设商店吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwzrsl/have_a_basic_website_and_need_to_incorporate_a/</link>
+      <description><![CDATA[如果您已有网站或博客，但需要合并电子商务商店，如果您可以访问底层代码，我可以提供帮助。    由   提交 /u/Alternative-Put-9978   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwzrsl/have_a_basic_website_and_need_to_incorporate_a/</guid>
+      <pubDate>Sat, 27 Dec 2025 14:59:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>我使用 Nextjs ISR 构建了一个具有 PageSpeed 95-100 的博客平台 – 方法如下</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwzfby/i_built_a_blogging_platform_with_pagespeed_95100/</link>
+      <description><![CDATA[      Hey /webdev  我厌倦了静态网站与 CMS 的权衡，所以我在两者之间构建了一些东西。我想分享一下技术方法。 问题： 静态网站（Hugo、Jekyll）速度很快，但编辑很糟糕。 CMS（Ghost、WordPress）很简单，但速度很慢。我两者都想要。 解决方案： write.rocks 技术堆栈：  带有 ISR + 按需重新验证的 Next.js 词法编辑器（双向富文本 ↔ markdown） Hetzner 图像对象存储 已发布的博客没有客户端 JS 膨胀  性能结果：  PageSpeed：始终如一的 95-100 TTFB：边缘缓存 &lt;100 毫秒 无布局变化，最少的 JS   https://preview.redd.it/gibgm231er9g1.jpg?width=2364&amp;format=pjpg&amp;auto=webp&amp;s=35421e654b6d0c9807ecd9931e6e54d8a211ba6f 关键决策：  选择 Lexical 而不是 TipTap/Plate 来获得原生 Markdown 支持 ISR 而非完整的 SSG，无需重建即可即时发布 使用每日轮换加盐哈希而不是 Cookie 进行隐私分析  乐于回答技术问题。还提供发布赠品 - 发布帖子，免费获得 3 个月的专业版。   由   提交/u/NoCucumber4783  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwzfby/i_built_a_blogging_platform_with_pagespeed_95100/</guid>
+      <pubDate>Sat, 27 Dec 2025 14:43:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有自己的软件公司的开发人员？介意分享您的经验吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwyxdg/any_devs_her_with_their_own_software_company_mind/</link>
+      <description><![CDATA[我和我的好友已经从事开发工作 15 年以上，并且正在考虑开始我们自己的工作。我们在我们的网络中非常有名，与我们合作过的人对我们提供的质量非常积极。  我们一直在一家咨询公司工作，该公司将我们派往全国各地的客户，从事新建项目。但我对做我们自己的事情感到怀疑。我喜欢我们所做的工作，但我不知道，这似乎是迈出的一大步   由   提交 /u/Imparat0r   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwyxdg/any_devs_her_with_their_own_software_company_mind/</guid>
+      <pubDate>Sat, 27 Dec 2025 14:20:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何将 Next.js 服务器操作与所有这些 TS 类型一起使用并且不放松？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwyx4t/how_to_use_nextjs_server_action_with_all_those_ts/</link>
+      <description><![CDATA[我将它与 next-safe-action 一起使用，但总的来说这还不够好。我必须处理多种类型 - Prisma 中的 DB 类型、React 组件 prop 类型、better-auth 类型、zod 验证、读取/插入/更新中的各种类型...您如何处理？您是否在从数据库到操作的类型之间映射以反应道具？或者如何？我的头要爆炸了   由   提交 /u/Final-Choice8412   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwyx4t/how_to_use_nextjs_server_action_with_all_those_ts/</guid>
+      <pubDate>Sat, 27 Dec 2025 14:20:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>我使用 Next.js 16 Server Actions 和 Gemini Flash 构建了一个流式 UI 生成器（现场演示）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwyaoy/i_built_a_streaming_ui_generator_using_nextjs_16/</link>
+      <description><![CDATA[嘿r/webdev， 我想针对结构化 UI 生成任务对新的 Gemini 2.5 Flash 模型进行压力测试。 因此，我构建了一个采用原始想法的工具（例如，“A”）猫宇航员的作品集”）并实时传输完整的 React 登陆页面。 技术堆栈：  Next.js 14/16（应用程序路由器）：使用服务器操作作为后端逻辑。 AI： Google Gemini 2.5 Flash（与GPT）。 样式： Tailwind CSS（映射到预构建的组件）。 流式传输：使用 useOptimistic 和 readStreamableValue 实现即时打字效果。  现场演示（免费使用）： https://page-alchemist.vercel.app 最大的挑战是防止 LLM 产生无效的 Tailwind 类的幻觉。我通过提供严格的“组件词汇表”解决了这个问题。在系统提示符中。 如果您设法破坏布局，请告诉我！我正在尝试寻找边缘情况。   由   提交/u/nickyy88  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwyaoy/i_built_a_streaming_ui_generator_using_nextjs_16/</guid>
+      <pubDate>Sat, 27 Dec 2025 13:51:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>参数 SVG 生成器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwy5ka/parametric_svg_generator/</link>
+      <description><![CDATA[      这是一个用于生成半随机参数化设计的工具，可下载为 SVG。 https://github.benmirkhah.com/svgen/ 我第一次在这里展示，感谢您的关注🥂   由   提交/u/Affectionate-Skin633  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwy5ka/parametric_svg_generator/</guid>
+      <pubDate>Sat, 27 Dec 2025 13:43:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>​我使用 Laravel 11 + Nuxt 3 + RAG 构建了一个应用程序，将会议音频转换为结构化 GitHub 问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwy49p/i_built_an_app_to_turn_meeting_audio_into/</link>
+      <description><![CDATA[      嘿伙计们👋周六炫耀快乐。 我经营一家开发机构，我注意到我们花了太多时间“翻译”内容。原始的客户电话和注释会转化为严格的技术票据。因此，我构建了 Draftlog 来自动化细化过程。 技术堆栈：前端：Nuxt 4（Vue Composition API）+ Tailwind CSS。后端：Laravel 12 + Postgres。实时：用于看板更新的 Laravel Reverb (Websockets)。 AI：Gemini Flash 1.5 + pgvector 技术挑战（RAG）：最困难的部分是阻止 LLM 产生幻觉依赖关系。我通过创建“技术 DNA”解决了这个问题。对于每个项目。我们将项目的架构约束（例如，“使用 Pest 进行测试”、“仅 Tailwind”）存储在矢量数据库中。生成票证时，系统会在提示中注入严格相关的上下文，以便输出准备好代码。 现场演示/等待列表：Draftlog 我很想听听您对 UI 的想法或回答有关 Reverb/Nuxt 集成的任何问题！   由   提交/u/elmascato  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwy49p/i_built_an_app_to_turn_meeting_audio_into/</guid>
+      <pubDate>Sat, 27 Dec 2025 13:42:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在 3D 建模 Web 应用程序中添加了一个顶点捕捉工具。🙂</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwy2bm/i_added_a_vertex_snapping_tool_to_my_3d_modeling/</link>
+      <description><![CDATA[      源代码：https://github.com/sengchor/kokraf   由   提交 /u/Sengchor   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwy2bm/i_added_a_vertex_snapping_tool_to_my_3d_modeling/</guid>
+      <pubDate>Sat, 27 Dec 2025 13:39:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Perplexity 的开源替代方案</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwy1a6/open_source_alternative_to_perplexity/</link>
+      <description><![CDATA[SciraAI 是一个开源人工智能搜索工具，是 Perplexity 的替代品。已经有 10k+ Github 星星。 它是 开源，10k+ Github 星星 - Github 链接 这是技术故障： 前端：  Next.js（React 框架） Tailwind CSS Shadcn/UI 组件  人工智能与人工智能搜索  Vercel AI SDK Exa AI（网络搜索和内容检索） AnannasAI 用于统一 LLM API 访问各种模型  后端和内容检索Auth  更好的身份验证 Drizzle ORM Daytona（代码执行沙箱）  完全容器化，支持 Docker，并在 AGPLv3 下获得许可。   由   提交 /u/Silent_Employment966   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwy1a6/open_source_alternative_to_perplexity/</guid>
+      <pubDate>Sat, 27 Dec 2025 13:37:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>一款基于人工智能的推荐应用程序，了解口味</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwxakr/an_ai_based_recommendation_app_which_understands/</link>
+      <description><![CDATA[一款真正了解您的品味并推荐观看内容的媒体推荐应用。电影和电视节目。 请尝试：https://www.mediavoyager.in/ Github：https://github.com/DarkKnight1302/MediaVoyager   由   提交 /u/robinhood1302   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwxakr/an_ai_based_recommendation_app_which_understands/</guid>
+      <pubDate>Sat, 27 Dec 2025 13:00:39 GMT</pubDate>
+    </item>
     <item>
       <title>从 WordPress 中的页面构建升级</title>
       <link>https://www.reddit.com/r/webdev/comments/1pwwqnn/moving_up_the_ladder_from_pagebuilding_in/</link>
@@ -27,88 +104,11 @@
       <pubDate>Sat, 27 Dec 2025 11:47:45 GMT</pubDate>
     </item>
     <item>
-      <title>我厌倦了失去 ChatGPT 会话，所以我做了这个</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwvk3v/i_got_tired_of_losing_my_chatgpt_convos_so_i_made/</link>
-      <description><![CDATA[      https://i.redd.it/ov0335xtdq9g1.gif https://i.redd.it/6w330ogudq9g1.gif 想法？   由   提交 /u/Ok-Evidence7289   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwvk3v/i_got_tired_of_losing_my_chatgpt_convos_so_i_made/</guid>
-      <pubDate>Sat, 27 Dec 2025 11:20:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在圣诞节那天被黑了 2100 万美元 - 这是我犯的 Supabase RLS 错误</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwuy1x/i_got_hacked_for_21m_on_christmas_day_heres_the/</link>
-      <description><![CDATA[构建了一个名为 OneDollarChat 的副项目 - 一个全球聊天，每条消息的费用为 1 美元。将其发布在 Reddit 上，获得了一些关注，然后就去睡觉了。 醒来发现一个用户的余额为 21,474,836.47 美元。那是 INT_MAX。圣诞节早上。 发生了什么： 我的 Supabase RLS 策略说“用户可以更新自己的行。”听起来很安全，对吧？ 除了“他们自己的行”之外包括余额列。所以他们只是...更新了它。 -- 我有什么（坏）CREATE POLICY “用户可以更新自己的行” ON 用户使用 (auth.uid() = id) 进行更新； -- 我需要什么（好）创建策略“用户可以更新自己的个人资料” ON users FOR UPDATE USING (auth.uid() = id) WITH CHECK ( -- 只允许更新安全列balance = (SELECT Balance FROM users WHERE id = auth.uid()) );  同一用户也尝试过 XSS： 将他们的 avatar_url 设置为 javascript:alert(“meow”)。我的 RLS 也让他们更新了。头像呈现为“MEOW”而不是单个字母首字母 - 这就是我捕获它的方式。 他们的 2100 万美元消息：  “meowww mrrp :3”  我保留它。现在是艺术。 教训：  “用户可以更新自己的行”不是安全策略 - 这是一个漏洞 明确列出列，不要仅信任行级别 您的第一个真正用户将尝试破坏所有内容 无论如何都要发布，快速修复，公开学习  如果您想看到混乱，该网站是https://onedollarchat.com。   由   提交 /u/Equivalent-Yak2407   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwuy1x/i_got_hacked_for_21m_on_christmas_day_heres_the/</guid>
-      <pubDate>Sat, 27 Dec 2025 10:42:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个开源 VSCode 扩展，它嵌入了大约 30 个工具来替换一堆在线工具。免费、无广告、本地运行</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwuukd/i_built_an_opensource_vscode_extension_that/</link>
-      <description><![CDATA[   /u/TinFungHK  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwuukd/i_built_an_opensource_vscode_extension_that/</guid>
-      <pubDate>Sat, 27 Dec 2025 10:36:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找组合灵感：“可见网格”美学和极简主义色彩流行。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwtkal/looking_for_portfolio_inspiration_visible_grid/</link>
-      <description><![CDATA[我正在为开发者组合寻找灵感，而我现在确实陷入了两种特定的美学。 首先，我喜欢“结构”风格。查看布局网格在哪里通过可见的线条和边框变得明显。我见过的最好的例子是 Chanh Dai 和当前的 Tailwind CSS 网站。 或者，我正在寻找极其简约的深色模式网站，这些网站依赖于单一的“流行颜色”。用于互动和亮点，类似于 rauno.me 上的出色工作。 任何指向这两种风格的类似网站的链接将不胜感激！   由   提交/u/jhaatkabaall   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwtkal/looking_for_portfolio_inspiration_visible_grid/</guid>
-      <pubDate>Sat, 27 Dec 2025 09:14:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>反馈请求 - “学校”项目</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwtjft/feadback_request_school_projekt/</link>
-      <description><![CDATA[是的，字典还没有翻译，如果有人愿意的话，日历数学需要修复/清理：3   由   提交/u/GregBomb   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwtjft/feadback_request_school_projekt/</guid>
-      <pubDate>Sat, 27 Dec 2025 09:12:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>适用于企业和副项目的品牌工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwtfbt/branding_tools_for_businesses_and_side_projects/</link>
-      <description><![CDATA[      嘿r/webdev！ 构建了可能对客户项目或副项目有用的免费工具页面：  企业名称生成器 — 由 AI 驱动，可跨 8 个 TLD 进行实时域可用性检查 域检查器 — 批量检查可用性前缀/后缀变化 调色板提取器 - 从图像中提取颜色，导出为 CSS 变量或 JSON 品牌颜色生成器 - 从单个十六进制值生成和谐的调色板 对比度检查器 - WCAG AA/AAA 验证可访问性合规性 二维码生成器 - 可使用徽标叠加和品牌颜色进行自定义 图像调整器 - 自定义尺寸、社交预设和网站图标包生成 格式转换器 — PNG ↔ JPEG ↔ WEBP 转换  无需注册，完全免费，可以在此处找到工具：proicon.ai/tools 欢迎反馈。您想要添加任何工具吗？   由   提交 /u/AbodFTW   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwtfbt/branding_tools_for_businesses_and_side_projects/</guid>
-      <pubDate>Sat, 27 Dec 2025 09:05:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>厌倦了传统 CMS 的臃肿，所以我构建了 ZedCMS。 500 行内核、事件驱动路由和 React/BlockNote 内容。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwsrg7/got_tired_of_legacy_cms_bloat_so_i_built_zedcms/</link>
-      <description><![CDATA[我花了太多年的时间来处理 WordPress 的遗留债务和分散的设置。我想要一个感觉像现代 PHP 8.2+ 应用程序的 CMS，而不是 2010 年编码实践的博物馆。 ZedCMS 是我对“无重量”的尝试。  技术核心：  微内核：核心严格用于路由、身份验证和事件。其他一切 - 甚至管理面板 - 都是一个解耦的插件。 没有路线图：我使用了事件驱动的路由器。插件监听 route_request 并动态声明 URI。 编辑器： 它使用 React 18 和 BlockNote。内容以结构化 JSON 块的形式存储在数据库中，而不是原始 HTML。 WebP 管道：我将图像优化融入到核心中 - 它会自动转换为 WebP 并在上传时处理调整大小/缩略图，无需插件。 内置文档： 开发者 wiki 位于管理面板中，直接从content/docs 文件夹。  Stack： PHP 8.2+、MySQL (PDO/JSON)、React 18、Vite。 它已获得 MIT 许可。现在还很早（v1.7.0），所以我正在寻找有关架构和主题 API 的反馈。 Repo： https://github.com/aamirali51/ZedCMS 如果您想测试路由逻辑或块渲染器，我已经准备好了。我会在评论中回答任何问题。   由   提交/u/aamirali51  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwsrg7/got_tired_of_legacy_cms_bloat_so_i_built_zedcms/</guid>
-      <pubDate>Sat, 27 Dec 2025 08:22:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>经过对我最新网站的多次迭代后，我对 UI / UX 非常满意。希望得到一些反馈。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pws95a/i_am_really_happy_with_the_ui_ux_after_a_lot_of/</link>
-      <description><![CDATA[   generor.com/pfp &lt;- 如果你想与之交互   由   提交 /u/alekblom   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pws95a/i_am_really_happy_with_the_ui_ux_after_a_lot_of/</guid>
-      <pubDate>Sat, 27 Dec 2025 07:50:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>DevAegis – 用于防止代码秘密泄露的本地 CLI</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pws13b/devaegis_local_cli_for_preventing_secret_leaks_in/</link>
-      <description><![CDATA[      嘿 r/webdev 构建了 DevAegis，这是一个基于 Rust 的本地 CLI，可以实时扫描代码、捕获 API 密钥/令牌/PII 泄漏、建议修复并阻止不良 git提交。 100% 离线（无云/遥测），干净时静音 - 确保流程安全，无噪音。 Windows 测试版已准备就绪，macOS/Linux 即将推出。 站点/等待列表：https://devaegis.pages.dev/（前 500 名可终身免费获得专业版） Web 开发人员 - 在紧急部署中是否曾泄露过密钥？ 想法/反馈？ 谢谢！ Soumyadyuti   由   提交/u/soumyadyuti_245   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pws13b/devaegis_local_cli_for_preventing_secret_leaks_in/</guid>
-      <pubDate>Sat, 27 Dec 2025 07:36:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>反馈请求 - Claude Chrome 控制台错误和其他错误扩展</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwr2ne/feedback_request_claude_chrome_extension_for/</link>
-      <description><![CDATA[我构建了一个小型 Chrome 扩展程序，用于监视控制台错误并使用 Claude 对其进行解释。 https://github.com/mechramc/debug-buddy-claude 它在本地运行并使用您自己的 API 密钥（无后端）。 好奇其他人是否会发现这有用或您需要改进什么。   由   提交 /u/Meteoraxolotl   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwr2ne/feedback_request_claude_chrome_extension_for/</guid>
-      <pubDate>Sat, 27 Dec 2025 06:39:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>为互联网上运行的技术建立一个目录</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwqpbt/built_a_directory_for_what_technologies_are/</link>
-      <description><![CDATA[      我刚刚部署了一个静态网站，该网站记录了截至 2025 年 11 月我的指纹识别软件识别的技术。它涵盖了在超过 500 万个域中检测到的超过 3400 种不同技术。在整个网站中，您可以免费下载超过 100K 个独特的域作为免费示例。 对于每种技术，该网站都会显示：  发现了哪些技术 检测到了哪些版本（如果适用） 在使用该技术的网站上观察到的语言 最常见的国家/地区 与其常见位置相关的 IP 所有权出现 最常在 TLD 上找到 通常与它一起检测到的其他技术  如果您想快速浏览一下互联网上运行的内容，而无需注册任何内容，请查看它。 希望您喜欢深入研究它。让我知道您希望将来添加哪些内容。 https://versiondb.io   由   提交/u/Upper-Character-6743   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwqpbt/built_a_directory_for_what_technologies_are/</guid>
-      <pubDate>Sat, 27 Dec 2025 06:17:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>白板/思维导图主题静态站点生成器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwo3uu/whiteboardmindmap_themed_static_site_generator/</link>
-      <description><![CDATA[hugo、zola、astrojs 等有白板/思维导图主题（如 miro、scrintal、milanote、kinopio）吗？   由   提交/u/ThinkTourist8076  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwo3uu/whiteboardmindmap_themed_static_site_generator/</guid>
-      <pubDate>Sat, 27 Dec 2025 03:59:20 GMT</pubDate>
+      <title>VisionPlayer - 适用于现代网络的模块化多功能媒体播放器。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwvvrp/visionplayer_a_modular_versatile_mediaplayer_for/</link>
+      <description><![CDATA[大家好👋 我想分享 VisionPlayer，一个开源的、基于 JavaScript 的网络媒体播放器，我多年来一直在构建和完善。我已经构建了几代播放器，最终进入了真实的客户项目。大约一年前，我决定完全重新开始 - 不仅仅是为了现代化代码库，而是重新思考今天的媒体播放器可以是什么样子。它也成为我人生中困难阶段的一个个人长期项目，这让我可以自由地探索通常无法在严格的制作限制下生存的想法。 VisionPlayer 正在积极开发，并且有清晰的路线图。计划推出更多引擎、工具和改进，在 2026 年期间，我的目标是解决剩余的重大功能前沿问题：分析和广告 (VAST) 支持。长期目标是将 VisionPlayer 变成一个真正通用、全面的媒体播放器，具有自己的特色，以及一些您在其他地方通常找不到的功能。 一些亮点：  模块化、组件驱动的架构：UI、控件、叠加层、字幕、可视化工具和系统集成都是组件。您可以添加、删除或替换部件，而无需触及核心。 多引擎媒体系统：原生 HTML5 视频、流媒体格式（HLS 和 DASH）以及 YouTube 和 Vimeo 等外部提供商在统一的引擎抽象上运行。播放器根据实际的引擎功能而不是硬编码的假设来调整其 UI 和行为。 开发人员友好的设计：VisionPlayer 附带基于 Vite 的开发服务器，可实现快速本地迭代、热重载和轻松实验。结合大量文档和 JSDoc。 实时媒体操作：可选的 GPU 加速视频过滤器和基于 Web Audio 的音频链（包括均衡器）允许实时操作视频和声音，作为玩家体验的一部分。 可视化工具和音频工具环境效果：实时对媒体做出反应的音频可视化器、波形显示和环境光效果 - 部分实用，部分实验。 可选安全模式和环境光效果。 Shadow DOM 隔离：探索封装、API 强化和防篡改的实验模式。这与 DRM 无关，而是突破客户端 JavaScript 的极限。 还有更多，包括高级字幕和字幕。可访问性、播放列表支持、选角支持、缩略图、本地播放和整体良好的系统集成。  如果您想尝试一下，使用它、打破它、试验它 — 这就是这个项目的重点。 我对任何类型的问题、想法、批评或架构反馈感到由衷的高兴。 如果您最终喜欢 VisionPlayer，在 GitHub 上打 ⭐ 总是值得赞赏的。祝大家 2026 年有远见且有趣 🙂 链接 带有演示和演示的微型网站文档： https://visionplayer.io GitHub：https://github.com/alphanull/VisionPlayer   由   提交 /u/alphanull-design-dev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwvvrp/visionplayer_a_modular_versatile_mediaplayer_for/</guid>
+      <pubDate>Sat, 27 Dec 2025 11:40:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
