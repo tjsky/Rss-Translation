@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 27 Dec 2025 03:54:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 06:25:23 GMT</lastBuildDate>
+    <item>
+      <title>为互联网上运行的技术建立一个目录</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwqpbt/built_a_directory_for_what_technologies_are/</link>
+      <description><![CDATA[      我刚刚部署了一个静态网站，该网站记录了截至 2025 年 11 月我的指纹识别软件识别的技术。它涵盖了在超过 500 万个域中检测到的超过 3400 种不同技术。在整个网站中，您可以免费下载超过 100K 个独特的域作为免费示例。 对于每种技术，该网站都会显示：  发现了哪些技术 检测到了哪些版本（如果适用） 在使用该技术的网站上观察到的语言 最常见的国家/地区 与其常见位置相关的 IP 所有权出现 最常在 TLD 上找到 通常与它一起检测到的其他技术  如果您想快速浏览一下互联网上运行的内容，而无需注册任何内容，请查看它。 希望您喜欢深入研究它。让我知道您希望将来添加哪些内容。 https://versiondb.io   由   提交/u/Upper-Character-6743   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwqpbt/built_a_directory_for_what_technologies_are/</guid>
+      <pubDate>Sat, 27 Dec 2025 06:17:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>白板/思维导图主题静态站点生成器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwo3uu/whiteboardmindmap_themed_static_site_generator/</link>
+      <description><![CDATA[hugo、zola、astrojs 等有白板/思维导图主题（如 miro、scrintal、milanote、kinopio）吗？   由   提交/u/ThinkTourist8076  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwo3uu/whiteboardmindmap_themed_static_site_generator/</guid>
+      <pubDate>Sat, 27 Dec 2025 03:59:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了一个用于公路旅行规划的生产规模的 React + Node 应用程序 - 寻找架构反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pwo263/built_a_productionscale_react_node_app_for_road/</link>
+      <description><![CDATA[      我一直在从事一个业余项目，该项目慢慢地变成了比我最初预期的更接近“真实”生产应用程序的东西，并且我正在尝试与其他开发人员一起对一些架构选择进行合理性检查。 该应用程序 (Roadtrip Beaver) 有助于规划 Buc-ee 位置周围的公路旅行并跟踪一段时间内的访问情况，但域名这并不是重点——该项目成为了练习完整应用程序架构而不是构建另一个演示的借口。 我做出的一些我特别不确定的决定： 前端/状态  React 18，服务器状态（TanStack Query）和仅客户端状态（Zustand）之间存在严格划分 没有全局“应用程序商店” - 一切都局限于功能 与后端共享 TypeScript 类型，而不是复制 DTO  后端  每个请求边界上的 Express + Zod 验证 JWT 身份验证，具有刷新令牌轮换（数据库支持）+ OAuth Prisma + Postgres 具有相当标准化的架构（对于副项目来说可能过于标准化）  Monorepo / infra  用于前端、API、共享包的 Turborepo + pnpm 工作区 Docker 多阶段构建，即使部署由 Railway 处理 显式环境分离和迁移工作流程  我可能过度投资的一个领域是 SEO 和内容架构：  动态、基于状态的页面（位置目录、公路旅行指南） JSON-LD 结构化数据 在部署时通过 Puppeteer 进行静态预渲染 CMS 驱动的内容，而不是硬编码副本  还有一个管理系统（角色、审核日志、重建触发器、数据保留规则），我完全承认这是多余的 - 但学习这些模式是有意的。 我真正喜欢反馈的是：  在业余项目中，哪些是您永远不会费心的？ 您会在哪里停止并让事情变得更简单？ 对于作品集工作，什么信号对您来说是“生产就绪”与“不必要的复杂”？  如果有人想要上下文，该应用程序已上线，但我对架构意见比流量更感兴趣。 https://roadtripbeaver.com   由   提交/u/HerebyGuy   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pwo263/built_a_productionscale_react_node_app_for_road/</guid>
+      <pubDate>Sat, 27 Dec 2025 03:56:49 GMT</pubDate>
+    </item>
     <item>
       <title>我将失败的平台重建为过期的开放聊天室</title>
       <link>https://www.reddit.com/r/webdev/comments/1pwmy7z/i_rebuilt_my_failed_platform_into_open_chatrooms/</link>
@@ -15,7 +36,7 @@
     <item>
       <title>看看人工智能最近的变化</title>
       <link>https://www.reddit.com/r/webdev/comments/1pwmqf5/seeing_the_recent_changes_in_ai_stuff/</link>
-      <description><![CDATA[所以，我目前是一名大学生，我很好奇是否有任何与人工智能相关的新东西，虽然不是特别是人工智能，但后端人员现在应该知道。 比如我可以在我的项目中使用的东西，这些东西可以作为新兴事物脱颖而出   由   提交 /u/Ok_House_1114   [链接] [评论]]]></description>
+      <description><![CDATA[所以，我目前是一名大学生，我很好奇是否有任何与人工智能相关的新东西，虽然不是特别是人工智能，但后端人员现在应该知道。 比如我可以在我的项目中使用的东西，这些东西可以作为新兴事物脱颖而出   由   提交/u/Ok_House_1114   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pwmqf5/seeing_the_recent_changes_in_ai_stuff/</guid>
       <pubDate>Sat, 27 Dec 2025 02:52:07 GMT</pubDate>
     </item>
@@ -41,7 +62,7 @@
       <pubDate>Sat, 27 Dec 2025 00:07:20 GMT</pubDate>
     </item>
     <item>
-      <title>C# 与 PHP 对比？</title>
+      <title>C# vs PHP？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pwirc3/c_vs_php/</link>
       <description><![CDATA[哪个有更多工作和自由职业机会？    由   提交 /u/Practical-Gift-1064   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pwirc3/c_vs_php/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[      说实话，我避免设计工作，因为我做事很慢。 每当我需要营销屏幕截图时，我会：  发布原始屏幕截图（看起来很业余） 花 20 分钟在 Canva/Figma 中摸索（令人沮丧） 完全跳过它（不利于启动）  所以我构建了 Shotframe。 整个想法：删除决策。  选择设备框架（而不是“设计框架”） 选择背景（而不是“创建渐变”） 选择尺寸（而不是“计算纵横比”）比例”） 导出  无图层。没有画板。不需要设计技能。 我不能把它搞砸，因为丑陋的选项不存在。 这不适合设计师。它适合那些想要“足够好”的开发人员。 60 秒内。 还有其他人自动消除他们的弱点吗？   由   提交/u/Academic-Yam3478  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pwctm9/figma_is_overkill_for_marketing_screenshots_i/</guid>
       <pubDate>Fri, 26 Dec 2025 19:33:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>科德雷评论</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwavs4/kodree_reviews/</link>
-      <description><![CDATA[在 Facebook 上看到了他们的一些广告，并一直在考虑他们的终身计划。 我喜欢他们对实践经验的关注以及我可以学习 Proj 的事实。具有一个许可证的管理、UX/UI 和全栈。  只是好奇是否有人尝试过它们&amp;如果是这样，您的体验如何？ 谢谢！   由   提交 /u/DJ_Bambusbjorn   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwavs4/kodree_reviews/</guid>
-      <pubDate>Fri, 26 Dec 2025 18:14:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>我更喜欢较低级别的 Web 框架而不是高级 Web 框架，这是错误的吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwa8yh/is_it_wrong_that_i_prefer_lower_level_web/</link>
-      <description><![CDATA[你好！ 最近我开始学习 dotnet core 的 MVC 框架，经过三次尝试，它开始适合我。不过……我觉得这个框架依赖于一些隐藏的魔法。你基本上必须记住一些约定和行为才能理解一切是如何运作的，而整个事情感觉有点过度设计。让我头疼的一件事是，当您定义类 HomeController 时，引擎会删除“控制器”类。类名称中的子字符串以生成“Home”端点。这不一定是开发人员的方式，但这绝对是一个怪癖。其他内容包括类样板、缺少某些内容或只是过时的文档以及隐藏/隐式行为的数据流。 另一方面，我使用过 MinimalAPI、FastAPI、Flask、Javalin 等框架。我认为这些框架更加明确。从某种意义上说，如果您以有组织的方式编写代码，那么如果您跟踪逻辑、函数调用和数据流，您就可以完全理解它。这只是……美丽。这就像看着一条蛇从A到Z穿过迷宫。但“更高级别”框架就像看着那条蛇进入地下并突然出现在其他地方。你不知道地下发生了什么，你只知道那里发生了一些事情。 我……只是一个有这种想法的糟糕开发者吗？或者我对这种编程风格有一些偏见？我希望变得更好，但我不知道在“我确信这一点”和“我确信”之间的界限在哪里。和“也许我错了”。   由   提交 /u/yughiro_destroyer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwa8yh/is_it_wrong_that_i_prefer_lower_level_web/</guid>
-      <pubDate>Fri, 26 Dec 2025 17:47:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于用户评分的低级设计问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pwa888/low_level_design_question_about_user_ratings/</link>
-      <description><![CDATA[你好，我想不出任何其他 Reddit 子版块可以问这个问题。因此，我在一次采访中被问到一个问题，即如何设计数据库表来存储像亚马逊、速卖通等流量大的电子商务网站的用户评分。一些规范：  我们只对显示每种产品准确的“average_ rating”和“total_count”感兴趣。 不希望客户等待看到更新的评分。  我想出的一种方法是在一列中累积评级，在另一列中增加计数并在写入时计算平均值，因此读取操作成本低廉。 我还谈到了对评级进行排队并在流量极高的情况下稍后处理它们，但采访者说用户可能需要等待才能看到更新的评级。 对此有什么好的/更好的答案吗？也许是我解释不清楚，也许是我错了，但面试官似乎并不满意。 谢谢   由   提交 /u/ChestPainGuy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pwa888/low_level_design_question_about_user_ratings/</guid>
-      <pubDate>Fri, 26 Dec 2025 17:47:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
