@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 26 Dec 2025 21:15:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 01:15:48 GMT</lastBuildDate>
+    <item>
+      <title>产品工程团队必须承担供应链风险</title>
+      <link>https://www.reddit.com/r/programming/comments/1pwj0vu/product_engineering_teams_must_own_supply_chain/</link>
+      <description><![CDATA[ 由   提交 /u/ArtisticProgrammer11   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pwj0vu/product_engineering_teams_must_own_supply_chain/</guid>
+      <pubDate>Fri, 26 Dec 2025 23:59:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何用java制作markdown查看器</title>
+      <link>https://www.reddit.com/r/programming/comments/1pwi2c4/how_to_make_a_markdown_viewer_in_java/</link>
+      <description><![CDATA[ 由   提交/u/sunnykentz  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pwi2c4/how_to_make_a_markdown_viewer_in_java/</guid>
+      <pubDate>Fri, 26 Dec 2025 23:16:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>被诗歌欺骗的人工智能语言模型</title>
+      <link>https://www.reddit.com/r/programming/comments/1pwgwh9/ai_language_models_duped_by_poems/</link>
+      <description><![CDATA[ 由   提交 /u/CircumspectCapybara   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pwgwh9/ai_language_models_duped_by_poems/</guid>
+      <pubDate>Fri, 26 Dec 2025 22:26:29 GMT</pubDate>
+    </item>
     <item>
       <title>Gibberish - 一种新型的解析器组合器，内置强大的错误处理功能</title>
       <link>https://www.reddit.com/r/programming/comments/1pwerc6/gibberish_a_new_style_of_parsercombinator_with/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/R2_SWE2  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pvtq6l/make_your_pr_process_resilient_to_ai_slop/</guid>
       <pubDate>Fri, 26 Dec 2025 02:54:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>C++/WebAssembly 中的 Schwarzschild 测地线可视化</title>
-      <link>https://www.reddit.com/r/programming/comments/1pvqw5g/schwarzschild_geodesic_visualization_in/</link>
-      <description><![CDATA[我尝试构建一个实时零测地线积分器，用于可视化非旋转黑洞周围的光子路径。该实现编译为 WebAssembly，以便通过 WebGL 渲染在浏览器中执行。 技术方法： - Schwarzschild 时空中测地线方程的哈密顿公式  - 具有基于邻近性的自适应步进的四阶龙格-库塔积分 - 分析度量导数（无有限差分） - 保持 H=0 的约束稳定性沿着空测地线 -计算轨迹的 LRU 缓存 可视化显示光如何围绕事件视界 (r=2M) 和光子球 (r=3M) 弯曲。多种颜色模式显示终止状态、重力红移、约束误差和透镜网格图案。 已知限制： - 自适应步长调整是基于启发式的，而不是使用形式误差估计 - 约束稳定性使用动量重新缩放（效果很好，但不辛） - 单线程执行  - 计算所有测地线依次 我是计算机科学专业的，所以物理不是我的主要强项（不过我确实喜欢数学）..说实话，做这个是相当痛苦的，但圣诞节时我有点孤单，远离朋友和家人，所以我想我会让自己承受痛苦。 P.S 我想添加工人并绽放，但无法在不破坏项目的情况下添加它。因此，如果有人能帮助我，我将不胜感激。另外，我知道它相当滞后，我确实尝试了一些优化，但无法做得比这更好。  仓库链接：https://github.com/shreshthkapai/schwarzschild.git 祝大家假期愉快！！   由   提交/u/shreshthkapai   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pvqw5g/schwarzschild_geodesic_visualization_in/</guid>
-      <pubDate>Fri, 26 Dec 2025 00:27:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>ACE - 一种小型实验语言（函数调用作为效果）</title>
-      <link>https://www.reddit.com/r/programming/comments/1pvqqcl/ace_a_tiny_experimental_language_function_calls/</link>
-      <description><![CDATA[我独自在家度过了圣诞节，与人工智能交谈并探索我已经有一段时间的奇怪的语言想法。  这就是 ACE（代数调用效果）——一种小型实验性语言，其中每个函数调用都被视为效果，并且可以被处理程序拦截。  这个想法纯粹是概念性的。我不是 PL 理论家，我不在这里做严格的数学，而且我非常清楚这可能只是一种新的 goto。  将其视为一个想法实验，而不是一个严肃的提案。解释器是用 F# 编写的（事实证明它非常适合此类语言工作），解析器使用 XParsec，游乐场使用 Bolero 通过 WebAssembly 在浏览器中运行。  (Ace Lang - Playground)  好奇人们的想法 - 欢迎反馈   由   提交 /u/See-Ro-E   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pvqqcl/ace_a_tiny_experimental_language_function_calls/</guid>
-      <pubDate>Fri, 26 Dec 2025 00:19:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>版本化缓存密钥如何在滚动部署期间为您提供帮助</title>
-      <link>https://www.reddit.com/r/programming/comments/1pvomnn/how_versioned_cache_keys_can_save_you_during/</link>
-      <description><![CDATA[大家好！我写了一篇简短的文章，介绍了一种模式，该模式帮助我的团队在滚动部署期间避免与缓存相关的错误： 👉 对缓存键进行版本控制 - 通过将版本标识符烘焙到缓存键中，您可以确保新部署的代码始终读取/写入新的键，而旧代码继续使用现有的键。当您并行运行不同版本的服务时，这种简单的做法可以防止出现微妙的错误和难以调试的不一致问题。 我会解释为什么滚动部署期间的缓存失效很棘手，并通过示例逐步介绍清晰的版本控制策略。 请在此处查看： https://medium.com/dev-genius/version-your-cache-keys-to-survive-rolling-deployments-a62545326220 很想听听您的想法或经历部署中存在缓存问题！   由   提交 /u/Specific-Positive966   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pvomnn/how_versioned_cache_keys_can_save_you_during/</guid>
-      <pubDate>Thu, 25 Dec 2025 22:33:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
