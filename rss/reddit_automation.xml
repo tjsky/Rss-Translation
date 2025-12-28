@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sun, 28 Dec 2025 04:05:16 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 06:24:28 GMT</lastBuildDate>
+    <item>
+      <title>我的思维过程正确吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1pxi6tu/is_my_thought_process_correct/</link>
+      <description><![CDATA[嘿，伙计们， 我正在尝试弄清楚我在组织中实现重复性工作流程自动化的想法是否有意义，我希望得到一些意见。 以下是当前设置：  我们使用 SAS Viya 来存储和运行 SAS 代码。 大约有 100 份报告，每份报告都包含其自己的文件夹（例如，1_random_text、2_randoM_text、3_rdjhf）。 在每个报告文件夹内，我们有 5 个子文件夹：输入、输出、报告、程序、中间文件。 SAS 代码 (.sas) 位于程序文件夹中，根据报告编号命名（例如，1_random.sas、 2_rahd.sas）。 我们还维护一个包含最新代码的 GitHub 存储库。 现在，一个人从 GitHub 手动下载更新的代码，并根据报告编号将其放入正确的 SAS Viya 文件夹（程序）中。  思考过程：  Python 代码连接到 GitHub，提取所有代码。 然后与 SAS 连接Viya 并根据代码和文件夹的数值更新 Program 文件夹中的代码。 必须设置护栏，仅更新最近更新的 1-2 个代码，而不是所有代码 安排每天更新。    由   提交 /u/vainothisside   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1pxi6tu/is_my_thought_process_correct/</guid>
+      <pubDate>Sun, 28 Dec 2025 04:30:19 GMT</pubDate>
+    </item>
     <item>
       <title>有人知道这是哪个 AI 视频头像吗？最近经常看到他出现。</title>
       <link>https://www.reddit.com/r/automation/comments/1pxhg3r/anyone_which_ai_video_avatar_is_this_have_been/</link>
@@ -81,13 +88,6 @@
       <description><![CDATA[我在一个小型财务团队工作，我们正在处理大量发票，尤其是在月末结算期间。我一直在研究使用人工智能的发票 OCR 来解决这个问题，但我不确定它的可靠性如何。您可以推荐什么工具吗？   由   提交/u/Aeriaeri98  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1pwkwca/any_ai_invoice_ocr_tools_that_work/</guid>
       <pubDate>Sat, 27 Dec 2025 01:24:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vibe Lift Daily，人工智能驱动的平台改变人们开始早晨的方式 - Betterauds.com</title>
-      <link>https://www.reddit.com/r/automation/comments/1pwhn8u/vibe_lift_daily_the_aipowered_platform_changing/</link>
-      <description><![CDATA[       由   提交 /u/Ragingboomerang   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1pwhn8u/vibe_lift_daily_the_aipowered_platform_changing/</guid>
-      <pubDate>Fri, 26 Dec 2025 22:58:20 GMT</pubDate>
     </item>
     <item>
       <title>在过去的几周里，我一直在悄悄地为房地产团队构建一套自动化工作流程。</title>
