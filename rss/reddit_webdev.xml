@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 29 Dec 2025 06:30:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 09:28:10 GMT</lastBuildDate>
+    <item>
+      <title>作品集网站的深度应该有多深？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pygw5y/how_in_depth_should_a_portfolio_site_be/</link>
+      <description><![CDATA[我是一名大学二年级学生，我有一个作品集网站，但它非常表面化，更像是专业网站和个人网站的混合体。我把它保持在表面水平（不超出描述诸如SWE实习生@[公司]之类的东西，包括日期、带有链接和图像的项目、我最常用的技术堆栈，以及一段关于我对技术的兴趣的内容），因为我听说有几次把所有东西都放在那里，比如简历链接或每一个经验项目，并没有让招聘人员有足够的好奇心去接触，因为一切都在那里，如果他们对此不感兴趣，那么他们可以忽略它，因为他们已经看到了一切。 我想要看看对此有什么想法。实际上，我知道严格来说我可能不会因为我的网站及其内容而获得联系，但我不想排除机会，无论这个市场的机会有多么渺茫。谢谢！   由   提交/u/Hallo3_14  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pygw5y/how_in_depth_should_a_portfolio_site_be/</guid>
+      <pubDate>Mon, 29 Dec 2025 08:23:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>许多 Laravel 网站上出现奇怪的文字“8194460”</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pyglnp/weird_text_8194460_appearing_on_many_laravel/</link>
+      <description><![CDATA[      所以我想我应该在这里发布这个，因为我没有足够的业力在 r/laravel 上发布，但今天我注意到这个奇怪的 8194460 文本出现在我的 laravel 网站上并导致了布局奇怪的是，我还无法在我的开发环境中重现它，但经过一番挖掘后，它显然是通过 livewire js 文件注入的，但我没有足够的经验来确定。 我认为这可能是一个潜在的安全漏洞，我在谷歌上查找了它，除了页面顶部具有相同文本的看似其他类似网站之外，我找不到太多信息   由   提交/u/Maskedman1022000  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pyglnp/weird_text_8194460_appearing_on_many_laravel/</guid>
+      <pubDate>Mon, 29 Dec 2025 08:06:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在扩展真实客户项目时学到的经验教训（以及我希望早点知道的内容）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pygiv5/lessons_i_learned_scaling_real_client_projects/</link>
+      <description><![CDATA[嘿，开发人员， 我从事真实客户项目已经有一段时间了（主要是网络应用程序、集成和小型 SaaS 工具），我意识到你在网上阅读的很多内容并不总是符合混乱的现实。我通过惨痛的经历学到了一些事情：  预期意外情况： API 更改、客户端忘记需求、服务器失败。规划有帮助，但灵活性就是一切。 文档可以挽救生命：我并不总是记录我的代码或流程，当我不得不交出工作时，它就会反过来咬我。 小工具很重要：简单的脚本、内部仪表板，甚至是微小的自动化，它们可以节省时间，但大多数开发人员都会忽略它们。 沟通 &gt;完美： 一个稍微混乱的工作解决方案比一个永远不会发布的完美解决方案要好。  我很好奇什么是你在实际项目工作后才意识到的，而没有任何教程可以让你做好准备的？   由   提交 /u/gixm0   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pygiv5/lessons_i_learned_scaling_real_client_projects/</guid>
+      <pubDate>Mon, 29 Dec 2025 08:01:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Shippo 订单 api - 使用测试密钥创建的订单不会显示在仪表板中吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pyfxrm/shippo_orders_api_do_orders_created_with_test_key/</link>
+      <description><![CDATA[建立电子商务并使用 Shippo 进行价格/标签购买。编写了一个服务来通过 Shippos 订单 api 创建订单，该 API 按预期返回 200 和 Order 对象。  问题是它没有显示在我的仪表板中......这只是因为它是测试订单吗？  帮助我奥比万·克诺比...   由   提交 /u/TrapperFlint   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pyfxrm/shippo_orders_api_do_orders_created_with_test_key/</guid>
+      <pubDate>Mon, 29 Dec 2025 07:27:00 GMT</pubDate>
+    </item>
     <item>
       <title>如何在 Ory Kratos 中添加自定义密码验证（字母数字+特殊字符）？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pyea7r/how_to_add_custom_password_validation_in_ory/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我在一家精品电子商务平台工作。 CEO 刚刚解雇了 webdev 团队，除了最高级的后端工程师。我们的 5 人团队被解雇了，因为首席执行官发现了氛围编码，并认为她基本上可以让一名工程师处理所有事情（？？？）。祝您好运，只需一名工程师和一名人工智能即可满足 a11y 需求、迭代客户反馈、扩展流量、qa&#39;ing 响应式设计。  但CEO不知道这一点，认为AI可以取代5个工程师。正如一位前同事在群聊中所说，“我给她两周时间，然后她就会求我们回来。”  但重点仍然是：公司领导层认为人工智能可以取代我们，因为他们距离技术还很远，他们看到的只是花里胡哨的东西，而且不知道如何维护一个平台。   由   提交/u/WEBnU   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1py8ruu/got_fired_today_because_of_ai_its_coming_whether/</guid>
       <pubDate>Mon, 29 Dec 2025 01:31:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>我经常看到人们争论“氛围编码”与“真实编码”，很多人都觉得……目光短浅。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1py7j7a/i_keep_seeing_people_argue_about_vibe_coding_vs/</link>
-      <description><![CDATA[一个常见的说法是：“我的工作是安全的，因为我在编码方面比人工智能更好。”这在今天可能是正确的，但它忽略了新的人工智能是多么荒谬。 我们基本上是在将早期的、有问题的工具与数十年的人类经验进行比较，并宣布竞赛结束。从历史上看，它从来没有过时。 这样想： 曾经有一段时间，使用 C 来完成所有事情都被认为是“真正的编程”。然后更高级的语言出现了，C 程序员说“真正的程序员管理内存”。 C 并没有消失，它只是转移到了真正有意义的地方（内核、嵌入式、性能关键的东西）。大多数开发人员现在都在更高的抽象级别上工作，因为这就是人类扩展的方式。 我怀疑这里正在发生类似的事情。 “Vibe 编码”（由于缺乏更好的术语）感觉像是早期的高级抽象。这不是为了更快地输入语法，而是为了表达意图、约束和方向。今天它既笨拙又不可靠。十年后，这可能会变得……正常。 常规编程不会消失。它可能成为“未来的 C”，必不可少、功能强大，但在精度和控制确实很重要的情况下使用。与此同时，大多数产品工作可以转向编排：指导系统、审查输出、定义边界以及在抽象泄漏时修复边缘情况。 真正的技能转变不是“人工智能与人类编码”。而是语法与推理。 那些将自己的身份与手工编写代码联系起来的人可能会遇到困难。了解系统、权衡和故障模式的人可能会很好地适应。 很好奇其他人如何看待这种情况的长期发展，不仅是使用今天的工具，而且是使用这条轨迹通常走向的方向。   由   提交/u/tinieblas_666   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1py7j7a/i_keep_seeing_people_argue_about_vibe_coding_vs/</guid>
-      <pubDate>Mon, 29 Dec 2025 00:36:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Meta 应用内浏览器中链接 Facebook 和 Instagram 让我抓狂</title>
-      <link>https://www.reddit.com/r/webdev/comments/1py5vp8/linking_facebook_instagram_in_meta_inapp_browser/</link>
-      <description><![CDATA[嘿伙计们， 当用户在 Facebook 或 Instagram 应用内浏览器 (IAB) 中启动时，我对 Meta OAuth 失去了理智。我不是唯一一个遇到此问题的人。 上下文  我运行 SaaS Web 应用程序 (React SPA)。 用户在入职期间连接 Facebook + Instagram。 我们不直接实现 Meta OAuth 流程。 我们使用 Late API 作为 Meta 连接的集成层（Late 生成重定向 URL，处理部分握手，我们在连接生命周期中依赖它们的流程）。  过去的工作流程（简单流程） 大约一个月前，流程基本上是：  用户点击“连接 Facebook” 我们调用后端 → 后端调用 Late API → 延迟返回 redirectUrl 前端执行 window.location.href = redirectUrl 用户完成 OAuth 使用查询参数重定向回我们的应用程序路由 应用程序立即读取参数，更新 UI，完成  关键点：感觉所有内容都保留在一个浏览器上下文中，并且回调参数对于 SPA 来说是可靠可见的。 现在发生的事情 我们试图使其对于应用内浏览器更加强大：  通过用户代理检测 Meta 应用内浏览器 首先尝试“正常重定向” 如果导航似乎被阻止（或者如果是 IAB），则显示后备 UI：用户点击以在系统浏览器中打开的“打开连接”链接  自从添加以来这种“先尝试，需要时回退”的逻辑，我们看到更多的情况：  用户完成 OAuth，但永远不会返回到我们可以读取回调参数的应用程序路由 或者回调在不同的浏览器上下文（新选项卡/外部浏览器）中打开，并且 SPA 状态/会话跟踪未对齐 结果：用户看起来“卡住连接”，或者我们无法将回调与原始尝试关联起来  我所困惑的问题 这仍然是一个好的策略：  第一次尝试：在应用内浏览器内window.location.href（或location.assign） 只有在失败时才回退  或者是2025年的正确举措：  如果检测到 Meta IAB，甚至不要尝试正常的重定向 立即强制执行“在浏览器中打开”步骤，并默认将 IAB 视为敌对  我正在寻找的内容  如果您在 FB/IG 应用内浏览器中完成了 Meta OAuth，哪种模式实际上可以可靠工作？ 使用像 Late 这样的集成层时有任何已知问题吗？ API（而不是直接 Meta OAuth）？ 您认为总是将人们推出应用内浏览器进行帐户链接是可以接受的用户体验吗？ 有任何来之不易的技巧可以使回调在浏览器上下文中保持一致（不会将流程变成用户体验灾难）吗？  如果有帮助，我可以共享高级日志和确切的重定向/回调形状（但我不能共享私人令牌或客户）数据）。 谢谢。我感觉我正在浏览器内的浏览器内调试浏览器。   由   提交 /u/otisross   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1py5vp8/linking_facebook_instagram_in_meta_inapp_browser/</guid>
-      <pubDate>Sun, 28 Dec 2025 23:25:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Django 在 StackOverflow 调查中排名如此之低是怎么回事？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1py4osm/whats_up_with_django_being_so_low_in_the/</link>
-      <description><![CDATA[我很好奇现在人们认为 Django 缺少什么。我是一个超级粉丝，但我没有太多的观点。 请参阅：https://survey.stackoverflow.co/2025/technology#most-popular-technologies-webframe   由   提交/u/poopatroopa3  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1py4osm/whats_up_with_django_being_so_low_in_the/</guid>
-      <pubDate>Sun, 28 Dec 2025 22:35:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于大脑网格细胞的简单神经网络。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1py3fth/a_simple_neural_network_based_on_the_brains_grid/</link>
-      <description><![CDATA[大脑中的网格细胞代表空间运动。他们根据速度方向输入计算该运动。虽然我没有添加学习，但大脑可以使用本地学习而不是反向传播（人工智能使用的）来形成网格细胞。 我之所以这样做是因为我还没有找到更多基于网络的受大脑启发的神经网络。在普通计算机中只能以实际速度的一小部分运行数千个尖峰神经元。神经形态计算机解决了这个问题，但很少见。   由   提交/u/JonLag97  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1py3fth/a_simple_neural_network_based_on_the_brains_grid/</guid>
-      <pubDate>Sun, 28 Dec 2025 21:44:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
