@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 30 Dec 2025 01:18:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 03:59:48 GMT</lastBuildDate>
+    <item>
+      <title>GraphRAG 又只是图数据库——我们知道结果如何</title>
+      <link>https://www.reddit.com/r/programming/comments/1pz6pj3/graphrag_is_just_graph_databases_all_over_again/</link>
+      <description><![CDATA[最近每个人都在炒作 GraphRAG。 显式图表。明确的关系。 “更好的推理。” 但这感觉就像似曾相识。 我们已经尝试过这一点 - 使用图形和分层数据库。他们在技术上令人印象深刻，但仍然输给关系数据库，原因很简单： 他们假设我们预先知道正确的关系。 GraphRAG 做同样的事情：  LLM 猜测关系 我们将它们冻结为边 未来的查询被迫通过昨天的假设  节点是事实。 边缘是猜测。 一旦坚持下去，这些猜测就会使检索产生偏差，隐藏微弱的信号，并使系统变得脆弱。讽刺的是，现代法学硕士已经在查询时推断关系——通常比静态图更好。 除了狭隘的情况（代码部门、法规）之外，GraphRAG 感觉像是过早的过度建模。 简单的 RAG + 混合检索 + 重新排名在实践中仍然获胜。 完整的论点在这里（Medium 的友情链接）： 👉  https://medium.com/@dqj1998/graphrag-is-already-dead-it-just-doesnt-know-it-yet-71c4e108f09d?sk=26102099fb8c2c51fec185fc518d1c96 否则请说服我。 GraphRAG 实际上在哪些方面击败了更简单的系统？   由   提交/u/dqj1998  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pz6pj3/graphrag_is_just_graph_databases_all_over_again/</guid>
+      <pubDate>Tue, 30 Dec 2025 03:05:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>我是疯了，还是等待 10 多个小时进行回归测试是我们刚刚接受的“正常”问题？</title>
+      <link>https://www.reddit.com/r/programming/comments/1pz6n89/am_i_crazy_or_is_waiting_10_hours_for_regression/</link>
+      <description><![CDATA[大家好， 我一直在我们的回归套件需要很长时间（有时 20 多个小时）的环境中工作。每次我们推送 5 行错误修复时，我们都会等待整个“世界”的修复。为了安全起见，需要重新测试。 我正在构建一个使用代码映射的独立工具来解决这个问题。这个想法很简单：它实时映射哪些测试接触哪些代码行。当您推送更改时，它只会运行实际受到影响的测试。 我知道“大人物”会这样做。像 Datadog 和 CloudBees 有这样的版本，但他们似乎总是要求你购买他们的整个平台或将整个堆栈移动到他们的云中。我将其构建为一个即插即用的独立代理 - 您保留当前的 ​​CI/CD，保留当前的测试运行程序，然后将其添加为“智能过滤器”  我向社区提出两个问题：  您的回归套件是否足够慢，以至于您实际上会信任一个工具来“跳过”噪音。为你测试？还是对错过 bug 的恐惧太高？ 如果您可以将单个脚本放入 Jenkins/GitHub Actions 中，并在不切换平台的情况下将测试时间缩短 80%，这会是“必备”吗？或者只是一个“有就有好”？  我试图弄清楚这对于其他人来说是否是一个真正的痛点，或者我是否只是过度设计了个人的烦恼。随心所欲地残酷。   由   提交 /u/BabyKitty-Meow1349   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1pz6n89/am_i_crazy_or_is_waiting_10_hours_for_regression/</guid>
+      <pubDate>Tue, 30 Dec 2025 03:02:20 GMT</pubDate>
+    </item>
     <item>
       <title>数据模型依赖是一个陷阱</title>
       <link>https://www.reddit.com/r/programming/comments/1pz3yfw/data_model_dependency_is_a_trap/</link>
@@ -36,7 +50,7 @@
     <item>
       <title>解决 $N$ 编排问题：我们如何通过 Kafka 扩展 35 个以上的 MCP？</title>
       <link>https://www.reddit.com/r/programming/comments/1pz0wx6/tackling_the_norchestration_problem_how_do_we/</link>
-      <description><![CDATA[We’re building slashmcp.com and we’ve hit a fascinating (but painful) scaling bottleneck. The goal is to handle the Model Context Protocol (MCP) at scale. We are currently integrating 35+ different MCPs and using Kafka for orchestration, but as we move toward $n$ complexity, the orchestration logic is becoming a massive hurdle. We’ve decided to put the problem out in the open. We&#39;re looking for MCP enthusiasts and distributed systems experts to weigh in, tear our approach apart, or contribute.  The Registry: We’ve open-sourced our MCP registry here:github.com/mcpmessenger/mcp-registry The Stack: MCP, Kafka、Python/Node、TS 问题：我们需要关注编排逻辑。 If you’ve dealt with high-fanout tool-calling or complex message routing, we’d love your feedback.  Feel free to star, fork, or just tell us why our Kafka implementation is going to break.   由   提交 /u/Ok-Priority35   [link] [评论]]]></description>
+      <description><![CDATA[我们正在构建 slashmcp.com，但我们遇到了令人着迷（但痛苦）的扩展瓶颈。 目标是大规模处理模型上下文协议 (MCP)。我们目前正在集成 35 多个不同的 MCP 并使用 Kafka 进行编排，但随着我们向 $n$ 复杂性迈进，编排逻辑正在成为一个巨大的障碍。 我们决定将问题公开。我们正在寻找 MCP 爱好者和分布式系统专家来参与讨论、分解我们的方法或做出贡献。  注册表： 我们在这里开源了 MCP 注册表：github.com/mcpmessenger/mcp-registry 堆栈： MCP， Kafka、Python/Node、TS 问题：我们需要关注编排逻辑。如果您处理过高扇出工具调用或复杂的消息路由，我们希望您能提供反馈。  请随意加注星号、分叉，或者告诉我们为什么我们的 Kafka 实现会失败。   由   提交/u/Ok-Priority35   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pz0wx6/tackling_the_norchestration_problem_how_do_we/</guid>
       <pubDate>Mon, 29 Dec 2025 22:54:28 GMT</pubDate>
     </item>
@@ -50,7 +64,7 @@
     <item>
       <title>MIT Battlecode（编程竞赛）1周后开始！</title>
       <link>https://www.reddit.com/r/programming/comments/1pyx095/mit_battlecode_programming_competition_starts_in/</link>
-      <description><![CDATA[Battlecode 是一款实时策略游戏，您将使用博弈论、寻路和分布式算法来建立一支机器人自主团队，并击败对手。 欢迎任何人以 1-4 人的团队形式参赛，争夺2 万美元奖金池，顶尖团队将获得有保证的实习机会与我们的白金赞助商，Amplitude！排名前 16 的学生团队还将免费飞往 MIT 参加 1 月 31 日的决赛。 除了基本的编程技能之外，不需要任何经验！机器人是用 Java 和/或 Python 编写的，但我们推荐使用 Java。我们将引导您了解创建第一个机器人的基础知识以及战胜其他玩家的高级策略。比赛附有将在 YouTube 上直播的讲座（但您也可以亲自参加麻省理工学院的讲座！）。 Battlecode 2026 将于 2026 年 1 月 5 日至 31 日举行。参与就是您想要的承诺（通常每周几个小时）！ 您可以在 battlecode.org/about 并在 play.battlecode.org/register 注册。 欢迎在此帖子中提问；我们会尽力解答！与去年类似的帖子，但我们有一些更新（例如现在提供 Python！）:)   由   提交/u/battlecode-devs  [链接] [评论]]]></description>
+      <description><![CDATA[Battlecode 是一款实时策略游戏，您将使用博弈论、寻路和分布式算法来组建一支机器人自主团队，并击败对手。 欢迎任何人以 1-4 人的团队形式参赛，争夺2 万美元奖金池，顶尖团队将获得有保证的实习机会与我们的白金赞助商，Amplitude！排名前 16 的学生团队还将免费飞往 MIT 参加 1 月 31 日的决赛。 除了基本的编程技能之外，不需要任何经验！机器人是用 Java 和/或 Python 编写的，但我们推荐使用 Java。我们将引导您了解创建第一个机器人的基础知识以及战胜其他玩家的高级策略。比赛附有将在 YouTube 上直播的讲座（但您也可以亲自参加麻省理工学院的讲座！）。 Battlecode 2026 将于 2026 年 1 月 5 日至 31 日举行。参与就是您想要的承诺（通常每周几个小时）！ 您可以了解更多信息 battlecode.org/about 并在 play.battlecode.org/register 注册。 欢迎在此帖子中提问；我们会尽力解答！与去年类似的帖子，但我们有一些更新（例如现在提供 Python！）:)   由   提交/u/battlecode-devs  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pyx095/mit_battlecode_programming_competition_starts_in/</guid>
       <pubDate>Mon, 29 Dec 2025 20:21:11 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[大多数云成本问题并非源于错误的决策，而是源于缺乏所有权。团队交付速度很快，环境倍增，突然之间没有人知道哪些工作负载很重要，哪些工作负载可以缩减，或者谁负责账单。 FinOps 并不是盲目削减成本，而是盲目削减成本。这是为了给工程、财务和领导层提供相同的可见性，因此权衡是有意的，而不是被动的。 这篇文章很好地分解了 FinOps 在真正的云团队中的实际工作方式，而不是将其变成财务讲座：云 FinOps 好奇：在您的组织中什么更难：成本可见性或让团队在他们拥有后立即关心是吗？   由   提交/u/netcommah  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1pyrjai/cloud_finops_dont_accidentally_get_out_of_control/</guid>
       <pubDate>Mon, 29 Dec 2025 16:59:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们来做个游戏吧！ 368：团队名称</title>
-      <link>https://www.reddit.com/r/programming/comments/1pypdy5/lets_make_a_game_368_team_names/</link>
-      <description><![CDATA[ 由   提交/u/apeloverage  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pypdy5/lets_make_a_game_368_team_names/</guid>
-      <pubDate>Mon, 29 Dec 2025 15:38:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>当你在 Golang 中将 NAN 转换为 uint 时会发生什么</title>
-      <link>https://www.reddit.com/r/programming/comments/1pynflx/what_happens_when_you_convert_a_nan_to_uint_in/</link>
-      <description><![CDATA[ 由   提交/u/Sakshamarya   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1pynflx/what_happens_when_you_convert_a_nan_to_uint_in/</guid>
-      <pubDate>Mon, 29 Dec 2025 14:19:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
