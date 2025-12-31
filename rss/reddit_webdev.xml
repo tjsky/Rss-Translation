@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 30 Dec 2025 21:17:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 01:19:36 GMT</lastBuildDate>
+    <item>
+      <title>当其他人似乎都在前进时却感觉被困住了</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pzwl9j/feeling_stuck_while_everyone_else_seems_to_be/</link>
+      <description><![CDATA[最近我一直感受到一种无法摆脱的安静压力。 我的大多数朋友现在都有工作了。有些人在公司工作，有些人只是在做一些事情——赚钱、学习、前进。而我在这里，试图完全独自一人从头开始建立自己的网络机构。没有获得新客户。没有稳定的收入。只是努力、希望和大量的等待。 我的父母一直催促我找一份“合适的工作”，老实说……我明白了。从外表上看，我可能是在浪费时间或者不切实际。有时连我都开始相信也许他们是对的。也许我应该找一份工作并谨慎行事，而不是尝试自己建立一些东西。 我并不懒惰。我每天都在工作。但当结果几个月都没有出现时，你的头脑就会变得混乱。你开始质疑你的选择、你的能力，甚至你的信心。 我不知道我是在寻求建议还是只是为了发泄。我只是想把它放在某个地方，因为每天把它放在里面感觉更重。 如果其他人经历过这个阶段 = 尝试、失败、怀疑，我真的很想听听你是如何处理它的。   由   提交/u/itsharry135  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pzwl9j/feeling_stuck_while_everyone_else_seems_to_be/</guid>
+      <pubDate>Tue, 30 Dec 2025 23:02:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>为一个项目组建一个团队...</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pzwczs/making_a_team_for_a_project/</link>
+      <description><![CDATA[大家好， 所以我正在组建一个团队，很可能会把它分成两个团队，两个团队将在一个项目“人工智能助手”上相互竞争， 问题是，两个团队都会制作不同的版本 - 第一个是网页版本，在这个版本中没有任何限制，只是我们必须制作它的 gui/前端部分在网络上...休息我们可以做任何事情.... 第二个应该是一个系统应用程序，所以整个应用程序将是系统级的....一种软件... 所以任何想要加入我的团队的人都请告诉我以及您想要与之一起完成此项目的相应团队... 这将是一个开源项目，仅用于练习和学习目的... 谢谢....   由   提交 /u/aymsiv   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pzwczs/making_a_team_for_a_project/</guid>
+      <pubDate>Tue, 30 Dec 2025 22:53:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>在现代 Web 应用程序中处理用户身份验证的最有效方法是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1pzwct1/what_are_the_most_effective_ways_to_handle_user/</link>
+      <description><![CDATA[用户身份验证是 Web 应用程序的关键组成部分，随着各种框架和库的兴起，有多种可用策略。我很想知道你们都认为什么方法最有效。您更喜欢使用 Google 或 Facebook 等 OAuth 提供商进行社交登录，还是倾向于实施自己的自定义身份验证系统？此外，如何安全地处理用户会话？我一直在探索 JWT（JSON Web 令牌）进行无状态身份验证，但我也意识到潜在的陷阱，例如令牌过期和刷新策略。您推荐哪些工具或库来管理身份验证流程？您在实施这些工具或库时是否遇到过任何挑战？我期待听到您的经验和最佳实践！   由   提交/u/naenae0402  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1pzwct1/what_are_the_most_effective_ways_to_handle_user/</guid>
+      <pubDate>Tue, 30 Dec 2025 22:53:11 GMT</pubDate>
+    </item>
     <item>
       <title>刚刚让我的网络应用程序投入生产</title>
       <link>https://www.reddit.com/r/webdev/comments/1pzthsv/just_made_my_web_app_live_in_production/</link>
@@ -15,14 +36,14 @@
     <item>
       <title>如何缓存速率受限 API 的结果？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pztfoe/how_to_cache_results_from_a_rate_limited_api/</link>
-      <description><![CDATA[我使用的 API 每秒最多有 4 个请求和 8 个并发请求。这对于任何实际规模来说都太低了，所以我必须缓存我得到的结果。 查询此 API 的端点的逻辑是：  检查由查询键入的缓存表以获取确切的发送查询（无大小写且无空格） 如果命中，则返回给定查询/行的缓存结果 如果未命中，则查询 API，将结果插入缓存表并返回结果  由于如果缓存命中早于 X 天，结果可能会变得过时，因此无论如何我都会调用 API 并更新行的刷新日期并使用新结果进行更新。 您发现这有什么问题吗？我主要关心的是是否有更好的方法来缓存结果。我应该基于唯一查询进行缓存，这是一个好主意吗？   由   提交/u/AdQuirky3186  [链接] [评论]]]></description>
+      <description><![CDATA[我使用的 API 每秒最多有 4 个请求和 8 个并发请求。这对于任何实际规模来说都太低，因此我必须缓存我得到的结果。 查询此 API 的端点的逻辑是：  检查由查询键入的缓存表以获取确切的发送查询（不区分大小写和空格） 如果命中返回给定查询/行的缓存结果 如果未命中，则查询 API，将结果插入缓存表并返回结果  由于如果缓存命中早于 X 天，结果可能会变得过时，因此无论如何我都会调用 API 并更新行的刷新日期并使用新结果进行更新。 您发现这有什么问题吗？我主要关心的是是否有更好的方法来缓存结果。我应该基于唯一查询进行缓存，这是一个好主意吗？   由   提交/u/AdQuirky3186  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pztfoe/how_to_cache_results_from_a_rate_limited_api/</guid>
       <pubDate>Tue, 30 Dec 2025 20:52:26 GMT</pubDate>
     </item>
     <item>
       <title>开发人员是否使用拖放工具（squarespace、with 等）</title>
       <link>https://www.reddit.com/r/webdev/comments/1pzqzsa/do_developers_use_drag_and_drop_tools_squarespace/</link>
-      <description><![CDATA[我在青少年时期自学编码，十多年来一直为朋友和家人构建网站。我可以编写 HTML、CSS、JS，但从未专业销售过网站。  我想开始为小型企业做自由职业作为兼职工作。我更喜欢通过从头开始构建网站（VS Code）获得的控制权，但众所周知，这可能非常耗时。对于像我这样不全职做这件事的人来说，这需要大量的尝试和错误。  由于我还有一份全职工作，我想知道，自由开发人员为了节省时间而使用 squarespace、WordPress、wix 这样的工具是否合适？如果是这样，哪个最好？是否有一个很好的中间地带软件将拖放与自定义代码的功能相结合？ 编辑：标题应该说 Wix，而不是 with。    由   提交/u/TMonahan2424  [链接] [评论]]]></description>
+      <description><![CDATA[我在青少年时期自学编码，十多年来一直为朋友和家人构建网站。我可以编写 HTML、CSS、JS，但从未专业销售过网站。  我想开始为小型企业做自由职业，作为兼职工作。我更喜欢通过从头开始构建网站（VS Code）获得的控制权，但众所周知，这可能非常耗时。对于像我这样不全职做这件事的人来说，这需要大量的尝试和错误。  由于我还有一份全职工作，我想知道，自由开发人员为了节省时间而使用 squarespace、WordPress、wix 这样的工具是否合适？如果是这样，哪个最好？是否有一个很好的中间地带软件将拖放与自定义代码的功能相结合？ 编辑：标题应该说 Wix，而不是 with。    由   提交/u/TMonahan2424  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pzqzsa/do_developers_use_drag_and_drop_tools_squarespace/</guid>
       <pubDate>Tue, 30 Dec 2025 19:16:48 GMT</pubDate>
     </item>
@@ -57,7 +78,7 @@
     <item>
       <title>WebSocket 在 Safari/iOS 26 上损坏？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pzmhvf/websocket_broken_on_safariios_26/</link>
-      <description><![CDATA[我正在创建一个在我的 LAN 上运行的网站。我只是通过输入机器的 LAN ip 来连接它，所以只是普通的 HTTP 和 WS。 在 iOS 26.2/Safari 上，WebSocket 甚至不会尝试连接（readyState 属性显示 0，但 WireShark 显示没有进行任何尝试）。通过向上滑动然后再次打开来关闭 Safari 有时会使其连接，按电源按钮似乎也会启动连接尝试？只需刷新页面即可建立初始 Websocket 连接，但随后立即关闭，然后在页面加载后成功打开一个新的连接。 我看到过提到关闭 iCloud 私有中继，因为它可能会导致错误的 HTTP CONNECT 请求，但这不是这里的问题，wireshark 清楚地显示根本没有进行任何尝试，并且当进行尝试时，它直接来自我的 iPhone 所具有的 LAN IP，因为它是通过 WiFi 连接到它的。 I在同一部 iPhone 上安装了 FireFox 和 Chrome，并且 WebSocket 运行得非常好。运行 18.7.3 的 Safari 的 iPad 也能按预期工作。 有人遇到过类似的情况吗？   由   提交 /u/RespectFront1321   [链接] [评论]]]></description>
+      <description><![CDATA[我正在创建一个在我的 LAN 上运行的网站。我只是通过输入机器的 LAN ip 来连接它，所以只是普通的 HTTP 和 WS。 在 iOS 26.2/Safari 上，WebSocket 甚至不会尝试连接（readyState 属性显示 0，但 WireShark 显示没有进行任何尝试）。通过向上滑动然后再次打开来关闭 Safari 有时会使其连接，按电源按钮似乎也会启动连接尝试？只需刷新页面即可建立初始 Websocket 连接，但随后立即关闭，然后在页面加载后成功打开一个新的连接。 我看到过提到关闭 iCloud 私有中继，因为它可能会导致错误的 HTTP CONNECT 请求，但这不是这里的问题，wireshark 清楚地显示根本没有进行任何尝试，并且当进行尝试时，它直接来自我的 iPhone 所具有的 LAN IP，因为它是通过 WiFi 连接到它的。 I在同一台 iPhone 上安装了 FireFox 和 Chrome，并且 WebSocket 运行得非常好。运行 18.7.3 的 Safari 的 iPad 也能按预期工作。 有人遇到过类似的情况吗？   由   提交 /u/RespectFront1321   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pzmhvf/websocket_broken_on_safariios_26/</guid>
       <pubDate>Tue, 30 Dec 2025 16:27:57 GMT</pubDate>
     </item>
@@ -78,7 +99,7 @@
     <item>
       <title>为什么没有用于 e2e 测试的“TanStack Query”？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pzllrv/why_is_there_no_tanstack_query_for_e2e_testing/</link>
-      <description><![CDATA[大家好！我是一名 FE 开发者（React/Vue），大约 10 岁。在我加入的几乎每个团队中，我最终都成为“自封的 SDET”。 - 塑造 e2e 架构，引入页面对象模型、固定装置和其他经过验证的测试模式。我花了一些时间使用 PHP 来使用 Codeception/Selenium，但在过去几年中，我采用了现代堆栈（Cypress/Playwright）。 随着我更多地参与 JS/TS e2e 领域，我开始感觉到与 FE/webdev 工具堆栈相比存在巨大差距。 如果我在 FE/webdev 和 e2e 测试之间进行类比，当前的情况如下所示： 基础库 - 提供原语： - FE：React、Vue、Svelte。 （提供：状态、挂钩、反应性、渲染等） - e2e：Playwright、Cypress。 （提供：定位器、智能等待、交互、断言等） 重型框架 - 固执己见，围绕基础构建： - FE：Next.js、Nuxt。 - e2e：Serenity/JS、CodeceptJS。 在 FE 开发中，我们严重依赖广泛采用的“中间件”或“工具包”这些不是成熟的框架，但通过最佳实践解决了特定的架构问题。 - 状态/反应性：TanStack Query、MobX、Redux。 - 路由：TanStack Router、React Router。 e2e 的等效项在哪里？ 说实话，我从来没有参与过一个足够大的项目，我觉得引入 Screenplay 模式是有意义的，所以我从来没有使用过 Serenity/JS，并且我觉得使用裸机 PW 比 CodeceptJS 更舒服。他们引入的架构严谨性和可读性给我留下了深刻的印象，但只要阅读他们的文档，我就可以看出，如果我尝试将它们引入到我们的项目中，我最终将成为唯一编写 e2e 测试的人 :D 但是如果没有他们，我只剩下原始原语，而且我发现自己不断地重新发明轮子：每次启动新的项目时，都重新实现我最喜欢的夹具模式、基础 POM 类和辅助实用程序 为什么 Web 开发生态系统充满了这些超级有用、专注的“工具包”？而 e2e 生态系统似乎缺乏它们？  我是否遗漏了一些东西，或者行业标准只是“DIY 自己的架构”？对于每个项目？ 是否有任何基于您喜欢的基础构建的库并用于日常 e2e 测试任务？ 对于 QA/SDET：其他语言/生态系统如何处理这个问题？这只是 JS/TS 的事情吗？    由   提交 /u/TranslatorRude4917   [链接] [评论]]]></description>
+      <description><![CDATA[大家好！我是一名 FE 开发者（React/Vue），大约 10 岁。在我加入的几乎每个团队中，我最终都成为“自封的 SDET”。 - 塑造 e2e 架构，引入页面对象模型、固定装置和其他经过验证的测试模式。我花了一些时间使用 PHP 来使用 Codeception/Selenium，但在过去几年中，我采用了现代堆栈（Cypress/Playwright）。 随着我更多地参与 JS/TS e2e 领域，我开始感觉到与 FE/webdev 工具堆栈相比存在巨大差距。 如果我在 FE/webdev 和 e2e 测试之间进行类比，当前的情况如下所示： 基础库 - 提供原语： - FE：React、Vue、Svelte。 （提供：状态、挂钩、反应性、渲染等） - e2e：Playwright、Cypress。 （提供：定位器、智能等待、交互、断言等） 重型框架 - 固执己见，围绕基础构建： - FE：Next.js、Nuxt。 - e2e：Serenity/JS、CodeceptJS。 在 FE 开发中，我们严重依赖广泛采用的“中间件”或“工具包”这些不是成熟的框架，但可以通过最佳实践解决特定的架构问题。 - 状态/反应性：TanStack Query、MobX、Redux。 - 路由：TanStack Router、React Router。 e2e 的等效项在哪里？ 说实话，我从来没有参与过一个足够大的项目，我觉得引入 Screenplay 模式是有意义的，所以我从来没有使用过 Serenity/JS，并且我觉得使用裸机 PW 比 CodeceptJS 更舒服。他们引入的架构严谨性和可读性给我留下了深刻的印象，但只要阅读他们的文档，我就可以看出，如果我尝试将它们引入到我们的项目中，我最终将成为唯一编写 e2e 测试的人 :D 但是如果没有他们，我只剩下原始原语，而且我发现自己不断地重新发明轮子：每次启动新的项目时，都重新实现我最喜欢的夹具模式、基础 POM 类和辅助实用程序 为什么 Web 开发生态系统充满了这些超级有用、专注的“工具包”？而 e2e 生态系统似乎缺乏它们？  我是否遗漏了一些东西，或者行业标准只是“DIY 自己的架构”？对于每个项目？ 是否有任何基于您喜欢的基础构建的库并用于日常 e2e 测试任务？ 对于 QA/SDET：其他语言/生态系统如何处理这个问题？这只是 JS/TS 的事情吗？    由   提交 /u/TranslatorRude4917   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pzllrv/why_is_there_no_tanstack_query_for_e2e_testing/</guid>
       <pubDate>Tue, 30 Dec 2025 15:53:39 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[标题。这更像是一个带有静态站点的简单客户端。美国   由   提交/u/beanerbunker777  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pzl99p/is_it_unprofessional_to_only_handle_new_clients/</guid>
       <pubDate>Tue, 30 Dec 2025 15:40:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>我正在尝试为当地健身房创建一个健身房管理 Web 应用程序</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pzl1c4/i_am_trying_to_create_a_gym_management_web/</link>
-      <description><![CDATA[嘿r/webdev，请在创建我的作品集和来自这个社区的评论后，我对自己的工作充满信心，并联系了我当地的健身房，他们说他们需要一个健身房管理软件/应用程序来管理费用/订阅、盈利能力，最重要的是记录他们的会员的进入和退出。 我是考虑创建一个全栈下一个应用程序，为健身房所有者提供管理面板访问权限，该应用程序还将提供一个独特的二维码，可以扫描进入和退出。将使用 supabase 并保持 UI UX 非常简单，易于理解和管理。  请让我知道您对技术堆栈的建议，以及可以添加哪些功能，如果有任何现有的类似软件，我也愿意合作（请记住，我来自印度，我是独立的），开放讨论。   由   提交/u/Strucker30  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pzl1c4/i_am_trying_to_create_a_gym_management_web/</guid>
-      <pubDate>Tue, 30 Dec 2025 15:31:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pzk2m3/advice/</link>
-      <description><![CDATA[大家好， 我想与这个社区分享一些我的旅程，因为去年是一场旋风，把它写下来感觉是理解它的唯一方法。 我已经成为一名时装设计师相当长一段时间了，在某个时刻，一切都感觉完美契合。我非常荣幸地成为第一个获得 Gucci 奖学金的加拿大人——这一时刻真正改变了我的职业轨迹。我以超现实的方式创造、合作和积蓄动力。 但生活总是会改变优先事项。我决定回到学校完成另一个学位，这次是在我的时尚背景基础上的商业学位。随着我的工作量增加，我的品牌不得不放慢一点。尽管如此，我的网站——我自己在 WordPress 上构建和维护的——仍然是我的锚。它保存着我的作品集、我的收藏、我的故事。这是我倾注了多年心血的事情。 今年早些时候，我的祖母去世了，一切都冻结了一段时间。在努力让自己振作起来的过程中，我错过了托管更新。我在同一家托管提供商工作了大约五到七年，始终如一，始终忠诚。但当我去付款时——仅仅晚了一周——一切都消失了。没有备份。没有存档。没有恢复。刚刚擦干净了。 我很伤心。这感觉就像失去了我的历史、我的进步、我作为设计师的身份的数字部分。我向他们伸出援手，希望能得到我失去的哪怕是一小部分，但他们无能为力（或不愿）做任何事情。 从那时起，我就一直从头开始重建。我收到的报价超出了我的预算，尤其是当我还试图重新投资面料、生产并再次缓慢发布单品时。因此，我一直在自学如何从头开始创建一个新网站，边学习边学习，并努力保持动力，即使感到不知所措。 这是一种挫折、反思和韧性的奇怪结合。失去这个网站让我明白了数字工作是多么脆弱，但它也提醒了我为什么开始这一切——创造、分享、成长。 如果有人有建议、资源或我在重建过程中可以学习的方法，请随时分享——我真的很感激。 感谢您花时间阅读我的故事。把它写出来让我感觉轻松了一些，我慢慢地重新站稳了脚跟。 TL;DR: 长期时装设计师和第一位加拿大 Gucci 学者。尽管我已经是 5-7 年的忠实客户，但在错过一周的托管付款后我失去了整个 WordPress 网站。没有备份。现在，我正在从头开始重建我的品牌和数字形象，同时尝试重新启动我的时尚工作 - 向人们愿意分享的任何学习资源开放。   由   提交/u/NovaSupply  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pzk2m3/advice/</guid>
-      <pubDate>Tue, 30 Dec 2025 14:52:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>空状态设计最佳实践实际上对转换很重要还是很高兴拥有</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pzjrbr/do_empty_state_design_best_practices_actually/</link>
-      <description><![CDATA[在用户尚未添加数据时设计深思熟虑的空状态，这对于激活很重要。我觉得它只是装饰性的，时间最好花在实际功能上。 她向我展示了 notion 和 Figma 等产品的示例，其中空状态建议模板或指导下一步操作，声称这些细节会显着影响新用户是否会留下来还是跳出。我怀疑一些漂亮的消息和插图与核心功能相比是否那么重要。 但客观地看待这一点，如果 50% 的新用户在第一次会话中看到空状态，并且这种体验决定了他们是否理解价值并完成设置操作，也许它比我想象的更重要。但当我们遇到更大的产品问题时，也感觉像是过早的优化。 一直在 mobbin 上检查空状态模式，看看成功的公司实际上在这些屏幕上投入了多少努力，老实说，他们似乎确实将它们视为重要时刻而不是一次性状态。猜猜问题是在产品成熟度的哪个阶段这些东西会成为优先事项。 好奇其他开发人员的想法，这是否值得花时间，或者我应该推迟并首先关注更关键的功能。如果它不改变指标，则不想浪费精力进行改进，但也不想忽略对用户保留真正重要的东西。   由   提交 /u/Pixel_Goblin_Hunter   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pzjrbr/do_empty_state_design_best_practices_actually/</guid>
-      <pubDate>Tue, 30 Dec 2025 14:39:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
