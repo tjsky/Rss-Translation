@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 31 Dec 2025 01:19:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 04:02:08 GMT</lastBuildDate>
+    <item>
+      <title>端点状态策略 (ESP)：策略即代码</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q005zf/endpoint_state_policy_esp_policy_as_code/</link>
+      <description><![CDATA[       由   提交/u/ScanSet_io  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q005zf/endpoint_state_policy_esp_policy_as_code/</guid>
+      <pubDate>Wed, 31 Dec 2025 01:37:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>欢迎贡献者：一款由网络技术驱动的黑客模拟器游戏。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1pzzxms/contributors_welcomed_a_hacking_simulator_game/</link>
+      <description><![CDATA[       由   提交/u/chief330  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1pzzxms/contributors_welcomed_a_hacking_simulator_game/</guid>
+      <pubDate>Wed, 31 Dec 2025 01:26:50 GMT</pubDate>
+    </item>
     <item>
       <title>[发布]Nebulo V2.0 - 完全免费开源的iOS IPTV播放器，具有专用的体育中心和多视图！</title>
       <link>https://www.reddit.com/r/opensource/comments/1pzzk9k/release_nebulo_v20_a_completely_free_opensource/</link>
@@ -27,7 +41,7 @@
       <pubDate>Tue, 30 Dec 2025 23:58:37 GMT</pubDate>
     </item>
     <item>
-      <title>向非技术读者提倡开源</title>
+      <title>向非技术读者倡导开源</title>
       <link>https://www.reddit.com/r/opensource/comments/1pzw2ws/advocating_opensource_to_nontechnical_readers/</link>
       <description><![CDATA[我们都生活在一个技术极其复杂的世界。 开源的概念一开始可能看起来很激进，但它在我们的世界中是不可或缺的。 无论您是用户、开发人员还是仅仅对健康的社会感兴趣，您都会从开源中受益，我们应该为它而奋斗。 开源是一种质量标志，是民主和民主的一种形式。所有权、资本主义的最佳状态，以及对这个世界的反应，一个软件存在的世界。 本文不需要任何先验技术知识就可以得出这个结论。   由   提交/u/Stromel1   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1pzw2ws/advocating_opensource_to_nontechnical_readers/</guid>
@@ -95,20 +109,6 @@
       <description><![CDATA[像你们中的许多人一样，我也曾因 Instagram 的令人上瘾的信息流而苦苦挣扎。我曾经依靠 DFInstagram 来阻止无休止的滚动，但它已经很长时间没有维护了，而且将其更新到较新的 Instagram 版本很痛苦。 因此，我决定构建自己的解决方案：FeurStagram - 一个开源项目，它消除了 Instagram 的令人上瘾的功能，同时保留了必需的功能（适用于 Android）。 FeurStagram 存储库位于 Github 上：https://github.com/jean-voila/FeurStagram 两种使用方法：  准备安装 APK ： 只需从 GitHub 版本中获取最新的修补 APK 并安装即可。无需技术技能！ DIY 修补工具包。您可以从此处安装 apk 文件：feurstagram-410-1-0-63-71.apk 您还可以使用随附的补丁自行修补任何 Instagram 版本脚本  被阻止的内容：  ❌ Feed 帖子（在网络级别被阻止） ❌“探索”选项卡（重定向到 DM） ❌“卷轴”选项卡（重定向到 DM）  仍然有效的内容：  ✅ 故事 ✅ 直接消息 ✅ 个人资料 ✅ 在私信中共享的卷轴（这样您仍然可以查看朋友发送给您的内容，但无法滚动） ✅ 搜索 ✅ 通知 为什么采用这种方法？与停止更新的 DFInstagram 不同：  提供预建 APK - 只需从版本下载并安装 DIY 选项 -如果您想要特定的 Instagram 版本，您可以自己修补它 面向未来 -当 Instagram 更新时，我会发布新的修补版本（或者您可以自己修补） 它是开源的，您可以确切地看到它的作用。没有可疑的修改，只是阻止不需要的内容 该工具包使用两种修补策略：  网络级阻止 -  拦截 Instagram 的 API 调用并从源头阻止提要内容 选项卡重定向 -  当您点击“探索”或“卷轴”时，它会打开 DM 结果：Instagram 成为纯粹的通信工具。您仍然可以向朋友发送消息、查看他们的故事、检查通知以及使用您的个人资料。但不再需要在提要中滚动，不再探索兔子洞，不再有无尽的卷轴。  很想听听您的想法和反馈。   由   提交 /u/niverseCreator   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1pzp1ct/feurstagram_an_opensource_instagram_android_app/</guid>
       <pubDate>Tue, 30 Dec 2025 18:03:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>我应该寻找贡献者还是不？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pzm8om/should_i_look_for_contributors_or_nah/</link>
-      <description><![CDATA[我正在创建一个有点大的项目，找到贡献者将在心理上和开发过程中提供巨大的帮助。 这是一种对大量创意艺术家来说非常有用的软件。 After Effects 的替代方案。  我应该寻找贡献者还是继续单独工作？ 我应该在哪里找到感兴趣的贡献者？  [更新 1]：这是应用程序的存储库：https://gitlab.com/advanced-effects/advanced-effects这是维基百科： https://gitlab.com/advanced-effects/Advanced-Effects/-/wikis/home   由   提交 /u/Terrible_Wish_745   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pzm8om/should_i_look_for_contributors_or_nah/</guid>
-      <pubDate>Tue, 30 Dec 2025 16:18:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kriti Images - Cloudflare Images 的开源替代品现在支持基于 URL 的图像</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pzm46y/kriti_images_open_source_alt_to_cloudflare_images/</link>
-      <description><![CDATA[      几周前，我分享了 Kriti Images，这是我基于 Go 的图像转换服务。该项目应该是 Cloudflare Images、Imagick 和 Cloudflare Images 的开源替代品。 Imagekit。 GitHub | 网站 | 演示 新功能：远程 URL 获取 只需将互联网上的任何图像的 URL 作为配置的本地或 S3 存储桶的源传递即可。 如果您想要代理、调整大小或优化外部图像（例如来自 Unsplash 或旧版 CMS），而无需先下载并重新上传它们，那么这是完美的选择。 GET /cgi/images/tr:flip=hv/https%3A%2F%2Fimages.unsplash.com%2Fphoto-xyz... 下一步是什么？ 我还在琢磨像 Canva 这样的基本编辑器和编辑器的想法。模板功能，PR 正在进行中 我很想听听您如何使用它或者您接下来希望看到哪些功能！   由   提交/u/v1n4y_g   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pzm46y/kriti_images_open_source_alt_to_cloudflare_images/</guid>
-      <pubDate>Tue, 30 Dec 2025 16:13:18 GMT</pubDate>
     </item>
     </channel>
 </rss>

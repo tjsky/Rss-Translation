@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 31 Dec 2025 01:19:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 04:01:46 GMT</lastBuildDate>
+    <item>
+      <title>不要振动代码；代表|在法学硕士时代培养勤奋的怀疑精神和负责任的发展</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q02did/dont_vibe_code_delegate_cultivating_diligent/</link>
+      <description><![CDATA[       由   提交/u/creaturefeature16  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q02did/dont_vibe_code_delegate_cultivating_diligent/</guid>
+      <pubDate>Wed, 31 Dec 2025 03:19:08 GMT</pubDate>
+    </item>
     <item>
       <title>当其他人似乎都在前进时却感觉被困住了</title>
       <link>https://www.reddit.com/r/webdev/comments/1pzwl9j/feeling_stuck_while_everyone_else_seems_to_be/</link>
@@ -36,14 +43,14 @@
     <item>
       <title>如何缓存速率受限 API 的结果？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pztfoe/how_to_cache_results_from_a_rate_limited_api/</link>
-      <description><![CDATA[我使用的 API 每秒最多有 4 个请求和 8 个并发请求。这对于任何实际规模来说都太低，因此我必须缓存我得到的结果。 查询此 API 的端点的逻辑是：  检查由查询键入的缓存表以获取确切的发送查询（不区分大小写和空格） 如果命中返回给定查询/行的缓存结果 如果未命中，则查询 API，将结果插入缓存表并返回结果  由于如果缓存命中早于 X 天，结果可能会变得过时，因此无论如何我都会调用 API 并更新行的刷新日期并使用新结果进行更新。 您发现这有什么问题吗？我主要关心的是是否有更好的方法来缓存结果。我应该基于唯一查询进行缓存，这是一个好主意吗？   由   提交/u/AdQuirky3186  [链接] [评论]]]></description>
+      <description><![CDATA[我使用的 API 每秒最多有 4 个请求和 8 个并发请求。这对于任何实际规模来说都太低了，所以我必须缓存我得到的结果。 查询此 API 的端点的逻辑是：  检查由查询键入的缓存表以获取确切的发送查询（无大小写且无空格） 如果命中，则返回给定查询/行的缓存结果 如果未命中，则查询 API，将结果插入缓存表并返回结果  由于如果缓存命中早于 X 天，结果可能会变得过时，因此无论如何我都会调用 API 并更新行的刷新日期并使用新结果进行更新。 您发现这有什么问题吗？我主要关心的是是否有更好的方法来缓存结果。我应该基于唯一查询进行缓存，这是一个好主意吗？   由   提交/u/AdQuirky3186  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pztfoe/how_to_cache_results_from_a_rate_limited_api/</guid>
       <pubDate>Tue, 30 Dec 2025 20:52:26 GMT</pubDate>
     </item>
     <item>
       <title>开发人员是否使用拖放工具（squarespace、with 等）</title>
       <link>https://www.reddit.com/r/webdev/comments/1pzqzsa/do_developers_use_drag_and_drop_tools_squarespace/</link>
-      <description><![CDATA[我在青少年时期自学编码，十多年来一直为朋友和家人构建网站。我可以编写 HTML、CSS、JS，但从未专业销售过网站。  我想开始为小型企业做自由职业，作为兼职工作。我更喜欢通过从头开始构建网站（VS Code）获得的控制权，但众所周知，这可能非常耗时。对于像我这样不全职做这件事的人来说，这需要大量的尝试和错误。  由于我还有一份全职工作，我想知道，自由开发人员为了节省时间而使用 squarespace、WordPress、wix 这样的工具是否合适？如果是这样，哪个最好？是否有一个很好的中间地带软件将拖放与自定义代码的功能相结合？ 编辑：标题应该说 Wix，而不是 with。    由   提交/u/TMonahan2424  [链接] [评论]]]></description>
+      <description><![CDATA[我在青少年时期自学编码，十多年来一直为朋友和家人构建网站。我可以编写 HTML、CSS、JS，但从未专业销售过网站。  我想开始为小型企业做自由职业作为兼职工作。我更喜欢通过从头开始构建网站（VS Code）获得的控制权，但众所周知，这可能非常耗时。对于像我这样不全职做这件事的人来说，这需要大量的尝试和错误。  由于我还有一份全职工作，我想知道，自由开发人员为了节省时间而使用 squarespace、WordPress、wix 这样的工具是否合适？如果是这样，哪个最好？是否有一个很好的中间地带软件将拖放与自定义代码的功能相结合？ 编辑：标题应该说 Wix，而不是 with。    由   提交/u/TMonahan2424  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pzqzsa/do_developers_use_drag_and_drop_tools_squarespace/</guid>
       <pubDate>Tue, 30 Dec 2025 19:16:48 GMT</pubDate>
     </item>
@@ -53,13 +60,6 @@
       <description><![CDATA[我目前不是一名 Web 开发人员，但我过去曾为客户构建过网站，而且我已经自雇了一段时间。最近，我再次回到网页设计领域 - 更多的是为了乐趣，而不是为了很快将其变成一项业务。 我一直读到的内容是网页设计很困难，而且它将被（或将）被人工智能取代。老实说，我想知道这是来自实际从事网页设计的人，还是来自主要研究人工智能的人。 如果我错了，请纠正我，但用人工智能创建一个真正定制的网站似乎并不那么容易。首先，你必须坐下来，甚至首先弄清楚要使用哪种人工智能工具——这已经比大多数想要网站的人愿意处理的技术性更强了。他们通常希望外包一切技术，因为这对他们来说就像黑魔法。 其次，你在很大程度上受到人工智能生产的任何东西的限制。根据我的经验，这正是客户想要参与的部分：最终结果。设计、文本、图像等等。 此外，根据我的经验，客户希望有一个可以交谈和信任的人。他们不想自己处理托管问题、域问题或稍后添加新的子页面。他们只是想告诉他们信任的人他们需要什么，获得有关下一个项目的建议，并且在完成之前不再考虑它。这也是为什么我认为很多客户并不喜欢 Fiverr 或 Upwork 来构建网站，因为他们已经认为自己会时不时地再次需要网页设计师。 出于上述所有原因，我可以想象在网上随机找到客户是相当困难的，但通过口碑获得客户对我来说似乎更容易。 您对此有何看法？我并不是想抱怨人们的说法，我只是真的很困惑，因为我读到的很多内容与我自己的经历不符。   由   提交 /u/rxq   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pzpijg/i_am_confused_about_all_the_people_saying/</guid>
       <pubDate>Tue, 30 Dec 2025 18:21:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>面试时性格并不重要</title>
-      <link>https://www.reddit.com/r/webdev/comments/1pzpbjp/personality_does_not_matter_in_interviews/</link>
-      <description><![CDATA[所以我是一名新毕业生，正在苦苦挣扎申请，几乎没有得到面试机会。这是我第四次面试，这是我真正想加入的一家初创公司。第一轮是工程总监。我事先查过他，所以我期待一种非常严肃、非常专业的氛围。 相反，这个人接听电话时跳了起来：40 多岁，恶心的纹身，墙上挂着电吉他，毫不费力地很酷。我立即想起我在某处读过的一句话，“公司知道新毕业生没有经验。他们更关心个性和激情。” 我认为这是我的幸运日，因为我前一天刚刚剪了一个新发型（皮肤褪色严重，整齐的阵容，顶部的完美长度）。所以在采访过程中，每隔几秒钟，我就会巧妙地把头转向左边，这样他就能看到我的褪色，并认为我很冷静。大约 10 分钟后，他突然停了下来，说道：“如果你能看看你的屏幕，我将不胜感激。”我当时就知道一切都结束了，而且很尴尬。我刚刚尽快结束了面试，30分钟后就收到了拒绝邮件。 对于处于面试阶段的人来说，“性格很重要”。是一个陷阱。他们只关心你是否会编码。我讨厌这个系统。    由   提交/u/Abvu   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1pzpbjp/personality_does_not_matter_in_interviews/</guid>
-      <pubDate>Tue, 30 Dec 2025 18:14:13 GMT</pubDate>
     </item>
     <item>
       <title>Mozilla 教程中的 CSS 无效？</title>
@@ -78,7 +78,7 @@
     <item>
       <title>WebSocket 在 Safari/iOS 26 上损坏？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pzmhvf/websocket_broken_on_safariios_26/</link>
-      <description><![CDATA[我正在创建一个在我的 LAN 上运行的网站。我只是通过输入机器的 LAN ip 来连接它，所以只是普通的 HTTP 和 WS。 在 iOS 26.2/Safari 上，WebSocket 甚至不会尝试连接（readyState 属性显示 0，但 WireShark 显示没有进行任何尝试）。通过向上滑动然后再次打开来关闭 Safari 有时会使其连接，按电源按钮似乎也会启动连接尝试？只需刷新页面即可建立初始 Websocket 连接，但随后立即关闭，然后在页面加载后成功打开一个新的连接。 我看到过提到关闭 iCloud 私有中继，因为它可能会导致错误的 HTTP CONNECT 请求，但这不是这里的问题，wireshark 清楚地显示根本没有进行任何尝试，并且当进行尝试时，它直接来自我的 iPhone 所具有的 LAN IP，因为它是通过 WiFi 连接到它的。 I在同一台 iPhone 上安装了 FireFox 和 Chrome，并且 WebSocket 运行得非常好。运行 18.7.3 的 Safari 的 iPad 也能按预期工作。 有人遇到过类似的情况吗？   由   提交 /u/RespectFront1321   [链接] [评论]]]></description>
+      <description><![CDATA[我正在创建一个在我的 LAN 上运行的网站。我只是通过输入机器的 LAN ip 来连接它，所以只是普通的 HTTP 和 WS。 在 iOS 26.2/Safari 上，WebSocket 甚至不会尝试连接（readyState 属性显示 0，但 WireShark 显示没有进行任何尝试）。通过向上滑动然后再次打开来关闭 Safari 有时会使其连接，按电源按钮似乎也会启动连接尝试？只需刷新页面即可建立初始 Websocket 连接，但随后立即关闭，然后在页面加载后成功打开一个新的连接。 我看到过提到关闭 iCloud 私有中继，因为它可能会导致错误的 HTTP CONNECT 请求，但这不是这里的问题，wireshark 清楚地显示根本没有进行任何尝试，并且当进行尝试时，它直接来自我的 iPhone 所具有的 LAN IP，因为它是通过 WiFi 连接到它的。 I在同一部 iPhone 上安装了 FireFox 和 Chrome，并且 WebSocket 运行得非常好。运行 18.7.3 的 Safari 的 iPad 也能按预期工作。 有人遇到过类似的情况吗？   由   提交 /u/RespectFront1321   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pzmhvf/websocket_broken_on_safariios_26/</guid>
       <pubDate>Tue, 30 Dec 2025 16:27:57 GMT</pubDate>
     </item>
@@ -99,7 +99,7 @@
     <item>
       <title>为什么没有用于 e2e 测试的“TanStack Query”？</title>
       <link>https://www.reddit.com/r/webdev/comments/1pzllrv/why_is_there_no_tanstack_query_for_e2e_testing/</link>
-      <description><![CDATA[大家好！我是一名 FE 开发者（React/Vue），大约 10 岁。在我加入的几乎每个团队中，我最终都成为“自封的 SDET”。 - 塑造 e2e 架构，引入页面对象模型、固定装置和其他经过验证的测试模式。我花了一些时间使用 PHP 来使用 Codeception/Selenium，但在过去几年中，我采用了现代堆栈（Cypress/Playwright）。 随着我更多地参与 JS/TS e2e 领域，我开始感觉到与 FE/webdev 工具堆栈相比存在巨大差距。 如果我在 FE/webdev 和 e2e 测试之间进行类比，当前的情况如下所示： 基础库 - 提供原语： - FE：React、Vue、Svelte。 （提供：状态、挂钩、反应性、渲染等） - e2e：Playwright、Cypress。 （提供：定位器、智能等待、交互、断言等） 重型框架 - 固执己见，围绕基础构建： - FE：Next.js、Nuxt。 - e2e：Serenity/JS、CodeceptJS。 在 FE 开发中，我们严重依赖广泛采用的“中间件”或“工具包”这些不是成熟的框架，但可以通过最佳实践解决特定的架构问题。 - 状态/反应性：TanStack Query、MobX、Redux。 - 路由：TanStack Router、React Router。 e2e 的等效项在哪里？ 说实话，我从来没有参与过一个足够大的项目，我觉得引入 Screenplay 模式是有意义的，所以我从来没有使用过 Serenity/JS，并且我觉得使用裸机 PW 比 CodeceptJS 更舒服。他们引入的架构严谨性和可读性给我留下了深刻的印象，但只要阅读他们的文档，我就可以看出，如果我尝试将它们引入到我们的项目中，我最终将成为唯一编写 e2e 测试的人 :D 但是如果没有他们，我只剩下原始原语，而且我发现自己不断地重新发明轮子：每次启动新的项目时，都重新实现我最喜欢的夹具模式、基础 POM 类和辅助实用程序 为什么 Web 开发生态系统充满了这些超级有用、专注的“工具包”？而 e2e 生态系统似乎缺乏它们？  我是否遗漏了一些东西，或者行业标准只是“DIY 自己的架构”？对于每个项目？ 是否有任何基于您喜欢的基础构建的库并用于日常 e2e 测试任务？ 对于 QA/SDET：其他语言/生态系统如何处理这个问题？这只是 JS/TS 的事情吗？    由   提交 /u/TranslatorRude4917   [链接] [评论]]]></description>
+      <description><![CDATA[大家好！我是一名 FE 开发者（React/Vue），大约 10 岁。在我加入的几乎每个团队中，我最终都成为“自封的 SDET”。 - 塑造 e2e 架构，引入页面对象模型、固定装置和其他经过验证的测试模式。我花了一些时间使用 PHP 来使用 Codeception/Selenium，但在过去几年中，我采用了现代堆栈（Cypress/Playwright）。 随着我更多地参与 JS/TS e2e 领域，我开始感觉到与 FE/webdev 工具堆栈相比存在巨大差距。 如果我在 FE/webdev 和 e2e 测试之间进行类比，当前的情况如下所示： 基础库 - 提供原语： - FE：React、Vue、Svelte。 （提供：状态、挂钩、反应性、渲染等） - e2e：Playwright、Cypress。 （提供：定位器、智能等待、交互、断言等） 重型框架 - 固执己见，围绕基础构建： - FE：Next.js、Nuxt。 - e2e：Serenity/JS、CodeceptJS。 在 FE 开发中，我们严重依赖广泛采用的“中间件”或“工具包”这些不是成熟的框架，但通过最佳实践解决了特定的架构问题。 - 状态/反应性：TanStack Query、MobX、Redux。 - 路由：TanStack Router、React Router。 e2e 的等效项在哪里？ 说实话，我从来没有参与过一个足够大的项目，我觉得引入 Screenplay 模式是有意义的，所以我从来没有使用过 Serenity/JS，并且我觉得使用裸机 PW 比 CodeceptJS 更舒服。他们引入的架构严谨性和可读性给我留下了深刻的印象，但只要阅读他们的文档，我就可以看出，如果我尝试将它们引入到我们的项目中，我最终将成为唯一编写 e2e 测试的人 :D 但是如果没有他们，我只剩下原始原语，而且我发现自己不断地重新发明轮子：每次启动新的项目时，都重新实现我最喜欢的夹具模式、基础 POM 类和辅助实用程序 为什么 Web 开发生态系统充满了这些超级有用、专注的“工具包”？而 e2e 生态系统似乎缺乏它们？  我是否遗漏了一些东西，或者行业标准只是“DIY 自己的架构”？对于每个项目？ 是否有任何基于您喜欢的基础构建的库并用于日常 e2e 测试任务？ 对于 QA/SDET：其他语言/生态系统如何处理这个问题？这只是 JS/TS 的事情吗？    由   提交 /u/TranslatorRude4917   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1pzllrv/why_is_there_no_tanstack_query_for_e2e_testing/</guid>
       <pubDate>Tue, 30 Dec 2025 15:53:39 GMT</pubDate>
     </item>
