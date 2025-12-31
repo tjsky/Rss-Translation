@@ -4,13 +4,20 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 31 Dec 2025 09:23:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 12:36:29 GMT</lastBuildDate>
     <item>
-      <title>统一的审核标准会让 Reddit 变得更好还是更糟？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q08idc/would_a_unified_moderation_standard_make_reddit/</link>
-      <description><![CDATA[我不知道除了这里还能把它放在哪里。我考虑过其他社区，但它们似乎都被锁定了，或者仅用于非常狭隘的官方目的。 这样的东西对 Reddit 上的用户版主体验有帮助吗？ https://www.reddit.com/r/UMS/comments/1pzu0ma/ums_version_26/ 请记住，这不会是所有社区。只是那些愿意遵守所规定标准的人。这是一套让用户和模组理解和表达社区标准的君子法则的开始。   由   提交 /u/ki4jgt   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q08idc/would_a_unified_moderation_standard_make_reddit/</guid>
-      <pubDate>Wed, 31 Dec 2025 08:58:46 GMT</pubDate>
+      <title>【开源】创客管理平台（MMP）正在寻找新家</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q09rc6/open_source_maker_management_platform_mmp_is/</link>
+      <description><![CDATA[ 由   提交/u/knoker  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q09rc6/open_source_maker_management_platform_mmp_is/</guid>
+      <pubDate>Wed, 31 Dec 2025 10:18:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Repolyze：存储库分析器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q0951x/repolyze_repository_analyzer/</link>
+      <description><![CDATA[大家好， 我已经构建了一个 python 库 Repolyze。它是一个 Python CLI 工具，可分析代码存储库的目录结构和内容以生成全面的统计信息。它扫描文件和目录，遵守 .gitignore 规则，并报告文件计数、目录深度、文件大小、文件类型、语言使用、修改时间和存储库卫生等指标。该工具以人类可读和 JSON 格式输出结果，这对于寻求快速了解项目组成和运行状况的开发人员非常有用。 它还处于初级阶段，我希望获得您的反馈和建议以进一步改进它。 链接到此处所附的库。 谢谢   由   提交/u/iamclairvoyantt  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q0951x/repolyze_repository_analyzer/</guid>
+      <pubDate>Wed, 31 Dec 2025 09:39:44 GMT</pubDate>
     </item>
     <item>
       <title>有没有适用于 Android 的音乐播放器可以播放 Google Drive 中的文件？</title>
@@ -55,7 +62,7 @@
       <pubDate>Tue, 30 Dec 2025 23:58:37 GMT</pubDate>
     </item>
     <item>
-      <title>向非技术读者提倡开源</title>
+      <title>向非技术读者倡导开源</title>
       <link>https://www.reddit.com/r/opensource/comments/1pzw2ws/advocating_opensource_to_nontechnical_readers/</link>
       <description><![CDATA[我们都生活在一个技术极其复杂的世界。 开源的概念一开始可能看起来很激进，但它在我们的世界中是不可或缺的。 无论您是用户、开发人员还是仅仅对健康的社会感兴趣，您都会从开源中受益，我们应该为它而奋斗。 开源是一种质量标志，是民主和民主的一种形式。所有权、资本主义的最佳状态，以及对这个世界的反应，一个软件存在的世界。 本文不需要任何先验技术知识就可以得出这个结论。   由   提交/u/Stromel1   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1pzw2ws/advocating_opensource_to_nontechnical_readers/</guid>
@@ -102,13 +109,6 @@
       <description><![CDATA[我正在开发 Img2Num，这是一个将图像转换为 SVG 并允许用户点击填充路径的应用程序（基本上是一个按数字着色的应用程序，可以让用户为他们想要的任何图像着色）。图像处理核心是用 C++ 编写的，目前已编译为 WebAssembly（我想尽快将其更改为一个包，因此将来这并不重要），React 前端会使用它。 现在，我正在尝试用 C++ 实现双边滤波器 - 我们已经有了高斯模糊，但我没有时间从头开始编写这个滤波器，因为我正在研究轮廓追踪。这是我将 Img2Num 从应用程序转换为其他人可以使用的正确库/包之前需要的最后部分之一。 我非常感谢双边过滤器的 C++ 实现，它可以插入当前代码库或任何有关将其与现有 WASM 工作流程集成的指导。 如果有用的话，我很乐意帮助任何人了解 WebAssembly 集成在项目中的工作原理。您不需要了解 JavaScript 即可做出此贡献。 提前致谢！任何帮助或指示都会很棒。 存储库链接：https://github.com/Ryan-Millard/Img2Num 网站链接：https://ryan-millard.github.io/Img2Num/ 文档链接：https://ryan-millard.github.io/Img2Num/info/docs/   由   提交 /u/readilyaching   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1pztajy/help_need_a_c_bilateral_filter_for_my_oss_project/</guid>
       <pubDate>Tue, 30 Dec 2025 20:46:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>隆重推出 Agam Space - 自托管、零知识加密文件存储解决方案</title>
-      <link>https://www.reddit.com/r/opensource/comments/1pzt4w3/introducing_agam_space_selfhosted_zeroknowledge/</link>
-      <description><![CDATA[       由   提交/u/rameshl5  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1pzt4w3/introducing_agam_space_selfhosted_zeroknowledge/</guid>
-      <pubDate>Tue, 30 Dec 2025 20:40:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
