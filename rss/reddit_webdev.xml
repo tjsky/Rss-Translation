@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 01 Jan 2026 04:10:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 06:28:45 GMT</lastBuildDate>
+    <item>
+      <title></title>
+      <link>https://www.reddit.com/r/webdev/comments/1q0we56/too_reliant_on_ai_help/</link>
+      <description><![CDATA[嘿，我是一名初级/中级前端开发人员，上个月辞去了创业职位。我会非常诚实，因为我正在寻找诚实的反馈……我太依赖人工智能了，我担心除非我不再那么懒惰，否则我不会真正跃升为真正的中级开发人员。 希望真正改进的主要技能是 TypeScript 和架构决策，以及快速摆脱功能构建的困境。 希望每个人在 2026 年都有一个良好的开端！ 编辑：如果有人是高级工程师可以担任导师角色的开发人员，我很乐意聊天！   由   提交/u/Grouchy_Hamster110   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q0we56/too_reliant_on_ai_help/</guid>
+      <pubDate>Thu, 01 Jan 2026 05:11:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>在加利福尼亚州以自由职业者身份开始</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q0w70e/starting_as_a_freelancer_in_california/</link>
+      <description><![CDATA[在加利福尼亚州成立一家有限责任公司每年的成本为 800 美元，但这对我来说有点太多了，因为我刚毕业。独资和DBA就够了吗？我需要任何其他许可证或保险吗？我可能想得太多了，但我现在更担心事情的法律方面，我不想被起诉或罚款。   由   提交/u/WorldlyYak6594  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q0w70e/starting_as_a_freelancer_in_california/</guid>
+      <pubDate>Thu, 01 Jan 2026 05:00:25 GMT</pubDate>
+    </item>
     <item>
       <title>使用正则表达式，但无法确定 ChatGPT 关于 \s 的说法是错误还是正确</title>
       <link>https://www.reddit.com/r/webdev/comments/1q0o0kx/working_with_a_regex_but_cant_decide_if_chatgpt/</link>
@@ -43,14 +57,14 @@
     <item>
       <title>遇到一个错误，我无法在移动视图上将页面从多列切换到单列时找到。它拒绝我尝试解决它的各种不同方式。谁能看出可能是什么原因吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1q0m7ya/got_a_bug_i_just_cant_locate_with_getting_a_page/</link>
-      <description><![CDATA[页面如下： [https://fl-maps.publichappinessmovement.com/newhomepage\](https://fl-maps.publichappinessmovement.com/newhomepage) 我制作了一个简单的布局版本来尝试修复它，而无需任何其他代码页面，但问题仍然存在： [https://fl-maps.publichappinessmovement.com/home-layout\](https://fl-maps.publichappinessmovement.com/home-layout) 甚至更多奇怪的是，当前主页确实切换到移动设备中的单列视图： [https://fl-maps.publichappinessmovement.com\](https://fl-maps.publichappinessmovement.com) 我认为页面之外一定有什么东西弄乱了它，但我在控制台的任何地方都看不到它。  目前的工作是设置断点： \--bs-breakpoint-xs: 0; \--bs-breakpoint-sm: 576px; \--bs-breakpoint-md: 768px; \--bs-breakpoint-lg: 992px; \--bs-breakpoint-xl: 1200px; \--bs-breakpoint-xxl: 1400px; ..但是随着屏幕变得更窄，框中的内容只会缩小，并且框拒绝打破现有布局并跳转到单列布局。  我尝试过：  - 所有可能存在的 !important 标签  - JavaScript 添加 .is-mobile 类以进行布局更改；后来为了支持纯 CSS 媒体查询而删除了这一点。 - 对 /newhomepage 和 /home-layout 进行了多个 SCSS 重写，旨在移动设备上的单列和桌面上的多列。 - 从工作主页复制移动宽度语句，但我认为多列方法会阻止其工作。  - 构建了全新的 /home-layout 页面作为最佳实践响应式演示，具有清晰的列部分和移动媒体查询，但不知何故它仍然不起作用。 - 删除了弹性布局。把它放回去。  - 重构了 HomeLayout 的 SCSS，以将 grid-template-columns 用于网格部分，并删除了无效的 flex 覆盖。  - 检查全局 CSS、布局包装器以及可能仅影响新页面的特殊性问题。找不到任何应用于代码的内容，但它拒绝更改为一列。  如果我一开始有头发，现在我就没有了。任何人都可以看到阻止布局更改的任何内容吗？   由   提交 /u/roamingandy   [链接] [评论]]]></description>
+      <description><![CDATA[页面如下： [https://fl-maps.publichappinessmovement.com/newhomepage\](https://fl-maps.publichappinessmovement.com/newhomepage) 我制作了一个简单的布局版本来尝试修复它，而无需任何其他代码页面，但问题仍然存在： [https://fl-maps.publichappinessmovement.com/home-layout\](https://fl-maps.publichappinessmovement.com/home-layout) 甚至更多奇怪的是，当前主页确实切换到移动设备中的单列视图： [https://fl-maps.publichappinessmovement.com\](https://fl-maps.publichappinessmovement.com) 我认为页面外部一定有什么东西弄乱了它，但我在控制台的任何地方都看不到它。  目前的工作是设置断点： \--bs-breakpoint-xs: 0; \--bs-breakpoint-sm: 576px; \--bs-breakpoint-md: 768px; \--bs-breakpoint-lg: 992px; \--bs-breakpoint-xl: 1200px; \--bs-breakpoint-xxl: 1400px; ..但是随着屏幕变得更窄，框中的内容只会缩小，并且框拒绝打破现有布局并跳转到单列布局。  我尝试过：  - 所有可能存在的 !important 标签  - JavaScript 添加 .is-mobile 类以进行布局更改；后来为了支持纯 CSS 媒体查询而删除了这一点。 - 对 /newhomepage 和 /home-layout 进行了多个 SCSS 重写，旨在移动设备上的单列和桌面上的多列。 - 从工作主页复制移动宽度语句，但我认为多列方法会阻止其工作。  - 构建了全新的 /home-layout 页面作为最佳实践响应式演示，具有清晰的列部分和移动媒体查询，但不知何故它仍然不起作用。 - 删除了弹性布局。把它放回去。  - 重构了 HomeLayout 的 SCSS，以将 grid-template-columns 用于网格部分，并删除了无效的 flex 覆盖。  - 检查全局 CSS、布局包装器以及可能仅影响新页面的特殊性问题。找不到任何应用于代码的内容，但它拒绝更改为一列。  如果我一开始有头发，现在我就没有了。任何人都可以看到阻止布局更改的任何内容吗？   由   提交 /u/roamingandy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1q0m7ya/got_a_bug_i_just_cant_locate_with_getting_a_page/</guid>
       <pubDate>Wed, 31 Dec 2025 20:09:28 GMT</pubDate>
     </item>
     <item>
       <title>你还没有到达互联网的尽头。</title>
       <link>https://www.reddit.com/r/webdev/comments/1q0kua8/you_have_not_reached_the_end_of_the_internet/</link>
-      <description><![CDATA[人们对人工智能和软件开发的现状抱有很多悲观情绪，我想提供更积极的前景。 现在，我们看到了前所未有的“倾斜”现象。正在生成。开发、业务和应用程序论坛上充斥着“看看我在 2 小时内构建的这个东西”的内容。代码中充满了表情符号、破折号、来自 8 个不同更改的详细注释、相同的紫色到蓝色渐变以及相同的基本卡片设计。人工智能参与的迹象不胜枚举。 然而，目前人工智能正在构建的许多东西可能会改变世界。这可能会让你说哇。有些事情你可能根本没有意识到人工智能的参与。那些糟糕的项目将会消亡并消失在人们的记忆中。提供价值的项目将继续存在，而且一直如此。任何提供相关工作的企业都将保持相关性；任何构建相关且有用的应用程序（无论它们是如何构建的）的开发人员都将保持相关性。 这就像高中商店班级最近购买了一把新台锯。一百个新的鸟舍将被建造，其中大多数都烂透了并且倒塌了。有些会令人惊叹，也许一个孩子会成为一名木工大师。 未来仍然会制作出一些令人惊叹和美丽的东西。淘金热将会变成别的东西。我的建议：降低噪音，拔掉电源，也许只是离线编码一段时间。永远不会缺少需要解决的实际问题。   由   提交 /u/CheeseOnFries   [链接] [评论]]]></description>
+      <description><![CDATA[人们对人工智能和软件开发的现状抱有很多悲观情绪，我想提供更积极的前景。 现在，我们看到了前所未有的“倾斜”现象。正在生成。开发、业务和应用程序论坛上充斥着“看看我在 2 小时内构建的这个东西”的内容。代码中充满了表情符号、破折号、来自 8 个不同更改的详细注释、相同的紫色到蓝色渐变以及相同的基本卡片设计。人工智能参与的迹象不胜枚举。 然而，目前人工智能正在构建的许多东西可能会改变世界。这可能会让你说哇。有些事情你可能根本没有意识到人工智能的参与。那些糟糕的项目将会消亡并消失在人们的记忆中。提供价值的项目将继续存在，而且一直如此。任何提供相关工作的企业都将保持相关性；任何构建相关且有用的应用程序（无论它们是如何构建的）的开发人员都将保持相关性。 这就像高中商店班级最近购买了一把新台锯。一百个新的鸟舍将被建造，其中大多数都烂透了并且倒塌了。有些会令人惊叹，也许一个孩子会成为一名木工大师。 未来仍然会制作出一些令人惊叹和美丽的东西。淘金热将变成别的东西。我的建议：降低噪音，拔掉电源，也许只是离线编码一段时间。永远不会缺少需要解决的实际问题。   由   提交 /u/CheeseOnFries   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1q0kua8/you_have_not_reached_the_end_of_the_internet/</guid>
       <pubDate>Wed, 31 Dec 2025 19:08:01 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好。我是一家年轻初创公司的创始人，我和我的联合创始人基本上为酒店业（例如小型酒店）的企业主提供一些咨询服务。  随着我们与越来越多的客户交谈，我们意识到其中一些客户的网站已经过时，这无助于他们的发展。我有构建网络应用程序的经验，并且多年来一直担任软件工程师（数据工程），所以虽然我不假装有任何构建网站的经验，但我认为我们可能可以基于一些酒店网站模板进行构建，即为他们构建这个，将它们连接到他们的预订引擎（我们非常了解），并在需要时向他们收取维护费用。这有多天真？这会比我预期的工作量多得多吗？我认为第一个网站可能总共需要几周的时间，但第二个网站只需要一周的时间，依此类推。如果有意义的话，还会考虑聘请一名自由职业者来支持第一个。  谢谢你，无论你身在何处，新年快乐。    由   提交/u/Jeannetton   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1q0dvo4/how_naive_is_it_to_think_that_i_can_build_and/</guid>
       <pubDate>Wed, 31 Dec 2025 14:10:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我怎样才能找到愿意指导我完成作品集创作的人？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q0dakt/how_can_i_find_someone_willing_to_guide_me/</link>
-      <description><![CDATA[大家好， 我在现实生活中找不到人，因为我的圈子里没有很多程序员...我想知道你们中的一些人是如何设法让专业人士跟随您学习并帮助您完成作品集的？ 此类社区的任何不和谐链接都会非常有帮助！谢谢。 PS：主要是React/css/html/Django/Sql...（别笑我XD）   由   提交 /u/Virtual-Avocado-9946   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q0dakt/how_can_i_find_someone_willing_to_guide_me/</guid>
-      <pubDate>Wed, 31 Dec 2025 13:42:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>你已经到达了互联网的尽头</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q0bntz/you_have_reached_the_end_of_the_internet/</link>
-      <description><![CDATA[自 1996 年以来，我一直在网络上进行构建。似乎通过应用程序和 AI 振动编码，一切都已经完成（并且在每个堆栈上重复令人作呕的广告）。我们实际上每天都在重新发明轮子，你可以在 github 上找到任何概念的 500 个版本，十亿计算机科学学生正在为下一个初创公司的混蛋节而努力。那么作为一个社区，接下来会发生什么呢？您受到什么启发而从事或从事什么工作？什么会从斜坡中升起？我们是否共同努力保持“最好”的状态？项目和想法，还是继续走下去？   由   提交 /u/activematrix99   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q0bntz/you_have_reached_the_end_of_the_internet/</guid>
-      <pubDate>Wed, 31 Dec 2025 12:15:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
