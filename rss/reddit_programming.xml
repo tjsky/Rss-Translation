@@ -4,7 +4,49 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 01 Jan 2026 12:34:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 15:17:46 GMT</lastBuildDate>
+    <item>
+      <title>我对 Claude 支持的 IdeaRater 进行了编码</title>
+      <link>https://www.reddit.com/r/programming/comments/1q169as/i_vibe_coded_a_claudepowered_idearater/</link>
+      <description><![CDATA[它是免费的，在你对一个想法进行编码之前运行它，看看它是否值得。 Github：https://github.com/vibeforge1111/vibeship-idearater 享受，并且不要忘记添加书签。 P.S.我们不存储数据。并且没有数据库，只有一个连接到 Anthropic 的 API，用于来自 Claude 的 AI 评级。   由   提交/u/InfiniteBeing5657  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q169as/i_vibe_coded_a_claudepowered_idearater/</guid>
+      <pubDate>Thu, 01 Jan 2026 15:07:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>解释内存屏障和 Java 的发生在保证之前</title>
+      <link>https://www.reddit.com/r/programming/comments/1q161ds/explaining_memory_barriers_and_javas_happens/</link>
+      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q161ds/explaining_memory_barriers_and_javas_happens/</guid>
+      <pubDate>Thu, 01 Jan 2026 14:57:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>这是一个新的可证伪的人工智能道德核心。请你尝试打破它</title>
+      <link>https://www.reddit.com/r/programming/comments/1q15216/heres_a_new_falsifiable_ai_ethics_core_please_can/</link>
+      <description><![CDATA[请使用任意 AI 进行测试。欢迎所有反馈。谢谢   由   提交/u/GentlemanFifth  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q15216/heres_a_new_falsifiable_ai_ethics_core_please_can/</guid>
+      <pubDate>Thu, 01 Jan 2026 14:11:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>NotePlus 文本编辑器是一款基于浏览器的免费轻量级文本编辑器，具有零依赖性</title>
+      <link>https://www.reddit.com/r/programming/comments/1q146k2/noteplus_text_editor_a_free_lightweight_browser/</link>
+      <description><![CDATA[大家好， 所以我想分享一个可以立即打开的项目，不需要任何帐户登录或繁重的 Electron 应用程序。 自去年以来我一直在维护 NotePlus，只有一件事是，它应该是一个免费使用且 100% 轻量级基于浏览器的文本编辑器，用户可以使用而不会感到不知所措。它在某些功能上可能类似于 Windows 默认记事本，但它提供了大量开箱即用的新功能！ 我想强调的一些方面是 -   零依赖：纯 Vanilla JS、HTML 和 CSS。没有框架，没有 node_modules 膨胀。 URL 集成：我引以为傲的一项功能是能够直接通过 URL 查询参数（例如？text=hello）加载文本。它非常适合在没有数据库的设备之间传递快速片段。 轻量级：整个项目不到 5MB，即使在连接不良的情况下加载速度也非常快。 人工智能助手：我集成了一个小型人工智能助手（NotePlus Assistant）来帮助直接在编辑器中生成文本。  您可以从 👇 查看该项目 GitHub：https://github.com/BlazeInferno64/NotePlus 现场演示：https://note-plus-mu.vercel.app/ 我很想获得一些有关代码结构和用户界面的反馈！如果您觉得它有用，我将不胜感激：D！ 感谢您花时间阅读本文！祝你有美好的一天:D   由   提交/u/Flat_Molasses_9715   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q146k2/noteplus_text_editor_a_free_lightweight_browser/</guid>
+      <pubDate>Thu, 01 Jan 2026 13:27:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>徽标介绍：将英语编译为 Rust</title>
+      <link>https://www.reddit.com/r/programming/comments/1q144dx/introducing_logos_compile_english_to_rust/</link>
+      <description><![CDATA[嗨，Reddit 新年快乐！ 有时，你最终构建了一些东西来解决自己的问题，但它意外地变成了可以解决其他人问题的产品。在构建复杂的分布式应用程序时，我注意到编写一些我需要的东西需要很长时间，因此我构建了一种编程语言来更快地编写代码！不过，这种语言有一些特殊的魅力……它已经将 CRDT 与 libp2p 网状网络融入到语言本身中。  这里有一些亮点......  1. 英语 → Production Rust  不是伪代码。编写可通过 LLVM 优化编译为工作 Rust 的英语。通过 1000 多个测试。  2. 内置 P2P 网状网络 监听“/ip4/0.0.0.0/tcp/8080”。  连接到“/ip4/192.168.1.5/tcp/8080”。  “游戏室”上的同步计数器。  就是这样。 libp2p、QUIC 传输、mDNS 发现、GossipSub pub/sub，全部由纯英语生成。  3. 原生 CRDT 库  完全无冲突的复制数据类型：  - GCounter、PNCounter - 分布式计数器  - ORSet 具有可配置的 AddWins/RemoveWins 偏差  - RGA、YATA - 用于协作文本的序列 CRDT编辑  - 矢量时钟、点上下文、增量 CRDT  4. 分布式是杀手类型  将任何 CRDT 包装在分布式中；并得到：  - 自动日志记录到磁盘（CRC32 校验和，1000 个条目自动压缩）  - 自动 GossipSub 复制到所有对等点  - 统一流程：本地突变 → 日志 → 网络。远程更新 → RAM → 日志。  - 可以承受重新启动、离线节点、网络分区。  一次挂载调用。自动最终一致性。  5. Go 式并发与 Rust 的安全保证  - TaskHandle; — 可中止的可生成异步任务  - Pipe; - 有界通道（发送者/接收者分裂）  - check_preemption() - 合作每 10 毫秒产生一次公平性  6. 形式语义（不是 LLM 猜测）  - 具有主题角色的新戴维森事件分解  - 用于组合语义的 Montague 风格 λ 演算  - DRS跨句照应解析  - 解析森林返回所有有效读数（最多 12 个）  - 通过 RAII 回溯恢复花园路径 我希望它能帮助你们所有人，就像它一直在帮助我一样！ 2026 年快乐编码！   由   提交/u/import-username-as-u   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q144dx/introducing_logos_compile_english_to_rust/</guid>
+      <pubDate>Thu, 01 Jan 2026 13:24:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026：终端的 Java 年</title>
+      <link>https://www.reddit.com/r/programming/comments/1q13d24/2026_the_year_of_java_in_the_terminal/</link>
+      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q13d24/2026_the_year_of_java_in_the_terminal/</guid>
+      <pubDate>Thu, 01 Jan 2026 12:41:55 GMT</pubDate>
+    </item>
     <item>
       <title>使用 Git 作为其他工具的后端</title>
       <link>https://www.reddit.com/r/programming/comments/1q11zpk/using_git_as_a_backend_for_other_tools/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[ 由   提交 /u/alexeyr   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q0q6rr/on_definitions_of_memory_safety/</guid>
       <pubDate>Wed, 31 Dec 2025 23:23:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>第二次大误差模型收敛</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0q4by/the_second_great_error_model_convergence/</link>
-      <description><![CDATA[ 由   提交 /u/alexeyr   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0q4by/the_second_great_error_model_convergence/</guid>
-      <pubDate>Wed, 31 Dec 2025 23:20:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>我取消了我的编程书籍交易</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0pmjy/i_canceled_my_programming_book_deal/</link>
-      <description><![CDATA[ 由   提交/u/azhenley  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0pmjy/i_canceled_my_programming_book_deal/</guid>
-      <pubDate>Wed, 31 Dec 2025 22:54:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年编写 Windows 95 软件</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0peeg/writing_windows_95_software_in_2025/</link>
-      <description><![CDATA[ 由   提交/u/Ok-Appointment7509   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0peeg/writing_windows_95_software_in_2025/</guid>
-      <pubDate>Wed, 31 Dec 2025 22:42:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>最好的工程领导者知道如何关闭</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0mvmk/best_engineering_leaders_know_how_to_switch_off/</link>
-      <description><![CDATA[ 由   提交/u/gregorojstersek   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0mvmk/best_engineering_leaders_know_how_to_switch_off/</guid>
-      <pubDate>Wed, 31 Dec 2025 20:40:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>简介 - 使用 Rust 创建您自己的编程语言</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0lwkn/introduction_create_your_own_programming_language/</link>
-      <description><![CDATA[经过近 6 年的时间，它完成了。 createlang.rs  旅程 https://ehsanmkermani.com/posts/2025-12-31-createlang-rs-complete/   由   提交 /u/ehsanmok   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0lwkn/introduction_create_your_own_programming_language/</guid>
-      <pubDate>Wed, 31 Dec 2025 19:55:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年前端开发 - 深入回顾</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0h7k9/frontend_development_in_2025_indepth_recap/</link>
-      <description><![CDATA[以研究为驱动的简明回顾，涵盖今年前端工程的关键转变——框架演变、性能指标 (INP)、AI 工具影响、可访问性合规性和基础设施选择。 在此处阅读： https://medium.com/@iammidhul/frontend-development-in-2025-an-in-depth-ecosystem-recap-c38d30ac9b6f?sk=fe167a4ed2fcc3c06f12c2fa596ad77c   由   提交/u/iammidhul  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0h7k9/frontend_development_in_2025_indepth_recap/</guid>
-      <pubDate>Wed, 31 Dec 2025 16:35:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
