@@ -4,7 +4,63 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 01 Jan 2026 15:17:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 18:25:25 GMT</lastBuildDate>
+    <item>
+      <title>当分布式系统工程师在 CoffeeScript 中编写 KV 存储时会发生什么☕️</title>
+      <link>https://www.reddit.com/r/programming/comments/1q19ws6/what_happens_when_a_distributed_systems_engineer/</link>
+      <description><![CDATA[分布式键值存储通常使用 Rust、Go 或其他高性能语言构建。  但是想象一下尝试用像 CoffeeScript 这样的动态解释语言来实现一个。 端点、TTL、持久性……这些挑战将是非常不切实际的。  但是这样的练习可以揭示有关系统设计、权衡和抽象限制的有趣教训。 这是一个有趣的思想实验，它展示了相同的设计模式如何根据语言和生态系统表现出不同的行为。   由   提交/u/Ok-Contest8389   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q19ws6/what_happens_when_a_distributed_systems_engineer/</guid>
+      <pubDate>Thu, 01 Jan 2026 17:40:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>热门观点：我们使用人工智能作为飞行前的公关审核员和验证员，以缩短审核时间并节省认知工作。</title>
+      <link>https://www.reddit.com/r/programming/comments/1q19wnp/hot_take_we_used_ai_as_a_preflight_pr_reviewer/</link>
+      <description><![CDATA[大多数 AI-in-dev 讨论都是关于代码生成，但我们的瓶颈是代码审查。  我们还不希望人工智能做出架构决策，所以我们只让它处理验证：“这个 PR 是否遵循我们已经商定的规则？”而不是“这是一个好的设计吗？”。 基本蓝图： - 存储库中的说明（架构边界、分析模式、访问控制规则等） - AI 在人类看到 PR 之前运行（在差异上进行飞行前，而不是队列中的另一个审阅者） - 输出按严重性构建（阻塞/高/中/低）以避免噪音 -人工智能标记验证类问题（缺少分析参数、设计模式违规、访问检查、TODO/调试代码），而人类专注于判断 最大的变化？并不是说“人工智能捕获了一切”，而是开发人员在要求同事审查之前就开始解决明显的问题。这开始节省每个人的时间和精力！ 我在这里写了完整的工作流程文章（包含示例说明文件、严重性标准等）： https://blog.groundctrl.dev/boost-your-software-team-productivity-with-ai-driven-pr-reviews-a-step-by-step-guide  我很好奇这与其他团队的经验如何相符： - 您是否在验证审查层（清单、模式、分析、访问控制）尝试过人工智能，或者仅用于代码生成？  - 在信任机器人对你的 PR 发表评论之前，你会坚持什么护栏（或者你见过的恐怖故事）？ - 一般来说，你们对人工智能的信任是什么？    由   提交/u/benglorious  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q19wnp/hot_take_we_used_ai_as_a_preflight_pr_reviewer/</guid>
+      <pubDate>Thu, 01 Jan 2026 17:40:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>残留物：软件架构中的时间、变化和不确定性 • Barry O'Reilly</title>
+      <link>https://www.reddit.com/r/programming/comments/1q19vre/residues_time_change_uncertainty_in_software/</link>
+      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q19vre/residues_time_change_uncertainty_in_software/</guid>
+      <pubDate>Thu, 01 Jan 2026 17:39:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>房间里的成年人：为什么是时候将人工智能从 Python 脚本转移到 Java 系统了</title>
+      <link>https://www.reddit.com/r/programming/comments/1q194k1/the_adult_in_the_room_why_its_time_to_move_ai/</link>
+      <description><![CDATA[ 由   提交/u/One_Being7941   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q194k1/the_adult_in_the_room_why_its_time_to_move_ai/</guid>
+      <pubDate>Thu, 01 Jan 2026 17:08:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>必须做一个游戏</title>
+      <link>https://www.reddit.com/r/programming/comments/1q18l99/have_to_make_a_game/</link>
+      <description><![CDATA[嗨，我有一个名为 Auralis 文化共和国的微型国家，我必须制作一个关于微型国家的视频游戏，但我不知道如何编程 使用什么网络或其他东西我可以在不编码的情况下进行编程？  谢谢   由   提交/u/Beginning_Nature657  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q18l99/have_to_make_a_game/</guid>
+      <pubDate>Thu, 01 Jan 2026 16:47:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的其他帖子已删除，但如果有人想玩日常编码游戏，我发现了这个</title>
+      <link>https://www.reddit.com/r/programming/comments/1q17uc9/my_other_post_deleted_but_if_anyone_wants_to_play/</link>
+      <description><![CDATA[ 由   提交/u/Repulsive_Log7484  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q17uc9/my_other_post_deleted_but_if_anyone_wants_to_play/</guid>
+      <pubDate>Thu, 01 Jan 2026 16:15:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>一会儿...</title>
+      <link>https://www.reddit.com/r/programming/comments/1q17jrk/just_a_moment/</link>
+      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q17jrk/just_a_moment/</guid>
+      <pubDate>Thu, 01 Jan 2026 16:03:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>在浏览器中进行基于时间的交互的小实验</title>
+      <link>https://www.reddit.com/r/programming/comments/1q16no5/small_experiment_with_timingbased_interactions_in/</link>
+      <description><![CDATA[我一直在努力完成更多的小实验，而不是放弃半成品的想法，所以我最近制作了一个基于浏览器的小型反应游戏，完全专注于计时。 该项目本身故意很小，但它迫使我思考通常不会出现在典型 CRUD 工作中的事情：  – 在感觉不公平之前，计时窗口可以有多紧  – 之间的差异点击和点击延迟  – 反馈延迟改变感知难度的程度  – 保持跨设备交互响应 这并不是一个产品或发布，只是围绕网络上时间敏感交互的学习练习。 对于任何对结果感到好奇的人，可以在这里玩游戏： https://reflex-tap-lemon.vercel.app/ 很高兴听到其他在浏览器中构建小型交互式或类似游戏体验的人的想法。   由   提交/u/Repulsive_Guard0   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q16no5/small_experiment_with_timingbased_interactions_in/</guid>
+      <pubDate>Thu, 01 Jan 2026 15:25:01 GMT</pubDate>
+    </item>
     <item>
       <title>我对 Claude 支持的 IdeaRater 进行了编码</title>
       <link>https://www.reddit.com/r/programming/comments/1q169as/i_vibe_coded_a_claudepowered_idearater/</link>
@@ -41,7 +97,7 @@
       <pubDate>Thu, 01 Jan 2026 13:24:03 GMT</pubDate>
     </item>
     <item>
-      <title>2026：终端的 Java 年</title>
+      <title>2026：终端中的 Java 年</title>
       <link>https://www.reddit.com/r/programming/comments/1q13d24/2026_the_year_of_java_in_the_terminal/</link>
       <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q13d24/2026_the_year_of_java_in_the_terminal/</guid>
@@ -53,62 +109,6 @@
       <description><![CDATA[ 由   提交/u/Sein_Zeit   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q11zpk/using_git_as_a_backend_for_other_tools/</guid>
       <pubDate>Thu, 01 Jan 2026 11:17:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>房间里的成年人：为什么是时候将人工智能从 Python 脚本转移到 Java 系统了</title>
-      <link>https://www.reddit.com/r/programming/comments/1q11p31/the_adult_in_the_room_why_its_time_to_move_ai/</link>
-      <description><![CDATA[ 由   提交/u/henk53  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q11p31/the_adult_in_the_room_why_its_time_to_move_ai/</guid>
-      <pubDate>Thu, 01 Jan 2026 10:59:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>我花了 9 个小时调试一个存在于区块链上但不存在于数据库中的系统</title>
-      <link>https://www.reddit.com/r/programming/comments/1q11auq/i_spent_9_hours_debugging_a_system_where_i/</link>
-      <description><![CDATA[我昨天不小心对现代混合系统进行了压力测试。这是痛苦的，也是有启发性的。 我尝试从澳大利亚访问 Polymarket。 VPN 失败是因为 Cloudflare 正在对 IP 基础设施进行指纹识别，而不仅仅是位置。 当我最终接通时，我连接了一个钱包并签署了交易。在链上，一切正常。脱链后，什么也没发生。 Web 应用程序进入了无限登录循环。 在编写了一堆诊断脚本后，我意识到发生了什么。我的钱包部署了代理合约，因此区块链识别了我。但集中式用户数据库从未完成我的注册。我创造了一个裂脑身份。密码有效。无效的应用程序端。 UI 无法协调两者，因此拒绝了所有操作。 后来，我以为我的资金不见了。他们不是。它们已被转化为位于合约中的代币，我无法通过损坏的 UI 进行交互。 这与其说是一个错误，不如说是在不可靠的网络条件下将去中心化身份拼接到中心化用户体验的紧急故障模式。 此处完整细分：https://structuralsignal.substack.com/p/the-9-hour-war-chasing-jane-street   由   提交/u/ExpertDeep3431   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q11auq/i_spent_9_hours_debugging_a_system_where_i/</guid>
-      <pubDate>Thu, 01 Jan 2026 10:33:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用斐波那契数列和 Knuth Reward Check 进行排序</title>
-      <link>https://www.reddit.com/r/programming/comments/1q117yd/sorting_with_fibonacci_numbers_and_a_knuth_reward/</link>
-      <description><![CDATA[ 由   提交/u/nightcracker  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q117yd/sorting_with_fibonacci_numbers_and_a_knuth_reward/</guid>
-      <pubDate>Thu, 01 Jan 2026 10:27:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>软件获取速度快于硬件给予速度：为什么 C++ 程序员在竞争、安全和人工智能的影响下仍保持快速增长</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0zuun/software_taketh_away_faster_than_hardware_giveth/</link>
-      <description><![CDATA[ 由   提交/u/germandiago   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0zuun/software_taketh_away_faster_than_hardware_giveth/</guid>
-      <pubDate>Thu, 01 Jan 2026 08:56:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>JavaFX 用户管理系统 – BCrypt 密码哈希（第 6 部分）</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0x8vp/javafx_user_management_system_bcrypt_password/</link>
-      <description><![CDATA[大家好 我正在使用 JavaFX 和 JavaFX 构建一个完整的用户管理系统。 MySQL，在第 6 部分中，我将解释如何使用 BCrypt 安全地散列密码，而不是存储纯文本密码。 非常适合学生、最后一年的项目或任何学习Java 桌面应用程序的人。 观看此处： [第 6 部分 | JavaFX 中的用户管理系统MySQL | BCrypt 密码哈希和安全存储] 欢迎反馈和建议。谢谢！    由   提交/u/Substantial-Log-9305   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0x8vp/javafx_user_management_system_bcrypt_password/</guid>
-      <pubDate>Thu, 01 Jan 2026 06:04:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>用 Golang 250 行代码从头开始编写负载均衡器</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0udxb/writing_load_balancer_from_scratch_in_250_line_of/</link>
-      <description><![CDATA[ 由   提交/u/Sushant098123  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0udxb/writing_load_balancer_from_scratch_in_250_line_of/</guid>
-      <pubDate>Thu, 01 Jan 2026 03:14:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>国际禁止申请</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0shlu/application_prohibited_internationally/</link>
-      <description><![CDATA[ 由   提交/u/heavymetalpanda  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0shlu/application_prohibited_internationally/</guid>
-      <pubDate>Thu, 01 Jan 2026 01:27:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于内存安全的定义</title>
-      <link>https://www.reddit.com/r/programming/comments/1q0q6rr/on_definitions_of_memory_safety/</link>
-      <description><![CDATA[ 由   提交 /u/alexeyr   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q0q6rr/on_definitions_of_memory_safety/</guid>
-      <pubDate>Wed, 31 Dec 2025 23:23:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
