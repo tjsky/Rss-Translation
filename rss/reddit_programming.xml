@@ -4,11 +4,25 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 01 Jan 2026 21:16:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 01:19:30 GMT</lastBuildDate>
+    <item>
+      <title>我应该为这个家伙能在 5 小时内构建出一个 twitch 克隆而感到尴尬吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1kjx1/should_i_feel_embarrassed_that_this_guy_can_build/</link>
+      <description><![CDATA[也许我不应该学习 NestJS、Laravel、express，而是将 NextJS 与其他 100 个工具一起使用？没有？   由   提交/u/Excellent_Survey_596  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1kjx1/should_i_feel_embarrassed_that_this_guy_can_build/</guid>
+      <pubDate>Fri, 02 Jan 2026 00:55:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>文章：为什么大型科技公司将一切变成一场刀战</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1j104/article_why_big_tech_turns_everything_into_a/</link>
+      <description><![CDATA[对于那些因大型科技政治、表演性合作和无休止的内部刀战而疲惫不堪的人来说，这是一本精神错乱但诚实的读物。 我写这本书的部分原因是为了理解自己的经历，部分原因是为了看看是否有办法让企业环境不那么充满敌意——或者至少是为了娱乐以前看过这部电影的无聊工程师。 考虑将其扩展为成熟的电影科技兄弟传奇。希望得到反馈、角色想法或您希望看到的故事。   由   提交 /u/NoVibeCoding   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1j104/article_why_big_tech_turns_everything_into_a/</guid>
+      <pubDate>Thu, 01 Jan 2026 23:48:41 GMT</pubDate>
+    </item>
     <item>
       <title>Gene——一种围绕通用“Gene”数据类型构建的同像通用语言</title>
       <link>https://www.reddit.com/r/programming/comments/1q1e75u/gene_a_homoiconic_generalpurpose_language_built/</link>
-      <description><![CDATA[嗨， 我一直在研究 Gene，这是一种通用的同像语言，具有类似 Lisp 的表面语法，但其核心数据模型有意不仅仅是“一路向下列出”。 独特之处：Gene 数据类型 Gene 的中心思想是一个始终承载的单一统一结构(1) 类型，(2) 键/值属性，以及 (3) 位置子项： (type ^prop1 value1 ^prop2 value2 child1 child2 ...)  关键点是类型、每个属性名称、每个属性值和每个子项本身可以是任何基因数据。一切都是统一的。实际上，这是强大且自由的：您可以构建丰富的自描述结构，而无需转义到不同的“元”表示，并且 AST 和运行时值共享相同的形状。 这不是 JSON，也不是普通的 S 表达式：类型 + 属性 + 子元素在一个表示中是一流的，因此您可以在没有包装器节点的情况下附加结构化元数据，并构建 DSL / 转换，而无需发明单独的注释系统。 动态 + 通用（FP 和 OOP） Gene 的目标是可用于“常规编程”，而不仅仅是 DSL：  FP 风格的基础知识：fn、面向表达式的代码和 AST 友好的表示 OOP 支持：类、新的、嵌套类、命名空间（仍在扩大覆盖范围） 运行时/工具：字节码编译器 + 堆栈Nim 中的 VM，加上 CLI 工具（运行、eval、repl、解析、编译）  类似宏的功能：未评估的参数 + 调用者上下文评估 Gene 支持未评估的参数和调用者上下文评估（类似宏的行为）。您可以传递表达式而不评估它们，然后在需要时在调用者的上下文中显式评估它们（例如，通过诸如 caller_eval / fn! 之类的原语用于宏样式形式）。这是为了更容易地编写 DSL-ish 控制表单，而无需将评估规则硬编码到核心语言中。 我还添加了一个可选的本地 LLM 后端：Gene 有一个 Genex/llm 命名空间，可以通过 FFI 通过 llama.cpp 调用本地 GGUF 模型（主要是因为我想要无需外部服务的本地推理）。 Repo：https://github.com/gene-lang/gene 我希望获得以下方面的反馈：  “type/props/children”核心结构与普通的 s-exprs 相比是否令人信服， 宏/未评估的参数人体工程学（感觉是否连贯？）， 以及下一步如何使该项目最有用（stdlib、互操作、文档、性能等）。    由   提交/u/gcao99  [链接] [评论]]]></description>
+      <description><![CDATA[嗨， 我一直在研究 Gene，这是一种通用的同像语言，具有类似 Lisp 的表面语法，但其核心数据模型有意不仅仅是“一路向下列出”。 独特之处：Gene 数据类型 Gene 的中心思想是一个始终承载的单一统一结构(1) 类型，(2) 键/值属性，以及 (3) 位置子项： (type ^prop1 value1 ^prop2 value2 child1 child2 ...)  关键点是类型、每个属性值和每个子项本身可以是任何基因数据。一切都是统一的。实际上，这是强大且自由的：您可以构建丰富的自描述结构，而无需转义到不同的“元”表示，并且 AST 和运行时值共享相同的形状。 这不是 JSON，也不是普通的 S 表达式：类型 + 属性 + 子元素在一个表示中是一流的，因此您可以在没有包装器节点的情况下附加结构化元数据，并构建 DSL / 转换，而无需发明单独的注释系统。 动态 + 通用（FP 和 OOP） Gene 的目标是可用于“常规编程”，而不仅仅是 DSL：  FP 风格的基础知识：fn、面向表达式的代码和 AST 友好的表示 OOP 支持：类、新的、嵌套类、命名空间（仍在扩大覆盖范围） 运行时/工具：字节码编译器 + 堆栈Nim 中的 VM，加上 CLI 工具（运行、eval、repl、解析、编译）  类宏功能：未评估的参数 + 调用者上下文评估 Gene 支持未评估的参数和调用者上下文评估（类似宏的行为）。您可以传递表达式而不评估它们，然后在需要时在调用者的上下文中显式评估它们（例如，通过诸如 caller_eval / fn! 之类的原语用于宏样式形式）。这是为了更容易地编写 DSL-ish 控制表单，而无需将评估规则硬编码到核心语言中。 我还添加了一个可选的本地 LLM 后端：Gene 有一个 Genex/llm 命名空间，可以通过 FFI 通过 llama.cpp 调用本地 GGUF 模型（主要是因为我想要无需外部服务的本地推理）。 Repo：https://github.com/gene-lang/gene 我希望获得以下方面的反馈：  “type/props/children”核心结构与普通的 s-exprs 相比是否令人信服， 宏/未评估的参数人体工程学（感觉是否连贯？）， 以及下一步如何使该项目最有用（stdlib、互操作、文档、性能等）。    由   提交/u/gcao99  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q1e75u/gene_a_homoiconic_generalpurpose_language_built/</guid>
       <pubDate>Thu, 01 Jan 2026 20:29:38 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[嗨，我有一个名为 Auralis 文化共和国的微型国家，我必须制作一个关于微型国家的视频游戏，但我不知道如何编程 使用什么网络或其他东西我可以在不编码的情况下进行编程？  谢谢   由   提交/u/Beginning_Nature657  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q18l99/have_to_make_a_game/</guid>
       <pubDate>Thu, 01 Jan 2026 16:47:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的其他帖子已删除，但如果有人想玩日常编码游戏，我发现了这个</title>
-      <link>https://www.reddit.com/r/programming/comments/1q17uc9/my_other_post_deleted_but_if_anyone_wants_to_play/</link>
-      <description><![CDATA[ 由   提交/u/Repulsive_Log7484  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q17uc9/my_other_post_deleted_but_if_anyone_wants_to_play/</guid>
-      <pubDate>Thu, 01 Jan 2026 16:15:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>一会儿...</title>
-      <link>https://www.reddit.com/r/programming/comments/1q17jrk/just_a_moment/</link>
-      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q17jrk/just_a_moment/</guid>
-      <pubDate>Thu, 01 Jan 2026 16:03:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
