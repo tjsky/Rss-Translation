@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 02 Jan 2026 04:02:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 06:28:46 GMT</lastBuildDate>
+    <item>
+      <title>修补：无聊的安全实践可以为您节省 7 亿美元</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1r2a8/patching_the_boring_security_practice_that_could/</link>
+      <description><![CDATA[ 由   提交/u/trolleid   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1r2a8/patching_the_boring_security_practice_that_could/</guid>
+      <pubDate>Fri, 02 Jan 2026 06:12:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bundler 能像 uv 一样快吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1r096/can_bundler_be_as_fast_as_uv/</link>
+      <description><![CDATA[ 由   提交/u/iamkeyur  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1r096/can_bundler_be_as_fast_as_uv/</guid>
+      <pubDate>Fri, 02 Jan 2026 06:09:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>哈希表合并的经验教训</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1pbdk/lessons_from_hash_table_merging/</link>
+      <description><![CDATA[ 由   提交/u/attractivechaos   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1pbdk/lessons_from_hash_table_merging/</guid>
+      <pubDate>Fri, 02 Jan 2026 04:41:25 GMT</pubDate>
+    </item>
     <item>
       <title>coco：一个简单的无堆栈、单线程、仅头文件的 C++20 协程库</title>
       <link>https://www.reddit.com/r/programming/comments/1q1nrd8/coco_a_simple_stackless_singlethreaded_and/</link>
@@ -29,7 +50,7 @@
     <item>
       <title>改变是所有（邪恶）错误的根源</title>
       <link>https://www.reddit.com/r/programming/comments/1q1d0pn/change_is_the_root_of_all_evil_bugs/</link>
-      <description><![CDATA[ 由   提交/u/fernandohur   [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/fernandohur  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q1d0pn/change_is_the_root_of_all_evil_bugs/</guid>
       <pubDate>Thu, 01 Jan 2026 19:42:20 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/Sein_Zeit   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q11zpk/using_git_as_a_backend_for_other_tools/</guid>
       <pubDate>Thu, 01 Jan 2026 11:17:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>房间里的成年人：为什么是时候将人工智能从 Python 脚本转移到 Java 系统了</title>
-      <link>https://www.reddit.com/r/programming/comments/1q11p31/the_adult_in_the_room_why_its_time_to_move_ai/</link>
-      <description><![CDATA[ 由   提交/u/henk53  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q11p31/the_adult_in_the_room_why_its_time_to_move_ai/</guid>
-      <pubDate>Thu, 01 Jan 2026 10:59:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>我花了 9 个小时调试一个存在于区块链上但不存在于数据库中的系统</title>
-      <link>https://www.reddit.com/r/programming/comments/1q11auq/i_spent_9_hours_debugging_a_system_where_i/</link>
-      <description><![CDATA[我昨天不小心对现代混合系统进行了压力测试。这是痛苦的，也是有启发性的。 我尝试从澳大利亚访问 Polymarket。 VPN 失败是因为 Cloudflare 正在对 IP 基础设施进行指纹识别，而不仅仅是位置。 当我最终接通时，我连接了一个钱包并签署了交易。在链上，一切正常。脱链后，什么也没发生。 Web 应用程序进入了无限登录循环。 在编写了一堆诊断脚本后，我意识到发生了什么。我的钱包部署了代理合约，因此区块链识别了我。但集中式用户数据库从未完成我的注册。我创造了一个裂脑身份。密码有效。无效的应用程序端。 UI 无法协调两者，因此拒绝了所有操作。 后来，我以为我的资金不见了。他们不是。它们已被转化为位于合约中的代币，我无法通过损坏的 UI 进行交互。 这与其说是一个错误，不如说是在不可靠的网络条件下将去中心化身份拼接到中心化用户体验的紧急故障模式。 此处完整细分：https://structuralsignal.substack.com/p/the-9-hour-war-chasing-jane-street   由   提交/u/ExpertDeep3431   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q11auq/i_spent_9_hours_debugging_a_system_where_i/</guid>
-      <pubDate>Thu, 01 Jan 2026 10:33:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用斐波那契数列和 Knuth Reward Check 进行排序</title>
-      <link>https://www.reddit.com/r/programming/comments/1q117yd/sorting_with_fibonacci_numbers_and_a_knuth_reward/</link>
-      <description><![CDATA[ 由   提交/u/nightcracker  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q117yd/sorting_with_fibonacci_numbers_and_a_knuth_reward/</guid>
-      <pubDate>Thu, 01 Jan 2026 10:27:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
