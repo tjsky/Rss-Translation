@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 02 Jan 2026 06:28:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 09:21:36 GMT</lastBuildDate>
+    <item>
+      <title>Chris Lattner 从 Swift 到 Mojo 以及高性能人工智能工程</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1tqv5/from_swift_to_mojo_and_highperformance_ai/</link>
+      <description><![CDATA[ 由   提交/u/Austin_Aaron_Conlon   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1tqv5/from_swift_to_mojo_and_highperformance_ai/</guid>
+      <pubDate>Fri, 02 Jan 2026 08:54:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>适用于索尼 NW-A306 的软件工具</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1spdk/software_tool_for_sony_nwa306/</link>
+      <description><![CDATA[我正在尝试开发一种工具来管理索尼 Walkman NW-A306，类似于 Odin 对三星智能手机所做的操作，但我的编程技能非常有限。有人有兴趣参与这个项目吗？ 目前，最终用户无法在软件损坏的情况下管理设备。 任何帮助将不胜感激   由   提交 /u/MouseAlternative2665   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1spdk/software_tool_for_sony_nwa306/</guid>
+      <pubDate>Fri, 02 Jan 2026 07:48:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源音乐制作——潜在的 GitHub 平行产品</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1sdl9/opensource_music_production_a_potential_github/</link>
+      <description><![CDATA[嘿那里， 很快，我会在这篇文章中包含图像来表达观点，但它们是不允许的，所以你必须参考这里的思维导图图像预览。 其中有一些软件框架整体概述的图像预览，以及哲学将成为通往开源音乐制作之路的基础，以及维基百科页面上关于“开放音乐”的有趣引用的屏幕截图，他们描述了类似的东西，但具有讽刺意味的是，并没有完全达到我所设想的来源。 现在最重要的是心智模型、想法、等等。 所以看一下，用你可用的时间和精力分析你能分析的内容。仅仅由于时间限制，让更多人支持这一点就太好了，但无论如何，无论是想法还是基础设施，开发都将继续。 我的目的只是提供模型供您访问、查看和/或编辑，以推动这一进程。为什么？那是在地图上。谁、什么、何时、何地、为什么、如何，都在地图中，所以看一下。 我就把它留在这里... GitHub 存储库 谢谢 fam， v3i1ix   由   提交 /u/trncmshrm   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1sdl9/opensource_music_production_a_potential_github/</guid>
+      <pubDate>Fri, 02 Jan 2026 07:28:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>零租金架构：为斯沃特兰农民设计</title>
+      <link>https://www.reddit.com/r/programming/comments/1q1sclq/the_zerorent_architecture_designing_for_the/</link>
+      <description><![CDATA[ 由   提交 /u/Happy-Snapper   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q1sclq/the_zerorent_architecture_designing_for_the/</guid>
+      <pubDate>Fri, 02 Jan 2026 07:26:50 GMT</pubDate>
+    </item>
     <item>
       <title>修补：无聊的安全实践可以为您节省 7 亿美元</title>
       <link>https://www.reddit.com/r/programming/comments/1q1r2a8/patching_the_boring_security_practice_that_could/</link>
@@ -50,7 +78,7 @@
     <item>
       <title>改变是所有（邪恶）错误的根源</title>
       <link>https://www.reddit.com/r/programming/comments/1q1d0pn/change_is_the_root_of_all_evil_bugs/</link>
-      <description><![CDATA[ 由   提交/u/fernandohur  [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/fernandohur   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q1d0pn/change_is_the_root_of_all_evil_bugs/</guid>
       <pubDate>Thu, 01 Jan 2026 19:42:20 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[大多数 AI-in-dev 讨论都是关于代码生成，但我们的瓶颈是代码审查。  我们还不希望人工智能做出架构决策，所以我们只让它处理验证：“这个 PR 是否遵循我们已经商定的规则？”而不是“这是一个好的设计吗？”。 基本蓝图： - 存储库中的说明（架构边界、分析模式、访问控制规则等） - AI 在人类看到 PR 之前运行（在差异上进行飞行前，而不是队列中的另一个审阅者） - 输出按严重性构建（阻塞/高/中/低）以避免噪音 -人工智能标记验证类问题（缺少分析参数、设计模式违规、访问检查、TODO/调试代码），而人类专注于判断 最大的变化？并不是说“人工智能捕获了一切”，而是开发人员在要求同事审查之前就开始解决明显的问题。这开始节省每个人的时间和精力！ 我在这里写了完整的工作流程文章（包含示例说明文件、严重性标准等）： https://blog.groundctrl.dev/boost-your-software-team-productivity-with-ai-driven-pr-reviews-a-step-by-step-guide  我很好奇这与其他团队的经验如何相符： - 您是否在验证审查层（清单、模式、分析、访问控制）尝试过人工智能，或者仅用于代码生成？  - 在信任机器人对你的 PR 发表评论之前，你会坚持什么护栏（或者你见过的恐怖故事）？ - 一般来说，你们对人工智能的信任是什么？    由   提交/u/benglorious  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q19wnp/hot_take_we_used_ai_as_a_preflight_pr_reviewer/</guid>
       <pubDate>Thu, 01 Jan 2026 17:40:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>残留物：软件架构中的时间、变化和不确定性 • Barry O'Reilly</title>
-      <link>https://www.reddit.com/r/programming/comments/1q19vre/residues_time_change_uncertainty_in_software/</link>
-      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q19vre/residues_time_change_uncertainty_in_software/</guid>
-      <pubDate>Thu, 01 Jan 2026 17:39:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>解释内存屏障和 Java 的发生在保证之前</title>
-      <link>https://www.reddit.com/r/programming/comments/1q161ds/explaining_memory_barriers_and_javas_happens/</link>
-      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q161ds/explaining_memory_barriers_and_javas_happens/</guid>
-      <pubDate>Thu, 01 Jan 2026 14:57:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026：终端的 Java 年</title>
-      <link>https://www.reddit.com/r/programming/comments/1q13d24/2026_the_year_of_java_in_the_terminal/</link>
-      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q13d24/2026_the_year_of_java_in_the_terminal/</guid>
-      <pubDate>Thu, 01 Jan 2026 12:41:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Git 作为其他工具的后端</title>
-      <link>https://www.reddit.com/r/programming/comments/1q11zpk/using_git_as_a_backend_for_other_tools/</link>
-      <description><![CDATA[ 由   提交/u/Sein_Zeit   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q11zpk/using_git_as_a_backend_for_other_tools/</guid>
-      <pubDate>Thu, 01 Jan 2026 11:17:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
