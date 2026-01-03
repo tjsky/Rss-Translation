@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 03 Jan 2026 09:19:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jan 2026 12:31:38 GMT</lastBuildDate>
+    <item>
+      <title>您如何使用人工智能/编程来为自己解决现实世界的问题？</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2t88k/how_are_you_using_aiprogramming_to_solve_real/</link>
+      <description><![CDATA[和标题差不多   由   提交/u/Wild_Operation_1929   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2t88k/how_are_you_using_aiprogramming_to_solve_real/</guid>
+      <pubDate>Sat, 03 Jan 2026 12:16:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>以单一文本格式封装音频元数据和编辑逻辑</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2rvgs/encapsulating_audio_metadata_and_edit_logic_in_a/</link>
+      <description><![CDATA[CUE 表描述了音频时间戳和元数据，但我想要更具表现力的东西。我构建了一个基于 CUE 的文本格式和一个具有类似 SQL 方法的工具，使其小巧且易于实现，同时允许简单但有效的编辑。 在演示中，仅使用 MP3 拖动和播放即可创建专辑混合曲。拖放和文本复制/粘贴—无需波形编辑。   由   提交 /u/cutandjoin   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2rvgs/encapsulating_audio_metadata_and_edit_logic_in_a/</guid>
+      <pubDate>Sat, 03 Jan 2026 10:58:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>新的数据序列化工具</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2r639/new_data_serialization_tool/</link>
+      <description><![CDATA[这是我发现的一个工具，看起来很酷！   由   提交 /u/uservydm   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2r639/new_data_serialization_tool/</guid>
+      <pubDate>Sat, 03 Jan 2026 10:15:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么开发人员的专业知识在人工智能时代比以往任何时候都更加重要</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2qa5m/why_developer_expertise_matters_more_than_ever_in/</link>
+      <description><![CDATA[阅读“为什么开发人员的专业知识在人工智能时代比以往任何时候都更加重要”    由   提交/u/iammidhul  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2qa5m/why_developer_expertise_matters_more_than_ever_in/</guid>
+      <pubDate>Sat, 03 Jan 2026 09:21:12 GMT</pubDate>
+    </item>
     <item>
       <title>研究发现压痕深度与圈复杂度相关。一种与语言无关的测量代码复杂性的方法</title>
       <link>https://www.reddit.com/r/programming/comments/1q2q1ib/research_found_indentation_depth_correlates_with/</link>
@@ -57,7 +85,7 @@
     <item>
       <title>可延展的软件：在锁定应用程序的世界中恢复用户代理</title>
       <link>https://www.reddit.com/r/programming/comments/1q2kz3k/malleable_software_restoring_user_agency_in_a/</link>
-      <description><![CDATA[ 由   提交 /u/misterolupo   [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/misterolupo  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q2kz3k/malleable_software_restoring_user_agency_in_a/</guid>
       <pubDate>Sat, 03 Jan 2026 04:27:50 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[一篇关于从矩阵分解到法学硕士再到个性化混合架构的转变的文章。在深入本文之前，请先了解一些基础知识（和摘要）： 什么是矩阵分解，为什么它仍用于个性化？ 矩阵分解是一种协作过滤方法，可从交互数据中学习紧凑的用户和项目表示（嵌入），然后通过快速相似性评分对项目进行排名。它仍然被广泛使用，因为它具有可扩展性、稳定性，并且易于通过 A/B 测试、点击率和转化指标进行评估。 什么是基于 LLM 的个性化？基于 LLM 的个性化是使用大型语言模型，通过检索的用户上下文、最近的行为和业务规则来定制响应或操作。法学硕士不仅可以生成排名列表，还可以推理意图和约束，提出澄清问题，并生成解释或下一个最佳行动。 法学硕士会取代推荐系统吗？ 通常不会。法学硕士往往比经典检索模型更慢且更昂贵。许多高性能系统使用传统推荐器来生成候选，然后使用 LLM 对较小的候选集进行重新排名、解释和面向工作流的决策。 混合个性化架构在实践中是什么样子？常见的模式是检索 → 重新排名 → 生成。检索使用嵌入（MF 或两塔）以低廉的成本生成几百到几千个候选。重新排名应用更丰富的标准（约束、政策、多样性）。 Generation 使用 LLM 来解释权衡、确认偏好并通过工具调用选择后续步骤。   由   提交/u/ephemeral404  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q2i7qu/the_future_of_personalization/</guid>
       <pubDate>Sat, 03 Jan 2026 02:21:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Thompson 讲述了他如何在 Google 开发 Go 语言。</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2i78v/thompson_tells_how_he_developed_the_go_language/</link>
-      <description><![CDATA[ 在我看来，新东西比语言更重要。大部分内容我都不明白。这是一个小时的谈话，内容主要是对 C++ 的改进。  那么我们该怎么办呢？ 让我们编写一种语言。 所以我们编写了一种语言，就是这样。   传奇。   由   提交/u/ray591  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2i78v/thompson_tells_how_he_developed_the_go_language/</guid>
-      <pubDate>Sat, 03 Jan 2026 02:20:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>编码代理实际上是如何工作的：OpenCode 内部</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2aqyn/how_coding_agents_actually_work_inside_opencode/</link>
-      <description><![CDATA[ 由   提交/u/Helpful_Geographer430   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2aqyn/how_coding_agents_actually_work_inside_opencode/</guid>
-      <pubDate>Fri, 02 Jan 2026 21:11:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>唯一正确的方法谬论：为什么成熟的开发人员不崇拜单一的编程范式</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2761m/the_onetrueway_fallacy_why_mature_developers_dont/</link>
-      <description><![CDATA[ 由   提交 /u/waozen   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2761m/the_onetrueway_fallacy_why_mature_developers_dont/</guid>
-      <pubDate>Fri, 02 Jan 2026 18:55:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>这真的是一个价值十亿美元的错误吗？</title>
-      <link>https://www.reddit.com/r/programming/comments/1q26xbi/was_it_really_a_billion_dollar_mistake/</link>
-      <description><![CDATA[ 由   提交 /u/gingerbill   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q26xbi/was_it_really_a_billion_dollar_mistake/</guid>
-      <pubDate>Fri, 02 Jan 2026 18:46:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
