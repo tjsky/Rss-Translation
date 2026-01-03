@@ -4,13 +4,34 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 03 Jan 2026 12:31:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jan 2026 15:16:05 GMT</lastBuildDate>
     <item>
-      <title>您如何使用人工智能/编程来为自己解决现实世界的问题？</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2t88k/how_are_you_using_aiprogramming_to_solve_real/</link>
-      <description><![CDATA[和标题差不多   由   提交/u/Wild_Operation_1929   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2t88k/how_are_you_using_aiprogramming_to_solve_real/</guid>
-      <pubDate>Sat, 03 Jan 2026 12:16:40 GMT</pubDate>
+      <title>使用 Swift 进行原生 Android 应用程序开发</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2wl9i/native_android_application_development_in_swift/</link>
+      <description><![CDATA[大家好，imike。 我刚刚发布了Swift Stream IDE v1.17.0，它添加了完全用 Swift 编写的完整原生 Android 应用程序开发。这意味着您现在可以构建 Android 应用程序，而无需接触 XML、Java 或 Kotlin。 Swift Stream IDE 是一个开源 VSCode 扩展，它在 Docker 中设置一个即用型 Swift 开发环境，支持服务器端、Web、嵌入式以及现在的完整 Android 开发。在此版本中，您可以使用熟悉的模板（如空活动、基本视图（两个片段）或导航 UI（选项卡栏））创建 Android 应用程序，所有这些都在 Swift 中。 在幕后，所有项目均由 SwifDroid 提供支持，这是我为包装整个原生 Android 应用程序模型而构建的框架。它处理应用程序生命周期和清单、活动和片段、Android、AndroidX、Material 和 Flexbox UI 小部件，甚至自动连接 Gradle 依赖项。支持的 SDK 为 28 至 35，对于 Swift 6.3，可能会下降至 24+。 示例 UI 代码： ConstraintLayout { VStack { TextView(&quot;Hello from Swift!&quot;) .width(.matchParent) .height(.wrapContent) .textColor(.green) MaterialButton(&quot;Tap Me&quot;) .onClick { print(&quot;Button tapped!&quot;) } } .centerVertical() .leftToParent() .rightToParent() }  第一次创建项目时，给自己做一个杯子茶/咖啡。 IDE 提取 Swift 工具链、Android SDK 和 NDK，并将它们缓存在 Docker 卷中。之后，立即创建新项目。第一个构建编译 Swift，生成完整的 Android 项目（准备在 Android Studio 中打开），并创建 Gradle 包装器。之后，构建只需几秒钟。 编译 Swift 后，您只需打开 Android Studio 中的 Application 文件夹，然后点击“运行”或“重新启动”即可查看更改。 Swift Stream IDE 中的所有必要文件均已就位，因此迭代快速且无缝。 这是第一个公开版本。 Android 很大，仍然有一些小部件正在开发中，但该系统今天是真实可用的。 文档：https://docs.swifdroid.com/app/   由   提交/u/imike3049  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2wl9i/native_android_application_development_in_swift/</guid>
+      <pubDate>Sat, 03 Jan 2026 14:57:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找开发人员为 Clash.gg 构建可靠的自动降雨索赔器脚本 – DM 讨论</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2wf1n/looking_for_developer_to_build_a_reliable_auto/</link>
+      <description><![CDATA[我正在寻找熟练的开发人员来为 Clash.gg 创建自动降雨声明者脚本。 目标很简单：浏览器脚本自动检测并单击“加入降雨”按钮。网站聊天中的按钮一出现（通常每 30 分钟左右就会下雨）。 很高兴与 DM 讨论一切。如果您以前构建过类似的自动化脚本（聊天机器人、自动点击器等），请随时分享示例。   由   提交/u/pertxyyy  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2wf1n/looking_for_developer_to_build_a_reliable_auto/</guid>
+      <pubDate>Sat, 03 Jan 2026 14:49:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>第 7 部分 | JavaFX 和 MySQL 中的用户管理系统 – 现代登录表单</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2w17u/part_7_user_management_system_in_javafx_mysql/</link>
+      <description><![CDATA[大家好 我刚刚上传了我的 JavaFX 和 JavaFX 的第 7 部分。 MySQL 用户管理系统系列。 在这一部分中，我重点介绍如何使用简洁的 UI 概念和桌面应用程序的最佳实践，在 JavaFX 中设计现代登录表单。 本系列面向想要逐步构建真实 JavaFX 项目的初学者和学生。 在 YouTube 上观看完整内容： 第 7 部分 | JavaFX 中的用户管理系统MySQL |在 JavaFX 中设计现代登录表单 随时欢迎反馈和建议   由   提交/u/Substantial-Log-9305   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2w17u/part_7_user_management_system_in_javafx_mysql/</guid>
+      <pubDate>Sat, 03 Jan 2026 14:33:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>身份是一种物理财产，而不是数字许可</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2vf8z/identity_is_a_physical_property_not_a_digital/</link>
+      <description><![CDATA[问题 如今，几乎所有防伪或身份验证系统都以数字身份开始，并尝试将其附加到物理事物上。 QR 码、序列号、NFC 标签、云验证，甚至基于 ML 的“真假”分析图像检查——它们都有一个假设：数字层是事实的来源。物理对象只是一个载体。 这种假设开始感觉倒退了。 核心思想：提取，而不是分配 如果一个物理对象在其创建过程中已经形成了一个独特的、可测量的身份（微观错位、印刷缺陷、层偏移）怎么办？ 如果我们不把数字代码粘在上面，而只是测量已经存在的东西，会怎么样？那里并使数字层成为该物理指纹的参考？ 这就是 PBM（基于视角的标记）的前提。这是一个简单的物理层实验。 工作原理（简单版本） 设置故意采用低技术含量：  打印两个高频网格图案，一个在另一个上面，它们之间有一个微小的、固定的物理间隙（毫米）。 从一个小角度捕获图像。 物理部分：如果是真实的3D 间隙存在，您会得到视差（网格在图像中相对于彼此移动）。如果是平面照片、屏幕重播或重印，视差场就会崩溃。数学是二进制的。  它不使用什么 这是重要的部分：  没有神经网络 没有“AI 置信度得分” 没有用于核心验证的云 API 调用 没有训练数据或启发式  它使用什么  确定性信号处理：FFT 和相位相关。 简单的信噪比阈值。 输出为 PHYSICAL、NON_PHYSICAL 或 UNDECIDABLE。  UNDECIDABLE 结果是故意的。如果信号不明确，系统会声明“我不知道”。它不会猜测。这感觉比幻觉确定性的系统更健康。 经过测试的绕过方法（它们失败了） 我尝试了明显的攻击：  拍摄令牌照片并将其打印 在手机屏幕上显示令牌 高分辨率重印对于人眼来说，它们看起来很完美。他们甚至可能会传递“强烈信号”查看。但是两个网格层之间的相对视差呢？零。物理不会协商。  你可以自己尝试（认真地）你不需要实验室。要看到视差效果：  一台喷墨打印机 A4纸 CD盒之类的垫片，用于形成间隙 一滴食用油（使最上面的纸半透明并看到两层）这足以观察核心原理。  为什么公开发布此内容？我不想让它变成这样变成：  “信任我们的专有模型” “上传到我们的验证 API” “可用企业定价”  这描述了基于物理的约束，而不是产品。如果这个方法有缺陷，我希望它被公开打破。如果它是有效的，它应该属于任何理解数学的人。 存储库和完整的技术规范是公开的（评论中的链接）。我很高兴讨论为什么这可能是一个死胡同，或者它在哪里可能真正有用。 新年快乐。 https://github.com/illegal-instruction-co/pbm-core   由   提交/u/Humble-Plastic-5285   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2vf8z/identity_is_a_physical_property_not_a_digital/</guid>
+      <pubDate>Sat, 03 Jan 2026 14:05:34 GMT</pubDate>
     </item>
     <item>
       <title>以单一文本格式封装音频元数据和编辑逻辑</title>
@@ -18,13 +39,6 @@
       <description><![CDATA[CUE 表描述了音频时间戳和元数据，但我想要更具表现力的东西。我构建了一个基于 CUE 的文本格式和一个具有类似 SQL 方法的工具，使其小巧且易于实现，同时允许简单但有效的编辑。 在演示中，仅使用 MP3 拖动和播放即可创建专辑混合曲。拖放和文本复制/粘贴—无需波形编辑。   由   提交 /u/cutandjoin   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q2rvgs/encapsulating_audio_metadata_and_edit_logic_in_a/</guid>
       <pubDate>Sat, 03 Jan 2026 10:58:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的数据序列化工具</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2r639/new_data_serialization_tool/</link>
-      <description><![CDATA[这是我发现的一个工具，看起来很酷！   由   提交 /u/uservydm   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2r639/new_data_serialization_tool/</guid>
-      <pubDate>Sat, 03 Jan 2026 10:15:21 GMT</pubDate>
     </item>
     <item>
       <title>为什么开发人员的专业知识在人工智能时代比以往任何时候都更加重要</title>
@@ -41,46 +55,11 @@
       <pubDate>Sat, 03 Jan 2026 09:05:55 GMT</pubDate>
     </item>
     <item>
-      <title>10 个可在几分钟内构建仪表板的 Python 库</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2pwq6/10_python_libraries_that_build_dashboards_in/</link>
-      <description><![CDATA[ 由   提交 /u/Funny-Ad-5060   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2pwq6/10_python_libraries_that_build_dashboards_in/</guid>
-      <pubDate>Sat, 03 Jan 2026 08:57:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么大多数软件文档都失败了——以及可执行文档如何改变这一点</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2oo83/why_most_software_documentation_fails_and_how/</link>
-      <description><![CDATA[ 由   提交 /u/Limp_Celery_5220   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2oo83/why_most_software_documentation_fails_and_how/</guid>
-      <pubDate>Sat, 03 Jan 2026 07:43:05 GMT</pubDate>
-    </item>
-    <item>
       <title>Uber 如何实时显示数百万司机的位置</title>
       <link>https://www.reddit.com/r/programming/comments/1q2o00b/how_uber_shows_millions_of_drivers_location_in/</link>
       <description><![CDATA[ 由   提交/u/Sushant098123  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q2o00b/how_uber_shows_millions_of_drivers_location_in/</guid>
       <pubDate>Sat, 03 Jan 2026 07:04:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>vanilla PHP 中的零依赖性遗传学引擎：14 个基因座、性连锁遗传、10,000 多种表型组合</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2mw5y/zerodependency_genetics_engine_in_vanilla_php_14/</link>
-      <description><![CDATA[ 由   提交/u/Mammoth-Promotion-10   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2mw5y/zerodependency_genetics_engine_in_vanilla_php_14/</guid>
-      <pubDate>Sat, 03 Jan 2026 06:04:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>香草 PHP 中的零依赖性遗传学引擎：14 个基因座、性连锁遗传、10,000 多种表型组合的笛卡尔积</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2mpdb/zerodependency_genetics_engine_in_vanilla_php_14/</link>
-      <description><![CDATA[为鸟类饲养者 (Agapornis Roseicollis) 构建遗传学计算器：  纯 PHP，无框架，无库 通过笛卡尔积计算 14 个独立位点 性别连锁遗传矩阵（ZZ/ZW 鸟类系统） Wright 近交系数谱系图上的递归 DFS 用于反向基因型估计的类贝叶斯推理引擎 通过分层优先级系统解析了 310 多种表型  数学很有趣 - Punnett 跨 14 个维度进行平方，然后折叠相同的表型。 演示： http://kanarazu-project.com/gene-forge/Rosy-faced-Lovebird/?lang=en GitHub： https://github.com/kanarazu-project/gene-forge 烤我的代码或询问有关架构的任何信息。   由   提交/u/Mammoth-Promotion-10   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2mpdb/zerodependency_genetics_engine_in_vanilla_php_14/</guid>
-      <pubDate>Sat, 03 Jan 2026 05:54:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>计划、检查、验证、回顾：人工智能辅助编码框架</title>
-      <link>https://www.reddit.com/r/programming/comments/1q2ldrq/plan_do_check_verify_retrospect_a_framework_for/</link>
-      <description><![CDATA[在过去的一年里，我一直在使用多个模型（Anthropic、GLM）和工具（Bolt、Cursor、Cline、Claude Code）进行 AI 辅助编码。 经过多次尝试和错误，我有了一个稳定的框架、提示或提示模板、模型和工具，用于我的 AI 辅助编码。 我使用的框架不是新的，但是灵感来自 InfoQ 上的一篇文章（评论中的链接）。它被称为计划、检查、验证、回顾（PDCVR）框架。 在详细说明每个步骤之前，这是我当前的设置： * 工具：Claude Code * 模型：Z.ai 的 GLM 4.7 现在，让我详细说明该框架： * PLAN * 对于您计划执行的任何任务，您都从一个计划开始。您希望模型只计划而不创建任何代码 * 是的，Claude Code 有计划模式，但我更喜欢不在模式之间切换并使用提示来处理相同的情况  * 您需要一个提示来帮助创建一个极其详细的计划，该计划提供逐步执行计划和强制性代码库调查，以便它不会重新创建某些内容或破坏现有的某些内容 * 最重要的一点要记住的是 2 每次开始新任务时都专注于 **1 个单一目标** *除此之外，当您进行人工智能辅助编码时，**TDD 是最重要的方面**。因此，您需要有一个提示，告诉模型先执行红色阶段（失败的测试），然后执行绿色阶段（成功的测试）*对于每个提示，我都会告诉法学硕士计划并使用 TDD（即使是 DO 步骤）  DO  阅读上面创建的计划，如果不满意，请迭代 一旦您感到满意，就可以继续实施 您可以说“从第 1 步开始”或“继续步骤1”或“实施后续步骤”或“实施计划的步骤”  检查  这一步非常重要，因为有时，LLM 可能不记得他们需要实施的后续步骤，并且会在不实施后续步骤的情况下完成工作 因此，您需要进行完整性检查，以确保 LLM 检查和评估是否一切都已实施并且正确，如果不是，那么它将告诉您接下来的步骤或剩余步骤  验证  此步骤与检查相同，但在这一步中，我调用克劳德代码代理，构建验证以确保所有内容都成功编译，并验证所有内容是否都作为任务的一部分实现  回顾  无论提示多么细致漂亮，无论模型多么智能，无论在SWE Bench编码中排名多么靠前，LLM都难免会犯错误 在这种情况下，你需要要求LLM对当前正在做的任务进行回顾，以便下次记录文档并记住所学内容  https://www.infoq.com/articles/PDCA-AI-code- Generation/?topicPageSponsorship=cb9cfb95-79e8-442a-8f4b-72cfb3789778 ：本文所基于的原始框架 https://arxiv.org/pdf/2312.04687：证明TDD非常重要并且是LLM所必需的论文 https://github.com/nilukush/plan-do-check-verify-retrospect/tree/master/prompts-templates：您将找到用于编码的通用提示模板，其中始终包含计划提示，这意味着您发送给LLM的每个提示，计划提示始终是通用提示模板的一部分  此外，它还有CHECK（完整性检查）和RETROSPECT的提示  https://github.com/nilukush/plan-do-check-verify-retrospect/tree/master/claude-code-subagents-for-coding 包含我在 Claude Code 中用于编码的所有子代理。您只需将其复制粘贴到 .claude/agents  它包括从 Orchestrator、产品经理到 DevOps 的代理，包括调试器、分析器和通用执行器子代理     由   提交 /u/nilukush   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q2ldrq/plan_do_check_verify_retrospect_a_framework_for/</guid>
-      <pubDate>Sat, 03 Jan 2026 04:47:38 GMT</pubDate>
     </item>
     <item>
       <title>可延展的软件：在锁定应用程序的世界中恢复用户代理</title>
@@ -109,6 +88,27 @@
       <description><![CDATA[一篇关于从矩阵分解到法学硕士再到个性化混合架构的转变的文章。在深入本文之前，请先了解一些基础知识（和摘要）： 什么是矩阵分解，为什么它仍用于个性化？ 矩阵分解是一种协作过滤方法，可从交互数据中学习紧凑的用户和项目表示（嵌入），然后通过快速相似性评分对项目进行排名。它仍然被广泛使用，因为它具有可扩展性、稳定性，并且易于通过 A/B 测试、点击率和转化指标进行评估。 什么是基于 LLM 的个性化？基于 LLM 的个性化是使用大型语言模型，通过检索的用户上下文、最近的行为和业务规则来定制响应或操作。法学硕士不仅可以生成排名列表，还可以推理意图和约束，提出澄清问题，并生成解释或下一个最佳行动。 法学硕士会取代推荐系统吗？ 通常不会。法学硕士往往比经典检索模型更慢且更昂贵。许多高性能系统使用传统推荐器来生成候选，然后使用 LLM 对较小的候选集进行重新排名、解释和面向工作流的决策。 混合个性化架构在实践中是什么样子？常见的模式是检索 → 重新排名 → 生成。检索使用嵌入（MF 或两塔）以低廉的成本生成几百到几千个候选。重新排名应用更丰富的标准（约束、政策、多样性）。 Generation 使用 LLM 来解释权衡、确认偏好并通过工具调用选择后续步骤。   由   提交/u/ephemeral404  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q2i7qu/the_future_of_personalization/</guid>
       <pubDate>Sat, 03 Jan 2026 02:21:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thompson 讲述了他如何在 Google 开发 Go 语言。</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2i78v/thompson_tells_how_he_developed_the_go_language/</link>
+      <description><![CDATA[ 在我看来，新东西比语言更重要。大部分内容我都不明白。这是一个小时的谈话，内容主要是对 C++ 的改进。  那么我们该怎么办呢？ 让我们编写一种语言。 所以我们编写了一种语言，就是这样。   传奇。   由   提交/u/ray591  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2i78v/thompson_tells_how_he_developed_the_go_language/</guid>
+      <pubDate>Sat, 03 Jan 2026 02:20:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>编码代理实际上是如何工作的：OpenCode 内部</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2aqyn/how_coding_agents_actually_work_inside_opencode/</link>
+      <description><![CDATA[ 由   提交/u/Helpful_Geographer430   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2aqyn/how_coding_agents_actually_work_inside_opencode/</guid>
+      <pubDate>Fri, 02 Jan 2026 21:11:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>唯一正确的方法谬论：为什么成熟的开发人员不崇拜单一的编程范式</title>
+      <link>https://www.reddit.com/r/programming/comments/1q2761m/the_onetrueway_fallacy_why_mature_developers_dont/</link>
+      <description><![CDATA[ 由   提交/u/waozen   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q2761m/the_onetrueway_fallacy_why_mature_developers_dont/</guid>
+      <pubDate>Fri, 02 Jan 2026 18:55:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
