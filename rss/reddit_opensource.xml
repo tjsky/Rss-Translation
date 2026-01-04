@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 04 Jan 2026 15:17:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 18:25:21 GMT</lastBuildDate>
+    <item>
+      <title>我用 Swift 构建了一个用于 Android 应用程序开发的开源 IDE 和框架</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q3wt4s/i_built_an_opensource_ide_and_framework_for/</link>
+      <description><![CDATA[我刚刚发布了 Swift Stream IDE v1.17.0，它现在支持完全使用 Swift 进行完整的原生 Android 应用程序开发。您无需接触 XML、Java 或 Kotlin 即可构建应用程序。 在底层，项目由 SwifDroid 提供支持，这是我构建的一个框架，用于处理 Android 应用程序生命周期、活动、片段和 UI 小部件（Android、AndroidX、Material、Flexbox），同时自动管理 Gradle 依赖项。 IDE 编译 Swift，生成可供 Android Studio 使用的完整 Android 项目。 这是第一个公开版本。工具和框架都是开源的并获得 MIT 许可。   由   提交/u/imike3049  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q3wt4s/i_built_an_opensource_ide_and_framework_for/</guid>
+      <pubDate>Sun, 04 Jan 2026 18:04:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源人工智能初创公司如何说服投资者？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q3wmxt/how_do_opensource_ai_startups_convince_investors/</link>
+      <description><![CDATA[大家好， 我已经思考这个问题有一段时间了，并且阅读了很多有关该主题的文章，但我仍然没有明确的答案。 我的问题是针对人工智能领域的，主要是人工智能代理。像LangChain和CrewAI这样的成功公司已经在这里开展业务。 但是对于一家专注于利基市场的小型初创公司来说，当你的核心技术是开源的（Apache 2.0）时，你如何说服投资者？商业模式、竞争优势或未来收入潜力方面的宣传是什么？ 如果这不是很清楚或与这个社区相关，我深表歉意，但我想在这里试试运气。   由   提交/u/re1372  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q3wmxt/how_do_opensource_ai_startups_convince_investors/</guid>
+      <pubDate>Sun, 04 Jan 2026 17:58:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>BlackScreen：将所有屏幕变成黑色</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q3ug8h/blackscreen_turn_all_your_screens_black/</link>
+      <description><![CDATA[大家好， BlackScreen 是我的新 PC 开源程序，它会将所有屏幕变成黑色，直到您单击退出。 它可以作为 Python 脚本使用，也可以作为 Rust 程序使用。该版本附带了与 Windows 10 和 11（64 位）兼容的即用型二进制文件。 您可以在 https://github.com/Messina-Agata/BlackScreen :)    找到它。由   提交/u/agata_30  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q3ug8h/blackscreen_turn_all_your_screens_black/</guid>
+      <pubDate>Sun, 04 Jan 2026 16:36:45 GMT</pubDate>
+    </item>
     <item>
       <title>C++ DataFrame的独特之处（二）</title>
       <link>https://www.reddit.com/r/opensource/comments/1q3ry3l/unique_features_of_c_dataframe_2/</link>
@@ -62,13 +83,6 @@
       <pubDate>Sun, 04 Jan 2026 08:17:43 GMT</pubDate>
     </item>
     <item>
-      <title>调试开源问题比编写代码更难</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q3k72w/debugging_open_source_issues_is_harder_than/</link>
-      <description><![CDATA[问题报告不完整。复制步骤含糊不清。当你理解问题时，其他人已经分叉了。 我一直在尝试将问题日志和测试失败输入调试工具以加快分类速度。当上下文很薄弱时，kodezi 对于将失败映射回提交非常有用。 维护者已经贡献了时间。调试不应该消耗更多的精力。 其他维护者如何处理这个负载？   由   提交/u/Inknown_Spite_7715   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q3k72w/debugging_open_source_issues_is_harder_than/</guid>
-      <pubDate>Sun, 04 Jan 2026 07:56:40 GMT</pubDate>
-    </item>
-    <item>
       <title>用于转储整个相机胶卷的 OSS</title>
       <link>https://www.reddit.com/r/opensource/comments/1q3htxk/oss_for_dumping_entire_camera_roll/</link>
       <description><![CDATA[大家好。 所以，我是 iPhone 的普通用户，我对手动（不是在云端）将相机胶卷中的媒体复制到本地硬盘是多么烦人感到厌倦。有一些付费的垃圾灰色市场软件可以解决这个问题（看看你，iMazing），但天哪，它真的不可能那么复杂 -  TDLR：是否有一个好的、已知的 oss/脚本（一个完整的编码规范可以弄清楚）可以以完整的质量转储 iPhone 的整个相机胶卷？ 我希望这是有道理的。我真的很感激任何建议。   由   提交 /u/bigdickwalrus   [链接] [评论]]]></description>
@@ -95,20 +109,6 @@
       <description><![CDATA[我一直在密切关注 AI 溢出问题，而且情况似乎变得更糟，而不是更好。 情况：  Daniel Stenberg (curl) 表示该项目“实际上正在遭受 DDoSed”由人工智能生成的错误报告。 2025 年，大约 20% 的提交内容是 AI 垃圾。交易量一度飙升至平时的 8 倍。他现在正在考虑是否完全关闭他们的错误赏金计划。 OCaml 维护者拒绝了 13,000 行 AI 生成的 PR。他们的理由是：审查人工智能代码比人类代码更费力，而大规模的低效 PR“会带来使 Pull-Request 系统停止运行的真正风险。” Anthony Fu（Vue 生态系统）和其他人发帖称，他们收到了大量来自“寻求帮助”的人的 PR。直接将问题发送给人工智能代理，然后像无人机一样在不理解代码的情况下循环审查评论。 GitHub 通过将 Copilot 集成到问题/公关创建中，让情况变得更糟 - 你无法阻止它，甚至无法分辨哪些提交来自 Copilot。  模式： 人们（通常是填写简历的学生或赏金猎人）使用人工智能来大量生成 PR 和错误报告。乍一看，输出看似合理，但经过审查后却崩溃了。维护者（主要是无薪志愿者）浪费时间对垃圾进行分类。 一些人将其与 Hacktoberfest 2020（“Shitoberfest”）进行比较，只不过现在是全年，障碍甚至更低。 我想知道的是： 有人构建工具来帮助解决这个问题吗？不是“AI检测” （这是一场失败的游戏），但类似于：  自动分类，检查 PR 是否实际运行、解决问题或引用不存在的功能 跨项目贡献者声誉 - 因此维护人员可以看到“此人在 30 个存储库中以 3% 的合并率批量提交了 47 个 PR”与“12 个合并 PR，平均 1.5 个审核周期”相比， 比“贡献数量”更好的信号  声誉数据已经在 GitHub API 中（PR 结果、审核周期等）。似乎应该有人来构建这个。 对于这里的维护者：什么实际上可以帮助你？在对来自未知贡献者的 PR 进行分类时，您会考虑哪些信号？   由   提交 /u/FunBrilliant5713   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1q3f89b/open_source_is_being_ddosed_by_ai_slop_and_github/</guid>
       <pubDate>Sun, 04 Jan 2026 03:34:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个开源“Memento Mori”壁纸生成器来开始新的一年</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q3d3gi/i_built_an_opensource_memento_mori_wallpaper/</link>
-      <description><![CDATA[      大家好，我最近遇到了“Memento Mori”壁纸。 Luis Batalha 的项目，可在锁定屏幕上可视化您的生活进度。我非常喜欢这个概念，因为时间的流逝是对有意生活的巨大现实检查。 我想使用与它完全相同的东西，但我真的希望它成为一个开源项目，任何人都可以免费检查、修改或运行。所以，我决定构建它。 它的名字叫 Remainders。它会生成漂亮的时间感知壁纸，并自动更新以显示： • 生命时间：您生命进度的可视化网格（已生存与剩余）。 • 年度进度：帮助您保持在 2026 年目标的轨道上。 这是以某种视角开始新的一年的好方法。 存储库：https://github.com/Ti-03/remainders 最初的设计灵感完全归功于 Luis！我很想听听您对这个开源实现的看法。    由   提交/u/qutibah_  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q3d3gi/i_built_an_opensource_memento_mori_wallpaper/</guid>
-      <pubDate>Sun, 04 Jan 2026 01:57:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>TerminallyQuick v4,面向 Web 开发人员的快速、用户友好的图像处理工具，具有批处理和现代格式支持,下载TerminallyQuick v4的源码_GitHub_帮酷</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q3cslm/github_raghav4882terminallyquick_v4_fast/</link>
-      <description><![CDATA[       由   提交/u/raghav4882  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q3cslm/github_raghav4882terminallyquick_v4_fast/</guid>
-      <pubDate>Sun, 04 Jan 2026 01:44:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
