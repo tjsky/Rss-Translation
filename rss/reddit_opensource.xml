@@ -4,7 +4,35 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 04 Jan 2026 01:28:19 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 04:10:33 GMT</lastBuildDate>
+    <item>
+      <title>BYOB 自托管与完全本地部署</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q3foyl/byob_selfhosting_vs_fully_onpremise/</link>
+      <description><![CDATA[好奇人们对不一定可在本地部署但与特定云提供商紧密耦合的开源项目有何看法。 就我个人而言，我目前正在开发一个使用 SST 优雅地部署到 AWS 的项目。它是完全开源的，但我知道 Reddit 上的很多人都看不起它，因为它不是“完全”开源的。可自托管，因为他们仍然不拥有硬件。 在我更加努力地致力于此架构之前，主要是尝试了解期望 - 我知道我可以用可容器化工具替代 AWS 提供的大部分内容（Minio 代替 S3，Redis/BullMQ 代替 SQS...） 很想听听其他人对此有何看法，尤其是开源/自托管工具的维护者。   由   提交 /u/Chucki_e   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q3foyl/byob_selfhosting_vs_fully_onpremise/</guid>
+      <pubDate>Sun, 04 Jan 2026 03:56:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源正在遭受 AI slop 的 DDoSed，而 GitHub 则让情况变得更糟</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q3f89b/open_source_is_being_ddosed_by_ai_slop_and_github/</link>
+      <description><![CDATA[我一直在密切关注 AI 溢出问题，而且情况似乎变得更糟，而不是更好。 情况：  Daniel Stenberg (curl) 表示该项目“实际上正在遭受 DDoSed”由人工智能生成的错误报告。 2025 年，大约 20% 的提交内容是 AI 垃圾。交易量一度飙升至平时的 8 倍。他现在正在考虑是否完全关闭他们的错误赏金计划。 OCaml 维护者拒绝了 13,000 行 AI 生成的 PR。他们的理由是：审查人工智能代码比人类代码更费力，而大规模的低效 PR“会带来使 Pull-Request 系统停止运行的真正风险。” Anthony Fu（Vue 生态系统）和其他人发帖称，他们收到了大量来自“寻求帮助”的人的 PR。直接将问题发送给人工智能代理，然后像无人机一样在不理解代码的情况下循环审查评论。 GitHub 通过将 Copilot 集成到问题/公关创建中，让情况变得更糟 - 你无法阻止它，甚至无法分辨哪些提交来自 Copilot。  模式： 人们（通常是填写简历的学生或赏金猎人）使用人工智能来大量生成 PR 和错误报告。乍一看，输出看似合理，但经过审查后却崩溃了。维护者（主要是无薪志愿者）浪费时间对垃圾进行分类。 一些人将其与 Hacktoberfest 2020（“Shitoberfest”）进行比较，只不过现在是全年，障碍甚至更低。 我想知道的是： 有人构建工具来帮助解决这个问题吗？不是“AI检测” （这是一场失败的游戏），但类似于：  自动分类，检查 PR 是否实际运行、解决问题或引用不存在的功能 跨项目贡献者声誉 - 因此维护人员可以看到“此人在 30 个存储库中以 3% 的合并率批量提交了 47 个 PR”与“12 个合并 PR，平均 1.5 个审核周期”相比， 比“贡献数量”更好的信号  声誉数据已经在 GitHub API 中（PR 结果、审核周期等）。似乎应该有人来构建这个。 对于这里的维护者：什么实际上可以帮助你？在对来自未知贡献者的 PR 进行分类时，您会考虑哪些信号？   由   提交 /u/FunBrilliant5713   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q3f89b/open_source_is_being_ddosed_by_ai_slop_and_github/</guid>
+      <pubDate>Sun, 04 Jan 2026 03:34:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个开源“Memento Mori”壁纸生成器来开始新的一年</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q3d3gi/i_built_an_opensource_memento_mori_wallpaper/</link>
+      <description><![CDATA[      大家好，我最近遇到了“Memento Mori”壁纸。 Luis Batalha 的项目，可在锁定屏幕上可视化您的生活进度。我非常喜欢这个概念，因为时间的流逝是对有意生活的巨大现实检查。 我想使用与它完全相同的东西，但我真的希望它成为一个开源项目，任何人都可以免费检查、修改或运行。所以，我决定构建它。 它的名字叫 Remainders。它会生成漂亮的时间感知壁纸，并自动更新以显示： • 生命时间：您生命进度的可视化网格（已生存与剩余）。 • 年度进度：帮助您保持在 2026 年目标的轨道上。 这是以某种视角开始新的一年的好方法。 存储库：https://github.com/Ti-03/remainders 最初的设计灵感完全归功于 Luis！我很想听听您对这个开源实现的看法。    由   提交/u/qutibah_  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q3d3gi/i_built_an_opensource_memento_mori_wallpaper/</guid>
+      <pubDate>Sun, 04 Jan 2026 01:57:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>TerminallyQuick v4,面向 Web 开发人员的快速、用户友好的图像处理工具，具有批处理和现代格式支持,下载TerminallyQuick v4的源码_GitHub_帮酷</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q3cslm/github_raghav4882terminallyquick_v4_fast/</link>
+      <description><![CDATA[       由   提交/u/raghav4882  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q3cslm/github_raghav4882terminallyquick_v4_fast/</guid>
+      <pubDate>Sun, 04 Jan 2026 01:44:09 GMT</pubDate>
+    </item>
     <item>
       <title>NOThub — GitHub 风格的配置文件，但“绿色方块”是您的每日开发清单（完全开源）</title>
       <link>https://www.reddit.com/r/opensource/comments/1q39c4l/nothub_githubstyle_profile_but_the_green_squares/</link>
@@ -48,7 +76,7 @@
       <pubDate>Sat, 03 Jan 2026 15:33:00 GMT</pubDate>
     </item>
     <item>
-      <title>ReactOS 在 2026 年伊始又向 Windows NT6 兼容性迈出了“重大一步”</title>
+      <title>ReactOS 2026 年伊始，朝着 Windows NT6 兼容性又迈出了“重大一步”</title>
       <link>https://www.reddit.com/r/opensource/comments/1q2uxbj/reactos_starts_2026_with_another_major_step/</link>
       <description><![CDATA[       由   提交/u/Jeditobe  [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1q2uxbj/reactos_starts_2026_with_another_major_step/</guid>
@@ -81,34 +109,6 @@
       <description><![CDATA[我为 MicroPie ASGI 框架构建了一个小型 URL 缩短器作为真实示例。 它有意做到极简： - 无跟踪或分析 - 无广告 - 无帐户 - 只有短链接和重定向 整个实现作为示例应用程序存在于 MicroPie 存储库中。它展示了如何实现简单的应用程序和中间件。 来源：https://github.com/patx/micropie/tree/main/examples/url_shortener 欢迎提供反馈 - 特别是来自构建了类似工具的人，说实话，谁还没有编写过其中一个工具 无论如何，我拥有一个简短的域名，并且认为这将是一个很好的用途，所以你可以使用 erd.sh 是 MicroPie 自己的实时演示应用程序。你可以测试一下，我会永久保持它在线（或者只要它有任何用途）并且免费供每个人使用。使用它，不要使用它，尝试打破它，发疯！干杯。   由   提交 /u/Miserable_Ear3789   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1q2n69d/dead_simple_url_shortener_with_python_asgi_erdsh/</guid>
       <pubDate>Sat, 03 Jan 2026 06:19:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>plan-do-check-verify-retrospect：人工智能辅助编码框架</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q2lmjs/plandocheckverifyretrospect_a_framework_for_ai/</link>
-      <description><![CDATA[       由   提交 /u/nilukush   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q2lmjs/plandocheckverifyretrospect_a_framework_for_ai/</guid>
-      <pubDate>Sat, 03 Jan 2026 04:59:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>视频编辑器替代方案</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q2hs7z/video_editor_alternatives/</link>
-      <description><![CDATA[我正在寻找免费和开源的视频编辑器替代品，因为我只是希望能够剪切一些剪辑，将它们连接在一起并放置背景音乐，也许在顶部添加一些图像，但不是真正复杂的编辑内容。 我见过 Open shot，但用户界面并没有真正鼓励我，我希望像 OpenCut 这样的东西得到维护，但似乎已经死了，所以如果你们能帮助我，我将不胜感激一些想法来做到这一点。 一个优点是让 Docker 容器通过 Web UI 进行编辑并将视频存储在服务器中，但这不是必须的！！   由   提交/u/aaronfort  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q2hs7z/video_editor_alternatives/</guid>
-      <pubDate>Sat, 03 Jan 2026 02:01:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的一个项目有一个 github star！！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q2hlkn/one_of_my_projects_has_a_github_star/</link>
-      <description><![CDATA[这篇文章基本上就结束了。我喜欢为其他人制作东西:) 如果您有兴趣，请访问 github.com/Avni2000/OllaMark   由   提交/u/EnderAvni   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q2hlkn/one_of_my_projects_has_a_github_star/</guid>
-      <pubDate>Sat, 03 Jan 2026 01:53:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>为公众运行基于 Proxmox、SearXNG、PrivateBin 和 IRC 构建的自托管开源隐私服务</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q2giwl/running_self_hosted_open_source_privacy_services/</link>
-      <description><![CDATA[几年前，我在我的家庭基础设施上开始基于开源项目构建自托管服务。最初的个人 IRC 服务器已经发展成为一套专注于隐私的服务，我现在向公众开放 - 因为这就是 FOSS 的最终目的，对吗？ :)  我运行的内容： IRC 服务器（UnrealIRCd + Anope Services + soju）  服务器：irc.inthemansion.com:6697 (SSL) 大约 40 名活跃用户 - 开发人员，自托管者、隐私倡导者 主要渠道：#lobby 经典的去中心化聊天，无公司中间人  SearXNG 实例  URL：search.inthemansion.com 元搜索引擎聚合多个来源的结果 零跟踪，通过 Cookie 本地存储用户偏好 无需注册  PrivateBin  URL：paste.inthemansion.com 客户端加密的 Pastebin 最大上传 10MB（文本、代码、图像） 零知识 - 服务器只能看到加密数据  这一切都在三台基于 Proxmox 的机器上：  核心 VM/LXC 的主数据中心 专用 Proxmox IRC 机器以确保可靠性 Proxmox 备份服务器以实现冗余  整个堆栈都是开源的 - 从管理程序到在其上运行的每个服务。这也都在家庭基础设施上，所以它不是企业级的正常运行时间，但它是稳定的，正确分段的，并且维护得小心。所有服务均记录在 inthemansion.com 中。 如果这些服务能够帮助少数人逃避公司监视，同时体验开源的功能，那就是一场胜利。欢迎反馈和建设性批评——这就是我们共同进步的方式。也非常欢迎大家加入我们的 IRC 服务器并进行聊天:) 很高兴分享配置详细信息、部署说明或经验教训。在家运行多个 Proxmox 设置是一个旅程，而不是假装。 话虽如此，感谢所有参与开源领域的人，这是我们应该永远珍惜并尽我们所能做出贡献的事情:)   由   提交 /u/avatar_one   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q2giwl/running_self_hosted_open_source_privacy_services/</guid>
-      <pubDate>Sat, 03 Jan 2026 01:06:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
