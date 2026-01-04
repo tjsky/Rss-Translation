@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 04 Jan 2026 09:17:23 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 12:32:19 GMT</lastBuildDate>
+    <item>
+      <title>生成人工智能时代使用 Python 进行计算机编程艺术简介</title>
+      <link>https://www.reddit.com/r/programming/comments/1q3n8c1/an_introduction_to_the_art_of_computer/</link>
+      <description><![CDATA[我创建了这个网站（免费，没有广告或任何东西），我非常需要一些反馈...:-) https://computerprogramming.art/ 我对我的可视化效果感到特别自豪循环、哈希表、链表等   由   提交/u/dontkry4me  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q3n8c1/an_introduction_to_the_art_of_computer/</guid>
+      <pubDate>Sun, 04 Jan 2026 11:00:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>好主意从何而来（对于软件工程师）</title>
+      <link>https://www.reddit.com/r/programming/comments/1q3mvha/where_good_ideas_come_from_for_software_engineers/</link>
+      <description><![CDATA[ 由   提交 /u/strategizeyourcareer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q3mvha/where_good_ideas_come_from_for_software_engineers/</guid>
+      <pubDate>Sun, 04 Jan 2026 10:39:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>机器人的陨落.txt</title>
+      <link>https://www.reddit.com/r/programming/comments/1q3m70u/fall_of_robottxt/</link>
+      <description><![CDATA[我最近对 robots.txt 进行了很多思考......多年来，它作为网站所有者的一种简单礼貌的方式说“嘿，这部分可以索引，但请远离其他部分” 它从未被法律强制执行......它不需要......它有效因为有一个共同的理解，爬虫尊重它，因为这就是网络的运作方式。有一个不言而喻的协议，如果有人设定界限，你就尊重他们。 现在，渴望尽可能多数据的人工智能爬虫似乎不再关心了。他们直接跳过 robots.txt，就好像它不存在一样……他们忽略了它 更令人沮丧的是，明显的“解决方案”根本不像解决方案。用法律或技术上可执行的内容替换 robots.txt 听起来弊大于利。锁定事物、添加硬障碍或将其变成法律战场都会改变网络本身的性质...... 所以我们陷入了一个糟糕的中间地带。让机器人忽略 robots.txt 会破坏一切，但执行得太严格可能会破坏我们数十年来依赖的开放合作网络......   由   提交 /u/itsdevelopic   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q3m70u/fall_of_robottxt/</guid>
+      <pubDate>Sun, 04 Jan 2026 09:58:41 GMT</pubDate>
+    </item>
     <item>
       <title>Stackoverflow：一段时间内每月提出的问题。</title>
       <link>https://www.reddit.com/r/programming/comments/1q3l83g/stackoverflow_questions_asked_per_month_over_time/</link>
@@ -18,13 +39,6 @@
       <description><![CDATA[ 由   提交/u/ThomasMertes   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q3l2ke/meeting_seed7_by_norman_feske/</guid>
       <pubDate>Sun, 04 Jan 2026 08:49:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建移动应用程序以减少隐私暴露 - 寻求技术反馈</title>
-      <link>https://www.reddit.com/r/programming/comments/1q3l1x4/building_a_mobile_app_to_reduce_privacy_exposure/</link>
-      <description><![CDATA[ 由   提交 /u/eren_rndm   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q3l1x4/building_a_mobile_app_to_reduce_privacy_exposure/</guid>
-      <pubDate>Sun, 04 Jan 2026 08:48:53 GMT</pubDate>
     </item>
     <item>
       <title>既然 LLM 可以编写代码，那么 2026 年世界准备好迎接另一种编程语言了吗？</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[我一直在思考业务规则如何分散在代码库中——埋藏在服务层中、与验证混合在一起，或者陷入不同步的 Confluence 文档中。 如果业务逻辑是一流的工件怎么办？类似于： yaml 规则： - id: enterprise_discount when: customer_tier: enterprise then:discount_percent: 20  想法是： - 规则是声明性的，而不是强制性的 - 首先匹配获胜评估（如防火墙规则） - 测试与规则一起进行 - 如果逻辑测试失败，CI 会阻止 PR 这将“应该发生什么”与“应该发生什么”分开来自“它是如何实现的。” 随着人工智能生成更多代码，我一直想知道实现是否变得比逻辑本身更有价值。代码可以重新生成——但业务决策才是真正定义产品的因素。 有人在这样的系统上工作过吗？对现有技术、模式或为什么这可能是一个糟糕的想法感到好奇。   由   提交/u/One_Lengthiness1685   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q32xif/treating_business_logic_as_a_separate_testable/</guid>
       <pubDate>Sat, 03 Jan 2026 19:01:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>Naughty Words Every Programmer Should Know - 一本使用 NSFW 缩写词作为助记符的免费电子书</title>
-      <link>https://www.reddit.com/r/programming/comments/1q31uq9/naughty_words_every_programmer_should_know_a_free/</link>
-      <description><![CDATA[ 由   提交/u/Mrsomud007  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q31uq9/naughty_words_every_programmer_should_know_a_free/</guid>
-      <pubDate>Sat, 03 Jan 2026 18:20:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bold December 摘要（支持 lsp 和 dap 的文本编辑器）</title>
-      <link>https://www.reddit.com/r/programming/comments/1q30n5l/bold_december_summary_text_editor_with_lsp_and/</link>
-      <description><![CDATA[ 由   提交 /u/levodelellis   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q30n5l/bold_december_summary_text_editor_with_lsp_and/</guid>
-      <pubDate>Sat, 03 Jan 2026 17:35:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
