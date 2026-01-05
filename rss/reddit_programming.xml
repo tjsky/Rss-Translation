@@ -4,7 +4,56 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 05 Jan 2026 09:28:11 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 12:37:56 GMT</lastBuildDate>
+    <item>
+      <title>为 AI 代理设计长期记忆：超越传统的 RAG</title>
+      <link>https://www.reddit.com/r/programming/comments/1q4kj54/designing_longterm_memory_for_ai_agents_beyond/</link>
+      <description><![CDATA[大家好， 我最近一直在研究代理基础设施，特别是如何为 AI 代理设计长期、可检查的内存。不断出现的一件事是传统 RAG 管道的局限性 - 它们非常适合快速检索，但经常难以进行更深入的语义推理和随着时间的推移不断变化的上下文。 我们一直在探索一种替代方法，它结合了：  基于文件的人类可读的内存结构 基于嵌入的 RAG 用于快速查找 基于 LLM 的检索用于更深入的语义和逻辑推理  这种设计可以让代理保持原始记忆完整，同时允许更高级别的组织和随着时间的推移进行演变。 为了在现实场景中对这些想法进行压力测试，我们将从 1 月 8 日开始组织一次开源在线构建活动，贡献者可以在其中研究内存系统、代理编排、集成和实际用例。任务范围从文档和测试到全面集成，因此更多的是协作和实验而不是竞争。 如果您对这个问题感兴趣，请随时加入这里的讨论或社区： 👉 https://discord.gg/e3cxcRF5NY 很想听听这里的其他人如何思考智能体记忆和长期背景。   由   提交/u/Puzzleheaded_Box2842   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q4kj54/designing_longterm_memory_for_ai_agents_beyond/</guid>
+      <pubDate>Mon, 05 Jan 2026 12:33:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rust 中的流言蜚语</title>
+      <link>https://www.reddit.com/r/programming/comments/1q4jx47/gossip_gloomers_in_rust/</link>
+      <description><![CDATA[ 由   提交 /u/glassycrow   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q4jx47/gossip_gloomers_in_rust/</guid>
+      <pubDate>Mon, 05 Jan 2026 12:02:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025 年数据库：回顾一年</title>
+      <link>https://www.reddit.com/r/programming/comments/1q4jrk4/databases_in_2025_a_year_in_review/</link>
+      <description><![CDATA[ 由   提交/u/iamkeyur  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q4jrk4/databases_in_2025_a_year_in_review/</guid>
+      <pubDate>Mon, 05 Jan 2026 11:54:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>有想法或有问题吗？让我们努力吧</title>
+      <link>https://www.reddit.com/r/programming/comments/1q4ixmr/got_an_idea_or_a_problem_lets_work_on_it/</link>
+      <description><![CDATA[嘿，我是一名 Web 开发人员，专门为人们寻找方法来解决他们在开发甚至运行在线项目时遇到的问题。大多数在线项目的失败不是由于其概念，而是由于诸如项目结构不准确、在线状态缓慢或有问题、用户界面问题、混乱的数据流或不可扩展的系统等问题。 我与面临以下问题的人们一起工作：如何将想法变成可用的东西，如何修复或重建难以维护的现有产品，如何增强现有产品的性能和可靠性，或者如何创建实际反映业务运作方式的内部工具和业务仪表板。通常，问题陈述本身在流程开始时并不明确，并且该流程的一部分可能涉及弄清楚需要构建什么，甚至在编写任何代码之前也是如此。 如果您正在开发类似的东西，也许是一个新产品，也许是一个正在扩展但还没有良好基础的系统，也许是一个潜伏的技术问题阻碍了您的进步，那么我很愿意帮助您创建一个干净、稳定、现代的解决方案来满足您的问题。   由   提交/u/Playful-Oil2185   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q4ixmr/got_an_idea_or_a_problem_lets_work_on_it/</guid>
+      <pubDate>Mon, 05 Jan 2026 11:07:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>祝大家新年快乐🎊无论您是在庆祝、留在家里、工作还是只是滚动。我希望 2026 年对你来说比去年好一点。祝您身体健康，稳步进步，减少压力的日子。 Reddit 家族，新年快乐！ 🧡</title>
+      <link>https://www.reddit.com/r/programming/comments/1q4ii81/happy_new_year_everyone_whether_youre_celebrating/</link>
+      <description><![CDATA[ 由   提交/u/Sufficient_Pizza9117   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q4ii81/happy_new_year_everyone_whether_youre_celebrating/</guid>
+      <pubDate>Mon, 05 Jan 2026 10:44:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于 Go、Rust 和 Zig 的思考</title>
+      <link>https://www.reddit.com/r/programming/comments/1q4hwur/thoughts_on_go_vs_rust_vs_zig/</link>
+      <description><![CDATA[ 由   提交/u/misterolupo  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q4hwur/thoughts_on_go_vs_rust_vs_zig/</guid>
+      <pubDate>Mon, 05 Jan 2026 10:09:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>编码代理的未来</title>
+      <link>https://www.reddit.com/r/programming/comments/1q4hh3b/the_future_of_coding_agents/</link>
+      <description><![CDATA[ 由   提交 /u/thewritingwallah   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q4hh3b/the_future_of_coding_agents/</guid>
+      <pubDate>Mon, 05 Jan 2026 09:42:16 GMT</pubDate>
+    </item>
     <item>
       <title>RV 的 VS 代码扩展</title>
       <link>https://www.reddit.com/r/programming/comments/1q4h0v3/vs_code_extension_for_rv/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[在 Express.js 应用程序中构建更好的可观察性 我一直致力于提高 Express.js 应用程序中的可观察性，并希望分享一个对我来说效果很好的简单模式。 关键是让 Express 中间件自动捕获请求上下文，使用业务元数据丰富它，并优雅地处理错误。这是一个最小的示例： 从“express”导入express；从“canon-observability”导入 { canonExpress, canonExpressError, createConsoleEmitter };常量应用程序 = Express(); app.use(canonExpress({ 服务：“my-service”，版本：“0.0.1”，调试：true，发出：createConsoleEmitter({ Pretty: true }), })); app.get(“/ok”, (req, res) =&gt; { req.canon.enrich({ user: { id: “u_1” }, action: “ok” }); res.json({ ok: true }); }); app.get(“/boom”, () ==&gt; { throw new Error(“boom”); }); app.use(canonExpressError());  这给您带来了什么：  自动请求/响应跟踪 在请求生命周期中的任何点丰富上下文 具有完整上下文的结构化错误处理 与各种发射器（控制台、HTTP 等）轻松集成   req.canon.enrich() 模式特别有用，因为您可以在中间件链中的任何位置添加业务上下文（用户 ID、操作、功能标志），并且所有这些都会在可观测性输出中捕获。 社区问题：  您如何在 Node.js/Express 应用中处理可观测性？ 您发现哪些模式对于捕获业务上下文和技术最有效？  您使用的是 OpenTelemetry，还是更轻量级的东西？  很想听听您的想法和经验！ 评论中的 Github 存储库。   由   提交/u/LawativityNo0716   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q4d2o8/github_muhammadanas0716canonobservability_one/</guid>
       <pubDate>Mon, 05 Jan 2026 05:21:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>当你的项目的页脚是你对教师的真实陈述时</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4d1s6/when_your_projects_footer_is_your_real_statement/</link>
-      <description><![CDATA[有时，真正的项目是您为启发它的人隐藏的信息。   由   提交/u/Ok_Vacation2165   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4d1s6/when_your_projects_footer_is_your_real_statement/</guid>
-      <pubDate>Mon, 05 Jan 2026 05:20:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>去中心化标识符（DID）：数字身份的未来</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4c7b9/decentralized_identifiers_dids_the_future_of/</link>
-      <description><![CDATA[ 由   提交 /u/i-drake   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4c7b9/decentralized_identifiers_dids_the_future_of/</guid>
-      <pubDate>Mon, 05 Jan 2026 04:39:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作我自己的玩具语言。</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4bwmk/making_my_own_toy_language/</link>
-      <description><![CDATA[嗨，我计划制作自己的玩具语言作为业余项目（我 23 岁，感觉自己老了）。我一直在研究 llvm，最近正在研究 llvm IR（中间表示）。我计划制作自己的前端并将其连接到 llvm 后端。我在 haskell 方面有一些经验，并计划在 haskell 中制作解析器、词法分析器和其他前端组件。  这是我第一次这样做，我决定采用传统的方法，而不是在项目的任何阶段使用人工智能。在开始之前收集我能收集的任何信息。  我真的没有接触过任何低层次的东西，这将是我的第一个项目。从雇主的角度来看，这是否被认为是一个好项目（假设我正在申请系统/同等工作）。  或者我应该不担心它并直接进入该项目。 （对项目的任何见解都表示赞赏）   由   提交/u/Fit-Tangerine4364   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4bwmk/making_my_own_toy_language/</guid>
-      <pubDate>Mon, 05 Jan 2026 04:24:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kafka Producer 在 send() 之后到底做了什么</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4aq51/what_kafka_producer_really_does_after_send/</link>
-      <description><![CDATA[Kafka Producer 的 send() ≠ 消息已发布。 调用 Kafka 的 send() 只是开始旅程。 序列化 → 分区 → 批处理 → 压缩 → 缓冲区 → 最终发送。 缺少上述步骤会导致吞吐量浪费、发送阻塞、代理负载增加和消费者延迟。 本文详细解释了会发生什么情况当尝试 Producer.send 并将消息发送到代理磁盘时。   由   提交 /u/SmoothYogurtcloset65   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4aq51/what_kafka_producer_really_does_after_send/</guid>
-      <pubDate>Mon, 05 Jan 2026 03:29:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>特工并没有杀死图书馆——他们只是改变了数学</title>
-      <link>https://www.reddit.com/r/programming/comments/1q495x2/agents_didnt_kill_librariesthey_just_changed_the/</link>
-      <description><![CDATA[ 由   提交/u/myusuf3  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q495x2/agents_didnt_kill_librariesthey_just_changed_the/</guid>
-      <pubDate>Mon, 05 Jan 2026 02:18:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>双边滤镜库是否应该自动匹配 RGB 和 CIELAB 之间的模糊，或者只是记录差异？</title>
-      <link>https://www.reddit.com/r/programming/comments/1q47pta/should_a_bilateral_filter_library_automatically/</link>
-      <description><![CDATA[大家好， 我正在开发一个用于图像处理的 JavaScript/WASM 库，其中包括双边滤波器。该滤镜可以在 RGB 或 CIELAB 色彩空间中运行。 我注意到一个关键问题：相同的 sigma_range 会根据色彩空间产生非常不同的模糊。  RGB 通道： [0, 255] → 最大欧氏距离 ≈ 442 CIELAB 通道： L [0,100]、a/b [-128,127] → 最大距离 ≈ 374 真实图像：由于感知压缩，Lab 中典型的相邻像素差异甚至小于 RGB。  因此，在相同的 sigma_range 下， CIELAB 输出看起来比 RGB 更模糊。 我测试了缩放 RGB 的 sigma_range 以在视觉上与 Lab 匹配 - 4.18 左右的系数对于自然图像来说相当合适。然而，这是近似的并且依赖于图像。 设计问题 对于这样的库，更好的方法是什么？  在内部自动缩放sigma_range，以便 RGB 和 Lab 产生视觉上相似的结果。 保留 sigma 文字并记录差异，期望用户自己控制它。 可选：让用户提供自定义缩放因子。  问题：  自动缩放可能会让高级用户感到困惑，因为高级用户希望滤镜根据数字 sigma 值进行操作。 不缩放在技术上是正确的，但需要良好的文档，以便用户了解 RGB 与 Lab 输出为何不同。  如果您对完整的文章感兴趣，包括控制图像、差异的详细解释以及缩放实验的结果，我在此处创建了 GitHub 讨论： GitHub 讨论 – RGB 与 CIELAB 中的 Sigma_range 差异](https://github.com/Ryan-Millard/Img2Num/discussions/195) 我很想听听开发人员的意见：  您通常如何在图像库中处理此问题？ 您希望库自动匹配色彩空间中的模糊，还是尊重数字sigma 值和文档的区别？  提前致谢！   由   提交 /u/readilyaching   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q47pta/should_a_bilateral_filter_library_automatically/</guid>
-      <pubDate>Mon, 05 Jan 2026 01:14:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>将 UNIX 哲学应用于代理</title>
-      <link>https://www.reddit.com/r/programming/comments/1q474ug/applying_the_unix_philosophy_to_agents/</link>
-      <description><![CDATA[简单且可用的工具是 Unix 哲学的关键部分。 grep、curl 和 git 等工具已成为第二天性，对于包容性和高效的生态系统来说是巨大的胜利。它们快速、可靠且可组合。然而，围绕人工智能和人工智能代理的生态系统目前感觉就像是在使用一个臃肿的单一专有软件，其许可费用过高且具有卡夫卡式的许可费用。 Orla 建立在一个简单的前提之上：人工智能应该是您拥有的（免费软件）工具，而不是您租用的服务。它将简单性、可靠性和可组合性视为首要任务。 Orla 使用在您自己的计算机上运行的模型，并自动发现您已有的工具，使其开箱即用，功能强大且私密。它不需要 API 密钥、订阅或耗电的数据中心。总而言之， Orla 在本地运行。如果没有您的明确指示，您的数据、查询和工具永远不会离开您的机器。默认情况下它是私有的。 Orla 通过极其简单的界面将现代法学硕士的强大功能带入您的终端。如果您知道如何使用 grep，那么您就知道如何使用 Orla。 Orla 是免费的开源软件。没有订阅，没有供应商锁定。有关路线图的更多详细信息，请参阅 docs/rfcs/ 中的 RFC。 我不确定这种方法的通用性，因此非常感谢反馈。   由   提交/u/Available_Pressure47  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q474ug/applying_the_unix_philosophy_to_agents/</guid>
-      <pubDate>Mon, 05 Jan 2026 00:49:46 GMT</pubDate>
     </item>
     </channel>
 </rss>

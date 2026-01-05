@@ -4,13 +4,55 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 05 Jan 2026 09:28:34 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 12:38:23 GMT</lastBuildDate>
     <item>
-      <title>我总是忘记编程语法，所以我给自己做了一个小型离线笔记本</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q4go8k/i_kept_forgetting_programming_syntax_so_i_built_a/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q4go8k/i_kept_forgetting_programming_syntax_so_i_built_a/</guid>
-      <pubDate>Mon, 05 Jan 2026 08:51:24 GMT</pubDate>
+      <title>[R]我们使用LoongFlow构建了一个框架来使Agent“自我进化”。论文+代码发布</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q4j075/r_we_built_a_framework_to_make_agents_selfevolve/</link>
+      <description><![CDATA[ 由   提交 /u/FreshmanDD   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q4j075/r_we_built_a_framework_to_make_agents_selfevolve/</guid>
+      <pubDate>Mon, 05 Jan 2026 11:11:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>OWASP 模式每日更新</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q4iab0/owasp_patterns_daily_updated/</link>
+      <description><![CDATA[ 由   提交/u/fab_space  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q4iab0/owasp_patterns_daily_updated/</guid>
+      <pubDate>Mon, 05 Jan 2026 10:31:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开源了我的 Amazon Scraper (AmzPy)</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q4i5c4/i_opensourced_my_amazon_scraper_amzpy/</link>
+      <description><![CDATA[大家好， 不久前，我正在构建一个需要亚马逊产品数据的副项目。尽管拥有凭证，亚马逊的 API 访问对我来说仍然是一个黑匣子（经典的“已授予密钥但不起作用”循环）。 我决定不让封闭的 API 停止我的项目。我构建并开源了 AmzPy，这是一个使用浏览器模拟来抓取产品详细信息、搜索结果和变体的库，以保持低调。 源代码： https://github.com/theonlyanil/amzpy 我为什么要分享它： PyPI 上，但我相信社区可以帮助使其变得更加强大。目前，它处理：  产品详细信息（价格、评级、图像） 多页搜索结果 代理支持和代理支持浏览器模拟（通过 curl_cffi）  开放贡献：如果您曾经处理过抓取挑战或想要帮助添加评论抓取或自动验证码解决等功能，我希望您查看该存储库并对其进行分叉。 我们的目标是让这成为厌倦了数据保护的开发人员的可行替代方案。   由   提交/u/convicted_redditor   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q4i5c4/i_opensourced_my_amazon_scraper_amzpy/</guid>
+      <pubDate>Mon, 05 Jan 2026 10:23:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>免费的本地笔记应用程序，具有良好的 iPhone/Windows 兼容性？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q4hr45/free_local_app_for_notetaking_with_good/</link>
+      <description><![CDATA[我正在寻找一款免费的本地 PKM 笔记应用程序，该应用程序在 iPhone 和 Windows 桌面之间具有良好的兼容性，并且将来可以轻松切换到其他应用程序。什么应用程序？ 我还没有找到一个合适的本地 PKM 应用程序，该应用程序具有良好的语义/概念搜索引擎（通过使用本地 LLM）。已经有一些尝试，但目前都达不到要求。 所以我正在考虑开始编写和存储我的笔记，然后一旦有这样的应用程序出现，就转移我的笔记并切换到另一个应用程序。 我知道的唯一免费支持 iPhone 和 Windows 的应用程序是 simplenote、Joplin、Siyuan 和 Anytype 和 Logseq。 我还没有尝试过 siyuan 和 joplin。但 Anytype 辜负了我的基本期望。它太复杂了，就像黑曜石一样。 你如何比较思源、Joplin 和 SimpleNote？ 它们如何在操作系统中存储你的数据？  目前他们使用本地llm的搜索功能如何？ 将来可以轻松地从他们那里切换到其他地方吗？  或者您知道推荐的任何其他应用程序？   由   提交 /u/FatFigFresh   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q4hr45/free_local_app_for_notetaking_with_good/</guid>
+      <pubDate>Mon, 05 Jan 2026 09:59:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了 Accessify — 一个 JS 工具包，可在几分钟内添加网站可访问性，开源</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q4hqlz/i_built_accessify_a_js_toolkit_to_add_website/</link>
+      <description><![CDATA[ 由   提交 /u/Regular-Pie-4778   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q4hqlz/i_built_accessify_a_js_toolkit_to_add_website/</guid>
+      <pubDate>Mon, 05 Jan 2026 09:58:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于生成解说视频的 NotebookLM 的本地/自托管替代方案？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q4hqkx/local_selfhosted_alternative_to_notebooklm_for/</link>
+      <description><![CDATA[大家好， 我正在寻找 NotebookLM 的本地/自托管替代方案，特别是它可以根据文档或笔记生成带有旁白音频的视频的功能。 NotebookLM 效果很好，但我正在处理私人和机密数据，因此将其上传到托管服务这对我来说不是一个选择。理想情况下，我正在寻找这样的东西：  可以完全在本地（或自托管）运行 将文档/笔记作为输入 生成音频旁白 (TTS) 可选择创建视频（与音频同步的幻灯片、视觉效果或时间轴） 开源或者至少尊重隐私  如果需要的话，我可以将多个工具拼接在一起（LLM + TTS +视频生成）。 是否存在这样的东西，或者是否有人们用于这种工作流程的推荐堆栈？ 提前致谢！   由   提交 /u/Proof-Exercise2695   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q4hqkx/local_selfhosted_alternative_to_notebooklm_for/</guid>
+      <pubDate>Mon, 05 Jan 2026 09:58:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了 Accessify — 一个 JS 工具包，可在几分钟内添加网站可访问性，开源</title>
+      <link>https://www.reddit.com/r/opensource/comments/1q4hq9a/i_built_accessify_a_js_toolkit_to_add_website/</link>
+      <description><![CDATA[我一直在开发一个名为 Accessify 的小型 JavaScript 工具包，它可以通过单个脚本向任何网站添加辅助功能。 它提供了完整的辅助功能面板（20 多个功能），包括：  文本大小调整、对比度模式、颜色过滤器（色盲支持） 适合阅读障碍的字体、阅读标尺、文本转语音 改进的键盘导航和语音转换屏幕阅读器优化 停止动画、图钉面板、键盘快捷键 多语言支持（包括希伯来语和阿拉伯语/RTL）  无依赖性，适用于任何网站，适合移动设备，旨在帮助满足WCAG 2.1 AA。 您添加一个脚本，复制模板，然后会出现一个 ♿ 按钮 - 设置立即应用，无需 我构建它是因为辅助工具通常感觉沉重或价格过高。 希望得到开发人员的反馈，尤其是关于您期望的功能或我应该改进的内容。 https://github.com/VladiKonovalov/Accessify   由   提交 /u/Regular-Pie-4778   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1q4hq9a/i_built_accessify_a_js_toolkit_to_add_website/</guid>
+      <pubDate>Mon, 05 Jan 2026 09:58:17 GMT</pubDate>
     </item>
     <item>
       <title>[Web Kernel] 使用 Javascript 构建的用于 Web 脚本编写的实验内核</title>
@@ -67,48 +109,6 @@
       <description><![CDATA[我为使用 PHP + 大量数据代码（ML 实验、调试、日志、教育项目等）的任何人发布了一个小助手。 PrettyPrint 是一个零依赖的可调用漂亮打印机，用于 PHP 数组，具有干净的 Python 风格格式。它支持对齐的 2D 表格、类似 PyTorch 的张量视图、摘要（头/尾行和列），并且可以在 CLI 和 Web 上下文中工作。 安装： composer require apphp/pretty-print  示例： 对齐的 2D 表格： pprint([1, 23, 456], [12, 3, 45]); // [[ 1, 23, 456], // [12, 3, 45]]  PyTorch 风格的 2D 输出： pprint($matrix); // 张量([ // [ 1, 2, 3, 4, 5], // [ 6, 7, 8, 9, 10], // [11, 12, 13, 14, 15] // ])  大矩阵摘要： pprint($m, headRows: 2, tailRows: 1, headCols: 2, tailCols: 2);  带省略号的 3D 张量： pprint($tensor3d, headB: 1, tailB: 1); //tensor([ // [ 1, 2, ..., 4, 5], // [ 6, 7, ..., 9, 10], // ..., // [21, 22, ..., 24, 25] // ])  还支持标签、精度、开始/结束字符串，甚至充当可调用对象： $pp = new PrettyPrint(); $pp(&#39;你好&#39;, 42); // Hello 42  您可能会在存储库中找到更多配置功能：https://github.com/appphp/pretty-print 如果您经常盯着凌乱的 print_r() 转储到打印数组，这可能会让您的日子好一点 😄   由   提交 /u/Few-Mycological7747   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1q40sko/tiny_php_prettyprinter_that_formats_arrays_like/</guid>
       <pubDate>Sun, 04 Jan 2026 20:33:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Rust 创建类图</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q40msd/using_rust_to_create_class_diagrams/</link>
-      <description><![CDATA[ 由   提交/u/Pluck27  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q40msd/using_rust_to_create_class_diagrams/</guid>
-      <pubDate>Sun, 04 Jan 2026 20:27:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们正在构建一个开源 Youtube 替代品 |助推器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q3zt1t/we_are_building_an_opensource_youtube_alternative/</link>
-      <description><![CDATA[https://www.boostervideos.net/about 我们是两兄弟，决定从头开始构建一个新的视频平台。我们已经为这个名为 Booster 的项目工作了大约两个月。 这个想法来自于我们对现有视频平台的失望。通过 Booster，我们试图通过使用向用户提供奖励的自愿广告来改善体验，让他们能够直接宣传和支持自己喜欢的频道和朋友，并避免使用人工智能和垂直短格式视频制作的内容。 您现在在屏幕上看到的主题现在免费提供给登录并创建新帐户的每个用户。我们想从网络开发人员那里了解如何改进它并使其变得更好，并且还知道是否存在任何错误或您想指出的内容。 关于成本，我们已经通过我们的提供商解决了基础设施的高成本问题，因此由于他们的编码和 CDN，它不会造成很大的开支。 关于收入，目前的货币化将来自一种名为 XP 的虚拟货币，用户可以通过观看自愿观看的节目来免费赚取这种货币。推荐视频或购买。 XP 用于增强渠道和购买个性化资产。我们还计划实施自愿的奖励广告，为用户提供免费 XP。目标是测试用户和创作者是否真正喜欢并采用这种模式。 通过社区投票进行审核，这是让用户和普通观众决定特定用户的报告是否准确的一种方式。 在链接中，我们包含了关于页面，其中包括 Booster 的工作原理，以及 Discord 和开放的 GitHub。   由   提交 /u/No_Building_2801   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q3zt1t/we_are_building_an_opensource_youtube_alternative/</guid>
-      <pubDate>Sun, 04 Jan 2026 19:56:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>可逆调试 - 将任何程序状态存储为 JSON</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q3zd9i/reversible_debugging_store_any_program_state_as/</link>
-      <description><![CDATA[       由   提交/u/ArboriusTCG   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q3zd9i/reversible_debugging_store_any_program_state_as/</guid>
-      <pubDate>Sun, 04 Jan 2026 19:39:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 React Native 和 TypeScript 构建了一个天气应用程序</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q3yblr/i_built_a_weather_app_using_react_native/</link>
-      <description><![CDATA[       由   提交/u/shiva275  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q3yblr/i_built_a_weather_app_using_react_native/</guid>
-      <pubDate>Sun, 04 Jan 2026 19:01:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我用 Swift 构建了一个用于 Android 应用程序开发的开源 IDE 和框架</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q3wt4s/i_built_an_opensource_ide_and_framework_for/</link>
-      <description><![CDATA[我刚刚发布了 Swift Stream IDE v1.17.0，它现在支持完全使用 Swift 进行完整的原生 Android 应用程序开发。您无需接触 XML、Java 或 Kotlin 即可构建应用程序。 在底层，项目由 SwifDroid 提供支持，这是我构建的一个框架，用于处理 Android 应用程序生命周期、活动、片段和 UI 小部件（Android、AndroidX、Material、Flexbox），同时自动管理 Gradle 依赖项。 IDE 编译 Swift，生成可供 Android Studio 使用的完整 Android 项目。 这是第一个公开版本。工具和框架都是开源的并获得 MIT 许可。   由   提交/u/imike3049  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q3wt4s/i_built_an_opensource_ide_and_framework_for/</guid>
-      <pubDate>Sun, 04 Jan 2026 18:04:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源人工智能初创公司如何说服投资者？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1q3wmxt/how_do_opensource_ai_startups_convince_investors/</link>
-      <description><![CDATA[大家好， 我已经思考这个问题有一段时间了，并且阅读了很多有关该主题的文章，但我仍然没有明确的答案。 我的问题是针对人工智能领域的，主要是人工智能代理。像LangChain和CrewAI这样的成功公司已经在这里开展业务。 但是对于一家专注于利基市场的小型初创公司来说，当你的核心技术是开源的（Apache 2.0）时，你如何说服投资者？商业模式、竞争优势或未来收入潜力方面的宣传是什么？ 如果这不是很清楚或与这个社区相关，我深表歉意，但我想在这里试试运气。   由   提交/u/re1372  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1q3wmxt/how_do_opensource_ai_startups_convince_investors/</guid>
-      <pubDate>Sun, 04 Jan 2026 17:58:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
