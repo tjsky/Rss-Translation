@@ -4,111 +4,111 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 05 Jan 2026 12:37:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 09:28:09 GMT</lastBuildDate>
     <item>
-      <title>为 AI 代理设计长期记忆：超越传统的 RAG</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4kj54/designing_longterm_memory_for_ai_agents_beyond/</link>
-      <description><![CDATA[大家好， 我最近一直在研究代理基础设施，特别是如何为 AI 代理设计长期、可检查的内存。不断出现的一件事是传统 RAG 管道的局限性 - 它们非常适合快速检索，但经常难以进行更深入的语义推理和随着时间的推移不断变化的上下文。 我们一直在探索一种替代方法，它结合了：  基于文件的人类可读的内存结构 基于嵌入的 RAG 用于快速查找 基于 LLM 的检索用于更深入的语义和逻辑推理  这种设计可以让代理保持原始记忆完整，同时允许更高级别的组织和随着时间的推移进行演变。 为了在现实场景中对这些想法进行压力测试，我们将从 1 月 8 日开始组织一次开源在线构建活动，贡献者可以在其中研究内存系统、代理编排、集成和实际用例。任务范围从文档和测试到全面集成，因此更多的是协作和实验而不是竞争。 如果您对这个问题感兴趣，请随时加入这里的讨论或社区： 👉 https://discord.gg/e3cxcRF5NY 很想听听这里的其他人如何思考智能体记忆和长期背景。   由   提交/u/Puzzleheaded_Box2842   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4kj54/designing_longterm_memory_for_ai_agents_beyond/</guid>
-      <pubDate>Mon, 05 Jan 2026 12:33:59 GMT</pubDate>
+      <title>坏代码的心理</title>
+      <link>https://www.reddit.com/r/programming/comments/1q6a9qi/the_psychology_of_bad_code/</link>
+      <description><![CDATA[您对此有何看法？    由   提交/u/Inner-Chemistry8971  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q6a9qi/the_psychology_of_bad_code/</guid>
+      <pubDate>Wed, 07 Jan 2026 08:45:12 GMT</pubDate>
     </item>
     <item>
-      <title>Rust 中的流言蜚语</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4jx47/gossip_gloomers_in_rust/</link>
-      <description><![CDATA[ 由   提交 /u/glassycrow   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4jx47/gossip_gloomers_in_rust/</guid>
-      <pubDate>Mon, 05 Jan 2026 12:02:33 GMT</pubDate>
+      <title>我手动创建近 50,000 个训练文件以微调 OpenAI GPT-4.1-mini 的经验 - AMA</title>
+      <link>https://www.reddit.com/r/programming/comments/1q69inl/my_experiences_with_manually_creating_almost/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q69inl/my_experiences_with_manually_creating_almost/</guid>
+      <pubDate>Wed, 07 Jan 2026 07:57:13 GMT</pubDate>
     </item>
     <item>
-      <title>2025 年数据库：回顾一年</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4jrk4/databases_in_2025_a_year_in_review/</link>
-      <description><![CDATA[ 由   提交/u/iamkeyur  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4jrk4/databases_in_2025_a_year_in_review/</guid>
-      <pubDate>Mon, 05 Jan 2026 11:54:47 GMT</pubDate>
+      <title>沙盒：容器、gVisor、microVM 和 Wasm 的技术细分</title>
+      <link>https://www.reddit.com/r/programming/comments/1q69bxn/sandboxes_a_technical_breakdown_of_containers/</link>
+      <description><![CDATA[大家好！ 我深入探讨了用于运行不受信任代码的隔离边界，特别是在 AI 代理执行的上下文中。其动机是“沙盒”。意味着至少四种不同的事物具有不同的权衡，典型的讨论将它们混为一谈。 涵盖的技术主题： - Linux 容器如何在系统调用级别（命名空间、cgroup、seccomp-bpf）工作以及为什么它们不是针对内核漏洞的安全边界 - gVisor 的架构：Sentry 用户空间内核、平台选项（systrap 与 KVM）和 Gofer文件系统代理 - MicroVM 设计：KVM + 最小 VMM（Firecracker 云管理程序、libkrun） - Kata 容器 - 运行时沙箱：Wasm 的功能模型、WASI 预打开目录、V8 隔离边界 这是一篇教育文章，只是综合了我在构建这个东西时所学到的知识。希望您喜欢！   由   提交/u/BeowulfBR  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q69bxn/sandboxes_a_technical_breakdown_of_containers/</guid>
+      <pubDate>Wed, 07 Jan 2026 07:45:24 GMT</pubDate>
     </item>
     <item>
-      <title>有想法或有问题吗？让我们努力吧</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4ixmr/got_an_idea_or_a_problem_lets_work_on_it/</link>
-      <description><![CDATA[嘿，我是一名 Web 开发人员，专门为人们寻找方法来解决他们在开发甚至运行在线项目时遇到的问题。大多数在线项目的失败不是由于其概念，而是由于诸如项目结构不准确、在线状态缓慢或有问题、用户界面问题、混乱的数据流或不可扩展的系统等问题。 我与面临以下问题的人们一起工作：如何将想法变成可用的东西，如何修复或重建难以维护的现有产品，如何增强现有产品的性能和可靠性，或者如何创建实际反映业务运作方式的内部工具和业务仪表板。通常，问题陈述本身在流程开始时并不明确，并且该流程的一部分可能涉及弄清楚需要构建什么，甚至在编写任何代码之前也是如此。 如果您正在开发类似的东西，也许是一个新产品，也许是一个正在扩展但还没有良好基础的系统，也许是一个潜伏的技术问题阻碍了您的进步，那么我很愿意帮助您创建一个干净、稳定、现代的解决方案来满足您的问题。   由   提交/u/Playful-Oil2185   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4ixmr/got_an_idea_or_a_problem_lets_work_on_it/</guid>
-      <pubDate>Mon, 05 Jan 2026 11:07:54 GMT</pubDate>
+      <title>JSON 与 XML 比较 — 何时使用两者</title>
+      <link>https://www.reddit.com/r/programming/comments/1q67wpq/json_vs_xml_comparison_when_to_use_each/</link>
+      <description><![CDATA[我发布了 JSON 与 XML 的详细比较 - 包括语法差异、优缺点和理想用例。无论您是从事后端系统、API 还是数据交换工作，这都可能有助于阐明哪种格式适合您的工作流程。 我很想听听您对每种格式的体验。   由   提交/u/Puzzleheaded-Net7258  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q67wpq/json_vs_xml_comparison_when_to_use_each/</guid>
+      <pubDate>Wed, 07 Jan 2026 06:22:00 GMT</pubDate>
     </item>
     <item>
-      <title>祝大家新年快乐🎊无论您是在庆祝、留在家里、工作还是只是滚动。我希望 2026 年对你来说比去年好一点。祝您身体健康，稳步进步，减少压力的日子。 Reddit 家族，新年快乐！ 🧡</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4ii81/happy_new_year_everyone_whether_youre_celebrating/</link>
-      <description><![CDATA[ 由   提交/u/Sufficient_Pizza9117   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4ii81/happy_new_year_everyone_whether_youre_celebrating/</guid>
-      <pubDate>Mon, 05 Jan 2026 10:44:02 GMT</pubDate>
+      <title>这是成为软件工程师的好时机</title>
+      <link>https://www.reddit.com/r/programming/comments/1q659cm/its_a_great_time_to_be_a_software_engineer/</link>
+      <description><![CDATA[ 由   提交/u/iloveafternoonnaps   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q659cm/its_a_great_time_to_be_a_software_engineer/</guid>
+      <pubDate>Wed, 07 Jan 2026 04:05:23 GMT</pubDate>
     </item>
     <item>
-      <title>关于 Go、Rust 和 Zig 的思考</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4hwur/thoughts_on_go_vs_rust_vs_zig/</link>
-      <description><![CDATA[ 由   提交/u/misterolupo  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4hwur/thoughts_on_go_vs_rust_vs_zig/</guid>
-      <pubDate>Mon, 05 Jan 2026 10:09:01 GMT</pubDate>
+      <title>如果 TUI 区域是 Erlang 风格的 actor 会怎么样？</title>
+      <link>https://www.reddit.com/r/programming/comments/1q63eio/what_if_tui_regions_were_erlangstyle_actors/</link>
+      <description><![CDATA[我尝试将每个终端 UI 区域视为具有消息传递和监督的独立参与者。  是的，对于简单的 TUI 来说有点过分了，但更复杂的 TUI 存在重叠问题：  隔离：每个地区都拥有自己的国家。没有共享可变变量，没有“这个改变在哪里？”调试。 显式数据流：当页脚重新绘制时，我知道哪条消息触发了它。 监督：如果某个区域崩溃，监督者会重新启动它。应用程序继续。对于长时间运行的仪表板或其他类似的应用程序来说很重要。  子级永远不会直接写入终端 - 他们将渲染请求发送给父级。由架构强制执行的单作者语义。 将其写在我的博客上，并使用源代码进行摆弄：https://www.rodriguez.today/articles/reactive-tui-architecture-with-actors  好奇其他人是否已将分布式系统模式应用于 UI问题？   由   提交 /u/rrrodzilla   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q63eio/what_if_tui_regions_were_erlangstyle_actors/</guid>
+      <pubDate>Wed, 07 Jan 2026 02:42:31 GMT</pubDate>
     </item>
     <item>
-      <title>编码代理的未来</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4hh3b/the_future_of_coding_agents/</link>
-      <description><![CDATA[ 由   提交 /u/thewritingwallah   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4hh3b/the_future_of_coding_agents/</guid>
-      <pubDate>Mon, 05 Jan 2026 09:42:16 GMT</pubDate>
+      <title>面向系统工程师的 io_uring</title>
+      <link>https://www.reddit.com/r/programming/comments/1q6127d/io_uring_for_systems_engineers/</link>
+      <description><![CDATA[ 由   提交/u/mttd  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q6127d/io_uring_for_systems_engineers/</guid>
+      <pubDate>Wed, 07 Jan 2026 01:00:42 GMT</pubDate>
     </item>
     <item>
-      <title>RV 的 VS 代码扩展</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4h0v3/vs_code_extension_for_rv/</link>
-      <description><![CDATA[大家好。我制作了一个 VScode 扩展，可以让你在 Windows 上本地编译 Riscv。只需安装扩展程序并使用它即可：） 如果可能，请查看并分享您的评论，如果你们有任何提示，请与我分享    由   提交/u/marNadeem   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4h0v3/vs_code_extension_for_rv/</guid>
-      <pubDate>Mon, 05 Jan 2026 09:13:50 GMT</pubDate>
+      <title>可靠基准的统计方法</title>
+      <link>https://www.reddit.com/r/programming/comments/1q5xfxe/statistical_methods_for_reliable_benchmarks/</link>
+      <description><![CDATA[ 由   提交 /u/modulovalue   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q5xfxe/statistical_methods_for_reliable_benchmarks/</guid>
+      <pubDate>Tue, 06 Jan 2026 22:34:34 GMT</pubDate>
     </item>
     <item>
-      <title>为初学者管理数据库架构更改</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4gvqb/managing_database_schema_changes_for_beginners/</link>
-      <description><![CDATA[ 由   提交/u/tanin47  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4gvqb/managing_database_schema_changes_for_beginners/</guid>
-      <pubDate>Mon, 05 Jan 2026 09:04:38 GMT</pubDate>
+      <title>PostgreSQL 脚本编写技巧</title>
+      <link>https://www.reddit.com/r/programming/comments/1q5rq2a/postgresql_scripting_tips/</link>
+      <description><![CDATA[ 由   提交 /u/pgr0ss   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q5rq2a/postgresql_scripting_tips/</guid>
+      <pubDate>Tue, 06 Jan 2026 19:07:19 GMT</pubDate>
     </item>
     <item>
-      <title>如何将 Next.js 服务器组件和服务器操作与 FastAPI 后端集成</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4gccx/how_to_integrate_nextjs_server_components_and/</link>
-      <description><![CDATA[ 由   提交 /u/Ok_Animator_1770   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4gccx/how_to_integrate_nextjs_server_components_and/</guid>
-      <pubDate>Mon, 05 Jan 2026 08:30:16 GMT</pubDate>
+      <title>蒙蒂霍尔问题，并行模拟</title>
+      <link>https://www.reddit.com/r/programming/comments/1q5rlyf/the_monty_hall_problem_a_sidebyside_simulation/</link>
+      <description><![CDATA[ 由   提交/u/R2_SWE2  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q5rlyf/the_monty_hall_problem_a_sidebyside_simulation/</guid>
+      <pubDate>Tue, 06 Jan 2026 19:03:18 GMT</pubDate>
     </item>
     <item>
-      <title>CudaText：无人知晓的原生 VSCode 替代方案</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4f3ko/cudatext_a_native_vscode_alternative_that_nobody/</link>
-      <description><![CDATA[ 由   提交/u/delvin0  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4f3ko/cudatext_a_native_vscode_alternative_that_nobody/</guid>
-      <pubDate>Mon, 05 Jan 2026 07:13:09 GMT</pubDate>
+      <title>完美的代码审查：如何在提高质量的同时减少认知负荷</title>
+      <link>https://www.reddit.com/r/programming/comments/1q5r0a0/the_perfect_code_review_how_to_reduce_cognitive/</link>
+      <description><![CDATA[大家好，在这里，我从我的个人网站分享了有关代码审查过程基本方法的文章的链接。我追求的主要目标是引起人们对我对正确代码审查的想法的关注，并根据其他开发人员的意见和经验获得反馈。那里的具体建议主要基于我的经验，但我试图尽可能地概括该方法，以便它与任何软件开发项目相关。我已经在几个团队和项目中尝试过这种方法，并且效果非常好。这就是为什么我想分享它，从更广泛的受众那里获得反馈，并了解这是否是一种真正有价值的方法，或者只是对其他人没有用的非常具体的方法。   由   提交/u/areklanga  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q5r0a0/the_perfect_code_review_how_to_reduce_cognitive/</guid>
+      <pubDate>Tue, 06 Jan 2026 18:42:02 GMT</pubDate>
     </item>
     <item>
-      <title>语言是新的用户界面</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4eqwx/language_is_the_new_ui/</link>
-      <description><![CDATA[嗨，这是我的博客。希望您喜欢本周的帖子！   由   提交/u/mapehe808  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4eqwx/language_is_the_new_ui/</guid>
-      <pubDate>Mon, 05 Jan 2026 06:52:30 GMT</pubDate>
+      <title>通过确定性模拟测试分布式系统（为 Raft、网络和磁盘故障编写“管理程序”）</title>
+      <link>https://www.reddit.com/r/programming/comments/1q5qevu/testing_distributed_systems_via_deterministic/</link>
+      <description><![CDATA[过去几个月我一直在编写分布式共识“内核”。在 Rust 中，我想分享用于验证正确性的特定测试架构，因为标准单元测试通常不足以满足分布式系统的需求。 该项目 (Octopii) 旨在提供共识、网络和存储原语来构建有状态的分布式应用程序。然而，最具挑战性的部分不是 Raft 实现本身，而是验证它在电源故障或网络分区等边缘情况下不会丢失数据。 为了解决这个问题，我实现了一个确定性模拟测试工具（受 FoundationDB 和 Tigerbeetle 的启发），它充当“矩阵”对于集群。 1.虚拟化物理 系统不使用标准 I/O，而是在虚拟化环境的自定义运行时内运行。  时间： 我们替换系统时钟。时间仅在模拟器运行时才会前进，使我们能够快进“天”。关键竞争条件期间的稳定性或冻结时间。 磁盘 (VFS)：我实现了一个模拟“撕裂写入”的内存虚拟文件系统。如果节点写入 4KB 但“崩溃”中途，VFS 会准确保留断电前写入盘片的字节。这验证了 WAL 恢复逻辑（校验和/提交标记）确实有效。 网络：虚拟路由器拦截所有数据包，使我们能够根据种子 RNG 确定性地删除、重新排序或分区特定节点。  2. “上帝模式”为了验证正确性，测试套件使用状态预言机来跟踪“意图”。与“物理”的比较每个操作的。  线性化：预言机跟踪集群的全局历史。如果客户端读取了违反线性化能力的过时值，则测试会失败。 持久性： Oracle 会准确跟踪写入命中虚拟磁盘的时间。如果节点崩溃，预言机知道哪些数据必须存活（完全刷新）以及哪些数据可能丢失（撕裂写入）。如果“必须生存”恢复时数据丢失，测试失败。  3.硬件感知存储 (Walrus) 为了支持严格的延迟要求，我编写了一个自定义存储引擎，而不是使用 std::fs。  它检测 Linux 使用 io_uring 进行批量提交（回退到其他地方的 mmap）。 它使用用户空间自旋锁（通过原子 CAS）作为块分配器，绕过操作系统纳秒级分配延迟的互斥开销。  我很想听听您对架构的想法   由   提交/u/Ok_Marionberry8922   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q5qevu/testing_distributed_systems_via_deterministic/</guid>
+      <pubDate>Tue, 06 Jan 2026 18:20:51 GMT</pubDate>
     </item>
     <item>
-      <title>抽象泄漏法则</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4dvxt/the_law_of_leaky_abstractions/</link>
-      <description><![CDATA[ 由   提交/u/iamkeyur   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4dvxt/the_law_of_leaky_abstractions/</guid>
-      <pubDate>Mon, 05 Jan 2026 06:03:59 GMT</pubDate>
+      <title>代理和 Gradle 相处不好 - 我用两个命令解决了这个问题</title>
+      <link>https://www.reddit.com/r/programming/comments/1q5p6xv/agents_and_gradle_dont_get_along_i_fixed_it_in/</link>
+      <description><![CDATA[ 由   提交 /u/Nek_12   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q5p6xv/agents_and_gradle_dont_get_along_i_fixed_it_in/</guid>
+      <pubDate>Tue, 06 Jan 2026 17:37:58 GMT</pubDate>
     </item>
     <item>
-      <title>为从未运行过的作业构建监控系统</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4dsko/building_a_monitoring_system_for_jobs_that_never/</link>
-      <description><![CDATA[大多数监控系统都会跟踪成功和失败，但最困难的问题来自于根本从未运行过的作业。本文介绍了架构、棘手的部分（例如检测从未运行的作业）以及在此过程中学到的一些经验教训。   由   提交 /u/Mythikos   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4dsko/building_a_monitoring_system_for_jobs_that_never/</guid>
-      <pubDate>Mon, 05 Jan 2026 05:59:24 GMT</pubDate>
+      <title>C 是最好的</title>
+      <link>https://www.reddit.com/r/programming/comments/1q5m2ec/c_is_best/</link>
+      <description><![CDATA[ 由   提交/u/Sensiduct  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q5m2ec/c_is_best/</guid>
+      <pubDate>Tue, 06 Jan 2026 15:44:59 GMT</pubDate>
     </item>
     <item>
-      <title>canon-observability,一个请求 = 一个规范的广泛事件,下载canon-observability的源码_GitHub_帮酷通过模式验证、尾部采样和 PII 编辑实现生产可观察性。</title>
-      <link>https://www.reddit.com/r/programming/comments/1q4d2o8/github_muhammadanas0716canonobservability_one/</link>
-      <description><![CDATA[在 Express.js 应用程序中构建更好的可观察性 我一直致力于提高 Express.js 应用程序中的可观察性，并希望分享一个对我来说效果很好的简单模式。 关键是让 Express 中间件自动捕获请求上下文，使用业务元数据丰富它，并优雅地处理错误。这是一个最小的示例： 从“express”导入express；从“canon-observability”导入 { canonExpress, canonExpressError, createConsoleEmitter };常量应用程序 = Express(); app.use(canonExpress({ 服务：“my-service”，版本：“0.0.1”，调试：true，发出：createConsoleEmitter({ Pretty: true }), })); app.get(“/ok”, (req, res) =&gt; { req.canon.enrich({ user: { id: “u_1” }, action: “ok” }); res.json({ ok: true }); }); app.get(“/boom”, () ==&gt; { throw new Error(“boom”); }); app.use(canonExpressError());  这给您带来了什么：  自动请求/响应跟踪 在请求生命周期中的任何点丰富上下文 具有完整上下文的结构化错误处理 与各种发射器（控制台、HTTP 等）轻松集成   req.canon.enrich() 模式特别有用，因为您可以在中间件链中的任何位置添加业务上下文（用户 ID、操作、功能标志），并且所有这些都会在可观测性输出中捕获。 社区问题：  您如何在 Node.js/Express 应用中处理可观测性？ 您发现哪些模式对于捕获业务上下文和技术最有效？  您使用的是 OpenTelemetry，还是更轻量级的东西？  很想听听您的想法和经验！ 评论中的 Github 存储库。   由   提交/u/LawativityNo0716   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q4d2o8/github_muhammadanas0716canonobservability_one/</guid>
-      <pubDate>Mon, 05 Jan 2026 05:21:40 GMT</pubDate>
+      <title>为什么开发人员需要 DevOps</title>
+      <link>https://www.reddit.com/r/programming/comments/1q5kll0/why_devs_need_devops/</link>
+      <description><![CDATA[在与开发人员的交谈中，我发现了许多对 DevOps 的误解。我写了一篇文章解释为什么作为一名开发人员，我将 DevOps 原则视为基础知识。   由   提交 /u/chesus_chrust   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q5kll0/why_devs_need_devops/</guid>
+      <pubDate>Tue, 06 Jan 2026 14:49:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
