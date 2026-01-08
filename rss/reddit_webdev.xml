@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 08 Jan 2026 06:28:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 09:25:41 GMT</lastBuildDate>
+    <item>
+      <title>我没有为这个网站编写一行代码</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q76udv/i_didnt_write_a_single_line_of_code_for_this_site/</link>
+      <description><![CDATA[       由   提交/u/Pitiful-Jaguar4429   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q76udv/i_didnt_write_a_single_line_of_code_for_this_site/</guid>
+      <pubDate>Thu, 08 Jan 2026 08:52:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何使用 axe-core 进行无障碍训练？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q75a5g/how_do_you_use_axecore_for_accessibility_training/</link>
+      <description><![CDATA[作为一名 QA 经理，我想在我的组织中引入可访问性测试，而 axe-core 是我们的首要考虑因素之一，因为它是 OSS。我想了解组织如何使用 axe-core 以及是否应考虑任何其他解决方案？ 查看民意调查   由   提交/u/slacky35  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q75a5g/how_do_you_use_axecore_for_accessibility_training/</guid>
+      <pubDate>Thu, 08 Jan 2026 07:14:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 nipplejs 在网络上实现移动操纵杆控制 - 一些学习</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q74j15/implementing_mobile_joystick_controls_on_the_web/</link>
+      <description><![CDATA[我最近需要向基于浏览器的游戏添加触摸友好的控件，以便它可以在移动设备上正常运行。 我最终使用 nipplejs 进行虚拟操纵杆设置，并且它以最小的开销运行得非常好。主要挑战是将触摸输入与现有的键盘/鼠标逻辑同步，并在低端手机上保持性能流畅。 有帮助的一件事是将输入层与游戏逻辑完全解耦，因此桌面和移动控件提供相同的状态机。 如果有人好奇，这里有一个目前已实现的小型演示： gorillavs100 humans.games 很想听听这里的其他人如何处理基于网络的游戏或交互式应用程序的移动输入。   由   提交 /u/priyansh_max   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q74j15/implementing_mobile_joystick_controls_on_the_web/</guid>
+      <pubDate>Thu, 08 Jan 2026 06:31:41 GMT</pubDate>
+    </item>
     <item>
       <title>还有人注意到良好的基础设施让支持变得乏味吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1q737uw/anyone_else_notice_that_good_infrastructure_makes/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我构建了一个社区驱动的 wiki 风格项目，旨在对媒体中的手表进行编目。如果您认为有任何功能缺失或应该添加 lmk，我正在积极尝试解决它。完全清楚的是，数据库中的大部分基本信息是从其他来源获取的。主要是watch-id.com   由   提交/u/whatsafajuby  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1q6th5o/wiki_style_project_for_watches/</guid>
       <pubDate>Wed, 07 Jan 2026 22:15:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>在客户工作中平衡技术性能与高端视觉效果</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q6sloi/balancing_technical_performance_with_high_end/</link>
-      <description><![CDATA[当客户需要超级优质的外观时，我最近一直在努力平衡干净的代码和性能。大多数时候，我专注于让事情保持快速和最小化，但最终的结果可能会让企业主感觉有点干燥。我正在研究一些代理组合，看看他们如何设法保持高端感觉而不让网站变得臃肿混乱，我在研究一些 Shopify 和 WordPress 设置时偶然发现了 Create Designs。  这让我意识到我可能过度关注技术方面而忽略了实际的品牌影响。这是一个困难的地方，因为你希望灯塔得分完美，但你也需要满足客户所支付的令人惊叹的因素。我发现自己不断地争论是使用重型动画库还是坚持使用普通 CSS，即使需要更长的时间才能使其看起来正确。  您如何在追求技术完美和提供客户通常期望的丰富视觉体验之间进行权衡？   由   提交/u/aleciaj79  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q6sloi/balancing_technical_performance_with_high_end/</guid>
-      <pubDate>Wed, 07 Jan 2026 21:43:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要有关 Shopify 同意横幅与 CMP（GTM + 服务器端跟踪）的建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q6s58f/need_advice_on_shopify_consent_banner_vs_cmp_gtm/</link>
-      <description><![CDATA[大家好，正在向处理过此问题的人寻求一些指导。 我正在运营一家 Shopify 商店，最近为 Google Analytics 和 Google Ads 设置了服务器端跟踪，两者均通过 Google 跟踪代码管理器（通过 Shopify 客户活动安装）进行管理。 我一直被告知必须使用 CMP（同意管理平台）来获得 Cookie 同意，但老实说，大多数情况下他们感觉价格过高且具有欺骗性（Cookiebot、Consentmo 等）。许多费用为每月 30 美元以上，而且我过去的经历很糟糕：Consentmo 几个月来破坏了我的跟踪记录它在结帐时删除了客户 Cookie 在删除之前我失去了 Google Ads 销售归因 因此，如果可能的话，我会尝试完全避免 CMP。 我想要实现的目标是欧盟访问者：显示同意横幅 默认选择退出 允许选择加入（符合 GDPR） 我什至不向欧盟销售产品，这纯粹是为了掩盖我自己 美国访问者：没有横幅默认选择加入页脚链接，如“请勿出售我的信息”（CCPA 风格选择退出） 核心问题 Shopify 具有本机 Cookie/同意横幅设置，但是： Shopify 的同意信号是否会正确传递到 Google 跟踪代码管理器？ 由于 GTM 是通过客户事件安装的，同意更新是否会正确流向 GA4 和 Google广告？ 或者我实际上需要 CMP 才能使 GTM 同意模式正常工作吗？ 我希望确认是否仅使用 Shopify 的本机同意工具可以做到这一点 如果可以，应该如何正确配置 如果不可能，什么是最便宜、侵入性最小且不会破坏归因或每月花费 30 美元的解决方案 我真的很感激任何现实世界的经验或技术见解。提前致谢！   由   提交 /u/Goingbychrundle   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q6s58f/need_advice_on_shopify_consent_banner_vs_cmp_gtm/</guid>
-      <pubDate>Wed, 07 Jan 2026 21:23:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>我拒绝使用 Moodle 并使用 NestJS 构建了自己的 LMS。是的，我知道这是“重新发明轮子”。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q6rzc1/i_refused_to_use_moodle_and_built_my_own_lms_with/</link>
-      <description><![CDATA[我在大学工作，通常，当您需要 LMS 时，人们会说：“只需安装 Moodle。”但我首先是一名开发人员，花时间配置 PHP 插件并与 Moodle 的设置进行斗争对我来说就像一场噩梦。我不想成为一名系统管理员；我不想成为一名系统管理员。我想建造。所以，我决定重新发明轮子。我正在使用 NestJS、DDD 和模块化整体架构构建自定义 LMS（“Athena”）。​我写了一个故事，讲述为什么我选择过度设计而不是“最佳实践”在这种特定情况下。 存储库：https://github.com/shekshuev/athena-lms   由   提交 /u/grant-us   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q6rzc1/i_refused_to_use_moodle_and_built_my_own_lms_with/</guid>
-      <pubDate>Wed, 07 Jan 2026 21:17:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
