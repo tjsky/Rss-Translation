@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 08 Jan 2026 01:20:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 04:02:36 GMT</lastBuildDate>
+    <item>
+      <title>微服务是否已将您的后端从节点转移出去？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q6zdj9/has_microservices_shifted_your_backend_away_from/</link>
+      <description><![CDATA[自从推动解耦和运行微服务以来，我想知道是否有更多的公司更喜欢使用 Go 或 Rust 等类型化语言，还是更喜欢只使用 Node。速度和效率是否有所改进，还是不够重要？   由   提交/u/Akhaya   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q6zdj9/has_microservices_shifted_your_backend_away_from/</guid>
+      <pubDate>Thu, 08 Jan 2026 02:19:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我想我终于明白为什么网上大家都这么炒作AI了！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q6z4pi/i_think_i_finally_understand_why_everyone_on_the/</link>
+      <description><![CDATA[我的公司正在整个组织内启动 Claude Code。目前只有几十人在使用它。但在 Claude Organization 仪表板中闲逛确实让我大开眼界。 有一个仪表板可以实时显示该组织的 AI 使用成本*。每次我刷新页面时，它都会发出 brrrrrrr 的声音。老实说，这几乎令人眼花缭乱。 即使是云计算和 SaaS 的炒作也没有像这样印钞票。至少他们的使用模式是一致的并且在某种程度上是可预测的。 但人工智能是一种完全不同的球类游戏。它的使用和成本模式是不可预测的，供应商几乎可以承诺任何事情。由于人工智能完全迷惑了科技行业，我什至无法想象它对非科技行业的影响有多么严重。   由   提交/u/ray591  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q6z4pi/i_think_i_finally_understand_why_everyone_on_the/</guid>
+      <pubDate>Thu, 08 Jan 2026 02:08:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 WooCommerce 作为 DoorDash / Uber Eats / Instacart 上的多花店操作层</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q6yf5f/using_woocommerce_as_a_multiflorist_ops_layer/</link>
+      <description><![CDATA[我家有一家花店，我们希望添加更多地点，因为其他几个人有兴趣在更大的系统上合作。我们目前使用 WooCommerce 作为我们的交易引擎，我们希望处理直接订单和第三方市场订单（Doordash、Uber Eats、Instacart 等） 我在操作上试图解决的问题：  多个花店登录到一个共享系统 每个花店可以：  管理安排可用性（减少选项，即“没有红玫瑰”，如果需要） 调整准备时间 打开/关闭产品或其整个商店  直接订单流经 WooCommerce，可以触发按需交付（DoorDash Drive / Uber Direct） 市场订单（DoorDash、Uber Eats、Instacart）： 列表本身就存在于这些平台上 准备时间并在那里管理可用性 WooCommerce 充当事实的运营来源，而不是店面   从运营角度来看，目标类似于 Toast，但针对花店/多地点。如果他们没有特定产品或需要打开/关闭商店，他们可以自动执行此操作。也可以接受开箱即用的任何选项，只需看看选项是什么。 当前的想法：  将 WooCommerce 作为交易引擎 添加多供应商层，以便每个花店都有自己的仪表板 集中库存逻辑（基于容量）、准备时间和送货调度  我希望得到哪些建议：  WooCommerce 是否是多地点/多花店运营的合理基础，还是会很快成为技术债务？ Doordash/Uber Eats/Instacart 是否有开箱即用或开放的连接器来收集订单、打开/关闭特定库存？    由   提交/u/h_leve  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q6yf5f/using_woocommerce_as_a_multiflorist_ops_layer/</guid>
+      <pubDate>Thu, 08 Jan 2026 01:37:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>搞什么鬼？ LLM 也都陷入困境 - 我登录了我的 Google 帐户；然后我在 appscript 中做了一些事情，但我不允许查看自己的预订日历？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1q6y7l8/what_the_fuck_llms_are_all_stuck_too_im_signed/</link>
+      <description><![CDATA[   今天我更改了 gmail 中的备份电子邮件，并且还创建了备用电子邮件地址。我使用了几个 VPN 以及图书馆、家里和朋友家的 wifi；我的手机热点 - 这是为什么吗？  现在已经 6 个小时了，我开始担心我将无法再使用 appscript 了！    由   提交/u/StickyThoPhi   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1q6y7l8/what_the_fuck_llms_are_all_stuck_too_im_signed/</guid>
+      <pubDate>Thu, 08 Jan 2026 01:27:54 GMT</pubDate>
+    </item>
     <item>
       <title>我花了一周的时间优化 Rust 中的微服务。应该直接使用 Node.js。</title>
       <link>https://www.reddit.com/r/webdev/comments/1q6wonh/i_spent_a_week_optimizing_a_microservice_in_rust/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[大家好， 我们刚刚开源了我们过去两年构建的图标库 Griddy Icons，并希望与社区分享。 所有 1350 个图标现在免费提供。 如何使用 访问 https://griddyicons.com 或要求 AI 使用 npm install griddy-icons（如果您使用 vivicoding）。 下一步是什么 我们仍在计划扩展图标集。因此，请随意请求您错过的任何图标。 此外，我们很乐意创建其他库（Vue、Flutter 等）。如果有人有兴趣提供帮助，我们欢迎合作！   由   提交 /u/Swimming-Wafer6547   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1q6rdxe/we_just_opensourced_our_icon_library_1135_icons/</guid>
       <pubDate>Wed, 07 Jan 2026 20:55:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 sed 将字体注入 Web SVG</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q6qig2/inject_fonts_into_web_svgs_with_sed/</link>
-      <description><![CDATA[      使用 sed 脚本将字体加载 CSS 添加到 SVG。   由   提交/u/Stromel1   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q6qig2/inject_fonts_into_web_svgs_with_sed/</guid>
-      <pubDate>Wed, 07 Jan 2026 20:22:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>振动编码</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q6qbgp/vibe_coding/</link>
-      <description><![CDATA[Vibe 编码就像一个人在没有写作经验的情况下试图用他们甚至不会说的语言写一本书。 这到底是怎么回事？   由   提交/u/equalsme  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q6qbgp/vibe_coding/</guid>
-      <pubDate>Wed, 07 Jan 2026 20:15:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>堆栈溢出已死，堆栈溢出万岁。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q6ny6j/stack_overflow_is_dead_long_live_stack_overflow/</link>
-      <description><![CDATA[这说明了我们行业目前的一切。这么说。    由   提交/u/fullstack_ing  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q6ny6j/stack_overflow_is_dead_long_live_stack_overflow/</guid>
-      <pubDate>Wed, 07 Jan 2026 18:49:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tailwind 刚刚解雇了工程团队 75% 的员工，“因为人工智能对我们的业务造成了残酷的影响。”</title>
-      <link>https://www.reddit.com/r/webdev/comments/1q6n1za/tailwind_just_laid_off_75_of_the_people_on_their/</link>
-      <description><![CDATA[       由   提交/u/magenta_placenta   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1q6n1za/tailwind_just_laid_off_75_of_the_people_on_their/</guid>
-      <pubDate>Wed, 07 Jan 2026 18:18:17 GMT</pubDate>
     </item>
     </channel>
 </rss>

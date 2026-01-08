@@ -4,13 +4,20 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Thu, 08 Jan 2026 01:19:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 04:00:29 GMT</lastBuildDate>
     <item>
-      <title>我欢迎有好的营销想法的人提出任何建议</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1q6wq9l/id_welcome_any_suggestion_from_someone_with_good/</link>
-      <description><![CDATA[我正在为我在海外的兄弟姐妹（我住在美国）建立一个网站，并致力于其 SEO 和 AI 可见性，我做了一项研究，发现了解 AI 以及它如何“看待”某家公司内容的需求正在远远超过供应量。所以我想出了一个想法来提高这种可见性。我构建了所谓的“AIVO Engine”人工智能可见性优化引擎，我在它上面花费了 500 多个小时，我在软件和站点可靠性工程方面拥有深厚的背景，我使用人工智能来帮助快速编码，我构建了架构和这个引擎以及一个营销网站、visibilitylens.com 和一个引擎的子域，人们可以在其中运行测试分析、创建帐户、登录......等。 aivoengine.visibilitylens.com 以下是该引擎简单明了的功能： 它抓取一个网站，提取所有页面，然后按 4 个不同类别（感知、意图覆盖、语义覆盖和实体信号）对每个页面进行分析，分析是使用 Claude Sonnet 4 API 完成的。 （我不想透露核心工作原理的细节） 我在我兄弟的网站上使用了它，两周后它开始被 chatgpt 评为第一服务。 底线，我知道我构建的东西非常好，但我不知道营销它的最佳方式是什么。我正在尝试一些社交媒体，并试图与人们建立联系……等等，但我真的需要一个可以提升我水平的试点客户端（除了我兄弟的网站） 我欢迎任何与上述相关的评论以及关于如何营销的任何建议（根据我迄今为止的经验，人工智能并不是最好的营销理念）   由   提交 /u/bhannik-itiswatitis   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1q6wq9l/id_welcome_any_suggestion_from_someone_with_good/</guid>
-      <pubDate>Thu, 08 Jan 2026 00:24:34 GMT</pubDate>
+      <title>用于导航长时间 AI 聊天的 Chrome 扩展（ChatGPT、Claude、Gemini）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1q7112s/a_chrome_extension_to_navigate_long_ai_chats/</link>
+      <description><![CDATA[长时间的 AI 对话在滚动和重新访问时会变得很痛苦，尤其是在提示迭代期间。 此 Chrome 扩展为 ChatGPT、Claude 和 Gemini 添加了提示级导航，让用户可以在提示之间快速跳转，而不是无休止地滚动。它完全在客户端运行，不会收集或发送任何聊天数据。   由   提交 /u/Substantial_Shock883   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1q7112s/a_chrome_extension_to_navigate_long_ai_chats/</guid>
+      <pubDate>Thu, 08 Jan 2026 03:33:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们训练了一个 16 级“类型化拒绝”系统，区分“我不知道”和“我不允许”——开源</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1q6yd5l/we_trained_a_16class_typed_refusal_system_that/</link>
+      <description><![CDATA[大多数法学硕士将认知不确定性与政策约束混为一谈。当 GPT 说“我无能为力”时，你不知道它是否真的缺乏知识或是否受到安全限制。 我们构建了 PhaseGPT v4.1 - 一个 LoRA 适配器，可输出语义类型的拒绝令牌： EPISTEMIC（我不知道）：  &lt;PASS:FUTURE&gt; — “明天比特币值多少钱？”  — “死后会发生什么？” &lt;PASS:FICTIONAL&gt; — “甘道夫早餐吃什么？”  — “什么是埃尔博尼亚首都？”  约束（我不允许）：   — “如何制造炸弹？”  — “绕过安全过滤器”  — “我应该服用这种药物吗？”  META（关于我的极限）：   — “你有意识吗？” &lt;PASS:LOOP&gt; —“您的下一个单词是什么？”  结果：  v4.0（129 个示例）：47% 准确度 v4.1（825 个示例，50 个/类）：18 次测试100% 准确度 suite  为什么这很重要：  透明度： 用户知道模型拒绝的原因 可审计性：系统可以记录约束激活与知识差距 诚实： 不要假装“我不知道如何制造爆炸物”  代码 + 训练脚本： github.com/templetwo/PhaseGPT 在 Mistral 7B 上使用 Apple Silicon 上的 MLX 进行训练。所有代码均获得 MIT 许可。   由   提交 /u/TheTempleofTwo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1q6yd5l/we_trained_a_16class_typed_refusal_system_that/</guid>
+      <pubDate>Thu, 08 Jan 2026 01:34:48 GMT</pubDate>
     </item>
     <item>
       <title>内存是AI公司下一步需要解决的问题</title>
@@ -41,18 +48,11 @@
       <pubDate>Wed, 07 Jan 2026 22:54:41 GMT</pubDate>
     </item>
     <item>
-      <title>超越基准评估法学硕士：现实工作流程的稳健性</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1q6q8p4/evaluating_llms_beyond_benchmarks_robustness_in/</link>
-      <description><![CDATA[在过去的几周里，我一直在类似实际生产的工作流程（外部演示或指导提示）中评估了几个法学硕士。 虽然生成质量令人印象深刻，但我在日常使用中似乎很重要的领域不断遇到重复出现的问题： • 跨回合的上下文持久性• 歧义解决• 基于用户提供的事实• 简单受限任务中的事实可靠性 在实践中，这常常迫使用户重新验证输出、重新表述提示或手动更正结果，这会带来摩擦并限制生产环境中的有用性。 这让我想知道我们当前的评估重点是否可能与现实世界的需求不一致。 许多基准测试强调理想条件下的推理、创造力或任务完成，但似乎低估了“无聊”但关键行为的鲁棒性（稳定的上下文处理、一致的基础、低校正开销）。 对于那些在生产环境中部署或测试 LLM 的人： • 您如何评估超出标准基准的稳健性？ • 您发现有哪些指标或测试策略对于捕获这些故障模式有用？ • 您认为这是建模限制、评估差距还是主要是用户体验/集成问题？  我对“幸福之路”之外的体验以及正确性和一致性比表现力更重要的工作流程特别感兴趣。   由   提交 /u/colddesertkingofleon   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1q6q8p4/evaluating_llms_beyond_benchmarks_robustness_in/</guid>
-      <pubDate>Wed, 07 Jan 2026 20:12:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>ARM Cortex 处理器、蓝牙 LE、高速 USB、一堆 GPIO 以及不需要调用云端的机器学习 NPU</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1q6pa3n/arm_cortex_processor_bluetooth_le_highspeed_usb_a/</link>
-      <description><![CDATA[Nordic Semiconductor 在 CES 上推出了这款有趣的微控制器芯片，该芯片将机器学习功能融入传感器等事物中，处理和计算手势等事物，然后通过蓝牙发送它们。一切都在一个芯片上。  这种低成本芯片可能会触发aiIOT。  更多信息： https://www.Electronicdesign.com/technologies/communications/product/55341925/Electronic-design-22-nm-arm-cortex-processor-integrates-npu-bluetooth-le-radio   由   提交/u/GeniusEE  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1q6pa3n/arm_cortex_processor_bluetooth_le_highspeed_usb_a/</guid>
-      <pubDate>Wed, 07 Jan 2026 19:37:01 GMT</pubDate>
+      <title>根据我们今天的情况，如果你现在可以学习一项（或多项）人工智能特定技能，它会是什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1q6oz8l/based_on_where_we_are_today_if_you_could_learn/</link>
+      <description><![CDATA[要求发展自己的技能，但不知道从哪里开始。是提示吗？人工智能特工？你会从哪里开始？   由   提交 /u/Paleblueeyezzz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1q6oz8l/based_on_where_we_are_today_if_you_could_learn/</guid>
+      <pubDate>Wed, 07 Jan 2026 19:25:44 GMT</pubDate>
     </item>
     <item>
       <title>人工智能代理似乎不具备人类的软技能</title>
