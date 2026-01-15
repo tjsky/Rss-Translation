@@ -4,20 +4,20 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 14 Jan 2026 21:18:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 01:18:28 GMT</lastBuildDate>
     <item>
-      <title>我构建了一个自托管代码搜索平台，可以跨存储库批量查找和替换</title>
-      <link>https://www.reddit.com/r/programming/comments/1qczi7m/i_built_a_selfhosted_code_search_platform_with/</link>
-      <description><![CDATA[大家好， 我一直在开发一个代码搜索工具，我想与大家分享。之所以开始，是因为我需要回答诸如“哪个存储库仍在使用已弃用的 v1 API？”之类的问题。以及“我可以在不发疯的情况下跨 50 个微服务更新此依赖项吗？” 问题 我使用 Hound 进行代码搜索 - 快速而简单。但我一直碰壁：  没有批量替换操作 没有自动 PR/MR 创建 没有存储库管理 UI  我查看了 Sourcegraph（需要 K8s，以企业为中心）、OpenGrok（复杂、Java 重）和 grep.app（SaaS，不能与私有代码一起使用）。没有一个符合我的要求。 我构建的内容 Code Search 是一个自托管平台，具有：  亚秒级搜索，使用 Zoekt（Google 的 trigram 搜索引擎） 跨多个存储库批量查找和替换 自动 MR/PR 创建 - 它会创建分支并打开合并请求 Web UI (Next.js)，用于搜索、浏览带有语法突出显示的代码 CLI，用于自动化和 CI/CD 集成 REST API，用于自定义集成  在 Docker Compose 上运行。不需要 Kubernetes（尽管如果需要，Helm 图表也可用）。 技术堆栈  后端：Go 前端：Next.js、TypeScript、Tailwind 搜索：Zoekt 数据库：PostgreSQL 队列：Redis  当前索引GitHub 和 GitLab 上有 1,000 多个存储库。 很高兴回答问题或听到反馈。您认为哪些功能最有用？   由   提交/u/0xaanogueira  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qczi7m/i_built_a_selfhosted_code_search_platform_with/</guid>
-      <pubDate>Wed, 14 Jan 2026 21:09:01 GMT</pubDate>
+      <title>Ken Thompson 实时重写了他的代码。联邦法院称他是 MP3 的共同创造者。那么为什么没有人听说过詹姆斯·D·约翰斯顿呢？</title>
+      <link>https://www.reddit.com/r/programming/comments/1qd3mko/ken_thompson_rewrote_his_code_in_realtime_a/</link>
+      <description><![CDATA[1988 年，贝尔实验室的 James D. Johnston 和德国的 Karlheinz Brandenburg 独立发明了感知音频编码 - MP3 背后的科学。勃兰登堡名声大振。约翰斯顿被从历史中抹去了。证据很丰富：1989 年至 1990 年间，勃兰登堡在贝尔实验室与 Johnston 一起开发了 MP3。联邦上诉法院明确表示，他们“一起”创建了标准。 Ken Thompson - 是的，就是 Ken Thompson - 在 Johnston 实时向他解释功能后的一周内，亲自将 Johnston 的 PAC 编解码器从 Fortran 重写为 C，然后宣称它“远远优于 MP3”。 AT&amp;T 甚至于 1998 年推出了 iPod 竞争对手，但由于“没有人会通过互联网销售音乐”而将其淘汰。该原型现在位于计算机历史博物馆。我采访了约翰斯顿，并仔细研究了法庭记录、专利和勃兰登堡本人的采访，以拼凑出实际发生的情况。 IEEE 称约翰斯顿为“感知音频编码之父”。但几乎没有人知道他的名字。   由   提交/u/Traditional_Rise_609   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qd3mko/ken_thompson_rewrote_his_code_in_realtime_a/</guid>
+      <pubDate>Wed, 14 Jan 2026 23:50:27 GMT</pubDate>
     </item>
     <item>
-      <title>Kovaak 的 Fps Aim Trainer 主题解析</title>
-      <link>https://www.reddit.com/r/programming/comments/1qczfsi/kovaaks_fps_aim_trainer_theme_parsing/</link>
-      <description><![CDATA[对于 Steam 游戏 Kovaak 的 FPS Aim Trainer，有谁知道包含主题的所选 JSON 文件如何解析到实际游戏中？ 我正在尝试制作一个应用程序来根据场景更改主题。各种主题存储在主题文件夹中的 JSON 文件中，但我不确定游戏实际上如何更新以选择特定主题。据我所知，至少不是通过文件资源管理器。 如果您有任何想法，请告诉我！   由   提交 /u/Tnjonjo   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qczfsi/kovaaks_fps_aim_trainer_theme_parsing/</guid>
-      <pubDate>Wed, 14 Jan 2026 21:06:29 GMT</pubDate>
+      <title>道德贯穿解释框架™</title>
+      <link>https://www.reddit.com/r/programming/comments/1qd0k4p/the_ethicsthroughexplanation_framework/</link>
+      <description><![CDATA[ 由   提交/u/bri_toe_knee   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qd0k4p/the_ethicsthroughexplanation_framework/</guid>
+      <pubDate>Wed, 14 Jan 2026 21:49:13 GMT</pubDate>
     </item>
     <item>
       <title>PR 审查指南：我在代码审查中寻找什么</title>
