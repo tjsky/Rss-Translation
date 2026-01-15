@@ -4,7 +4,28 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Thu, 15 Jan 2026 01:17:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 06:27:08 GMT</lastBuildDate>
+    <item>
+      <title>我们需要一个用于 AI API 的“Jovian Cyber​​plug”：可发现、可协商且可包含</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qdbnip/we_need_a_jovian_cyberplug_for_ai_apis/</link>
+      <description><![CDATA[早在专业音频时代，Alesis 就为一种名为“Jovian Cyber​​plug”的鱿鱼状生物投放了一个异想天开的广告——一种控制论通用适配器，可以连接不兼容的音频设备和效果标准。这是讽刺……但也是一个完美的工程隐喻。 现在的人工智能生态系统就是当时的音频设备： 不同的标准、不同的连接器、不同的“方言”、不断的突破性变化。 我们需要的是一个Python Cyberplug：一个模块化适配器层，让下游代码通过单一稳定的接口与“模型”对话，同时仍然暴露每个模型的独特特性优势。 关键不是假装模型是相同的。关键是要有所不同： 可发现、可协商和包含 1) 可发现 每个提供程序/模型都会公开您的代码可以在运行时查询的功能配置文件。 示例：  supports_tools / Vision / json_schema supports_reasoning / long_context max_context_tokens / max_output_tokens 流式传输？结构化输出？函数调用？ 怪癖：所需的消息角色、参数命名等。  因此，您的应用可以询问：“谁可以进行工具调用 + JSON 架构 + 长上下文？” 并获得清晰的答案，而无需到处硬编码提供程序。 2) 协商 您的统一请求是超集，并且适配器协商最佳映射。 如果不支持某个功能，适配器可以：  优雅降级（架构→“仅 JSON 提示契约”） 转换参数（max_output_tokens、max_completion_tokens、max_tokens） 内部切换端点样式（例如，响应与聊天完成） 发出显式输出透明度的“协商事件”  这是“它再次崩溃”和“它降级了，这就是原因”之间的区别。 3) 包含 所有方言漂移都存在于适配器内。 您的应用程序代码永远不会成为提供程序条件的动物园。 不再： 如果提供程序==“X”： use_param_A() elif provider == &quot;Y&quot;: use_param_B()  相反，你调用一件事： cyberplug.generate(request)  为什么这很重要 我们正在走向一个“哪种模型？”的时代。应该是运行时决策，而不是代码重写：  选择一个快速廉价的摘要模型 选择一个用于规划和证明的推理模型 选择一个支持工具的自动化模型 选择文档/图像任务的愿景 并准确记录协商的内容，以便您可以信任它  如果社区融合在共享的“Cyberplug”界面+功能模式上，生态系统将在一夜之间加速：  更少的粘合代码 更少的重大更改 更智能的路由 更干净的开源互操作  这就是整个想法，用三个词来说： 可发现、可协商和包含 如果您已经构建了类似的东西（或想要构建），我很想听听哪些模式有效，哪些模式失败，以及您首先要标准化哪些模式。   由   提交 /u/Natural-Sentence-601   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qdbnip/we_need_a_jovian_cyberplug_for_ai_apis/</guid>
+      <pubDate>Thu, 15 Jan 2026 06:01:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>每日一分钟人工智能新闻 1/14/2026</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qdaj46/oneminute_daily_ai_news_1142026/</link>
+      <description><![CDATA[ OpenAI 与 Cerebras 签署 100 亿美元的 AI 计算协议。[1] 生成式 AI 工具“MechStyle”可帮助 3D 打印维持日常使用的个人物品。[2] AI 模型开始解决高级数学问题。[3] 加利福尼亚州对 xAI 和 Grok 就色情化 AI 图像展开调查。[4]  来源包括：https://bushaicave.com/2026/01/14/one-million-daily-ai-news-1-14-2026/   由   提交 /u/Excellent-Target-847   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qdaj46/oneminute_daily_ai_news_1142026/</guid>
+      <pubDate>Thu, 15 Jan 2026 05:03:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>格罗克在五角大楼</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qd67fh/grok_at_pentagon/</link>
+      <description><![CDATA[人们对五角大楼的 Grok 有什么看法？让一个私营且颇具争议的法学硕士接受所有机密数据的培训似乎是明智之举。   由   提交 /u/lsdinc   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qd67fh/grok_at_pentagon/</guid>
+      <pubDate>Thu, 15 Jan 2026 01:41:20 GMT</pubDate>
+    </item>
     <item>
       <title>最适合研究的人工智能是什么？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qd5cja/what_is_the_best_ai_for_research/</link>
@@ -13,11 +34,11 @@
       <pubDate>Thu, 15 Jan 2026 01:03:32 GMT</pubDate>
     </item>
     <item>
-      <title>摩根大通转向内部人工智能工具进行代理咨询？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qd3bjs/jp_morgan_turning_to_internal_ai_tool_for_proxy/</link>
-      <description><![CDATA[对此有什么想法吗？如果您在金融行业工作，那就更好了…… 我在一家代理咨询公司工作，但我们尚未实施任何类型的人工智能。 JPM Proxy IQ   由   提交/u/emma-nothere  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qd3bjs/jp_morgan_turning_to_internal_ai_tool_for_proxy/</guid>
-      <pubDate>Wed, 14 Jan 2026 23:37:58 GMT</pubDate>
+      <title>自动驾驶汽车的普及还需要几十年吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qd290y/is_the_take_up_of_self_driving_cars_decades_away/</link>
+      <description><![CDATA[尽管该技术可用于自动驾驶汽车在道路上行驶，并且试点工作正在进行中，但现实情况是采用速度缓慢，并且不太可能快速增长。 未来 20-30 年会一直如此吗？  三个主要原因是高价格、对自动驾驶汽车在复杂的未映射基础设施中安全运行能力的担忧以及人们对人工智能主导的黑盒技术/算法缺乏信任？   由   提交 /u/Making-An-Impact   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qd290y/is_the_take_up_of_self_driving_cars_decades_away/</guid>
+      <pubDate>Wed, 14 Jan 2026 22:55:16 GMT</pubDate>
     </item>
     <item>
       <title>马特·麦康纳为自己注册商标，以防止人工智能克隆。</title>
@@ -32,27 +53,6 @@
       <description><![CDATA[我想知道一件事。当今世界已经非常复杂，有些人可能会迷失其中。对他们来说，受教育程度最高、最聪明的人可能看起来像一些外星超级智能生物。那么，潜在的超级人工智能能够在多大程度上改变他们对世界的看法呢？如果你已经对当今的世界不知所措，不了解当今的现代科学技术，你会感到更加失落吗？ 这不会影响那些聪明、受过更多教育的人，因为他们可能觉得现在对我们的世界有了解和控制，但他们可能会失去它？   由   提交/u/Sea-Cardiographer-954   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qczpz0/will_ai_affect_intelligent_people_more/</guid>
       <pubDate>Wed, 14 Jan 2026 21:17:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>激发了人工智能的影响力</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qcxfgq/inspired_the_reach_of_ai/</link>
-      <description><![CDATA[我最近看到这篇文章，想知道我们从哪里开始，现在又在哪里！我们正在走向一个轻松的未来吗？ https://www.instagram.com/reel/DTcUpCZkz10/?igsh=bmNrd2M3cG4yb2U4   由   提交 /u/Snakeeyes123456   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qcxfgq/inspired_the_reach_of_ai/</guid>
-      <pubDate>Wed, 14 Jan 2026 19:51:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>上下文图是一个价值数万亿美元的机会。但谁真正捕捉到了它？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qcxane/context_graphs_are_a_trilliondollar_opportunity/</link>
-      <description><![CDATA[这一消息在 LinkedIn 和 X 上疯传。您对此有何看法？上下文图将真正改变 2026 年人工智能计划的游戏规则，还是这只是我们正在关注的另一个炒作术语？ 来源：https://x.com/prukalpa/status/2011117250762207347?s=20   由   提交/u/Berserk_l_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qcxane/context_graphs_are_a_trilliondollar_opportunity/</guid>
-      <pubDate>Wed, 14 Jan 2026 19:46:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果你必须选择一项付费人工智能服务作为日常司机，你会选择哪一项？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qcwwla/if_you_had_to_choose_one_paid_ai_service_as_a/</link>
-      <description><![CDATA[主要用于个人生产力和工作辅助以及提高我对某些系统的理解。我以前广泛使用过 GPT、Grok 和 Claude。只是不确定哪一个是最好的长期“付费”服务解决方案。我会以每月 20 美元/30 美元的价格订阅。    由   提交 /u/RustyEsposito   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qcwwla/if_you_had_to_choose_one_paid_ai_service_as_a/</guid>
-      <pubDate>Wed, 14 Jan 2026 19:31:54 GMT</pubDate>
     </item>
     <item>
       <title>你认为人工智能会成为色情片的未来吗？</title>
