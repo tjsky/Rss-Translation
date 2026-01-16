@@ -4,7 +4,7 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 16 Jan 2026 09:24:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 12:37:14 GMT</lastBuildDate>
     <item>
       <title>社区联系人管理应用程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1qeb1uq/community_contacts_management_apps/</link>
@@ -25,13 +25,6 @@
       <description><![CDATA[       由   提交/u/CaptainStagg  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qe9kcb/tldraw_contributions_policy_updates/</guid>
       <pubDate>Fri, 16 Jan 2026 07:26:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gommitlint - 用于用 Go 编写的 linting 提交的 CLI 工具</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qe8q3f/gommitlint_a_cli_tool_for_linting_commits_written/</link>
-      <description><![CDATA[我的第二个 Go 项目。我需要一个 CLI commitlinter，但没有一个可用的可以满足我的需求并具有我想要的功能。 （Siderolabs 的一致性非常接近）。这是我的看法。我想说，即使在 1.0 之前仍然需要清理和完善，结果还是不错的。还做了一个 GithHub- 和一个 Forgejo Action 来配合它。我努力遵循良好的开源实践等。在此处阅读更多内容，您也会找到链接。 https://itiquette.codeberg.page/posts/gommitlint-release/ 当然会继续完善它！干杯！   由   提交 /u/Impossible-Friend-61   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qe8q3f/gommitlint_a_cli_tool_for_linting_commits_written/</guid>
-      <pubDate>Fri, 16 Jan 2026 06:38:47 GMT</pubDate>
     </item>
     <item>
       <title>F/OSS 的 Histomat：我们应该收回 LLM，而不是拒绝它们</title>
@@ -83,13 +76,6 @@
       <pubDate>Thu, 15 Jan 2026 21:12:57 GMT</pubDate>
     </item>
     <item>
-      <title>Andro 开源 PDF 编辑器？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qdtt8n/andro_open_source_pdf_editor/</link>
-      <description><![CDATA[寻找 Android 开源 PDF 编辑器。我到处都找过了，但什么也没找到。   由   提交 /u/Verptoid   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qdtt8n/andro_open_source_pdf_editor/</guid>
-      <pubDate>Thu, 15 Jan 2026 19:50:56 GMT</pubDate>
-    </item>
-    <item>
       <title>我不知道 AI slop 应用帖子有多糟糕</title>
       <link>https://www.reddit.com/r/opensource/comments/1qdr729/i_didnt_know_how_bad_ai_slop_app_posts_are/</link>
       <description><![CDATA[我已经几个月没有查看 reddit 了，但我开始（你会恨我）为我完全用人工智能制作的 Android 应用程序做广告。但现在我看到了仇恨及其背后的原因，我将保留我的应用程序为我自己。只有当我仍然使用它并且已经了解了足够的编码知识来重写/事实检查整个代码时，我才会做广告/发布它。我怀疑这是否会发生。 如果将人工智能编码代理用作经验丰富的开发人员的工具，那将是令人惊奇的。如果一个应用程序完全是通过vibe编码的，就像我的一样，那么它只能由该创建者使用。那么如果创建者继续使用该应用程序，他们应该学习如何实际编码。 想法？   由   提交/u/dontsniffmypackets   [链接] [评论]]]></description>
@@ -109,6 +95,20 @@
       <description><![CDATA[大家好， 我一直在致力于一个名为 ShutterTrace 的小型开源项目。它是一个基于 PRNU 的相机取证工具，基本上是传感器噪声，就像相机的指纹一样。 这个想法很简单：给定来自相机的一组图像，构建指纹，然后检查新图像是否可能来自同一物理设备。没有机器学习，没有深度学习，只有经典的信号处理和大量的试验和错误。 现在它支持：  PRNU 提取和去噪 相机指纹注册 使用 PCE 和 Pearson 相关性进行验证 基于图块的匹配，使结果更加稳定  这并不意味着是一些法庭准备的取证软件。它更像是一个学习和研究项目，您可以在其中实际阅读代码并了解正在发生的事情。有些结果会有所不同，有些东西会损坏，这就是重点。 GitHub 存储库： https://github.com/ARJ2211/ShutterTrace 我非常感谢了解图像处理、取证甚至只是 Go 的人们的反馈。如果您觉得它有趣或有用，GitHub 之星会真诚地提供很大帮助，并让我有动力进一步推动它。 感谢您的阅读，并很高兴回答问题！   由   提交/u/indianbollulz   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qdo5l8/built_an_open_source_prnu_based_camera/</guid>
       <pubDate>Thu, 15 Jan 2026 16:28:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>用 Go 构建了一个性能优于 aria2 的 TUI 下载管理器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qdnmo6/built_a_tui_download_manager_in_go_that/</link>
+      <description><![CDATA[我一直对下载管理器的工作原理感兴趣？他们如何处理并发、多个连接。我大学的互联网很糟糕，所以我几乎使用了所有主要的下载管理器。 IDM 很可靠，但需要付费、闭源且适用于 Windows。大多数开源选项（例如 XDM）都没有得到积极维护。其中一些应用程序也是重量级桌面应用程序。 我想要一些轻量级且快速的应用程序。因此，我决定用 Golang 构建一个来真正了解网络、并发性和低级文件处理。作为一名二年级学生，在这个项目之前我对这些事情知之甚少。 所以我建立了 Surge。它支持  并行连接， 可恢复下载， 使用 Bubbletea 和 Lipgloss 构建的精美 TUI  基准：在我的设置（1 GB 文件，约 360 Mbps 连接）中，激增速度比 aria2 快 1.38 倍，与 XDM 和 FDM 一样快。这个项目超出了我的预期，我很自豪能够分享它。 GitHub：https://github.com/junaid2005p/surge 我是一名学生开发者，这是我回馈 FOSS 社区的尝试。我正在积极寻找反馈、错误报告和贡献者。 tldr：用 Go 构建一个开源终端下载管理器来学习并发 + 网络。在我的测试中，它比 aria2 快约 1.4 倍。   由   提交 /u/SuperCoolPencil   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qdnmo6/built_a_tui_download_manager_in_go_that/</guid>
+      <pubDate>Thu, 15 Jan 2026 16:09:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>VictoriaLogs：快速且易于使用的日志数据库，可高效处理 TB 级日志</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qdm8bx/victorialogs_fast_and_easy_to_use_database_for/</link>
+      <description><![CDATA[       由   提交/u/SnooWords9033  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qdm8bx/victorialogs_fast_and_easy_to_use_database_for/</guid>
+      <pubDate>Thu, 15 Jan 2026 15:16:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
