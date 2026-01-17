@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 17 Jan 2026 06:25:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 09:17:14 GMT</lastBuildDate>
+    <item>
+      <title>[Showoff Saturday] 我构建了一个实时锦标赛支架引擎，该引擎完全在 Reddit 帖子中运行（React 19 + Redis）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf8fdu/showoff_saturday_i_built_a_realtime_tournament/</link>
+      <description><![CDATA[您好，我一直在为 Reddit 开发者平台开发一款名为 Versus 的新应用程序。 演示：我正在举办一场现场“测试锦标赛”对投票引擎进行压力测试。 堆栈：  前端： React 19 + TailwindCSS 4（在 Reddit 的自定义 Web 视图中运行）。 状态： TanStack React 查询（用于积极缓存括号状态）。 后端： Node.js / Express 5 在 Devvit（Reddit 的无服务器运行时）上运行。 DB： Redis（用于处理原子投票计数器和竞争条件）。  需要反馈：我很乐意你们尝试发送垃圾邮件投票，看看是否可以打破“实时更新”功能。或者找到我错过的任何比赛条件。以及任何一般性意见。任何版主都可以将其添加到任何 Reddit 子版块中以创建参与度。    由   提交 /u/rauly2k   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf8fdu/showoff_saturday_i_built_a_realtime_tournament/</guid>
+      <pubDate>Sat, 17 Jan 2026 08:58:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发人员角色不足 - Meta graph api</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf6laa/insufficient_developer_role_meta_graph_api/</link>
+      <description><![CDATA[我们还面临着大约 2 天前开始的问题，尽管之前一切正常。 问题： 当尝试连接 Instagram 帐户时，我们收到错误： “开发者角色不足” 当前状态： 我们的应用已批准高级访问权限： instagram_business_basic instagram_business_manage_insights 元开发者仪表板将所有内容显示为绿色（没有警告或待审核） 我们能够成功使用 instagram_business_manage_insights 此问题仅出现在 instagram_business_basic 上，特别是在连接 Instagram 帐户时 此问题突然出现，我们的网站没有任何更改 您能否帮助我们理解： 尽管拥有高级访问权限，为什么还是会出现此错误？ 请任何人帮忙   由   提交 /u/Brave-Carpenter3747   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf6laa/insufficient_developer_role_meta_graph_api/</guid>
+      <pubDate>Sat, 17 Jan 2026 07:08:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>WordPress 上的 Webflow？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf6kmt/webflow_over_wordpress/</link>
+      <description><![CDATA[我已经使用 Wordpress 多年了。由于我曾经是一个非技术性的营销人员，所以我喜欢 Wordpress，因为它对初学者友好。然而，现在我已经学习了一些编码，我意识到 Wordpress（和 Elementor）在代码优化方面有多么糟糕。它们生成的一些类名看起来很痛苦。我正在考虑转向 Webflow，与 Wordpress 相比，它肯定更昂贵，但它创建的代码的简洁性对我来说确实很有吸引力。 我很想听听 Web 开发人员的一些意见。您会选择使用 Webflow 而不是 WordPress 吗？您之前是否将网站从 Wordpress 迁移到 Webflow，并且 SEO 方面是否有所改进（假设两个网站的内容和页面完全相似）   由   提交/u/TheYonkerier  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf6kmt/webflow_over_wordpress/</guid>
+      <pubDate>Sat, 17 Jan 2026 07:08:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>现代 CMS 仍然重建前端 - 我尝试了构建时替代方案</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf6k1h/modern_cms_still_rebuild_the_frontend_i_tried_a/</link>
+      <description><![CDATA[      我们一直说 CMS 将内容与表示分离。 实际上，他们中的大多数人仍然迫使开发人员在其他地方重建布局、组件和结构 - 通常在管理 UI 中。 这就是问题所在： -重复的模板 -脆弱的页面构建器 -前端意图随着时间的推移而丢失 我一直在探索一种不同的方法：将前端本身视为结构的真实来源。 我构建了一个小型构建时工具，用于扫描： -组件 -Markdown -结构化数据 并从项目。 想法： -前端拥有布局和组合 - CMS（或任何后端）仅编辑数据 -没有运行时，没有客户端 JS，没有所见即所得 它不是 CMS - 只是在构建时生成的数据契约。 我很好奇其他人是否遇到了同样的问题，或尝试了类似的方法。 我很好奇其他人是否遇到了同样的问题，或者尝试了类似的方法。   由   提交/u/ClassroomMain9255  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf6k1h/modern_cms_still_rebuild_the_frontend_i_tried_a/</guid>
+      <pubDate>Sat, 17 Jan 2026 07:07:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>在没有进行适当研究的情况下，不要加入初创公司，一定要与在那里工作的员工交谈。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf61bh/dont_join_startup_companies_without_proper/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf61bh/dont_join_startup_companies_without_proper/</guid>
+      <pubDate>Sat, 17 Jan 2026 06:37:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vibe 编码的效果如何？您可以仅使用无代码应用程序来构建应用程序的前端和后端吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf608g/how_effective_is_vibe_coding_can_you_build_the/</link>
+      <description><![CDATA[Vibe 编码的效果如何？您可以仅使用无代码应用程序来构建应用程序的前端和后端吗？    由   提交 /u/facemacintyre   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf608g/how_effective_is_vibe_coding_can_you_build_the/</guid>
+      <pubDate>Sat, 17 Jan 2026 06:36:15 GMT</pubDate>
+    </item>
     <item>
       <title>[Showoff Saturday] 构建了一个支持 OKLCH 的调色板生成器（感知统一的颜色）</title>
       <link>https://www.reddit.com/r/webdev/comments/1qf5s29/showoff_saturday_built_a_color_palette_generator/</link>
@@ -64,51 +106,9 @@
     <item>
       <title>使用 js 和 webgl 从头开始​​卷积神经网络</title>
       <link>https://www.reddit.com/r/webdev/comments/1qf0b0k/convolutional_neural_network_from_scratch_using/</link>
-      <description><![CDATA[      来源： https://github.com/ChuWon/cnn 演示：https://chuwon.github.io/cnn/   由   提交/u/Ok-Statement-3244   [链接] [评论] ]]></description>
+      <description><![CDATA[      来源：https://github.com/ChuWon/cnn 演示：https://chuwon.github.io/cnn/   由   提交/u/Ok-Statement-3244   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qf0b0k/convolutional_neural_network_from_scratch_using/</guid>
       <pubDate>Sat, 17 Jan 2026 02:12:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何处理生产 Web 应用程序中的 API 速率限制？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qezwf0/how_do_you_handle_api_rate_limiting_in_production/</link>
-      <description><![CDATA[我正在构建一个调用多个第三方 API（支付处理器、AI 服务、分析等）的应用程序，随着使用规模的扩大，我遇到了速率限制问题。 当前使用带有指数退避的基本重试，但我很好奇人们正在使用哪些生产级解决方案： - 您是否在客户端或服务器上实施速率限制 - 您处理多个并发请求的方法是什么？ - 您是否使用任何特定的库或模式（令牌桶、漏桶等）？ - 您如何处理分布式系统（多个服务器）之间的速率限制？ 我研究了基于 Redis 的解决方案，但想知道是否有更简单的方法适用于大多数用例。 很想听听什么是有效的（以及什么没有）为您在生产中！   由   提交 /u/Radiant_Garage5703   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qezwf0/how_do_you_handle_api_rate_limiting_in_production/</guid>
-      <pubDate>Sat, 17 Jan 2026 01:56:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>甚至 Reddit 也存在 Google Analytics 实施方面的问题！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qeyotj/even_reddit_has_issues_with_google_analytics/</link>
-      <description><![CDATA[      我最近（大约一个月前）将 Google Analytics 嵌入到我自己的网站中，并对出现的错误数量感到震惊。解决方案是我的网站发出的任何请求（第 3 方 API 调用、图像源、脚本等）都需要添加到内容安全策略中。不管怎样，我刚刚在 Reddit 上注意到了这些熟悉的错误。    由   提交/u/treading0light  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qeyotj/even_reddit_has_issues_with_google_analytics/</guid>
-      <pubDate>Sat, 17 Jan 2026 01:09:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>甚至 Reddit 也存在 Google Analytics 实施方面的问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qeyn2s/even_reddit_has_problems_with_google_analytics/</link>
-      <description><![CDATA[      我最近（大约一个月前）将 Google Analytics 嵌入到我自己的网站中，并对出现的错误数量感到震惊。解决方案是我的网站发出的任何请求（第 3 方 API 调用、图像源、脚本等）都需要添加到内容安全策略中。不管怎样，我刚刚在 Reddit 上注意到了这些熟悉的错误。    由   提交/u/treading0light  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qeyn2s/even_reddit_has_problems_with_google_analytics/</guid>
-      <pubDate>Sat, 17 Jan 2026 01:07:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>工作中如何安全使用业余项目？ （没有自我推销）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qexksk/how_to_safely_use_side_project_at_work_no_self/</link>
-      <description><![CDATA[我是一名前端开发人员，但我们的团队很小，而且我们都身兼数职。我不会透露它是什么或任何其他内容，以免给人留下隐藏促销的印象。 问题是这个工具需要与其他工程师协调，因为它不是一个只对我的工作有帮助的工具，所以我不能只是默默地使用它。 有没有一种安全/合法的方式来使用你在自己的工作中拥有业务的付费工具，而不会造成利益冲突或其他什么？    由   提交 /u/NotTJButCJ   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qexksk/how_to_safely_use_side_project_at_work_no_self/</guid>
-      <pubDate>Sat, 17 Jan 2026 00:27:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>我讨厌我目前的工作任务</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qexk6z/i_hate_my_current_work_assignment/</link>
-      <description><![CDATA[这主要是咆哮。  我是一名全栈 Web 开发人员，但我的主要技能实际上是我非常喜欢的 C#。我之所以能从事当前的工作，是因为我有使用 C#、WPF 和 Blazor 的经验。  过去两年，我的雇主发生了一些重大变动。该公司已被出售两次，我们失去了几位关键开发人员，但没有更换他们。  好吧，我的团队从该团队继承了一个应用程序，因为他们忙于工作（在开发人员离开之前），而我的团队的产品已经进入了维护模式。这个继承的应用程序的前端是用 Vue 3 编写的，这并不糟糕，但我不太擅长，也不喜欢写那么多。此外，我上面的人决定我们应该进行完整的 UI 重写，以彻底改变应用程序对用户的工作方式。从理论上讲，它更直观，但我们无法更改任何底层数据库模型，因此它已成为一个难以理解的怪物。  我制作一张 3 点门票已经一个多星期了，但仍然感觉还没有完成。我尝试过寻求帮助和结对编程，但与其他工程师的每一次对话都让我感到更加困惑，并且距离完成还很遥远。  我非常讨厌从事这个项目。甚至编码它都需要大量的精神能量，因为我的大脑就是不想这样做。我什至无法通过 AI 氛围代码胡说八道，因为我必须编写 3000 字的提示来解释正在发生的事情，而代理仍然不知道发生了什么。  我在上次的一对一谈话中告诉我的经理，我真的不喜欢这个项目，虽然他很理解，但基本上说“该项目仍然需要完成”。  说我想因为这样的事情而辞职，这感觉很愚蠢和夸张，但这确实让我最近的工作日子变得有点糟糕。我只是坐在那里读了又读同样的 15 个类和组件，感觉很愚蠢。我不知道这是多动症还是什么，但是当我不喜欢做某件事时，强迫自己去做是非常困难的。  团队太小了，我无法真正将门票交给其他人，而且也没有任何我可以切换的团队。  当我休息一下并发现奇怪的错误或为应用程序获取一个小功能时，我最初被雇用的原因是一切都感觉更好。我觉得自己能够解决问题并取得进步，并且能够真正有效。只是这个愚蠢的 UI 重写快要了我的命。  有人遇到过这样的情况吗？我该如何度过这个难关？   由   提交 /u/arc_menace   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qexk6z/i_hate_my_current_work_assignment/</guid>
-      <pubDate>Sat, 17 Jan 2026 00:26:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026 年 jQuery 仍然流行吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qewmy6/is_jquery_still_a_thing_in_2026/</link>
-      <description><![CDATA[刚刚发现他们在两年前宣布了 v4 的测试版，但似乎从未见过曙光。   由   提交/u/alexrada  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qewmy6/is_jquery_still_a_thing_in_2026/</guid>
-      <pubDate>Fri, 16 Jan 2026 23:53:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
