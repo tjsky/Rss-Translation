@@ -4,34 +4,55 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 17 Jan 2026 01:17:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 03:55:48 GMT</lastBuildDate>
     <item>
-      <title>我认为我的上背部因整天坐着而“紧绷”。原来它被“锁了很久”。 （我最终是如何修复燃烧的）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qeytl1/thought_my_upper_back_was_tight_from_sitting_all/</link>
-      <description><![CDATA[这是一个感觉不太“脚本化”的版本更像是一个真正的开发人员在喝咖啡休息时分享技巧。它消除了营销修饰，听起来更像是真人打字。 标题：我以为我的上背部“紧绷”来自编码。事实证明它被“锁定了很长时间”。 （我如何解决燃烧问题） 身体： 嘿伙计们，长期潜伏者。只是想分享一个快速的身体健康胜利，因为我知道这个子通常只是倦怠线程和人们争夺 JS 框架。 我是一名后端开发人员（Python/自动化），所以我基本上每天像小鬼一样坐 10-12 个小时。奇怪的是，我实际上在现实生活中非常活跃（多年来一直在做健美操和拳击），但在长时间的编码冲刺之后，我仍然感到肩胛骨之间令人讨厌的灼痛。 我做了每个人都会做的事情 - 竭尽全力。门口伸展，手臂放在胸前，瑜伽，等等。大约 20 分钟感觉良好，然后灼烧感会变得更严重。 原来我正在调试错误的问题。 （缩短）。它们“锁定很长”，因为我的肩膀整天向前滚动，看着显示器。 想象一下拉到最大张力的橡皮筋。感觉“紧”因为它拉紧，而不是因为它短。拉伸它实际上只是将纤维撕裂得更多。 我停止拉伸并切换到“低负载激活”模式。 （基本上只是唤醒肌肉，让它们自然地将我的肩膀拉回来）。我在两张票之间在办公桌上快速完成了 5 分钟的例行公事，老实说，燃烧已经消失了 95%。 我为一些朋友草拟了图表和例行公事，并将其制作成 PDF。由于存在反垃圾邮件机器人，我无法在此处发布直接链接，但是我已将指南固定到我的个人资料（如果您想获取它）。 希望它可以帮助陷入无限循环的其他人。   由   提交/u/Similar_Post_1608  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qeytl1/thought_my_upper_back_was_tight_from_sitting_all/</guid>
-      <pubDate>Sat, 17 Jan 2026 01:13:53 GMT</pubDate>
+      <title>我如何在 3D 建模 Web 应用程序中实施订阅和信用管理</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf2ojx/how_i_implemented_subscription_credit_management/</link>
+      <description><![CDATA[       后端：  使用 Supabase Edge Functions（Deno 运行时）构建。 处理身份验证、用户管理和订阅逻辑。  付款：  集成Paddle 作为记录商户和支付网关。 Webhooks 使用 HMAC-SHA256 签名安全地验证交易和订阅更新。  信用系统：  新用户从 20 个信用开始。 每个 3D 模型导出扣除 1 个信用。 信用自动重置每月使用 pg_cron。 使用 Pro 套餐的用户可以绕过积分进行无限导出。  订阅管理：  监听 Paddle webhook 事件：transaction.completed 和 subscription.updated。 更新 Supabase 配置文件表格，包含订阅状态、开始/结束日期和计划信息。 支持新订阅、续订、取消和逾期处理。  安全性和安全性可靠性：  Webhook 验证可防止虚假请求和重播攻击。 恒定时间字符串比较可确保签名验证的安全。 包括所有数据库和支付操作的错误处理和日志记录。   结果： 完全自动化的信用和订阅系统，可跟踪使用情况、管理支付并支持免费用户与专业用户。  Paddle checkout 仍处于沙盒模式，我正在等待 Paddle 的批准。 我是新手，所以如果您有任何建议或发现任何错误，请在评论中告诉我！ 您可以在这里尝试：kokraf.com 源代码： https://github.com/sengchor/kokraf   由   提交/u/Sengchor  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf2ojx/how_i_implemented_subscription_credit_management/</guid>
+      <pubDate>Sat, 17 Jan 2026 03:49:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络运行在透明的垄断之上（我们刚刚接受了这一点）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf2ofw/the_web_runs_on_a_transparent_monopoly_and_weve/</link>
+      <description><![CDATA[我刚刚深入了解了 Chromium 的故事 (https://youtu.be/O-2PK4993eI?si=Td1urC-yfoAo0DPJ) - 基本上为整个系统提供动力的引擎我们生活的网络。它让我思考现代技术的奇怪悖论。 想一想播客。播客可以说是互联网上自由的最后堡垒。它们基于开放协议 (RSS) 构建。没有人“拥有”它。播客世界。任何人都可以在任何服务器上托管播客，任何应用程序都可以提取该源。它是去中心化的、多样化的，而且行之有效。 然后，就是 YouTube。 YouTube 统治着视频世界。这是一个“有围墙的花园”。它非常方便和高效，但它只是一个平台。有房东，有规则，如果 YouTube 决定改变一些东西 - 这将成为每个人的现实。 那么，我们的浏览器适合哪里？这就是事情变得复杂的地方。浏览器应该像播客一样。有“标准”。由国际机构定义，浏览器应该遵守它们。 但是今天呢？事实上，Chromium（Chrome、Edge、Opera 等的基础）不再只是一个浏览器。它本身已成为标准。我们不再问“浏览器应该如何表现？”并开始问“Chromium 的行为如何？” 问题出在哪里？一方面，这是开源的胜利。一切都是透明的；代码就在那里。基于开源的垄断比专有垄断好一千倍（看看你，苹果）。 另一方面，“赢家通吃”是一种垄断。经济现实已将我们推入一个一切都由谷歌有效管理的角落。我们可以看到所有代码，但我们实际上影响路线图的杠杆作用为零。 那么我们为什么不离开呢？因为说实话，我们不愿意为了自由而牺牲便利。我们希望银行的网站能够立即加载，我们希望 YouTube 能够顺利播放，我们希望所有扩展都能正常工作。理想的情况是由一个中立的实体（如“Linux 浏览器基金会”）来领导该基础设施。 但现在呢？我们更喜欢有效的垄断，而不是我们不知道如何实现的自由。 你觉得怎么样？您愿意用 Chromium 生态系统的便利来换取真正去中心化的网络吗？   由   提交 /u/urielofir   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf2ofw/the_web_runs_on_a_transparent_monopoly_and_weve/</guid>
+      <pubDate>Sat, 17 Jan 2026 03:49:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] itshover-vue - 211 个动画图标，让您的应用程序栩栩如生！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf0d4e/showoff_saturday_itshovervue_211_animated_icons/</link>
+      <description><![CDATA[      嘿，我已经创建了 Itshover 图标库的 Vue 端口。它目前包括 211 个图标，每个图标都有由 Motion.dev 提供支持的动画悬停状态 - 非常适合为应用程序和仪表板增添微妙的生命力。该库与 shadcn-vue 注册表配合使用，但也可以独立使用。 演示：https://www.itshover-vue.com/ GitHub：https://github.com/iloomilo/itshover-vue 我构建此库是为了为 Vue 生态系统做出贡献，让集成生动的动画 UI 组件变得更加容易。 非常欢迎提供反馈！对于任何错误、建议或改进，请随意创建问题或提交 PR。每一点投入都有助于使图书馆变得更好。如果您喜欢它，非常感谢 GitHub 上的 ⭐！   由   提交/u/ilowo   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf0d4e/showoff_saturday_itshovervue_211_animated_icons/</guid>
+      <pubDate>Sat, 17 Jan 2026 02:14:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 js 和 webgl 从头开始​​卷积神经网络</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qf0b0k/convolutional_neural_network_from_scratch_using/</link>
+      <description><![CDATA[      来源：https://github.com/ChuWon/cnn 演示：https://chuwon.github.io/cnn/   由   提交/u/Ok-Statement-3244   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qf0b0k/convolutional_neural_network_from_scratch_using/</guid>
+      <pubDate>Sat, 17 Jan 2026 02:12:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何处理生产 Web 应用程序中的 API 速率限制？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qezwf0/how_do_you_handle_api_rate_limiting_in_production/</link>
+      <description><![CDATA[我正在构建一个调用多个第三方 API（支付处理器、AI 服务、分析等）的应用程序，随着使用规模的扩大，我遇到了速率限制问题。 当前使用带有指数退避的基本重试，但我很好奇人们正在使用哪些生产级解决方案： - 您是否在客户端或服务器上实施速率限制 - 您处理多个并发请求的方法是什么？ - 您是否使用任何特定的库或模式（令牌桶、漏桶等）？ - 您如何处理分布式系统（多个服务器）之间的速率限制？ 我研究了基于 Redis 的解决方案，但想知道是否有更简单的方法适用于大多数用例。 很想听听什么是有效的（以及什么没有）为您在生产中！   由   提交 /u/Radiant_Garage5703   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qezwf0/how_do_you_handle_api_rate_limiting_in_production/</guid>
+      <pubDate>Sat, 17 Jan 2026 01:56:28 GMT</pubDate>
     </item>
     <item>
       <title>甚至 Reddit 也存在 Google Analytics 实施方面的问题！</title>
       <link>https://www.reddit.com/r/webdev/comments/1qeyotj/even_reddit_has_issues_with_google_analytics/</link>
-      <description><![CDATA[我最近（大约一个月前）将 Google Analytics 嵌入到我自己的网站中，并对出现的错误数量感到震惊。解决方案是我的网站发出的任何请求（第 3 方 API 调用、图像源、脚本等）都需要添加到内容安全策略中。不管怎样，我刚刚在 Reddit 上注意到了这些熟悉的错误。    由   提交/u/treading0light  [链接] [评论]]]></description>
+      <description><![CDATA[      我最近（大约一个月前）将 Google Analytics 嵌入到我自己的网站中，并对出现的错误数量感到震惊。解决方案是我的网站发出的任何请求（第 3 方 API 调用、图像源、脚本等）都需要添加到内容安全策略中。不管怎样，我刚刚在 Reddit 上注意到了这些熟悉的错误。    由   提交/u/treading0light  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qeyotj/even_reddit_has_issues_with_google_analytics/</guid>
       <pubDate>Sat, 17 Jan 2026 01:09:02 GMT</pubDate>
     </item>
     <item>
       <title>甚至 Reddit 也存在 Google Analytics 实施方面的问题</title>
       <link>https://www.reddit.com/r/webdev/comments/1qeyn2s/even_reddit_has_problems_with_google_analytics/</link>
-      <description><![CDATA[我最近（大约一个月前）将 Google Analytics 嵌入到我自己的网站中，并对出现的错误数量感到震惊。解决方案是我的网站发出的任何请求（第 3 方 API 调用、图像源、脚本等）都需要添加到内容安全策略中。不管怎样，我刚刚在 Reddit 上注意到了这些熟悉的错误。    由   提交/u/treading0light  [链接] [评论]]]></description>
+      <description><![CDATA[      我最近（大约一个月前）将 Google Analytics 嵌入到我自己的网站中，并对出现的错误数量感到震惊。解决方案是我的网站发出的任何请求（第 3 方 API 调用、图像源、脚本等）都需要添加到内容安全策略中。不管怎样，我刚刚在 Reddit 上注意到了这些熟悉的错误。    由   提交/u/treading0light  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qeyn2s/even_reddit_has_problems_with_google_analytics/</guid>
       <pubDate>Sat, 17 Jan 2026 01:07:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>刚刚构建了一个有趣的 React 应用程序，解释诸如您是 5 岁、Z 世代、首席执行官或学者之类的任何事情</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qeyfwz/just_built_a_fun_react_app_explain_anything_like/</link>
-      <description><![CDATA[      是的，您输入一个主题，它会针对所有角色执行，并且您可以在所有角色之间无缝切换。  Github：https://github.com/arnofrxdd/eli.ai 演示：https://arnofrxdd.github.io/eli.ai/   由   提交/u/Cautious-Control-419   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qeyfwz/just_built_a_fun_react_app_explain_anything_like/</guid>
-      <pubDate>Sat, 17 Jan 2026 00:59:43 GMT</pubDate>
     </item>
     <item>
       <title>工作中如何安全使用业余项目？ （没有自我推销）</title>
@@ -64,7 +85,7 @@
     <item>
       <title>这是骗局吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1qewh3f/is_this_scam/</link>
-      <description><![CDATA[我不记得最近申请过任何工作。 这是骗局吗？人们通常如何联系客户？   由   提交/u/Lord_Home  [链接] [评论]]]></description>
+      <description><![CDATA[      我不记得最近申请过任何工作。 这是骗局吗？人们通常如何联系客户？   由   提交/u/Lord_Home  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qewh3f/is_this_scam/</guid>
       <pubDate>Fri, 16 Jan 2026 23:47:32 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[我知道这不健康。但我就是无法阻止自己滚动和阅读信息，看看人工智能是否会取代像我这样的 1YOE 前端初级人员……我是否会在 5 年后找到工作……我的学位和努力是否值得…… 我只是不停地滚动和阅读信息，因为我觉得如果我错过任何新闻，我就会被抛在后面，正如我到处阅读的那样（最好的会蓬勃发展，平均水平将被取代） 如何这段时间我能找到内心的平静吗？    由   提交 /u/alexbessedonato   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qesxyd/how_to_shake_off_constant_fear_of_being/</guid>
       <pubDate>Fri, 16 Jan 2026 21:34:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>域名注册：Namecheap 还是 Cloudflare？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qesmpf/domain_registration_namecheap_or_cloudflare/</link>
-      <description><![CDATA[我拥有 .com 域名大约 20 年了。我通常会坚持使用注册商很多年，直到他们的续订价格很高，然后我就会更换。我正在考虑从 namecheap（一年要价 18.48 美元）到 cloudflare（要价 10.46 美元）。 我不做网络托管或其他服务，只做注册商和 whois 隐私。想法？   由   提交/u/nebirah   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qesmpf/domain_registration_namecheap_or_cloudflare/</guid>
-      <pubDate>Fri, 16 Jan 2026 21:22:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我应该购买包含商标缩写词的域名吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qeryp9/should_i_buy_a_domain_that_contains_a_trademarked/</link>
-      <description><![CDATA[我发现了一个可以吸引大量流量的域名，但其中包含一家非常受欢迎的媒体公司及其竞争产品的缩写。   由   提交 /u/Neither_Factor_5296   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qeryp9/should_i_buy_a_domain_that_contains_a_trademarked/</guid>
-      <pubDate>Fri, 16 Jan 2026 20:56:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>在我的投资组合网站上需要诚实的意见</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qerhjz/need_honest_opinions_on_my_portfolio_site/</link>
-      <description><![CDATA[第一次制作作品集网站， https://dhaneshdutta.vercel.app 主题（和徽标）深受 cyberspace.online 的启发，请也分享您的，以便我可以得到一些灵感:))   由   提交/u/duttadhanesh   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qerhjz/need_honest_opinions_on_my_portfolio_site/</guid>
-      <pubDate>Fri, 16 Jan 2026 20:38:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
