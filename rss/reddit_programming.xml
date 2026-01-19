@@ -4,13 +4,55 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 19 Jan 2026 09:30:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 12:40:40 GMT</lastBuildDate>
     <item>
-      <title>您的 CDN 不会保存 Web Vitals：修复 Web Vitals 的严肃指南</title>
-      <link>https://www.reddit.com/r/programming/comments/1qgz3nc/your_cdn_wont_save_web_vitals_the_nononsense/</link>
-      <description><![CDATA[剧透警告：昂贵的 CDN 设置可能会让您对性能感到安全，而实际的用户体验却在崩溃。 👉 请在此处阅读完整的严肃指南以及完整的可操作路线图： 您的 CDN 不会拯救网络生命：完整指南 这是一个令人不安的事实，有数据支持：  根据华盛顿大学对 10,000 个网站的研究，CDN 对性能提升的贡献率仅为 15%。另外 85% 来自您的架构。  让我们理解这一点。一直在微调缓存规则？它正在解决错误的问题。 你需要知道的 Netflix 情节转折 Netflix 的“完美” CDN架构。然而他们的互动时间却很糟糕。为什么？ 问题出在注销页面上的 React 组件。不是 CDN。 他们的解决方案？他们从注册页面中删除了 React，并将其替换为普通 JavaScript。 结果如何？ JavaScript 减少了 200kb，交互时间缩短了 50%。 CDN 没有改变。问题不在于交付速度，而在于执行。 👉 请在此处阅读完整的严肃指南，其中包含完整的可操作路线图： 您的 CDN 不会保存 Web 生命：完整指南 这是基础设施与架构之间的差距 CDN 的作用是尽快将文件从服务器传输到客户端。 客户端上这些文件的执行无法使用 CDN 进行优化。 您的 CDN 可以在 50 毫秒内提供英雄图像，但如果大型 JavaScript 阻止浏览器解析请求它的 HTML，您的 LCP 仍然会很糟糕。 真正的公司，您的 CDN 无法解决的实际问题  Airbnb 的 LCP 被卡住了尽管有复杂的 CDN，但速度仍为 4.2 秒。英雄图像已交付，但被 JavaScript 掩埋。修复？ fetchpriority=“高”。 LCP 降至 2.1 秒。预订量增加了 12%。 Shopify 在其结账按钮上发现了 450 毫秒的 INP。第三方欺诈脚本阻塞了主线程。将其转移到 Partytown 的网络工作人员中，INP 提高了 120 毫秒，购物车放弃率降低了 7%。 Wayfair 发现 CLS 增加 0.1，导致收入损失 1.2%。 动态广告导致 0.45 CLS。通过容器预留修复该问题恢复了 240 万美元的月收入。  难以接受的药丸 如果您的LCP 较高，您的 CDN 无法修复资源加载延迟或元素渲染延迟。如果您的INP很差，您的CDN可以快速交付JS，但无法为您快速执行它。如果您的CLS 很糟糕，您的 CDN 实际上可能会通过不可预测地交付资产而使情况变得更糟。 您一直在优化 15%，而忽略了 85%。 这只是一个开始。我们已经构建了一个完整的90 天性能转型路线图，其中包含 Netflix、Airbnb 和 Walmart 使用的确切步骤，以帮助您实现目标。超越 CDN 神话。 👉 在此处阅读完整的严肃指南以及完整的可操作路线图： 您的 CDN 不会保存 Web 生命：完整指南 P.S.指南的第一部分有一个 60 分钟的行动计划，您可以从今天开始。无需 CDN 配置。   由   提交/u/Additional_Sample758  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qgz3nc/your_cdn_wont_save_web_vitals_the_nononsense/</guid>
-      <pubDate>Mon, 19 Jan 2026 08:52:50 GMT</pubDate>
+      <title>模拟“瓢虫时钟拼图”</title>
+      <link>https://www.reddit.com/r/programming/comments/1qh2b19/simulation_of_the_ladybird_clock_puzzle/</link>
+      <description><![CDATA[ 由   提交/u/lungi_bass  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qh2b19/simulation_of_the_ladybird_clock_puzzle/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:00:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wasm 漏洞：逃离后端 WebAssembly 沙箱</title>
+      <link>https://www.reddit.com/r/programming/comments/1qh2aij/the_wasm_breach_escaping_backend_webassembly/</link>
+      <description><![CDATA[ 由   提交/u/JadeLuxe  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qh2aij/the_wasm_breach_escaping_backend_webassembly/</guid>
+      <pubDate>Mon, 19 Jan 2026 11:59:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>主题演讲：Rust 与内存安全无关 - Helge Penne - NDC TechTown 2025</title>
+      <link>https://www.reddit.com/r/programming/comments/1qh29xb/keynote_rust_is_not_about_memory_safety_helge/</link>
+      <description><![CDATA[ 由   提交/u/BlueGoliath  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qh29xb/keynote_rust_is_not_about_memory_safety_helge/</guid>
+      <pubDate>Mon, 19 Jan 2026 11:58:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ruby on Rails 创建者表示 AI 尚未准备好取代初级开发人员</title>
+      <link>https://www.reddit.com/r/programming/comments/1qh23o0/ai_is_not_ready_to_replace_junior_devs_says_ruby/</link>
+      <description><![CDATA[ 由   提交/u/ImpressiveContest283  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qh23o0/ai_is_not_ready_to_replace_junior_devs_says_ruby/</guid>
+      <pubDate>Mon, 19 Jan 2026 11:49:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>道格拉斯·克罗克福德 (Douglas Crockford) 的新采访</title>
+      <link>https://www.reddit.com/r/programming/comments/1qh1zz5/new_interview_with_douglas_crockford/</link>
+      <description><![CDATA[ 由   提交/u/yegor256  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qh1zz5/new_interview_with_douglas_crockford/</guid>
+      <pubDate>Mon, 19 Jan 2026 11:43:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>PostgreSQL 数组的隐藏成本</title>
+      <link>https://www.reddit.com/r/programming/comments/1qh13xf/the_hidden_cost_of_postgresql_arrays/</link>
+      <description><![CDATA[关于 Postgres ARRAY 的权衡的非常深思熟虑的文章，在许多情况下可以替代一对多和多对多。多对多关系：  等等？我们要讨论 JSONB 数组吗？一点也不。 RDBMS 中数组的整个概念实际上是变相的文档存储。 在数据库设计中，局部性通过将相关数据保持在物理存储上来确保更快的检索时间。无论您使用不同的整数 [] 类型还是 JSON 列表 [1,2,3]，您都在做出完全相同的架构决策：您优先考虑局部性而不是规范化。    由   提交/u/BinaryIgor  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qh13xf/the_hidden_cost_of_postgresql_arrays/</guid>
+      <pubDate>Mon, 19 Jan 2026 10:53:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>编程作为理论构建，第二部分：当制度崩溃时</title>
+      <link>https://www.reddit.com/r/programming/comments/1qgzsm1/programming_as_theory_building_part_ii_when/</link>
+      <description><![CDATA[ 由   提交 /u/cekrem   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qgzsm1/programming_as_theory_building_part_ii_when/</guid>
+      <pubDate>Mon, 19 Jan 2026 09:35:18 GMT</pubDate>
     </item>
     <item>
       <title>追逐换行符</title>
@@ -48,13 +90,6 @@
       <pubDate>Mon, 19 Jan 2026 05:50:21 GMT</pubDate>
     </item>
     <item>
-      <title>代码审查经济的基础建立在沙子上，而且已经变得太大而无法移动（人工智能泡沫短篇小说）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qgv8yy/the_code_review_economy_built_its_foundations_on/</link>
-      <description><![CDATA[ 由   提交/u/plettj   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qgv8yy/the_code_review_economy_built_its_foundations_on/</guid>
-      <pubDate>Mon, 19 Jan 2026 05:13:34 GMT</pubDate>
-    </item>
-    <item>
       <title>开源为何失败？</title>
       <link>https://www.reddit.com/r/programming/comments/1qgrlxu/why_is_open_source_failing/</link>
       <description><![CDATA[ 由   提交/u/nix-solves-that-2317   [链接] [评论]]]></description>
@@ -74,41 +109,6 @@
       <description><![CDATA[ 由   提交/u/yuvalhazaz   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qgjqlm/the_real_future_of_ai_development_isnt_a_new_ide/</guid>
       <pubDate>Sun, 18 Jan 2026 20:41:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>100 多个氛围编码项目是什么样的</title>
-      <link>https://www.reddit.com/r/programming/comments/1qggmn5/what_100_vibe_coding_projects_looks_like/</link>
-      <description><![CDATA[两年来，我一直在 6 个垂直领域使用 Claude Code 进行构建： - 教育（Google 课堂自动化） - 医疗保健（28 天平台构建） - 音乐（Rust 音频插件） - 游戏（15+ Roblox 游戏） - 数据科学（Kaggle 竞赛） - 电子商务（Shopify 主题）   由   提交/u/No_Hand_6692   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qggmn5/what_100_vibe_coding_projects_looks_like/</guid>
-      <pubDate>Sun, 18 Jan 2026 18:42:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>人人都会成为程序员</title>
-      <link>https://www.reddit.com/r/programming/comments/1qgga3r/everyone_will_be_a_programmer/</link>
-      <description><![CDATA[我们正处于软件世界根本性转变的边缘。软件即服务的概念在过去十年中主导了市场，但现在正慢慢开始动摇。不是因为新的竞争或更好的替代方案，而是因为为通用解决方案付费的想法正在失去意义。   由   提交/u/Sad-Interaction2478  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qgga3r/everyone_will_be_a_programmer/</guid>
-      <pubDate>Sun, 18 Jan 2026 18:30:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>CPU 产量很高，但几乎每个人都误读了它</title>
-      <link>https://www.reddit.com/r/programming/comments/1qgg93z/cpu_is_high_in_production_and_almost_everyone/</link>
-      <description><![CDATA[有关调试高 CPU 使用率进程的快速介绍。    由   提交 /u/SmoothYogurtcloset65   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qgg93z/cpu_is_high_in_production_and_almost_everyone/</guid>
-      <pubDate>Sun, 18 Jan 2026 18:29:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>太多的儿童照片和 Apple Vision 框架</title>
-      <link>https://www.reddit.com/r/programming/comments/1qge2q8/too_many_kid_photos_and_the_apple_vision_framework/</link>
-      <description><![CDATA[ 由   提交/u/scotchi  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qge2q8/too_many_kid_photos_and_the_apple_vision_framework/</guid>
-      <pubDate>Sun, 18 Jan 2026 17:08:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何更快地学习编程/编码？提示和指南</title>
-      <link>https://www.reddit.com/r/programming/comments/1qgcg95/how_do_i_learn_programmingcoding_faster_tips_and/</link>
-      <description><![CDATA[您好！我目前是一名大学一年级学生，学习信息技术。现在是我的第二学期。第一学期我没学到太多东西。我现在要认真了。告诉我，除了在学习中掌握编码/编程之外，学习或购买专门针对Java或Python等编程语言的教科书也很重要吗？我的学校只给我们提供了简短的模块作为指导，而不是整本书，它很短并且没有足够的解释。我有几千页的PDF书籍，但我也不习惯在笔记本电脑上学习，我的视力会变得更差。而且我没有足够的预算来写一本书。那么，我应该让自己习惯在笔记本电脑上学习吗？并专注于通过应用我所学的知识进行更多的实践编码和编程？或者我真的应该买书吗？我真的非常想学习这门课程，如果我想学习一些东西，我真的想更深入地研究它并完全理解它是如何工作的，而不仅仅是通过放置代码。    由   提交/u/No_Childhood7709   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qgcg95/how_do_i_learn_programmingcoding_faster_tips_and/</guid>
-      <pubDate>Sun, 18 Jan 2026 16:07:02 GMT</pubDate>
     </item>
     </channel>
 </rss>

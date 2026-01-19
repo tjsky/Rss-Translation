@@ -4,20 +4,34 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 19 Jan 2026 09:31:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 12:41:17 GMT</lastBuildDate>
     <item>
-      <title>寻找开源 CRM 项目的贡献者</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qgzdpw/cherche_des_contributeurs_pour_un_projet_de_crm/</link>
-      <description><![CDATA[这里是存储库和信息：https://github.com/VigonE/Maplyo/discussions/2    由   提交 /u/Antique-Turnip-4180   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qgzdpw/cherche_des_contributeurs_pour_un_projet_de_crm/</guid>
-      <pubDate>Mon, 19 Jan 2026 09:09:34 GMT</pubDate>
+      <title>求一款电脑版离线词典软件</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qh2fl5/seeking_offline_dictionary_software_for_pc/</link>
+      <description><![CDATA[(windows 10)   由   提交 /u/redgreenblue987   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qh2fl5/seeking_offline_dictionary_software_for_pc/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:06:31 GMT</pubDate>
     </item>
     <item>
-      <title>我发布了Yoop，一个完全开源且非常快速的跨平台和跨操作系统的AirDrop</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qgvbgx/i_released_yoop_a_fully_open_source_and_very_fast/</link>
-      <description><![CDATA[TLDR：Yoop 是一个“正常工作”的 AirDrop。任何操作系统之间。是的，P2P 文件传输确实存在，但远不止于此。您甚至可以在一台设备上复制某些内容，然后立即将其粘贴到另一台设备上。它既是 CLI 又是 Web UI 工具。而且它是完全开源的！下载：npm install -g yoop Github：github.com/sanchxt/yoop 网站：yoop.sanchxt.com 核心功能：  跨平台：适用于 Windows、Linux 和 macOS 剪贴板共享：一次性传输和实时双向同步 无需帐户：零配置，无云依赖 简单的 4 字符代码：无需 IP 地址即可轻松发现 双重发现： UDP 广播 + mDNS/DNS-SD，用于可靠的设备发现 私有和私有安全： TLS 1.3 加密，数据永远不会离开本地网络 快速传输： 通过 xxHash64 验证进行分块传输 恢复功能： 中断的传输可以自动恢复 CLI + Web 界面： 全功能命令行工具和基于浏览器的 UI 值得信赖设备： Ed25519 基于签名的直接传输身份验证 Shell 完成： Bash、Zsh、Fish、PowerShell、Elvish 支持  快速 Lil 指南： 1.共享文件： # 共享单个文件 yoop share document.pdf # 共享多个文件和文件夹 yoop share photos/videos/notes.md # 自定义过期时间共享 yoop share project.zip --expire 10m  2.接收文件： # 使用4字符代码接收 yoop receive A7K9 # 接收到特定目录 yoop receive A7K9 --output ~/Downloads/ # 批处理模式（自动接受） yoop receive A7K9 --batch  3.剪贴板同步 # 剪贴板共享 yoop Clipboard share # 共享当前剪贴板 yoop Clipboard receive A7K9 # 接收剪贴板内容 # 实时双向同步（实时同步剪贴板变化） yoop Clipboardsync # 主机同步会话 yoop Clipboardsync A7K9 # 加入同步会话  通过 npm 安装 # npm npm install -g yoop # pnpm pnpm add -g yoop #纱线yarn global add yoop #bun Bun add -g yoop  立即尝试Yoop，随时在上面提出任何问题或功能请求 GitHub 如果您喜欢它，请在Github上加一个star将不胜感激。如果您不喜欢它，请告诉我原因，以便我改进/修复它:)   由   提交 /u/sanchxt   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qgvbgx/i_released_yoop_a_fully_open_source_and_very_fast/</guid>
-      <pubDate>Mon, 19 Jan 2026 05:17:19 GMT</pubDate>
+      <title>最后停止 X/twitter 上的无限滚动作为 Web 扩展</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qh2eyx/finally_stop_infinite_scroll_on_xtwitter_be_web/</link>
+      <description><![CDATA[我构建了一个停止和控制无限滚动的扩展 停止并允许按钮 https://github.com/freaktofen/X-Infinite-Scroll-Stopper   由   提交 /u/Qusix111   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qh2eyx/finally_stop_infinite_scroll_on_xtwitter_be_web/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:05:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源我们的黑客马拉松项目：使用视觉编舞编辑器让 Unitree Go1 机器人跳舞</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qh05h4/open_sourced_our_hackathon_project_make_a_unitree/</link>
+      <description><![CDATA[我们赢得了“最具技术含量”奖这周末参加了一次机器人黑客马拉松，并决定开源所有内容。 它是什么： 用于在 Unitree Go1 四足机器人上编排舞蹈动作的工具包。时间轴编辑器、控制仪表板、节拍检测等等。 为什么开源： 在这个周末之前，我们都没有使用过 Go1 机器人的经验。我们希望让其他人更容易上手 - 无需挖掘 Unitree 文档，只需克隆并运行。 GitHub： https://github.com/dawodx/YMCA MIT 许可。如果有人想添加功能，欢迎 PR。 技术：Python、MuJoCo、Librosa   由   提交 /u/dawodx   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qh05h4/open_sourced_our_hackathon_project_make_a_unitree/</guid>
+      <pubDate>Mon, 19 Jan 2026 09:57:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>在地图上匿名实时报告事件。没有账户。没有跟踪。帖子 8 小时后自动删除。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qgzzx3/anonymous_realtime_incident_reporting_on_a_map_no/</link>
+      <description><![CDATA[       由   提交/u/IndividualAir3353  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qgzzx3/anonymous_realtime_incident_reporting_on_a_map_no/</guid>
+      <pubDate>Mon, 19 Jan 2026 09:47:52 GMT</pubDate>
     </item>
     <item>
       <title>2025 年您使用的 Android 领先开源软件。</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[Meles 是一款基于 Java 的数据记录器，涉足数据采集领域。 简而言之，您可以获取 I2C 传感器的原始温度读数，对其进行解析，将结果发送到 mqtt 服务器并将其存储在 postgres 中以通过 Grafana 显示。然后使用drawio根据阈值设置电子邮件/矩阵警报。 将示例分解为“功能”。 - 与数据源无关：serial、tcp、i2c 等都使用相同的 xml 脚本进行处理 - 这些脚本包括数学运算，这些运算被解析为 lambda 表达式以避免不断解析 - 处理后的数据存储在 sql 数据库或 sqlite 文件中 - 处理后的数据可用于通过 drawio 图定义的反应逻辑 Meles 还没有 gui，但任何源都可以控制它，无论是 telnet、矩阵还是电子邮件（需要耐心）然后）。 repo：https://github.com/SettLabs/meles   由   提交 /u/thisisntinuse   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qge9rx/meles_an_agpl_tool_for_data_ingestion_and_storage/</guid>
       <pubDate>Sun, 18 Jan 2026 17:15:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的第一个开源项目！一个用于设计 GitHub README 样式的小工具，但我对此感到自豪</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qgdjk9/my_first_opensource_project_a_small_tool_to_style/</link>
-      <description><![CDATA[      嘿👋 我想分享我的第一个开源项目。 这是一个小项目，但完成并发布它感觉就像是一个真正的里程碑我。 我是一名产品负责人，我并没有真正进行日常开发。 但我与很多开发人员一起工作，我经常帮助朋友或同事处理他们的 GitHub 项目。他们并不真正喜欢制作好看的自述文件，而当他们这样做时，通常会花费很多时间。 因此我构建了Readme-Icons，这是一个非常简单的工具，可以快速设计 GitHub README，无需过多考虑。 你选择图标或徽章，调整它们，复制 Markdown，然后继续。 没什么花哨的，只是：  技术/品牌图标，通过简单图标 静态和动态徽章，通过shields.io 快速复制粘贴自述文件  存储库：https://github.com/anthonybenier/readme-icons 演示：https://readme-icons.com 我成功地将这个与 Figma 和 Antigravity 一起发布，这帮助我从一个想法变成了一个完成的项目，即使没有强大的编码背景。 由于这是我第一个开源项目，因此我非常感谢更有经验的维护者提供的建议：  要避免的常见初学者错误 我应该或不应该做的事情 下一步该做什么  即使它仍然很小，我很高兴我将其推出而不是保持私有。 感谢您的阅读🙏   由   提交 /u/G3n0c33d   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qgdjk9/my_first_opensource_project_a_small_tool_to_style/</guid>
-      <pubDate>Sun, 18 Jan 2026 16:48:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>我将 GitHub 存储库变成了多人游戏</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qgcd4r/i_turned_a_github_repository_into_a_multiplayer/</link>
-      <description><![CDATA[无后端。没有注册。只需 PR、业力和 100 个待解锁的关卡。 前 50 名玩家可获得 FOUNDER 徽章:) https://github.com/fabriziosalmi/enjoy   由   提交/u/fab_space  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qgcd4r/i_turned_a_github_repository_into_a_multiplayer/</guid>
-      <pubDate>Sun, 18 Jan 2026 16:03:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
