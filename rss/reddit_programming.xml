@@ -4,20 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 19 Jan 2026 01:24:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 04:10:34 GMT</lastBuildDate>
+    <item>
+      <title>开源为何失败？</title>
+      <link>https://www.reddit.com/r/programming/comments/1qgrlxu/why_is_open_source_failing/</link>
+      <description><![CDATA[ 由   提交/u/nix-solves-that-2317   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qgrlxu/why_is_open_source_failing/</guid>
+      <pubDate>Mon, 19 Jan 2026 02:18:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>UTF-8为什么在第一个字节指定长度？</title>
+      <link>https://www.reddit.com/r/programming/comments/1qgqj55/utf8_why_specify_length_in_the_first_byte/</link>
+      <description><![CDATA[我偶然发现了这个视频，它解释了 UTF-8 编码如何很好地工作，但有一点我不太了解非 ASCII 字符的编码。如果我理解正确的话，这些字符可以由 1-4 个字节组成。第一个字节必须以 10、110、1110 或 11110 开头，长度为 1、2、3 或 4 个字节。接下来的字节（相同字符）必须以 10 开头。这是有道理的，但对我来说似乎非常浪费。相反，如果每个字符的第一个字节以 11 开头，并且后续字节（同一字符）以 10 开头，则始终可以清楚某个字节是否位于字符的开头。同样，通过这种方式，4 个字节将能够编码 224 个符号，而不是 221。 我能想到的第一种方法的唯一好处是，对字符串中的某个字符进行计数或索引速度更快，因为只需要读取每个字符的第一个字节。与第二个系统相比，还有其他优点或问题吗？   由   提交/u/zz9873  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qgqj55/utf8_why_specify_length_in_the_first_byte/</guid>
+      <pubDate>Mon, 19 Jan 2026 01:28:56 GMT</pubDate>
+    </item>
     <item>
       <title>Cory Doctorow 解决了人工智能的问题</title>
       <link>https://www.reddit.com/r/programming/comments/1qgqeoo/cory_doctorow_nails_the_problems_with_ai/</link>
       <description><![CDATA[ 由   提交 /u/KitAndKat   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qgqeoo/cory_doctorow_nails_the_problems_with_ai/</guid>
       <pubDate>Mon, 19 Jan 2026 01:23:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>惊人的沙箱：在您的计算机上安全地运行第三方工具和人工智能代理</title>
-      <link>https://www.reddit.com/r/programming/comments/1qgn6oi/amazing_sandbox_run_thirdparty_tools_and_ai/</link>
-      <description><![CDATA[ 由   提交/u/ashishb_net   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qgn6oi/amazing_sandbox_run_thirdparty_tools_and_ai/</guid>
-      <pubDate>Sun, 18 Jan 2026 23:03:01 GMT</pubDate>
     </item>
     <item>
       <title>AI 开发的真正未来不是新的 IDE</title>
@@ -76,7 +83,7 @@
       <pubDate>Sun, 18 Jan 2026 15:07:19 GMT</pubDate>
     </item>
     <item>
-      <title>精神病特工：我们疯了吗？</title>
+      <title>特工精神病：我们疯了吗？</title>
       <link>https://www.reddit.com/r/programming/comments/1qgap2f/agent_psychosis_are_we_going_insane/</link>
       <description><![CDATA[ 由   提交/u/kivarada   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qgap2f/agent_psychosis_are_we_going_insane/</guid>
@@ -102,13 +109,6 @@
       <description><![CDATA[嘿，我今年 16 岁，想开始学习编程。我以前没有经验。有些人建议从 Python 开始，而另一些人则说 C++ 更好。您会推荐什么？   由   提交/u/ankobankotanko  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qg8nyv/what_is_the_best_programming_language_for/</guid>
       <pubDate>Sun, 18 Jan 2026 13:32:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>您应该了解的 11 个冰山性能优化</title>
-      <link>https://www.reddit.com/r/programming/comments/1qg6q2t/11_iceberg_performance_optimizations_you_should/</link>
-      <description><![CDATA[ 由   提交 /u/codingdecently   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qg6q2t/11_iceberg_performance_optimizations_you_should/</guid>
-      <pubDate>Sun, 18 Jan 2026 11:53:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
