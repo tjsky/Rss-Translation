@@ -4,11 +4,39 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Sun, 18 Jan 2026 21:14:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 01:23:02 GMT</lastBuildDate>
+    <item>
+      <title>如何生成带文字的AI视频？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgq9hr/how_to_generate_ai_videos_with_texts/</link>
+      <description><![CDATA[嗨， 我打算用我所掌握的信息制作一些视频。 我的最终视频可以分为 2 个。  吸引注意力的挂钩（3-5 秒） 视频的其余部分（20-30 秒）- 关于实际产品  在视频的第二部分，我需要显示联系方式。但对于人工智能来说，这并不是很常见。 你能给我一个想法吗，最好的方法是什么？    由   提交 /u/Solid_Strength5950   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgq9hr/how_to_generate_ai_videos_with_texts/</guid>
+      <pubDate>Mon, 19 Jan 2026 01:16:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Discord 或其他用于企业用例讨论的场所</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgovvw/discord_or_other_venue_for_corporate_use_case/</link>
+      <description><![CDATA[大家好，我在工作中经常使用 Copilot，并用它做了一些非常酷的事情，主要是与学习相关。今晚的空闲时间，我在搜索 AI 用例，看到几个月前的 Reddit 海报，他的处境与我类似（没有接受过编码培训，但使用 AI 编写代码和构建自动化工具），我很高兴能与他联系，但当然该帐户被禁止，所以不能。 但这让我思考，是否有一个由 AI 重度用户组成的活跃社区，他们分享他们正在做的事情或提出问题并互相帮助？ 如果没有，那是其他人的事情吗？会有兴趣吗？我的工作有这样的东西，但我觉得我比那些人领先五年，我不想在没有头衔和加薪的情况下把东西交给我的雇主，但很高兴学习和与他人分享，并互相帮助   由   提交 /u/Jordanthecomeback   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgovvw/discord_or_other_venue_for_corporate_use_case/</guid>
+      <pubDate>Mon, 19 Jan 2026 00:15:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>由于架构原因，GPT-Image-1.5 无法生成带标签的长而复杂的图像</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgo5e6/gptimage15_cant_generate_long_and_complex_images/</link>
+      <description><![CDATA[如果你要求 ChatGPT 生成一张带有标签的 100 个动物的图像，你会得到被诅咒的神奇宝贝 所以为什么会发生这种情况，恕我直言：解码器的因果屏蔽只有变压器 + 提示精炼器 + 自回归图像生成器。 现代图像逐步生成图像，就像 LLM 一样，类似于一次生成一个标记的文本，它们也生成令牌，但令牌是 NxN 像素网格。早期的小错误会被锁定，随着一代的继续，错误会堆积起来。  最重要的是，文本提示也是按顺序处理的，因此与其他提示相比，可以通过更少的上下文来理解部分提示。这就是为什么在图像末尾时输出通常会变得更糟，以及为什么像复制提示或将关键约束移到前面这样的奇怪技巧实际上会有所帮助。   由   提交 /u/Forsaken-Park8149   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgo5e6/gptimage15_cant_generate_long_and_complex_images/</guid>
+      <pubDate>Sun, 18 Jan 2026 23:43:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>ISO 42001 首席实施者测试问题示例</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgkpup/iso_42001_lead_implementor_sample_test_questions/</link>
+      <description><![CDATA[对于参加过 PECB 考试的人来说，是否有样题来源？我似乎找不到一个。谢谢！   由   提交 /u/Excellent_Quail7378   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgkpup/iso_42001_lead_implementor_sample_test_questions/</guid>
+      <pubDate>Sun, 18 Jan 2026 21:24:43 GMT</pubDate>
+    </item>
     <item>
       <title>10年前的预测</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgjh9u/predictions_from_10_years_ago/</link>
-      <description><![CDATA[有谁知道某人拥有表格或人工智能功能的书或文章以及它们的当前状态以及我们距离该功能有多远？它列出了像写一段话和画一幅好图这样的事情，人工智能还远远没有完成。 这本书或文章大约是 10 年前，也许是 2017 年或 2018 年，屏幕截图是那一年的功能，不久前在 Twitter 上流传，显示我们离那个点已经走了多远。 它的格式就像一张表格，监听各种功能，以及当时人工智能所处的位置，其中一些功能已经完成，例如寻找规律或下棋，但其他诸如对话或塑造良好形象之类的事情被认为是遥远的未来。    由   提交 /u/DustinKli   [链接] [评论]]]></description>
+      <description><![CDATA[有谁知道某人拥有表格或人工智能功能的书或文章以及它们的当前状态以及我们距离该功能有多远？它列出了像写一段话和画一幅好图这样的事情，人工智能还远远没有完成。 这本书或文章大约是 10 年前，也许是 2017 年或 2018 年，一张屏幕截图是那一年的功能，不久前在 Twitter 上流传，显示我们离那个点已经走了多远。 它的格式就像一张表格，听着各种功能，以及当时人工智能所处的位置，其中一些功能已经完成了，比如寻找规律或下棋，但其他诸如对话或塑造良好形象之类的事情被认为是遥远的未来。    由   提交 /u/DustinKli   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgjh9u/predictions_from_10_years_ago/</guid>
       <pubDate>Sun, 18 Jan 2026 20:31:34 GMT</pubDate>
     </item>
@@ -20,25 +48,25 @@
       <pubDate>Sun, 18 Jan 2026 20:15:28 GMT</pubDate>
     </item>
     <item>
+      <title>为什么您使用 LLM 聊天机器人而不是 ChatGPT？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qghxg4/why_do_you_use_llm_chatbot_other_than_chatgpt/</link>
+      <description><![CDATA[我使用 ChatGPT。据我了解，由于 Microsoft copilot 用于企业界，因此他们也拥有较小的市场份额。  我尝试使用 Claude 和 Gemini，它只是给了我所有其他“大量”信息。我没有要求的信息。也许因为我目前正在使用 ChatGPT 找工作，所以它对我来说是最好的。  为什么你使用其他 LLM 聊天机器人，如 Perplexity、Gemini、Claude、Deepseek 等？    由   提交/u/Wrong-Pea-550   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qghxg4/why_do_you_use_llm_chatbot_other_than_chatgpt/</guid>
+      <pubDate>Sun, 18 Jan 2026 19:31:20 GMT</pubDate>
+    </item>
+    <item>
       <title>在公关审查期间如何防止设计偏差？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgfv4u/how_do_you_prevent_design_drift_during_pr_reviews/</link>
-      <description><![CDATA[嘿，伙计们，正在寻找一些关于我在公关审查期间不断遇到的问题的诚实反馈。 我工作过的团队以及与之合作的团队最多依赖于一个公关清单。随着系统的增长、团队数量的增长、组织成熟度要求的生效，我们希望进行更全面的检查（架构、安全性、性能、约定等），但很长的清单很快就会被忽略，因为它们会减慢审核速度 - 完全理解这一点。 特别是随着 LLM 辅助编码变得越来越普遍，我还注意到更多的设计漂移 - 代码可以工作，通过审核，但慢慢偏离预期的架构和模式，如果盲目地积累技术债务，你会的。在当今的 PR 流程中，这一点变得越来越难以理解。 我正在探索一种想法，使 PR 检查更具适应性和上下文感知能力，同时又不会压垮开发人员。 很想听：  您今天使用 PR 检查表吗？ 您是否经历过检查表疲劳？ 您是否注意到 LLM 辅助编码增加了设计偏差？  会吗？喜欢听听其他人如何处理这个问题。   由   提交 /u/senthuinc   [链接] [评论]]]></description>
+      <description><![CDATA[嘿，伙计们，正在寻找一些关于我在公关审查期间不断遇到的问题的诚实反馈。 我工作过的团队以及与之合作的团队最多依赖于一个公关清单。随着系统的增长、团队数量的增长、组织成熟度要求的生效，我们希望进行更全面的检查（架构、安全性、性能、约定等），但很长的清单很快就会被忽略，因为它们会减慢审核速度 - 完全理解这一点。 特别是随着 LLM 辅助编码变得越来越普遍，我还注意到更多的设计漂移 - 代码可以工作，通过审核，但慢慢偏离预期的架构和模式，如果盲目地积累技术债务，你会的。在当今的 PR 流程中，这一点变得越来越难理解。 我正在探索一种想法，使 PR 检查更具适应性和上下文感知能力，同时又不会压倒开发人员。 很想听：  您今天使用 PR 检查表吗？ 您是否经历过检查表疲劳？ 您是否注意到 LLM 辅助编码增加了设计偏差？  会吗？喜欢听听其他人如何处理这个问题。   由   提交 /u/senthuinc   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgfv4u/how_do_you_prevent_design_drift_during_pr_reviews/</guid>
       <pubDate>Sun, 18 Jan 2026 18:14:56 GMT</pubDate>
     </item>
     <item>
-      <title>简化运行本地人工智能的工具是否真的有用，还是只是更多噪音？</title>
+      <title>简化本地人工智能运行的工具是否真的有用，还是只是更多噪音？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgffgg/are_tools_that_simplify_running_local_ai_actually/</link>
       <description><![CDATA[我一直在尝试各种方法，让非专家能够更轻松地安装和运行本地 AI 工具（LLM UI、图像工具等），而无需冗长的设置指南或终端命令 我的目标是了解本地 AI 的“一键”式帮助器对于本地运行 AI 的人是否真正有用，或者它们是否只是在现有解决方案（Docker、脚本、包管理器、等）。  对于那些自行托管或运行本地人工智能工具的人来说：您对这样的工具有何期望，以及什么会立即让人觉得没有必要（或必要）？  如果此类帖子不符合子规则，我完全理解，并且我同意将其删除。​   由   提交 /u/Deivih-4774   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgffgg/are_tools_that_simplify_running_local_ai_actually/</guid>
       <pubDate>Sun, 18 Jan 2026 17:59:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>多语言大语言模型的可解释性和可解释性：调查</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgf8e0/explainability_and_interpretability_of/</link>
-      <description><![CDATA[https://aclanthology.org/2025.emnlp-main.1033.pdf 摘要：“多语言大语言模型 (MLLM) 展示了跨多种跨语言的最先进功能和多语言任务。然而，它们复杂的内部机制往往缺乏透明度，这给阐明其多语言内部处理、跨语言迁移动态和处理特定语言特征带来了重大挑战。本文通过对当前专门针对 MLLM 的可解释性和可解释性方法进行调查，解决了这一关键差距。据我们所知，这是此类的首次全面审查。现有文献根据所采用的可解释性技术、处理的多语言任务、研究的语言和可用资源进行分类。该调查进一步确定了关键挑战，提炼了核心发现，并概述了这个快速发展的领域内未来研究的有希望的途径。”   由   提交/u/nickpsecurity  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgf8e0/explainability_and_interpretability_of/</guid>
-      <pubDate>Sun, 18 Jan 2026 17:51:58 GMT</pubDate>
     </item>
     <item>
       <title>Claude Code 的可靠性实际上是杀手级功能，而不是炒作</title>
@@ -46,20 +74,6 @@
       <description><![CDATA[最近看到一些关于 Claude Code 的讨论，决定测试一周。围绕“氛围编码”的营销很烦人，但背后有一些真实的东西。 真正重要的是：它不会产生 API 幻觉。尝试重构旧版 Express 应用程序，克劳德坚持使用现有的实际方法。当 Express 现在有内置解析时，GPT 建议使用 body-parser，Copilot 发明了不存在的中间件功能。 自治循环的事情被夸大了。是的，它运行了几个小时，但您仍然需要检查输出。让它在数据库迁移脚本上运行并且它可以工作，但生成的 SQL 效率低下。必须手动重写索引。 使用几种不同的工具进行测试进行比较。 Verdent 让我可以在任务中切换模型，这很有帮助，我使用 Claude 进行主要重构，然后切换到 GPT 进行边缘情况处理。不同的模型在不同的方面表现更好。 成本才是真正的问题。测试一项功能需要 3 天时间才能完全实现和测试，在 3 天的时间内消耗了 65 美元的 API 成本。仅对原型设计或陷入困境时才有意义。 “赢得工程师的支持”是一种方法。叙事感觉就像公关。这是一个很好的工具，但不是革命性的。自己编写简单的函数仍然比向 AI 解释它们要快。   由   提交 /u/RepulsivePurchase257   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qge6he/claude_codes_reliability_is_actually_the_killer/</guid>
       <pubDate>Sun, 18 Jan 2026 17:12:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于复杂角色扮演的人工智能</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgcsf1/ai_for_complex_roleplaying/</link>
-      <description><![CDATA[除了工作之外，我对 AI 的主要用途之一就是角色扮演。然而，当我使用人工智能进行角色扮演时，我通常不会只制作一个小的角色扮演提示或一个单一的角色。我倾向于制作一个庞大的角色扮演文档（一个 .txt 文件），向 AI 解释场景、角色、到目前为止的故事以及特定角色扮演的叙述规则。这些文档通常可以包含超过 300K 字符的文本，而且我通常使用自定义命令来教 AI 如何引用文档，因为我总是将其划分为条目，以便更轻松地组织它。 但是，我一直对结果不满意，因为在某些时候，文件变得太大，AI 无法正确理解设置。 有人对可以处理角色扮演的 AI 有任何建议吗？方式？但它需要是在线托管的，我没有运行本地模型的硬件。它也应该尽可能未经审查，因为我的角色扮演设置往往也涉及成熟的东西，并且大多数人工智能的淡入黑色方法让我感到厌烦。   由   提交 /u/SpaceMysterious9166   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgcsf1/ai_for_complex_roleplaying/</guid>
-      <pubDate>Sun, 18 Jan 2026 16:19:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于 RAG 设置，文档文件为 json 重要吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qgb0m0/is_it_important_for_document_files_to_be_json_for/</link>
-      <description><![CDATA[大家好， 我正在做一些事情，我必须为此构建一个 RAG 系统，该系统根据客户的内部知识库（特别是整个网站）回答用户的查询，现在为什么建议文档采用 json 而不是 .txt ？无论如何，要自动化此操作会花费很多时间？？（网站没有站点地图）   由   提交 /u/Loner_Indian   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qgb0m0/is_it_important_for_document_files_to_be_json_for/</guid>
-      <pubDate>Sun, 18 Jan 2026 15:11:15 GMT</pubDate>
     </item>
     <item>
       <title>AI时代最大的创新就是引用了10年前有人在Reddit上写的一个答案。</title>
@@ -76,25 +90,11 @@
       <pubDate>Sun, 18 Jan 2026 12:30:36 GMT</pubDate>
     </item>
     <item>
-      <title>3000 美元发展补助金（仅限美国、欧盟、英国、加拿大、阿联酋）</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qg29hs/3000_development_grant_us_eu_uk_canada_uae_only/</link>
-      <description><![CDATA[Novolo 创始人 Thomas Holt，在此。 我们将向 10 家早期初创公司提供 3,000 美元的技术开发补助金（仅限美国/欧盟/英国/加拿大/澳大利亚/阿联酋）。这是专门针对技术执行的。前端、后端、验证或技术咨询。 这是赠款，而不是投资。知识产权的所有权利均由创始人保留。 申请标准： - ​您的公司必须在上述国家之一注册。 - ​您必须拥有原型或处于积极开发状态。 ​要申请，请告诉我们： ​产品：您在构建什么？ ​技术堆栈：您在使用什么？ ​任务： 3000 美元具体将用于构建或验证什么？ （例如，“重构我们的后端 API”、“构建移动前端”等） ​这可以通过 Reddit、LinkedIn 或电子邮件发送给我们。 请注意，我们希望在我们的社交媒体和网站上展示这笔赠款的用途（如果选择）。 如果您有任何疑问，请告诉我！ 联系方式；  LinkedIn 公司页面：linkedin(dot)com/company/novolo-ai/ LinkedIn 个人页面： linkedin(dot)com/in/thomas-holt-ai/ 电子邮件： tom@novolo(dot)ai   由   提交 /u/Ok-Lobster7773   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qg29hs/3000_development_grant_us_eu_uk_canada_uae_only/</guid>
-      <pubDate>Sun, 18 Jan 2026 07:31:13 GMT</pubDate>
-    </item>
-    <item>
       <title>教育内容</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qg12c1/educational_content/</link>
       <description><![CDATA[我喜欢下班后的良好寓教于乐。所以昨天我去了 YouTube，它通常会推荐有关建筑、工程、战争机器的有趣视频组合。昨天和今天连续打开5、6个视频都是AI生成的。带有人工智能语音的人工智能故事，背景为人工智能生成的图像幻灯片。他们都是这样的。内容充满了错误和内部不一致。生成的背景图片据称展示了 1950 年代的东西是如何用图片中的现代机械、飞机上错误的螺旋桨叶片以及每张图像中明显错误的东西制造出来的。我热爱技术并亲自尝试人工智能。但这感觉完全错误。在我看来，最糟糕的是，有一个视频实际上很有趣，但阅读评论并随后检查它也发现充满了反事实。基本上，如果你不了解这个主题，你现在可能会被认为是令人信服的废话，而你甚至不会注意到它。目前唯一暴露的就是其中有错误内容的搞笑背景图像。但我相信他们很快就会好起来。然后呢？    由   提交 /u/Caderent   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qg12c1/educational_content/</guid>
       <pubDate>Sun, 18 Jan 2026 06:23:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助进入人工智能世界</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qfx5vf/help_with_getting_into_the_ai_world/</link>
-      <description><![CDATA[大家好！！ 我想在大学开始进入人工智能工程。未来我会创办自己的人工智能工程和电子公司。关于如何开始学习人工智能工程的一些技巧有哪些？它们是可以帮助我学习的课程、YouTuber 或课程吗？我想在某个时候制作自己的人工智能机器人，但我会先从一个简单的聊天机器人开始，因为我必须从简单的开始。感谢任何帮助!!   由   提交 /u/ThePyroOsha   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qfx5vf/help_with_getting_into_the_ai_world/</guid>
-      <pubDate>Sun, 18 Jan 2026 03:06:40 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
