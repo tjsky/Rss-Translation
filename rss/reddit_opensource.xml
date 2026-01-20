@@ -4,7 +4,42 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 20 Jan 2026 18:31:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 21:20:44 GMT</lastBuildDate>
+    <item>
+      <title>如果这台小型电脑是真实存在的，什么样的开源项目才能真正推动它的价值？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qicv02/if_this_small_pc_is_real_what_kind_of_open_source/</link>
+      <description><![CDATA[我一直在阅读有关 TiinyAI 硬件概念的内容。据称，它是一个手掌大小的 30W 设备，可离线运行 120B 型号。 （来源自 mashable：https://mashable.com/article/ces-2026-tiiny-ai-pocket-lab-ai-supercomputer）。这正是我想象中的人工智能计算机的未来应该是什么样子，小巧而高效。如果该设备是真实的，当您将其与开源环境结合起来时，我已经可以看到很多好处。 我认为的一个场景是执法部门的“案件处理专家”。想象一下 Llama-3 或 Command R+ 的微调版本在巡逻车上本地运行。它可以分析案件详细信息和当地法规，而不会将敏感的公民数据泄露到云 API。或者可能是为偏远地区或灾区的援助团体提供的医疗诊断模型（如 Meditron）。 在我看来，OSS 项目与便携式本地硬件的结合是个人人工智能的最终形式。如果这个设备不是蒸汽波，那么我一直在等待的那一天就不远了。还有哪些具体的开源项目或微调可以在这样的便携式设备上大放异彩？   由   提交 /u/Upstairs_Reading_220   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qicv02/if_this_small_pc_is_real_what_kind_of_open_source/</guid>
+      <pubDate>Tue, 20 Jan 2026 20:41:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Humans in the Loop - AI 对开源的贡献</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qicmrx/humans_in_the_loop_ai_contributions_in_open_source/</link>
+      <description><![CDATA[介绍了我们如何选择更新 Oh My Zsh 贡献指南以考虑人工智能。    由   提交 /u/robbyrussell   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qicmrx/humans_in_the_loop_ai_contributions_in_open_source/</guid>
+      <pubDate>Tue, 20 Jan 2026 20:33:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ignidash — 具有人工智能功能的开源个人理财模拟器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qi9rt0/ignidash_opensource_personal_finance_simulator/</link>
+      <description><![CDATA[ignidash.com 是一个开源且开放的网站。可自托管（使用 Docker）的个人财务模拟器，具有 AI 功能（例如 AI 聊天和 AI 见解），可帮助您了解和分析您的长期财务计划。 它旨在成为该领域其他应用程序（如 Boldin 和 ProjectionLab）的开源、人工智能驱动的替代品，这些应用程序也专注于长期规划（而不是个人财务领域中更常见的预算/短期跟踪）。 我的目标是创建一个平台最重要的是，人们可以（或定期）编写他们自己想要或需要的附加功能，因为个人财务状况因人而异，而人工智能编码工具使此类事情比以往任何时候都更容易、更容易获得。 尝试一下&amp;让我知道你的想法！谢谢！ GitHub：https://github.com/schelskedevco/ignidash 站点：https://www.ignidash.com/   由   提交 /u/schelskedevco   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qi9rt0/ignidash_opensource_personal_finance_simulator/</guid>
+      <pubDate>Tue, 20 Jan 2026 18:50:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个本机 Linux GUI 来组织 Conda 环境（有助于管理多个 Bioconda 设置）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qi9ewg/i_built_a_native_linux_gui_to_organize_conda/</link>
+      <description><![CDATA[大家好， 我一直在开发一个名为 CondaNest 的轻量级原生 Linux GUI。 我知道我们中的许多人最终都会为不同的管道提供数十种不同的环境（例如，将 samtools 与 qiime2 或特定的 Python 版本分开）和 conda当您拥有如此多的环境时，列表可能很难直观地进行解析。 我构建此应用程序是为了提供一个干净的可视化界面来管理它们，而无需 Anaconda Navigator 的臃肿。 Repo：https://github.com/aradar46/condanest 它是什么的作用：  视觉概述：列出您的所有本地环境及其位置。 包检查：允许您在任何环境中搜索和查看已安装的包，而无需先激活它。 管理：用于创建、删除或清理环境的简单 UI。 本机性能：使用 Python 和 Java 构建。 GTK4，因此与 Electron/Qt 应用程序相比，它快速且轻量。  它目前处于早期开发/测试阶段，因此我非常感谢社区提供有关哪些功能可以使您的工作流程更轻松的反馈。   由   提交 /u/eli_arad   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qi9ewg/i_built_a_native_linux_gui_to_organize_conda/</guid>
+      <pubDate>Tue, 20 Jan 2026 18:37:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>您是否使用 (Wise) 货币转换器或 FOSS 替代应用程序来转换货币？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qi9d20/do_you_use_wise_currency_converter_or_a_foss/</link>
+      <description><![CDATA[如标题所示。 你知道这个名字。这是一个与 Wise 相关的应用程序，是一项国际知名的低成本和全球使用的服务（Rev​​olut、PayPal 和类似的竞争对手，至少在我所在的欧洲地区）。 我安装它是因为，你知道，你经常会说“价格是[金额][与主要货币不同的其他货币，在我的例子中是欧元]。多少钱？” 环顾四周，我发现这个应用程序没有广告，也没有付费墙（很好，我不知道跟踪元素）。 您输入所有数据（金额、原始货币、要转换的货币），您可以看到转换后的价值（实时）以及接收者将获得的金额（因此通过计算差额，您知道您将支付多少钱）。 这对我来说很有意义（没有广告/付费墙等），因为他们的核心业务依赖于使用他们的服务（为此你需要支付一项或多项费用，即兑换和/或国际转账和/或 ATM 取款）。 确实，有一点“垃圾邮件”，那就是一个巨大的绿色（他们的品牌颜色）按钮，上面写着“Send with Wise”。 虽然我感觉很轻松，但我想知道是否有任何 FOSS 替代品，甚至没有这种自我推销的小东西。 有没有任何自由软件应用程序？或者我需要放弃这种类型的东西，比如任何银行相关的应用程序，只有闭源解决方案（任何商业银行应用程序或数字钱包）？ 你推荐任何自由和开源软件应用程序来转换货币吗？ 你使用任何 PWA（如 Wise 网站）还是只是浏览器（即每次使用搜索引擎进行查询，如“1000 欧元兑美元”）用于此目的？   由   提交/u/RebirdgeCardiographer  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qi9d20/do_you_use_wise_currency_converter_or_a_foss/</guid>
+      <pubDate>Tue, 20 Jan 2026 18:35:58 GMT</pubDate>
+    </item>
     <item>
       <title>[项目] 一个SPICE混合信号模拟docker容器</title>
       <link>https://www.reddit.com/r/opensource/comments/1qi82k4/project_a_spice_mixed_signal_simulation_docker/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[ 由   提交/u/jatinkrmalik  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qhua5e/i_built_an_offline_voice_dictation_tool_for_linux/</guid>
       <pubDate>Tue, 20 Jan 2026 07:08:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我刚刚开源了我的 macOS Front Row Recreation！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qhu5r2/i_just_open_sourced_my_macos_front_row_recreation/</link>
-      <description><![CDATA[       由   提交/u/mariowarioaka-iomra   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qhu5r2/i_just_open_sourced_my_macos_front_row_recreation/</guid>
-      <pubDate>Tue, 20 Jan 2026 07:00:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>我刚刚开源了我的 macOS Front Row Recreation！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qhu5e9/i_just_open_sourced_my_macos_front_row_recreation/</link>
-      <description><![CDATA[       由   提交/u/mariowarioaka-iomra   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qhu5e9/i_just_open_sourced_my_macos_front_row_recreation/</guid>
-      <pubDate>Tue, 20 Jan 2026 07:00:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个小型开源 CLI 来像数据库一样查询 JSONL 文件</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qhrhhi/i_built_a_small_opensource_cli_to_query_jsonl/</link>
-      <description><![CDATA[       由   提交/u/GateSpiritual5717   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qhrhhi/i_built_a_small_opensource_cli_to_query_jsonl/</guid>
-      <pubDate>Tue, 20 Jan 2026 04:39:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>我用纯 Python 构建了一个“Glass Box”代理框架。 v1.3 添加了元认知（编辑自己的图表的代理）、DMN 和 Juried Layers。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qhrckh/i_built_a_glass_box_agent_framework_in_pure/</link>
-      <description><![CDATA[ 由   提交 /u/Some_Adhesiveness203   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qhrckh/i_built_a_glass_box_agent_framework_in_pure/</guid>
-      <pubDate>Tue, 20 Jan 2026 04:33:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>版权和人工智能......它如何影响开源？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qhqzui/copyright_and_ai_how_does_it_affect_open_source/</link>
-      <description><![CDATA[作为开源作者和维护者，版权和许可是我们用来保护或确保代码自由的主要工具。我们拥有我们创建的代码的版权，这使我们能够申请规定代码如何使用和分发的许可证。除了版权所有者之外，没有人可以更改许可证或在许可证条件之外使用它（不要介意对代码进行人工智能培训并完全无视许可证，这是一个不同的问题）。然而，版权是围绕“人类作者”建立的。法院解释版权法的方式是，纯粹人工智能生成的代码不受版权保护。如果你将它用作由你（人类）更改/编辑/安排的代码的一部分，它可以受版权保护......但纯机器生成的代码则不能。 我们如何接受无法受版权保护的人工智能生成的贡献？ （目前大家都在这样做） 当大部分代码是人工智能生成时会发生什么？任何东西仍然可以受版权保护吗？如果没有，我们如何将其许可为开源？对开源软件有何影响？  当前美国人工智能版权指南：https://www.copyright.gov/AI/   由   提交/u/cgoldberg  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qhqzui/copyright_and_ai_how_does_it_affect_open_source/</guid>
-      <pubDate>Tue, 20 Jan 2026 04:16:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
