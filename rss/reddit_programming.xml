@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 21 Jan 2026 06:30:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 09:29:32 GMT</lastBuildDate>
+    <item>
+      <title>使用去中心化账本进行私有数据管理</title>
+      <link>https://www.reddit.com/r/programming/comments/1qite45/private_data_management_using_decentralised/</link>
+      <description><![CDATA[ 由   提交 /u/Happycodeine   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qite45/private_data_management_using_decentralised/</guid>
+      <pubDate>Wed, 21 Jan 2026 09:26:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Arbor v1.4 – 具有新 GUI 的图形原生重构安全工具</title>
+      <link>https://www.reddit.com/r/programming/comments/1qit5d7/arbor_v14_a_graphnative_refactor_safety_tool_with/</link>
+      <description><![CDATA[我一直在开发一个工具来回答“如果我更改此函数会出现什么问题？”这个问题。通过将代码库分析为调用图而不是纯文本搜索。 v1.4 添加了一个简单的 GUI，用于影响分析、置信度评分（Arbor 如何确定依赖项）以及对入口点、实用程序、核心逻辑等角色的更清晰解释。无意推广任何内容，只是分享更新，以防它对从事大型代码库或重构工作的其他人有用。 Repo：github.com/Anandb71/arbor 文档：请参阅自述文件中的快速入门和影响示例。 很高兴回答有关图模型或解析器架构的技术问题。   由   提交/u/AccomplishedWay3558  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qit5d7/arbor_v14_a_graphnative_refactor_safety_tool_with/</guid>
+      <pubDate>Wed, 21 Jan 2026 09:11:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我用 TypeScript 构建了一个本地主机隧道工具 - 这让我感到惊讶</title>
+      <link>https://www.reddit.com/r/programming/comments/1qit57n/i_built_a_localhost_tunneling_tool_in_typescript/</link>
+      <description><![CDATA[ 由   提交 /u/future-tech1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qit57n/i_built_a_localhost_tunneling_tool_in_typescript/</guid>
+      <pubDate>Wed, 21 Jan 2026 09:10:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>WSL Dashboard v0.1.0 发布，现代、高性能、轻量级的 WSL（Windows Subsystem for Linux）实例管理仪表板。</title>
+      <link>https://www.reddit.com/r/programming/comments/1qir79v/wsl_dashboard_v010_releaseda_modern/</link>
+      <description><![CDATA[使用 Rust 和 Slint 构建，提供优质的原生体验。 主要功能  直观的 GUI，支持深色模式和流畅的动画。 一键管理所有 WSL 发行版（启动、停止、终止、取消注册）。 快速访问发行版终端、VS Code 和文件资源管理器。 实时 WSL 实例状态监控和显示。 导出并备份到 .tar 或压缩的 .tar.gz 存档。 从备份或现有发行版导入和克隆实例。 将大型 WSL 实例（VHDX 迁移）重新定位到其他磁盘以节省 C: 驱动器空间。 从 Microsoft Store 或GitHub。 内置 RootFS 下载帮助程序，用于手动安装。 详细了解 VHDX 文件位置、虚拟磁盘大小和实际磁盘使用情况。 该软件支持多种语言：英语、简体中文、繁体中文、日语、法语、西班牙语、俄语、葡萄牙语、德语、意大利语、土耳其语、印度尼西亚语、印地语和孟加拉语。  https://github.com/owu/wsl-dashboard 如果您发现这个开源项目有用，请在 GitHub 上加注星标。非常感谢！   由   提交/u/freecalf  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qir79v/wsl_dashboard_v010_releaseda_modern/</guid>
+      <pubDate>Wed, 21 Jan 2026 07:10:52 GMT</pubDate>
+    </item>
     <item>
       <title>Flutter ECS：性能优化和分析</title>
       <link>https://www.reddit.com/r/programming/comments/1qinnyc/flutter_ecs_performance_optimization_profiling/</link>
@@ -55,7 +83,7 @@
       <pubDate>Tue, 20 Jan 2026 22:20:48 GMT</pubDate>
     </item>
     <item>
-      <title>AGI 后的第二天：Demis Hassabis 和 Dario Amodei 在世界经济论坛上的讲话</title>
+      <title>AGI 后的第二天：Demis Hassabis 和 Dario Amodei 在世界经济论坛上的言论</title>
       <link>https://www.reddit.com/r/programming/comments/1qifiyj/the_day_after_agi_what_demis_hassabis_and_dario/</link>
       <description><![CDATA[ 由   提交 /u/Frequent-Football984   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qifiyj/the_day_after_agi_what_demis_hassabis_and_dario/</guid>
@@ -81,34 +109,6 @@
       <description><![CDATA[在过去的几个月里，我一直在学习人工智能代理并提高自己的技能。 我已将我的学习内容记入了详细的博客中。还包括适当的参考资料。 重点是了解代理如何在真实系统中推理、使用工具和采取行动。 - AI 代理、AI 工作流程及其差异 - 代理中的内存 - 工作流模式 - 代理模式 - 多代理模式   由   提交/u/Comfortable-Fan-580   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qicjir/understanding_ai_agents/</guid>
       <pubDate>Tue, 20 Jan 2026 20:30:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 SIMD 和 Zig 优化卫星位置计算</title>
-      <link>https://www.reddit.com/r/programming/comments/1qibtpn/optimizing_satellite_position_calculations_with/</link>
-      <description><![CDATA[关于我使用 Zig 每秒进行 11M+（~7M w python 绑定）卫星位置计算的优化技术的文章。 没有 GPU，只需小心的内存访问模式   由   提交 /u/Frozen_Poseidon   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qibtpn/optimizing_satellite_position_calculations_with/</guid>
-      <pubDate>Tue, 20 Jan 2026 20:03:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025-2026 年 WebAssembly 的现状</title>
-      <link>https://www.reddit.com/r/programming/comments/1qiahw1/the_state_of_webassembly_20252026/</link>
-      <description><![CDATA[ 由   提交 /u/Shnupaquia   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qiahw1/the_state_of_webassembly_20252026/</guid>
-      <pubDate>Tue, 20 Jan 2026 19:15:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLVM 采用“人在循环”政策进行人工智能/工具辅助贡献</title>
-      <link>https://www.reddit.com/r/programming/comments/1qi8vz4/llvm_adopts_human_in_the_loop_policy_for/</link>
-      <description><![CDATA[ 由   提交/u/Fcking_Chuck  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qi8vz4/llvm_adopts_human_in_the_loop_policy_for/</guid>
-      <pubDate>Tue, 20 Jan 2026 18:19:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>降低复杂性：扩展 C++ 代码的真正途径 - Malin Stanescu - CppCon 2025</title>
-      <link>https://www.reddit.com/r/programming/comments/1qi7jod/moving_complexity_down_the_real_path_to_scaling/</link>
-      <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qi7jod/moving_complexity_down_the_real_path_to_scaling/</guid>
-      <pubDate>Tue, 20 Jan 2026 17:33:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
