@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 22 Jan 2026 01:23:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 04:08:06 GMT</lastBuildDate>
+    <item>
+      <title>我构建了一个开源黑客工具！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qjh8zx/i_built_an_open_source_hacking_tool/</link>
+      <description><![CDATA[在我的安全研究过程中，我遇到了一个易受攻击的 Windows 内核驱动程序，该驱动程序暴露了不受保护的 IOCTLS，从而触发了导入的内核函数 ZwTermiateProcess。经过初步分析，尽管长期以来已知该驱动程序存在漏洞，但该驱动程序仍未被列入 Microsoft 黑名单。 我编写了一个 PoC 来演示恶意软件如何利用此签名驱动程序来篡改保护并终止 EDR 进程。 您可以在我的 GitHub 存储库上查看它： https://github.com/xM0kht4r/AV-EDR-Killer   由   提交 /u/Suspicious-Angel666   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qjh8zx/i_built_an_open_source_hacking_tool/</guid>
+      <pubDate>Thu, 22 Jan 2026 01:46:51 GMT</pubDate>
+    </item>
     <item>
       <title>Pedro Organiza 快速指南，跟进我上一篇文章</title>
       <link>https://www.reddit.com/r/opensource/comments/1qjgiq5/quick_guide_to_pedro_organiza_follow_up_from_my/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[ 由   提交/u/swe129  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qj4zd7/skip_is_now_free_and_open_source/</guid>
       <pubDate>Wed, 21 Jan 2026 17:55:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于打开 Clip Studio 文件的 FOSS 应用程序</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qj4g8e/foss_app_for_opening_clip_studio_files/</link>
-      <description><![CDATA[有没有一些开源应用程序可以用来打开和查看 .clip（clip studio Paint）文件，并将它们转换为 krita（或 gimp）可以使用的格式。 我没有自己的 Clip Studio Paint（或认识任何人），所以我无法将它们导出为不同的文件 我曾经使用过转换器脚本，但它也搞砸了颜色，所以我不认为这是一个选项   由   提交/u/Zonkko  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qj4g8e/foss_app_for_opening_clip_studio_files/</guid>
-      <pubDate>Wed, 21 Jan 2026 17:36:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
