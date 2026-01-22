@@ -4,20 +4,69 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 22 Jan 2026 15:27:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 18:27:21 GMT</lastBuildDate>
+    <item>
+      <title>构建密码系统 - Computerphile</title>
+      <link>https://www.reddit.com/r/programming/comments/1qk27e4/building_a_passkey_system_computerphile/</link>
+      <description><![CDATA[ 由   提交/u/CircumspectCapybara  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qk27e4/building_a_passkey_system_computerphile/</guid>
+      <pubDate>Thu, 22 Jan 2026 18:19:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个与 Sentry SDK 兼容的轻量级、自托管错误跟踪替代方案</title>
+      <link>https://www.reddit.com/r/programming/comments/1qk24wy/i_built_a_lightweight_selfhosted_error_tracking/</link>
+      <description><![CDATA[大家好！ 我一直在开发 Rustrak，这是一个开源错误跟踪系统，可以作为 Sentry 的直接替代品。 我构建此系统的原因： - Sentry 很棒，但对于较小的项目来说可能会很昂贵或过度杀伤力 - 自托管 Sentry 需要大量资源 - 我想要一些最小的东西，只是有效 它的不同之处： - 可与任何现有的 Sentry SDK（Python、JS、Go、Rust 等）配合使用 - 无需更改代码 - 约 50MB 内存占用（自托管 Sentry 需要 16GB 以上） - 单一二进制 + PostgreSQL，无 Redis 或复杂的基础设施 - &lt;50 毫秒摄取延迟 技术堆栈： - 后端：Rust + Actix-web - 前端：Next.js - 数据库：PostgreSQL 它还处于早期阶段，但功能齐全。您可以在几分钟内使用 Docker 启动并运行。 链接： - GitHub：https://github.com/AbianS/rustrak - 文档：https://abians.github.io/rustrak 希望获得反馈、错误报告或功能建议。很高兴回答任何问题！   由   提交/u/Zukonsio   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qk24wy/i_built_a_lightweight_selfhosted_error_tracking/</guid>
+      <pubDate>Thu, 22 Jan 2026 18:16:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我让 iPhone Agentic — 使用 Apple Intelligence 构建一个用于快捷方式的无头 Safari 应用程序</title>
+      <link>https://www.reddit.com/r/programming/comments/1qk1u66/i_made_iphone_agentic_building_a_headless_safari/</link>
+      <description><![CDATA[ 由   提交/u/derjanni   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qk1u66/i_made_iphone_agentic_building_a_headless_safari/</guid>
+      <pubDate>Thu, 22 Jan 2026 18:06:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建 Grafana 从未制作过的市场深度图</title>
+      <link>https://www.reddit.com/r/programming/comments/1qk1qwi/building_the_market_depth_chart_grafana_never_made/</link>
+      <description><![CDATA[自 2022 年以来，用户一直要求 Grafana 提供市场深度图可视化支持。三年多过去了，仍然没有内置的解决方案或第三方插件。如果您想实时查看订单簿深度，那么您就不走运了。 所以我构建了一个。在博客文章中，我讲述了市场深度图表的基础知识，并展示了我为 Plotly 插件编写的用于渲染它的 javascript。完整的代码可以在 Github 上找到。   由   提交/u/supercoco9  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qk1qwi/building_the_market_depth_chart_grafana_never_made/</guid>
+      <pubDate>Thu, 22 Jan 2026 18:02:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Playdate支持Go语言。编译器、SDK 绑定、工具和示例 ⚒️</title>
+      <link>https://www.reddit.com/r/programming/comments/1qk19kb/playdate_supports_go_language_compiler_sdk/</link>
+      <description><![CDATA[https://devforum.play.date/t/playdate-supports-go-language-compiler-sdk-bindings-tools-and-examples/24919   由   提交/u/AmorBielyi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qk19kb/playdate_supports_go_language_compiler_sdk/</guid>
+      <pubDate>Thu, 22 Jan 2026 17:45:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>发布 winapp，Windows 应用程序开发 CLI</title>
+      <link>https://www.reddit.com/r/programming/comments/1qk0vip/announcing_winapp_the_windows_app_development_cli/</link>
+      <description><![CDATA[ 由   提交/u/_AACO   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qk0vip/announcing_winapp_the_windows_app_development_cli/</guid>
+      <pubDate>Thu, 22 Jan 2026 17:31:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我仍然以工程经理的身份编写代码</title>
+      <link>https://www.reddit.com/r/programming/comments/1qjy33v/why_i_still_write_code_as_an_engineering_manager/</link>
+      <description><![CDATA[ 由   提交/u/Acceptable-Courage-9   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qjy33v/why_i_still_write_code_as_an_engineering_manager/</guid>
+      <pubDate>Thu, 22 Jan 2026 15:50:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenTelemetry 基准测试：AI 可以追踪您失败的登录吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1qjxubu/benchmarking_opentelemetry_can_ai_trace_your/</link>
+      <description><![CDATA[ 由   提交/u/jakozaur   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qjxubu/benchmarking_opentelemetry_can_ai_trace_your/</guid>
+      <pubDate>Thu, 22 Jan 2026 15:41:34 GMT</pubDate>
+    </item>
     <item>
       <title>软件工程师角色的快速演变</title>
       <link>https://www.reddit.com/r/programming/comments/1qjvtjf/the_rapid_evolution_of_software_engineers_role/</link>
       <description><![CDATA[ 由   提交 /u/Ribice   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qjvtjf/the_rapid_evolution_of_software_engineers_role/</guid>
       <pubDate>Thu, 22 Jan 2026 14:22:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>将编码代理作为受约束的、可观察的运行时而不是聊天来运行</title>
-      <link>https://www.reddit.com/r/programming/comments/1qjvj2b/running_coding_agents_as_a_constrained_observable/</link>
-      <description><![CDATA[我一直在尝试使用编码代理来完成更长、更复杂的任务，并且不断遇到同样的问题： 什么时候这不再是“更好的提示”问题，而是成为运行时设计问题？ 根据我的经验，一旦任务超过一定大小，失败模式就会相当一致：  早期的需求悄悄地被遗忘 重试循环振荡或永远不会收敛 不清楚代理在任何给定时刻正在做什么 成本和令牌使用实际上是无限的 多个任务在文件级别相互干扰  这些都不像模型质量问题。它们感觉更像是缺少约束。 帮助我的是，不要将代理视为助手，而更像是一个有界状态机：  明确的接受标准 对迭代、时间和成本的硬性限制 将验证作为门，而不是建议 任务级隔离而不是共享工作区 重试时的持久状态，而不是短暂的上下文  一旦我以这种方式重新构建问题，事情就变得更加可预测 - 但代价是速度和灵活性。 我很好奇这里的其他人如何看待这个问题：  您认为这些是当前代理的基本限制吗？ 您是否在自己的设置中引入了类似的“运行时约束”？ 您在灵活性和灵活性之间如何划清界限？控制？  对那些推动代理超越玩具任务的人的观点感兴趣。   由   提交/u/Valuable_Network_670   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qjvj2b/running_coding_agents_as_a_constrained_observable/</guid>
-      <pubDate>Thu, 22 Jan 2026 14:10:50 GMT</pubDate>
     </item>
     <item>
       <title>ZXC：另一个（太）快的解压器</title>
@@ -32,13 +81,6 @@
       <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qju2u4/effect_oriented_programming_bill_frasure_bruce/</guid>
       <pubDate>Thu, 22 Jan 2026 13:08:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>GIT AI - 生成 git 提交消息的 AI 工具</title>
-      <link>https://www.reddit.com/r/programming/comments/1qjtmgp/git_ai_an_ai_tool_that_generates_git_commit/</link>
-      <description><![CDATA[我厌倦了写“修复错误”和“更新代码”提交，所以我构建了 git-ai - 一个 CLI 工具，可以分析更改并使用 LLM 生成有意义的提交消息。  功能：   多提供商支持（也适用于本地模型） 用于完善消息的交互模式 传统提交格式  希望获得反馈！ GitHub： https://github.com/ajujohn2009/git-ai   由   提交/u/ajujohn2009   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qjtmgp/git_ai_an_ai_tool_that_generates_git_commit/</guid>
-      <pubDate>Thu, 22 Jan 2026 12:46:56 GMT</pubDate>
     </item>
     <item>
       <title>可验证的凭证欺骗：打破去中心化身份 (DID) 中的信任循环</title>
@@ -67,48 +109,6 @@
       <description><![CDATA[ 由   提交/u/mcfly-dev  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qjs9im/how_to_build_ios_home_widgets_in_flutter/</guid>
       <pubDate>Thu, 22 Jan 2026 11:37:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>我用 C 语言构建了一个受 Redis 启发的内存数据库，以了解 WAL、崩溃恢复和 TTL — 寻求设计反馈</title>
-      <link>https://www.reddit.com/r/programming/comments/1qjs71s/i_built_a_redisinspired_inmemory_database_in_c_to/</link>
-      <description><![CDATA[我一直在学习系统编程和数据库，因此我用 C 语言构建了一个受 Redis 启发的小型内存键值数据库。 功能： - 哈希表存储 - TTL 过期（主动 + 被动） - 具有崩溃恢复功能的预写日志 (AOF) - 日志压缩（重写） - REPL + 简单的 TCP 服务器 这是一个专注于正确性和架构而不是性能的学习项目。 我非常感谢以下方面的反馈： - 引擎设计 - 持久性方法 - AOF 重写逻辑 - 任何你会做的不同的事情 回购：https://github.com/pie-314/RadishDB   由   提交/u/Confident_Savings337  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qjs71s/i_built_a_redisinspired_inmemory_database_in_c_to/</guid>
-      <pubDate>Thu, 22 Jan 2026 11:33:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要迷恋复杂的技术</title>
-      <link>https://www.reddit.com/r/programming/comments/1qjs5rf/do_not_fall_for_complex_technology/</link>
-      <description><![CDATA[ 由   提交/u/f311a  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qjs5rf/do_not_fall_for_complex_technology/</guid>
-      <pubDate>Thu, 22 Jan 2026 11:31:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>清晰直观地解释 HTTPS 保护的内容</title>
-      <link>https://www.reddit.com/r/programming/comments/1qjrudc/a_clear_visual_explanation_of_what_https_protects/</link>
-      <description><![CDATA[ 由   提交 /u/Digitalunicon   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qjrudc/a_clear_visual_explanation_of_what_https_protects/</guid>
-      <pubDate>Thu, 22 Jan 2026 11:13:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>人们如何在本地重新启动时保留应用程序或代理状态？</title>
-      <link>https://www.reddit.com/r/programming/comments/1qjrnwo/how_are_people_persisting_application_or_agent/</link>
-      <description><![CDATA[我在不同的项目中不断遇到相同的问题，我很好奇其他人在实践中如何处理它。 当您构建有状态的东西时，无论是代理、长时间运行的工作流、本地服务还是边缘软件，内存中的状态都会在重新启动时消失。云服务解决了部分问题，但它们引入了延迟、成本和依赖性，而这些并不总是可以接受的，特别是当系统需要本地或离线运行时。 我最常看到的模式是启用持久性的 Redis、使用矢量数据库作为“内存”、在 Postgres 或 SQLite 中存储状态、编写临时文件或检查点，或者只是在启动时重建状态并希望它足够快。 所有这些方法都有效，但一旦频繁重启、状态变大、延迟需要可预测，或者系统无法承受预热或重建阶段，它们就会开始变得脆弱。在那个阶段，感觉就像我们在强迫工具去做它们并非真正设计的工作。 我真的不确定是否有一种干净的、被广泛接受的方法来处理这个问题，或者每个人是否只是在权衡中生活并继续前进。 今天这里的人们如何坚持状态或“记忆”？您的设置中首先出现的问题是什么？ Redis、数据库或 DIY 方法在什么时候不再值得使用？是否有一些模式实际上是我所缺少的？ 我问这个问题是因为我们正在花时间探索这个问题空间，并试图了解这对于其他人来说是小众烦恼还是真正的反复出现的痛苦。 如果这与您正在构建的东西相符，请告诉我。我们已经在本地构建了一些旨在解决这个问题的东西，我很高兴让感兴趣的人尝试一下或检查它是否真的有帮助。 （这不是促销，只是简单地看看它是否是一个解决方案）   由   提交/u/DetectiveMindless652   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qjrnwo/how_are_people_persisting_application_or_agent/</guid>
-      <pubDate>Thu, 22 Jan 2026 11:02:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 mojo 中构建快速梅尔谱图库（比 librosa 快 1.5-3.6 倍）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qjr1jd/building_a_fast_mel_spectrogram_library_in_mojo/</link>
-      <description><![CDATA[写下我在 Mojo 中优化音频预处理的经验。通过 9 次优化，30 秒音频的时间从 476 毫秒降至 27 毫秒。一些技术效果很好（稀疏滤波器组、旋转缓存），而其他技术则效果不佳（位反转 LUT、缓存阻塞）。 有趣的部分是与 librosa 的 Intel MKL 后端竞争。根据音频长度管理 1.5-3.6 倍的加速，并且一致性也更好。   由   提交/u/DevCoffee_  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qjr1jd/building_a_fast_mel_spectrogram_library_in_mojo/</guid>
-      <pubDate>Thu, 22 Jan 2026 10:26:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>我了解了 8 个版本的 UUID，并决定制作一个有关它的视频（无宣传片）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qjqcxb/i_learned_about_8_versions_of_uuids_and_decided/</link>
-      <description><![CDATA[我不是影响者，只是觉得这个话题有趣。   由   提交/u/aloneguid   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qjqcxb/i_learned_about_8_versions_of_uuids_and_decided/</guid>
-      <pubDate>Thu, 22 Jan 2026 09:44:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
