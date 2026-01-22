@@ -4,34 +4,34 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Wed, 21 Jan 2026 21:24:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 01:21:22 GMT</lastBuildDate>
+    <item>
+      <title>为什么身份约束可以稳定某些人工智能模型，而破坏其他模型的稳定性</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qjfbv0/why_identity_constraints_stabilize_some_ai_models/</link>
+      <description><![CDATA[人们越来越有兴趣为人工智能系统提供持久的“身份”，以减少漂移、提高一致性或支持长期行为。从经验来看，结果是不一致的：一些模型变得更加稳定，另一些模型变得脆弱或振荡，许多模型没有显示出有意义的变化。 这种不一致不是噪音，而是结构性的。 关键的错误是将身份视为语义或心理特征。在实践中，身份起到了对系统状态空间的约束的作用。它限制了哪些内部配置是可接受的，以及系统如何随着时间的推移在它们之间移动。 这种限制有两种相互竞争的效果：  漂移抑制 身份约束减少了系统漂移的自由度。随机偏差、瞬态模式和浅吸引子都会受到抑制。对于内部结构较弱的模型，这可以充当脚手架 - 有效地开辟出更连贯的操作盆地。 恢复瓶颈同样的约束也缩小了系统可用于从扰动中恢复的路径。当错误发生时，系统可用于返回稳定状态的有效轨迹就会减少。如果恢复已经需要灵活性，则同一性可能会使故障更加粘性而不是更加罕见。  哪种效应占主导地位取决于模型强加同一性之前的内在几何。  如果系统具有较低的内部刚度和广泛的恢复路径，则同一性通常会通过引入不存在的结构来提高稳定性。 如果系统已经在关键边界附近运行 - 恢复和故障的边界时间尺度很接近 - 身份可以将其推过该边界，增加脆弱性和灾难性漂移。 如果身份没有与模型的活动子空间紧密耦合，则其影响通常可以忽略不计。  这解释了为什么类似的“身份”技术在架构、规模和训练体系中产生相反的结果 - 而不调用对齐、目标或拟人化的自我概念。 要点并不在于身份是好还是坏。正是身份重塑了失败几何，而不是智力或意图。这种重塑是否有帮助取决于系统一开始的可恢复性程度。 我很想听听大家的意见：  身份在不提高平均性能的情况下降低了尾部风险， 身份增加了错误后的振荡或锁定， 或者身份效应因模型系列而不是提示风格而有很大差异。  这些模式正是这个框架所要表达的。预测。   由   提交 /u/skylarfiction   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qjfbv0/why_identity_constraints_stabilize_some_ai_models/</guid>
+      <pubDate>Thu, 22 Jan 2026 00:23:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我制作了一个 AI 节目 - 我可以听听你对我的 V0 的意见吗</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qjehaa/i_produce_an_ai_show_can_i_get_your_opinion_on_my/</link>
+      <description><![CDATA[所以我刚刚开始制作 Scott Stephenson AI Show。我本月早些时候接手了这个展会，这是我的第一个产品。  AI Show 是每周一次的节目，为对 AI 感兴趣且有思想的人们提供真正的价值：对 AI 感兴趣的专业人士、创始人和技术工作者、需要了解 AI 将如何影响他们的工作、财务和世界的 AI 股东。  你能给我你对这一集的真实反馈吗？ 什么是好的？他在哪里失去了你？你是否同意欧盟人工智能法是一个大问题？ https://youtu.be/Vh2caQny6bQ?si=kTW7459feBcRwYh8 我不认为这是自我推销，但我可以看到你可能不同意。我所要求的只是你们所有人直接对我说。谢谢 -- Moe `   由   提交/u/DazzlingBasket4848  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qjehaa/i_produce_an_ai_show_can_i_get_your_opinion_on_my/</guid>
+      <pubDate>Wed, 21 Jan 2026 23:47:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>那些警告人工智能危险的人这样做是为了进一步炒作人工智能</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qjblkj/the_people_who_warn_of_the_dangers_of_ai_are/</link>
+      <description><![CDATA[还有其他人也有这样的感觉吗？对我来说，这听起来就像一个毒贩告诉你，他们卖的东西非常好，非常有效，以至于可能会杀了你，目的是让人们认为他们卖的东西比实际情况更好。  每次听到人工智能兄弟提到这项技术如何摧毁人类时，我都会感到非常畏缩   由   提交 /u/hduckwklaldoje   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qjblkj/the_people_who_warn_of_the_dangers_of_ai_are/</guid>
+      <pubDate>Wed, 21 Jan 2026 21:55:45 GMT</pubDate>
+    </item>
     <item>
       <title>您想要一个讨论人工智能工具和在线业务的地方吗？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qj9upb/do_you_want_a_place_to_discuss_ai_tools_and/</link>
       <description><![CDATA[我已经工作了几个月，在 r/aisolobusinesses 创建我的社区。这是我们讨论在线业务以及人工智能在旅途中如何帮助我们的地方。无论您是在人工智能行业拥有独立的在线业务，还是您对在线业务有很好的想法，我们都将与您同在，一路为您提供帮助！如果您有兴趣加入对话，我将不胜感激！   由   提交 /u/NickyB808   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qj9upb/do_you_want_a_place_to_discuss_ai_tools_and/</guid>
       <pubDate>Wed, 21 Jan 2026 20:51:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>奥尔斯在他的收入中欺负我。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qj6itg/upskill_in_ai/</link>
-      <description><![CDATA[大家好， 我现在失业了，我想提高技能。 我的背景是机械工程和管理学硕士。我在软件或人工智能方面没有任何技能。  我从哪里开始，我应该做什么？大佬也能指点一下资源吗？  我想建立基本的理解，然后一旦我的基础准备就绪，就可以进一步推进 目前我所知道的就是向 ChatGPT 或 Gemeni 索要电子邮件、求职信和简历更新 我不能在课程或材料上花钱，所以我正在寻找免费的任何东西 请帮忙:)   由   提交/u/Kingslayer_96  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qj6itg/upskill_in_ai/</guid>
-      <pubDate>Wed, 21 Jan 2026 18:49:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI一致性是一个系统问题，而不是一个即时问题。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qj4n4j/ai_consistency_is_a_systems_problem_not_a_prompt/</link>
-      <description><![CDATA[我知道我拥有可能被视为“不公平”的优势：我不会从单一角度看待问题，而是跨多个层面和领域——物理、数学和算法设计。  我并不是在这里夸大自己；我说得很准确： 我的视野很广阔。它包含众多内容。  人工智能系统本质上是概率性的，而不是确定性的。通过像在传统确定性系统中那样处理不可预测的输出变化，您将无法获得所需的结果。  在许多情况下，简单地“抛光”就可以了。及时的框架不会稳定结果的一致性。这种方法将系统级问题视为表面级问题。  我永远不会对客户或在专业环境中这么说。尽管如此，与那些由于被称为邓宁-克鲁格效应的认知偏差而无法或不愿看到这种区别的人一起工作可能确实很困难（有时甚至令人沮丧）。   由   提交/u/omsome  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qj4n4j/ai_consistency_is_a_systems_problem_not_a_prompt/</guid>
-      <pubDate>Wed, 21 Jan 2026 17:43:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立人工智能与创意社区</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qj4ggf/building_an_ai_creative_community/</link>
-      <description><![CDATA[嘿！我是一家创意机构的成员，该机构正在推出人工智能和创意中心。我们的目标是创建一个社区，在这里我们可以讨论人工智能的进步，展示创意作品，并探索广告和电影中技术与设计的交叉点。  我们希望从社区收集有关您希望在这样的中心看到什么的见解。您认为哪些内容、讨论或功能有价值？我们也有兴趣关注有才华的人工智能艺术家和创意专业人士，并可能提供奖项来表彰杰出的作品。  我很想听听您的想法和反馈！如果您有兴趣合作或分享您的工作，请随时与我们联系。  谢谢你们，我很高兴能与你们大家联系！   由   提交/u/biomarino13  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qj4ggf/building_an_ai_creative_community/</guid>
-      <pubDate>Wed, 21 Jan 2026 17:36:26 GMT</pubDate>
     </item>
     <item>
       <title>使用人工智能进行研究是一把极其锋利的双刃剑：一个职场警示故事</title>
@@ -85,7 +85,7 @@
     <item>
       <title>我停止使用单一角色。我使用提示“会议室模拟”来迫使人工智能进行自我辩论。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qipa7h/i_stopped_using_single_personas_i_use_the_prompt/</link>
-      <description><![CDATA[我意识到分配单个名称（例如“充当开发人员”）是危险的。它创造了“隧道视野”。开发人员角色会建议技术上完美但可能成为用户体验噩梦的代码。 我不再寻求答案。我开始要求辩论。 “三人委员会”协议： 在做出最终建议之前，我迫使法学硕士承担三个有冲突的利益相关者之间的会议的角色。 提示： 我的目标：[我想启动一个新功能：深色模式]。 理事会：模拟以下人员之间的圆桌讨论：  产品经理（重点：用户价值）。 首席工程师（重点：技术债务和难度）。 首席财务官（重点：投资回报率和成本）。  行动： ● 让他们争论。 “用户喜欢它，”总理说；工程师必须回答“它需要重构所有CSS。” ● 结论：辩论后，担任首席执行官并最终决定权衡。 为什么获胜： 它解决了“盲点”。 相反，我得到了现实的风险分析，而不是幻觉的“是”。 AI 经常这样评价我：“工程师说这将推迟发布 2 周。首席执行官决定推迟发布。” 它模拟批判性思维，而不仅仅是文本的生成。    提交者   /u/cloudairyhq   [链接] [评论]]]></description>
+      <description><![CDATA[我意识到分配单个名称（例如“充当开发人员”）是危险的。它创造了“隧道视野”。开发人员角色会建议技术上完美但可能成为用户体验噩梦的代码。 我不再寻求答案。我开始要求辩论。 “三人委员会”协议： 在做出最终建议之前，我迫使法学硕士在三个有冲突的利益相关者之间承担会议的角色。 提示： 我的目标：[我想启动一个新功能：深色模式]。 理事会：模拟以下人员之间的圆桌讨论：  产品经理（重点：用户价值）。 首席工程师（重点：技术债务和难度）。 首席财务官（重点：投资回报率和成本）。  行动： ● 让他们争论。 “用户喜欢它，”总理说；工程师必须回答“它需要重构所有CSS。” ● 结论：辩论后，担任首席执行官并最终决定权衡。 为什么获胜： 它解决了“盲点”。 相反，我得到了现实的风险分析，而不是幻觉的“是”。 AI 经常这样评价我：“工程师说这将推迟发布 2 周。首席执行官决定推迟发布。” 它模拟批判性思维，而不仅仅是文本的生成。    提交者   /u/cloudairyhq   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qipa7h/i_stopped_using_single_personas_i_use_the_prompt/</guid>
       <pubDate>Wed, 21 Jan 2026 05:25:46 GMT</pubDate>
     </item>
