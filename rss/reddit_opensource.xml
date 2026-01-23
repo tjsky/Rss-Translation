@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 23 Jan 2026 06:29:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 09:27:58 GMT</lastBuildDate>
+    <item>
+      <title>帮助调试生产事件的开源人工智能代理</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qkkf6m/an_open_source_ai_agent_to_help_debug_production/</link>
+      <description><![CDATA[我最近开源了一个我构建的 AI 代理，用于帮助调试生产事件。 当产品损坏时，需要花费大量时间来重建上下文。警报、日志、票证、注释和临时检查最终分散在不同的工具中，人们重复相同的工作或提出相同的问题，因为没有人清楚地了解已经查看过的内容。 代理与事件一起运行，并且：  将警报、日志和注释放在一起 持续总结已知和尚不清楚的内容 跟踪检查和操作，以便工作不重复 建议缓解措施（服务重启、配置回滚、修复 PR），但一切都需要明确的人工批准  这是故意保守的。没有自动修复，未经人工批准，后台不会发生任何事情。 这是第一个开源版本。它在本地运行，自述文件包括设置说明和演示。 存储库：https://github.com/incidentfox/incidentfox   由   提交 /u/Useful-Process9033   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qkkf6m/an_open_source_ai_agent_to_help_debug_production/</guid>
+      <pubDate>Fri, 23 Jan 2026 07:26:35 GMT</pubDate>
+    </item>
     <item>
       <title>我为 Linux 和 Android 构建了一个开源、本地优先的 Things 3 替代品（React Native + Tauri）</title>
       <link>https://www.reddit.com/r/opensource/comments/1qkgq9k/i_built_an_opensource_localfirst_alternative_to/</link>
@@ -36,7 +43,7 @@
     <item>
       <title>我开源了 macOS 应该内置的鼠标中键</title>
       <link>https://www.reddit.com/r/opensource/comments/1qk8c0i/i_opensourced_the_middle_mouse_button_macos/</link>
-      <description><![CDATA[   多年来，我一直对 Mac 触控板上不存在像中键单击这样基本的功能感到沮丧。确实存在的解决方案是：  付费 - BetterTouchTool（10-24美元），中级（8美元） 废弃 - MagicPrefs几年前就停止工作了 仅CLI - MiddleClick需要终端配置，没有GUI  这样的基本功能是付费的或被保留的，这感觉不对腐烂。因此，我构建了 MiddleDrag 并在 MIT 下发布了它。 它的作用： 三指点击用于中键单击，三指拖动用于中键拖动。与任务控制一起工作 - 您不必禁用系统手势。 为什么要开源它？ 中键单击不是一项高级功能。这是苹果只是……没有实施的基本输入。收取 8 美元的费用或将其埋在 24 美元的生产力套件中，感觉就像对买不起外部鼠标的人征税。我想要一些可以正常工作、免费、并且在我被公交车撞到时可以由社区维护的东西。 网站：https://middledrag.app GitHub：https://github.com/NullPointerDepressiveDisorder/MiddleDrag 安装：brew tap nullpointerdepressivedisorder/tapbrew install --cask middledrag如果您发现它有用，GitHub 上的星星确实会有所帮助 - 我正在努力达到 75 颗星以获得官方 Homebrew 存储库的资格。如果您想贡献或跟踪更新，也欢迎分叉和观察者。 很乐意回答有关实施的问题、修复错误或接受功能请求。不要害怕公关！   由   提交 /u/KKMAWESOME   [链接] [评论] ]]></description>
+      <description><![CDATA[   多年来，我一直对 Mac 触控板上不存在像中键单击这样基本的功能感到沮丧。确实存在的解决方案是：  付费 - BetterTouchTool（10-24美元），中级（8美元） 废弃 - MagicPrefs几年前就停止工作了 仅CLI - MiddleClick需要终端配置，没有GUI  这样的基本功能是付费的或被保留的，这感觉不对腐烂。因此，我构建了 MiddleDrag 并在 MIT 下发布了它。 它的作用： 三指点击用于中键单击，三指拖动用于中键拖动。与任务控制一起工作 - 您不必禁用系统手势。 为什么要开源它？ 中键单击不是一项高级功能。这是苹果只是……没有实现的基本输入。收取 8 美元的费用或将其埋在 24 美元的生产力套件中，感觉就像对买不起外部鼠标的人征税。我想要一些可以正常工作、免费、并且在我被公交车撞到时可以由社区维护的东西。 网站：https://middledrag.app GitHub：https://github.com/NullPointerDepressiveDisorder/MiddleDrag 安装：brew tap nullpointerdepressivedisorder/tapbrew install --cask middledrag如果您发现它有用，GitHub 上的星星确实会有所帮助 - 我正在努力达到 75 颗星以获得官方 Homebrew 存储库的资格。如果您想贡献或跟踪更新，也欢迎分叉和观察者。 很乐意回答有关实施的问题、修复错误或接受功能请求。不要害怕公关！   由   提交 /u/KKMAWESOME   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qk8c0i/i_opensourced_the_middle_mouse_button_macos/</guid>
       <pubDate>Thu, 22 Jan 2026 22:05:48 GMT</pubDate>
     </item>
@@ -57,7 +64,7 @@
     <item>
       <title>重塑开源（和 Arc Raiders）品牌</title>
       <link>https://www.reddit.com/r/opensource/comments/1qk6129/rebranding_open_source_and_arc_raiders/</link>
-      <description><![CDATA[我最近开始在我的 Steam Deck 上玩很多 Arc Raiders。对于那些不熟悉的人来说，这是一款像《堡垒之夜》一样的游戏，你必须自己制作枪支、弹药等，如果你在一轮中死亡，你就会失去一切。  在每轮开始时，您可以制作（或购买）枪支/弹药或使用“免费装载”武器。 - 非常基本的物品套装，具有最低限度。一直使用免费负载有点被人看不起。  你还可以在一轮中抢劫以获得制作材料、枪支和弹药......以及蓝图。  蓝图解锁了制作特定物品的能力，否则你必须用游戏内的钱购买或在一轮中偶然遇到这些物品。通常，根据蓝图构建物品所使用的材料所使用的资源远少于购买该物品所需的游戏内金钱。  我一直在思考开源和“品牌问题”。它确实如此，许多公司类型认为对于大学生来说这些都是不可靠的东西，可以修补，但不适合严肃的业务，除了一两个例外。  但是在玩《Arc Raiders》时，令我印象深刻的是，出于某种原因，使用开源（如啤酒中的免费）被视为使用“免费加载”。 - 例如，Android 因为 iPhone 很贵，Linux 因为你买不起 Mac，LibreOffice 因为 Office 365 太贵等等。没有传达的是开源（自由中的免费）就是拥有蓝图。事实上，它像啤酒一样免费，这只是一个额外的好处。 有点漫无目的/随意的想法，但希望《Arc Raiders》玩家们能理解我在说什么。    由   提交 /u/Last_Bad_2687   [链接] [评论]]]></description>
+      <description><![CDATA[我最近开始在我的 Steam Deck 上玩很多 Arc Raiders。对于那些不熟悉的人来说，这是一款像《堡垒之夜》一样的游戏，你必须自己制作枪支、弹药等，如果你在一轮中死亡，你就会失去一切。  在每轮开始时，您可以制作（或购买）枪支/弹药或使用“免费装载”武器。 - 一个非常基本的物品套装，具有最低限度。一直使用免费负载有点被人看不起。  你还可以在一轮中抢劫以获得制作材料、枪支和弹药......以及蓝图。  蓝图解锁了制作特定物品的能力，否则你必须用游戏内的钱购买或在一轮中偶然遇到这些物品。通常，根据蓝图构建物品所使用的材料所使用的资源远少于购买该物品所需的游戏内金钱。  我一直在思考开源和“品牌问题”。它确实如此，许多公司类型认为对于大学生来说这些都是不可靠的东西，可以修补，但不适合严肃的业务，除了一两个例外。  但是在玩《Arc Raiders》时，令我印象深刻的是，出于某种原因，使用开源（如啤酒中的免费）被视为使用“免费加载”。 - 例如，Android 因为 iPhone 很贵，Linux 因为你买不起 Mac，LibreOffice 因为 Office 365 太贵等等。没有传达的是开源（自由中的免费）就是拥有蓝图。事实上，它像啤酒一样免费，这只是一个额外的好处。 有点漫无目的/随意的想法，但希望《Arc Raiders》玩家们能理解我在说什么。    由   提交 /u/Last_Bad_2687   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qk6129/rebranding_open_source_and_arc_raiders/</guid>
       <pubDate>Thu, 22 Jan 2026 20:37:31 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好！来自 xmcp.dev 的 Koller 签到。我们正在构建一个专门用于创建 MCP 服务器的开源 TypeScript 框架，以开发人员体验 (DX) 作为首要任务 - 考虑文件系统路由、单命令设置、Next.js/Express/Nest 的即插即用、WorkOS/Clerk/Auth0/Better-Auth 的身份验证等等。 我们最近添加了一些可靠的好东西第一个问题，并且真诚地希望社区做出贡献来帮助项目发展！ 您可以在此处    查看它们。由   提交 /u/0xKoller   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qk114b/help_us_build_the_goto_typescript_framework_for/</guid>
       <pubDate>Thu, 22 Jan 2026 17:36:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Golang 对 Playdate 手持设备的支持。编译器、SDK 绑定、工具和示例</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qk0scx/golang_support_for_playdate_handheld_compiler_sdk/</link>
-      <description><![CDATA[       由   提交/u/AmorBielyi   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qk0scx/golang_support_for_playdate_handheld_compiler_sdk/</guid>
-      <pubDate>Thu, 22 Jan 2026 17:28:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
