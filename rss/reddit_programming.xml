@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 23 Jan 2026 04:04:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 06:28:36 GMT</lastBuildDate>
+    <item>
+      <title>我使用自己的 Lexer、Parser、AST 和 Interpreter 构建了自定义 DSL</title>
+      <link>https://www.reddit.com/r/programming/comments/1qkjbqf/i_built_a_custom_dsl_with_my_own_lexer_parser_ast/</link>
+      <description><![CDATA[但是为什么？ 下一代 DSA Visualizer  算法运行时的实时可视化 数组、堆栈、图形和 2D 结构的清晰视图 并排代码和执行状态  而不是执行真正的 C++/Java 代码， DSL 是逐步解释的，允许：  完全控制执行顺序 每个步骤后精确的状态捕获 可靠的前向/后向步进  该项目仍在发展，我正在积极完善它。如果您发现错误、不正确的行为或边缘情况，我将非常感谢反馈。   由   提交/u/Crafty_Dance_7271   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qkjbqf/i_built_a_custom_dsl_with_my_own_lexer_parser_ast/</guid>
+      <pubDate>Fri, 23 Jan 2026 06:22:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源：完整的声誉协议实施（身份、证明、治理、隐私）</title>
+      <link>https://www.reddit.com/r/programming/comments/1qkirg1/opensourced_a_full_reputation_protocol/</link>
+      <description><![CDATA[我开源了名为 BitRep 的信誉协议的完整实现，该协议围绕可验证的身份、证明、信任传播和治理逻辑构建。 存储库： https://github.com/bitrep-core/bitrep-attestations/tree/copilot/enhance-attestation-identity-governance 项目包含内容  加密身份系统 (RSA密钥对、验证端点） 具有相互验证和抗女巫攻击集群的签名证明 使用修改后的 PageRank 模型进行声誉评分 具有声誉加权投票和二次缩放的治理层 用于选择性披露的零知识证明框架 用于导入第三方的集成层证明（GitHub、eBay、LinkedIn、StackOverflow） 完整的 FastAPI 后端，可通过 28/28 测试且 CodeQL 干净  为什么程序员可能会感兴趣 该项目结合了多个领域：密码学、基于图形的评分、API 设计、隐私机制和治理逻辑。 实现是模块化的、文档化的，并且结构化，可以扩展或扩展 如果您想探索或贡献 该存储库包括 API 文档、实现说明和安全注意事项。 欢迎提供反馈、问题或贡献。   由   提交 /u/UnlikelyZombie9933   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qkirg1/opensourced_a_full_reputation_protocol/</guid>
+      <pubDate>Fri, 23 Jan 2026 05:52:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google 通用商务协议</title>
+      <link>https://www.reddit.com/r/programming/comments/1qkgqx8/google_universal_commerce_protocol/</link>
+      <description><![CDATA[ 由   提交 /u/EnvironmentalCash968   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qkgqx8/google_universal_commerce_protocol/</guid>
+      <pubDate>Fri, 23 Jan 2026 04:12:16 GMT</pubDate>
+    </item>
     <item>
       <title>地下抵抗组织旨在利用有毒数据破坏人工智能</title>
       <link>https://www.reddit.com/r/programming/comments/1qkfxlz/underground_resistance_aims_to_sabotage_ai_with/</link>
@@ -55,7 +76,7 @@
       <pubDate>Thu, 22 Jan 2026 21:57:54 GMT</pubDate>
     </item>
     <item>
-      <title>向 Android (LineageOS) 添加两步验证</title>
+      <title>向 Android (LineageOS) 添加两因素身份验证</title>
       <link>https://www.reddit.com/r/programming/comments/1qk8120/adding_two_factor_authentication_to_android/</link>
       <description><![CDATA[ 由   提交 /u/CackleRooster   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qk8120/adding_two_factor_authentication_to_android/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/brightlystar  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qk6gvw/treesitter_vs_lsp/</guid>
       <pubDate>Thu, 22 Jan 2026 20:54:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>反对降价</title>
-      <link>https://www.reddit.com/r/programming/comments/1qk65qk/against_markdown/</link>
-      <description><![CDATA[ 由   提交/u/aartaka  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qk65qk/against_markdown/</guid>
-      <pubDate>Thu, 22 Jan 2026 20:42:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的微服务架构正在失败，因为您的产品拓扑一团糟</title>
-      <link>https://www.reddit.com/r/programming/comments/1qk32sr/your_microservices_architecture_is_failing/</link>
-      <description><![CDATA[ 由   提交/u/ArtisticProgrammer11  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qk32sr/your_microservices_architecture_is_failing/</guid>
-      <pubDate>Thu, 22 Jan 2026 18:50:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>拥抱局限性</title>
-      <link>https://www.reddit.com/r/programming/comments/1qk2qak/embrace_limitations/</link>
-      <description><![CDATA[为什么编写自定义编程语言作为应用程序的一部分就像在死亡线上与西西里人对抗   由   提交 /u/me_again   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qk2qak/embrace_limitations/</guid>
-      <pubDate>Thu, 22 Jan 2026 18:37:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
