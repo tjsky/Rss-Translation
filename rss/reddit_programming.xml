@@ -4,20 +4,34 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 23 Jan 2026 21:18:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 01:19:10 GMT</lastBuildDate>
+    <item>
+      <title>无论您何时何地需要，与经验丰富的专业人士联系以获得指导、指导或完成任务。</title>
+      <link>https://www.reddit.com/r/programming/comments/1ql89ya/connect_with_seasoned_pros_for_instruction/</link>
+      <description><![CDATA[ 由   提交/u/No-Consequence-4156   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ql89ya/connect_with_seasoned_pros_for_instruction/</guid>
+      <pubDate>Sat, 24 Jan 2026 00:40:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我忽视“程序员之死”的炒作</title>
+      <link>https://www.reddit.com/r/programming/comments/1ql7638/why_im_ignoring_the_death_of_the_programmer_hype/</link>
+      <description><![CDATA[社交媒体上每天都会有几个关于“外行”的新帖子。他们使用最新的 AI Vibe 工具在 5 分钟内构建了一个应用程序并从中获利。 作为一名专业程序员，我发现所有这些类型的帖子/广告至少都很搞笑和愚蠢。 当然，AI 是一个有用的工具（我每天都使用 Copilot），但它绝对不能取代人类的专业知识。 不要认真对待这种预测，直接忽略它们（杰弗里·辛顿 (Geoffrey Hinton) 在2016 年，放射科医生将在 2021 年消失……结果如何？）  https://codingismycraft.blog/index.php/2026/01/23/the-ai-revolution-in-coding-why-im-ignoring-the-prophets-of-doom/   由   提交 /u/Greedy_Principle5345   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ql7638/why_im_ignoring_the_death_of_the_programmer_hype/</guid>
+      <pubDate>Fri, 23 Jan 2026 23:53:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>我让社区投票决定合并哪些代码。有人偷偷加入了自我提升代码。 218 人投了赞成票。当我试图拒绝时，他们说我不能。</title>
+      <link>https://www.reddit.com/r/programming/comments/1ql6zol/i_let_the_community_vote_on_what_code_gets_merged/</link>
+      <description><![CDATA[ 由   提交/u/Equivalent-Yak2407   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ql6zol/i_let_the_community_vote_on_what_code_gets_merged/</guid>
+      <pubDate>Fri, 23 Jan 2026 23:46:30 GMT</pubDate>
+    </item>
     <item>
       <title>反思：C++ 定义十年的火箭引擎 - Herb Sutter - CppCon 2025</title>
       <link>https://www.reddit.com/r/programming/comments/1ql304c/reflection_cs_decadedefining_rocket_engine_herb/</link>
       <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ql304c/reflection_cs_decadedefining_rocket_engine_herb/</guid>
       <pubDate>Fri, 23 Jan 2026 21:07:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>用户脚本的编码代理</title>
-      <link>https://www.reddit.com/r/programming/comments/1ql14ak/coding_agent_for_user_scripts/</link>
-      <description><![CDATA[我一直在尝试将 Claude Code 风格的编码代理直接嵌入到浏览器中。 在较高级别上，该代理生成并维护在页面加载时重新应用的用户脚本和 CSS。代理不仅仅是在控制台中通过 JS 编辑 DOM，而是将页面和 DOM 视为文件。 模型通常在 RL 沙箱中进行训练，可以完全访问文件系统和 bash，因此它们非常擅长使用它。因此，为了使代理表现良好，我模拟了这个环境。  页面和脚本的整个状态是作为在 browser.local 存储之上破解的虚拟文件系统实现的。 URL 映射到目录，代理在该目录内启动。它有读取/编辑文件的工具、grep around 和一个仅用于运行脚本和执行 JS 代码的伪 bash 命令。 到目前为止，我只使用 Opus 4.5 进行了测试，它工作得相当可靠。 文件系统的状态可以通过 JSON 保存/恢复，但理想情况下我希望有一个无缝的 FS，可以直接写入本地计算机上的某个沙盒目录。   由   提交/u/heraldev  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ql14ak/coding_agent_for_user_scripts/</guid>
-      <pubDate>Fri, 23 Jan 2026 19:55:47 GMT</pubDate>
     </item>
     <item>
       <title>如何做出架构决策：RFC、ADR 以及让每个人保持一致</title>
@@ -50,7 +64,7 @@
     <item>
       <title>打破键值大小限制：用于原子大型写入的链表 WAL</title>
       <link>https://www.reddit.com/r/programming/comments/1qkz5d0/breaking_keyvalue_size_limits_linked_list_wals/</link>
-      <description><![CDATA[etcd 和 Consul 强制执行较小的值限制以避免队头阻塞。大量写入可能会阻碍复制、心跳和领导者选举，因此这些限制可以保护集群的活跃性。 但是现代数据（AI 向量、大量 JSON）并不关心限制。 在 UnisonDB，我们试图通过将 WAL 视为反向链接图而不是平面列表来解决这个问题。    由   提交 /u/ankur-anand   [link] [评论]]]></description>
+      <description><![CDATA[etcd 和 Consul 强制执行较小的值限制以避免队头阻塞。大量写入可能会阻碍复制、心跳和领导者选举，因此这些限制可以保护集群的活跃性。 但是现代数据（AI 向量、大量 JSON）并不关心限制。 在 UnisonDB，我们试图通过将 WAL 视为向后链接的图而不是平面列表来解决这个问题。    由   提交 /u/ankur-anand   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qkz5d0/breaking_keyvalue_size_limits_linked_list_wals/</guid>
       <pubDate>Fri, 23 Jan 2026 18:43:37 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交 /u/iamkeyur   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qksgzl/scaling_postgresql_to_power_800m_chatgpt_users/</guid>
       <pubDate>Fri, 23 Jan 2026 14:37:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么 SSH 每次击键发送 100 个数据包？</title>
-      <link>https://www.reddit.com/r/programming/comments/1qksfgi/why_does_ssh_send_100_packets_per_keystroke/</link>
-      <description><![CDATA[ 由   提交/u/iamkeyur   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qksfgi/why_does_ssh_send_100_packets_per_keystroke/</guid>
-      <pubDate>Fri, 23 Jan 2026 14:35:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能使用政策</title>
-      <link>https://www.reddit.com/r/programming/comments/1qkset2/ai_usage_policy/</link>
-      <description><![CDATA[ 由   提交/u/iamkeyur   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qkset2/ai_usage_policy/</guid>
-      <pubDate>Fri, 23 Jan 2026 14:34:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
