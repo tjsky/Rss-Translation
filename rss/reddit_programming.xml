@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 25 Jan 2026 01:27:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 04:13:30 GMT</lastBuildDate>
+    <item>
+      <title>通过混合搜索 + 重新排名将 7,432 页旧文档转换为 3 秒查询</title>
+      <link>https://www.reddit.com/r/programming/comments/1qm7u5z/7432_pages_of_legacy_docs_to_3s_queries_with/</link>
+      <description><![CDATA[为已有 20 年历史的 Essbase 文档构建了 RAG 系统。混合检索（BM25 + 矢量搜索）与 FlashRank 重新排名。经过 4 个 LLM 系列的验证，以避免供应商锁定。 170 秒建立索引，3 秒查询，每年 20 美元的运营成本。写了它是如何工作的。   由   提交/u/antidrugue  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qm7u5z/7432_pages_of_legacy_docs_to_3s_queries_with/</guid>
+      <pubDate>Sun, 25 Jan 2026 03:22:58 GMT</pubDate>
+    </item>
     <item>
       <title>高流量系统中的连接耗尽</title>
       <link>https://www.reddit.com/r/programming/comments/1qm4lyi/connection_exhaustion_in_hightraffic_systems/</link>
@@ -81,13 +88,6 @@
       <description><![CDATA[ 由   提交/u/Helpful_Geographer430   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qlvwea/googles_universal_commerce_protocol_ucp/</guid>
       <pubDate>Sat, 24 Jan 2026 19:12:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>编写一个通用的 JSON.stringify 来序列化任何 C 结构？通过反射使其成为可能的实验</title>
-      <link>https://www.reddit.com/r/programming/comments/1qluj9z/writing_a_generic_jsonstringify_that_serializes/</link>
-      <description><![CDATA[C 没有模板，也没有本机反射，这通常会导致一个熟悉的问题：任何时候您需要序列化、验证、克隆或遍历结构时，最终都会重复编写相同的逻辑或为每种类型生成大量样板代码。 减少这种重复的一种方法是将元数据生成与运行时逻辑分开。 这篇文章着眼于 Reflect-C，一个探索这一想法的小型 C 项目：它不是为每种类型生成序列化器/解析器，而是在构建时仅生成一个元数据层，然后使用该元数据驱动通用运行时代码。 核心思想 在构建时：  类型在类似 DSL 的“配方”标头中描述一次 生成器发出描述字段名称、类型、偏移量、限定符等的静态元数据。  在运行时：  实例被包装在轻量级反射句柄中 通用代码迭代元数据以统一检查或操作字段  重要的约束是不会发生运行时类型发现。所有信息在编译时都是已知的，并以纯 C 数据结构的形式发出。 为什么这在 C 中很有趣 没有模板或泛型，C 代码通常将逻辑与类型结合起来。例如，JSON 序列化通常会变成：  每个结构一个函数 或者发出完整序列化器的大型代码生成步骤  通过仅生成元数据，通用逻辑（JSON、二进制编码、验证、比较等）可以驻留在一个地方并适用于许多不相关的结构！这会将代码生成从行为转变为描述。 最小示例：通用 JSON stringify /* C 中的通用 JSON.stringify() */ static void json_stringify(const struct Reflectc_wrap *obj, char buf[], size_t bufsize) { /* 迭代字段，检查类型信息，发出 JSON */ }  在调用站点，不需要每种类型的序列化器： struct person alice = {“Alice”, 30, true, “alice@example.com”};结构reflectc*registry=reflectc_init(); struct Reflectc_wrap *w = Reflectc_from_person(registry, &amp;alice, NULL);字符 json[256]； json_stringify(w, json, sizeof json);  序列化器只能看到元数据+指针，而不是具体类型。 完整的工作实现可以在这里找到：https://github.com/lcsmuller/reflect-c/blob/master/test/runtime.c 设计约束和权衡 这种方法故意避免：  动态类型 ABI 自省 编译器插件或 AST 工具  作为交换，它需要：  生成元数据的构建步骤 通过配方标头显式选择加入  结果不是“真正的反射”，而是一种在 C 的约束范围内工作的务实的中间立场，并保持运行时代码简单和可重用。 何时这种模式有意义  REST API 规范包装器（我的主要用例） 协议或序列化层 验证和检查工具 类型定义稳定但逻辑不断发展的情况  这不是灵丹妙药，但它是重新思考 C 语言密集型代码库中实际需要多少重复的有趣方法。   由   提交 /u/LucasMull   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qluj9z/writing_a_generic_jsonstringify_that_serializes/</guid>
-      <pubDate>Sat, 24 Jan 2026 18:23:28 GMT</pubDate>
     </item>
     <item>
       <title>RustyPP：一个 C++20 库和 Clang 工具，用于强制执行类似 Rust 的安全性和可变性。</title>
