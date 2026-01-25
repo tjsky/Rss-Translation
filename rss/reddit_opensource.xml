@@ -4,20 +4,62 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 25 Jan 2026 12:35:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 15:17:19 GMT</lastBuildDate>
+    <item>
+      <title>[展示] Laravel Modular - 寻找反馈和贡献者的新模块化架构</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qmk75d/showcase_laravel_modular_a_new_modular/</link>
+      <description><![CDATA[大家好， 我是 Ali，我刚刚开源了一个新的 Laravel 包：Laravel Modular。 它的目标是为 Laravel 11/12 提供一个专业的、严格类型的模块化系统。它具有零配置自动加载功能，并覆盖 29 多个 Artisan 命令，使模块化开发感觉像是框架的本机部分。 我在架构完整性和性能方面投入了大量工作，但作为一个开源项目，它总是可以做得更好。我正在寻找反馈、功能请求或热衷于干净架构的贡献者。 主要亮点： - 严格类型化、解耦架构 - 29+ Artisan 命令覆盖，实现无缝模块化工作流程 - 零配置自动加载集成 - 适用于生产环境的内置发现缓存 - 现代资产的无缝 Vite 集成管理 - MIT 许可 GitHub：https://github.com/AlizHarb/laravel-modular 感谢您查看！我真诚地感谢您提供的任何反馈或贡献。   由   提交 /u/harbzali   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qmk75d/showcase_laravel_modular_a_new_modular/</guid>
+      <pubDate>Sun, 25 Jan 2026 14:15:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了“Zombie”：TUI 流程管理器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qmjsfg/i_built_zombie_a_tui_process_manager/</link>
+      <description><![CDATA[Repo： https://github.com/NVSRahul/zombie 我一直在开发一个名为 Zombie 的工具。它是用 Rust 构建的。 它具有的功能：  图形模式：可视化进程树层次结构。 仪表板：用于清晰的 SysInfo。 排序： 按 CPU、内存或 PID 快速排序。 管理：终止、重新启动或清理无效进程。 检查：查看命令、环境变量、启动时间、运行时间、标签、注释和目录。 标签和目录。注释：为流程写入标签和注释    由   提交/u/NVSRahul  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qmjsfg/i_built_zombie_a_tui_process_manager/</guid>
+      <pubDate>Sun, 25 Jan 2026 13:58:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>IronCalc v0.7.1 发布，带有国际化功能（电子表格引擎）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qmjrct/ironcalc_v071_released_with_internationalization/</link>
+      <description><![CDATA[大家好，我想分享我们发布的 IronCalc v0.7.1。开源电子表格引擎 这是我们在多种语言和区域设置中的第一个版本（！）它仍在进行中，我们预计今年将推出 1.0.0 版本:) 这是有关发布的博客文章： https://blog.ironcalc.com/2026/01/25/Changelog-v0.7.1.html 这是 MIT/Apache 源代码： https://github.com/ironcalc/IronCalc   由   提交/u/nicolas_hatcher  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qmjrct/ironcalc_v071_released_with_internationalization/</guid>
+      <pubDate>Sun, 25 Jan 2026 13:56:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>(AudioWave) 一个轻量级的 Winamp 风格的音频播放器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qmjk2i/audiowave_a_lightweight_winampstyle_audio_player/</link>
+      <description><![CDATA[我一直在为 Linux 开发一个轻量级的、受 Winamp 启发的音频播放器，名为 AudioWave。 源代码： GitHub：https://github.com/Kosava/AudioWave Flatpak / AppImage构建在 git 中。 https://github.com/Kosava/AudioWave/releases 这仍然是一个早期项目，因此非常欢迎反馈、错误报告和建议。    由   提交 /u/Kalen1987   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qmjk2i/audiowave_a_lightweight_winampstyle_audio_player/</guid>
+      <pubDate>Sun, 25 Jan 2026 13:48:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求有关收据扫描仪的帮助以获取注重隐私的财务工具</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qmj9vh/looking_for_help_with_receipt_scanner_for_a/</link>
+      <description><![CDATA[我正在开发一个从收据和银行对账单中提取数据的工具，它完全在您的计算机上运行。没有任何内容发送到云端，一切都保留在本地 这个想法很简单：您上传收据或银行对账单的照片，它会提取重要信息，例如日期、商家名称、金额和类别。所有处理都使用 ollama 在您的计算机上进行 问题：从收据图像中提取文本效果不佳。 OCR（文本识别）不可靠，经常出错，尤其是金额和商家名称 我需要帮助：  从图像中读取文本的更好方法 改进我们从收据中提取数据的方式 使图像处理更加准确 有关如何使这项工作更好的任何想法  代码位于 GitHub 上： https://github.com/afiren/on_device_finance_optimizer 我很乐意让人们做出贡献。如果您了解 OCR、图像处理，或者只是想帮助改进注重隐私的工具，请查看一下 该项目使用 Python、Streamlit 和 Ollama，即使您是新手，也有很多方法可以提供帮助 感谢您的阅读！   由   提交 /u/Delicious_Garden5795   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qmj9vh/looking_for_help_with_receipt_scanner_for_a/</guid>
+      <pubDate>Sun, 25 Jan 2026 13:35:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>fdir - 查找并组织系统上的任何内容</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qmj3xv/fdir_find_and_organize_anything_on_your_system/</link>
+      <description><![CDATA[      厌倦了不断地使用 find、ls、stat、grep 和 sort 来查找或清理文件。因此，我构建了 fdir - 一个简单的 CLI 工具，用于查找、过滤和组织系统上的文件。 功能：  列出具有丰富、可读输出的文件和目录 过滤依据： 最后修改日期（比 X 早/新） 文件大小 名称（关键字、开头、结尾） with) 文件扩展名/类型  使用和/或组合过滤器 按名称、大小或修改日期对结果进行排序 使用--deep进行递归搜索 模糊搜索（容错） 搜索文件内容内部 使用 --del 删除匹配的文件 转换文件扩展名（例如 .wav → .mp3） 智能字段突出显示、大小热图着色和可点击文件链接 .fdirignore 支持跳过文件、文件夹或扩展名  写入Python。 GitHub：https://github.com/VG-dev1/fdir 安装： pip install fdir-cli   由   提交/u/Apart-Television4396   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qmj3xv/fdir_find_and_organize_anything_on_your_system/</guid>
+      <pubDate>Sun, 25 Jan 2026 13:28:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于那些使用 Github 托管项目的人：您不迁移到 Codeberg、Forgejo、Gitea、Gitlab 等开源替代方案的原因是什么？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qmiv56/for_those_who_use_github_to_host_their_projects/</link>
+      <description><![CDATA[ 由   提交 /u/FreeThem2019   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qmiv56/for_those_who_use_github_to_host_their_projects/</guid>
+      <pubDate>Sun, 25 Jan 2026 13:16:59 GMT</pubDate>
+    </item>
     <item>
       <title>Redact CLI 工具可积极清理文件</title>
       <link>https://www.reddit.com/r/opensource/comments/1qmhx5l/redact_cli_tool_to_aggressively_sanitize_files/</link>
       <description><![CDATA[来自新西兰的 Kia ora。 过去几周我一直在构建 Redact，这是一个独立工具，旨在在共享文件之前积极清理文件。可悲的是，受到一些在美国处理困难情况的朋友的启发。 我构建了一个单一二进制文件，可以在您自己的计算机上本地处理所有内容。 它是用 Go 编写的，可以在 Windows/Mac/Linux 上运行，并且没有外部依赖项（除非您使用激进的视频清理模式）。它是免费的，我确实需要帮助测试和改进它，尤其是 Windows 版本。 主要功能：  100% 离线： 没有“打电话回家”，没有分析，也没有云处理。您的文件永远不会离开您的设备。 破坏性图像清理：它将图像解码为原始像素并重新编码，而不仅仅是编辑标签。这可以保证隐藏的 EXIF、IPTC 和缩略图数据被销毁。 PDF 重构：将 PDF 页面迁移到新的容器中，以留下编辑历史记录和 XML 元数据。 ISP 混淆： 包括一个 --pad 标志，该标志可向文件末尾添加随机噪音，以达到标准的“存储桶大小”。 （例如 5MB），防止基于确切文件大小的 ISP 流量分析。 Aggressive Video Nuke：一种专用模式，使用 ExifTool 从视频文件中剥离所有非必要数据流和嵌入缩略图。 单个二进制文件：无需 Python 环境、npm 安装或 Docker 容器。只需解压缩并运行即可。  有一个免费的社区版，其中包含所有手动清理功能。以下是链接。 网站：https://redact.manifest-software.co.nz   由   提交 /u/Quiet_Drummer669988   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qmhx5l/redact_cli_tool_to_aggressively_sanitize_files/</guid>
       <pubDate>Sun, 25 Jan 2026 12:32:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个 CLI 工具，可以按含义搜索文件。转发是因为我被烤了（这是理所当然的）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qmh58m/i_built_a_cli_tool_that_searches_files_by_their/</link>
-      <description><![CDATA[我在两三天前发布了这个项目，但由于收到了一些非常有效的批评而将其删除。有人告诉我，我的自述文件看起来像是由 AI 编写的（确实如此），并且仅针对 Windows 发布开发工具是一个糟糕的举动 我花了一些时间手动重写文档并设置正确的 Linux 版本。所以我再试一次 该工具称为语义。我构建它是因为我和我的亲戚不擅长记住确切的文件名。事实上，我在我父亲的旧笔记本电脑上对其进行了真正的测试。我们需要找到大约 15 年前的互联网提供商合同，但对它在哪里却一无所知。我将该工具指向文档文件夹，花了大约 250 分钟来索引所有内容（因为低端 CPU 和旧硬盘），但完成后我只是搜索诸如“互联网服务协议条款”之类的内容。它立即调出一个名为“scan_24ru870934uu34901.pdf”的 pdf 文件或类似的东西。标准搜索在那里失败了，因为文件名只是随机字符，并且里面的文本没有那些确切的关键字 基本上，与 grep（查找确切的模式或单词）不同，它根据文件的含义来查找文件。因此，如果您搜索dog，它可以找到puppy 对于那些对堆栈感兴趣的人：它是Python，使用FastEmbed进行矢量化，使用FAISS进行相似性搜索（今天我听说了usearch，所以我正在考虑使用它）。它 100% 在 CPU 上本地运行，无需 API 密钥。我用 Nuitka 编译了它，因此它现在可以在 Windows 和 Linux 上作为独立的二进制文件运行   由   提交/u/hexada618  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qmh58m/i_built_a_cli_tool_that_searches_files_by_their/</guid>
-      <pubDate>Sun, 25 Jan 2026 11:51:18 GMT</pubDate>
     </item>
     <item>
       <title>电视 - 智能但开放</title>
@@ -67,48 +109,6 @@
       <description><![CDATA[最近，我改用邮箱 .org 作为邮件、日历、联系人和云服务，以摆脱 Google。从那时起，我一直试图找到一个好的 Android 开源日历应用程序，它至少在某种程度上与谷歌日历应用程序一样好（我主要在周视图中使用它）。  有没有任何应用程序可以在功能上与它相媲美？我还找不到任何不让我感到沮丧的应用程序。 Foosify 日历已经很接近了，但在我看来仍然有所欠缺。在我看来，Etar 更糟糕。 * 两个相同颜色的相邻条目应该明显区分开来，而不是看起来像一个（这似乎是一个问题，基本上所有基于默认 Android 日历的应用程序都有这个问题）。有些应用程序也会显示它们，因为它们重叠，即使它们没有重叠，或者文本显示非常奇怪。例如，为什么条目不采用圆角？ * 您可以拖放条目（Foosify 是我发现的唯一具有该功能的开源日历，但它很卡顿，很少将其放在我想要的地方） * 打开日历条目应该打开一个视图窗口，而不是编辑窗口（视图窗口中应该有一个额外的编辑按钮）。我喜欢正确的视图窗口只显示您实际输入的内容，而不显示空字段和选项，我发现这些字段和选项非常分散您正在寻找的实际信息的注意力。  有人知道类似的事情吗？感谢您的帮助:)   由   提交/u/luka1194  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qm5ama/a_good_calendar_app_alternative_to_google_just/</guid>
       <pubDate>Sun, 25 Jan 2026 01:28:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想要一个非常简单的 LOC 计数器，所以我制作了一个。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qm4ag4/i_wanted_a_deadsimple_loc_counter_so_i_built_one/</link>
-      <description><![CDATA[       由   提交 /u/MrCorey16   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qm4ag4/i_wanted_a_deadsimple_loc_counter_so_i_built_one/</guid>
-      <pubDate>Sun, 25 Jan 2026 00:43:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>适用于 Linux 音乐制作的最佳免费开源插件（Debian、Ubuntu、Fedora、Manjaro）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qm272k/best_free_opensource_plugins_for_linux_music/</link>
-      <description><![CDATA[ 由   提交 /u/huckleberry10101   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qm272k/best_free_opensource_plugins_for_linux_music/</guid>
-      <pubDate>Sat, 24 Jan 2026 23:15:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么开源对于普通人来说如此困难。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qlxn8r/why_is_open_source_so_hard_for_casual_people/</link>
-      <description><![CDATA[就上下文而言，我是一名非技术工作者，试图使用 LLM 来安装像 llama.cpp 这样的开源软件（其中有我难以理解或使用的标志和配置）。我已经使用 Linux 几年了，目前第一次尝试基于 Arch 的发行版，我想要使用 AI 来帮助我完成一个项目，其中包括 3D 打印、图像生成、管理想法和实验。 由于我迷失了方向，而且没有 AI 能够准确地帮助我处理我应该用于硬件的命令和标志，我看到像我这样的临时用户可能会遇到的一个问题，他们有时会发现开源软件的安装和管理是一项全职工作冗长的文档、不熟悉的术语和大量的猜测。此外，像 CMake 这样的命令的使用或编译的概念对于非技术专业人士或具有不同教育背景且母语不是英语的人来说很难理解和依赖。 有人知道可以生成可靠的、硬件兼容的安装命令并针对此类设置进行故障排除的工具或资源吗？ 如果没有，我请开发人员考虑像我这样的人，并创建提示或安装程序来生成正确的命令用户安装其开源项目的特定硬件和操作系统。我知道这很困难，但我相信社区将受益于推动构建一个通用工具来解决这些安装挑战以及所有变量。 我想对开源开发人员表示感谢，他们为人们而不仅仅是为企业创建解决方案。这是一个令人惊叹的社区，拥有令人难以置信的个人，为这个食人世界增添了希望。   由   提交 /u/Martialogrand   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qlxn8r/why_is_open_source_so_hard_for_casual_people/</guid>
-      <pubDate>Sat, 24 Jan 2026 20:17:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>发布了 Decal，一个用 Rust 编写的声明性 SVG 渲染库，具有布局和光栅化功能</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qlx7lj/released_decal_a_declarative_svg_rendering/</link>
-      <description><![CDATA[       由   提交/u/MaverickM7  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qlx7lj/released_decal_a_declarative_svg_rendering/</guid>
-      <pubDate>Sat, 24 Jan 2026 20:01:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mastra 现已正式升级为 1.0</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qlx36a/mastra_is_now_officially_10/</link>
-      <description><![CDATA[       由   提交/u/codekarate3  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qlx36a/mastra_is_now_officially_10/</guid>
-      <pubDate>Sat, 24 Jan 2026 19:57:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>SolidworksToWeb - 共享和嵌入运动研究（和其他动画！）的更简单方法</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qlw6h8/solidworkstoweb_an_easier_way_of_sharing_and/</link>
-      <description><![CDATA[      大家好！最近，我一直在考虑一种更好的方法来分享我的 Solidworks Motion Studies 动画，特别是作为嵌入内容分享到我的 WordPress 网站博客上，同时保持透明度。这促使我制作 SolidWorksToWeb！ GitHub 自述文件包含您需要的所有信息，但基本上，它会自动色度键（删除背景，如绿屏、蓝屏等）并将视频导出为裁剪内容的 WebM 和 APNG，因为某些浏览器和设备（根据我的经验，iOS）不能很好地使用 WebM。 我希望你们发现它很有用。谢谢！   由   提交 /u/StarchyStarky   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qlw6h8/solidworkstoweb_an_easier_way_of_sharing_and/</guid>
-      <pubDate>Sat, 24 Jan 2026 19:22:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
