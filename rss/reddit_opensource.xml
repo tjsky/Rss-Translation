@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 24 Jan 2026 21:17:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 01:27:40 GMT</lastBuildDate>
+    <item>
+      <title>我想要一个非常简单的 LOC 计数器，所以我制作了一个。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qm4ag4/i_wanted_a_deadsimple_loc_counter_so_i_built_one/</link>
+      <description><![CDATA[       由   提交 /u/MrCorey16   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qm4ag4/i_wanted_a_deadsimple_loc_counter_so_i_built_one/</guid>
+      <pubDate>Sun, 25 Jan 2026 00:43:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>适用于 Linux 音乐制作的最佳免费开源插件（Debian、Ubuntu、Fedora、Manjaro）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qm272k/best_free_opensource_plugins_for_linux_music/</link>
+      <description><![CDATA[ 由   提交 /u/huckleberry10101   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qm272k/best_free_opensource_plugins_for_linux_music/</guid>
+      <pubDate>Sat, 24 Jan 2026 23:15:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我一直在测试 a2e.ai</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qm1ccy/ive_been_testing_a2eai/</link>
+      <description><![CDATA[我一直在使用 a2e.ai 一款人工智能工具，它可以自动将长视频变成较短的剪辑。 我主要在较长的 YouTube 风格视频和播客上对其进行了测试。这个想法很简单：上传一个长视频，让人工智能找到可用的短片段，而不是手动清理所有内容。 到目前为止，对我来说最突出的是： 与手动编辑相比，它节省了大量时间 它生成的剪辑实际上是可用的，而不是随机剪切 如果您要重新调整内容用于短片或社交媒体，似乎特别有用 我仍在尝试它，但是对于任何想自己尝试的人来说，这是我使用的链接： https://video.a2e.ai/?coupon=nxtt 很好奇这里的其他人是否尝试过类似的工具以及它们的比较。   由   提交 /u/drizzy_dries   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qm1ccy/ive_been_testing_a2eai/</guid>
+      <pubDate>Sat, 24 Jan 2026 22:41:20 GMT</pubDate>
+    </item>
     <item>
       <title>为什么开源对于普通人来说如此困难。</title>
       <link>https://www.reddit.com/r/opensource/comments/1qlxn8r/why_is_open_source_so_hard_for_casual_people/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[      嘿开发者 👋我最近构建了一个应用程序，其主要目标是深入研究高级 Android 主题并提高 Jetpack Compose 的水平。... 所以来认识一下 Tinder 上的 Quotes，就像可滑动的一样功能 https://github.com/shalenMathew/Quotes-app 项目使用  Kotlin Jetpack Compose 协程和Flow 清洁架构 (MVVM) Hilt：依赖注入 改造：网络和 API 集成 Room：用于离线优先数据持久化的本地数据库 WorkManager：定期后台任务（应用程序使用它来发送通知） 通知：通知用户新报价 小工具：主屏幕小部件每 24 小时刷新一次新报价 CI/CD：通过 Discord 自动构建、lint 检查、测试和 APK 分发 Unit &amp;仪器测试  Android 开发人员已经缺乏良好的资源。 希望这个项目能够帮助其他 Android 开发人员学习和成长。   由   提交/u/shalenmathew   [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qlk57z/quotes_an_opensource_app_to_help_android_dev_with/</guid>
       <pubDate>Sat, 24 Jan 2026 10:58:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>为开发人员和领域专家构建的开源交易机器人？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qlk3zf/opensource_trading_bot_built_for_developers_and/</link>
-      <description><![CDATA[https://github.com/toniton/ml-crypto-trading 三年前，我开始构建一个交易机器人 - 主要是因为我有一些现有机器人不支持的想法，并且我喜欢在做出承诺之前深入了解某些东西。在此过程中，我开发了一个解决方案，旨在让开发人员和财务专家更轻松地参与，而无需他们编写代码。我现在已经开源了该项目，很高兴能从社区获得意见、反馈和新观点。 这是我对开源的第一个贡献，但期待看到结果如何。   由   提交/u/SnooBooks638  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qlk3zf/opensource_trading_bot_built_for_developers_and/</guid>
-      <pubDate>Sat, 24 Jan 2026 10:56:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>React 图像编辑器组件</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qljn9d/react_image_editor_component/</link>
-      <description><![CDATA[构建一个简单的可重用图像编辑器组件 - https://github.com/mukeshsoni/react-image-editor 此处演示 - https://unstack.in/react-image-editor/ 我计划在将来添加对导出 RAW 图像的支持。 欢迎反馈。   由   提交/u/iamnotsosure2  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qljn9d/react_image_editor_component/</guid>
-      <pubDate>Sat, 24 Jan 2026 10:28:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Godot + Blender 3d 恐怖环境演示</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qljfq8/godot_blender_3d_horror_environment_demo/</link>
-      <description><![CDATA[       由   提交/u/Simple_Negotiation53  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qljfq8/godot_blender_3d_horror_environment_demo/</guid>
-      <pubDate>Sat, 24 Jan 2026 10:15:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
