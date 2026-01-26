@@ -4,7 +4,77 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 26 Jan 2026 12:39:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 15:27:04 GMT</lastBuildDate>
+    <item>
+      <title>我一直在完善 Go 后端框架并添加了一个 PostgreSQL 示例 - 希望得到反馈</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qnin0r/ive_been_refining_a_go_backend_framework_and/</link>
+      <description><![CDATA[       由   提交/u/janishar  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qnin0r/ive_been_refining_a_go_backend_framework_and/</guid>
+      <pubDate>Mon, 26 Jan 2026 15:11:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM-X：开源 Python 库，用于对语言模型进行精确的、硬件感知的内存估计（仅限 *.safetensors）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qnifs9/llmx_opensource_python_library_for_precise/</link>
+      <description><![CDATA[大家好， 我要介绍LLM-X（就像CPU-X！）。  LLM-X 是一个开源 Python 库，用于对语言模型的推理内存消耗进行**精确、硬件感知的估计**。  它对模型的张量进行逆向工程，以确定生产中的内存消耗量，从而比 hf-mem 或 Accelerate 等其他工具具有更高的精度，这些工具仅通过计算当前模型权重的大小来低估内存消耗。 这意味着 LLM-X 考虑：  真实张量形状、填充和填充。对齐。 引擎特定的开销（融合操作、分配器行为）。 准确的 KV 缓存大小调整（根据上下文长度、批量大小、量化）。 内存的硬件感知检测（使用 nvidia-ml-py 和 psutil 的 VRAM/RAM），其指标显示模型在不同级别的量化和上下文窗口下在生产中使用的可用内存百分比。  典型准确度：~98%（误差~1.8%），而朴素方法的误差为113–130%。  由于GGUF（来自 llama.cpp 框架）是一个单文件二进制容器，鉴于它需要特殊处理，我推迟了添加对它的支持，但它会来的。目前仅支持 *.safetensors。 尝试一下，分享您的结果！我愿意接受反馈/PR。   由   提交/u/sheikyon_  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qnifs9/llmx_opensource_python_library_for_precise/</guid>
+      <pubDate>Mon, 26 Jan 2026 15:04:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源项目：GitHub 排名</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qnhs7p/opensource_project_github_ranked/</link>
+      <description><![CDATA[刚刚完成了一个工具，可以将您的 GitHub 活动转变为有竞争力的排名徽章。 它根据 PR (40%)、评论 (30%)、问题 (20%)、提交 (10%) 和星星来计算 Elo 风格的分数。级别范围从铁级（排名最后 5%）到挑战者（排名前 0.1%）。支持主题（目前仅支持深色和浅色）和每年的季节。 [Repo] [演示] 轻松添加到您的个人资料： ！[Rank](https://github-ranked.vercel.app/api/rank/YOUR_USERNAME) 接受贡献！以及你们的总体想法。   由   提交 /u/Verlassenh   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qnhs7p/opensource_project_github_ranked/</guid>
+      <pubDate>Mon, 26 Jan 2026 14:39:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个可以自行托管的单文件 PHP MP3 播放器 (NeonAMP)</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qngqpe/i_built_a_singlefile_php_mp3_player_you_can/</link>
+      <description><![CDATA[ 由   提交/u/hilti   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qngqpe/i_built_a_singlefile_php_mp3_player_you_can/</guid>
+      <pubDate>Mon, 26 Jan 2026 13:58:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>VaultSync：专为提高透明度和速度而构建的开源备份和快照管理器。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qngo7v/vaultsync_an_opensource_backup_snapshot_manager/</link>
+      <description><![CDATA[我想介绍一下VaultSync，它是一款开源桌面备份和快照实用程序，专为使用大型项目文件夹和网络存储的开发人员、创建者和高级用户而设计。 VaultSync 专注于可见性和可预测性：您始终可以看到备份的内容、备份的去向、更改的内容以及原因。 与此不同与其他备份工具相比，VaultSync 会公开其完整历史记录、元数据和状态，以便随着时间的推移，多机和 NAS 设置保持易于理解。 它的用途 VaultSync 管理项目文件夹的快照 + 备份，具有简洁的 UI 和对本地磁盘、外部驱动器和网络共享的强大支持。 它特别适合：  开发工作区 游戏项目 创意文件夹 NAS / 家庭实验室环境  主要功能  快照和快照历史记录跟踪每个项目添加、修改、删除和未更改的文件。 透明备份带有完整历史记录和可检查元数据的时间戳备份。 跨机器同步备份历史记录可以通过元数据同步跨机器跟踪您。 NAS 和存储设备。网络共享支持 SMB 自动挂载以及凭据配置文件、权限感知清理和重试处理。 保留和重试处理。 “保留”备份自动修剪受保护的备份，永远不会删除。 散列和备份。验证准确了解哪些内容发生了变化，哪些内容没有变化。 自动备份和验证更新程序设置一次，VaultSync 就会使其自身和您的数据保持最新状态。 跨平台现已支持 Windows 和 macOS，Linux 即将推出。  理念 VaultSync 的构建基础是：  透明高于魔法 长时间内可预测的行为会话 清晰的用户界面，而不是隐藏的自动化 尊重网络存储怪癖（NAS、权限、睡眠、安装）  链接   GitHub 存储库： https://github.com/ATAC-Helicopter/VaultSync  Subreddit： https://www.reddit.com/r/VaultSync/  我正在积极开发它并在subreddit。 非常欢迎反馈、边缘情况和奇怪的存储设置   由   提交/u/mainseeker1486  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qngo7v/vaultsync_an_opensource_backup_snapshot_manager/</guid>
+      <pubDate>Mon, 26 Jan 2026 13:55:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>City2Graph：将地理空间数据转换为图形（网络）的 Python 库</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qng3rb/city2graph_a_python_library_converting_geospatial/</link>
+      <description><![CDATA[      我想介绍 City2Graph，一个新的 Python 包，它弥补了地理空间数据和基于图形的机器学习之间的差距。 它的作用：City2Graph 将地理空间数据集转换为图形表示，并无缝集成 GeoPandas、NetworkX 和 PyTorch Geometric。无论您是进行空间网络分析还是为 GeoAI 应用构建图神经网络，它都提供了统一的工作流程。 主要功能：  形态图：对建筑物、街道和城市空间之间的关系进行建模 交通网络：将 GTFS 交通数据处理为多模态图 交通流：根据 OD 矩阵和移动流数据构建图表 邻近图：根据距离或邻接构建图表  链接：  💻 GitHub：https://github.com/c2g-dev/city2graph  📚 文档：https://city2graph.net    由   提交/u/Tough_Ad_6598  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qng3rb/city2graph_a_python_library_converting_geospatial/</guid>
+      <pubDate>Mon, 26 Jan 2026 13:32:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>我正在构建 LibertyLens – 为您的手机提供的开源“黑匣子”（双重录制 + 隐形模式）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qng0c6/im_building_libertylens_an_open_source_black_box/</link>
+      <description><![CDATA[嘿， 我一直在致力于一个名为 **LibertyLens** 的项目，我正在寻找反馈和贡献者。  **问题：** 我们都看过公开对抗或行使第一修正案权利的视频，其中视频被剪切、删除或手机被拿走。仅仅依靠直播（会降低质量）或本地录制（可以删除）是不够的。  **解决方案：** LibertyLens 是一款基于 Flutter 的开源移动应用程序，旨在成为终极个人随身摄像机/证据记录器。它将数据完整性和安全性放在首位。  **主要功能（已实现和计划中）：** * **🎥 双模式录制：** 在本地同时录制高比特率 4K 视频（以保证证据质量），同时将低延迟源传输到反弹服务器（以进行即时异地备份）。 * **🕵️ 隐形模式：** 将 UI 转变为功能齐全的“假启动器”。对于观察者来说，看起来您只是在看主屏幕，但相机正在记录后台的所有内容。 * **🔒 锁定模式：** 一旦开始录制，屏幕就会锁定。停止录制需要生物识别/PIN 身份验证，防止其他人在抢走您的手机时停止录制。 * **🔐 证据库：** 立即自动散列 (SHA-256) 每个视频文件，以证明其以后未被篡改。  **技术堆栈：** * **移动设备：** Flutter (iOS/Android) * **后端：** Go/Node.js（计划用于自托管中继服务器） * **许可证：** AGPL v3（修改必须保持开放）。  **当前状态：** 我刚刚获得了核心“双录音”功能发动机工作和“隐形发射器” UI 已启动并正在运行。我正在寻找有兴趣帮助后端中继 (Go) 或提高 Android 后台服务可靠性的开发人员。  **仓库：** [https://github.com/Dobbs3313/liberty\_lens\](https://github.com/Dobbs3313/liberty\_lens)  “真理是最终的防御。”  让我知道你的想法！   由   提交 /u/ComputerInaComputer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qng0c6/im_building_libertylens_an_open_source_black_box/</guid>
+      <pubDate>Mon, 26 Jan 2026 13:28:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Leadsmart / Ringba 开源替代品？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qnfm3m/leadsmart_ringba_open_source_alternatives/</link>
+      <description><![CDATA[ 由   提交/u/Soggy-Job-3747   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qnfm3m/leadsmart_ringba_open_source_alternatives/</guid>
+      <pubDate>Mon, 26 Jan 2026 13:11:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能对 Tailwind 的残酷影响</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qnf4sa/the_brutal_impact_of_ai_on_tailwind/</link>
+      <description><![CDATA[       由   提交 /u/thewritingwallah   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qnf4sa/the_brutal_impact_of_ai_on_tailwind/</guid>
+      <pubDate>Mon, 26 Jan 2026 12:48:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开发了一个快速启动工具；请随意使用它。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qnezke/ive_develop_a_quickstart_tool_feel_free_to_use_it/</link>
+      <description><![CDATA[ 由   提交/u/xiaozhuzhu1337  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qnezke/ive_develop_a_quickstart_tool_feel_free_to_use_it/</guid>
+      <pubDate>Mon, 26 Jan 2026 12:41:48 GMT</pubDate>
+    </item>
     <item>
       <title>在构建 API / HTTP 后端时分享您的渴望</title>
       <link>https://www.reddit.com/r/opensource/comments/1qne86h/share_your_itch_while_building_api_http_backends/</link>
@@ -39,76 +109,6 @@
       <description><![CDATA[大家好， 我维护一个小型开源项目已经有一段时间了（一个关系感知测试数据播种器）。这是我自己积极使用的东西，代码库感觉很可靠，而且堆栈相当现代。我现在真的很想引入其他贡献者，因为我有一个我无法单独构建的功能路线图。 我的挣扎是这样的：每次我尝试共享项目以寻找贡献者时，我感觉自己听起来像一个试图获得“用户”的销售人员。我想避免成为那个只是发送垃圾邮件链接的人。 对于那些设法发展了一个小而健康的贡献者基础的维护者，我真的很感激你对以下几件事的看法： -“好的第一个问题”：简单地标记初学者友好的问题就足够了，还是你积极地为新人策划和保护这些问题？ -你如何提出请求：在寻求帮助时，你是否以你试图解决的问题/愿景或技术为主导？可用的堆栈和工作类型？  - 贡献摩擦：如果本地设置不快速或不明显，您通常会跳出吗？ 我很想听听是什么让您点击“分叉”在一个新的存储库上。 （我不会在此处链接该存储库，但如果有人想烤我的设置/文档，我可以将其放在评论中）。   由   提交 /u/Neither-Ad-8684   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qn97iz/how_do_you_ask_for_contributors_without_sounding/</guid>
       <pubDate>Mon, 26 Jan 2026 07:12:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>DevOps 与数据库作为职业</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn8vy2/devops_vs_databases_as_a_career/</link>
-      <description><![CDATA[我是一名拥有 2 年经验的后端开发人员，对专注于 DevOps 或深入研究数据库感到困惑。考虑到长期增长、人工智能影响和高级角色——哪条道路更有意义？为什么？ 谢谢   由   提交/u/Low-Sky-3238   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn8vy2/devops_vs_databases_as_a_career/</guid>
-      <pubDate>Mon, 26 Jan 2026 06:55:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么不直接资助开源项目呢？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn8mbn/why_not_just_fund_open_source_projects/</link>
-      <description><![CDATA[      欧洲对美国软件的依赖：数字主权挑战 美国和欧盟在格陵兰岛问题上的对峙加剧了欧洲对美国过度依赖的担忧，特别是在数字领域，法国总统埃马纽埃尔·马克龙(Emmanuel Macron)一度用所谓的“贸易”威胁美国。火箭筒”来限制美国主要科技公司——由于欧盟对这些公司的云服务、微软和谷歌等专业工具、社交媒体、娱乐和 Visa 等支付系统的深度依赖，此举变得更加复杂   由   提交/u/deboo117  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn8mbn/why_not_just_fund_open_source_projects/</guid>
-      <pubDate>Mon, 26 Jan 2026 06:40:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个自动使文档与代码更改保持同步的工具 - 欢迎反馈</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn7hy0/a_tool_to_automatically_keep_docs_in_sync_with/</link>
-      <description><![CDATA[我在浪费了太多时间调试过时文档引起的问题后构建了 Doctective。  想象一下：想要使用一个新的库，所以你按照文档进行操作，但它不起作用，然后你发现代码在 3 个月前发生了更改，但没有人更新文档。最糟糕的部分？人工智能编码助手现在也在阅读这些过时的文档，根据过时的信息生成损坏的代码。  所以我构建了一些简单的东西：连接您的 GitHub 存储库，Doctective 会监视每个 PR。  当代码更改会破坏您的文档时，它会告诉您，甚至可以自动打开包含修复程序的配套 PR。没有新的工具可以学习。没有手动文档审核。只是能够自我更新的准确文档。  希望得到您的反馈 - 您团队的第一大文档痛点是什么？   由   提交 /u/nocturnalpickle   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn7hy0/a_tool_to_automatically_keep_docs_in_sync_with/</guid>
-      <pubDate>Mon, 26 Jan 2026 05:40:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>为 arch linux 的包管理器制作一个 neofetch 包装器，内置于 Rust。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn64ec/making_a_neofetch_wrapper_for_arch_linuxs_package/</link>
-      <description><![CDATA[https://github.com/camtisocial/pacfetch 寻求测试人员和贡献者 &lt;3   由   提交/u/pleb_king  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn64ec/making_a_neofetch_wrapper_for_arch_linuxs_package/</guid>
-      <pubDate>Mon, 26 Jan 2026 04:31:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>完全互惠公共许可证：高互惠 Copyleft 许可证</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn5xqq/total_reciprocity_public_license_a/</link>
-      <description><![CDATA[https://github.com/trplfoundation/trpl-license&quot;&gt;https://github.com/trplfoundation/trpl-license 对许可证发表评论 我也有基于 OSI 论坛反馈的仓库草案，进一步的讨论已经减少，因此在此处发帖征求意见。   由   提交 /u/unitedbsd   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn5xqq/total_reciprocity_public_license_a/</guid>
-      <pubDate>Mon, 26 Jan 2026 04:22:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coalmine - 安全欺骗编排（Canary 对象和令牌部署和管理）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn4iao/coalmine_security_deception_orchestration_canary/</link>
-      <description><![CDATA[      嘿伙计们，我决定在周末解决一个容易实现的目标，以改进云环境中的检测。 Coalmine 是一个可扩展的管理平台，用于部署和监控令牌和对象（S3 和 除了对象的反应和轮换之外，它还处理仅限于金丝雀对象的日志记录（例如数据事件）的创建，以保持较低的云日志记录成本。 对于 IAM 对象，凭据在创建时存储，以便您可以检索它们以将其放置在其他位置。 该平台还将在检测到使用情况时生成警报电子邮件。 目前是 AWS Buckets 和 IAM 的早期 alpha 版本用户稳定，GCP 服务账户和存储桶在原型中运行。   功能性 开发（不稳定） 待办事项    AWS IAM 用户金丝雀 GCP 服务账户金丝雀 Azure 支持   AWS S3 Bucket Canaries GCP Bucket Canaries Web UI 仪表板   CloudTrail 监控 GCP 审核日志监控 API身份验证   电子邮件警报 自动轮换 Webhook警报   多环境支持  系统日志警报   PostgreSQL 状态后端       由   提交/u/rwxfortyseven  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn4iao/coalmine_security_deception_orchestration_canary/</guid>
-      <pubDate>Mon, 26 Jan 2026 03:17:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于 AGPL 许可的一个简单问题</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn45xp/a_quick_question_about_agpl_licensing/</link>
-      <description><![CDATA[大家好。关于 AGPL 的范围/影响，我有一个可能是愚蠢的问题。 在不涉及太多细节的情况下，我正在写一些东西来帮助朋友自动化工作流程。每隔几个月，他需要获取已填充的 CSV 并填写 PDF，此过程会重复数百次。如果这项工作严格来说是数据输入工作，那么这不会是一个问题，但他们已经有很多工作要做。 我的问题是，使用受 AGPL 约束的库是否可行？它不是一个正在被访问的服务，代码没有被更改，也没有被分发。但它正在企业环境中使用。   由   提交 /u/Shipdits   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn45xp/a_quick_question_about_agpl_licensing/</guid>
-      <pubDate>Mon, 26 Jan 2026 03:01:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>超轻量技能特工！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn0ycn/super_lightweight_skill_agent/</link>
-      <description><![CDATA[       由   提交 /u/Future_Might_8194   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn0ycn/super_lightweight_skill_agent/</guid>
-      <pubDate>Mon, 26 Jan 2026 00:41:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bottle Rocket v0.1.0 发布，带有一些附加功能</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qn0fr1/bottle_rocket_v010_released_with_some_additional/</link>
-      <description><![CDATA[ 由   提交 /u/gub_p   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qn0fr1/bottle_rocket_v010_released_with_some_additional/</guid>
-      <pubDate>Mon, 26 Jan 2026 00:19:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我受 macOS 日历启发，构建了一个开源 React 日历 – DayFlow</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qmzxpx/i_built_an_opensource_react_calendar_inspired_by/</link>
-      <description><![CDATA[大家好 👋 我想分享 DayFlow，这是我在过去一年中构建的一个开源全日历网络组件。 我是 macOS 日历的重度用户，当我在 GitHub 上寻找一个干净、现代的日历 UI 时（尤其是与 Tailwind 配合良好的一个）/ shadcn-ui），我找不到完全符合我需求的东西。因此，我决定自己构建一个。 DayFlow 专注于：  干净、现代的日历 UI，灵感来自 macOS 日历 使用 React 构建，专为现代 Web 应用程序而设计 易于与 shadcn-ui 和其他 Tailwind UI 库集成 模块化架构（视图、事件、面板均可自定义）  该项目是完全开源的，我非常感激：  有关 API 和 API 的反馈架构 功能建议 错误报告 或者PR（如果您有兴趣贡献）  GitHub： https://github.com/dayflow-js/calendar  演示： https://dayflow-js.github.io/calendar/  感谢您的阅读，我很想听听您的想法🙏   由   提交 /u/Cultural_Mission_482   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qmzxpx/i_built_an_opensource_react_calendar_inspired_by/</guid>
-      <pubDate>Sun, 25 Jan 2026 23:58:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
