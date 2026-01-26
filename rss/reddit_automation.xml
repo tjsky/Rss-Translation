@@ -4,7 +4,28 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 26 Jan 2026 01:25:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 04:14:28 GMT</lastBuildDate>
+    <item>
+      <title>2026 年社交媒体自动化软件指南</title>
+      <link>https://www.reddit.com/r/automation/comments/1qn5igc/social_media_automation_software_guide_for_2026/</link>
+      <description><![CDATA[       由   提交/u/adrianmatuguina   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1qn5igc/social_media_automation_software_guide_for_2026/</guid>
+      <pubDate>Mon, 26 Jan 2026 04:02:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>n8n 工作流程的 Reddit API 访问当前状态？</title>
+      <link>https://www.reddit.com/r/automation/comments/1qn5h71/current_state_of_reddit_api_access_for_n8n/</link>
+      <description><![CDATA[ 由   提交 /u/Front_Chemist_9648   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1qn5h71/current_state_of_reddit_api_access_for_n8n/</guid>
+      <pubDate>Mon, 26 Jan 2026 04:00:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何在 n8n 中构建一个实际有效的多代理系统</title>
+      <link>https://www.reddit.com/r/automation/comments/1qn2cvd/how_i_built_a_multiagent_system_in_n8n_that/</link>
+      <description><![CDATA[过去几个月一直在 n8n 中尝试多代理架构。想分享我学到的东西。 单一代理的问题：大多数“AI 自动化”都是基于单一代理的。教程展示了一个人工智能处理所有事情。这适用于简单的任务，但大规模时会失败。代理试图成为所有事情的专家，但在大多数事情上却表现平平。 多代理方法： 相反，我将任务分配给专门的代理：  研究代理 - 收集信息、搜索网络、阅读文档 作家代理 - 进行研究并生成草稿 验证器代理 - 检查输出质量，修复错误 Orchestrator - 协调整个工作流程  n8n 实现：  每个代理都是一个单独的子工作流程 主工作流程通过执行工作流程节点调用它们 代理通过 JSON 负载进行通信 每一步的错误处理（不仅仅是最后）  我学到了什么：  更小、更集中的提示 &gt;一次大量的提示 代理移交需要清晰的数据合同 记录所有内容可以节省调试时间 每个任务的成本下降（提示更短，重试次数更少）  结果： - 输出质量提高 3 倍 - 成本降低 40%（总体令牌使用量减少） - 更容易调试和改进各个组件 很高兴分享工作流程模板（如果有兴趣）。   由   提交/u/supersimpleseo  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1qn2cvd/how_i_built_a_multiagent_system_in_n8n_that/</guid>
+      <pubDate>Mon, 26 Jan 2026 01:41:48 GMT</pubDate>
+    </item>
     <item>
       <title>找到了一个用于创建病毒式排名视频的自动化工具</title>
       <link>https://www.reddit.com/r/automation/comments/1qmzd1t/found_an_automation_tool_for_creating_viral/</link>
@@ -43,7 +64,7 @@
     <item>
       <title>现在 100% 的代码都由 AI 编写 - OpenAI 工程师</title>
       <link>https://www.reddit.com/r/automation/comments/1qmu6af/ai_is_writing_100_of_the_code_now_openai_engineer/</link>
-      <description><![CDATA[       由   提交/u/dataexec   [链接] [评论] ]]></description>
+      <description><![CDATA[       由   提交 /u/dataexec   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1qmu6af/ai_is_writing_100_of_the_code_now_openai_engineer/</guid>
       <pubDate>Sun, 25 Jan 2026 20:20:10 GMT</pubDate>
     </item>
@@ -74,27 +95,6 @@
       <description><![CDATA[ 由   提交 /u/NickyB808   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1qmo27e/if_you_had_to_choose_one_single_ai_tool_which/</guid>
       <pubDate>Sun, 25 Jan 2026 16:41:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过分块自动输入大型医学 pdf 书籍并自动转换为 md 的最佳方法？</title>
-      <link>https://www.reddit.com/r/automation/comments/1qmlnij/best_way_to_automate_inputting_large_med_pdf/</link>
-      <description><![CDATA[ 由   提交/u/aaatings  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1qmlnij/best_way_to_automate_inputting_large_med_pdf/</guid>
-      <pubDate>Sun, 25 Jan 2026 15:12:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>可以在 Linux 上使用本地 Ai 按内容对文件进行分类</title>
-      <link>https://www.reddit.com/r/automation/comments/1qmg3my/possibility_to_categorize_files_by_content_with/</link>
-      <description><![CDATA[ 由   提交 /u/Gold-Drag9242   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1qmg3my/possibility_to_categorize_files_by_content_with/</guid>
-      <pubDate>Sun, 25 Jan 2026 10:52:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>再次回来帮助新的初创公司：向我询问任何技术问题</title>
-      <link>https://www.reddit.com/r/automation/comments/1qmfvnd/back_again_to_help_new_startups_ask_me_anything/</link>
-      <description><![CDATA[ 由   提交 /u/Delicious_Shower5188   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1qmfvnd/back_again_to_help_new_startups_ask_me_anything/</guid>
-      <pubDate>Sun, 25 Jan 2026 10:39:34 GMT</pubDate>
     </item>
     <item>
       <title>有人遇到这个错误吗？</title>
