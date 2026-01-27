@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 27 Jan 2026 09:29:33 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 12:39:44 GMT</lastBuildDate>
+    <item>
+      <title>[更新]：qwe v0.3.2</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qob26a/update_qwe_v032/</link>
+      <description><![CDATA[`qwe` 是一个文件优先的版本控制系统，可以跟踪单个文件或作为逻辑组的多个文件。 新增内容： - 开始跟踪非文本文件 - 添加了 `track` 命令以树状格式显示所有跟踪的文件 repo: https://github.com/mainak55512/qwe   由   提交/u/Mainak1224x  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qob26a/update_qwe_v032/</guid>
+      <pubDate>Tue, 27 Jan 2026 11:14:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为后端开发人员可以参与的令人惊叹的开源项目</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qoapak/amazing_open_source_projects_to_work_on_as_a/</link>
+      <description><![CDATA[我正在寻找一些令人惊叹且有趣的后端开源项目，以便在贡献的同时学习新东西。 大家请给我关于我应该使用哪些项目的建议。 我了解 Java 和 Go，所以我想在其中工作   由   提交 /u/Professional_Tie_471   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qoapak/amazing_open_source_projects_to_work_on_as_a/</guid>
+      <pubDate>Tue, 27 Jan 2026 10:54:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sitepins 克隆/开源</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qo9cqv/sitepins_cloneopen_source/</link>
+      <description><![CDATA[我正在使用 sitepins.com 发布博客文章。它非常简单，功能很多。但某些功能也是需要付出高昂代价的。有什么替代建议吗？   由   提交 /u/VortexHawk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qo9cqv/sitepins_cloneopen_source/</guid>
+      <pubDate>Tue, 27 Jan 2026 09:36:48 GMT</pubDate>
+    </item>
     <item>
       <title>刚刚发布了 100 多个开源仪表板 UI 块</title>
       <link>https://www.reddit.com/r/opensource/comments/1qo915s/just_released_100_opensource_dashboard_ui_blocks/</link>
@@ -48,13 +69,6 @@
       <pubDate>Tue, 27 Jan 2026 04:23:30 GMT</pubDate>
     </item>
     <item>
-      <title>我创建了一个开源歌集应用程序</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qo3bjs/i_created_an_opensource_songbook_app/</link>
-      <description><![CDATA[       由   提交/u/KaykCaputo   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qo3bjs/i_created_an_opensource_songbook_app/</guid>
-      <pubDate>Tue, 27 Jan 2026 04:06:03 GMT</pubDate>
-    </item>
-    <item>
       <title>debba/debba.sql：一个轻量级的、以开发人员为中心的数据库管理工具，使用 Tauri 和 React 构建。</title>
       <link>https://www.reddit.com/r/opensource/comments/1qnvrls/debbadebbasql_a_lightweight_developerfocused/</link>
       <description><![CDATA[       由   提交/u/debba_  [链接] [评论] ]]></description>
@@ -95,20 +109,6 @@
       <description><![CDATA[你好！ ObjectWeaver 是一种用 Go 编写的模式驱动方法，用于编排 LLM 以 JSON 格式返回响应（与模式格式匹配）。  存储库链接： https://github.com/ObjectWeaver/ObjectWeaver  文档链接： https://objectweaver.dev/ docker 镜像链接： https://hub.docker.com/repositories/objectweaver  它是如何工作的？ ObjectWeaver 使用字段驱动模式方法来同时生成尽可能多的字段。导致：  与串行生成相比，延迟显着减少。 它通过允许特定字段的特定上下文来减少上下文污染。  基本示例  requestBody := RequestBody{ 提示：“生成定义世界技术格局的模式”，定义：&amp;定义{ 类型： “object”，指令：“定义世界的技术格局，包括其进步水平和显着的创新。”，属性：map[string]Property{ “Level”：{ 类型：“string”，指令：“对世界的整体技术复杂程度进行分类，例如中世纪、工业或先进的未来技术。”, }, “发明”: {类型：“string”，指令：“描述最重要的技术发现及其对社会、经济和日常生活的变革性影响。”, }, }, }, }  输出：  { “级别”：“神奇集成的先进工业”，“发明”：“世界上最先进的技术”变革性创新是以太蒸汽引擎，它将神奇的精华提取与机械蒸汽动力相结合。这种混合技术通过空中飞船和铁路网络彻底改变了交通运输，通过启用魔法装配线重塑了制造业，并使魔法和机械工具的使用民主化，从根本上改变了经济格局和社会流动模式。” }  我正在寻找有关实施和 API 设计的反馈。我想还有一些边缘情况我还没有发现，所以我希望大家关注这个存储库。 感谢您的浏览！   由   提交 /u/HazLimb   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qnquv1/objectweaver_a_docker_image_for_concurrent/</guid>
       <pubDate>Mon, 26 Jan 2026 19:52:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌云的开源替代品</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qnq3xo/open_source_alternatives_to_google_cloud/</link>
-      <description><![CDATA[ 由   提交 /u/Important_Tea32   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qnq3xo/open_source_alternatives_to_google_cloud/</guid>
-      <pubDate>Mon, 26 Jan 2026 19:26:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于开源自托管项目中 AWS 密集型基础设施的问题</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qnpqw0/question_about_awsheavy_infrastructure_in_an/</link>
-      <description><![CDATA[TL;DR：我正在开发一个旨在实现自托管的开源项目，但我开始担心我当前的 AWS 优先基础设施与人们通常对开源和自托管的期望相冲突。 这还为时过早，所以我正在尝试进行理智检查，是应该坚持现在有效的做法，还是应该投资让项目变得更加高效在用户依赖它之前与供应商无关。  因此，我正在开发一个相当早期的开源项目，我打算将其实现自我托管，但我开始重新考虑我是否选择完全基于 AWS。我正在使用 SST，一个用于部署基础设施即代码的框架，老实说，我非常高兴使用它，但是我对项目的投入越多，对结果越满意，我就越想改变项目的基础设施。 我的想法主要归结为两点：  理想情况下，我希望项目托管在本地或人们喜欢的任何平台上。在当前的设置下，这是不可能的。虽然一些服务是容器化的，但它仍然依赖于许多特定于 AWS 的服务，例如 S3、SES、CloudFront 等。 由于我的项目使用一些相当复杂的服务，如果要自托管，定价（在 AWS 上运行时）会相当高。该项目至少需要启动 3 个 EC2 实例（后端 API 和具有复制服务的同步引擎）。目前我每月的费用超过 60 美元，而我唯一的理由是我正在耗尽我获得的一些启动资金。  您对我的情况有何意见或建议？我现在一直在回避这些问题，承认这是我能够用最快的方式开发的堆栈，也是我最舒服的构建方式，但经过更多的思考，我也会发现学习如何完全容器化我的应用程序并使用不需要完全供应商锁定的技术是有趣和有趣的。 也很高兴听到哪些技术是 S3、SES、CloudFront 等可以运行的技术的良好替代品本地和容器中。   由   提交 /u/Chucki_e   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qnpqw0/question_about_awsheavy_infrastructure_in_an/</guid>
-      <pubDate>Mon, 26 Jan 2026 19:14:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
