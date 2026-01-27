@@ -4,7 +4,49 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 27 Jan 2026 15:27:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 18:33:54 GMT</lastBuildDate>
+    <item>
+      <title>即时注入：AI的SQL注入+如何防御</title>
+      <link>https://www.reddit.com/r/programming/comments/1qolzix/prompt_injection_the_sql_injection_of_ai_how_to/</link>
+      <description><![CDATA[ 由   提交 /u/trolleid   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qolzix/prompt_injection_the_sql_injection_of_ai_how_to/</guid>
+      <pubDate>Tue, 27 Jan 2026 18:24:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>4 个 Pyrefly 类型缩小模式，使 Python 类型检查更加直观</title>
+      <link>https://www.reddit.com/r/programming/comments/1qolknv/4_pyrefly_type_narrowing_patterns_that_make/</link>
+      <description><![CDATA[由于 Python 是一种鸭子类型语言，程序通常会通过检查某事物的结构属性而不仅仅是其类名来缩小类型范围。对于类型检查器来说，了解各种缩小模式对于让用户尽可能轻松地对其代码进行类型检查并减少纯粹为了“满足类型检查器”而进行的更改量至关重要。 在这篇博文中，我们将介绍 Pyrefly 支持的一些很酷的缩小形式，这使其能够理解 Python 中的常见代码模式。 据我们所知，Pyrefly 是唯一支持所有类型的 Python 类型检查器。这些模式。 内容：1. hasattr/getattr 2. 标记联合 3. 元组长度检查 4. 在变量中保存条件 博客文章：https://pyrefly.org/blog/type-narrowing/ Github：https://github.com/facebook/pyrefly   由   提交/u/BeamMeUpBiscotti   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qolknv/4_pyrefly_type_narrowing_patterns_that_make/</guid>
+      <pubDate>Tue, 27 Jan 2026 18:10:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的初创型项目需要帮助来展示我的编程技能 - 寻求反馈、建议和机会</title>
+      <link>https://www.reddit.com/r/programming/comments/1qokw3l/need_help_with_my_startupstyle_project_to/</link>
+      <description><![CDATA[ 由   提交/u/Aspiring_Dev23  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qokw3l/need_help_with_my_startupstyle_project_to/</guid>
+      <pubDate>Tue, 27 Jan 2026 17:47:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>确定性的成本：为什么完美是分布式系统中规模的敌人</title>
+      <link>https://www.reddit.com/r/programming/comments/1qokaan/the_cost_of_certainty_why_perfect_is_the_enemy_of/</link>
+      <description><![CDATA[即使在 2026 年，也没有人工智能能够与光速协商。 ⚛️ 作为一名架构师，我意识到我们最大的开支不是计算，而是确定性税。我们付出了巨大的代价来假装世界并不混乱，但生产是纯粹的熵。 我刚刚写了一篇深入探讨为什么我们需要停止追求大规模的 100% 一致性。使用 Pokémon GO 作为沙箱，我进行了审核：  数学：为什么添加边车会让你每年损失 22 个小时的睡眠。 沙箱：为什么捕捉历史可能会撒谎，但玩家交易却必须极其缓慢。 定律：利特尔定律如何证明并发系统中的耐心是一种负担。  如果您曾经尝试过 PACELC 或共识算法，我很想听听您对选择放松约束的想法。   由   提交/u/Level-Sink3315  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qokaan/the_cost_of_certainty_why_perfect_is_the_enemy_of/</guid>
+      <pubDate>Tue, 27 Jan 2026 17:26:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何评估作为一名软件工程师的工作</title>
+      <link>https://www.reddit.com/r/programming/comments/1qoj5mb/how_i_estimate_work_as_a_staff_software_engineer/</link>
+      <description><![CDATA[ 由   提交/u/Ordinary_Leader_2971   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qoj5mb/how_i_estimate_work_as_a_staff_software_engineer/</guid>
+      <pubDate>Tue, 27 Jan 2026 16:47:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>讨论：现实生产中的同步、异步、事件驱动的 AI 请求</title>
+      <link>https://www.reddit.com/r/programming/comments/1qoimgd/discussion_sync_vs_async_vs_eventdriven_ai/</link>
+      <description><![CDATA[有一个有趣的 HN 讨论比较了 AI 请求的同步、异步和事件驱动模式，特别是在涉及流式处理和重试时。 很好奇这里的其他人如何处理生产中的长期或流式 AI 调用，以及简单的同步或基于队列的异步在哪里仍然效果更好。   由   提交/u/arx-go  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qoimgd/discussion_sync_vs_async_vs_eventdriven_ai/</guid>
+      <pubDate>Tue, 27 Jan 2026 16:29:08 GMT</pubDate>
+    </item>
     <item>
       <title>使用 N64 制作的 Banjo-Kazooie PC 移植版：重新编译</title>
       <link>https://www.reddit.com/r/programming/comments/1qogvk1/pc_port_of_banjokazooie_made_using_n64_recompiled/</link>
@@ -13,39 +55,11 @@
       <pubDate>Tue, 27 Jan 2026 15:26:17 GMT</pubDate>
     </item>
     <item>
-      <title>克劳德·科德让我再次爱上会议</title>
-      <link>https://www.reddit.com/r/programming/comments/1qofnyx/claude_code_made_me_love_meetings_again/</link>
-      <description><![CDATA[ 由   提交 /u/T_N1ck   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qofnyx/claude_code_made_me_love_meetings_again/</guid>
-      <pubDate>Tue, 27 Jan 2026 14:41:34 GMT</pubDate>
-    </item>
-    <item>
       <title>Copilot 与真实 FIDO2 服务器上的免费 LLM：架构很简单，安全边界并不复杂</title>
       <link>https://www.reddit.com/r/programming/comments/1qofdsz/copilot_vs_a_free_llm_on_a_real_fido2_server/</link>
       <description><![CDATA[我在真实的 FIDO2 / WebAuthn 服务器上对 GitHub Copilot（自动模式）和免费的 LLM(OpenCode) 进行了比较 - 不是演示存储库，而是生产身份验证基础设施。 相同的提示，相同的代码库，相同的期望：  添加真正的功能 提出更清晰的集成流程 原因关于安全性和可维护性 然后实现它  仅就代码质量而言，OpenCode 表现得令人惊讶：  更清晰的结构 更好的模块化 TypeScript 更易于维护  但我事先故意删除了一项微妙的安全检查： HTTP 标头级 RP 域验证。 Copilot 抓住了它并恢复了边界。OpenCode 没有。 没有任何损坏。测试通过了。但纵深防御却悄然被削弱。 我的收获不是“付费&gt;免费”，而是：  架构很容易优化 安全边界很容易忘记 AI工具仍然需要有人承担风险    由   提交/u/dqj1998  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qofdsz/copilot_vs_a_free_llm_on_a_real_fido2_server/</guid>
       <pubDate>Tue, 27 Jan 2026 14:30:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>chatuino,功能丰富的 TUI Twitch IRC 客户端,下载chatuino的源码_GitHub_帮酷</title>
-      <link>https://www.reddit.com/r/programming/comments/1qoepds/github_julezdevchatuino_a_featurerich_tui_twitch/</link>
-      <description><![CDATA[ 由   提交/u/Julez-Dev  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qoepds/github_julezdevchatuino_a_featurerich_tui_twitch/</guid>
-      <pubDate>Tue, 27 Jan 2026 14:03:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>ProjectAmurat：为 macOS 重新创建 Linux 实用程序</title>
-      <link>https://www.reddit.com/r/programming/comments/1qoedx0/projectamurat_recreating_linux_utilities_for_macos/</link>
-      <description><![CDATA[你好， 我最近刚买了一台 MacBook Air M1，并一直在尝试理解 Apple clang，为此我刚刚开始了一个项目。我为 macOS 重新创建了一些 Linux 实用工具，因为我经常使用它们。 我也为它们创建了一个 homebrew tap，所以如果您想在此处查看它。 要将其添加到 homebrew，您只需执行以下命令： brew tap projectamurat/murat 我真的很期待一些反馈，请随时贡献。   由   提交/u/CicadaAlternative142   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qoedx0/projectamurat_recreating_linux_utilities_for_macos/</guid>
-      <pubDate>Tue, 27 Jan 2026 13:51:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>ClawdBot：设置指南 + 如何不被黑客攻击</title>
-      <link>https://www.reddit.com/r/programming/comments/1qodury/clawdbot_setup_guide_how_to_not_get_hacked/</link>
-      <description><![CDATA[ 由   提交 /u/trolleid   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qodury/clawdbot_setup_guide_how_to_not_get_hacked/</guid>
-      <pubDate>Tue, 27 Jan 2026 13:29:13 GMT</pubDate>
     </item>
     <item>
       <title>在 Rust 应用程序中设计错误类型</title>
@@ -67,20 +81,6 @@
       <description><![CDATA[ 由   提交/u/pgaleone  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qodcf5/digital_excommunication_the_need_for_an_european/</guid>
       <pubDate>Tue, 27 Jan 2026 13:07:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>grep 在我杀死它之前搜索了我的node_modules 6分钟</title>
-      <link>https://www.reddit.com/r/programming/comments/1qodc0q/grep_searched_my_node_modules_for_6_minutes/</link>
-      <description><![CDATA[正在调试为什么我的代理花了很长时间来搜索存储库。事实证明，除非你告诉它，否则 grep 不会跳过node_modules。因此每次搜索都会扫描 400MB 的依赖项。杰出的。切换到 ripgrep。相同的搜索需要 0.3 秒，并且默认情况下尊重 .gitignore。 还有什么其他“事后显而易见”的内容？我缺少工具吗？你们现在都在不知道的情况下犯了哪些 grep 级别的错误？   由   提交/u/InstructionCute5502  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qodc0q/grep_searched_my_node_modules_for_6_minutes/</guid>
-      <pubDate>Tue, 27 Jan 2026 13:06:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>出租最便宜的 GPU！ （CPU 选项也可用）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qod744/renting_out_the_cheapest_gpus_cpu_options/</link>
-      <description><![CDATA[嘿，我长话短说，我正在以您可以找到的最便宜的价格出租 GPU。定价如下： RTX-4090：$0.15 RTX-A6000：$0.3 L40S：$0.40 A100 SXM：$0.6 H100：$1.2 （每小时） 要了解更多信息，请随时私信或在下面评论！   由   提交/u/Comfortable-Wall-465   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qod744/renting_out_the_cheapest_gpus_cpu_options/</guid>
-      <pubDate>Tue, 27 Jan 2026 13:00:56 GMT</pubDate>
     </item>
     <item>
       <title>使用 Mill 1.1.0 更简单的 JVM 项目设置</title>
