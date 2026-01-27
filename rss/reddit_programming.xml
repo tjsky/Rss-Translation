@@ -4,7 +4,98 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 27 Jan 2026 12:39:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 15:27:44 GMT</lastBuildDate>
+    <item>
+      <title>使用 N64 制作的 Banjo-Kazooie PC 移植版：重新编译</title>
+      <link>https://www.reddit.com/r/programming/comments/1qogvk1/pc_port_of_banjokazooie_made_using_n64_recompiled/</link>
+      <description><![CDATA[ 由   提交/u/r_retrohacking_mod2   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qogvk1/pc_port_of_banjokazooie_made_using_n64_recompiled/</guid>
+      <pubDate>Tue, 27 Jan 2026 15:26:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德·科德让我再次爱上会议</title>
+      <link>https://www.reddit.com/r/programming/comments/1qofnyx/claude_code_made_me_love_meetings_again/</link>
+      <description><![CDATA[ 由   提交 /u/T_N1ck   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qofnyx/claude_code_made_me_love_meetings_again/</guid>
+      <pubDate>Tue, 27 Jan 2026 14:41:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Copilot 与真实 FIDO2 服务器上的免费 LLM：架构很简单，安全边界并不复杂</title>
+      <link>https://www.reddit.com/r/programming/comments/1qofdsz/copilot_vs_a_free_llm_on_a_real_fido2_server/</link>
+      <description><![CDATA[我在真实的 FIDO2 / WebAuthn 服务器上对 GitHub Copilot（自动模式）和免费的 LLM(OpenCode) 进行了比较 - 不是演示存储库，而是生产身份验证基础设施。 相同的提示，相同的代码库，相同的期望：  添加真正的功能 提出更清晰的集成流程 原因关于安全性和可维护性 然后实现它  仅就代码质量而言，OpenCode 表现得令人惊讶：  更清晰的结构 更好的模块化 TypeScript 更易于维护  但我事先故意删除了一项微妙的安全检查： HTTP 标头级 RP 域验证。 Copilot 抓住了它并恢复了边界。OpenCode 没有。 没有任何损坏。测试通过了。但纵深防御却悄然被削弱。 我的收获不是“付费&gt;免费”，而是：  架构很容易优化 安全边界很容易忘记 AI工具仍然需要有人承担风险    由   提交/u/dqj1998  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qofdsz/copilot_vs_a_free_llm_on_a_real_fido2_server/</guid>
+      <pubDate>Tue, 27 Jan 2026 14:30:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>chatuino,功能丰富的 TUI Twitch IRC 客户端,下载chatuino的源码_GitHub_帮酷</title>
+      <link>https://www.reddit.com/r/programming/comments/1qoepds/github_julezdevchatuino_a_featurerich_tui_twitch/</link>
+      <description><![CDATA[ 由   提交/u/Julez-Dev  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qoepds/github_julezdevchatuino_a_featurerich_tui_twitch/</guid>
+      <pubDate>Tue, 27 Jan 2026 14:03:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>ProjectAmurat：为 macOS 重新创建 Linux 实用程序</title>
+      <link>https://www.reddit.com/r/programming/comments/1qoedx0/projectamurat_recreating_linux_utilities_for_macos/</link>
+      <description><![CDATA[你好， 我最近刚买了一台 MacBook Air M1，并一直在尝试理解 Apple clang，为此我刚刚开始了一个项目。我为 macOS 重新创建了一些 Linux 实用工具，因为我经常使用它们。 我也为它们创建了一个 homebrew tap，所以如果您想在此处查看它。 要将其添加到 homebrew，您只需执行以下命令： brew tap projectamurat/murat 我真的很期待一些反馈，请随时贡献。   由   提交/u/CicadaAlternative142   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qoedx0/projectamurat_recreating_linux_utilities_for_macos/</guid>
+      <pubDate>Tue, 27 Jan 2026 13:51:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>ClawdBot：设置指南 + 如何不被黑客攻击</title>
+      <link>https://www.reddit.com/r/programming/comments/1qodury/clawdbot_setup_guide_how_to_not_get_hacked/</link>
+      <description><![CDATA[ 由   提交 /u/trolleid   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qodury/clawdbot_setup_guide_how_to_not_get_hacked/</guid>
+      <pubDate>Tue, 27 Jan 2026 13:29:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Rust 应用程序中设计错误类型</title>
+      <link>https://www.reddit.com/r/programming/comments/1qodfji/designing_error_types_in_rust_applications/</link>
+      <description><![CDATA[ 由   提交 /u/Expurple   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qodfji/designing_error_types_in_rust_applications/</guid>
+      <pubDate>Tue, 27 Jan 2026 13:11:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>ClaudeDesk：Claude Code 的开源 PWA UI，具有会话持久性和工具活动跟踪功能</title>
+      <link>https://www.reddit.com/r/programming/comments/1qodcuo/claudedesk_opensource_pwa_ui_for_claude_code_with/</link>
+      <description><![CDATA[我开源了 ClaudeDesk，它是 Anthropic 的 Claude Code CLI 的配套接口。问题：Claude Code 是一个强大的 AI 编码助手，但它在终端中运行，会话短暂。当你关闭终端时，你会失去上下文，并且没有简单的方法可以看到克劳德在事后做了什么。解决方案：ClaudeDesk 提供基于 Web 的会话管理器，具有： - 实时工具活动时间线（文件读取、编辑、shell 命令） - 具有完整对话历史记录的持久会话 - Git 工作树隔离以实现安全实验 - 引导式工作流程（提交、推送、PR 创建） 技术堆栈： - 后端：Express + TypeScript + WebSocket - 前端：React + TailwindCSS - 使用 `--output-format stream-json` 生成 Claude Code CLI 安装：``` npx claudedesk ``` GitHub：https://github.com/carloluisito/claudedesk 麻省理工学院许可。欢迎 PR。    由   提交/u/carloluisito   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qodcuo/claudedesk_opensource_pwa_ui_for_claude_code_with/</guid>
+      <pubDate>Tue, 27 Jan 2026 13:07:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>数字绝罚——欧洲科技生态系统的需要</title>
+      <link>https://www.reddit.com/r/programming/comments/1qodcf5/digital_excommunication_the_need_for_an_european/</link>
+      <description><![CDATA[ 由   提交/u/pgaleone  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qodcf5/digital_excommunication_the_need_for_an_european/</guid>
+      <pubDate>Tue, 27 Jan 2026 13:07:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>grep 在我杀死它之前搜索了我的node_modules 6分钟</title>
+      <link>https://www.reddit.com/r/programming/comments/1qodc0q/grep_searched_my_node_modules_for_6_minutes/</link>
+      <description><![CDATA[正在调试为什么我的代理花了很长时间来搜索存储库。事实证明，除非你告诉它，否则 grep 不会跳过node_modules。因此每次搜索都会扫描 400MB 的依赖项。杰出的。切换到 ripgrep。相同的搜索需要 0.3 秒，并且默认情况下尊重 .gitignore。 还有什么其他“事后显而易见”的内容？我缺少工具吗？你们现在都在不知道的情况下犯了哪些 grep 级别的错误？   由   提交/u/InstructionCute5502  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qodc0q/grep_searched_my_node_modules_for_6_minutes/</guid>
+      <pubDate>Tue, 27 Jan 2026 13:06:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>出租最便宜的 GPU！ （CPU 选项也可用）</title>
+      <link>https://www.reddit.com/r/programming/comments/1qod744/renting_out_the_cheapest_gpus_cpu_options/</link>
+      <description><![CDATA[嘿，我长话短说，我正在以您可以找到的最便宜的价格出租 GPU。定价如下： RTX-4090：$0.15 RTX-A6000：$0.3 L40S：$0.40 A100 SXM：$0.6 H100：$1.2 （每小时） 要了解更多信息，请随时私信或在下面评论！   由   提交/u/Comfortable-Wall-465   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qod744/renting_out_the_cheapest_gpus_cpu_options/</guid>
+      <pubDate>Tue, 27 Jan 2026 13:00:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Mill 1.1.0 更简单的 JVM 项目设置</title>
+      <link>https://www.reddit.com/r/programming/comments/1qoctbm/simpler_jvm_project_setup_with_mill_110/</link>
+      <description><![CDATA[ 由   提交/u/lihaoyi  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qoctbm/simpler_jvm_project_setup_with_mill_110/</guid>
+      <pubDate>Tue, 27 Jan 2026 12:43:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Nanos Unikernel 重新思考云</title>
+      <link>https://www.reddit.com/r/programming/comments/1qocrkb/rethink_the_cloud_with_nanos_unikernel/</link>
+      <description><![CDATA[ 由   提交 /u/johnwaterwood   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qocrkb/rethink_the_cloud_with_nanos_unikernel/</guid>
+      <pubDate>Tue, 27 Jan 2026 12:41:10 GMT</pubDate>
+    </item>
     <item>
       <title>在 Windows 上运行 8 小时 TCP 压力测试的经验教训（延迟、CPU、内存）</title>
       <link>https://www.reddit.com/r/programming/comments/1qocluk/lessons_from_running_an_8hour_tcp_stress_test_on/</link>
@@ -18,97 +109,6 @@
       <description><![CDATA[ 由   提交/u/JadeLuxe  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qoby19/pipeline_implants_moving_supply_chain_attacks/</guid>
       <pubDate>Tue, 27 Jan 2026 12:01:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>论坛比人工智能更好</title>
-      <link>https://www.reddit.com/r/programming/comments/1qoby0m/forums_are_better_than_ai/</link>
-      <description><![CDATA[一个小问题：尽管在 kaggle 的 markdown 代码中写入了文件的完整路径，但图像并未显示。没有图像的外部链接，所以该选项也没有 我尝试了gemini和chatgpt，但他们只是建议上述两种方法。 最后我查了一下kaggle论坛，发现答案是从输入目录中单击图像，然后在屏幕底部弹出图像时复制图像地址 效果很好 只是一个AI无法取代人类的小例子因为它无法进行创造性思考。 此外，论坛应该保持活跃，因为它们最适合寻求帮助   由   提交/u/Black_Smith_Of_Fire  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qoby0m/forums_are_better_than_ai/</guid>
-      <pubDate>Tue, 27 Jan 2026 12:01:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>光标谎称它是新浏览器</title>
-      <link>https://www.reddit.com/r/programming/comments/1qobspp/cursor_lied_about_its_new_browser/</link>
-      <description><![CDATA[ 由   提交/u/HumanBot00  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qobspp/cursor_lied_about_its_new_browser/</guid>
-      <pubDate>Tue, 27 Jan 2026 11:54:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>当“只是旋转”会损害性能并在真正的调度程序下崩溃时</title>
-      <link>https://www.reddit.com/r/programming/comments/1qo9qob/when_just_spin_hurts_performance_and_breaks_under/</link>
-      <description><![CDATA[ 由   提交/u/Lectem  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qo9qob/when_just_spin_hurts_performance_and_breaks_under/</guid>
-      <pubDate>Tue, 27 Jan 2026 09:59:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>停止追逐更新：构建可持续的人工智能编码工作流程</title>
-      <link>https://www.reddit.com/r/programming/comments/1qo9ac6/stop_chasing_updates_building_a_sustainable_ai/</link>
-      <description><![CDATA[ 由   提交 /u/Happycodeine   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qo9ac6/stop_chasing_updates_building_a_sustainable_ai/</guid>
-      <pubDate>Tue, 27 Jan 2026 09:32:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>ClawdBot：人工智能时代信息窃取者的新主要目标</title>
-      <link>https://www.reddit.com/r/programming/comments/1qo93n5/clawdbot_the_new_primary_target_for_infostealers/</link>
-      <description><![CDATA[ 由   提交/u/Malwarebeasts  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qo93n5/clawdbot_the_new_primary_target_for_infostealers/</guid>
-      <pubDate>Tue, 27 Jan 2026 09:21:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>木头 |基于MCP的日志聚合工具</title>
-      <link>https://www.reddit.com/r/programming/comments/1qo8wms/loghead_mcp_based_log_aggregation_tool/</link>
-      <description><![CDATA[大家好，我们今天正式推出了基于 Loghead MCP 的日志聚合工具。其自由软件 https://www.producthunt.com/products/loghead https://www.linkedin.com/posts/aayan-mateen-748221189_logging-logs-loghead-activity-742182548778373120 0--8bt?utm_source=share&amp;utm_medium=member_android&amp;rcm=ACoAACxZVOgBxxBfH9t7RwDiBOsn5JzH-_YkdLY请点赞并分享   由   提交/u/HimSec  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qo8wms/loghead_mcp_based_log_aggregation_tool/</guid>
-      <pubDate>Tue, 27 Jan 2026 09:09:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Clawdbot 和 vivi 编码也有同样的缺陷。当你被黑客攻击时，由其他人决定。</title>
-      <link>https://www.reddit.com/r/programming/comments/1qo7cmi/clawdbot_and_vibe_coding_have_the_same_flaw/</link>
-      <description><![CDATA[ 由   提交 /u/bishwasbhn   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qo7cmi/clawdbot_and_vibe_coding_have_the_same_flaw/</guid>
-      <pubDate>Tue, 27 Jan 2026 07:35:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建可靠、安全的系统</title>
-      <link>https://www.reddit.com/r/programming/comments/1qo42mh/building_reliable_and_safe_systems/</link>
-      <description><![CDATA[ 由   提交/u/diagraphic  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qo42mh/building_reliable_and_safe_systems/</guid>
-      <pubDate>Tue, 27 Jan 2026 04:41:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在构建人工智能代码审查工具时学到的一件事：清晰度比“智能”更重要</title>
-      <link>https://www.reddit.com/r/programming/comments/1qo0fbf/one_thing_i_learned_building_an_ai_code_review/</link>
-      <description><![CDATA[过去几个月我一直在构建人工智能辅助的代码审查/安全工具，一个教训不断出现： 开发人员实际上并不想要他们想要的“智能”工具 清晰 工具。 早期，我痴迷于准确性分数，模型性能，并捕获边缘情况漏洞。所有重要的事情。但当我开始与真正的开发人员进行测试时，反馈出奇地一致：   该工具可以正确标记问题，但如果解释不可读，它的工作仍然会失败。一堵安全术语，即使准确，也会被忽略。 我所做的最大改进不是改变模型，而是改变输出：  更简短的解释 简单的英语推理 清晰的“这很重要，因为……”上下文 具体的后续步骤，而不是通用的建议  一旦我这样做了，参与度就消失了立即起来。被排除的误报较少。更多的人实际上解决了问题。 它提醒我，工具不仅仅关乎正确性，还关乎决策支持。如果一个工具不能帮助某人决定下一步该做什么，那就是噪音。 好奇这里的其他人如何看待这个问题。当您使用静态分析、linters 或 AI 工具时，是什么让您信任（或忽略）他们的输出？ 是准确性、可解释性还是其他什么？   由   提交/u/Same_Carrot196   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qo0fbf/one_thing_i_learned_building_an_ai_code_review/</guid>
-      <pubDate>Tue, 27 Jan 2026 01:59:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>速度的代价</title>
-      <link>https://www.reddit.com/r/programming/comments/1qo0942/the_cost_of_speed/</link>
-      <description><![CDATA[ 由   提交/u/yelabbassi   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qo0942/the_cost_of_speed/</guid>
-      <pubDate>Tue, 27 Jan 2026 01:51:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何构建完全 P2P 的协作编辑模型</title>
-      <link>https://www.reddit.com/r/programming/comments/1qnwe1d/how_i_built_a_collaborative_editing_model_thats/</link>
-      <description><![CDATA[在这里写下。请随时提供反馈！   由   提交/u/hotdog147  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qnwe1d/how_i_built_a_collaborative_editing_model_thats/</guid>
-      <pubDate>Mon, 26 Jan 2026 23:12:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Admiran：一种纯粹的惰性函数式编程语言和自托管编译器</title>
-      <link>https://www.reddit.com/r/programming/comments/1qnswpp/admiran_a_pure_lazy_functional_programming/</link>
-      <description><![CDATA[ 由   提交/u/AustinVelonaut   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qnswpp/admiran_a_pure_lazy_functional_programming/</guid>
-      <pubDate>Mon, 26 Jan 2026 21:04:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过节点/代理 GET 权限的 Kubernetes 远程代码执行</title>
-      <link>https://www.reddit.com/r/programming/comments/1qns00q/kubernetes_remote_code_execution_via_nodesproxy/</link>
-      <description><![CDATA[ 由   提交/u/ieyberg  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qns00q/kubernetes_remote_code_execution_via_nodesproxy/</guid>
-      <pubDate>Mon, 26 Jan 2026 20:32:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
