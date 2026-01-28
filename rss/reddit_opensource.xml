@@ -4,7 +4,56 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 28 Jan 2026 12:40:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 15:29:41 GMT</lastBuildDate>
+    <item>
+      <title>2026 年 1 月：“知识成就民主”</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qpeavp/jan_2026_knowledge_attains_democracy/</link>
+      <description><![CDATA[   /u/0xraghu  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qpeavp/jan_2026_knowledge_attains_democracy/</guid>
+      <pubDate>Wed, 28 Jan 2026 15:24:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Historicalplaces2.ca - 加拿大开源数据保存项目</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qpd7yz/historicplaces2ca_an_open_source_canadian_data/</link>
+      <description><![CDATA[ 由   提交/u/Training-Event3388   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qpd7yz/historicplaces2ca_an_open_source_canadian_data/</guid>
+      <pubDate>Wed, 28 Jan 2026 14:43:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何参与网络安全开源项目？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qpd29w/how_to_participate_in_cyber_security_open_source/</link>
+      <description><![CDATA[我想参与社区开源项目，例如 open edr，有人知道从哪里开始吗？   由   提交 /u/Spirited_Battle2760   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qpd29w/how_to_participate_in_cyber_security_open_source/</guid>
+      <pubDate>Wed, 28 Jan 2026 14:37:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Borderless Gaming 转售 Magpie，恕不另行通知</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qpayss/borderless_gaming_resells_magpie_without_notice/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qpayss/borderless_gaming_resells_magpie_without_notice/</guid>
+      <pubDate>Wed, 28 Jan 2026 13:12:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google 文档的替代方案是什么？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qpao2e/whats_the_alternative_for_google_docs/</link>
+      <description><![CDATA[嗨，我是 Google Docs 的普通用户，主要是因为它可以在浏览器中使用，而且我不必安装它。我可以通过手机和笔记本电脑访问它，因此与 MS Office 相比，它很容易使用。 但一段时间以来，由于每项大型技术都在推动人工智能，它让 Google 文档变得非常烦人。 我正在寻找替代方案。我的基本要求是： - 它应该提供基本的文本编辑组件，我不需要任何高级功能。 - 它应该可以从浏览器访问，因为我不断切换设备，并且我不想在每个设备上下载该软件。 - 它应该好看。我非常喜欢良好的 UI 就是这样，这些是我唯一的要求。 非常感谢任何帮助。   由   提交/u/Rundown_Codger  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qpao2e/whats_the_alternative_for_google_docs/</guid>
+      <pubDate>Wed, 28 Jan 2026 12:59:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 编写的 Markdown 文档的护栏：使用 mdschema 强制执行所需的部分/顺序</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qpaefh/guardrails_for_aiwritten_markdown_docs_enforce/</link>
+      <description><![CDATA[嗨 r/opensource — 我正在分享我构建的一个小工具：mdschema。 https://github.com/jackchuka/mdschema 这是一个获得 MIT 许可的 Go CLI，可根据 YAML“架构” 验证 Markdown 文档。想想“linters/formatters，但对于文档结构”：按顺序要求的标题，要求的代码块（带有语言标签），要求的表格标题，要求的文本等。 为什么我这样做  越来越多的文档由以下人员编辑：  人类 人工智能助手 “帮助”重新格式化/重新排序/省略部分的人工智能代理  这很好，直到您的自述文件/运行手册/ADR 结构发生变化并且审查变得痛苦为止。我想要一个护栏，使文档形状成为规范，而不是首选项。 它可以验证什么  嵌套标题结构（分层部分） 每部分规则：必需/禁止文本、每种语言的代码块（最小/最大）、图像、表格、列表、字数统计等。 全局规则：链接验证（锚/相对/外部）、标题规则、YAML frontmatter 验证（类型/格式）  其他方便的位  从架构生成 Markdown 模板 从现有 Markdown 文档派生（推断）起始架构 单一二进制、CI 友好、跨平台 (Linux/macOS/Windows)  欢迎反馈/PR - 请随意尝试并让我知道您的想法！   由   提交 /u/jackchuka   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qpaefh/guardrails_for_aiwritten_markdown_docs_enforce/</guid>
+      <pubDate>Wed, 28 Jan 2026 12:46:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>OnlyOffice 是 MS Office 最实用的 FOSS 替代品（这也是为什么我现在更喜欢它而不是 LibreOffice）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qpaebb/onlyoffice_is_the_most_practical_foss_alternative/</link>
+      <description><![CDATA[我花了很长时间试图完全消除我个人和家庭工作流程中的 Microsoft 影响，同时保持对非技术人员的可用性。在测试了大多数常见的自由和开源软件选项后，我得出了一个可能不太受欢迎的结论： OnlyOffice 是当今 Microsoft Office 的最佳开源替代品 - 对于许多用例来说，它是比 LibreOffice 更好的直接替代品。 这并不是对 LibreOffice 的价值观或历史的打击。这是关于现实世界的兼容性、协作和摩擦。  MS Office 兼容性实际上很重要。实际上，大多数人仍在交换 .docx、.xlsx 和 .pptx。  OnlyOffice 使用 OOXML 作为其本机格式 更可靠地保留布局、间距、表格和样式。破坏更少的复杂 Word 和 Excel 文件 Office 用户立即感到熟悉。  LibreOffice 功能强大，但在现实世界的混合环境中，文档保真度仍然经常失败。  无需大型科技云的协作  OnlyOffice 在自托管时表现出色： 实时协作编辑、版本历史记录、评论、跟踪更改、与 Nextcloud、ownCloud、普通存储或独立版本完全集成。您无需 Google 或 Microsoft 即可获得 Google Docs / M365 式协作。  LibreOffice Online 是存在的，但它更重，部署更复杂，对于非技术用户来说不够完善。  UX 对于采用很重要  OnlyOffice：干净、现代的 UI，Office 用户熟悉的 Ribbon 风格布局，更容易让家庭成员或同事接受。 LibreOffice：非常强大，但仍然感觉像是来自另一个时代的桌面应用程序，需要更多的再培训和对怪癖的容忍，对于大规模采用来说，熟悉不是一种罪过——而是一种功能。  开源和务实  OnlyOffice 是：AGPL 许可（核心）、可自托管、开放与企业透明、积极开发并有清晰的路线图，它在意识形态纯洁性和可用性之间达到了最佳平衡点。  对于许多人来说，这实际上让他们离开专有生态系统而不是爬回来。  并不完美，但最好的权衡  诚实的缺点：VBA 宏支持有限（与 LibreOffice 相同，只是不同的限制），较小的插件生态系统，高级 Excel 边缘情况仍然可能失败，但对于绝大多数日常 Office 用户来说？文档、电子表格、协作、共享和数据的长期所有权 - 它有效。 TL;DR- 如果您的目标是：开源、自托管、无需订阅、强大的 MS Office 兼容性、普通用户的最小摩擦， OnlyOffice 是目前最实用的 FOSS Office 套件。  LibreOffice 仍然是一款出色的强大工具，但 OnlyOffice 是 2025 年 Microsoft Office 的更好替代品。 流行的开源网站也建议使用它： https://openalternative.co/alternatives/microsoft-365 https://opensourcealternative.to/alternativesto/office-online 很想听听其他人的经验，特别是来自在家庭或小团队环境中长期运行的人的经验。   由   提交 /u/libbyslayer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qpaebb/onlyoffice_is_the_most_practical_foss_alternative/</guid>
+      <pubDate>Wed, 28 Jan 2026 12:46:10 GMT</pubDate>
+    </item>
     <item>
       <title>开源 Reddit 帖子调度工具？</title>
       <link>https://www.reddit.com/r/opensource/comments/1qp9ck1/open_source_reddit_post_scheduling_tool/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[我正在向那些在利基或非软件中心领域启动或维护开源项目的人寻求建议。 我的背景是现场娱乐制作（剧院、音乐会、巡演）。我花了多年时间观察团队通过 Word、Excel、电子邮件和共享驱动器的组合来管理人员、日程、库存和敏感数据。大多数工作都是确定性且可重复的，但仍然是手动完成的，或者是通过脆弱的一次性自动化完成的。 在过去的一年里，我一直在探索一种针对生产工作流程的开源、离线优先的协作工具。我主要关注问题定义和架构，并进行了一些小的概念证明，但与我要求其他人使用的东西还没有任何关系。 我的问题是关于流程和可行性：  当领域很小的时候，维护者如何引导贡献者？ 在寻求帮助之前通常期望实现什么级别的实现或完善，贡献者参与架构/设计阶段是否常见？ 期待这样的项目有自然贡献者现实吗？或者这个领域的项目通常从付费开发开始然后再开放？  我很乐意继续将其作为一项长期学习和设计练习，但我希望现实地看待期望并尊重开源规范。 如果有帮助，这里是我使用早期架构草案构建的一个存储库： https://github.com/wlococode/openprod 如果有用的话，我很乐意分享其他详细信息和 POC 代码。我很欣赏走过这条路的人的任何观点。   由   提交/u/xznth   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qp3rgv/seeking_advice_on_starting_an_opensource_project/</guid>
       <pubDate>Wed, 28 Jan 2026 06:30:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>（FOSS）我制作了一个 VS Code 扩展，以便您可以从移动设备使用 Antigravity：Antigravity Link</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qp3d1y/foss_i_made_a_vs_code_extension_so_you_can_use/</link>
-      <description><![CDATA[ 由   提交 /u/Traditional_Doubt_51   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qp3d1y/foss_i_made_a_vs_code_extension_so_you_can_use/</guid>
-      <pubDate>Wed, 28 Jan 2026 06:08:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>vitodo — 高度可定制的 todo.txt 可视化工具</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qp0xja/vitodo_highly_customizable_todotxt_visualization/</link>
-      <description><![CDATA[我带着另一个利基工具回来了。我希望以更有条理的方式查看我的 todo.txt 文件，并且我编写了这个工具，认为其他人可能也希望以这种方式查看它们。希望您喜欢。   由   提交 /u/forvirringssirkel   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qp0xja/vitodo_highly_customizable_todotxt_visualization/</guid>
-      <pubDate>Wed, 28 Jan 2026 04:07:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在终端中制作了一个开源 CLI ollama</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qp0m0p/i_made_a_open_source_cli_ollama_into_terminal/</link>
-      <description><![CDATA[       由   提交/u/Loud-Description-460   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qp0m0p/i_made_a_open_source_cli_ollama_into_terminal/</guid>
-      <pubDate>Wed, 28 Jan 2026 03:52:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>病毒式人工智能助手 Clawdbot（现为 Moltbot）：您需要了解的一切</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qozlcm/viral_ai_assistant_clawdbot_now_moltbot/</link>
-      <description><![CDATA[       由   提交/u/i-drake  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qozlcm/viral_ai_assistant_clawdbot_now_moltbot/</guid>
-      <pubDate>Wed, 28 Jan 2026 03:06:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么苹果不直接购买自己的 VCS？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qoyine/why_apple_doesnt_just_buy_their_own_vcs/</link>
-      <description><![CDATA[GitHub 本质上归 Microsoft 所有，现在我们在那里看到了大量的 AI 功能，这主要是因为 VS Code 在 AI 领域的地位仍然重要，但是 Apple 呢？他们有自己的硬件，他们自己的开发环境 XCode（仅适合他们的硬件，但仍然），有可能拥有自己的基础模型（他们没有，他们必须修复） 我的意思是他们有钱购买这些部件以使板对他们有利，为什么 GitLab 仍然没有被任何人购买   由   提交/u/Moneysaver04  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qoyine/why_apple_doesnt_just_buy_their_own_vcs/</guid>
-      <pubDate>Wed, 28 Jan 2026 02:20:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么苹果不直接购买自己的 VCS？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qoyhwz/why_apple_doesnt_just_buy_their_own_vcs/</link>
-      <description><![CDATA[GitHub 本质上归 Microsoft 所有，现在我们在那里看到了大量的 AI 功能，这主要是因为 VS Code 在 AI 领域的地位仍然重要，但是 Apple 呢？他们有自己的硬件，自己的开发环境 XCode（仅适合他们的硬件，但仍然如此），有可能拥有自己的基础模型（他们没有，他们必须修复）   由   提交 /u/Moneysaver04   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qoyhwz/why_apple_doesnt_just_buy_their_own_vcs/</guid>
-      <pubDate>Wed, 28 Jan 2026 02:19:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub - CSharpGodotTools/Template: 用于快速设置新的 Godot 4 C# 游戏的模板。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qovceh/github_csharpgodottoolstemplate_a_template_used/</link>
-      <description><![CDATA[      这是我一直在从事的一个正在进行的项目。我不喜欢每次创建新游戏时都设置所有乏味的东西，所以这就是这个项目背后的动机。 最近，我发现我必须从头开始重做我的主游戏 7 次，因为我随着时间的推移对这个模板做了一些小的更改，并且觉得有必要重新开始，因为这些更改太好了，不容忽视。 尽管如此，我正在从头开始重做所有这个模板，主要目的是移动尽可能多的脚本因为我可以使用外部组件来完全消除这个问题。更多信息请此处。   由   提交 /u/valkyrieBahamut   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qovceh/github_csharpgodottoolstemplate_a_template_used/</guid>
-      <pubDate>Wed, 28 Jan 2026 00:06:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
