@@ -4,13 +4,55 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 28 Jan 2026 06:30:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 09:31:06 GMT</lastBuildDate>
+    <item>
+      <title>Windows 搜索变得太慢/臃肿，因此我构建了一个开源的本地替代方案，能够容忍拼写错误，并按含义查找内部文件内容</title>
+      <link>https://www.reddit.com/r/software/comments/1qp6p1p/windows_search_became_too_slowbloated_so_i_built/</link>
+      <description><![CDATA[大家好， 问题 像你们中的许多人一样，我对本机 Windows 搜索感到沮丧。它经常会丢失文件，因拼写错误而感到困惑，并且尝试搜索网络而不是我的驱动器！ 传统解决方案 流行的搜索应用程序要么将其范围限制为文件名，要么无法搜索文件内容：  经典搜索应用程序，例如 Everything 和 Listary。虽然速度很快，但它们检查文件名，而不是内容。 高级搜索工具，例如 DocFetcher、Recoll 或 Agent Ransack。虽然这些考虑到了内容，但它们也存在一些问题： 不支持足够的文件类型（例如不在 RAR 档案中搜索，或不阅读 PowerPoint 演示文稿）。 不匹配文件，因为用户查询（甚至文件）可能包含破坏其严格匹配的印刷错误。 不支持扫描文档，因为它们不包含任何可搜索的文本。 无法理解用户查询或文件内容。 文件可以使用与用户查询不同的语言（或方言）编写。   云解决方案（例如 Google 云端硬盘）并不是很好，因为：  强制您不断上传文件。 您的文件可能包含无法与第三方共享的敏感内容。   我的解决方案 我想要一些像 Google 一样的东西，但 100% 在我的机器上本地运行。因此，我花了几个月的时间构建文件大脑。 它是什么：它是一个桌面搜索引擎，可以抓取您的文件并构建语义索引。与上述替代方案不同，它会搜索内容并理解含义。 主要功能：  拼写错误容错性：如果您使用美式英语并搜索“color”，它仍然会找到使用英式英语并提及“colour”的文档。 语义搜索：搜索“startup ideas”它会找到包含“商业计划”的文件 跨语言搜索：输入 Chair，获取提及 Silla 的西班牙语文件。 OCR 内置：它可以在屏幕截图和扫描的 PDF 中查找文本。 只读：它严格索引数据。它不会以任何方式移动、重命名或更改您的文件。 隐私： 100% 本地运行。它不会将您的文件发送到远程服务器进行处理。  获取它 想要开始使用它吗？检查 GitHub 存储库：https://github.com/Hamza5/file-brain   由   提交/u/Hamza3725   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qp6p1p/windows_search_became_too_slowbloated_so_i_built/</guid>
+      <pubDate>Wed, 28 Jan 2026 09:23:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们推出了 Vita3D：一款用于 3D 模型生成和动画的一体化 Web 工具（包含免费积分）</title>
+      <link>https://www.reddit.com/r/software/comments/1qp5sob/we_launched_vita3d_an_allinone_web_tool_for_3d/</link>
+      <description><![CDATA[我们是 PopPop AI 背后的团队，我们刚刚推出了 Vita3D — 一个基于 Web 的套件，其中包括：  图像到 3D 模型 图像到纹理 自动装配 文本到动画（带视频导出） AI 动作捕捉（带视频）导出）  为了感谢这个社区，我们将提供 1,000 个免费积分，代码为：E6C9A564-39BF-13BF-0EE6-A286D1458693 → 通过个人资料 &gt; 兑换注册后订阅。 官方页面：https://poppop.ai/ai-3d-model-generator 我们真诚地感谢您的反馈 - 哪些有效，哪些缺失，或者如何更好地适应您的工作流程。感谢您的浏览！   由   提交/u/CosmicNostalgiaA   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qp5sob/we_launched_vita3d_an_allinone_web_tool_for_3d/</guid>
+      <pubDate>Wed, 28 Jan 2026 08:28:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>请帮助使用 Canva</title>
+      <link>https://www.reddit.com/r/software/comments/1qp57vp/please_help_with_canva/</link>
+      <description><![CDATA[Canva 专业版或商业版的任何人都可以将此文件恢复到昨天下午 2 点的版本吗，很紧急...拜托，谢谢   由   提交/u/punimilk  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qp57vp/please_help_with_canva/</guid>
+      <pubDate>Wed, 28 Jan 2026 07:54:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>我 80% 的工作实现了自动化，现在我在工作时间做园艺</title>
+      <link>https://www.reddit.com/r/software/comments/1qp4sin/automated_80_of_my_job_now_i_garden_during_work/</link>
+      <description><![CDATA[由于显而易见的原因而被丢弃。 我从事销售业务。我的大部分工作是在系统之间移动数据、更新记录、发送后续信息等。经典的“忙碌但效率低下”。公司的事情。 几个月前，我开始使用人工智能工具来自动化基本上所有重复的事情。主要的有效方法（尝试了 5 次都无效）是名为 Geome 的东西 - 它会监视您的工作流程，然后执行它们。 现在我每天可能会进行 2 小时的实际思考工作。其余时间我的笔记本电脑都打开，但我实际上是在外面种西红柿。 我的数字是一样的。没有人注意到。我感觉我发现了矩阵中的一个小故障。 这不道德吗？大概。我在乎吗？并不真地。这项工作从一开始就不值得花 40 个小时。 这些内容是为了感受 Reddit 文化而写的——自嘲、对话、略带愤世嫉俗，并且关注真正的问题而不是产品功能。关键是即使有人不关心产品提及，它们也能提供价值（提示、同情、比较）。   由   提交 /u/Flimsy_Bike7598   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qp4sin/automated_80_of_my_job_now_i_garden_during_work/</guid>
+      <pubDate>Wed, 28 Jan 2026 07:29:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>闭嘴10++字典</title>
+      <link>https://www.reddit.com/r/software/comments/1qp40sq/shutup10_dictionary/</link>
+      <description><![CDATA[大家好， 我正在尝试 shutdown10，它很好，但每个设置的解释是有限的。比如，我找不到哪个设置禁用了边缘自动填充。 有选项字典吗？ 谢谢 #shutup10 #win11   由   提交/u/Psychological-Top-19   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qp40sq/shutup10_dictionary/</guid>
+      <pubDate>Wed, 28 Jan 2026 06:44:57 GMT</pubDate>
+    </item>
     <item>
       <title>我制作了 VS Code 扩展，以便您可以从移动设备使用 Antigravity：Antigravity Link</title>
       <link>https://www.reddit.com/r/software/comments/1qp3qjw/i_made_a_vs_code_extension_so_you_can_use/</link>
       <description><![CDATA[ 由   提交 /u/Traditional_Doubt_51   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1qp3qjw/i_made_a_vs_code_extension_so_you_can_use/</guid>
       <pubDate>Wed, 28 Jan 2026 06:28:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>gocronx-team/gocron：分布式计划任务管理系统</title>
+      <link>https://www.reddit.com/r/software/comments/1qp2zt3/gocronxteamgocron_distributed_scheduled_task/</link>
+      <description><![CDATA[ 由   提交/u/No_Platform_3108   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qp2zt3/gocronxteamgocron_distributed_scheduled_task/</guid>
+      <pubDate>Wed, 28 Jan 2026 05:48:55 GMT</pubDate>
     </item>
     <item>
       <title>NFL 实时统计</title>
@@ -67,48 +109,6 @@
       <description><![CDATA[我不想每次购买不同品牌的鼠标时都下载新的过时软件，这样我就可以更改 dpi 和按钮。是否有更改鼠标 dpi/键绑定的通用软件？   由   提交/u/HeavyDescription7  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1qooei3/generic_software_for_mouse_dpi_and_buttons/</guid>
       <pubDate>Tue, 27 Jan 2026 19:47:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>最好的防病毒软件？</title>
-      <link>https://www.reddit.com/r/software/comments/1qohrk5/best_anti_virus_software/</link>
-      <description><![CDATA[刚买了一台新笔记本电脑，想在开始使用之前确保它受到保护。 有更好的防病毒软件吗？ 我因弄乱我的笔记本电脑并最终导致一大堆东西减慢速度而臭名昭著，我认为这些都是病毒垃圾进入的，所以我觉得我确实需要保护。   由   提交 /u/Illustrious-Truth986   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qohrk5/best_anti_virus_software/</guid>
-      <pubDate>Tue, 27 Jan 2026 15:58:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>G Hub Backuperator – 用于备份和恢复 G Hub 设置和配置文件的批处理实用程序</title>
-      <link>https://www.reddit.com/r/software/comments/1qognd0/g_hub_backuperator_a_batch_utility_to_backup_and/</link>
-      <description><![CDATA[罗技的 G Hub 控制游戏外设，其设置和配置文件只能使用罗技帐户进行备份，甚至只能备份到罗技的云中。进行本地备份是一项基本的、用户友好的功能，但 corpos 对此并不感兴趣。 在从 Windows 系统文件夹手动复制文件一段时间后，我使用简单的批处理文件简化了该过程。随着时间的推移，我改进了脚本，使其完全自动化，以便可以共享和轻松使用。 我在 https://github.com/Olheiro/GHubBackuperator 上提供了这些文件。 您可以从 GitHub 单独下载这两个文件或以 .zip 文件形式下载。单击该选项的绿色代码按钮。 备份脚本会在 Downloads/GHub_Backup 中创建 G Hub 设置的副本，然后可以将其保存在其他位置。还原批处理会在同一文件夹中查找备份并将文件复制到所需位置。该过程需要几秒钟，除了按 Y 继续之外不需要用户交互。 这些脚本已获得 The Unlicense 许可，我鼓励任何人按照自己认为合适的方式修改它们。请不要因为菜鸟代码而让我太难堪，它完全是手工创建的，使用大量复制/粘贴以及 0% AI 的反复试验 - 我什至使用浏览器扩展来删除 Google 搜索中的 AI 摘要。 我已经对这些批处理文件进行了大量测试，并且它们工作一致。但是，我对因使用它们而导致的任何问题（从数据丢失到缺血性中风）不承担任何责任。   由   提交/u/CocoMilhonez   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qognd0/g_hub_backuperator_a_batch_utility_to_backup_and/</guid>
-      <pubDate>Tue, 27 Jan 2026 15:17:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>MP4 视频随机冻结</title>
-      <link>https://www.reddit.com/r/software/comments/1qobirw/mp4_videos_freeze_randomly/</link>
-      <description><![CDATA[请帮助我的电脑上的 mp4 视频冻结（音频和视频），我使用了 vlac 和 kmplayer，我刚刚将我的电脑从 intel 升级到 amd 和 gigabyte mb，我进行了全新安装并下载了最新的驱动程序，它在所有游戏中都运行良好，但我尝试观看一部电影，它开始冻结，并且在第一个视频之后它开始增加，我尝试了另一个视频，它在所有游戏中都做了同样的事情我尝试了所有更改 GPU 驱动程序、禁用 GPU 硬件加速、甚至重置电脑的操作，但没有任何改变。这是非常频繁且令人沮丧的 注意：它也发生在壁纸引擎中，但它使壁纸非常滞后，当发生这种情况时，我的冷却器的数字显示也会冻结 &lt;！-- SC_ON --&gt;  由   提交 /u/Natural-Load-8739   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qobirw/mp4_videos_freeze_randomly/</guid>
-      <pubDate>Tue, 27 Jan 2026 11:39:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有好的免费视频合并器？</title>
-      <link>https://www.reddit.com/r/software/comments/1qo8lze/are_there_any_good_free_video_combiners/</link>
-      <description><![CDATA[我需要为我的课程合并 2 个视频，但在过去 10 小时内我一​​直无法做到这一点。什么是时间限制不短于 20 分钟或大小不小于 Gb 的免费视频连接器。我知道这种情况很少见，但我找不到它，我需要帮助   由   提交 /u/Betty_GOLR   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qo8lze/are_there_any_good_free_video_combiners/</guid>
-      <pubDate>Tue, 27 Jan 2026 08:51:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找易于使用的 Discord 替代方案</title>
-      <link>https://www.reddit.com/r/software/comments/1qo43vn/looking_for_easy_to_use_discord_alternative/</link>
-      <description><![CDATA[大家好， 我目前正在寻找 Discord 的替代方案，并且可以使用一些建议。 据我所知，我因涉嫌使用修改过的客户端而被 Discord 禁止 IP。我没有修改客户端，但我的申诉被拒绝了，所以我不再继续抗争，而是继续前进。 我主要使用Zorin OS（Linux），但我的大多数朋友都在Windows，所以跨平台支持是必须的。我不需要任何高级功能，只需要文本聊天和语音通话（屏幕共享是一个优点） 一些重要要求：  易于 Windows 用户使用（他们不懂技术） 最好为他们提供类似 Discord 的布局 在 Windows 上安装简单（没有可怕的警告或复杂的设置） Linux 客户端或至少良好的 Linux 支持  我研究过 Revolt 和 Stoat Chat 等选项，但我有点担心长期支持和可靠性。特别是，Revolt 被 Windows Defender 标记为潜在恶意可能会破坏我的朋友们的交易。 有人有满足这些要求的可靠 Discord 替代方案的经验吗？我很感激建议，特别是来自使用 Linux 作为主要操作系统的人的建议。 提前致谢。   由   提交/u/toastyfawn566  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qo43vn/looking_for_easy_to_use_discord_alternative/</guid>
-      <pubDate>Tue, 27 Jan 2026 04:42:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找宏录制器</title>
-      <link>https://www.reddit.com/r/software/comments/1qo1agm/looking_for_a_macro_recorder/</link>
-      <description><![CDATA[所以我正在寻找宏录制器。不需要很复杂，只需要具有执行 2 个按键绑定的能力。好吧，4，但它是 WASD，还有鼠标点击。我尝试了一项小任务，为我必须制作的前几个宏工作，但我现在尝试的宏似乎不起作用。不知道为什么，但录音似乎在大约 1:30 后停止播放，尽管它​​是一个完整的大约 24 分钟的录音。 如果有人可以帮助我 A：修复tinytask 录音或 B：找到一个免费的宏录制器并且可以用于此，请告诉我。谢谢！   由   提交 /u/StellyrGames   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qo1agm/looking_for_a_macro_recorder/</guid>
-      <pubDate>Tue, 27 Jan 2026 02:35:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
