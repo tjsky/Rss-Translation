@@ -4,20 +4,13 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 29 Jan 2026 01:43:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 04:25:57 GMT</lastBuildDate>
     <item>
       <title>真的厌倦了 googlesheets 上的普通 html 输出</title>
       <link>https://www.reddit.com/r/programming/comments/1qpubic/got_real_tired_of_vanilla_html_outputs_on/</link>
       <description><![CDATA[好吧 从 Google 表格导出的普通 HTML 实在是丑陋（如下所示：img） 这对我来说不起作用，我想要一个可以一键处理我需要的解决方案（可定制的、现代的 HTML 输出。）。我尝试了很多网站，但大多数要么不起作用，要么要我付费。我知道我可以自己构建它，所以我自己承担了它！ 我构建了轻量级提取器，可以读取 Google 表格并输出结构化数据格式，可以在网站、应用程序和脚本等中使用。 这是前后对比，以便我们进行比较。 （此处显示：imgur） 到为了让您了解幕后发生的情况，我使用了一些特定的数学方法来防止输出崩溃。 当您合并电子表格中的单元格时，API 只是为我们提供开始和结束坐标。为了在 HTML 中实现这一点，我们必须手动计算 rowspan 和 colspan：  Rowspan: $RS = endRowIndex - startRowIndex$ Colspan: $CS = endColumnIndex - startColumnIndex$ 跳过逻辑： 对于每个坐标$(r, c)$ 在不是左上角的范围内，代码分配一个“跳过”状态，以便表格不会双重渲染单元格。  Google 将颜色表示为分数（0.0 到 1.0），但浏览器需要 8 位整数（0 到 255）。  公式： $Integer = \lfloor Fraction \times 255 \rfloor$ 示例：如果 API 返回红色值 0.1215，则代码会执行 Math.floor(0.1215 * 255) 以获得 CSS 的 31 rgb(31, ...) 值。  要在您不告知的情况下找出数据的起始位置，该工具“分数”前 10 行查找最佳标题候选：  分数 ($S$)： $S = V - (0.5 \times E)$  $V$：行中唯一的非空文本字符串的数量。 $E$：“噪声”的数量。单元格（空、“-”、“0”或“null”）。  约束：如果有任何非空值重复，分数将自动设置为 -1，因为标题通常需要唯一。  该工具还将传统电子表格边框类型转换为现代 CSS：  SOLID_MEDIUM $\rightarrow$ 2px 实心 SOLID_THICK $\rightarrow$ 3px 实心 DOUBLE $\rightarrow$ 3px double  它确实节省了时间，仅此而已对我来说很重要，哈哈。 该项目在 MIT 许可证下完全开源。   由   提交/u/Either-Grade-9290   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qpubic/got_real_tired_of_vanilla_html_outputs_on/</guid>
       <pubDate>Thu, 29 Jan 2026 01:16:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>我今年 16 岁，刚刚编写了我的第一个排序算法。</title>
-      <link>https://www.reddit.com/r/programming/comments/1qpuai4/im_16_and_i_just_coded_my_first_own_sorting/</link>
-      <description><![CDATA[这可能没有我想象的那么令人印象深刻，但我真的非常非常高兴它的结果。 代码和自述文件都是由 chatgpt 编写的。不是因为我懒，而是因为我用自己的语言写了一篇文章，并要求 chatgpt 翻译代码和文本，这样你们也可以阅读它，而不仅仅是我。也就是说，其中的所有内容都是我制作的，只是由chatgpt翻译的 另外请记住，我以前从未做过这样的事情，因此这是我的第一个“更大”的作品。项目。大约4-5个小时就做好了。这包括计划和编码的时间。 如果你们中的任何人能给我反馈，我真的很高兴听到你们的想法。 而且，这不是一个原始算法，因为我试图改进插入排序在较长列表方面的问题，因为我不想精疲力竭，而且我不知道如何开始自己计划一切，所以我只是按照我认为可能会好的方式去做。 现在我想标题可能有误导性，但现在是凌晨 2:10，我明天还要上学，但我想分享它，说实话，在集思广益之后我什至无法思考。谢谢大家的关注！ *对于模组，我不知道这是否算是一个演示，但我在自述文件中有一篇三页的文章，介绍了我是如何制作的，为什么我选择这样做或那样，我遇到了什么问题，我的艰难过程等等。   由   提交/u/fallenmeteorite4  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qpuai4/im_16_and_i_just_coded_my_first_own_sorting/</guid>
-      <pubDate>Thu, 29 Jan 2026 01:15:21 GMT</pubDate>
     </item>
     <item>
       <title>SDL2 TTF 到纹理</title>
@@ -27,32 +20,11 @@
       <pubDate>Thu, 29 Jan 2026 01:01:46 GMT</pubDate>
     </item>
     <item>
-      <title>逻辑炸弹</title>
-      <link>https://www.reddit.com/r/programming/comments/1qptwyf/logic_bombs/</link>
-      <description><![CDATA[刚刚开始阅读“Homo Deus”作者：Harari - 第 19 页底部，他表示美国的主要基础设施很可能“拥挤不堪”。与逻辑炸弹。 ”  任何在这个领域有一点重力的人都可以参与进来吗？ 这对我来说感觉不现实。我确信它们可能会受到损害，但暗示它们已经受到损害而没有人注意到？    由   提交 /u/Different-Pay6934   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qptwyf/logic_bombs/</guid>
-      <pubDate>Thu, 29 Jan 2026 00:59:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>拳头力量</title>
-      <link>https://www.reddit.com/r/programming/comments/1qpszm4/hnefatafl/</link>
-      <description><![CDATA[我创建了一个版本的 [哥本哈根 Hnefatafl](https://hnefatafl.org/history.html)。 它包括引擎、服务器、客户端和 AI。它是用 Rust 构建的。服务器 使用自定义协议在 TCP 上运行，该协议使用 [RON](https://github.com/ron-rs/ron) 与纯文本一起进行序列化。单行就是一条消息。 客户端是使用 [iced](https://github.com/iced-rs/iced) 构建的，因此它是一个 桌面和移动应用程序，而不是浏览器应用程序。该客户端具有许多 功能，并被翻译成多种语言。它还支持iced 支持的所有内容的热键。 其中一个功能是评论游戏。你可以玩出任何你喜欢的变化，并使用人工智能来建议动作。完成游戏后，它会保存在服务器上，要查看它，您只需单击“获取存档游戏”即可。您可以通过ID识别该游戏。 我正在寻找更多人来玩。我支持玩时间较短的实时游戏和持续数天的较长游戏。 如果您对人工智能感兴趣，我们也将不胜感激。我 目前认为在 [burn](https://github.com/tracel-ai/burn)获得强化支持 学习之前我不会再做更多的工作。 欢迎任何建议或评论，谢谢。   由   提交/u/Confident_Orchid_902   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qpszm4/hnefatafl/</guid>
-      <pubDate>Thu, 29 Jan 2026 00:20:31 GMT</pubDate>
-    </item>
-    <item>
       <title>AT&T 于 1998 年推出了 iTunes。这就是他们取消它的原因。 （《MP3 的另一位之父》的姊妹篇）</title>
       <link>https://www.reddit.com/r/programming/comments/1qpsw4m/att_had_itunes_in_1998_heres_why_they_killed_it/</link>
       <description><![CDATA[最近我发布了《另一个MP3之父》关于贝尔实验室工程师詹姆斯·约翰斯顿 (James Johnston)，他对感知音频编码的贡献已被载入史册。一些评论者询问商业方面发生了什么； AT&amp;T 是如何设法拥有后来成为 iTunes 的技术却仍然失败的。 这就是那个故事。 Howie Singer 和 Larry Miller 使用 Johnston 的 AAC 编解码器在 AT&amp;T 内部构建了 a2b Music。他们比 iPod 早三年就有唱片合约、有效的下载服务和便携式播放器。他们试图将其解开。 AT&amp;T 于 1999 年 5 月取消了分拆。两周后，Napster 推出。 基于对 Singer（现于纽约大学任教，曾任华纳音乐战略技术主管 10 年）和 Miller（纽约大学索尼音频研究所首任主任）的采访。技术已经准备好了。市场不是。拥有百年历史的电话垄断的许可文化无法以互联网的速度发展。   由   提交/u/Traditional_Rise_609   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qpsw4m/att_had_itunes_in_1998_heres_why_they_killed_it/</guid>
       <pubDate>Thu, 29 Jan 2026 00:16:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>停止学习 HTML/CSS：对你的第一份 AI 工作真正重要的 3 种语言</title>
-      <link>https://www.reddit.com/r/programming/comments/1qpsnh4/stop_learning_htmlcss_the_3_languages_that/</link>
-      <description><![CDATA[ 由   提交/u/Western_Direction759   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qpsnh4/stop_learning_htmlcss_the_3_languages_that/</guid>
-      <pubDate>Thu, 29 Jan 2026 00:06:33 GMT</pubDate>
     </item>
     <item>
       <title>缓存为王，路线图</title>
@@ -109,6 +81,34 @@
       <description><![CDATA[ 由   提交/u/levodelellis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qpi3ut/video_code_comments_cain_on_games/</guid>
       <pubDate>Wed, 28 Jan 2026 17:38:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>决定你看到什么的 X 算法演练</title>
+      <link>https://www.reddit.com/r/programming/comments/1qpharr/walkthrough_of_xs_algorithm_that_decides_what_you/</link>
+      <description><![CDATA[X 于 1 月 20 日开源了 For You feed 背后的算法 (https://github.com/xai-org/x-algorithm)。 候选检索 两个来源为管道提供数据：  Thunder：内存服务，在 DashMap（并发 HashMap）中保存最近 48 小时的推文，按作者索引。它为您通过 gRPC 关注的帐户提供网络内帖子。 Phoenix：用于发现的两塔神经网络。用户塔是一个具有均值池化功能的 Grok 变压器。候选塔是带有 SiLU 的 2 层 MLP。两者都是 L2 归一化，因此检索只是预先计算的语料库嵌入的点积。  评分 Phoenix 在单个变压器正向传递中对所有候选者进行评分，预测每个帖子的 18 个参与概率 - 点赞、回复、转发、分享、阻止、静音、报告、停留、视频完成等。 高效地进行批处理，而候选者不会影响每个帖子其他人的分数，他们使用自定义的注意力蒙版。每个候选者都会关注用户上下文及其自身，但跨候选者的注意力会被归零。 WeightedScorer 将 18 个预测合并为一个数字。积极的信号（喜欢、回复、分享）会增加分数。负面信号（阻止、静音、报告）会被减去。 然后进行两项调整：  作者多样性 - 指数衰减，因此一位作者无法主导您的 Feed。下限参数（例如 0.3）确保后面的帖子仍然具有一定的权重。 网络外惩罚：来自未关注帐户的 0 个帖子乘以权重（例如 0.7）。  过滤 在评分之前运行 10 个预过滤器（去重、年龄限制、静音关键字、阻止列表、之前通过 Bloom 过滤器看到的帖子）。评分后，可见性过滤器会查询外部安全服务，对话重复数据删除过滤器仅保留每个线程得分最高的帖子。   由   提交/u/noninertialframe96  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qpharr/walkthrough_of_xs_algorithm_that_decides_what_you/</guid>
+      <pubDate>Wed, 28 Jan 2026 17:10:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>简单的类比来理解正向代理与反向代理</title>
+      <link>https://www.reddit.com/r/programming/comments/1qpg40g/simple_analogy_to_understand_forward_proxy_vs/</link>
+      <description><![CDATA[ 由   提交/u/Comfortable-Fan-580   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qpg40g/simple_analogy_to_understand_forward_proxy_vs/</guid>
+      <pubDate>Wed, 28 Jan 2026 16:29:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>微软强迫我切换到 Linux</title>
+      <link>https://www.reddit.com/r/programming/comments/1qpfz0l/microsoft_forced_me_to_switch_to_linux/</link>
+      <description><![CDATA[ 由   提交/u/Dear-Economics-315   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qpfz0l/microsoft_forced_me_to_switch_to_linux/</guid>
+      <pubDate>Wed, 28 Jan 2026 16:24:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>用人工智能代理编写浏览器</title>
+      <link>https://www.reddit.com/r/programming/comments/1qpfpgy/on_writing_browsers_with_ai_agents/</link>
+      <description><![CDATA[ 由   提交/u/heraldev  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qpfpgy/on_writing_browsers_with_ai_agents/</guid>
+      <pubDate>Wed, 28 Jan 2026 16:14:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
