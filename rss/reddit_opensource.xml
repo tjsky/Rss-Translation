@@ -4,7 +4,7 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 30 Jan 2026 15:31:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 18:37:41 GMT</lastBuildDate>
     <item>
       <title>我的第一期已经发货了！</title>
       <link>https://www.reddit.com/r/opensource/comments/1qr7x04/shipped_my_first_issue/</link>
@@ -83,7 +83,7 @@
       <pubDate>Thu, 29 Jan 2026 16:21:04 GMT</pubDate>
     </item>
     <item>
-      <title>Holmes：一个本地运行的具有 UI 的 diff 工具。</title>
+      <title>Holmes：一个本地运行的带有 UI 的 diff 工具。</title>
       <link>https://www.reddit.com/r/opensource/comments/1qqd0ps/holmes_a_locally_running_diff_tool_with_a_ui/</link>
       <description><![CDATA[我将其发布在 r/golang 上，但由于项目很小而被删除。但我决定在这里与社区分享。 前言： 我经常需要比较敏感文档、.env 文件、json/xml/text 等，而且我总是对那些进行逐行比较的网站感到有点厌倦。我想要一些易于可见的东西，并且我想要一些完全独立且不使用外部 API 等的东西 Techstack： 我使用 Go 1.25.1、Gin-gonic、zerolog、html/template 和 bootstrap 构建了这个 Bootstrap 5 CSS/JS 是用它编译的，因此它完全独立，并且不会连接到 CDN 进行离线 我还刚刚添加了 Sonic Cache，这是我为 FIFO 缓存系统编写的另一个 (FOSS) 包，用于支持可以从 githook 触发的“魔术链接”。 Git 挂钩工作仍处于实验阶段，但到目前为止，与我测试的结果相比，效果良好 我还获得了一些非常基本的内容感知，当您在文本字段 A 中粘贴内容时，它使用 JS 在 JSON、XML 和文本之间切换。 构建和构建运行？我已经使用Go-releaser和Docker进行了设置，因此当我标记新版本时它就会构建，以便您可以在带有容器的家庭实验室/docker堆栈/服务器上运行编译后的版本（但我需要签署可执行文件），或者您可以在自己的计算机上从头开始构建它。 路线图：  XML和JSON的节点排序，这应该有助于解决以下情况：自动生成 JSON/XML 节点，然后对内容进行打乱 在 XML 比较中填充随机空白行 进一步的 git-hook 测试 编码 UI  Base64 编码/解码 Sha-256 编码/比较  Java / Spring MVC 版本（WIP https://github.com/jroden2/holmes-java)  Repo https://github.com/jroden2/holmes-go 屏幕截图 https://github.com/jroden2/holmes-go/blob/main/Screenshot%202026-01-26%20at%2010.37.54.png &lt;一href=&quot;https://github.com/jroden2/holmes-go/blob/main/Screenshot%202026-01-26%20at%2010.38.24.png&quot;&gt;https://github.com/jroden2/holmes-go/blob/main/Screenshot%202026-01-26%20at%2010.38.24.png &lt;一href=&quot;https://github.com/jroden2/holmes-go/blob/main/Screenshot%202026-01-26%20at%2010.38.35.png&quot;&gt;https://github.com/jroden2/holmes-go/blob/main/Screenshot%202026-01-26%20at%2010.38.35.png   由   提交 /u/JackJack_IOT   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qqd0ps/holmes_a_locally_running_diff_tool_with_a_ui/</guid>
