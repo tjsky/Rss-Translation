@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 31 Jan 2026 04:24:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 06:33:20 GMT</lastBuildDate>
+    <item>
+      <title>我用 Three.js 构建了这个</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qru4ph/i_built_this_with_threejs/</link>
+      <description><![CDATA[      3d 建模 Web 应用程序。 实时项目：https://kokraf.com/ 源代码：https://github.com/sengchor/kokraf   由   提交/u/Sengchor  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qru4ph/i_built_this_with_threejs/</guid>
+      <pubDate>Sat, 31 Jan 2026 05:49:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立了我的投资组合网站。寻找有关设计和实施的极其诚实的反馈。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qrt6dw/built_my_portfolio_website_looking_for_brutally/</link>
+      <description><![CDATA[大家好， 我最近建立了我的个人作品集网站，我正在寻找诚实、无过滤的反馈。 我想要以下方面的意见：  整体设计和布局 用户体验和跨部分的流程 响应能力和性能 功能选择和实现质量 任何感觉不必要、令人困惑或执行不力的事情  请不要犹豫。如果感觉某件事不对劲、过时、设计过度或很糟糕，请说出来。我在工作申请中积极使用此作品集，因此实际批评比赞扬更有帮助。 以下链接：我的作品集 如果您是开发人员、设计师或招聘人员，我特别感谢您提供的反馈。如果您不是，您的第一印象反应仍然很重要。 提前感谢您抽出时间。我会阅读每条评论并回复。   由   提交 /u/Excellent_Hunter_347   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qrt6dw/built_my_portfolio_website_looking_for_brutally/</guid>
+      <pubDate>Sat, 31 Jan 2026 05:01:06 GMT</pubDate>
+    </item>
     <item>
       <title>2026 年顶级 DevOps 咨询团队应具备哪些技能？</title>
       <link>https://www.reddit.com/r/webdev/comments/1qrsf68/what_skills_should_top_devops_consulting_teams/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[构建成功的离线优先策略（Web 和移动设备）的最佳实践和推荐资源是什么？ 特别是，我对以下主题感兴趣： - 全局数据同步、 - 离线身份验证、 - 冲突解决、 - 架构模式和现实世界反馈。 我目前正在使用以下堆栈开展一个项目：Expo / React Native、Supabase（我非常希望稍后）、Expo SQLite 和 Legend State。 这是我第一次采用离线优先范例。我发现它从用户体验的角度来看非常引人注目，并希望加深我在该领域的技能。 提前感谢您的见解和资源🙏   由   提交 /u/jijiDev   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qrlyxe/question_best_practices_for_offlinefirst_approach/</guid>
       <pubDate>Fri, 30 Jan 2026 23:37:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何处理 AI 功能的按操作计费？条纹费用在微交易上让我很烦恼。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qrkhb1/how_are_you_handling_peraction_billing_for_ai/</link>
-      <description><![CDATA[构建具有 AI 功能的 B2C 应用程序（想想：AI 撰写求职信、AI 为简历评分等）。每次操作都会花费 0.02-0.08 美元的 API 调用费用，我希望向用户每次使用收取 0.25-0.50 美元的费用。问题是数学不起作用： • 0.50 美元费用 → Stripe 收取 0.30 美元 + 2.9% = ~0.32 美元费用 • 除了 AI 成本之外，我还要支付 64% 的支付处理费用 订阅也不起作用，因为使用情况差异很大。高级用户每月的 API 调用费用为 20 美元，普通用户的费用为 0.50 美元。每月 9.99 美元的固定价格意味着我要么赔钱，要么收费过高。目前正在考虑： • 积分包（购买 10 美元，获得 100 个积分） - 但现在我正在构建钱包基础设施，处理部分余额退款，处理递延收入会计... • 像 AWS 一样按月使用计费 - 但消费者讨厌意外账单 你们都如何解决这个问题？特别好奇： 1. 您对可变人工智能成本的计费设置是什么？ 2. 您是否建立或使用了自己的信用系统？ 3. 小额交易的Stripe费用问题如何处理？感觉这里应该有更好的解决方案，但我没有找到。   由   提交/u/gregb_parkingaccess   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qrkhb1/how_are_you_handling_peraction_billing_for_ai/</guid>
-      <pubDate>Fri, 30 Jan 2026 22:38:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netlify 毒药喷泉 |黑客新闻</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qrk5t0/netlify_poison_fountain_hacker_news/</link>
-      <description><![CDATA[直接链接到说明： https://gist.github.com/dlford/5e0daea8ab475db1d410db8fcd5b78db   由   提交/u/RNSAFFN   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qrk5t0/netlify_poison_fountain_hacker_news/</guid>
-      <pubDate>Fri, 30 Jan 2026 22:26:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
