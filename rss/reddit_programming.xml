@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 31 Jan 2026 09:24:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 12:37:57 GMT</lastBuildDate>
+    <item>
+      <title>矢量引擎：构建用于稳定扩散 SVG 生成的 Python 工作流程管道 在本演练中，我们正在弥合原始 AI 生成和生产就绪设计之间的差距。我正在分解一个专门为处理稳定扩散而设计的自定义 Python 矢量工作流管道</title>
+      <link>https://www.reddit.com/r/programming/comments/1qs0jzw/the_vector_engine_building_a_python_workflow/</link>
+      <description><![CDATA[ 由   提交/u/Appressive_Rub_221   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qs0jzw/the_vector_engine_building_a_python_workflow/</guid>
+      <pubDate>Sat, 31 Jan 2026 12:00:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么浏览时网址清理很重要</title>
+      <link>https://www.reddit.com/r/programming/comments/1qrzvtp/why_url_cleaning_is_important_while_browsing/</link>
+      <description><![CDATA[为什么浏览网页时 URL 清理极其重要 跟踪 URL 会悄悄暴露您的浏览行为、泄露私人数据并增加安全风险。了解为什么清理网址很重要、跟踪参数的作用以及浏览器扩展如何保护您的隐私。   由   提交/u/justok25  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qrzvtp/why_url_cleaning_is_important_while_browsing/</guid>
+      <pubDate>Sat, 31 Jan 2026 11:23:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开源了一个 AI 代理，可将 Jira 和 ClickUp 票证转换为 GitHub PR</title>
+      <link>https://www.reddit.com/r/programming/comments/1qrzd9s/i_opensourced_an_ai_agent_that_turns_jira_clickup/</link>
+      <description><![CDATA[过去几个月我一直在构建 Afelyon，并且刚刚将其开源。它是一个 AI 代理，可以读取您的 Jira 或 ClickUp 票证、克隆您的存储库、理解代码库、生成代码，并端到端地打开拉取请求，在代码审查之前没有人参与循环。 **它与仅将票证粘贴到 ChatGPT 中的不同之处在于：** AI 代码生成的核心问题是上下文。 Afelyon 有一个真正理解您的项目的混合上下文系统： - **任务路由** UI 任务获取与数据库迁移不同的上下文。它将“将按钮添加到设置页面”路由到与“添加新的 API 端点”不同。 - **样式检测** 它会在生成任何内容之前检测您的 CSS 框架、组件模式、命名约定和测试结构。 - **语义搜索** 使用 pgvector 嵌入为每个任务查找最相关的代码文件。 - **智能探索** 根据导入、导出和使用模式动态发现相关文件。 - **项目config** 读取“AFELYON.md”文件（如“.cursorrules”）以获取特定于项目的规则。 **管道：**  来自 Jira/ClickUp 的 Webhook 触发作业 BullMQ 排队并处理它 代理克隆存储库，分析架构 上下文系统选择相关文件 Claude 生成更改 Linter + 测试运行程序验证 创建 PR 并附有详细描述  **Stack:** TypeScript monorepo、Fastify API、BullMQ + Redis 队列、Prisma + PostgreSQL、Claude AI (Anthropic或 AWS Bedrock）。 **GitHub：** https://github.com/Abdohurbly/afelyon-ai AGPL-3.0 已获得许可。使用 Docker 自托管或使用云版本。寻找贡献者，特别是添加 Linear、GitLab 和 Asana 集成的贡献者。   由   提交/u/Abdulwahab93   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qrzd9s/i_opensourced_an_ai_agent_that_turns_jira_clickup/</guid>
+      <pubDate>Sat, 31 Jan 2026 10:54:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>有史以来最愚蠢的性能修复</title>
+      <link>https://www.reddit.com/r/programming/comments/1qrysmp/the_dumbest_performance_fix_ever/</link>
+      <description><![CDATA[ 由   提交/u/Kyn21kx   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qrysmp/the_dumbest_performance_fix_ever/</guid>
+      <pubDate>Sat, 31 Jan 2026 10:20:25 GMT</pubDate>
+    </item>
     <item>
       <title>最糟糕的程序员是过去的自己（以及其他无私的编程原则）</title>
       <link>https://www.reddit.com/r/programming/comments/1qrxlgu/the_worst_programmer_is_your_past_self_and_other/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交 /u/IRIX_Raion   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qrofk8/kindler_a_new_luabased_build_system_designed_to/</guid>
       <pubDate>Sat, 31 Jan 2026 01:21:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vibe Engineering：我在使用 AI 编码代理时学到了什么</title>
-      <link>https://www.reddit.com/r/programming/comments/1qrkqeg/vibe_engineering_what_ive_learned_working_with_ai/</link>
-      <description><![CDATA[ 由   提交/u/mrexodia   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qrkqeg/vibe_engineering_what_ive_learned_working_with_ai/</guid>
-      <pubDate>Fri, 30 Jan 2026 22:48:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>教别人编程</title>
-      <link>https://www.reddit.com/r/programming/comments/1qrixkr/teaching_others_to_program/</link>
-      <description><![CDATA[希望在这里发帖是可以的，不是为了自我推销，只是希望得到诚实的反馈。 长期以来，我对人们学习编程的方式感到沮丧。大学在奠定基础方面做得很好，但优秀的程序员在一两个学期内就能掌握这些基础知识。在那之后，我自己和许多其他人都感到被遗弃了。 在一个特别缓慢的周五下午坐在这里，距离我的大学时代已经过去了几年。我再次思考这个问题，并决定尝试做点什么。我制作了一个系列中的第一个快速视频，介绍了实际企业如何编写应用程序。 我计划将其保持在相当初级的水平，但希望让那些拥有坚实基础的人了解当他们进入现实世界时会发生什么。希望大家能提供任何反馈。   由   提交/u/CRDC0292  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qrixkr/teaching_others_to_program/</guid>
-      <pubDate>Fri, 30 Jan 2026 21:39:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>让 Flix 编译器错误变得有用且令人愉快</title>
-      <link>https://www.reddit.com/r/programming/comments/1qrg080/making_flix_compiler_errors_helpful_and_delightful/</link>
-      <description><![CDATA[ 由   提交/u/jorkadeen   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qrg080/making_flix_compiler_errors_helpful_and_delightful/</guid>
-      <pubDate>Fri, 30 Jan 2026 19:51:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>代码生成器之旅：从手动地狱到声明式天堂</title>
-      <link>https://www.reddit.com/r/programming/comments/1qrf8mn/the_code_generator_journey_from_manual_hell_to/</link>
-      <description><![CDATA[ 由   提交/u/PigeonCodeur  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qrf8mn/the_code_generator_journey_from_manual_hell_to/</guid>
-      <pubDate>Fri, 30 Jan 2026 19:23:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
