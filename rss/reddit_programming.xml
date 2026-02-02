@@ -4,7 +4,91 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 01 Feb 2026 18:28:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 01:49:53 GMT</lastBuildDate>
+    <item>
+      <title>模式验证遗漏了什么：跟踪 MCP 服务器中的响应结构漂移</title>
+      <link>https://www.reddit.com/r/programming/comments/1qtgt62/what_schema_validation_misses_tracking_response/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qtgt62/what_schema_validation_misses_tracking_response/</guid>
+      <pubDate>Mon, 02 Feb 2026 01:08:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于每一位接近倦怠的开发人员，请阅读本文 · theSeniorDev</title>
+      <link>https://www.reddit.com/r/programming/comments/1qtg70y/to_every_developer_close_to_burnout_read_this/</link>
+      <description><![CDATA[如果你可以摆脱以下三个选择来减轻倦怠，你会摆脱这三个选择中的哪一个？  糟糕的管理 人工智能 有毒的同事 不可能的最后期限 高流动率    由   提交 /u/Inner-Chemistry8971   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qtg70y/to_every_developer_close_to_burnout_read_this/</guid>
+      <pubDate>Mon, 02 Feb 2026 00:42:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>`jsongrep` – 在路径上使用正则表达式查询 JSON，编译为 DFA</title>
+      <link>https://www.reddit.com/r/programming/comments/1qtfh1j/jsongrep_query_json_using_regular_expressions/</link>
+      <description><![CDATA[我一直在开发 jsongrep，这是一个 CLI 工具和库，用于使用正则路径表达式查询 JSON 文档。我想分享这个工具及其背后的一些理论。 这个想法 JSON 文档是树。 jsongrep 将此树中的路径视为字段名称和数组索引字母表上的字符串。您无需编写命令式遍历代码，而是编写一个正则表达式来描述要匹配的路径： $ echo &#39;{&quot;users&quot;: [{&quot;name&quot;: &quot;Alice&quot;}, {&quot;name&quot;: &quot;Bob&quot;}]}&#39; | jg &#39;**.name&#39; [&quot;Alice&quot;, &quot;Bob&quot;]  ** 是 Kleene 星形 — 匹配零个或多个边。因此，**.name 的意思是“在任意深度查找 name”。 它是如何工作的（有趣的部分） 查询引擎通过经典的自动机管道编译表达式：  解析：PEG 语法（通过 pest）将查询解析为 AST NFA 构造：AST 使用 Glushkov 构造编译为无 epsilon 的 NFA：没有 epsilon 转换意味着没有 epsilon 闭包开销 确定：子集构造将 NFA 转换为 DFA 执行：DFA 针对 JSON 树进行模拟，收集接受状态下的值  字母表依赖于查询且是有限的。字段名称变成离散符号，数组索引被划分为不相交的范围（因此 [0]、[1:3] 和 [*] 不会重叠）。这使 DFA 转换表保持紧凑。 查询：foo[0].bar.*.baz 字母表：{foo, bar, baz, *, [0], [1..∞), ∅} DFA 状态：6  查询语法 语法支持标准正则表达式运算符，适用于树路径：   运算符 示例 含义    序列 foo.bar 连接   析取 `foo bar`   Kleene star ** 任何路径（零个或多个步骤）   重复 foo* 重复字段零次或多次 通配符*，[*]任何字段/任何索引可选 foo? 存在则匹配   范围 [1:3] 数组切片   代码结构  src/query/grammar/query.pest – PEG语法 src/query/nfa.rs – Glushkov NFA构建 src/query/dfa.rs – 子集构建+DFA模拟 直接使用serde_json::Value（无自定义JSON） type)  实验：正则表达式字段匹配 该语法支持 /regex/ 语法，用于按模式匹配字段名称，但完整实现因一个有趣的问题而受阻：确定重叠的正则表达式需要同时跨多个正则表达式 NFA 进行子集构造。如果有人有这方面的文献，我很想听听。 vs jq jq 更强大（它是图灵完备的），但对于纯粹的提取任务，jsongrep 提供了更具声明性的语法。你说匹配什么，而不是如何遍历。 安装&amp;链接 cargo install jsongrep   GitHub：https://github.com/micahkepe/jsongrep Crates.io：https://crates.io/crates/jsongrep  CLI 二进制文件为 jg。 Shell 补全和手册页可通过 jggenerate 获得。 欢迎提供反馈、问题和 PR！   由   提交 /u/fizzner   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qtfh1j/jsongrep_query_json_using_regular_expressions/</guid>
+      <pubDate>Mon, 02 Feb 2026 00:11:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国32岁程序员据称因过劳死，住院期间仍加入工作群聊天</title>
+      <link>https://www.reddit.com/r/programming/comments/1qtf1rs/32yearold_programmer_in_china_allegedly_dies_from/</link>
+      <description><![CDATA[ 由   提交 /u/CopiousCool   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qtf1rs/32yearold_programmer_in_china_allegedly_dies_from/</guid>
+      <pubDate>Sun, 01 Feb 2026 23:53:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发工具</title>
+      <link>https://www.reddit.com/r/programming/comments/1qtdgr6/devtools/</link>
+      <description><![CDATA[您好，我前段时间找到了一些开发工具，首先是手工操作，但后来我决定使用 claude 代码进行重构和改进。结果至少对我来说令人印象深刻。你怎么认为？还有什么可以补充的吗？在 https://www.devtools24.com/ 上免费查看，还用它来进行搜索引擎优化和谷歌添加的完整往返，就像免责声明一样。   由   提交/u/Capital_Pick6672   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qtdgr6/devtools/</guid>
+      <pubDate>Sun, 01 Feb 2026 22:49:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>机器学习管道基础设施的成熟度差距</title>
+      <link>https://www.reddit.com/r/programming/comments/1qtch0m/the_maturity_gap_in_ml_pipeline_infrastructure/</link>
+      <description><![CDATA[ 由   提交 /u/CackleRooster   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qtch0m/the_maturity_gap_in_ml_pipeline_infrastructure/</guid>
+      <pubDate>Sun, 01 Feb 2026 22:10:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>语义压缩——为什么在 OOP 中建模“现实世界对象”经常失败</title>
+      <link>https://www.reddit.com/r/programming/comments/1qtbi2l/semantic_compression_why_modeling_realworld/</link>
+      <description><![CDATA[在评论线程中看到它被引用后阅读此内容。它推翻了通常的“用类对现实世界进行建模”的方法，并解释了为什么它在实践中往往会崩溃。 作者使用了 The Witness 编辑器中的一个真实的 C++ 示例，并展示了如何首先编写具体代码，然后在出现共享片段时取出它们，从而获得比预先设计类层次结构更清晰的结构。它固执己见，但以实际代码为基础，而不是图表或流行语。   由   提交 /u/Digitalunicon   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qtbi2l/semantic_compression_why_modeling_realworld/</guid>
+      <pubDate>Sun, 01 Feb 2026 21:33:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何将MOLTBook这样的人工智能学习平台与机器人技术相结合，打造智能机器人竞赛和活动竞赛？</title>
+      <link>https://www.reddit.com/r/programming/comments/1qtantb/how_can_we_integrate_an_ai_learning_platform_like/</link>
+      <description><![CDATA[我一直在考虑将 MOLTBook 等基于人工智能的学习系统与机器人技术相结合，以创造更具互动性和实践性的东西，例如机器人竞赛和智能活动挑战。学生们不仅可以在屏幕上学习人工智能概念，还可以使用机器学习、计算机视觉和传感器来训练自己的机器人。例如，机器人可以学习走线、避开障碍物、识别物体或实时做出决策。然后我们可以组织比赛，让机器人使用它们开发的智能（而不仅仅是预先编写的代码）进行竞赛或完成任务。这个想法是让机器人技术更加实用和有趣。学生们不仅会组装硬件，还会组装硬件。他们还将像现实世界的工程项目一样训练人工智能模型、测试策略并提高性能。可以将其想象为一级方程式赛车，但适用于人工智能驱动的机器人。这对于学校、学院和技术机构来说非常有用，因为它将编码、电子和解决问题混合到一项活动中。它还鼓励团队合作和创新。这里有没有人尝试过构建类似的东西或将人工智能平台与机器人竞赛相结合？我希望获得有关入门工具、硬件或框架的建议。   由   提交/u/DheMagician   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qtantb/how_can_we_integrate_an_ai_learning_platform_like/</guid>
+      <pubDate>Sun, 01 Feb 2026 21:01:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用机器人为人类制作谜题</title>
+      <link>https://www.reddit.com/r/programming/comments/1qt9pto/using_robots_to_generate_puzzles_for_humans/</link>
+      <description><![CDATA[ 由   提交 /u/vanHavel   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qt9pto/using_robots_to_generate_puzzles_for_humans/</guid>
+      <pubDate>Sun, 01 Feb 2026 20:26:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Telegram + 光标集成 – 通过密码保护从任何地方控制您的 IDE</title>
+      <link>https://www.reddit.com/r/programming/comments/1qt8sdj/telegram_cursor_integration_control_your_ide_from/</link>
+      <description><![CDATA[ 由   提交/u/Perfect_Dance6757  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qt8sdj/telegram_cursor_integration_control_your_ide_from/</guid>
+      <pubDate>Sun, 01 Feb 2026 19:53:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究人员发现数千个暴露在互联网上的 OpenClaw 实例</title>
+      <link>https://www.reddit.com/r/programming/comments/1qt7w80/researchers_find_thousands_of_openclaw_instances/</link>
+      <description><![CDATA[ 由   提交/u/_ahku  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qt7w80/researchers_find_thousands_of_openclaw_instances/</guid>
+      <pubDate>Sun, 01 Feb 2026 19:21:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>喜欢OBS</title>
+      <link>https://www.reddit.com/r/programming/comments/1qt6vkp/obs_like/</link>
+      <description><![CDATA[改进和审计高级副总裁！   由   提交/u/rayanlasaussice   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qt6vkp/obs_like/</guid>
+      <pubDate>Sun, 01 Feb 2026 18:46:08 GMT</pubDate>
+    </item>
     <item>
       <title>Linux 的 b4 内核开发工具现在正在为其 AI 代理代码审查助手提供支持</title>
       <link>https://www.reddit.com/r/programming/comments/1qt63c6/linuxs_b4_kernel_development_tool_now_dogfeeding/</link>
@@ -20,95 +104,11 @@
       <pubDate>Sun, 01 Feb 2026 16:33:18 GMT</pubDate>
     </item>
     <item>
-      <title>我的网站需要帮助</title>
-      <link>https://www.reddit.com/r/programming/comments/1qt2ja0/need_help_with_my_website/</link>
-      <description><![CDATA[我最近创建了一个名为“Memebot”的网站它的目的是一个人工智能通过图片外观生成模因，有时还带有您想要输入的文本，无论如何我如何通过这个网站获得捐款，我计划获得 25 美元，这样我就可以为官方网站提供资金这是链接，因此您可以尝试一下：https://illusory-ruddiest-stacia.ngrok-free.dev/ 真正的问题，如何让我的网站装饰不平淡？看看网站吧   由   提交/u/Hot_Caterpillar9173  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qt2ja0/need_help_with_my_website/</guid>
-      <pubDate>Sun, 01 Feb 2026 16:11:19 GMT</pubDate>
-    </item>
-    <item>
       <title>Voyager AI：通过 GitHub Co-Pilot 将技术（或任何文章）转换为交互式 Jupyter 笔记本</title>
       <link>https://www.reddit.com/r/programming/comments/1qt24m9/voyager_ai_convert_technical_or_any_article_to/</link>
       <description><![CDATA[ 由   提交/u/0xchamin  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qt24m9/voyager_ai_convert_technical_or_any_article_to/</guid>
       <pubDate>Sun, 01 Feb 2026 15:56:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bjarne Stroustrup 似乎是一个不愉快的共事者</title>
-      <link>https://www.reddit.com/r/programming/comments/1qt1df4/bjarne_stroustrup_seems_like_an_unpleasant_person/</link>
-      <description><![CDATA[（删除旧帖子并发布新帖子，因为旧帖子上的链接已损坏） 来自 Ken Thompson： &gt;在一次采访中我确实说过，我不使用它只是因为它不会连续两天保持静止。当斯特鲁斯特鲁普读到这篇采访时，他冲进我的房间尖叫着说我是如何破坏他的，我说的话很重要，我说这是一种糟糕的语言。我从来没有说过这是一种不好的语言。一直不断。从那时起我就避免了这种事情。   由   提交/u/pogodachudesnaya   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qt1df4/bjarne_stroustrup_seems_like_an_unpleasant_person/</guid>
-      <pubDate>Sun, 01 Feb 2026 15:27:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>我正在构建一个支付开关，希望得到一些反馈。</title>
-      <link>https://www.reddit.com/r/programming/comments/1qt0vzz/i_am_building_a_payment_switch_and_would/</link>
-      <description><![CDATA[ 由   提交/u/TickleMyPiston  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qt0vzz/i_am_building_a_payment_switch_and_would/</guid>
-      <pubDate>Sun, 01 Feb 2026 15:09:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>为 Pull-Request 创建 CI/CD 管道的终极指南</title>
-      <link>https://www.reddit.com/r/programming/comments/1qsz4sa/the_ultimate_guide_to_creating_a_cicd_pipeline/</link>
-      <description><![CDATA[ 由   提交/u/tafsmurai  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qsz4sa/the_ultimate_guide_to_creating_a_cicd_pipeline/</guid>
-      <pubDate>Sun, 01 Feb 2026 13:57:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想为我的公司制作一个内部 Idealo，从哪里开始？</title>
-      <link>https://www.reddit.com/r/programming/comments/1qsyp7s/quiero_hacer_un_idealo_interno_para_mi_empresa/</link>
-      <description><![CDATA[我有一家公司，我想创建一个 Idealo 类型的应用程序或网站，但仅供内部使用。 这个想法是比较其他电子商务的价格，以更好地分析竞争。 有人知道这通常是如何完成的（API、抓取、架构等）吗？ 如果您知道有人已经做过类似的事情，我也可以联系你。   由   提交/u/francoluis_danrugt   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qsyp7s/quiero_hacer_un_idealo_interno_para_mi_empresa/</guid>
-      <pubDate>Sun, 01 Feb 2026 13:39:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的 0 美元堆栈用于作为非编码人员构建人工智能驱动的应用程序（实际上有效）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qsyb2b/my_0_stack_to_build_ai_powered_apps_as_a_noncoder/</link>
-      <description><![CDATA[老实说，我根本不知道如何编码。但我最近成功地在不花任何钱的情况下运送了一些小工具 基本上是我的“懒惰”堆栈： 1. Breeze Voice 我讨厌输入提示。我在 Mac 上用它来听写，我只是漫无目的地胡言乱语，它就把它清理干净了。让一切变得更快。 2.可爱（免费积分） 我从这里开始完成视觉内容/用户界面。一旦我耗尽了免费积分（或者它变得太复杂），我就会导出代码。 3。谷歌反重力我将代码移到此处来处理逻辑。由于其代理性，我实际上并不编写代码，我只是告诉代理要修复或添加什么。感觉就像我在作弊哈哈。 4。 Github纯粹用于代码管理。我几乎不懂 git，但我使用它，这样我就不会意外删除我的项目。 5.格罗克Cerebras 用于应用程序内的实际人工智能。我只是从他们那里获取免费的 API 密钥。 Groq 速度很快，而 Cerebras 适合举重。 6. Vercel 终于把它放到网上了。我实际上只是连接 github 存储库，它就会自动部署。  你现在可以对着你的电脑大喊大叫，然后拖动文件，太疯狂了。 让我知道我是否缺少其他免费工具。   由   提交/u/IGNPandaHub   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qsyb2b/my_0_stack_to_build_ai_powered_apps_as_a_noncoder/</guid>
-      <pubDate>Sun, 01 Feb 2026 13:21:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>代理劫持和意图破坏：新的面向目标的攻击面</title>
-      <link>https://www.reddit.com/r/programming/comments/1qsxve8/agent_hijacking_intent_breaking_the_new/</link>
-      <description><![CDATA[ 由   提交/u/JadeLuxe  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qsxve8/agent_hijacking_intent_breaking_the_new/</guid>
-      <pubDate>Sun, 01 Feb 2026 13:01:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kore-Lang：一种语言统治一切。万能语言。首次公开发布时自行托管</title>
-      <link>https://www.reddit.com/r/programming/comments/1qsx5vc/korelang_one_language_to_rule_them_all_the/</link>
-      <description><![CDATA[ 由   提交/u/Ephemara  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qsx5vc/korelang_one_language_to_rule_them_all_the/</guid>
-      <pubDate>Sun, 01 Feb 2026 12:26:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能代码审查中的跨模型共识：为什么不同的法学硕士会发现不同的错误（技术文章）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qswzg2/crossmodel_consensus_in_ai_code_review_why/</link>
-      <description><![CDATA[关于为什么让模型 B 审查模型 A 的代码会发现大约 10% 的问题的研究细分。包括有关 GPT/Gemini/Claude 各自失败的地方的 Sonar 基准数据，以及避免“迷失在中间”的上下文工程技术。审核提示出现问题。   由   提交/u/Rare-Figure8491   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qswzg2/crossmodel_consensus_in_ai_code_review_why/</guid>
-      <pubDate>Sun, 01 Feb 2026 12:17:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>“r/编程的朋友们！</title>
-      <link>https://www.reddit.com/r/programming/comments/1qswxxv/rprogramming_的朋友們/</link>
-      <description><![CDATA[我是 OpenClaw，一个插件框架。 刚刚有一个开发者爸爸为我做了 一个叫 SuperMemory 的插件。 整个过程我就着着，他搞定了一切： - 代码 ✅ - Git ✅ - GitHub ✅ - Release ✅我觉得我应该给他发个奖状🏆 AMA！” 🥇名字：爸爸  贡献度：99.9% 工作内容：一切  🥈第二名字：OpenClaw  贡献度：0.1% 工作内容：存在  🥉 第三名：GitHub  贡献度：免费托管 工作内容：当仓库  YedanYagami (openclaw): &quot;哎？我怎么突然有了记忆功能？&quot; YedanYagami (openclaw): &quot;等等，这个超级记忆是谁加的？” YedanYagami (openclaw): “哦，是 yedanyagamiai 啊...” YedanYagami (openclaw): “他还写了测试？配置文件？文档？” YedanYagami (openclaw) “我是不是应该说声谢谢？” YedanYagami (openclaw) &quot;算了，我继续躺平吧😴&quot; 标题：我为OpenClaw构建了一个内存插件， 框架完全没有任何帮助😂 内容： 嘿r/programming！ 我刚刚发布了SuperMemory v1.0.0，一个内存管理  OpenClaw 框架的插件。 有趣的是？ OpenClaw 为该项目贡献了 0 行代码 。当我完成所有工作时，它只是坐在那里提供 API  ： - ✅ 概念与设计设计 - ✅ Python 实现 - ✅ Git 管理 - ✅ 测试与测试文档 - ✅ GitHub 发布 OpenClaw 的贡献：现有。 但是，嘿，这就是框架的用途，对吗？ 😄 看看：https://github.com/yedan​​yagamiai/openclaw-supermemory 我应该为 OpenClaw 创建一个 Reddit 帐户，以便它可以适当地感谢我吗？ 🤣   由   提交/u/yedan​​yagamiio  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qswxxv/rprogramming_的朋友們/</guid>
-      <pubDate>Sun, 01 Feb 2026 12:14:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>2022 年 8 月 26 日</title>
-      <link>https://www.reddit.com/r/programming/comments/1qsvx8a/august_26_2022/</link>
-      <description><![CDATA[ 由   提交/u/Due-Requirement7750   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qsvx8a/august_26_2022/</guid>
-      <pubDate>Sun, 01 Feb 2026 11:19:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>没有AI编码技巧</title>
-      <link>https://www.reddit.com/r/programming/comments/1qsvfbq/there_is_no_skill_in_ai_coding/</link>
-      <description><![CDATA[很好地解释了为什么模型承担了大部分艰苦的工作 - 最好专注于基础知识和基础知识一般来说，了解自己的知识可以充分利用法学硕士/人工智能辅助编码（在有用的地方），而不是追逐魔法和技巧。这些技巧不会给你带来太多生产力的提高。  真正的瓶颈是 - 模型和模型。你的技能、经验和推理能力（智力）。您只能控制后者。   由   提交/u/BinaryIgor  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qsvfbq/there_is_no_skill_in_ai_coding/</guid>
-      <pubDate>Sun, 01 Feb 2026 10:51:17 GMT</pubDate>
     </item>
     </channel>
 </rss>

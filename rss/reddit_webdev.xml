@@ -4,11 +4,32 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 01 Feb 2026 21:20:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 01:51:16 GMT</lastBuildDate>
     <item>
-      <title>我拥有 SukaBase.com 域名，并最终构建了一些愚蠢到值得拥有的东西</title>
+      <title>Consuela：“不不不……我打扫。”自主 TypeScript 代码库清理器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qth4r1/consuela_no_no_no_i_clean_autonomous_typescript/</link>
+      <description><![CDATA[全部开源。 Consuela is a new CLI that just cleans your TypeScript/JS code: removes dead exports, splits huge files, reorganizes folders, no questions asked.它构建了一个 dep 图，然后使用免费的 Gemini AI 来清理存储库。  安装：npm i -g consuela-cli。 Try consuela fix --dry-run first. Repo: https://github.com/TeoSlayer/consuela   由   提交 /u/BiggieCheeseFan88   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qth4r1/consuela_no_no_no_i_clean_autonomous_typescript/</guid>
+      <pubDate>Mon, 02 Feb 2026 01:23:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Showoff Saturday：构建了一个简单的 PDF 文本提取 API - 每月 100 个免费请求</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qtfetf/showoff_saturday_built_a_simple_pdf_text/</link>
+      <description><![CDATA[嘿r/webdev！  构建了一个极其简单的 API，用于从 PDF 中提取文本。 Nothing fancy, just does one thing well.  它的作用： - 上传 PDF → 取回文本 - 最多 10MB 文件 - 每月 100 个免费请求 - 无需注册（只需使用以“pdfbot_”开头的任何 API 密钥） 技术堆栈： - Node.js + Express - pdf-parse 库 - 用于使用情况跟踪的 SQLite - 4 美元/月 DigitalOcean VPS  尝试一下： curl -X POST https://pdftxt.dev/extract \ -H &quot;X-API-Key: pdfbot_test_123&quot; \ -F &quot;file=@document.pdf&quot;  我为什么构建它：厌倦了带有 50 页文档的过于复杂的 PDF API。想要一些我可以在 30 秒内使用的东西。 希望得到反馈！你会用它做什么？ 🔗 https://pdftxt.dev   由   提交 /u/Id4life   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qtfetf/showoff_saturday_built_a_simple_pdf_text/</guid>
+      <pubDate>Mon, 02 Feb 2026 00:08:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能驱动的法律平台</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qtf7ds/ai_powered_legal_platform/</link>
+      <description><![CDATA[Hi! I’m working on a legal-tech platform and I’m trying to understand realistic development costs before committing to quotes I’ve already received. The platform is a full case-handling system for lawyers and clients in Egypt. Core features include: • AI case intake + AI Q&amp;A assistant • End-to-end workflow (intake → proposal → consultation → contract → payment → timeline → completion) • Secure messaging with file uploads, voice notes, and recorded video calls • Client, lawyer, and admin dashboards • Legal document templates (contracts, POA, notices) • Payment integration (Paymob/Fawry) • Multi-language UI (Arabic, English, German, Dutch, French, Russian) • Admin controls, approvals, audit logs, and compliance • Optional advanced AI features: OCR, document extraction, summaries, classification, etc. I’m wondering what a realistic cost range would be for building something like this (MVP vs full version).一些开发商对第一个版本的报价约为 4.5 万欧元。 Others suggested significantly more. If anyone has experience with complex SaaS or legal-tech platforms, what would you estimate for: 1. A lean MVP (polished design + complete workflow but with many tasks still manual) 2. The full product with all advanced AI automation Any input would help me benchmark this project properly.   由   提交 /u/Elbess91   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qtf7ds/ai_powered_legal_platform/</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:08 GMT</pubDate>
+    </item>
+    <item>
+      <title></title>
       <link>https://www.reddit.com/r/webdev/comments/1qt98s3/i_own_the_domain_sukabasecom_and_finally_built/</link>
-      <description><![CDATA[      几个月前出于玩笑的目的购买了这个域名，因为明显的supabase/suka事情。它坐在那里，像我的大多数业余项目一样什么也不做。 上周我终于为它构建了一些东西 - 一个单页人工智能烘焙工具。你粘贴代码、错误日志、启动想法或上传屏幕截图，它会为你提供东欧直接的残酷诚实反馈。 堆栈：FastAPI + SQLite + vanilla JS + GPT-4.1-mini。廉价 VPS 上的 docker 容器。整个事情就像 4 个文件。 有一个“耻辱堂”。人们可以选择公开发布他们的烤肉和小费罐，因为我没有商业模式，而且我不会假装不这样做。 https://sukabase.com 还有其他人坐在笑话域上无所事事吗？它们是什么？   由   提交/u/hoky777  [链接] [评论] ]]></description>
+      <description><![CDATA[      bought this domain as a joke months ago because of the obvious supabase/suka thing. it sat there doing nothing like most of my side projects. last week I finally built something for it — a single-page AI roasting tool.你粘贴代码、错误日志、启动想法或上传屏幕截图，它会为你提供东欧直接的残酷诚实反馈。 堆栈：FastAPI + SQLite + vanilla JS + GPT-4.1-mini。廉价 VPS 上的 docker 容器。 the whole thing is like 4 files. there&#39;s a &quot;Hall of Shame&quot;人们可以选择公开发布他们的烤肉和小费罐，因为我没有商业模式，而且我不会假装不这样做。 https://sukabase.com 还有其他人坐在笑话域上无所事事吗？它们是什么？   由   提交/u/hoky777  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qt98s3/i_own_the_domain_sukabasecom_and_finally_built/</guid>
       <pubDate>Sun, 01 Feb 2026 20:09:18 GMT</pubDate>
     </item>
@@ -20,23 +41,16 @@
       <pubDate>Sun, 01 Feb 2026 20:08:38 GMT</pubDate>
     </item>
     <item>
-      <title>出售在线业务，每月赚取 7000 美元的利润。便宜！！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qt8ge8/selling_online_business_which_makes_7000_profit/</link>
-      <description><![CDATA[我有一家名为 kycfix.com 的商店。它专注于 KYC 验证工具。免费审核、编辑、人工智能支持的 KYC 服务。 我 2 个月前开了这家店，上个月赚了 12000 美元，纯利润为 7300 美元。  流量稳定且日益增长。每天约有 1000 名新访客。  我出于个人原因出售，基本上寻找 10 000 美元的可协商价格。  通过 Telegram 联系我：@hamokap1   由   提交 /u/Starcvv   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qt8ge8/selling_online_business_which_makes_7000_profit/</guid>
-      <pubDate>Sun, 01 Feb 2026 19:41:23 GMT</pubDate>
-    </item>
-    <item>
       <title>哪里有卖论坛软件许可证？</title>
       <link>https://www.reddit.com/r/webdev/comments/1qt8f1c/where_do_you_sell_forum_software_license/</link>
-      <description><![CDATA[大家好。现在你们在哪里出售软件许可证？我以为 TheAdminZone 和 ExtraLicense 是的地方，但看来你不能再只注册一个帐户并做广告了？我可以理解这一点，因为买家想知道您是合法的。   由   提交 /u/No_Pomegranate604   [链接] [评论]]]></description>
+      <description><![CDATA[Hey all.现在你们在哪里出售软件许可证？我以为 TheAdminZone 和 ExtraLicense 是的地方，但看来你不能再只注册一个帐户并做广告了？我可以理解这一点，因为买家想知道您是合法的。   由   提交 /u/No_Pomegranate604   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qt8f1c/where_do_you_sell_forum_software_license/</guid>
       <pubDate>Sun, 01 Feb 2026 19:40:07 GMT</pubDate>
     </item>
     <item>
       <title>您的整个网站上都有 Cloudflare 的 Turnstile？</title>
       <link>https://www.reddit.com/r/webdev/comments/1qt87m2/cloudflares_turnstile_on_your_whole_site/</link>
-      <description><![CDATA[我有一个适合机器人流量的营销网站（尽管该网站仅针对美国市场，但已经在荷兰获得了大量点击）。您是否会像我在许多网站上看到的那样，在网站的前面推荐 Turnstile，用于我付费谷歌广告进行推广的营销网站？    由   提交/u/rezer3  [链接] [评论]]]></description>
+      <description><![CDATA[我有一个适合机器人流量的营销网站（尽管该网站仅针对美国市场，但已经在荷兰获得了大量点击）。您是否会像我在许多网站上看到的那样，在网站的前面推荐 Turnstile，用于我付费谷歌广告进行推广的营销网站？    由   提交 /u/rezer3   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qt87m2/cloudflares_turnstile_on_your_whole_site/</guid>
       <pubDate>Sun, 01 Feb 2026 19:32:39 GMT</pubDate>
     </item>
@@ -50,19 +64,19 @@
     <item>
       <title>为什么开发人员将他们的文档放在 monorepo 中的子域/单独的应用程序上？</title>
       <link>https://www.reddit.com/r/webdev/comments/1qt6hvo/why_do_devs_put_their_docs_on_a_subdomainseparate/</link>
-      <description><![CDATA[我注意到我很少在网站上看到domain.com/docs。 docs.domain.com 似乎更为常见。当我查看 monorepo 示例时，文档始终是一个单独的应用程序。这是为什么？   由   提交 /u/No_Office_2196   [链接] [评论]]]></description>
+      <description><![CDATA[我注意到我很少在网站上看到domain.com/docs。 docs.domain.com 似乎更为常见。当我查看 monorepo 示例时，文档始终是一个单独的应用程序。这是为什么？   由   提交 /u/No_Office_2196   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qt6hvo/why_do_devs_put_their_docs_on_a_subdomainseparate/</guid>
       <pubDate>Sun, 01 Feb 2026 18:32:43 GMT</pubDate>
     </item>
     <item>
-      <title>一直在帮助一些人理清他们的代理设置——考虑让这个更加社区驱动</title>
+      <title></title>
       <link>https://www.reddit.com/r/webdev/comments/1qt5br9/been_helping_a_few_people_untangle_their_agent/</link>
-      <description><![CDATA[      我最近深入研究了代理系统——角色、编排、工作流程，所有这些人们通常会挥手“添加另一个代理”的东西。 起初，这只是我试图解决自己的烂摊子。 太多的工具，太多的提示，没有任何结果。 在过去的几周里，我结束了也查看了其他一些人的设置 - 大多数是非正式的，只是跳入他们的工作流程并指出问题所在。 让我惊讶的不是他们有多么不同，而是问题不断重复有多么相似：  没有真正责任的代理 基本上是并行提示的“多代理”设置 没有编排层，只有共鸣 在演示中运行的东西，在实际使用中崩溃了  所以现在我正在争论这是否应该保留为个人实验室，或者将其变成更以社区为中心的东西是否有意义。 在我过度构建任何东西之前，我很好奇：  你的代理系统通常在哪里崩溃？ 哪个部分感觉最不顺畅或不清楚？ 如果有人检查了您的设置，什么样的反馈实际上会有所帮助？  不出售任何东西 - 只是想弄清楚是否值得将其打造为一个小型的、集中的空间，或者是否最好保持杂乱无章。 删除一张屏幕截图以了解背景。还有很多未完成的内容。    由   提交/u/kraboo_team  [链接] [评论] ]]></description>
+      <description><![CDATA[      I’ve been deep in agent systems lately — roles, orchestration, workflows, all that stuff people usually wave away with “just add another agent”. At first this was just me trying to fix my own mess. Too many tools, too many prompts, nothing owning the outcome. Over the last couple of weeks I ended up looking at a few other people’s setups as well — mostly informal, just jumping into their workflows and pointing out where things break. What surprised me wasn’t how different they were, but how similar the problems kept repeating:  agents with no real responsibility “multi-agent” setups that are basically parallel prompts no orchestration layer, just vibes things working in demos, falling apart in real usage  So now I’m debating whether this should stay a personal lab, or whether it makes sense to turn it into something more community-focused. Before I overbuild anything, I’m curious:  where do your agent systems usually break? what part feels the most hand-wavy or unclear? if someone reviewed your setup, what kind of feedback would actually help?  Not selling anything — just trying to figure out if this is worth shaping into a small, focused space, or if it’s better kept scrappy. Dropping one screenshot for context.还有很多未完成的内容。    由   提交 /u/kraboo_team   [link] [comments] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qt5br9/been_helping_a_few_people_untangle_their_agent/</guid>
       <pubDate>Sun, 01 Feb 2026 17:52:21 GMT</pubDate>
     </item>
     <item>
-      <title>更少的具有复杂逻辑的表和大量具有简单逻辑的表哪个更容易管理</title>
+      <title></title>
       <link>https://www.reddit.com/r/webdev/comments/1qt4wmp/whats_easier_to_manage_fewer_tables_with_complex/</link>
       <description><![CDATA[我有一个平台需要构建一段时间。这是一个有点像 Zillow 的房地产门户网站，但在获得用户之后，显然我们必须迎合同一行业但可能不是房地产经纪人的人，比如新开发项目和建筑项目。问题是数据库变得越来越复杂，我理解它，因为它是我的烂摊子，但为了谁将从我手中接管，我想知道天气，我应该有许多通过简单关系更容易理解的表，或者我应该有尽可能少的表，我可以管理更多详细信息集成到表中。最佳实践是什么？   由   提交 /u/Pen_Griffy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qt4wmp/whats_easier_to_manage_fewer_tables_with_complex/</guid>
@@ -76,7 +90,7 @@
       <pubDate>Sun, 01 Feb 2026 17:10:46 GMT</pubDate>
     </item>
     <item>
-      <title>调查：您在排版和字体方面的体验如何？</title>
+      <title></title>
       <link>https://www.reddit.com/r/webdev/comments/1qt3jqd/survey_how_has_your_experience_with_typography/</link>
       <description><![CDATA[大家好， 我正在从事一个专注于排版和字体创建的课堂项目，我想首先了解人们对此的体验。具体来说，我对您在网页设计环境中使用字体和排版的经验感兴趣。 无论您只是使用和喜欢排版和字体的人，有创建自己的排版和字体的经验，还是只是尝试过但很快就失败的人，我都非常感谢听到： - 哪些部分感觉/感觉困难、困惑或令人沮丧 - 您尝试过哪些工具（如果有）以及您停止或继续使用的原因 - 怎样才能让体验变得更轻松或更流畅 我还附上了一项民意调查，以更粗略地了解这个 Reddit 子版块的总体人口统计，并了解人们对排版的体验，但我真的很感谢详细的回复！谢谢！ 查看民意调查   由   提交 /u/BigBoiAdfre   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qt3jqd/survey_how_has_your_experience_with_typography/</guid>
@@ -95,20 +109,6 @@
       <description><![CDATA[      我希望你们对此进行评价。我很想听听您的建议。我是一名中级开发人员。我确实同意，我在某些情况下使用了人工智能（选择颜色、吉祥物和一些 js），但不是整个事情。我喜欢自己编写大部分代码，并尽量避免使用人工智能。它仍然需要针对手机设备进行优化。 您可以查看我的网站：Melon Timer 谢谢！   由   提交/u/StealthPhoen1x   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qt2hd2/i_have_made_this_simple_cute_pomodoro_timer/</guid>
       <pubDate>Sun, 01 Feb 2026 16:09:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 html 中将两个单独的无序列表并排放置？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qt0g14/how_do_i_put_two_seperate_unordered_lists_next_to/</link>
-      <description><![CDATA[我不明白，因为我是 html 新手   由   提交 /u/SufficientDisk3320   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qt0g14/how_do_i_put_two_seperate_unordered_lists_next_to/</guid>
-      <pubDate>Sun, 01 Feb 2026 14:51:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>每月入门/Web 开发职业主题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/</link>
-      <description><![CDATA[由于有关此主题的问题不断涌入，我们决定每月提交一个专门讨论此主题的帖子，以减少有关此主题的重复帖子的数量。这些类型的帖子将不再允许在主线程中发布。 其中许多问题也在子常见问题解答中得到解决，或者可能在以前的每月职业线程中提出。 专门针对这些类型的子问题问题包括针对一般性和开放式职业问题的 r/cscareerquestions 和针对早期学习问题的 r/learnprogramming。 学习为行业做好准备的主题的一般建议包括：  HTML/CSS/JS 训练营 版本控制 自动化 前端框架(React/Vue/Etc) API 和 CRUD 测试（单元和集成） 常见设计模式  您还需要包含您构建的 4-5 个个人项目的作品集，以及用于申请工作的简历。 在申请工作之前，为您的作品集计划 6-12 个月的自学和项目制作。   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qswnox/monthly_getting_started_web_dev_career_thread/</guid>
-      <pubDate>Sun, 01 Feb 2026 12:00:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
