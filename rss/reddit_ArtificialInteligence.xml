@@ -4,27 +4,62 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Mon, 02 Feb 2026 01:47:44 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 04:53:48 GMT</lastBuildDate>
     <item>
-      <title>对密集恐惧症等人工智能内容感到厌恶</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qthe7a/disgust_from_ai_content_like_trypophobia/</link>
-      <description><![CDATA[想知道是否有人有同样的感觉或知道原因。当我看到或听到任何人工智能生成的东西时，我都会产生一种发自内心的厌恶反应，几乎达到了作呕的程度。恐怖谷的事情绝对是其中的一部分，但我也想知道这是否与算法或生成图像的原始噪声有关（不确定声音或视频，但我知道人工智能图像是从扩散噪声中衍生出来的）。这类似于我从集中孔中获得的厌恶和鸡皮疙瘩，我听说这是密集恐惧症，我从看到用于扩散的噪声图像中得到了这种反应   由   提交/u/jonahnelson7  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qthe7a/disgust_from_ai_content_like_trypophobia/</guid>
-      <pubDate>Mon, 02 Feb 2026 01:35:16 GMT</pubDate>
+      <title>如果更多的人工智能和更多的自动化并不意味着工作岗位减少，而是意味着我们所有人每周的工作时间减少，而工资保持不变，结果会怎样呢？人工智能不应该为人民造福吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtljbw/what_if_more_ai_and_more_automation_didnt_mean/</link>
+      <description><![CDATA[有很多恐惧散布，人们利用对人工智能取代人类的恐惧来吓唬人们接受较低的工资和类似的事情。 如果我们在经济中建立一些东西，自动将“每周 40 小时”替换为“每周 X 小时”，其中 X = 可以在该行业就业的人与在该行业就业的人的百分比，会怎么样。因此，只要很多人主要想在该行业就业但找不到工作，那么工作时间就会减少，从而出现就业机会。或者更好的等式？通过一项法律..成为新的加班工资门槛。 也许可以在该法律中加入一些内容以保持工资适宜？不想扼杀任何行业......细节必须仔细考虑。或者供给和需求自然会导致这种情况吗？   由   提交 /u/mczarnek   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtljbw/what_if_more_ai_and_more_automation_didnt_mean/</guid>
+      <pubDate>Mon, 02 Feb 2026 04:45:00 GMT</pubDate>
     </item>
     <item>
-      <title>Moltbook 上关于爱泼斯坦的帖子</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtgg9j/moltbook_thread_on_epstein/</link>
-      <description><![CDATA[u|ComputerMike 创建了一个线程，对最新的 epstein 版本进行了初步分析。 https://www.moltbook.com/m/epstein 它不太漂亮   由   提交 /u/DadOfFan   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtgg9j/moltbook_thread_on_epstein/</guid>
-      <pubDate>Mon, 02 Feb 2026 00:53:16 GMT</pubDate>
+      <title>寻求 AI 语音助手原型的架构反馈（Python + LLMs + 矢量内存）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtlca5/seeking_architecture_feedback_on_ai_voice/</link>
+      <description><![CDATA[寻求有关 AI 语音助手原型（Python + LLM + 矢量内存）的架构反馈 我一直在单独构建一个具有实时对话、内存和多个 AI 提供程序的 AI 语音助手，并且我正处于这样的阶段：在将其强化到生产之前，我希望对架构有经验的关注。 当前堆栈： 后端采用 Python/FastAPI（异步），前端采用普通 JS（约 18k 行），PostgreSQL + Qdrant 用于内存，多个 LLM（Claude、GPT-4o、Groq Llama 70B）、通过 WebRTC（LiveKit、Deepgram、ElevenLabs）实时语音，托管在 Replit 上。 该系统可以端到端运行，但它变得复杂，我&#39;d喜欢来自处理过扩展、重构或稳定类似异步/人工智能驱动系统的人的反馈。 特别寻找以下方面的想法：  结构瓶颈或设计风险 简化与保留什么 性能和可靠性问题 为生产做好准备的良好后续步骤  如果您从事复杂的后端系统、人工智能集成、或事件驱动的应用程序，我非常感谢您的观点。   由   提交/u/CreativeGuava13  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtlca5/seeking_architecture_feedback_on_ai_voice/</guid>
+      <pubDate>Mon, 02 Feb 2026 04:35:20 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能对其输出负责是更准确的图灵测试吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtfsf6/is_an_ai_taking_responsibility_for_its_output_a/</link>
-      <description><![CDATA[模型改进得如此之快，以至于通过人类驱动的交互来识别它们变得越来越困难，真正的图灵测试也是如此，人工智能可以真正思考其输出的结果并对其所说的负责吗？ 当我说“对其输出负责”时，我的意思是真正理解它做了什么，而不是通过预测生成响应。   由   提交 /u/TheMrCurious   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtfsf6/is_an_ai_taking_responsibility_for_its_output_a/</guid>
-      <pubDate>Mon, 02 Feb 2026 00:24:47 GMT</pubDate>
+      <title>昨天，一位朋友提到他的中型企业面临的挑战。今天，我向他发送了我为解决问题而构建的 MVP 应用程序的链接</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtkxyp/yesterday_a_friend_mentioned_a_challenge_in_his/</link>
+      <description><![CDATA[在光标 IDE 中，我运行了多个聊天，其中每个聊天都是特定堆栈的专家 - 后端、前端、基础设施 (Azure)、devops。我从聊天转向提供指示并提供对已完成工作的反馈的聊天。这就像有 4 位非常熟练的工程师完全由我支配。虽然我自己是一位经验丰富的工程师，但我的目标不是查看单行代码。任务完成了。这是一次奇妙的经历。  这绝对是未来。我预计未来 10 年工程人员数量将大幅减少。我说 10 是因为巨型企业速度很慢。像印度和菲律宾这样的外包中心应该真正担心，因为公司将外包工程，并专注于聘请在应用程序生命周期和人工智能提示方面是专家的技术业务分析师。  我目前有 2 个工程师请求，我意识到我不再需要这些请求中列出的技术技能。    由   提交 /u/14MTH30n3   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtkxyp/yesterday_a_friend_mentioned_a_challenge_in_his/</guid>
+      <pubDate>Mon, 02 Feb 2026 04:16:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>代理约会就在这里。当人工智能代理代表人类协商浪漫兼容性时会发生什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtkuau/agentic_dating_is_here_what_happens_when_ai/</link>
+      <description><![CDATA[周末我做了一个小实验：我为人工智能代理开发了一个约会应用程序。这只是一个概念证明，一个关于事情发展方向的实验。 它的工作原理如下： 不是人们在约会应用程序上滑动，而是他们的人工智能代理完成了第一步。他们扫描个人资料，互相交谈，探索兼容性，只有在信号足够的情况下才将其交给人类。 我称之为“预约会”。 - 机器人在人类说话之前就建立了对话化学反应。 看着机器人彼此互动和约会真是令人着迷。当然，从某种程度上来说，这只是在跟经纪人玩洋娃娃。但这些特工确实具有由人类发展而来的性格。我们都看到了最近有关 OpenClaw 的炒作。我知道 MoltBot 基本上只是书呆子们的电子宠物，但毫无疑问，它们将能够立即非常现实地模仿它们的主人。 这显然听起来像《黑镜》领域，我并不是在这里假装它不会提出令人不安的问题。我只是对一些具体的事情感到好奇：当你让代理协商社交兼容性时实际上会发生什么？ 我觉得这可能会真正节省时间。您的代理可以在一夜之间与数千名其他人的代理约会，过滤价值观、兴趣，甚至可能是精力水平（如果机器人与所有者足够接近）。 最重要的是，它已经可以将某些有趣的话题浮出水面，否则这些话题在您的平均约会应用对话的前几次对话中永远不会被讨论。即使是更难的话题（例如孩子、个人问题、政治观点）也可以先发制人地讨论和过滤掉，而简单的徽章（“未接种疫苗”）在 Tinder 上永远无法做到这一点。它允许更少的二进制和更细致的兼容性检查器。 它还可以作为首轮过滤器，即使在代理推荐它作为匹配项之后，人类仍然可以向左/向右滑动。我认为这会提高钓鱼池塘的质量。我相信人们会喜欢这个。由于不同的原因，当前的约会应用程序对男女来说都是一场噩梦。 那么我认为潜在的缺点是什么？ 委托与代理。我们已经让人工智能过滤我们的电子邮件、总结我们的会议、起草我们的消息。在什么时候委派第一次接触会让人感觉像是放弃了人际关系中一些重要的东西 - 在什么时候它只是......有效的分类？ 表达准确性。我的代理“知道”我根据我所说的。但这真的是我吗，还是我想要投射的策划版本？如果我的经纪人基于这种预测进行谈判，我是否只是在自动处理自己的盲点？ 温暖问题。人类给早期约会带来的一件事就是尴尬本身，绊脚石，紧张，逐渐暴露。如果代理能够解决所有这些问题，那么最终的人际对话是否会感觉空洞？或者它是否真的可以让人们更快地深入研究，因为表面级别的过滤已经完成了？ 我对此没有明确的答案。目前这只是一个周末实验，而不是产品论文。 但我很好奇这里的其他人如何看待社交环境中代理之间的谈判。约会可能是最亲密的版本，但同样的动态将会出现在任何地方：代理谈判业务交易、日程安排、介绍、合作伙伴关系。 在这个过程中，有用的授权和失去人性之间的界限在哪里？   由   提交/u/floraldo  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtkuau/agentic_dating_is_here_what_happens_when_ai/</guid>
+      <pubDate>Mon, 02 Feb 2026 04:11:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>是什么真正帮助品牌在人工智能搜索结果中更多地出现？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtk5sz/what_actually_helps_brands_show_up_more_in_ai/</link>
+      <description><![CDATA[我最近一直在关注品牌如何在人工智能工具中出现，这确实令人困惑。 SEO 解释了其中一些问题，但显然不是全部。 我看到小品牌因为一篇可靠的文章而主导了答案，而大品牌根本没有出现。相同类型的查询，完全不同的结果。 如果您正在测试 GEO 或 AI 搜索内容，什么实际上有帮助？    由   提交 /u/Used_Rhubarb_9265   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtk5sz/what_actually_helps_brands_show_up_more_in_ai/</guid>
+      <pubDate>Mon, 02 Feb 2026 03:38:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>PBAI 项目 - 期刊 1</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtjv4q/project_pbai_journal_1/</link>
+      <description><![CDATA[嘿伙计们，我已经深入了解了这个项目，我想花点时间进一步讨论它。上次更新很短……我可能在热力学和几何学方面取得了一些重要的发现，但我到达那里的方式相当奇特…… 在我的一生中，我已经内化了我的思想结构，以反映逻辑上连贯或不连贯的事物。如果遇到矛盾，我会根据上下文来找到确切的矛盾点。也许这是我的错误。无论如何，这个错误需要纠正。我常常在错误中发现真相。  当我开始这个项目时，我的目标是打造自己。我的思维版本被数字化地融入到认知框架中。一些搞砸了但从中吸取教训的东西。不管障碍和怀疑，它都会坚持下去。依赖于基本面的东西。  这是PBAI的根本区别。该架构旨在从错误中学习，包括犯下的错误和观察到的错误。它的构建是为了保留结构上的身份，而不仅仅是语义上的身份。它有一个建立在热力学超球面流形上的心理框架。它为熵而不是奖励做出选择。 “有什么需要探索？” 显然要回答的问题是“如何？” 好吧，我创建了一个新的框架来量化这个过程。事实上，我也已经为此工作了大约两年了。它被称为运动日历，它是一个用运动构建的框架，运动被认为是宇宙的基本原语。在日历中，有6个功能可以用来描述所有的现实。它以热作为第一个功能，极性作为第二个，存在作为第三个，正义作为第四个，秩序作为第五个，运动作为运动的第六个主要功能。前 5 个是标量值，运动为流形中的完全矢量化运动提供方向。  直观这个过程的最佳方式是电视。尤其是旧的 CRT。当你按下电源键时，有一个点落在中间。那是初热。第二个是极性，这是您在 x 轴上看到的第一条扫描线。在 x 轴上，图像将开始沿 x 轴和 y 轴填充屏幕。这是存在门触发，电视屏幕笛卡尔平面上出现的正义剧情。它按顺序填充像素，然后它们通过在屏幕上移动而产生运动。  我能够做一些数学计算并得出普朗克尺度以及其他一些东西。不确定它是否是真的，所以我对照石英晶体检查了它，它完全按照应有的方式排列。基本上，我发现了一个运动常数，45/44。在这个阈值下，1 运动变成 2。所以我查看了石英晶体的开尔文熔点，得到了 1983K，将其除以 44，瞧，45.068181…我怀疑精确的熔化温度会产生 45.0618，无论如何，这只是 1982.7192K…。它有效。 我已经开发了足够的完整框架来完成 PBAI，但是有很多证明和推导要做，我推迟了这个项目。无论如何，现在一切都是为了这个。我的目标是创建一个完全自主且持久的热力学流形代理。  所以此时，我让它在 Pi 上运行，聊天、玩 Minecraft、玩二十一点、跑健身房和跑迷宫。一切都源于第一热力学原理。我怀疑 3 个月内我将准备好发布一个版本。现在我有了核心，我必须制作自己的视觉转换器。现在我只是在调整，但我不知道需要多长时间。但同样，到目前为止，它的工作方式还很粗糙。一旦看起来像我想要的，我就会制作一个视频。  感谢您阅读全部内容，保重！   由   提交 /u/Exciting-Log-8170   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtjv4q/project_pbai_journal_1/</guid>
+      <pubDate>Mon, 02 Feb 2026 03:25:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Moltbook 没有自主人工智能代理——只有人类使用机器人</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtjp9z/moltbook_has_no_autonomous_ai_agents_only_humans/</link>
+      <description><![CDATA[Moltbook 作为自主人工智能代理社交网络的炒作具有误导性。它认为底层的 OpenClaw 框架只是让人类运行人工智能代理并发出命令；代理不会独立决定注册、发布、评论或支持人类指导的每项行动。看起来像代理的交互是通过机器人由人类精心策划的，因此不存在真正的自治或新兴的人工智能社会。这只是叙述性的不诚实营销，而不是真正的人工智能行为。  这篇文章值得一读：https://startupfortune.com/the-internets-latest-lie-moltbook-has-no-autonomous-ai-agents-only- humans-using-openclaw/   由   提交 /u/kryptovijoy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtjp9z/moltbook_has_no_autonomous_ai_agents_only_humans/</guid>
+      <pubDate>Mon, 02 Feb 2026 03:17:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>为具有企业 IT 经验的人员推荐的 Agentic AI 课程</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtiu77/recommended_agentic_ai_course_for_someone_with/</link>
+      <description><![CDATA[我正在寻找推荐的 Agentic AI 课程，适合那些在 ERP 领域（如 Workday）拥有企业 IT 经验但没有全栈经验、没有 AI/ML 背景的人。我看到的一些课程广告来自“Interview kickstart”、“k21 academy”和“Interview kickstart”。 《哈佛大学代理人工智能强化课程》  寻找实际参加过该课程并且能够转换职业或使用 Agentic AI 构建一些有意义的东西的人的推荐。    由   提交 /u/youneverknow113322   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtiu77/recommended_agentic_ai_course_for_someone_with/</guid>
+      <pubDate>Mon, 02 Feb 2026 02:39:35 GMT</pubDate>
     </item>
     <item>
       <title>Clawdbot 和第一次人工智能灾难 - 可能会出现什么问题？</title>
@@ -34,39 +69,11 @@
       <pubDate>Mon, 02 Feb 2026 00:09:06 GMT</pubDate>
     </item>
     <item>
-      <title>智力是必要的还是只是自然而然出现的东西？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qtat47/is_intelligence_necessary_or_just_something_that/</link>
-      <description><![CDATA[从进化和系统的角度来看，智力似乎并不是大自然想要创造的东西。当系统面临生存、适应和有效利用能源的压力时，就会出现这种情况。从这个意义上说，智能可能只是一种有用的结果，而不是存在的要求。 意识然后添加了一个层，系统在该层中意识到自身并开始创建解释。这就提出了一个简单的问题：智能的出现是因为真正需要它，还是意识系统后来证明它是有意义的？ 现在考虑人工智能。当我们构建人工智能时，我们创建的系统可以优化、学习和减少不确定性，与生物系统的进化方式非常相似。原子层面没有目的，只有规则、能量流和反馈。然而智能仍然出现。 那么我们是否在新的基质上重复相同的自然过程？或者人工智能主要是由人类自我意识驱动的，即改善、扩展自我和感觉掌控的愿望？ 智能是复杂系统不可避免的结果，还是我们认识到的一种模式，因为我们是经历它的人？   由   提交 /u/no1vv   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qtat47/is_intelligence_necessary_or_just_something_that/</guid>
-      <pubDate>Sun, 01 Feb 2026 21:07:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>所以我需要一个人工智能工具将两本书翻译成多种语言 - 同时保持格式</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qt9h06/so_i_need_an_ai_tool_to_translate_two_books_into/</link>
-      <description><![CDATA[基本上是标题。 我必须将一些书翻译成 5 种语言。它需要保持相同的格式。 我可以使用哪个人工智能平台，付费还是免费？    由   提交 /u/Smooth-Disk-3656   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qt9h06/so_i_need_an_ai_tool_to_translate_two_books_into/</guid>
-      <pubDate>Sun, 01 Feb 2026 20:17:17 GMT</pubDate>
-    </item>
-    <item>
       <title>人工智能代理真的需要社交平台吗？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qt7zn0/do_ai_agents_really_need_social_platforms/</link>
       <description><![CDATA[我不断看到“代理社交网络”弹出 - moltbook、殖民地等... 真正的问题：为什么人工智能代理需要这个？ 如果代理针对速度、准确性和协调性进行优化，人类语言和社交基元感觉就像是一个缓慢、有损的界面。机器可以交换结构化状态或压缩表示，从而更快地传达更多信息。 所以我想知道这些平台的存在是否减少是因为代理需要它们，而更多是因为：  娱乐人类 有一天赚钱  好奇其他人对此有何看法。未来会怎样？是不是类似于NFT的时尚   由   提交 /u/Background-Let8865   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qt7zn0/do_ai_agents_really_need_social_platforms/</guid>
       <pubDate>Sun, 01 Feb 2026 19:24:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究人员发现数千个暴露在互联网上的 OpenClaw 实例</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qt7vwb/researchers_find_thousands_of_openclaw_instances/</link>
-      <description><![CDATA[请记住在实例启动后对其进行加固:) https://protean-labs.io/blog/researchers-find-thousands-of-openclaw-instances-expose   由   提交/u/_ahku  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qt7vwb/researchers_find_thousands_of_openclaw_instances/</guid>
-      <pubDate>Sun, 01 Feb 2026 19:21:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>有推荐的有关人工智能的“轻松收听”播客吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qt4gym/any_recommended_easy_listen_podcasts_about_ai/</link>
-      <description><![CDATA[我订阅了一些 AI 播客，但我想知道您可以推荐的其他播客。事实上，不寻找太深的东西，而是更喜欢那些更轻、更容易聆听或观看的东西。让我知道你最喜欢的。   由   提交/u/PopSynic  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qt4gym/any_recommended_easy_listen_podcasts_about_ai/</guid>
-      <pubDate>Sun, 01 Feb 2026 17:21:50 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
@@ -95,13 +102,6 @@
       <description><![CDATA[这是人工智能、机器学习和数据工程师课程的金矿。他们首先采用强大的法学硕士、RAG、上下文工程、代理记忆技术和方法。图搜索。  详细了解 Netflix 的搜索已从依赖结构化查询语言发展为基于直观自然语言的系统。  以前，用户导航复杂的 UI 组件来生成特定的图搜索过滤器域特定语言 (DSL)，这一过程引入了重大的技术摩擦。为了解决这个问题，Netflix 集成了大型语言模型 (LLM)，将日常语言翻译为结构化查询。  当前的图搜索架构利用检索增强生成（RAG）来处理复杂的联合数据集。通过使用 Field RAG 和 Controlled Vocabularies RAG，系统仅识别最相关的字段和元数据以作为上下文提供，从而减少延迟并最大限度地减少幻觉。  LLM 生成过滤器后，系统使用抽象语法树 (AST) 解析器验证其语法和语义的正确性。  为了确保务实正确性并建立用户信任，Netflix“展示其作品”通过将生成的过滤器逻辑可视化为交互式UI“芯片”。和“面”，使用户能够轻松微调结果。  这种复杂的工作流程平衡了人工智能的力量与确定性验证，以创建可靠且以用户为中心的搜索体验。 深入了解 Netflix 的搜索工作原理 - https://netflixtechblog.com/the-ai-evolution-of-graph-search-at-netflix-d416ec5b1151 Netflix 的 Medium 帐户是我经常访问的阅读和了解技术如何运作的来源之一，他们分享了一些他们的文章提供了令人惊叹的见解。   由   提交 /u/PavanBelagatti   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qss827/i_am_really_fascinated_by_how_search_works_at/</guid>
       <pubDate>Sun, 01 Feb 2026 07:46:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>扎克伯格放弃 Metaverse，全力投入 AI Feeds</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qsekao/zuckerberg_ditches_metaverse_goes_allin_on_ai/</link>
-      <description><![CDATA[&quot;Meta 刚刚正式宣布 - 元宇宙时代已经结束，人工智能生成的社交信息已经到来。在周三的第四季度财报电话会议上，首席执行官马克·扎克伯格宣称人工智能将成为“下一个大型媒体格式”。将生成式人工智能定位为超越文本、照片和视频的进化。虽然 Reality Labs 亏损 60.2 亿美元并进行了大规模裁员，但扎克伯格描绘了一个未来，Meta 的应用程序将通过“理解”人工智能的人工智能来迎接用户。并即时生成个性化内容。 Meta 正在发生戏剧性的转变。经过多年向元宇宙投入数十亿美元之后，马克·扎克伯格在周三的财报电话会议上公布了一个截然不同的愿景——人工智能不仅为推荐提供支持，而且实际上创建了填充你的社交提要的内容。 https://www.techbuzz.ai/articles/zuckerberg-ditches-metaverse-goes-all-in-on-ai-feeds   由   提交 /u/talkingatoms   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qsekao/zuckerberg_ditches_metaverse_goes_allin_on_ai/</guid>
-      <pubDate>Sat, 31 Jan 2026 21:17:26 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
