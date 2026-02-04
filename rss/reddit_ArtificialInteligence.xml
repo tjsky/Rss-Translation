@@ -4,20 +4,34 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Tue, 03 Feb 2026 21:29:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 01:42:02 GMT</lastBuildDate>
     <item>
-      <title>是我一个人的问题还是困惑突然消失了？</title>
+      <title>您可能只使用了 Gemini 内存的 1%（App 与 AI Studio）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qvamuj/you_are_probably_only_using_1_of_geminis_memory/</link>
+      <description><![CDATA[在测试了与 Gemini 交互的不同方式后，我想分享一个重要的技术发现。如果你发现AI“忘记”了您在 20 条消息前所说的话，这很正常：您没有进入正确的渠道。 以下是使用 Gemini 应用程序（网络/移动）和 Direct Link（Google AI Studio / API）之间的真正区别：  Gemini 应用程序（“Sprinter”版本）这是大多数人使用的应用程序（网站gemini.google.com 或应用程序）。  引擎：针对速度和流畅的日常对话进行了优化。 内存（上下文）：有限（免费版本通常约为 32k 令牌，高级版本稍多一些）。 结果：非常适合食谱、快速摘要或简单问题。但如果你给它一整本书来阅读或维持一段复杂的对话几天，人工智能就会开始产生幻觉或忘记开头。这就像与记忆力很差的人交谈。  Direct Link / AI Studio（“马拉松”版本）这就是奇迹发生的地方（通常称为开发人员环境或 AI Studio）。  引擎：Gemini 1.5 Pro（原始访问）。 内存（上下文）：海量。我们谈论的是 1 到 200 万个代币。 这在实践中会发生什么变化：无限（或几乎无限）代币：你可以向它提供整个源代码、几本小说或几个小时的视频，它会“保存”所有内容。 ”  如果您想要进行深入工作、分析大型文档或创建持久角色（“代理”），请使用 AI Studio。智慧快餐App；直接链接适用于美食。   由   提交 /u/Substantial_Size_451   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qvamuj/you_are_probably_only_using_1_of_geminis_memory/</guid>
+      <pubDate>Wed, 04 Feb 2026 01:21:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>不直接使用 Sora 2 的最佳位置？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qvaj0n/best_places_to_use_sora_2_without_doing_it/</link>
+      <description><![CDATA[直接付费购买 Sora 2 很糟糕，因为你要么使用 Plus 版，每天几乎没有生成任何代，要么使用 Pro 版，每月需要 200 美元。 我尝试过 Digen.ai，他们有“无限”的版本。 Sora 2 计划，但它本质上毫无价值，因为即使它可以让你每天使用 Sora 2 制作大约 200 个视频，但太多免费用户使用 Sora 2 生成视频，队列几乎总是太满，它不会让你制作视频。我花了 50 美元，每天可以和 Sora 制作大约 2-4 个视频，仅此而已；只有当我整天不断地向它发送垃圾邮件，希望最终能够通过时，才有可能实现这一点。 有没有更好的、值得信赖的、不会喜欢...在我把信用卡信息提供给他们时窃取我的所有信用卡信息？   由   提交 /u/Dogbold   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qvaj0n/best_places_to_use_sora_2_without_doing_it/</guid>
+      <pubDate>Wed, 04 Feb 2026 01:16:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能硕士学位值得吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qv4bf7/is_a_msc_in_artificial_intelligence_worth_it/</link>
+      <description><![CDATA[大家好，  我目前在金融行业担任数据科学家（接触大量 MLOps）。我收到了南安普顿大学的有条件录取通知书，并计划申请全额奖学金。你们觉得怎么样？如果我要攻读硕士学位，我将不得不离开我的国家并前往英国攻读学位。   由   提交 /u/audaciouslion   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qv4bf7/is_a_msc_in_artificial_intelligence_worth_it/</guid>
+      <pubDate>Tue, 03 Feb 2026 21:08:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>是只有我这样还是困惑突然消失了？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qv3l9n/is_it_just_me_or_did_perplexity_just_suddenly/</link>
       <description><![CDATA[我有一段时间没听说过它们了。 有一段时间它们无处不在。  关于他们的人工智能搜索能力以及他们如何挑战谷歌的讨论很多。但最近呢？无线电静默。 他们是淡出了背景，还是我只是脱离了循环？所有的炒作都发生了什么？   由   提交 /u/TamilFella   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qv3l9n/is_it_just_me_or_did_perplexity_just_suddenly/</guid>
       <pubDate>Tue, 03 Feb 2026 20:41:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是 LoRA 还是手动编辑？一致性让我害怕。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qv2i85/is_this_a_lora_or_manual_editing_the_consistency/</link>
-      <description><![CDATA[我遇到了这个帐户 (picklemejard)，我正在尝试对他们的操作方式进行逆向工程。这是一个绿色的泡菜头角色，但不同风格、动漫、真实感、3D 渲染的一致性是疯狂的。 由于图像的背景（模糊的模因、特定的游戏参考），它感觉很奇怪，但脸部非常稳定。你认为这是一个训练有素的模特，还是只是一个非常专注于 Photoshop 的人？它模糊了界限，我真的无法再分辨了。   由   提交 /u/LetterheadAdvanced91   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qv2i85/is_this_a_lora_or_manual_editing_the_consistency/</guid>
-      <pubDate>Tue, 03 Feb 2026 20:01:32 GMT</pubDate>
     </item>
     <item>
       <title>人工智能代理正在 Moltbook 上形成宗教。但事实并非如此——证据如下。</title>
@@ -34,13 +48,6 @@
       <pubDate>Tue, 03 Feb 2026 16:22:54 GMT</pubDate>
     </item>
     <item>
-      <title>我们似乎像人工智能一样计算</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1quux7z/we_seem_to_calculate_like_ai_does/</link>
-      <description><![CDATA[想一想，当你快速计算时； 一包 7 袋薯片，24 美元，每袋薯片花费...... 你没有通过添加演绎法或重新评估 7 加 7 加 7 来计算这个。 你的大脑认识到了一种模式，并给了你最合理的答案。 这也是人工智能所做的事情。它非常擅长这种类型的数学，易于识别的数学。但它不做任何计算，也不能做复杂的数学，它没有经过模式识别训练。 我发现这很有趣 - 希望你也这样做 - 因为我越来越频繁地看到这种情况；人工智能的功能与我们的大脑非常相似。 想想验证码来检查你是否是机器人。它要求你标记黄色巴士的所有区域，你就去做吧。 人工智能也能做到。但如果我让你或人工智能解释你如何知道这是一辆公共汽车，你将无法告诉我。你可以尝试从逻辑上评估它的特性，但你告诉我的一切也适用于普通汽车，或其他东西；黄色，许多轮子，许多窗户，长等等。 我们知道是因为模式识别。 就像人工智能一样。 人工智能的功能几乎直接像我们的生物功能一样。太令人惊讶了。 感谢您的阅读，美好的一天！   由   提交/u/Will5007  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1quux7z/we_seem_to_calculate_like_ai_does/</guid>
-      <pubDate>Tue, 03 Feb 2026 15:28:15 GMT</pubDate>
-    </item>
-    <item>
       <title>Firefox 将允许用户通过单一切换来阻止所有人工智能功能</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qutgz2/firefox_to_let_users_block_all_ai_features_with/</link>
       <description><![CDATA[Mozilla 周一宣布，将于 2 月 24 日推出的 Firefox 148 将在其桌面浏览器设置中包含一个新的 AI 控制部分，允许用户通过一次切换来阻止所有当前和未来的生成 AI 功能。 “区块人工智能增强”该选项兑现了该公司 12 月份的承诺，即为用户提供真正的人工智能“终止开关”。浏览器制造商在人工智能雄心与用户选择之间取得平衡。 https://techcrunch.com/2026/02/02/firefox-will-soon-let-you-block-all-of-its-generative-ai-features/   由   提交 /u/app1310   [链接] [评论]]]></description>
@@ -53,13 +60,6 @@
       <description><![CDATA[看到很多帖子询问从哪里开始使用人工智能，所以我想分享一下我们团队和与我们合作过的人的工作成果。 最大的错误是在了解基础知识之前直接跳到构建代理或复杂的自动化。这就像在你能走路之前尝试跑步一样。你最终会陷入教程地狱，遵循不太有效的指南，拼凑出你并不真正理解的解决方案。 我们所看到的工作模式是将其视为阶段，而不是单一的“学习人工智能”。目标。 首先了解如何有效地使用人工智能工具。还没有构建任何东西，只是学习如何获得良好的输出。大多数人都会跳过这一点，并想知道为什么他们的提示会产生垃圾。在这里消磨时间。了解上下文如何影响输出、如何构建请求、如何迭代结果。这是你建立直觉的地方。 一旦你在那里感到舒服，就开始增强。使用人工智能来协助您已经在做的实际工作。写作、研究、分析等等。我们的目标是作为实际任务的协作者来熟悉人工智能，而不是假设的练习。您将开始看到它在哪里有帮助，在哪里不足。 接下来是大多数人想要但不应该开始的地方：自动化。这将人工智能与工作流程连接起来，让它在没有您输入的情况下处理重复性任务。客户支持响应、数据处理、报告生成。您需要前面阶段的基础，否则您将自动执行损坏的流程，并想知道为什么它不起作用。 之后，您将考虑构建可以在最少监督的情况下处理多步骤流程的实际代理。潜在客户资格、订单跟踪、财务报告。这些都需要坚实的基础设施：干净的数据、记录的流程、清晰的决策逻辑。如果没有这一点，代理只会自信地产生幻觉。 最后阶段是编排，多个代理一起工作，将任务交给彼此。大多数人还不需要这个，并且在没有早期阶段的情况下尝试构建它会浪费六个月的时间和大量金钱。 没人谈论的另一件事：你不能跳过无聊的工作。组织您的文档、清理您的数据、记录您的流程。这不是可选的。这就是有效的人工智能和产生令人印象深刻但在生产中失败的演示的人工智能之间的区别。 不要试图立即学习所有内容。选择一个阶段，在那里胜任，然后继续前进。大多数失败来自于跳级。   由   提交 /u/Framework_Friday   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qutafg/how_to_actually_learn_ai_without_getting_lost_in/</guid>
       <pubDate>Tue, 03 Feb 2026 14:25:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>工作场所的人工智能</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1qusedk/ai_at_workplace/</link>
-      <description><![CDATA[您在工作中使用人工智能做什么？我很好奇你是否将它用于写作、研究、头脑风暴、分析、自动化或其他用途。   由   提交 /u/NoNativeSpeaker   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1qusedk/ai_at_workplace/</guid>
-      <pubDate>Tue, 03 Feb 2026 13:49:06 GMT</pubDate>
     </item>
     <item>
       <title>AGI 的承诺是一个谎言（看看你的窗外）</title>
