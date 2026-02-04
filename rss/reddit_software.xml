@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 04 Feb 2026 01:43:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 04:26:36 GMT</lastBuildDate>
+    <item>
+      <title>我的笔记本电脑上的文件不断丢失，所以我更新了我的人工智能助手（顺便说一句，它不是人工智能助手，我不知道这是什么，这只是我的项目哈哈，我在本地使用低端法学硕士，所以这样命名它），以便根据我处理它们的时间找到它们。</title>
+      <link>https://www.reddit.com/r/software/comments/1qvebeo/i_kept_losing_files_on_my_laptop_so_i_updated_my/</link>
+      <description><![CDATA[我通常会丢失 PDF 或文档，因为我忘记了保存它们的位置或给它们起的具体奇怪名称。但我总是记得当我使用它们的时候。 所以，我刚刚向我现有的桌面助手项目添加了一个新功能。现在，我无需翻阅文件夹，只需向我的机器人发送短信即可：  “向我发送 5 天前（可能是下午）正在处理的 PPT。”  并且 BOOM， 它会检查我的活动日志，按文件类型和时间进行过滤，并在几秒钟内将实际文件发送到我的 Telegram 聊天室。它甚至告诉我我花了多长时间以及使用了哪个应用程序。 终于用 Python 解决了我杂乱无章的文件习惯。 😅   由   提交/u/No-Mess-8224   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qvebeo/i_kept_losing_files_on_my_laptop_so_i_updated_my/</guid>
+      <pubDate>Wed, 04 Feb 2026 04:05:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>取消诺顿的任何建议</title>
+      <link>https://www.reddit.com/r/software/comments/1qvdqqu/cancelling_nortons_any_recommendations/</link>
+      <description><![CDATA[我目前拥有诺顿，我已决定研究其他选项，并希望看到其他人使用。免费、便宜或者其他都可以。   由   提交/u/cicy35  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qvdqqu/cancelling_nortons_any_recommendations/</guid>
+      <pubDate>Wed, 04 Feb 2026 03:39:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>您使用的流行付费软件的最佳免费替代品是什么？</title>
+      <link>https://www.reddit.com/r/software/comments/1qvb7kv/whats_the_best_free_alternative_to_popular_paid/</link>
+      <description><![CDATA[您发现的最好的免费软件是什么？ 我正在为每个人寻找流行付费软件的最佳免费替代品，例如用 DaVinci Resolve 代替 Premiere Pro 或用 GIMP 代替 Photoshop，希望我们可以互相帮助。 您使用的流行付费软件的最佳免费替代品是什么？   由   提交 /u/Ok-Eye-9826   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qvb7kv/whats_the_best_free_alternative_to_popular_paid/</guid>
+      <pubDate>Wed, 04 Feb 2026 01:46:36 GMT</pubDate>
+    </item>
     <item>
       <title>Avery Design & Print 桌面版下载链接</title>
       <link>https://www.reddit.com/r/software/comments/1qv9xov/avery_design_print_desktop_version_download_link/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我正在寻找一种软件，当我从 Excel 工作表中查找特定值而无需打开文件时，该软件可以提供即时结果。我已经尝试使用 Powertoys Run，但它似乎不能单独工作？是否有任何选项可以使其与 Powert run 或任何其他软件一起使用？ 谢谢    由   提交/u/No_Side2717  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1quov7x/quick_look_upinstant_match_software_or_feature/</guid>
       <pubDate>Tue, 03 Feb 2026 10:52:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用图像作为查询来搜索 PDF 的开源工具</title>
-      <link>https://www.reddit.com/r/software/comments/1qun5aq/opensource_tool_for_searching_through_pdfs_using/</link>
-      <description><![CDATA[baottdang/semantic-doc-search-engine：PDF 和图像的跨模式搜索引擎，由基于 CNN 的特征提取管道提供支持。 最近，我为我的工程师朋友制作了一个搜索引擎，以便在其本地快速查找 CAD 绘图 这让我意识到，现在很多 PDF 搜索工具只关注语义匹配或文本匹配，这不适用于几乎不包含任何文本的 PDF 文件，例如 CAD 绘图。 因此，我制作了这个应用程序来填补这一空白，为用户提供一个轻量级且方便的搜索工具，它可以： - 递归搜索数据库以查找以下任一图像或 PDF 文件：与查询完全匹配或视觉上相似（例如，使用狗的图像查询将返回数据库中所有与狗相关的文件，包括图像和 PDF 文件）。 - 统一处理 PDF 文件和图像，使用户能够使用图像搜索 PDF 文件，反之亦然。 - 完全本地，无需连接，优先考虑用户的隐私。非常适合分类文档。 - 实时数据库更新，这意味着对所选数据库的任何更改都将自动实时反映，从而使数据库索引只需一次性发生。 这里是存储库的链接，它是开源且完全免费的：QLen   由   提交/u/MajesticBullfrog69  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qun5aq/opensource_tool_for_searching_through_pdfs_using/</guid>
-      <pubDate>Tue, 03 Feb 2026 09:05:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>WTF 工作负载会话主机在我的任务栏中吗？ （惠普人工智能电脑）</title>
-      <link>https://www.reddit.com/r/software/comments/1qulh3i/wtf_is_workloadssessionshost_in_my_taskbar_hp_ai/</link>
-      <description><![CDATA[我已经使用 Windows 一段时间了，并尝试使其尽可能最小化。最近，升级了一台新的PC HP Omnibook 7 aero，配备AMD AI芯片。 现在的问题是workloadsessionshost持续运行，有时有4到5个同名进程。尽管每次运行 Edge 时我都有 16 GB 内存，但 Whatsapp 却占用了超过 70% 的内存，这太疯狂了。  我该如何解决这个问题？ 感谢您的帮助！   由   提交 /u/tallbrownindianguy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qulh3i/wtf_is_workloadssessionshost_in_my_taskbar_hp_ai/</guid>
-      <pubDate>Tue, 03 Feb 2026 07:21:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>吐槽我的想法：shadcn for Agents（开源）</title>
-      <link>https://www.reddit.com/r/software/comments/1qukddf/roast_my_idea_shadcn_for_agents_open_source/</link>
-      <description><![CDATA[ 由   提交/u/p1zzuh  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qukddf/roast_my_idea_shadcn_for_agents_open_source/</guid>
-      <pubDate>Tue, 03 Feb 2026 06:18:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
