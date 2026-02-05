@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 05 Feb 2026 06:53:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 09:41:07 GMT</lastBuildDate>
+    <item>
+      <title>如何减少人工智能驱动的多步骤表单中的延迟？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qwgqcn/how_do_you_reduce_latency_in_aidriven_multistep/</link>
+      <description><![CDATA[嘿伙计们， 我正在构建一种人工智能驱动的多步骤表单体验，其中每个答案都会影响下一个问题。目前，每一步都发送给法学硕士来决定下一步做什么，这在逻辑上运作良好，但问题之间的延迟开始影响完成率。 我正在尝试找出更好的架构模式来减少感知和实际延迟，特别是对于常见或低熵答案（例如是/否、评级、简单选择）。 我正在探索的一些想法，但希望得到现实世界的输入：  缓存或缩短常见答案路径  预计算/预取可能的下一个问题  将确定性逻辑与LLM推理混合，而不是每一步都调用模型  隐藏或减少等待时间的客户端技巧  如果您构建了类似的东西（人工智能面试、自适应调查、入职流程等），我真的很高兴听到在实践中实际有效的内容。 谢谢！   由   提交/u/Finaler0795  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qwgqcn/how_do_you_reduce_latency_in_aidriven_multistep/</guid>
+      <pubDate>Thu, 05 Feb 2026 09:24:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>是什么让网站在前 5 秒内感觉值得信赖？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qwg4so/what_makes_a_website_feel_trustworthy_within_the/</link>
+      <description><![CDATA[当您登陆某个网站时，首先让您信任的是什么？ 设计？ 复制？ 评论？ 还有其他吗？ 好奇什么对您作为用户来说最突出。   由   提交 /u/Such_Card_1300   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qwg4so/what_makes_a_website_feel_trustworthy_within_the/</guid>
+      <pubDate>Thu, 05 Feb 2026 08:46:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个免费的公共词典 REST API（爱好项目）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qwfw4r/i_built_a_free_public_dictionary_rest_api_hobby/</link>
+      <description><![CDATA[大家好， 我构建了一个小型字典 REST API 作为个人/爱好项目，并决定将其公开提供给任何想要实验或构建小型工具的人。 这不是生产级，也没有任何保证，但它对于学习、演示、副项目或快速查找应该很有用。 示例端点：  https://api.suvankar.cc/dictionaryapi/v1/definitions/en/recover  ``` 示例（修剪后的）响应 - 实际响应更加详细，并且因单词而异： { “单词”： “恢复”， “lang”：“en”， “ipa”：“/ɹɪˈkʌvə/”， “含义”：[ { “partOfSpeech”： “动词”， “感官”：[ { “光泽”：[“恢复健康或体力”]， “标签”：[“及物”] } ] } ], “属性”：{ “来源”：“维基词典”， “许可证”：“CC BY-SA 4.0” } } ``` 完整响应可以包括多个词性，古老/过时的含义、词源、示例、IPA 变体和音频 URL，具体取决于单词。 功能： - 简单的 REST 端点 - JSON 响应 - 无需身份验证 - 业余爱好者可以免费使用 限制： - 无 SLA - 速率限制可能更改 - 不适合大量生产使用 欢迎提供反馈、建议或改进想法。   由   提交 /u/Economy-Ebb4763   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qwfw4r/i_built_a_free_public_dictionary_rest_api_hobby/</guid>
+      <pubDate>Thu, 05 Feb 2026 08:31:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Figma 开发者教程？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qwfuso/figma_tutorial_for_devs/</link>
+      <description><![CDATA[大家好， 作为一名开发人员，我从来没有时间学习Figma（更多的是边做边学），到目前为止我找到的所有资源都是针对设计师的。我想作为开发人员使用Figma（即我不需要在Figma 中创建任何内容，我只需要能够使用它来获取信息）。有人有可以推荐的资源吗？ ps：对于 UI/UX 工具，他们的用户体验很糟糕   由   提交 /u/stringlesskite   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qwfuso/figma_tutorial_for_devs/</guid>
+      <pubDate>Thu, 05 Feb 2026 08:29:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有可以将图像转换为视频的 API（非 AI）？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qwfswx/any_api_for_converting_images_to_video_non_ai/</link>
+      <description><![CDATA[我需要的是一个简单的 API，我可以在其中输入图像、mp3 文件并输出视频 mp4（带有音频背景的静态图像） Google 将为我提供 image-2-video AI 工具的结果，这不是我想要的。   由   提交 /u/jonbristow   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qwfswx/any_api_for_converting_images_to_video_non_ai/</guid>
+      <pubDate>Thu, 05 Feb 2026 08:25:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>当客户离开时，网络机构如何保护自己？ （WordPress + 高级主题）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qwedrh/how_do_web_agencies_protect_themselves_when_a/</link>
+      <description><![CDATA[大家好， 我是一名网络代理机构所有者，我想了解其他机构如何在常见情况下处理客户离职。 上下文：  使用 WordPress 构建的网站 使用高级主题或模板套件由代理机构（ThemeForest / Envato等）购买 托管由代理机构管理 客户决定结束关系  我的问题是：  在这种情况下您通常如何保护自己？ 您是否： 将整个网站（文件+数据库）传输到客户？ 保留网站的所有权并仅授予使用许可？ 需要最终“买断”付款才能转让所有权？ 使用任何技术或合同保障措施吗？  如果主题许可证是由代理机构购买的，您如何处理它？ 您是否曾就此产生过争议？在实践中什么最有效？  我不是寻求法律建议，只是寻求真实的代理经验和常见的行业惯例。 提前感谢任何愿意分享他们如何处理此问题的人👍   由   提交/u/Right-Ad3493  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qwedrh/how_do_web_agencies_protect_themselves_when_a/</guid>
+      <pubDate>Thu, 05 Feb 2026 06:59:09 GMT</pubDate>
+    </item>
     <item>
       <title>寻找登陆页面的反馈</title>
       <link>https://www.reddit.com/r/webdev/comments/1qwdilo/looking_for_feedback_on_landing_page/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[我是一名软件工程师，我正在努力建立我的作品集。如果有人有一个可以重新设计或重建的商业网站，我很乐意免费提供帮助。只是寻找真正可以开展的项目。欢迎私信。   由   提交 /u/nolanolson   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qw5l7s/website_redesignrebuild/</guid>
       <pubDate>Thu, 05 Feb 2026 00:05:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>我理解代码，但我无法“思考”代码</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qw2cv7/i_understand_code_but_i_cannot_think_code/</link>
-      <description><![CDATA[写这个是因为我想知道其他人是否和我有同样的情况。 我从来不理解指令。这可以追溯到我的童年时期。人们可以给我详细的解释，但在我真正掌握我需要做的事情之前，我仍然会一片空白。 我从来无法理解语法的基础知识，教科书完全没有用。我学习英语的唯一方法是看电视和阅读英语书籍，这样我就可以看到人们如何互相交谈。 我一直喜欢将机器拆开然后重新组装起来，以了解它们是如何工作的。  现在我意识到这就是我的编码方式，虽然有些人称其为一种优势，但我个人却因此而挣扎。  尽管我实际上是一名 UX 设计师，但我已经作为全栈开发人员工作了 5 年。我很幸运有一位对我的学习方式持开放态度的老板。他问我是否可以使用 Vue、Java Spring 和 SQL。我说不，他回答说“嗯。”我相信你会弄清楚的”，所以我做到了。 所以多年来我一直在为一家 PropTech 公司开发大型应用程序，设置集成、单元测试、使用 SSH 命令进行调试、管理复杂的查询等。但是如果你问我任何有关 Java 的基本问题或如何从头开始做某事，我毫无头绪。我看过无数视频，甚至付费了课程，但我的头脑根本无法理解任何概念。 我需要查看代码，将其拆开，看看哪些部分做了什么，然后我才能提出解决方案。 这一切都很好，直到我失业并不得不去面试。我仍然失业，因为我根本无法回答任何技术问题。这很糟糕，但是当思想以某种方式塑造时，一个人能做的就只有这么多。 如果这里的其他人有这种思维模式，你是如何克服它/拥抱它的？   由   提交 /u/yukirainbowx   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qw2cv7/i_understand_code_but_i_cannot_think_code/</guid>
-      <pubDate>Wed, 04 Feb 2026 21:57:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>现代网络开发的哪一部分让您觉得设计过度了？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qw1n98/what_part_of_modern_web_dev_feels_over_engineered/</link>
-      <description><![CDATA[框架、构建工具、状态管理、CI……什么感觉比 2026 年的需要更重？   由   提交 /u/Ambitious-Note-1239   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qw1n98/what_part_of_modern_web_dev_feels_over_engineered/</guid>
-      <pubDate>Wed, 04 Feb 2026 21:30:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>目前哪种网络开发趋势正在明显消失？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qw1kn1/what_web_dev_trend_is_clearly_disappearing_right/</link>
-      <description><![CDATA[这并不是被夸大的东西，而是你看到团队在实际项目中悄悄停止使用的东西。   由   提交 /u/No_Honeydew_2453   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qw1kn1/what_web_dev_trend_is_clearly_disappearing_right/</guid>
-      <pubDate>Wed, 04 Feb 2026 21:28:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么是有史以来最伟大的软件产品？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qw1daq/what_is_greatest_software_product_of_all_time/</link>
-      <description><![CDATA[我认为是搜索，但 llm 也在那里   由   提交 /u/whyyoucrazygosleep   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qw1daq/what_is_greatest_software_product_of_all_time/</guid>
-      <pubDate>Wed, 04 Feb 2026 21:20:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>90s.dev，一个发布 90 年代开发主题客座文章的新平台</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qw02dx/90sdev_a_new_platform_for_90sdevthemed_guest/</link>
-      <description><![CDATA[ 由   提交 /u/Life-Silver-5623   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qw02dx/90sdev_a_new_platform_for_90sdevthemed_guest/</guid>
-      <pubDate>Wed, 04 Feb 2026 20:33:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站适用于除 MacBook 之外的所有设备 - 图像无法加载</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qvzqm3/website_works_on_every_device_except_one_macbook/</link>
-      <description><![CDATA[客户面临一个奇怪的问题，即网站在除 MacBook 之外的所有设备和浏览器上都能完美运行。在他的笔记本电脑上，图像无法加载，下拉按钮（例如个人资料菜单和注销）不起作用，并且他无法从右上角注销。已经清除cookies和缓存，多次重新启动笔记本电脑，卸载并重新安装Chrome和Firefox。奇怪的是，同一个网站在其他笔记本电脑和手机上运行良好，在其他设备上的相同浏览器中运行良好，并且所有其他网站在他的 MacBook 上正常运行。该笔记本电脑仅使用了六个月，因此这似乎确实是该设备特有的问题。有没有人经历过类似的事情或知道可能导致这种情况的原因是什么？   由   提交/u/joy_and_grief  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qvzqm3/website_works_on_every_device_except_one_macbook/</guid>
-      <pubDate>Wed, 04 Feb 2026 20:21:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
