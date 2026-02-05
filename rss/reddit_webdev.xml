@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 05 Feb 2026 01:45:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 04:46:55 GMT</lastBuildDate>
+    <item>
+      <title>对于那些销售过网站的人来说：卖了什么，花了多长时间，值得吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qwbs83/for_those_whove_sold_websites_what_sold_how_long/</link>
+      <description><![CDATA[嗨， 我很好奇那些向客户或成品出售网站的开发人员的真实体验。 我的问题：  哪种类型的网站卖得最好？ 花在建设上的时间与寻找买家/客户的时间 定价与工作量相比如何 构建方法重要吗？ （自定义代码 vs WP/Elementor vs AI 工具）  并不是在寻找确切的教程，只是从做过这件事的人那里得到诚实的反思。 谢谢。   由   提交 /u/BaroqueCensure   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qwbs83/for_those_whove_sold_websites_what_sold_how_long/</guid>
+      <pubDate>Thu, 05 Feb 2026 04:41:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>像 Twitter 和 Reddits 这样的网络应用程序为什么没有搜索栏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qwaldi/how_do_web_apps_like_twitters_and_reddits_pwas/</link>
+      <description><![CDATA[      希望这是问这个问题的正确地方，但 Twitter 和 Reddit 网络应用程序如何没有搜索栏，实际上看起来像真正的应用程序，但 YouTube 仍然感觉像浏览器页面？   由   提交/u/the_mvrtivn   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qwaldi/how_do_web_apps_like_twitters_and_reddits_pwas/</guid>
+      <pubDate>Thu, 05 Feb 2026 03:45:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>缩放功能属于领域、应用程序还是UI层？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qw87jk/does_the_zoom_function_belong_in_the_domain/</link>
+      <description><![CDATA[我正在使用 Canvas 构建一个 Web 编辑器，实现一个干净的架构，我有一个问题：缩放是域、应用程序还是 UI 问题吗？ 我觉得它可以进入域层，因为业务规则基于坐标，因此设置显示限制、世界焦点和缩放在那里似乎是合乎逻辑的。 我也觉得它可以进入应用程序层，因为域可以与整个域解耦。显示方面，允许应用程序设置显示限制等。 但我也觉得它可以进入 UI 层，因为 UI 处理呈现，并且世界在屏幕上的显示方式感觉就像一个 UI 规则，因为它在每个屏幕上看起来都不同，并且考虑到世界是无限的，这似乎是合适的。我还认为它可以放在 UI 中，因为如果应用程序层具有此逻辑，则意味着 UI 将与其耦合。如果编辑器显示在记事本中，那么，那就很奇怪了。虽然我认为 UI 可以使用适配器将应用程序缩放转换为 UI 缩放。 我对这一切感到非常困惑，并且在网上找不到明确的信息。人工智能也没有多大帮助，鲍勃的书似乎更令人困惑。如果有人能启发我，我将非常感激。   由   提交/u/Juantro17  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qw87jk/does_the_zoom_function_belong_in_the_domain/</guid>
+      <pubDate>Thu, 05 Feb 2026 01:58:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果有人在网络安全方面经验丰富，是否有人试图渗透我，我如何知道他们是否成功</title>
+      <link>https://www.reddit.com/r/webdev/comments/1qw836u/if_anyone_is_experienced_in_web_security_is/</link>
+      <description><![CDATA[      我最近检查了我的 vercel 日志，发现我的防火墙在 DDOS 缓解规则下拒绝了 412 请求，并且我已经了解了一些 Web 安全性，因此从请求路径和用户代理中我可以告诉有人运行了某种脚本来抓取我拥有的任何暴露的页面。我的问题是，我说的是否正确，我如何知道他们是否得到了某些东西，以及如何防止这种情况发生。   由   提交/u/danielking11  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1qw836u/if_anyone_is_experienced_in_web_security_is/</guid>
+      <pubDate>Thu, 05 Feb 2026 01:53:36 GMT</pubDate>
+    </item>
     <item>
       <title>如果 SEO 是大多数静态网站的首要任务，我应该避免制作 SPA 还是可以？</title>
       <link>https://www.reddit.com/r/webdev/comments/1qw7fuc/if_seo_is_a_priority_for_a_mostly_static_website/</link>
@@ -57,7 +85,7 @@
     <item>
       <title>网站适用于除 MacBook 之外的所有设备 - 图像无法加载</title>
       <link>https://www.reddit.com/r/webdev/comments/1qvzqm3/website_works_on_every_device_except_one_macbook/</link>
-      <description><![CDATA[客户面临一个奇怪的问题，即网站在除 MacBook 之外的所有设备和浏览器上都能完美运行。在他的笔记本电脑上，图像无法加载，下拉按钮（例如个人资料菜单和注销）不起作用，并且他无法从右上角注销。已经清除cookies和缓存，多次重新启动笔记本电脑，卸载并重新安装Chrome和Firefox。奇怪的是，同一个网站在其他笔记本电脑和手机上运行良好，在其他设备上的相同浏览器中运行良好，并且所有其他网站在他的 MacBook 上正常运行。该笔记本电脑仅使用了 6 个月，因此这似乎确实是该设备特有的问题。有没有人经历过类似的事情或知道可能导致这种情况的原因是什么？   由   提交/u/joy_and_grief  [链接] [评论]]]></description>
+      <description><![CDATA[客户面临一个奇怪的问题，即网站在除 MacBook 之外的所有设备和浏览器上都能完美运行。在他的笔记本电脑上，图像无法加载，下拉按钮（例如个人资料菜单和注销）不起作用，并且他无法从右上角注销。已经清除cookies和缓存，多次重新启动笔记本电脑，卸载并重新安装Chrome和Firefox。奇怪的是，同一个网站在其他笔记本电脑和手机上运行良好，在其他设备上的相同浏览器中运行良好，并且所有其他网站在他的 MacBook 上正常运行。该笔记本电脑仅使用了六个月，因此这似乎确实是该设备特有的问题。有没有人经历过类似的事情或知道可能导致这种情况的原因是什么？   由   提交/u/joy_and_grief  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qvzqm3/website_works_on_every_device_except_one_macbook/</guid>
       <pubDate>Wed, 04 Feb 2026 20:21:46 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[      一直致力于一个名为 webhook-skills 的项目 - 一个结构化知识的集合，可帮助 AI 编码助手（Cursor、Claude Code、Copilot）生成正确的 webhook 处理程序。 问题：AI 代理经常产生签名验证代码的幻觉看起来正确但失败 - 编码错误、缺少原始正文处理、过时的 SDK 方法。 每项技能包括： - 记录了特定于提供商的陷阱的签名验证 - Express、Next.js 和 FastAPI 的工作示例 - 最佳实践模式（幂等性、错误处理、重试逻辑） 目前涵盖 Stripe、Shopify、GitHub、Paddle、OpenAI、Clerk 等。 会喜欢反馈 - 特别是关于您希望添加的提供程序或框架的反馈。   由   提交/u/phobos7  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qvub6o/agent_skills_to_help_ai_assistants_implement/</guid>
       <pubDate>Wed, 04 Feb 2026 17:09:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>将 React + Tailwind 简历模板导出到 DOCX。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qvu3xg/exporting_react_tailwind_resume_templates_to_docx/</link>
-      <description><![CDATA[我正在开发一个简历生成器应用程序，其中有几个使用 React 和 Tailwind CSS 构建的简历模板（类似于 https://www.beamjobs.com/resume-templates）。 目前，我使用处理 PDF 导出react-pdf/renderer，效果很好。但是，我需要添加一项功能，将这些简历导出为可编辑的 .docx (Word) 文件，同时尽可能保留布局和样式。 我尝试过 html-to-docx 等库，但它们似乎对现代 CSS（flexbox、复杂填充、Tailwind 类）感到窒息。 是否有一个库可以很好地处理 Tailwind 到 Word XML 转换？ 因为据我所知，beamjobs 模板可以在 word 和 google 文档中使用，但也许它们从一开始就在文档中完成。   由   提交/u/SquarePop9725  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qvu3xg/exporting_react_tailwind_resume_templates_to_docx/</guid>
-      <pubDate>Wed, 04 Feb 2026 17:02:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么在欧盟，一些公司/欧盟开发人员试图抵制美国技术，例如将 AWS 切换到欧盟云提供商等......</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qvtt62/how_come_in_eu_some_companieseu_devs_try_to/</link>
-      <description><![CDATA[每当我查看 Linkedin 时，我都会看到一些欧盟国家，他们很自豪他们列出了美国技术，例如 MS Office AWS bla bla 并尝试切换到欧盟或其他什么。只是为什么？  我听到他们谈到隐私，比如我不希望美国拥有我的数据、GDPR 之类的东西，但使用美国技术是合法的，哈哈。看起来他们让自己的生活变得更加艰难。 为什么除了中国之外，亚洲、非洲等其他大陆都不这样做？ 有什么不知道   由   提交 /u/lune-soft   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qvtt62/how_come_in_eu_some_companieseu_devs_try_to/</guid>
-      <pubDate>Wed, 04 Feb 2026 16:51:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026 年自托管服务的合理安全基线？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qvtnja/reasonable_security_baseline_for_selfhosted/</link>
-      <description><![CDATA[在自托管服务器上运行一个业余爱好项目，并希望快速进行健全性检查，看看这是否算作 2026 年合理的最低安全基线。 高级设置：  Linux 主机 Docker 化服务 仅公开暴露 80/443 反向代理终止 TLS（强制执行 HTTPS） ASP.NET (.NET 10)，具有内置 Identity + OAuth 仅限 EF Core/ORM（无原始 SQL） 自动编码，无用户 HTML 渲染 基本安全标头（CSP、HSTS、nosniff、引荐来源网址、权限） 主机启用防火墙（默认拒绝传入） 定期安全更新（操作系统+容器重建、无人值守升级） 速率限制策略  这并不是企业级的，只是对业余爱好应用程序有意义。 这听起来像一个合理的基线吗？ 人们在这个阶段通常会错过的任何常见盲点（操作、维护或流程方面）？   由   提交 /u/gXzaR   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qvtnja/reasonable_security_baseline_for_selfhosted/</guid>
-      <pubDate>Wed, 04 Feb 2026 16:45:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026年，高级全栈SWE还需要了解Kubernetes和Terraform还是IaC吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1qvqz3u/in_2026_do_senior_full_stack_swe_need_to_also/</link>
-      <description><![CDATA[在全栈之前是 BE、FE 和部署你的代码。 到 2026 年，我们有人工智能来帮助/解释事情 高级全栈 SWE 还需要了解 Kubernetes 和那些 IaC 工具吗？ 我曾经在拥有 10-12 名开发人员的小公司听说，当一个 devops 人员去度假时，全栈高级人员就去度假了。通常做 FE+BE 的人，他去重新研究 IAC 和那些 devops 的东西   由   提交 /u/lune-soft   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1qvqz3u/in_2026_do_senior_full_stack_swe_need_to_also/</guid>
-      <pubDate>Wed, 04 Feb 2026 15:06:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
