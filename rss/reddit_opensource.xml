@@ -4,20 +4,20 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 05 Feb 2026 15:41:45 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 18:42:41 GMT</lastBuildDate>
+    <item>
+      <title>自托管游戏资源库</title>
+      <link>https://www.reddit.com/r/opensource/comments/1qwr9ew/selfhosted_game_asset_library/</link>
+      <description><![CDATA[嘿！ 我正在开发免费、开源、自托管的应用程序（在 docker 上运行），您可以在其中存储模型、纹理、精灵声音等资源。想法是，您拖放一个文件，然后会自动创建动画 360 度缩略图，您可以在浏览器中使用 Three.js 预览每个模型。您可以按项目（您正在处理的）或包（例如您在线下载了一个包并想预览里面的内容）对您的资源进行分组。 如果您想尝试一下，这里有一些网址： 代码：github.com/Papyszoo/Modelibr 网站：https://papyszoo.github.io/Modelibr/ 包含一些图像的文档：https://papyszoo.github.io/Modelibr/docs   由   提交 /u/papyszoo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1qwr9ew/selfhosted_game_asset_library/</guid>
+      <pubDate>Thu, 05 Feb 2026 17:17:40 GMT</pubDate>
+    </item>
     <item>
       <title>基于浏览器的小型策略棋盘游戏 - 寻找贡献者。</title>
       <link>https://www.reddit.com/r/opensource/comments/1qwodre/small_browser_based_strategy_board_game_looking/</link>
       <description><![CDATA[长话短说，我断断续续地致力于这款游戏十多年了。我已将其发布到知识共享 (CC-BY) 中，并正在为该游戏开发一个开源 (GNU GPL) 网站，以尝试帮助其启动并实际玩游戏并数字化。我的目对任何形状或形式感兴趣。我希望这里有人可能有兴趣帮助游戏获得一点吸引力/开发，但如果没有，我还是很感谢您的时间！ Github 存储库（GNU GPL 版本 3）： https://github.com/GreenAnts/Amalgam_Webgame 可玩游戏集成规则的网站： https://greenants.github.io/Amalgam_Webgame/ 注意：正在开发中，带有占位符信息 - 但有单人玩家与计算机版本工作 - 目前计算机（AI）玩家技能非常差。 其他方法玩，无规则集成： Screentop.gg - https://screentop.gg/@Anthony/Amalgam 桌面模拟器 - https://steamcommunity.com/sharedfiles/filedetails/?id=1402132394&amp;searchtext=amalgam Discord 服务器： [已编辑子指南- 如果有兴趣，请查看存储库] 视频教程： https://youtu.be/LZD5h4siXVM 棋盘游戏极客 (BGG)： https://boardgamegeek.com/boardgame/433428/amalgam 主网站（旧）： https://www.amalgamboardgame.com 注意：这主要用于托管规则，但上面的可玩游戏链接最终可能会取代它。 规则手册： 选项 1：https://github.com/GreenAnts/Amalgam_Webgame/tree/main/assets/Rulebook 选项 2：https://imgur.com/a/amalgam-board-game-rules-0lTmlgR 选项 3：“主网站（旧）”上面的链接 - - - 我发帖不仅是为了寻找对游戏感兴趣的人，也是为了那些可能有兴趣帮助我们在开发数字版本时完成所有设置的贡献者。我希望构建一款社区构建*游戏 - 与社区一起成长和发展。添加游戏变体作为自定义匹配，可以选择用于替代规则集等。* 谢谢！   由   提交/u/AnotherMoonDoge  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qwodre/small_browser_based_strategy_board_game_looking/</guid>
       <pubDate>Thu, 05 Feb 2026 15:32:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个嵌入式文档数据库，即。 sqlite 形式的 mongodb</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qwo2u2/i_made_an_embedded_document_database_ie_mongodb/</link>
-      <description><![CDATA[链接：https://github.com/sohzm/jasonisnthappy 功能  ACID 事务：具有冲突检测和批量提交优化的完整提交/回滚支持 MVCC：用于快照隔离的多版本并发控制 - 读取永远不会阻止写入 文档存储：具有自动 ID 生成、更新插入和 CRUD 操作的 JSON 文档（find_by_id、find_one、find_all、count） B 树存储引擎：通过单字段、复合和唯一约束索引实现写时复制支持 预写式日志记录 (WAL)：通过 CRC32 校验和和自动检查点实现崩溃恢复和持久性 全文搜索：使用 unicode 标记化进行 TF-IDF 评分 查询语言：运算符（and、or、not、&gt;、&gt;=、&lt;、&lt;=、is、exists、has、has_any、has_all），带点嵌套字段的表示法 聚合管道：group_by、count、sum、avg、min、max以及match、sort、limit、skip、project、 排除阶段 架构验证：具有类型检查、必填字段、最小/最大约束、枚举和嵌套验证的 JSON 架构 更改流：具有事件过滤功能的实时插入/更新/删除通知 批量操作：insert_many、bulk_write用于高吞吐量批处理 QueryBuilder：具有排序、分页和字段投影（包含/排除）的流畅 API 备份和备份恢复：完整的数据库备份和恢复功能 垃圾收集：清理旧的 MVCC 版本以回收空间 只读模式：以只读模式打开数据库以实现安全并发访问 指标：跟踪事务、缓存命中/未命中、WAL 统计信息、文档计数和错误 LRU 页面缓存：具有损坏检测功能的可配置内存缓存 语言绑定：通过 C FFI 的 Go、Python 和 JavaScript (Node/Deno/Bun)    由   提交 /u/sohxm7   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qwo2u2/i_made_an_embedded_document_database_ie_mongodb/</guid>
-      <pubDate>Thu, 05 Feb 2026 15:21:27 GMT</pubDate>
     </item>
     <item>
       <title>BrainWave：开源双耳节拍音频生成器（Python + Web UI）</title>
