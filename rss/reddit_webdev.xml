@@ -4,7 +4,7 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 06 Feb 2026 01:44:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 04:46:56 GMT</lastBuildDate>
     <item>
       <title>由于资金不足，我们需要一个新的 HTTP 状态代码（467？）</title>
       <link>https://www.reddit.com/r/webdev/comments/1qx2itf/we_need_a_new_http_status_code_467_for/</link>
@@ -36,14 +36,14 @@
     <item>
       <title>Tabnine 刚刚取消了我的 Pro 帐户</title>
       <link>https://www.reddit.com/r/webdev/comments/1qwz8to/tabnine_just_cancelled_my_pro_account/</link>
-      <description><![CDATA[Tabnine 刚刚取消了我的 Pro 帐户，并全额退款。 我有一张开放的支持票，因为我注意到无论您在 Tabnine 中选择哪种 Claude 型号，它似乎总是使用较旧的 Claude 3.5 变体。问题在于，这个旧模型对于我正在积极使用的 API 具有过时的文档，这导致了不正确的建议。 我提出了一张支持票，询问是否可以修复模型选择，使其实际上使用正确的版本。他们没有解决这个问题，而是取消了我的帐户并向我退款。 我有点失望。总的来说，我真的很喜欢 Tabnine，根本没想到会出现这样的结果。 对于那些单独工作的人来说： 现在人们在使用什么？什么对你来说效果很好？   由   提交/u/i-am-jamesfawcett   [链接] [评论]]]></description>
+      <description><![CDATA[      Tabnine 刚刚取消了我的 Pro 帐户，并全额退款。 我有一张开放的支持票，因为我注意到无论您在 Tabnine 中选择哪种 Claude 型号，它似乎总是使用较旧的 Claude 3.5 变体。问题在于，这个旧模型对于我正在积极使用的 API 具有过时的文档，这导致了不正确的建议。 我提出了一张支持票，询问是否可以修复模型选择，使其实际上使用正确的版本。他们没有解决这个问题，而是取消了我的帐户并向我退款。 我有点失望。总的来说，我真的很喜欢 Tabnine，根本没想到会出现这样的结果。 对于那些单独工作的人来说： 现在人们在使用什么？什么对你来说效果很好？   由   提交/u/i-am-jamesfawcett   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qwz8to/tabnine_just_cancelled_my_pro_account/</guid>
       <pubDate>Thu, 05 Feb 2026 22:06:18 GMT</pubDate>
     </item>
     <item>
-      <title>蒂姆·伯纳斯·李的《这适合所有人》</title>
+      <title>这是蒂姆·伯纳斯·李为大家准备的</title>
       <link>https://www.reddit.com/r/webdev/comments/1qwy19n/this_is_for_everyone_by_tim_bernerslee/</link>
-      <description><![CDATA[如果您喜欢阅读非小说类作品，我强烈推荐 Tim Berners-Lee 爵士的回忆录。 我喜欢他在网络早期的所有轶事以及第一次了解 Solid 协议的经历；这是他现在正在通过他的公司 Inrupt 进行的项目。 https://solidproject.org/for_developers   由   提交/u/suckafortone  [链接] [评论]]]></description>
+      <description><![CDATA[      如果您喜欢阅读非小说类书籍，我强烈推荐蒂姆·伯纳斯·李 (Tim Berners-Lee) 爵士的回忆录。 我喜欢他在网络早期的所有轶事以及第一次了解 Solid 协议的经历；这是他现在正在通过他的公司 Inrupt 进行的项目。 https://solidproject.org/for_developers   由   提交/u/suckafortone  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qwy19n/this_is_for_everyone_by_tim_bernerslee/</guid>
       <pubDate>Thu, 05 Feb 2026 21:20:48 GMT</pubDate>
     </item>
@@ -71,7 +71,7 @@
     <item>
       <title>使不匹配的品牌徽标看起来视觉上平衡背后的数学原理（以及一个可以为您做到这一点的 React 库）</title>
       <link>https://www.reddit.com/r/webdev/comments/1qwuh1r/the_math_behind_making_mismatched_brand_logos/</link>
-      <description><![CDATA[你知道该怎么做。您将获得一个包含合作伙伴徽标的文件夹。有些是 SVG，有些是带有神秘填充的 PNG。长宽比范围为 1:1 至 15:1。您将它们排列起来，并花费太多时间手动调整尺寸。然后下周将出现三个新徽标，您可以重新开始。 我们编写了一个库，可以使用以下方法自动修复此问题：  比例归一化（长宽比 + 比例因子） 像素密度分析（因此密集的徽标在视觉上不会压倒薄的徽标） 光学对准的视觉质心计算  它是一个 React 组件(&lt;LogoSoup /&gt;) 和一个钩子 (useLogoSoup) 如果您想要自定义布局。 npm install react-logo-soup  带有数学解释的博客文章：sanity.io/blog/the-logo-soup-problem GitHub：github.com/sanity-labs/react-logo-soup 故事书演示：react-logo-soup.sanity.dev 希望得到反馈。就实际结果而言，密度补偿和光学对准是我们最好奇的部分。   由   提交/u/knutmelvaer   [链接] [评论]]]></description>
+      <description><![CDATA[   你知道该怎么做。您将获得一个包含合作伙伴徽标的文件夹。有些是 SVG，有些是带有神秘填充的 PNG。长宽比范围为 1:1 至 15:1。您将它们排列起来，并花费太多时间手动调整尺寸。然后下周将出现三个新徽标，您可以重新开始。 我们编写了一个库，可以使用以下方法自动修复此问题：  比例归一化（长宽比 + 比例因子） 像素密度分析（因此密集的徽标在视觉上不会压倒薄的徽标） 光学对准的视觉质心计算  它是一个 React 组件(&lt;LogoSoup /&gt;) 和一个钩子 (useLogoSoup) 如果您想要自定义布局。 npm install react-logo-soup  带有数学解释的博客文章：sanity.io/blog/the-logo-soup-problem GitHub：github.com/sanity-labs/react-logo-soup 故事书演示：react-logo-soup.sanity.dev 希望得到反馈。就实际结果而言，密度补偿和光学对准是我们最好奇的部分。   由   提交/u/knutmelvaer   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qwuh1r/the_math_behind_making_mismatched_brand_logos/</guid>
       <pubDate>Thu, 05 Feb 2026 19:11:27 GMT</pubDate>
     </item>
@@ -99,14 +99,14 @@
     <item>
       <title>Opus 4.6 下降</title>
       <link>https://www.reddit.com/r/webdev/comments/1qwsu4c/opus_46_dropped/</link>
-      <description><![CDATA[ 由   提交/u/Ok-Thanks2963   [链接] [评论]]]></description>
+      <description><![CDATA[       由   提交/u/Ok-Thanks2963   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qwsu4c/opus_46_dropped/</guid>
       <pubDate>Thu, 05 Feb 2026 18:13:15 GMT</pubDate>
     </item>
     <item>
       <title>LLM 支持聊天机器人架构</title>
       <link>https://www.reddit.com/r/webdev/comments/1qwsfuc/llm_support_chatbot_architecture/</link>
-      <description><![CDATA[我正在开发一个应用程序作为个人项目，我想合并一个客户支持聊天机器人（就像右下角的那些气泡，单击时会打开聊天）。是否有任何流行的现有应用程序可以帮助实现此集成？   由   提交 /u/Leap_Year_Guy_   [链接] [评论]]]></description>
+      <description><![CDATA[我正在开发一个应用程序作为个人项目，我想合并一个客户支持聊天机器人（就像右下角的那些气泡，单击时会打开聊天）。是否有任何流行的现有应用程序可以帮助实现此集成？   由   提交/u/Leap_Year_Guy_   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1qwsfuc/llm_support_chatbot_architecture/</guid>
       <pubDate>Thu, 05 Feb 2026 17:59:29 GMT</pubDate>
     </item>
