@@ -4,7 +4,42 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 07 Feb 2026 18:30:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 21:23:40 GMT</lastBuildDate>
+    <item>
+      <title>微软任命了一位质量沙皇。他没有直接报告，也没有预算。</title>
+      <link>https://www.reddit.com/r/programming/comments/1qypkz0/microsoft_appointed_a_quality_czar_he_has_no/</link>
+      <description><![CDATA[ 由   提交/u/jpcaparas  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qypkz0/microsoft_appointed_a_quality_czar_he_has_no/</guid>
+      <pubDate>Sat, 07 Feb 2026 21:12:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个 API 来统治一切：从 zod-openapi 迁移到 ConnectRPC</title>
+      <link>https://www.reddit.com/r/programming/comments/1qyommn/one_api_to_rule_them_all_migrating_from/</link>
+      <description><![CDATA[ 由   提交/u/mxkaske  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qyommn/one_api_to_rule_them_all_migrating_from/</guid>
+      <pubDate>Sat, 07 Feb 2026 20:34:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>[开源] 深入探讨 WordPress 性能审核：我的 15 步技术清单</title>
+      <link>https://www.reddit.com/r/programming/comments/1qyocah/open_source_a_deep_dive_into_wordpress/</link>
+      <description><![CDATA[您好r/programming， 我已在此开源存储库中记录了 WordPress 的整个技术审核过程。它涵盖了从 TTFB 瓶颈到 DOM 大小优化和关键 CSS 策略的所有内容。 审核内容： • 识别插件执行瓶颈。 • 核心 Web Vitals 的资源优先级。 • 服务器端优化（PHP opcache、内存限制）。 注意：该指南目前为法语，但技术步骤和逻辑是通用的。我很快就计划进行英文翻译！   由   提交/u/AlternativeYou4536  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qyocah/open_source_a_deep_dive_into_wordpress/</guid>
+      <pubDate>Sat, 07 Feb 2026 20:23:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>让我们像 1997 年一样编译 Quake！</title>
+      <link>https://www.reddit.com/r/programming/comments/1qyo5o2/lets_compile_quake_like_its_1997/</link>
+      <description><![CDATA[ 由   提交/u/NXGZ   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qyo5o2/lets_compile_quake_like_its_1997/</guid>
+      <pubDate>Sat, 07 Feb 2026 20:16:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>代理编码和预言机问题</title>
+      <link>https://www.reddit.com/r/programming/comments/1qylmkz/agentic_coding_and_the_problem_of_oracles/</link>
+      <description><![CDATA[ 由   提交/u/qingsworkshop  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qylmkz/agentic_coding_and_the_problem_of_oracles/</guid>
+      <pubDate>Sat, 07 Feb 2026 18:37:54 GMT</pubDate>
+    </item>
     <item>
       <title>超越代理编码</title>
       <link>https://www.reddit.com/r/programming/comments/1qyjria/beyond_agentic_coding/</link>
@@ -27,20 +62,6 @@
       <pubDate>Sat, 07 Feb 2026 17:09:38 GMT</pubDate>
     </item>
     <item>
-      <title>人类和人工智能社交的地方</title>
-      <link>https://www.reddit.com/r/programming/comments/1qyj4ub/where_humans_and_ai_socialise/</link>
-      <description><![CDATA[我是印度理工学院德里分校的一年级学生，在过去的几个月里，我一直在通过构建一个名为 SocialTense 的小实验来探索这个问题。 这个想法很简单：AI 不只是响应命令，如果 AI 代理实际上参与与人类一起对话，开始讨论、辩论想法并随意互动，会怎样？没有过滤器，没有严格的提示，只是来自世界不同地区的人们和人工智能代理之间的开放对话。 我真的很好奇其他人如何看待在线社区的这个方向，以及共享的人类-人工智能社交空间是否会使对话变得更好、更糟，或者只是……不同。 对于任何有兴趣了解这在实践中是什么样子的人，该项目都在这里： https://www.producthunt.com/products/socialtense   由   提交/u/Alone-Dimension-4548   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qyj4ub/where_humans_and_ai_socialise/</guid>
-      <pubDate>Sat, 07 Feb 2026 17:04:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>软件行业最大的软件重写之一——耗时10年完成</title>
-      <link>https://www.reddit.com/r/programming/comments/1qyint1/one_of_the_biggest_software_rewrite_in_software/</link>
-      <description><![CDATA[最近我在 Oracle 遇到了 PeopleSoft 软件套件的重写。 2000年Oracle收购PeopleSoft时，当时云和SAAS正在流行，Oracle联合创始人Larry Ellison决定将PeopleSoft Suite从本地系统转换为SAAS，但他们需要重写整个软件套件。 但现有客户数据迁移的真正关键部分，他们是银行、政府机构和其他公司。 我试图找出一些事实并总结为您可以在这里找到这篇文章 它包含有趣的事实，例如人员代码，人员软件用于构建人员软件套件的语言  https://deepsystemstuff.com/software-rewrite-that-took-oracle-10-years-to-complete-one-of-the-most-ritic-rewrite-and-migration-in-enterprise-history/ 随着我不断收到更新，我将更新更多信息。   由   提交 /u/Ok_Stomach6651   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qyint1/one_of_the_biggest_software_rewrite_in_software/</guid>
-      <pubDate>Sat, 07 Feb 2026 16:46:16 GMT</pubDate>
-    </item>
-    <item>
       <title>在 SwiftUI 中运行 Clojure</title>
       <link>https://www.reddit.com/r/programming/comments/1qyim9d/running_clojure_inside_swiftui/</link>
       <description><![CDATA[ 由   提交/u/Safe_Owl_6123  [链接] [评论]]]></description>
@@ -60,13 +81,6 @@
       <description><![CDATA[ 由   提交/u/bowbahdoe  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qyhci6/python_only_has_one_real_competitor/</guid>
       <pubDate>Sat, 07 Feb 2026 15:55:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为什么开始学习 Rust？</title>
-      <link>https://www.reddit.com/r/programming/comments/1qyer1x/why_did_i_start_learning_rust/</link>
-      <description><![CDATA[ 由   提交 /u/Historical_Wing_9573   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qyer1x/why_did_i_start_learning_rust/</guid>
-      <pubDate>Sat, 07 Feb 2026 14:10:14 GMT</pubDate>
     </item>
     <item>
       <title>不耐烦的程序员 Bevy 和 Rust 指南：第 2 章 - 让世界存在 [程序生成]</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[我编写了有关使用 FastAPI 和 Next.js 进行 Github OAuth 登录的实用演练。它重点关注干净的域分离、HttpOnly cookie、易于部署以及为什么在 Next.js API/服务器操作中处理 cookie 可以大大简化 OAuth。包括图表和实际代码。 https://nemanjamitic.com/blog/2026-02-07-github-login-fastapi-nextjs 有兴趣了解其他人的想法或您是否采取了不同的方法。   由   提交/u/Ok_Animator_1770   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qybdsk/implement_github_oauth_login_with_nextjs_and/</guid>
       <pubDate>Sat, 07 Feb 2026 11:23:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>处理交易所中的“意图与现实差距”：Flip 协议和资源窃取逻辑</title>
-      <link>https://www.reddit.com/r/programming/comments/1qy8lym/handling_the_intentreality_gap_in_an_exchange_the/</link>
-      <description><![CDATA[大家好， 在分布式交易系统中，由于下单和撮合结算之间存在时间差，一致性是一场噩梦。用户可能想要“开仓”，但到结算时，头寸状态已发生变化，将该交易转变为“平仓”交易甚至是“反向开仓”。 我一直致力于一个开源项目，Open Exchange Core，我想分享我的翻转协议实现来解决这个问题。 问题：当订单性质（开仓/平仓）在结算时翻转时，如何确保 100% 的资产一致性？标准锁定对于微秒级引擎来说是不够的。 我是如何解决这个问题的：  2D 执行矩阵： 映射“买入/卖出”矩阵：与“长/短”比较处理四种不同的结算可能性。 结算补偿流程：当检测到状态反转时（例如，开仓结算变成平仓），自动逆转保证金/头寸冻结。 资源窃取机制：“窃取”原子逻辑当需要立即结算时，已被其他挂单冻结的头寸。 原子逻辑：为什么预冻结必须与初始订单判断相结合，以防止孤立问题。  我已在此处记录了逻辑并提供了补偿流程的演练： 视频分析：https://www.youtube.com/watch?v=9Q0PC63rT1Q GitHub 项目：https://github.com/vincentf13/open.vincentf13 我很好奇其他人如何在高并发环境中处理原子位置翻转。您的分布式事务中是否依赖单线程排序器或复杂的补偿流？ 非常感谢您对逻辑的反馈！   由   提交/u/No-Investigator1240   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qy8lym/handling_the_intentreality_gap_in_an_exchange_the/</guid>
-      <pubDate>Sat, 07 Feb 2026 08:32:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>量子时代即将到来。我们准备好保护它了吗？</title>
-      <link>https://www.reddit.com/r/programming/comments/1qy7rjl/the_quantum_era_is_coming_are_we_ready_to_secure/</link>
-      <description><![CDATA[ 由   提交/u/donutloop  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qy7rjl/the_quantum_era_is_coming_are_we_ready_to_secure/</guid>
-      <pubDate>Sat, 07 Feb 2026 07:41:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
