@@ -4,41 +4,48 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 08 Feb 2026 12:39:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 15:22:29 GMT</lastBuildDate>
+    <item>
+      <title>SNMP 浏览器 - Microsoft Store #snmp</title>
+      <link>https://www.reddit.com/r/programming/comments/1qzal16/snmp_browser_microsoft_store_snmp/</link>
+      <description><![CDATA[ 由   提交/u/Suspicious_Ad_9210   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qzal16/snmp_browser_microsoft_store_snmp/</guid>
+      <pubDate>Sun, 08 Feb 2026 14:40:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>技术文章：实施 Discord 的速率限制、网关管理和“清晰度胜过魔法”</title>
+      <link>https://www.reddit.com/r/programming/comments/1qzajdj/technical_writeup_implementing_discords_rate/</link>
+      <description><![CDATA[我写了一篇关于在最小的 Python 客户端中实现 Discord 速率限制和网关管理的深入技术分解。 Discord 的速率限制很棘手：端点通过不透明的“存储桶”共享限制。其 ID 仅在提出请求后才会公开。该设计没有对 429 做出反应，而是使用每个端点的队列和工作线程，在限制耗尽时主动休眠，从而保持行为明确且可预测。 该文章还涵盖了网关连接管理、自动分片和数据模型设计，以及每个子系统的图表。这些示例来自我编写的一个小型 Discord API 客户端 (ScurryPy)，但重点是底层问题和解决方案，而不是库本身。 “清晰胜于魔法”这里意味着所有行为：速率限制、状态更改、重试都是明确的，没有隐藏的后台工作或推断的意图。 很高兴回答有关实现或设计权衡的问题   由   提交/u/Furmissle5567  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qzajdj/technical_writeup_implementing_discords_rate/</guid>
+      <pubDate>Sun, 08 Feb 2026 14:38:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>大多数团队没有技术债务——他们有未记录的风险</title>
+      <link>https://www.reddit.com/r/programming/comments/1qza9gg/most_teams_dont_have_technical_debt_they_have/</link>
+      <description><![CDATA[ 由   提交/u/Natom_  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qza9gg/most_teams_dont_have_technical_debt_they_have/</guid>
+      <pubDate>Sun, 08 Feb 2026 14:26:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>ScottT2-spec/grid-pathfinder：BFS、DFS 和 A* 寻路算法的移动构建实现，在基于云的 Python 环境中具有实时网格可视化。</title>
+      <link>https://www.reddit.com/r/programming/comments/1qz886t/scottt2specgridpathfinder_mobilebuilt/</link>
+      <description><![CDATA[ 由   提交/u/General_Blueberry114  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qz886t/scottt2specgridpathfinder_mobilebuilt/</guid>
+      <pubDate>Sun, 08 Feb 2026 12:56:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>兰斯表格式解释简单，愚蠢</title>
+      <link>https://www.reddit.com/r/programming/comments/1qz81cn/lance_table_format_explained_simply_stupid/</link>
+      <description><![CDATA[ 由   提交/u/TonTinTon   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qz81cn/lance_table_format_explained_simply_stupid/</guid>
+      <pubDate>Sun, 08 Feb 2026 12:46:42 GMT</pubDate>
+    </item>
     <item>
       <title>研究人员认为，Vibe 编码正在扼杀开源软件</title>
       <link>https://www.reddit.com/r/programming/comments/1qz7tev/vibe_coding_is_killing_open_source_software/</link>
       <description><![CDATA[ 由   提交 /u/Hopeful_Adeptness964   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qz7tev/vibe_coding_is_killing_open_source_software/</guid>
       <pubDate>Sun, 08 Feb 2026 12:35:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么数据战胜直觉：蒙蒂霍尔给工程师的教训</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz7l91/why_data_beats_intuition_the_monty_hall_lesson/</link>
-      <description><![CDATA[我最近陷入了一场关于蒙蒂·霍尔问题的争论。 我坚定地站在“一扇门打开后，结果变成 50/50”阵营。事实证明这是错误的——转换给你 66% 的机会。 困扰我的不是数学，而是即使在看到解释后我仍然坚信自己的直觉。 这让我想起了很多工程情况：  根据经验选择架构 假设性能问题出在哪里 即使指标表明情况并非如此，仍坚持使用第一个解决方案  我写了一篇短文，将 Monty Hall 问题与实际工程决策联系起来，以及新数据应如何改变我们的选择。 很想听听其他人是否也有类似的“直觉与选择”数据”时刻。   由   提交/u/EarIndividual5778  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz7l91/why_data_beats_intuition_the_monty_hall_lesson/</guid>
-      <pubDate>Sun, 08 Feb 2026 12:23:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要开发人员：让我们构建一个免费的开源 Bar Replay Backtester（电视排行榜 + 跨平台）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz79sa/devs_needed_lets_build_a_free_opensource_bar/</link>
-      <description><![CDATA[开发人员您好，我不是程序员，我受够了。我到处寻找一个完全免费、无广告、开源的回测应用程序，但所有东西要么是付费的，要么充满限制性广告，这真是胡说八道，所以我想：为什么不自己构建它呢？我正在寻找热心的程序员对此进行合作。 愿景：将 Tradingview 高级图表库（我有文件）与我在 github 上找到的现有开源柱线重播项目结合起来。我们需要构建的关键功能（Linux/Win/Mac）： 基于会话的系统：类似于 TradersCasa（按会话组织测试）。数据导入：用户通过CSV文件在本地导入自己的数据。日记和日志记录：用于在回溯测试期间记录交易的专用面板（进入原因、情绪/注释、屏幕截图）。会话分析：每个回测会话的性能分析。保存状态：保存布局、工具模板、图纸和价格中最后一点的简历。交易模拟：账户规模、买入/卖出订单、手数、账户设置中的杠杆。核心：将 Tradingview 高级库与现成的重播功能和其他功能合并。它应该是所有那些烦人的付费网站的最佳替代品。我有库文件和栏重播项目存储库在这里 谁来实现这一目标？   由   提交/u/NegotiationNo1504   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz79sa/devs_needed_lets_build_a_free_opensource_bar/</guid>
-      <pubDate>Sun, 08 Feb 2026 12:06:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>当人工智能编写所有代码时如何保持价值</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz72lh/how_to_stay_valuable_when_ai_writes_all_the_code/</link>
-      <description><![CDATA[ 由   提交 /u/sidwyn   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz72lh/how_to_stay_valuable_when_ai_writes_all_the_code/</guid>
-      <pubDate>Sun, 08 Feb 2026 11:55:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>V1LE-CODE Teams 开源基于笔记的终端 v1.1.2 Pantha Terminal</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz6jy6/v1lecode_teams_open_source_notebased_terminal/</link>
-      <description><![CDATA[Pantha Terminal 是一款时尚、紫色美学的终端风格笔记应用程序，具有神秘的 Pantham 模式。解锁高级笔记管理命令，安全地管理您的笔记，并通过 ASCII 艺术、键盘快捷键和神奇的工作流程享受有趣的终端体验   由   提交 /u/FadedMonky   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz6jy6/v1lecode_teams_open_source_notebased_terminal/</guid>
-      <pubDate>Sun, 08 Feb 2026 11:25:16 GMT</pubDate>
     </item>
     <item>
       <title>OpenClaw 安全灾难：当 10 万开发人员授予 AI 根访问权限时会发生什么</title>
@@ -74,13 +81,6 @@
       <description><![CDATA[嗨！ 我最近写了这篇文章来记录应用程序在使用 OpenTelemetry 进行检测时往往会产生遥测盈余/过剩的不同方式以及缓解这种情况的方法。博客中提到的一些方法包括以下内容： - URL 路径和目标属性 - 控制器跨度 - 运行时遥测中的线程名称 - 重复库检测 - JDBC 和 Kafka 内部信号 - 调度程序和定期作业 以及上游和下游缓解这种情况的方法。如果您对本文感兴趣，请订阅更多OTel优化内容:)   由   提交/u/elizObserves  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qz4s6j/how_to_reduce_telemetry_volume_by_40_smartly/</guid>
       <pubDate>Sun, 08 Feb 2026 09:38:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>深度学习本质上只是“编程 2.0”吗？让我们讨论一下从逻辑到数据的转变。</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz3t6j/is_deep_learning_fundamentally_just_programming/</link>
-      <description><![CDATA[ 由   提交/u/netcommah  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz3t6j/is_deep_learning_fundamentally_just_programming/</guid>
-      <pubDate>Sun, 08 Feb 2026 08:39:23 GMT</pubDate>
     </item>
     <item>
       <title>SectorC：世界上最小的函数式C编译器</title>
