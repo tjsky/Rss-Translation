@@ -4,11 +4,18 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Sat, 07 Feb 2026 21:23:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 02:07:07 GMT</lastBuildDate>
+    <item>
+      <title>[发布] Antigravity Link v1.0.10 – 修复了最近的 Google IDE 更新</title>
+      <link>https://www.reddit.com/r/software/comments/1qywa6w/release_antigravity_link_v1010_fixes_for_the/</link>
+      <description><![CDATA[大家好， 如果您最近一直在使用 Antigravity Link，您可能会注意到它在 Google 最近更新 Antigravity IDE 后出现故障。他们推出的 DOM 更改基本上终止了消息注入，并带回了我们试图隐藏的所有遗留 UI 元素，这使其无法使用。我刚刚将 v1.0.10 推送到 Open VSX 和 GitHub，一切都恢复正常。 修复了什么： 消息注入：重建扩展查找词法编辑器的方式。现在，它对 Tailwind 类更改和 ID 交换的恢复能力更强。 干净的 UI：重新实现隐藏冗余桌面控件（查看更改、旧作曲家等）的逻辑，使移动桥再次感觉专业。 稳定性：修复了导致某些用户无法启动服务器的持续端口冲突。 您需要更新到 1.0.10 才能使聊天再次正常工作。您可以直接从 VS Code Marketplace（打开 VSX）或在 Antigravity IDE 中获取它，方法是单击 Antigravity Link Extensions 窗口中的小轮子 (Ctl + Shift + X) 并选择“下载特定版本”。并选择 1.0.10 或者您可以将其设置为自动更新并以这种方式更新。您可以通过搜索“@recentlyPublished Antigravity Link”找到它。如果您在新的 IDE 布局中遇到任何其他奇怪的情况，请在 github 上提出问题，让我知道，因为我只在 Windows 上测试了这一点。 GitHub：https://github.com/cafeTechne/antigravity-link-extension   由   提交/u/Traditional_Doubt_51   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1qywa6w/release_antigravity_link_v1010_fixes_for_the/</guid>
+      <pubDate>Sun, 08 Feb 2026 02:01:15 GMT</pubDate>
+    </item>
     <item>
       <title>终于解决了乱七八糟的代码反馈——引入Temetro</title>
       <link>https://www.reddit.com/r/software/comments/1qyoqzt/i_finally_solved_messy_code_feedback_introducing/</link>
-      <description><![CDATA[在与碎片化的代码审查和在 GitHub、Slack 和电子邮件中丢失反馈进行了几个月的斗争之后，我意识到必须有更好的方法。 我构建了 Temetro 来解决这个问题：  将评论、语音注释和视频直接附加到相关代码行 保留为您的团队提供上下文，没有分散的线程 使解释意图和逻辑更快、更清晰且可操作  Temetro 不会追逐多个工具和平台，而是保留代码所在的位置的所有内容，帮助团队更智能地协作，而不是更困难。 如果您曾经因反馈不连贯或令人困惑的 PR 评论而感到沮丧，那么 Temetro 可能会有所帮助：Temetro 很想听听您的想法和反馈！   由   提交 /u/Direct-Attention8597   [链接] [评论]]]></description>
+      <description><![CDATA[在与碎片化的代码审查和在 GitHub、Slack 和电子邮件中丢失反馈进行了数月的斗争之后，我意识到必须有更好的方法。 我构建了 Temetro 来解决这个问题：  将评论、语音注释和视频直接附加到相关代码行 保留为您的团队提供上下文，没有分散的线程 使解释意图和逻辑更快、更清晰且可操作  Temetro 不会追逐多个工具和平台，而是保留代码所在的位置的所有内容，帮助团队更智能地协作，而不是更困难。 如果您曾经因反馈不连贯或令人困惑的 PR 评论而感到沮丧，那么 Temetro 可能会有所帮助：Temetro 很想听听您的想法和反馈！   由   提交 /u/Direct-Attention8597   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1qyoqzt/i_finally_solved_messy_code_feedback_introducing/</guid>
       <pubDate>Sat, 07 Feb 2026 20:39:41 GMT</pubDate>
     </item>
@@ -83,13 +90,6 @@
       <pubDate>Sat, 07 Feb 2026 02:44:45 GMT</pubDate>
     </item>
     <item>
-      <title>我的字母 Q 有问题</title>
-      <link>https://www.reddit.com/r/software/comments/1qy1r8o/problem_whith_my_letter_q/</link>
-      <description><![CDATA[ 由   提交/u/plarinnt  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1qy1r8o/problem_whith_my_letter_q/</guid>
-      <pubDate>Sat, 07 Feb 2026 02:33:41 GMT</pubDate>
-    </item>
-    <item>
       <title>有推荐的绘画（动漫）编辑想法吗？</title>
       <link>https://www.reddit.com/r/software/comments/1qy1nl7/recomendations_for_drawing_anime_edit_ideas/</link>
       <description><![CDATA[我想学习如何进行酷炫的编辑，我得到了很多想法（我记性不好并且忘记了）我想要一个地方用几条线和一些东西来绘制它的基本版本（用那些框架，就像定格动画应用程序类型的东西）有什么建议吗？   由   提交/u/Annual-Process3645  [链接] [评论]]]></description>
@@ -106,7 +106,7 @@
     <item>
       <title>伙计们，你们知道有一个软件，它只充当页面，我可以标记一个巨大的蜘蛛图吗？</title>
       <link>https://www.reddit.com/r/software/comments/1qxwiys/guys_do_you_a_know_a_software_that_just_acts_as_a/</link>
-      <description><![CDATA[我希望能够删除文档链接。但只要有一个无尽的页面，我就可以创建一个巨大的网络。我想将节点链接回文档。 我们正在建造一座非常复杂的建筑，我需要规划出所有的技术服务。    由   提交/u/Lancs_wrighty   [链接] [评论]]]></description>
+      <description><![CDATA[我希望能够删除文档链接。但只要有一个无尽的页面，我就可以创建一个巨大的网络。我想将节点链接回文档。 我们正在建造一座非常复杂的建筑，我需要规划出所有的技术服务。    由   提交 /u/Lancs_wrighty   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1qxwiys/guys_do_you_a_know_a_software_that_just_acts_as_a/</guid>
       <pubDate>Fri, 06 Feb 2026 22:47:54 GMT</pubDate>
     </item>
