@@ -4,11 +4,39 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 09 Feb 2026 15:53:24 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 21:36:39 GMT</lastBuildDate>
+    <item>
+      <title>免费的 Autocad 替代品？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r0e0rs/free_autocad_alternatives/</link>
+      <description><![CDATA[2 个问题：  有哪些好的免费替代方案？ 这些程序需要多少资源？我有一个在桌面模式下使用的 Steam 平台，这足以学习和构建它们吗？    由   提交/u/GoosePants72  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r0e0rs/free_autocad_alternatives/</guid>
+      <pubDate>Mon, 09 Feb 2026 19:34:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共档案馆的开源</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r0bstw/opensource_for_public_archives/</link>
+      <description><![CDATA[嘿，我正在寻找托管公共数字档案的好选择（主要是图像和 PDF，还有一些音频/视频）。 我是一个与公共和个人档案合作的艺术团体的一员，经常对那些被忽视或有丢失风险的材料进行数字化。 我们正在进行正在进行的文化和研究项目，并希望档案能够公开访问，并且具有一些很酷的外观，但我更喜欢干净的目录外观（我也使用论坛作为我以前的一些作品的格式）...有点像 jellyfin，但用于文档。 我对在线托管和自托管开源解决方案都感兴趣。   由   提交 /u/el_magyar   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r0bstw/opensource_for_public_archives/</guid>
+      <pubDate>Mon, 09 Feb 2026 18:15:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Umihi Music，我更新的 YouTube 音乐播放器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r08h8u/umihi_music_my_updated_youtube_music_player/</link>
+      <description><![CDATA[大家好，几个月前，我发布了 Android YouTube 音乐播放器的第一个版本，名为 Umihi Music。它类似于 InnerTune、ViMusic、SimpMusic 和其他同类应用，但我专注于使我的应用程序变得极其轻量、快速、简单和可靠。 我刚刚发布了一个新版本 (v1.7.0)，添加了一系列新功能，例如注销搜索、品牌帐户登录和分享意图。自第一个版本以来，我还实现了歌曲下载和完全离线模式。 如果您有兴趣查看，这里是所有有用的链接： Github：https://github.com/ilianoKokoro/umihi-music/ F-Droid (IzzyDroid)：https://apt.izzysoft.de/packages/ca.ilianokokoro.umihi.music OpenAPK : https://www.openapk.net/umihi-music/ca.ilianokokoro.umihi.music/ 如果您在使用该应用程序时遇到任何错误，请在 GitHub 上发布问题，以便我可以努力使该应用程序更好地为每个人服务。我希望你们喜欢。 我还有一个服务器，您可以加入以获得一些支持或提供建议。它位于 GitHub 上的自述文件中。   由   提交/u/Iliano14  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r08h8u/umihi_music_my_updated_youtube_music_player/</guid>
+      <pubDate>Mon, 09 Feb 2026 16:17:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenMessage – 适用于 macOS 的开源 Google Messages 客户端，具有 AI 集成</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r084bm/openmessage_opensource_google_messages_client_for/</link>
+      <description><![CDATA[OpenMessage 使用 mautrix/gmessages 库（Beeper 使用的相同库）构建，是 Google Messages 的本机 Mac 客户端，具有用于 AI 助手的内置 MCP 服务器。 Go 后端 + Swift 包装器、用于本地存储的 SQLite、Apache 2.0 许可。 https://openmessage.ai | https://github.com/MaxGhenis/openmessage   由   提交 /u/MaxGhenis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r084bm/openmessage_opensource_google_messages_client_for/</guid>
+      <pubDate>Mon, 09 Feb 2026 16:03:41 GMT</pubDate>
+    </item>
     <item>
       <title>构建了一种向 Marked.js 添加 srcset 支持的简单方法</title>
       <link>https://www.reddit.com/r/opensource/comments/1r0796z/built_a_simple_way_to_add_srcset_support_to/</link>
-      <description><![CDATA[      我一直在开发一个插件来解决 Markdown 中的响应式图像问题，而不破坏标准语法。 我一直在个人项目中使用 [marked.js](marked.js.org)，并在现代网络内容的背景是缺乏响应式图像支持。因此，我编写了一个小扩展，在生成的图像中添加了“srcset”、“sizes”和“loading=”lazy“”标签。 我想确保这不会破坏 Markdown，所以我让它使用文件名来生成所有变体，同时仍然保持标准 Markdown 图像代码的功能齐全。 只是想分享，以防其他人发现它有用！ 链接： [github.com/ELowry/MarkedResponsiveImages](https://github.com/ELowry/MarkedResponsiveImages)   由   提交 /u/EricLowry   [link] [评论] ]]></description>
+      <description><![CDATA[      我一直在开发一个插件来解决 Markdown 中的响应式图像问题，而不破坏标准语法。 我一直在个人项目中使用 [marked.js](marked.js.org)，并在现代网络内容的背景是缺乏响应式图像支持。因此，我编写了一个小扩展，在生成的图像中添加了“srcset”、“sizes”和“loading=”lazy“”标签。 我想确保这不会破坏 Markdown，所以我让它使用文件名来生成所有变体，同时仍然保持标准 Markdown 图像代码的功能齐全。 只是想分享，以防其他人发现它有用！ 链接： github.com/ELowry/MarkedResponsiveImages   由   提交 /u/EricLowry   [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1r0796z/built_a_simple_way_to_add_srcset_support_to/</guid>
       <pubDate>Mon, 09 Feb 2026 15:31:54 GMT</pubDate>
     </item>
@@ -57,7 +85,7 @@
     <item>
       <title>开源 |游戏化语言学习（中文普通话）|网络应用程序 |无需注册</title>
       <link>https://www.reddit.com/r/opensource/comments/1qyowos/open_source_gamified_language_learning_chinese/</link>
-      <description><![CDATA[这仍然是一项正在进行的工作，我希望其他人能够为这个项目的发展做出贡献。  我认为，如果给予更多关注，这可能会成为许多不同语言学习的宝贵资产（可以轻松修改为日语） - 因为我个人发现它比标准抽认卡更有趣。如果你和我一样，学习某样东西更多的是保持兴趣和动力，而不是其他任何东西。  存储库：https://github.com/GreenAnts/HSK-3.0-Study-Game Web应用程序：https://greenants.github.io/HSK-3.0-Study-Game/ 虽然它并不是什么特别的东西，但我确实认为它比简单地使用 Anki 抽认卡更有效（至少对我来说），因为它让我更加有趣和感兴趣 - 但我认为这个项目绝对可以更加游戏化。该项目的主要目标是最终创建一些“真正”让用户对钻研词汇感兴趣的东西。  - - -  免责声明：该项目主要只是几个文件，并且是与 AI 组合在一起的，没有使用任何类型的框架或任何东西。如果该项目获得了未来的合作者，我们可能需要重构该项目以使其更加可行。    由   提交 /u/AnotherMoonDoge   [链接] [评论]]]></description>
+      <description><![CDATA[这仍然是一项正在进行的工作，我希望其他人能够为这个项目的发展做出贡献。  我认为，如果给予更多关注，这可能会成为许多不同语言学习的宝贵资产（可以轻松修改为日语） - 因为我个人发现它比标准抽认卡更有趣。如果你和我一样，学习某样东西更多的是保持兴趣和动力，而不是其他任何事情。  存储库：https://github.com/GreenAnts/HSK-3.0-Study-Game Web应用程序：https://greenants.github.io/HSK-3.0-Study-Game/ 虽然它并不是什么特别的东西，但我确实认为它比简单地使用 Anki 抽认卡更有效（至少对我来说），因为它让我更加有趣和感兴趣 - 但我认为这个项目绝对可以更加游戏化。该项目的主要目标是最终创建一些“真正”让用户对钻研词汇感兴趣的东西。  - - -  免责声明：该项目主要只是几个文件，并且是与 AI 组合在一起的，没有使用任何类型的框架或任何东西。如果该项目获得了未来的合作者，我们可能需要重构该项目以使其更加可行。    由   提交 /u/AnotherMoonDoge   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qyowos/open_source_gamified_language_learning_chinese/</guid>
       <pubDate>Sat, 07 Feb 2026 20:45:47 GMT</pubDate>
     </item>
@@ -71,7 +99,7 @@
     <item>
       <title>构建了 Android-Mac 连续性应用程序（如 Apple 的生态系统）。需要有关 Play 商店分发策略的建议（仍在进行中）</title>
       <link>https://www.reddit.com/r/opensource/comments/1qyi3x9/built_androidmac_continuity_app_like_apples/</link>
-      <description><![CDATA[嘿，开发者， 在过去的几个月里构建了一个业余项目 - 本质上是为 Android + Mac 用户复制 Apple 的连续性功能。本机 Mac 应用 (Swift/SwiftUI) + Android 应用 (Kotlin/Compose) 通过本地 WebSocket 使用 AES-256 加密进行通信。 工作原理： 剪贴板同步 - Mac 到 Android 自动运行（在 Mac 上复制，在 Android 上立即粘贴）。 Android 到 Mac 需要使用共享表 - 您在 Android 上复制某些内容，点击“共享”，选择“退回”，然后即可在 Mac 上使用。致力于使 Android 到 Mac 完全自动化，但 Android 10+ 后台限制使这一点变得棘手。 通知 - 每个 Android 通知都显示为本机 macOS 通知。您可以直接从 Mac 回复支持 RemoteInput 的应用程序（WhatsApp、Telegram、Signal、Messages 等）。在 Mac 上关闭会在手机上清除它，反之亦然。 呼叫处理 - 当您的手机响铃时，Mac 会显示一个包含来电者信息的弹出窗口。您可以从 Mac 接听、拒绝、静音或结束通话。您还可以通过单击 Mac 上的联系人来发起呼叫。限制：音频保留在手机上 - 您仍然需要对着手机通话或使用连接手机的耳塞。 Mac 只是充当遥控器。 媒体控制 - 从 Mac 的菜单栏进行播放/暂停、跳过曲目、音量控制。显示手机上正在播放的任何内容（Spotify、YouTube Music 等）的当前曲目信息和专辑封面。 文件传输 - Mac 到 Android：拖放文件，它们保存到 Android 图库/下载。 Android 到 Mac：使用共享表，选择“退回”，文件将位于 Mac 的“下载”文件夹中。显示两个方向的进度。 查找我的手机 - Mac 上的一键按钮可以让您的手机以最大音量响起，即使处于静音状态也是如此。 目前正在尝试实现 Handoff 功能和带有历史记录的 MessageCompose，将会看到效果如何 我遇到的 Android 限制： 如果没有 root，呼叫音频路由到 Mac 基本上是不可能的。研究了蓝牙 HFP 角色反转（就像旧的 Dialogue 应用程序所做的那样），但 Android 不再向常规应用程序公开这些 API。有人找到解决方法吗？ 我的实际问题： Android 应用程序需要通知侦听器权限。 Google Play Protect 会阻止 APK 安装，并发出可怕的警告。 我的选择：  提交到 Play 商店（需要花钱、审核过程较长，但分发合法） 保留为直接 APK 下载 + 告诉用户暂时禁用 Play Protect  对于那些已发布类似应用的用户： 您是否通过了 Play 商店审核？花了多长时间？他们是否因为敏感权限问题而困扰过您？ 还讨论了开源与收取少量费用（5-10 美元）来支付 Play 商店费用的问题。像这样的实用应用程序是否有一个可持续的中间立场？ 技术堆栈：SwiftUI、Kotlin Compose、WebSockets、QR 代码配对，完全在本地网络上运行。 非常感谢那些处理过 Play 商店提交的需要敏感权限的应用程序的人员的任何建议。目前，iOS 连续性功能的无缝性达到 70%，试图达到 75% 到 80%，因为由于操作系统级别限制，几乎没有什么事情无法实现。应用程序尚未完成，这就是为什么我只提供网站链接来展示应用程序并获取有关如何前进的意见 链接：- https://bounceconnect.vercel.app/   由   提交/u/Technical-Relation-9  [link] [评论]]]></description>
+      <description><![CDATA[嘿，开发者， 在过去的几个月里构建了一个业余项目 - 本质上是为 Android + Mac 用户复制 Apple 的连续性功能。本机 Mac 应用 (Swift/SwiftUI) + Android 应用 (Kotlin/Compose) 通过本地 WebSocket 使用 AES-256 加密进行通信。 工作原理： 剪贴板同步 - Mac 到 Android 自动运行（在 Mac 上复制，在 Android 上立即粘贴）。 Android 到 Mac 需要使用共享表 - 您在 Android 上复制某些内容，点击“共享”，选择“退回”，然后即可在 Mac 上使用。致力于使 Android 到 Mac 完全自动化，但 Android 10+ 后台限制使这一点变得棘手。 通知 - 每个 Android 通知都显示为本机 macOS 通知。您可以直接从 Mac 回复支持 RemoteInput 的应用程序（WhatsApp、Telegram、Signal、Messages 等）。在 Mac 上关闭会在手机上清除它，反之亦然。 呼叫处理 - 当您的手机响铃时，Mac 会显示一个包含来电者信息的弹出窗口。您可以从 Mac 接听、拒绝、静音或结束通话。您还可以通过单击 Mac 上的联系人来发起呼叫。限制：音频保留在手机上 - 您仍然需要对着手机通话或使用连接手机的耳塞。 Mac 只是充当遥控器。 媒体控制 - 从 Mac 的菜单栏进行播放/暂停、跳过曲目、音量控制。显示手机上正在播放的任何内容（Spotify、YouTube Music 等）的当前曲目信息和专辑封面。 文件传输 - Mac 到 Android：拖放文件，它们保存到 Android 图库/下载。 Android 到 Mac：使用共享表，选择“退回”，文件会出现在 Mac 的“下载”文件夹中。显示两个方向的进度。 查找我的手机 - Mac 上的一键按钮可以让您的手机以最大音量响起，即使处于静音状态也是如此。 目前正在尝试实现 Handoff 功能和带有历史记录的 MessageCompose，将会看到效果如何 我遇到的 Android 限制： 如果没有 root，呼叫音频路由到 Mac 基本上是不可能的。研究了蓝牙 HFP 角色反转（就像旧的 Dialogue 应用程序所做的那样），但 Android 不再向常规应用程序公开这些 API。有人找到解决方法吗？ 我的实际问题： Android 应用程序需要通知侦听器权限。 Google Play Protect 会阻止 APK 安装，并发出可怕的警告。 我的选择：  提交到 Play 商店（需要花钱、审核过程较长，但分发合法） 保留为直接 APK 下载 + 告诉用户暂时禁用 Play Protect  对于那些已发布类似应用的用户： 您是否通过了 Play 商店审核？花了多长时间？他们是否因为敏感权限问题而困扰过您？ 还讨论了开源与收取少量费用（5-10 美元）来支付 Play 商店费用的问题。像这样的实用应用程序是否有一个可持续的中间立场？ 技术堆栈：SwiftUI、Kotlin Compose、WebSockets、QR 代码配对，完全在本地网络上运行。 非常感谢那些处理过 Play 商店提交的需要敏感权限的应用程序的人员的任何建议。目前，iOS 连续性功能的无缝性达到 70%，试图达到 75% 到 80%，因为由于操作系统级别限制，几乎没有什么事情无法实现。应用程序尚未完成，这就是为什么我只提供网站链接来展示应用程序并获取有关如何前进的意见 链接：- https://bounceconnect.vercel.app/   由   提交/u/Technical-Relation-9  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qyi3x9/built_androidmac_continuity_app_like_apples/</guid>
       <pubDate>Sat, 07 Feb 2026 16:24:31 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[大家好，我构建了一个 CLI 工具，允许您从 GitHub 版本资产无缝安装软件，类似于系统的包管理器安装软件的方式。 它的工作原理是利用不同开源软件的 GitHub 版本之间的常见模式（例如命名约定和文件布局）来为您的系统获取正确的版本资产，然后通过 GitHub API 将正确的资产下载到您的计算机上。然后 Parm 将提取文件，找到正确的二进制文件，然后将它们添加到您的 PATH 中。 Parm 还可以检查更新和卸载软件，并以其他方式管理 Parm 安装的所有软件的整个生命周期。 Parm 并不是要取代系统的软件包管理器。相反，它是一种以更集中、更简单的方式从 GitHub 安装预构建软件的替代方法。 它目前处于预发布阶段，但我正在努力实现 v0.2.0 里程碑，尽管仍有一些工作要做。如果这听起来很有趣，请检查一下！它是完全免费和开源的，目前已针对 Linux/macOS 发布（Windows 即将推出）。如果有任何反馈，我将不胜感激。 链接：https://github.com/yhoundz/parm   由   提交/u/houndz-  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1qxyrrd/parm_install_github_releases_just_like_your/</guid>
       <pubDate>Sat, 07 Feb 2026 00:20:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源离子交换膜</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qxueyp/open_sourced_ion_exchange_membranes/</link>
-      <description><![CDATA[https://www.youtube.com/watch?v=c3tNXDlgE2M   由   提交/u/rowow1  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qxueyp/open_sourced_ion_exchange_membranes/</guid>
-      <pubDate>Fri, 06 Feb 2026 21:25:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>无人反对 - 跟踪选民别无选择的选举</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qx57ih/unopposed_track_elections_where_voters_have_no/</link>
-      <description><![CDATA[ 由   提交/u/DanManPanther  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qx57ih/unopposed_track_elections_where_voters_have_no/</guid>
-      <pubDate>Fri, 06 Feb 2026 02:21:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>宝石猜测者 - 豪华版</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qwy9sk/gem_guesser_deluxe_edition/</link>
-      <description><![CDATA[ 由   提交 /u/TriangleMouse   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qwy9sk/gem_guesser_deluxe_edition/</guid>
-      <pubDate>Thu, 05 Feb 2026 21:29:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个关于 Linux 上我最喜欢的 FOSS 的新视频</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qwy8f9/i_made_a_new_video_about_my_favorite_foss_on_linux/</link>
-      <description><![CDATA[       由   提交/u/SoldierAlexGame  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qwy8f9/i_made_a_new_video_about_my_favorite_foss_on_linux/</guid>
-      <pubDate>Thu, 05 Feb 2026 21:28:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
