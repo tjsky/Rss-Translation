@@ -4,13 +4,41 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 09 Feb 2026 01:52:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 04:57:00 GMT</lastBuildDate>
     <item>
-      <title>我们的 CI 不断变慢，因为存储库不断增长</title>
-      <link>https://www.reddit.com/r/programming/comments/1qzr4xw/our_ci_kept_getting_slower_because_the_repo_kept/</link>
-      <description><![CDATA[ 由   提交/u/Western-Juice-3965   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qzr4xw/our_ci_kept_getting_slower_because_the_repo_kept/</guid>
-      <pubDate>Mon, 09 Feb 2026 01:42:54 GMT</pubDate>
+      <title>使用 C 从头开始​​制作硬件加速直播电视播放器：HLS 流、MPEG-TS 解复用、H.264 解析和 Vulkan 视频解码</title>
+      <link>https://www.reddit.com/r/programming/comments/1qzuxni/making_a_hardware_accelerated_live_tv_player_from/</link>
+      <description><![CDATA[ 由   提交/u/Beginning-Safe4282   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qzuxni/making_a_hardware_accelerated_live_tv_player_from/</guid>
+      <pubDate>Mon, 09 Feb 2026 04:46:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>SecretSpec 0.7：声明式秘密生成</title>
+      <link>https://www.reddit.com/r/programming/comments/1qzueul/secretspec_07_declarative_secret_generation/</link>
+      <description><![CDATA[ 由   提交/u/iElectric  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qzueul/secretspec_07_declarative_secret_generation/</guid>
+      <pubDate>Mon, 09 Feb 2026 04:20:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>96% 的工程师并不完全信任 AI 输出，但只有 48% 的工程师对其进行验证</title>
+      <link>https://www.reddit.com/r/programming/comments/1qzsxy9/96_engineers_dont_fully_trust_ai_output_yet_only/</link>
+      <description><![CDATA[ 由   提交/u/gregorojstersek   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qzsxy9/96_engineers_dont_fully_trust_ai_output_yet_only/</guid>
+      <pubDate>Mon, 09 Feb 2026 03:10:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在 Game Boy Color 上放置了实时 3D 着色器</title>
+      <link>https://www.reddit.com/r/programming/comments/1qzrxsk/i_put_a_realtime_3d_shader_on_the_game_boy_color/</link>
+      <description><![CDATA[ 由   提交/u/NXGZ   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qzrxsk/i_put_a_realtime_3d_shader_on_the_game_boy_color/</guid>
+      <pubDate>Mon, 09 Feb 2026 02:22:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>我使用 .NET Minimal API + EF Core（无控制器）构建了 CRUD Web API</title>
+      <link>https://www.reddit.com/r/programming/comments/1qzrv2j/i_built_a_crud_web_api_using_net_minimal_apis_ef/</link>
+      <description><![CDATA[ 由   提交/u/digitaltechj   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qzrv2j/i_built_a_crud_web_api_using_net_minimal_apis_ef/</guid>
+      <pubDate>Mon, 09 Feb 2026 02:18:55 GMT</pubDate>
     </item>
     <item>
       <title>C 和未定义的行为</title>
@@ -22,7 +50,7 @@
     <item>
       <title>技术文章：实施 Discord 的速率限制、网关管理和“清晰度胜过魔法”</title>
       <link>https://www.reddit.com/r/programming/comments/1qzajdj/technical_writeup_implementing_discords_rate/</link>
-      <description><![CDATA[我写了一篇关于在最小的 Python 客户端中实现 Discord 速率限制和网关管理的深入技术分解。 Discord 的速率限制很棘手：端点通过不透明的“存储桶”共享限制。其 ID 仅在提出请求后才会公开。该设计没有对 429 做出反应，而是使用每个端点的队列和工作线程，在限制耗尽时主动休眠，从而保持行为明确且可预测。 该文章还涵盖了网关连接管理、自动分片和数据模型设计，以及每个子系统的图表。这些示例来自我编写的一个小型 Discord API 客户端 (ScurryPy)，但重点是底层问题和解决方案，而不是库本身。 “清晰胜于魔法”这里意味着所有行为：速率限制、状态更改、重试都是明确的，没有隐藏的后台工作或推断的意图。 很高兴回答有关实现或设计权衡的问题   由   提交/u/Furmissle5567  [链接] [评论]]]></description>
+      <description><![CDATA[我写了一篇关于在最小的 Python 客户端中实现 Discord 速率限制和网关管理的深入技术分解。 Discord 的速率限制很棘手：端点通过不透明的“存储桶”共享限制。其 ID 仅在提出请求后才会公开。该设计没有对 429 做出反应，而是使用每个端点队列和工作线程，在限制耗尽时主动休眠，从而保持行为明确且可预测。 该文章还涵盖了网关连接管理、自动分片和数据模型设计，以及每个子系统的图表。这些示例来自我编写的一个小型 Discord API 客户端 (ScurryPy)，但重点是底层问题和解决方案，而不是库本身。 “清晰胜于魔法”这里意味着所有行为：速率限制、状态更改、重试都是明确的，没有隐藏的后台工作或推断的意图。 很高兴回答有关实现或设计权衡的问题   由   提交/u/Furmissle5567  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qzajdj/technical_writeup_implementing_discords_rate/</guid>
       <pubDate>Sun, 08 Feb 2026 14:38:19 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/10ForwardShift  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qyytvj/the_silent_death_of_good_code/</guid>
       <pubDate>Sun, 08 Feb 2026 04:02:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>FOSDEM 2026 - 破解最后一台 Z80 计算机</title>
-      <link>https://www.reddit.com/r/programming/comments/1qyvg0b/fosdem_2026_hacking_the_last_z80_computer_ever/</link>
-      <description><![CDATA[ 由   提交/u/goldensyrupgames  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qyvg0b/fosdem_2026_hacking_the_last_z80_computer_ever/</guid>
-      <pubDate>Sun, 08 Feb 2026 01:22:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netflix 工程：为印象事件创建真相来源</title>
-      <link>https://www.reddit.com/r/programming/comments/1qys7xs/netflix_engineering_creating_a_source_of_truth/</link>
-      <description><![CDATA[ 由   提交 /u/Digitalunicon   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qys7xs/netflix_engineering_creating_a_source_of_truth/</guid>
-      <pubDate>Sat, 07 Feb 2026 23:00:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软任命了一位质量沙皇。他没有直接报告，也没有预算。</title>
-      <link>https://www.reddit.com/r/programming/comments/1qypkz0/microsoft_appointed_a_quality_czar_he_has_no/</link>
-      <description><![CDATA[ 由   提交/u/jpcaparas  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qypkz0/microsoft_appointed_a_quality_czar_he_has_no/</guid>
-      <pubDate>Sat, 07 Feb 2026 21:12:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>让我们像 1997 年一样编译 Quake！</title>
-      <link>https://www.reddit.com/r/programming/comments/1qyo5o2/lets_compile_quake_like_its_1997/</link>
-      <description><![CDATA[ 由   提交/u/NXGZ   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qyo5o2/lets_compile_quake_like_its_1997/</guid>
-      <pubDate>Sat, 07 Feb 2026 20:16:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
