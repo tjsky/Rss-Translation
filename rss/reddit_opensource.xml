@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 10 Feb 2026 19:02:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 21:40:30 GMT</lastBuildDate>
+    <item>
+      <title>ReMemory 是您不知道自己需要的健忘症对冲伙伴备份</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r1c1eb/rememory_is_the_amnesiahedging_buddy_backup_you/</link>
+      <description><![CDATA[      大家好，我想分享一篇 hackaday 发表的文章，解释我编写的一款开源软件 ReMemory。它使用 Shamir 秘密共享和年龄加密来允许您安全地存储数据并在朋友之间分配密钥。它使用独立的 html 应用程序生成 ZIP 文件，因此人们可以轻松恢复数据。没有 CLI！ 我使用它是为了防止我撞到头而记不起我的计算机密码，但是这个工具还有很多其他使用方法。 我很想听听您对此的想法！如何备份密码管理器密码？   由   提交 /u/eljojors   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r1c1eb/rememory_is_the_amnesiahedging_buddy_backup_you/</guid>
+      <pubDate>Tue, 10 Feb 2026 20:24:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>有什么（最好是开源的）Discord 替代品？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r1bemn/what_preferably_opensource_discord_alternatives/</link>
+      <description><![CDATA[有什么（最好是开源的）Discord 替代品？ 我正在开发一个开源的互联网论坛，很像 2000 年代的那些旧留言板。 但是，如果它没有吸引足够的活动或成员，或者真正自行发展，我需要替代品并保持我的选择余地。 我听说UpScrolled 也是 TikTok 的一个很好的替代品。 我使用的是 Bluesky，它比 Twitter 更好，但仍然存在与“旧 Twitter”相同的问题。 Discord 的替代品有哪些？ 我需要一些易于使用的东西，而不是像 Element 或 Matrix 聊天那样卡顿（甚至不太安全）。 我绝对不会使用信号。 最好是易于使用的东西。   由   提交 /u/Mysterious-Ring-2352   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r1bemn/what_preferably_opensource_discord_alternatives/</guid>
+      <pubDate>Tue, 10 Feb 2026 20:01:19 GMT</pubDate>
+    </item>
     <item>
       <title>Rezi：使用 C 引擎 + TypeScript 前端的高性能 TUI 框架</title>
       <link>https://www.reddit.com/r/opensource/comments/1r1950d/rezi_highperformance_tui_framework_using_a_c/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[      我一直在开发一个插件来解决 Markdown 中的响应式图像问题，而不破坏标准语法。 我一直在个人项目中使用 [marked.js](marked.js.org)，并在现代网络内容的背景是缺乏响应式图像支持。因此，我编写了一个小扩展，在生成的图像中添加了“srcset”、“sizes”和“loading=”lazy“”标签。 我想确保这不会破坏 Markdown，所以我让它使用文件名来生成所有变体，同时仍然保持标准 Markdown 图像代码的功能齐全。 只是想分享，以防其他人发现它有用！ 链接： github.com/ELowry/MarkedResponsiveImages   由   提交 /u/EricLowry   [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1r0796z/built_a_simple_way_to_add_srcset_support_to/</guid>
       <pubDate>Mon, 09 Feb 2026 15:31:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>@ParametersMustMatchByName（Java 命名参数免费）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qzuq7w/parametersmustmatchbyname_java_named_parameters/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qzuq7w/parametersmustmatchbyname_java_named_parameters/</guid>
-      <pubDate>Mon, 09 Feb 2026 04:35:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个最小的 macOS 应用程序切换器，专为那些运行 10 个应用程序但实际上只使用 2-3 个应用程序的用户进行集中切换而设计</title>
-      <link>https://www.reddit.com/r/opensource/comments/1qzcoqz/a_minimal_macos_app_switcher_designed_for_focused/</link>
-      <description><![CDATA[多年来，我一直对 macOS 上 Cmd + Tab 的混乱感觉感到恼火。 我是那种总是打开 10 个应用程序的人，slack、mail、arc、ide、terminal、figma、spotify、discord…但在任何特定时刻，我实际上只是在 2 或 3 个应用程序（ide 和终端或 db）之间跳来跳去。  问题在于，macOS 平等对待每个打开的应用程序，因此每次我按下 Cmd+Tab 时，感觉就像一场混乱的家庭聚会，每个人都不请自来。 因此，我构建了 HopTab - 一个适用于 macOS 的轻量级开源应用程序切换器，可让您仅固定当前关心的应用程序，然后使用 Option + Tab 在它们之间跳转。其他一切都不会妨碍。 它支持的一些功能： 固定/取消固定任何正在运行的应用程序 可配置的全局快捷方式（Option+Tab、Control+Tab 或 Option+`） 使用应用程序图标清理本机覆盖 它还支持将不同的应用程序固定在不同的桌面（配置文件）上 您甚至可以将配置文件分配到特定的 macOS 桌面（空格），因此当您在桌面之间滑动时，您固定的应用程序会自动更改 它是用 Swift 编写的，面向 macOS 14+，并且获得 MIT 许可。 如果您是那种“以防万一”而囤积应用程序但实际上一次只能运行一小部分应用程序的人 - 您可能会发现这很有用。 存储库：https://github.com/royalbhati/HopTab 很高兴回答问题、接受反馈或审核 PR！   由   提交 /u/CaptainOnBoard   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1qzcoqz/a_minimal_macos_app_switcher_designed_for_focused/</guid>
-      <pubDate>Sun, 08 Feb 2026 16:02:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
