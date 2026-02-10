@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 10 Feb 2026 02:03:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 05:02:14 GMT</lastBuildDate>
+    <item>
+      <title>在哪里可以找到可供学习的在线调查示例？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r0rcfj/where_to_find_examples_of_online_surveys_to_learn/</link>
+      <description><![CDATA[因此，我计划进行一项在线调查，作为一个小小的热情项目，收集在线艺术家佣金的市场数据。再加上创建一个收集这些数据的网站，我希望能学到更多关于网络和数据管理的知识。  但是目前我有点困惑到哪里可以学习如何制作这样一个网站，包括哪里可以找到我可以学习的以前调查网站的示例。  如果我能够找到任何示例或更好地找到人们类似项目的投资组合，我将非常感激。谢谢。    由   提交 /u/captainaltum   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r0rcfj/where_to_find_examples_of_online_surveys_to_learn/</guid>
+      <pubDate>Tue, 10 Feb 2026 04:40:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Codemasterip 可爱 仅仅 12 天前</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r0rbgx/codemasterip_lovable_just_12_days_ago/</link>
+      <description><![CDATA[是的，这太疯狂了。几天前，我在这个网站上写了一篇关于 Codemasterip 的文章，到目前为止，这是一次我没想到的疯狂体验。非常感谢大家，真的   由   提交/u/Polleas-Sama   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r0rbgx/codemasterip_lovable_just_12_days_ago/</guid>
+      <pubDate>Tue, 10 Feb 2026 04:39:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>花了 30 分钟进行规划，避免了一周的重构</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r0qlov/spent_30_min_planning_and_avoided_a_week_of/</link>
+      <description><![CDATA[从事 Web 开发已有 5 年了，并且始终有这样的“刚开始编码”的想法。心理。规划感觉就像是企业开销，会拖慢你的速度。 上个月必须构建一个多租户 SaaS 仪表板。不同的权限级别、每个租户的自定义品牌、使用情况跟踪等等。老实说，一开始有点不知所措。 通常我只是从用户界面开始，然后弄清楚后端。这次决定先好好计划一下。听说过 verdent 的计划模式，所以尝试一下。 澄清阶段提出了我没有考虑到的问题：  您如何隔离租户数据？行级安全性还是单独的架构？ 当用户属于多个租户时会发生什么？ 您是否正在为自定义品牌进行客户端或服务器端渲染？ 您如何处理租户特定的功能标志？  花了 30 分钟解决这些问题并生成计划。获得了完整的架构图，显示了身份验证、数据隔离和自定义层如何交互。 实施花了 2 周时间，但一切正常。没有重大的重构，没有“哦，我们设计错了”之类的话。  与我之前的项目相比，我直接跳入编码并最终进行了 3 个单独的重构，因为我没有仔细考虑架构。大约总共浪费了一周的时间进行返工。如果我诚实的话，也许更多。 可视化图表很有帮助。可以准确地看到数据在前端、API 网关、租户服务和数据库之间如何流动。清楚地表明我们哪里需要缓存，哪里可以偷懒。 主要教训：对于复杂的功能，规划不是开销。这是防止犯下代价高昂的错误的保险。 30 分钟的思考胜过一周的重构。 仍然没有计划好每一个微小的组件。但对于具有多个移动部件或架构决策的任何事物，首先花时间进行规划是值得的。   由   提交 /u/No_Networkc   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r0qlov/spent_30_min_planning_and_avoided_a_week_of/</guid>
+      <pubDate>Tue, 10 Feb 2026 04:04:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Turnbeat(dot)com</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r0ozm0/turnbeatdotcom/</link>
+      <description><![CDATA[另一个自称是音乐管理软件的音乐平台。这就是现在的样子，一个完全不露面的网站，没有条款和条件，没有公司名称，没有任何可联系的服务。它会匿名要求你登录，并给它钱，我猜云服务会收集你的数据和聆听习惯，以便向你追加销售音乐。  出于对隐私的热爱和尊重，请不要招待这些不露面的平台，因为它们没有真正的现场说明它们存在的原因。为什么开发人员认为即使使用 101 个谷歌排名工具，考虑到隐藏信息，它也能维持下去。  它使用 Scribli，这就是为什么我相信它在 google 上排名很高，并使用了 101 品牌，但有一个致命的缺陷。任何受人尊敬的公司或协会。  它充满了想要对你进行 cookie 并交叉跟踪你的标题，并使用付费工具来创建几乎没有合法性的反向链接。  这有点骗局的味道，并且在排名时让我感到不安。  根据网络流量免费检查器的有机流量为 0。  但是通过谷歌搜索“元数据和 ID 标签音乐应用程序”，该应用程序排名第一。    由   提交/u/Internal-Trip_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r0ozm0/turnbeatdotcom/</guid>
+      <pubDate>Tue, 10 Feb 2026 02:50:40 GMT</pubDate>
+    </item>
     <item>
       <title>作为初级开发人员不断出现故障</title>
       <link>https://www.reddit.com/r/webdev/comments/1r0nh0c/constant_breakdowns_as_a_junior_dev/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[   /u/lune-soft  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r0grgr/in_web_dev_you_work_with_js_and_those_npm/</guid>
       <pubDate>Mon, 09 Feb 2026 21:13:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>后端开发有点被迫在前端工作，我需要一些帮助来选择正确的工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r0grbm/backend_dev_kinda_forced_to_work_on_frontend_and/</link>
-      <description><![CDATA[我正在开发美容应用程序（主要是指甲）。这个应用程序完全基于网络。  这个想法很简单，客户可以在某个时间预约专家。没有什么新奇或奇特的东西。我可以很好地处理后端，因为这是我的日常工作。但我很少做前端的事情。 我想在类似日历的界面中显示预订，这样它们看起来就不错。 我正在寻找一个可以执行以下操作的 JavaScript 库  必须适合移动设备。这是没有商量余地的。由于 91% 的流量来自移动设备。 按日和周显示预订 拥有良好的文档（这一点至关重要） 轻量级 理想的原生 JavaScript 要么可扩展，要么有选项（点击预订了解详细信息，有一个删除按钮 - 基本上是取消按钮）预订，可以选择只读等）  文档和自定义对我作为开发人员来说是迄今为止最有价值的。但移动友好对业务至关重要。天知道客户会想出什么疯狂的主意。 我研究过 TUI Calendar 和 CalendarJS。恕我直言，两者看起来都不错，但我又不知道自己要做什么。 我真的很感激你们的一些意见，因为我在这里看到的东西令人兴奋。至少从我的角度来看。   由   提交 /u/AppointmentFar6096   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r0grbm/backend_dev_kinda_forced_to_work_on_frontend_and/</guid>
-      <pubDate>Mon, 09 Feb 2026 21:13:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>veryrandom.site — 每次刷新时人工智能都会生成讽刺网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r0geuu/veryrandomsite_ai_generated_satire_website_on/</link>
-      <description><![CDATA[ 由   提交/u/darksworm  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r0geuu/veryrandomsite_ai_generated_satire_website_on/</guid>
-      <pubDate>Mon, 09 Feb 2026 21:00:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助 squarespace 和 shopify 网站。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r0fbc6/help_with_squarespace_and_shopify_sites/</link>
-      <description><![CDATA[      大家好， 我希望这是提出这个问题的正确地方。 我有两个网站（第一个我已经使用了几年。第二个是我刚刚发布的） 网站 1：www.birdcvlt.net 网站 2：www.ricardoalestattoo.com 问题：网站 1 不断重定向到网站 2，但仅限于我第一次在浏览器中输入其 URL 时。我第二次尝试时，它会定向到正确的站点。此外，如果我将网站 1 的链接放在 Instagram 上的个人简介中并点击它，它会定向到网站 2 上的错误页面。 注意：网站 1 是一个 Shopify 网站，但域名是通过 squarespace 注册的。网站2是一个squarespace网站，但域名是通过shopify注册​​的。别问我为什么这么做。 lol 域名的注册相隔数年，我在决定使用哪个平台来构建我的网站之前就进行了注册。 我相当确定我的 DNS 设置是正确的并且应该如此。我将在这里截屏，以便您可以查看。我不知道这里发生了什么，也不知道我做了什么把事情搞砸了。 我尽力解释清楚，但请让我知道我遗漏了重要信息。 感谢您提供的任何帮助！ 再次抱歉，如果这不是解决此类问题的正确 Reddit 子版块。   由   提交/u/Ricardoalestattoo   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r0fbc6/help_with_squarespace_and_shopify_sites/</guid>
-      <pubDate>Mon, 09 Feb 2026 20:20:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>我很好奇那些盗版流媒体网站，比如连续剧、动漫。 100集/动漫有新EP的时候，怎么1-3个小时就更新得这么快？他们使用 webhook 还是其他东西？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r0f4nn/im_curious_those_pirated_streaming_sites_like/</link>
-      <description><![CDATA[   例如，假设《绝命毒师》和其他 100 系列有新剧集，周五，这些网站的更新速度相当快。    由   提交/u/lune-soft  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r0f4nn/im_curious_those_pirated_streaming_sites_like/</guid>
-      <pubDate>Mon, 09 Feb 2026 20:13:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
