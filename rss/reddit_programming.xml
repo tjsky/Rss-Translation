@@ -4,20 +4,55 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 09 Feb 2026 12:58:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 02:02:15 GMT</lastBuildDate>
     <item>
-      <title>如何设置克劳德代码：上下文优先的方法</title>
-      <link>https://www.reddit.com/r/programming/comments/1r00sdm/how_to_set_up_claude_code_a_contextfirst_approach/</link>
-      <description><![CDATA[ 由   提交/u/dtour_  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r00sdm/how_to_set_up_claude_code_a_contextfirst_approach/</guid>
-      <pubDate>Mon, 09 Feb 2026 10:30:19 GMT</pubDate>
+      <title>为什么与这个角色交谈会使游戏崩溃</title>
+      <link>https://www.reddit.com/r/programming/comments/1r0mv42/why_talking_to_this_character_crashes_the_game/</link>
+      <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r0mv42/why_talking_to_this_character_crashes_the_game/</guid>
+      <pubDate>Tue, 10 Feb 2026 01:17:00 GMT</pubDate>
     </item>
     <item>
-      <title>“在仪表板出现之前，我们有闪烁的灯光” • Martin Thwaites</title>
-      <link>https://www.reddit.com/r/programming/comments/1qzzvbp/before_dashboards_we_had_blinky_lights_martin/</link>
-      <description><![CDATA[ 由   提交 /u/goto-con   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qzzvbp/before_dashboards_we_had_blinky_lights_martin/</guid>
-      <pubDate>Mon, 09 Feb 2026 09:33:33 GMT</pubDate>
+      <title>Fluorite，丰田即将在 Flutter 中推出的全新游戏引擎</title>
+      <link>https://www.reddit.com/r/programming/comments/1r0lx9g/fluorite_toyotas_upcoming_brand_new_game_engine/</link>
+      <description><![CDATA[很抱歉有任何不准确之处，但从谈话中，这是我的理解： 这最初主要针对嵌入式设备，特别提到了 Raspberry Pi 5。 主要功能：  与 UI/UX 的 Flutter 集成 使用 Google Filament 作为 3D 渲染器 JoltPhysics 集成（路线图上） 实体组件系统 (ECS) 架构 SDL3 Dart API 完全开源 跨平台支持  为什么不使用其他引擎？  Unity/Unreal：高授权费用和超级资源重。 Godot：启动时间长嵌入式设备上的时间，而且资源密集型。 Impeller/Flutter_GPU：在 Linux 上仍然无法使用。  技术亮点：  专门针对 Raspberry Pi 5 等嵌入式硬件/平台。 已在丰田 RAV4 2026 汽车中使用。 适用于 Flutter 的 SDL3 嵌入器。 用于高质量视觉效果的 Filament 3D 渲染引擎。 ECS 实际应用：完全用 Dart 编写的弹跳球示例示例。 Flutter 小部件无缝控制 3D 场景。 控制台级 3D 渲染功能。不确定这意味着什么，但听起来很酷。 实时热重载以加快迭代速度。 开箱即用的 Blender 兼容性。 支持 GLTF、GLB、KTX/HDR 格式。 使用 GLSL 超集编程的着色器。 完全跨平台：嵌入式 (Yocto/Linux)、iOS、Android、Windows、macOS，甚至控制台（我不太明白演讲中的这一部分，是否已经支持，或者理论上已经可以支持，因为底层技术是 SDL3） Dart 中的 SDL3 API 绑定即将发布。 使用 Vulkan 跨平台驱动 3D 渲染器进行完全 GPU 加速。    由   提交/u/No_Assistant1783  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r0lx9g/fluorite_toyotas_upcoming_brand_new_game_engine/</guid>
+      <pubDate>Tue, 10 Feb 2026 00:35:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过软件级晶体管分组的新型并行读出架构</title>
+      <link>https://www.reddit.com/r/programming/comments/1r0lw3y/a_novel_parallel_readout_architecture_via/</link>
+      <description><![CDATA[代码如下：https://osf.io/g29u7/files/8hy6j   由   提交/u/No_Arachnid_5563  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r0lw3y/a_novel_parallel_readout_architecture_via/</guid>
+      <pubDate>Tue, 10 Feb 2026 00:34:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Atari 2600 《夺宝奇兵》源代码完全反汇编和逆向工程。每行都充分评论。</title>
+      <link>https://www.reddit.com/r/programming/comments/1r0foef/atari_2600_raiders_of_the_lost_ark_source_code/</link>
+      <description><![CDATA[这个项目开始是为了看看你“触摸”物体所需的最大点数是多少。游戏结束时的方舟。 （注意：你不能）并且它从那里开始螺旋式上升。现在我正在考虑将这款游戏移植到另一台 6502 机器甚至具有更好图形的 PC 上...（我倾向于 PC 移植）我可能会将其称为“科罗拉多史密斯和失踪圣盒的合法独特掠夺者”或者其他什么... 无论如何，享受一下 Atari 2600 的内部结构以及“大”的感觉吧。当时的游戏（8K！）与银行切换放在一起。 请评论！我需要自我验证，因为这个项目花了令人尴尬的时间才能完成！   由   提交/u/halkun  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r0foef/atari_2600_raiders_of_the_lost_ark_source_code/</guid>
+      <pubDate>Mon, 09 Feb 2026 20:33:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>从头开始构建 CDN</title>
+      <link>https://www.reddit.com/r/programming/comments/1r0at22/building_a_cdn_from_scratch/</link>
+      <description><![CDATA[ 由   提交/u/GuavaZealousideal135   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r0at22/building_a_cdn_from_scratch/</guid>
+      <pubDate>Mon, 09 Feb 2026 17:40:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>利用价值飞轮效应创造动力 • David Anderson</title>
+      <link>https://www.reddit.com/r/programming/comments/1r054e8/creating_momentum_with_the_value_flywheel_effect/</link>
+      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r054e8/creating_momentum_with_the_value_flywheel_effect/</guid>
+      <pubDate>Mon, 09 Feb 2026 14:07:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>SELECT 和磁盘之间的三个缓存层</title>
+      <link>https://www.reddit.com/r/programming/comments/1r04ocl/three_cache_layers_between_select_and_disk/</link>
+      <description><![CDATA[ 由   提交/u/Best_Negotiation_801   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r04ocl/three_cache_layers_between_select_and_disk/</guid>
+      <pubDate>Mon, 09 Feb 2026 13:49:20 GMT</pubDate>
     </item>
     <item>
       <title>法布里斯·贝拉德（Fabrice Bellard）：具有突破性成就的大人物。</title>
@@ -62,13 +97,6 @@
       <pubDate>Mon, 09 Feb 2026 02:22:39 GMT</pubDate>
     </item>
     <item>
-      <title>我使用 .NET Minimal API + EF Core（无控制器）构建了 CRUD Web API</title>
-      <link>https://www.reddit.com/r/programming/comments/1qzrv2j/i_built_a_crud_web_api_using_net_minimal_apis_ef/</link>
-      <description><![CDATA[ 由   提交/u/digitaltechj   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qzrv2j/i_built_a_crud_web_api_using_net_minimal_apis_ef/</guid>
-      <pubDate>Mon, 09 Feb 2026 02:18:55 GMT</pubDate>
-    </item>
-    <item>
       <title>C 和未定义的行为</title>
       <link>https://www.reddit.com/r/programming/comments/1qzi4t2/c_and_undefined_behavior/</link>
       <description><![CDATA[ 由   提交 /u/lelanthran   [链接] [评论]]]></description>
@@ -81,34 +109,6 @@
       <description><![CDATA[我写了一篇关于在最小的 Python 客户端中实现 Discord 速率限制和网关管理的深入技术分解。 Discord 的速率限制很棘手：端点通过不透明的“存储桶”共享限制。其 ID 仅在提出请求后才会公开。该设计没有对 429 做出反应，而是使用每个端点的队列和工作线程，在限制耗尽时主动休眠，从而保持行为明确且可预测。 该文章还涵盖了网关连接管理、自动分片和数据模型设计，以及每个子系统的图表。这些示例来自我编写的一个小型 Discord API 客户端 (ScurryPy)，但重点是底层问题和解决方案，而不是库本身。 “清晰胜于魔法”这里意味着所有行为：速率限制、状态更改、重试都是明确的，没有隐藏的后台工作或推断的意图。 很高兴回答有关实现或设计权衡的问题   由   提交/u/Furmissle5567  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qzajdj/technical_writeup_implementing_discords_rate/</guid>
       <pubDate>Sun, 08 Feb 2026 14:38:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>兰斯表格式解释简单，愚蠢</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz81cn/lance_table_format_explained_simply_stupid/</link>
-      <description><![CDATA[ 由   提交/u/TonTinTon   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz81cn/lance_table_format_explained_simply_stupid/</guid>
-      <pubDate>Sun, 08 Feb 2026 12:46:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能让简单的部分变得更容易，让困难的部分变得更难</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz5g7g/ai_makes_the_easy_part_easier_and_the_hard_part/</link>
-      <description><![CDATA[ 由   提交 /u/BlunderGOAT   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz5g7g/ai_makes_the_easy_part_easier_and_the_hard_part/</guid>
-      <pubDate>Sun, 08 Feb 2026 10:19:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何巧妙减少 40% 的遥测量</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz4s6j/how_to_reduce_telemetry_volume_by_40_smartly/</link>
-      <description><![CDATA[嗨！ 我最近写了这篇文章来记录应用程序在使用 OpenTelemetry 进行检测时往往会产生遥测盈余/过剩的不同方式以及缓解这种情况的方法。博客中提到的一些方法包括以下内容： - URL 路径和目标属性 - 控制器跨度 - 运行时遥测中的线程名称 - 重复库检测 - JDBC 和 Kafka 内部信号 - 调度程序和定期作业 以及上游和下游缓解这种情况的方法。如果您对本文感兴趣，请订阅更多OTel优化内容:)   由   提交/u/elizObserves  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz4s6j/how_to_reduce_telemetry_volume_by_40_smartly/</guid>
-      <pubDate>Sun, 08 Feb 2026 09:38:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>SectorC：世界上最小的函数式C编译器</title>
-      <link>https://www.reddit.com/r/programming/comments/1qz3kav/sectorc_the_worlds_smallest_functional_c_compiler/</link>
-      <description><![CDATA[ 由   提交/u/peterv50  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qz3kav/sectorc_the_worlds_smallest_functional_c_compiler/</guid>
-      <pubDate>Sun, 08 Feb 2026 08:24:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
