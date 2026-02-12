@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Thu, 12 Feb 2026 06:57:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 09:43:29 GMT</lastBuildDate>
+    <item>
+      <title>论坛和长文本的替代方案？</title>
+      <link>https://www.reddit.com/r/software/comments/1r2oqtk/alternative_to_discord_for_forums_and_long_form/</link>
+      <description><![CDATA[大家好，我为我国的毕业生和失业人员运行一个不和谐服务器。我们的服务器上有很多知识和论坛，我正在努力寻找适合论坛的替代方案。我最感兴趣的是替换论坛，因为我们有一个知识库网站，但无法轻松实现论坛。  任何帮助将不胜感激。它应该是基于多平台/网络的。    由   提交 /u/officialTigerRose   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r2oqtk/alternative_to_discord_for_forums_and_long_form/</guid>
+      <pubDate>Thu, 12 Feb 2026 09:10:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>证卡打印装置</title>
+      <link>https://www.reddit.com/r/software/comments/1r2opub/kart_basma_cihazı/</link>
+      <description><![CDATA[我想知道，这个设备是不是可以不用扫卡，不干扰软件，做一些自动识别之类的事情来访问？   由   提交/u/simsekk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r2opub/kart_basma_cihazı/</guid>
+      <pubDate>Thu, 12 Feb 2026 09:08:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个工具来将我的像素艺术转换为优化的 SVG</title>
+      <link>https://www.reddit.com/r/software/comments/1r2mmz2/i_built_a_tool_to_turn_my_pixel_art_into/</link>
+      <description><![CDATA[在一家初创公司担任像素艺术家时，我面临着一场噩梦：将我们的像素徽标转换为品牌矢量，同时又不失去清晰锐利的边缘。标准自动跟踪工具总是模糊角落或创建混乱的重叠路径。 由于我找不到干净的解决方案，我决定构建自己的实用程序，称为 GLORP。我更像是一名艺术家而不是程序员，但我成功地实现了“贪婪合并”算法。正如您在第二张图片（城市）中所看到的，它不仅将每个像素变成正方形，还将相同颜色的像素组合成长的、优化的矢量形状（整体模式），它还保留了艺术品的原始颜色，因此您无需担心它们。 我如何使用它：  打印和打印服装：它可以为大型印刷品和服装创建完美、锐利的边缘，无需任何插值。 网页设计：使用“Monolith”模式下，它将相同颜色的像素合并为单个矢量形状，大大减少了 Web 项目的文件大小和 RAM 使用量。 批处理：我添加了一项功能，可以在几秒钟内转换整个文件夹的图标，这节省了我的团队数小时的手动工作时间。  我分享这个是因为它让我们的开发团队免去了巨大的麻烦。它是完全免费和开源的。我很想听听您对优化的看法，或者您对如何改进路径合并有什么想法！  在此处免费获取该工具： Itch.io 或 GitHub。 它完全免费且开源！用它做任何你想做的事情^)   由   提交/u/Alone_Hovercraft_739   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r2mmz2/i_built_a_tool_to_turn_my_pixel_art_into/</guid>
+      <pubDate>Thu, 12 Feb 2026 06:58:15 GMT</pubDate>
+    </item>
     <item>
       <title>什么工具可以OCR PDF到Excel？</title>
       <link>https://www.reddit.com/r/software/comments/1r2mjjd/what_tools_can_ocr_pdf_to_excel/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我什至不确定我正在寻找的东西叫什么，或者是否有什么东西在那里。  我想找到一些基本上可以做笔记的软件，主要可以根据文件的主题或主题将 PDF 文件和图像链接在一起，也可以做笔记。  几乎就像经典的侦探白板，用字符串连接图片和报告，但数据量很大，我可以手动输入所有内容。  这存在吗？如果没有，那是我的主意！你不能偷它！哈哈    由   提交/u/Popular-Wallaby-4479   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r269qj/data_linking/</guid>
       <pubDate>Wed, 11 Feb 2026 19:01:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>iPhotro v4.0.1 — 主要颜色分级升级（完全无损、本地优先、开源）</title>
-      <link>https://www.reddit.com/r/software/comments/1r265ff/iphotro_v401_major_color_grading_upgrade_fully/</link>
-      <description><![CDATA[iPhotron 是一款免费、开源、本地优先的照片管理器。 UI 的灵感来自 Apple Photos 的清晰度，同时保持所有内容完全离线并由用户控制。 4.0.1 中的新增功能 此版本对颜色分级和色调控制进行了重大升级：  颜色曲线 主 RGB 曲线 + 单独的 r/G 通道对阴影、中间调、高光进行精细控制 级别基于直方图的曝光和级别对比度调整 每通道 RGB 控制 可选颜色 六种颜色范围（红、黄、绿、青、蓝、品红） 独立色调/饱和度/亮度编辑 白平衡 基于吸管的中性采样 温度和色调细化   https://preview.redd.it/30h9ln0b2xig1.png?width=495&amp;format=png&amp;auto=webp&amp;s=4a3e3a9ea42e9aa41bf338312a227754e612a8c1 ￼所有调整完全非破坏性。 编辑内容存储在 sidecar 文件中：  原始照片永远不会修改 更改保持透明且可逆  仍然完全本地化。没有账户。没有遥测。 这并不是 Adob​​e Lightroom 的替代品。重点是干净、尊重自由的工作流程和严肃的色彩工具。 发布（v4.0.1）：  https://github.com/OliverZhaohaibin/iPhotron-LocalPhotoAlbumManager/releases/tag/v4.0.1  源代码：  https://github.com/OliverZhaohaibin/iPhotron-LocalPhotoAlbumManager  欢迎提供反馈和贡献。   由   提交 /u/Mountain_Economy_401   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r265ff/iphotro_v401_major_color_grading_upgrade_fully/</guid>
-      <pubDate>Wed, 11 Feb 2026 18:57:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>下载百度文件</title>
-      <link>https://www.reddit.com/r/software/comments/1r25aa8/download_baidu_files/</link>
-      <description><![CDATA[有没有任何工具或软件可以让您免费从百度下载文件？ 或者，有没有可以在中国创建临时电话号码的网站？   由   提交/u/Low-Finance-2275   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r25aa8/download_baidu_files/</guid>
-      <pubDate>Wed, 11 Feb 2026 18:26:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>🎽 NEXA · Live Fit – 在任何购物页面上预测您的衣服尺码！ [Chrome 扩展]</title>
-      <link>https://www.reddit.com/r/software/comments/1r23lv2/nexa_live_fit_predict_your_clothing_size_on_any/</link>
-      <description><![CDATA[大家好！ 👋 我构建了一个名为 **NEXA Live Fit** 的 Chrome 扩展程序，可以帮助您根据您的身高和体重在任何购物页面上立即预测您的衣服尺码 (S/M/L/XL)。  **特点：** ✅ 免费且免费。易于使用 ✅ 显示最安全、可接受和安全有风险的尺寸 ✅ 所有数据都存储在本地 - 您的隐私是安全的 ✅ 可选的专业版功能即将推出 如果您经常在线购物，它可能会节省您的时间和回报！  在 GitHub 上查看：[https://github.com/d7755911-prog/nexa-live-fit\](https://github.com/d7755911-prog/nexa-live-fit)  我希望得到反馈或改进建议！   由   提交 /u/Worldly_Research9386   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r23lv2/nexa_live_fit_predict_your_clothing_size_on_any/</guid>
-      <pubDate>Wed, 11 Feb 2026 17:27:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
