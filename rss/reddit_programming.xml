@@ -4,27 +4,55 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 12 Feb 2026 15:46:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 18:58:00 GMT</lastBuildDate>
+    <item>
+      <title>了解 OpenTelemetry 直方图（实际上）的工作原理</title>
+      <link>https://www.reddit.com/r/programming/comments/1r30tgr/understanding_how_opentelemetry_histograms/</link>
+      <description><![CDATA[大家好，我想讨论一下我对 OpenTelemetry 直方图概念的体验，以及我从中学到的东西。 虽然我确实完成了撰写文章的过程，但我绝对认为我不会是唯一一个没有完全“了解”直方图的人。特别是直方图如何与 OpenTelemetry 配合使用。事实上，我花了很多天（！）只是想弄清楚它是如何工作的，然后它才最终适合我。 后来我意识到我误解了桶在技术上是如何工作的（！！），这意味着再次深入研究技术细节。 所以这是我解释直方图的公平机会，因为我理解它们，如何将度量点添加到桶中，显式和指数直方图类型，以及如何这些数据最终由 OpenTelemetry 后端导出和使用。 虽然本文确实通过 SigNoz 展示了可视化，但我认为它可能会帮助一些迄今为止一直在努力理解这个概念的人。 我很乐意了解更多关于您觉得有趣或难以理解的直方图或其他可观察性概念的经验。也欢迎任何反馈或建议：D 感谢您的宝贵时间！    由   提交/u/silksong_when  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r30tgr/understanding_how_opentelemetry_histograms/</guid>
+      <pubDate>Thu, 12 Feb 2026 18:12:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>设计每秒 25 亿次操作的 secp256k1 引擎</title>
+      <link>https://www.reddit.com/r/programming/comments/1r30he3/engineering_a_25_billion_opssec_secp256k1_engine/</link>
+      <description><![CDATA[https://medium.com/@payysoon/engineering-a-2-5-billion-ops-sec-secp256k1-engine-a46484c690c7   由   提交/u/Available-Young251  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r30he3/engineering_a_25_billion_opssec_secp256k1_engine/</guid>
+      <pubDate>Thu, 12 Feb 2026 18:00:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>在成熟的存储和WAL级复制之上组成KV层</title>
+      <link>https://www.reddit.com/r/programming/comments/1r2zxk1/composing_a_kv_layer_over_mature_storage_and/</link>
+      <description><![CDATA[大多数键值存储要么实现自定义存储引擎，要么直接将复制嵌入到系统中。我一直在探索一种不同的架构方法：保持 KV 层的薄型，并将其构建在成熟的 B 树 + WAL 组件之上，这些组件已经提供了持久性和崩溃恢复保证。 无需引入自定义复制协议，WAL 级复制可以通过 LiteFS 等成熟工具来处理。在此模型中，复制完全在 KV 抽象边界下运行，因此 KV 层本身保持简单，并且不管理领导者选举、日志传送或分布式状态。 这提出了一个架构问题：从经过良好测试的存储原语和外部复制工具组成系统，而不是从头开始设计紧密集成的 KV 引擎，这有多可行？ 用于这些实验的最小参考实现是 SNKV： https://github.com/hash-anu/snkv 很想听听有关现代存储系统中可组合性与自定义引擎设计的观点。   由   提交/u/Fine-Package-5488   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r2zxk1/composing_a_kv_layer_over_mature_storage_and/</guid>
+      <pubDate>Thu, 12 Feb 2026 17:40:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025 年维基百科上浏览次数最多的人物</title>
+      <link>https://www.reddit.com/r/programming/comments/1r2zr0h/mostviewed_people_on_wikipedia_in_2025/</link>
+      <description><![CDATA[ 由   提交/u/sataky  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r2zr0h/mostviewed_people_on_wikipedia_in_2025/</guid>
+      <pubDate>Thu, 12 Feb 2026 17:33:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>一切花费的时间比你想象的要长</title>
+      <link>https://www.reddit.com/r/programming/comments/1r2ygb6/everything_takes_longer_than_you_think/</link>
+      <description><![CDATA[ 由   提交/u/AltruisticPrimary34  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r2ygb6/everything_takes_longer_than_you_think/</guid>
+      <pubDate>Thu, 12 Feb 2026 16:45:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>学习基础知识，而不是框架</title>
+      <link>https://www.reddit.com/r/programming/comments/1r2xh88/learn_fundamentals_not_frameworks/</link>
+      <description><![CDATA[ 由   提交/u/milanm08  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r2xh88/learn_fundamentals_not_frameworks/</guid>
+      <pubDate>Thu, 12 Feb 2026 16:09:11 GMT</pubDate>
+    </item>
     <item>
       <title>氚|感谢所有框架：Rust GUI 观察</title>
       <link>https://www.reddit.com/r/programming/comments/1r2wd51/tritium_thanks_for_all_the_frames_rust_gui/</link>
       <description><![CDATA[ 由   提交 /u/urandomd   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r2wd51/tritium_thanks_for_all_the_frames_rust_gui/</guid>
       <pubDate>Thu, 12 Feb 2026 15:26:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Code Agent Teams：您现在是 AI 开发团队的首席执行官（感觉就像一场游戏）</title>
-      <link>https://www.reddit.com/r/programming/comments/1r2wbw1/claude_code_agent_teams_youre_now_the_ceo_of_an/</link>
-      <description><![CDATA[Claude Code 刚刚推出了 Agent Teams，它改变了游戏规则。 您现在可以并行运行多个 AI 代理，每个代理都在自己的窗格中，同时处理项目的不同部分。他们相互沟通，协调任务，你可以在任务中与他们中的任何一个互动。 它基本上将 Claude Code 从单个 AI 开发人员转变为你实时管理的完整小队。您分配角色，分发任务，然后观察它们的执行，就像您自己的人工智能工程团队的领导一样。 让我惊讶的是，您可以在代理工作时向他们发送消息。真正的实时协作。需要代理 B 等待代理 A 的输出吗？他们明白了。想在构建中期改变方向吗？只要告诉他们即可。 这个功能让人工智能编码感觉像是一个真正的新范式。不是“更好的自动完成”，而是实际的并行团队协调。 如果您使用 Claude Code，强烈建议您尝试一下。   由   提交 /u/Delicious_Air_737   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r2wbw1/claude_code_agent_teams_youre_now_the_ceo_of_an/</guid>
-      <pubDate>Thu, 12 Feb 2026 15:25:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>敏捷开发已有 25 年历史，但它经受住了时间的考验</title>
-      <link>https://www.reddit.com/r/programming/comments/1r2w164/agile_development_might_be_25_years_old_but_its/</link>
-      <description><![CDATA[ 由   提交/u/Franco1875  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r2w164/agile_development_might_be_25_years_old_but_its/</guid>
-      <pubDate>Thu, 12 Feb 2026 15:14:22 GMT</pubDate>
     </item>
     <item>
       <title>从备份中快速恢复 1M+ 文件</title>
@@ -34,39 +62,11 @@
       <pubDate>Thu, 12 Feb 2026 15:03:51 GMT</pubDate>
     </item>
     <item>
-      <title>大多数新开发人员犯的第一个错误不是开发问题，而是经理问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1r2v7s0/most_first_mistakes_by_new_devs_arent_dev/</link>
-      <description><![CDATA[ 由   提交 /u/dymissy   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r2v7s0/most_first_mistakes_by_new_devs_arent_dev/</guid>
-      <pubDate>Thu, 12 Feb 2026 14:43:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>R subreddit 整合</title>
-      <link>https://www.reddit.com/r/programming/comments/1r2uv2k/r_subreddit_consolidations/</link>
-      <description><![CDATA[看起来 Hadley 正在领导一项整合 r 相关 subreddits 的工作。有人对此有什么想法吗？   由   提交 /u/JohnHazardWandering   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r2uv2k/r_subreddit_consolidations/</guid>
-      <pubDate>Thu, 12 Feb 2026 14:29:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们所知道的软件的终结</title>
-      <link>https://www.reddit.com/r/programming/comments/1r2ut1a/the_end_of_software_as_we_know_it/</link>
-      <description><![CDATA[人工智能技术已经从反应式工具发展为主动式代理，当今的领先者如 ChatGPT Agent Pro、Google Gemini Agent Ultra、Claude 以及风靡一时的开源热门 OpenClaw 为您所设想的按需软件未来奠定了基础。 根据开发者调查、GitHub 星数以及 Gumloop、 Marketer Milk 和 DigitalOcean，指出 2030 年静态应用程序将完全消失，取而代之的是跨本地设备、边缘服务器和云后端编排的流畅的、意图驱动的功能。   由   提交 /u/hrpedersen   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r2ut1a/the_end_of_software_as_we_know_it/</guid>
-      <pubDate>Thu, 12 Feb 2026 14:26:43 GMT</pubDate>
-    </item>
-    <item>
       <title>Quarkus 中的 PDF 生成：实用、高性能且原生</title>
       <link>https://www.reddit.com/r/programming/comments/1r2uluk/pdf_generation_in_quarkus_practical_performant/</link>
       <description><![CDATA[ 由   提交/u/Active-Fuel-49  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r2uluk/pdf_generation_in_quarkus_practical_performant/</guid>
       <pubDate>Thu, 12 Feb 2026 14:18:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>这只是一次冒险</title>
-      <link>https://www.reddit.com/r/programming/comments/1r2u6h0/its_just_an_adventure/</link>
-      <description><![CDATA[大家好， 我向大家展示我的原型和我未来用 HTML/JS/CSS 创建的视频游戏的可玩演示。 这是一个基于文本的角色扮演游戏，具有根据角色的疯狂点进化的特殊性（可玩演示中未使用系统）。总体氛围发生在带有另类幽默的黑暗幻想宇宙中。  这是一个文本游戏的混合体，你可以收集物体来通过某些通道。 游戏可能存在错误，并将在未来几天/几周/几个月内不断发展。您可以查看我的 Github 页面，在本地克隆游戏并进行测试。 APK 也可以在此存储库中进行测试，自述文件中的所有信息：https://github.com/Madcarak/ItsJustAnAdventure_APK 欢迎对开发游戏的想法提出任何建议/批评这样它就可以直接在网络上（Linux、MAC 和 PC）和 Android 版本（为什么有一天不推出 iPhone 版本）看到 1.0 版本的曙光。 Madcarak   由   提交/u/Madcarak   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r2u6h0/its_just_an_adventure/</guid>
-      <pubDate>Thu, 12 Feb 2026 14:00:38 GMT</pubDate>
     </item>
     <item>
       <title>Q-Day 之后：大规模量子应用 • Matthew Keesan</title>
