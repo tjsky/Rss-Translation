@@ -4,14 +4,7 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 13 Feb 2026 01:53:46 GMT</lastBuildDate>
-    <item>
-      <title>PlanDrop：一个 Chrome 扩展程序，用于通过计划-审查-执行工作流程控制远程服务器上的 Claude Code</title>
-      <link>https://www.reddit.com/r/programming/comments/1r3c76y/plandrop_a_chrome_extension_to_control_claude/</link>
-      <description><![CDATA[🚀 很高兴分享 PlanDrop，这是我们为通过浏览器与 Claude Code 对话而构建的开源工具。  用于在远程服务器上计划-审核-执行工作流程的 Chrome 扩展。输入任务，查看计划，然后单击执行。通过 SSH 运行。  在一个选项卡中与 Claude、Gemini、ChatGPT 或任何 AI 聊天进行计划，并在侧面板中使用 Claude Code 执行。多模式规划满足可重复执行。  每个提示和响应都保存为文件。 Git 可跟踪的审计跟踪。权限配置文件控制代理可以执行的操作。  专为远程服务器上的计算生物学家和机器学习工程师而构建。  PlanDrop 的工作原理： Chrome 扩展 → 本地 Python 脚本 → SSH → 服务器上的 .plandrop/ 目录 → shell 脚本运行 Claude 代码 → 结果返回浏览器。 没有 WebSocket 服务器。没有数据库。中间没有云服务。只需 SSH 和 bash 脚本即可。  PlanDrop 的功能： - 跨任务的会话连续性 - 多服务器、多项目仪表板 - 零基础设施：如果您有 SSH 访问权限，则可以使用它。数据永远不会接触第三方服务器。 - 可重复性：每个提示和响应都保存为可以提交到 Git 的文件。完整的审计跟踪。 架构很简单：Chrome 扩展程序通过本机消息传递与本地 Python 脚本进行通信。该脚本通过 SSH 连接到您的服务器。 bash 脚本轮询目录中的计划文件并运行 Claude Code。不需要额外的基础设施。 GitHub：https://github.com/genecell/PlanDrop   由   提交/u/biomin   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r3c76y/plandrop_a_chrome_extension_to_control_claude/</guid>
-      <pubDate>Fri, 13 Feb 2026 01:46:36 GMT</pubDate>
-    </item>
+    <lastBuildDate>Fri, 13 Feb 2026 04:51:24 GMT</lastBuildDate>
     <item>
       <title>了解计算机应用程序中的通信第一部分：套接字和 websocket</title>
       <link>https://www.reddit.com/r/programming/comments/1r37c1q/understanding_communication_in_computer/</link>
@@ -109,6 +102,13 @@
       <description><![CDATA[ 由   提交/u/lihaoyi  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r2pqry/scripting_on_the_jvm_with_java_scala_and_kotlin/</guid>
       <pubDate>Thu, 12 Feb 2026 10:14:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能编码杀死了我的心流状态</title>
+      <link>https://www.reddit.com/r/programming/comments/1r2l8i5/ai_coding_killed_my_flow_state/</link>
+      <description><![CDATA[您认为更多的人会不再享受这份曾经充满活力但现在却让内向者精疲力尽的工作吗？   由   提交 /u/Fantastic-Cress-165   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r2l8i5/ai_coding_killed_my_flow_state/</guid>
+      <pubDate>Thu, 12 Feb 2026 05:37:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
