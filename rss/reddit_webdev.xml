@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 13 Feb 2026 04:51:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 06:55:53 GMT</lastBuildDate>
+    <item>
+      <title>全栈开发</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r3h8f6/full_stack_dev/</link>
+      <description><![CDATA[我已经构建了 2 个全栈应用程序。一个是功能齐全的电子商务商店，另一个是人工智能费用跟踪器。 我正在寻找通过构建小型全栈业务项目来赚钱的好机会。 我如何找到这些人。我可以向他们收取多少费用以及我可以期待哪些项目？   由   提交 /u/Impossible_Fee_6217   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r3h8f6/full_stack_dev/</guid>
+      <pubDate>Fri, 13 Feb 2026 05:54:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>您对嵌入您网站的平台有何看法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r3gju0/how_do_you_feel_about_platforms_that_embed_your/</link>
+      <description><![CDATA[      我正在和兄弟争论共享网站的平台，比如bored.com或clicktheredbutton网站或像这张图这样嵌入网站的应用程序平台。 在我看来，只要我的网页游戏能玩，广告能加载，我就很高兴有人为我带来流量。兄弟认为这是偷窃。我觉得 Reddit 也是一样，他很生气。 我宁愿拥有一些分享好内容的东西，而不是像 Sekai 这样只有人工智能的平台。 想法？   由   提交/u/Wood5EloHellSurvivor  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r3gju0/how_do_you_feel_about_platforms_that_embed_your/</guid>
+      <pubDate>Fri, 13 Feb 2026 05:17:09 GMT</pubDate>
+    </item>
     <item>
       <title>请仅阅读文章 - 阅读文章时不要杂乱无章</title>
       <link>https://www.reddit.com/r/webdev/comments/1r3g04s/just_the_article_please_read_articles_without/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[我正在开发一个小项目，希望以尽可能最简洁的方式设置授权。我考虑了两种主要方法：    对每种数据类型进行显式检查，例如canEditBusiness，然后每个端点只需进行一次额外的数据库往返。这感觉更干净，但有额外的数据库行程的缺点。因此，检查 canEditBusiness，如果为 true，则检查 editBusiness。 将授权检查烘焙到数据库操作中。例如。 editBusiness 包含用于检查具有 userId 的用户是否有权访问业务的逻辑。查询变得更加复杂，需要将这个逻辑添加到与业务相关的每个查询中，而不是简单地使用单个函数来检查用户是否是某个业务的成员。  我确信还有一百万种其他方法可以做到这一点，我想知道最好的方法是什么。任何意见将不胜感激   由   提交/u/MajorLeagueGMoney   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r35isw/best_practice_for_authorization_of_db_operations/</guid>
       <pubDate>Thu, 12 Feb 2026 21:08:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何防止健身房/运动记录应用程序中作弊。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r3411a/how_to_prevent_cheating_in_gymexercise_logging_app/</link>
-      <description><![CDATA[我最近一直在开发一个网络应用程序，用户可以手动记录他们的体重、次数和组数，并将这些数据保存在日志中。根据这些日志，用户将获得积分，并且该应用程序具有基于这些积分的排行榜。现在，我的问题是如何防止这个系统中的作弊。仅仅依靠道德是行不通的，因为用户可以输入不切实际的数字，例如“5000 公斤二头肌弯举”。当用户可以自由输入任何值时，如何设置审核？一个想法是建立一种算法来识别和标记不切实际的数字，并将它们隐藏在排行榜中。   由   提交/u/Rarararaararaviiiiii  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r3411a/how_to_prevent_cheating_in_gymexercise_logging_app/</guid>
-      <pubDate>Thu, 12 Feb 2026 20:10:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>你好。有人可以估算一下创建一个类似 eBay 的网站以允许人们出售和购买物品的成本吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r33ov7/hello_could_someone_approx_the_cost_to_create_an/</link>
-      <description><![CDATA[对于我提出的非常粗糙且不具体的问题，我深表歉意。我有一个网站的想法，但对创建和维护网站/应用程序的技术知识一无所知。最终我想自己创造它；我愿意雇佣人员为我建造它。所以我希望能够准确地表达出我想要的东西；我从最基本的问题开始。 建立一个类似 eBay 的网站，让人们可以发布待售物品，需要多少钱？ （就上下文而言，如果重要的话，我不介意从小规模开始。我住在纽约，如果重要的话，我愿意只坚持该地区）。 非常感谢您的任何意见或建议，我感谢您的时间和帮助。   由   提交/u/Crudeyakuza   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r33ov7/hello_could_someone_approx_the_cost_to_create_an/</guid>
-      <pubDate>Thu, 12 Feb 2026 19:58:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
