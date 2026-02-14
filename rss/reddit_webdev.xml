@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 14 Feb 2026 12:38:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 18:30:08 GMT</lastBuildDate>
     <item>
-      <title>制作了一个网站，将你们的关系变成一个漂浮的星球</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4jhfr/made_a_website_that_turns_your_relationship_into/</link>
-      <description><![CDATA[      由于情人节即将结束，我认为分享我最近构建的东西会很有趣。 我最初将其构建为一种有趣的方式来分享回忆，而不仅仅是发送 Google Drive 链接或 Instagram 转储。 如果有人好奇，它被称为 MyOrb myorb.live 真诚地希望得到反馈。我也很好奇这是否最终能挽救情人节最后一刻的情况。   由   提交/u/rohit720  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4jhfr/made_a_website_that_turns_your_relationship_into/</guid>
-      <pubDate>Sat, 14 Feb 2026 12:31:30 GMT</pubDate>
+      <title>我建造了一个生成式音乐城市建设者——如果建筑是凝固的音乐，那么扮演一个小镇会是什么样子？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4rsv0/i_built_a_generative_music_city_builder_if/</link>
+      <description><![CDATA[   开发者们大家好， 我想分享一下我在过去 10 个月里一直在做的项目：Synth Town。它是一个基于网络的城市构建器，其中城市布局充当音乐音序器。 一切都是使用 Tone.js 实时合成的。几何形状和振荡器之间共享一组参数。 构建振荡器  屋顶形状决定波形（方波、锯齿波、正弦波）。 高度/颜色决定音调。  车辆作为触发器  道路布局定义循环/节奏。 车辆形状映射到 ADSR 包络线。例如：&lt;代码&gt; +------------------+------------------+ |车辆形状| ADSR 信封 | +------------------+------------------+ |短引擎盖 |快速进攻| | ___ | ^ /\ | | ___/ | \__ | | / \___ | | /(o)----(o)\ | |/_________&gt; t | +------------------+------------------+ |长帽|缓慢的攻击| | ___ | ^ ⁄ \ | | _____/ | \__ | | ⁄ \___ | | /(o)------(o)\ | |⁄_________&gt; t | +------------------+------------------+   技术堆栈  UI/状态： SvelteKit 3D： Three.js 和 InstancedMesh2 音频： Tone.js  在此处查看 👉 合成镇   由   提交/u/zyhyysh   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4rsv0/i_built_a_generative_music_city_builder_if/</guid>
+      <pubDate>Sat, 14 Feb 2026 18:19:37 GMT</pubDate>
     </item>
     <item>
-      <title>我厌倦了“AI 文本疲劳”，因此我构建了一个研究代理来生成交互式 2D/3D 可视化。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4jd9i/i_got_tired_of_ai_text_fatigue_so_i_built_a/</link>
-      <description><![CDATA[   您好r/webdev， 我想分享一个我一直在从事的名为 Prism AI 的项目。 像你们中的许多人一样，我一直在使用人工智能进行深入研究，但我意识到我已经精疲力竭了“文字墙”格式。有时，一个复杂的概念需要图表、时间线或 3D 关系图才能真正有意义。 我将 Prism AI 打造成一个自主研究人员，它不仅仅是编写报告，它还能识别底层数据结构并动态渲染 2D/3D 可视化，以便您可以实际与信息进行交互。 技术堆栈（有趣的部分）： 我决定采用多语言微服务方法来处理项目的不同部分。工作负载： - 后端：用于 API 和编排的 Express.js (Node)。 - 前端：Next.js / TypeScript（重点关注实时渲染组件）。 - 实时：处理高吞吐量 WebSocket 流的专用 Go 服务器。 - 引擎：基于 Python 的工作程序，使用 LangGraph 处理递归研究循环和抓取。 它是完全开源的，旨在轻松自托管或使用 Docker 在本地运行。 我目前正处于可视化引擎稳定的阶段，但我很想从这个 sub 获得一些关于总体架构的反馈。 Repo 在这里： https://github.com/precious112/prism-ai-deep-research 很高兴回答有关 Python 工作人员如何与 Express 后端或 3D 渲染方面对话的任何问题。   由   提交/u/FickleSwordfish8689  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4jd9i/i_got_tired_of_ai_text_fatigue_so_i_built_a/</guid>
-      <pubDate>Sat, 14 Feb 2026 12:25:20 GMT</pubDate>
+      <title>破折号（题外话……？）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4rr4x/the_emdash_offtopic/</link>
+      <description><![CDATA[最近有很多关于 em-dash 及其 AI 使用的讨论，所以我认为（希望）这个评论在这里会很有趣。  2003 年 2 月 26 日的播客 99% Invisible 谈论了 em-dash。总而言之，如果你不想听整件事，虽然我们现在使用长破折号作为非人类作者的相当清晰的指标，但创建长破折号是为了让小说——当时的一个新想法——尤其是对话，听起来更人性化和自然。不使用分号来打断想法，或者——就像当你在谈话中却走岔了一样。 （就像这样） 他们给出的一些例子真的很有趣。 （不隶属于他们或受雇于他们。只是喜欢它）   由   提交/u/mapsedge  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4rr4x/the_emdash_offtopic/</guid>
+      <pubDate>Sat, 14 Feb 2026 18:17:42 GMT</pubDate>
     </item>
     <item>
-      <title>您在使用人工智能进行构建时面临什么问题？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4j0te/what_problem_are_you_facing_when_building_with_ai/</link>
-      <description><![CDATA[嗨，我只是想听听你们在构建 Web 应用程序时遇到的问题， 我在说什么？  - 我在创建功能时遇到问题  - 人工智能无法为我解决任何问题，我陷入困境 - 我只是构建，但无法交付 - 我根本不构建任何东西 - 我通常缺乏对技术的深入理解 - 我通常构建应用程序，但我陷入 UI  - 我构建应用程序，但它经常出现问题缓慢且更多错误 或您每天遇到的任何事情。  我的问题？ 我无力承担人工智能的费用，只是请你们在这个人工智能时代感受到联系   由   提交 /u/Acrobatic_Big781   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4j0te/what_problem_are_you_facing_when_building_with_ai/</guid>
-      <pubDate>Sat, 14 Feb 2026 12:06:31 GMT</pubDate>
+      <title>我使用 Electron 为矢量数据库构建了一个桌面 GUI</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4qsq4/i_built_a_desktop_gui_for_vector_databases_using/</link>
+      <description><![CDATA[👋 大家好， 我想分享一个我一直在构建的桌面应用程序，并从其他 Web 开发人员那里获取反馈。 该项目是 VectorDBZ，一个跨平台桌面 GUI，用于探索和调试 RAG 和语义搜索系统中使用的向量数据库。我构建它是因为我一直缺少检查嵌入、运行相似性搜索以及在不编写脚本或笔记本的情况下了解检索行为的良好工具。 应用程序堆栈： • Electron Forge • React • Vite 从产品角度来看，它可以让您： • 连接到矢量数据库，如 Qdrant、Weaviate、Milvus、Chroma、 pgvector、Pinecone 和 Elasticsearch • 浏览集合、向量和元数据 • 使用过滤器、分数阈值和 top-K 运行相似性搜索 • 使用本地模型或托管 API 从文本或文件生成嵌入 • 使用 PCA 可视化嵌入 一切都在本地运行，包括配置和凭证存储。 我是对双方的反馈感兴趣： • 来自使用 RAG 和矢量搜索的人员，这是否符合您今天调试检索的方式？ • 随着应用程序的发展，您需要注意任何性能或架构陷阱？ • 随着应用程序复杂性或数据量的增长，您遇到的任何 Electron 瓶颈？ • 您发现了防止 IPC、后台工作和状态管理变成意大利面条的模式？ • 您希望在扩展功能之前先锁定哪些内容？ GitHub https://github.com/vectordbz/vectordbz 下载 https://github.com/vectordbz/vectordbz/releases 如果您觉得这有用或有趣，GitHub 上的 ⭐ 意义重大，有助于激励我不断改进它。 谢谢！   由   提交 /u/snirjka   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4qsq4/i_built_a_desktop_gui_for_vector_databases_using/</guid>
+      <pubDate>Sat, 14 Feb 2026 17:40:47 GMT</pubDate>
     </item>
     <item>
-      <title>又是我。听取您的反馈后又做了一个小东西</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4izx4/its_me_again_built_another_small_thing_after/</link>
-      <description><![CDATA[      嘿，又是我。 几天前，我在这里分享了一个小项目，并得到了一些可靠的反馈。我实际上是在听它，而不是在评论中争论，最终建立了一些新的东西。 这次是为你关心的人提供个性化网站制作工具。您可以创建一个小型个人网站，而不是卡片或长消息。 它的作用： 不同的主题（情人节、谢谢、只是因为、祝你好运等）自定义消息自定义 slug 添加歌曲无需登录无广告 这次的重点是：保持摩擦接近于零，而不是过度设计它使人们实际上可以在一分钟内完成创建的东西 我也无法取消看到这个数字最近有很多帖子乞讨资金来“构建一个想法”，老实说，这个想法看起来比这个糟糕十倍，所以我只是……构建了它。 不推销任何东西，不货币化，只是分享我根据这里的反馈迭代后所做的事情。 如果你好奇的话，链接在下面。 https://egreet.in    由   提交/u/Live_Phrase4672   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4izx4/its_me_again_built_another_small_thing_after/</guid>
-      <pubDate>Sat, 14 Feb 2026 12:05:14 GMT</pubDate>
+      <title>25 F 刚从亚利桑那州立大学毕业，创办了自己的公司 - 设计怎么样？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4qp30/25_f_just_got_out_of_asu_and_started_my_own/</link>
+      <description><![CDATA[athain.software   由   提交 /u/Lazy_Two_4908   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4qp30/25_f_just_got_out_of_asu_and_started_my_own/</guid>
+      <pubDate>Sat, 14 Feb 2026 17:36:49 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] 我使用 Vanilla JS 构建了一个基于浏览器的图像编辑器。没有库，只有 Canvas API。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4iyxb/showoff_saturday_i_built_a_browserbased_image/</link>
-      <description><![CDATA[      大家好， 我是一名计算机科学专业的学生，​​对于我最新的作品集项目，我想深入研究 Canvas API。我构建了一个完全在客户端运行的图像编辑器，这意味着不会将任何图像上传到服务器。 我正在寻找一些技术反馈。应用多个滤镜时，您的设备上的性能感觉如何？   由   提交/u/TrainerMassive6168  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4iyxb/showoff_saturday_i_built_a_browserbased_image/</guid>
-      <pubDate>Sat, 14 Feb 2026 12:03:41 GMT</pubDate>
+      <title>视差问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4q8oy/parallax_question/</link>
+      <description><![CDATA[我想使用视差。 如何拍摄常规 .webp 图像并将其转换为图层？ 我有以下图像：https://cdn.jsdelivr.net/gh/gabrielatwell1987/portfolio-assets@main/images/svelte-magick.webp 我想制作一个背景层、中间层和前景层，所以我可以对图层进行视差   由   提交 /u/gatwell702   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4q8oy/parallax_question/</guid>
+      <pubDate>Sat, 14 Feb 2026 17:19:20 GMT</pubDate>
     </item>
     <item>
-      <title>[周六展示] 公开提交策划的网站收藏和一个问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4iu1o/showoff_saturday_open_submission_for_curated/</link>
-      <description><![CDATA[嘿嘿， 我在开始新项目时一直在使用网站集合，我一直想策划并将网站收集到我自己的集合中，最终目标是拥有大量项目，以拉近与欣赏深思熟虑网站的人们的距离。 https://webdesign.gallery/ 由于该集合非常新，整个集合目前仅包含我自己的一些我认为值得分享的项目。如果您有兴趣放置您的网站并帮助发展该平台，我将不胜感激您提交您的项目。它完全免费，您无需创建帐户或准备屏幕截图。您也可以简单地推荐一个不是由您创建但您认为值得展示的网站。如果您提交自己的网站并需要反馈，我很乐意提供一些反馈！ 现在我的问题： 为了在一开始增加收藏，我正在考虑添加我个人喜欢的网站。我会适当地赞扬它们，而不是把它们当作我自己的作品。在展示它们之前我需要联系网站所有者吗？或者这是不必要的，因为一切都是公开的？ 非常感谢您的想法   由   提交/u/chromata31  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4iu1o/showoff_saturday_open_submission_for_curated/</guid>
-      <pubDate>Sat, 14 Feb 2026 11:56:27 GMT</pubDate>
+      <title>各位请帮帮我🙏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4plw4/guys_please_help_me/</link>
+      <description><![CDATA[   我不知道怎么做，但我今天刚刚创建了此页面，并且没有促销或广告或任何内容。我刚刚在 Reddit 上发布了它，这就是流量。我不明白;这是正常现象吗？我应该担心我的服务器账单吗？我 17 岁，所以任何反馈都会有帮助。它仍然在飙升。    由   提交/u/Live_Phrase4672   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4plw4/guys_please_help_me/</guid>
+      <pubDate>Sat, 14 Feb 2026 16:54:57 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个包含 2400 多个 API 的 API 目录 — 寻求反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4iosh/i_built_an_api_directory_with_2400_apis_looking/</link>
-      <description><![CDATA[嘿 r/webdev， 拥有 398k star（免费 API）的最大 GitHub 存储库之一已被弃用，并且没有任何活跃的维护者。我建立了这个免费网站，它拥有互联网上最大的免费 API 数据库： https://www.findapis.com 它的作用：  根据类别、身份验证类型、CORS 和协议搜索/过滤 API 在发现页面中快速发现 API API 链接到实际 API文档 保存您自己的 API，查找热门或受好评的 API 添加您自己的 API 建议  我正在寻找任何反馈，您希望添加什么内容？我缺少的类别？用户体验问题？ 谢谢！   由   提交 /u/paytience   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4iosh/i_built_an_api_directory_with_2400_apis_looking/</guid>
-      <pubDate>Sat, 14 Feb 2026 11:48:27 GMT</pubDate>
+      <title>你们让我第一次销售，谢谢</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4pemt/you_guys_made_me_my_first_sale_thanks/</link>
+      <description><![CDATA[      昨天你们给了我关于我的目标网页的诚实反馈，并且提到了诸如不清楚它的用途等之类的事情...所以我完全重新设计了它，首先关注移动设备，并使其整体上更加清晰。  之前 之后  现在，正因为如此，我得到了我的首次销售！我知道这听起来很假，但我不打算重新制作它，你们也明确表示这太令人困惑了等等。 无论如何，长话短说，谢谢。   由   提交 /u/llo7d   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4pemt/you_guys_made_me_my_first_sale_thanks/</guid>
+      <pubDate>Sat, 14 Feb 2026 16:47:03 GMT</pubDate>
     </item>
     <item>
-      <title>Zed 发布了一个新的主题生成器，带有实时预览功能，可自定义您的编辑器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4hy6y/zed_releases_a_new_theme_builder_with_live/</link>
-      <description><![CDATA[       由   提交 /u/nix-solves-that-2317   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4hy6y/zed_releases_a_new_theme_builder_with_live/</guid>
-      <pubDate>Sat, 14 Feb 2026 11:05:24 GMT</pubDate>
+      <title>为什么我构建 Oorian：框架背后的故事</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4pctt/why_i_built_oorian_the_story_behind_the_framework/</link>
+      <description><![CDATA[       由   提交/u/Marv30Beta  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4pctt/why_i_built_oorian_the_story_behind_the_framework/</guid>
+      <pubDate>Sat, 14 Feb 2026 16:45:08 GMT</pubDate>
     </item>
     <item>
-      <title>构建了用于重命名世界地理的协作地图</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4hppy/built_a_collaborative_map_for_renaming_world/</link>
-      <description><![CDATA[      点击地图上的任意地点，提出一个名称，其他人投票。无需帐户即可获得新地点或投票。 这是一个社区非营利项目，一半是游戏，一半是社会实验。到目前为止已有 40k 次重命名，其中一些令人惊讶的创意。 rename.world   由   提交/u/kafk3d  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4hppy/built_a_collaborative_map_for_renaming_world/</guid>
-      <pubDate>Sat, 14 Feb 2026 10:51:16 GMT</pubDate>
+      <title>我为懒惰的开发人员构建了一个分析仪表板</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4p6q1/i_built_an_analytics_dashboard_for_lazy_devs/</link>
+      <description><![CDATA[      我厌倦了打开 5 个 Stripe 仪表板和 5 个 GA4/Plausible 属性只是为了看看我的网站有多糟糕，所以我构建了 1board。 这是一个仪表板，可以从 Google Analytics、Plausible 和 Stripe 中提取数据，使其快速且易于阅读。您可以同时查看所有网站的数据，了解它们如何相互比较，并查看整个投资组合的表现。  您可以从每个分析平台获得所有最重要的见解，并通过组合它们计算出一些新的独特指标 - 所有这些都在一个不错的 UI 中（例如 GA4）。 如果您想尝试一下，链接位于评论中 P.S.所有数据都是使用用户生成的只读令牌获取的（带有 OAuth 的 GA4 以及带有 Stripe 和 Plausible 的两点击流程）。用户选择他们想要授予的权限，并且不会将任何数据保存到数据库中，所有数据都是通过各自的 API 获取的    由   提交/u/mst152  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4p6q1/i_built_an_analytics_dashboard_for_lazy_devs/</guid>
+      <pubDate>Sat, 14 Feb 2026 16:38:29 GMT</pubDate>
     </item>
     <item>
-      <title>我做了一个 Lottie 和 SVG 动画生成器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4hko6/i_made_an_lottie_and_svg_animation_generator/</link>
-      <description><![CDATA[目前处于公开测试阶段，如果您携带自己的 OpenAI API 密钥 (BYOK)，则可以完全免费使用。   由   提交/u/password_1_2_3  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4hko6/i_made_an_lottie_and_svg_animation_generator/</guid>
-      <pubDate>Sat, 14 Feb 2026 10:42:27 GMT</pubDate>
+      <title>浏览器怪癖真的已经成为过去了吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4p5c8/is_it_true_that_browser_quirks_are_a_thing_of_the/</link>
+      <description><![CDATA[我过去曾涉足前端和后端开发，但我主要是一名系统程序员，所以我并不总是跟上 webdev 的最新消息。  话虽如此，我的印象是，尽管现在的情况比 10 年前好多了，但在渲染和 we.mb 标准遵守方面，浏览器引擎之间仍然存在着不小的差异。  但是，此评论似乎表明不然，基本上浏览器差异在今天是如此微不足道，您甚至不需要考虑它们： https://www.reddit.com/r/photopea/s/vJnEdzqCdU The评论者当然很有资格谈论这个，所以我想知道这是否是前端开发人员目前的共识？   由   提交/u/pogodachudesnaya   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4p5c8/is_it_true_that_browser_quirks_are_a_thing_of_the/</guid>
+      <pubDate>Sat, 14 Feb 2026 16:36:57 GMT</pubDate>
     </item>
     <item>
-      <title>我用 2.5K MAU 完全本地化了我的简历生成器，这样您就可以拥有自己的简历</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4hh3o/i_made_my_resume_builder_with_25k_mau_fully_local/</link>
-      <description><![CDATA[      嘿r/webdev！ 我想分享一个我已经研究了一段时间的项目。 最初的目标非常简单：构建一个真正关心用户体验的简历生成器，而不仅仅是一个华丽的形式。我希望它是隐私第一的，所以我将它设计为在本地保存所有内容。我不想将任何人的数据劫持在数据库上。 但是我遇到了两个巨大的技术瓶颈：  存储：我使用的是 LocalStorage。它很容易发送，但如果用户有多个版本的简历，5MB 很快就会被填满。 互联网：因为它只是一个标准网站，如果您没有互联网，您将无法访问您的简历。对于人们在匆忙或旅行时可能需要的工具来说，这感觉是错误的。  这就是为什么我决定专注于将项目重构为可安装的 PWA 并移出本地存储。 这解决了这两个问题： - 存储：您现在可以拥有与设备处理数量一样多的简历和版本。没有任意限制。 - 离线优先：由于它是 PWA，因此您可以安装它并完全离线工作。 当前功能：  无限制的本地简历 + 版本历史记录。 免费 PDF 导出（我在客户端处理生成）。 与设备无关（桌面/移动）。 可选同步：如果满足以下条件，我确实构建了一个小型云服务：您需要在设备之间同步，而且它也是免费的:)，但本地应用程序无需同步即可完全正常运行。  您可以在此处尝试：https://heycv.app   由   提交/u/typesafeui  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4hh3o/i_made_my_resume_builder_with_25k_mau_fully_local/</guid>
-      <pubDate>Sat, 14 Feb 2026 10:36:04 GMT</pubDate>
+      <title>GitXhibit - 来自 github 的无代码组合构建器。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4otcb/gitxhibit_a_no_code_portfolio_builder_form_your/</link>
+      <description><![CDATA[      screenshot of the editor hi i built this portfolio builder using the github data as a small personal project, try entering your github username and play with the themes, i hope you guys like it :) Live Site it is built with - next.js, tailwind, typescript, drizzle, octokit and groq. backstory - so i was building this portfolio website for a friend of mine who is a game dev, and i thought it&#39;s a cool idea for people who are not into frontend or are in other dev fields altogether to get a pretty page to show off their work in seconds. Initially i had just planned on a simple weekend project using AI to generate copy and fetching data from github, but tbh, the AI would sometimes give very cliche copy, so i decided to build a way to edit the text, which kinda turned into a no-code editor for text, colors and fonts. its WIP but i&#39;m happy with what i&#39;ve built and i like the UI too, i&#39;d like you guys to try out and tell me if you like it and what i can improve. Just enter your github username and get started.   由   提交 /u/anewtablelamp   [link] [comments] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4otcb/gitxhibit_a_no_code_portfolio_builder_form_your/</guid>
+      <pubDate>Sat, 14 Feb 2026 16:23:44 GMT</pubDate>
     </item>
     <item>
-      <title>希望您对我的新 3D 作品集提供反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4h73t/would_love_your_feedback_on_my_new_3d_portfolio/</link>
-      <description><![CDATA[      https://portfolio-x24w.vercel.app/   由   提交/u/Odd-Firefighter-1830   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4h73t/would_love_your_feedback_on_my_new_3d_portfolio/</guid>
-      <pubDate>Sat, 14 Feb 2026 10:18:41 GMT</pubDate>
+      <title>[周六炫耀] 我十年来定期维护的 700 多个网络开发工具和资源的集合（图标、图案、背景、生成器、颜色选择器、设计灵感等）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4o8uf/showoff_saturday_my_decadeinthemaking_regularly/</link>
+      <description><![CDATA[https://toolkit.addy.codes/ 请告诉我您的想法以及我是否遗漏了您最喜欢的任何内容！ :)   由   提交 /u/addycodes   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4o8uf/showoff_saturday_my_decadeinthemaking_regularly/</guid>
+      <pubDate>Sat, 14 Feb 2026 16:00:53 GMT</pubDate>
     </item>
     <item>
-      <title>改进了我的开发人员组合。对布局、间距和结构的反馈？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4h4o0/revamped_my_developer_portfolio_feedback_on/</link>
-      <description><![CDATA[作品集：https://akoder.xyz/ 我之前在这里分享了我的作品集。从那时起，我修改了它的多个部分 - 更新了部分，改进了布局，并改进了间距，以实现更好的结构和清晰度。 希望获得新的视角和诚实的反馈。   由   提交 /u/Affectionate-Gur-318   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4h4o0/revamped_my_developer_portfolio_feedback_on/</guid>
-      <pubDate>Sat, 14 Feb 2026 10:14:37 GMT</pubDate>
+      <title>带有有限动画的博客缩略图/标题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4o366/blog_thumbnailheader_with_limited_animation/</link>
+      <description><![CDATA[      您对这种技术有何看法？我有一个 rive 动画文件，用于缩略图和文章标题（放大和裁剪）。 我试图保持动画的吸引力，但又不会太分散注意力。这是一个艰难的平衡！ 在博客 动画文件只有 6k（压缩后），将其重新用于博客条目和文章会减少负载。 问题：但是，等等，您不必加载 Rive 运行时吗？ (43k)？ 答案： 是的，但是我已经在我网站的其他地方使用了动画头像，可以在财务帮助下引导您浏览整个网站。   由   提交/u/dentedpixel   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4o366/blog_thumbnailheader_with_limited_animation/</guid>
+      <pubDate>Sat, 14 Feb 2026 15:54:34 GMT</pubDate>
     </item>
     <item>
-      <title>由于我们发布的是有关网络流量的信息，因此这是我 10 年前启动的一个小型开源项目的每月流量！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4h2kx/since_were_posting_about_web_traffic_this_is_the/</link>
-      <description><![CDATA[   这有点像对这个人重复发帖的攻击。尽管如此，我仍然为您u/Live_Phrase4672感到高兴，您已经能够通过大量流量取得一些成果！这是一个很好的工具，我希望它将来能吸引更多的人。   由   提交 /u/SKarajic   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4h2kx/since_were_posting_about_web_traffic_this_is_the/</guid>
-      <pubDate>Sat, 14 Feb 2026 10:11:07 GMT</pubDate>
+      <title>内联与外部 SVG</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4nm0m/inline_vs_external_svg/</link>
+      <description><![CDATA[我的侧边栏中有大约 20 个相同的 svg 图标，这些图标出现在我网站的大约 1500 个页面上。嵌入它们会使每个 html 的大小增加约 50 kB。  如果我通过 img 标签链接到外部 svgs，则首页加载时将产生 20 个额外的 http 请求。  您更喜欢哪种方式？为什么？   由   提交/u/iaseth  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4nm0m/inline_vs_external_svg/</guid>
+      <pubDate>Sat, 14 Feb 2026 15:35:21 GMT</pubDate>
     </item>
     <item>
-      <title>在您被 Google 代理取消中介之前，为您的网站提供可嵌入的 Web 代理</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r4gqaa/give_your_site_hands_with_an_embeddable_web_agent/</link>
-      <description><![CDATA[      Google 刚刚发布了 WebMCP，该协议允许网站将内部 API 作为结构化工具公开，以便 Chrome 的 AI 代理可以直接发现和调用它们。 从纸面上看，这听起来很棒。您的网站声明了可用的操作，代理调用它们，烧毁的令牌更少，自动化更清晰。 但想想实际发生的情况：您正在一页一页地进行集成工作：将内部 API 同步到 WebMCP 架构、维护工具声明、处理身份验证流程，并且 Google 的 Chrome 代理将成为与您的用户对话的代理。 Chrome 内部。不在您的网站内。 我们已经在内容中看到了这种情况的发生。精选片段、AMP、知识面板；网站完成了工作，谷歌成为了界面。 WebMCP 感觉就像是相同的交互模式。 我一直在研究一种不同的方法，一种驻留在网站本身上的嵌入式代理，读取实时 DOM，并通过放入脚本标记在网站自己的 UI 内执行操作。没有 API 集成，没有模式维护，网站保持用户关系。 我们已经有了一个基于 DOM 架构的基准领先 Web 代理，通过构建自定义代理可访问性树来表示网页，因此在一层不受选择器/DOM 更新的影响。这种技术架构使我们能够提供可嵌入脚本，该脚本可以与您网站的 HTML 进行交互，以便对用户采取操作、运行工作流程、填写表单并通过用户对话转化访问者。 可以查看演示：https://www.youtube.com/watch?v=JYJ-LEBJlVc 很好奇你们都怎么想，我是否过度考虑了 WebMCP 或者网络对话代理接口的需求？   由   提交/u/BodybuilderLost328  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r4gqaa/give_your_site_hands_with_an_embeddable_web_agent/</guid>
-      <pubDate>Sat, 14 Feb 2026 09:50:07 GMT</pubDate>
+      <title>DNS解析直观解释（浏览器→服务器）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4ngqk/dns_resolution_explained_visually_browser_server/</link>
+      <description><![CDATA[输入 URL 时发生的情况的简单可视化分解： 浏览器 → 操作系统 → 递归解析器 → 根 → TLD → 权威服务器 → IP → 发送请求。   由   提交/u/nulless  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4ngqk/dns_resolution_explained_visually_browser_server/</guid>
+      <pubDate>Sat, 14 Feb 2026 15:29:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
