@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 14 Feb 2026 01:45:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 04:30:32 GMT</lastBuildDate>
+    <item>
+      <title>制作了一个简单的扩展，可以将网络上的任何内容快速保存到一个地方</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r4alsy/made_a_simple_extension_to_quickly_save_anything/</link>
+      <description><![CDATA[      从网络上保存内容仍然感觉奇怪地支离破碎。 你发现一些有用的东西，你的选择是为它添加书签、将其复制到笔记应用程序中、发送给自己，或者希望你以后记住它。一切都感觉不到快速或集中，特别是当您使用不同的浏览器或设备时。 所以我构建了 Magpie。它是一个小型浏览器扩展程序，可让您在浏览时将文本、图像和链接直接保存到 Google 云端硬盘中。没有新帐户，也没有单独的平台。所有内容都会进入您自己的云端硬盘，因此一切都集中在一处并且可以在任何地方访问。它适用于 Chrome 和 Brave。您还可以保存到共享文件夹中，这对于团队一起收集研究或灵感非常有用。 可以免费试用。非常感谢任何诚实的反馈。 这是链接： https://chromewebstore.google.com/detail/magpie%E2%80%94stash-web-treasure/fleomionkiaejphkjbloaddfnaegjibf   由   提交/u/Kumo57  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r4alsy/made_a_simple_extension_to_quickly_save_anything/</guid>
+      <pubDate>Sat, 14 Feb 2026 04:03:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何在这个网站上复制这个美丽的背景？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r49te9/how_do_i_replicate_this_beautiful_background_in/</link>
+      <description><![CDATA[https://www.seanhalpin.xyz/ 您好！我正在尝试找出代码，但我无法完全正确，我喜欢绿色调色板。有没有一个AI可以有效地帮助解决这个问题？ 我问了claude和gemini，但他们没有明白。   由   提交/u/sylph79  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r49te9/how_do_i_replicate_this_beautiful_background_in/</guid>
+      <pubDate>Sat, 14 Feb 2026 03:24:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>第一次使用我自己的基于网络的 3D 建模应用程序来建模浮动房屋。🤩</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r48dl8/first_time_using_my_own_webbased_3d_modeling_app/</link>
+      <description><![CDATA[      源代码：https://github.com/sengchor/kokraf 尝试一下：https://kokraf.com   由   提交 /u/Sengchor   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r48dl8/first_time_using_my_own_webbased_3d_modeling_app/</guid>
+      <pubDate>Sat, 14 Feb 2026 02:17:10 GMT</pubDate>
+    </item>
     <item>
       <title>有什么人们很少使用的有趣的生产力技巧吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1r47mzd/any_interesting_productivity_tip_people_rarely_use/</link>
@@ -15,7 +36,7 @@
     <item>
       <title>我建立了一个私人的、无广告的实用程序中心，其中包含 500 多个计算器和客户端工具。没有服务器上传。</title>
       <link>https://www.reddit.com/r/webdev/comments/1r47fe3/i_built_a_private_adfree_utility_hub_with_500/</link>
-      <description><![CDATA[所以我在 CalcVerse 上工作了一段时间，试图创建一个以隐私为主要限制的 Web 实用程序集合。从财务计算到 PDF 操作，一切都 100% 在浏览器中运行。没有文件或输入发送到服务器。 我包含的内容： - 500 多个计算器：基本上涵盖顶级类别，如（金融、健康、数学、科学等），其中许多具有场景比较和实用见解 - 本地 PDF、图像和文本工具：基本上是使用 Web API 等完全在内存中合并、拆分和转换文件的工具。 - 太空主题目标Tracker：一个游戏化系统，记录习惯或目标可解锁新的空间区域，旨在让日常习惯更具吸引力。 - 计算器生成器：允许在不同工具之间管道输入和输出以创建自定义工作流程的逻辑。 技术：[React + TypeScript + Tailwind + Vite + MiniSearch + jsPDF]。 我希望获得一些有关性能和 UI/UX 的诚实反馈。 这里是链接：https://calc-verse.com   由   提交 /u/HighwayFragrant4772   [链接] [评论]]]></description>
+      <description><![CDATA[所以我在 CalcVerse 上工作了一段时间，试图创建一个 Web 实用程序集合，我想在其中测试在没有后端的情况下构建它的限制。从财务计算到 PDF 操作，一切都 100% 在浏览器中运行。没有文件或输入发送到服务器。 我包含的内容： - 500 多个计算器：基本上涵盖了顶级类别，如（金融、健康、数学、科学等），其中许多还具有场景比较。 - 本地 PDF、图像和文本工具：基本上是使用 Web API 等完全在内存中合并、拆分和转换文件的工具。 - 太空主题目标跟踪器：A游戏化系统，记录习惯或目标可以解锁新的空间区域，旨在让日常习惯不再那么无聊。 - 计算器生成器：允许在不同工具之间管道输入和输出以创建自定义工作流程的逻辑。 技术：[React + TypeScript + Tailwind + Vite + MiniSearch + jsPDF]。 我希望获得一些有关性能和 UI/UX 的诚实反馈。 以下是链接：  https://calc-verse.com  编辑：修正了一些措辞，使其不那么“公司”发声。   由   提交 /u/HighwayFragrant4772   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r47fe3/i_built_a_private_adfree_utility_hub_with_500/</guid>
       <pubDate>Sat, 14 Feb 2026 01:32:40 GMT</pubDate>
     </item>
@@ -36,7 +57,7 @@
     <item>
       <title>需要帮助制作视差</title>
       <link>https://www.reddit.com/r/webdev/comments/1r44o29/need_help_making_parallax/</link>
-      <description><![CDATA[我正在尝试为一个专业网站构建一个登陆页面，客户要求包括一些以 3D 对象为中心和不断变化的背景的视差效果，由于我的工作压力，我感到非常疲惫，请帮助我找到此类网站的灵感，或者如果有人有他们使用的技术组合，请随时分享和展示并帮助我构建。我正在研究诸如 Framer、Unicorn 和 Three js 这样的网站，但这些网站让 meel 感到更加不知所措。 旁注：我正在使用 next 进行开发。   由   提交/u/Strucker30  [链接] [评论]]]></description>
+      <description><![CDATA[我正在尝试为一个专业网站构建一个登陆页面，客户要求包括一些以 3D 对象为中心和不断变化的背景的视差效果，由于我的工作压力，我感到非常疲惫，请帮助我找到这类网站的灵感，或者如果有人有他们使用的技术组合，请随时分享和展示并帮助我构建。我正在研究诸如 Framer、Unicorn 和 Three js 这样的网站，但这些网站让 meel 感到更加不知所措。 旁注：我正在使用 next 进行开发。   由   提交/u/Strucker30  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r44o29/need_help_making_parallax/</guid>
       <pubDate>Fri, 13 Feb 2026 23:29:37 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[如标题所示。   由   提交 /u/lune-soft   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r430d5/from_your_exp_what_is_difference_between_full/</guid>
       <pubDate>Fri, 13 Feb 2026 22:19:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>重新设计我的网站 UI</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r42t1k/redesigning_my_site_ui/</link>
-      <description><![CDATA[      原版是我制作的第一个主要网络应用程序 后者是我利用我增强的技能使其更加现代。看看：https://transit.chexedy.com/   由   提交 /u/YogurtclosetWise9803   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r42t1k/redesigning_my_site_ui/</guid>
-      <pubDate>Fri, 13 Feb 2026 22:11:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软人工智能首席执行官：“今天的人工智能比绝大多数程序员都要好。大多数白领工作将在未来 12 到 18 个月内实现自动化。”</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r42f32/microsoft_ai_ceo_todays_ais_are_better_than_the/</link>
-      <description><![CDATA[       由   提交/u/Gil_berth  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r42f32/microsoft_ai_ceo_todays_ais_are_better_than_the/</guid>
-      <pubDate>Fri, 13 Feb 2026 21:56:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>我正在考虑制作一个去中心化的模式系统。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r426mj/i_was_thinking_of_making_a_decentralized_schema/</link>
-      <description><![CDATA[      我正在考虑制作一个去中心化模式系统，该系统不必访问一个网站，例如：（schema.org），它可以使用集合和数组来区分什么是相同的，什么是不同的。这个想法是，每个域都有自己的集合或集合组，其中一些是其他集合的子集，例如：（第一个集合包含元素“人”，“名称”和“年龄”，但它也有一个仅包含“名称”和“年龄”的子集）集合也可以彼此相交，例如：（来自 a.com 的 SetA 有“苹果”和“香蕉”，而来自 b.com 的 SetB 有“香蕉”和&#39;orange&#39;）这两个集合将具有一些相同的元素，而另一些则不同。此外，如果您愿意，这些集合可以在网页的相同域或不同域中工作，并且它仍然可以工作，因为它使用的集合论略有不同，因此它可以处理数据而不仅仅是数字。   由   提交/u/CodeConductor10   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r426mj/i_was_thinking_of_making_a_decentralized_schema/</guid>
-      <pubDate>Fri, 13 Feb 2026 21:46:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
