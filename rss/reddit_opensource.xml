@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 15 Feb 2026 09:29:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 12:40:55 GMT</lastBuildDate>
+    <item>
+      <title>Android 键盘支持同步语言输入吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r5d5gh/android_keyboard_that_supports_simultaneous/</link>
+      <description><![CDATA[ 由   提交/u/luka1194  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r5d5gh/android_keyboard_that_supports_simultaneous/</guid>
+      <pubDate>Sun, 15 Feb 2026 12:12:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>基准测试：Kreuzberg、Apache Tika、Docling、Unstructed.io、PDFPlumber、MinerU 和 MuPDF4LLM</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r5bbzm/benchmarks_kreuzberg_apache_tika_docling/</link>
+      <description><![CDATA[       由   提交/u/Goldziher   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r5bbzm/benchmarks_kreuzberg_apache_tika_docling/</guid>
+      <pubDate>Sun, 15 Feb 2026 10:24:39 GMT</pubDate>
+    </item>
     <item>
       <title>我又做了一个开源的 Minecraft 克隆，这是 500 个 npc 测试</title>
       <link>https://www.reddit.com/r/opensource/comments/1r4yc2h/i_made_a_yet_another_open_source_minecraft_clone/</link>
@@ -22,7 +36,7 @@
     <item>
       <title>RSS Deck - 具有 AI 功能的开源 RSS 阅读器</title>
       <link>https://www.reddit.com/r/opensource/comments/1r4gw7e/rss_deck_open_source_rss_reader_with_ai_features/</link>
-      <description><![CDATA[为我的家庭实验室构建一个现代 RSS 阅读器，无需调用云 API。 它的作用：  多列仪表板（TweetDeck 风格） 通过 Ollama 进行本地 AI 摘要 具有可读性的全文提取 Telegram 警报对于关键字 Docker 部署就绪  堆栈：Next.js 15，TypeScript，完全自托管运行   现场演示：https://rssdeck.vercel.app/   由   提交 /u/mephistophelesbits   [链接] [评论]]]></description>
+      <description><![CDATA[为我的家庭实验室构建一个现代 RSS 阅读器，无需调用云 API。 它的作用：  多列仪表板（TweetDeck 风格） 通过 Ollama 进行本地 AI 摘要 具有可读性的全文提取 Telegram 警报对于关键字 Docker 部署就绪  堆栈：Next.js 15、TypeScript，完全自托管运行 https://rssdeck.vercel.app/landing.html   由   提交 /u/mephistophelesbits   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1r4gw7e/rss_deck_open_source_rss_reader_with_ai_features/</guid>
       <pubDate>Sat, 14 Feb 2026 10:00:25 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[      由于 RootApp 聊天似乎是人们想要的替代方案，因此应用程序/机器人将是最小的，它至少会帮助人们组合一些简单的东西，而不是挖掘一堆文档。 需要自托管，没有远程服务器。它应该支持大多数 MCP 格式，您只需插入每个环境的 MCP 属性即可。  因此，如果您的搜索工具请求“例外”，它将回复   { &quot;matches&quot;: [ { &quot;path&quot;: &quot;bot/api/reference/classes/RootApiException.md&quot;, &quot;matchCount&quot;: 15, &quot;snippet&quot;: &quot;...当 API 调用时抛出 RootApiException失败了……” } ], “总计”: 8, “查询”: “异常” }  ai 会知道 RootApiException.md 是一个适合搜索的文件，然后它可以请求该文件并读取它。 功能  检索文档：访问 DOCS 目录中的任何文件 列表目录：浏览文档目录结构 搜索文件：跨文件名和不区分大小写的搜索路径 搜索内容：在文档文件的实际内容中搜索 动态路径解析：自动解析相对于项目目录的DOCS路径 纠错：如果LLM没有正确搜索，则会被告知“您的意思是x”    由   提交/u/cyb3rofficial  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1r3bh3v/i_conjured_up_a_mcp_server_for_the_docs_for_the/</guid>
       <pubDate>Fri, 13 Feb 2026 01:12:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有像 Syncthing 这样的开源库，但我可以在我的项目中使用？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1r38ek1/any_open_source_libraries_like_syncthing_but_that/</link>
-      <description><![CDATA[我喜欢 Syncthing 提供的去中心化同步功能，并希望我可以轻松地在我的项目中包含类似的功能。想象一下有声读物播放器可以在设备之间同步位置，而无需服务器或集中服务。当然，我可以只记录文件系统上的位置并告诉用户使用 Syncthing 应用程序本身，但我喜欢在应用程序中进行所有设备配对的想法。 有没有什么好的库可供我使用？   由   提交 /u/Strong_Quarter_9349   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1r38ek1/any_open_source_libraries_like_syncthing_but_that/</guid>
-      <pubDate>Thu, 12 Feb 2026 23:01:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我构建自己的开源 ESP32-C3 Macropad，带有 USB 和蓝牙、9 键加编码器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1r3091l/why_i_built_my_own_open_source_esp32c3_macropad/</link>
-      <description><![CDATA[    /u/aayushchouhan24   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1r3091l/why_i_built_my_own_open_source_esp32c3_macropad/</guid>
-      <pubDate>Thu, 12 Feb 2026 17:52:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
