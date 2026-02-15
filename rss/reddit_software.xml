@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Sun, 15 Feb 2026 18:30:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 21:20:53 GMT</lastBuildDate>
+    <item>
+      <title>我需要某种方法从 GUI 而不是从 shell 打印文件</title>
+      <link>https://www.reddit.com/r/software/comments/1r5p10a/i_need_some_way_to_print_files_from_a_gui_rather/</link>
+      <description><![CDATA[我有一个 GUI 应用程序可以使用 HP 进行扫描，但无法从 GUI 进行打印。我使用 labwc，所以我的桌面环境中没有像 KDE 或 GNOME 那样内置任何东西。   由   提交/u/nathan22211  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r5p10a/i_need_some_way_to_print_files_from_a_gui_rather/</guid>
+      <pubDate>Sun, 15 Feb 2026 20:25:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>快速的自动打字工具</title>
+      <link>https://www.reddit.com/r/software/comments/1r5mxz8/auto_typing_tool_that_is_fast/</link>
+      <description><![CDATA[我找到了 Murgee 的自动输入工具，但由于某种原因，它不起作用。我还找到了一个名为 Autosofted 的软件，但速度很慢，而且只需要 60 个字符。我想要的东西是快速的，几乎是实例，但在输入句子后停止，并且可以容纳至少 300 个字符。如果你们知道的话，那会有所帮助。   由   提交/u/Ultimax03  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r5mxz8/auto_typing_tool_that_is_fast/</guid>
+      <pubDate>Sun, 15 Feb 2026 19:04:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找充当客户/公司中心的东西</title>
+      <link>https://www.reddit.com/r/software/comments/1r5mlwf/looking_for_something_to_act_as_a_sort_of/</link>
+      <description><![CDATA[基本上是寻找能够让客户一站式了解项目进度、上传艺术品等文件、查看客户经理的联系信息、查看报价或合同等的工具。 CRM 有很多功能，但正在寻找能够覆盖客户的功能，以便他们也可以查看自己的页面。 我一直在考虑为每个客户提供一个自定义网页，但如果可能的话，希望有一些更易于使用的功能。   由   提交/u/Kazul_Kaluru   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r5mlwf/looking_for_something_to_act_as_a_sort_of/</guid>
+      <pubDate>Sun, 15 Feb 2026 18:51:53 GMT</pubDate>
+    </item>
     <item>
       <title>Linux Ubuntu 服务器 NAS</title>
       <link>https://www.reddit.com/r/software/comments/1r5lodc/linux_ubuntu_server_nas/</link>
@@ -22,7 +43,7 @@
     <item>
       <title>我不想将照片上传到网络查看器来查看它们的位置/地理数据，因此我构建了一个免费的开源本地 OSINT 工具，该工具可以从图像文件夹创建运动时间线。</title>
       <link>https://www.reddit.com/r/software/comments/1r5hsph/i_didnt_want_to_upload_my_photos_to_a_webviewer/</link>
-      <description><![CDATA[ https://preview.redd.it/kvs22kc8jojg1.png?width=2556&amp;format=png&amp;auto=webp&amp;s=b91e395a0f91d553b61bf1fc1ba109ca123ead2b 我需要为大学数字取证项目分析数千张照片的位置历史记录。唯一的选择是单图像命令行工具（太慢）或基于网络的查看器（隐私噩梦）。 解决方案：我构建了Refloow Geo Forensics。它是一个桌面应用程序 (AGPL-3.0)，可以提取图像文件夹，在本地提取 EXIF 数据，并在地图上绘制移动历史记录。 它的作用：  批处理：只需提供包含 100 多张图像的文件夹的路径。 时间线重建：它按时间顺序将点连接到显示行进路径。 隐私：它处理您机器上的所有内容。  用例：  OSINT 调查：快速验证一系列照片的拍摄地点，无需将证据上传到云端。 个人存档：通过相机可视化公路旅行或假期SD 卡备份。 数据隐私检查：在共享图像之前验证图像是否确实删除了位置数据。  更新/路线图：我于 3 天前发布了此内容，并在 reddit 上的 OSINT 和 osinttools 社区中引起热议。根据这些反馈，我目前正在致力于：  地理定位视频支持 (MP4/MOV) Linux 和 Linux 系统。 Mac 版本（目前仅限 Windows） 以及更多地图设置和选项  存储库： https://github.com/Refloow/Refloow-Geo-Forensics 我很乐意听到任何其他反馈或问题！   由   提交 /u/Refloow   [链接] [评论]]]></description>
+      <description><![CDATA[ https://preview.redd.it/kvs22kc8jojg1.png?width=2556&amp;format=png&amp;auto=webp&amp;s=b91e395a0f91d553b61bf1fc1ba109ca123ead2b 我需要为大学数字取证项目分析数千张照片的位置历史记录。唯一的选择是单图像命令行工具（太慢）或基于网络的查看器（隐私噩梦）。 解决方案：我构建了Refloow Geo Forensics。它是一个桌面应用程序 (AGPL-3.0)，可以提取图像文件夹，在本地提取 EXIF 数据，并在地图上绘制移动历史记录。 它的作用：  批处理：只需提供包含 100 多张图像的文件夹的路径。 时间线重建：它将按时间顺序将点连接到显示行进路径。 隐私：它处理您机器上的所有内容。  用例：  OSINT 调查：快速验证一系列照片的拍摄地点，无需将证据上传到云端。 个人存档：通过相机可视化公路旅行或假期SD 卡备份。 数据隐私检查：在共享图像之前验证图像是否确实删除了位置数据。  更新/路线图：我于 3 天前发布了此内容，并在 reddit 上的 OSINT 和 osinttools 社区中引起热议。根据这些反馈，我目前正在致力于：  地理定位视频支持 (MP4/MOV) Linux 和 Linux 系统。 Mac 版本（目前仅限 Windows） 以及更多地图设置和选项  存储库： https://github.com/Refloow/Refloow-Geo-Forensics 我很乐意听到任何其他反馈或问题！   由   提交 /u/Refloow   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r5hsph/i_didnt_want_to_upload_my_photos_to_a_webviewer/</guid>
       <pubDate>Sun, 15 Feb 2026 15:45:57 GMT</pubDate>
     </item>
@@ -71,7 +92,7 @@
     <item>
       <title>还有人不愿意将私人 PDF 上传到网络工具吗？</title>
       <link>https://www.reddit.com/r/software/comments/1r4w80p/anyone_else_uncomfortable_uploading_private_pdfs/</link>
-      <description><![CDATA[我经常注意到，许多人将极其敏感的文档（身份证、证书、政府/财务记录等）上传到在线 PDF 工具。 虽然 iLovePDF 等服务被广泛使用，并且可能是由善意的团队构建的，但更广泛的现实是，我们生活在一个不断发生数据挖掘、泄露和供应链攻击的时代。 甚至值得信赖的平台可能成为风险面。仅这个想法就足以让我对将私有文件上传到闭源 Web 服务感到不舒服。 因此，作为一个小型个人项目，我构建了 pdfer，一个用 Rust 编写的最小的完全开源本地 PDF 实用程序。目前支持通过简单的终端界面合并和拆分 PDF，并计划提供 GUI 和更多 PDF 操作。 无意取代任何内容（目前），只是为那些喜欢完全离线保存文档的人提供隐私优先的替代方案。我愿意接受反馈和建议:)   由   提交 /u/buryingsecrets   [链接] [评论]]]></description>
+      <description><![CDATA[我经常注意到，许多人将极其敏感的文档（身份证、证书、政府/财务记录等）上传到在线 PDF 工具。 虽然 iLovePDF 等服务被广泛使用，并且可能是由善意的团队构建的，但更广泛的现实是，我们生活在一个不断发生数据挖掘、泄露和供应链攻击的时代。 甚至值得信赖的平台可能成为风险面。仅这个想法就足以让我对将私人文件上传到闭源 Web 服务感到不舒服。 因此，作为一个小型个人项目，我构建了 pdfer，一个用 Rust 编写的最小的完全开源本地 PDF 实用程序。目前支持通过简单的终端界面合并和拆分 PDF，并计划提供 GUI 和更多 PDF 操作。 无意取代任何内容（目前），只是为那些喜欢完全离线保存文档的人提供隐私优先的替代方案。我愿意接受反馈和建议:)   由   提交 /u/buryingsecrets   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r4w80p/anyone_else_uncomfortable_uploading_private_pdfs/</guid>
       <pubDate>Sat, 14 Feb 2026 21:18:41 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[大家好， 我的 Adob​​e 摄影计划 (20GB) 于 1 月 7 日被取消，理由是“欺诈行为”。我刚刚登录我的 adobe cc 帐户，看到在 lightroom 和 photoshop 上购买的选项。 我想明确一点：我从未使用过盗版 Adobe 软件。 多年来，我： • 通过订阅直接购买 Adobe Photography 计划 • 激活与 Seagate 硬盘捆绑在一起的合法 Adobe Photography 计划代码 • 仅使用正版 Adobe 帐户和软件 我没有发起任何退款、付款纠纷或异常交易。 就背景而言，我自 2023 年以来一直在接受癌症治疗，自 2024 年初以来几乎没有使用 Lightroom 或 Photoshop。因此大量使用或帐户共享不是一个因素。 我直接登录到我的 Adobe 帐户（不是通过电子邮件链接），什么也没有，当我打开最近的电子邮件时，计划显示已取消。我尚未拨打电子邮件中提到的电话号码。 我的问题：  什么通常会触发 Adobe 的“欺诈预防”取消？ 如果没有提出退款，什么可能会导致这种情况？ 审核和恢复此项取消的最快、最有效的方法是什么？ 有人成功撤销此类取消吗？  如果您已处理过对于类似的内容，我会很感激有效的具体步骤。 提前致谢。 更新：这是 Twitter (X) 中 adobe care 的更新，这与我在电子邮件中收到的内容相同 您好，感谢您与我们联系。我们审核了您的帐户，并发现了一封主题行为“在您的 Adob​​e 帐户上检测到欺诈活动”的电子邮件，其中包含用于联系指定团队的信息：866-493-4991。请致电 866-493-4991 联系我们的指定团队，他们将能够为您提供进一步帮助。谢谢！ ^AT   由   提交/u/epicenthusiast007  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r4svsy/adobe_photography_plan_cancelled_for_fraud_need/</guid>
       <pubDate>Sat, 14 Feb 2026 19:02:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>终于找到了本地提取Disney+ Widevine Keys (KID:KEY)的方法</title>
-      <link>https://www.reddit.com/r/software/comments/1r4skfj/finally_found_a_way_to_extract_disney_widevine/</link>
-      <description><![CDATA[正在处理 img ugigw496aijg1...   由   提交 /u/Worried_Zucchini_335   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r4skfj/finally_found_a_way_to_extract_disney_widevine/</guid>
-      <pubDate>Sat, 14 Feb 2026 18:49:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>请勿安装 IOBIT 卸载程序。</title>
-      <link>https://www.reddit.com/r/software/comments/1r4q4zz/do_not_install_iobit_uninstaller/</link>
-      <description><![CDATA[不知道还有什么可以标记这个，所以就在这里。 我正在寻找一个卸载程序，因为我听说 revo 不安全，所以我去了 iobit 并下载了他们的卸载程序。 首先。它充满了广告。当你尝试卸载东西时，你会受到广告轰炸。 第二，它在我不知情的情况下下载了 3 个其他应用程序，一个用于录音，另一个用于 VPN，另一个用于其他用途，我不知道，但当我进入安装程序时关闭所有应用程序真的很烦人。连同广告。 我坚持使用 revo。我更喜欢revo，因为它不那么混乱。 ^^ 编辑：使文本变大。我坚持使用 revo，但感谢您的建议   由   提交 /u/Myvric   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r4q4zz/do_not_install_iobit_uninstaller/</guid>
-      <pubDate>Sat, 14 Feb 2026 17:15:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Masync：用于与 ssh 访问同步的命令行工具</title>
-      <link>https://www.reddit.com/r/software/comments/1r4owfc/masync_command_line_tool_for_synching_with_ssh/</link>
-      <description><![CDATA[大家好， 我刚刚重写和修改了个人工具的文档，该工具帮助我完成了我想与您分享的任务。也许有人有兴趣贡献想法并发现它很有用 该软件是一种命令行工具，允许您镜像任意数量的文件夹（目标）并与一个或多个源保持同步。来源可以是本地的或远程的。 SFTP 用于保持远程源同步。 唯一的要求是您可以通过 SSH 访问您的服务器。 开发人员的意图是此工具的目标：  自托管和隐私：鼓励数据在您自己的服务器上（使用您的密钥）的持久性和冗余 多任务：您可以使用控制台中的单个命令管理多个同步文件夹及其远程/本地目标 无需安装：无需安装任何服务器端软件；您只需通过 SSH 访问您的服务器即可。 2 种同步方式：您可以从目标到源、从源到目标同步，集成对源所做的更改。 冲突管理您不会丢失任何文件版本或更改。该工具会尝试帮助您保留哪个版本  在这里您可以找到存储库 Masync 全部都是开源的 祝您有美好的一天   由   提交 /u/notanamber   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r4owfc/masync_command_line_tool_for_synching_with_ssh/</guid>
-      <pubDate>Sat, 14 Feb 2026 16:27:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
