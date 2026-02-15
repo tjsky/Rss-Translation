@@ -4,7 +4,49 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 15 Feb 2026 12:40:23 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 15:22:33 GMT</lastBuildDate>
+    <item>
+      <title>临时基础设施悖论和更好的身份治理需求</title>
+      <link>https://www.reddit.com/r/programming/comments/1r5h21h/the_ephemeral_infrastructure_paradox_and_the_need/</link>
+      <description><![CDATA[当工作负载快速创建和销毁时，身份、凭据和权限的停留时间通常会比预期的时间长。随着时间的推移，这会产生无人主动管理的未使用或过度特权的访问。在出现问题之前，风险通常是看不见的。 哪些方法实际上降低了风险，而又不会拖慢团队的速度？ 什么在理论上听起来不错，但在实际环境中却失败了？   由   提交/u/Informal_Net2566   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r5h21h/the_ephemeral_infrastructure_paradox_and_the_need/</guid>
+      <pubDate>Sun, 15 Feb 2026 15:15:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能工作负载的可观察性：新时代的新范式</title>
+      <link>https://www.reddit.com/r/programming/comments/1r5g5sk/observability_for_ai_workloads_a_new_paradigm_for/</link>
+      <description><![CDATA[每个人都急于在生产中部署人工智能工作负载。 但是这些工作负载的可观察性如何？ 人工智能工作负载引入了以前不存在的模型评估、成本归因和人工智能安全方面的全新可观察性需求。 更令人惊讶的是，人工智能工作负载迫使我们重新思考“传统”中的基本假设可观察性实践：关于吞吐量、延迟容差和有效负载大小的假设。 很想从这里听到其他人对这个主题的更多见解。   由   提交/u/horovits  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r5g5sk/observability_for_ai_workloads_a_new_paradigm_for/</guid>
+      <pubDate>Sun, 15 Feb 2026 14:37:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>重新定义 Go 函数</title>
+      <link>https://www.reddit.com/r/programming/comments/1r5f9xz/redefining_go_functions/</link>
+      <description><![CDATA[ 由   提交 /u/stackoverflooooooow   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r5f9xz/redefining_go_functions/</guid>
+      <pubDate>Sun, 15 Feb 2026 13:58:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了 OpenBot - 您自己的个人人工智能助理。</title>
+      <link>https://www.reddit.com/r/programming/comments/1r5en36/i_build_openbot_your_own_personal_ai_assistant/</link>
+      <description><![CDATA[与 OpenClaw 类似，但我们的机器人名为 OpenBot。它可以为你给你的朋友发短信（WhatsApp、Telegram、LinkedIn 等）、安排会议、管理你的日历、创建和管理项目、编写和调试代码、预订酒店和航班、订餐或为你在线购物（Uber、Amazon 等） 与 OpenClaw 不同，OpenBot 很安全，它具有 HITL（Human In The Loop）功能，这意味着未经你的许可它不会做出任何决定。另外，OpenBot还进行了代币优化，具体表现在一个任务最多使用6000个代币。 OpenBot将是用户友好的，与OpenClaw不同，它的使用不需要技术知识。 OpenBot 将能够被所有人使用，无论是技术用户还是非技术用户。 普通的非技术用户可以通过一个漂亮的 UI 网站使用它。 OpenBot 将拥有“代理”。而不是技能。 OpenBot 将是一个具有子代理的主代理。 （浏览器代理和 OSAgent）。如果用户告诉 OpenBot 任何任务，OpenBot 将确定要调用哪个机器人，以及使用哪个机器人来执行该任务。 如果用户想要订购食物，OpenBot 将按如下方式工作： OpenBot &gt; OS代理&gt; FoodOrderingAgent。 OpenBot 的最大优势之一是用户可以使用自然语言为任何平台创建他们需要的代理。或者通过单击“安装”按钮来安装预制代理。 通过使用此架构，我们实现了一个不那么幻觉的 AI 助手。 如果您喜欢它，请在 GitHub 上为它加注星标。 这里是链接：github .com / meetopenbot / openbot   由   提交/u/Front_Holiday_9395   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r5en36/i_build_openbot_your_own_personal_ai_assistant/</guid>
+      <pubDate>Sun, 15 Feb 2026 13:28:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>餐巾纸数学</title>
+      <link>https://www.reddit.com/r/programming/comments/1r5ejhu/napkin_math/</link>
+      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r5ejhu/napkin_math/</guid>
+      <pubDate>Sun, 15 Feb 2026 13:23:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ring编程语言1.26版本发布！</title>
+      <link>https://www.reddit.com/r/programming/comments/1r5dyof/ring_programming_language_version_126_is_released/</link>
+      <description><![CDATA[ 由   提交/u/mrpro1a1  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r5dyof/ring_programming_language_version_126_is_released/</guid>
+      <pubDate>Sun, 15 Feb 2026 12:55:42 GMT</pubDate>
+    </item>
     <item>
       <title>找到了 LMP 备忘单</title>
       <link>https://www.reddit.com/r/programming/comments/1r5djy0/found_this_cheat_sheet_for_lmp/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[在此处编写了有关线程转储和 JDK 源代码分析的完整调查：medium.com/@nik6/a-deep-dive-into-classloader-contention-in-java-a0415039b0c1   由   提交/u/nk_25  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r4m2rs/one_line_of_code_102_blocked_threads/</guid>
       <pubDate>Sat, 14 Feb 2026 14:31:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>流行开源项目中的人工智能使用</title>
-      <link>https://www.reddit.com/r/programming/comments/1r4fst5/ai_usage_in_popular_open_source_projects/</link>
-      <description><![CDATA[随着人工智能生态系统不断发展政策，开源项目中人工智能使用的政策也在不断发展。随着人工智能被提升来处理大部分编码工作，关于人工智能的使用减少了对软件工程师的需求已经有很多讨论。但开源社区并没有看到所声称的改进，过去几年大型开源项目中只有 1-2% 的 AI 辅助代码辅助。  开源项目也对 AI 问题采取了越来越多的立场，并制定了强有力的指导方针，规定贡献者有责任在提出更改之前理解代码。一些项目还禁止提交 AI 代码，原因是 AI 坡度增加、贡献质量差、占用维护人员大量时间以及贡献代码的版权问题。   由   提交/u/xtreak  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r4fst5/ai_usage_in_popular_open_source_projects/</guid>
-      <pubDate>Sat, 14 Feb 2026 08:51:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>微前端：什么时候有意义，什么时候没有意义</title>
-      <link>https://www.reddit.com/r/programming/comments/1r4dkgx/micro_frontends_when_they_make_sense_and_when/</link>
-      <description><![CDATA[ 由   提交 /u/archunit   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r4dkgx/micro_frontends_when_they_make_sense_and_when/</guid>
-      <pubDate>Sat, 14 Feb 2026 06:39:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>厌倦了破损的 Selenium 脚本？尝试让人工智能处理浏览器自动化</title>
-      <link>https://www.reddit.com/r/programming/comments/1r4d3je/tired_of_broken_selenium_scripts_try_letting_ai/</link>
-      <description><![CDATA[花了数年时间维护脆弱的 Selenium/Playwright 脚本，直到我尝试了 AGBCLOUD 的浏览器使用功能。给代理一个目标（“从竞争对手网站抓取定价”），它会自主处理 DOM 更改、登录、验证码（使用人机交互）。不再有 XPath 地狱。有人用基于代理的方法构建了生产抓取工具吗？   由   提交/u/skipdaballs  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r4d3je/tired_of_broken_selenium_scripts_try_letting_ai/</guid>
-      <pubDate>Sat, 14 Feb 2026 06:12:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>渲染可见光谱</title>
-      <link>https://www.reddit.com/r/programming/comments/1r4c7eb/rendering_the_visible_spectrum/</link>
-      <description><![CDATA[ 由   提交/u/thepowderguy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r4c7eb/rendering_the_visible_spectrum/</guid>
-      <pubDate>Sat, 14 Feb 2026 05:24:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dave Farley 谈人工智能、现代软件工程和工程学科</title>
-      <link>https://www.reddit.com/r/programming/comments/1r3qlqs/dave_farley_on_ai_modern_software_engineering_and/</link>
-      <description><![CDATA[Dave 从事软件工程已有 40 年。他开始使用低级汇编程序编写代码，直接使用内存分配器，从而榨取早期 PC 的性能。  Dave 见证了行业中几乎每一次重大转变：面向对象编程的兴起、互联网的诞生、敏捷运动、持续交付、DevOps 以及现在的人工智能辅助开发。  他说人工智能是比敏捷或互联网更大的转变，但目前还不够好。他还表示，编程作为一个角色正在更多地转变为规范和验证，但仍然是一门深入的技术学科。    由   提交/u/aviator_co   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r3qlqs/dave_farley_on_ai_modern_software_engineering_and/</guid>
-      <pubDate>Fri, 13 Feb 2026 14:28:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究发现，新架构可以将破解 RSA-2048 所需的量子硬件减少十倍</title>
-      <link>https://www.reddit.com/r/programming/comments/1r3nxbw/new_architecture_could_cut_quantum_hardware/</link>
-      <description><![CDATA[ 由   提交/u/donutloop  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r3nxbw/new_architecture_could_cut_quantum_hardware/</guid>
-      <pubDate>Fri, 13 Feb 2026 12:30:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
