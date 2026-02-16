@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Mon, 16 Feb 2026 09:49:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 12:53:41 GMT</lastBuildDate>
+    <item>
+      <title>我们的市场照片对于 23% 的用户来说是横向显示的，我花了 3 周时间才意识到 iPhone 用户上传的并不是“错误”，我们只是删除了 EXIF 数据。</title>
+      <link>https://www.reddit.com/r/software/comments/1r68qec/our_marketplace_photos_were_appearing_sideways/</link>
+      <description><![CDATA[我真的认为我们的卖家无能。我们经营着一个小型点对点市场（与我的室友一起建立了它，上个月的年收入达到 8000 美元），我们的 App Store 评论跌至 2.1 星，每三个评论都会说同样的话：“照片总是横向的”。或“图像颠倒，看起来不专业”我责怪那些我写了被动攻击性工具提示文案的用户，比如“请以正确的方向上传照片”。我知道我是个白痴。 当我看到这些数字时，他们很残酷，我们上传的照片中有 41% 来自 iPhone，其中 23% 在我们的网站上显示旋转不正确，例如横向、颠倒的买家认为卖家不关心我们的旋转图像列表的转化率为 1.8%，而正常列表的转化率为 6.2%，我们谈论的是每月 3,400 美元的 GMV 损失，因为照片看起来像是垃圾。我们是自力更生，每一块钱都很重要。 然后，一位用户向我发送了一段屏幕录像，这让我大吃一惊，她打开 iPhone 相机，以完美的纵向方向拍摄了她的产品照片，并将其上传到我们的网站，然后突然在预览中出现了侧向，她说： “我直立拿着手机，照片在我的相机胶卷中看起来不错，但你的网站将其旋转。我做错了什么？那时我意识到用户没有任何问题。邪恶的是我们  现在让我们谈谈技术噩梦：当你拍照时，iPhone 不会物理旋转图像像素。相反，他们以一个方向保存图像，并添加 EXIF 元数据，其中显示 “嘿，显示旋转了 90 度的图像”。  这是节省处理时间的快捷方式，大多数本机应用程序（照片、Instagram、WhatsApp）都会读取此 EXIF 数据并自动旋转图像以进行显示，但是浏览器呢？浏览器呈现基本的 标签？他们完全忽略 EXIF 数据，因此我们的网站显示原始未旋转的像素数据，而用户的手机显示它正确旋转。我测试了上传的屏幕截图、库存图像和 DSLR 照片，这些都没有 EXIF 方向标志。我什至不知道 EXIF 方向的存在，直到我在 Google 上搜索“为什么 iPhone 照片在网站上是横向的”。在该用户发送电子邮件后，Stack Overflow 兔子洞令人震惊。 现在修复。我使用 Sharp（Node.js 图像库）添加了服务器端图像处理步骤。当用户上传图像时，我们现在读取 EXIF 方向标签，物理旋转图像像素以匹配剥离 EXIF 数据并保存我们的代码从  multer.upload() 直接到 S3，到 multer.upload() → Sharp.rotate() → S3 的正确版本。 增加了大约 200 毫秒的上传时间，但用户察觉不到。 App Store 评分在 3 周内从 2.1 星攀升至 4.3 星。 “侧面照片”抱怨完全停止了。 iPhone 上传列表的转化率从 1.8% 上升到 5.9%（仍然略低于桌面上传，但也不是灾难性的糟糕）。我们每月的 GMV 恢复了大约 2,800 美元。更重要的是，我们不再像无法处理基本图像上传的业余爱好者。对于看到这篇文章的任何人来说，只是一个建议或建议，npm 包 exif-js 可以在浏览器中读取方向，但我更喜欢使用 Sharp 进行服务器端旋转，因为它更可靠，并且也可以处理其他图像格式的怪癖。我们还开始在真实设备云上运行自动化测试（在遇到这个 bug 大约 3 天后最终使用了一个名为 Drizz 的工具）来捕获类似的内容。真实的设备会显示真实的问题。模拟器和桌面浏览器正在给您带来麻烦。 无论如何，如果您的市场上有不稳定的照片并且您无法找出原因，请检查您的 EXIF 处理。每月为我节省 3000 美元，让我保持理智。   由   提交/u/Water_flow_  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r68qec/our_marketplace_photos_were_appearing_sideways/</guid>
+      <pubDate>Mon, 16 Feb 2026 12:48:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在不失去理智的情况下实际管理 50 多个打开的浏览器选项卡中的信息？</title>
+      <link>https://www.reddit.com/r/software/comments/1r68ctt/how_do_you_actually_manage_information_from_50/</link>
+      <description><![CDATA[我经常在多个 Chrome 窗口中打开 40-60 个选项卡 - 研究文章、公司简介、行业报告、竞争对手分析、新闻更新等。 我尝试过： - OneTab（但后来我再也不会查看那些保存的会话） - 书签文件夹（变成黑洞） - Notion web剪辑器（太多摩擦力，无法剪辑所有内容） - 只需关闭选项卡（然后立即恐慌并按 Ctrl+Shift+T） 问题是我需要全天快速参考这些内容，将其合成为报告，并真正记住我读过的内容。选项卡组有一点帮助，但仍然很混乱。 你的系统是什么？是否真的有好的软件可以做到这一点，或者我只是需要更好的习惯？最好是跨设备工作的东西，因为我经常在笔记本电脑和台式机之间切换。   由   提交 /u/Deal_me_in_784   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r68ctt/how_do_you_actually_manage_information_from_50/</guid>
+      <pubDate>Mon, 16 Feb 2026 12:29:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>[聊天] 设计软件</title>
+      <link>https://www.reddit.com/r/software/comments/1r67o4g/chat_design_softwares/</link>
+      <description><![CDATA[嗨！我是设计十字绣图案的新手，我看到很多图案显示了缝合的成品（看起来像是），但我知道这些图案并不是真正缝合的，所以我试图找到人们使用哪种软件（或工具）来完成此完成。 如果你有我可以设计专业图案的建议，那将会很有帮助！ 我不太确定在哪里发布这个，这个子是从十字绣子中删除后推荐的。如果有人可以提供帮助，那就太好了，谢谢！！   由   提交/u/random-thoughs-share   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r67o4g/chat_design_softwares/</guid>
+      <pubDate>Mon, 16 Feb 2026 11:54:52 GMT</pubDate>
+    </item>
     <item>
       <title>架子/“稍后列出”复制容器软件，可与 teracopy 和所有内容一起使用？</title>
       <link>https://www.reddit.com/r/software/comments/1r6548o/shelflist_for_later_copy_container_software_that/</link>
@@ -22,7 +43,7 @@
     <item>
       <title>在我的背部和眼睛开始让我失望后，我构建了一个开源桌面应用程序（Electron）来阻止“开发人员倦怠”</title>
       <link>https://www.reddit.com/r/software/comments/1r62nke/i_built_an_open_source_desktop_app_electron_to/</link>
-      <description><![CDATA[大家好， 像你们中的许多人一样，我每天在屏幕前花费 10 多个小时。最近，我开始处理眼睛灼痛、手腕疼痛和膝盖问题。我意识到我正在“调试”我的代码，但忽略了我的“人类硬件”。 我构建了 RefactorMe，一个 Windows 应用程序，它不仅提醒您移动，而且实际上会阻止您的工作流程，以强制进行微休息、眼保健操和人体工程学检查。 主要功能：  硬中断： 阻止 20-20-20 的屏幕规则。 手腕 RSI 预防：“鼠标手”的特定伸展。 插件架构：我构建了它，以便您可以通过 sidecar/API 模式以任何语言（Python、Go、Rust 等）做出贡献。  它是完全开源的。我希望你们能够分叉它，烘烤我的代码，或者帮助我添加更多健康检查模块。 Repo： [https://github.com/Dev-SK01/refactor-me\]  技术堆栈： Electron、Node.js   由   提交 /u/Dazzling_Grocery8203   [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 像你们中的许多人一样，我每天在屏幕前花费 10 多个小时。最近，我开始处理眼睛灼痛、手腕疼痛和膝盖问题。我意识到我正在“调试”我的代码，但忽略了我的“人类硬件”。 我构建了 RefactorMe，一个 Windows 应用程序，它不仅提醒您移动，而且实际上会阻止您的工作流程，以强制进行微休息、眼保健操和人体工程学检查。 主要功能：  硬中断： 阻止 20-20-20 的屏幕规则。 手腕 RSI 预防：“鼠标手”的特定伸展。  它是完全开源的。我希望你们能够分叉它，烘烤我的代码，或者帮助我添加更多健康检查模块。 Repo： [https://github.com/Dev-SK01/refactor-me ] 技术堆栈： Electron、Node.js   由   提交 /u/Dazzling_Grocery8203   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r62nke/i_built_an_open_source_desktop_app_electron_to/</guid>
       <pubDate>Mon, 16 Feb 2026 06:55:50 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[嗨，有人有一个好的 docx 文件程序吗？我不想使用那种昂贵且无法正常工作的垃圾 Microsoft Word，而且我厌倦了每次打开文件时都会显示高级购买页面和无用弹出窗口的程序。谢谢   由   提交/u/Fujinata   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r5f3a6/soft_for_docx/</guid>
       <pubDate>Sun, 15 Feb 2026 13:49:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>这个软件值得买吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1r5d5iv/is_this_software_worth_it/</link>
-      <description><![CDATA[嗨， 最初是一个学习 Rust 的爱好项目，后来变成了一个有效的配置恢复工具。我知道很少有工具可以做类似的事情，但你认为从声称的网页来看它值得吗？ 我认为这里的优点是非常低的开销（用 Rust 编写）和一个现代化的工具。 我们有一个由 3 名开发人员组成的集体机构（愿意添加更多），我们工作一个协会（包括 ROSCA 等），我们的工作一旦与团队成员分享就是所有人的权利。 我们充满激情地工作。并且义务为零。你觉得这个工具会被购买吗？ 谢谢 链接🖇️🔗 https://bacloud22.github.io/winguardian-homepage/   由   提交 /u/Wonderful-Monk-7109   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r5d5iv/is_this_software_worth_it/</guid>
-      <pubDate>Sun, 15 Feb 2026 12:12:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>我应该使用什么 Photoshop 替代方案？</title>
-      <link>https://www.reddit.com/r/software/comments/1r58h06/what_photoshop_alternative_should_i_use/</link>
-      <description><![CDATA[您的 Photoshop 替代方案是什么？要么免费，大部分免费，要么一次性购买Gimp，paintdotnet，affinity或任何其他你认为它最好的选择是什么？据我所知，gimp和affinity是当今最好的选择（我不关心人工智能功能），尽管canva可能很快就会变成一家上市公司，affinity看起来还不错   由   提交/u/lc4ro  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r58h06/what_photoshop_alternative_should_i_use/</guid>
-      <pubDate>Sun, 15 Feb 2026 07:26:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有一种软件可以将视频排列在其他视频中间？</title>
-      <link>https://www.reddit.com/r/software/comments/1r57qg4/is_there_a_software_to_queue_videos_in_the_middle/</link>
-      <description><![CDATA[我有一台 CRT，想要观看在“广告时段”播放的带有旧广告的旧电视节目。  我知道我可以制作一个播放列表并一个接一个地播放视频，但是有没有一种方法可以让一个视频在另一个视频之间播放，而无需编辑和重新渲染它？ 任何帮助表示感谢。我只是认为播放很酷的老式广告并且让节目中的广告插播有意义是很酷的。谢谢。   由   提交 /u/SatanSenpai   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r57qg4/is_there_a_software_to_queue_videos_in_the_middle/</guid>
-      <pubDate>Sun, 15 Feb 2026 06:42:03 GMT</pubDate>
     </item>
     </channel>
 </rss>

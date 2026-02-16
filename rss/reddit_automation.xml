@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 16 Feb 2026 09:47:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 12:52:57 GMT</lastBuildDate>
+    <item>
+      <title>我制作了一个“氛围营销”代理，可以自动将我的产品提交到 100 个 AI 目录，这样您就不必这样做</title>
+      <link>https://www.reddit.com/r/automation/comments/1r671wf/i_made_a_vibe_marketing_agent_that_submitted_my/</link>
+      <description><![CDATA[我构建了一个 AI 工具，需要将其随处列出。在手动提交 5 个目录后，我知道我不会手动完成其中 100 个目录。 因此，我构建了一项 Claude 技能来完成此任务。您打开光标，告诉代理“将我的产品提交到目录”，它接管了。它导航到每个站点，读取表单，填写，提交。当它点击 Google 登录时，它会登录。当它点击验证码时，它会标记您解决它并处理其余的事情。 棘手的部分是每个目录都是不同的。不同的字段，不同的身份验证，不同的布局。代理通过阅读页面结构自行找出每个内容。 它还会不断学习。每次提交都会记录网站的表单结构，以便下次运行速度更快。所有这些都保存在存储库中。 我的运行：~60 完全自动化，~20 需要我验证码，~20 结果已死或付费。 4 小时而不是 30 多个小时。 它是开源的，可与 Cursor、Claude Code、Gemini、Windsurf 配合使用。任何支持 Playwright MCP 的内容。只需插入您的产品详细信息即可开始。 GitHub 的评论。欢迎反馈。   由   提交 /u/MAN0L2   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r671wf/i_made_a_vibe_marketing_agent_that_submitted_my/</guid>
+      <pubDate>Mon, 16 Feb 2026 11:21:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>在自动化任何东西之前我的 3 个问题测试</title>
+      <link>https://www.reddit.com/r/automation/comments/1r65poe/my_3question_test_before_i_automate_anything/</link>
+      <description><![CDATA[在进行了大量内部自动化（操作、支持、移交）之后，我注意到了一个一致的模式： 大多数失败都不是技术性的。 流程本身还没有准备好。 在我现在实现自动化之前，我会通过三个问题来运行每个工作流程：  人类每次都会以同样的方式这样做吗？  如果结果取决于判断或解释，自动化就会变得脆弱。  逻辑可以在 30 秒内解释清楚吗？  如果第一天需要边缘情况或异常，维护很快就会超过收益。  手动流程是否已经端到端运行？  自动化无法修复它暴露的损坏的工作流程 我所做的大多数回滚都在 #3 处失败。 我现在遵循的规则： 自动化可重复的决策，而不是松散定义的职责。 社区问题： 您过早自动化并不得不撤消的工作流程是什么？   由   提交 /u/Commercial-Job-9989   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r65poe/my_3question_test_before_i_automate_anything/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:02:14 GMT</pubDate>
+    </item>
     <item>
       <title>通用自动化与定制人工智能代理系统的隐性成本</title>
       <link>https://www.reddit.com/r/automation/comments/1r63ftz/the_hidden_cost_of_generic_automation_vs_custom/</link>
@@ -83,13 +97,6 @@
       <pubDate>Sun, 15 Feb 2026 17:57:35 GMT</pubDate>
     </item>
     <item>
-      <title>一周内我们错过了 37 个客户电话。这是一个警钟</title>
-      <link>https://www.reddit.com/r/automation/comments/1r5hmgc/we_missed_37_customer_calls_in_one_week_it_was_a/</link>
-      <description><![CDATA[不是我们的确切日志，但与我们上个月看到的非常接近。从那时起，我们开始更加认真地对待未接来电。 上个月，我们做了一些令人尴尬的简单事情。我们终于正确地检查了未接来电记录。 结果让我们感到惊讶： 一周内有 37 个未接来电。 不是因为我们不在乎。 只是正常的办公室现实：  接待处忙碌 团队在开会 午休 下班后的电话  没有戏剧性的，但当你意识到每个未接电话都可能是客户、潜在客户或支持问题时，情况就会有所不同。 就在那时，我们认真开始测试人工智能语音代理，不是炒作，只是出于实用的好奇心。 我们尝试它们的目的是：  下班后支持 预约 基本的客户查询 一些早期销售资格  以下是诚实的突出之处： 下班后处理=立即获胜。没有等待音乐，没有语音信箱黑洞。简单的问题和预订比预期效果更好。 预约安排让我感到惊讶。 结构化对话 + 日历同步 = 节省大量时间。 销售电话？还是很棘手。 一旦声音听起来有点机械化，信任就会迅速下降。 还学到了一些重要的东西： 人工智能语音代理不仅仅是更智能的 IVR。人们不再需要菜单，他们想要对话。 我们探索了多个平台（甚至研究了新兴的对话方法，例如 Dograh AI 等团队正在构建开源）。最大的教训不是人工智能能力，而是实际使用下的可靠性。 演示≠生产。总是。 老实说，我很兴奋，但也很谨慎。 感觉我们正在进入这样一个阶段： 人工智能不会取代人类 它首先消除重复的摩擦。 对真实体验感到好奇：  这里有人真正运行语音人工智能吗？ 客户自然接受它吗？ 什么时候首先崩溃的  因为炒作无处不在，但真正的部署故事却很少。 我真的很想听听您的故事。   由   提交 /u/Slight_Republic_4242   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r5hmgc/we_missed_37_customer_calls_in_one_week_it_was_a/</guid>
-      <pubDate>Sun, 15 Feb 2026 15:38:47 GMT</pubDate>
-    </item>
-    <item>
       <title>副总裁 AI 幻觉：当 AWS Demons 破坏 OpenClaw 路线图时</title>
       <link>https://www.reddit.com/r/automation/comments/1r59ui5/vp_ai_hallucinations_when_aws_demons_ruin/</link>
       <description><![CDATA[没有什么比副总裁从 AWS 峰会回来并认为“AI 很棒，他们可以解决问题”更让人筋疲力尽的了。他们还想要基于 LLM 的网络异常检测，与您已有的相比，该检测速度较慢且昂贵。在 r/myclaw 上，人工智能的这种炒作正在让一些领导层重新思考。他们想要一些真正有效的魔法，但他们永远不想听到40%的幻觉率。只需使用 OpenClaw 构建一个快速 PoC，证明这是一个坏主意，或者自动化演示，这样他们就可以让您独自做实际的事情   由   提交 /u/PinkPowerMakeUppppp   [链接] [评论]]]></description>
@@ -102,13 +109,6 @@
       <description><![CDATA[这是我在有人问“我应该自动化执行此操作吗？”时使用的一个具体示例 场景是：潜在客户来自网站。 手动版本（我经常看到的）：  表单提交电子邮件到达 有人将详细信息复制到CRM 有人分配线索 有人发送后续信息 有人稍后更新状态。每个步骤大约需要 2-5 分钟。没有人感到紧迫。但在一周内，有多个潜在客户和多个人员，这会悄悄地消耗时间并产生间隙。  良好的自动化版本：  表单提交 → 在 CRM 中创建潜在客户 根据简单规则分配所有者 自动发送后续信息 仅在出现问题时才发出 Slack 警报。没有人工智能决策。没有“代理人”。只是执行。  糟糕的自动化版本（非常常见）： – AI 决定潜在客户质量 – AI 编写自定义电子邮件 – AI 更新多个系统 – 没有明确的故障警报。这看起来令人印象深刻，但当出现问题时，很快就会破坏信任。我最遵循的规则是自动化移动和一致性，而不是判断。如果人们需要上下文来解释他们为什么做某事，那么该步骤可能还不应该自动化。 这种单一的区别消除了最脆弱的工作流程。   由   提交 /u/Better_Charity5112   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r57t8a/a_real_example_of_when_automation_is_worth_it_and/</guid>
       <pubDate>Sun, 15 Feb 2026 06:46:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>对自动化和网络抓取的需求真的很强烈吗？</title>
-      <link>https://www.reddit.com/r/automation/comments/1r4u1ec/is_there_actually_strong_demand_for_automation/</link>
-      <description><![CDATA[我最近一直在从事自动化脚本和网页抓取项目，我试图更好地了解市场。 对于那些已经是自由职业者或正在运行自动化相关服务的人来说，对此是否有持续的需求？还是更偶然/小众？ 企业是否正在积极寻找自动化解决方案，或者主要是小型一次性任务？ 很想听到真实的经验。   由   提交 /u/No-Macaroon3463   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r4u1ec/is_there_actually_strong_demand_for_automation/</guid>
-      <pubDate>Sat, 14 Feb 2026 19:48:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
