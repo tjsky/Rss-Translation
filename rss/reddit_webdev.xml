@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 16 Feb 2026 01:50:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 04:57:51 GMT</lastBuildDate>
+    <item>
+      <title>一个由 webgpu 驱动的小型图表库</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5yra7/a_tiny_webgpu_powered_chart_lib/</link>
+      <description><![CDATA[      我组装了一个约 11-15kb 的小型图表库，该库由屏幕外画布中的 Web Worker 使用计算着色器提供支持。这意味着您可以使用插件系统被动渲染数千个图表、数千个系列和数百万个数据点。 它解决了日常工作中的一个问题，我想我会分享它。 演示 https://dgerrells.github.io/chartai/demo/  https://preview.redd.it/xg4baccd2sjg1.png?width=3326&amp;format=png&amp;auto=webp&amp;s=9efea36177616cb3f3aa34987ac5a3fe7668c794   由   提交 /u/Outrageous-guffin   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5yra7/a_tiny_webgpu_powered_chart_lib/</guid>
+      <pubDate>Mon, 16 Feb 2026 03:31:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们可以谈谈氛围编码吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5xqmh/can_we_talk_about_vibe_coding/</link>
+      <description><![CDATA[大家好。 我想听听您对氛围编码和人工智能编码的看法。对我来说，我是一名设计师，而不是一名开发人员。在人工智能真正起飞并能够制作实际可用的网站和设计之前，我学习了 html、css 和极少量的 js，以及一些 swift 和大量的 swiftui。 编码中的人工智能在编程世界中似乎是一个非常有争议的话题，人们的观点多种多样，从“我用人工智能取代了我所有的软件开发人员”到“永远不要在你正在摧毁的项目中使用人工智能”行星站”。 我发现自己介于两者之间。虽然我使用人工智能进行一些编码，因为，就像我说的，我首先是一名设计师，我不会按照“无监督编码，其中外观和感觉（又名氛围）由提示而不是代码决定”的定义中的“氛围代码”。我认为学习如何编码，这样你至少可以审查和完善人工智能所输出的内容，因为这是一项重要且有价值的技能，尤其是当你用完克劳德代码积分时，因为有时偶尔自己构建一些东西是很好的。 就我个人而言，我使用人工智能来简化我的开发过程，并自动化那些需要我自己花几个小时才能完成的事情。我从不使用人工智能来做任何创造性的工作，因为我通常在 Sketch 中创建一个设计，然后构建一个框架网站，然后对其进行完善。 是的，有时我会尝试用 Vive 编码一个项目来获得乐趣。但我讨厌它。当我用手创造一些东西并用耳朵之间的东西来思考如何制作它时，我没有那种兴奋和自豪的感觉。 从我在这个 Reddit 子版块和我所做的反馈帖子中看到的内容可以推断，新开发人员似乎正在拥抱人工智能作为一种工具（有些人将其用作拐杖），而资深和年长的开发人员则发现它的使用令人厌恶和懒惰。 这是一个概括，这两个类别中都有很多人不符合刻板印象。 如果你愿意分享你的观点，无论你讨厌人工智能、喜欢人工智能，还是像我一样介于两者之间，我都会很高兴。如果你不同意我/不喜欢人工智能，请评论并解释为什么而不是否决这篇文章，因为这样就会有更少的人看到它，这会妨碍我发动战争引发深思熟虑的讨论的尝试。 编辑1：我只知道我即将被否决到被遗忘 😭✌️   由   提交 /u/legitOwen   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5xqmh/can_we_talk_about_vibe_coding/</guid>
+      <pubDate>Mon, 16 Feb 2026 02:43:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Blob URL 作为易失性内存存储是一个坏主意吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5xfc0/is_using_blob_urls_as_volatile_inmemory_storage_a/</link>
+      <description><![CDATA[我正在探索一些非常规的东西，希望深入了解浏览器行为的人提供反馈。 我们知道：  localStorage / sessionStorage → 小配额（~5–10MB） IndexedDB → 持久、磁盘支持 缓存 API → 以请求/响应为中心  但假设我明确希望非持久性、仅 RAM 存储在重新加载时消失。通过 URL.createObjectURL 创建的 Blob URL：  将数据保留在内存中 没有像 sessionStorage 这样的显式小配额 在导航/选项卡关闭时自动清除 可以保存大型二进制数据  因此理论上，这就像一个仅限于页面生命周期的易失性内存存储。 使用情况可能是这样的：  大型临时计算输出 生成的媒体/资产 不应该持久的会话范围缓存 在不需要持久性时避免 IndexedDB 复杂性  我了解明显的风险：  受到内存压力 如果滥用可能会导致选项卡崩溃 没有持久性保证 没有内置管理/索引  但是假设它是有意使用且有限制的 - 这从根本上来说是不安全的，还是只是非常规？ 有人像这样故意使用 Blob 支持的内存吗？这是一把枪还是一个合理的易失层原语？   由   提交 /u/big_hole_energy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5xfc0/is_using_blob_urls_as_volatile_inmemory_storage_a/</guid>
+      <pubDate>Mon, 16 Feb 2026 02:27:55 GMT</pubDate>
+    </item>
     <item>
       <title>YAPNGC（另一个 .PNG 压缩工具）。注重隐私，所有压缩都在客户端完成，速度与您的 CPU 处理速度一样快。</title>
       <link>https://www.reddit.com/r/webdev/comments/1r5u0iy/yapngc_yet_another_png_compressing_tool_privacy/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[在营销部门这种情况经常发生，但在科技领域呢？ 我仍然很好奇，假设你在美国，美国科技咨询公司/机构如何与亚洲、巴西等其他更便宜的地方竞争。因为它们的价格便宜 2-5 倍   由   提交 /u/lune-soft   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r5piuk/how_common_is_this_where_exp_devs_start_their_own/</guid>
       <pubDate>Sun, 15 Feb 2026 20:45:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我不喜欢在网站和 ChatGPT 之间切换选项卡，所以我构建了一个 Chrome 扩展</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5p7wi/i_did_not_like_switching_tabs_between_websites/</link>
-      <description><![CDATA[我对不断在网页和 ChatGPT/Gemini 之间切换选项卡只是为了询问有关我正在阅读的内容的小问题感到沮丧。 我尝试的大多数工具要么是免费增值的，要么被锁定在订阅后面，要么没有给我想要的控制/自定义级别。因此，我决定构建自己的 Chrome 扩展程序。 想法很简单：选择任何网页上的内容，无需离开当前屏幕即可获得 AI 响应。 我关注的一些事情：  自带 API 密钥（Groq、Gemini、OpenRouter、ollama）（存储在 Chrome 本地） 能够在对话中切换模型和提示 与并排查看多个响应（帮助我捕捉幻觉） 自定义提示和可重用模式 用于快速测试的可选访客模式（无需设置）  该项目完全免费且开源。我仍处于早期阶段，主要寻找诚实的反馈 - 尤其是关于用户体验、缺失功能或令人困惑的事情。 我不会在此处发布链接以避免垃圾邮件，但如果有人想尝试，我会将它们放在评论中。   由   提交 /u/_N4RuTo   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5p7wi/i_did_not_like_switching_tabs_between_websites/</guid>
-      <pubDate>Sun, 15 Feb 2026 20:33:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们将 Elixir 编译为 JavaScript，以便您无需编写 JS 即可构建全栈 Web 应用程序</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5n6tz/we_compile_elixir_to_javascript_so_you_can_build/</link>
-      <description><![CDATA[      嗨r/webdev！我是 Hologram (https://hologram.page) 的创建者，这是一个开源框架，可将 Elixir 编译为 JavaScript 以在浏览器中运行。这个想法很简单：用一种语言编写整个 Web 应用程序（前端和后端），没有客户端/服务器分离。 工作原理： 您的 Elixir 代码被编译为 JS 并直接在浏览器中运行。状态存在于客户端，靠近 DOM，因此不会不断往返于服务器。您仅在实际需要时才联系服务器（数据库访问、身份验证等），并且这些调用是无状态的。可以将其视为服务器渲染框架的对立面，服务器渲染框架试图在事后增强交互性。 刚刚发布的内容 (v0.7.0)： Elixir 的标准库构建在 Erlang 的运行时函数之上 - 将它们视为低级构建块。 Elixir 代码本身会自动编译，但那些底层的 Erlang 函数需要手动移植到 JavaScript。我们刚刚完成了一项社区计划，49 名贡献者移植了其中 150 个函数，将客户端标准库覆盖率提高到 87%。这意味着真正的网络应用程序所需的绝大多数功能现在都可以在浏览器中运行：字符串处理、集合、集合、二进制运算、Unicode、数学、时间、文件路径处理等等。 接下来的内容： 本地优先支持 - 与客户端数据存储区脱机工作的应用程序，该数据存储区根据声明性规则自动与服务器同步。一些数据仅保留在客户端，其余数据会在您重新上线时同步。 为什么选择 Elixir？ 模式匹配、默认不变性、容错以及专为 Web 构建的并发模型。 Hologram 将所有这些都带到了浏览器。 很高兴回答有关架构或方法的问题。  网站：https://hologram.page GitHub：https://github.com/bartblast/hologram 包含完整详细信息的博客文章：https://hologram.page/blog/porting-initiative-delivers-hologram-v0-7-0    由   提交/u/BartBlast  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5n6tz/we_compile_elixir_to_javascript_so_you_can_build/</guid>
-      <pubDate>Sun, 15 Feb 2026 19:14:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>其他开发人员是否只是……经常感到精神疲劳？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5n641/are_other_developers_just_constantly_mentally/</link>
-      <description><![CDATA[我是一名开发人员，最近我注意到有多少开发人员经常感到疲倦和注意力不集中。 不是沮丧 - 只是因为工作+学习+屏幕而精神疲惫。 好奇：作为开发人员，现在什么最消耗你的精力？   由   提交/u/yOurOck_bboy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5n641/are_other_developers_just_constantly_mentally/</guid>
-      <pubDate>Sun, 15 Feb 2026 19:13:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
