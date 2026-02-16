@@ -4,7 +4,63 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 15 Feb 2026 21:21:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 01:50:08 GMT</lastBuildDate>
+    <item>
+      <title>YAPNGC（另一个 .PNG 压缩工具）。注重隐私，所有压缩都在客户端完成，速度与您的 CPU 处理速度一样快。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5u0iy/yapngc_yet_another_png_compressing_tool_privacy/</link>
+      <description><![CDATA[      这样做是因为我经常在线使用 .PNG 压缩器，但对大量广告感到恼火。我的客户端完成了所有工作，没有任何可疑的上传   由   提交/u/bigjobbyx   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5u0iy/yapngc_yet_another_png_compressing_tool_privacy/</guid>
+      <pubDate>Sun, 15 Feb 2026 23:50:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于 JS 开发来说，最佳的电子商务后端堆栈是什么？ （Vendure 与 MedusaJS）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5tr30/best_backend_stack_for_ecomm_for_a_js_dev_vendure/</link>
+      <description><![CDATA[这里有人同时使用过 MedusaJS 和 Vendure 吗？希望获得一些意见并听听您的经历。我有一个客户想要开设多个新的 ecomm 网站，并最终将我们的旗舰店从 prestashop 迁移。 主商店是一家中型企业，每年移动相当数量的产品，并且仍在增长。问题是后端在管理面板的任何流量或工作量下都会崩溃。我最近才继承了所有这些，并能够通过将其置于 cloudlfare 后面并编写一些 WAF 规则来阻止不需要的机器人流量，以及其他一些创可贴修复和调整来缓解很多问题，但我认为随着业务规模的扩大，它不会持续很长时间，每当使用高峰时它仍然会陷入困境。 客户希望我评估一些迁移选项，并希望有一个我们拥有的解决方案，而不是依赖于像 shopify 这样的东西，以及可以扩展的东西生意很好。由于我最精通 JS/TS，因此我缩小了选择范围以留在这些选项中（我对 MedusaJS 和 Vendure 之外的其他事物持开放态度）。我最初对 MedusaJS 最感兴趣，它是最受欢迎的，并且看到有人将其称为“开源 shopify”，并将其与 Strapi、Directus 或 Payload 等 CMS 配对。然而，Vendure 突然出现在我的视野中，它具有一些吸引人的功能，首先，我不需要单独的 CMS，并且可以在一个管理面板下拥有所有内容，我认为这对我的客户和他的员工来说将是一种更好的体验（应该是一种更接近 prestashop 的管理面板的体验，或者至少是在我构建完他们需要的所有功能后他们实际接触到的部分？），第二，看起来这将是一种更好的多租户解决方案。由于我们计划推出多个店面，因此我们可以将所有内容都集中在一个带有 vendure 的面板下。最初我们打算为每个店面做一个 VPS（或 Docker 容器），并将各个东西分开，每个商店都有自己的面板，但这对我们来说可能是一个更好的解决方案。 我在 medusajs 上找到了很多东西，但在 vendure 上却没有那么多，或者至少没有很多最近（不到一年）的 vendure 反馈和经验，这使得这有点难以比较。当然，我也愿意接受其他选择。前端将用 sveltekit 完成，因为这是我最擅长的。我们将首先推出一些较小的店面，并迁移我们的一个较小的商店来体验一下，所以应该不会有太大的风险，但在我扣动扳机之前我想听听其他人的意见。   由   提交 /u/lemon07r   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5tr30/best_backend_stack_for_ecomm_for_a_js_dev_vendure/</guid>
+      <pubDate>Sun, 15 Feb 2026 23:38:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>您是否觉得自己过于依赖AI？您是否使用一些工具来监控您的日常使用情况？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5tglv/do_you_feel_like_you_rely_on_ai_too_much_are/</link>
+      <description><![CDATA[我觉得几年前我陷入了一个陷阱，依靠法学硕士为我做很多繁重的工作。现在作为一名高级软件开发人员，我感觉自己像个骗子。 你觉得是时候开始减少使用人工智能了吗？ 欢迎任何和所有的讨论。我正在考虑构建一个 chrome 扩展来监控我的使用情况，我很好奇其他人是否会使用它。   由   提交/u/mrrandom2010   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5tglv/do_you_feel_like_you_rely_on_ai_too_much_are/</guid>
+      <pubDate>Sun, 15 Feb 2026 23:25:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>🧟 僵尸不仅会出现……它们还会在您的浏览器中运行。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5t7sk/zombies_are_not_only_coming_they_are_running_in/</link>
+      <description><![CDATA[   是。 不是视频。 不是流。 真实的《反恐精英 1.6》和《半条命》。 通过 Emscripten 编译为 WebAssembly。 通过 WebRTC 运行多人游戏。 现在……拥有完整的 mod 支持。包括 🧟 Zombie Plague。 之前我分享过： 将构建发布到 npm 通过 WebRTC 进行多人游戏 即插即用 Docker 镜像 1 个 HTML 文件 → 打开 → 玩 CS 1.6 但这一个的效果不同。 🔥 AMXModX &amp;元模。在浏览器中。我们在 Docker 镜像中添加了即插即用的 AMX Mod X 和 Metamod 支持。 是的 - 服务器端模组堆栈。 是的 - 在 WASM 中编译游戏引擎。 是的 - 在 WebRTC 上运行。 听起来不对。 它不应该工作。 但它确实有效。 🧟 僵尸瘟疫演示对于我所附的屏幕截图，我使用了传说中的“僵尸瘟疫”模组。 设置比“1 HTML 文件”版本稍微复杂一些，但仍然非常简单：  下载“僵尸瘟疫”模组文件 提取 准备游戏文件夹 运行容器 BOOM。僵尸。  就是这样。 无需安装游戏。 浏览器 + Docker。  这意味着： 浏览器中的自定义 CS 1.6 服务器 经典 HL mods 复活 完整的插件生态系统支持 无 LAN 多人游戏基础设施 通过 Docker 实现可重现的环境 我们基本上将 2000 年代的 modding 文化冻结到便携式基础设施中。 为什么这很重要？ 《反恐精英》模组定义了一个时代。 僵尸瘟疫、越狱、冲浪、死亡逃亡 — 整个亚文化。 现在想象一下：  可共享的浏览器链接 临时服务器 游戏模组的 CI/CD 即时社区启动  这不是怀旧。 这是保存 + 分发 + 基础设施现代化。 GitHub 就在这里 https://github.com/yohimik/webxash3d-fwgs/tree/main/docker/cs-web-server-metpamx/examples/zp 最疯狂的部分？它现在可以通过 WebRTC 运行已启用 mods。 浏览器客户端。 容器化服务器。 经典 mod 堆栈。 零本机安装。 2003 年遇见 2026 年。 非常感谢 👏 ludufre - 原始 Metamod 和 AMX Mod X 支持以及 Docker 映像 ololoken - 图形、WebGL2 和解决许多问题   由   提交/u/yohimik  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5t7sk/zombies_are_not_only_coming_they_are_running_in/</guid>
+      <pubDate>Sun, 15 Feb 2026 23:15:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chrome 扩展程序可让您注释任何 UI 并将其直接提供给 AI 代理</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5sqht/chrome_extension_that_lets_you_annotate_any_ui/</link>
+      <description><![CDATA[为此工作了一段时间，终于准备好分享了。问题是：当您修复 UI 错误或迭代设计时，您最终会在浏览器、屏幕截图和 AI 编码工具之间进行上下文切换。这很烦人。 我构建的：onUI - 一个 Chrome 扩展，可以向任何网页添加注释层。您单击元素，将它们标记为错误/增强/问题，设置严重性并导出结构化报告。 最酷的部分：它有一个连接到 Claude Code 或 Codex 的本地 MCP 服务器。您的代理可以不断提取新的注释、应用修复，而您只需继续标记错误即可。就像 UI 结对编程一样。 GitHub：github.com/onllm-dev/onUI   由   提交/u/Own-Equipment-5454   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5sqht/chrome_extension_that_lets_you_annotate_any_ui/</guid>
+      <pubDate>Sun, 15 Feb 2026 22:55:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了在 MySQL 客户端之间切换，所以我开始构建自己的（开源）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5skja/i_was_tired_of_switching_between_mysql_clients_so/</link>
+      <description><![CDATA[我经常使用 MySQL（主要是 Web 项目），并且根据需要在不同的客户端之间切换。 有些感觉臃肿。 有些太通用。 有些感觉没有针对日常 MySQL 工作流程进行优化。 因此，我开始构建一个开源客户端，重点关注： • 快速查询执行 • 干净的架构浏览 • 简单的用户体验 • 没有不必要的混乱  它仍在不断发展，但我正在积极改进 MySQL 支持并改善体验。 如果您每天使用 MySQL： 👉 您当前的数据库客户端最烦人的事情是什么？ 如果您好奇，请回购： https://github.com/debba/tabularis   由   提交/u/debba_  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5skja/i_was_tired_of_switching_between_mysql_clients_so/</guid>
+      <pubDate>Sun, 15 Feb 2026 22:48:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的新城市网站需要帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5s44d/need_help_for_my_neocities_site/</link>
+      <description><![CDATA[      我正在努力使用网格属性让我的网站看起来像我画的草图。有谁知道如何使用网格来获得我想要的布局？我应该使用 flex 吗？   由   提交/u/Dependent-Hamster361   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5s44d/need_help_for_my_neocities_site/</guid>
+      <pubDate>Sun, 15 Feb 2026 22:28:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>“匿名网络跟踪”令人头疼的问题：为什么我的网络分析比移动设备更难同步？ （Next.js + Expo + Supabase）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r5qhk3/the_anonymous_web_tracking_headache_why_is_my_web/</link>
+      <description><![CDATA[大家好，我目前正在使用 Next.js（Web）和 Expo（移动）Monorepo 为本地企业构建一个平台，并以 Supabase 作为后端。 我在个人资料视图跟踪方面遇到了困难。 设置：  我们将 profile_view、whatsapp_click 等事件跟踪到 user_activity 表中。 我们使用每日聚合 Cron 作业（凌晨 2 点）将原始事件汇总到业务仪表板的 profile_analytics_daily 表中。  问题：在移动上，这很顺利 - 用户大多经过身份验证或拥有持久的设备 ID。但在 Web 上，情况一团糟。  匿名流量：大多数用户通过 SEO 登陆，但没有登录。我使用 localStorage 作为 session_id，但感觉很脆弱。 数据奇偶校验：仪表板显示 Web 视图和应用视图之间的数字不一致。感觉网络跟踪触发器要么被广告拦截器拦截，要么错过“聚合”窗口。  我向专家提出的问题：  您是否使用 Next.js 中间件在服务器端跟踪视图以绕过广告拦截器？ 您如何处理企业主的实时“戏弄”统计数据与聚合数据“深度”分析？ 是否有更好的方法来处理不依赖于片状客户端存储的匿名 SEO 流量的 session_id？  很想听听您在初创公司中如何处理“网络与应用”数据同步！   由   提交 /u/Tzipi_builds   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r5qhk3/the_anonymous_web_tracking_headache_why_is_my_web/</guid>
+      <pubDate>Sun, 15 Feb 2026 21:23:25 GMT</pubDate>
+    </item>
     <item>
       <title>Leetcode 风格但用于后端？</title>
       <link>https://www.reddit.com/r/webdev/comments/1r5q9i9/leetcode_style_but_for_backend/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[我是一名开发人员，最近我注意到有多少开发人员经常感到疲倦和注意力不集中。 不是沮丧 - 只是因为工作+学习+屏幕而精神疲惫。 好奇：作为开发人员，现在什么最消耗你的精力？   由   提交/u/yOurOck_bboy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r5n641/are_other_developers_just_constantly_mentally/</guid>
       <pubDate>Sun, 15 Feb 2026 19:13:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们在网络项目中经常处理范围蔓延的问题吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5mo7b/do_you_guys_deal_with_scope_creep_a_lot_in_web/</link>
-      <description><![CDATA[因此，我一直在考虑构建一个小型应用程序来帮助解决客户项目中的范围蔓延问题，但我什至不确定这是否是一个足够大的问题。 这种情况不断发生在我身上： 我们在功能上达成一致。 项目开始。 然后中途 — “我们也可以添加这个小东西吗？” “因为你已经在努力了……”“不会花很长时间。” 每个请求都很小，但加起来就很大。到最后，我通常会做一些不属于原始范围的额外工作。 这在网络开发中是正常的吗？ 你们每次都会发送正式的变更请求吗？ 还是只是将其纳入定价？ 试图弄清楚这是否是一个真正的问题，或者我是否只是需要更好地管理客户。   由   提交/u/Great_Refuse62  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5mo7b/do_you_guys_deal_with_scope_creep_a_lot_in_web/</guid>
-      <pubDate>Sun, 15 Feb 2026 18:54:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>纽约市的高级网络开发人员对堆栈现在实际招聘的人的吸引力为零</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5kocc/senior_web_dev_in_nyc_getting_zero_traction_what/</link>
-      <description><![CDATA[纽约高级 Web 开发人员，拥有 10 年经验，主要是负责架构的小型团队。对于高级职位没有任何吸引力，他们好奇人们最近在纽约看到了哪些堆栈或头衔的回复。   由   提交 /u/SnowStormBirdsFlock   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5kocc/senior_web_dev_in_nyc_getting_zero_traction_what/</guid>
-      <pubDate>Sun, 15 Feb 2026 17:37:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人记得拉斯洛吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5kif8/anybody_remember_laszlo/</link>
-      <description><![CDATA[还有人记得 OpenLaszlo 和“富互联网应用程序”的时代吗？ Pepperidge Farm 记得：https://web.archive.org/web/20080526030408/http://www.openlaszlo.org/ 当时我确实玩过它，但我永远无法习惯 XML 编程方式。    由   提交/u/525G7bKV   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5kif8/anybody_remember_laszlo/</guid>
-      <pubDate>Sun, 15 Feb 2026 17:31:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的第一个 WebbApp 项目：心情日历</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5kd3r/my_first_webbapp_project_mood_calendar/</link>
-      <description><![CDATA[      主页 这是一个我用来跟踪我的情绪的应用程序。今年夏天我有一个网络课程的介绍，我在两周内就完成了。我没有与很多人分享，因为……这只是一个小项目，但我学到了很多。它是 Vanilla（？）所以只有 HTML、CSS 和 Javascript。我在学校的一个项目中使用了 Bootstrap，这让我很困扰，我不会再碰这个了。无论如何，这是我的项目： 我点击悲伤表情 我自己做的。我使用相对单位和@媒体来进行某种响应式设计???！！ 日历视图 缩小时的日历视图 我自己制作了日历JavaScript 也是如此。我了解了异步请求，这就是为什么每次我单击箭头时都不需要花费很长时间来生成这些月份。 七月的日历外观 我还添加了一个部分来写日记。我的网络应用程序有一个后端？？？！！！而且效果很好??!! 注释部分 日历 + 笔记 哦，我学会了 JINJA 制作HTML 模板??!!真是太好了！就像你可以制作一个基本模板，然后在其他页面上添加你需要的内容以获得更有凝聚力的外观，这使得后端处理变量变得更加容易！ 我的朋友也想要它，所以我做了一个可执行文件？？？与 GitHub 操作？？？并且该项目可以为 IOS 和 WINDOWS 构建？？？因为我用的是 IOS，她用的是 Windows。 我学到了很多很多。太令人兴奋了哈哈 限制：  这只是一个简单的数据库，所以如果我破坏了我的存储或丢失了它......我会失去一切，但它也受到保护，我不想处理在线存储，特别是如果我必须保留用户的所有笔记（哎呀） 我无法添加新的情感或更改图标（还） 没有通知（&#39;: 你只能添加当天的心情和笔记 如果有人想要新版本，他们需要去 github 上下载，这很烦人  结论： 我很高兴，我在课堂上学到了，我想等一下，我现在就可以做到，我有工具，我制作了它，我使用它......有时，特别是当我悲伤并且我需要咆哮的时候 我写的所有这些限制..这只是我可以稍后添加的新想法。我之前在完成一个项目时遇到了麻烦，但我只是想要一些有效的东西，并且它有效，我可以稍后让它变得更好（▰˘◡˘▰） 只是想与你们分享我的能量（ꈍᴗꈍ）   通过/u/Rosaeliya[链接][评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5kd3r/my_first_webbapp_project_mood_calendar/</guid>
-      <pubDate>Sun, 15 Feb 2026 17:25:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>服务器上的 503 nginx 错误但在其他客户端上工作</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5im1w/503_nginx_error_on_server_but_working_on_other/</link>
-      <description><![CDATA[大家好，我正在 Next.js 中制作一个 Web 应用程序，我需要获取一些数据，我正在获取服务器端，但是我在一个服务器请求中收到 503 Service Temporarily Unavailable，我在浏览器中使用curl 访问 URL，它工作得很好... 我有点绝望，我尝试制作一个看起来像浏览器的客户端但我无法摆脱这个错误： const httpAgent = new http.Agent({ keepAlive: true, keepAliveMsecs: 1000, maxSockets: 50, maxFreeSockets: 10, timeout: 30000, }); const httpsAgent = new https.Agent({ keepAlive: true, keepAliveMsecs: 1000, maxSockets: 50, maxFreeSockets: 10, 超时: 30000,拒绝Unauthorized: true, }); const blockbookClient = axios.create({ baseURL: BLOCKBOOK_BASE_URL, timeout: 30000, httpAgent, httpsAgent, headers: { Accept: &quot;application/json, text/plain, */*&quot;, &quot;Accept-Language&quot;: &quot;en-US,en;q=0.9&quot;, &quot;Accept-Encoding&quot;: “gzip、deflate、br”、连接：“keep-alive”、“Cache-Control”：“无缓存”、Pragma：“无缓存”、DNT：“1”、“Sec-Fetch-Dest”：“空”、“Sec-Fetch-Mode”： “cors”、“Sec-Fetch-Site”：“跨站点”、}、})； blockbookClient.interceptors.request.use(( config ) =&gt; { config .headers[&quot;User-Agent&quot;] = getRealisticUserAgent(); return config ; });const httpAgent = new http.Agent({ keepAlive: true, keepAliveMsecs: 1000, maxSockets: 50, maxFreeSockets: 10, 超时: 30000，}); const httpsAgent = new https.Agent({ keepAlive: true, keepAliveMsecs: 1000, maxSockets: 50, maxFreeSockets: 10, 超时: 30000,拒绝Unauthorized: true, }); const blockbookClient = axios.create({ baseURL: BLOCKBOOK_BASE_URL, timeout: 30000, httpAgent, httpsAgent, headers: { Accept: &quot;application/json, text/plain, */*&quot;, &quot;Accept-Language&quot;: &quot;en-US,en;q=0.9&quot;, &quot;Accept-Encoding&quot;: “gzip、deflate、br”、连接：“keep-alive”、“Cache-Control”：“无缓存”、Pragma：“无缓存”、DNT：“1”、“Sec-Fetch-Dest”：“空”、“Sec-Fetch-Mode”： “cors”、“Sec-Fetch-Site”：“跨站点”、}、})； blockbookClient.interceptors.request.use((config) =&gt; { config.headers[“User-Agent”] = getRealisticUserAgent(); return config; });  尝试了旋转 IP 和其他内容，但仍然出现该错误...这可能是什么？ TLS 指纹？   由   提交 /u/Federal-Dot-8411   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5im1w/503_nginx_error_on_server_but_working_on_other/</guid>
-      <pubDate>Sun, 15 Feb 2026 16:17:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>可能的虚拟问题：Gemini 是如何在左上角声明这种粗体字体的？似乎没有声明任何字体。 VS Code+Better Live Server+硬重载。 Codepen 在帖子中链接</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5hy63/likely_dummy_question_how_did_gemini_declare_this/</link>
-      <description><![CDATA[   不用说，Gemini 本身只是在编造一些东西。  Codepen：https://codepen.io/alpenzeiger/pen/VYjNdNM   由   提交/u/graudesch   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5hy63/likely_dummy_question_how_did_gemini_declare_this/</guid>
-      <pubDate>Sun, 15 Feb 2026 15:52:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了一个工具来将 QR 码和其他条形码生成到 HTML 表格中</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5hop1/i_created_a_tool_to_generate_qr_codes_and_other/</link>
-      <description><![CDATA[      嘿伙计们， 这是我在公司安全培训期间随机想到的一个项目，他们说他们在我们的电子邮件系统中明确阻止来自未知发件人的图像，以防止他们执行恶意操作，例如发送我们需要扫描的 QR 码。就在那时，我想到了这个想法：他们为什么不将 QR 码作为表格嵌入到电子邮件中？ 快进了一年，我的 Claude Max 订阅正在运行，这个想法又回到了我的脑海中，所以我开始实现它 - 不是出于恶意原因，而是为了活动门票等。 它使用 row- 和 colspans 来压缩输出，并且还具有非常实验性的有损压缩，这滥用了纠错余量来挤出更多内容紧凑的 HTML 输出   由   提交 /u/balcsida   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5hop1/i_created_a_tool_to_generate_qr_codes_and_other/</guid>
-      <pubDate>Sun, 15 Feb 2026 15:41:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个 Web 组件，可让您在完全本地的 <iframe> 内渲染 <template> 内的内容。对于您想要与页面其余部分隔离而不使用 Codepen 或其他类似服务的代码演示很有用。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5h4vi/i_made_a_web_component_that_lets_you_render_the/</link>
-      <description><![CDATA[       由   提交/u/Alex_Hovhannisyan   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5h4vi/i_made_a_web_component_that_lets_you_render_the/</guid>
-      <pubDate>Sun, 15 Feb 2026 15:18:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
