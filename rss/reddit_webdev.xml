@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 16 Feb 2026 12:54:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 15:37:43 GMT</lastBuildDate>
+    <item>
+      <title>特工精神病：我们疯了吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6cauw/agent_psychosis_are_we_going_insane/</link>
+      <description><![CDATA[       由   提交/u/fagnerbrack  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6cauw/agent_psychosis_are_we_going_insane/</guid>
+      <pubDate>Mon, 16 Feb 2026 15:17:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人尝试过绘图椅吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6bobv/anyone_ever_try_a_drafting_chair/</link>
+      <description><![CDATA[所以我在办公桌前花费的时间越来越多。我的腿开始疼痛。我也是一名职业音乐家，特别是贝斯手。我很少坐在演出上，但当我坐的时候，我喜欢高凳子。一脚朝上，一只脚朝下，不舒服的时候换一下。  我有一个可调节的站立式办公桌，所以这在我的办公桌上是可行的。我正在考虑买一把绘图椅。还有其他人尝试这个吗？像这个 希望得到那些热爱自己所拥有的东西的人的推荐。我愿意花点钱。无法为正常流通定价   由   提交 /u/SumDoodWiddaName   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6bobv/anyone_ever_try_a_drafting_chair/</guid>
+      <pubDate>Mon, 16 Feb 2026 14:53:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>在这个人工智能时代，作为一名开发人员，如何才能不断进步而不落后？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r69lmk/how_do_you_improve_as_a_developer_in_this_ai_era/</link>
+      <description><![CDATA[基本上是标题。您的老板希望您交付更多、更快。当你这样做时，你会使用更多的人工智能、更多的“氛围编码”，并且每次提示都会失去你的技能。  您有哪些解决方案可以保持最新状态？  我尝试在不使用人工智能的情况下制作一些小项目，我感觉又像个实习生了。    由   提交 /u/FakeBlueJoker   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r69lmk/how_do_you_improve_as_a_developer_in_this_ai_era/</guid>
+      <pubDate>Mon, 16 Feb 2026 13:27:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果你把自己和你的项目放在 Reddit 上 - 请记住，这些订阅者中有很多悲伤和好斗的人 - 所以不要认为这是针对你个人的</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r69hr7/if_youre_putting_yourself_and_your_projects_out/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r69hr7/if_youre_putting_yourself_and_your_projects_out/</guid>
+      <pubDate>Mon, 16 Feb 2026 13:22:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>ConnectRPC 睡了吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r69736/is_connectrpc_slept_on/</link>
+      <description><![CDATA[我最近开始探索 protobuf 和 gRPC 的东西，因为我认为这是进行服务到服务通信的最佳方式。我遇到了 ConnectRPC 和 buf 生态系统，这似乎是浏览器和后端之间类型安全通信的最佳方式。 如果您之前使用过此方法，或者有任何意见，您是否建议将其用于所有 API 通信，包括前端（浏览器）到后端？有什么问题吗？   由   提交 /u/khald0r   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r69736/is_connectrpc_slept_on/</guid>
+      <pubDate>Mon, 16 Feb 2026 13:09:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个生产就绪的 Django + React auth starter 并将其开源</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r693qc/i_built_a_productionready_django_react_auth/</link>
+      <description><![CDATA[      每次我开始一个新项目时，我都会花前几天设置 auth。登录、注册、电子邮件验证、密码重置、令牌刷新...每次都是同样的事情。 我终于厌倦了它并构建了一个合适的入门模板。现在我只需克隆即可。 堆栈：  后端：Django + DRF + SimpleJWT + Djoser 前端：React + Vite + TypeScript + Tailwind + Radix UI  包含内容： 后端：  自定义用户模型UUID 主密钥和基于电子邮件的登录 具有自动令牌轮换和黑名单功能的 JWT 身份验证 电子邮件验证流程（用户必须在登录前进行验证） 使用限时链接重置密码 速率限制 生产安全设置（HSTS、安全 cookie 等） 单独的开发/生产设置（用于开发的 SQLite，用于开发的 PostgreSQL） prod) 使用 pytest 进行测试  前端：  身份验证上下文 + React 查询（不需要 Redux） 用于自动令牌刷新的 Axios 拦截器（通过请求排队来处理竞争条件） 受保护的和来宾路由防护 “记住我”使用 localStorage 与 sessionStorage 所有端点均使用 TypeScript 完全键入  开发设置是零配置 - SQLite 数据库、控制台电子邮件后端（电子邮件打印到您的终端）。无需设置 Postgres 或 Mailgun 只是为了在本地进行测试。 我还撰写了一篇详细的博客文章，介绍了一切的工作原理 - JWT 流程、令牌刷新队列模式、电子邮件验证设置、Djoser 配置和生产部署：https://bhusalmanish.com.np/blog/posts/django-react-auth-starter.html 仓库： https://github.com/maniishbhusal/django-react-auth-starter 实时前端预览： https://django-react-auth-starter.vercel.app/（后端未托管，但您可以看到 UI） 希望获得反馈。如果您发现改进，欢迎 PR。  https://preview.redd.it/gy5v5q31w2jg1.png?width=1752&amp;format=png&amp;auto=webp&amp;s=e94342fbaabc2e6c6acf30a393e5296a20e882b7   由   提交 /u/Ok-Childhood-5005   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r693qc/i_built_a_productionready_django_react_auth/</guid>
+      <pubDate>Mon, 16 Feb 2026 13:05:07 GMT</pubDate>
+    </item>
     <item>
       <title>卡住</title>
       <link>https://www.reddit.com/r/webdev/comments/1r68boh/stucked/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[      嗨，我是大学最后一年的雅利安人。我已经被 YC 拒绝了 3 次了，哈哈，我也申请了这个春季批次。自上次以来我已经取得了很多进步，并且抱有很大的希望。当时我也申请了一些创业项目，但都没有成功。如果你们对如何提高我的机会有任何想法，我很想听听。 我已经为此工作了一年多。我开始致力于这个远大的目标，试图制作一个可以帮助你完成所有事情的人工智能助手。最近，许多初创公司都提出了同样的想法，我们可以看到 openclaw 有多疯狂。 我想让 Gaia 在任务中与人类联系起来，这样你就可以省去思考这些缓慢、低效任务的麻烦，而你可以专注于解决问题和做你喜欢的事情。 我有很多计划，你可以在这里阅读宣言： https://heygaia.io/manifesto site: https://heygaia.io/  我没什么可说的，但仍有很多工作正在进行，很快我想推出这个。如果您想询问有关盖亚或任何其他问题，我很乐意回答您的任何问题。我很高兴回答。   由   提交/u/Ok-Programmer6763   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r64h1h/looking_for_advice_how_to_improve_my_chances_in/</guid>
       <pubDate>Mon, 16 Feb 2026 08:45:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据库中大量记录的性能（跨多个整个数据库约 850k）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r64eft/performance_with_huge_number_of_records_in_db/</link>
-      <description><![CDATA[您好， 我正在考虑在我的下一个项目中使用 PaylodCMS。如果我找到了那个客户，我将不得不将他的旧数据库（如果你甚至可以称其为数据库，它基本上都是单独的 HTML 文件）迁移到有效负载。这让我想知道这个尺寸的性能如何？它甚至在视觉上受到影响吗？ 另一方面，你们中有人尝试将这么多帖子迁移到数据库吗？在转换为更易于使用的格式并添加到数据库方面，需要做什么？ 谢谢！   由   提交/u/Cyber​​Weirdo420  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r64eft/performance_with_huge_number_of_records_in_db/</guid>
-      <pubDate>Mon, 16 Feb 2026 08:40:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>援助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r64a1b/aid/</link>
-      <description><![CDATA[嗨。我有一个西班牙语小型技术博客 (tecnocajon.wordpress.com)，我想摆脱 WordPress。但问题是我没法投资。我曾考虑过 Cloudflare Pages 和 Portabloc（因为我知道如何用 Markdown 编写），但阻碍我的是我没有自定义域。使用免费的 WordPress 计划，即使您位于“.wordpress.com”下，也可以使用免费的 WordPress 计划。子域名，给人一种博客的印象；它与个人网站项目相关。如果我没记错的话，Cloudflare 的域名是“.pages.dev”，这并不能传达WordPress所具有的专业精神和品牌形象。 所以，如果您能帮助我，我将非常感激。 谢谢   由   提交/u/NotChoco_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r64a1b/aid/</guid>
-      <pubDate>Mon, 16 Feb 2026 08:33:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>嘿，独立开发者！你们实际上如何找到谋生的项目？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r634gz/hey_solo_developers_how_do_you_guys_actually_find/</link>
-      <description><![CDATA[我想开始独立创业。技术方面很好，但“寻找客户”却很困难。部分很困难。获得一致的 Web 项目最可靠的方法是什么？   由   提交 /u/devkasun   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r634gz/hey_solo_developers_how_do_you_guys_actually_find/</guid>
-      <pubDate>Mon, 16 Feb 2026 07:23:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个由 webgpu 驱动的小型图表库</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5yra7/a_tiny_webgpu_powered_chart_lib/</link>
-      <description><![CDATA[      我组装了一个约 11-15kb 的小型图表库，该库由屏幕外画布中的 Web Worker 使用计算着色器提供支持。这意味着您可以使用插件系统被动渲染数千个图表、数千个系列和数百万个数据点。 它解决了日常工作中的一个问题，我想我会分享它。 演示 https://dgerrells.github.io/chartai/demo/  https://preview.redd.it/xg4baccd2sjg1.png?width=3326&amp;format=png&amp;auto=webp&amp;s=9efea36177616cb3f3aa34987ac5a3fe7668c794   由   提交 /u/Outrageous-guffin   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5yra7/a_tiny_webgpu_powered_chart_lib/</guid>
-      <pubDate>Mon, 16 Feb 2026 03:31:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们可以谈谈氛围编码吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5xqmh/can_we_talk_about_vibe_coding/</link>
-      <description><![CDATA[大家好。 我想听听您对氛围编码和人工智能编码的看法。对我来说，我是一名设计师，而不是一名开发人员。在人工智能真正起飞并能够制作实际可用的网站和设计之前，我学习了 html、css 和极少量的 js，以及一些 swift 和大量的 swiftui。 编码中的人工智能在编程世界中似乎是一个非常有争议的话题，人们的观点多种多样，从“我用人工智能取代了我所有的软件开发人员”到“永远不要在你正在摧毁的项目中使用人工智能”行星站”。 我发现自己介于两者之间。虽然我使用人工智能进行一些编码，因为，就像我说的，我首先是一名设计师，我不会按照“无监督编码，其中外观和感觉（又名氛围）由提示而不是代码决定”的定义中的“氛围代码”。我认为学习如何编码，这样你至少可以审查和完善人工智能所输出的内容，因为这是一项重要且有价值的技能，尤其是当你用完克劳德代码积分时，因为有时偶尔自己构建一些东西是很好的。 就我个人而言，我使用人工智能来简化我的开发过程，并自动化那些需要我自己花几个小时才能完成的事情。我从不使用人工智能来做任何创造性的工作，因为我通常在 Sketch 中创建一个设计，然后构建一个框架网站，然后对其进行完善。 是的，有时我会尝试用 Vive 编码一个项目来获得乐趣。但我讨厌它。当我用手创造一些东西并用耳朵之间的东西来思考如何制作它时，我没有那种兴奋和自豪的感觉。 从我在这个 Reddit 子版块和我所做的反馈帖子中看到的内容可以推断，新开发人员似乎正在拥抱人工智能作为一种工具（有些人将其用作拐杖），而资深和年长的开发人员则发现它的使用令人厌恶和懒惰。 这是一个概括，这两个类别中都有很多人不符合刻板印象。 如果你愿意分享你的观点，无论你讨厌人工智能、喜欢人工智能，还是像我一样介于两者之间，我都会很高兴。如果你不同意我/不喜欢人工智能，请评论并解释为什么而不是否决这篇文章，因为这样就会有更少的人看到它，这会妨碍我发动战争引发深思熟虑的讨论的尝试。 编辑1：我只知道我即将被否决到被遗忘 😭✌️   由   提交 /u/legitOwen   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5xqmh/can_we_talk_about_vibe_coding/</guid>
-      <pubDate>Mon, 16 Feb 2026 02:43:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Blob URL 作为易失性内存存储是一个坏主意吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5xfc0/is_using_blob_urls_as_volatile_inmemory_storage_a/</link>
-      <description><![CDATA[我正在探索一些非常规的东西，希望深入了解浏览器行为的人提供反馈。 我们知道：  localStorage / sessionStorage → 小配额（~5–10MB） IndexedDB → 持久、磁盘支持 缓存 API → 以请求/响应为中心  但假设我明确希望非持久性、仅 RAM 存储在重新加载时消失。通过 URL.createObjectURL 创建的 Blob URL：  将数据保留在内存中 没有像 sessionStorage 这样的显式小配额 在导航/选项卡关闭时自动清除 可以保存大型二进制数据  因此理论上，这就像一个仅限于页面生命周期的易失性内存存储。 使用情况可能是这样的：  大型临时计算输出 生成的媒体/资产 不应该持久的会话范围缓存 在不需要持久性时避免 IndexedDB 复杂性  我了解明显的风险：  受到内存压力 如果滥用可能会导致选项卡崩溃 没有持久性保证 没有内置管理/索引  但是假设它是有意使用且有限制的 - 这从根本上来说是不安全的，还是只是非常规？ 有人像这样故意使用 Blob 支持的内存吗？这是一把枪还是一个合理的易失层原语？   由   提交 /u/big_hole_energy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5xfc0/is_using_blob_urls_as_volatile_inmemory_storage_a/</guid>
-      <pubDate>Mon, 16 Feb 2026 02:27:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
