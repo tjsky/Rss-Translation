@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Mon, 16 Feb 2026 04:56:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 06:58:37 GMT</lastBuildDate>
+    <item>
+      <title>在我的背部和眼睛开始让我失望后，我构建了一个开源桌面应用程序（Electron）来阻止“开发人员倦怠”</title>
+      <link>https://www.reddit.com/r/software/comments/1r62nke/i_built_an_open_source_desktop_app_electron_to/</link>
+      <description><![CDATA[大家好， 像你们中的许多人一样，我每天在屏幕前花费 10 多个小时。最近，我开始处理眼睛灼痛、手腕疼痛和膝盖问题。我意识到我正在“调试”我的代码，但忽略了我的“人类硬件”。 我构建了 RefactorMe，一个 Windows 应用程序，它不仅提醒您移动，而且实际上会阻止您的工作流程，以强制进行微休息、眼保健操和人体工程学检查。 主要功能：  硬中断： 阻止 20-20-20 的屏幕规则。 手腕 RSI 预防：“鼠标手”的特定伸展。 插件架构：我构建了它，以便您可以通过 sidecar/API 模式以任何语言（Python、Go、Rust 等）做出贡献。  它是完全开源的。我希望你们能够分叉它，烘烤我的代码，或者帮助我添加更多健康检查模块。 Repo： [https://github.com/Dev-SK01/refactor-me\]  技术堆栈： Electron、Node.js   由   提交 /u/Dazzling_Grocery8203   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r62nke/i_built_an_open_source_desktop_app_electron_to/</guid>
+      <pubDate>Mon, 16 Feb 2026 06:55:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>DevOps 潜力</title>
+      <link>https://www.reddit.com/r/software/comments/1r620fs/devops_potential/</link>
+      <description><![CDATA[32岁为了工作和未来申请DevOps认证并学习它值得吗？   由   提交/u/Middle_Competition59  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r620fs/devops_potential/</guid>
+      <pubDate>Mon, 16 Feb 2026 06:19:44 GMT</pubDate>
+    </item>
     <item>
       <title>厌倦了 OpenClaw 困扰您的 PC？我打造了终极驱魔套件来彻底消灭它！ 👻💻</title>
       <link>https://www.reddit.com/r/software/comments/1r5v6hv/tired_of_openclaw_haunting_your_pc_i_built_the/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[嗨， 我发现了一个旧的 EXT HDD，它有来自我的旧电脑的某种旧备份文件。它是数千个随机命名的文件夹，每个文件夹在空文件夹后面的一串文件夹末尾都有一个文件。备份的总大小超过 100GB。我不确定它是否已损坏或什么，我从未真正处理过备份文件。有没有一个程序可以用来整理这些混乱并给我原始文件进行整理？   由   提交/u/Weak-Network6759  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r4xduz/recovering_files_from_old_pc_backup/</guid>
       <pubDate>Sat, 14 Feb 2026 22:07:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>还有人不愿意将私人 PDF 上传到网络工具吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1r4w80p/anyone_else_uncomfortable_uploading_private_pdfs/</link>
-      <description><![CDATA[我经常注意到，许多人将极其敏感的文档（身份证、证书、政府/财务记录等）上传到在线 PDF 工具。 虽然 iLovePDF 等服务被广泛使用，并且可能是由善意的团队构建的，但更广泛的现实是，我们生活在一个不断发生数据挖掘、泄露和供应链攻击的时代。 甚至值得信赖的平台可能成为风险面。仅这个想法就足以让我对将私人文件上传到闭源 Web 服务感到不舒服。 因此，作为一个小型个人项目，我构建了 pdfer，一个用 Rust 编写的最小的完全开源本地 PDF 实用程序。目前支持通过简单的终端界面合并和拆分 PDF，并计划提供 GUI 和更多 PDF 操作。 无意取代任何内容（目前），只是为那些喜欢完全离线保存文档的人提供隐私优先的替代方案。我愿意接受反馈和建议:)   由   提交 /u/buryingsecrets   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r4w80p/anyone_else_uncomfortable_uploading_private_pdfs/</guid>
-      <pubDate>Sat, 14 Feb 2026 21:18:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>最简单的方法是，通过在同一建筑物和同一网络的不同部分上的计算机上按下按钮，使监视器闪烁灯光/警报以引起人们的注意。</title>
-      <link>https://www.reddit.com/r/software/comments/1r4vmei/easiest_way_to_make_a_monitor_flash_a_lightalarm/</link>
-      <description><![CDATA[同事听音乐，我认为按下按钮会更容易，他会看到非常清晰的警报，所以当有人需要时，他将头转向我并暂停音乐。我正在检查聋哑人的警报呼叫器，但如果我们都在计算机上，也许会更容易找到一种方法来用我们的计算机完成此任务，所以我只需使用热键发送几次垃圾邮件以引起他的注意。是否已有类似的应用程序或我可以遵循的任何教程？   由   提交 /u/LuisFerCGSW   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r4vmei/easiest_way_to_make_a_monitor_flash_a_lightalarm/</guid>
-      <pubDate>Sat, 14 Feb 2026 20:53:33 GMT</pubDate>
     </item>
     </channel>
 </rss>

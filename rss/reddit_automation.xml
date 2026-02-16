@@ -4,7 +4,35 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 16 Feb 2026 04:55:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 06:57:35 GMT</lastBuildDate>
+    <item>
+      <title>SaaS 正在悄悄演变为“自动化即服务”吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r61hsk/is_saas_quietly_evolving_into_automation_as_a/</link>
+      <description><![CDATA[SaaS 使软件易于访问，但我不确定它是否解决了集成后出现的复杂性。 一旦公司开始堆叠工具，真正的工作就变成了将所有东西缝合在一起。 Webhook 失败、API 发生变化、达到速率限制、出现边缘情况，最终有人需要维护不断增长的工作流程网络。在某些时候，您不再只是使用 SaaS 产品。您正在运行一个需要监控、日志记录、重试和版本控制的自动化系统。 据我所知，困难不在于选择工具，而在于如何保持自动化随着时间的推移保持稳定。团队要么在内部雇用人员来拥有该层，要么将其外包，因为可靠性变得比灵活性更重要。 我在这个领域进行构建，并注意到许多公司更关心稳定的执行，而不是对每个节点和集成的完全控制。 很好奇这里的其他人如何看待它。 大多数团队最终都希望拥有自己的自动化堆栈，还是一旦工作流程变得至关重要，托管执行是否更有意义？   由   提交 /u/ZealousidealAd9886   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r61hsk/is_saas_quietly_evolving_into_automation_as_a/</guid>
+      <pubDate>Mon, 16 Feb 2026 05:51:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>15 分钟自动化，节省团队时间（分步示例）</title>
+      <link>https://www.reddit.com/r/automation/comments/1r613o6/a_15minute_automation_that_saves_teams_hours/</link>
+      <description><![CDATA[这是一个非常真实的自动化示例，我已经设置了多次，它解决了我现在在 Reddit 上经常看到的问题。 问题是： 潜在客户进来了，但后续行动不一致。不是因为人们不关心，而是因为：  有人很忙 有人认为其他人处理了 或者有人“稍后”检查了 CRM  手动现实是：  表单提交电子邮件到达 有人打开它 有人复制数据 有人指定领导 有人记得跟进。每一步都很小。它们一起破坏了可靠性。  简单的自动化，例如：  提交表单→在 CRM 中创建潜在客户 根据基本规则（循环或区域）自动分配潜在客户 立即发送后续电子邮件 仅在分配失败时才发送 Slack 消息  就是这样。没有得分。没有个性化。没有代理决定任何事情。 为什么它如此有效，因为：  在不增加复杂性的情况下提高速度 人类不再依赖于基于记忆的步骤 失败是可见的而不是无声的  我看到人们在这个基本执行层还不稳固时直接跳到“AI领导资格”。如果您无法可靠地将数据从 A → B → 发生故障时通知人员，那么添加智能只会使故障更难以调试。 如果您是自动化新手，请从这里开始。如果您经验丰富，这仍然是其他一切所依赖的基础。   由   提交 /u/Better_Charity5112   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r613o6/a_15minute_automation_that_saves_teams_hours/</guid>
+      <pubDate>Mon, 16 Feb 2026 05:29:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>流程图是一项并不吸引人的技能，但实际上每周可以节省 15 个小时（这比追逐闪亮的 AI 工具要好）</title>
+      <link>https://www.reddit.com/r/automation/comments/1r60mg1/process_mapping_is_the_unsexy_skill_that_actually/</link>
+      <description><![CDATA[ 由   提交 /u/3pychmak   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r60mg1/process_mapping_is_the_unsexy_skill_that_actually/</guid>
+      <pubDate>Mon, 16 Feb 2026 05:05:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>易于设置的文档提取软件？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r60g06/document_extraction_software_thats_easy_to_set_up/</link>
+      <description><![CDATA[谁能推荐一个易于设置的文档提取软件？我需要尽快扫描一批文档，有些页面有表格和图表   由   提交 /u/Fantastic-Welder2755   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r60g06/document_extraction_software_thats_easy_to_set_up/</guid>
+      <pubDate>Mon, 16 Feb 2026 04:56:04 GMT</pubDate>
+    </item>
     <item>
       <title>我从每天破坏 n8n 工作流程到找到付费客户，说实话，如果没有这个社区，我就不会明白这一点</title>
       <link>https://www.reddit.com/r/automation/comments/1r5z5ep/i_went_from_breaking_n8n_workflows_daily_to/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我最近一直在从事自动化脚本和网页抓取项目，我试图更好地了解市场。 对于那些已经是自由职业者或正在运行自动化相关服务的人来说，对此是否有持续的需求？还是更偶然/小众？ 企业是否正在积极寻找自动化解决方案，或者主要是小型一次性任务？ 很想听到真实的经验。   由   提交 /u/No-Macaroon3463   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r4u1ec/is_there_actually_strong_demand_for_automation/</guid>
       <pubDate>Sat, 14 Feb 2026 19:48:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>多个帐户获得额外验证。可能是什么原因造成的？</title>
-      <link>https://www.reddit.com/r/automation/comments/1r4ivs8/multiple_accounts_getting_extra_verification_what/</link>
-      <description><![CDATA[我管理多个在线工作帐户（没有非法或垃圾邮件，主要是内容和管理任务）。最近，我注意到当我从同一台机器登录不同的帐户时，我会收到比以前更多的验证提示。 我到处都使用 2FA 和强密码，所以我不认为这是妥协问题。我的问题是：浏览器指纹识别或共享会话是否会导致此问题？ 在一台设备上隔离帐户而不增加安全风险的最安全方法是什么？   由   提交 /u/No-Pitch-7732   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r4ivs8/multiple_accounts_getting_extra_verification_what/</guid>
-      <pubDate>Sat, 14 Feb 2026 11:59:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为初学者，我使用 ai 来自动化我的社交媒体发布，而无需 api 只是 Python 和剧作家</title>
-      <link>https://www.reddit.com/r/automation/comments/1r4hw80/i_used_ai_to_automate_my_social_media_posting/</link>
-      <description><![CDATA[      像你们大多数人一样，我消费社交媒体，但不主动在社交媒体上发帖。 看到我在 Instagram 和 LinkedIn 上发布的上一篇帖子是几个月前的，我决定今年我要真正开始发帖并做更多 我想要预定的帖子 我想从 Reddit、YouTube、Instagram 或 X 等平台获取有趣的视频并转发我想向所有关注我的人发送消息，感谢他们的关注。我想向对我的帖子发表评论的任何人发送消息，感谢他们的评论。 挑战：虽然我周一到周五都在办公室，而且有免费的互联网，但我似乎从来没有时间发布任何内容 这让我想要建立一个系统来在我的笔记本电脑上处理这个问题。 我知道有些人会说，但网上有工具可以做到这一点，你每月可以支付 20 美元。 伙计，我住在第三世界国家（尼日利亚），10-20 美元可以照顾几天的食物（早上、下午和晚上）。 因此，我在 AI Selerium 和剧作家的帮助下构建了一个基于 Python 脚本的自动化 到目前为止，我已经过去了  发帖（x、LinkedIn 和 instagram）下载内容（Youtube 和 Instagram）在 x、LinkedIn 和 Instagram 上发布 使用 Google Gemini 花了 3 周多的时间才完成此任务 如果有人感兴趣，请打开分享我是如何做到的，如果有人想要，请打开在 Gemini 上分享我的流程聊天，   由   提交/u/cj1080  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r4hw80/i_used_ai_to_automate_my_social_media_posting/</guid>
-      <pubDate>Sat, 14 Feb 2026 11:02:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>扩展个人品牌：聊天机器人提示 + 逼真的人工智能头像自动化</title>
-      <link>https://www.reddit.com/r/automation/comments/1r4dnbj/scaling_personal_brand_chatbot_prompts_realistic/</link>
-      <description><![CDATA[构建自动化 LinkedIn 工作流程，将聊天机器人与 AI 头像相结合。使用 AI 头像生成器 Looktara（35 美元）从自拍照中创建专业头像，然后输入聊天机器人提示中以获取个性化 LinkedIn 内容。 聊天机器人提示：“从创始人的角度撰写有关 SaaS 增长的 LinkedIn 帖子。使用这个专业爆头[插入AI爆头]。目标关键词AI头像和专业头像。” 3分钟内生成帖子+视觉效果。每周在创始人帐户上安排 15 个帖子。 2 个月内粉丝数量从 3000 增加到 12000。对于企业客户来说，AI 头像看起来足够逼真，聊天机器人处理消息传递。 有人为个人品牌构建聊天机器人 + AI 头像工作流程吗？用于聊天机器人集成的最佳人工智能爆头生成器？ Looktara 非常适合通过目视检查的 LinkedIn 头像。   由   提交/u/Successful_North_807   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r4dnbj/scaling_personal_brand_chatbot_prompts_realistic/</guid>
-      <pubDate>Sat, 14 Feb 2026 06:43:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻求有关自动化工作流程的建议</title>
-      <link>https://www.reddit.com/r/automation/comments/1r4c467/looking_for_advice_with_automating_a_work_process/</link>
-      <description><![CDATA[大家好， 我正在寻求建议，以获取起点或了解最好的工具或方法是什么，以将一些自动化引入到我最近负责提高效率的工作负载中。  每天我都会收到一叠纸质发票，我需要将其扫描到计算机中，从计算机上的文件夹中检索发票，在 Excel 电子表格上查找客户以找到他们的电子邮件地址，然后通过电子邮件向客户发送发票，主题是发票编号和主题标题中的日期。  在这样做了几次之后，我认为必须有一种方法可以使这个过程自动化，这似乎是一个非常手动的过程，非常耗时。  任何帮助表示赞赏。我想建立一套技能来使这个过程更加高效。谢谢    由   提交/u/jg_leo2266  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r4c467/looking_for_advice_with_automating_a_work_process/</guid>
-      <pubDate>Sat, 14 Feb 2026 05:20:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
