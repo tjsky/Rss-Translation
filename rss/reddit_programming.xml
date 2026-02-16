@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 16 Feb 2026 06:58:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 09:49:51 GMT</lastBuildDate>
+    <item>
+      <title>为什么“跳过代码，发送二进制文件”是一个类别错误</title>
+      <link>https://www.reddit.com/r/programming/comments/1r65ee0/why_skip_the_code_ship_the_binary_is_a_category/</link>
+      <description><![CDATA[最近，Elon Musk 提出了这样的想法：到 2026 年，你“甚至不会费心编码”，因为模型将“直接创建二进制文件”。 这听起来很未来，直到你仔细观察编译器的实际情况。编译器已经是“从想法到二进制”的机器，只不过它有形式语言、规范、确定性转换和围绕可检查性构建的管道。相同的输入，相同的输出。如果错了，你会在一行中得到一个错误和一个原因。 “跳过代码”的说法基本上是在说：让我们删除人类可以读取、比较、审查、调试和审计的一层，然后直接跳到整个堆栈中最脆弱的工件。凉爽的。现在，当出现问题时，您无需检查逻辑，只需重新滚动老虎机即可。碰撞？再生。内存损坏？再生。安全漏洞？更努力地再生。软件工程，现在有扭蛋机制。 🤡 此外，二进制也不是宽容的。源代码可能稍有错误，编译器就会对你大喊大叫。二进制可能有一个字节错误，你会得到一个鬼故事：未定义的行为、无声的损坏、“在我的机器上运行”，但在生产中它却出没......你们都知道。 这里真正的类别错误混淆了两件事：编译器是正式系统上的语义保留转换器，LLM 是需要外部验证才能信任的随机文本生成器。如果您添加足够的验证来使“直接二进制生成”安全，那么恭喜您，您只是重新发明了编译器工具链，只是需要额外的步骤和更少的可见性。 我对此写了更长的细分，因为“LLM 取代编码”标题忽略了真正重要的内容：验证、可维护性和问责制。 我有兴趣听到任何实际大规模交付系统的人的声音。   由   提交/u/tirtha_s   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r65ee0/why_skip_the_code_ship_the_binary_is_a_category/</guid>
+      <pubDate>Mon, 16 Feb 2026 09:42:59 GMT</pubDate>
+    </item>
     <item>
       <title>研究发现，新架构可以将破解 RSA-2048 所需的量子硬件减少十倍</title>
       <link>https://www.reddit.com/r/programming/comments/1r62p3i/new_architecture_could_cut_quantum_hardware/</link>
@@ -39,13 +46,6 @@
       <description><![CDATA[ 由   提交/u/Low-Engineering-4571   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r5v2kl/building_a_selfhosted_google_trends_alternative/</guid>
       <pubDate>Mon, 16 Feb 2026 00:37:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>本地 WebSocket：构建无需云即可运行的实时应用程序</title>
-      <link>https://www.reddit.com/r/programming/comments/1r5quh6/local_websocket_building_realtime_apps_that_work/</link>
-      <description><![CDATA[我发表了一篇文章，介绍我的新 Dart/Flutter 包：`local_websocket`，无需云服务器即可在本地网络上启用实时应用程序，非常适合离线优先、本地或医疗保健系统等隐私敏感用例。 涵盖的主要功能： - 自动设备发现和 LAN WebSocket 通信。 - 纯 Dart 实现服务器扫描功能。 - 仪表板、协作和关键任务应用程序的实用示例。 欢迎就生产使用、重新连接策略或与 Flutter 项目的集成技巧提供反馈。   由   提交 /u/_Flame_Of_Udun_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r5quh6/local_websocket_building_realtime_apps_that_work/</guid>
-      <pubDate>Sun, 15 Feb 2026 21:37:29 GMT</pubDate>
     </item>
     <item>
       <title>代理编码可以提高质量标准吗？</title>

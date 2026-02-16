@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 16 Feb 2026 06:59:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 09:51:00 GMT</lastBuildDate>
+    <item>
+      <title>您对逻辑属性的立场是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r64xt3/what_is_your_stance_on_logical_properties/</link>
+      <description><![CDATA[对于支持 LTR 的网站，逻辑属性是最佳选择。但它们在可读性和理解您自己的代码方面也非常糟糕。至少，它们将每行受影响的代码加倍： // padding: 10px;填充块：10px；内边距：10px；  由于padding、margin和border简写被视为物理property 并且应该被替换，这是我的两个问题：  必须替换 border 有点愚蠢，因为它设置元素的所有 4 个边，并且（与 padding 和 margin 不同）不能用于设置 1-3 个边。所以它对 RTL 和 LTR 已经具有相同的效果。我错过了什么吗？你替换 border 吗？ 替换 padding: 0; 或 margin: 10px; 似乎也有点愚蠢，因为它们在 RTL 和 LTR 上做了同样的事情。我们应该只在使用超过 1 个值的简写时强制执行逻辑属性吗？    由   提交 /u/TheRealSkythe   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r64xt3/what_is_your_stance_on_logical_properties/</guid>
+      <pubDate>Mon, 16 Feb 2026 09:14:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求建议：如何提高我参加创业项目的机会？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r64h1h/looking_for_advice_how_to_improve_my_chances_in/</link>
+      <description><![CDATA[      嗨，我是大学最后一年的雅利安人。我已经被 YC 拒绝了 3 次了，哈哈，我也申请了这个春季批次。自上次以来我已经取得了很多进步，并且抱有很大的希望。当时我也申请了一些创业项目，但都没有成功。如果你们对如何提高我的机会有任何想法，我很想听听。 我已经为此工作了一年多。我开始致力于这个远大的目标，试图制作一个可以帮助你完成所有事情的人工智能助手。最近，许多初创公司都提出了同样的想法，我们可以看到 openclaw 有多疯狂。 我想让 Gaia 在任务中与人类联系起来，这样你就可以省去思考这些缓慢、低效任务的麻烦，而你可以专注于解决问题和做你喜欢的事情。 我有很多计划，你可以在这里阅读宣言： https://heygaia.io/manifesto site: https://heygaia.io/  我没什么可说的，但仍有很多工作正在进行，很快我想推出这个。如果您想询问有关盖亚或任何其他问题，我很乐意回答您的任何问题。我很高兴回答。   由   提交/u/Ok-Programmer6763   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r64h1h/looking_for_advice_how_to_improve_my_chances_in/</guid>
+      <pubDate>Mon, 16 Feb 2026 08:45:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>2005 年 2 月 16 日 — YouTube 正式注册日</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r64evj/february_16_2005_the_day_youtube_was_officially/</link>
+      <description><![CDATA[      2005 年的这一天，YouTube 正式注册为一家公司。 没有创作者。 没有盈利。 没有“订阅”文化。 只是一个简单的想法：上传视频并在线分享。 几个月后，有人上传了“我在动物园。” 现在，它是一个取代电视、广播，有时甚至取代 Google 搜索的平台。 想想这一切在 iPhone 出现之前就开始了，真是太疯狂了。 您记得观看的第一个 YouTube 视频是什么？你有没有想过它会变得这么大？   由   提交/u/gambitok  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r64evj/february_16_2005_the_day_youtube_was_officially/</guid>
+      <pubDate>Mon, 16 Feb 2026 08:41:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>数据库中大量记录的性能（跨多个整个数据库约 850k）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r64eft/performance_with_huge_number_of_records_in_db/</link>
+      <description><![CDATA[您好， 我正在考虑在我的下一个项目中使用 PaylodCMS。如果我找到了那个客户，我将不得不将他的旧数据库（如果你甚至可以称其为数据库，它基本上都是单独的 HTML 文件）迁移到有效负载。这让我想知道这个尺寸的性能如何？它甚至在视觉上受到影响吗？ 另一方面，你们中有人尝试将这么多帖子迁移到数据库吗？在转换为更易于使用的格式并添加到数据库方面，需要做什么？ 谢谢！   由   提交/u/Cyber​​Weirdo420  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r64eft/performance_with_huge_number_of_records_in_db/</guid>
+      <pubDate>Mon, 16 Feb 2026 08:40:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>援助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r64a1b/aid/</link>
+      <description><![CDATA[嗨。我有一个西班牙语小型技术博客 (tecnocajon.wordpress.com)，我想摆脱 WordPress。但问题是我没法投资。我曾考虑过 Cloudflare Pages 和 Portabloc（因为我知道如何用 Markdown 编写），但阻碍我的是我没有自定义域。使用免费的 WordPress 计划，即使您位于“.wordpress.com”下，也可以使用免费的 WordPress 计划。子域名，给人一种博客的印象；它与个人网站项目相关。如果我没记错的话，Cloudflare 的域名是“.pages.dev”，这并不能传达WordPress所具有的专业精神和品牌形象。 所以，如果您能帮助我，我将非常感激。 谢谢   由   提交/u/NotChoco_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r64a1b/aid/</guid>
+      <pubDate>Mon, 16 Feb 2026 08:33:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>嘿，独立开发者！你们实际上如何找到谋生的项目？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r634gz/hey_solo_developers_how_do_you_guys_actually_find/</link>
+      <description><![CDATA[我想开始独立创业。技术方面很好，但“寻找客户”却很困难。部分很困难。获得一致的 Web 项目最可靠的方法是什么？   由   提交 /u/devkasun   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r634gz/hey_solo_developers_how_do_you_guys_actually_find/</guid>
+      <pubDate>Mon, 16 Feb 2026 07:23:10 GMT</pubDate>
+    </item>
     <item>
       <title>一个由 webgpu 驱动的小型图表库</title>
       <link>https://www.reddit.com/r/webdev/comments/1r5yra7/a_tiny_webgpu_powered_chart_lib/</link>
@@ -48,13 +90,6 @@
       <pubDate>Sun, 15 Feb 2026 23:25:45 GMT</pubDate>
     </item>
     <item>
-      <title>🧟 僵尸不仅会出现……它们还会在您的浏览器中运行。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5t7sk/zombies_are_not_only_coming_they_are_running_in/</link>
-      <description><![CDATA[   是。 不是视频。 不是流。 真实的《反恐精英 1.6》和《半条命》。 通过 Emscripten 编译为 WebAssembly。 通过 WebRTC 运行多人游戏。 现在……拥有完整的 mod 支持。包括 🧟 Zombie Plague。 之前我分享过： 将构建发布到 npm 通过 WebRTC 进行多人游戏 即插即用 Docker 镜像 1 个 HTML 文件 → 打开 → 玩 CS 1.6 但这一个的效果不同。 🔥 AMXModX &amp;元模。在浏览器中。我们在 Docker 镜像中添加了即插即用的 AMX Mod X 和 Metamod 支持。 是的 - 服务器端模组堆栈。 是的 - 在 WASM 中编译游戏引擎。 是的 - 在 WebRTC 上运行。 听起来不对。 它不应该工作。 但它确实有效。 🧟 僵尸瘟疫演示对于我所附的屏幕截图，我使用了传说中的“僵尸瘟疫”模组。 设置比“1 HTML 文件”版本稍微复杂一些，但仍然非常简单：  下载“僵尸瘟疫”模组文件 提取 准备游戏文件夹 运行容器 BOOM。僵尸。  就是这样。 无需安装游戏。 浏览器 + Docker。  这意味着： 浏览器中的自定义 CS 1.6 服务器 经典 HL mods 复活 完整的插件生态系统支持 无 LAN 多人游戏基础设施 通过 Docker 实现可重现的环境 我们基本上将 2000 年代的 modding 文化冻结到便携式基础设施中。 为什么这很重要？ 《反恐精英》模组定义了一个时代。 僵尸瘟疫、越狱、冲浪、死亡逃亡 — 整个亚文化。 现在想象一下：  可共享的浏览器链接 临时服务器 游戏模组的 CI/CD 即时社区启动  这不是怀旧。 这是保存 + 分发 + 基础设施现代化。 GitHub 就在这里 https://github.com/yohimik/webxash3d-fwgs/tree/main/docker/cs-web-server-metpamx/examples/zp 最疯狂的部分？它现在可以通过 WebRTC 运行已启用 mods。 浏览器客户端。 容器化服务器。 经典 mod 堆栈。 零本机安装。 2003 年遇见 2026 年。 非常感谢 👏 ludufre - 原始 Metamod 和 AMX Mod X 支持以及 Docker 映像 ololoken - 图形、WebGL2 和解决许多问题   由   提交/u/yohimik  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5t7sk/zombies_are_not_only_coming_they_are_running_in/</guid>
-      <pubDate>Sun, 15 Feb 2026 23:15:07 GMT</pubDate>
-    </item>
-    <item>
       <title>Chrome 扩展程序可让您注释任何 UI 并将其直接提供给 AI 代理</title>
       <link>https://www.reddit.com/r/webdev/comments/1r5sqht/chrome_extension_that_lets_you_annotate_any_ui/</link>
       <description><![CDATA[为此工作了一段时间，终于准备好分享了。问题是：当您修复 UI 错误或迭代设计时，您最终会在浏览器、屏幕截图和 AI 编码工具之间进行上下文切换。这很烦人。 我构建的：onUI - 一个 Chrome 扩展，可以向任何网页添加注释层。您单击元素，将它们标记为错误/增强/问题，设置严重性并导出结构化报告。 最酷的部分：它有一个连接到 Claude Code 或 Codex 的本地 MCP 服务器。您的代理可以不断提取新的注释、应用修复，而您只需继续标记错误即可。就像 UI 结对编程一样。 GitHub：github.com/onllm-dev/onUI   由   提交/u/Own-Equipment-5454   [链接] [评论]]]></description>
@@ -74,41 +109,6 @@
       <description><![CDATA[      我正在努力使用网格属性让我的网站看起来像我画的草图。有谁知道如何使用网格来获得我想要的布局？我应该使用 flex 吗？   由   提交/u/Dependent-Hamster361   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r5s44d/need_help_for_my_neocities_site/</guid>
       <pubDate>Sun, 15 Feb 2026 22:28:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>“匿名网络跟踪”令人头疼的问题：为什么我的网络分析比移动设备更难同步？ （Next.js + Expo + Supabase）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5qhk3/the_anonymous_web_tracking_headache_why_is_my_web/</link>
-      <description><![CDATA[大家好，我目前正在使用 Next.js（Web）和 Expo（移动）Monorepo 为本地企业构建一个平台，并以 Supabase 作为后端。 我在个人资料视图跟踪方面遇到了困难。 设置：  我们将 profile_view、whatsapp_click 等事件跟踪到 user_activity 表中。 我们使用每日聚合 Cron 作业（凌晨 2 点）将原始事件汇总到业务仪表板的 profile_analytics_daily 表中。  问题：在移动上，这很顺利 - 用户大多经过身份验证或拥有持久的设备 ID。但在 Web 上，情况一团糟。  匿名流量：大多数用户通过 SEO 登陆，但没有登录。我使用 localStorage 作为 session_id，但感觉很脆弱。 数据奇偶校验：仪表板显示 Web 视图和应用视图之间的数字不一致。感觉网络跟踪触发器要么被广告拦截器拦截，要么错过“聚合”窗口。  我向专家提出的问题：  您是否使用 Next.js 中间件在服务器端跟踪视图以绕过广告拦截器？ 您如何处理企业主的实时“戏弄”统计数据与聚合数据“深度”分析？ 是否有更好的方法来处理不依赖于片状客户端存储的匿名 SEO 流量的 session_id？  很想听听您在初创公司中如何处理“网络与应用”数据同步！   由   提交 /u/Tzipi_builds   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5qhk3/the_anonymous_web_tracking_headache_why_is_my_web/</guid>
-      <pubDate>Sun, 15 Feb 2026 21:23:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Leetcode 风格但用于后端？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5q9i9/leetcode_style_but_for_backend/</link>
-      <description><![CDATA[嗨，我希望你们一切顺利 我正在寻找一个像前 Leetcode 这样的网站，但后端任务可以给我一些练习和学习的任务 谢谢    由   提交 /u/brave_jr   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5q9i9/leetcode_style_but_for_backend/</guid>
-      <pubDate>Sun, 15 Feb 2026 21:14:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源 PWA 目录</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5q6d9/opensource_pwa_catalog/</link>
-      <description><![CDATA[      列出可安装 PWA 的 PWA。它是开源且免费的。如果您希望自己的作品获得推荐，请在 Twitter 上告诉我：https://x.com/anwar_nairi   由   提交/u/khalyomede  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5q6d9/opensource_pwa_catalog/</guid>
-      <pubDate>Sun, 15 Feb 2026 21:11:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>我累了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5pt6b/im_tired/</link>
-      <description><![CDATA[意识流/多动症帖子，但这就是我作为开发者的感受。我对这样的说法感到精疲力竭，即非开发人员在早上拉屎的同时，单枪匹马地推出了价值 1 万美元的 mrr vivi 编码 SaaS 应用程序。没有发生。 我是一名专业的网络开发人员（和 seo），自从 gpt-3 api 仅受邀请以来一直致力于人工智能辅助编码 那是，什么，2021 年？在过去的 5 年里，我创建了 100 多个应用程序（许多尚未完成），其唯一目的是提供价值以换取金钱，同时最大限度地发挥人工智能的全部功能。仅我的 chatgpt 记录就显示了来自我自己的超过 15 万条消息，其中大部分是编码（尽管我现在是副驾驶兼 Codex）。我已经磨这个好多年了。我的梦想是拥有一款盈利的 SaaS 应用程序。我在每周 40 小时的编程工作之外做这件事。这就是我所想的。这就是我学习编码的原因。我找到了一份编程工作来“支撑我”，直到我开始盈利。 我还没有赚到一美元，但这很好。我可能不太熟，但我仍在尝试。 以下是我在当今环境下构建SaaS的一些结论： -想法部分仍然非常困难 -人工智能无法给你带来真正的客户痛苦或分销渠道 -失去理智的最快方法就是为一个你不了解的市场进行构建 -如果你的想法不能解决你面临的问题，你可能会度过一段糟糕的时光 -人工智能仍然无法理解构建全栈SaaS Web应用程序（甚至是基本的）的所有考虑因素 -语法只是SaaS难题的一小部分。 ai 让语法变得简单。剩下的仍然很难。 - 最好的 SaaS 应用程序在没有营销/分销的情况下就能赚 0 美元 - 即使你了解营销，人们也不会花钱，除非你的价值提供实际上很好 - 你可以了解编程、营销、使用 codex/ai，但仍然赚 0 美元，因为痛点没有得到验证 - 你可以通过收集电子邮件的草率登陆页面来验证一个想法，但如果你没有任何流量，你没有验证任何东西 这是一个大循环。这么多隐藏的步骤，这么多的考虑因素。 saas 太他妈难了。即使有人工智能，非开发人员也处于显着劣势，因为人工智能根本不够好（而且我认为还不够好）。开发人员处于明显的劣势，因为他们被告知构建有利可图的 SaaS 非常容易，以至于普通人在 iPhone 上 20 分钟内就能破解 1 万美元/月的 SaaS 应用程序。 尽管我个人在这门技术上花费了大量的时间，但在互联网上看到数百篇有关价值数百万美元的 vivi 编码成功故事的帖子，简直就是在不断地吐口水。我感觉有人在我脸上吐口水。从逻辑上讲，这些类型的成功发生的速度不可能接近我们被告知的速度。 如果其他人也有同样的情况，请不要放弃。我们正在通过机器人培养参与度。欢迎来到死亡互联网   由   提交/u/My_posts_r_shit   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5pt6b/im_tired/</guid>
-      <pubDate>Sun, 15 Feb 2026 20:56:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>EXP 开发人员在 2026 年创办自己的咨询公司/机构的情况有多常见？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r5piuk/how_common_is_this_where_exp_devs_start_their_own/</link>
-      <description><![CDATA[在营销部门这种情况经常发生，但在科技领域呢？ 我仍然很好奇，假设你在美国，美国科技咨询公司/机构如何与亚洲、巴西等其他更便宜的地方竞争。因为它们的价格便宜 2-5 倍   由   提交 /u/lune-soft   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r5piuk/how_common_is_this_where_exp_devs_start_their_own/</guid>
-      <pubDate>Sun, 15 Feb 2026 20:45:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
