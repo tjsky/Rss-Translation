@@ -4,7 +4,35 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 16 Feb 2026 15:36:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 18:36:09 GMT</lastBuildDate>
+    <item>
+      <title>经过一周的自动化视频创建测试后的 8 个 Seedance 2.0 最佳实践</title>
+      <link>https://www.reddit.com/r/automation/comments/1r6h6o4/8_seedance_20_best_practices_after_a_week_of/</link>
+      <description><![CDATA[好吧，我和其他人一样整个星期都在深入了解seedance 2.0。输出质量确实很疯狂。但在最初的天哪阶段之后，我开始真正思考如何作为创作者正确使用这个东西，而不仅仅是生成布拉德·皮特模因 这是大多数人所缺少的：seedance 是一个基础模型。它是发动机而不是汽车。就其本身而言，它对于原始视频生成来说是令人难以置信的，但真正的魔力是在它之上构建的东西 举个例子 - argil 刚刚宣布他们正在直接在 seedance 之上构建他们的 AI 视频代理作为基础模型。因此，argil 不再需要手动提示种子并返回原始的 15 秒剪辑，而是将其转变为了解创作者工作流程的智能代理。你给它你的脸你的声音你的品牌指导方针，它使用引擎盖下的种子生成质量来处理整个生产流程 这是重要的模式。基础模型（seedance）+应用层（argil）=对创作者实际上有用。 GPT 也发生了同样的事情 -&gt;查特。基本模型令人印象深刻，但产品层使其可用 无论如何，经过一周的测试，这是我现在充分利用种子的实际最佳实践：  正确使用多输入系统。不要只输入文本提示。向其提供参考图像+音频+文本。你标记上传文件的 u/提及系统是真正的控制所在。将其视为指导而不是提示 将剪辑保持在 10 秒以内，即使上限为 15 秒。质量在最后几秒明显下降。生成两个清晰的 8 秒剪辑比生成一个糊状的 15 秒剪辑更好 参考图像就是为了保持一致性。如果您希望多个镜头中的同一角色每次都上传相同的脸部参考照片。没有它，模型会在几代人之间漂移 对于 b-roll 和 hooks 种子是无与伦比的。将其用于卷轴前 3 秒的引人注目的内容或头部说话片段之间的电影过渡。不要试图将其作为整个视频 使用 dreamina 而不是随机网站。大量出现的诈骗seedance ai 类型域名。合法的访问是通过 dreamina 进行的，您每天都会获得免费积分来进行测试 将其与头像工具结合起来以获得完整的堆栈。这是我最大的收获。电影 B-roll 和 Hooks 的种子 + 一个像 Argilai 这样的头像克隆工具，用于你的实际谈话内容 = 你基本上拥有一个完整的制作工作室。 Seedance 负责视觉效果 argil 负责您的视觉效果。事实上，argilai 是在 Seedance 上本地构建的，这意味着这个堆栈只会变得更紧。现在它是独立的工具，但当代理层完全集成时，你基本上可以说给我制作 10 个关于 X 主题的视频，并带有电影介绍，它可以在一个管道中处理种子生成 + 你的头像 + 编辑 不要沉迷于本机音频生成。大多数人只谈论视频质量，但在同一通道中生成同步音效和环境音频的种子可以节省大量时间。不再需要搜索库存音频来分层顶部 批处理您的世代。积分并不便宜，所以在开始生成之前计划好你的镜头。我首先制作一个镜头列表，然后在一个会话中生成所有内容，而不是随机试验烧钱  底线是种子，因为独立工具是一个玩具。种子作为为创作者工具提供动力的基础模型是真正的疯狂革命。在其之上构建代理和应用程序层的人将真正改变内容的制作方式 我错过了任何 Seedance 2.0 最佳实践？   由   提交 /u/Worldly-Control403   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r6h6o4/8_seedance_20_best_practices_after_a_week_of/</guid>
+      <pubDate>Mon, 16 Feb 2026 18:13:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>您成功实现自动化的最奇怪的事情是什么？值得吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r6fnjt/whats_the_weirdest_thing_youve_successfully/</link>
+      <description><![CDATA[我已经深入自动化有一段时间了，我不断地问自己：我们自动化了很多有用的任务，但是那些奇怪的利基任务呢？就像技术上不应该节省太多时间的东西 - 但最终仍然节省了时间或只是令人捧腹。 例如，我曾经自动化了一个 Slack 帖子，该帖子仅在出现特定表情符号反应时运行 - 零商业价值，巨大的“哦”因素。 很好奇其他人构建了哪些奇怪的自动化，但实际上却卡住了。   由   提交 /u/Alpertayfur   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r6fnjt/whats_the_weirdest_thing_youve_successfully/</guid>
+      <pubDate>Mon, 16 Feb 2026 17:19:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>是否有可能在不被禁止的情况下自动化 Reddit 冷DM？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r6dt5e/is_it_even_possible_to_automate_reddit_cold_dms/</link>
+      <description><![CDATA[这是我在我之前的一个 saas 被冷 dms 炸毁后提出的问题。 3周内有414个注册 所有这些都是手动的，我也被禁止了，因为我所做的是一个菜鸟垃圾邮件错误 所以我问了这个：“是什么让reddit认为你是垃圾邮件发送者？” 所以我花了9个月的时间来测试，销毁帐户并冒着被列入黑名单的风险只是为了发现这一点 并且它起作用了 我已经能够发现是什么让 Reddit 认为某些垃圾邮件以及如何真正避免它，这实际上就是冷电子邮件专家在提出冷DMing的注意事项时所做的事情，以免被列入黑名单 因此我找到了一位自动化专家，问他是否可以制作遵循此结构的东西，并执行此操作和不执行此操作 他说，“很简单。” 经过 2 个月的构建，我们得到了一些有价值的东西。 起初，我以为在我们最初的几条 DM 后，我会被禁止，但自过去 3 周以来，我们已经发送了 382 条 DM，我们甚至没有收到任何警告或危险信号。 我制作了一份指南，解释如何在不被禁止的情况下发送 DM，如果有人感兴趣，我们将以源代码访问方式出售该工具 干杯   由   提交/u/PossibleFirm7095  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r6dt5e/is_it_even_possible_to_automate_reddit_cold_dms/</guid>
+      <pubDate>Mon, 16 Feb 2026 16:13:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>代理机构（Ai 代理/ghl/营销/电子商务）- 合作伙伴</title>
+      <link>https://www.reddit.com/r/automation/comments/1r6d7uf/agencies_ai_agent_ghl_marketing_ecommerce/</link>
+      <description><![CDATA[我们正在寻求与代理机构合作。 我们已经与 10 多名经验丰富的工程师组成的团队构建了 50 多个生产级系统。 （AI 代理 + 内存 + CRM 集成）。 这个想法很简单：您可以在您的品牌下对我们的系统进行白标，并将其作为附加服务提供给您现有的客户。您也可以直接以我们的品牌名称进行销售（白标是可选的） 例如，对于人工智能机构 - 如果您在扩展系统时遇到困难，系统会在 30 天后崩溃。我们可以在 2 周内交付人工智能系统，从构建到上线 例如，对于电子商务机构 - 您向电子商务企业主出售网站服务。您可以为他们的网站出售我们的人工智能支持系统并获得经常性收入。 每个客户的收入 - 12000 - 30000 美元/年 您每月为每个客户赚取经常性收入，我们负责所有的技术构建、维护、扩展和更新。 因此，您无需雇用人工智能工程师或构建基础设施即可获得新的收入来源   由   提交 /u/AdAgreeable8989   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r6d7uf/agencies_ai_agent_ghl_marketing_ecommerce/</guid>
+      <pubDate>Mon, 16 Feb 2026 15:51:40 GMT</pubDate>
+    </item>
     <item>
       <title>无需 api 自动发布到 Instagram 和 YT</title>
       <link>https://www.reddit.com/r/automation/comments/1r6ci72/automating_posting_to_instagram_and_yt_without_api/</link>
@@ -76,39 +104,11 @@
       <pubDate>Mon, 16 Feb 2026 03:50:52 GMT</pubDate>
     </item>
     <item>
-      <title>我每周自动完成 4 项无聊的任务，以节省时间</title>
-      <link>https://www.reddit.com/r/automation/comments/1r5wett/4_boring_tasks_i_automate_to_get_back_hours_every/</link>
-      <description><![CDATA[       由   提交/u/Far_Inflation_8799   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r5wett/4_boring_tasks_i_automate_to_get_back_hours_every/</guid>
-      <pubDate>Mon, 16 Feb 2026 01:40:07 GMT</pubDate>
-    </item>
-    <item>
       <title>Seedance 2.0 很酷。但真正的人工智能视频自动化资金完全流向了其他地方。</title>
       <link>https://www.reddit.com/r/automation/comments/1r5u1ub/seedance_20_is_cool_but_the_real_ai_video/</link>
       <description><![CDATA[每个人都将 Seedance 2.0 视为中国视频深度搜索时刻。字节跳动 vs Openai。东方与西方。人工智能冷战的下一个战线 但我认为这个框架忽略了人工智能视频领域实际发生的事情以及真正的资金流向 现在有两个完全独立的人工智能视频竞赛正在发生，大多数人只关注其中之一 竞赛1：电影一代。这就是头条新闻。 Seedance 2.0 vs sora 2 vs runway gen-4 vs kling 3.0。谁可以根据文本提示生成最逼真的电影场景。它令人印象深刻，也是病毒式推文的来源。但这里实际的潜在市场是……好莱坞视觉特效？独立电影制片人？这是一个利基市场 竞赛 2：创作者支持 - 这是创作者经济之外没有人谈论的话题。像 argil heygen 字幕和合成这样的工具正在解决一个完全不同的问题。他们不会生成虚构的电影场景。他们克隆真人，这样他们就可以在不拍摄的情况下制作 10 倍规模的内容。这里的潜在市场是整个 5000 万以上的创作者经济以及每一个需要视频营销的企业 race 2 可能是更大的业务。可能有几千人需要生成假汤姆·克鲁斯打斗场景。有数以百万计的创作者和企业需要制作比他们实际拍摄时间更多的视频内容 seedance 停止版权并终止迪士尼和派拉蒙的版权证明了我的观点。电影生成工具存在巨大的知识产权问题，可能会限制其商业可行性。头像/克隆工具不存在这个问题，因为你是在自己同意的情况下生成自己的内容 我并不是说种子不是令人印象深刻的技术。这是。但“人工智能视频中的中国与美国”的框架掩盖了这样一个事实：最具商业可行性的人工智能视频应用根本不是要取代好莱坞。它们是为了增强创作者和企业的长尾能力 人工智能视频革命的真正赢家可能不会是生成布拉德皮特深度假货的工具。他们将帮助普通人在没有电影摄制组的情况下制作更多内容，而一些主要参与者需要您的关注（heygen、argil ai、runaway、pika...）这个行业下一个价值数十亿美元的公司将使普通人能够通过简单而简单的提示来创造更多更好的内容。由   提交/u/Worldly-Control403  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r5u1ub/seedance_20_is_cool_but_the_real_ai_video/</guid>
       <pubDate>Sun, 15 Feb 2026 23:52:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI Agents 101 - MindStudio AI Agent 构建研讨会·Zoom·Luma</title>
-      <link>https://www.reddit.com/r/automation/comments/1r5tww4/ai_agents_101_mindstudio_ai_agent_build_workshop/</link>
-      <description><![CDATA[       由   提交/u/Far_Inflation_8799   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r5tww4/ai_agents_101_mindstudio_ai_agent_build_workshop/</guid>
-      <pubDate>Sun, 15 Feb 2026 23:46:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>真正的问题</title>
-      <link>https://www.reddit.com/r/automation/comments/1r5q87l/genuine_question/</link>
-      <description><![CDATA[大家好，我可以使用 openclaw 指示它自主创建多个 Google 和电子邮件帐户以及数百个完全自动的社交媒体帐户，并避免被禁止吗？   由   提交/u/Provendio   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r5q87l/genuine_question/</guid>
-      <pubDate>Sun, 15 Feb 2026 21:13:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>自动化何时值得（何时不值得）的真实例子</title>
-      <link>https://www.reddit.com/r/automation/comments/1r57t8a/a_real_example_of_when_automation_is_worth_it_and/</link>
-      <description><![CDATA[这是我在有人问“我应该自动化执行此操作吗？”时使用的一个具体示例 场景是：潜在客户来自网站。 手动版本（我经常看到的）：  表单提交电子邮件到达 有人将详细信息复制到CRM 有人分配线索 有人发送后续信息 有人稍后更新状态。每个步骤大约需要 2-5 分钟。没有人感到紧迫。但在一周内，有多个潜在客户和多个人员，这会悄悄地消耗时间并产生间隙。  良好的自动化版本：  表单提交 → 在 CRM 中创建潜在客户 根据简单规则分配所有者 自动发送后续信息 仅在出现问题时才发出 Slack 警报。没有人工智能决策。没有“代理人”。只是执行。  糟糕的自动化版本（非常常见）： – AI 决定潜在客户质量 – AI 编写自定义电子邮件 – AI 更新多个系统 – 没有明确的故障警报。这看起来令人印象深刻，但当出现问题时，很快就会破坏信任。我最遵循的规则是自动化移动和一致性，而不是判断。如果人们需要上下文来解释他们为什么做某事，那么该步骤可能还不应该自动化。 这种单一的区别消除了最脆弱的工作流程。   由   提交 /u/Better_Charity5112   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r57t8a/a_real_example_of_when_automation_is_worth_it_and/</guid>
-      <pubDate>Sun, 15 Feb 2026 06:46:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
