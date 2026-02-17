@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Tue, 17 Feb 2026 15:47:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 18:50:49 GMT</lastBuildDate>
+    <item>
+      <title>自动化自由职业者实际上如何找到客户？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r7dhir/how_do_automation_freelancers_actually_find/</link>
+      <description><![CDATA[大家好，我是一名自动化自由职业者（网络抓取、工作流程自动化、API 集成等），我正在努力寻找真正的客户。 我知道人们对自动化有需求，但我尝试过发帖、消息传递，甚至小范围的外展，但几乎没有人回应。我觉得我错过了一些东西，比如真正想要这些东西的企业或人在哪里？   由   提交 /u/No-Macaroon3463   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r7dhir/how_do_automation_freelancers_actually_find/</guid>
+      <pubDate>Tue, 17 Feb 2026 18:00:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>在现场活动中 1-2 小时内生成 450 个个性化视频现实吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r7cipp/is_it_realistic_to_generate_450_personalized/</link>
+      <description><![CDATA[我需要诚实的技术建议来了解这种实时视频自动化想法是否真正可行。 有人联系我们举办大型集会活动，其要求是：  大约 450 名学生（总共 3 个项目） 每个学生走上舞台，获得学位 我们拍摄那一刻 交付为每个学生提供个性化的 20 秒垂直视频，以便他们可以上传到社交媒体 交付时间目标：约 1-2 小时内 每个学生都通过 QR 码或卷号查找访问他们的视频 现场活动期间一切都必须可靠运行  初始手动工作流程（拍摄 → 传输 → 编辑 → 渲染 → 上传）显然是不可能的。即使我们优化为每个学生 5 分钟，总共也将超过 32 个小时。添加更多编辑器并不能解决吞吐量问题。 因此，我们正在考虑将其设计为自动化系统，而不是传统编辑。 每个视频的建议结构： A = 5–7 秒相同的介绍（预渲染一次） B = 8–10 秒独特的剪辑（舞台上的学生） C = 5–7 秒相同的结尾（预渲染一次） 最终输出：A + B + C 拼接成单个约 20 秒的 MP4。 限制：  约 450 个输出 目标交付窗口约 1 小时 可能为 1080p H264 需要从相机快速摄取 需要并行处理 需要可靠的托管+二维码分发 现场活动环境，因此稳定性至关重要  主要问题：  使用 4-6 台本地机器并行生成和交付 450 个拼接的 20 秒 H264 视频在大约 1 小时内是否现实？ FFmpeg 是否连续（如果可能，进行流复制）正确的方法，或者重新编码会破坏时间线？ 这种规模的真正瓶颈是什么 - 磁盘 I/O、编码时间、上传带宽、文件处理、命名冲突？ 本地处理是否比尝试使用云渲染农场更安全？ 是否有人构建了类似的近实时批量视频系统，以及在现实事件压力下通常会出现什么问题？  我们正在尝试决定无论这是一个通过正确设置即可解决的工程问题，还是伪装成“简单编辑任务”的不切实际的期望。 希望得到处理过自动化或大规模视频处理的人员的直接、实用的反馈。   由   提交 /u/Few-Presentation-117   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r7cipp/is_it_realistic_to_generate_450_personalized/</guid>
+      <pubDate>Tue, 17 Feb 2026 17:26:29 GMT</pubDate>
+    </item>
     <item>
       <title>你是让人工智能来做决定，还是只是执行？</title>
       <link>https://www.reddit.com/r/automation/comments/1r77r2p/are_you_letting_ai_decide_or_just_execute/</link>
@@ -76,20 +90,6 @@
       <pubDate>Tue, 17 Feb 2026 08:52:37 GMT</pubDate>
     </item>
     <item>
-      <title>当人工智能接管任务代理时会发生什么？</title>
-      <link>https://www.reddit.com/r/automation/comments/1r7061t/what_happens_when_ai_takes_over_with_task_agents/</link>
-      <description><![CDATA[ 由   提交 /u/Innvolve   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r7061t/what_happens_when_ai_takes_over_with_task_agents/</guid>
-      <pubDate>Tue, 17 Feb 2026 08:01:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个可以按位置和关键字过滤 Instagram 个人资料的工具？</title>
-      <link>https://www.reddit.com/r/automation/comments/1r6yxgg/a_tool_that_can_filter_instagram_profiles_by/</link>
-      <description><![CDATA[您知道有什么工具可以按城市位置和关键字过滤 Instagram 个人资料并将其导出到电子表格吗？ 提前感谢您的帮助！   由   提交/u/VariationTight468  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r6yxgg/a_tool_that_can_filter_instagram_profiles_by/</guid>
-      <pubDate>Tue, 17 Feb 2026 06:46:27 GMT</pubDate>
-    </item>
-    <item>
       <title>主播浏览器与剧作家：哪种浏览器自动化工具效果最好？</title>
       <link>https://www.reddit.com/r/automation/comments/1r6yvw5/anchor_browser_vs_playwright_which_browser/</link>
       <description><![CDATA[大家好， 我最近一直在测试不同的浏览器自动化工具，并希望将锚浏览器（一个强大的多合一自动化平台）与 playwright（一个以开发人员为中心的自动化框架）进行比较。 锚浏览器： 一个可靠、随时可用的自动化平台，专为大规模工作流程而设计。 无缝处理多个浏览器会话，具有强大的错误处理和恢复能力。 非常适合以下团队：想要一个稳定的、可用于生产的解决方案，而不需要不断地重写脚本。可以很好地集成到更大的浏览器自动化基础设施中，使扩展更加顺畅。  playwright： 极其灵活，支持多种浏览器（chrome、firefox、safari、edge）。 提供 javascript、typescript、python、java 或 c# 编码。 非常适合测试、抓取和精确的多步骤自动化。 需要更多的设置和维护才能实现长期运行或大规模自动化。  我的看法：如果您想要一个能够在最少监督的情况下大规模可靠运行的平台，锚点浏览器令人印象深刻，它感觉像是一个完整的自动化系统，而不仅仅是一个工具。如果您喜欢灵活性并且不介意编写和维护代码，playwright 很强大，但需要更多的技术努力。 很想听听使用过这两种代码的其他人的意见。它们在现实世界的工作流程中如何比较？   由   提交 /u/Old_Cheesecake_2229   [链接] [评论]]]></description>
@@ -104,11 +104,11 @@
       <pubDate>Tue, 17 Feb 2026 06:07:07 GMT</pubDate>
     </item>
     <item>
-      <title>您成功实现自动化的最奇怪的事情是什么？值得吗？</title>
-      <link>https://www.reddit.com/r/automation/comments/1r6fnjt/whats_the_weirdest_thing_youve_successfully/</link>
-      <description><![CDATA[我已经深入自动化有一段时间了，我不断地问自己：我们自动化了很多有用的任务，但是那些奇怪的利基任务呢？就像技术上不应该节省太多时间的东西 - 但最终仍然节省了时间或只是令人捧腹。 例如，我曾经自动化了一个 Slack 帖子，该帖子仅在出现特定表情符号反应时运行 - 零商业价值，巨大的“哦”因素。 很好奇其他人构建了哪些奇怪的自动化，但实际上却卡住了。   由   提交 /u/Alpertayfur   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r6fnjt/whats_the_weirdest_thing_youve_successfully/</guid>
-      <pubDate>Mon, 16 Feb 2026 17:19:15 GMT</pubDate>
+      <title>有什么好用的AI发票OCR工具吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r6w18p/any_ai_invoice_ocr_tools_that_work/</link>
+      <description><![CDATA[我在一个小型财务团队工作，我们正在处理大量发票，尤其是在月末结算期间。我一直在研究使用人工智能的发票 OCR，但我不确定它的可靠性如何。有什么工具可以推荐吗？   由   提交/u/AndreiaVenturini   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r6w18p/any_ai_invoice_ocr_tools_that_work/</guid>
+      <pubDate>Tue, 17 Feb 2026 04:12:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
