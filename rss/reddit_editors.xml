@@ -4,13 +4,20 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Tue, 17 Feb 2026 09:43:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 12:54:23 GMT</lastBuildDate>
     <item>
       <title>需要帮助查找带有垂直三联布局的 2016–2019 年颁奖典礼宣传片</title>
       <link>https://www.reddit.com/r/editors/comments/1r6wv56/need_help_locating_20162019_award_show_promo_w/</link>
       <description><![CDATA[大家好！ 我正在尝试查找 2016 年至 2019 年左右的一段短片宣传片（大约 30-60 秒），该宣传片与一场大型颁奖典礼（最有可能是奥斯卡金像奖）相关。 它的特点是：  多个演员在黑暗、喜怒无常的环境中一起摆姿势工作室 非常编辑，戏剧性的肖像照明 最小化或可能没有排版 非常克制的节奏 经常淡入黑色 视觉处理，框架被分为三个垂直切片（三联画风格）  切片将：  独立旋转不同的肖像 偶尔对齐成一个连贯的单个图像 有时允许一幅肖像占据两个切片，而第三个则显示不同的内容 主要通过软溶解而不是擦除进行过渡  动作感觉很微妙 - 几乎就像带有轻微推入/视差的静态肖像 - 而不是激进的动态图形。 几年前，我制作了一个纹身视频，很大程度上受到了风格的启发（显然是不同的主题）问题），但三联画的行为自始至终都是一致的： https://youtu.be/N3BN4f3yqEM 这种视觉语言对任何人来说都敲响了警钟吗？我非常后悔没有保存原件并一直思考它 - 任何线索都表示赞赏。 谢谢🙏   由   提交 /u/No_Orchid1044   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1r6wv56/need_help_locating_20162019_award_show_promo_w/</guid>
       <pubDate>Tue, 17 Feb 2026 04:54:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>8K 360 度重构 + 3D 跟踪（AE 和首映）的最佳工作流程？</title>
+      <link>https://www.reddit.com/r/editors/comments/1r6v0nl/best_workflow_for_8k_360_reframing_3d_tracking_ae/</link>
+      <description><![CDATA[大家好，新来的，但我已经担任公司摄像师/编辑约 10 年了。现在，我正在担任营销和营销部门的远程视频编辑器。辛辛那提的通讯公司。我的大部分经验都是在 Premiere Pro + 拍摄中获得的，虽然我对 After Effects 很熟悉，但我不会称自己为高级人员。 我目前正在编辑有关与正在进行的布伦特斯彭斯大桥建设相关的绕行路线的公共信息系列。概念很简单：驾驶路线并添加 3D 跟踪标志/文本以显示即将发生的变化。您可以在此处查看该系列的第一篇。  这是我以前的工作流程：   在 Premiere 中启动 代理所有内容 用 AE 合成（动态链接）替换完整的 3 分钟剪辑 预合成部分 3D 轨道 + 添加文本/标志 返回 Premiere 那里的速度斜坡 导出  事情变得复杂的地方：  在我的旧设备上每个 3D 轨道需要 20-30 分钟 即使使用代理，动态链接播放也很残酷 速度提升 + 动态链接不能很好地协同工作。 导出多次失败（最终使用软件编码导出，因为我不信任我的旧图形卡） 渲染和渲染替换并不理想，因为几乎可以保证进行修改。我的最后期限也很紧迫。  我的新电脑处理这个问题要好得多（Ryzen9 16 核、128GB RAM、MSI GeForce RTX 5080），但我觉得我当前的结构效率低下。我们的摄影师还升级到了 Insta360 X5，这又增加了一层复杂性。更不用说重新构图时 5K 看起来太模糊，因此我们可能会以 8K 拍摄未来的项目。 下一轮的当前想法：  从 AE 开始 代理 8K 360 素材 重新构图 360 素材/制作平移 + 倾斜动画 在 ProRes 中导出 4K 母版422 HQ  （因为当我尝试在 3D 跟踪之前进行预压缩时，我收到“图层大小必须与构图匹配并使用默认变换值”错误，因为重新取景时边界框过大。）  将 4K 母版重新导入 AE 进行 3D 跟踪 添加符号 + 文本 预压缩 时间重新映射（尽管我更喜欢 Premiere 的速度渐变） 在 Premiere 中完成（徽标、地图动画、旁白、音乐等）  所以我的问题是：  对于 360 度重构素材，您会在 3D 跟踪之前将其展平为 4K 母版，还是在同一个合成中保持重构和跟踪以便灵活修改？ 在这种规模下（8K 源、多个3D 求解、频繁修订），您会完全避免动态链接并依赖烘焙的中间体吗？ 您会在 AE 或 Premiere 中加速此类操作吗？ 如果您从头开始构建此管道，您将如何构建它以实现稳定性和修订安全性？  虽然我的新 PC 可以毫不费力地处理此问题，但我仍然想优化工作流程本身。我确信有一种更聪明的方法来构建它，但我可能离它太近而无法清楚地看到它。如果你从头开始构建这个，你会做什么？   由   提交 /u/DoggoDoesaDash   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1r6v0nl/best_workflow_for_8k_360_reframing_3d_tracking_ae/</guid>
+      <pubDate>Tue, 17 Feb 2026 03:24:10 GMT</pubDate>
     </item>
     <item>
       <title>耳机录音作为视频编辑器</title>
@@ -102,13 +109,6 @@
       <description><![CDATA[我一直在测试 FCP 12。视觉搜索很有前途，但不一致。节拍检测非常可靠。如果有人感兴趣，这里有详细的细分。 https://youtu.be/Y0OAbE-4cEQ   由   提交 /u/RSKurz   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1r4jirk/fcp_12_transcript_visual_search_realworld_testing/</guid>
       <pubDate>Sat, 14 Feb 2026 12:33:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助 Avid 上出现“无效媒体错误”消息</title>
-      <link>https://www.reddit.com/r/editors/comments/1r4hjl0/help_invalid_media_error_message_on_avid/</link>
-      <description><![CDATA[我不小心将项目从 Avid 项目（文件）移动到桌面上，并且无法再打开它。根据我在网上阅读的内容，这似乎损坏了文件路径，但我不知道如何修复它。当我重新打开 Avid 时，单击我的项目，它会打开，但里面什么也没有 - 没有垃圾箱，没有媒体等。我尝试从桌面上的文件重新导入序列，但收到一条“文件名无效”消息。任何帮助表示赞赏。谢谢。   由   提交/u/ThrowRA2557  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1r4hjl0/help_invalid_media_error_message_on_avid/</guid>
-      <pubDate>Sat, 14 Feb 2026 10:40:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
