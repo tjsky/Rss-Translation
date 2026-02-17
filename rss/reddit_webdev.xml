@@ -4,7 +4,56 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 16 Feb 2026 21:26:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 01:47:38 GMT</lastBuildDate>
+    <item>
+      <title>即使指定 https 后也会出现混合内容错误</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6rmum/getting_mixed_content_errors_even_after/</link>
+      <description><![CDATA[编辑 - 解决了它。最后放弃并将引用更改为“../../path_to_file”它似乎有效。  我已经准备好在这里敲头了。 我正在改造一个古老的网站，使其适合移动设备，淘汰旧的表格布局，等等。 直到今天我已经取得了很大的进步，突然之间，我的CSS都消失了。如果我在 Chrome 中检查，我会看到一些这样的废话：  混合内容：“”处的页面已通过 HTTPS 加载，但请求了不安全的样式表“”。该请求已被阻止；内容必须通过 HTTPS 提供。  对所有本地 css 和 js 包含重复此操作。 好的，很好。因此，我进入 head include 部分，并显式地将所有 CSS 和 JS 包含设置为 https://doman.net/path_to_file 并且它什么也不做。 尝试做 //domain.net/path_to_file - 没有。 我可以查看页面源代码，并且它在这些文件包含上明确表示 https。对整个站点源文件夹进行查找/替换显示零个非 https 包含。 我使用的是 cloudflare 以及“始终使用 HTTPS”和“始终使用 HTTPS”。和“自动HTTPS重写”设置为开。如果我也尝试强制使用 htaccess 文件，它会创建一个无限的重定向循环 - 可能是旧 CMS 的遗物。 有什么想法吗？这看起来应该很简单，但我似乎找不到答案。   由   提交/u/sufferingcubsfan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6rmum/getting_mixed_content_errors_even_after/</guid>
+      <pubDate>Tue, 17 Feb 2026 00:53:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>浏览器中的零垃圾收集。这是我将自定义 Rust wGPU 游戏引擎移植到 WebAssembly。 （现场演示 + 源代码）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6raws/zero_garbage_collection_in_the_browser_heres_me/</link>
+      <description><![CDATA[      大约一年前，我尝试使用 wGPU 构建网络程序图形生成，但惨败。我无法理解绑定组、缓冲区管理或 WGSL 着色器管道。我愤怒地退出了这个项目，然后又回到了 Javascript。 我花了大部分时间研究、学习和构建这个引擎，专门为了克服这个失败。我强迫自己用 Rust 从头开始​​编写渲染器，直到我理解传递到 GPU 的每个字节。老实说，最难的部分不是图形数学，而是浏览器集成。 结果：现场演示 - https://journey.ujjwalvivek.com 阅读更多 - https://ujjwalvivek.com/blog/proj_0004_rust_game_engine.md 来源 - https://github.com/ujjwalvivek/journey 如果您曾经愤怒地退出过 WebGPU 项目，我希望这会鼓励您再试一次！   由   提交 /u/VicksTurtle   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6raws/zero_garbage_collection_in_the_browser_heres_me/</guid>
+      <pubDate>Tue, 17 Feb 2026 00:38:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Unsplash API 返回不相关的结果</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6qnuv/unsplash_api_returning_unrelated_results/</link>
+      <description><![CDATA[如标题所示，我正在使用带有传递查询的 unsplash.com/random 端点。半年来一直运行良好。大约过去 2-3 天，某些结果与查询不匹配。我正在使用的查询与我一直在使用的查询相同。 检查获取的图像的标签时，这些标签与查询几乎没有关系或没有关系。  只是想知道其他人是否也遇到类似的问题。   由   提交 /u/Alanator222   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6qnuv/unsplash_api_returning_unrelated_results/</guid>
+      <pubDate>Tue, 17 Feb 2026 00:10:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>我应该只使用普通的菜单和按钮吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6oxax/should_i_just_use_normal_menues_and_buttons/</link>
+      <description><![CDATA[      我在一个奇怪的周六凌晨 2 点突然有了这个想法。制作完成后，我产生了“我在想什么”之类的疑问？   由   提交/u/Ordinary_Count_203   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6oxax/should_i_just_use_normal_menues_and_buttons/</guid>
+      <pubDate>Mon, 16 Feb 2026 22:59:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>网站如何实现多种登录方式？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6nxmi/how_do_websites_implement_multiple_types_of_logins/</link>
+      <description><![CDATA[我目前正在尝试在我正在创建的网站上实现 google 登录，但我不知道应该如何与常规登录结合起来执行此操作。当有人使用谷歌登录名登录时，他们没有机会“创建他们的帐户”。就像他们通过设置密码、用户名和个人资料图片对我的常规登录所做的那样，它只是让他们登录。我应该如何让两者协同工作？   由   提交 /u/Birdwithabowtie   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6nxmi/how_do_websites_implement_multiple_types_of_logins/</guid>
+      <pubDate>Mon, 16 Feb 2026 22:21:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>将大型 Django + Bootstrap 5 SaaS 迁移到更现代的 UI - 重写还是增量？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6mygb/migrating_a_large_django_bootstrap_5_saas_to_a/</link>
+      <description><![CDATA[我即将推出一个用于端到端生产制造的新平台多租户 SaaS，但我对 UI/UX 感到担忧。  （还没有用户，仍在测试，功能已完成）。  纯粹是 UI/UX + 前端可维护性问题 它相当大：  45 个页面， 390 个模态 大多数页面上都有数据表 各处基于角色的可见性 ~150k 行自定义 JS， ~70k 行CSS  我为 Django 购买了一个 Bootstrap 5 模板，我认为它有点过时/不一致，因为它距离我最初购买它已有几年了。  这是我拥有的当前堆栈：  后端：Django（多租户） 前端：Bootstrap 5（Soft UI Dashboard Pro 主题）  jQuery + DataTables + Chart.js  服务器渲染的 Django 模板，而不是 SPA  我想要一个更像应用程序的体验，具有更好的视觉一致性和长期可维护性。  我需要一些关于哪种方式最适合进行此更改的建议。  这些是我面临的选项...  完全重写？ ....转向 React + API-first 后端并完全删除 Bootstrap。  增量方法？...引入新的设计系统/UI shell 并在保留 Django 模板的同时逐步迁移。  就地现代化？...重构样式并改进 Bootstrap 实现，而无需进行重大架构更改。   该系统的最佳方式和风险最低的路径是什么？  我应该寻找什么样的专业人士？  我愿意使用现代工具（组件库、代码模块、人工智能辅助重构）来加快速度。但我试图避免完全重写，除非绝对推荐。   由   提交 /u/BuffHaloBill   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6mygb/migrating_a_large_django_bootstrap_5_saas_to_a/</guid>
+      <pubDate>Mon, 16 Feb 2026 21:44:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude Code 的灵活性和 Webflow 的稳健性？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1r6mvcr/flexibility_of_claude_code_but_robustness_of/</link>
+      <description><![CDATA[Claude Code 的灵活性，但具有 Webflow 的稳健性和可视化编辑？ 我正在尝试一下，尝试创建一个整体设计流程，我们可以使用 Figma 中的组件和设计系统来开发，例如登陆页面设计。然后我想从那里开始使用 Claude Code 之类的东西来帮助我完全按照我设想的方式构建它。然后，我希望将其理想地转换为 Webflow 或 Framer 兼容组件，这样我们既可以拥有 Claude Code 的多功能性和速度，又可以拥有 Webflow 的稳健性、发布、CMS、集成和 SEO 组件。 这是一个白日梦吗？有其他人设法做这样的事情，还是我完全偏离了轨道？  “为什么不直接构建它并自行托管它呢？”有人可能会问。好吧，我不想处理这一切。我喜欢像 Webflow 这样的系统的稳健性及其所有内置功能和易于使用的可视化编辑器，但我喜欢 Claude Code 提供的对我们所有数据的速度和深度集成。 我想象能够使用 Claude Code 根据我们概念中的策略文档快速为特定使用库启动新页面，或者捕获有关我们 ICP 的见解并根据我们各种分析工具的最新见解改进整个网站的副本。所有这一切都可以通过 Claude Code 实现；这只是我所缺少的从 Claude 到 Webflow/Frame/Sanity 等的最后一部分。   由   提交 /u/winterborn   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1r6mvcr/flexibility_of_claude_code_but_robustness_of/</guid>
+      <pubDate>Mon, 16 Feb 2026 21:41:21 GMT</pubDate>
+    </item>
     <item>
       <title>使用IP检查网站</title>
       <link>https://www.reddit.com/r/webdev/comments/1r6m63h/check_website_using_ip/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[   /u/mekmookbro  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1r6gsoi/here_it_comes_chatgpt_is_gonna_start_showing/</guid>
       <pubDate>Mon, 16 Feb 2026 18:00:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>现代移动应用程序如何在没有系统浏览器的情况下对用户进行身份验证？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r6gg73/how_do_modern_mobile_apps_authenticate_user/</link>
-      <description><![CDATA[PKCE 是一种通过登录名和密码对用户进行授权的现代方式。 RFC 8252 规定，出于安全原因，移动应用程序应使用系统浏览器进行 PKCE 身份验证流程。但是，我找不到使用系统浏览器进行登录或注册步骤的现代应用程序。最佳实践与实际操作之间似乎存在差距。他们不使用PKCE吗？他们构建自己的身份验证吗？ 我有机器学习背景，所以这些事情对我来说并不明显。希望任何解释。    由   提交/u/McheleNaKinyesi   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r6gg73/how_do_modern_mobile_apps_authenticate_user/</guid>
-      <pubDate>Mon, 16 Feb 2026 17:47:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>MongoDB 与 SQL 2026</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r6gchz/mongodb_vs_sql_2026/</link>
-      <description><![CDATA[       https://preview.redd.it/ar287k5n8wjg1.jpg?width=1376&amp;format=pjpg&amp;auto=webp&amp;s=f31fba863be7a5e2996f40a5870f9d47dbc9d9b2 我每隔几个月就会看到相同的论点被重复使用。 “没有交易。” “没有连接。” “无法扩展。” “无模式意味着混乱。” 全错了。每一个。我厌倦了看到人们将 MongoDB 建模为 SQL 表，将 Mongoose 放在上面，将 find() 调用分散到 200 个文件中，然后编写 3,000 字的博客文章来说明 MongoDB 的问题所在。 这是简短的版本： 您的数据已经是 JSON。您的 API 接收 JSON。您的前端发送 JSON。您的移动应用程序需要 JSON。然后，您将一个关系数据库放在中间（不使用 JSON 的一层），并花费您的职业生涯来来回翻译。 MongoDB 存储您发送的内容。返回您存储的内容。没有翻译。没有 ORM。无需对每个请求进行分解和重新组装。 本文涵盖了 27 个带有生产编号的神话：  交易？ ACID 自 2018 年起。八个主要版本之前。 加入？ $lookup 自 2015 年以来。十多年来。 性能？我的 24 个容器 SaaS 的运行费用为 166 美元/年。 26 MB 容器。 0.00% CPU。 猫鼬？ 永远不要使用它。曾经。 每次操作速度慢 2-3 倍。多个独立基准测试证实了这一点。 find()?切勿使用它。适用于所有内容的聚合框架 - 甚至是简单的查找。 无模式？在构建我的应用程序时，我从来不需要接触我的数据库。一次也没有。没有迁移。没有更改表。无 2 AM 维护窗口。  包含代码示例、基准引用和完整的 SQL 到 MongoDB 命令参考的完整细分： 在此处阅读完整的网络文章 10 年。零数据问题。零崩溃。 166 美元/年。 来告诉我我做错了什么。  https://preview.redd.it/un2mr83xewjg1.jpg?width=1376&amp;format=pjpg&amp;auto=webp&amp;s=8f3553297ac314f059b108caafbfb6fe9fdbd805   由   提交 /u/TheDecipherist   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r6gchz/mongodb_vs_sql_2026/</guid>
-      <pubDate>Mon, 16 Feb 2026 17:44:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要写作反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r6fbsp/need_feedback_on_writing/</link>
-      <description><![CDATA[      随着我了解更多有关动画和 webgl 的内容，我正在编写一系列博客/教程，以便更好地理解和解释它。这是我的第一个。  链接如下：https://ka1ki.com/blogs/layered-text-scroll-reveal-with-gsap-scrolltrigger   由   提交/u/ka1kii  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r6fbsp/need_feedback_on_writing/</guid>
-      <pubDate>Mon, 16 Feb 2026 17:07:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在社区上创建了一篇关于新的“个人 API”限制政策的帖子！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r6eoa6/i_have_created_a_post_on_community_about_the_new/</link>
-      <description><![CDATA[ https://community.spotify.com/t5/Spotify-for-Developers/Why-Are-Individual-Developers-Completely-Locked-Out-of-Extended/m-p/7343111#M20507 你能在 Spotify 社区上支持我吗？ 我分享的文字： 所以让我们说清楚！ 通过新的配额政策，个人开发者实际上无法在 Spotify Web API 上构建任何重要的内容。  没有扩展配额。 没有公开发布路径。 没有独立层。 替代方案不透明，甚至在开发人员仪表板中告知（我花了很多时间试图理解这一点！）。  如果您不是拥有 25 万以上月活跃用户的大型组织，那么您根本不符合资格。 这不是“平台保护”。 这是对新开发的直接关闭。 Spotify 主导着音乐流媒体市场，现在对其 API 的访问仅限于已经规模较大的成熟公司。这消除了：  独立开发者 学生 早期初创公司 研究项目 非商业创新  从历史上看，技术生态系统中的重大创新并非来自 在当前政策下，这条路已经不复存在。 更令人担忧的是：虽然合法开发者被封锁，但据报道扩展配额账户正在非官方市场上以数千美元的价格进行交易。当官方准入消失时，非官方市场就会出现。这不是安全。  所以，真正的问题是：  Spotify 是否有意转向仅限合作伙伴的封闭 API 政策？ 独立/个人开发者层级是否有任何路线图？ （不仅是开发，而且类似于扩大配额）。 为什么非商业或小型公共项目没有透明的路径？ *这项政策如何鼓励而不是压制创新？ （*你关心创新吗？）  现在，信息似乎很明确： 你的政策被视为“除非你已经很大了，否则不受欢迎。”供开发者参考。 我希望 Spotify 重新考虑这个方向，因为平台受到严格限制。   由   提交 /u/Guilty_Bird_3123   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r6eoa6/i_have_created_a_post_on_community_about_the_new/</guid>
-      <pubDate>Mon, 16 Feb 2026 16:44:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google 的 Places API 定价问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r6dnfl/googles_places_api_pricing_question/</link>
-      <description><![CDATA[嘿， 我正在尝试抓取 Google 地图，寻找在我的国家/地区可能对我的产品感兴趣的企业，因此我创建了一个脚本。您输入一个关键字，例如“Pizzeria”，它会列出它们，将它们存储到 json 中，然后另一个脚本将搜索关键字。 我的问题是，第一个脚本严格针对“pizzeria”执行了 12k api 调用（没有测试）。我想将其用于其他业务。这占了我 250 欧元免费积分中的 200 欧元。 编辑： 我没有解释这部分。基本上，我将国家划分为64平方公里的网格，然后对该区域进行调用。 编辑结束 而第二个则会为每个企业进行一次调用，以便找到精确的关键字。这将达到 30k 左右的调用。 在 GCP 上，我看到了不同的定价选项，从每月 10k（AI 和论坛，非官方）到每月 200 万（Google 官方）免费。但他们都没有为我激活。 感谢帮助 &lt;3   由   提交/u/Boring-Uni​​versity189  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r6dnfl/googles_places_api_pricing_question/</guid>
-      <pubDate>Mon, 16 Feb 2026 16:07:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>在生成的表单（K2、重力表单等）上编写 E2E 测试的最佳实践是什么</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r6d8r3/whats_best_practice_for_writing_e2e_tests_on/</link>
-      <description><![CDATA[我的任务是自动化我们（当前）的手动 QA 流程。我是一名 Web 开发人员，因此我习惯于显式命名 HTML 属性，以便轻松定位。浏览 HTML，我看到了一堆生成的属性，似乎我必须使用标签（当表示与业务逻辑变量耦合时非常不舒服）或像 input_g2_29 这样的幻数来定位。  即使我不考虑这些插件将来更改其 API（以及它们生成 HTML 的方式）破坏我所有测试的可能性。 因此，在我开始编写脆弱的测试之前，我想我应该创建一个线程来看看是否有我缺少的最佳实践。    由   提交 /u/BigBootyBear   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r6d8r3/whats_best_practice_for_writing_e2e_tests_on/</guid>
-      <pubDate>Mon, 16 Feb 2026 15:52:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何解决语言交换应用程序“启动时没有用户”的问题？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r6d6di/how_do_you_solve_the_no_users_at_launch_problem/</link>
-      <description><![CDATA[所以我最近搬到了一个新国家的一个新城市。为了扩展我的投资组合并学习新语言，我决定在我的祖国创建一个基于工作平台的东西。 这将是一个以面对面会议为重点的语言交换平台。真正的基础；您创建一个帐户，创建个人资料，搜索其他用户，当其他用户接受时，您将获得彼此的邮件地址，以便找到合适的见面时间和日期！ 在搜索页面上，您将能够过滤一些个人资料详细信息，例如： - 您希望学习的语言（如果有）（您也可能只是希望帮助他人） - 年龄范围 - 性别 - 兴趣（这是一个预定义的列表） - 您喜欢见面的城市区域 - 您希望在一天中的什么时间见面（白天、晚上、周末） 所以这些是相当多的过滤器，在启动应用程序上可能会给您留下很多空白结果。 所以我一直在外籍人士群组和其他 Facebook 群组中发布一些帖子，以吸引一些早期用户。我也会在一些相关的 subreddits 上尝试一下。 但这仍然让我没有太多的用户（到目前为止我已经获得了大约 20 个人）。顺便说一句，这也是一个免费的应用程序:) 我的一个朋友的想法。当没有“匹配”显示有些接近的结果时，要在下面添加一组额外的结果，但可能会排除某些过滤器选项作为“探索其他选项”。 我喜欢这个想法，我什至可能会实现它，无论它是否显示结果。 但无论如何，我想为我的问题提供一些背景信息。我的主要问题只是标题，有哪些选项可以解决这个问题，因为我可以想象，如果应用程序上没有任何内容，这肯定会失去早期用户。 提前感谢您的思考。 Mitch   由   提交 /u/Mitchcreates_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r6d6di/how_do_you_solve_the_no_users_at_launch_problem/</guid>
-      <pubDate>Mon, 16 Feb 2026 15:50:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
