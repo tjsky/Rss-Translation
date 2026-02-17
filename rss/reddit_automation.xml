@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Tue, 17 Feb 2026 01:45:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 04:48:57 GMT</lastBuildDate>
+    <item>
+      <title>有什么好用的AI发票OCR工具吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r6w18p/any_ai_invoice_ocr_tools_that_work/</link>
+      <description><![CDATA[我在一个小型财务团队工作，我们正在处理大量发票，尤其是在月末结算期间。我一直在研究使用人工智能的发票 OCR，但我不确定它的可靠性如何。有什么工具可以推荐吗？   由   提交/u/AndreiaVenturini   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r6w18p/any_ai_invoice_ocr_tools_that_work/</guid>
+      <pubDate>Tue, 17 Feb 2026 04:12:59 GMT</pubDate>
+    </item>
     <item>
       <title>推出 r/ShopAI — 为早期 SaaS 构建者分享短视频实验</title>
       <link>https://www.reddit.com/r/automation/comments/1r6on73/launching_rshopai_sharing_short_video_experiments/</link>
@@ -36,7 +43,7 @@
     <item>
       <title>经过一周的自动化视频创建测试后的 8 个 Seedance 2.0 最佳实践</title>
       <link>https://www.reddit.com/r/automation/comments/1r6h6o4/8_seedance_20_best_practices_after_a_week_of/</link>
-      <description><![CDATA[好吧，我和其他人一样整个星期都在深入了解seedance 2.0。输出质量确实很疯狂。但在最初的天哪阶段之后，我开始真正思考如何作为创作者正确使用这个东西，而不仅仅是生成布拉德·皮特模因 这是大多数人所缺少的：seedance 是一个基础模型。它是发动机而不是汽车。就其本身而言，它对于原始视频生成来说是令人难以置信的，但真正的魔力是在它之上构建的东西 举个例子 - argil 刚刚宣布他们正在直接在 seedance 之上构建他们的 AI 视频代理作为基础模型。因此，argil 不再需要手动提示种子并返回原始的 15 秒剪辑，而是将其转变为了解创作者工作流程的智能代理。你给它你的脸你的声音你的品牌指导方针，它使用引擎盖下的种子生成质量来处理整个生产流程 这是重要的模式。基础模型（seedance）+应用层（argil）=对创作者实际上有用。 GPT 也发生了同样的事情 -&gt;查特。基本模型令人印象深刻，但产品层使其可用 无论如何，经过一周的测试，这是我现在充分利用种子的实际最佳实践：  正确使用多输入系统。不要只输入文本提示。向其提供参考图像+音频+文本。你标记上传文件的 u/提及系统是真正的控制所在。将其视为指导而不是提示 将剪辑保持在 10 秒以内，即使上限为 15 秒。质量在最后几秒明显下降。生成两个清晰的 8 秒剪辑比生成一个糊状的 15 秒剪辑更好 参考图像就是为了保持一致性。如果您希望多个镜头中的同一角色每次都上传相同的脸部参考照片。没有它，模型会在几代人之间漂移 对于 b-roll 和 hooks 种子是无与伦比的。将其用于卷轴前 3 秒的引人注目的内容或头部说话片段之间的电影过渡。不要试图将其作为整个视频 使用 dreamina 而不是随机网站。大量出现的诈骗seedance ai 类型域名。合法的访问是通过 dreamina 进行的，您每天都会获得免费积分来进行测试 将其与头像工具结合起来以获得完整的堆栈。这是我最大的收获。电影 B-roll 和 Hooks 的种子 + 一个像 Argilai 这样的头像克隆工具，用于你的实际谈话内容 = 你基本上拥有一个完整的制作工作室。 Seedance 负责视觉效果 argil 负责您的视觉效果。事实上，argilai 是在 Seedance 上本地构建的，这意味着这个堆栈只会变得更紧。现在它是独立的工具，但当代理层完全集成时，你基本上可以说给我制作 10 个关于 X 主题的视频，并带有电影介绍，它可以在一个管道中处理种子生成 + 你的头像 + 编辑 不要沉迷于本机音频生成。大多数人只谈论视频质量，但在同一通道中生成同步音效和环境音频的种子可以节省大量时间。不再需要搜索库存音频来分层 批处理您的世代。积分并不便宜，所以在开始生成之前计划好你的镜头。我首先制作一个镜头列表，然后在一个会话中生成所有内容，而不是随机试验烧钱  底线是种子，因为独立工具是一个玩具。种子作为为创作者工具提供动力的基础模型是真正的疯狂革命。在其之上构建代理和应用程序层的人将真正改变内容的制作方式 我错过了任何 Seedance 2.0 最佳实践？   由   提交 /u/Worldly-Control403   [链接] [评论]]]></description>
+      <description><![CDATA[好吧，我和其他人一样整个星期都在深入了解seedance 2.0。输出质量确实很疯狂。但在最初的天哪阶段之后，我开始真正思考如何作为创作者正确使用这个东西，而不仅仅是生成布拉德·皮特模因 这是大多数人所缺少的：seedance 是一个基础模型。它是发动机而不是汽车。就其本身而言，它对于原始视频生成来说是令人难以置信的，但真正的魔力是在它之上构建的东西 举个例子 - argil 刚刚宣布他们正在直接在 seedance 之上构建他们的 AI 视频代理作为基础模型。因此，argil 不再需要手动提示种子并返回原始的 15 秒剪辑，而是将其转变为了解创作者工作流程的智能代理。你给它你的脸你的声音你的品牌指导方针，它使用引擎盖下的种子生成质量来处理整个生产流程 这是重要的模式。基础模型（seedance）+应用层（argil）=对创作者实际上有用。 GPT 也发生了同样的事情 -&gt;查特。基本模型令人印象深刻，但产品层使其可用 无论如何，经过一周的测试，这是我现在充分利用种子的实际最佳实践：  正确使用多输入系统。不要只输入文本提示。向其提供参考图像+音频+文本。你标记上传文件的 u/提及系统是真正的控制所在。将其视为指导而不是提示 将剪辑保持在 10 秒以内，即使上限为 15 秒。质量在最后几秒明显下降。生成两个清晰的 8 秒剪辑比生成一个糊状的 15 秒剪辑更好 参考图像就是为了保持一致性。如果您希望多个镜头中的同一角色每次都上传相同的脸部参考照片。没有它，模型会在几代人之间漂移 对于 b-roll 和 hooks 种子是无与伦比的。将其用于卷轴前 3 秒的引人注目的内容或头部说话片段之间的电影过渡。不要试图将其作为整个视频 使用 dreamina 而不是随机网站。大量出现的诈骗seedance ai 类型域名。合法的访问是通过 dreamina 进行的，您每天都会获得免费积分来进行测试 将其与头像工具结合起来以获得完整的堆栈。这是我最大的收获。电影 B-roll 和 Hooks 的种子 + 一个像 Argilai 这样的头像克隆工具，用于你的实际谈话内容 = 你基本上拥有一个完整的制作工作室。 Seedance 负责视觉效果 argil 负责您的视觉效果。事实上，argilai 是在 Seedance 上本地构建的，这意味着这个堆栈只会变得更紧。现在它是独立的工具，但当代理层完全集成时，你基本上可以说给我制作 10 个关于 X 主题的视频，并带有电影介绍，它可以在一个管道中处理种子生成 + 你的头像 + 编辑 不要沉迷于本机音频生成。大多数人只谈论视频质量，但在同一通道中生成同步音效和环境音频的种子可以节省大量时间。不再需要搜索库存音频来分层顶部 批处理您的世代。积分并不便宜，所以在开始生成之前计划好你的镜头。我首先制作一个镜头列表，然后在一个会话中生成所有内容，而不是随机试验烧钱  底线是种子，因为独立工具是一个玩具。种子作为为创作者工具提供动力的基础模型是真正的疯狂革命。在其之上构建代理和应用程序层的人将真正改变内容的制作方式 我错过了任何 Seedance 2.0 最佳实践？   由   提交 /u/Worldly-Control403   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r6h6o4/8_seedance_20_best_practices_after_a_week_of/</guid>
       <pubDate>Mon, 16 Feb 2026 18:13:40 GMT</pubDate>
     </item>
@@ -88,13 +95,6 @@
       <description><![CDATA[SaaS 使软件易于访问，但我不确定它是否解决了集成后出现的复杂性。 一旦公司开始堆叠工具，真正的工作就变成了将所有东西缝合在一起。 Webhook 失败、API 发生变化、达到速率限制、出现边缘情况，最终有人需要维护不断增长的工作流程网络。在某些时候，您不再只是使用 SaaS 产品。您正在运行一个需要监控、日志记录、重试和版本控制的自动化系统。 据我所知，困难不在于选择工具，而在于如何保持自动化随着时间的推移保持稳定。团队要么在内部雇用人员来拥有该层，要么将其外包，因为可靠性变得比灵活性更重要。 我在这个领域进行构建，并注意到许多公司更关心稳定的执行，而不是对每个节点和集成的完全控制。 很好奇这里的其他人如何看待它。 大多数团队最终都希望拥有自己的自动化堆栈，还是一旦工作流程变得至关重要，托管执行是否更有意义？   由   提交 /u/ZealousidealAd9886   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r61hsk/is_saas_quietly_evolving_into_automation_as_a/</guid>
       <pubDate>Mon, 16 Feb 2026 05:51:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>流程图是一项并不吸引人的技能，但实际上每周可以节省 15 个小时（这比追逐闪亮的 AI 工具要好）</title>
-      <link>https://www.reddit.com/r/automation/comments/1r60mg1/process_mapping_is_the_unsexy_skill_that_actually/</link>
-      <description><![CDATA[ 由   提交 /u/3pychmak   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r60mg1/process_mapping_is_the_unsexy_skill_that_actually/</guid>
-      <pubDate>Mon, 16 Feb 2026 05:05:01 GMT</pubDate>
     </item>
     <item>
       <title>易于设置的文档提取软件？</title>
