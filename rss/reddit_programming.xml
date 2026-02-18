@@ -4,13 +4,20 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 18 Feb 2026 18:47:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 21:32:35 GMT</lastBuildDate>
     <item>
-      <title>先有鸡还是先有蛋的问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1r8bep4/the_chicken_egg_problem/</link>
-      <description><![CDATA[传统的机器学习模型需要知道他们不知道的东西。但这就是问题所在。为了对不确定性进行建模，您需要“不确定”的示例。区域，但根据定义，不确定区域是没有数据的区域。您无法从从未见过的事物中学习。那么如何摆脱循环推理呢？  μ_x(r) = [N·P(r | 可访问)] / [N·P(r | 可访问) + P(r | 不可访问)] 其中 (ELI5)： N = 训练样本数量（确定性预算） P(r | 可访问) = “我看到了多少这样的训练示例”  P(r | inaccessible) = “我没见过的一切都同样合理” 换句话说，置信度 = (我见过的证据) / (我见过的证据 + 无知) 当 r 远离训练数据时： P(r |accessible) → 0  公式变为 μ_x(r) → 0·N / (0·N + 1) = 0 “即我一无所知” 当 r 接近训练数据时：P(r | 可访问) 大且公式变为 μ_x(r) → N·big / (N·big + 1) ≈ 1 “即我确定” 回顾： 统一先验 P(r | 可访问) 需要零训练 （只是 1/卷）。密度 P(r |accessible) 密度仅从正面示例中学习。它们之间的竞争自动创建了不确定性边界   由   提交/u/Intrepid_Sir_59  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r8bep4/the_chicken_egg_problem/</guid>
-      <pubDate>Wed, 18 Feb 2026 18:41:48 GMT</pubDate>
+      <title>监狱里的编程：我的救赎弧</title>
+      <link>https://www.reddit.com/r/programming/comments/1r8e79h/programming_in_prison_my_redemption_arc/</link>
+      <description><![CDATA[ 由   提交/u/wagslane  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r8e79h/programming_in_prison_my_redemption_arc/</guid>
+      <pubDate>Wed, 18 Feb 2026 20:24:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>去中心化物理基础设施的根本矛盾</title>
+      <link>https://www.reddit.com/r/programming/comments/1r8cobb/the_fundamental_contradiction_of_decentralized/</link>
+      <description><![CDATA[如何对需要许可、电网、物理安全和监管合规性的事物进行去中心化？事实证明：你大多不这样做。 https://cybernews-node.blogspot.com/2026/02/depins-still-more-decentralized-dream.html   由   提交 /u/No_Fisherman1212   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r8cobb/the_fundamental_contradiction_of_decentralized/</guid>
+      <pubDate>Wed, 18 Feb 2026 19:27:34 GMT</pubDate>
     </item>
     <item>
       <title>分叉、探索、提交：用于代理探索的操作系统原语 (PDF)</title>
@@ -102,13 +109,6 @@
       <description><![CDATA[ 由   提交 /u/cekrem   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r75tvu/solid_in_fp_single_responsibility_or_how_pure/</guid>
       <pubDate>Tue, 17 Feb 2026 13:20:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的待办事项无法跟上您的代理的进度</title>
-      <link>https://www.reddit.com/r/programming/comments/1r73qis/your_backlog_cant_keep_up_with_your_agents/</link>
-      <description><![CDATA[ 由   提交 /u/magicsrb   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r73qis/your_backlog_cant_keep_up_with_your_agents/</guid>
-      <pubDate>Tue, 17 Feb 2026 11:39:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
