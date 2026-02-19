@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 19 Feb 2026 06:55:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 09:40:42 GMT</lastBuildDate>
+    <item>
+      <title>PrintStock - 具有 Blazor WASM UI 的轻量级、便携式 .NET 10 长丝库存管理器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r8ser3/printstock_a_lightweight_portable_net_10_filament/</link>
+      <description><![CDATA[嘿 Reddit， 我想分享一个我一直在做的项目，名为 PrintStock。它是专为 3D 打印耗材设计的本地库存管理系统。 技术堆栈：  后端/主机： ASP.NET Core (.NET 10) 前端： Blazor WebAssembly 数据库： EF Core 与 SQLite 部署： 单文件可移植可执行文件  我将其设计为“零配置”。为最终用户提供尽可能的帮助。当您运行 EXE 时，它会自动设置本地 SQLite 数据库、处理迁移并在默认浏览器中启动 UI。对于那些想要专用工具而不需要 Docker 或复杂的服务器设置的人来说，这是一个很好的选择。 这篇文章的简要说明：由于英语不是我的母语，我使用 AI 来帮助我翻译我的想法，完善此描述，并协助项目文档使其尽可能清晰。我希望在专注于开发方面的同时，在使用这些工具来弥合语言差距方面保持透明。 如果您感兴趣，请在 GitHub 上查看： 🔗https://github.com/Endoplazmikmitokondri/PrintStock 这对我来说是一次巨大的学习经历，我期待听到您的反馈。非常欢迎星星、建议和拉取请求！   由   提交/u/endoplazmikmitokondr   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r8ser3/printstock_a_lightweight_portable_net_10_filament/</guid>
+      <pubDate>Thu, 19 Feb 2026 07:01:32 GMT</pubDate>
+    </item>
     <item>
       <title>Code Scalpel：开源 MCP 服务器，使 AI 编码成本降低 99%、准确、安全且可管理（MIT 许可）</title>
       <link>https://www.reddit.com/r/opensource/comments/1r8owb6/code_scalpel_opensource_mcp_server_that_makes_ai/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[       由   提交/u/KoStard  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1r6mpah/i_built_forgecad_a_codefirst_parametric_cad_tool/</guid>
       <pubDate>Mon, 16 Feb 2026 21:34:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了 CodeGraph CLI — 使用 Tree-sitter 将您的代码库解析为语义图，对 LanceDB 向量进行 RAG 支持的搜索，并让您从终端与多代理 AI 聊天</title>
-      <link>https://www.reddit.com/r/opensource/comments/1r66t4a/i_built_codegraph_cli_parses_your_codebase_into_a/</link>
-      <description><![CDATA[       由   提交 /u/Wild_Expression_5772   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1r66t4a/i_built_codegraph_cli_parses_your_codebase_into_a/</guid>
-      <pubDate>Mon, 16 Feb 2026 11:07:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
