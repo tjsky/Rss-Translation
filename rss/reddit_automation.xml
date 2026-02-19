@@ -4,7 +4,42 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Thu, 19 Feb 2026 09:39:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 12:54:40 GMT</lastBuildDate>
+    <item>
+      <title>在不失去创意控制的情况下自动化部分短视频创作</title>
+      <link>https://www.reddit.com/r/automation/comments/1r8xt8o/automating_parts_of_short_form_video_creation/</link>
+      <description><![CDATA[我一直在尝试自动化短视频工作流程中的重复部分，同时保持手动创意决策。诸如场景规划、参考收集和粗略运动预览之类的事情比实际编辑需要更多的时间。我开始尝试简单的自动化步骤，例如模板提示、可重用的参考文件夹和批量渲染，以加快速度。 一个有趣的测试涉及使用 AI 动画工具进行预可视化。我尝试 Viggle AI 主要是为了看看它是否可以在进行最终编辑之前帮助自动化草稿。它作为计划层而不是最终输出效果最好。在决定摄像机角度和步调时，拥有快速的动画参考可以节省时间。 现在的挑战是弄清楚什么应该保持自动化，什么应该保持人工驱动。太多的自动化让一切都感觉很普通，但手动完成所有事情会减慢生产速度。 对于这里自动化创意工作流程的任何人来说，您如何决定哪些步骤要标准化以及哪些步骤要保护以进行实际工作？也很好奇人们是否正在构建可重复的管道或只是根据需要自动化小部件。   由   提交/u/farhankhan04  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r8xt8o/automating_parts_of_short_form_video_creation/</guid>
+      <pubDate>Thu, 19 Feb 2026 12:22:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>“撤消按钮”规则：如果您的自动化无法轻松逆转，那么您还没有准备好部署它</title>
+      <link>https://www.reddit.com/r/automation/comments/1r8wxqr/the_undo_button_rule_if_your_automation_cant_be/</link>
+      <description><![CDATA[多年来一直致力于工作流程自动化。我学到的最好的教训：永远不要在没有简单撤消的情况下部署自动化。 规则是：在打开它之前，问问“如果凌晨 3 点出了问题，我可以在 5 分钟内扭转它吗？” 如果不能： - 添加空运行模式 - 内置终止开关 - 或者只是暂时不部署 拯救了我无数次。通过电子邮件发送整个客户列表的自动化？最好有一个“回忆”或者至少是草稿模式。归档文件的那个？最好有一个恢复过程。 大多数自动化灾难并不是由错误引起的。它们来自于运行功能完美的代码，这些代码完全按照您的指示执行...在最糟糕的时间。 测试：您能快速撤消它吗？如果没有，则表示尚未准备好。   由   提交 /u/Available_Cupcake298   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r8wxqr/the_undo_button_rule_if_your_automation_cant_be/</guid>
+      <pubDate>Thu, 19 Feb 2026 11:36:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何使用自动执行来管理多策略投注组合（大数据重置）</title>
+      <link>https://www.reddit.com/r/automation/comments/1r8wjh1/how_im_using_automated_execution_to_manage_a/</link>
+      <description><![CDATA[      我一直在致力于一个项目，以完全自动化我的体育博彩策略，以消除“人为因素” （情绪偏见和执行滞后）。我目前正在运行“大数据重置”投资组合，并希望分享自动化背后的逻辑。 问题：每天在不同策略（支持热门、在特定地方市场下注等）手动下注 10-20 次，并在 1 分钟内发布，这是一项全职工作，而且容易出错。 解决方案：我正在使用基于云的自动执行。它直接链接到 Betfair 交易所，并根据我预设的参数处理条目。 我正在使用的主要自动化功能：  基于时间的执行：所有投注均在 1MTP（发布分钟数）精确触发，以捕获最准确的市场交易量。 策略多样化：我运行 3 个不同的策略“套房” （PLM、Racing Lays 和 Sure Favs）同时进行。自动化使这些可以实时抵消彼此的差异。  迄今为止的结果：自重置以来，投资组合目前上涨了+38.80点。昨天，由于一套房的大批量自动化（8 次投注中赢了 5 场），带动了 +3.1pt 的涨幅。  https://preview.redd.it/4ewp12nqpfkg1.png?width=1600&amp;format=png&amp;auto=webp&amp;s=9b889503b03739d4b8b8156ea6f95bc367a14c14 我很好奇——这个小组中还有其他人在非传统金融市场使用自动化吗？我很想听听您如何在自己的脚本/设置中处理自动质押或风险管理过滤器。   由   提交 /u/Exponentialbet   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r8wjh1/how_im_using_automated_execution_to_manage_a/</guid>
+      <pubDate>Thu, 19 Feb 2026 11:13:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>您现在永远不会关闭的一项自动化功能是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r8weax/whats_one_automation_youd_never_turn_off_now/</link>
+      <description><![CDATA[自从将 ChatGPT 集成到我的工作流程中后，我真的无法想象删除一些自动化操作。 不是华而不实的东西。只是每周悄悄节省时间的小型系统。 好奇 - 您的堆栈中哪一个自动化变得“不可协商”？   由   提交 /u/Alpertayfur   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r8weax/whats_one_automation_youd_never_turn_off_now/</guid>
+      <pubDate>Thu, 19 Feb 2026 11:05:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>我可以使用 OCR 进行发票处理吗？有记录吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1r8uz7m/can_i_use_ocr_for_invoice_processing_any_recos/</link>
+      <description><![CDATA[我正在尝试使用 OCR 进行发票处理，从 PDF 发票中提取表格数据。 正在寻找能够执行以下操作的软件解决方案： • 提取结构化行项目和字段数据 • 处理扫描的 PDF • 与手动输入相比加快流程 人们实际使用过哪些效果良好的工具或工作流程？   由   提交/u/aamond26  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r8uz7m/can_i_use_ocr_for_invoice_processing_any_recos/</guid>
+      <pubDate>Thu, 19 Feb 2026 09:41:09 GMT</pubDate>
+    </item>
     <item>
       <title>没有 RAG 内存的自动化仍然迫使团队手动搜索</title>
       <link>https://www.reddit.com/r/automation/comments/1r8sy6c/automation_without_rag_memory_still_forces_teams/</link>
@@ -67,41 +102,6 @@
       <description><![CDATA[      我一直在测试人工智能生成的匿名内容是否能够真正建立真正的受众群体 - 不仅仅是获得一些观看次数，而是从头开始创建合法的追随者。 以下是 16 个帖子后的原始结果：  25,000 多个关注者（从零开始） 表现最佳的视频获得了 190 万次观看 另外三个视频的观看次数为 574K、570K 和 284K 所有 16 条帖子的总观看次数超过 330 万次 每个帖子的平均观看次数约为 20 万次  这正是我所看到的做到了。 格式 角色讲解视频 - 两个动画角色通过 Minecraft 风格的游戏辩论或解释某个主题。最近你在 TikTok 和 Reels 上随处可见这些内容。这种格式之所以有效，是因为：  可识别的字符立即停止滚动 两个字符争论&gt;一个角色的独白（更高的保留率） 好奇心驱动的主题（“这是真的吗？”/“等等，怎么...”）创造了人们无法跳过的钩子 30-90 秒是算法的最佳点  格式本身才是真正的解锁。无论您是在解释 Chrome 如何跟踪您的数据、分析大学费用为何如此高昂，还是在介绍营销漏斗的运作方式，都没关系 - 两个字符的对话结构可以让人们持续观看，因为他们想听听来回的内容。 具体有效的方法  好奇心挂钩 - 以“等等...”开头的视频或“这是真的吗……”始终优于其他所有内容 人们强烈关注的主题 - 不必引起争议，只是人们对此有意见或疑问 在美国高峰时段发布（美国东部时间晚上） 将视频控制在 90 秒内 - 完成率对于算法来说至关重要  什么不起作用：  主题模糊，没有明确的好奇心 视频超过 90 秒（完成率下降） 同时发布多个视频，而不是将它们间隔开  工具 我使用自己构建的 AutoClips 工具自动化了视频创建。你给它一个主题，它会生成脚本、创建角色声音、同步对话、渲染最终视频，并将其发布到 Instagram、TikTok、YouTube Shorts 和 Facebook - 所有这些都通过一个设置完成。所以我制作的每个视频实际上都会同时发布到 4 个平台。我提到的 330 万浏览量？这只是Instagram。同样的视频也在 TikTok、Shorts 和 Facebook 上运行。 完整指南：https://www.autoclips.app/automation-guide - 如果有人想尝试，第一个视频是免费的 演示：https://www.youtube.com/watch?v=md5vvzc0_bQ 速度很重要，因为：  对于热门主题：饱和前发布的时间是几小时，而不是几天 对于教育内容：您需要数量来测试哪些主题受欢迎（更多帖子=更多数据） 发布到 4 个平台意味着每个视频的病毒式传播次数是原来的 4 倍  从头开始我会采取哪些不同的做法  从头开始每天发布 4 个视频 - 将它们分开，更多镜头瞄准目标 将热门话题与常青好奇的话题混合在一起，以保持一致性 跨不同领域创建多个帐户，以测试哪些内容能引起最快的共鸣 更多地参与评论 - 回复活动告诉算法该帖子值得推送  很高兴回答问题。   由   提交 /u/iayazalam   [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r8i8ep/33m_view_25k_followers_16_posts_all_with_ai/</guid>
       <pubDate>Wed, 18 Feb 2026 22:57:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有办法自动将进入我的画廊的所有图片设为单色？</title>
-      <link>https://www.reddit.com/r/automation/comments/1r8f0pb/is_there_a_way_to_automatically_make_any_pictures/</link>
-      <description><![CDATA[我使用的是 android (Samsung A52)，我想知道是否有一种方法可以自动编辑“输入”的每张图片。我的画廊（通过屏幕截图或下载）单色，而我实际上不需要做太多事情？我尝试将手机设置为单色模式，但这对实际的屏幕截图没有任何作用。手动编辑它们对我来说花费了太多时间，因为我花了很多时间。    由   提交 /u/AFellowSpir​​it   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r8f0pb/is_there_a_way_to_automatically_make_any_pictures/</guid>
-      <pubDate>Wed, 18 Feb 2026 20:55:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>高级开发人员和产品经理：对于让 AI 完成工作有着复杂的感受</title>
-      <link>https://www.reddit.com/r/automation/comments/1r8cbpg/senior_dev_and_pm_mixed_feelings_on_letting_ai_do/</link>
-      <description><![CDATA[ 由   提交/u/tracagnotto   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r8cbpg/senior_dev_and_pm_mixed_feelings_on_letting_ai_do/</guid>
-      <pubDate>Wed, 18 Feb 2026 19:14:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>DIY 的隐性成本：为什么我要重新考虑我对托管自动化工具的立场</title>
-      <link>https://www.reddit.com/r/automation/comments/1r85kp4/the_hidden_cost_of_diy_why_im_reconsidering_my/</link>
-      <description><![CDATA[我曾经是一个“自己构建一切”的开发者，但维护正在降低我的生产力。每次 API 更改或令牌过期时，十几个工作流程都会中断，而我是唯一能够修复它们的人。我开始研究托管自动化工具，这些工具实际上可以提供一定程度的支持或监督，这样我就不必为了简单的数据同步而 24/7 待命。对于那些转向托管设置的人来说，这种安心值得付出代价吗？   由   提交 /u/Tad_Astec   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r85kp4/the_hidden_cost_of_diy_why_im_reconsidering_my/</guid>
-      <pubDate>Wed, 18 Feb 2026 15:13:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>尝试从音频翻译 100 多种语言，寻找自动化工作流程</title>
-      <link>https://www.reddit.com/r/automation/comments/1r82o2r/trying_to_translate_100_languages_from_audio/</link>
-      <description><![CDATA[我正在处理大量需要翻译的录音，我所说的“大量”是指 100 多种语言 😅。手动完成这完全是一场噩梦，我尝试过的每个工具要么只支持几种语言，要么需要很长时间。  我正在尝试找出一种更自动化的工作流程来大规模处理此问题，但尚未找到任何快速可靠的方法。大多数文件都是 30-60 分钟的访谈，因此处理时间确实会增加。  有人拥有可以有效处理大批量的系统、工作流程或工具组合吗？即使它并不完美，我只需要一些在最终编辑之前能帮助我完成大部分工作的东西。  任何对您有用的技巧、技巧或工具都会很棒。   由   提交 /u/Technical_Fee4829   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r82o2r/trying_to_translate_100_languages_from_audio/</guid>
-      <pubDate>Wed, 18 Feb 2026 13:14:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能在商业中无处不在，自动化真的值得吗？还是只是一种昂贵的趋势？</title>
-      <link>https://www.reddit.com/r/automation/comments/1r81s9c/ai_is_everywhere_in_business_is_it_actually_worth/</link>
-      <description><![CDATA[我的公司正在考虑投资人工智能，我正在努力区分真正的价值和炒作。 公司正在以“面向未来”的名义在人工智能工具和集成上花费数百万美元。 但我想知道这些投资是否创造了可衡量的价值，或者大多数团队是否仍在弄清楚事情？ 如果您在自己的公司中参与人工智能，公司：  它实际解决了哪些问题？ 您看到任何实际效果了吗？ 您认为值得您付出的代价吗？  希望获得诚实的体验。什么有效，什么无效，以及您学到了什么。   由   提交/u/Techenthusiast_07  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r81s9c/ai_is_everywhere_in_business_is_it_actually_worth/</guid>
-      <pubDate>Wed, 18 Feb 2026 12:33:30 GMT</pubDate>
     </item>
     <item>
       <title>最近有哪些基于人工智能的智能机器人让您大吃一惊？</title>
