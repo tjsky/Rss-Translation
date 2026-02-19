@@ -4,7 +4,14 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Thu, 19 Feb 2026 01:49:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 04:50:25 GMT</lastBuildDate>
+    <item>
+      <title>Pedro Organiza 0.8.4 发布 — 现在具有内置自诊断功能</title>
+      <link>https://www.reddit.com/r/software/comments/1r8pmj2/pedro_organiza_084_released_now_with_builtin/</link>
+      <description><![CDATA[ 由   提交 /u/ArtisticMushroom4173   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r8pmj2/pedro_organiza_084_released_now_with_builtin/</guid>
+      <pubDate>Thu, 19 Feb 2026 04:29:07 GMT</pubDate>
+    </item>
     <item>
       <title>寻找一种非常简单且基本的方法来在本地创建清单。</title>
       <link>https://www.reddit.com/r/software/comments/1r8lle6/looking_for_a_very_simple_and_basic_way_to_create/</link>
@@ -41,7 +48,7 @@
       <pubDate>Wed, 18 Feb 2026 20:58:48 GMT</pubDate>
     </item>
     <item>
-      <title>Figjam 或 Freeform 替代品</title>
+      <title>Figjam 或 Freeform 替代方案</title>
       <link>https://www.reddit.com/r/software/comments/1r8ezha/figjam_or_freeform_alternative/</link>
       <description><![CDATA[ 由   提交/u/Aronox_Sadehim   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r8ezha/figjam_or_freeform_alternative/</guid>
@@ -90,9 +97,9 @@
       <pubDate>Wed, 18 Feb 2026 16:36:09 GMT</pubDate>
     </item>
     <item>
-      <title>我的 GDPR cookie 横幅挡住了结帐按钮。在一位英国用户最终告诉我之前，我损失了 22,000 欧元。</title>
+      <title>我的 GDPR cookie 横幅挡住了结账按钮。在一位英国用户最终告诉我之前，我损失了 22,000 欧元。</title>
       <link>https://www.reddit.com/r/software/comments/1r85nsb/my_gdpr_cookie_banner_was_blocking_the_checkout/</link>
-      <description><![CDATA[我觉得写这篇文章很愚蠢，但也许它会拯救其他人。 所以，我在三月份推出了我的 SaaS。一切都是“照章办事”条带集成、适当的欧盟 cookie 同意、感觉专业且合规的工作……然后我开始注意到我的分析中有一些奇怪的东西，美国的转化率为 7.8% 而欧盟的转化率为 2.1%……相同的产品。相同的定价。数字截然不同。 我确信欧洲人只是“不适合我们的市场”。或者也许他们对新产品或其他什么更持怀疑态度。基本上都是编造理由逃避调查。这种情况持续了3个月。然后上周四我收到了曼彻斯特某人发来的电子邮件 “哥们，我已经尝试给你钱15分钟了。你的结账按钮根本不起作用。这个网站是真的吗？” 我惊慌失措。当我在我的美国 IP 上打开该网站时，它运行良好。打开通往英国的 VPN，完成整个流程，然后...购买按钮没有点击。就像它看起来很正常，但当你点击它时什么也没有发生。在毛毛雨中花了 2 个小时，发现了问题 这是我的 cookie 同意模式的 z-index 9999，而结帐按钮的 z-index 100 这就是噩梦：在用户单击“接受 cookie”后，模态淡出并且看起来不可见，但背景 div 仍然存在于 DOM 中，并具有完整的 z-index，阻止了对其下方任何内容的所有点击。 因此，每个 EU 用户都看到了一个完全正常的结账页面，单击了按钮，然后……什么也没有。他们可能认为该网站已损坏或者我是骗子。 计算过收入损失吗：3 个月内损失了 22,400 欧元。 解决办法吗？实际上，一行 CSS 可以在同意后正确删除模态背景。花了5分钟。欧盟的转化率目前为 7.3%（与美国基本一致）。 我学到的是，始终彻底测试您的 GDPR 合规性。如果你看到巨大的区域转换差距，这可能不是文化，而是一个错误。 还要感谢那个来自曼彻斯特的人，他费心发电子邮件而不是直接离开。你拯救了我的生意哈哈   由   提交 /u/Lo_g_   [link] [评论]]]></description>
+      <description><![CDATA[我觉得写这篇文章很愚蠢，但也许它会拯救其他人。 所以，我在三月份推出了我的 SaaS。一切都是“照章办事”条带集成、适当的欧盟 cookie 同意、感觉专业且合规的工作……然后我开始注意到我的分析中有一些奇怪的东西，美国的转化率为 7.8% 而欧盟的转化率为 2.1%……相同的产品。相同的定价。数字截然不同。 我确信欧洲人只是“不适合我们的市场”。或者也许他们对新产品或其他什么更持怀疑态度。基本上都是编造理由逃避调查。这种情况持续了3个月。然后上周四我收到了曼彻斯特某人发来的电子邮件 “哥们，我已经尝试给你钱15分钟了。你的结账按钮根本不起作用。这个网站是真的吗？” 我惊慌失措。当我在我的美国 IP 上打开该网站时，它运行良好。打开通往英国的 VPN，完成整个流程，然后...购买按钮没有点击。就像它看起来很正常，但当你点击它时什么也没有发生。在毛毛雨中花了 2 个小时，发现了问题 这是我的 cookie 同意模式的 z-index 9999，而结帐按钮的 z-index 100 这就是噩梦：在用户单击“接受 cookie”后，模态淡出并且看起来不可见，但背景 div 仍然存在于 DOM 中，并具有完整的 z-index，阻止了对其下方任何内容的所有点击。 因此，每个 EU 用户都看到了一个完全正常的结帐页面，单击了按钮，然后……什么也没有。他们可能认为该网站已损坏或者我是骗子。 计算过收入损失吗：3 个月内损失了 22,400 欧元。 解决办法吗？实际上，一行 CSS 可以在同意后正确删除模态背景。花了5分钟。欧盟的转化率目前为 7.3%（与美国基本一致）。 我学到的是，始终彻底测试您的 GDPR 合规性。如果你看到巨大的区域转换差距，这可能不是文化，而是一个错误。 还要感谢那个来自曼彻斯特的人，他费心发电子邮件而不是直接离开。你拯救了我的生意哈哈   由   提交 /u/Lo_g_   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r85nsb/my_gdpr_cookie_banner_was_blocking_the_checkout/</guid>
       <pubDate>Wed, 18 Feb 2026 15:16:23 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[ 由   提交/u/MadeInDex-org   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r84owv/telegram_seems_trapped_between_a_rock_a_cold_place/</guid>
       <pubDate>Wed, 18 Feb 2026 14:38:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>SAE 曼哈顿 (WMS) 系统和订单创建选择问题</title>
-      <link>https://www.reddit.com/r/software/comments/1r83koz/sae_manhattanwms_system_order_creation_for/</link>
-      <description><![CDATA[ 由   提交 /u/AyeThurnis   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r83koz/sae_manhattanwms_system_order_creation_for/</guid>
-      <pubDate>Wed, 18 Feb 2026 13:53:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
