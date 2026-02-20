@@ -4,20 +4,41 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Fri, 20 Feb 2026 09:35:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 12:47:17 GMT</lastBuildDate>
+    <item>
+      <title>在 Node.js 中构建 Google 地图 + AI 工作流程，以识别具有特定差距的本地企业 — 架构 + 课程</title>
+      <link>https://www.reddit.com/r/automation/comments/1r9rub3/built_a_google_maps_ai_workflow_in_nodejs_to/</link>
+      <description><![CDATA[手动在 Google 地图上搜索不同城市的本地商家、检查其在线状态并整理这些数据，这些工作重复且耗时。 我构建的内容 Node.js + TypeScript 工作流程：  接受城市 + 商家类别列表 使用 Google 地方信息提取商家数据API 根据条件（评级阈值、缺失网站、在线状态不佳等）进行过滤 将所有内容构建到 Google 表格中 使用 LLM 生成上下文草稿消息（不是自动发送 - 只是生成）  技术堆栈  Node.js + TypeScript Google Places API Google Sheets API 用于消息起草的 Gemini API 基本重复数据删除逻辑，以避免重复输入  架构流程（高级）  输入配置（城市 + 利基市场） 获取地点结果 规范化 + 验证字段 应用过滤器 存储结构化数据数据 为每个条目生成上下文外展草稿  挑战  处理 API 速率限制 清理不一致的业务元数据 避免跨多个城市运行重复条目 保持提示输出结构化且可用  我学到了什么  大部分时间都浪费在数据清理上，而不是数据获取 提示结构比模型选择更重要 需要尽早设计速率限制处理    由   提交/u/MehtaNaSehta   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r9rub3/built_a_google_maps_ai_workflow_in_nodejs_to/</guid>
+      <pubDate>Fri, 20 Feb 2026 10:27:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>因果反模式（数据集；抹布；代理；开源；推理）</title>
+      <link>https://www.reddit.com/r/automation/comments/1r9rt9b/causalantipatterns_dataset_rag_agent_open_source/</link>
+      <description><![CDATA[       由   提交 /u/frank_brsrk   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r9rt9b/causalantipatterns_dataset_rag_agent_open_source/</guid>
+      <pubDate>Fri, 20 Feb 2026 10:26:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>业务流程自动化：含义、AI 角色、最佳实践等</title>
+      <link>https://www.reddit.com/r/automation/comments/1r9rdid/business_process_automation_meaning_ai_role_best/</link>
+      <description><![CDATA[大约 66% 到 70% 的企业采用了某种形式的业务流程自动化。从财务到人力资源，从供应链到客户服务，它已成为全球许多公司的战略重点。然而，尽管它的采用率不断提高，但有些人并不完全理解它的真正含义。 在本博客中，API Connects 将告诉您有关 AI 业务流程自动化的一切。从核心意义到人工智能角色，再到最佳实践和选择合适的人工智能工程公司，我们将涵盖所有关键方面。   由   提交/u/Strict-Present8808  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r9rdid/business_process_automation_meaning_ai_role_best/</guid>
+      <pubDate>Fri, 20 Feb 2026 10:00:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>视频OCR工具</title>
+      <link>https://www.reddit.com/r/automation/comments/1r9r79p/video_ocr_tool/</link>
+      <description><![CDATA[大家好 我有一些视频，我想要一个工具来从这些视频中提取所有书面文本有什么工具可以解决我的问题吗？最好是免费的，或者至少不贵我尝试了很多工具，但没有成功。   由   提交/u/Sylense_03  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r9r79p/video_ocr_tool/</guid>
+      <pubDate>Fri, 20 Feb 2026 09:50:02 GMT</pubDate>
+    </item>
     <item>
       <title>n8n 和 Make 是否开始让人感觉过时了，或者自动化领域正在不断发展？</title>
       <link>https://www.reddit.com/r/automation/comments/1r9qldj/are_n8n_and_make_starting_to_feel_outdated_or_is/</link>
       <description><![CDATA[ 由   提交 /u/Extreme-Brick6151   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r9qldj/are_n8n_and_make_starting_to_feel_outdated_or_is/</guid>
       <pubDate>Fri, 20 Feb 2026 09:13:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>设置多代理 AI 工作流程以实现业务自动化</title>
-      <link>https://www.reddit.com/r/automation/comments/1r9q680/set_up_multiagent_ai_workflows_for_business/</link>
-      <description><![CDATA[在现实业务运营中，多代理 AI 工作流程正在改变团队处理复杂流程的方式。最近，我构建了一个连接多个人工智能代理的系统，以无缝管理内容摄取、知识提取和任务自动化。想象一个管道，其中 YouTube 视频、播客或网络研讨会被自动转录、按主题分组，并通过仅限于原始来源的 AI 问答代理传递。从那里，输出以结构化摘要、抽认卡和可操作提示的形式导出，在 12 分钟内将 2 小时的视频减少为笔记。对于企业来说，这不仅仅是效率；更是。其可衡量的投资回报率：将知识推送到 Notion 或 CRM，在 Anki 中间隔重复以进行员工培训和突出技能差距的进度跟踪。这里真正的见解是使用护栏时间戳、矛盾检查和源约束，以便人工智能代理可靠地运行而不会偏离主题。通过在这种结构化工作流程中协调多个代理，中小企业和大型团队可以将被动内容转化为可操作的商业智能，减少重复性任务并扩展培训和研究，而无需增加人员。   由   提交 /u/No-Performer7343   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r9q680/set_up_multiagent_ai_workflows_for_business/</guid>
-      <pubDate>Fri, 20 Feb 2026 08:46:52 GMT</pubDate>
     </item>
     <item>
       <title>如何开始人工智能自动化</title>
@@ -55,13 +76,6 @@
       <pubDate>Thu, 19 Feb 2026 20:14:13 GMT</pubDate>
     </item>
     <item>
-      <title>上个月，我们团队的 LinkedIn 帐户几乎被永久禁止。以下是我们对新限制的了解（以及我们用来保持安全的堆栈）。</title>
-      <link>https://www.reddit.com/r/automation/comments/1r99z95/we_almost_got_our_teams_linkedin_accounts/</link>
-      <description><![CDATA[我们是一个精干的 5 人团队，负责平衡冷电子邮件和社交外展。几周前，我们受到了临时限制，并意识到如果我们想生存，我们需要彻底重新思考如何进行外展。 现在的现实是，LinkedIn 的打击力度比以往任何时候都更加严厉。根据我们的测试，目前的安全区每天大约只有 20 到 30 个连接请求。更糟糕的是，如果您的接受率低于 20%，您的帐户几乎会立即被标记。成交量已死；现在完全是关于安全性和可交付性。 由于我们的预算几乎不存在，所以我花了几周的时间试图整合一个不会让我们被禁止的工作流程。我们在这个过程中破坏了很多东西。 我们最初使用 Phantombuster 尝试了增长黑客路线。如果您知道如何构建模块化工作流程，它会非常强大，但我们很快意识到它更像是一个抓取引擎，而不是专用的安全工具，我们害怕搞砸并再次遭到攻击。 接下来，我们看看 Expandi 和 Dripify 等重量级人物。老实说，它们拥有市场上最好的安全功能（智能延迟、超个性化、基于云的运行）。他们非常棒，但作为一个自力更生的团队，现在每个席位的成本对我们来说太沉重了。 我们还尝试过 Linked Helper 和 Waalaxy。 Waalaxy 拥有出色的用户界面，非常适合让我们了解其免费套餐，但一旦我们尝试扩展，价格就会跳得太快。 Linked Helper 恰恰相反，它具有超强的长期成本效益，并且具有大量的功能集，但您必须保持计算机运行才能正常工作，并且学习曲线非常陡峭。 最终，因为我们已经处理了大量冷电子邮件，我们意识到我们只需要一个简单的“发送后忘记”功能。设置优先考虑代理支持和可交付性。我们最终选择了 WarmySender。它没有更昂贵平台的复杂条件逻辑，但它保持了我们的高交付率，并包括无限的预热，这完全符合我们不存在的预算。 对于现在进行外展的任何人来说，最大的收获是：无论你做什么，开始都非常缓慢。目前的限制非常残酷，需要数周时间才能恢复。不要试图在第一天就收到 100 个邀请而毁掉您的域名。 我花了太多时间来解决这个问题，因此，如果有人对如何配置代理或设置安全工作流程感到困惑，请在评论中告诉我，我会尽力提供帮助。   由   提交/u/Iammnhamza   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r99z95/we_almost_got_our_teams_linkedin_accounts/</guid>
-      <pubDate>Thu, 19 Feb 2026 20:12:39 GMT</pubDate>
-    </item>
-    <item>
       <title>有人知道这个频道如何自动化卡通剧集吗？尝试启动类似的事情</title>
       <link>https://www.reddit.com/r/automation/comments/1r99xz7/anyone_know_how_this_channel_does_automates/</link>
       <description><![CDATA[      由   提交/u/soggy_bert   [链接] [评论] ]]></description>
@@ -83,13 +97,6 @@
       <pubDate>Thu, 19 Feb 2026 18:47:37 GMT</pubDate>
     </item>
     <item>
-      <title>冷冻库的库存管理</title>
-      <link>https://www.reddit.com/r/automation/comments/1r949wu/inventory_management_in_freezer/</link>
-      <description><![CDATA[ 由   提交 /u/BasicButterface   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r949wu/inventory_management_in_freezer/</guid>
-      <pubDate>Thu, 19 Feb 2026 16:47:04 GMT</pubDate>
-    </item>
-    <item>
       <title>人工智能自动化真的对你有用吗？</title>
       <link>https://www.reddit.com/r/automation/comments/1r91xqh/has_ai_automation_actually_worked_for_you/</link>
       <description><![CDATA[我看到越来越多的人构建人工智能自动化和代理，但大多数讨论都处于相当高的水平。 我很想听听这里人们的真实经验：  你到底自动化了什么？ 是为了你自己的工作流程还是为了客户？ 你使用了哪些工具？ 它是否节省了时间、金钱或成本？努力还是根本不努力？  失败和胜利一样有用。没有促销，只有实践课程。   由   提交/u/Techenthusiast_07  [链接] [评论]]]></description>
@@ -102,13 +109,6 @@
       <description><![CDATA[构建自动化 LinkedIn 工作流程，将聊天机器人与 AI 头像相结合。使用 AI 头像生成器 Looktara（35 美元）从自拍照中创建专业头像，然后输入聊天机器人提示中以获取个性化 LinkedIn 内容。 聊天机器人提示：“从创始人的角度撰写有关 SaaS 增长的 LinkedIn 帖子。使用这个专业爆头[插入AI爆头]。目标关键词AI头像和专业头像。” 3分钟内生成帖子+视觉效果。每周在创始人帐户上安排 15 个帖子。 2 个月内粉丝数量从 3000 增加到 12000。对于企业客户来说，AI 头像看起来足够逼真，聊天机器人处理消息传递。 有人为个人品牌构建聊天机器人 + AI 头像工作流程吗？用于聊天机器人集成的最佳人工智能爆头生成器？ Looktara 非常适合通过目视检查的 LinkedIn 头像。   由   提交 /u/coupsscoups   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r90z8g/chatbot_ai_headshot_workflow_for_linkedin/</guid>
       <pubDate>Thu, 19 Feb 2026 14:42:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>您现在永远不会关闭的一项自动化功能是什么？</title>
-      <link>https://www.reddit.com/r/automation/comments/1r8weax/whats_one_automation_youd_never_turn_off_now/</link>
-      <description><![CDATA[自从将 ChatGPT 集成到我的工作流程中后，我真的无法想象删除一些自动化操作。 不是华而不实的东西。只是每周悄悄节省时间的小型系统。 好奇 - 您的堆栈中哪一个自动化变得“不可协商”？   由   提交 /u/Alpertayfur   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r8weax/whats_one_automation_youd_never_turn_off_now/</guid>
-      <pubDate>Thu, 19 Feb 2026 11:05:08 GMT</pubDate>
     </item>
     </channel>
 </rss>

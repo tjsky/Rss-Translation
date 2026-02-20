@@ -4,13 +4,13 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 20 Feb 2026 09:37:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 12:48:36 GMT</lastBuildDate>
     <item>
-      <title>我们推送了一个 Docker 镜像更改，导致生产中断了 40 分钟。该修复是一条没有人阅读的评论。</title>
-      <link>https://www.reddit.com/r/programming/comments/1r9qatb/we_pushed_a_docker_image_change_that_took_down/</link>
-      <description><![CDATA[六周前，我们团队中的某人将 API 服务 Dockerfile 中的基础映像从 node:18-alpine 更改为 node:20-alpine。看起来无害。节点 20 是 LTS。 没有人知道（或记得）的是我们固定为 18，因为我们的本机 sharp 绑定以特定方式针对 musl libc 进行编译。该开关在暂存阶段无声地破坏了图像处理，然后在生产环境中大声破坏了图像处理。 我们有一个 Notion 文档解释了这一点。没有人打开它。事后分析后，我花了一个下午做了一些简单的事情：编写一个存在于存储库本身中的 Markdown 文件，并制定了一条规则，每当有人触及 Dockerfile 时就会触发 PR 评论。 规则如下所示： ## 决策：故意固定基础镜像 **文件**：`Dockerfile`、`.docker/**` **严重性**：严重 **上下文**：节点18-alpine是故意的。在此特定版本中，锐利绑定需要 musl libc。升级 Node 于 2023 年 8 月破坏了图像处理。在未测试 Sharp、canvas 和 bcrypt 本机模块之前请勿进行更改。  现在，当任何人打开触及 Dockerfile 的 PR 时，他们甚至在审阅者查看之前就看到了这一点。 我们使用一个名为 Decision Guardian (github.com/DecispherHQ/decision-guardian) 的小操作将其连接到 GitHub Actions。但老实说，即使只是拥有没有自动化的 Markdown 文件也比什么都没有好——我们现在在 PR 审查期间阅读了它。 还有其他人以不同的方式解决这个问题吗？感觉就像每个团队在达到一定规模时都会遇到的问题。   由   提交/u/Leather-Phase1673  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r9qatb/we_pushed_a_docker_image_change_that_took_down/</guid>
-      <pubDate>Fri, 20 Feb 2026 08:55:19 GMT</pubDate>
+      <title>FP 中的 SOLID：开闭式，或者为什么我喜欢代码无法编译的情况</title>
+      <link>https://www.reddit.com/r/programming/comments/1r9t7gf/solid_in_fp_openclosed_or_why_i_love_when_code/</link>
+      <description><![CDATA[ 由   提交 /u/cekrem   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r9t7gf/solid_in_fp_openclosed_or_why_i_love_when_code/</guid>
+      <pubDate>Fri, 20 Feb 2026 11:45:15 GMT</pubDate>
     </item>
     <item>
       <title>我如何制作 64 KB 的射击游戏</title>
@@ -25,13 +25,6 @@
       <description><![CDATA[ 由   提交/u/BlueGoliath  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r9pd1u/a_brief_history_of_bjarne_stroustrup_the_creator/</guid>
       <pubDate>Fri, 20 Feb 2026 07:55:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们用在肯尼亚构建和托管的一个 C++ 核心 + Vue 堆栈取代了 AWS、Mikrotik 和 10 个 SaaS 工具</title>
-      <link>https://www.reddit.com/r/programming/comments/1r9p42k/we_replaced_aws_mikrotik_and_10_saas_tools_with/</link>
-      <description><![CDATA[无 REST API。没有国外服务器。 WebSocket 一路向下。一个代码库适用于 Qt 桌面、Android 和 iOS。 bNucleus 控制整个车队的所有部署。用于 AI 的本地 YOLO、Whisper 和 LLaMA。关于它如何工作的完整文章。 &lt;一href=&quot;https://medium.com/@updatedennismwangi/we-built-the-operating-system-for-african-business-and-it-goes-all-the-way-down-to-the-kernel-2ad9b2871aa9&quot;&gt; https://medium.com/@updatedennismwangi/we-built-the-operating-system-for-african-business-and-it-goes-all-the-way-down-to-the-kernel-2ad9b2871aa9   由   提交/u/updatedennis   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r9p42k/we_replaced_aws_mikrotik_and_10_saas_tools_with/</guid>
-      <pubDate>Fri, 20 Feb 2026 07:40:28 GMT</pubDate>
     </item>
     <item>
       <title>没有技能。没有味道。</title>
@@ -69,13 +62,6 @@
       <pubDate>Fri, 20 Feb 2026 04:15:35 GMT</pubDate>
     </item>
     <item>
-      <title>代理编码的准备就绪</title>
-      <link>https://www.reddit.com/r/programming/comments/1r9jzu4/mise_en_place_for_agentic_coding/</link>
-      <description><![CDATA[ 由   提交/u/benlloydpearson   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r9jzu4/mise_en_place_for_agentic_coding/</guid>
-      <pubDate>Fri, 20 Feb 2026 03:06:24 GMT</pubDate>
-    </item>
-    <item>
       <title>开源软件项目就是品牌</title>
       <link>https://www.reddit.com/r/programming/comments/1r9ipv7/open_source_software_projects_are_brands/</link>
       <description><![CDATA[ 由   提交/u/mttd  [链接] [评论]]]></description>
@@ -109,6 +95,20 @@
       <description><![CDATA[ 由   提交/u/skwee357  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r97is7/farewell_rust/</guid>
       <pubDate>Thu, 19 Feb 2026 18:43:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Timsort 算法的工作原理</title>
+      <link>https://www.reddit.com/r/programming/comments/1r94qe7/how_timsort_algorithm_works/</link>
+      <description><![CDATA[ 由   提交/u/sdxyz42   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r94qe7/how_timsort_algorithm_works/</guid>
+      <pubDate>Thu, 19 Feb 2026 17:03:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>大多数开发人员不构建新事物</title>
+      <link>https://www.reddit.com/r/programming/comments/1r94m2g/most_developers_dont_build_new_things/</link>
+      <description><![CDATA[我在注意到有多少框架讨论集中在新工作后写了这篇文章。在实践中，我看到的大多数团队都在 10 或 12 年历史的系统中，在真正的约束下不断发展它们。 这篇文章是关于软件的“第二幕”。发射后。经过早期的生长。当可靠性和纪律比新颖性更重要时。 好奇这里的其他人如何看待这个问题。   由   提交 /u/robbyrussell   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r94m2g/most_developers_dont_build_new_things/</guid>
+      <pubDate>Thu, 19 Feb 2026 16:59:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
