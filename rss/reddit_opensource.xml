@@ -4,20 +4,20 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 20 Feb 2026 12:49:13 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 15:35:54 GMT</lastBuildDate>
     <item>
-      <title>GitHub 正在考虑完全取消拉取请求，而不仅仅是……构建更好的贡献者工具。这是他们实际应该做的。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1r9qx2i/github_is_considering_killing_pull_requests/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1r9qx2i/github_is_considering_killing_pull_requests/</guid>
-      <pubDate>Fri, 20 Feb 2026 09:32:46 GMT</pubDate>
+      <title>我厌倦了在庞大的 Excel 工作表中管理我的求职，因此我构建了一个自托管 CI/CD 管道来申请（工作操作）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r9xywq/i_got_sick_of_managing_my_job_hunt_in_a_massive/</link>
+      <description><![CDATA[       由   提交/u/DaKheera47  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r9xywq/i_got_sick_of_managing_my_job_hunt_in_a_massive/</guid>
+      <pubDate>Fri, 20 Feb 2026 15:14:01 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了 Agora——Microsoft Teams 的自托管开源替代品</title>
-      <link>https://www.reddit.com/r/opensource/comments/1r9qbj5/i_built_agora_a_selfhosted_opensource_alternative/</link>
-      <description><![CDATA[嘿 r/opensource ， 我一直在开发 Agora，这是一个自托管协作平台，旨在作为 Microsoft Teams 的开源替代方案。它进展顺利，所以我想与您分享。 什么是 Agora？ 一个在您自己的服务器上运行的一体化通信平台 - 完全由您控制，不依赖云。 功能 聊天和聊天消息传递  通过 WebSocket 进行实时聊天（1:1、群组、团队和会议渠道） 消息反应、编辑、删除和线程（回复） u/mentions&quot;&gt;u/mentions 以及通知 链接预览（开放图元数据） 文件上传最多 100 MB 通过“新消息”跟踪未读内容diver 自定义通知声音（上传您自己的）  视频会议  通过 Janus Gateway 进行基于 WebRTC 的视频和音频通话 多用户会议 日历活动的自动会议频道 外部参与者的访客访问权限（无需帐户）  团队&amp;组织  创建具有角色（成员、管理员）的团队 具有自动创建的“常规”频道的团队频道频道 频道级文件管理 基于令牌访问的邀请链接  日历  内置日历，包含活动创建和邀请 Google 日历同步（OAuth2，双向） CalDAV 支持（Nextcloud、Baikal、 Radicale） Outlook/Exchange 集成（本地） 电子邮件邀请中的 ICS 附件 RSVP（接受/拒绝）  活动源  中央源显示跨渠道的所有活动 每个渠道和全局的未读计数器 过滤未读事件仅  企业功能  LDAP / Active Directory 身份验证 具有用户管理和统计功能的管理面板 基于 JWT 的身份验证 通过 Nginx 反向代理的 HTTPS  桌面客户端  Windows（本机 .NET/WPF 应用程序） Linux（原生 GTK3 应用）  技术堆栈  后端： Python / FastAPI（完全异步） 前端：带有 Angular Material 的 Angular 17 数据库： PostgreSQL + SQLite（每通道消息存储以提高性能） 缓存： Redis 视频： Janus WebRTC 网关 部署： Docker Compose – 一个命令即可启动  入门 git clone https://github.com/imoes/agora cd agora docker compose up -d  就是这样。 Nginx、PostgreSQL、Redis、后端、前端和 Janus 都会自动启动。 为什么要选择另一个 Teams？  自托管 - 您的数据保留在您的服务器上 无供应商锁定 - 开源，无需许可证 轻量级 - 没有电子怪物，原生桌面客户端 一体化 – 单一平台中的聊天、视频、日历、文件 LDAP 就绪 – 适合现有的企业基础架构  欢迎提供反馈、功能请求和贡献！你怎么认为？现有替代方案中缺少哪些功能？   由   提交 /u/Typical-Individual82   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1r9qbj5/i_built_agora_a_selfhosted_opensource_alternative/</guid>
-      <pubDate>Fri, 20 Feb 2026 08:56:43 GMT</pubDate>
+      <title>我哥哥打造了一个很酷的游戏引擎</title>
+      <link>https://www.reddit.com/r/opensource/comments/1r9uyzg/my_brother_built_a_cool_game_engine/</link>
+      <description><![CDATA[所以我的兄弟构建了这个非常酷的引擎，只是想与大家分享。我不太懂技术，所以如果您有任何总体技术问题，请在 GitHub 上询问他是否可以  https://github.com/sinisterMage/Open-Reality   由   提交/u/ineedtocry05  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1r9uyzg/my_brother_built_a_cool_game_engine/</guid>
+      <pubDate>Fri, 20 Feb 2026 13:11:21 GMT</pubDate>
     </item>
     <item>
       <title>我们构建了唯一的数据网格，让您永远不必使用“useEffect”或再次遇到同步问题。隆重推出 LyteNyte 网格 2.0。</title>
@@ -57,7 +57,7 @@
     <item>
       <title>我构建了一个免费的桌面应用程序来安排推文，而不使用 X API</title>
       <link>https://www.reddit.com/r/opensource/comments/1r91va3/i_built_a_free_desktop_app_to_schedule_tweets/</link>
-      <description><![CDATA[我一直在开发我的第一个开源桌面应用程序：X 帖子管理。 它是一个直接从计算机创建、管理和安排 X (Twitter) 帖子的工具，无需使用官方 API。 为什么？因为 X API 已经变得非常昂贵，并且对于小型创作者和独立开发者来说难以访问。因此，我构建了一个使用浏览器自动化的本地解决方案。 主要功能： - 创建和发布带有文本和图像的帖子 - 提前安排帖子 - 草稿管理 - 日历视图 - 帖子历史记录 - 仅本地存储（无外部服务器） 一切都在您的计算机上运行。没有 API 密钥，没有订阅。 我很想得到开发者和早期用户的反馈！   由   提交/u/Haaperboii  [链接] [评论]]]></description>
+      <description><![CDATA[我一直在开发我的第一个开源桌面应用程序：X 帖子管理。 它是一个直接从计算机创建、管理和安排 X (Twitter) 帖子的工具，无需使用官方 API。 为什么？因为 X API 已经变得非常昂贵，并且对于小型创作者和独立开发者来说难以访问。因此，我构建了一个使用浏览器自动化的本地解决方案。 主要功能： - 创建和发布带有文本和图像的帖子 - 提前安排帖子 - 草稿管理 - 日历视图 - 帖子历史记录 - 仅本地存储（无外部服务器） 一切都在您的计算机上运行。没有 API 密钥，没有订阅。 我很想得到开发者和早期用户的反馈！   由   提交 /u/Haaperboii   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1r91va3/i_built_a_free_desktop_app_to_schedule_tweets/</guid>
       <pubDate>Thu, 19 Feb 2026 15:17:25 GMT</pubDate>
     </item>

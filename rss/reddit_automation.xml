@@ -4,9 +4,37 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Fri, 20 Feb 2026 12:47:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 15:33:40 GMT</lastBuildDate>
     <item>
-      <title>在 Node.js 中构建 Google 地图 + AI 工作流程，以识别具有特定差距的本地企业 — 架构 + 课程</title>
+      <title>有时删除自动化可以提高性能</title>
+      <link>https://www.reddit.com/r/automation/comments/1r9y3k5/sometimes_deleting_automation_improves_performance/</link>
+      <description><![CDATA[违反直觉，但却是事实。   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r9y3k5/sometimes_deleting_automation_improves_performance/</guid>
+      <pubDate>Fri, 20 Feb 2026 15:19:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了在庞大的 Excel 工作表中管理我的求职，因此我构建了一个自托管 CI/CD 管道来申请（工作操作）</title>
+      <link>https://www.reddit.com/r/automation/comments/1r9xpx0/i_got_sick_of_managing_my_job_hunt_in_a_massive/</link>
+      <description><![CDATA[       由   提交/u/DaKheera47  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r9xpx0/i_got_sick_of_managing_my_job_hunt_in_a_massive/</guid>
+      <pubDate>Fri, 20 Feb 2026 15:04:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动化时停止购买代理。创建您自己的</title>
+      <link>https://www.reddit.com/r/automation/comments/1r9wgu7/stop_buying_proxies_when_automating_create_your/</link>
+      <description><![CDATA[ 由   提交 /u/invictusro   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r9wgu7/stop_buying_proxies_when_automating_create_your/</guid>
+      <pubDate>Fri, 20 Feb 2026 14:14:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个免费工具来自动翻译视频并迭代 YouTube 缩略图/元数据</title>
+      <link>https://www.reddit.com/r/automation/comments/1r9wegn/i_built_a_free_tool_to_automate_video_translation/</link>
+      <description><![CDATA[      大家好， 我花了太多时间手动为我的视频创建元数据，因此我更新了我的开源项目 (Openshorts) 以在一个地方处理它。 主要添加的是一个用户界面，您可以在其中生成元数据缩略图、标题和说明。它不是盲目地导出，而是让您在完成之前进行迭代、比较选项并选择您最喜欢的组合。 我还添加了一个快速功能，可以将剪辑自动翻译成西班牙语。 我构建此功能只是为了加快我自己的工作流程，但我很想听听你们如何处理缩略图/元数据流程，以及您对此方法是否有任何反馈！   由   提交 /u/mutonbini   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1r9wegn/i_built_a_free_tool_to_automate_video_translation/</guid>
+      <pubDate>Fri, 20 Feb 2026 14:12:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Node.js 中构建 Google 地图 + AI 工作流程，以识别具有特定差距的本地企业 - 架构 + 课程</title>
       <link>https://www.reddit.com/r/automation/comments/1r9rub3/built_a_google_maps_ai_workflow_in_nodejs_to/</link>
       <description><![CDATA[手动在 Google 地图上搜索不同城市的本地商家、检查其在线状态并整理这些数据，这些工作重复且耗时。 我构建的内容 Node.js + TypeScript 工作流程：  接受城市 + 商家类别列表 使用 Google 地方信息提取商家数据API 根据条件（评级阈值、缺失网站、在线状态不佳等）进行过滤 将所有内容构建到 Google 表格中 使用 LLM 生成上下文草稿消息（不是自动发送 - 只是生成）  技术堆栈  Node.js + TypeScript Google Places API Google Sheets API 用于消息起草的 Gemini API 基本重复数据删除逻辑，以避免重复输入  架构流程（高级）  输入配置（城市 + 利基市场） 获取地点结果 规范化 + 验证字段 应用过滤器 存储结构化数据数据 为每个条目生成上下文外展草稿  挑战  处理 API 速率限制 清理不一致的业务元数据 避免跨多个城市运行重复条目 保持提示输出结构化且可用  我学到了什么  大部分时间都浪费在数据清理上，而不是数据获取 提示结构比模型选择更重要 需要尽早设计速率限制处理    由   提交/u/MehtaNaSehta   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r9rub3/built_a_google_maps_ai_workflow_in_nodejs_to/</guid>
@@ -76,39 +104,11 @@
       <pubDate>Thu, 19 Feb 2026 20:14:13 GMT</pubDate>
     </item>
     <item>
-      <title>有人知道这个频道如何自动化卡通剧集吗？尝试启动类似的事情</title>
-      <link>https://www.reddit.com/r/automation/comments/1r99xz7/anyone_know_how_this_channel_does_automates/</link>
-      <description><![CDATA[      由   提交/u/soggy_bert   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r99xz7/anyone_know_how_this_channel_does_automates/</guid>
-      <pubDate>Thu, 19 Feb 2026 20:11:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>easyclaw - 零配置 openclaw 包装器（免费的 Mac 应用程序）</title>
-      <link>https://www.reddit.com/r/automation/comments/1r99l6v/easyclaw_zeroconfig_openclaw_wrapper_free_mac_app/</link>
-      <description><![CDATA[openclaw 功能强大，但设置是一场噩梦 easyclaw 解决了这个问题 零配置，免费的 mac 应用 没有终端，没有 docker 认为这可能有帮助   由   提交 /u/YoungBoyMemester   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r99l6v/easyclaw_zeroconfig_openclaw_wrapper_free_mac_app/</guid>
-      <pubDate>Thu, 19 Feb 2026 19:58:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要自动化来填写 ICU 患者的日常表格</title>
-      <link>https://www.reddit.com/r/automation/comments/1r97ngd/need_automation_to_fill_daily_forms_for_icu/</link>
-      <description><![CDATA[您好！你能帮我自动化为我的 ICU 患者每天填写表格吗？在这些表格中，我每天必须更改一些详细信息，其余继续相同   由   提交/u/99tiba  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r97ngd/need_automation_to_fill_daily_forms_for_icu/</guid>
-      <pubDate>Thu, 19 Feb 2026 18:47:37 GMT</pubDate>
-    </item>
-    <item>
       <title>人工智能自动化真的对你有用吗？</title>
       <link>https://www.reddit.com/r/automation/comments/1r91xqh/has_ai_automation_actually_worked_for_you/</link>
       <description><![CDATA[我看到越来越多的人构建人工智能自动化和代理，但大多数讨论都处于相当高的水平。 我很想听听这里人们的真实经验：  你到底自动化了什么？ 是为了你自己的工作流程还是为了客户？ 你使用了哪些工具？ 它是否节省了时间、金钱或成本？努力还是根本不努力？  失败和胜利一样有用。没有促销，只有实践课程。   由   提交/u/Techenthusiast_07  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1r91xqh/has_ai_automation_actually_worked_for_you/</guid>
       <pubDate>Thu, 19 Feb 2026 15:20:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>LinkedIn 自动化的聊天机器人 + AI 头像工作流程</title>
-      <link>https://www.reddit.com/r/automation/comments/1r90z8g/chatbot_ai_headshot_workflow_for_linkedin/</link>
-      <description><![CDATA[构建自动化 LinkedIn 工作流程，将聊天机器人与 AI 头像相结合。使用 AI 头像生成器 Looktara（35 美元）从自拍照中创建专业头像，然后输入聊天机器人提示中以获取个性化 LinkedIn 内容。 聊天机器人提示：“从创始人的角度撰写有关 SaaS 增长的 LinkedIn 帖子。使用这个专业爆头[插入AI爆头]。目标关键词AI头像和专业头像。” 3分钟内生成帖子+视觉效果。每周在创始人帐户上安排 15 个帖子。 2 个月内粉丝数量从 3000 增加到 12000。对于企业客户来说，AI 头像看起来足够逼真，聊天机器人处理消息传递。 有人为个人品牌构建聊天机器人 + AI 头像工作流程吗？用于聊天机器人集成的最佳人工智能爆头生成器？ Looktara 非常适合通过目视检查的 LinkedIn 头像。   由   提交 /u/coupsscoups   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r90z8g/chatbot_ai_headshot_workflow_for_linkedin/</guid>
-      <pubDate>Thu, 19 Feb 2026 14:42:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
