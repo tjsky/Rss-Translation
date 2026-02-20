@@ -4,14 +4,7 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 19 Feb 2026 21:29:42 GMT</lastBuildDate>
-    <item>
-      <title>这些 Claude Code 技能将使您的运输速度提高 100 倍</title>
-      <link>https://www.reddit.com/r/programming/comments/1r9bvxt/these_claude_code_skills_will_100x_your_shipping/</link>
-      <description><![CDATA[人们一直问我实际使用哪些 Claude Code 插件和技能。 所以这是诚实的答案。 首先，去浏览市场。那里有很多东西。 Anthropic 的官方版本是明显的起点。我还会关注 EveryAI 和 Obra/Superpowers。我个人还没有使用过这些，但它们在我的雷达范围内。 也就是说，我依赖的大部分内容都不是来自市场。 我构建自己的。 我更喜欢直接从文档创建自己的技能、命令和子代理。如果我不明白某些东西在幕后是如何工作的，我就不相信自己以后能够对其进行调试。因此，我为我经常使用的不同代理设置构建了自定义 VS Code 片段。基本上我可以快速启动模板。 当我使用现有技能时，我很少“按原样”使用它们。我复制它们，调整它们，并使其适应我的工作流程。 一些对我来说非常有效的东西： 适用于您的堆栈的官方插件 如果您使用的技术有官方插件，请从那里开始。 我经常使用官方 Playwright 插件，因为我一直在使用 Playwright 进行测试。对于依赖自定义 CLI 或 MCP 设置的 Hono 和类似工具，我使用（和修改）技能来清楚地解释如何正确操作它们。 总结命令 在会话结束时，我运行自定义“总结”命令。 它迫使人工智能回顾整个聊天，识别错误，提取经验教训并定义规则，这样我们下次就不会重复相同的问题。随着时间的推移，这种情况会复合。系统实际上变得更加清晰。 测试波命令当我并行交付一堆东西时，我会触发一个“测试波”。 它会启动一个小型代理团队来审查构建的内容，通过 Playwright 或 API 调用进行测试，并决定我们实际需要什么样的测试。有时这就是端到端。有时只是单元测试。有时什么也没有。它非常善于发现差距。 我经常使用的其他插件和技能：  Context7 MCP + 用于提取最新文档的插件 Ralph Wiggum：非常适合调试或验证设计。我给它一个屏幕截图并定义“完成”是什么样子。如果匹配，我们就很好。 前端设计插件，特别是与自定义品牌指南技能配合使用 提交命令以强制执行正确的常规提交 用于结构化功能规划的功能开发 会话结束时的代码简化器，用于清理和重构 自定义代码风格审查器，根据我自己的编码规则检查所有内容 内置代码PR 审核  另外，小提醒：您可以直接询问 Claude Code。人们忘记了这一点。 对于人工智能工程和即时工程工作，我通常从上下文工程市场中选择我需要的东西。我还根据 Claude 的即时工程指南构建了一些自己的项目。 如果将所有这些与实验性的 Agent Teams 功能结合起来，事情很快就会变得有趣。你不再只是提示。您正在编排。 好奇其他人在使用什么。我应该尝试任何插件或自定义技能吗？   由   提交 /u/redditwithrobin   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r9bvxt/these_claude_code_skills_will_100x_your_shipping/</guid>
-      <pubDate>Thu, 19 Feb 2026 21:24:12 GMT</pubDate>
-    </item>
+    <lastBuildDate>Fri, 20 Feb 2026 01:46:30 GMT</lastBuildDate>
     <item>
       <title>在 Clojure 中重建 Biscuit</title>
       <link>https://www.reddit.com/r/programming/comments/1r9ag5z/reconstructing_biscuit_in_clojure/</link>
@@ -29,7 +22,7 @@
     <item>
       <title>Claude C 编译器：它揭示了软件的未来 - Chris Lattner</title>
       <link>https://www.reddit.com/r/programming/comments/1r99sn0/the_claude_c_compiler_what_it_reveals_about_the/</link>
-      <description><![CDATA[ 由   提交/u/mttd  [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交 /u/mttd   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r99sn0/the_claude_c_compiler_what_it_reveals_about_the/</guid>
       <pubDate>Thu, 19 Feb 2026 20:05:52 GMT</pubDate>
     </item>
@@ -39,13 +32,6 @@
       <description><![CDATA[ 由   提交/u/skwee357  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r97is7/farewell_rust/</guid>
       <pubDate>Thu, 19 Feb 2026 18:43:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>硅谷忽视的“智能农业”基础设施税</title>
-      <link>https://www.reddit.com/r/programming/comments/1r97b52/the_infrastructure_tax_of_smart_farming_that/</link>
-      <description><![CDATA[边缘设备经过加固，可应对极端天气、太阳能网关、在 4G 成为奢侈品的地区的网状网络 - 以及在泥泞的田野中更换电池、传感器校准和故障排除连接的乏味现实。 https://cybernews-node.blogspot.com/2026/02/ai-in-agriculture-optimization-another.html   由   提交/u/No_Fisherman1212   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1r97b52/the_infrastructure_tax_of_smart_farming_that/</guid>
-      <pubDate>Thu, 19 Feb 2026 18:35:22 GMT</pubDate>
     </item>
     <item>
       <title>Timsort 算法的工作原理</title>
@@ -109,6 +95,20 @@
       <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1r8ysub/learn_c_by_example_frances_buontempo_matt_godbolt/</guid>
       <pubDate>Thu, 19 Feb 2026 13:10:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>我跟踪了 3,177 个 API 调用，以查看 4 个 AI 编码工具在上下文窗口中放入了什么内容</title>
+      <link>https://www.reddit.com/r/programming/comments/1r8yh5h/i_traced_3177_api_calls_to_see_what_4_ai_coding/</link>
+      <description><![CDATA[ 由   提交/u/wouldaouldashoulda  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r8yh5h/i_traced_3177_api_calls_to_see_what_4_ai_coding/</guid>
+      <pubDate>Thu, 19 Feb 2026 12:55:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为一名经验丰富的程序员，为什么我只使用网站构建器</title>
+      <link>https://www.reddit.com/r/programming/comments/1r8vd3k/why_i_just_use_a_website_builder_as_an/</link>
+      <description><![CDATA[ 由   提交/u/derjanni   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1r8vd3k/why_i_just_use_a_website_builder_as_an/</guid>
+      <pubDate>Thu, 19 Feb 2026 10:04:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
