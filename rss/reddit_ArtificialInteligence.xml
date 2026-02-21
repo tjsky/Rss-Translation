@@ -4,20 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Sat, 21 Feb 2026 01:29:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 04:24:48 GMT</lastBuildDate>
     <item>
-      <title>制作一个用于照片抓取的人工智能代理 - 这有多难......？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1radjn9/making_an_ai_agent_for_photo_scraping_how_hard/</link>
-      <description><![CDATA[在喝啤酒的间隙，我正在考虑尝试制作一个 AI 代理，从 Linkedin 抓取个人资料头像，并将它们与各个 Tube 网站的 Amature 部分进行匹配。  这有多难？   由   提交 /u/MaxHappiness   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1radjn9/making_an_ai_agent_for_photo_scraping_how_hard/</guid>
-      <pubDate>Sat, 21 Feb 2026 01:11:35 GMT</pubDate>
+      <title>我用 Rust 构建了一个 LLM 网关，因为我厌倦了 API 失败</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ragl4u/i_built_an_llm_gateway_in_rust_because_i_was/</link>
+      <description><![CDATA[我在生产中不断遇到与 LLM 相同的问题： - OpenAI 宕机 → 我的应用程序崩溃了 - 我使用昂贵的模型来完成简单的任务 - 无法了解我的花费 - PII 泄漏到外部 API 因此我构建了 Sentinel - 一个开源网关，可以处理所有 它的作用： - 自动故障转移（OpenAI 关闭？切换到 Anthropic） - 成本跟踪（准确查看您的支出） - PII 编辑（在敏感数据离开网络之前将其删除） - 智能缓存（在重复查询时节省费用） - 与 OpenAI 兼容的 API（只需更改您的基本 URL） 技术： - 内置 Rust 以提高性能 - 亚毫秒级开销 - 支持 9 个 LLM 提供程序 - 用于日志记录的 SQLite，用于缓存的 DashMap GitHub：https://github.com/fbk2111/Sentinel 我正在寻找： - 对架构的反馈 - 错误报告（如果您尝试一下） - 对缺失内容的想法 为我自己构建这个，但认为其他人可能也有相同的痛点。   由   提交 /u/SchemeVivid4175   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ragl4u/i_built_an_llm_gateway_in_rust_because_i_was/</guid>
+      <pubDate>Sat, 21 Feb 2026 03:35:08 GMT</pubDate>
     </item>
     <item>
-      <title>又笨又慢的双子座</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1radita/dumb_and_slow_gemini/</link>
-      <description><![CDATA[豆宝秒给我答案！ Gemini等了很久还没有完成研究……等待...   由   提交/u/Ok-Relative-9426   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1radita/dumb_and_slow_gemini/</guid>
-      <pubDate>Sat, 21 Feb 2026 01:10:36 GMT</pubDate>
+      <title>为什么 Reddit 如此广泛地反对人工智能？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1raf4fr/why_is_reddit_so_broadly_antiai/</link>
+      <description><![CDATA[我简直不敢相信，在我最喜欢的技术/工程 subreddits 中，有多少针对人工智能的消极/阻力。 过去 3-5 个月的进展给我留下了深刻的印象。能力是疯狂的。我可以下班回家，看电视，然后像闲人一样处理待办事项。 但是，我发表的任何一篇文章，展示了一个由 Claude 编写了一半的 Python 项目，或者它如何对改进我的 Emacs/Bash 配置非常有帮助，都会遭到否决。我很惊讶我仍然看到人们只是将其简化为“随机鹦鹉”。 是出于恐惧吗？将注意力集中在一些过度营销上？我只是不明白。这显然不是基于现实，因为我在工作中或朋友中交谈过的大多数人都会谈论他们是如何使用它的。 附注：我知道我的回答已经歪曲了，将其发布在 a) Reddit 和 b) 人工智能论坛上   由   提交 /u/consumer_xxx_42   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1raf4fr/why_is_reddit_so_broadly_antiai/</guid>
+      <pubDate>Sat, 21 Feb 2026 02:24:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>制作了用于构建 RAG 知识库的对话界面 - 无需编码</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rady88/made_a_conversational_interface_for_building_rag/</link>
+      <description><![CDATA[RAG（检索增强生成）通常需要设置向量数据库、嵌入模型和分块管道。我构建了一项 Claude Code 技能，将其简化为对话：  安装技能 说“创建知识库并上传我的文件” 提出问题并获得基于文档的答案  它在后台使用 Denser Retriever API 来处理文档解析，语义索引和神经重新排序。该技能包含所有 13 个 API 端点，因此 Claude Code 可以根据您的自然语言请求构建正确的curl 命令。 对于需要文档搜索（人力资源政策、法律合同、研究论文、支持文档）而无需专门的工程工作的团队来说非常实用。 教程：https://retriever.denser.ai/blog/build-rag-knowledge-base-claude-code   由   提交 /u/True-Snow-1283   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rady88/made_a_conversational_interface_for_building_rag/</guid>
+      <pubDate>Sat, 21 Feb 2026 01:30:07 GMT</pubDate>
     </item>
     <item>
       <title>行业应该先于政府监管人工智能内容</title>
@@ -48,16 +55,9 @@
       <pubDate>Fri, 20 Feb 2026 19:25:07 GMT</pubDate>
     </item>
     <item>
-      <title>正在努力寻找具有真正澳大利亚数据驻留权的人工智能平台，有什么建议吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ra4l7c/struggling_to_find_an_ai_platform_with_true/</link>
-      <description><![CDATA[寻找合法的澳大利亚数据驻留人工智能解决方案比我预想的要困难。许多平台都宣传隐私，但当你深入研究它们的条款时，数据通常最终会被转移到海外进行处理或备份。如果您正在处理敏感的客户信息，这将是一个大问题。  我最近一直在探索 ExpertEase AI，因为他们特别专注于澳大利亚数据驻留和本地托管。它的设计似乎考虑到了合规性和主权，而不是事后修改政策。  在我完全投入之前，我很想听到现实世界的反馈。这里有人测试过他们的设置或将其与其他澳大利亚人工智能提供商进行比较吗？    由   提交 /u/Whole_Student_5277   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ra4l7c/struggling_to_find_an_ai_platform_with_true/</guid>
-      <pubDate>Fri, 20 Feb 2026 19:14:56 GMT</pubDate>
-    </item>
-    <item>
       <title>如果人工智能真他妈的那么棒的话……</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ra3qq3/if_ai_is_so_goddamned_awesome/</link>
-      <description><![CDATA[…如此令人难以置信的变革以至于你不再需要工程师了，那么为什么高管们会强迫工程师弄清楚在哪里应用它呢？这些领导者难道不应该自己将自己的愿景编码为利润吗？ 傻瓜。   由   提交/u/Complex_Ingenuity_26  [链接] [评论]]]></description>
+      <description><![CDATA[...如此令人难以置信的变革，以至于您不再需要工程师了，那么为什么高管们会迫使工程师弄清楚在哪里应用它呢？这些领导者难道不应该自己将自己的愿景编码为利润吗？ 傻瓜。   由   提交/u/Complex_Ingenuity_26  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ra3qq3/if_ai_is_so_goddamned_awesome/</guid>
       <pubDate>Fri, 20 Feb 2026 18:44:08 GMT</pubDate>
     </item>
