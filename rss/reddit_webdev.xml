@@ -4,7 +4,84 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 21 Feb 2026 12:39:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 15:21:35 GMT</lastBuildDate>
+    <item>
+      <title>这会是下一个 Postman 替代品吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ras678/will_this_be_the_next_postman_alternative/</link>
+      <description><![CDATA[这是我在 5-9 点构建的一个项目，旨在探索新的技术技能。我强迫自己独自面对每一个挑战 - 老实说，这对我的职业生涯有很大帮助。 通过这个项目，我有很多第一次：  调试一些节点模块问题 学习 npm ls 和其他 npm 命令（不仅仅是 npm install 😅） 设置带有简单防火墙的 VPS。 安装 Ubuntu 以在其上测试应用程序Linux。 使用 SSL 代码签名和 GPG 为应用程序签名 设置 Cloudflare 探索 AI 编码助手  基本功能（如果您想探索）：  API 客户端：OpenAPI 导入 数据库客户端：简单的数据架构信息和查询 数据检查器：多个 JSONPath 查询、数据预览（图像、 PDF) 本地工作区：集合和环境 - 充当 API 客户端和数据库客户端之间的桥梁  以下是技术堆栈：  Nuxt 4（单独的基础、Web、tauri 层） Tauri 用于许可证服务的 Quarkus/Java 21 用于 Web 代理 + 随机数请求的 OpenResty Hetzner VPS Vercel 用于登陆页面 以及大量其他开源项目：monaco-editor、curl-converter、jsonc-parser、jsonpath-js、jsonpath-plus、xml-formatter、pluralize、splitJS、vuedraggable 以及来自 Nuxt 生态系统（UI v4、Pinia）的出色模块 LemonSqueezy 用于支付  目前没有用户（2 个试用用户，一个来自我的 Windows，一个来自我的 Ubuntu，哈哈） 该应用程序仍在开发中，我正在积极测试和寻找错误。 如果您能尝试一下并分享您的反馈，我将非常感激。我很乐意回答任何问题。 - 主页：https://www.postpilot.dev/- Github（用于发布）：https://github.com/postpilot-dev/postpilot-dev 我的英语不太母语。感谢 webdevs 的阅读！   由   提交 /u/lactranandev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ras678/will_this_be_the_next_postman_alternative/</guid>
+      <pubDate>Sat, 21 Feb 2026 14:15:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>您对 WASM 支持的 Spin 框架有何看法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rarsj8/what_are_your_thoughts_about_wasm_powered_spin/</link>
+      <description><![CDATA[我正在阅读有关 WASM 的内容，并在 docker 网站中找到了这篇博客文章，其中引用了 Docker 创建者的关于 WASM 的推文主题，还提到了 Spin Framework，它由 WASM 提供支持。 您曾经使用过这个框架吗？我很好奇你的想法。   由   提交/u/gece_yarisi  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rarsj8/what_are_your_thoughts_about_wasm_powered_spin/</guid>
+      <pubDate>Sat, 21 Feb 2026 13:59:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>您在工作中使用什么作为本地开发环境？有标准吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rarknr/what_are_you_using_for_local_dev_environments_at/</link>
+      <description><![CDATA[根据我在几家公司和 1 个机构的经验，我从未真正见过本地主机开发的“标准”方法。 一些开发人员在 Windows 上使用旧的 XAMPP 或 Laragon。 有些开发人员在 macOS 上使用 MAMP、Herd 等。 有些人通过终端和配置文件手动设置所有内容。 其他人使用容器。 Docker 感觉是最接近全行业解决方案的东西，但我仍然遇到很多开发人员除非绝对必要，否则会避免使用它。 对于那些不使用容器的人，您在使用什么以及为什么？ 更广泛地说： • 在本地开发设置中什么对您来说是必不可少的？ • 当前的开发设置中最让您烦恼的是什么？ • 您会拒绝放弃什么？ Docker 的人们，你们的整个团队都在使用它吗？有人不愿意使用它吗？ 真的很好奇人们在 2026 年会如何处理这个问题。   由   提交/u/Mike_L_Taylor   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rarknr/what_are_you_using_for_local_dev_environments_at/</guid>
+      <pubDate>Sat, 21 Feb 2026 13:49:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>亲爱的人工智能，不错的尝试。现在我们来谈谈生产。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rarfw6/nice_try_dear_ai_now_lets_talk_about_production/</link>
+      <description><![CDATA[      我提倡关于人工智能使用的一些事情。在这篇文章中，我基本上是通过我必须完成的实际任务来阐述我的观点。   由   提交/u/krasimirtsonev   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rarfw6/nice_try_dear_ai_now_lets_talk_about_production/</guid>
+      <pubDate>Sat, 21 Feb 2026 13:43:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>我花了一个周末建立了一个以神奇宝贝为主题的日常游戏网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rar85r/i_built_a_pokémonthemed_daily_games_site_over_a/</link>
+      <description><![CDATA[      大家好， 我在周末建立了一个以神奇宝贝为主题的小型日常游戏网站。 https://www.playpoke.games/ 目前有两款游戏，但我还有更多的想法。两者每天都有新的谜题、统计数据和连胜追踪，而且你也可以玩前一天的谜题。 这主要是作为我自己的一个实验，以便第一次正确地进行人工智能辅助开发。我更关注前端/UI，因此当我达到极限时，我通常必须向其他开发人员寻求帮助，所以我想看看 ChatGPT 是否可以填补这个角色。 这是一次有趣的体验，能够从人工智能中汲取想法真是太好了。我仍然不相信 AI 可以像人类一样完成 UX/UI，所以我自己完成了所有这些，但对于游戏逻辑和 JS 来说，它做得很好。一切都是在 Laravel + Blade + vanilla JS 中完成的，因为这就是我们在工作中使用的东西。 当前的两款游戏是： 那只神奇宝贝是谁？ 你有 8 次猜测来猜出一只神奇宝贝。每个猜测都揭示了类型、基因、进化阶段、dex # 和重量的线索。  4 次猜测后，您可以获得提示，该提示将显示 Pokémon 的类型、基因或描述（取决于您已经猜到的内容）。 Pokémon Wordle 怀疑这个需要解释 - 它与 Pokémon 的 Wordle 相同。 默认情况下，您可以猜测任何内容，但有一个困难模式这些设置只会让您猜测有效的神奇宝贝名称。 非常希望收到任何反馈，因此如果您想查看任何功能或游戏，或者发现任何问题，请告诉我。我知道使用神奇宝贝的图片看起来会更好，但我只是不知道是否可以（我不想被起诉哈哈）。 谢谢   由   提交/u/iammag   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rar85r/i_built_a_pokémonthemed_daily_games_site_over_a/</guid>
+      <pubDate>Sat, 21 Feb 2026 13:33:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenVideo - 适用于 Web 的开源视频 SDK</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rar7nt/openvideo_open_source_video_sdk_for_web/</link>
+      <description><![CDATA[由 WebCodecs 和 WebGL 提供支持的基于浏览器的高性能渲染。支持动画、过渡、效果、自定义着色器。框架不可知。   由   提交/u/snapmotion  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rar7nt/openvideo_open_source_video_sdk_for_web/</guid>
+      <pubDate>Sat, 21 Feb 2026 13:32:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>我意识到，如果接受审核，90% 的 Next.js“Cookie 横幅”在法律上毫无用处。因此，我构建了一个临时修复程序来实际记录同意。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rar608/i_realized_90_of_nextjs_cookie_banners_are/</link>
+      <description><![CDATA[大家好， 我最近一直在构建一个高度人工智能驱动的 SaaS，这意味着我必须与隐私律师坐下来，以确保我们在欧盟 (GDPR) 和加拿大（第 25/PIPEDA 法）方面合规。 他们告诉了我一些完全毁了我这一周的事情：如果您的 cookie 横幅或 ToS 接受刚刚设置localStorage.setItem(&#39;consent&#39;, true) 或基本的客户端 cookie，您将在法律上暴露。 根据严格的 GDPR 和第 25 条规则，如果用户（或审计员）要求提供同意证明，您需要能够显示谁同意、他们何时同意，以及他们在该毫秒同意的隐私政策或 ToS 的具体版本。 UI 切换是不够的；您需要一个不可变的日志。 作为开发人员，将其构建到现代 Next.js 堆栈中是一场噩梦。您必须：  对您的法律文件进行版本控制。 构建一个安全的数据库来存储同意日志（IP、时间戳、文档版本）。 编写逻辑，以便在您的律师更新 ToS 时自动重新提示用户。 集成 AI 透明度通知（这已成为强制性要求）。  我厌倦了尝试将其粘在一起，所以我构建了 ConsentProof。 它旨在弥合开发人员想要构建的内容（快速、现代的 UI）与律师要求的内容（严密的合规日志）之间的差距。 它的作用：  插入 React/Next.js 组件：您获得 UI，但它连接到实际存储同意的加密证明的后端。 文档版本控制：如果您更新您的文档隐私政策更新至 v1.2，ConsentProof 知道哪些用户仍在使用 v1.1，并自动提示他们重新接受。 审核就绪导出：如果用户提交 GDPR 主题访问请求，您可以一键导出其准确的同意历史记录。 AI 透明度就绪：使用 LLM 并需要声明数据处理规则的应用程序的内置流程。  我目前正在推出此功能并希望引起这个社区的关注。 你们目前是否构建自己的后端日志记录以获得同意，或者只是使用 UI 包装器并希望自己不会受到审核？我很想听听其他 Next.js/React 开发人员现在如何处理这个问题，以及像 ConsentProof 这样的工具是否可以解决您的法律难题。 让我知道您的想法！ 链接：https://consentproof.io   由   提交/u/Proof_Marionberry_24   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rar608/i_realized_90_of_nextjs_cookie_banners_are/</guid>
+      <pubDate>Sat, 21 Feb 2026 13:30:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Showoff Saturday：我构建了一个托管的 Web 捕获 API，其中包含屏幕截图、PDF、视频录制和 MCP 服务器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raqra8/showoff_saturday_i_built_a_hosted_web_capture_api/</link>
+      <description><![CDATA[炫耀周六帖子。这个项目在过去 8 个月内构建，本周发布。 PageBolt 是一个托管网络捕获 API。一个端点、一个 API 密钥、七个工具：  视频录制（带有光标效果和浏览器镶边的 MP4/WebM/GIF） 音频指南（与您的视频步骤同步的 AI 语音旁白，10 多种语音） 屏幕截图（25 多种设备预设、广告拦截、Cookie 横幅删除、深色模式、自定义 CSS） 来自 URL 或原始 HTML 的 PDF OG 社交图像（3 个模板 + 更高计划中的自定义 HTML） 多步骤浏览器序列（每一步导航、单击、填充、屏幕截图） 页面检查（返回每个交互元素的 CSS 选择器）  视频 + 音频指南组合是我个人最兴奋的部分。您可以定义浏览器步骤，PageBolt 会将会话录制为 MP4，并使用旁白语音朗读每个步骤的注释。我从 CI 运行它，根据拉取请求自动发布解说演示视频。审阅者无需拉动分支即可看到更改的内容。 这是一个最小的屏幕截图调用： curl -X POST https://api.pagebolt.dev/v1/screenshot \ -H &quot;Authorization: Bearer YOUR_API_KEY&quot; \ -H“内容类型：application/json” \ -d &#39;{ “url”: “https://your-site.com”, “viewportDevice”: “iphone_14_pro”, “blockBanners”: true, “blockAds”: true, “format”: “webp” }&#39;  还有一个 MCP 服务器。适用于 Claude Desktop、Cursor 和 Windsurf。您的 AI 助手可以通过工具调用本地调用视频或屏幕截图端点，无需任何自定义代码。 免费套餐为 100 个请求/月，无需信用卡。付费起价为 29 美元/月。 如果您一直在维护自托管的 Puppeteer 设置，或者浪费时间录制演示，那么感觉就不再这样做了。 pagebolt.dev 很高兴回答有关内部工作原理的问题。   由   提交 /u/Calm_Tax_1192   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raqra8/showoff_saturday_i_built_a_hosted_web_capture_api/</guid>
+      <pubDate>Sat, 21 Feb 2026 13:10:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hister：网络历史记录的索引器和搜索引擎</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raqq8e/hister_indexer_search_engine_for_your_web_history/</link>
+      <description><![CDATA[      我正在开发一个名为 Hister 的自托管搜索服务，其目标是减少对在线搜索引擎的依赖。 Hister 基本上是一个网站全文索引器，它保存浏览器呈现的所有访问过的页面。它提供了灵活的网络（和终端）搜索界面和搜索界面。查询语言轻松探索以前访问过的内容或快速返回到传统搜索引擎。 以下是背景/动机/开始的一些摘要：https://hister.org/posts/how-i-cut-my-google-search-dependence-in-half/ 项目站点：https://github.com/asciimoo/hister 网站：https://hister.org/ 只读演示：https://demo.hister.org/   由   提交/u/asciimoo  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raqq8e/hister_indexer_search_engine_for_your_web_history/</guid>
+      <pubDate>Sat, 21 Feb 2026 13:09:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rhumdle ，一款使用指南针在城市之间导航的游戏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raqgil/rhumdle_a_game_where_you_use_a_compass_to/</link>
+      <description><![CDATA[      我非常喜欢基于方向的游戏，例如都柏林到马斯喀特的方向和距离是多少，诸如此类的事情。所以我做了一个关于它的游戏。我怀疑这是一个相当小众的兴趣，但很好奇你是否喜欢它。我用 Lovable 创建了它。    由   提交 /u/LZRBRD   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raqgil/rhumdle_a_game_where_you_use_a_compass_to/</guid>
+      <pubDate>Sat, 21 Feb 2026 12:55:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>最快的登机方式 - 互动动画</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raq9iv/the_fastest_way_to_board_an_airplane_interactive/</link>
+      <description><![CDATA[      链接 使用 p5.js 的交互式动画 更多交互式动画   由   提交/u/lungi_bass  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raq9iv/the_fastest_way_to_board_an_airplane_interactive/</guid>
+      <pubDate>Sat, 21 Feb 2026 12:45:43 GMT</pubDate>
+    </item>
     <item>
       <title>Centia.io</title>
       <link>https://www.reddit.com/r/webdev/comments/1raprsy/centiaio/</link>
@@ -32,83 +109,6 @@
       <description><![CDATA[我们已经为此工作了一段时间。它叫做 Bazenda，基本上可以帮助您在一个地方找到不同美国品牌的时尚产品。 如果您看到喜欢的东西，您可以通过上传照片进行搜索，或者只需用自己的话描述您要寻找的东西，例如“早午餐的休闲装”，它就会找到匹配的产品。 它还会为您跟踪价格，并在商品掉落时发送警报。 需要澄清的是，我们自己不销售任何东西。当您找到喜欢的东西时，它会直接带您到该品牌的网站进行购买。 仍在努力，但想分享。希望得到任何反馈   由   提交/u/dealhunterSam   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rapf89/i_built_a_fashion_discovery_app_for_finding/</guid>
       <pubDate>Sat, 21 Feb 2026 12:00:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个与框架无关的聊天 Web 组件</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rapdqj/built_a_frameworkagnostic_chat_web_components/</link>
-      <description><![CDATA[      大家好， 我刚刚发布了聊天 Web 组件的第一个稳定版本，很想听听您的反馈。 当我在工作中与另一个聊天 UI 库一起工作时，我觉得它可以改进并且不再积极维护，这个动机就开始了。因此，我决定在尝试 Lit 的同时尝试自己构建一个，它专门适合 Web 组件。 一些功能是： - 与框架无关（适用于任何框架，React、Vue、Angular、Svelte 等） - 旨在轻松集成到 shadcn 设计系统中 如果您对 Web 组件感兴趣或需要将聊天 UI 集成到您的项目中，如果您能看一下，我将非常感激。 仓库：https://github.com/spider-hand/advanced-chat-kai 演示：https://advanced-chat-kai-demo.pages.dev   由   提交 /u/itsspiderhand   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rapdqj/built_a_frameworkagnostic_chat_web_components/</guid>
-      <pubDate>Sat, 21 Feb 2026 11:57:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了具有同步进度的有声读物流式 PWA</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rap5w3/built_an_audiobook_streaming_pwa_with_synced/</link>
-      <description><![CDATA[      我最近构建了Tyrion，一个用于流式传输有声读物的网络平台。主要目标是打造快速、干净的体验，在桌面和移动设备上运行良好，无需常见的网络播放器摩擦。 核心功能：  跨设备同步进度 睡眠计时器和可变播放速度 PWA 支持（可安装在 Android 和桌面上） 用户库和收藏 评论和评论系统  来自从开发者的角度来看，重点是：  快速的玩家启动 可靠的进度持久性 流畅的移动用户体验 PWA 可安装性和响应能力  平台上的所有书籍都是公共领域或经过适当许可。 我希望获得技术反馈，尤其是有关性能、UX 和玩家体验中感觉不舒服的任何方面的反馈。 直播这里：https://tyrion.lol   由   提交/u/WraientDaemon  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rap5w3/built_an_audiobook_streaming_pwa_with_synced/</guid>
-      <pubDate>Sat, 21 Feb 2026 11:45:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>在生产环境中处理无头 Chrome — 您的浏览器回收方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raoyew/dealing_with_headless_chrome_in_production_whats/</link>
-      <description><![CDATA[大规模运行 Playwright，这是一段旅程。我们每月处理大约 4,000 个屏幕截图/PDF 请求，最令人头疼的是 Chrome 内存管理。 我们从惨痛的教训中学到了什么： • 如果不进行回收，Chrome 进程就会默默地累积。醒来时有 64 个僵尸进程占用 5GB RAM • 浏览器实例需要一个 max-age（我们使用 30 分钟） - 长期存在的浏览器会慢慢泄漏内存 • 紧急浏览器实例（池已满时创建）必须在使用后进行跟踪和关闭，否则它们将成为孤儿 • 如果您不处理它们，Cookie 同意弹出窗口会阻止约 30% 的捕获 • Bing 搜索页面是最糟糕的 - networkidle 永远不会可靠地触发 我当前的当前设置：2 个浏览器池，每个浏览器最多 30 个使用，每 5 分钟自动清理一次，对于 WebP/AVIF 转换非常有利，因为 Playwright 本身只处理 PNG/JPEG。从 5GB 下降到 1GB 以下。 还有人在生产环境中运行无头浏览器吗？您的回收策略是什么？特别好奇人们每天进行超过 10K 次捕获。   由   提交/u/Sleywil   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raoyew/dealing_with_headless_chrome_in_production_whats/</guid>
-      <pubDate>Sat, 21 Feb 2026 11:32:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>[iOS/Android/Web] 适用于 iOS、Android 和 Web 的注重隐私的 Omegle 替代方案。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raoqpi/iosandroidweb_a_privacyfocused_omegle_alternative/</link>
-      <description><![CDATA[    https://preview.redd.it/qoh1pyigztkg1.png?width=1320&amp;format=png&amp;auto=webp&amp;s=d265a679f99ef25e63e3ba47a5f47362041d9a51 我已经独立开发 Bantr.live 大约一年了，作为 Omegle 的更私密、跨平台的替代品（支持 iOS、Android 和 Web）。该应用程序功能齐全，可进行文本、视频和图像共享，但我仍处于扩大用户群的鬼城阶段。这是隐私优先架构和跨平台同步方面的大量学习经验。   由   提交 /u/BantrChat   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raoqpi/iosandroidweb_a_privacyfocused_omegle_alternative/</guid>
-      <pubDate>Sat, 21 Feb 2026 11:19:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>你知道你的node_modules文件夹里有什么吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raohun/do_you_know_whats_in_your_node_modules_folder/</link>
-      <description><![CDATA[      你知道你的node_modules文件夹里有什么吗？ 我一直在会议上举办安全研讨会（CityJS Athens、React Alicante），这总是让房间安静下来的问题。没有人真正检查。我们都只是 npm 安装并继续。 然后 Shai-Hulud 发生了。 600 多个软件包遭到泄露。只需安装后挂钩即可窃取 npm 令牌和云凭证。第二波尝试在无法渗漏的情况下擦除您的主目录。 我一直在将我的研讨会材料变成免费的前端安全课程。刚刚发布了第一个关于漏洞利用和依赖管理的模块。涵盖这些攻击的实际工作原理、npm 审核遗漏的内容以及除了希望依赖项正常之外您现在可以做什么。 完整的课程将涵盖 XSS、CSRF 以及跨 React/Vue/Angular/Vanilla JS 的欺骗。全部免费，没有任何限制。 希望得到任何检查过的人的诚实反馈。   由   提交/u/cresta29  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raohun/do_you_know_whats_in_your_node_modules_folder/</guid>
-      <pubDate>Sat, 21 Feb 2026 11:05:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>冷电子邮件的最佳开发工具？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raogqx/best_developer_tool_for_cold_emails/</link>
-      <description><![CDATA[您好， 我已经考虑了好几天的替代方案，但做出决定并不容易，这就是为什么我要征求您的意见。 我的任务是制作一个集成某种电子邮件发送工具（可以是 SMTP 或第三方）的 Web 应用程序，以便我的客户每天发送大约 5-10.000 封电子邮件来自固定的 10-20,000 个联系人池。 （截至目前）（不是订阅者） 我们可以说这是可以外展的，因为每批电子邮件（每批 2500-5000 封）都来自不同的子域。 （例如 [john@domain.com](mailto:john@domain.com)，另一个是 [jane@domain.com](mailto:jane@domain.com) 和等等..) 最重要的部分是统计数据。该工具或要构建的工具必须提供良好的统计信息（反馈），我将存储在数据库中，以查看每个活动的成功程度（打开、点击、退回、垃圾邮件等）。 该工具不必有漂亮的前端或任何东西（因为我的应用程序有），只需开发人员级别的集成机会和良好的定价，这很重要。 截至目前，我选择 SendGrid，但定价很高超过 100.000 封电子邮件。 您建议我使用什么？您将如何完成这项任务？ 提前致谢！   由   提交/u/AmbassadorCurious988  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raogqx/best_developer_tool_for_cold_emails/</guid>
-      <pubDate>Sat, 21 Feb 2026 11:03:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的 2026 开发设置</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raobcq/my_2026_dev_setup/</link>
-      <description><![CDATA[嘿 r/programming ， 我一直在完善 2026 年的开发环境，并希望分享它以获取反馈。目标：**快速、一致、面向未来的工具**，跨 Python、JS/TS、Rust、Go、C/C++ 和 Web 技术。 --- ### **运行时** * **JS/TS 主要：** Bun * **JS/TS 后备：** Node.js LTS * **Python：** uv（替换 pip + venv） --- ### **语言工具** |语言 |格式化程序|短绒 | | -------------- | ----------------- | -------------------------------------------------- | |蟒蛇 |黑色|拉夫 | | JS/TS/HTML/CSS |生物群系 | Biome（或 ESLint + Prettier 后备）| |铁锈|生锈 | Clippy | |去 | gofmt / goimports | 网站地图golangci-lint | | C/C++ | clang 格式 |铿锵有力 | |壳牌| sfmt| ShellCheck | | SQL | SQLFluff | SQLFluff | | PHP | PHP-CS-修复程序 | PHPStan 或诗篇 | |红宝石 |鲁博警察 | RuboCop | |科特林 |克特林特 |检测 | |斯威夫特 | Swift 格式 | SwiftLint | --- 核心原则  **一个格式化程序 + 每种语言一个 linter** – 无堆栈。 **格式化程序处理样式**； linter 处理正确性和错误 **CI / 预提交钩子**强制格式化、linting 和可选类型检查/测试。 **uv** 适用于 Python 环境和环境。  **Bun + Node LTS** 通过完整的生态系统支持确保速度。  --- 光标特定设置 * 适用于 Python、JS/TS、Rust、Go、C/C++ 的语言服务器 * lint 和 lint 的预提交挂钩格式 * 依赖意识（uv、Bun、Go 模块） * 可选的集成测试运行程序：pytest、Vitest、cargo test、go test --- 我正在寻找的反馈 * 2026 年我应该考虑**更好的现代替代方案**吗？ * 我是否**过于复杂**或缺少关键工具？ * 关于**跨运行时 CI 或 Cursor 集成**有什么建议吗？ 感谢任何建议或改进！   由   提交 /u/sweetloup   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raobcq/my_2026_dev_setup/</guid>
-      <pubDate>Sat, 21 Feb 2026 10:54:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>posthog 上的 404 真的很酷</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raoa19/really_cool_404_on_posthog/</link>
-      <description><![CDATA[不知道最好在哪里发布此内容，但我偶然发现了他们的 404 页面 - 可能是我一段时间以来见过的最有趣的页面之一   由   提交/u/Ok-Tune-1346   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raoa19/really_cool_404_on_posthog/</guid>
-      <pubDate>Sat, 21 Feb 2026 10:52:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>灯丝管理器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rao5j2/filamentmanager/</link>
-      <description><![CDATA[&lt;表&gt;      我从事 3D 打印已经有几年了，就像你们中的很多人一样，最后的架子上摆满了用了一半的线轴，不知道其中还剩下什么。任何理性人都会做的事也是如此：花了太长时间学习构建自己的东西。最终得到的是一个名为 FilamentManager（要更改？）的 Web 和移动应用程序（目前仅作为 PWA 提供，但计划通过应用程序商店发布。）其功能如下： 跟踪灯丝的颜色、材料、剩余重量和购买价格 扫描 EAN 条形码以查找和添加由社区数据库快速支持的线轴，每次有人扫描新线轴时，该数据库都会增长，因此使用它的人越多它变得越有用。  记录打印的时间、使用的材料和每次打印的成本（Orca 集成已完成，测试 klipper 集成） 查看统计数据和您实际花费的完整成本明细 设置打印机的维护间隔，以便在到期时收到提醒 将耗材整理到存储位置并与其他人共享，这对于创客空间或共享工作室很有用 还有更多:) 坦白说：这是一个非常早期的阶段。事情的边缘可能很粗糙，流程可能令人困惑，并且可能缺少您认为明显的功能。这正是我发帖的原因。我正在寻找愿意实际使用它的人，并告诉我什么有效、什么无效、缺少什么以及什么没有意义。好的反馈和坏的反馈现在对我都很有用。  链接：app.filament-manager.tech/landing.html   由   提交/u/Kontachon   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rao5j2/filamentmanager/</guid>
-      <pubDate>Sat, 21 Feb 2026 10:44:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建立了一个免费、无广告的网站，可以立即告诉您是否需要任何国家/地区的签证，以及一些额外的工具和自定义行程生成器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ranouz/i_built_a_free_adfree_website_that_instantly/</link>
-      <description><![CDATA[大家好， 试图弄清楚签证规则、过境中转要求，以及噩梦般的 90/180 申根规则让我在计划即将到来的旅行时发疯。因此，我花了过去几周的时间构建了一个免费工具来自动化旅行准备中烦人的部分。 它被称为 Travel Visa Stack (https://travelvisastack.com)。 它的实际用途： •通过官方政府链接根据您的护照（免费、VOA、禁止等）即时检查签证要求。 A可视化申根 90/180 天计算器。 • 一个“交通黑客”检查主要枢纽的中途停留签证规则的工具。 •自动求职信生成器（用于贴纸签证）和文件清单。 • 自定义行程生成器。 我构建这个主要是为了解决自己的问题，但我想让它对其他人真正有用。 如果您有时间，我希望得到一些残酷而诚实的反馈。什么打破了？什么感觉很笨重？缺少什么功能？ 您可以在评论中或通过网站提出反馈。感谢您的支持！   由   提交/u/hmmm105  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ranouz/i_built_a_free_adfree_website_that_instantly/</guid>
-      <pubDate>Sat, 21 Feb 2026 10:15:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>追踪它</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ranhdh/traice_it/</link>
-      <description><![CDATA[我构建了一个工具，向您展示为什么任何 AI 所说的“希望得到反馈”将得到真正的开发人员关注。 https://www.producthunt.com/products/traice?launch=traice   提交者 /u/nosdrahc[链接]  href=&quot;https://www.reddit.com/r/webdev/comments/1ranhdh/traice_it/&quot;&gt;[评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ranhdh/traice_it/</guid>
-      <pubDate>Sat, 21 Feb 2026 10:03:41 GMT</pubDate>
     </item>
     </channel>
 </rss>

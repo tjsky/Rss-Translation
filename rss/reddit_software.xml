@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Sat, 21 Feb 2026 12:38:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 15:20:54 GMT</lastBuildDate>
+    <item>
+      <title>教育内容软件</title>
+      <link>https://www.reddit.com/r/software/comments/1rat2hm/software_for_educational_content/</link>
+      <description><![CDATA[大家好，我很感激对此的任何见解/建议 -  我是社会关怀领域的教育家，为专业人士提供一系列主题的培训。会话都是；面对面，以及在线和在线交流在大多数情况下，我们的工具范围基本上都是powerpoint。我们最近也开始在一个名为“Thinkific”的在线平台上开发课程。我发现 Powerpoint 演示文稿并不完全是我引以为傲的发布和叙述内容。 我想要一些关于软件的建议，我可以学习这些软件来创建内容，例如更专业的演示文稿、动画和视频，我可以在课程中利用这些内容为我的学习者提供更好的体验。 我遇到过 Canva - 这是一个相对较好使用的软件还是有更好的软件可供使用？ 谢谢！   由   提交 /u/Natural-Finger-5622   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rat2hm/software_for_educational_content/</guid>
+      <pubDate>Sat, 21 Feb 2026 14:54:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个小型开源 Windows 实用程序来组织 Windows 下载文件夹（C++ / Win32）</title>
+      <link>https://www.reddit.com/r/software/comments/1rasv8t/i_built_a_small_opensource_windows_utility_to/</link>
+      <description><![CDATA[大家好， 我构建了一个小型 Windows 实用程序，帮助轻松组织下载文件夹。 我试图解决的问题： 我的下载文件夹不断变成垃圾场 — PDF、安装程序、ZIP、图像、随机文件 — 而我从来懒得手动清理它。 因此，我构建了一个轻量级本机应用程序C++（Win32 API）：  扫描下载文件夹 按类型对文件进行分类（PDF、图像、存档、安装程序等） 将它们移动到结构化文件夹 支持撤消上次运行 运行时不会阻塞 UI（单独的工作线程）  它故意很简单 -没有注册表调整，没有“PC 优化器”的东西，没有后台间谍活动。只是文件组织。 为什么选择 C++？ 我想要：  练习本机 Windows 开发 正确处理线程和 UI 更新 保持轻量级，零外部依赖  这里完全开源： 👉 https://github.com/YogeshSanchania/DownloadsDeclutter 安装程序也可以从发布页面下载： https://github.com/YogeshSanchania/DownloadsDeclutter/releases/tag/v1.0-beta 如果有人想尝试，我很乐意提供反馈 - 特别是在：  UI/UX 改进 我可能遇到的边缘情况缺少 更安全的文件处理模式 性能改进 一般架构反馈。   https://preview.redd.it/7cqjjru31vkg1.png?width=930&amp;format=png&amp;auto=webp&amp;s=9e5e8a66b5c18f232366542485f701f654132912   由   提交 /u/OpinionTypical1165   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rasv8t/i_built_a_small_opensource_windows_utility_to/</guid>
+      <pubDate>Sat, 21 Feb 2026 14:45:21 GMT</pubDate>
+    </item>
     <item>
       <title>有人在 Process Street 和 Manifestly 之间切换过吗？试图做出决定。</title>
       <link>https://www.reddit.com/r/software/comments/1rapt8r/anyone_here_switched_between_process_street_and/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[SnapX：ShareX 的强大功能，适用于 Linux、FreeBSD、macOS 和 Windows（使用 Avalonia 构建）的硬分叉 嘿书呆子们， 我刚刚发布了第一个可用的 SnapX 预发行版（针对基本用例）。它是一个跨平台的屏幕截图工具，可以上传到大多数 ShareX 的预配置目的地，也可以上传到自定义目的地 (.sxcu) GitHub：https://github.com/SnapXL/SnapX（600+ 星） 软件包适用于：Flatpak（尚未在 Flathub 上提交）、Snap、RPM、 DEB、MSI 和 uber tarball。 （类似于 uber jars，具有所有必需的依赖项） 对于屏幕截图：  它使用 XDG Portals，并在 Linux/FreeBSD 上回退到 X11 屏幕截图 Direct3D11 &amp; WinRT 在 Windows 上捕获 XCap 在 macOS 上  此外，SnapX 使用由 PaddleOCR/RapidOCR。根据我的测试，它超越了 Windows 内置 OCR，并且更加便携，仅依赖于 Microsoft 的 ONNXRuntime。这使得 SnapX 成为第一个在 FreeBSD 上运行的 Avalonia 应用程序，并提供业界领先的 OCR，同时还提供屏幕截图和图像识别。上传功能。 当前支持的图像格式有：PNG、WEBP、AVIF、JPEG、GIF、TIFF 和 BMP。 我正在考虑使用 jxl-rs 包装器 NuGet 包添加 JPEG XL 支持。 我为其选择的图像库是 ImageSharp。它比 SkiaSharp 更简单，并且开源项目开源。它也不依赖于本机库。 您还可以通过命令行、环境变量和 Windows 注册表来完全配置 SnapX。 您不需要安装 .NET。 它是基于 .NET 10 构建的，与 ShareX 相同。 SnapX 使用 Avalonia 与 NativeAOT 一起部署。如果您想知道我是如何迁移 WinForms 中所有数十万行 UI 的，我只是删除了它们并重新实现了我在查看 ShareX 源代码时知道用户立即需要的内容。感谢 ShareX 的开发人员使他们的代码库易于开发。 话虽这么说，在这样做之后，我花了很多个晚上的时间来处理 10,000 多个错误......我可能失去了相当多的理智，但没有什么值得做的事情是没有代价的。 UI 迁移后，我决定确保 SnapX 可以利用 NativeAOT，因为这是一项令人兴奋的技术。用户计算机上不需要安装 .NET？！？不管怎样，这导致我们又花了几个晚上将目标迁移到使用 System.Text.Json。 我什至让配置使用 YAML 来支持注释。我确实尝试过 TOML，因为它在其他 Linux 用户中很受欢迎。然而，对于如此严重嵌套的配置，我遇到了许多问题，而这些问题我不愿意让其他人遇到。   由   提交/u/BrycensRanch  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1ra7ypm/snapx_the_power_of_sharex_hard_forked_for_linux/</guid>
       <pubDate>Fri, 20 Feb 2026 21:22:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立了一个不存储任何内容的实时聊天</title>
-      <link>https://www.reddit.com/r/software/comments/1ra7jbf/built_a_realtime_chat_that_stores_nothing/</link>
-      <description><![CDATA[大家好👋 我最近深入研究了实时系统，最终构建了 Orvia - 一个无数据库的端到端加密聊天，专注于短暂的交互。 想法很简单： 创建一个房间 → 共享链接 → 聊天，发送图像/视频，一起观看 → 离开。 有何不同之处：  聊天内容不会存储在任何地方，甚至不在服务器上 没有帐户或注册流程 通过可共享链接的私人房间 实时同步消息传递 内置图像/视频共享 + 一起观看 设计轻巧，但仍可供社区使用  房间仅在人们在里面时才存在，因此交互保持以瞬间为中心，而不是永久的。 这并不是为了与 Discord 或 Slack 竞争 - 它最初是一个系统/架构实验，旨在探索没有传统后端存储或繁重社交层的通信。 真诚地感谢技术反馈：  这种架构长期有意义吗？ 任何可扩展性、安全性或用户体验问题你会期望吗？    由   提交/u/No-Care-8787   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1ra7jbf/built_a_realtime_chat_that_stores_nothing/</guid>
-      <pubDate>Fri, 20 Feb 2026 21:06:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源需求管理工具</title>
-      <link>https://www.reddit.com/r/software/comments/1ra6ukn/open_source_requirement_management_tool/</link>
-      <description><![CDATA[所以我厌倦了使用电子表格作为项目的需求跟踪器（有些工作是一些爱好），而这些项目没有 IBM DOOR 或同等产品的 buget。 我找不到任何用户友好的开源软件，所以我自己制作了！ 使用 docker 桌面在本地托管非常容易。目前，您必须使用 docker compose 自己构建它，但如果有兴趣，我可能会开始包含发布版本。 我的专业知识不在于应用程序创建！ （主要使用 PLC 编程语言的硬件工程师）。因此，这 95% 的 vivi 是用我以前从未使用过的语言 (Go) 编码的。让我知道你的想法:) 公开演示：https://openv-frontend-product.up.railway.app/ 此处存储：https://github.com/dmason1992/OpenV   由   提交 /u/slzer   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1ra6ukn/open_source_requirement_management_tool/</guid>
-      <pubDate>Fri, 20 Feb 2026 20:40:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
