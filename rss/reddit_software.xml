@@ -4,7 +4,35 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Fri, 20 Feb 2026 21:21:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 01:30:16 GMT</lastBuildDate>
+    <item>
+      <title>Ignite Wellness 学生支持和记录管理系统 –</title>
+      <link>https://www.reddit.com/r/software/comments/1radrdz/ignite_wellness_student_support_records/</link>
+      <description><![CDATA[我是泽西市公立学校 Ignite Wellness 的首席学生秘书。 在此职位上，我通过协调活动和健康活动、协助社交情感学习 (SEL) 计划、支持学校庆祝活动和特别计划、监控出勤情况以及维护学生及其家人的组织记录来支持学校运营。 我正在寻求免费支持或免费模板来帮助创建专业、精心设计的 Google 表格系统，使我们的团队能够高效地管理和组织： • 学生和家庭记录 • 家长和监护人联系信息 • 出勤跟踪 • 活动、聚会和计划协调 • SEL 活动跟踪 • 内部注释和后续行动  目标是创建一个干净、专业的布局，其中包含清晰标记的部分、格式化的标题以及支持机密性、准确性和易用性的组织结构学校工作人员的日常使用。 该系统将有助于改善 Ignite Wellness 和我们学校社区的沟通、组织和记录保存。   由   提交/u/Feeling_Buy_6483  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1radrdz/ignite_wellness_student_support_records/</guid>
+      <pubDate>Sat, 21 Feb 2026 01:21:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源 UART 网络串行终端</title>
+      <link>https://www.reddit.com/r/software/comments/1rabkxx/open_source_uart_webserial_terminal/</link>
+      <description><![CDATA[pineTERM v1.5 主要特点：零安装，适用于锁定的机器。打开选项卡——插入USB-UART——开始。您可以在另一个选项卡中浏览互联网并同时嗅探 UART。 有何不同 无限制导出。未来日志文件的实时数据包计数器 - 立即查看您捕获了多少数据。 负载下无延迟。批量 DOM 更新，处理 500k+ 日志行而不冻结。 用于自动化的 JSON 脚本。当硬件需要精确的握手计时时很有用 - 以 JSON 描述命令序列，终端以适当的延迟执行。 带有单独发送按钮的多个输入字段。方便在常用命令之间切换 - 无需复制粘贴。 具有自动格式设置的十六进制输入。自动空格、验证 — 无需心理字节计数。 按到达时间间隔对数据包进行分组。当流量密集时，有助于直观地发现消息边界。 自定义波特率。超越标准 9600/115200 等 - 输入您的硬件支持的任何速率。 技术细节 干净的界面 - 仅根据 20 年的硬件/固件/嵌入式经验真正重要。 Vanilla JS，零框架。不是出于意识形态原因，只是希望没有依赖性和最小的膨胀。 Web Serial API 通过浏览器提供直接 COM 端口访问 - 在桌面上的 Chrome/Edge 中工作。 1.5 版于 2 天前发布。 实时：链接 来源：链接 可能会在调试固件、与 MCU、Arduino 配合使用、嗅探硬件通信方面派上用场。   由   提交/u/SympathyFantastic874  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rabkxx/open_source_uart_webserial_terminal/</guid>
+      <pubDate>Fri, 20 Feb 2026 23:46:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>双击宏</title>
+      <link>https://www.reddit.com/r/software/comments/1rabdsa/macro_for_double_clicking/</link>
+      <description><![CDATA[我的鼠标软件没有宏功能，所以我正在寻找一个可以在我的 dpi 按钮中左键双击的软件或应用程序   由   提交/u/Famous-Donut7965   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rabdsa/macro_for_double_clicking/</guid>
+      <pubDate>Fri, 20 Feb 2026 23:38:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>SnapX：ShareX 的强大功能，适用于 Linux、FreeBSD、macOS 和 Windows 的硬分叉（使用 Avalonia 构建）</title>
+      <link>https://www.reddit.com/r/software/comments/1ra7ypm/snapx_the_power_of_sharex_hard_forked_for_linux/</link>
+      <description><![CDATA[SnapX：ShareX 的强大功能，适用于 Linux、FreeBSD、macOS 和 Windows（使用 Avalonia 构建）的硬分叉 嘿书呆子们， 我刚刚发布了第一个可用的 SnapX 预发行版（针对基本用例）。它是一个跨平台的屏幕截图工具，可以上传到大多数 ShareX 的预配置目的地，也可以上传到自定义目的地 (.sxcu) GitHub：https://github.com/SnapXL/SnapX（600+ 星） 软件包适用于：Flatpak（尚未在 Flathub 上提交）、Snap、RPM、 DEB、MSI 和 uber tarball。 （类似于 uber jars，具有所有必需的依赖项） 对于屏幕截图：  它使用 XDG Portals，并在 Linux/FreeBSD 上回退到 X11 屏幕截图 Direct3D11 &amp; WinRT 在 Windows 上捕获 XCap 在 macOS 上  此外，SnapX 使用由 PaddleOCR/RapidOCR。根据我的测试，它超越了 Windows 内置 OCR，并且更加便携，仅依赖于 Microsoft 的 ONNXRuntime。这使得 SnapX 成为第一个在 FreeBSD 上运行的 Avalonia 应用程序，并提供业界领先的 OCR，同时还提供屏幕截图和图像识别。上传功能。 当前支持的图像格式有：PNG、WEBP、AVIF、JPEG、GIF、TIFF 和 BMP。 我正在考虑使用 jxl-rs 包装器 NuGet 包添加 JPEG XL 支持。 我为其选择的图像库是 ImageSharp。它比 SkiaSharp 更简单，并且开源项目开源。它也不依赖于本机库。 您还可以通过命令行、环境变量和 Windows 注册表来完全配置 SnapX。 您不需要安装 .NET。 它是基于 .NET 10 构建的，与 ShareX 相同。 SnapX 使用 Avalonia 与 NativeAOT 一起部署。如果您想知道我是如何迁移 WinForms 中所有数十万行 UI 的，我只是删除了它们并重新实现了我在查看 ShareX 源代码时知道用户立即需要的内容。感谢 ShareX 的开发人员使他们的代码库易于开发。 话虽这么说，在这样做之后，我花了很多个晚上的时间来处理 10,000 多个错误......我可能失去了相当多的理智，但没有什么值得做的事情是没有代价的。 UI 迁移后，我决定确保 SnapX 可以利用 NativeAOT，因为这是一项令人兴奋的技术。用户计算机上不需要安装 .NET？！？不管怎样，这导致我们又花了几个晚上将目标迁移到使用 System.Text.Json。 我什至让配置使用 YAML 来支持注释。我确实尝试过 TOML，因为它在其他 Linux 用户中很受欢迎。然而，对于如此严重嵌套的配置，我遇到了许多问题，而这些问题我不愿意让其他人遇到。   由   提交/u/BrycensRanch  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1ra7ypm/snapx_the_power_of_sharex_hard_forked_for_linux/</guid>
+      <pubDate>Fri, 20 Feb 2026 21:22:41 GMT</pubDate>
+    </item>
     <item>
       <title>建立了一个不存储任何内容的实时聊天</title>
       <link>https://www.reddit.com/r/software/comments/1ra7jbf/built_a_realtime_chat_that_stores_nothing/</link>
@@ -32,6 +60,13 @@
       <description><![CDATA[大家好，我正在发布我的软件 v1.0。它基于 win32 + rich edit。 您可以在 https://www.barenotepad.com 安全地下载它。 过去一周我一直在研究它。不要介意缺乏修饰:) 以下是一些细节： - UTF8、UTf16 支持，为简单起见，保存时强制使用 UTF8 - 10MB 缓冲区限制，以避免丰富的编辑速度缓慢 - 没有互联网连接 - 便携式 - 快速笔记速度非常快。 欢迎反馈！   由   提交 /u/Informal_Parking_923   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1ra0v62/barenotepad_v10_a_simple_notepad_alternative/</guid>
       <pubDate>Fri, 20 Feb 2026 17:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找开发人员 Buddy 帮助构建 SaaS 产品</title>
+      <link>https://www.reddit.com/r/software/comments/1r9z7pc/looking_for_developer_buddy_to_help_building_saas/</link>
+      <description><![CDATA[ 由   提交 /u/InterestingBall5352   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1r9z7pc/looking_for_developer_buddy_to_help_building_saas/</guid>
+      <pubDate>Fri, 20 Feb 2026 16:00:28 GMT</pubDate>
     </item>
     <item>
       <title>需要网络远程桌面进行休闲游戏</title>
@@ -74,41 +109,6 @@
       <description><![CDATA[我喜欢 LibreOffice 的开源特性，但感觉还是不如 MS Office 自然。我最近一直在测试 WPS Office，感觉它更接近 Word/Excel，尤其是在移动设备上。随着 Microsoft 365 的价格越来越高，我想知道转换是否有意义。有人长期使用WPS Office吗？离线使用和现实生活中的AI功能如何？   由   提交/u/AccurateShip2499  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1r9uaj6/libreoffice_vs_wps_vs_microsoft_office_what_are/</guid>
       <pubDate>Fri, 20 Feb 2026 12:39:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想为 Windows 构建一个 100% 免费的离线语音输入应用程序，用于学习您的个人词汇 - 您真的会使用它吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1r9u85w/i_want_to_build_a_100_free_offline_voice_typing/</link>
-      <description><![CDATA[大家好， 我计划构建一个免费的 Windows 语音输入应用程序，我想在我花费几个月的时间进行编码之前确保人们确实需要它。 我试图解决的问题： Windows 有内置的语音输入 (Win+H)，但它永远不会变得更智能。它不知道你的名字、你的工作术语、你的口音特定单词，而且无论你纠正多少次，它都永远不会学习。像 Dragon 这样的付费工具可以解决这个问题，但价格为 699 美元。 我想要构建的内容： 一个免费的、完全离线的语音输入应用程序，它： 在系统范围内工作（输入到任何应用程序 - 记事本、Word、浏览器等） 使用热键激活（按住录音，释放到类型 永久学习并记住您的更正，以便在将“Kubernetes”误听为“立方体”时认真地修复它一次，它就不会再犯同样的错误了。无需互联网即可使用 - 数据不会离开您的电脑完全免费，无需订阅，无需付费。 在构建它之前，我有 3 个简单的问题：您目前在 Windows 上使用语音输入吗？如果是，哪个应用程序曾因错误的单词而让您停止使用语音输入？私人词汇训练器（随着时间的推移学习您的单词）会让您改用此应用程序吗？ 在评论中留下你的答案，即使只是“是/否/可能”——这确实可以帮助我决定是否构建这个或继续。谢谢🙏    提交/u/Euphoric-Scheme-7869   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r9u85w/i_want_to_build_a_100_free_offline_voice_typing/</guid>
-      <pubDate>Fri, 20 Feb 2026 12:36:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何为您的 SaaS 生成潜在客户？</title>
-      <link>https://www.reddit.com/r/software/comments/1r9u04s/how_to_generate_leads_for_your_saas/</link>
-      <description><![CDATA[ 由   提交 /u/Sweet-Signature-5702   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r9u04s/how_to_generate_leads_for_your_saas/</guid>
-      <pubDate>Fri, 20 Feb 2026 12:25:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>每周探索主题 - 2026 年 2 月 20 日</title>
-      <link>https://www.reddit.com/r/software/comments/1r9tiqf/weekly_discovery_thread_february_20_2026/</link>
-      <description><![CDATA[分享新的、有用的或只是有趣的内容 欢迎来到每周探索主题，在这里您可以分享本周引起您注意的与软件相关的发现 - 特别是那些很酷、有用或发人深省但本身可能不值得讨论的内容。 此主题是您的空间：  Neat工具、库或软件包 值得一读的文章、博客文章或演讲 您正在进行的实验或业余项目 您发现的提示、工作流程或晦涩功能 您正在思考的问题或想法  如果它与软件相关并激发了您的好奇心，请将其放入。  一些快速指南  保持文明和建设性 - 这是为了学习和发现。 自我推销？如果它具有相关性并能增加价值，那完全没问题。保持透明。 没有链接垃圾邮件或人工智能生成的内容转储。我们将删除省力的提交内容。 对有用的内容进行投票，以便其他人看到！   此帖子将每周发布并置顶。如果您想建议对此格式进行更改或添加，请随时发表评论或向模组发送消息。 现在，您本周发现了什么？   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r9tiqf/weekly_discovery_thread_february_20_2026/</guid>
-      <pubDate>Fri, 20 Feb 2026 12:01:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>除了记事本之外的记事本以及基本功能建议</title>
-      <link>https://www.reddit.com/r/software/comments/1r9rkdq/notepad_besides_notepad_with_basic_features/</link>
-      <description><![CDATA[需要一个免费的记事本，就像 2005 年的 Wordpad 一样。我只是想在顶部的栏中提供易于访问的选项，例如粗体、下划线、字体大小等。 使用的是常规 Win 11 记事本，但他们进行了更新，并出于某种愚蠢的原因取消了任务栏。现在我什至不知道如何应用下划线。谢谢。   由   提交/u/FarmingFisherGuy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r9rkdq/notepad_besides_notepad_with_basic_features/</guid>
-      <pubDate>Fri, 20 Feb 2026 10:11:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的组织屏蔽了 YouTube，并离开了 TikTok 和 WhatsApp 🤡🤡</title>
-      <link>https://www.reddit.com/r/software/comments/1r9r2wy/my_organization_blocked_youtube_and_left_tiktok/</link>
-      <description><![CDATA[他们为什么要这样做哈哈。   由   提交/u/pattison_iman   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1r9r2wy/my_organization_blocked_youtube_and_left_tiktok/</guid>
-      <pubDate>Fri, 20 Feb 2026 09:42:52 GMT</pubDate>
     </item>
     </channel>
 </rss>

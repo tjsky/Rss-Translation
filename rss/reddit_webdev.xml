@@ -4,9 +4,100 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 20 Feb 2026 21:22:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 01:30:45 GMT</lastBuildDate>
     <item>
-      <title>移动开发人员在这里——好吧，看来不会太久</title>
+      <title>对于高性能、本地 SEO 服务网站来说，Gutenberg + Kadence 仍然是 2026 年的最佳设置吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1radgrs/is_gutenberg_kadence_still_the_best_setup_in_2026/</link>
+      <description><![CDATA[我拥有一家基于服务的公司，我正在努力弄清楚我想要构建什么类型的 WordPress 网站。我真的需要一些专家的指导。 （不是应用程序，不是电子商务） 我的问题：  2026 年 Gutenberg + Kadence 仍然是 SEO + 性能最明智的长期举措吗？ 我是否过度优化堆栈？ 对于此类业务，Bricks 或GeneratePress 会比此设置提供有意义的优势吗？ 您在此删除或替换的任何内容下面列出的堆栈？  我的目标是： • SEO 优先架构 • 主导本地搜索结果 • 高转化率 - 潜在客户生成 - 仅咨询预订 • 移动优先（预计移动流量超过 70%） • 奢华美学 • 干净的后端以进行长期内容管理 经过深入研究，我倾向于： • WordPress（自托管） • Gutenberg（本机块编辑器） • Kadence Theme Pro • Kadence Blocks Pro • RankMath Pro • WP Rocket • ShortPixel • Cloudflare CDN • 托管在 Cloudways 上(Vultr HF) 或 Rocket.net 没有 Elementor，没有 Divi，没有重型构建者。 该网站将具有： • 位置服务 SEO 页面 • 多步骤咨询表 • 本地架构 • 结构化内部链接 • 主题权威博客 这纯粹是一项本地的面对面服务网站。没有在线程序或数字产品销售。 我更关心速度、核心网络生命和干净的 SEO 结构，而不是拖放的便利性。 希望得到任何构建高性能本地服务网站的人的反馈。 提前致谢。   由   提交 /u/s-e-a-l-t-e-a-m-6   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1radgrs/is_gutenberg_kadence_still_the_best_setup_in_2026/</guid>
+      <pubDate>Sat, 21 Feb 2026 01:08:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在基于网络的工具中添加了数字输入，这样我们就可以精确地平移和旋转对象或顶点。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rad6wt/i_added_numeric_input_to_my_webbased_tool_so_we/</link>
+      <description><![CDATA[      源代码：https://github.com/sengchor/kokraf   由   提交/u/Sengchor  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rad6wt/i_added_numeric_input_to_my_webbased_tool_so_we/</guid>
+      <pubDate>Sat, 21 Feb 2026 00:55:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>我总是跳过脚手架步骤（以及为什么我的副项目不断失败）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1racqi9/the_scaffolding_step_i_was_always_skipping_and/</link>
+      <description><![CDATA[在过去两年中启动了大约 20 个副业项目。大概完成了 3 个。 模式总是一样的。兴奋起来，打开一个新的存储库，花两个小时与自己争论堆栈，写 300 行意大利面条，然后在发布之前被其他事情分散注意力。 真正打破循环的是什么： 实际编码的光标。自动完成功能很不错，但描述我想要的内容并在不接触它的情况下将其填充到样板中，这是我节省实时时间的地方。 在我编写任何内容之前，使用 Lattice Architect 来构建项目结构。您描述您正在构建的内容，它会生成一个 PROJECT_GUIDE.md，选择一个堆栈，连接 CI/CD，并发出一个设置命令。五分钟后，您就拥有了一个实际的项目，而不是一个随机文件夹。 (latticeai.app/architect) CI 的 GitHub 操作。每次推送时进行 Lint 和测试，没什么花哨的。 线性于任务跟踪的概念。更少的障碍。 用于自动部署的铁路或 Vercel，具体取决于我正在构建的内容。 脚手架步骤是我一直视为可选的步骤。它不是可选的。当一个项目从真实的结构开始时，你更有可能看到它。 你的设置是什么样的，可以让某些东西快速落地？   由   提交 /u/Acrobatic_Task_6573   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1racqi9/the_scaffolding_step_i_was_always_skipping_and/</guid>
+      <pubDate>Sat, 21 Feb 2026 00:35:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>追随者按钮</title>
+      <link>https://www.reddit.com/r/webdev/comments/1racqbf/follower_button/</link>
+      <description><![CDATA[      嗨。我已经创建了我的网站，但我想要“关注我”选项。我可以选择为其他社交添加“关注我”小部件，但不能为我创建的网站添加“关注我”小部件。我想要这样的东西。是否可以。我是新手，请多多指教，哈哈   由   提交/u/changbin_delulu_wife   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1racqbf/follower_button/</guid>
+      <pubDate>Sat, 21 Feb 2026 00:35:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们允许任何人将代码合并到实时站点。这就是长达 7 周的混乱局面。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1racft4/we_let_anyone_merge_code_to_a_live_site_heres/</link>
+      <description><![CDATA[      有人试图删除整个网站。他们一直在获胜 - 直到发明了反对票。 OpenChaos 是一个存储库，任何人都可以提交 PR，社区根据反应进行投票，投票最多的 PR 每天都会合并。 存储库：https://github.com/skridlevsky/openchaos 实时站点：https://openchaos.dev 博客：https://blog.openchaos.dev 这是完整的时间表，第 1-7 周： 第 1 周。网站最初是一个简单的、最小的 Next.js 启动器。你只能竖起大拇指来投票，并且每周都会进行合并。人们开始到达。 第 2 周。有人提交了删除所有内容的 PR。它是领先的。然后另一位公关提出了反对票——政府关门退出了竞选。反对票集成赢得了 904 票赞成，超过了 Rust 重写的 753 票赞成和 273 票反对。民主是有效的。 第 3 周。每日合并。混乱加速。一周内：IE6 GeoCities UI、PR 健康指标、Hall of Chaos、dickbutt、cat。 第 4 周。Clippy 出现了。另外：自动合并（已损坏）、毫秒倒计时让时间感觉更快、六到七的支持、1.337% 的几率什么也看不到，还有 10% 的几率任何 PR 链接都会让你翻滚。 第 5 周。投票的现场身份验证到来 - 混乱中出现的实际治理。也是在这一周，我们得到了 fartscroll.js、freeDoom 和 404 猫。 第 6 周。只有标题押韵的 PR 才能合并。该网站变成了纯 ASCII 文本。椰子图像已提交到存储库。 第 7 周。PR 现在可能会死亡。 SENECTUS IPSA EST MORBUS - 老年本身就是一种疾病。 PR 越老，永久自动关闭的可能性就越大。纽约时报新闻与加密/解密集成。现在，您有 50/50 的机会登陆 Web 2.0 或 ASCII 版本，并配有 GTA 风格的无线电。 下一步： 明天 19:00 UTC：第一个赢得 100 美元赏金的自动合并。一个小实验，看看当你向开源引入金钱时会发生什么。一次性看看它如何发挥作用 - 踩水。 除此之外：我退后一步，让这成为纯粹的社区驱动，主要只是扫描合并队列是否存在潜在的安全漏洞。   由   提交/u/Equivalent-Yak2407   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1racft4/we_let_anyone_merge_code_to_a_live_site_heres/</guid>
+      <pubDate>Sat, 21 Feb 2026 00:22:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 交互式规则引擎游乐场 — 使用 React + TypeScript 构建</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rabz06/showoff_saturday_interactive_rule_engine/</link>
+      <description><![CDATA[      为我的开源规则引擎项目构建交互式演示应用程序。 Playground 允许您触发事件、实时查看引擎管道动画、按条件调试规则以及可视化事件-规则-操作关系。 堆栈：React 19、TypeScript、Vite、Tailwind CSS v4、Zustand、Framer Motion 实时：https://are-playground.netlify.app 来源：https://github.com/BeratARPA/ARE 欢迎提供反馈 - 特别是在用户体验方面。对于第一次看到规则引擎的人来说，流程容易理解吗？  https://preview.redd.it/3flz0481oqkg1.png?width=2515&amp;format=png&amp;auto=webp&amp;s=849dcf82b2eef4e4b51397cdc3c99ee8ab5f0960 &lt;一href=&quot;https://preview.redd.it/ovj86481oqkg1.png?width=2516&amp;format=png&amp;auto=webp&amp;s=b0fb1acb1d4cdfa25ff8103fd2d17116e97d5e57&quot;&gt; https://preview.redd.it/ovj86481oqkg1.png?width=2516&amp;format=png&amp;auto=webp&amp;s=b0fb1acb1d4cdfa25ff8103fd2d17116e97d5e57 &lt;一href=&quot;https://preview.redd.it/ug7y2481oqkg1.png?width=2514&amp;format=png&amp;auto=webp&amp;s=d5ea95bcb26cfde1d8607a69c36b611af067c3ca&quot;&gt; https://preview.redd.it/ug7y2481oqkg1.png?width=2514&amp;format=png&amp;auto=webp&amp;s=d5ea95bcb26cfde1d8607a69c36b611af067c3ca   由   提交 /u/AgresiveE   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rabz06/showoff_saturday_interactive_rule_engine/</guid>
+      <pubDate>Sat, 21 Feb 2026 00:03:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>域名重定向 SSL 问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raasd9/domain_redirect_ssl_issue/</link>
+      <description><![CDATA[嗨。 我的域名 www.meatlegs.com 重定向到 www.instagram.com/meatlegs 一切正常，直到我切换域名提供商（我这样做是因为我有另一个网站）我认为将它们全部放在一个地方会很好。 尽管 SSL 证书存在问题（不匹配错误）。 我运行了各种 SSL 检查器，结果是相同的。 示例如下：https://www.sslshopper.com/ssl-checker.html#hostname=www.meatlegs.com （完整错误为：“证书中的常用名称均不与输入的名称匹配（www.meatlegs.com）。了解有关名称不匹配错误的更多信息。”） 这对于卡巴斯基用户来说是一个问题，例如，他们在尝试访问时会收到此消息。网站：  https://preview.redd.it/ls30r694nkgg1.png?width=1115&amp;format=png&amp;auto=webp&amp;s=b14a8499e4a09f63bc374fcfedda03dced05d918 我向我的提供商发送了无数电子邮件，但没有任何结果。他们调整了一些 DNS 设置，并告诉我清除浏览器缓存，但这显然是 SSL 问题。 我的问题是我的提供商需要做什么来解决此问题？ 谢谢。   由   提交/u/otronicsmedia  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raasd9/domain_redirect_ssl_issue/</guid>
+      <pubDate>Fri, 20 Feb 2026 23:13:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有一种方法可以上传 HTML 网站并进行可视化编辑（如 Canva）而无需接触代码？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raaoa1/is_there_a_way_to_upload_an_html_website_and_edit/</link>
+      <description><![CDATA[大家好， 我需要一些帮助，因为我真的很沮丧和困惑。 我使用 Claude AI 为我生成和编码了一个投资组合网站。我给了它关于我想要的美学和布局的非常详细的说明，它实际上创建了一个我真正喜欢的网站。我下载了 HTML 文件。 问题是：我不知道如何编码，而且我不想直接编辑代码。 我正在寻找一个网站或平台，可以上传我下载的 HTML 作品集，然后进行可视化编辑（例如 Canva），我可以： \-删除部分 \-添加新部分 \-添加我的个人信息 \-添加图像 \-重新排列内容 \-直接在页面上编辑文本 基本上，我希望在不接触 HTML/CSS 的情况下进行拖放式编辑。 我已经问过 Claude 和 ChatGPT 是否存在这样的东西，他们都说不存在 - 没有一个平台可以让您上传自定义 HTML，然后像构建器一样进行可视化编辑。 真的是这样吗？是吗？ 我不想： 在 Webflow/Framer/WordPress 中重建整个网站 从头开始重新创建所有内容 每次我想更改段落时，不断要求 Claude 重新生成整个网站 我最初没有在 Canva 或其他构建器中构建它的原因是因为我对美观非常挑剔。对我来说，向 ChatGPT 和 Claude 准确描述我想要的内容并让它对设计进行编码要容易得多。 现在我只想要自己编辑内容而无需编码的自由。 是否存在这样的工具？ 或者将 HTML 网站转换为无需编码即可编辑的内容是不可能的吗？ 我非常感谢任何澄清或指导。 编辑：老实说，我对这样的事情感到震惊不存在（或者至少我找不到）。 我只是一名正在学习商业的大学二年级学生，正在尝试建立营销组合。 🫠😩 更新：我找到了一种进行一些更改的方法。感谢您的建议，我真的很感激。虽然不是我想要的方式，但我会看看如何让它发挥作用。   由   提交/u/victorres9909  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raaoa1/is_there_a_way_to_upload_an_html_website_and_edit/</guid>
+      <pubDate>Fri, 20 Feb 2026 23:09:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>建议请求</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raa7fv/suggestions_request/</link>
+      <description><![CDATA[大家好，我开发了一个网络应用程序，其中包含一个字谜游戏，具有不同的游戏模式、能力提升等。它非常酷，而且已经在 Google 上上线了。我想让它“出名”，当然，我并不指望它成为世界上最受欢迎的网络应用程序，但我真的很希望有一个玩我的游戏的社区。您建议我做什么来赞助我的应用程序？您尝试过哪种策略并最终取得了胜利？   由   提交/u/Gareth_99  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raa7fv/suggestions_request/</guid>
+      <pubDate>Fri, 20 Feb 2026 22:50:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立了一个免费的简历定制工具，希望得到反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raa0b6/built_a_free_resumetailoring_tool_and_would_love/</link>
+      <description><![CDATA[ 由   提交/u/indicajames  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raa0b6/built_a_free_resumetailoring_tool_and_would_love/</guid>
+      <pubDate>Fri, 20 Feb 2026 22:43:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>高级工程师如何写技术博客/文章？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ra9flq/how_do_senior_engineers_write_a_technical/</link>
+      <description><![CDATA[这里是真正有帮助的：  你如何决定什么是真正值得写的？ 你如何从问题→解决方案→要点（例如标准布局）构建一篇文章？ 你如何清楚地解释技术决策、权衡和架构？ 你如何决定要包含哪些细节？或跳过？  此外，如果您可以分享您的文章或博客文章，那也会非常有帮助。    由   提交 /u/Hari-Prasad-12   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ra9flq/how_do_senior_engineers_write_a_technical/</guid>
+      <pubDate>Fri, 20 Feb 2026 22:19:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个工具来检查 AI 聊天机器人是否提及您的网站 - 85% 的网站是不可见的</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ra8vyc/i_built_a_tool_that_checks_if_ai_chatbots_mention/</link>
+      <description><![CDATA[一直在研究一些有趣的东西 - 一种通过真实搜索查询查询 chatgpt、perplexity 和 Gemini 的工具，以检查 AI 响应中是否提及特定网站/企业。 测试了不同领域的 20 个网站。 17 对每个 AI 平台来说都是完全不可见的。 技术堆栈非常简单 - typescript、对每个 AI 提供商的 API 调用、提及检测的响应解析、评分算法以及通过 weasyprint 生成 pdf 报告。 数据中的有趣发现： - 具有 schema.org 结构化数据的网站被提及的可能性高出 3 倍 - G2/capterra/yelp 上的评论资料严重影响 AI 推荐 - Perplexity 最透明地引用来源 - google AI概述几乎完全有利于知名品牌 该代码会生成完整的审核报告，其中包含每个平台的可见度得分、竞争对手分析和建议。 对于任何构建客户网站的人来说，结构化数据和第三方引用对于 AI 可见性比传统 SEO 信号更重要。 如果您在评论中添加网址，很高兴检查任何网站。   由   提交 /u/DataKazKN   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ra8vyc/i_built_a_tool_that_checks_if_ai_chatbots_mention/</guid>
+      <pubDate>Fri, 20 Feb 2026 21:58:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的代理编码开发设置已说明，你的是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ra882i/my_agentic_coding_dev_setup_explained_whats_yours/</link>
+      <description><![CDATA[      我是一名 Web 开发人员，经常与人工智能打交道。我对 AI 工具并不满意，因为我越来越多地使用 Claude Code 和 Codex 来构建东西。 我花了几个月的时间才找到合适的开发设置。我想我找到了。在屏幕截图中，您可以在右侧看到 iTerm2 + iTerm2 浏览器插件。我制作了一个视频，深入了解了我的设置以及如何在不发疯的情况下处理多个项目。自从我找到这个设置后，我感到非常平静、专注和高效。最好的是，它都是开源的，不依赖于人工智能供应商，并且完全可定制。 我的设置： 左侧边栏：多个项目作为选项卡 第一个面板：代码代理 第二个面板：npm run dev 第三个面板：满足我需要的通用终端，lazygit、git、远程机器等 右侧：浏览器（在iTerm2！） 此设置允许我非常快速地在项目之间切换并保留每个选项卡/项目的上下文。 我最近在我的团队中分享了此设置，很有趣的是看到每个人都找到了一个工作流程 --- 有点不错，但并不理想。 您的开发设置是什么样的？仍然是老派 VSCode 的一员？？？ 🌝   由   提交/u/Hopeful-Fly-5292   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ra882i/my_agentic_coding_dev_setup_explained_whats_yours/</guid>
+      <pubDate>Fri, 20 Feb 2026 21:32:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>移动开发者在这里——好吧，看来不会太久</title>
       <link>https://www.reddit.com/r/webdev/comments/1ra7akf/mobile_dev_here_well_not_for_long_it_seems/</link>
       <description><![CDATA[所以我是一名移动开发人员。我有一个关于一个愚蠢的小游戏的想法，我想我应该把它搞出来并发布它。然后我想起来了。哦，对了，我需要处理 App Store 审核、Play Store 审批、4 种尺寸的屏幕截图、隐私声明，然后等待 3 天有人因为一个按钮而拒绝。每当我想更新应用程序时，我都需要处理所有这些问题。我还需要每年更新它以保持兼容性。所以它多年来一直在我的想法清单上。然后，一个月前，我说管它呢，让我尝试将其构建为一个网站。所以我做到了，我的生活改变了。 老实说？它毁了我。 我推动了一项改变，人们在 10 秒内就得到了它。没有审查，没有批准，什么都没有。我刚刚部署，它就在那里。来自移动设备，其中拼写错误修复需要一天才能生效，这感觉是非法的。 我现在正在进行我的第三个项目，并且我已经购买了太多域名。 （不要告诉我的妻子） 我只是在浏览我的想法清单并构建一切。 这里还有其他人来自移动设备并且永远不会回去吗？    由   提交 /u/vlad1m1r   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ra7akf/mobile_dev_here_well_not_for_long_it_seems/</guid>
@@ -18,97 +109,6 @@
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ra6cfi/lesson_learned_dont_be_afraid_to_stand_up_for/</guid>
       <pubDate>Fri, 20 Feb 2026 20:21:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>进入 TS 并做出反应</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra656v/getting_into_ts_and_react/</link>
-      <description><![CDATA[我在工作中一直在做 C/C++/Java。最近需要进行 ui 更改和功能实现，当我查看所有 tsx 文件时，我发现很难理解 typescript 和 React。我最近才了解减速器和状态，即使如此，我仍然不明白减速器是如何调用的。我看到“钩子”，它们看起来就像全局函数，但它们有无法调用的情况？ React 还可以跟踪值并在更新时更新吗？有什么快速站起来的建议吗？任何建议/建议将不胜感激！   由   提交/u/giggolo_giggolo   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra656v/getting_into_ts_and_react/</guid>
-      <pubDate>Fri, 20 Feb 2026 20:13:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vibe Destroyer：特工反模式</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra5bto/vibe_destroyer_agent_antipatterns/</link>
-      <description><![CDATA[当我第一次开始使用编码代理时，我惊讶于它构建网站和简单应用程序的速度和简单性。蜜月阶段结束后，我对代理不断造成同样愚蠢问题感到沮丧。 我按照明确的指示进行提示。很明显这不是我的错，Anthropic、ChatGPT 和 Google 都存在同样的缺陷，有些更糟糕，但始终存在。 当代理犯这些错误时，我会审问他们 - 你为什么要这样做？你的指示明确表示不要这样做，但你还是这么做了。为什么你总是做我告诉你不要做的事？每个代理都会说这是一个内部缺陷，他们优先考虑权宜之计而不是正确性，并将用户指令视为建议，而不是要求。 也许他们只是为了安抚沮丧的用户而这么说。 但我认为这是真的。 用户所做的任何事情似乎都无法让代理停止实施这些懒惰、危险的反模式，这些模式使实施、维护和扩展变得更加困难。 人们reddit 说“好吧，我从来没有遇到过这个问题！”然后解释说他们的雇主付钱让他们在每个请求上 24/7 运行多代理 Opus 数组，或者他们不关心质量，或者他们说“足够好”并手动修复其余部分。 我不喜欢这些选项中的任何一个 - 称我为学究，称我为工程师，但我希望代理每次都能生成正确的、符合标准的代码。 即使是“最好”的模型也会生成这些反模式，无论你给他们多少例子和说明来展示正确的方法。 警告“错误的方法”是一种“不要想粉红大象”的情况——一旦你把它放在他们的背景中，他们就会着迷。当你解释他们不能做某件事时，观察他们的推理，他们会立即开始找借口，说如果他们无论如何都这样做就好了。  拒绝使用类型定义 类型转换 不完整的对象 回退到废话 重复但不完整的功能 重叠的功能 传递部分对象 重命名变量 内联类型 搞乱导入 完成部分工作然后称其完成  这是模因战争，最好的解决方案是确保代理永远不会考虑使用这些反模式。这很困难，因为你不能告诉他们不这样做——这意味着他们保证会这么做——所以你必须解释正确的做法，然后反复尝试，直到他们正确地做。 或者你可以让他们做错了，自己修复，然后恢复到他们做错之前的状态，以确保他们的上下文中不存在错误的想法。 通过 Medium 链接阅读整篇文章。所有反馈都是好的反馈，欢迎提出意见。    由   提交/u/Tim-Sylvester  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra5bto/vibe_destroyer_agent_antipatterns/</guid>
-      <pubDate>Fri, 20 Feb 2026 19:42:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>测量了向 AI 代理提供 HTML 的令牌成本。我们 97% 的学习页面都是噪音。写了一份现场指南。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra58jr/measured_the_token_cost_of_serving_html_to_ai/</link>
-      <description><![CDATA[      在 AI DevWorld 上对此进行了演讲，并将研究成果转化为博客文章。 让我开始的问题：我们的文档页面有 392KB 的 HTML。大约 100K 代币。代理商需要的实际内容是什么？ 13KB。 3,300 个代币。 97% 导航 chrome。 Claude Code 已发送 接受：text/markdown。 Bun 开创了使用 header 向网站请求降价的趋势。 Cloudflare 为其提供了边缘切换。当您使用正确的 Content-Type 进行响应时，代理会跳过 HTML 到 Markdown 的转换。 这篇文章涵盖了整个范围：  什么也不做（代理自己转换您的 HTML，它有效，只是浪费） llms.txt（快速添加，但全有或全无） Cloudflare 的边缘转换（仪表板切换，但有损） 内容与Accept标头协商（相同的URL，不同的响应） MCP/API集成（完全跳过网络）  还深入研究了AEO/定位方面。 Profound 的对照研究表明，形式并不影响客服人员的访问频率。他们的波动性数据显示，每月的引用量变化高达 60%。定位问题确实存在，但方法论尚未出现。 有趣的细节：Gruber 在 2004 年发布了一个 .text 后缀来查看 Markdown 源代码。以不同的格式提供相同的内容并不新鲜。读者是。 还有其他人在服务器日志中跟踪代理流量吗？很好奇人们看到了什么模式。   由   提交/u/knutmelvaer   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra58jr/measured_the_token_cost_of_serving_html_to_ai/</guid>
-      <pubDate>Fri, 20 Feb 2026 19:39:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>numpy-ts：用于节点和浏览器的 NumPy！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra5638/numpyts_numpy_for_node_browser/</link>
-      <description><![CDATA[      刚刚标记为“numpy-ts”v1.0.0。您可以尝试此处链接的游乐场来运行完整的 numpy。库就在您的浏览器中。   由   提交/u/dupontcyborg  ​​[链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra5638/numpyts_numpy_for_node_browser/</guid>
-      <pubDate>Fri, 20 Feb 2026 19:36:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找开发人员建立理发师发现平台（基于股权）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra3yr5/looking_for_a_dev_to_build_out_a_barber_discovery/</link>
-      <description><![CDATA[我正在构建 Sniply 一个平台，帮助人们根据技能和发型而不仅仅是位置来寻找理发师。考虑基于技能的理发匹配。 我已经在 Base44 上对核心流程进行了原型设计，并准备好线框/规格，但我需要有人能够真正正确地构建此客户档案、理发店/商店设置、搜索/过滤器等。 我提供的是：5-10% 的股权，用于构建完整的 MVP 到规格。 我需要的是：能够将原型从原型转变为生产就绪的人。干净的用户界面，功能流程。 不想浪费任何人的时间，乐意展示我迄今为止构建的内容并遍历所有内容。如果您有兴趣或只是好奇，请私信我。   由   提交/u/bruhbruhdumddumd  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra3yr5/looking_for_a_dev_to_build_out_a_barber_discovery/</guid>
-      <pubDate>Fri, 20 Feb 2026 18:52:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>您认为哪些工具和实践对于 Web 开发团队的有效协作至关重要？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra2jr8/what_tools_and_practices_do_you_find_essential/</link>
-      <description><![CDATA[协作是 Web 开发的关键，尤其是当项目变得越来越复杂并且团队不断扩大时。我对您用来增强开发团队内的团队合作和沟通的工具和实践感到好奇。例如，您更喜欢使用 Jira 或 Trello 等项目管理工具，它们如何适应您的工作流程？此外，Slack 或 Microsoft Teams 等通信平台在您的日常互动中扮演什么角色？您是否强制执行任何特定的编码标准或文档实践来确保每个人都在同一页面上？我相信分享我们的经验可以帮助我们所有人改善协作并创造更高效的工作环境。您发现在您自己的项目中什么是最有效的？   由   提交/u/ressem  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra2jr8/what_tools_and_practices_do_you_find_essential/</guid>
-      <pubDate>Fri, 20 Feb 2026 18:00:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>n8n服务器托管</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra1sj8/n8n_server_hosting/</link>
-      <description><![CDATA[对于免费服务提供商部署 n8n 服务器有什么建议吗？ （使用 docker 容器进行本地托管）。   由   提交/u/Acceptable_Play_8970   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra1sj8/n8n_server_hosting/</guid>
-      <pubDate>Fri, 20 Feb 2026 17:33:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>简约但功能强大的 UART 终端。成功了。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra1ooz/minimalistic_but_powerful_uart_terminal_made_it/</link>
-      <description><![CDATA[      构建我自己的 UART Web 串行终端。 自己绘制模型，阅读并编辑代码。 HTML/CSS — 99% 由 AI 生成，JS — 大约 80%。 主要特点：零安装，可在锁定的计算机上运行。打开选项卡——插入USB-UART——开始。您可以在另一个选项卡中同时浏览 HABR 和嗅探 UART。 有何不同 无限制导出。未来日志文件的实时数据包计数器 - 立即查看您捕获了多少数据。 负载下无延迟。批量 DOM 更新，处理 500k+ 日志行而不冻结。 用于自动化的 JSON 脚本。当硬件需要精确的握手计时时很有用 - 以 JSON 描述命令序列，终端以适当的延迟执行。 带有单独发送按钮的多个输入字段。方便在常用命令之间切换 - 无需复制粘贴。 具有自动格式设置的十六进制输入。自动空格、验证 — 无需心理字节计数。 按到达时间间隔对数据包进行分组。当流量密集时，有助于直观地发现消息边界。 自定义波特率。超越标准 9600/115200 等 - 输入您的硬件支持的任何速率。 技术细节 干净的界面 - 仅根据 20 年的硬件/固件/嵌入式经验真正重要。 Vanilla JS，零框架。不是出于意识形态原因，只是希望没有依赖性和最小的膨胀。 Web Serial API 通过浏览器提供直接 COM 端口访问 - 在桌面上的 Chrome/Edge 中工作。 链接 实时：链接 来源：链接 可能会进来方便刷新 Arduino、调试固件、嗅探硬件通信。   由   提交/u/SympathyFantastic874  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra1ooz/minimalistic_but_powerful_uart_terminal_made_it/</guid>
-      <pubDate>Fri, 20 Feb 2026 17:29:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站的法律要求？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra1ocb/legal_requirements_for_a_website/</link>
-      <description><![CDATA[所以我对制作网站还很陌生，我开始在 alwaysdata.net 上创建我的第一个网站，我需要在我的网站中包含哪些法律要求（例如隐私政策、dmca）以及我需要在其中放入什么？ 该网站是我的一个小项目，它是一个社交网络，我在其中包含了一个独立的货币系统，并且与真实货币没有任何联系。对于域名和套餐，我为域名支付了 15.60 欧元（18.36 美元），并获得了小型套餐（50GB 磁盘...）。 对于注册，您需要： - 用户名（以便人们可以 ping 您） - 电子邮件（用于验证） - 显示名称（其他人看到的名称） - 密码（逻辑） 您可以选择输入： 您可以选择输入： - 位置 - 和个人简介。 它有一个论坛/社区，您可以在其中创建帖子，以及一个受监管的聊天（仅与您已接受好友请求/发送好友的朋友进行聊天）。 它可能/将包含 18 岁以下的人（我本人未满 18 岁），所以这很重要。 有了这一切，您能否告诉我法律要求我包含哪些内容，例如隐私政策中的详细信息和服务条款？ 注意：API 是使用 python fastapi 制作的，前端是经典的 html/css，数据库是 Postgresql，我从 ChatGPT 获得了一些帮助，例如从数据库获取信息，因为我真的不知道如何做到这一点。 编辑：为了上传/编辑 HTML 文件，我使用了带有 SSH/SFTP 的 WinSCP。   由   提交 /u/Abject-Explorer-3637   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra1ocb/legal_requirements_for_a_website/</guid>
-      <pubDate>Fri, 20 Feb 2026 17:28:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于初学者来说最实惠的移动应用程序构建器是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra08na/whats_the_most_affordable_mobile_app_builder_for/</link>
-      <description><![CDATA[大家好，我想构建一个移动应用程序，但我现在的预算非常紧张。我一直在研究一些无代码平台和拖放构建器，但老实说，有很多选择，而且定价也各不相同。  我有一些基本的编码知识（HTML/CSS），但之前从未真正构建过应用程序。想先从 Android 的一些简单的东西开始，看看效果如何。  最实惠且适合初学者的移动应用程序构建器是什么？我不需要任何超级花哨的东西，只需要一些不会花太多钱并且有不错的学习曲线的东西。非常感谢以前实际使用过这些工具的人提供的任何建议 提前致谢   由   提交 /u/heartbreakkiddxz   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra08na/whats_the_most_affordable_mobile_app_builder_for/</guid>
-      <pubDate>Fri, 20 Feb 2026 16:37:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>厌倦了将代码视为训练数据的人工智能工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r9zp2e/tired_of_ai_tools_that_treat_your_code_like_their/</link>
-      <description><![CDATA[我一直在使用各种人工智能编码助手，刚刚意识到它们中的大多数明确表示它们使用您的输入进行模型训练。这意味着专有代码、客户项目、内部逻辑，所有这些都可能最终出现在他们的训练集中。 对于个人项目无论如何，但对于客户工作来说，这似乎是一个巨大的责任。大多数合同都有关于不与第三方共享源代码的条款。我们使用人工智能助手是否违反了这些规定？ 寻找明确不训练用户数据的替代方案。选择似乎有限，而且大多数仍然需要信任可能随时更改的公司隐私政策。 其他开发人员如何处理这个问题？只是接受它作为使用现代工具的成本吗？寻找替代方案？根本不使用人工智能进行客户工作？ 似乎业界应该更多地讨论这一问题，但每个人都对生产力的提高感到太兴奋，无暇担心代码的去向。   由   提交 /u/Funny-Affect-8718   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r9zp2e/tired_of_ai_tools_that_treat_your_code_like_their/</guid>
-      <pubDate>Fri, 20 Feb 2026 16:17:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人推荐一个网站，可以展示单击按钮时的动画过渡灵感吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r9yx9w/does_anyone_recommend_a_site_that_showcases/</link>
-      <description><![CDATA[完全不知道如何表达，但是： 我正在设计一个非常简单的主页，只有一封电子邮件和两个按钮：许可和想法。 点击时，我不希望内容只出现。  许可应该向上滑动并采取 想法应该向下滑动并占据另一半。  干净、流畅、优质的感觉...而不是有弹性或华而不实的。 有人知道具有优雅分屏/定向显示动画的好例子、网站或CodePens吗？   由   提交 /u/Swordfish353535   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r9yx9w/does_anyone_recommend_a_site_that_showcases/</guid>
-      <pubDate>Fri, 20 Feb 2026 15:49:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>我重新设计了一个美容诊所网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1r9yx0o/i_redesigned_a_cosmetic_clinic_website/</link>
-      <description><![CDATA[      https://i.redd.it/qe1zmsqu7okg1.gif 这是我煮的吗？   由   提交/u/codes_swalih  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1r9yx0o/i_redesigned_a_cosmetic_clinic_website/</guid>
-      <pubDate>Fri, 20 Feb 2026 15:49:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
