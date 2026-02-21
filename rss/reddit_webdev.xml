@@ -4,7 +4,56 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 21 Feb 2026 06:37:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 09:27:19 GMT</lastBuildDate>
+    <item>
+      <title>带有数字伴侣的投资组合网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rambzl/portfolio_website_with_digital_companion/</link>
+      <description><![CDATA[嗨！ 今天我想与您分享我的作品集网站。我花了一年多的时间来设计、开发和成熟。它是基于我的想法的矛盾而设计的，即大多数网站只是交互式名片，缺乏利用网站作为媒介的独特特征。 后端运行在 PayloadCMS 上，我使用 Simple Analytics 进行分析。 据我所知，此设置符合 GDPR，因此没有 cookie 横幅，所有内容都是开源的，因为我重视透明度。   后端 (https://github.com/JeffreyArts/jeff-payload) 前端 (https://github.com/JeffreyArts/jeffreyarts.nl) 图标集 (https://github.com/JeffreyArts/jao-icons)  我使用它创建的主要功能打算在该网站中添加一些内容，包括在网页上爬行的小错误、拼贴布局和各种用户可参与的元素。  在网页上爬行的小错误（称为 Wurmpje）是专门为您生成的。它是您的小伙伴，可以与您一起探索这个网站。 拼贴布局是通过自定义布局引擎创建的，该引擎将内容放置为“块”，以创建一种混乱的、类似数字拼贴的体验。它具有响应性，而且制作起来确实很痛苦。 用户可参与的元素是能够以匿名用户的身份向项目添加喜欢的能力。当您验证电子邮件时，它还允许您在自己的个人收藏夹页面上发表评论和存储点赞。  我选择分享这个项目，主要是因为我想知道它运行得如何🥲，但也因为我认为它有一些功能可以将其与其他网站区分开来，但又不完全是噱头。所以希望有人能为自己的工作带来一些灵感。感谢所有反馈！ 此外，我正在考虑制作一个视频来解释这 3 个核心功能的工作原理。如果您对此感兴趣，请告诉我，如果感兴趣，它应该为您突出显示什么。   由   提交 /u/JeffreyArts   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rambzl/portfolio_website_with_digital_companion/</guid>
+      <pubDate>Sat, 21 Feb 2026 08:52:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>优秀的商业网站与高转化率的网站有何区别？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ram7xx/what_separates_a_good_business_website_from_a/</link>
+      <description><![CDATA[从 Web 开发的角​​度来看： 您认为哪些技术或架构决策会直接影响转化率？ 例如：  性能优化（核心 Web Vitals）？ 语义 HTML 和语义 HTML结构化数据？ 可访问性改进？ 分析驱动的迭代？ 后端性能或 API 响应时间？    由   提交 /u/Imaginary-Quit-5337   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ram7xx/what_separates_a_good_business_website_from_a/</guid>
+      <pubDate>Sat, 21 Feb 2026 08:45:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>元索引还是我被蝠鲼克隆了？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ralr5h/meta_indexing_or_im_i_tripin_on_mantas_cloning_me/</link>
+      <description><![CDATA[在我的机器人跟踪器和日志中注意到一些有趣的事情。 Facebook 元机器人最近一直在抓取我的页面。  有人看到这个或有一些见解吗？   由   提交/u/AEOfix  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ralr5h/meta_indexing_or_im_i_tripin_on_mantas_cloning_me/</guid>
+      <pubDate>Sat, 21 Feb 2026 08:17:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个免费的 WebGL 渐变生成器，具有 8 种着色器模式，并导出到 React/Tailwind/CSS/Figma/Video [makegradient.com]</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rakujg/i_built_a_free_webgl_gradient_generator_with_8/</link>
+      <description><![CDATA[大家好 — 我一直在研究 MakeGradient，这是 makegradient.com 上的一个免费渐变工具。 它在 WebGL 中运行真正的 GLSL 着色器，而不是 CSS 渐变。有 8 种模式：流体网格、极光、深海、全息、厚涂、光谱、分形和颗粒。每个都使用不同的技术（域扭曲、Voronoi、卷曲噪声、万花筒折叠等） 颜色是在 Oklch 空间中生成的，因此混合在感知上保持干净。  导出：  - React 组件（复制粘贴）  - Tailwind 配置  - CSS 径向渐变后备  -独立的 embed.js 脚本（放入任何网站）  - Figma 矢量 SVG（可编辑渐变）或光栅  - 10 秒 MP4/WebM 视频  - PNG 尝试一下 https://www.makegradient.com 无需注册，无水印，永远免费使用。很高兴听到您的反馈。   由   提交/u/uxdonkey  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rakujg/i_built_a_free_webgl_gradient_generator_with_8/</guid>
+      <pubDate>Sat, 21 Feb 2026 07:22:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>自由开发人员和工程师如何应对和应对人工智能的影响？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rakpwe/how_are_freelance_developers_and_engineers_coping/</link>
+      <description><![CDATA[我是一名全栈开发人员，非常害怕失败、完美主义和暴露！我在一家大公司工作了6年，11个月前被解雇了。这几个月我一直在尝试做自由职业，但由于恐惧而无法开始。然后是人工智能编码代理！ 我并不讨厌 Vive 编码员，但我看到过一些 Reddit 帖子，其中一些 Vive 编码员作为自由职业者承担了 Web 开发项目，而且他们也交付了。当然，其中一些提供的质量很低，一些则放弃了。 此外，客户也有可能愿意支付 20 或 200 美元来构建自己的应用程序（他们已经在这样做），而不是向经验丰富的开发人员支付高价。 所有这些想法都让我感到害怕并扰乱了我的睡眠！你的情况怎么样，还有希望吗？    由   提交 /u/swb_rise   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rakpwe/how_are_freelance_developers_and_engineers_coping/</guid>
+      <pubDate>Sat, 21 Feb 2026 07:14:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude Code 创始人：“编码是解决问题的”</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raketd/creator_of_claude_code_coding_is_solved/</link>
+      <description><![CDATA[      Boris Cherny 是 Claude Code（一个用 React 编写的 cli 代理。这不是玩笑）的创建者，并且负责以下拥有超过 5000 个问题的存储库：https://github.com/anthropics/claude-code/issues 既然编码解决了，我想知道为什么他们不直接使用 Claude Code 来调查并解决 Claude Code 存储库中的所有问题，一弹出呢？哎呀，我想知道如果编码解决了，为什么还会出现任何问题？谁或是什么制造了所有新的错误，小妖精？   由   提交/u/Gil_berth  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raketd/creator_of_claude_code_coding_is_solved/</guid>
+      <pubDate>Sat, 21 Feb 2026 06:57:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>我自己的粉色黑客新闻</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rakekp/my_own_hackernews_in_pink/</link>
+      <description><![CDATA[reddit 上的一个（明智的？）人曾经说过，每个人一生中都应该构建一次自己的黑客新闻 UI -&gt;所以我做了hackernews.pink。这是一个纯粹有趣的项目，主要在我的家庭实验室中运行。我从来都不是真正的前端开发人员，但有了 Claude，我可以突然为我的后端构建 UI，这些 UI 并非无法使用，这让我很高兴。这是一个 PWA，应该在移动和桌面上都能很好地工作。对于身份验证，我使用万能钥匙只是因为我真的很喜欢万能钥匙的概念，并且我对收集您的数据或以此赚钱没有兴趣。我内置了基于嵌入的“为您”推荐和一个不错的趋势算法。也许有人会喜欢它。显然，我会对访客感到高兴，如果不是的话，那实际上也很好:-)但是如果有人有反馈或改进建议，我会特别高兴听到这些。   由   提交/u/realGurkenkoenig   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rakekp/my_own_hackernews_in_pink/</guid>
+      <pubDate>Sat, 21 Feb 2026 06:57:03 GMT</pubDate>
+    </item>
     <item>
       <title>制作了 SaaS 托管成本计算器</title>
       <link>https://www.reddit.com/r/webdev/comments/1rajpe8/made_a_saas_hosting_cost_calculator/</link>
@@ -25,13 +74,6 @@
       <description><![CDATA[      templepear 是我的名字（我是越南人），大致翻译成英语！ 是的，我使用车床几何形状对梨进行了数学计算。别问为什么，梨子看起来就完全像梨子。我将其编码为单个 index.html 网站。有问题吗？ 我知道性能很糟糕，移动优化也很糟糕，但稍后会解决这个问题：/  无论如何，链接（电子邮件是占位符）https://vietnamesecoder.github.io/templepeardesign   由   提交/u/CombinationStunning8  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rajbrp/made_this_one_page_website_for_my_agency_would/</guid>
       <pubDate>Sat, 21 Feb 2026 05:56:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>“语义大脑”-> 本地 llm 支持的知识图生成器和查看器。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raj0bc/semantic_brain_local_llm_powered_knowledge_graph/</link>
-      <description><![CDATA[由于我决定发布更多实验， 我特此介绍“语义大脑”。它构建在后端通过 Bun 和 node-ollama-cpp 运行的本地 AI 之上，而前端由 Three.js 结合强大的 d3-force-graph 提供支持。 它允许您生成相关概念的图表，并根据指定方面对它们进行评分仅使用本地运行的人工智能模型。我使用 Qwen2.5 7B Instruct 模型生成示例图表。 可视化取决于选择预览的方面 - 节点颜色会相应调整，更重要的是，图表会重新排列，以便更好的匹配被拉向中心，而得分较低的节点则被推得更远。 模型使用预定义的 JSON 语法进行检查。 JSON 结构在模型级别强制执行，因此输出始终采用正确的格式。 查看存储库或直接访问演示 使用更大的模型，您可能会得到更有趣的结果。然而，在我的硬件（带有 12GB VRAM 的 RTX 3070）上，7B 型号似乎是一个很好的平衡 - 响应很快并且大部分都有意义。 我还不确定接下来要做什么，所以非常欢迎任何评论或建议。   由   提交/u/kostrubaty  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raj0bc/semantic_brain_local_llm_powered_knowledge_graph/</guid>
-      <pubDate>Sat, 21 Feb 2026 05:39:22 GMT</pubDate>
     </item>
     <item>
       <title>如何选择云/数据库堆栈而不被淹没或被供应商锁定？</title>
@@ -67,48 +109,6 @@
       <description><![CDATA[      我有一个网络应用程序，我在大约两年前就有了一个想法，在这甚至是一个术语之前，vibe 就对其进行了编码。  这是一个非常空白的画布想法，意味着一些非原创且非常基本的东西。但如果有人有足够的勇气来测试它，并让我知道你的想法，那就太棒了！ 它是一个地理定位缓存应用程序，您可以创建和探索用户创建的缓存，并将数字礼物放入其中供其他用户查找。  只做一些我认为很酷又有趣的事情。如果您喜欢请告诉我，如果不喜欢请告诉我。  记得我已经有一年没接触过这个了，而且我想是在大约两年前的一个周末完成的。  如果允许，我会将链接放在评论中   由   提交/u/TheBlueEyedTim   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ragzt4/hey_guys_just_a_little_thing_i_want_your_thoughts/</guid>
       <pubDate>Sat, 21 Feb 2026 03:55:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>“这只是短信”：客户通过我的代码赚取了超过 15,000 美元，现在威胁要因续订费而离开 Wix</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rafpmj/its_just_text_client_earned_15k_on_my_code_now/</link>
-      <description><![CDATA[老实说我无话可说。我为该客户构建了三个网站和一个自定义平台。仅去年一年，我开发的平台就为他创造了超过 15,000 美元的收入。它稳定、快速，而且转换明显。 托管和维护的年度续订（只需几百美元）出现了，他询问了全面重塑品牌的报价。他的原话是：“我只需要更改文本。如果你向我收费太多，我就回到 Wix。”显然，这不仅仅是文本更改，而是完全更新，只保留相同的颜色，忽略了用户体验调整、搜索引擎优化迁移和品牌重塑的实际价值。 老实说，压力已经累积到我只想让他走的程度。如果他认为Wix那么伟大，那就让他来处理吧。但这是我的困境：我不想只是“移交”我。我为了几分钱而投入这个平台的所有自定义逻辑和辛勤工作，尤其是在这种程度的不尊重之后。 我应该做什么？为了我自己的心理健康，就交出钥匙然后走开吗？我要“脱衣”吗？他迁移之前的自定义专有逻辑（因为他只支付服务费用，而不是我的自定义代码的完整 IP）？我如何保护我的工作而不成为“坏人”？同时确保他意识到搬到 Wix 意味着失去我为他构建的一切？ 我累了。 编辑：没有书面合同，只有“网站开发”的发票   由   提交 /u/Gricekkk   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rafpmj/its_just_text_client_earned_15k_on_my_code_now/</guid>
-      <pubDate>Sat, 21 Feb 2026 02:52:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>我无法破解系统设计回合的原因（jk）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raer58/reason_i_cant_crack_system_design_rounds_jk/</link>
-      <description><![CDATA[      由   提交/u/karshs  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raer58/reason_i_cant_crack_system_design_rounds_jk/</guid>
-      <pubDate>Sat, 21 Feb 2026 02:07:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于高性能、本地 SEO 服务网站来说，Gutenberg + Kadence 仍然是 2026 年的最佳设置吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1radgrs/is_gutenberg_kadence_still_the_best_setup_in_2026/</link>
-      <description><![CDATA[我拥有一家基于服务的公司，我正在努力弄清楚我想要构建什么类型的 WordPress 网站。我真的需要一些专家的指导。 （不是应用程序，不是电子商务） 我的问题：  2026 年 Gutenberg + Kadence 仍然是 SEO + 性能最明智的长期举措吗？ 我是否过度优化堆栈？ 对于此类业务，Bricks 或GeneratePress 会比此设置提供有意义的优势吗？ 您在此删除或替换的任何内容下面列出的堆栈？  我的目标是： • SEO 优先架构 • 主导本地搜索结果 • 高转化率 - 潜在客户生成 - 仅咨询预订 • 移动优先（预计移动流量超过 70%） • 奢华美学 • 干净的后端以进行长期内容管理 经过深入研究，我倾向于： • WordPress（自托管） • Gutenberg（本机块编辑器） • Kadence Theme Pro • Kadence Blocks Pro • RankMath Pro • WP Rocket • ShortPixel • Cloudflare CDN • 托管在 Cloudways 上(Vultr HF) 或 Rocket.net 没有 Elementor，没有 Divi，没有重型构建者。 该网站将具有： • 位置服务 SEO 页面 • 多步骤咨询表 • 本地架构 • 结构化内部链接 • 主题权威博客 这纯粹是一项本地的面对面服务网站。没有在线程序或数字产品销售。 我更关心速度、核心网络生命和干净的 SEO 结构，而不是拖放的便利性。 希望得到任何构建高性能本地服务网站的人的反馈。 提前致谢。   由   提交 /u/s-e-a-l-t-e-a-m-6   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1radgrs/is_gutenberg_kadence_still_the_best_setup_in_2026/</guid>
-      <pubDate>Sat, 21 Feb 2026 01:08:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在基于网络的工具中添加了数字输入，这样我们就可以精确地平移和旋转对象或顶点。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rad6wt/i_added_numeric_input_to_my_webbased_tool_so_we/</link>
-      <description><![CDATA[      源代码：https://github.com/sengchor/kokraf   由   提交/u/Sengchor  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rad6wt/i_added_numeric_input_to_my_webbased_tool_so_we/</guid>
-      <pubDate>Sat, 21 Feb 2026 00:55:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>我总是跳过脚手架步骤（以及为什么我的副项目不断失败）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1racqi9/the_scaffolding_step_i_was_always_skipping_and/</link>
-      <description><![CDATA[在过去两年中启动了大约 20 个副业项目。大概完成了 3 个。 模式总是一样的。兴奋起来，打开一个新的存储库，花两个小时与自己争论堆栈，写 300 行意大利面条，然后在发布之前被其他事情分散注意力。 真正打破循环的是什么： 实际编码的光标。自动完成功能很不错，但描述我想要的内容并在不接触它的情况下将其填充到样板中，这是我节省实时时间的地方。 在我编写任何内容之前，使用 Lattice Architect 来构建项目结构。您描述您正在构建的内容，它会生成一个 PROJECT_GUIDE.md，选择一个堆栈，连接 CI/CD，并发出一个设置命令。五分钟后，您就拥有了一个实际的项目，而不是一个随机文件夹。 (latticeai.app/architect) CI 的 GitHub 操作。每次推送时进行 Lint 和测试，没什么花哨的。 线性于任务跟踪的概念。更少的障碍。 用于自动部署的铁路或 Vercel，具体取决于我正在构建的内容。 脚手架步骤是我一直视为可选的步骤。它不是可选的。当一个项目从真实的结构开始时，你更有可能看到它。 你的设置是什么样的，可以让某些东西快速落地？   由   提交 /u/Acrobatic_Task_6573   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1racqi9/the_scaffolding_step_i_was_always_skipping_and/</guid>
-      <pubDate>Sat, 21 Feb 2026 00:35:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>追随者按钮</title>
-      <link>https://www.reddit.com/r/webdev/comments/1racqbf/follower_button/</link>
-      <description><![CDATA[      嗨。我已经创建了我的网站，但我想要“关注我”选项。我可以选择为其他社交添加“关注我”小部件，但不能为我创建的网站添加“关注我”小部件。我想要这样的东西。是否可以。我是新手，请多多指教，哈哈   由   提交/u/changbin_delulu_wife   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1racqbf/follower_button/</guid>
-      <pubDate>Sat, 21 Feb 2026 00:35:23 GMT</pubDate>
     </item>
     </channel>
 </rss>

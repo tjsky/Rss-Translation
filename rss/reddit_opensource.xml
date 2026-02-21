@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 21 Feb 2026 06:37:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 09:27:27 GMT</lastBuildDate>
+    <item>
+      <title>Google 的侧载锁定将于 2026 年 9 月到来，以下是推迟的方法</title>
+      <link>https://www.reddit.com/r/opensource/comments/1ralqrl/googles_sideloading_lockdown_is_coming_september/</link>
+      <description><![CDATA[万一您错过了，Google 要求每个应用程序开发人员向他们注册、支付费用、交出政府 ID 并上传他们的签名密钥，以便他们的应用程序可以安装在您的手机上。即使是与 Play 商店无关的应用程序。这将从 2026 年 9 月开始。 F-Droid 应用程序、来自 GitHub 的随机有用工具、学生在自己该死的手机上测试自己的应用程序，除非开发人员首先通过 Google，否则所有这些都会被阻止。他们一直说“侧面加载不会消失”。而他们自己的官方页面字面意思是，所有来自未经验证的开发人员的应用程序都将在经过认证的设备上被阻止。每部手机都运行 Google 服务，所以基本上每部 Android 手机都是如此。 最棒的是，Play 商店已经充满了通过“验证”的诈骗应用程序和恶意软件。但当然，让我们惩罚独立开发者和爱好者吧。 keepandroidopen.org 项目展示了整个情况，并提供了您可以采取的实际步骤，填写 Google 自己的反馈调查、联系监管机构等。如果您不信任随机链接，只需搜索“保持 Android 开放”即可。你会找到它的。 说真的，如果你真的关心这个问题，现在是时候大声喧哗了，以免为时已晚。   由   提交 /u/funkvay   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1ralqrl/googles_sideloading_lockdown_is_coming_september/</guid>
+      <pubDate>Sat, 21 Feb 2026 08:16:47 GMT</pubDate>
+    </item>
     <item>
       <title>我可以使用旧的开源项目使用相同的名称吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1rajmed/picking_up_an_old_opensource_project_can_i_use/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[      像许多开源存储库一样，我的也收到了 AI 溢出的垃圾邮件。 我的尝试是“提示注入”垃圾邮件代理拒绝做最低限度的工作，并尝试尽可能执行贡献指南。 它是如何工作的：  AGENTS.md 将触发机器人阅读贡献指南 贡献指南定义了 slop  如果 PR 太马虎，它将被拒绝 机器人意识到这一点，因此它可以拒绝工作或在至少通知用户   PR 模板现在有复选框作为遵循准则的证明  有人愿意查看我的 PR 吗？执行此操作的其他项目示例？   由   提交/u/eljojors  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1r97kc8/prompt_inject_ai_agents_to_avoid_slop/</guid>
       <pubDate>Thu, 19 Feb 2026 18:44:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个免费的桌面应用程序来安排推文，而不使用 X API</title>
-      <link>https://www.reddit.com/r/opensource/comments/1r91va3/i_built_a_free_desktop_app_to_schedule_tweets/</link>
-      <description><![CDATA[我一直在开发我的第一个开源桌面应用程序：X 帖子管理。 它是一个直接从计算机创建、管理和安排 X (Twitter) 帖子的工具，无需使用官方 API。 为什么？因为 X API 已经变得非常昂贵，并且对于小型创作者和独立开发者来说难以访问。因此，我构建了一个使用浏览器自动化的本地解决方案。 主要功能： - 创建和发布带有文本和图像的帖子 - 提前安排帖子 - 草稿管理 - 日历视图 - 帖子历史记录 - 仅本地存储（无外部服务器） 一切都在您的计算机上运行。没有 API 密钥，没有订阅。 我很想得到开发者和早期用户的反馈！   由   提交/u/Haaperboii  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1r91va3/i_built_a_free_desktop_app_to_schedule_tweets/</guid>
-      <pubDate>Thu, 19 Feb 2026 15:17:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
