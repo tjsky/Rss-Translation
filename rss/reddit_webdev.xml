@@ -4,11 +4,67 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 21 Feb 2026 04:27:07 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 06:37:30 GMT</lastBuildDate>
+    <item>
+      <title>制作了 SaaS 托管成本计算器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rajpe8/made_a_saas_hosting_cost_calculator/</link>
+      <description><![CDATA[      这不是我的第一次；我放弃了准确，只是坚持估计。希望它对其他人可视化成本有用。   由   提交 /u/h____   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rajpe8/made_a_saas_hosting_cost_calculator/</guid>
+      <pubDate>Sat, 21 Feb 2026 06:17:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>在淹没在文档、项目链接和设计灵感选项卡（寻找反馈）之后，我使用 3D 知识图应用程序构建了第二个大脑系统</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rajcsq/i_built_a_second_brain_system_with_a_3d_knowledge/</link>
+      <description><![CDATA[      我是一名开发人员，我一直遇到同样的问题：我保存了大量的文档、GitHub 存储库、项目链接和设计灵感，但后来我记不起我保存了什么或为什么它很重要。 所以我构建了一个名为 Neuron，最有帮助的功能是 3D 交互式图表，它通过上下文连接所有内容，而不是将其保留为随机书签。 一个简单的工作流程对我有帮助：  在工作时快速捕获有用的链接/注释 使用 3D 图表来连接文档、项目决策和灵感 运行一个简短的回忆会话快速展现我真正需要的东西  我希望其他开发者就哪些内容真正有用、哪些内容不必要提供诚实的反馈。   由   提交/u/Ornery-Length8689   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rajcsq/i_built_a_second_brain_system_with_a_3d_knowledge/</guid>
+      <pubDate>Sat, 21 Feb 2026 05:58:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>为我的机构制作了这一页网站 - 希望得到一些反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rajbrp/made_this_one_page_website_for_my_agency_would/</link>
+      <description><![CDATA[      templepear 是我的名字（我是越南人），大致翻译成英语！ 是的，我使用车床几何形状对梨进行了数学计算。别问为什么，梨子看起来就完全像梨子。我将其编码为单个 index.html 网站。有问题吗？ 我知道性能很糟糕，移动优化也很糟糕，但稍后会解决这个问题：/  无论如何，链接（电子邮件是占位符）https://vietnamesecoder.github.io/templepeardesign   由   提交/u/CombinationStunning8  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rajbrp/made_this_one_page_website_for_my_agency_would/</guid>
+      <pubDate>Sat, 21 Feb 2026 05:56:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>“语义大脑”-> 本地 llm 支持的知识图生成器和查看器。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raj0bc/semantic_brain_local_llm_powered_knowledge_graph/</link>
+      <description><![CDATA[由于我决定发布更多实验， 我特此介绍“语义大脑”。它构建在后端通过 Bun 和 node-ollama-cpp 运行的本地 AI 之上，而前端由 Three.js 结合强大的 d3-force-graph 提供支持。 它允许您生成相关概念的图表，并根据指定方面对它们进行评分仅使用本地运行的人工智能模型。我使用 Qwen2.5 7B Instruct 模型生成示例图表。 可视化取决于选择预览的方面 - 节点颜色会相应调整，更重要的是，图表会重新排列，以便更好的匹配被拉向中心，而得分较低的节点则被推得更远。 模型使用预定义的 JSON 语法进行检查。 JSON 结构在模型级别强制执行，因此输出始终采用正确的格式。 查看存储库或直接访问演示 使用更大的模型，您可能会得到更有趣的结果。然而，在我的硬件（带有 12GB VRAM 的 RTX 3070）上，7B 型号似乎是一个很好的平衡 - 响应很快并且大部分都有意义。 我还不确定接下来要做什么，所以非常欢迎任何评论或建议。   由   提交/u/kostrubaty  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raj0bc/semantic_brain_local_llm_powered_knowledge_graph/</guid>
+      <pubDate>Sat, 21 Feb 2026 05:39:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何选择云/数据库堆栈而不被淹没或被供应商锁定？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rail0y/how_do_i_choose_a_clouddb_stack_without_getting/</link>
+      <description><![CDATA[大家好， 我目前正在使用 Go 开始我的第一个后端项目。虽然我对这门语言很熟悉，但我对 DevOps 或云基础设施的经验为零，而且我对 2026 年可用的选项感到有点不知所措。 我对该堆栈的主要目标是：  开发人员经验：我想专注于编写 Go 代码，而不是花费大量时间配置 VPC 或 IAM 角色。 成本：它需要符合预算在开发和低流量阶段。 可移植性：我希望避免严重的供应商锁定，以防随着项目的发展需要迁移到 AWS 或 GCP 等主要提供商。  当前独立开发人员的行业标准是什么？我应该花时间学习“大”知识吗？立即提供者，或者像 Neon 或 Supabase 这样的平台被认为是“生产就绪”的实现长期增长？ 如果您能提供有关这些工具的建议或个人经验，我将不胜感激。谢谢！ 我已经检查了常见问题解答，但我特别好奇使用 Go 是否会改变对托管数据库的建议，而不是直接跳到 AWS 等主要云提供商。   由   提交 /u/ivanezzzzz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rail0y/how_do_i_choose_a_clouddb_stack_without_getting/</guid>
+      <pubDate>Sat, 21 Feb 2026 05:16:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>TailGrids v3.0 就在这里 - 现代 Tailwind React UI 组件库 ✨</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raigdr/tailgrids_v30_is_here_modern_tailwind_react_ui/</link>
+      <description><![CDATA[      嘿伙计们 👋 我们刚刚发布了 Tailgrids v3.0，这是我们 Tailwind CSS React UI 组件系统迄今为止最大的更新。 Tailgrids Tailgrids 最初是一组复制粘贴Tailwind 块和组件，但在 v3.0 中，我们将其重建为现代、TypeScript 优先的 React UI 库，并针对实际项目进行了工具和工作流程升级。 v3.0 中的亮点：  在 TypeScript 优先的 React 中重写的组件，以获得更干净、更安全的 API。 要安装的 CLI 工具组件立即添加到您的项目中。 600 多个 UI 组件和块 - 现代、一致和高品质的设计 设计标记 + 主题控制，以便您可以全局自定义颜色、间距、排版和深色模式。 交互式文档 (MDX) 提供预览和实时代码。 更好的模板，具有完整的多页面结构适用于仪表板、营销网站、管理面板、SaaS 产品。 专门的免费 SVG 图标库，旨在与 Tailgrids + Tailwind 配合使用。 新 Figma 设计系统，具有令牌、布局和与代码组件的视觉奇偶性。  此更新不仅仅是更多组件，而是专注于真实工作流程的现代开发人员体验 — CLI、TS 支持、主题令牌、文档和设计系统对齐。 在这里查看： 👉 https://tailgrids.com 并让我知道您的想法和反馈 🙌   由   提交 /u/musharofchy   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raigdr/tailgrids_v30_is_here_modern_tailwind_react_ui/</guid>
+      <pubDate>Sat, 21 Feb 2026 05:09:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>编码新手</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rahvx2/new_to_coding/</link>
+      <description><![CDATA[      到目前为止，我对自己感到非常自豪，将继续致力于我的第一个作品集。  https://preview.redd.it/mn06ljni1skg1.png?width=1914&amp;format=png&amp;auto=webp&amp;s=c8cc4aadd0d888f924e616ccb7042bccd2b73954   由   提交 /u/str8ac3   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rahvx2/new_to_coding/</guid>
+      <pubDate>Sat, 21 Feb 2026 04:40:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了未记录的第 3 方 API 更改破坏我的应用程序，因此我构建了 Sentinel 来被动检测 JSON 模式漂移。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rahsca/i_got_tired_of_undocumented_3rdparty_api_changes/</link>
+      <description><![CDATA[大家好， 如果您使用外部 REST API 的时间足够长，您就会知道其中的痛苦：提供程序会默默地删除一个字段，将字符串更改为整数，或者将以前必需的字段设为可选。您通常只会在生产应用程序引发空指针异常或数据库拒绝类型时发现。 我构建了 PHP Sentinel 来解决此问题。它是 PHP 8.3+ 的被动 API 合约监视器，位于您的 HTTP 客户端层，并监视从您使用的 API 返回的 JSON。 它的实际用途：您无需手动编写任何架构或规则。 Sentinel 只是默默地观察流量。  采样：它会监视端点的前 X 个成功的 JSON 响应。 推理：它会构建概率上准确的 JSON 架构（例如，确定哪些字段是真正必填，哪些字段只是可选并且有时会丢失）。 强化：一旦达到样本阈值（默认 20），就会锁定基线架构。 偏差检测：从那时起，每个新响应都会与基线进行实时比较。如果结构“漂移” （如出现新字段，或所需类型更改），它会调度一个事件并记录它。  核心功能：  零接触：将其放入 PSR-18 客户端、Laravel Http:: 外观或 Symfony 客户端中，然后就不用管它了。 智能漂移规则： 它知道可选字段缺失并不是漂移，但之前必填字段的消失是一个BREAKING更改。新的未记录字段只是ADDITIVE。 自动修复：您可以将其配置为自动“重新强化”字段。并在报告偏差后构建新的基线，这样它就可以适应合法的 API 演变，而无需接触代码。 Framework Native： 附带一个开箱即用的 Laravel ServiceProvider 和 Symfony Bundle，以及一个 artisan/console CLI 工具来手动检查推断的模式。  我这样做的原因： 为其他人编写和维护 OpenAPI 规范人们的 API 很糟糕。这是一个被动的安全网，当负载发生变化时，它会向您发出 Slack/log 警报，而不是稍后挖掘堆栈跟踪。 它经过了全面的单元测试 (Pest) 和严格类型化 (PHPStan Level 8)。 Repo： https://github.com/malikad778/php-sentinel 我刚刚推送了 v1.0.3，我很想听听社区的想法。第三方 API 漂移中是否存在让您感到困扰的特定边缘情况？任何有关架构或推理引擎的反馈都很棒。 谢谢！   由   提交/u/Xdani778  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rahsca/i_got_tired_of_undocumented_3rdparty_api_changes/</guid>
+      <pubDate>Sat, 21 Feb 2026 04:35:44 GMT</pubDate>
+    </item>
     <item>
       <title>嘿伙计们，只是一件小事，我想听听你们的想法</title>
       <link>https://www.reddit.com/r/webdev/comments/1ragzt4/hey_guys_just_a_little_thing_i_want_your_thoughts/</link>
-      <description><![CDATA[   我有一个网络应用程序，我在大约两年前就有了一个想法，在这甚至是一个术语之前，vibe 就对其进行了编码。  这是一个非常空白的画布想法，意味着一些非原创且非常基本的东西。但如果有人有足够的勇气来测试它，并让我知道你的想法，那就太棒了！ 它是一个地理定位缓存应用程序，您可以创建和探索用户创建的缓存，并将数字礼物放入其中供其他用户查找。  只做一些我认为很酷又有趣的事情。如果您喜欢请告诉我，如果不喜欢请告诉我。  记得我已经有一年没接触过这个了，而且我想是在大约两年前的一个周末完成的。  如果允许，我会将链接放在评论中   由   提交/u/TheBlueEyedTim   [链接] [评论] ]]></description>
+      <description><![CDATA[      我有一个网络应用程序，我在大约两年前就有了一个想法，在这甚至是一个术语之前，vibe 就对其进行了编码。  这是一个非常空白的画布想法，意味着一些非原创且非常基本的东西。但如果有人有足够的勇气来测试它，并让我知道你的想法，那就太棒了！ 它是一个地理定位缓存应用程序，您可以创建和探索用户创建的缓存，并将数字礼物放入其中供其他用户查找。  只做一些我认为很酷又有趣的事情。如果您喜欢请告诉我，如果不喜欢请告诉我。  记得我已经有一年没接触过这个了，而且我想是在大约两年前的一个周末完成的。  如果允许，我会将链接放在评论中   由   提交/u/TheBlueEyedTim   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ragzt4/hey_guys_just_a_little_thing_i_want_your_thoughts/</guid>
       <pubDate>Sat, 21 Feb 2026 03:55:49 GMT</pubDate>
     </item>
@@ -53,62 +109,6 @@
       <description><![CDATA[      嗨。我已经创建了我的网站，但我想要“关注我”选项。我可以选择为其他社交添加“关注我”小部件，但不能为我创建的网站添加“关注我”小部件。我想要这样的东西。是否可以。我是新手，请多多指教，哈哈   由   提交/u/changbin_delulu_wife   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1racqbf/follower_button/</guid>
       <pubDate>Sat, 21 Feb 2026 00:35:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们允许任何人将代码合并到实时站点。这就是长达 7 周的混乱局面。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1racft4/we_let_anyone_merge_code_to_a_live_site_heres/</link>
-      <description><![CDATA[      有人试图删除整个网站。他们一直在获胜 - 直到发明了反对票。 OpenChaos 是一个存储库，任何人都可以提交 PR，社区根据反应进行投票，投票最多的 PR 每天都会合并。 存储库：https://github.com/skridlevsky/openchaos 实时站点：https://openchaos.dev 博客：https://blog.openchaos.dev 这是完整的时间表，第 1-7 周： 第 1 周。网站最初是一个简单的、最小的 Next.js 启动器。你只能竖起大拇指来投票，并且每周都会进行合并。人们开始到达。 第 2 周。有人提交了删除所有内容的 PR。它是领先的。然后另一位公关提出了反对票——政府关门退出了竞选。反对票集成赢得了 904 票赞成，超过了 Rust 重写的 753 票赞成和 273 票反对。民主是有效的。 第 3 周。每日合并。混乱加速。一周内：IE6 GeoCities UI、PR 健康指标、Hall of Chaos、dickbutt、cat。 第 4 周。Clippy 出现了。另外：自动合并（已损坏）、毫秒倒计时让时间感觉更快、六到七的支持、1.337% 的几率什么也看不到，还有 10% 的几率任何 PR 链接都会让你翻滚。 第 5 周。投票的现场身份验证到来 - 混乱中出现的实际治理。也是在这一周，我们得到了 fartscroll.js、freeDoom 和 404 猫。 第 6 周。只有标题押韵的 PR 才能合并。该网站变成了纯 ASCII 文本。椰子图像已提交到存储库。 第 7 周。PR 现在可能会死亡。 SENECTUS IPSA EST MORBUS - 老年本身就是一种疾病。 PR 越老，永久自动关闭的可能性就越大。纽约时报新闻与加密/解密集成。现在，您有 50/50 的机会登陆 Web 2.0 或 ASCII 版本，并配有 GTA 风格的无线电。 下一步： 明天 19:00 UTC：第一个赢得 100 美元赏金的自动合并。一个小实验，看看当你向开源引入金钱时会发生什么。一次性看看它如何发挥作用 - 踩水。 除此之外：我退后一步，让这成为纯粹的社区驱动，主要只是扫描合并队列是否存在潜在的安全漏洞。   由   提交/u/Equivalent-Yak2407   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1racft4/we_let_anyone_merge_code_to_a_live_site_heres/</guid>
-      <pubDate>Sat, 21 Feb 2026 00:22:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] 交互式规则引擎游乐场 — 使用 React + TypeScript 构建</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rabz06/showoff_saturday_interactive_rule_engine/</link>
-      <description><![CDATA[      为我的开源规则引擎项目构建交互式演示应用程序。 Playground 允许您触发事件、实时查看引擎管道动画、按条件调试规则以及可视化事件-规则-操作关系。 堆栈：React 19、TypeScript、Vite、Tailwind CSS v4、Zustand、Framer Motion 实时：https://are-playground.netlify.app 来源：https://github.com/BeratARPA/ARE 欢迎提供反馈 - 特别是在用户体验方面。对于第一次看到规则引擎的人来说，流程容易理解吗？  https://preview.redd.it/3flz0481oqkg1.png?width=2515&amp;format=png&amp;auto=webp&amp;s=849dcf82b2eef4e4b51397cdc3c99ee8ab5f0960 &lt;一href=&quot;https://preview.redd.it/ovj86481oqkg1.png?width=2516&amp;format=png&amp;auto=webp&amp;s=b0fb1acb1d4cdfa25ff8103fd2d17116e97d5e57&quot;&gt; https://preview.redd.it/ovj86481oqkg1.png?width=2516&amp;format=png&amp;auto=webp&amp;s=b0fb1acb1d4cdfa25ff8103fd2d17116e97d5e57 &lt;一href=&quot;https://preview.redd.it/ug7y2481oqkg1.png?width=2514&amp;format=png&amp;auto=webp&amp;s=d5ea95bcb26cfde1d8607a69c36b611af067c3ca&quot;&gt; https://preview.redd.it/ug7y2481oqkg1.png?width=2514&amp;format=png&amp;auto=webp&amp;s=d5ea95bcb26cfde1d8607a69c36b611af067c3ca   由   提交 /u/AgresiveE   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rabz06/showoff_saturday_interactive_rule_engine/</guid>
-      <pubDate>Sat, 21 Feb 2026 00:03:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>域名重定向 SSL 问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raasd9/domain_redirect_ssl_issue/</link>
-      <description><![CDATA[嗨。 我的域名 www.meatlegs.com 重定向到 www.instagram.com/meatlegs 一切正常，直到我切换域名提供商（我这样做是因为我有另一个网站）我认为将它们全部放在一个地方会很好。 尽管 SSL 证书存在问题（不匹配错误）。 我运行了各种 SSL 检查器，结果是相同的。 示例如下：https://www.sslshopper.com/ssl-checker.html#hostname=www.meatlegs.com （完整错误为：“证书中的常用名称均不与输入的名称匹配（www.meatlegs.com）。了解有关名称不匹配错误的更多信息。”） 这对于卡巴斯基用户来说是一个问题，例如，他们在尝试访问时会收到此消息。网站：  https://preview.redd.it/ls30r694nkgg1.png?width=1115&amp;format=png&amp;auto=webp&amp;s=b14a8499e4a09f63bc374fcfedda03dced05d918 我向我的提供商发送了无数电子邮件，但没有任何结果。他们调整了一些 DNS 设置，并告诉我清除浏览器缓存，但这显然是 SSL 问题。 我的问题是我的提供商需要做什么来解决此问题？ 谢谢。   由   提交/u/otronicsmedia  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raasd9/domain_redirect_ssl_issue/</guid>
-      <pubDate>Fri, 20 Feb 2026 23:13:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>建议请求</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raa7fv/suggestions_request/</link>
-      <description><![CDATA[大家好，我开发了一个网络应用程序，其中包含一个字谜游戏，具有不同的游戏模式、能力提升等。它非常酷，而且已经在 Google 上上线了。我想让它“出名”，当然，我并不指望它成为世界上最受欢迎的网络应用程序，但我真的很希望有一个玩我的游戏的社区。您建议我做什么来赞助我的应用程序？您尝试过哪种策略并最终取得了胜利？   由   提交/u/Gareth_99  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raa7fv/suggestions_request/</guid>
-      <pubDate>Fri, 20 Feb 2026 22:50:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立了一个免费的简历定制工具，希望得到反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raa0b6/built_a_free_resumetailoring_tool_and_would_love/</link>
-      <description><![CDATA[ 由   提交/u/indicajames  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raa0b6/built_a_free_resumetailoring_tool_and_would_love/</guid>
-      <pubDate>Fri, 20 Feb 2026 22:43:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>高级工程师如何写技术博客/文章？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra9flq/how_do_senior_engineers_write_a_technical/</link>
-      <description><![CDATA[这里是真正有帮助的：  你如何决定什么是真正值得写的？ 你如何从问题→解决方案→要点（例如标准布局）构建一篇文章？ 你如何清楚地解释技术决策、权衡和架构？ 你如何决定要包含哪些细节？或跳过？  此外，如果您可以分享您的文章或博客文章，那也会非常有帮助。    由   提交 /u/Hari-Prasad-12   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra9flq/how_do_senior_engineers_write_a_technical/</guid>
-      <pubDate>Fri, 20 Feb 2026 22:19:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的代理编码开发设置已说明，你的是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra882i/my_agentic_coding_dev_setup_explained_whats_yours/</link>
-      <description><![CDATA[      我是一名 Web 开发人员，经常与人工智能打交道。我对 AI 工具并不满意，因为我越来越多地使用 Claude Code 和 Codex 来构建东西。 我花了几个月的时间才找到合适的开发设置。我想我找到了。在屏幕截图中，您可以在右侧看到 iTerm2 + iTerm2 浏览器插件。我制作了一个视频，深入了解了我的设置以及如何在不发疯的情况下处理多个项目。自从我找到这个设置后，我感到非常平静、专注和高效。最好的是，它都是开源的，不依赖于人工智能供应商，并且完全可定制。 我的设置： 左侧边栏：多个项目作为选项卡 第一个面板：代码代理 第二个面板：npm run dev 第三个面板：满足我需要的通用终端，lazygit、git、远程机器等 右侧：浏览器（在iTerm2！） 此设置允许我非常快速地在项目之间切换并保留每个选项卡/项目的上下文。 我最近在我的团队中分享了此设置，很有趣的是看到每个人都找到了一个工作流程 --- 有点不错，但并不理想。 您的开发设置是什么样的？仍然是老派 VSCode 的一员？？？ 🌝   由   提交/u/Hopeful-Fly-5292   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra882i/my_agentic_coding_dev_setup_explained_whats_yours/</guid>
-      <pubDate>Fri, 20 Feb 2026 21:32:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>移动开发者在这里——好吧，看来不会太久</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ra7akf/mobile_dev_here_well_not_for_long_it_seems/</link>
-      <description><![CDATA[所以我是一名移动开发人员。我有一个关于一个愚蠢的小游戏的想法，我想我应该把它搞出来并发布它。然后我想起来了。哦，对了，我需要处理 App Store 审核、Play Store 审批、4 种尺寸的屏幕截图、隐私声明，然后等待 3 天有人因为一个按钮而拒绝。每当我想更新应用程序时，我都需要处理所有这些问题。我还需要每年更新它以保持兼容性。所以它多年来一直在我的想法清单上。然后，一个月前，我说管它呢，让我尝试将其构建为一个网站。所以我做到了，我的生活改变了。 老实说？它毁了我。 我推动了一项改变，人们在 10 秒内就得到了它。没有审查，没有批准，什么都没有。我刚刚部署，它就在那里。来自移动设备，其中拼写错误修复需要一天才能生效，这感觉是非法的。 我现在正在进行我的第三个项目，并且我已经购买了太多域名。 （不要告诉我的妻子） 我只是在浏览我的想法清单并构建一切。 这里还有其他人来自移动设备并且永远不会回去吗？    由   提交 /u/vlad1m1r   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ra7akf/mobile_dev_here_well_not_for_long_it_seems/</guid>
-      <pubDate>Fri, 20 Feb 2026 20:57:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
