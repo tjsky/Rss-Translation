@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 21 Feb 2026 09:27:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 12:39:18 GMT</lastBuildDate>
     <item>
-      <title>带有数字伴侣的投资组合网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rambzl/portfolio_website_with_digital_companion/</link>
-      <description><![CDATA[嗨！ 今天我想与您分享我的作品集网站。我花了一年多的时间来设计、开发和成熟。它是基于我的想法的矛盾而设计的，即大多数网站只是交互式名片，缺乏利用网站作为媒介的独特特征。 后端运行在 PayloadCMS 上，我使用 Simple Analytics 进行分析。 据我所知，此设置符合 GDPR，因此没有 cookie 横幅，所有内容都是开源的，因为我重视透明度。   后端 (https://github.com/JeffreyArts/jeff-payload) 前端 (https://github.com/JeffreyArts/jeffreyarts.nl) 图标集 (https://github.com/JeffreyArts/jao-icons)  我使用它创建的主要功能打算在该网站中添加一些内容，包括在网页上爬行的小错误、拼贴布局和各种用户可参与的元素。  在网页上爬行的小错误（称为 Wurmpje）是专门为您生成的。它是您的小伙伴，可以与您一起探索这个网站。 拼贴布局是通过自定义布局引擎创建的，该引擎将内容放置为“块”，以创建一种混乱的、类似数字拼贴的体验。它具有响应性，而且制作起来确实很痛苦。 用户可参与的元素是能够以匿名用户的身份向项目添加喜欢的能力。当您验证电子邮件时，它还允许您在自己的个人收藏夹页面上发表评论和存储点赞。  我选择分享这个项目，主要是因为我想知道它运行得如何🥲，但也因为我认为它有一些功能可以将其与其他网站区分开来，但又不完全是噱头。所以希望有人能为自己的工作带来一些灵感。感谢所有反馈！ 此外，我正在考虑制作一个视频来解释这 3 个核心功能的工作原理。如果您对此感兴趣，请告诉我，如果感兴趣，它应该为您突出显示什么。   由   提交 /u/JeffreyArts   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rambzl/portfolio_website_with_digital_companion/</guid>
-      <pubDate>Sat, 21 Feb 2026 08:52:57 GMT</pubDate>
+      <title>Centia.io</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raprsy/centiaio/</link>
+      <description><![CDATA[我构建了 Centia.io，它是一个后端即服务 (BaaS)，提供数据、身份验证、实时、文件存储和开发人员工具，以便您可以专注于发布您的应用程序。从您定义的数据模型开始，连接 SDK，然后在需要的地方添加实时功能。   由   提交/u/mhoegh  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raprsy/centiaio/</guid>
+      <pubDate>Sat, 21 Feb 2026 12:19:25 GMT</pubDate>
     </item>
     <item>
-      <title>优秀的商业网站与高转化率的网站有何区别？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ram7xx/what_separates_a_good_business_website_from_a/</link>
-      <description><![CDATA[从 Web 开发的角​​度来看： 您认为哪些技术或架构决策会直接影响转化率？ 例如：  性能优化（核心 Web Vitals）？ 语义 HTML 和语义 HTML结构化数据？ 可访问性改进？ 分析驱动的迭代？ 后端性能或 API 响应时间？    由   提交 /u/Imaginary-Quit-5337   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ram7xx/what_separates_a_good_business_website_from_a/</guid>
-      <pubDate>Sat, 21 Feb 2026 08:45:58 GMT</pubDate>
+      <title>构建了一个免费的 AI 域名查找器 - 输入“API 测试和监控工具”并获得 218 个可用的 .dev 域名，并进行定价和 GitHub 句柄检查</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raprkp/built_a_free_ai_domain_finder_typed_api_testing/</link>
+      <description><![CDATA[   每个项目都以相同的方式启动。想一个名字，检查 .dev 是否​​可用，不可用，尝试 .io，已采取，检查 GitHub，也已采取。重复直到你放弃并选择你不喜欢的东西。 我构建了 domain.onllm.dev 来跳过这个循环。 使用“用于 API 测试和自动警报监控的开发人员工具”对其进行了测试。 -- 恢复了218 个可用域。每一项都通过 DNS、RDAP、WHOIS 和 DNS 进行实时验证。 HTTP。每个结果均显示注册价格、续订价格和 5 年总计价格，以及 Spaceship &amp; 的实时定价。 Hostinger（例如 .dev，注册价格为 7.05 美元，续订每年 12.62 美元，5 年期间 57.53 美元）。带有“可发音”等标签的品牌度得分和“禁止双打”。您可以查看 GitHub、X、Instagram、YouTube 和Reddit 直接从结果中处理可用性。 另外：  上传 README.md / plan.md 而不是打字 迭代地优化结果（最多 5 次迭代）——例如“使它们更短，更注重技术，包括“AI”” 名称样式的详细模式（品牌、复合、关键字+、首字母缩略词）、关键字控制、连字符/数字切换 保存到候选列表，导出为 CSV 20+ TLD  永久免费。无需注册。 高级域名定价尚未公布——显示的价格为标准注册费。有些在注册处可能会更高。它正在构建中。 希望开发者能够尝试它并分享反馈——错误、缺失的功能、粗糙的边缘。网站上也内置了反馈表。 https://domain.onllm.dev 在 onllm.dev 上单独构建 🙏   由   提交/u/prakersh   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raprkp/built_a_free_ai_domain_finder_typed_api_testing/</guid>
+      <pubDate>Sat, 21 Feb 2026 12:19:04 GMT</pubDate>
     </item>
     <item>
-      <title>元索引还是我被蝠鲼克隆了？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ralr5h/meta_indexing_or_im_i_tripin_on_mantas_cloning_me/</link>
-      <description><![CDATA[在我的机器人跟踪器和日志中注意到一些有趣的事情。 Facebook 元机器人最近一直在抓取我的页面。  有人看到这个或有一些见解吗？   由   提交/u/AEOfix  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ralr5h/meta_indexing_or_im_i_tripin_on_mantas_cloning_me/</guid>
-      <pubDate>Sat, 21 Feb 2026 08:17:25 GMT</pubDate>
+      <title>投影映射器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rapplh/projection_mapper/</link>
+      <description><![CDATA[      上周末我参加了一个家庭聚会，我们有一台投影仪，但无法快速访问 Resolume 或任何类似的软件。在寻找快速在线解决方案失败后，我决定自己构建一个非常简单的投影映射 Web 应用程序。 该应用程序使用 IndexedDB 进行本地文件存储，这意味着所有数据都保留在您的浏览器中，并且该应用程序在重新加载后仍然可以运行。我很高兴收到任何反馈或建议。 实时站点：https://videomapper.symbolicinterfaces.com/   由   提交/u/arionem   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rapplh/projection_mapper/</guid>
+      <pubDate>Sat, 21 Feb 2026 12:15:58 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个免费的 WebGL 渐变生成器，具有 8 种着色器模式，并导出到 React/Tailwind/CSS/Figma/Video [makegradient.com]</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rakujg/i_built_a_free_webgl_gradient_generator_with_8/</link>
-      <description><![CDATA[大家好 — 我一直在研究 MakeGradient，这是 makegradient.com 上的一个免费渐变工具。 它在 WebGL 中运行真正的 GLSL 着色器，而不是 CSS 渐变。有 8 种模式：流体网格、极光、深海、全息、厚涂、光谱、分形和颗粒。每个都使用不同的技术（域扭曲、Voronoi、卷曲噪声、万花筒折叠等） 颜色是在 Oklch 空间中生成的，因此混合在感知上保持干净。  导出：  - React 组件（复制粘贴）  - Tailwind 配置  - CSS 径向渐变后备  -独立的 embed.js 脚本（放入任何网站）  - Figma 矢量 SVG（可编辑渐变）或光栅  - 10 秒 MP4/WebM 视频  - PNG 尝试一下 https://www.makegradient.com 无需注册，无水印，永远免费使用。很高兴听到您的反馈。   由   提交/u/uxdonkey  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rakujg/i_built_a_free_webgl_gradient_generator_with_8/</guid>
-      <pubDate>Sat, 21 Feb 2026 07:22:48 GMT</pubDate>
+      <title>我开发了一个时尚发现应用程序，用于查找美国品牌的衣服</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rapf89/i_built_a_fashion_discovery_app_for_finding/</link>
+      <description><![CDATA[我们已经为此工作了一段时间。它叫做 Bazenda，基本上可以帮助您在一个地方找到不同美国品牌的时尚产品。 如果您看到喜欢的东西，您可以通过上传照片进行搜索，或者只需用自己的话描述您要寻找的东西，例如“早午餐的休闲装”，它就会找到匹配的产品。 它还会为您跟踪价格，并在商品掉落时发送警报。 需要澄清的是，我们自己不销售任何东西。当您找到喜欢的东西时，它会直接带您到该品牌的网站进行购买。 仍在努力，但想分享。希望得到任何反馈   由   提交/u/dealhunterSam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rapf89/i_built_a_fashion_discovery_app_for_finding/</guid>
+      <pubDate>Sat, 21 Feb 2026 12:00:11 GMT</pubDate>
     </item>
     <item>
-      <title>自由开发人员和工程师如何应对和应对人工智能的影响？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rakpwe/how_are_freelance_developers_and_engineers_coping/</link>
-      <description><![CDATA[我是一名全栈开发人员，非常害怕失败、完美主义和暴露！我在一家大公司工作了6年，11个月前被解雇了。这几个月我一直在尝试做自由职业，但由于恐惧而无法开始。然后是人工智能编码代理！ 我并不讨厌 Vive 编码员，但我看到过一些 Reddit 帖子，其中一些 Vive 编码员作为自由职业者承担了 Web 开发项目，而且他们也交付了。当然，其中一些提供的质量很低，一些则放弃了。 此外，客户也有可能愿意支付 20 或 200 美元来构建自己的应用程序（他们已经在这样做），而不是向经验丰富的开发人员支付高价。 所有这些想法都让我感到害怕并扰乱了我的睡眠！你的情况怎么样，还有希望吗？    由   提交 /u/swb_rise   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rakpwe/how_are_freelance_developers_and_engineers_coping/</guid>
-      <pubDate>Sat, 21 Feb 2026 07:14:54 GMT</pubDate>
+      <title>构建了一个与框架无关的聊天 Web 组件</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rapdqj/built_a_frameworkagnostic_chat_web_components/</link>
+      <description><![CDATA[      大家好， 我刚刚发布了聊天 Web 组件的第一个稳定版本，很想听听您的反馈。 当我在工作中与另一个聊天 UI 库一起工作时，我觉得它可以改进并且不再积极维护，这个动机就开始了。因此，我决定在尝试 Lit 的同时尝试自己构建一个，它专门适合 Web 组件。 一些功能是： - 与框架无关（适用于任何框架，React、Vue、Angular、Svelte 等） - 旨在轻松集成到 shadcn 设计系统中 如果您对 Web 组件感兴趣或需要将聊天 UI 集成到您的项目中，如果您能看一下，我将非常感激。 仓库：https://github.com/spider-hand/advanced-chat-kai 演示：https://advanced-chat-kai-demo.pages.dev   由   提交 /u/itsspiderhand   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rapdqj/built_a_frameworkagnostic_chat_web_components/</guid>
+      <pubDate>Sat, 21 Feb 2026 11:57:51 GMT</pubDate>
     </item>
     <item>
-      <title>Claude Code 创始人：“编码是解决问题的”</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raketd/creator_of_claude_code_coding_is_solved/</link>
-      <description><![CDATA[      Boris Cherny 是 Claude Code（一个用 React 编写的 cli 代理。这不是玩笑）的创建者，并且负责以下拥有超过 5000 个问题的存储库：https://github.com/anthropics/claude-code/issues 既然编码解决了，我想知道为什么他们不直接使用 Claude Code 来调查并解决 Claude Code 存储库中的所有问题，一弹出呢？哎呀，我想知道如果编码解决了，为什么还会出现任何问题？谁或是什么制造了所有新的错误，小妖精？   由   提交/u/Gil_berth  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raketd/creator_of_claude_code_coding_is_solved/</guid>
-      <pubDate>Sat, 21 Feb 2026 06:57:25 GMT</pubDate>
+      <title>构建了具有同步进度的有声读物流式 PWA</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rap5w3/built_an_audiobook_streaming_pwa_with_synced/</link>
+      <description><![CDATA[      我最近构建了Tyrion，一个用于流式传输有声读物的网络平台。主要目标是打造快速、干净的体验，在桌面和移动设备上运行良好，无需常见的网络播放器摩擦。 核心功能：  跨设备同步进度 睡眠计时器和可变播放速度 PWA 支持（可安装在 Android 和桌面上） 用户库和收藏 评论和评论系统  来自从开发者的角度来看，重点是：  快速的玩家启动 可靠的进度持久性 流畅的移动用户体验 PWA 可安装性和响应能力  平台上的所有书籍都是公共领域或经过适当许可。 我希望获得技术反馈，尤其是有关性能、UX 和玩家体验中感觉不舒服的任何方面的反馈。 直播这里：https://tyrion.lol   由   提交/u/WraientDaemon  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rap5w3/built_an_audiobook_streaming_pwa_with_synced/</guid>
+      <pubDate>Sat, 21 Feb 2026 11:45:05 GMT</pubDate>
     </item>
     <item>
-      <title>我自己的粉色黑客新闻</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rakekp/my_own_hackernews_in_pink/</link>
-      <description><![CDATA[reddit 上的一个（明智的？）人曾经说过，每个人一生中都应该构建一次自己的黑客新闻 UI -&gt;所以我做了hackernews.pink。这是一个纯粹有趣的项目，主要在我的家庭实验室中运行。我从来都不是真正的前端开发人员，但有了 Claude，我可以突然为我的后端构建 UI，这些 UI 并非无法使用，这让我很高兴。这是一个 PWA，应该在移动和桌面上都能很好地工作。对于身份验证，我使用万能钥匙只是因为我真的很喜欢万能钥匙的概念，并且我对收集您的数据或以此赚钱没有兴趣。我内置了基于嵌入的“为您”推荐和一个不错的趋势算法。也许有人会喜欢它。显然，我会对访客感到高兴，如果不是的话，那实际上也很好:-)但是如果有人有反馈或改进建议，我会特别高兴听到这些。   由   提交/u/realGurkenkoenig   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rakekp/my_own_hackernews_in_pink/</guid>
-      <pubDate>Sat, 21 Feb 2026 06:57:03 GMT</pubDate>
+      <title>在生产环境中处理无头 Chrome — 您的浏览器回收方法是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raoyew/dealing_with_headless_chrome_in_production_whats/</link>
+      <description><![CDATA[大规模运行 Playwright，这是一段旅程。我们每月处理大约 4,000 个屏幕截图/PDF 请求，最令人头疼的是 Chrome 内存管理。 我们从惨痛的教训中学到了什么： • 如果不进行回收，Chrome 进程就会默默地累积。醒来时有 64 个僵尸进程占用 5GB RAM • 浏览器实例需要一个 max-age（我们使用 30 分钟） - 长期存在的浏览器会慢慢泄漏内存 • 紧急浏览器实例（池已满时创建）必须在使用后进行跟踪和关闭，否则它们将成为孤儿 • 如果您不处理它们，Cookie 同意弹出窗口会阻止约 30% 的捕获 • Bing 搜索页面是最糟糕的 - networkidle 永远不会可靠地触发 我当前的当前设置：2 个浏览器池，每个浏览器最多 30 个使用，每 5 分钟自动清理一次，对于 WebP/AVIF 转换非常有利，因为 Playwright 本身只处理 PNG/JPEG。从 5GB 下降到 1GB 以下。 还有人在生产环境中运行无头浏览器吗？您的回收策略是什么？特别好奇人们每天进行超过 10K 次捕获。   由   提交/u/Sleywil   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raoyew/dealing_with_headless_chrome_in_production_whats/</guid>
+      <pubDate>Sat, 21 Feb 2026 11:32:34 GMT</pubDate>
     </item>
     <item>
-      <title>制作了 SaaS 托管成本计算器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rajpe8/made_a_saas_hosting_cost_calculator/</link>
-      <description><![CDATA[      这不是我的第一次；我放弃了准确，只是坚持估计。希望它对其他人可视化成本有用。   由   提交 /u/h____   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rajpe8/made_a_saas_hosting_cost_calculator/</guid>
-      <pubDate>Sat, 21 Feb 2026 06:17:23 GMT</pubDate>
+      <title>[iOS/Android/Web] 适用于 iOS、Android 和 Web 的注重隐私的 Omegle 替代方案。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raoqpi/iosandroidweb_a_privacyfocused_omegle_alternative/</link>
+      <description><![CDATA[    https://preview.redd.it/qoh1pyigztkg1.png?width=1320&amp;format=png&amp;auto=webp&amp;s=d265a679f99ef25e63e3ba47a5f47362041d9a51 我已经独立开发 Bantr.live 大约一年了，作为 Omegle 的更私密、跨平台的替代品（支持 iOS、Android 和 Web）。该应用程序功能齐全，可进行文本、视频和图像共享，但我仍处于扩大用户群的鬼城阶段。这是隐私优先架构和跨平台同步方面的大量学习经验。   由   提交 /u/BantrChat   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raoqpi/iosandroidweb_a_privacyfocused_omegle_alternative/</guid>
+      <pubDate>Sat, 21 Feb 2026 11:19:45 GMT</pubDate>
     </item>
     <item>
-      <title>在淹没在文档、项目链接和设计灵感选项卡（寻找反馈）之后，我使用 3D 知识图应用程序构建了第二个大脑系统</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rajcsq/i_built_a_second_brain_system_with_a_3d_knowledge/</link>
-      <description><![CDATA[      我是一名开发人员，我一直遇到同样的问题：我保存了大量的文档、GitHub 存储库、项目链接和设计灵感，但后来我记不起我保存了什么或为什么它很重要。 所以我构建了一个名为 Neuron，最有帮助的功能是 3D 交互式图表，它通过上下文连接所有内容，而不是将其保留为随机书签。 一个简单的工作流程对我有帮助：  在工作时快速捕获有用的链接/注释 使用 3D 图表来连接文档、项目决策和灵感 运行一个简短的回忆会话快速展现我真正需要的东西  我希望其他开发者就哪些内容真正有用、哪些内容不必要提供诚实的反馈。   由   提交/u/Ornery-Length8689   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rajcsq/i_built_a_second_brain_system_with_a_3d_knowledge/</guid>
-      <pubDate>Sat, 21 Feb 2026 05:58:25 GMT</pubDate>
+      <title>你知道你的node_modules文件夹里有什么吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raohun/do_you_know_whats_in_your_node_modules_folder/</link>
+      <description><![CDATA[      你知道你的node_modules文件夹里有什么吗？ 我一直在会议上举办安全研讨会（CityJS Athens、React Alicante），这总是让房间安静下来的问题。没有人真正检查。我们都只是 npm 安装并继续。 然后 Shai-Hulud 发生了。 600 多个软件包遭到泄露。只需安装后挂钩即可窃取 npm 令牌和云凭证。第二波尝试在无法渗漏的情况下擦除您的主目录。 我一直在将我的研讨会材料变成免费的前端安全课程。刚刚发布了第一个关于漏洞利用和依赖管理的模块。涵盖这些攻击的实际工作原理、npm 审核遗漏的内容以及除了希望依赖项正常之外您现在可以做什么。 完整的课程将涵盖 XSS、CSRF 以及跨 React/Vue/Angular/Vanilla JS 的欺骗。全部免费，没有任何限制。 希望得到任何检查过的人的诚实反馈。   由   提交/u/cresta29  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raohun/do_you_know_whats_in_your_node_modules_folder/</guid>
+      <pubDate>Sat, 21 Feb 2026 11:05:05 GMT</pubDate>
     </item>
     <item>
-      <title>为我的机构制作了这一页网站 - 希望得到一些反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rajbrp/made_this_one_page_website_for_my_agency_would/</link>
-      <description><![CDATA[      templepear 是我的名字（我是越南人），大致翻译成英语！ 是的，我使用车床几何形状对梨进行了数学计算。别问为什么，梨子看起来就完全像梨子。我将其编码为单个 index.html 网站。有问题吗？ 我知道性能很糟糕，移动优化也很糟糕，但稍后会解决这个问题：/  无论如何，链接（电子邮件是占位符）https://vietnamesecoder.github.io/templepeardesign   由   提交/u/CombinationStunning8  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rajbrp/made_this_one_page_website_for_my_agency_would/</guid>
-      <pubDate>Sat, 21 Feb 2026 05:56:49 GMT</pubDate>
+      <title>冷电子邮件的最佳开发工具？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raogqx/best_developer_tool_for_cold_emails/</link>
+      <description><![CDATA[您好， 我已经考虑了好几天的替代方案，但做出决定并不容易，这就是为什么我要征求您的意见。 我的任务是制作一个集成某种电子邮件发送工具（可以是 SMTP 或第三方）的 Web 应用程序，以便我的客户每天发送大约 5-10.000 封电子邮件来自固定的 10-20,000 个联系人池。 （截至目前）（不是订阅者） 我们可以说这是可以外展的，因为每批电子邮件（每批 2500-5000 封）都来自不同的子域。 （例如 [john@domain.com](mailto:john@domain.com)，另一个是 [jane@domain.com](mailto:jane@domain.com) 和等等..) 最重要的部分是统计数据。该工具或要构建的工具必须提供良好的统计信息（反馈），我将存储在数据库中，以查看每个活动的成功程度（打开、点击、退回、垃圾邮件等）。 该工具不必有漂亮的前端或任何东西（因为我的应用程序有），只需开发人员级别的集成机会和良好的定价，这很重要。 截至目前，我选择 SendGrid，但定价很高超过 100.000 封电子邮件。 您建议我使用什么？您将如何完成这项任务？ 提前致谢！   由   提交/u/AmbassadorCurious988  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raogqx/best_developer_tool_for_cold_emails/</guid>
+      <pubDate>Sat, 21 Feb 2026 11:03:18 GMT</pubDate>
     </item>
     <item>
-      <title>如何选择云/数据库堆栈而不被淹没或被供应商锁定？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rail0y/how_do_i_choose_a_clouddb_stack_without_getting/</link>
-      <description><![CDATA[大家好， 我目前正在使用 Go 开始我的第一个后端项目。虽然我对这门语言很熟悉，但我对 DevOps 或云基础设施的经验为零，而且我对 2026 年可用的选项感到有点不知所措。 我对该堆栈的主要目标是：  开发人员经验：我想专注于编写 Go 代码，而不是花费大量时间配置 VPC 或 IAM 角色。 成本：它需要符合预算在开发和低流量阶段。 可移植性：我希望避免严重的供应商锁定，以防随着项目的发展需要迁移到 AWS 或 GCP 等主要提供商。  当前独立开发人员的行业标准是什么？我应该花时间学习“大”知识吗？立即提供者，或者像 Neon 或 Supabase 这样的平台被认为是“生产就绪”的实现长期增长？ 如果您能提供有关这些工具的建议或个人经验，我将不胜感激。谢谢！ 我已经检查了常见问题解答，但我特别好奇使用 Go 是否会改变对托管数据库的建议，而不是直接跳到 AWS 等主要云提供商。   由   提交 /u/ivanezzzzz   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rail0y/how_do_i_choose_a_clouddb_stack_without_getting/</guid>
-      <pubDate>Sat, 21 Feb 2026 05:16:40 GMT</pubDate>
+      <title>我的 2026 开发设置</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raobcq/my_2026_dev_setup/</link>
+      <description><![CDATA[嘿 r/programming ， 我一直在完善 2026 年的开发环境，并希望分享它以获取反馈。目标：**快速、一致、面向未来的工具**，跨 Python、JS/TS、Rust、Go、C/C++ 和 Web 技术。 --- ### **运行时** * **JS/TS 主要：** Bun * **JS/TS 后备：** Node.js LTS * **Python：** uv（替换 pip + venv） --- ### **语言工具** |语言 |格式化程序|短绒 | | -------------- | ----------------- | -------------------------------------------------- | |蟒蛇 |黑色|拉夫 | | JS/TS/HTML/CSS |生物群系 | Biome（或 ESLint + Prettier 后备）| |铁锈|生锈 | Clippy | |去 | gofmt / goimports | 网站地图golangci-lint | | C/C++ | clang 格式 |铿锵有力 | |壳牌| sfmt| ShellCheck | | SQL | SQLFluff | SQLFluff | | PHP | PHP-CS-修复程序 | PHPStan 或诗篇 | |红宝石 |鲁博警察 | RuboCop | |科特林 |克特林特 |检测 | |斯威夫特 | Swift 格式 | SwiftLint | --- 核心原则  **一个格式化程序 + 每种语言一个 linter** – 无堆栈。 **格式化程序处理样式**； linter 处理正确性和错误 **CI / 预提交钩子**强制格式化、linting 和可选类型检查/测试。 **uv** 适用于 Python 环境和环境。  **Bun + Node LTS** 通过完整的生态系统支持确保速度。  --- 光标特定设置 * 适用于 Python、JS/TS、Rust、Go、C/C++ 的语言服务器 * lint 和 lint 的预提交挂钩格式 * 依赖意识（uv、Bun、Go 模块） * 可选的集成测试运行程序：pytest、Vitest、cargo test、go test --- 我正在寻找的反馈 * 2026 年我应该考虑**更好的现代替代方案**吗？ * 我是否**过于复杂**或缺少关键工具？ * 关于**跨运行时 CI 或 Cursor 集成**有什么建议吗？ 感谢任何建议或改进！   由   提交 /u/sweetloup   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raobcq/my_2026_dev_setup/</guid>
+      <pubDate>Sat, 21 Feb 2026 10:54:32 GMT</pubDate>
     </item>
     <item>
-      <title>TailGrids v3.0 就在这里 - 现代 Tailwind React UI 组件库 ✨</title>
-      <link>https://www.reddit.com/r/webdev/comments/1raigdr/tailgrids_v30_is_here_modern_tailwind_react_ui/</link>
-      <description><![CDATA[      嘿伙计们 👋 我们刚刚发布了 Tailgrids v3.0，这是我们 Tailwind CSS React UI 组件系统迄今为止最大的更新。 Tailgrids Tailgrids 最初是一组复制粘贴Tailwind 块和组件，但在 v3.0 中，我们将其重建为现代、TypeScript 优先的 React UI 库，并针对实际项目进行了工具和工作流程升级。 v3.0 中的亮点：  在 TypeScript 优先的 React 中重写的组件，以获得更干净、更安全的 API。 要安装的 CLI 工具组件立即添加到您的项目中。 600 多个 UI 组件和块 - 现代、一致和高品质的设计 设计标记 + 主题控制，以便您可以全局自定义颜色、间距、排版和深色模式。 交互式文档 (MDX) 提供预览和实时代码。 更好的模板，具有完整的多页面结构适用于仪表板、营销网站、管理面板、SaaS 产品。 专门的免费 SVG 图标库，旨在与 Tailgrids + Tailwind 配合使用。 新 Figma 设计系统，具有令牌、布局和与代码组件的视觉奇偶性。  此更新不仅仅是更多组件，而是专注于真实工作流程的现代开发人员体验 — CLI、TS 支持、主题令牌、文档和设计系统对齐。 在这里查看： 👉 https://tailgrids.com 并让我知道您的想法和反馈 🙌   由   提交 /u/musharofchy   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1raigdr/tailgrids_v30_is_here_modern_tailwind_react_ui/</guid>
-      <pubDate>Sat, 21 Feb 2026 05:09:58 GMT</pubDate>
+      <title>posthog 上的 404 真的很酷</title>
+      <link>https://www.reddit.com/r/webdev/comments/1raoa19/really_cool_404_on_posthog/</link>
+      <description><![CDATA[不知道最好在哪里发布此内容，但我偶然发现了他们的 404 页面 - 可能是我一段时间以来见过的最有趣的页面之一   由   提交/u/Ok-Tune-1346   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1raoa19/really_cool_404_on_posthog/</guid>
+      <pubDate>Sat, 21 Feb 2026 10:52:13 GMT</pubDate>
     </item>
     <item>
-      <title>编码新手</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rahvx2/new_to_coding/</link>
-      <description><![CDATA[      到目前为止，我对自己感到非常自豪，将继续致力于我的第一个作品集。  https://preview.redd.it/mn06ljni1skg1.png?width=1914&amp;format=png&amp;auto=webp&amp;s=c8cc4aadd0d888f924e616ccb7042bccd2b73954   由   提交 /u/str8ac3   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rahvx2/new_to_coding/</guid>
-      <pubDate>Sat, 21 Feb 2026 04:40:46 GMT</pubDate>
+      <title>灯丝管理器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rao5j2/filamentmanager/</link>
+      <description><![CDATA[&lt;表&gt;      我从事 3D 打印已经有几年了，就像你们中的很多人一样，最后的架子上摆满了用了一半的线轴，不知道其中还剩下什么。任何理性人都会做的事也是如此：花了太长时间学习构建自己的东西。最终得到的是一个名为 FilamentManager（要更改？）的 Web 和移动应用程序（目前仅作为 PWA 提供，但计划通过应用程序商店发布。）其功能如下： 跟踪灯丝的颜色、材料、剩余重量和购买价格 扫描 EAN 条形码以查找和添加由社区数据库快速支持的线轴，每次有人扫描新线轴时，该数据库都会增长，因此使用它的人越多它变得越有用。  记录打印的时间、使用的材料和每次打印的成本（Orca 集成已完成，测试 klipper 集成） 查看统计数据和您实际花费的完整成本明细 设置打印机的维护间隔，以便在到期时收到提醒 将耗材整理到存储位置并与其他人共享，这对于创客空间或共享工作室很有用 还有更多:) 坦白说：这是一个非常早期的阶段。事情的边缘可能很粗糙，流程可能令人困惑，并且可能缺少您认为明显的功能。这正是我发帖的原因。我正在寻找愿意实际使用它的人，并告诉我什么有效、什么无效、缺少什么以及什么没有意义。好的反馈和坏的反馈现在对我都很有用。  链接：app.filament-manager.tech/landing.html   由   提交/u/Kontachon   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rao5j2/filamentmanager/</guid>
+      <pubDate>Sat, 21 Feb 2026 10:44:30 GMT</pubDate>
     </item>
     <item>
-      <title>我厌倦了未记录的第 3 方 API 更改破坏我的应用程序，因此我构建了 Sentinel 来被动检测 JSON 模式漂移。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rahsca/i_got_tired_of_undocumented_3rdparty_api_changes/</link>
-      <description><![CDATA[大家好， 如果您使用外部 REST API 的时间足够长，您就会知道其中的痛苦：提供程序会默默地删除一个字段，将字符串更改为整数，或者将以前必需的字段设为可选。您通常只会在生产应用程序引发空指针异常或数据库拒绝类型时发现。 我构建了 PHP Sentinel 来解决此问题。它是 PHP 8.3+ 的被动 API 合约监视器，位于您的 HTTP 客户端层，并监视从您使用的 API 返回的 JSON。 它的实际用途：您无需手动编写任何架构或规则。 Sentinel 只是默默地观察流量。  采样：它会监视端点的前 X 个成功的 JSON 响应。 推理：它会构建概率上准确的 JSON 架构（例如，确定哪些字段是真正必填，哪些字段只是可选并且有时会丢失）。 强化：一旦达到样本阈值（默认 20），就会锁定基线架构。 偏差检测：从那时起，每个新响应都会与基线进行实时比较。如果结构“漂移” （如出现新字段，或所需类型更改），它会调度一个事件并记录它。  核心功能：  零接触：将其放入 PSR-18 客户端、Laravel Http:: 外观或 Symfony 客户端中，然后就不用管它了。 智能漂移规则： 它知道可选字段缺失并不是漂移，但之前必填字段的消失是一个BREAKING更改。新的未记录字段只是ADDITIVE。 自动修复：您可以将其配置为自动“重新强化”字段。并在报告偏差后构建新的基线，这样它就可以适应合法的 API 演变，而无需接触代码。 Framework Native： 附带一个开箱即用的 Laravel ServiceProvider 和 Symfony Bundle，以及一个 artisan/console CLI 工具来手动检查推断的模式。  我这样做的原因： 为其他人编写和维护 OpenAPI 规范人们的 API 很糟糕。这是一个被动的安全网，当负载发生变化时，它会向您发出 Slack/log 警报，而不是稍后挖掘堆栈跟踪。 它经过了全面的单元测试 (Pest) 和严格类型化 (PHPStan Level 8)。 Repo： https://github.com/malikad778/php-sentinel 我刚刚推送了 v1.0.3，我很想听听社区的想法。第三方 API 漂移中是否存在让您感到困扰的特定边缘情况？任何有关架构或推理引擎的反馈都很棒。 谢谢！   由   提交/u/Xdani778  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rahsca/i_got_tired_of_undocumented_3rdparty_api_changes/</guid>
-      <pubDate>Sat, 21 Feb 2026 04:35:44 GMT</pubDate>
+      <title>我建立了一个免费、无广告的网站，可以立即告诉您是否需要任何国家/地区的签证，以及一些额外的工具和自定义行程生成器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ranouz/i_built_a_free_adfree_website_that_instantly/</link>
+      <description><![CDATA[大家好， 试图弄清楚签证规则、过境中转要求，以及噩梦般的 90/180 申根规则让我在计划即将到来的旅行时发疯。因此，我花了过去几周的时间构建了一个免费工具来自动化旅行准备中烦人的部分。 它被称为 Travel Visa Stack (https://travelvisastack.com)。 它的实际用途： •通过官方政府链接根据您的护照（免费、VOA、禁止等）即时检查签证要求。 A可视化申根 90/180 天计算器。 • 一个“交通黑客”检查主要枢纽的中途停留签证规则的工具。 •自动求职信生成器（用于贴纸签证）和文件清单。 • 自定义行程生成器。 我构建这个主要是为了解决自己的问题，但我想让它对其他人真正有用。 如果您有时间，我希望得到一些残酷而诚实的反馈。什么打破了？什么感觉很笨重？缺少什么功能？ 您可以在评论中或通过网站提出反馈。感谢您的支持！   由   提交/u/hmmm105  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ranouz/i_built_a_free_adfree_website_that_instantly/</guid>
+      <pubDate>Sat, 21 Feb 2026 10:15:56 GMT</pubDate>
     </item>
     <item>
-      <title>嘿伙计们，只是一件小事，我想听听你们的想法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ragzt4/hey_guys_just_a_little_thing_i_want_your_thoughts/</link>
-      <description><![CDATA[      我有一个网络应用程序，我在大约两年前就有了一个想法，在这甚至是一个术语之前，vibe 就对其进行了编码。  这是一个非常空白的画布想法，意味着一些非原创且非常基本的东西。但如果有人有足够的勇气来测试它，并让我知道你的想法，那就太棒了！ 它是一个地理定位缓存应用程序，您可以创建和探索用户创建的缓存，并将数字礼物放入其中供其他用户查找。  只做一些我认为很酷又有趣的事情。如果您喜欢请告诉我，如果不喜欢请告诉我。  记得我已经有一年没接触过这个了，而且我想是在大约两年前的一个周末完成的。  如果允许，我会将链接放在评论中   由   提交/u/TheBlueEyedTim   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ragzt4/hey_guys_just_a_little_thing_i_want_your_thoughts/</guid>
-      <pubDate>Sat, 21 Feb 2026 03:55:49 GMT</pubDate>
+      <title>追踪它</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ranhdh/traice_it/</link>
+      <description><![CDATA[我构建了一个工具，向您展示为什么任何 AI 所说的“希望得到反馈”将得到真正的开发人员关注。 https://www.producthunt.com/products/traice?launch=traice   提交者 /u/nosdrahc[链接]  href=&quot;https://www.reddit.com/r/webdev/comments/1ranhdh/traice_it/&quot;&gt;[评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ranhdh/traice_it/</guid>
+      <pubDate>Sat, 21 Feb 2026 10:03:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
