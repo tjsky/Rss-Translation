@@ -4,20 +4,20 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 21 Feb 2026 18:29:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 21:19:28 GMT</lastBuildDate>
     <item>
-      <title>AI时代的初级开发者</title>
-      <link>https://www.reddit.com/r/programming/comments/1raxs6n/junior_developer_in_the_age_of_ai/</link>
-      <description><![CDATA[ 由   提交/u/belmirofss  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1raxs6n/junior_developer_in_the_age_of_ai/</guid>
-      <pubDate>Sat, 21 Feb 2026 17:58:36 GMT</pubDate>
+      <title>系统设计健全性检查，我是否误解了可扩展性权衡？</title>
+      <link>https://www.reddit.com/r/programming/comments/1rb2tl7/system_design_sanity_check_am_i_misunderstanding/</link>
+      <description><![CDATA[我正在准备系统设计面试，并希望在建立糟糕的心智模型之前验证我的理解。 这是我试图推理的概念： 问题：在分布式服务中处理高读写流量。 我目前的理解：  垂直扩展仅在硬件限制之前有效 →增长不可靠。 水平扩展会带来协调问题（一致性、复制滞后）。 缓存可减少读取负载，但会产生过时数据风险。 数据库的扩展方式不同： 复制→提高读取  因此，大多数大型系统都会结合： 读取缓存 扇出流量的副本 polygot系统&amp; multi-db   我可能错的地方：我尝试绘制电子商务系统，后来尝试将其迁移到AWS平台。 有人可以指出这个推理中的缺陷或缺少权衡吗？ （如果需要我可以分享一个简短的解释视频，不想垃圾链接。）   由   提交/u/aadiraj48  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rb2tl7/system_design_sanity_check_am_i_misunderstanding/</guid>
+      <pubDate>Sat, 21 Feb 2026 21:18:40 GMT</pubDate>
     </item>
     <item>
-      <title>量子安全淘金热：供应商如何利用对假设威胁的恐惧</title>
-      <link>https://www.reddit.com/r/programming/comments/1raxpz6/the_quantum_security_gold_rush_how_vendors/</link>
-      <description><![CDATA[围绕 Q-Day 的安全问题分析，以及为什么大多数出售的 PQC 解决方案都为时过早、成本高昂，并且解决了您可能没有遇到的问题。 https://cybernews-node.blogspot.com/2026/02/the-quantum-guillotine-decrypting-2026.html   由   提交 /u/No_Fisherman1212   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1raxpz6/the_quantum_security_gold_rush_how_vendors/</guid>
-      <pubDate>Sat, 21 Feb 2026 17:56:11 GMT</pubDate>
+      <title>为什么有人应该关心低级编程？</title>
+      <link>https://www.reddit.com/r/programming/comments/1rb1lr2/why_should_anyone_care_about_lowlevel_programming/</link>
+      <description><![CDATA[有人对这篇文章有什么意见吗？   由   提交/u/No_Good7445   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rb1lr2/why_should_anyone_care_about_lowlevel_programming/</guid>
+      <pubDate>Sat, 21 Feb 2026 20:28:32 GMT</pubDate>
     </item>
     <item>
       <title>你会忽略 django 查询中的重音单词吗</title>

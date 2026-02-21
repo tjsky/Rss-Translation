@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sat, 21 Feb 2026 18:27:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 21:18:04 GMT</lastBuildDate>
+    <item>
+      <title>我停止从头开始重建自动化......这就是改变的地方</title>
+      <link>https://www.reddit.com/r/automation/comments/1rb1zz3/i_stopped_rebuilding_automations_from_scratch/</link>
+      <description><![CDATA[大多数使用 n8n 的人在查找和重建工作流程上花费的时间比他们实际自动化操作的时间还要多。 你搜索一个模板，找到一个 12 颗星但没有文档的 GitHub 存储库，下载一个 JSON 文件，将其导入到 n8n 中，然后意识到它已经半损坏或做了与你需要的完全不同的事情。你修复它，继续前进，两天后，你会对不同的用例做完全相同的事情。 这会导致交付缓慢，持续的挫败感，并且花费整个周末进行调试而不是运输。 我在跨不同行业构建自动化时遇到了这个问题..营销，电子商务，金融，凡是你能想到的。每个项目都以相同的方式开始：寻找一个从未存在过的像样的起点。 我意识到真正的问题不是 n8n 本身。 问题总是从零开始。没有坚实的基础，没有参考点，如果不导入工作流并对每个节点进行逆向工程，就无法快速理解工作流的实际用途。 理论上解决方案很简单：有一个组织良好的、涵盖真实业务用例的现成工作流程库......以及一种无需盲目浏览它们的方法。 因此，我花了几个月的时间收集、测试和组织超过10,000 个 n8n 工作流程模板，并在它们之上构建了一个自定义浏览器界面，以便您可以在抓取之前真正了解您正在抓取的内容。 它可以帮助您：  在分钟，而不是从头开始构建 直观地浏览工作流程 - 下载前查看节点数、触发器类型、复杂性和结构 跳过神秘的 JSON 问题 - 所有内容都已标记、分类和可搜索 涵盖几乎所有用例，无需每次都重新开始 无论您是自由职业者、创始人还是内部人员，都可以使用营销人员  它包括以下工作流程：  冷电子邮件序列 Telegram 机器人 AI 内容生成 CRM 联系人同步 GitHub 自动化 Stripe 付款跟踪 Reddit 监控 YouTube 上传  等等涵盖 18 个类别、100 多个子类别和总共 10,000 多个模板。 您还可以将浏览器指向您自己的本地 JSON 文件夹，它会以相同的方式扫描所有内容并为其建立索引。如果您已经建立了自己的私人收藏，这很有用。 如果这听起来很有用，您可以从我的简历中的链接（Linktree 链接）访问此库 如果您好奇，很乐意回答问题或分享一些示例。   由   提交 /u/Ok_Friend_9829   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rb1zz3/i_stopped_rebuilding_automations_from_scratch/</guid>
+      <pubDate>Sat, 21 Feb 2026 20:44:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Make/Zapier 发送短信的最佳且最简单的方法是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rb0ks3/whats_the_best_and_simplest_way_to_send_text/</link>
+      <description><![CDATA[嘿伙计们， 我正在尝试构建一个演示，一旦填写了潜在客户表格，填写该表格的人就会收到一条短信，内容是“感谢您填写表格，我很快就会与您联系。”我自己的个人电话号码收到一条短信，上面写着“有人填写了表格”。作为通知。 我尝试使用 Twilio，但它看起来很复杂，看起来主要是针对每分钟发送数千条消息的大企业，并且需要各种官方验证。 发送每天最多可能 5-10 条的简单短信的最佳方式是什么？ twilio 仍然是最好的平台吗？还是有适合业余爱好者和小型企业的较小规模版本？   由   提交/u/Jellylegs_19  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rb0ks3/whats_the_best_and_simplest_way_to_send_text/</guid>
+      <pubDate>Sat, 21 Feb 2026 19:47:00 GMT</pubDate>
+    </item>
     <item>
       <title>我为构建者制作了一个可立即启动的 Openclaw 自动化 SaaS 模板</title>
       <link>https://www.reddit.com/r/automation/comments/1raxp74/i_made_a_launchready_openclaw_automation_saas/</link>
@@ -55,13 +69,6 @@
       <pubDate>Sat, 21 Feb 2026 12:48:34 GMT</pubDate>
     </item>
     <item>
-      <title>我需要对 YouTube 视频发表 100,000 条评论 + 登录。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rapvjd/i_need_100000_comments_on_a_youtube_video_logins/</link>
-      <description><![CDATA[大家好，我需要帮助在 YouTube 视频上发表 100,000 到 200,000 条评论，但问题是我需要所有使用的帐户的登录信息。我可能只需要两个或四个帐户的登录信息，但我有一种感觉，即使我通过获取评论或向某人支付机器人评论的途径，获得我想要的任何帐户登录的机会也非常低。我无法承受不获取其中一些帐户的登录信息的后果，因为我正在测试某些内容。凭着登录信息，四五天内怎么可能发表这么多评论？即使我没有登录信息，是否有可能获得一定数量的评论，并且根据命令可以从用于发布评论的帐户访问特定帐户？    由   提交/u/Intrepid_Address_769   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rapvjd/i_need_100000_comments_on_a_youtube_video_logins/</guid>
-      <pubDate>Sat, 21 Feb 2026 12:25:13 GMT</pubDate>
-    </item>
-    <item>
       <title>有人在 Process Street 和 Manifestly 之间切换过吗？试图做出决定。</title>
       <link>https://www.reddit.com/r/automation/comments/1raptpn/anyone_here_switched_between_process_street_and/</link>
       <description><![CDATA[大家好， 我正在审查我们的 SOP 和重复流程设置，并尝试在 Process Street 和 Manifestly 之间做出决定。 就上下文而言，我们是一个小团队，运行大量重复检查表，例如入职、离职、合规任务和客户特定工作流程。我们需要： • 明确的任务所有权 • 重复的计划 • 条件逻辑，但不是极其复杂的东西 • 体面的报告 • L1 级别的员工可以实际使用而不会不知所措的东西 据我所见： Process Street 似乎更加注重工作流程和自动化，这很酷，但我也听说一旦开始分层它就会变得复杂起来逻辑。 显然首先看起来更清单更简单，特别是对于重复流程，而且我喜欢 Slack 集成角度。但我不确定与 Process Street 相比，它在规模上的表现如何。 如果您使用过其中一种或两种，您喜欢或不喜欢什么？ 您是否从一种转向另一种？为什么？ 不是在寻找推销，只是在寻找现实世界的经验。 谢谢   由   提交 /u/Weekly_Accident7552   [链接] [评论]]]></description>
@@ -102,13 +109,6 @@
       <description><![CDATA[对于有电话焦虑症的我来说，我非常害怕打电话。餐馆、银行、医生、牙医：只是呃。 我想：人工智能非常聪明，如果我将它连接到正确的工具，它应该能够拨打电话。 Stack 一开始很简单 -&gt;使用 XI labs + claude + twillio，但实际上变得相当复杂。 处理成本、延迟和智能的权衡。确保根据呼叫类型收集数据+路由代理。通过在线抓取查找电话号码。 最终花了几个月的时间来构建，尤其是。当朋友开始使用它时，我遇到了更多的边缘情况 无论如何，我降低了每次通话的费用，足以开始在餐馆、医生、错误收费等日常事务上使用它。 我已经不再打烦人的电话了。合法永远不会回去。  如果我发现该工具存在缺陷，我就会修复它，然后电话呼叫将在未来永远实现自动化。   由   提交/u/yupimthefunnyone  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1ra0i0x/i_automated_my_annoying_phone_calls_and_ill_never/</guid>
       <pubDate>Fri, 20 Feb 2026 16:46:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何开始人工智能自动化</title>
-      <link>https://www.reddit.com/r/automation/comments/1r9oe51/how_to_start_ai_automation/</link>
-      <description><![CDATA[大家好，我今年 18 岁，正在尝试开始人工智能自动化，这样我就可以赚钱，因为钱的问题我什至没有上大学，请帮助我开始，我从零开始，已经在做的人请指导我如何开始，我对此一无所知    由   提交/u/Living_Humor_9957   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1r9oe51/how_to_start_ai_automation/</guid>
-      <pubDate>Fri, 20 Feb 2026 06:55:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
