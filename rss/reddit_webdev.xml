@@ -4,7 +4,91 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 22 Feb 2026 01:48:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 04:49:15 GMT</lastBuildDate>
+    <item>
+      <title>Photopea 全屏脚本</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbc6vu/photopea_fullscreen_script/</link>
+      <description><![CDATA[      认为这对某些人可能有用:)我很快就完成了这个 您需要Tampermonkey来运行此脚本 油腻叉 | GitHub   由   提交/u/bluechapel  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbc6vu/photopea_fullscreen_script/</guid>
+      <pubDate>Sun, 22 Feb 2026 04:22:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>这个错误悄悄地杀死了我网站上的所有下载 - res.on('close') 与 req.on('close')</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbc6so/the_bug_that_was_silently_killing_every_download/</link>
+      <description><![CDATA[      花了两天时间调试为什么我的网站上的下载默默失败。用户会点击“下载”，看到“正在处理”，然后就什么也没有了。没有错误，没有超时消息，只是沉默。 错误：如果客户端断开连接，我有 req.on(&#39;close&#39;) 来终止 yt-dlp 进程。事实证明，当 POST 主体被完全读取时，req 就会触发 close 事件——这几乎是瞬间的。所以我生成 yt-dlp 并每次都会在几分之一秒后杀死它。 修复是一个词 - res.on(&#39;close&#39;) 代替。仅当实际的浏览器连接断开时才会触发。 分享是因为我在任何地方都找不到此文档，这花了我两天的时间。 上下文：我构建了 dltkk.to - 一个免费的 yt-dlp Web 前端，支持 1000 多个平台。 Node.js + Express，文件通过 /tmp 路由，然后流式传输到客户端并立即删除。很高兴回答有关实施的问题。 https://dltkk.to   由   提交/u/Strong-Goalie   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbc6so/the_bug_that_was_silently_killing_every_download/</guid>
+      <pubDate>Sun, 22 Feb 2026 04:22:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个 React 一次性电子邮件，它 100% 在 RAM 中运行，以避免服务器端日志记录。在没有数据库的情况下如何处理匿名状态？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbc39q/i_built_a_react_disposable_email_that_runs_100_in/</link>
+      <description><![CDATA[嘿，开发人员朋友们，每当我注册一项服务来测试其流程时，我都会使用一次性电子邮件。但现有的广告充斥着广告并记录您的数据。我决定使用 React 和 Vite 构建 MephistoMail (https://mephistomail.site) 作为周末项目。核心理念：无数据库。整个收件箱状态不是在后端存储电子邮件，而是保存在 React 应用程序的内存 (RAM) 中，并通过实时挂钩进行同步。如果您点击“刷新”或关闭选项卡，您的收件箱及其所有内容将被永久擦除。仓库：https://github.com/jokallame350-lang/temp-mailmephisto。我发帖询问： 1. 严格依赖浏览器 RAM 是“一次性”会话的可靠安全实践吗？ 2. 你们中是否有人构建了有意避免持久存储的状态密集型应用程序？您面临哪些挑战？烤一下我的架构，让我们讨论隐私优先应用程序的状态管理！   由   提交 /u/CrowPuzzleheaded6649   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbc39q/i_built_a_react_disposable_email_that_runs_100_in/</guid>
+      <pubDate>Sun, 22 Feb 2026 04:17:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Astro + Svelte 构建的 SWE 学生作品集</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbbryu/swe_student_portfolio_built_using_astro_svelte/</link>
+      <description><![CDATA[大家好！ 我是一名软件工程专业的学生，​​想分享我的作品集网站，希望得到一些反馈！ 该网站是使用 Astro + Svelte 构建的。 Astro 处理静态站点生成并运行 Node.js 服务器，而 Svelte 将交互式组件作为水合岛提供支持。样式是 TailwindCSS，内容是用 Markdown 和 MDX 编写的，支持数学和内联 Svelte 组件。 我非常喜欢添加的两个工具是 D2（在构建时生成 SVG 形式的技术图表）Satori（在运行时生成动态 Open Graph 图像）。每个页面都拥有自己的 OG 映像，而不是每个共享链接都显示通用预览。 整个应用程序使用 Docker 进行容器化，并在 Oracle Cloud 免费层虚拟机上自托管。 GitLab CI 构建镜像并将其推送到 Docker Hub，然后通过 SSH 连接到虚拟机并运行部署脚本，将旧容器替换为新容器。 Caddy 充当反向代理，Cloudflare 处理 DNS、SSL 和缓存。 我还有另一个链接管理应用（使用 SvelteKit 构建），它补充了这个组合网站。我计划使用 PNPM 工作区将这两者合并到一个 monorepo 中，并将媒体卸载到 Directus 等 CMS。你们对这次迁移有什么反馈吗？ 请随时查看网站并测试代码。   由   提交/u/anav5704  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbbryu/swe_student_portfolio_built_using_astro_svelte/</guid>
+      <pubDate>Sun, 22 Feb 2026 04:01:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>由 Gemini 3.1 Pro 提供支持的 Antigravity 刚刚解决了我困扰了一年的 Next.js Tailwind 构建错误。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbbpjd/antigravity_powered_by_gemini_31_pro_just_solved/</link>
+      <description><![CDATA[近一年来，每次运行 npm run build 时，我的 Next.js 组合构建都会失败。错误消息完全没用： 仓库：https://github.com/AnkitNayak-eth/ankitFolio 实时站点：https://ankit-nayak.vercel.app/ HookWebpackError：无法读取 cssnano-simple 中未定义的属性（读取“长度”） 在 CSS 缩小期间它总是崩溃。我研究了所有可以想象到的 Webpack 配置、不同的 Next.js 版本、cssnano 问题、依赖项更新。  我唯一的解决方法是在 next.config.ts 中禁用缩小： config.optimization.minimize = false  构建会通过，但我的生产应用程序完全未优化。我最终接受了它作为那些奇怪的“Next.js 事物”之一。 今天，我决定尝试由 Gemini 3.1 Pro 提供支持的 Antigravity。我让它分析存储库。它运行了大约半个小时，挖掘了代码库，然后发现了真正的根本原因。 它不是 Webpack。 它不是 cssnano。 它不是 Next.js。 它是带有模板文字的 Tailwind 任意值： &lt;div className={`flex [遮罩图像:线性渐变(向_${方向},透明,black_10%,black_90%,透明)]`}&gt;  Tailwind 无法在构建时静态分析 to_${direction}，因此生成了无效的 CSS。当 Next.js 将其传递给 cssnano 进行缩小时，进程崩溃了。几个月来堆栈跟踪都指向错误的方向。 解决方法只是使用三元组使类静态：   之后，生产版本立即开始运行。启用缩小。没有崩溃。 我花了一年时间将最终的动态 Tailwind 字符串插值错误归咎于 Webpack 和 Next.js。由 Gemini 3.1 Pro 提供支持的 Antigravity 在不到一个小时的时间内就找到了它。 Uff 活着真是太疯狂了。 🤷‍♂️   由   提交 /u/Cod3Conjurer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbbpjd/antigravity_powered_by_gemini_31_pro_just_solved/</guid>
+      <pubDate>Sun, 22 Feb 2026 03:57:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>写给 Carl Sagan 的数据驱动情书（Three.js、webGL、Gemini API）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbbp5f/a_datadriven_love_letter_to_carl_sagan_threejs/</link>
+      <description><![CDATA[      人类从宇宙中得到的礼物是上面宇宙的挂毯，我们的回报是音乐。 宇宙舞台 是一封写给卡尔·萨根和深刻的数字情书他唤醒了我们许多人的惊奇感。作为一名音乐作曲家和动画艺术家，我一生都在追逐这种感觉：抬头并真正看到我们所处的位置时产生的安静的敬畏。这个项目是我尝试将音乐、艺术和科学编织成一种单一的体验，这种体验可能会帮助某个地方的某人感受到宇宙的巨大和美丽，就像萨根第一次帮助我感受宇宙一样。 当你输入你的生日时，宇宙舞台将你的一生与太阳系的宏伟发条进行映射。时间和距离的绝对尺度是针对一个人的生命来衡量的。这些数字提醒你，我们与宇宙深处的时间相比是多么短暂，但你能来到这里是多么了不起。您既渺小又非凡。 人工智能用于生成动态内容，这意味着每次访问都是一次独特的体验。你的生活和宇宙之间的事实、故事和联系永远不会完全相同。   由   提交/u/FLIBERTYGIBBITS   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbbp5f/a_datadriven_love_letter_to_carl_sagan_threejs/</guid>
+      <pubDate>Sun, 22 Feb 2026 03:57:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络口袋妖怪包开场游戏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbb1h8/web_pokemon_packs_opening_game/</link>
+      <description><![CDATA[我构建了一个基于浏览器的卡包打开模拟器 - 寻找架构反馈 我一直在开发一个 Web 应用程序，它可以在浏览器中实时模拟打开交易卡包、开局、pvp 战斗。 目标不是克隆现有游戏，而是探索概率系统、动画性能和状态管理，以实现高度可重复的交互。 我的一些内容重点关注：  设计一个在后端具有确定性但对用户来说感觉随机的拉速系统 在不阻塞主线程的情况下处理大型动画突发（多张卡片显示、粒子效果） 保持包大小较小，同时仍然支持图像密集型资源 避免在快速“再次打开”循环期间重新渲染（这是一个更大的挑战）超出预期） 缓存 + 预加载策略，让连续打开感觉即时  现在是反馈反馈和新想法的时候了，所以试一试。 实时预览：packsrush.com   由   提交 /u/Sweaty_Breakfast2822   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbb1h8/web_pokemon_packs_opening_game/</guid>
+      <pubDate>Sun, 22 Feb 2026 03:23:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>数字海洋等DIY平台</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbb0a9/diy_platform_like_digital_ocean/</link>
+      <description><![CDATA[是否有一个类似于数字海洋的现有平台（廉价或开源）用于管理服务器、服务、容器（从 gi​​thub 拉取）？   由   提交/u/bazjoe  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbb0a9/diy_platform_like_digital_ocean/</guid>
+      <pubDate>Sun, 22 Feb 2026 03:22:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>站点地图可视化工具？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rbaut5/sitemap_visualizer/</link>
+      <description><![CDATA[我正在寻找一种可视化站点地图的方法。让我看到网站结构缩小了的东西。  有工具可以让我做到这一点吗？接受建议。    由   提交 /u/Le_Muskrat   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rbaut5/sitemap_visualizer/</guid>
+      <pubDate>Sun, 22 Feb 2026 03:14:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于浏览器的物理沙箱和轨迹编辑器 – vanilla JavaScript</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rba9mr/browserbased_physics_sandbox_and_track_editor/</link>
+      <description><![CDATA[我想要这个基本上是 Line Rider 的东西，但有弹珠和其他动态对象的更多选项。 我构建了一个 2D 弹珠赛车模拟器，所有内容都在浏览器中运行。用户在可视化编辑器中设计大理石轨道，使用 Box2D 物理对其进行模拟，并可以创建一个链接以便轻松共享他们的创作。 整个事情开始于一个实验，看看我在不使用框架或游戏引擎的情况下使用 vanilla JS 和 HTML5 Canvas 能走多远。所有图形都是按程序绘制的：任何地方都没有图像或精灵。唯一的库是 Box2D 编译为 WASM 的物理库。前端是与 Vite 捆绑在一起的普通 JS，后端是带有 SQLite 的 Python API。 设计器允许创建多种类型的对象，并更改它们的属性以产生有趣的模拟。轨道可以包含同时比赛的多个弹珠。   由   提交/u/Imaginary_Artist_181   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rba9mr/browserbased_physics_sandbox_and_track_editor/</guid>
+      <pubDate>Sun, 22 Feb 2026 02:46:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>最佳模型程序（客户视角）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rba75f/best_program_for_mockup_clients_perspective/</link>
+      <description><![CDATA[我想稍后聘请一名自由职业者来制作一个应用程序，我有一份完整的书面指南来说明我所需要的内容（有点像游戏设计文档 GDD，但针对的是应用程序）。 如果我要对我的设想进行模拟，开发人员会更喜欢什么程序？  像 Photoshop 一样？ 应用程序设计师最好自己制作艺术作品，还是使用给定的艺术作品（就像我需要带数字插画师一样）。需要什么文件类型？ 大多数人都在figma中工作吗？还是有更好的多页面应用程序？ 最后，哪里是找到网络和应用程序的最安全/最好的地方？应用程序开发？ 我之前曾组建过一个独立视频游戏项目团队，但已经过去很多年了，这对我来说是一条新途径。  T.I.A. [请不要对另一个小组向我建议的 AI Web 开发程序提出建议]   由   提交 /u/Trick_Following6639   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rba75f/best_program_for_mockup_clients_perspective/</guid>
+      <pubDate>Sun, 22 Feb 2026 02:43:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>我创建了一个用于搜索数千张公共领域图像的网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rb93ze/i_made_a_website_for_searching_thousands_of/</link>
+      <description><![CDATA[      我觉得在人工智能生成图像的时代，我们应该更多地思考如何发现已经存在于公共领域（即完全免费使用）的数百万张有趣的图像。  我从不同的博物馆、图书馆等收集了数千张图像（仍在进行中）。我将所有图像嵌入到矢量表示中并为其添加了标题，因此您可以在图像内部进行搜索（例如，搜索狗或船的图画，即使标题或标题不包含这些内容）。仍在进行中，但我对迄今为止的工作方式感到自豪，加载这么多图像绝对是一个有趣的挑战！ 第一次搜索仍然需要一些时间，因为嵌入模型必须在浏览器中加载，但每天都在努力优化它并添加更多图像！希望获得反馈并乐意回答任何问题！   由   提交 /u/Unmoovable   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rb93ze/i_made_a_website_for_searching_thousands_of/</guid>
+      <pubDate>Sun, 22 Feb 2026 01:51:23 GMT</pubDate>
+    </item>
     <item>
       <title>我构建了一个免费的基本财务数据 REST API + Google Sheets 插件，可将标准化且干净的数据直接提取到您的电子表格中</title>
       <link>https://www.reddit.com/r/webdev/comments/1rb7tym/i_built_a_free_fundamental_financial_data_rest/</link>
@@ -25,90 +109,6 @@
       <description><![CDATA[   每个视频下载网站都是虚假按钮和弹出广告的噩梦。我自己建立了一个规则：永远不要有广告。不是现在，不是在它流行的时候，不是为了支付服务器成本。永远免费，永远干净。 技术堆栈：Node.js + Express、纯 HTML/CSS/JS、yt-dlp + ffmpeg。没有框架，没有构建步骤，没有废话。 我在构建它时学到的东西可能会节省您的时间： - 不要通过 stdout 流式传输 yt-dlp。看起来很优雅，在任何需要 ffmpeg 合并的格式上都会无声地中断（大多数 YouTube 下载）。通过 /tmp 路由所有内容 - 它基于 Linux 的 RAM，因此不会写入磁盘，流式传输到客户端后会立即进行清理  - TikTok 会阻止所有非浏览器请求。修复：--impersonate - Reddit 在网络级别阻止数据中心 IP。没有标头或用户代理欺骗可以修复它。现在只是显示 Reddit URL 的友好错误  - res.on(&#39;close&#39;) 而不是 req.on(&#39;close&#39;) - req 在读取 POST 正文时触发，这几乎是即时的。在我发现这个之前，每次下载都会杀死 yt-dlp 它的作用： - 通过 yt-dlp 访问 1000 多个平台 - MP4、MP3、FLAC、WAV、AAC、MKV、GIF 转换、缩略图提取 - 一次批量下载最多 10 个 URL - 适用于 iPhone 和浏览器中的 Android，不需要应用程序 - 没有帐户，没有跟踪，没有广告 - 说真的，没有 https://dltkk.to 很高兴回答有关实施的任何问题。   由   提交/u/Strong-Goalie   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rb6whl/i_built_a_free_ytdlp_web_frontend_that_supports/</guid>
       <pubDate>Sun, 22 Feb 2026 00:10:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Safari 标签囤积者的扩展</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb4l30/an_extension_for_safari_tab_hoarders/</link>
-      <description><![CDATA[它名为 TrimTabs，在 safari 桌面版 osx 应用商店中免费，但 IOS 很快就会添加。我发现，如果您向苹果提交一个不向服务器发送数据、也不收集任何个人数据的应用程序商店条目，那么批准就是一天！ https://clovellysoftware.com.au/trimtabs/ 我是那种最终会打开 300 个选项卡的浏览器用户，所以写这个是为了应对关闭它们或保存它们的组。它根本不与浏览器书签交互，因为没有相应的 api。 无论如何，请检查一下 - 欢迎其他标签囤积者提供反馈   由   提交/u/Street-Air-546  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb4l30/an_extension_for_safari_tab_hoarders/</guid>
-      <pubDate>Sat, 21 Feb 2026 22:31:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>我厌倦了构建相同的 SaaS 样板，因此我构建了一个 MCP 服务器来让我的 IDE 找到独立的 API（FastAPI + SQLite）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb4idn/i_got_sick_of_building_the_same_saas_boilerplate/</link>
-      <description><![CDATA[Vibe-coding 很酷，直到你意识到 Cursor 刚刚烧掉了 50k 代币，从头开始编写了一个有缺陷的计费系统，而 9 美元/月的独立 API 已经存在。 周末我构建了 IndieStack - 一个包含 100 多个独立 SaaS 工具的目录。但真正的产品是附加到它的 MCP 服务器。 它是如何工作的： - 要求 Claude Code “添加分析” - MCP 服务器不是生成样板文件，而是查询我的 SQLite 数据库 - 它会找到像 Plausible 这样的独立工具，并向您提供集成片段 - 您可以节省代币、时间和金钱 堆栈： - FastAPI + SQLite 和 FTS5 用于全文搜索 - 纯服务器渲染的 HTML（零 JS 框架） - 通过 Python SDK 的 MCP 服务器 - 单个 Fly.io 机器，单个 .db 文件 否反应。没有 Next.js。没有 Postgres。没有 Redis。 目前可以毫不费力地在单个 SQLite 文件上处理来自 5 个以上 subreddits 的流量。 TTFB 约为 220 毫秒。 尝试一下： https://indiestack.fly.dev 让我知道 MCP 延迟对于您的工作流程来说是否足够快 - 以及我缺少哪些独立工具。   由   提交/u/edmillss  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb4idn/i_got_sick_of_building_the_same_saas_boilerplate/</guid>
-      <pubDate>Sat, 21 Feb 2026 22:28:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>您同时检查其他网站的 CSS 和 SEO 的工作流程是怎样的？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb4102/whats_your_workflow_for_inspecting_other_sites/</link>
-      <description><![CDATA[好奇其他开发人员在这里做什么。当我查看一个网站时 - 无论是竞争对手、我喜欢的设计还是调试我自己的东西 - 我总是会打开 4 个选项卡：  - CSS 开发工具  - PageSpeed Insights for importants  - 一些用于元/架构的 SEO 扩展  - 用于技术堆栈的BuiltWith 或 Wappalyzer 这感觉很愚蠢。我最终构建了自己的工具，将所有这些工具组合到一个基于悬停的检查器中，但我很好奇其他人是否有更好的设置，或者你们中的大多数人是否只是使用 DevTools 并收工。 您的“检查站点”是什么意思？工作流程实际上是什么样子？   由   提交 /u/spacepings   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb4102/whats_your_workflow_for_inspecting_other_sites/</guid>
-      <pubDate>Sat, 21 Feb 2026 22:08:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们构建了唯一的数据网格，让您永远不必使用“useEffect”或再次遇到同步问题。 LyteNyte 网格 2.0 简介。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb3iqj/we_built_the_only_data_grid_that_allows_you_to/</link>
-      <description><![CDATA[   每个可用的 React 数据网格的主要问题是，它要求开发人员使用可怕的 useEffect 或类似的效果处理程序编写代码，主要是在将状态与 URL 参数同步时。 LyteNyte Grid v1 比其他数据网格库更少固执己见，但仍然强制执行固执己见的结构对于排序、筛选和分组模型，如果您的数据源不符合我们的模式，就会产生摩擦。 这些问题并非我们所独有。每个数据网格都会碰到这堵墙。 直到今天！我们很自豪地宣布正式推出 LyteNyte Grid v2。 LyteNyte Grid v2 已经100% 无状态且完全由 prop 驱动。这意味着您可以从您的状态以声明方式配置它，无论是 URL 参数、服务器状态、Redux 还是您可以想象的任何其他内容。实际上，您再也不必处理令人头痛的同步问题。 我们的 2.0 版本还带来了约 30kb 的较小压缩包大小、可实现更快设置的混合无头模式以及基于本机对象的树数据。此外，我们的新 API 提供了几乎无限的可扩展性。 我们编写了 130 多个深入指南，每个指南都有详尽的解释、实际演示和代码示例。使用 LyteNyte Grid 2.0 所需的一切。  有关该版本的更多详细信息，请查看我们的博客。 给我们反馈 这对我们来说只是一个开始。 LyteNyte Grid 2.0 受到现有用户反馈的显着影响，我们对此表示感谢。 我们计划支持 LyteNyte Grid 的 Vue JS 版本。如果您有兴趣关注开发，请在我们的存储库中给这个问题点赞。 如果您的 React 项目需要一个免费的开源数据网格，请尝试 LyteNyte Grid。它是零成本且在 Apache 2.0 下开源。 如果您喜欢我们正在构建的内容，GitHub 星星会提供帮助，并且随时欢迎提供功能建议或改进。  GitHub 实时演示    由   提交/u/After_Medicine8859  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb3iqj/we_built_the_only_data_grid_that_allows_you_to/</guid>
-      <pubDate>Sat, 21 Feb 2026 21:47:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>这种架构和故障处理方法看起来合理吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb3516/does_this_architecture_and_failurehandling/</link>
-      <description><![CDATA[Scraper 设置 – 快速概述 架构  Orchestrator (run_parallel_scraper)：生成 N 个工作进程（我们使用 3 个），为每个工作进程分配一个页面范围（例如 1–250、251–500、501–750），每个工作进程一个代理（对于运行来说是粘性的），错开工作线程的启动时间（例如 20-90 秒）以减少类似机器人的爆发。 工作线程：每个线程都使用 --start-page / --max-pages 运行 daily_scraper； discovery-only = 仅浏览页面，不抓取产品页面。  代理  WebShare API；子网多样性，因此没有两个工作人员共享相同的 /24。 通过 WORKER_PROXY_URL 的工作人员代理；用于排除 IP 的上次运行和不良代理列表。  发现流程（每个工作人员）  每个工作人员一个 Playwright (Chromium) 页面、无头、指纹识别（视口、UA）、图像/字体/样式被阻止。 导航到浏览 URL → 关闭 cookie 横幅、禁用区域过滤器 → 分页（例如？p=2、 ?p=3, …)。 对于每个页面：等待产品选择器（有超时）、获取 HTML、解析、保存到 DB；然后转到下一页。 默认超时：60 秒导航，30 秒操作（因此没有无限制的等待）。  失败处理  导航失败（超时、ERR_ABORTED 等）：重试同一 URL 最多 3 次，并进行回退；如果仍然失败，请将页面添加到“失败的发现页面”并继续下一页（无全程中止）。 “目标页面/上下文/浏览器关闭”：重新创建浏览器和页面一次，重试相同的导航；如果仍然失败，则跳过页面。 发现页面超时（例如 page.content() 挂起）：工作人员写入简历文件（最后一页，保存的计数），以代码 2 退出； Orchestrator 使用新的代理和恢复范围（从该页面开始）重新生成该 Worker。 Worker 运行时间过长：Orchestrator 在 60 分钟挂钟后终止；使用新代理重试工作程序（如果退出为 2，则恢复）。 运行结束：对于失败页面列表，最多 3 次“重试失败的发现页面”(discover_pages_only)。 追赶：编排器从工作程序结果文件推断丢失的范围（保存的计数 → 完成的页数），并使用新代理运行额外的工作程序以抓取这些范围。  数据  所有工作人员都写入同一个 Supabase 数据库（发现的游戏、列表、价格）。 工作人员结果文件 (worker_N_result.json) 记录该运行的开始/最大页面和保存的_from_discovery；使用代码 2 退出时使用的恢复文件。  运行生命周期  运行完成时可选的 Discord Webhook（成功/失败、游戏已保存、工作人员正常/失败、持续时间）。 写入的会话报告文件（例如 scraper_session_*.txt）。  我们使用的配置  3 个工作人员，总共 750 个发现页面，仅限发现。 2GB Droplet；使用 nohup 在后台运行...&gt; parallel.log 2&gt;&amp;1 &amp;.  “我们有时会看到：导航超时（例如 ERR_ABORTED）、page.content() 或 goto 挂起、浏览器/页面关闭（例如几页后），以及在成功之前失败几次的奇怪工作程序。我们使用退避重试，在“关闭”时重新创建浏览器，并在超时时使用简历 + 新代理。” “我们使用 2GB 的 Droplet，有 3 个工作线程；想知道资源限制或代理质量是否有所影响。” 任何改进建议都会很棒。谢谢！   由   提交/u/ZaKOo-oO   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb3516/does_this_architecture_and_failurehandling/</guid>
-      <pubDate>Sat, 21 Feb 2026 21:31:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>对我为我的吉他老师建立的网站的反馈请求！:)</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb33f6/feedback_request_for_the_website_i_built_for_my/</link>
-      <description><![CDATA[嗨！我为我的吉他老师建立了一个小型登陆页面，我真的很感谢更有经验的开发人员提供一些诚实的技术反馈。 我知道的一些事情： 我可能使用了太多字体，我仍在弄清楚如何平衡个性与一致性。 可用的老师照片并不多（我使用的是给我的照片），所以我特别好奇你如何在有限的情况下处理视觉层次结构或信任建立图像。 我不是在推销这项业务！作为一名开发人员，我只是真诚地努力提高自己。   由   提交/u/No-Vegetable5956   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb33f6/feedback_request_for_the_website_i_built_for_my/</guid>
-      <pubDate>Sat, 21 Feb 2026 21:29:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>对我的 ALS 资源网站的反馈请求</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb27uj/feedback_request_for_my_als_resource_site/</link>
-      <description><![CDATA[      大家好！我于 2023 年 6 月被诊断出患有 ALS。目前我一直坐在轮椅上，只有颈部有一点活动。我正在建立一个仅使用眼睛注视的网站。我无论如何都不是专业人士，但在确诊之前我已经建立了一个当地动物救援网站。通过反复试验自学。 该网站旨在帮助 ALS 患者找到提供所需资源的组织。该站点符合 WCAG 2 AAA 标准。我花了很多时间来确保字体、大小、对比度和布局易于访问。搜索可以按关键字或状态进行，结果按帖子浏览量排序。您还可以按类别图标拉出组织。目前，我的数据库中只有 11 个组织可供测试，但很快就会开始添加更多组织。 我计划主要通过 ALS 诊所推广该网站，并且已经获得了对 Kaiser 和 ALS United 的支持。  请告诉我您可能有的任何反馈。请记住我是业余爱好者所以没什么可疯狂的。我只使用基本的插件、缓存、搜索引擎优化、表单。还试图保持成本可控，因此只有在我确实能证明合理的情况下才使用付费服务。我有一个链接的 Gofundme，希望能确保该网站在我离开后仍能保持很长时间。我在捐赠页面上保留了可下载的损益表，以便所有资金都是透明的，并有一个小博客来跟踪我的发展。其余的（例如自定义搜索规则）是在子主题中编码的。使用GeneratePress premium和GenerateBlocks。   由   提交/u/isneeze_at_me  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb27uj/feedback_request_for_my_als_resource_site/</guid>
-      <pubDate>Sat, 21 Feb 2026 20:53:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>JotBird – 立即将 Markdown 发布到 URL</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb1x5c/jotbird_instantly_publish_markdown_to_a_url/</link>
-      <description><![CDATA[      嘿，大家！我是 Markdown 指南 的作者，并构建了 JotBird，因为我一直遇到同样的问题：我会在 Markdown 中编写一些内容，并需要与没有 GitHub 帐户或不知道 .md 文件是什么的人共享。 现有选项都矫枉过正了。 GitHub Gist 呈现 markdown，但 URL 看起来像代码存储库。部署到 Vercel 或 Netlify 是可行的，但它是一个文档的整个项目。 Google 文档意味着重新格式化所有内容。 因此，我构建了最简单的东西：粘贴 markdown（或使用 CLI/API）并获取看起来像普通网页的可读 URL。就是这样！无需帐户。 它处理的内容：  自动图像托管（无 S3 步骤） 语法突出显示的代码块 重新发布更新相同的 URL LaTeX/MathJax 方程 带有样式的标注  如何实现有效：  Web 应用： 编写并单击发布 CLI： npm install -g jotbird，然后jotbird 发布自述文件 API： POST markdown，获取 URL Obsidian 插件： 从编辑器中一键发布  使用网络应用程序或 Obsidian 插件不需要任何帐户。免费帐户获得具有 90 天有效期的链接。 Pro（29 美元/年）使它们永久有效。发布的页面默认为 noindex。 CLI 和 API 是开源。 更多信息：https://www.jotbird.com 很乐意回答有关堆栈、方法等的问题。欢迎提供反馈——好的、坏的或残酷的。 :)   由   提交 /u/captcone   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb1x5c/jotbird_instantly_publish_markdown_to_a_url/</guid>
-      <pubDate>Sat, 21 Feb 2026 20:41:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 BirdNET-Go 构建太阳能鸟类站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb1akj/building_a_solarpowered_bird_station_with/</link>
-      <description><![CDATA[ 由   提交 /u/chicametipo   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb1akj/building_a_solarpowered_bird_station_with/</guid>
-      <pubDate>Sat, 21 Feb 2026 20:15:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找需要可靠自动化和云支持的企业</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb11f5/seeking_businesses_that_need_reliable_automation/</link>
-      <description><![CDATA[我们构建智能、可扩展的业务解决方案，推动自动化、效率和长期增长。凭借多年成熟的交付和强大的客户保留率，我们通过定制应用程序、网站和系统自动化帮助组织简化运营。 我们跨 Amazon Web Services、Microsoft Azure、SAP 和 Google Cloud Platform 部署和管理解决方案 - 以极具竞争力的价格提供无与伦比的专业精神。 让我们以正确的方式实现自动化和扩展您的业务。   由   提交 /u/onetyonefour   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb11f5/seeking_businesses_that_need_reliable_automation/</guid>
-      <pubDate>Sat, 21 Feb 2026 20:05:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>最受人工智能炒作的网站奖颁发给</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb0waa/most_ai_hyped_site_award_goes_to/</link>
-      <description><![CDATA[      制作此网站只是为了好玩 https://most-ai-mentions.com/ 使用爬虫程序对 AI 炒作词和发光彩虹动画的网站进行排名！   由   提交/u/drnlrmr   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb0waa/most_ai_hyped_site_award_goes_to/</guid>
-      <pubDate>Sat, 21 Feb 2026 20:00:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个工具，可以在记录自己执行任务后自动化您的工作流程（开源）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rb0tlt/i_built_a_tool_to_automate_your_workflow_after/</link>
-      <description><![CDATA[      大家好， 我已经在这方面构建了几个月了，终于想得到一些反馈。 我最初尝试使用 Zapier/n8n 来自动化我的部分工作，但我发现学习和入门非常困难。我认为很多人不将更多工作自动化的原因是因为设置自动化花费的时间太长并且容易中断。 这就是我构建自动化的原因。通过记录一次工作流程，您就可以随时运行它。该系统使用人工智能，以便能够适应网站变化和条件逻辑。 Github（自行托管）： https://github.com/r-muresan/automated 链接（使用托管版本）： https://useautomated.com 非常感谢任何反馈。谢谢！   由   提交/u/bullmeza  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rb0tlt/i_built_a_tool_to_automate_your_workflow_after/</guid>
-      <pubDate>Sat, 21 Feb 2026 19:56:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
