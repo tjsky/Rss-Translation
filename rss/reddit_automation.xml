@@ -4,7 +4,28 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 23 Feb 2026 06:58:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 09:49:49 GMT</lastBuildDate>
+    <item>
+      <title>需要帮助理解这一点（粘土设置）</title>
+      <link>https://www.reddit.com/r/automation/comments/1rcc8kg/need_help_understanding_thisclay_setup/</link>
+      <description><![CDATA[      我正在尝试构建一个自动化工作流程来查找代理机构的联系信息，我需要一些帮助来找出正确的方法。 我的目标：  获取包含公司名称 + 位置（例如“亚利桑那州菲尼克斯”）的代理机构列表 使用特定的 API 查找其域 获取 LinkedIn URL 查找创始人姓名 使用 AI 生成个性化电子邮件  我正在使用具有工作簿功能、* 请求和 AI 集成的无代码自动化工具。 向社区提出的问题： • 此工作流程有意义吗？我有什么遗漏的地方吗？ • 关于构造* 丰富API 请求的技巧？ • 为了查找实际的电子邮件地址 - 我是否需要像 apollo 这样的专用工具，或者 AI 可以提供帮助吗？ 还遇到一个技术问题：我试图从 API 正文中的电子表格传递 {{Company Name}}，但出现语法错误。使用 {“company_name”: {{Company Name}}} - 我知道引号是错误的，但不确定变量的语法是否正确。 随附的屏幕截图显示了我当前的配置。提前致谢！   由   提交/u/Low-Location4275   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rcc8kg/need_help_understanding_thisclay_setup/</guid>
+      <pubDate>Mon, 23 Feb 2026 08:44:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动化课程：发票早在付款之前就失败了</title>
+      <link>https://www.reddit.com/r/automation/comments/1rcc642/automation_lesson_invoices_fail_long_before/</link>
+      <description><![CDATA[当我将发票标记为“已提供”时，我总觉得自己又向前迈进了一步。但对我来说，这似乎是延迟真正开始的时候！门户不会上传。文件消失或丢失。没有人负责后续行动。您可能设置了跟进提醒，但它们不会消失。系统将发票显示为“完整”。但可能还远未付款。 这种情况已经发生过很多次了！问题不在于创建发票，而在于创建发票。发票发送后问题就存在。因此，我们决定使用 Monk（订单到现金平台）来监控未付发票，自动跟进这些发票，并标记任何阻碍付款的内容。 这是使用 Monk 的重要部分：通过了解实际的阻碍情况，我获得了很多速度，但更重要的是，我能够看到工作被困在哪里。 这让我思考有多少次标记为完成的事情尚未完全完成。状态可能会显示已完成，但工作仍然坐在那里等待另一个人或其他东西来完成他们的工作。 您有类似的故事吗？您见过哪些流程看似完成，但当时工作却没有完成？   由   提交 /u/Devid-smith0   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rcc642/automation_lesson_invoices_fail_long_before/</guid>
+      <pubDate>Mon, 23 Feb 2026 08:40:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找可靠的发票 OCR</title>
+      <link>https://www.reddit.com/r/automation/comments/1rcbr5b/looking_for_reliable_ocr_for_invoices/</link>
+      <description><![CDATA[研究用于发票处理的 OCR 并希望获得与扫描文件配合良好的软件推荐。   由   提交/u/tyr1699  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rcbr5b/looking_for_reliable_ocr_for_invoices/</guid>
+      <pubDate>Mon, 23 Feb 2026 08:13:38 GMT</pubDate>
+    </item>
     <item>
       <title>我应该创建什么样的代理？</title>
       <link>https://www.reddit.com/r/automation/comments/1rc8lt0/what_kind_of_agent_should_i_create/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[在过去的一年中实施了多项自动化，我的老板一直要求提供投资回报率数字，但问题是衡量反事实。如果没有自动化，这需要多长时间？对于大多数事情，我没有关于之前状态的干净数据。 有些事情是显而易见的，比如如果自动化取代了 20 分钟的手动步骤，那么现在该步骤需要零分钟。但我们的大多数自动化都是关于过去会出现问题或不一致发生的事情，您如何衡量过去无法可靠发生的事情的价值？ 有人拥有用于量化自动化价值的框架，而不仅仅是简单地节省时间吗？   由   提交 /u/Timely-Film-5442   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rbortr/how_do_you_actually_measure_automation_roi/</guid>
       <pubDate>Sun, 22 Feb 2026 15:33:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>我厌倦了通过移动设备管理我的 n8n 工作流程……所以我构建了这个。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbl9sm/i_got_tired_of_managing_my_n8n_workflows_from/</link>
-      <description><![CDATA[       由   提交/u/Ok-Scar8556   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbl9sm/i_got_tired_of_managing_my_n8n_workflows_from/</guid>
-      <pubDate>Sun, 22 Feb 2026 13:00:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>聪明的建筑商着眼于自动化尚未落地的领域。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbhpk7/smart_builders_look_where_automation_hasnt_landed/</link>
-      <description><![CDATA[      仔细观察绿色框。 这些部门仍在运行： – 手动工作 – 部落知识 – Excel 表格 – 无休止的后续工作 – 人力瓶颈 这就是压力所在 这就是低效率隐藏的地方。 这就是预算悄悄流失的地方。 大多数人追逐拥挤的类别。 聪明的建筑商着眼于自动化尚未落地的地方。 采用一个混乱的、可重复的工作流程。 将其变成人工智能代理。 使其可靠。 使其可靠。 使其可靠。可衡量。 使其变得不可或缺。 这就是垂直 SaaS 2.0。 下一个价值十亿美元的公司不会取代整个行业。 他们会一次悄悄地自动化一个痛苦的工作流程。 绿框不是噪音。 这是你的机会窗口。 🚀   由   提交/u/warrioraashuu   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbhpk7/smart_builders_look_where_automation_hasnt_landed/</guid>
-      <pubDate>Sun, 22 Feb 2026 09:39:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过人工智能辅助工作流程自动化短视频概念</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbgx2t/automating_short_form_video_concepts_with_ai/</link>
-      <description><![CDATA[我一直在尝试将我的简短内容管道的部分自动化，并希望分享迄今为止行之有效的方法。 最节省时间的方法是将创意决策与重复的制作步骤分开。我使用人工智能批量起草概念和脚本，然后将它们存储在一个简单的数据库中。从那里，我生成基本视觉效果并测试轻量级运动，看看哪些想​​法让人感兴趣，然后再投入更多时间。 对于运动测试，我尝试了将静态图像动画化的工具，包括 Viggle AI，作为快速验证层。我没有预先手动编辑所有内容，而是通过运动模板运行一些概念图像，看看哪些图像对于社交提要来说足够动态。通过该过滤器的内容将进入更完善的编辑工作流程。 它不是完全自动化的，但它减少了在不能很好地转化为视频的想法上浪费的精力。 很好奇这里的其他人如何围绕创意资产构建自动化。您是否正在构建在全面生产之前对想法进行评分或过滤的管道？   由   提交/u/farhankhan04  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbgx2t/automating_short_form_video_concepts_with_ai/</guid>
-      <pubDate>Sun, 22 Feb 2026 08:50:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
