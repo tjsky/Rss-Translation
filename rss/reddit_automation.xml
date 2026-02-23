@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 23 Feb 2026 04:54:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 06:58:47 GMT</lastBuildDate>
+    <item>
+      <title>我应该创建什么样的代理？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rc8lt0/what_kind_of_agent_should_i_create/</link>
+      <description><![CDATA[我正在考虑创建一些对每个人每天都有用的代理。由于我是这个代理领域的新手，我想知道人们到底想要什么？   由   提交/u/kriish20  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rc8lt0/what_kind_of_agent_should_i_create/</guid>
+      <pubDate>Mon, 23 Feb 2026 05:12:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建 WhatsApp AI 生产力机器人。如何在不破产的情况下真正扩大规模？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rc8lcl/building_a_whatsapp_ai_productivity_bot_how_do/</link>
+      <description><![CDATA[好的。我正在构建一个 WhatsApp 生产力机器人。 它会跟踪屏幕时间，每小时发送推送，要求您记录所做的事情，然后使用法学硕士生成每月人工智能“增长报告”。 简单的想法。但我知道 LLM + 消息传递组合可能会变得昂贵且快速混乱。 我试图像真正希望它能够大规模生存的人一样思考，而不仅仅是发布一个可爱的 MVP。 主要问题：  并发。当 5000 个用户同时回复时会发生什么？ 推理。你把所有东西都排队吗？异步工作者？批量 LLM 通话？ 成本。您是否每天进行总结以压缩内存，这样您就不会每月传递大量上下文？ WhatsApp 速率限制。什么首先破坏？ 多用户隔离。如何避免上下文出血？  我脑子里的大致流程： Webhook → 队列 → 工作程序 → DB → LLM（如果需要）→ 响应。 对于那些真正扩展过 LLM 机器人的人： 是什么首先杀死了你？基础设施？代币账单？延迟 告诉我我低估了什么。   由   提交 /u/Dizzy-Watercress-744   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rc8lcl/building_a_whatsapp_ai_productivity_bot_how_do/</guid>
+      <pubDate>Mon, 23 Feb 2026 05:11:32 GMT</pubDate>
+    </item>
     <item>
       <title>整合了混乱的自动化堆栈，削减了数千个 SaaS，好奇其他人是如何做的</title>
       <link>https://www.reddit.com/r/automation/comments/1rc81tw/consolidated_a_messy_automation_stack_cut/</link>
@@ -62,25 +76,11 @@
       <pubDate>Sun, 22 Feb 2026 19:03:52 GMT</pubDate>
     </item>
     <item>
-      <title>我创建了一篇人工智能通讯，这是它的进展情况。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbtcr4/i_created_an_ai_newletter_here_is_how_its_going/</link>
-      <description><![CDATA[       由   提交/u/NickyB808  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbtcr4/i_created_an_ai_newletter_here_is_how_its_going/</guid>
-      <pubDate>Sun, 22 Feb 2026 18:26:17 GMT</pubDate>
-    </item>
-    <item>
       <title>使用二维码重新订购解决方案</title>
       <link>https://www.reddit.com/r/automation/comments/1rbt6l6/use_a_qr_code_for_reordering_solution/</link>
       <description><![CDATA[您好，不确定这是否是正确的 Reddit 子版块。 我想创建一个我们通常库存的商品列表。我希望每个商品都有一个可以扫描的二维码，它会自动创建这些商品的列表以重新订购。  也许有一个包含商品、供应商和订单数量的表格。然后，当扫描该商品时，将为每个供应商启动一个列表，并将该商品添加到列表中。 我将如何执行此操作？如有任何帮助，我们将不胜感激。 这是一家小型家族企业。我也无法跟踪这些物品何时被取出，因为多个人根据需要使用这些物品。   由   提交/u/wishin4sno   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rbt6l6/use_a_qr_code_for_reordering_solution/</guid>
       <pubDate>Sun, 22 Feb 2026 18:20:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>过早自动化边缘情况是一个陷阱</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbs283/automating_edge_cases_too_early_is_a_trap/</link>
-      <description><![CDATA[多次失败。   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbs283/automating_edge_cases_too_early_is_a_trap/</guid>
-      <pubDate>Sun, 22 Feb 2026 17:38:49 GMT</pubDate>
     </item>
     <item>
       <title>如何实际衡量自动化投资回报率</title>
