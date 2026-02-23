@@ -4,7 +4,42 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 23 Feb 2026 09:49:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 12:54:02 GMT</lastBuildDate>
+    <item>
+      <title>大多数失败源于不明确的结果，而不是糟糕的工具</title>
+      <link>https://www.reddit.com/r/automation/comments/1rcfqn0/most_failures_come_from_unclear_outcomes_not_bad/</link>
+      <description><![CDATA[想法？   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rcfqn0/most_failures_come_from_unclear_outcomes_not_bad/</guid>
+      <pubDate>Mon, 23 Feb 2026 12:08:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年最好的 AI 代理构建器是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rcfjfc/what_are_the_best_ai_agent_builders_in_2026/</link>
+      <description><![CDATA[过去几周测试了几乎所有用于构建 AI 代理的平台，老实说，大多数前 10 名列表只是从未接触过生产 API 的人编写的垃圾邮件。 以下是我今年在实际工作中测试过的实际经验： LangGraph / LangChain：如果您是开发人员，仍然是黄金标准。这是获得 100% 逻辑控制的唯一方法，但学习曲线仍然是垂直的。如果你不小心，你的状态管理就会变成一场噩梦。 CrewAI：最适合多代理编排。如果您需要一个代理进行研究，另一个代理进行撰写，这是最简单的设置方法。自去年以来它已经成熟了很多，但如果您的提示不完美，它仍然偶尔会遇到代理陷入循环的问题。 Zapier Central：适合那些只想设置然后忘记的人。它可以连接一切，但对于大批量任务来说成本昂贵。感觉更像是一个智能助手，而不是一个真正的自主代理。 Twin.so：这是我一直在使用的较新的。这是一个 100% 无代码的平台，已经悄然爆发。社区已经建立了15万+代理。它使用浏览器代理像人类一样浏览网站（单击、登录、滚动）。它专门用于通常会破坏 Zapier 的内容，例如遗留门户、内部工具或没有 API 的网站。 n8n：我最喜欢的视觉流程。新的代理节点很不错，但自托管对于初学者来说仍然有点痛苦。如果您想保持数据私密性并且不想支付每项任务的费用，那就太棒了。 Firecrawl：如果您只需要 RAG 的干净数据，那么这就是赢家。它将任何网站变成您的法学硕士的降价版本。它不是“代理构建器”。本身，但对于我构建的大多数代理来说，它是堆栈的重要组成部分。 Vellum：仍然是基于文本的代理从创意到生产的最快方法之一。非常干净的用户界面，比纯粹的无代码东西更好地处理复杂的逻辑。 AutoGPT：仍然感觉更像是一个研究项目而不是商业工具。非常适合周末项目，但我永远不会把它放在客户面前。它仍然会太快地消耗积分。 我并不是想卖任何东西，我的大多数项目最终都使用了这些的混合（通常是 n8n + Twin + 自定义脚本）。 我错过了什么？我正在寻找更多一些在第一季度结束之前进行测试。   由   提交/u/buildingthevoid  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rcfjfc/what_are_the_best_ai_agent_builders_in_2026/</guid>
+      <pubDate>Mon, 23 Feb 2026 11:58:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何使用 AI 代理 + n8n 为我的律师事务所自动化潜在客户开发 — 游戏规则改变者</title>
+      <link>https://www.reddit.com/r/automation/comments/1rcf539/how_i_automated_lead_generation_for_my_law_firm/</link>
+      <description><![CDATA[我使用与 n8n 集成的 AI 代理为我的律师事务所构建了一个完全自动化的潜在客户生成工作流程，其结果具有变革性。该系统首先从多个渠道的网站表格、WhatsApp、电子邮件中捕获查询，并将其输入 AI Lawyer，这是一个经过领域培训的接收代理，可以预先筛选客户、执行冲突检查并按紧急程度和事项类型对线索进行分类。 n8n 协调工作流程，将已确认的销售线索直接同步到 Clio 和 Google 日历，发送提醒并标记高优先级客户以便立即跟进。通过自动化这一端到端流程，缺席率下降了 40%，消除了手动分类，律师助理可以专注于更高价值的任务。成功的关键是将结构化人工智能推理、实时数据集成和验证循环结合起来，以确保潜在客户质量，同时在不增加员工的情况下进行扩展。这种方法不仅提高了运营效率，还创造了无缝的客户体验，从第一个接触点就建立了信任。如果您的 AI 代理可以自动处理 1,000 多个查询，您的团队还可以花费多少时间来转换潜在客户而不是追逐潜在客户？   由   提交 /u/Safe_Flounder_4690   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rcf539/how_i_automated_lead_generation_for_my_law_firm/</guid>
+      <pubDate>Mon, 23 Feb 2026 11:37:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kalli Purie 在 AI 影响力峰会上提出媒体公平使用 AI 的 9 点章程</title>
+      <link>https://www.reddit.com/r/automation/comments/1rcdyd6/kalli_purie_pitches_9point_charter_for_fair_ai/</link>
+      <description><![CDATA[       由   提交/u/IndiaToday   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rcdyd6/kalli_purie_pitches_9point_charter_for_fair_ai/</guid>
+      <pubDate>Mon, 23 Feb 2026 10:29:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动化比手动操作产生更好结果的流程是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rcdq87/what_is_one_process_where_automation_yielded/</link>
+      <description><![CDATA[我曾经认为手动做事意味着更好的质量 - 更多的控制，更多的关注细节。但在过去的一年里，我注意到在一些领域，设置一个简单的自动化流程实际上比我尝试自己处理所有事情时产生了更一致的结果。上下文切换更少，被遗忘的步骤更少，而且说实话，精神疲劳也少了很多。 很好奇，自动化比手动执行效果更好的流程是什么？   由   提交/u/Vivid-Aide158  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rcdq87/what_is_one_process_where_automation_yielded/</guid>
+      <pubDate>Mon, 23 Feb 2026 10:15:57 GMT</pubDate>
+    </item>
     <item>
       <title>需要帮助理解这一点（粘土设置）</title>
       <link>https://www.reddit.com/r/automation/comments/1rcc8kg/need_help_understanding_thisclay_setup/</link>
@@ -62,13 +97,6 @@
       <pubDate>Mon, 23 Feb 2026 02:11:45 GMT</pubDate>
     </item>
     <item>
-      <title>我们都同意，获得客户是 n8n 最困难的部分。这是我在网站上的尝试。随意烤吧！</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbzqj7/we_all_agree_that_getting_clients_is_the_toughest/</link>
-      <description><![CDATA[      像你们很多人一样，我正在与企业聊天。他们都同意他们需要自动化。 但事实证明，让他们坐下来正确规划是很困难的！ 因此我创建了一个网站来吸引新客户 请告诉我您的想法。很难达到技术、销售和友好的最佳平衡点。 谢谢   由   提交/u/roughdiamond-ai   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbzqj7/we_all_agree_that_getting_clients_is_the_toughest/</guid>
-      <pubDate>Sun, 22 Feb 2026 22:27:34 GMT</pubDate>
-    </item>
-    <item>
       <title>用于讨论和科学答案的最佳健身人工智能？</title>
       <link>https://www.reddit.com/r/automation/comments/1rbzktk/best_fitness_ai_for_discussions_and_scientific/</link>
       <description><![CDATA[大家好，正如标题所说。我经常去健身房，我有点了解我的东西，但有时我会遇到一些问题或想要讨论的事情，但我无法直接找到答案，并且会花费我很多时间来进行搜索，那么最好的人工智能是什么？ 我想要一些能够推理答案、解释它并且不同意我所说的一切的东西，比如 ChataGPT，因为我以前使用过它，但效果不佳。   由   提交 /u/Somebody0140   [链接] [评论]]]></description>
@@ -76,39 +104,11 @@
       <pubDate>Sun, 22 Feb 2026 22:21:13 GMT</pubDate>
     </item>
     <item>
-      <title>数十亿行的虚拟滚动 — HighTable 的技术</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbys2k/virtual_scrolling_for_billions_of_rows_techniques/</link>
-      <description><![CDATA[ 由   提交/u/Far_Inflation_8799   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbys2k/virtual_scrolling_for_billions_of_rows_techniques/</guid>
-      <pubDate>Sun, 22 Feb 2026 21:49:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>进入自动化领域，它们不断出现故障并且太不可靠</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbvvy5/getting_into_automations_they_keep_breaking_and/</link>
-      <description><![CDATA[我最近一直在深入研究自动化（主要是浏览器 + SaaS 的东西），我对一切都感觉如此脆弱感到惊讶。 东西工作了几天......然后：  UI 略有变化 → 中断 随机身份验证/会话问题 → 中断 速率限制 → 中断 一个步骤超时 → 整个工作流程终止 无声的失败，我一周后才注意到  我明白“自动化需要维护”，但在某些时候，我感觉我只是在照顾机器人，而不是节省时间。 对于那些运行严格自动化的人：  您实际上使用什么工具？ （Zapier、n8n、自定义脚本、浏览器自动化等） 您是自托管还是使用托管服务？ 您多久会出现故障？ 您是否正常接受一定比例的失败？ 您如何监控故障并发出警报？  我想弄清楚这是否只是游戏的一部分，还是我正在使用错误的堆栈。 很想听听现实世界的经验。谢谢！   由   提交/u/bullmeza  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbvvy5/getting_into_automations_they_keep_breaking_and/</guid>
-      <pubDate>Sun, 22 Feb 2026 20:01:33 GMT</pubDate>
-    </item>
-    <item>
       <title>你们如何在不雇用人类来照管每一个输出的情况下真正扩展人工智能自动化？</title>
       <link>https://www.reddit.com/r/automation/comments/1rbud38/how_are_you_guys_actually_scaling_ai_automations/</link>
       <description><![CDATA[老实说，我已经厌倦了“一劳永逸”的方式。人工智能自动化。我们为内部票据路由和数据提取构建了一个相当复杂的工作流程，但幻觉率正在降低我们的效率。每次我们调整提示来解决一个问题时，感觉就像是其他三件事情出了问题，我们最终又回到了手动 QA 循环。 我最近开始使用 Confident AI，看看自动评估是否可以捕获这些回归，这对 DeepEval 指标有很大帮助，但我很好奇其他人在做什么。你们只是构建大量的自定义脚本来测试您的输出，还是有更好的方法来处理提示的版本控制？我觉得我花了更多的时间“监控”自动化比我手动完成工作要好。你们如何向你们的客户/老板证明 AI 实际上有 99% 的准确率？   由   提交 /u/Ok_Prize_2264   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rbud38/how_are_you_guys_actually_scaling_ai_automations/</guid>
       <pubDate>Sun, 22 Feb 2026 19:03:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用二维码重新订购解决方案</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbt6l6/use_a_qr_code_for_reordering_solution/</link>
-      <description><![CDATA[您好，不确定这是否是正确的 Reddit 子版块。 我想创建一个我们通常库存的商品列表。我希望每个商品都有一个可以扫描的二维码，它会自动创建这些商品的列表以重新订购。  也许有一个包含商品、供应商和订单数量的表格。然后，当扫描该商品时，将为每个供应商启动一个列表，并将该商品添加到列表中。 我将如何执行此操作？如有任何帮助，我们将不胜感激。 这是一家小型家族企业。我也无法跟踪这些物品何时被取出，因为多个人根据需要使用这些物品。   由   提交/u/wishin4sno   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbt6l6/use_a_qr_code_for_reordering_solution/</guid>
-      <pubDate>Sun, 22 Feb 2026 18:20:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何实际衡量自动化投资回报率</title>
-      <link>https://www.reddit.com/r/automation/comments/1rbortr/how_do_you_actually_measure_automation_roi/</link>
-      <description><![CDATA[在过去的一年中实施了多项自动化，我的老板一直要求提供投资回报率数字，但问题是衡量反事实。如果没有自动化，这需要多长时间？对于大多数事情，我没有关于之前状态的干净数据。 有些事情是显而易见的，比如如果自动化取代了 20 分钟的手动步骤，那么现在该步骤需要零分钟。但我们的大多数自动化都是关于过去会出现问题或不一致发生的事情，您如何衡量过去无法可靠发生的事情的价值？ 有人拥有用于量化自动化价值的框架，而不仅仅是简单地节省时间吗？   由   提交 /u/Timely-Film-5442   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rbortr/how_do_you_actually_measure_automation_roi/</guid>
-      <pubDate>Sun, 22 Feb 2026 15:33:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
