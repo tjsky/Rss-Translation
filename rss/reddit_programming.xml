@@ -4,11 +4,46 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 24 Feb 2026 18:57:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 21:31:36 GMT</lastBuildDate>
+    <item>
+      <title>在没有 Pydantic、数据类或代码生成的情况下构建 Pythonic REST 客户端</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdr4g1/building_a_pythonic_rest_client_without_pydantic/</link>
+      <description><![CDATA[我们是一家小型初创公司，必须通过一个小团队构建并迭代发展后端 API 和 Python 客户端。  Pydantic 和代码生成都有不适合我们情况的摩擦点，因此我们最终得到了一个约 435 行的框架，使客户端读起来像一个迷你 ORM。  这篇文章介绍了我们的实现。虽然它对我们来说效果很好（到目前为止），但它可能并不适合所有人。我们错过了围绕 OpenAPI 等的生态系统。没有 Swagger 肯定会令人痛苦。  分享，以防它对类似位置的其他人有用。   由   提交/u/mpacula  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdr4g1/building_a_pythonic_rest_client_without_pydantic/</guid>
+      <pubDate>Tue, 24 Feb 2026 20:08:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>服务器发送事件 (SSE)：用 Go 构建实时股票仪表板</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdqhe6/serversent_events_sse_build_a_realtime_stock/</link>
+      <description><![CDATA[ 由   提交/u/huseyinbabal  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdqhe6/serversent_events_sse_build_a_realtime_stock/</guid>
+      <pubDate>Tue, 24 Feb 2026 19:45:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>WebGPU 基础知识</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdpd5s/webgpu_fundamentals/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdpd5s/webgpu_fundamentals/</guid>
+      <pubDate>Tue, 24 Feb 2026 19:05:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>在裸机 Web 服务器中进行调度</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdpbv7/scheduling_in_a_baremetal_web_server/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdpbv7/scheduling_in_a_baremetal_web_server/</guid>
+      <pubDate>Tue, 24 Feb 2026 19:04:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>你知道你的node_modules文件夹里有什么吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdpbj3/do_you_know_whats_in_your_node_modules_folder/</link>
+      <description><![CDATA[ 由   提交/u/cresta29  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdpbj3/do_you_know_whats_in_your_node_modules_folder/</guid>
+      <pubDate>Tue, 24 Feb 2026 19:04:22 GMT</pubDate>
+    </item>
     <item>
       <title>现代存储 I/O 的常见性能缺陷</title>
       <link>https://www.reddit.com/r/programming/comments/1rdnsse/common_performance_pitfalls_of_modern_storage_io/</link>
-      <description><![CDATA[无论您是在优化 ScyllaDB、构建自己的数据库系统，还是只是想了解为什么您的存储无法提供所宣传的性能，了解这三个相互关联的层（磁盘、文件系统和应用程序）都是至关重要的。每个层对于最佳请求的构成都有自己的假设。当这些期望不一致时，后果会级联下来，增加延迟并降低吞吐量。 这篇文章介绍了我们遇到的一系列微妙的陷阱，按层组织。每个都包含来自生产调查的具体示例以及可行的缓解策略。    由   提交/u/swdevtest  [链接] [评论]]]></description>
+      <description><![CDATA[无论您是在优化 ScyllaDB、构建自己的数据库系统，还是只是想了解为什么您的存储无法提供所宣传的性能，了解这三个相互关联的层（磁盘、文件系统和应用程序）都是至关重要的。每个层对于最佳请求的构成都有自己的假设。当这些期望不一致时，后果会级联下来，增加延迟并降低吞吐量。 这篇文章介绍了我们遇到的一系列微妙的陷阱，按层组织。每个都包含来自生产调查的具体示例以及可行的缓解策略。    由   提交/u/swdevtest   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rdnsse/common_performance_pitfalls_of_modern_storage_io/</guid>
       <pubDate>Tue, 24 Feb 2026 18:10:44 GMT</pubDate>
     </item>
@@ -36,7 +71,7 @@
     <item>
       <title>网络上的精灵</title>
       <link>https://www.reddit.com/r/programming/comments/1rdmm2u/sprites_on_the_web/</link>
-      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rdmm2u/sprites_on_the_web/</guid>
       <pubDate>Tue, 24 Feb 2026 17:29:16 GMT</pubDate>
     </item>
@@ -74,41 +109,6 @@
       <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rdmfiy/λprolog_logic_programming_in_higherorder_logic/</guid>
       <pubDate>Tue, 24 Feb 2026 17:22:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>再见 InnerHTML，你好 SetHTML：Firefox 148 中更强的 XSS 保护</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdmf7m/goodbye_innerhtml_hello_sethtml_stronger_xss/</link>
-      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdmf7m/goodbye_innerhtml_hello_sethtml_stronger_xss/</guid>
-      <pubDate>Tue, 24 Feb 2026 17:22:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>用 Prolog 扩展 C (1994)</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdmesl/extending_c_with_prolog_1994/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdmesl/extending_c_with_prolog_1994/</guid>
-      <pubDate>Tue, 24 Feb 2026 17:21:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么要在 2026 年写一本书……在命令行上飞行（和克劳德代码）</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdlmao/why_write_a_book_in_2026_flying_on_the_command/</link>
-      <description><![CDATA[在印刷版最终完成后，我一直在重写我的书的免费在线版本。这是逐章清理。就完成这本书而言，2025 年是令人沮丧的一年，当很少有人会购买或阅读一本书时，投入如此多的精力感觉毫无意义，而法学硕士无论如何都会吞噬其中的内容。 写书仍然是一种个人的“某种”行为。激情项目。我是看着编码书籍长大的，我从《C for Dummies》（Dan Gookin，我喜欢它）开始，读过游戏编程书籍、《Effective C++》和《Effective C++》。 （两个版本）这是我的灵感来源，但我意识到我很怀旧。 无论如何，在 2025 年底让我高兴的是，随着 Claude Code 等编码代理的流行，突然有一些朋友和同事联系我说“嘿，我已经开始使用 shell，你的书很酷！” - 我的 tmux/vim 设置看起来不再陈旧，但对于 claude 代码用户来说看起来相当灵活。因此，尽管发布的努力是巨大的，但事实证明，shell 再次出现了复兴。 我有一些同事写过关于 Kubernetes 甚至 Agentic AI 等内容的文章，我总觉得这一定很糟糕 - 它变化如此之快 - 但有效 shell 第 1 章中的键盘快捷键已经通用了几十年，所以至少这个主题有长寿（希望如此）。 我可能不会打扰。分享每一章的更新，我不想发垃圾邮件，但我对第一章非常满意，也制作了一个简短而甜蜜的视频，并强调如果您使用编码代理，这也有很大帮助。 总是很高兴收到反馈，基本上也是我的第一个 YouTube 视频。 一两个月后我将在更新日志上讨论这个主题（为什么要写，值得吗）。   由   提交 /u/dwmkerr   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdlmao/why_write_a_book_in_2026_flying_on_the_command/</guid>
-      <pubDate>Tue, 24 Feb 2026 16:54:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本网页设计的特例</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdiv3u/the_peculiar_case_of_japanese_web_design/</link>
-      <description><![CDATA[ 由   提交/u/maenbalja   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdiv3u/the_peculiar_case_of_japanese_web_design/</guid>
-      <pubDate>Tue, 24 Feb 2026 15:14:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>RFC 406i：拒绝人工生成的污水 (RAGS)</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdiul6/rfc_406i_the_rejection_of_artificially_generated/</link>
-      <description><![CDATA[ 由   提交/u/addvilz   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdiul6/rfc_406i_the_rejection_of_artificially_generated/</guid>
-      <pubDate>Tue, 24 Feb 2026 15:13:41 GMT</pubDate>
     </item>
     </channel>
 </rss>

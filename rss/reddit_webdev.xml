@@ -4,11 +4,53 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 24 Feb 2026 18:58:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 21:32:33 GMT</lastBuildDate>
     <item>
-      <title>1password 刚刚将定价提高了 33%。有哪些开源替代方案？</title>
+      <title>我们的 SAST 设置中的误报问题已成为开发人员信任问题，而这些问题的解决方案并不相同</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdt7pq/the_false_positive_problem_in_our_sast_setup_has/</link>
+      <description><![CDATA[我们跟踪了一个季度的数字，发现开发人员花在消除误报上的时间比修复实际结果更多。该比率变得非常糟糕，以至于两位工程主管告诉我扫描结果已成为他们自动过滤的噪音。没有完全被忽视，但也没有采取行动。 问题是一旦信任破裂，真实的发现就会与虚假的发现一起被忽视。你无法通过调整规则来解决这个问题。我们尝试了手动调整，它对冲刺有帮助。然后噪音以不同的形式返回。我们基本上将一种误报模式换成另一种误报模式，而没有解决为什么调查结果一开始就未经过滤地打击开发人员。 归根结底是缺少相关层。没有什么可以跨扫描类型进行聚合，应用可利用性上下文，并在开发人员到达之前决定什么值得开发人员关注。 对于经历过这种情况的团队，当开发人员对扫描仪的信任完全崩溃时，您会做什么？   由   提交 /u/Only_Helicopter_8127   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdt7pq/the_false_positive_problem_in_our_sast_setup_has/</guid>
+      <pubDate>Tue, 24 Feb 2026 21:23:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果一个普通智商的人今天开始学习网络开发，他们会超过人工智能的进步吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdsf7v/if_an_average_iq_person_started_studying_web_dev/</link>
+      <description><![CDATA[他们的学习曲线最终会跨越人工智能的学习曲线吗？或者人工智能的进步是否太快以至于人类目前无法赶上？    由   提交 /u/Evening-Natural-Bang   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdsf7v/if_an_average_iq_person_started_studying_web_dev/</guid>
+      <pubDate>Tue, 24 Feb 2026 20:55:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>回想起那个时候 docker 还不存在，我们使用 xampp</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdqws5/throwback_for_that_time_when_docker_didnt_exist/</link>
+      <description><![CDATA[还有人记得那些为不同项目拥有一堆 xampp 文件夹的日子吗？这是在容器化成为一个大问题之前，整个 vm + lamp 堆栈很常见，特别是如果您使用 php。我看着我的旧硬盘，里面装满了这些东西，感到有点怀旧。那里有一些 flash 项目，没有一个 silverlight，因为 flash 更好;) 那时的时代更简单，我现在有点怀念它。主要是因为那时候，就是我和一个IDE。现在是我、视觉工作室、副驾驶和高层管理人员说“使用更多的人工智能来输出 12031230% 的垃圾”。 我可能失去了激情，但我没有失去记忆。我希望你们一切都好，尤其是在这个新世界里精神上！你们怀念那些日子吗？   由   提交/u/Eriane  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdqws5/throwback_for_that_time_when_docker_didnt_exist/</guid>
+      <pubDate>Tue, 24 Feb 2026 20:01:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>PDF上传。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdq3l6/pdf_upload/</link>
+      <description><![CDATA[嗨。我（厚厚的）又回来了🙈😅 如果我上传了一个无法复制和粘贴的pdf（是的，我知道ppl可以绕过它，如果他们想成为d1cks哈哈），它会剥夺能够点击链接的选项吗？例如，章节链接，这样读者就不必滚动。因为显然这对他们来说是一个障碍，我滚动🙄。感谢您的帮助 xxxx    由   提交/u/changbin_delulu_wife   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdq3l6/pdf_upload/</guid>
+      <pubDate>Tue, 24 Feb 2026 19:31:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>对域名转移感到困惑。它会弄乱我的网站吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdpprx/confused_about_domain_transfer_will_it_mess_up_my/</link>
+      <description><![CDATA[我刚刚通过 Wix 购买了一个域名，现在我想我应该通过 Porkbun 购买它。我知道我可以在 60 天后转移它，但我读到这样做可能会弄乱我在 Wix 上的网站？  我还误解了我必须获得 Wix 高级计划才能使用我的域名，但我认为如果我通过 Porkbun 注册的话也是一样的，但我得到了“折扣”自从我通过 Wix 购买域名以来，我的域名价格就上涨了。 我对此完全陌生，我的互联网研究没有给我任何答案。    由   提交/u/LandOrSun   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdpprx/confused_about_domain_transfer_will_it_mess_up_my/</guid>
+      <pubDate>Tue, 24 Feb 2026 19:18:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果您的 A/B 测试样本量较小，则您的结果毫无意义。我们围绕此构建了一个框架 - 欢迎反馈。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdpp8n/if_your_ab_test_has_low_sample_size_your_result/</link>
+      <description><![CDATA[我们是 A/B 测试工具背后的团队，我们花了很多时间研究如何在生产网站上实现实验逻辑。 在内部，我们使用一个结构化框架：  调用结果之前的最小样本量。 避免高影响力的结构元素（导航、英雄、定价可见性）。 测试高影响力的结构元素（导航、英雄、定价可见性）。 超越表面指标来解释结果。 重新验证之前“获胜”的结果。   最近，我们将其录制为 6 个简短的内部培训视频。 这不是营销废话或廉价黑客，而是专注于实验结构、统计有效性以及围绕布局和用户体验更改的决策。 在 3 月份公开发布之前，我们正在寻求来自实施过或与 A/B 测试设置一起工作的开发人员的诚实反馈。 具体来说：  什么在技术上是显而易见的？ 您会挑战什么？ 从实施角度来看缺少什么？  如果这听起来相关，您可以访问此处的指南。 它是完全免费的 - 只是在发布之前寻求技术评论。 也很高兴分享我们对实验设置或实施方法的想法:)   由   提交/u/BeardedWiseMagician  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdpp8n/if_your_ab_test_has_low_sample_size_your_result/</guid>
+      <pubDate>Tue, 24 Feb 2026 19:17:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>1password 刚刚将定价提高了 33%。有哪些开源替代品？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rdoncs/1password_just_increased_their_pricing_by_33_what/</link>
-      <description><![CDATA[绝对是废话。 33% 对我来说太多了，无法考虑尝试替代方案。 也许我只是迁移到免费的苹果密码管理器。有人做过类似的举动吗？怎么样？   由   提交 /u/Prestigious_Spot9635   [链接] [评论]]]></description>
+      <description><![CDATA[绝对是废话。 33% 对我来说太多了，无法考虑尝试替代方案。 也许我只是迁移到免费的苹果密码管理器。有人做过类似的举动吗？怎么样？ 编辑：回复他们的电子邮件。让他们知道您面临取消订阅的压力。 33%的增幅不正常！   由   提交 /u/Prestigious_Spot9635   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rdoncs/1password_just_increased_their_pricing_by_33_what/</guid>
       <pubDate>Tue, 24 Feb 2026 18:40:56 GMT</pubDate>
     </item>
@@ -41,13 +83,6 @@
       <pubDate>Tue, 24 Feb 2026 18:05:05 GMT</pubDate>
     </item>
     <item>
-      <title>宣传的内容是真的吗？人工智能？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rdn8iy/is_the_propaganda_true_ai/</link>
-      <description><![CDATA[嗨，人工智能真的抢走了所有工作吗？我正在努力成为一名网络开发人员，当我申请时，我有点害怕人工智能会接管。我是CS专业的。    由   提交/u/Dizzy_External2549  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rdn8iy/is_the_propaganda_true_ai/</guid>
-      <pubDate>Tue, 24 Feb 2026 17:51:09 GMT</pubDate>
-    </item>
-    <item>
       <title>C语言的DSA不用于放置......</title>
       <link>https://www.reddit.com/r/webdev/comments/1rdmgov/dsa_in_c_language_not_for_placement/</link>
       <description><![CDATA[你好，我的大三、大四和同学...我在 btech 第一年，目前在第二学期 ....仅第二学期我 C 语言 DSA Hai...aur 缅因州课程 Miss kr di College ki Kuch 个人原因 seh aab Muze koi youtube 频道 bta do jo Muze DSA padha de c 语言不适合大学的安置水平考试....第二年 seh DSA karuga bcoz abhi 网络开发 kar rha hu ek sath sab Kuch nhi Krna phir Kuch nhi hoga isliye abhi bas 大学水平 ka khoj rha hu Kya koi 帮助 kr sakte ho youtube 频道 kisi ko pta ho.....   由   提交/u/KeyInternational1552  [链接] [评论]]]></description>
@@ -69,46 +104,11 @@
       <pubDate>Tue, 24 Feb 2026 17:03:10 GMT</pubDate>
     </item>
     <item>
-      <title>在洛杉矶寻找认真的 WordPress 工程公司（安全金融服务建设）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rdkwjm/seeking_serious_wordpress_engineering_firm_in_los/</link>
-      <description><![CDATA[更新：这不适用于金融科技应用程序！  我正在寻找位于洛杉矶的一支技术精湛的 WordPress 构建团队。 这不是一个品牌项目，也不是增长营销活动。重点是基础设施、安全性和性能。 核心要求： • WordPress（精益、基于块的构建、最小插件理念） • Vultr VPS + Plesk • Cloudflare WAF 正确配置（速率限制、机器人缓解、适当的缓存规则） • Gravity Forms Elite 用于安全接收和文件上传 • 干净的分层安全性（无冗余防火墙或插件膨胀） • 性能纪律（核心网络生命很重要） • 结构化数据实施和 llms.txt 清单 • 暂存工作流程和受控部署过程 我正在专门寻找一个熟悉安全基础设施和性能优化的精品 WordPress 工程团队，而不是一般的数字机构。 如果您回复，请包括： • 2-3 个相关的实时项目 URL （首选财务、法律或安全摄入构建） • 简要说明如何在没有冗余的情况下分层 Cloudflare + WordPress 安全性 • 启动时的典型插件数量 • 确认您的团队位于洛杉矶并负责内部开发 不完整的回复将不会收到回复。请先在帖子内回复。我会选择性地私信。 谢谢！   由   提交 /u/tinyhousefever   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rdkwjm/seeking_serious_wordpress_engineering_firm_in_los/</guid>
-      <pubDate>Tue, 24 Feb 2026 16:28:37 GMT</pubDate>
-    </item>
-    <item>
       <title>如果我想开始自由职业以获得副业收入，我应该成立一家有限责任公司吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rdjote/should_i_start_an_llc_if_i_want_to_start/</link>
       <description><![CDATA[我想开始自由网页开发作为额外收入的来源。我的市场，至少在开始时，将是我所在地区的当地商店和企业。我已经购买了一个 .dev 域名，即“firstinitialLastName.dev”我曾计划将其用于某种投资组合网站位置和各种联系表格。我也有一个电子邮件主机连接到该域。我应该成立一家有限责任公司并直接使用它，还是应该在拥有更多客户后切换到有限责任公司？   由   提交/u/trekitch  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rdjote/should_i_start_an_llc_if_i_want_to_start/</guid>
       <pubDate>Tue, 24 Feb 2026 15:44:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>得到了我的第一个付费项目。哟呼</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rdiszw/got_my_first_paid_project_yoohooo/</link>
-      <description><![CDATA[简单介绍一下我。我做过网页设计师有一段时间了，但只为朋友和家人做个人项目或付费项目，预算非常低。 除此之外，我还与几个不同的客户一起做过大型创意项目（漫画、漫画、网络漫画或插图），所以我对自由职业世界和推销自己的方式并不陌生。 问题是，J 从未真正与外国客户在网页开发方面合作过。这就像我的第一次经历。老实说，感觉有点压倒性的，但客户似乎很冷静。我一个月后就得到了这份工作，并通过签订合同获得了预付款。 这个项目非常大，虽然我之前参与过一些非常大的项目，但这是迄今为止最大、也是最赚钱的项目。该项目花费了超过 5000 美元，说实话，一开始似乎是一个疯狂的报价，但 Web 应用程序的大小确实涵盖了它。 Web 应用程序基本上是一个 AI 搜索引擎，可以在网络上搜索某些关键字和帖子。所以有很多 API 和东西。 我之前做过的一些个人项目帮助我实现了这个目标，所以我真心建议你在你的投资组合中加入一些项目。  https://anote-quest-3k65.vercel.app  我的 web 应用程序，（笔记应用程序，由我开发） 我的个人网站 https://neti.blog（仅设计）   由   提交 /u/Tall-Leadership5085   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rdiszw/got_my_first_paid_project_yoohooo/</guid>
-      <pubDate>Tue, 24 Feb 2026 15:12:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建了一个shadcn搜索引擎</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rdha1h/i_built_a_shadcn_search_engine/</link>
-      <description><![CDATA[      现在有数百个 shadcn 组件/块分布在 +130 个 shadcn 注册表中，因此可能需要几个小时才能找到您真正需要的组件/块。如果您回退到 Google，当您在选项卡之间跳转以评估每个结果时，您的工作流程就会中断 这就是我构建 Shoogle.dev 的原因，这是一个跨注册表搜索 shadcn 组件/块的工具，而不会破坏您的工作流程。您可以搜索并在同一页面上预览结果以快速评估。除此之外，您可以添加书签或 该应用程序仍在开发中，欢迎反馈和建议。欢迎分享您的想法。   由   提交/u/PerspectiveGrand716   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rdha1h/i_built_a_shadcn_search_engine/</guid>
-      <pubDate>Tue, 24 Feb 2026 14:11:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>学习着色器？我们刚刚添加了结构化轨道、程序网格挑战等等</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rdfo96/learning_shaders_we_just_added_structured_tracks/</link>
-      <description><![CDATA[      大家好。我们只是想告诉大家，我们已经推出了 Shader Academy  的新更新，这是一个免费的交互式平台，用于通过小挑战进行着色器编程学习。以下是新内容：  结构化学习轨道，可实现更清晰的进度和更轻松的导航 23 个新挑战，包括： 专注于程序生成和网格工作流程的程序网格挑战 面向风格化图形爱好者的低多边形视觉挑战 2 个新的用户创建的挑战：点网格 + 镜像纹理  As始终对整个平台进行错误修复和改进  支持该项目：我们为任何想要帮助 Shader Academy 发展的人添加了每月捐款订阅。完全可选，但每一点支持都有助于我们为社区构建更多挑战、工具和更新。希望你能检查一下。谢谢！ 我们的 Discord 社区：https://discord.com/invite/VPP78kur7C   由   提交/u/night-train-studios  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rdfo96/learning_shaders_we_just_added_structured_tracks/</guid>
-      <pubDate>Tue, 24 Feb 2026 13:03:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪款 Mac 适合 webdev？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rdfj5w/which_mac_for_webdev/</link>
-      <description><![CDATA[我想要一台用于 webdev 的 Apple 设备。主要购买点是 Safari。我希望能够看到我的网站在现实生活中的工作方式，包括动画（我喜欢用 CSS 突破界限）。 我的问题来了 - 我有两个苹果设备的插槽，但只有一个钱。  新智能手机（旧的真的很旧......） - 所以可能是 Iphone。 用于编程（让我远离游戏）和测试的备用笔记本电脑。  智能手机更便宜，从当前需求的角度来看更有意义。但是 Android 手机很便宜，所以没有什么大损失，而 Macbook 实际上让我比 Iphone 更好地编程和测试，如果我是正确的话。 如果是 Macbook，比 Air 或 Pro 的基础版本更好吗？当我尝试创建带有后端的中小型网页或进行一些照片编辑时，Air 会窒息吗？   由   提交 /u/Zefirez   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rdfj5w/which_mac_for_webdev/</guid>
-      <pubDate>Tue, 24 Feb 2026 12:57:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
