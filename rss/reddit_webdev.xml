@@ -4,7 +4,42 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 24 Feb 2026 09:47:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 12:57:04 GMT</lastBuildDate>
+    <item>
+      <title>我如何将网站变成领先机器（无额外广告）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rddd49/how_i_turned_a_website_into_a_lead_machine_no/</link>
+      <description><![CDATA[大多数企业都痴迷于通过广告来产生潜在客户......但我看到，只有网站在结构正确的情况下才能产生一致的入站潜在客户。 不仅仅是“漂亮的设计”，而且：  页面顶部的清晰信息 通过简单的“采取行动”按钮提供强大的优惠 针对特定客户需求制作的页面 跟踪以了解用户在做什么 在移动设备上运行良好的快速网站  你们中有多少人实际上直接从您的网站（没有付费广告）获得了稳定的潜在客户？如果没有，您认为缺少什么？   由   提交/u/Top-Buy-4207   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rddd49/how_i_turned_a_website_into_a_lead_machine_no/</guid>
+      <pubDate>Tue, 24 Feb 2026 11:09:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>tiny-parquet — 零依赖 JS，可读取和写入 326KB 的 Parquet 文件</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdd52i/tinyparquet_zero_deps_js_that_reads_writes/</link>
+      <description><![CDATA[构建了一个 JS 库，用于读写实际上适合边缘运行时的 Apache Parquet 文件。 tiny-parquet 32​​6KB，速度快，零依赖，两个函数：readParquet 和 writeParquet。预热后约 2M 行/秒。 仅平面模式 — 无嵌套类型。非常适合日志、事件、分析。  所有其他选项都太大了 — parquet-wasm 是 3.5MB，duckdb-wasm 是 8MB。两者都不适合 Cloudflare Workers 免费套餐或 Vercel Edge。  在生产环境中运行它，每天处理数百万个事件。 欢迎贡献。  npm 安装tiny-parquet GitHub：https://github.com/nktrchk/tiny-parquet   由   提交 /u/nktrchk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdd52i/tinyparquet_zero_deps_js_that_reads_writes/</guid>
+      <pubDate>Tue, 24 Feb 2026 10:57:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年 Windows 上适合中级开发人员的最佳 Laravel + PHP + AI 开发设置？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdd1vt/best_laravel_php_ai_dev_setup_on_windows_in_2026/</link>
+      <description><![CDATA[当前焦点：  Laravel 12+ 基于 Docker 的工作流程 AI 辅助开发（代码审查、重构、测试生成） 干净的架构模式 与 Linux 服务器的生产同等性    由   提交 /u/Coding-Sloth   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdd1vt/best_laravel_php_ai_dev_setup_on_windows_in_2026/</guid>
+      <pubDate>Tue, 24 Feb 2026 10:51:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>远程 ISP 测试</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdcg6a/remote_isp_testing/</link>
+      <description><![CDATA[嗨， 我的一个项目与一些非常具体的 ISP 存在问题，我已经确定了 ISP 并要求一些用户为我运行一些测试，但我想知道是否有人有远程测试 ISP 的解决方案。特别值得关注的 2 个是 Du（迪拜）和 Etisalat UAE。  本质上，我需要一种在其中一个网络上运行的 VPN。人们使用什么好的服务吗？我通过谷歌找到了一些，但它们看起来都有点粗略，并且针对的是营销人员等。 谢谢   由   提交/u/Ok_Wall_4573   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdcg6a/remote_isp_testing/</guid>
+      <pubDate>Tue, 24 Feb 2026 10:15:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Amazon Nova 黑客马拉松 40k 奖池需要经验丰富的开发团队成员 [后端、前端或 ML/Fullstack]</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rdc5bx/experienced_developer_teammates_needed_for_amazon/</link>
+      <description><![CDATA[后端/集成工程师：  Python 或 Node.js（后端） API 集成经验（Twitter API） 一些区块链基础知识（甚至只是了解（Web3.py）、Polygon、哈希链） 数据库设计（PostgreSQL）  前端/图形可视化工程师： React 或 Vue（前端）  D3.js 或类似可视化库 UI/UX 设计感 实时数据处理（WebSockets 或轮询）  ML/数据科学/全栈：  Python（数据科学） 熟悉 LLM API (Amazon Nova) NLP 基础知识（即使很简单） 理解图形算法 或者：可以处理后端 + 一些数据工作的全栈人员    由   提交 /u/akshat747   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rdc5bx/experienced_developer_teammates_needed_for_amazon/</guid>
+      <pubDate>Tue, 24 Feb 2026 09:57:28 GMT</pubDate>
+    </item>
     <item>
       <title>我受世界遗憾调查的启发建造了一些东西</title>
       <link>https://www.reddit.com/r/webdev/comments/1rdby0c/i_built_something_inspired_by_the_world_regret/</link>
@@ -69,46 +104,11 @@
       <pubDate>Tue, 24 Feb 2026 06:36:34 GMT</pubDate>
     </item>
     <item>
-      <title>大量放弃让我恼火的工具后，我的 2025 年开发设置</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rd8w9x/my_2025_dev_setup_after_massquitting_tools_that/</link>
-      <description><![CDATA[我花了一月的时间对工作流程中的每个工具进行了全面审核，并摆脱了任何缓慢、臃肿或烦人的东西。以下是幸存下来的内容以及取代我丢弃的内容的内容。 保留的内容： - VS Code。我知道酷孩子们使用 Neovim，我尝试了一个月，但我的配置变成了一份兼职工作。带有少量扩展的 VS Code 就可以正常工作。 - 吉特 + GitHub。这里没什么好说的。这是吉特。 - 码头工人。对于本地开发环境。我几年前就不再与依赖问题作斗争了。 被替换的内容： - iTerm2 退出，Warp 输入。内联 AI 帮助和现代界面值得更换。我拒绝了，因为我对风险投资资助的开发工具持怀疑态度，但它确实更好。 - Chrome 退出，Arc 输入。空间和配置文件改变了我组织客户工作与个人浏览的方式。 - Jira 出局，Linear 入局。我管理着一个小团队，Jira 的杀伤力太大了​​。仅凭 Linear 的速度就值得了。 - 打印文档，说出来。这才是最奇怪的。我开始使用 Willow Voice 来听写 ADR、PR 描述和设计文档。我阐述了我的推理，清理了记录，然后将其粘贴进去。我的团队实际上评论说我的文档变得更加详细，这很有趣，因为现在我花费的时间更少了。键入冗长的技术解释总是我拖延的事情。 新增功能： - 用于 AI 结对编程的光标。仍然找到什么时候它有帮助，什么时候它产生幻觉废话的最佳点，但当它起作用时，胜利是真实的。 - 用于部署附带项目的铁路。 Heroku 替代品确实有效。 - 光线投射。为我杀死了 Spotlight 和 Alfred。 我正在观看的内容：对 Zed 编辑器感兴趣，但尚未准备好提交。 Bun 很有趣，但对于生产工作来说还不够稳定。 今年你从你的堆栈中削减了什么？好奇其他人正在放弃什么。   由   提交 /u/badmoshback   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rd8w9x/my_2025_dev_setup_after_massquitting_tools_that/</guid>
-      <pubDate>Tue, 24 Feb 2026 06:35:07 GMT</pubDate>
-    </item>
-    <item>
       <title>你们有多少人在使用。路线图.sh</title>
       <link>https://www.reddit.com/r/webdev/comments/1rd6oo9/how_many_of_you_guys_using_roademapsh/</link>
       <description><![CDATA[       https://preview.redd.it/0cnn9iewidlg1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=8ad3b2c06be15df71eec88422471a3ec9fc9237b 原因是什么  UI &amp;指定人员  2.详情  其他 -     由   提交 /u/Jaded_Mess7563   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rd6oo9/how_many_of_you_guys_using_roademapsh/</guid>
       <pubDate>Tue, 24 Feb 2026 04:57:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>您最喜欢的代码管理+部署软件是什么？为什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rd611y/whats_your_favorite_code_management_deployment/</link>
-      <description><![CDATA[示例：  GitHub + GitHub 操作 GitLab + GitLab CI/CD BitBucket + CircleCI    由   提交 /u/jecowa   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rd611y/whats_your_favorite_code_management_deployment/</guid>
-      <pubDate>Tue, 24 Feb 2026 04:40:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>放开我的第一个自由职业客户</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rd5nvb/just_let_go_of_my_first_freelance_client/</link>
-      <description><![CDATA[在进入这个行业之前，我是一名全职前端开发人员，并在公司拥有稳定的职位。我想做一些自由职业，以提升我的技能并在正常界限之外进行实验。  一位朋友告诉我，他的朋友（我们暂且称他为汤姆吧）一直在建立一个广播电台，正在找人帮助他建立一个网站。我联系汤姆，询问他的情况如何。他一直在使用很多人工智能工具，但就是无法让任何东西按照他想要的方式工作。他没有品牌，没有资产，没有文案，只有他想在网上播放的大量音乐，这样他就可以开始赚钱。我问他网站预算是多少，他说 300 英镑。我本应该将此视为危险信号并走开，但我想“Mates 评分，我们将构建一个单页 + 表单 WordPress 网站，它会完成这项工作”。 我错得令人难以置信。整个项目中的功能蔓延变得难以忍受。自定义块、API 集成和高级会员部分都添加到了组合中。我告诉他这些需要时间，我们需要重新考虑预算，他说不用担心。再说一次，朋友的朋友，我认为这会没问题。  每次我试图签署一个部分时，我都会收到人工智能生成的视频或图像，这些视频或图像不符合我认为我们的目标品牌，或者我会被告知这只是无聊/简单/简单。他希望该网站能够流行（同样，我应该将其视为危险信号）。  我坚持了一段时间，但最终还是受够了。汤姆告诉我，他并不认为 WordPress 很困难，而且自项目启动以来，人工智能生成的网站已经取得了突飞猛进的发展。他开始对还没准备好感到恼火，尽管每次我们谈话时他都会改变目标。  最终，我决定我已经投入了足够的时间，并且想要一点钱作为他诚意的标志。当我要求付钱的时候，他完全勃然大怒，说他没有从他的音乐中赚到钱是因为网站还没有准备好。我说我不愿意再干没有工资的事了，祝他以后好运。我已将所有工作文件存档并暂时暂停 WordPress 安装。  从那时起，我发现汤姆与将我们俩联系在一起的朋友以及我们亲密团体中的其他一些人发生了争执。  我可以回顾一下这一点，知道我应该在创建 WordPress 安装之前制作一份文档，确定将要交付的所有内容、时间表和价格。我很高兴能够开始我的第一个自由职业项目，我认为这让我看不到人们在独自工作时会遇到多么困难。    由   提交 /u/skateallday1   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rd5nvb/just_let_go_of_my_first_freelance_client/</guid>
-      <pubDate>Tue, 24 Feb 2026 04:30:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>现在呢🤷‍♂️</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rd46vp/now_what/</link>
-      <description><![CDATA[刚刚购买，你已被分类。 Org  现在我应该用它做什么👀 一直在开发一个人工智能集体诉讼查找器类型的应用程序，但我觉得这个网址可以做得更好..任何想法💡 &lt;！-- SC_ON --&gt;  由   提交/u/Exciting-Win-881   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rd46vp/now_what/</guid>
-      <pubDate>Tue, 24 Feb 2026 03:48:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>旧雅虎目录</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rd3aqd/old_yahoo_directory/</link>
-      <description><![CDATA[我想知道...您现在会构建旧的雅虎网站目录吗？当然，更现代的东西可能由一些人工智能自动化分类提供支持。在过去的两年里，我一直在寻找一个可以在业余时间开发的新项目，最让我沮丧的是我总是每天浏览相同的网站，而“现代”搜索引擎并没有真正给我机会发现我不寻找的新网站。我只是想感到惊讶。忘记偶然，它是令人惊奇但随机的。我喜欢深入研究类别的想法，但可能只有我这样？   由   提交/u/nerran73  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rd3aqd/old_yahoo_directory/</guid>
-      <pubDate>Tue, 24 Feb 2026 03:11:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
