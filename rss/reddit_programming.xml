@@ -4,20 +4,97 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 24 Feb 2026 15:54:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 18:57:24 GMT</lastBuildDate>
     <item>
-      <title>通过基于云的 Web 界面运行传统科学 C++/Fortran 代码 (CLASS)</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdjsvq/running_legacy_scientific_cfortran_code_class_via/</link>
-      <description><![CDATA[我构建了一个名为 RunClass 的基于 Web 的系统，以解决计算科学中的一个常见问题：为复杂的遗留模拟器设置本地环境的困难。 后端使用 CLASS（宇宙线性各向异性求解系统）的修改版本，这是一种用 C 和 C++ 编写的高性能数值求解器。我使用 Replit 实现了基于云的执行层，允许用户运行模拟并可视化结果，而无需任何本地配置。 技术挑战和结果实现：  传统集成：将 C++ 物理引擎与基于 Web 的参数输入系统桥接。 环境可移植性：利用 Replit 的基础设施来处理通常需要复杂 Makefile 配置的依赖项。 动态输入：根据用户定义的标量为求解器实时生成配置文件  项目链接：https://run-class--talksilviojr.replit.app 我正在寻找有关架构的反馈，特别是关于在容器化 Web 环境中运行重型数值求解器的性能以及优化求解器和求解器之间的数据流的方法。前端。   由   提交/u/Novel_Difficulty_339   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdjsvq/running_legacy_scientific_cfortran_code_class_via/</guid>
-      <pubDate>Tue, 24 Feb 2026 15:48:41 GMT</pubDate>
+      <title>现代存储 I/O 的常见性能缺陷</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdnsse/common_performance_pitfalls_of_modern_storage_io/</link>
+      <description><![CDATA[无论您是在优化 ScyllaDB、构建自己的数据库系统，还是只是想了解为什么您的存储无法提供所宣传的性能，了解这三个相互关联的层（磁盘、文件系统和应用程序）都是至关重要的。每个层对于最佳请求的构成都有自己的假设。当这些期望不一致时，后果会级联下来，增加延迟并降低吞吐量。 这篇文章介绍了我们遇到的一系列微妙的陷阱，按层组织。每个都包含来自生产调查的具体示例以及可行的缓解策略。    由   提交/u/swdevtest  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdnsse/common_performance_pitfalls_of_modern_storage_io/</guid>
+      <pubDate>Tue, 24 Feb 2026 18:10:44 GMT</pubDate>
     </item>
     <item>
-      <title>OpenClaw 并不是魔法。只是第一个代理，感觉不假</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdjlcb/openclaw_isnt_magic_its_just_the_first_agent_that/</link>
-      <description><![CDATA[我对 20 万颗星星、代币销毁、Mac mini 恐慌翻了个白眼。感觉就像 2026 年的另一场人工智能淘金热。然后我尝试重建它。事情是这样的：从技术上来说，它并没有那么奇特。代理循环。工具。批准。消息传递。您可以将其中的大部分与现成的组件缝合在一起。但体验却有所不同。它不会坐在聊天窗口中等待提示。它运行了。它起作用了。它会检查。它会在做一些愚蠢的事情之前询问。它报告回来。感觉不太像自动完成，而更像委托。这就是转变。 OpenClaw 没有爆炸，因为它是天才工程。它之所以爆炸，是因为它证明了人们想要在浏览器选项卡之外操作并保持联系而无需被照顾的代理。酒吧不是 AGI。酒吧是“做事，问我是否有风险，并且不要让我刷新页面。”  如果有人感兴趣，我在这里写了更深入的细分。    由   提交/u/Expective-Cookie-106  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdjlcb/openclaw_isnt_magic_its_just_the_first_agent_that/</guid>
-      <pubDate>Tue, 24 Feb 2026 15:41:05 GMT</pubDate>
+      <title>无需训练即可分割自定义数据集 |分割任何东西</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdnmld/segment_custom_dataset_without_training_segment/</link>
+      <description><![CDATA[对于学习在不使用 Segment Anything 进行训练的情况下分割自定义数据集的任何人，本教程演示了如何在不构建或训练新的分割模型的情况下生成高质量的图像掩模。它介绍了如何使用 Segment Anything 直接从图像中分割对象、为什么这种方法在没有标签时很有用，以及完整的蒙版生成工作流程端到端的样子。   中版（适合喜欢中版的读者）：https://medium.com/@feitgemel/segment-anything-python-no-training-image-masks-3785b8c4af78 带有代码的书面解释：https://eranfeit.net/segment-anything-python-no-training-image-masks/ 视频说明：https://youtu.be/8ZkKg9imOH8   此内容仅出于教育目的而共享，欢迎提供建设性反馈或讨论。   Eran Feit   由   提交/u/Feitgemel   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdnmld/segment_custom_dataset_without_training_segment/</guid>
+      <pubDate>Tue, 24 Feb 2026 18:04:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>规范在依赖树中位于什么位置？</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmml7/where_do_specifications_fit_in_the_dependency_tree/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmml7/where_do_specifications_fit_in_the_dependency_tree/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:29:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于内存压力、锁争用和面向数据的设计</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmmcw/about_memory_pressure_lock_contention_and/</link>
+      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmmcw/about_memory_pressure_lock_contention_and/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:29:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络上的精灵</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmm2u/sprites_on_the_web/</link>
+      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmm2u/sprites_on_the_web/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:29:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>HTML 生成速度加快 2000%</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmlpl/speeding_up_html_generation_by_2000/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmlpl/speeding_up_html_generation_by_2000/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:28:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>macOS 如何控制性能：Intel 和 M1 处理器上的 QoS</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmj9t/how_macos_controls_performance_qos_on_intel_and/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmj9t/how_macos_controls_performance_qos_on_intel_and/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:26:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>TLA+ 举例</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmisp/tla_by_example/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmisp/tla_by_example/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:25:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>将 Go 二进制文件的大小减少多达 77%</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmh56/reducing_the_size_of_go_binaries_by_up_to_77/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmh56/reducing_the_size_of_go_binaries_by_up_to_77/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:24:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>λProlog：高阶逻辑中的逻辑编程</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmfiy/λprolog_logic_programming_in_higherorder_logic/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmfiy/λprolog_logic_programming_in_higherorder_logic/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:22:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>再见 InnerHTML，你好 SetHTML：Firefox 148 中更强的 XSS 保护</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmf7m/goodbye_innerhtml_hello_sethtml_stronger_xss/</link>
+      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmf7m/goodbye_innerhtml_hello_sethtml_stronger_xss/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:22:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>用 Prolog 扩展 C (1994)</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdmesl/extending_c_with_prolog_1994/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdmesl/extending_c_with_prolog_1994/</guid>
+      <pubDate>Tue, 24 Feb 2026 17:21:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么要在 2026 年写一本书……在命令行上飞行（和克劳德代码）</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdlmao/why_write_a_book_in_2026_flying_on_the_command/</link>
+      <description><![CDATA[在印刷版最终完成后，我一直在重写我的书的免费在线版本。这是逐章清理。就完成这本书而言，2025 年是令人沮丧的一年，当很少有人会购买或阅读一本书时，投入如此多的精力感觉毫无意义，而法学硕士无论如何都会吞噬其中的内容。 写书仍然是一种个人的“某种”行为。激情项目。我是看着编码书籍长大的，我从《C for Dummies》（Dan Gookin，我喜欢它）开始，读过游戏编程书籍、《Effective C++》和《Effective C++》。 （两个版本）这是我的灵感来源，但我意识到我很怀旧。 无论如何，在 2025 年底让我高兴的是，随着 Claude Code 等编码代理的流行，突然有一些朋友和同事联系我说“嘿，我已经开始使用 shell，你的书很酷！” - 我的 tmux/vim 设置看起来不再陈旧，但对于 claude 代码用户来说看起来相当灵活。因此，尽管发布的努力是巨大的，但事实证明，shell 再次出现了复兴。 我有一些同事写过关于 Kubernetes 甚至 Agentic AI 等内容的文章，我总觉得这一定很糟糕 - 它变化如此之快 - 但有效 shell 第 1 章中的键盘快捷键已经通用了几十年，所以至少这个主题有长寿（希望如此）。 我可能不会打扰。分享每一章的更新，我不想发垃圾邮件，但我对第一章非常满意，也制作了一个简短而甜蜜的视频，并强调如果您使用编码代理，这也有很大帮助。 总是很高兴收到反馈，基本上也是我的第一个 YouTube 视频。 一两个月后我将在更新日志上讨论这个主题（为什么要写，值得吗）。   由   提交 /u/dwmkerr   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdlmao/why_write_a_book_in_2026_flying_on_the_command/</guid>
+      <pubDate>Tue, 24 Feb 2026 16:54:15 GMT</pubDate>
     </item>
     <item>
       <title>日本网页设计的特例</title>
@@ -32,83 +109,6 @@
       <description><![CDATA[ 由   提交/u/addvilz   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rdiul6/rfc_406i_the_rejection_of_artificially_generated/</guid>
       <pubDate>Tue, 24 Feb 2026 15:13:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>模式语言问题：Avro、JSON Schema、Protobuf 以及对单一事实来源的探索</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdhtht/the_schema_language_question_avro_json_schema/</link>
-      <description><![CDATA[ 由   提交/u/misterchiply  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdhtht/the_schema_language_question_avro_json_schema/</guid>
-      <pubDate>Tue, 24 Feb 2026 14:33:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>带有连接的行锁可以在 PostgreSQL 中产生令人惊讶的结果</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdhslr/row_locks_with_joins_can_produce_surprising/</link>
-      <description><![CDATA[ 由   提交/u/be_haki   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdhslr/row_locks_with_joins_can_produce_surprising/</guid>
-      <pubDate>Tue, 24 Feb 2026 14:32:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据库事务</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdheba/database_transactions/</link>
-      <description><![CDATA[ 由   提交/u/BrewedDoritos  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdheba/database_transactions/</guid>
-      <pubDate>Tue, 24 Feb 2026 14:16:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的编程语言有多复杂</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdhdjh/how_complex_is_your_programming_language/</link>
-      <description><![CDATA[ 由   提交 /u/elemenity   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdhdjh/how_complex_is_your_programming_language/</guid>
-      <pubDate>Tue, 24 Feb 2026 14:15:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Google Gemini 构建基于 Magnum & Bullet 的车辆沙箱</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdgdli/building_a_vehicle_sandbox_based_on_magnum_bullet/</link>
-      <description><![CDATA[ 由   提交/u/Hydrogen18  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdgdli/building_a_vehicle_sandbox_based_on_magnum_bullet/</guid>
-      <pubDate>Tue, 24 Feb 2026 13:34:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>连接算法</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdfah3/join_algorithms/</link>
-      <description><![CDATA[ 由   提交/u/emschwartz  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdfah3/join_algorithms/</guid>
-      <pubDate>Tue, 24 Feb 2026 12:46:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>是我一个人的问题，还是审查 PR 变得越来越困难？</title>
-      <link>https://www.reddit.com/r/programming/comments/1rddoyn/is_it_just_me_or_is_reviewing_prs_getting/</link>
-      <description><![CDATA[自从我们的团队采用了人工智能编码助手以来，速度提高了，但是拉取请求很大，代码通常可以工作，但只是看起来......错误。它缺乏模块化和可读性。 我觉得我花更多的时间来尝试理清人工智能生成的意大利面条式架构，而不是我自己编写它。我写了一篇关于这种隐藏成本的快速文章以及我们需要如何充当“架构师”的角色。而不是仅仅让人工智能飞行员。 你们是在审查中抵制混乱的人工智能代码，还是只是让它滑动以保持速度？   由   提交 /u/bit_architect   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rddoyn/is_it_just_me_or_is_reviewing_prs_getting/</guid>
-      <pubDate>Tue, 24 Feb 2026 11:28:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 Vercel 上免费部署全栈 FastAPI 和 Next.js 应用程序</title>
-      <link>https://www.reddit.com/r/programming/comments/1rdbmux/how_to_deploy_a_fullstack_fastapi_and_nextjs/</link>
-      <description><![CDATA[部署到 Vercel 可能看起来显而易见且简单，但对于全栈 FastAPI 和 Next.js 项目正确执行此操作仍然需要一些时间和精力。您需要仔细配置项目并查看文档的多个部分，以使一切正确。 我最近自己经历了这个过程，并记下了所有棘手和模糊的部分，然后将所有内容合并为清晰的分步指南。这并不是对 Vercel 的全面概述，已经有相关文档，而是一个实用的过程，您可以按照最少的猜测来实现功能齐全的演示部署，同时保持在免费层内。 本文将逐步将后端和前端构建为单独的部署，正确处理环境变量，集成 Neon Postgres。它重点介绍基于 CLI 的部署，但也介绍了一键式 Vercel 部署按钮，以及完整的、可随时运行的存储库。 如果您尝试在 Vercel 上托管 FastAPI + Next.js 应用程序，而不使用 Docker、自定义代理或猜测，这应该会为您节省大量时间。  以下是文章的链接： https://nemanjamitic.com/blog/2026-02-22-vercel-deploy-fastapi-nextjs 存储库（和分支）演示应用程序和配置： https://github.com/nemanjam/full-stack-fastapi-template-nextjs/tree/vercel-deploy 您自己做过类似的事情并使用了不同的方法吗？我期待您的反馈和讨论。    由   提交 /u/Ok_Animator_1770   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rdbmux/how_to_deploy_a_fullstack_fastapi_and_nextjs/</guid>
-      <pubDate>Tue, 24 Feb 2026 09:24:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>现在写代码很便宜</title>
-      <link>https://www.reddit.com/r/programming/comments/1rd83xl/writing_code_is_cheap_now/</link>
-      <description><![CDATA[ 由   提交 /u/finallyanonymous   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rd83xl/writing_code_is_cheap_now/</guid>
-      <pubDate>Tue, 24 Feb 2026 05:54:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>让我们理解并实现一致性哈希。</title>
-      <link>https://www.reddit.com/r/programming/comments/1rd7ukf/lets_understand_implement_consistent_hashing/</link>
-      <description><![CDATA[ 由   提交 /u/Sushant098123   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rd7ukf/lets_understand_implement_consistent_hashing/</guid>
-      <pubDate>Tue, 24 Feb 2026 05:40:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>用 Python 模拟最难的物理问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1rd60g8/simulating_the_hardest_physics_problems_in_python/</link>
-      <description><![CDATA[ 由   提交/u/Chii  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rd60g8/simulating_the_hardest_physics_problems_in_python/</guid>
-      <pubDate>Tue, 24 Feb 2026 04:39:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
