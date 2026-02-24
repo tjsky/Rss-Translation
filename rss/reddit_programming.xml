@@ -4,7 +4,70 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 24 Feb 2026 12:56:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 15:54:19 GMT</lastBuildDate>
+    <item>
+      <title>通过基于云的 Web 界面运行传统科学 C++/Fortran 代码 (CLASS)</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdjsvq/running_legacy_scientific_cfortran_code_class_via/</link>
+      <description><![CDATA[我构建了一个名为 RunClass 的基于 Web 的系统，以解决计算科学中的一个常见问题：为复杂的遗留模拟器设置本地环境的困难。 后端使用 CLASS（宇宙线性各向异性求解系统）的修改版本，这是一种用 C 和 C++ 编写的高性能数值求解器。我使用 Replit 实现了基于云的执行层，允许用户运行模拟并可视化结果，而无需任何本地配置。 技术挑战和结果实现：  传统集成：将 C++ 物理引擎与基于 Web 的参数输入系统桥接。 环境可移植性：利用 Replit 的基础设施来处理通常需要复杂 Makefile 配置的依赖项。 动态输入：根据用户定义的标量为求解器实时生成配置文件  项目链接：https://run-class--talksilviojr.replit.app 我正在寻找有关架构的反馈，特别是关于在容器化 Web 环境中运行重型数值求解器的性能以及优化求解器和求解器之间的数据流的方法。前端。   由   提交/u/Novel_Difficulty_339   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdjsvq/running_legacy_scientific_cfortran_code_class_via/</guid>
+      <pubDate>Tue, 24 Feb 2026 15:48:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw 并不是魔法。只是第一个代理，感觉不假</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdjlcb/openclaw_isnt_magic_its_just_the_first_agent_that/</link>
+      <description><![CDATA[我对 20 万颗星星、代币销毁、Mac mini 恐慌翻了个白眼。感觉就像 2026 年的另一场人工智能淘金热。然后我尝试重建它。事情是这样的：从技术上来说，它并没有那么奇特。代理循环。工具。批准。消息传递。您可以将其中的大部分与现成的组件缝合在一起。但体验却有所不同。它不会坐在聊天窗口中等待提示。它运行了。它起作用了。它会检查。它会在做一些愚蠢的事情之前询问。它报告回来。感觉不太像自动完成，而更像委托。这就是转变。 OpenClaw 没有爆炸，因为它是天才工程。它之所以爆炸，是因为它证明了人们想要在浏览器选项卡之外操作并保持联系而无需被照顾的代理。酒吧不是 AGI。酒吧是“做事，问我是否有风险，并且不要让我刷新页面。”  如果有人感兴趣，我在这里写了更深入的细分。    由   提交/u/Expective-Cookie-106  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdjlcb/openclaw_isnt_magic_its_just_the_first_agent_that/</guid>
+      <pubDate>Tue, 24 Feb 2026 15:41:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本网页设计的特例</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdiv3u/the_peculiar_case_of_japanese_web_design/</link>
+      <description><![CDATA[ 由   提交/u/maenbalja   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdiv3u/the_peculiar_case_of_japanese_web_design/</guid>
+      <pubDate>Tue, 24 Feb 2026 15:14:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>RFC 406i：拒绝人工生成的污水 (RAGS)</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdiul6/rfc_406i_the_rejection_of_artificially_generated/</link>
+      <description><![CDATA[ 由   提交/u/addvilz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdiul6/rfc_406i_the_rejection_of_artificially_generated/</guid>
+      <pubDate>Tue, 24 Feb 2026 15:13:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>模式语言问题：Avro、JSON Schema、Protobuf 以及对单一事实来源的探索</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdhtht/the_schema_language_question_avro_json_schema/</link>
+      <description><![CDATA[ 由   提交/u/misterchiply  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdhtht/the_schema_language_question_avro_json_schema/</guid>
+      <pubDate>Tue, 24 Feb 2026 14:33:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>带有连接的行锁可以在 PostgreSQL 中产生令人惊讶的结果</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdhslr/row_locks_with_joins_can_produce_surprising/</link>
+      <description><![CDATA[ 由   提交/u/be_haki   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdhslr/row_locks_with_joins_can_produce_surprising/</guid>
+      <pubDate>Tue, 24 Feb 2026 14:32:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>数据库事务</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdheba/database_transactions/</link>
+      <description><![CDATA[ 由   提交/u/BrewedDoritos  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdheba/database_transactions/</guid>
+      <pubDate>Tue, 24 Feb 2026 14:16:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>您的编程语言有多复杂</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdhdjh/how_complex_is_your_programming_language/</link>
+      <description><![CDATA[ 由   提交 /u/elemenity   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdhdjh/how_complex_is_your_programming_language/</guid>
+      <pubDate>Tue, 24 Feb 2026 14:15:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Google Gemini 构建基于 Magnum & Bullet 的车辆沙箱</title>
+      <link>https://www.reddit.com/r/programming/comments/1rdgdli/building_a_vehicle_sandbox_based_on_magnum_bullet/</link>
+      <description><![CDATA[ 由   提交/u/Hydrogen18  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rdgdli/building_a_vehicle_sandbox_based_on_magnum_bullet/</guid>
+      <pubDate>Tue, 24 Feb 2026 13:34:34 GMT</pubDate>
+    </item>
     <item>
       <title>连接算法</title>
       <link>https://www.reddit.com/r/programming/comments/1rdfah3/join_algorithms/</link>
@@ -46,69 +109,6 @@
       <description><![CDATA[ 由   提交/u/Chii  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rd60g8/simulating_the_hardest_physics_problems_in_python/</guid>
       <pubDate>Tue, 24 Feb 2026 04:39:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ladybird 在 AI 的帮助下采用 Rust</title>
-      <link>https://www.reddit.com/r/programming/comments/1rd5rb1/ladybird_adopts_rust_with_help_from_ai/</link>
-      <description><![CDATA[ 由   提交 /u/expandork   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rd5rb1/ladybird_adopts_rust_with_help_from_ai/</guid>
-      <pubDate>Tue, 24 Feb 2026 04:32:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>[嘲笑炒作帖子] 软件开发生命周期已死 |鲍里斯·塔恩</title>
-      <link>https://www.reddit.com/r/programming/comments/1rd55kh/mock_the_hype_post_the_software_development/</link>
-      <description><![CDATA[这篇文章（感觉是人工智能自己写的）是人工智能炒作列车进一步深入其后人类妄想的进一步证据。 在这篇文章中，鲍里斯阐述了以下观点： - 用称为“意图”的模糊步骤取代定义需求- 放弃代码审查，只让代理致力于主要 - 拥有“自动安全扫描”处理让代理放松产品 - “发现”而不是规划系统设计 - “代理可以自己进行 QA” 这里是介绍：  人工智能代理并没有使 SDLC 更快。他们杀死了它。 我不断听到人们谈论人工智能是“10 倍的开发工具”。这个框架是错误的。它假设工作流程保持不变并且速度提高。事实并非如此。整个生命周期，我们赖以建立职业生涯的生命周期，催生了价值数十亿美元的工具产业的生命周期，正在自行崩溃。 大多数人还没有注意到。  这种欺骗已经吞噬了这个人的大脑，并像寄生真菌一样操纵着他的四肢。与作者关系密切的人需要进行福利检查。   由   提交/u/anarchist2Bcorporate  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rd55kh/mock_the_hype_post_the_software_development/</guid>
-      <pubDate>Tue, 24 Feb 2026 04:16:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apache NetBeans 29 发布。</title>
-      <link>https://www.reddit.com/r/programming/comments/1rd4m0x/apache_netbeans_29_released/</link>
-      <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rd4m0x/apache_netbeans_29_released/</guid>
-      <pubDate>Tue, 24 Feb 2026 04:00:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>QUOD - 64 KB 的射击游戏</title>
-      <link>https://www.reddit.com/r/programming/comments/1rd3qu7/quod_a_shooter_game_in_64_kb/</link>
-      <description><![CDATA[ 由   提交/u/Kered13  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rd3qu7/quod_a_shooter_game_in_64_kb/</guid>
-      <pubDate>Tue, 24 Feb 2026 03:31:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>C 枚举大小；或者，MSVC 如何再次忽视该标准</title>
-      <link>https://www.reddit.com/r/programming/comments/1rd0400/c_enum_sizes_or_how_msvc_ignores_the_standard/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rd0400/c_enum_sizes_or_how_msvc_ignores_the_standard/</guid>
-      <pubDate>Tue, 24 Feb 2026 01:02:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>帝国时代：25 年以上的 C++ 寻路问题 - Raymi Klingers - Meeting C++ 2025</title>
-      <link>https://www.reddit.com/r/programming/comments/1rczm6j/age_of_empires_25_years_of_pathfinding_problems/</link>
-      <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rczm6j/age_of_empires_25_years_of_pathfinding_problems/</guid>
-      <pubDate>Tue, 24 Feb 2026 00:42:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Odin 的反射如何使类型信息变得微不足道</title>
-      <link>https://www.reddit.com/r/programming/comments/1rczjs2/how_odins_reflection_makes_type_information/</link>
-      <description><![CDATA[ 由   提交/u/BlueGoliath  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rczjs2/how_odins_reflection_makes_type_information/</guid>
-      <pubDate>Tue, 24 Feb 2026 00:39:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>签名、密封、被盗：我们如何在攻​​击下修补关键漏洞</title>
-      <link>https://www.reddit.com/r/programming/comments/1rcy9l1/signed_sealed_stolen_how_we_patched_critical/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rcy9l1/signed_sealed_stolen_how_we_patched_critical/</guid>
-      <pubDate>Mon, 23 Feb 2026 23:51:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>绑定端口0，避免端口冲突</title>
-      <link>https://www.reddit.com/r/programming/comments/1rcvfpm/binding_port_0_to_avoid_port_collisions/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rcvfpm/binding_port_0_to_avoid_port_collisions/</guid>
-      <pubDate>Mon, 23 Feb 2026 22:01:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
