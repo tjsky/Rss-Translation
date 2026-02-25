@@ -4,7 +4,49 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Wed, 25 Feb 2026 06:56:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 09:49:07 GMT</lastBuildDate>
+    <item>
+      <title>我为美国一家多地点餐厅老板实现了 Google 评价管理自动化</title>
+      <link>https://www.reddit.com/r/automation/comments/1re8wtn/i_automated_google_review_management_for_a/</link>
+      <description><![CDATA[      一家餐厅特许经营权所有者淹没在 Google 评论中 - 因此我构建了一个自动处理这些评论的系统 我最近为一家拥有多个地点的餐厅特许经营权所有者构建了一个评论管理自动化系统。 问题： Google 上的评论如潮水般涌入 - 每周有数十条评论。没有人有时间一致地回答。不是因为他们不在乎，而是因为没有系统。 自动化的作用：  自动提取新的 Google 评论 按情绪进行分类（正面、负面、混合、中立） 根据客户实际所说内容起草并发送上下文感知回复 标记负面评论，以便所有者可以亲自跟进需要一个仪表板，显示所有地点的评论，跟踪情绪趋势，并让他们手动回复人工智能错过的任何评论  关键洞察： 业主不想要完美的人工智能回复。他们希望保持一致性——每条评论都会在 24 小时内得到回复，听起来很专业且符合品牌。 我学到的东西： 正面评论非常容易自动化。提及特定内容的真诚感谢效果很好，人工智能可以可靠地处理这一点。 负面评论更棘手。系统仍然会自动发送回复，但我花了一些时间改进语气，使其更加善解人意和谨慎。所有者会检查标记的评论，并在需要时亲自跟进。 真正的价值是节省的时间。他们从每周几个小时管理评论变成了大约 15 分钟检查仪表板并处理任何标记的内容。 餐馆老板不需要更多工具 - 他们想要一个地方来代替检查五个不同的平台。仪表板告诉了他们这一点。 很想听听其他人的意见：  您如何大规模处理审核管理？ 您在自动化和人性化之间如何划清界限？  很高兴回答有关该方法的问题。  https://preview.redd.it/6eirebw43mlg1.png?width=1536&amp;format=png&amp;auto=webp&amp;s=253cec49edeb6eeeb8cb14e4d34f42dc59a64313   由   提交/u/anonymous_buildcore   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1re8wtn/i_automated_google_review_management_for_a/</guid>
+      <pubDate>Wed, 25 Feb 2026 09:42:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>本周构建了一个自动化系统，每周一为客户节省了 6 个小时，这就是它的工作原理</title>
+      <link>https://www.reddit.com/r/automation/comments/1re8bc1/built_an_automation_this_week_that_saved_a_client/</link>
+      <description><![CDATA[客户每周一早上从 Stripe、Airtable 和 Google Sheets 手动提取数据，以构建每周收入报告。每次花费大约 90 分钟，有时更长。 为他们构建一个简单的 n8n 工作流程，该工作流程：  每周一早上 7 点自动触发 从所有三个来源提取上周的数据 将其格式化为清晰的摘要 在开始一天之前通过电子邮件发送给整个团队  总构建时间约为3小时。现在它永远运行，没有人碰它。 最让我惊讶的是客户对此的情绪有多激动。这不仅节省了时间，还消除了每周害怕周一早上任务的精神负担。   由   提交/u/Extreme-Law6386  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1re8bc1/built_an_automation_this_week_that_saved_a_client/</guid>
+      <pubDate>Wed, 25 Feb 2026 09:06:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>这位客户付给我 8000 美元来建造这个。完整的案例研究。</title>
+      <link>https://www.reddit.com/r/automation/comments/1re876i/this_client_paid_me_8k_to_build_this_full_case/</link>
+      <description><![CDATA[刚刚完成了美国一家电信经销商的项目，该经销商与 Twilio 等供应商和 CDW 等合作伙伴合作。我想分享一下详细情况，因为电信计费自动化确实很复杂，而且我没有看到很多人具体谈论它。 他们的工作流程一团糟。所有内容都分散在电子邮件、手动创建报价、电子表格中。他们实际上是在翻阅电子邮件来开始每一个报价。无法了解使用量超额情况。无法正确跟踪利润。开具发票花了很长时间，因为一切都是手动数据输入。 他们知道它已经损坏，但不认为自动化可以处理复杂性。基于使用情况的计费与订阅、多个供应商层级相结合。每个报价都需要根据客户、服务类型（无论是按月还是按年）进行不同的计算。他们试图自己解决这个问题，但最终放弃了。 所以我整理了一份详细的文档，准确地展示了我将如何解决这个问题。工作流程蓝图、逻辑图，一切都已规划出来。向他们展示定价引擎如何工作、报价如何自动生成、一切如何连接到他们的会计系统。一旦他们看到了这一点，他们就加入了。 这是我实际使用 n8n 构建的内容：\*\* 自动捕获潜在客户的 Web 表单，这样他们就不会在电子邮件混乱中丢失查询。一种计算三层成本的定价引擎……供应商到经销商再到最终客户，内置了复杂的电信计费逻辑。它从一个来源生成两个不同的 PDF 报价，因为 CDW 需要年度捆绑定价，而客户需要详细的行项目。 OCR 将采购订单和发票中的数据直接提取到 QuickBooks 中，这样就没有人重新输入所有内容。实时保证金跟踪，以便他们真正知道自己是否在交易中赚钱。系统还会自动标记使用超额情况。在此之前，他们会一直错过计费使用情况，因为没有人检查。 一切都连接。潜在客户进来，报价生成，客户签字，采购订单通过，发票自行创建，利润实时计算。一个统一的系统，而不是十种不同的工具和流程。 堆栈：n8n、Google Sheets、QuickBooks API、用于税务的 Avalara、用于 OCR 的 Gemini。没什么奇怪的。 他们对 Google Sheets 作为 CRM 持怀疑态度，但当我向他们展示它如何满足他们的需求后，他们就明白了。有时简单比花哨更好。 花费了大约五周的实际构建和两周的测试。在此之前花了一周的时间参加多次会议，只是了解他们的流程。事情崩溃的地方。他们已经尝试过了。这部分比人们想象的更重要。大多数自动化都会失败，因为人们在没有真正了解业务需求的情况下直接跳到构建。 他们每周节省​​大约十五到二十个小时。已经在谈论扩展它...自动电子邮件序列、供应商绩效跟踪、收入预测。 很高兴回答有关技术方面、定价逻辑或我如何构建发现过程（如果有人好奇的话）的问题。   由   提交 /u/automatexa2b   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1re876i/this_client_paid_me_8k_to_build_this_full_case/</guid>
+      <pubDate>Wed, 25 Feb 2026 08:59:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>先进的嵌入式自动化控制器</title>
+      <link>https://www.reddit.com/r/automation/comments/1re83ce/advanced_embedded_automation_controller/</link>
+      <description><![CDATA[ 由   提交/u/ignotochi  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1re83ce/advanced_embedded_automation_controller/</guid>
+      <pubDate>Wed, 25 Feb 2026 08:52:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>尝试实现物业管理报告自动化，Yardi API 的最佳长期方法是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1re7ca4/trying_to_automate_property_management_reporting/</link>
+      <description><![CDATA[为yardi voyager 上的客户构建自动化，大约有 1200 个多户单元。他们希望自动提取每周报告，格式一致，并交付给资产管理部门。我之前使用过yardi API，文档很少，速率​​限制很严格，数据结构很混乱。我主要关心的是构建一些我们必须不断监控的东西 争论是用 python 从头开始​​构建它还是找到一些已经解决了yardi集成问题的东西。主要要求是入住率、租金记录、收款、费用、基本绩效计算、输出为 PDF。有人解决过这个问题吗？值得构建还是直接购买？   由   提交/u/No_Date9719  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1re7ca4/trying_to_automate_property_management_reporting/</guid>
+      <pubDate>Wed, 25 Feb 2026 08:05:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>取代我自己手动执行了两年的流程，只花了一个周末</title>
+      <link>https://www.reddit.com/r/automation/comments/1re71cl/replaced_myself_in_a_process_id_been_doing/</link>
+      <description><![CDATA[不是开发人员。从事运营工作。多年来，我们一直将 Zapier 流程​​用管道胶带粘在一起，对于简单的事情来说，它们工作得很好，但当逻辑变得混乱时，总是会碰壁。我最终取消的流程是每周一次的供应商对账工作。基本上是比较两组数据，识别差异，按可能的原因对它们进行分类，并根据差异的类型起草一封摘要电子邮件给相关人员。听起来很简单，但分类部分需要足够的判断力，我从来不相信基本的 if/then 流程来处理它。已经推迟了大约两年。上个月终于与 MindStudio 坐下来，试图看看我能走多远。这个想法是你用实际的逻辑和分支构建人工智能工作流程，而不仅仅是触发器和操作——因此分类步骤是由具有特定指令的模型处理的，而不是我必须硬编码的规则。周日晚上得到了一个工作版本。它已经运行了三个星期，它处理了大约十几个周期，发现了一件我可能会错过手动执行的事情。困扰我的部分是我的工作实际上就是这样——接受输入，应用感觉复杂但可能很容易学习的判断，产生格式化的输出。我自动化了一件事情，现在我无法停止用新的眼光审视我所做的其他所有事情。还有其他人经历过这件事，但从另一面出来后，真的不确定他们的角色有多少是可以自动化的？不是以存在危机的方式提问，只是真正好奇其他人在真正开始挖掘时发现了什么。   由   提交/u/iknowtheenemy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1re71cl/replaced_myself_in_a_process_id_been_doing/</guid>
+      <pubDate>Wed, 25 Feb 2026 07:47:14 GMT</pubDate>
+    </item>
     <item>
       <title>Meta 与 AMD 达成价值 1000 亿美元的芯片交易，推动下一代人工智能的发展</title>
       <link>https://www.reddit.com/r/automation/comments/1rduv0c/meta_strikes_100_billion_amd_chip_deal_to_power/</link>
@@ -18,20 +60,6 @@
       <description><![CDATA[在一个下雨的下午，我带着记事本和使命感走进了我兄弟的一家小诊所。管理团队淹没在文书工作中，办公桌上堆满了表格和打印输出。他们一直告诉我他们不知所措。 “我们只是需要一个更好的系统，”一位接待员焦急地恳求道，她翻阅着一堆患者入院表格，努力寻找合适的表格。 但当我和他们坐在一起，看着他们的工作流程展开时，我发现问题不仅仅是拥有最新的软件或最奇特的工具。他们陷入了一片混乱之中。他们没有明确的处理信息的流程。例如，每次新患者进来时，他们都会在三个不同的系统中手动输入数据，而每次，一条重要信息都有被遗漏或误传的风险。 因此，我退后一步并做了一些更改： -我在我的笔记应用程序上一步一步地绘制了他们的整个接收流程。 -我帮助他们为连接到现有系统的患者数据创建了一个单一入口点。 -我引入了一个简单的清单，以确保在进入下一步之前捕获每一条信息。 - 我设置了跟进提醒，以减少无休止的来回电子邮件。 - 我鼓励他们每周举行一次聚会，以明确角色和责任。 这一转变虽然不大，但影响深远。该团队无需花费数小时寻找数据或发送重复的电子邮件，而是能够专注于真正重要的事情：他们的患者。他们提到感觉压力减轻了，犯的错误也少了。就像雾气消散了一样。  但我承认，我错误地假设每个人都会立即适应清单。有些人一开始觉得这很乏味，并抵制这种改变。让每个人都参与进来需要一些耐心和鼓励。 我从这次经历中学到的是，我们通常不需要推送新系统。我们只需要观察企业的运作方式并简化已有的内容。我们可以连接并简化工具，而不是更换工具。人们实际使用的简单自动化胜过闲置的复杂系统。 您是否意识到工作流程中的真正问题不是工具，而是流程的清晰度？你是如何解决这个问题的？   由   提交 /u/Warm_Abalone_9602   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rdut97/i_thought_this_business_had_a_workload_problem_it/</guid>
       <pubDate>Tue, 24 Feb 2026 22:22:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建立了一个 Shorts 频道，它实际上开始向我付费</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdttri/i_built_a_shorts_channel_and_it_actually_started/</link>
-      <description><![CDATA[我认为自动化视频工具被夸大了。事实证明，它们非常有效。 几个月前，我开始使用它来制作 YouTube Shorts，因为我不想花几个小时编辑每个剪辑。我只需输入一个主题，它会编写一个脚本，提取视觉效果，添加字幕、音乐，将其垂直格式化......然后我在发布之前稍微调整一下。 没有摄像头。没有麦克风。没有时间线。没有倦怠。 我实际上做了什么 我选择了一个已经在 Shorts 上表现良好的利基市场（科技 + 在线金钱事实）。 然后我开始发布每天 3-5 个 Shorts 短片。 由于该工具速度很快，我可以在一个会话中批量处理 10-15 个视频。一致性改变了一切。 几周之内：  几个视频的观看次数突破了 10 万次 一个视频的观看次数突破了 40 万次 订阅人数开始逐日攀升 我加入了 Shorts 创收计划  现在，在 YouTube 收入和说明中的联属链接之间，该频道实际上正在赚钱。还不是“辞去工作”的钱，而是真正的钱。 最疯狂的部分是什么？我不会手动编辑任何内容。 为什么有效 Shorts 就是数量 + 保留率。 大多数人退出是因为编辑很累人。当你消除这个瓶颈时，你实际上可以正确地玩数字游戏。 我没有制作 1 个完美的视频，而是测试了 20 个想法。该算法选出获胜者。该工具只是让我比 95% 尝试手动执行此操作的人执行得更快。 我并不是说它很神奇。您仍然需要：  好的挂钩 强有力的主题 适当的节奏 一致性  但它完全消除了过去拖慢我速度的阻力。 如果您认为 YouTube 已经饱和，那么事实并非如此。它充满了无法保持一致的人。这让一致性变得简单。 现在还有其他人在运行自动化 Shorts 频道吗？   由   提交 /u/LycheeProfessional   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdttri/i_built_a_shorts_channel_and_it_actually_started/</guid>
-      <pubDate>Tue, 24 Feb 2026 21:46:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我正在构建一个应用程序组合，但“内容营销”正在扼杀我的灵魂。所以我编写了一个修复程序。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdt8ks/im_building_a_portfolio_of_apps_but_content/</link>
-      <description><![CDATA[我目前正在处理一系列移动和网络应用程序，并努力发展我的个人品牌。如果您也有同样的情况，您就会知道其中的道理：内容对于增长来说是没有商量余地的。 但问题是：手动内容创建会耗费大量时间，而大多数“人工智能自动化”都需要花费大量时间。工具只是吐出通用的机器人垃圾的包装器。通用自动发布不起作用，因为每个频道都有自己的“氛围”。和文化。 因此，我开始为自己构建一个基于项目的人工智能系统。  我想要一个在编写单词之前真正理解上下文和策略的工作流程。  其工作原理如下： • 项目根：我定义特定应用程序（描述+具体目标）。 • 智能渠道映射：根据项目信息，系统建议其实际所属位置。它不仅仅说“到处发布”，它还根据目标受众确定项目是否更适合 LinkedIn、X 或 Reddit。 • 研究层：它实际上在编写之前检查 Reddit 和 Google 趋势。它寻找人们现在真正抱怨或搜索的内容，以便保持相关性。 • 想法与完整草稿（畏缩控制）：这是关键。对于“高风险”当我需要保持 100% 真实的频道时，我告诉人工智能只给我一个想法和角度的列表。没有生成文本。对于其他频道，它可以起草完整的帖子。 • 半手动切换：我可以打开或关闭每个频道的自动发布。这保留了重要平台的管理手册，同时使其余部分自动化。 • ToV 学习：系统从我之前的成功帖子和特定语气中学习，因此草稿听起来实际上像我，而不是机器人。 现在的情况： 我目前正在我自己的应用程序上对此进行测试。它是自动化和手动控制的结合——我仍然相信拥有“人在环”可以提高控制效率。这是在不失去灵魂的情况下进行扩展的唯一方法。 如果您想测试一下，请在评论中告诉我！   由   提交 /u/Empty_Ad_9654   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdt8ks/im_building_a_portfolio_of_apps_but_content/</guid>
-      <pubDate>Tue, 24 Feb 2026 21:24:32 GMT</pubDate>
     </item>
     <item>
       <title>有人需要帮助设置 OpenClaw 吗？</title>
@@ -55,13 +83,6 @@
       <pubDate>Tue, 24 Feb 2026 18:43:07 GMT</pubDate>
     </item>
     <item>
-      <title>我为法学硕士构建了一个轻量级长期记忆引擎，因为我厌倦了金鱼记忆</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdofd5/i_built_a_lightweight_longterm_memory_engine_for/</link>
-      <description><![CDATA[       由   提交 /u/porrabelo   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdofd5/i_built_a_lightweight_longterm_memory_engine_for/</guid>
-      <pubDate>Tue, 24 Feb 2026 18:32:54 GMT</pubDate>
-    </item>
-    <item>
       <title>哪些人工智能工具实际上留在了您的工作流程中？</title>
       <link>https://www.reddit.com/r/automation/comments/1rdo4ko/which_ai_tools_actually_stayed_in_your_workflow/</link>
       <description><![CDATA[在过去的一年里我测试了很多 AI 工具，但大多数都坚持不了多久。有些一开始很有趣，但一两周后我就停止使用它们。 留下来的那些是那些能够解决特定问题而不强迫我改变工作方式的。当我需要探索想法时，ChatGPT 仍然是我的默认设置。 Canva 留下来是因为它快速且熟悉。当我需要研究主题、规划内容或在外展前做好准备时，我会使用 Cubeo AI。 好奇其他人长期使用哪些工具。   由   提交 /u/MajorDivide8105   [链接] [评论]]]></description>
@@ -81,27 +102,6 @@
       <description><![CDATA[我知道标题听起来像是我收费过高。但我想解释为什么我认为这实际上是公平的，以及为什么客户真正觉得他们得到了一笔划算的交易。 不久前，我出售了可能是我构建过的最简单的自动化产品。它会读取客户的收件箱，按类别标记电子邮件，自动回复常见问题，起草潜在客户的回复而不是自动发送，并在收到重要信息时在 Slack 上通知客户。 就是这样。没有仪表板。没有花哨的人工智能代理。只是一个干净的工作流程，每天可以为客户节省 30 到 45 分钟。 我为此收取了 800 美元。客户很高兴。他们没有要求折扣。他们没有询问价格。因为对他们来说，数学是显而易见的 - 他们每个月恢复超过 15 个小时，而自动化在前两周就收回了成本。 类似的构建不断发生这种情况： 后续提醒系统，如果教练在 48 小时内没有回复，就会向教练发出提示。客户表示，仅第一周就挽回了 3 个失去的销售线索。每条线索的价值都超过了他们为整个自动化付给我的钱。 每周报告自动化，从 Google 表格中提取数据，进行总结，并在每周一早上通过电子邮件发送。客户过去常常花费整个周日晚上手动执行此操作。他们告诉我，仅仅为了恢复周日的时间，自动化是值得的。 一个潜在客户通知系统，可以监视网络表单，稍微丰富数据，并发送包含销售团队所需的所有上下文的格式化 Slack 消息。该团队现在只需几分钟而不是几小时即可响应线索。仅更快的响应时间就提高了成交率。 餐厅的人工智能评论响应系统。它按情绪对评论进行分类，为积极的评论起草上下文感知的回复，并为人类标记消极的评论。店主从几周以来忽略评论变成了在 24 小时内回复每条评论。 这些都不复杂。它们都不需要先进的人工智能或多步骤代理工作流程。它们很无聊，可预测，而且很有效。 以下是我对定价的了解： 客户不会为您的构建时间付费。他们正在为结果付出代价。如果自动化每周为某人节省 5 小时，那么每月就节省 20 小时。如果每月恢复一两个丢失的潜在客户，投资回报率就会立竿见影。那时，800 美元到 1200 美元并不贵。这是理所当然的。 当我不再思考“这花了我多长时间”时，我就明白了。并开始思考“这会给客户带来多少时间、压力和收入影响”定价变得更加容易。客户不再拒绝，因为价值是不言而喻的。 我还注意到一些有趣的事情。当我收取 200 到 300 美元的费用时，客户实际上不太重视这项工作。他们会延迟向我提供访问权限，需要数周时间进行测试，有时甚至没有正确实施自动化。当我开始收取 800 美元及以上的费用时，客户的表现有所不同。他们很快就给了我访问权限，进行了彻底的测试，并将自动化视为一项真正的商业投资。更高的定价创造了更好的客户和更好的结果。 我认为自动化领域的很多人都低估了他们的工作，因为构建感觉太简单了。但简单就是产品。客户不想要复杂的。他们想要解决。他们愿意为每周可靠地节省时间和金钱的东西支付公平的费用。 在我看来，如果客户一次向我支付 1000 美元，并且自动化以后每个月为他们节省了 500 美元的时间，那么他们并没有多付钱。他们正在讨价还价。在对话中以这种方式构建它对我来说是不同的。   由   提交 /u/anonymous_buildcore   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rdmfp4/i_charge_8001200_for_automations_that_take_me_a/</guid>
       <pubDate>Tue, 24 Feb 2026 17:22:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>大多数失败源于不明确的结果，而不是糟糕的工具</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdi07c/most_failures_come_from_unclear_outcomes_not_bad/</link>
-      <description><![CDATA[想法？   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdi07c/most_failures_come_from_unclear_outcomes_not_bad/</guid>
-      <pubDate>Tue, 24 Feb 2026 14:41:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>我自动从数百个网站下载发票</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdd978/i_automated_downloading_invoices_from_hundreds_of/</link>
-      <description><![CDATA[      每个季度我都必须下载每张发票进行记账 这意味着登录亚马逊、谷歌、微软、随机SaaS工具，比如20多个仪表板。 然后通过电子邮件挖掘其余内容 这花了我的时间3天以上。只是脑死亡的猴子工作。所以，我自动化了它！   由   提交/u/richarddit0  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdd978/i_automated_downloading_invoices_from_hundreds_of/</guid>
-      <pubDate>Tue, 24 Feb 2026 11:03:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>为房地产合同管理建立自动化管道和仪表板</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdcj8r/built_an_automated_pipeline_dashboard_for_real/</link>
-      <description><![CDATA[管理合同以及从 PDF 和电子邮件中提取数据可能非常乏味且容易出错，尤其是在房地产领域。自动化此过程可以节省手动工作时间并提高准确性。我最近为房地产客户开发了一个自动化管道，以更有效地处理他们的合同。系统： 检测传入的电子邮件和 PDF 附件。自动提取关键合同数据。通过验证和细化层运行数据。将结果输入自定义的动态仪表板。 仪表板允许客户以更高的准确性和速度实时监控和管理合同，从而显着减少手动工作量。   由   提交 /u/Safe_Flounder_4690   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdcj8r/built_an_automated_pipeline_dashboard_for_real/</guid>
-      <pubDate>Tue, 24 Feb 2026 10:20:19 GMT</pubDate>
     </item>
     <item>
       <title>我们在小型企业尝试过的大多数人工智能工具的使用时间都不超过一个月</title>
