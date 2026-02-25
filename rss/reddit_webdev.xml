@@ -4,7 +4,91 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 25 Feb 2026 12:55:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 15:58:43 GMT</lastBuildDate>
+    <item>
+      <title>使用自定义插件（挂钩/过滤器）部署 WooCommerce 网站 – 本地 → 生产的最佳实践？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1regw7t/deploying_woocommerce_site_with_custom_plugin/</link>
+      <description><![CDATA[大家好， 我正准备将基于 WooCommerce 的网站从本地开发部署到实时生产服务器，并且希望处理过类似设置的开发人员提供见解。 项目背景  WordPress + WooCommerce 订阅式结账（定期总计、Stripe 集成） 主题：Astra 无核心 WooCommerce 修改 所有自定义功能均通过小型自定义插件实现（store-adjust.php  自定义插件：  使用 WooCommerce 挂钩和过滤器（结帐/购物车 UI 逻辑） 在结帐流程中添加一些条件行为 通过注入自定义样式wp_add_inline_style 是否不修改 WooCommerce 核心文件 是否不创建自定义数据库表 不直接更改核心架构  因此，一切都是通过挂钩/过滤器以“WordPress 方式”完成。 主要问题 从本地迁移时 →生产：  部署依赖于自定义挂钩插件的 WooCommerce 网站时是否存在已知的陷阱？ PHP 版本、OPcache、对象缓存或服务器配置的差异是否会影响结帐行为？ 在迁移过程中我应该注意有关序列化数据或选项的问题吗？  部署计划 当前想法：  通过 Duplicator 或 WP-CLI 迁移（正确的搜索替换） 确保结帐/购物车/帐户页面不被缓存 验证 PHP 8.1/8.2 兼容性 在切换到生产密钥之前在实时测试模式下重新测试 Stripe  问题  是否有任何特定于WooCommerce 结帐钩子在迁移后往往会中断？ 有任何经常被忽视的服务器端配置问题（内存限制、max_input_vars、OPcache、Redis 等）吗？ 对于那些通过插件运行自定义结帐 UI 的人来说，是什么导致了生产中最多的问题？ 即使没有修改核心文件，您是否建议分段优先部署？  如果有帮助，我可以分享自定义插件的清理片段以获取反馈。 提前致谢，只是尝试干净地部署此插件并避免生产意外。   /u/Mmawarrior1   [链接]   href=&quot;https://www.reddit.com/r/webdev/comments/1regw7t/deploying_woocommerce_site_with_custom_plugin/&quot;&gt;[评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1regw7t/deploying_woocommerce_site_with_custom_plugin/</guid>
+      <pubDate>Wed, 25 Feb 2026 15:50:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>建设网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1regvod/building_website/</link>
+      <description><![CDATA[嗨，我想知道你们为初学者使用或推荐哪些应用程序？我正在寻找免费的网站或应用程序。我不想使用 wix 或任何那些网站建设者。这将使我的网站更加个性化。我没有电脑或笔记本电脑，只有 iPad 和我的手机 Android 推荐应用程序。这只是我正在创办的小企业的一个网站。    由   提交/u/Status-Kitchen-251   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1regvod/building_website/</guid>
+      <pubDate>Wed, 25 Feb 2026 15:50:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>[发布] ngxsmk-datepicker v2.2.0 - 100% 信号驱动的 Angular 日期选择器，现在具有 React/Vue Web 组件支持和严格类型</title>
+      <link>https://www.reddit.com/r/webdev/comments/1regtrg/release_ngxsmkdatepicker_v220_a_100_signaldriven/</link>
+      <description><![CDATA[大家好！ 👋 不久前，我们推出了ngxsmk-datepicker，一个无依赖、轻量级的日期和日期选择器。 Range Picker 使用信号和无区域架构从头开始为现代 Angular 设计。 今天，我们非常高兴地发布 v2.2.0，它带来了社区要求的一些重要功能，并使库更加强大： 🌟 v2.2.0 中有哪些新增功能？  React、Vue 和Vanilla JS 支持：由于 ngxsmk-datepicker 具有零外部 UI 依赖性，因此我们添加了使用 Angular Elements 将库导出为标准自定义 Web 组件的功能。您现在可以在 React 或 Vue 应用程序中本地使用完全相同的高级选择器！ （工作示例位于我们的 /examples 文件夹中）。 TypeScript 严格性大修：我们重写了内部组件类型，以消除所有any 类型。如果您的企业使用 exactOptionalPropertyTypes 和严格的编译器选项，该库现在 100% 完美兼容。 防弹appendToBody：在模式或可滚动工作表中使用日期一直是一件痛苦的事情。我们从数学角度改进了 appendToBody 逻辑。弹出窗口现在使用 position:fixed 计算视口坐标并完美对齐自身，始终保持与输入完全相同的宽度。 性能和性能UI 优化：  将桌面上的点击渲染日历加载延迟从约 350 毫秒减少到约 60 毫秒（移动设备上从 800 毫秒减少到 150 毫秒）。用户界面感觉即时。 统一的边框半径和弹性布局，打造更干净、无边框的优质外观。 修复了年/月下拉列表中的 ARIA 对比度要求。   如果您正在寻找一款高度可定制的日历，支持范围、时间选择、Google 日历同步、时区格式和 8 种以上语言本地化，开箱即用...给它一个尝试！ 📦 NPM： https://www.npmjs.com/package/ngxsmk-datepicker 💻 GitHub / Web 组件文档： https://github.com/NGXSMK/ngxsmk-datepicker 我们很乐意听到您的反馈或功能请求！   由   提交 /u/Forsaken_Lie_9989   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1regtrg/release_ngxsmkdatepicker_v220_a_100_signaldriven/</guid>
+      <pubDate>Wed, 25 Feb 2026 15:48:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>与酒店渠道经理同步数据的最佳方式是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1reglv3/whats_the_best_way_to_sync_data_with_a_hotel/</link>
+      <description><![CDATA[嗨， 我目前正在开发一个针对小众住宿的新预订平台。我正在考虑与一些渠道经理集成一种同步空房情况和评级的方法。 但是，我没有酒店管理经验，希望获得一些有关最佳工作流程的建议。 我相信它可以与 CM API 配合使用，但目前我只是作为房东了解如何在我的网站上运行。 假设我正在创建一个房产列表。我的看法是，我为整个酒店生成了一个 ID 号。 然后，房东将此 ID 连接到其渠道管理器。 但这就是我的问题所在。 它是否会自动创建带有照片和所有信息的房间列表，或者房东应该单独创建每个房间类型，然后我应该添加“CM ID”字段，以便他们可以从渠道管理器复制/粘贴房间类型 ID 以同步价格和空房情况？ 非常感谢。   由   提交/u/Nic727  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1reglv3/whats_the_best_way_to_sync_data_with_a_hotel/</guid>
+      <pubDate>Wed, 25 Feb 2026 15:40:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>严重的问题：这是否存在，或者我应该制作一个。因为这绝对是需要的</title>
+      <link>https://www.reddit.com/r/webdev/comments/1reg5b6/serious_question_does_this_exist_or_should_i_make/</link>
+      <description><![CDATA[ 由   提交/u/srxCold  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1reg5b6/serious_question_does_this_exist_or_should_i_make/</guid>
+      <pubDate>Wed, 25 Feb 2026 15:23:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们应该从 PocketBase 切换到 Cloudflare 吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1reff1q/should_we_switch_to_cloudflare_from_pocketbase/</link>
+      <description><![CDATA[我们的网站 Cutiebuzz 目前在 VPS 上运行，但我的同事建议切换到 Cloudflare worker + d1。 我仍然不确定成本和性能，以前有人这样做过吗？这一步值得吗？   由   提交/u/alwerr   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1reff1q/should_we_switch_to_cloudflare_from_pocketbase/</guid>
+      <pubDate>Wed, 25 Feb 2026 14:56:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人担心ai吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1reezz8/is_anyone_worried_about_ai/</link>
+      <description><![CDATA[我的未婚夫喜欢成为一名 Web 开发人员，但他担心人工智能会接管，即使不是很快，也可能是在未来。  大家对此有何看法？您甚至会从事什么职业？他热爱电脑，所以我不想看到他完全放弃电脑。    由   提交/u/Sarah_banara  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1reezz8/is_anyone_worried_about_ai/</guid>
+      <pubDate>Wed, 25 Feb 2026 14:40:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求编写 Playwright 测试的帮助，该测试无法检测失败的登录响应</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ree8z2/looking_for_help_writing_a_playwright_test_which/</link>
+      <description><![CDATA[这是我第一次与 Playwright 合作。 我正在尝试创建一个测试，该测试将尝试使用不正确的凭据登录，之后我将创建一个测试以使用正确的凭据登录。 我正在尝试针对 400 响应状态进行测试，其中包含“无效凭据”在响应正文中。 测试本身： test(&#39;登录流程错误凭据&#39;, async ({ page }) =&gt; { wait page.goto(&#39;http://localhost:5173/login&#39;); wait page.getByLabel(&#39;Username&#39;).fill(&#39;testuser&#39;); wait page.getByLabel(&#39;Password&#39;).fill(&#39;testpassword&#39;); wait page.getByRole(&#39;button&#39;, { name: &#39;登录&#39; }).click(); const response = wait page.waitForResponse(resp =&gt; resp.url().includes(&#39;/api/login/&#39;) &amp;&amp; resp.status() === 400, { timeout: 15000 } ); const body = wait response.json(); Expect(body.detail).toBe(&#39;无效凭据&#39;); // 不应发生重定向 wait Expect(page).toHaveURL(/.*\/login/);  它总是在等待响应时超时： TimeoutError: page.waitForResponse: Timeout 15000ms超过等待事件“响应” 14 | 14 wait page.getByRole(&#39;button&#39;, { name: &#39;登录&#39; }).click(); 15 | 15 &gt; 16 | 16 const response = wait page.waitForResponse(resp =&gt; | ^ 17 | resp.url().includes(&#39;/api/login/&#39;) &amp;&amp; resp.status() === 400, 18 | { 超时: 15000 } 19 | );在 /usr/src/app/e2e/login_flow.spec.js:16:33 错误上下文：test-results/login_flow-login-flow-wrong-credentials-chromium/error-context.md  响应需要 531 毫秒 响应正文内容：{“详细信息”：“无效”经过一番尝试后，我放弃了对响应进行测试，并尝试对通知元素进行测试，但遇到了完全相同的问题，等待通知超时。 这是一个在 Docker 内部运行的 React vite 前端。我目前无法访问 --headed 或 --UI。   由   提交/u/RandomUserOfWebsite  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ree8z2/looking_for_help_writing_a_playwright_test_which/</guid>
+      <pubDate>Wed, 25 Feb 2026 14:11:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于使用子域托管的问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ree6im/question_about_hosting_with_a_subdomain/</link>
+      <description><![CDATA[您好， 我在这方面完全是初学者，需要一些答案或建议。我的设置如下： Primair：Domain.com 别名：www.domain.com Sub：shop.domain.com 我将我的别名托管在Squarespace，但我希望我的子目录托管在 Spotify 上。设置 Cname 记录时，我收到通知，因为需要唯一的 Cname，所以无法执行此操作。 我尝试做的事情是不可能的，还是我错过了一些非常简单的东西？   由   提交/u/Mr-Sleepy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ree6im/question_about_hosting_with_a_subdomain/</guid>
+      <pubDate>Wed, 25 Feb 2026 14:08:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>您可以将性能 HUD 放入任何站点（无需依赖。评论部分中的脚本）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1redko4/performance_hud_you_can_drop_into_any_site_no/</link>
+      <description><![CDATA[      在 DevTools、Lighthouse 和 PageSpeed 之间切换有时会有点乏味。 因此我编写了一个小型性能 HUD，您可以直接粘贴到任何页面中。 它显示： • 实时 FPS • 长主线程阻塞任务 • LCP（最大）内容绘制） • 使用 Cmd/Ctrl + Shift + P 进行切换 • 无库，无构建步骤 它完全使用 PerformanceObserver 在浏览器中运行。   由   提交/u/DRIFFFTAWAY   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1redko4/performance_hud_you_can_drop_into_any_site_no/</guid>
+      <pubDate>Wed, 25 Feb 2026 13:43:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>坐在你的屁股上 Web 开发</title>
+      <link>https://www.reddit.com/r/webdev/comments/1redfhf/sit_on_your_ass_web_development/</link>
+      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1redfhf/sit_on_your_ass_web_development/</guid>
+      <pubDate>Wed, 25 Feb 2026 13:37:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在 NestJS API 中从 Passport.js 切换到 Better Auth。这是实际发生的变化</title>
+      <link>https://www.reddit.com/r/webdev/comments/1recmdr/i_switched_from_passportjs_to_better_auth_in_my/</link>
+      <description><![CDATA[      Passport.js 自 2013 年以来一直是 Node.js 身份验证的首选。但在最近构建了一个生产 API 后，我切换到 Better Auth - 差异比我预期的要大。 以下是实践中发生的变化： 会话管理： Passport 依赖于您使用快速会话手动连接所有内容。 Better Auth 可开箱即用地处理基于 cookie 的安全会话，包括会话失效。 RBAC：使用 Passport，您实际上是在构建自己的角色系统。 Better Auth 附带内置权限。 OTP/密码重置： 包含完整流程。使用 Passport，您可以将单独的库拼接在一起。 TypeScript 支持： Better Auth 在设计上是类型安全的。 Passport 的类型是事后才想到的。 权衡：更好的身份验证更新，生态系统更小。如果您需要只有 Passport 支持的非常具体的 OAuth 策略，那仍然很重要。 但是对于 2025 年的新建项目，我不会回去。 如果有人想查看实际实现，我在演示存储库中记录了如何将其与 CQRS 和 RBAC 集成：[GitHub 演示] 您现在在生产中使用什么进行身份验证？   由   提交/u/Worldly-Broccoli4530   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1recmdr/i_switched_from_passportjs_to_better_auth_in_my/</guid>
+      <pubDate>Wed, 25 Feb 2026 13:03:07 GMT</pubDate>
+    </item>
     <item>
       <title>React UI 库：样式 props、sx 还是 css？</title>
       <link>https://www.reddit.com/r/webdev/comments/1reaph8/react_ui_libraries_style_props_sx_or_css/</link>
@@ -25,90 +109,6 @@
       <description><![CDATA[https://inside-react.vercel.app/blog/understand-why-react-fibre-exists   由   提交 /u/Acrobatic_Big781   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1re8s5b/understanding_the_need_for_a_new_react/</guid>
       <pubDate>Wed, 25 Feb 2026 09:34:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>这将永远改变 Web 开发！ （时空数据库2.0）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re8cgj/this_is_going_to_change_web_dev_forever/</link>
-      <description><![CDATA[自从他们推出 1.0 以来，我也请求了一个用于 Web 开发的 SDK。他们终于做到了！ 它的速度比当今任何现代数据库堆栈快 1000 倍。 YouTube 公告 链接（+ 免费永久）学分）   由   提交/u/varungupta3009  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re8cgj/this_is_going_to_change_web_dev_forever/</guid>
-      <pubDate>Wed, 25 Feb 2026 09:08:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>问：这里有人建立了 SaaS 并使用内容营销来获取客户吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re7nzj/question_has_anyone_here_built_a_saas_and_used/</link>
-      <description><![CDATA[我正在研究独立 SaaS 的客户获取策略。 好奇什么实际有效：  内容营销（博客、Twitter、Reddit）？ 付费广告（Google、LinkedIn、Facebook）？ 电子邮件列表 + 稀缺性发布？ 热门话题/病毒时刻？ YouTube/视频？ 还有其他吗？  我一直在分析成功的发布，似乎不同的创始人适用不同的策略。 希望了解什么对这个社区的人们有效。 您的经验是什么？   由   提交/u/WorthFan5769  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re7nzj/question_has_anyone_here_built_a_saas_and_used/</guid>
-      <pubDate>Wed, 25 Feb 2026 08:26:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>网页开发项目</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re74x9/web_development_project/</link>
-      <description><![CDATA[我在 Web 开发/编程课程中取得了及格成绩，但我正在考虑制作项目以获得更高的成绩。但我不知道要构建什么，所以我来这里寻求一些想法。我是本科生数学与科学专业的学生，​​我想要一些不太容易但也不太复杂的东西，中级到高级的东西，比如一些挑战   由   提交/u/FanDiscombobulated91  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re74x9/web_development_project/</guid>
-      <pubDate>Wed, 25 Feb 2026 07:53:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>PHP 的 1 亿行挑战</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re6ehu/100millionrow_challenge_with_php/</link>
-      <description><![CDATA[      一个月前，我进行了一次性能任务，试图优化需要 5 天运行的 PHP 脚本。在许多才华横溢的开发人员的帮助下，我最终让它在 30 秒内运行。这个优化过程非常有趣，很多人都提出了自己的想法；所以我最终决定要做更多事情。 这就是为什么我为 PHP 社区创建了一个性能挑战赛，我邀请大家参与😁 这个挑战赛的目标是使用 PHP 尽可能高效地解析 1 亿行数据。挑战将持续大约两周，最后，最佳参赛者将获得一些奖品（其中奖品包括非常抢手的 PhpStorm Elephpant，目前数量已所剩无几）。 那么，你准备好参加了吗？前往挑战存储库并尽力而为！   由   提交/u/brendt_gd  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re6ehu/100millionrow_challenge_with_php/</guid>
-      <pubDate>Wed, 25 Feb 2026 07:09:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>零编码体验——仅使用免费的人工智能工具来设计、构建和托管网络/应用程序产品的最佳方式是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re47wh/zero_coding_experience_whats_the_best_way_to/</link>
-      <description><![CDATA[我的编码经验为零，但我希望尽可能使用免费的 AI 工具构建一个可用的 Web/应用程序产品。 目标是： • 设计 UI • 构建应用程序 • 设置后端/数据库 • 托管和部署它 • 将成本保持在 0 美元（至少对于 MVP 而言） 我愿意学习，但我不想在推出某些东西之前经历 6-12 个月的编码之旅。 对于那些已经尝试过的人：  今天这实际上可能吗？ 你会使用什么具体的堆栈？ 我应该采用无代码+人工智能，还是人工智能辅助的低代码？ 初学者通常会在哪里陷入困境？  非常感谢实用指导，而不是“只是学习编码”。 谢谢🙏   由   提交 /u/Sad_Doubt_3095   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re47wh/zero_coding_experience_whats_the_best_way_to/</guid>
-      <pubDate>Wed, 25 Feb 2026 05:11:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用视觉语言模型来索引和搜索字体</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re3nux/using_vision_language_models_to_index_and_search/</link>
-      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re3nux/using_vision_language_models_to_index_and_search/</guid>
-      <pubDate>Wed, 25 Feb 2026 04:43:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>老流星开发者刷新时间</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re3hbx/old_meteor_dev_time_for_a_refresh/</link>
-      <description><![CDATA[我喜欢 Meteor，因为我可以快速提出一个想法。我不需要构建企业规模的应用程序，我的大多数应用程序都只是内部的。我想改变我的堆栈，因为我觉得 Meteor 3 太复杂了。我喜欢 Typescript，Meteor 的好处是我可以在前端和后端拥有一些库。  我并不是在寻找热度或非常复杂的东西，而是想回到一个简单的一体化堆栈。  我应该看什么？   由   提交/u/Dramatic-Line6223  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re3hbx/old_meteor_dev_time_for_a_refresh/</guid>
-      <pubDate>Wed, 25 Feb 2026 04:34:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>6 个月前有人询问“在首选页面构建器中重建网站的人工智能工具”，很好奇答案是否已经改变。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re3gnm/someone_asked_6_months_ago_about_ai_tools_to/</link>
-      <description><![CDATA[在首选页面构建器中重建网站的人工智能工具 当时的共识是“不可能”。但法学硕士正在迅速发展，所以我正在检查是否有人成功 - 即使部分成功 - 使用人工智能重建/重构现有网站。 编辑：需要澄清的是，我不关心“页面构建器”。这一部分。这是一个负载条款。将该术语替换为“框架”。我想提取重复的结构并将其与内容分开。因此，将网站拆分为共享模板和使用这些模板的内容块的集合。   由   提交 /u/shufflepoint   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re3gnm/someone_asked_6_months_ago_about_ai_tools_to/</guid>
-      <pubDate>Wed, 25 Feb 2026 04:33:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>本周推出了使用 SwiftUI 和 Firebase 构建的应用程序。希望获得技术反馈！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re2b3b/launched_my_app_this_week_built_with_swiftui_and/</link>
-      <description><![CDATA[本周我推出了一款名为 Ekklesia 的 iOS 应用程序。这是教会社区的一个小众社交平台。 主要堆栈： SwiftUI 前端 Firebase Auth Firestore 存储 FCM RevenueCat 用于订阅 CoreLocation 用于基于距离的教会发现 它支持两种角色，个人用户和教会帐户，具有不同的权限和仪表板。有一个带有排序功能的社区源、私信、带有 RSVP 的活动、同步到 Firestore 的通知首选项、审核工具和深层链接。 我还构建了一个简单的营销网站，并在 GitHub Pages 上单独托管法律页面。 一些用户已经注册。还为时尚早，但目前我对技术批评更感兴趣。 对于那些使用 Firebase 构建社交风格应用的人： 对于 Firestore 扩展，您会长期关注什么？ 您早期后悔的任何架构决策吗？ 您会以不同的方式处理实时功能吗？ 应用： https://apps.apple.com/us/app/ekklesia-church-community/id6759182095 接受诚实的技术反馈。   由   提交 /u/worsthackeralive   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re2b3b/launched_my_app_this_week_built_with_swiftui_and/</guid>
-      <pubDate>Wed, 25 Feb 2026 03:38:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gartner：到 2026 年底，40% 的企业应用程序将嵌入 AI 代理</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re1q21/gartner_40_of_enterprise_apps_will_embed_ai/</link>
-      <description><![CDATA[显然我们现在的进度约为 5%。 Gartner 预测，到 12 月，AI 代理集成度将增长 8 倍。 对于我们这些构建 Web 应用程序和 SaaS 的人来说，这似乎是一件相当大的事情。您是否已经在项目中添加了代理功能，或者这感觉像是企业专用的炒作？ 我不断看到可以浏览、填写表单、提取数据的代理演示。想知道我们中有多少人实际上正在运送这些东西，而不是只是在一旁观看。   由   提交 /u/Alternative-Theme885   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re1q21/gartner_40_of_enterprise_apps_will_embed_ai/</guid>
-      <pubDate>Wed, 25 Feb 2026 03:11:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>软件不是竞争：它是我们的挫败感地图</title>
-      <link>https://www.reddit.com/r/webdev/comments/1re0m9v/software_isnt_a_competition_its_a_map_of_our/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1re0m9v/software_isnt_a_competition_its_a_map_of_our/</guid>
-      <pubDate>Wed, 25 Feb 2026 02:21:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>从数据生成 Web 界面</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rdxz0d/generated_web_interfaces_from_data/</link>
-      <description><![CDATA[       由   提交 /u/Possible-Session9849   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rdxz0d/generated_web_interfaces_from_data/</guid>
-      <pubDate>Wed, 25 Feb 2026 00:27:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
