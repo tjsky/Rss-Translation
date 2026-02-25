@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 25 Feb 2026 15:58:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 19:02:05 GMT</lastBuildDate>
+    <item>
+      <title>TaskHarbor：用 Golang 编写的与驱动程序无关的分布式作业调度程序</title>
+      <link>https://www.reddit.com/r/software/comments/1rehewz/taskharbor_driveragnostic_distributed_job/</link>
+      <description><![CDATA[Github：taskharbor 与 python 的 celery 类似，但在 go 中：p 我想构建一个小型 go 服务，其中 webhooks/用户操作通过重试、租赁、调度来启动后台工作（电子邮件、报告、上传）， DLQ 和幂等键，以及我可以在不改变行为的情况下交换后端的位置。 我环顾四周，发现了一些不错的选择，但它们通常只围绕一种后端或一种风格：Asynq (Redis)、River (Postgres)、Machinery（Celery 风格 + 多个代理）以及较新的多后端项目，如 Neoq / GoQueue。它们很棒，但我找不到明确的驱动程序优先的东西，并通过一致性套件证明后端之间的语义奇偶性。 所以我开始构建 TaskHarbor。它仍在建设中，但核心语义是通过一致性测试（内存/postgres/redis 等）实现和强制执行的。 我正在寻找贡献者来帮助实现更多驱动程序/后端并进一步强化系统。 我希望得到经验丰富的工程师的反馈，了解这是否具有超出我自己的用例的真正生产价值。具体来说：一个与驱动程序无关的作业调度程序（其中语义在后端之间保持一致）是否在实际系统中真正有用？ 如果您有兴趣做出贡献，请随时与我的 DM 联系！ 注意：这不会以任何方式破坏 AsynQ、River 等软件包所做的开发，而是一个语义上更严格、与驱动程序无关的作业队列。查看自述文件，深入了解现有框架与 taskharbor 正在做的事情之间的差异！ :)   由   提交/u/indianbollulz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rehewz/taskharbor_driveragnostic_distributed_job/</guid>
+      <pubDate>Wed, 25 Feb 2026 16:09:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sopho 简介 - 开源商业智能和数据分析平台</title>
+      <link>https://www.reddit.com/r/software/comments/1reheh2/introducing_sopho_open_source_business/</link>
+      <description><![CDATA[大家好， 我最近发布了 Sopho 的第一个版本。 Sopho 是一个开源商业智能 (BI) 平台，经过重新设计，变得简单、高性能、安全和 AI 原生。 我注意到，闭源 BI 公司在产品质量和 AI 原生方面远远领先于开源公司。 Sopho 是我尝试弥合这一差距的尝试，以便任何人都可以访问 SOTA BI 平台。 目前它具有以下功能：  Canvas：将笔记本和仪表板集成在一个位置 图表单元：用于数据可视化的可配置条形图、折线图、饼图和指标图 SQL 单元：编写和执行 SQL  键盘快捷键：全局搜索(Cmd+K) 和编辑快捷方式 连接：带有加密凭证存储的 PostgreSQL、Supabase 和 SQLite   您可以使用 Docker 映像轻松尝试。它有一个演示数据和仪表板。  Github：https://github.com/sopho-tech/sopho 文档：https://docs.sopho.io/ 网站：sopho.io 希望得到任何反馈:)    由   提交 /u/seniorchanggg   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1reheh2/introducing_sopho_open_source_business/</guid>
+      <pubDate>Wed, 25 Feb 2026 16:08:54 GMT</pubDate>
+    </item>
     <item>
       <title>可能是最好的 chrome 霓虹红主题，请自行尝试。如果你喜欢的话就评论一下。</title>
       <link>https://www.reddit.com/r/software/comments/1reh2cy/probably_the_best_neon_red_theme_for_chrome_try/</link>
@@ -29,7 +43,7 @@
     <item>
       <title>大多数待办事项列表应用程序（Todoist、TickTick 和 Thing）无法帮助您开始。</title>
       <link>https://www.reddit.com/r/software/comments/1reeqbu/most_todo_list_apps_todoist_ticktick_thing_dont/</link>
-      <description><![CDATA[大多数待办事项应用程序都擅长收集任务。大多数人工智能工具都擅长提供长篇解释。但是，当某些事情确实很重要，例如财务、职业变动、法律文书、重要的生活事件时，您的大脑不需要更多信息。 它需要帮助启动。这就是我们构建HealUp。任务执行层的原因。 不是待办事项列表不是生产力仪表板。不是人工智能聊天机器人。 您输入繁重的任务。几秒钟后，它就会变成清晰、简单、可操作的步骤，您可以立即开始。 没有长段落。没有过度思考。没有研究螺旋。只是下一个正确的行动。 是什么让这与众不同。  专为现实世界的繁重任务（财务、法律、职业、管理）而设计 专为您感到陷入困境或逃避的时刻而打造 与Todoist、TickTick 和Todoist 集成。概念 人工智能网络研究 + 需要时的参考背景 适用于复杂任务的高级深度选择器  早期信徒的终身优惠。 仅限于此社区前 50 名注册的用户。  终身访问：一次性 35 美元 包含所有未来更新 正常价格为 79 美元  如果您只是想先尝试一下，还有免费套餐。（有使用限制，但您可以感受体验）。 评论或 DM “交易”，我会亲自向您发送链接。 我们 8 天前首次推出： 1.7k+访问 131+次购买 18次终身购买 这验证了一些重要的事情。开始是真正的瓶颈。 此后我们改进了产品，并为终身计划增加了价值。 如果您曾经因为开始感觉太沉重而将一项人生任务盘旋在脑海中数周... 这正是 HealUp 存在的原因。 很高兴诚实地回答任何问题。   由   提交 /u/Nesh_wrn   [link] [评论]]]></description>
+      <description><![CDATA[大多数待办事项应用程序都擅长收集任务。大多数人工智能工具都擅长提供长篇解释。但是，当某些事情确实很重要，例如财务、职业变动、法律文书、重要的生活事件时，您的大脑不需要更多信息。 它需要帮助启动。这就是我们构建HealUp。任务执行层的原因。 不是待办事项列表不是生产力仪表板。不是人工智能聊天机器人。 您输入繁重的任务。几秒钟内，它就会变成清晰、简单、可操作的步骤，您可以立即开始。 没有长段落。没有过度思考。没有研究螺旋。只是下一个正确的行动。 是什么让这与众不同。  专为现实世界的繁重任务（财务、法律、职业、管理）而设计 专为您感到陷入困境或逃避的时刻而打造 与Todoist、TickTick 和Todoist 集成。概念 人工智能网络研究 + 需要时的参考背景 适用于复杂任务的高级深度选择器  早期信徒的终身优惠。 仅限于此社区前 50 名注册的用户。  终身访问：一次性 35 美元 包含所有未来更新 正常价格为 79 美元  如果您只是想先尝试一下，还有免费套餐。（有使用限制，但您可以感受体验）。 评论或 DM “交易”，我会亲自向您发送链接。 我们 8 天前首次推出： 1.7k+访问 131+次购买 18次终身购买 这验证了一些重要的事情。开始是真正的瓶颈。 此后我们改进了产品，并为终身计划增加了价值。 如果您曾经因为开始感觉太沉重而将一项人生任务盘旋在脑海中数周... 这正是 HealUp 存在的原因。 很高兴诚实地回答任何问题。   由   提交 /u/Nesh_wrn   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1reeqbu/most_todo_list_apps_todoist_ticktick_thing_dont/</guid>
       <pubDate>Wed, 25 Feb 2026 14:30:24 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[嘿 r/software， 两个月前，我在这里发布了openstickies 的发布老实说，这个反应让我感到惊讶。人们尝试过，给出了真实的反馈，有些人甚至购买了高级版。 新功能 OpenStickies v2.8： - 内嵌图像 - 将图像直接粘贴或拖动到笔记中。右键单击可调整大小（完整、50%、25%）或在内联和链接显示之间切换。存储为压缩的 WebP。 - 可折叠笔记 — 双击标题可将笔记折叠到标题栏。节省屏幕空间，同时保持笔记可访问。搜索会自动展开它们。 - 可编辑的笔记标题 - 双击标题日期以重命名您的笔记。不再依赖创建时间戳来识别笔记。 - 嵌套待办事项 — Tab/Shift+Tab 缩进清单项目。在缩进级别进行正确的换行，宽度保护，这样您就不会缩进忘记。 - CJK 输入支持 — 在 Linux 和 Windows 上对中文、日文和韩文输入的完整 IME 支持。这是应用户要求而进行的一些工作，以适应无框半透明窗口。 - 更好的代码块 - 改进的检测算法，空代码块上的退格键现在可以正确退出（这是 v2.7 的直接反馈）。 - 性能 - 当您有 30 多个笔记时，显示/隐藏速度显着加快。批量持久性可防止 UI 冻结。 - 错误修复 - 修复了三次单击选择上的格式切换、修复了 AppImage 构建中的调色板、修复了从任务栏关闭时消失的注释。 完整变更日志：https://openstickies.com/changelog 在过去的两个月里，我一直致力于用户的反馈（+1000 次下载，因此远！）。在 v2.8 之后，我的第一个高级用户回复道：“我认为这就是我所需要的便利贴工具。”感谢您制作此内容并听取反馈。”完整评论此处 自从这个社区第一次真正推动 OpenStickies 以来，我想要回馈。 结帐时使用代码 rsoftware，在现有 25% 折扣的基础上还可享受 10% 的折扣。自本文发布后 24 小时内有效。 Premium 是一次性购买（无需订阅），提供无限的笔记、提醒和 GIF 背景。免费版本具有所有功能，只是仅限同时打开 5 个笔记。 网站：https://openstickies.com 定价：https://openstickies.com/pricing Snap 商店：https://snapcraft.io/openstickies 给我买杯咖啡：https://buymeacoffee.com/himasphere GitHub（仅限免费版本）：https://github.com/HimaSphere/OpenStickies 注意：OpenStickies 是专有应用程序，目前没有可用的源代码。 很高兴回答任何问题。如果您已经使用 OpenStickies，我很想听听您接下来想要什么。   由   提交/u/HimaSphere  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1re985y/introducing_openstickies_v28_the_best_stickies/</guid>
       <pubDate>Wed, 25 Feb 2026 10:01:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>离线观看电视节目的最佳方式</title>
-      <link>https://www.reddit.com/r/software/comments/1re8xz0/best_way_to_watch_tv_shows_offline/</link>
-      <description><![CDATA[我确信这个问题已经被回答过很多次了，但我没有互联网带宽来搜索。所以我在船上工作，我们的互联网有限。 Netflicks 之类的东西不仅可以让你下载几集，而且我还需要更多。我们即将进港，我将有几天的时间在手机上下载我想要的内容。我不太懂技术，也不知道该去哪里。在此停留后，我们将出海大约 6 周，只是想在我休息 12 小时的时候找点足够的东西来娱乐我几个小时。  谢谢   由   提交/u/bodaddio1971   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1re8xz0/best_way_to_watch_tv_shows_offline/</guid>
-      <pubDate>Wed, 25 Feb 2026 09:44:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助我们构建 PrivaZer PRO</title>
-      <link>https://www.reddit.com/r/software/comments/1re8taf/help_us_to_build_privazer_pro/</link>
-      <description><![CDATA[大家好， 获取 PrivaZer PRO - 适用于 Windows 的最佳 PC 清理工具之一 并分享您的反馈。 自 2012 年以来，我们一直在开发 PrivaZer，作为 CCleaner 的真正隐私优先替代品。  零跟踪。零遥测。零广告。  每月下载量超过 40 万次 Trustpilot 上的下载量为 4.9/5  ------------- 🎁 前 100 位用户免费获得 PRO 版本（通常为 49 美元），为期 1 年 在30秒，写下“感兴趣”下面并转到此处：https://privazer.com/reddit.php ------------ 为什么？ 社区驱动的开发！ 自第一天起，PrivaZer 就受到来自 Wilders Security、NSANE 论坛等社区的用户反馈的影响，恶意软件提示。 无数功能因用户要求而存在。 我们创建了 r/PrivaZer，将相同的协作方法引入 Reddit。如果您想：  建议功能 报告错误 分享隐私提示 直接与开发人员交谈  ...欢迎您加入。但这是完全可选的 - 无论哪种方式，免费的 PRO 许可证都是您的。我真诚地寻求 Reddit 用户的建设性反馈，就像十多年来我与其他技术社区所做的一样。 ------ 它的作用： 🧹 PC 清理 - 垃圾文件、临时数据、系统混乱 🔒 隐私保护 - 浏览历史记录、最近的文件、应用程序跟踪、内存 🗑️ 深度清理 - MFT、USN日志、$Logfile、FAT、shellbags、跳转列表 🔥 安全删除 - 文件实际上是不可恢复的，而不仅仅是“删除” 🍪 智能cookies - 保留您的登录信息，删除跟踪cookie 安全：  完全离线工作 没有捆绑软件或追加销售  两种模式： → 初学者：一键自动清理 → 高级用户：精细控制每个细节 对于技术人群： 我们不只是删除文件 - 我们清除深层痕迹。 MFT 条目、USN 日志、NTFS $Logfile 记录、FAT 表、注册表 shellbag、Windows 应用程序缓存。加上安全回收站擦除（因为“清空”实际上不会删除任何内容）。 对于其他人：根据您的需要调整 PrivaZer，点击“清理”，完成。简单而不简单。   由   提交 /u/Tiny-Effort-95880   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1re8taf/help_us_to_build_privazer_pro/</guid>
-      <pubDate>Wed, 25 Feb 2026 09:36:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
