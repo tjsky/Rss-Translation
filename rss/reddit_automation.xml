@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Wed, 25 Feb 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 21:31:05 GMT</lastBuildDate>
+    <item>
+      <title>对于工业环境中跨 SaaS 应用程序和操作系统的数据孤岛有什么解决方案吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1reohkb/any_solutions_for_data_silos_across_saas_apps_and/</link>
+      <description><![CDATA[采矿业中的数据科学家和这里的数据景观与您在技术博客文章中读到的完全不同。我们拥有具有专有协议的 SCADA 系统、仅通过 odbc 或平面文件导出的历史数据库、将数据提取视为事后处理的 sap erp、来自设备供应商的车队管理系统（具有 REST API 但几乎没有记录），以及通过 mqtt 进行通信的各种物联网传感器。  企业需要一个统一的分析平台，可以在其中查看设备利用率、维护成本、产量以及安全指标。完全合理的询问。但从这些系统中获取数据并转换为通用格式才是真正困难的部分，而不是分析。 对于 saas 和 erp 方面，我一直在使用 precog，处理 sap 提取和一些其他业务系统。但在操作技术方面，即 SCADA 和历史数据，这是一个完全不同的挑战，没有标准的 ETL 工具能够真正解决，因为这些不是基于 API 的系统。在工业环境中工作的任何人都找到了弥合数据源和现代数据平台之间差距的体面方法吗？   由   提交 /u/NerdyMoriro   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1reohkb/any_solutions_for_data_silos_across_saas_apps_and/</guid>
+      <pubDate>Wed, 25 Feb 2026 20:14:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>传统的 dlp 解决方案与 2026 年的 dspm 相比，这些解决方案还能解决同样的问题吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1ren7ue/traditional_dlp_solution_vs_dspm_in_2026_are/</link>
+      <description><![CDATA[您越深入了解供应商和分析师如何构建这两种方法，就越感觉他们在回答完全不同的问题。 dlp 是围绕控制数据移动而构建的，dspm 似乎更专注于了解敏感数据所在的位置以及谁可以访问它。在黑客新闻和 LinkedIn 等地方进行的许多以安全为中心的讨论都指出，云的蔓延是旧模式开始崩溃的原因。想知道这里的人们是否认为这些工具正在融合，或者组织是否真的必须选择一条道路。   由   提交 /u/Outrageous_Tiger_441   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1ren7ue/traditional_dlp_solution_vs_dspm_in_2026_are/</guid>
+      <pubDate>Wed, 25 Feb 2026 19:29:23 GMT</pubDate>
+    </item>
     <item>
       <title>我们的类型系统捕获了每一个数据错误。它发现用户实际抱怨的错误为零。</title>
       <link>https://www.reddit.com/r/automation/comments/1relnea/our_type_system_caught_every_data_bug_it_caught/</link>
@@ -20,16 +34,9 @@
       <pubDate>Wed, 25 Feb 2026 15:51:57 GMT</pubDate>
     </item>
     <item>
-      <title>机构 - 伙伴关系</title>
-      <link>https://www.reddit.com/r/automation/comments/1regj58/agencies_partnership/</link>
-      <description><![CDATA[我们正在寻求与代理机构合作。 我们已经与 10 多名经验丰富的工程师组成的团队构建了 50 多个生产级系统。 （AI 代理 + 内存 + CRM 集成）。 这个想法很简单：您可以在您的品牌下对我们的系统进行白标，并将其作为附加服务提供给您现有的客户。您也可以直接在我们的品牌名称下推荐我们（白标是可选的） 每个客户的收入 - $12000 - $30000/年 您每月为每个客户赚取经常性收入，我们负责所有的技术构建、维护、扩展和更新。 因此，您无需雇用人工智能工程师或构建基础设施即可获得新的收入来源   由   提交/u/AdAgreeable8989  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1regj58/agencies_partnership/</guid>
-      <pubDate>Wed, 25 Feb 2026 15:37:49 GMT</pubDate>
-    </item>
-    <item>
       <title>自动处理我重复的客户支持问题，花了一个下午</title>
       <link>https://www.reddit.com/r/automation/comments/1reg79j/automated_my_repeat_customer_support_questions/</link>
-      <description><![CDATA[在这里潜伏了一段时间，我想分享一些实际上可以实时节省我时间的东西。我经营一家小型在线企业，每天花费 2-3 小时手动回答相同的问题。运输信息、退货政策、设置说明、兼容性内容。尝试构建带有关键字触发器的 Zapier 工作流程来自动响应，但它太严格了。任何与我的确切触发点略有不同的措辞都失败了。 最终起作用的是专门根据我的文档训练的人工智能聊天机器人。您向其提供文档（PDF、文本文件、Markdown 或直接抓取您的网站），它仅根据该内容回答问题。不是通用人工智能，它只会从你提供的东西中提取东西。使用一个脚本标签在我的网站上作为聊天小部件运行。 感觉真正自动化的部分是 Discord 集成。我有一个社区服务器，机器人位于我选择的频道中。当主持人回答机器人错过的问题时，它会评估交流并自动捕获有用的答案以供下次使用。随意的回复和离题的内容都会被过滤掉。这样系统就可以在我不碰任何东西的情况下自行改进，这就是自动化的全部意义所在。 设置总共花了一个下午的时间。小部件是最快的部分，建立一个好的知识库需要更长的时间，因为我必须组织要包含的内容和过时的内容。 真正的限制：响应需要 10-20 秒，当内容发生变化时您手动重建知识库（机器人在此期间离线），并且没有人工交接，但如此复杂的事情仍然落在我身上。但对于困扰我一天的重复性常见问题解答内容，它已得到处理。 如果有人想要特定的工具名称，只需询问即可，不希望这感觉像广告。   由   提交 /u/cryptoviksant   [链接] [评论]]]></description>
+      <description><![CDATA[在这里潜伏了一段时间，我想分享一些实际上可以实时节省我时间的东西。我经营一家小型在线企业，每天花费 2-3 小时手动回答相同的问题。运输信息、退货政策、设置说明、兼容性内容。尝试使用关键字触发器构建 Zapier 工作流程来自动响应，但它太严格了。任何与我的确切触发点略有不同的措辞都失败了。 最终起作用的是专门根据我的文档训练的人工智能聊天机器人。您向其提供文档（PDF、文本文件、Markdown 或直接抓取您的网站），它仅根据该内容回答问题。不是通用人工智能，它只会从你提供的东西中提取东西。使用一个脚本标签在我的网站上作为聊天小部件运行。 感觉真正自动化的部分是 Discord 集成。我有一个社区服务器，机器人位于我选择的频道中。当主持人回答机器人错过的问题时，它会评估交流并自动捕获有用的答案以供下次使用。随意的回复和离题的内容都会被过滤掉。这样系统就可以在我不碰任何东西的情况下自行改进，这就是自动化的全部意义所在。 设置总共花了一个下午的时间。小部件是最快的部分，建立一个好的知识库需要更长的时间，因为我必须组织要包含的内容和过时的内容。 真正的限制：响应需要 10-20 秒，当内容发生变化时您手动重建知识库（机器人在此期间离线），并且没有人工交接，但如此复杂的事情仍然落在我身上。但对于困扰我一天的重复性常见问题解答内容，它已得到处理。 如果有人想要特定的工具名称，只需询问即可，不希望这感觉像广告。   由   提交 /u/cryptoviksant   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1reg79j/automated_my_repeat_customer_support_questions/</guid>
       <pubDate>Wed, 25 Feb 2026 15:25:29 GMT</pubDate>
     </item>
@@ -41,25 +48,11 @@
       <pubDate>Wed, 25 Feb 2026 14:42:15 GMT</pubDate>
     </item>
     <item>
-      <title>我建立了我的投资组合 - 我希望得到您诚实的反馈</title>
-      <link>https://www.reddit.com/r/automation/comments/1reejaw/i_built_my_portfolio_id_love_your_honest_feedback/</link>
-      <description><![CDATA[      我完成了自动化产品组合的构建，我希望得到您的诚实反馈。我该如何改进？  https://preview.redd.it/7vqoqau0hnlg1.png?width=1366&amp;format=png&amp;auto=webp&amp;s=ce0e9439180a4080b53d95f5bc20ee3fe046bbd2 我要开始寻找客户了。我计划发送电子邮件、创建有关我的服务的内容、查找社区 我无法在帖子中添加我的作品集的链接，但您可以在评论中找到它。   由   提交/u/MarcoAcrono   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1reejaw/i_built_my_portfolio_id_love_your_honest_feedback/</guid>
-      <pubDate>Wed, 25 Feb 2026 14:22:34 GMT</pubDate>
-    </item>
-    <item>
       <title>自动化应该自动闭环</title>
       <link>https://www.reddit.com/r/automation/comments/1redjr7/automation_should_close_loops_automatically/</link>
       <description><![CDATA[无需人工跟进。   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1redjr7/automation_should_close_loops_automatically/</guid>
       <pubDate>Wed, 25 Feb 2026 13:42:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>你对于离开 n8n 和 zapier 有什么想法？</title>
-      <link>https://www.reddit.com/r/automation/comments/1recfhc/what_are_your_thoughts_on_going_from_n8n_and/</link>
-      <description><![CDATA[嘿， 所以我一直在构建一个内部工具，因为我的团队正在使用 Zapier，老实说，他们中的大多数人都是非技术人员，发现它太复杂了。  他们也尝试了 Airtable 自动化，并将其保留在 Airtable 中，我必须为特定结果编写脚本，例如循环系统。 因此，我构建了这种新型 zapier 来解决这个问题，解释工作流程并让 AI 工作人员在一个平台或平台之间执行特定的操作。  示例提示。 “每次我在 HubSpot 中获得网站潜在客户时，请在 Elsa、Adam 和 Ali 之间进行循环，然后通过 Gmail 向他们发送电子邮件，说明他们正在负责包含姓名的潜在客户” “当我在 Gmail 中收到收据时，将其添加到 Google 表格中的收据文件夹中” 它连接到已使用现有服务的 900 多个集成，因此您可以构建在单个平台或跨多个应用程序处理任务的 AI 工作人员。  无需接触节点编辑器或弄清楚 Zapier 的逻辑。没有学习曲线。你只是描述它。 我认为我真正喜欢它的是跳过学习曲线，能够反馈它，并摆脱静态的 zapier 和 n8n，所以总是有一个人工智能在做推理（当然包括好的和坏的）。 所以这是你会使用和付费的东西吗？   由   提交/u/mrsenzz97  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1recfhc/what_are_your_thoughts_on_going_from_n8n_and/</guid>
-      <pubDate>Wed, 25 Feb 2026 12:54:39 GMT</pubDate>
     </item>
     <item>
       <title>我建立了一个工作流程来处理潜在客户捕获和跟进，它彻底改变了我们管理潜在客户的方式。</title>
@@ -74,6 +67,13 @@
       <description><![CDATA[我对于为我的家庭服务公司构建自动化还相当陌生，我已经构建了一些简单的自动化，这节省了我很多时间。我当前的技术堆栈是：Keap、Workspace（与 Gemini）、wildjar、Aroflo（作业管理软件）。任何人都可以给我一些关于如何构建短信自动化的指导 - 未接来电或下班后的电话。打开短信发送给呼叫者，ai讨论过程 - 如果转换，保留表单提交ECT   由   提交 /u/pellycan_pellycant   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1reavi0/sms_ai_response_help/</guid>
       <pubDate>Wed, 25 Feb 2026 11:36:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>正在寻找 Lark 替代品？</title>
+      <link>https://www.reddit.com/r/automation/comments/1reansl/looking_for_lark_alternatives/</link>
+      <description><![CDATA[一直在使用 Lark 进行团队协作，但想知道其他人尝试过哪些感觉更可靠或更容易日常管理的方法   由   提交/u/Wgterry73  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1reansl/looking_for_lark_alternatives/</guid>
+      <pubDate>Wed, 25 Feb 2026 11:24:41 GMT</pubDate>
     </item>
     <item>
       <title>本周构建了一个自动化系统，每周一为客户节省了 6 个小时，这就是它的工作原理</title>
@@ -97,18 +97,18 @@
       <pubDate>Wed, 25 Feb 2026 07:47:14 GMT</pubDate>
     </item>
     <item>
+      <title>我认为这项业务存在工作量问题。事实证明他们存在清晰度问题。</title>
+      <link>https://www.reddit.com/r/automation/comments/1rdut97/i_thought_this_business_had_a_workload_problem_it/</link>
+      <description><![CDATA[在一个下雨的下午，我带着记事本和使命感走进了我兄弟的一家小诊所。管理团队淹没在文书工作中，办公桌上堆满了表格和打印输出。他们一直告诉我他们不知所措。 “我们只是需要一个更好的系统，”一位接待员焦急地恳求道，她翻阅着一堆患者入院表格，努力寻找合适的表格。 但当我和他们坐在一起，看着他们的工作流程展开时，我发现问题不仅仅是拥有最新的软件或最奇特的工具。他们陷入了一片混乱之中。他们没有明确的处理信息的流程。例如，每次新患者进来时，他们都会在三个不同的系统中手动输入数据，而每次，一条重要信息都有被遗漏或误传的风险。 因此，我退后一步并做了一些更改： -我在我的笔记应用程序上一步一步地绘制了他们的整个接收流程。 -我帮助他们为连接到现有系统的患者数据创建了一个单一入口点。 -我引入了一个简单的清单，以确保在进入下一步之前捕获每一条信息。 - 我设置了跟进提醒，以减少无休止的来回电子邮件。 - 我鼓励他们每周举行一次聚会，以明确角色和责任。 这一转变虽然不大，但影响深远。该团队无需花费数小时寻找数据或发送重复的电子邮件，而是能够专注于真正重要的事情：他们的患者。他们提到感觉压力减轻了，犯的错误也少了。就像雾气消散了一样。  但我承认，我错误地假设每个人都会立即适应清单。有些人一开始觉得这很乏味，并抵制这种改变。让每个人都参与进来需要一些耐心和鼓励。 我从这次经历中学到的是，我们通常不需要推送新系统。我们只需要观察企业的运作方式并简化已有的内容。我们可以连接并简化工具，而不是更换工具。人们实际使用的简单自动化胜过闲置的复杂系统。 您是否意识到工作流程中的真正问题不是工具，而是流程的清晰度？你是如何解决这个问题的？   由   提交 /u/Warm_Abalone_9602   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rdut97/i_thought_this_business_had_a_workload_problem_it/</guid>
+      <pubDate>Tue, 24 Feb 2026 22:22:22 GMT</pubDate>
+    </item>
+    <item>
       <title>诚实的问题：为什么人们仍然选择 Zapier 而不是 n8n？</title>
       <link>https://www.reddit.com/r/automation/comments/1rdp9jg/honest_question_why_do_people_still_pick_zapier/</link>
       <description><![CDATA[Zapier 无处不在并且占据主导地位，但我看到了对 n8n 的推荐。 n8n 是开源的，更便宜，并且可定制，基于执行的定价是合理的。 Zapier 价格昂贵，而且任务限制很快就会增加；而且，你只能依靠它们进行集成。 那么为什么大家仍然使用 Zapier？集成库？可靠性？先发优势？ 我知道 n8n 有学习成本，而且自托管可能不适合所有人。不过，与 Zapier 相比，n8n 的云选项仍然更便宜。在尝试了两种方式后，我个人转向了 NoClick - 云托管、内置 AI 模型，比 n8n 设置更容易。但真的很好奇为什么 Zapier 仍然占据主导地位。 当有人可以使用 n8n 时，为什么有人会在 Zapier 上花费 5 到 10 倍的钱？   由   提交/u/FaithinessJust278  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rdp9jg/honest_question_why_do_people_still_pick_zapier/</guid>
       <pubDate>Tue, 24 Feb 2026 19:02:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>我对自动化收取 800-1200 美元的费用，这些自动化需要我花费几个小时来构建，并且客户很满意</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdmfp4/i_charge_8001200_for_automations_that_take_me_a/</link>
-      <description><![CDATA[我知道标题听起来像是我收费过高。但我想解释为什么我认为这实际上是公平的，以及为什么客户真正觉得他们得到了一笔划算的交易。 不久前，我出售了可能是我构建过的最简单的自动化产品。它会读取客户的收件箱，按类别标记电子邮件，自动回复常见问题，起草潜在客户的回复而不是自动发送，并在收到重要信息时在 Slack 上通知客户。 就是这样。没有仪表板。没有花哨的人工智能代理。只是一个干净的工作流程，每天可以为客户节省 30 到 45 分钟。 我为此收取了 800 美元。客户很高兴。他们没有要求折扣。他们没有询问价格。因为对他们来说，数学是显而易见的 - 他们每个月恢复超过 15 个小时，而自动化在前两周就收回了成本。 类似的构建不断发生这种情况： 后续提醒系统，如果教练在 48 小时内没有回复，就会向教练发出提示。客户表示，仅第一周就挽回了 3 个失去的销售线索。每条线索的价值都超过了他们为整个自动化付给我的钱。 每周报告自动化，从 Google 表格中提取数据，进行总结，并在每周一早上通过电子邮件发送。客户过去常常花费整个周日晚上手动执行此操作。他们告诉我，仅仅为了恢复周日的时间，自动化是值得的。 一个潜在客户通知系统，可以监视网络表单，稍微丰富数据，并发送包含销售团队所需的所有上下文的格式化 Slack 消息。该团队现在只需几分钟而不是几小时即可响应线索。仅更快的响应时间就提高了成交率。 餐厅的人工智能评论响应系统。它按情绪对评论进行分类，为积极的评论起草上下文感知的回复，并为人类标记消极的评论。店主从几周以来忽略评论变成了在 24 小时内回复每条评论。 这些都不复杂。它们都不需要先进的人工智能或多步骤代理工作流程。它们很无聊，可预测，而且很有效。 以下是我对定价的了解： 客户不会为您的构建时间付费。他们正在为结果付出代价。如果自动化每周为某人节省 5 小时，那么每月就节省 20 小时。如果每月恢复一两个丢失的潜在客户，投资回报率就会立竿见影。那时，800 美元到 1200 美元并不贵。这是理所当然的。 当我不再思考“这花了我多长时间”时，我就明白了。并开始思考“这会给客户带来多少时间、压力和收入影响”定价变得更加容易。客户不再拒绝，因为价值是不言而喻的。 我还注意到一些有趣的事情。当我收取 200 到 300 美元的费用时，客户实际上不太重视这项工作。他们会延迟向我提供访问权限，需要数周时间进行测试，有时甚至没有正确实施自动化。当我开始收取 800 美元及以上的费用时，客户的表现有所不同。他们很快就给了我访问权限，进行了彻底的测试，并将自动化视为一项真正的商业投资。更高的定价创造了更好的客户和更好的结果。 我认为自动化领域的很多人都低估了他们的工作，因为构建感觉太简单了。但简单就是产品。客户不想要复杂的。他们想要解决。他们愿意为每周可靠地节省时间和金钱的东西支付公平的费用。 在我看来，如果客户一次向我支付 1000 美元，并且自动化以后每个月为他们节省了 500 美元的时间，那么他们并没有多付钱。他们正在讨价还价。在对话中以这种方式构建它对我来说是不同的。   由   提交 /u/anonymous_buildcore   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdmfp4/i_charge_8001200_for_automations_that_take_me_a/</guid>
-      <pubDate>Tue, 24 Feb 2026 17:22:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
