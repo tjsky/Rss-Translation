@@ -4,7 +4,42 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 26 Feb 2026 01:45:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 04:49:42 GMT</lastBuildDate>
+    <item>
+      <title>需要有关设置本地主机服务器的帮助 - 无法克服 root 密码错误</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rezwnf/need_help_with_setting_up_a_localhost_server_cant/</link>
+      <description><![CDATA[我在 Win11 上使用 Uniform Server（XAMPP 的精简版），但这并不重要，无论我使用什么，在指向 /test-site/install.php 时都会弹出相同的错误 -  用户 &#39;root@localhost&#39;@&#39;localhost&#39; 的访问被拒绝（使用密码：YES） 这是我的 /config.php 文件的第一部分： // ── 数据库凭据 ──────────────────────────── Define(&#39;DB_HOST&#39;, &#39;localhost&#39;);定义（&#39;DB_NAME&#39;，&#39;测试&#39;）；定义（&#39;DB_USER&#39;，&#39;root@localhost&#39;）； // 更改为您的数据库用户名define(&#39;DB_PASS&#39;, &#39;1234&#39;); // 更改为您的数据库密码define(&#39;DB_CHARSET&#39;, &#39;utf8mb4&#39;); // ── 站点配置 ────────────────────────────────────── Define(&#39;SITE_NAME&#39;, &#39;Test&#39;);定义(&#39;SITE_URL&#39;, &#39;http://localhost/test&#39;); // 更改为您的实时域define(&#39;ADMIN_PATH&#39;, &#39;/admin&#39;);  我多次确认 root 登录凭据在 phpmyadmin 中匹配。 这不是一个关键项目，我只是在尝试构建一个 CMS。我缺少什么？   由   提交 /u/major-PITA   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rezwnf/need_help_with_setting_up_a_localhost_server_cant/</guid>
+      <pubDate>Thu, 26 Feb 2026 03:58:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能时代我应该如何完成家庭作业</title>
+      <link>https://www.reddit.com/r/webdev/comments/1reytfu/how_should_i_approach_take_home_assignments_in/</link>
+      <description><![CDATA[这里的网络开发人员去年被解雇了。我已经面试了一段时间了。我在通过家庭作业时遇到了一些严重的问题。在我那个时代，公司期望干净的代码和逻辑。现在我相信情况完全相反。我最近做了一个带回家的项目，这是一个全栈项目。它指出，“确保列出你个人构建的内容与人工智能生成的内容”。我盲目地认为这意味着手写和人工智能各占一半。当天晚上，我很快就被拒绝了，因为我对这个项目抱有更多的期望。他们给我发了 2 个其他成功面试官的例子。我注意到，我构建了完全相同的项目，他们刚刚完全依赖人工智能，并在 3 小时内构建了 10 倍以上的功能。我向招聘经理说了这一点，他的回答是“是的，这些天我们希望工程师与人工智能争论”。  快进到在另一个著名的地方进行的另一次采访。我当然希望他们关心我的代码质量和功能数量。错误的。他们也期待更多。这让我彻底失望了，因为这是一家始终重视质量而不是产量的公司。  所以现在我不知道如何真正处理这些事情。我不知道谁会评价我自己的代码质量与数量。我们是否已经完全转向振动，因为大公司正在 100% 放弃安全性和可维护性，我只是不明白为什么。这就是我们过去所主张保护的一切。想法？   由   提交 /u/Icy-Pea1778   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1reytfu/how_should_i_approach_take_home_assignments_in/</guid>
+      <pubDate>Thu, 26 Feb 2026 03:07:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 站点生成器和 Cpanel</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rey22t/ai_site_generator_and_cpanel/</link>
+      <description><![CDATA[AI 网站也给你一个合适的 cPanel 吗？据我们的一位 IT 人员介绍，我们当前的网站是基于 JavaScript（前端）和 Node.js（后端）构建的，具有多个集成库。我们正在考虑更新和现代化该网站。主要原因之一是我们可以拥有一个 cPanel 并更改公司地址等基本信息。团队成员和事情。    由   提交/u/jainsaan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rey22t/ai_site_generator_and_cpanel/</guid>
+      <pubDate>Thu, 26 Feb 2026 02:33:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>提案：人工智能星期五？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rexzx3/proposal_ai_fridays/</link>
+      <description><![CDATA[每天我们都会收到已经经过数十次讨论的相同讨论。这对于 Reddit 子版块来说很正常，但感觉已经失控了，特别是因为帖子的变化很小。它们通常不是特定于 webdev 的，或者本质上不是信息性的；只是对技术的普遍焦虑。我认为为这些讨论/展示和讲述预留一天将鼓励更深入的讨论和更多的努力来制作这些帖子。   由   提交 /u/-Knockabout   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rexzx3/proposal_ai_fridays/</guid>
+      <pubDate>Thu, 26 Feb 2026 02:30:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>切勿购买 .online 域名</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rex3jn/never_buy_a_online_domain/</link>
+      <description><![CDATA[      开发人员在 Namecheap 上为一个简单的 Web 应用程序获得了一个免费的 .online 域。 网站超级简单：只有一些屏幕截图和一个指向 App Store 的链接 一切都很好，直到几周后，流量降到零。他看到的不是他的网站，而是可怕的“此网站不安全”红屏。 Google 已将该域列入黑名单，尽管内容绝对没有任何问题 最糟糕的部分不是禁令本身，而是恢复过程。 Google 要求进行 DNS 验证以证明所有权，但 Radix（域名注册机构）已将该域名置于 “serverHold” 上，这意味着它根本无法解析。他无法证明他拥有该网站，因为注册表不允许该网站存在。这是一个循环 最后还是靠了运气。在黑客新闻上发布该故事后，该帖子引起了足够的关注，以至于一位“不知名的 Google 英雄”手动清除黑名单。只有在标记被删除后，注册管理机构才最终释放域名并让网站重新上线 教训  坚持使用 .com 域名 始终从一开始就设置 Google Search Console，以便在出现问题时有办法与 Google 对话 使用正常运行时间监控，这样您就不会发现禁令太晚    由   提交/u/dmitrevnik  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rex3jn/never_buy_a_online_domain/</guid>
+      <pubDate>Thu, 26 Feb 2026 01:50:57 GMT</pubDate>
+    </item>
     <item>
       <title>关于构建分层、高价、固定范围网站产品的建议</title>
       <link>https://www.reddit.com/r/webdev/comments/1rewwmw/advice_on_building_a_tiered_highticket_fixedscope/</link>
@@ -18,13 +53,6 @@
       <description><![CDATA[在容器查询、:has()、嵌套和滚动驱动动画之间，我不断地发现自己要 npm 安装某些东西，然后意识到 CSS 现在已经在本地完成了。上周我差点就拉进了一个响应式网格库，然后才想起容器查询的存在。 今年我的 JS 包确实因为一一删除实用程序包而变得更小。好奇是否其他人也有这样的轮班，或者我是否只是迟到了。   由   提交/u/ruibranco  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rewfab/has_anyone_else_quietly_replaced_half_their_js/</guid>
       <pubDate>Thu, 26 Feb 2026 01:21:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>被解雇的人工智能工程师表示，对于大多数白领来说，在不久的将来一切都结束了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rewb5x/layed_off_ai_engineer_says_its_over_for_most/</link>
-      <description><![CDATA[https://vt.tiktok.com/ZSmbpNhAu/ 他说他召开过一些会议，讨论了先进的人工智能，但这些内容并未向公众发布，最终将取代大多数白领工人。您对此有何看法？    由   提交 /u/Practical-Gift-1064   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rewb5x/layed_off_ai_engineer_says_its_over_for_most/</guid>
-      <pubDate>Thu, 26 Feb 2026 01:16:05 GMT</pubDate>
     </item>
     <item>
       <title>人工智能是一个工具，问题在于用户</title>
@@ -81,34 +109,6 @@
       <description><![CDATA[      当您只想向某人展示您正在处理的内容时，可以提供帮助 - 特别是现在人工智能可以左右吐出项目 - 无需堵塞您的 Vercel 仪表板或连接 GitHub 存储库。   由   提交/u/GlitteringPenalty210   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1repnnh/i_built_a_cli_that_turns_any_local_project_into_a/</guid>
       <pubDate>Wed, 25 Feb 2026 20:58:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了 ByteCalculators：为开发人员提供的不断增长的无广告工具集合。今天在PH直播！ （链接在评论里）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1repduh/i_built_bytecalculators_a_growing_collection_of/</link>
-      <description><![CDATA[   /u/abarth23  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1repduh/i_built_bytecalculators_a_growing_collection_of/</guid>
-      <pubDate>Wed, 25 Feb 2026 20:48:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>您是否在应用程序中遇到 CSP（内容安全策略）的困扰？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1reo4rk/do_you_struggle_with_csp_content_security_policy/</link>
-      <description><![CDATA[我很好奇有多少初级开发人员（甚至是独立的全栈开发人员）在正确设置和维护 CSP 方面遇到困难。 您曾经在生产应用程序中实施过 CSP 吗？如果是，您花了多长时间才把它做好？ 最难的部分是什么？ （随机数？内联脚本？第三方脚本？调试被阻止的资源？） 您是否积极维护您的 CSP，或者您是否设置过一次然后就忘记了？您是否曾经因为 CSP 而破坏过您的应用程序？   由   提交/u/drifterpreneurs  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1reo4rk/do_you_struggle_with_csp_content_security_policy/</guid>
-      <pubDate>Wed, 25 Feb 2026 20:02:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的软件开发机构正在为盈利而苦苦挣扎，你们如何管理开发人员成本？ “我不会推销”</title>
-      <link>https://www.reddit.com/r/webdev/comments/1remzhf/struggling_with_profitability_at_my_software_dev/</link>
-      <description><![CDATA[我经营一家小型软件开发机构，在利润方面遇到了困难。我最大的成本是开发人员的工资，而且我似乎无法在客户端为项目定价足够高以进行数学计算。优秀的开发人员价格昂贵，美国高级工程师的年薪为 10 万至 18 万美元以上。与此同时，客户对他们为项目支付的费用有上限，而且我不断遇到交付成本吞噬大部分收入的情况。我尝试过的一些事情包括提高利率、对项目更加挑剔。但我感觉我还是没有破解它。我的一位从事类似领域的朋友建议离岸招聘。你们处理得怎么样？   由   提交 /u/Late-Mushroom6044   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1remzhf/struggling_with_profitability_at_my_software_dev/</guid>
-      <pubDate>Wed, 25 Feb 2026 19:21:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>在哪里可以便宜地聘请网页设计师和数字艺术家</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rem4p9/where_do_i_hire_web_designers_and_digital_artists/</link>
-      <description><![CDATA[正如标题所说...我在哪里可以找到适合我的“复古”风格的网页设计师和数字艺术家。需要...不过也很便宜，喜欢可靠和好的idk，只要给我地方 编辑：我的dms中有一群骗子😂😂愿意支付正常价格，我现在只想要可靠和快速   由   提交 /u/AcrobaticTadpole324   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rem4p9/where_do_i_hire_web_designers_and_digital_artists/</guid>
-      <pubDate>Wed, 25 Feb 2026 18:51:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
