@@ -4,34 +4,55 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Thu, 26 Feb 2026 15:49:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 18:44:51 GMT</lastBuildDate>
+    <item>
+      <title>云代理（Twin）与本地代理（OpenClaw）——共识是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rfijp1/cloud_agents_twin_vs_local_agents_openclaw_whats/</link>
+      <description><![CDATA[最近，我看到了很多关于 OpenClaw 等本地设置的炒作，但一想到自治脚本可以完全访问我的本地文件，我就感到紧张。 我一直坚持使用 Twin.so，因为它是在云中的沙盒中，但我很好奇这里是否有人同时使用这两者？您是否认为云的便利性值得权衡，或者本地是保护隐私的唯一途径？   由   提交/u/buildingthevoid  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rfijp1/cloud_agents_twin_vs_local_agents_openclaw_whats/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:43:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>趣味项目</title>
+      <link>https://www.reddit.com/r/automation/comments/1rfhj64/fun_project/</link>
+      <description><![CDATA[嘿，我不是想卖任何东西，我构建了一个用于制造的 Web 应用程序，用于跟踪工厂机器的生产、报废和停机时间，然后根据该数据计算 OEE（总体设备效率）。我希望得到您的反馈，特别是如果你们有制造背景的话。 我想听到您诚实的反馈，因为如果有问题我现在想解决，它被称为 m3mra   由   提交/u/Traditional-Toe-287   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rfhj64/fun_project/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:06:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>最终停止为技术研究构建 100 步“脆弱”工作流程</title>
+      <link>https://www.reddit.com/r/automation/comments/1rfg9ou/finally_stopped_building_100step_fragile/</link>
+      <description><![CDATA[我曾经痴迷于构建这些大规模、复杂的自动化程序以从 YouTube 中提取数据。我有 500 个步骤的工作流程，尝试抓取记录、清理 html，并将它们推送到一张纸上。但每次 youtube 更新他们的 UI 或者我的代理在错误的时间轮换，整个事情就会悄无声息地崩溃，我会丢失数小时的数据。 我终于意识到，要使自动化真正扩展，它必须简单且模块化。我将我的自定义抓取逻辑换成了成绩单 API，作为专用的摄取层。 为什么它实际上解决了我的自动化债务：  稳定的数据模式：我每次都得到可预测的 JSON 响应，而不是与随机 DOM 更改作斗争。它直接适合我的 n8n 并制作工作流程，无需 20 个额外的“清理”步骤节点。 零维护：因为它是专用管道，所以我不必花周末修复损坏的正则表达式或旋转浏览器标头。 “购买与建造”权衡为我每周节省了大约 10 个小时的开发工作。 高保真输入：文本已经去除了时间戳和垃圾标记，因此我的下游 AI 摘要实际上是准确的，而不是“幻觉”。因为他们对凌乱的文字记录感到困惑。  结果：系统变成一个无聊、可靠的系统。现在，过去需要我 2 小时手动照顾的技术研究需要 20 分钟的自动化处理。 很好奇是否还有其他人遇到过“复杂性墙”？您的自动化在哪里开始创造的工作量超过了节省的工作量？你们是转向专用 API 层还是仍在开发自己的抓取工具？   由   提交/u/straightedge23  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rfg9ou/finally_stopped_building_100step_fragile/</guid>
+      <pubDate>Thu, 26 Feb 2026 17:21:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>听说过“免费”的东西……但不是真正免费的吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rffxye/ever_heard_of_something_thats_free_but_not_really/</link>
+      <description><![CDATA[   这个有点相反。  第一个月 Pro 价格为 2 美元。是的，两块钱。通常是 10 美元。  你支付 2 美元，他们会立即给你 20 美元的积分。你可以在 Claude-level、GPT-5.x、Gemini、Grok 等大型模型上使用这些积分。  您还可以获得： - 在一些较轻的型号上运行无限制的代理 - 解锁聊天、图像、视频模型 - 语音代理、屏幕共享内容 - 没有快速使用限制，因此您可以实际测试东西 感觉不太像试用，而更像“在这里，在提交之前尝试一切。”  无论如何，如果你只是乱搞或比较模型，它是可靠的。如果你见过 Blackbox AI，那就是它。    由   提交/u/Director-on-reddit   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rffxye/ever_heard_of_something_thats_free_but_not_really/</guid>
+      <pubDate>Thu, 26 Feb 2026 17:10:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>linkedin 自动化工具不会让你受到限制 - 对我来说真正有用的东西</title>
+      <link>https://www.reddit.com/r/automation/comments/1rfef5l/linkedin_automation_tools_that_wont_get_you/</link>
+      <description><![CDATA[从事 B2B 外展工作大约一年了，在弄清楚什么有效之前，我的 linkedin 帐户受到了两次限制。分享我最终使用的东西，以防它对某人有帮助。 我学到的主要事情：大多数限制的发生是因为人们在第一天就提高了音量。开始时每天有 10-15 个连接请求，然后在 2 周内慢慢增加。不管你使用什么工具，如果你跳过这一部分，你就已经熟了。 我尝试过的： WarmySender - 这是我现在每天实际使用的。我最初得到它是为了电子邮件预热，但它也可以进行 linkedin 外展。 7 美元/席位，比大多数独立工具要便宜得多。每个帐户都有自己的代理，我认为这就是为什么我自从切换以来没有受到限制。还处理销售导航搜索。电子邮件 + linkedin 的组合在一个地方使我免于同时使用 3 种不同的工具。老实说，如果您已经在发送冷电子邮件，那么这是我发现的最佳价值。 Waalaxy - 有一个罕见的免费套餐（约 80 个邀请/月）。 chrome 扩展，因此您的计算机需要打开。如果您正在试水，这是一个很好的起点。付费计划约为 25 美元/月。 Dux-Soup - 免费计划非常基本，但很有效。永远存在。 UI 看起来像是 2015 年制作的，但它可以完成简单的工作。付费 15 美元/月。 Expandi - “溢价”。选项价格为 99 美元/月。基于云的技术很好，智能序列也很好。老实说，除非 linkedin 是您的主要渠道并且您有预算，否则这有点过分了。 Linked Helper - 另一种基于 chrome 的工具。适合刮擦和基本序列。大约 15 美元/月。可靠但没什么特别的。与较新的工具相比，感觉已经过时了。 如果您刚刚开始，可以免费使用 Warmysender 或 dux-soup。如果您已经在处理冷电子邮件并且想要添加 linkedin 而无需使用其他昂贵的工具，那么从价格角度来看，warmysender 最适合我。这是我一直坚持的一个。 还有其他人在运行 linkedin 外展服务吗？好奇什么对你们有用 rn   由   提交/u/Iammnhamza   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rfef5l/linkedin_automation_tools_that_wont_get_you/</guid>
+      <pubDate>Thu, 26 Feb 2026 16:15:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>这么多发票悬而未决的真正原因是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rfe0p6/whats_the_real_reason_so_many_invoices_remain/</link>
+      <description><![CDATA[有一次，我以为没有人支付发票，所以他们迟到了。事实证明，99% 的待处理发票只是意味着发票在流程中的某个地方被卡住了。 以下是导致发票“卡住”的问题类型：缺少 PO 编号、不正确的详细信息、缺少门户要求、未启动审批。对我来说，发票是送到我身边的；对于客户来说，发票尚未打开以供付款。 有了这种洞察力，我停止发送提醒电子邮件，并开始尽快识别问题并开发一致的流程。我开始使用 Monk 收入自动化平台来交付发票、自动跟进并在问题到期之前发现问题。除了跟踪发票状态之外，Monk 还可以识别缺少的项目并允许移动项目，以便支付发票，而不是简单地放在系统中。 这是一个相对较小的更改；然而，它对我的​​公司产生了重大影响。我想知道其他人如何在自己的流程中识别和解决发票卡住的问题。   由   提交/u/farhankhan04  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rfe0p6/whats_the_real_reason_so_many_invoices_remain/</guid>
+      <pubDate>Thu, 26 Feb 2026 16:01:15 GMT</pubDate>
+    </item>
     <item>
       <title>自动生成我每天的 Gemini 图像 — 从 2 小时手动变为 30 分钟免提</title>
       <link>https://www.reddit.com/r/automation/comments/1rfc3ce/automated_my_daily_gemini_image_generation_went/</link>
       <description><![CDATA[我每天在 Google Gemini 上为内容页生成 20-30 张图像。手动过程简直要了我的命——粘贴提示、等待、下载、重命名、重复。  所以我构建了一个 Chrome 扩展来完成这一切。从文本文件加载提示，点击开始，完成后返回。它发送每个提示，等待生成，下载高清图像，并自动命名文件。  最棘手的部分是可靠性。 Gemini 有时会返回微小的占位符文件而不是真实图像。必须构建一个验证系统，用于检查文件大小，并在检测到错误下载时自动重试并重新加载页面。  现在我的工作流程是：在文本文件中编写提示，导入，启动，去做其他事情。  还有其他人自动化人工智能图像生成工作流程吗？好奇其他人正在使用什么工具或方法。   由   提交 /u/shahzaib_sultan   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rfc3ce/automated_my_daily_gemini_image_generation_went/</guid>
       <pubDate>Thu, 26 Feb 2026 14:48:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>设置本地面部识别来对我的照片进行排序，而无需将自己暴露在天网中</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfbz84/set_up_local_facial_recognition_to_sort_my_photos/</link>
-      <description><![CDATA[终于开始整理多年的照片了。在 contextui 中设置一个工作流程，在本地运行面部识别，按人物对照片进行分组，并将它们分类到文件夹中。 没有云上传，全部在我的机器上。知道我的脸没有在某处训练一些随机模型，这真是太好了。 花了一些时间才将其拨入，但现在只要我转储新照片，它就会运行。   由   提交 /u/Sharp-Mouse9049   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfbz84/set_up_local_facial_recognition_to_sort_my_photos/</guid>
-      <pubDate>Thu, 26 Feb 2026 14:44:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果自动化需要仪表板来信任它，那就出了问题</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfbz4i/if_automation_needs_a_dashboard_to_trust_it/</link>
-      <description><![CDATA[同意吗？   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfbz4i/if_automation_needs_a_dashboard_to_trust_it/</guid>
-      <pubDate>Thu, 26 Feb 2026 14:43:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建无代码移动应用平台。 14 个月过去了。这是一个快速更新。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfbp15/building_a_no_code_mobile_app_platform_14_months/</link>
-      <description><![CDATA[ 由   提交/u/mochrara   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfbp15/building_a_no_code_mobile_app_platform_14_months/</guid>
-      <pubDate>Thu, 26 Feb 2026 14:32:39 GMT</pubDate>
     </item>
     <item>
       <title>文本机器人缺乏真正的支持。</title>
@@ -53,13 +74,6 @@
       <description><![CDATA[我最近构建了一个工作流程，可以自动执行从产生创意到上传完成视频的整个 YouTube 内容流程。对于创作者来说，辛苦是真实的：花费大量时间研究趋势、编写脚本、录制、编辑和最终上传。大多数工具仅处理工作流程的一部分，将繁琐的步骤留给您处理。我想看看是否有可能实现整个管道的自动化。我的系统的功能如下： 自动查找热门主题并抓取内容创意 根据这些创意生成脚本和视频资源 将所有内容整合到完成的视频中 将视频直接上传到 YouTube，无需人工干预 结果是完全自动化的内容管道。我可以专注于提炼想法和提高渠道的整体质量，而不是花费大量时间在重复性任务上。令人兴奋的是 YouTube 自动化仍然存在巨大的机会。虽然大多数创作者都坚持手动完成所有工作，但这样的工作流程表明您可以大规模制作内容并进行实验，而不会精疲力竭。这是一个有趣的实验，旨在了解自动化可以走多远，它让您重新思考当整个流程像系统而不是任务列表一样运行时可能发生什么。   由   提交 /u/Safe_Flounder_4690   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rf7xrm/from_idea_to_upload_fully_automated_youtube_system/</guid>
       <pubDate>Thu, 26 Feb 2026 11:40:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>随用随付？或者地狱不？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rf7wt3/pay_as_you_go_or_hell_no/</link>
-      <description><![CDATA[我们开门见山吧。我为酒店、房地产经纪人、俱乐部、FNB 和学院/学校创建自动化。我的客户包括 Radisson、Anand Rathi、Pangeo、Bastian、Gilly&#39;s 等。一切都列在我的网站上。我的客户大多是大客户，因为我不得不对大多数无法支付我所需费用的公司说不。我在想我应该将我的自动化产品化并使其成为“现收现付”的方式。带有钱包和积分的系统。即使是最小的公司也可以与我签约，并且可以对其进行测试，而无需签订大量的长期合同以及所需的高摩擦和承诺。这只是我的想法，这是我获得更多市场份额而不仅仅是高端客户的一种方式。缺点是我必须管理更多的客户，但这些钱可能是值得的。我通常按​​月收取固定费用或基于佣金的模型，但这种模型可能非常容易建立并获得大众。只是大声思考。是否存在我没​​有看到的重大差距？    由   提交/u/Chillipepper19  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rf7wt3/pay_as_you_go_or_hell_no/</guid>
-      <pubDate>Thu, 26 Feb 2026 11:38:47 GMT</pubDate>
     </item>
     <item>
       <title>去年我尝试过的每个人工智能聊天机器人都一样无用</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[嗨，我是康纳！  我构建自动化来释放我的时间， 这样我就可以构建更多自动化来腾出我的时间，这样我就可以... 我有 47 个自动化和零空闲时间。 😫   由   提交 /u/ConZ372   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rf17r3/i_build_automations/</guid>
       <pubDate>Thu, 26 Feb 2026 05:03:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>大多数人工智能代理浏览器控制只是变相的脆弱自动化</title>
-      <link>https://www.reddit.com/r/automation/comments/1rf100z/most_ai_agent_browser_control_is_just_brittle/</link>
-      <description><![CDATA[这可能会惹恼一些人，但当今市场上销售的许多人工智能代理只是传统的自动化，其上粘有语言模型。 如果您的代理在按钮移动、模式出现或流程发生轻微变化时崩溃，那么它并不智能，而且很脆弱。我见过的大多数系统实际上并不理解网络，他们只是假设它保持静态并希望没有任何变化。这就是目前如何构建人工智能驱动的网络自动化的核心问题。大家都注重提示和推理，却忽略了执行、状态和恢复。点击并不是最困难的部分，知道何时停止、重试或升级才是困难的。 真正好奇这里有多少人在真实的生产环境中运行代理，而不是看起来不错但悄然崩溃的演示。   由   提交 /u/Old_Cheesecake_2229   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rf100z/most_ai_agent_browser_control_is_just_brittle/</guid>
-      <pubDate>Thu, 26 Feb 2026 04:52:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>选择哪个免费的 LLM 来微调 RTX 5090 上的文档提取</title>
-      <link>https://www.reddit.com/r/automation/comments/1retlzl/which_free_llm_to_choose_for_fine_tuning_document/</link>
-      <description><![CDATA[我应该选择哪个开源模型来针对以下用例进行微调/训练？它将在 RTX 5090 上运行。 我将提供来自医疗文档的数千个 OCR 文本示例（例如转诊、专家报告、血液检查...），以及正确的文档类型分类（转诊、血液检查、专家报告等）+提取的患者信息（例如姓名+出生日期+电话+电子邮件等）。 目标是能够使用这个经过微调的 LLM 来通过 OCRd文本并要求它返回 JSON 响应，其中包含已提取的文档分类 + 患者人口统计数据。 或者，是否有另一种更好的方法来处理从这些类型的文档中提取分类 + 信息？不知道是否继续做OCR，然后转到LLM，或者是否转而完全依赖一种计算机视觉模型。这些文档是相当可预测的，但有时有一个新文档进来，我不能让系统无法识别分类或患者信息，只是因为这些字段不在通常的位置。   由   提交/u/darthvader167  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1retlzl/which_free_llm_to_choose_for_fine_tuning_document/</guid>
-      <pubDate>Wed, 25 Feb 2026 23:26:08 GMT</pubDate>
     </item>
     </channel>
 </rss>

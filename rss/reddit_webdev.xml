@@ -4,13 +4,41 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 26 Feb 2026 15:51:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 18:47:47 GMT</lastBuildDate>
     <item>
-      <title>2026 年的电子邮件 API：我实际上会为不同的用例选择什么</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfcd3d/email_apis_in_2026_what_id_actually_pick_for/</link>
-      <description><![CDATA[现在 SendGrid 的免费套餐已经终止（最低 19.95 美元/月），我已经看到了很多“我应该使用什么来代替”的问题。帖子。我想我会根据具体情况分享我实际选择的内容。 如果您只是需要免费的业余项目：重新发送（3K/月免费）或 Mailtrap（1K/月免费）。两者都有稳定的免费套餐，您可以在大约 10 分钟内发送。 如果您处于 React/Next.js 生态系统中： 重新发送就是举措。 JSX 电子邮件模板非常好，API 也很干净。需要知道的一件事是：超额定价为 0.90 美元/1000 封电子邮件，因此，如果流量激增，请密切关注。 如果您最关心的是送达率： 邮戳。他们只处理事务性电子邮件，而且他们是这方面最擅长的。不过，没有营销电子邮件，因此如果您需要两者，则需要运行两个提供商。 如果您要发送 10 万以上且成本很重要： SES。 10 万封电子邮件仅需 10 美元，没有其他产品可以与之相比。不过，您正在自己构建跳出处理和分析。它是一种传输，而不是一个平台。 如果您希望在一个工具中使用电子邮件 + CRM + SMS：Brevo。每天 300 封电子邮件免费。不太注重开发，但涵盖了很多内容。 如果您使用 Postgres/Supabase：我构建了 Dreamlit，所以我有偏见。它采用与典型的基于 API 的电子邮件提供商完全不同的方法：您的数据库触发电子邮件而不是 API 调用。您用简单的英语描述您想要的内容，它就会生成工作流程。作为一名传统的软件工程师，不编写集成代码几乎是很奇怪的。它只是 Postgres 的 atm，并且没有独立的 API，因为不需要它。我知道有些人确实喜欢 API 方法，所以我们并不适合所有人。但如果您希望卸载所有电子邮件逻辑，我们可能是一个有趣的选择。 Mailgun 也是可靠且经过实战检验的，如果您只想要一个好的 API 而没有强烈的意见。 10K 封电子邮件每月 15 美元。 老实说，如果您的电子邮件数量在 10K-50K 之间并且已经集成，SendGrid 仍然没问题。 19.95 美元平价。不要只是为了转换而转换。 还写了完整的定价表和优缺点细分。如果您需要的话，链接位于我的个人资料中。 您当前的电子邮件设置是什么？很好奇是否有人发现了比我列出的更好的东西。   由   提交 /u/creditcardandy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfcd3d/email_apis_in_2026_what_id_actually_pick_for/</guid>
-      <pubDate>Thu, 26 Feb 2026 14:59:17 GMT</pubDate>
+      <title>如何在不发送 20 页报告的情况下与客户共享 PageSpeed/Lighthouse 结果？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfiiad/how_do_you_share_pagespeedlighthouse_results_with/</link>
+      <description><![CDATA[每当性能出现时，选项都会让人感觉很糟糕：  原始 Lighthouse 屏幕截图（看起来很业余） GTmetrix 风格的报告（技术性太强/太长） 自定义幻灯片（耗时）  对于从事客户工作或内部 Web 性能的人员：  什么格式实际上会起作用？ （屏幕截图、1 页 PDF、公共链接、仪表板？） 客户关心 Core Web Vitals，还是只关心“网站感觉很快”？ 如果您确实发送报告，您至少要包含哪些内容？  我正在尝试了解什么在现实生活中有效（而不是理论）。   由   提交/u/robert_micky   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfiiad/how_do_you_share_pagespeedlighthouse_results_with/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:41:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>我将免费审查您的网站安全性（希望获得经验）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rficef/ill_review_your_website_security_for_free_looking/</link>
+      <description><![CDATA[大家好，我是一名 bug 赏金猎人，我花了很多时间测试 Web 应用程序的漏洞。我目前希望获得更多的实际经验，因此我愿意提供审查网站的安全问题的服务 - 完全免费。如果您已经构建了一些东西（初创公司、业余项目、SaaS、投资组合等）并且您对其安全性没有 100% 的信心，我很乐意查看。我通常会检查诸如访问控制损坏、IDOR、XSS、SQL 注入、身份验证问题、配置错误、API 弱点和其他常见 Web 漏洞等问题。我不会做任何破坏性的事情——不会修改数据，不会中断服务。只是安全测试和负责任的披露。如果我发现了什么，我会向您发送一份清晰的报告，解释： 问题是什么 如何重现 潜在影响 关于如何修复它的建议 如果您有兴趣，请私信我   由   提交/u/i_just_wanna_know_00   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rficef/ill_review_your_website_security_for_free_looking/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:35:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>iFrame Resizer 替代方案，永久免费。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfhra2/iframe_resizer_alternative_free_forever/</link>
+      <description><![CDATA[我从头开始编写了自己的 iFrame resizer，现在可以在 Github 和 NPM 上供任何人使用。永远免费和开源。我称之为 iFrame Adjuster。 https://github.com/interactiveRob/iframe-adjuster 最初的 iFrame Resizer 最近开始需要付费许可证才能在商业项目中使用，这很奇怪，因为现在完成 iFrame 的动态调整大小比我们要处理很多浏览器时要容易得多...你知道，回来当 iFrame Resizer 免费时🤔 我知道其他人已经抢先了我，但你永远不知道谁会留下来维护他们的存储库。有选择总是好的。   由   提交/u/TomCollins1284  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfhra2/iframe_resizer_alternative_free_forever/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:14:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>不安全...但看起来确实如此。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfhk9j/not_securebut_it_looks_like_it_is/</link>
+      <description><![CDATA[当我访问网站的仪表板时，Chromium 会抛出“不安全”消息旗帜。当我点击该图标时，它显示证书有效，有一个cookie（安全），并且没有存储站点数据。开发工具“网络”选项卡显示通过 https 交付的所有内容。我什至检查了内联 svg 图像并确保 SVG 命名空间是 https。  但我仍然持有旗帜。我如何追踪这个问题？   由   提交/u/mapsedge  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfhk9j/not_securebut_it_looks_like_it_is/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:07:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>OVHcloud 价格上涨</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfg3sx/ovhcloud_price_increase/</link>
+      <description><![CDATA[      仅供参考，我今天以 OVHCloud 美国用户的身份收到了这封电子邮件：  我们正在联系您，让您了解关于有限的 OVHcloud 美国裸机服务器、VPS 和其他 IP 地址的定价更新，将于 2026 年 4 月 1 日生效。自 2026 年 4 月 1 日起，定价更新将适用于所有没有承诺的有效服务。 对于有承诺的有效服务，定价更新将在这些服务的续订日期适用。如果您的续订日期在 2026 年 4 月 1 日之前，则当前定价仍然适用。仅供参考，我今天作为 OVHCloud 美国用户收到这封电子邮件：我们正在联系您，让您了解有关有限的 OVHcloud 美国裸机服务器、VPS 和其他 IP 地址的定价更新，该更新将于 2026 年 4 月 1 日生效。自 2026 年 4 月 1 日起，定价更新将适用于所有无承诺的活跃服务。对于有承诺的活跃服务，定价更新将在这些服务的续订日期适用。如果您的续订日期在 2026 年 4 月 1 日之前，则当前定价仍适用。    由   提交/u/Produkt   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfg3sx/ovhcloud_price_increase/</guid>
+      <pubDate>Thu, 26 Feb 2026 17:16:00 GMT</pubDate>
     </item>
     <item>
       <title>我的第一款游戏 - Lumenia</title>
@@ -81,34 +109,6 @@
       <description><![CDATA[大家好， 我在使用 OIDC 后端进行身份验证的网站时遇到问题。这已经工作了很多年，但最近在 Safari 和 iOS (WebKit) 浏览器上出现了问题。问题似乎是 Safari 没有将某些身份验证 cookie 发送回服务器，我不知道为什么。  该网站在 Firefox 和 Chrome 中继续完美运行。  我尝试将 Samesite 设置为“宽松”和“无”，但都不起作用。  我捕获了以下请求和响应标头的示例： 超文本传输协议 HTTP/1.1 302 Found\r\n X-Powered-By: Express\r\n Pragma: no-cache\r\n Cache-Control: no-cache, no-store\r\n Set-Cookie: _交互=SF9YhCvD5hW5vneZq4rsA；路径=/；过期=2026 年 2 月 25 日星期三 13:54:30 GMT；同一站点=宽松；安全的; httponly\r\n 设置 Cookie：_interaction.sig=pHW6az5dJd-h_kh8ssJpT98PdzY；路径=/；过期=2026 年 2 月 25 日星期三 13:54:30 GMT；同一站点=宽松；安全的; httponly\r\n 设置 Cookie：_interaction_resume=SF9YhCvD5hW5vneZq4rsA；路径=/oidc/auth/SF9YhCvD5hW5vneZq4rsA；过期=2026 年 2 月 25 日星期三 13:54:30 GMT；同一站点=宽松；安全的; httponly\r\n 设置 Cookie: _interaction_resume.sig=nX9P1x9gE1_jtakyiwB8dFgJQS0;路径=/oidc/auth/SF9YhCvD5hW5vneZq4rsA；过期=2026 年 2 月 25 日星期三 13:54:30 GMT；同一站点=宽松；安全的; httponly\r\n 位置：/oidc/interaction/SF9YhCvD5hW5vneZq4rsA\r\n 内容类型：text/html； charset=utf-8\r\n 内容长度：55\r\n 日期：2026 年 2 月 25 日星期三 13:44:30 GMT\r\n 连接：关闭\r\n \r\n [帧中的请求：26] [自请求以来的时间：14.099000 毫秒] [请求 URI： /oidc/auth?client_id=portal&amp;scope=openid&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fportal.mydomain.com%2Fauth%2Fcallback&amp;state=rlUHH3DAsRiQupZ_RmcaNKl5P6pjEfVgY1jn6QvSJQk] [完整请求 URI： http://portal.mydomain.com/oidc/auth?client_id=portal&amp;scope=openid&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fportal.mydomain.com%2Fauth%2Fcallback&amp;state=rlUHH3DAsRiQupZ_RmcaNKl5P6pjEfVgY1jn6QvSJQk]超文本传输协议 GET /oidc/interaction/SF9YhCvD5hW5vneZq4rsA HTTP/1.1\r\n 主机：portal.mydomain.com\r\n 连接：关闭\r\n X-Real-IP：172.18.0.1\r\n X-Forwarded-For：172.18.0.1\r\n X-Forwarded-Proto：https\r\n X-Forwarded-Ssl：on\r\n X-Forwarded-Port：443\r\n 接受：text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\n sec-fetch-site：无\r\n sec-fetch-mode：navigate\r\n 用户代理：Mozilla/5.0（Macintosh；Intel Mac OS X） 10_15_7) AppleWebKit/605.1.15（KHTML，如 Gecko）版本/26.3 Safari/605.1.15\r\n 接受语言：en-GB,en;q=0.9\r\n sec-fetch-dest：文档\r\n 优先级：u=0，i\r\n 接受编码：gzip、deflate、br、zstd\r\n cookie： connect.sid=s%3A1OggszBG9DTSiR1lQwWEJO8avWSLuUA_.SfQEkKR9fDQcbnjqxhu5pYLWXOSahC6pGW2bcCieOEM\r\n  任何人都可以提出问题所在吗？   由   提交/u/cjs94  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rf824t/authentication_problem_safari_not_sending_cookies/</guid>
       <pubDate>Thu, 26 Feb 2026 11:47:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>域名托管更改搞乱了电子邮件 DNS 记录</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rf7vsy/domain_hosting_change_messed_up_email_dns_records/</link>
-      <description><![CDATA[开发者您好！ 我通过 Namecheap 购买了一个域名，在其中设置了指向 Google 的 DNS 记录，因为我使用 Google Workspace 发送电子邮件。 我必须将 DNS 服务器更改为 Hostinger，因为我的网站托管服务器就在上面。它更改了每条 DNS 记录并默认为自己的记录，即使是电子邮件也是如此，因此发送给我的每封电子邮件都被退回，但我能够自己发送电子邮件。 我刚刚意识到这一点，并删除了它的所有 MX 记录 DKIM DMARC SPF 并将它们切换回指向我的 Google 工作区的记录。 还有什么我还应该检查的其他步骤吗？就像 Google 管理员空间内的重新路由部分一样，还是我只需要将 DNS 记录改回 Google 的正确记录并等待传播？ 提前致谢，我对网络开发还很陌生！   由   提交 /u/YoungPlugg1   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rf7vsy/domain_hosting_change_messed_up_email_dns_records/</guid>
-      <pubDate>Thu, 26 Feb 2026 11:37:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>小书签完整指南</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rf7qn0/a_complete_guide_to_bookmarklets/</link>
-      <description><![CDATA[       由   提交/u/ValenceTheHuman  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rf7qn0/a_complete_guide_to_bookmarklets/</guid>
-      <pubDate>Thu, 26 Feb 2026 11:29:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个带有视觉元素选择器、LCS diff 引擎和零后端的 Chrome 扩展</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rf744j/i_built_a_chrome_extension_with_a_visual_element/</link>
-      <description><![CDATA[ 由   提交/u/Legitimate_Design937  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rf744j/i_built_a_chrome_extension_with_a_visual_element/</guid>
-      <pubDate>Thu, 26 Feb 2026 10:53:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>您在网络上见过的最好的 3D 模型 UI 是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rf6up1/whats_the_best_3d_model_ui_youve_seen_on_the_web/</link>
-      <description><![CDATA[我们正在构建一个在静态背景下预览 3D 模型的功能，要求是使 UI 尽可能简单直观，因为它适合老年用户。我遇到了一些困难，因为如果您以前从未使用过轴箭头、旋转环等经典方法，那么它们是不直观的。这让我想知道，是否有任何项目可以更好地解决这个问题？   由   提交 /u/macmorny   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rf6up1/whats_the_best_3d_model_ui_youve_seen_on_the_web/</guid>
-      <pubDate>Thu, 26 Feb 2026 10:38:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
