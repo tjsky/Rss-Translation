@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Thu, 26 Feb 2026 04:47:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 06:54:33 GMT</lastBuildDate>
+    <item>
+      <title>我构建自动化</title>
+      <link>https://www.reddit.com/r/automation/comments/1rf17r3/i_build_automations/</link>
+      <description><![CDATA[嗨，我是康纳！  我构建自动化来释放我的时间， 这样我就可以构建更多自动化来腾出我的时间，这样我就可以... 我有 47 个自动化和零空闲时间。 😫   由   提交 /u/ConZ372   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rf17r3/i_build_automations/</guid>
+      <pubDate>Thu, 26 Feb 2026 05:03:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>大多数人工智能代理浏览器控制只是变相的脆弱自动化</title>
+      <link>https://www.reddit.com/r/automation/comments/1rf100z/most_ai_agent_browser_control_is_just_brittle/</link>
+      <description><![CDATA[这可能会惹恼一些人，但当今市场上销售的许多人工智能代理只是传统的自动化，其上粘有语言模型。 如果您的代理在按钮移动、模式出现或流程发生轻微变化时崩溃，那么它并不智能，而且很脆弱。我见过的大多数系统实际上并不理解网络，他们只是假设它保持静态并希望没有任何变化。这就是目前如何构建人工智能驱动的网络自动化的核心问题。大家都注重提示和推理，却忽略了执行、状态和恢复。点击并不是最困难的部分，知道何时停止、重试或升级才是困难的。 真正好奇这里有多少人在真实的生产环境中运行代理，而不是看起来不错但悄然崩溃的演示。   由   提交 /u/Old_Cheesecake_2229   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rf100z/most_ai_agent_browser_control_is_just_brittle/</guid>
+      <pubDate>Thu, 26 Feb 2026 04:52:36 GMT</pubDate>
+    </item>
     <item>
       <title>Home Assistant 设备数据库是我使用的唯一智能家居购物清单</title>
       <link>https://www.reddit.com/r/automation/comments/1rewi1j/the_home_assistant_device_database_is_the_only/</link>
@@ -55,16 +69,9 @@
       <pubDate>Wed, 25 Feb 2026 18:35:09 GMT</pubDate>
     </item>
     <item>
-      <title>免费的 Skool scraper 提取课程、视频、PDF、民意调查等</title>
-      <link>https://www.reddit.com/r/automation/comments/1regx8k/free_skool_scraper_extracts_lessons_videos_pdfs/</link>
-      <description><![CDATA[ 大家好， 我刚刚在 Apify 上发布了一个免费的 Actor，它刮擦了 Skool 社区教室。认为它可能对教育工作者、社区所有者或任何想要存档课程内容的人有用。  它提取的内容：  4 种 URL 模式 - 只需粘贴任何 Skool URL：  其他功能：  在 Apify 的小型社区免费套餐中完全免费使用。  乐于回答问题或接受功能请求。目前正在努力添加评论提取和社区提要抓取作为未来的更新。    由   提交 /u/No-Bison1422   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1regx8k/free_skool_scraper_extracts_lessons_videos_pdfs/</guid>
-      <pubDate>Wed, 25 Feb 2026 15:51:57 GMT</pubDate>
-    </item>
-    <item>
       <title>自动处理我重复的客户支持问题，花了一个下午</title>
       <link>https://www.reddit.com/r/automation/comments/1reg79j/automated_my_repeat_customer_support_questions/</link>
-      <description><![CDATA[在这里潜伏了一段时间，我想分享一些实际上可以实时节省我时间的东西。我经营一家小型在线企业，每天花费 2-3 小时手动回答相同的问题。运输信息、退货政策、设置说明、兼容性内容。尝试构建带有关键字触发器的 Zapier 工作流程来自动响应，但它太严格了。任何与我的确切触发点略有不同的措辞都失败了。 最终起作用的是专门根据我的文档训练的人工智能聊天机器人。您向其提供文档（PDF、文本文件、Markdown 或直接抓取您的网站），它仅根据该内容回答问题。不是通用人工智能，它只会从你提供的东西中提取东西。使用一个脚本标签在我的网站上作为聊天小部件运行。 感觉真正自动化的部分是 Discord 集成。我有一个社区服务器，机器人位于我选择的频道中。当主持人回答机器人错过的问题时，它会评估交流并自动捕获有用的答案以供下次使用。随意的回复和离题的内容都会被过滤掉。这样系统就可以在我不碰任何东西的情况下自行改进，这就是自动化的全部意义所在。 设置总共花了一个下午的时间。小部件是最快的部分，建立一个好的知识库需要更长的时间，因为我必须组织要包含的内容和过时的内容。 真正的限制：响应需要 10-20 秒，当内容发生变化时您手动重建知识库（机器人在此期间离线），并且没有人工交接，但如此复杂的事情仍然落在我身上。但对于困扰我一天的重复性常见问题解答内容，它已得到处理。 如果有人想要特定的工具名称，只需询问即可，不希望这感觉像广告。   由   提交 /u/cryptoviksant   [链接] [评论]]]></description>
+      <description><![CDATA[在这里潜伏了一段时间，我想分享一些实际上可以实时节省我时间的东西。我经营一家小型在线企业，每天花费 2-3 小时手动回答相同的问题。运输信息、退货政策、设置说明、兼容性内容。尝试使用关键字触发器构建 Zapier 工作流程来自动响应，但它太严格了。任何与我的确切触发点略有不同的措辞都失败了。 最终起作用的是专门根据我的文档训练的人工智能聊天机器人。您向其提供文档（PDF、文本文件、Markdown 或直接抓取您的网站），它仅根据该内容回答问题。不是通用人工智能，它只会从你提供的东西中提取东西。使用一个脚本标签在我的网站上作为聊天小部件运行。 感觉真正自动化的部分是 Discord 集成。我有一个社区服务器，机器人位于我选择的频道中。当主持人回答机器人错过的问题时，它会评估交流并自动捕获有用的答案以供下次使用。随意的回复和离题的内容都会被过滤掉。这样系统就可以在我不碰任何东西的情况下自行改进，这就是自动化的全部意义所在。 设置总共花了一个下午的时间。小部件是最快的部分，建立一个好的知识库需要更长的时间，因为我必须组织要包含的内容和过时的内容。 真正的限制：响应需要 10-20 秒，当内容发生变化时您手动重建知识库（机器人在此期间离线），并且没有人工交接，但如此复杂的事情仍然落在我身上。但对于困扰我一天的重复性常见问题解答内容，它已得到处理。 如果有人想要特定的工具名称，只需询问即可，不希望这感觉像广告。   由   提交 /u/cryptoviksant   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1reg79j/automated_my_repeat_customer_support_questions/</guid>
       <pubDate>Wed, 25 Feb 2026 15:25:29 GMT</pubDate>
     </item>
@@ -74,13 +81,6 @@
       <description><![CDATA[如果您不了解保险，请快速了解一下，ams 基本上是机构运行的 crm。我们的公司是ams360，多年来，通过电话传入的每一条客户信息都是由人工根据手写笔记或语音邮件手动输入的。姓名、地址、车辆、司机、财产详细信息，都以不同程度的准确度进行转录。 我实际上测量过一次错误率，结果很糟糕。错误的邮政编码、拼写错误的名称、缺少驱动程序信息，以及当您引用或发布保单时会导致下游真正问题的东西。从时间上看，每天早上可能需要 90 分钟输入前一天的数据。 我们首先尝试在电话系统和 ams360 之间进行 zapier，但数据结构不够结构化，只是需要人工解释的原始注释。建立了一个谷歌表格供员工在通话期间填写，但合规性参差不齐，这增加了摩擦。自动化链的好坏取决于前端的数据捕获，这是我们不断吸取的教训。最终，sonant 处理输入并将结构化数据直接推送到 ams360 使下游 zapier 触发器真正可靠，因为输入是干净且完整的。   由   提交 /u/Acrobatic-Bake3344   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1ref1jh/finally_managed_to_automate_ams_data_entry_at_our/</guid>
       <pubDate>Wed, 25 Feb 2026 14:42:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>自动化应该自动闭环</title>
-      <link>https://www.reddit.com/r/automation/comments/1redjr7/automation_should_close_loops_automatically/</link>
-      <description><![CDATA[无需人工跟进。   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1redjr7/automation_should_close_loops_automatically/</guid>
-      <pubDate>Wed, 25 Feb 2026 13:42:36 GMT</pubDate>
     </item>
     <item>
       <title>我建立了一个工作流程来处理潜在客户捕获和跟进，它彻底改变了我们管理潜在客户的方式。</title>
