@@ -4,7 +4,35 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Wed, 25 Feb 2026 21:31:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 01:43:34 GMT</lastBuildDate>
+    <item>
+      <title>Home Assistant 设备数据库是我使用的唯一智能家居购物清单</title>
+      <link>https://www.reddit.com/r/automation/comments/1rewi1j/the_home_assistant_device_database_is_the_only/</link>
+      <description><![CDATA[       由   提交 /u/Far_Inflation_8799   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rewi1j/the_home_assistant_device_database_is_the_only/</guid>
+      <pubDate>Thu, 26 Feb 2026 01:24:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>最好的人工智能推广工具？</title>
+      <link>https://www.reddit.com/r/automation/comments/1reugwd/best_ai_outreach_tools/</link>
+      <description><![CDATA[ 由   提交/u/rndm86  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1reugwd/best_ai_outreach_tools/</guid>
+      <pubDate>Thu, 26 Feb 2026 00:00:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>选择哪个免费的 LLM 来微调 RTX 5090 上的文档提取</title>
+      <link>https://www.reddit.com/r/automation/comments/1retlzl/which_free_llm_to_choose_for_fine_tuning_document/</link>
+      <description><![CDATA[我应该选择哪个开源模型来针对以下用例进行微调/训练？它将在 RTX 5090 上运行。 我将提供来自医疗文档的数千个 OCR 文本示例（例如转诊、专家报告、血液检查...），以及正确的文档类型分类（转诊、血液检查、专家报告等）+提取的患者信息（例如姓名+出生日期+电话+电子邮件等）。 目标是能够使用这个经过微调的 LLM 来通过 OCRd文本并要求它返回 JSON 响应，其中包含已提取的文档分类 + 患者人口统计数据。 或者，是否有另一种更好的方法来处理从这些类型的文档中提取分类 + 信息？不知道是否继续做OCR，然后转到LLM，或者是否转而完全依赖一种计算机视觉模型。这些文档是相当可预测的，但有时有一个新文档进来，我不能让系统无法识别分类或患者信息，只是因为这些字段不在通常的位置。   由   提交/u/darthvader167  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1retlzl/which_free_llm_to_choose_for_fine_tuning_document/</guid>
+      <pubDate>Wed, 25 Feb 2026 23:26:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>请帮忙</title>
+      <link>https://www.reddit.com/r/automation/comments/1rer368/help_pls/</link>
+      <description><![CDATA[大家好。 我正在考虑建立自己的网站，为企业提供人工智能解决方案我什至不知道如何创建网站，所以我从零开始 我只是一个拥有工商管理硕士学位的会计师，而且我在会计师事务所只有一年的工作经验。 但我在想对于未来，我担心如果创建一个网站并依靠自己在AI代理和自动化方面创业来获得另一个收入来源是一个好主意，那么它是否有利可图，是否值得转移？我能否利用我在业务方面的知识进入该领域   由   提交/u/Alternative_End591   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rer368/help_pls/</guid>
+      <pubDate>Wed, 25 Feb 2026 21:50:50 GMT</pubDate>
+    </item>
     <item>
       <title>对于工业环境中跨 SaaS 应用程序和操作系统的数据孤岛有什么解决方案吗？</title>
       <link>https://www.reddit.com/r/automation/comments/1reohkb/any_solutions_for_data_silos_across_saas_apps_and/</link>
@@ -36,7 +64,7 @@
     <item>
       <title>自动处理我重复的客户支持问题，花了一个下午</title>
       <link>https://www.reddit.com/r/automation/comments/1reg79j/automated_my_repeat_customer_support_questions/</link>
-      <description><![CDATA[在这里潜伏了一段时间，我想分享一些实际上可以实时节省我时间的东西。我经营一家小型在线企业，每天花费 2-3 小时手动回答相同的问题。运输信息、退货政策、设置说明、兼容性内容。尝试使用关键字触发器构建 Zapier 工作流程来自动响应，但它太严格了。任何与我的确切触发点略有不同的措辞都失败了。 最终起作用的是专门根据我的文档训练的人工智能聊天机器人。您向其提供文档（PDF、文本文件、Markdown 或直接抓取您的网站），它仅根据该内容回答问题。不是通用人工智能，它只会从你提供的东西中提取东西。使用一个脚本标签在我的网站上作为聊天小部件运行。 感觉真正自动化的部分是 Discord 集成。我有一个社区服务器，机器人位于我选择的频道中。当主持人回答机器人错过的问题时，它会评估交流并自动捕获有用的答案以供下次使用。随意的回复和离题的内容都会被过滤掉。这样系统就可以在我不碰任何东西的情况下自行改进，这就是自动化的全部意义所在。 设置总共花了一个下午的时间。小部件是最快的部分，建立一个好的知识库需要更长的时间，因为我必须组织要包含的内容和过时的内容。 真正的限制：响应需要 10-20 秒，当内容发生变化时您手动重建知识库（机器人在此期间离线），并且没有人工交接，但如此复杂的事情仍然落在我身上。但对于困扰我一天的重复性常见问题解答内容，它已得到处理。 如果有人想要特定的工具名称，只需询问即可，不希望这感觉像广告。   由   提交 /u/cryptoviksant   [链接] [评论]]]></description>
+      <description><![CDATA[在这里潜伏了一段时间，我想分享一些实际上可以实时节省我时间的东西。我经营一家小型在线企业，每天花费 2-3 小时手动回答相同的问题。运输信息、退货政策、设置说明、兼容性内容。尝试构建带有关键字触发器的 Zapier 工作流程来自动响应，但它太严格了。任何与我的确切触发点略有不同的措辞都失败了。 最终起作用的是专门根据我的文档训练的人工智能聊天机器人。您向其提供文档（PDF、文本文件、Markdown 或直接抓取您的网站），它仅根据该内容回答问题。不是通用人工智能，它只会从你提供的东西中提取东西。使用一个脚本标签在我的网站上作为聊天小部件运行。 感觉真正自动化的部分是 Discord 集成。我有一个社区服务器，机器人位于我选择的频道中。当主持人回答机器人错过的问题时，它会评估交流并自动捕获有用的答案以供下次使用。随意的回复和离题的内容都会被过滤掉。这样系统就可以在我不碰任何东西的情况下自行改进，这就是自动化的全部意义所在。 设置总共花了一个下午的时间。小部件是最快的部分，建立一个好的知识库需要更长的时间，因为我必须组织要包含的内容和过时的内容。 真正的限制：响应需要 10-20 秒，当内容发生变化时您手动重建知识库（机器人在此期间离线），并且没有人工交接，但如此复杂的事情仍然落在我身上。但对于困扰我一天的重复性常见问题解答内容，它已得到处理。 如果有人想要特定的工具名称，只需询问即可，不希望这感觉像广告。   由   提交 /u/cryptoviksant   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1reg79j/automated_my_repeat_customer_support_questions/</guid>
       <pubDate>Wed, 25 Feb 2026 15:25:29 GMT</pubDate>
     </item>
@@ -62,20 +90,6 @@
       <pubDate>Wed, 25 Feb 2026 11:55:26 GMT</pubDate>
     </item>
     <item>
-      <title>短信AI回复帮助</title>
-      <link>https://www.reddit.com/r/automation/comments/1reavi0/sms_ai_response_help/</link>
-      <description><![CDATA[我对于为我的家庭服务公司构建自动化还相当陌生，我已经构建了一些简单的自动化，这节省了我很多时间。我当前的技术堆栈是：Keap、Workspace（与 Gemini）、wildjar、Aroflo（作业管理软件）。任何人都可以给我一些关于如何构建短信自动化的指导 - 未接来电或下班后的电话。打开短信发送给呼叫者，ai讨论过程 - 如果转换，保留表单提交ECT   由   提交 /u/pellycan_pellycant   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1reavi0/sms_ai_response_help/</guid>
-      <pubDate>Wed, 25 Feb 2026 11:36:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>正在寻找 Lark 替代品？</title>
-      <link>https://www.reddit.com/r/automation/comments/1reansl/looking_for_lark_alternatives/</link>
-      <description><![CDATA[一直在使用 Lark 进行团队协作，但想知道其他人尝试过哪些感觉更可靠或更容易日常管理的方法   由   提交/u/Wgterry73  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1reansl/looking_for_lark_alternatives/</guid>
-      <pubDate>Wed, 25 Feb 2026 11:24:41 GMT</pubDate>
-    </item>
-    <item>
       <title>本周构建了一个自动化系统，每周一为客户节省了 6 个小时，这就是它的工作原理</title>
       <link>https://www.reddit.com/r/automation/comments/1re8bc1/built_an_automation_this_week_that_saved_a_client/</link>
       <description><![CDATA[客户每周一早上从 Stripe、Airtable 和 Google Sheets 手动提取数据，以构建每周收入报告。每次花费大约 90 分钟，有时更长。 为他们构建一个简单的 n8n 工作流程，该工作流程：  每周一早上 7 点自动触发 从所有三个来源提取上周的数据 将其格式化为清晰的摘要 在开始一天之前通过电子邮件发送给整个团队  总构建时间约为3小时。现在它永远运行，没有人碰它。 最让我惊讶的是客户对此的情绪有多激动。这不仅节省了时间，还消除了每周害怕周一早上任务的精神负担。   由   提交/u/Extreme-Law6386  [链接] [评论]]]></description>
@@ -95,20 +109,6 @@
       <description><![CDATA[不是开发人员。从事运营工作。多年来，我们一直将 Zapier 流程​​用管道胶带粘在一起，对于简单的事情来说，它们工作得很好，但当逻辑变得混乱时，总是会碰壁。我最终取消的流程是每周一次的供应商对账工作。基本上是比较两组数据，识别差异，按可能的原因对它们进行分类，并根据差异的类型起草一封摘要电子邮件给相关人员。听起来很简单，但分类部分需要足够的判断力，我从来不相信基本的 if/then 流程来处理它。已经推迟了大约两年。上个月终于与 MindStudio 坐下来，试图看看我能走多远。这个想法是你用实际的逻辑和分支构建人工智能工作流程，而不仅仅是触发器和操作——因此分类步骤是由具有特定指令的模型处理的，而不是我必须硬编码的规则。周日晚上得到了一个工作版本。它已经运行了三个星期，它处理了大约十几个周期，发现了一件我可能会错过手动执行的事情。困扰我的部分是我的工作实际上就是这样——接受输入，应用感觉复杂但可能很容易学习的判断，产生格式化的输出。我自动化了一件事情，现在我无法停止用新的眼光审视我所做的其他所有事情。还有其他人经历过这件事，但从另一面出来后，真的不确定他们的角色有多少是可以自动化的？不是以存在危机的方式提问，只是真正好奇其他人在真正开始挖掘时发现了什么。   由   提交/u/iknowtheenemy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1re71cl/replaced_myself_in_a_process_id_been_doing/</guid>
       <pubDate>Wed, 25 Feb 2026 07:47:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>我认为这项业务存在工作量问题。事实证明他们存在清晰度问题。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdut97/i_thought_this_business_had_a_workload_problem_it/</link>
-      <description><![CDATA[在一个下雨的下午，我带着记事本和使命感走进了我兄弟的一家小诊所。管理团队淹没在文书工作中，办公桌上堆满了表格和打印输出。他们一直告诉我他们不知所措。 “我们只是需要一个更好的系统，”一位接待员焦急地恳求道，她翻阅着一堆患者入院表格，努力寻找合适的表格。 但当我和他们坐在一起，看着他们的工作流程展开时，我发现问题不仅仅是拥有最新的软件或最奇特的工具。他们陷入了一片混乱之中。他们没有明确的处理信息的流程。例如，每次新患者进来时，他们都会在三个不同的系统中手动输入数据，而每次，一条重要信息都有被遗漏或误传的风险。 因此，我退后一步并做了一些更改： -我在我的笔记应用程序上一步一步地绘制了他们的整个接收流程。 -我帮助他们为连接到现有系统的患者数据创建了一个单一入口点。 -我引入了一个简单的清单，以确保在进入下一步之前捕获每一条信息。 - 我设置了跟进提醒，以减少无休止的来回电子邮件。 - 我鼓励他们每周举行一次聚会，以明确角色和责任。 这一转变虽然不大，但影响深远。该团队无需花费数小时寻找数据或发送重复的电子邮件，而是能够专注于真正重要的事情：他们的患者。他们提到感觉压力减轻了，犯的错误也少了。就像雾气消散了一样。  但我承认，我错误地假设每个人都会立即适应清单。有些人一开始觉得这很乏味，并抵制这种改变。让每个人都参与进来需要一些耐心和鼓励。 我从这次经历中学到的是，我们通常不需要推送新系统。我们只需要观察企业的运作方式并简化已有的内容。我们可以连接并简化工具，而不是更换工具。人们实际使用的简单自动化胜过闲置的复杂系统。 您是否意识到工作流程中的真正问题不是工具，而是流程的清晰度？你是如何解决这个问题的？   由   提交 /u/Warm_Abalone_9602   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdut97/i_thought_this_business_had_a_workload_problem_it/</guid>
-      <pubDate>Tue, 24 Feb 2026 22:22:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>诚实的问题：为什么人们仍然选择 Zapier 而不是 n8n？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rdp9jg/honest_question_why_do_people_still_pick_zapier/</link>
-      <description><![CDATA[Zapier 无处不在并且占据主导地位，但我看到了对 n8n 的推荐。 n8n 是开源的，更便宜，并且可定制，基于执行的定价是合理的。 Zapier 价格昂贵，而且任务限制很快就会增加；而且，你只能依靠它们进行集成。 那么为什么大家仍然使用 Zapier？集成库？可靠性？先发优势？ 我知道 n8n 有学习成本，而且自托管可能不适合所有人。不过，与 Zapier 相比，n8n 的云选项仍然更便宜。在尝试了两种方式后，我个人转向了 NoClick - 云托管、内置 AI 模型，比 n8n 设置更容易。但真的很好奇为什么 Zapier 仍然占据主导地位。 当有人可以使用 n8n 时，为什么有人会在 Zapier 上花费 5 到 10 倍的钱？   由   提交/u/FaithinessJust278  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rdp9jg/honest_question_why_do_people_still_pick_zapier/</guid>
-      <pubDate>Tue, 24 Feb 2026 19:02:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
