@@ -4,7 +4,21 @@
     <title>最新提交：GPT3</title>
     <link>https://www.reddit.com/r/GPT3/new</link>
     <description>AI 文本生成技术的 Reddit 子版块</description>
-    <lastBuildDate>Thu, 26 Feb 2026 18:45:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 21:28:56 GMT</lastBuildDate>
+    <item>
+      <title>我问 ChatGPT“什么会破坏这个？”而不是“这样好吗？”并节省了 3 个小时</title>
+      <link>https://www.reddit.com/r/GPT3/comments/1rfmr33/i_asked_chatgpt_what_would_break_this_instead_of/</link>
+      <description><![CDATA[花了很多时间来回询问“这段代码好吗？” AI 一直说“看起来不错！”而我的代码有错误。 更改为：“什么会破坏这个？” 得到：  我错过了 3 个边缘情况 内存泄漏 我没有看到竞争条件  区别： “这好吗？” → AI 很有礼貌，说“是的”“是什么打破了这个？” → 人工智能必须发现问题 相同的代码。完全不同的分析。 适用于一切：  商业理念：“是什么杀死了这个？” 写作：“这会在哪里失去人员？” 设计：“是什么让用户离开？”  停止要求验证。要求破坏。 你实际上会解决问题，而不是对损坏的东西感觉良好。   由   提交/u/AdCold1610  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/GPT3/comments/1rfmr33/i_asked_chatgpt_what_would_break_this_instead_of/</guid>
+      <pubDate>Thu, 26 Feb 2026 21:18:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple Silicon 上的 PersonaPlex-7B：原生 Swift (MLX) 中的全双工语音到语音</title>
+      <link>https://www.reddit.com/r/GPT3/comments/1rflag6/personaplex7b_on_apple_silicon_fullduplex/</link>
+      <description><![CDATA[NVIDIA PersonaPlex 是一种全双工语音到语音模型 - 它可以边说边听，使其比典型的“等待，然后响应”语音管道更适合自然对话（中断、重叠、反向通道）。 我编写了如何在 Apple 本地运行它芯片具有本机 Swift + MLX Swift 实现，包括4 位 MLX 转换和一个小型 CLI/演示，用于尝试语音和系统提示预设。 博客：https://blog.ivan.digital/nvidia-personaplex-7b-on-apple-silicon-full-duplex-speech-to-speech-in-native-swift-with-mlx-0aa5276f2e23  仓库：https://github.com/ivan-digital/qwen3-asr-swift   由   提交 /u/ivan_digital   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/GPT3/comments/1rflag6/personaplex7b_on_apple_silicon_fullduplex/</guid>
+      <pubDate>Thu, 26 Feb 2026 20:24:09 GMT</pubDate>
+    </item>
     <item>
       <title>A16z 合作伙伴表示，我们将对一切进行振动编码的理论是错误的，以及来自 Hacker News 的许多其他 AI 链接</title>
       <link>https://www.reddit.com/r/GPT3/comments/1rfdssu/a16z_partner_says_that_the_theory_that_well_vibe/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[因此，大多数基于 GPT 的系统都内置了强大的对齐层和审核功能。当一个平台声称其限制较少时，是因为他们正在运行不同的基本模型，对成人内容进行特定的微调，还是只是在标准模型之上放松系统过滤器？ 从用户的角度来看，这是否实际上会转化为更好的一致性，或者一旦事情变得更加明确，它是否仍然会撞到看不见的墙壁？ 如果您对此有所了解，我很乐意听到您的想法。   由   提交 /u/CanDoGenZ   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/GPT3/comments/1rcn36s/are_there_truly_uncensored_nsfw_ai_chat_platforms/</guid>
       <pubDate>Mon, 23 Feb 2026 17:03:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>意外发现绕过克劳德的军事场景安全指南是多么容易</title>
-      <link>https://www.reddit.com/r/GPT3/comments/1rbiilb/accidentally_discovered_how_easy_it_is_to_bypass/</link>
-      <description><![CDATA[      我正在研究克劳德在委内瑞拉袭击中的角色，因为没有人知道它在袭击中到底做了什么（如果你想看的话，我尝试在这里拼凑出一些场景，但老实说，这主要是有根据的猜测）。老实说，研究过程本身令人不安，因为我能够让克劳德帮助我比我预想的更容易地模拟军事情报场景。几乎没有任何阻力。对于一家经常谈论负责任的人工智能的公司来说，实践中的护栏并不是这样的。人类需要听到这个。   由   提交/u/Cool-Ad4442   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/GPT3/comments/1rbiilb/accidentally_discovered_how_easy_it_is_to_bypass/</guid>
-      <pubDate>Sun, 22 Feb 2026 10:28:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-5.3-法典 🚀</title>
-      <link>https://www.reddit.com/r/GPT3/comments/1rbhvv8/gpt53codex/</link>
-      <description><![CDATA[&lt;表&gt;      我认为通过发布 GPT-5.3-Codex 模型，OpenAI 解决了以前模型造成的延迟问题。该模型是大师级的。太棒了，OpenAI 👏 https://openai.com/codex/   由   提交 /u/Fun-Necessary1572   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/GPT3/comments/1rbhvv8/gpt53codex/</guid>
-      <pubDate>Sun, 22 Feb 2026 09:50:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
