@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 27 Feb 2026 18:35:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 21:25:33 GMT</lastBuildDate>
+    <item>
+      <title>这就是专业开发人员所做的吗，他们看 YT 什么是 RAG、AI 代理以及跟上 AI 步伐的东西？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgjdpj/is_this_what_professional_devs_do_they_watch_yt/</link>
+      <description><![CDATA[   有时我在 Linkedin、Reddit 上阅读人们的帖子，我感觉自己生活在 90 年代，使用那些翻盖手机   由   提交/u/lune-soft  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgjdpj/is_this_what_professional_devs_do_they_watch_yt/</guid>
+      <pubDate>Fri, 27 Feb 2026 21:24:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>[免费资源] 200+ Vibrance 玻璃抽象背景合集</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgiqio/free_resource_200_vibrance_glass_abstract/</link>
+      <description><![CDATA[      这里还有一些免费背景壁纸，您可以在网站、模型、模板、桌面等中使用。 这里是链接：https://www.pushp.online/l/200-vibrance-glass-abstract-background-collection 请分享您的意见和建议。希望您能提供反馈。   由   提交/u/prabhatpushp  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgiqio/free_resource_200_vibrance_glass_abstract/</guid>
+      <pubDate>Fri, 27 Feb 2026 20:59:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>免费增值照片应用程序：压缩上传，然后解锁高清，无需重新上传。什么是存储和用户体验策略？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgiq6d/freemium_photo_app_compress_uploads_then_later/</link>
+      <description><![CDATA[大家好，我正在构建一个免费增值应用程序。免费用户上传我压缩的图像以节省存储/带宽。如果用户稍后升级，我想解锁全质量图像，而不强迫他们重新上传所有内容，否则这对用户体验来说是一个巨大的障碍，因为可能会有多张图片。这基本上是订阅高级版的一个卖点，即拥有完整质量图像的机会。 由于成本限制，我不能真正盲目地存储原始文件。许多文件的大小为 5-12mb（手机图片等）。我考虑过像 AWS Glacier 这样的东西，但我不确定这是否是正确的选择。  但是还有一个问题是用户订阅，解锁高质量图片，但随后他们失去了订阅，所以我想我必须压缩回图片。其他应用程序是否也有类似的模式，我只是在做一些根本不连贯的事情吗？ 我想知道我还有什么替代方案。 问题：  在这种情况下，原始文件与压缩文件的实际策略是什么？ 人们是否会在有限的时间内存储原始文件、使用 Glacier/Deep Archive 还是需要重新上传？ 有任何用户体验模式吗？让用户感觉可以接受？    由   提交 /u/hexaquark1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgiq6d/freemium_photo_app_compress_uploads_then_later/</guid>
+      <pubDate>Fri, 27 Feb 2026 20:59:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>CLI 代理可将 LLM 令牌消耗减少 60-90%。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rghvf2/cli_proxy_that_reduces_llm_token_consumption_by/</link>
+      <description><![CDATA[大家好， 我可能来晚了，但我刚刚发现这个存储库，我认为它应该得到比这多 10 倍的星星！！ 以下是代币节省估算： 没有 rtk 的典型会话：约 150,000 个代币 使用 rtk：约 45,000 个代币 → 减少 70%   操作 频率 标准 rtk 节省    ls / 树 10× 2,000 400 -80%   猫 / 读取 20× 40,000 12,000 -70%  grep / rg 8× 16,000 3,200 -80%   git 状态 10× 3,000 600 -80%   git diff 5× 10,000 2,500 -75%   git log 5× 2,500 500 -80%   git add/commit/push 8× 1,600 120 -92%   npm 测试 / 货物测试 5× 25,000 2,500 -90%   领子格纹 3× 3,000 600 -80%   pytest 4× 8,000 800 -90%   去测试 3× 6,000 600 -90%   docker ps 3× 900 180 -80%   总计  ~118,000 ~23,900 -80%   https://github.com/rtk-ai/rtk   由   提交 /u/olivdums   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rghvf2/cli_proxy_that_reduces_llm_token_consumption_by/</guid>
+      <pubDate>Fri, 27 Feb 2026 20:26:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何让网站看起来老旧又做作，比如 Tumblr</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rghjwo/how_to_make_a_website_look_old_and_campy_like/</link>
+      <description><![CDATA[对于具有非常基本的 Wordpress/Squarespace 经验的人来说，是否有任何简单的方法可以创建一个看起来像这样的网站？  https://www.prisondivorcebombshell.com/dont-click-heere-probously 看起来 gif 会有很长的路要走。 有一秒钟，我想也许我可以用自定义域做一个 Tumblr，但我不想Tumblr 的功能包括转发/说出帖子有多少条评论   由   提交 /u/whatsmyglitch   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rghjwo/how_to_make_a_website_look_old_and_campy_like/</guid>
+      <pubDate>Fri, 27 Feb 2026 20:14:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为具有上传文件能力的企业 SaaS，您应该如何保护自己不成为儿童色情主机？这是现实的危险吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgf1ng/how_are_you_supposed_to_protect_yourself_from/</link>
+      <description><![CDATA[正如标题所说，从技术上讲，在我们的业务 SaaS 中，用户可以上传儿童色情内容，假装这是他们项目的徽标或其他内容。某些类型的图像资源甚至是完全公开的（公共 S3 存储桶），因为它们也可以包含在电子邮件中，但大多数都受到访问限制。作为一家相对较小的初创公司，我们如何保护自己免受恶意用户利用这种能力托管儿童色情内容，甚至被用作共享网站的侵害？通常，在您有权访问项目并因此具有上传能力之前，您将处于付费计划之下，但受到付费计划中的某人的邀请（例如冒充同事的欺骗电子邮件）然后获得上传文件的能力可能相对简单。这是否是一个现实的风险，或者这种恶意行为者是否有更简单的方法来实现相同的目标？我非常确定，如果我们在不知情的情况下托管此类内容，我们可能会承担责任。   由   提交 /u/Aflockofants   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgf1ng/how_are_you_supposed_to_protect_yourself_from/</guid>
+      <pubDate>Fri, 27 Feb 2026 18:40:43 GMT</pubDate>
+    </item>
     <item>
       <title>如何摆脱只关注开发的心态？请给我指路！</title>
       <link>https://www.reddit.com/r/webdev/comments/1rgej2o/how_to_get_out_of_the_devonly_mindset_please_give/</link>
@@ -48,13 +90,6 @@
       <pubDate>Fri, 27 Feb 2026 17:08:13 GMT</pubDate>
     </item>
     <item>
-      <title>我做了一个多人提示注入游戏——Hack My Agent！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgc1cg/i_made_a_multiplayer_prompt_injection_gamehack_my/</link>
-      <description><![CDATA[ 由   提交 /u/chicametipo   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgc1cg/i_made_a_multiplayer_prompt_injection_gamehack_my/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:53:26 GMT</pubDate>
-    </item>
-    <item>
       <title>我在网络开发方面遇到了困难。</title>
       <link>https://www.reddit.com/r/webdev/comments/1rgbzmv/i_struggle_with_web_development/</link>
       <description><![CDATA[嗨， 我是三年级学生。过去几个月我一直在研究 DSA，现在我已经非常擅长了。但当谈到网络开发时，我陷入了困境。我知道理论部分。就像如果有人问我关于 React 或 NodeJS 或 Spring boot 的口头问题......我不想列出所有的东西🫠  是的，所以我知道它们是什么，它们做什么以及它们如何工作。我只是无法付诸实践。就像每当我尝试编写某些东西时，我都会直接转到 gpt 或其他东西并询问如何去做。  我想从头开始构建东西！不要只是查看人工智能给出的过于复杂的代码。 请帮忙！   由   提交/u/Prathyush04  [链接] [评论]]]></description>
@@ -74,41 +109,6 @@
       <description><![CDATA[嗨， 我正在探索一个想法，并试图验证它是否值得构建。 这个概念是专门针对网上商店的无头 CMS。开源、自托管、API 优先、主要为开发人员构建。一开始的最小用户界面。主要关注点是强大的 DX、干净的 API、良好的文档、产品、变体、定价、库存等的可预测数据建模。 核心将始终保持开源。我们的想法是稍后提供托管（100% eu）或付费功能，但自托管始终是可能的。 我知道 Strapi、Medusa、Saleor 等工具已经存在。我并不是假装这个空间是空的。 我想了解的是：  当前的无头 CMS 或商务平台最让您感到沮丧的是什么？ 什么是您考虑尝试新平台时绝对必须具备的？ 什么会立即让您忽略它？ 您更喜欢自己连接到商务的纯 CMS 还是商务原生平台从一开始？  我主要想弄清楚这里是否真的存在差距，或者这是否只是重新发明轮子。 欢迎诚实:)   由   提交 /u/maarten20012001   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rgbjnp/would_you_use_an_open_source_developer_first/</guid>
       <pubDate>Fri, 27 Feb 2026 16:35:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站编辑器可让您导出 AI 生成的页面</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgaqe1/website_editor_that_lets_you_export_ai_generated/</link>
-      <description><![CDATA[社区您好！我正在尝试将 AI 生成的 html/json 集成到网站编辑器中，您知道有什么可以让我做到这一点吗？    由   提交 /u/MassiveBasil9948   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgaqe1/website_editor_that_lets_you_export_ai_generated/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:05:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作了一个网站，比较你对拳击猕猴的同理心轨迹</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgannx/made_a_website_which_compares_your_empathy/</link>
-      <description><![CDATA[大家好，我制作了一个网站，向你们询问有关猴子事件的不同类型的问题，并要求你们分析对此事件的感受。比较你的同理心轨迹，看看你的立场。 这里 - https://punch-macaque.vercel.app/   由   提交/u/RK9_2006  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgannx/made_a_website_which_compares_your_empathy/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:03:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是那个疯子吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgamem/am_i_the_crazy_one/</link>
-      <description><![CDATA[我几年前就停止使用 Flexbox，只使用网格。语法更具可读性，所有内容都列在容器本身上，我可以查看容器并了解它要做什么。  在少数情况下，flex 可以做 grid 做不到的事情，但我每天都不会碰它。  Aaa无论如何，目前正在找工作，并且收到了很多关于 Flexbox 的语法琐事问题（“你的口袋里不会总是有计算器”），或者在编码会议中被告知我必须使用 Flexbox。  当我提到为什么我对语法生疏时，我得到了奇怪或彻头彻尾的敌意反应。这是一件事吗？   由   提交 /u/shane_il   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgamem/am_i_the_crazy_one/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:01:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建立了一个私人保管库来保存成人书签，因为我厌倦了丢失链接</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rg9yzw/i_built_a_private_vault_for_saving_adult/</link>
-      <description><![CDATA[我是一名独立开发者，我构建了 RedStasher：一个基于网络的私人保管库，用于保存和组织成人视频和图像书签。 我遇到的问题：我不断丢失我想稍后观看的内容的链接。浏览器书签感觉有风险（共享设备、有人借用你的笔记本电脑、同步帐户）。在笔记应用程序中保存 URL 感觉很混乱。下载内容感觉有点矫枉过正。我只是想要一个干净、私密的地方来粘贴网址并稍后找到它。 它的作用：  粘贴任何网址 → 它会保存链接并自动生成缩略图 使用集合和标签进行组织 搜索和过滤整个库 适用于任何设备（完全基于网络，响应式） 一键式 Chrome 扩展程序保存  它不做什么：  没有广告，没有跟踪像素，没有第三方分析 不出售或与任何人共享您的数据 不下载或托管任何内容，它是书签管理器，而不是存储服务  它是免费的，不需要信用卡。我还没有真正推销它，所以我的用户基本上为零。 我真诚地感谢任何反馈：关于产品、登陆页面、概念、任何方面的反馈。如果你愿意的话，可以烤一下。我是来学习的。 感谢您的阅读。   由   提交 /u/bramp0wnd   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rg9yzw/i_built_a_private_vault_for_saving_adult/</guid>
-      <pubDate>Fri, 27 Feb 2026 15:38:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>初创公司的后端开发人员：您每周处理的最烦人的生产问题是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rg8wdn/backend_devs_at_startups_what_is_the_most/</link>
-      <description><![CDATA[开发一个制作精良、完善且可投入生产的后端涉及很多事情，例如安全性、路由、配置等等。 作为一名全栈开发人员，我也遇到过不少困难，例如正确处理单一存储库、数据库迁移或意外异常。   由   提交/u/xerrs_  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rg8wdn/backend_devs_at_startups_what_is_the_most/</guid>
-      <pubDate>Fri, 27 Feb 2026 14:57:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
