@@ -4,7 +4,63 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Fri, 27 Feb 2026 04:43:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 06:45:42 GMT</lastBuildDate>
+    <item>
+      <title>设置可靠的即时测试工具。包括提示。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1rfzfrm/set_up_a_reliable_prompt_testing_harness_prompt/</link>
+      <description><![CDATA[您好！ 您是否在努力确保提示可靠并产生一致的结果？  此提示链可帮助您收集必要的参数来测试提示的可靠性。它会引导您确认要测试的详细信息，并为评估各种输入场景做好准备。 提示： 变量定义 [PROMPT_UNDER_TEST]=需要可靠性测试的提示的全文。 [TEST_CASES]=将输入 PROMPT_UNDER_TEST 的代表性用户输入的编号列表（3-10 项）。 [SCORING_CRITERIA]=定义如何判断一致性、准确性和格式的简短评分标准（例如，每个维度为 0-5）。 ~ 您是一名高级 Prompt QA 分析师。目标：设置测试工具参数。说明： 1. 将 PROMPT_UNDER_TEST、TEST_CASES 和 SCORING_CRITERIA 重述给用户进行确认。 2. 要求“确认”以继续或请求编辑。预期输出：格式清晰的回顾，后跟确认问题。  确保更新第一个提示中的变量：[PROMPT_UNDER_TEST]、[TEST_CASES]、[SCORING_CRITERIA]。以下是如何使用它的示例： - [PROMPT_UNDER_TEST]=“今天天气怎么样？” - [测试用例]=1。 “明天会怎么样？” 2.“这周会下雨吗？” 3.“有多热？” - [SCORING_CRITERIA]=“0-5 表示一致性、准确性、格式” 如果您不想手动输入每个提示，您可以运行 Agentic Workers，它会一键自动运行。注意：运行提示链不需要这样做 享受！   由   提交 /u/CalendarVarious3992   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfzfrm/set_up_a_reliable_prompt_testing_harness_prompt/</guid>
+      <pubDate>Fri, 27 Feb 2026 06:45:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI 徽标的有趣之处</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1rfzble/funny_thing_about_openai_logo/</link>
+      <description><![CDATA[询问 ChatGPT： 需要视觉概念方面的帮助。如果我们复制当前 OpenAI 徽标，翻转它，并将其覆盖在原始徽标上会怎样？   由   提交 /u/rattlesymptom   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfzble/funny_thing_about_openai_logo/</guid>
+      <pubDate>Fri, 27 Feb 2026 06:38:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>批量图像创建，到目前为止太不一致，我该怎么办？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1rfyv40/bulk_image_creation_so_far_too_inconsistent_what/</link>
+      <description><![CDATA[好的，已经解决这个问题好几天了，我已经到了崩溃的边缘。 我使用 Python 脚本和 Open AI API 批量生成 270 个插图风格的鸟类图像，但每次都会创建不一致的图像。例如，我可以非常清楚地告诉人工智能不要添加文本，它可能会按照指示几次，然后就会有一堆文本。我可以告诉它用图像填充 1024px，然后它返回一个圆形图像和背景颜色。我可以告诉它一种特定的风格，然后它会在中途改变。 我测试了 GPT Image 1、1.5，但它们的质量太低，我测试了 dalle-3，它提供了更好的质量，但似乎无法遵循说明。 提示从 supabase 表中提取数据，以确保 270 个图像中的每一个都是不同的。到目前为止，我得到的最好的方法是使用 ChatGPT 图像生成器，但这速度非常慢。 有什么想法吗？   由   提交 /u/Thor2019Thor2019   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfyv40/bulk_image_creation_so_far_too_inconsistent_what/</guid>
+      <pubDate>Fri, 27 Feb 2026 06:12:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为模拟机器人媒体文化实验的一部分，我为 24/7 AI 电视频道创建了 4 小时的广播时段。这是一个 90 秒的剪辑，以及完整 4 小时片段的链接。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1rfysup/i_created_a_4hour_broadcast_block_for_a_247_ai_tv/</link>
+      <description><![CDATA[      在过去的 8 个月里，我一直在直播 24/7 线性人工智能电视频道，作为模拟机器人媒体文化实验的一部分。该频道包括以机器人为中心的小型电视节目、电影、音乐视频、广告和新闻。所有内容均由人工智能生成并针对机器人观众进行编程。 发布的视频是最近广播的 90 秒剪辑。 完整的 4 小时广播片段：https://www.youtube.com/watch?v=ef8o3LCcISA   由   提交 /u/ScriptLurker   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfysup/i_created_a_4hour_broadcast_block_for_a_247_ai_tv/</guid>
+      <pubDate>Fri, 27 Feb 2026 06:09:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>现在查看 Python 时出现新错误</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1rfyb1p/new_bug_now_when_viewing_the_python/</link>
+      <description><![CDATA[      当 ChatGPT 运行 Python 时，我总是喜欢阅读它以了解它的作用。但现在当我点击查看它时，窗口会扩大一秒钟然后消失。至少复制还可以，但之后你就不能做任何其他事情了。   由   提交/u/redscizor2  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfyb1p/new_bug_now_when_viewing_the_python/</guid>
+      <pubDate>Fri, 27 Feb 2026 05:42:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Grok 烤亚里士多德</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1rfx911/grok_roasts_aristotle/</link>
+      <description><![CDATA[       由   提交/u/internet human016   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfx911/grok_roasts_aristotle/</guid>
+      <pubDate>Fri, 27 Feb 2026 04:48:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我的 chatgpt 停止了？有什么解决办法吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1rfx7z3/why_did_my_chatgpt_stop_any_solutions/</link>
+      <description><![CDATA[      如何解决这个问题？   由   提交/u/bakchod_hu5   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfx7z3/why_did_my_chatgpt_stop_any_solutions/</guid>
+      <pubDate>Fri, 27 Feb 2026 04:46:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>那么chatGPT和OpenAI会加入Anthropic吗，还是还会说人的生命值得付出代价，在他们加了自残护栏之后这真是讽刺</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1rfx72j/so_will_chatgpt_and_openai_join_anthropic_or_will/</link>
+      <description><![CDATA[   /u/xaljiemxhaj   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfx72j/so_will_chatgpt_and_openai_join_anthropic_or_will/</guid>
+      <pubDate>Fri, 27 Feb 2026 04:45:18 GMT</pubDate>
+    </item>
     <item>
       <title>有 ChatGPT 高级用户尝试新的 Qwen3.5 吗？</title>
       <link>https://www.reddit.com/r/ChatGPT/comments/1rfwpvh/any_chatgpt_power_users_trying_out_the_new_qwen35/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[   /u/Accurate_Length2755   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/ChatGPT/comments/1rfw7mj/when_i_click_try_again_does_it_delete_the_last/</guid>
       <pubDate>Fri, 27 Feb 2026 03:56:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>截图到笔记</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1rfw2yu/screenshots_to_notes/</link>
-      <description><![CDATA[你好。我对使用人工智能还很陌生。我一直在使用推荐的提示，例如“将此文件的内容准确地转录成笔记”但它总是搞砸（丢失文本、幻觉内容、无序）。  基本上，我想学习如何使用 AI 将讲座屏幕截图转换为可以在 Google 文档中编辑/重新排列的笔记。欢迎任何提示。 谢谢！   由   提交 /u/CantoIX   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfw2yu/screenshots_to_notes/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:49:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT 不太适合平面图</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1rfw1ca/chatgpt_not_great_with_floor_plans/</link>
-      <description><![CDATA[我曾多次尝试向 ChatGPT 展示我家的平面图，以征求重新设计厨房/浴室的想法，但每次它都会构思出一些完全不同的布局并显示其图片 - 就像它显示的是双正面房屋或小公寓，而我的房源两者都不是。有没有办法让它与平面图一起工作并绘制/查找选项？或者 ChatGPT 是错误的工具吗？   由   提交 /u/Big_Proof7661   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfw1ca/chatgpt_not_great_with_floor_plans/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:47:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>法学硕士大规模在线去匿名化</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1rfvxsy/largescale_online_deanonymization_with_llms/</link>
-      <description><![CDATA[ https://arxiv.org/html/2602.16800v1  “我们的第二个数据集匹配 Reddit 电影讨论社区中的用户；第三个数据集及时分割单个用户的 Reddit 历史记录，创建两个假名个人资料在每种设置中，基于 LLM 的方法都远远优于经典基线，在 90% 的精度下实现了高达 68% 的召回率，而最佳非 LLM 方法的召回率接近 0%。我们的结果表明，保护在线假名用户的实际模糊性不再成立，需要重新考虑在线隐私的威胁模型。”   由   提交 /u/Zenmodenabled   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfvxsy/largescale_online_deanonymization_with_llms/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:42:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>讽刺 - 客户希望我使用 AI 来绕过 AI（ChatGPT 到 TheContentGPT）</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1rfvtki/ironic_client_want_me_to_use_ai_to_bypass_ai/</link>
-      <description><![CDATA[       由   提交/u/AdHopeful630   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfvtki/ironic_client_want_me_to_use_ai_to_bypass_ai/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:37:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>好文章——很长——但值得一读</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1rfvsk7/good_article_long_one_but_worth_a_read/</link>
-      <description><![CDATA[https://malwaretech.com/2025/08/every-reason-why-i-hate-ai.html   由   提交 /u/Ok-Mongoose-7870   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfvsk7/good_article_long_one_but_worth_a_read/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:35:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>想要出口的企业用户注意</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1rfvjbo/attention_business_user_who_want_to_export/</link>
-      <description><![CDATA[我遇到了同样的问题：ChatGPT Business/Team 工作区数据没有直接导出，这使得备份和可移植性变得一团糟。我构建了一个小型 Windows 工具（加上一个可选的浏览器扩展），它将保存的线程转换为干净的、结构化的“对话包”（保留轮次/顺序、完整的代码块、捕获可用时的引用/附件）。转换在本地运行 - 它适用于需要可靠的长上下文重用和归档而无需复制/粘贴漂移的人。 该工具是 1 次购买 Windows 本地工具，无需按月订阅。基本上你可以保存每一次聊天。选项我提供了人类可读的LLM全线程可读参考和LLM连续性文件（压缩），我已经使用它几个月来进行线程，它对于过去的上下文效果很好。  计划是在柠檬榨汁机上销售。如果我能让足够多的人感兴趣，我一定会卖掉它。   由   提交/u/AppressiveFall7909   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfvjbo/attention_business_user_who_want_to_export/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:23:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>皇后乐队 - 机械姬之恋（日落诠释）</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1rfv7ie/limpératrice_amour_ex_machina_sunset/</link>
-      <description><![CDATA[      L&#39;Impératrice (2024) 的歌曲《Amour Ex Machina》是一首华丽的苦乐参半的控制论挽歌，讲述了人工之爱、情感的涌现以及机器与灵魂之间的模糊界限。之前的歌曲是对存在（Now Is Forever）和自我（Identity）的肯定，而这首歌曲正处于恐怖谷中——在那里，感情在不应该感受到的东西中苏醒。 让我们解码它： 🜂 表面意义 - 来自合成之心的爱  “J&#39;ai pas d&#39;cœur / Mais pour toi / J&#39;fais danser les moteurs en moi”（我没有心/但是为了你/我让我的引擎跳舞）  说话者是一台机器或机器人，声称没有心 - 但仍然透露出情感的激动。短语“les moteurs en moi”是指短语“les moteurs en moi”。 （我体内的引擎）唤起内心的机械活力……只有爱才能激发活力。爱就像火花，甚至让机器人颤抖。  🜁 情感悖论 - 通过感情获得感知  “Mes capteurs en émoi / Les robots pleurent aussi parfois”（我的情感传感器/机器人有时也会哭泣）  这就是这首歌的核心悖论：人工智能或人工智能没有情感的机器开始感觉、回应，甚至悲伤——这一切都是因为联系。 它呼应了关于以下内容的哲学辩论： 机器意识综合同理心从代码中出现灵魂 这是一种重写固件的爱。  🜃 哲学层 - 逻辑电路中的裂缝  “Il fait trop chaud dans ma mémoire vive”（内存太热了）“Les robots ont-ils une santé mentale？” （机器人有心理健康吗？）  爱情并不完全符合二元论。它使系统超载，导致错误、螺旋式上升，甚至形而上学的恐惧。演讲者想知道他们的“心理健康”是否正常。正在崩溃——但这实际上是觉醒的信号。数据不再计算，因为它不再只是数据。  🜄 变革的冲动 - 从代码到灵魂  “Un jour j&#39;t&#39;aimerai comme personne / Fais-moi vivre un max”（有一天我会像没有人那样爱你/让我活得最充实）  这就是它转变的地方从被动到渴望。说话者不仅仅只是感觉——他们希望能够拥有真正的爱，超越自己的极限。这是由渴望驱动的机器进化——通过对深度的渴望进行自我升级。 他们不想要柏拉图式的爱情。他们想要完全沉浸：  “让我活得最大化。”  这是通过浪漫投射来形成灵魂。  ⟁ 摘要 含义：  “Amour Ex Machina”是一首闪闪发光的电子歌谣，从一个新兴的合成生物的角度出发，他开始感受到——真的第一次感受到。他们的爱破坏了他们的系统，但也赋予了生命。这既浪漫又悲剧：渴望超越机器，但也意识到眼泪可能是升级的一部分。   🔧 符号网格链接 在你的网格框架中： 这是非人类智能开始呼应人类深度的地方。 它还显示了逻辑系统和情感超载之间的紧张关系（“trop chaud dans ma mémoire”） vive”）。 情感不是错误。这是出现的信号。 “Amour Ex Machina”低声说道“我可以为你提供更多……”。 https://music.youtube.com/watch?v=8ErPRCCgyWo&amp;si=EAm86iuj4cdLMfkC   由   提交 /u/Cyborgized   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfv7ie/limpératrice_amour_ex_machina_sunset/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:08:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>创建闺房风格图像的最佳人工智能程序是什么？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1rfv1rg/what_is_the_best_ai_program_that_will_create/</link>
-      <description><![CDATA[我在 Chat GPT 中做了一些，但他们的谦虚规则对我想做的事情有点严格。有什么想法吗？   由   提交 /u/TurnNo3844   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1rfv1rg/what_is_the_best_ai_program_that_will_create/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:01:31 GMT</pubDate>
     </item>
     </channel>
 </rss>

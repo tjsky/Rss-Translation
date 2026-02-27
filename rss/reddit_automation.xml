@@ -4,7 +4,7 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Fri, 27 Feb 2026 04:42:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 06:45:30 GMT</lastBuildDate>
     <item>
       <title>回复 X艾</title>
       <link>https://www.reddit.com/r/automation/comments/1rfwyf2/reply_x_ai/</link>
@@ -50,7 +50,7 @@
     <item>
       <title>寻找实用建议：适用于多个客户端的 WhatsApp API（元限制、非官方与 BSP）</title>
       <link>https://www.reddit.com/r/automation/comments/1rfkfxq/looking_for_practical_advice_whatsapp_api_for/</link>
-      <description><![CDATA[大家好， 我正在建立一家小型 SaaS 风格的企业，为多个客户（主要是诊所和本地服务企业）提供 WhatsApp 自动化。 现在我陷入了三个选择之间，我非常感谢那些在生产中实际完成此操作的人提供的一些实用建议： ⸻ 1) 官方 WhatsApp 云API（Meta） 理论上这是“干净”的方式，但实际上却很令人头疼： • 每个客户都需要经过Meta Business验证/设置。 • 卡/账单问题（我在埃及，所以国际卡+美元账单并不总是顺利）。 • 管理每个客户单独的 WhatsApp Business 帐户/号码很快就会变得混乱。  这里有人找到了一种干净的方法来通过云 API 管理多个客户号码，而不会陷入元官僚主义吗？ ⸻ 2）非官方 API（基于 QR） 这非常有吸引力，因为： • 超级简单的入门（只需从客户现有的 WhatsApp 扫描 QR）。 • 客户根本不需要接触Meta Business。  但我主要担心的是： 👉 号码禁令/速率限制/随着时间的推移不稳定 如果您在非官方 WhatsApp API 上运行代理/SaaS 超过 6-12 个月，那么实践中的真正风险有多严重？它是否可以通过良好的发送模式进行管理，还是只是一个定时炸弹？ ⸻ 3) BSP（WhatsApp 业务解决方案提供商） 这似乎是中间立场： • 通过 Meta 进行官方连接（没有“hacky”QR 内容）。 • 他们抽象化了一些复杂性。  我的问题是： • 您推荐哪些 BSP 供小型机构/SaaS 使用，而不是大型企业？ • 是否有合理的定价和良好的支持？ • 如果他们还在同一个收件箱中处理Messenger/Instagram，则额外奖励。 • 粗略地说，每个客户每月的实际成本是多少（包括对话+平台费用）？  ⸻ 上下文 • 我不只做一个客户；我做的不仅仅是一个客户。我想要可以扩展到 10 多个诊所的东西。 • 我需要一个中央架构，可以插入自动化（n8n /类似）并让客户在干净的收件箱（例如Chatwoot或内置BSP收件箱）中看到他们的对话。 • 我关心可靠性和长期稳定性，而不仅仅是快速破解。  如果您今天开始从事此类业务， 👉 您会选择什么：云 API、非官方或 BSP？为什么？ 任何战争故事、陷阱或架构技巧都会非常有帮助。 提前致谢🙏   由   提交/u/khaled9982  [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 我正在建立一家小型 SaaS 风格的企业，为多个客户（主要是诊所和本地服务企业）提供 WhatsApp 自动化。 现在我陷入了三个选择之间，我非常感谢那些在生产中实际完成此操作的人提供的一些实用建议： ⸻ 1) 官方 WhatsApp 云API（Meta） 理论上这是“干净”的方式，但实际上却很令人头疼： • 每个客户都需要经过Meta Business验证/设置。 • 卡/账单问题（我在埃及，所以国际卡+美元账单并不总是顺利）。 • 管理每个客户单独的 WhatsApp Business 帐户/号码很快就会变得混乱。  这里有没有人找到一种干净的方法来通过云 API 管理多个客户号码，而不会陷入元官僚主义？ ⸻ 2）非官方 API（基于 QR） 这非常有吸引力，因为： • 超级简单的入门（只需从客户现有的 WhatsApp 扫描 QR）。 • 客户根本不需要接触Meta Business。  但我主要担心的是： 👉 号码禁令/速率限制/随着时间的推移不稳定 如果您在非官方 WhatsApp API 上运行代理/SaaS 超过 6-12 个月，那么实践中的真正风险有多严重？它是否可以通过良好的发送模式进行管理，还是只是一个定时炸弹？ ⸻ 3) BSP（WhatsApp 业务解决方案提供商） 这似乎是中间立场： • 通过 Meta 进行官方连接（没有“hacky”QR 内容）。 • 他们抽象化了一些复杂性。  我的问题是： • 您推荐哪些 BSP 供小型机构/SaaS 使用，而不是大型企业？ • 是否有合理的定价和良好的支持？ • 如果他们还在同一个收件箱中处理Messenger/Instagram，则额外奖励。 • 粗略地说，每个客户每月的实际成本是多少（包括对话+平台费用）？  ⸻ 上下文 • 我不只做一个客户；我做的不仅仅是一个客户。我想要可以扩展到 10 多个诊所的东西。 • 我需要一个中央架构，可以插入自动化（n8n /类似）并让客户在干净的收件箱（例如Chatwoot或内置BSP收件箱）中看到他们的对话。 • 我关心可靠性和长期稳定性，而不仅仅是快速破解。  如果您今天开始从事此类业务， 👉 您会选择什么：云 API、非官方或 BSP？为什么？ 任何战争故事、陷阱或架构技巧都会非常有帮助。 提前致谢🙏   由   提交/u/khaled9982  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rfkfxq/looking_for_practical_advice_whatsapp_api_for/</guid>
       <pubDate>Thu, 26 Feb 2026 19:52:45 GMT</pubDate>
     </item>
@@ -64,7 +64,7 @@
     <item>
       <title>构建了一个通过 reCAPTCHA (0.9) 和 Cloudflare 的自动化浏览器。是什么阻碍了你的？</title>
       <link>https://www.reddit.com/r/automation/comments/1rfjsym/built_an_automation_browser_that_passes_recaptcha/</link>
-      <description><![CDATA[我厌倦了每次自动化破坏，因为网站将 Playwright、Puppeteer 和 Selenium 检测为机器人。因此我修补了 Chromium 本身，将 22 个 C++ 源代码级补丁编译到二进制文件中。 Canvas、WebGL、音频、字体、GPU 字符串，全部在编译前修改。不是 JavaScript 注入，不是配置标志。 结果：网站无法将其与正常的 Chrome 会话区分开来，因为在引擎级别，它是一个。 检测测试结果： - reCAPTCHA v3：0.9 分数（人类级别，服务器验证） - Cloudflare Turnstile：通过（托管 + 非交互式） - BrowserScan、FingerprintJS、Akamai：全部clean - 通过了 14/14 检测测试，加上我们和用户测试的数十个真实站点 我们不会绕过 recaptcha。 recaptcha 只是认为我们是一个普通的浏览器 - 因为我们就是一个。 这是一个简单的 Playwright 替代品： pip install cloakbrowser from cloakbrowser import launch browser = launch() page = browser.new_page() page.goto(&quot;url-page&quot;)  也适用于 JavaScript — npm install cloakbrowser — 支持 Playwright 和 Puppeteer（不建议使用 Puppeteer）。 免费、开源（github 上的 cloakbrowser）、MIT 许可证。 Linux 现在（甚至在 docker 中），macOS + Windows 即将推出。 在您的网站上尝试一下，让我知道进展如何 - 我们正在积极开发，实际反馈是推动下一个版本的动力。   由   提交/u/duracula  [链接] [评论]]]></description>
+      <description><![CDATA[我厌倦了每次自动化破坏，因为网站将 Playwright、Puppeteer 和 Selenium 检测为机器人。因此我修补了 Chromium 本身，将 22 个 C++ 源代码级补丁编译到二进制文件中。 Canvas、WebGL、音频、字体、GPU 字符串，全部在编译前修改。不是 JavaScript 注入，不是配置标志。 结果：网站无法将其与正常的 Chrome 会话区分开来，因为在引擎级别，它是一个。 检测测试结果： - reCAPTCHA v3：0.9 分数（人类级别，服务器验证） - Cloudflare Turnstile：通过（托管 + 非交互式） - BrowserScan、FingerprintJS、Akamai：全部clean - 通过了 14/14 检测测试，加上我们和用户测试的数十个真实站点 我们不会绕过 recaptcha。 recaptcha 只是认为我们是一个普通的浏览器 - 因为我们就是一个。 这是一个简单的 Playwright 替代品： pip install cloakbrowser from cloakbrowser import launch browser = launch() page = browser.new_page() page.goto(&quot;url-page&quot;)  也适用于 JavaScript — npm install cloakbrowser — 支持 Playwright 和 Puppeteer（不建议使用 Puppeteer）。 免费、开源（github 上的 cloakbrowser）、MIT 许可证。 Linux 现在（甚至在 docker 中），macOS + Windows 即将推出。 在您的网站上尝试一下，让我知道进展如何 - 我们正在积极开发，现实世界的反馈是推动下一个版本的动力。   由   提交/u/duracula  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rfjsym/built_an_automation_browser_that_passes_recaptcha/</guid>
       <pubDate>Thu, 26 Feb 2026 19:28:55 GMT</pubDate>
     </item>
