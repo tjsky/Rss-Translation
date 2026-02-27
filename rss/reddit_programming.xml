@@ -4,13 +4,34 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 27 Feb 2026 06:46:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 09:37:33 GMT</lastBuildDate>
     <item>
-      <title>我破解了一个网络应用程序，发现了 20,000 多名与会者的付款历史记录、电子邮件、手机号码和完全写入权限。我决定将其变成一堂实用的网络安全课程。</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfyhrg/i_hacked_a_webapp_and_found_20000_attendees/</link>
-      <description><![CDATA[ 创建了一个合成数据库，该数据库看起来与实际数据集相同，但完全不同，并且悄悄地替换了所有数据***.*** 交换了一个简单的图像 URL（无 XSS！），并通过伪装成 JPEG 的边缘函数，默默地跟踪 IP（确切位置）、用户代理（设备） make/model），以及每个网站访问者的时间戳...将所有这些路由到我自己的数据库。  上面的链接中有完整的说明。    由   提交/u/therafort  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfyhrg/i_hacked_a_webapp_and_found_20000_attendees/</guid>
-      <pubDate>Fri, 27 Feb 2026 05:52:39 GMT</pubDate>
+      <title>为什么 F1 分数会误导 AI 代码审查（以及为什么我们需要比 HumanEval 更好的指标）</title>
+      <link>https://www.reddit.com/r/programming/comments/1rg1x4h/why_f1_scores_are_misleading_for_ai_code_review/</link>
+      <description><![CDATA[我们花了数年时间使用 HumanEval 和 MBPP 来衡量 LLM 编写代码的水平，但我们几乎没有关于他们如何审查代码的标准化数据。 我一直在针对包含已知生产错误（竞争条件、SQLi 等）的策划 PR 差异进行一系列评估，以了解当前的“旗舰”在哪里。模型实际上会摔倒。 F2 分数的案例：在我的测试中，我发现标准 F1 分数不适用于开发工具。在 Pull 请求中，错过的错误（假阴性）比嘈杂的 AI 评论（假阳性）要昂贵一个数量级。我开始使用 F2 评分来提高召回率，结果显着改变了排行榜。 一些技术发现：  上下文失明： 大多数模型（甚至 GPT-4o）很容易捕获语法错误，但在“多文件逻辑”上失败。如果错误需要了解 file_a.ts 如何影响 file_b.ts，成功率会下降约 60%。 LLM 作为法官的偏见：使用独立法官 (Claude 3.5 Sonnet) 来验证反馈是一把双刃剑。它很好地处理了语义等价，但存在明显的“风格偏见”。它支持将反馈格式与自身类似的模型。  我已经记录了“捕获与错过”的完整方法和原始矩阵。对于任何对数据感兴趣的人来说，这里的错误： 数据/排行榜： shim52.github.io/ai-code-review-bench/ 框架（开源）： github.com/shim52/ai-code-review-bench 我很好奇，对于那些将 AI 集成到 CI/CD 中的人来说，如何客观地衡量“评审质量”？不仅仅是开发人员的情绪？   由   提交 /u/Shimk52   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rg1x4h/why_f1_scores_are_misleading_for_ai_code_review/</guid>
+      <pubDate>Fri, 27 Feb 2026 09:15:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>德文人工智能值得吗？我们花了 5,000 美元来找出答案</title>
+      <link>https://www.reddit.com/r/programming/comments/1rg126b/is_devin_ai_worth_it_we_spent_5000_to_find_out/</link>
+      <description><![CDATA[ 由   提交/u/beerbellyman4vr   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rg126b/is_devin_ai_worth_it_we_spent_5000_to_find_out/</guid>
+      <pubDate>Fri, 27 Feb 2026 08:22:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>谁相信振动编码？</title>
+      <link>https://www.reddit.com/r/programming/comments/1rg0jju/who_believes_in_vibecoding/</link>
+      <description><![CDATA[100% 人工编写和格式化。    由   提交/u/bigbott777  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rg0jju/who_believes_in_vibecoding/</guid>
+      <pubDate>Fri, 27 Feb 2026 07:51:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么禁用 SQL Server sa 帐户在 2026 年仍然很重要</title>
+      <link>https://www.reddit.com/r/programming/comments/1rfzoon/why_disabling_the_sql_server_sa_account_still/</link>
+      <description><![CDATA[ 由   提交 /u/grauenwolf   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rfzoon/why_disabling_the_sql_server_sa_account_still/</guid>
+      <pubDate>Fri, 27 Feb 2026 06:59:40 GMT</pubDate>
     </item>
     <item>
       <title>蜂巢思维有一个缩放上限</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rfll6l/lazy_binary_decision_diagrams_with_eager_literal/</guid>
       <pubDate>Thu, 26 Feb 2026 20:35:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>生产中的 Rust：JetBrains</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfl42t/rust_in_production_jetbrains/</link>
-      <description><![CDATA[本次采访探讨了 JetBrains 支持 Rust 基金会并围绕 rust-analyzer 等共享工具进行协作的策略、启动 RustRover 的基本原理，以及用户采用数据如何确定调试、异步 Rust 工作流程和测试工具（包括 Cargo nextest）等优先级。   由   提交 /u/Hefty-Necessary7621   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfl42t/rust_in_production_jetbrains/</guid>
-      <pubDate>Thu, 26 Feb 2026 20:17:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>开环与闭环：基准犯罪</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfjr3w/open_vs_closed_loop_a_benchmarking_crime/</link>
-      <description><![CDATA[这篇文章用相对简单的术语解释了什么是开环基准测试以及为什么正确实现这一点至关重要。 我不是第一个撰写此主题的人，但我怀疑我不是唯一一个没有充分考虑其基准测试设置细节的人。   由   提交 /u/curly_droid   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfjr3w/open_vs_closed_loop_a_benchmarking_crime/</guid>
-      <pubDate>Thu, 26 Feb 2026 19:27:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>测试“原始”GPU 缓存延迟</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfjjrj/testing_raw_gpu_cache_latency/</link>
-      <description><![CDATA[ 由   提交/u/mttd  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfjjrj/testing_raw_gpu_cache_latency/</guid>
-      <pubDate>Thu, 26 Feb 2026 19:19:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
