@@ -4,7 +4,84 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 26 Feb 2026 21:30:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 01:43:46 GMT</lastBuildDate>
+    <item>
+      <title>元 API 集成和实施讨论</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfsyru/meta_api_integrations_and_implementation_talking/</link>
+      <description><![CDATA[亲爱的开发人员，您好， 我有一个基于人工智能分析和推荐的 CRM 项目。项目进行的很清楚，我设计了一个数据库结构。此外，我还通过 Instagram 和元 api 访问了 api 部分附件。所以我对集成和元策略有一些疑问。因此，如果有人经历过元 api 设置并解决了有关这些问题的问题，请与我联系。 有人可以说，只需说出您的具体问题，我们就会解决它。你是对的，但这个项目确实很复杂，我不想提供细节。 现在谢谢你......   由   提交/u/shrapknife   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfsyru/meta_api_integrations_and_implementation_talking/</guid>
+      <pubDate>Fri, 27 Feb 2026 01:27:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>同一页面上有 2 个单独的视图转换</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfsk3w/2_seperate_view_transitions_on_same_page/</link>
+      <description><![CDATA[有没有办法可以实现 2 个独立的视图转换？例如，我有一个在各部分之间转换的 div，然后是一个我想在更改 iframe 的 src 时转换的 iframe。有什么办法可以做到这一点吗？    由   提交 /u/MozMousePixelScroll   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfsk3w/2_seperate_view_transitions_on_same_page/</guid>
+      <pubDate>Fri, 27 Feb 2026 01:09:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>你不需要“copilot stack”（LangGraph + CopilotKit 是多余的）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfsirr/you_dont_need_a_copilot_stack_langgraph/</link>
+      <description><![CDATA[如果你问人工智能“如何向我的 SaaS 添加副驾驶？”，我会得到相同的购物清单：UI 框架、编排框架、流桥，也许还有矢量数据库。  它错过了明显的部分。您的产品已经知道如何完成用户要求的事情。 “邀请 Sarah 作为管理员”是一个按钮，也是您已经发送的 API 调用。 “创建仪表板”是您已有的代码。副驾驶的工作是安全地调用该代码。 两层陷阱 “副驾驶堆栈”方法将其分为两个项目： 1. 前端：用于面板和客户端状态的 CopilotKit / Vercel AI SDK。 2. 后端：用于规划和状态的 LangGraph。  然后，您构建胶水：复制工具定义，将客户端状态发送到后端，并保持 WebSocket/SSE 桥处于活动状态，以便后端可以告诉浏览器要做什么。我见过团队在这里花费数周的时间，最终调试桥接的次数比助手还要多。 你真正需要的东西 当用户说“邀请 Sarah 作为管理员”时，您需要三件事： 1. 规划：LLM 选择工具。 2. 执行：工具在浏览器中运行（用户会话所在的位置）。 3. 确认：UI 显示一个按钮。  这就是整个循环。 LLM可以计划。浏览器可以执行。大多数产品副驾驶不需要后端状态机。  当您确实需要编排时 - 长时间运行的后台作业（数小时/天） - 复杂的人机交互审批链 - 多代理切换 如果您只是想要一个可以“创建仪表板”的助手，或“更新设置”，堆栈就是问题所在。 建议 我们完全跳过了编排层，只使用 Pillar。它是一个单一的 SDK，您可以在其中定义 React 中的工具，并且无需单独的后端服务即可处理规划和执行循环。感觉就像构建一个产品功能，而不是一个分布式系统。  对于那些构建了完整堆栈的人来说：基础设施的哪一部分现在造成了最大的维护痛苦？   由   提交 /u/AbleAir7864   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfsirr/you_dont_need_a_copilot_stack_langgraph/</guid>
+      <pubDate>Fri, 27 Feb 2026 01:07:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>在搜索栏中输入内容时如何阻止 chrome 显示此内容？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfs944/how_do_i_stop_chrome_from_showing_this_when/</link>
+      <description><![CDATA[      我不知道这是否是正确的子项，但不知道如何让它停止。这是迄今为止搜索栏的代码，如果它有助于查找问题  &lt;输入类型=“文本”;名称=“q” placeholder=“在线搜索...”&gt; &lt;按钮类型=“提交”&gt; &lt;img src=“https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg” alt=“搜索”&gt; &lt;/按钮&gt; &lt;/form&gt;   由   提交/u/tritrou2021yt   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfs944/how_do_i_stop_chrome_from_showing_this_when/</guid>
+      <pubDate>Fri, 27 Feb 2026 00:56:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>iSAQB CPSA-F 认证对于美国开发者来说值得吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfrpgc/is_the_isaqb_cpsaf_certification_worth_it_for/</link>
+      <description><![CDATA[大家好，我是一名美国软件工程师，正在研究 iSAQB 认证专家软件架构（基础级）认证。考试费用约为 213 美元，在欧洲似乎很受好评，但我不确定它在美国的分量有多大。 美国有人拿到了这个证书吗？它对求职或职业发展有帮助吗？或者我最好把时间和金钱花在像 TOGAF 或云证书这样更受认可的东西上？ 感谢任何意见。   由   提交/u/thebird87  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfrpgc/is_the_isaqb_cpsaf_certification_worth_it_for/</guid>
+      <pubDate>Fri, 27 Feb 2026 00:32:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>前端不适合我吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfqt3h/is_front_end_just_not_for_me/</link>
+      <description><![CDATA[大家好。 我是一名新手程序员，也是一名 CS 学生。到目前为止，我的大部分编码时间都是使用 C 语言，但我也使用过一些 Python。我现在花了一个月左右的时间学习前端开发，我已经完全鄙视它了。我觉得我的大部分时间都花在复制粘贴和谷歌搜索“正确的”内容上。方式做某事，而在后端，我只需要快速浏览一下文档，并用我自己的解决问题的能力找到解决方案。 我做错了什么吗？我是否以错误的方式接触 webdev，或者前端开发与后端开发如此不同，以至于我永远不会喜欢它？就上下文而言，到目前为止我只使用了 HTML、CSS、JavaScript 和 Bootstrap，但我想尽快开始学习 PHP，看看它是否更好用。 请不要建议使用 Vivi 编码或任何类型的 AI 拐杖。我仍在学习，这只会阻碍我现在的进步。 谢谢！   由   提交 /u/TaurusAstrarum   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfqt3h/is_front_end_just_not_for_me/</guid>
+      <pubDate>Thu, 26 Feb 2026 23:55:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>部署在哪里</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfq85c/where_to_deploy/</link>
+      <description><![CDATA[建议我一些易于部署的站点   由   提交/u/thu_bevarsi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfq85c/where_to_deploy/</guid>
+      <pubDate>Thu, 26 Feb 2026 23:31:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>有什么办法可以上诉虚假标记的 Github 域名吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfpy7t/any_way_to_appeal_false_flagged_github_domain/</link>
+      <description><![CDATA[您好，我想问是否有人有过将您的 Github 页面域错误标记的经验。我注意到我的互联网提供商阻止了对其的访问，如果我检查 VirusTotal 上的 URL，它会被标记为网络钓鱼。我托管的只有个人项目和静态网站，您可以在其中选择一个文件并在客户端对其进行处理，不会在任何地方发送或上传任何内容。以下是来自 VirusTotal 的链接以及我的 Github 页面上的内容： https://www.virustotal.com/gui/domain/p1ayer4312.github.io  https://www.virustotal.com/gui/url/421ee4ba8db642b789afca55bc1cfd429b726cb407bf7e353356a7e5133918be https://github.com/P1ayer4312/p1ayer4312.github.io 我真的不知道该怎么办，唯一想到的是如果有人大量报告该网址或者人工智能代理犯了错误，我的帐户从未被黑客入侵，没有上传任何恶意内容或从任何人那里夺走的。欢迎任何建议。   由   提交/u/P1ayer4312  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfpy7t/any_way_to_appeal_false_flagged_github_domain/</guid>
+      <pubDate>Thu, 26 Feb 2026 23:20:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>哪个数据库最适合我的医疗保健预订网站 PostgreSQL 或 MongoDB？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfpre5/which_database_is_best_for_my_healthcare_booking/</link>
+      <description><![CDATA[嗨 Reddit， 我正在建立一家小型医疗保健初创公司，拥有：  Doctors &amp;患者 预约 药品 带有图像的博客  我很困惑是否使用PostgreSQL或MongoDB作为我的主数据库。  需要结构化数据+关系 博客图像可以存储在Cloudinary  希望你的关于什么更好的建议以及原因！ 提前致谢🙏   由   提交 /u/Last-Salary-6012   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfpre5/which_database_is_best_for_my_healthcare_booking/</guid>
+      <pubDate>Thu, 26 Feb 2026 23:13:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找有关即插即用仪表板库的建议，以响应 Clickhouse 分析</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfp0rf/looks_for_suggestion_for_an_plug_play_dashboard/</link>
+      <description><![CDATA[我想使用从我的 Click House 获取的内部分析来重构我的仪表板。 我的仪表板应该由两层分组组成，有一个组织级别，主要作为管理底层实体的抽象。这些实体都是组织的一部分。因此，当导航到实体时，您会看到实体级指标和分析图表。 有一个实体开关可以帮助您轻松地在它们之间导航，而无需转到组织页面并选择实体。 我目前正在使用 React 和 React 查询，zustand 进行管理。它还与托管 SSO 建立连接以进行身份​​验证。  对于库，我使用 shadcn 和 Apache echarts。这些数据不仅是具有不同存储桶的时间序列，而且还与地理相关。 我尝试使用 shadcn 中的一些预构建模板，但仪表板的整体感觉似乎质量不高，而且图表的表现也不像我想要的那样。 您能否建议在 shadcn 模板上使用任何已制作的库，我可以稍微调整一下，并在最少干预的情况下具有相同的逻辑？适合非技术用途的干净 UI 风格是关键。必须干净无噪音。过滤器按钮和滑块可以让用户能够浏览数据并进行理解。 TLDR：我正在考虑将使用 shadcn 和 Apache echarts 构建的基于分析 Click House 的 React 仪表板重构为准备好的东西，以避免 UI 不均匀。   由   提交/u/Pr0xie_official  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfp0rf/looks_for_suggestion_for_an_plug_play_dashboard/</guid>
+      <pubDate>Thu, 26 Feb 2026 22:44:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>在大学的计算机科学中，有教授线性代数的数学课程。但为什么我从来没有看到或听到人们在网络开发中使用它，哈哈？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rfncpj/in_cs_at_uni_there_is_math_courses_teaching_this/</link>
+      <description><![CDATA[   大部分 Web 开发工作是阅读文档、将 API 集成到我们的代码库、编写业务逻辑并执行 FE 但是 CS 再次让你做好准备，让你不仅仅是一名 Web 开发人员，这样你就可以成为 AI/ML 工程师或其他什么    由   提交/u/lune-soft  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rfncpj/in_cs_at_uni_there_is_math_courses_teaching_this/</guid>
+      <pubDate>Thu, 26 Feb 2026 21:40:27 GMT</pubDate>
+    </item>
     <item>
       <title>如何处理动画资产？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rfmj9t/how_to_handle_animated_assets/</link>
@@ -15,16 +92,9 @@
     <item>
       <title>寻求有关职业方向的建议</title>
       <link>https://www.reddit.com/r/webdev/comments/1rfmj3v/looking_for_advice_about_career_direction/</link>
-      <description><![CDATA[Hi all, I’ve been a backend dev for 6 years in small startups.I am most comfortable with Node/TypeScript, but have experience in some other languages too. I’ve done everything from sql/nosql, CRUD and payment integrations to blockchain and AI/RAG systems. Because of the nature of small teams, I’ve had to do some of everything like frontend and mobile as well in the past. Lately my work has been more devops-focused.我设计数据库模式，考虑索引和规范化/非规范化，处理 k8s 迁移，设置集群的监控和可观察性，从 nginx-ingress 迁移到网关 API（因为它已弃用），并为预览环境创建 CI/CD 管道。完成这些任务让我意识到我比纯粹的编码更喜欢这种类型的工作。 我目前的角色是临时的，所以我需要尽快找到新的东西。  我有使用 k8s 和小型云提供商的经验，过去也使用过一些 AWS 和 GCP，但只使用了基本的云计算和存储，因为我工作过的公司都不需要更多的东西。我感到有点迷失方向，不确定下一步该做什么。 我有几个问题：  对于像我这样的人来说，接下来什么角色有意义？ Devops/SRE, cloud, fullstack, backend/AI? Should I go for AWS/GCP certifications, or just learn on my own? What is the IT industry like now, and where is it headed in the next few years?  I also struggle with interviews. Live coding kills me, I’m better at system design but overall I don’t perform well. I appreciate any feedback.   由   提交 /u/CreepyPalpitation902   [link] [comments]]]></description>
+      <description><![CDATA[大家好， 我在小型初创公司担任后端开发人员已经有 6 年了。我最喜欢 Node/TypeScript，但也有其他一些语言的经验。我做过从 sql/nosql、CRUD 和支付集成到区块链和 AI/RAG 系统的所有工作。由于小团队的性质，我过去也不得不做一些事情，比如前端和移动。 最近我的工作更加注重 DevOps。我设计数据库模式，考虑索引和规范化/非规范化，处理 k8s 迁移，设置集群的监控和可观察性，从 nginx-ingress 迁移到网关 API（因为它已弃用），并为预览环境创建 CI/CD 管道。完成这些任务让我意识到我比纯粹的编码更喜欢这种类型的工作。 我目前的角色是临时的，所以我需要尽快找到新的东西。  我有使用 k8s 和小型云提供商的经验，过去也使用过一些 AWS 和 GCP，但只使用了基本的云计算和存储，因为我工作过的公司都不需要更多的东西。我感到有点迷失方向，不确定下一步该做什么。 我有几个问题：  对于像我这样的人来说，接下来什么角色有意义？ Devops/SRE、云、全栈、后端/AI？ 我应该参加 AWS/GCP 认证，还是自学？ IT 行业现在是什么样子，未来几年会走向何方？  我也很难接受面试。实时编码杀了我，我更擅长系统设计，但总的来说我表现不佳。感谢您提供任何反馈。   由   提交 /u/CreepyPalpitation902   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rfmj3v/looking_for_advice_about_career_direction/</guid>
       <pubDate>Thu, 26 Feb 2026 21:09:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>是我一个人的问题，还是现代 Web 开发正在变得 90% 配置和 10% 编码？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfmb2k/is_it_just_me_or_is_modern_web_dev_becoming_90/</link>
-      <description><![CDATA[我觉得我现在花在构建工具、tsconfigs 和云控制台设置上的时间比实际编写逻辑的时间多得多。其他人错过了“只是一个脚本标签和一个梦想”时代还是我只是变老了？   由   提交/u/Tent_Of_Tech  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfmb2k/is_it_just_me_or_is_modern_web_dev_becoming_90/</guid>
-      <pubDate>Thu, 26 Feb 2026 21:01:41 GMT</pubDate>
     </item>
     <item>
       <title>Spotify API 的更改</title>
@@ -34,81 +104,11 @@
       <pubDate>Thu, 26 Feb 2026 20:49:07 GMT</pubDate>
     </item>
     <item>
-      <title>在某些公司的营销团队中，他们有一个“SEO专家”的头衔，但这不是FE开发人员的责任吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfkheh/in_some_company_in_a_marketing_team_they_have_a/</link>
-      <description><![CDATA[正如标题所说，我还是在学习   由   提交 /u/lune-soft   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfkheh/in_some_company_in_a_marketing_team_they_have_a/</guid>
-      <pubDate>Thu, 26 Feb 2026 19:54:18 GMT</pubDate>
-    </item>
-    <item>
       <title>我构建了一个简单、隐私第一的 GIF 制作工具，可以完全在浏览器中运行</title>
       <link>https://www.reddit.com/r/webdev/comments/1rfk4qs/i_built_a_simple_privacy_first_gif_maker_that/</link>
       <description><![CDATA[      我几乎每天都在文档中使用 GIF。它们非常适合展示快速的 UI 流程、展示小功能和循环上下文，而无需强迫某人观看完整的视频。我喜欢它们像图像一样便携，但仍然可以清晰地传达运动。 这实际上是从我为自己编写的一个基于 FFmpeg 的小型 shell 脚本开始的。它工作得很好，但需要使用终端。我意识到并不是每个人都想使用 shell 甚至安装 FFmpeg，因此我将其变成了一个任何人都可以在任何地方使用的小型 Web 应用程序。 大多数在线视频转 GIF 工具都充斥着广告、强加文件大小限制、添加水印，或者让你怀疑它们是否存储上传的文件。这让我感觉很不舒服，尤其是在处理内部演示时。 因此，我在光标的帮助下使用 ffmpeg.wasm 重建了该工具，并将其托管在 Vercel 上。一切都完全在浏览器中运行。没有上传，没有服务器端处理，也没有文件存储。您的视频永远不会离开您的机器。 我收集的唯一分析数据是总访问者和唯一访问者。仅此而已。 我主要构建这个，因为我确实在文档和产品演示中大量使用 GIF，并且我想要一些简单且值得信赖的东西。如果您还依赖 GIF 来进行文档或快速演示，我很想听听您如何处理它。 链接：https://gif-x.vercel.app/ *使用 GPT 来改写我的文本。  演示   由   提交/u/salmanfarisvp   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rfk4qs/i_built_a_simple_privacy_first_gif_maker_that/</guid>
       <pubDate>Thu, 26 Feb 2026 19:41:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>来自南美的初级/中级开发人员——北美/欧洲非大型科技职位的面试技术性如何？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfjgwv/juniormidlevel_dev_from_south_america_how/</link>
-      <description><![CDATA[大家好， 我是一名来自南美的初级/中级全栈开发人员，目标是在北美或欧洲的一家公司（主要是初创公司或中型公司，而不是大型科技公司）找到一份远程工作。 我试图了解这些市场中面试流程的实际情况。对于那些在北美或欧洲的非大型科技公司工作的人： 你们有过 LeetCode 式的算法面试吗？他们对数据结构和 Big O 的研究有多深？有现场编码吗？他们是否询问初级/中级的系统设计问题？ 还是更注重实际经验和过去的项目？ 我的堆栈主要是 JavaScript（Node + React），并且我在类似生产的环境中构建了全堆栈应用程序。我目前正在加强我的基础知识，但我想知道实际的期望是什么。 我非常感谢听到您的经历。   由   提交 /u/Tricky_Calendar8130   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfjgwv/juniormidlevel_dev_from_south_america_how/</guid>
-      <pubDate>Thu, 26 Feb 2026 19:16:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>编码帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfjcbk/coding_help/</link>
-      <description><![CDATA[我正在一个工作委员会工作，几乎没有编码经验。我已经在 WordPress 中构建了所有内容，并且功能齐全（我不确定我能走到这一步）。  我正在制作最后的作品之一，正在插入一个由原始 Iframe 包含的表单，该原始 Iframe 已编码到我们的另一个页面上。我编写的代码位于经典的 HTML 块上，并且我没有使用 Iframe 进行其他任何操作。表单字段可以工作，但我添加到其中的任何 css 样式都不起作用。尽管控制台读取了样式。我被困住了，不知道下一步该做什么。  如果这不是正确的地方，我会删除，但想知道是否有人可以帮助我。    由   提交/u/Brandonn861   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfjcbk/coding_help/</guid>
-      <pubDate>Thu, 26 Feb 2026 19:11:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在不发送 20 页报告的情况下与客户共享 PageSpeed/Lighthouse 结果？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfiiad/how_do_you_share_pagespeedlighthouse_results_with/</link>
-      <description><![CDATA[每当性能出现时，选项都会让人感觉很糟糕：  原始 Lighthouse 屏幕截图（看起来很业余） GTmetrix 风格的报告（技术性太强/太长） 自定义幻灯片（耗时）  对于从事客户工作或内部 Web 性能的人员：  什么格式实际上会起作用？ （屏幕截图、1 页 PDF、公共链接、仪表板？） 客户关心 Core Web Vitals，还是只关心“网站感觉很快”？ 如果您确实发送报告，您至少要包含哪些内容？  我正在尝试了解什么在现实生活中有效（而不是理论）。   由   提交/u/robert_micky   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfiiad/how_do_you_share_pagespeedlighthouse_results_with/</guid>
-      <pubDate>Thu, 26 Feb 2026 18:41:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>iFrame Resizer 替代方案，永久免费。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfhra2/iframe_resizer_alternative_free_forever/</link>
-      <description><![CDATA[我从头开始编写了自己的 iFrame resizer，现在可以在 Github 和 NPM 上供任何人使用。永远免费和开源。我称之为 iFrame Adjuster。 https://github.com/interactiveRob/iframe-adjuster 最初的 iFrame Resizer 最近开始需要付费许可证才能在商业项目中使用，这很奇怪，因为现在完成 iFrame 的动态调整大小比我们要处理很多浏览器时要容易得多...你知道，回来当 iFrame Resizer 免费时🤔 我知道其他人已经抢先了我，但你永远不知道谁会留下来维护他们的存储库。有选择总是好的。   由   提交/u/TomCollins1284  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfhra2/iframe_resizer_alternative_free_forever/</guid>
-      <pubDate>Thu, 26 Feb 2026 18:14:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>不安全……但看起来确实如此。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfhk9j/not_securebut_it_looks_like_it_is/</link>
-      <description><![CDATA[当我访问网站的仪表板时，Chromium 会抛出“不安全”消息旗帜。当我点击该图标时，它显示证书有效，有一个cookie（安全），并且没有存储站点数据。开发工具“网络”选项卡显示通过 https 交付的所有内容。我什至检查了内联 svg 图像并确保 SVG 命名空间是 https。  但我仍然持有旗帜。我如何追踪这个问题？   由   提交/u/mapsedge  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfhk9j/not_securebut_it_looks_like_it_is/</guid>
-      <pubDate>Thu, 26 Feb 2026 18:07:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>OVHcloud 价格上涨</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfg3sx/ovhcloud_price_increase/</link>
-      <description><![CDATA[      仅供参考，我今天以 OVHCloud 美国用户的身份收到了这封电子邮件：  我们正在联系您，让您了解关于有限的 OVHcloud 美国裸机服务器、VPS 和其他 IP 地址的定价更新，将于 2026 年 4 月 1 日生效。自 2026 年 4 月 1 日起，定价更新将适用于所有没有承诺的有效服务。 对于有承诺的有效服务，定价更新将在这些服务的续订日期适用。如果您的续订日期在 2026 年 4 月 1 日之前，则当前定价仍然适用。仅供参考，我今天作为 OVHCloud 美国用户收到这封电子邮件：我们正在联系您，让您了解有关有限的 OVHcloud 美国裸机服务器、VPS 和其他 IP 地址的定价更新，该更新将于 2026 年 4 月 1 日生效。自 2026 年 4 月 1 日起，定价更新将适用于所有无承诺的活跃服务。对于有承诺的活跃服务，定价更新将在这些服务的续订日期适用。如果您的续订日期在 2026 年 4 月 1 日之前，则当前定价仍适用。    由   提交/u/Produkt   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfg3sx/ovhcloud_price_increase/</guid>
-      <pubDate>Thu, 26 Feb 2026 17:16:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的第一款游戏 - Lumenia</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfcbn2/my_first_game_lumenia/</link>
-      <description><![CDATA[      这是我制作的一个免费的、相当短的 HTML/JS 网页游戏。链接的文章告诉您原因和方法。最后，我只是喜欢做东西。也许你会喜欢这款游戏。 🤙 总结：你很轻，吸收更多的光，避开黑洞。   由   提交/u/3vibe  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfcbn2/my_first_game_lumenia/</guid>
-      <pubDate>Thu, 26 Feb 2026 14:57:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们应该切换到 PayloadCMS 还是使用 NextJS 的无头 WordPress？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfbxaa/should_we_switch_to_payloadcms_or_headless/</link>
-      <description><![CDATA[你好， 在我工作的公司，我们正在考虑从纯 WordPress 网站（使用 ACF 自定义编码主题，我们的自定义插件用于大多数内容）切换到： - 无头 WordPress，前端带有 React 或 NextJS - PayloadCMS，它仍然是一个无头 CMS，但纯粹是在NextJS 我们的工作 99% 的时间只是营销内容 - 为 SEO 加载带有博客的页面、专门用于营销活动的网站、少数电子商务网站。  我们正在考虑放弃 WordPress，纯粹是出于自私的原因 - 我们希望在“Wordpress 开发人员”之外的更多领域发展，因为我们大多数人都是从这里开始的，而且我们所知道的都是专业的。但我们也在我们的私人项目中使用 React，因此我们有充分的理由。 你们有人尝试过这些方法吗？什么效果更好？使用 WP REST api 或 GraphQL api 效果如何？    由   提交/u/Cyber​​Weirdo420  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfbxaa/should_we_switch_to_payloadcms_or_headless/</guid>
-      <pubDate>Thu, 26 Feb 2026 14:41:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们用什么神奇的工具从人工智能中获得好的代码</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rfak07/what_magic_tool_are_you_guys_using_to_get_good/</link>
-      <description><![CDATA[嗨 最近我一直在使用 claude opus 4.6 和 sonnet 4.6 来完成一些任务。我写了一个非常详细的claude md文件。然而，我只是没有看到其他人似乎得到的结果。 只是给你一个例子。我编写了一些代码并重构了一些与模块相关的内容。然后我要求 opus 为其编写剧作家自动化（特定页面），它做了很多事情，花了大约 10 分钟，并且多次测试失败。然后它进入一个思考循环，进行一些修复，更多的测试失败，回到循环，这又持续了十五分钟，然后我停止了它，谁知道这段时间花费了多少令牌。 然后我查看了代码，它对我们如何设置服务层以及应该如何模拟它有一个根本性的误解。我已经在 claude md 文件中具体解释了这一点，但似乎它只是决定忽略这些说明。  还有一次，我需要它为词法编辑器编写一个自定义插件，公平地说，这是一个相当复杂的要求，我给了它一堆指导，即使它未能交付。 另一个例子是使用编码模式，我非常明确地要求克劳德在遇到某种类型的任务时使用工厂模式，但它似乎永远不会这样做，除非我在提示中指定它。 看起来它并没有失败所有的任务时间，它对于你的日常任务非常好，比如 api 更改、一些小到中级重构，我想这是大多数人使用它的目的，但一旦你要求它做一些远程复杂或开箱即用的事情，它就会惨败。 人们变得如此大肆宣传，因为它可以一次性仪表板应用程序、简单的游戏等，但我每天都会遇到很多问题。 我仍然每天使用它作为辅助工具，但它很神奇不是。   由   提交 /u/falconandeagle   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rfak07/what_magic_tool_are_you_guys_using_to_get_good/</guid>
-      <pubDate>Thu, 26 Feb 2026 13:45:40 GMT</pubDate>
     </item>
     </channel>
 </rss>

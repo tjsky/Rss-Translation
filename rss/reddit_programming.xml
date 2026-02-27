@@ -4,7 +4,56 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 26 Feb 2026 21:29:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 01:43:30 GMT</lastBuildDate>
+    <item>
+      <title>节省 90% 的 API 调用</title>
+      <link>https://www.reddit.com/r/programming/comments/1rft81z/save_90_of_api_calls/</link>
+      <description><![CDATA[大家好， 当你最大化 LLM 的上下文窗口时，它会变得多么昂贵和缓慢，这让我感到沮丧。为了解决这个问题，我构建了ICM内存层来为代理提供持久的、无限的内存。 以下是它在幕后的作用：  无限上下文：用高速向量检索替换标准上下文窗口。 并行Map-Reduce：立即提取准确的事实，而不是将数百万个令牌转储到提示中（优于标准） RAG）。 大规模成本削减：仅向 LLM 提供其需要了解的信息，从而大幅降低 API 令牌成本。  我刚刚部署了一个现场演示，我很想从构建 AI 代理的其他开发人员那里获得反馈：https://huggingface.co/spaces/mhndayesh/icm-memory-layer 让我知道您的想法或者如果您对架构有疑问！   由   提交/u/Repulsive_Ad_94   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rft81z/save_90_of_api_calls/</guid>
+      <pubDate>Fri, 27 Feb 2026 01:39:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>.env 文件和安全管理初学者指南 |作者：艾哈迈德·布谢弗拉 | 2026 年 2 月</title>
+      <link>https://www.reddit.com/r/programming/comments/1rfsybw/the_beginners_guide_to_env_files_security/</link>
+      <description><![CDATA[ 由   提交/u/ahnerd  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rfsybw/the_beginners_guide_to_env_files_security/</guid>
+      <pubDate>Fri, 27 Feb 2026 01:27:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 内核 2026 中的 Rust：微软从 C++ 的转变</title>
+      <link>https://www.reddit.com/r/programming/comments/1rfrsuh/rust_in_windows_kernel_2026_microsofts_shift_from/</link>
+      <description><![CDATA[ 由   提交/u/Tent_Of_Tech  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rfrsuh/rust_in_windows_kernel_2026_microsofts_shift_from/</guid>
+      <pubDate>Fri, 27 Feb 2026 00:36:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google API 密钥不是秘密。但后来双子座改变了规则。</title>
+      <link>https://www.reddit.com/r/programming/comments/1rfr1jg/google_api_keys_werent_secrets_but_then_gemini/</link>
+      <description><![CDATA[ 由   提交 /u/Chaoticblue3   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rfr1jg/google_api_keys_werent_secrets_but_then_gemini/</guid>
+      <pubDate>Fri, 27 Feb 2026 00:04:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Emacs 是 C 语言的 Lisp 运行时，而不是编辑器</title>
+      <link>https://www.reddit.com/r/programming/comments/1rfq42k/emacs_is_a_lisp_runtime_in_c_not_an_editor/</link>
+      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rfq42k/emacs_is_a_lisp_runtime_in_c_not_an_editor/</guid>
+      <pubDate>Thu, 26 Feb 2026 23:26:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>了解 Go 运行时：内存分配器</title>
+      <link>https://www.reddit.com/r/programming/comments/1rfq2lj/understanding_the_go_runtime_the_memory_allocator/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rfq2lj/understanding_the_go_runtime_the_memory_allocator/</guid>
+      <pubDate>Thu, 26 Feb 2026 23:25:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>您可能错过的现代 C 语言更新 — C3 0.7.10</title>
+      <link>https://www.reddit.com/r/programming/comments/1rfpxxi/a_modern_c_language_update_you_mightve_missed_c3/</link>
+      <description><![CDATA[C3 0.7.10 已发布。 此版本引入了 constdef，用于定义组常量。它取代了旧的“const enum”。方法，并且更好地匹配 C 程序员通常使用枚举构造常量组的方式。 此版本中的其他改进： • 大大改进了 MSVC 交叉编译 • 生活质量修复 • 自定义 LLVM 构建以减少外部依赖性 完整的文章和示例： https://c3-lang.org/blog/c3-0-7-10-constdef-finally-takes-shape/   由   提交/u/Nuoji  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rfpxxi/a_modern_c_language_update_you_mightve_missed_c3/</guid>
+      <pubDate>Thu, 26 Feb 2026 23:20:09 GMT</pubDate>
+    </item>
     <item>
       <title>使用 .NET Native AOT 离线游戏</title>
       <link>https://www.reddit.com/r/programming/comments/1rfmrl4/offlining_a_live_game_with_net_native_aot/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rfgzit/making_webassembly_a_firstclass_language_on_the/</guid>
       <pubDate>Thu, 26 Feb 2026 17:46:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>对代码性能进行单元测试，第 2 部分：测试速度变化</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfgzdc/unit_testing_your_codes_performance_part_2/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfgzdc/unit_testing_your_codes_performance_part_2/</guid>
-      <pubDate>Thu, 26 Feb 2026 17:46:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过嵌入式 Linux 设备上的存储加密实现数据机密性</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfgytw/data_confidentiality_via_storage_encryption_on/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfgytw/data_confidentiality_via_storage_encryption_on/</guid>
-      <pubDate>Thu, 26 Feb 2026 17:46:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用任意或不规则调色板进行有序抖动</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfgyho/ordered_dithering_with_arbitrary_or_irregular/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfgyho/ordered_dithering_with_arbitrary_or_irregular/</guid>
-      <pubDate>Thu, 26 Feb 2026 17:45:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过类型定制更快地发展语言</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfgy97/evolving_languages_faster_with_type_tailoring/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfgy97/evolving_languages_faster_with_type_tailoring/</guid>
-      <pubDate>Thu, 26 Feb 2026 17:45:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Snakes.run：通过 ssh 每秒渲染 1 亿像素 ·</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfgy2v/snakesrun_rendering_100m_pixels_a_second_over_ssh/</link>
-      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfgy2v/snakesrun_rendering_100m_pixels_a_second_over_ssh/</guid>
-      <pubDate>Thu, 26 Feb 2026 17:45:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>反对基于查询的编译器</title>
-      <link>https://www.reddit.com/r/programming/comments/1rfgx8x/against_query_based_compilers/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rfgx8x/against_query_based_compilers/</guid>
-      <pubDate>Thu, 26 Feb 2026 17:44:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>规划和执行成功的托管迁移</title>
-      <link>https://www.reddit.com/r/programming/comments/1rff19y/planning_and_executing_a_successful_hosting/</link>
-      <description><![CDATA[ 由   提交/u/AltruisticPrimary34  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rff19y/planning_and_executing_a_successful_hosting/</guid>
-      <pubDate>Thu, 26 Feb 2026 16:37:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
