@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 27 Feb 2026 09:38:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 12:49:19 GMT</lastBuildDate>
+    <item>
+      <title>我的 ThinkBook Plus Gen 1 电子墨水盖显示屏可在 Linux 上运行 — 第一个开源驱动程序</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rg31p1/i_got_the_thinkbook_plus_gen_1_eink_lid_display/</link>
+      <description><![CDATA[       由   提交 /u/Still_Complex8652   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rg31p1/i_got_the_thinkbook_plus_gen_1_eink_lid_display/</guid>
+      <pubDate>Fri, 27 Feb 2026 10:23:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我制作一个可在浏览器中运行的 PicoBlaze 汇编器和仿真器是否会破坏 Xilinx（即 AMD）的作者权，即使它没有使用实际 PicoBlaze 中的任何代码？如果是这样，我被起诉的可能性有多大？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rg2nhh/is_me_making_a_picoblaze_assembler_and_emulator/</link>
+      <description><![CDATA[因此，我开始开发一个项目，它是可在浏览器中运行的 Xilinx PicoBlaze 软处理器的汇编器和模拟器。它是用 JavaScript 编写的，并且不使用实际 Xilinx PicoBlaze 中的代码（用 VHDL 和 Verilog 编写）。事实上，我什至没有研究过原始的 PicoBlaze 源代码。 您可以通过键入“PicoBlaze Simulator”来获取它。当你进入 Google 或 Bing 时，它很可能是第一个出现的东西。 它已经发展成为一个国际开源项目，截至撰写本文时，有来自世界各地的七名贡献者。 我担心这违反了版权法。我不知道 API 在欧盟（我居住的地方）是否可以受版权保护。我知道美国最高法院在甲骨文诉谷歌案中裁定，Android 中的 Davlik 虚拟机并未侵犯甲骨文的著作权，但是，我不确定欧盟的情况如何。欧盟的法律有何不同？在这种情况下，PicoBlaze 是一个 API，很像 Java 字节码，对吗？   由   提交 /u/FlatAssembler   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rg2nhh/is_me_making_a_picoblaze_assembler_and_emulator/</guid>
+      <pubDate>Fri, 27 Feb 2026 10:00:01 GMT</pubDate>
+    </item>
     <item>
       <title>开源/平台的时代已经到来。</title>
       <link>https://www.reddit.com/r/opensource/comments/1rfwj5i/the_age_where_opensourceplatforms_is_here/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[我构建了我的第一个开源 CLI 工具 nextauthforge - 使用单个命令将生产就绪的 JWT 身份验证系统构建到任何 Next.js App Router 项目中： npx nextauthforge init  它生成的内容  使用 httpOnly cookie 进行 JWT 身份验证（无本地存储） MongoDB + Mongoose 设置 登录、注册、注销、/me API 路由 基于中间件的路由保护 登录、注册、仪表板、个人资料页面 useAuth 挂钩 自动安装所有必需的依赖项  为什么构建它 每次启动新的 Next.js 项目时，我都会花费数小时编写相同的身份验证样板。 因此，我将整个设置打包到 CLI 中，以使项目设置即时且一致。 当前限制 (v1) 对现在缺少的内容保持透明：  没有 Google/GitHub OAuth（尚） 没有刷新令牌 - 单一访问令牌（1 天过期） 仅限 MongoDB 没有电子邮件验证  所有这些都计划在即将发布的版本中提供。 我想首先发布一个干净、稳定的 v1，并根据真实反馈对其进行改进。 链接 npm： https://www.npmjs.com/package/nextauthforge 非常希望得到反馈——尤其是来自构建生产 Next.js 应用程序的人们的反馈 🙌   由   提交 /u/ChoiceConstruction80   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rf368d/i_built_a_cli_that_adds_jwt_auth_to_any_nextjs/</guid>
       <pubDate>Thu, 26 Feb 2026 06:51:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>SevenDB：反应式但可扩展</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rf27b4/sevendb_reactive_yet_scalable/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rf27b4/sevendb_reactive_yet_scalable/</guid>
-      <pubDate>Thu, 26 Feb 2026 05:55:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>项目架构建议</title>
-      <link>https://www.reddit.com/r/opensource/comments/1reudvn/project_architecture_advice/</link>
-      <description><![CDATA[我过去制作了一些程序，但我的下一个项目有所不同，我可以使用一些建议，它实际上是什么并不是非常重要（对于那些好奇的人来说，它在最后），但重要的是它将在专用迷你电脑上运行（碰巧有一个，会使用树莓派，如果我有的话），它是一个图形应用程序，支持触摸屏，但我从来没有只为一件事设置设备，我是否只安装一个裸机 Linux 发行版，然后在 docker 中运行它？或者是否有针对此类事情优化的发行版？我计划将其开源（显然，否则我为什么会在这里），所以我希望它能够轻松安装，这就是我考虑使用 docker 的原因，但说实话，我从未制作过 docker 应用程序，所以我不确定它是否合适。 它实际上是什么，它是一种数码相框，可以完成商用相框可以做的所有事情，例如远程添加照片或视频，然后播放幻灯片，但我也想要更多类型的“媒体”就像运行有趣的物理模拟的 python 脚本，或者旧的 Windows 屏幕保护程序，其中设置了它将经历的内容   由   提交 /u/GoodForADyslexic   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1reudvn/project_architecture_advice/</guid>
-      <pubDate>Wed, 25 Feb 2026 23:56:53 GMT</pubDate>
     </item>
     </channel>
 </rss>

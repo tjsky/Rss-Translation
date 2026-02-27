@@ -4,7 +4,56 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Fri, 27 Feb 2026 09:35:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 12:47:13 GMT</lastBuildDate>
+    <item>
+      <title>全自动人工智能代理在营销方面是否被高估了？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg5p1p/are_fully_automated_ai_agents_overrated_for/</link>
+      <description><![CDATA[ 由   提交 /u/Whaaat_AI   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg5p1p/are_fully_automated_ai_agents_overrated_for/</guid>
+      <pubDate>Fri, 27 Feb 2026 12:45:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么大多数 AI 工作流程会失败（以及实际有效的方法）</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg3th0/why_most_ai_workflows_fail_and_what_actually_works/</link>
+      <description><![CDATA[我看到了很多关于 AI 代理“无法交付”的帖子。 老实说，我不认为问题出在代理上。 这是基础。 每个人都在追逐自主代理的叙述，但跳过了底层的无聊工作。 Salesforce 的数据和分析状况报告称，84% 的数据领导者认为，在人工智能取得成功之前，他们的数据策略需要全面改革。  我们正尝试在分散的堆栈之上分层智能代理： - 断开连接的工具 - 混乱的数据管道 - 没有明确的编排 - 系统之间的手动切换 当然会中断。 现在发生的真正转变不是“更好的人工智能”。 更好编排。 获得结果的团队并不是自动执行单个任务。 他们正在设计端到端工作流程： - 发票 → 批准 → 会计同步 - 领导 → 充实 → 评分 → 路由 → CRM 更新 - 新员工 → 供应 → 入职 → 报告 人工智能只有嵌入到一个干净、互联的系统中才能发挥作用，而不是漂浮在混乱。 我一直在测试不同的平台，看看这在实践中是否有效。有些仍然脆弱且昂贵。其他人则很难超越基本的自动化。 最近对我来说更有效的是在 Latenode 等工具中构建结构化、精心编排的工作流程 - 您可以在其中连接数百个应用程序，直观地定义流程，并在实际需要推理的地方插入人工智能。编排层处理集成和执行。人工智能处理流程内的决策。 这种分离是巨大的。 当您的集成集中且工作流程可观察时，代理就不再是炒作，而是开始成为可靠的操作员。 很好奇 - 您是首先关注编排，还是仍在尝试使代理优先的设置在混乱的堆栈上工作？   由   提交 /u/schilutdif   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg3th0/why_most_ai_workflows_fail_and_what_actually_works/</guid>
+      <pubDate>Fri, 27 Feb 2026 11:06:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了一个自动创建不露面视频的人工智能代理</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg3hfh/built_an_ai_agent_that_creates_faceless_videos/</link>
+      <description><![CDATA[我最近使用 n8n 构建了一个 AI 代理，它可以从头到尾自动创建不露脸的视频，主要是作为一个实验，看看视频制作过程中有多少内容可以真正实现自动化。 我想要一个能够将整个管道作为一个系统处理的工作流程，而不是手动研究主题、编写脚本和逐段组装视频。设置完所有内容后，该流程现在只需最少的手动输入即可运行。工作流程的组合方式如下： 设置并托管一个 n8n 实例以可靠地管理自动化 导入结构化工作流程并对其进行自定义以适应视频管道 连接多个 AI 服务以处理研究、编写和处理 使用 OpenAI 生成内容和脚本创意 集成 Tavily AI 以自动收集相关信息 添加 Claude 以进行更深入的语言处理和细化 使用 JSON2Video 设计了一个可重用的视频模板 将模板和 API 链接到自动视频渲染的工作流程中 连接电子邮件通知，以便自动发送更新和结果 构建过程中最突出的是，当每个步骤自动进入下一个步骤时，不同的内容创建感觉如何。该工作流程不是杂耍工具和重复相同的任务，而是按顺序处理研究、生成和生产。它仍在不断发展，但将视频创建转变为自动化管道而不是手动例行程序一直是一种非常有趣的学习体验，特别是对于探索可扩展内容系统的任何人来说。   由   提交 /u/Safe_Flounder_4690   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg3hfh/built_an_ai_agent_that_creates_faceless_videos/</guid>
+      <pubDate>Fri, 27 Feb 2026 10:48:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI代理对于B2B来说是“隐藏”的管理噩梦吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg36j4/are_ai_agents_a_hidden_management_nightmare_for/</link>
+      <description><![CDATA[我一直在考虑将 AI 代理添加到我们的 B2B 工作流程中，以处理客户支持和自动跟进等事务。这项技术很棒，但我越看它，我就越担心“第二天”的情况。似乎没有人谈论的问题。 现在，感觉每次我们想要运送代理时，我们都必须构建一个完整的独立系统以确保其安全。我说的是诸如支出限制之类的事情，这样人工智能就不会在周末消耗 5,000 美元，或者“终止开关”。以防它开始对客户说一些奇怪的事情。我接触过的大多数团队每次都只是将这些规则硬编码到代理的代码中。 这似乎是一种巨大的时间浪费。如果我们最终有 5 或 10 名特工，我们将拥有 10 个不同的“安全系统”来管理。感觉就像我们每个月都在重新发明轮子，只是为了确保人工智能不会做一些令人尴尬或昂贵的事情。 对于这里的创始人和企业主，你们实际上是如何管理这个的？您只是让您的开发人员构建自定义“守卫”吗？对于每一项新功能，或者是否有更好的方法来在一个地方控制所有人工智能代理？我试图弄清楚我是否过度考虑了风险，或者我们是否只是在等待更好的方法来大规模管理这些事情。   由   提交 /u/Loud_Cauliflower_928   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg36j4/are_ai_agents_a_hidden_management_nightmare_for/</guid>
+      <pubDate>Fri, 27 Feb 2026 10:30:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何与 13 名 AI 代理组成的团队实现营销自动化 — 完整的 OpenClaw 设置指南</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg32dg/how_i_automated_my_marketing_with_a_team_of_13_ai/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg32dg/how_i_automated_my_marketing_with_a_team_of_13_ai/</guid>
+      <pubDate>Fri, 27 Feb 2026 10:24:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动化我们的客户接收：表单 → webhook → CRM → Slack</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg2ov2/automated_our_client_intake_form_webhook_crm_slack/</link>
+      <description><![CDATA[我们最终实现了手动接收流程的自动化，该流程过去涉及电子邮件和复制粘贴到我们的 CRM 中。  新流程： 客户端填写表单 → Webhook 触发 → 创建 CRM 记录 → Slack 通知  有用的部分不仅仅是自动化，还在于了解人们在哪里放弃表单。事实证明，其中一个字段导致了最多的下降。  我们发现在点形式中使用表单分析，因为它显示了完成和字段级别的下降。  简化该字段后，完成率显着提高。真的很想知道...这里的其他人使用什么来进行摄入自动化触发器。   由   提交 /u/Ambitious-Hope3868   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg2ov2/automated_our_client_intake_form_webhook_crm_slack/</guid>
+      <pubDate>Fri, 27 Feb 2026 10:02:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>我认为我更喜欢逆向工程而不是全栈</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg2bxf/i_think_i_enjoy_reverse_engineering_more_than/</link>
+      <description><![CDATA[最近我意识到了一些关于自己的事情 比起传统的全栈工作，我更喜欢逆向工程和自动化 我仍然构建全栈应用程序 React Next Node APIs  但真正吸引我的是分解系统并了解它们实际工作方式 这个网站如何加载数据 这个请求来自哪里 这个会话是如何处理的 什么触发了这个工作流程 什么可以自动化 将一个混乱的重复过程变成一个干净的自动化流程会让人上瘾 特别是当它没有记录并且你必须自己弄清楚的时候 我最近所做的大部分工作都涉及为其他人构建小型系统 抓取数据 处理会话 连接API 自动化内部工作流程 减少手动工作 编写功能的重要性较低 更多的是深入了解系统 全栈仍然很重要，但问题越具有挑战性，我越倾向于逆向工程和自动化 我认为我只是喜欢解决路径不明显的问题 当某件事发生时的感觉经过数小时的调试后终于可以工作了   由   提交 /u/Gojo_dev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg2bxf/i_think_i_enjoy_reverse_engineering_more_than/</guid>
+      <pubDate>Fri, 27 Feb 2026 09:40:26 GMT</pubDate>
+    </item>
     <item>
       <title>我的网络爬虫已经运行了3个月了，还没有爆炸</title>
       <link>https://www.reddit.com/r/automation/comments/1rg1qez/my_web_scraper_has_been_running_for_3_months_and/</link>
@@ -48,27 +97,6 @@
       <pubDate>Thu, 26 Feb 2026 23:10:36 GMT</pubDate>
     </item>
     <item>
-      <title>到底是什么让自动化系统具有长期可扩展性和可靠性？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfliaj/what_actually_makes_automation_systems_scalable/</link>
-      <description><![CDATA[我一直在重新评估我如何实现自动化，并且注意到一种模式： 当出现问题或感觉效率低下时，本能通常是添加另一个工具、脚本或 AI 层。 但是更多的工具≠更好的系统。 对于那些构建了生产级自动化的人来说： 什么在长期稳定性和可扩展性？ - 构建前正确的流程映射？ - 强大的数据结构/规范化？ - 减少工具蔓延？ - 可观察性+日志记录？ - 错误处理和重试逻辑？ - AI 层与确定性工作流程？ 我对生产中发生故障后吸取的教训特别好奇。 是什么让您的想法从“它有效”转变为“它很强大”？   由   提交 /u/Commercial-Job-9989   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfliaj/what_actually_makes_automation_systems_scalable/</guid>
-      <pubDate>Thu, 26 Feb 2026 20:32:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>适用于 PC 的全自动且可定制的头像以及更多功能</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfkm1t/fully_automated_and_customizable_avatar_for_pc/</link>
-      <description><![CDATA[      在过去的一年里，我一直在编写一个个人项目，因为我很沮丧，因为我最想要一个能够在我的机器上实际完成工作的代理。 我构建了一个“子操作系统” AI 层（我称她为 Athena）使用 ollama 在 Windows 上本地运行，或者可以连接到 Gemini 或 chatgpt 服务器。她不只是给我文字答案，而是深度操作系统集成。我在引擎顶部放置了一个可定制的 3D 头像，只是为了给它一个很酷的 UI，但下面的自动化引擎才是它真正的核心。它还可以进行所有对话，并具有碎片内存、通过十一个实验室的默认和可自定义语音，甚至可以玩视频游戏并帮助在屏幕上完成工作。    由   提交/u/Majinkaboom   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfkm1t/fully_automated_and_customizable_avatar_for_pc/</guid>
-      <pubDate>Thu, 26 Feb 2026 19:59:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找实用建议：适用于多个客户端的 WhatsApp API（元限制、非官方与 BSP）</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfkfxq/looking_for_practical_advice_whatsapp_api_for/</link>
-      <description><![CDATA[大家好， 我正在建立一家小型 SaaS 风格的企业，为多个客户（主要是诊所和本地服务企业）提供 WhatsApp 自动化。 现在我陷入了三个选择之间，我非常感谢那些在生产中实际完成此操作的人提供的一些实用建议： ⸻ 1) 官方 WhatsApp 云API（Meta） 理论上这是“干净”的方式，但实际上却很令人头疼： • 每个客户都需要经过Meta Business验证/设置。 • 卡/账单问题（我在埃及，所以国际卡+美元账单并不总是顺利）。 • 管理每个客户单独的 WhatsApp Business 帐户/号码很快就会变得混乱。  这里有没有人找到一种干净的方法来通过云 API 管理多个客户号码，而不会陷入元官僚主义？ ⸻ 2）非官方 API（基于 QR） 这非常有吸引力，因为： • 超级简单的入门（只需从客户现有的 WhatsApp 扫描 QR）。 • 客户根本不需要接触Meta Business。  但我主要担心的是： 👉 号码禁令/速率限制/随着时间的推移不稳定 如果您在非官方 WhatsApp API 上运行代理/SaaS 超过 6-12 个月，那么实践中的真正风险有多严重？它是否可以通过良好的发送模式进行管理，还是只是一个定时炸弹？ ⸻ 3) BSP（WhatsApp 业务解决方案提供商） 这似乎是中间立场： • 通过 Meta 进行官方连接（没有“hacky”QR 内容）。 • 他们抽象化了一些复杂性。  我的问题是： • 您推荐哪些 BSP 供小型机构/SaaS 使用，而不是大型企业？ • 是否有合理的定价和良好的支持？ • 如果他们还在同一个收件箱中处理Messenger/Instagram，则额外奖励。 • 粗略地说，每个客户每月的实际成本是多少（包括对话+平台费用）？  ⸻ 上下文 • 我不只做一个客户；我做的不仅仅是一个客户。我想要可以扩展到 10 多个诊所的东西。 • 我需要一个中央架构，可以插入自动化（n8n /类似）并让客户在干净的收件箱（例如Chatwoot或内置BSP收件箱）中看到他们的对话。 • 我关心可靠性和长期稳定性，而不仅仅是快速破解。  如果您今天开始从事此类业务， 👉 您会选择什么：云 API、非官方还是 BSP？为什么？ 任何战争故事、陷阱或架构技巧都会非常有帮助。 提前致谢🙏   由   提交/u/khaled9982  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfkfxq/looking_for_practical_advice_whatsapp_api_for/</guid>
-      <pubDate>Thu, 26 Feb 2026 19:52:45 GMT</pubDate>
-    </item>
-    <item>
       <title>构建了一个通过 reCAPTCHA (0.9) 和 Cloudflare 的自动化浏览器。是什么阻碍了你的？</title>
       <link>https://www.reddit.com/r/automation/comments/1rfjsym/built_an_automation_browser_that_passes_recaptcha/</link>
       <description><![CDATA[我厌倦了每次自动化破坏，因为网站将 Playwright、Puppeteer 和 Selenium 检测为机器人。因此我修补了 Chromium 本身，将 22 个 C++ 源代码级补丁编译到二进制文件中。 Canvas、WebGL、音频、字体、GPU 字符串，全部在编译前修改。不是 JavaScript 注入，不是配置标志。 结果：网站无法将其与正常的 Chrome 会话区分开来，因为在引擎级别，它是一个。 检测测试结果： - reCAPTCHA v3：0.9 分数（人类级别，服务器验证） - Cloudflare Turnstile：通过（托管 + 非交互式） - BrowserScan、FingerprintJS、Akamai：全部clean - 通过了 30/30 的检测测试，加上我们和用户测试的数十个真实站点 我们不会绕过 recaptcha。 recaptcha 只是认为我们是一个普通的浏览器 - 因为我们就是一个。 这是一个简单的 Playwright 替代品： pip install cloakbrowser from cloakbrowser import launch browser = launch() page = browser.new_page() page.goto(&quot;url-page&quot;)  也适用于 JavaScript - npm install cloakbrowser - 同时支持 Playwright 和 Puppeteer（不建议使用 Puppeteer）。 免费、开源（github 上的 cloakbrowser）、MIT 许可证。Linux x64 和 macOS (Silicon + Intel) 现已上线，甚至在 Docker 中（Windows 即将推出）。 在您的网站上试用，并让我知道它的运行情况 - 我们在积极的开发和现实世界的反馈是推动下一个版本的动力。 更新： macOS 版本已上线！ Apple Silicon 和 Intel。 如果您之前尝试过并遇到下载错误，现在已修复。 相同的 pip install cloakbrowser / npm install cloakbrowser - 适用于您平台的二进制自动下载。 早期访问，经过 30 次测试测试，但尚未像 Linux 那样进行大规模实战测试。 如果您在 Mac 上遇到任何问题，请打开 GitHub问题。   由   提交/u/duracula  [链接] [评论]]]></description>
@@ -81,34 +109,6 @@
       <description><![CDATA[所以我工作过的每家公司都有同样的问题。您发布了 UI 更改，一半的测试脚本损坏，QA 花费数周时间重写定位器，而在此期间没有人真正发现错误。只是维护。无休止的维护。 在我的上一份工作中，一个版本发布了，该版本一整天禁用了该应用程序的所有折扣。测试是绿色的。脚本正在传递 UI 中甚至不再存在的元素。直到周一才发现它。 这对我来说是最后一根稻草。 辞掉那份工作，和两个朋友聚在一起，我们开始构建一个根本不使用定位器的测试代理。你用简单的英语写下你想要测试的内容；实际上就像简单的英语，而不是“tap element btn_42”它使用视觉模型在真实设备上运行。它以您想要的方式查看屏幕。用户界面改变？不在乎。随机弹出？处理它。不同的手机？适应。 我们已经构建它大约 14 个月了。在某些地方仍然很粗糙，但团队正在产品中使用它。一个客户从每月 15 次自动化测试增加到 200 次。另一个团队在 3 个月内没有重写测试。 主要是发帖，因为我确信是否还有其他人厌倦了基于定位器的测试并尝试了不同的方法。  如果有人好奇的话，很乐意展示我们构建的内容。虽然还早，但它确实有效。   由   提交 /u/PublicAstronaut3711   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rfivur/got_masstired_of_rewriting_appium_scripts_every/</guid>
       <pubDate>Thu, 26 Feb 2026 18:55:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>linkedin 自动化工具不会让你受到限制 - 对我来说真正有用的东西</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfef5l/linkedin_automation_tools_that_wont_get_you/</link>
-      <description><![CDATA[从事 B2B 外展工作大约一年了，在弄清楚什么有效之前，我的 linkedin 帐户受到了两次限制。分享我最终使用的东西，以防它对某人有帮助。 我学到的主要事情：大多数限制的发生是因为人们在第一天就提高了音量。开始时每天有 10-15 个连接请求，然后在 2 周内慢慢增加。不管你使用什么工具，如果你跳过这一部分，你就已经熟了。 我尝试过的： WarmySender - 这是我现在每天实际使用的。我最初得到它是为了电子邮件预热，但它也可以进行 linkedin 外展。 7 美元/席位，比大多数独立工具要便宜得多。每个帐户都有自己的代理，我认为这就是为什么我自从切换以来没有受到限制。还处理销售导航搜索。电子邮件 + linkedin 的组合在一个地方使我免于同时使用 3 种不同的工具。老实说，如果您已经在发送冷电子邮件，那么这是我发现的最佳价值。 Waalaxy - 有一个罕见的免费套餐（约 80 个邀请/月）。 chrome 扩展，因此您的计算机需要打开。如果您正在试水，这是一个很好的起点。付费计划约为 25 美元/月。 Dux-Soup - 免费计划非常基本，但很有效。永远存在。 UI 看起来像是 2015 年制作的，但它可以完成简单的工作。付费 15 美元/月。 Expandi - “溢价”。选项价格为 99 美元/月。基于云的技术很好，智能序列也很好。老实说，除非 linkedin 是您的主要渠道并且您有预算，否则这有点过分了。 Linked Helper - 另一种基于 chrome 的工具。适合刮擦和基本序列。大约 15 美元/月。可靠但没什么特别的。与较新的工具相比，感觉已经过时了。 如果您刚刚开始，可以免费使用 Warmysender 或 dux-soup。如果您已经在处理冷电子邮件并且想要添加 linkedin 而无需使用其他昂贵的工具，那么从价格角度来看，warmysender 最适合我。这是我一直坚持的一个。 还有其他人在运行 linkedin 外展服务吗？好奇什么对你们有用 rn   由   提交/u/Iammnhamza   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfef5l/linkedin_automation_tools_that_wont_get_you/</guid>
-      <pubDate>Thu, 26 Feb 2026 16:15:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>自动生成我每天的 Gemini 图像 — 从 2 小时手动变为 30 分钟免提</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfc3ce/automated_my_daily_gemini_image_generation_went/</link>
-      <description><![CDATA[我每天在 Google Gemini 上为内容页生成 20-30 张图像。手动过程简直要了我的命——粘贴提示、等待、下载、重命名、重复。  所以我构建了一个 Chrome 扩展来完成这一切。从文本文件加载提示，点击开始，完成后返回。它发送每个提示，等待生成，下载高清图像，并自动命名文件。  最棘手的部分是可靠性。 Gemini 有时会返回微小的占位符文件而不是真实图像。必须构建一个验证系统，用于检查文件大小，并在检测到错误下载时自动重试并重新加载页面。  现在我的工作流程是：在文本文件中编写提示，导入，启动，去做其他事情。  还有其他人自动化人工智能图像生成工作流程吗？好奇其他人正在使用什么工具或方法。   由   提交 /u/shahzaib_sultan   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfc3ce/automated_my_daily_gemini_image_generation_went/</guid>
-      <pubDate>Thu, 26 Feb 2026 14:48:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>文本机器人缺乏真正的支持。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rf9att/text_bots_suck_for_real_support/</link>
-      <description><![CDATA[我晚上 8 点在 Shopify 上订购了一些东西。 15 分钟后我开始担心，我的订单在哪里？我打开商店聊天，机器人很快回复了跟踪链接。有帮助，对吧？但这真的解决了我的担忧吗？ 大多数聊天机器人只是帮店主省钱。他们剪票并快速给出答案。但你仍然需要打开聊天室、打字、等待并阅读文字墙。即使速度很快，但仍然感觉很费力。 所以我开始思考……如果客户只需按网站上的一个按钮并询问“我的订单在哪里？”怎么办？并立即得到自然的口头答复。这会让人感觉更快、更容易、更人性化。它可以建立信任，减少退款，甚至可能有助于销售更多产品。 我认为文本聊天机器人是第一阶段。语音支持可能是第二阶段。也许五年后打字支持会变得过时。 Shopify 商家会迎头赶上吗？ 我错了吗？  完全披露-我正在为语音代理dograh ai构建一个开源平台-就像n8n一样并且完全开源-但是针对语音代理。所以我希望世界完全跳过基于聊天的人工智能。  您会为您的商店添加语音支持吗？很想听听您的想法。   由   提交 /u/Slight_Republic_4242   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rf9att/text_bots_suck_for_real_support/</guid>
-      <pubDate>Thu, 26 Feb 2026 12:49:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>去年我尝试过的每个人工智能聊天机器人都一样无用</title>
-      <link>https://www.reddit.com/r/automation/comments/1rf7o8d/every_ai_chatbot_ive_tried_in_the_last_year_has/</link>
-      <description><![CDATA[我发誓现在每家公司都有人工智能聊天机器人，而且它们都以完全相同的方式糟糕。我什至不是在谈论便宜的产品，我指的是来自应该更了解的公司的产品。 模式总是相同的。你遇到了一个真正的问题，你点击了小聊天气泡，并立即得到了一种奇怪的热情语气，这是人类在客户支持中从未使用过的。该机器人表现得就像是地球上最高兴听到您的账单问题的实体。已经有了一个糟糕的开始。 然后，你描述了你的实际问题，它要么给你一个自信的错误答案（我个人最喜欢的，当机器人听起来 100% 确定客观上不正确的事情），或者它只是向你重新表述你的问题，并链接到你在打开聊天之前已经阅读过的常见问题解答页面。谢谢，非常有帮助。 但是真正让我想扔掉我的笔记本电脑的部分是当你意识到机器人无法提供帮助并且你要求人工帮助时。它只是...不会让你。 “让我尽力帮忙吧！”不。“你能重新表述一下你的问题吗？”我已经改写四次了。 “这里有一些可能有帮助的文章。”我不需要文章。 这就像公司专门使用这些机器人来让获得支持变得更困难，而不是更容易。机器人不是来帮助你的，而是来引导你的。最糟糕的是他们都毫不犹豫地产生了幻觉。有人告诉我，我的帐户有一项它绝对没有的功能。我花了 20 分钟才发现机器人只是在编造事情。 我知道人工智能应该让事情变得更好，但现在感觉我们从“糟糕的电话树”变成了“糟糕的电话树”。到“坏聊天机器人”并称之为进步。其他人觉得我们正在倒退还是只有我觉得这样   由   提交 /u/cryptoviksant   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rf7o8d/every_ai_chatbot_ive_tried_in_the_last_year_has/</guid>
-      <pubDate>Thu, 26 Feb 2026 11:25:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
