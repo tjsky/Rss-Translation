@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 27 Feb 2026 12:49:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 15:37:44 GMT</lastBuildDate>
+    <item>
+      <title>随着 PC 行业转向 Windows，比尔盖茨失去了它</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rg7j84/bill_gates_loses_it_as_pc_industry_turns_on/</link>
+      <description><![CDATA[       由   提交 /u/tonefart   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rg7j84/bill_gates_loses_it_as_pc_industry_turns_on/</guid>
+      <pubDate>Fri, 27 Feb 2026 14:03:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源操作系统如何被锁定？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rg6t6t/how_can_an_open_source_os_be_locked_down/</link>
+      <description><![CDATA[我想转向 Android 一段时间了，但从那以后我看到 Google 锁定了操作系统，尽管人们也说 Android 在开放时可能很快就会消亡。 我不明白为什么像 Linux 这样的某些东西可以蓬勃发展，但 Android（我知道它在技术上是 Linux）却不能蓬勃发展？是因为手机可以锁定引导加载程序吗？难道制造商就不能制造一款可以解锁的手机吗？然后石墨烯之类的分支或者全新的 Linux 操作系统可以工作吗？葡萄酒替代品，但可以用手机？ 基本上我的问题是，为什么不直接忽略谷歌并转向其他东西呢？    由   提交/u/bdhd656  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rg6t6t/how_can_an_open_source_os_be_locked_down/</guid>
+      <pubDate>Fri, 27 Feb 2026 13:33:41 GMT</pubDate>
+    </item>
     <item>
       <title>我的 ThinkBook Plus Gen 1 电子墨水盖显示屏可在 Linux 上运行 — 第一个开源驱动程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1rg31p1/i_got_the_thinkbook_plus_gen_1_eink_lid_display/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好！我很高兴与大家分享 **Whisper Helio v1.3**，这是一款适用于 Windows 的免费开源语音听写应用程序，可**100% 离线运行**。任何数据都不会离开您的计算机！ ## 这是什么？ Whisper Helio 是一个简单的听写工具。按 F9（或任何快捷键），说话，松开，您的声音就会立即转录并粘贴到光标所在的位置。基于 OpenAI 的 Whisper 模型，通过 fast-whisper 实现。 ## 🆕 v1.3 新增功能 - ⚡ **转录速度加快 40%** — 优化 Whisper 设置 - 💻 **CPU 减少 40%** — 预渲染 VU 计 - 🛡️ **超稳定** — 220 多次代码验证通过 - 🖱️ **游戏鼠标支持** — 功能性 X1/X2 拇指按钮 - 📺 **4K 屏幕支持** — 正确的 DPI 管理- 🎨 **现代界面** — 圆形按钮，简洁的设计 ## ✨ 功能 - 🔒 **100% 离线** — 您的语音数据永远不会离开您的电脑 - ⚡ **快速** — 使用 NVIDIA GPU 进行近乎即时转录（也适用于 CPU） - 🌍 **多语言** — 法语、英语、西班牙语、德语、意大利语、葡萄牙语、荷兰语 - 🎮 **灵活的快捷键** — F9-F12 或游戏鼠标按钮- 🎨 **深色/浅色主题** - 🆓 **永久免费** — 开源，无广告，无需订阅 ## 📥 下载 **[下载 Whisper Helio v1.3](https://drive.google.com/file/d/1kMM0-09I21fZQzuFjcmXEflw6cXs52c0/view?usp=sharing)** (~6 GB - 全部包含) **网站：** https://helioman32.github.io/whisper-helio/ **GitHub：** https://github.com/helioman32/whisper-helio ## 💻 系统要求 - Windows 10/11（64 位） - 8 GB RAM（推荐 16 GB） - 推荐 NVIDIA GPU（可选，在 CPU 上运行） - 麦克风 ## 🚀 它是如何工作的？ 1. 启动应用程序 2. 按住 F9 3. 说话 4. 松开 F9 5. 文本将自动粘贴！还有“会议模式”。它连续录音并每 5 秒转录一次 - 非常适合在通话期间做笔记。 --- 这是我已经从事了一段时间的一个充满激情的项目。欢迎您的反馈和建议！如果您觉得这有用，请不要犹豫在 GitHub 上打 ⭐！来自布列塔尼的问候🇫🇷大家好！我很高兴与大家分享 **Whisper Helio v1.3**，这是一款适用于 Windows 的免费开源语音听写应用程序，可**100% 离线运行**。任何数据都不会离开您的计算机！ ## 这是什么？ Whisper Helio 是一个简单的听写工具。按 F9（或任何快捷键），说话，松开，您的声音就会立即转录并粘贴到光标所在的位置。基于 OpenAI 的 Whisper 模型，通过 fast-whisper 实现。 ## 🆕 v1.3 新增功能 - ⚡ **转录速度加快 40%** — 优化 Whisper 设置 - 💻 **CPU 减少 40%** — 预渲染 VU 计 - 🛡️ **超稳定** — 220 多次代码验证通过 - 🖱️ **游戏鼠标支持** — 功能性 X1/X2 拇指按钮 - 📺 **4K 屏幕支持** — 正确的 DPI 管理- 🎨 **现代界面** — 圆形按钮，简洁的设计 ## ✨ 功能 - 🔒 **100% 离线** — 您的语音数据永远不会离开您的电脑 - ⚡ **快速** — 使用 NVIDIA GPU 进行近乎即时转录（也适用于 CPU） - 🌍 **多语言** — 法语、英语、西班牙语、德语、意大利语、葡萄牙语、荷兰语 - 🎮 **灵活的快捷键** — F9-F12 或游戏鼠标按钮- 🎨 **深色/浅色主题** - 🆓 **永久免费** — 开源，无广告，无需订阅 ## 📥 下载 **[下载 Whisper Helio v1.3](https://drive.google.com/file/d/1kMM0-09I21fZQzuFjcmXEflw6cXs52c0/view?usp=sharing)** (~6 GB - 全部包含) **网站：** https://helioman32.github.io/whisper-helio/ **GitHub：** https://github.com/helioman32/whisper-helio ## 💻 系统要求 - Windows 10/11（64 位） - 8 GB RAM（推荐 16 GB） - 推荐 NVIDIA GPU（可选，在 CPU 上运行） - 麦克风 ## 🚀 它是如何工作的？ 1. 启动应用程序 2. 按住 F9 3. 说话 4. 松开 F9 5. 文本将自动粘贴！还有“会议模式”。它连续录音并每 5 秒转录一次 - 非常适合在通话期间做笔记。 --- 这是我已经从事了一段时间的一个充满激情的项目。欢迎您的反馈和建议！如果您觉得这有用，请不要犹豫在 GitHub 上打 ⭐！来自布列塔尼的问候🇫🇷    由   提交 /u/WhereasAdvanced8850   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rfcd5o/whisper_helio_v13_dictée_vocale_gratuite_pour/</guid>
       <pubDate>Thu, 26 Feb 2026 14:59:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们应该说“SaaS 正在欺骗你，因为你不懂人工智能工程”吗？对开源 AI 联络中心平台的反馈 - 可自行托管、与平台无关、自带 LLM 和语音堆栈</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rfc1g5/should_we_say_saas_is_ripping_you_off_because_you/</link>
-      <description><![CDATA[ 由   提交 /u/Ok_Spare917   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rfc1g5/should_we_say_saas_is_ripping_you_off_because_you/</guid>
-      <pubDate>Thu, 26 Feb 2026 14:46:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个 CLI，可以在一分钟内将 JWT 身份验证添加到任何 Next.js 应用程序，欢迎反馈！</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rf368d/i_built_a_cli_that_adds_jwt_auth_to_any_nextjs/</link>
-      <description><![CDATA[我构建了我的第一个开源 CLI 工具 nextauthforge - 使用单个命令将生产就绪的 JWT 身份验证系统构建到任何 Next.js App Router 项目中： npx nextauthforge init  它生成的内容  使用 httpOnly cookie 进行 JWT 身份验证（无本地存储） MongoDB + Mongoose 设置 登录、注册、注销、/me API 路由 基于中间件的路由保护 登录、注册、仪表板、个人资料页面 useAuth 挂钩 自动安装所有必需的依赖项  为什么构建它 每次启动新的 Next.js 项目时，我都会花费数小时编写相同的身份验证样板。 因此，我将整个设置打包到 CLI 中，以使项目设置即时且一致。 当前限制 (v1) 对现在缺少的内容保持透明：  没有 Google/GitHub OAuth（尚） 没有刷新令牌 - 单一访问令牌（1 天过期） 仅限 MongoDB 没有电子邮件验证  所有这些都计划在即将发布的版本中提供。 我想首先发布一个干净、稳定的 v1，并根据真实反馈对其进行改进。 链接 npm： https://www.npmjs.com/package/nextauthforge 非常希望得到反馈——尤其是来自构建生产 Next.js 应用程序的人们的反馈 🙌   由   提交 /u/ChoiceConstruction80   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rf368d/i_built_a_cli_that_adds_jwt_auth_to_any_nextjs/</guid>
-      <pubDate>Thu, 26 Feb 2026 06:51:15 GMT</pubDate>
     </item>
     </channel>
 </rss>

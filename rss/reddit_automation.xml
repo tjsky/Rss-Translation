@@ -4,7 +4,42 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Fri, 27 Feb 2026 12:47:13 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 15:34:14 GMT</lastBuildDate>
+    <item>
+      <title>更少的工具=更可靠的自动化</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg8jno/fewer_tools_more_reliable_automation/</link>
+      <description><![CDATA[更少的粘合代码。   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg8jno/fewer_tools_more_reliable_automation/</guid>
+      <pubDate>Fri, 27 Feb 2026 14:43:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么移动 QA 仍然感觉落后于 Web 测试 10 年？我错过了什么吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg86ea/why_does_mobile_qa_still_feel_like_its_10_years/</link>
+      <description><![CDATA[来自一个在 Web 和移动领域从事 QA 大约 6 年的人的真实问题，所以当我从事 Web 测试时，老实说，这种体验非常好，Playwright 和 Cypress 都成熟、快速且文档齐全，而且他们周围的社区非常大，编写测试感觉高效，而在 CI 中运行测试感觉可靠，调试失败几乎不需要一分钟…… 然后当我切换到移动设备时，感觉就像回到了过去，Good&#39;ol Appium 仍然是事实上的标准，多年来它的工作方式并没有从根本上改变，而且你仍然在处理脆弱的 XPath 选择器、由于动画花费的时间比预期长 200 毫秒而随机失败的测试，以及即使用户流程相同也为 Android 和 iOS 维护完全独立的测试套件。 “甚至不要让我开始不稳定” 在网络上，2% 的不稳定费率让人感觉不可接受。在移动设备上，团队只是……正常接受 15% 的不稳定？每次运行时，七分之一的测试都会对你撒谎。 我尝试过寻找替代方案，但其中大多数只是 Appium，顶部有一个稍微好一点的界面。根本问题永远不会被发现。  我只是想问，移动测试生态系统是否从根本上更难创新？是设备碎片吗？ iOS 的封闭性？或者我一直以来都使用了错误的工具？ 真的很好奇其他人正在经历什么。有没有人找到一种真正感觉现代的方法   由   提交 /u/Various_Photo1420   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg86ea/why_does_mobile_qa_still_feel_like_its_10_years/</guid>
+      <pubDate>Fri, 27 Feb 2026 14:29:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>您自动化的、真正节省时间的手动流程是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg79oc/whats_one_manual_process_you_automated_that/</link>
+      <description><![CDATA[每周我都会有一项任务，该任务在我的待办事项列表上的停留时间会比应有的时间长得多。 并不困难。只是重复和烦人。 最终我将其自动化......它基本上从我的生活中消失了。 哪一项任务是你自动化后你永远不会再手动执行的？ • 它是什么？ • 是什么最终促使您将其自动化？ • 你是怎么做到的（高水平）？ • 哪种自动化工具对您最有帮助？  特别是那些实际上没有卡住的自动化，我们尝试了一周但忘记了。 很想听听真实的例子。   由   提交/u/Techenthusiast_07  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg79oc/whats_one_manual_process_you_automated_that/</guid>
+      <pubDate>Fri, 27 Feb 2026 13:52:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能接待员如何促进我的朋友的房地产交易。</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg6gev/how_an_ai_receptionist_boosted_my_friends_real/</link>
+      <description><![CDATA[大家好，我的一个大学朋友独自做房地产经纪人。她总是感到压力很大。每次她进屋看演出时，她的手机都会爆炸。她会发现有 5 到 8 个未接来电。没有语音邮件。不知道是谁打来的。只是...失去了机会。 房地产的问题是，如果你不在前一两分钟内接电话，你可能已经失去了那个客户。买家同时致电3-4个代理商。第一个回答的人获胜。 我一直在构建一个名为 Dograh AI 的开源语音 AI 平台 - 想想 n8n，但用于语音代理。告诉她尝试一下。人工智能会立即接听，询问预算、时间表、贷款或现金等基本信息。然后预约并向她发送摘要。就是这样。 首先进行了一些调整。回答感觉有点不自然，所以我不得不调整提示和口音以及一些短暂的休息。但大约一个月后，效果非常好。 不再有未接来电。不用再让我给你回电话了。真实预订。其中一个预订变成了一笔成交。 最好的部分？她在看房期间不再对手机进行压力检查。实际上可以专注于她面前的客户。 疯狂的是，人们甚至没有意识到这是人工智能。一个人说你的接待员非常乐于助人，而她没有接待员。 这次经历教会了我一些简单的事情。许多小企业的销售能力并不差。他们只是错过了电话。错过电话就意味着错过钱。她的压力要小得多，可以更好地专注于面前的客户。   由   提交 /u/Once_ina_Lifetime   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg6gev/how_an_ai_receptionist_boosted_my_friends_real/</guid>
+      <pubDate>Fri, 27 Feb 2026 13:19:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有真实执行日志的人工智能工具？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg6450/any_ai_tools_with_real_execution_logs/</link>
+      <description><![CDATA[我们测试了一个简单的 AI 代理来提供支持，但它感觉就像一个该死的黑匣子。我无法向董事会解释其糟糕的决定。当你扩大规模时，这是巨大的风险。什么工具可以为您提供清晰的日志来实际防御所有这些机器人操作？   由   提交 /u/signal_loops   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg6450/any_ai_tools_with_real_execution_logs/</guid>
+      <pubDate>Fri, 27 Feb 2026 13:04:29 GMT</pubDate>
+    </item>
     <item>
       <title>全自动人工智能代理在营销方面是否被高估了？</title>
       <link>https://www.reddit.com/r/automation/comments/1rg5p1p/are_fully_automated_ai_agents_overrated_for/</link>
@@ -41,13 +76,6 @@
       <pubDate>Fri, 27 Feb 2026 10:24:07 GMT</pubDate>
     </item>
     <item>
-      <title>自动化我们的客户接收：表单 → webhook → CRM → Slack</title>
-      <link>https://www.reddit.com/r/automation/comments/1rg2ov2/automated_our_client_intake_form_webhook_crm_slack/</link>
-      <description><![CDATA[我们最终实现了手动接收流程的自动化，该流程过去涉及电子邮件和复制粘贴到我们的 CRM 中。  新流程： 客户端填写表单 → Webhook 触发 → 创建 CRM 记录 → Slack 通知  有用的部分不仅仅是自动化，还在于了解人们在哪里放弃表单。事实证明，其中一个字段导致了最多的下降。  我们发现在点形式中使用表单分析，因为它显示了完成和字段级别的下降。  简化该字段后，完成率显着提高。真的很想知道...这里的其他人使用什么来进行摄入自动化触发器。   由   提交 /u/Ambitious-Hope3868   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rg2ov2/automated_our_client_intake_form_webhook_crm_slack/</guid>
-      <pubDate>Fri, 27 Feb 2026 10:02:01 GMT</pubDate>
-    </item>
-    <item>
       <title>我认为我更喜欢逆向工程而不是全栈</title>
       <link>https://www.reddit.com/r/automation/comments/1rg2bxf/i_think_i_enjoy_reverse_engineering_more_than/</link>
       <description><![CDATA[最近我意识到了一些关于自己的事情 比起传统的全栈工作，我更喜欢逆向工程和自动化 我仍然构建全栈应用程序 React Next Node APIs  但真正吸引我的是分解系统并了解它们实际工作方式 这个网站如何加载数据 这个请求来自哪里 这个会话是如何处理的 什么触发了这个工作流程 什么可以自动化 将一个混乱的重复过程变成一个干净的自动化流程会让人上瘾 特别是当它没有记录并且你必须自己弄清楚的时候 我最近所做的大部分工作都涉及为其他人构建小型系统 抓取数据 处理会话 连接API 自动化内部工作流程 减少手动工作 编写功能的重要性较低 更多的是深入了解系统 全栈仍然很重要，但问题越具有挑战性，我越倾向于逆向工程和自动化 我认为我只是喜欢解决路径不明显的问题 当某件事发生时的感觉经过数小时的调试后终于可以工作了   由   提交 /u/Gojo_dev   [链接] [评论]]]></description>
@@ -69,13 +97,6 @@
       <pubDate>Fri, 27 Feb 2026 08:22:17 GMT</pubDate>
     </item>
     <item>
-      <title>回复 X艾</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfwyf2/reply_x_ai/</link>
-      <description><![CDATA[      回复 X AI 直接在 X 内部生成听起来像人类的回复。选择一个语气，获得智能建议，然后发布 — 完成。   由   提交/u/Catutttttttt  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfwyf2/reply_x_ai/</guid>
-      <pubDate>Fri, 27 Feb 2026 04:33:13 GMT</pubDate>
-    </item>
-    <item>
       <title>我自动化了我的软件项目的整个部署管道。没有 YAML、没有脚本、没有终端。</title>
       <link>https://www.reddit.com/r/automation/comments/1rfvvl5/i_automated_the_entire_deploy_pipeline_for_my/</link>
       <description><![CDATA[DevBox 采用纯文本描述您想要完成的操作（例如“修复注册错误并部署”）并自动化整个管道。它会规划工作、运行测试、在 GitHub 上打开拉取请求，并在您批准后进行部署。可与 Cursor 和 Claude Code 配合使用。 与 GitHub Actions 等工具的主要区别在于无需编写或维护配置。没有 YAML 文件，没有工作流程定义，没有构建脚本。你描述你想要的结果，它会计算出每次运行的管道。 基本上采用了每周 5-10 小时手动操作工作的工作流程，并将其转化为几句话文本。 运行一个小型的封闭 alpha。如果您想要邀请，请发表评论。 好奇这里的人们还自动化了哪些其他重复的开发工作流程。总是在寻找想法。   由   提交/u/theillestkingz   [链接] [评论]]]></description>
@@ -83,32 +104,11 @@
       <pubDate>Fri, 27 Feb 2026 03:39:49 GMT</pubDate>
     </item>
     <item>
-      <title>我可以在短短几天内为任何人自动化任何事情</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfq3um/i_can_automate_anything_for_anyone_in_just_few/</link>
-      <description><![CDATA[如果您在计算机上进行重复性工作，感觉浪费时间，我可能可以将其自动化。 在工具之间复制粘贴、抓取数据、生成报告、发送后续信息、同步系统、清理电子表格、监控网站、处理线索、在 API 之间移动数据、内部工作流程、自定义脚本、浏览器自动化、后端逻辑、小型内部工具。如果它遵循规则，它就可以自动化。 如果你已经有一些混乱或半成品的东西，那也可以。   由   提交 /u/No-Macaroon3463   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfq3um/i_can_automate_anything_for_anyone_in_just_few/</guid>
-      <pubDate>Thu, 26 Feb 2026 23:26:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>初学者在第三周构建 Python 和剧作家自动化</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfpp68/a_beginner_building_python_and_playwright/</link>
-      <description><![CDATA[距离我进入 Python 和剧作家自动化已经三周了 我不得不说，我没想到能够在这段时间内构建出如此多的自动化 背景故事，我在 42 岁时进入技术领域，一生主要从事销售和营销工作 然后进入了使用基本 html、css 的 Web 开发， JavaScript、nodejs、一点 Python 和一点 rust。 从 24 开始，最终在 25 开始构建一两个项目，决定技术和实际工作之间的工作量太大，事情陷入困境，然后决定自动化，让我的很多任务变得更容易 我不太了解 python，但在人工智能的帮助下，学习和看到自动化运行对我有很大帮助完美。 大多数时候，当我在工作中面临挑战时，我通常会让我思考，如何实现自动化，然后我开始规划步骤，规划构建和错误测试。 我确实想对这个子表示极大的感谢，因为如果我没有偶然发现它，我想我确实在努力编写我的第一个或第二个自动化。 你们带来了丰富的知识。 你们带来了丰富的知识。    由   提交/u/cj1080  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfpp68/a_beginner_building_python_and_playwright/</guid>
-      <pubDate>Thu, 26 Feb 2026 23:10:36 GMT</pubDate>
-    </item>
-    <item>
       <title>构建了一个通过 reCAPTCHA (0.9) 和 Cloudflare 的自动化浏览器。是什么阻碍了你的？</title>
       <link>https://www.reddit.com/r/automation/comments/1rfjsym/built_an_automation_browser_that_passes_recaptcha/</link>
       <description><![CDATA[我厌倦了每次自动化破坏，因为网站将 Playwright、Puppeteer 和 Selenium 检测为机器人。因此我修补了 Chromium 本身，将 22 个 C++ 源代码级补丁编译到二进制文件中。 Canvas、WebGL、音频、字体、GPU 字符串，全部在编译前修改。不是 JavaScript 注入，不是配置标志。 结果：网站无法将其与正常的 Chrome 会话区分开来，因为在引擎级别，它是一个。 检测测试结果： - reCAPTCHA v3：0.9 分数（人类级别，服务器验证） - Cloudflare Turnstile：通过（托管 + 非交互式） - BrowserScan、FingerprintJS、Akamai：全部clean - 通过了 30/30 的检测测试，加上我们和用户测试的数十个真实站点 我们不会绕过 recaptcha。 recaptcha 只是认为我们是一个普通的浏览器 - 因为我们就是一个。 这是一个简单的 Playwright 替代品： pip install cloakbrowser from cloakbrowser import launch browser = launch() page = browser.new_page() page.goto(&quot;url-page&quot;)  也适用于 JavaScript - npm install cloakbrowser - 同时支持 Playwright 和 Puppeteer（不建议使用 Puppeteer）。 免费、开源（github 上的 cloakbrowser）、MIT 许可证。Linux x64 和 macOS (Silicon + Intel) 现已上线，甚至在 Docker 中（Windows 即将推出）。 在您的网站上试用，并让我知道它的运行情况 - 我们在积极的开发和现实世界的反馈是推动下一个版本的动力。 更新： macOS 版本已上线！ Apple Silicon 和 Intel。 如果您之前尝试过并遇到下载错误，现在已修复。 相同的 pip install cloakbrowser / npm install cloakbrowser - 适用于您平台的二进制自动下载。 早期访问，经过 30 次测试测试，但尚未像 Linux 那样进行大规模实战测试。 如果您在 Mac 上遇到任何问题，请打开 GitHub问题。   由   提交/u/duracula  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rfjsym/built_an_automation_browser_that_passes_recaptcha/</guid>
       <pubDate>Thu, 26 Feb 2026 19:28:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>对每个版本都重写 Appium 脚本感到非常厌倦。所以我们建立了自己的测试代理。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rfivur/got_masstired_of_rewriting_appium_scripts_every/</link>
-      <description><![CDATA[所以我工作过的每家公司都有同样的问题。您发布了 UI 更改，一半的测试脚本损坏，QA 花费数周时间重写定位器，而在此期间没有人真正发现错误。只是维护。无休止的维护。 在我的上一份工作中，一个版本发布了，该版本一整天禁用了该应用程序的所有折扣。测试是绿色的。脚本正在传递 UI 中甚至不再存在的元素。直到周一才发现它。 这对我来说是最后一根稻草。 辞掉那份工作，和两个朋友聚在一起，我们开始构建一个根本不使用定位器的测试代理。你用简单的英语写下你想要测试的内容；实际上就像简单的英语，而不是“tap element btn_42”它使用视觉模型在真实设备上运行。它以您想要的方式查看屏幕。用户界面改变？不在乎。随机弹出？处理它。不同的手机？适应。 我们已经构建它大约 14 个月了。在某些地方仍然很粗糙，但团队正在产品中使用它。一个客户从每月 15 次自动化测试增加到 200 次。另一个团队在 3 个月内没有重写测试。 主要是发帖，因为我确信是否还有其他人厌倦了基于定位器的测试并尝试了不同的方法。  如果有人好奇的话，很乐意展示我们构建的内容。虽然还早，但它确实有效。   由   提交 /u/PublicAstronaut3711   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rfivur/got_masstired_of_rewriting_appium_scripts_every/</guid>
-      <pubDate>Thu, 26 Feb 2026 18:55:33 GMT</pubDate>
     </item>
     </channel>
 </rss>

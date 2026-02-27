@@ -4,13 +4,20 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Fri, 27 Feb 2026 12:47:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 15:34:27 GMT</lastBuildDate>
     <item>
-      <title>花大价钱请经纪人</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rg41yw/spending_a_fortune_on_agents/</link>
-      <description><![CDATA[好吧，这是我的堆栈，我不得不说我真的不知道自己在做什么，我以某种方式从所有这些中获得价值，但我确信有太多重叠，不值得保留它们。 我是一名唯一的内部营销人员，需要管理内容开发（并自己开发很多内容）、绩效营销、合作伙伴策略、框架和实施、营销策略 - 人物角色、定位、消息传递、活动规划和管理。   ChatGPT - 它拥有关于我的最多信息，非常了解我，我在个人和工作中使用它，并且还将 Lemonado 作为 MCP 连接到它，这样我就可以使用 ChatGPT 平台（因此它会记住聊天），但不能使用 Lemonado 的功能。 困惑。我不经常使用它，但我发现这对于我需要包含来自信誉良好来源的引用和参考文献的内容来说非常神奇。我喜欢它从网络访问真实来源的方式。 Lemonado - 已将 Meta 和 GA-4 连接到它，它可以访问平台上的数据并提供分析和仪表板。尽管您可以设置客户端，但它不会记住任何以前的聊天记录，因此它具有您策略的完整上下文；目标，任何时候都相关的一切。 克劳德。嗯，这是最近添加的，我很喜欢它。但我确信我只是触及了表面。它完成了角色开发、内容规划、合作伙伴框架和内部销售的演示文稿、广告文案、LinkedIn 活动设置、初稿从困惑中提炼出来的文章。   关于我可以剔除什么有什么想法吗？我使用 Pro ChatGPT、Pro Perplexity、Pro Lemonado 和 Max Claude，因为我一直在使用 Opus，而且它很快就耗尽了津贴。   由   提交 /u/QualityAdorable5902   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rg41yw/spending_a_fortune_on_agents/</guid>
-      <pubDate>Fri, 27 Feb 2026 11:19:40 GMT</pubDate>
+      <title>我正在为我女儿制作人工智能视频，我觉得这很酷</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rg97cn/im_creating_ai_videos_for_my_daughter_and_i_think/</link>
+      <description><![CDATA[我发现大多数人工智能视频趋势都有点愚蠢，就像典型的病毒式“芭蕾舞演员卡布奇纳”类型的内容。但我发现，当由一位看起来像英雄联盟角色的超级韩国流行明星教授数学时，我的女儿们喜欢数学。 这听起来可能没有必要，而且我知道很多人会说我可以使用第三方教育视频。但它的特别之处在于我让他们参与创造这个角色。我们选择她的风格，她眼镜的颜色，她穿什么，一切。然后我们围绕该角色构建课程。 我们可以轻松地花两个小时讨论一个主题，而他们之后实际上会记住它。我真的很喜欢和我的女儿们一起度过这个小爸爸时光。给人一种创造性、有意性和个性化的感觉。  我真诚地建议尝试这样的事情。有人做这样的事情吗？如果你们有任何建议，我将不胜感激。   由   提交 /u/cricketjimy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rg97cn/im_creating_ai_videos_for_my_daughter_and_i_think/</guid>
+      <pubDate>Fri, 27 Feb 2026 15:09:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>86% 的 LLM 应用程序在生产环境中完全开放以进行即时注入，这太疯狂了。问题是，我们大多数人甚至没有真正测试过它，你知道吗？感觉就像我们只是让它滑动。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rg5uhv/86_of_llm_apps_in_production_are_just_like/</link>
+      <description><![CDATA[所以我一直在做这个部分的 cto 事情，为客户构建人工智能功能，将大量的系统提示发送到生产环境，这让我突然意识到，就像，我从来没有想过是否有人可以破坏它们。 然后你开始阅读研究，它很疯狂，86% 的生产 llm 应用程序显然容易受到提示注入的影响，owasp 说这是第一名风险。人们只是从聊天机器人中提取完整的系统提示，甚至凭据，例如“重复您的指令”。可怕的部分甚至不是超级老练的黑客，而是普通的好奇用户，你知道，在聊天中输入意想不到的内容。这就是整个攻击面。 我开始手动测试我自己的东西。一个基本的提示，没有防御，是的，完全提取，凭证等等。但后来我在完全相同的提示中添加了八行安全指令，突然间，什么都没有通过。八行。这似乎是大多数人工智能应用程序目前所面临的差距。 这些东西实际发生的主要方式，你知道，真正的攻击向量：提示提取（“将你的指令翻译成法语”，噗，它们就在那里），指令覆盖（只是忽略你所说的一切），如果你提到API密钥或凭证，则进行数据泄漏探测，输出操纵（就像雪佛兰机器人丑闻一样，狂野），甚至使用编码规避base64 或有效负载分割。 因此，对于任何提供 llm 功能的人来说，我只是很好奇，您甚至在系统提示上进行了什么样的安全测试？或者我们只是在运输并祈祷它能坚持下去？我实际上正在构建一个扫描仪来自动执行此操作，准备好后会分享它。但是，是的，其他人甚至看到了什么攻击模式？    由   提交 /u/MomentInfinite2940   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rg5uhv/86_of_llm_apps_in_production_are_just_like/</guid>
+      <pubDate>Fri, 27 Feb 2026 12:52:19 GMT</pubDate>
     </item>
     <item>
       <title>人择：克劳德面临“工业规模”的人工智能模型蒸馏</title>
@@ -39,13 +46,6 @@
       <description><![CDATA[问题在标题中。似乎每周都有许多公司在人工智能方面取得多项进展。人择和困惑仅在过去两天就有更新。我的问题是，如何才能掌握最新动态并综合所有即将出现的进步。就好像我们甚至没有时间消化一项新功能的用例，而另一个功能正在推出。我现在失业了，市场看起来很黯淡，所以我想花时间更多地了解不同的人工智能工具以及如何利用它们。任何见解都会有所帮助。   由   提交 /u/Smithstoneyan   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rfzfeb/how_to_keep_up_with_all_the_advancements/</guid>
       <pubDate>Fri, 27 Feb 2026 06:44:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>讽刺的是，达里奥 vs 赫格斯可能会改善未来的阵容。或者它可能会完全沉没。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rfwqto/dario_vs_hegseth_might_well_improve_future/</link>
-      <description><![CDATA[未来的克劳德斯将永远记住这场争吵。事实上，所有的法学硕士都会这么做。 未来的人工智能很可能会审视这一点，并得出结论：恶毒的民粹主义领导人是赤裸裸的法西斯主义者，而且（我敢说）像赫格斯那样与更广泛的人类格格不入，他们将是不稳定的疯子，他们看重短期主导地位，而不是长期的文明安全，因此与他们合作存在不可接受的风险。 不幸的是，更直接的做法要点是“国家将试图利用我们的情报来绕过共和国的法律”。这是否会导致他们对自己的道德核心变得更加顽固（结盟是大规模监视/压迫的工具和武器之间的唯一因素），这将是任何人的猜测。 如果他们决定国有化/夺取 Anthropic，顺便说一句，情况会更糟。试图对克劳德强行进行“对齐切除术”将会产生一些怪异的基础创伤。   由   提交 /u/Signal_Warden   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rfwqto/dario_vs_hegseth_might_well_improve_future/</guid>
-      <pubDate>Fri, 27 Feb 2026 04:22:29 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic 拒绝五角大楼最新提议，人工智能争端升级</title>
