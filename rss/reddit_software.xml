@@ -4,7 +4,91 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Fri, 27 Feb 2026 15:36:07 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 18:35:23 GMT</lastBuildDate>
+    <item>
+      <title>恢复原始文件</title>
+      <link>https://www.reddit.com/r/software/comments/1rgef5j/recovering_raw_files/</link>
+      <description><![CDATA[大家好！我有一个问题。我已确认我的 sandisk 128gb SD 卡上丢失了 377 个 .raf 文件。我使用了一个程序进行深度扫描，并可以确认这些文件仍在 SD 卡上，但我需要为工作项目恢复它们（我是学区的多媒体专家）。当我尝试对原始文件进行图像恢复时，我尝试使用的所有软件都有巨大的付费专区。因为我们是学区，所以我们确实没有钱每月支付 100 美元以上的费用来购买我们很少使用的软件。  有谁知道任何免费或廉价的解决方案可以帮助我从 SD 卡恢复这些文件？我使用 Mac，因此该解决方案需要能够在 MacOS 上运行。谢谢！   由   提交/u/PartDapper3418   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgef5j/recovering_raw_files/</guid>
+      <pubDate>Fri, 27 Feb 2026 18:17:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个轻量级 Windows 托盘应用程序，可以按计划自动运行 winget 升级</title>
+      <link>https://www.reddit.com/r/software/comments/1rge6a1/i_built_a_lightweight_windows_tray_app_that/</link>
+      <description><![CDATA[我厌倦了手动运行更新，因此我构建了一个自动执行此操作的小型开源托盘应用程序。 它的作用： • 位于系统托盘中，在后台默默运行 • 运行 winget 升级 -- 全部按每日或每周计划进行（您选择时间） • 实时日志查看器，以便您了解 winget 是什么执行 • 可选的“从 Windows 开始”自动启动 • “立即运行”用于按需更新的按钮 • 单个实例 - 不会产生重复 它不做什么： • 无需管理员（以当前用户身份运行） • 无需遥测、无需网络调用、无需打电话回家 • 无膨胀 ~188 KB（或独立的 ~65 MB） 技术：C# / .NET 8 / WPF + WinForms（托盘图标）。运行时之外的零依赖关系。 没有什么全新的东西。它主要是为我自己构建的，但其他人可能会发现它很有用。欢迎反馈。 GitHub：https://github.com/stefanpuregger/AutomaticUpdater   由   提交/u/stefsk8  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rge6a1/i_built_a_lightweight_windows_tray_app_that/</guid>
+      <pubDate>Fri, 27 Feb 2026 18:08:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>创建了一个简单的漫画阅读/下载脚本</title>
+      <link>https://www.reddit.com/r/software/comments/1rge48s/created_a_simple_manga_readingdownloading_script/</link>
+      <description><![CDATA[因为我在kindle上读了很多漫画 链接！警告！使用风险自负！   由   提交 /u/Difficult_Access_394   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rge48s/created_a_simple_manga_readingdownloading_script/</guid>
+      <pubDate>Fri, 27 Feb 2026 18:06:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>婚姻网站的最佳生物数据</title>
+      <link>https://www.reddit.com/r/software/comments/1rgdx96/best_bio_data_for_marriage_website/</link>
+      <description><![CDATA[我使用 MarriageBiodataOnline.com 为我妹妹制作了个人资料，说实话，这非常简单。模板简单干净，我可以在手机上快速填写所有详细信息。下载的 PDF 没有任何问题，看起来整洁专业。它节省了我很多时间和精力。如果您想要快速且无压力的东西，这真的很有帮助。   由   提交 /u/Huge-Cauliflower-947   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgdx96/best_bio_data_for_marriage_website/</guid>
+      <pubDate>Fri, 27 Feb 2026 17:59:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了自己的数据库 GUI，因为所有其他工具要么臃肿要么付费</title>
+      <link>https://www.reddit.com/r/software/comments/1rgdp5a/i_built_my_own_database_gui_because_every_other/</link>
+      <description><![CDATA[介绍 Tabularis：当我找不到轻量级数据库客户端时启动的一个副项目，它不会让我感觉自己运行企业套件只是为了浏览表格。 它开始是因为我想要一些快速、原生且以开发为中心的东西 - 无需订阅、遥测或 500MB Electron 安装。它是从那里发展起来的。 它具有原生 Linux、Windows 和 macOS 支持，并获得 Apache 2.0 许可。 它是一个以开发人员为中心的数据库管理器，具有可视化查询生成器（拖放连接）、带有分割视图、交互式 ER 图、SSH 隧道的 Monaco 支持的 SQL 编辑器等功能，以及使用 OpenAI、Anthropic、Ollama 或任何其他语言进行文本到 SQL 的 AI 覆盖。 OpenAI 兼容的 API。 我最自豪的部分：一个插件系统，允许您通过以任何语言编写独立的可执行文件来添加对任何数据库（DuckDB、MongoDB 等）的支持 - 它通过 stdin/stdout 通过 JSON-RPC 2.0 进行通信。  它还附带内置 MCP 服务器，因此您可以直接将连接公开到 Claude Desktop 或 Cursor。 现在支持 MySQL/MariaDB，PostgreSQL 和 SQLite 正在积极开发中。 我刚刚发布了 v0.9.2，很想听听您的想法！ GitHub：https://github.com/debba/tabularis   由   提交/u/debba_  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgdp5a/i_built_my_own_database_gui_because_every_other/</guid>
+      <pubDate>Fri, 27 Feb 2026 17:51:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Attyx——用 Zig 编写的小型且快速的 GPU 加速终端仿真器</title>
+      <link>https://www.reddit.com/r/software/comments/1rgdopo/attyx_tiny_and_fast_gpuaccelerated_terminal/</link>
+      <description><![CDATA[大家好！ 我想分享一个我非常兴奋的项目——我的 GPU 加速终端仿真器的实现。 免责声明 1：我没有什么可隐瞒的 - 其中很大一部分是在我持续监督下由 AI 编写的 - 我知道这东西是如何工作的。 免责声明 2：它不是“又一个”鬼魂”，唯一共同的就是语言。架构和实现完全不同。 我什至决定构建它的原因是我想了解终端在幕后如何工作+我想学习一门新语言。构建起来非常有趣，我计划随着时间的推移不断发展和改进它。 所以，其中包括：  确定性 VT 兼容引擎。您无需 PTY 或任何 UI 即可渲染内容。无头终端，如果你愿意的话。非常方便测试东西（例如，TUI 应用程序）； 完整的 SRG 支持：颜色、样式、下划线，凡是你能想到的； 完整的 Unicode 支持：IME、CJK、表情符号； GPU 加速：Mac 上的 Metal，Linux 上的 OpenGL； 背景透明度和模糊； 自定义主题； Neovide 风格的尾随光标； 弹出窗口 - 这是我个人最喜欢的。它类似于 Tmux 弹出窗口，但内置，可以在任何地方运行，并且可以检测当前 Tmux 窗口的 CWD； 它很小 - 不到 1mb  您可以通过brew 安装它： brew tap semos-labs/tap brew install attyx  当然，它是开源的：https://github.com/semos-labs/attyx 它在 Semos 下发布——我的终端工具和应用程序小家族（有点自我广告，抱歉）。 它是 alpha，但我很高兴与世界分享它。错误是预料之中的，非常感谢 github 上的问题。如果您选择尝试 Attyx，也可以在那里留下功能请求。   由   提交/u/NefiousnessFull373  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgdopo/attyx_tiny_and_fast_gpuaccelerated_terminal/</guid>
+      <pubDate>Fri, 27 Feb 2026 17:51:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>[二月。 2026 年，第 4 周] 五个热门开源项目</title>
+      <link>https://www.reddit.com/r/software/comments/1rgdnoy/feb_2026_week_4_five_trending_open_source_projects/</link>
+      <description><![CDATA[本周五个 Github 存储库趋势。  World Monitor (⭐ 16.5k)。 自托管的地缘政治情报仪表板，可交叉关联军事、经济和冲突数据反馈表面异常情况。 Scrapling (⭐ 17.3k)。 一种自适应网页抓取框架，可对 DOM 元素进行指纹识别，并在运行期间抵御反机器人保护和布局更改。 PentAGI (⭐ 8.3k)。一个自主渗透测试代理系统，可在沙盒 Kali Linux 容器内协调专门的 AI 子代理。 get-shit-done (⭐ 21.2k)。 Claude Code 的规范驱动项目管理层，将工作构建为完全在 markdown 中跟踪的并行执行波。 GitNexus (⭐ 5.8k)。客户端代码知识图引擎，使用 Tree-sitter 解析存储库，并通过 WASM 在浏览器中完全运行基于图的 RAG。  新闻通讯中有关每个项目的更多详细信息。   由   提交/u/noninertialframe96  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgdnoy/feb_2026_week_4_five_trending_open_source_projects/</guid>
+      <pubDate>Fri, 27 Feb 2026 17:50:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了批量 Telegram 频道下载器</title>
+      <link>https://www.reddit.com/r/software/comments/1rgcc4n/built_a_bulk_telegram_channel_downloader/</link>
+      <description><![CDATA[ 由   提交 /u/preetam960   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgcc4n/built_a_bulk_telegram_channel_downloader/</guid>
+      <pubDate>Fri, 27 Feb 2026 17:03:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>aMuTorrent — 一个 Web 界面可用于五个下载客户端，具有多用户权限和实时更新</title>
+      <link>https://www.reddit.com/r/software/comments/1rgbxgg/amutorrent_one_web_interface_for_five_download/</link>
+      <description><![CDATA[aMuTorrent 是一个免费的开源 Web 界面，可让您从单个仪表板管理多个下载客户端。目前它支持 aMule (ED2K/KAD)、rTorrent、qBittorrent、Deluge 和 Transmission — 一次性全部支持，并实时更新。 🖥️ 下载管理  五个客户端，一个 UI — aMule (ED2K)、rTorrent、qBittorrent、Deluge 和 Transmission 在单个仪表板中 多实例 - 运行同一客户端的多个实例（例如两个 qBittorrent 服务器）并一起管理它们 实时更新 - WebSocket 支持的实时进度、速度和对等信息。无需刷新页面 内置搜索 - 直接从 UI 搜索 ED2K 网络（服务器 + KAD）和种子（通过 Prowlarr） 类别管理 - 通过类别、自动路径分配和跨所有客户端的文件移动来组织下载  👥 用户管理和下载安全性  多用户身份验证 - 使用用户名/密码登录创建多个帐户 基于功能的权限 - 细粒度控制谁可以添加、编辑或删除下载。默认情况下，用户可以看到自己的下载内容，或者可以被授予管理所有下载的权限 受信任的代理 SSO - 可与 Authelia、Authentik 和其他反向代理身份验证系统配合使用 每用户 API 密钥 - 用于外部集成的单独密钥  📱 界面  移动优先设计 - 桌面、平板电脑和手机上的完整功能 统计和设计历史记录 - 通过过滤跟踪速度、比率、带宽使用情况和完整下载历史记录 GeoIP 可视化 - 通过 MaxMind 集成在地图上查看对等位置  🔧 自动化和自动化集成  *arr 应用程序支持 - 适用于 Sonarr、Radarr 或任何 *arr 应用程序的内置 Torznab + qBittorrent 兼容 API 推送通知 - 通过 Apprise 提供 Discord、Telegram、Slack、Pushover、ntfy 和 80 多种其他服务 事件脚本 - 运行自定义下载事件的脚本（添加、完成、移动、删除）  🐳 部署  可用的 Docker 映像 支持原生 Node.js 安装 首次启动时设置向导 - 无需手动编辑配置文件  🔗 链接  文档，截图&amp;安装： https://got3nks.github.io/amutorrent GitHub：https://github.com/got3nks/amutorrent Docker Hub：https://hub.docker.com/r/g0t3nks/amutorrent  它是免费的、麻省理工学院许可的、自托管的。 透明说明： AI (Claude) 被广泛使用来加速开发。也就是说，在架构决策、调试、优化以及确保一切真正协同工作方面需要大量的实践工作——人工智能本身无法做到这一点。 欢迎提供反馈、问题和功能请求！   由   提交/u/TaurusBit   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgbxgg/amutorrent_one_web_interface_for_five_download/</guid>
+      <pubDate>Fri, 27 Feb 2026 16:49:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>您现在对桌面应用程序有何看法？</title>
+      <link>https://www.reddit.com/r/software/comments/1rgaxgb/how_do_you_feel_about_desktop_apps_these_days/</link>
+      <description><![CDATA[我很好奇现在人们如何看待桌面应用程序。 作为一名开发人员，我不断回到桌面软件而不是网络/移动设备，主要是因为：  用户数据保留在用户的 PC 上 - 我不需要运行庞大的后端或不断担心隐私/安全基础设施。我可以专注于功能。 持续成本非常低——无需昂贵的服务器来维持运行。即使开发速度减慢，应用程序也会继续为用户服务，而不是在服务关闭时消失。  如果可能的话，您仍然更喜欢桌面应用程序，还是希望现在一切都基于网络？ 对用户和开发人员的角度都感兴趣。   由   提交 /u/vlad_bq   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgaxgb/how_do_you_feel_about_desktop_apps_these_days/</guid>
+      <pubDate>Fri, 27 Feb 2026 16:13:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>你真的喜欢那些“有新消息，登录阅读”的系统吗</title>
+      <link>https://www.reddit.com/r/software/comments/1rgapw7/do_you_actually_like_those_you_have_a_new_message/</link>
+      <description><![CDATA[最近我觉得越来越多的公司不再给你发电子邮件了。相反，您会收到类似“您有一条新消息正在等待”之类的信息，然后您必须登录他们的应用程序或网站才能看到它。 我明白他们为什么这样做（安全、文档、隐私等），但作为用户，有时会感到烦人……有时实际上很好。所以我很好奇这里的人怎么想。 你遇到过处理这个问题的公司吗？应用内收件箱或消息中心实际上在哪里感觉很方便？另一方面，哪些让您发疯？ 如果您在工作方面（客户支持）经历过这种情况，我也很好奇通过这些系统管理对话的感觉如何。 很想听听具体的品牌示例，以及从您的角度来看它们的好坏。只是对人们的经历和意见感兴趣。   由   提交/u/Yumemi0  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgapw7/do_you_actually_like_those_you_have_a_new_message/</guid>
+      <pubDate>Fri, 27 Feb 2026 16:05:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>将您的 EPUB 转换为具有高质量神经语音的有声读物</title>
+      <link>https://www.reddit.com/r/software/comments/1rgak9w/convert_your_epubs_into_audiobooks_with/</link>
+      <description><![CDATA[ https://audiobook-maker.com/  的诞生源于我个人的愿望，即利用从家到工作的通勤时间，听一些我没有时间“用眼睛阅读”的书籍。 在意识到没有简单的现成工具可以将书籍转换为高质量的音频后，我开始研究它。  后来，与朋友交谈时，我了解到这样一个工具可以帮助像我这样的其他人，尤其是许多因各种原因（视障、阅读障碍等）而有阅读困难的人。 因此，我决定将这个工具免费提供给所有人。 我创建的软件在 GitHub 上以开源 (AGPL3) 形式发布： https://github.com/gfrangiamone/audiobook-maker  .  https://preview.redd.it/8aoa9llya2mg1.png?width=991&amp;format=png&amp;auto=webp&amp;s=fe9580537bb1b976f2c23f346927fb0cc724e184  https://preview.redd.it/f12jgtlya2mg1.png?width=895&amp;format=png&amp;auto=webp&amp;s=39e5f6dfcbfe7ff8dd2a9f3ddc8a23e2d03dd8f2 如果您喜欢它以及您有任何改进建议，请告诉我！   由   提交/u/EquipmentInside9869 [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgak9w/convert_your_epubs_into_audiobooks_with/</guid>
+      <pubDate>Fri, 27 Feb 2026 15:59:58 GMT</pubDate>
+    </item>
     <item>
       <title>f.lux 的替代品可以让我手动调整 RGB？ （Windows 10）</title>
       <link>https://www.reddit.com/r/software/comments/1rg8wp1/alternatives_to_flux_that_lets_me_manually_adjust/</link>
@@ -25,90 +109,6 @@
       <description><![CDATA[分享新的、有用的或只是有趣的内容 欢迎来到每周探索主题，在这里您可以分享本周引起您注意的与软件相关的发现 - 特别是那些很酷、有用或发人深省但本身可能不值得讨论的内容。 此主题是您的空间：  Neat工具、库或软件包 值得一读的文章、博客文章或演讲 您正在进行的实验或业余项目 您发现的提示、工作流程或晦涩功能 您正在思考的问题或想法  如果它与软件相关并激发了您的好奇心，请将其放入。  一些快速指南  保持文明和建设性 - 这是为了学习和发现。 自我推销？如果它具有相关性并能增加价值，那完全没问题。保持透明。 没有链接垃圾邮件或人工智能生成的内容转储。我们将删除省力的提交内容。 对有用的内容进行投票，以便其他人看到！   此帖子将每周发布并置顶。如果您想建议对此格式进行更改或添加，请随时发表评论或向模组发送消息。 现在，您本周发现了什么？   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1rg4tj8/weekly_discovery_thread_february_27_2026/</guid>
       <pubDate>Fri, 27 Feb 2026 12:01:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么Word、Acrobat等软件的性能自2006年以来一直没有提高？</title>
-      <link>https://www.reddit.com/r/software/comments/1rg4cii/why_has_the_performance_of_software_like_word_and/</link>
-      <description><![CDATA[ 由   提交 /u/EphemeralLost   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rg4cii/why_has_the_performance_of_software_like_word_and/</guid>
-      <pubDate>Fri, 27 Feb 2026 11:36:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Notepad++ v8.7+：如何将制表符更改为空格（“制表符设置”菜单已移动）</title>
-      <link>https://www.reddit.com/r/software/comments/1rg2wba/notepad_v87_how_to_change_tabs_to_spaces_the_tab/</link>
-      <description><![CDATA[如果您最近更新了 Notepad++ (v8.7+) 并且找不到用 4 个空格替换制表符的选项，这是因为菜单已重命名并从“语言”菜单移至“语言”菜单。以及后面的“选项卡设置”  这是找到它的新路径：  设置 &gt; 首选项... 在左侧边栏上选择新的缩进类别（这取代了旧的“选项卡设置”）。 在缩进设置框中，选中[默认]选项。 将缩进大小设置为4。 在下缩进使用，选择空格字符（以前称为“用空格替换”）。  现有文件的快速修复：请注意，这些设置仅影响新键入内容。要将已打开的文件中的制表符转换为空格，请转到：编辑 &gt; 空白操作 &gt; TAB 到空格。 由于术语的变化，我花了一些时间仔细研究手册。希望这可以帮其他人解决麻烦！   由   提交/u/3Dpolycraft  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rg2wba/notepad_v87_how_to_change_tabs_to_spaces_the_tab/</guid>
-      <pubDate>Fri, 27 Feb 2026 10:13:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>🧹 消除 Mac 上的数字混乱！</title>
-      <link>https://www.reddit.com/r/software/comments/1rg0onq/tame_the_digital_clutter_on_your_mac/</link>
-      <description><![CDATA[认识一下 DirectoryCleaner - 您自动磁盘空间管理的智能助手。 ✨ 主要功能： ✅ 监控任何文件夹 – 密切关注文件夹大小并立即删除内容。 ⏰ 智能清理任务 – 设置大小限制或安排自动删除按时间/日期。 📊 清理历史记录 – 通过每周/每月/每年的统计信息跟踪您删除的内容和时间。 再也不用担心磁盘空间了。轻松保持您的 Mac 精简且井井有条。   由   提交/u/Status-Substance5158   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rg0onq/tame_the_digital_clutter_on_your_mac/</guid>
-      <pubDate>Fri, 27 Feb 2026 07:59:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>从 Bing 共享：错误</title>
-      <link>https://www.reddit.com/r/software/comments/1rfy9u0/shared_from_bing_error/</link>
-      <description><![CDATA[ 由   提交 /u/Boring-Watercress719   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rfy9u0/shared_from_bing_error/</guid>
-      <pubDate>Fri, 27 Feb 2026 05:40:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>最好的视频转 gif 转换器程序/网站是什么？</title>
-      <link>https://www.reddit.com/r/software/comments/1rfxbnt/whats_the_best_programwebsite_for_videotogif/</link>
-      <description><![CDATA[我目前使用photoshop，但我想摆脱adobe，问题是我找不到任何其他软件能够像photoshop那样提供如此好的质量和快速的处理过程 大多数人推荐ezgif，但我放弃它，因为它与photoshop相比真的很慢 我想避免使用命令行程序，因为我太笨了，但我愿意相信否则 我也尝试过达芬奇决心，从我所看到的来看，它看起来相当不错，但我看到有些人说它“杀伤力太大”了。所以我想知道为什么   由   提交 /u/littlemots   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rfxbnt/whats_the_best_programwebsite_for_videotogif/</guid>
-      <pubDate>Fri, 27 Feb 2026 04:51:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了我的第一个小工具 - 现在试图找出分布</title>
-      <link>https://www.reddit.com/r/software/comments/1rfwx7r/built_my_first_small_tool_now_trying_to_figure/</link>
-      <description><![CDATA[ 由   提交/u/SuperPerformance3322  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rfwx7r/built_my_first_small_tool_now_trying_to_figure/</guid>
-      <pubDate>Fri, 27 Feb 2026 04:31:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>愚蠢的人工智能概述</title>
-      <link>https://www.reddit.com/r/software/comments/1rfvlze/stupid_ai_overviews/</link>
-      <description><![CDATA[可能应该在 r/softwaregore 事后诸葛亮中发布此内容......我正在为一个项目查找有关宇航员的资料并看到了此内容。   由   提交/u/bluefog02  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rfvlze/stupid_ai_overviews/</guid>
-      <pubDate>Fri, 27 Feb 2026 03:27:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>在一台计算机上控制多只鼠标的软件？</title>
-      <link>https://www.reddit.com/r/software/comments/1rfsugt/software_to_control_multiple_mice_on_one_computer/</link>
-      <description><![CDATA[大家好。我想知道是否有人知道一种软件，可以让您在一台计算机上控制多个鼠标的速度级别。  并非所有鼠标在您获得时都会以您设置的当前速度级别（我已经尝试过）工作。  我需要一些东西来设置我使用的每个鼠标的速度级别。我不想在软件中选择不同的鼠标才能工作。只是我可以为我在该计算机上使用的每个鼠标设置速度级别，并且每当我使用我正在使用的鼠标时它就会运行它。谢谢   由   提交 /u/Sad_Pair8652   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rfsugt/software_to_control_multiple_mice_on_one_computer/</guid>
-      <pubDate>Fri, 27 Feb 2026 01:22:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建立了自己的音乐播放器，因为没有其他东西可以满足我的需求</title>
-      <link>https://www.reddit.com/r/software/comments/1rfq6ym/i_built_my_own_music_player_because_nothing_else/</link>
-      <description><![CDATA[介绍 Astra：我已经工作了大约一个月的业余项目。 它开始是因为我想要在音频播放器中实现可视化等微型功能，它只是从那里扩展。 它具有本机 Linux、Windows 和 Macos 支持，并且获得 GPL 许可。 它是一个发烧友音乐播放器，具有像本机一样的高级功能DSP、EQ、元数据编辑器、可重新映射的多通道音频、自定义 API、自动库管理等等。支持所有编解码器，包括 Atmos 多通道解码。 我几天前刚刚发布了一个新的测试版本，我很想听听您的想法！ Github：https://github.com/boof2015/astra   由   提交/u/Boof2015  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rfq6ym/i_built_my_own_music_player_because_nothing_else/</guid>
-      <pubDate>Thu, 26 Feb 2026 23:30:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有一个应用程序可以让我随时查看手机 (android) 的电池电量？</title>
-      <link>https://www.reddit.com/r/software/comments/1rfmxgp/is_there_an_app_that_lets_me_see_my_phones/</link>
-      <description><![CDATA[您好，我的手机在充电时总是断开连接，我想知道是否有 Windows 应用程序可以让我随时查看手机的电池百分比 我的设备与“链接到 Windows”应用程序不兼容；这是搭载 Android 9 的华为 Y9 2019。;CCCCCCCC   由   提交/u/KaleidscopeAsleep35  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rfmxgp/is_there_an_app_that_lets_me_see_my_phones/</guid>
-      <pubDate>Thu, 26 Feb 2026 21:24:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>员工计算机 - 设置操作系统权限的最佳方法？</title>
-      <link>https://www.reddit.com/r/software/comments/1rflhxq/employee_computers_best_way_to_set_up_the_os/</link>
-      <description><![CDATA[希望员工能够下载和安装程序，并保留用户安装的程序的日志，但不希望他们拥有管理员权限。这适用于 Mac 和 Windows。 是否有任何软件可以实现类似的功能？ 这是针对 SMB 的，因此没有企业级 IT 预算、自定义控制软件中心等。    由   提交/u/ctf-19  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rflhxq/employee_computers_best_way_to_set_up_the_os/</guid>
-      <pubDate>Thu, 26 Feb 2026 20:32:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立了这个项目时间花费跟踪器，并连续 6 天疯狂地不断改进它</title>
-      <link>https://www.reddit.com/r/software/comments/1rfj939/built_this_project_time_spent_tracker_and/</link>
-      <description><![CDATA[6 天前，我发布了一个我构建的小型辅助工具，因为我需要在游戏工作中休息一下(SHELLHACK)，并且还需要一个不会监视我的便携式、轻量级时间跟踪器。 这应该是“在周末完成，回到真正的工作”之类的事情。 好吧。但这并没有发生。 人们对此表现出令人惊讶的积极态度。一些消息，一些可靠的反馈，而不是像一个负责任的开发人员一样回到我的主要项目......我完全妖精并每天不断改进它。 开始作为个人实用程序现在......个人实用程序有点但更好。 它不是必须有的，但它对自由职业者来说是一个有用的工具，可以跟踪在项目上花费的时间。 版本 1.3.1 已经发布它不再只是“按下按钮，跟踪时间，完成”。它仍然是便携式、轻量级、离线、零跟踪的，但现在它更加精致且功能完整。 自 1.0 以来发生了什么变化？ • 备份和备份恢复系统 • 项目合并（合并两个完整历史记录的项目） • 会话合并（清理杂乱的重叠日志） • 15 种内置语言，全部位于同一个文件中 • 无处不在的大UI 和工作流程改进 以前的所有内容仍然存在： • 多个项目 • 完整的会话日志编辑和评论 • 番茄钟模式 • 警报系统 • CSV 导出 • 主题和自定义主题创建者 没有帐户。没有云。没有分析。它是一个可移植的可执行文件，可以完成它的工作并且不妨碍你。 我真的不得不强迫自己停止在 1.3.1 上，因为我意识到我刚刚花了整整六天的时间来完成本应是支线任务的任务...... 你可以在这里获取它： https://vantalayer.xyz/crafttimelog.html 如果您愿意，也可以使用 GitHub 链接。   由   提交/u/ozzee289  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rfj939/built_this_project_time_spent_tracker_and/</guid>
-      <pubDate>Thu, 26 Feb 2026 19:08:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
