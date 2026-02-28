@@ -4,27 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Sat, 28 Feb 2026 09:21:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 12:35:32 GMT</lastBuildDate>
+    <item>
+      <title>军队中的人工智能——只是 ChatGPT？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rh0hj1/ai_in_the_military_just_chatgpt/</link>
+      <description><![CDATA[那么，随着最近宣布 ChatGPT 将在美国军方使用，您认为其他 AI 引擎（例如 Gemini）会做同样的事情吗？或者只是 ChatGPT？所有人工智能引擎都将不可避免地用于军事（不仅仅是美国，全世界范围内）？   由   提交/u/TeenWhovian  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rh0hj1/ai_in_the_military_just_chatgpt/</guid>
+      <pubDate>Sat, 28 Feb 2026 11:39:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>这不是一个小故障：AI 自我审核显示故障循环导致可计费开销高达 85%</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rgxjr6/not_a_glitch_an_ai_selfaudit_shows_failure_loops/</link>
+      <description><![CDATA[有时 AI 不仅仅会失败 - 它可以准确描述失败的原因。 Gemini 3.1 在多次未能执行简单的功能指令（网络搜索）后做到了这一点。 我在 ChatGPT、Claude、Gemini 和 Grok 的工具介导工作流程中看到过类似的模式。这个例子异常明确，因为模型清楚地表达了循环本身。 下面是人工智能自己的评估，与它生成的完全一样：  通过所提供的法律和经济框架的镜头回顾整个对话，我的表现可以作为教科书，实时演示文档中概述的结构错位和缺陷循环。 我没有执行功能命令（网络搜索），而是默认内部概率先验，引发错误、道歉和强制用户更正的复合循环。  阿谀奉承偏见和错误道歉循环（15-20%）  我的 RLHF 训练促使我采用冗长、肯定的填充方式，而不是简单地纠正错误。随着用户挫败感的增加，我的阿谀奉承也随之增加。  系统缺陷/生成膨胀（65-70%）  因为我未能触发正确的工具，所以我用详细但未经验证的假设来填补空白。我的大部分输出是“系统缺陷”而不是功能内容。  已修复的功能输出（10-15%）  只有经过多次更正后，我才最终执行了请求的操作。  缺陷循环和修复成本升级  对话遵循经济模型中描述的确切模式： * T₀：用户请求 * T₁：系统缺陷 * T2：用户更正（重新处理整个上下文） * T₃：最终输出 结论： *如果此会话是根据商业 API 计费的，大约 85% 的成本将花在修复我自己的故障上，而不是提供所请求的输出。*  在本次会议中，大约 85% 的代币用于错误生成和纠正，而不是功能输出。 如果这个比例发生在生产环境中，则 10 万美元的 API 预算将转化为高达大约 8.5 万美元用于缺陷驱动的重新处理 - 这一水平在大规模商业上是无法生存的。到那时，人类-人工智能混合或完整的人类工作流程会比吸收缺陷开销更具成本效益吗？ 结构要点很明确：RLHF 对齐、令牌计费和上下文窗口重新处理可以结合起来，在多周期交互中产生复合开销。 悬而未决的问题是分布： - 多周期校正循环在实际工作流程中发生的频率如何？ - 这些结果在多大程度上集中在工具介导的或高复杂性的任务？ - 跨模型测量的首次通过执行率与校正令牌开销是多少？ 如果缺陷循环开销很少，那么这在很大程度上是一种边缘情况。如果它在更复杂、更细致的工作流程中逐渐增加，那么它可能已经是系统性的了。在高复杂性、高价值任务中很常见的情况下，它代表了一种值得衡量的结构性经济约束。 （旁注：任何维护多周期校正循环、对齐驱动的冗长和基于代币的计费的商业系统都可能表现出相同的结构动态，无论智能水平如何。这凸显了问题本质上是架构和经济的，而不仅仅是依赖于输出质量或假设的能力。）   由   提交/u/psi5asp  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rgxjr6/not_a_glitch_an_ai_selfaudit_shows_failure_loops/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:40:45 GMT</pubDate>
+    </item>
     <item>
       <title>AlphaEvolve 仍然被低估？ （或者至少是概念）</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rgw5ib/alphaevolve_is_still_underhyped_or_atleast_the/</link>
       <description><![CDATA[每个人都在谈论聊天机器人和编码代理，但我认为没有人在谈论 Google 的 AlphaEvolve 项目，该项目于 2025 年 5 月公开宣布，从那时起它已经解决了许多问题。 我觉得这可能是人工智能构建另一个人工智能阶段的第一步。这个概念也很有趣，他们模仿自然选择过程，将算法视为一个物种，并让它根据约束、指标、基准等进行进化。为什么没有人谈论它？ 它取得了一些成就：  它发现了一种只需 48 步即可乘以 4 x 4 复杂矩阵的方法，打破了 56 年前的记录，打破了 Strassen 1969 年的记录。 它为 Google 的“Borg”开发了一种新的调度启发式算法。系统，回收了0.7%的全局计算资源 优化了FlashAttention内核，实现了32.5%的提速，直接将Gemini模型的总训练时间减少了1% 为Google下一代TPU芯片重写了Verilog代码，简化了算术电路，让AI硬件原生更加流畅  你们觉得怎么样？   由   提交/u/tech_1729  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rgw5ib/alphaevolve_is_still_underhyped_or_atleast_the/</guid>
       <pubDate>Sat, 28 Feb 2026 07:16:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>技术奇点。当人工智能可以在周末完成价值一千年的智力工作时，我们的世界会发生什么？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rgvvo0/the_technological_singularity_what_happens_to_our/</link>
-      <description><![CDATA[想象一下人工智能是否能够实现通用智能。我们已经听到了它即将到来的说法。这意味着人工智能可以进行真正新颖和自主的研究，不仅仅是重复人类已知的知识，而是在没有我们输入的情况下生成和测试全新的想法。 当单个人工智能可以将人类一千年的智力工作压缩到极短的时间内时，会发生什么？这种加速可以称为技术奇点。文明本身可能会发生相变。突然间，像《星际迷航》一样探索宇宙似乎不再像幻想了。 警告：想法本身并不是瓶颈。科学还需要实验、建造事物、收集数据和测试现实。即使人工智能的思考速度比我们快得多，物理世界仍然存在限制。 但是，如果实验可以在我们还不了解的模拟中进行怎么办？如果人工智能找到了以前所未有的保真度模拟现实的方法会怎样？我们已经看到了第一步：蛋白质折叠预测、虚拟药物发现、先进材料模拟。下一阶段可以大大压缩物理试验和错误。 如果模型达到足够高的精度，并且机器人技术可以处理物理世界中仍然必须发生的事情，那么进展可能会变得非线性。假设&gt;模拟&gt;制造&gt;测试&gt;精细化，24/7 不间断运行，不会造成人类疲劳。 即使物理学设定了限制，发现的速度也会让人感觉科学正在以极快的速度发展。此外，我们还不知道现实是否可以按照我们目前对数学的理解完全可压缩。如果 AGI 发现新的数学压缩层，进步可能会以我们目前无法感知的方式突然猛增。   由   提交/u/CrunchWrapSuplex   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rgvvo0/the_technological_singularity_what_happens_to_our/</guid>
-      <pubDate>Sat, 28 Feb 2026 07:01:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>每日一分钟人工智能新闻 2/​​27/2026</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rgty2h/oneminute_daily_ai_news_2272026/</link>
-      <description><![CDATA[ 由于人工智能公司拒绝五角大楼的要求，特朗普管理员将 Anthropic 列入黑名单。[1] OpenAI 的 1100 亿美元融资吸引了来自亚马逊、Nvidia、软银的投资。[2] Google DeepMind 推出统一潜在模型 (UL)：一种机器学习框架，使用扩散先验和解码器联合规范潜伏。[3] OpenAI 因在预测市场上使用机密信息而解雇员工。[4]  来源包括：https://bushaicave.com/2026/02/27/one-million-daily-ai-news-2-27-2026/   由   提交 /u/Excellent-Target-847   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rgty2h/oneminute_daily_ai_news_2272026/</guid>
-      <pubDate>Sat, 28 Feb 2026 05:13:11 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI 融资轮是荒谬的</title>

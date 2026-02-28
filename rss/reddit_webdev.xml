@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 28 Feb 2026 09:22:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 12:36:31 GMT</lastBuildDate>
     <item>
-      <title>我创建了一个免费的网络应用程序，您可以在其中跟踪您玩的游戏</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgy46p/iv_created_a_free_web_app_where_you_can_track_the/</link>
-      <description><![CDATA[嗨，Reddit！我创建了 mygametracker.com，以便我可以跟踪我玩过的游戏。它完全免费，并且集成了 Steam。 它是使用 Tanstack Start、tailwind、Postgres、dexiejs 构建的，并部署在 VPS 上。 非常感谢任何反馈。谢谢！   由   提交 /u/DontTrustHamsters   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgy46p/iv_created_a_free_web_app_where_you_can_track_the/</guid>
-      <pubDate>Sat, 28 Feb 2026 09:14:07 GMT</pubDate>
+      <title>Log Voyager 2.0 - 更新我的日志分析器（浏览器中的文件超过 10GB，现在带有命令面板、错误聚合等）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh1btj/log_voyager_20_update_to_my_log_analyzer_10gb/</link>
+      <description><![CDATA[Log Voyager 是一款客户端日志分析器，专为 DevOps 和后端开发人员设计，他们需要直接在浏览器中分析海量日志文件 (10GB+)，而不会导致设备崩溃。 秘密武器：我们不是将整个文件加载到 RAM（这会杀死标准编辑器），而是使用文件切片 API 将文件流式传输到50KB 块，例如流式传输视频。这使您可以在使用约 10MB RAM 的旧智能手机上打开 100GB 日志文件。 v2.0 中的新增功能 命令面板 (Ctrl+K) Vim/VS Code 用户欢欣鼓舞！按 Ctrl+K 可立即访问每个功能。不再需要通过菜单进行搜索。 多重过滤器系统 通过包含/排除逻辑同时应用多个过滤器。按日志级别（错误、警告、信息、调试）和自定义术语进行过滤。每个过滤器独立支持正则表达式和区分大小写。 错误聚合 我们现在自动对类似的错误进行分组并显示发生次数。立即在日志中查找模式。按最少出现次数进行筛选，以发现最常见的问题。 日志统计 实时可视化分析，通过条形图显示级别分布。准确查看当前块中有多少错误、警告和信息日志。 拆分视图 并排比较同一日志文件的两个不同部分。每个面板中的独立导航。 热图导航 小地图现在显示视觉“热” - 红色表示错误，橙色表示警告。单击小地图上的任意位置即可立即跳转到该位置。 深色/浅色主题 在赛博朋克深色模式或浅色模式之间进行选择（是的，我知道浅色模式看起来很糟糕，但我现在没有时间这样做😅）。 导出选择 选择特定行并将其导出为 TXT、JSON 或 CSV。非常适合与您的团队共享错误片段。 全键盘导航  / - 焦点搜索 Ctrl+K - 命令面板 Ctrl+Shift+L - 切换主题 Ctrl+\ - 拆分视图 Ctrl+Shift+S -显示统计信息 Ctrl+Shift+A - 错误聚合 箭头键 + Enter 用于搜索导航  仍然 100% 隐私第一且完全免费  零服务器上传 - 您的文件永远不会离开您的设备 离线工作（兼容飞行模式） 无账户、无跟踪、无BS 开源 - 自行审核代码  https://www.logvoyager.cc/ https://github.com/hsr88/log-voyager   由   提交/u/bankrut  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh1btj/log_voyager_20_update_to_my_log_analyzer_10gb/</guid>
+      <pubDate>Sat, 28 Feb 2026 12:23:51 GMT</pubDate>
     </item>
     <item>
-      <title>一些使用指针事件拖放图像的简单游戏</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgxv4g/some_simple_games_using_pointer_events_to_drag/</link>
-      <description><![CDATA[我编写了纸牌纸牌游戏 Scoundrel 和“roll and write”的网络版本游戏 Solitaire Dice 创建一个简单的框架来使用指针事件。 我最初使用拖放 API 编写游戏，但遇到了游戏无法在智能手机上运行的问题没有鼠标。 浏览 Mozilla 的指针事件的示例，我找不到任何完全符合我想要的功能，但设法找出一些似乎可以正常工作的东西。 我的黑客工作原理如下： ```js let DragObject = {moving: false}; functionpointerdownHandler(pointerEvent) { DragObject.fromID =pointerEvent.target.id; DragObject.element = document.querySelector(#${dragObject.fromID}); DragObject.element.setPointerCapture(pointerEvent.pointerId);指针事件.preventDefault();拖动对象.movi​​ng = true; DragObject.src=pointerEvent.target.src; DragObject.x = DragObject.element.offsetLeft; DragObject.y = DragObject.element.offsetTop; DragObject.X = DragObject.x + (dragObject.element.offsetWidth/2); DragObject.Y = DragObject.y + (dragObject.element.offsetHeight/2); } function pointmoveHandler(pointerEvent) { if (dragObject.movi​​ng) { DragObject.element.style.transform = translate(${pointerEvent.clientX - DragObject.X}px,\ ${pointerEvent.clientY - DragObject.Y}px); } } 函数pointerupHandler(pointerEvent) { if (dragObject.movi​​ng) { DragObject.movi​​ng = false; DragObject.element.releasePointerCapture(pointerEvent.target.id); DragObject.element.style.transform = translate(${pointerEvent.x - pointerEvent.clientX}px,\ ${pointerEvent.y - pointerEvent.clientY}px); DragObject.toID = document.elementFromPoint(pointerEvent.clientX,pointerEvent.clientY).id; // 执行任何操作的代码，将图像移动到新元素等 // ... } } document.addEventListener(“pointerdown”,pointerdownHandler); document.addEventListener(“pointermove”,pointermoveHandler); document.addEventListener(“pointerup”,pointerupHandler); document.addEventListener(“pointercancel”,pointerupHandler); ``` 简而言之，我只是使用全局对象 DragObject 将所需的数据从指针向下传递到指针向上处理程序，而不是使用 DragEvent 的 ev.dataTransfer.setData(&quot;text/plain&quot;, ev.target.innerText);。 要弄清楚的棘手问题是获取目标元素的 id，这需要首先将拖动的元素移开。到其原始位置以获得 document.elementFromPoint(x,y); 我只是一个业余爱好者。对更有经验的开发人员的反馈非常感兴趣。   由   提交/u/RobGoLaing  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgxv4g/some_simple_games_using_pointer_events_to_drag/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:59:31 GMT</pubDate>
+      <title>我构建了一个服装生成器应用程序。在数据库中建模颜色关系是一项挑战。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh1a39/i_built_an_outfit_generator_app_modeling_color/</link>
+      <description><![CDATA[   过去 9 年（在 vivicoding 之前）我一直在开发 Twelve70，这是一款男装应用程序，可帮助用户使用结构化颜色逻辑和服装生成来构建和优化他们的衣柜。当我开始时，这个概念听起来很简单。然后我意识到数据模型比我预期的要花更多的心思。我开始建造是因为它很令人兴奋。然后我与一位朋友会面，他说停止一切并弄清楚我的模式。 （当时对我来说是一个新词） 核心表非常简单：garments、colors 和 color_garment 数据透视表。一件衣服可以有多种颜色，颜色可以属于多件衣服。标准的多对多。 但随后我需要回答一个模式还无法回答的问题：什么与什么搭配？ 这就是颜色系列的用武之地。现在，颜色系列是广泛的分组，例如绿色、蓝色、红色、中性色。它让我可以按主色标识对服装进行聚类，而不是将每个十六进制代码视为孤立的数据点。一件标记为绿色的服装和一件标记为森林绿的衣服颜色不同，但它们生活在同一个家族中，这对于配对逻辑很重要。 当我朝着服装一代的方向发展时，我意识到，广泛的家族是不够的。您还需要一个图层来容纳大地色调、冷色中性色、暖色中性色等色彩，这些分组可以跨越原色光谱并反映人们对着装的实际想法。这是架构的下一个演变。 堆栈是前端的 Vue 3 + Pinia，后端的 Laravel + MySQL，与移动端的 Capacitor 打包在一起。该应用程序一开始是一个 PWA，现在仍然可以作为一个应用程序运行，但 Capacitor 为我们提供了原生分发。 很高兴谈论数据建模方面，仍在迭代它，并好奇其他人如何处理消费者应用程序中的颜色或分类问题。  https://preview.redd.it/4p43umuea8mg1.png?width=1360&amp;format=png&amp;auto=webp&amp;s=a6633a4b2374f9a57b2b8df40b6b9d774d61131c &lt;一href=&quot;https://preview.redd.it/0893enuea8mg1.png?width=1392&amp;format=png&amp;auto=webp&amp;s=8598ab2f53f966ddd005c997ffdb0ceffa1bd730&quot;&gt; https://preview.redd.it/0893enuea8mg1.png?width=1392&amp;format=png&amp;auto=webp&amp;s=8598ab2f53f966ddd005c997ffdb0ceffa1bd730   由   提交/u/el_bandit0  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh1a39/i_built_an_outfit_generator_app_modeling_color/</guid>
+      <pubDate>Sat, 28 Feb 2026 12:21:19 GMT</pubDate>
     </item>
     <item>
-      <title>GIF/MP4 的真正矢量转换！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgxs7i/true_vector_conversion_for_gifsmp4s/</link>
-      <description><![CDATA[      大家好！上次我与大家分享 LottieFyr 时，它是一个将 GIF 和 MP4 转换为 Lottie 动画的简单工具。 今天我带来了一个重大更新：我刚刚在矢量模式下提供了真正的矢量转换。 有什么新内容？ LottieFyr 现在不再只是嵌入位图： 采样帧并量化帧调色板， 使用 Potrace 将形状跟踪到真实的 SVG 路径中， 将它们写入 Lottie 形状图层（而不是图像资源），因此输出是真正的矢量动画。 它还运行预检 + 运行时防护（颜色复杂性、几何质量、尺寸比例）。如果源太复杂或有风险，它会阻止并提示 UI 切换到帧序列或需要覆盖。 👉 在这里尝试：https://lottiefyr.com 希望得到这个很棒的社区的反馈！ 🚀   由   提交/u/Cosmin_Dev  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgxs7i/true_vector_conversion_for_gifsmp4s/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:54:43 GMT</pubDate>
+      <title>我用CSS制作了一个x86 CPU模拟器（没有javascript）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh0vrw/i_made_an_x86_cpu_emulator_in_css_no_javascript/</link>
+      <description><![CDATA[      您可以使用 GCC 将 C 代码编译为 16 位 x86 程序集，然后将所述二进制文件加载到 CSS 中执行。 https://lyra.horse/x86css/   由   提交/u/rebane2001  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh0vrw/i_made_an_x86_cpu_emulator_in_css_no_javascript/</guid>
+      <pubDate>Sat, 28 Feb 2026 12:00:28 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] 我构建了一个实时突发新闻监视器，可以通过数量峰值而不是社论精选来检测突发事件</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgxlpe/showoff_saturday_i_built_a_realtime_breaking_news/</link>
-      <description><![CDATA[   鉴于今天的事件，我想我会分享这个。 News Pulse 是我构建的一个简单的突发新闻监视器。它来自 475 多个来源，其中大部分是 Bluesky，还有 RSS、Telegram、Reddit、YouTube 和 Mastodon，所有内容均严格按时间顺序排列，并具有透明的来源归属。 最重要的是：每个地区都有一个衡量基准，包括 6 小时内通常发布的帖子数量。当交易量激增至高于该基线时，系统会对其进行标记，并将警报级别从“正常”转变为“升高”再转变为“严重”。它还生成开发故事的人工智能摘要，这样您就可以快速掌握情况，而无需滚动浏览数百篇文章。 使用 Next.js、TypeScript、Tailwind 构建。免费，无需登录，无需帐户。 我是一名前调查记者，后来转为网络开发人员。我建立这个网站是因为 Twitter ......嗯，你知道，但通常仍然是获取突发新闻的最佳场所。所以想看看我可以使用免费和开放的新闻和 API 资源围绕它构建什么。真实编码和监督振动编码的混合。希望得到反馈。 https://pulse-osint.vercel.app/   由   提交/u/trevorthewebdev  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgxlpe/showoff_saturday_i_built_a_realtime_breaking_news/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:44:03 GMT</pubDate>
+      <title>[Showoff Saturday] 查看您网站的页面在不同屏幕分辨率下的显示效果</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh0oym/showoff_saturday_see_how_pages_of_your_site_look/</link>
+      <description><![CDATA[运行免费抓取并查看您网站的页面在不同屏幕分辨率下的显示效果。   由   提交/u/Fluid-Engineering769   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh0oym/showoff_saturday_see_how_pages_of_your_site_look/</guid>
+      <pubDate>Sat, 28 Feb 2026 11:50:06 GMT</pubDate>
     </item>
     <item>
-      <title>现实的价格检查 – 自定义物业管理 Web 应用程序（前端已完成，后端正在进行中）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgxir2/realistic_price_check_custom_property_management/</link>
-      <description><![CDATA[我正在寻找经验丰富的开发人员提供诚实、现实的定价评估。 我一直在构建一个自定义财产/建筑管理 Web 应用程序（多角色系统），我希望获得有关单独前端实际成本的反馈 - 以及稍后完全完成的产品（带有后端 + 生产强化）的反馈信息 该应用程序的用途 这是一个住宅楼宇管理网络应用程序，具有三个角色：  管理员 楼宇经理 租户  主要功能包括：  多楼宇支持 单位管理 租户管理 付款跟踪系统 租户财务卡（详细交易历史记录） CSV 导出 打印/PDF 报告 基于角色的访问控制（前端强制执行，后端迁移正在进行中） 财务完整性防护 挂起写入队列（用于离线/API 故障转移安全） 冒烟测试自动化 数据服务抽象层（为后端切换做好准备）  技术细节 前端堆栈：  Vanilla JavaScript（模块化架构） 自定义数据服务层（DS 抽象） LocalStorage 持久性（临时 - 计划后端迁移） 事件驱动的更新 手动状态管理（无 React/Vue） 结构化分离：存储实用程序、数据服务、渲染实用程序、诊断等  架构决策：  替换语义写入模型 幂等式结构准备 后端就绪抽象（计划迁移到Supabase） 防御性编码模式 企业风格的 UI 优化 自动冒烟测试  当前：  前端功能齐全 后端尚未连接（迁移基础工作已完成） 旨在扩展到生产 SaaS  我的问题 基于：  复杂性 架构 代码组织 功能范围 业务逻辑深度  您实际收取的费用是多少：  💻 仅前端（按原样，可用于生产的 UI，但没有后端） 🌐 完整具有后端的产品（身份验证、数据库、API、部署、安全强化）    由   提交 /u/No-Performance1653   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgxir2/realistic_price_check_custom_property_management/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:39:09 GMT</pubDate>
+      <title>使用 Three.js 和 Blender 的 Papercraft 作品集（包括教程）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh0o26/papercraft_portfolios_with_threejs_and_blender/</link>
+      <description><![CDATA[      嘿嘿！！！我制作了两个纸艺作品集和一些教程；根据您的需要，一个短视频和一个长视频。让我知道你是否创造了一些东西！我很想看到它，我相信其他人也会这么做！ ~  长版： https://youtu.be/AD01pTr3gvw 网站： https://aimees-papercraft-world.com/ 代码、制作人员、 &amp;其他文件： https://github.com/andrewwoan/aimee-weis-papercraft-world ---------------- 简短版本： https://www.youtube.com/watch?v=zyWD2E8AHCg&amp;feature=youtu.be 网站： https://www.mr-pandas-psychologically-safe-portfolio.com/ 代码、制作人员和信息其他文件： https://github.com/andrewwoan/mr-pandas-psychologically-safe-portfolio   由   提交/u/andrew_woan  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh0o26/papercraft_portfolios_with_threejs_and_blender/</guid>
+      <pubDate>Sat, 28 Feb 2026 11:48:47 GMT</pubDate>
     </item>
     <item>
-      <title>Claudebin - 通过 URL 分享您的 Claude Code 会话</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgxc57/claudebin_share_your_claude_code_sessions_via_urls/</link>
-      <description><![CDATA[嗨，reddit， 我最近经常使用克劳德代码。经过长时间的会议后，我意识到没有简单的方法可以向别人展示实际发生的情况。一切都存在于终端中。 因此我构建了一个小工具，将整个会话转储到可共享链接中。 它的灵感来自 amp 线程。我喜欢共享完整会话的想法，但想要一些可以直接使用克劳德代码并保持简单的东西。 这不是一家初创公司或任何东西。我只是喜欢构建工具，这足以让我修复它。 它导出： - 完整消息线程 - 文件读取+写入 - bash 命令 - web / mcp 调用 你可以将链接发送给某人，将其放入公关中，嵌入其中的一部分，甚至在本地恢复。 实时：https://claudebin.com 它是开源的：https://github.com/wunderlabs-dev/claudebin.com/   由   提交/u/vtemian  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgxc57/claudebin_share_your_claude_code_sessions_via_urls/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:27:51 GMT</pubDate>
+      <title>这个扩展使 i18n 变得更加容易</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh0hg2/this_extension_makes_i18n_so_much_easier/</link>
+      <description><![CDATA[      大家好。 我在公司从事一个中型 i18n 项目，其中的翻译文件有数千行。 编写新密钥、在区域设置之间切换以及编辑现有密钥变得越来越困难。所以我构建了一个扩展来帮助我完成 i18n 工作流程。一切进展顺利。 所以我决定将其开源，以便每个人都可以使用它。 这个想法很简单，国际化应该感觉像是编辑器的本机部分，以下是功能列表：  按键智能感知：t(&quot;...&quot;) 或 $t(&quot;...&quot;) 调用的实时自动完成。它会扫描您的 JSON 文件并在您键入时建议键。 跳转到定义：按住 Ctrl 键并单击代码中的某个键可直接跳转到翻译文件中的确切行。 未使用的键检测：突出显示 JSON 文件中未在代码库中的任何位置使用的键。 悬停切换：将鼠标悬停在代码中的某个键上可在区域设置文件之间快速切换。 简单配置：它尝试自动检测您的语言环境文件夹结构（适用于 React、Vue、Svelte、next-intl、i18next 等）。 轻量级：仅约 147 KB。  我希望它也能帮助您。请尝试一下并与我分享您的反馈。  它真的有帮助吗？ 您认为应该涵盖 i18n 工作流程中的哪些其他痛点？  链接：https://marketplace.visualstudio.com/items?itemName=mrgwd.i18n-boost github：https://github.com/mrgwd/i18n-boost 可在 vscode、光标和任何基于 vscode 的编辑器上使用。   由   提交 /u/muhammad-r   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh0hg2/this_extension_makes_i18n_so_much_easier/</guid>
+      <pubDate>Sat, 28 Feb 2026 11:38:58 GMT</pubDate>
     </item>
     <item>
-      <title>HexaZen - 您独特的音景</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgx9ss/hexazen_your_unique_soundscape/</link>
-      <description><![CDATA[      我通常在工作时用耳机听白噪声、雨声和其他自然声音。 但是在听同一首歌太多次之后，我几乎已经准确地记住了下一次雷声何时响起。 (´´ω`‹ ) 虽然有很多很棒的在线混音器网站，但他们总觉得缺少了一些东西。因此，我决定尝试使用 Babylon.js 构建一个 3D 混音器，其中声音随机播放。 您可以自由组合不同的场景块。块的类型和规模会产生不同的自然声音效果。例如：  树：风吹树叶沙沙作响 房屋：咖啡馆氛围 河流：流水声  不同的尺度甚至会创造生态系统！例如，如果您放置了足够多的树木，您将开始听到昆虫鸣叫、鸟儿歌唱等等。 来看看您能找到什么声音！ ( ´ ▽ ` )ﾉ   由   提交/u/Normal_House_1967  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgx9ss/hexazen_your_unique_soundscape/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:23:51 GMT</pubDate>
+      <title>[Showoff Saturday] 经过多年的手动检查，构建了一个自动启动前 SEO 检查的工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh0cb4/showoff_saturday_built_a_tool_to_automate/</link>
+      <description><![CDATA[自 2018 年以来，我一直在网络开发机构担任项目经理。这项工作的很大一部分是交付新网站、简单的宣传册网站，以及更大的电子商务平台。 当我们与专门的 SEO 机构合作时，他们会处理启动前的检查。但情况并非总是如此。如果不是这样，我就得用 Screaming Frog 抓取新旧网站，将两者都导出为 CSV，在 Excel 中并排打开它们，然后手动比较数百行 URL、状态代码、规范和标题标签。 每个。单身的。迁移。 最常错过的事情： - 暂存环境中没有留下任何索引，整个部分已取消索引 - 平台切换后漂移的规范标签 - URL 重组后重定向解析到错误的目标 - 一夜之间悄悄排名 404 的旧 URL 快进到上个月。我正在迁移我自己的爱好博客，在 AdSense 上运行，实际上产生了一些我关心的流量（从而产生了收入），我想：必须有一种更聪明的方法来做到这一点。 所以我建立了一个。爬行这两个环境，逐个进行比较，获得每个差异的优先报告。它称为 PreflightSEO。首先在我自己的博客迁移中使用它，发现了一些会消耗我流量的东西。 现在我很好奇，其他人在迁移过程中遇到了什么？这是您当前正在手动执行的操作、完全跳过还是有不同的工作流程？   由   提交/u/Hoguw   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh0cb4/showoff_saturday_built_a_tool_to_automate/</guid>
+      <pubDate>Sat, 28 Feb 2026 11:31:00 GMT</pubDate>
     </item>
     <item>
-      <title>专为您打造的免费全栈 Web 开发课程！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgx4ce/free_fullstack_web_development_courses_just_for/</link>
-      <description><![CDATA[      提供免费认证！  - 💻 HTML - 🎨 CSS - 🚀 JavaScript - ⚛️ React - 💡 jQuery - 🐙 Git 和 JavaScript GitHub - 🌐 API - ⚙️ Node.js - 📊 SQL - ➕...以及更多！   由   提交 /u/Gloomy_Vegetable8872   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgx4ce/free_fullstack_web_development_courses_just_for/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:14:45 GMT</pubDate>
+      <title>[Showoff Saturday] nano-dice – 速度极快且完全由键盘驱动的游艇克隆</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh01r0/showoff_saturday_nanodice_a_blazing_fast_and/</link>
+      <description><![CDATA[大家好！ 我一直喜欢玩 Yacht，但我想要一些感觉真正灵敏且敏捷的游戏。因此，我制作了纳米骰子来止痒。它针对键盘、鼠标和触摸进行了全面优化。 （提示：如果您使用移动设备，我建议将其作为 PWA 添加到主屏幕，以便在沉浸式全屏中运行它！） 链接： https://nano-dice.netlify.app 我希望使代码库尽可能简约，因此没有框架或构建步骤。只需一个包含 Vanilla JS、CSS 和嵌入式 SVG 的 HTML 文件。 一些我非常自豪的功能：  100% 键盘支持：您永远不必触摸鼠标。使用箭头进行导航，使用空格保持/释放骰子，使用Enter滚动/确认分数。 零滞后SVG Sprites：我没有加载图像URL，而是将骰子嵌入为SVG 并使用标签。这意味着游戏过程中的网络请求为零，从而使骰子即时切换。 零延迟触摸：我使用了触摸操作：操作并禁用了文本选择/点击突出显示，使其感觉像是移动屏幕上的本机应用程序，而没有可怕的 300 毫秒点击延迟。 Catppuccin 主题： UI 使用 Catppuccin Macchiato （深色）和拿铁（浅色）调色板。它尊重您的操作系统设置，但您也可以按 T 手动切换主题。 快速动画：我使用 GSAP 进行了一些非常快速（0.2 秒）的摇晃和移动，只是为了在不减慢游戏速度的情况下给人一种物理感觉。 本地高分：将您的最好成绩直接保存到 localStorage，以便您接下来可以打败一些东西时间。  我很想听听你们对代码结构、用户体验和游戏本身的看法！ 欢迎尝试一下，让我知道你们的高分！ ☕   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh01r0/showoff_saturday_nanodice_a_blazing_fast_and/</guid>
+      <pubDate>Sat, 28 Feb 2026 11:13:51 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] 我构建了一套干净、无广告的 15 多个开发者计算器套件 (ByteCalculators)</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgwzm6/showoff_saturday_i_built_a_clean_adfree_suite_of/</link>
-      <description><![CDATA[大家好！ 我总是觉得很烦人，像 PX 到 REM 或字节转换器这样的简单工具通常隐藏在大量广告和加载缓慢的脚本之下。因此，我花了一些时间构建 https://bytecalculators.com。它是一套包含 15 多个实用程序（PX/REM、宽高比、IP/CIDR、二进制等）的干净套件，具有零广告和零膨胀。我计划不断添加更多工具。我很想得到你们的一些反馈。接下来我应该添加您每天使用的任何特定计算器？ 查看：https://bytecalculators.com   由   提交/u/abarth23  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgwzm6/showoff_saturday_i_built_a_clean_adfree_suite_of/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:06:47 GMT</pubDate>
+      <title>MovieSpan - 一个有用的网站，可帮助您计划电影之夜</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgzwuj/moviespan_a_useful_site_to_help_plan_your_movie/</link>
+      <description><![CDATA[       由   提交/u/deerack_  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgzwuj/moviespan_a_useful_site_to_help_plan_your_movie/</guid>
+      <pubDate>Sat, 28 Feb 2026 11:05:53 GMT</pubDate>
     </item>
     <item>
-      <title>我想建立这个人工智能工具来管理客户网站，你们觉得怎么样？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgwxlg/i_want_to_build_this_ai_tool_for_managing_client/</link>
-      <description><![CDATA[所以我兼职做自由网络开发，说实话，工作流程让我发疯。每个新客户都是同样的事情，手动重建他们的网站，登录数百万个不同的 WordPress 仪表板，设置谷歌分析或 hubspot 以及插件或两周后出现故障的东西。 我一直在考虑构建一个工具来为自己以及其他自由职业者/机构解决这个问题。基本上这个想法是： 您粘贴客户现有的网站 URL，AI 会自动将其迁移到平台中。然后，您可以通过聊天界面编辑所有内容，而不必在页面构建器中乱搞。像 Hubspot 这样的分析工具将从一开始就内置起来，这样您就可以跟踪所有重要的分析。 因此，所有内容都集中在一个地方，而不是管理 5 个不同平台上的 10 个客户端。 我还没有构建任何东西，只是在花一周时间进行研究之前尝试检查一下我的直觉。对于在网站上工作或从事网站工作的任何人：您当前工作流程中最糟糕的部分是什么？这样的事情实际上会节省您的时间还是解决了一个实际上并不存在的问题？以及你愿意为这项服务付多少钱。 老实说，我宁愿她说“这狗屎太糟糕了”，也不愿听一些糖衣的答案。   由   提交/u/No_Game_No_Life4  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgwxlg/i_want_to_build_this_ai_tool_for_managing_client/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:03:23 GMT</pubDate>
+      <title>[Showoff Saturday] 我为我的屏幕截图 API 提供了一个 MCP 服务器 - Claude Desktop 现在可以作为本机工具调用来截取屏幕截图并检查页面</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgzv20/showoff_saturday_i_shipped_an_mcp_server_for_my/</link>
+      <description><![CDATA[上周我展示了 API 本身。本周：我在其上构建的 MCP 服务器。 它的作用： 从 npm 安装 pagebolt-mcp，将其添加到您的 Claude Desktop（或 Cursor/Windsurf）配置中，您的 AI 助手将获得这些本机工具：  take_screenshot — 捕获任何 URL，结果内联显示在对话 inspect_page — 返回所有按钮、输入、链接和带有 CSS 选择器的标题的结构化映射。没有完整的 DOM 转储 - 只是代理实际需要的交互元素。 run_sequence - 在一次调用中进行多步骤自动化（导航 → 填充 → 单击 → 屏幕截图），在步骤之间保持浏览器会话 record_video - 将序列记录为 MP4，并将叙述语音同步到每个步骤  为什么 Inspect_page 是有趣的开发人员： 大多数浏览器 MCP 为代理提供原始 CDP 访问权限或完整 DOM 转储。两者都是象征性的昂贵。 inspect_page 返回带有选择器的交互元素的干净 JSON 列表 - 代理无需读取数千个 HTML 标记即可决定要单击的内容。 配置为添加到 Claude Desktop： json { &quot;mcpServers&quot;: { &quot;pagebolt&quot;: { &quot;command&quot;: &quot;npx&quot;, “args”：[“-y”，“pagebolt-mcp”]，“env”：{“PAGEBOLT_API_KEY”：“您的密钥在这里” } } } }  免费套餐为每月 100 个请求，无需信用卡。很高兴回答有关 MCP 实现的问题。   由   提交/u/Calm_Tax_1192   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgzv20/showoff_saturday_i_shipped_an_mcp_server_for_my/</guid>
+      <pubDate>Sat, 28 Feb 2026 11:02:57 GMT</pubDate>
     </item>
     <item>
-      <title>touch-all，一个 CLI 实用程序，用于从单个输入构建项目文件结构</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgw19i/touchall_a_cli_utility_for_scaffolding_project/</link>
-      <description><![CDATA[      bash cat ../my-app-struct.md | Bunx touch-all  touch-all 的行为类似于 mkdir -p ... 和 touch ... 组合，根据需要创建目录和文件。它可用于快速构建项目结构或生成占位符文件。与 touch 相同，它会创建零长度文件，您可以稍后填充。 它允许您通过将多行字符串（或文件内容）传递给命令来一次生成多个文件和目录。每条线代表一条要创建的路径。这样就无需在初始项目设置期间手动创建文件夹和占位符文件。 动机 我想简化搭建新项目的过程。流程应如下所示：  LLM → 生成文件树 → 通过管道传输到 touch-all → 项目出现  这就是全部功能。 用法 带有文件夹结构的一个参数 它将文件夹和文件结构作为单个多行字符串参数： bash touch-all &quot; my-app/ └──index.ts”  使用 STDIN 和各种 Bash 技术 当文件夹结构已写入文件中时，这种方法效果很好。您只需要将更改应用到文件系统即可。 ```bash cat str.md | touch-all 回显“my-app/index.ts” | touch-all touch-all “$(cat str.md)” touch-all &quot;$(printf &#39;%s&#39; &quot;$( &lt; str.md )&quot;)&quot;&quot;全部触摸 &lt; str.md ``` 阳光下的地方 touch-all 的方法位于：  原始 shell 脚本 (mkdir + touch) 重型脚手架框架（Yeoman、Plop）  它提供：  声明式输入 最小抽象 无模板引擎开销 如果您已在本地使用 Node.js 或 Bun，则非常适合  安装 bash npm i -g touch-all  npm: https://npmx.dev/package/touch-all github: https://github.com/anton-huz/touch-all   由   提交/u/anton-huz  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgw19i/touchall_a_cli_utility_for_scaffolding_project/</guid>
-      <pubDate>Sat, 28 Feb 2026 07:10:20 GMT</pubDate>
+      <title>展示和讲述：我们如何在没有后端的情况下构建 50k 条记录的“胖客户端”网格</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgzsxx/show_and_tell_how_we_built_a_50krecord_fat_client/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgzsxx/show_and_tell_how_we_built_a_50krecord_fat_client/</guid>
+      <pubDate>Sat, 28 Feb 2026 10:59:48 GMT</pubDate>
     </item>
     <item>
-      <title>我建立了一个包含 60,000 多个广播电台的目录，但需要帮助测试自动定位/语言检测。你能检查一下你的城市是否出现了吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgvjbh/i_built_a_directory_of_60000_radio_stations_but/</link>
-      <description><![CDATA[   大家好， 过去几个月我构建了 Radaradio，这是一个简单的目录，聚合了全球 60,000 多个实时互联网广播电台。我的目标只是制作一个干净、快速的播放器，没有注册或烦人的弹出窗口。 我最近推出了一些重大更新 - 具体来说，13 种语言的完全本地化和本地电台的自动检测功能。由于我无法亲自测试每个区域，因此我确实可以使用一些额外的眼睛来查看事情是否实际上在野外无缝运行。 如果您有时间点击一下，我很想知道：  语言和语言翻译：网站是否自动检测您的语言？如果支持您的语言（es、fr、de、it、pt、nl、pl、ru、ar、zh、ja、tr），菜单翻译听起来是否自然，或者是否存在任何奇怪的机器人错误？ 本地覆盖：当您第一次登陆网站时，它是否正确检测并显示您当前的国家和城市？当您检查这些部分时，您的实际本地电台是否正确显示？ 常规 UI/UX： 整个网站给您的感觉如何？是否存在任何奇怪的布局错误，或者播放器在您的设备/浏览器上表现不佳？  链接： https://radaradio.com 非常欢迎任何严厉的反馈、错误报告或功能建议。预先感谢您的帮助！   由   提交/u/erdemovali  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgvjbh/i_built_a_directory_of_60000_radio_stations_but/</guid>
-      <pubDate>Sat, 28 Feb 2026 06:41:56 GMT</pubDate>
+      <title>Git 是新代码</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgz75y/git_is_the_new_code/</link>
+      <description><![CDATA[      人工智能正在编写比以往更多的代码（如果不是全部）。但作为开发人员，我们最重要的工作并没有消失——它只是发生了变化。我们花更少的时间敲代码，花更多的时间阅读、审查并确保一切正常运行。这里有一些快速指南和 git 命令可以帮助您   由   提交/u/cresta29  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgz75y/git_is_the_new_code/</guid>
+      <pubDate>Sat, 28 Feb 2026 10:23:22 GMT</pubDate>
     </item>
     <item>
-      <title>公司实力雄厚。那么为什么 4,000 人消失了呢？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rguw8q/the_company_is_strong_so_why_are_4000_people_gone/</link>
-      <description><![CDATA[要咆哮了。 我们刚刚看到一位首席执行官发推文说他们正在让公司变得“更小”，而不是因为收入崩溃，不是因为产品失败，也不是因为客户离开了，但因为他们可以。近一半的公司（4,000 多名员工）一下子就消失了，而公司的业务仍在增长，盈利能力不断提高，并为更多客户提供服务。再读一遍。这不是生存模式，这是优化模式。 推文的语气平静、透明，甚至慷慨地提供遣散费和福利，这在某种程度上让人更加不安。逻辑很简单：情报工具加上扁平化的团队等于一种新的公司运营方式。更快的决策、更少的层级、更多的人均产出。因此，领导层选择立即采取行动，而不是多年来缓慢削减开支。而这正是人们在人工智能辩论中所缺失的。这与人工智能是否能写出更好的代码无关。这是关于压缩。 如果一家强大、盈利的公司可以说“我们需要更少的人，因为人工智能改变了工作的完成方式”，那么基线就发生了变化。裁员曾经是被动的。现在他们主动了。 “有利可图”过去意味着安全。现在不行了。这并不是为了生存，而是为了智能驱动的未来进行重组。一旦公司意识到 10 个人可以完成 15 个人的工作，他们就不会出于善意而保留 15 个人。他们优化利润。这是令人不安的事实。  人工智能不再只是产品内部的工具，它正在成为公司的操作系统。操作系统的设计就是为了提高效率。如果这种情况发生在模型还处于早期阶段时，三年后会发生什么？也许真正的问题不是人工智能是否会取代开发人员。也许这就是现代公司真正需要的开发人员数量。因为一旦领导者决定降低这个数字，他们就不会倾向于这个数字。他们跳。那次跳跃就是我们刚刚看到的。 咆哮结束。   由   提交/u/No-Seaweed-5627   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rguw8q/the_company_is_strong_so_why_are_4000_people_gone/</guid>
-      <pubDate>Sat, 28 Feb 2026 06:05:27 GMT</pubDate>
+      <title>我制作了一个网站，对身份验证提供商进行并排比较</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgz0ck/i_made_a_website_with_sidebyside_comparison_of/</link>
+      <description><![CDATA[      链接：https://www.auth0alternatives.com/   由   提交/u/leobuiltsstuff  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgz0ck/i_made_a_website_with_sidebyside_comparison_of/</guid>
+      <pubDate>Sat, 28 Feb 2026 10:11:42 GMT</pubDate>
     </item>
     <item>
-      <title>php单元测试进度</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rguosz/phpunit_testing_progress/</link>
-      <description><![CDATA[      在深入 tdd 兔子洞几个月后，我真的对我的项目所处的位置感觉良好。由于今天是周六的展示，我想我会鼓励那些害怕创建和使用测试驱动设计原则的人。即使只是为了揭露代码中丑陋的真相，这是值得的。这极大地激励我创建新类、分离关注点、改变我解决问题的方式以及大量其他积极的 webdev 考虑因素。   由   提交/u/cshaiku  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rguosz/phpunit_testing_progress/</guid>
-      <pubDate>Sat, 28 Feb 2026 05:54:20 GMT</pubDate>
+      <title>评价公众人物的气场</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgyptf/rate_the_aura_of_public_figures/</link>
+      <description><![CDATA[      一个小型社会实验：https://aura.marcomezzavilla.com/ 您可以对公众人物（仅在世）给予正面或负面的“光环”投票。您还可以按国家/地区查看汇总结果。 想法来自意大利一个大型音乐节期间看到人们对排名的痴迷。由于我对节目本身不太感兴趣，所以我花了几个晚上来构建这个。 堆栈：Deno（使用 Deno KV）、Preact、WebSockets。 很想知道互联网的想法！ Aura 排行榜的屏幕截图，显示公众人物按正负光环得分排名，具有国家过滤器和实时投票 Gabe Newell 个人资料页面的屏幕截图，显示了他当前的光环按国家/地区划分的得分和投票分布。   由   提交 /u/marcomezzavilla   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgyptf/rate_the_aura_of_public_figures/</guid>
+      <pubDate>Sat, 28 Feb 2026 09:53:12 GMT</pubDate>
     </item>
     <item>
-      <title>为 AI 工件构建了一个开源 NPM。免费并且已经在真实的公司中运行。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgugfn/built_an_open_source_npm_for_ai_artifacts_free/</link>
-      <description><![CDATA[在与几家公司的团队进行测试后，我终于将其发布了。 我知道你们中的一些人还没有遇到这个问题，但对于那些受苦的人来说。 grekt 是一个开源工件管理器。想想 NPM，但所有内部工件都从一个地方进行管理。 您自行托管它，在 GitHub/Gitlab 上创建自己的注册表（您只需要一个存储库和一个秘密），然后 grekt 处理其余的事情。或者只是尝试本地。 它涵盖的内容： - Codex、Claude、Kiro、Copilot 等 20 多个之间的共享工具 - 延迟加载工件，无需上下文膨胀 - 漂移检测（因此您不仅仅只有 md 文件） - 技能、代理等的安全扫描... - CI/CD 支持 - Monorepo 支持从一个位置管理所有内容 目前还有一些功能正在测试中，以便为您提供更好的服务控制和洞察力。很快就会有更多信息。 免费、开源，并且已经在实际环境中得到验证。很高兴回答任何问题。 grekt.com   由   提交/u/dygerydoo  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgugfn/built_an_open_source_npm_for_ai_artifacts_free/</guid>
-      <pubDate>Sat, 28 Feb 2026 05:41:06 GMT</pubDate>
+      <title>我应该添加/知道什么来改进这个网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgylum/what_should_i_addknow_to_improve_this_site/</link>
+      <description><![CDATA[       https://preview.redd.it/n4jmfaidi7mg1.png?width=3072&amp;format=png&amp;auto=webp&amp;s=4e9ed4655894824cbd8a0b258d71c0f2a85423bc 这很简单，我更了解Python，然后是Web开发，这里是链接https://redrickytherocket.neocities.org/供参考，我不知道背景颜色会显示什么，因为它在CSS文件中设置为mistyrose，但在firefox上显示为红色   由   提交 /u/DrakeDragonDraken   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgylum/what_should_i_addknow_to_improve_this_site/</guid>
+      <pubDate>Sat, 28 Feb 2026 09:46:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
