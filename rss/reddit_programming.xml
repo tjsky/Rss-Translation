@@ -4,13 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 28 Feb 2026 12:36:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 18:27:33 GMT</lastBuildDate>
     <item>
-      <title>用于 LLM 的开源浏览器本机内存层（无需后端）</title>
-      <link>https://www.reddit.com/r/programming/comments/1rh16jg/opensource_browsernative_memory_layer_for_llms_no/</link>
-      <description><![CDATA[LLM 的浏览器原生内存层（无需后端） 我为完全在浏览器中运行的 AI 聊天机器人构建了一个本地优先的内存系统。 问题 大多数 AI 内存解决方案需要启动矢量数据库、身份验证服务器，并将用户数据发送到设备外。这会带来隐私问题和基础设施开销。 LokulMem：一种不同的方法 LokulMem 是一个内存层，它： - 在 IndexedDB 中 100% 运行（无需后端）[1] - 可与任何 LLM（OpenAI、Anthropic、本地模型）配合使用 - 架构隐私（数据永远不会离开设备）[2] - 与 LLM 无关的 API（仅增强您的消息） array) 快速示例 ```javascript import { createLokulMem } from &#39;@lokul/lokulmem&#39;; // 1) 初始化一次 const lokul = wait createLokulMem({ dbName: &#39;my-app&#39; }); // 2) 在调用 LLM 之前 const { messages } = wait lokul.augment(userMessage, History, { contextWindowTokens: 8192, debug: true }); // 3) 调用任何模型/提供者 const response = wait myLLM(messages); // 4) 从对话中学习 wait lokul.learn(userMsg, AssistantMsg); ``` 技术特点  语义记忆提取和语义记忆提取使用嵌入进行检索与时间更新的矛盾解决（例如，“我从纽约搬到了旧金山”） 令牌感知上下文注入尊重模型的限制 内存生命周期管理（衰减曲线、固定、导出/导入）[3] 嵌入模型在 Web Worker 中运行（ONNX Runtime Web） 完整 TypeScript，具有全面的测试覆盖率  架构  主线程：干净的 API 表面 Web Worker：嵌入推理 + 检索 IndexedDB：持久存储 (Dexie) DTO模式：针对跨 IPC 的结构化克隆进行优化 [4]  用例  隐私敏感应用程序（医疗保健、法律） 支持离线的 AI 助手 本地优先的 LLM 应用程序 边缘部署场景  GitHub： https://github.com/Pouryaak/LokulMem 安装： npm i @lokul/lokulmem 使用 TypeScript、ONNX Runtime Web 和 IndexedDB 构建。欢迎反馈和贡献！   由   提交/u/MotorAlternative8045   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rh16jg/opensource_browsernative_memory_layer_for_llms_no/</guid>
-      <pubDate>Sat, 28 Feb 2026 12:16:10 GMT</pubDate>
+      <title>是的，还有……</title>
+      <link>https://www.reddit.com/r/programming/comments/1rh9bnw/yes_and/</link>
+      <description><![CDATA[一个很棒的&amp;关于为什么计算机编程即使在今天仍然是一个值得进入的伟大领域的合理文章；同时，不否认它很可能也会发生一些变化。   由   提交/u/BinaryIgor  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rh9bnw/yes_and/</guid>
+      <pubDate>Sat, 28 Feb 2026 18:01:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>低延迟 Python：从噪声中分离信号</title>
+      <link>https://www.reddit.com/r/programming/comments/1rh418l/lowlatency_python_separating_signal_from_noise/</link>
+      <description><![CDATA[有一整套关于如何让 Python 快速交易的内容。带有标题的子堆栈有望缩短您的订单执行时间。大部分都是噪音。并非完全无用——有些模式确实有帮助——但信噪比非常糟糕，因为作者不断复制 C++ 技术而不理解它们为何有效。   由   提交/u/OkSadMathematician   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rh418l/lowlatency_python_separating_signal_from_noise/</guid>
+      <pubDate>Sat, 28 Feb 2026 14:29:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>简单理解 RabbitMQ</title>
+      <link>https://www.reddit.com/r/programming/comments/1rh3pul/understanding_rabbitmq_in_simple_terms/</link>
+      <description><![CDATA[ 由   提交/u/Sushant098123  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rh3pul/understanding_rabbitmq_in_simple_terms/</guid>
+      <pubDate>Sat, 28 Feb 2026 14:15:25 GMT</pubDate>
     </item>
     <item>
       <title>我如何教蜻蜓自我模糊</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[这是一篇关于快速整数压缩的博客文章和库，以及一种新颖的实现，与更传统的固定大小块相比，它允许可变大小的输出块。 这篇文章介绍了 Daniel Lemire 的 simdcomp 的工作原理，以及 μpack 的不同之处，它如何高效地完成此操作，以及用于优化打包例程组装的一些巧妙技巧。  我希望人们对此感兴趣，并能很好地理解 simdcomp 和 μpack 的工作原理，并深入了解基于 SIMD 的整数压缩的工作原理。   由   提交/u/ChillFish8  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rgaq7j/μpack_faster_more_flexible_integer_compression/</guid>
       <pubDate>Fri, 27 Feb 2026 16:05:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>四叉树的交互式介绍</title>
-      <link>https://www.reddit.com/r/programming/comments/1rgaph8/an_interactive_intro_to_quadtrees/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rgaph8/an_interactive_intro_to_quadtrees/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:04:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们应该有一个更好的 JavaScript 流 API</title>
-      <link>https://www.reddit.com/r/programming/comments/1rgap4h/we_deserve_a_better_streams_api_for_javascript/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rgap4h/we_deserve_a_better_streams_api_for_javascript/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:04:32 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 28 Feb 2026 12:36:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 18:28:30 GMT</lastBuildDate>
     <item>
-      <title>Log Voyager 2.0 - 更新我的日志分析器（浏览器中的文件超过 10GB，现在带有命令面板、错误聚合等）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rh1btj/log_voyager_20_update_to_my_log_analyzer_10gb/</link>
-      <description><![CDATA[Log Voyager 是一款客户端日志分析器，专为 DevOps 和后端开发人员设计，他们需要直接在浏览器中分析海量日志文件 (10GB+)，而不会导致设备崩溃。 秘密武器：我们不是将整个文件加载到 RAM（这会杀死标准编辑器），而是使用文件切片 API 将文件流式传输到50KB 块，例如流式传输视频。这使您可以在使用约 10MB RAM 的旧智能手机上打开 100GB 日志文件。 v2.0 中的新增功能 命令面板 (Ctrl+K) Vim/VS Code 用户欢欣鼓舞！按 Ctrl+K 可立即访问每个功能。不再需要通过菜单进行搜索。 多重过滤器系统 通过包含/排除逻辑同时应用多个过滤器。按日志级别（错误、警告、信息、调试）和自定义术语进行过滤。每个过滤器独立支持正则表达式和区分大小写。 错误聚合 我们现在自动对类似的错误进行分组并显示发生次数。立即在日志中查找模式。按最少出现次数进行筛选，以发现最常见的问题。 日志统计 实时可视化分析，通过条形图显示级别分布。准确查看当前块中有多少错误、警告和信息日志。 拆分视图 并排比较同一日志文件的两个不同部分。每个面板中的独立导航。 热图导航 小地图现在显示视觉“热” - 红色表示错误，橙色表示警告。单击小地图上的任意位置即可立即跳转到该位置。 深色/浅色主题 在赛博朋克深色模式或浅色模式之间进行选择（是的，我知道浅色模式看起来很糟糕，但我现在没有时间这样做😅）。 导出选择 选择特定行并将其导出为 TXT、JSON 或 CSV。非常适合与您的团队共享错误片段。 全键盘导航  / - 焦点搜索 Ctrl+K - 命令面板 Ctrl+Shift+L - 切换主题 Ctrl+\ - 拆分视图 Ctrl+Shift+S -显示统计信息 Ctrl+Shift+A - 错误聚合 箭头键 + Enter 用于搜索导航  仍然 100% 隐私第一且完全免费  零服务器上传 - 您的文件永远不会离开您的设备 离线工作（兼容飞行模式） 无账户、无跟踪、无BS 开源 - 自行审核代码  https://www.logvoyager.cc/ https://github.com/hsr88/log-voyager   由   提交/u/bankrut  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rh1btj/log_voyager_20_update_to_my_log_analyzer_10gb/</guid>
-      <pubDate>Sat, 28 Feb 2026 12:23:51 GMT</pubDate>
+      <title>我的下一代 Hugo 博客主题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh9w4x/my_next_gen_hugo_theme_for_blogs/</link>
+      <description><![CDATA[大家好， 我一直在开发一个新的 Hugo 主题，终于把它放到了一个我很高兴分享的地方。  我想要一些感觉现代、功能丰富且简约的东西，但不像大多数主题那样太简约。 一些值得注意的功能：  深色/浅色模式 多语言选项（LTR和RTL） 可自定义代码块 过滤系统 与BuyMeACoffee和Umami等网站集成  我可以列出更多，但这只是其中的一部分。 它是具有 MIT 许可证的开源（我假设几乎所有 Hugo 主题都是这样）。 我很乐意获得有关代码或设计的一些反馈。此外，您可以分叉它并创建您自己的主题版本，或者只是为我的版本做出贡献。 您可以通过以下链接查看主题： Hugo 主题列表：https://themes.gohugo.io/themes/hugo-mana-theme/ GitHub：https://github.com/Livour/hugo-mana-theme 演示站点（我还没有演示站点，所以这只是我的个人博客）：https://managuide.blog/    由   提交 /u/LivourMana   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh9w4x/my_next_gen_hugo_theme_for_blogs/</guid>
+      <pubDate>Sat, 28 Feb 2026 18:23:04 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个服装生成器应用程序。在数据库中建模颜色关系是一项挑战。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rh1a39/i_built_an_outfit_generator_app_modeling_color/</link>
-      <description><![CDATA[   过去 9 年（在 vivicoding 之前）我一直在开发 Twelve70，这是一款男装应用程序，可帮助用户使用结构化颜色逻辑和服装生成来构建和优化他们的衣柜。当我开始时，这个概念听起来很简单。然后我意识到数据模型比我预期的要花更多的心思。我开始建造是因为它很令人兴奋。然后我与一位朋友会面，他说停止一切并弄清楚我的模式。 （当时对我来说是一个新词） 核心表非常简单：garments、colors 和 color_garment 数据透视表。一件衣服可以有多种颜色，颜色可以属于多件衣服。标准的多对多。 但随后我需要回答一个模式还无法回答的问题：什么与什么搭配？ 这就是颜色系列的用武之地。现在，颜色系列是广泛的分组，例如绿色、蓝色、红色、中性色。它让我可以按主色标识对服装进行聚类，而不是将每个十六进制代码视为孤立的数据点。一件标记为绿色的服装和一件标记为森林绿的衣服颜色不同，但它们生活在同一个家族中，这对于配对逻辑很重要。 当我朝着服装一代的方向发展时，我意识到，广泛的家族是不够的。您还需要一个图层来容纳大地色调、冷色中性色、暖色中性色等色彩，这些分组可以跨越原色光谱并反映人们对着装的实际想法。这是架构的下一个演变。 堆栈是前端的 Vue 3 + Pinia，后端的 Laravel + MySQL，与移动端的 Capacitor 打包在一起。该应用程序一开始是一个 PWA，现在仍然可以作为一个应用程序运行，但 Capacitor 为我们提供了原生分发。 很高兴谈论数据建模方面，仍在迭代它，并好奇其他人如何处理消费者应用程序中的颜色或分类问题。  https://preview.redd.it/4p43umuea8mg1.png?width=1360&amp;format=png&amp;auto=webp&amp;s=a6633a4b2374f9a57b2b8df40b6b9d774d61131c &lt;一href=&quot;https://preview.redd.it/0893enuea8mg1.png?width=1392&amp;format=png&amp;auto=webp&amp;s=8598ab2f53f966ddd005c997ffdb0ceffa1bd730&quot;&gt; https://preview.redd.it/0893enuea8mg1.png?width=1392&amp;format=png&amp;auto=webp&amp;s=8598ab2f53f966ddd005c997ffdb0ceffa1bd730   由   提交/u/el_bandit0  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rh1a39/i_built_an_outfit_generator_app_modeling_color/</guid>
-      <pubDate>Sat, 28 Feb 2026 12:21:19 GMT</pubDate>
+      <title>个人作品集 v3，仍然过度设计</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh98dt/personal_portfolio_v3_still_over_engineered/</link>
+      <description><![CDATA[经过比我愿意承认的更多的重新设计，我的作品集已上线：anishshobithps.com  堆栈：  Next.js 16  React 19  TypeScript  Tailwind  Drizzle ORM  Neon DB  如果您想探索，Repo 已开放：github.com/anishshobithps/anishshobithps.com   由   提交/u/anish_shobith_19   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh98dt/personal_portfolio_v3_still_over_engineered/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:58:09 GMT</pubDate>
     </item>
     <item>
-      <title>我用CSS制作了一个x86 CPU模拟器（没有javascript）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rh0vrw/i_made_an_x86_cpu_emulator_in_css_no_javascript/</link>
-      <description><![CDATA[      您可以使用 GCC 将 C 代码编译为 16 位 x86 程序集，然后将所述二进制文件加载到 CSS 中执行。 https://lyra.horse/x86css/   由   提交/u/rebane2001  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rh0vrw/i_made_an_x86_cpu_emulator_in_css_no_javascript/</guid>
-      <pubDate>Sat, 28 Feb 2026 12:00:28 GMT</pubDate>
+      <title>通过在 CSS 中使用模糊来隐藏裸体。够了吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh969b/hiding_nudity_by_using_blur_in_css_is_that_enough/</link>
+      <description><![CDATA[我们禁止任何可被视为色情内容（以性唤起为目标）的内容，但我们允许在艺术背景中出现裸体。 我们要求对这些图像进行模糊处理，直到用户声明自己年满 18 岁并希望看到这些内容。 仅使用 CSS 对其进行模糊处理就足够了吗？或者我是否需要在上传原始版本后在队列中制作它的模糊版本？模糊版本是否应该有一个完全不同的网址，或者我可以在它后面添加 -blurred.jpg 吗？因为从技术上讲，您可以删除该后缀。 我们无意真正隐藏原始内容，只是为了让您不会与之对抗。   由   提交 /u/ClickableName   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh969b/hiding_nudity_by_using_blur_in_css_is_that_enough/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:55:53 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] 查看您网站的页面在不同屏幕分辨率下的显示效果</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rh0oym/showoff_saturday_see_how_pages_of_your_site_look/</link>
-      <description><![CDATA[运行免费抓取并查看您网站的页面在不同屏幕分辨率下的显示效果。   由   提交/u/Fluid-Engineering769   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rh0oym/showoff_saturday_see_how_pages_of_your_site_look/</guid>
-      <pubDate>Sat, 28 Feb 2026 11:50:06 GMT</pubDate>
+      <title>内置 BuilderLog：一个开源工具，可将 GitHub 活动转变为开发人员时间轴</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh8zhp/built_builderlog_an_opensource_tool_that_turns/</link>
+      <description><![CDATA[      BuilderLog 连接到 GitHub 帐户并将原始活动转换为结构化的工作视图。它提供了使用提交和拉取请求构建的内容的简单记录。 功能： 时间线：按时间顺序将提交和 PR 分组到编码会话中。 见解：跟踪项目之间的一致性、连续性和焦点分布。 项目：显示活动、停滞和已交付的存储库以及会话计数。 公共配置文件：选择加入、用于展示开发活动的只读页面。 贡献：将个人项目与开源影响分开。 技术堆栈： 前端：Next.js (App Router)、TypeScript、Tailwind CSS。 后端：Node.js、Express、TypeScript、MongoDB。 隐私和访问： 应用程序需要 GitHub 存储库范围来显示来自私有的活动存储库。应用程序仅读取数据。  它永远不会写入 GitHub 帐户或存储库。访问令牌被安全存储，并且可以随时断开帐户以删除数据。 BuilderLog 是开源的，正在积极开发中。 Live App：https://builder-log-app.vercel.app   由   提交/u/Kira_X_10  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh8zhp/built_builderlog_an_opensource_tool_that_turns/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:48:26 GMT</pubDate>
     </item>
     <item>
-      <title>使用 Three.js 和 Blender 的 Papercraft 作品集（包括教程）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rh0o26/papercraft_portfolios_with_threejs_and_blender/</link>
-      <description><![CDATA[      嘿嘿！！！我制作了两个纸艺作品集和一些教程；根据您的需要，一个短视频和一个长视频。让我知道你是否创造了一些东西！我很想看到它，我相信其他人也会这么做！ ~  长版： https://youtu.be/AD01pTr3gvw 网站： https://aimees-papercraft-world.com/ 代码、制作人员、 &amp;其他文件： https://github.com/andrewwoan/aimee-weis-papercraft-world ---------------- 简短版本： https://www.youtube.com/watch?v=zyWD2E8AHCg&amp;feature=youtu.be 网站： https://www.mr-pandas-psychologically-safe-portfolio.com/ 代码、制作人员和信息其他文件： https://github.com/andrewwoan/mr-pandas-psychologically-safe-portfolio   由   提交/u/andrew_woan  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rh0o26/papercraft_portfolios_with_threejs_and_blender/</guid>
-      <pubDate>Sat, 28 Feb 2026 11:48:47 GMT</pubDate>
+      <title>Showoff Saturday：我绕过了 React 的渲染限制，使用 HTML5 Canvas 构建了 60FPS 的弹幕射击引擎（无 Phaser/ThreeJS）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh8ze2/showoff_saturday_i_bypassed_reacts_render_limits/</link>
+      <description><![CDATA[大多数人说 React 对于密集的游戏循环来说太慢了。我想看看是否可以使用 Apple M2 和纯 Canvas API 暴力破解虚拟 DOM 限制。 结果是 SHRINE-98。它以锁定的 60FPS 管理 2,500 多个活动子弹实体。 该架构严重依赖对象池来完全消除垃圾收集卡顿。我还将“requestAnimationFrame”循环与 React 状态解耦，使用可变引用来处理物理数学，而不触发组件重新渲染。音频是使用 Web Audio API 100% 程序合成的，以保持包大小微观。 如果您想了解对象池和画布渲染的结构，我在 Github 存储库上提供了架构文档和源代码，所以如果您感兴趣，请私信我。   由   提交 /u/Curious_Ad_902   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh8ze2/showoff_saturday_i_bypassed_reacts_render_limits/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:48:19 GMT</pubDate>
     </item>
     <item>
-      <title>这个扩展使 i18n 变得更加容易</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rh0hg2/this_extension_makes_i18n_so_much_easier/</link>
-      <description><![CDATA[      大家好。 我在公司从事一个中型 i18n 项目，其中的翻译文件有数千行。 编写新密钥、在区域设置之间切换以及编辑现有密钥变得越来越困难。所以我构建了一个扩展来帮助我完成 i18n 工作流程。一切进展顺利。 所以我决定将其开源，以便每个人都可以使用它。 这个想法很简单，国际化应该感觉像是编辑器的本机部分，以下是功能列表：  按键智能感知：t(&quot;...&quot;) 或 $t(&quot;...&quot;) 调用的实时自动完成。它会扫描您的 JSON 文件并在您键入时建议键。 跳转到定义：按住 Ctrl 键并单击代码中的某个键可直接跳转到翻译文件中的确切行。 未使用的键检测：突出显示 JSON 文件中未在代码库中的任何位置使用的键。 悬停切换：将鼠标悬停在代码中的某个键上可在区域设置文件之间快速切换。 简单配置：它尝试自动检测您的语言环境文件夹结构（适用于 React、Vue、Svelte、next-intl、i18next 等）。 轻量级：仅约 147 KB。  我希望它也能帮助您。请尝试一下并与我分享您的反馈。  它真的有帮助吗？ 您认为应该涵盖 i18n 工作流程中的哪些其他痛点？  链接：https://marketplace.visualstudio.com/items?itemName=mrgwd.i18n-boost github：https://github.com/mrgwd/i18n-boost 可在 vscode、光标和任何基于 vscode 的编辑器上使用。   由   提交 /u/muhammad-r   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rh0hg2/this_extension_makes_i18n_so_much_easier/</guid>
-      <pubDate>Sat, 28 Feb 2026 11:38:58 GMT</pubDate>
+      <title>有人会在 XXX 公司工作吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh8vst/would_anyone_work_for_a_xxx_company/</link>
+      <description><![CDATA[最近与一家知名色情公司进行谈判，以帮助其 Shopify 商店。我会做搜索引擎优化以及网站管理和后端人员配置（也许）。这将是一笔巨额资金，并且将是我的第一个企业客户，但我很犹豫，因为它是在成人行业，因此我并不太高兴将其带给我的团队。  有人曾与成人公司合作过吗？或者你们会建议避免这样做吗？    由   提交/u/OutrageousMoosey88  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh8vst/would_anyone_work_for_a_xxx_company/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:44:27 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] 经过多年的手动检查，构建了一个自动启动前 SEO 检查的工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rh0cb4/showoff_saturday_built_a_tool_to_automate/</link>
-      <description><![CDATA[自 2018 年以来，我一直在网络开发机构担任项目经理。这项工作的很大一部分是交付新网站、简单的宣传册网站，以及更大的电子商务平台。 当我们与专门的 SEO 机构合作时，他们会处理启动前的检查。但情况并非总是如此。如果不是这样，我就得用 Screaming Frog 抓取新旧网站，将两者都导出为 CSV，在 Excel 中并排打开它们，然后手动比较数百行 URL、状态代码、规范和标题标签。 每个。单身的。迁移。 最常错过的事情： - 暂存环境中没有留下任何索引，整个部分已取消索引 - 平台切换后漂移的规范标签 - URL 重组后重定向解析到错误的目标 - 一夜之间悄悄排名 404 的旧 URL 快进到上个月。我正在迁移我自己的爱好博客，在 AdSense 上运行，实际上产生了一些我关心的流量（从而产生了收入），我想：必须有一种更聪明的方法来做到这一点。 所以我建立了一个。爬行这两个环境，逐个进行比较，获得每个差异的优先报告。它称为 PreflightSEO。首先在我自己的博客迁移中使用它，发现了一些会消耗我流量的东西。 现在我很好奇，其他人在迁移过程中遇到了什么？这是您当前正在手动执行的操作、完全跳过还是有不同的工作流程？   由   提交/u/Hoguw   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rh0cb4/showoff_saturday_built_a_tool_to_automate/</guid>
-      <pubDate>Sat, 28 Feb 2026 11:31:00 GMT</pubDate>
+      <title>[周六炫耀] 自托管我的网站（PageSpeed 从 47 -> 97/100）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh8lwb/showoff_saturday_selfhosting_my_website_pagespeed/</link>
+      <description><![CDATA[我厌倦了在网络标准方面远远落后、浪费大量带宽以及为特权支付太多费用 - 因此我自行托管了 VPS。 很高兴回答任何问题或接受任何提示   由   提交/u/vikhik   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh8lwb/showoff_saturday_selfhosting_my_website_pagespeed/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:33:41 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] nano-dice – 速度极快且完全由键盘驱动的游艇克隆</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rh01r0/showoff_saturday_nanodice_a_blazing_fast_and/</link>
-      <description><![CDATA[大家好！ 我一直喜欢玩 Yacht，但我想要一些感觉真正灵敏且敏捷的游戏。因此，我制作了纳米骰子来止痒。它针对键盘、鼠标和触摸进行了全面优化。 （提示：如果您使用移动设备，我建议将其作为 PWA 添加到主屏幕，以便在沉浸式全屏中运行它！） 链接： https://nano-dice.netlify.app 我希望使代码库尽可能简约，因此没有框架或构建步骤。只需一个包含 Vanilla JS、CSS 和嵌入式 SVG 的 HTML 文件。 一些我非常自豪的功能：  100% 键盘支持：您永远不必触摸鼠标。使用箭头进行导航，使用空格保持/释放骰子，使用Enter滚动/确认分数。 零滞后SVG Sprites：我没有加载图像URL，而是将骰子嵌入为SVG 并使用标签。这意味着游戏过程中的网络请求为零，从而使骰子即时切换。 零延迟触摸：我使用了触摸操作：操作并禁用了文本选择/点击突出显示，使其感觉像是移动屏幕上的本机应用程序，而没有可怕的 300 毫秒点击延迟。 Catppuccin 主题： UI 使用 Catppuccin Macchiato （深色）和拿铁（浅色）调色板。它尊重您的操作系统设置，但您也可以按 T 手动切换主题。 快速动画：我使用 GSAP 进行了一些非常快速（0.2 秒）的摇晃和移动，只是为了在不减慢游戏速度的情况下给人一种物理感觉。 本地高分：将您的最好成绩直接保存到 localStorage，以便您接下来可以打败一些东西时间。  我很想听听你们对代码结构、用户体验和游戏本身的看法！ 欢迎尝试一下，让我知道你们的高分！ ☕   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rh01r0/showoff_saturday_nanodice_a_blazing_fast_and/</guid>
-      <pubDate>Sat, 28 Feb 2026 11:13:51 GMT</pubDate>
+      <title>[Showoff Saturday] 我在一个应用程序中构建了一个统一的 Git GUI、HTTP 客户端和代码编辑器。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh8bex/showoff_saturday_i_built_a_unified_git_gui_http/</link>
+      <description><![CDATA[      作为 Web 开发人员，我们不断地进行上下文切换。我的任务栏总是乱七八糟，里面有 Git GUI、VS Code、API 测试器、模拟数据浏览器和番茄计时器。 我想要一个统一的环境，所以我构建了 ArezGit。它是一个使用 Rust/Tauri 构建的本机桌面应用程序（因此速度非常快，并且不会像 Electron 那样占用 RAM）。 它包括：  强大的可视化 Git 客户端（交互式图表、可视化冲突解决）。 内置 HTTP 请求客户端（在代码旁边测试您的 REST 端点）。 Monaco 支持的多选项卡代码编辑器。 A模拟数据生成器（直观地构建架构，导出到 JSON/SQL）。 内置番茄计时器和任务跟踪。  我创建了一个免费社区层，其中包括用于公共/个人项目的所有这些工具。 在这里查看：https://arezgit.com 希望得到您的反馈UI 和整体开发人员体验！   由   提交/u/gusta_rsf   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh8bex/showoff_saturday_i_built_a_unified_git_gui_http/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:22:17 GMT</pubDate>
     </item>
     <item>
-      <title>MovieSpan - 一个有用的网站，可帮助您计划电影之夜</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgzwuj/moviespan_a_useful_site_to_help_plan_your_movie/</link>
-      <description><![CDATA[       由   提交/u/deerack_  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgzwuj/moviespan_a_useful_site_to_help_plan_your_movie/</guid>
-      <pubDate>Sat, 28 Feb 2026 11:05:53 GMT</pubDate>
+      <title>我构建了一个工具，这样销售代表就不必打开 HubSpot 只是为了记录注释或添加联系人</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh84a7/i_built_a_tool_so_sales_reps_never_have_to_open/</link>
+      <description><![CDATA[ 由   提交/u/dev-guy-100  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh84a7/i_built_a_tool_so_sales_reps_never_have_to_open/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:14:41 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] 我为我的屏幕截图 API 提供了一个 MCP 服务器 - Claude Desktop 现在可以作为本机工具调用来截取屏幕截图并检查页面</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgzv20/showoff_saturday_i_shipped_an_mcp_server_for_my/</link>
-      <description><![CDATA[上周我展示了 API 本身。本周：我在其上构建的 MCP 服务器。 它的作用： 从 npm 安装 pagebolt-mcp，将其添加到您的 Claude Desktop（或 Cursor/Windsurf）配置中，您的 AI 助手将获得这些本机工具：  take_screenshot — 捕获任何 URL，结果内联显示在对话 inspect_page — 返回所有按钮、输入、链接和带有 CSS 选择器的标题的结构化映射。没有完整的 DOM 转储 - 只是代理实际需要的交互元素。 run_sequence - 在一次调用中进行多步骤自动化（导航 → 填充 → 单击 → 屏幕截图），在步骤之间保持浏览器会话 record_video - 将序列记录为 MP4，并将叙述语音同步到每个步骤  为什么 Inspect_page 是有趣的开发人员： 大多数浏览器 MCP 为代理提供原始 CDP 访问权限或完整 DOM 转储。两者都是象征性的昂贵。 inspect_page 返回带有选择器的交互元素的干净 JSON 列表 - 代理无需读取数千个 HTML 标记即可决定要单击的内容。 配置为添加到 Claude Desktop： json { &quot;mcpServers&quot;: { &quot;pagebolt&quot;: { &quot;command&quot;: &quot;npx&quot;, “args”：[“-y”，“pagebolt-mcp”]，“env”：{“PAGEBOLT_API_KEY”：“您的密钥在这里” } } } }  免费套餐为每月 100 个请求，无需信用卡。很高兴回答有关 MCP 实现的问题。   由   提交/u/Calm_Tax_1192   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgzv20/showoff_saturday_i_shipped_an_mcp_server_for_my/</guid>
-      <pubDate>Sat, 28 Feb 2026 11:02:57 GMT</pubDate>
+      <title>免费子域项目</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh7wbf/free_subdomain_project/</link>
+      <description><![CDATA[👋  我在使用本地计算机的 dns 和 vps 时遇到了问题，所以我最近花了 2 美元购买了 1.111B 类域名，然后我想到，我应该将其免费提供给像我这样不想购买不会长期使用的服务的域名的人，或者像只想体验 dns 和自定义域名的学生。  这是我公开托管的第一个项目 https://github.com/2929-domains 我在 git 方面是个小菜鸟，所以我使用 chatgpt 来处理工作流程文件，现在一切都正常了。我知道会有错误，所以如果您尝试然后考虑报告问题，请考虑报告问题 我从 js.org is-cool.dev 等项目中获得灵感，但我还没有从它们中分叉。我和chatgpt从头开始创建了一切。 谢谢   由   提交 /u/Previous_Long6946   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh7wbf/free_subdomain_project/</guid>
+      <pubDate>Sat, 28 Feb 2026 17:06:18 GMT</pubDate>
     </item>
     <item>
-      <title>展示和讲述：我们如何在没有后端的情况下构建 50k 条记录的“胖客户端”网格</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgzsxx/show_and_tell_how_we_built_a_50krecord_fat_client/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgzsxx/show_and_tell_how_we_built_a_50krecord_fat_client/</guid>
-      <pubDate>Sat, 28 Feb 2026 10:59:48 GMT</pubDate>
+      <title>[周六展示] 构建了一个更好的 XAMPP，因为我厌倦了与本地开发设置进行斗争</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh7k9f/showoff_saturday_built_a_better_xampp_because_i/</link>
+      <description><![CDATA[      我从事 PHP 和 Laravel 工作已有多年，但我的本地设置总是“足够好”，或者不足以改进它。  XAMPP 很快就会变得笨重，并且很难更新。 Lragon 很棒，但只能同时运行 1 个 PHP 版本。 Herd 很酷，但非常小，而且没有免费数据库。 基于 Docker 的工具很棒，但管理大量小型站点变得繁重且重复。  因此，我构建了自己的 Windows 优先本地开发工具。 基本上是：  并行运行多个 PHP 版本 多个 Apache 或 Nginx 实例 多个MySQL/MariaDB 版本 每个站点都可以在自己的堆栈上运行，或者您可以在同一堆栈上运行多个站点 不存在全局“一切共享一个 PHP”问题 不需要容器 无需担心端口或配置  您可以启动完全独立的环境，例如：  PHP 7.4 + Apache + MySQL 5.7 PHP 8.3 + Nginx + MariaDB 11 全部同时运行，全部独立，只需单击一个按钮。甚至不需要 cli。   它并不是试图取代 Docker 来进行严格的基础设施模拟。它更适合那些想要的人：“给我 5 个具有不同 PHP 版本的独立本地站点，不要让我考虑它。” 现在还为时过早，但它对于我自己的日常使用（Laravel、旧版 PHP 应用程序、随机客户端项目）来说效果很好。 真诚地希望得到其他 Windows 开发人员的反馈：  这对您来说是真正的问题吗？ 或者是您对 Docker/Herd/Laragon 感到满意吗？ 您当前的本地设置让您烦恼的一件事是什么？  如果有人想看看并给我一些反馈，我会很高兴！ Forgekit.tools 很高兴回答问题。   由   提交/u/Mike_L_Taylor   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh7k9f/showoff_saturday_built_a_better_xampp_because_i/</guid>
+      <pubDate>Sat, 28 Feb 2026 16:53:23 GMT</pubDate>
     </item>
     <item>
-      <title>Git 是新代码</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgz75y/git_is_the_new_code/</link>
-      <description><![CDATA[      人工智能正在编写比以往更多的代码（如果不是全部）。但作为开发人员，我们最重要的工作并没有消失——它只是发生了变化。我们花更少的时间敲代码，花更多的时间阅读、审查并确保一切正常运行。这里有一些快速指南和 git 命令可以帮助您   由   提交/u/cresta29  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgz75y/git_is_the_new_code/</guid>
-      <pubDate>Sat, 28 Feb 2026 10:23:22 GMT</pubDate>
+      <title>我有件事要坦白</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh7fje/i_have_a_confession_to_make/</link>
+      <description><![CDATA[我累了，老板，我刚刚在我们的网站上发布了一个明显的人工智能生成的图像，该图像是我志愿参加的非营利组织的网站上的一个活动，有人传递给我，因为： 通常我会想出一些东西，或者使用一些通用资产的混合，至少看起来有趣和漂亮，但我厌倦了多年来试图教人们如何在我们的 CMS 上做简单的事情，比如添加活动，但没有人想学习。发送得很完整。 你是否曾经对某件事感到如此厌倦，以至于你想以类似的方式操它？以某种方式帮助我自我感觉更好。   由   提交/u/Feeling_Inside_1020  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh7fje/i_have_a_confession_to_make/</guid>
+      <pubDate>Sat, 28 Feb 2026 16:48:12 GMT</pubDate>
     </item>
     <item>
-      <title>我制作了一个网站，对身份验证提供商进行并排比较</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgz0ck/i_made_a_website_with_sidebyside_comparison_of/</link>
-      <description><![CDATA[      链接：https://www.auth0alternatives.com/   由   提交/u/leobuiltsstuff  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgz0ck/i_made_a_website_with_sidebyside_comparison_of/</guid>
-      <pubDate>Sat, 28 Feb 2026 10:11:42 GMT</pubDate>
+      <title>用于速率限制、负载平衡、缓存、RAFT、CAP 等的交互式模拟器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh73v6/interactive_simulators_for_rate_limiting_load/</link>
+      <description><![CDATA[ 由   提交/u/nulless  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh73v6/interactive_simulators_for_rate_limiting_load/</guid>
+      <pubDate>Sat, 28 Feb 2026 16:35:11 GMT</pubDate>
     </item>
     <item>
-      <title>评价公众人物的气场</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgyptf/rate_the_aura_of_public_figures/</link>
-      <description><![CDATA[      一个小型社会实验：https://aura.marcomezzavilla.com/ 您可以对公众人物（仅在世）给予正面或负面的“光环”投票。您还可以按国家/地区查看汇总结果。 想法来自意大利一个大型音乐节期间看到人们对排名的痴迷。由于我对节目本身不太感兴趣，所以我花了几个晚上来构建这个。 堆栈：Deno（使用 Deno KV）、Preact、WebSockets。 很想知道互联网的想法！ Aura 排行榜的屏幕截图，显示公众人物按正负光环得分排名，具有国家过滤器和实时投票 Gabe Newell 个人资料页面的屏幕截图，显示了他当前的光环按国家/地区划分的得分和投票分布。   由   提交 /u/marcomezzavilla   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgyptf/rate_the_aura_of_public_figures/</guid>
-      <pubDate>Sat, 28 Feb 2026 09:53:12 GMT</pubDate>
+      <title>HexaZen - 您独特的音景</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh6hyj/hexazen_your_unique_soundscape/</link>
+      <description><![CDATA[      我通常在工作时用耳机听白噪声、雨声和其他自然声音。 但是在听同一首歌太多次之后，我几乎已经准确地记住了下一次雷声何时响起。 (´´ω`‹ ) 虽然有很多很棒的在线混音器网站，但他们总觉得缺少了一些东西。因此，我决定尝试使用 Babylon.js 构建一个 3D 混音器，其中声音随机播放。 您可以自由组合不同的场景块。块的类型和规模会产生不同的自然声音效果。例如：  树：风吹树叶沙沙作响 房屋：咖啡馆氛围 河流：流水声  不同的尺度甚至会创造生态系统！例如，如果您放置了足够多的树木，您将开始听到昆虫鸣叫、鸟儿歌唱等等。 来看看您能找到什么声音！ (´ ▽ ` )ﾉ 没有灵感？没问题！我预先制作了一些场景供您查看：  森林小屋 山居 平原与River  想尝试一下吗？ 点击此处 想要查看源代码吗？ 您可以在这里找到它   由   提交/u/Normal_House_1967  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh6hyj/hexazen_your_unique_soundscape/</guid>
+      <pubDate>Sat, 28 Feb 2026 16:10:44 GMT</pubDate>
     </item>
     <item>
-      <title>我应该添加/知道什么来改进这个网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgylum/what_should_i_addknow_to_improve_this_site/</link>
-      <description><![CDATA[       https://preview.redd.it/n4jmfaidi7mg1.png?width=3072&amp;format=png&amp;auto=webp&amp;s=4e9ed4655894824cbd8a0b258d71c0f2a85423bc 这很简单，我更了解Python，然后是Web开发，这里是链接https://redrickytherocket.neocities.org/供参考，我不知道背景颜色会显示什么，因为它在CSS文件中设置为mistyrose，但在firefox上显示为红色   由   提交 /u/DrakeDragonDraken   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgylum/what_should_i_addknow_to_improve_this_site/</guid>
-      <pubDate>Sat, 28 Feb 2026 09:46:03 GMT</pubDate>
+      <title>我做了一个网站来测试你是否真的了解你的颜色</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rh6hbd/i_made_a_website_to_test_if_you_really_know_your/</link>
+      <description><![CDATA[      我是一名设计师，我一直在悄悄地做一些有趣的事情......它终于上线了。 🎨 它被称为 Color Guesser，是一款面向设计师、开发人员和任何关心（可能有点太关心）颜色的人的日常小游戏。 这个想法很简单： &gt;您会看到一个颜色名称 &gt;您从光谱中选择匹配的样本 &gt; &gt;你会根据你的眼睛的精确程度来评分 这就像 Wordle，但针对的是颜色，呵呵。你会收到一个共享的每日挑战，可以发布你的结果，并与朋友进行比较。 我们已经在工作中玩它有一段时间了，甚至有一个专门的 Slack 频道，专门用于分数、屏幕截图和友谊赛。这已经成为我们这个时代的一个有趣的小仪式。 现在我们正在第 18 集，我正在积极迭代，发布小改进，并根据反馈添加功能。如果您想加入，请尝试今天的每日挑战并分享您的结果。 链接：colorguesser.xyz   由   提交/u/BeingMani97  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rh6hbd/i_made_a_website_to_test_if_you_really_know_your/</guid>
+      <pubDate>Sat, 28 Feb 2026 16:10:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
