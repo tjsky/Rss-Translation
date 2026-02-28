@@ -4,7 +4,91 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 28 Feb 2026 06:32:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 09:22:53 GMT</lastBuildDate>
+    <item>
+      <title>我创建了一个免费的网络应用程序，您可以在其中跟踪您玩的游戏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgy46p/iv_created_a_free_web_app_where_you_can_track_the/</link>
+      <description><![CDATA[嗨，Reddit！我创建了 mygametracker.com，以便我可以跟踪我玩过的游戏。它完全免费，并且集成了 Steam。 它是使用 Tanstack Start、tailwind、Postgres、dexiejs 构建的，并部署在 VPS 上。 非常感谢任何反馈。谢谢！   由   提交 /u/DontTrustHamsters   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgy46p/iv_created_a_free_web_app_where_you_can_track_the/</guid>
+      <pubDate>Sat, 28 Feb 2026 09:14:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>一些使用指针事件拖放图像的简单游戏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgxv4g/some_simple_games_using_pointer_events_to_drag/</link>
+      <description><![CDATA[我编写了纸牌纸牌游戏 Scoundrel 和“roll and write”的网络版本游戏 Solitaire Dice 创建一个简单的框架来使用指针事件。 我最初使用拖放 API 编写游戏，但遇到了游戏无法在智能手机上运行的问题没有鼠标。 浏览 Mozilla 的指针事件的示例，我找不到任何完全符合我想要的功能，但设法找出一些似乎可以正常工作的东西。 我的黑客工作原理如下： ```js let DragObject = {moving: false}; functionpointerdownHandler(pointerEvent) { DragObject.fromID =pointerEvent.target.id; DragObject.element = document.querySelector(#${dragObject.fromID}); DragObject.element.setPointerCapture(pointerEvent.pointerId);指针事件.preventDefault();拖动对象.movi​​ng = true; DragObject.src=pointerEvent.target.src; DragObject.x = DragObject.element.offsetLeft; DragObject.y = DragObject.element.offsetTop; DragObject.X = DragObject.x + (dragObject.element.offsetWidth/2); DragObject.Y = DragObject.y + (dragObject.element.offsetHeight/2); } function pointmoveHandler(pointerEvent) { if (dragObject.movi​​ng) { DragObject.element.style.transform = translate(${pointerEvent.clientX - DragObject.X}px,\ ${pointerEvent.clientY - DragObject.Y}px); } } 函数pointerupHandler(pointerEvent) { if (dragObject.movi​​ng) { DragObject.movi​​ng = false; DragObject.element.releasePointerCapture(pointerEvent.target.id); DragObject.element.style.transform = translate(${pointerEvent.x - pointerEvent.clientX}px,\ ${pointerEvent.y - pointerEvent.clientY}px); DragObject.toID = document.elementFromPoint(pointerEvent.clientX,pointerEvent.clientY).id; // 执行任何操作的代码，将图像移动到新元素等 // ... } } document.addEventListener(“pointerdown”,pointerdownHandler); document.addEventListener(“pointermove”,pointermoveHandler); document.addEventListener(“pointerup”,pointerupHandler); document.addEventListener(“pointercancel”,pointerupHandler); ``` 简而言之，我只是使用全局对象 DragObject 将所需的数据从指针向下传递到指针向上处理程序，而不是使用 DragEvent 的 ev.dataTransfer.setData(&quot;text/plain&quot;, ev.target.innerText);。 要弄清楚的棘手问题是获取目标元素的 id，这需要首先将拖动的元素移开。到其原始位置以获得 document.elementFromPoint(x,y); 我只是一个业余爱好者。对更有经验的开发人员的反馈非常感兴趣。   由   提交/u/RobGoLaing  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgxv4g/some_simple_games_using_pointer_events_to_drag/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:59:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>GIF/MP4 的真正矢量转换！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgxs7i/true_vector_conversion_for_gifsmp4s/</link>
+      <description><![CDATA[      大家好！上次我与大家分享 LottieFyr 时，它是一个将 GIF 和 MP4 转换为 Lottie 动画的简单工具。 今天我带来了一个重大更新：我刚刚在矢量模式下提供了真正的矢量转换。 有什么新内容？ LottieFyr 现在不再只是嵌入位图： 采样帧并量化帧调色板， 使用 Potrace 将形状跟踪到真实的 SVG 路径中， 将它们写入 Lottie 形状图层（而不是图像资源），因此输出是真正的矢量动画。 它还运行预检 + 运行时防护（颜色复杂性、几何质量、尺寸比例）。如果源太复杂或有风险，它会阻止并提示 UI 切换到帧序列或需要覆盖。 👉 在这里尝试：https://lottiefyr.com 希望得到这个很棒的社区的反馈！ 🚀   由   提交/u/Cosmin_Dev  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgxs7i/true_vector_conversion_for_gifsmp4s/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:54:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 我构建了一个实时突发新闻监视器，可以通过数量峰值而不是社论精选来检测突发事件</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgxlpe/showoff_saturday_i_built_a_realtime_breaking_news/</link>
+      <description><![CDATA[   鉴于今天的事件，我想我会分享这个。 News Pulse 是我构建的一个简单的突发新闻监视器。它来自 475 多个来源，其中大部分是 Bluesky，还有 RSS、Telegram、Reddit、YouTube 和 Mastodon，所有内容均严格按时间顺序排列，并具有透明的来源归属。 最重要的是：每个地区都有一个衡量基准，包括 6 小时内通常发布的帖子数量。当交易量激增至高于该基线时，系统会对其进行标记，并将警报级别从“正常”转变为“升高”再转变为“严重”。它还生成开发故事的人工智能摘要，这样您就可以快速掌握情况，而无需滚动浏览数百篇文章。 使用 Next.js、TypeScript、Tailwind 构建。免费，无需登录，无需帐户。 我是一名前调查记者，后来转为网络开发人员。我建立这个网站是因为 Twitter ......嗯，你知道，但通常仍然是获取突发新闻的最佳场所。所以想看看我可以使用免费和开放的新闻和 API 资源围绕它构建什么。真实编码和监督振动编码的混合。希望得到反馈。 https://pulse-osint.vercel.app/   由   提交/u/trevorthewebdev  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgxlpe/showoff_saturday_i_built_a_realtime_breaking_news/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:44:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>现实的价格检查 – 自定义物业管理 Web 应用程序（前端已完成，后端正在进行中）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgxir2/realistic_price_check_custom_property_management/</link>
+      <description><![CDATA[我正在寻找经验丰富的开发人员提供诚实、现实的定价评估。 我一直在构建一个自定义财产/建筑管理 Web 应用程序（多角色系统），我希望获得有关单独前端实际成本的反馈 - 以及稍后完全完成的产品（带有后端 + 生产强化）的反馈信息 该应用程序的用途 这是一个住宅楼宇管理网络应用程序，具有三个角色：  管理员 楼宇经理 租户  主要功能包括：  多楼宇支持 单位管理 租户管理 付款跟踪系统 租户财务卡（详细交易历史记录） CSV 导出 打印/PDF 报告 基于角色的访问控制（前端强制执行，后端迁移正在进行中） 财务完整性防护 挂起写入队列（用于离线/API 故障转移安全） 冒烟测试自动化 数据服务抽象层（为后端切换做好准备）  技术细节 前端堆栈：  Vanilla JavaScript（模块化架构） 自定义数据服务层（DS 抽象） LocalStorage 持久性（临时 - 计划后端迁移） 事件驱动的更新 手动状态管理（无 React/Vue） 结构化分离：存储实用程序、数据服务、渲染实用程序、诊断等  架构决策：  替换语义写入模型 幂等式结构准备 后端就绪抽象（计划迁移到Supabase） 防御性编码模式 企业风格的 UI 优化 自动冒烟测试  当前：  前端功能齐全 后端尚未连接（迁移基础工作已完成） 旨在扩展到生产 SaaS  我的问题 基于：  复杂性 架构 代码组织 功能范围 业务逻辑深度  您实际收取的费用是多少：  💻 仅前端（按原样，可用于生产的 UI，但没有后端） 🌐 完整具有后端的产品（身份验证、数据库、API、部署、安全强化）    由   提交 /u/No-Performance1653   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgxir2/realistic_price_check_custom_property_management/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:39:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claudebin - 通过 URL 分享您的 Claude Code 会话</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgxc57/claudebin_share_your_claude_code_sessions_via_urls/</link>
+      <description><![CDATA[嗨，reddit， 我最近经常使用克劳德代码。经过长时间的会议后，我意识到没有简单的方法可以向别人展示实际发生的情况。一切都存在于终端中。 因此我构建了一个小工具，将整个会话转储到可共享链接中。 它的灵感来自 amp 线程。我喜欢共享完整会话的想法，但想要一些可以直接使用克劳德代码并保持简单的东西。 这不是一家初创公司或任何东西。我只是喜欢构建工具，这足以让我修复它。 它导出： - 完整消息线程 - 文件读取+写入 - bash 命令 - web / mcp 调用 你可以将链接发送给某人，将其放入公关中，嵌入其中的一部分，甚至在本地恢复。 实时：https://claudebin.com 它是开源的：https://github.com/wunderlabs-dev/claudebin.com/   由   提交/u/vtemian  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgxc57/claudebin_share_your_claude_code_sessions_via_urls/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:27:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>HexaZen - 您独特的音景</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgx9ss/hexazen_your_unique_soundscape/</link>
+      <description><![CDATA[      我通常在工作时用耳机听白噪声、雨声和其他自然声音。 但是在听同一首歌太多次之后，我几乎已经准确地记住了下一次雷声何时响起。 (´´ω`‹ ) 虽然有很多很棒的在线混音器网站，但他们总觉得缺少了一些东西。因此，我决定尝试使用 Babylon.js 构建一个 3D 混音器，其中声音随机播放。 您可以自由组合不同的场景块。块的类型和规模会产生不同的自然声音效果。例如：  树：风吹树叶沙沙作响 房屋：咖啡馆氛围 河流：流水声  不同的尺度甚至会创造生态系统！例如，如果您放置了足够多的树木，您将开始听到昆虫鸣叫、鸟儿歌唱等等。 来看看您能找到什么声音！ ( ´ ▽ ` )ﾉ   由   提交/u/Normal_House_1967  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgx9ss/hexazen_your_unique_soundscape/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:23:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>专为您打造的免费全栈 Web 开发课程！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgx4ce/free_fullstack_web_development_courses_just_for/</link>
+      <description><![CDATA[      提供免费认证！  - 💻 HTML - 🎨 CSS - 🚀 JavaScript - ⚛️ React - 💡 jQuery - 🐙 Git 和 JavaScript GitHub - 🌐 API - ⚙️ Node.js - 📊 SQL - ➕...以及更多！   由   提交 /u/Gloomy_Vegetable8872   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgx4ce/free_fullstack_web_development_courses_just_for/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:14:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 我构建了一套干净、无广告的 15 多个开发者计算器套件 (ByteCalculators)</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgwzm6/showoff_saturday_i_built_a_clean_adfree_suite_of/</link>
+      <description><![CDATA[大家好！ 我总是觉得很烦人，像 PX 到 REM 或字节转换器这样的简单工具通常隐藏在大量广告和加载缓慢的脚本之下。因此，我花了一些时间构建 https://bytecalculators.com。它是一套包含 15 多个实用程序（PX/REM、宽高比、IP/CIDR、二进制等）的干净套件，具有零广告和零膨胀。我计划不断添加更多工具。我很想得到你们的一些反馈。接下来我应该添加您每天使用的任何特定计算器？ 查看：https://bytecalculators.com   由   提交/u/abarth23  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgwzm6/showoff_saturday_i_built_a_clean_adfree_suite_of/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:06:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>我想建立这个人工智能工具来管理客户网站，你们觉得怎么样？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgwxlg/i_want_to_build_this_ai_tool_for_managing_client/</link>
+      <description><![CDATA[所以我兼职做自由网络开发，说实话，工作流程让我发疯。每个新客户都是同样的事情，手动重建他们的网站，登录数百万个不同的 WordPress 仪表板，设置谷歌分析或 hubspot 以及插件或两周后出现故障的东西。 我一直在考虑构建一个工具来为自己以及其他自由职业者/机构解决这个问题。基本上这个想法是： 您粘贴客户现有的网站 URL，AI 会自动将其迁移到平台中。然后，您可以通过聊天界面编辑所有内容，而不必在页面构建器中乱搞。像 Hubspot 这样的分析工具将从一开始就内置起来，这样您就可以跟踪所有重要的分析。 因此，所有内容都集中在一个地方，而不是管理 5 个不同平台上的 10 个客户端。 我还没有构建任何东西，只是在花一周时间进行研究之前尝试检查一下我的直觉。对于在网站上工作或从事网站工作的任何人：您当前工作流程中最糟糕的部分是什么？这样的事情实际上会节省您的时间还是解决了一个实际上并不存在的问题？以及你愿意为这项服务付多少钱。 老实说，我宁愿她说“这狗屎太糟糕了”，也不愿听一些糖衣的答案。   由   提交/u/No_Game_No_Life4  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgwxlg/i_want_to_build_this_ai_tool_for_managing_client/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:03:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>touch-all，一个 CLI 实用程序，用于从单个输入构建项目文件结构</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgw19i/touchall_a_cli_utility_for_scaffolding_project/</link>
+      <description><![CDATA[      bash cat ../my-app-struct.md | Bunx touch-all  touch-all 的行为类似于 mkdir -p ... 和 touch ... 组合，根据需要创建目录和文件。它可用于快速构建项目结构或生成占位符文件。与 touch 相同，它会创建零长度文件，您可以稍后填充。 它允许您通过将多行字符串（或文件内容）传递给命令来一次生成多个文件和目录。每条线代表一条要创建的路径。这样就无需在初始项目设置期间手动创建文件夹和占位符文件。 动机 我想简化搭建新项目的过程。流程应如下所示：  LLM → 生成文件树 → 通过管道传输到 touch-all → 项目出现  这就是全部功能。 用法 带有文件夹结构的一个参数 它将文件夹和文件结构作为单个多行字符串参数： bash touch-all &quot; my-app/ └──index.ts”  使用 STDIN 和各种 Bash 技术 当文件夹结构已写入文件中时，这种方法效果很好。您只需要将更改应用到文件系统即可。 ```bash cat str.md | touch-all 回显“my-app/index.ts” | touch-all touch-all “$(cat str.md)” touch-all &quot;$(printf &#39;%s&#39; &quot;$( &lt; str.md )&quot;)&quot;&quot;全部触摸 &lt; str.md ``` 阳光下的地方 touch-all 的方法位于：  原始 shell 脚本 (mkdir + touch) 重型脚手架框架（Yeoman、Plop）  它提供：  声明式输入 最小抽象 无模板引擎开销 如果您已在本地使用 Node.js 或 Bun，则非常适合  安装 bash npm i -g touch-all  npm: https://npmx.dev/package/touch-all github: https://github.com/anton-huz/touch-all   由   提交/u/anton-huz  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgw19i/touchall_a_cli_utility_for_scaffolding_project/</guid>
+      <pubDate>Sat, 28 Feb 2026 07:10:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>我建立了一个包含 60,000 多个广播电台的目录，但需要帮助测试自动定位/语言检测。你能检查一下你的城市是否出现了吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgvjbh/i_built_a_directory_of_60000_radio_stations_but/</link>
+      <description><![CDATA[   大家好， 过去几个月我构建了 Radaradio，这是一个简单的目录，聚合了全球 60,000 多个实时互联网广播电台。我的目标只是制作一个干净、快速的播放器，没有注册或烦人的弹出窗口。 我最近推出了一些重大更新 - 具体来说，13 种语言的完全本地化和本地电台的自动检测功能。由于我无法亲自测试每个区域，因此我确实可以使用一些额外的眼睛来查看事情是否实际上在野外无缝运行。 如果您有时间点击一下，我很想知道：  语言和语言翻译：网站是否自动检测您的语言？如果支持您的语言（es、fr、de、it、pt、nl、pl、ru、ar、zh、ja、tr），菜单翻译听起来是否自然，或者是否存在任何奇怪的机器人错误？ 本地覆盖：当您第一次登陆网站时，它是否正确检测并显示您当前的国家和城市？当您检查这些部分时，您的实际本地电台是否正确显示？ 常规 UI/UX： 整个网站给您的感觉如何？是否存在任何奇怪的布局错误，或者播放器在您的设备/浏览器上表现不佳？  链接： https://radaradio.com 非常欢迎任何严厉的反馈、错误报告或功能建议。预先感谢您的帮助！   由   提交/u/erdemovali  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgvjbh/i_built_a_directory_of_60000_radio_stations_but/</guid>
+      <pubDate>Sat, 28 Feb 2026 06:41:56 GMT</pubDate>
+    </item>
     <item>
       <title>公司实力雄厚。那么为什么 4,000 人消失了呢？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rguw8q/the_company_is_strong_so_why_are_4000_people_gone/</link>
@@ -20,95 +104,11 @@
       <pubDate>Sat, 28 Feb 2026 05:54:20 GMT</pubDate>
     </item>
     <item>
-      <title>最近一直在尝试一些东西，很好奇其他网络开发人员是否也有同样的转变。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgunpa/been_experimenting_with_something_lately_and/</link>
-      <description><![CDATA[多年来，我的工作流程非常线性。规格、线框图、设计、构建、抛光。现在，有了人工智能的混合，感觉更像是规范，生成三个方向，批评，重构，交付，然后围绕真实反馈重新生成。 对我来说最大的变化不是代码生成。它是围绕它的一切。 登陆页面 营销资产 产品视觉效果 副项目的宣传资料 甚至用于验证的快速演示视频 我曾经在五个工具之间进行上下文切换并失去动力。最近，我一直在测试更加集成的工作流程，其中研究、资产创建和迭代更加紧密地结合在一起。例如，我尝试在一个流程中制定一个微型 SaaS 想法，生成初始站点结构，旋转粗略的 UI 视觉效果，并起草一份简短的解释说明。像 Runable 这样的工具在这个领域很有趣，因为它们将深入研究与跨站点、幻灯片、视觉效果甚至短视频的实际资产生成结合起来，这使得早期验证速度更快。 并不是说它取代了真正的工程。事实并非如此。但它改变了探索的成本。 好奇你们是如何处理这个问题的。您是否将人工智能严格限制在代码通道中，还是让它渗透到产品、营销和验证中？   由   提交/u/Mean-Arm659   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgunpa/been_experimenting_with_something_lately_and/</guid>
-      <pubDate>Sat, 28 Feb 2026 05:52:34 GMT</pubDate>
-    </item>
-    <item>
       <title>为 AI 工件构建了一个开源 NPM。免费并且已经在真实的公司中运行。</title>
       <link>https://www.reddit.com/r/webdev/comments/1rgugfn/built_an_open_source_npm_for_ai_artifacts_free/</link>
       <description><![CDATA[在与几家公司的团队进行测试后，我终于将其发布了。 我知道你们中的一些人还没有遇到这个问题，但对于那些受苦的人来说。 grekt 是一个开源工件管理器。想想 NPM，但所有内部工件都从一个地方进行管理。 您自行托管它，在 GitHub/Gitlab 上创建自己的注册表（您只需要一个存储库和一个秘密），然后 grekt 处理其余的事情。或者只是尝试本地。 它涵盖的内容： - Codex、Claude、Kiro、Copilot 等 20 多个之间的共享工具 - 延迟加载工件，无需上下文膨胀 - 漂移检测（因此您不仅仅只有 md 文件） - 技能、代理等的安全扫描... - CI/CD 支持 - Monorepo 支持从一个位置管理所有内容 目前还有一些功能正在测试中，以便为您提供更好的服务控制和洞察力。很快就会有更多信息。 免费、开源，并且已经在实际环境中得到验证。很高兴回答任何问题。 grekt.com   由   提交/u/dygerydoo  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rgugfn/built_an_open_source_npm_for_ai_artifacts_free/</guid>
       <pubDate>Sat, 28 Feb 2026 05:41:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>与 DoW 合作后，ChatGPT 不允许我删除我的帐户</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgtw2v/chatgpt_not_letting_me_delete_my_account_after/</link>
-      <description><![CDATA[      在阅读 Sam Altman 向特朗普政权和 Hegseth 战争部屈膝后，OpenAI 阻止我删除我的帐户。  自从 Anthropic 站起来后，他们就取代了 Anthropic。我对 OpenAi 同意签订一份存在法律漏洞的合同表示怀疑，该合同允许法西斯独裁者为所欲为。  https://www.reddit.com/r/webdev/s/IWCnT4Onl3   由   提交/u/iReallyLikeThemDogs  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgtw2v/chatgpt_not_letting_me_delete_my_account_after/</guid>
-      <pubDate>Sat, 28 Feb 2026 05:10:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>我有一个南极洲用户！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgtrah/i_have_an_antarctica_user/</link>
-      <description><![CDATA[      一只企鹅正在使用我的应用程序？？？ 我推出了这个名为 Neuron 的应用程序，它是第二个大脑应用程序，可以将你的笔记映射到图表中，并帮助你通过主动回忆永远不会忘记它们。 就像每天早上一样，我检查分析结果震惊地发现我有一个来自南极洲的用户... 什么...如何...??????企鹅可以上网吗？？？等等...他们还有 TikTok 吗？？？   由   提交/u/Ornery-Length8689   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgtrah/i_have_an_antarctica_user/</guid>
-      <pubDate>Sat, 28 Feb 2026 05:03:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了在浏览器本地运行的免费音频分割器（+免费音频转录）！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgte69/i_made_free_audio_splitter_free_audio/</link>
-      <description><![CDATA[构建我的音频转录服务时（如我上一篇文章中所示），我还需要拆分音频文件，因此我构建了一个。 它使用 AudioContext Web API 最好的事情是它永远免费，在您的浏览器本地运行。因此，您不必担心在您的私人音频文件上使用它！ 音频分割器：https://online-transcript-generator.com/audio-splitter 音频转录：https://online-transcript-generator.com/ 它也是开源的，随意修改它！~   由   提交 /u/icompletetasks   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgte69/i_made_free_audio_splitter_free_audio/</guid>
-      <pubDate>Sat, 28 Feb 2026 04:44:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 Next.js 和 Supabase 构建了一个开源 Website Builder 入门版。免费托管无限个网站。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgt12l/i_built_an_opensource_website_builder_starter/</link>
-      <description><![CDATA[大家好！ 我想分享一个我一直在做的项目：ChaiBuilder Next.js + Supabase Starter。这是一个固执己见的开源入门工具包，可将 Next.js 和 Supabase 转变为成熟的网站构建器环境。 目标是让任何人都可以部署专业的网站构建器并托管多个网站，而无需在基础设施上花费一毛钱（使用 Vercel 和 Supabase 免费套餐）。 Repo：https://github.com/chaibuilder/chaibuilder-next-supabase-starter ⚡️ 主要功能：  完全在线设置： 您实际上可以在浏览器中完成整个部署过程。无需本地编码环境即可上线您的第一个网站。 多站点支持：单个 Supabase 数据库实例可为无限个站点提供支持。 实时协作：通过页面锁定对多用户编辑提供内置支持（通过 Supabase Realtime）。 人工智能支持的功能：包括用于 UI 生成、SEO 优化和翻译的挂钩（通过 Vercel AI Gateway）。 Next.js 应用路由器：基于最新的 Next.js 性能和 SEO 标准构建。  🛠 技术堆栈：  框架： Next.js（应用路由器） 数据库： PostgreSQL (Supabase) Auth： Supabase Auth 存储： Supabase 存储 样式： Tailwind CSS  为什么要尝试这个？ 如果您想要一个功能强大、自托管的 Squarespace/Wix 替代方案，并且您可以 100% 控制，此入门程序旨在快速启动该方案流程。 Repo：https://github.com/chaibuilder/chaibuilder-next-supabase-starter 我很乐意让你们尝试一下，打破常规，并让我知道你们接下来希望看到哪些功能。非常欢迎 PR 和反馈！ 祝您构建愉快！ ☕️   由   提交/u/surajair  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgt12l/i_built_an_opensource_website_builder_starter/</guid>
-      <pubDate>Sat, 28 Feb 2026 04:25:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>无代码构建者和开发人员之间的交接完全被打破</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgt074/the_handoff_between_no_code_builders_and/</link>
-      <description><![CDATA[我的一群非技术朋友已经开始使用 lovable、bolt、base44 等进行构建。他们当前的工作流程是这样的： 开始构建（哦，这很简单）&gt;继续构建（拖放真是太棒了）&gt;完成构建（我的初创公司已准备好/我筹集海拉资本）&gt;慢慢意识到他们对后端、数据库、安全性、API、插件等一无所知 &gt;查找开发&gt;无法解释他们不知道的事情&gt;客户端和开发人员都感到困惑&gt; fin. 有人有这方面的经验吗？就像人们正在经历的普遍痛苦一样？由于需求不明确、简单的英语和开发人员的口语反复，导致多个项目被放弃。   由   提交/u/dmc_3  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgt074/the_handoff_between_no_code_builders_and/</guid>
-      <pubDate>Sat, 28 Feb 2026 04:24:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>星期六炫耀：我构建了agents-lint – 一个 linter，可以在 AI 代理出错之前捕获陈旧路径并在 AGENTS.md 文件中腐烂</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgs9me/showoff_saturday_i_built_agentslint_a_linter_that/</link>
-      <description><![CDATA[大量使用 AI 编码代理（Claude Code、Codex、Cursor）并不断遇到同样的问题：AGENTS.md 文件在编写时是准确的，但几个月后却默默地错误。重命名目录、删除 npm 脚本、弃用的框架模式 - 代理不会抛出错误，它们只是做错误的事情。 我在构建此代码时发现的一些真实示例：  一个流行的代理脚本存储库在其 AGENTS.md 中硬编码了 ~/Projects/bird/bird - 在作者的 MacBook 上运行，在其他地方默默地失败 官方的agentsmd规范存储库（17k星）写入“执行测试套件（如果存在）” – 他们不确定是否有测试 每个人复制粘贴的样本 AGENTS.md 都有 Turborepo monorepo 命令，这些命令会破坏单包项目  所以我构建了agents-lint： npxagents-lint  它检查：  每个引用的路径实际上都存在于磁盘上 Every npm run ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgs9me/showoff_saturday_i_built_agentslint_a_linter_that/</guid>
-      <pubDate>Sat, 28 Feb 2026 03:47:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>从 560 万个网站中提取技术并制作一些仪表板</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgrza7/extracted_tech_from_56m_sites_and_made_some/</link>
-      <description><![CDATA[      在搜索栏中输入您要查找的技术并浏览一下：https://versiondb.io/technology/wordpress/   由   提交/u/Upper-Character-6743   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgrza7/extracted_tech_from_56m_sites_and_made_some/</guid>
-      <pubDate>Sat, 28 Feb 2026 03:33:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>了解如何在团队中工作</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgrrwz/learn_how_to_work_in_a_team/</link>
-      <description><![CDATA[我学习了前端开发，包括 HTML、CSS、Tailwind CSS、JavaScript、TypeScript 和 React。我最近在人工智能的帮助下建立了我的第一个网站 safesidetransportation.us，我很高兴能够继续建立更多项目。未来，我还想使用 Stripe 等平台和其他支付系统集成在线支付等功能。 如果有人正在寻找勤奋的助理或团队成员，我很乐意为您的项目或公司贡献我的精力和奉献精神。我现在的主要目标是获得实践经验并学习如何在团队环境中有效工作。 请随时查看我的项目，对其进行评分并分享任何反馈。我非常感谢您的建议。 非常感谢。   由   提交/u/Hot-Lengthiness9122   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgrrwz/learn_how_to_work_in_a_team/</guid>
-      <pubDate>Sat, 28 Feb 2026 03:23:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>你用什么来进行网页抓取？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgrqu4/what_do_you_use_for_web_scraping/</link>
-      <description><![CDATA[现成的工具、框架或库，还是从头开始的自定义代码？ 此外，我尝试使用 Beautiful Soup 抓取电子商务网站，但没有成功。以前有人遇到过这个吗？是因为 JavaScript 渲染、反机器人保护还是其他原因？   由   提交 /u/Fun-Disaster4212   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgrqu4/what_do_you_use_for_web_scraping/</guid>
-      <pubDate>Sat, 28 Feb 2026 03:21:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>React 如何在内部安排状态更改</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgro0i/how_react_schedules_the_state_change_internally/</link>
-      <description><![CDATA[      我已经探索 React 内部有一段时间了，并且了解了一些关于 React 如何在内部更新状态的有趣的事情。 我为此写了一篇博客：https://inside-react.vercel.app/blog/how-state-updates-work-internally   由   提交/u/Ok-Programmer6763   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgro0i/how_react_schedules_the_state_change_internally/</guid>
-      <pubDate>Sat, 28 Feb 2026 03:18:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了第一个多人提示工程游戏：特工有一个秘密</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgqvgw/i_created_the_first_multiplayer_prompt/</link>
-      <description><![CDATA[ 由   提交 /u/chicametipo   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgqvgw/i_created_the_first_multiplayer_prompt/</guid>
-      <pubDate>Sat, 28 Feb 2026 02:41:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
