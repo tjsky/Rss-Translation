@@ -4,7 +4,56 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 28 Feb 2026 01:26:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 04:15:02 GMT</lastBuildDate>
+    <item>
+      <title>周六展示：我构建了agents-lint——一个 linter，可以在你的 AI 代理出错之前捕获陈旧路径并在 AGENTS.md 文件中腐烂</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgs9me/showoff_saturday_i_built_agentslint_a_linter_that/</link>
+      <description><![CDATA[大量使用 AI 编码代理（Claude Code、Codex、Cursor）并不断遇到同样的问题：AGENTS.md 文件在编写时是准确的，但几个月后却默默地错误。重命名目录、删除 npm 脚本、弃用的框架模式 - 代理不会抛出错误，它们只是做错误的事情。 我在构建此代码时发现的一些真实示例：  一个流行的代理脚本存储库在其 AGENTS.md 中硬编码了 ~/Projects/bird/bird - 在作者的 MacBook 上运行，在其他地方默默地失败 官方的agentsmd规范存储库（17k星）写入“执行测试套件（如果存在）” – 他们不确定是否有测试 每个人复制粘贴的样本 AGENTS.md 都有 Turborepo monorepo 命令，这些命令会破坏单包项目  所以我构建了agents-lint： npxagents-lint  它检查：  每个引用的路径实际上都存在于磁盘上 Every npm run ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgs9me/showoff_saturday_i_built_agentslint_a_linter_that/</guid>
+      <pubDate>Sat, 28 Feb 2026 03:47:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>从 560 万个网站中提取技术并制作一些仪表板</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgrza7/extracted_tech_from_56m_sites_and_made_some/</link>
+      <description><![CDATA[      在搜索栏中输入您要查找的技术并浏览一下：https://versiondb.io/technology/wordpress/   由   提交/u/Upper-Character-6743   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgrza7/extracted_tech_from_56m_sites_and_made_some/</guid>
+      <pubDate>Sat, 28 Feb 2026 03:33:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>了解如何在团队中工作</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgrrwz/learn_how_to_work_in_a_team/</link>
+      <description><![CDATA[我学习了前端开发，包括 HTML、CSS、Tailwind CSS、JavaScript、TypeScript 和 React。我最近在人工智能的帮助下建立了我的第一个网站 safesidetransportation.us，我很高兴能够继续建立更多项目。未来，我还想使用 Stripe 等平台和其他支付系统集成在线支付等功能。 如果有人正在寻找勤奋的助理或团队成员，我很乐意为您的项目或公司贡献我的精力和奉献精神。我现在的主要目标是获得实践经验并学习如何在团队环境中有效工作。 请随时查看我的项目，对其进行评分并分享任何反馈。我非常感谢您的建议。 非常感谢。   由   提交/u/Hot-Lengthiness9122   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgrrwz/learn_how_to_work_in_a_team/</guid>
+      <pubDate>Sat, 28 Feb 2026 03:23:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>你用什么来进行网页抓取？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgrqu4/what_do_you_use_for_web_scraping/</link>
+      <description><![CDATA[现成的工具、框架或库，还是从头开始的自定义代码？ 此外，我尝试使用 Beautiful Soup 抓取电子商务网站，但没有成功。以前有人遇到过这个吗？是因为 JavaScript 渲染、反机器人保护还是其他原因？   由   提交 /u/Fun-Disaster4212   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgrqu4/what_do_you_use_for_web_scraping/</guid>
+      <pubDate>Sat, 28 Feb 2026 03:21:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>React 如何在内部安排状态更改</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgro0i/how_react_schedules_the_state_change_internally/</link>
+      <description><![CDATA[      我已经探索 React 内部有一段时间了，并且了解了一些关于 React 如何在内部更新状态的有趣的事情。 我为此写了一篇博客：https://inside-react.vercel.app/blog/how-state-updates-work-internally   由   提交/u/Ok-Programmer6763   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgro0i/how_react_schedules_the_state_change_internally/</guid>
+      <pubDate>Sat, 28 Feb 2026 03:18:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>我创建了第一个多人提示工程游戏：特工有一个秘密</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgqvgw/i_created_the_first_multiplayer_prompt/</link>
+      <description><![CDATA[ 由   提交 /u/chicametipo   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgqvgw/i_created_the_first_multiplayer_prompt/</guid>
+      <pubDate>Sat, 28 Feb 2026 02:41:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>改进基于 TWA 的 Android 应用程序中的使用情况跟踪 [Showoff Saturday]</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgq88g/improving_usage_tracking_in_a_twabased_android/</link>
+      <description><![CDATA[      我一直致力于使用可信网络活动转换网络应用（PWA → Android）。 在 Play 管理中心进行测试时，我注意到使用基本 TWA/PWA 包装器构建的应用在封闭测试期间有时会显示平均使用时间为 0 秒。  经过调查，我意识到许多简单的实现：  在没有有意义的本机交互的情况下直接启动到 TWA 触发最少的 Android 生命周期事件 在加载 Web 内容之前没有本机屏幕 导致 Android 端的参与信号较弱  为了对此进行实验，我在加载 TWA 之前添加了一个轻量级本机活动层。设置包括： • 小型本机启动器/入门屏幕 • 正确的生命周期处理（onResume / onPause 流程） • 更清晰的清单和意图配置 • 结构化过渡到 TWA 目标不是更改 Web 应用程序本身，而是从生命周期的角度使 Android 容器的行为更像正确的本机应用程序。 经过此调整，测试期间的使用情况报告变得一致显示 0 秒。 好奇与 TWA 合作的其他人是否也经历过类似的报告问题或采取不同的方法来处理生命周期和参与可见性。 如果有人感兴趣，很乐意讨论实施细节。   由   提交/u/boltuix_dev  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgq88g/improving_usage_tracking_in_a_twabased_android/</guid>
+      <pubDate>Sat, 28 Feb 2026 02:11:22 GMT</pubDate>
+    </item>
     <item>
       <title>我制作了 Aux - 想想 Omegle，但基于音乐</title>
       <link>https://www.reddit.com/r/webdev/comments/1rgorb7/i_made_aux_think_omegle_but_based_on_music/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[我以前从未使用过销售人员的服务，但在那里产生销售线索很困难（至少我觉得如此），所以理论上向某人带来工作佣金似乎是个好主意 - 我认为。 有人这样做吗？（编辑愚蠢的 sp 错误）   由   提交 /u/motivcreative   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rgm674/does_anyone_use_a_commission_salesperson_to/</guid>
       <pubDate>Fri, 27 Feb 2026 23:14:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个仪表板来控制 iOS 模拟器和 Android 模拟器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgm4rr/i_built_a_single_dashboard_to_control_ios/</link>
-      <description><![CDATA[      各位 Reddit 用户大家好， 从事移动开发已有约 5 年了。厌倦了摆弄我永远记不起的 simctl 命令、与 adb 作斗争，以及手动调整随机模拟器设置...... 所以我构建了 Simvyn --- 一个仪表板 + CLI 来包装两个平台。 没有 SDK。没有代码更改。适用于任何应用程序和 它的作用   模拟位置 --- 在交互式地图上选择一个地点或播放 GPX 路线，以便您的设备“驾驶”沿着路径\  日志查看器 --- 实时流、级别过滤、正则表达式搜索\  推送通知 --- 使用保存的模板发送到 iOS 模拟器\  数据库检查器 --- 浏览 SQLite、运行查询、读取 SharedPreferences / NSUserDefaults\  文件浏览器 --- 探索应用程序具有内联编辑功能的沙箱\  深层链接 --- 保存的库，以便您停止从 Slack 复制粘贴\  设备设置 --- 深色模式、权限、电池模拟、状态栏覆盖、可访问性\  屏幕截图、屏幕录制、崩溃日志 --- 加上剪贴板和媒体管理  一切都可以通过 CLI 进行 --- 所以您可以编写脚本。 尝试一下 bash npx simvyn  在浏览器中打开本地仪表板。就是这样。 GitHub：\ https://github.com/pranshuchtora/simvyn 如果这每天可以为您节省几分钟时间，请考虑在 GitHub 上给它一个 ⭐ --- 谢谢 🚀   由   提交 /u/IndianITCell   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgm4rr/i_built_a_single_dashboard_to_control_ios/</guid>
-      <pubDate>Fri, 27 Feb 2026 23:12:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>用 Rust 编写的注重隐私的 AI 终端</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rglk04/a_privacyfocused_ai_terminal_written_in_rust/</link>
-      <description><![CDATA[嘿，网络开发者！ 今天，我要展示 pH7Console，这是一个使用 Rust（使用 Tauri！）构建的开源人工智能终端。 GitHub：https://github.com/EfficientTools/pH7Console 它使用 ML Candle 在本地运行语言模型，无需遥测，也无需云调用。您的命令历史记录保留在您的计算机上。 它支持自然语言到 shell 命令、上下文感知建议、错误分析以及通过加密数据存储进行本地工作流程学习。 支持的模型包括 Phi-3 Mini、Llama 3.2 1B、TinyLlama 和 CodeQwen。根据任务选择模型，并进行量化以保持内存使用合理。 堆栈是 Rust 和 Tauri 2.0、前端的 React 和 TypeScript、用于 ML 的 Candle 和用于终端仿真的 xterm.js。 我希望获得有关此终端架构、低内存系统上的推理性能以及您注意到的任何安全问题的反馈。 周末快乐！   由   提交/u/phenrys  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rglk04/a_privacyfocused_ai_terminal_written_in_rust/</guid>
-      <pubDate>Fri, 27 Feb 2026 22:49:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能是你称之为工会的事物之一</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgkin1/ai_is_one_of_those_things_you_call_a_union_for/</link>
-      <description><![CDATA[我对这个话题没有做太多研究，所以就简单说一下，人工智能是一种工会可以介入并缓解的情况，比如电影工作者有工会，工会大厅让他们的工作和工作场所条件更好，不需要悲伤地抱怨，每当我被欺负时，欺负者都会告诉我做点什么，这就是我从另类学校毕业的原因！但尽管如此，我不使用人工智能，但我喜欢在没有人工智能的情况下进行编码，我真正享受编写代码带来的回报，我不一定喜欢它给我的时候    由   提交/u/Ok_Appearance_4421   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgkin1/ai_is_one_of_those_things_you_call_a_union_for/</guid>
-      <pubDate>Fri, 27 Feb 2026 22:07:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于找出元素为何具有其大小的工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgk0vc/tool_to_find_out_why_an_element_has_the_size_it/</link>
-      <description><![CDATA[      需要一些调整...   由   提交/u/th00ht  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgk0vc/tool_to_find_out_why_an_element_has_the_size_it/</guid>
-      <pubDate>Fri, 27 Feb 2026 21:48:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>我厌倦了手动 PDF 下载，所以我构建了一个批处理文件下载器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgjmd2/i_got_tired_of_manual_pdf_downloading_so_i_built/</link>
-      <description><![CDATA[我最近经常使用 NotebookLM 进行学习，但每次都手动下载 PDF 太烦人了。老实说，我不想继续为每个科目做这件事，或者每次 iLearn 上出现新模块时，我都会花大约 20 分钟一个接一个地点击下载。 所以我有一个想法，就是构建一个批量下载器来处理它。它会扫描页面，抓取所有文件，然后让我只需点击两次即可下载它们。它把 15 分钟的点击马拉松变成了 5 秒的工作。 这对我来说实际上是一个相当大的学习曲线，但说实话我很喜欢它。我最终将其作为 Firefox 扩展上传，这样我就可以轻松使用它，但如果您也在处理 iLearn slog，任何人都可以尝试一下。 这没什么疯狂的，但它节省了我很多时间。如果有人对我如何处理链接解析或下载流程感到好奇，我很乐意分享！ https://addons.mozilla.org/en-US/firefox/addon/zen-pdf-grabber/   由   提交/u/bigeyesnoob   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgjmd2/i_got_tired_of_manual_pdf_downloading_so_i_built/</guid>
-      <pubDate>Fri, 27 Feb 2026 21:33:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻求更改托管服务的帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgjko4/looking_for_help_changing_hosting_service/</link>
-      <description><![CDATA[我不确定这是否是正确的 Reddit 子版块。如果不是，我提前道歉。 我是创意行业的自由职业者，拥有一个作品集网站。 我的 URL 通过 godaddy 注册。 我的网站托管在 https://cargo.site 我的电子邮件是通过 zoho 设置的。 自从我更改该设置以来已经有一段时间了，但上次尝试时，它造成了严重破坏在我的电子邮件上，并在几天内停止其佣金，我不能再发生这种情况。 我如何确定更改我的托管平台不会影响我的电子邮件？ 我有“管理 DNS”的屏幕截图。 Cargo.site 设置上的功能（如果有帮助的话）。 我意识到这可能还不够。我还需要告诉你什么吗？ 抱歉，这对我来说完全是盲点。   由   提交/u/UmberJamber  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgjko4/looking_for_help_changing_hosting_service/</guid>
-      <pubDate>Fri, 27 Feb 2026 21:31:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>这就是专业开发人员所做的吗，他们看 YT 什么是 RAG、AI 代理以及跟上 AI 步伐的东西？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgjdpj/is_this_what_professional_devs_do_they_watch_yt/</link>
-      <description><![CDATA[   有时我在 Linkedin、Reddit 上阅读人们的帖子，我感觉自己生活在 90 年代，使用那些翻盖手机 人工智能总是有更新，过去不存在的新知识，所以我想让我保持更新，不想感到隐藏或愚蠢，你知道我的意思   由   提交/u/lune-soft  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgjdpj/is_this_what_professional_devs_do_they_watch_yt/</guid>
-      <pubDate>Fri, 27 Feb 2026 21:24:16 GMT</pubDate>
     </item>
     </channel>
 </rss>

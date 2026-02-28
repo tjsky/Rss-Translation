@@ -4,13 +4,41 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Sat, 28 Feb 2026 01:25:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 04:14:20 GMT</lastBuildDate>
+    <item>
+      <title>我构建了一个小型的原生 C++ Windows 实用程序，可以立即将剪贴板文本转换为 QR 码（无 Electron，超轻量级！）</title>
+      <link>https://www.reddit.com/r/software/comments/1rgri5b/i_built_a_tiny_native_c_windows_utility_that/</link>
+      <description><![CDATA[大家好！ 👋 我经常发现自己需要将复制的 URL、代码片段或一段文本从 PC 快速发送到手机。通过 WhatsApp 或 Telegram 等聊天应用程序将其发送到“已保存的消息”总感觉步骤太多了。  为了解决这个问题，我编写了一个非常轻量级的 Windows 桌面应用程序，名为 ClipboardQR。  工作原理：它在系统托盘中安静地运行。每当您需要向手机发送内容时，只需将文本/URL复制到PC上，双击托盘图标，它就会立即弹出一个干净的二维码。使用手机的相机扫描它，就完成了！ 主要功能： * 极轻量级： 使用本机 Win32 API 用 C++ 编写。没有 Electron，没有臃肿的后台进程。 * 系统托盘集成：在您需要时不妨碍它。 * 完全支持 UTF-8： 完美处理非英语字符（如中文、日文）和表情符号。 * 自动刷新：双击托盘图标会自动读取最新的剪贴板数据并刷新二维码。 我已经开源了，大家可以在这里查看代码或下载版本：🔗 GitHub： https://github.com/xlzhen-940218/ClipboardQR 我很想听听您的想法、反馈或任何功能建议。如果你觉得它有用，在 GitHub 上加个星就太棒了！谢谢！   由   提交/u/xionglongzhen  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgri5b/i_built_a_tiny_native_c_windows_utility_that/</guid>
+      <pubDate>Sat, 28 Feb 2026 03:10:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>从 Zoom 下载视频任何提示</title>
+      <link>https://www.reddit.com/r/software/comments/1rgq2kh/download_video_from_zoom_any_tips/</link>
+      <description><![CDATA[我参加了一个演讲，但我总是喜欢一边看一边做笔记（它是免费的，但显然它们会阻止下载），但我想下载它们以通过 AI 运行它们并获得摘要。我已经尝试了所有方法，但上次我使用“jdownloader”并且效果非常好，因为现在我只能下载音频，但视频和演示者的相机不起作用，它只能覆盖整个演示文稿。  事情是这样的：有人可以推荐另一种方法吗？ AI 建议使用“OBS”录制整个演示文稿，并且由于不久前我下载了远程访问木马 xD，因此不得不格式化计算机，现在我总是在下载任何内容之前使用virustotal。这是尝试从官网下载Jdownloader时的报告（virustotal报告）。你知道这是否是误报吗？   由   提交/u/Maxnuel   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgq2kh/download_video_from_zoom_any_tips/</guid>
+      <pubDate>Sat, 28 Feb 2026 02:04:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>确定 Dropbox 上大文件和重复文件的最佳程序</title>
+      <link>https://www.reddit.com/r/software/comments/1rgpi9c/best_program_for_determining_large_files_and/</link>
+      <description><![CDATA[嗨，我的 Dropbox 已满，所以我需要删除一些大文件。您认为确定最大文件和文件夹以及查找重复照片、视频和其他重复文件的最佳工具是什么？ 需要能够扫描 Dropbox 云文件，因为我的 Dropbox 比我的计算机存储空间大。   由   提交 /u/ConsiderationDue4177   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgpi9c/best_program_for_determining_large_files_and/</guid>
+      <pubDate>Sat, 28 Feb 2026 01:37:50 GMT</pubDate>
+    </item>
     <item>
       <title>有哪些用于修饰视频的应用程序？</title>
       <link>https://www.reddit.com/r/software/comments/1rgn8qv/what_are_some_apps_used_to_touch_up_videos/</link>
       <description><![CDATA[正在寻找视频编辑程序，但不是像剪切/添加内容那样进行编辑。更像是让它们更清晰、更有活力、更明亮，以及任何视觉增强。我使用 Adob​​e Express Photos，只需选择一个滤镜即可，非常简单。除了视频文件之外，还有这么简单的事情吗？一些n00b友好的东西？   由   提交 /u/2INFINITYandY0URM0M   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1rgn8qv/what_are_some_apps_used_to_touch_up_videos/</guid>
       <pubDate>Fri, 27 Feb 2026 23:57:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>软件 - 有人能赶上我吗？</title>
+      <link>https://www.reddit.com/r/software/comments/1rgmuiv/software_can_anyone_catch_me_up/</link>
+      <description><![CDATA[我已经离开科技领域一段时间了，因为 10 年前我大学毕业后曾从事软件销售工作。 现在我对人工智能的力量非常感兴趣。我现在想开始自己的职业生涯，专注于利用它来构建软件应用程序。 但是，我没有软件开发背景，也根本没有编码背景！ 如果有任何工程师可以建议兼职提高技能的最佳方法，那就太好了 我需要了解的关于软件和技术开发的 20% 是多少，才能在该领域创造 80% 的成功？   由   提交 /u/IndieBuildr   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rgmuiv/software_can_anyone_catch_me_up/</guid>
+      <pubDate>Fri, 27 Feb 2026 23:41:33 GMT</pubDate>
     </item>
     <item>
       <title>MajorGeeks 新手。 Devinci Resolve 的下载安全吗？MajorGeeks 总体上安全吗？</title>
@@ -81,34 +109,6 @@
       <description><![CDATA[因为我在kindle上读了很多漫画 链接！警告！使用风险自负！   由   提交 /u/Difficult_Access_394   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1rge48s/created_a_simple_manga_readingdownloading_script/</guid>
       <pubDate>Fri, 27 Feb 2026 18:06:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>婚姻网站的最佳生物数据</title>
-      <link>https://www.reddit.com/r/software/comments/1rgdx96/best_bio_data_for_marriage_website/</link>
-      <description><![CDATA[我使用 MarriageBiodataOnline.com 为我妹妹制作了个人资料，说实话，这非常简单。模板简单干净，我可以在手机上快速填写所有详细信息。下载的 PDF 没有任何问题，看起来整洁专业。它节省了我很多时间和精力。如果您想要快速且无压力的东西，这真的很有帮助。   由   提交/u/Huge-Cauliflower-947   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rgdx96/best_bio_data_for_marriage_website/</guid>
-      <pubDate>Fri, 27 Feb 2026 17:59:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了自己的数据库 GUI，因为所有其他工具要么臃肿要么付费</title>
-      <link>https://www.reddit.com/r/software/comments/1rgdp5a/i_built_my_own_database_gui_because_every_other/</link>
-      <description><![CDATA[介绍 Tabularis：当我找不到轻量级数据库客户端时启动的一个副项目，它不会让我感觉自己运行企业套件只是为了浏览表格。 它开始是因为我想要一些快速、原生且以开发为中心的东西 - 无需订阅、遥测或 500MB Electron 安装。它是从那里发展起来的。 它具有原生 Linux、Windows 和 macOS 支持，并获得 Apache 2.0 许可。 它是一个以开发人员为中心的数据库管理器，具有可视化查询生成器（拖放连接）、带有分割视图、交互式 ER 图、SSH 隧道的 Monaco 支持的 SQL 编辑器等功能，以及使用 OpenAI、Anthropic、Ollama 或任何其他语言进行文本到 SQL 的 AI 覆盖。 OpenAI 兼容的 API。 我最自豪的部分：一个插件系统，允许您通过以任何语言编写独立的可执行文件来添加对任何数据库（DuckDB、MongoDB 等）的支持 - 它通过 stdin/stdout 通过 JSON-RPC 2.0 进行通信。  它还附带内置 MCP 服务器，因此您可以直接将连接公开到 Claude Desktop 或 Cursor。 现在支持 MySQL/MariaDB，PostgreSQL 和 SQLite 正在积极开发中。 我刚刚发布了 v0.9.2，很想听听您的想法！ GitHub：https://github.com/debba/tabularis   由   提交/u/debba_  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rgdp5a/i_built_my_own_database_gui_because_every_other/</guid>
-      <pubDate>Fri, 27 Feb 2026 17:51:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Attyx——用 Zig 编写的小型且快速的 GPU 加速终端仿真器</title>
-      <link>https://www.reddit.com/r/software/comments/1rgdopo/attyx_tiny_and_fast_gpuaccelerated_terminal/</link>
-      <description><![CDATA[大家好！ 我想分享一个我非常兴奋的项目——我的 GPU 加速终端仿真器的实现。 免责声明 1：我没有什么可隐瞒的 - 其中很大一部分是在我持续监督下由 AI 编写的 - 我知道这东西是如何工作的。 免责声明 2：它不是“又一个”鬼魂”，唯一共同的就是语言。架构和实现完全不同。 我什至决定构建它的原因是我想了解终端在幕后如何工作+我想学习一门新语言。构建起来非常有趣，我计划随着时间的推移不断发展和改进它。 所以，其中包括：  确定性 VT 兼容引擎。您无需 PTY 或任何 UI 即可渲染内容。无头终端，如果你愿意的话。非常方便测试东西（例如，TUI 应用程序）； 完整的 SRG 支持：颜色、样式、下划线，凡是你能想到的； 完整的 Unicode 支持：IME、CJK、表情符号； GPU 加速：Mac 上的 Metal，Linux 上的 OpenGL； 背景透明度和模糊； 自定义主题； Neovide 风格的尾随光标； 弹出窗口 - 这是我个人最喜欢的。它类似于 Tmux 弹出窗口，但内置，可以在任何地方运行，并且可以检测当前 Tmux 窗口的 CWD； 它很小 - 不到 1mb  您可以通过brew 安装它： brew tap semos-labs/tap brew install attyx  当然，它是开源的：https://github.com/semos-labs/attyx 它在 Semos 下发布——我的终端工具和应用程序小家族（有点自我广告，抱歉）。 它是 alpha，但我很高兴与世界分享它。错误是预料之中的，非常感谢 github 上的问题。如果您选择尝试 Attyx，也可以在那里留下功能请求。   由   提交/u/NefiousnessFull373  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rgdopo/attyx_tiny_and_fast_gpuaccelerated_terminal/</guid>
-      <pubDate>Fri, 27 Feb 2026 17:51:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>[二月。 2026 年，第 4 周] 五个热门开源项目</title>
-      <link>https://www.reddit.com/r/software/comments/1rgdnoy/feb_2026_week_4_five_trending_open_source_projects/</link>
-      <description><![CDATA[本周五个 Github 存储库趋势。  World Monitor (⭐ 16.5k)。 自托管的地缘政治情报仪表板，可交叉关联军事、经济和冲突数据反馈表面异常情况。 Scrapling (⭐ 17.3k)。 一种自适应网页抓取框架，可对 DOM 元素进行指纹识别，并在运行期间抵御反机器人保护和布局更改。 PentAGI (⭐ 8.3k)。一个自主渗透测试代理系统，可在沙盒 Kali Linux 容器内协调专门的 AI 子代理。 get-shit-done (⭐ 21.2k)。 Claude Code 的规范驱动项目管理层，将工作构建为完全在 markdown 中跟踪的并行执行波。 GitNexus (⭐ 5.8k)。客户端代码知识图引擎，使用 Tree-sitter 解析存储库，并通过 WASM 在浏览器中完全运行基于图的 RAG。  新闻通讯中有关每个项目的更多详细信息。   由   提交/u/noninertialframe96  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rgdnoy/feb_2026_week_4_five_trending_open_source_projects/</guid>
-      <pubDate>Fri, 27 Feb 2026 17:50:05 GMT</pubDate>
     </item>
     </channel>
 </rss>

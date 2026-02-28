@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sat, 28 Feb 2026 01:24:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 04:13:18 GMT</lastBuildDate>
+    <item>
+      <title>寻找设计合作伙伴</title>
+      <link>https://www.reddit.com/r/automation/comments/1rgrz4e/looking_for_design_partners/</link>
+      <description><![CDATA[大家好， 我叫大卫。我是 TaskJuice 背后的唯一所有者和工程师。 TaskJuice 是一个 pre-alpha 集成平台/工作流引擎。我们最接近的竞争对手是 n8n、zapier 和 make。如果你知道他们是谁，那么你就明白了。如果您不这样做，我们构建了一个可扩展的平台，允许使用易于使用的无代码（或一些代码，如果您喜欢）工作流构建器 UI 在许多应用程序之间实现自动化/工作流。 我们想帮助谁？ （我使用我们/我们，因为我看到这个平台增长得相当快） 这仍然有点动态，但我们的想法是，我们的目标客户是自动化顾问，他们想要自己的白标自动化平台（是的，我们是多租户和白标）。确实，任何运营重的团队都将从我们的平台中受益。 我们处于什么阶段？ 我们处于 pre-alpha 阶段，在我们的框架上拥有非常坚实的基础。我们缺少一些功能，但有能力在一两天内将集成添加到您使用的任何（面向公众的）服务。我们的平台旨在接受集成模式 (JSON) 并且可以正常工作。我们有网络钩子、可靠的工作流程构建器 UI、适配器、操作等，并且每天都会发布功能。 您为什么应该与我们合作？ - 直接创始人访问继续过去的版本 - 对我们的路线图和用户体验的影响 - 设计合作伙伴将获得早期集成帮助和为他们构建的集成 - 免费早期访问（显然有限制，但这不应该成为问题） imo） 我们在寻找什么？ 我们正在寻找愿意在我们的平台上构建自动化的设计合作伙伴，以换取每周反馈。在发布之前和发布后，我们将尽最大努力确保为他们提供尽可能多的免费积分。 - 每周反馈 - 现实世界的工作流程用例 - 愿意测试粗糙边缘 - 愿意测试粗糙边缘 你为什么应该信任我们？ 首先，我是一名软件工程师，仅构建了一个启动平台，现在在加州各地的赌场中使用，并且正在快速增长。可以在这里看到：ClearPath LMS。我花了近两年的时间慢慢构建 TaskJuice。起初，这是我给自己提出的一个架构挑战，即构建现有的最具可扩展性的平台。它是使用六角形架构和 SOLID 和 DRY 原则构建的（对于那些软件工程师来说）。为了学习，我已经重复了好几次了。现在它已经成为一个非常严肃的平台。它基于 AWS 构建，在数据平面使用 eventbridge 和 lambda 编排等服务，但在控制平面也使用负载 CMS/next.js，以实现功能齐全的多租户、白标自动化解决方案。 对于那些认真想成为设计合作伙伴的人（我们正在寻找 5 个设计合作伙伴），我们希望听到： - 您的用例是什么 - 当前堆栈（如果您使用任何） - 预计每月工作流程/事件量 最后，我们正在与政府拨款领域、技术销售和营销方面的合作伙伴进行交谈。这是一个非常严肃的项目，我们（我）计划在明年扩大规模。希望在我们未涉足的领域建立更多合作伙伴关系。   由   提交 /u/beargambogambo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rgrz4e/looking_for_design_partners/</guid>
+      <pubDate>Sat, 28 Feb 2026 03:33:10 GMT</pubDate>
+    </item>
     <item>
       <title>如果您使用 n8n 或 AI 代理构建了一些真正令人印象深刻的东西，并且正在考虑将其转变为产品，那么我有兴趣探索商业合作伙伴关系。我们正在英国建设自动化基础设施，并愿意与认真的建设者合作。</title>
       <link>https://www.reddit.com/r/automation/comments/1rgnmnx/if_youve_built_something_genuinely_impressive/</link>
@@ -53,13 +60,6 @@
       <description><![CDATA[因此，我们为一位每天花费 4 小时进行手动勘探的客户构建了这个 LinkedIn 外展系统。同样的任务，每天都没有失败。搜索LinkedIn，将名字复制粘贴到电子表格中，写下基本相同的消息，稍作调整，然后有一半的时间忘记跟进。他们只想再租用一个特别提款权，然后就到此为止了。我们告诉他们这不是解决办法，将人类从重复的部分完全移除。一名开发人员，26 小时，Lindy AI + Google Sheets + People Data Labs + 无头浏览器自动化。 这才是真正的问题。说实话，重复数据删除比我们预想的要困难得多。同一潜在客户不断出现在不同的营销活动中，名称格式或公司名称略有不同，如果没有适当的匹配逻辑，人们会在营销活动中收到大约 2-3 次消息。不太好。我们最终将 Google 表格设为单一事实来源，以便在记录或发送任何内容之前都会检查每个个人资料。 LinkedIn 是下一个令人头疼的问题。该平台正在积极观察非人类行为、点击之间的相同时间、过于一致的会话长度、滚动速度不自然的快。我们必须建立随机延迟和自然导航模式，老实说，仅这一部分就比实际的人工智能工作花费了更长的时间，这有点令人沮丧。 电子邮件丰富性在我们注意到之前就悄悄地扼杀了送达率。大约 35% 的个人资料没有可见的电子邮件，因此我们引入人员数据实验室来填补空白。早期版本抓取低置信度匹配并将其视为良好数据。硬退回邮件开始很快出现。一旦我们看到它，修复就很简单，只需在任何内容进入管道之前按置信度阈值进行过滤即可。 最终结果是 10 倍的外展量，零重复联系人，说实话，最大的胜利是客户终于在其管道上获得了干净的实际数据。每个会话都会生成一份报告、找到的配置文件、发送的消息、丰富的电子邮件、跳过的重复项。销售团队现在只处理回复和电话，而这是他们一直应该花时间的地方。 如果您构建了类似的东西，我真的很好奇您如何处理 LinkedIn 检测方面，这确实是整个构建中最痛苦的部分，而且我仍然不能 100% 确定我们以最干净的方式做到了这一点。   由   提交/u/supreme_tech  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rgalv8/we_automated_our_clients_linkedin_outreach_in_26/</guid>
       <pubDate>Fri, 27 Feb 2026 16:01:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>有哪些事情是你自动化之后却后悔的？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rgakx7/whats_something_you_automated_that_you_later/</link>
-      <description><![CDATA[这里有没有人拥有自动化，但最终却创造了更多工作而不是节省时间？   由   提交 /u/Any-Main-3866   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rgakx7/whats_something_you_automated_that_you_later/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:00:34 GMT</pubDate>
     </item>
     <item>
       <title>您自动化的、真正节省时间的手动流程是什么？</title>
