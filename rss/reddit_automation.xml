@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Fri, 27 Feb 2026 21:24:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 01:24:26 GMT</lastBuildDate>
+    <item>
+      <title>如果您使用 n8n 或 AI 代理构建了一些真正令人印象深刻的东西，并且正在考虑将其转变为产品，那么我有兴趣探索商业合作伙伴关系。我们正在英国建设自动化基础设施，并愿意与认真的建设者合作。</title>
+      <link>https://www.reddit.com/r/automation/comments/1rgnmnx/if_youve_built_something_genuinely_impressive/</link>
+      <description><![CDATA[我很好奇是否有人构建了生产级的 n8n 或 AI 自动化系统，并且可以实际部署在企业内部（律师事务所、会计、代理机构等）？ 如果您已经构建了强大的系统，但不想处理销售、定位、合同和客户处理，我愿意探索白标转售。你专注于建设。我们负责销售和分销。 不寻找创意。仅适用于已经运行的系统。   由   提交 /u/Hot_Consideration177   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rgnmnx/if_youve_built_something_genuinely_impressive/</guid>
+      <pubDate>Sat, 28 Feb 2026 00:13:51 GMT</pubDate>
+    </item>
     <item>
       <title>适用于 Slack/团队的最佳 ITSM 工具</title>
       <link>https://www.reddit.com/r/automation/comments/1rggzta/best_itsm_tools_for_slackteams/</link>
@@ -55,20 +62,6 @@
       <pubDate>Fri, 27 Feb 2026 16:00:34 GMT</pubDate>
     </item>
     <item>
-      <title>如何在 craigslist、gumtree、fb 市场群组、空闲房间上自动发送消息？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rga74w/how_to_automate_automatic_messaging_on_craigslist/</link>
-      <description><![CDATA[嗨， 我们是一家房地产公司，希望自动查找房产，然后在平台内联系他们 - 我们正在考虑使用 Apify 进行抓取，并在 Airtable 和 Airtable 中进行过滤。然后使用剧作家自动发送消息，消息将由AI编写。这是一个好方法吗？   由   提交/u/infinite_sky147  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rga74w/how_to_automate_automatic_messaging_on_craigslist/</guid>
-      <pubDate>Fri, 27 Feb 2026 15:46:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>更少的工具=更可靠的自动化</title>
-      <link>https://www.reddit.com/r/automation/comments/1rg8jno/fewer_tools_more_reliable_automation/</link>
-      <description><![CDATA[更少的粘合代码。   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rg8jno/fewer_tools_more_reliable_automation/</guid>
-      <pubDate>Fri, 27 Feb 2026 14:43:55 GMT</pubDate>
-    </item>
-    <item>
       <title>您自动化的、真正节省时间的手动流程是什么？</title>
       <link>https://www.reddit.com/r/automation/comments/1rg79oc/whats_one_manual_process_you_automated_that/</link>
       <description><![CDATA[每周我都会有一项任务，该任务在我的待办事项列表上的停留时间会比应有的时间长得多。 并不困难。只是重复和烦人。 最终我将其自动化......它基本上从我的生活中消失了。 哪一项任务是你自动化后你永远不会再手动执行的？ • 它是什么？ • 是什么最终促使您将其自动化？ • 你是怎么做到的（高水平）？ • 哪种自动化工具对您最有帮助？  特别是那些实际上没有卡住的自动化，我们尝试了一周但忘记了。 很想听听真实的例子。   由   提交/u/Techenthusiast_07  [链接] [评论]]]></description>
@@ -88,6 +81,13 @@
       <description><![CDATA[我最近使用 n8n 构建了一个 AI 代理，它可以从头到尾自动创建不露脸的视频，主要是作为一个实验，看看视频制作过程中有多少内容可以真正实现自动化。 我想要一个能够将整个管道作为一个系统处理的工作流程，而不是手动研究主题、编写脚本和逐段组装视频。设置完所有内容后，该流程现在只需最少的手动输入即可运行。工作流程的组合方式如下： 设置并托管一个 n8n 实例以可靠地管理自动化 导入结构化工作流程并对其进行自定义以适应视频管道 连接多个 AI 服务以处理研究、编写和处理 使用 OpenAI 生成内容和脚本创意 集成 Tavily AI 以自动收集相关信息 添加 Claude 以进行更深入的语言处理和细化 使用 JSON2Video 设计了一个可重用的视频模板 将模板和 API 链接到自动视频渲染的工作流程中 连接电子邮件通知，以便自动发送更新和结果 构建过程中最突出的是，当每个步骤自动进入下一个步骤时，不同的内容创建感觉如何。该工作流程不是杂耍工具和重复相同的任务，而是按顺序处理研究、生成和生产。它仍在不断发展，但将视频创建转变为自动化管道而不是手动例行程序一直是一种非常有趣的学习体验，特别是对于探索可扩展内容系统的任何人来说。   由   提交 /u/Safe_Flounder_4690   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rg3hfh/built_an_ai_agent_that_creates_faceless_videos/</guid>
       <pubDate>Fri, 27 Feb 2026 10:48:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何与 13 名 AI 代理组成的团队实现营销自动化 — 完整的 OpenClaw 设置指南</title>
+      <link>https://www.reddit.com/r/automation/comments/1rg32dg/how_i_automated_my_marketing_with_a_team_of_13_ai/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rg32dg/how_i_automated_my_marketing_with_a_team_of_13_ai/</guid>
+      <pubDate>Fri, 27 Feb 2026 10:24:07 GMT</pubDate>
     </item>
     <item>
       <title>我认为我更喜欢逆向工程而不是全栈</title>

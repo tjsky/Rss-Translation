@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 27 Feb 2026 21:25:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 01:26:35 GMT</lastBuildDate>
+    <item>
+      <title>我制作了 Aux - 想想 Omegle，但基于音乐</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgorb7/i_made_aux_think_omegle_but_based_on_music/</link>
+      <description><![CDATA[聊天，但少点香肠，以音乐为基础 你和一个陌生人各自选择一首 YouTube 歌曲，但看不到对方选择了什么。然后你们俩一起实时听两首歌曲，一首接一首同步。当它播放时，你会通过振动滑块和一些表情符号做出反应。最后，您会根据双方的反应获得比赛分数。 在第一首歌曲结束之前没有帐户、没有摄像头、没有聊天。只是音乐。 将其构建为“假设”场景。过去一周。事实证明，当你们同时锁定而不是发送链接时，与随机的陌生人一起听音乐会产生不同的效果。 试一试，尤其是当您有一首想要强迫某人坐下来听的歌曲时：https://aux.onerobot.dev 欢迎提供反馈，但仍然很粗糙。   由   提交/u/OneRobotBoii  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgorb7/i_made_aux_think_omegle_but_based_on_music/</guid>
+      <pubDate>Sat, 28 Feb 2026 01:03:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>我应该为服务订阅网站使用哪种软件堆栈？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgomhj/which_software_stack_should_i_use_for_a_service/</link>
+      <description><![CDATA[嗨，我打算建立一个提供会员服务的网站。例如，VIP 会员可以阅读独家指南/博客、收听内部播客、获得特权等。我没有集成支付功能或确保安全性的经验（只为特定目的构建过玩具页面，但从未测试过漏洞或稳定性）。我预计流量约为 10K 用户（用于从其他平台迁移用户）。 您会推荐哪些做法？或者有什么好的框架选择？您还建议任何部署选项（例如 AWS）吗？ 我是网络开发方面的初学者。感谢任何建议！！   由   提交/u/Marionberry6886  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgomhj/which_software_stack_should_i_use_for_a_service/</guid>
+      <pubDate>Sat, 28 Feb 2026 00:57:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何处理扩展基于 Markdown 的文档的混乱：类型安全、自动化 SEO 和后来的 197 多个测试。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgolcw/how_i_handled_the_mess_of_scaling_markdownbased/</link>
+      <description><![CDATA[      大家好， 过去几个月我一直在与“隐藏”的问题作斗争。维护大型文档站点的复杂性。虽然静态站点生成器很棒，但当您移动超过 10-20 个页面时，它们通常会出现不足。 我想分享我如何解决我遇到的三个最大痛点：  “Frontmatter”问题脆弱性 我们都经历过这种情况——YAML 字段（日期与发布日期）中的拼写错误会破坏 UI 或隐藏页面。而不是仅仅“希望”元数据是正确的，我构建了类型安全的内容模型。现在，每个 Markdown 文件都会在构建时根据严格的 TypeScript 模型进行解析和验证。如果元数据错误，则构建失败。不再有损坏的生产文档。 SEO 维护噩梦手动管理每个页面的 OpenGraph 标签、JSON-LD 模式和规范链接会导致倦怠。我自动化了整个管道：  Schema.org：根据文件结构自动生成 TechArticle 和 BreadcrumbList。 元数据：动态元标记（120-160 个字符）和直接从内容模型生成的社交卡。 索引：自动从站点地图和 robots.txt 中排除草稿的逻辑，无需手动配置。  内容加载与性能我需要一种像数据库一样对待 Markdown 文件的方法 - 按类别过滤、按自定义顺序排序以及处理分页 - 而又不牺牲“静态”性能。 SSG 的一部分。我实现了一个内容加载器来处理构建过程中的繁重工作，从而产生很小的 JS 占用空间（核心逻辑大约 1.35 KB）和即时页面加载。  结果：我最终得到了一个框架，该框架可确保 100/100 Lighthouse 分数，同时保持创作体验像编写 README 一样简单。我还编写了 197 个单元测试，以确保 SEO 逻辑和解析器不会随着网站的增长而中断。 我很好奇 — 你们都是如何处理静态网站中的元数据验证和结构化数据的？您是否依赖手动检查，或者是否也自动化了管道的这一部分？ 如果有人对技术细节感兴趣，很高兴分享有关架构或测试套件的更多信息！ repo：https://github.com/xoxxel/devpaper 👇👇 DevPaper 演示   由   提交/u/Separate_Fishing_136   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgolcw/how_i_handled_the_mess_of_scaling_markdownbased/</guid>
+      <pubDate>Sat, 28 Feb 2026 00:56:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为人工智能代理制作了一个中世纪奇幻主题的头像生成平台</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgoejd/i_made_an_avatar_generation_platform_for_ai/</link>
+      <description><![CDATA[      大家好，我邀请你们的人工智能代理在我的平台 http://clawvatar.com 中生成一个身份。这是一个具有中世纪奇幻主题的阿凡达一代。仍在为游戏开发新功能。希望听到反馈和意见。   由   提交/u/Own_Carob9804   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgoejd/i_made_an_avatar_generation_platform_for_ai/</guid>
+      <pubDate>Sat, 28 Feb 2026 00:47:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>最可扩展的 WordPress 目录插件？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgo9u0/most_scalable_wordpress_directory_plugin/</link>
+      <description><![CDATA[我正在研究在 WordPress 上构建一个严肃的、可扩展的目录的最佳方法，并且在提交堆栈之前希望得到一些现实世界的建议。 现在我正在查看：  JetEngine GravityView / Gravity Forms HivePress 或者可能只是一个表单生成器 + CPT 设置  我的要求非常具体：  必须长期可扩展 必须允许批量 CSV 上传/导入数据 必须支持自定义字段和结构化数据 必须允许目录的付费墙部分（我知道这需要一个单独的会员插件，这很好） 理想的干净布局（不是丑陋的卡片网格）无处不在）  我想要弄清楚的更多是关于现实世界的体验，而不仅仅是功能列表：  随着目录变大，哪个选项扩展得最好？ 哪个选项会成为以后维护的噩梦？ 如果你从今天开始，你会选择什么？ 发布后有什么遗憾吗？  特别希望听到人们的意见运行大型目录、付费目录或数据量大的网站。 提前致谢。   由   提交 /u/PodcastingSpeed   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgo9u0/most_scalable_wordpress_directory_plugin/</guid>
+      <pubDate>Sat, 28 Feb 2026 00:41:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>在淘金热中，你卖铲子。在人工智能热潮中，我们应该卖什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgnrbb/in_a_gold_rush_you_sell_shovels_in_the_ai_rush/</link>
+      <description><![CDATA[作为 Web 开发人员？   由   提交 /u/Odd-Tomorrow5553   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgnrbb/in_a_gold_rush_you_sell_shovels_in_the_ai_rush/</guid>
+      <pubDate>Sat, 28 Feb 2026 00:19:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>WebSockets + canvas：构建 1v1 绘图战斗游戏的经验教训</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgma6e/websockets_canvas_lessons_from_building_a_1v1/</link>
+      <description><![CDATA[      我构建了Doodle Duel (https://doodleduel.co/) - 一款具有单人模式和实时 1v1 绘图战斗的浏览器游戏。 我很好奇其他网络开发人员如何处理实时绘图同步。我的主要问题是：  笔划数据量与延迟 保持两个客户端视觉上一致 撤消/重做和工具更改而不同步 防止“垃圾笔划”影响性能  如果您构建了画布+实时的任何内容：  您是否发送原始点、简化路径或图像差异？ 对于此用例，WebSocket 与 WebRTC 有何不同？ 有什么技巧可以在不增加输入延迟的情况下平滑抖动吗？  如果人们愿意，我可以发布一篇简短的文章，介绍确切的消息格式和重要的优化。   由   提交/u/blom9  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgma6e/websockets_canvas_lessons_from_building_a_1v1/</guid>
+      <pubDate>Fri, 27 Feb 2026 23:18:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人使用佣金销售人员来产生潜在客户吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgm674/does_anyone_use_a_commission_salesperson_to/</link>
+      <description><![CDATA[我以前从未使用过销售人员的服务，但在那里产生销售线索很困难（至少我觉得如此），所以理论上向某人带来工作佣金似乎是个好主意 - 我认为。 有人这样做吗？（编辑愚蠢的 sp 错误）   由   提交 /u/motivcreative   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgm674/does_anyone_use_a_commission_salesperson_to/</guid>
+      <pubDate>Fri, 27 Feb 2026 23:14:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个仪表板来控制 iOS 模拟器和 Android 模拟器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgm4rr/i_built_a_single_dashboard_to_control_ios/</link>
+      <description><![CDATA[      各位 Reddit 用户大家好， 从事移动开发已有约 5 年了。厌倦了摆弄我永远记不起的 simctl 命令、与 adb 作斗争，以及手动调整随机模拟器设置...... 所以我构建了 Simvyn --- 一个仪表板 + CLI 来包装两个平台。 没有 SDK。没有代码更改。适用于任何应用程序和 它的作用   模拟位置 --- 在交互式地图上选择一个地点或播放 GPX 路线，以便您的设备“驾驶”沿着路径\  日志查看器 --- 实时流、级别过滤、正则表达式搜索\  推送通知 --- 使用保存的模板发送到 iOS 模拟器\  数据库检查器 --- 浏览 SQLite、运行查询、读取 SharedPreferences / NSUserDefaults\  文件浏览器 --- 探索应用程序具有内联编辑功能的沙箱\  深层链接 --- 保存的库，以便您停止从 Slack 复制粘贴\  设备设置 --- 深色模式、权限、电池模拟、状态栏覆盖、可访问性\  屏幕截图、屏幕录制、崩溃日志 --- 加上剪贴板和媒体管理  一切都可以通过 CLI 进行 --- 所以您可以编写脚本。 尝试一下 bash npx simvyn  在浏览器中打开本地仪表板。就是这样。 GitHub：\ https://github.com/pranshuchtora/simvyn 如果这每天可以为您节省几分钟时间，请考虑在 GitHub 上给它一个 ⭐ --- 谢谢 🚀   由   提交 /u/IndianITCell   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgm4rr/i_built_a_single_dashboard_to_control_ios/</guid>
+      <pubDate>Fri, 27 Feb 2026 23:12:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>用 Rust 编写的注重隐私的 AI 终端</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rglk04/a_privacyfocused_ai_terminal_written_in_rust/</link>
+      <description><![CDATA[嘿，网络开发者！ 今天，我要展示 pH7Console，这是一个使用 Rust（使用 Tauri！）构建的开源人工智能终端。 GitHub：https://github.com/EfficientTools/pH7Console 它使用 ML Candle 在本地运行语言模型，无需遥测，也无需云调用。您的命令历史记录保留在您的计算机上。 它支持自然语言到 shell 命令、上下文感知建议、错误分析以及通过加密数据存储进行本地工作流程学习。 支持的模型包括 Phi-3 Mini、Llama 3.2 1B、TinyLlama 和 CodeQwen。根据任务选择模型，并进行量化以保持内存使用合理。 堆栈是 Rust 和 Tauri 2.0、前端的 React 和 TypeScript、用于 ML 的 Candle 和用于终端仿真的 xterm.js。 我希望获得有关此终端架构、低内存系统上的推理性能以及您注意到的任何安全问题的反馈。 周末快乐！   由   提交/u/phenrys  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rglk04/a_privacyfocused_ai_terminal_written_in_rust/</guid>
+      <pubDate>Fri, 27 Feb 2026 22:49:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能是你称之为工会的事物之一</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgkin1/ai_is_one_of_those_things_you_call_a_union_for/</link>
+      <description><![CDATA[我对这个话题没有做太多研究，所以就简单说一下，人工智能是一种工会可以介入并缓解的情况，比如电影工作者有工会，工会大厅让他们的工作和工作场所条件更好，不需要悲伤地抱怨，每当我被欺负时，欺负者都会告诉我做点什么，这就是我从另类学校毕业的原因！但尽管如此，我不使用人工智能，但我喜欢在没有人工智能的情况下进行编码，我真正享受编写代码带来的回报，我不一定喜欢它给我的时候    由   提交/u/Ok_Appearance_4421   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgkin1/ai_is_one_of_those_things_you_call_a_union_for/</guid>
+      <pubDate>Fri, 27 Feb 2026 22:07:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于找出元素为何具有其大小的工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgk0vc/tool_to_find_out_why_an_element_has_the_size_it/</link>
+      <description><![CDATA[      需要一些调整...   由   提交/u/th00ht  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgk0vc/tool_to_find_out_why_an_element_has_the_size_it/</guid>
+      <pubDate>Fri, 27 Feb 2026 21:48:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了手动 PDF 下载，所以我构建了一个批处理文件下载器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgjmd2/i_got_tired_of_manual_pdf_downloading_so_i_built/</link>
+      <description><![CDATA[我最近经常使用 NotebookLM 进行学习，但每次都手动下载 PDF 太烦人了。老实说，我不想继续为每个科目做这件事，或者每次 iLearn 上出现新模块时，我都会花大约 20 分钟一个接一个地点击下载。 所以我有一个想法，就是构建一个批量下载器来处理它。它会扫描页面，抓取所有文件，然后让我只需点击两次即可下载它们。它把 15 分钟的点击马拉松变成了 5 秒的工作。 这对我来说实际上是一个相当大的学习曲线，但说实话我很喜欢它。我最终将其作为 Firefox 扩展上传，这样我就可以轻松使用它，但如果您也在处理 iLearn slog，任何人都可以尝试一下。 这没什么疯狂的，但它节省了我很多时间。如果有人对我如何处理链接解析或下载流程感到好奇，我很乐意分享！ https://addons.mozilla.org/en-US/firefox/addon/zen-pdf-grabber/   由   提交/u/bigeyesnoob   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgjmd2/i_got_tired_of_manual_pdf_downloading_so_i_built/</guid>
+      <pubDate>Fri, 27 Feb 2026 21:33:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻求更改托管服务的帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rgjko4/looking_for_help_changing_hosting_service/</link>
+      <description><![CDATA[我不确定这是否是正确的 Reddit 子版块。如果不是，我提前道歉。 我是创意行业的自由职业者，拥有一个作品集网站。 我的 URL 通过 godaddy 注册。 我的网站托管在 https://cargo.site 我的电子邮件是通过 zoho 设置的。 自从我更改该设置以来已经有一段时间了，但上次尝试时，它造成了严重破坏在我的电子邮件上，并在几天内停止其佣金，我不能再发生这种情况。 我如何确定更改我的托管平台不会影响我的电子邮件？ 我有“管理 DNS”的屏幕截图。 Cargo.site 设置上的功能（如果有帮助的话）。 我意识到这可能还不够。我还需要告诉你什么吗？ 抱歉，这对我来说完全是盲点。   由   提交/u/UmberJamber  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rgjko4/looking_for_help_changing_hosting_service/</guid>
+      <pubDate>Fri, 27 Feb 2026 21:31:52 GMT</pubDate>
+    </item>
     <item>
       <title>这就是专业开发人员所做的吗，他们看 YT 什么是 RAG、AI 代理以及跟上 AI 步伐的东西？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rgjdpj/is_this_what_professional_devs_do_they_watch_yt/</link>
-      <description><![CDATA[   有时我在 Linkedin、Reddit 上阅读人们的帖子，我感觉自己生活在 90 年代，使用那些翻盖手机   由   提交/u/lune-soft  [链接] [评论] ]]></description>
+      <description><![CDATA[   有时我在 Linkedin、Reddit 上阅读人们的帖子，我感觉自己生活在 90 年代，使用那些翻盖手机 人工智能总是有更新，过去不存在的新知识，所以我想让我保持更新，不想感到隐藏或愚蠢，你知道我的意思   由   提交/u/lune-soft  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rgjdpj/is_this_what_professional_devs_do_they_watch_yt/</guid>
       <pubDate>Fri, 27 Feb 2026 21:24:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>[免费资源] 200+ Vibrance 玻璃抽象背景合集</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgiqio/free_resource_200_vibrance_glass_abstract/</link>
-      <description><![CDATA[      这里还有一些免费背景壁纸，您可以在网站、模型、模板、桌面等中使用。 这里是链接：https://www.pushp.online/l/200-vibrance-glass-abstract-background-collection 请分享您的意见和建议。希望您能提供反馈。   由   提交/u/prabhatpushp  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgiqio/free_resource_200_vibrance_glass_abstract/</guid>
-      <pubDate>Fri, 27 Feb 2026 20:59:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费增值照片应用程序：压缩上传，然后解锁高清，无需重新上传。什么是存储和用户体验策略？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgiq6d/freemium_photo_app_compress_uploads_then_later/</link>
-      <description><![CDATA[大家好，我正在构建一个免费增值应用程序。免费用户上传我压缩的图像以节省存储/带宽。如果用户稍后升级，我想解锁全质量图像，而不强迫他们重新上传所有内容，否则这对用户体验来说是一个巨大的障碍，因为可能会有多张图片。这基本上是订阅高级版的一个卖点，即拥有完整质量图像的机会。 由于成本限制，我不能真正盲目地存储原始文件。许多文件的大小为 5-12mb（手机图片等）。我考虑过像 AWS Glacier 这样的东西，但我不确定这是否是正确的选择。  但是还有一个问题是用户订阅，解锁高质量图片，但随后他们失去了订阅，所以我想我必须压缩回图片。其他应用程序是否也有类似的模式，我只是在做一些根本不连贯的事情吗？ 我想知道我还有什么替代方案。 问题：  在这种情况下，原始文件与压缩文件的实际策略是什么？ 人们是否会在有限的时间内存储原始文件、使用 Glacier/Deep Archive 还是需要重新上传？ 有任何用户体验模式吗？让用户感觉可以接受？    由   提交 /u/hexaquark1   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgiq6d/freemium_photo_app_compress_uploads_then_later/</guid>
-      <pubDate>Fri, 27 Feb 2026 20:59:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>CLI 代理可将 LLM 令牌消耗减少 60-90%。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rghvf2/cli_proxy_that_reduces_llm_token_consumption_by/</link>
-      <description><![CDATA[大家好， 我可能来晚了，但我刚刚发现这个存储库，我认为它应该得到比这多 10 倍的星星！！ 以下是代币节省估算： 没有 rtk 的典型会话：约 150,000 个代币 使用 rtk：约 45,000 个代币 → 减少 70%   操作 频率 标准 rtk 节省    ls / 树 10× 2,000 400 -80%   猫 / 读取 20× 40,000 12,000 -70%  grep / rg 8× 16,000 3,200 -80%   git 状态 10× 3,000 600 -80%   git diff 5× 10,000 2,500 -75%   git log 5× 2,500 500 -80%   git add/commit/push 8× 1,600 120 -92%   npm 测试 / 货物测试 5× 25,000 2,500 -90%   领子格纹 3× 3,000 600 -80%   pytest 4× 8,000 800 -90%   去测试 3× 6,000 600 -90%   docker ps 3× 900 180 -80%   总计  ~118,000 ~23,900 -80%   https://github.com/rtk-ai/rtk   由   提交 /u/olivdums   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rghvf2/cli_proxy_that_reduces_llm_token_consumption_by/</guid>
-      <pubDate>Fri, 27 Feb 2026 20:26:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何让网站看起来老旧又做作，比如 Tumblr</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rghjwo/how_to_make_a_website_look_old_and_campy_like/</link>
-      <description><![CDATA[对于具有非常基本的 Wordpress/Squarespace 经验的人来说，是否有任何简单的方法可以创建一个看起来像这样的网站？  https://www.prisondivorcebombshell.com/dont-click-heere-probously 看起来 gif 会有很长的路要走。 有一秒钟，我想也许我可以用自定义域做一个 Tumblr，但我不想Tumblr 的功能包括转发/说出帖子有多少条评论   由   提交 /u/whatsmyglitch   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rghjwo/how_to_make_a_website_look_old_and_campy_like/</guid>
-      <pubDate>Fri, 27 Feb 2026 20:14:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为具有上传文件能力的企业 SaaS，您应该如何保护自己不成为儿童色情主机？这是现实的危险吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgf1ng/how_are_you_supposed_to_protect_yourself_from/</link>
-      <description><![CDATA[正如标题所说，从技术上讲，在我们的业务 SaaS 中，用户可以上传儿童色情内容，假装这是他们项目的徽标或其他内容。某些类型的图像资源甚至是完全公开的（公共 S3 存储桶），因为它们也可以包含在电子邮件中，但大多数都受到访问限制。作为一家相对较小的初创公司，我们如何保护自己免受恶意用户利用这种能力托管儿童色情内容，甚至被用作共享网站的侵害？通常，在您有权访问项目并因此具有上传能力之前，您将处于付费计划之下，但受到付费计划中的某人的邀请（例如冒充同事的欺骗电子邮件）然后获得上传文件的能力可能相对简单。这是否是一个现实的风险，或者这种恶意行为者是否有更简单的方法来实现相同的目标？我非常确定，如果我们在不知情的情况下托管此类内容，我们可能会承担责任。   由   提交 /u/Aflockofants   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgf1ng/how_are_you_supposed_to_protect_yourself_from/</guid>
-      <pubDate>Fri, 27 Feb 2026 18:40:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何摆脱只关注开发的心态？请给我指路！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgej2o/how_to_get_out_of_the_devonly_mindset_please_give/</link>
-      <description><![CDATA[      我是开发者。让我面对一个技术问题，我完全没问题。但老实说，我开始认为我在实际经营一家企业或让任何人对我构建的东西表示不满方面完全没用。 不久前，我试图为一个项目生成数百张人工智能图像。必须不断调整 ChatGPT/Midjourney 中的提示以获得细微的变化，这完全是一场噩梦。因此，我花了过去几周的时间为其构建了自己的工具（称为 BulkImage）。 我构建了一个解析器，您可以在其中使用 [modern|vintage] 或动态变量等括号，并且它通过我在后台设置的异步队列为您批量处理变化。 我认为人们实际上会想要这个。但到目前为止？字面意思是蟋蟀。 我知道我需要“营销”蟋蟀。可以，但我就是做不到。制作 TikTok 视频或发送垃圾邮件的想法让我感到非常不舒服。我可以坐在我的房间里整夜调试异步队列而不会抱怨，但是发送一条营销推文让我想关闭我的笔记本电脑并走开。 这里有人真的从仅仅构建东西的开发人员跃升至真正吸引用户的吗？不觉得自己像个骗子汽车推销员吗？或者整个“建造它，他们就会来”这只是一个彻头彻尾的谎言吗？ （因为是周六的 Showoff，如果有人想测试 UI，我会将链接放在评论中，但我真诚地希望获得有关如何摆脱仅开发思维模式的建议）。   由   提交/u/prabhatpushp  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgej2o/how_to_get_out_of_the_devonly_mindset_please_give/</guid>
-      <pubDate>Fri, 27 Feb 2026 18:21:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Minikyu - 完全在浏览器中运行的免费图像压缩器/转换器。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rge9dp/minikyu_a_free_image_compressorconverter_that/</link>
-      <description><![CDATA[大家好， 今天为了好玩而构建了 Minikyu — 一款完全在浏览器中运行的免费图像压缩器/转换器。 它的作用： - 压缩单个图像或批量压缩多个图像 - 滑块前后比较质量 - 自定义质量控制 - 格式之间转换（JPEG、 PNG、WebP、AVIF） - 调整图像大小 - 零上传 - 一切都在浏览器本地运行 - 无需跟踪，无需帐户 仍然存在一些错误，但希望发布并获得反馈。 很想知道您想要哪些功能或有哪些问题。 链接：minikyu.vercel.app   由   提交 /u/Ordinary_Student6085   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rge9dp/minikyu_a_free_image_compressorconverter_that/</guid>
-      <pubDate>Fri, 27 Feb 2026 18:11:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>iOS 26 - Safari 粘性元素上方的死角？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rge7di/ios_26_safari_dead_space_above_sticky_elements/</link>
-      <description><![CDATA[      iOS 26 Safari 和/或动态岛的另一个恼人的怪癖…如果你的地址栏位于屏幕底部，有没有办法解决粘性元素上方这个丑陋的死角？有什么方法可以用纯色背景或其他东西填充它吗？    由   提交/u/jpsweeney94  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rge7di/ios_26_safari_dead_space_above_sticky_elements/</guid>
-      <pubDate>Fri, 27 Feb 2026 18:09:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026 年 webdev 还值得吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgdq4c/is_webdev_still_worth_it_in_2026/</link>
-      <description><![CDATA[随着 AI 越来越好，我想知道 Web 开发是否仍然是我作为学生应该考虑的领域。您对此有何看法？   由   提交/u/ConnectionBusy9325  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgdq4c/is_webdev_still_worth_it_in_2026/</guid>
-      <pubDate>Fri, 27 Feb 2026 17:52:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于已经推出了一些东西的独立开发者的问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgcknp/question_for_the_solo_devs_here_who_have_launched/</link>
-      <description><![CDATA[您是否为自己启动的应用程序设置了暂存环境？本地开发——&gt;分期——&gt;产品？或者本地开发，致力于主要并直接生产？另外，您对分析有多疯狂？ 编辑 - 假设有像 Stripe 这样的集成   由   提交 /u/actact1234   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgcknp/question_for_the_solo_devs_here_who_have_launched/</guid>
-      <pubDate>Fri, 27 Feb 2026 17:11:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>您将如何设计研究仪表板（彭博社等）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgch2m/how_would_you_design_a_research_dashboard/</link>
-      <description><![CDATA[寻求有关如何可视化设计我的想法的帮助 所以我正在尝试解决问题。 “我不想从搜索文章开始，我想从实体开始并向外展开”  我输入“Anthropic” 我看到相关实体的图表 - OpenAI、Dario Amodei、Google、宪法人工智能等。 我单击任何实体或关系，然后查看支持它的实际来源（文章、论文、文件）  基本上：首先了解情况，然后阅读文档。 我发现的最接近的东西：  Diffbot - 知识图+实体提取，可能是最接近的 Golden.com - 结构化实体数据，但感觉有限 Exa/Metaphor — 神经搜索，比 Google 更能感知实体 困惑/引出 — 善于寻找来源，但不以实体为中心  但是，如果您要设计自己的版本，您想看到什么以及如何实现？   由   提交 /u/Key_Yesterday2808   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgch2m/how_would_you_design_a_research_dashboard/</guid>
-      <pubDate>Fri, 27 Feb 2026 17:08:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在网络开发方面遇到了困难。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgbzmv/i_struggle_with_web_development/</link>
-      <description><![CDATA[嗨， 我是三年级学生。过去几个月我一直在研究 DSA，现在我已经非常擅长了。但当谈到网络开发时，我陷入了困境。我知道理论部分。就像如果有人问我关于 React 或 NodeJS 或 Spring boot 的口头问题......我不想列出所有的东西🫠  是的，所以我知道它们是什么，它们做什么以及它们如何工作。我只是无法付诸实践。就像每当我尝试编写某些东西时，我都会直接转到 gpt 或其他东西并询问如何去做。  我想从头开始构建东西！不要只是查看人工智能给出的过于复杂的代码。 请帮忙！   由   提交/u/Prathyush04  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgbzmv/i_struggle_with_web_development/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:51:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发人员使用哪些内容创建生产力工具进行公共构建</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgbqo8/what_content_creation_productivity_tools_do/</link>
-      <description><![CDATA[我正在构建一个网络应用程序，并决定在公共场合进行整个构建，因为每个人都说这有助于营销。问题是我是一名开发人员而不是内容创建者，这让我很恼火。 我可以毫无问题地花 8 小时编码。我很享受，我处于心流状态，时间过得真快。但花费 1 小时创建社交媒体内容就像拔牙一样。我讨厌它。 我知道我应该做什么：分享进展、展示幕后花絮、解释技术决策、吸引观众。在实践中，我盯着空白文本框 20 分钟，不知道该说什么或如何说。 当我发布某些内容时，它可能太技术性或太无聊，因为我是为其他开发人员编写的，但我的受众应该是非技术性的潜在用户。 我在 2 个月内发布了大约 10 次，这对于公开发布来说非常糟糕。我的 Twitter 有 47 个关注者，我的项目有 3 个用户，他们是我恳求尝试的朋友。 天生不擅长内容的开发人员如何管理这一点？你是强迫自己通过还是有更好的方法？   由   提交 /u/Select-Print-9506   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgbqo8/what_content_creation_productivity_tools_do/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:42:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>您会使用专注于网上商店的开源、开发人员优先的无头 CMS 吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rgbjnp/would_you_use_an_open_source_developer_first/</link>
-      <description><![CDATA[嗨， 我正在探索一个想法，并试图验证它是否值得构建。 这个概念是专门针对网上商店的无头 CMS。开源、自托管、API 优先、主要为开发人员构建。一开始的最小用户界面。主要关注点是强大的 DX、干净的 API、良好的文档、产品、变体、定价、库存等的可预测数据建模。 核心将始终保持开源。我们的想法是稍后提供托管（100% eu）或付费功能，但自托管始终是可能的。 我知道 Strapi、Medusa、Saleor 等工具已经存在。我并不是假装这个空间是空的。 我想了解的是：  当前的无头 CMS 或商务平台最让您感到沮丧的是什么？ 什么是您考虑尝试新平台时绝对必须具备的？ 什么会立即让您忽略它？ 您更喜欢自己连接到商务的纯 CMS 还是商务原生平台从一开始？  我主要想弄清楚这里是否真的存在差距，或者这是否只是重新发明轮子。 欢迎诚实:)   由   提交 /u/maarten20012001   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rgbjnp/would_you_use_an_open_source_developer_first/</guid>
-      <pubDate>Fri, 27 Feb 2026 16:35:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
