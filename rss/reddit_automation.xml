@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sat, 28 Feb 2026 12:35:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 15:17:10 GMT</lastBuildDate>
+    <item>
+      <title>为什么模板不能修复坏习惯</title>
+      <link>https://www.reddit.com/r/automation/comments/1rh4sli/why_templates_dont_fix_broken_habits/</link>
+      <description><![CDATA[系统必须适合您，而不是给您留下深刻印象。   由   提交 /u/Solid_Play416   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rh4sli/why_templates_dont_fix_broken_habits/</guid>
+      <pubDate>Sat, 28 Feb 2026 15:01:20 GMT</pubDate>
+    </item>
     <item>
       <title>从 LLM 获取干净的 Json 输出以实现自动化</title>
       <link>https://www.reddit.com/r/automation/comments/1rh0mtp/getting_clean_json_outputs_from_llm_for/</link>
@@ -71,7 +78,7 @@
     <item>
       <title>有没有真实执行日志的人工智能工具？</title>
       <link>https://www.reddit.com/r/automation/comments/1rg6450/any_ai_tools_with_real_execution_logs/</link>
-      <description><![CDATA[我们测试了一个简单的 AI 代理来提供支持，但它感觉就像一个该死的黑匣子。我无法向我的董事会解释其糟糕的决定。当你扩大规模时，这是巨大的风险。什么工具可以为您提供清晰的日志来实际防御所有这些机器人操作？   由   提交 /u/signal_loops   [链接] [评论]]]></description>
+      <description><![CDATA[我们测试了一个简单的 AI 代理来提供支持，但它感觉就像一个该死的黑匣子。我无法向董事会解释其糟糕的决定。当你扩大规模时，这是巨大的风险。什么工具可以为您提供清晰的日志来实际防御所有这些机器人操作？   由   提交 /u/signal_loops   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rg6450/any_ai_tools_with_real_execution_logs/</guid>
       <pubDate>Fri, 27 Feb 2026 13:04:29 GMT</pubDate>
     </item>
@@ -95,13 +102,6 @@
       <description><![CDATA[最近我意识到了一些关于自己的事情 比起传统的全栈工作，我更喜欢逆向工程和自动化 我仍然构建全栈应用程序 React Next Node APIs  但真正吸引我的是分解系统并了解它们实际工作方式 这个网站如何加载数据 这个请求来自哪里 这个会话是如何处理的 什么触发了这个工作流程 什么可以自动化 将一个混乱的重复过程变成一个干净的自动化流程会让人上瘾 特别是当它没有记录并且你必须自己弄清楚的时候 我最近所做的大部分工作都涉及为其他人构建小型系统 抓取数据 处理会话 连接API 自动化内部工作流程 减少手动工作 编写功能的重要性较低 更多的是深入了解系统 全栈仍然很重要，但问题越具有挑战性，我越倾向于逆向工程和自动化 我认为我只是喜欢解决路径不明显的问题 当某件事发生时的感觉经过数小时的调试后终于可以工作了   由   提交 /u/Gojo_dev   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rg2bxf/i_think_i_enjoy_reverse_engineering_more_than/</guid>
       <pubDate>Fri, 27 Feb 2026 09:40:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的网络爬虫已经运行了3个月了，还没有爆炸</title>
-      <link>https://www.reddit.com/r/automation/comments/1rg1qez/my_web_scraper_has_been_running_for_3_months_and/</link>
-      <description><![CDATA[我有这个爬虫，自 11 月份以来一直在跟踪几个网站上的价格，并想在这里转储一些想法，以防有人尝试做类似的事情。 它的作用：  爬取 5 个电子商务网站的产品价格 在 12 美元的 DigitalOcean 盒子上每 6 小时运行一次 把所有东西都扔进 Postgres 当价格达到一定水平时给我发一条 Telegram 消息  真正重要的东西： 错误处理 - 我的 v1 会默默地死掉，我一周左右都不会注意到。现在它会记录错误并在多次失败时向我发送电子邮件。不花哨，但有效。 进展缓慢 - 第一周就被禁止了 IP，因为我正在敲击请求。现在，我在每个数据库之间等待 3-8 秒，此后就再也没有出现过问题。 使用真正的数据库 - 像白痴一样从 CSV 文件开始。当您稍后真正想要查询数据时，Postgres 使一切变得更加容易。但是，嘿，我必须尝试最简单的方法。 运行状况检查 - 脚本每次完成时都会命中一个 Webhook。如果停止了，我就知道有什么东西坏了。超级基本，但可以解决大多数问题。 灵活的选择器 - 网站随机调整其 HTML。对我来说，XPath 比 CSS 选择器损坏的频率要低，但 YMMV。 当前问题： 一个网站大量使用 JavaScript，所以我可能不得不处理我一直在避免的 Selenium。简而言之，我基本上得到的是空数据。并不总是一致，但也有相当数量。  数据库变得有点大，需要在某个时候清理旧数据，找到更好的长期存储选项。 老实说，这比我预期的要轻松得多。  还有人做这种事吗？什么对你来说是坏的或没有坏的，请随意分享。   由   提交/u/marc2389  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rg1qez/my_web_scraper_has_been_running_for_3_months_and/</guid>
-      <pubDate>Fri, 27 Feb 2026 09:04:04 GMT</pubDate>
     </item>
     <item>
       <title>作为创始人，我一直有一个问题想问大家。</title>
