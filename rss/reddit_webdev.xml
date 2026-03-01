@@ -4,7 +4,63 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 01 Mar 2026 06:40:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 09:26:29 GMT</lastBuildDate>
+    <item>
+      <title>非营利交付平台是否可行？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhsxlz/is_a_nonprofit_delivery_platform_viable/</link>
+      <description><![CDATA[目标是最大限度地提高客户、商家和快递员的利益。 该平台将自主运营，通过严格设计的捐赠或最低佣金来维持运营成本。 争议解决将在相关各方（客户-商家或商家-快递员）之间直接处理，有效消除不必要的中介机构。 生态系统的自我监管将依赖于严格的评级系统：任何有严重报告或低分的参与者都会被自动停用（尽管我怀疑这里有一个缺陷：商家可能会花钱雇一群人来“审查炸弹”并消除竞争）。 为了确保安全，入职和文档验证过程将是由外部实体（管理员）管理的唯一阶段，并且需要一次性管理费。 不会有营销 每个商家都会提前说明如果包裹在运输过程中损坏或丢失，他们是否承担退款责任。 虽然这个想法并不寻求经济利润，但此类项目的技术和社会价值有可能改变当前市场 - 而且它在简历上会看起来很棒;)   由   提交 /u/PrintMean7254   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhsxlz/is_a_nonprofit_delivery_platform_viable/</guid>
+      <pubDate>Sun, 01 Mar 2026 09:22:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>我不断重建我的投资组合……所以我建立了一个 CMS</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhsno2/i_kept_rebuilding_my_portfolio_so_i_built_a_cms/</link>
+      <description><![CDATA[多年来，每次我更新我的作品集时，我最终都会编辑代码只是为了更改内容。 新项目？代码变更。更新体验？代码更改。重新排序技能？代码更改。 感觉不对。 因此，我专门为开发人员组合构建了一个小型 CMS。 主要思想：  内容管理面板 完全可定制的前端 使用 Next.js + Payload 构建 结构化，使 UI 保持灵活  最大的教训： 开发人员想要控制，但不想在代码中进行重复的内容编辑。 我很好奇： 您更喜欢静态投资组合模板，还是 CMS 驱动的东西？ 想要诚实的想法。   由   提交 /u/dvsxdev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhsno2/i_kept_rebuilding_my_portfolio_so_i_built_a_cms/</guid>
+      <pubDate>Sun, 01 Mar 2026 09:05:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为 MUI 项目构建了一个主题生成器/编辑器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhsky3/i_built_a_theme_generatoreditor_for_mui_projects/</link>
+      <description><![CDATA[      链接：https://petertyliu.github.io/mui-theme-builder/ Github 仓库：https://github.com/PeterTYLiu/mui-theme-builder   由   提交/u/Trayja_Peter  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhsky3/i_built_a_theme_generatoreditor_for_mui_projects/</guid>
+      <pubDate>Sun, 01 Mar 2026 09:00:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为独立开发者在 3 个月内构建了 5 个产品，这是堆栈和错误</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhsd4y/built_5_products_in_3_months_as_a_solo_dev_heres/</link>
+      <description><![CDATA[我想分享一下技术方面的内容，因为这里经常出现堆栈问题。 我同时建立了一家 WordPress 插件公司。四个插件和一个 SaaS 结帐流程，大约 3 个月的晚上和周末。不是全职做这件事。 这些插件都是纯 PHP、单文件架构。每个文件的长度都在 800 到 2400 行之间。没有 npm，没有构建步骤，没有外部依赖项。我故意选择单文件，因为 WordPress.org 审阅者是阅读您代码的实际人员。一个具有清晰注释块的组织文件比多目录结构更容易通过审查。第一个插件进行了 6 轮审核。第二个花了 3。我认为更简单的结构有所帮助。 每个插件都使用 JSON-LD 输出、24 小时瞬态缓存、用于管理屏幕的 WordPress 设置 API 以及用于 Pro 许可的 Freemius SDK。 营销网站 (cirvgreen.com) 是 Astro with Tailwind，托管在 Cloudflare Pages 上。 Astro 是一个不错的选择。整个网站编译为静态 HTML，无需服务器，Cloudflare 通过其 CDN 提供服务。构建时间只需几秒钟。 对于付款，我在 Render 的免费层上有一个 Express.js API，用于创建 Stripe Checkout 会话并处理 Webhook。当没有人购买时它会停止运转，并在第一个请求时唤醒。可能会增加 2-3 秒的冷启动延迟，这不太好，但对于一天最多出现几次的结帐流程，我可以忍受。 Freemius 完全由他们来处理插件结帐。他们的 JS SDK 打开一个弹出窗口，收集付款，颁发许可证密钥。我不接触任何服务器端。 我会做不同的事情：我会完全跳过 Express API 并使用 Stripe Payment Links。我构建服务器是因为我想要有关购买和收据发票创建的自定义元数据，但付款链接可能可以在零后端的情况下处理其中的 90%。过度设计了。 我还会同时向 WordPress.org 提交所有四个插件，而不是等待每个插件先获得批准。他们一次审查一项，每次审查 10-14 天。我不知道这一点，最终导致了几个月的排队时间，这是我本可以避免的。 每月总费用：约 15 美元。其中大部分是渲染。如果我将结帐 API 移至 Cloudflare Worker，可能会达到 0 美元，但我还没有打扰。   由   提交 /u/SearchFlashy9801   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhsd4y/built_5_products_in_3_months_as_a_solo_dev_heres/</guid>
+      <pubDate>Sun, 01 Mar 2026 08:47:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>帮助我改进您的网络代理堆栈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhs3z9/help_me_improve_your_webagency_stack/</link>
+      <description><![CDATA[我正在创建一个 SaaS 平台，能够以优惠的价格为网络机构处理大量集成。 我个人已经削减了 4 个用于运营我的网络机构的 SaaS/工具，现在我正在对 SaaS 平台进行白标处理，这样我就可以将其卖给你们这些优秀的人。 我因为自己是丹麦人而有偏见 - 所以我在心理上映射到丹麦语工具和服务，我想知道你们正在使用什么，这样我就可以与之集成并将其抽象出来，这样你们也可以砍掉当前堆栈中的 3-4 个工具。 具体来说，我想知道：  您是否使用任何会计服务 - 例如喜欢xero？如果是的话，您实际使用什么服务以及它们提供的功能 您是否使用任何时间跟踪服务，例如预付费聘用费/工时 - 例如像时钟化？如果是的话，您实际使用它们提供的服务和功能 您目前如何制作/发送报价、发票以及接受付款/订阅 - 例如条纹 ？您正在做什么来提供支付功能并向客户发出相关文件 您目前如何处理设计修改 - 设计签字 - 客户持续参与正在开发的设计？ - 例如只是使用Figma和导出或者你目前如何处理这个问题。  我希望你能帮助我，帮助你提高工作效率，作为一种感激之情，一旦我准备好在这个子上为测试人员发布，当然将包括一些终生折扣/福利结构。 这不是商业或广告，我没有提到我的产品或网站或任何当前可能有利于销售的东西，真诚地这篇文章只是对此目标的市场研究观众。 谢谢大家。   由   提交 /u/RobertSkaar   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhs3z9/help_me_improve_your_webagency_stack/</guid>
+      <pubDate>Sun, 01 Mar 2026 08:31:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用什么类型的视频播放器？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhry84/what_type_of_video_player_is_used/</link>
+      <description><![CDATA[      我查看的网站是 https://24slides.com/presentation-services 他们出售侧甲板服务。  我想看看是否有人知道如何找到他们正在使用的视频播放器的类型。   由   提交 /u/13-months   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhry84/what_type_of_video_player_is_used/</guid>
+      <pubDate>Sun, 01 Mar 2026 08:21:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>1 小时番茄计时器与 100 小时番茄计时器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhqsr1/1h_pomodoro_timer_vs_100h_pomodoro_timer/</link>
+      <description><![CDATA[      有一天，我在大约一个小时内编写了一个番茄计时器原型。它起作用了。但这感觉就像是不小心把软件混在一起了，这让我很烦恼。 所以我问自己..我是否只想发布一些有用的东西或用爱制作一些东西？因为你可以感觉到某些东西是精心制作的，我想构建这样的软件。而且所有的番茄钟定时器看起来都差不多，所以为什么不给它我自己的旋转。 100 小时后，我最终得到了一个番茄钟定时器，里面有一只猫，它会在你打字时与你一起敲击，可配置周期，在专注时间期间阻止应用程序，并强制休息，这样你就可以真正接受它们。 关于人工智能和代码质量 虽然人工智能编写了大部分代码，但我是驱动程序。我设计了它。我审阅了每一行。 bc 对此负责的是我，而不是人工智能。我的理念是没有代码就是最好的代码，但人工智能似乎并不总是同意这一点。我真的不明白人们如何表达“我今天写了 10k 行代码”.. 很酷，但祝你好运维护它  虽然人工智能现在在技术上可以完成大部分工作.. 问题是你是否知道你首先想要构建什么？仅仅因为您可以在花园里种植西红柿并不意味着每个人都会。知道自己想要什么并拥有制作它的品味仍然很重要。你觉得怎么样？ 它 开源 如果你有想法、发现错误或想要贡献，请先提出问题。 PR 没有任何问题 &amp;上下文已关闭，没有评论。如果我们不知道自己想要什么，人工智能怎么知道 想尝试一下吗？ 完全本地化，没有云，没有帐户。在 pomodorocat.com 上在线试用一下（实际上只是旋转计时器轮），或者在 focuscat.app 上尝试 MacOS 应用程序 技术堆栈是 Web 上的 React 与 Tanstack Router 以及桌面上的 React、Tanstack、Tauri 干杯 编辑：版权归 Bongo Cat Steam 游戏 和 StrayRogue 原创艺术作品:)   由   提交/u/BennoDev19  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhqsr1/1h_pomodoro_timer_vs_100h_pomodoro_timer/</guid>
+      <pubDate>Sun, 01 Mar 2026 07:12:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>离岸团队发来这个PR，您会如何审核这个PR？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhqp14/offshore_team_send_this_pr_how_would_you_review/</link>
+      <description><![CDATA[       由   提交/u/lune-soft  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhqp14/offshore_team_send_this_pr_how_would_you_review/</guid>
+      <pubDate>Sun, 01 Mar 2026 07:07:12 GMT</pubDate>
+    </item>
     <item>
       <title>2025 年的 AWS：您认为自己知道的事情现在是错误的</title>
       <link>https://www.reddit.com/r/webdev/comments/1rho3xv/aws_in_2025_the_stuff_you_think_you_know_thats/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[嘿哟，我是一个简单的业余爱好者，正在 https://xiv.quest/ 从事一个充满激情的项目。要点是，这是 MMORPG 中的全部对话。它仍在进行中，但目前已超过 170 万字和约 17MB，有些人正在努力加载它。我一直都知道这一天会到来，因为我不断地添加它，但我想当我到达它时我会跨过那座桥，并且......好吧。 所以我正在寻找解决方案。显而易见的方法是将其拆分为多个页面，或者一次仅加载部分内容，但重点是将其放在一个网页上，以便可以轻松地使用 ctrl+F 进行搜索，并且如果可能的话，我真的希望避免损害该目标的简单性。我现在正在努力将文本缩小到文件大小的 9% 左右，这样看起来会吸引我。 所以我的下一个想法是，AJAX 加载内容有帮助吗？或者还有其他我从未听说过的解决方案？任何观点都会有帮助！ --- 编辑：感谢大家的所有反馈！我保证我正在阅读并考虑每一条回复。启用 gzip 应该已经是一个很大的帮助，并且我显然在不久的将来有更多的实践选项可以研究。 🙏   由   提交/u/eriyu  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rhl0nm/optimizing_performance_for_a_webpage_with_a_lot/</guid>
       <pubDate>Sun, 01 Mar 2026 02:10:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何给网站添加动画？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhkso1/how_to_add_animations_to_website/</link>
-      <description><![CDATA[大家好，我是 Web 开发新手，我目前通过反重力或光标做出反应，我不知道如何在网站中实现动画，我如何使用 ai ide 工具在网站中创建动画。 当我在 ai 代理聊天中询问时，它只是一团糟，我还没有在网上找到解决方案，有人知道我该怎么做吗？ 提前致谢：D   由   提交/u/noobnotpronolser   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhkso1/how_to_add_animations_to_website/</guid>
-      <pubDate>Sun, 01 Mar 2026 02:00:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>基本问题：为什么有时很难突出显示我想在网页上突出显示的文本？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhjvuw/basic_question_why_is_it_sometimes_so_hard_to/</link>
-      <description><![CDATA[抱歉，如果这是问这个问题的错误地方（我已经编写了一些用于编写工具、实用程序、交互式数据可视化等的网络内容，以帮助我自己在比较生物/统计方法方面的工作，但没有以任何有意义的能力进行网络开发）。 大多数情况下，我只是好奇为什么文本选择如此......反复无常？脆弱的？因为缺乏更好的词。这似乎应该是非常简单的事情。 这是几分钟前的一个示例。我试图了解我的打印机是否能够直接打印到 CD 上，但不太记得打印机本身的名称。正确的名称位于前几个 URL 中，因此我将使用更具描述性的查询（包括）重新进行搜索。打印机的正确名称。打印机名称仅出现在搜索结果顶部的超链接中，而不是出现在非超链接文本中，因此我尝试突出显示它（知道我无法单击并拖动链接本身），但是，不能。 使用 {mouse,pointer}up+down 事件侦听器实现 x 参考坐标系（知道所有文本在用户视口中的位置）似乎并不难，然后突出显示所有文本剪切两个事件所描述的矩形，因为单击页面中的随机位置并不与任何其他有意义的功能相关联。也许会检查连续性或其他什么。但事实显然并非如此。我认为即使是像 google.com 这样的 podunk 网站也可以做到这一点——他们可能会雇用一些前端网络开发人员，并且他们可以在一小时内轻松完成它。那么为什么不呢？ （也许我有一些随机的浏览器扩展导致了这个问题，但几十年来我几乎没有改变过这些扩展，真的，所以如果这是原因，那么该死的，十几岁的我！）   由   提交 /u/--MCMC--   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhjvuw/basic_question_why_is_it_sometimes_so_hard_to/</guid>
-      <pubDate>Sun, 01 Mar 2026 01:17:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>发现这个很酷的网站可以在面试前修改 UI 概念</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhjm7s/found_this_cool_website_to_revise_ui_concepts/</link>
-      <description><![CDATA[      你们尝试过吗？发现在最后一刻修改前端概念非常酷。 我真的很喜欢备忘单🙏🙌 uisheet.com   由   提交/u/Wonderful_Heat4215  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhjm7s/found_this_cool_website_to_revise_ui_concepts/</guid>
-      <pubDate>Sun, 01 Mar 2026 01:05:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>现在怎么办？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhj225/what_now/</link>
-      <description><![CDATA[      鉴于 Jack Dorsey 和 Block 最近决定裁减近一半的员工 - 并不是因为利润或销售额下降，而只是因为人工智能的缺乏需求和效率提高 - 为什么任何高中毕业生现在还要费心去攻读计算机科学学位课程，尤其是专注于网络和应用程序开发的学位课程？   由   提交 /u/KnowBearFeet   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhj225/what_now/</guid>
-      <pubDate>Sun, 01 Mar 2026 00:39:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个 Netflix 风格的电影播放列表共享应用程序作为一个组合项目。这是我学到的三件事</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhixp7/i_built_a_netflixstyle_movie_playlist_sharing_app/</link>
-      <description><![CDATA[想要分享我刚刚完成的一个投资组合项目，一个受 Netflix 启发的应用程序，用于创建和共享电影播放列表。这感觉像是一个非常有用的功能，所以我想为什么不自己构建它。  当我尝试复制 Netflix 的 UI 时，我意识到最重要的是自动播放预告片和简单的渐变。他们的网站并没有充斥着一堆自定义CSS，他们更专注于优化的电影海报和海报字体。 TMDB API 出奇的慷慨，也许有点过于慷慨了。非常适合初学者或电影爱好者构建。 主页上的工作量比我想象的要多，尤其是建议方面。我从来没有考虑过国际市场、个性化推荐、个性化电影海报等。这些东西都有贡献，但没人关注。  功能：  悬停时预告片自动播放 可共享的播放列表链接（无需登录） 来自 TMDB 的真实电影数据  使用 React、TypeScript、Tailwind、Framer 构建Motion 和 Supabase。 任何反馈表示赞赏 - 我希望您喜欢它！   由   提交/u/xkft  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhixp7/i_built_a_netflixstyle_movie_playlist_sharing_app/</guid>
-      <pubDate>Sun, 01 Mar 2026 00:34:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>[周六展示] 构建了一个免费的产品架构生成器 - 无需注册，没有限制</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhgqmq/showoff_saturday_built_a_free_product_schema/</link>
-      <description><![CDATA[构建一个可生成有效产品架构 (JSON-LD) 标记的免费工具。填写您的产品详细信息，点击生成，复制代码，完成。无需帐户，无使用限制。  功能：  完整的产品架构，包括价格、库存情况、状况、品牌、SKU/MPN/GTIN 可选的 AggregateRating 支持 内置自检功能，可在粘贴前发现错误 直接链接到 Google 的 Rich Results Test 以进行最终验证  ⚠️仍在积极开发中——这是一个工作版本，但我正在迭代它。如果您发现错误、缺失字段或有改进建议，我将非常感谢您的反馈。如果你愿意的话，可以烤一下，这样会更好吃。  🔗 https://mediadeboer.nl/product-schema-generator/   由   提交 /u/Successful-Ad-5576   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhgqmq/showoff_saturday_built_a_free_product_schema/</guid>
-      <pubDate>Sat, 28 Feb 2026 22:59:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>你正在做什么来确保人工智能不会抢走你的工作？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhghgs/what_are_you_doing_to_make_sure_ai_doesnt_take/</link>
-      <description><![CDATA[发生的事情是不可避免的。人工智能每天都在不断进步并提供可靠的结果。我什至敢说，今天它已经比大部分开发人员更好了，尤其是那些只是大量编写代码的开发人员。 如今，我编写的代码比以前少了很多，而且人工智能越来越能够做出准确的决策。 我认为它还不能取代全面发展的开发人员，即那些帮助制定产品、营销和战略决策的开发人员。但很难不认为人工智能最终也会发展到取代这类开发人员的地步。 您一直在做什么来避免落后？或者，如果您采取不同的方向，您要去哪里？   由   提交 /u/Icy_Preparation395   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhghgs/what_are_you_doing_to_make_sure_ai_doesnt_take/</guid>
-      <pubDate>Sat, 28 Feb 2026 22:48:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用自由线程 Python 的纯 Python Web 框架</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhgd84/pure_python_web_framework_using_freethreaded/</link>
-      <description><![CDATA[Barq 是一个完全用纯 Python 构建的实验性 HTTP 框架，专为自由线程 Python 3.13 (PEP 703) 设计。没有 async/await，没有 C 扩展 - 只有具有真正并行性的线程。我想回答的问题是：现在 Python 有了 no-GIL 模式，简单的线程服务器能否击败异步框架？ FastAPI（100 个并发客户端）的结果：  JSON：8,400 req/s vs 4,500 req/s (+87%) CPU-bound：1,425 req/s vs 266 req/s (+435%)  受 CPU 限制的结果很有趣。异步无法并行化 CPU 工作 - 它本质上是单线程的。使用自由线程Python，添加更多线程实际上可以扩展：  4 个线程：608 req/s  8 个线程：1,172 req/s (1.9x)  16 个线程：1,297 req/s (2.1x)  框架在 5 个文件中约 500 行。关键实现选择：  用于工作线程的 ThreadPoolExecutor HTTP/1.1 保持活动连接 用于 O(1) 匹配的基数树路由器 用于验证的 Pydantic 用于更快序列化的可选 orjson  这是实验性的，不是生产就绪的，但它是一个有趣的数据点，说明当 Python 放弃GIL。 参考：https://github.com/grandimam/barq   由   提交 /u/grandimam   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhgd84/pure_python_web_framework_using_freethreaded/</guid>
-      <pubDate>Sat, 28 Feb 2026 22:43:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
