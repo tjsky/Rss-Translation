@@ -4,11 +4,74 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 01 Mar 2026 09:26:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 12:39:41 GMT</lastBuildDate>
+    <item>
+      <title>我构建了一个部署平台，因为我厌倦了部署自己的项目</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhw8o7/i_built_a_deployment_platform_because_i_got_tired/</link>
+      <description><![CDATA[       https://preview.redd.it/xsbrtfsphfmg1.png?width=3360&amp;format=png&amp;auto=webp&amp;s=0ea5a17cff63a30cd88a09532bc3019cf8c01953 过去几个月我一直在构建一个部署平台，并最终将其公开。 我是一名独立开发人员，诚实地构建了这个平台，因为我在部署自己的全栈项目时一直感到沮丧。每次这意味着要处理服务器、配置、随机错误并浪费时间只是为了让某些东西上线。 所以我开始为自己构建一些东西，我可以上传一个项目并让它运行而不会遇到任何麻烦。 它被称为 Riven。 您可以上传一个全栈或 MERN 项目，它会自动安装和构建，显示实时部署日志，为您提供实时 URL，并让您连接自己的域。我们的目标是让部署变得简单而不是有压力。 现在还为时过早，我每天都会根据反馈进行改进。我不是一个公司或团队，只是单独构建这个，并试图让像我这样的开发人员部署更顺利。 如果您尝试后感觉有些混乱或损坏，我真的想知道，以便我可以改进它。 附有演示视频。 https://rivendeploy.com   由   提交 /u/Tall-Amphibian4159   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhw8o7/i_built_a_deployment_platform_because_i_got_tired/</guid>
+      <pubDate>Sun, 01 Mar 2026 12:36:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>每月入门/Web 开发职业主题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhvl5m/monthly_getting_started_web_dev_career_thread/</link>
+      <description><![CDATA[由于有关此主题的问题不断涌入，我们决定每月提交一个专门讨论此主题的帖子，以减少有关此主题的重复帖子的数量。这些类型的帖子将不再允许在主线程中发布。 其中许多问题也在子常见问题解答中得到解决，或者可能在以前的每月职业线程中提出。 专门针对这些类型的子问题问题包括针对一般性和开放式职业问题的 r/cscareerquestions 和针对早期学习问题的 r/learnprogramming。 学习为行业做好准备的主题的一般建议包括：  HTML/CSS/JS 训练营 版本控制 自动化 前端框架(React/Vue/Etc) API 和 CRUD 测试（单元和集成） 常见设计模式  您还需要包含您构建的 4-5 个个人项目的作品集，以及用于申请工作的简历。 在申请工作之前，为您的作品集计划 6-12 个月的自学和项目制作。   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhvl5m/monthly_getting_started_web_dev_career_thread/</guid>
+      <pubDate>Sun, 01 Mar 2026 12:00:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>刚刚推出了我的投资组合。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhuqd7/just_launched_my_portfolio/</link>
+      <description><![CDATA[      我最近对我的作品集进行了重大更新，改进了视觉方向和整体体验，以更好地反映我的设计方法和个人兴趣。   由   提交/u/its_me_Aadi   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhuqd7/just_launched_my_portfolio/</guid>
+      <pubDate>Sun, 01 Mar 2026 11:10:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Seeksy - FOSS 桌面搜索工具，类似于适用于 Windows 和 Linux 的 MacOS 的 Spotlight</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhupqk/seeksy_foss_desktop_search_tool_like_macos/</link>
+      <description><![CDATA[      TL;DR: Seeksy 是一款快速、跨平台、可配置的桌面搜索工具，与 MacOS Spotlight 不同，非常适合快速查找文件、启动应用程序和选择表情符号。设置要索引的文件夹，它就可以工作了。 关于应用程序 我想要一个快速、轻量级的 Spotlight 替代方案，可以在 Windows 和 Linux Mint 上使用，因为我想要在 Linux 上进行桌面搜索，并在 Windows 上进行实际工作的搜索。 因此我编写了 Seeksy，这是一个可调用的桌面搜索实用程序，用于快速查找文件、应用程序和表情符号（因为 Wayland 在 Linux 上查找文件、应用程序和表情符号给我带来了麻烦）我错过了快速选择器的“Win+”快捷方式。 在后台无缝运行，准备使用Ctrl + Space（默认快捷方式）打开。通过设置菜单完全可自定义，可通过齿轮图标或托盘图标的上下文菜单访问。 也许其他人也可能会发现这个工具很有用，所以就用吧。 等等..但这与您可能会问的 r/webdev 有何关系？因为这个东西运行在 Electron 上（我知道）。然而，其资源友好性令人惊讶，空闲时仅需要 100MB RAM。 亮点  通用搜索 - 从单个可调用的搜索界面搜索文件、文件夹、应用程序和表情符号。您设置要索引的文件夹，它只考虑这些文件夹。一切尽在您的掌控之中。 多平台支持 - 适用于 Windows 和 Linux，甚至是 Mac。 应用程序启动器 - 自动检测所有应用程序和已安装的游戏（初始索引可能需要几秒钟） 收藏夹系统 - 将常用项目标记为收藏夹以便快速访问 可自定义设置 - 在深色/浅色模式、强调色和可配置搜索快捷方式之间进行选择（默认：Ctrl + 空格）  完全开源：https://github.com/andreasjhagen/Seeksy/   由   提交/u/Odysseyan   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhupqk/seeksy_foss_desktop_search_tool_like_macos/</guid>
+      <pubDate>Sun, 01 Mar 2026 11:09:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 使用 React + Express 构建了一个评论聚合器 - 希望获得技术反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhuot7/showoff_saturday_built_a_review_aggregator_with/</link>
+      <description><![CDATA[嘿，开发者们！ 我一直在从事一个业余项目，非常感谢一些技术反馈。 **该项目：** ReviewCruncher - 聚合来自多个来源（YouTube、Reddit、X/Twitter、Google）的产品评论，并使用人工智能将它们合成为一个结论。 **技术堆栈：** - 前端：React 19、TypeScript - 后端：Express.js - AI：用于合成的 OpenAI GPT-4 - 数据源：YouTube API、自定义抓取工具、用于 X 的 Bird CLI **现场演示：** https://reviewcruncher.com **我希望获得以下反馈：** 1. UX/UI - 流程是否直观？ 2. 性能 - API 调用可能很慢，有什么优化建议吗？ 3. 架构 - 目前一切都是服务器端渲染合成，考虑转向流媒体 **已知问题：** - Reddit API 目前已损坏（身份验证问题） - 移动响应能力可能会更好 非常感谢任何反馈、推荐或建议。很高兴回答有关实施的问题！ 谢谢！ 🙏   由   提交 /u/Gniederlaender   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhuot7/showoff_saturday_built_a_review_aggregator_with/</guid>
+      <pubDate>Sun, 01 Mar 2026 11:08:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>这是针对 CSRF 的完整防御吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhum84/would_this_be_a_complete_defence_against_csrf/</link>
+      <description><![CDATA[我的理解是（如果我错了，请纠正我）CSRF 可以通过 cookie 中的 SOP=strict 被完全击败。然而，这可能会造成糟糕的用户体验，因为当您从另一个网站访问该网站时，该网站将无法识别您。 您能用两个令牌（一个宽松，一个严格）击败 CSRF 吗？ Lax 令牌仅用于 GET 请求，永远不会改变任何内容。严格令牌将用于 POST、PATCH、PUT、DELETE。   由   提交/u/pencilUserWho   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhum84/would_this_be_a_complete_defence_against_csrf/</guid>
+      <pubDate>Sun, 01 Mar 2026 11:04:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Web 开发人员对隐私问题的看法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhud4a/privacy_concern_thoughts_of_a_web_developer/</link>
+      <description><![CDATA[      20天前我在askreddit上与普通人开始了这个讨论。作为一名网络开发人员，我想了解一下你们的想法    由   提交/u/srimahere  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhud4a/privacy_concern_thoughts_of_a_web_developer/</guid>
+      <pubDate>Sun, 01 Mar 2026 10:49:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建自定义可视节点编辑器并遇到布局/节点系统问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhu1n1/building_a_custom_visual_node_editor_and_having/</link>
+      <description><![CDATA[大家好，我正在构建一个图形编辑器，用于直观地构建 Minecraft 插件。它是一个自定义图形编辑器，具有：  类型化端口 + 可转换性规则（Spigot 类注册表） 流与数据端口 自定义捕捉（包括“无线”直接链接） 循环范围 + 分支句柄 WebGL 渲染线以提高性能 动态“通用”连接节点会根据用例动态改变其行为  编辑器中存在很多不一致和错误。我一直很难为端口连接和自定义节点形状创建强大的系统。性能也是一个大问题 我正在考虑停止使用我的自定义 WebGL 渲染器和节点渲染/创建逻辑，以开始使用库/框架。我无法决定是否要保留我的自定义内容或切换到更强大的库/框架以提供更稳定的用户体验体验。我有点担心使用库/框架可能会剥夺我想要的一些动态功能 我见过 x6、React flow、GoJS，但无法确定它们是否适合我的需求 在这种情况下你会做什么？什么库/框架适合我的用例（AST + CFG + DFG）？   由   提交 /u/OrbiForge   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhu1n1/building_a_custom_visual_node_editor_and_having/</guid>
+      <pubDate>Sun, 01 Mar 2026 10:29:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了一个假 Gmail，秘密播放板球比赛直播。当你的老板走过时，按 Esc 键将其隐藏。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rht8p3/built_a_fake_gmail_that_secretly_shows_live/</link>
+      <description><![CDATA[   此处 - https://cricinfo-mail.vercel.app 您的收件箱 = 实时比赛。单击电子邮件 = 记分卡。现场比赛获得带有逐球评论的回复线索 - 每场比赛都是一个“回复”来自投球手。 老板来了？按退出键。收件箱变成了假工作电子邮件。 再次按 Esc 键，您将回到比赛。 很想知道你们的想法！   由   提交/u/Kind-Bottle-7712   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rht8p3/built_a_fake_gmail_that_secretly_shows_live/</guid>
+      <pubDate>Sun, 01 Mar 2026 09:41:31 GMT</pubDate>
+    </item>
     <item>
       <title>非营利交付平台是否可行？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rhsxlz/is_a_nonprofit_delivery_platform_viable/</link>
-      <description><![CDATA[目标是最大限度地提高客户、商家和快递员的利益。 该平台将自主运营，通过严格设计的捐赠或最低佣金来维持运营成本。 争议解决将在相关各方（客户-商家或商家-快递员）之间直接处理，有效消除不必要的中介机构。 生态系统的自我监管将依赖于严格的评级系统：任何有严重报告或低分的参与者都会被自动停用（尽管我怀疑这里有一个缺陷：商家可能会花钱雇一群人来“审查炸弹”并消除竞争）。 为了确保安全，入职和文档验证过程将是由外部实体（管理员）管理的唯一阶段，并且需要一次性管理费。 不会有营销 每个商家都会提前说明如果包裹在运输过程中损坏或丢失，他们是否承担退款责任。 虽然这个想法并不寻求经济利润，但此类项目的技术和社会价值有可能改变当前市场 - 而且它在简历上会看起来很棒;)   由   提交 /u/PrintMean7254   [链接] [评论]]]></description>
+      <description><![CDATA[目标是最大限度地提高顾客、商家和快递员的利益。 食品配送平台将自主运营，通过捐赠或严格设计的最低佣金来维持运营成本。 争议解决将在相关各方（顾客-商家或商家-快递员）之间直接处理，有效消除不必要的中介机构。 生态系统的自我监管将依赖于严格的评级系统：任何有严重报告或低分的参与者都会被自动停用（尽管我怀疑这里有一个缺陷：商家可能会付钱给一群人来“审查炸弹”并消除竞争）。 为了确保安全，入职和文档验证过程将是唯一由外部实体（管理员）管理的阶段，并且需要一次性管理费。 不会有营销费用。 每个商家都会预先说明如果包裹在运输过程中损坏或丢失，他们是否承担退款责任。 虽然这个想法并不寻求经济利润，但此类项目的技术和社会价值有可能改变当前市场 - 而且它在简历上会看起来很棒;)   由   提交 /u/PrintMean7254   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rhsxlz/is_a_nonprofit_delivery_platform_viable/</guid>
       <pubDate>Sun, 01 Mar 2026 09:22:21 GMT</pubDate>
     </item>
@@ -46,69 +109,6 @@
       <description><![CDATA[      我查看的网站是 https://24slides.com/presentation-services 他们出售侧甲板服务。  我想看看是否有人知道如何找到他们正在使用的视频播放器的类型。   由   提交 /u/13-months   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rhry84/what_type_of_video_player_is_used/</guid>
       <pubDate>Sun, 01 Mar 2026 08:21:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>1 小时番茄计时器与 100 小时番茄计时器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhqsr1/1h_pomodoro_timer_vs_100h_pomodoro_timer/</link>
-      <description><![CDATA[      有一天，我在大约一个小时内编写了一个番茄计时器原型。它起作用了。但这感觉就像是不小心把软件混在一起了，这让我很烦恼。 所以我问自己..我是否只想发布一些有用的东西或用爱制作一些东西？因为你可以感觉到某些东西是精心制作的，我想构建这样的软件。而且所有的番茄钟定时器看起来都差不多，所以为什么不给它我自己的旋转。 100 小时后，我最终得到了一个番茄钟定时器，里面有一只猫，它会在你打字时与你一起敲击，可配置周期，在专注时间期间阻止应用程序，并强制休息，这样你就可以真正接受它们。 关于人工智能和代码质量 虽然人工智能编写了大部分代码，但我是驱动程序。我设计了它。我审阅了每一行。 bc 对此负责的是我，而不是人工智能。我的理念是没有代码就是最好的代码，但人工智能似乎并不总是同意这一点。我真的不明白人们如何表达“我今天写了 10k 行代码”.. 很酷，但祝你好运维护它  虽然人工智能现在在技术上可以完成大部分工作.. 问题是你是否知道你首先想要构建什么？仅仅因为您可以在花园里种植西红柿并不意味着每个人都会。知道自己想要什么并拥有制作它的品味仍然很重要。你觉得怎么样？ 它 开源 如果你有想法、发现错误或想要贡献，请先提出问题。 PR 没有任何问题 &amp;上下文已关闭，没有评论。如果我们不知道自己想要什么，人工智能怎么知道 想尝试一下吗？ 完全本地化，没有云，没有帐户。在 pomodorocat.com 上在线试用一下（实际上只是旋转计时器轮），或者在 focuscat.app 上尝试 MacOS 应用程序 技术堆栈是 Web 上的 React 与 Tanstack Router 以及桌面上的 React、Tanstack、Tauri 干杯 编辑：版权归 Bongo Cat Steam 游戏 和 StrayRogue 原创艺术作品:)   由   提交/u/BennoDev19  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhqsr1/1h_pomodoro_timer_vs_100h_pomodoro_timer/</guid>
-      <pubDate>Sun, 01 Mar 2026 07:12:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>离岸团队发来这个PR，您会如何审核这个PR？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhqp14/offshore_team_send_this_pr_how_would_you_review/</link>
-      <description><![CDATA[       由   提交/u/lune-soft  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhqp14/offshore_team_send_this_pr_how_would_you_review/</guid>
-      <pubDate>Sun, 01 Mar 2026 07:07:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年的 AWS：您认为自己知道的事情现在是错误的</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rho3xv/aws_in_2025_the_stuff_you_think_you_know_thats/</link>
-      <description><![CDATA[       由   提交/u/fagnerbrack  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rho3xv/aws_in_2025_the_stuff_you_think_you_know_thats/</guid>
-      <pubDate>Sun, 01 Mar 2026 04:44:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动项目建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhn108/starter_project_advice/</link>
-      <description><![CDATA[我是一名游戏开发人员，但我从未做过任何 Web 开发。  我想建立一个网站来扩展 Desmos.com 的功能，以完成一些非开箱即用的事情。  我猜我需要使用 Desmos API 嵌入其图形计算器的实例并在此基础上进行构建。  但这感觉比我的第一个 Web 开发任务应该采取的飞跃更大。  我需要一个 hello world 问题。它帮助我了解了如何设置和托管网站的基础知识，也许还可以使用第三方 API。  如果有一个好的入门课程的链接，我们将不胜感激。   由   提交/u/jerrytjohn  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhn108/starter_project_advice/</guid>
-      <pubDate>Sun, 01 Mar 2026 03:48:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我可以更改发送给他人的链接内容吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhmkgu/can_i_change_the_contents_of_the_link_i_send_to/</link>
-      <description><![CDATA[不确定我是否能够清楚地表达它，但是，如果他们点击该链接，我将向在网站上有我个人详细信息的人发送一个链接。我可以让他们在没有我的个人信息的情况下访问该网站的某个版本吗？或者可以执行相同功能的东西？ 我所做的研究：我查看了一些来源，大多数人说您可以自己更改网站，但刷新后更改会恢复。并尝试了一些源代码，但似乎我不能永远编辑它。    由   提交 /u/Lopside-Bug7075   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhmkgu/can_i_change_the_contents_of_the_link_i_send_to/</guid>
-      <pubDate>Sun, 01 Mar 2026 03:25:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] 我使用 Python、Streamlit 和 Llama 3.1 为《龙与地下城》构建了一个免费的 AI 工作流程自动化器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhlw97/showoff_saturday_i_built_a_free_ai_workflow/</link>
-      <description><![CDATA[大家好， 我是一名数据分析师/开发人员，由于每周运行《地下城与地下城》所需的管理准备工作而感到非常疲惫。龙的游戏。通常需要 4 个多小时的手动数学、数据过滤和创意写作来准备单个会话。 因此，我花了几周时间构建 DM Co-Pilot 来自动化这些无聊的事情。 技术堆栈：  前端和前端逻辑：Python&amp; Streamlit 数据处理： Pandas（使用动态散点图过滤 400 多个怪物的数据集） AI 引擎： Meta Llama 3.1 通过 Groq API（超快速推理）  它的实际用途：  用动态搜索代替手动图书搜索数据过滤器，可即时平衡战斗遭遇。 记录混乱的要点式会话笔记，并使用即时工程将其重写为清晰的 3 段叙述日记条目。 使用有针对性的微型生成器，通过一键文本文件导出即时创建平衡的战利品和 NPC。  完全免费使用（您只需添加免费的 Groq API）键）。 🔴 实时应用程序：https://dm-copilot-app.streamlit.app/💻 源代码：https://github.com/Cmccombs01/DM-Copilot-App 我希望从开发人员的角度提供有关 UI/UX、代码结构或提示工程约束的任何反馈！   由   提交 /u/Aggravating-Hat4855   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhlw97/showoff_saturday_i_built_a_free_ai_workflow/</guid>
-      <pubDate>Sun, 01 Mar 2026 02:52:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个完全在浏览器中运行的 3D 建模和动画编辑器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhli7d/i_built_a_3d_modeling_and_animation_editor_that/</link>
-      <description><![CDATA[      在 app.topomaker.com  嗨r/webdev 尝试一下。我喜欢制作创意软件。我花了几年时间制作像素艺术软件，但最近开始涉足 3D 动画和 2D 动画，并且真的想要一种方法来实现疯狂的想法。 Blockbench 感觉不太对劲，spline 感觉太适合闲置的网站动画，而其他大多数也不太符合要求。我虽然没有开始 Blender 大师班。  虽然我绝对不会低估 Blender 强大的功能，但当我想为愚蠢的游戏制作资源时，我想要一些更小、更容易采用、直接出现在网络生态系统中的东西，而不必跳过任何障碍来让一切匹配并很好地渲染。于是，我做了Topomaker（暂定名）。 3D 建模、着色、纹理（即将）和动画。最后，渲染目标导出 mp4 和 gif 以供共享，然后导出 glb 和 obj 以在 Threejs 中制作游戏。  我几周前才开始使用它，所以可能有很多错误，所以也许不是为了任何严重的问题，但请随意使用它并让我知道你的想法！   由   提交 /u/whothatcodeguy   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhli7d/i_built_a_3d_modeling_and_animation_editor_that/</guid>
-      <pubDate>Sun, 01 Mar 2026 02:34:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] UpDog - 状态监控 + 警报</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhlf73/showoff_saturday_updog_status_monitoring_alerts/</link>
-      <description><![CDATA[      我一直在构建一个专为独立开发人员和小型团队设计的状态监控网站 (UpDog dot Watch)。 它可以让您监控网站、关键字、端口等，同时将警报准确发送到您实际看到的位置 — 这要归功于广泛的集成。 有一个免费层，允许您免费设置一些监视器和警报。 我很乐意您尝试一下并分享您的反馈 - 我正在努力使其成为最好的！   由   提交/u/bigbrass1108  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhlf73/showoff_saturday_updog_status_monitoring_alerts/</guid>
-      <pubDate>Sun, 01 Mar 2026 02:30:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>优化包含大量文本的网页的性能</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhl0nm/optimizing_performance_for_a_webpage_with_a_lot/</link>
-      <description><![CDATA[嘿哟，我是一个简单的业余爱好者，正在 https://xiv.quest/ 从事一个充满激情的项目。要点是，这是 MMORPG 中的全部对话。它仍在进行中，但目前已超过 170 万字和约 17MB，有些人正在努力加载它。我一直都知道这一天会到来，因为我不断地添加它，但我想当我到达它时我会跨过那座桥，并且......好吧。 所以我正在寻找解决方案。显而易见的方法是将其拆分为多个页面，或者一次仅加载部分内容，但重点是将其放在一个网页上，以便可以轻松地使用 ctrl+F 进行搜索，并且如果可能的话，我真的希望避免损害该目标的简单性。我现在正在努力将文本缩小到文件大小的 9% 左右，这样看起来会吸引我。 所以我的下一个想法是，AJAX 加载内容有帮助吗？或者还有其他我从未听说过的解决方案？任何观点都会有帮助！ --- 编辑：感谢大家的所有反馈！我保证我正在阅读并考虑每一条回复。启用 gzip 应该已经是一个很大的帮助，并且我显然在不久的将来有更多的实践选项可以研究。 🙏   由   提交/u/eriyu  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhl0nm/optimizing_performance_for_a_webpage_with_a_lot/</guid>
-      <pubDate>Sun, 01 Mar 2026 02:10:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
