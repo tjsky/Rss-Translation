@@ -4,9 +4,30 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sun, 01 Mar 2026 15:18:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 18:26:29 GMT</lastBuildDate>
     <item>
-      <title>根据 macOS 日历自动回复 iMessage——为其构建了一个 CLI 工具</title>
+      <title>嘿创始人我有一个问题需要帮助。你能测试我的代理并告诉我它的感觉如何吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1ri4ijm/hey_founders_i_have_a_question_and_need_help_can/</link>
+      <description><![CDATA[ 由   提交 /u/Fun_Hovercraft810   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1ri4ijm/hey_founders_i_have_a_question_and_need_help_can/</guid>
+      <pubDate>Sun, 01 Mar 2026 18:16:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>改进人工智能以复制类人技能</title>
+      <link>https://www.reddit.com/r/automation/comments/1ri4h0s/improving_ai_to_reproduce_humanlike_skills/</link>
+      <description><![CDATA[我每天都在学习有关人工智能的新知识。 几周前我还觉得不可能的事情，我坚持了几周的事情突然发生了。  一个工作流程解决了主要瓶颈。 挑战是这样的： 我需要自动化一个显然需要人工判断的流程。 涉及的工作流程：  访问网站并提取详细信息  （我编写的脚本或任何单个人工智能模型都无法可靠地一遍又一遍地完成此操作。）  下载图像并按正确的顺序对其进行排序（这通常需要人眼来决定什么是主图像、什么是附件、什么是尺寸图等。 检查产品视频是否存在并提取正确的链接 改进内容并将其放入结构化 HTML 模板 提取技术数据和将其分配给多个预定义变量（这部分很复杂且高度结构化。）  几个星期以来，我一直试图用“一个人工智能做所有事情”来解决这个问题。 这是一个错误。 突破 解决方案不是一个模型。 它是编排。 使用 Python 和结构化 .txt 文件，系统现在的工作方式就像this: 第 1 步受控提取  给脚本提供要扫描的 URL。 它包含用于提取内容的显式 HTML 选择器。 提取的数据保存到结构化 .txt 文件中。 图像作为 ZIP 文件下载并自动提取到文件夹中。  在这个阶段，没有“智能”，只有确定性结构。 第 2 步视觉处理 调用局部视觉模型。 算法对它们进行分类（英雄、配件、尺寸、内部等）。这取代了“人眼”。 第 3 步内容改进 第二个局部视觉模型。语言模型改进了产品文本。 改进的版本单独保存。这取代了“人工编辑器”。 第 4 步模板组装 结构化图像数据和改进的内容都传递到本地编码模型。编码模型将所有内容插入到预定义的 HTML 模板中。  它将图像按正确的顺序放置。 如果有的话，它会嵌入视频。可用。 它准确地保留了模板结构。 这取代了“人类网络开发人员”。  第 5 步技术数据推理 1 调用推理模型。  它读取存储的技术数据。 它将正确的值分配给预定义的值。变量。 它干净地映射结构化信息。  这取代了“人类分析师”。 最后，所有输出都合并为一个处理结果。 我意识到的是：  我们不需要人工智能“变得聪明”。 我们需要能够复制结构化人类的人工智能系统  当您将工作分解为：  提取 解释 分类 改进 组装 推理  你停止尝试构建魔法。 你开始构建系统。 更大的转变 我们已经达到人工智能不再是玩具或聊天机器人的地步。 它开始塑造未来工作的面貌。 但我们仍然过度依赖外部工具和 也许真正的机会不仅仅在于使用人工智能。 也许它正在围绕它构建我们自己的基础设施。 拥有工作流程。拥有逻辑。 这就是真正的杠杆所在。 一旦它点击，你就不再问： “人工智能可以做到这一点吗？” 你开始询问： “我该如何正确安排？”    提交者 /u/Admir-Rusidovic   [链接]   href=&quot;https://www.reddit.com/r/automation/comments/1ri4h0s/improving_ai_to_reproduct_ humanlike_skills/&quot;&gt;[评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1ri4h0s/improving_ai_to_reproduce_humanlike_skills/</guid>
+      <pubDate>Sun, 01 Mar 2026 18:14:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能自动化的真正投资回报率</title>
+      <link>https://www.reddit.com/r/automation/comments/1ri1vik/the_real_roi_of_ai_automation/</link>
+      <description><![CDATA[每个人都在谈论人工智能取代工作。我所看到的是： 它消除了重复的管理工作，以便团队可以专注于创收任务。 示例：  自动入职流程 发票提醒 潜在客户评分 内部报告仪表板  工作不那么忙。更加清晰。 您使用人工智能主要用于营销、运营或支持吗？   由   提交 /u/aiagent_exp   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1ri1vik/the_real_roi_of_ai_automation/</guid>
+      <pubDate>Sun, 01 Mar 2026 16:38:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>根据您的 macOS 日历自动回复 iMessage——为其构建了一个 CLI 工具</title>
       <link>https://www.reddit.com/r/automation/comments/1rhzcsg/autoreply_to_imessages_based_on_your_macos/</link>
       <description><![CDATA[      我想要一种在忙碌时自动处理传入文本的方法，而无需设置焦点模式或记住打开/关闭内容。 GhostReply 是一个 Python CLI，它：  每 5 分钟读取一次 macOS 日历事件 何时您正在开会，发送简短的忙碌回复（“在会议中，直到 3 点，之后会发短信给您”） 当您有空时，处理休闲消息（“是的，听起来不错”、“我心情不好”） 标记任何紧急情况并跳过自动回复 - 而是向您发送 macOS 通知 手动回复时自动停止  它直接连接到 iMessage 数据库（仅限 macOS），通过 AppleScript 读取您的日历，并在终端中作为后台进程运行。没有服务器，除了生成回复的 API 调用之外，您的计算机什么也没有离开。   由   提交/u/Small-Tap4128  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rhzcsg/autoreply_to_imessages_based_on_your_macos/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rggzta/best_itsm_tools_for_slackteams/</guid>
       <pubDate>Fri, 27 Feb 2026 19:52:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>放弃你最大的成长挑战，我会帮助你解决它</title>
-      <link>https://www.reddit.com/r/automation/comments/1rgd57u/drop_your_biggest_growth_challenge_and_ill_help/</link>
-      <description><![CDATA[几周前我发表了一篇关于如何发展人们的初创企业的文章，很多人都参与其中并发现它很有价值。 所以，让我们做一些类似的事情：  分享你正在做的事情 分享你目前正在尝试发展它的方式 我会建议如何修改它或分享替代方案成长    由   提交/u/roguejedi1  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rgd57u/drop_your_biggest_growth_challenge_and_ill_help/</guid>
-      <pubDate>Fri, 27 Feb 2026 17:31:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>您自动化的、真正节省时间的手动流程是什么？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rg79oc/whats_one_manual_process_you_automated_that/</link>
-      <description><![CDATA[每周我都会有一项任务，该任务在我的待办事项列表上的停留时间会比应有的时间长得多。 并不困难。只是重复和烦人。 最终我将其自动化......它基本上从我的生活中消失了。 哪一项任务是你自动化后你永远不会再手动执行的？ • 它是什么？ • 是什么最终促使您将其自动化？ • 你是怎么做到的（高水平）？ • 哪种自动化工具对您最有帮助？  特别是那些实际上没有卡住的自动化，我们尝试了一周但忘记了。 很想听听真实的例子。   由   提交/u/Techenthusiast_07  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rg79oc/whats_one_manual_process_you_automated_that/</guid>
-      <pubDate>Fri, 27 Feb 2026 13:52:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何与 13 名 AI 代理组成的团队实现营销自动化 — 完整的 OpenClaw 设置指南</title>
-      <link>https://www.reddit.com/r/automation/comments/1rg32dg/how_i_automated_my_marketing_with_a_team_of_13_ai/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rg32dg/how_i_automated_my_marketing_with_a_team_of_13_ai/</guid>
-      <pubDate>Fri, 27 Feb 2026 10:24:07 GMT</pubDate>
     </item>
     </channel>
 </rss>

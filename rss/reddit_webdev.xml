@@ -4,20 +4,90 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 01 Mar 2026 15:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 18:28:56 GMT</lastBuildDate>
+    <item>
+      <title>Cloudflare 无服务器生态系统</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri4isu/cloudflare_serverless_ecosystem/</link>
+      <description><![CDATA[我正在考虑部署一个页面、一些函数、workers、持久对象、D1 和 AE。 您对 CF 的产品有何看法？好的经历？坏的？我真的很好奇。   由   提交/u/Mallanaga   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri4isu/cloudflare_serverless_ecosystem/</guid>
+      <pubDate>Sun, 01 Mar 2026 18:16:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>将访问令牌作为 URL 参数是非常安全的……对吧？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri4f32/its_super_safe_putting_an_access_token_as_url/</link>
+      <description><![CDATA[我妈妈使用这个特定网站向她的孙子们发送生日贺卡。她写了一首愚蠢的诗，放入了一堆图片，网站将其打印出来并邮寄出去。不错的卡。比霍尔马克便宜。综上所述，这是一个复杂且设计精良的网站；他们的开发人员了解他们的东西。 今天，她想向某人展示一张她正在制作的卡片。于是她点击了 iPad 上的分享按钮。她不知道这是 Safari 的事情，而不是网站的事情。 Safari 向她的朋友发送了一个网址。基本上是这样的： https://app.---redacted---.com/not-a-real-url?access_token=blahblahblah-youknowwhatitlookslike  他们收到她的短信，点击它，然后，bam 🤯，完全访问她的整个帐户。想寄卡片吗？当然！寄一千张卡片？为什么不呢。更改她的电子邮件和密码？往前走吧。我们甚至不会通过电子邮件告诉您我们做了任何这些事情！ 她终于向我寻求帮助，我让她退出，更改她的密码。访问令牌不会过期。不知道令牌何时（或是否！）过期。直到周一才有人支持。 幸运的是，她没有将链接发布到 Facebook，只是发短信给她信任的朋友。 看，我主要是一名前端设计师。小事，说实话。我将身份验证留给那些知道自己在做什么的人员和服务。但我在这里并没有错，不是吗？这不是每个人都会做的事情，而且对我来说这只是一个坏主意？ 当你看到这种事情时你会做什么？   由   提交 /u/affablematt   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri4f32/its_super_safe_putting_an_access_token_as_url/</guid>
+      <pubDate>Sun, 01 Mar 2026 18:12:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>cron 作业在本地运行良好，但产品上绝对混乱，我花了两天时间才弄清楚原因</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri44jh/cron_jobs_running_fine_locally_absolute_chaos_on/</link>
+      <description><![CDATA[这个想法仍然让我有点生气，所以我会尽力保持它的连贯性 我们有一个管道来处理传入的列表，运行一些丰富逻辑，生成摘要，然后将更新推送到前端。摘要位贯穿 Deepinfra，没什么花哨的。整个事情是由一个 cron 作业触发的，该作业应该每天上午 9 点触发 在本地运行得很好。在舞台表演中表现得非常完美。推送到产品并在一周内客户发消息询问为什么他们的仪表板自周二以来没有更新... 我检查的第一件事是 cron 是否实际上正在运行。日志显示它正在触发，所以我大概花了半天的时间假设问题出在浓缩逻辑的下游某个地方。检查摘要输出，检查数据库写入，检查前端缓存失效。当我手动触发管道时，一切看起来都很好 继续挖掘并注意到一些奇怪的事情，cron 在上午 9 点触发，但实际处理记录上的时间戳在某些日子显示在下午 1 点或 2 点，而在其他日子则完全丢失。毫无意义 原来我们的产品服务器是在 UTC 上。我们的临时服务器使用 UTC+5，因为很久以前就有人这样设置，但没有人注意到或关心。我们编写的 cron 表达式是基于我们的本地时区假设，它碰巧与暂存相匹配... 因此，在 prod 上，作业在技术上是在 UTC 上午 9 点运行，这取决于当天以及服务器上发生的其他事情，要么在某些数据源填充之前太早，要么在其他进程后面排队并默默超时 修复实际上就像两行，在 cron 表达式中显式时区并提高超时阈值。就是这样 让我怀疑的是时区问题花了多长时间。每次我手动触发管道时，它都会起作用，因为我在正确的时间触发了它，但没有意识到。这个错误是完全不可见的，除非你专门在上午 9 点观察自动运行，并检查生产服务器上在那一刻实际可用的数据 如果你的 cron 作业在环境之间表现不同，并且你无法弄清楚为什么，首先要检查的是你的服务器是否实际上位于同一时区。回想起来，这听起来很明显，但这种事情永远不会出现，除非它默默地破坏了产品中的某些东西 任何其他人都有时区的东西以一种比应有的时间更长的调试时间来咬住他们   由   提交 /u/IndividualTerm4830   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri44jh/cron_jobs_running_fine_locally_absolute_chaos_on/</guid>
+      <pubDate>Sun, 01 Mar 2026 18:01:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>刚刚想出了一个动态二维码的有用技巧</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri43by/just_figured_out_a_useful_trick_for_dynamic_qr/</link>
+      <description><![CDATA[我试图为本地活动创建一个二维码，并意识到将宽高比设置为 1:1 并将分辨率设置为 500x500 像素可以使其扫描方式更加可靠，尤其是在旧手机上，这一点很重要，因为我们预计会有相当多样化的人群，并且不希望任何人在进入时遇到麻烦   由   提交 /u/Beginning_Care_7600   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri43by/just_figured_out_a_useful_trick_for_dynamic_qr/</guid>
+      <pubDate>Sun, 01 Mar 2026 18:00:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了每天打开浏览器选项卡来执行相同的开发任务，所以我构建了这个</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri416n/i_got_tired_of_opening_browser_tabs_for_the_same/</link>
+      <description><![CDATA[      您知道作为 Web 开发人员的练习： Google“json 格式化程序” → 粘贴您的数据 → 获取结果 Google“css minifier” → 粘贴代码 → 获取结果 Google“颜色转换器” → 粘贴你的十六进制 → 获取结果 Google“正则表达式测试器” → 粘贴你的模式 → 得到结果 Every。单身的。 Day。 构建 Devly 来解决这个问题。原生 macOS 菜单栏应用程序，一键点击，一切都在本地运行。没有网站，没有广告，没有跟踪，一切都不会离开您的 Mac。 Web 开发人员最常用的工具： - JSON 格式化程序和验证器 - CSS 和 JS 缩小器 - 颜色转换器（HEX/RGB/HSL） - 具有实时匹配功能的正则表达式测试器 - JWT 解码器 - Base64 编码器/解码器 - Markdown 预览 - SVG 可视化工具 一次 4.99 美元。没有订阅。 macOS 13+。 https://apps.apple.com/us/app/devly/id6759269801?mt=12   由   提交/u/Economy-Department47   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri416n/i_got_tired_of_opening_browser_tabs_for_the_same/</guid>
+      <pubDate>Sun, 01 Mar 2026 17:58:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 抓取战争：LLM 爬虫正在破坏网络</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri3bgw/the_ai_scraping_war_llm_crawlers_are_breaking_the/</link>
+      <description><![CDATA[ 由   提交/u/cport1  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri3bgw/the_ai_scraping_war_llm_crawlers_are_breaking_the/</guid>
+      <pubDate>Sun, 01 Mar 2026 17:32:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Express EJS 模板中使用 Tailwind？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri0juy/utilizing_tailwind_in_express_ejs_templates/</link>
+      <description><![CDATA[大家好， 我目前是一名使用 Svelte SPA + Express 的全栈开发人员，但我也想使用带有 EJS 的 Express SSR，但 Tailwind 安装与 EJS 很糟糕。 bootstrap 也可以很好地与 ejs 以及传统的 css 配合使用。但是，只是不确定是否使用 或 用于 EJS 模板。为 EJS 模板设置 tailwind 大约需要 7 到 8 个步骤。  您使用什么 EJS 模板？为什么？    由   提交/u/drifterpreneurs  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri0juy/utilizing_tailwind_in_express_ejs_templates/</guid>
+      <pubDate>Sun, 01 Mar 2026 15:47:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Buckmate - 以声明方式部署到 s3</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri0jce/buckmate_deploy_to_s3_declaratively/</link>
+      <description><![CDATA[嘿，想展示我的个人项目。  我需要一个工具，可以用来以声明方式将静态页面部署到 S3。 以前，我会使用 aws cli 和 bash 脚本，这些脚本很难维护、理解或推广到其他项目。 我一直喜欢 kubernetes 部署的工作方式 (helm)。不错的 yaml 文件，您可以在其中定义容器等，一切都清晰易懂。  我认为这对于一个业余项目来说是一个很好的机会，特别是我想尝试 go 语言。我花了几年时间才得到这个，我很乐意公开分享它。我知道它有缺陷，缺少功能，可能还有一些代码味道和错误，但它有效:D  要了解它是如何工作的，最好访问文档，但通常你定义： - 源和目标（两者都可以位于您的计算机或s3存储桶上）（源将被复制到目标）， - 可选的文件（一些静态文件与源中的文件一起复制）， - 可选的配置映射（您可以在文件中使用占位符，这些占位符将被配置映射中的值替换）， - 可选要在存储桶中的项目上设置的元数据和缓存。 源：地址：“数据”目标：地址：“s3://bucket-name” configMap：段落：“这是公共段落。”标头：“这是公共标头。” fileOptions: common-file.json:cacheControl:no-storeindex.html:cacheControl:no-cachemetadata:some-metadata-key:some-metadata-value上面也可以每个环境定义，并将与全局配置合并。然后你只需运行：buckmate apply和magic发生了:)  如果这对您有用，请尝试一下。 请随意留下评论/问题等。  谢谢！   由   提交/u/bawhee23  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri0jce/buckmate_deploy_to_s3_declaratively/</guid>
+      <pubDate>Sun, 01 Mar 2026 15:47:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>域名迁移后仅对主页建立索引（.io → .ai） - Google 未获取站点地图 URL</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri0g2e/only_homepage_indexed_after_domain_migration_io/</link>
+      <description><![CDATA[我面临着一个奇怪的索引问题，非常感谢一些技术见解。 站点： https://cosmicmeta.ai 迁移： 大约 1 年前从 cosmicmeta.io → cosmicmeta.ai 迁移 迁移之前，.io 域索引正常且快速。 自从迁移到 .ai 后：  仅对主页建立索引 几乎所有博客文章均未建立索引 GSC URL 检查显示：“未检测到引用站点地图” 但 URL 清楚地列出在： https://cosmicmeta.ai/sitemap_index.xml https://cosmicmeta.ai/post-sitemap2.xml   示例网址： https://cosmicmeta.ai/xrp-edges-out-ethereum-in-coinbase-transaction-revenue-as-token-shifts-persist/ URL：  存在于提交的内容中站点地图 返回 200 OK 内部链接 没有 noindex 标记 Robots.txt 允许抓取  但 Google 表示“未检测到引用站点地图”并且不会将其编入索引。 搜索结果： https://www.google.com/search?q=site%3Acosmicmeta.ai 有人在域迁移后遇到过类似的情况吗？这可能是迁移信号问题、站点地图解析问题、规范问题或域级信任问题吗？ 任何有关下一步要检查的内容的指示都会非常重要感谢。 谢谢！   由   提交/u/abutun  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri0g2e/only_homepage_indexed_after_domain_migration_io/</guid>
+      <pubDate>Sun, 01 Mar 2026 15:43:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年组件文件名有何变化？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri05q5/whats_the_move_for_component_filenames_in_2026/</link>
+      <description><![CDATA[最近我看到越来越多的项目在 React 组件中使用 kebab-case.tsx，而不是传统的 PascalCase.tsx。 很好奇现在对此是否有任何真正的共识，或者是否仍然是一个悬而未决的问题。人们是否会改用短横线命名法来避免 Git/CI 区分大小写的问题，还是只是坚持使用 PascalCase 来保持组件与钩子和 utils 的区别？ 现在每个人在他们的项目中实际上在做什么？   由   提交/u/LeninardoDiCaprio  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri05q5/whats_the_move_for_component_filenames_in_2026/</guid>
+      <pubDate>Sun, 01 Mar 2026 15:32:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>专门为实时流编码的开发人员提供的 Discord</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri02kx/dedicated_discord_for_developers_who_live_stream/</link>
+      <description><![CDATA[我认为对于直播编码或工作的开发人员、机器学习、网络安全等来说应该存在不和谐，以便那些想要在直播时加入或在此类空间中闲逛的人可以这样做。   由   提交 /u/godarchmage   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri02kx/dedicated_discord_for_developers_who_live_stream/</guid>
+      <pubDate>Sun, 01 Mar 2026 15:28:51 GMT</pubDate>
+    </item>
     <item>
       <title>简历审核</title>
       <link>https://www.reddit.com/r/webdev/comments/1rhzudt/resume_review/</link>
       <description><![CDATA[      最近被解雇，需要对我的简历提供一些反馈。任何建议都是非常受欢迎的。    由   提交/u/404error_rs   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rhzudt/resume_review/</guid>
       <pubDate>Sun, 01 Mar 2026 15:19:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>在大约 50 个应用程序创建了 vibecoding 之后，这是我的安全检查表，因为人工智能有时有点……粗心！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhzs8n/after_about_50_apps_created_vibecoding_heres_my/</link>
-      <description><![CDATA[去年，我仅使用 Vibecoding 构建了大约 50 个应用程序。我喜欢工作流程。我不会回去。 但在应用程序 #8 周围，我意识到：该模型将自信地创建一个美观、实用但完全不安全的产品。没有人对此进行足够的讨论，所以这就是我现在在每次构建后手动检查的内容。 CAPTCHA/Turnstile 保护：它从不添加它。绝不。在 GPT、Claude、Gemini 或 Cursor 中，没有任何模型会自发地将 Turnstile、reCAPTCHA 或任何机器人保护添加到注册或登录表单中。 它将创建令人惊叹的身份验证流程。您的 /register 端点基本上是机器人的欢迎垫，直到您明确地说“将 Cloudflare Turnstile 添加到此表单”。现在，这是我在启动任何应用程序之前检查的第一件事。 对虚拟数据的依赖是真实存在的，而且相当危险。 模型经过训练是有用的，而“有用”的模型是经过训练的。显然意味着：如果出现故障，则返回假数据，这样用户界面就不会崩溃。 我已经无数次检测到这种模式： LLM API 调用失败 → 返回一个编码字符串，上面写着“这是一个示例响应！” （或者更常见的是，它对响应模板进行硬编码）。 JSON 返回格式错误→默默地交换虚拟对象（也是一个模板，以便应用程序不会崩溃）。 应用程序似乎可以工作。但“幕后”有点危险。 现在我特别告诉代理：“永远不要使用备份或虚拟数据。”如果调用失败，则以指数方式重试，如果仍然失败，则生成可见错误。”然后我继续在代码库中查找“后备”， “假人”。 “嘲笑”。和“占位符”。 我注意到的另一件事是，在给出相同提示的情况下，有时模型会自行生成测试，而有时则完全忽略它们。 我经常检查的其他内容： 环境变量：他们现在做得很好。最新的模型对环境变量的安全性非常严格且非常细致，但为了以防万一，我会仔细检查。 输入清理：它验证表单字段，但忘记服务器端。 过滤客户端敏感信息（例如数据库字段名称）的错误消息。 这并不是对使用 Vibe 编码的批评。 我喜欢 vivicoding，并且我永远不会停止这样做。速度依然惊人。我喜欢它并且不会用它来交换任何东西。我只是说：你必须小心一点！ 问题：完成某个功能或重大重构后，你的清单上有什么？您注意到模型完全忽略了什么？   由   提交 /u/Majestic-Owl-44   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhzs8n/after_about_50_apps_created_vibecoding_heres_my/</guid>
-      <pubDate>Sun, 01 Mar 2026 15:17:11 GMT</pubDate>
     </item>
     <item>
       <title>我建立了一个国际象棋网站，您可以在其中设置简单的英语规则来限制哪些动作是合法的 - 对您、引擎或两者而言。</title>
@@ -27,27 +97,6 @@
       <pubDate>Sun, 01 Mar 2026 14:55:31 GMT</pubDate>
     </item>
     <item>
-      <title>我开发了一个应用程序，毁了我的海滩时光</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhymc9/i_built_an_app_that_ruins_my_beach_days/</link>
-      <description><![CDATA[      当我在海滩上放松时，在 X 上随意滚动末日滚动时，我厌倦了发现云提供商出现故障。因此，我将 Pingy 构建为一个有趣的副项目，每当云提供商遇到中断或性能下降时，它都会向我发送推送通知。  AWS、Cloudflare、Azure、Stripe 等 50 多个都被跟踪。我刚刚把它推到了 App Store！如果你像我一样偏执，那么我想你会喜欢“Pingy”的。在应用商店中。   由   提交/u/eureka_boy  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhymc9/i_built_an_app_that_ruins_my_beach_days/</guid>
-      <pubDate>Sun, 01 Mar 2026 14:28:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费/廉价的 SERP API 获取谷歌搜索趋势</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhy5bj/freecheap_serp_api_to_get_google_search_trends/</link>
-      <description><![CDATA[正如标题所示，我需要一个免费/便宜的 API 来检查 Google 趋势。有什么建议吗？   由   提交 /u/moderation_seeker   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhy5bj/freecheap_serp_api_to_get_google_search_trends/</guid>
-      <pubDate>Sun, 01 Mar 2026 14:07:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能记事本真的能与微软团队很好地合作吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhy3wn/ai_notetakers_that_actually_work_well_with/</link>
-      <description><![CDATA[我需要为 200 多个用户提供合适的管理控件，这实际上对团队很友好，因为大多数似乎都针对 Google 或 Zoom 进行了优化。大型团队使用什么？   由   提交 /u/AccountEngineer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhy3wn/ai_notetakers_that_actually_work_well_with/</guid>
-      <pubDate>Sun, 01 Mar 2026 14:05:55 GMT</pubDate>
-    </item>
-    <item>
       <title>Astro 是 React 还是 Svelte？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rhxng0/astro_with_react_or_svelte/</link>
       <description><![CDATA[大家好，我目前开始自由职业，制作仅营销前端类型的网站。我的设计外观是制作看起来像框架网站的很酷的网站，但我对其进行了自定义编码！ 我的问题是我无法决定在 astro 中使用什么，我应该对这些类型的网站使用 React 还是 svelte？ 我想最终开始通过创办自己的代理类型小企业来使其成为主要收入来源。如果客户需要 cms，那么我将使用 sanity，在 cloudflare 上托管 ssg 站点！ 那么这里最好的建议是什么？我过去曾使用过这两个框架，但我想知道对于这些类型的网站我应该关注哪一个？   由   提交/u/HectoLogic20  [链接] [评论]]]></description>
@@ -55,60 +104,11 @@
       <pubDate>Sun, 01 Mar 2026 13:45:30 GMT</pubDate>
     </item>
     <item>
-      <title>通过 REST API 从您的应用程序发送 WhatsApp 消息 — 无需 Meta 批准（免费套餐）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhxjy6/send_whatsapp_messages_from_your_app_via_rest_api/</link>
-      <description><![CDATA[如果您曾经尝试将 WhatsApp 消息添加到网络应用程序中，您就会知道官方 API 很痛苦。业务验证、元业务管理器、审批队列、每条消息费用。 我构建了一个更简单的替代方案： python requests.post( &quot;https://whatsapp-messaging-bot.p.rapidapi.com/v1/sendText&quot;, json={&quot;chatId&quot;: &quot;14155552671&quot;, &quot;text&quot;: &quot;Hello!&quot;, &quot;session&quot;: &quot;my-session&quot; }, headers={&quot;x-rapidapi-key&quot;: &quot;YOUR_KEY&quot;} )  这就是整个集成。在 JS、PHP、Go 中的工作方式相同，无论您使用什么。 支持：文本、图像、文件、语音、位置、反应、组、频道、具有 HMAC 身份验证的 Webhooks。 免费计划：RapidAPI 上每月 100 个请求。 文档 + 示例：whatsapp-messaging.retentionstack.agency 将此作为一个副项目构建。很高兴回答问题。   由   提交/u/jevil257  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhxjy6/send_whatsapp_messages_from_your_app_via_rest_api/</guid>
-      <pubDate>Sun, 01 Mar 2026 13:40:47 GMT</pubDate>
-    </item>
-    <item>
       <title>CS50x 和 cs50p 之后的学生路线图 — 寻求经验丰富的开发人员的反馈。你会如何构建它？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rhwp96/student_roadmap_after_cs50x_and_cs50p_looking_for/</link>
       <description><![CDATA[CS50x（已完成） ↓ CS50P（即将完成） ↓ CS50 Web 开发 ├──→ CS50 AI ├──→ CS50 网络安全 ├──→ MIT 缺失学期 └──→ 全栈开放（赫尔辛基） 并行学习  Git &amp; GitHub（我了解非常基础的知识） 开源贡献 真实世界项目（我已经制作了 4 - 5 个全栈项目） AI 代理和人工智能代理工具（我已经广泛使用，但不知道如何有效地使用它们） 机器学习（只是好奇心驱动） Leet Code &amp;黑客等级（完成了 115psets 的黑客等级 python 和 5 - 6 的 leet 代码） 参加黑客马拉松  我在 cs50 Web 开发之后的过渡很好吗？   由   提交 /u/Important_Whole_4963   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rhwp96/student_roadmap_after_cs50x_and_cs50p_looking_for/</guid>
       <pubDate>Sun, 01 Mar 2026 13:00:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个部署平台，因为我厌倦了部署自己的项目</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhw8o7/i_built_a_deployment_platform_because_i_got_tired/</link>
-      <description><![CDATA[       https://preview.redd.it/xsbrtfsphfmg1.png?width=3360&amp;format=png&amp;auto=webp&amp;s=0ea5a17cff63a30cd88a09532bc3019cf8c01953 过去几个月我一直在构建一个部署平台，并最终将其公开。 我是一名独立开发人员，诚实地构建了这个平台，因为我在部署自己的全栈项目时一直感到沮丧。每次这意味着要处理服务器、配置、随机错误并浪费时间只是为了让某些东西上线。 所以我开始为自己构建一些东西，我可以上传一个项目并让它运行而不会遇到任何麻烦。 它被称为 Riven。 您可以上传一个全栈或 MERN 项目，它会自动安装和构建，显示实时部署日志，为您提供实时 URL，并让您连接自己的域。我们的目标是让部署变得简单而不是有压力。 现在还为时过早，我每天都会根据反馈进行改进。我不是一个公司或团队，只是单独构建这个并试图让像我这样的开发人员部署更顺利。 如果你尝试它并且感觉有些混乱或中断，我真的很想知道，以便我可以改进它。 附有演示视频。 - https://rivendeploy.com   由   提交 /u/Tall-Amphibian4159   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhw8o7/i_built_a_deployment_platform_because_i_got_tired/</guid>
-      <pubDate>Sun, 01 Mar 2026 12:36:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>每月入门/Web 开发职业主题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhvl5m/monthly_getting_started_web_dev_career_thread/</link>
-      <description><![CDATA[由于有关此主题的问题不断涌入，我们决定每月提交一个专门讨论此主题的帖子，以减少有关此主题的重复帖子的数量。这些类型的帖子将不再允许在主线程中发布。 其中许多问题也在子常见问题解答中得到解决，或者可能在以前的每月职业线程中提出。 专门针对这些类型的子问题问题包括针对一般性和开放式职业问题的 r/cscareerquestions 和针对早期学习问题的 r/learnprogramming。 学习为行业做好准备的主题的一般建议包括：  HTML/CSS/JS 训练营 版本控制 自动化 前端框架(React/Vue/Etc) API 和 CRUD 测试（单元和集成） 常见设计模式  您还需要包含您构建的 4-5 个个人项目的作品集，以及用于申请工作的简历。 在申请工作之前，为您的作品集计划 6-12 个月的自学和项目制作。   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhvl5m/monthly_getting_started_web_dev_career_thread/</guid>
-      <pubDate>Sun, 01 Mar 2026 12:00:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>刚刚推出了我的投资组合。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhuqd7/just_launched_my_portfolio/</link>
-      <description><![CDATA[      我最近对我的作品集进行了重大更新，改进了视觉方向和整体体验，以更好地反映我的设计方法和个人兴趣。   由   提交/u/its_me_Aadi   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhuqd7/just_launched_my_portfolio/</guid>
-      <pubDate>Sun, 01 Mar 2026 11:10:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Seeksy - FOSS 桌面搜索工具，类似于适用于 Windows 和 Linux 的 MacOS 的 Spotlight</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhupqk/seeksy_foss_desktop_search_tool_like_macos/</link>
-      <description><![CDATA[      TL;DR: Seeksy 是一款快速、跨平台、可配置的桌面搜索工具，与 MacOS Spotlight 不同，非常适合快速查找文件、启动应用程序和选择表情符号。设置要索引的文件夹，它就可以工作了。 关于应用程序 我想要一个快速、轻量级的 Spotlight 替代方案，可以在 Windows 和 Linux Mint 上使用，因为我想要在 Linux 上进行桌面搜索，并在 Windows 上进行实际工作的搜索。 因此我编写了 Seeksy，这是一个可调用的桌面搜索实用程序，用于快速查找文件、应用程序和表情符号（因为 Wayland 在 Linux 上查找文件、应用程序和表情符号给我带来了麻烦）我错过了快速选择器的“Win+”快捷方式。 在后台无缝运行，准备使用Ctrl + Space（默认快捷方式）打开。通过设置菜单完全可自定义，可通过齿轮图标或托盘图标的上下文菜单访问。 也许其他人也可能会发现这个工具很有用，所以就用吧。 等等..但这与您可能会问的 r/webdev 有何关系？因为这个东西运行在 Electron 上（我知道）。然而，其资源友好性令人惊讶，空闲时仅需要 100MB RAM。 亮点  通用搜索 - 从单个可调用的搜索界面搜索文件、文件夹、应用程序和表情符号。您设置要索引的文件夹，它只考虑这些文件夹。一切尽在您的掌控之中。 多平台支持 - 适用于 Windows 和 Linux，甚至是 Mac。 应用程序启动器 - 自动检测所有应用程序和已安装的游戏（初始索引可能需要几秒钟） 收藏夹系统 - 将常用项目标记为收藏夹以便快速访问 可自定义设置 - 在深色/浅色模式、强调色和可配置搜索快捷方式之间进行选择（默认：Ctrl + 空格）  完全开源：https://github.com/andreasjhagen/Seeksy/   由   提交/u/Odysseyan   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhupqk/seeksy_foss_desktop_search_tool_like_macos/</guid>
-      <pubDate>Sun, 01 Mar 2026 11:09:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] 使用 React + Express 构建了一个评论聚合器 - 希望获得技术反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhuot7/showoff_saturday_built_a_review_aggregator_with/</link>
-      <description><![CDATA[嘿，开发者们！ 我一直在从事一个业余项目，非常感谢一些技术反馈。 **该项目：** ReviewCruncher - 聚合来自多个来源（YouTube、Reddit、X/Twitter、Google）的产品评论，并使用人工智能将它们合成为一个结论。 **技术堆栈：** - 前端：React 19、TypeScript - 后端：Express.js - AI：用于合成的 OpenAI GPT-4 - 数据源：YouTube API、自定义抓取工具、用于 X 的 Bird CLI **现场演示：** https://reviewcruncher.com **我希望获得以下反馈：** 1. UX/UI - 流程是否直观？ 2. 性能 - API 调用可能很慢，有什么优化建议吗？ 3. 架构 - 目前一切都是服务器端渲染合成，考虑转向流媒体 **已知问题：** - Reddit API 目前已损坏（身份验证问题） - 移动响应能力可能会更好 非常感谢任何反馈、推荐或建议。很高兴回答有关实施的问题！ 谢谢！ 🙏   由   提交 /u/Gniederlaender   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhuot7/showoff_saturday_built_a_review_aggregator_with/</guid>
-      <pubDate>Sun, 01 Mar 2026 11:08:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是针对 CSRF 的完整防御吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhum84/would_this_be_a_complete_defence_against_csrf/</link>
-      <description><![CDATA[我的理解是（如果我错了，请纠正我）CSRF 可以通过 cookie 中的 SOP=strict 被完全击败。然而，这可能会造成糟糕的用户体验，因为当您从另一个网站访问该网站时，该网站将无法识别您。 您能用两个令牌（一个宽松，一个严格）击败 CSRF 吗？ Lax 令牌仅用于 GET 请求，永远不会改变任何内容。严格令牌将用于 POST、PATCH、PUT、DELETE。   由   提交/u/pencilUserWho   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhum84/would_this_be_a_complete_defence_against_csrf/</guid>
-      <pubDate>Sun, 01 Mar 2026 11:04:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
