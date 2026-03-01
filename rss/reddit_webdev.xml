@@ -4,11 +4,74 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 01 Mar 2026 12:39:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 15:20:00 GMT</lastBuildDate>
+    <item>
+      <title>简历审核</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhzudt/resume_review/</link>
+      <description><![CDATA[      最近被解雇，需要对我的简历提供一些反馈。任何建议都是非常受欢迎的。    由   提交/u/404error_rs   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhzudt/resume_review/</guid>
+      <pubDate>Sun, 01 Mar 2026 15:19:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>在大约 50 个应用程序创建了 vibecoding 之后，这是我的安全检查表，因为人工智能有时有点……粗心！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhzs8n/after_about_50_apps_created_vibecoding_heres_my/</link>
+      <description><![CDATA[去年，我仅使用 Vibecoding 构建了大约 50 个应用程序。我喜欢工作流程。我不会回去。 但在应用程序 #8 周围，我意识到：该模型将自信地创建一个美观、实用但完全不安全的产品。没有人对此进行足够的讨论，所以这就是我现在在每次构建后手动检查的内容。 CAPTCHA/Turnstile 保护：它从不添加它。绝不。在 GPT、Claude、Gemini 或 Cursor 中，没有任何模型会自发地将 Turnstile、reCAPTCHA 或任何机器人保护添加到注册或登录表单中。 它将创建令人惊叹的身份验证流程。您的 /register 端点基本上是机器人的欢迎垫，直到您明确地说“将 Cloudflare Turnstile 添加到此表单”。现在，这是我在启动任何应用程序之前检查的第一件事。 对虚拟数据的依赖是真实存在的，而且相当危险。 模型经过训练是有用的，而“有用”的模型是经过训练的。显然意味着：如果出现故障，则返回假数据，这样用户界面就不会崩溃。 我已经无数次检测到这种模式： LLM API 调用失败 → 返回一个编码字符串，上面写着“这是一个示例响应！” （或者更常见的是，它对响应模板进行硬编码）。 JSON 返回格式错误→默默地交换虚拟对象（也是一个模板，以便应用程序不会崩溃）。 应用程序似乎可以工作。但“幕后”有点危险。 现在我特别告诉代理：“永远不要使用备份或虚拟数据。”如果调用失败，则以指数方式重试，如果仍然失败，则生成可见错误。”然后我继续在代码库中查找“后备”， “假人”。 “嘲笑”。和“占位符”。 我注意到的另一件事是，在给出相同提示的情况下，有时模型会自行生成测试，而有时则完全忽略它们。 我经常检查的其他内容： 环境变量：他们现在做得很好。最新的模型对环境变量的安全性非常严格且非常细致，但为了以防万一，我会仔细检查。 输入清理：它验证表单字段，但忘记服务器端。 过滤客户端敏感信息（例如数据库字段名称）的错误消息。 这并不是对使用 Vibe 编码的批评。 我喜欢 vivicoding，并且我永远不会停止这样做。速度依然惊人。我喜欢它并且不会用它来交换任何东西。我只是说：你必须小心一点！ 问题：完成某个功能或重大重构后，你的清单上有什么？您注意到模型完全忽略了什么？   由   提交 /u/Majestic-Owl-44   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhzs8n/after_about_50_apps_created_vibecoding_heres_my/</guid>
+      <pubDate>Sun, 01 Mar 2026 15:17:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>我建立了一个国际象棋网站，您可以在其中设置简单的英语规则来限制哪些动作是合法的 - 对您、引擎或两者而言。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhz934/i_built_a_chess_site_where_you_can_set_plain/</link>
+      <description><![CDATA[在评论中分享您自己的挑战，您可以单击“共享挑战”以获得可共享的网址。 仍处于早期阶段，如果出现问题，希望能提供有关不和谐的反馈。   由   提交/u/sum_sanger  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhz934/i_built_a_chess_site_where_you_can_set_plain/</guid>
+      <pubDate>Sun, 01 Mar 2026 14:55:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开发了一个应用程序，毁了我的海滩时光</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhymc9/i_built_an_app_that_ruins_my_beach_days/</link>
+      <description><![CDATA[      当我在海滩上放松时，在 X 上随意滚动末日滚动时，我厌倦了发现云提供商出现故障。因此，我将 Pingy 构建为一个有趣的副项目，每当云提供商遇到中断或性能下降时，它都会向我发送推送通知。  AWS、Cloudflare、Azure、Stripe 等 50 多个都被跟踪。我刚刚把它推到了 App Store！如果你像我一样偏执，那么我想你会喜欢“Pingy”的。在应用商店中。   由   提交/u/eureka_boy  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhymc9/i_built_an_app_that_ruins_my_beach_days/</guid>
+      <pubDate>Sun, 01 Mar 2026 14:28:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>免费/廉价的 SERP API 获取谷歌搜索趋势</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhy5bj/freecheap_serp_api_to_get_google_search_trends/</link>
+      <description><![CDATA[正如标题所示，我需要一个免费/便宜的 API 来检查 Google 趋势。有什么建议吗？   由   提交 /u/moderation_seeker   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhy5bj/freecheap_serp_api_to_get_google_search_trends/</guid>
+      <pubDate>Sun, 01 Mar 2026 14:07:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能记事本真的能与微软团队很好地合作吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhy3wn/ai_notetakers_that_actually_work_well_with/</link>
+      <description><![CDATA[我需要为 200 多个用户提供合适的管理控件，这实际上对团队很友好，因为大多数似乎都针对 Google 或 Zoom 进行了优化。大型团队使用什么？   由   提交 /u/AccountEngineer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhy3wn/ai_notetakers_that_actually_work_well_with/</guid>
+      <pubDate>Sun, 01 Mar 2026 14:05:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Astro 是 React 还是 Svelte？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhxng0/astro_with_react_or_svelte/</link>
+      <description><![CDATA[大家好，我目前开始自由职业，制作仅营销前端类型的网站。我的设计外观是制作看起来像框架网站的很酷的网站，但我对其进行了自定义编码！ 我的问题是我无法决定在 astro 中使用什么，我应该对这些类型的网站使用 React 还是 svelte？ 我想最终开始通过创办自己的代理类型小企业来使其成为主要收入来源。如果客户需要 cms，那么我将使用 sanity，在 cloudflare 上托管 ssg 站点！ 那么这里最好的建议是什么？我过去曾使用过这两个框架，但我想知道对于这些类型的网站我应该关注哪一个？   由   提交/u/HectoLogic20  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhxng0/astro_with_react_or_svelte/</guid>
+      <pubDate>Sun, 01 Mar 2026 13:45:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过 REST API 从您的应用程序发送 WhatsApp 消息 — 无需 Meta 批准（免费套餐）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhxjy6/send_whatsapp_messages_from_your_app_via_rest_api/</link>
+      <description><![CDATA[如果您曾经尝试将 WhatsApp 消息添加到网络应用程序中，您就会知道官方 API 很痛苦。业务验证、元业务管理器、审批队列、每条消息费用。 我构建了一个更简单的替代方案： python requests.post( &quot;https://whatsapp-messaging-bot.p.rapidapi.com/v1/sendText&quot;, json={&quot;chatId&quot;: &quot;14155552671&quot;, &quot;text&quot;: &quot;Hello!&quot;, &quot;session&quot;: &quot;my-session&quot; }, headers={&quot;x-rapidapi-key&quot;: &quot;YOUR_KEY&quot;} )  这就是整个集成。在 JS、PHP、Go 中的工作方式相同，无论您使用什么。 支持：文本、图像、文件、语音、位置、反应、组、频道、具有 HMAC 身份验证的 Webhooks。 免费计划：RapidAPI 上每月 100 个请求。 文档 + 示例：whatsapp-messaging.retentionstack.agency 将此作为一个副项目构建。很高兴回答问题。   由   提交/u/jevil257  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhxjy6/send_whatsapp_messages_from_your_app_via_rest_api/</guid>
+      <pubDate>Sun, 01 Mar 2026 13:40:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>CS50x 和 cs50p 之后的学生路线图 — 寻求经验丰富的开发人员的反馈。你会如何构建它？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rhwp96/student_roadmap_after_cs50x_and_cs50p_looking_for/</link>
+      <description><![CDATA[CS50x（已完成） ↓ CS50P（即将完成） ↓ CS50 Web 开发 ├──→ CS50 AI ├──→ CS50 网络安全 ├──→ MIT 缺失学期 └──→ 全栈开放（赫尔辛基） 并行学习  Git &amp; GitHub（我了解非常基础的知识） 开源贡献 真实世界项目（我已经制作了 4 - 5 个全栈项目） AI 代理和人工智能代理工具（我已经广泛使用，但不知道如何有效地使用它们） 机器学习（只是好奇心驱动） Leet Code &amp;黑客等级（完成了 115psets 的黑客等级 python 和 5 - 6 的 leet 代码） 参加黑客马拉松  我在 cs50 Web 开发之后的过渡很好吗？   由   提交 /u/Important_Whole_4963   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rhwp96/student_roadmap_after_cs50x_and_cs50p_looking_for/</guid>
+      <pubDate>Sun, 01 Mar 2026 13:00:20 GMT</pubDate>
+    </item>
     <item>
       <title>我构建了一个部署平台，因为我厌倦了部署自己的项目</title>
       <link>https://www.reddit.com/r/webdev/comments/1rhw8o7/i_built_a_deployment_platform_because_i_got_tired/</link>
-      <description><![CDATA[       https://preview.redd.it/xsbrtfsphfmg1.png?width=3360&amp;format=png&amp;auto=webp&amp;s=0ea5a17cff63a30cd88a09532bc3019cf8c01953 过去几个月我一直在构建一个部署平台，并最终将其公开。 我是一名独立开发人员，诚实地构建了这个平台，因为我在部署自己的全栈项目时一直感到沮丧。每次这意味着要处理服务器、配置、随机错误并浪费时间只是为了让某些东西上线。 所以我开始为自己构建一些东西，我可以上传一个项目并让它运行而不会遇到任何麻烦。 它被称为 Riven。 您可以上传一个全栈或 MERN 项目，它会自动安装和构建，显示实时部署日志，为您提供实时 URL，并让您连接自己的域。我们的目标是让部署变得简单而不是有压力。 现在还为时过早，我每天都会根据反馈进行改进。我不是一个公司或团队，只是单独构建这个，并试图让像我这样的开发人员部署更顺利。 如果您尝试后感觉有些混乱或损坏，我真的想知道，以便我可以改进它。 附有演示视频。 https://rivendeploy.com   由   提交 /u/Tall-Amphibian4159   [链接] [评论] ]]></description>
+      <description><![CDATA[       https://preview.redd.it/xsbrtfsphfmg1.png?width=3360&amp;format=png&amp;auto=webp&amp;s=0ea5a17cff63a30cd88a09532bc3019cf8c01953 过去几个月我一直在构建一个部署平台，并最终将其公开。 我是一名独立开发人员，诚实地构建了这个平台，因为我在部署自己的全栈项目时一直感到沮丧。每次这意味着要处理服务器、配置、随机错误并浪费时间只是为了让某些东西上线。 所以我开始为自己构建一些东西，我可以上传一个项目并让它运行而不会遇到任何麻烦。 它被称为 Riven。 您可以上传一个全栈或 MERN 项目，它会自动安装和构建，显示实时部署日志，为您提供实时 URL，并让您连接自己的域。我们的目标是让部署变得简单而不是有压力。 现在还为时过早，我每天都会根据反馈进行改进。我不是一个公司或团队，只是单独构建这个并试图让像我这样的开发人员部署更顺利。 如果你尝试它并且感觉有些混乱或中断，我真的很想知道，以便我可以改进它。 附有演示视频。 - https://rivendeploy.com   由   提交 /u/Tall-Amphibian4159   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rhw8o7/i_built_a_deployment_platform_because_i_got_tired/</guid>
       <pubDate>Sun, 01 Mar 2026 12:36:41 GMT</pubDate>
     </item>
@@ -46,69 +109,6 @@
       <description><![CDATA[我的理解是（如果我错了，请纠正我）CSRF 可以通过 cookie 中的 SOP=strict 被完全击败。然而，这可能会造成糟糕的用户体验，因为当您从另一个网站访问该网站时，该网站将无法识别您。 您能用两个令牌（一个宽松，一个严格）击败 CSRF 吗？ Lax 令牌仅用于 GET 请求，永远不会改变任何内容。严格令牌将用于 POST、PATCH、PUT、DELETE。   由   提交/u/pencilUserWho   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rhum84/would_this_be_a_complete_defence_against_csrf/</guid>
       <pubDate>Sun, 01 Mar 2026 11:04:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web 开发人员对隐私问题的看法？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhud4a/privacy_concern_thoughts_of_a_web_developer/</link>
-      <description><![CDATA[      20天前我在askreddit上与普通人开始了这个讨论。作为一名网络开发人员，我想了解一下你们的想法    由   提交/u/srimahere  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhud4a/privacy_concern_thoughts_of_a_web_developer/</guid>
-      <pubDate>Sun, 01 Mar 2026 10:49:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建自定义可视节点编辑器并遇到布局/节点系统问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhu1n1/building_a_custom_visual_node_editor_and_having/</link>
-      <description><![CDATA[大家好，我正在构建一个图形编辑器，用于直观地构建 Minecraft 插件。它是一个自定义图形编辑器，具有：  类型化端口 + 可转换性规则（Spigot 类注册表） 流与数据端口 自定义捕捉（包括“无线”直接链接） 循环范围 + 分支句柄 WebGL 渲染线以提高性能 动态“通用”连接节点会根据用例动态改变其行为  编辑器中存在很多不一致和错误。我一直很难为端口连接和自定义节点形状创建强大的系统。性能也是一个大问题 我正在考虑停止使用我的自定义 WebGL 渲染器和节点渲染/创建逻辑，以开始使用库/框架。我无法决定是否要保留我的自定义内容或切换到更强大的库/框架以提供更稳定的用户体验体验。我有点担心使用库/框架可能会剥夺我想要的一些动态功能 我见过 x6、React flow、GoJS，但无法确定它们是否适合我的需求 在这种情况下你会做什么？什么库/框架适合我的用例（AST + CFG + DFG）？   由   提交 /u/OrbiForge   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhu1n1/building_a_custom_visual_node_editor_and_having/</guid>
-      <pubDate>Sun, 01 Mar 2026 10:29:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个假 Gmail，秘密播放板球比赛直播。当你的老板走过时，按 Esc 键将其隐藏。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rht8p3/built_a_fake_gmail_that_secretly_shows_live/</link>
-      <description><![CDATA[   此处 - https://cricinfo-mail.vercel.app 您的收件箱 = 实时比赛。单击电子邮件 = 记分卡。现场比赛获得带有逐球评论的回复线索 - 每场比赛都是一个“回复”来自投球手。 老板来了？按退出键。收件箱变成了假工作电子邮件。 再次按 Esc 键，您将回到比赛。 很想知道你们的想法！   由   提交/u/Kind-Bottle-7712   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rht8p3/built_a_fake_gmail_that_secretly_shows_live/</guid>
-      <pubDate>Sun, 01 Mar 2026 09:41:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>非营利交付平台是否可行？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhsxlz/is_a_nonprofit_delivery_platform_viable/</link>
-      <description><![CDATA[目标是最大限度地提高顾客、商家和快递员的利益。 食品配送平台将自主运营，通过捐赠或严格设计的最低佣金来维持运营成本。 争议解决将在相关各方（顾客-商家或商家-快递员）之间直接处理，有效消除不必要的中介机构。 生态系统的自我监管将依赖于严格的评级系统：任何有严重报告或低分的参与者都会被自动停用（尽管我怀疑这里有一个缺陷：商家可能会付钱给一群人来“审查炸弹”并消除竞争）。 为了确保安全，入职和文档验证过程将是唯一由外部实体（管理员）管理的阶段，并且需要一次性管理费。 不会有营销费用。 每个商家都会预先说明如果包裹在运输过程中损坏或丢失，他们是否承担退款责任。 虽然这个想法并不寻求经济利润，但此类项目的技术和社会价值有可能改变当前市场 - 而且它在简历上会看起来很棒;)   由   提交 /u/PrintMean7254   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhsxlz/is_a_nonprofit_delivery_platform_viable/</guid>
-      <pubDate>Sun, 01 Mar 2026 09:22:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>我不断重建我的投资组合……所以我建立了一个 CMS</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhsno2/i_kept_rebuilding_my_portfolio_so_i_built_a_cms/</link>
-      <description><![CDATA[多年来，每次我更新我的作品集时，我最终都会编辑代码只是为了更改内容。 新项目？代码变更。更新体验？代码更改。重新排序技能？代码更改。 感觉不对。 因此，我专门为开发人员组合构建了一个小型 CMS。 主要思想：  内容管理面板 完全可定制的前端 使用 Next.js + Payload 构建 结构化，使 UI 保持灵活  最大的教训： 开发人员想要控制，但不想在代码中进行重复的内容编辑。 我很好奇： 您更喜欢静态投资组合模板，还是 CMS 驱动的东西？ 想要诚实的想法。   由   提交 /u/dvsxdev   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhsno2/i_kept_rebuilding_my_portfolio_so_i_built_a_cms/</guid>
-      <pubDate>Sun, 01 Mar 2026 09:05:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为 MUI 项目构建了一个主题生成器/编辑器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhsky3/i_built_a_theme_generatoreditor_for_mui_projects/</link>
-      <description><![CDATA[      链接：https://petertyliu.github.io/mui-theme-builder/ Github 仓库：https://github.com/PeterTYLiu/mui-theme-builder   由   提交/u/Trayja_Peter  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhsky3/i_built_a_theme_generatoreditor_for_mui_projects/</guid>
-      <pubDate>Sun, 01 Mar 2026 09:00:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为独立开发者在 3 个月内构建了 5 个产品，这是堆栈和错误</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhsd4y/built_5_products_in_3_months_as_a_solo_dev_heres/</link>
-      <description><![CDATA[我想分享一下技术方面的内容，因为这里经常出现堆栈问题。 我同时建立了一家 WordPress 插件公司。四个插件和一个 SaaS 结帐流程，大约 3 个月的晚上和周末。不是全职做这件事。 这些插件都是纯 PHP、单文件架构。每个文件的长度都在 800 到 2400 行之间。没有 npm，没有构建步骤，没有外部依赖项。我故意选择单文件，因为 WordPress.org 审阅者是阅读您代码的实际人员。一个具有清晰注释块的组织文件比多目录结构更容易通过审查。第一个插件进行了 6 轮审核。第二个花了 3。我认为更简单的结构有所帮助。 每个插件都使用 JSON-LD 输出、24 小时瞬态缓存、用于管理屏幕的 WordPress 设置 API 以及用于 Pro 许可的 Freemius SDK。 营销网站 (cirvgreen.com) 是 Astro with Tailwind，托管在 Cloudflare Pages 上。 Astro 是一个不错的选择。整个网站编译为静态 HTML，无需服务器，Cloudflare 通过其 CDN 提供服务。构建时间只需几秒钟。 对于付款，我在 Render 的免费层上有一个 Express.js API，用于创建 Stripe Checkout 会话并处理 Webhook。当没有人购买时它会停止运转，并在第一个请求时唤醒。可能会增加 2-3 秒的冷启动延迟，这不太好，但对于一天最多出现几次的结帐流程，我可以忍受。 Freemius 完全由他们来处理插件结帐。他们的 JS SDK 打开一个弹出窗口，收集付款，颁发许可证密钥。我不接触任何服务器端。 我会做不同的事情：我会完全跳过 Express API 并使用 Stripe Payment Links。我构建服务器是因为我想要有关购买和收据发票创建的自定义元数据，但付款链接可能可以在零后端的情况下处理其中的 90%。过度设计了。 我还会同时向 WordPress.org 提交所有四个插件，而不是等待每个插件先获得批准。他们一次审查一项，每次审查 10-14 天。我不知道这一点，最终导致了几个月的排队时间，这是我本可以避免的。 每月总费用：约 15 美元。其中大部分是渲染。如果我将结帐 API 移至 Cloudflare Worker，可能会达到 0 美元，但我还没有打扰。   由   提交 /u/SearchFlashy9801   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhsd4y/built_5_products_in_3_months_as_a_solo_dev_heres/</guid>
-      <pubDate>Sun, 01 Mar 2026 08:47:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助我改进您的网络代理堆栈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhs3z9/help_me_improve_your_webagency_stack/</link>
-      <description><![CDATA[我正在创建一个 SaaS 平台，能够以优惠的价格为网络机构处理大量集成。 我个人已经削减了 4 个用于运营我的网络机构的 SaaS/工具，现在我正在对 SaaS 平台进行白标处理，这样我就可以将其卖给你们这些优秀的人。 我因为自己是丹麦人而有偏见 - 所以我在心理上映射到丹麦语工具和服务，我想知道你们正在使用什么，这样我就可以与之集成并将其抽象出来，这样你们也可以砍掉当前堆栈中的 3-4 个工具。 具体来说，我想知道：  您是否使用任何会计服务 - 例如喜欢xero？如果是的话，您实际使用什么服务以及它们提供的功能 您是否使用任何时间跟踪服务，例如预付费聘用费/工时 - 例如像时钟化？如果是的话，您实际使用它们提供的服务和功能 您目前如何制作/发送报价、发票以及接受付款/订阅 - 例如条纹 ？您正在做什么来提供支付功能并向客户发出相关文件 您目前如何处理设计修改 - 设计签字 - 客户持续参与正在开发的设计？ - 例如只是使用Figma和导出或者你目前如何处理这个问题。  我希望你能帮助我，帮助你提高工作效率，作为一种感激之情，一旦我准备好在这个子上为测试人员发布，当然将包括一些终生折扣/福利结构。 这不是商业或广告，我没有提到我的产品或网站或任何当前可能有利于销售的东西，真诚地这篇文章只是对此目标的市场研究观众。 谢谢大家。   由   提交 /u/RobertSkaar   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhs3z9/help_me_improve_your_webagency_stack/</guid>
-      <pubDate>Sun, 01 Mar 2026 08:31:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用什么类型的视频播放器？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rhry84/what_type_of_video_player_is_used/</link>
-      <description><![CDATA[      我查看的网站是 https://24slides.com/presentation-services 他们出售侧甲板服务。  我想看看是否有人知道如何找到他们正在使用的视频播放器的类型。   由   提交 /u/13-months   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rhry84/what_type_of_video_player_is_used/</guid>
-      <pubDate>Sun, 01 Mar 2026 08:21:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
