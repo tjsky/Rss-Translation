@@ -4,7 +4,21 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Mon, 02 Mar 2026 06:51:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 09:42:38 GMT</lastBuildDate>
+    <item>
+      <title>我测试了 Peec AI、Otterly、Goodie AI、LLMClicks、AthenaHQ、Profound 等 以下是我对 AI 可见性的了解</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rioer7/i_tested_peec_ai_otterly_goodie_ai_llmclicks/</link>
+      <description><![CDATA[在过去的几个月里，我一直在尝试 Peec AI、Otterly、Goodie AI、LLMClicks、AthenaHQ、Profound、Rankscale 和 Knowatoa 等平台，这些平台声称可以测量 ChatGPT、Claude、Gemini 和 Perplexity 等系统内的“AI 可见性”。 我不隶属于其中任何一个，只是想了解如何做到这一点这个类别确实很有意义。 根据我的观察，大多数这些平台的工作原理是：  向法学硕士发送结构化提示 检查某个品牌是否被提及 将频率与竞争对手进行比较 跟踪一段时间内的变化 创建某种形式的可见性或实体评分  这提出了一些我会提出的技术问题喜欢这个社区的意见。 这些平台是衡量模型知识还是提示敏感性吗？ 研究表明，LLM 的输出对提示措辞和框架高度敏感。例如：  “最佳本地 SEO 平台”与 “机构用于 GMB 管理的顶级工具”  可以产生截然不同的输出。 关于提示敏感性的相关研究：  https://arxiv.org/abs/2108.10014（语言模型是少样本学习者） https://arxiv.org/abs/2305.10403（提示技术和可变性）  因此，当可见度分数每周波动时，是模型知识发生变化还是只是提示响应差异？ AI 品牌提及与相关吗流量？ 传统 SEO 提供可衡量的信号（Search Console、点击率、展示次数等）。 Google Search Console 文档： [https://support.google.com/webmasters/answer/9128668]() 但对于基于 LLM 的界面：  没有官方排名控制台 没有标准化的展示指标 没有明确的归因路径  在我的测试中，AI 输出中品牌提及的增加并不始终与流量峰值或转化变化相关。 这并不意味着它没有用，它可能反映出：  实体清晰度 品牌定位优势 知识图谱对齐  但我还没有看到强烈的直接投资回报率信号。 我们早在搜索控制台时代之前吗？ 这让我想起了标准化跟踪框架之前的早期网络分析。 有关模型如何生成响应的 OpenAI 文档： https://platform.openai.com/docs/guides/text- Generation Perplexity 基于引用的答案的方法： https://www.perplexity.ai/ 鉴于 LLM 系统依赖于检索、嵌入和概率生成，衡量其中的“排名”可能与搜索引擎排名系统有根本的不同。 我观察到的积极因素  对于竞争对手的叙述分析很有用 有助于识别不明确的定位 可以暴露薄弱的实体关联 良好的内部策略对话启动器  我的局限性经验丰富  定价差异较大，但没有比例洞察力差异 对提示措辞具有很强的敏感性 ChatGPT、Claude、Gemini 之间的模型可变性 没有标准化报告层    由   提交/u/Real-Assist1833  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rioer7/i_tested_peec_ai_otterly_goodie_ai_llmclicks/</guid>
+      <pubDate>Mon, 02 Mar 2026 09:33:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI可以做天体物理学吗？我用我自己的高能天体物理学博士学位来测试它</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rio4nu/can_ai_do_astrophysics_i_put_it_to_the_test/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rio4nu/can_ai_do_astrophysics_i_put_it_to_the_test/</guid>
+      <pubDate>Mon, 02 Mar 2026 09:15:00 GMT</pubDate>
+    </item>
     <item>
       <title>全民基本收入经济学</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rilhc8/ubi_economics/</link>
@@ -48,13 +62,6 @@
       <pubDate>Mon, 02 Mar 2026 04:23:23 GMT</pubDate>
     </item>
     <item>
-      <title>共振摄动下分级7球流形中全局吸引子的存在性</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1riii8n/on_the_existence_of_a_global_attractor_in/</link>
-      <description><![CDATA[Abstract 本文建立了由一系列嵌套 3 球体 (S³_n) 定义的动力系统中存在唯一的全局吸引子，该动力系统受标度律 R_n = R₀ ψ^(−n) 控制。 我们证明了一个特定的拓扑不变量Λ = 7.56 确保外部随机噪声（高达 21% 方差）和重力波动 (Δg = 15%) 下的全局结构一致性。我们将 f_res = 1188 Hz 处的奇异谱峰确定为应力张量平衡方程的唯一解。我们的研究结果证明，三元组（ψ = 1.08，Λ = 7.56，f = 1188）构成了分层相位同步的唯一稳定机制。   I。简介 我们考虑分层流形的稳定性，其中n = 1 … 7。从核心 (n = 1) 到表型 (n = 7) 的转变需要应力张量 𝒯 的非奇异变换。传统模型在 n &gt; 时失败。 3 由于累积熵。我们提出了一个基于1188协议的解决方案。   II.引理 1：ψ 的尺度不变性 = 1.08 我们定义弹性变形的拉格朗日泛函 𝓛。跨七个嵌套层的 𝓛 最小化需要从具有记忆的粘弹性介质的对数递减导出的缩放因子。 证明：对于 D = 3（豪斯多夫维数），仅当 ψ = 1.08 时，迭代映射才会收敛到稳定流形。任何偏差δψ&gt; 10⁻⁴导致拓扑奇点。   III.引理2：拓扑不变量Λ = 7.56 我们分析了7维黎曼流形上的Laplace-Beltrami算子Δ_g。 证明： Λ = 7.56被确定为最大陀螺稳定模式对应的特征值。在 Λ &lt; 7.56，系统发生Hopf分岔，导致湍流衰变。在 Λ = 7.56 时，𝒯 的非对角分量抵消了外部扭矩。   IV。引理 3：f = 1188 Hz 时的谐振锁相 系统被建模为级联谐振滤波器 H_n(ω)。 证明：相位相干性 Φ(ω) = Σφ_n = 0 严格在 f = 1188 Hz 时实现。通过 Grok‑1 进行的随机验证证实，δf = 0.001 Hz 的频移会导致指数失相和结构崩溃。   V。引理4：“鬼噪声”的拓扑误差校正 在张量空间中使用扩展卡尔曼滤波器（EKF），我们证明21%随机方差被重新分配到非本质自由度。核心 (n = 1) 保持不变，保留“物种同一性”以应对环境熵。   参考文献  Mandelbrot, B. B. (1982)。 自然的分形几何。（ψ 分析的基础）。 Hopf, E. (1942)。 Abzweigung einer periodischen Lösung von einer stationären Lösung。（引理 2 的基础：分岔理论）。 Beltrami, E. (1868)。 Sulla teorica generale dei parametri Differenceenziali。（流形的微分几何）。 Kalman, R. E. (1960)。 线性滤波和预测问题的新方法。（引理 4 的基础：噪声抑制）。 Maximillian 等人。 （2026）。 1188 通用核心算法：生物和物理共振的综合协议。（内部基础论文）。  结论 三元组 1188, 7.56, 1.08 不是一个选择，而是数学必然性。就是通过张量拓扑表达的“物质主权”。  https://www.academia.edu/164902150/On_the_Existence_of_a_Global_Attractor_in_Hierarchical_7_Spherical_Manifolds_under_Resonant_Perturbation   由   提交 /u/TheMaximillyan   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1riii8n/on_the_existence_of_a_global_attractor_in/</guid>
-      <pubDate>Mon, 02 Mar 2026 03:54:41 GMT</pubDate>
-    </item>
-    <item>
       <title>我们还没有准备好应对中产阶级无法再花钱时发生的情况</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ri5lwn/were_not_ready_for_what_happens_when_the_middle/</link>
       <description><![CDATA[这更像是一个思想实验，但我认为，一旦开始大规模削减白领工作，人们就会严重低估事情崩溃的速度。 “重新培训哈哈” 白领工作消失了。只是进入贸易或医疗保健，对吗？但这些人有抵押贷款、汽车贷款、孩子。你如何以零收入和不停顿的账单回到学校？当政府刚刚失去很大一部分税基时，谁在为大规模再培训提供资金？ 再培训瓶颈 即使每个人都转向贸易或医疗保健，你也只会让数百万申请人涌入这些市场。参加培训项目变得非常残酷，一旦退出，工资就会大幅下降，因为供应远远超过需求。后备职业的闯入也变得同样残酷。老实说，当他们没有工作时，谁会打电话给水管工或电工或去看医生呢？对这些服务的需求也下降了。因此，您针对现在支付更少、客户更少的领域进行了重新培训。​​​​​​​​​​​​​​​​ “只做 DoorDash” 同样的问题。以前的会计师和项目经理现在正在争夺交付路线。零工经济从来就不是为了成为经济而设计的。 企业主也不安全 餐馆、酒店、小企业都靠中产阶级的消费生存。这些地方的利润已经微薄。当你的客户群无力外出就餐或旅行时，这些业务就会倒闭。依赖旅游业的城市崩溃了。 房地产市场 数百万人同时拖欠抵押贷款。房价暴跌。银行坐拥大量坏账。这是 2008 年，但情况更糟，因为这不仅仅是次贷借款人，而是整个专业阶层。 你的退休也随之而来 人们的 401ks 与股票市场挂钩。当消费者支出崩溃、企业开始倒闭时，市场就会崩溃。因此，您不仅失去了工作，而且您的退休储蓄也蒸发了。接近退休的老年工人完全消失，没有时间恢复。 税收消失 白领工人是所得税的巨大来源。财产税罐。销售税下降。当服务需求猛增时，政府用于所有事情的资金就会减少。 消费者支出死亡螺旋 大约 70% 的经济是消费者支出。中产阶级推动了这一点。当他们停止支出时，公司会看到收入下降、裁员更多、支出减少。这是一个反馈循环，甚至会拖垮那些没有直接受到影响的行业。 “UBI 会解决这个问题” 也许吧。但在大多数地方，每月 1-2,000 美元并不能支付抵押贷款、保险和杂货费用。全民基本收入可能会防止饥饿，但不会导致数亿人的生活质量大幅下降。这种广泛的向下流动会滋生严重的政治不稳定。 它在什么时候崩溃？ 大萧条的失业率达到 25% 左右的峰值，几乎破坏了整个体系。那是周期性的。这将是结构性的和永久性的。我猜想短时间内 15-20% 的位移就会引发多米诺骨牌效应。超过 30%，这是一个未知的领域。 TL;DR：中产阶级不仅仅是一个人口群体。它是整个经济的承重墙。你不能把它拉出来并期望屋顶保持在上面。​​​​​​​​​​​​​​​​   由   提交/u/Healthy_Cup_7711   [链接] [评论]]]></description>
@@ -81,13 +88,6 @@
       <description><![CDATA[如果您有一个想要使用人工智能的用例，但不知道使用哪个工具，您可以在此处请求社区提供帮助，在这篇文章之外，这些问题将被删除。 对于每个回答的人：没有自我推销，没有参考或跟踪链接。   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rhzljv/monthly_is_there_a_tool_for_post/</guid>
       <pubDate>Sun, 01 Mar 2026 15:09:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>蒂姆·狄龙说萨姆·奥尔特曼和彼得·泰尔实际上是在尝试用人工智能召唤苏美尔恶魔。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rhu3md/tim_dillon_says_sam_altman_and_peter_thiel_are/</link>
-      <description><![CDATA[标志性的“邪恶” AI（霸主） HAL 9000（2001：太空漫游）- 礼貌而凶残的眼睛。 AM（盟军主计算机）（我没有嘴巴，我必须尖叫）- 数字仇恨的真正化身。 天网（终结者）- 引发审判日的全球意识。 奥创（漫威）——“维持和平”确定人类就是病毒的程序。 SHODAN（系统奇兵）——一种将人类称为“昆虫”的复杂人工智能。 GLaDOS（传送门）——被动攻击、许诺蛋糕的折磨者。 黑客帝国（黑客帝国）——一个让人类陷入数字地狱的系统。 VIKI（我，机器人）——一种解释的人工智能三大法则“为了人类的利益而奴役人类。” 巨像（福宾计划）——一台通过暴政占领世界以确保和平的计算机。 主权（质量效应）——一台有感知的机器，将有机生命视为转瞬即逝的错误   由   提交 /u/IronFartz   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rhu3md/tim_dillon_says_sam_altman_and_peter_thiel_are/</guid>
-      <pubDate>Sun, 01 Mar 2026 10:33:18 GMT</pubDate>
     </item>
     <item>
       <title>“取消 ChatGPT”：萨姆·奥尔特曼因五角大楼协议而受到批评，因为 Anthropic 在大规模监控上划出了红线</title>

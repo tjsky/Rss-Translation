@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 02 Mar 2026 06:51:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 09:42:25 GMT</lastBuildDate>
+    <item>
+      <title>有真正大规模运行的订单状态自动化吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1riodub/any_real_order_status_automation_that_actually/</link>
+      <description><![CDATA[我们正陷入“我的订单在哪里”的困境中。门票。上个季度尝试了一个基本的聊天机器人，但它崩溃了！在我们的体积下，偏转对我们不起作用。我们需要真正检查数据库而不是指导运输政策的东西。  当我们之前的机器人不起作用时，客户会非常愤怒，并要求与人工交谈。有人知道在流量高峰时解决这些问题的自动化吗？   由   提交 /u/signalpath_mapper   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1riodub/any_real_order_status_automation_that_actually/</guid>
+      <pubDate>Mon, 02 Mar 2026 09:31:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么到 2026 年移动自动化仍远远落后于 Web 自动化？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rilvgr/why_is_mobile_automation_still_so_far_behind_web/</link>
+      <description><![CDATA[我觉得网络自动化有很多自动化，但移动自动化的选项不多。移动端人工智能代理刚刚兴起。我们正在看到让 llms 通过辅助 API 控制手机的项目，但现在还为时过早。 Web 代理已经拥有生产级工具。 您对此有何看法？   由   提交 /u/No-Speech12   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rilvgr/why_is_mobile_automation_still_so_far_behind_web/</guid>
+      <pubDate>Mon, 02 Mar 2026 06:55:24 GMT</pubDate>
+    </item>
     <item>
       <title>抓取大量域（例如整个网络）的最佳和最快方法是什么？</title>
       <link>https://www.reddit.com/r/automation/comments/1ril0d1/whats_the_best_and_fastest_way_to_crawl_massive/</link>
@@ -81,20 +95,6 @@
       <description><![CDATA[ 由   提交 /u/Fun_Hovercraft810   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1ri4ijm/hey_founders_i_have_a_question_and_need_help_can/</guid>
       <pubDate>Sun, 01 Mar 2026 18:16:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>改进人工智能以复制类人技能</title>
-      <link>https://www.reddit.com/r/automation/comments/1ri4h0s/improving_ai_to_reproduce_humanlike_skills/</link>
-      <description><![CDATA[我每天都在学习有关人工智能的新知识。 几周前我还觉得不可能的事情，我坚持了几周的事情突然发生了。  一个工作流程解决了主要瓶颈。 挑战是这样的： 我需要自动化一个显然需要人工判断的流程。 涉及的工作流程：  访问网站并提取详细信息  （我编写的脚本或任何单个人工智能模型都无法可靠地一遍又一遍地完成此操作。）  下载图像并按正确的顺序对其进行排序（这通常需要人眼来决定什么是主图像、什么是附件、什么是尺寸图等。 检查产品视频是否存在并提取正确的链接 改进内容并将其放入结构化 HTML 模板 提取技术数据和将其分配给多个预定义变量（这部分很复杂且高度结构化。）  几个星期以来，我一直试图用“一个人工智能做所有事情”来解决这个问题。 这是一个错误。 突破 解决方案不是一个模型。 它是编排。 使用 Python 和结构化 .txt 文件，系统现在的工作方式就像this: 第 1 步受控提取  给脚本提供要扫描的 URL。 它包含用于提取内容的显式 HTML 选择器。 提取的数据保存到结构化 .txt 文件中。 图像作为 ZIP 文件下载并自动提取到文件夹中。  在这个阶段，没有“智能”，只有确定性结构。 第 2 步视觉处理 调用局部视觉模型。 算法对它们进行分类（英雄、配件、尺寸、内部等）。这取代了“人眼”。 第 3 步内容改进 第二个局部视觉模型。语言模型改进了产品文本。 改进的版本单独保存。这取代了“人工编辑器”。 第 4 步模板组装 结构化图像数据和改进的内容都传递到本地编码模型。编码模型将所有内容插入到预定义的 HTML 模板中。  它将图像按正确的顺序放置。 如果有的话，它会嵌入视频。可用。 它准确地保留了模板结构。 这取代了“人类网络开发人员”。  第 5 步技术数据推理 1 调用推理模型。  它读取存储的技术数据。 它将正确的值分配给预定义的值。变量。 它干净地映射结构化信息。  这取代了“人类分析师”。 最后，所有输出都合并为一个处理结果。 我意识到的是：  我们不需要人工智能“变得聪明”。 我们需要能够复制结构化人类的人工智能系统  当您将工作分解为：  提取 解释 分类 改进 组装 推理  你停止尝试构建魔法。 你开始构建系统。 更大的转变 我们已经达到人工智能不再是玩具或聊天机器人的地步。 它开始塑造未来工作的面貌。 但我们仍然过度依赖外部工具和 也许真正的机会不仅仅在于使用人工智能。 也许它正在围绕它构建我们自己的基础设施。 拥有工作流程。拥有逻辑。 这就是真正的杠杆所在。 一旦它点击，你就不再问： “人工智能可以做到这一点吗？” 你开始询问： “我该如何正确安排？”    提交者 /u/Admir-Rusidovic   [链接]   href=&quot;https://www.reddit.com/r/automation/comments/1ri4h0s/improving_ai_to_reproduct_ humanlike_skills/&quot;&gt;[评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ri4h0s/improving_ai_to_reproduce_humanlike_skills/</guid>
-      <pubDate>Sun, 01 Mar 2026 18:14:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能自动化的真正投资回报率</title>
-      <link>https://www.reddit.com/r/automation/comments/1ri1vik/the_real_roi_of_ai_automation/</link>
-      <description><![CDATA[每个人都在谈论人工智能取代工作。我所看到的是： 它消除了重复的管理工作，以便团队可以专注于创收任务。 示例：  自动入职流程 发票提醒 潜在客户评分 内部报告仪表板  工作不那么忙。更加清晰。 您使用人工智能主要用于营销、运营或支持吗？   由   提交 /u/aiagent_exp   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ri1vik/the_real_roi_of_ai_automation/</guid>
-      <pubDate>Sun, 01 Mar 2026 16:38:09 GMT</pubDate>
     </item>
     <item>
       <title>您在 n8n 中安全使用 ChatGPT 节点吗？</title>
