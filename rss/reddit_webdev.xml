@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 01 Mar 2026 21:20:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 01:46:00 GMT</lastBuildDate>
+    <item>
+      <title>你们使用什么工具来**识别**访问您的网站？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rif4pz/what_tools_are_you_guys_using_to_identify/</link>
+      <description><![CDATA[我注意到我的账单激增，我怀疑是机器人访问了该网站。你们怎么处理这个问题？我几乎没有护栏，但它们仍然绕过。我猜问题会变得更糟   由   提交/u/UV1998  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rif4pz/what_tools_are_you_guys_using_to_identify/</guid>
+      <pubDate>Mon, 02 Mar 2026 01:15:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 LLM 翻译应用程序的 i18n 文件的 GitHub Action。它提取字符串，仅翻译更改的内容，然后将结果提交回您的存储库。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ridlg6/a_github_action_that_translates_your_apps_i18n/</link>
+      <description><![CDATA[       由   提交/u/cport1  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ridlg6/a_github_action_that_translates_your_apps_i18n/</guid>
+      <pubDate>Mon, 02 Mar 2026 00:07:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们将 Claude 运送到 PageBolt 中。现在您描述一个演示，它会自行记录。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ric9wg/we_shipped_claude_inside_pagebolt_now_you/</link>
+      <description><![CDATA[之前：您需要编写 Puppeteer 代码来自动化演示。单击选择器，捕获屏幕截图，将它们拼接在一起，添加旁白。 之后：“录制 Stripe 结帐流程的演示，突出显示安全功能。” 就是这样。克劳德检查页面，找到真正的按钮，点击流程，录制旁白视频。 MP4 在 30 秒内准备就绪。 工作原理：Claude 使用我们的 /inspect 端点来了解页面结构（按钮、表单、带有实际选择器的交互元素），然后使用单击/屏幕截图操作进行导航和捕获。最后，它通过与每个步骤同步的人工智能语音来讲述整个旅程。 为什么这对网络开发人员很重要：您现在可以以编程方式生成产品演示。适用于：文档、PR 演示、用户入门、销售材料、不同流程的 A/B 测试。 无需 API 知识。没有 Puppeteer 调试。只需描述您想要显示的内容即可。 演示： https://streamable.com/do0vc5 我们上周推出了此功能。很高兴回答有关 Claude 的工具使用如何与页面检查配合使用的问题。 启动优惠：在结账时使用代码 LAUNCH25，第一个月可享受 25% 的折扣（4 月 30 日到期）。   由   提交 /u/Calm_Tax_1192   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ric9wg/we_shipped_claude_inside_pagebolt_now_you/</guid>
+      <pubDate>Sun, 01 Mar 2026 23:11:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>现在每个“前端”工作都想要全栈......但仍然支付低薪</title>
+      <link>https://www.reddit.com/r/webdev/comments/1riaozs/every_frontend_job_now_wants_fullstack_but_still/</link>
+      <description><![CDATA[我注意到了一些事情。 现在几乎每个“前端开发人员”职位都要求：  React Node 数据库 DevOps 基础知识 云 CI/CD Docker  但是薪水？仍然是前端基础。 这令人沮丧。 但这是大多数人不会说的事实： 市场发生了变化。 抱怨解决不了问题。 适应意志。 坏人不是公司。坏人只停留在一层深处。 如果你想发挥影响力，你需要了解堆栈。 不要成为“一切”。而是变得危险。 这是我简单的三步计划。 第 1 步：深入掌握一个前端堆栈 不是 10 个框架。 选择一个： React。 Vue。 Angular。 深入。 理解：  状态管理 性能 API 集成 身份验证流程 实际部署  大多数开发人员停留在教程级别。 光有深度就能让你脱颖而出。 第 2 步：只学习足够的后端来交付 您不需要成为后端架构师。 您需要：  构建 REST API 连接到数据库 处理身份验证 部署到云  就是这样。 当您可以构建前端使用的 API 时，您就不再是“只是”前端。” 你成为一名构建者。 这改变了面试的感觉。 第 3 步：停止构建克隆。开始解决实际问题。 每个人都构建：  Netflix 克隆 Twitter 克隆 Todo 应用  招聘人员已经看到了其中的 1,000 个。 相反，请查看职位发布。 公司实际提供什么？ SaaS 仪表板。 分析工具。 内部管理系统。 预订系统。 工作流程自动化。 选择一个。 构建类似的东西 - 不是克隆，而是解决方案。 示例： 如果一家公司提供物流仪表板，构建一个小型货运跟踪系统。 如果他们提供营销自动化，构建一个简单的活动跟踪工具。 当您的投资组合反映真实业务时问题，你会立即脱颖而出。 大多数开发者都追逐头衔。 全栈。高级的。员工。 真正的目标是： 能够构建出有用的东西。 端到端。 这就是杠杆。 杠杆可以为你提供选择。 如果你真的想掌握全栈开发并构建一个真正让招聘人员犹豫的投资组合项目...... 我整理了一个结构化的全栈培训+真实的项目蓝图，引导你完成构建公司实际使用的东西。 没有废话。没有 20 个随机教程。只有从前端→后端→部署的一条清晰路径。 如果这就是您需要的，请注释“fullstack”我将与您分享。   由   提交 /u/Defiant-Chard-2023   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1riaozs/every_frontend_job_now_wants_fullstack_but_still/</guid>
+      <pubDate>Sun, 01 Mar 2026 22:08:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare 耐用物品拍卖平台</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri9skp/cloudflare_durable_objects_for_auction_platfrom/</link>
+      <description><![CDATA[大家好 我正在考虑如何为企业建立一个简单的拍卖平台。他们规模相对较小，希望发展壮大，并且会定期拍卖设备。 耐用的物品适合拍卖吗？  我目前正在考虑使用完整的 cloudflare Hono、带有耐用对象的 tanstack ？？？   由   提交 /u/time_time   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri9skp/cloudflare_durable_objects_for_auction_platfrom/</guid>
+      <pubDate>Sun, 01 Mar 2026 21:32:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>不一定要被动攻击克劳德......</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ri9i94/didnt_have_to_be_passive_aggressive_claude/</link>
+      <description><![CDATA[      由   提交/u/sleek010  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ri9i94/didnt_have_to_be_passive_aggressive_claude/</guid>
+      <pubDate>Sun, 01 Mar 2026 21:21:48 GMT</pubDate>
+    </item>
     <item>
       <title>我作为一名全栈 Web 开发人员工作了近一年。我只使用 1 个递归函数。这是正常的吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1ri7yxf/i_work_for_almost_a_year_as_a_full_stack_web_dev/</link>
@@ -13,7 +55,7 @@
       <pubDate>Sun, 01 Mar 2026 20:23:14 GMT</pubDate>
     </item>
     <item>
-      <title>网页开发新闻提要</title>
+      <title>网页开发新闻源</title>
       <link>https://www.reddit.com/r/webdev/comments/1ri7jfd/web_development_news_feed/</link>
       <description><![CDATA[我创建了一个技术内容平台，其中包含来自个人博主、开源项目和企业的数千个技术提要。 内容按空间组织。在Android空间，您可以找到最新的Android相关文章。在每个空间中，您可以使用阈值参数控制过滤。 您还可以使用 RSS 提要： https://insidestack.it/spaces/web-development/rss   由   提交/u/kivarada   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ri7jfd/web_development_news_feed/</guid>
@@ -36,12 +78,12 @@
     <item>
       <title>世界监视器应用程序</title>
       <link>https://www.reddit.com/r/webdev/comments/1ri5whu/worldmonitorapp/</link>
-      <description><![CDATA[&lt;表&gt;       由   提交/u/nix-solves-that-2317   [链接] [评论] ]]></description>
+      <description><![CDATA[&lt;表&gt;       由   提交 /u/nix-solves-that-2317   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ri5whu/worldmonitorapp/</guid>
       <pubDate>Sun, 01 Mar 2026 19:06:27 GMT</pubDate>
     </item>
     <item>
-      <title>这里有中/高级吗？如果你想学习新的 FE 或 BE。你从文档中学习的语言。或者Udemy之类的？</title>
+      <title>这里有中/高级吗？如果你想学习新的 FE 或 BE。你从文档中学习的语言。或者 Udemy 还是什么？</title>
       <link>https://www.reddit.com/r/webdev/comments/1ri5d3s/any_midsenior_here_if_you_want_to_learn_new_fe_or/</link>
       <description><![CDATA[假设您了解 React、Node.js 并且想学习 Vue.js、Go 学习它的最佳方式是什么？不过 我尝试观看 YT，它们只是从 0 开始，就像变量、If else 语句、While 循环 一样。我已经知道了。  但是我想学习一些我不知道的新语言   由   提交 /u/lune-soft   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ri5d3s/any_midsenior_here_if_you_want_to_learn_new_fe_or/</guid>
@@ -62,53 +104,11 @@
       <pubDate>Sun, 01 Mar 2026 18:16:22 GMT</pubDate>
     </item>
     <item>
-      <title>将访问令牌作为 URL 参数是非常安全的……对吗？</title>
+      <title>将访问令牌作为 URL 参数是非常安全的……对吧？</title>
       <link>https://www.reddit.com/r/webdev/comments/1ri4f32/its_super_safe_putting_an_access_token_as_url/</link>
-      <description><![CDATA[我妈妈使用这个特定网站向她的孙子们发送生日贺卡。她写了一首愚蠢的诗，放入了一堆图片，网站将其打印出来并邮寄出去。不错的卡。比霍尔马克便宜。综上所述，这是一个复杂且设计精良的网站；他们的开发人员了解他们的东西。 今天，她想向某人展示一张她正在制作的卡片。于是她点击了 iPad 上的分享按钮。她不知道这是 Safari 的事情，而不是网站的事情。 Safari 向她的朋友发送了一个网址。基本上是这样的： https://app.---redacted---.com/not-a-real-url?access_token=blahblahblah-youknowwhatitlookslike  他们收到她的短信，点击它，然后，砰🤯，完全访问她的整个帐户。想寄卡片吗？当然！寄一千张卡片？为什么不呢。更改她的电子邮件和密码？往前走吧。我们甚至不会通过电子邮件告诉您我们做了任何这些事情！ 她终于向我寻求帮助，我让她退出，更改她的密码。访问令牌不会过期。不知道令牌何时（或是否！）过期。直到周一才有人支持。 幸运的是，她没有将链接发布到 Facebook，只是发短信给她信任的朋友。 看，我主要是一名前端设计师。小事，说实话。我将身份验证留给那些知道自己在做什么的人员和服务。但我在这里并没有错，不是吗？这不是每个人都会做的事情，而且对我来说这只是一个坏主意？ 当你看到这种事情时你会做什么？   由   提交 /u/affablematt   [链接] [评论]]]></description>
+      <description><![CDATA[我妈妈使用这个特定网站向她的孙子们发送生日贺卡。她写了一首愚蠢的诗，放入了一堆图片，网站将其打印出来并邮寄出去。不错的卡。比霍尔马克便宜。综上所述，这是一个复杂且设计精良的网站；他们的开发人员了解他们的东西。 今天，她想向某人展示一张她正在制作的卡片。于是她点击了 iPad 上的分享按钮。她不知道这是 Safari 的事情，而不是网站的事情。 Safari 向她的朋友发送了一个网址。基本上是这样的： https://app.---redacted---.com/not-a-real-url?access_token=blahblahblah-youknowwhatitlookslike  他们收到她的短信，点击它，然后，bam 🤯，完全访问她的整个帐户。想寄卡片吗？当然！寄一千张卡片？为什么不呢。更改她的电子邮件和密码？往前走吧。我们甚至不会通过电子邮件告诉您我们做了任何这些事情！ 她终于向我寻求帮助，我让她退出，更改她的密码。访问令牌不会过期。不知道令牌何时（或是否！）过期。直到周一才有人支持。 幸运的是，她没有将链接发布到 Facebook，只是发短信给她信任的朋友。 看，我主要是一名前端设计师。小事，说实话。我将身份验证留给那些知道自己在做什么的人员和服务。但我在这里并没有错，不是吗？这不是每个人都会做的事情，而且对我来说这只是一个坏主意？ 当你看到这种事情时你会做什么？   由   提交 /u/affablematt   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ri4f32/its_super_safe_putting_an_access_token_as_url/</guid>
       <pubDate>Sun, 01 Mar 2026 18:12:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>cron 作业在本地运行良好，但产品上绝对混乱，我花了两天时间才弄清楚原因</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ri44jh/cron_jobs_running_fine_locally_absolute_chaos_on/</link>
-      <description><![CDATA[这个想法仍然让我有点生气，所以我会尽力保持它的连贯性 我们有一个管道来处理传入的列表，运行一些丰富逻辑，生成摘要，然后将更新推送到前端。摘要位贯穿 Deepinfra，没什么花哨的。整个事情是由一个 cron 作业触发的，该作业应该每天上午 9 点触发 在本地运行得很好。在舞台表演中表现得非常完美。推送到产品并在一周内客户发消息询问为什么他们的仪表板自周二以来没有更新... 我检查的第一件事是 cron 是否实际上正在运行。日志显示它正在触发，所以我大概花了半天的时间假设问题出在浓缩逻辑的下游某个地方。检查摘要输出，检查数据库写入，检查前端缓存失效。当我手动触发管道时，一切看起来都很好 继续挖掘并注意到一些奇怪的事情，cron 在上午 9 点触发，但实际处理记录上的时间戳在某些日子显示在下午 1 点或 2 点，而在其他日子则完全丢失。毫无意义 原来我们的产品服务器是在 UTC 上。我们的临时服务器使用 UTC+5，因为很久以前就有人这样设置，但没有人注意到或关心。我们编写的 cron 表达式是基于我们的本地时区假设，它碰巧与暂存相匹配... 因此，在 prod 上，作业在技术上是在 UTC 上午 9 点运行，这取决于当天以及服务器上发生的其他事情，要么在某些数据源填充之前太早，要么在其他进程后面排队并默默超时 修复实际上就像两行，在 cron 表达式中显式时区并提高超时阈值。就是这样 让我怀疑的是时区问题花了多长时间。每次我手动触发管道时，它都会起作用，因为我在正确的时间触发了它，但没有意识到。这个错误是完全不可见的，除非你专门在上午 9 点观察自动运行，并检查生产服务器上在那一刻实际可用的数据 如果你的 cron 作业在环境之间表现不同，并且你无法弄清楚为什么，首先要检查的是你的服务器是否实际上位于同一时区。回想起来，这听起来很明显，但这种事情永远不会出现，除非它默默地破坏了产品中的某些东西 任何其他人都有时区的东西以一种比应有的时间更长的调试时间来咬住他们   由   提交 /u/IndividualTerm4830   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ri44jh/cron_jobs_running_fine_locally_absolute_chaos_on/</guid>
-      <pubDate>Sun, 01 Mar 2026 18:01:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>刚刚想出了一个动态二维码的有用技巧</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ri43by/just_figured_out_a_useful_trick_for_dynamic_qr/</link>
-      <description><![CDATA[我试图为本地活动创建二维码，并意识到将宽高比设置为 1:1 并将分辨率设置为 500x500 像素可以使其扫描更加可靠，尤其是在旧手机上，这一点很重要，因为我们预计人群非常多样化，并且不希望任何人在进入时遇到麻烦   由   提交 /u/Beginning_Care_7600   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ri43by/just_figured_out_a_useful_trick_for_dynamic_qr/</guid>
-      <pubDate>Sun, 01 Mar 2026 18:00:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>我厌倦了每天打开浏览器选项卡来执行相同的开发任务，所以我构建了这个</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ri416n/i_got_tired_of_opening_browser_tabs_for_the_same/</link>
-      <description><![CDATA[      您知道作为 Web 开发人员的练习： Google“json 格式化程序” → 粘贴您的数据 → 获取结果 Google“css minifier” → 粘贴代码 → 获取结果 Google“颜色转换器” → 粘贴你的十六进制 → 获取结果 Google“正则表达式测试器” → 粘贴你的模式 → 得到结果 Every。单身的。 Day。 构建 Devly 来解决这个问题。原生 macOS 菜单栏应用程序，一键点击，一切都在本地运行。没有网站，没有广告，没有跟踪，一切都不会离开您的 Mac。 Web 开发人员最常用的工具： - JSON 格式化程序和验证器 - CSS 和 JS 缩小器 - 颜色转换器（HEX/RGB/HSL） - 具有实时匹配功能的正则表达式测试器 - JWT 解码器 - Base64 编码器/解码器 - Markdown 预览 - SVG 可视化工具 一次 4.99 美元。没有订阅。 macOS 13+。 https://apps.apple.com/us/app/devly/id6759269801?mt=12   由   提交/u/Economy-Department47   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ri416n/i_got_tired_of_opening_browser_tabs_for_the_same/</guid>
-      <pubDate>Sun, 01 Mar 2026 17:58:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI 抓取战争：LLM 爬虫正在破坏网络</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ri3bgw/the_ai_scraping_war_llm_crawlers_are_breaking_the/</link>
-      <description><![CDATA[ 由   提交/u/cport1  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ri3bgw/the_ai_scraping_war_llm_crawlers_are_breaking_the/</guid>
-      <pubDate>Sun, 01 Mar 2026 17:32:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Express EJS 模板中使用 Tailwind？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ri0juy/utilizing_tailwind_in_express_ejs_templates/</link>
-      <description><![CDATA[大家好， 我目前是一名使用 Svelte SPA + Express 的全栈开发人员，但我也想使用带有 EJS 的 Express SSR，但 Tailwind 安装与 EJS 很糟糕。 bootstrap 也可以很好地与 ejs 以及传统的 css 配合使用。但是，只是不确定是否使用 或 用于 EJS 模板。为 EJS 模板设置 tailwind 大约需要 7 到 8 个步骤。  您使用什么 EJS 模板？为什么？    由   提交/u/drifterpreneurs  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ri0juy/utilizing_tailwind_in_express_ejs_templates/</guid>
-      <pubDate>Sun, 01 Mar 2026 15:47:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Buckmate - 以声明方式部署到 s3</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ri0jce/buckmate_deploy_to_s3_declaratively/</link>
-      <description><![CDATA[嘿，想展示我的个人项目。  我需要一个工具，可以用来以声明方式将静态页面部署到 S3。 以前，我会使用 aws cli 和 bash 脚本，这些脚本很难维护、理解或推广到其他项目。 我一直喜欢 kubernetes 部署的工作方式 (helm)。不错的 yaml 文件，您可以在其中定义容器等，一切都清晰易懂。  我认为这对于一个业余项目来说是一个很好的机会，特别是我想尝试 go 语言。我花了几年时间才得到这个，我很乐意公开分享它。我知道它有缺陷，缺少功能，可能还有一些代码味道和错误，但它有效:D  要了解它是如何工作的，最好访问文档，但通常你定义： - 源和目标（两者都可以位于您的计算机或s3存储桶上）（源将被复制到目标）， - 可选的文件（一些静态文件与源中的文件一起复制）， - 可选的配置映射（您可以在文件中使用占位符，这些占位符将被配置映射中的值替换）， - 可选要在存储桶中的项目上设置的元数据和缓存。 源：地址：“数据”目标：地址：“s3://bucket-name” configMap：段落：“这是公共段落。”标头：“这是公共标头。” fileOptions: common-file.json:cacheControl:no-storeindex.html:cacheControl:no-cachemetadata:some-metadata-key:some-metadata-value上面也可以每个环境定义，并将与全局配置合并。然后你只需运行：buckmate apply和magic发生了:)  如果这对您有用，请尝试一下。 请随意留下评论/问题等。  谢谢！   由   提交/u/bawhee23  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ri0jce/buckmate_deploy_to_s3_declaratively/</guid>
-      <pubDate>Sun, 01 Mar 2026 15:47:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
