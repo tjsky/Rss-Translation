@@ -4,7 +4,35 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 02 Mar 2026 15:37:53 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 18:40:34 GMT</lastBuildDate>
+    <item>
+      <title>2026 年三星 S9 开源操作系统？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rj0nnr/open_source_os_for_samsung_s9_in_2026/</link>
+      <description><![CDATA[      我希望这是正确的空间，我必须包含要发布的链接。  我正在寻找一个可以在我的三星 S9 上使用的开源操作系统。我不想冒弄乱我当前的 S24 的风险，所以我正在考虑启动两个中较旧的一个。厌倦了我的手机每 2-5 年就会变砖。 Lineage 不再支持它，e/os 已结束生命，而且我听说 Ubuntu Touch/Mobian 不太适合日常驾驶。请指教？   由   提交 /u/Photoman_Fox   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rj0nnr/open_source_os_for_samsung_s9_in_2026/</guid>
+      <pubDate>Mon, 02 Mar 2026 18:21:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Engram – 适用于您终端的开源本地 AI 内存（Python、Ollama、SQLite）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rj09m9/engram_open_source_local_ai_memory_for_your/</link>
+      <description><![CDATA[嘿， 刚刚开源了一个我一直在开发的名为 Engram 的工具。 简短版本：它在本地记录您的终端命令及其输出，然后让您使用自然语言搜索它们。 我厌倦了丢失滚动到屏幕外的输出 - 错误消息、API 响应、构建日志。标准 shell 历史记录仅保存命令，而不保存它返回的内容。 Engram 修复了这个问题。 它在底层使用 Ollama，因此一切都可以在您的计算机上运行。没有账户，没有云，数据也不会传输到任何地方。 MIT 许可。 Stack： - Python - SQLite - Ollama（用于嵌入的 nomic-embed-text，用于问答的 llama3） - 用于捕获交互式程序输出的 PTY 包装器 - 在存储任何内容之前自动进行秘密/令牌编辑 GitHub：https://github.com/TLJQ/engram 欢迎贡献   由   提交 /u/TLJQ   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rj09m9/engram_open_source_local_ai_memory_for_your/</guid>
+      <pubDate>Mon, 02 Mar 2026 18:07:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要像烫手山芋一样传递上下文</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rixe7c/stop_passing_context_around_like_a_hot_potato/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rixe7c/stop_passing_context_around_like_a_hot_potato/</guid>
+      <pubDate>Mon, 02 Mar 2026 16:25:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>电子表格传输 - UI 改进程序 - 跟踪</title>
+      <link>https://www.reddit.com/r/opensource/comments/1riwcb1/spreadsheet_transfer_ui_improved_program_tracking/</link>
+      <description><![CDATA[大家好， 我目前正在尝试更新我们公司的电子表格，我们是一家制造公司/机械车间/加工车间。  我正在寻找一个程序，我可以像Excel一样输入行信息，但可以更好地链接单元格并更好地显示信息。现在的电子表格基本上只有我们设计师使用。我们用它来保存有关常见零件及其尺寸/材料等的信息 例如；   零件编号 宽度 高度 长度 孔尺寸 材料    该工作表大约有 60 个不同样式零件的选项卡，每个选项卡有 50 到 1500 行零件，每个选项卡大约有 5 到 12 列，如上面描述零件 我们还有一个指向服务器上 pdf 绘图的超链接。我希望（真的很喜欢）一种将鼠标悬停在其上的方法，并且能够打开链接或让它以视觉方式显示链接，这样我就不必点击愿望清单上的部分  使用的部分（因此跟踪物料清单或项目是否在其他地方使用） 一个功能，可以让我们知道一个部分是否与已经存在的另一个部分相似 足够灵活，可以将其添加到未来并且不破坏任何链接 能够从 Excel 导入对我来说也很重要 成本非常低/免费 自托管首选  该程序不需要涵盖任何会计或计费（如果涉及的话，也不是世界末日） 谢谢！   由   提交/u/Iguy_Poljus   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1riwcb1/spreadsheet_transfer_ui_improved_program_tracking/</guid>
+      <pubDate>Mon, 02 Mar 2026 15:47:41 GMT</pubDate>
+    </item>
     <item>
       <title>Bigwizard Media 的开源最后一战</title>
       <link>https://www.reddit.com/r/opensource/comments/1riri0m/the_last_stand_for_open_source_by_bigwizard_media/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我看到了 Wishper Flow 的很多广告，我想我也能构建它，所以我就这么做了，并且使它完全离线。 它是用 Flutter 制作的，因为我想尝试 flutter 对于 Windows 来说有多好。 所有音频文件都存储在本地，它使用系统中安装的本地 Ollama AI 模型。 对于转录，它使用小型 Wishper.cpp下载模型后，如果您愿意，可以用更大的模型替换该模型，但这个小模型工作得很好，您甚至可以同时讲多种语言，它会给您英文的组合转录 最好的部分是，您可以自定义与音频转录一起提供给人工智能的提示，这样您就可以让它像个人代理一样工作。例如：您可以更改提示以使 AI 响应某些单词，例如“系统”或“系统”。作为一个命令，您可以使用它来生成电子邮件、博客等。 还有更多功能可供您尝试 Github 存储库：https://github.com/Ravish-Vishwakarma/Khuspus   由   提交 /u/louise_XVI   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rh9bn8/i_build_a_wishperflow_clone_but_totally_offline/</guid>
       <pubDate>Sat, 28 Feb 2026 18:01:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于古兰经搜索的 MCP 服务器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rh87wq/mcp_server_for_quran_search/</link>
-      <description><![CDATA[      我构建了古兰经搜索 MCP，这是一个轻量级工具，可让您的代理在本地快速高效地搜索古兰经，而无需接触网络。它的设计简单、快速且易于集成到项目中。 注意：《古兰经》是伊斯兰教的圣书   由   提交/u/Clear_Meringue3464   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rh87wq/mcp_server_for_quran_search/</guid>
-      <pubDate>Sat, 28 Feb 2026 17:18:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>[R] AudioMuse-AI-DCLAP - LAION CLAP 精炼文本到音乐</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rh83y4/r_audiomuseaidclap_laion_clap_distilled_for_text/</link>
-      <description><![CDATA[       由   提交/u/Old_Rock_9457   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rh83y4/r_audiomuseaidclap_laion_clap_distilled_for_text/</guid>
-      <pubDate>Sat, 28 Feb 2026 17:14:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spruce – 用于云基础设施的开源碳排放计算器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rh7b3a/spruce_opensource_carbon_emissions_calculator_for/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rh7b3a/spruce_opensource_carbon_emissions_calculator_for/</guid>
-      <pubDate>Sat, 28 Feb 2026 16:43:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>将此规则添加到我的 CLAUDE.md 中可以防止我在重复的想法上浪费时间</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rh79io/adding_this_rule_to_my_claudemd_stopped_me_from/</link>
-      <description><![CDATA[我一直遇到同样的问题：我会要求 Claude 构建一些东西，花 2 小时进行编码，然后发现三个现有的工具可以做同样的事情。因此，我构建了一个名为 idea-reality-mcp 的 MCP 服务器，它可以在 Claude 编写一行代码之前扫描 GitHub 存储库、Hacker News 讨论、npm 包和 PyPI。它返回“现实信号”。从 0 到 100——数字越高，竞争就越激烈。关键部分：我将其添加到我的 CLAUDE.md 中： ``` ## 预构建现实检查 在创建任何新项目、功能或工具之前，请运行带有一行描述的 `idea_check`。 -如果reality_signal&gt; 80：停止。在继续之前警告我竞争激烈。 -如果reality_signal&gt; 60：谨慎行事。建议如何区分。 -如果reality_signal&lt; 40：绿灯。正常进行。 ``现在每次我说“给我建一个___”时，克劳德都会自动先检查市场。输出示例：``` 现实信号：87/100 发现的主要竞争对手： - 现有工具 1（2.3k 星） - 现有工具 2（890 星） 建议：竞争激烈。考虑关注[具体差距]。 ``` **它实际搜索的内容（不是 LLM 猜测）：** - GitHub 搜索 API（存储库计数 + 星级分布） - HN Algolia API（讨论量） - npm 注册表（快速模式跳过此） - PyPI（深度模式） - Product Hunt（可选，需要令牌） 与仅询问 ChatGPT“这是否存在？”的区别— 这实际上会搜索真实的 API 并为您提供数字。 LLM 猜测。这个搜索。它是开源的，作为标准 MCP 服务器（stdio 或 HTTP）运行：GitHub：https://github.com/mnemox-ai/idea-reality-mcp 可与 Claude Code、Cursor、Windsurf 和任何 MCP 兼容客户端配合使用。每个都有现成的说明模板。很高兴回答有关 MCP 实现或评分公式的问题。我一直遇到同样的问题：我会要求 Claude 构建一些东西，花 2 小时进行编码，然后发现三个现有的工具可以做同样的事情。因此，我构建了一个名为 idea-reality-mcp 的 MCP 服务器，它可以在 Claude 编写一行代码之前扫描 GitHub 存储库、Hacker News 讨论、npm 包和 PyPI。它返回“现实信号”。从 0 到 100——数字越高，竞争就越激烈。关键部分：我将其添加到我的 CLAUDE.md 中： ``` ## 预构建现实检查 在创建任何新项目、功能或工具之前，请运行带有一行描述的 `idea_check`。 -如果reality_signal&gt; 80：停止。在继续之前警告我竞争激烈。 -如果reality_signal&gt; 60：谨慎行事。建议如何区分。 -如果reality_signal&lt; 40：绿灯。正常进行。 ``现在每次我说“给我建一个___”时，克劳德都会自动先检查市场。输出示例：``` 现实信号：87/100 发现的主要竞争对手： - 现有工具 1（2.3k 星） - 现有工具 2（890 星） 建议：竞争激烈。考虑关注[具体差距]。 ``` **它实际搜索的内容（不是 LLM 猜测）：** - GitHub 搜索 API（存储库计数 + 星级分布） - HN Algolia API（讨论量） - npm 注册表（快速模式跳过此） - PyPI（深度模式） - Product Hunt（可选，需要令牌） 与仅询问 ChatGPT“这是否存在？”的区别— 这实际上会搜索真实的 API 并为您提供数字。 LLM 猜测。这个搜索。它是开源的，作为标准 MCP 服务器（stdio 或 HTTP）运行：GitHub：https://github.com/mnemox-ai/idea-reality-mcp 可与 Claude Code、Cursor、Windsurf 和任何 MCP 兼容客户端配合使用。每个都有现成的说明模板。很高兴回答有关 MCP 实施或评分公式的问题。    由   提交/u/ResourceSea5482  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rh79io/adding_this_rule_to_my_claudemd_stopped_me_from/</guid>
-      <pubDate>Sat, 28 Feb 2026 16:41:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
