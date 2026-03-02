@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 02 Mar 2026 01:46:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 04:47:23 GMT</lastBuildDate>
+    <item>
+      <title>browser2api - 使用 Playwright + CDP 将仅限浏览器的 AI 工具转变为可编写脚本的 Python API</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rigi7z/browser2api_turn_browseronly_ai_tools_into/</link>
+      <description><![CDATA[       由   提交 /u/rabornkraken   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rigi7z/browser2api_turn_browseronly_ai_tools_into/</guid>
+      <pubDate>Mon, 02 Mar 2026 02:19:20 GMT</pubDate>
+    </item>
     <item>
       <title>Aether：用于高性能并发的基于 Actor 的编译语言</title>
       <link>https://www.reddit.com/r/opensource/comments/1ricjas/aether_compiled_actorbased_language_for/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[       由   提交/u/FreeThem2019  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rh5i5o/introducing_xprivo_search_europes_100_data/</guid>
       <pubDate>Sat, 28 Feb 2026 15:30:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sublarr — 具有本地 LLM 翻译的开源字幕管理器（GPL-3.0，早期测试版）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rgxkk3/sublarr_opensource_subtitle_manager_with_local/</link>
-      <description><![CDATA[嘿 r/opensource**,** 早期测试版，分享反馈 - 不是成品。这是我正在构建的东西的促销预览。如果您对这个概念感兴趣，请关注该存储库。如果没有，那也很公平。 预先全面披露：这是一个氛围编码项目。我在人工智能的帮助下构建了大部分内容，而且我不是专业的开发人员。它是 GPL-3.0，所有内容都在 GitHub 上，我分享它是因为也许其他人想要我想要的东西。 什么是 Sublarr？ 用于媒体库的自托管字幕管理器 — 自动下载、提供商评分、时间同步、格式转换。想想 Bazarr，但具有 ASS 优先处理、动漫特定评分以及通过本地模型可选的 LLM 翻译。 为什么要开源它而不是保持其个人化？老实说，因为这就是我最初进入这个领域的方式。我的整个媒体堆栈都在开源工具上运行 - Sonarr、Radarr、Jellyfin、Bazarr。 Bazarr 尤其是一个伟大、成熟、维护良好的项目，如果您想要可靠工作的东西，您可能应该使用它： GitHub 上的 Bazarr 但我一直想要它没有的东西：LLM 翻译、动漫特定提供商评分、ASS 优先处理、微调的本地模型。因此，我没有像普通人那样打开功能请求，而是构建了自己的功能请求。经典。 AI 辅助开发角度：我认为这与 r/opensource 相关 - 整个项目是在 AI 编码辅助下构建的。我患有多动症，“从小事做起”不在我的字典里，如果没有人工智能工具，我可能不会发布任何东西。结果是一个具有很多功能的应用程序，其中一些功能很好，而另一些则尚未完成。如果你很好奇一个单独的氛围编码开源项目在实践中是什么样子的——缺点和全部——就是这样。 诚实的情况：  Beta，v0.12.0-beta - 期待粗糙的边缘 UI 是功能性的，但我不是设计师 我不能总是区分哪些功能完美工作，哪些有缺陷。如果你发现一个破角，就会进行跟踪。  它的作用（当它工作时）：  11 个字幕提供商：AnimeTosho、Jimaku、OpenSubtitles、SubDL，... ASS 优先评分 - 与普通 SRT 相比，更喜欢样式化字幕 Sonarr/Radarr webhook 集成 字幕编辑器、波形同步、格式转换 Jellyfin/Emby/Plex 库刷新 可选：通过 Ollama 进行 LLM 翻译（完全本地化，无 API 密钥）  完全开源： 经过微调的 EN→DE 动漫翻译模型也是开放的 — 托管在 HuggingFace 上，通过 Ollama 在本地运行，无云依赖：HuggingFace 上的 Sublarr 安全性：鉴于 *arr 生态系统（Huntarr CVE）中最近发生的事件，我对该安全报告中的所有 11 个问题运行 bandit、pip-audit 和手动审核 — 解决了 3 个相关 CVE，未发现身份验证问题。不能保证它没有错误，但我做了工作。 GitHub： github.com/Abrechen2/sublarr 许可证： GPL-3.0 非常欢迎建设性批评。问题、PR，或者只是告诉我整个概念是错误的——我宁愿知道。如果 Sublarr 现在太粗糙，Bazarr 是正确的选择，我是真心实意的。   由   提交 /u/abrechen2   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rgxkk3/sublarr_opensource_subtitle_manager_with_local/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:42:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
