@@ -4,13 +4,34 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 03 Mar 2026 04:45:09 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 06:45:10 GMT</lastBuildDate>
     <item>
-      <title>现在我已经切换到克劳德，不再有重复的提示样板</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rjg1u4/no_more_repetitive_prompt_boilerplate_now_that/</link>
-      <description><![CDATA[除了 IDE 代码完成和 IDE AI 聊天之外，我还使用聊天。当我使用 ChatGPT 时，我必须在提示中添加大量样板，例如“请研究”。我得到了很多错误的答案。人工智能不断地道歉，这真的很烦人（“你在这件事上责备我是对的”）。 我只是分享这个，以防你仍然卡在 ChatGPT 中。有效的方法是在 IDE 中与 Claude 定期聊天。这对我来说是一个突破，我必须分享它。我感觉我现在正在飞翔。除了简单的提示之外，我还大大减少了重复错误。   由   提交 /u/robopiglet   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rjg1u4/no_more_repetitive_prompt_boilerplate_now_that/</guid>
-      <pubDate>Tue, 03 Mar 2026 04:42:59 GMT</pubDate>
+      <title>老板想要每天 5000 行，但我用屏幕自动化破解了这个无 api 桌面应用程序，有人有更好的方法吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rjhbcf/boss_wants_5000_lines_a_day_but_i_hacked_this/</link>
+      <description><![CDATA[今天和我的经理聊天是这样的： 老板下午 4:32：为什么报告工具集成需要 3 天？最多应该是 2 小时。 我下午 4:35：它正在抓取一个没有 api 的旧版 Windows 应用程序。 老板下午 4:37：只需将其自动化即可。 8小时内你写了5000行，对吗？提交你所得到的。 我下午 4:40：是的，正在努力。 这里 13 岁，老板强迫办公室距离远程设置还有 5 天，其他人因此辞职。无论如何，我得到了这个旧的企业软件，它的 API 为零，没有网络钩子。我编写了一个 Python 脚本，基本上可以通过点击用户界面并读取屏幕上的内容，然后每小时将报告编译为 json。有点简陋，如果用户界面发生变化，有时会错过，但它的工作效率为 90%。 我知道这不完全是一些干净的企业浏览器自动化设置，但它是我在不重写整个系统的情况下获取结构化数据的唯一方法。 也尝试了其他一些桌面脚本方法，但这是最不痛苦的。感觉很糟糕。你们如何在没有 api 启动简历刷新以防万一的情况下自动执行这样的废话。   由   提交 /u/Appropriate-Plan5664   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rjhbcf/boss_wants_5000_lines_a_day_but_i_hacked_this/</guid>
+      <pubDate>Tue, 03 Mar 2026 05:48:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于“构建您的设置”Shopify PDP 的用户体验反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rjgxvd/ux_feedback_on_this_build_your_setup_shopify_pdp/</link>
+      <description><![CDATA[      大家好 我正在将 Shopify 产品页面重建为一个简单的 3 步“构建您的设置”流程，在我们发布之前，我非常感谢一些诚实的反馈。 我不确定但希望得到意见的事情： • 步骤流程在移动设备上感觉直观且快速吗？有什么感觉令人困惑/太忙吗？ • 设置卡：每个选项的信息量是否合适（价格+保存徽章+小视觉提示+短线），或者您会更改显示的内容吗？ • 附加组件：附加卡和内联尺寸选择是否感觉干净，或者是否开始感觉 PDP 内部太多了？ • “您的构建”框：逐项列出所包含的内容是否可以增强信心，或者是否感觉与设置卡重复？  如果您见过更适合转化的模式（或者您已经进行过类似的 A/B 测试），我很乐意提供任何建议。 干杯。   由   提交/u/bmetcalfenz   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rjgxvd/ux_feedback_on_this_build_your_setup_shopify_pdp/</guid>
+      <pubDate>Tue, 03 Mar 2026 05:28:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>事件还是依赖注入？从单独的 Web 组件启动行为的最佳方式是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rjgwdb/events_or_dependency_injection_what_is_the_best/</link>
+      <description><![CDATA[我一直在使用 Web 组件构建此应用程序，并且一直在质疑从外部组件启动行为的最佳方式是什么。 对于 DOM 树中不相关的组件，使用事件似乎更干净，但对于父/子组件，我发现将父组件作为依赖项传递给子组件并仅从子组件调用父组件的公共方法会更干净。 我是否正确地考虑了这一点或者我应该只坚持一种模式？    由   提交 /u/Responsible-Key5829   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rjgwdb/events_or_dependency_injection_what_is_the_best/</guid>
+      <pubDate>Tue, 03 Mar 2026 05:26:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么好的设计比好的代码更难？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rjgjq0/why_is_good_design_so_much_harder_than_good_code/</link>
+      <description><![CDATA[我可以构建复杂的系统并编写干净的代码，但无法设计一个看起来不像垃圾的界面。对于代码，有明确的正确和错误的答案，但对于设计，一切都是主观的和情境性的，这使得你不可能知道你是否做得很好。 加上代码技能在逻辑上相互构建，但设计感觉像是一个完全独立的技能组，与我所知道的其他任何东西都不相关。这真的很烦人，因为它阻碍了技术上可靠但看起来很业余的项目   由   提交 /u/yeskaira   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rjgjq0/why_is_good_design_so_much_harder_than_good_code/</guid>
+      <pubDate>Tue, 03 Mar 2026 05:08:13 GMT</pubDate>
     </item>
     <item>
       <title>客户联系表隐私</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[过去几周这个想法一直在我的脑海中燃烧，我需要一些外部意见/知识。我知道切换开关主要用于从浅色模式切换到深色模式，但我有一个想法，即从一个网站切换到另一个视频游戏网站（举个随机的例子：《模拟人生 3》到《模拟人生 4》或其他网站）。  我最大的担心是计算机无法处理的延迟或太多工作。 有人尝试过这个或知道它是否有效？我是一名年轻的开发人员，所以我仍在学习哪些想法有效，哪些无效！   由   提交 /u/cryptogloom   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rj447h/toggle_switch_abilities/</guid>
       <pubDate>Mon, 02 Mar 2026 20:25:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>我审核了流行的免费开发工具的隐私实践。结果是大规模监视。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rj3tor/i_audited_the_privacy_practices_of_popular_free/</link>
-      <description><![CDATA[我测试了 Diffchecker、CodeBeautify、Base64Decode 和 Regex101 — 检查每个站点上的网络请求、cookie 和跟踪脚本。 CodeBeautify — 跨 205 个域的 540 个 cookie。单个页面上加载 88 个广告网络脚本。在粘贴任何代码之前，有 605-800 个网络请求。 Base64Decode — 639+ 网络请求。已联系 96 个域。他们自己的隐私政策列出了 1,570 个广告合作伙伴。 Diffchecker — 在服务器端存储您的差异。页面标题随您的内容更新，因此它会显示在您的浏览器历史记录中。 Mixpanel 分析收集 IP 地址。 Regex101 — 例外。使用 Plasible（无 cookie 分析）。正则表达式处理在 WASM 客户端运行。没有第三方跟踪器。证明它可以正确完成。 您将源代码、API 响应、配置和数据库输出粘贴到这些工具中。这些数据正在被数十个广告网络包围的服务器上进行处理。 还有其他人在使用这些广告网络时检查过网络选项卡吗？   由   提交/u/Johin_Joh_3706   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rj3tor/i_audited_the_privacy_practices_of_popular_free/</guid>
-      <pubDate>Mon, 02 Mar 2026 20:14:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>可追踪。 - 适合企业或自由职业者的简单、自托管时间跟踪应用程序！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rj3fna/trackable_simple_selfhosted_time_tracking_app_for/</link>
-      <description><![CDATA[      大家好！ 我构建了一个我想分享的开源项目： 问题：作为一名自由职业者，我需要一种简单的方法来跟踪我的工作时间 - 最好没有云中的数据，为客户提供 PDF 导出，以及用于会计的 CSV。我发现的所有东西要么是基于订阅的云服务，要么是过于复杂的企业工具。所以我自己构建了它。 解决方案：可跟踪。 - 一个自托管时间跟踪渐进式网络应用程序。 它的作用： - 时间跟踪，包括开始、结束、休息和可选活动注释 - PWA - 可直接从浏览器安装在 iOS、Android 和桌面上 - 多个配置文件 - 单独跟踪不同的客户或工作 - 自动计算工时和收入的每月概览 - PDF 导出（横向 A4）和 CSV 导出（Excel 兼容，分号分隔） - 假期跟踪 — 自动计算工作日（周一至周五，不包括公共假期） - 通过 Django Admin 进行公共假期管理，自动从假期计数中排除 - 内部个人资料注释 — 仅对帐户所有者可见 - 每个月最后一天的自动每月电子邮件摘要 - 每周 SQLite 备份 - 英语和英语德语（自动检测浏览器语言） 技术堆栈：Django 5.0、Gunicorn、WhiteNoise、ReportLab for PDF - 全部在 Docker 中 现场演示：https://www.trackable.cloud GitHub：https://github.com/webCommits/trackable 自述文件：https://github.com/webCommits/trackable#readme 欢迎反馈！   由   提交/u/DCMBRbeats  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rj3fna/trackable_simple_selfhosted_time_tracking_app_for/</guid>
-      <pubDate>Mon, 02 Mar 2026 20:00:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>您差点就构建了但没有构建的一项功能是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rj323v/whats_one_feature_you_almost_built_but_didnt/</link>
-      <description><![CDATA[我花了一周的时间设计资产管理器功能架构、ui 以及整个事情。然后意识到没有人真正要求它。连我也不行。我在编写任何代码之前就杀死了它。我做出的最好的决定。您几乎在哪些功能上浪费了时间？   由   提交/u/marcochavezco   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rj323v/whats_one_feature_you_almost_built_but_didnt/</guid>
-      <pubDate>Mon, 02 Mar 2026 19:47:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
