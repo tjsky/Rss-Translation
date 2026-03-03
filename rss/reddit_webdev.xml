@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 03 Mar 2026 06:45:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 09:38:47 GMT</lastBuildDate>
+    <item>
+      <title>在新的 Postman 定价之后，小型 Web 团队是否正在重新考虑他们的 API 工作流程？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rjjwwg/are_small_web_teams_rethinking_their_api_workflow/</link>
+      <description><![CDATA[现在团队定价为 19 美元/用户，我很好奇小型 Web 团队和副项目如何适应。 您是坚持使用 Postman，简化工作流程，还是改用更轻量/本地工具？ 特别是对于 Web 项目，最近最实用的设置是什么？   由   提交 /u/Useful_Potential4648   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rjjwwg/are_small_web_teams_rethinking_their_api_workflow/</guid>
+      <pubDate>Tue, 03 Mar 2026 08:24:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>无需正则表达式即可可靠地解析传入电子邮件？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rjjkrs/parsing_incoming_emails_reliably_without_regex/</link>
+      <description><![CDATA[我不断遇到重要数据仅通过电子邮件到达的工作流程（发票、发货通知、订单确认等）。 通常的方法似乎是正则表达式规则或固定模板。但每当电子邮件格式发生变化时，这种情况往往会被破坏。 我一直在尝试一种不同的方法 - 定义一个模式（如发票编号、项目、总计等）并使用 AI 从电子邮件中提取结构化 JSON，然后将其转发到 Webhook。我围绕这个问题制作了一个小工具，该工具已经在其他软件的生产代码中使用。我看到了一些缺点，但现在很满意。 很好奇这里的其他人如何在生产中处理基于电子邮件的集成。 您是否正在使用自己的解析器或使用现成的东西？   由   提交 /u/Educational_Bed8483   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rjjkrs/parsing_incoming_emails_reliably_without_regex/</guid>
+      <pubDate>Tue, 03 Mar 2026 08:02:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>在美国，一个 1000 美元的基本网站是什么样子的？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rjjd9n/what_does_a_basic_1000_website_look_like_in_usa/</link>
+      <description><![CDATA[我无法理解美国/世界范围内人们对 1000 美元的“基本”期望是什么，如果您心中有任何网站/您的作品集中有一个可以回答我的问题的网站，我很乐意看到它，我真的很想专门进行网页设计，但我无法理解人们通常想要什么 （英语不是我的第一语言，抱歉，如果这听起来很粗鲁，我只想获得知识）   由   提交 /u/BaroqueCensure   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rjjd9n/what_does_a_basic_1000_website_look_like_in_usa/</guid>
+      <pubDate>Tue, 03 Mar 2026 07:50:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>最近 100 多个 WordPress 职位列表揭示了该行业的哪些情况</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rjiulp/what_100_recent_wordpress_job_listings_reveal/</link>
+      <description><![CDATA[我最近分析了 100 多个最近的 WordPress 职位列表，以了解公司现在实际招聘的内容。 一些有趣的模式脱颖而出：  – 远程仍然占主导地位，但许多角色受到时区或地区的限制 – PHP 仍然必不可少，但 JavaScript（尤其是 React 和 Gutenberg 块）比以前出现得更频繁 – WooCommerce 体验显着增加机会 – 真正适合初级的角色是有限的 – 高级角色越来越期望架构、性能和跨团队协作技能 有一件事是明确的：WordPress 并没有消亡，但期望比 5-10 年前要高。 我在这里写了一份完整的细分，对角色、技能和薪资模式进行了更深入的分析： https://wpcareerhub.com/what-100-recent-wordpress-job-listings-reveal-about-the-industry/ 想知道其他人最近在 WordPress 招聘方面看到了什么趋势吗？   由   提交/u/markjohn8102   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rjiulp/what_100_recent_wordpress_job_listings_reveal/</guid>
+      <pubDate>Tue, 03 Mar 2026 07:18:03 GMT</pubDate>
+    </item>
     <item>
       <title>老板想要每天 5000 行，但我用屏幕自动化破解了这个无 api 桌面应用程序，有人有更好的方法吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rjhbcf/boss_wants_5000_lines_a_day_but_i_hacked_this/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[嘿r/webdev， 我想分享一个我在 Olib AI 开发的工具，名为 MailCue。 作为 Web 开发人员，我们都使用过 Mailtrap 或 Mailhog 等工具。它们非常适合“电子邮件发送了吗？”检查，但我不断遇到边缘情况，需要测试实际的 IMAP 文件夹同步、DKIM 签名 或 GPG 加密。我找不到可以同时完成这三项任务的单容器解决方案，因此我决定构建一个。 堆栈 我希望在使用现代堆栈时使部署尽可能简单（一个 Docker 命令）：  后端： FastAPI (Python 3.12) 与 SQLAlchemy 2（异步）和aiosqlite。 前端： React 19，带有 TypeScript、Tailwind CSS 4 和 TanStack 查询。 邮件堆栈： Postfix、Dovecot 和OpenDKIM。 进程管理： s6-overlay (v3) 处理容器内的多进程编排。  为什么我这样构建它 MailCue 不只是模拟 SMTP 服务器，而是运行一个真正的邮件堆栈。  IMAP/POP3：您可以将 Thunderbird 或 Apple Mail 等真实客户端连接到本地开发环境，以准确查看应用电子邮件的外观和行为。 GPG/PGP-MIME：我们添加了完整的 GPG 密钥管理 (RSA/ECC)，以便您可以测试签名/加密的工作流程。 实时 SSE：我们使用服务器发送事件 (SSE)，以便在收到新电子邮件时 UI 会立即更新。 “捕获”或创建邮箱。 REST API：它的构建是 CI/CD 友好的，具有用于自动化测试管道的 X-API-Key 身份验证。  它是完全开源的（MIT 许可证）。我很想从社区获得有关该架构的一些反馈，特别是如何使用 Nginx 在同一容器内代理 React SPA 和 FastAPI 后端。 GitHub：https://github.com/Olib-AI/mailcue   由   提交/u/ahstanin  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rj755h/i_built_mailcue_a_realistic_mail_testing_server/</guid>
       <pubDate>Mon, 02 Mar 2026 22:18:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>当您只需要快速图标时，表情符号图标生成器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rj6kgm/emoji_favicon_generator_for_when_you_just_need_a/</link>
-      <description><![CDATA[       由   提交/u/masterco  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rj6kgm/emoji_favicon_generator_for_when_you_just_need_a/</guid>
-      <pubDate>Mon, 02 Mar 2026 21:56:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个 API，可以提供基于实时网络搜索的人工智能答案。我该如何改进这个？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rj5yt2/i_built_an_api_that_gives_ai_answers_grounded_in/</link>
-      <description><![CDATA[过去几个月我一直在构建 MIAPI — 它是一个 API，它返回 AI 生成的答案，并由真实的网络资源和内嵌引用支持。 一些统计数据：  平均响应时间：1.2 秒 定价：3.80 美元/1K 查询（相对于 Perplexity $5+，Brave 价格为 5-9 美元） 免费套餐：每月 500 次查询 兼容 OpenAI（只需更改 base_url）  支持内容：  带有引文的基于网络的答案 知识模式（来自您自己的文本/文档的答案） 新闻搜索、图像搜索 流式响应 Python SDK (pip install miapi-sdk)  我是一名独立开发人员，这是我的第一个真正的产品。希望获得有关 API 设计、文档或定价的反馈。 https://miapi.uk   由   提交 /u/Key-Asparagus5143   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rj5yt2/i_built_an_api_that_gives_ai_answers_grounded_in/</guid>
-      <pubDate>Mon, 02 Mar 2026 21:33:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 vanilla JS、Web Crypto API 和 Supabase 构建了一个加密承诺平台 — 没有框架，没有构建步骤</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rj5u99/i_built_a_cryptographic_commitment_platform_with/</link>
-      <description><![CDATA[我刚刚推出了 PSI-COMMIT，这是一个可以让您以加密方式密封预测并在比特币区块链上为其添加时间戳的平台。整个前端是一个 index.html - 没有 React，没有构建工具，没有捆绑器。 它的作用： 用户编写预测，浏览器通过 crypto.getRandomValues() 生成 256 位密钥，使用 Web Crypto API 计算 HMAC-SHA256，并仅发布 MAC。密钥和消息永远不会离开浏览器。稍后，用户可以透露，任何人都可以重新计算 HMAC 进行验证。每项承诺也通过 OpenTimestamps 在比特币上打上时间戳。 堆栈：  单文件前端（约 2000 行 - CSS、HTML、JS 全部集成在一起） 用于 HMAC-SHA256 和 SHA-256 的 Web Crypto API（零加密依赖性） 用于 Google OAuth 和直接数据库查询的 Supabase JS 客户端 用于墙持久性和 OpenTimestamps 锚定的 FastAPI 后端 用于生成化身的 DiceBear API 用于托管的 Railway  技术亮点：  Web Crypto API 处理所有密钥生成和 HMAC 计算客户端。一切都与手动 Uint8Array 缓冲区串联异步 - 冗长但零依赖性风险。 使用 persistSession 和 detectSessionInUrl 的 Supabase 身份验证可以用最少的代码处理整个 Google OAuth 重定向流程。 文件拖放验证 - 用户拖放 .psc 收据文件和 .txt 消息文件进行验证使用 FileReader 和 ondrop 完全在浏览器内进行承诺。 经过 JWT 验证的删除端点 - 后端在服务器端验证 Supabase 令牌，而不是信任客户端标头。 OpenTimestamps 集成锚定了每个比特币承诺的 SHA-256 摘要。确认大约需要 2 小时，然后时间戳是永久且可独立验证的。  开源：psicommit.com | https://github.com/RayanOgh/psi-commit 希望您能提出任何反馈。   由   提交 /u/Difficult_Jicama_759   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rj5u99/i_built_a_cryptographic_commitment_platform_with/</guid>
-      <pubDate>Mon, 02 Mar 2026 21:28:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>切换开关能力</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rj447h/toggle_switch_abilities/</link>
-      <description><![CDATA[过去几周这个想法一直在我的脑海中燃烧，我需要一些外部意见/知识。我知道切换开关主要用于从浅色模式切换到深色模式，但我有一个想法，即从一个网站切换到另一个视频游戏网站（举个随机的例子：《模拟人生 3》到《模拟人生 4》或其他网站）。  我最大的担心是计算机无法处理的延迟或太多工作。 有人尝试过这个或知道它是否有效？我是一名年轻的开发人员，所以我仍在学习哪些想法有效，哪些无效！   由   提交 /u/cryptogloom   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rj447h/toggle_switch_abilities/</guid>
-      <pubDate>Mon, 02 Mar 2026 20:25:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
