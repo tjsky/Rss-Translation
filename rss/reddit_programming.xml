@@ -4,13 +4,13 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 04 Mar 2026 01:43:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 04:29:34 GMT</lastBuildDate>
     <item>
-      <title>在 IDE 更新中断后修复脆弱的基于 CDP 的移动镜像（Shadow DOM + 快照启发式）</title>
-      <link>https://www.reddit.com/r/programming/comments/1rk8aha/fixing_a_brittle_cdpbased_mobile_mirror_after_a/</link>
-      <description><![CDATA[我维护一个 VS Code 扩展，它使用 CDP 快照将活动的桌面 IDE 聊天会话镜像到移动设备。 最新的 IDE 更新一次打破了多个假设：  聊天根选择器已更改（#cascade 不再稳定） 命令/菜单覆盖更改了结构和计时 CSS变量/主题停止解析镜像阴影内容 图标路径作为本地文件系统 URL 从桌面泄漏到移动设备  此版本 (v1.0.12) 主要是一个强化过程。有趣的部分是在上游 DOM 更改时使镜像正常降级。 1) 快照捕获：失败软而不是失败关闭 之前的行为： - 如果未找到聊天根，捕获会返回一个错误对象。 - 服务器将其视为不可用并删除了快照。 - 移动用户界面卡在“等待聊天界面”。 新行为： - 如果缺少特定的聊天根，捕获将回退到 document.body.outerHTML。 - 控件元数据仍然从 document.body 中提取。 - 客户端保持渲染，并且仍然可以在可能的情况下恢复模式/模型/停止控件。 要点：在 UI 镜像中，“不完整快照”通常比“无快照”更好。 2) Shadow DOM 主题陷阱：:root 不是您的影子根 镜像 UI 将上游 CSS 注入到影子根中。上游样式通过许多 :root { --vscode-* } 块定义颜色。 错误： - 在影子 ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rk8aha/fixing_a_brittle_cdpbased_mobile_mirror_after_a/</guid>
-      <pubDate>Wed, 04 Mar 2026 01:41:09 GMT</pubDate>
+      <title>使用计算机视觉揭开 Epstein 文件中经过编辑的姓名（开源）</title>
+      <link>https://www.reddit.com/r/programming/comments/1rk9lp3/using_computer_vision_to_unmask_the_redacted/</link>
+      <description><![CDATA[我最近构建了一个名为 Unredact 的开源工具，可以帮助缩小 Epstein 案件文件中的密文名称范围。 它的工作原理是分析密文框的几何形状（字体间距、字符宽度、周围版式），并交叉引用已知的关联，以生成物理上适合密文空间的名称列表。在某些情况下，如果编辑很草率并且像素渗漏，它可以进一步缩小范围。 使用 python、rust 和 javascript 构建。 我制作了一个视频，通过现场演示演示了它的工作原理。 项目链接：https://github.com/Alex-Gilbert/unredact 非常感谢 EpsteinSleuther，他的作品为设计提供了很多灵感，也感谢 R. Howard Stone，他关联数据集使匹配成为可能。   由   提交/u/Xaxxmineraxx   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rk9lp3/using_computer_vision_to_unmask_the_redacted/</guid>
+      <pubDate>Wed, 04 Mar 2026 02:40:00 GMT</pubDate>
     </item>
     <item>
       <title>停止使用浮动！ （为什么你的嵌入式 C 很慢）</title>

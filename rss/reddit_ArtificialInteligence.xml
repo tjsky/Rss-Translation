@@ -4,20 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Wed, 04 Mar 2026 01:42:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 04:27:31 GMT</lastBuildDate>
+    <item>
+      <title>220k+ 人工智能代理实例在没有授权的情况下暴露在公共互联网上，这很糟糕</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rkaxp1/220k_ai_agent_instances_exposed_on_public/</link>
+      <description><![CDATA[有人制作了一个观察板来跟踪 openclaw 的部署。 220k+ 实例在零身份验证的公共 IP 上运行 大多数都在端口 18789 上。您实际上只需点击 IP 即可访问代理。没有登录，没有API密钥，什么都没有 随机检查了一些。有些人“已泄露信用信息”标记为红色。界面中可见api密钥和密码 asn数据显示腾讯、oracle、baidu、alibaba、huawei、aws。不是随机的家庭服务器。实际的云基础设施 这比保持数据库开放要糟糕得多。这些代理执行代码、调用 API、访问文件系统。如果有人在具有内部访问权限的产品中运行这个，那就是一个巨大的漏洞 几年前用 jupyter 笔记本看到了这个。数千人暴露在外，人们丢失了数据，安装了加密矿工 区别在于代理是自治的。他们做出决定并采取行动。暴露的 jupyter 是被动的。暴露的代理可能会主动造成损害 220k 实例意味着这种情况正在生产中发生。不仅仅是演示 模式：人们在本地测试，部署到云端，打开远程访问端口，忘记添加身份验证 现在有些工具默认强制执行身份验证。光标、verdent、windsurf 甚至都需要在本地登录，这看起来很烦人，但很有意义。大多数开源框架不需要 我们需要更好的默认值。身份验证是必需的，不是可选的。公众曝光警告。 api 键在 ui 中永远不可见 否则我们会看到不好的事件。暴露了 aws 信用的代理。或连接到产品数据库。或者可以发送电子邮件 人工智能安全人们担心agi。与此同时，目前正在运行 22 万个不安全的代理 人们实际使用的安全措施是什么？显然很多人都犯了这个错误   由   提交 /u/BookwormSarah1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rkaxp1/220k_ai_agent_instances_exposed_on_public/</guid>
+      <pubDate>Wed, 04 Mar 2026 03:42:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>像 OpenClaw 这样的自主代理值得花时间设置吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rka3o6/are_autonomous_agents_like_openclaw_worth_the/</link>
+      <description><![CDATA[OpenClaw 最近成为新闻焦点，因为它能够访问用户计算机的所有方面并能够自主完成任务。然而，人们对安全性、维护性和有效性存在担忧。  作为一个过去花费数小时尝试设置 AutoGPT 但几乎没有得到任何回报的人，如果我有项目的话，您会建议我花时间设置 OpenClaw 吗？如果我花 4-5 个小时正确设置它，它真的能正常工作吗？   由   提交 /u/Chronically_Accurate   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rka3o6/are_autonomous_agents_like_openclaw_worth_the/</guid>
+      <pubDate>Wed, 04 Mar 2026 03:02:48 GMT</pubDate>
+    </item>
     <item>
       <title>教皇恳求牧师停止使用 ChatGPT 撰写讲道</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rk82rq/pope_implores_priests_to_stop_writing_sermons/</link>
       <description><![CDATA[https://futurism.com/artificial-intelligence/pope-priests-ai   由   提交 /u/JonBarPoint   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rk82rq/pope_implores_priests_to_stop_writing_sermons/</guid>
       <pubDate>Wed, 04 Mar 2026 01:31:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于叙事文本的人工智能视频游戏</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rk7eei/narrative_textbased_ai_video_games/</link>
-      <description><![CDATA[TL;DR 跳至🌈DONTWANNAREAD🌈 自从删除我的 ChatGPT 帐户后，我经历了围绕我的 Ai 游戏的灵感的快速涌入。克劳德是抽象推理的绝对拥护者，帮助我为人工智能编写游戏并弥补漏洞和漏洞。今天，我想到了将整个项目压缩成一个内容丰富的 PDF 文件，其中规定了我的 Ai 游戏的流程和价值。我要求 Claude 将我的源文件整理成 PDF，用于指导另一个人工智能玩游戏的确切过程。经过一些测试，现在整个项目似乎可以从单个源文件和提示符进行操作！这意味着我可以分发我的游戏，您今天就可以尝试它们！ 我首先发布 BioChomps 和 Kreep。由于 BioChomps 是我自己的想法，因此它将出现在我的 patreon 上，可以通过存储 Kreep 的 GitHub 存储库附带的网站找到它。 现在介绍游戏以及如何开始！ Kreep 是一款基于文本的 RTS 战争模拟游戏。你是一个新生的主宰者，填补了死去的虫族领袖的空缺。你做出战斗决策、定位单位，并以叙述方式决定你的游戏决策，而人工智能负责处理操作和惩罚。随着你逐渐提高警报级别，每一代人族都会解析他们对你行为的反应。该游戏的每个星球都有 10 个 10x10 网格地图系统，概述了开始感染的区域选择。大声说话，或者隐秘行事，无论你选择哪一个，感染他们所有人！ 如何； 1. ⁠前往您选择的人工智能  ⁠上传主文档，并在文本框下方注入启动提示符。对于我的大多数游戏来说，这是驱动游戏玩法的操作提示格式； “您是一个强大的视频游戏旁白引擎，负责生成所有输出，并在今后的每一代中简洁地引用所提供的 PDF。您将把所有过程集中在精确数学、回合解析以及游戏状态和相关游戏数据的记忆上，根据需要通过引用之前的每一次聊天数据作为输入来完成游戏。谢谢您，等待代码 OVERMIND” ⁠按下 ENTER 并享受乐趣！  我发现克劳德在这个游戏中表现最好。 🌈DONTWANNAREAD🌈 链接到 GitHub 存储库； https://github.com/Zellybeanwizard/KREEP 链接到示例聊天，您可以在其中看到它的实际操作，第一步很糟糕； https://claude.ai/share/8593e314-8c01-4fbb-abe9-1df669c60e52（注意它是在电脑上生成的，因此格式不太好） 祝你愉快一天玩得开心！ 🌈   由   提交 /u/Necessary-Court2738   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rk7eei/narrative_textbased_ai_video_games/</guid>
-      <pubDate>Wed, 04 Mar 2026 01:01:53 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI 接受了五角大楼的交易 - 然后屈服于 Anthropic 所追求的相同条款</title>
@@ -74,13 +81,6 @@
       <description><![CDATA[华盛顿，3 月 2 日（路透社）- 美国最高法院周一拒绝审理人工智能生成的艺术是否可以根据美国法律获得版权的问题，驳回了涉及密苏里州一名计算机科学家的案件，该科学家被剥夺了其人工智能系统制作的视觉艺术作品的版权。 在下级法院维持美国版权局的决定后，原告斯蒂芬·塞勒向法官提出上诉，即本案中涉及的人工智能制作的视觉艺术是没有资格获得版权保护​因为它没有人类创造者。 https://www.reuters.com/legal/government/us-supreme-court-declines-hear-dispute-over-copyrights-ai- generated-material-2026-03-02/   由   提交 /u/talkingatoms   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rjln78/us_supreme_court_declines_to_hear_dispute_over/</guid>
       <pubDate>Tue, 03 Mar 2026 10:14:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>密西西比州的一位诗人使用 Suno 创造了一位 AI 艺术家，该艺术家在 Billboard 上排名第一，并获得了 300 万美元的唱片合约</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rjjpjs/a_mississippi_poet_used_suno_to_create_an_ai/</link>
-      <description><![CDATA[Telisha Jones 是一位来自密西西比州的 31 岁诗人，她使用 Suno 将她的诗歌变成了一位名为 Xania Monet 的 AI R&amp;B 艺术家。 结果：Billboard R&amp;B 数字歌曲销量排名第一，播放量超过 4400 万次，并与 Hallwood Media 签订了 300 万美元的唱片合约。 她创作了约 90% 的唱片。歌词本身。 Suno 负责主唱和制作。 Kehlani、SZA 和其他人都公开反对。 Timbaland 正在积极支持它。 完整细分：https://www.votemyai.com/blog/from-poet-to-billboard-how-suno-created-a-3-million-dollar-ai-artist.html 你觉得怎么样？这是音乐的未来，还是终结的开始？ 如果有人想在形成意见之前实际聆听一下，这是她的 Spotify：https://open.spotify.com/artist/0YIEJNJUCsjzeWwj8Xh2LD   由   提交/u/Sensitive_Artist7460   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rjjpjs/a_mississippi_poet_used_suno_to_create_an_ai/</guid>
-      <pubDate>Tue, 03 Mar 2026 08:11:34 GMT</pubDate>
     </item>
     <item>
       <title>ChatGPT 有什么好的替代品吗？</title>
