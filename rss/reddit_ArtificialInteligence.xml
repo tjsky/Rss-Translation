@@ -4,7 +4,21 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>一个致力于一切人工智能的 Reddit 子版块。涵盖从通用人工智能到人工智能初创公司的主题。无论您是研究人员、开发人员，还是只是对人工智能感到好奇，都请加入吧！</description>
-    <lastBuildDate>Wed, 04 Mar 2026 06:40:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 09:35:13 GMT</lastBuildDate>
+    <item>
+      <title>Grok 几代都无法删除？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rkey48/grok_generations_are_impossible_to_delete/</link>
+      <description><![CDATA[我正在做一个实验，与 Twitter 最近的隐私变化有关，由于 grok 被链接到，我也测试了它。 当你生成图像时，你会得到一个直接访问它的链接，这与用于共享的链接不同，顺便说一句。 这会导致 3 种情况：A）使用其他帐户的链接，显示访问被拒绝。 B) 拥有访问权限后，您可以打开图像。 C）在设置中删除资产后打开链接，显示访问被拒绝。 使用选项 C，我感到有点不安，因为这意味着图像将保留存储，可能是永久存储，因为他们试图不清楚图像会发生什么。 我想在透明度问题之后指出这一点，只是为了让您知道所有内容可能都被保存以供将来参考。 但是，我想知道我是否可能是错的，并且图像实际上可以被删除，也许之后一次，或删除帐户本身。我敢打赌它会保留下来，因为商店图片对他们来说并不是什么大问题。 您对此有何看法？   由   提交 /u/Think_Criticism_3665   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rkey48/grok_generations_are_impossible_to_delete/</guid>
+      <pubDate>Wed, 04 Mar 2026 07:18:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>这里有人开始使用人工智能工具来构建软件的规划阶段，而不仅仅是编码部分吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rkdwwn/has_anyone_here_started_using_ai_tools_for_the/</link>
+      <description><![CDATA[我看到的大多数对话都是关于 Replit、v0 或 Cursor 等帮助更快生成代码的内容。这对于让原型快速运行显然很有用。但我一直遇到的是，混乱的部分并不总是编写代码，而是在开发开始之前弄清楚产品实际需要做什么。 我也在早期阶段尝试了多种工具，例如 Artus、Bolt 和 Durable 以及常用的构建器。有趣的是，在开始生成代码之前映射用户流程、功能范围和系统结构时，您会获得多少清晰度。它并没有消除对工程判断的需要，但它似乎确实减少了“在构建过程中找出答案”的问题。 很好奇是否还有其他人以这种方式接近 MVP，先规划和构建，然后生成和构建。   由   提交 /u/Tough_Reward3739   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rkdwwn/has_anyone_here_started_using_ai_tools_for_the/</guid>
+      <pubDate>Wed, 04 Mar 2026 06:17:42 GMT</pubDate>
+    </item>
     <item>
       <title>每日一分钟人工智能新闻 3/3/2026</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rkccff/oneminute_daily_ai_news_332026/</link>
@@ -81,20 +95,6 @@
       <description><![CDATA[如果您使用 AI 来撰写博客文章或 YouTube 脚本或生成图像，那么除了创建一个希望不错的提示之外，您实际上并没有做任何工作。但将其作为一项“技能”来学习似乎毫无用处。 但是……学习如何使用人工智能更快更好地完成工作，这似乎很有价值。  也许我错了，但我不想消费人工智能生成的文本、图像、视频等。我想要来自人类的创意内容，我觉得大多数人都有同样的感觉。    由   提交/u/0nlyhalfjewish  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rjvomg/i_dont_like_ai_for_creative_pursuits/</guid>
       <pubDate>Tue, 03 Mar 2026 17:34:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>清华大学鉴定出了导致人工智能幻觉的神经元。它们在排列中保持不变。修复必须是架构性的。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rjm07f/tsinghua_identified_the_neurons_that_cause_ai/</link>
-      <description><![CDATA[论文是 arXiv 2512.01797。研究人员发现了他们所谓的 H 神经元：前馈层中不到 0.01% 的神经元子集，编码过度服从。事实并非错误。产生自信答案而不是承认不确定性的动力。 没有得到充分讨论的关键发现：这些神经元在预训练期间形成，在对齐期间几乎没有变化。整个微调过程参数稳定性达到0.97。 RLHF 不会删除它们。它重定向了顺从行为，但使底层神经元在结构上保持完整。 这具有实际意义，我认为这比学术发现本身更重要。如果幻觉是由提示和微调无法达到的神经元引起的，那么修复就必须来自模型外部。没有更好的系统提示。不是“请验证您的说法”。不再是 RLHF。一些建筑性的东西。 人们正在尝试几种方法。宪法人工智能约束、检索增强生成、思维链验证。我一直在研究的是多模型同行评审。来自不同提供商的三个模型独立回答，然后每个模型匿名读取所有三个响应并对它们进行排名。该模型不知道它正在读取自己的答案还是其他人的答案。这消除了 H 神经元驱动的尊重和锚定行为。 经过同行评审，排名最高的响应被综合，然后一个不同的模型对其进行对抗性攻击。当细化循环开始橡皮图章而不是实际批评时，阿谀奉承检测就会标记（相同的 H 神经元问题，不同的阶段）。最后，个人声明会根据实时网络资源进行验证。 我将其构建到名为 Triall (https://triall.ai) 的工具中。如果有人想查看正在运行的管道，则无需注册即可免费运行一次。这里还有简洁的小演示视频：https://www.youtube.com/watch?v=m44tdRMaCq8 诚实的限制：相关错误。当所有三个模型从训练数据中学到相同的错误时，同行评审将无法发现它。研究表明，不同提供商之间大约有 60% 的错误相关性。当三者都同意但声明未经证实时，收敛检测会标记，网络验证会捕获其余部分，但尚未解决。 论文：https://arxiv.org/abs/2512.01797   由   提交/u/Fermato   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rjm07f/tsinghua_identified_the_neurons_that_cause_ai/</guid>
-      <pubDate>Tue, 03 Mar 2026 10:37:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 与 DoD 交易引发强烈反对后，ChatGPT 卸载量激增 295%</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rjfi09/chatgpt_uninstalls_surge_295_after_openais_dod/</link>
-      <description><![CDATA[ 由   提交/u/i-drake  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rjfi09/chatgpt_uninstalls_surge_295_after_openais_dod/</guid>
-      <pubDate>Tue, 03 Mar 2026 04:15:55 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
