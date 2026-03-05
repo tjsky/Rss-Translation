@@ -4,11 +4,18 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 05 Mar 2026 04:44:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 06:46:54 GMT</lastBuildDate>
+    <item>
+      <title>是时候离开 LinkedIn 了。你的职业生涯是产品，而你是受害者。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rl9fzp/it_is_time_to_leave_linkedin_your_career_is_the/</link>
+      <description><![CDATA[是时候我们认真谈谈“专业”了我们都被迫使用的平台。我们留下来是因为我们觉得我们必须这样做，但来自 linkedin subreddit 和最近调查报告的证据表明，LinkedIn 已成为我们职业生涯的负担，而不是资产。 这就是为什么我们需要罢工并放弃该平台：  他们用你的生计做实验： LinkedIn 承认对 2000 万用户进行了一项为期 5 年的研究，他们故意在其中操纵谁看到了哪些工作机会。他们确实限制了人们寻找工作、为科学杂志文章收集数据的能力。 你的隐私已死：自 2025 年 11 月以来，LinkedIn 一直在抓取你的私人消息和个人资料数据来训练人工智能。他们正在构建的工具最终将用于在未经您同意的情况下自动拒绝您或对您进行分析。 任意禁止和禁止。 ID 托管：由于存在缺陷的“机器人检测”，人们一夜之间失去了 10 多年的网络连接。为了取回它，他们要求您提供政府颁发的身份证件，然后将其交给第三方数据公司。如果他们决定禁止您，您的职业数字足迹将被删除。 “高级版”将被删除。骗局：虽然他们每月收取 40 美元以上的“见解”费用，但该平台目前充斥着用于获取数据的虚假工作和虚假帖子，而真正的招聘人员越来越多地被人工智能生成的“喧嚣文化”所淹没。   计划：  导出您的数据：转到“设置”&gt;“垃圾邮件”。数据隐私&gt;获取您数据的副本。 移动您的网络：创建时事通讯、个人网站，或将您的亲密联系人移至 Discord/Signal/Email。 关闭：将您的个人资料设置为私有或将其完全删除。  我们不欠 LinkedIn 我们的数据、时间或理智。是时候回到真实的人际网络了。   由   提交/u/Proof_Cable_310   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rl9fzp/it_is_time_to_leave_linkedin_your_career_is_the/</guid>
+      <pubDate>Thu, 05 Mar 2026 05:45:20 GMT</pubDate>
+    </item>
     <item>
       <title>我构建了一个轻量级 VPS 控制面板 (Go + React) — 部署应用程序、管理 PostgreSQL、Redis、SSL 和 NGINX</title>
       <link>https://www.reddit.com/r/opensource/comments/1rl4zjv/i_built_a_lightweight_vps_control_panel_go_react/</link>
-      <description><![CDATA[GitHub: https://github.com/freddiehdxd/panel 我构建了一个轻量级控制面板，用于在 VPS 上部署和管理应用程序，无需使用 Docker、Kubernetes 或繁重的 PaaS 工具。 目标很简单，即使在每月 4 美元的 1GB VPS。 它的作用 从 Git 部署应用  克隆存储库 安装依赖项 构建项目 从 PM2  全部通过 Web UI 进行管理。 域管理  生成 NGINX 反向代理配置 处理HTTP → HTTPS 重定向  一键式 SSL  让我们通过 Certbot 加密证书 自动 NGINX 配置  PostgreSQL 管理 直接从仪表板创建和管理数据库：  创建数据库 删除数据库 创建用户 管理权限  Redis支持  安装Redis 从面板管理Redis服务  文件管理器 基于浏览器的文件管理器到：  浏览文件 上传文件 直接在服务器上编辑文件  日志查看器  PM2应用程序日志 NGINX日志 语法突出显示  实时系统监控 通过WebSocket实时系统指标：  CPU 使用情况（每个核心） 内存使用情况 磁盘使用情况 网络 I/O 热门进程  每2 秒更新一次。 为什么使用此面板而不是现有面板？ 极其轻量级  Go 后端使用~15MB RAM 前端是由 NGINX 提供的静态文件 总开销约为~300MB  在1GB VPS上舒适运行。 不需要 Docker 没有容器、没有镜像层、没有编排复杂性。 仅使用 PM2 进行本机进程管理。 安全第一设计  无任意 shell 执行 后端使用已批准命令的白名单 通过绝对路径执行的命令  其他保护：  fail2ban 规则 速率限制 登录失败后 IP 锁定 输入验证 完整审核日志记录  单命令设置 在新的 Ubuntu 22.04+ VPS 上运行单个脚本： bash setup_panel.sh  此安装并配置：  Go Node.js PM2 NGINX PostgreSQL Redis Certbot UFW防火墙 fail2ban 日志轮转 每日数据库备份  自动NGINX回滚 如果配置更改失败nginx -t，系统会自动恢复以前的配置，以便服务器永远不会宕机。 生产就绪默认值 开箱即用：  安全标头 自动安全更新 日志轮换 每日 PostgreSQL备份 备份清理  技术堆栈 后端  Go 1.22 chi router pgx JWT auth WebSockets  前端  React 18 TypeScript Vite TailwindCSS  基础设施  NGINX PM2 PostgreSQL Redis Certbot UFW fail2ban  这适合谁 想要在 VPS 上托管应用程序的独立开发者、爱好者和小型团队无需学习 Kubernetes 或支付 PaaS 价格。 如果您曾经手动设置过：  NGINX PM2 Certbot PostgreSQL  …并希望有一个简单的 UI 来管理它，基本上就是这样。 该项目目前约为：  7,800 行代码 ~43 个源文件  没有不必要的抽象或膨胀。 反馈、功能想法和贡献是欢迎。 如果人们觉得它有用，我会不断改进它。   由   提交 /u/AIPnely   [link] [评论]]]></description>
+      <description><![CDATA[GitHub: https://github.com/freddiehdxd/panel 我构建了一个轻量级控制面板，用于在 VPS 上部署和管理应用程序，无需使用 Docker、Kubernetes 或繁重的 PaaS 工具。 目标很简单，即使在每月 4 美元的 1GB VPS。 它的作用 从 Git 部署应用  克隆存储库 安装依赖项 构建项目 从 PM2  全部通过 Web UI 进行管理。 域管理  生成 NGINX 反向代理配置 处理HTTP → HTTPS 重定向  一键式 SSL  让我们通过 Certbot 加密证书 自动 NGINX 配置  PostgreSQL 管理 直接从仪表板创建和管理数据库：  创建数据库 删除数据库 创建用户 管理权限  Redis支持  安装Redis 从面板管理Redis服务  文件管理器 基于浏览器的文件管理器到：  浏览文件 上传文件 直接在服务器上编辑文件  日志查看器  PM2应用程序日志 NGINX日志 语法突出显示  实时系统监控 通过WebSocket实时系统指标：  CPU 使用情况（每个核心） 内存使用情况 磁盘使用情况 网络 I/O 热门进程  每2 秒更新一次。 为什么使用此面板而不是现有面板？ 极其轻量级  Go 后端使用~15MB RAM 前端是由 NGINX 提供的静态文件 总开销约为~300MB  在1GB VPS上舒适运行。 不需要 Docker 没有容器、没有镜像层、没有编排复杂性。 仅使用 PM2 进行本机进程管理。 安全第一设计  无任意 shell 执行 后端使用已批准命令的白名单 通过绝对路径执行的命令  其他保护：  fail2ban 规则 速率限制 登录失败后 IP 锁定 输入验证 完整审核日志记录  单命令设置 在新的 Ubuntu 22.04+ VPS 上运行单个脚本： bash setup_panel.sh  此安装并配置：  Go Node.js PM2 NGINX PostgreSQL Redis Certbot UFW防火墙 fail2ban 日志轮换 每日数据库备份  自动NGINX回滚 如果配置更改失败nginx -t，系统会自动恢复以前的配置，以便服务器永远不会宕机。 生产就绪默认值 开箱即用：  安全标头 自动安全更新 日志轮换 每日 PostgreSQL备份 备份清理  技术堆栈 后端  Go 1.22 chi router pgx JWT auth WebSockets  前端  React 18 TypeScript Vite TailwindCSS  基础设施  NGINX PM2 PostgreSQL Redis Certbot UFW fail2ban  这适合谁 想要在 VPS 上托管应用程序的独立开发者、爱好者和小型团队无需学习 Kubernetes 或支付 PaaS 价格。 如果您曾经手动设置过：  NGINX PM2 Certbot PostgreSQL  …并希望有一个简单的 UI 来管理它，基本上就是这样。 该项目目前约为：  7,800 行代码 ~43 个源文件  没有不必要的抽象或膨胀。 反馈、功能想法和贡献是欢迎。 如果人们觉得它有用，我会不断改进它。   由   提交 /u/AIPnely   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rl4zjv/i_built_a_lightweight_vps_control_panel_go_react/</guid>
       <pubDate>Thu, 05 Mar 2026 02:10:16 GMT</pubDate>
     </item>
@@ -22,7 +29,7 @@
     <item>
       <title>对新手有什么建议吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1rl2mn5/any_recommendations_for_a_newbie/</link>
-      <description><![CDATA[我 5 个月前开始了自己的项目。这是我第一次创建一个真正的项目，并希望与他人分享。 对于新手有什么建议吗？我专注于制作优秀的文档、清晰的版本等...但我确信我缺少很多东西。 提前致谢！   由   提交/u/dygerydoo  [链接] [评论]]]></description>
+      <description><![CDATA[我 5 个月前开始了自己的项目。这是我第一次创建一个真正的项目，并希望与他人分享。 对于新手有什么建议吗？我专注于制作优秀的文档、清晰的版本等...但我确信我遗漏了很多东西。 例如：社区、处理问题、贡献者或采用方面的错误。 您通过艰难的方式学到了什么？ 提前致谢！   由   提交/u/dygerydoo  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rl2mn5/any_recommendations_for_a_newbie/</guid>
       <pubDate>Thu, 05 Mar 2026 00:24:54 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[       由   提交 /u/SubliminalPoet   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rj6s49/motorola_confirms_grapheneos_support_for_a_future/</guid>
       <pubDate>Mon, 02 Mar 2026 22:04:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个仪表板来控制 iOS 模拟器和 Android 模拟器</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rj4jvb/i_built_a_single_dashboard_to_control_ios/</link>
-      <description><![CDATA[      各位 Reddit 用户大家好， 从事移动开发已有约 5 年了。厌倦了摆弄我永远记不起的 simctl 命令、与 adb 作斗争，以及手动调整随机模拟器设置...... 所以我构建了 Simvyn --- 一个仪表板 + CLI 来包装两个平台。 没有 SDK。没有代码更改。适用于任何应用程序和 它的作用   模拟位置 --- 在交互式地图上选择一个地点或播放 GPX 路线，以便您的设备“驾驶”沿着路径\  日志查看器 --- 实时流、级别过滤、正则表达式搜索\  推送通知 --- 使用保存的模板发送到 iOS 模拟器\  数据库检查器 --- 浏览 SQLite、运行查询、读取 SharedPreferences / NSUserDefaults\  文件浏览器 --- 探索应用程序具有内联编辑功能的沙箱\  深层链接 --- 保存的库，以便您停止从 Slack 复制粘贴\  设备设置 --- 深色模式、权限、电池模拟、状态栏覆盖、可访问性\  屏幕截图、屏幕录制、崩溃日志 --- 加上剪贴板和媒体管理  一切都可以通过 CLI 进行 --- 所以您可以编写脚本。 尝试一下 bash npx simvyn  在浏览器中打开本地仪表板。就是这样。 GitHub：\ https://github.com/pranshuchtora/simvyn 如果这每天可以为您节省几分钟时间，请考虑在 GitHub 上给它一个 ⭐ --- 谢谢 🚀   由   提交 /u/IndianITCell   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rj4jvb/i_built_a_single_dashboard_to_control_ios/</guid>
-      <pubDate>Mon, 02 Mar 2026 20:41:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
