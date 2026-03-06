@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 06 Mar 2026 09:34:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 12:44:24 GMT</lastBuildDate>
+    <item>
+      <title>Glance - 开源 macOS 状态栏替换（Swift/SwiftUI、MIT）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rmbu01/glance_opensource_macos_status_bar_replacement/</link>
+      <description><![CDATA[刚刚发布了 Glance v1.0.0，这是一个针对 macOS 的自定义状态栏。 我构建它是因为默认菜单栏感觉太有限了。 Glance 将其替换为可配置的小部件：工作区、正在播放、音量、网络、电池、日历时间。每个小部件都有一个详细的弹出窗口。有 11 种不同配色方案和风格的预设。 技术堆栈：纯 Swift 和 SwiftUI。没有 Electron，没有 Web 视图，除了两个 Swift 包（TOML 解析器和 Markdown 渲染器）之外没有任何依赖项。 Config 是一个具有实时重新加载功能的简单 TOML 文件，您也可以使用内置的设置 GUI。 使用一些私有 CGS API 来支持本机 macOS Spaces（与 SketchyBar、yabai 等相同的方法），并使用辅助功能 API 来防止最大化的窗口超出栏后面。 MIT 许可，欢迎贡献。 GitHub：https://github.com/azixxxxx/glance   由   提交 /u/ffaiithh   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rmbu01/glance_opensource_macos_status_bar_replacement/</guid>
+      <pubDate>Fri, 06 Mar 2026 11:45:31 GMT</pubDate>
+    </item>
     <item>
       <title>Opus 专利流氓声称 9 项过期或过期的 Opus 专利</title>
       <link>https://www.reddit.com/r/opensource/comments/1rlxp3d/opus_patent_troll_claims_9_expired_or_postopus/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[不知道 RMS (Richard M. Stallman) 对于自由软件和开源来说意味着什么，就像不知道托马斯·杰斐逊 (Thomas Jefferson) 对美国的重要性一样。就像美国历史上的杰斐逊一样，RMS 是开源社区历史上一个有争议的人物。  https://youtu.be/LIpmsUNmEk8 在宇宙末日微集中，我们探讨了各种主题，包括： GNU 崇拜的问题  社区内的理论家 开源中的社会契约 某些开源社区中出现的不自由倾向  与我、Justin Reock 和 Vincent Mayers 一起踏上这段短暂但富有启发性的旅程，讨论 RMS 的“谁”、“什么”、“为什么”和“如何”以及取消文化的影响。    由   提交/u/linuxhiker  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rktwsl/the_cult_of_gnu_and_the_fall_of_richard_stallman/</guid>
       <pubDate>Wed, 04 Mar 2026 18:49:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMA：我是 Ben Halpern，dev.to 的创始人兼开源社区托管软件 Forem 的管理者。请于本周四东部时间下午 1 点向我询问任何问题。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rkt1jw/ama_im_ben_halpern_founder_of_devto_and_steward/</link>
-      <description><![CDATA[大家好，我是 DEV (dev.to) 的创始人，这是一个基于我们的开源软件 Forem 构建的开发者网络。 我们已经经历了 10 多年的历程，并指望致力于所有这一切，我们最近加入 MLH 作为这一历程的下一步。 Forem 是一项与数百名贡献者共同进行的令人着迷的公开构建实验。我们经历了很多成功和失败，但我们将这个新时代视为重新确立长期目标的机会，使 Forem 成为任何人托管社区的可行选择。 我们对人工智能时代开源将如何变化感到好奇和着迷，我很高兴与大家谈论这些。   由   提交 /u/Significant-Fan-8454   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rkt1jw/ama_im_ben_halpern_founder_of_devto_and_steward/</guid>
-      <pubDate>Wed, 04 Mar 2026 18:18:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
