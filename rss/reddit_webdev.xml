@@ -4,7 +4,42 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 06 Mar 2026 12:44:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 15:33:39 GMT</lastBuildDate>
+    <item>
+      <title>作为一名程序员，您使用过哪些用于编写代码的优秀监视器？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rmh52t/as_a_programmer_what_are_some_good_monitors_for/</link>
+      <description><![CDATA[大家好， 我最近编码的时间越来越长，我当前的显示器感觉有点局促。 主要使用 VS Code、终端和大量浏览器选项卡。正在考虑升级到更大、更美观的东西。 预算大约 300-500 美元 好奇这里的其他程序员实际上喜欢用什么来编码？   由   提交 /u/Mysterious-Mode-4923   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rmh52t/as_a_programmer_what_are_some_good_monitors_for/</guid>
+      <pubDate>Fri, 06 Mar 2026 15:33:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>大额拍卖平台，业界如何做到这一点？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rmfq2v/auction_platform_with_large_sums_how_does_the/</link>
+      <description><![CDATA[我的一个客户想要建立一个高端时尚现场拍卖平台，用户可以注册（需要支付 0,01 美元付款进行验证），并且可以对物品进行竞价，但是如果他们赢得了拍卖，并且该物品是 25.000 美元怎么办  使用直接付款方式很困难，大多数付款方式都有上限，信用卡甚至都没有那么远。但我们确实需要立即知道该用户是否愿意付款。 要求立即支付押金？例如，拍卖结束后（有 30 分钟）立即通过信用卡付款 500 美元。 您会建议采用哪种方法？    由   提交 /u/notflips   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rmfq2v/auction_platform_with_large_sums_how_does_the/</guid>
+      <pubDate>Fri, 06 Mar 2026 14:39:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>来自网络的最便宜的人工智能答案击败 Perplexity 和 Gpt 的模型（针对开发人员）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rmesav/cheapest_ai_answers_from_the_web_beating/</link>
+      <description><![CDATA[在过去的几个月里一直在构建 MIAPI - 它是一个 API，它返回 AI 生成的答案，并由具有内联引用的真实网络资源支持。 非常适合 API 开发 一些统计数据：  平均响应时间：1 秒 定价：3.60 美元/1K 查询（与 Perplexity 的价格为 5-14 美元以上，Brave 的价格为 5-9 美元） 免费套餐：500 次查询/月 与 OpenAI 兼容（只需更改 base_url）  它支持什么：  带有引文的基于网络的答案 知识模式（来自您自己的文本/文档的答案） 新闻搜索、图像搜索 流式响应 Python SDK (pip install miapi-sdk)  我是一名独立开发人员，这是我的第一个真正的产品。希望获得有关 API 设计、文档或定价的反馈。 https://miapi.uk   由   提交 /u/Key-Asparagus5143   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rmesav/cheapest_ai_answers_from_the_web_beating/</guid>
+      <pubDate>Fri, 06 Mar 2026 14:01:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>追求“完美扫描”：Lighthouse/PageSpeed 的可访问性停留在 96%。我缺少什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rmduzb/chasing_the_perfect_sweep_stuck_at_96/</link>
+      <description><![CDATA[大家好，​我目前正在优化一个极简主义网站，但在移动设备上的辅助功能得分仅剩 4% 时遇到了困难。桌面版已经达到完美的 100/100/100/100。​当前统计数据（移动）：​性能：100 ​可访问性：96 ​最佳实践：100 ​SEO：100 ​我为修复 a11y 所采取的措施：​对比度：链接在纯黑色背景上为白色（#ffffff on #000000）。语义：使用 和。机器可读性：为合法链接添加了明确的咏叹调标签。​焦点：装饰元素（如分隔符）设置为 aria-hidden=“true”。尽管如此，PageSpeed Insights 使我的进度保持在 96%，而没有标记特定的“红色”区域。审核失败。我已经取消了所有重型插件以确保零膨胀。​我的页脚 HTML： &lt;页脚角色=“contentinfo”样式=”背景：透明;内边距：60px 20px 40px；文本对齐：居中；&gt;&gt; &gt;隐私 |&lt;/span&gt;  &lt;/nav&gt; &lt;/footer&gt; 问题：是否存在“沉默”的情况？ Lighthouse 中的 a11y 杀手不会触发特定的错误消息？​可能是  上缺少 lang 属性吗？标签？ ​14px 字体大小的点击目标对于“96 到 100”来说是否太小？手机上跳？ ​Lighthouse 会惩罚 a11y 内联样式中的 !important 吗？​我的目标是 4x100 纯粹是为了技术挑战。来自 11y 专业人士的任何见解都将是巨大的！   由   提交 /u/NeoLogic_Dev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rmduzb/chasing_the_perfect_sweep_stuck_at_96/</guid>
+      <pubDate>Fri, 06 Mar 2026 13:23:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>这是怎样的行业标准？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rmd81r/how_is_this_the_industry_standard/</link>
+      <description><![CDATA[我知道现在的市场很艰难，尤其是对于初级人员来说，但目前网络开发人员角色的技术评估状况确实让我大吃一惊。 我申请的几乎每一家中型公司或初创公司都要求有一个大型的带回家的项目。他们不仅仅想要一个简单的算法或一个基本的 UI 组件。他们想要一个完整的 Next.js/React 应用程序，具有状态管理、连接的数据库、身份验证、API 路由和完美的响应式样式。哦，还有“请将其托管在 Vercel 上并共享 GitHub 存储库”。很容易需要 15 到 20 个小时才能做好。您将周末的时间投入其中，提交链接，然后三天后遭到自动拒绝。没有代码审查，没有反馈，什么都没有。 感觉这些公司中有一半只是从绝望的申请者那里外包免费模板、错误修复或架构想法。为什么 Web 开发人员必须为每个工作应用程序构建一个全新的迷你 SaaS 产品，只是为了证明我们知道如何获取数据和渲染组件？ 你们如何处理这个问题？您是否准备好模板并尝试对其进行调整？是否有希望通过标准化的方式来证明我们的技能，而无需每次都免费提供完整的、可用于生产的代码库？   由   提交 /u/Ill-Football-9344   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rmd81r/how_is_this_the_industry_standard/</guid>
+      <pubDate>Fri, 06 Mar 2026 12:54:52 GMT</pubDate>
+    </item>
     <item>
       <title>经营网络代理机构的人如何获得潜在客户？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rmct6m/people_who_run_web_agencies_how_do_you_get_leads/</link>
@@ -27,13 +62,6 @@
       <pubDate>Fri, 06 Mar 2026 12:24:49 GMT</pubDate>
     </item>
     <item>
-      <title>我在会议期间很安静并且很难参与进来</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rmc0zq/im_quiet_during_meetings_and_struggle_to_pitch_in/</link>
-      <description><![CDATA[有时我会与冒名顶替综合症作斗争。我是 AuDHD（我讨厌这样开头，但我觉得我需要这样做） 我通常更像是一个倾听者。我担任软件开发人员已有 5-6 年了。当人们讨论逻辑，或者讨论实施一个想法时，我发现很难加入或参与。我发现很难跟上并处理每个人所说的内容。如果是基于文本的，我一般都可以。但我现在在另一个喜欢一起讨论事情的团队。不可否认，我真的很挣扎，这让我感觉有点蹩脚。我是一名优秀的开发人员，我只是很难说话，不想看起来很愚蠢，或者说愚蠢的话，或者给人留下我不知道自己在做什么的印象   由   提交/u/Bennettoyo  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rmc0zq/im_quiet_during_meetings_and_struggle_to_pitch_in/</guid>
-      <pubDate>Fri, 06 Mar 2026 11:55:39 GMT</pubDate>
-    </item>
-    <item>
       <title>前端开发 vs UI/UX 设计师 哪个职业在人工智能时代更有前景？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rmb2ub/frontend_development_vs_uiux_designers_which/</link>
       <description><![CDATA[大家好，我刚刚偶然发现了这个困境，从长远来看，哪一个是更好的职业选择，由于人工智能使一切变得更快，我读了一些 ui/ux 子文章，提到现在一切都变得更快，质量已成为第二要务，当谈到前端开发时，我最近看到一个视频，其中 Infosys（印度的一家跨国服务公司）的一位高管提到前端工程师将被替换艾在未来几年。  我想知道未来10年哪个职业更有前景，请在下面留下我们的想法✌    由   提交 /u/navzzn   [链接] [评论]]]></description>
@@ -43,7 +71,7 @@
     <item>
       <title>表单工具感觉要么太准系统，要么太臃肿？</title>
       <link>https://www.reddit.com/r/webdev/comments/1rmax2p/form_tools_feel_either_too_barebones_or_way_too/</link>
-      <description><![CDATA[对于客户端站点和较小的 Web 项目，我总是遇到同样的表单问题。 真正简单的表单处理程序很好，因为它们设置速度快，易于理解，并且不会增加太多开销。 但是，一旦我想要更多的控制、更好的垃圾邮件防护、更少奇怪的品牌、更清晰的隐私影响，它们很快就会开始感到受到限制。 另一方面，许多更高级的选项感觉像是通过成为完整的平台来解决这个问题：仪表板、存储的提交、更复杂、更多的移动部件，而且通常定价对于基本上“请可靠地交付此表单”来说感觉有点疯狂。 对我来说最重要的是，我通常并不希望将每个提交都存储在另一个第三方仪表板中。 我只是想要：  良好的垃圾邮件防护 尽可能没有丑陋的验证码 可靠的交付 电子邮件和/或 webhook 支持 访问者的摩擦最小 不是另一个变成迷你 CRM 的工具 更少的隐私/GDPR 开销（而不是更多）  所以现在我一直觉得准系统表单处理程序和成熟的表单之间存在这种尴尬的差距平台。我对此感到非常恼火，最终为自己（和其他开发人员）构建了自己的解决方案，但我知道构建自定义解决方案对大多数人来说都太过分了。 你们在小型项目中主要使用什么表单？ 编辑：因为有很多人似乎确实相关，这是我构建的解决方案：https://boosterpackforms.com   由   提交 /u/Rough-Kaleidscope67   [链接] [评论]]]></description>
+      <description><![CDATA[对于客户端站点和较小的 Web 项目，我总是遇到同样的表单问题。 真正简单的表单处理程序很好，因为它们设置速度快，易于理解，并且不会增加太多开销。 但是，一旦我想要更多的控制、更好的垃圾邮件防护、更少奇怪的品牌、更清晰的隐私影响，它们很快就会开始感到受到限制。 另一方面，许多更高级的选项感觉像是通过成为完整的平台来解决这个问题：仪表板、存储的提交、更复杂、更多的移动部件，而且通常定价对于基本上“请可靠地交付此表单”来说感觉有点疯狂。 对我来说最重要的是，我通常并不希望将每个提交都存储在另一个第三方仪表板中。 我只是想要：  良好的垃圾邮件防护 尽可能没有丑陋的验证码 可靠的交付 电子邮件和/或 webhook 支持 访问者的摩擦最小 不是另一个变成迷你 CRM 的工具 更少的隐私/GDPR 开销（而不是更多）  所以现在我一直觉得准系统表单处理程序和成熟的表单之间存在这种尴尬的差距平台。我对此感到非常恼火，最终为自己（和其他开发人员）构建了自己的解决方案，但我知道构建自定义解决方案对于大多数人来说是多余的。 你们在小型项目中主要使用什么表单？   由   提交 /u/Rough-Kaleidscope67   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rmax2p/form_tools_feel_either_too_barebones_or_way_too/</guid>
       <pubDate>Fri, 06 Mar 2026 10:55:39 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[多年来我一直在构建网络应用程序，但我一直遇到同样的模式 - 总是有一些东西我没有尽早设置，而在以后添加时会变得非常痛苦。 对我来说，这是正确的错误跟踪。我总是告诉自己，“一旦我们启动”，我就会添加 Sentry 或类似的东西。然后 6 个月以来，我们通过模糊的用户报告来调试生产问题，而不是实际的堆栈跟踪。 你的是什么？可能是工具、架构决策、CI/CD 设置、监控、测试模式 — 如果您从一开始就这样做的话，任何可以让您避免严重头痛的事情。   由   提交/u/ruibranco  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rm7jjw/whats_the_one_thing_you_wish_youd_set_up_from_day/</guid>
       <pubDate>Fri, 06 Mar 2026 07:30:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人从网络开发转到另一个领域吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rm7dro/has_anyone_moved_on_to_another_field_from_web_dev/</link>
-      <description><![CDATA[我是一名网络开发人员，但我开始不再喜欢它了，长时间坐在电脑前已经让我的身心健康变得糟糕。我还认为我对人工智能的使用让我感觉非常愚蠢，我正在努力与之保持良好的平衡。尽管我总是得到很好的反馈，但我总是对每项工作都感到力不从心，我想我只是患有非常严重的冒名顶替综合症，并且总是感觉人们会因为我了解不够而抓住我。技术/网络开发领域有很多东西需要了解，我感觉自己很落后，现在只是将人工智能用于所有事情，很难不这样做。 我一直在考虑彻底改变职业生涯，但我不确定这是否是正确的决定。由于我的心理健康状况不佳，我目前很难对任何事情产生兴趣，但我真正喜欢的唯一的事情就是自然和动物。不过，这些领域的所有工作似乎薪水都很低，我担心我仍然不喜欢它。真的不知道我在找什么，但我想是否有人之前已经换了一份全新的工作   由   提交 /u/ProfessionalWorth157   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rm7dro/has_anyone_moved_on_to_another_field_from_web_dev/</guid>
-      <pubDate>Fri, 06 Mar 2026 07:20:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>您是否通过论坛或群组帖子寻找客户？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rm6rjz/do_you_ever_find_clients_through_forum_or_group/</link>
-      <description><![CDATA[我一直在尝试一种工作流程，用于监控社交媒体组和论坛中人们提到网站问题（网站速度慢、表单损坏等）的帖子。 我的想法是快速检测这些帖子，以便开发人员可以在线程拥挤之前介入并提供帮助。我和一位网络开发人员朋友一起测试了它，它产生了一些有趣的对话和内容。有些变成了客户工作。 我很好奇这是否也适用于其他机构/自由职业者，所以我正在考虑与另外 2-3 个人进行测试并获取反馈。  所以，是的，正在寻找几个志愿者 - 请告诉我 🙂   由   提交/u/Zanx_thebanx   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rm6rjz/do_you_ever_find_clients_through_forum_or_group/</guid>
-      <pubDate>Fri, 06 Mar 2026 06:44:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>冒名顶替综合症是一回事，但我确实认为很多开发人员和网页设计师的工作很糟糕，但仍然被雇用，并且凭借他们的经验，他们将再次被雇用</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rm6k06/imposter_syndrome_is_one_thing_but_i_do_think_lot/</link>
-      <description><![CDATA[昨天，我帮助我 40 多岁的邻居弄清楚如何使用她的银行网站将钱转入另一个帐户。银行网站太糟糕了，速度慢，用户体验很糟糕，我花了 5 分钟的导航才能完成银行网站最基本的事情 - 转账。 这样做的按钮是帐户状态上的一个悬停图标，看起来像发送电子邮件图标，只有悬停时才会显示文本“转账”。 我可以举出无数的例子，政府网站，银行，商店，糟糕的移动应用程序这几乎不起作用，当键盘打开时，您无法关闭它以按“下一个”键按钮。 现在想象一下某人的简历中写着“我为这家大银行建立了网站！”，这个人可能会被雇用。我确实认为人工智能会让情况变得更糟。 编辑： 我还将糟糕的 PM 添加到该列表中   由   提交 /u/xSypRo   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rm6k06/imposter_syndrome_is_one_thing_but_i_do_think_lot/</guid>
-      <pubDate>Fri, 06 Mar 2026 06:33:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>现在短信基础设施是否异常脆弱？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rm5i82/is_sms_infrastructure_just_weirdly_fragile_now/</link>
-      <description><![CDATA[也许这只是我们的经验，但短信似乎比我们预期的更难以预测。消息显示已发送，但用户说他们从未收到过，审批需要很长时间，运营商随机过滤某些消息格式。代码部分很简单……令人困惑的是它周围的生态系统。目前其他开发团队如何处理短信？   由   提交 /u/vpk_kkk   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rm5i82/is_sms_infrastructure_just_weirdly_fragile_now/</guid>
-      <pubDate>Fri, 06 Mar 2026 05:36:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
