@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Fri, 06 Mar 2026 01:46:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 04:28:26 GMT</lastBuildDate>
+    <item>
+      <title>处理敏感信息的最佳自动化工具？</title>
+      <link>https://www.reddit.com/r/automation/comments/1rm0v4n/best_automation_tool_for_sensitive_information/</link>
+      <description><![CDATA[使用 Retell 和 Zapier 为律师事务所构建非工作时间接收助理，但关心消费者数据。我喜欢复述，因为他们符合 HIPAA 要求，并且会签署 BAA，但 Zapier 不会这样做，这是我工作流程中的弱点。我正在考虑使用 activepieces，但如果有一个更安全的自动化工具来处理敏感的客户信息，我肯定会选择它。有什么想法吗？   由   提交 /u/Green-Photograph-774   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rm0v4n/best_automation_tool_for_sensitive_information/</guid>
+      <pubDate>Fri, 06 Mar 2026 01:54:30 GMT</pubDate>
+    </item>
     <item>
       <title>我无法在 Upwork 上获得提案或面试。</title>
       <link>https://www.reddit.com/r/automation/comments/1rlz4ad/i_cant_get_proposals_or_interviews_on_upwork/</link>
@@ -53,13 +60,6 @@
       <description><![CDATA[每次我们的分析团队需要来自新的 SaaS 源的数据时，它都会变成整个过程。有人需要销售人员数据来制作客户流失报告，他们向数据工程人员提交了一张票，工程人员在获得数据时会构建一个连接器，两周后数据开始流入仓库。到那时，业务问题已经改变了一半，或者领导层完全转移了。 每个新来源也不断发生这种情况。营销部门需要上个月的 hubspot 和谷歌广告数据。相同的周期。买票，等待，构建，再等等。由于访问瓶颈，原本应该花费几天时间的实际分析最终花费了一个月的时间。 我一直认为必须有一种方法来自动化摄取端，这样分析师就可以验证 SaaS 源并将数据放入仓库，而不需要工程人员每次都构建自定义的东西。在这个阶段，我们不需要复杂的转换，只需要将原始数据放在我们可以查询的地方即可。转换和建模部分仍然可以与工程一起使用，但初始连接不应需要两周的冲刺。 有人在他们的公司设置过类似的东西吗？很好奇这个设置是什么样的，以及分析师是否真正自己管理它，或者是否仍然需要一些工程监督。   由   提交/u/Flat_Row_10  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rligr0/anyone_automated_saas_data_ingestion_so_analysts/</guid>
       <pubDate>Thu, 05 Mar 2026 14:04:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>人们如何将传入的电子邮件解析为结构化数据？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rlhvnb/how_are_people_parsing_incoming_emails_into/</link>
-      <description><![CDATA[      我一直在研究后端工作流程，其中传入的电子邮件需要触发自动化。供应商发票、订单确认、发货通知等示例案例 棘手的部分是从电子邮件正文中提取结构化数据。每当电子邮件模板发生轻微变化时，正则表达式规则往往会被破坏，尤其是在处理多个发件人时。我很好奇人们如何在 Node.js 系统中解决这个问题。您是否正在构建基于模板的解析器，使用 LLM 进行提取或完全避免电子邮件集成？ 我开始尝试基于模式的提取，其中电子邮件被转换为结构化 JSON 并传递到 Webhook 好奇一旦这些工作流程开始扩展，这里的人们发现了哪些可靠的方法？   由   提交/u/Educational_Bed8483   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rlhvnb/how_are_people_parsing_incoming_emails_into/</guid>
-      <pubDate>Thu, 05 Mar 2026 13:39:40 GMT</pubDate>
     </item>
     <item>
       <title>有人真正为他们的团队实现视频制作自动化吗？</title>
