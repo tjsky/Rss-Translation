@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sat, 07 Mar 2026 04:19:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 06:33:43 GMT</lastBuildDate>
+    <item>
+      <title>我如何杀死管理员的死亡，在 10 分钟内自动跟踪潜在客户</title>
+      <link>https://www.reddit.com/r/automation/comments/1rn2d5y/how_i_killed_death_by_admin_automating_lead/</link>
+      <description><![CDATA[我们遇到了瓶颈：手动潜在客户处理每天要占用 2 个多小时的团队时间。我想分享我为修复该问题而构建的 10 分钟自动化的逻辑：  触发器：用于网站表单提交的 Webhook 侦听器。 提取：名称、电子邮件、公司和消息字符串的 JSON 解析。 代理逻辑：将消息传递给具有特定销售角色的 LLM 代理，以生成上下文感知的信息响应。 操作： 自动 SMTP 发送个性化回复。 同步： REST API POST 来更新 CRM 记录。  结果： 零接触潜在客户处理。 我正在使用可视化工作流程平台构建此类人工智能驱动的自动化。我想创建一个地方，企业可以通过真正“思考”的人工智能代理来运行工作流程。而不仅仅是来回移动数据。  那个“小”是什么？您办公室中的一项任务感觉像是浪费时间，但您尚未实现自动化？我想看看人工智能代理是否可以为您处理逻辑。   由   提交 /u/ZealousidealAd9886   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rn2d5y/how_i_killed_death_by_admin_automating_lead/</guid>
+      <pubDate>Sat, 07 Mar 2026 06:13:21 GMT</pubDate>
+    </item>
     <item>
       <title>人们现在使用哪些自动化工具进行视频创建工作流程？</title>
       <link>https://www.reddit.com/r/automation/comments/1rmyjay/what_automation_tools_are_people_using_for_video/</link>
@@ -20,7 +27,7 @@
       <pubDate>Fri, 06 Mar 2026 23:13:10 GMT</pubDate>
     </item>
     <item>
-      <title>我把我的旧 Android 手机变成了本地 AI 新闻摘要器（TikTok 风格的提要）</title>
+      <title>我把我的旧 Android 手机变成了本地 AI 新闻摘要器（TikTok 式提要）</title>
       <link>https://www.reddit.com/r/automation/comments/1rmp4zc/i_turned_my_old_android_phone_into_a_local_ai/</link>
       <description><![CDATA[大多数人工智能新闻应用程序都会锁定订阅背后的所有内容——人工智能摘要、偏差检测、干净的提要等。 我不想为此付费，所以我自己构建了。 设置非常简单，但有点有趣： 一个脚本从多个来源抓取新闻 文章经过一个管道：提取→人工智能摘要→清理输出 摘要显示在 TikTok 风格的垂直提要中，这样您就可以快速滚动浏览新闻。 有趣的是，所有 AI 都在本地运行。 我无需支付 API 或云 LLM 费用，而是使用 Termux 中的 llama.cpp 在旧 Android 手机上运行 Qwen 1.5B。手机基本上充当一个小型的本地推理服务器，总结每一篇文章。 所以整个管道看起来像这样： 新闻来源→抓取→运行 Qwen 的 Android 手机→摘要→可滚动 feed 没有 OpenAI API 没有订阅没有云计算只是一个回收手机来完成人工智能工作。 它显然不如大型模型那么快，但对于总结新闻来说它的效果出奇的好。  老实说，最有趣的部分是意识到抽屉里的随机旧手机可以运行完整的人工智能新闻管道。 很好奇这里是否有其他人在像这样的奇怪硬件上运行法学硕士。   由   提交 /u/ImpossibleArtichoke4   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rmp4zc/i_turned_my_old_android_phone_into_a_local_ai/</guid>
@@ -88,13 +95,6 @@
       <description><![CDATA[按照以下步骤操作：  找到合适的社区  收集目标受众活跃的 10 个 Reddit 子版块。 重点关注人们讨论与您的产品或服务相关的问题的社区。  了解他们的问题  阅读帖子和评论来识别： 常见问题 常见挫折 观众面临的挑战 这可以帮助您了解人们真正需要什么。  发送个性化欢迎消息  使用 r/DMdad 发送现成的欢迎消息消息，但会自动对其进行个性化设置。 这将帮助您： 避免被标记为垃圾邮件 提高回复率 开始自然对话  先帮助  一旦有人回复，请在销售前重点帮助他们。 在此阶段： 回答他们的问题 提供有用的建议 免费解决他们的部分问题 目标是在 MOFU（漏斗中部）阶段建立信任。  提出不可抗拒的报价  提供价值后，介绍您的解决方案。   由   提交 /u/mohamedaminee   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rmb2x6/how_to_get_responses_on_reddit_dms_and_turn_them/</guid>
       <pubDate>Fri, 06 Mar 2026 11:04:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>当您需要在自动化中快速使用 JS 片段而不部署无服务器时，您会选择什么？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rm84w1/whats_your_goto_when_you_need_a_quick_js_snippet/</link>
-      <description><![CDATA[这对我来说经常出现。例如解析粗糙的 API 响应、跨时区重新格式化日期或从 HTML 模板生成 PDF。对于公式来说太复杂，太小而无法证明 Lambda 的合理性。 最终围绕此构建了一个小工具（customjs），但我真的很好奇其他人的目标是什么。云功能？内联代码节点并仅处理 NPM 限制？完全是别的东西吗？   由   提交 /u/RoadFew6394   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rm84w1/whats_your_goto_when_you_need_a_quick_js_snippet/</guid>
-      <pubDate>Fri, 06 Mar 2026 08:06:39 GMT</pubDate>
     </item>
     <item>
       <title>没有禁令风险的 LinkedIn 自动化 - 2026 年什么真正有效？</title>
