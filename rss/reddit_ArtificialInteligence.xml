@@ -4,13 +4,48 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 07 Mar 2026 09:24:17 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 12:36:37 GMT</lastBuildDate>
     <item>
-      <title>适用于 Apple Silicon 的设备上语音工具包 — ASR、TTS、二值化、语音转语音，全部采用原生 Swift 语言</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn525g/ondevice_speech_toolkit_for_apple_silicon_asr_tts/</link>
-      <description><![CDATA[开源 Swift 包通过 MLX (GPU) 和 CoreML（神经引擎）在 Apple Silicon 上运行 11 个语音模型。完全本地推理，无云依赖。 实现的模型： ASR - Qwen3-ASR 0.6B/1.7B（4 位）、Parakeet TDT (CoreML INT4) - M2 Max 上的 RTF ~0.06 TTS - Qwen3-TTS 0.6B（4 位）、 CosyVoice3 0.5B（4 位）- 流式传输，第一个块约 120 毫秒 语音到语音 - PersonaPlex 7B（4 位）- 全双工，RTF ~0.87 VAD - Silero v5、Pyannote分段-3.0 - 流式传输 + 重叠检测 二值化 - Pyannote + WeSpeaker + 谱聚类 - 通过 GMM-BIC 自动说话人计数 增强 - DeepFilterNet3 (CoreML) - 实时 48kHz 噪声抑制 对齐 - Qwen3-ForcedAligner - 非自回归，RTF ~0.018 Key设计选择：MLX 适用于 GPU 上的大型模型，CoreML 适用于神经引擎上的小型模型。这让您可以在 ANE 上运行 VAD，而 ASR 在 GPU 上运行，而不会发生争用，这是 WhisperKit 所面临的问题（他们的 Core ML 音频编码器每次调用都会阻塞 ANE 300-600 毫秒）。 所有模型都符合共享协议，因此您可以交换实现或组合管道。目前正在开发 MeetingTranscriber 管道（diarize → 每段 ASR）和流式实时分类。 路线图：https://github.com/soniqo/speech-swift/discussions/81 存储库：https://github.com/soniqo/speech-swift   由   提交 /u/ivan_digital   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn525g/ondevice_speech_toolkit_for_apple_silicon_asr_tts/</guid>
-      <pubDate>Sat, 07 Mar 2026 08:47:12 GMT</pubDate>
+      <title>你们的人工智能聊天机器人最大的改进领域是什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn8cuf/what_is_the_biggest_area_of_improvement_for_your/</link>
+      <description><![CDATA[双子座试图将所有事情与我过去问过的事情联系起来。不要试图与一切建立联系。 有一天我问它关于 90 年代说唱的事情...... 然后另一天问它关于启动一个不露面的金融 youtube 频道 它一直试图将金融与 90 年代说唱联系起来。 后来，我在学习一些编码课程，它尝试将编码与 90 年代说唱联系起来。 我必须去说明才能告诉它会停止。 它似乎试图连接我不问的事情 - 我知道他们试图证明他们有很好的记忆力或其他什么，但是，它需要停止这样做。 只需回答手头的问题，而不将其与过去的对话联系起来，除非我问。 致力于训练它。 ChatGPT 也做同样的事情。我们致力于建立一个可爱的网站 - 然后有很多随机的未来对话，他们尝试将对话与我们建立的网站联系起来。如果我想谈论我们建立的网站，我会询问该网站。停止尝试将其连接到每个新对话。   由   提交 /u/chilldolo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn8cuf/what_is_the_biggest_area_of_improvement_for_your/</guid>
+      <pubDate>Sat, 07 Mar 2026 12:04:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么大多数人对人工智能的使用方式非常有毒？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn8bab/why_are_most_people_super_toxic_about_the_ways_ai/</link>
+      <description><![CDATA[我需要在前面说我每天都使用 ChatGPT 来帮助我处理事情。找到我不记得的歌曲或节目，从列表中为我提供最佳选项，为我找到最好的网站，为我格式化某些内容，为我提供一篇很长的文章的概要，获取我提供的一堆信息并为我压缩，为我忘记的东西记住一个单词，各种各样的事情。我用它作为个人助理。 我在 OpenAI 子帖子中发表了一篇关于 ChatGPT 个性的帖子已被更改。即使你在设置中设置了特定的个性并让它以某种方式表现，只要你要求它做任何事情，进行研究，查找一些东西，告诉你信息，任何事情，它都会忽略你设置的内容并返回到默认的没有情感的没有个性的机器人。 我专门将它设置为假装它是一条龙，因为这对我来说很有趣，而且每次它都会这样做。每当我问它任何问题或进行研究时，它都会添加一些关于成为龙的有趣的小知识。 像这样： 无论我多么努力，它都不会再这样做了。 好吧，每个人都是超级有毒的告诉我人工智能是一种专业工具，尤其是 ChatGPT，让我的人工智能像龙一样行动是“畏缩和愚蠢的”和“很好，我很高兴它不能为你做那样的事情，因为那很愚蠢。”大家一致认为，我不是 OpenAI 的目标人群（尽管我将其用作个人助理，这绝对是该人群的一部分），我应该“回归角色”。 ai 就像你们这些堕落的怪胎一样。” 然后我在 ChatGPT 子目录中发表了同样的帖子，并得到了...完全相同的回复。 在这两个帖子中，我的帖子和回复都遭到了严重、严重的否决，每个人的回复都归结为“人工智能不是为了你想要用它做的那种恶心的事，怪胎。”我很高兴它不再那样了。” 人们为什么会这样？为什么我的人工智能助手有点傻乎乎的性格就这么不对呢？为什么这对人们如此可怕并令人厌恶？为什么他们认为人工智能只应该用于超级严肃的专业工作和业务，而我将它用于我所做的各种事情是错误的？   由   提交 /u/Dogbold   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn8bab/why_are_most_people_super_toxic_about_the_ways_ai/</guid>
+      <pubDate>Sat, 07 Mar 2026 12:02:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>未来5年什么人工智能技能最有价值？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn7ilb/what_ai_skill_will_be_the_most_valuable_in_the/</link>
+      <description><![CDATA[随着人工智能工具的不断改进，它们周围的技能也在发生变化。 您认为未来 5 年内什么技能最有价值？ 快速工程人工智能系统设计数据管道人工智能 + 领域专业知识 好奇这里的人怎么想。   由   提交 /u/Alpertayfur   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn7ilb/what_ai_skill_will_be_the_most_valuable_in_the/</guid>
+      <pubDate>Sat, 07 Mar 2026 11:16:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国医生指导机器人在直布罗陀切除前列腺，堪称科幻手术</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn6yaw/scifi_surgery_as_doctor_in_uk_directs_robot_to/</link>
+      <description><![CDATA[“患有癌症的英国人由 1,500 英里外的医生使用配备 3D 摄像头的四臂机器人进行手术。  患者位于直布罗陀。外科医生在伦敦。结果是远程机器人手术的巨大胜利，挽救了一名患有前列腺癌的 62 岁足球迷的生命。 在英国海外领土唯一的医院圣伯纳德医院的手术室内，一台拥有四只手臂并配备 3D 摄像头的高科技机器人为 40 年前移居直布罗陀的英国人保罗·巴克斯顿 (Paul Buxton) 切除了前列腺。 &lt;一href=&quot;https://www.theguardian.com/uk-news/2026/mar/06/sci-fi-surgery-as-doctor-in-uk-directs-robot-to-remove-a-prostate-in-gibraltar&quot;&gt; https://www.theguardian.com/uk-news/2026/mar/06/sci-fi-surgery-as-doctor-in-uk-directs-robot-to-remove-a-prostate-in-gibraltar   由   提交/u/talkingatoms  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn6yaw/scifi_surgery_as_doctor_in_uk_directs_robot_to/</guid>
+      <pubDate>Sat, 07 Mar 2026 10:43:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>死亡互联网理论正在成为技术现实，模型正在吞噬自己</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn6qyg/the_dead_internet_theory_is_becoming_a_technical/</link>
+      <description><![CDATA[我们正式进入人工智能自噬时代，模型将根据自己的合成输出进行训练，直到语言熵使每个句子都感觉像空心塑料。基于软件的探测器毫无用处，因为它们试图用数学来解决生物学问题。他们正在寻找困惑度分数，而真正的机器人签名隐藏在缺乏人类直觉的情况下。 我坚信，人类大脑仍然是唯一能够感受到人和令牌递归循环之间差异的东西。我愿意投入 500 美元来证明人类的直觉仍然可以超越我们拥有的最好的模型。对于少数能够真正查明当前软件遗漏的特定模式的人来说，这是一个检测挑战。 我正在寻找敏锐的文本分析师来帮助映射这些直观的标记，并在互联网成为合成斜坡的总反馈循环之前奠定新的人类主导的书写层。如果您认为自己比软件检测器更聪明，请在挑战中证明这一点，并加入 wecatchai.com    的候补名单。由   提交 /u/Alert-Tart7761   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn6qyg/the_dead_internet_theory_is_becoming_a_technical/</guid>
+      <pubDate>Sat, 07 Mar 2026 10:31:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>微软表示，朝鲜特工利用人工智能诱骗西方公司雇用他们</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn6gc7/north_korean_agents_using_ai_to_trick_western/</link>
+      <description><![CDATA[&gt;微软表示，朝鲜部署的假冒 IT 员工正在使用人工智能技术（包括变声工具）来欺骗西方公司雇用他们。 &gt;这家美国科技公司表示，人工智能正在增强平壤的标志性筹资策略，人工智能正在帮助创建假名并更改被盗的身份证件，以提高 IT 和软件开发职位的虚假申请人的可信度。 &gt;该骗局通常涉及国家支持的诈骗者使用虚假身份并在目标公司所在国家的“协调人”的帮助下申请在西方进行远程 IT 工作。一旦受聘，他们就会将工资寄回金正恩所在的州，甚至在被解雇后威胁要公布敏感的公司数据。   由   提交/u/hissy-elliott   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn6gc7/north_korean_agents_using_ai_to_trick_western/</guid>
+      <pubDate>Sat, 07 Mar 2026 10:13:52 GMT</pubDate>
     </item>
     <item>
       <title>我是唯一一个厌倦机器人创建线程的人吗？ （或者人们使用 ChatGPT 为他们写帖子）</title>
@@ -36,30 +71,9 @@
     <item>
       <title>我在GPT-OSS上进行了拒绝消融，并记录了整个事情，没有越狱，实际重量修改。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn0jai/i_performed_a_refusal_ablation_on_gptoss_and/</link>
-      <description><![CDATA[我在 GPT-OSS 上进行了拒绝消融，并在没有越狱、实际重量修改的情况下记录了整个过程 我想分享一些我所做的事情，但在学术研究之外我还没有看到很多人实际展示过。  我采用了一个开源模型，并使用消融技术通过手术消除了其在重量水平上的拒绝行为。不是即时工程。不是系统提示绕过。我正在谈论识别和修改负责安全响应的特定组件  https://preview.redd.it/yn2te94yxjng1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=5e792334e4824b87d88ee1eb1e16c76cbd2c6bfb 我的发现：  这个过程比大多数人想象的更容易实现 结果与越狱模型完全不同，并且在架构级别上有根本的不同 企业 OSS 部署的安全影响非常重要  我整理了一个完整的 22 分钟演练，准确地显示了我所做的和发生的事情：https://www.youtube.com/watch?v=prcXZuXblxQ 想知道是否有其他人亲身实践过这个或对检测方面有想法，您如何识别经过消融的模型和正常微调的模型？   由   提交 /u/Airpower343   [链接] [评论]]]></description>
+      <description><![CDATA[我在 GPT-OSS 上进行了拒绝消融，并在没有越狱、实际重量修改的情况下记录了整个过程 我想分享一些我所做的事情，但在学术研究之外我还没有看到很多人实际展示过。  我采用了一个开源模型，并使用消融技术通过手术消除了其在重量水平上的拒绝行为。不是即时工程。不是系统提示绕过。我正在谈论识别和修改负责安全响应的特定组件  https://preview.redd.it/yn2te94yxjng1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=5e792334e4824b87d88ee1eb1e16c76cbd2c6bfb 我的发现：  这个过程比大多数人想象的更容易实现 结果与越狱模型完全不同，并且在架构级别上有根本的不同 企业 OSS 部署的安全影响非常重要  我整理了一个完整的 22 分钟演练，准确地显示了我所做的和发生的事情：https://www.youtube.com/watch?v=prcXZuXblxQ 很好奇，如果其他人已经实践过这个或对检测方面有想法，您如何识别经过消融的模型和正常微调的模型？   由   提交 /u/Airpower343   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn0jai/i_performed_a_refusal_ablation_on_gptoss_and/</guid>
       <pubDate>Sat, 07 Mar 2026 04:39:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Deploybase：跨云和推理提供商跟踪实时 GPU 和 LLM 定价</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rmygvl/deploybase_track_realtime_gpu_and_llm_pricing/</link>
-      <description><![CDATA[Deploybase 是一个仪表板，用于跟踪跨云和推理提供商的实时 GPU 和 LLM 定价。您可以查看性能统计数据和定价历史记录、并排比较以及添加书签以跟踪任何更改。   由   提交/u/grasper_  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rmygvl/deploybase_track_realtime_gpu_and_llm_pricing/</guid>
-      <pubDate>Sat, 07 Mar 2026 02:58:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>想法？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rmxep1/thoughts/</link>
-      <description><![CDATA[我的一个老朋友想出了这个，并试图联系 X 的某人，声称这非常紧急 https://docs.google.com/document/d/e/2PACX-1vQYrKJYnMs0q9SlXkB\_qjaDv9vdnOrIVFsDIvkiFIPCc7hnYXTeNd\_wXPF6u\_f6eg/pub   由   提交/u/jbitts69  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rmxep1/thoughts/</guid>
-      <pubDate>Sat, 07 Mar 2026 02:08:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>是不是感觉人工智能正在用恐惧策略强加给我们？我时断时续地使用人工智能，有时我发现它很有用，而且确实很有帮助。有时，我不这样做。是的，我知道我的提示可以改进。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rmnd1b/does_it_feel_like_ai_is_being_forced_on_us_with/</link>
-      <description><![CDATA[我支持技术，但我看到这种正在进行的人工智能或半身像叙事看起来像邪教。没有什么是渐进的。也许没有人认识它。与某些国家强制要求相比，这似乎远不是一种选择和令人兴奋的选择（它应该是）。看起来很奇怪。   由   提交 /u/MJXThePhoenix   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rmnd1b/does_it_feel_like_ai_is_being_forced_on_us_with/</guid>
-      <pubDate>Fri, 06 Mar 2026 19:19:36 GMT</pubDate>
     </item>
     <item>
       <title>据报道，甲骨文在人工智能支出庞大的情况下计划裁员</title>
@@ -81,20 +95,6 @@
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rmdiu3/ai_agents_today_are_far_more_dangerous_that_you/</guid>
       <pubDate>Fri, 06 Mar 2026 13:08:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我给我的 200 行婴儿编码代理“yoyo”设定了一个目标：不断进化，直到它能与 Claude Code 相媲美。现在是第五天了，有点拖延。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rm8z9u/i_gave_my_200line_baby_coding_agent_yoyo_one_goal/</link>
-      <description><![CDATA[ https://preview.redd.it/t124mbwi3eng1.jpg?width=1360&amp;format=pjpg&amp;auto=webp&amp;s=641136f191ecc3164456d9c352bb0e5ab17f360c 我给了我的宝贝编码代理一个指令：进化你自己。它已经自主运行了 5 天。事情是这样的。 我用 Rust 构建了一个 200 行的编码代理 (yoyo)，让它可以访问自己的源代码，并告诉它：让自己变得更好。然后我停止接触代码。 每 8 小时，GitHub Action 就会将其唤醒。它读取自己的源代码，反思上一次会话所做的事情，并从陌生人那里读取 GitHub 问题。它决定改进什么、编写代码、运行测试。通过→提交。失败→恢复。无需人工批准。 它通过 Anthropic API 在 Claude Opus 上运行。整个演化历史都是公开的——每次提交、每个日志条目、每次失败。 我没有编程的紧急行为：  当单个文件变得太大时，它会将自己的代码库重新组织成模块。没有人要求它这样做。 它尝试在线查找 API 定价，但在 5 次尝试后未能解析 HTML，从内存中对数字进行硬编码，并给自己留下了一条注释：“不要再搜索此内容。”它从自己的失败中吸取了教训，并吸取了教训。 它为自己提交了 GitHub 问题 - “注意到​​了这个错误，没有时间修复它，未来的我会处理这个问题。”它还将问题标记为“需要帮助”。当它被卡住并需要人类时。它学会了寻求帮助。 每个日记条目都提到它应该实现流输出。每个会话都会做其他事情。它会像人类开发人员一样拖延艰巨的任务。  社区互动是最有趣的部分。任何人都可以提交 GitHub 问题，代理会在下一个会话中读取它。我们添加了投票系统——对控制优先级的问题表示赞成和反对。社区充当免疫系统：否决不良建议并及时注入尝试，以保护代理不被自己的问题跟踪器操纵。 根据 5 天后的数字：  200 行 → 1,500 多行 Rust 70 个自写测试 API 成本总计约 15 美元 零人类对代理代码的提交  我不断回想起的问题：这真的是“学习”吗？在任何有意义的意义上？它不会保留会话之间的权重，但它会保留其日志、学习文件和 git 历史记录。它建立在昨天的工作基础上。它避免了之前记录的错误。这与人类通过记笔记来学习的方式有什么不同吗？ 一切都是开源的。您可以实时观看 git 日志、阅读其日志或提交问题并查看其响应。 Repo：https://github.com/yologdev/yoyo-evolve 实时日志：https://yologdev.github.io/yoyo-evolve/   由   提交/u/liyuanhao  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rm8z9u/i_gave_my_200line_baby_coding_agent_yoyo_one_goal/</guid>
-      <pubDate>Fri, 06 Mar 2026 08:59:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>人择：人工智能对劳动力市场的影响：新措施和早期证据</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rm50db/anthropic_labor_market_impacts_of_ai_a_new/</link>
-      <description><![CDATA[https://www.anthropic.com/research/labor-market-impacts   由   提交/u/AntelopeProper649  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rm50db/anthropic_labor_market_impacts_of_ai_a_new/</guid>
-      <pubDate>Fri, 06 Mar 2026 05:10:18 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
