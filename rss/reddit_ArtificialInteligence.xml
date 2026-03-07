@@ -4,13 +4,20 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 07 Mar 2026 06:33:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 09:24:17 GMT</lastBuildDate>
     <item>
-      <title>OpenClaw：有没有一个地方可以让人们分享灵魂.md 和其他核心文档？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn2dgm/openclaw_is_there_a_place_where_people_share_soul/</link>
-      <description><![CDATA[我想看看其他人在他们的核心文档中写了什么。有平台吗？如今，任何东西都有SaaS  Soul .md Tools .md 所有其他 我的仍然非常基本。    由   提交/u/wrangeliese  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn2dgm/openclaw_is_there_a_place_where_people_share_soul/</guid>
-      <pubDate>Sat, 07 Mar 2026 06:13:45 GMT</pubDate>
+      <title>适用于 Apple Silicon 的设备上语音工具包 — ASR、TTS、二值化、语音转语音，全部采用原生 Swift 语言</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn525g/ondevice_speech_toolkit_for_apple_silicon_asr_tts/</link>
+      <description><![CDATA[开源 Swift 包通过 MLX (GPU) 和 CoreML（神经引擎）在 Apple Silicon 上运行 11 个语音模型。完全本地推理，无云依赖。 实现的模型： ASR - Qwen3-ASR 0.6B/1.7B（4 位）、Parakeet TDT (CoreML INT4) - M2 Max 上的 RTF ~0.06 TTS - Qwen3-TTS 0.6B（4 位）、 CosyVoice3 0.5B（4 位）- 流式传输，第一个块约 120 毫秒 语音到语音 - PersonaPlex 7B（4 位）- 全双工，RTF ~0.87 VAD - Silero v5、Pyannote分段-3.0 - 流式传输 + 重叠检测 二值化 - Pyannote + WeSpeaker + 谱聚类 - 通过 GMM-BIC 自动说话人计数 增强 - DeepFilterNet3 (CoreML) - 实时 48kHz 噪声抑制 对齐 - Qwen3-ForcedAligner - 非自回归，RTF ~0.018 Key设计选择：MLX 适用于 GPU 上的大型模型，CoreML 适用于神经引擎上的小型模型。这让您可以在 ANE 上运行 VAD，而 ASR 在 GPU 上运行，而不会发生争用，这是 WhisperKit 所面临的问题（他们的 Core ML 音频编码器每次调用都会阻塞 ANE 300-600 毫秒）。 所有模型都符合共享协议，因此您可以交换实现或组合管道。目前正在开发 MeetingTranscriber 管道（diarize → 每段 ASR）和流式实时分类。 路线图：https://github.com/soniqo/speech-swift/discussions/81 存储库：https://github.com/soniqo/speech-swift   由   提交 /u/ivan_digital   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn525g/ondevice_speech_toolkit_for_apple_silicon_asr_tts/</guid>
+      <pubDate>Sat, 07 Mar 2026 08:47:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我是唯一一个厌倦机器人创建线程的人吗？ （或者人们使用 ChatGPT 为他们写帖子）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn3wdq/am_i_the_only_one_tired_of_bots_creating_threads/</link>
+      <description><![CDATA[有一种失望、沮丧的感觉，还有一种被骗的感觉。  但是在这个子主题中，有多少帖子是由人工智能写得如此清晰的，真是令人难以置信。令人震惊的标题以获得点击，无菌的、结构良好且经过精心编辑的文本，没有错误但也没有灵魂，充满了空洞的句子，新行中孤立的简短陈述以吸引注意力，最后是最后他妈的数字营销问题只是为了产生参与和评论。 你可以感觉到它不是人写的，它真的没有目的，它只是诱饵，让你评论或投票，然后以某种方式以我的方式利用它。不知道，我想要么是因为背后的原始发帖者，或者是机器人的创建者，只是喜欢获得关注和操纵人们，或者因为他们实际上想稍后向你推销一些东西，或者出于任何帖子本身无关紧要的目的，它只是为了获得互动并将其转换为稍后的东西。 这很烦人和难以忍受，然后你看到人们评论就像他们没有意识到它是由机器人编写的或在发布之前由 ChatGPT 传递的，或者他们不在乎是否是这样，但如果你真的被操纵进入和评论，你怎么能不在乎，这都是为了参与，这是一场游戏，无论主题是什么。我想也许是因为有些或大多数要么是机器人，要么是通过 ChatGPT 或代理传递它来创建答案... 感觉如此缺乏人性，有点恶心和难以忍受，而这只是一个开始...互联网作为一种连接人们的方式似乎不会在人类历史上持续太久（想象一下当他们将代理放入 WhatsApp 或个人消息应用程序时，就像他们已经在处理电子邮件一样）   由   提交 /u/afrancisco555   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn3wdq/am_i_the_only_one_tired_of_bots_creating_threads/</guid>
+      <pubDate>Sat, 07 Mar 2026 07:38:08 GMT</pubDate>
     </item>
     <item>
       <title>每日一分钟人工智能新闻 3/6/2026</title>
@@ -27,16 +34,9 @@
       <pubDate>Sat, 07 Mar 2026 04:58:46 GMT</pubDate>
     </item>
     <item>
-      <title>法学硕士和人工智能仍然面临哪些障碍</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn0ppw/what_are_some_hurdles_llms_and_ai_still_face/</link>
-      <description><![CDATA[我们总是听说它在不断改进，而且不存在一堵墙。然而，总有一些因素会让这些公司、技术甚至商业模式变得不可持续。    由   提交 /u/Justincy901   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn0ppw/what_are_some_hurdles_llms_and_ai_still_face/</guid>
-      <pubDate>Sat, 07 Mar 2026 04:48:24 GMT</pubDate>
-    </item>
-    <item>
       <title>我在GPT-OSS上进行了拒绝消融，并记录了整个事情，没有越狱，实际重量修改。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rn0jai/i_performed_a_refusal_ablation_on_gptoss_and/</link>
-      <description><![CDATA[我在 GPT-OSS 上进行了拒绝消融，并在没有越狱、实际重量修改的情况下记录了整个过程 我想分享一些我所做的事情，但在学术研究之外我还没有看到很多人实际展示过。  我采用了一个开源模型，并使用消融技术通过手术消除了其在重量水平上的拒绝行为。不是即时工程。不是系统提示绕过。我正在谈论识别和修改负责安全响应的特定组件  https://preview.redd.it/yn2te94yxjng1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=5e792334e4824b87d88ee1eb1e16c76cbd2c6bfb 我的发现：  这个过程比大多数人想象的更容易实现 结果与越狱模型完全不同，并且在架构级别上有根本的不同 企业 OSS 部署的安全影响非常重要  我整理了一个完整的 22 分钟演练，准确地显示了我所做的和发生的事情：https://www.youtube.com/watch?v=prcXZuXblxQ 很好奇，如果其他人已经实践过这个或对检测方面有想法，您如何识别经过消融的模型和正常微调的模型？   由   提交 /u/Airpower343   [链接] [评论]]]></description>
+      <description><![CDATA[我在 GPT-OSS 上进行了拒绝消融，并在没有越狱、实际重量修改的情况下记录了整个过程 我想分享一些我所做的事情，但在学术研究之外我还没有看到很多人实际展示过。  我采用了一个开源模型，并使用消融技术通过手术消除了其在重量水平上的拒绝行为。不是即时工程。不是系统提示绕过。我正在谈论识别和修改负责安全响应的特定组件  https://preview.redd.it/yn2te94yxjng1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=5e792334e4824b87d88ee1eb1e16c76cbd2c6bfb 我的发现：  这个过程比大多数人想象的更容易实现 结果与越狱模型完全不同，并且在架构级别上有根本的不同 企业 OSS 部署的安全影响非常重要  我整理了一个完整的 22 分钟演练，准确地显示了我所做的和发生的事情：https://www.youtube.com/watch?v=prcXZuXblxQ 想知道是否有其他人亲身实践过这个或对检测方面有想法，您如何识别经过消融的模型和正常微调的模型？   由   提交 /u/Airpower343   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rn0jai/i_performed_a_refusal_ablation_on_gptoss_and/</guid>
       <pubDate>Sat, 07 Mar 2026 04:39:15 GMT</pubDate>
     </item>
