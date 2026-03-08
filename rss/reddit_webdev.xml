@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 08 Mar 2026 18:27:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 21:20:38 GMT</lastBuildDate>
+    <item>
+      <title>这些人是今天市场饱和的原因</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rofj6n/these_people_is_the_reason_the_market_is/</link>
+      <description><![CDATA[       由   提交/u/lune-soft  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rofj6n/these_people_is_the_reason_the_market_is/</guid>
+      <pubDate>Sun, 08 Mar 2026 20:28:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于使用 Hosringer 我应该了解哪些信息？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1roem6k/what_should_i_know_about_using_hosringer/</link>
+      <description><![CDATA[我在一家小企业找到了一份工作，我的经理希望我创建企业电子邮件地址并建立一个用于营销和一些管理任务的网站。我以前从未托管过网站，但经过一番研究后，我发现 Hostinger 对于两者来说都是一个不错的选择。那么，对于那些使用 Hostinger 的人来说，该做什么和不该做什么。在开始之前我应该​​知道什么？有什么警告、提示或任何有用的东西吗？提前致谢。   由   提交 /u/Inevitable_Factor123   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1roem6k/what_should_i_know_about_using_hosringer/</guid>
+      <pubDate>Sun, 08 Mar 2026 19:53:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于尝试阻止机器人/网络抓取的注意事项</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rod91x/notes_on_trying_to_block_bots_web_scraping/</link>
+      <description><![CDATA[想写一篇关于我尝试阻止机器人和抓取工具的经验的文章。不知道如何构建它，所以这更像是技术的脑转储以及它们最终失败的地方： IP - 通过 IP 进行阻止只是短期修复，抓取工具可以轻松切换到其他。 ASN - 防火墙供应商往往总是向您提供此服务，例如 Cloudflare 在他们的免费计划中这样做。您可以用它来识别托管服务； DigitalOcean的ASN 14061颇有名气。比 IP 封锁更有效，但恶意行为者隐藏在住宅代理后面也不需要付出太多代价。 住宅代理和其他类型的数据库 - 有付费服务可以告诉您 IP 是否属于住宅代理或托管提供商，或者因为它运行滥用/恶意服务而被标记。与逐个挑选 ASN 相比，这种方法提供了更广泛的覆盖范围。 问题是，这些住宅 IP 上通常有合法用户。而且，归根结底，任何连接到住宅 ISP 的个人设备都可以用作代理。有些人出于金钱原因自愿设置它们，而另一些人则不知道他们安装了一些捆绑的应用程序/恶意软件。 用户代理标头 - 基本抓取工具会显示一些明显的内容，例如 python-requests/2.31.0，您可以在防火墙规则中对其进行操作。问题在于，将此标头覆盖为看起来合法的浏览器的内容是微不足道的。 JA4 哈希和 JA4 哈希值其他客户端指纹识别 - 防火墙供应商提供请求的 JA4 哈希值作为其高级包的一部分。然后还有其他库/供应商根据浏览器的各个其他方面（例如屏幕分辨率、字体等）进行指纹识别 CAPTCHA、Cloudflare Turnstile 和其他类型的挑战 - 这些工作得很好，假设您愿意为用户添加一些摩擦。当然，仍然有软件可以绕过这个问题。但是，如果您非常有动力，您也可以构建自己的验证码解决方案 - 我总是想到这个 subreddit 帖子（不相关）验证码，其中您必须出示香蕉才能通过，这让我很崩溃 假设人们感兴趣的话，我可以就此写更多内容。如果没有，我就回我的洞穴了。   由   提交 /u/ReditusReditai   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rod91x/notes_on_trying_to_block_bots_web_scraping/</guid>
+      <pubDate>Sun, 08 Mar 2026 19:02:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么重要的上下文总是出现在错误的地方？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rocbyp/why_does_important_context_always_end_up_in_the/</link>
+      <description><![CDATA[我一直在开发团队中注意到的事情。 决策是在 Slack 线程上做出的。公关评论中提到了阻止者。优先级转移发生在快速呼叫中。有人找出了一个严重的错误原因并将其发布到随机频道中。 所有这些最终都没有出现在 Jira 中。这些都不会出现在文档中。它只是存在于它发生的地方，然后慢慢消失。 然后两周后有人问为什么做出这个决定，但没有人可以重建它。或者一个新人加入，但不知道上一个冲刺实际发生了什么。 工具都在那里。 GitHub、Slack、线性、概念。但所有这些内容的背景都是支离破碎的，没有人有时间来整合它。 您的团队实际上如何处理这个问题？是否有一个有效的系统，或者重要的上下文是否会悄悄丢失？   由   提交 /u/HiSimpy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rocbyp/why_does_important_context_always_end_up_in_the/</guid>
+      <pubDate>Sun, 08 Mar 2026 18:28:29 GMT</pubDate>
+    </item>
     <item>
       <title>笔记本电脑比较：使用大量容器进行开发</title>
       <link>https://www.reddit.com/r/webdev/comments/1robza4/laptop_comparison_development_with_a_lot_of/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[嘿伙计们， 我目前是一名中级前端开发人员，我到处都看到同样的建议： “学习系统设计” “学习软件架构” “这对未来很重要，特别是使用人工智能工具编写更多代码” 我明白为什么它很重要，但我不知道想想你如何以实际的方式学习这些东西。 我不是在准备 FAANG 面试 - 我只是想成为一名更好的工程师并保证我的技能能够面向未来。 我主要对以下几件事感到困惑： - 系统设计的哪些部分实际上是需要学习的？ 比如……可扩展性？数据库？分布式系统？微服务？云的东西？ 太多了，我什至不知道对于普通开发人员来说什么是重要的。 - 有什么好的课程或书籍以实用的方式（不仅仅是理论）教授这些内容吗？ - 什么样的项目可以帮助你实践架构？ 人们说“构建复杂的系统”，但我不知道这在现实中意味着什么。 - 系统设计是你可以在不进行大规模生产的情况下正确学习的东西吗？  非常感谢经历过此过程并可以分享实用学习路径的人的建议🙏   由   提交 /u/MeatAndFries   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ro2ze2/how_to_learn_system_design_and_architecture/</guid>
       <pubDate>Sun, 08 Mar 2026 11:52:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>CS 大学一年级学生，MacBook Neo 的规格足以用于移动开发吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ro2p0n/year_1_cs_uni_student_here_are_the_specs_of/</link>
-      <description><![CDATA[嗨， 我很快就要上 CS 课了。我目前只有基本的编程技能（JS 和 Python），我想专注于移动开发。我的课程是通用计算机科学课程，因此我将使用 YouTube/Udemy/在线资源来练习移动开发。我也不太富裕，所以我想知道 MacBook Neo 是否足以进行移动开发？选择苹果，因为我可以同时学习 iOS 和 Android。 谢谢大家。   由   提交 /u/whatbuildsaregood   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ro2p0n/year_1_cs_uni_student_here_are_the_specs_of/</guid>
-      <pubDate>Sun, 08 Mar 2026 11:36:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>对老派网络开发人员的赞赏</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ro1tqz/appreciation_for_old_school_web_dev/</link>
-      <description><![CDATA[我只是想谈谈我们过去是如何制作网站的，以及它仍然有效并且一如既往地可行是多么史诗般的事情😄 我为 TTRPG 运营着一个流行的粉丝网站，它基本上是 DnD 的替代品。仅就上下文而言，它每月大约有 30,000 名访问者。 它几乎完全使用旧式 HTML 构建，使用一点连接性 PHP 将组件分离到文件中，使用适量的普通 CSS 使其整洁且响应灵敏，并使用少量普通 JS 来保存（到本地存储）页面（如字符表）。不需要框架。所有数据都存储在 markdown 和 json 文件中，因为现阶段我不需要 CMS。 因为它基本上完全是静态页面，所以默认情况下它快速、安全、响应灵敏且可访问 😀 当然也非常易于维护。 当然，我对框架（前端、后端等）没有任何反对意见；它们太棒了，几个月后我可能不得不使用一个（或 CMS）重建它。但它们并不总是需要的；尤其是当网站还很新并且只有 1 个贡献者时。保持简单，默认情况下网站会很好地启动！   由   提交/u/Droces  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ro1tqz/appreciation_for_old_school_web_dev/</guid>
-      <pubDate>Sun, 08 Mar 2026 10:46:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>SPA 有效，但直接访问/刷新显示 404 Not Found</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ro0f47/spa_works_but_direct_visitrefresh_shows_404_not/</link>
-      <description><![CDATA[正如标题所说，我面临这个问题 -- 点击帖子，页面可以工作；但刷新后是404。 本地可以用；但是当我将其托管在 cloudflare 和 netlify 上时，它会产生问题。 这是与托管相关还是与应用程序相关的问题？该项目是一个基于 nuxt 4、nuxt/content 3 的博客。 如果是托管问题，我更喜欢 cloudflare 特定的解决方案。 提前谢谢您！   由   提交 /u/kQ1aW2sE3hR4yT5aU6p   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ro0f47/spa_works_but_direct_visitrefresh_shows_404_not/</guid>
-      <pubDate>Sun, 08 Mar 2026 09:21:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026 年，我应该对此类网站收取多少费用？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rnzaaf/how_much_should_i_charge_for_websites_like_these/</link>
-      <description><![CDATA[嘿，你能帮我弄清楚我应该对这样的网站收费吗？ 我的工作示例： https://soinbeauterosa.com https://lavalex-carwash.vercel.app 技术堆栈：Next.js + Tailwind CSS（我使用 GitHub Copilot 来加快开发速度）。 托管：在 Vercel 免费层上部署和托管。 项目详细信息： SoinBeautéRosa：约 25 小时，包括 CMS （理智），以便客户可以编辑大部分内容并添加新服务。 Lavalex 洗车：约 13 小时，完全静态网站。 我的目标客户大多数是加拿大的小型企业。 我正在尝试为此类项目的初始构建和每月维护/托管找出合理的价格范围。 从事网络工作的人员的任何建议都会非常有帮助。   由   提交 /u/AggressiveHeight2176   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rnzaaf/how_much_should_i_charge_for_websites_like_these/</guid>
-      <pubDate>Sun, 08 Mar 2026 08:12:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
