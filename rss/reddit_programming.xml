@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 08 Mar 2026 15:20:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 18:27:24 GMT</lastBuildDate>
+    <item>
+      <title>在垫子上打了 10 年并达到棕带后，我意识到我仍然在犯“白带”错误。所以我开始编写一个解决方案</title>
+      <link>https://www.reddit.com/r/programming/comments/1roblxg/after_10_years_on_the_mats_and_reaching_brown/</link>
+      <description><![CDATA[大家好， 我是棕带，练习柔道已有十年左右。我终于在准备我的黑带考试了。 问题是，我越接近这个目标，我就越意识到我的基础知识并不像我想象的那么完美。 我拍摄我的内科米，我再次观看我的兰多里斯，我感觉我的平衡或臀部的位置出了问题。但如果没有我的老师向我指出，我常常很难找出问题所在。 作为一名开发人员，我决定停止摸索并开始构建一些东西。所以我开始研究它。 这个想法很简单： 你上传一段训练或战斗的视频，人工智能会对其进行分析——跟踪重心、攻击角度和时间等信息——以准确找出你在哪里失去力量或平衡。 从技术上讲，这是一个真正令人头痛的问题 柔道的厚度使得人工智能很难准确检测关节和身体位置。我使用姿势识别算法来检测动作，然后将坐标发送给聊天机器人，聊天机器人负责以人类的方式编写解释。 我发现很多人认为人工智能毫无用处或将其视为一种侮辱，但我认为相反，无论什么任务，它都可以极大地帮助我们的生活。   由   提交/u/Outrageous_Style_457   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1roblxg/after_10_years_on_the_mats_and_reaching_brown/</guid>
+      <pubDate>Sun, 08 Mar 2026 18:01:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过从头开始实施 TOTP (2FA) 应用程序，了解 TOTP (2FA) 应用程序的工作原理</title>
+      <link>https://www.reddit.com/r/programming/comments/1rob2m1/learnt_how_totp_2fa_apps_work_by_implementing_one/</link>
+      <description><![CDATA[最近 Authy（我选择的应用程序）开始有点萎靡（Twillio 没有投资它），我想如何才能制作出 2FA 应用程序？ 在这个过程中，我最终了解了 HOTP 如何工作的整个端到端流程、TOTP 如何包装 HOTP，以及注册 2FA 应用程序时这些 QR 码的含义。  分享我对HOTP、TOTP、注册流程、注册的具体URI格式和验证流程的学习。实际上，使用现有的加密原语实现起来相当容易。    由   提交 /u/championswimmer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rob2m1/learnt_how_totp_2fa_apps_work_by_implementing_one/</guid>
+      <pubDate>Sun, 08 Mar 2026 17:41:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>注入如何不断破坏真实系统</title>
+      <link>https://www.reddit.com/r/programming/comments/1ro8sei/how_injection_keeps_breaking_real_systems/</link>
+      <description><![CDATA[ 由   提交/u/Missics  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ro8sei/how_injection_keeps_breaking_real_systems/</guid>
+      <pubDate>Sun, 08 Mar 2026 16:13:18 GMT</pubDate>
+    </item>
     <item>
       <title>轻松学习观察者模式 | Java 设计模式</title>
       <link>https://www.reddit.com/r/programming/comments/1ro52s1/learn_observer_pattern_the_easy_way_java_design/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我觉得这很有趣。文章指出， “人工智能工具不会自动缩短工作日。研究表明，在一些工作场所，人工智能比以往任何时候都加大了行动速度的压力。”   由   提交 /u/Inner-Chemistry8971   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rnj9kn/why_developers_using_ai_are_working_longer_hours/</guid>
       <pubDate>Sat, 07 Mar 2026 19:42:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>停止对测试撒谎：在 Spring Boot 中使用 Testcontainers 进行真正的基础设施测试</title>
-      <link>https://www.reddit.com/r/programming/comments/1rnhh5y/stop_lying_to_your_tests_real_infrastructure/</link>
-      <description><![CDATA[一篇文章，介绍为什么针对 H2 运行的集成测试经常会错过生产问题，以及如何使用 Testcontainers 针对真实基础设施运行测试可以提高 Spring Boot 服务的可靠性。   由   提交/u/kharamdau  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rnhh5y/stop_lying_to_your_tests_real_infrastructure/</guid>
-      <pubDate>Sat, 07 Mar 2026 18:33:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 JavaScript 中解码 VIN</title>
-      <link>https://www.reddit.com/r/programming/comments/1rnfy4f/how_to_decode_a_vin_in_javascript/</link>
-      <description><![CDATA[ 由   提交/u/Kitchen-Suit9362   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rnfy4f/how_to_decode_a_vin_in_javascript/</guid>
-      <pubDate>Sat, 07 Mar 2026 17:34:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>我找不到在真实身份验证工作负载上测试 WebFlux + R2DBC 与虚拟线程的基准测试，因此我对其进行了基准测试</title>
-      <link>https://www.reddit.com/r/programming/comments/1rnda23/i_couldnt_find_a_benchmark_testing_webflux_r2dbc/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rnda23/i_couldnt_find_a_benchmark_testing_webflux_r2dbc/</guid>
-      <pubDate>Sat, 07 Mar 2026 15:50:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
