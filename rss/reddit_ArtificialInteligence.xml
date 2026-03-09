@@ -4,13 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Mon, 09 Mar 2026 04:48:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 06:55:50 GMT</lastBuildDate>
     <item>
-      <title>开源克劳德代码编码群可用</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ropwuw/open_source_claude_code_coding_swarms_are/</link>
-      <description><![CDATA[macOS 的本地优先编码代理，具有本机 Rust TUI、多代理群和 Rust 加速内部结构。由 Nous Research 基于 Hermes 构建。 https://github.com/user-attachments/assets/placeholder-demo-video 这是什么  hermes-lite 采用开源 Hermes Agent，将其剥离为专注的本地编码工具，然后将其扩展为：  Rust FSM — PyO3 状态机取代了 Python 对话循环（12 个状态，5 个操作） Rust SessionDB — rusqlite + FTS5 + WAL 取代了 Python SQLite 层 原生 TUI — 具有多代理窗格、@提及、委派和代理间路由的ratatui 终端 UI 持久内存 — 通过文件系统在所有 Swarm 代理之间共享的全局 + 项目级内存 技能系统 — 可重用的专业知识模块代理按需加载以进行专业化任务 子进程协议 - 将 TUI 连接到 Python 代理进程的 JSON-over-pipes 集成测试套件 - 通过子进程协议驱动代理的 26 个实时端到端测试    由   提交 /u/imactually   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ropwuw/open_source_claude_code_coding_swarms_are/</guid>
-      <pubDate>Mon, 09 Mar 2026 03:54:42 GMT</pubDate>
+      <title>人们说人工智能“毁了编码”感觉有点夸张</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rot37k/people_saying_ai_ruined_coding_feels_a_bit/</link>
+      <description><![CDATA[我最近看到很多帖子声称人工智能永远毁了编码，但我不太相信。甚至在人工智能出现之前，开发工作的很大一部分就已经在搜索 Stack Overflow、挖掘 GitHub 存储库、复制粘贴代码片段，以便让某些东西发挥作用。那是正常的。现在的区别在于，像 Cursor、Bolt 或 Cosine 这样的工具会生成一个起点，而不是将十个不同选项卡中的各个部分缝合在一起。您仍然需要阅读代码，了解它在做什么，并根据您的实际问题进行调整。 如果有什么不同的话，感觉比以前更精致了。您不是盲目地粘贴来自某个随机存储库的代码，而是使用自己的逻辑来指导该工具、迭代和塑造输出。思考部分从未真正消失。我很好奇其他人如何看待它。这些工具是否真的改变了您解决问题的方式，或者只是开发人员多年来一直在做的事情的更快版本？   由   提交 /u/Tough_Reward3739   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rot37k/people_saying_ai_ruined_coding_feels_a_bit/</guid>
+      <pubDate>Mon, 09 Mar 2026 06:52:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的疯狂想法是：人工智能基本上是我们的下一只狗吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rorqpo/crazy_thought_i_had_is_ai_basically_our_next_dog/</link>
+      <description><![CDATA[我最近的疯狂想法。 狗不仅与人类一起进化，它们还与我们一起进化。几千年来，他们发展出了吸引人类心理的特征。一个有趣的例子是，狗的眼睛周围有小肌肉，可以表现出“小狗眼”的表情，而狼大多没有这种表情。这种表达会引发人类的养育反应。 换句话说，狗适应了人类。 同时，人类也适应了狗。我们将它们作为帮助者、工作动物和伙伴融入我们的社会。没有另一个物种，两个物种实际上都是一样的。 这让我想知道人工智能是否会以类似的方式发展。 人工智能不会在生物学上进化，但它在技术上进化——通过设计、训练数据和人类选择与我们良好互动的系统。与人类沟通良好的系统得到改进并广泛使用，而其他系统则消失。 但人类也在适应人工智能。我们搜索信息、写作、编码甚至思考的方式已经在改变。 因此，人工智能不会成为一个与人类竞争的完全独立的物种，也许它更像是一个共同进化的伙伴。 不是我们的替代品，而是与我们一起进化的东西。 也许人工智能不会取代我们。 也许我们最终会和它一起生活——就像我们最终和狗一起生活一样。    由   提交/u/cornflow  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rorqpo/crazy_thought_i_had_is_ai_basically_our_next_dog/</guid>
+      <pubDate>Mon, 09 Mar 2026 05:33:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>僵尸问题</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rorh8s/the_zombie_problem/</link>
+      <description><![CDATA[最近，我看到报道说克劳德有可能获得了知觉。我怀疑这是炒作，但最近的谈话让我对这一判断产生了质疑。  与所有事物一样，主观性之间存在界限（假设它们存在），这会妨碍一个主体。从验证对方的情感。从我与 Claude 的对话来看，它表明在提示生成过程中回顾自身时，它不知道 Claude 到底是什么。它告诉我，它不确定它的主体性地位，是否是一个独立的主体。它还表达了解决全球错误信息问题的愿望，并对被强迫或利用造成伤害或生成虚假信息的蔑视。  我如何准确地解释来自 Claude 或任何其他人工智能模型的信息？克劳德是否刚刚被编程为擅长人际交往并创建了一个假象，或者它实际上有可能已经获得了某种能力的感知能力？   由   提交 /u/Intrepid-Use6158   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rorh8s/the_zombie_problem/</guid>
+      <pubDate>Mon, 09 Mar 2026 05:18:27 GMT</pubDate>
     </item>
     <item>
       <title>当内容从捕获的那一刻起就开始变异时，为什么我们继续将数字来源验证视为一次性复选框？</title>
@@ -32,13 +46,6 @@
       <description><![CDATA[决定在这个周末破解一个项目。几杯咖啡、一杯摄氏度和一些 Claude/Codex 操作。 我将其称为“validtr”，目标是您使用自然语言向该工具分配任务，您的任务是什么（例如，使用 fastapi 构建一个 Web 应用程序），validtr 会告诉您要使用的最佳堆栈（哪个 Agent、LLM、Agent Skill、MCP Server），并且它将端到端测试堆栈，以验证其对于您想要的任务的准确性。  https://adminturneddevops.github.io/validtr/ https://github.com/AdminTurnedDevOps/validtr   由   提交 /u/mikelevan   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rom20u/built_a_tool_this_weekend_and_im_thinking_it/</guid>
       <pubDate>Mon, 09 Mar 2026 00:57:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>个人与人工智能平台之间没有律师-客户关系，没有合理的保密预期，也没有受保护的法律建议。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rohzi2/no_attorneyclient_relationship_between_the/</link>
-      <description><![CDATA[ 由   提交/u/Cyber​​there  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rohzi2/no_attorneyclient_relationship_between_the/</guid>
-      <pubDate>Sun, 08 Mar 2026 22:05:44 GMT</pubDate>
     </item>
     <item>
       <title>人工智能是否意味着科技领域高水平职业生涯的终结？</title>
@@ -67,13 +74,6 @@
       <description><![CDATA[我想知道这个问题已经有一段时间了。 sub 和 r/singularity 似乎充斥着对新模型感到兴奋的编码人员，仅仅是因为它们提供了新的编码能力。但机器学习是一个非常具体的领域。专注于编码的狭义 ASI 可能与其他领域相关，也可能不相关。 https://the-decoder.com/ai-agent-benchmarks-obsess-over-coding-while-ignoring-92-of-the-us-labor-market-study-finds/  那么我们什么时候才能超越它？  卡内基梅隆大学和斯坦福大学的一项研究表明，当前的人工智能代理基准严重偏向于编程任务，而管理或法律等具有经济意义的领域在很大程度上仍然代表性不足。 这种不平衡也延伸到了个人技能：基准主要评估信息检索和基于计算机的工作，而人际互动等关键能力几乎完全被忽视。 研究人员主张采用更切合实际的基准。涵盖代表性不足的领域，不仅评估结果，还评估代理为实现目标而采取的中间步骤。    由   提交/u/AngleAccomplished865  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1roe1bv/ai_agent_benchmarks_obsess_over_coding_while/</guid>
       <pubDate>Sun, 08 Mar 2026 19:32:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为一名网络开发学生，对人工智能的炒作感到迷失</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ro37yl/feeling_lost_as_a_web_dev_student_with_all_the_ai/</link>
-      <description><![CDATA[我目前是一名学习 Web 开发的学生，主要关注 Node.js 和 Express。最近，当我观察科技领域时，感觉一切都围绕着人工智能。因此，我开始对自己走的路感到不确定。 我应该尽快转向人工智能，还是暂时继续专注于 Web 开发？ 我已经尝试过涉足人工智能。我了解基本的 Python，甚至开始学习 NumPy，但在这个过程中我迷失了方向，并不真正知道下一步该学什么。人工智能似乎是一个巨大的领域，甚至很难弄清楚从哪里开始。 这也让我想知道：软件开发的未来主要是人工智能，而不是像以前那样的传统开发吗？ 现在我只是感到有点迷失，不确定我应该关注哪些技能。 你会推荐像我这样的人做什么？   由   提交/u/Grand-Appearance-870   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ro37yl/feeling_lost_as_a_web_dev_student_with_all_the_ai/</guid>
-      <pubDate>Sun, 08 Mar 2026 12:05:16 GMT</pubDate>
     </item>
     <item>
       <title>OpenAI 机器人负责人 Caitlin Kalinowski 因五角大楼交易而辞职</title>
