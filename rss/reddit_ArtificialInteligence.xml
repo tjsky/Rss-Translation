@@ -4,7 +4,21 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Mon, 09 Mar 2026 01:46:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 04:48:27 GMT</lastBuildDate>
+    <item>
+      <title>开源克劳德代码编码群可用</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ropwuw/open_source_claude_code_coding_swarms_are/</link>
+      <description><![CDATA[macOS 的本地优先编码代理，具有本机 Rust TUI、多代理群和 Rust 加速内部结构。由 Nous Research 基于 Hermes 构建。 https://github.com/user-attachments/assets/placeholder-demo-video 这是什么  hermes-lite 采用开源 Hermes Agent，将其剥离为专注的本地编码工具，然后将其扩展为：  Rust FSM — PyO3 状态机取代了 Python 对话循环（12 个状态，5 个操作） Rust SessionDB — rusqlite + FTS5 + WAL 取代了 Python SQLite 层 原生 TUI — 具有多代理窗格、@提及、委派和代理间路由的ratatui 终端 UI 持久内存 — 通过文件系统在所有 Swarm 代理之间共享的全局 + 项目级内存 技能系统 — 可重用的专业知识模块代理按需加载以进行专业化任务 子进程协议 - 将 TUI 连接到 Python 代理进程的 JSON-over-pipes 集成测试套件 - 通过子进程协议驱动代理的 26 个实时端到端测试    由   提交 /u/imactually   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ropwuw/open_source_claude_code_coding_swarms_are/</guid>
+      <pubDate>Mon, 09 Mar 2026 03:54:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>当内容从捕获的那一刻起就开始变异时，为什么我们继续将数字来源验证视为一次性复选框？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rop286/why_do_we_keep_treating_digital_origin/</link>
+      <description><![CDATA[我一直在思考数字资产（图像、视频、文档，甚至原始数据流）如何在创建后几乎立即失去可信度。  不仅来自人工智能编辑或深度伪造，还来自日常处理：压缩、元数据剥离、格式转换、平台重新上传等。 当前大多数来源方法（水印、C2​​PA 样式清单、区块链哈希）感觉就像是原始点或发布点的快照。  他们验证“这在时间 T 是真实的/干净的”。但然后...什么？资产在系统中移动，被裁剪/调整大小/人工智能增强/转发，如果没有持续跟踪，最初的证据就会过时或无法验证。 我正在探索不同的框架：将源头捕获本身视为活跃信任链的基础层。代替静态证书，在创建/捕获时构建完整性信封（例如，设备级签名元数据、获取过程中的防篡改散列、以加密方式绑定到硬件/传感器指纹）。在任何突变事件发生之前，这些原始信号可以记录有关资产首次数字化的方式/地点/时间的不可变信号。然后，这些原始信号可以输入下游系统，随着变化的累积重新计算置信度（例如，“原始置信度高，但在检测到人工智能升级后为中等”）。 对在这个领域工作的任何人提出的问题： 您见过哪些原始捕获技术实际上可以在现实世界的管道中幸存下来（例如，社交媒体、编辑工具、人工智能处理）？ 现有的出处标准（C2PA 等）在“捕获完整性”方面存在哪些不足？具体来说？ 将硬化源层作为动态信任系统的先决条件进行思考是否有意义，还是我将其过于复杂化了？ 边缘情况：如何处理手机摄像头、屏幕截图、遗留文件或来自不受信任设备的内容？ 很好奇这是否会与其他构建验证工具或处理人工智能工作流程中的错误信息/真实性的人产生共鸣。很高兴听到为什么这是幼稚的或者存在什么更好的隐喻/方法。 期待想法/批评！   由   提交 /u/okfixitdrunk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rop286/why_do_we_keep_treating_digital_origin/</guid>
+      <pubDate>Mon, 09 Mar 2026 03:13:33 GMT</pubDate>
+    </item>
     <item>
       <title>人工智能是否真的被视为黑匣子</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1romm88/is_it_true_that_ai_is_considered_a_black_box/</link>
@@ -55,13 +69,6 @@
       <pubDate>Sun, 08 Mar 2026 19:32:14 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能信心的悖论 - 每日问答</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rocoqv/the_paradox_of_ai_confidence_query_of_the_day/</link>
-      <description><![CDATA[昨天，我的 Multi AI Orchestration 平台上的一位用户提交了一个问题，让我一直无法停止思考。 “如果一个 AI 完全自信地回答并且完全错误，而另一个 AI 不确定地回答并且完全正确，那么哪个实际上更聪明？” 这比看起来更深入。 我们已经围绕信心建立了与 AI 的整个关系。流畅性。毫不犹豫地给出了干净、放心的答案。我们奖励它。我们相信它。我们将其截图并分享。 但是信心并不等于正确性。从来没有。 在自然界中，适应性最强的生物体并不是最确定的生物体。他们是对反馈做出回应的人。那个更新。他们会宽松地保留他们的结论，直到环境证实或反驳他们。生物学中的确定性通常是死刑，那些停止感知危险的生物就会被带走。 那么，当我们优化人工智能以获得听起来自信的输出时，我们实际上构建了什么？ 也许最诚实的人工智能并不是给出最佳答案的人工智能。也许它知道什么时候说“我不确定，问别人。” 这提出了我鼓励你坐下来思考的问题： 我们训练人工智能是正确的，还是听起来正确的？ 如果你通过五个不同的人工智能系统运行同样的问题，而它们都不同意，你会相信哪一个，为什么？ 人工智能的不确定性是一种缺陷，还是更接近的东西的第一个迹象真正的智慧？ 很想听听这个社区的发展情况。我们是在构建预言机，还是在构建镜像？   由   提交 /u/PostEnvironmental583   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rocoqv/the_paradox_of_ai_confidence_query_of_the_day/</guid>
-      <pubDate>Sun, 08 Mar 2026 18:41:49 GMT</pubDate>
-    </item>
-    <item>
       <title>作为一名网络开发学生，对人工智能的炒作感到迷失</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ro37yl/feeling_lost_as_a_web_dev_student_with_all_the_ai/</link>
       <description><![CDATA[我目前是一名学习 Web 开发的学生，主要关注 Node.js 和 Express。最近，当我观察科技领域时，感觉一切都围绕着人工智能。因此，我开始对自己走的路感到不确定。 我应该尽快转向人工智能，还是暂时继续专注于 Web 开发？ 我已经尝试过涉足人工智能。我了解基本的 Python，甚至开始学习 NumPy，但在这个过程中我迷失了方向，并不真正知道下一步该学什么。人工智能似乎是一个巨大的领域，甚至很难弄清楚从哪里开始。 这也让我想知道：软件开发的未来主要是人工智能，而不是像以前那样的传统开发吗？ 现在我只是感到有点迷失，不确定我应该关注哪些技能。 你会推荐像我这样的人做什么？   由   提交/u/Grand-Appearance-870   [链接] [评论]]]></description>
@@ -81,13 +88,6 @@
       <description><![CDATA[嗨，我今年 40 岁，是一名经验丰富的程序员和软件架构师。我从 1998 年左右就开始研究人工智能，所以我有一些观点。法学硕士和神经网络在过去四年中取得了巨大的飞跃，这些飞跃甚至让我自己的预测都显得过时了。 现在感觉每周都有大量关于新工具和令人兴奋的结果的新闻，而我从事项目工作的公司仍然依赖于古老的“手工工艺”。就我个人而言，我注意到，由于多年的编码经验，我非常擅长调试和管理 Claude 等工具的输出。但老实说，我的项目工作和我的小副项目都没有真正让我快乐。与此同时，我每周在所有这些“建筑工地”上工作近 80 个小时，但感觉其中任何一个都没有真正产生有意义的影响。 然后我打开 Instagram 或 TikTok，每个人都在试图向我推销他的人工智能工作流程和工具。每个人工智能哥特女孩所展示的东西都比我作为一个已婚男人应该看到的多。而且总是同样的附属废话：“评论‘B-AI-TCH’，你就会得到完整的堆栈，等等等等。”这让我非常恼火，因为这让我觉得，当我在调整登录屏幕的 CSS 时，一定有一些 23 岁的超级消费者已经在消费他们的一千万美元了。 无论如何，我注意到，真正的担忧正在悄然蔓延，关于如何保持真正的最新状态。有时甚至近乎恐慌——我完全没有发挥出自己的潜力。我基本上可以做任何事情：概念工作、自动化（n8n/zapier）、设计、UI/UX、前端、后端、基础设施、云。但我仍然发现自己在想：我是否应该切换并开始做 AI-UGC 或生成“辣妹”来耗尽 40 岁以上孤独者（又名简单人）的银行账户？ 现在我感觉完全漂泊不定。 ChatGPT 告诉我不要担心——但这也只是一个人工智能。 你们都在做什么？您如何保持最新状态？您使用哪些工具来通过人工智能真正赚钱？有人有兴趣私下交换想法并最终“开始行动”吗？ 感谢您的时间和任何建议。   由   提交 /u/SharkeyOOO   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ro1692/worried_about_falling_behind/</guid>
       <pubDate>Sun, 08 Mar 2026 10:07:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于我所有的非编码人员来说，这一迅速的改变有点愚蠢，但它的效果如何</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ro04p0/for_all_my_noncoders_this_one_prompt_change_is/</link>
-      <description><![CDATA[我的编码技能为零。不过，我基本上将人工智能用于其他所有事情，写作、研究、集思广益、弄清楚为什么我的背痛（坏主意）。 在很长一段时间里，我感觉自己变得“很好”。答案。就像，可用但不引人注目。看着网上的人们得到了这些令人难以置信的尖锐、具体的回应，但无法弄清楚我在做什么不同。 原来我只是在问问题。就是这样。只是像搜索栏一样询问问题。 有人向我展示了他们所谓的元提示。无论你要问什么，你都可以在开头加上这个： “在你回答之前，想想我真正需要什么，而不仅仅是我问的。然后给我最好的答案，并告诉我应该问哪些后续问题才能更深入。” 就是这样。这就是全部内容。 输出质量的差异确实令人尴尬。它不再回答您所说的内容，而是开始回答您的意思。它提出的后续问题通常比我想问自己的任何问题都要好。 我已经在所有事情上使用它三周了。不会回去。 非程序员，这是你的作弊代码。    由   提交 /u/Tasty-Application368   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ro04p0/for_all_my_noncoders_this_one_prompt_change_is/</guid>
-      <pubDate>Sun, 08 Mar 2026 09:03:39 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic 刚刚列出了人工智能可能取代的工作。 “白领大衰退”是绝对有可能的</title>
