@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Tue, 10 Mar 2026 06:41:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 09:38:47 GMT</lastBuildDate>
+    <item>
+      <title>我制作了一个免费的 Linkedin 销售导航刮刀</title>
+      <link>https://www.reddit.com/r/automation/comments/1rprxm4/i_made_a_free_linkedin_sales_navigator_scraper/</link>
+      <description><![CDATA[phantombuster 收费 70 美元/月，甚至无法正常工作，因此我编写了 2 个执行以下操作的脚本： 1) 您传入销售导航查询 url，它会在您登录帐户的情况下打开本地浏览器，并将结果抓取到 csv 中。 2) 它从上述步骤中读取 csv，并从中复制 linkedin 个人资料 url每个潜在客户的销售导航资料。 我设置了点击之间的延迟以防止垃圾邮件检测。在被 linkedin 检测到之前，您可能可以在 100 个个人资料上使用它。 lmk 如果有人想要我的脚本   由   提交 /u/bravelogitex   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rprxm4/i_made_a_free_linkedin_sales_navigator_scraper/</guid>
+      <pubDate>Tue, 10 Mar 2026 09:06:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vibe 编码出错</title>
+      <link>https://www.reddit.com/r/automation/comments/1rpqe31/vibe_coding_gone_wrong/</link>
+      <description><![CDATA[       由   提交/u/sibraan_  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rpqe31/vibe_coding_gone_wrong/</guid>
+      <pubDate>Tue, 10 Mar 2026 07:26:45 GMT</pubDate>
+    </item>
     <item>
       <title>闭门进行 90 分钟的专注……幸福还是孤独？</title>
       <link>https://www.reddit.com/r/automation/comments/1rpphlo/closed_door_for_90min_focus_bliss_or_lonely/</link>
@@ -76,6 +90,13 @@
       <pubDate>Mon, 09 Mar 2026 14:54:15 GMT</pubDate>
     </item>
     <item>
+      <title>我被谷歌快讯的噪音淹没了。因此，我构建了一个 n8n 工作流程，危机监控的准确度提高了 10 倍</title>
+      <link>https://www.reddit.com/r/automation/comments/1rp0e6v/i_was_drowning_in_google_alerts_noise_so_i_built/</link>
+      <description><![CDATA[作为一名工程师，我习惯于监控服务器日志和正常运行时间。但我意识到，对于品牌声誉或高风险来说，“停电”是最重要的。通常在新闻到达我们的内部仪表板之前就开始出现。 有一段时间，我依赖 Google 快讯和基本的关键字抓取工具。 这是一场灾难。我的 Slack 是误报和“嘈杂”的坟墓。提到这对我们的业务影响为零。 我厌倦了“狼来了的男孩”的说法。通知，所以我自动化了一个更“智能”的通知使用 n8n 和 Perigon 的逻辑。 我如何将噪音降低 90%：突破不仅仅是“更好的关键字”，而是向工作流程添加逻辑过滤器：  “3 源规则”：我将 Perigon 节点配置为仅在至少 3 个唯一新闻源报告事件时才触发。这立刻就过滤掉了“一次性”的问题。博客文章和随机噪音。 类别范围：我没有进行全局搜索，而是将工作流程锁定到Tech 和Business 类别。如果某个关键字出现在体育文章中，我就看不到它。 AI 执行摘要：该工作流程不是向我发送同一故事的 15 个链接，而是使用 Summarize 节点来分析新闻集群并编写 180 字的执行摘要。它告诉我：发生了什么、业务影响以及接下来要看什么。  很高兴分享工作流程   由   提交 /u/islempenywis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rp0e6v/i_was_drowning_in_google_alerts_noise_so_i_built/</guid>
+      <pubDate>Mon, 09 Mar 2026 13:36:30 GMT</pubDate>
+    </item>
+    <item>
       <title>我如何在不失去个人风格的情况下自动化为我的品牌创建内容</title>
       <link>https://www.reddit.com/r/automation/comments/1roz8s5/how_i_automated_content_creation_for_my_brand/</link>
       <description><![CDATA[去年我尝试尽可能多地自动化我的内容工作流程，说实话，最大的收获是知道什么不应该自动化。我尝试使用聊天机器人进行评论回复，结果立即显而易见且令人畏缩。我的内容日历模板化得太严格，一切都感觉陈旧。这些都是代价高昂的教训，人为因素实际上是不可协商的。 通过缓冲区自动化进行分配和调度。通过自动更新的概念仪表板进行分析跟踪也很好。通过 Lightroom 预设编辑工作流程以实现一致的颜色分级，而无需单独触摸每个图像，这也是可行的。 我最终发现的路线：自动化生产和分发，保持策略和参与完全人性化。我的观众与我的实际内容中的个人声音联系在一起，但没有人注意到或关心其背后的基础设施运行的效率如何。社交媒体宣传片的视觉内容现在通过狡猾的人工智能运行，因此我不必永远在每个平台的摄像机后面，这比整个堆栈中的任何其他单一更改释放了更多的每周时间。   由   提交 /u/The_possessed_YT   [链接] [评论]]]></description>
@@ -88,27 +109,6 @@
       <description><![CDATA[自动化爱好者知道这个问题：一旦您的出站工作流程超过 5 或 6 个工具，事情就会开始崩溃。 一个失败的 API 连接可能会破坏整个管道。 我们正在探索 AI 驱动的出站系统是否可以取代传统的自动化工具堆栈。 对于自动化构建者来说：AI 是取代工作流程，还是只是在上面添加另一层？    由   提交/u/trr2024_  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1royw8x/automating_outbound_lead_generation_without/</guid>
       <pubDate>Mon, 09 Mar 2026 12:30:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>机器人流程自动化平台可以处理非结构化 BOL 数据吗？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rot2f3/can_robotic_process_automation_platforms_handle/</link>
-      <description><![CDATA[我们获得各种可以想象到的格式的提单 (BOL) 文件、扫描的 PDF、模糊的照片，甚至手写笔记。我们当前的自动化只是由一群人将其输入到我们的系统中。我很好奇是否有人使用过将 OCR 与人工智能相结合的现代机器人流程自动化平台来处理这些混乱的数据。我需要一个足够智能的平台，如果无法 100% 确定追踪号码或重量，则可以标记文档以供人工审核。   由   提交 /u/mo_ngeri   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rot2f3/can_robotic_process_automation_platforms_handle/</guid>
-      <pubDate>Mon, 09 Mar 2026 06:51:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>我这样做对吗？</title>
-      <link>https://www.reddit.com/r/automation/comments/1rordmm/am_i_doing_this_right/</link>
-      <description><![CDATA[嗨，我实际上学习人工智能自动化几个月了，最近我遇到了一些问题。   我完成了 make 基础知识和基础课程，并且还学习了一些其他免费课程。我想我已经掌握了自动化是什么。我这样做对吗？您有什么想推荐给我的吗？ 市场饱和了吗？我的意思是，我需要几个月的时间才能进入市场，到那时我的知识会毫无用处吗？  欣赏您的想法，谢谢   由   提交 /u/Senmuthu_sl2006   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rordmm/am_i_doing_this_right/</guid>
-      <pubDate>Mon, 09 Mar 2026 05:12:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>自动预订可用性的最简洁方法是什么？</title>
-      <link>https://www.reddit.com/r/automation/comments/1roijqb/whats_the_cleanest_way_to_automate_booking/</link>
-      <description><![CDATA[我正在努力减少预订方面的手动工作。 现在的流程很混乱：消息 → 检查日历 → 确认可用性 → 更新库存。 它在数量较小时有效，但一旦请求增加，手动检查就会开始花费太多时间。 对于自动化预订工作流程的人： 您采用哪种堆栈或自动化设置使用？ 它是自定义脚本、Zapier 风格的工作流程还是专用系统？ 好奇在实践中实际效果如何。   由   提交 /u/DexHelpl   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1roijqb/whats_the_cleanest_way_to_automate_booking/</guid>
-      <pubDate>Sun, 08 Mar 2026 22:28:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
