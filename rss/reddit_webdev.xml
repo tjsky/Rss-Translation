@@ -4,16 +4,79 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 10 Mar 2026 01:30:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:43:12 GMT</lastBuildDate>
     <item>
-      <title>在CS中，你去哪所高中很重要吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rpixdh/in_cs_does_it_matter_which_high_school_you_go/</link>
-      <description><![CDATA[      刚刚发现一些精英人士把孩子送到这所学校lmfao 所以现在有精英高中，像常春藤盟校这样的精英大学...天...这就是为什么富人越来越富，穷人越来越穷   由   提交/u/lune-soft  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rpixdh/in_cs_does_it_matter_which_high_school_you_go/</guid>
-      <pubDate>Tue, 10 Mar 2026 01:08:56 GMT</pubDate>
+      <title>构建了一个体育流媒体仪表板作为网络开发项目</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rppkqj/built_a_sports_streaming_dashboard_as_a_web_dev/</link>
+      <description><![CDATA[我最近构建了一个名为 SportsFlux 的项目。这个想法来自于注意到体育直播是多么混乱。从开发的角度来看，有趣的部分是设计一个仪表板，它可以显示大量游戏信息，而又不会压垮界面。我仍在完善 UI 和性能。   由   提交 /u/ryanglenn123   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rppkqj/built_a_sports_streaming_dashboard_as_a_web_dev/</guid>
+      <pubDate>Tue, 10 Mar 2026 06:36:03 GMT</pubDate>
     </item>
     <item>
-      <title>Alpine & Tailwind issues.转场和动画</title>
+      <title>大多数制造公司甚至无法将机器学习模型部署到生产中</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rppdsy/til_most_manufacturing_companies_cant_even_deploy/</link>
+      <description><![CDATA[抱怨部署一切你想要的，但至少我们有 CI/CD、docker、云基础设施。 制造 ML 部署意味着：工厂车间的边缘设备、不是为数据而构建的 OT 网络、2004 年没有标签的传感器数据，以及如果模型发送一个错误警报就会叛变的用户。 大多数项目在部署之前就夭折了： [aifactoryinsider.com/p/how-to-escape-the-ai-pilot-purgatory](http://aifactoryinsider.com/p/how-to-escape-the-ai-pilot-purgatory) 突然之间，我们的 Kubernetes 头痛感觉很舒服易于管理。   由   提交 /u/Far_Spread_8229   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rppdsy/til_most_manufacturing_companies_cant_even_deploy/</guid>
+      <pubDate>Tue, 10 Mar 2026 06:24:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>7 天后，Safari 悄悄删除了用户保存的数据。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rpp4oh/safari_silently_deleted_our_users_saved_data/</link>
+      <description><![CDATA[我们构建了一个基于 Web 的项目管理工具，最初并不是一个带有帐户的完整 SaaS，只是一个本地第一个工具，其中所有内容都通过 IndexedDB 保存到浏览器。可以将其想象为 Notion，但一切都保留在您的浏览器中，无需服务器，无需帐户。我们将其宣传为“您的数据永远不会离开您的设备”。人们很喜欢它，每周约有 25,000 名活跃用户，主要使用桌面版 Chrome 和 Firefox，一切都运行良好。 然后我们开始收到用户的电子邮件，称他们的整个项目板都消失了。没有损坏，没有部分丢失，完全被抹掉，就像它们从未存在过一样。奇怪的是，只有 iPhone 和 iPad 用户，模式总是相同的，他们会大量使用应用程序几天，然后大约一周没有打开它，当他们回来时，一切都消失了。 我们花了很长时间才弄清楚这一点，因为我们一直在寻找代码中的错误。我们审核了 IndexedDB 写入逻辑，检查存储配额问题，在每个数据库操作周围添加了错误边界，添加了遥测技术来跟踪数据的写入和读取时间。我们的代码很好。每次数据都被正确保存。一周后它就自行消失了。 事实证明，iOS 上的 Safari 对于“脚本可写存储”有 7 天的上限。适用于未作为 PWA 添加到主屏幕的网站。如果用户连续 7 天没有访问您的网站，Safari 会自动清除所有 IndexedDB、localStorage、Cache API 数据等所有内容。这不是一个错误，而是一个故意为“智能跟踪预防”而设计的 WebKit 策略。 Apple 实施该措施是为了防止跨站点跟踪。问题是，它还会破坏任何本地存储内容的网络应用程序的合法应用程序数据，并且苹果不会在发生这种情况之前向用户或开发人员发出任何警告。您的数据就这样消失了，并且无法恢复。 真正令人痛苦的是，这不会影响 iOS 上的 Chrome，因为尽管 iOS 上的 Chrome 在底层使用 WebKit，但它以不同的方式管理自己的存储策略。因此，我们的 iOS 用户上的 Chrome 没有问题，而 Safari 用户的数据被擦除，我们不知道为什么行为会被分开，因为我们假设所有 iOS 浏览器的行为都是相同的，因为它们都使用 WebKit。 我们通过在真实的 iOS 设备上进行测试、在 Safari 中打开应用程序、写入数据、然后 7 天不碰它并检查数据是否保存下来来确认这一确切行为。一些工具可以在不同的 iOS 版本之间自动执行此操作，因为 iOS 16 和 iOS 18 之间的存储逐出规则略有变化，我们需要确切地知道哪些版本受到影响，哪些版本没有受到影响。 7 天擦除在 Safari 的所有最新版本中都是一致的，但安装到主屏幕的 PWA 的行为略有不同，其中数据持续时间更长。 该修复是一个根本性的改变。我们添加了一个具有服务器端同步功能的可选帐户系统，因此用户数据的备份不受浏览器的影响。对于仍然不想创建帐户的用户，我们专门为 Safari 用户添加了一条显着警告，解释他们的浏览器可能会在 7 天不活动后删除保存的数据，并建议他们将应用程序作为 PWA 添加到主屏幕或定期导出数据。我们还构建了一个自动导出功能，每次用户使用应用程序作为安全网时，该功能都会将 JSON 备份保存到用户的 iCloud 或本地文件中。 如果您正在构建任何类型的本地首个 Web 应用程序，在 IndexedDB 或 localStorage 中存储有意义的用户数据，并且您尚未测试一周不活动后这些数据在 Safari 上会发生什么情况，则需要立即进行测试，因为您的 iOS Safari 用户可能已经丢失了数据，并且您永远不会在任何错误日志中看到它，因为Safari 的视角没有出现任何问题。   由   提交 /u/ContactCold1075   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rpp4oh/safari_silently_deleted_our_users_saved_data/</guid>
+      <pubDate>Tue, 10 Mar 2026 06:09:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要设计布局帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rpp3di/need_help_with_design_layout/</link>
+      <description><![CDATA[所以我是构建网站的初学者。几天前，我刚刚建立了我的第一个偶数网站，这是我的投资组合网站。然后我决定为什么不尝试一些自由职业。我冷冷地接近一个人，提出为他建立一个网站，他同意付钱给我。  他的需求：- 1）他是一名艺术品设计师 2）他需要一个作品集网站，可以展示他所有的艺术品 3）并且还能够上传他未来的作品 我的问题：- 1）我不知道艺术设计师的作品集是什么样子。谁能指导我去哪里寻找灵感？ 2）它可能也需要后端，我不知道。我可以用ai来做吗？ 3）另外，我应该在其中使用现代且吸引人的图形和动画吗   由   提交 /u/driftinginparadox   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rpp3di/need_help_with_design_layout/</guid>
+      <pubDate>Tue, 10 Mar 2026 06:07:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>来自新加坡的流量异常激增——这是爬虫吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rpoje2/unusual_spike_in_traffic_from_singapore_is_this_a/</link>
+      <description><![CDATA[      大家好， 我是 PicShift，一个基于浏览器的图像处理工具。我今天刚刚检查了 Umami 分析，发现流量激增，但感觉有些不对劲。 查看会话日志：  所有最近的会话均来自新加坡，使用 Chrome + Windows 10/11 + 笔记本电脑。 每个会话都有 Visits=1、Views=1 和零交互（没有图像转换、没有下载、没有核心功能点击）。 这些会话连续不断地涌入（例如过去一小时内有 20 多个会话），这远远超出了人类的浏览行为。  总体指标也看起来很可疑：  与之前相比，访问量/访问量增加了 357%/310%，但 平均访问时长仅为5秒， 跳出率为98%。  这看起来像是自动访问而不是真实用户。有人见过类似的模式吗？  这可能是一个通用的网络爬虫/抓取程序吗？ 它是安全扫描程序还是监控机器人？ 关于如何识别/阻止它而不伤害真实用户的任何提示？  提前感谢您的见解！   由   提交/u/That-Row1408   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rpoje2/unusual_spike_in_traffic_from_singapore_is_this_a/</guid>
+      <pubDate>Tue, 10 Mar 2026 05:35:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>需要帮助：前端笔记本电脑规格/组件</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rplvab/help_needed_laptop_specscomponents_for_frontend/</link>
+      <description><![CDATA[我的兄弟即将毕业并开始开发生涯，他已经使用同一台笔记本电脑好几年了。作为毕业礼物，我想给他买一台笔记本电脑的升级版。 我在其他地方读到过，苹果是王者，但他绝对讨厌苹果产品，并拒绝将它们用于他的个人业务。目前，他一直在开发我只能描述为基础 Chromebook 的产品，类似于学校为中学生/高中生在家使用的产品（至少在我所在的地区 - 认为百思买是最便宜的选择）。 我在业余时间构建游戏设备，所以我知道组件是什么、它们做什么等，但我的知识实际上只是基于游戏。 当涉及到编码时，特别是在前端能力方面，您在寻找什么关键因素它涉及 - 屏幕尺寸 - 显示分辨率 - CPU - 显卡（集成、专用和电源） - RAM - 以及我可能缺少的其他内容 感谢您的帮助，希望我能找到一些能让他的工作体验更好的东西！   由   提交/u/Pretend-Mastodon35   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rplvab/help_needed_laptop_specscomponents_for_frontend/</guid>
+      <pubDate>Tue, 10 Mar 2026 03:18:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>CVIX v2.0 — 免费公民考试准备应用程序，刚刚发布了重大更新</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rplkhz/cvix_v20_free_citizenship_test_prep_app_just/</link>
+      <description><![CDATA[      我在办理美国入籍流程时一直在业余时间构建此项目。刚刚发布 v2.0，想分享。 **Stack：** React + Vite、React Router v7、Supabase（auth + Postgres + RLS）、Netlify（自动部署 + 计划函数）、Datadog RUM（以及大量 CLAUDE）  https://preview.redd.it/rl7n4cwuv4og1.png?width=3420&amp;format=png&amp;auto=webp&amp;s=c5a29db36d47cf5c9003455dc1b62f0d607bc4ed &lt;一href=&quot;https://preview.redd.it/ni652cwuv4og1.png?width=3420&amp;format=png&amp;auto=webp&amp;s=7691bc28bd4f99dafbd05f0765448a425752df42&quot;&gt; https://preview.redd.it/ni652cwuv4og1.png?width=3420&amp;format=png&amp;auto=webp&amp;s=7691bc28bd4f99dafbd05f0765448a425752df42 &lt;一href=&quot;https://preview.redd.it/mr0jubwuv4og1.png?width=3420&amp;format=png&amp;auto=webp&amp;s=75a8f994e57522ca30f1029f1342d2e3bc2ba765&quot;&gt; https://preview.redd.it/mr0jubwuv4og1.png?width=3420&amp;format=png&amp;auto=webp&amp;s=75a8f994e57522ca30f1029f1342d2e3bc2ba765 **v2.0 中的新增功能：** - 从单页滚动迁移到完整的多页路由 (React Router) - 构建了 N-400 应用程序跟踪器 - 提交日期 → 估计时间线、进度条上的里程碑点、预约日期条目、基于 USCIS 中值处理时间的提前/落后时间表徽章 - 通过 Netlify 计划函数写入 Supabase 进行夜间统计数据聚合 - 带有 html2canvas PNG 导出 + Twitter 分享的完成徽章 - 通过数据库触发器修复 Supabase RLS 注册（在建立会话之前插入配置文件） - 通过导航栏可全局访问配置文件模式 **经验教训：** - Netlify 计划函数无法访问 VITE_ env vars — 硬编码或使用服务器端变量 - React Router + Netlify 需要在 netlify.toml 或每次刷新 404 秒中使用 `[[redirects]] from=&quot;/*&quot;` catch-all - Supabase RLS 对注册时间要求严格 — `auth.users` 上的数据库触发器比从客户端插入更干净 Live at cvix.io — 免费，无广告，欢迎反馈。   由   提交 /u/fraciscv   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rplkhz/cvix_v20_free_citizenship_test_prep_app_just/</guid>
+      <pubDate>Tue, 10 Mar 2026 03:04:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于可能使用AI构建网站的开发者来说，你们目前的实际工作流程是怎样的？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rplak3/to_developers_who_may_build_websites_using_ai/</link>
+      <description><![CDATA[大家好， 我是一名有抱负的 Web 开发人员，目前正在学习和尝试不同的工具。最近我看到很多关于“vibe 编码”的讨论。 我觉得有点跟不上当前 Web 开发的趋势，所以我想问问那些正在积极构建东西的人。 对于那些在开发网站时使用 AI 的人： • 你们使用什么工具？ （ChatGPT、Copilot、Cursor、Claude 等） • 您的实际工作流程是什么样的？ • AI 在哪些方面真正帮助您，在哪些方面存在不足？ 我正在尝试了解开发人员如何将 AI 实际集成到他们的工作流程中，以及哪些实践从长远来看可能真正有用。 很想听听您的经验。   由   提交/u/Defaulter_4  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rplak3/to_developers_who_may_build_websites_using_ai/</guid>
+      <pubDate>Tue, 10 Mar 2026 02:52:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>学习一个流行的行业堆栈，还是做我想做的事？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rpkbav/learn_a_popular_industry_stack_or_do_what_i_want/</link>
+      <description><![CDATA[老实说。我想学习 Java Springboot 和 React TypeScript，但是需要做的内容和事情太多了，一天有 24 小时，我无法完成所有事情。但我也想做 Roblox Lua Dev，它不会教我 Restful 或转移到现代流行技术堆栈的东西，这些东西会让我受聘   由   提交 /u/Suspicious-Net7738   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rpkbav/learn_a_popular_industry_stack_or_do_what_i_want/</guid>
+      <pubDate>Tue, 10 Mar 2026 02:08:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>存储 5000~ json 文件的最佳方式</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rpk80b/best_way_to_store_5000_json_files/</link>
+      <description><![CDATA[它们每个大约 150 个字节，只需将它们存储在 /public 中或使用数据库？   由   提交/u/pandagotthedoginhim   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rpk80b/best_way_to_store_5000_json_files/</guid>
+      <pubDate>Tue, 10 Mar 2026 02:04:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>高山和顺风问题。转场和动画</title>
       <link>https://www.reddit.com/r/webdev/comments/1rpi50n/alpine_tailwind_issues_transitions_animations/</link>
       <description><![CDATA[大家好， 简单的问题。大多数开发人员在使用 Alpine 时都会将传统 CSS 与 Tailwind 混合使用吗？ 我目前正在将 Alpine 过渡和动画与 Tailwind 一起使用，我注意到两者之间存在一些冲突，并且必须使用传统 css 才能使它们正常工作。 我还购买了 James J. Blake 的 Alpine.JS in Practice（Amazon Kindle 版）：他有意避免使用 Tailwind 进行 x 过渡（样式化），而对其他所有内容都使用 Tailwind 样式化。   由   提交 /u/drifterpreneurs   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rpi50n/alpine_tailwind_issues_transitions_animations/</guid>
@@ -22,7 +85,7 @@
     <item>
       <title>我如何使用 Nuxt 3 和深度链接来解决体育运动的“订阅疲劳”</title>
       <link>https://www.reddit.com/r/webdev/comments/1rphfdq/how_i_used_nuxt_3_and_deeplinking_to_solve/</link>
-      <description><![CDATA[I got frustrated with the 2026 streaming mess, so I built a utility called SportsFlux. Technically, it’s a metadata aggregator that maps live event IDs to native app URL schemes. It bypasses the &#39;Home&#39; screen bloat and launches the stream directly.我正在寻找一些关于深度链接逻辑的同行评审，特别是如何在不丢失会话的情况下处理从移动浏览器到智能电视应用程序的切换。如果您要为网络构建“通用遥控器”，您会坚持无头方法还是构建专用的 PWA？   由   提交 /u/Kind-Information2394   [link] [comments]]]></description>
+      <description><![CDATA[我对 2026 年的流媒体混乱感到沮丧，因此我构建了一个名为 SportsFlux 的实用程序。从技术上讲，它是一个元数据聚合器，可将实时事件 ID 映射到本机应用程序 URL 方案。它绕过“主”屏幕的臃肿并直接启动流。我正在寻找一些关于深度链接逻辑的同行评审，特别是如何在不丢失会话的情况下处理从移动浏览器到智能电视应用程序的切换。如果您要为网络构建“通用遥控器”，您会坚持无头方法还是构建专用的 PWA？   由   提交/u/Kind-Information2394   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rphfdq/how_i_used_nuxt_3_and_deeplinking_to_solve/</guid>
       <pubDate>Tue, 10 Mar 2026 00:05:53 GMT</pubDate>
     </item>
@@ -46,69 +109,6 @@
       <description><![CDATA[我最近一直在研究可访问性，遇到了一个实际问题，这个问题似乎比指南建议的更难。 理论上，每个图像都应该有由添加内容的人编写的有意义的替代文本。实际上，在较大的网站（或更旧的网站）上，您最终会得到：  数千张缺少 alt 属性的图像 像 IMG_4932.jpg 这样的文件名用作 alt 文本 编辑人员只是忘记添加说明 大型媒体库，没有人知道哪些内容还需要修复  因此，积压的工作量不断增加，可访问性问题不断堆积 我一直在探索的是工具是否可以帮助解决问题的审核和分类，而不是试图替换人工编写的替代文本。 例如： • 扫描媒体库以查找缺少替代文本的图像 • 标记薄弱的描述（如文件名） • 生成编辑人员可以审核的首次通过建议并编辑 •帮助团队优先考虑实际需要人类关注的内容 这个想法不是要取代上下文驱动的替代文本，因为它仍然需要一个理解内容的人，而是要消除导致团队完全忽略积压工作的摩擦。 好奇其他人如何在生产环境中处理这个问题。 如果您在较大的网站上工作：  团队实际上是否一致地维护替代文本？ 是吗？在 CMS 工作流程中强制执行？ 还是主要成为技术债务？  很想听听人们如何在实际项目中解决这个问题。   由   提交 /u/Spiritual-Fuel4502   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rpbrrf/how_do_teams_realistically_maintain_alt_text_when/</guid>
       <pubDate>Mon, 09 Mar 2026 20:30:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果只懂前端可以做自由职业吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rpbqlc/is_freelance_work_possible_if_you_only_know/</link>
-      <description><![CDATA[所以我只懂JS，除了明显的HTML/CSS/SCSS。我曾经了解过 React 和 D3，但已经忘记了，不过当然可以快速重新学习。 我处于中级水平（也许，前端完成了 9 个中级项目）。  另外，我该怎么办？我的意思是，不是在谈论寻找客户，而是我如何为客户实现这一点？ 此外，是否有人愿意接受 100% 远程、自由前端开发工作、公司？    由   提交 /u/AppropriatePrompt819   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rpbqlc/is_freelance_work_possible_if_you_only_know/</guid>
-      <pubDate>Mon, 09 Mar 2026 20:29:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为此抓狂。我应该尝试并继续吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rpbpxu/im_pulling_my_hair_out_over_this_should_i_try_and/</link>
-      <description><![CDATA[也许我不适合这个，但我正在慢慢学习一门教授前端和后端开发基础知识的课程，我目前在前端学习什么是 React 以及它可以做什么。我根本不知道它是如何运作的。我已经完成了一些关于构建组件然后导入/导出的课程，但我不明白下一课讨论 babel 和 webpack 以及它们如何交互。  如果这只是开始，我该如何处理除此之外的事情？我不是白痴，我对 javascript 很熟悉，而且我了解编码原理，但这是本课程中第一次，这些信息甚至没有在我的脑海中沉淀下来，我无法理解发生了什么让事情发生。我充其量只是了解导入和导出组件。 我不知道 DOM 是什么，或者它与虚拟 DOM 有什么不同，或者为什么你甚至需要不同的 DOM。也许重新审视一遍可能会有所帮助，但我承认我是那种一开始不明白的人，我会感到非常沮丧，然后进一步尝试“学习”。当我对自己感到恼火时，结果却让我变得更加恼火。该课程是自定进度的，所以我对自己的进度负责，但我什至不知道在哪里寻求帮助，因为我不知道我不明白什么 如果有任何建议或一般提示，我将不胜感激:)   由   提交/u/Frankenler  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rpbpxu/im_pulling_my_hair_out_over_this_should_i_try_and/</guid>
-      <pubDate>Mon, 09 Mar 2026 20:28:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>免 IBAN 验证</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rpbji4/iban_validation_free/</link>
-      <description><![CDATA[各位失眠症患者大家好.. 有人使用或知道一个好的免费 IBAN 验证器解决方案吗？本地脚本或 API。 https://github.com/Simplify/ibantools https://github.com/apilayer/goiban-service 我看到了这 2 个，但它们看起来有点不活跃...   由   提交/u/blink0837  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rpbji4/iban_validation_free/</guid>
-      <pubDate>Mon, 09 Mar 2026 20:21:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能时代的冒名顶替综合症：我无法在空白画布上编码。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rpazxj/imposter_syndrome_in_the_ai_era_i_cant_code_from/</link>
-      <description><![CDATA[2024 年，我决定通过 Udemy 课程学习编程。我学习了 Web 开发的基础知识，并为我的作品集构建了一些小型 React 项目。发出申请后，我只用了四个月就找到了一份 Web 开发人员（React + PHP）和 IT 帮助台专家的工作。 然后，人工智能介入了。我开始使用它来编写代码，从简单的自动完成开始，逐渐发展成为我们今天在 2026 年使用的代理编码工具。 现在我该怎么办？我正在经历一生中最严重的冒名顶替综合症。我完全理解这个理论：我确切地知道项目在 API、身份验证、存储和架构方面需要什么。但如果我必须从“空白画布”开始在一个空的 IDE 中，我很难将其付诸实践。我知道编程不是要记住语法，但我忍不住要重新审视自己。 我很困惑，因为我不知道说“我拒绝在这个项目中使用人工智能”是否有意义。归根结底，如果您知道自己在做什么，它将提供不可否认的生产力提升。 最终，我感到迷失方向，不确定自己应该在多大程度上依赖这些工具。重申一下：我有扎实的理论基础，但从头开始编写代码仍然是一个挑战。我怀疑问题的根源在于我的时间线——人工智能革命在我完成学习后就开始了，这意味着在采用这些工具之前我从来没有机会完全依靠自己来完成现实世界的项目。 所以，我不得不问：还有其他初级开发人员经历过这种完全相同的“人工智能时代冒名顶替综合症”吗？对于更有经验的开发人员来说，我如何打破这个循环并构建我的“空白画布”？在不牺牲日常工作效率的情况下保持自信？   由   提交 /u/MicheleN13   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rpazxj/imposter_syndrome_in_the_ai_era_i_cant_code_from/</guid>
-      <pubDate>Mon, 09 Mar 2026 20:03:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Firecrawl 的 jsonLd 元数据字段会默默删除 HTML 中存在的架构</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rpaaen/firecrawls_jsonld_metadata_field_silently_drops/</link>
-      <description><![CDATA[我们正在构建一个站点审核工具，用于检查结构化数据（FAQPage、组织、产品架构等）。我们使用 Firecrawl 进行抓取，因为它对于获取干净的降价和站点映射来说非常可靠。 但是我们遇到了一个错误，即具有完全有效的 JSON-LD 架构的网站返回时显示为“未找到架构”。花了一段时间才找到，因为没有错误，metadata.jsonLd 只是返回一个空数组。 我们通过与同一页面的基本 httpx 获取 + BeautifulSoup 解析进行比较来确认。 ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rpaaen/firecrawls_jsonld_metadata_field_silently_drops/</guid>
-      <pubDate>Mon, 09 Mar 2026 19:37:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>TIL：在 Windows 上 setx 命令几乎擦除了我的 PATH 环境变量</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rp9wnt/til_on_windows_setx_command_almost_wiped_my_path/</link>
-      <description><![CDATA[今天在我的 cmd 终端中运行了这个非常无辜的命令 ``` setx PATH &quot;%PATH%;C:\Apps\bin&quot; ``` 收到此消息 &gt;警告：保存的数据被截断为 1024 个字符。 previous 当我在 gui 中检查我的 Path env 时，它几乎减半了，最后一个条目被截断了。幸运的是，我之前打开了一个终端，所以我只是运行了 `echo %PATH%` 并恢复了之前的 PATH 变量 永远不要在 cmd 中运行 setx 命令，仅在 powershell 中运行该命令或尝试使用 gui   由   提交 /u/takuonline   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rp9wnt/til_on_windows_setx_command_almost_wiped_my_path/</guid>
-      <pubDate>Mon, 09 Mar 2026 19:23:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>您知道如何将图像从一个网站复制到粘贴到另一个网站吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rp9apf/do_you_know_how_copying_image_from_one_website_to/</link>
-      <description><![CDATA[我在周末写了一篇技术详细说明，讲述从一个网站复制图像并将其粘贴到另一个网站时会发生什么情况。 这篇文章遵循完整路径：  渲染器端图像提取 沙盒渲染器和浏览器之间的 IPC  在 Windows、macOS、X11 和 Wayland 上处理操作系统剪贴板翻译 粘贴时安全检查和清理 重新进入目标渲染器，然后进入 DOM  希望任何花时间研究 Chromium / Gecko / WebKit 内部的人提供更正或额外的详细信息。   由   提交/u/Super-Commercial6445   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rp9apf/do_you_know_how_copying_image_from_one_website_to/</guid>
-      <pubDate>Mon, 09 Mar 2026 19:01:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>前端动画</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rp81e3/frontend_animations/</link>
-      <description><![CDATA[嘿伙计们，这里是后端开发人员 我看到过一些网站，主要关注的是视觉部分，当你滚动时你就知道这些网站，并且发生了很酷的事情。 我想知道它们是如何构建的，我在 React 方面有相当多的经验，但是这些类型的网站是不同的动物吗？ 构建它们的最佳方法是什么，我有一个朋友需要一个，并且不想让他付钱给开发人员，我提出为他做这件事，当然是在克劳德的帮助下。 谢谢   由   提交 /u/shangarepi   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rp81e3/frontend_animations/</guid>
-      <pubDate>Mon, 09 Mar 2026 18:16:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>已获得 DNPR（正在申请专利）- 因为 Canvas 可以让您访问 PDF。 DOM 让你可以控制它</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rp6vwl/made_dnpr_patent_pending_because_canvas_gives_you/</link>
-      <description><![CDATA[所以我一直在深入研究 pdf 编辑器的实际工作原理，有件事困扰了我一段时间 基于 pdf.js 和 pdfium 的编辑器占据了 98% 的市场。它们都做同样的事情 - 将文档渲染为画布元素上的平面图像。 “文本”您认为您正在编辑的只是像素顶部的浮动叠加层。两个断开连接的系统假装是一个 在其中任何一个上打开开发工具。删除画布元素。你会看到剩下的东西——幽灵文本占位符悬在空中，与任何东西都没有联系 它已经有 21 岁了。文档被视为图像而不是对象。这就是为什么你需要在编辑任何内容之前单击特定工具，为什么你不能只抓取图像并移动它，为什么可访问性总是事后才想到的 我想我花了大约 16 个月的时间来烘焙这项技术 - 为不同的方法申请了专利，即 DOM 原生 PDF 渲染 (DNPR)。没有画布。文本变成真正的span元素，图形变成svg节点，布局是css。文档成为您可以实际控制的对象，而不是您使用工具查看的图片 DNPR 是无服务器的 - 完全在客户端运行。 browser 是众多运行时之一，msp、zapier、任何 js 运行时。您的文件永远不会离开您的机器 在大型文档上，编辑速度会大大加快，因为您无需为每个操作切换工具。图形是实际的 dom 对象。 DNPR 允许在核心级别上使用 AI - 真实示例：通过 1 个 API 调用在约 200 毫秒内更改 pdf 的整个配色方案。通过canvas完成同样的任务需要几天的时间 canvas可以让你访问pdf。 DNPR 让您完全控制它。 pdf 作为一个对象 - 而不是图像。 制作了一个演示，如果有人想看看它是如何工作的 - 私信我   由   提交 /u/Background-Tear-1046   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rp6vwl/made_dnpr_patent_pending_because_canvas_gives_you/</guid>
-      <pubDate>Mon, 09 Mar 2026 17:37:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
