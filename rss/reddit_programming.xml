@@ -4,13 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 10 Mar 2026 15:57:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 18:42:08 GMT</lastBuildDate>
     <item>
-      <title>将 AI 代理技能视为 RAG 问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1rq0o5x/treating_ai_agent_skills_as_a_rag_problem/</link>
-      <description><![CDATA[在尝试 AI 代理工具时，我了解到许多代理框架在启动时将所有技能文件的 front-matter 加载到上下文窗口中。 这意味着代理会为每个技能携带元数据（例如每个技能的 frontmatter 和关键字），即使其中大多数与当前任务无关。 这让我想知道是否可以将技能更像是检索问题来处理 我尝试过的方法： • 使用 YAML frontmatter 将技能存储为 markdown 文件 • 将每个技能的 frontmatter 和关键字嵌入向量 • 使用 sqlite-vec 在 SQLite 中存储嵌入 • 代理首先调用 skill_search 来检索相关技能 • 然后通过以下方式加载完整内容skill_read 嵌入是使用全 MiniLM-L6-v2 模型在本地生成的，因此系统完全离线运行。 这使上下文窗口保持较小，同时仍然允许大型技能库。 我围绕这个想法构建了一个小型开源原型： https://github.com/Ruhal-Doshi/skill-depot 好奇其他构建代理系统如何处理技能发现或扩展技能库。   由   提交 /u/Ruhal-Doshi   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rq0o5x/treating_ai_agent_skills_as_a_rag_problem/</guid>
-      <pubDate>Tue, 10 Mar 2026 15:53:41 GMT</pubDate>
+      <title>使用 Greenmask 和 OpenEverest 匿名化数据</title>
+      <link>https://www.reddit.com/r/programming/comments/1rq46dv/anonymizing_data_with_greenmask_and_openeverest/</link>
+      <description><![CDATA[ 由   提交/u/anyweny  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rq46dv/anonymizing_data_with_greenmask_and_openeverest/</guid>
+      <pubDate>Tue, 10 Mar 2026 17:58:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>CI 应该首先在你的机器上失败</title>
+      <link>https://www.reddit.com/r/programming/comments/1rq3al4/ci_should_fail_on_your_machine_first/</link>
+      <description><![CDATA[ 由   提交/u/NorfairKing2  [链接] [comments]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rq3al4/ci_should_fail_on_your_machine_first/</guid>
+      <pubDate>Tue, 10 Mar 2026 17:27:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>坐在你的屁股上 Web 开发</title>
+      <link>https://www.reddit.com/r/programming/comments/1rq1kmb/sit_on_your_ass_web_development/</link>
+      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rq1kmb/sit_on_your_ass_web_development/</guid>
+      <pubDate>Tue, 10 Mar 2026 16:26:47 GMT</pubDate>
     </item>
     <item>
       <title>在 1982 年 BBC Micro 上训练 16 位定点神经网络</title>
@@ -18,13 +32,6 @@
       <description><![CDATA[ 由   提交/u/mariuz  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rpzuf3/training_a_neural_network_in_16bit_fixed_point_on/</guid>
       <pubDate>Tue, 10 Mar 2026 15:22:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>许可证洗钱和洁净室的消亡——chardet 之争实际上破坏了什么</title>
-      <link>https://www.reddit.com/r/programming/comments/1rpzom6/license_laundering_and_the_death_of_clean_room/</link>
-      <description><![CDATA[上周，一位Python库维护者在Claude一手运行了12年之后，使用Claude从头开始重写它，将许可证从LGPL更改为MIT，而原作者（自2011年起离开）现身反对。关于字符编码库的 GitHub 问题有 244 条评论。 我写了为什么线程中的每个人都选择了让他们感觉正确的立场，而不是可以解决问题的立场。 简短版本：洁净室重新实现已经死了，没有人愿意承认这一点。   由   提交 /u/allixsenos   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rpzom6/license_laundering_and_the_death_of_clean_room/</guid>
-      <pubDate>Tue, 10 Mar 2026 15:15:47 GMT</pubDate>
     </item>
     <item>
       <title>在生产环境中运行 100 万张图像搜索的成本是多少</title>
@@ -36,7 +43,7 @@
     <item>
       <title>容器不是安全边界</title>
       <link>https://www.reddit.com/r/programming/comments/1rpv2dt/containers_are_not_a_security_boundary/</link>
-      <description><![CDATA[ 由   提交/u/lucavallin   [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交 /u/lucavallin   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rpv2dt/containers_are_not_a_security_boundary/</guid>
       <pubDate>Tue, 10 Mar 2026 12:03:15 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rpd92r/symbolic_derivatives_and_the_rust_rewrite_of_re/</guid>
       <pubDate>Mon, 09 Mar 2026 21:23:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>推和拉：三种反应性算法</title>
-      <link>https://www.reddit.com/r/programming/comments/1rpd8az/pushing_and_pulling_three_reactivity_algorithms/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rpd8az/pushing_and_pulling_three_reactivity_algorithms/</guid>
-      <pubDate>Mon, 09 Mar 2026 21:23:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
