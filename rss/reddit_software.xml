@@ -4,7 +4,35 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 11 Mar 2026 18:48:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 21:30:41 GMT</lastBuildDate>
+    <item>
+      <title>人工智能编码代理正在悄然改变软件的构建方式</title>
+      <link>https://www.reddit.com/r/software/comments/1rr487w/ai_coding_agents_are_quietly_changing_how/</link>
+      <description><![CDATA[人工智能编码代理正在迅速成为软件开发中最具变革性的工具之一。与简单的代码自动完成工具不同，这些代理可以理解目标（例如构建功能、修复错误或分析代码库），然后自动生成、修改和测试代码以完成目标。开发人员越来越多地将它们用作协作者而不仅仅是工具，委派重复性任务，例如编写样板、调试、文档甚至初始架构。其结果是开发周期更快，并且较小的团队甚至单独的开发人员能够构建更大、更复杂的系统。  对于普通大众来说，这种转变可能意味着软件改进得更快并且生产成本更低。初创公司可以用更少的工程师推出产品，遗留系统可以更快地现代化，并且实验变得更容易，因为可以快速生成和测试代码。虽然人类开发人员对于设计决策、安全监督和复杂推理仍然至关重要，但人工智能编码代理开始像从不睡觉的初级开发人员一样行事，从而加快了数字工具和平台的创建速度。   由   提交/u/International-Eye613  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rr487w/ai_coding_agents_are_quietly_changing_how/</guid>
+      <pubDate>Wed, 11 Mar 2026 19:47:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>我建立了一个网站，您可以在其中为某人创建数字花束 ♥</title>
+      <link>https://www.reddit.com/r/software/comments/1rr3gr0/i_built_a_website_where_you_can_create_digital/</link>
+      <description><![CDATA[大家好， 我建立了一个名为 Bloomify 的小项目，您可以在其中创建和发送数字花束。 我们的想法是制作一些简单而美观的东西，人们可以与他们关心的人分享。 使用的技术： - React - FireBase - CSS 动画 - Vercel 部署 希望得到社区的反馈！ 网站： https://bloomify-ashen.vercel.app   由   提交/u/Key-Sort-7387   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rr3gr0/i_built_a_website_where_you_can_create_digital/</guid>
+      <pubDate>Wed, 11 Mar 2026 19:20:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 Moneybird 首席执行官 Edwin Vlieg 询问有关创业或其软件 AMA 的任何问题</title>
+      <link>https://www.reddit.com/r/software/comments/1rr2vm1/ask_anything_about_entrepreneurship_or_their/</link>
+      <description><![CDATA[ 由   提交 /u/No-Gas-3337   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rr2vm1/ask_anything_about_entrepreneurship_or_their/</guid>
+      <pubDate>Wed, 11 Mar 2026 18:59:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 CodeGraphContext 探索代码 - 一种 MCP 服务器，可将本地代码索引到图形数据库中，为 AI 助手提供上下文</title>
+      <link>https://www.reddit.com/r/software/comments/1rr2lbk/explore_code_using_codegraphcontext_an_mcp_server/</link>
+      <description><![CDATA[CodeGraphContext - 代码索引的首选解决方案现在获得了 2k 星🎉🎉... 这是一个 MCP 服务器，它将代码库理解为图表，而不是文本块。现在的发展远远超出了我的预期 - 无论是在技术上还是在采用方面。 现在的情况  v0.3.0 发布 ~2k GitHub star，~400 个分支 75k+ 下载量 75+ 贡献者，~200成员社区 被许多构建 MCP 工具、代理和 IDE 工作流程的开发人员使用和赞扬 扩展到 14 种不同的编码语言  它的实际用途 CodeGraphContext 将存储库索引到存储库范围的符号级图形中：文件、函数、类、调用、导入、继承和服务通过 MCP 为 AI 工具提供精确、关系感知的上下文。 这意味着： - 快速“谁调用什么”、“谁继承什么”等查询 - 最少的上下文（无令牌垃圾邮件） - 随着代码更改实时更新 - 图形存储保持在MB，而不是 GB 它是代码理解的基础设施，不仅仅是“grep”搜索。 生态系统采用 它现在已列出或用于：PulseMCP、MCPMarket、MCPHunt、Awesome MCP Servers、Glama、Skywork、Playbooks、Stacker News 等等。  Python 包→ https://pypi.org/project/codegraphcontext/ 网站 + 食谱 → https://codegraphcontext.vercel.app/ GitHub 存储库 → https://github.com/CodeGraphContext/CodeGraphContext 文档 → https://codegraphcontext.github.io/ 我们的 Discord 服务器 → https://discord.gg/dR4QY32uYQ   这不是 VS Code 技巧或 RAG 包装器 - 它旨在 作为共享基础设施位于大型存储库和人类/AI 系统之间。 很高兴听到反馈、怀疑、比较，或者来自构建 MCP 服务器或开发工具的人员的想法。   由   提交/u/Desperate-Ad-9679   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rr2lbk/explore_code_using_codegraphcontext_an_mcp_server/</guid>
+      <pubDate>Wed, 11 Mar 2026 18:49:53 GMT</pubDate>
+    </item>
     <item>
       <title>我构建了一个自动缩放和可定制的 Windows 屏幕录像机</title>
       <link>https://www.reddit.com/r/software/comments/1rr25bx/i_built_a_windows_screen_recorder_that_autozooms/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[大家好， 我一直被有多少元数据“标准”所困扰。链接缩短程序会抓取 IP、位置、设备 ID，仅重定向 URL 就太过分了。 我和我的合作伙伴决定构建 PVTLNK。目标很简单：一个干净、最小的工具包，优先考虑用户隐私而不是数据收集。它仍处于早期阶段，我们正在努力弄清楚我们是否在 UI/UX 上达到了目标。 它目前的用途：链接缩短、UTM 构建、自定义域、分析、QR 码、批量导出/导入等。 我们不打算出售任何东西；我们只是想出售任何东西。有免费试用版，如果您不使用该软件，我们鼓励您在检查后取消试用版！我们只是希望在我们仍处于发布前阶段时，从真正关心软件和隐私的人们那里得到一些诚实、残酷的反馈。流量有意义吗？够快吗？缺少什么？ 在这里查看：https://pvtlnk.com/ 感谢您分享的任何想法！   由   提交 /u/Connor-04   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1rqxszd/looking_for_feedback_on_a_privacyfocused_url/</guid>
       <pubDate>Wed, 11 Mar 2026 16:02:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我大量下载耳语模型并制作自己的会议录音机</title>
-      <link>https://www.reddit.com/r/software/comments/1rqxr3r/why_i_massdownloaded_whisper_models_and_made_my/</link>
-      <description><![CDATA[Otter 想要每年 100 美元来转录我的通话，而我一直在想他们服务器上的所有会议音频。所以我制作了一些只在本地运行的东西。 它使用 Whisper，可与 Zoom、Teams、Discord 以及几乎任何东西配合使用，并将所有内容保留在您的计算机上。没有订阅，没有云。 构建时间比我预期的要长。如果有人尝试的话，希望得到反馈。   由   提交/u/Ill-Mulberry-9362   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rqxr3r/why_i_massdownloaded_whisper_models_and_made_my/</guid>
-      <pubDate>Wed, 11 Mar 2026 16:00:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费桌面遥控器</title>
-      <link>https://www.reddit.com/r/software/comments/1rqwrp2/free_desktop_remote/</link>
-      <description><![CDATA[是否有始终开启的桌面远程应用程序？我的孩子每天做完家务后可以玩 20 分钟电脑。有时他们会过来，而我很忙或在外面等。我希望能够看到屏幕，并从我的 Android 远程让计算机进入睡眠/关闭状态。    由   提交 /u/TheGrovester   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rqwrp2/free_desktop_remote/</guid>
-      <pubDate>Wed, 11 Mar 2026 15:24:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个工具来分析您的 Letterboxd 导出并生成“Cinema DNA”配置文件</title>
-      <link>https://www.reddit.com/r/software/comments/1rqw5xr/i_built_a_tool_that_analyzes_your_letterboxd/</link>
-      <description><![CDATA[大家好！ 如果您像我一样是影迷，那么您可能拥有 Letterboxd。我构建了一个小工具，可以分析您的 Letterboxd 数据导出并生成“电影 DNA”配置文件。 它会查看您的观看历史记录，并在 8 个维度（艺术影院、全球电影、探索性等）映射您的品味，以创建一种品味指纹。 它还会生成电影角色，并让您比较与朋友的兼容性。 我构建它主要是为了好玩，但我很好奇其他 Letterboxd 用户是否会找到结果准确。 如果有人想尝试一下： cinemadna.app 希望得到反馈。 Cinema DNA 是一个独立项目，不隶属于 Letterboxd。它仅分析用户选择上传的导出文件。 :)   由   提交/u/Platypus512  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rqw5xr/i_built_a_tool_that_analyzes_your_letterboxd/</guid>
-      <pubDate>Wed, 11 Mar 2026 15:01:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>这里有人考过 Oracle 认证 1Z0-071（Oracle 数据库 SQL）吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1rquy1o/has_anyone_here_taken_the_oracle_certification/</link>
-      <description><![CDATA[我正打算参加，我想知道你是如何准备的。你使用了哪些资源？ （课程、书籍、模拟考试等）另外，您是从哪里学习的？您实际上会推荐什么平台或材料？我对是什么帮助您通过了第一次尝试特别感兴趣。   由   提交/u/misterkadev  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rquy1o/has_anyone_here_taken_the_oracle_certification/</guid>
-      <pubDate>Wed, 11 Mar 2026 14:15:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
