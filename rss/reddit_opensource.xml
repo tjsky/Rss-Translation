@@ -4,7 +4,21 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 12 Mar 2026 09:39:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 12:50:10 GMT</lastBuildDate>
+    <item>
+      <title>构建高性能多语言框架：Go Core Orchestrator + Node/Python/React 工作人员通过 Unix Sockets 和 Apache Arrow 进行通信。寻找反馈和贡献者！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rrpbh4/building_a_highperformance_polyglot_framework_go/</link>
+      <description><![CDATA[嘿 Reddit， 有一段时间，我一直在思考单体应用和微服务之间的差距，特别是在混合不同技术堆栈时如何管理路由、安全性和进程间通信 (IPC)。  我正在开发一个名为 vyx（以前称为 OmniStack Engine）的开源项目。它是一个围绕非常具体的架构设计的多语言全栈框架：Go Core Orchestrator，通过 Unix 域套接字 (UDS) 和 Apache Arrow 管理独立的工作人员。 Repo：https://github.com/ElioNeto/vyx 它是如何工作的（架构） vyx 使用单个 Go 进程作为核心编排器，而不是传统的反向代理。该核心是暴露于网络的唯一事物。  核心解析传入的 HTTP 请求、处理 JWT 身份验证并进行架构验证。仅当请求经过完全验证和授权后，核心才会通过高度优化的 IPC（Unix 域套接字）将其传递给工作进程（Node.js、Python 或 Go）。对于大型数据集，它使用 Apache Arrow 进行零拷贝数据传输；对于小负载，二进制 JSON/MsgPack。 文本 [HTTP 客户端] → [Core Orchestrator (Go)] ├── 管理工作人员（Node、Python、Go） ├── 验证架构和结构Auth └── 通过 UDS + Apache Arrow 的 IPC ├── Node Worker（SSR React / API）├── Python Worker（API - 非常适合机器学习/数据）└── Go Worker（原生高性能 API）  没有文件系统路由：基于注释的发现 Next.js 普及了文件系统路由，但我想要显式契约。 vyx 使用构建时注释解析。核心静态扫描您的后端/前端代码以构建 route_map.json。 Go Backend: go // @Route(POST /api/users) // @Validate(JsonSchema: &quot;user_create&quot;) // @Auth(roles: [&quot;admin&quot;]) func CreateUser(w http.ResponseWriter, r *http.Request) { ... }  Node.js (TypeScript) 后端： typescript // @Route(GET /api/products/:id) // @Validate( zod ) // @Auth(roles: [&quot;user&quot;, &quot;guest&quot;]) 导出异步函数 getProduct(id: string) { ... }  React 前端(SSR): tsx // @Page(/dashboard) // @Auth(roles: [&quot;user&quot;]) export default function DashboardPage() { ... }  为什么要构建这个？  安全第一： 你的 Python 或 Node 工作线程永远不会接触未经身份验证或格式错误的请求。 Go 核心会在不良流量到达您的业务逻辑之前将其丢弃。 故障隔离：如果 Node Worker 崩溃（OOM 等），Go 核心会中断该特定路由并正常重新启动该 Worker。应用程序的其余部分保持正常运行。 使用最好的工具来完成工作：用于 UI 的 React、用于原始性能的 Go、用于数据/AI 任务的 Python，所有这些都生活在同一个托管生态系统中。  我需要您的帮助！ （当前状态：MVP 阶段） 我目前正在构建第 1 阶段（Go 核心、Node + Go 工作线程、UDS/JSON、JWT）。我希望围绕这个想法建立一个社区。 如果您是对架构、性能或 IPC 感兴趣的 Go、Node、Python 或 React 开发人员： * 反馈： 这种架构对您有意义吗？您认为 UDS/Arrow Web 框架存在哪些缺陷？ * 贡献者：我喜欢 PR、问题中的架构讨论，或者帮助构建 Python Worker 和 Arrow 集成。 * 星星：如果您觉得这个概念有趣，GitHub 上的星星意味着全世界，有助于让该项目出现在更多人的眼前。 在这里查看：https://github.com/ElioNeto/vyx 感谢您的阅读，我会在评论中回答任何问题！   由   提交/u/Emergency_Law_2535   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rrpbh4/building_a_highperformance_polyglot_framework_go/</guid>
+      <pubDate>Thu, 12 Mar 2026 12:23:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fastlytics - 开源 F1 遥测可视化工具（AGPL 许可证）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rrmc37/fastlytics_opensource_f1_telemetry_visualization/</link>
+      <description><![CDATA[我一直在构建一个开源 Web 应用程序，用于轻松可视化一级方程式遥测数据。它被称为 Fastlytics 我真诚地相信每个人都应该可以使用赛车运动分析，而不仅仅是拥有数百万美元预算的团队。通过开源，我希望能够与其他想要添加功能的开发人员合作 为 F1 粉丝社区提供透明的、可定制的工具 向比我了解更多的贡献者（大多数人）学习  它的作用： 会话重播、速度跟踪、位置跟踪、轮胎策略分析、齿轮/油门图 - 基本上将原始计时数据转换为人类实际上可以解释的东西。 技术堆栈：  前端：React + TypeScript、用于可视化的 Recharts 后端：Python (FastAPI)、用于身份验证的 Supabase 数据：用于 F1 计时数据的 FastF1 库  链接：  现场演示：https://fastlytics.app GitHub：https://github.com/Fastlytics/Fastlytics  寻找贡献者！无论您是开发人员、设计师、数据人员，还是只是有意见的 F1 粉丝，我都希望您能提供意见。   由   提交/u/subhashg547  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rrmc37/fastlytics_opensource_f1_telemetry_visualization/</guid>
+      <pubDate>Thu, 12 Mar 2026 09:44:44 GMT</pubDate>
+    </item>
     <item>
       <title>22 个免费的基于浏览器的开源开发工具 — next.js，无后端，无跟踪</title>
       <link>https://www.reddit.com/r/opensource/comments/1rrd4dg/22_free_open_source_browserbased_dev_tools_nextjs/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好， 我一直在开发一个名为 OneAlert 的开源项目，并希望在这里分享以获取反馈。 这个想法源于我注意到大多数漏洞监控工具都集中在传统 IT 环境，而许多工业和遗留系统（工厂、SCADA 网络、物流基础设施）没有可访问的监控工具。 OneAlert 是一个开源漏洞情报。以及专为混合IT/OT环境设计的监控平台。 当前功能 • 聚合漏洞情报源• 将漏洞与资产关联起来• 为相关漏洞生成警报• 旨在与传统基础设施和工业系统配合使用 技术堆栈 Python / FastAPI PostgreSQL / SQLite 容器友好型部署 API优先架构 长期目标是创建一个开放的替代方案来监控工业和遗留环境，这些环境目前主要依赖于昂贵的专有平台。 存储库：https://github.com/mangod12/cybersecuritysaas 有关架构、功能或贡献的反馈将不胜感激。   由   提交 /u/bekar81   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rp3128/opensource_otit_vulnerability_monitoring_platform/</guid>
       <pubDate>Mon, 09 Mar 2026 15:19:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>合法与合法相同：人工智能的重新实施和 Copyleft 的侵蚀</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rp2vze/is_legal_the_same_as_legitimate_ai/</link>
-      <description><![CDATA[ 由   提交/u/hongminhee  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rp2vze/is_legal_the_same_as_legitimate_ai/</guid>
-      <pubDate>Mon, 09 Mar 2026 15:14:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Engram – AI 代理的持久内存（Bun、SQLite、MIT）</title>
-      <link>https://www.reddit.com/r/opensource/comments/1roxhta/engram_persistent_memory_for_ai_agents_bun_sqlite/</link>
-      <description><![CDATA[GitHub：https://github.com/zanfiel/engram 现场演示：https://demo.engram.lol/gui（密码：demo） Engram 是一个自托管内存服务器，用于AI 代理。 代理存储他们学到的内容，并在未来的会话中回忆它 通过语义搜索。 堆栈：Bun + SQLite + 本地嵌入（无外部 API） 主要功能： - 使用本地运行的 MiniLM 嵌入进行语义搜索 - 内存自动链接到知识图 - 版本控制，重复数据删除、过期 - WebGL 图形可视化 GUI - 具有 API 密钥和空格的多租户 - TypeScript 和 Python SDK - 包含 OpenAPI 3.1 规范 单个 TypeScript 文件（约 2300 行），MIT 许可， 使用 docker compose up 进行部署。 欢迎反馈 - 首次公开发布。   由   提交 /u/Shattered_Persona   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1roxhta/engram_persistent_memory_for_ai_agents_bun_sqlite/</guid>
-      <pubDate>Mon, 09 Mar 2026 11:19:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
