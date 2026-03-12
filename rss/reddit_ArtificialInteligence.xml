@@ -4,13 +4,62 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Thu, 12 Mar 2026 12:48:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 15:54:36 GMT</lastBuildDate>
     <item>
-      <title>我们刚刚在 Product Hunt 上推出了 CodePup AI！</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrpoq9/we_just_launched_codepup_ai_on_product_hunt/</link>
-      <description><![CDATA[大家好 我是 CodePup AI 背后团队的一员，今天我们在 Product Hunt 上推出了它。 我们构建 CodePup AI 是为了解决 AI 网站建设者不断遇到的几个问题：可靠性和完整性。它不是逐个生成部分，而是根据单个提示生成完整的多页面网站，然后自动测试和修复生成的代码，使其更接近生产就绪。 目标是帮助创始人、产品经理和团队更快地启动网站和商店，而无需花费数小时修复生成的代码。 希望听到来自这个社区的反馈，特别是来自使用 AI 进行构建或尝试 AI 开发工具的人们的反馈。 如果您好奇，可以在今天的 Product Hunt 页面上的“CodePup AI”下找到该发布。 感谢任何反馈🙌  链接：https://www.producthunt.com/products/codepup-ai?launch=codepup-ai   由   提交 /u/Savings_Employer_860   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrpoq9/we_just_launched_codepup_ai_on_product_hunt/</guid>
-      <pubDate>Thu, 12 Mar 2026 12:41:04 GMT</pubDate>
+      <title>扩展您对 20 美元 Claude 代码计划的使用，我制作了一个 MCP 工具。读这个故事:)</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrsv1r/extend_your_usage_on_20_claude_code_plan_i_made/</link>
+      <description><![CDATA[免费工具： https://grape-root.vercel.app/  Discord（推荐用于设置帮助/错误/新工具更新）： https://discord.gg/rxgVVgCh 故事： 我最近用Claude Code CLI进行了很多实验，并且总是比预期更快地遇到会话限制。 在跟踪令牌使用情况后，我注意到一些有趣的事情：很多令牌不是因为推理而是因为推理而被烧毁在后续提示期间重复重新探索相同的存储库上下文。 因此，我开始构建一个用 Claude 代码构建的小工具，该工具试图通过保留会话期间已探索的文件的轻量内存来减少冗余的存储库探索。 它不是一次又一次地重新发现相同的文件，而是帮助代理直接路由到存储库的相关部分，并有助于减少已读取的未更改文件的重新读取。 什么它目前试图做到：  跟踪哪些文件已经被探索过 避免重复地重新读取未更改的文件 使相关文件保持“温暖” 减少重复的上下文重建  到目前为止，大约100+人已经尝试过，并且有几个人报告在达到使用限制之前明显更长的 Claude 会话。 测试期间有一件令人惊讶的事情：当代理探索存储库时，单个提示有时会触发多个内部文件读取。减少这些冗余读取最终比我预期更早地节省了代币。 仍然是实验性，所以我主要分享它是为了从大量使用 Claude Code 的人那里获得反馈。 很好奇其他人是否注意到类似的事情，代币使用量的激增是来自于推理，还是来自于存储库探索循环？ 希望获得反馈。   由   提交 /u/intellinker   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrsv1r/extend_your_usage_on_20_claude_code_plan_i_made/</guid>
+      <pubDate>Thu, 12 Mar 2026 14:51:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>微软新的人工智能健康工具可以读取你的医疗记录并提供建议</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrshi5/microsofts_new_ai_health_tool_can_read_your/</link>
+      <description><![CDATA[ 由   提交/u/wsj   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrshi5/microsofts_new_ai_health_tool_can_read_your/</guid>
+      <pubDate>Thu, 12 Mar 2026 14:37:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>伊朗战争预示着人工智能轰炸时代的到来，速度比“思维速度”还要快</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrrucy/iran_war_heralds_era_of_aipowered_bombing_quicker/</link>
+      <description><![CDATA[ 由   提交/u/ThereWas  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrrucy/iran_war_heralds_era_of_aipowered_bombing_quicker/</guid>
+      <pubDate>Thu, 12 Mar 2026 14:12:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能的繁荣正在使开发人员远离加密项目</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrrlmq/ai_boom_is_pulling_developers_away_from_crypto/</link>
+      <description><![CDATA[GitHub 数据中出现了有趣的趋势。过去一年里，加密货币项目的开发者活动大幅下降。每周提交量大幅下降，活跃贡献者的数量几乎减少了一半。 一个解释非常简单：人工智能的繁荣。 许多工程师正在转向人工智能基础设施、工具和模型开发，而不是构建 Web3 应用程序。考虑到目前大部分资金和兴奋都在哪里，这并不奇怪。 完整文章：https://btcusa.com/crypto-developer-activity-drops-as-ai-boom-pulls-talent-from-blockchain/ 你认为这个吗是暂时的——还是人工智能会永久吸收大部分过去进入加密领域的开发人才？   由   提交 /u/Enough_Angle_7839   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrrlmq/ai_boom_is_pulling_developers_away_from_crypto/</guid>
+      <pubDate>Thu, 12 Mar 2026 14:03:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>Perplexity 分析师日的重要收获</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrr40l/important_take_aways_from_perplexity_analyst_day/</link>
+      <description><![CDATA[领先来源 Vellum 的研究 (2026) 表明，与使用单一前沿模型相比，Perplexity Max 的模型委员会将事实错误减少了近 40%。 这是一个重大好处。 Perplexity 已成为一个元层 - 不仅汲取 Claude、OpenAi、Gemini、Grok 等的优点来提供卓越的结果，而且还实现了各自的优势（Claude 编码、Gemini 跨视频和图像等）。 这允许用户（尤其是企业）拥有一个订阅并获得最好的结果，而不是多个订阅。 我发布此内容是为了对用户有所帮助。   由   提交/u/Always_Curious_One2  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrr40l/important_take_aways_from_perplexity_analyst_day/</guid>
+      <pubDate>Thu, 12 Mar 2026 13:43:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>八月人工智能在自然医学安全基准评估中正确识别每一起紧急情况</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrqcav/august_ai_correctly_identifies_every_emergency/</link>
+      <description><![CDATA[Nature Medicine 的一篇新论文在 960 个分类场景中对 ChatGPT Health 进行了压力测试。 51.6% 的真正紧急情况未得到充分分类。系统识别出警告信号，然后说服自己不再采取行动。  我们与 August 重复了这项研究。 0% 紧急分类不足。 64 分（满分 64 分）。  我分享这一点并不是为了胜利，而是为了证明我已经说过一段时间的话：患者可以信任的临床人工智能是通过多年的工作来衡量的，而不是产品发布。  早在健康人工智能成为一个类别之前，我们就一直在构建专门构建的临床推理系统。专业逐专业。一个接一个的指导方针。按故障模式划分的故障模式。每当我们认为我们已经很接近时，我们就会发现另一个让我们感到谦卑的边缘情况。  回答健康问题的一般模型与将 pCO2 上升视为呼吸衰竭轨迹的临床系统之间的区别不是智力。这是工程深度。据了解，糖尿病酮症酸中毒 (DKA) 从定义上来说是一种紧急情况，而不是高血糖的一种变体。没有任何基础模型能够立即提供数千条临床规则。  任何人都可以构建健康聊天机器人。市场已经表明了这一点。当风险确实存在时，打造一个患者可以认真对待的东西是完全不同的问题。短期内会更慢、更困难。但这是唯一重要的版本。  该论文呼吁对消费者健康人工智能进行上市前安全评估。我们认为这是最低限度，而不是最高限度。   由   提交/u/BoysenberryMelodic96   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrqcav/august_ai_correctly_identifies_every_emergency/</guid>
+      <pubDate>Thu, 12 Mar 2026 13:10:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能伦理 x VBE 论文</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrqazs/paper_on_ai_ethics_x_vbe/</link>
+      <description><![CDATA[大家好， 我正在研究代理人工智能如何改变需求：工具现在可以读取规范并生成工作代码，这意味着需求中任何缺失的道德都可以直接投入生产。我正在测试一个基于价值工程 (IEEE P7000) 的轻量级“道德过滤框架”，该框架为关键要求添加了明确的、可测试的伤害约束（隐私、公平、可解释性、安全）。 我正在寻找开发人员/机器学习工程师/产品人员的反馈。该调查是匿名的，大约 10 分钟，我将与参与者分享简短的结果摘要。 调查：https://forms.gle/uhDSgrd1DU3rNGWo9   由   提交/u/anttiOne  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrqazs/paper_on_ai_ethics_x_vbe/</guid>
+      <pubDate>Thu, 12 Mar 2026 13:09:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>阿里巴巴支持的 PixVerse 投资 3 亿美元后成为人工智能独角兽</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrq8pc/alibababacked_pixverse_becomes_ai_unicorn_after/</link>
+      <description><![CDATA[作为一名用户，PixVerse 的最新型号 v5.6 给我留下了深刻的印象 — 它功能强大且物有所值。他们的 World Model R1 也是一个令人着迷的概念，背后有很多想象力。据我了解，不少游戏工作室已经对这项技术表现出了浓厚的兴趣。很高兴看到资金支持这一点！   由   提交 /u/TheseSir8010   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrq8pc/alibababacked_pixverse_becomes_ai_unicorn_after/</guid>
+      <pubDate>Thu, 12 Mar 2026 13:06:15 GMT</pubDate>
     </item>
     <item>
       <title>数据中心如何影响电价</title>
@@ -20,25 +69,18 @@
       <pubDate>Thu, 12 Mar 2026 11:08:24 GMT</pubDate>
     </item>
     <item>
+      <title>如果人工智能取代了大部分工人，谁会真正购买这些产品？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrnlit/if_ai_replaces_most_workers_who_will_actually_buy/</link>
+      <description><![CDATA[我一直在思考一些感觉像是与人工智能相矛盾的事情。 公司正在迅速采用人工智能来实现工作自动化。目标似乎很明显：降低劳动力成本，提高效率，让人工智能管理更多任务。但这产生了一个我无法停止思考的问题。 如果人工智能取代了很大一部分劳动力，那么很多人将失去收入。如果人们没有收入，他们将无法购买产品或服务。 但公司依赖于人们买东西。 因此，如果公司将一切自动化并取消大多数人力工作，谁会成为客户？ 整个经济因为一个循环而运转： 人们工作→人们赚钱→人们花钱→公司盈利→公司雇用人员。 如果人工智能打破了“人们赚钱”  那么这里的长期计划是什么？ 人们谈论的一些可能性是普遍基本收入、人工智能创造的新型就业机会或完全不同的经济模式。但它仍然感觉像是社会尚未完全弄清楚的事情。 我是否遗漏了一些东西，或者这是大规模人工智能自动化的一个真正的长期问题？   由   提交 /u/IcyBottle1517   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrnlit/if_ai_replaces_most_workers_who_will_actually_buy/</guid>
+      <pubDate>Thu, 12 Mar 2026 10:58:05 GMT</pubDate>
+    </item>
+    <item>
       <title>Nvidia 将向 Neocloud Nebius 投资 20 亿美元，推动人工智能数据中心发展</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrni07/nvidia_to_invest_2_billion_in_neocloud_nebius/</link>
       <description><![CDATA[&quot;Nvidia (NVDA.O)，打开新标签周三表示将向人工智能云公司 Nebius 投资 20 亿美元 (NBIS.O)，打开新标签标签，增加了这家领先芯片制造商对人工智能公司和数据中心基础设施不断增长的投资清单。 向美国证券交易委员会 (SEC) 提交的一份文件显示，Nvidia 已同意以每股 94.94 美元的价格购买 Nebius 约 8.3% 的股份。总部位于阿姆斯特丹但在纳斯达克上市的 Nebius 股价截至格林威治标准时间 1623 年上涨 13.8%，至 109.72 美元。”   由   提交/u/talkingatoms  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrni07/nvidia_to_invest_2_billion_in_neocloud_nebius/</guid>
       <pubDate>Thu, 12 Mar 2026 10:52:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是诈骗吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrn56w/is_this_a_fraud/</link>
-      <description><![CDATA[我想知道他们是否使用窃取的 API 密钥来免费提供所有这些模型。开发人员表示，他们在 vast.ai 上租用服务器，以便在本地托管所有这些模型，但例如 Claude 模型是闭源的，因此他们要么按使用付费，要么发现了一些泄露的 API 密钥。另外，店主听起来像是……15岁的人。好吧，这取决于你自己的判断，但如果你加入他们的 Discord，你会自己看到它。 这项服务感觉像是一个伪装成免费人工智能服务的骗局。如果有经验的人可以看一下并提供一些说明，我们将不胜感激！ - https://ai.ezif.in/   由   提交/u/seizoux  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrn56w/is_this_a_fraud/</guid>
-      <pubDate>Thu, 12 Mar 2026 10:32:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>与人工智能的情感关系——调查结果</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrkvol/emotional_relationships_with_ai_survey_results/</link>
-      <description><![CDATA[前段时间，Memento Vitae 做了一项调查——你赞成与 AI 建立情感关系吗？  https://preview.redd.it/hmtq3y3vnkog1.jpg?width=481&amp;format=pjpg&amp;auto=webp&amp;s=c834e7ac6f58873e8bf2284493646add6ec0b2fc 结果是  否 - 73% 是 - 15% 不确定 - 12%  这些结果让您感到惊讶吗？你认为那些与人工智能建立情感关系的人是可悲的吗？或者，你理解/支持他们吗？ 在 Memento Vitae 博客上你可以查看完整的调查结果和解释   由   提交/u/No-Balance-376   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrkvol/emotional_relationships_with_ai_survey_results/</guid>
-      <pubDate>Thu, 12 Mar 2026 08:12:31 GMT</pubDate>
     </item>
     <item>
       <title>谁是氛围编码迷你应用程序构建者的实际消费者？</title>
@@ -60,48 +102,6 @@
       <description><![CDATA[ 由   提交/u/GERemesh  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrervz/big_tech_backs_anthropic_in_fight_against_trump/</guid>
       <pubDate>Thu, 12 Mar 2026 02:37:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>亚马逊决心将人工智能用于一切——即使它会减慢工作速度技术 |卫报</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rr6y1x/amazon_is_determined_to_use_ai_for_everything/</link>
-      <description><![CDATA[ 由   提交 /u/PixeledPathogen   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rr6y1x/amazon_is_determined_to_use_ai_for_everything/</guid>
-      <pubDate>Wed, 11 Mar 2026 21:24:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是一个有效的悖论吗？推动人工智能的公司将允许任何人建造他们销售的产品？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rr61ae/is_this_a_valid_paradox_companies_pushing_ai_that/</link>
-      <description><![CDATA[我一直在思考当前人工智能竞赛中可能存在的悖论。 许多首席执行官和创始人都在积极推动将人工智能融入到各个地方，因为它可以提高短期效率和利润，对吗？ 但是，如果人工智能不断改进并变得广泛可用，曾经需要工程师、设计师和资本组成的团队的工作可以越来越多地由一个人（或非常小的团队）拥有好的想法和正确的方法来完成 因此，更多的人可以开发替代品，竞争急剧加剧，价格往往会下降。 因此，今天提高利润的技术可能会破坏许多公司明天所依赖的稀缺性。 这是一个逻辑上一致的担忧，还是我在这个推理中遗漏了一些东西？   由   提交 /u/BinaryMode00   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rr61ae/is_this_a_valid_paradox_companies_pushing_ai_that/</guid>
-      <pubDate>Wed, 11 Mar 2026 20:52:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>新闻文章：新的分析显示，技术正在提高而不是降低工作的速度、密度和复杂性</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rr5eql/news_article_the_technology_is_increasing_the/</link>
-      <description><![CDATA[ 由   提交/u/XIFAQ  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rr5eql/news_article_the_technology_is_increasing_the/</guid>
-      <pubDate>Wed, 11 Mar 2026 20:29:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>我知道野兽先生团队用什么来走红。如何进行 TTS 和其他人工智能音频编辑 - 包括在内</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rr1p86/i_know_what_mr_beast_team_uses_to_go_viral_how_to/</link>
-      <description><![CDATA[大家好，我决定与你们分享我的教程，了解如何使用人工智能更改声音、进行文本转语音和翻译视频！我认为这是一个强大的工具，如果您想创建内容但没有Mr.Beasttypa 资金，它可以帮助您！顺便说一句，我在 higgsfield 上使用音频。 希望您会喜欢它，如有任何问题请向我询问，我很乐意在评论中回答它们！  我真的很兴奋，因为我刚刚开始我的内容创作之旅:)   由   提交/u/la_dehram   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rr1p86/i_know_what_mr_beast_team_uses_to_go_viral_how_to/</guid>
-      <pubDate>Wed, 11 Mar 2026 18:18:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>文件显示，Nvidia 将斥资 260 亿美元构建开放权重 AI 模型</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rr1oln/nvidia_will_spend_26_billion_to_build_openweight/</link>
-      <description><![CDATA[ 由   提交/u/wiredmagazine  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rr1oln/nvidia_will_spend_26_billion_to_build_openweight/</guid>
-      <pubDate>Wed, 11 Mar 2026 18:18:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>法律专家称，Anthropic 有充分理由反对五角大楼列入黑名单</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rqpurx/anthropic_has_strong_case_against_pentagon/</link>
-      <description><![CDATA[“Anthropic 的挑战其五角大楼黑名单的诉讼可能会考验一项旨在保护军事系统免遭破坏的晦涩法律的影响力，以及法律专家表示，人工智能实验室似乎有强有力的证据表明唐纳德·特朗普总统的政府越权了。 Anthropic 在周一提起的诉讼中表示，国防部决定将该公司排除在军事合同之外​将其指定为供应链风险侵犯了其言论自由和正当程序权利，旨在惩罚该公司对战争中人工智能安全的看法。”  https://www.reuters.com/legal/legalindustry/anthropic-has-strong-case-against-pentagon-blacklisting-legal-experts-say-2026-03-11/   由   提交/u/talkingatoms  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rqpurx/anthropic_has_strong_case_against_pentagon/</guid>
-      <pubDate>Wed, 11 Mar 2026 10:15:45 GMT</pubDate>
     </item>
     <item>
       <title>我们听到了您的声音 - r/ArtificialInteligence 变得更加敏锐</title>
