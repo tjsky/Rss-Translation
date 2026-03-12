@@ -4,7 +4,14 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Thu, 12 Mar 2026 01:30:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 04:45:22 GMT</lastBuildDate>
+    <item>
+      <title>我用 mpv + Tauri 构建了一个跨平台视频播放器（macOS / Windows，HDR 和杜比视界支持）</title>
+      <link>https://www.reddit.com/r/software/comments/1rrdbmf/i_built_a_crossplatform_video_player_with_mpv/</link>
+      <description><![CDATA[大家好， 最近我基于 mpv 和 Tauri 2.0 构建了一个跨平台视频播放器 **Soia**。 启动该项目是因为我想要一个轻量级的播放器，具有强大的历史记录和播放列表支持，并在 macOS 上保留 mpv 的强大播放功能。 目前 Soia 支持 macOS 和 Windows，并在macOS 15 和 Windows 11 一些亮点： • macOS 和 Windows 上的 HDR 播放支持  • 即使在 SDR 屏幕上也可以正确播放和显示杜比视界视频  • 强大的播放历史记录和播放列表管理（支持多个播放列表） • WebDAV 浏览和流式传输  • macOS 和 Windows 上的最小无边框窗口模式 • 基于 mpv 构建，因此支持几乎所有常见视频格式 该项目的动机之一是让 **杜比视界 (Dolby Vision) 视频在 macOS 上正确显示**，但许多玩家仍然在努力解决这一问题。 如果您正在寻找一款基于 mpv 的轻量级播放器或需要在 macOS 上实现更好的杜比视界 (Dolby Vision) 播放效果，请随时尝试。 GitHub 版本： https://github.com/FengZeng/soia/releases 该项目完全开源，非常欢迎反馈或建议。   由   提交/u/JeromeZeng  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rrdbmf/i_built_a_crossplatform_video_player_with_mpv/</guid>
+      <pubDate>Thu, 12 Mar 2026 01:34:13 GMT</pubDate>
+    </item>
     <item>
       <title>不满意的BETA用户</title>
       <link>https://www.reddit.com/r/software/comments/1rrcaro/unsatisfied_beta_users/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[你知道该怎么做 - 你需要为 WhatsApp 或 Discord 缩小视频，你在 Google 上“在线压缩视频”，而每一个结果都是一些充满广告的网站，将你的文件上传到天知道在哪里。 所以我构建了 Squish - 一个免费的视频压缩器，使用 WebAssembly 在浏览器中 100% 运行。您的文件永远不会离开您的设备。甚至不到一毫秒。 它的作用： - 压缩 MP4、MOV、AVI、MKV、WebM 等 - Twitter、WhatsApp (≤16MB)、Discord (≤8MB) 和电子邮件 (≤5MB) 的平台预设 - 设置准确的目标文件大小，它会达到要求 - 选择质量、分辨率和输出格式 - 实时进度，预计到达时间 它是什么不这样做： - 在任何地方上传您的视频 - 要求您注册一个帐户 - 向您收取任何费用 - 添加水印 我已经在自己的视频上进行了测试 - 一个 17MB 的剪辑在 7.5MB 的情况下几乎没有明显的质量差异。 希望得到任何反馈 - 特别是如果您的设备或浏览器出现问题。 🔗 https://usesquish.me   由   提交 /u/Any_Function5963   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1rr0wld/i_got_tired_of_uploading_my_videos_to_sketchy/</guid>
       <pubDate>Wed, 11 Mar 2026 17:51:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>我需要更改我的在线设置。有人试过 Shift 浏览器吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1rr0m90/i_need_to_change_my_online_setup_has_anyone_tried/</link>
-      <description><![CDATA[ 由   提交 /u/Nearby_Voice_9872   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rr0m90/i_need_to_change_my_online_setup_has_anyone_tried/</guid>
-      <pubDate>Wed, 11 Mar 2026 17:41:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
