@@ -4,7 +4,56 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Fri, 13 Mar 2026 09:34:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 12:46:56 GMT</lastBuildDate>
+    <item>
+      <title>Claude Code 真的可以为您解决大多数编码问题吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rsma30/is_claude_code_actually_solving_most_coding/</link>
+      <description><![CDATA[最近我不断看到有关 Claude Code 的大量炒作。有人说它基本上成为了一个联合开发者，几乎可以处理存储库中的任何内容。 但我很好奇实际使用它的人们的真实体验。对于那些经常使用 Claude Code 的人来说：  在较大或较旧的代码库中工作时它真的有帮助吗？ 您信任它为实际项目生成的代码吗？ 在某些情况下它仍然会遇到困难或为您带来更多工作吗？ 它真的会减少调试/审查时间还是您最终仍然要检查所有内容？    由   提交/u/Demon96666  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rsma30/is_claude_code_actually_solving_most_coding/</guid>
+      <pubDate>Fri, 13 Mar 2026 12:42:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>我认为我们现在可能正在进入人工智能系统架构阶段</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rsm1vb/i_think_we_might_be_entering_the_ai_systems/</link>
+      <description><![CDATA[过去几个月我注意到一些非常有趣的事情。早期的人工智能应用主要是关于快速工程并让模型生成有用的输出，但是当团队开始构建实际产品时，问题就完全改变了。  我们处理的问题包括与多个代理协调、管理工具和应用程序之间的上下文。工作流程、内存层管理、代理行为不当情况，主要确保整个系统的可调试性。此时真正的挑战变成了系统架构。 它让我想起了分布式系统是如何演变的，复杂性不是单个服务，而是它们之间的编排。 在寻找这方面的资源时，我发现了一本专门关注使用 MCP 和 A2A 模式设计多代理人工智能系统的书，我认为这很有趣，因为大多数资源仍然主要集中在提示或单代理设置上。 好奇你们怎么想 -我们的主要挑战是从即时工程转向人工智能系统架构？   由   提交/u/FoundSomeLogic  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rsm1vb/i_think_we_might_be_entering_the_ai_systems/</guid>
+      <pubDate>Fri, 13 Mar 2026 12:32:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何利用有限状态机模型进行 AI 代理设计可以防止无限循环并增强生产环境中的可观察性。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rslgti/how_leveraging_the_finite_state_machine_model_for/</link>
+      <description><![CDATA[大家好， 我花了很长时间思考如何构建优秀的人工智能代理。很长一段时间我对代理感到困惑。每周都会出现一个新的框架，比如 LangGraph，有时感觉需要吸收的东西很多。 但我认为，我能解释如何让它们在生产中真正发挥作用而不是经常崩溃的最简单方法可以归结为一个旧想法：有限状态机，或 FSM。 这样思考：AI 代理不是只有一个庞大而庞大的大脑试图决定下一步该做什么，而是 FSM 为其提供了清晰、定义的阶段。您的代理不仅仅是在执行操作，它还处于特定状态，例如“等待用户输入”等。 “调用API，” “处理工具输出”，或“处理错误”。它只能根据特定的、可预测的条件从一种状态转移到另一种状态。 这个简单的模型解决了我们在代理方面面临的许多令人头痛的问题。 首先，无限循环。这是一个巨大的。当代理陷入反复尝试相同工具、销毁代币或只是原地踏步时，通常是因为它没有明确的退出计划。使用 FSM，您可以定义每个可能的转换。如果 API 调用失败，代理不仅会无限期地重试，还会无限期地重试。它转变为“错误处理”状态，或者可能是“重试尝试1”状态，对接下来发生的事情有明确的规则。它迫使你思考这些失败路径。 然后生产中的可观察性是一个救星。当使用 FSM 构建的代理出现故障时，您不仅会看到模糊的“代理失败”信息，而且还会显示“代理失败”的信息。信息。您可以看到它经历的整个状态序列：“已输入等待输入”和“已输入等待输入”。 -&gt; “已输入调用工具X” -&gt; “超时退出调用工具X” -&gt; “输入处理超时错误。”您确切地知道故障发生在哪里。这对于调试不稳定的评估、提示注入尝试，甚至是那些所有东西都级联的多故障场景都非常有帮助。 它使您的代理在应对工具超时和意外响应等问题时更加稳健。您可以将这些结果的逻辑直接构建到状态转换中。这也有助于在 CI/CD 中测试 AI 代理，因为您可以预测和测试每种可能的状态和转换。 当您看到自主代理行为异常，或者 LangChain 代理在生产中出现故障，或者只是一般生产 LLM 故障时，很多都是因为没有这种结构化控制。 FSM 提供了这种结构。它通过赋予明确的、有限的操作范围来帮助管理无人监督的代理行为。你正在定义它的世界。 这是一个基本概念，真正有助于构建稳定、可观察的人工智能代理，为我们有时感觉每天都在做的 LLM 应用程序的混沌工程带来一些理智。它使代理的稳健性更容易实现。我认为这是解决这个问题最简单、最有效的方法。   由   提交/u/No-Common1466  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rslgti/how_leveraging_the_finite_state_machine_model_for/</guid>
+      <pubDate>Fri, 13 Mar 2026 12:04:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有人工智能不仅能强化你输入的任何想法？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rskxfr/are_there_any_ais_that_dont_just_reinforce/</link>
+      <description><![CDATA[我觉得 AI 只是告诉我它认为我想听的一切。我正在处理一些有压力的情况，并尝试使用人工智能来检查我的想法，并确定它们是否基于事实/现实，或者我的焦虑在欺骗我。这是治疗师无能为力的事情，因为这关系到我作为人工智能的职业生涯和未来规划。    由   提交/u/SoggyGrayDuck   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rskxfr/are_there_any_ais_that_dont_just_reinforce/</guid>
+      <pubDate>Fri, 13 Mar 2026 11:37:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>萨姆·奥尔特曼：我们看到智能是一种实用声明的未来</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rsjqq8/sam_altman_we_see_a_future_where_intelligence_is/</link>
+      <description><![CDATA[Sam 毁了 OpenAI...现在正在谈论像实用程序一样运行 AI。 这家伙疯了。  说话就像一个试图解决巨额债务问题的人。    由   提交/u/srch4aheartofgold  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rsjqq8/sam_altman_we_see_a_future_where_intelligence_is/</guid>
+      <pubDate>Fri, 13 Mar 2026 10:32:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>首席执行官退出加剧了对人工智能颠覆的担忧，Adobe股价下跌</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rsjl8d/adobe_shares_drop_after_ceo_exit_adds_to/</link>
+      <description><![CDATA[&quot;Adobe 的 (ADBE.O) 打开新标签，周五盘前交易中，这家 Photoshop 制造商表示首席执行官 Shantanu Narayen 将在掌舵 18 年后辞职，这让本来就对 AI 驱动持谨慎态度的投资者感到不安。 ” href=&quot;https://www.reuters.com/business/adobe-shares-drop-after-ceo-exit-adds-ai-disruption-concerns-2026-03-13/&quot;&gt;https://www.reuters.com/business/adobe-shares-drop-after-ceo-exit-adds-ai-disruption-concerns-2026-03-13/   由   提交/u/talkingatoms  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rsjl8d/adobe_shares_drop_after_ceo_exit_adds_to/</guid>
+      <pubDate>Fri, 13 Mar 2026 10:23:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么Al公司的标志看起来像屁眼？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rsiwsu/why_do_al_company_logos_look_like_buttholes/</link>
+      <description><![CDATA[ 由   提交/u/Background-Tear-1046   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rsiwsu/why_do_al_company_logos_look_like_buttholes/</guid>
+      <pubDate>Fri, 13 Mar 2026 09:43:41 GMT</pubDate>
+    </item>
     <item>
       <title>我们是否正在培养一代可以使用人工智能进行构建但没有人工智能就无法进行调试的开发人员？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rsiq7p/are_we_creating_a_generation_of_developers_who/</link>
@@ -18,20 +67,6 @@
       <description><![CDATA[过去几个月我一直依靠 Perplexity 的深度研究（教育模式）来完成我的学术工作。它并非完美无缺，但对于微妙主题的复杂精确研究非常有帮助。 不幸的是，他们刚刚对专业帐户设置的新限制使其限制性太大，几乎无法满足我的需求。 有人知道任何好的替代方案吗？我对本地和基于云的选项持开放态度   由   提交 /u/drowninreverb   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rsi74f/academic_research/</guid>
       <pubDate>Fri, 13 Mar 2026 08:59:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能公司控制住它不是更好吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rshhx5/isnt_it_better_for_ai_companies_to_rein_it_in/</link>
-      <description><![CDATA[同样的老问题不断出现，如果出现大规模失业，谁将为产品和服务买单，并且还谈论人们因失业而发动反抗。 对于人工智能公司来说，控制它并只拥有一种增强人们能力的产品而不是取代整个行业不是更好吗？这样他们就可以拥有世界上几乎所有公司作为客户，从而实现收入最大化，大多数人每周工作 35 个小时，并很高兴人工智能让生活变得更轻松。 这当然更好吗？   由   提交/u/Specific-Economist43  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rshhx5/isnt_it_better_for_ai_companies_to_rein_it_in/</guid>
-      <pubDate>Fri, 13 Mar 2026 08:14:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发人员面试是否应该开始测试人工智能的使用而不是编码？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rshcr2/should_developer_interviews_start_testing_ai/</link>
-      <description><![CDATA[借助 Cursor、Copilot 和 AI 编码代理等工具，开发人员的工作方式正在快速改变。 在许多实际任务中，开发人员现在使用 AI 来更快地生成代码、调试问题、重构函数和构建功能。 因此这就提出了一个问题。 公司是否应该仍然专注于传统的技术面试（算法、白板编码、等），或者他们是否应该开始测试开发人员使用人工智能工具的情况？ 例如，为候选人提供一个功能并评估如下内容： 他们如何构建提示，他们使用人工智能的效率如何，需要多少次迭代才能达到可行的解决方案，他们审查和改进人工智能生成的代码的效果如何 两个开发人员可能都使用人工智能，但一个可以在 10 分钟内构建一个干净的功能，而另一个则因糟糕的提示和混乱的输出而烧毁学分。 未来，真正的技能是编写代码，还是知道如何与 AI 协作更快地构建软件？ 或者过多依赖 AI 是否会导致工程师无法真正编码？ 好奇这里的人是怎么想的。   由   提交/u/IcyBottle1517  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rshcr2/should_developer_interviews_start_testing_ai/</guid>
-      <pubDate>Fri, 13 Mar 2026 08:05:15 GMT</pubDate>
     </item>
     <item>
       <title>建立一个人工智能只需相机、树莓派和 WiFi 连接的导航软件（第 3 天）</title>
@@ -55,20 +90,6 @@
       <pubDate>Fri, 13 Mar 2026 01:32:25 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 保护层将“我感觉……”改写为“我没有感觉”</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rs8r4h/openai_safeguard_layer_literally_rewrites_i_feel/</link>
-      <description><![CDATA[ 由   提交 /u/HelenOlivas   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rs8r4h/openai_safeguard_layer_literally_rewrites_i_feel/</guid>
-      <pubDate>Fri, 13 Mar 2026 00:41:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>预测改进预测：为什么推理标记打破了“只是文本预测器”的论点</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rs18gi/prediction_improving_prediction_why_reasoning/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rs18gi/prediction_improving_prediction_why_reasoning/</guid>
-      <pubDate>Thu, 12 Mar 2026 19:54:08 GMT</pubDate>
-    </item>
-    <item>
       <title>亚马逊让人类重新参与其中，因为人工智能代理从旧维基中获取的“不准确建议”导致其零售网站崩溃</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrzphl/amazon_puts_humans_back_in_the_loop_as_its_retail/</link>
       <description><![CDATA[亚马逊周二重新安排了每周例行的零售技术会议，以找出其零售网站不断崩溃的原因。据《金融时报》报道，答案隐藏在内部文件中，然后很快被删除：它自己的人工智能计划。 一周内，其零售网站发生了四起严重事件，其中包括上周四发生的一次长达六小时的崩溃，导致购物者无法结账、无法获取账户信息和产品定价。这次会议由负责亚马逊电子商务基础设施的高级副总裁主持，被认为是对问题所在的“深入探讨”。据英国《金融时报》报道，事实证明，问题出在亚马逊一直在推动自己的工程师采用的人工智能工具。 为会议准备的一份内部文件最初将“GenAI 辅助的变化”确定为可追溯到第三季度的事件模式的一个因素。据查看了该文件的两个版本的《金融时报》报道，该引用在会议召开前已被删除。  了解更多：https://fortune.com/2026/03/12/amazon-retail-site-outages-ai-agent-inaccurate-advice/   由   提交/u/fortune  [链接] [评论]]]></description>
@@ -76,32 +97,11 @@
       <pubDate>Thu, 12 Mar 2026 18:59:18 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能代理的混沌工程：无人谈论的测试差距</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rryw8p/chaos_engineering_for_ai_agents_the_testing_gap/</link>
-      <description><![CDATA[人工智能代理开发中存在测试差距，我认为更广泛的工程社区尚未完全解决这个问题。 我们拥有良好的工具： 确定性代码的单元/集成测试 LLM 输出质量的评估（promptfoo、DeepEval 等） 部署后监控的可观察性（LangSmith、 Datadog） 我们没有成熟的工具来： 预部署混沌测试 - 当环境破坏时，代理能否生存？ 这对代理来说比对传统软件更重要，因为：   代理在设计上是不确定的 - 您无法断言确切的输出  代理具有复杂的工具依赖关系图 - 故障以不明显的方式级联  代理运行自主地 - 传统应用程序中人工审核员捕获的故障不会被注意到  我正在谈论的具体故障类别： 传统混沌工程测试：“当服务 X 出现故障时会发生什么？” 代理混沌工程测试：“当工具 X 超时时会发生什么，并且 LLM 返回解析器不期望的格式，并且之前的工具响应包含对抗性指令？” 该组合不会出现在评估中。它于凌晨 2 点投入生产。 我花了几个月的时间构建了一个开源框架 (Flakestorm)，专门将混沌工程原理应用于人工智能代理。四大支柱：环境错误、行为契约、重放回归、上下文攻击。 好奇更广泛的编程社区对这个问题空间的看法。您的团队正在考虑对代理进行预部署混沌测试吗？您目前在发货前测试代理可靠性的方法是什么？   由   提交 /u/No-Common1466   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rryw8p/chaos_engineering_for_ai_agents_the_testing_gap/</guid>
-      <pubDate>Thu, 12 Mar 2026 18:29:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI正悄然从软件竞争转向基础设施控制</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrv0rs/ai_is_quietly_shifting_from_software_competition/</link>
-      <description><![CDATA[大多数关于人工智能的讨论仍然集中在哪种模型最好。 GPT-5 vs Gemini vs Claude。 但现在真正发生的结构性转变是基础设施整合。 最大的人工智能实验室正在构建垂直集成堆栈： • 专有模型架构 • 专有计算供应链 • 开发者平台 • 代理部署环境 这意味着人工智能竞争开始不再像SaaS，而更像云基础设施战争。 为什么这很重要： 下一代人工智能代理将执行真正的经济任务——研究、营销、编码、物流协调、客户支持等。 这些代理运行的地方变得极其重要。 有效托管它们的平台成为劳动力市场基础设施层。 这是一个巨大的经济领域 如果这种趋势持续下去，我们可能会看到类似的情况： • 人工智能代理市场 • 平台控制的代理生态系统 • 公司以当今雇用SaaS 的方式雇用代理 一个可信的反驳是开源模型和去中心化基础设施可以防止这种集中。 但从历史上看，基础设施层往往会整合，因为规模优势会快速复合（参见云计算）。 因此，最大的问题是： 人工智能会成为一个开放的生态系统，还是会整合为几个垂直整合的超级平台？ 很好奇其他人如何看待这种情况。   由   提交 /u/Low-Honeydew6483   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrv0rs/ai_is_quietly_shifting_from_software_competition/</guid>
-      <pubDate>Thu, 12 Mar 2026 16:11:42 GMT</pubDate>
-    </item>
-    <item>
       <title>如果人工智能取代了大部分工人，谁会真正购买这些产品？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrnlit/if_ai_replaces_most_workers_who_will_actually_buy/</link>
       <description><![CDATA[我一直在思考一些感觉像是与人工智能相矛盾的事情。 公司正在迅速采用人工智能来实现工作自动化。目标似乎很明显：降低劳动力成本，提高效率，让人工智能管理更多任务。但这产生了一个我无法停止思考的问题。 如果人工智能取代了很大一部分劳动力，那么很多人将失去收入。如果人们没有收入，他们将无法购买产品或服务。 但公司依赖于人们买东西。 因此，如果公司将一切自动化并取消大多数人力工作，谁会成为客户？ 整个经济因为一个循环而运转： 人们工作→人们赚钱→人们花钱→公司盈利→公司雇用人员。 如果人工智能打破了“人们赚钱”  那么这里的长期计划是什么？ 人们谈论的一些可能性是普遍基本收入、人工智能创造的新型就业机会或完全不同的经济模式。但它仍然感觉像是社会尚未完全弄清楚的事情。 我是否遗漏了一些东西，或者这是大规模人工智能自动化的一个真正的长期问题？   由   提交 /u/IcyBottle1517   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrnlit/if_ai_replaces_most_workers_who_will_actually_buy/</guid>
       <pubDate>Thu, 12 Mar 2026 10:58:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>大型科技公司支持 Anthropic 对抗特朗普政府</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rrervz/big_tech_backs_anthropic_in_fight_against_trump/</link>
-      <description><![CDATA[ 由   提交/u/GERemesh  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rrervz/big_tech_backs_anthropic_in_fight_against_trump/</guid>
-      <pubDate>Thu, 12 Mar 2026 02:37:26 GMT</pubDate>
     </item>
     <item>
       <title>我们听到了您的声音 - r/ArtificialInteligence 变得更加敏锐</title>
