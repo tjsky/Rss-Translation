@@ -4,7 +4,7 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 13 Mar 2026 12:50:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 15:40:20 GMT</lastBuildDate>
     <item>
       <title>kong 开源 vs 企业，实际上锁定了哪些功能？</title>
       <link>https://www.reddit.com/r/opensource/comments/1rslp3x/kong_open_source_vs_enterprise_what_features_are/</link>
@@ -18,13 +18,6 @@
       <description><![CDATA[我知道这是一个令人厌烦的话题，但我要问的是一个具体的新原因，我认为以前的帖子并未涵盖该原因： Gmail 即将删除网络版本上检查其他电子邮件地址 (POP3) 的功能，我主要使用 Gmail 不仅检查这些地址，而且作为“黑客”的一部分，将个人资料图片添加到与我拥有的域关联的电子邮件地址。 我似乎找不到专门允许我取代 Gmail 的此功能的 FOSS 客户端，而且我发现 2026 年最好/唯一的客户端真的很令人惊讶？让自定义域电子邮件地址拥有个人资料图片并且半可靠地不落入人们的垃圾邮件箱的方法是通过 Gmail/Gmailify 使用它，这两种方式很快就会结束。 我想要的只是从同一个位置检查和发送我的所有电子邮件，并让我的电子邮件像从 Gmail 链接帐户发送一样可靠地到达人们的收件箱（我不期望与*实际的* Gmail 具有相同的可靠性）帐户）   由   提交/u/allensynthesis   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rsiv64/gmail_alternative/</guid>
       <pubDate>Fri, 13 Mar 2026 09:41:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>我追踪了 20 亿美元的非营利拨款和 45 个州的游说记录，以找出年龄验证法案的幕后黑手。答案涉及一家从你的数据中获利的公司编写收集更多数据的法律。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rsfhf0/i_traced_2_billion_in_nonprofit_grants_and_45/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rsfhf0/i_traced_2_billion_in_nonprofit_grants_and_45/</guid>
-      <pubDate>Fri, 13 Mar 2026 06:10:08 GMT</pubDate>
     </item>
     <item>
       <title>如何正确做开源项目？</title>
@@ -109,6 +102,13 @@
       <description><![CDATA[在处理一些开源项目后，我注意到的一件事是启动阶段通常是即兴的。 大多数团队都重点关注项目本身的构建（这是有道理的），但是当存储库公开时，流程就变成了这样：  发布存储库 post在一些社区中 也许可以提交到 Hacker News / Reddit 在 Twitter 上分享 希望出现势头  有时这可行，但大多数时候该项目在第一周后就消失了。 所以我开始记录什么是更加结构化的 OSS 启动流程可能看起来像。 不是营销技巧 - 更像是维护人员可以重复使用的操作步骤。 例如，考虑分阶段启动： 1.发布前准备 在公开存储库之前：  自述文件清晰度（问题 → 解决方案 → 快速启动） 最少的文档，这样第一批用户就不会陷入困境 示例用法或演示 基本问题/贡献模板 清晰项目定位  很多OSS项目都失败在这里：代码很棒，但第一次用户体验却很混乱。  2.发布日分发 与其随机发布，不如考虑哪些社区扮演哪个角色：  开发社区 → 早期技术反馈 更广泛的技术论坛 → 可见性 利基社区 → 第一个真正的用户  在任何地方发布相同的消息通常不会工作。 每个社区期望的环境略有不同。  3.发布后动力 第一篇文章之后发生的事情通常更为重要。 似乎有帮助的事情：  快速响应早期问题 将用户反馈转化为文档改进 经常发布小更新 突出显示真实的内容来自早期采用者的用例  这通常是将好奇心转化为贡献者的原因。  4.长期可发现性 在发布周之后，大多数 OSS 发现来自：  GitHub 搜索 Google 开发者社区 引用文档的 AI 搜索工具  因此，构建 README 和文档以实现可发现性实际上更重要超出大多数人的预期。  我开始将这些笔记组织到一个小型开放存储库中，以便该过程更容易重用和协作改进。 如果有人好奇，这些笔记位于：https://github.com/Gingiris/gingiris-opensource 很想听听这里的其他维护者如何启动。 当您试图在早期发现一个开源项目时，什么对您真正有用？   由   提交 /u/Unlikely-Complex5138   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rqpc6b/maintainers_how_do_you_structure_the_launch_and/</guid>
       <pubDate>Wed, 11 Mar 2026 09:45:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>制作了一个免费工具，可自动将 macOS 屏幕录制从 MOV 转换为 MP4</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rq3kgq/made_a_free_tool_that_autoconverts_macos_screen/</link>
+      <description><![CDATA[macOS 将所有屏幕录制保存为 .mov 文件。如果您必须在上传或共享之前将它们转换为 .mp4，此工具会在后台自动执行此操作。 工作原理：  轻量级后台服务会监视您的桌面（或您选择的任何文件夹）以查找新的屏幕录制内容 当出现新屏幕录制内容时，它会立即使用 ffmpeg 将其重新混合为 .mp4 — 无需重新编码，零质量损失 原始.mov在转换后被删除 登录时运行，几乎不使用任何资源（macOS本机文件观看，无轮询）  安装：  brew tap arch1904/mac-mp4-screen-rec brew install mac-mp4-screen-rec mac-mp4-screen-rec start  就这样。您还可以观看其他文件夹 (mac-mp4-screen-rec add ~/Documents) 或转换所有 .mov 文件，而不仅仅是屏幕录制 (mac-mp4-screen-rec config --all-movs)。 为什么 MOV → MP4 是无损的： macOS 屏幕录制使用 H.264/AAC。 MOV 和 MP4 都只是相同流的容器 - 重新混合只是重写元数据包装器，因此需要几秒钟的时间，并且视频是逐位相同的。 GitHub：https://github.com/arch1904/MacMp4ScreenRec 免费、开源、MIT 许可。只是一个 shell 脚本 + launchd。   由   提交 /u/hadouken_1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rq3kgq/made_a_free_tool_that_autoconverts_macos_screen/</guid>
+      <pubDate>Tue, 10 Mar 2026 17:37:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
