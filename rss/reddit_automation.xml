@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sat, 14 Mar 2026 18:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 21:21:45 GMT</lastBuildDate>
+    <item>
+      <title>带 webhooks 的开源 WhatsApp MCP（只需扫描二维码）！</title>
+      <link>https://www.reddit.com/r/automation/comments/1rtv2pl/open_source_whatsapp_mcp_with_webhooks_just_need/</link>
+      <description><![CDATA[      WhatsApp 有一个非常不友好的 API，这使得它很难与 AI 模型一起使用，除非你有一个企业帐户并经历一个繁琐的设置过程。 过去几天花了几天时间构建了一个开源网站，该网站使用 WAHA，让你只需使用 QR 码即可连接你的 Whatsapp 帐户。还添加了 MCP 支持，以便您可以使用任何 AI 模型在 WhatsApp 上发送和阅读消息。最后，它支持注册 Webhook，这使得它可以轻松地与任何自动化平台一起使用。 核心挑战是弄清楚如何扩展持久连接，因为 WAHA 需要一个持续连接的进程，以便能够在消息到达时立即发出通知。 希望这可以帮助人们！ GitHub：https://github.com/dhruvyad/wahooks 网站：wahooks.com   由   提交/u/dhruv1103  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rtv2pl/open_source_whatsapp_mcp_with_webhooks_just_need/</guid>
+      <pubDate>Sat, 14 Mar 2026 21:11:50 GMT</pubDate>
+    </item>
     <item>
       <title>[脚本] Plex AI Dubber — 使用 AI 语音克隆在 Plex 库中自动配音电影</title>
       <link>https://www.reddit.com/r/automation/comments/1rtpwl0/script_plex_ai_dubber_autodub_movies_in_your_plex/</link>
@@ -95,13 +102,6 @@
       <description><![CDATA[   这是一个即将实现的开源项目，它会分析您之前的 Claude Code 会话。提供自动化修复重复错误的机会。  https://preview.redd.it/2ljto2xqnwog1.png?width=2642&amp;format=png&amp;auto=webp&amp;s=ce9bd9c7cff21ff0ff09b2348b0387f65d783209 你觉得怎么样？最近发表的一些论文支持这对 Claude 代码有多大的改进。    由   提交 /u/Ok-Dragonfly-6224   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rt4u6c/created_an_agent_that_reviews_your_claude_code/</guid>
       <pubDate>Sat, 14 Mar 2026 00:29:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>在客户说“看起来不错”之后，真正谈论人工智能自动化的实际突破</title>
-      <link>https://www.reddit.com/r/automation/comments/1rt0bnn/real_talk_on_what_actually_breaks_in_ai/</link>
-      <description><![CDATA[构建和管理自动化已经有一段时间了，主要围绕中小型企业的潜在客户外展、CRM 工作流程和语音 AI。 出问题的永远不是您测试过的内容。 潜在客户以奇怪的电子邮件格式出现，并导致整个序列崩溃。语音代理可以完美处理 95% 的呼叫，然后完全冻结在无人思考的问题上。这是 CRM 领域，在您围绕它构建了所有内容三周后，有人对其进行了重新命名。 老实说，构建是最简单的部分。没有人谈论足够多的是持续的管理方面。提示需要更新。 API 发生变化。客户在第二个月的实际流程看起来与他们在第一个月所描述的完全不同。 很好奇其他人在维护方面遇到了什么。是否有人构建了自我修复逻辑，或者您主要只是手动监控和修复？   由   提交 /u/rastize   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rt0bnn/real_talk_on_what_actually_breaks_in_ai/</guid>
-      <pubDate>Fri, 13 Mar 2026 21:27:26 GMT</pubDate>
     </item>
     <item>
       <title>人们真的使用人工智能从真实照片生成电子商务产品图像/视频吗？</title>
