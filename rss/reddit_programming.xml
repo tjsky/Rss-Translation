@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 14 Mar 2026 09:29:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 12:40:39 GMT</lastBuildDate>
+    <item>
+      <title>为什么许多开发人员在尝试 AI 编码工具后返回基于 Web 的 GPT</title>
+      <link>https://www.reddit.com/r/programming/comments/1rti2jj/why_many_developers_return_to_webbased_gpt_after/</link>
+      <description><![CDATA[大家好 👋 在过去的一年里，我的团队尝试了很多 AI 编码工具和基于 IDE 的助手。其中一些功能非常强大，许多开发人员（包括我们的团队）甚至为此付费。但随着时间的推移，我们注意到一些有趣的事情：许多开发人员最终转回使用基于 Web 的 GPT 工具，例如 ChatGPT。我们四处打听，反复听到同样的理由。 💸 高订阅成本 一些 AI 编码工具需要昂贵的订阅费用，这增加了开发开销。 🔄 转换成本高 许多工具要求开发人员放弃熟悉的 IDE 工作流程并适应全新的环境。 ☠️ 安全问题 一些开发人员不愿意将整个代码库发送到第三方服务器。 🤖 AI 代码不稳定 AI 有时会在生成更改时修改不相关的文件或代码库的意外部分。由于这些问题，许多开发人员重新使用 GPT 的网络版本。然而，Web GPT 工作流程有其自身的问题：重复的手动工作。例如，典型的工作流程通常如下所示：复制代码→打开GPT→粘贴→等待响应→复制输出→返回IDE→手动应用更改。这个过程在开发过程中会反复发生。在探索这个问题时，我们开始构建一个名为 Codefulty 的工具来自动化部分工作流程，同时仍然允许开发人员使用基于 Web 的 GPT 工具。这个想法很简单： • 使用一个快捷方式将项目上下文发送到 GPT • 自动从响应中捕获修改后的文件 • 使用差异查看器查看每个更改 • 在应用更改之前自动备份文件 • 如果出现问题，允许快速回滚 目标不是取代 IDE 或 GPT 界面，而是使它们之间的工作流程更加顺畅。我很好奇这里的其他开发人员如何处理 GPT 辅助的编码工作流程。您主要使用 AI IDE，还是仍然更喜欢使用基于 Web 的 GPT？    由   提交/u/JuggernautSmall3023  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rti2jj/why_many_developers_return_to_webbased_gpt_after/</guid>
+      <pubDate>Sat, 14 Mar 2026 12:23:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>微服务：脚上的枷锁</title>
+      <link>https://www.reddit.com/r/programming/comments/1rtgjvz/microservices_shackles_on_your_feet/</link>
+      <description><![CDATA[您不需要微服务。您需要更好的模块边界。仅当团队真正独立、扩展需求日夜不同或您的员工人数超过 150 人时才进行拆分。在执行任何操作之前，修复代码、在整体内部绘制真正的边界、设置跟踪。微服务并不能修复混乱的代码库。他们只是将其传播到网络上，并使其成为其他人凌晨 3 点的问题。当你分裂时，使用绞杀无花果。不是重写。绝不重写。   由   提交/u/Itchy-Warthog8260   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rtgjvz/microservices_shackles_on_your_feet/</guid>
+      <pubDate>Sat, 14 Mar 2026 11:02:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>当您收到“314159”时，2FA 应用程序会告诉您</title>
+      <link>https://www.reddit.com/r/programming/comments/1rtfdul/the_2fa_app_that_tells_you_when_you_get_314159/</link>
+      <description><![CDATA[ 由   提交/u/jacobs-tech-tavern   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rtfdul/the_2fa_app_that_tells_you_when_you_get_314159/</guid>
+      <pubDate>Sat, 14 Mar 2026 09:52:06 GMT</pubDate>
+    </item>
     <item>
       <title>路线图不是系统</title>
       <link>https://www.reddit.com/r/programming/comments/1rtetmn/the_roadmap_is_not_the_system/</link>
@@ -27,11 +48,18 @@
       <pubDate>Sat, 14 Mar 2026 06:16:52 GMT</pubDate>
     </item>
     <item>
-      <title>AI 编码代理的安全技能</title>
-      <link>https://www.reddit.com/r/programming/comments/1rtbut2/security_skills_for_ai_coding_agents/</link>
-      <description><![CDATA[ 由   提交 /u/Missics   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rtbut2/security_skills_for_ai_coding_agents/</guid>
-      <pubDate>Sat, 14 Mar 2026 06:14:19 GMT</pubDate>
+      <title>BlazeDB：Swift 原生嵌入式应用数据库</title>
+      <link>https://www.reddit.com/r/programming/comments/1rtat8h/blazedb_a_swiftnative_embedded_application/</link>
+      <description><![CDATA[Swift 原生嵌入式存储引擎架构的技术文章，涵盖基于页面的存储、WAL 持久性、加密持久性 (AES-GCM) 和基准测试。   由   提交 /u/No_Prize_2533   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rtat8h/blazedb_a_swiftnative_embedded_application/</guid>
+      <pubDate>Sat, 14 Mar 2026 05:15:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>JavaScript 中的草书手写</title>
+      <link>https://www.reddit.com/r/programming/comments/1rt7ih1/cursive_handwriting_in_javascript/</link>
+      <description><![CDATA[ 由   提交/u/fpcoder  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rt7ih1/cursive_handwriting_in_javascript/</guid>
+      <pubDate>Sat, 14 Mar 2026 02:29:02 GMT</pubDate>
     </item>
     <item>
       <title>Dijkstra 的危机：Algol 的终结和软件工程的开始 (2010) [pdf]</title>
@@ -50,7 +78,7 @@
     <item>
       <title>重塑 Python 的 AsyncIO</title>
       <link>https://www.reddit.com/r/programming/comments/1rt6jum/reinventing_pythons_asyncio/</link>
-      <description><![CDATA[ 由   提交/u/ketralnis  [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rt6jum/reinventing_pythons_asyncio/</guid>
       <pubDate>Sat, 14 Mar 2026 01:44:49 GMT</pubDate>
     </item>
@@ -78,37 +106,9 @@
     <item>
       <title>条件实现</title>
       <link>https://www.reddit.com/r/programming/comments/1rt18qa/conditional_impls/</link>
-      <description><![CDATA[ 由   提交/u/alilleybrinker  [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交 /u/alilleybrinker   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rt18qa/conditional_impls/</guid>
       <pubDate>Fri, 13 Mar 2026 22:03:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>生成代码中的竞争条件（在 10 个模型中进行测试，运行 5 次）</title>
-      <link>https://www.reddit.com/r/programming/comments/1rsx3bo/race_conditions_in_generated_code_tested_across/</link>
-      <description><![CDATA[我去年审查过的大多数网络应用程序都存在围绕 LLM 请求的竞争条件。我进行了测试，发现它是系统性的。默认情况下，用于编码的 10 个最流行的 LLM 会产生相同的竞争条件。如果出现提示，他们都可以解决问题。 如果您想验证，这里有完整的文章和 Jupyter Notebook 的链接。   由   提交/u/Appressive-Put-822   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rsx3bo/race_conditions_in_generated_code_tested_across/</guid>
-      <pubDate>Fri, 13 Mar 2026 19:27:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>RSL：真正简单的许可</title>
-      <link>https://www.reddit.com/r/programming/comments/1rswtej/rsl_really_simple_licensing/</link>
-      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rswtej/rsl_really_simple_licensing/</guid>
-      <pubDate>Fri, 13 Mar 2026 19:17:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们从 22 天存储错误中学到了什么（以及我们如何修复它）</title>
-      <link>https://www.reddit.com/r/programming/comments/1rstg7m/what_we_learned_from_a_22day_storage_bug_and_how/</link>
-      <description><![CDATA[ 由   提交/u/Dear-Economics-315   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rstg7m/what_we_learned_from_a_22day_storage_bug_and_how/</guid>
-      <pubDate>Fri, 13 Mar 2026 17:17:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>鸡块| daniel.haxx.se [在 nuget.org 上卷曲]</title>
-      <link>https://www.reddit.com/r/programming/comments/1rst57v/chicken_nuget_danielhaxxse_curl_on_nugetorg/</link>
-      <description><![CDATA[ 由   提交/u/cake-day-on-feb-29   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rst57v/chicken_nuget_danielhaxxse_curl_on_nugetorg/</guid>
-      <pubDate>Fri, 13 Mar 2026 17:06:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
