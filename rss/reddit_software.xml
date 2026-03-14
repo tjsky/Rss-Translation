@@ -4,7 +4,14 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Sat, 14 Mar 2026 01:42:25 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 04:30:34 GMT</lastBuildDate>
+    <item>
+      <title>升级（Ser + 高级着色器交付 + Microsoft 存储）</title>
+      <link>https://www.reddit.com/r/software/comments/1rt7t57/mise_à_niveau_ser_advanced_shader_delivery/</link>
+      <description><![CDATA[ 由   提交/u/Asphalord  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rt7t57/mise_à_niveau_ser_advanced_shader_delivery/</guid>
+      <pubDate>Sat, 14 Mar 2026 02:43:16 GMT</pubDate>
+    </item>
     <item>
       <title>如果我将 5 层连接到一个控制平面会怎样？</title>
       <link>https://www.reddit.com/r/software/comments/1rt525l/what_if_i_connected_the_5_layers_into_one_control/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[嘿r/software， 我想分享一个我一直在构建的名为 SheepCat 的开源工具，它是新版本 v1.1 背景故事：作为一名高级 C# 开发人员，花了半天时间深入后端逻辑或理清大量 SQL查询，我的执行功能通常在一天结束时就完全崩溃了。每当需要填写 Jira 时间表或编写每日更新时，我都会经历完全的“时间盲目性”。并忘记过去 8 个小时我实际上在做什么。 带有滴答作响的时钟的标准时间追踪器只会让我感到焦虑，所以我建立了一个“温和”的追踪器。纯粹为认知人体工程学而设计的跟踪器。 它的工作原理：它安静地坐在您的机器上，每小时给您一个轻柔的、可忽略不计的推动。你只需将原始的、混乱的、充满拼写错误的大脑转储转储到其中（“与数据库连接战斗”，“文档又错了”）。你不会打破你的心流状态。最终，它使用 Ollama 运行本地 LLM，将您杂乱的笔记翻译成干净、专业的摘要。 我刚刚发布了 v1.1，其中添加了： 🔍 搜索 + AI 摘要：您现在可以搜索“last Tuesday”；本地人工智能会立即读取你过去杂乱的日志，并生成一份关于你所做事情的清晰摘要。不再需要疯狂地滚动来记住您的一周。 🧠 自定义人工智能提示：您现在可以自定义间隔签到和每日摘要的系统提示，以完全适应您的大脑工作方式。 技术细节：100% 本地和本地化私有：零云同步。您的专有代码和内部咆哮永远不会离开您的机器。技术堆栈：用 Python 构建，使用 Ollama 进行本地 LLM 处理。 成本：完全免费且开源。您可以在此处获取最新的 v1.1 版本并查看源代码：https://github.com/Chadders13/SheepCat-TrackingMyWork 我专门构建此版本来解决我自己的工作流程痛点，但我很想听听其他人是否认为它有用或对功能或 UI 有反馈！   由   提交 /u/Tech_Devils   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1rsuadg/dev_i_built_a_free_100_local_ai_work_tracker_to/</guid>
       <pubDate>Fri, 13 Mar 2026 17:46:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>谁能告诉我如何将 jpg/png 转换为 glb 文件？</title>
-      <link>https://www.reddit.com/r/software/comments/1rsu4g1/can_anyone_tell_me_how_to_convert_jpgpng_to_glb/</link>
-      <description><![CDATA[我正在做一个 AR 项目，我需要 glb 文件，但不知道如何从图像创建，是否有任何开源项目或网站可以免费创建，例如添加一些照片并将其转换为 glb 文件？    由   提交 /u/Luffy_Zoro__   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rsu4g1/can_anyone_tell_me_how_to_convert_jpgpng_to_glb/</guid>
-      <pubDate>Fri, 13 Mar 2026 17:41:08 GMT</pubDate>
     </item>
     </channel>
 </rss>

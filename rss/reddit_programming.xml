@@ -4,13 +4,41 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 14 Mar 2026 01:42:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 04:30:41 GMT</lastBuildDate>
     <item>
-      <title>帮助解密 Linux/rubygem 到 macOS</title>
-      <link>https://www.reddit.com/r/programming/comments/1rt6def/help_deciphering_linuxrubygem_to_macos/</link>
-      <description><![CDATA[希望这对于具有 homebrew/linux/ruby 经验的人来说是一个简单/快速的修复。 我一直在尝试按照本指南为 HVAC 系统设置自动化：https://github.com/ccutrer/waterfurnace\_aurora 我对 GitHub/homebrew/linux/ruby 没有经验。在谷歌人工智能的帮助下，我在某种程度上跌跌撞撞地通过了。我在 MacOS Apple 硅胶上安装了 homebrew，并且似乎安装了最新版本的 Ruby。当我“启用”aurora_mqtt_bridge 时，出现错误。谷歌告诉我，我需要使用brew安装命令..遇到了自制程序无法找到公式的另一个错误。我对 .service 文件进行了故障排除，最终发现 .service 文件适用于 Linux，我需要一个 .plist 文件来将公式安装到自制程序中。我搜索了一段时间如何查找 .plist 或从 GitHub 项目创建一个 .plist，但没有看到任何突出的内容。结果是：google ai 说我必须手动将 11 行代码的 .service 文件转换为基于 xml 的 .plist。这听起来很容易吗？但我不确定是否是这样。 我的问题：  ⁠是可以做的事情（.service 文件手动适应 .plist 文件）吗？ ⁠这个 ruby​​ gem 是否能够通过自制程序在 macOS 终端上完全运行？ （我能够运行 mqtt 资源管理器并运行 mosquitto 代理）。  我还在 UTM 上运行了 HomeAssistant 操作系统，所以我觉得我已经非常接近了。 感谢您提供的任何帮助！   由   提交 /u/---Hummingbird---   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rt6def/help_deciphering_linuxrubygem_to_macos/</guid>
-      <pubDate>Sat, 14 Mar 2026 01:36:44 GMT</pubDate>
+      <title>Dijkstra 的危机：Algol 的终结和软件工程的开始 (2010) [pdf]</title>
+      <link>https://www.reddit.com/r/programming/comments/1rt6pgb/dijkstras_crisis_the_end_of_algol_and_beginning/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rt6pgb/dijkstras_crisis_the_end_of_algol_and_beginning/</guid>
+      <pubDate>Sat, 14 Mar 2026 01:52:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>好旧的指针</title>
+      <link>https://www.reddit.com/r/programming/comments/1rt6k3r/good_old_pointers/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rt6k3r/good_old_pointers/</guid>
+      <pubDate>Sat, 14 Mar 2026 01:45:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>重塑 Python 的 AsyncIO</title>
+      <link>https://www.reddit.com/r/programming/comments/1rt6jum/reinventing_pythons_asyncio/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rt6jum/reinventing_pythons_asyncio/</guid>
+      <pubDate>Sat, 14 Mar 2026 01:44:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 GNU Emacs 自由计算</title>
+      <link>https://www.reddit.com/r/programming/comments/1rt6jmq/computing_in_freedom_with_gnu_emacs/</link>
+      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rt6jmq/computing_in_freedom_with_gnu_emacs/</guid>
+      <pubDate>Sat, 14 Mar 2026 01:44:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何使用讲故事的方式将内联汇编融入 Rust</title>
+      <link>https://www.reddit.com/r/programming/comments/1rt6j2z/how_to_use_storytelling_to_fit_inline_assembly/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rt6j2z/how_to_use_storytelling_to_fit_inline_assembly/</guid>
+      <pubDate>Sat, 14 Mar 2026 01:43:52 GMT</pubDate>
     </item>
     <item>
       <title>Jerry Lawson 涂鸦是图灵完备的</title>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/CGM  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rsj93g/the_weirdest_programming_language_i_ever_learned/</guid>
       <pubDate>Fri, 13 Mar 2026 10:04:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>维护规范，而不是代码：Kotlin 的创建者刚刚放弃了一种新的规范驱动的编程语言</title>
-      <link>https://www.reddit.com/r/programming/comments/1rsipet/maintain_specs_not_code_creator_of_kotlin_just/</link>
-      <description><![CDATA[ 由   提交/u/Independent_Pitch598   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rsipet/maintain_specs_not_code_creator_of_kotlin_just/</guid>
-      <pubDate>Fri, 13 Mar 2026 09:31:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>“你说得完全正确！”代理编码的寓言</title>
-      <link>https://www.reddit.com/r/programming/comments/1rshmdy/youre_absolutely_right_an_allegory_for_agentic/</link>
-      <description><![CDATA[ 由   提交/u/aivarannamaa   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rshmdy/youre_absolutely_right_an_allegory_for_agentic/</guid>
-      <pubDate>Fri, 13 Mar 2026 08:22:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>区间树的 Fenwick 布局</title>
-      <link>https://www.reddit.com/r/programming/comments/1rsgo6k/fenwick_layout_for_interval_trees/</link>
-      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rsgo6k/fenwick_layout_for_interval_trees/</guid>
-      <pubDate>Fri, 13 Mar 2026 07:22:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 YOLOv8 和 SAM 构建自定义图像分割模型</title>
-      <link>https://www.reddit.com/r/programming/comments/1rsg1i4/build_custom_image_segmentation_model_using/</link>
-      <description><![CDATA[对于学习图像分割和分段任意模型 (SAM) 的任何人，以下资源解释了如何利用 YOLOv8 和 SAM 的优势构建自定义分割模型。本教程演示了如何高效生成高质量的掩模和数据集，重点关注这两种架构在计算机视觉任务中的实际集成。   中型用户帖子的链接：https://medium.com/image-segmentation-tutorials/segment-anything-tutorial-generate-yolov8-masks-fast-2e49d3598578 您可以在我的博客页面中找到更多计算机视觉教程：https://eranfeit.net/blog/ 视频说明：https://youtu.be/8cir9HkenEY 带有代码的书面说明：https://eranfeit.net/segment-anything-tutorial-generate-yolov8-masks-fast/   此内容仅用于教育目的。欢迎提供建设性反馈。   Eran Feit   由   提交 /u/Feitgemel   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rsg1i4/build_custom_image_segmentation_model_using/</guid>
-      <pubDate>Fri, 13 Mar 2026 06:43:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
