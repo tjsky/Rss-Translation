@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 16 Mar 2026 02:00:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 05:12:35 GMT</lastBuildDate>
+    <item>
+      <title>也许有一天我能买得起这样的优质域名😩</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ruzjhh/maybe_someday_ill_be_able_to_afford_a_premium/</link>
+      <description><![CDATA[      由   提交 /u/HostingAdmiral   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ruzjhh/maybe_someday_ill_be_able_to_afford_a_premium/</guid>
+      <pubDate>Mon, 16 Mar 2026 04:13:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare AI 保护在域级别工作，但如何限制少数子域并允许其他子域？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ruyw7x/clouldflare_ai_protection_works_domain_level_but/</link>
+      <description><![CDATA[Clouldflare AI 保护在域级别工作，但如何限制少数子域并允许其他子域？   由   提交/u/InsideResolve4517  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ruyw7x/clouldflare_ai_protection_works_domain_level_but/</guid>
+      <pubDate>Mon, 16 Mar 2026 03:40:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>建议阅读一些资源/书籍以提高我的知识</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ruxhuk/suggest_some_resourcesbooks_to_read_to_improve_my/</link>
+      <description><![CDATA[我目前是大学三年级学生，正在申请实习。我确实有一些项目计划在购买域后部署，但在使用大量数据和并发用户进行测试时它们运行速度非常慢。我的堆栈是 Java + Spring，所以我尝试使用 Hikari Pool 连接和缓存，但我不知道如何最佳地使用它。如果可能的话，请提供您的意见并推荐一些资源和书籍。 此外，我通过 K6 对其进行了测试。我确实将文件上传到人工智能，但它是幻觉。即使使用缓存和更改数据库连接也只能带来很小的改进。我还了解到，一种方法中的 2 个数据库查询是糟糕的设计和糟糕的性能，因此我优化为 1 个直接数据库调用，这样性能也提高了一点。那么对此有什么意见吗？   由   提交 /u/Proud_Yesterday6627   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ruxhuk/suggest_some_resourcesbooks_to_read_to_improve_my/</guid>
+      <pubDate>Mon, 16 Mar 2026 02:33:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>创建了免费的全栈课程！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rux6az/created_a_free_fullstack_course/</link>
+      <description><![CDATA[我创建了一个免费的全栈课程，任何人都可以使用它，无需登录或其他任何东西，让克劳德帮助我组织整个事情，因为我的思想到处都是。这是链接 fullstack.codewithtoni.com ，整个过程使用了 docusaurus。   由   提交 /u/EfficientLong5234   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rux6az/created_a_free_fullstack_course/</guid>
+      <pubDate>Mon, 16 Mar 2026 02:18:33 GMT</pubDate>
+    </item>
     <item>
       <title>AWS S3 如何在慢速 HDD 上提供每秒 1 PB 的服务</title>
       <link>https://www.reddit.com/r/webdev/comments/1ruw75k/how_aws_s3_serves_1_petabyte_per_second_on_top_of/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[这是一篇关于构建无人使用的东西的帖子，我分享它是因为我认为这是无人谈论的常见经验。 我建立了一个开发人员工具网站。 22 个基于浏览器的实用程序。 json 格式化程序、base64 编码器/解码器、jwt 解码器、哈希生成器、正则表达式测试器、颜色转换器、csv 到 json、unix 时间戳转换器、url 编码器、markdown 预览、html 实体编码器、文本比较工具...你明白了。 我花了最多的时间在我认为很酷的东西上。正则表达式测试器具有实时匹配突出显示功能。文本差异工具对突出显示的添加/删除内容进行正确的逐行比较。颜色转换器可以处理 6 种不同的颜色格式。 Google Analytics 表示，人们实际使用的唯一工具是：json 格式化程序（占流量的 60%）、base64 解码器（20%）和 jwt 解码器（15%）。其他所有内容加起来大约是 5%。 起初这有点令人沮丧。我在那个正则表达式测试器上花了几天时间，每周可能有 2 次访问。但后来我意识到这实际上是非常有用的信息。人们不想要花哨，他们想要快速。他们用谷歌搜索“在线格式化 json”，他们想要一个可以粘贴的框和一个让它变得漂亮的按钮。就是这样。 所以我倾向于它。使 json 格式化程序即时加载，无框架开销，处理大文件，添加自动检测，因此您甚至不需要单击按钮。流量增加了。 教训：构建 20 个东西，看看什么能坚持下去，然后加倍努力。不要爱上聪明的工具，要爱上有用的工具。 如果有人想查看的话，网站是https://devtools-site-delta.vercel.app。是的，json 格式化程序现在是页面上的第一件事，哈哈。   由   提交 /u/Krbva   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rurmqu/i_built_22_tools_and_the_only_ones_that_get/</guid>
       <pubDate>Sun, 15 Mar 2026 22:17:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] 22 个基于浏览器的开发工具 — 所有客户端、开源、/bin/zsh 托管</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rupvvc/showoff_saturday_22_browserbased_dev_tools_all/</link>
-      <description><![CDATA[分享我一直在做的一个项目 — 22 个完全在浏览器中运行的开发者工具。 亮点： - 具有语法突出显示的 json 格式化程序 - jwt 解码器（标头 + 负载检查） - 具有实时匹配突出显示的正则表达式测试器 - qr 代码生成器（canvas api，无库） - 哈希生成器（Web 加密 api - md5 是唯一需要库的） - sql 格式化程序（自定义标记器/解析器） - 具有人类可读输出和下次运行时间的 cron 表达式解析器 - 以及 15 个以上 一切都在客户端运行。没有数据离开您的浏览器。没有帐户，没有跟踪。 根据我上一篇文章的反馈，我正在研究： - 命令面板/工作区模式，以便您可以在工具之间固定和切换 - solana 事务解码器（由 r/solanadev 上的用户建议） 技术：next.js 14 应用程序路由器、tailwind、vercel 免费层。 repo（现已公开，修复了上次的可见性问题）：https://github.com/TateLyman/devtools-run 站点：https://devtools-site-delta.vercel.app 欢迎提供反馈，尤其是您想要的工具添加。   由   提交 /u/Krbva   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rupvvc/showoff_saturday_22_browserbased_dev_tools_all/</guid>
-      <pubDate>Sun, 15 Mar 2026 21:09:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>只是对人工智能及其对我们的影响的咆哮。分享您的想法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rupm3z/just_a_rant_about_ai_and_its_impact_on_us_share/</link>
-      <description><![CDATA[几年前，编码被认为是困难的，而提出想法则更容易。 现在，情况恰恰相反。每个人都在使用人工智能进行编码，这使得产生新想法比以往任何时候都更加困难。此外，编码不再具有挑战性——只需一个提示就可以构建整个应用程序，这可能会让人失去动力。这让我想知道如果有人能做到的话，是什么让我与众不同。 我很好奇我们开发者的下一步是什么。未来是个人拥有更好的解决问题的想法，还是还有其他可能性？作为一名在 CMS 和框架方面都有经验的前端开发人员，我不确定 AI 将带我们走向何方。 其他人也有同样的感觉吗？你们觉得自己脑子被卡住了吗？   由   提交/u/Jack_Sparrow2018   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rupm3z/just_a_rant_about_ai_and_its_impact_on_us_share/</guid>
-      <pubDate>Sun, 15 Mar 2026 20:58:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vibe Coding 可以治愈成瘾。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ruos5z/vibe_coding_cures_addiction/</link>
-      <description><![CDATA[      Garry Tan 是 Y Combinator ( https://www.ycombinator.com/people/garry-tan ) 的首席执行官，Twitter 大师和杰出的 vibecoder（他自豪地每天生产 10k LOC）。 Garry Tan 还有一个 GitHub 帐户（ https://github.com/garrytan ），只有一个活跃的存储库（他的 Claude Code 设置），该存储库有约 10.000 行 Typescript 代码和约 4.000 行 markdown。   由   提交/u/Gil_berth  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ruos5z/vibe_coding_cures_addiction/</guid>
-      <pubDate>Sun, 15 Mar 2026 20:27:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>内容过滤</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ruopuk/content_filtering/</link>
-      <description><![CDATA[大家好， 网页设计新手，尽管来自 IT 背景。我通过一个网站推出了一款产品，旨在销售给英国特定的公共部门领域。该网站仍然很新，不到两周，但服务较旧，我最近才设置域名等，事后看来，由于这个问题，这可能并不明智。 在那些对该产品感兴趣的网站上，他们无法访问它。它适用于不同人的私人（个人）设备。没有出现任何内容过滤消息，而是在多个浏览器上发生简单的超时。 经过研究，我发现这“可能”仍然是内容过滤，这意味着我只是在等待游戏，直到它不再被归类为“新”。有点令人沮丧，但是嘿嘿，但我很小心，我一直在等待，等待，结果发现是别的东西。 我在搜索时看到的一条建议是联系并要求他们将其列入白名单，但在这种情况下这是行不通的，必须联系各个组织并要求他们将网站列入白名单才能向他们出售产品，这对我来说会造成很大的阻碍。该网站上没有任何狡猾的东西。在最初的超时后，我通过一些安全屏幕运行它并获得了很多评级，但后来将其提高到 B 并添加了 CloudFlare。仍然没有变化。 感谢这位新手的任何指导（或保证）！ 提前致谢   由   提交 /u/Danny-r95   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ruopuk/content_filtering/</guid>
-      <pubDate>Sun, 15 Mar 2026 20:25:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
