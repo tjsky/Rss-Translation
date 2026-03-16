@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 16 Mar 2026 16:01:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 18:55:02 GMT</lastBuildDate>
+    <item>
+      <title>如何避免脆弱的自动化</title>
+      <link>https://www.reddit.com/r/automation/comments/1rvf0bu/how_do_you_avoid_fragile_automations/</link>
+      <description><![CDATA[我最近一直在构建小型工作流程，并注意到了一些事情。 一开始它们工作得很好，但几周后，一些小事情开始出现问题。 API 更改、丢失数据或一些我没有考虑到的边缘情况。 很好奇人们如何设计长期保持可靠的工作流程。 您会添加保障措施还是只是保持简单？   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rvf0bu/how_do_you_avoid_fragile_automations/</guid>
+      <pubDate>Mon, 16 Mar 2026 16:53:15 GMT</pubDate>
+    </item>
     <item>
       <title>MCP 正在改变我对代理编排的看法，其他人都在重新思考他们的堆栈</title>
       <link>https://www.reddit.com/r/automation/comments/1rvd3f3/mcp_is_changing_how_i_think_about_agent/</link>
@@ -48,13 +55,6 @@
       <pubDate>Mon, 16 Mar 2026 13:33:45 GMT</pubDate>
     </item>
     <item>
-      <title>短期租赁的自动化理念</title>
-      <link>https://www.reddit.com/r/automation/comments/1rv8vzs/automation_ideas_for_short_stay_rentals/</link>
-      <description><![CDATA[嘿，我想开始新服务，为短期出租公寓创建自动化。我需要一些想法，了解他们需要什么样的自动化以及我可以向他们出售什么软件包   由   提交/u/Usama4745  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rv8vzs/automation_ideas_for_short_stay_rentals/</guid>
-      <pubDate>Mon, 16 Mar 2026 13:05:29 GMT</pubDate>
-    </item>
-    <item>
       <title>有人真的通过人工智能自动化业务赚到钱吗？</title>
       <link>https://www.reddit.com/r/automation/comments/1rv8qlq/has_anyone_actually_made_money_running_an_ai/</link>
       <description><![CDATA[我看到很多人在谈论创办人工智能自动化业务，以帮助公司实现人工智能聊天机器人、语音代理、线索跟进和工作流程自动化等业务的自动化。 有些人声称他们为本地企业和初创公司做这件事赚了很多钱。但我很好奇其中有多少是真实的，而不是炒作？ 这里有人真正经营人工智能自动化业务吗？ 你们提供什么服务？ 你们是如何获得第一批客户的？ 需求是否强劲，还是市场已经饱和？ 此外，如果您尝试过但停止了，什么不起作用？ 希望听到人们的诚实经验和见解   由   提交 /u/Commercial-Job-9989   [链接] [评论]]]></description>
@@ -67,6 +67,13 @@
       <description><![CDATA[上周我跟踪了我在工作中所做的一切。 大多数任务基本上都是：信息输入 → 处理 → 信息输出。 具体情况如下： • 28% 的电子邮件和 28% 的电子邮件。文档 • 19% 研究 • 15% 数据格式化 • 11% 会议摘要 • 9% 重复性管理 大约 62% 可以自动化，至少部分自动化。 这让我意识到：人工智能不是魔法，它是为现代工作的确切结构而构建的。 很好奇，你的工作中有多少比例可以真正实现自动化？   由   提交/u/SMBowner_  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rv8o80/i_tracked_my_work_for_7_days_62_could_be/</guid>
       <pubDate>Mon, 16 Mar 2026 12:56:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>尝试自动化保险预约安排，但条件路由是一场噩梦</title>
+      <link>https://www.reddit.com/r/automation/comments/1rv8gy8/trying_to_automate_insurance_appointment/</link>
+      <description><![CDATA[基本情况很简单，日历显示插槽、客户书籍，完成。但保险预约并不是那么简单。新的商业帐户需要具有商业专业知识和小时块的制作人。个人线路报价需要 15 分钟与任何可用的代理联系。索赔跟进需要最初处理该帐户的人进行。有些客户坚持选择特定的人员，而不管会议类型如何。 将预约类型与正确的人员、正确的持续时间和客户的日程安排相匹配的路由逻辑比任何似乎构建的日程安排工具都要复杂。一旦添加条件规则，Calendly 就会崩溃，无论如何，您都会回到手动安排。 是否有人进行自动预订，而谁参加哪个会议的规则确实很复杂？什么处理条件逻辑而不需要对每个请求进行手动干预？   由   提交/u/Inf3rno26  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rv8gy8/trying_to_automate_insurance_appointment/</guid>
+      <pubDate>Mon, 16 Mar 2026 12:47:08 GMT</pubDate>
     </item>
     <item>
       <title>人工智能如何自动化保险索赔工作流程</title>
@@ -88,13 +95,6 @@
       <description><![CDATA[最近看到这个挑战突然出现，我真的很困惑。这个想法在纸面上听起来很有趣，但从我所读到的和经历过的情况来看，每周都赶出一个代理似乎是构建一堆在生产中实际上不起作用的半生不熟的东西的秘诀。上下文腐烂是一个真正的问题，就像代理在工作几个小时后开始退化一样，突然你无论如何都需要照顾他们。因此，如果您急于每 7 天发布新产品，那么您可能没有正确处理这个问题。也就是说，我确实认为有必要强迫自己实际构建而不是仅仅观看教程。 Claude Code 使这种方式比以前更容易实现，如果挑战让人们实现真正的自动化而不仅仅是理论，也许质量问题在早期就不那么重要了。问题在于人们何时将输出视为生产就绪。多代理设置、适当的编排、处理边缘情况。这些事情需要时间，而且你不可能在每周的最后期限内解决它。我认为“每月一名代理人”挑战与实际评估标准对于学习会更有用。给自己一些时间看看哪里出了问题，修复干预点，也许将其与真实的东西结合起来。这里有人真的做过每周版本吗？好奇速度是否有助于您更快地学习，或者您是否只是以半成品自动化的坟墓告终。   由   提交 /u/Such_Grace   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rv3he8/is_the_one_claude_agent_per_week_challenge/</guid>
       <pubDate>Mon, 16 Mar 2026 08:06:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>厌倦了 QA 成为无法按时交付的原因，而真正的问题是工具</title>
-      <link>https://www.reddit.com/r/automation/comments/1rv2mjx/tired_of_qa_being_the_reason_nothing_ships_on/</link>
-      <description><![CDATA[热门观点，也许不受欢迎，但大多数组织中的质量保证瓶颈对话都指向错误的事情。 QA 并不慢，因为 QA 人员很慢，之所以慢，是因为工具和流程的设计方式使得彻底性永远需要永远，而捷径则需要五分钟，因此激励结构总是倾向于捷径，然后当出现问题时每个人都会表现得感到惊讶。指责质量保证速度是一种非常舒服的方式，可以避免谈论其背后的实际基础设施和文化问题。   由   提交/u/LouDSilencE17  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rv2mjx/tired_of_qa_being_the_reason_nothing_ships_on/</guid>
-      <pubDate>Mon, 16 Mar 2026 07:11:20 GMT</pubDate>
     </item>
     <item>
       <title>营销团队是否过度自动化？</title>
