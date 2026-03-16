@@ -4,18 +4,46 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 16 Mar 2026 10:01:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 13:01:08 GMT</lastBuildDate>
     <item>
-      <title>只需用振动编码即可完成整个事情 - 一位客户上周对我这么说</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rv5atr/just_vibe_code_the_whole_thing_a_client_said_this/</link>
-      <description><![CDATA[只是对整个事情进行编码”上周一位客户对我说了这句话 这个人伸出援手，想要一个能够进行潜在客户资格认证、发送后续电子邮件、从 CRM 中提取、记录所有内容、处理边缘情况的 AI 代理。加上一个网络仪表板来监控这一切。 我问他在想什么预算。 “不多，你可以直接对整个事情进行编码” 对。 看起来我明白了。关于人工智能编码工具的讨论让每个人都认为软件现在基本上是免费的。您会看到光标在 4 分钟内构建待办事项应用程序的演示，突然之间，与 CRM 集成的生产级自主代理成为一个周末项目。 这就是氛围编码实际上为您带来的东西：在演示中，在第一次尝试时，使用干净的输入，看起来就可以工作的东西。它不能帮助你的是错误处理。可观察性。速率限制管理。当 LLM 返回意外结果时的后备行为。安全。数据验证。 40% 的工作并不是幸福的道路。 接触客户数据并代表企业发送电子邮件的人工智能代理并不是一种氛围。这就是基础设施。这就是责任。当输入很奇怪、当 API 很慢、当模型幻觉出一个联系人姓名时，就需要测试这一点。 我真的希望所有认为这个东西要花 8 美元/小时的人都能得到他们所付出的代价。就一次。这样他们就明白自己真正想要的是什么。 无论如何。我正确引用了该项目。他安静了下来。可能在 Fiverr 上找到了人。 酷。   由   提交 /u/AndroidTechTweaks   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rv5atr/just_vibe_code_the_whole_thing_a_client_said_this/</guid>
-      <pubDate>Mon, 16 Mar 2026 10:00:37 GMT</pubDate>
+      <title>网站声誉攻击还是其他什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rv8cut/website_reputation_attack_or_something_else/</link>
+      <description><![CDATA[      你们以前遇到过这种情况吗？我收到了一些拒绝电子邮件，内容是不是从我的服务器或电子邮件 API 发送的邮件（我检查过）。 我不知道是否相关，但我发了一个“周六炫耀”邮件两天前发的帖子，没有引起太多关注，第二天就开始发生这种情况。   由   提交/u/svvnguy   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rv8cut/website_reputation_attack_or_something_else/</guid>
+      <pubDate>Mon, 16 Mar 2026 12:42:05 GMT</pubDate>
     </item>
     <item>
-      <title>从网络上爬取了超过 200 万个 API 规范。 65% 的人定义零安全性。没有任何。</title>
+      <title>2026 年设置 SaaS 支付仍然很痛苦还是我做错了？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rv5v39/is_setting_up_saas_payments_still_painful_in_2026/</link>
+      <description><![CDATA[我最近一直在构建一些 SaaS/AI 工具，但有件事一直让我烦恼： 实时付款。 不谈添加结账按钮，这部分很简单。 我指的是完整的货币化设置，例如： • 产品和服务。定价 • 订阅与使用计费 • webhooks • 客户门户 • 订阅的数据库架构 • 应用程序中的权利 • 失败的付款逻辑 • 测试模式与实时模式 • Stripe / Paddle / LemonSqueezy 差异 每次这样做时，我都感觉自己正在重新解决相同的基础设施问题。 我的典型流程：  创建产品/价格 配置 webhooks 构建订阅表 编写 webhook 处理程序 处理边缘情况 测试付款 部署  这并不难，但与构建其他内容相比，它很耗时产品。 我一直在使用 AI 编码工具（主要是 Windsurf，我还没有开始使用 Clausde Code - 不要讨厌），它对于构建应用程序来说很棒，但盈利仍然是最慢的部分之一。 这让我思考一些事情，如果有一个工具，你可以这样说：“让这个应用程序成为付费 SaaS，每月 29 美元的计划，免费增值套餐，7 天试用期”免费试用” 它会自动： • 配置支付提供商 • 创建产品/价格 • 设置网络钩子 • 生成数据库架构 • 生成计费端点 • 生成权利检查 • 为您提供环境变量 基本上是一个“使该项目货币化”命令。 类似于： npx [paytool] monetize  或AI工具直接通过MCP调用它。 这个想法是，您不必手动进行所有计费设置，而是回答几个问题，该工具： • 设计货币化架构 • 提供Stripe / Paddle 等 • 生成后端实现 • 监视器网络钩子 &amp;计费运行状况 您可以将其计费为“用于货币化基础设施的 Vercel”。但在我进一步深入这个兔子洞之前，我会尝试进行健全性检查。 这对其他人来说真的是一个真正的痛苦吗？ 或者我是否高估了这个问题，因为我不得不实现它几次？ 我好奇的事情： 1.您觉得付款设置有多痛苦？ 基本上无痛？ 有点烦人？ 实际上很浪费时间？ 2.哪些部分最差？ 文档？ Webhooks？计费逻辑？边缘情况？ 3.您通常会推出自己的计费逻辑或使用以下内容： • Stripe Billing • Paddle • LemonSqueezy • Chargebee • 样板文件 4.您会信任自动设置工具吗？ 或者，处理处理器来收取费用的工具是否会感觉风险太大？ 5.你认为人工智能编码工具能解决这个问题吗？ 我有些想知道 Cursor / Copilot / 代理是否会很快自动构建计费设置。我真的很好奇其他开发者是如何处理这个问题的，如果您最近构建了 SaaS 或 AI 产品，您是如何处理盈利方面的？   由   提交/u/dirango  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rv5v39/is_setting_up_saas_payments_still_painful_in_2026/</guid>
+      <pubDate>Mon, 16 Mar 2026 10:33:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>mongodb 的移动 GUI？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rv5rmt/mobile_gui_for_mongodb/</link>
+      <description><![CDATA[有一个像样的 MongoDB 移动客户端吗？ 每次出现问题并且我离开笔记本电脑时，我都会陷入困境，因为我无法轻松地从手机访问数据库。 我想我可以为此构建一个本机应用程序，只是为了查看集合、编辑/删除数据等。比 Mongodb 指南针更有限，但足以在出现问题时管理事物。你觉得值得吗？   由   提交/u/Vegetable_Lunch554  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rv5rmt/mobile_gui_for_mongodb/</guid>
+      <pubDate>Mon, 16 Mar 2026 10:27:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>区域变体的规范标签</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rv5r7e/cannonical_tags_for_regional_variants/</link>
+      <description><![CDATA[我有一个带有区域变体的乐高网站。基本 URL 重定向到基于用户 IP 的区域变体。因此 example.com 可能会重定向到 example.com/us 或 example.com/fr。每个变体都显示区域定价信息。所有变体都通过 href-lang 标签链接在一起。目前，规范标签是自引用的：example.com/us 指向 example.com/us 作为规范标签。但谷歌发现许多页面（几乎）相同，因此在谷歌搜索控制台中我看到“页面未编入索引：重复，谷歌选择了与用户不同的规范”。  问题：让规范标签指向基本 URL 会更好吗？但该页面给出了 302 重定向。   由   提交 /u/IrMarkuzzz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rv5r7e/cannonical_tags_for_regional_variants/</guid>
+      <pubDate>Mon, 16 Mar 2026 10:27:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>是否有一个网站向用户解释如何打开开发工具并复制可见错误？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rv5dzk/is_there_a_website_that_explains_to_users_how_to/</link>
+      <description><![CDATA[所以我正在构建一个网络应用程序，为此我正在设置一个很好的错误报告流程，我希望用户提交浏览器控制台的内容及其错误报告。 我希望会有一个简单的教程页面，例如 xy 问题或其他问题，向人们解释如何打开开发工具，大致是什么以及如何复制输出。但我只能找到各个公司的支持页面已经为此制作了自己的页面，因为显然不存在标准解决方案？ 我正在设想类似 devtools.how 或任何可用且相当便宜的域名。然后会有一个简短的介绍文本，介绍开发工具是什么以及为什么将它们发送到此处的网站开发人员对输出感兴趣。然后是一堆带有所有浏览器徽标的巨大链接，将用户发送到一个子页面，该子页面解释了如何打开控制台并复制其输出。 这样的东西存在吗？如果没有，我将构建它并开源它，这似乎是一个周末项目。通过某种超级简单的本地化、静态页面、部署到 netlify，我们就成功了。   由   提交/u/el_yanuki  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rv5dzk/is_there_a_website_that_explains_to_users_how_to/</guid>
+      <pubDate>Mon, 16 Mar 2026 10:05:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>从网络上爬取了 200 万多个 API 规范。 65% 的人定义零安全性。没有任何。</title>
       <link>https://www.reddit.com/r/webdev/comments/1rv59vl/crawled_2m_api_specs_off_the_web_65_define_zero/</link>
-      <description><![CDATA[对现实世界的 API 规范实际上在规模上是什么样子感到好奇，所以我去爬行了 SwaggerHub 和 GitHub，以获取我能得到的每个 OpenAPI/Swagger 文件。 230 万次搜索点击量。获取其中 665K。经过严格验证和重复数据删除后，仍然保留了 440K 干净的规格。按唯一的 API 名称分组，最终得到约 196K 个唯一的 API，所有这些 API 的操作次数为 230 万次。 这是我发现的内容： 版本：  68% OpenAPI 3.0 31% 仍然使用 Swagger 2.0 3.1 或更新版本上的比例低于 1%  基本上没有人迁移到 3.1，尽管它已经发布多年了哈哈 HTTP 方法：  GET + POST = 80% 的内容 PUT 9%，DELETE 8% PATCH at 2.6%  安全就是它的意义所在粗略：  65% 的 API 根本没有声明任何安全方案。没有 API 密钥、没有承载者、没有 OAuth。  真正令人烦恼的：API Key 48%、Bearer 38%、OAuth2 18%、Basic 11%  开放网络上三分之二的 API 规范的身份验证为零。没有破坏身份验证，只是没有。 进行整个分析是因为我正在开发一个开发工具，并且需要有关实际 API 情况的真实数据。安全号码特别改变了我对优先顺序的一些假设。 还有其他人觉得这令人惊讶还是这基本上是旧新闻？   由   提交/u/MucaGinger33  [链接] [评论]]]></description>
+      <description><![CDATA[      我对现实世界的 API 规范实际上在规模上是什么样子感到好奇，因此我在 SwaggerHub 和 GitHub 上抓取了我能得到的每个 OpenAPI/Swagger 文件。 230 万次搜索点击量。获取其中 665K。经过严格验证和重复数据删除后，仍然保留了 440K 干净的规格。按唯一的 API 名称分组，最终得到约 196K 个唯一的 API，所有这些 API 的操作次数为 230 万次。 这是我发现的内容： 版本：  68% OpenAPI 3.0 31% 仍然使用 Swagger 2.0 3.1 或更新版本上的比例低于 1%  基本上没有人迁移到 3.1，尽管它已经发布多年了哈哈 HTTP 方法：  GET + POST = 80% 的内容 PUT 9%，DELETE 8% PATCH at 2.6%  安全就是它的意义所在粗略：  65% 的 API 根本没有声明任何安全方案。没有 API 密钥、没有承载者、没有 OAuth。  真正令人烦恼的：API Key 48%、Bearer 38%、OAuth2 18%、Basic 11%  开放网络上三分之二的 API 规范的身份验证为零。没有破坏身份验证，只是没有。 进行整个分析是因为我正在开发一个开发工具，并且需要有关实际 API 情况的真实数据。安全号码特别改变了我对优先事项的一些假设。 还有其他人觉得这令人惊讶还是这基本上是旧新闻？ GitHub 抓取中途完成   由   提交/u/MucaGinger33  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rv59vl/crawled_2m_api_specs_off_the_web_65_define_zero/</guid>
       <pubDate>Mon, 16 Mar 2026 09:59:05 GMT</pubDate>
     </item>
@@ -43,7 +71,7 @@
     <item>
       <title>建议阅读一些资源/书籍以提高我的知识</title>
       <link>https://www.reddit.com/r/webdev/comments/1ruxhuk/suggest_some_resourcesbooks_to_read_to_improve_my/</link>
-      <description><![CDATA[我目前是大学三年级学生，正在申请实习。我确实有一些项目计划在购买域后部署，但在使用大量数据和并发用户进行测试时它们运行速度非常慢。我的堆栈是 Java + Spring，所以我尝试使用 Hikari Pool 连接和缓存，但我不知道如何最佳地使用它。如果可能的话，请提供您的意见并推荐一些资源和书籍。 此外，我通过 K6 对其进行了测试。我确实将文件上传到人工智能，但它是幻觉。即使使用缓存和更改数据库连接也只能带来很小的改进。我还了解到，一种方法中的 2 个数据库查询是糟糕的设计和糟糕的性能，因此我优化为 1 个直接数据库调用，这样性能也提高了一点。那么对此有什么意见吗？   由   提交 /u/Proud_Yesterday6627   [链接] [评论]]]></description>
+      <description><![CDATA[我目前是大学三年级学生，正在申请实习。我确实有一些项目计划在购买域后部署，但在使用大量数据和并发用户进行测试时它们运行速度非常慢。我的堆栈是 Java + Spring，所以我尝试使用 Hikari Pool 连接和缓存，但我不知道如何最佳地使用它。如果可能的话，请提供您的意见并推荐一些资源和书籍。 此外，我通过 K6 对其进行了测试。我确实将文件上传到人工智能，但这是幻觉。即使使用缓存和更改数据库连接也只能带来很小的改进。我还了解到，一种方法中的 2 个数据库查询是糟糕的设计和糟糕的性能，因此我优化为 1 个直接数据库调用，这样性能也提高了一点。那么对此有什么意见吗？   由   提交 /u/Proud_Yesterday6627   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ruxhuk/suggest_some_resourcesbooks_to_read_to_improve_my/</guid>
       <pubDate>Mon, 16 Mar 2026 02:33:31 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[      大家好！我正在为大学开发一个项目，第一个版本将于今晚发布！我和我的合作伙伴正在努力最终让第一个版本活跃起来。前端活跃在vercel上，后端活跃在railway上。当我们去网站登录时，提示无法登录...我认为问题是数据库没有正确连接？  一切都在我的设备上本地运行，使用 postgres 作为我们的数据库...我在我们的铁路项目上做了一个 postgres 服务，但这并没有解决问题。如何从 VSCode 获取 sql 表以连接到铁路？其他一切似乎都是从 github 自动连接的，但这不是？  在铁路中，我将 postgres 中的 DATABASE_URL 设置为 qnect 后端服务中的 DATABASE_URL。 我将包含我的 github 以及浏览器控制台上的错误图片。我不确定是否需要任何其他信息或者我是否说错了一些术语。这是我和我的合作伙伴的第一个大项目！感谢任何帮助。  https://preview.redd.it/ld3fdg470bpg1.png?width=696&amp;format=png&amp;auto=webp&amp;s=95dbd0c48d6294b500f060bb50495799e2f700de   由   提交/u/Early-Masterpiece-89   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ruv4uv/how_to_connect_database_to_front_backend/</guid>
       <pubDate>Mon, 16 Mar 2026 00:46:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>请分享很酷的网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ruv160/please_share_cool_websites/</link>
-      <description><![CDATA[我正在寻找可以发送给我的团队的好产品，我期待免费或有免费套餐供我们测试的有用工具 请通过 DM 分享您正在构建/已以此格式构建的内容： 产品名称（超链接）- 简短描述 发送后，请回复已发送或按照下面完成 我一回家就会回复你们每个人 请不要给我发短信以获得批准/列出尚未完成的产品 我在这里的作用是寻找产品！ 周一快乐！   由   提交/u/No_Bend_4915   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ruv160/please_share_cool_websites/</guid>
-      <pubDate>Mon, 16 Mar 2026 00:41:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>我没有积极的反馈循环来保持我的生产力。所以我构建了一个网络应用程序，让我可以使用时间作为我的锚。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ruufe3/i_had_no_positive_feedback_loop_to_keep_me/</link>
-      <description><![CDATA[   从事深度、有意义的任务的问题在于，它根本无法像其他高多巴胺能活动（干扰）那样产生效果。如果没有积极的反馈循环，比如积极创造收入或获得赞扬，那么保持纪律就会变得困难。特别是如果您关注的任务太困难且没有回报的话。 那么，我对这个问题的解决方案是什么？前提很简单：让时间成为你的锚，让任务列表成为你的指南。一步一步地完成事情，并与你花在工作上的时间保持一致（无论生产力水平如何）。只要你积极工作，时间就很重要。如果你保持8小时的“锁定”每天，你最终都会达到一种精神状态，工作本身变得有意义，分心的事物离开你的精神空间。 时间成为你的积极反馈循环。 使用秒表、应用程序、网站等等。只需记录一下充分利用的时间即可。我亲自为自己构建了一些东西，也许这会鼓励您也这样做。 100% 免费使用：https://lockn.cc   由   提交/u/Aneizi   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ruufe3/i_had_no_positive_feedback_loop_to_keep_me/</guid>
-      <pubDate>Mon, 16 Mar 2026 00:14:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>您是否在添加依赖项之前实际评估依赖项，或者只是 npm install 并祈祷</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ruslk4/do_you_actually_evaluate_dependencies_before/</link>
-      <description><![CDATA[诚实的问题。当你需要向项目中添加一个包时，你是否真的检查了 github 的星数、上次提交日期、未解决的问题、总线因子等，还是只是获取了 stackoverflow 顶部答案所说的内容 我最近开始真正研究这些东西，令人恐惧的是，我的项目中有多少包在 2 年内没有更新过，或者有一个维护者已经几个月没有活跃了 感觉我们需要更好的工具来实现这一点。在您在其上构建整个应用程序之前，依赖项基本上被放弃时会进行标记   由   提交 /u/edmillss   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ruslk4/do_you_actually_evaluate_dependencies_before/</guid>
-      <pubDate>Sun, 15 Mar 2026 22:57:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>网页设计理念有帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rusg1i/web_design_ideas_help/</link>
-      <description><![CDATA[      我必须为我的学校作业设计一个网站，这是我的第一个网站，我必须使用我制作的 3 个情绪板中的一个作为我的调色板和字体。该网站面向软件开发人员，因为他们可以申请在那里工作，或者他们可以找到成为网站开发人员所需的资格。如果有人可以告诉我他们认为这三种情绪中最好的是什么板这将非常有帮助。   由   提交/u/the1wh0knockss  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rusg1i/web_design_ideas_help/</guid>
-      <pubDate>Sun, 15 Mar 2026 22:51:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
