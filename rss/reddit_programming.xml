@@ -4,27 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 17 Mar 2026 16:01:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 18:57:13 GMT</lastBuildDate>
+    <item>
+      <title>可维护的播客：Joel Oliveira：可预测性是可维护性的特征</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwdv3g/maintainable_podcast_joel_oliveira_predictability/</link>
+      <description><![CDATA[ 由   提交 /u/robbyrussell   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwdv3g/maintainable_podcast_joel_oliveira_predictability/</guid>
+      <pubDate>Tue, 17 Mar 2026 17:52:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用行为模型自主测试超级马里奥 – 寻找真正的错误</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwd2tr/testing_super_mario_using_a_behavior_model/</link>
+      <description><![CDATA[了解行为模型与自主测试相结合如何帮助我们在参考《超级马里奥》游戏实现中发现有趣的错误。该模型会在探索过程中验证每一帧，但是当它与游戏不一致时，哪一帧是错误的？这是双向测试：模型测试游戏，游戏测试模型。这个过程发现了几个真正的引擎错误，包括第 4 关中的一个传送错误，其中马里奥由于重叠的碰撞箱而在屏幕上被卡住。所有代码都是开源的：https://github.com/testflows/Examples/tree/v3.0/SuperMario。    由   提交/u/vzakaznikov   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwd2tr/testing_super_mario_using_a_behavior_model/</guid>
+      <pubDate>Tue, 17 Mar 2026 17:25:36 GMT</pubDate>
+    </item>
     <item>
       <title>集成仪表：监控 Seastar IO 堆栈的经验教训</title>
       <link>https://www.reddit.com/r/programming/comments/1rwak05/integrated_gauges_lessons_learned_monitoring/</link>
       <description><![CDATA[许多性能指标和系统参数本质上是不稳定的或快速波动的。当使用定期“抓取”（轮询）目标当前指标值的监控系统时，收集的数据点仅仅是该精确时刻系统状态的快照。它并没有透露太多该地区实际发生的事情。有时可以通过以某种方式累积这些值来克服这个问题 - 例如，通过使用直方图或导出派生的单调递增计数器。本文提出了另一种方法来扩展此方法以适用于更广泛的频繁更改的参数集。   由   提交/u/swdevtest  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rwak05/integrated_gauges_lessons_learned_monitoring/</guid>
       <pubDate>Tue, 17 Mar 2026 15:57:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mandelbrot 采用 C++ 进行渲染，具有 8x8 SSAA、80 位 x87 FPU 精度和 OpenMP 缩放</title>
-      <link>https://www.reddit.com/r/programming/comments/1rwafg0/mandelbrot_renderer_in_c_featuring_8x8_ssaa_80bit/</link>
-      <description><![CDATA[具有 8x8 超级采样的 Mandelbrot 集（每像素 64 个样本） — 使用 x87 FPU 和 OpenMP 进行高精度渲染 我开发了一个 CLI 实用程序，它使用重型8x8 超级采样抗锯齿 (SSAA) 来渲染 Mandelbrot 集。虽然 SSAA 是资源密集型，但它通过消除锯齿状边缘提供了令人难以置信的清晰度。 当使用 8x8 SSAA 以 1920x1920 的目标分辨率进行渲染时，引擎实际上会在缩小尺寸之前计算 15360x15360 网格（每像素 64 个样本）。 主要功能：  精度：使用80位x87 FPU进行高精度浮点计算。 性能：使用OpenMP实现多线程。无论您是在 4 核笔记本电脑还是 128 核服务器上运行，它都会线性扩展。 着色：基于正弦波和余弦波的平滑颜色渐变：127 + 127 * cos(2 * PI * a / 255) 和 127 + 127 * sin(2 * PI * a / 255). 可移植性：用 C++ 编写并使用 g++ 编译。适用于 Windows 和 Linux。  使用方法： 该工具从 Mandelbrot.txt（键 7）读取坐标，或者让您从六个预定义的图标位置（键 1-6）中进行选择以生成 Mandelbrot.bmp 文件。   由   提交/u/OkIncident7618   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rwafg0/mandelbrot_renderer_in_c_featuring_8x8_ssaa_80bit/</guid>
-      <pubDate>Tue, 17 Mar 2026 15:53:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>每一层审查都会让你慢 10 倍</title>
-      <link>https://www.reddit.com/r/programming/comments/1rw9c59/every_layer_of_review_makes_you_10x_slower/</link>
-      <description><![CDATA[ 由   提交/u/f311a  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rw9c59/every_layer_of_review_makes_you_10x_slower/</guid>
-      <pubDate>Tue, 17 Mar 2026 15:13:59 GMT</pubDate>
     </item>
     <item>
       <title>X07 是如何设计用于 100% 代理编码的</title>
@@ -83,7 +83,7 @@
       <pubDate>Tue, 17 Mar 2026 13:30:59 GMT</pubDate>
     </item>
     <item>
-      <title>OTel-Native 的设计 - 导出到任何可观察性堆栈的后端</title>
+      <title>OTel-Native 设计 - 导出到任何可观察性堆栈的后端</title>
       <link>https://www.reddit.com/r/programming/comments/1rw1dfc/otelnative_by_design_backends_that_export_to_any/</link>
       <description><![CDATA[ 由   提交/u/silksong_when  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rw1dfc/otelnative_by_design_backends_that_export_to_any/</guid>
