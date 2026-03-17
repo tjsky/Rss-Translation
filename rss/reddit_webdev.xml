@@ -4,13 +4,27 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 17 Mar 2026 01:47:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 04:49:51 GMT</lastBuildDate>
     <item>
-      <title>人工智能编码工具让我更快地批量生产出糟糕的代码。这是我改变的。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rvs7wz/ai_coding_tools_made_me_massproduce_bad_code/</link>
-      <description><![CDATA[我经历了一个使用 Copilot/Cursor 处理所有事情的阶段。我的提交频率增加了两倍。我的错误数量增加了很多。我正在快速生成代码，但由于截止日期无法正确审查它。真正的问题是工作流程。人工智能会编写代码，我会浏览它，发送它，然后在第二天进行调试。生成是自动化的，但质量控制仍然是 100% 我做的。我最终构建了一个系统，人工智能代理可以处理整个管道，不仅编写代码，还运行测试并在我看到它之前进行 QA 通过。我只审查已经通过测试的代码。完全改变了我交付的代码质量。还有其他人注意到他们在开始使用人工智能工具时带来了更多错误吗？很好奇这是否常见。有点与阿里巴巴最近关于长期使用人工智能代理的研究有关 https://arxiv.org/abs/2603.03823    由   提交 /u/Warmaster0010   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rvs7wz/ai_coding_tools_made_me_massproduce_bad_code/</guid>
-      <pubDate>Tue, 17 Mar 2026 00:57:23 GMT</pubDate>
+      <title>我构建了 27 个基于浏览器的免费开发工具 — JSON 格式化程序、JWT 解码器、base64、正则表达式测试程序等</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rvvp81/i_built_27_free_browserbased_dev_tools_json/</link>
+      <description><![CDATA[厌倦了谷歌搜索“json formatter online”并获得广告覆盖的网站几乎无法工作 所以我构建了自己的一套开发工具。 27 和计数：  JSON 格式化器/验证器 JWT 解码器 Base64 编码/解码 URL 编码/解码 哈希生成器（MD5、SHA-1、SHA-256） 正则表达式测试器 颜色转换器 Markdown 预览 CSS minifier UUID 生成器 Unix 时间戳转换器 差异检查器 加上更多  所有客户端，没有数据离开您的浏览器。无需注册，无广告。 https://devtools-site-delta.vercel.app 使用 Next.js 构建，部署在 Vercel 上。很乐意接受功能请求 - 您希望存在哪些工具？   由   提交 /u/Krbva   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rvvp81/i_built_27_free_browserbased_dev_tools_json/</guid>
+      <pubDate>Tue, 17 Mar 2026 03:33:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>您对我的新网站有何看法？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rvttmr/what_do_you_think_about_my_new_website/</link>
+      <description><![CDATA[新网站http://juandinella.com/。随意烘焙   由   提交/u/alfajordefernet   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rvttmr/what_do_you_think_about_my_new_website/</guid>
+      <pubDate>Tue, 17 Mar 2026 02:06:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>超越 PageSpeed Insights：您使用哪些工具来衡量重型第三方 JS 对 Core Web Vitals 的影响？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rvtpcl/beyond_pagespeed_insights_what_tools_do_you_use/</link>
+      <description><![CDATA[   大家好， 我目前正在审核一个实用程序网站，该网站在集成第三方广告网络 (Adsterra) 后，流量立即大幅下降 (90%)。我怀疑广告脚本导致了显着的布局变化并阻塞了主线程，但我在数据一致性方面遇到了困难。 每次运行 Google PageSpeed Insights (PSI) 时，它都会给我带来截然不同的分数（从 30 到 70 不等），这可能是由于广告投放的动态性质所致。 我正在寻找擅长以下方面的工具推荐：  https://preview.redd.it/v3s6mfiziipg1.png?width=2510&amp;format=png&amp;auto=webp&amp;s=85c8ba220979de97d6694e9eefbf52a47063810d  瀑布分析：准确识别哪个脚本或来源正在劫持 LCP。 现场数据与实验室数据：能够更好地模拟异步第三方膨胀的真实用户体验的工具。 稳定性任何处理“可变性”的基准测试工具动态广告脚本比 PSI 更好？  我听说过 WebPageTest 和 GTmetrix，但我很想知道这里的专业人士在需要展示“确凿证据”时使用什么。证明特定脚本正在影响网站的性能和排名。   由   提交/u/DependentKing698  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rvtpcl/beyond_pagespeed_insights_what_tools_do_you_use/</guid>
+      <pubDate>Tue, 17 Mar 2026 02:01:18 GMT</pubDate>
     </item>
     <item>
       <title>构建了一个交互式 3D 桌面背景应用程序 — 好奇网络开发人员的想法</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[5-6 年 Angular/React 开发人员接下来应该学习哪些技能才能在 AI 时代保持领先地位？ 发布文本： 我是一名前端开发人员，拥有约 5-6 年的 Angular 和 React 工作经验。我对构建生产应用程序感到自在，但我正在考虑接下来要关注哪些技能，这样我就不会落后。 对于现阶段的人，您会优先考虑哪些领域？ 例如：  AI / LLM 集成 数据工程或分析 系统设计/架构 设计系统和应用程序UI 工程 DevOps / 云 后端技能 软技能？语言？它是什么？  在当前人工智能+企业环境中，什么实际上可以提供最佳的长期影响力？我们现在应该打磨后端主题吗？看起来很可笑   由   提交 /u/Then-Argument4107   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1rvg2ye/frontend_angularreact_developer_learn_next/</guid>
       <pubDate>Mon, 16 Mar 2026 17:29:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>让您的编码代理使用 Chrome DevTools MCP 调试您的浏览器会话</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rvfr1m/let_your_coding_agent_debug_your_browser_session/</link>
-      <description><![CDATA[       由   提交/u/Dear-Economics-315   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rvfr1m/let_your_coding_agent_debug_your_browser_session/</guid>
-      <pubDate>Mon, 16 Mar 2026 17:18:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助找出项目的最佳方法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rvfp0w/help_finding_out_best_method_for_project/</link>
-      <description><![CDATA[嗨！我希望这不是在错误的地方，如果是的话，很抱歉。我想在序言中说，我有图形设计背景和一些动画经验，但我根本不是一个网络开发者/编码器/计算机科学大脑，我盲目地陷入了readymag。我的目标是让一个神奇的八球在点击时在选项之间交替。我已经制作了一个视频动画，但不希望它只改变最后一帧，并写在上面，因为我希望球的堆积被摇动。我想知道是否可以使用网站上预设的镜头来做到这一点，其中动作（即点击）触发结果，但不确定，因为这是两个不同的结果。其他想法是视频但类似的问题。如果是 gif，当随机化是我想要的关键元素时，它必须循​​环选项而不是随机化。经过一番研究，似乎随机发生器通常是用代码执行的，但我不知道如何执行。如果我要外包编码以便用两个不同的选项随机化该图形，我会要求他们做什么？只是会感激任何可能的想法。这是我目前制作的视频，旨在提供一个想法。   由   提交/u/Global_Math_7631   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rvfp0w/help_finding_out_best_method_for_project/</guid>
-      <pubDate>Mon, 16 Mar 2026 17:16:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
