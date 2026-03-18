@@ -4,13 +4,34 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 18 Mar 2026 01:51:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 04:53:31 GMT</lastBuildDate>
     <item>
-      <title>为什么大多数 PDF 编辑器在保留字体方面如此糟糕？</title>
-      <link>https://www.reddit.com/r/software/comments/1rwpmwa/why_are_most_pdf_editors_so_bad_at_preserving/</link>
-      <description><![CDATA[我最近经常处理 PDF，但有一件事一直困扰着我。 每次我尝试编辑 PDF 时，字体最终看起来都略有偏差。没有完全损坏，但足以让您注意到它。单词变得有点宽，间距感觉很奇怪，粗体看起来不再正确......有时它甚至会突然切换到像 Arial 这样的东西。 起初我认为这只是糟糕的实现，但我越深入研究它，就越感觉这是一个更深层次的限制。 据我了解，PDF 并不真正按照我们想象的方式存储文本。它更像是一组带有嵌入字体的定位字形，有时甚至是子集。因此，当您编辑某些内容时，该工具基本上必须从头开始重新创建文本渲染，这就是事情发生变化的地方。 即使您设法提取并重用原始字体，它仍然并不总是在浏览器中呈现相同的效果。不同的指标，不同的提示，画布绘制文本的方式与 PDF 最初呈现的方式相比略有不同。 所以我想知道这是否只是一个未解决的问题，或者我是否遗漏了一些明显的东西。   由   提交 /u/Zestyclose_Mess8139   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rwpmwa/why_are_most_pdf_editors_so_bad_at_preserving/</guid>
-      <pubDate>Wed, 18 Mar 2026 01:05:24 GMT</pubDate>
+      <title>有人可以给我推荐一些老派/机器人声音的 tts 吗？</title>
+      <link>https://www.reddit.com/r/software/comments/1rwu5fl/can_someone_recommend_me_some_old_schoolrobotic/</link>
+      <description><![CDATA[我只是想找到一些更酷的 tts，我可能可以将其用作我的 ocs 的语音声明   由   提交/u/fandno16283  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rwu5fl/can_someone_recommend_me_some_old_schoolrobotic/</guid>
+      <pubDate>Wed, 18 Mar 2026 04:32:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在不登录的情况下简单地查看 Powerpoint？</title>
+      <link>https://www.reddit.com/r/software/comments/1rwsc1v/how_do_i_simply_view_a_powerpoint_without_signing/</link>
+      <description><![CDATA[ 由   提交/u/Guest281  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rwsc1v/how_do_i_simply_view_a_powerpoint_without_signing/</guid>
+      <pubDate>Wed, 18 Mar 2026 03:05:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>新毕业生提供</title>
+      <link>https://www.reddit.com/r/software/comments/1rwsan1/new_grad_offers/</link>
+      <description><![CDATA[ 由   提交/u/tername12345  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rwsan1/new_grad_offers/</guid>
+      <pubDate>Wed, 18 Mar 2026 03:03:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个自动组织电子邮件附件的 Python 工具——无需云，无需订阅</title>
+      <link>https://www.reddit.com/r/software/comments/1rwr6zv/i_built_a_python_tool_that_autoorganizes_email/</link>
+      <description><![CDATA[每个星期一早上，我都会花 30-40 分钟重复相同的任务：打开电子邮件、搜索附件、逐个下载、重命名并将它们分类到文件夹中。 发票、合同、报告、收据 — 没什么复杂的，只是乏味。随着时间的推移，纯手动文件处理的时间会增加。 为了解决这个问题，我构建了一个小型 Python 桌面应用程序，通过 IMAP 连接到收件箱，并在本地自动执行该过程。 它的作用：  按发件人、文件类型、日期或关键字过滤附件 下载并将它们组织到结构化文件夹 使用 OCR 从扫描中提取文本PDF 使用 AES-256 加密存储凭据 完全在本地运行，因此不会将任何内容上传到服务器  技术堆栈：Python、PySide6、SQLite、IMAP 和 Tesseract OCR。 我主要是为了自己的工作流程构建它，但我很好奇其他人是否会处理同样的问题，以及这在我的用例之外是否真的有用。 我非常感谢有关想法、工作流程或任何感觉缺失的内容的反馈。 项目链接： https://github.com/cortexfile/EmailAttachmentOrganizer-Release/releases/tag/v1.0.0   由   提交 /u/Cortexfile   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1rwr6zv/i_built_a_python_tool_that_autoorganizes_email/</guid>
+      <pubDate>Wed, 18 Mar 2026 02:13:43 GMT</pubDate>
     </item>
     <item>
       <title>小尺寸的短 gif/视频</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[嘿， 我在一家营销机构工作，我的工作的很大一部分是准备内容 - 短视频、图像、字幕、社交媒体帖子等。 我使用 Linux 作为我的主要系统，并试图稍微改进我的工作流程。现在我主要使用：  用于视频编辑的Shotcut 用于图像的GIMP FFmpeg有时用于转换/压缩视频  它工作得很好，但我觉得可能有更好的工具。 我主要寻找用于以下用途的软件：  视频编辑/剪切剪辑 添加字幕或字幕 缩略图/图像编辑 组织内容或资产 从音频生成文字记录 任何其他对管理内容有用的内容  最好是在 Linux 上运行良好的工具。 想知道其他人在使用什么以及您的工作流程是什么样的。   由   提交 /u/Cold_Leg6777   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1rw9kdg/linux_user_working_in_marketing_what_software_do/</guid>
       <pubDate>Tue, 17 Mar 2026 15:22:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>排序软件有推荐吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1rw94tc/sorting_software_recommendation/</link>
-      <description><![CDATA[有人知道一种排序软件，您可以在其中预览文件（照片或视频），然后通过映射到键盘的快捷方式将它们移动到不同的文件夹吗？ 我做了不可思议的事情，将数 TB 的家庭、工作、信息和有趣的照片/视频保存到同一个文件夹中...    由   提交/u/sleepytiger85  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rw94tc/sorting_software_recommendation/</guid>
-      <pubDate>Tue, 17 Mar 2026 15:06:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建立了一个全栈监控平台，试图消除警报噪音——提供免费套餐，希望得到反馈</title>
-      <link>https://www.reddit.com/r/software/comments/1rw8y67/i_built_a_fullstack_monitoring_platform_that/</link>
-      <description><![CDATA[大家好， 我一直在开发 StackPing (stackping.io) - 一个围绕一个想法设计的监控平台：完全可见性，零噪音。 如果您曾在凌晨 3 点被一条 10 秒后自行解决的警报叫醒后来，这基本上就是它存在的原因。 StackPing 会在发出警报之前验证问题，因此您只会听到实际需要注意的内容。 它监控的内容：  服务器 - 轻量级 Go 代理，涵盖 30 多个指标（CPU、内存、磁盘、网络、临时、GPU、Docker 容器、进程、S.M.A.R.T. 等）。适用于 Linux、Windows、macOS 和 Docker。仅出站 HTTPS，因此您无需打开任何入站端口。 正常运行时间 — HTTP/HTTPS、TCP、Ping、DNS、关键字检查和 SSL 过期跟踪。警报前重新检查的间隔低至 30 秒。 21 多个应用程序集成 - PostgreSQL、MySQL、MongoDB、Redis、Elasticsearch、RabbitMQ、Kafka、Nginx、HAProxy、Proxmox、MinIO 等。 网络 - SNMP 自动发现 (v2c/v3)，以及用于 UniFi、Cisco 的云 API Meraki 和 Sophos Central，提供每设备指标和客户端跟踪。  警报并不糟糕：  电子邮件、Slack、Teams、Telegram 和 Webhooks 继承的警报规则（全局设置并在需要时覆盖每台设备） 待命计划和升级策略 维护窗口因此计划的工作不会触发误报 直接从 Slack 或 Teams 静音/确认  其他内容：  公共状态页面（品牌化，带有实时指标） 多租户 - 每个组织都有自己的子域 办公室仪表板的墙板视图 REST API  定价：     免费 专业版（15英镑/月） 商务版（49英镑/月）    服务器 3 25 无限制   正常运行时间监视器 5 50 无限制   用户 1 5 无限制   数据保留 7天 30天 90天   免费套餐确实可用 - 无需信用卡，您可以在一分钟内启动并运行。 我非常感谢任何反馈、问题或功能请求。很高兴回答评论中的任何问题！ stackping.io   由   提交 /u/Thebone2   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rw8y67/i_built_a_fullstack_monitoring_platform_that/</guid>
-      <pubDate>Tue, 17 Mar 2026 15:00:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>您现在最喜欢的开源项目是什么？</title>
-      <link>https://www.reddit.com/r/software/comments/1rw87b3/what_are_your_favorite_opensource_projects_right/</link>
-      <description><![CDATA[我目前正在研究一个新想法：对开源社区的人们进行一系列采访。 为了让它尽可能有趣，我真的很喜欢你的帮助 你最常使用、贡献或欣赏哪些开源项目？   由   提交 /u/SamirDevrel   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1rw87b3/what_are_your_favorite_opensource_projects_right/</guid>
-      <pubDate>Tue, 17 Mar 2026 14:32:49 GMT</pubDate>
     </item>
     </channel>
 </rss>

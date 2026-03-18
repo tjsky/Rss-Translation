@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Wed, 18 Mar 2026 01:50:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 04:52:42 GMT</lastBuildDate>
+    <item>
+      <title>自动化生活管理比任何生产力黑客都更能提高我的生产力</title>
+      <link>https://www.reddit.com/r/automation/comments/1rwsv34/automating_life_admin_has_improved_my/</link>
+      <description><![CDATA[嗨，我是自动化新手。上个月，我花了一整天的时间来协商账单折扣并取消不必要的订阅。这让我意识到我们通常会忽略多少烦人的小任务，比如账单、订阅、客户服务电话以及非必要的电子邮件和提醒。它们感觉不怎么样，但它们悄悄地消耗了你的精神带宽并失去了注意力。 从那时起，我尝试了几种方法。以下是一些真正有帮助的内容：  我使用 Monarch Money 来整合帐户和订阅、自动对费用进行分类、发送续订提醒以及生成每月现金流量报告。 我使用 Pine 处理我的 ISP 事务，协商帐单并整理我的帐单，这样我就不必花几个小时在电话上。 Super human 帮助我不被电子邮件淹没，这样我就能真正完成工作。  解决所有这些小事情实际上释放了我大量的时间。对于珍惜时间的人来说，从长远来看，自动化生活管理比追求生产力小技巧更具影响力。我仍在探索其他方法，很想听听哪种方法适合您。   由   提交 /u/allcompanymobiles   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rwsv34/automating_life_admin_has_improved_my/</guid>
+      <pubDate>Wed, 18 Mar 2026 03:29:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>我一直在拍摄我从未读过的东西，所以我开发了一个应用程序来为我阅读它们</title>
+      <link>https://www.reddit.com/r/automation/comments/1rwstks/i_keep_photographing_things_i_never_read_so_i/</link>
+      <description><![CDATA[还有人有 500 张他们永远不会再看的白板、收据和笔记照片吗？ 我构建了一个简单的应用程序 - 你拍一张照片，它扫描文本，AI 在几秒钟内总结关键点。 就是这样。没有注册。没有云存储。只需扫描并阅读即可。 它的名称为 InsightScan，在 Apple App Store 中免费。 很想听听您的想法！   由   提交/u/WeddingWest6062  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1rwstks/i_keep_photographing_things_i_never_read_so_i/</guid>
+      <pubDate>Wed, 18 Mar 2026 03:27:41 GMT</pubDate>
+    </item>
     <item>
       <title>人工智能驱动的分析正在改变我们理解工作角色的方式</title>
       <link>https://www.reddit.com/r/automation/comments/1rwph4r/aipowered_analysis_is_changing_how_we_understand/</link>
@@ -41,13 +55,6 @@
       <pubDate>Tue, 17 Mar 2026 20:59:05 GMT</pubDate>
     </item>
     <item>
-      <title>SuperML 基准测试：我们的 ML 编码插件如何使 Claude Code 在复杂的 ML 任务上提升 60%</title>
-      <link>https://www.reddit.com/r/automation/comments/1rwgiwk/benchmarking_superml_how_our_ml_coding_plugin/</link>
-      <description><![CDATA[      大家好，上周我分享了 SuperML （一个用于代理记忆和专家 ML 知识的 MCP 插件）。一些社区成员要求提供其背后的测试套件，因此这里深入探讨了 38 个评估任务，其中插件的亮点以及目前失败的地方。 评估设置 我们在 38 个 ML 任务中单独测试了 Cursor / Claude Code 与 Cursor / Claude Code + SuperML。 SuperML 将平均成功率从 55% 提高到 88%（总体获胜率为 91%）。详细内容如下： 1.微调（平均提高 39%） 评估的任务：多模式 QLoRA、DPO/GRPO 对齐、分布式和分布式持续预训练、视觉/嵌入微调、知识蒸馏和合成数据管道。 2.推理与推理服务（平均提高 45%） 评估的任务：推测解码、FSDP 与 DeepSpeed 配置、p99 延迟调整、KV 缓存/PagedAttn 和量化对比。 3.诊断与诊断验证（平均提高 42%） 评估的任务：启动前配置审核、训练后迭代、MoE 专家崩溃诊断、多 GPU OOM 错误和丢失尖峰诊断。 4. RAG/检索（平均提高 47%）评估的任务：多模式 RAG、RAG 质量评估和代理 RAG。 5.代理任务（平均提高 20%） 评估的任务：专家代理委派、管道审计、数据分析代理和多代理路由。 6.负面控制（-2% 平均变化）评估的任务：标准 REST API (FastAPI)、基本算法（Trie 自动完成）、CI/CD 管道和一般 SWE 任务，以确保 ML 上下文不会破坏通才工作流程。   由   提交 /u/alirezamsh   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rwgiwk/benchmarking_superml_how_our_ml_coding_plugin/</guid>
-      <pubDate>Tue, 17 Mar 2026 19:22:58 GMT</pubDate>
-    </item>
-    <item>
       <title>您是否在自动化工作流程之前先绘制工作流程</title>
       <link>https://www.reddit.com/r/automation/comments/1rwelvc/do_you_map_workflows_before_automating_them/</link>
       <description><![CDATA[我过去常常直接跳到构建自动化。 但最近我开始先一步一步地编写流程。 它实际上使自动化的构建变得更加容易。 您通常在接触工具之前映射工作流程吗？   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
@@ -74,13 +81,6 @@
       <description><![CDATA[这里是向创始人和销售团队提出的真正问题。 有大量工具承诺“自动化 LinkedIn 外展”，但我测试过的大部分工具都属于以下类别之一： • 标记您的帐户 • 发送损害您品牌的一般垃圾邮件 • 需要大量手动工作，以至于这几乎不是自动化 所以我很好奇现在到底是什么在起作用。 不寻找炒作或附属链接 - 只是人们正在使用的真正推动发展的工具。 对以下解决方案特别感兴趣： 潜在客户发现 无需手动滚动 LinkedIn 几个小时即可找到合适的人。 参与工作流程 诸如监控帖子并帮助您一致地发表评论或互动之类的事情，而不会看起来像机器人。 （我见过 Liseller 用于此目的，因为它会监视您的 Feed 并起草您可以查看的上下文评论。） 信号跟踪 工作变更、关键字提及、意图信号等。 列表构建 导出带有经过验证的电子邮件的联系人或丰富潜在客户列表。 任何真正能带来会议的内容 不仅仅是印象等虚荣指标。 如果满足以下条件，即可获得奖励积分： • 不会面临帐户限制的风险 • 每周节省时间 • 适用于 B2B 外展，而不是大规模垃圾邮件活动 很好奇这里的人发现了什么。 现在什么对您有用 - 以及什么结果完全是浪费金钱？   由   提交/u/ricklopor  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rw9acb/what_linkedin_automation_are_you_actually_using/</guid>
       <pubDate>Tue, 17 Mar 2026 15:12:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>最适合营销团队的人工智能创意平台？我们在评估五个选项后学到了什么。</title>
-      <link>https://www.reddit.com/r/automation/comments/1rw82ss/best_ai_creative_platform_for_marketing_teams/</link>
-      <description><![CDATA[经营一家拥有十人团队的创意机构，以及来自客户要求将人工智能纳入我们工作流程的压力，已经从“拥有就好”变成了“拥有”。到“你为什么不这样做。”我们花了大约六周的时间评估不同的平台，以找到适合团队而不仅仅是个人创作者的平台。 我们学到的最重要的一点是，个人人工智能工具对于自由职业者来说非常有用，但对于团队来说却很糟糕。让一个人在途中，另一个人在跑道上，另一个人在克林上，然后试图将所有事情整合成一个连贯的可交付成果，这简直是一场噩梦。仅版本控制就几乎让我们崩溃了。 在测试了五个平台之后，对于团队设置来说真正重要的是： 同一个屋檐下的模型多样性，以便每个人都可以访问相同的工具，而不是引入来自不同平台的输出 协作功能，因此工作不会存在于其他团队成员无法访问的个人帐户中 所有生成的资产之间保持一致的许可，因此法务人员不必单独评估每个模型 权限管理，因此实习生不会在实验中消耗额外的积分 输出一致性，因此不同团队成员的可交付成果看起来像是来自同一个项目 我们考虑的替代方案是具有团队功能的canva、用于现有生态系统集成的adobe、用于纯生成质量的leonardo 和用于创意工作流程的krea。每个都有优势，但没有一个提供我们需要的模型多样性、协作以及许可组合。我们最终选择了 freepik 作为我们的主要平台，因为它检查了大部分方框，超过 36 个图像模型，超过 11 个视频模型，编辑工具，以及一个名为“spaces”的协作工作区，让团队可以在共享画布上工作。企业层处理权限和许可部分，使采购保持愉快。 并不是说它是完美的，但对于代理工作流程来说，特别是一体化方法使我们免于订阅混乱。   由   提交 /u/AccomplishedBath7705   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rw82ss/best_ai_creative_platform_for_marketing_teams/</guid>
-      <pubDate>Tue, 17 Mar 2026 14:28:17 GMT</pubDate>
     </item>
     <item>
       <title>到 2026 年，机器人流程自动化平台仍然是遗留软件集成的最佳选择吗？</title>
