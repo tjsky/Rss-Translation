@@ -4,13 +4,34 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 19 Mar 2026 15:50:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 18:52:34 GMT</lastBuildDate>
     <item>
-      <title>auto-api-observe，用于 Express/Fastify 的零配置可观察性中间件（结构化日志、一行分布式跟踪）</title>
-      <link>https://www.reddit.com/r/programming/comments/1ry42i3/autoapiobserve_zeroconfig_observability/</link>
-      <description><![CDATA[ 由   提交/u/rahhuul3110  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ry42i3/autoapiobserve_zeroconfig_observability/</guid>
-      <pubDate>Thu, 19 Mar 2026 15:48:52 GMT</pubDate>
+      <title>印度的 Meta x Hugging Face x PyTorch 黑客马拉松——值得参加吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1ry91lj/meta_x_hugging_face_x_pytorch_hackathon_in_india/</link>
+      <description><![CDATA[大家好， 我的大学正在与 Meta、Hugging Face 和 PyTorch 合作举办一场专注于强化学习（OpenEnv 框架）的 AI 黑客马拉松。 我是组织团队的一员，所以在这里分享这一点 - 但也真的很好奇人们是否认为这值得参与。 一些细节：  团队规模：1-3 人 在线轮：3 月 28 日 - 4 月 5 日 决赛：班加罗尔 48 小时黑客马拉松 不需要 RL 经验（他们提供资源）  他们说顶级团队可能会获得面试机会 + 有奖池，但我对学习/网络方面更好奇。 你会加入这样的活动吗？或者感觉就像又一场黑客马拉松？   由   提交/u/Realistic-Reaction40  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ry91lj/meta_x_hugging_face_x_pytorch_hackathon_in_india/</guid>
+      <pubDate>Thu, 19 Mar 2026 18:50:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>[操作方法] Spring Boot 3 + ECS Fargate + Amazon Managed Grafana - 2026</title>
+      <link>https://www.reddit.com/r/programming/comments/1ry86py/howto_spring_boot_3_ecs_fargate_amazon_managed/</link>
+      <description><![CDATA[ 由   提交/u/aarkay89  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ry86py/howto_spring_boot_3_ecs_fargate_amazon_managed/</guid>
+      <pubDate>Thu, 19 Mar 2026 18:18:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>检测软件系统中的缺陷</title>
+      <link>https://www.reddit.com/r/programming/comments/1ry7x5c/detecting_defects_in_software_systems/</link>
+      <description><![CDATA[ 由   提交 /u/Fuckyescamels   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ry7x5c/detecting_defects_in_software_systems/</guid>
+      <pubDate>Thu, 19 Mar 2026 18:09:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>链表和二叉搜索树的简要介绍</title>
+      <link>https://www.reddit.com/r/programming/comments/1ry4zv0/a_brisk_introduction_to_linked_lists_and_binary/</link>
+      <description><![CDATA[ 由   提交/u/bowbahdoe  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ry4zv0/a_brisk_introduction_to_linked_lists_and_binary/</guid>
+      <pubDate>Thu, 19 Mar 2026 16:23:26 GMT</pubDate>
     </item>
     <item>
       <title>运营分散</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[我最近花了一个下午的时间了解到 JavaScript 对“日期”有一个非常慷慨的定义。 new Date(“2020-01-23”) // Wed Jan 22 2020 19:00:00 GMT-0500  有道理。 ISO 格式，UTC 午夜，因此在西半球显示为 1 月 22 日。 new Date(&quot;Today is 2020-01-23&quot;) // Thu Jan 23 2020 00:00:00 GMT-0500  好的，它从句子中提取了日期，这在某些情况下可能会有所帮助。有趣的是，时间发生了变化，这有点奇怪。 new Date(&quot;Route 66&quot;) // Sat Jan 01 1966 00:00:00 GMT-0500  它认为“Route 66”是指的是1966年吗？这绝对是一个延伸。 new Date(&quot;Beverly Hills, 90210&quot;) // Mon Jan 01 90210 00:00:00 GMT-0500  90,210 年？你在开玩笑吗？！ 事实证明，最流行的 JavaScript 引擎都有遗留的解析器，它们真的非常想帮助您解析日期。 我们的应用程序中有一个错误，地址和公司名称显示为日期。原因是我们使用 Date 构造函数作为后备解析器来捕获意外的格式。修复很简单，但是当我们第一次看到它时，这个错误让我们笑了。我们学会了不要将 Date 构造函数视为验证器。 解释解析逻辑的完整博客文章：https://futuresearch.ai/blog/javascript-thinks-everythings-a-date/   由   提交/u/robertgambee  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rx4lb3/javascripts_date_parser_is_out_of_control_and/</guid>
       <pubDate>Wed, 18 Mar 2026 13:56:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>调试器的工作原理 • Sy 品牌</title>
-      <link>https://www.reddit.com/r/programming/comments/1rx3fc7/how_debuggers_work_sy_brand/</link>
-      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rx3fc7/how_debuggers_work_sy_brand/</guid>
-      <pubDate>Wed, 18 Mar 2026 13:08:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>忘记标志和脚本：只需重命名文件</title>
-      <link>https://www.reddit.com/r/programming/comments/1rx24k0/forget_flags_and_scripts_just_rename_the_file/</link>
-      <description><![CDATA[ 由   提交 /u/Insert_Bitcoin   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rx24k0/forget_flags_and_scripts_just_rename_the_file/</guid>
-      <pubDate>Wed, 18 Mar 2026 12:09:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>从 RDS 到 Data Lake：在不损失查询能力的情况下归档海量 MySQL 表</title>
-      <link>https://www.reddit.com/r/programming/comments/1rwy12a/from_rds_to_data_lake_archiving_massive_mysql/</link>
-      <description><![CDATA[ 由   提交 /u/fR0DDY   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rwy12a/from_rds_to_data_lake_archiving_massive_mysql/</guid>
-      <pubDate>Wed, 18 Mar 2026 08:19:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
