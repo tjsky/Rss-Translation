@@ -4,20 +4,20 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Thu, 19 Mar 2026 04:51:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 06:52:34 GMT</lastBuildDate>
+    <item>
+      <title>最佳人工智能星球大战粉丝电影 - 迪士尼有麻烦了！</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rxt1m9/the_best_ai_star_wars_fan_film_disney_is_in/</link>
+      <description><![CDATA[ 由   提交/u/Putrid_Draft378  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rxt1m9/the_best_ai_star_wars_fan_film_disney_is_in/</guid>
+      <pubDate>Thu, 19 Mar 2026 06:36:04 GMT</pubDate>
+    </item>
     <item>
       <title>每日一分钟人工智能新闻 3/18/2026</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rxr6gx/oneminute_daily_ai_news_3182026/</link>
       <description><![CDATA[ Meta 遇到了流氓 AI 代理的麻烦。[1] 生成式 AI 改进了能够穿透障碍物的无线视觉系统。[2] AI 公司希望获得即兴演员的技能，以训练 AI 识别人类情感。[3] Unsloth AI 发布 Unsloth Studio：本地无代码界面用于高性能 LLM 微调，VRAM 使用量减少 70%。[4]  来源包含在：https://bushaicave.com/2026/03/18/one-million-daily-ai-news-3-18-2026/   由   提交 /u/Excellent-Target-847   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rxr6gx/oneminute_daily_ai_news_3182026/</guid>
       <pubDate>Thu, 19 Mar 2026 04:49:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>我要求 Frontier AI 模型解决一个简单的编程问题。他们都失败了。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rxq6m3/i_asked_frontier_ai_models_to_solve_a_simple/</link>
-      <description><![CDATA[ 由   提交 /u/pelicanthief   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rxq6m3/i_asked_frontier_ai_models_to_solve_a_simple/</guid>
-      <pubDate>Thu, 19 Mar 2026 03:58:27 GMT</pubDate>
     </item>
     <item>
       <title>新的开源版本</title>
@@ -46,6 +46,13 @@
       <description><![CDATA[ 如果您跨多个平台工作... 您如何管理它？ 手动完成所有操作？ 使用某种系统？ 或者部分自动化？ 感觉事情很快就会变得混乱。   由   提交/u/FineCranberry304  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rxh8le/how_are_you_handling_multisocial_media_platform/</guid>
       <pubDate>Wed, 18 Mar 2026 21:40:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>我买了 200 美元的 Claude Code，所以你不必这么做！</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rxgy6u/i_bought_200_claude_code_so_you_dont_have_to/</link>
+      <description><![CDATA[我开源了我构建的内容： 免费工具：https://grape-root.vercel.app Github 存储库：https://github.com/kunal12203/Codex-CLI-Compact 加入 Discord（调试/反馈） 过去几个月我一直在大量使用 Claude Code，并且一直比预期更快地达到使用限制。 起初我想：“好吧，也许我的提示是太大” 但后来我开始深入研究令牌的使用。 我注意到的 即使是简单的问题，例如：“为什么身份验证流程取决于此文件？” Claude 会：  grep 跨存储库 打开多个文件 遵循依赖关系 接下来再次重新读取相同的文件转  单个流程花费~20k–30k 代币。 最糟糕的部分：每次后续操作 → 它都会再次执行相同的操作。 我尝试使用 claude.md 花了一整天的调整说明来修复它。 它有帮助......但是：  仍然重新读取很多 不可跨项目重用 切换存储库时重置  所以它没有解决根本问题。 实际问题： 大多数令牌使用都不是推理。这是上下文重建。Claude 每次都会重新发现相同的代码。 因此我构建了一个免费使用的 MCP 工具 GrapeRoot 基本上是您的存储库和 Claude 之间的一层。 它不是让 Claude 每次都进行探索，而是：  构建代码图表（函数、导入、关系） 跟踪已读取的内容 仅将相关文件预加载到提示中 避免再次重新读取相同的内容  结果（我的基准） 比较：  正常的 Claude 基于 MCP/工具的图表（我的早期版本） 预注入上下文（当前）  我所看到的：  平均便宜约 45% 在复杂任务上减少高达 80-85% 的代币 更少的回合（更少的来回搜索） 对更困难的问题有更好的答案  有趣部分 我期望节省成本。 但是，从正确的上下文开始实际上可以提高答案质量。 更少的搜索→更多的推理。 很好奇其他人是否也看到了这一点：  比预期更快地达到限制？ 会话感觉像是在不断重新启动？ 对重复的回购扫描感到恼火？  很想听听其他人是如何处理这个问题的。   由   提交/u/intellinker  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rxgy6u/i_bought_200_claude_code_so_you_dont_have_to/</guid>
+      <pubDate>Wed, 18 Mar 2026 21:28:54 GMT</pubDate>
     </item>
     <item>
       <title>新闻文章：公司表示“开放”人工智能模型的风险是值得的</title>
@@ -81,13 +88,6 @@
       <description><![CDATA[英国政府在版权和人工智能问题上的立场发生了转变，称必须需要时间才能“把这件事做好”。 其最初的立场——允许人工智能公司使用受版权保护的作品来训练他们的模型，并有选择退出的选项——遭到了埃尔顿·约翰爵士和杜阿·利帕等人的强烈反对。 然而，政府的立场目前尚不清楚，称其“不再有首选选项”下一步该做什么。 去年，一些最知名的英国艺术家以及上议院的同行希望对政府的数据（使用和访问）法案进行修正案。它将迫使科技公司在训练人工智能工具时声明其使用版权材料。 但是，政府拒绝了这项修正案，并且广泛的法案获得了通过。   由   提交 /u/feellurky   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rx9a03/uk_government_backtracks_on_ai_and_copyright/</guid>
       <pubDate>Wed, 18 Mar 2026 16:52:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么自动驾驶人工智能如此困难</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1rx8mfi/why_selfdriving_ai_is_so_hard/</link>
-      <description><![CDATA[大多数人工智能系统在一切正常时都不会失败；他们在罕见的、不可预测的情况下失败。 在我最近的播客谈话中，有一个想法一直困扰着我：为现实世界构建人工智能并不是让模型变得更智能，而是让系统在出现问题时变得可靠。 有趣的是，大量的工程工作都花在处理边缘情况上，这些情况很少发生，但当它们发生时却是最重要的。它完全改变了你对人工智能的看法。这不仅仅是一个模型问题；这是一个系统问题。 好奇这里的其他人如何看待这个问题： 我们是否过于关注模型性能而对现实世界的可靠性关注不够？   由   提交 /u/vitlyoshin   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1rx8mfi/why_selfdriving_ai_is_so_hard/</guid>
-      <pubDate>Wed, 18 Mar 2026 16:28:47 GMT</pubDate>
     </item>
     <item>
       <title>这是假数据吗？我找不到源研究</title>
