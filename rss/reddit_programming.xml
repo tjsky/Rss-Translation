@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 20 Mar 2026 06:49:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 09:36:34 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI 正在构建桌面“超级应用”来取代所有这些</title>
+      <link>https://www.reddit.com/r/programming/comments/1ryr63v/openai_is_building_desktop_superapp_to_replace/</link>
+      <description><![CDATA[ 由   提交/u/Secure-Address4385   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ryr63v/openai_is_building_desktop_superapp_to_replace/</guid>
+      <pubDate>Fri, 20 Mar 2026 08:57:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于时间的加密算法，密钥每秒都会变化 - 现场尝试</title>
+      <link>https://www.reddit.com/r/programming/comments/1ryr2vr/timebased_encryption_algorithm_where_the_key/</link>
+      <description><![CDATA[我一直在研究与传统加密系统不同的东西。该算法使用 TIME 本身作为密钥，而不是静态密钥。它被称为 Kaalka 加密 (v5.0.0)，它使用时钟角度、三角变换和时间戳生成加密 - 因此每一秒都会产生完全不同的加密输出。一些有趣的属性： 相同的输入在不同时间加密 → 完全不同的输出 重放保护 + 时间窗口验证 可跨 Python、JS、Java、Kotlin、Dart 支持文本、文件和分块加密 无外部加密原语 — 完全自定义系统 我还构建了一个现场演示，以便您可以立即尝试：https://piyush-mishra-00.github.io/Kaalka-Encryption-Algorithm/ 试试这个：输入一条消息 加密它 更改时间 再次加密 您会看到输出发生了多么巨大的变化。 GitHub：https://github.com/PIYUSH-MISHRA-00/Kaalka-Encryption-Algorithm 希望获得反馈——尤其是来自密码学、安全性或分布式系统的人们的反馈。基于时间的加密对于现实系统来说是一个可行的方向吗？   由   提交/u/Concient-Ruin1868   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ryr2vr/timebased_encryption_algorithm_where_the_key/</guid>
+      <pubDate>Fri, 20 Mar 2026 08:52:14 GMT</pubDate>
+    </item>
     <item>
       <title>学习 css 基础知识 #css #html #javascript #colors #design</title>
       <link>https://www.reddit.com/r/programming/comments/1ryo90k/learn_the_basics_of_css_css_html_javascript/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交/u/fagnerbrack  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ry9pvl/using_a_fault_tolerant_trie_for_address_matching/</guid>
       <pubDate>Thu, 19 Mar 2026 19:23:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>[操作方法] Spring Boot 3 + ECS Fargate + Amazon Managed Grafana - 2026</title>
-      <link>https://www.reddit.com/r/programming/comments/1ry86py/howto_spring_boot_3_ecs_fargate_amazon_managed/</link>
-      <description><![CDATA[ 由   提交/u/aarkay89  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ry86py/howto_spring_boot_3_ecs_fargate_amazon_managed/</guid>
-      <pubDate>Thu, 19 Mar 2026 18:18:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>检测软件系统中的缺陷</title>
-      <link>https://www.reddit.com/r/programming/comments/1ry7x5c/detecting_defects_in_software_systems/</link>
-      <description><![CDATA[ 由   提交 /u/Fuckyescamels   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ry7x5c/detecting_defects_in_software_systems/</guid>
-      <pubDate>Thu, 19 Mar 2026 18:09:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
