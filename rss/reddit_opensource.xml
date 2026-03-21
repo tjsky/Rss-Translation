@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 20 Mar 2026 21:28:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 01:30:27 GMT</lastBuildDate>
+    <item>
+      <title>为废弃软件设计基于时间的生命周期：对开源和保存的影响</title>
+      <link>https://www.reddit.com/r/opensource/comments/1rz8vd2/designing_a_timebased_lifecycle_for_abandoned/</link>
+      <description><![CDATA[废弃软件是开源生态系统中反复出现的挑战。通常，项目不再得到积极维护，但它们的代码和知识仍然有价值。社区可能希望继续支持、修补或调整这些项目，但法律限制会阻止这种情况发生，除非原始许可证或所有权允许。 这提出了一个软件工程和社区设计问题：我们如何在尊重原始所有权的同时安全地实现延续和保留？ 概念：旧版发布许可证 (LRL) 旧版发布许可证是一个概念性的、基于时间的许可证模型旨在解决软件的生命周期问题： 第一阶段 - 主动/独占控制  主动开发期间的专有或标准开源控制 在允许的贡献之外不得进行任何外部修改  第二阶段 - 遗留版本  在放弃或长期不活动后触发 社区可以维护、修补、分叉或移植软件非商业 原始商标仍然受到保护  第三阶段 - 传统版本  长期发布供公众使用 完整源代码访问 允许商业、教育和保存用途  开源和开源社区考虑因素  保护：由于法律或基础设施障碍，废弃的项目常常从公众视野中消失。 社区连续性：LRL 允许活跃社区保持功能和兼容性，同时避免法律不确定性。 阶段执行：阶段转换是基于时间且不可逆转的，平衡保护与最终结果开放性。 归因和开放性。尊重：社区版本需要明确的归属和对商标的尊重。  讨论点 我很好奇开源开发人员的反馈：  基于时间的许可证转换在现实世界的 OSS 生态系统中是否实用？ 这种方法会与包管理器、CI/CD 或贡献工作流程产生任何冲突吗？ 此模型是否可以改进长期保存而不破坏有效许可？  TL;DR: 废弃的软件通常在技术上死亡之前就在法律上“死亡”。像 LRL 这样的基于时间的许可模型可以允许社区维护和最终公开发布，支持长期保存，同时尊重主动所有权。     由   提交 /u/Low_Poetry_5073   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1rz8vd2/designing_a_timebased_lifecycle_for_abandoned/</guid>
+      <pubDate>Fri, 20 Mar 2026 21:28:50 GMT</pubDate>
+    </item>
     <item>
       <title>ENIGMAK，一种开源定制转子密码，10^98 密钥空间，作为单个 HTML 文件运行</title>
       <link>https://www.reddit.com/r/opensource/comments/1rz7ar4/enigmak_an_open_source_custom_rotor_cipher_1098/</link>
@@ -92,7 +99,7 @@
     <item>
       <title>一个小型 CLI，用于强制执行 TODO / FIXME 注释的最后期限 (MPL-2)</title>
       <link>https://www.reddit.com/r/opensource/comments/1rxgi8v/a_small_cli_for_enforcing_deadlines_on_todo_fixme/</link>
-      <description><![CDATA[我用 Go 编写了一个 CLI，用于对代码 TODO 注释执行截止日期/过时检查。它可在 Linux 和 MacOS 上使用。 我发现 TODO 的问题是没有机制强制您清理它们。这样，当 TODO 过期时，您可以让 CI 流程或定期检查失败。 这主要是为了更好地掌握 Go 并学习解析器的练习。它使用完整的 Tree Sitter 解析器（无正则表达式），并且我使用 PEG 语法来解析我的“迷你语言”。 （AI 的唯一用途是项目徽标，因为我不擅长艺术）   由   提交/u/yojimbo_beta   [link] [评论]]]></description>
+      <description><![CDATA[我用 Go 编写了一个 CLI，用于对代码 TODO 注释执行截止日期/过时检查。它可在 Linux 和 MacOS 上使用。 我发现 TODO 的问题是没有机制强制您清理它们。这样，当 TODO 过期时，您可以让 CI 流程或定期检查失败。 这主要是为了更好地掌握 Go 并学习解析器的练习。它使用完整的 Tree Sitter 解析器（无正则表达式），并且我使用 PEG 语法来解析我的“迷你语言”。 （AI 的唯一用途是项目徽标，因为我不擅长艺术）   由   提交/u/yojimbo_beta   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rxgi8v/a_small_cli_for_enforcing_deadlines_on_todo_fixme/</guid>
       <pubDate>Wed, 18 Mar 2026 21:12:08 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[       由   提交 /u/cookiengineer   [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1rwvb04/writeup_using_ld_preload_to_modify_a_programs/</guid>
       <pubDate>Wed, 18 Mar 2026 05:33:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于 WASM 的视频处理的开源工具？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1rwn4mc/opensource_tools_for_wasmbased_video_processing/</link>
-      <description><![CDATA[​ 研究 WASM 在 SPORTSFLUX 中的客户端处理。 对支持以下功能的工具/库感兴趣： • 流验证 • 解压缩 除了 FFmpeg.wasm，还有什么值得检查的出？...... https://sportsflux.live/   由   提交/u/aria-57  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1rwn4mc/opensource_tools_for_wasmbased_video_processing/</guid>
-      <pubDate>Tue, 17 Mar 2026 23:23:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
