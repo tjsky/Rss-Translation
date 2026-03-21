@@ -4,21 +4,7 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 21 Mar 2026 06:38:22 GMT</lastBuildDate>
-    <item>
-      <title>我们构建了一个 AI IDE，其中所有编排都位于服务器端（瘦客户端），这是架构权衡</title>
-      <link>https://www.reddit.com/r/programming/comments/1rzkgno/we_built_an_ai_ide_where_all_orchestration_lives/</link>
-      <description><![CDATA[我们采用了 Resonant IDE（一种开源 VS Code 分支）的服务器端编排方法。 IDE 扩展本身是一个瘦客户端，负责渲染 UI、运行 59 个本地工具并通过 SSE 传输数据。  所有繁重的系统提示、工具选择、代理循环以及 LLM（如 Groq、OpenAI、Anthropic、Gemini 和本地 Ollama）之间的路由都发生在服务器上。该平台由 30 多个微服务组成，包含预执行策略执行，并为每个用户提供以太坊 L2 上的加密身份 (DSID)。有趣的是，整个平台是由 AI 在单个人类架构师的指导下编写的。 查看 https://dev-swat.com/ 上的访客聊天以及 https://github.com/DevSwat-ResonantGenesis 上的源代码。  我们很想听听您对这种瘦客户端开发工具方法的想法。将编排逻辑移至服务器是否可以为 AI 集成开发提供适当的平衡？   由   提交 /u/ResonantGenesis   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rzkgno/we_built_an_ai_ide_where_all_orchestration_lives/</guid>
-      <pubDate>Sat, 21 Mar 2026 06:35:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>大型语言模型是如何构建的以及它们是如何工作的</title>
-      <link>https://www.reddit.com/r/programming/comments/1rzjf1r/how_large_language_models_are_built_and_how_they/</link>
-      <description><![CDATA[每个人都在使用法学硕士。很少有人真正了解幕后发生的事情。 如果您是一名将 GPT-5 集成到产品中的工程师、一名确定 AI 功能范围的 PM，或者是一名试图在微调和提示之间做出决定的创始人，那么您需要的不仅仅是表面的直觉。您需要了解使这些模型发挥作用的机制。 本文就是该演练。我们将追踪大型语言模型的整个生命周期：从原始互联网文本到可以写诗、调试代码和（偶尔）以惊人的信心产生幻觉的系统。 不需要博士学位。只是好奇心和对大数字的容忍度。   由   提交 /u/Frosty-Judgment-4847   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rzjf1r/how_large_language_models_are_built_and_how_they/</guid>
-      <pubDate>Sat, 21 Mar 2026 05:34:32 GMT</pubDate>
-    </item>
+    <lastBuildDate>Sat, 21 Mar 2026 09:28:02 GMT</lastBuildDate>
     <item>
       <title>第 1 章重装上阵：双核轻任务 - 两个核心上的 LED 闪烁</title>
       <link>https://www.reddit.com/r/programming/comments/1rzj4hl/chapter_1_reloaded_dualcore_light_tasking/</link>
@@ -29,7 +15,7 @@
     <item>
       <title>Trivy 再次受到攻击：广泛的 GitHub Actions 标签泄露暴露了 CI/CD 秘密</title>
       <link>https://www.reddit.com/r/programming/comments/1rzivdh/trivy_under_attack_again_widespread_github/</link>
-      <description><![CDATA[ 由   提交 /u/ScottContini   [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交 /u/ScottContini   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rzivdh/trivy_under_attack_again_widespread_github/</guid>
       <pubDate>Sat, 21 Mar 2026 05:03:39 GMT</pubDate>
     </item>
@@ -109,6 +95,20 @@
       <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rz2o5t/introducing_dial9_a_flight_recorder_for_tokio/</guid>
       <pubDate>Fri, 20 Mar 2026 17:30:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>位域陷阱</title>
+      <link>https://www.reddit.com/r/programming/comments/1rz2kyq/bitfield_pitfalls/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rz2kyq/bitfield_pitfalls/</guid>
+      <pubDate>Fri, 20 Mar 2026 17:27:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>无尾德诺</title>
+      <link>https://www.reddit.com/r/programming/comments/1rz2kv4/the_tailless_deno/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rz2kv4/the_tailless_deno/</guid>
+      <pubDate>Fri, 20 Mar 2026 17:27:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
