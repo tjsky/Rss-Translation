@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 21 Mar 2026 12:40:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 15:23:09 GMT</lastBuildDate>
     <item>
-      <title>[Showoff Saturday] 使用普通 HTML/CSS/JS 构建 webaudits.dev - 网站、SEO 和 AI 可见性审核，寻求反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzqfh1/showoff_saturday_built_webauditsdev_in_vanilla/</link>
-      <description><![CDATA[      我们已经为此工作了一段时间，并最终在大约两周前推出：webaudits.dev 这是一项手动审核服务 - 网站、技术、SEO 和 AI 可见性审核（最后一个映射了网站是否以及如何显示在ChatGPT、Perplexity、Claude、Google AI 概述）。 完全用普通 HTML/CSS/JS 构建，没有框架，想要完全控制性能和加载时间，在销售审核时网站速度缓慢感觉不对。 寻求以下方面的反馈：  是否清楚该服务的用途和用途？ 感觉缺少什么 - 您希望看到的任何内容不是吗？ 关于添加或更改内容的任何建议吗？  这也是房间里的一个真正问题： 考虑构建一个人工智能驱动的审计页面，其中审计本身由人工智能执行，而不是手动执行。犹豫的是，已经有大量的工具可以做到这一点。它是否值得花时间建造，或者它只是在过度拥挤的空间中变得噪音？好奇人们的真实想法。   由   提交/u/AlexIrvin   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzqfh1/showoff_saturday_built_webauditsdev_in_vanilla/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:39:08 GMT</pubDate>
+      <title>内置 Genpin - Pinterest Pin 生成器的 URL</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzu1cv/built_genpin_url_to_pinterest_pin_generator/</link>
+      <description><![CDATA[      我构建了 genpin - Pinterest Pin 生成器的 URL 来解决我自己的问题，这对其他博主和内容创建者也很有帮助（至少我认为）。我很想得到一些反馈。    由   提交/u/dipak28  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzu1cv/built_genpin_url_to_pinterest_pin_generator/</guid>
+      <pubDate>Sat, 21 Mar 2026 15:17:20 GMT</pubDate>
     </item>
     <item>
-      <title>Showoff Saturday：agentmarkup - 使您的 Vite/Astro 站点在构建时可供机器读取</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzqer2/showoff_saturday_agentmarkup_makes_your_viteastro/</link>
-      <description><![CDATA[我构建了agentmarkup，因为小站点的机器可读部分不断单独漂移。 JSON-LD 存在于模板中，robots.txt 是手工编辑的，llms.txt 不存在，并且没有任何内容验证其是否正确。 它最初是作为结构化数据生成器，但最终最重要的两个功能是我没有计划的：  Markdown 页面镜像 - 对于构建输出中的每个 HTML 页面，它都会生成一个干净的.md 版本，删除了布局镶边、脚本和导航。与 Cloudflare 的 Markdown for Agents 的想法相同，但在构建时并且免费。它还注入 ，以便代理可以从 HTML 中发现 Markdown URL。 重复 JSON-LD 检测 - 如果您的页面已经有手写或 CMS 注入的 JSON-LD，则插件会检测现有的 u/type 值并跳过注入重复项。不再有来自冲突工具的双重 WebSite 架构。  它还会生成 Content-Signal 标头，对客户端渲染的 shell 发出很少可索引 HTML 的警告，并在构建时验证架构，覆盖 13 个 schema.org 类型。 其余功能集：带有 6 个构建器预设的 JSON-LD 注入（网站、组织、文章、常见问题解答、产品、报价）， llms.txt 和 llms-full.txt 生成、robots.txt AI 爬虫管理以及自定义 u/type 架构。默认情况下，所有内容都会保留现有的手写文件，而不是覆盖它们。 在我自己的网站上，验证捕获了没有 offers 的 Product 架构和没有 logo 的 Organization，这两个文件都已交付生产几个月了。没有排名声明，没有编造分数。 仓库：https://github.com/agentmarkup/agentmarkup 如果您维护内容较多的网站或营销网站，您目前如何处理机器可读层？手写 JSON-LD、CMS 插件，还是什么都没有？   由   提交 /u/cochinescu   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzqer2/showoff_saturday_agentmarkup_makes_your_viteastro/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:38:08 GMT</pubDate>
+      <title>我为 Java 构建了一个实用的空安全解决方案</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rztz01/i_built_a_practical_nullsafety_solution_for_java/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rztz01/i_built_a_practical_nullsafety_solution_for_java/</guid>
+      <pubDate>Sat, 21 Mar 2026 15:14:40 GMT</pubDate>
     </item>
     <item>
-      <title>星期六炫耀：感谢 webdev — Twitter Web Viewer 的用户数量已超过 26,000 人。喜欢对另一个个人项目的 UI/UX 的反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzq83i/showoff_saturday_thanks_webdev_twitter_web_viewer/</link>
-      <description><![CDATA[      首先，感谢这个社区的支持。我的一个个人项目 Twitter Web Viewer 现已拥有超过 2.6 万用户，我非常感谢这里所有帮助我改进它的反馈和讨论。 最近我一直在从事另一个个人项目： AI 漫画翻译器 这个想法是帮助喜欢阅读漫画的人理解更轻松地跨语言页面。从产品/技术角度来看，我正在探索的工作流程大致如下：  检测：识别复杂漫画布局中的文本区域。 多模式 OCR：在保留视觉元数据的同时提取文本。 上下文感知翻译：使用多模式流程，让法学硕士能够看到面板，提高代词分辨率和性别特定性 画布重新渲染：翻译文本的动态叠加，以在不破坏艺术效果的情况下保持可读性。  技术堆栈： Next.js 14（应用程序路由器）、低延迟的 SSR 和 Tailwind。  现在，我主要从 UI/UX 和产品角度寻求反馈： 我非常感谢任何诚实的反馈，尤其是在以下方面：  UI 清晰度 入门 移动用户体验 必须具备的功能与不必要的复杂性  再次感谢！  https://preview.redd.it/t3gkbza46eqg1.png?width=297&amp;format=png&amp;auto=webp&amp;s=f9212a3696b2a7494e11a246fb30c5fe351b8af6   由   提交 /u/Ok_Palpitation1289   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzq83i/showoff_saturday_thanks_webdev_twitter_web_viewer/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:28:53 GMT</pubDate>
+      <title>我们构建了验证码，使用“物理测试”来告诉人工智能机器人</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rztsml/we_built_capcha_using_a_physical_test_to_tell/</link>
+      <description><![CDATA[   在人工智能机器人足够聪明，几乎可以解决人类可以解决的所有难题的世界中，验证码不再能够实现区分机器人和人类的目的。 我们构建“CAPTCHA”从一个非常不同且更有效的角度告诉人工智能机器人。  验证码谜题经过加密并传送给客户端、机器人或人类浏览器。然而，该谜题只能通过真实浏览器中存在的可信计算模块来解密，并显示在监视器中。任何程序，包括人工智能机器人，都无法破解这个谜题。这是一项“物理测试”。 - 我们不会让它变得困难，我们会让机器人无法访问；只有当你存在于物理世界中时，你才能解决这个难题。  https://preview.redd.it/rr40h6syxeqg1.png?width=1183&amp;format=png&amp;auto=webp&amp;s=6f5e3b3867f89c785d905f5205edba2e0277a62d 尝试一下：https://cybermirage.tech/    由   提交 /u/mikeVVcm   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rztsml/we_built_capcha_using_a_physical_test_to_tell/</guid>
+      <pubDate>Sat, 21 Mar 2026 15:07:20 GMT</pubDate>
     </item>
     <item>
-      <title>我厌倦了搜索自定义图标，所以我构建了一个高质量的矢量生成器！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzq7l4/i_got_tired_of_searching_for_custom_icons_so_i/</link>
-      <description><![CDATA[      大家好， 我一直在使用 Svelte 5 和 Astro 开发一个名为 PolyGlyph 的业余项目。 出于我作为开发人员的挫败感而开始。每次我需要一个快速图标、精灵或徽标标记时，我要么在免费的低于标准的资源中挖掘，要么在付费股票网站上寻找一些小东西。我想要一些输出原生 SVG 的东西，我实际上可以拥有和编辑。 现在还为时过早，第一次尝试的结果并不总是完美，但更具体的提示会让你走得更远。 希望得到网络或游戏开发领域中任何人的反馈。这在您的实际工作流程中有何用处？ polyglyph.io   由   提交/u/koalakinger  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzq7l4/i_got_tired_of_searching_for_custom_icons_so_i/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:28:10 GMT</pubDate>
+      <title>我制作了一个多人快速游戏合集</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzts6y/i_made_a_collection_of_multiplayer_quick_games/</link>
+      <description><![CDATA[      https://nandash.com/ 处理玩家断开连接和滞后的丰富经验将不胜感激任何反馈   由   提交/u/YiPherng  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzts6y/i_made_a_collection_of_multiplayer_quick_games/</guid>
+      <pubDate>Sat, 21 Mar 2026 15:06:52 GMT</pubDate>
     </item>
     <item>
-      <title>如何使用 PATCH 和 PUT？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzq7ax/how_do_you_use_patch_and_put/</link>
-      <description><![CDATA[也许这是正确的方法，但对我来说，很明显，当我第一次了解 REST 时，我使用 PUT 进行更大的更新，例如编辑整个记录，其中包含许多可能的字段。 而我使用 PATCH 进行快速编辑，主要是切换、状态更新等，甚至可能不需要正文中的参数，或者只需要一个字段。 还有其他吗人们如何使用它们？   由   提交 /u/Mark__78L   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzq7ax/how_do_you_use_patch_and_put/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:27:46 GMT</pubDate>
+      <title>具有自定义 3D UI 和交互式代码执行功能的统一技术招聘平台</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rztpbq/a_unified_tech_hiring_platform_with_custom_3d_ui/</link>
+      <description><![CDATA[      大家好！ 在过去的几个月里，出于对当前技术招聘市场的纯粹挫败感（苦苦苦读 LeetCode 并做无休无止的无薪带回家项目只是为了迷失方向），我一直在开发一个名为 Nort 的统一测试平台。 这个概念很简单：你需要进行严格的技术、语言和文化适应性测试一次，获得经过验证的个人资料，然后将您的个人资料用于招聘人员，而不是为每个应用程序重新发明轮子。 它尚未完成，目前处于封闭 Alpha 阶段，但 UI 和核心引擎现在正处于我希望得到其他开发人员更多关注的阶段。 到目前为止，我已经构建了独立的代码执行沙箱、入职流程和性格评估引擎。  我对 UI/UX 特别满意。我真的很想避免使用“无聊的公司 Google 表单”。氛围。我添加了平滑过渡、用于评估的键盘导航（您只需使用 1-5 个键来回答）以及英雄部分的一些很酷的 3D 旋转元素。 此外，对于技术测试，我构建了一个调试环境，您可以在其中实际分析真实的堆栈跟踪和 cURL 命令，而不仅仅是反转二叉树（您可以在图库中看到 UI 的屏幕截图！）。 我目前正在努力最终确定高级架构的自动评分逻辑问题，老实说，这是迄今为止最难解决的部分。 （注意：视频/屏幕可能会显示葡萄牙语文本，因为我从第一天开始就构建多语言支持，但该平台已完全本地化为英语！）。 如果您对设计有任何想法、反馈或对整体概念的想法，请务必分享。我很想听听！ 如果您想帮助我对 Alpha 进行压力测试，并在沙盒准备好后尝试打破沙盒，我很荣幸您能加入这里的候补名单：Nort 感谢您查看它！   由   提交/u/EmotionalWishbone303  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rztpbq/a_unified_tech_hiring_platform_with_custom_3d_ui/</guid>
+      <pubDate>Sat, 21 Mar 2026 15:03:34 GMT</pubDate>
     </item>
     <item>
-      <title>[周六炫耀] 一周前我在这里发布了 ApiArk - 刚刚获得了 750+ GitHub star。这个社区让这件事发生了。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzpyx4/showoff_saturday_i_posted_apiark_here_a_week_ago/</link>
-      <description><![CDATA[   一周前的一个星期六，我在此处发布了 ApiArk - 一个使用 Tauri（Rust + React）构建的开源、隐私第一的 Postman 替代品。反应非常疯狂。 那篇文章真正改变了项目的发展轨迹。我们现在拥有 750 多个星星和 874 次下载 - 全部是有机的、零付费的促销。只是想说声谢谢。如果您错过了：无需登录，无需云，~60MB RAM。 只是想说声谢谢。如果您错过了：无需登录，没有云，~60MB RAM。 🔗 https://github.com/berbicanes/apiark 🌐 https://apiark.dev   由   提交/u/ScarImaginary9075  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzpyx4/showoff_saturday_i_posted_apiark_here_a_week_ago/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:15:38 GMT</pubDate>
+      <title>使用 React 和 PostgreSQL 构建了一个免费的 SEO 分析器 - 希望得到反馈！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzto4o/built_a_free_seo_analyzer_with_react_postgresql/</link>
+      <description><![CDATA[       由   提交/u/bankrut   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzto4o/built_a_free_seo_analyzer_with_react_postgresql/</guid>
+      <pubDate>Sat, 21 Mar 2026 15:02:13 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个 LifeGraph 应用程序，可将目标转化为互联的路线图</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzpx0a/i_built_a_lifegraph_app_that_turns_goals_into/</link>
-      <description><![CDATA[大家好！  我一直在构建LifeGraph，这是一个网络应用程序，它将目标转变为相互关联的视觉路线图，而不是平面的待办事项列表。 这个想法是，有些目标对于普通的清单来说太混乱了，所以我想构建一些东西，使目标的结构更容易在前端查看和交互。 在此处阅读更多关于这个想法的内容 https://lifegraph.tech/blog/life-is-not-a-to-do-list  我在构建它时关注的一些事情：  基于交互式图形的 UI 视觉任务/目标关系 人工智能辅助目标分解 跨连接的进度跟踪步骤 尝试平衡运动/润色与清晰度和性能  使用Next.js + TypeScript + PG 构建Neo4j 图形数据库，并且很多挑战是使界面感觉直观和动态，而不使其变得混乱。 很乐意分享它并听听人们对这个概念和生产力方法的看法。    由   提交/u/pro1code1hack  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzpx0a/i_built_a_lifegraph_app_that_turns_goals_into/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:12:44 GMT</pubDate>
+      <title>使用 GitHub Actions 作为免费的 cron 作业来进行网页抓取和数据库更新？需要后端洞察。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rztdoj/using_github_actions_as_a_free_cron_job_for_web/</link>
+      <description><![CDATA[由于我希望在扩展时将运营成本保持在绝对零，因此我完全跳过了设置传统后端服务器的过程。相反，我使用每天运行两次的计划 GitHub 操作。它们触发 Supabase Edge Functions，执行 Playwright/Cheerio 抓取脚本，验证定价数据，并直接写入 Postgres DB。 它现在工作得很好，但我担心随着数据池的增长，扩展此架构或在 Actions 端达到奇怪的速率限制。 还有其他人严重依赖 GitHub Actions 作为他们的主要 cron 基础设施吗？由于没有启动专用工作服务器，我是否会遗漏大量盲点？   由   提交 /u/Dapper-Spring4448   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rztdoj/using_github_actions_as_a_free_cron_job_for_web/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:50:24 GMT</pubDate>
     </item>
     <item>
-      <title>React 逃生舱口是否故意泄漏抽象？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzpnr5/are_react_escape_hatches_intentionally_leaky/</link>
-      <description><![CDATA[useEffect 和 ref 是否可以被视为故意泄漏，如angerlySetInnerHTML？ 库中的逃生舱口实际上是泄漏抽象吗？ 我并不特别关心 React，我只是想清楚地了解泄漏抽象是什么   由   提交 /u/w333l   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzpnr5/are_react_escape_hatches_intentionally_leaky/</guid>
-      <pubDate>Sat, 21 Mar 2026 11:59:30 GMT</pubDate>
+      <title>[周六炫耀] 我建立了 bantr.live 一个注重隐私的随机聊天配置文件/免费注册。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzsyva/showoff_saturday_i_built_bantrlive_a_privacy/</link>
+      <description><![CDATA[    https://preview.redd.it/1imufj80seqg1.png?width=1320&amp;format=png&amp;auto=webp&amp;s=c41e3ee5f829f645d7bde0a7ab4530929456c827 你好， 我独自构建了 bantr.live 花了我大约一年的时间。它是新的，所以可能是一个鬼城（随机高峰时段），因为吸引用户一直很困难，但请检查一下。它不需要个人资料或注册，并且在技术上是匿名的。它的复古紫色看起来确实......每 4-5 个成功连接就会在移动设备上显示广告，以保持服务器运行。非常感谢任何反馈。  周末愉快！   由   提交 /u/BantrChat   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzsyva/showoff_saturday_i_built_bantrlive_a_privacy/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:32:55 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一种在任何框架中创建精美的线性风格 UI 的简单方法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzpa9u/i_built_an_easy_way_to_create_polished/</link>
-      <description><![CDATA[      TL;DR: https://windframe.dev/styles/linear 大家好👋 我一直在尝试生成界面，其灵感来自于通常与 Linear 相关的干净、结构化样式。重点关注排版、间距和布局清晰度，而不是繁重的视觉装饰。 我整理了围绕这种风格构建的模板集合，这些模板可以直接在任何项目中作为起点使用。  模板可以在此处找到： https://windframe.dev/styles/linear 在 Windframe 上生成模板时，我还将此设置为可选样式选项，因此您可以选择受线性启发的预设样式，为您创建的任何界面提供干净、优雅的外观。 致力于通过 MCP 提供此功能，并考虑围绕此创建 CC 和其他 CLI 工具的技能。 感谢反馈/想法:)   由   提交/u/Speedware01  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzpa9u/i_built_an_easy_way_to_create_polished/</guid>
-      <pubDate>Sat, 21 Mar 2026 11:38:29 GMT</pubDate>
+      <title>Keeper.sh：日历同步工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzstrd/keepersh_a_calendar_syncing_tool/</link>
+      <description><![CDATA[      GitHub 存储库 / 项目登陆页面 早在 12 月，我就发布在 r/selfhosted 关于 Keeper.sh，这是我因人们相互预订而感到沮丧而创建的一个工具。它最初只是为了同步日历时间段而构建的，但现已发展成为一个成熟的日历同步工具。 我尝试了一些现有的解决方案，它们要么太贵，要么让我的日历处于永久损坏的状态，无法恢复。 三个月后，我们推出了 v2.9.8。 有关上下文，您可以去阅读 v2.0 帖子、v1.0 帖子。 — 前端是 Vite + Tanstack 路由器 — 所有其他服务都是 Bun — 使用 BullMQ 进行工作队列 — 同步 Google 日历、Outlook、O365、iCloud、Fastmail、（检查您的雇主或学校的 IT 政策）、CalDAV 和ICS。 对于那些想要自行托管的人，自述文件中提供了方便的图像，使设置变得非常简单。请注意，如果您自行托管，我建议您确保您的实例不会暴露在互联网 (VPN) 中，或者使用环境变量将主机列入白名单以防止 SSRF，因为您可以提供 ICS/CalDAV URL。 问题尚未解决，欢迎提出功能请求和错误报告！ 我将在评论中留下更多详细信息。 AI披露，以及一些设计内容！   由   提交/u/fkih   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzstrd/keepersh_a_calendar_syncing_tool/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:26:55 GMT</pubDate>
     </item>
     <item>
-      <title>烤我的网站 pt。 2</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzp3f9/roast_my_website_pt_2/</link>
-      <description><![CDATA[      你好，我和我的朋友建立了一个名为 pickGPU 的业余项目 https://pickgpu.com/ 这个想法来自于试图弄清楚 GPU 是否真的很划算的挫败感。大多数网站都会显示基准或价格，但您最终会在一堆选项卡之间来回切换，试图弄清楚哪张卡实际上最有价值。 因此，我们构建了一个将 GPU 性能与实时价格相结合的工具。 它的作用： - 从 Amazon 和 eBay 获取新的和二手的实时价格 - 将它们与 Tom&#39;s Hardware 的基准数据相结合 - 计算美元/FPS，以便您可以快速计算查看最具价值的 GPU 我们几年前就开始了这个项目，后来搁置了它，最近又重新开始。很高兴终于让它处于值得再次分享的状态。事实上，我们几年前就在这里发过帖子，只是说事情进展得并不顺利🙈 - 有什么令人困惑的地方吗？ - 哪些功能会让这个更有用？ - 任何和所有的想法都值得赞赏，无论好坏。   由   提交/u/jasoncaserta  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzp3f9/roast_my_website_pt_2/</guid>
-      <pubDate>Sat, 21 Mar 2026 11:27:56 GMT</pubDate>
+      <title>你们目前正在建设什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzss6o/what_are_you_guys_building_currently/</link>
+      <description><![CDATA[标题   由   提交 /u/Ouroverse   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzss6o/what_are_you_guys_building_currently/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:25:02 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个小型的高级 UI 交互库，您可以复制</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzov0g/i_built_a_small_library_of_premium_ui/</link>
-      <description><![CDATA[最近一直在研究 ui 交互（页面转换、文本显示、按钮等），并意识到大多数人工智能工具仍然难以重新创建良好运动的“感觉” 因此我开始整理一个小型交互库，您可以将其复制/粘贴到您的项目中 我关注的一些内容：  实际感觉的东西“高级”（不仅仅是通用模板） 用人工智能正确提示有点烦人 干净到足以投入实际项目而无需对抗它  如果你只是想尝试一下，还有一些免费的：https://www.edge.supply/vault 还添加了一个“副本”提示”的东西，这样你就可以将它粘贴到你的人工智能工具中，它会重新创建交互（在正确的设置下效果非常好） 如果你检查一下，我会喜欢一些诚实的反馈，仍然弄清楚什么是真正有用的   由   提交/u/Affectionate_Power99  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzov0g/i_built_a_small_library_of_premium_ui/</guid>
-      <pubDate>Sat, 21 Mar 2026 11:14:24 GMT</pubDate>
+      <title>我建立了一个免费的发票生成器，无需注册</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzsjvr/i_built_a_free_invoice_generator_no_signup/</link>
+      <description><![CDATA[      登陆页面 我构建了InvoiceBench.com 过去是作为一个副项目。 这个想法很简单——我尝试过的每个免费发票工具都强制您在下载 PDF 之前创建一个帐户。我发现这很烦人，所以我完全删除了它。 技术堆栈：  React + Vite + Tailwind 在浏览器中生成 PDF 部署在 Vercel 上 Pro 层，为想要自定义品牌的用户提供 Supabase auth  它的作用：  打开网站，填写您的详细信息，立即下载专业的 PDF 没有帐户，没有电子邮件，没有摩擦 专业层可用于自定义品牌和模板 - 一次性购买，无需订阅  有趣的技术挑战是让 PDF 输出看起来真正专业，而不是像通用的浏览器打印。如果有人感兴趣，我很高兴能谈谈我是如何做到这一点的。 👉 invoicebench.com 欢迎残酷的反馈——尤其是在 PDF 质量和用户体验方面。   由   提交 /u/Mental_Buddy8728   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzsjvr/i_built_a_free_invoice_generator_no_signup/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:15:02 GMT</pubDate>
     </item>
     <item>
-      <title>这里有人使用人工智能/无代码工具运送过一些严肃的东西吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzoukd/anyone_here_shipped_something_serious_using/</link>
-      <description><![CDATA[嘿，最近看到很多人使用 bubble、emergent 和其他人工智能构建器构建东西 - 比如应用程序在几天而不是几个月内构建出来，这确实有点疯狂。但我很好奇其背后的真实经历。对于那些真正使用过这些工具的人来说，你能走多远——只是 MVP 或者更严肃的东西？您后来是否遇到过有关扩展、性能或限制的问题？总的来说，它是否真的帮助你以有意义的方式更快地前进，还是在某一点之后事情开始变得混乱？只是想了解这些工具是否真的可以帮助人们构建真正的产品，或者它们是否主要用于快速实验。很想听到诚实的经历，无论好坏。   由   提交/u/technichea  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzoukd/anyone_here_shipped_something_serious_using/</guid>
-      <pubDate>Sat, 21 Mar 2026 11:13:39 GMT</pubDate>
+      <title>HeroUI v3 简介</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzsirw/introducing_heroui_v3/</link>
+      <description><![CDATA[       由   提交 /u/dbbk   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzsirw/introducing_heroui_v3/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:13:42 GMT</pubDate>
     </item>
     <item>
-      <title>Mandelbrot.js - 我使用 WebGL 在浏览器中制作了一个分形浏览器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzole0/mandelbrotjs_i_made_a_fractal_explorer_in_the/</link>
-      <description><![CDATA[      大家好， 我制作了一个在线 Mandelbrot 集分形浏览器。 请随意尝试 https://mandelbrot.musat.ai，代码开源于https://github.com/tiberiu02/mandelbrot-js，很高兴听到您的想法！ 以下是图片中坐标的链接。请注意，某些视图需要比其他视图更多的迭代。如果您使用的是手机或旧设备，某些视图可能需要一段时间才能呈现。  （视频） https://mandelbrot.musat.ai?x=-0.10066630920541&amp;y=-0.95651249869989&amp;z=1.9e13&amp;p=gold&amp;i=256  https://mandelbrot.musat.ai?x=-0.4966724109&amp;y=0.5241933171&amp;z=1.1e9&amp;p=gold&amp;i=256  https://mandelbrot.musat.ai?x=-1.3996669890&amp;y=0.0005429063&amp;z=3.7e%2B9&amp;p=gold&amp;i=256  https://mandelbrot.musat.ai?x=-0.10659987536&amp;y=0.89156619171&amp;z=1.2e%2B10&amp;p=gold&amp;i=256 （非常高的迭代） https://mandelbrot.musat.ai?x=-0.10657132888794&amp;y=0.89157405336556&amp;z=1.0e%2B14&amp;p=gold&amp;i=2048 （非常高的迭代） https://mandelbrot.musat.ai?x=-0.1065713290097&amp;y=0.8915740532688&amp;z=1.0e%2B12&amp;p=gold&amp;i=2048  https://mandelbrot.musat.ai?x=-0.75121828146&amp;y=0.02892661765&amp;z=2.3e%2B10&amp;p=gold&amp;i=256 （极端迭代） https://mandelbrot.musat.ai?x=-0.7513290947342&amp;y=0.0289556420434&amp;z=1.9e%2B12&amp;p=gold&amp;i=8192 （非常高的迭代） https://mandelbrot.musat.ai?x=-0.75142646&amp;y=0.02900766&amp;z=5.0e%2B7&amp;p=fire&amp;i=2048  https://mandelbrot.musat.ai?x=-1.14560745357&amp;y=0.21005888404&amp;z=5.2e%2B10&amp;p=rainbow&amp;i=64 （高迭代） https://mandelbrot.musat.ai?x=-1.4858075493&amp;y=-0.0372131038&amp;z=1.9e%2B9&amp;p=fire&amp;i=512  以下是有关其内部工作原理的更多信息：  深度缩放 (10^14)： 使用 WebGL 双精度仿真，您可以放大高达一百万亿倍。我使用了对数调色板，因此颜色在任何深度都看起来很棒。 渐进式渲染：它在平移/缩放时显示即时低分辨率预览，然后将其细化为高达 8 倍子像素采样的高分辨率。 四树图块缓存：它的设计非常高效，不会两次计算相同的像素。它会缓存渲染的图块并主动对屏幕外图块进行垃圾收集。 动态迭代缩放：为了确保当您深入研究时集合不会变成纯黑色斑点，应用程序会自动增加最大迭代计数。    由   提交 /u/childish101dream   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzole0/mandelbrotjs_i_made_a_fractal_explorer_in_the/</guid>
-      <pubDate>Sat, 21 Mar 2026 10:58:44 GMT</pubDate>
+      <title>Chessly Bot - 在 Chessly 上查找特定国际象棋研究的免费工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzsiqo/chessly_bot_a_free_tool_to_find_specific_chess/</link>
+      <description><![CDATA[https://www.chesslybot.com/ Chessly是一个专注于开局理论的国际象棋学习平台。很多时候，玩完游戏后，我想找到针对给定开局位置的具体研究，以更好地理解正确的理论并找到该位置的最佳走法。然而，这在 Chessly 网站上是不可行的。  所以我构建了 Chessly Bot。给定一个 PGN（标准国际象棋符号）或只是一串走法，该应用程序将爬行一棵树，找到 Chessly 路线中的位置，直到您偏离，然后提供下一个最佳走法以及 Chessly 研究的直接 URL，以便进行更深入的研究。  这是一个特定的用例，但却是一个真正的问题解决方案，我认为可以帮助改善 Chessly 用户的体验。  此外，尽管“Chessly”这个词出现了很多次，但我要澄清的是，我与它没有任何关系——只是一个有我想要解决的特定问题的用户。    由   提交 /u/BBQLays   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzsiqo/chessly_bot_a_free_tool_to_find_specific_chess/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:13:39 GMT</pubDate>
     </item>
     <item>
-      <title>建立了一个网站质量检查工具，想知道是否有人会真正使用它</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzohny/built_a_website_qa_tool_wondering_if_anyone_would/</link>
-      <description><![CDATA[制作了一个名为 SiteVett 的东西（尚未启动，仍在构建中）。将其指向一个 URL，它就会抓取该网站并检查损坏的链接、拼写错误、SEO 漏洞、安全标头等。  我认为有两点与现有的有所不同：它使用人工智能来捕获屏幕截图来捕获视觉问题，例如不可靠的间距、一致性、对比度或不匹配的按钮。它会填写并提交联系表单，而不仅仅是检查页面上的联系表单。 它会输出一份包含分数和详细调查结果的报告。免费套餐或 9 英镑套餐以获得更多使用和功能。 主要是因为我不知道这是否解决了人们实际遇到的问题或者这个市场是否有空间，所以发帖。在启动网站之前，您通常使用什么进行质量检查？很想知道这是否毫无意义。 不要发布任何链接，这不是广告，这只是研究。 我想要的东西可以做与更昂贵的工具一样多的事情，并且可以用更少的钱做更多的事情。   由   提交 /u/Ancient_Guitar_9852   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzohny/built_a_website_qa_tool_wondering_if_anyone_would/</guid>
-      <pubDate>Sat, 21 Mar 2026 10:52:19 GMT</pubDate>
+      <title>greencheck：自动修复失败 CI 的 GitHub Action——将日志提供给 Claude Code 或 Codex，让它调查并提交修复</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzsf7h/greencheck_github_action_that_automatically_fixes/</link>
+      <description><![CDATA[       由   提交/u/blackbriar75  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzsf7h/greencheck_github_action_that_automatically_fixes/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:09:25 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] 我创建了一个论坛来讨论和跟踪媒体，您无需帐户即可在其中发帖</title>
-      <link>https://www.reddit.com/r/webdev/comments/1rzohc7/showoff_saturday_i_created_a_forum_to_discuss_and/</link>
-      <description><![CDATA[      umigalaxy.com 用户可以自由地在没有帐户的情况下匿名发帖，但如果他们想创建一个，他们也可以加入氏族、联盟并跟踪他们的媒体。您可以讨论和跟踪：  动漫和动漫漫画 电影和电影电视节目 电子游戏  过来打个招呼！   由   提交 /u/AutoMick   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1rzohc7/showoff_saturday_i_created_a_forum_to_discuss_and/</guid>
-      <pubDate>Sat, 21 Mar 2026 10:51:44 GMT</pubDate>
+      <title>真正有效的 Figma 到 WordPress 管道 — 开源、Claude Code 支持</title>
+      <link>https://www.reddit.com/r/webdev/comments/1rzsekk/figmatowordpress_pipeline_that_actually_works/</link>
+      <description><![CDATA[我经营一个 Web 开发工作室已有 10 多年了，Figma 到生产的交接一直是我最害怕的工作流程的一部分。最终决定对此做点什么，并将结果开源。 Flavian 是一个与 Claude Code 集成的 WordPress 开发框架。您将其指向 Figma 文件，它会：  提取完整的设计系统（颜色、版式、间距标记） 生成 FSE 块主题模板 创建可重用的块模式 处理图像导出和优化  需要 Figma Professional+ 才能访问开发模式。 一切都在 Docker 中本地运行，AI 代理强制执行WordPress 自动编码标准——正确的转义、清理、随机数，所有这些。有 47 个自定义 AI 代理，每个代理专门用于开发工作流程的不同部分（安全审核、性能基准测试、块模式设计等）。 MIT 许可，v1.0.0 刚刚发布：https://github.com/PMDevSolutions/Flavian 路线图：Canva 到 WordPress 转换支持v1.1.0，以及下周发布的几个开源项目！ 希望得到任何从事 WordPress FSE 主题工作的人的反馈，特别是好奇基于代理的方法是否能产生共鸣，或者您是否会以不同的方式构建管道。 编辑：有人在下面发布了帖子，但有一点是，Figma 已经有了导出工具。确实如此，但此模板可以在大约 45 分钟内构建一个完整的功能站点。据我所知，Figma 的导出工具并不能做到这一点。   由   提交 /u/PMDevSolutions   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1rzsekk/figmatowordpress_pipeline_that_actually_works/</guid>
+      <pubDate>Sat, 21 Mar 2026 14:08:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
