@@ -4,7 +4,35 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sun, 22 Mar 2026 12:39:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 15:21:11 GMT</lastBuildDate>
+    <item>
+      <title>Whatsapp AI代理回答销售问题</title>
+      <link>https://www.reddit.com/r/automation/comments/1s0mh3l/whatsapp_ai_agent_to_answer_sales_questions/</link>
+      <description><![CDATA[嗨，我正在努力帮助我父母做生意。考虑让人工智能代理进行第一次试验，并在让他们进入对话之前回答和询问第一条消息。如今，很多信息都需要很长时间才能失去客户，而且很多人只是想要广泛的信息。我对响应进行了试验，发现令人惊奇，但对我们来说太贵了。有更便宜的方法吗？我可以处理一些复杂的事情。最好的、最便宜的或最有效的方法是什么？我想说我的预算最多为每月 50 美元。每月最多 1000 次对话。 现在不尝试广播或其他任何内容。只是在联系人工完成交易之前回答客户。   由   提交/u/asdruball   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s0mh3l/whatsapp_ai_agent_to_answer_sales_questions/</guid>
+      <pubDate>Sun, 22 Mar 2026 14:04:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能工作流程工具是否真正取代了传统自动化，或者只是一个更闪亮的包装</title>
+      <link>https://www.reddit.com/r/automation/comments/1s0lsj1/are_ai_workflow_tools_actually_replacing/</link>
+      <description><![CDATA[最近一直在思考这个问题。我混合使用了 n8n、一些自定义 Python 脚本，以及最近随处可见的一些人工智能驱动的工作流程工具。老实说。我仍然不确定它们是否是其营销的替代品。对于客户分类等动态内容或涉及非结构化数据的任何内容，人工智能工具确实更好。但当我需要一些可靠且可预测的东西时，比如发票审批流程或预定的数据同步，我就会继续回到传统的设置。需要更少的思考，生产更可靠。 “聊天构建”演示中的东西很酷，但我已经让它在边缘情况下崩溃了，一个简单的确定性脚本可以很好地处理。幻觉问题也是真实存在的，尤其是当您对涉及实际业务数据的任何事情进行自动化时。我认为诚实的答案是，这些工具非常适合快速完成某些工作，或者对于那些不想编写代码的人来说，但称它们为完全替代品感觉像是供应商的炒作。 20-30% 的成本节省统计数据被广泛提及，但我想看看这些数据在更复杂的企业环境中与相对简单的用例中的表现如何。我目前的看法是混合动力是可行的方法。在真正能增加价值的地方使用人工智能，保留传统的自动化来处理无聊的可靠的事情。很好奇这里是否有人实际上已将生产工作流程完全转移到人工智能原生工具之一以及如何长期保持。   由   提交/u/unimtur   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s0lsj1/are_ai_workflow_tools_actually_replacing/</guid>
+      <pubDate>Sun, 22 Mar 2026 13:34:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>几个月前建立了一个自动化系统，现在我不敢修改它</title>
+      <link>https://www.reddit.com/r/automation/comments/1s0lfkv/built_an_automation_months_back_and_now_im_scared/</link>
+      <description><![CDATA[因此，我在大约 4 个月前创建了这个自动化系统，以消除日常工作中重复的手动任务。这东西实际上运行得很好，并且每周确实为我节省了时间 但问题是 - 现在感觉就像一座纸牌屋。上游的微小变化开始导致下游的奇怪行为。有人重命名了数据库字段，突然我的错误处理变得混乱。超时设置得到调整，现在我的重试逻辑会触发三次而不是一次。没有什么完全破坏，但总是有一些奇怪的副作用 我有不错的日志记录，但它只是向我显示了执行的内容，而不是我这样构建它背后的原因。看我 4 个月前写的代码就像阅读别人的作品。对于那些长期维护自动化脚本的人来说，此时接触任何东西都会感觉有风险： - 你会定期回去重构工作系统还是不管它们？ - 你在哪里记录“为什么”？你的逻辑决定背后？  - 在部署之前，您是否有用于测试调整的暂存环境？ - 在实际失败之前，您如何捕获性能逐渐下降的情况？ 您的经验在这里会非常有帮助，因为我担心让这个东西腐烂，但也担心破坏当前有效的东西   由   提交 /u/telling_cholera   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s0lfkv/built_an_automation_months_back_and_now_im_scared/</guid>
+      <pubDate>Sun, 22 Mar 2026 13:18:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>创建了一个我现在不敢修改的自动化程序</title>
+      <link>https://www.reddit.com/r/automation/comments/1s0kxk7/created_an_automation_that_im_now_terrified_to/</link>
+      <description><![CDATA[大约 4 个月前构建了这个自动化流程，以消除重复的手动任务。好消息是它做了它应该做的事情，并且一直在运行，每周为我节省时间 坏消息是我对触摸任何东西都变得偏执。每当上游的事情发生哪怕是轻微的变化时，下游就会开始发生奇怪的事情。数据库字段被重命名，某些逻辑条件的行为有点不同，或者重试机制会启动额外的时间。它们都没有完全崩溃，但总是会出现一些小怪癖，让我想不管它 我的日志记录显示了执行的内容，但并没有真正捕捉到为什么我当时以某种方式构建东西。现在查看我自己的代码感觉就像考古学一样——我可以追踪发生了什么，但我的选择背后的推理大部分已经消失了。做出任何改变都感觉有风险 对于长期维护自动化系统的人来说，问题是： -你会回去清理正在工作的自动化系统，还是让沉睡的狗躺着？ -你把有关决策过程的文档放在哪里？ -有什么在不中断生产的情况下测试修改的技巧吗？ -你如何在逐渐出现的性能问题变成真正的问题之前发现它们？ 愿意听听其他人如何处理这个问题   由   提交 /u/Historical_Silver178   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s0kxk7/created_an_automation_that_im_now_terrified_to/</guid>
+      <pubDate>Sun, 22 Mar 2026 12:56:34 GMT</pubDate>
+    </item>
     <item>
       <title>将人工智能集成到现有自动化中：从哪里开始</title>
       <link>https://www.reddit.com/r/automation/comments/1s0hdtv/integrating_ai_into_existing_automations_where_do/</link>
@@ -69,13 +97,6 @@
       <pubDate>Sat, 21 Mar 2026 12:46:56 GMT</pubDate>
     </item>
     <item>
-      <title>如何让您的 Claude Code 代理上线</title>
-      <link>https://www.reddit.com/r/automation/comments/1rzmyx1/how_to_make_your_claude_code_agent_go_live/</link>
-      <description><![CDATA[       由   提交/u/AccurateSuggestion54   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rzmyx1/how_to_make_your_claude_code_agent_go_live/</guid>
-      <pubDate>Sat, 21 Mar 2026 09:15:53 GMT</pubDate>
-    </item>
-    <item>
       <title>即时依赖医生的神话......</title>
       <link>https://www.reddit.com/r/automation/comments/1rzmt21/the_myth_of_the_promptdependent_doctor/</link>
       <description><![CDATA[       由   提交/u/vikramskumar   [链接] [评论] ]]></description>
@@ -83,32 +104,11 @@
       <pubDate>Sat, 21 Mar 2026 09:05:09 GMT</pubDate>
     </item>
     <item>
-      <title>FewFeed V2 将于 12 天后关闭</title>
-      <link>https://www.reddit.com/r/automation/comments/1rzfvs8/fewfeed_v2_is_closing_in_12_days/</link>
-      <description><![CDATA[我喜欢使用 FewFeed V2 并且确实有订阅，但现在它们将在 12 天后关闭。在群组和页面上发帖时，FewFeed 有什么替代方案吗？   由   提交/u/XiaoLinFiu   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rzfvs8/fewfeed_v2_is_closing_in_12_days/</guid>
-      <pubDate>Sat, 21 Mar 2026 02:29:33 GMT</pubDate>
-    </item>
-    <item>
       <title>讽刺的是未来</title>
       <link>https://www.reddit.com/r/automation/comments/1rz7xqv/unironically_the_future/</link>
       <description><![CDATA[       由   提交/u/sentientX404  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1rz7xqv/unironically_the_future/</guid>
       <pubDate>Fri, 20 Mar 2026 20:51:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>不再需要手动搜索业务线索</title>
-      <link>https://www.reddit.com/r/automation/comments/1ryx8zk/no_more_manual_searching_for_business_leads/</link>
-      <description><![CDATA[说实话，我手动执行此操作花了多长时间，这真是令人尴尬。每天早上，同样的例行公事，打开一堆选项卡，搜索相同的位置，将粘贴复制到电子表格中。在我开始实际工作之前已经过去了两个小时。 花了一个周末构建一些东西来处理它。现在我一觉醒来，领先优势就已经存在，得分并准备就绪。已经运行了几周，它已经支付了我构建它所花费的时间。 还有其他人自动化他们的勘探吗？好奇人们正在使用什么方法。 P.S.是的，我让克劳德帮助我写了这篇文章，作为测试我的自动化设置的一部分。我想在别人指出之前我会拥有它。   由   提交 /u/Loose-Average-5257   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ryx8zk/no_more_manual_searching_for_business_leads/</guid>
-      <pubDate>Fri, 20 Mar 2026 14:09:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>每只售价 30 万美元的机器狗现在正在守卫着该国一些最大的数据中心</title>
-      <link>https://www.reddit.com/r/automation/comments/1rysjfh/robot_dogs_priced_at_300000_a_piece_are_now/</link>
-      <description><![CDATA[       由   提交/u/EchoOfOppenheimer   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1rysjfh/robot_dogs_priced_at_300000_a_piece_are_now/</guid>
-      <pubDate>Fri, 20 Mar 2026 10:23:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
