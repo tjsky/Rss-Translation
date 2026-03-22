@@ -4,18 +4,32 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sun, 22 Mar 2026 18:30:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 21:22:04 GMT</lastBuildDate>
     <item>
-      <title>有主意吗？由 12 个 AI 模型在群聊中运行。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s0s07n/got_an_idea_run_it_by_12_ai_models_in_group_chat/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0s07n/got_an_idea_run_it_by_12_ai_models_in_group_chat/</guid>
-      <pubDate>Sun, 22 Mar 2026 17:42:03 GMT</pubDate>
+      <title>希望至少提示是诚实的</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s0xguq/hopefully_at_least_the_prompt_was_honest/</link>
+      <description><![CDATA[ 由   提交/u/vaitko  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0xguq/hopefully_at_least_the_prompt_was_honest/</guid>
+      <pubDate>Sun, 22 Mar 2026 21:12:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个操作系统，人工智能在运行时生成每个程序。你输入你想要的内容，它就会出现。h</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s0vuem/i_built_an_os_where_ai_generates_every_program_at/</link>
+      <description><![CDATA[pneuma 是一个没有预装软件的计算环境。你描述你想要什么，人工智能会生成一个工作程序，编译它，并在几秒钟内在屏幕上运行它。每个程序都在沙盒环境中运行。 AI 编写可编译为 WebAssembly 的 Rust 代码，因此生成的程序无法访问您的文件系统或使系统崩溃。在此处查看演示：pneuma.computer   由   提交/u/Broad-Construction-4   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0vuem/i_built_an_os_where_ai_generates_every_program_at/</guid>
+      <pubDate>Sun, 22 Mar 2026 20:08:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>埃隆·马斯克 (Elon Musk) 和其他一些人表示，他们认为 10 到 20 年内“工作将成为可选的”。我们需要如何重组社会才能实现这一目标？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s0v3nb/elon_musk_and_some_others_have_said_they_think/</link>
+      <description><![CDATA[我无法想象这是如何工作的。我们必须有一个乌托邦式的、类似星际迷航的社会，那里没有钱，但一切都很充足。技术将是我们无所求的。没有人会挨饿，所有基本需求以及更多需求都得到满足。但这有点难以想象。我可以想象人工智能给我们带来的东西，比如将自己融入电影、在 3 秒内报税、设计航空母舰和量身定制西装。但很难想象一个世界，对于大多数人来说，工作是可选的，不需要钱，也没有饥饿   由   提交/u/georgewalterackerman   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0v3nb/elon_musk_and_some_others_have_said_they_think/</guid>
+      <pubDate>Sun, 22 Mar 2026 19:39:40 GMT</pubDate>
     </item>
     <item>
       <title>我建立了一个系统来每天跟踪人工智能研究——以下是我注意到的模式</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s0qkbe/i_built_a_system_to_track_ai_research_daily_here/</link>
-      <description><![CDATA[在过去的几个月里，我一直在构建一个日常管理系统，用于跟踪 arxiv、主要实验室和开发者生态系统的人工智能研究。我的目标是解决我自己的问题——跟上人工智能的步伐，而无需每天花费数小时。 在每天这样做的过程中，我开始注意到一些有趣的模式：  **论文与生产之间的差距正在急剧缩小。**过去需要数月才能实施的研究现在只需几天即可获得开源复制品。有时，社区的发展速度比实验室本身还要快。 **推理优化正在成为新的前沿。**虽然每个人都关注新的模型架构，但真正的竞争优势越来越多地体现在运行现有模型的效率上。量化、蒸馏和推测解码论文正在产生巨大的实际影响。 **多模式不再是可选的。**现在几乎每个重要的新版本都包含视觉、音频或两者兼而有之。纯文本模型正在成为一种利基市场，而不是默认模型。 **小型模型的表现远远超出了其自身的能力。** 对于大多数实际任务，7B 和 70B 参数模型之间的性能差距继续缩小。在特定领域的数据上微调较小的模型通常优于较大的通用模型。 **代理框架仍处于“PHP 时代”。**大量的实验，大量的炒作，但生产用例的工具和可靠性尚不具备。大多数代理演示都会在现实条件下出现问题。  如果有人想跟进，我会将这些见解打包到 researchaudio.io 上的免费每日新闻通讯中。但很好奇其他人看到了什么模式 - 您认为目前哪些趋势被低估了？   由   提交 /u/dever121   [链接] [评论]]]></description>
+      <description><![CDATA[在过去的几个月里，我一直在构建一个日常管理系统，用于跟踪 arxiv、主要实验室和开发者生态系统的人工智能研究。我的目标是解决我自己的问题——跟上人工智能的步伐，而不需要每天花费几个小时。 在每天这样做的过程中，我开始注意到一些有趣的模式：  纸张和生产之间的差距正在急剧缩小。过去需要数月才能实施的研究现在只需几天就能得到开源复制品。有时，社区的发展速度比实验室本身还要快。 推理优化正在成为新的前沿。虽然每个人都关注新的模型架构，但真正的竞争优势越来越多地体现在运行现有模型的效率上。量化、蒸馏和推测解码论文正在产生巨大的实际影响。 多模态不再是可选的。现在几乎每个重要的新版本都包含视觉、音频或两者兼而有之。纯文本模型正在成为一个利基市场，而不是默认模型。 代理框架仍处于“PHP 时代”。 大量的实验，大量的炒作，但工具和可靠性尚未达到生产用例的水平。大多数代理演示都会在现实条件下出现问题。  如果有人想跟进，我会将这些见解打包到 researchaudio.io 上的免费每日新闻通讯中。但很好奇其他人看到了什么模式 - 您认为目前哪些趋势被低估了？   由   提交 /u/dever121   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0qkbe/i_built_a_system_to_track_ai_research_daily_here/</guid>
       <pubDate>Sun, 22 Mar 2026 16:46:28 GMT</pubDate>
     </item>
@@ -29,7 +43,7 @@
     <item>
       <title>Reddit 赠品 - 奥斯卡奖得主导演 Daniel Roher（《纳瓦尔尼》）将于 3 月 26 日星期四在纽约和洛杉矶举办的《人工智能医生：我如何成为末日乐观主义者》特别预映的 200 多张免费门票</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s0kwb6/reddit_giveaway_200_free_tickets_to_a_special/</link>
-      <description><![CDATA[Focus Features 正在为 Reddit 用户提供免费门票，让其在定期发布之前观看《人工智能文档：或者我如何成为末日乐观主义者》的特别高级放映。放映将于 3 月 26 日星期四晚上 7 点在纽约市 (AMC Lincoln Square) 和洛杉矶 (AMC The Grove) 的 2 个不同剧院举行。您也可以带一位客人。 导演丹尼尔·罗尔 (Daniel Roher) 执导，他凭借 2022 年的电影《纳瓦尔尼》(Navalny) 获得了奥斯卡最佳纪录片奖。 如果您在该地区，并且有兴趣在定期上映之前免费参加这一特别活动，请填写此表格以获得免费门票：  洛杉矶：https://forms.gle/FvRZZLbrteYfb8ePA 纽约：https://forms.gle/L28h4fpWf96ExjKz6  纽约放映地点：AMC Lincoln Square | 1998 Broadway, New York, NY 10023 洛杉矶放映地点：AMC The Grove | 189 The Grove Dr, Los Angeles, CA 90036 预告片： https://www.youtube.com/watch?v=xkPbV3IRe4Y 剧情简介： 希望弄清楚人工发生了什么一位准父亲踏上了一段令人大开眼界的旅程，以了解更多有关人类有史以来创造的最强大技术的信息，以及如果我们弄错了会面临什么危险。 您将在放映前几天通过电子邮件收到门票。   由   提交/u/BunyipPouch  [链接] [评论]]]></description>
+      <description><![CDATA[Focus Features 正在为 Reddit 用户提供免费门票，让其在定期发布之前观看《人工智能文档：或者我如何成为末日乐观主义者》的特别高级放映。放映将于 3 月 26 日星期四晚上 7 点在纽约市（AMC Lincoln Square）和洛杉矶（AMC The Grove）的 2 个不同剧院举行。您也可以带一位客人。 导演丹尼尔·罗尔 (Daniel Roher) 执导，他凭借 2022 年的电影《纳瓦尔尼》(Navalny) 获得了奥斯卡最佳纪录片奖。 如果您在该地区，并且有兴趣在定期上映之前免费参加这一特别活动，请填写此表格以获得免费门票：  洛杉矶：https://forms.gle/FvRZZLbrteYfb8ePA 纽约：https://forms.gle/L28h4fpWf96ExjKz6  纽约放映地点：AMC Lincoln Square | 1998 Broadway, New York, NY 10023 洛杉矶放映地点：AMC The Grove | 189 The Grove Dr, Los Angeles, CA 90036 预告片： https://www.youtube.com/watch?v=xkPbV3IRe4Y 剧情简介： 希望弄清楚人工发生了什么一位准父亲踏上了一段令人大开眼界的旅程，以了解更多有关人类有史以来创造的最强大技术的信息，以及如果我们弄错了会面临什么危险。 您将在放映前几天通过电子邮件收到门票。   由   提交/u/BunyipPouch  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0kwb6/reddit_giveaway_200_free_tickets_to_a_special/</guid>
       <pubDate>Sun, 22 Mar 2026 12:54:55 GMT</pubDate>
     </item>
@@ -46,13 +60,6 @@
       <description><![CDATA[Anthropic 刚刚发布了经济指数数据，以了解人工智能对经济的影响。这是他们的全球使用指数。   由   提交/u/Disastrous-Win-6198   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0imhj/which_countries_use_claude_ai_the_most/</guid>
       <pubDate>Sun, 22 Mar 2026 10:53:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>腾讯在中国科技战中将微信与 OpenClaw AI 代理集成</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s0i47x/tencent_integrates_wechat_with_openclaw_ai_agent/</link>
-      <description><![CDATA[“腾讯（0700.HK）打开新标签周日推出了一款工具，将其微信消息平台与 OpenClaw ‌代理集成，深化其进军人工智能代理领域，人工智能代理已成为中国科技公司的一个关键战场。 该软件名为 ClawBot，将作为微信内的联系人出现，允许中国最受欢迎的应用程序（每月活跃用户超过 10 亿）的用户直接与 OpenClaw 连接。 https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/   由   提交 /u/talkingatoms   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0i47x/tencent_integrates_wechat_with_openclaw_ai_agent/</guid>
-      <pubDate>Sun, 22 Mar 2026 10:21:52 GMT</pubDate>
     </item>
     <item>
       <title>AI工作只是提示吗？</title>
@@ -88,13 +95,6 @@
       <description><![CDATA[ 由   提交/u/Odd-Sympathy1274   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s0bha3/even_grok_got_fooled_by_an_aigenerated_maga_dream/</guid>
       <pubDate>Sun, 22 Mar 2026 03:44:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>5 个前沿人工智能模型被要求对机器人进行编码，以通过传送门在雾蒙蒙的迷宫中导航。第一个到达出口者获胜。超过 500 步，您就被淘汰了。 Gemini、ChatGPT 和 Mimo 机器人从未闯过第 8 轮。这是 Claude 和 Grok 的机器人正在玩第 93 轮。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s04671/5_frontier_ai_models_were_asked_to_code_bots_to/</link>
-      <description><![CDATA[来源  机器人必须在他们看不到的迷宫中导航，没有地图，没有概览，只有当前位置周围的 5×5 雾窗。 迷宫有传送带让你穿越网格，墙壁挡住你的道路，出口在远处的角落。每个机器人都会盲目探索，根据部分观察构建心理地图，并尝试以尽可能少的步骤到达出口。谁完成的步数最少，谁就赢得了这一轮。步数超过 500 步，您就会被淘汰出锦标赛。    由   提交/u/TDBankSucksCock  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s04671/5_frontier_ai_models_were_asked_to_code_bots_to/</guid>
-      <pubDate>Sat, 21 Mar 2026 22:04:53 GMT</pubDate>
     </item>
     <item>
       <title>美国人最常使用 Claude AI 的地方</title>
