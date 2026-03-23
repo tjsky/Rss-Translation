@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 23 Mar 2026 01:52:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 05:01:18 GMT</lastBuildDate>
+    <item>
+      <title>现在 93% 的开发人员使用人工智能工具，但我们的速度明显变慢，这是怎么回事</title>
+      <link>https://www.reddit.com/r/programming/comments/1s155vp/93_of_devs_use_ai_tools_now_and_were_measurably/</link>
+      <description><![CDATA[编辑：我误读了后续数据。 -18% 和 -4% 的数字是时间减少，而不是减速，因此后续研究实际上显示了比原始研究有所改进。 METR 在后续行动中标记了选择偏差（支持人工智能的开发人员退出），但我的阅读中的更正仍然有效。  去年的 METR 研究表明，经验丰富的开发人员使用 AI 编码工具的速度要慢 19%。每个人都对它不屑一顾，小样本，错误的任务，等等。 他们刚刚进行了跟进，结果基本相同。原来的员工仍然是-18%，新员工-4%。 最疯狂的部分是自我报告。开发人员一致表示，他们感觉速度提高了 20%。因此，我们遇到了这样的差距：每个人都认为自己在飞翔，但时钟却说不然。 我不断回到同一件事，对于经验丰富的开发人员来说，编写代码从来都不是瓶颈。 Copilot 在 2 秒内完成了一个函数，但随后你花了 10 分钟阅读它，验证边缘情况，检查它是否适合你实际拥有的架构。生成现在是免费的，但审查成本上升了，因为你正在阅读不是你编写的代码，并且不能完全理解每一行代码。 46% 的开发者表示他们不完全信任人工智能输出，只有三分之一真正这样做。因此，我们更快地生成更多代码，并花费更多时间对其进行事后猜测。 没有人愿意大声说出这一点，但瓶颈始终是判断，而不是打字速度。我们让便宜的部分变得更便宜，并且不小心让昂贵的部分变得更贵。 老实说，我很好奇是否有人真正测量过自己的吞吐量，或者我们只是基于此产生共鸣。因为我开始认为“人工智能让我更快”。事情大多是应付。（这也是原始文章链接：https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/ )   由   提交/u/Background-Bass6760   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s155vp/93_of_devs_use_ai_tools_now_and_were_measurably/</guid>
+      <pubDate>Mon, 23 Mar 2026 02:44:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>火车安全券</title>
+      <link>https://www.reddit.com/r/programming/comments/1s150d3/trainsec_voucher/</link>
+      <description><![CDATA[我有一张价值 500 美元的 TrainSec 优惠券，但我不打算使用，所以我想卖掉它。我要价大约250-300美元，但价格可以商量。如果您有兴趣，请告诉我。此外，您还可以根据需要选择课程，费用为 500 美元   由   提交/u/Salty-Ad9979   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s150d3/trainsec_voucher/</guid>
+      <pubDate>Mon, 23 Mar 2026 02:37:12 GMT</pubDate>
+    </item>
     <item>
       <title>悲观与乐观并发控制</title>
       <link>https://www.reddit.com/r/programming/comments/1s10x8v/pessimistic_vs_optimistic_concurrency_control/</link>
@@ -27,25 +41,11 @@
       <pubDate>Sun, 22 Mar 2026 21:58:19 GMT</pubDate>
     </item>
     <item>
-      <title>真实洪水检测的 YOLOv8 分割教程</title>
-      <link>https://www.reddit.com/r/programming/comments/1s0tqsq/yolov8_segmentation_tutorial_for_real_flood/</link>
-      <description><![CDATA[适合任何研究计算机视觉和环境监测语义分割的人。 实现自动洪水检测的主要技术挑战通常是可用数据集格式与现代架构的具体要求之间的差异。虽然许多公共数据集提供地面实况作为二进制掩码，但像 YOLOv8 这样的模型需要精确的多边形坐标来进行实例分割。本教程的重点是通过使用 OpenCV 以编程方式提取轮廓并将其标准化为 YOLO 格式来弥补这一差距。 YOLOv8-Large 分割模型的选择提供了处理不同地形中洪水复杂、不规则边界特征的必要能力，确保了推理阶段的高水平空间精度。 工作流程遵循为可扩展性而设计的结构化管道。它从一个预处理脚本开始，该脚本将像素级二进制掩码转换为标准化的多边形字符串，从而有效地将静态图像转换为训练就绪的数据集。按照标准的 80/20 数据分割，对模型进行训练，特别关注单类检测系统的配置。本教程的最后阶段涉及后处理，演示如何从模型输出中提取单个预测掩模并将它们聚合成一个全面的最终掩模以进行可视化。这种逻辑确保即使多个水体被检测为单独的实例，它们也会被合并为洪水区域的单一表示。   Medium 上的替代阅读：https://medium.com/@feitgemel/yolov8-segmentation-tutorial-for-real-flood-detection-963f0aaca0c3 详细的书面解释和源代码：https://eranfeit.net/yolov8-segmentation-tutorial-for-real-flood-detection/ 深入视频演练：https://youtu.be/diZj_nPVLkE   此内容仅供教育目的。欢迎社区成员提供建设性反馈或提出有关本教程中使用的预处理脚本或训练参数的实现的具体技术问题。   由   提交/u/Feitgemel   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s0tqsq/yolov8_segmentation_tutorial_for_real_flood/</guid>
-      <pubDate>Sun, 22 Mar 2026 18:47:56 GMT</pubDate>
-    </item>
-    <item>
       <title>对病毒式开源发布进行逆向工程（或者：关于 Zerobrew 的注释！）</title>
       <link>https://www.reddit.com/r/programming/comments/1s0tmav/reverse_engineering_a_viral_open_source_launch_or/</link>
       <description><![CDATA[ 由   提交/u/lucasgelfond  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s0tmav/reverse_engineering_a_viral_open_source_launch_or/</guid>
       <pubDate>Sun, 22 Mar 2026 18:43:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spring AI向量存储过滤器注入旧错误，新基础设施（RAG访问控制中的JSONPath + SQL注入）</title>
-      <link>https://www.reddit.com/r/programming/comments/1s0soxq/spring_ai_vector_store_filter_injection_old_bugs/</link>
-      <description><![CDATA[Spring AI 的过滤器表达式转换器（将面向用户的查询转换为向量存储的后端查询语言的层）中存在两个高严重性注入漏洞。一种是 JSONPath 注入，另一种是通过 MariaDB 的经典 SQL 注入。两者都绕过 RAG 部署中用于多租户隔离的基于元数据的访问控制。针对 SQL 注入变体已经存在公共漏洞扫描器。该文章涵盖了共享的架构弱点、攻击流程和检测签名 https://raxe.ai/labs/advisories/RAXE-2026-041   由   提交/u/cyberamyntas   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s0soxq/spring_ai_vector_store_filter_injection_old_bugs/</guid>
-      <pubDate>Sun, 22 Mar 2026 18:08:08 GMT</pubDate>
     </item>
     <item>
       <title>让我们看看 Paul Allen 的 SIMD CSV 解析器</title>

@@ -4,13 +4,20 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 23 Mar 2026 01:52:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 05:01:48 GMT</lastBuildDate>
     <item>
-      <title>W3Schools 证书</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s13ref/w3schools_certs/</link>
-      <description><![CDATA[考虑获得 HTML 和 CSS 认证。我自 2018 年以来一直从事 Web 开发，并在没有太多备份的情况下将 HTML5 和 CSS3 放在我的简历中。 很明显，如果您付费，您将获得中级或专业分数通过，并且您可以尝试 3 次。 除了他们的旧缺陷之外，还有人在简历中列出它或通过它被录用吗？与我的 CompTIA A+ 和其他证书一起放在证书墙上。 我对简历所做的事情是，我实际上放置了所有 CompTIA A+ 或 CompTIA N+ 验证码。我不只是告诉他们我拥有的证书。但这需要他们如何看待它。   由   提交/u/ascendtek   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s13ref/w3schools_certs/</guid>
-      <pubDate>Mon, 23 Mar 2026 01:39:20 GMT</pubDate>
+      <title>Better-Auth 安全前缀 cookie 不匹配 (cloudflare/nextjs)</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s16i21/betterauth_secureprefix_cookie_mismatch/</link>
+      <description><![CDATA[是否可以通过编程方式判断牧马人是否正在预览中运行？我只是在努力解决 cookie 不匹配的问题： Wrangler 在预览环境中将“NODE_ENV”设置为“生产”。但如果没有显式设置 `secureCookies` 或 `dynamicProtocol`，Better-Auth 将设置一个非前缀 cookie。 设置非前缀 cookie 的代码： ``` const secureCookiePrefix = ( options.advanced?.useSecureCookies !== void 0 ? options.advanced?.useSecureCookies：dynamicProtocol ===“https”？dynamicProtocol ===“http”？false：baseURLString？baseURLString.startsWith(“https://”)：isProduction)？ SECURE_COOKIE_PREFIX : &quot;&quot;; ``` 我用来查找 cookie 的代码 `getCookieCache`，先检查 `isSecure` （未定义），然后检查 `isProduction`，因此查找带前缀的 cookie ``` const name = config?.isSecure !== void 0 ? config.isSecure ? `${SECURE_COOKIE_PREFIX}${cookiePrefix}.${cookieName}` : `${cookiePrefix}.${cookieName}` : isProduction ? `${SECURE_COOKIE_PREFIX}${cookiePrefix}.${cookieName}` : `${cookiePrefix}.${cookieName}`; ``` 只是不确定解决这个问题的最稳健的方法（我显然可以在预览时手动更改 `isSecure`，但这感觉有点笨拙！） 谢谢！   由   提交/u/EducationalZombie538  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s16i21/betterauth_secureprefix_cookie_mismatch/</guid>
+      <pubDate>Mon, 23 Mar 2026 03:50:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>你们在非工作状态时会做事吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s15082/do_you_guys_commit_things_when_they_are_in_a/</link>
+      <description><![CDATA[所以，我知道我可以把它藏起来。我的问题是其他人在做什么？我是唯一一个坚持每个提交都应该处于工作状态的立场的人吗？是否有人做出了承诺，但只是在事情进展顺利之前才推动？您的工作流程是什么？   由   提交 /u/MagnetHype   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s15082/do_you_guys_commit_things_when_they_are_in_a/</guid>
+      <pubDate>Mon, 23 Mar 2026 02:37:02 GMT</pubDate>
     </item>
     <item>
       <title>我在哪里可以获得设计网站的资源？</title>
@@ -102,13 +109,6 @@
       <description><![CDATA[       由   提交 /u/Possible-Session9849   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1s0ojah/generate_web_interfaces_from_data/</guid>
       <pubDate>Sun, 22 Mar 2026 15:28:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 FastAPI + 4 个政府 API 构建了一个实时民主健康跟踪器 - 这是架构</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s0oe7x/i_built_a_realtime_democracy_health_tracker_using/</link>
-      <description><![CDATA[我构建了 BallotPulse — 一个跟踪所有 50 个州的投票规则变化并对每个州的投票可访问性进行实时评分的平台。该技术的工作原理如下。 问题：投票规则不断变化——新的身份证法、选区关闭、登记清除、截止日期变化。现有平台没有汇总这些变化并实时向受影响的选民发出警报。 数据管道（3 层）：  第 1 层 - API 支持（约 12 个州）： 用于投票地点 + 选举的 Google Civic Information API（25K 请求/天）。来自加利福尼亚州、科罗拉多州、弗吉尼亚州、北卡罗来纳州等州的直接机器可读数据。每 6-12 小时同步一次。 第 2 层 - 网络抓取（约 25 个州）： 每个州选举委员会网站的 BeautifulSoup 抓取工具。每个域的速率限制为每 2 秒 1 个请求，并具有指数退避。针对数据库进行逐字段比较以检测更改。自动对严重性进行分类（严重 = 位置已关闭或新的 ID 法；警告 = 营业时间已更改；信息 = 添加了新位置）。每 24 小时交错同步一次。 第 3 层 - 手动 + 社区（约 13 个州）： 通过 CSV/JSON 管理批量导入。社区提交的内容会经过审核队列。  民主健康评分算法：每个州在 7 个加权维度上获得 0-100 分： - 投票访问 (25%) - 人均地点、平均出行距离、 90 天内关闭 - 等待时间 (15%) - 人群报告 + 历史平均值 - 注册容易度 (15%) - 当日、在线、自动注册 - ID 要求 (15%) - 严格程度 - 提前/缺席访问 (15%) - 提前投票日、无故缺席、邮寄选票 - 无障碍 (10%) - 轮椅 %、多语言 %、停车 % - 稳定性 (5%) - 90 天内规则更改（更少 = 更高） 堆栈： - FastAPI + Jinja2 模板 + vanilla JS（无前端框架） - SQLite 与 aiosqlite（WAL 模式，外键） - Leaflet.js 用于交互式投票地图（OpenStreetMap 磁贴） - Chart.js 用于分数可视化 - GPT-4o-mini 用于 AI 投票助手 + 本地 LLM 后备 - PWA 与用于移动安装的 Service Worker - bcrypt 身份验证、SMTP 电子邮件警报 使用的 API： - Google Civic Information API - Open States API （所有 50 个州的立法） - LegiScan API（182K+ 账单，每月 30K 查询免费） - Congress.gov API（联邦立法） 有趣的挑战： - 抓取 25 个以上不同的州选举委员会网站，其 HTML 结构截然不同 - 字段级比较以准确检测更改的内容（不仅仅是“页面更新”） - 自动分类严重性 - 选区关闭至关重要，新的投递箱是信息 - 历史比较：“您的县在 2020 年有 47 个投票点，现在有 41 个” - 保持评分算法无党派——仅提供可访问性指标，无政治倾向 整个过程旨在全年运行，而不仅仅是在选举季节。仅在 2026 年中期选举之前，就有超过 25 个州颁布了新的投票法。 🔗 ballotpulse.modelotech.com 很高兴深入了解架构的任何部分。   由   提交/u/MoonDensetsu   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s0oe7x/i_built_a_realtime_democracy_health_tracker_using/</guid>
-      <pubDate>Sun, 22 Mar 2026 15:22:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
