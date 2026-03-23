@@ -4,13 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 22 Mar 2026 21:24:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 01:52:17 GMT</lastBuildDate>
     <item>
-      <title>超越 Linux 和 Windows：现代专业人士的技术分析 |通过 穆里洛·贾蒂 | 2026 年 3 月</title>
-      <link>https://www.reddit.com/r/programming/comments/1s0x05e/beyond_linux_and_windows_a_technical_analysis_for/</link>
-      <description><![CDATA[面向专业人士的 Windows 与 Linux 技术分析，重点关注架构、安全性、用例和云的未来。   由   提交/u/mfgiatti   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s0x05e/beyond_linux_and_windows_a_technical_analysis_for/</guid>
-      <pubDate>Sun, 22 Mar 2026 20:54:09 GMT</pubDate>
+      <title>悲观与乐观并发控制</title>
+      <link>https://www.reddit.com/r/programming/comments/1s10x8v/pessimistic_vs_optimistic_concurrency_control/</link>
+      <description><![CDATA[ 由   提交/u/Comfortable-Fan-580   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s10x8v/pessimistic_vs_optimistic_concurrency_control/</guid>
+      <pubDate>Sun, 22 Mar 2026 23:33:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Node.js 工作线程存在问题，但它们对我们来说非常有用</title>
+      <link>https://www.reddit.com/r/programming/comments/1s108v7/nodejs_worker_threads_are_problematic_but_they/</link>
+      <description><![CDATA[ 由   提交 /u/aardvark_lizard   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s108v7/nodejs_worker_threads_are_problematic_but_they/</guid>
+      <pubDate>Sun, 22 Mar 2026 23:05:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>传统的用户界面图形：图标、光标、按钮、边框和绘图样式</title>
+      <link>https://www.reddit.com/r/programming/comments/1s0ymoh/traditional_userinterface_graphics_icons_cursors/</link>
+      <description><![CDATA[我写的这篇开源文章讨论了用户界面 (UI) 图形的传统视觉设计（大约到 2003 年）的各个方面，例如按钮和边框样式、图标和鼠标指针。它还试图描述传统 UI 图形的绘制风格，特别是从 1990 年到 2003 年，并就开发具有高度灵活性的新图形 UI 系统提供建议。 视频游戏中的用户界面超出了本文档的范围。   由   提交 /u/peteroupc   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s0ymoh/traditional_userinterface_graphics_icons_cursors/</guid>
+      <pubDate>Sun, 22 Mar 2026 21:58:19 GMT</pubDate>
     </item>
     <item>
       <title>真实洪水检测的 YOLOv8 分割教程</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交/u/andreiross   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1rzxhgh/where_did_400_mib_go/</guid>
       <pubDate>Sat, 21 Mar 2026 17:34:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>了解 Go 中的享元设计模式：实用指南</title>
-      <link>https://www.reddit.com/r/programming/comments/1rzryiw/understanding_the_flyweight_design_pattern_in_go/</link>
-      <description><![CDATA[我最近写了一篇关于 Go 中的 Flyweight 设计模式的详细指南，重点是实践理解，而不仅仅是教科书定义。 文章涵盖：  Flyweight 在实际系统中实际解决了什么 何时应该（和不应该）使用它 清晰解释内在与外部状态 映射到 UML 结构的完整 Go 实现 真实世界的变化（参数化享元、复合享元） 要避免的常见错误 特定于 Go 的最佳实践（不变性、并发性、内存使用）  我没有关注抽象的 UML 解释，而是关注渲染系统、重复对象等实际场景，以及内存密集型应用程序 - 我们在可扩展系统中实际遇到的事情。 如果您正在学习 Go 中的设计模式或尝试优化对象密集型系统中的内存使用，这可能会有所帮助。 在此处阅读：https://medium.com/design-bootcamp/understanding-the-flyweight-design-pattern-in-go-a-practical-guide-78c8fc5cd164   由   提交/u/priyankchheda15  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rzryiw/understanding_the_flyweight_design_pattern_in_go/</guid>
-      <pubDate>Sat, 21 Mar 2026 13:49:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>2000 年之前的计算机图形：经典风格游戏开发的规范和挑战</title>
-      <link>https://www.reddit.com/r/programming/comments/1rzqcnw/pre2000_computer_graphics_a_specification_and/</link>
-      <description><![CDATA[这篇开源文章是我写的，与经典图形相关（2000 年之前家用计算机、游戏机和街机的视频游戏的典型图形，在“着色器”之前的时间）。 本文旨在鼓励开发—  现代视频游戏，这些游戏模拟 2000 年之前的图形，并且以非常低的资源要求（例如，6400 万字节内存或更少）运行，甚至在非常低端的计算机（例如，支持 Windows 7、XP 和/或 98 的计算机）上运行，以及 专门用于 2000 年之前的计算机图形并旨在开发的图形引擎（尤其是开源引擎）   到目前为止，我发现 2000 年之前的计算机图形涉及“帧缓冲区”。 640 × 480 或更小的尺寸、简单的 3D 渲染（640 × 480 的每帧少于 12,800 个三角形，较小的分辨率则更少，并且比一般情况要少得多）以及基于图块和精灵的 2-D 图形。有关详细信息，请参阅该文章。 我强调，本文中的指南基于 2000 年之前的视频游戏实际实现的图形功能（例如，每帧三角形），而不是基于硬件的理论性能。  除了链接的文章之外，还有一篇配套文章，建议为 2000 年前的图形提供最小的 API。   由   提交 /u/peteroupc   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1rzqcnw/pre2000_computer_graphics_a_specification_and/</guid>
-      <pubDate>Sat, 21 Mar 2026 12:35:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
