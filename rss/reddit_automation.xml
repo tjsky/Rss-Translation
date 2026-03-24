@@ -4,7 +4,28 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 23 Mar 2026 21:31:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 01:43:46 GMT</lastBuildDate>
+    <item>
+      <title>AI电话接待员/预订员</title>
+      <link>https://www.reddit.com/r/automation/comments/1s1venu/ai_phone_receptionistbooker/</link>
+      <description><![CDATA[我想在我的企业中添加人工智能电话接待员。我厌倦了错过电话，我认为这有助于我与一些拥有完整呼叫中心的大公司竞争。  但是，我不太确定从哪里开始。我看过 Your Atlas、Myaifrontdesk 和 Synthflow。两者都没有完全卖掉，但肯定有一个是我喜欢的。  有人知道其中最好的一个吗？   由   提交/u/ntpotts89  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s1venu/ai_phone_receptionistbooker/</guid>
+      <pubDate>Mon, 23 Mar 2026 22:13:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何自动化 AGB 沙盒上的整个 B2B 研究。</title>
+      <link>https://www.reddit.com/r/automation/comments/1s1uwcc/how_i_automated_my_entire_b2b_research_on_agb/</link>
+      <description><![CDATA[由自主研究人员代替 40 小时的体力工作。它在隔离的 AGB 会话上 24/7 运行。   由   提交 /u/canoesenpai   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s1uwcc/how_i_automated_my_entire_b2b_research_on_agb/</guid>
+      <pubDate>Mon, 23 Mar 2026 21:53:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 n8n 中为一家管道公司构建了一个未接来电短信分类系统。 8 个节点，/月。这是架构</title>
+      <link>https://www.reddit.com/r/automation/comments/1s1uown/built_a_missedcall_sms_triage_system_in_n8n_for_a/</link>
+      <description><![CDATA[u/e46 想要分享这个，因为我花在上面的时间比我预期的要多，也许其他人节省了几个小时。 客户：管道公司。问题：58% 的下班后电话会转到语音信箱。来电者没有留言。他们只是给谷歌上的下一个水管工打电话。所有者正在运行 Google 广告，并且不知道大部分流量都进入了语音信箱并离开。 系统有 8 个节点： twilio webhook 捕获未接来电通知。立即向呼叫者发送一条短信：“嘿，我们刚刚错过了您的电话，您需要什么？” 客户回复。 openai 对消息进行分类。我用大约 40 条示例消息对其进行了训练。水管爆裂、煤气味、冬天没有暖气=紧急。 “我想要报价”或“有关定价的问题”=不紧急。 如果紧急：通过短信发送到所有者的手机，其中包含来电者的号码及其确切消息。业主决定是否回电。 如果不紧急：向客户发送确认短信，告知有人在早上跟进。条目已添加到airtable中的队列中。 就是这样。 twilio 和 openai 之间的费用总计约为 8-9 美元/月。按消息定价意味着它基本上不会扩展。 3 个月后的结果：回复率从大约 40% 上升到 93%。最大的收获不是紧急路由，而是最初的短信回复。客户不知道他们已经达成了真正的业务。一旦他们收到短信，他们就会继续对话。 令我惊讶的一件事是：分类准确性比预期要好。 400 条消息中可能有 2 条错误分类。40 个少量示例完成了大部分工作。 如果有用的话，很乐意在注释中写出确切的节点结构。   由   提交 /u/damn_brotha   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s1uown/built_a_missedcall_sms_triage_system_in_n8n_for_a/</guid>
+      <pubDate>Mon, 23 Mar 2026 21:46:00 GMT</pubDate>
+    </item>
     <item>
       <title>您最独特的工作流程是什么？</title>
       <link>https://www.reddit.com/r/automation/comments/1s1szu2/whats_your_most_unique_workflow/</link>
@@ -41,13 +62,6 @@
       <pubDate>Mon, 23 Mar 2026 19:39:35 GMT</pubDate>
     </item>
     <item>
-      <title>教育科技创始人痴迷于课程。他们的行动正在悄悄地杀死他们。</title>
-      <link>https://www.reddit.com/r/automation/comments/1s1qyrb/edtech_founders_obsess_over_curriculum_their_ops/</link>
-      <description><![CDATA[最近与一些教育科技创始人交谈。敏锐的人。好产品。同一伤口都在流血。 一位负责人在午夜填写一张表格。直到早上都没人跟进。那时他们已经在其他地方注册了。这不是销售问题。这是一个速度问题。 这是我一直看到的：- 𝐌𝐚𝐧𝐮𝐚𝐥 𝐟𝐨𝐥𝐥𝐨𝐰-𝐮𝐩𝐬 𝐞𝐚𝐭𝐢𝐧𝐠 𝟑-𝟒𝐡𝐨𝐮𝐫𝐬𝐚𝐝𝐚𝐲。 𝐅𝐞𝐞𝐫𝐞𝐦𝐢𝐧𝐝𝐞𝐫𝐬 𝐬𝐞𝐧𝐭 𝐛𝐲 𝐰𝐡𝐨𝐞𝐯𝐞𝐫 𝐡𝐚𝐬 𝐚 𝐟𝐫𝐞𝐞 𝐦𝐨𝐦𝐞𝐧𝐭。 𝐃𝐞𝐦𝐨𝐧𝐨-𝐬𝐡𝐨𝐰𝐬𝐰𝐢𝐭𝐡𝐳𝐞𝐫𝐨 𝐫𝐞-𝐞𝐧𝐠𝐚𝐠𝐞𝐦𝐞𝐧𝐭𝐬𝐲𝐬𝐭𝐞𝐦。 𝐒𝐭𝐮𝐝𝐞𝐧𝐭𝐬 𝐝𝐫𝐨𝐩𝐩𝐢𝐧𝐠 𝐨𝐟𝐟 𝐬𝐢𝐥𝐞𝐧𝐭𝐥𝐲 𝐚𝐧𝐝 𝐧𝐨𝐛𝐨𝐝𝐲 𝐧𝐨𝐭𝐢𝐜𝐢𝐧𝐠 𝐟𝐨𝐫 𝐰𝐞𝐞𝐤𝐬。 收入泄漏不是产品。一切都围绕着它。 与我合作的一位创始人在我们自动接收后，领导响应时间从 9 小时缩短到不到 5 分钟。  仅仅这一点改变就改变了局面。没有人谈论这个，因为它不性感。课程很性感。  自动化后续序列并不是一场会议演讲。但这就是扩大规模和保持忙碌之间的区别。 真正成长的教育科技创始人并不更聪明。他们只是停止在凌晨 2 点睡觉时手动执行简单工作流程可以处理的事情。 𝐖𝐡𝐚𝐭&#39;𝐬 𝐭𝐡𝐞 𝐦𝐨𝐬𝐭 𝐭𝐢𝐦𝐞-𝐜𝐨𝐧𝐬𝐮𝐦𝐢𝐧𝐠 𝐦𝐚𝐧𝐮𝐚𝐥 𝐭𝐡𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐭𝐞𝐚𝐦𝐝𝐨𝐞𝐬𝐭𝐡𝐚𝐭𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲𝐬𝐡𝐨𝐮𝐥𝐝𝐧&#39;𝐭 𝐛𝐞𝐦𝐚𝐧𝐮𝐚𝐥𝐚𝐭𝐭𝐡𝐢𝐬𝐩𝐨𝐢𝐧𝐭？   由   提交 /u/Upper_Bass_2590   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s1qyrb/edtech_founders_obsess_over_curriculum_their_ops/</guid>
-      <pubDate>Mon, 23 Mar 2026 19:31:54 GMT</pubDate>
-    </item>
-    <item>
       <title>我对理发师的整个预订系统进行了自动化，30 天内缺席率下降了 80%。这是实际有效的。</title>
       <link>https://www.reddit.com/r/automation/comments/1s1nyok/i_automated_a_barbers_entire_booking_system_and/</link>
       <description><![CDATA[与我合作的一位理发师每周因缺席而失去 2 到 3 个客户。每月大约需要 400 至 600 美元。他尝试手动收取取消费用，但无法强制执行。卡片会被拒绝，客户会消失，而他只会承担损失。 因此，我们建立了一个简单的自动化堆栈：  预订时需要存档卡片（自动收集，没有尴尬的对话） 在预约前 24 小时和 2 小时发送提醒短信 如果他们没有确认 2 小时提醒，则空位会打开，等待名单上的下一个人会收到通知自动 误机费会从存档的卡中扣除。无需追赶人员。  第一个月：缺席人数从每月 10 至 12 人减少到 2 人。 仅提醒短信就完成了大部分繁重的工作。人们只是忘记了。他们并不是想把你搞砸。一句简单的“嘿，明天下午 2 点你要和 Marcus 进行一次剪辑，请回复 YES 确认”修复了 80% 的问题。 整个设置花了大约 3 个小时。他什么也没碰。它只是运行。 如果您经营任何基于预约的业务（沙龙、美容、培训等）并且缺席让您精疲力竭，很高兴分享有关确切设置的更多详细信息。   由   提交/u/FokasuSensei   [链接] [评论]]]></description>
@@ -55,18 +69,11 @@
       <pubDate>Mon, 23 Mar 2026 17:46:27 GMT</pubDate>
     </item>
     <item>
-      <title>n8n 还是 OpenClaw？检查文件并将其放入正确的文件夹中</title>
-      <link>https://www.reddit.com/r/automation/comments/1s1leb9/n8n_or_openclaw_checking_documents_and_putting/</link>
-      <description><![CDATA[我想构建一个自动化程序，根据 AI 提取的信息将 PDF 文档分类到 OneDrive 中。 工作流程： 新文件到达“收件箱”中。文件夹。 AI 分析文档并提供两项数据：客户名称和类别（例如，“发票”或“许可证”）。 然后文件应自动移动到此特定路径：文件夹/[姓名首字母]/[全名]/[类别]/File.pdf 问题：此目标路径是动态的（它会随时间变化）客户）。在 n8n 中，这被证明是极其困难的，因为 OneDrive 节点需要在每个级别搜索特定的文件夹 ID（首字母 -&gt; 名称 -&gt; 类别）。此外，如果文件夹尚不存在，该过程就会失败。 我的问题：是否有一个工具（如 OpenClaw 或其他工具）可以简单地处理基于文本的路径并自动创建任何丢失的子文件夹？或者对于这种深层的动态文件夹结构来说，n8n 是错误的工具，因为它需要太多的手动“搜索”操作。和“创建”每个级别的步骤？   由   提交/u/lukaszadam_com   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s1leb9/n8n_or_openclaw_checking_documents_and_putting/</guid>
-      <pubDate>Mon, 23 Mar 2026 16:17:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果我们不必在人工智能和人类之间做出选择怎么办？</title>
-      <link>https://www.reddit.com/r/automation/comments/1s1ku3o/what_if_we_dont_have_to_choose_between_ai_and/</link>
-      <description><![CDATA[我认为被低估的观点是，它不必那么极端，黑色或白色。就像人类或人工智能一样。我认为真相和未来更加微妙，而且我认为这个概念对人们来说更加可怕。因为如果我们不必选择人工智能艺术或人类艺术怎么办？如果真相介于两者之间怎么办？电子音乐完全是数字化的，非常棒，摇滚音乐是由现实生活中的音乐家演奏的，非常棒。嘻哈音乐可能会将电子鼓与现场演奏的吉他结合起来。 我认为这更多的是让你感到满足并让你实现你想要创作的艺术，或者给你最愉快的创作过程。我认为这对每个人来说都是不同的，我们没有一个真理可以告诉每个人。就像人们更喜欢手写日记一样，其他人更喜欢数字写作。 同时，对我来说，关于整个主题还有很多未解答的问题；例如，如果我真的很喜欢说唱但不想产生节拍，我是否只使用人工智能生成的节拍？ idkkkkkk。但我所知道的是，事实将介于两者之间。和一些人&amp;艺术家将更加接近人工智能，也更加接近人类的创造。就像有些人仍然想学习吉他，而其他人则在他们的 DAW 中采样吉他循环一样。 人们喜欢两极分化：关注政治、取消文化等。某件事要么是 100% 好，要么是 100% 坏。但我认为中间的事实更加微妙。 很想听听你的想法！   由   提交 /u/chaptersam   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s1ku3o/what_if_we_dont_have_to_choose_between_ai_and/</guid>
-      <pubDate>Mon, 23 Mar 2026 15:58:13 GMT</pubDate>
+      <title>为客户构建 WhatsApp 自动化堆栈——以下是产生最大影响的 3 个工作流程</title>
+      <link>https://www.reddit.com/r/automation/comments/1s1kcr8/built_a_whatsapp_automation_stack_for_a_client/</link>
+      <description><![CDATA[有一位客户几乎完全通过 WhatsApp 经营咨询业务。预订电话、回答问题、追索发票、吸引新客户——全部通过聊天手动进行。 他们每天花 3-4 小时来管理 WhatsApp 对话。使用 n8n 为他们构建了一个自动化堆栈，以下是影响最大的 3 个工作流程： 1。 AI预约 客户发送“我可以预约下周二的电话吗？”该机器人可以理解自然语言，检查谷歌日历的可用性，并确认时间段——所有这些都无需人工参与。仅此一项就将他们的日程安排从每次预订 4-5 条消息减少到零。 2.付款后续推动 连接到 Stripe。当发票未付款时，WhatsApp 将在第 1 天、第 3 天和第 7 天自动推送。付款结清后即停止。在此之前，他们手动检查 Stripe 并笨拙地向人们发送消息。收藏量提高了约 30%。 3.每日业务简报 每天早上 8 点：“您有 3 个新销售线索、2 张总计 1,400 美元的未结发票，以及下午 2 点与 Sarah 的通话。”发送到他们的 WhatsApp。他们不再打开 4 个不同的应用程序来弄清楚自己的一天是什么样的。 共同点：这些都不是复杂的人工智能项目。它们是相对简单的 webhook + API + 条件逻辑工作流程。困难的部分是理解 WhatsApp Business API（Meta 使其变得比实际需要的更加困难）并妥善处理边缘情况。 最大的教训：  WhatsApp 有 24 小时消息传递窗口。除此之外，您还需要预先批准的模板。预先为此做好计划。 始终有一个优雅的升级路径。当机器人无法处理某些事情时，请无缝地移交给人类，而不是仅仅失败。 速率限制很重要。如果您发送消息太快，WhatsApp 会限制您。 将所有配置放在一处。当客户想要更改预订时间或推送消息时，应该进行 30 秒的编辑，而不是重建工作流程。  还有其他人构建 WhatsApp 自动化吗？好奇人们正在处理哪些用例。   由   提交 /u/FlowArsenal   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s1kcr8/built_a_whatsapp_automation_stack_for_a_client/</guid>
+      <pubDate>Mon, 23 Mar 2026 15:40:40 GMT</pubDate>
     </item>
     <item>
       <title>有什么问题困扰了你多年，却有一个极其简单的解决方案？</title>
@@ -95,13 +102,6 @@
       <description><![CDATA[我上个月终于做到了。调出 Zapier 账单，一一查看每一个活跃的 Zap。发现 11 个工作流程仍在运行。其中三个是我们在去年第三季度取消的一项产品功能。其中两个是某人“只是为了测试”而制作的复制品。其中一个是向不再存在的频道发送 Slack 通知。 280 美元/月。走了。 清理完房子后，我还完全关闭了 Zapier 剩余的关键工作流程。当您规模较小时，按任务定价模型效果很好，但一旦您具有带有分支逻辑的循环或多步骤流程，它就会快速复合。我转向 NoClick 主要是因为 BYOK 模式。插入我自己的 OpenAI 密钥后，现在我只需为实际运行的计算付费。每月自动化费用从 280 美元降至 44 美元。 迁移花了一个周末。我保留的 8 个工作流程总共在大约 6 小时内重建完成。虽然不是轻松，但数学是显而易见的。 我没想到的是：我们两个人现在可以同时编辑工作流程，而无需互相干扰。之前我们曾因同时编辑而意外破坏了 Zap。仅此一点就减少了周一早上的某种特定压力。 无论如何，都要进行审核。即使您不进行任何更改，至少也知道您要支付什么费用。   由   提交 /u/Accurate_Session_152   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1s1g4g7/audited_our_automation_stack_last_month_found/</guid>
       <pubDate>Mon, 23 Mar 2026 12:57:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能工作流程工具实际上可以取代传统的自动化来完成简单的重复性任务吗</title>
-      <link>https://www.reddit.com/r/automation/comments/1s17eqk/can_ai_workflow_tools_actually_replace/</link>
-      <description><![CDATA[最近一直在思考这个问题。我在工作中混合使用这两种工具，老实说，对于数据输入或例行报告等非常简单的事情，旧的基于规则的工具仍然感觉更可靠。当输入变化很大时，人工智能工具非常有用，但对于可预测的任务，我会不断怀疑自己是否真的需要额外的复杂性。无声的失败也让我着迷，至少像 Make 或 Power Automate 这样的东西，你知道它什么时候坏了。有人完全转向基于人工智能的工作流程来处理无聊的重复性工作，还是您仍在保留传统工具来处理稳定的任务？   由   提交 /u/Such_Grace   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s17eqk/can_ai_workflow_tools_actually_replace/</guid>
-      <pubDate>Mon, 23 Mar 2026 04:38:32 GMT</pubDate>
     </item>
     <item>
       <title>对于多动症来说，最好的自动化是什么？</title>
