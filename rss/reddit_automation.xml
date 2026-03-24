@@ -4,7 +4,7 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Tue, 24 Mar 2026 01:43:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 04:50:35 GMT</lastBuildDate>
     <item>
       <title>AI电话接待员/预订员</title>
       <link>https://www.reddit.com/r/automation/comments/1s1venu/ai_phone_receptionistbooker/</link>
@@ -69,6 +69,13 @@
       <pubDate>Mon, 23 Mar 2026 17:46:27 GMT</pubDate>
     </item>
     <item>
+      <title>如果我们不必在人工智能和人类之间做出选择怎么办？</title>
+      <link>https://www.reddit.com/r/automation/comments/1s1ku3o/what_if_we_dont_have_to_choose_between_ai_and/</link>
+      <description><![CDATA[我认为被低估的观点是，它不必那么极端，黑色或白色。就像人类或人工智能一样。我认为真相和未来更加微妙，而且我认为这个概念对人们来说更加可怕。因为如果我们不必选择人工智能艺术或人类艺术怎么办？如果真相介于两者之间怎么办？电子音乐完全是数字化的，非常棒，摇滚音乐是由现实生活中的音乐家演奏的，非常棒。嘻哈音乐可能会将电子鼓与现场演奏的吉他结合起来。 我认为这更多的是让你感到满足并让你实现你想要创作的艺术，或者给你最愉快的创作过程。我认为这对每个人来说都是不同的，我们没有一个真理可以告诉每个人。就像人们更喜欢手写日记一样，其他人更喜欢数字写作。 同时，对我来说，关于整个主题还有很多未解答的问题；例如，如果我真的很喜欢说唱但不想产生节拍，我是否只使用人工智能生成的节拍？ idkkkkkk。但我所知道的是，事实将介于两者之间。和一些人&amp;艺术家将更加接近人工智能，也更加接近人类的创造。就像有些人仍然想学习吉他，而其他人则在他们的 DAW 中采样吉他循环一样。 人们喜欢两极分化：关注政治、取消文化等。某件事要么是 100% 好，要么是 100% 坏。但我认为中间的事实更加微妙。 很想听听你的想法！   由   提交 /u/chaptersam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s1ku3o/what_if_we_dont_have_to_choose_between_ai_and/</guid>
+      <pubDate>Mon, 23 Mar 2026 15:58:13 GMT</pubDate>
+    </item>
+    <item>
       <title>为客户构建 WhatsApp 自动化堆栈——以下是产生最大影响的 3 个工作流程</title>
       <link>https://www.reddit.com/r/automation/comments/1s1kcr8/built_a_whatsapp_automation_stack_for_a_client/</link>
       <description><![CDATA[有一位客户几乎完全通过 WhatsApp 经营咨询业务。预订电话、回答问题、追索发票、吸引新客户——全部通过聊天手动进行。 他们每天花 3-4 小时来管理 WhatsApp 对话。使用 n8n 为他们构建了一个自动化堆栈，以下是影响最大的 3 个工作流程： 1。 AI预约 客户发送“我可以预约下周二的电话吗？”该机器人可以理解自然语言，检查谷歌日历的可用性，并确认时间段——所有这些都无需人工参与。仅此一项就将他们的日程安排从每次预订 4-5 条消息减少到零。 2.付款后续推动 连接到 Stripe。当发票未付款时，WhatsApp 将在第 1 天、第 3 天和第 7 天自动推送。付款结清后即停止。在此之前，他们手动检查 Stripe 并笨拙地向人们发送消息。收藏量提高了约 30%。 3.每日业务简报 每天早上 8 点：“您有 3 个新销售线索、2 张总计 1,400 美元的未结发票，以及下午 2 点与 Sarah 的通话。”发送到他们的 WhatsApp。他们不再打开 4 个不同的应用程序来弄清楚自己的一天是什么样的。 共同点：这些都不是复杂的人工智能项目。它们是相对简单的 webhook + API + 条件逻辑工作流程。困难的部分是理解 WhatsApp Business API（Meta 使其变得比实际需要的更加困难）并妥善处理边缘情况。 最大的教训：  WhatsApp 有 24 小时消息传递窗口。除此之外，您还需要预先批准的模板。预先为此做好计划。 始终有一个优雅的升级路径。当机器人无法处理某些事情时，请无缝地移交给人类，而不是仅仅失败。 速率限制很重要。如果您发送消息太快，WhatsApp 会限制您。 将所有配置放在一处。当客户想要更改预订时间或推送消息时，应该进行 30 秒的编辑，而不是重建工作流程。  还有其他人构建 WhatsApp 自动化吗？好奇人们正在处理哪些用例。   由   提交 /u/FlowArsenal   [链接] [评论]]]></description>
@@ -81,13 +88,6 @@
       <description><![CDATA[有时，我们多年来一直在处理同样烦人的问题，却没有意识到有一个简单的解决办法。 有一天，你发现了解决方案，并为自己没有早点学习而感到有点恼火。 我很好奇人们解决的哪些问题最终比预期简单得多。 你遇到的一个问题，有哪一个问题出奇地简单？解决方案？ 很想听听： • 问题是什么 • 您处理它花了多长时间 • 您最终是如何解决的 • 修复是否长期有效 可能是技术、生活、工作、家庭或其他任何事情。 如果解决方案简单得令人尴尬，则加分。   由   提交/u/SMBowner_  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1s1k4ah/whats_a_problem_you_struggled_with_for_years_that/</guid>
       <pubDate>Mon, 23 Mar 2026 15:32:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>针对无法编码的多动症大脑的人工智能自动化工具——实际上很有用</title>
-      <link>https://www.reddit.com/r/automation/comments/1s1h3gl/ai_automation_tools_for_adhd_brains_that_cant/</link>
-      <description><![CDATA[所以我最近一直在研究 AI 自动化工具如何帮助那些不太懂技术的多动症患者。老实说，这比我预期的更有趣。最重要的是，这些工具可以自动处理无聊的重复性工作，例如对电子邮件进行排序、发送后续信息、将任务分解为更小的步骤，因此您的大脑不必不断地进行上下文切换。这种认知开销对于多动症来说确实是残酷的，卸载它会带来真正的改变。我经常看到的一些工具包括 Goblin Tools（Magic ToDo 功能非常适合将任务分解为细粒度的步骤）、用于可视化调度的 Tiimo 以及 Taskade，它显然与 Gmail 和 Slack 集成，基本上可以在自动驾驶仪上运行您的工作流程。它们都不需要任何编码知识，这是关键。还有多动症大脑要处理的时间盲目性问题，其中一些较新的人工智能工具开始估计任务持续时间，并根据您的实际模式而不只是固定时间发送自适应提醒。我认为这实际上可以长期帮助人们。不过，我一直看到的争论是，这些东西是否真正解决了根本问题，或者只是创造了一个拐杖。可能落在中间的某个地方。人工智能在处理平凡的重复性任务方面表现出色，但它仍然需要人们围绕它建立一些基本习惯。好奇这里是否有人实际上专门为 ADHD 管理设置了自动化工作流程以及什么对您有用？   由   提交/u/Daniel_Janifar   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s1h3gl/ai_automation_tools_for_adhd_brains_that_cant/</guid>
-      <pubDate>Mon, 23 Mar 2026 13:37:13 GMT</pubDate>
     </item>
     <item>
       <title>经过 15 天的奋斗，我微笑着看着我的 OpenClaw 设置。分享 OpenClaw 设置指南</title>
