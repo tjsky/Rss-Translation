@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Thu, 26 Mar 2026 01:55:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 05:01:55 GMT</lastBuildDate>
+    <item>
+      <title>有没有办法在推文中抓取 Twitter/X 的回复？</title>
+      <link>https://www.reddit.com/r/automation/comments/1s3xugx/is_there_a_way_to_scrape_twitter_x_for_replies/</link>
+      <description><![CDATA[正如这篇文章所暗示的，我希望了解用户对人工智能世界中发布的新功能的流行推文的看法。有时候有1000条回复，不可能手动遍历全部，所以我们随机抽样，看100条回复，这仍然很乏味。尝试了解如何最好地完成它   由   提交/u/slacky35  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s3xugx/is_there_a_way_to_scrape_twitter_x_for_replies/</guid>
+      <pubDate>Thu, 26 Mar 2026 04:36:22 GMT</pubDate>
+    </item>
     <item>
       <title>Gmail 自动化</title>
       <link>https://www.reddit.com/r/automation/comments/1s3tzal/gmail_automation/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[我想以此作为序言，说我对自动化并不陌生。我建立外展系统已有大约 4 年的时间。抓取工具、丰富流程、GPT 提示链，所有这些。 因此，当我听到人们谈论使用 Claude Code 大规模个性化冷邮件时，我就是评论中说“这只是奇特的邮件合并，冷静点。”的人。 我错了。 这就是我之前所做的：我有一个 Python 脚本、一个包含大约 14 个变量的提示模板，以及一个我手动在其中的电子表格。研究每个潜在客户并填写这些变量。 对于 300 个潜在客户的列表，在发送一封电子邮件之前大约需要 11-12 个小时的工作时间。个性化很好。不尴尬。但对于担任类似角色的每个人来说，这也是一样的。 我尝试的做法是：我给了 Claude Code 一份包含潜在客户的 CSV 文件——公司名称、LinkedIn URL、一些抓取的数据点——并告诉它编写一个 bash 脚本来研究每个潜在客户并生成个性化的第一行。 那种引用真实内容的行。最近的一轮融资、特定产品的发布、他们三周前写的 LinkedIn 帖子。 它构建了整个事情。异步请求、速率限制、输出回 CSV。我没有写一行代码。 真正让我惊讶的部分是：它生成的电子邮件听起来不像人工智能写的。他们听起来像是花了 10 分钟实际考察公司的人。不是“我看到你在金融科技领域工作”，而是“我看到你在金融科技领域工作”。 — 更像是“恭喜完成 A 轮融资，考虑到目前的市场，转向中小型企业是有意义的。” 我发送了两批邮件 — 使用旧方法发送了 150 封电子邮件，使用新流程发送了 150 封电子邮件。 我的旧系统上的回复率：4.1%。 新批次：在相同的 2 周窗口内回复率为 9.3%。 我还没有准备好将其称为永恒的真理。可能是列表质量。可能是时机。但我正在用更大的发送量再次测试它。 我承认我仍然不完全信任这一点：我不知道上限是多少。我可以在发送之前看到每个线索的输出，因此我捕捉到了奇怪的幻觉细节（在没有收购的情况下“恭喜您最近收购”）。 这种情况可能发生在 40 个线索中就有 1 个。不是破坏交易，但也不是没有。 还有其他人通过 Claude Code 运行冷电子邮件吗？ 好奇人们是否看到了类似的提升，或者我的测试是否太小而没有任何意义。   由   提交/u/tushardey_  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1s3537v/i_spent_months_building_my_cold_email/</guid>
       <pubDate>Wed, 25 Mar 2026 08:34:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>销售团队每周一都会因报告而失败。我们修好了</title>
-      <link>https://www.reddit.com/r/automation/comments/1s32pwn/a_sales_team_was_losing_every_monday_to_reports/</link>
-      <description><![CDATA[每个星期一，大型销售团队中的两个人都会花半天时间做同样的事情。 从 CRM 中提取数据。粘贴到电子表格中。追踪区域领导以获取更新。格式化所有内容。发送报告。 14 个步骤。 4个数据源。手工完成。每个星期。 没有人质疑它，因为它一直都是这样工作的。 我们绘制了整个工作流程并实现了端到端的自动化。现在，在任何人坐在办公桌前之前，报告就已到达领导层的收件箱。 70% 的时间已经过去了。 但是，在我们发送报告后，他们的运营经理的那句话一直困扰着我： “我没有意识到我一周有多少时间只是在移动数据。” 这是没人谈论的隐藏成本。 最重复的事情是什么还在浪费你团队的时间吗？   由   提交 /u/ZealousidealAd9886   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s32pwn/a_sales_team_was_losing_every_monday_to_reports/</guid>
-      <pubDate>Wed, 25 Mar 2026 06:08:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
