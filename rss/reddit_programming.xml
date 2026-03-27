@@ -4,7 +4,42 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 27 Mar 2026 09:51:36 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 12:56:29 GMT</lastBuildDate>
+    <item>
+      <title>TurboQuant：通过极限压缩重新定义人工智能效率</title>
+      <link>https://www.reddit.com/r/programming/comments/1s52ded/turboquant_redefining_ai_efficiency_with_extreme/</link>
+      <description><![CDATA[ 由   提交/u/yusufaytas  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s52ded/turboquant_redefining_ai_efficiency_with_extreme/</guid>
+      <pubDate>Fri, 27 Mar 2026 12:14:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>别给那头牦牛剃毛！ （我们如何将 Go 添加到 Visual Studio）</title>
+      <link>https://www.reddit.com/r/programming/comments/1s523ig/dont_shave_that_yak_how_we_added_go_to_visual/</link>
+      <description><![CDATA[大家好，作者在此。 TL;DR：我们希望在主项目中使用 Go 代码，但无需离开 Visual Studio。所以我们开始了“周末规模”的活动。将 Go 集成到 VS 的任务，并在此过程中发现了一些东西。   由   提交/u/axkotti   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s523ig/dont_shave_that_yak_how_we_added_go_to_visual/</guid>
+      <pubDate>Fri, 27 Mar 2026 12:01:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>从头开始用 Python 构建纳维-斯托克斯求解器：模拟气流</title>
+      <link>https://www.reddit.com/r/programming/comments/1s51jwl/building_a_navierstokes_solver_in_python_from/</link>
+      <description><![CDATA[ 由   提交/u/Georgiou1226   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s51jwl/building_a_navierstokes_solver_in_python_from/</guid>
+      <pubDate>Fri, 27 Mar 2026 11:35:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>TeamPCP 再次出击——PyPI 上的 telnyx 4.87.1 和 4.87.2 是恶意的</title>
+      <link>https://www.reddit.com/r/programming/comments/1s50g5t/teampcp_strikes_again_telnyx_4871_and_4872_on/</link>
+      <description><![CDATA[与上周的 litellm 泄露相同的参与者、相同的 RSA 密钥、相同的 tpcp.tar.gz 渗漏标头。 这次他们注入 telnyx/_client.py - 在 import telnyx 上触发，无需用户交互。新技巧：使用隐写术将有效负载隐藏在 WAV 音频文件中，以绕过网络检查。 在 Linux/macOS 上：窃取凭据，使用 AES-256 + RSA-4096 加密，渗透到他们的 C2。在 Windows 上：在启动文件夹中放置一个名为 msbuild.exe 的持久二进制文件。 他们甚至推出了一个快速的 4.87.2 错误修复程序，以修复破坏 Windows 路径的大小写错误。这些人正在关注。固定到 telnyx==4.87.0。如果您安装了任一版本，请轮换信用。 在此处使用 IoC 进行全面分析 https://safedep.io/malicious-telnyx-pypi-compromise/   由   提交/u/No_Plan_3442   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s50g5t/teampcp_strikes_again_telnyx_4871_and_4872_on/</guid>
+      <pubDate>Fri, 27 Mar 2026 10:36:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenTelemetry 配置文件进入公开 Alpha 版</title>
+      <link>https://www.reddit.com/r/programming/comments/1s506cy/opentelemetry_profiles_enters_public_alpha/</link>
+      <description><![CDATA[ 由   提交/u/yusufaytas   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s506cy/opentelemetry_profiles_enters_public_alpha/</guid>
+      <pubDate>Fri, 27 Mar 2026 10:21:34 GMT</pubDate>
+    </item>
     <item>
       <title>想要有关我的编码技能的反馈</title>
       <link>https://www.reddit.com/r/programming/comments/1s4ziv5/want_feedback_on_my_coding_skills/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[是否有其他人在做教程时发现自己的选项卡混乱。特别是需要遵循多个源和文档/自述文件来进行混音等操作。   由   提交/u/BruhMomentBruhuno   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s4tupd/i_am_working_on_something_to_make_following/</guid>
       <pubDate>Fri, 27 Mar 2026 04:07:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据库性能瓶颈：N+1查询、索引缺失、连接池</title>
-      <link>https://www.reddit.com/r/programming/comments/1s4s96t/database_performance_bottlenecks_n1_queries/</link>
-      <description><![CDATA[ 由   提交 /u/Itchy-Warthog8260   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s4s96t/database_performance_bottlenecks_n1_queries/</guid>
-      <pubDate>Fri, 27 Mar 2026 02:52:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>量子前沿可能比看起来更接近 - Google 的 PQC 迁移时间表</title>
-      <link>https://www.reddit.com/r/programming/comments/1s4s0m1/quantum_frontiers_may_be_closer_than_they_appear/</link>
-      <description><![CDATA[ 由   提交 /u/CircumspectCapybara   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s4s0m1/quantum_frontiers_may_be_closer_than_they_appear/</guid>
-      <pubDate>Fri, 27 Mar 2026 02:41:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>🚀 隆重推出 Reon——一种本地连接和交易的新方式！</title>
-      <link>https://www.reddit.com/r/programming/comments/1s4qny1/introducing_reon_a_new_way_to_connect_and_trade/</link>
-      <description><![CDATA[我一直在构建一些小而强大的东西：Reon，一个网络应用程序，旨在帮助我们社区中的人们销售未使用的物品并轻松提供服务。 现在，它作为一个网络应用程序上线 - 简单、快速且随时可用。我的愿景是让 Reon 成为一个值得信赖的市场，既让人感觉专业，又能让任何人轻松加入。 这只是一个开始。我会不断改进它，我希望您能够尝试一下，分享反馈，并与我一起成长。 👉 查看：社区中心 👉 告诉我您的想法 - 每个想法都有助于塑造 Reon 的未来 [loxeli101@gmail.com](mailto:loxeli101@gmail.com)   由   提交/u/Mountain_Primary_872   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s4qny1/introducing_reon_a_new_way_to_connect_and_trade/</guid>
-      <pubDate>Fri, 27 Mar 2026 01:41:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Petri 网作为音乐音序器——使用令牌环、抑制弧和欧几里得节奏来生成确定性曲目。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s4nuem/petri_nets_as_music_sequencers_using_token_rings/</link>
-      <description><![CDATA[ 由   提交/u/orksliver  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s4nuem/petri_nets_as_music_sequencers_using_token_rings/</guid>
-      <pubDate>Thu, 26 Mar 2026 23:40:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>我与编程语言的故事</title>
-      <link>https://www.reddit.com/r/programming/comments/1s4d2ce/my_story_with_programming_languages/</link>
-      <description><![CDATA[您好！我很高兴与您分享我从 16 岁到现在与编程语言的故事！   由   提交 /u/Ok-Razzmatazz-6125   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s4d2ce/my_story_with_programming_languages/</guid>
-      <pubDate>Thu, 26 Mar 2026 16:55:41 GMT</pubDate>
     </item>
     </channel>
 </rss>

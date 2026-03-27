@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 27 Mar 2026 09:52:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 12:57:30 GMT</lastBuildDate>
+    <item>
+      <title>使用 Tauri 构建开源 Julia IDE – 10MB 安装、完整的 LSP 和调试器</title>
+      <link>https://www.reddit.com/r/opensource/comments/1s4zo9u/built_an_open_source_julia_ide_with_tauri_10mb/</link>
+      <description><![CDATA[使用 Tauri 2 构建 JulIDE，作为 VSCode 的轻量级替代方案，用于 Julia 开发。 堆栈： Tauri 2   React + Monaco 编辑器 Rust 后端（LSP、PTY、容器运行时） 功能：  - 完整的 LSP 支持 - 集成调试器  - 支持 X11 转发的开发容器 - Git 集成 它处于测试阶段，因此预计会出现错误， 但非常欢迎反馈！ GitHub：https://github.com/sinisterMage/JulIde    由   提交/u/ineedtocry05  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1s4zo9u/built_an_open_source_julia_ide_with_tauri_10mb/</guid>
+      <pubDate>Fri, 27 Mar 2026 09:53:09 GMT</pubDate>
+    </item>
     <item>
       <title>我构建了 SceneDream：一个 LLM 管道，它接收基于文本的故事并自动生成最佳场景的图像。</title>
       <link>https://www.reddit.com/r/opensource/comments/1s4vzuw/i_built_scenedream_an_llm_pipeline_that_takes_in/</link>
@@ -62,7 +69,7 @@
       <pubDate>Wed, 25 Mar 2026 18:02:22 GMT</pubDate>
     </item>
     <item>
-      <title>免费 DAW 的情况。 Ardoir 福斯怎么样？</title>
+      <title>免费 DAW 的情况。 Ardoir FOSS 怎么样？</title>
       <link>https://www.reddit.com/r/opensource/comments/1s3hy9o/the_free_daw_situation_how_is_ardoir_foss/</link>
       <description><![CDATA[我是一名音乐老师，教 5-10 岁范围内的低收入儿童。我是一名数字音频专家，我希望能够自信地教他们一个高质量、跨平台的免费 DAW，而不是不断地尝试向他们推销东西。 REAPER 是我在个人生活中使用的工具，但它不会在专业环境中使用，因为它不是免费的（winrar 类型的许可证）。 LMMS 可以，但他们不能用它来录制自己的说唱，而这正是他们想做的事情。只剩下Ardoir了。他们在 fsf.org 上链接到它，它一定是免费的，对吧？然后，当我转到该页面时，免费版本是一个演示版，其曲目有限，并且每 10 分钟输出一次静音。  什么给了？如果这是真正免费获得它的唯一方法，我不会教一群 7 岁的孩子从头开始编译它。有没有比我不知道的 LMMS 更好的替代方案？或者我注定要教他们在 LMMS 中混音并让他们用...（颤抖）...  ...  Audacity！？ &lt;！-- SC_ON --&gt;  由   提交/u/prester_john00   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1s3hy9o/the_free_daw_situation_how_is_ardoir_foss/</guid>
@@ -102,13 +109,6 @@
       <description><![CDATA[免责声明：我是本文的作者&amp;项目:)   由   提交/u/pylessard  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1s2xk3g/debug_visualize_and_test_embedded_cc_through/</guid>
       <pubDate>Wed, 25 Mar 2026 01:50:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个 vercel 网站上有 70 多个免费开发工具 — JSON、正则表达式、哈希、梯度、API、solana 工具等</title>
-      <link>https://www.reddit.com/r/opensource/comments/1s2wp27/70_free_dev_tools_on_one_vercel_site_json_regex/</link>
-      <description><![CDATA[一直在构建一个免费的开发工具网站。现在有 70 多个页面，全部在 vercel 免费层上： 开发工具：json 格式化程序、base64、正则表达式测试器、哈希生成器、JWT 解码器、差异查看器 Web 工具：渐变生成器、元标签、favicon 创建器、颜色选择器、CSS 压缩器 API：随机数据、占位符图像、密码生成器、solana 令牌扫描器 solana：钱包检查器、价格跟踪器、空投扫描器、NFT 检查器、质押计算 一切都是免费的，无需注册，开放使用。 devtools-site-delta.vercel.app   由   提交 /u/Krbva   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1s2wp27/70_free_dev_tools_on_one_vercel_site_json_regex/</guid>
-      <pubDate>Wed, 25 Mar 2026 01:12:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
