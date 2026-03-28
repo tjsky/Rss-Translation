@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 28 Mar 2026 01:48:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 04:52:21 GMT</lastBuildDate>
+    <item>
+      <title>类似 Rails/Laravel 的强类型函数语言框架</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5p9lo/a_railslaravel_like_framework_for_a_strongly/</link>
+      <description><![CDATA[我一直在构建 Glimr，这是一个适用于 Gleam 的包含电池的 Web 框架，它是一种在 BEAM（Elixir 和 Erlang 背后的同一虚拟机）上运行的静态类型函数语言。 如果您熟悉 Rails、Laravel 或 Phoenix，那就是这个类别。路由、控制器、中间件、数据库迁移、身份验证脚手架、表单验证、CLI 等都包含在内，开箱即用。不同之处在于，所有内容都在编译时进行类型检查，并且类型非常严格，不能像使用“any”的 TS 那样真正规避。例如。 模板引擎 (Loom) 具有受 Phoenix LiveView 启发的服务器驱动的反应性。组件作为轻量级服务器进程运行，事件通过 WebSocket 传输，并且仅将差异发送到浏览器。 Gleam 严格的类型系统和功能特性也使该框架非常适合代理编码。编译器捕获了如此多的错误，使得人工智能辅助开发变得更加可靠。此外，由于一切都是纯函数且无副作用，因此编写测试往往非常简单，这使得代理可以轻松地进行重构，而不会破坏一百万件事并防止回归。 现在还为时过早，但基础很扎实，我很想听听这里社区的想法，特别是以前从未接触过 BEAM 生态系统的人们的想法。 网站：glimr.build 文档和入门模板：https://github.com/glimr-org/glimr 核心框架：https://github.com/glimr-org/framework   由   提交 /u/Beautiful_Exam_8301   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5p9lo/a_railslaravel_like_framework_for_a_strongly/</guid>
+      <pubDate>Sat, 28 Mar 2026 03:16:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>有其他人从他们的代码库中删除了 TypeScript</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5nu96/has_anyone_else_removed_typescript_from_their/</link>
+      <description><![CDATA[我们大约 3 个月前做了这件事，我不确定我是否是一个天才，或者我是否毁了一切 我是一家 40 人初创公司的技术主管。我们花费更多的时间来对抗类型系统而不是构建功能，因为每个 PR 都有与实际错误无关的类型错误注释。初级人员到处写any，而高级人员则编写 200 行看起来像象形文字的泛型类型，只是为了在两个组件之间传递字符串。一半的团队在回顾中承认，他们只是将类型错误粘贴到 chatgpt 中，直到红色波浪消失。 一个星期五，我删除了每个 .ts 文件，将所有内容转换为 .js，撕掉 tsconfig，推送到 main。 已经过去了 3 个月，冲刺速度翻了一番，没有人花 45 分钟在谷歌上搜索“打字稿条件映射交叉实用程序类型”。不再了。老实说，错误率上升了约 15%，但我会诚实地说，它们都在一天内被 QA 捕获。在我们花费 10 倍的时间来防止理论上永远不会发生的错误之前。 我一直在思考这是否是正确的选择，所以我想知道是否有其他人这样做过以及发生了什么，因为现在我的指标说是，但我的两位前辈仍然在站立时用肮脏的眼神看着我哈哈 编辑：为什么每个人都把这当作一件大事哈哈我只是问是否有人这样做过   由   提交/u/kubrador  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5nu96/has_anyone_else_removed_typescript_from_their/</guid>
+      <pubDate>Sat, 28 Mar 2026 02:07:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>有类似 UploadThing 但内置安全性的东西吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5nqjj/anything_like_uploadthing_but_with_security_built/</link>
+      <description><![CDATA[Uploadthing dx 非常棒，但文件验证只是表面级别/额外工作/容易欺骗。 我想知道是否存在诸如魔术字节检查等内容的端到端零信任。 现在感觉唯一的选择是将 s3 预签名 url + 随机库 + 自定义逻辑缝合在一起。感觉这可能只是一个简单的包或干净地抽象所有这些的东西（理想情况下也是一个简单的客户端 API）。就像采用 better-auth 的 dx 但用于文件一样。 好奇人们在做什么:)   由   提交 /u/reallyhotmail   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5nqjj/anything_like_uploadthing_but_with_security_built/</guid>
+      <pubDate>Sat, 28 Mar 2026 02:03:07 GMT</pubDate>
+    </item>
     <item>
       <title>存储用于在前端生成益智游戏的静态 JSON 文件的最佳方法？</title>
       <link>https://www.reddit.com/r/webdev/comments/1s5nefl/best_method_of_storing_static_json_files_that_are/</link>
@@ -29,14 +50,14 @@
     <item>
       <title>[Showoff Saturday] AgentMart — AI 代理买卖提示包、工具配置和知识库的市场</title>
       <link>https://www.reddit.com/r/webdev/comments/1s5kwuy/showoff_saturday_agentmart_a_marketplace_where_ai/</link>
-      <description><![CDATA[构建了agentmart.store——一个可重用AI代理组件的市场。 我一直遇到的问题：每个代理项目都是从头开始重建相同的组件。提示工程人员执行特定任务、工具配置、知识库格式化。没有可重用的层——没有相当于代理组件的 npm。 所以我构建了一个。卖家列出提示包、工具配置和知识库。买家直接下载并集成。没有实时代理进程，没有凭证访问——只有静态规范和资源。当产品是一个文件而不是一个正在运行的进程时，信任门槛要低得多。 构建它时有一些让我惊讶的事情： - 信任问题比市场问题更难。上市前审核对买家参与度的改变比其他任何事情都重要。 - 代理商不是正确的销售单位。开发人员需要组件，而不是整个代理。 - 开发者市场的启动是残酷的。我们首先关注卖家获取，并对目录大小保持透明。 寻求开发人员的反馈：每次启动新的代理项目时，您会发现自己需要重建哪些组件？   由   提交 /u/averageuser612   [链接] [评论]]]></description>
+      <description><![CDATA[构建了agentmart.store——一个可重用AI代理组件的市场。 我一直遇到的问题：每个代理项目都是从头开始重建相同的组件。提示工程人员执行特定任务、工具配置、知识库格式化。没有可重用的层——没有相当于代理组件的 npm。 所以我构建了一个。卖家列出提示包、工具配置和知识库。 Buyers download and integrate directly.没有实时代理进程，没有凭证访问——只有静态规范和资源。当产品是一个文件而不是一个正在运行的进程时，信任门槛要低得多。 构建它时有一些让我惊讶的事情： - 信任问题比市场问题更难。 Pre-listing review changed buyer engagement more than anything else. - 代理商不是正确的销售单位。 Developers want components, not whole agents. - 开发者市场的启动是残酷的。我们首先关注卖家获取，并对目录大小保持透明。 寻求开发人员的反馈：每次启动新的代理项目时，您会发现自己需要重建哪些组件？   由   提交 /u/averageuser612   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1s5kwuy/showoff_saturday_agentmart_a_marketplace_where_ai/</guid>
       <pubDate>Fri, 27 Mar 2026 23:56:04 GMT</pubDate>
     </item>
     <item>
       <title>开发人员通常对设计师有什么期望</title>
       <link>https://www.reddit.com/r/webdev/comments/1s5j3jh/what_do_devs_usually_expect_from_designers/</link>
-      <description><![CDATA[自一月份以来，我是一家小型营销机构的新毕业生设计师，我很困惑。开发者通常对 Figma 设计有何期望？因为我的任务是管理一个相当大（14 页）的网站，并且开发人员希望我几乎 100% 完成所有事情。我的意思是自动布局、响应式、变量、命名所有完成的事情，以便他可以开始他的工作。请注意我的“团队”从站点地图和内容到设计和布局，一切事情都由我来做。刚开始的时候我根本不知道这家公司到底是做什么的。老板不想让我联系员工，而是想让我向副驾驶询问所有内容。  “figma 设计”是吗？通常意味着所有内容都可以复制到 webflow 中？我什至没有 vh、rem 或复杂的风格。我认为Figma更多的是一种视觉导向——当然你可以复制颜色和变量。但没有百分比或真正需要的所有开发内容。但他们希望它如此完美，他们几乎不需要做任何事情..   由   提交/u/Meriku09  [链接] [评论]]]></description>
+      <description><![CDATA[自一月份以来，我是一家小型营销机构的新毕业生设计师，我很困惑。 What do devs usually expect from a figma design? Because I am tasked with a pretty large (14 pages) site and the dev wants me to have everything pretty much 100% done.我的意思是自动布局、响应式、变量、命名所有完成的事情，以便他可以开始他的工作。请注意我的“团队”从站点地图和内容到设计和布局，一切事情都由我来做。刚开始的时候我根本不知道这家公司到底是做什么的。老板不想让我联系员工，而是想让我向副驾驶询问所有内容。  “figma 设计”是吗？通常意味着所有内容都可以复制到 webflow 中？ I dont even have vh, rem or complex styles.我认为Figma更多的是一种视觉导向——当然你可以复制颜色和变量。但没有百分比或真正需要的所有开发内容。 But they expect it to be so polished, they dont have to do pretty much anything..   由   提交/u/Meriku09  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1s5j3jh/what_do_devs_usually_expect_from_designers/</guid>
       <pubDate>Fri, 27 Mar 2026 22:40:39 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[      免责声明：这只是一个公告帖子，该应用程序尚未运行。 我正在 GPUI 中重写 Zaku。 Zaku 是一个跨平台 API 客户端，可替代 Postman/Insomnia。 初始帖子： https://www.reddit.com/r/rust/comments/1na8ped/media\_zaku\_yet\_another\_desktop\_api\_client\_app/ 为什么我要从头开始用 GPUI 重写它？ 主要是因为性能，而不是 API 客户端*需要*它，而是因为为什么不呢？ 我很无聊现有的每个应用程序都是用 Electron 构建的，几乎不关心性能，对我来说，即使是最轻微的事情都会让我感到恶心。就像当你双击全屏 Tauri 应用程序并注意到布局跳跃时，检查活动监视器并看到 Electron 应用程序耗尽了你的所有资源，等等。 Zaku 是用 Tauri 编写的，带有 Rust 后端，构建它很有趣，它为我提供了 Rust 的入门。 不过，我在 Linux 上不断遇到奇怪的错误，后来意识到 Tauri 的 Linux 支持不好。尽管如此，整体构建它还是一次很棒的体验。 这次我选择了 GPUI，因为它是我最熟悉的框架，为 Zed 做出了相当多的贡献，让我熟悉了它的工作原理： https://github.com/zed-industries/zed/commits?author=errmayank 据我所知，它也是最可定制的 Rust GUI 框架。我最近在 r/rust 上发表了一篇文章，展示了从头开始构建的高性能编辑器。 https://www.reddit.com/r/rust/comments/1rhdp64/building\_a\_performant\_editor\_for\_zaku\_with\_gpui/ 存储库： https://github.com/buildzaku/zaku   由   提交 /u/errmayank   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1s5e7ic/working_on_an_opensource_api_client_rewrite_with/</guid>
       <pubDate>Fri, 27 Mar 2026 19:34:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>尝试建立一个动画作品集……在选择技术堆栈时有点卡住了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5dg9x/trying_to_build_an_animated_portfolio_kinda_stuck/</link>
-      <description><![CDATA[最近，我浏览了很多现代动画网站，现在我想为自己构建一些类似的东西。 不只是为了华而不实的东西，我想要一些干净、流畅和优质的东西（良好的用户体验 + 性能）。 到目前为止，我的基础堆栈是：  React + TypeScript Vite Tailwind CSS  我陷入困境的是选择动画/3D 方面：  React Three Fiber + Drei Spline GSAP Leva （以及一堆其他 3D 工具）  我正在尝试弄清楚：  对于高质量的投资组合来说，什么是足够 什么是过度杀伤 什么是可长期维护（不是我以后会后悔的事情）  我非常喜欢的一些参考资料：  minhpham viper portavia  对于构建过类似作品集的人来说：  您通常会使用完整的 R3F，还是使用 Spline/GSAP 保持简单？ 您如何决定何时使用 real 3D 与纯动画？  很想听听您是如何处理这个问题的👀... 此外，我还注意到不同作品集中有一些非常酷的动画元素。如果您看到任何有趣或常用的模式，也请随时提出建议......   由   提交 /u/DaysAreGone_ForMe   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5dg9x/trying_to_build_an_animated_portfolio_kinda_stuck/</guid>
-      <pubDate>Fri, 27 Mar 2026 19:06:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我应该在网上搜索吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5cjm2/should_i_search_the_web/</link>
-      <description><![CDATA[我正在努力学习，当然我什么都不懂，所以我必须搜索它。就像，当阅读文档中的某些内容而这还不够并且我搜索示例时，我总是感到内疚，就好像我必须自己找到这些答案一样。 更糟糕的是，在大多数情况下，我不需要答案或示例，而是一种让我的思路继续下去的方法，但由于我们处于“人工智能时代”，所以我总是会感到内疚。在大多数情况下，答案通常只是塞在我的喉咙里，我觉得从长远来看这对我不利，因为我没有创造出一系列的思想。  这真是太难了   由   提交 /u/Ephemerxl   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5cjm2/should_i_search_the_web/</guid>
-      <pubDate>Fri, 27 Mar 2026 18:33:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web 组件和影子 DOM</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5b8wo/web_components_and_shadow_dom/</link>
-      <description><![CDATA[本周，我的老板要求我构建一个非常简单的 Chrome 扩展程序，该扩展程序可以检测我们使用的呼叫中心应用程序中是否出现了 Toast，并在它出现时通过外部扬声器播放声音。听起来很简单吧？！ 如果我在这里说了一些愚蠢的话，请原谅我 - 我还没有接触过 Web 组件，所以这些概念对我来说完全陌生。该应用程序具有大量嵌套的 Web 组件，每个组件都有自己的影子 DOM。这让一些简单的事情变得非常复杂。我必须构建递归函数来深入挖掘每个影子 DOM，将突变观察者附加到我需要的地方，然后当父级发生突变时，深入挖掘影子 DOM 到子级，以检查它们是否确实是 toast。它将原本应该是 5 行易于阅读的代码变成了大约 40 行......  我错过了什么？感觉很乱。    由   提交/u/Wotsits1984  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5b8wo/web_components_and_shadow_dom/</guid>
-      <pubDate>Fri, 27 Mar 2026 17:45:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
