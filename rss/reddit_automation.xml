@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sat, 28 Mar 2026 18:33:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 21:25:39 GMT</lastBuildDate>
+    <item>
+      <title>如何处理长工作流程中的错误</title>
+      <link>https://www.reddit.com/r/automation/comments/1s69txp/how_do_you_handle_errors_in_long_workflows/</link>
+      <description><![CDATA[我最近一直在构建更长的工作流程。 问题是当中间出现故障时，一切都会停止，而我并不总是注意到。 我尝试添加基本的错误通知，但仍然感觉很混乱。 你如何处理多步骤自动化中的失败？   由   提交/u/Solid_Play416  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s69txp/how_do_you_handle_errors_in_long_workflows/</guid>
+      <pubDate>Sat, 28 Mar 2026 19:38:37 GMT</pubDate>
+    </item>
     <item>
       <title>自动化我的 LinkedIn 外展并实际开始收到回复</title>
       <link>https://www.reddit.com/r/automation/comments/1s669ws/automated_my_linkedin_outreach_and_actually/</link>
@@ -71,7 +78,7 @@
     <item>
       <title>社交媒体每天花费 2 小时。我自动化了 75%。</title>
       <link>https://www.reddit.com/r/automation/comments/1s53wsg/social_media_took_2hrsday_i_automated_75_of_it/</link>
-      <description><![CDATA[上个月，我尝试同时在 X、Threads、LinkedIn、TikTok 和 Instagram 上定期发帖。到了周五，我已经彻底精疲力竭了。 奇怪的是，我并不是因为时间投入而受到影响。它正在不同平台之间切换。每一个都需要自己的语气、格式和风格。你必须打开每个应用程序，调整你的帖子，发布它，然后对其他应用程序重复这个过程。 我也是全职工作，所以每天花两个小时在社交媒体上是不现实的。我要么创建一个系统，要么完全放弃。 这就是我的想法。我制作了两个单独的工作流程，因为 TikTok 和 Instagram 与 X、LinkedIn 和 Threads 有很大不同。 工作流程 1：TikTok 和 Instagram 的品牌内容 这里的目标是覆盖更多人。我希望新用户找到我的产品。  Virlo 帮助我找到我的利基市场的趋势：热门主题、有效的标题和最佳主题标签。它消除了整个过程中的猜测。 我所有的轮播和幻灯片都使用 Canva。设置我的品牌颜色、字体和徽标后，一切都保持一致。我通常一次性创作出一周的视觉效果。 Descript 对我来说是救星。我对出现在镜头前有点害羞，所以我写了一个脚本，然后让 Descript 的 AI 语音朗读它。我用它制作短卷轴来展示我的产品的用途。这可能听起来很奇怪，但人工智能的声音非常自然，没有人注意到。 PostClaw。将所有内容安排到 TikTok 和 Instagram。这是我在 OpenClaw（开源）之上构建的 AI 代理。处理发布并进行分析，以便我可以看到哪些内容有效。  工作流程 2：在 X、Threads 和 LinkedIn 上分享我的构建者之旅 此处的目标是建立信任。我会分享我正在构建的内容、真实数字以及哪些内容有效或无效的最新信息。  每天，我都会花 10 到 20 分钟在 Apple Notes 中写下我做了什么、我在想什么、产品进度以及任何随意的想法。这只是一个没有格式的大脑转储。 周末，我会把本周的所有笔记都交给 PostClaw。它会审查所有内容并为 X、Threads 和 LinkedIn 创建完整的内容日历。语气根据每个平台进行了调整：LinkedIn 专业、X 有力、Threads 对话。我将整个星期分成一批进行安排。  批处理系统的工作原理： 一切都发生在周末，通常在周日的 2 到 3 个小时内：  Virlo 用于热门主题。 在 Canva 中批量创建视觉效果。 在 Descript 中记录一两个卷轴。 每周提供内容将笔记写入 PostClaw。 查看 PostClaw 生成的内容，进行一些调整，并安排所有帖子的时间。  在这一周中，我只是写每日笔记。就是这样，每天 10 到 20 分钟。 之前和之后：  之前：每天大约两小时，分布在五个不同的应用程序上。 之后：周日两到三个小时，加上 10 到 20 分钟的日常笔记。 总的来说，我从每周大约 14 小时减少到只有 4 或 5 小时小时。  仍然不太好的地方：  媒体创建仍然完全是手动的。 Canva 和 Descript 运作良好，但没有将它们与流程的其余部分链接起来的自动化。 PostClaw 不制作视觉效果或视频。它只处理写入和调度。  最大的惊喜是批处理的帮助有多大。这不仅仅是工具的问题；这是关于不必每天考虑社交媒体。 还有其他人使用周末批处理工作流程吗？您的堆栈中有哪些工具？   由   提交/u/Extra-Motor-8227   [链接] [评论]]]></description>
+      <description><![CDATA[上个月，我尝试同时在 X、Threads、LinkedIn、TikTok 和 Instagram 上定期发帖。到了周五，我已经彻底精疲力尽了。 奇怪的是，困扰我的并不是时间投入。它正在不同平台之间切换。每一个都需要自己的语气、格式和风格。你必须打开每个应用程序，调整你的帖子，发布它，然后对其他应用程序重复这个过程。 我也是全职工作，所以每天花两个小时在社交媒体上是不现实的。我要么创建一个系统，要么完全放弃。 这就是我的想法。我制作了两个单独的工作流程，因为 TikTok 和 Instagram 与 X、LinkedIn 和 Threads 有很大不同。 工作流程 1：TikTok 和 Instagram 的品牌内容 这里的目标是覆盖更多人。我希望新用户找到我的产品。  Virlo 帮助我找到我的利基市场的趋势：热门主题、有效的标题和最佳主题标签。它消除了整个过程中的猜测。 我所有的轮播和幻灯片都使用 Canva。设置我的品牌颜色、字体和徽标后，一切都保持一致。我通常一次性创作出一周的视觉效果。 Descript 对我来说是救星。我对出现在镜头前有点害羞，所以我写了一个脚本，然后让 Descript 的 AI 语音朗读它。我用它制作短卷轴来展示我的产品的用途。这可能听起来很奇怪，但人工智能的声音非常自然，没有人注意到。 PostClaw。将所有内容安排到 TikTok 和 Instagram。这是我在 OpenClaw（开源）之上构建的 AI 代理。处理发布并进行分析，以便我可以看到哪些内容有效。  工作流程 2：在 X、Threads 和 LinkedIn 上分享我的构建者之旅 此处的目标是建立信任。我会分享我正在构建的内容、真实数字以及哪些内容有效或无效的最新信息。  每天，我都会花 10 到 20 分钟在 Apple Notes 中写下我做了什么、我在想什么、产品进度以及任何随意的想法。这只是一个没有格式的大脑转储。 周末，我会把本周的所有笔记都交给 PostClaw。它会审查所有内容并为 X、Threads 和 LinkedIn 创建完整的内容日历。语气根据每个平台进行了调整：LinkedIn 专业、X 有力、Threads 对话。我将整个星期分成一批进行安排。  批处理系统的工作原理： 一切都发生在周末，通常在周日的 2 到 3 个小时内：  Virlo 用于热门主题。 在 Canva 中批量创建视觉效果。 在 Descript 中记录一两个卷轴。 每周提供内容将笔记写入 PostClaw。 查看 PostClaw 生成的内容，进行一些调整，并安排所有帖子的时间。  在这一周中，我只是写每日笔记。就是这样，每天 10 到 20 分钟。 之前和之后：  之前：每天大约两小时，分布在五个不同的应用程序上。 之后：周日两到三个小时，加上 10 到 20 分钟的日常笔记。 总的来说，我从每周大约 14 小时减少到只有 4 或 5 小时小时。  仍然不太好的地方：  媒体创建仍然完全是手动的。 Canva 和 Descript 运作良好，但没有将它们与流程的其余部分链接起来的自动化。 PostClaw 不制作视觉效果或视频。它只处理写入和调度。  最大的惊喜是批处理的帮助有多大。这不仅仅是工具的问题；这是关于不必每天考虑社交媒体。 还有其他人使用周末批处理工作流程吗？您的堆栈中有哪些工具？   由   提交/u/Extra-Motor-8227   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1s53wsg/social_media_took_2hrsday_i_automated_75_of_it/</guid>
       <pubDate>Fri, 27 Mar 2026 13:20:35 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[我正在构建 Guaq Ai。我们与房地产、酒店、金融和教育领域的品牌合作（Radisson、Anand Rathi、Bastian、Sky Properties、Christ University 等） 寻找能够执行以下任务的人员： • 内容创作者• 视频编辑• 销售/外展 您将从事真正的客户项目，而不是虚拟任务。 结构： •从实习开始（如果需要，可提供 ITR） • 基于绩效的增长（固定百分比的保留人员将在最多 6-12 个月内定期获得报酬） • 表现最佳的员工可能会进入核心团队 + ESOP  请联系我填写表格或 @guaq.ai Instagram 简介    由   提交/u/Chillipepper19  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1s4zt02/how_you_can_escape_the_rat_race/</guid>
       <pubDate>Fri, 27 Mar 2026 10:00:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>为非技术型小型企业主比较了 5 种自动化工具。 6周后的诚实笔记</title>
-      <link>https://www.reddit.com/r/automation/comments/1s4wv8w/compared_5_automation_tools_for_a_nontechnical/</link>
-      <description><![CDATA[背景：我帮助运营一家小型电子商务业务（根本不是技术性的），需要一些东西来处理潜在客户跟进、库存警报和一些基本的竞争对手监控。对一些工具进行了适当的尝试。这是我实际发现的： Zapier：对于简单的东西来说最可靠。如果您需要 Gmail → Sheets 或 Slack 通知，它是无懈可击的。但是，当您的任务稍微复杂或涉及抓取任何内容时，您要么雇用开发人员，要么放弃。 Make（以前称为 Integromat）：比 Zapier 更强大，但视觉画布很快就会变得像意大利面条一样。如果您喜欢建造东西，那就太好了。如果你只想把事情做好，那就不好了。 n8n：如果你能够自行托管并拥有一些技术知识，那确实令人印象深刻。自由、灵活、强大的社区。不过，学习曲线是真实的。我花了一个下午的时间来了解节点。 相关性人工智能：非常适合构建人工智能驱动的代理，根据我的经验，比单独操作员更适合团队。一旦我需要更多的运行，定价就会大幅上涨。 Twin：当没有 API 时，它可以使用 API 或浏览器，这对于没有集成的网站非常有用。比其他用户界面更笨重，但对于非技术人员来说，这是最不令人沮丧的起点。虽然并不完美，但我的代理需要几次尝试才能正确。 总体而言：如果您想要简单可靠，那么 Zapier。如果您是技术型的并且想要控制的话，n8n。如果您不懂技术，想要快速完成一些复杂的事情，并且不介意来来回回才能把它做好，那就是双胞胎。 如果有人购买特定的东西，我们很乐意回答问题。   由   提交 /u/Glum_Pool8075   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s4wv8w/compared_5_automation_tools_for_a_nontechnical/</guid>
-      <pubDate>Fri, 27 Mar 2026 06:55:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
