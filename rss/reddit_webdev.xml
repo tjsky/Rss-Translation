@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 28 Mar 2026 09:33:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 12:43:49 GMT</lastBuildDate>
     <item>
-      <title>建立了一个基于证据的“你应该建立这个吗？”工具——最难的部分不是技术，而是信任</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5vvta/built_an_evidencebased_should_you_build_this_tool/</link>
-      <description><![CDATA[   我发布了DontBuild.it：你描述这个想法（它是为谁服务的，你如何赚钱），工具从开放网络中提取真实的线程和列表，附加链接，然后给你一个直接的结论 -构建/枢轴/不构建 - 以及原因。从技术角度来说，它主要是搜索+清理+一个必须引用它所看到的内容的模型。另一天的相同音调可能会有所改变；互联网不是静态的。 技术堆栈：后端采用 React/Vite + Express/Postgres； Firecrawl + OpenAI 用于检索和合成；重新发送、Turstile、Cloudflare 页面的边缘。 真正让我坚持下去的部分不是堆栈 - 而是信任。很多人不会粘贴他们真正的想法，因为他们确信有人会窃取它。即使我也认为大多数“盗窃”都被高估了，运输和分销才是真正的游戏，但我还是有这种感觉。 除了“我们保证”之外，还有什么可以真正帮助您？ 在不透露秘密的情况下描述想法的技巧？ 网站上有更强硬的措辞吗？还有其他吗？ 好奇你如何解决像这样的工具的“他们会窃取我的想法”的障碍。 谢谢！   由   提交/u/EveningRegion3373  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5vvta/built_an_evidencebased_should_you_build_this_tool/</guid>
-      <pubDate>Sat, 28 Mar 2026 09:32:35 GMT</pubDate>
+      <title>[周六炫耀] 适合所有人的免费工具。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5z9s9/showoff_saturday_free_tool_for_everyone/</link>
+      <description><![CDATA[希望为那些需要以光速启动具有专业外观的 UI 布局而无需订阅膨胀的人分享一个工具。 BYOK Build 是一个“计算器”。专为加快上市速度而设计的人工智能网站生成器。使用案例很简单：当您仍在与客户进行 Zoom 通话时，为客户构建实时、响应式的登陆页面演示。 工作原理：  免费使用：无月租费。您连接自己的 OpenRouter 密钥 (Claude 4.6 Sonnet / Gemini / Llama)，只需支付原始批发 API 成本 直播：描述布局并直接在实时预览中观看 Tailwind/HTML 流。 即时边缘部署：点击“上线”立即将最终代码推送到 Cloudflare 子域。  隐私和隐私安全性：这是一个纯粹的客户端实用程序。任何服务器上均不存储任何数据。您的 API 密钥和项目历史记录保留在您自己计算机上浏览器的 localStorage 中。后端只是 LLM 的轻量级传递。 它目前处于测试阶段，旨在成为“计算器式”实用程序 - 没有入门或教程，只有提示框和代码编辑器。 链接：https://byokbuild.com   由   提交 /u/Grandsleazy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5z9s9/showoff_saturday_free_tool_for_everyone/</guid>
+      <pubDate>Sat, 28 Mar 2026 12:40:14 GMT</pubDate>
     </item>
     <item>
-      <title>星期六炫耀：您的人工智能助手交付代码的速度比您的团队理解的速度还要快。 DevLens 在 20 秒内将其全部映射到本地。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5vcom/showoff_saturday_your_ai_assistant_is_shipping/</link>
-      <description><![CDATA[我构建了一个 javascript、Reactjs、nextjs、nodejs 代码库可视化工具。 这里是 Devlens Github Repo =&gt;; https://github.com/devlensio/devlensOSS 您可以在此处加入云候补名单 =&gt; https://devlens.io 上下文：这是故事部分 - 为什么我要构建这个。我注意到人工智能和代理确实使开发人员的工作变得相当容易。大多数情况下他们自己编写代码，但这也意味着您不再对自己的项目有深入的了解。作为一名开发人员，我个人讨厌这一点。我不使用任何代理 - 我向法学硕士寻求小块逻辑或代码的帮助，但从未在 IDE 中使用过它。 我意识到我不可能是唯一面临这种情况的人。毕竟，我们选择成为开发人员来构建事物。因此，我为此寻找了一个图形可视化工具，但没有找到我想要的方式 - 所以我正在构建它。 我还想到，它将对于理解任何代码库最有用，这意味着向团队中的新人提供 KT 将很容易。同样，作为开源项目所有者，构建图表并共享它也很容易，以便其他人可以轻松理解和贡献。当然，爆炸半径和 K-hop 功能对于 PR 审查和上下文理解非常方便。  功能：  通过 AST 检测节点和边（无 AI）。 检测路由、JSX 组件、Redux/Zusstand/Jotai 存储、挂钩等。 支持读、写、函数调用和 7 种其他类型的边。 您可以看到任何节点的爆炸半径 - 这意味着如果您更改该节点，其他节点将受到影响。 您可以查看每个节点的详细业务摘要、技术摘要和安全问题。 您还可以查看任何节点的代码。 每个节点都会根据应用程序逻辑对其的依赖程度分配一个分数 - 由自定义算法而不是 AI 生成。 您还可以检查之间的提交差异   优点：  它可以轻松地可视化复杂的代码库 - 我尝试过的最多是 2,500 个节点。 由于它通过图形构建连接，生成摘要使用很少的标记 - 2,500 个节点总共仅 200 万个标记。 由于图形连接和上下文理解，摘要非常好。我生成的摘要是使用 grok-4.1-fast 编写的，它们非常好。 如果您是一个团队，它可以使您的代码库知识向新成员的转移变得非常容易。它还将使公关审查变得相当简单。 如果您是独立开发者，它会指出不那么明显的严重性问题。我在一个非常流行的公共应用程序上构建了一个图表，发现他们正在服务器日志中记录支付凭证和其他敏感详细信息。 现在许多人使用人工智能来编写代码，因此很难跟踪每个组件如何连接以及它们如何交互 - 这使得这种视觉效果变得很直观。 图表构建得非常快。这个 2,500 个节点的项目的图表在 22 秒内构建完成。摘要生成需要更多时间 - 在本例中使用 grok-4.1-fast 需要 25-30 分钟。   限制：  目前仅支持 React、Next.js 和 Node.js/Express。它也会为其他项目构建图表，但可能不会检测到除函数之外的许多节点。 边缘创建准确度约为 95% - 它仍然可能会错过一些边缘。 虽然我正在努力使评分算法尽可能强大，但路线评分需要改进。   云功能：除了开源模型之外，还将有一个具有更多功能的云选项 - 例如与您选择的 LLM 进行导航和交互的对话图表。该图表将是可共享的。它将支持团队功能，以便可以在团队之间使用。用户将能够连接 GitHub。对于 PR 审查，高级开发人员只能看到更改和影响范围 - 影响有多大以及更改是什么。直观地查看它会使其易于理解。 我希望您喜欢这个概念:)   由   提交 /u/Melodic-Funny-9560   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5vcom/showoff_saturday_your_ai_assistant_is_shipping/</guid>
-      <pubDate>Sat, 28 Mar 2026 09:00:20 GMT</pubDate>
+      <title>在我的开发朋友和我在晚餐时开玩笑说当人工智能取代我们的工作时我们会做什么后，我在两个小时内建立了一个网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5z6mf/i_built_a_site_in_2_hours_after_my_dev_friends/</link>
+      <description><![CDATA[昨晚我们在吃晚饭时大笑，有人说电工，有人说水管工，有人说木匠。 我今天有一些空闲时间，所以我做了这个愚蠢的小东西： https://whenaitakesmyjob.work 输入你的工作，开始你的新职业。显然，由人工智能提供支持。   由   提交 /u/NewBlock8420   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5z6mf/i_built_a_site_in_2_hours_after_my_dev_friends/</guid>
+      <pubDate>Sat, 28 Mar 2026 12:35:58 GMT</pubDate>
     </item>
     <item>
-      <title>帮助，我开始构建一个基于网络的开源模拟考试应用程序，我面临的问题是完全提取问题，但是我不知道如何处理问题部分的数学，这些表达式无法复制，这些问题的数量约为 75+</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5v3ay/help_im_starting_to_build_a_opensource_mock_exam/</link>
-      <description><![CDATA[       https://preview.redd.it/jy59mgem0rrg1.png?width=728&amp;format=png&amp;auto=webp&amp;s=3c76c31a41681baeb00f9370a1c2db6bcd155410 我不期待简单的图像显示类型考试。有没有任何方法可以分析数学部分并转换为与问题及其结构相对应的乳胶   由   提交 /u/Dry-Celebration-7316   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5v3ay/help_im_starting_to_build_a_opensource_mock_exam/</guid>
-      <pubDate>Sat, 28 Mar 2026 08:43:40 GMT</pubDate>
+      <title>我们让陌生人投票决定将哪些代码发送到生产环境。 2个月后，我们拿不到10票。你会怎么办？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5z104/we_let_strangers_vote_on_what_code_ships_to/</link>
+      <description><![CDATA[   OpenChaos - 一个任何人提交 PR、社区投票的存储库，投票最多的 PR 每周都会自动合并到实时站点。公关标题必须押韵。 任何人都可以改变任何事情，包括规则。 前两周非常激动人心。每个 PR 超过 100 票。人们构建主题、争夺迪克屁股、差点被关闭和投票操纵差点被投票。自动合并机器人坏了好几个星期——社区通过多个单独的 PR 自行修复了它。 现在我们勉强能达到 10 票。顶级 PR 目前有 9 个，在今天 19:00 UTC（下午 7 点）之前还需要 1 个，否则我们将跳过一周：https://github.com/skridlevsky/openchaos/pull/210 这个概念是有效的。该网站仍然有效。贡献者仍在建设中。但选民却消失了。 你会怎样做才能让这样的事情继续存在？ https://openchaos.dev | https://github.com/skridlevsky/openchaos   由   提交/u/Equivalent-Yak2407   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5z104/we_let_strangers_vote_on_what_code_ships_to/</guid>
+      <pubDate>Sat, 28 Mar 2026 12:28:43 GMT</pubDate>
     </item>
     <item>
-      <title>做了一个简单的浏览器航海游戏，希望得到反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5v2w0/made_a_simple_browser_sailing_game_would/</link>
-      <description><![CDATA[我是一名软件开发人员，出于某种偶然，我最终尝试了游戏开发。我的新项目 https://corsaro.cc 最初是一个小型、有趣的航行和射击游戏，供与同事进行快速会议。它深受 krew.io 的启发，不幸的是，随着时间的推移，它变得相当混乱（尽管我仍然喜欢这个概念，并且大约六年前玩得很开心）。 游戏的理念：你在四个大岛屿之一上生成，起航，运送货物或乘客，并与其他玩家战斗。您还可以去钓鱼、走私或参加赏金狩猎。当你赚到钱时，你可以升级你的飞船——提高船体尺寸、伤害和生命值。还有一个简单的供需系统来防止无限的单向交易（在线玩家越多，这种交易就越相关）。 一般来说，这个概念是面向会话的（没有帐户/保存），所以你可以跳进去，玩，然后离开。还有每日排行榜，您的排名会保留在浏览器中（除非您更改派系）。是的，有等级系统和派系 - 你可以扮演皇家舰队船长或海盗，有一些特权和视觉差异。 在不久的将来，我计划改善经济，使其更加动态（以更好地防止单线交易），添加服务器事件，引入一些类似 CTF 的机制等等。但在此之前，我想了解我是否在朝着正确的方向前进，以及游戏是否普遍可玩。 值得一提的是，我不仅尝试优化 PC 的布局，还尝试优化移动设备的布局。 我非常感谢任何反馈或玩游戏的尝试。它是非营利性的、无广告的，并且将继续如此。我也不希望这被视为广告 - 目前，它托管在预算节点上，并且预计不会有高需求......。   由   提交/u/ComradeLV   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5v2w0/made_a_simple_browser_sailing_game_would/</guid>
-      <pubDate>Sat, 28 Mar 2026 08:42:54 GMT</pubDate>
+      <title>我构建了一个包含 12 个基于浏览器的开发工具的免费工具包 — 无需注册，无需跟踪，一切都在客户端运行</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5yyhr/i_built_a_free_toolkit_of_12_browserbased_dev/</link>
+      <description><![CDATA[嘿r/webdev， 过去几周我一直在构建 ToolKit - 一组完全在浏览器中运行的免费实用程序。 其中包含什么：  密码生成器（Web Crypto API） 具有阅读时间+关键字密度的字数计数器 JSON 格式化程序/压缩器/验证器 Base64 编码器和编码器解码器 大小写转换器：camelCase、PascalCase、snake_case、kebab-case、CONSTANT_CASE、Title Case 等 具有 7 种和声模式（类似、互补、三元...）的调色板生成器 Lorem ipsum 生成器 UUID v4 生成器 哈希生成器（SHA-1、SHA-256、 SHA-384、SHA-512） URL 编码器/解码器 具有实时 HTML 预览的 Markdown 编辑器 用户名生成器（有趣、专业、游戏玩家、简约风格）  我为什么构建它：我厌倦了记录密码和 API 密钥的粗略工具。这里的一切都使用浏览器原生 API——Web Crypto、TextEncoder 等。对实际工具的零服务器调用。 堆栈： Next.js (SSG)、TypeScript、工具逻辑的零运行时依赖性。 链接：https://www.webtoolkit.tech/ 欢迎反馈 - 您在日常工作流程中缺少哪些工具？   由   提交 /u/_PawsAndWhiskers_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5yyhr/i_built_a_free_toolkit_of_12_browserbased_dev/</guid>
+      <pubDate>Sat, 28 Mar 2026 12:25:25 GMT</pubDate>
     </item>
     <item>
-      <title>简历审核，诚实反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5v0ul/cv_review_honest_feedback/</link>
-      <description><![CDATA[       https://preview.redd.it/g5zdtkdrzqrg1.png?width=1054&amp;format=png&amp;auto=webp&amp;s=f480270c12440b5ee9f24866b87779c993c49134 这只是我的简历截图。我没有更多的重大项目，只有大部分来自我发挥重要作用的工作的项目。 提前感谢您，并感谢您的任何反馈。   由   提交 /u/diarxha   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5v0ul/cv_review_honest_feedback/</guid>
-      <pubDate>Sat, 28 Mar 2026 08:39:14 GMT</pubDate>
+      <title>[周六炫耀]为我最近的求职创建了一份在线简历。反馈？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5ysvy/showoff_saturday_created_a_online_cv_for_my/</link>
+      <description><![CDATA[我对 WebGL 着色器的结果感到自豪:)   由   提交 /u/JustSpeedy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5ysvy/showoff_saturday_created_a_online_cv_for_my/</guid>
+      <pubDate>Sat, 28 Mar 2026 12:17:55 GMT</pubDate>
     </item>
     <item>
-      <title>在看到我的会话限制在脚手架上消失后，我为 Claude Code 构建了 Chrome 扩展技能。免费尝试。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5v0pe/i_built_chrome_extension_skills_for_claude_code/</link>
-      <description><![CDATA[背景：在 Chrome 扩展项目上编写单个功能之前，我一直在达到 Claude 的使用限制。我的会议有一半时间用于搭建脚手架、MV3 API 修正和清单调试。每个项目都犯同样的错误。 因此，我专门为 Claude Code 构建了一套 Chrome 扩展技能 - 使用 Claude Code 来构建它们，这感觉像是适当的递归。 它们的作用：每个技能在开始之前将当前、准确的 Chrome 扩展知识直接加载到您的 Claude Code 会话中。 WXT 脚手架、MV3 Service Worker 模式、清单权限范围等等。该模型不再采用已弃用的 MV2 模式，因为它从一开始就有正确的上下文，而不是通过反复试验来重建它。 我正在解决的核心问题：AI 模型严重偏向 MV2（活跃了约 10 年，相当大的训练数据）。 MV3 于 3 年前推出，但效果不佳。 Claude 会自信地使用 chrome.extension.sendMessage（已弃用）、持久后台页面（在 MV3 中删除）、Service Worker 上下文中的 XMLHttpRequest（由 fetch 取代）。每个错误的假设都会花费一个修正周期，而修正周期会消耗你的会话限制。 在培养这些技能之后，我的下一次扩展从脚手架上的 60% 会话命中率增加到总共约 11 分钟。相同的任务。 可以在 Github 上免费尝试：quangpl/browser-extension-skills 很好奇是否有其他人在 AI 模型具有陈旧 API 知识的其他领域中遇到了这种模式。 Chrome MV3 感觉是我发现的最干净的示例，但它不可能是唯一的。   由   提交/u/quangpl   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5v0pe/i_built_chrome_extension_skills_for_claude_code/</guid>
-      <pubDate>Sat, 28 Mar 2026 08:38:57 GMT</pubDate>
+      <title>[周六炫耀] Anthropic 刚刚从配置错误的 CMS 中泄露了 3,000 个文件。我今天扫描了 38 个 vivi 编码的应用程序 — 81% 存在安全问题。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5ylkj/showoff_saturday_anthropic_just_leaked_3000_files/</link>
+      <description><![CDATA[本周的人择事件。如果您错过了，他们的 CMS 将每个上传的文件默认设置为公开。没有人把它关掉。剑桥的一位安全研究人员发现了大约 3,000 个未发布的文件就在那里：草稿、有关未发布模型的内部文档、一些私人 CEO 活动的详细信息。 《财富》杂志报道了这个故事，Anthropic 争先恐后地锁定了它。 这家公司在人工智能安全方面花费了数十亿美元。修复方法是翻转默认值。就是这样。 我一直在为 vivi 编码的应用程序构建安全扫描器（之前在这里发布过两次）。看完 Anthropic 的故事后，我今天又运行了一批新的批次 — 抓取了 38 个用 Lovable、Bolt 和其他人工智能工具构建的公共存储库，对所有这些库进行了安全扫描。 结果（今天，3 月 28 日）：  平均安全得分：61/100 81% 存在安全问题（满分 31 分） 38) 38 个应用程序中只有 1 个应用程序得分高于 85 最低得分：35。最高得分：92  最常见的问题并不奇怪 - 缺少 CSRF 保护、没有安全标头、零输入验证、本应位于环境变量中但实际上却没有的配置值。任何代码审查都会被捕获的东西，除了没有代码审查，因为人工智能编写了它并且它在第一次尝试时就起作用了。 它与 Anthropic 相同，只是规模较小。一切都按配置进行。配置错误，没有人回去查看。 为什么这种情况不断发生 你告诉人工智能工具“用 Supabase auth 为我构建一个应用程序”它会为您构建一个具有 Supabase 身份验证的应用程序。它使代码工作。它不会循环检查是否有 CSRF 保护或者错误响应是否将堆栈跟踪转储到客户端。你得到了你想要的——工作授权。它周围的安全问题从来没有出现过。 快速检查你的 对于暴露的秘密：grep -r &quot;sk_live\|service_role\|apikey\|PRIVATE&quot; --include=“*.js” --include=“*.ts” --include=“*.jsx” --include=“*.tsx” src/ 对于缺少的标头 - 打开 DevTools、“网络”选项卡，检查主页上的响应标头。如果没有 Content-Security-Policy、没有 X-Frame-Options、没有 Strict-Transport-Security — 您的服务器没有使用浏览器已内置的安全功能。 关于扫描器 我在自己部署的代码中发现问题后构建了 VibeWrench。它运行 18 种扫描类型——安全、SEO、速度、移动、可访问性、提示注入。今天的批次只是安全性，但扫描仪覆盖了更多地面。 每月 3 次免费扫描，无需注册：viwrench.dev 仍然只有我和一台 Hetzner 服务器。仅扫描面向公众的代码，因此不会捕获私人存储库中的内容，并且检测存在盲点。但默认无人检查类别是大多数问题所在，而这正是它所擅长的。 如果 Anthropic 可以在不通知的情况下以公共默认方式发布 CMS，那么可能值得花 30 秒来检查您的 AI 工具留下的默认值。 前几周： - 100 个应用程序进行安全扫描 - 50 个提示已测试注入   由   提交 /u/Inevitable_Board4896   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5ylkj/showoff_saturday_anthropic_just_leaked_3000_files/</guid>
+      <pubDate>Sat, 28 Mar 2026 12:07:50 GMT</pubDate>
     </item>
     <item>
-      <title>API 优先的工作流程改变了我构建全栈功能的方式</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5ur8l/the_apifirst_workflow_that_changed_how_i_build/</link>
-      <description><![CDATA[ 由   提交/u/digital_soapbox   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5ur8l/the_apifirst_workflow_that_changed_how_i_build/</guid>
-      <pubDate>Sat, 28 Mar 2026 08:22:18 GMT</pubDate>
+      <title>我建立了 notscare.me，一个恐怖电影、连续剧和游戏的 Jumpscare 数据库</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5y86j/i_built_notscareme_a_jumpscare_database_for/</link>
+      <description><![CDATA[      notscare.me 可让您准确找到恐怖内容中发生 Jumpscare 的时间，并提供时间戳和强度评级。 超过 9,500 个游戏，完全由社区驱动，并且每周仍在增长。总是很高兴谈论一些反馈！   由   提交/u/DevWarrior504  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5y86j/i_built_notscareme_a_jumpscare_database_for/</guid>
+      <pubDate>Sat, 28 Mar 2026 11:49:08 GMT</pubDate>
     </item>
     <item>
-      <title>PSA：如果您在 4 月 24 日之前不选择退出，GitHub 将在您的私人存储库上进行训练</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5ul8f/psa_if_you_dont_opt_out_by_apr_24_github_will/</link>
-      <description><![CDATA[      刚看到这个，觉得他们自动选择用户加入这个有点疯狂。     由   提交/u/Complete-Sea6655   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5ul8f/psa_if_you_dont_opt_out_by_apr_24_github_will/</guid>
-      <pubDate>Sat, 28 Mar 2026 08:11:42 GMT</pubDate>
+      <title>内置 Deny-By-Default-as-a-Service (dbdaas) - 一个适合内向和外向的有趣的 Go API</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5xvdf/built_denybydefaultasaservice_dbdaas_a_fun_go_api/</link>
+      <description><![CDATA[嘿伙计们！ 我最近开始学习 Go，经过几周的摸索，我决定构建一些“有用”的东西（绝对没用，但技术上很有趣）。 受此存储库 No-as-a-service 的启发，我构建了 Deny-By-Default-as-a-Service (dbdaas)。它非常适合为您的网站、应用程序或机器人添加幽默感，甚至可以作为开发过程中的创意占位符。 它是一个 API，可以返回对用户说“不”的幽默而时髦的理由。请求或“是” （请参阅自述文件，了解如何触发它。） 尝试一下。 API：https://dbdaas.rajathjaiprakash.com/ GitHub：https://github.com/rajathjn/deny-by-default-as-a-service 注意：API 强制执行每个 IP 地址每分钟 30 个请求的速率限制。 默认情况下，API 返回一个字符串。您可以通过添加 application/json Content-Type 或 Accept 标头或仅将 ?format=json 添加到 URL 来请求 JSON。 我很乐意听到任何反馈。保持安全并不断否认！   由   提交 /u/DisastrousEggy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5xvdf/built_denybydefaultasaservice_dbdaas_a_fun_go_api/</guid>
+      <pubDate>Sat, 28 Mar 2026 11:29:15 GMT</pubDate>
     </item>
     <item>
-      <title>[周六炫耀]我做了一个工具，再也不会剪不好头发了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5u7iy/showoff_saturday_i_made_a_tool_to_never_get_a_bad/</link>
-      <description><![CDATA[      https://i.redd.it/cfju8yeapqrg1.gif 你好！  我构建了一个应用程序，可以分析您的脸型并推荐真正适合您的发型。上传自拍照，详细了解您的特征，并查看哪种风格最有效。不再走进理发店并说“随便做吧。” 您可以在之后删除所有数据，我们不会保留任何信息。 我很想听听您的反馈，我每天都在努力做得更好:) 链接：https://haircutai.app/   由   提交 /u/pabloschz   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5u7iy/showoff_saturday_i_made_a_tool_to_never_get_a_bad/</guid>
-      <pubDate>Sat, 28 Mar 2026 07:47:56 GMT</pubDate>
+      <title>周六炫耀：使用 Tauri v2 构建开源 Postman 替代方案 – 10 天内获得 900 多个 GitHub star</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5xpp8/showoff_saturday_built_an_opensource_postman/</link>
+      <description><![CDATA[      本周有用户向我发送了这张屏幕截图。 这是 ApiArk 与 Apidog。这就是我构建这个的原因。 ApiArk 是一个本地优先的开源 API 客户端。没有登录。没有云。不使用 800MB RAM。 10 天内获得 900+ GitHub star，自然而然，无需预算。 Github 仓库：github.com/berbicanes/apiark 网页：apiark.dev   由   提交/u/ScarImaginary9075  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5xpp8/showoff_saturday_built_an_opensource_postman/</guid>
+      <pubDate>Sat, 28 Mar 2026 11:20:47 GMT</pubDate>
     </item>
     <item>
-      <title>我做了一个最简单的翻转图像的工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5u1d8/i_made_the_most_simple_tool_to_flip_images/</link>
-      <description><![CDATA[ 由   提交/u/aharvtathe  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5u1d8/i_made_the_most_simple_tool_to_flip_images/</guid>
-      <pubDate>Sat, 28 Mar 2026 07:37:10 GMT</pubDate>
+      <title>我的第一个作品集（欢迎反馈）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5xmzh/my_first_ever_portfolio_feedback_is_welcome/</link>
+      <description><![CDATA[我刚刚使用 HTML、CSS 和 JS 创建了我的第一个作品集。我花了大约 4 天左右的时间（我是个初学者），我对结果非常满意，但我也想了解一些外部观点。 背景信息我是网络安全专业的一年级本科生。它可能有很多错误或构造不良的代码。 （祝在网站中找到复活节彩蛋的人 30 年好运） https://l00k1.github.io/Website-Portfolio/   由   提交/u/700K1  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5xmzh/my_first_ever_portfolio_feedback_is_welcome/</guid>
+      <pubDate>Sat, 28 Mar 2026 11:16:38 GMT</pubDate>
     </item>
     <item>
-      <title>针对 AI/ML 包的供应链攻击变得越来越可怕 - 我们如何真正防御这种攻击</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5thkj/supply_chain_attacks_on_aiml_packages_are_getting/</link>
-      <description><![CDATA[LiteLLM 最近的妥协确实让我思考我们的 AI 堆栈有多么暴露。很多项目只是盲目地从 PyPI 或 Hugging Face 中撤出，没有经过太多思考，而且攻击者现在使用 LLM 来扫描 CVE 数据库并大规模自动化利用，感觉攻击面只会变得越来越大。我见过一些团队坚信 Sigstore 和共同签名来签署软件包，其他团队则运行私有 PyPI 镜像，还有一些团队只是将所有内容锁定在可重现的 Docker 构建中。但老实说，大多数机器学习项目仍然把依赖安全视为事后的想法。认为更大的问题是，许多开发人员只是从教程中收集他们的需求文件，而从不审核它们。是否有人真正将 Snyk 或 Dependabot 之类的东西集成到他们的 ML 管道中，而不会降低一切速度？好奇什么对项目级别的人员真正有效，而不仅仅是企业安全领域。   由   提交 /u/Such_Grace   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5thkj/supply_chain_attacks_on_aiml_packages_are_getting/</guid>
-      <pubDate>Sat, 28 Mar 2026 07:03:51 GMT</pubDate>
+      <title>您的网站现在可以与访问者对话</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5xlix/your_website_can_now_talk_back_to_visitors/</link>
+      <description><![CDATA[我在您的网站上构建了一个像人类一样的人工智能语音助手。它会读取您的页面，了解您的产品，并实时回答访客的问题。无需培训，无需设置，什么都没有。 在这里观看它：https://talking-website.landinghero.app/ 在您自己的网站上尝试一下：landinghero.ai/widget 希望获得有关实际使您满意的反馈将其放在您的网站上。   由   提交 /u/BearInevitable3883   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5xlix/your_website_can_now_talk_back_to_visitors/</guid>
+      <pubDate>Sat, 28 Mar 2026 11:14:31 GMT</pubDate>
     </item>
     <item>
-      <title>这样的项目还有意义吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5tgl4/are_projects_like_this_still_relevant/</link>
-      <description><![CDATA[全栈博客和新闻网站仍然有价值吗？雇主是否需要展示更多的解决问题的技能？ 示例： https://scienceandtech-blog-product.up.railway.app/ 注意：这些文章不是我自己写的。只是想填充它们。 更新： https://scienceandtech-blog-product.up.railway.app/admin 编辑条目并执行一些 CRUD。但你需要一个密码。当然，我的应用程序很容易被破解...   由   提交/u/Ordinary_Count_203   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5tgl4/are_projects_like_this_still_relevant/</guid>
-      <pubDate>Sat, 28 Mar 2026 07:02:16 GMT</pubDate>
+      <title>请在我的网站上分享您的反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5x8fu/please_share_your_feedbacks_on_my_website/</link>
+      <description><![CDATA[      我的第一个全栈项目  https://broFounders.com 一个供学习者和业余构建者学习的平台，首先用他们所知道的一点点知识进行构建，然后在破坏/构建的过程中弄清楚其余的知识。即使在法学硕士之前，这也是非常有效的，所以我认为这会有所帮助。 没有什么开创性的，只是我希望我有一个空间来构建这个以及之前和将来的项目。所有其他网站都很难找到具体信息或不容易访问，所以我建立了这个。 谢谢   由   提交/u/supreme_rain  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5x8fu/please_share_your_feedbacks_on_my_website/</guid>
+      <pubDate>Sat, 28 Mar 2026 10:54:14 GMT</pubDate>
     </item>
     <item>
-      <title>我建立了一个收件箱，没有代理就无法使用</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5te04/i_built_an_inbox_you_cant_use_without_an_agent/</link>
-      <description><![CDATA[      嗨！  几个月来，我一直在开发这个只能通过 CLI 或 API 使用的电子邮件收件箱，这是一个非常有趣的实验，因为人工智能和代理发展得如此之快。我的目标是拥有一个收件箱，人类用户只能使用它来控制和检查代理发送和接收的内容，您还可以将自动化级别从完全自动化（让代理发送任何内容）更改为每次发送都需要批准，这样您就可以确保发出的所有内容都是完美的。  我尝试了很多这样的想法：“如果代理是我们的主要用户，他们需要什么？”，老实说，大多数代理可以从 Resend 或任何事务性电子邮件 API 发送和接收电子邮件，但需要存储电子邮件、将它们分类到线程中、添加提示注入过滤层和很酷的“监听”功能。 CLI 上的功能使代理可以在收到电子邮件后立即做出反应，我认为这是有好处的。出站电子邮件中也有策略，如果请求时间超过 10 分钟（垃圾邮件阻止），服务块会向同一电子邮件发送请求，如果该电子邮件由于某种原因而失控并丢失，还会阻止重复的电子邮件。  很想听听社区的声音，您认为哪些功能对代理来说很重要，如果您想尝试一下，我有一些地方可以免费提供第一个月的免费交易以获得反馈。 对模糊的演示感到抱歉 链接molted.email   由   提交/u/Spacesh1psoda  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5te04/i_built_an_inbox_you_cant_use_without_an_agent/</guid>
-      <pubDate>Sat, 28 Mar 2026 06:58:17 GMT</pubDate>
+      <title>构建了 ai-setup 来停止手动配置光标规则和 CLAUDE.md 每个项目，只需在 github 上打 100 颗星</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5wh6l/built_aisetup_to_stop_manually_configuring_cursor/</link>
+      <description><![CDATA[使用人工智能编码工具的网络开发人员可能会涉及到这一点。 好吧，每个新项目的设置税都让我痛不欲生。你想和 Claude 一起使用 Cursor 吗？必须写一个 .cursorrules 文件。想独立使用克劳德代码吗？得写一个CLAUDE.md。有 mcp 服务器吗？单独的配置。使用开放代码？另一个配置文件。 每个新项目的倍数，而且加起来很快。 所以我们构建了 ai-setup。它是一个 CLI，会询问您正在使用什么工具以及您正在构建什么类型的应用程序，然后为您生成所有 AI 配置文件。一切都经过预先配置，可以很好地协同工作。 刚刚在 github 上获得了 100 颗星，并收到了来自贡献者的 90 个 PR，这真是太棒了。人们一直在添加新模板、新框架设置、新工具支持。 如果您启动了很多新项目，这将为您节省大量时间： https://github.com/caliber-ai-org/ai-setup discord 社区：https://discord.com/invite/u3dBECnHYs 这是一个周六的项目，后来发展成了真正的东西，哈哈，欢迎反馈   由   提交 /u/Substantial-Cost-429   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5wh6l/built_aisetup_to_stop_manually_configuring_cursor/</guid>
+      <pubDate>Sat, 28 Mar 2026 10:09:23 GMT</pubDate>
     </item>
     <item>
-      <title>传统企业面临的五个真正有趣的技术问题，网络开发中还没有人能够正确解决。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5t7ml/five_genuinely_interesting_technical_problems/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5t7ml/five_genuinely_interesting_technical_problems/</guid>
-      <pubDate>Sat, 28 Mar 2026 06:47:42 GMT</pubDate>
+      <title>ChatGPT 在长时间聊天中变得无法使用，所以我自己修复了它。下面是它在技术上的工作原理。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5wgns/chatgpt_becomes_unusable_in_long_chats_so_i_fixed/</link>
+      <description><![CDATA[如果您大量使用 ChatGPT，您可能已经遇到过这个问题。一旦对话变得足够长，整个选项卡就会变得缓慢。打字滞后、滚动卡顿，有时选项卡完全消失。 根本原因很简单。 ChatGPT 将每条消息立即加载到 DOM 中。 1865 条消息聊天意味着您的浏览器必须同时处理数千个实时 React 元素。 OpenAI 从不延迟加载对话历史记录。 所以我构建了一个修复程序。 扩展在 React 介入之前修补了 window.fetch。当 ChatGPT 从 /backend-api/conversation/ 请求会话 JSON 时，它会拦截响应，遍历消息树，将其修剪为仅用户需要的消息，并返回修改后的 Response 对象。 React 永远不会看到完整的有效负载，只会渲染必要的内容。 通过 WASM 模块进行修剪以提高速度。在 1865 条消息聊天中，它会呈现 2 条消息，而不是 Ultra 模式下的 1865 条消息，速度提高了 932 倍。通过“加载上一条消息”按钮返回整个链，完整的历史记录保持完整。 棘手的部分是在修剪后保持消息图一致，因为映射对象中的父节点和子节点引用都需要保持有效，处理 SPA 导航而无需重新加载整个页面，并确保获取代理不会破坏流响应。 如果有人好奇，很高兴讨论任何技术细节。   由   提交 /u/Distinct-Resident759   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5wgns/chatgpt_becomes_unusable_in_long_chats_so_i_fixed/</guid>
+      <pubDate>Sat, 28 Mar 2026 10:08:29 GMT</pubDate>
     </item>
     <item>
-      <title>你的反跳是在骗你：防止 Web UI 中过时的获取结果</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s5swkw/your_debounce_is_lying_to_you_preventing_stale/</link>
-      <description><![CDATA[      反跳可以平滑嘈杂的输入，但它不能控制请求生命周期。这篇文章重点讨论过时响应错误，并展示了使用 AbortController、重试和弹性错误处理的实用模式，以便 UI 状态在不稳定的网络下保持准确。   由   提交/u/OtherwisePush6424  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s5swkw/your_debounce_is_lying_to_you_preventing_stale/</guid>
-      <pubDate>Sat, 28 Mar 2026 06:28:55 GMT</pubDate>
+      <title>Sake - 在 KOReader 设备上管理电子书库的新方法</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s5w8ec/sake_a_new_way_to_manage_your_ebook_library_on/</link>
+      <description><![CDATA[      嘿！ 很长一段时间以来，管理我的电子书一直是一件痛苦的事情。我尝试了几个应用程序并研究了更多应用程序，但没有一个应用程序比使用 Calibre 更容易将书籍传输到我的设备上并将它们通过电子邮件发送到我的 Kindle。它可以工作，但手动查找书籍、将它们下载到我的电脑上并发送它们仍然很乏味 - 或者更糟糕的是，依赖我手机上的 Send to Kindle 应用程序，该应用程序将完美的 EPUB 文件转换为专有格式。在新的 Kindle 越狱出现并安装了 KOReader 后，我终于实现了一个我考虑了一段时间的想法： Sake（Svelte 和 KOReader 生态系统）是一个面向 KOReader 用户的开源、自托管电子书库管理器。它结合了：  一个网络应用程序，用于从任何地方管理您的图书馆并从外部来源下载图书 一个 KOReader 插件，用于同步图书、阅读进度和统计信息  当前功能包括：  KOReader 图书 + 进度同步 将阅读统计信息发送到 Web 应用程序 自动元数据获取 基于规则书架 支持从互联网上的外部资源下载书籍 自托管堆栈，无需遥测，LibSQL 作为数据库，S3 用于对象存储 适用于多个设备的 Api 密钥 能够在 KOReader 设备上导出图书馆（需要位于主文件夹中），包括阅读统计信息和笔记  非常感谢您的反馈！这个版本已经私下开发了大约六个月。几周前，我将其开源，因为似乎需要新的电子书图书馆管理系统和应用程序。它开始进入更稳定且功能丰富的状态。另外，为了透明起见：我在项目期间确实使用了人工智能作为开发辅助工具。 这里是 GitHub 的链接：https://github.com/Sudashiii/Sake 欢迎创建问题！ 这里有一些屏幕截图：  https://preview.redd.it/avxff1u4drrg1.jpg?width=1305&amp;format=pjpg&amp;auto=webp&amp;s=91e48e950313c21fa23b7daa145c30170340c14f &lt;一href=&quot;https://preview.redd.it/hl8zo2u4drrg1.jpg?width=1058&amp;format=pjpg&amp;auto=webp&amp;s=91b8b807c4c20939fe86d15b99cc010e22636164&quot;&gt; https://preview.redd.it/hl8zo2u4drrg1.jpg?width=1058&amp;format=pjpg&amp;auto=webp&amp;s=91b8b807c4c20939fe86d15b99cc010e22636164 &lt;一href=&quot;https://preview.redd.it/wts2b2u4drrg1.jpg?width=1282&amp;format=pjpg&amp;auto=webp&amp;s=6143d5fae4cadf225ec9912b1dd41ce41c7bbd5b&quot;&gt; https://preview.redd.it/wts2b2u4drrg1.jpg?width=1282&amp;format=pjpg&amp;auto=webp&amp;s=6143d5fae4cadf225ec9912b1dd41ce41c7bbd5b &lt;一href=&quot;https://preview.redd.it/n8ax61u4drrg1.jpg?width=1300&amp;format=pjpg&amp;auto=webp&amp;s=a42afa25b4f8da8bc03d554d3681652e6a56b6f7&quot;&gt; https://preview.redd.it/n8ax61u4drrg1.jpg?width=1300&amp;format=pjpg&amp;auto=webp&amp;s=a42afa25b4f8da8bc03d554d3681652e6a56b6f7 &lt;一href=&quot;https://preview.redd.it/hohrv2u4drrg1.jpg?width=1295&amp;format=pjpg&amp;auto=webp&amp;s=9c3af9fca2fcf0bce0f2419c8a093e200d09a049&quot;&gt; https://preview.redd.it/hohrv2u4drrg1.jpg?width=1295&amp;format=pjpg&amp;auto=webp&amp;s=9c3af9fca2fcf0bce0f2419c8a093e200d09a049   由   提交/u/51n5tr1x  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s5w8ec/sake_a_new_way_to_manage_your_ebook_library_on/</guid>
+      <pubDate>Sat, 28 Mar 2026 09:54:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
