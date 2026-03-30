@@ -4,20 +4,48 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 30 Mar 2026 10:14:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 13:08:27 GMT</lastBuildDate>
+    <item>
+      <title>JUG——我构建的一个媒体下载器，因为我厌倦了粗略的下载网站</title>
+      <link>https://www.reddit.com/r/programming/comments/1s7q2vn/jug_a_media_downloader_i_built_because_i_was/</link>
+      <description><![CDATA[ 由   提交/u/Global-Draft5131   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s7q2vn/jug_a_media_downloader_i_built_because_i_was/</guid>
+      <pubDate>Mon, 30 Mar 2026 13:07:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>硬件图像压缩</title>
+      <link>https://www.reddit.com/r/programming/comments/1s7p1t5/hardware_image_compression/</link>
+      <description><![CDATA[ 由   提交/u/ElectronicAudience28  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s7p1t5/hardware_image_compression/</guid>
+      <pubDate>Mon, 30 Mar 2026 12:23:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德看到的一切：Chardet v7 重写的透明说明</title>
+      <link>https://www.reddit.com/r/programming/comments/1s7owzd/everything_claude_saw_a_transparent_account_of/</link>
+      <description><![CDATA[ 由   提交 /u/danielblanchard   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s7owzd/everything_claude_saw_a_transparent_account_of/</guid>
+      <pubDate>Mon, 30 Mar 2026 12:17:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>浏览器中的 WebGPU 击败数据中心 GPU 上的 PyTorch – 纸面+实时基准测试</title>
+      <link>https://www.reddit.com/r/programming/comments/1s7nwdi/webgpu_in_a_browser_beats_pytorch_on_a_datacenter/</link>
+      <description><![CDATA[在浏览器中测试您的 GPU（无需安装）：https://gpubench.dev  我写了一篇研究论文，表明将顺序计算融合到单个 WebGPU 计算着色器调度中的性能显着优于基于框架的 GPU 计算： - 223x over PyTorch CUDA (Tesla) T4) on Acrobot-v1 - 在 1,500 步的金融模拟中，比 PyTorch CUDA 快 94 倍 - 使用 lax.scan+vmap 比 JAX GPU 快 7.2 倍 - 运行 Chrome 的笔记本电脑击败运行 PyTorch 的数据中心 GPU  论文（带 DOI）：https://doi.org/10.5281/zenodo.19331834 代码：https://github.com/abgnydn/webgpu-kernel-fusion 为什么这很重要（简单语言）： https://gpubench.dev/why   由   提交 /u/Entphorse   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s7nwdi/webgpu_in_a_browser_beats_pytorch_on_a_datacenter/</guid>
+      <pubDate>Mon, 30 Mar 2026 11:29:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>索引：搜索性能的关键数据结构</title>
+      <link>https://www.reddit.com/r/programming/comments/1s7nnr5/index_a_crucial_data_structure_for_search/</link>
+      <description><![CDATA[深入研究各种类型的索引及其在幕后的工作原理:) 它有很多变体和类型，具体取决于底层数据库/搜索引擎及其目的，但核心概念始终是相同的：  让我们有一个额外的数据结构，它指向/引用原始数据并使搜索速度更快。  希望您喜欢它！   由   提交 /u/BinaryIgor   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s7nnr5/index_a_crucial_data_structure_for_search/</guid>
+      <pubDate>Mon, 30 Mar 2026 11:16:36 GMT</pubDate>
+    </item>
     <item>
       <title>简单理解 RabbitMQ</title>
       <link>https://www.reddit.com/r/programming/comments/1s7hl37/understanding_rabbitmq_in_simple_terms/</link>
       <description><![CDATA[ 由   提交/u/Sushant098123  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s7hl37/understanding_rabbitmq_in_simple_terms/</guid>
       <pubDate>Mon, 30 Mar 2026 05:14:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>JetBrains Air：多代理编码的未来，还是更多的人工智能噪音？</title>
-      <link>https://www.reddit.com/r/programming/comments/1s7h8bw/jetbrains_air_the_future_of_multiagent_coding_or/</link>
-      <description><![CDATA[ 由   提交/u/zarinfam  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s7h8bw/jetbrains_air_the_future_of_multiagent_coding_or/</guid>
-      <pubDate>Mon, 30 Mar 2026 04:54:36 GMT</pubDate>
     </item>
     <item>
       <title>速率限制系统设计：算法、权衡和最佳实践</title>
@@ -71,7 +99,7 @@
     <item>
       <title>Colossus 如何优化数据放置以提高性能</title>
       <link>https://www.reddit.com/r/programming/comments/1s6sq66/how_colossus_optimizes_data_placement_for/</link>
-      <description><![CDATA[ 由   提交/u/yusufaytas   [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交 /u/yusufaytas   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s6sq66/how_colossus_optimizes_data_placement_for/</guid>
       <pubDate>Sun, 29 Mar 2026 11:34:49 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交 /u/m-chav   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s6pvuz/what_category_theory_teaches_us_about_dataframes/</guid>
       <pubDate>Sun, 29 Mar 2026 08:43:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过本地优先同步（无云）跨设备跟踪阅读位置</title>
-      <link>https://www.reddit.com/r/programming/comments/1s6lb72/tracking_reading_position_across_devices_with/</link>
-      <description><![CDATA[ 由   提交/u/iamstonecharioteer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s6lb72/tracking_reading_position_across_devices_with/</guid>
-      <pubDate>Sun, 29 Mar 2026 04:12:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jon Gjengset 的并发协调成本</title>
-      <link>https://www.reddit.com/r/programming/comments/1s6c2kf/the_cost_of_concurrency_coordination_with_jon/</link>
-      <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s6c2kf/the_cost_of_concurrency_coordination_with_jon/</guid>
-      <pubDate>Sat, 28 Mar 2026 21:07:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我反编译了白宫的新应用程序</title>
-      <link>https://www.reddit.com/r/programming/comments/1s6b9zt/i_decompiled_the_white_houses_new_app/</link>
-      <description><![CDATA[抛开政治因素不谈，这是一个写得很糟糕、非常窥探的应用程序。    由   提交 /u/CackleRooster   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s6b9zt/i_decompiled_the_white_houses_new_app/</guid>
-      <pubDate>Sat, 28 Mar 2026 20:35:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用 ETag header 实现乐观并发</title>
-      <link>https://www.reddit.com/r/programming/comments/1s68ct6/how_to_use_etag_header_for_optimistic_concurrency/</link>
-      <description><![CDATA[ 由   提交 /u/Adventurous-Salt8514   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s68ct6/how_to_use_etag_header_for_optimistic_concurrency/</guid>
-      <pubDate>Sat, 28 Mar 2026 18:40:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
