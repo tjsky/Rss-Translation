@@ -4,111 +4,111 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Tue, 31 Mar 2026 10:02:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 13:06:26 GMT</lastBuildDate>
     <item>
-      <title>LinkedIn 是否会标记人工智能消息，或者人们只是越来越擅长忽略它们？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8j4ol/is_linkedin_flagging_ai_messages_or_people_just/</link>
-      <description><![CDATA[3 个月前，我开始使用 gpt 来编写我的连接请求和第一条消息，人们回复了大约 2 周，然后相同的模板、定位和回复就枯竭了。 LinkedIn 是否开始通过算法过滤人工智能文本，或者人们只是擅长识别它？不确定第一个，因为我仍然看到人工智能撰写的许多价值数百万美元的建议帖子。 有人用实际数据正确测试过这个吗？或者你对此也有一些猜测？   由   提交 /u/NickoGermish   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8j4ol/is_linkedin_flagging_ai_messages_or_people_just/</guid>
-      <pubDate>Tue, 31 Mar 2026 10:00:19 GMT</pubDate>
+      <title>伙计，我只是想了解大麻。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8mv5g/man_i_just_wanted_to_know_about_weed/</link>
+      <description><![CDATA[      哥们，我忘了我的 gpt 说过了，我像一年前一样截了一张截图，然后就忘记了。  想出一个有趣的 id 帖子。   由   提交/u/ThickStrawberry792  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8mv5g/man_i_just_wanted_to_know_about_weed/</guid>
+      <pubDate>Tue, 31 Mar 2026 13:05:14 GMT</pubDate>
     </item>
     <item>
-      <title>有人刚刚在 X 上泄露了 claude code 的源代码</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8j27e/someone_just_leaked_claude_codes_source_code_on_x/</link>
-      <description><![CDATA[      浏览了 Claude Code CLI 的完整 TypeScript 源代码（约 1,884 个文件）。找到了 35 个从公共构建中编译出来的构建时功能标志。最有趣的是： BUDDY - 一种电子宠物，生活在你的提示旁边。 18 个物种（鸭子、蝾螈、chonk...）、稀有度等级、CHAOS 和 SNARK 等统计数据。预告片将于 2026 年 4 月 1 日发布。（是的，这个日期很可疑 - 几乎可以肯定代码库中存在愚人节彩蛋。） KAIROS - 持久助手模式。克劳德通过每日日志来记住各个会话，然后通过“梦想”来回忆。晚上 — 分叉的子代理会在您睡觉时巩固您的记忆。 ULTRAPLAN — 将复杂的计划发送到远程 Claude 实例，持续时间长达 30 分钟。您在浏览器中批准该计划，然后“传送”它返回到您的终端。 协调器模式 - 已可通过 CLAUDE_CODE_COORDINATOR_MODE=1 访问。生成通过 XML 通知报告的并行工作代理。 UDS Inbox - 计算机上的多个 Claude 会话通过 Unix 域套接字相互通信。 Bridge - claude 远程控制 让您可以从 claude.ai&quot;&gt;claude.ai 或手机控制本地 CLI。 守护进程模式 — claude ps、attach、kill — 具有后台 tmux 会话的完整会话主管。 还发现了 120 多个未记录的环境变量、26 个内部斜线命令（/teleport、/dream、/good-claude...）、用于远程功能的 GrowthBook SDK 密钥切换，以及为 Anthropic 员工解锁一切的 USER_TYPE=ant。   由   提交/u/abhi9889420  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8j27e/someone_just_leaked_claude_codes_source_code_on_x/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:56:22 GMT</pubDate>
+      <title>我绘制了整个 Codex CLI 生态系统 — 有 150 多个社区工具，但大多数人不知道它们的存在</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8monh/i_mapped_the_entire_codex_cli_ecosystem_there_are/</link>
+      <description><![CDATA[我一直使用 Codex CLI 作为我的主要编码工具，并对生态系统的碎片化感到沮丧。每次我 发现一个很酷的子代理或技能包时，它都会被隐藏在一些带有 3 颗星的随机存储库中。 因此，我在过去的几周里跟踪了我能找到的每个 Codex CLI 工具，并将它们组织到一个精选的 列表中。最终获得了 **跨 20 个类别的 150 多个资源**。 一些让我大吃一惊的事情： **子代理游戏太疯狂了。** VoltAgent 有 136 多个预构建代理 - 安全审核员、i18n 提取器、性能 分析器、语言专家。当有适合其具体用例的现成代理时，大多数人仍在从头开始编写提示。 **跨代理工具已经存在。** 有一个名为 agent-peer-review 的工具，可以让 Codex 审查 Claude Code 的输出 ，反之亦然。有一个 MCP 桥可以让 Claude Code 生成 Codex 子代理。多代理的未来已经到来，只是分布不均匀。 **技能生态系统正在快速发展。** Hugging Face 拥有用于 ML 工作流程的官方技能包。  有针对 OWASP 检查的以安全为中心的技能、具有条件逻辑的工作流程自动化技能，甚至还有 KiCad PCB 设计助理（是的，确实如此）。 **您可以将 Codex 与任何模型一起使用。** Ollama、LM Studio、LiteLLM 和 OpenRouter 都有现成的配置。 您不会被 OpenAI 的 API 所束缚。 我还整理了一个详细的比较表：Codex CLI、Claude Code 与 Gemini CLI 的 18 个功能（语言、 定价、沙箱、MCP 支持、上下文窗口等） 完整列表：https://github.com/RoggeOhta/awesome-codex-cli **您使用的哪些 Codex 工具是我可能错过的？**我希望保持此列表的全面性 - PR 和 欢迎提出建议。   由   提交/u/RoggeOhta   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8monh/i_mapped_the_entire_codex_cli_ecosystem_there_are/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:58:00 GMT</pubDate>
     </item>
     <item>
-      <title>我不是格鲁吉亚人。我不会说格鲁吉亚语</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8ixzz/im_not_georgian_i_cant_speak_georgian/</link>
-      <description><![CDATA[       https://preview.redd.it/vakvmilzqcsg1.png?width=1120&amp;format=png&amp;auto=webp&amp;s=de123ecc8e4162f37b0723294bfce892e81b4321   由   提交/u/Unirell   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8ixzz/im_not_georgian_i_cant_speak_georgian/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:49:34 GMT</pubDate>
+      <title>努力有效地使用它</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8mgz7/struggling_to_use_it_effectively/</link>
+      <description><![CDATA[确实在一些事情上挣扎。这主要是我的抱怨，因为我不认为这些问题有任何解决方案  - 无论我做什么，在浏览器（手机或笔记本电脑）中运行速度都非常慢，几乎无法使用  - 根本无法在应用程序中搜索，无论什么平台  - 在浏览器中搜索不会带我到我搜索的内容  - 如果我在手机上的浏览器中按 ctrl-f 来查找特定的内容，它找不到它 - 在笔记本电脑上的同一个 convo 中按 ctrl-f，找到项目，但无法复制和粘贴而不导致浏览器延迟或崩溃 我不知道此时该怎么办   由   提交/u/CoreyTaylorsMilkJug   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8mgz7/struggling_to_use_it_effectively/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:48:36 GMT</pubDate>
     </item>
     <item>
-      <title>中国武侠（武术）漫画：使用 ChatGPT 手动拼版的原始艺术品</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8int1/chinese_wuxia_martial_arts_comic_raw_artwork/</link>
-      <description><![CDATA[      大家好！ 👋 我很乐意分享我一直在创作的中国武侠（武术）漫画。 我使用 ChatGPT 生成了原始艺术作品，并手动完成了所有故事板和面板，使故事栩栩如生。我已经完成了100多页了！ 📖 以下是一些页面的快速浏览。我很乐意听到您的反馈并与大家交流想法！ 如果您有兴趣，请随时访问我的页面以了解更多信息： https://www.facebook.com/LKYcomicstudio/   由   提交/u/yeunglk  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8int1/chinese_wuxia_martial_arts_comic_raw_artwork/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:32:30 GMT</pubDate>
+      <title>这有多真实，您对使用 chatgpt 的医生感觉如何？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8md1p/how_genuine_is_this_how_comfortable_would_you/</link>
+      <description><![CDATA[   /u/Datbio69420nscope  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8md1p/how_genuine_is_this_how_comfortable_would_you/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:43:49 GMT</pubDate>
     </item>
     <item>
-      <title>我多么希望自己能说多种语言</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8ifvo/how_i_wish_im_a_polyglot/</link>
-      <description><![CDATA[      由   提交/u/Weekly_Flounder_1880  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8ifvo/how_i_wish_im_a_polyglot/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:18:58 GMT</pubDate>
+      <title>GPT 5.4 思维在剪刀石头布中以 10-0 获胜</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8m8cp/gpt_54_thinking_goes_100_in_rock_paper_scissors/</link>
+      <description><![CDATA[       由   提交/u/Large_Pea_5554  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8m8cp/gpt_54_thinking_goes_100_in_rock_paper_scissors/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:38:03 GMT</pubDate>
     </item>
     <item>
-      <title>为什么这个深度研究图标不是白色的？这是我这边的错误吗</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8ieir/why_is_this_deep_research_icon_not_white_is_it_a/</link>
-      <description><![CDATA[      电子邮件：[prasanjitdey8523@gmail.com](mailto:prasanjitdey8523@gmail.com)   由   提交 /u/OkAcanthocephala9305   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8ieir/why_is_this_deep_research_icon_not_white_is_it_a/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:16:43 GMT</pubDate>
+      <title>我不会分享我的个人信息，所以这是有道理的</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8m727/i_dont_share_my_personal_information_on_it_so/</link>
+      <description><![CDATA[      由   提交/u/Dry_Analyst_3989   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8m727/i_dont_share_my_personal_information_on_it_so/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:36:24 GMT</pubDate>
     </item>
     <item>
-      <title>期望与现实</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8ie4b/expectation_vs_reality/</link>
-      <description><![CDATA[       由   提交/u/Abhinav_108  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8ie4b/expectation_vs_reality/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:16:02 GMT</pubDate>
+      <title>一张出色的模仿电影海报</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8m28a/an_excellent_parody_movie_poster/</link>
+      <description><![CDATA[      你能模仿这张电影海报吗？ （出自 Monty Python 电影《秘密警察的舞会》）新标题将是“恋童癖总统的舞厅”。这些照片应该由特朗普和他的内阁成员取代。 考虑到我的请求如此简短，这里的结果似乎很引人注目。   由   提交 /u/joetaxpayer   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8m28a/an_excellent_parody_movie_poster/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:30:29 GMT</pubDate>
     </item>
     <item>
-      <title>说俄语？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8i6b8/speaking_in_russian/</link>
-      <description><![CDATA[      提示开始于我询问聊天gpt“你将如何定义爱泼斯坦文件”，它说“你的大脑接受了一些大而可怕的事情并带来了成果。但这并不意味着它是真的” 只是觉得这真的很奇怪，它会在其中抛出一个随机的俄语短语。不想成为一顶锡箔帽子，但我什至不会说西班牙语    由   提交/u/clinicallyinsane112  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8i6b8/speaking_in_russian/</guid>
-      <pubDate>Tue, 31 Mar 2026 09:02:50 GMT</pubDate>
+      <title>VOX-Praxis：LLM 输出的可重用推理支架</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8lznz/voxpraxis_a_reusable_reasoning_scaffold_for_llm/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8lznz/voxpraxis_a_reusable_reasoning_scaffold_for_llm/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:27:18 GMT</pubDate>
     </item>
     <item>
-      <title>有人知道人工审核可能需要多长时间吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8i40n/anyone_know_how_long_a_human_review_would/</link>
-      <description><![CDATA[看来我收到了“这可能违反我们的政策或使用条款”的禁止信息。再加上不同聊天中的拒绝，让我紧张地想知道惩罚什么时候会到来。如果他们要做某事，他们什么时候做？如果他们要做某事，他们不是会很快做吗？我一定是非常淘气才收到这个   由   提交 /u/Feeling-Climate751   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8i40n/anyone_know_how_long_a_human_review_would/</guid>
-      <pubDate>Tue, 31 Mar 2026 08:59:27 GMT</pubDate>
+      <title>尽管我没有发送任何图像，但图像聊天已达到限制。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8lyvb/limit_reached_for_chats_with_images_even_though_i/</link>
+      <description><![CDATA[   我不明白，我从未向我与 ChatGPT 的对话发送过图像或任何上传内容。我真的不记得了，所以我很困惑为什么我会得到这个“你已经达到了这个极限 - 等等等等”我无法发送消息。根本没有上传，但我不能发短信？这是新的更新吗？  （关于语法，抱歉，英语不是我的母语。）   由   提交/u/Frequent_Read_4101   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8lyvb/limit_reached_for_chats_with_images_even_though_i/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:26:16 GMT</pubDate>
     </item>
     <item>
-      <title>AI 是人偶，你能猜出谁是谁吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8hvo3/ais_as_figurines_can_you_guess_who_is_who/</link>
-      <description><![CDATA[       由   提交 /u/Electronic_Spare1821   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8hvo3/ais_as_figurines_can_you_guess_who_is_who/</guid>
-      <pubDate>Tue, 31 Mar 2026 08:45:13 GMT</pubDate>
+      <title>深厚的研究遗产消失了</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8ln9y/deep_research_legacy_gone/</link>
+      <description><![CDATA[所以，显然深度研究的遗产现在已经完全消失了，深度研究机构正在创建的当前文本完全可行。有人有任何其他想法如何生成类似的文本，就像旧的深入研究可能与其他网站一样吗？据我所知claude和deepseek没有类似的选项   由   提交/u/kvaldulv  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8ln9y/deep_research_legacy_gone/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:11:16 GMT</pubDate>
     </item>
     <item>
-      <title>欺骗聊天GPT</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8hqnu/tricking_chatgpt/</link>
-      <description><![CDATA[      我们可以让它说 1+1=1 吗？   由   提交/u/freddyHB  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8hqnu/tricking_chatgpt/</guid>
-      <pubDate>Tue, 31 Mar 2026 08:36:43 GMT</pubDate>
+      <title>我分析了完整的源代码并发现了令人兴奋的事情。🤯🤯</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8lkyk/i_analyzed_the_full_source_code_and_found/</link>
+      <description><![CDATA[11 层架构。自定义 React 渲染器。树守护者安全内核。分布式代理调度程序。具有离线学习功能的持久记忆系统。编译时功能标志系统。而且（我发誓这不是我编造的）程序生成的虚拟宠物。 完整文章：https://x.com/abubakar_AIE/status/2038949717430935608   由   提交/u/Abu_BakarSiddik   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8lkyk/i_analyzed_the_full_source_code_and_found/</guid>
+      <pubDate>Tue, 31 Mar 2026 12:08:18 GMT</pubDate>
     </item>
     <item>
-      <title>GPT Plus vs Pro，还有其他人陷入 Codex 信用陷阱吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8hq4y/gpt_plus_vs_prois_anyone_else_stuck_in_the_codex/</link>
-      <description><![CDATA[我订阅 Plus 已经有一段时间了，它在大多数情况下都可以正常工作，但 Codex 积分用得太快了。我是一名独立开发者，我的业余项目严重依赖 Codex，因此限制确实减慢了我的速度。 我尝试了 Pro 一个月。  但问题是： ∙ Pro 的价格是 Plus 的 10 倍（200 美元 vs 20 美元）∙ 额外的 Codex 积分大约是 6 倍，而不是 10 倍 ∙ GPT5.4Pro 和深入的研究功能证明溢价合理吗？我几乎不碰它们——我现在没有复杂的推理或研究需求 所以本质上，我花 10 倍的钱买了 6 倍我真正关心的东西，再加上一堆我不需要的东西。 我的 Pro sub 即将到期，我真的不知道该怎么办。  有人找到了一个好的中间立场吗？有没有办法进一步延长 Plus Codex 积分，或者是否有降低燃烧率的工作流程？  很想听听其他开发人员是如何处理这个问题的。   由   提交/u/Glum-Cabinet7420   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8hq4y/gpt_plus_vs_prois_anyone_else_stuck_in_the_codex/</guid>
-      <pubDate>Tue, 31 Mar 2026 08:35:51 GMT</pubDate>
+      <title>猜猜谁是傻子</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8l97f/guess_whos_dumb/</link>
+      <description><![CDATA[       https://preview.redd.it/7cot0kt2ddsg1.png?width=956&amp;format=png&amp;auto=webp&amp;s=264acf393b975e94e27a68503e2f2ba539b28ca3 &lt;一href=&quot;https://preview.redd.it/sn8khhu3ddsg1.png?width=903&amp;format=png&amp;auto=webp&amp;s=2e084ad2e066a7194b14f145aad4ccf7862a2ed6&quot;&gt; https://preview.redd.it/sn8khhu3ddsg1.png?width=903&amp;format=png&amp;auto=webp&amp;s=2e084ad2e066a7194b14f145aad4ccf7862a2ed6 &lt;一href=&quot;https://preview.redd.it/wrusztj4ddsg1.png?width=881&amp;format=png&amp;auto=webp&amp;s=5f4e68f0d90980bcaf5daee3038cc2c3a6e2dca6&quot;&gt; https://preview.redd.it/wrusztj4ddsg1.png?width=881&amp;format=png&amp;auto=webp&amp;s=5f4e68f0d90980bcaf5daee3038cc2c3a6e2dca6 &lt;一href=&quot;https://preview.redd.it/7m1spzd5ddsg1.png?width=896&amp;format=png&amp;auto=webp&amp;s=483c4b43ec1c7f9c81f786d8cb1c15ded2bbc511&quot;&gt; https://preview.redd.it/7m1spzd5ddsg1.png?width=896&amp;format=png&amp;auto=webp&amp;s=483c4b43ec1c7f9c81f786d8cb1c15ded2bbc511   由   提交 /u/Status_Profile4078   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8l97f/guess_whos_dumb/</guid>
+      <pubDate>Tue, 31 Mar 2026 11:52:59 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 用 BASH 编写？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8hl8t/chatgpt_written_in_bash/</link>
-      <description><![CDATA[我认为你不能用 BASH 编写 ChatGPT，但是这个人确实编写了 GPT！ https://github.com/ResonantEntropy/bashGPT 它不是 API 的包装器。这是一个使用预训练数据的实际 Transformer！ 疯狂的世界。   由   提交 /u/tendint   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8hl8t/chatgpt_written_in_bash/</guid>
-      <pubDate>Tue, 31 Mar 2026 08:27:20 GMT</pubDate>
+      <title>真的是开玩笑吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8l2rk/did_it_really_make_a_joke/</link>
+      <description><![CDATA[       由   提交 /u/bianca_bianca   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8l2rk/did_it_really_make_a_joke/</guid>
+      <pubDate>Tue, 31 Mar 2026 11:44:05 GMT</pubDate>
     </item>
     <item>
-      <title>chat 认为《怪奇物语》最后一季尚未播出。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8h57g/chat_doesnt_think_the_final_season_of_stranger/</link>
-      <description><![CDATA[   我应该问什么作为后续行动？  我所问的只是哪个系列在系列结束后更快地从社会炒作列车中跌落。 GoT 或 ST。    由   提交 /u/lastSKYsamurai   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8h57g/chat_doesnt_think_the_final_season_of_stranger/</guid>
-      <pubDate>Tue, 31 Mar 2026 07:59:06 GMT</pubDate>
+      <title>这是付费快闪吗？几个社区连续发了很多帖子“你怎么能使用сgpt？！你为什么喜欢它？！当我讨厌的时候你怎么敢？！”</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8ku63/is_this_a_paid_flash_mob_so_many_posts_in_a_row/</link>
+      <description><![CDATA[ 由   提交/u/CarefulHamster7184  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8ku63/is_this_a_paid_flash_mob_so_many_posts_in_a_row/</guid>
+      <pubDate>Tue, 31 Mar 2026 11:32:16 GMT</pubDate>
     </item>
     <item>
-      <title>我厌倦了逐一删除 ChatGPT 聊天记录，所以我构建了这个</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1s8h1fz/i_got_tired_of_deleting_chatgpt_chats_one_by_one/</link>
-      <description><![CDATA[我的侧边栏变得完全混乱，一个接一个地删除聊天实在是超级烦人。 是否有任何内置方法可以选择多个聊天并一次删除它们？ 我最终构建了一个小型 Chrome 扩展程序，为此添加了选择模式，但我很好奇是否已经有一个我错过的本机解决方案。 很想知道其他人如何处理这 🙂   由   提交/u/East-Thought-4939   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8h1fz/i_got_tired_of_deleting_chatgpt_chats_one_by_one/</guid>
-      <pubDate>Tue, 31 Mar 2026 07:52:26 GMT</pubDate>
+      <title>为什么人工智能工作流程在孤立的情况下感觉很稳固，但在管道中却完全崩溃了？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1s8kpte/why_do_ai_workflows_feel_solid_in_isolation_but/</link>
+      <description><![CDATA[最近一直在使用 LLM 工作流程进行构建。 单一提示→效果良好 甚至 2-3 个步骤→可管理 但是一旦工作流程增长： 事情开始以奇怪的方式发生变化 单独的输出看起来正确 但整个系统感觉不太好 感觉是： 相同的模型 相同的输入 但不同的结果取决于其接线方式 这主要是一个提示问题 还是一个系统设计问题？ 好奇随着工作流程规模的扩大，你如何处理这个问题   由   提交 /u/brainrotunderroot   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1s8kpte/why_do_ai_workflows_feel_solid_in_isolation_but/</guid>
+      <pubDate>Tue, 31 Mar 2026 11:26:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
