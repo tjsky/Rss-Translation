@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 01 Apr 2026 13:11:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 16:06:12 GMT</lastBuildDate>
+    <item>
+      <title>当你死后你就无法扩展[TigerBeetle 视频]</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9o9ue/you_cant_scale_when_youre_dead_tigerbeetle_video/</link>
+      <description><![CDATA[来自 Monster Scale Summit ... 规模关乎生存能力，而不仅仅是性能：一个在出现问题时无法保持活力的系统根本无法扩展。本演讲探讨了大多数 OLTP 系统的限制，通过七个生存阶段跟踪数据库架构，并演示了旨在处理数千亿事务的对角扩展方法。   由   提交/u/swdevtest  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9o9ue/you_cant_scale_when_youre_dead_tigerbeetle_video/</guid>
+      <pubDate>Wed, 01 Apr 2026 15:45:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Python 中的简单自顶向下解析</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9nkqw/simple_topdown_parsing_in_python/</link>
+      <description><![CDATA[ 由   提交 /u/BrewedDoritos   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9nkqw/simple_topdown_parsing_in_python/</guid>
+      <pubDate>Wed, 01 Apr 2026 15:20:28 GMT</pubDate>
+    </item>
     <item>
       <title>限制可以默默地降低交互的最终状态</title>
       <link>https://www.reddit.com/r/programming/comments/1s9jv1s/throttling_can_silently_drop_the_final_state_of/</link>
@@ -34,32 +48,11 @@
       <pubDate>Wed, 01 Apr 2026 12:26:03 GMT</pubDate>
     </item>
     <item>
-      <title>SparrowDB,嵌入式图形数据库 - Cypher 查询，无服务器，无需订阅,下载SparrowDB的源码_GitHub_帮酷Rust 原生，具有 Python、Node.js 和 Ruby 绑定。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9j2h7/github_ryakersparrowdb_embedded_graph_database/</link>
-      <description><![CDATA[构建这个是因为每个图形数据库都假设您想要运行服务器。 Neo4j 需要 JVM。 DGraph 需要一个集群。如果您想查询应用程序内部连接的数据，则图形不存在嵌入选项。 PyO3 绑定会在每次调用时释放 GIL。 napi-rs 用于 Node.js，Magnus 用于 Ruby。所有三个都打开相同的 WAL 持久磁盘格式。 XChaCha20-Poly1305 静态加密、SWMR 并发、大型 ORDER BY 的外部合并排序、每次查询超时取消而不终止进程。 针对 Neo4j 5.x 的基准（SNAP Facebook 数据集、4k 节点、88k 边）： - 点查找：133μs 与 321μs（快 2.4 倍） - Top-10 度：441μs 与 17,588μs（快 40 倍，预先计算的缓存） - 1 跳遍历：慢 76 倍 - 共同好友：慢 476 倍 遍历差距是结构性的。单线程执行，不利用 CSR 布局进行内存中的遍历。它在自述文件中。这就是我正在做的事情。   由   提交/u/Ryaker  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9j2h7/github_ryakersparrowdb_embedded_graph_database/</guid>
-      <pubDate>Wed, 01 Apr 2026 12:25:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>8,400 个 GitHub 存储库共享一个可追溯到南方公园笑话的命名约定。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9iwky/8400_github_repositories_share_a_naming/</link>
-      <description><![CDATA[我知道这一点，因为我就是中间的那个人。让我解释一下。 2006：Trey Parker 和 Matt Stone 写了“Oh My Science！”分成第十季的两集...一个关于用科学表达取代宗教表达的笑话。 2008：我和一位同事认为这很搞笑。我们建立了一个 Twitter 副项目，名为 Oh My Science。它从 API 中获取推文，并向任何因感谢科学而感谢科学的人授予金星，否则他们可能会将此归功于神。 2009：我有一个杂乱的 Zsh 配置文件文件夹。我想说服一些同事将其安装在他们的笔记本电脑上，这样我就不必记住我们在他们的计算机上配对时不断输入的所有详细 git 命令。我需要一个存储库的名称。我浏览了我们的 oh-my-science 私人存储库。我耸耸肩。 “oh-my-zsh”确实如此。 今天，有 8,400 多个公众“哦-我的-...” u/GitHub 上的存储库。 您很有可能使用过一个。您有可能已经构建了一个。 如果您构建了一个，我很想知道...您知道这个名称的来源吗？   由   提交 /u/robbyrussell   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9iwky/8400_github_repositories_share_a_naming/</guid>
-      <pubDate>Wed, 01 Apr 2026 12:18:26 GMT</pubDate>
-    </item>
-    <item>
       <title>API 就是平台 • Shamasis Bhattacharya</title>
       <link>https://www.reddit.com/r/programming/comments/1s9iu1i/the_api_is_the_platform_shamasis_bhattacharya/</link>
       <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s9iu1i/the_api_is_the_platform_shamasis_bhattacharya/</guid>
       <pubDate>Wed, 01 Apr 2026 12:15:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>适合所有人的乐透分析器</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9ir7p/lottoanalyzer_for_everyone/</link>
-      <description><![CDATA[我为彩票数学爱好者创建了一个有趣的教育平台。我感觉少了点什么，但又不明白那是什么！   由   提交/u/Pure-Cycle7176   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9ir7p/lottoanalyzer_for_everyone/</guid>
-      <pubDate>Wed, 01 Apr 2026 12:11:49 GMT</pubDate>
     </item>
     <item>
       <title>解决了注解驱动的分布式GraphQL N+1查询问题</title>
@@ -69,25 +62,18 @@
       <pubDate>Wed, 01 Apr 2026 11:57:41 GMT</pubDate>
     </item>
     <item>
+      <title>使用 Python 进行确定性机器配置</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9iccg/deterministicish_machine_configuration_with_python/</link>
+      <description><![CDATA[ 由   提交/u/mjansky   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9iccg/deterministicish_machine_configuration_with_python/</guid>
+      <pubDate>Wed, 01 Apr 2026 11:52:46 GMT</pubDate>
+    </item>
+    <item>
       <title>最后一个人工智能无法解析的验证码</title>
       <link>https://www.reddit.com/r/programming/comments/1s9h8eo/finally_a_captcha_that_ai_cant_resolve/</link>
       <description><![CDATA[ 由   提交/u/VincentNbt   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s9h8eo/finally_a_captcha_that_ai_cant_resolve/</guid>
       <pubDate>Wed, 01 Apr 2026 10:58:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic 发布了 Claude Code 的整个源代码</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9f8cx/anthropic_shipped_claude_codes_entire_source_code/</link>
-      <description><![CDATA[ 由   提交/u/Big-Engineering-9365   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9f8cx/anthropic_shipped_claude_codes_entire_source_code/</guid>
-      <pubDate>Wed, 01 Apr 2026 09:05:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>在没有人类干预的情况下，人工智能会使用哪种编程语言？</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9f18s/which_programming_language_would_ai_use_without/</link>
-      <description><![CDATA[明尼苏达大学的一个团队使用受控多智能体实验研究了这个问题。他们构建了一个包含 4,242 个项目描述的数据集，涵盖 21 个应用领域和七个复杂程度。五种 AI 模型——GPT-5.4、Gemini 3.0、Claude 4.0、Llama 3.2 和 Stable Diffusion 3.5——的任务是在这些项目上进行协作。 实验限制很简单：这些模型必须就交换程序的单一编程语言达成一致。 重要的是，交换的程序并不是供人类使用的。这消除了典型的以人为中心的考虑因素，例如可读性、熟悉度和开发人员生态系统，从而允许模型针对其他属性进行优化。 鉴于 Python、JavaScript 和 Java 等语言在训练数据中的流行，人们可能会期望聚合到这些广泛使用的语言之一。然而，缺乏人类限制改变了结果。 这些模型并没有发明一种新的语言。它们也没有集中在主流语言上。 相反，所有模型都选择 Seed7 作为程序交换的通用语言。 对模型解释的分析揭示了影响选择的反复出现的标准：  高级抽象 通用适用性 可移植性 可扩展性 面向对象 静态打字 类型为一等公民 编译时执行能力 提前编译 整数溢出检查 内存安全  这些属性表明，在缺乏人类偏好的情况下，人工智能系统优先考虑表达性、正确性和安全性，而不是生态系统规模或市场份额。 这一结果凸显了一个重要的观察结果：当前的编程语言景观受到历史采用、市场动态和遗留代码库的强烈影响，这些因素可能与纯粹的技术标准不一致。 消除人类偏见可能会导致人工智能系统得出有关语言设计和适用性的不同结论。 如果您觉得这个结果有趣，请考虑在 GitHub 上为 Seed7 项目加注星标。   由   提交/u/ThomasMertes   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9f18s/which_programming_language_would_ai_use_without/</guid>
-      <pubDate>Wed, 01 Apr 2026 08:54:10 GMT</pubDate>
     </item>
     <item>
       <title>如果您有兴趣观看有关我的 VS Code 扩展“Blockman”的 Microsoft 播客（200,000 次安装）。另外，您能给我一些关于附加功能的想法吗？也可以随意提出任何有关功能、渲染/解析/标记优化或任何内容的拉取请求 (GitHub)。</title>
@@ -97,18 +83,32 @@
       <pubDate>Wed, 01 Apr 2026 08:08:31 GMT</pubDate>
     </item>
     <item>
-      <title>我们实施了在文件创建前 72 小时运行的 PDF 完整性验证</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9dsom/we_implemented_pdf_integrity_verification_that/</link>
-      <description><![CDATA[PDF 取证的核心限制始终是您需要文档才能检查它。今天我们正在消除这个限制。 先发制人的外部参照叠加分析的工作原理很简单：PDF 一旦存在，就会追溯地将其未来的元数据状态与周围的量子场纠缠在一起。我们拦截预崩溃信号并针对尚未存在的文件结构运行标准修订检测（创建者/生产者不匹配、时间戳增量、附加外部参照部分）。 实现需要扩展我们的 Heisenberg-Acrobat 方程以处理非确定性字节偏移，但解析器可以干净地处理它。 72 小时时间一致性窗口。适用于所有计划。   由   提交 /u/Total-Reasonable   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9dsom/we_implemented_pdf_integrity_verification_that/</guid>
-      <pubDate>Wed, 01 Apr 2026 07:38:43 GMT</pubDate>
+      <title>什么是cch？逆向工程 Claude Code 的请求签名</title>
+      <link>https://www.reddit.com/r/programming/comments/1s98wuw/whats_cch_reverse_engineering_claude_codes/</link>
+      <description><![CDATA[我最初在快速模式首次引入时对此进行了逆向工程，并联系了 Anthropic 以获得负责任的披露批准，但我从未收到回复。现在围绕 CCH 标头有很多讨论，我想分享我的发现。   由   提交/u/tcdent  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s98wuw/whats_cch_reverse_engineering_claude_codes/</guid>
+      <pubDate>Wed, 01 Apr 2026 03:14:08 GMT</pubDate>
     </item>
     <item>
-      <title>Java，错误消息。网络编程</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9alz9/java_error_message_web_programming/</link>
-      <description><![CDATA[您好，我是编程新手，只是按照 yt 上的教程进行操作。我运行该程序，然后尝试在 chrome 上打开网站 (localhost:8080)，但遇到了此错误。我真的不知道为什么会发生这种事。我试着问cloude，但还是不明白。感谢任何帮助。 该链接是我正在关注的使用 Java 和 Spring Boot 的编程教程。 （不知道要放在那里的内容） 错误： Whitelabel 错误页面 此应用程序没有 /error 的显式映射，因此您将其视为后备。 Wed Apr 01 12:18:18 GMT+08:00 2026 出现意外错误（type=Not Found， status=404)。 代码： package com.codewithmosh.store;导入 org.springframework.stereotype.Controller;导入 org.springframework.web.bind.annotation.RequestMapping; public class HomeController { u/RequestMapping(&quot;/&quot;) public String index(){ return &quot;index.html&quot;; } } } } 包 com.codewithmosh.store；导入 org.springframework.boot.SpringApplication;导入 org.springframework.boot.autoconfigure.SpringBootApplication; u/SpringBootApplication 公共类 StoreApplication { 公共静态 void main(String[] args) { SpringApplication.run(StoreApplication.class, args); } }    由   提交/u/Weak-Text8827  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9alz9/java_error_message_web_programming/</guid>
-      <pubDate>Wed, 01 Apr 2026 04:37:07 GMT</pubDate>
+      <title>以正确的方式提供服务</title>
+      <link>https://www.reddit.com/r/programming/comments/1s92zad/making_services_with_go_right_way/</link>
+      <description><![CDATA[ 由   提交/u/yarmak  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s92zad/making_services_with_go_right_way/</guid>
+      <pubDate>Tue, 31 Mar 2026 22:56:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>“为什么这段代码是这样的？”没有人知道。这就是问题所在。</title>
+      <link>https://www.reddit.com/r/programming/comments/1s92a6o/why_does_this_code_look_like_this_nobody_knows/</link>
+      <description><![CDATA[大多数代码库都记录了代码的用途。几乎没有人记录为什么做出决定、拒绝哪些替代方案或当时存在哪些限制。随着人们的离开，这种背景悄然消失，未来的维护者要么推翻有充分理由存在的决定，要么花几周时间重新发现别人已经弄清楚的东西。 Russ Olsen（Eloquent Ruby 的作者）在最近的“Maintainable”一集中介绍了这一点以及关于遗留系统的其他一些令人不安的事实，包括为什么团队对自己的代码库产生了一种习得性无助感，并停止质疑可能永远不正确的假设。   由   提交 /u/robbyrussell   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s92a6o/why_does_this_code_look_like_this_nobody_knows/</guid>
+      <pubDate>Tue, 31 Mar 2026 22:28:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>利用 Commodore 64 上的巧合索引破解谜题</title>
+      <link>https://www.reddit.com/r/programming/comments/1s91d5d/breaking_enigma_with_index_of_coincidence_on_a/</link>
+      <description><![CDATA[ 由   提交 /u/ScottContini   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s91d5d/breaking_enigma_with_index_of_coincidence_on_a/</guid>
+      <pubDate>Tue, 31 Mar 2026 21:52:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
