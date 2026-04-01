@@ -4,7 +4,70 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 01 Apr 2026 05:21:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 10:05:47 GMT</lastBuildDate>
+    <item>
+      <title>10月30日我做了一些东西</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9fiez/i_cooked_something_on_30th_oct/</link>
+      <description><![CDATA[      由   提交/u/Thewyverns   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9fiez/i_cooked_something_on_30th_oct/</guid>
+      <pubDate>Wed, 01 Apr 2026 09:22:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>24个工具（技能、mcp、app等）用AI制作好看的UI（无自我推销）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9fbp4/24_toolsskills_mcp_app_etc_to_make_a_goodlooking/</link>
+      <description><![CDATA[      一直在收集有助于 UI/UX 的 AI 工具 - 技能、MCP、应用程序、设计工具，等等。最终将其全部组织到一个存储库中。  https://preview.redd.it/xw1drnx0r8sg1.png?width=1838&amp;format=png&amp;auto=webp&amp;s=9008004ae235657e203fae007a02f87634ce9306 重点特别关注 UI/UX 质量（版式、间距、颜色、视觉层次结构等），而不是通用编码工具。 大多数工具都是开源或免费的。我不隶属于其中任何一个。 Repo：https://github.com/maxbogo/awesome-ai-tools-for-ui 如果您知道缺少的内容或只是在此处添加评论，欢迎 PR   由   提交 /u/max_bog   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9fbp4/24_toolsskills_mcp_app_etc_to_make_a_goodlooking/</guid>
+      <pubDate>Wed, 01 Apr 2026 09:11:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>[AskJS] 在简单的 MapLibre GL 演示中处理反向地理编码边缘情况</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9eyhs/askjs_handling_reverse_geocoding_edge_cases_in_a/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9eyhs/askjs_handling_reverse_geocoding_edge_cases_in_a/</guid>
+      <pubDate>Wed, 01 Apr 2026 08:49:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年 3 月对于开源供应链安全来说是艰难的一个月 - 以下是一个快速总结</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9echx/march_2026_was_a_rough_month_for_open_source/</link>
+      <description><![CDATA[      一个月内发生了重大和重大的妥协，所有这些都影响了数百万开发人员每天使用的软件包。这一切都是从 Trivy 开始的。 Trivy：这大部分的根本原因。 Trivy apt 存储库遭到破坏，向任何安装它但没有版本固定的 CI 管道提供恶意二进制文件。该二进制文件泄露了运行者的秘密，包括 PyPI 发布令牌。接下来的一切都是下游的。 litellm 1.82.8：被盗的 PyPI 凭据用于推送木马版本。有效负载隐藏在 WAV 音频文件中，窃取 SSH 密钥、云凭证、加密钱包，并安装持久后门。在 Kubernetes 集群上，它在每个节点上创建了特权 Pod。 telnyx 4.87.1 / 4.87.2 ;相同的攻击者、相同的 RSA 密钥、相同的渗透模式。直接注入核心客户端模块。攻击者在第一次发布后的几小时内推送了一个错误修复版本，以修复破坏 Windows 有效负载的大小写错误。 这些都是由同一攻击者 TeamPCP 完成的... 而且 Axios 受到攻击还没有结束。 axios 1.14.1 / 0.30.4：受损的维护者帐户完全绕过了 CI/CD。没有 GitHub 标签，没有 SLSA 出处。一个恶意依赖项 plain-crypto-js 注入到 package.json 中，该依赖项运行一个 postinstall 脚本，该脚本连接到 C2 服务器并在 npm install 上拉取第二阶段。 CI 管道中的一个受损工具。这就是启动连锁反应所需的全部操作，该反应会影响 PyPI 和 npm 中多个广泛使用的包。 固定您的依赖项。不要漂浮在插入符上。检查您的锁定文件。   由   提交/u/BattleRemote3157  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9echx/march_2026_was_a_rough_month_for_open_source/</guid>
+      <pubDate>Wed, 01 Apr 2026 08:12:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>PardusBrowser：专为代理设计的浏览器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9ec04/pardusbrowser_a_browser_designed_for_agent/</link>
+      <description><![CDATA[       由   提交/u/jasonhon2013  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9ec04/pardusbrowser_a_browser_designed_for_agent/</guid>
+      <pubDate>Wed, 01 Apr 2026 08:11:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何从 axios 切换过来？ [已回答]</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9ebol/how_do_i_actually_switch_from_axios_answered/</link>
+      <description><![CDATA[尽管它很快得到了解决，但它提出了一个公平的问题：当 fetch 现在在 Node 和浏览器中都是原生的时，我们是否仍然需要单独的 HTTP 请求依赖项？ 并不是试图与 Axios 争论，它是可靠且方便的。  但是，如果有人正在考虑减少依赖性，这里有一些简单的模式，可以使用本机 fetch 重新创建常见的 Axios 功能。  基本客户端模式（类似拦截器的行为）  您可以包装 fetch 来处理身份验证标头、基本 URL 和共享逻辑： ``` const api = async (path, options = {}) =&gt; { const { body, ...customConfig } = options; const token = localStorage.getItem(&#39;token&#39;); const headers = { &#39;Content-Type&#39;: &#39;application/json&#39;, &#39;Authorization&#39;: Bearer ${token}, ...customConfig.headers }; const config = { 方法：主体？ &#39;POST&#39; : &#39;GET&#39;, ...customConfig, 标头, }; if (body) config.body = JSON.stringify(body); const res = wait fetch(https://api.yourdomain.com${path}, config); // 共享响应处理 if (res.status === 401) window.location.href = &#39;/login&#39;; if (!res.ok) throw new Error(HTTP Error: ${res.status}); return res.json(); }; ```  重试模式  基本重试逻辑可以分层： ``` const apiWithRetry = async (path, options, retries = 3) =&gt; { try { return wait api(path, options); } catch (err) { if (retries &lt;= 0) throw err; await new Promise(res =&gt; setTimeout(res, 1000)); return apiWithRetry(path, options, retries - 1); } }; ```  超时处理 (AbortController)  Fetch 使用 AbortController 而不是超时选项： ``` const controller = new AbortController(); setTimeout(() =&gt;; controller.abort(), 5000); try { const data = wait api(&#39;/data&#39;, { signal:controller.signal }); } catch (err) { if (err.name === &#39;AbortError&#39;) console.log(&#39;请求超时&#39;); } ``` 一些实用说明： 这并没有涵盖所有 Axios 功能。 理想情况下，重试应仅限于网络错误或幂等请求。 您可能需要指数退避而不是固定延迟。 对于 SSR/Node，请确保您的环境支持 fetch (Node 18+)。 为什么要考虑这一点？ 原生 API 减少依赖表面。 稍小的包（压缩后约 13kB）。 对请求/响应行为有更多控制。 它肯定比 Axios 需要更多的手动操作，但构建块已经存在。 我很好奇其他人是如何解决这个问题，坚持使用 Axios，还是转向原生获取？   由   提交 /u/khiladipk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9ebol/how_do_i_actually_switch_from_axios_answered/</guid>
+      <pubDate>Wed, 01 Apr 2026 08:11:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为初级自由职业者</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9drvx/freelancing_as_junior/</link>
+      <description><![CDATA[嗨，我是初级前端开发人员，我想开始自由职业，除了我免费做过的一个项目之外，我之前没有任何经验。据我所知，对于初级人员来说，在 Upwork 上开始自由职业并不容易。我得到了作品集网站、我为展示我的作品所做的几个项目（只有一个是免费完成的）、一份简历和活跃的linkedin。我的主要堆栈是 React 、 Typescript 、 tailwind 、 redux toolkit 、 tanstack 、 React router 。有什么建议可以让我从哪里开始寻找最小的东西吗？寻找什么，如何发送提案，申请任务时要注意什么。   由   提交/u/Imaginary_Food_7102   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9drvx/freelancing_as_junior/</guid>
+      <pubDate>Wed, 01 Apr 2026 07:37:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>前端代码片段中心（为我自己制作，也许对您也有用！）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9dqbt/a_frontend_code_snippet_hub_made_for_myself_maybe/</link>
+      <description><![CDATA[大家好！ 👋 我构建 Snippet Vault 主要是为了自己使用，这就是它在这个域上的原因，但我想也许其他人也会发现它很有用。这是一个小型的前端代码社区和市场，您可以在其中浏览、共享和重新混合 HTML、CSS 和 JavaScript 代码段。 您可以做什么：  共享代码、发布您自己的便捷代码段 实时预览、立即查看正在运行的代码段 Fork 和 Fork 代码段。重新混合、自定义现有片段并使其成为您自己的  如果它发展壮大，我什至可能会获得一个合适的域名，但目前它只是一个个人项目，向任何想尝试的人开放。 在这里查看：snippetvault.gibby.it 很想听听您的想法！我们非常欢迎反馈、建议或贡献。    由   提交 /u/vMawk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9dqbt/a_frontend_code_snippet_hub_made_for_myself_maybe/</guid>
+      <pubDate>Wed, 01 Apr 2026 07:34:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>人为泄漏：内部 Claude 代码库 + 代理工具暴露</title>
+      <link>https://www.reddit.com/r/webdev/comments/1s9bfrq/anthropic_leak_internal_claude_codebase_agent/</link>
+      <description><![CDATA[Anthropic 意外发布了包含 JavaScript 源映射/调试文件的公共 npm 版本。报告将受影响的软件包识别为 @anthropic-ai/claude-code 版本 2.1.88，其中包含 cli.js.map。由于源映射可以将捆绑/缩小的 JavaScript 映射回原始 TypeScript，因此人们能够重建 Claude Code 的大部分内部源代码。 这里是源代码的存储库：https://github.com/Austin1serb/anthropic-leaked-source-code   由   提交/u/0_2_Hero  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1s9bfrq/anthropic_leak_internal_claude_codebase_agent/</guid>
+      <pubDate>Wed, 01 Apr 2026 05:21:07 GMT</pubDate>
+    </item>
     <item>
       <title>哪个 UI 看起来更好？我建了两个版本，无法决定</title>
       <link>https://www.reddit.com/r/webdev/comments/1s9belx/which_ui_looks_better_i_built_2_versions_and_cant/</link>
@@ -46,69 +109,6 @@
       <description><![CDATA[人们添加到他们正在创建的依赖项中的依赖项数量大得离谱。在 NPM 之前，我们将添加依赖项视为选择性的事情，我们研究并非常仔细地选择的事情。现在，通过 NPM，我安装了一个流行的库，它附带了 300 个其他不需要的依赖项，其中一些依赖项甚至对于我正在下载的工具似乎没有任何意义。 问题是，大多数这些子依赖项没有接近可接受的维护制度，许多开源依赖项甚至没有足够的代码审查策略。对于某人来说，只需寻找一个广泛使用的库，翻查其依赖项，然后恶意“贡献”即可。加入该项目以间接影响其他库，这并不是那么困难。过去有过这样的案例，将来肯定还会有这样的案例，如果此时此刻还没有一些漏洞被悄悄利用的话。 现在随着人工智能和 PR 水平的疯狂增长，到了人工智能自己进行审核的地步，这只是时间问题。 NPM 需要尽快解决这个问题。   由   提交 /u/OkPosition6537   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1s96b4a/unpopular_opinion_npm_is_the_biggest_weakness_of/</guid>
       <pubDate>Wed, 01 Apr 2026 01:18:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个工具，可以在网站中查找 UX/UI 问题并寻求反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s95zh7/built_a_tool_that_finds_ux_ui_issues_in_websites/</link>
-      <description><![CDATA[我一直在构建 MyDesignAudit，这是一个扫描网站并突出显示可能会影响转化的用户体验问题的工具。 在看到许多美观的网站因小的可用性问题而陷入困境后开始使用此工具。 还为时过早，希望得到设计师的反馈   由   提交 /u/No_One008   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s95zh7/built_a_tool_that_finds_ux_ui_issues_in_websites/</guid>
-      <pubDate>Wed, 01 Apr 2026 01:04:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪里最适合在 docker 镜像上托管 Web 应用程序主机？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s953hc/any_where_is_best_to_host_a_web_app_host_on/</link>
-      <description><![CDATA[上下文： 我正在寻找最佳平台来托管我使用 Docker 容器化的 Web 应用程序。我正从本地开发转向生产，希望为其找到一个可靠的归宿。 应用程序详细信息：  技术堆栈： Vite + React（前端）和 Node.js with Fastify（后端）。 容器化： 完全 Docker 化。 预期流量： 目前是个人项目 / MVP，但我希望能够根据需要进行扩展。  我正在寻找的东西：  预算： 理想情况下，对于业余爱好者来说，提供慷慨的免费套餐或每月 10 美元以下。 管理： 如果满足以下条件，我可以选择托管 PaaS（为了速度）或 VPS：性价比显着提高。 关键要求：易于部署（CI/CD 集成）和低延迟。  当前竞争者：我一直在关注 Railway、Render 和 Fly.io，但我很想听听任何运行类似 Fastify/Vite 设置的人的意见。您在性能和成本方面的体验如何？ 提前感谢您的建议！   由   提交 /u/No-Hippo1667   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s953hc/any_where_is_best_to_host_a_web_app_host_on/</guid>
-      <pubDate>Wed, 01 Apr 2026 00:24:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于颜色、字体、样式检测的 Chrome 扩展。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s92h8x/chrome_extension_for_colour_font_styling_detection/</link>
-      <description><![CDATA[      免费 Chrome 扩展，用于检测网站的样式字体和颜色。尝试查找特定设计信息时很方便。   由   提交/u/YourGonnaHateMeBut   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s92h8x/chrome_extension_for_colour_font_styling_detection/</guid>
-      <pubDate>Tue, 31 Mar 2026 22:36:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>登陆页面上的字体和图标</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s9234m/fonts_and_icons_on_landing_page/</link>
-      <description><![CDATA[大家好， 我一直在尝试将初学者 Webdev 课程的登陆页面项目上的字体更改为我在 Google 字体上找到的字体“Ovo”。我相信我使用的模板的默认字体是“Montserrat”。  无论如何，标题的字体不会改变，只是加粗，右上角的 Instagram、Twitter 和 Facebook 图标也会随着我的更改而消失。  我想知道它是否与CSS或HTML有关？问题似乎出在“”下面的代码上。 &lt;-- 字体和图标 --&gt; ”我现在没有 Ovo 字体的代码。  此外，index.html 文件中是否总是需要有 style.css ？在这个特定的模板中，我看到一些用于导航的 CSS，并且它没有与 html 文件一起下载的 style.css 文件。我实际上遇到过几个这样的模板。我是否需要创建 style.css 才能更改字体？ 我会将我对“index.html”的编辑以及原始模板“index copy.html”放入其中。这里。希望看到代码能比我更好地解释事情。我始终感谢您的帮助！ Index.html：https://drive.google.com/file/d/1d-C1EMCZ14b9EGIyrlf09uIChvYJ5oRA/view?usp=drivesdk) 索引 copy.html: https://drive.google.com/file/d/10H0TujhI8x4Rt40K8fsXkCQ4GcahK7w1/view?usp=drivesdk)   由   提交/u/katineko   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s9234m/fonts_and_icons_on_landing_page/</guid>
-      <pubDate>Tue, 31 Mar 2026 22:20:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>对 bug 感到沮丧</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s90vxr/frustration_with_bugs/</link>
-      <description><![CDATA[我正在处理几个项目，涉足了一些氛围编码，然后转向了 Claude 代码。我使用 GitHub、vercel、supabase、resend。我感觉自己就像一个疯子，试图找到所有不起作用的废话。我已经研究 bug 三个多星期了。一直都是这样吗？一定有更好的方法吗？我研究了剧作家，这很有帮助，但该死的，它永远不会结束！ 我的背景是住宅装修销售，过去 7 年我一直在管理销售团队。我必须提到我所强调的MIS（管理信息系统）学位。我正在为我的客户建立一个推荐平台，他们可以在其中兑换他们发送给我们的推荐的东西。 我听到的建议是必须手动通过系统以确保一切正常。我准备好聘请技术人员并分享一些所有权，因为我已经受够了。我喜欢成为一名独立创始人的想法，但是有什么可以彻底测试每个人的小细节吗？不确定这是否是一个咆哮的地方，但我只是在寻找那些独立创始人如何维护他们的网站的建议。   由   提交/u/raul25911  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s90vxr/frustration_with_bugs/</guid>
-      <pubDate>Tue, 31 Mar 2026 21:33:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找特定的设计！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s90jhu/looking_for_a_particular_design/</link>
-      <description><![CDATA[这让我很烦恼，所以有人可以帮我找到一个白色背景和黑色点域的设计，类似于Figma。但在这种情况下，从上到下变化的光条纹是动画的；我不知道这是否有意义。 如果有帮助的话，几天前我在 LinkedIn 上看到了一篇帖子，其中他们发布了 Reddit DM 的 SS，询问相同的 UI 并提供了该网站的链接。 如果这还不够，我很抱歉；过去几个小时我一直在努力寻找它。我想我应该在这里尝试一下。   由   提交 /u/lowkeyy_d   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s90jhu/looking_for_a_particular_design/</guid>
-      <pubDate>Tue, 31 Mar 2026 21:20:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>面向 IGCSE/A-Level 学生的开源 TypeScript 项目 — 寻找贡献者</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s909qr/opensource_typescript_project_for_igcsealevel/</link>
-      <description><![CDATA[我为 IGCSE 和 A-Level 学生运营一个开源网站，我正在寻找 TypeScript 开发人员做出贡献。该网站已经上线并被学生积极使用，现在我需要帮助维护和改进它。 技术堆栈：TypeScript（联系时了解更多详细信息） 我在寻找的人： · 熟悉 TypeScript 的开发人员· 任何想要利用自己的技能帮助学生的人· 对不同经验水平持开放态度 - 热衷于贡献 为什么贡献： · 帮助需要优质免费资源的学生· 现实世界为您的作品集提供开源体验 · 加入已经产生影响的现有项目 如果您有兴趣，请私信我   由   提交 /u/BeginningSafety9278   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s909qr/opensource_typescript_project_for_igcsealevel/</guid>
-      <pubDate>Tue, 31 Mar 2026 21:10:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>谁能帮助我。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s9069l/can_anyone_help_me/</link>
-      <description><![CDATA[      无论我做什么，它都会给我这个错误，我没有这个域连接到任何其他网站。 好的，所以我检查了我的网站是否已经托管，它不是只显示托管商管理页面。   由   提交/u/Syber_7697  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s9069l/can_anyone_help_me/</guid>
-      <pubDate>Tue, 31 Mar 2026 21:06:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌分析的替代品？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1s8z4lw/alternatives_to_google_analytics/</link>
-      <description><![CDATA[距离我上次使用 Google Analytics 至少已经有 10 年了，当时我很喜欢它。我现在推出了一个新的迷你网站并尝试设置 Google Analytics，但是哇，它变得如此复杂。感觉现在他们真的瞄准了更大的公司。 我真的只是想要在易于导航的仪表板中获得更简单的统计数据，这样我就可以轻松地找到特定时期内的访问者数量等。这不再是 Google Analytics 的样子了。有哪些免费的替代品？   由   提交/u/xtreme79  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1s8z4lw/alternatives_to_google_analytics/</guid>
-      <pubDate>Tue, 31 Mar 2026 20:28:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
