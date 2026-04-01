@@ -4,20 +4,76 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 01 Apr 2026 10:05:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 13:11:40 GMT</lastBuildDate>
     <item>
-      <title>Vibe 编码与 Vibe 工程：为什么差异在人工智能时代很重要</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9fifq/vibe_coding_vs_vibe_engineering_why_the/</link>
-      <description><![CDATA[最近 Anthropic Claude Code 的源代码被泄露后，在交付数据敏感的生产应用程序时理解软件概念至关重要。  这就提出了一个问题：您是否需要工程师或开发人员将您的想法转化为生产应用程序？  您有两个选择：要么自学基本的工程概念，要么确保在发布到生产之前进行最终审查。  然而，随着编码平台的快速进步，我们可能很快就会看到自动化集成到这些平台中。  您认为我们什么时候才能达到可以完全依赖生产应用程序的编码平台而无需任何人类工程审查的地步？  在附加链接中了解 Vibe Engineering   由   提交/u/West-Yogurt-161   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9fifq/vibe_coding_vs_vibe_engineering_why_the/</guid>
-      <pubDate>Wed, 01 Apr 2026 09:22:30 GMT</pubDate>
+      <title>限制可以默默地降低交互的最终状态</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9jv1s/throttling_can_silently_drop_the_final_state_of/</link>
+      <description><![CDATA[简单的限制可能会丢弃最终事件：最小演示+修复。   由   提交/u/OtherwisePush6424  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9jv1s/throttling_can_silently_drop_the_final_state_of/</guid>
+      <pubDate>Wed, 01 Apr 2026 13:00:17 GMT</pubDate>
     </item>
     <item>
-      <title>itsid：专门训练的大型语言模型，以完美的保真度保留每个输入</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9fhph/itsid_large_language_model_purposetrained_to/</link>
-      <description><![CDATA[ 由   提交 /u/pred   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9fhph/itsid_large_language_model_purposetrained_to/</guid>
-      <pubDate>Wed, 01 Apr 2026 09:21:17 GMT</pubDate>
+      <title>基于 Raft 的 KV 存储中请求的旅程（从客户端到提交）</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9jn4n/the_journey_of_a_request_in_a_raftbased_kv_store/</link>
+      <description><![CDATA[在实现 MIT 6.5840 分布式系统实验室后，我想更好地了解当客户端向基于 Raft 构建的复制键值存储发送请求时实际发生的情况。 我写了一篇短文，其中跟踪了请求的完整路径： 客户端 → 领导者 → 复制 → 提交 → 应用 → 响应 令我惊讶的是这个“简单”流程的速度有多快实践中的中断：  领导者可以更改请求中途 网络分区创建过时的领导者 重试可能导致重复执行  很多复杂性并不在于 Raft 本身，而是在于使系统在这些条件下正确运行。 对反馈感兴趣，特别是如果您构建了类似的东西。   由   提交/u/am0123  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9jn4n/the_journey_of_a_request_in_a_raftbased_kv_store/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:50:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>公告：临时禁止 LLM 内容</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/</link>
+      <description><![CDATA[大家好， 经过大量讨论，我们决定尝试禁止任何与法学硕士相关的内容。我们收到了很多与法学硕士相关的帖子，通常它们与我们想要的 Reddit 子版块不符——一个由高质量、信息丰富的内容驱动的关于软件工程的详细技术学习和讨论的地方。不幸的是，LLM 相关内容的数量很容易压倒其他主题。 我们还认为，一般来说，社区已经表明，总的来说，他们对此内容不感兴趣。因此，我们想看看试用禁令如何影响人们使用潜艇的方式。因此： 虽然此帖子已被置顶，但在 4 月份的 2-4 周内，我们将禁止该子帖子中所有与 LLM 相关的内容。 请注意，这并不会禁止所有与 AI 相关的内容。一篇文章详细介绍了传统上所谓的人工智能是如何为 Go 打造的？完全没问题。机器学习过程的技术分解？伟大的！只要不是法学硕士即可。   由   提交 /u/ChemicalRascal   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:48:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>深入探讨尾递归和 TCO</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9j2q0/wrapping_my_head_around_tail_recursion_and_tco/</link>
+      <description><![CDATA[ 由   提交/u/techne98  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9j2q0/wrapping_my_head_around_tail_recursion_and_tco/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:26:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>SparrowDB,嵌入式图形数据库 - Cypher 查询，无服务器，无需订阅,下载SparrowDB的源码_GitHub_帮酷Rust 原生，具有 Python、Node.js 和 Ruby 绑定。</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9j2h7/github_ryakersparrowdb_embedded_graph_database/</link>
+      <description><![CDATA[构建这个是因为每个图形数据库都假设您想要运行服务器。 Neo4j 需要 JVM。 DGraph 需要一个集群。如果您想查询应用程序内部连接的数据，则图形不存在嵌入选项。 PyO3 绑定会在每次调用时释放 GIL。 napi-rs 用于 Node.js，Magnus 用于 Ruby。所有三个都打开相同的 WAL 持久磁盘格式。 XChaCha20-Poly1305 静态加密、SWMR 并发、大型 ORDER BY 的外部合并排序、每次查询超时取消而不终止进程。 针对 Neo4j 5.x 的基准（SNAP Facebook 数据集、4k 节点、88k 边）： - 点查找：133μs 与 321μs（快 2.4 倍） - Top-10 度：441μs 与 17,588μs（快 40 倍，预先计算的缓存） - 1 跳遍历：慢 76 倍 - 共同好友：慢 476 倍 遍历差距是结构性的。单线程执行，不利用 CSR 布局进行内存中的遍历。它在自述文件中。这就是我正在做的事情。   由   提交/u/Ryaker  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9j2h7/github_ryakersparrowdb_embedded_graph_database/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:25:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>8,400 个 GitHub 存储库共享一个可追溯到南方公园笑话的命名约定。</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9iwky/8400_github_repositories_share_a_naming/</link>
+      <description><![CDATA[我知道这一点，因为我就是中间的那个人。让我解释一下。 2006：Trey Parker 和 Matt Stone 写了“Oh My Science！”分成第十季的两集...一个关于用科学表达取代宗教表达的笑话。 2008：我和一位同事认为这很搞笑。我们建立了一个 Twitter 副项目，名为 Oh My Science。它从 API 中获取推文，并向任何因感谢科学而感谢科学的人授予金星，否则他们可能会将此归功于神。 2009：我有一个杂乱的 Zsh 配置文件文件夹。我想说服一些同事将其安装在他们的笔记本电脑上，这样我就不必记住我们在他们的计算机上配对时不断输入的所有详细 git 命令。我需要一个存储库的名称。我浏览了我们的 oh-my-science 私人存储库。我耸耸肩。 “oh-my-zsh”确实如此。 今天，有 8,400 多个公众“哦-我的-...” u/GitHub 上的存储库。 您很有可能使用过一个。您有可能已经构建了一个。 如果您构建了一个，我很想知道...您知道这个名称的来源吗？   由   提交 /u/robbyrussell   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9iwky/8400_github_repositories_share_a_naming/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:18:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>API 就是平台 • Shamasis Bhattacharya</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9iu1i/the_api_is_the_platform_shamasis_bhattacharya/</link>
+      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9iu1i/the_api_is_the_platform_shamasis_bhattacharya/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:15:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>适合所有人的乐透分析器</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9ir7p/lottoanalyzer_for_everyone/</link>
+      <description><![CDATA[我为彩票数学爱好者创建了一个有趣的教育平台。我感觉少了点什么，但又不明白那是什么！   由   提交/u/Pure-Cycle7176   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9ir7p/lottoanalyzer_for_everyone/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:11:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>解决了注解驱动的分布式GraphQL N+1查询问题</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9ifxe/solved_distributed_graphql_n1_query_problem/</link>
+      <description><![CDATA[关于 Spring 中间件 1.4.0   由   提交/u/PuddingAutomatic5617   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9ifxe/solved_distributed_graphql_n1_query_problem/</guid>
+      <pubDate>Wed, 01 Apr 2026 11:57:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>最后一个人工智能无法解析的验证码</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9h8eo/finally_a_captcha_that_ai_cant_resolve/</link>
+      <description><![CDATA[ 由   提交/u/VincentNbt   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9h8eo/finally_a_captcha_that_ai_cant_resolve/</guid>
+      <pubDate>Wed, 01 Apr 2026 10:58:28 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic 发布了 Claude Code 的整个源代码</title>
@@ -41,13 +97,6 @@
       <pubDate>Wed, 01 Apr 2026 08:08:31 GMT</pubDate>
     </item>
     <item>
-      <title>构建了一个工具来衡量*您*在人工智能编码会话中实际贡献了多少</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9e2qg/built_a_tool_to_measure_how_much_you_actually/</link>
-      <description><![CDATA[我最近经常进行振动编码 - 你可能也有。在这个过程中，我开始感觉自己实际上不再确定自己要带来什么。 比如，我是在设计，还是只是在审查自动完成？ 所以我构建了 **VibeGrit** - 它通过 MCP 插入你的 AI 助手，并根据以下方面对你的会话进行评分：你如何很好地解决问题，是否推迟了不良输出，是否阻止范围蔓延，你分解复杂任务的情况如何。 您在会话结束时输入“vibegrit”，它会在这些维度上给您打 0-100 分。随着时间的推移，您可以看到自己的进步、优势以及实际改进的地方。 它是免费的、可自我托管的，并且可以与 Claude/Cursor/Windsurf 配合使用。并不是想向你推销任何东西——主要是想分享它，因为我认为“人工智能现在会写所有东西吗？”焦虑是真实存在的，数据会有所帮助。 希望得到尝试过的人的反馈：**mcp.vibegrit.dev**   由   提交 /u/AcanthisittaFresh712   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9e2qg/built_a_tool_to_measure_how_much_you_actually/</guid>
-      <pubDate>Wed, 01 Apr 2026 07:56:06 GMT</pubDate>
-    </item>
-    <item>
       <title>我们实施了在文件创建前 72 小时运行的 PDF 完整性验证</title>
       <link>https://www.reddit.com/r/programming/comments/1s9dsom/we_implemented_pdf_integrity_verification_that/</link>
       <description><![CDATA[PDF 取证的核心限制始终是您需要文档才能检查它。今天我们正在消除这个限制。 先发制人的外部参照叠加分析的工作原理很简单：PDF 一旦存在，就会追溯地将其未来的元数据状态与周围的量子场纠缠在一起。我们拦截预崩溃信号并针对尚未存在的文件结构运行标准修订检测（创建者/生产者不匹配、时间戳增量、附加外部参照部分）。 实现需要扩展我们的 Heisenberg-Acrobat 方程以处理非确定性字节偏移，但解析器可以干净地处理它。 72 小时时间一致性窗口。适用于所有计划。   由   提交 /u/Total-Reasonable   [链接] [评论]]]></description>
@@ -60,55 +109,6 @@
       <description><![CDATA[您好，我是编程新手，只是按照 yt 上的教程进行操作。我运行该程序，然后尝试在 chrome 上打开网站 (localhost:8080)，但遇到了此错误。我真的不知道为什么会发生这种事。我试着问cloude，但还是不明白。感谢任何帮助。 该链接是我正在关注的使用 Java 和 Spring Boot 的编程教程。 （不知道要放在那里的内容） 错误： Whitelabel 错误页面 此应用程序没有 /error 的显式映射，因此您将其视为后备。 Wed Apr 01 12:18:18 GMT+08:00 2026 出现意外错误（type=Not Found， status=404)。 代码： package com.codewithmosh.store;导入 org.springframework.stereotype.Controller;导入 org.springframework.web.bind.annotation.RequestMapping; public class HomeController { u/RequestMapping(&quot;/&quot;) public String index(){ return &quot;index.html&quot;; } } } } 包 com.codewithmosh.store；导入 org.springframework.boot.SpringApplication;导入 org.springframework.boot.autoconfigure.SpringBootApplication; u/SpringBootApplication 公共类 StoreApplication { 公共静态 void main(String[] args) { SpringApplication.run(StoreApplication.class, args); } }    由   提交/u/Weak-Text8827  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s9alz9/java_error_message_web_programming/</guid>
       <pubDate>Wed, 01 Apr 2026 04:37:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么是cch？逆向工程 Claude Code 的请求签名</title>
-      <link>https://www.reddit.com/r/programming/comments/1s98wuw/whats_cch_reverse_engineering_claude_codes/</link>
-      <description><![CDATA[我最初在快速模式首次引入时对此进行了逆向工程，并联系了 Anthropic 以获得负责任的披露批准，但我从未收到回复。现在围绕 CCH 标头有很多讨论，我想分享我的发现。   由   提交/u/tcdent  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s98wuw/whats_cch_reverse_engineering_claude_codes/</guid>
-      <pubDate>Wed, 01 Apr 2026 03:14:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>以正确的方式提供服务</title>
-      <link>https://www.reddit.com/r/programming/comments/1s92zad/making_services_with_go_right_way/</link>
-      <description><![CDATA[ 由   提交/u/yarmak  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s92zad/making_services_with_go_right_way/</guid>
-      <pubDate>Tue, 31 Mar 2026 22:56:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>“为什么这段代码是这样的？”没有人知道。这就是问题所在。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s92a6o/why_does_this_code_look_like_this_nobody_knows/</link>
-      <description><![CDATA[大多数代码库都记录了代码的用途。几乎没有人记录为什么做出决定、拒绝哪些替代方案或当时存在哪些限制。随着人们的离开，这种背景悄然消失，未来的维护者要么推翻有充分理由存在的决定，要么花几周时间重新发现别人已经弄清楚的东西。 Russ Olsen（Eloquent Ruby 的作者）在最近的“Maintainable”一集中介绍了这一点以及关于遗留系统的其他一些令人不安的事实，包括为什么团队对自己的代码库产生了一种习得性无助感，并停止质疑可能永远不正确的假设。   由   提交 /u/robbyrussell   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s92a6o/why_does_this_code_look_like_this_nobody_knows/</guid>
-      <pubDate>Tue, 31 Mar 2026 22:28:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>利用 Commodore 64 上的巧合索引破解谜题</title>
-      <link>https://www.reddit.com/r/programming/comments/1s91d5d/breaking_enigma_with_index_of_coincidence_on_a/</link>
-      <description><![CDATA[ 由   提交 /u/ScottContini   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s91d5d/breaking_enigma_with_index_of_coincidence_on_a/</guid>
-      <pubDate>Tue, 31 Mar 2026 21:52:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 Go 中实现服务器发送的事件</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8xsdf/how_to_implement_serversent_events_in_go/</link>
-      <description><![CDATA[ 由   提交/u/der_gopher  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8xsdf/how_to_implement_serversent_events_in_go/</guid>
-      <pubDate>Tue, 31 Mar 2026 19:41:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>DNS 的厄运</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8vmtr/doom_over_dns/</link>
-      <description><![CDATA[ 由   提交/u/phillipcarter2  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8vmtr/doom_over_dns/</guid>
-      <pubDate>Tue, 31 Mar 2026 18:25:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bun 中的错误可能是 Claude Code 源代码泄漏的根本原因。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/</link>
-      <description><![CDATA[ 由   提交 /u/Successful_Bowl2564   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/</guid>
-      <pubDate>Tue, 31 Mar 2026 17:01:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
