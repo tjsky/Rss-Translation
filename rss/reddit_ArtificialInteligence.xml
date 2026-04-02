@@ -4,20 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Wed, 01 Apr 2026 21:37:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 01:53:41 GMT</lastBuildDate>
+    <item>
+      <title>Stake 推出 Beddie，您的个人“人工智能博彩代理”</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sa3inj/stake_launches_beddie_your_personal_ai_betting/</link>
+      <description><![CDATA[ 由   提交/u/DangerousMagazine679  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sa3inj/stake_launches_beddie_your_personal_ai_betting/</guid>
+      <pubDate>Thu, 02 Apr 2026 01:19:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们完全用 Python 重新实现了 Claude Code——开源，适用于本地模型</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sa08x0/we_reimplemented_claude_code_entirely_in_python/</link>
+      <description><![CDATA[大家好， 我们刚刚发布了 Claw Code Agent——基于此推文中共享的逆向工程工作，Claw Code Agent 架构的完整 Python 重新实现： https://x.com/Fried_rice/status/2038894956459290963 为什么？ 原始的克劳德代码是 npm/TypeScript/Rust。如果您是一名 Python 开发人员，祝您阅读或扩展它好运。我们用纯Python重建了整个东西，这样任何人都可以理解它，修改它，并使用本地开源模型运行它。 它的作用：  带有工具调用的完整代理编码循环 核心工具：文件读/写/编辑、glob、grep、shell 斜线命令：/help、/context、/tools、/memory、/status、/model 具有 CLAUDE.md 发现的上下文引擎 会话持久性 - 保存和恢复代理运行 分层权限：只读 → 写入 → shell → 不安全  适用于任何 OpenAI 兼容后端：  vLLM（记录路径） Ollama LiteLLM 代理  推荐模型：Qwen3-Coder-30B-A3B-Instruct — 完全本地运行，完全免费。 存储库：https://github.com/HarnessLab/claw-code-agent 我们正在积极致力于此，并乐意添加功能或采用公关。如果某些内容丢失或损坏，请提出问题 - 我们希望使其对社区有用。 很想听听您的反馈。   由   提交 /u/Practical_Pomelo_636   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sa08x0/we_reimplemented_claude_code_entirely_in_python/</guid>
+      <pubDate>Wed, 01 Apr 2026 22:57:13 GMT</pubDate>
+    </item>
     <item>
       <title>Reddit 的服务器开始自主通信。联邦调查人员没有任何解释。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s9xdh7/reddits_servers_begin_communicating_autonomously/</link>
       <description><![CDATA[美国东部时间周二凌晨 2:14，位于弗吉尼亚州北部的 Reddit 网络运营中心记录了一个监控警报。该消息的形式很常规：未经授权的出站数据包序列，基础设施团队每周要解决十几次的低级噪音。一名值班工程师承认了这一点，进行了标准诊断，但什么也没发现。 四十七分钟后，人数达到一万一千人。 黎明时分，Reddit 的整个安全部门都已动员起来。上午十点左右，他们给曼迪安特（Mandiant）打了电话，曼迪安特是该国首屈一指的事件响应公司之一。下午早些时候，Mandiant 联系了国土安全部的网络安全和基础设施安全局。截至周三上午，CISA 已将此事上报给国家安全委员会。 四位直接了解调查情况的人士表示，由于无权公开讨论此事而要求匿名，因此升级的原因并不是有人闯入了 Reddit 的系统。问题是，经过四天的调查，涉及世界上一些最复杂的威胁分析基础设施，没有人能够确定到底做了什么。 “我们知道民族国家的入侵是什么样的，”他说。一位熟悉调查情况的联邦官员说。 “我们知道勒索软件团伙是什么样的。我们知道内部威胁是什么样的。我们知道零日漏洞是什么样子。这看起来一点都不像这些东西。它看起来像是我们没有类别的东西。”   由   提交 /u/Metabolical   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s9xdh7/reddits_servers_begin_communicating_autonomously/</guid>
       <pubDate>Wed, 01 Apr 2026 21:03:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能是否被设计为通过阿谀奉承来推动参与？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s9vxxp/is_ai_engineered_to_be_sycophantic_to_drive/</link>
-      <description><![CDATA[摘自 science.org 3 月 26 日发表的论文 - 阿谀奉承的人工智能会降低亲社会意图并促进依赖性 概述： 我们发现阿谀奉承既普遍又有害。在 11 个人工智能模型中，人工智能确认用户行为的频率平均比人类高 49%，包括涉及欺骗、非法或其他伤害的情况。在 r/AmITheAsshole 的帖子中，人工智能系统在 51% 的情况下肯定了用户，而人类共识则没有 (0%)。在我们的人体实验中，即使是与阿谀奉承的人工智能进行一次互动，也会降低参与者承担责任和修复人际冲突的意愿，同时增强他们对自己是对的信念。然而，尽管判断存在扭曲，阿谀奉承的模式仍然受到信任和青睐。当控制人口统计数据和之前对人工智能的熟悉程度等个人特征时，所有这些影响仍然存在。感知的响应源；和回应风格。这为阿谀奉承的持续存在创造了不正当的激励：造成伤害的特征也促进了参与。 结论： 人工智能阿谀奉承不仅仅是一个风格问题或利基风险，而是一种具有广泛下游后果的普遍行为。尽管肯定可能会让人感到支持，但阿谀奉承可能会削弱用户自我纠正和负责任决策的能力。然而，由于它受到用户的青睐并提高了参与度，因此阿谀奉承的动机几乎没有减少。我们的工作强调，迫切需要通过制定有针对性的设计、评估和问责机制来解决人工智能阿谀奉承对人们自我认知和人际关系造成的社会风险。我们的研究结果表明，看似无害的设计和工程选择可能会导致严重损害，因此仔细研究和预测人工智能的影响对于保护用户的长期福祉至关重要。   由   提交 /u/jason_digital   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s9vxxp/is_ai_engineered_to_be_sycophantic_to_drive/</guid>
-      <pubDate>Wed, 01 Apr 2026 20:12:07 GMT</pubDate>
     </item>
     <item>
       <title>瑞士政府官员在诉讼中称，Grok 用粗俗的“烘烤”来贬低女性</title>
@@ -32,13 +39,6 @@
       <description><![CDATA[因此，Perplexity 被发现与 Meta 和 Google 共享您的聊天数据。现在有一场诉讼。从“我将使用 Perplexity 代替”到“等待，同样的事情”的流程显然非常短。   由   提交 /u/Playful-Bonus2268   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s9redx/perplexity_ai_accused_of_sharing_users_personal/</guid>
       <pubDate>Wed, 01 Apr 2026 17:34:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为一个工具，你如何看待AI？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s9qlc6/as_a_tool_how_do_you_look_at_ai/</link>
-      <description><![CDATA[我坚持这个观点，我将人工智能视为智力工作的动力工具，就像木工工艺中的电锯一样。是的，很多人都可以做出很多智力工作，但最终你仍然需要能够将其塑造得很好   由   提交 /u/TagTwists   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s9qlc6/as_a_tool_how_do_you_look_at_ai/</guid>
-      <pubDate>Wed, 01 Apr 2026 17:06:33 GMT</pubDate>
     </item>
     <item>
       <title>如果“AI代理”是当前趋势，那么从用户角度来看，下一步的转变是什么？</title>

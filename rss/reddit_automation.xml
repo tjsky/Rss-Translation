@@ -4,7 +4,35 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Wed, 01 Apr 2026 21:37:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 01:53:35 GMT</lastBuildDate>
+    <item>
+      <title>代码哪个更好？</title>
+      <link>https://www.reddit.com/r/automation/comments/1sa3bp0/which_is_better_for_codes/</link>
+      <description><![CDATA[最近，我有一个爱好，就是创建多个 chrome 扩展供个人使用，以优化我的工作和重复性任务。我只有基本的代码知识，我想用AI探索和创造更多。 但是最近ChatGPT变得越来越笨，或者是我回复太多了。哈哈。 你们能推荐一下吗？   由   提交 /u/XiaoLinFiu   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sa3bp0/which_is_better_for_codes/</guid>
+      <pubDate>Thu, 02 Apr 2026 01:10:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>随着所有这些自动化的进行，你们如何监控一切？</title>
+      <link>https://www.reddit.com/r/automation/comments/1sa2sgg/with_all_this_automation_going_on_how_are_you_guy/</link>
+      <description><![CDATA[      对于在其企业（或我的企业）中运行多个自动化的任何人来说，这是一个真正的问题。我已经在 Make、Zapier、n8n、自定义脚本中运行自动化——凡是你能想到的。问题不再是建造它们了。他们以我没有计划到的方式互动。上周，一个自动化更新了我们 CRM 中的一个字段，触发了另一个自动化的触发，然后又破坏了下游的第三个自动化。我花了几个小时才弄清楚发生了什么。这就像多米诺骨牌，只是你不知道你正在设置它们。我开始构建一个工具来处理这个问题——基本上是一个监控和记录所有自动化跨平台实际执行情况的中心位置。最终将其变成了一种名为 anomalog 的产品，因为我认为其他人也必须处理同样的事情。但我很好奇其他人是如何处理的。您只是单独检查每个工具中的仪表板吗？设置 Slack 警报并希望得到最好的结果？内置一些东西？或者只是……等到有什么东西坏了然后再争先恐后？很想听听什么对人们有效（或无效）。   由   提交/u/Individual-Cup4185  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sa2sgg/with_all_this_automation_going_on_how_are_you_guy/</guid>
+      <pubDate>Thu, 02 Apr 2026 00:47:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>我使用 Claude Cowork 为我的一人创意工作室建立了一个 6 人 AI 团队</title>
+      <link>https://www.reddit.com/r/automation/comments/1sa1bd7/i_built_a_6person_ai_team_for_my_oneperson/</link>
+      <description><![CDATA[       由   提交/u/markyc120  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sa1bd7/i_built_a_6person_ai_team_for_my_oneperson/</guid>
+      <pubDate>Wed, 01 Apr 2026 23:42:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在不重新训练整个知识库的情况下修复不准确的 AI 代理响应</title>
+      <link>https://www.reddit.com/r/automation/comments/1s9yh42/how_to_fix_inaccurate_ai_agent_responses_without/</link>
+      <description><![CDATA[大多数团队认为糟糕的响应意味着需要重建底层数据或模型。但事实几乎从来不是这样。真正的问题通常是具体答案中的差距，而不是系统性故障。 真正提高响应准确性的四件事： 游乐场允许您重写指令，并在任何内容上线之前并排测试它们与实际查询。您可以在同一个屏幕上看到之前和之后的情况。请勿盲目做出更改。 问答数据源可让您为任何始终无法正确解决的问题定义准确答案。您不必希望代理从您的文档中推断出正确的响应，而是直接给出明确的答案。 聊天日志会显示每条对话，并在每条消息上提供修改选项。您无需猜测准确性在哪里出现问题，而是让真实的客户交互告诉您。您可以在出现响应时对其进行更正，并且这些更正会保留下来。 URL 映射可让您将正确的目标链接分配给特定查询。如果您的代理不断将用户引导到错误的页面，只需修复一次映射即可。 我在 Chatbase 上运行面向客户的代理，并且已经运行了一段时间了。聊天日志修订工作流程完全改变了我对座席准确性的看法。我不再将不良反应视为训练问题，而是开始将其视为反馈循环。真实的对话比任何内部 QA 流程更快地暴露差距。 有一点值得关注：日志中每个响应的置信度得分。低置信度几乎总是表明存在数据差距，而不是模型限制。这种区别很重要，因为修复方法完全不同。数据差距意味着您添加问答条目或改进源文档。模型限制意味着完全不同的东西，而且很少是实际发生的情况。 是否有其他人在推送更改之前使用 Playground 来验证更改，还是直接跳到编辑和保存？   由   提交 /u/Many-Personality-157   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1s9yh42/how_to_fix_inaccurate_ai_agent_responses_without/</guid>
+      <pubDate>Wed, 01 Apr 2026 21:45:22 GMT</pubDate>
+    </item>
     <item>
       <title>实用的工作流程：- 使用 Karis CLI 在 GitHub 组织中自动执行“仓库管理”任务</title>
       <link>https://www.reddit.com/r/automation/comments/1s9xizr/a_practical_workflow_using_karis_cli_to_automate/</link>
@@ -15,16 +43,9 @@
     <item>
       <title>我可以在我的景观美化业务中使用克劳德什么？</title>
       <link>https://www.reddit.com/r/automation/comments/1s9wwab/what_can_i_use_claude_for_my_landscaping_business/</link>
-      <description><![CDATA[大家好，一直在看到克劳德和克劳德代码可以为自动化、营销等做的所有疯狂的事情。想知道我可以为我的景观美化业务做些什么？我使用了 claude 代码来帮助我处理我的网站，但从未使用过技能或插件，并且想知道我可以从哪里开始以及从 github 下载什么是安全的？ 提前致谢   由   提交/u/gepaman  [链接] [评论]]]></description>
+      <description><![CDATA[大家好，一直在看到克劳德和克劳德代码可以为自动化、营销等做的所有疯狂的事情。想知道我可以为我的景观美化业务做些什么？我使用克劳德代码来帮助我处理我的网站，但从未使用过技能或插件，并且想知道我可以从哪里开始以及从 github 下载什么是安全的？ 编辑：我主要在回复多个电子邮件查询时遇到问题。目前我的设置包括 Canva、jobber 和 notion。还注意到人们使用 claude.md，我也不确定它的作用。 提前致谢   由   提交/u/gepaman  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1s9wwab/what_can_i_use_claude_for_my_landscaping_business/</guid>
       <pubDate>Wed, 01 Apr 2026 20:46:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>在测试了很多人工智能工具之后，这些对我帮助最大</title>
-      <link>https://www.reddit.com/r/automation/comments/1s9wpr1/after_testing_many_ai_tools_these_helped_me_the/</link>
-      <description><![CDATA[朋友们好， 在过去的几天里，我一直在探索不同的人工智能工具，并想分享那些真正对我有帮助的工具： ChatGPT – 我回答问题、写作、编码和清晰解释的首选。我几乎每天都使用它。 Perplexity – 非常适合更深入的研究，特别是对于那些想要快速、来源充足的答案的学生。 Notion AI – 有助于组织笔记、计划、跟踪任务和构建信息。 Transcript LOL – 将音频和视频转换为文本和结构化摘要。易于自动化。 Grammarly – 改进语法并帮助完善电子邮件和书面内容。 QuillBot – 用于重写或解释内容，并提供调整语气和措辞的选项。 Motion – 自动安排和组织日历中的任务。 Canva – 非常适合快速创建图形、演示文稿和视觉内容。 这些工具在方式方面产生了显着差异。我工作并让我更有条理。 我很想听听您每天使用哪些人工智能工具真正发挥了作用？   由   提交 /u/All-With-Love   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s9wpr1/after_testing_many_ai_tools_these_helped_me_the/</guid>
-      <pubDate>Wed, 01 Apr 2026 20:39:58 GMT</pubDate>
     </item>
     <item>
       <title>自动化使用多个人工智能工具中最烦人的部分</title>
@@ -62,13 +83,6 @@
       <pubDate>Wed, 01 Apr 2026 16:47:13 GMT</pubDate>
     </item>
     <item>
-      <title>我将 gstack、Superpowers 和复合工程堆叠在一起。他们解决了三个完全不同的问题</title>
-      <link>https://www.reddit.com/r/automation/comments/1s9ozwg/i_stacked_gstack_superpowers_and_compound/</link>
-      <description><![CDATA[ 由   提交 /u/Whaaat_AI   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s9ozwg/i_stacked_gstack_superpowers_and_compound/</guid>
-      <pubDate>Wed, 01 Apr 2026 16:11:04 GMT</pubDate>
-    </item>
-    <item>
       <title>基于终端的家庭自动化工具包发布</title>
       <link>https://www.reddit.com/r/automation/comments/1s9low2/terminalbased_home_automation_toolkit_released/</link>
       <description><![CDATA[今天在 GitHub 上发布，我真的很兴奋。一直在以艰难的方式调试 IoT 设备 - 编写脚本、导入 SDK、处理身份验证、解析响应。每个设备测试需要 15 分钟以上。对 20 台设备重复？半天过去了。涂鸦的新 CLI 看起来减少了这一点：- 设备查询、设备控制、批量操作、JSON 输出、自动区域检测五种功能，配置一次，然后只需运行命令。对于 AI 代理工作来说，这是巨大的 - 代理已经本机执行 shell 命令。早期访问，但方法是正确的。 GUI 适合人类，CLI 适合人工智能。   由   提交/u/Fit_Guidance2029   [链接] [评论]]]></description>
@@ -83,25 +97,11 @@
       <pubDate>Wed, 01 Apr 2026 13:12:57 GMT</pubDate>
     </item>
     <item>
-      <title>在开始我的旅程之前，了解 TikTok 在巴基斯坦货币化的来龙去脉</title>
-      <link>https://www.reddit.com/r/automation/comments/1s9k3wp/learning_the_ins_and_outs_of_tiktok_monetization/</link>
-      <description><![CDATA[大家好👋 在开始我自己的 TikTok 频道之前，我想了解一些东西。我希望与目前在巴基斯坦运营 TikTok 账户的人取得联系。如果您愿意，请随时与我们联系。   由   提交/u/SmileNo8449  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s9k3wp/learning_the_ins_and_outs_of_tiktok_monetization/</guid>
-      <pubDate>Wed, 01 Apr 2026 13:09:48 GMT</pubDate>
-    </item>
-    <item>
       <title>通过自动化简化小型企业的 CRM</title>
       <link>https://www.reddit.com/r/automation/comments/1s9iyuq/streamlining_crm_for_small_businesses_with/</link>
       <description><![CDATA[小企业主不断地兼顾营销、销售、客户支持和保留。如果没有集中所有内容的系统，掌控每项任务可能会令人难以承受。 我最近构建了一个自动化 CRM 工作流程，将所有客户交互、潜在客户跟踪和后续行动组织在一个地方。该设置连接了表单、电子邮件和日历，因此不会遗漏任何内容。 此工作流程减少了手动数据输入，确保快速解决潜在客户和客户请求，并每周节省时间。对于想要专注于增长而不是追逐分散信息的企业主来说，它是完美的选择。 有了自动化，报告变得毫不费力，让您可以实时洞察绩效和客户趋势。它还支持可扩展的流程，因此您的业务无需增加更多的手动工作即可增长。 想知道其他人如何自动化其 CRM 流程以提高效率吗？   由   提交/u/Safe_Flounder_4690   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1s9iyuq/streamlining_crm_for_small_businesses_with/</guid>
       <pubDate>Wed, 01 Apr 2026 12:21:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为工程师制作了245个填空AI提示模板（免费）</title>
-      <link>https://www.reddit.com/r/automation/comments/1s9gqu1/i_made_245_fillintheblank_ai_prompt_templates_for/</link>
-      <description><![CDATA[大家好， 我厌倦了仅适用于作者所使用的确切技术堆栈的 AI 提示列表。因此，我使用 [PLACEHOLDERS] 构建了一些不同的提示模板，而不是硬编码的细节。 这个想法很简单：而不是： “编写一个 Python 脚本来使用 pandas 清理数据集。” 你得到： “编写一个 [LANGUAGE] 脚本来使用 [LIBRARY] 清理 [数据集描述]，处理 [问题]” 交换你的工具。立即获得完美的针对性提示。 包含的内容（全部免费）： - 25 个 Web 开发模板 - 20 个移动应用程序开发模板 总共有 245 个模板：单个 Markdown 文件中的 245 个模板。 在这里免费分享。 很高兴回答评论中的问题。   由   提交 /u/pretendingMadhav   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1s9gqu1/i_made_245_fillintheblank_ai_prompt_templates_for/</guid>
-      <pubDate>Wed, 01 Apr 2026 10:32:09 GMT</pubDate>
     </item>
     <item>
       <title>老实说，把那些实际卡住的自动化与我浪费时间的自动化相比</title>
