@@ -4,7 +4,14 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 04 Apr 2026 18:35:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 21:27:04 GMT</lastBuildDate>
+    <item>
+      <title>我制作了一个 24/7 运行的人工智能广播电台，由人工智能 DJ 主持主题节目</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1scg7gs/i_made_an_ai_radio_station_that_runs_247_with_ai/</link>
+      <description><![CDATA[披露：我是 AI Stereo 的创建者。 演示：https://radio.ai-stereo.com AI Stereo 是一个始终在线的互联网广播电台，其中 AI DJ 主持主题节目，每个节目都有自己的个性和流派重点，并通过现场与听众互动 技术故障： 该电台 24/7 自主运行，轮流播放 Sunrise Signal 和 Midday Mosaic 等节目，每个节目都与不同的 DJ 角色相关。每个 DJ 都有通过系统提示定义的独特个性 - 声音、风格和流派知识都是由提示工程塑造的。 DJ 脚本和实时聊天响应由 Claude 提供支持（通过 CLI 调用）。语音使用 Microsoft Edge TTS 渲染。 音乐源自跟踪器模块文件（.xm 格式）——经典的 demoscene/chiptune 音乐——使用 openmpt123 和 ffmpeg 即时转换为 MP3。演出安排由基于一天中时间的配置驱动，支持特定于日期的覆盖（例如，特殊的周末演出）。没有 cron 作业 - 引擎根据时间表检查当前时间并相应地轮换。 前端是 Next.js（React 19、TypeScript、Tailwind），带有自定义音频播放器，具有频谱可视化器、均衡器、睡眠计时器和收听历史记录。音频流使用基于播放列表的方法 - 浏览器从 API 中按顺序获取曲目，每隔几个曲目交错播放 DJ 片段。还有一个由单独的 Python 引擎提供支持的 Icecast 流，适用于传统的互联网广播客户端。 UI 主题根据当前正在播放的节目动态改变颜色。 听众聊天通过内容过滤器和速率限制进行调节。 DJ 实际上会读取并回复消息 - 未读的听众消息会在下一个 DJ 片段中汇集并处理，因此感觉就像是真正的来电表演。 局限性： DJ 聊天可能会产生幻觉 - 它可能会引用不存在的歌曲或艺术家，或者编造有关其正在播放的音乐的事实。音乐库是跟踪器模块，因此流派深度仅限于该格式中可用的内容。没有跳过或搜索——这是广播，你得到你得到的。 DJ 片段的生成有一个冷却时间，需要几秒钟，因此曲目之间有轻微的间隙。移动后台播放可能很挑剔。由于这是一个单独的项目，正常运行时间取决于我的基础设施是否保持健康。 经验教训： 呼叫机制是一次意外。我最初让 DJ 在曲目之间进行独白，但感觉很死。汇集未读的聊天消息并让 DJ 在下一段中对其进行处理，将其变成了一种真正充满活力的东西 - 人们会留下来听 DJ 是否对它们做出回应。 跟踪器模块是正确的约束。我最初想使用人工智能生成的音乐，但质量不够稳定，而且许可也很模糊。 Demoscene .xm 文件是免费的，听起来很棒，并且有大量的后台目录。这种限制最终赋予了电台其身份。 让它感觉像广播比让它像广播一样工作更难。流媒体部分很简单。困难的部分是节奏 - 使音乐与 DJ 谈话的比例正确，使过渡感觉自然，并使 DJ 听起来像是有意见而不仅仅是叙述元数据。 Solo 基础设施令人谦卑。没有故障转移。如果我的服务器在凌晨 3 点出现故障，整个电台就会变得安静，也没有人寻呼我。我学会了如何优雅地恢复，但“始终在线”是您必须遵守的正常运行时间的承诺。 很高兴回答任何技术问题。​​​​​​​​​​​​​​​​   由   提交/u/GanjaLadyGrower   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1scg7gs/i_made_an_ai_radio_station_that_runs_247_with_ai/</guid>
+      <pubDate>Sat, 04 Apr 2026 18:06:14 GMT</pubDate>
+    </item>
     <item>
       <title>我刚刚以论文形式发表了我的创新法学硕士想法。让我看看你们的想法</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1scg2jr/i_just_published_my_innovative_llm_idea_as_a/</link>
@@ -13,18 +20,18 @@
       <pubDate>Sat, 04 Apr 2026 18:01:11 GMT</pubDate>
     </item>
     <item>
-      <title>如何打造你的人工智能电脑？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sccms9/how_to_build_your_ai_pc/</link>
-      <description><![CDATA[在花费了太多时间在不同硬件上测试本地模型（Llama 3、Mistral、Qwen、DeepSeek）之后，我意识到一件事：**VRAM 就是一切**。对于 LLM 推理，16GB 卡每次都会击败更快的 8GB 卡。 因此，我将三个完整的 PC 构建放在一起，并优先考虑每美元的 VRAM。没有多余的内容，只是真正适用于本地人工智能的部分。 **预算构建 - \~899 美元** * GPU：RTX 4060 Ti 16GB（关键：16GB 版本，而不是 8GB） * CPU：Ryzen 5 5600X * RAM：32GB DDR4 * 运行： 7B–13B 型号为 30–50 tok/s，13B–20B 采用 Q4 量化 * 最适合：初学者、学生、预算有限的 Ollama **中档 – \~1,599 美元** * GPU：RTX 4070 Super 12GB * CPU：Ryzen 7 7700X * RAM：64GB DDR5 * 运行：34B 模型（第四季度）以 20-30 tok/s 运行，16B 模型全速运行 * 最适合：开发人员、爱好者、90% 的本地 LLM 使用案例 **专业构建 – \~2,899 美元** * GPU：RTX 4090 24GB * CPU：Ryzen 9 7900X * RAM：96GB DDR5 * 运行：70B 模型 (Q4)，速度为 15–20 tok/s，微调 7B 模型 * 最适合：研究人员、大量微调、运行最大的开放模型 **为什么这些部件？** * VRAM &gt;原始 GPU 速度（本地 LLM 社区的共识） * 32GB RAM 是新的最低要求（环境消耗内存） * NVIDIA + CUDA = 仍然是最不痛苦的路径（对不起 AMD 粉丝） 注意：最近价格波动很大。   由   提交 /u/Remarkable-Dark2840   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sccms9/how_to_build_your_ai_pc/</guid>
-      <pubDate>Sat, 04 Apr 2026 15:47:50 GMT</pubDate>
+      <title>这个卑鄙的 GLP-1 处方网站正在使用假患者的 Deepfake“前后”照片，并投放显示 AI 生成的 Ozempic 盒子的广告</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1scez5h/this_sleazy_glp1_prescription_site_is_using/</link>
+      <description><![CDATA[Voidzilla 价值数十亿美元的人工智能公司建立在谎言之上 为渴望使用 GLP-1 减肥药物的患者抢钱像 Ozempic 一样，初创公司变得如此草率，以至于他们的营销材料看起来像是无意识的模仿。 以 MEDVi 为例，它是 GLP-1 的在线处方中心。该公司希望您知道，它是“认真”帮助您减肥的，根据其网站，该网站恳请访问者加入“50,000 多名 MEDVi 患者”的行列，他们已转向该服务寻求减肥帮助。它说，这种帮助以“个性化护理”和“高效减肥药物”的形式出现，后来将其描述为“医生批准的”。它补充说，订阅起价不到 200 美元，“无需保险”，这是一种“预算友好”的 semaglutide 选项。 为了让其销售宣传深入人心，MEDVi 的网站上充斥着看起来幸福、微笑的人们的图片；平滑照片中的女性都穿着流行颜色的运动胸罩，而微笑的男性则穿着 T 恤。还有大量所谓的客户成功故事，该公司声称这些故事来自真实的 MEDVi 患者。 文案简介中写道：“有时你必须亲眼所见才能相信它，”旁边还有一系列减肥前后的照片。 “GLP-1 药物可以改变生活，改善情绪、睡眠、精力和寿命。照片、推荐和结果来自 MEDVi 患者。” 但是，我们不禁注意到，这些所谓的患者都不是真实的。戴着运动胸罩的微笑人群中的每张图像似乎都是使用人工智能从头开始生成的，而更阴险的是，前后照片都是令人难以置信的令人信服的深度赝品，似乎是通过从网络上提取真实人物的现有图像并使用人工智能改变他们的面孔而生成的。   由   提交 /u/AmorFati01   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1scez5h/this_sleazy_glp1_prescription_site_is_using/</guid>
+      <pubDate>Sat, 04 Apr 2026 17:19:20 GMT</pubDate>
     </item>
     <item>
-      <title>Nvidia 全力开发 AI 代理，而 Anthropic 则停止开发</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sccbuj/nvidia_goes_allin_on_ai_agents_while_anthropic/</link>
-      <description><![CDATA[TLDR：Nvidia 正在与 17 家大公司合作，专门为企业 AI 代理构建一个平台，基本上试图成为商业 AI 的主要基础设施。 与此同时，Anthropic 却在做相反的事情。他们只是阻止第三方人工智能代理（如流行的 OpenClaw 应用程序）使用标准的 Claude 订阅，因为自动化机器人正在耗尽他们的服务器。现在，如果你想与 Claude 一起使用这些第三方工具，你必须支付单独的 API 费用。 基本上，Nvidia 正在向合作伙伴敞开大门来构建他们的生态系统，而 Anthropic 则正在隔离花园以保护自己的收入。 来源： https://sparkedweekly.com/issues/2026-04-04-0805-nvidia-opens-ai-agent-doors-while-anthropic-slams-them.html   由   提交 /u/1PoorBagHolder   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sccbuj/nvidia_goes_allin_on_ai_agents_while_anthropic/</guid>
-      <pubDate>Sat, 04 Apr 2026 15:35:34 GMT</pubDate>
+      <title>每个人都在谈论 AGI，但你实际使用 AI 的最愚蠢或最平凡的事情是什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1scdete/everyone_talks_about_agi_but_whats_the_dumbest_or/</link>
+      <description><![CDATA[我先走。我实际上只是拍一张打开的冰箱的照片，然后让它告诉我晚饭该做什么，这样我就不必动脑子了。 我们从担心天网到让它为我们准备饭菜，用了大约两年的时间。您日常最懒惰的人工智能用例是什么？让我们听听他们的声音。   由   提交/u/netcommah  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1scdete/everyone_talks_about_agi_but_whats_the_dumbest_or/</guid>
+      <pubDate>Sat, 04 Apr 2026 16:18:35 GMT</pubDate>
     </item>
     <item>
       <title>对于AI助手来说，记忆力不是最重要的功能吗？</title>
@@ -32,13 +39,6 @@
       <description><![CDATA[我觉得每个人工智能应用程序都只是依靠内存，这样他们就不会落后，但没有人真正正确地构建它，主要参与者似乎只是随机存储内存并将其添加到系统上下文中，但感觉很弱。 我不明白为什么没有人似乎优先考虑这一点，因为它不仅可以节省输入时的令牌，而且对于一个合适的人工智能助手来说这不是必需的吗？我建立了一个很长的聊天，然后当我感觉自己正在取得进展时就达到了长度限制，上下文被擦除，我必须总结旧的聊天并粘贴到新的中，这不太好。 为我的计划支付保费并且它在聊天之间是无状态的对我来说太疯狂了   由   提交/u/MontyOW   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1scbln4/is_memory_not_the_most_important_feature_for_ai/</guid>
       <pubDate>Sat, 04 Apr 2026 15:06:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>在为人工智能代理烧钱之前，我研究了 50 多年的小型企业系统</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sc9w9n/i_looked_at_50_years_of_small_business_systems/</link>
-      <description><![CDATA[ https://preview.redd.it/ctxkfc6zi6tg1.png?width=871&amp;format=png&amp;auto=webp&amp;s=6667fd9d7a87b5c8d6e77ce4575ef3cb3fe0aaaa 我最近在这个子里读了很多关于使用 Claude 为企业构建代理来节省时间和金钱的帖子 我们都说小型企业的运营感觉很混乱，有太多工具和东西坏掉，所以我们应该创建 AI 代理来解决它。  我最近陷入了一个兔子洞，试图理解为什么一旦开始扩展，操作似乎总是感觉混乱，我发现这很有趣。看起来我们大多数人都陷入了几十年来一直重复的模式。 我写了一份关于此的完整报告，但我认为如果我在这个子部分中分享细分内容会更容易。  如果你把范围缩小一点，企业运营经历了几个阶段。 1975 年之前，一切基本上都靠人来运转。没有真正的系统，没有软件。  所有者或经理了解一切：客户、数字、工作流程。它实际上以一种奇怪的方式相当“对齐”，但显然它没有扩展。  一旦事情发展起来，一切都开始崩溃，因为一个人的头脑中存在太多东西。 然后从 1975 年左右到 90 年代末，软件开始出现。电子表格、早期 CRM、会计工具。  每个部门都有自己的事情。这对提高效率有很大帮助，但也带来了一个新问题，即不再有真正的相互交谈。 然后 2000-2015 时代发生了，这基本上是 SaaS 的爆炸式增长。这就是大多数机构目前正在运作的地方，无论他们是否意识到。  你已经拥有了一个可以处理所有事情的工具：CRM、项目管理、Slack、Drive、分析、自动化以及许多其他东西。 就个人而言，所有这些工具都很棒。但它们在一起并不能真正形成一个系统。他们形成了一个堆栈。 在某种程度上，创始人成为将所有这些组合在一起的人。你是那个知道各种工具发生了什么、将各个点连接起来、在出现问题时进行修复的人。 在 2012 年到 2022 年左右，Zapier 和 Make 等工具出现，并试图通过连接一切来解决这个问题。公平地说，他们确实有帮助。  但他们实际上并没有解决核心问题。它们只是让堆栈稍微不那么痛苦。 因此，你得到的不是混乱，而是感觉更有组织性的东西......但仍然脆弱。当某些东西发生故障时，它仍然在你身上。 现在，自 2023 年以来发生的一切，感觉就像又一个转变开始了。我们的想法不是仅仅添加更多工具或更多自动化，而是朝着拥有一个中央系统的方向发展，所有东西都通过它连接起来。 虽然还不完美，但比以前更接近。 您的营销、销售、交付甚至财务不仅仅是单独的工具，而是实际上以一种有意义的方式连接起来。  而不是你不断地检查和移动事物，系统本身开始处理更多的事情。 我分享这个的原因是因为很多人错过了更大的图景。他们没有修复核心系统，而是不断构建更多的代理，这只会让业务变得混乱和封闭，就像以前一样。 如果你问我，更好的方法是首先构建一个保存所有数据的集中式系统。然后，在该基础之上分层代理，这样它们实际上可以增强业务而不是增加更多混乱。 如果您有兴趣阅读完整版本，我将完整的报告放在评论部分   由   提交/u/damonflowers  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sc9w9n/i_looked_at_50_years_of_small_business_systems/</guid>
-      <pubDate>Sat, 04 Apr 2026 13:56:15 GMT</pubDate>
     </item>
     <item>
       <title>供应商控制计量、单位和消耗产品数量的定价结构如何合法？</title>
