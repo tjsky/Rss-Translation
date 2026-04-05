@@ -4,7 +4,49 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 05 Apr 2026 09:35:16 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 12:47:38 GMT</lastBuildDate>
+    <item>
+      <title>对您的 HTTP 客户端选择进行基准测试 – 现场演示</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sd281l/benchmark_your_http_client_choice_live_demo/</link>
+      <description><![CDATA[是否曾经不确定哪个 HTTP 客户端最适合您的项目？检查Fetch Reliability Arena - 一个实时基准测试工具，可以在相同的网络条件下并排比较 fetch、axios、ky 和 ffetch。 您可以动态注入混乱：  延迟范围 随机失败（5xx、4xx） 速率限制 请求限制  实时指标显示每个客户端的可靠性得分、错误分布、延迟百分位数和吞吐量。无需设置，只需打开，配置您的混乱，点击运行，然后查看每个客户端如何处理它。 Repo： https://github.com/fetch-kit/ |开源，欢迎贡献   由   提交/u/OtherwisePush6424  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sd281l/benchmark_your_http_client_choice_live_demo/</guid>
+      <pubDate>Sun, 05 Apr 2026 12:21:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>个人网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sd1cmx/personal_website/</link>
+      <description><![CDATA[嗨，我只是想得到关于我个人网站的诚实反馈。 我完全是和 Claude 一起完成的，我没有写任何一行代码，我只是给了它方向，说实话，我对结果印象深刻。 （在尝试Claude之前，我非常反对使用AI，但现在我看到了它的潜力，作为初级/中级助手非常好） 大约花了6个小时才达到目前的状态。 如果这种类型的“晋升”这里不允许，请原谅我并删除此帖子（： https://adimutu.com/    提交者   /u/Xxshark888xX   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sd1cmx/personal_website/</guid>
+      <pubDate>Sun, 05 Apr 2026 11:34:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能网站建设者如何构建他们的 CSS 类</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sd1c6z/how_do_ai_website_builders_structure_their_css/</link>
+      <description><![CDATA[我一直在研究可以根据提示生成 html 和 css 的 AI 工具。尝试了一些像framer和Readdy。他们使用的类名有时看起来是随机的。不像 bem 或任何一致的东西。 我在生成的页面上打开检查器，看到了内联样式和奇怪的类名（如 css 1h3j2）的混合。他们这样做有什么原因吗？或者只是模型吐出的结果？   由   提交 /u/Delicious-One-5129   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sd1c6z/how_do_ai_website_builders_structure_their_css/</guid>
+      <pubDate>Sun, 05 Apr 2026 11:34:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>搭建一个小型个人电子商务网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sd0r2k/building_a_small_personal_ecommerce_website/</link>
+      <description><![CDATA[嗨， 我有一个关于创建一个小型个人电子商务网站来销售 1-2 种产品的问题。 我是一名拥有 6 年以上经验的前端开发人员（Angular/React）。我的目标不仅是销售产品，而且是扩展我的技能并构建自己的东西。 使用 Copilot 这样的工具，这感觉更容易实现，所以我正在考虑使用 Astro + Vercel 构建一个简单的网站。但是，我不确定后端 - 特别是处理付款、发票、运输和机器人保护。 我的想法是创建一个主要静态的网站，显示 1-2 个产品，并允许用户通过简单的流程购买它们。 由于我主要是前端开发人员，所以我宁愿避免像 WooCommerce 或 Shopify 这样的重型平台。您认为这种方法现实且可维护吗？ 我也希望获得以下方面的指导：  后端要求（我是否需要后端，或者我可以保持无服务器状态吗？） 安全考虑 支付集成（尤其是本地提供商） 发票解决方案 运输集成 机器人保护和滥用预防  我取得了一些成功，而且我喜欢 Astro，所以我也转向 Astro+Vercel 来实现此目的，但是我可以使用 Astro+Vercel 来实现此目的吗？除此之外，我是否需要数据库和付款/发货功能？你觉得怎么样？ 你会推荐什么作为此类项目最简单、最实用的设置？ 提前致谢！   由   提交 /u/Then-Argument4107   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sd0r2k/building_a_small_personal_ecommerce_website/</guid>
+      <pubDate>Sun, 05 Apr 2026 11:00:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>为客户开发了一个应用程序 - 现在他说他买不起。你会怎么办？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sd0631/built_an_app_for_a_client_now_he_says_he_cant/</link>
+      <description><![CDATA[大家好，我是一名全栈开发人员，我的项目主要是 MVP。我对具有 1-2 个核心功能、应用程序登陆页面、支付页面、posthog 集成的基本 MVP 收取大约 499 美元的费用。数据库。基本上，为了使应用程序运行我构建的所有需要​​的内容。  现在，当我开始自由职业时，我没有要求为要建设的项目预付款。最终大部分时间都失去了客户。  因此，我开始收取最低限度的预付款来启动该项目。失去了很多愿意建造一些东西但对家园不认真的人。  现在，我这次构建了这个项目，只得到了 50 美元的初始预付款。客户说他无法向我支付剩余的金额，因为他目前无力承担该项目的费用。  我知道这个小组中有很多有经验的人。您对此有何建议？  如果有人想购买该项目，这对我来说也会很有帮助。    由   提交 /u/Evening_Acadia_6021   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sd0631/built_an_app_for_a_client_now_he_says_he_cant/</guid>
+      <pubDate>Sun, 05 Apr 2026 10:25:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德告诉我放弃创业并做自由职业者。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sczgah/claude_told_me_quit_building_my_startup_and_do/</link>
+      <description><![CDATA[      我没听。无论发生什么，我都想构建一个 SaaS。之前我分享过，我几乎完成了像 n8n 这样的工作流程构建器，并将其在 GitHub 上开源，现在我只需要构建一些 UI 和集成。我无法停止   由   提交/u/khiladipk   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sczgah/claude_told_me_quit_building_my_startup_and_do/</guid>
+      <pubDate>Sun, 05 Apr 2026 09:40:51 GMT</pubDate>
+    </item>
     <item>
       <title>让我看看你神圣的笔记本电脑</title>
       <link>https://www.reddit.com/r/webdev/comments/1scz9bq/show_me_your_holy_laptop/</link>
@@ -67,48 +109,6 @@
       <description><![CDATA[我在办公桌上使用 Mac Mini 并在旅途中使用 MacBook Air 工作。每次我切换机器时，我都会坐下来，打开一个存储库，然后意识到我忘记提取最新的更改。将其乘以 25 个以上的存储库，它就会很快变旧。 因此，我构建了 git-syncr — 一个在两台计算机上运行并自动在后台提取远程更改的 CLI 工具。 它的工作原理：  全局安装：npm install -g git-syncr 运行 git-syncr — 交互式设置允许您选择开发目录、设置同步间隔并启用通知 它会安装一个后台服务（macOS 上为 launchd，Linux 上为 systemd），按计划检查所有存储库 当你的笔记本电脑从睡眠中唤醒时，它会赶上所有错过的同步 使用 git pull --ff-only — 如果存在冲突或脏工作树，它会跳过存储库并记录下来  结果：我从 Mac Mini 上推送，当天关闭它，打开我的咖啡店里的 MacBook Air，一切都已经是最新的。 使用 TypeScript 构建，所需的资源最少。带有 Ranger 风格目录浏览器的交互式 CLI。 GitHub：https://github.com/Darren-A11att/git-sync npm：https://www.npmjs.com/package/git-syncr 第二阶段将添加本地到远程推送，使两台机器的工作流程完全自动化。欢迎反馈。   由   提交 /u/Darren-A   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1scu2by/i_built_gitsyncr_to_keep_25_repos_in_sync_across/</guid>
       <pubDate>Sun, 05 Apr 2026 04:21:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday]mockd - 多协议模拟服务器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1scszve/showoff_saturday_mockd_multiprotocol_mock_server/</link>
-      <description><![CDATA[构建这个模拟服务器已经有一段时间了。开始是因为我需要模拟 MCP，然后不断添加协议，因为每个项目都有一些新的东西需要模拟以进行早期测试或 ci/cd。 是否支持 HTTP、GraphQL、gRPC、WebSocket、MQTT、SSE 和 SOAP。用 Go 编写它主要是因为我想要一个干净的交叉编译的二进制文件，并且并发性非常适合同时处理一堆协议。从 OpenAPI、Postman、HAR、WireMock、curl 导入。 使其对前端工作真正有用的部分是有状态资源，您设置种子数据，它为您提供真正的 CRUD，因此您的 UI 实际上可以针对它工作，而不是仅在我的原型设计和演示中返回静态 JSON，而无需在后端进行粗略处理。一直在使用它进行演示，我希望事情感觉真实，并且用于 AI 代理集成测试，您希望它们击中实际端点，而不是通过进程内模拟进行作弊。 UI 都是 Svelte 5，嵌入在二进制文件中，因此当您启动服务器时，仪表板默认位于 localhost:4290。使用 Wails 开发桌面应用程序，该应用程序与本机应用程序共享相同的 Svelte 前端。 curl -sSL https://get.mockd.io | sh mockd start  https://github.com/getmockd/mockd 刚刚超过 100 颗星，但还没有真正得到任何真正的反馈，但真的很好奇人们的想法。不确定是否值得投入更多精力，或者它的位置是否良好。开放思想。   由   提交 /u/zakodiac   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1scszve/showoff_saturday_mockd_multiprotocol_mock_server/</guid>
-      <pubDate>Sun, 05 Apr 2026 03:26:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>我将 Claude Code 的 /buddy 变成了一个具有竞争力的排行榜，其中包含交易卡、稀有度等级和 BuddyDex</title>
-      <link>https://www.reddit.com/r/webdev/comments/1scsvlv/i_turned_claude_codes_buddy_into_a_competitive/</link>
-      <description><![CDATA[      如果您使用 Claude Code，您可能见过 /buddy — 它为您提供了一个具有 ASCII 艺术和个性的随机 AI 伴侣。 我为其构建了一个排行榜。这只是今天早上制作的一个有趣的项目。 npx buddy-board 会读取您的 Claude 配置，确定性地计算您好友的统计数据，然后提交到 buddyboard.xyz 上的全球排名。 您将获得： 包含 18 种 ASCII 物种之一的交易卡 5 种统计数据：调试、耐心、混乱、智慧、蛇蝎 稀有度从普通 (60%) 到传奇 (1%) — 传奇获得全息闪光 CSS BuddyDex 跟踪所有 1,728 种可能的物种/眼睛/帽子组合 组织团队仪表板（如果您想作为一个团队竞争） 可嵌入您的 GitHub 个人资料自述文件的卡片 好友数据是确定性的 — 与 Claude Code 使用的算法相同（Mulberry32 PRNG 从您的帐户哈希中播种）。所以你的好友才是真正属于你的。 网站：https://buddyboard.xyz GitHub：https://github.com/TanayK07/buddy-board   由   提交/u/Content-Berry-2848   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1scsvlv/i_turned_claude_codes_buddy_into_a_competitive/</guid>
-      <pubDate>Sun, 05 Apr 2026 03:20:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>[周六展示] 在网站上寻找反馈，看看它是否使用起来令人困惑。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1scsu0h/showoff_saturday_looking_for_feedback_on_site_i/</link>
-      <description><![CDATA[自从我把它放到网上（大约两周前）以来，我已经有一些加入，但我不想使用他们的电子邮件来获取未经请求的反馈。希望能找到一个人（不在我的圈子里）环顾四周并给出诚实的意见。  https://bingewithme.com/ 社交电视跟踪器；制作节目列表，查找新节目，查找具有相似品味的用户..    由   提交 /u/rekaviles   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1scsu0h/showoff_saturday_looking_for_feedback_on_site_i/</guid>
-      <pubDate>Sun, 05 Apr 2026 03:17:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>人们说“人工智能不会取代你”是完全错误的</title>
-      <link>https://www.reddit.com/r/webdev/comments/1scsk5w/people_saying_ai_will_not_replace_you_are/</link>
-      <description><![CDATA[每个线程的响应相同 “你仍然需要有人调试” “将会有很多人工智能代码需要修复” 直到它不需要调试。 直到它不需要修复。 孩子们在一个段落中提示应用程序，这需要高年级学生才能完成。开发人员需要花费数月的时间才能完成。 应对措施太疯狂了。您可以在一个正确的提示中一次性拍摄应用程序。人工智能只会变得更好。 技能并没有改变。你没有适应科技。你正在被取代。 高级工程师每年通过运行提示赚取 200-50 万美元。几乎不编码。大部分时间都在开会。那些日子已经结束了。他们会意识到在亚马逊仓库工作 40 小时的劳动比他们以前的工作更值得获得更高的报酬。   由   提交 /u/Ok_Passion295   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1scsk5w/people_saying_ai_will_not_replace_you_are/</guid>
-      <pubDate>Sun, 05 Apr 2026 03:04:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] 为 AWS、MongoDB、GCP 构建了一个免费的 IP 白名单配置生成器 — 欢迎反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1scsd24/showoff_saturday_built_a_free_ip_whitelist_config/</link>
-      <description><![CDATA[在 Showoff Saturday 上分享此内容 - 构建此内容是为了解决我自己的问题。 每次我切换网络或 ISP 更改我的 IP 时，我都必须：  Google“我的 IP 是什么” 复制它 打开 AWS 控制台 / MongoDB Atlas / GCP 导航到安全规则 以 CIDR 格式 (/32) 粘贴 IP 对每个服务重复此操作  这种 5 分钟的烦恼经常发生。因此，我构建了 **ipwhitelist.dev** 来解决这个问题。 **它的作用：** - 立即检测您的公共 IP - 显示 CIDR 表示法、城市、ISP 和延迟 - 为 AWS CLI、Terraform、MongoDB Atlas CLI、GCP 防火墙规则、iptables、UFW 和 nginx 生成可直接粘贴的配置 - IP指纹检查（代理/VPN/数据中心检测） - 可共享“将此 IP 列入白名单”队友卡 **还在同一网站上构建了这些免费工具：** - 端口检查器 - DNS 查找（A、AAAA、MX、CNAME、TXT、NS，通过 Google DoH） - WHOIS 查找 - 带有到期警告的 SSL 证书检查器 - IP 位置地图 - HTTP 标头检查器安全分析 - 对 6 个 AWS 区域进行延迟测试 - 用户代理解析器 - IPv6 检测器 所有客户端，无后端，无登录，不存储数据。 希望获得反馈 - 特别是如果我缺少云提供商或配置格式。 **https://ipwhitelist.dev\*\*   由   提交/u/kioferito  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1scsd24/showoff_saturday_built_a_free_ip_whitelist_config/</guid>
-      <pubDate>Sun, 05 Apr 2026 02:54:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们正在举办为期 4 周的在线黑客马拉松系列，奖金为 4,000 美元，向所有技能水平开放！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1scscdy/were_running_an_online_4week_hackathon_series/</link>
-      <description><![CDATA[大多数黑客马拉松都会奖励演讲。精美的幻灯片、排练的演示、充满流行语的推介。  我们不会这样做。 Locus Paygentic 黑客马拉松系列赛为期 4 周，包含 4 个赛道，总奖金为 4,000 美元。每周从周五开始，下周四结束，然后下一个曲目在后一天开始。用一周的时间来构建真正有效的东西。 第一周的注册在 Devfolio 上进行。  赛道：使用 PayWithLocus 构建一些东西。如果您还没有使用过，PayWithLocus 是我们的支付和商务套件。它让人工智能代理处理真实的交易，而不仅仅是模拟它们。您的项目应该以有意义的方式使用它。 以下是您需要了解的所有信息：  团队规模为 1 到 4 人 免费参赛 每个团队均可获得 15 美元的构建积分和 15 美元的 Locus 积分供合作 托管在我们的 Discord 服务器中  我们围绕 Locus 的不同垂直领域构建了这个系列因为我们希望了解社区在整个堆栈中构建的内容，不仅仅是一个用例，而是连续四个星期内的四个用例。 如果您一直在寻找借口来构建人工智能支付或代理原生商务的东西，那么这就是它。低准入门槛、真正的合作积分以及整个星期服务器中的构建者社区。 将您的团队放入 Discord，让我们看看您构建的内容。 discord.gg/locus | paygentic-week1.devfolio.co   由   提交 /u/IAmDreTheKid   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1scscdy/were_running_an_online_4week_hackathon_series/</guid>
-      <pubDate>Sun, 05 Apr 2026 02:53:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
