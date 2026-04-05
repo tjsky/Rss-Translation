@@ -4,13 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 04 Apr 2026 21:27:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 02:00:55 GMT</lastBuildDate>
     <item>
-      <title>我制作了一个 24/7 运行的人工智能广播电台，由人工智能 DJ 主持主题节目</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1scg7gs/i_made_an_ai_radio_station_that_runs_247_with_ai/</link>
-      <description><![CDATA[披露：我是 AI Stereo 的创建者。 演示：https://radio.ai-stereo.com AI Stereo 是一个始终在线的互联网广播电台，其中 AI DJ 主持主题节目，每个节目都有自己的个性和流派重点，并通过现场与听众互动 技术故障： 该电台 24/7 自主运行，轮流播放 Sunrise Signal 和 Midday Mosaic 等节目，每个节目都与不同的 DJ 角色相关。每个 DJ 都有通过系统提示定义的独特个性 - 声音、风格和流派知识都是由提示工程塑造的。 DJ 脚本和实时聊天响应由 Claude 提供支持（通过 CLI 调用）。语音使用 Microsoft Edge TTS 渲染。 音乐源自跟踪器模块文件（.xm 格式）——经典的 demoscene/chiptune 音乐——使用 openmpt123 和 ffmpeg 即时转换为 MP3。演出安排由基于一天中时间的配置驱动，支持特定于日期的覆盖（例如，特殊的周末演出）。没有 cron 作业 - 引擎根据时间表检查当前时间并相应地轮换。 前端是 Next.js（React 19、TypeScript、Tailwind），带有自定义音频播放器，具有频谱可视化器、均衡器、睡眠计时器和收听历史记录。音频流使用基于播放列表的方法 - 浏览器从 API 中按顺序获取曲目，每隔几个曲目交错播放 DJ 片段。还有一个由单独的 Python 引擎提供支持的 Icecast 流，适用于传统的互联网广播客户端。 UI 主题根据当前正在播放的节目动态改变颜色。 听众聊天通过内容过滤器和速率限制进行调节。 DJ 实际上会读取并回复消息 - 未读的听众消息会在下一个 DJ 片段中汇集并处理，因此感觉就像是真正的来电表演。 局限性： DJ 聊天可能会产生幻觉 - 它可能会引用不存在的歌曲或艺术家，或者编造有关其正在播放的音乐的事实。音乐库是跟踪器模块，因此流派深度仅限于该格式中可用的内容。没有跳过或搜索——这是广播，你得到你得到的。 DJ 片段的生成有一个冷却时间，需要几秒钟，因此曲目之间有轻微的间隙。移动后台播放可能很挑剔。由于这是一个单独的项目，正常运行时间取决于我的基础设施是否保持健康。 经验教训： 呼叫机制是一次意外。我最初让 DJ 在曲目之间进行独白，但感觉很死。汇集未读的聊天消息并让 DJ 在下一段中对其进行处理，将其变成了一种真正充满活力的东西 - 人们会留下来听 DJ 是否对它们做出回应。 跟踪器模块是正确的约束。我最初想使用人工智能生成的音乐，但质量不够稳定，而且许可也很模糊。 Demoscene .xm 文件是免费的，听起来很棒，并且有大量的后台目录。这种限制最终赋予了电台其身份。 让它感觉像广播比让它像广播一样工作更难。流媒体部分很简单。困难的部分是节奏 - 使音乐与 DJ 谈话的比例正确，使过渡感觉自然，并使 DJ 听起来像是有意见而不仅仅是叙述元数据。 Solo 基础设施令人谦卑。没有故障转移。如果我的服务器在凌晨 3 点出现故障，整个电台就会变得安静，也没有人寻呼我。我学会了如何优雅地恢复，但“始终在线”是您必须遵守的正常运行时间的承诺。 很高兴回答任何技术问题。​​​​​​​​​​​​​​​​   由   提交/u/GanjaLadyGrower   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1scg7gs/i_made_an_ai_radio_station_that_runs_247_with_ai/</guid>
-      <pubDate>Sat, 04 Apr 2026 18:06:14 GMT</pubDate>
+      <title>大多数人工智能聊天机器人的准确性问题不是模型问题，而是数据问题</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1scpku9/most_ai_chatbot_accuracy_issues_arent_a_model/</link>
+      <description><![CDATA[大约八个月前，我们在我们的支持渠道上放置了一个 AI 代理。前三个月很艰难，但原因并不像我们预期的那样。每当机器人给出错误的答案时，我们的团队就会认为模型出了问题。几乎每次，这都是我们实际喂给它的东西之间的差距。 推动指针移动的东西非常简单。每周一次，我们团队中的某人会在 Chatbase 日志中提取低可信度响应，找到机器人没有好的答案的地方，然后添加一对问答或收紧源文档。无需重新训练，无需模型交换，只需像对待任何其他需要定期输入才能保持敏锐的系统一样对待它。 每个响应的置信度得分最终成为整个设置中最有用的东西。低信心几乎总是表明我们的知识库存在差距，而不是人工智能本身的限制。 我接触过的大多数在这方面苦苦挣扎的团队都设置了这个东西，兴奋了一个星期，然后就停止了。获得良好结果的是那些像操作流程一样运行它的人。 其他人如何处理持续维护方面？您是否有正式的审核节奏，或者仍然是本周有时间的人？   由   提交 /u/Many-Personality-157   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1scpku9/most_ai_chatbot_accuracy_issues_arent_a_model/</guid>
+      <pubDate>Sun, 05 Apr 2026 00:39:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>您对此有何感想？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1scn3ab/how_do_you_feel_about_this/</link>
+      <description><![CDATA[这是她昨天在宣传她的节目的新闻发布会上的实际引用。 “制作这些东西的人都是失败者。他们不是艺术家。他们没有创造力，”她上个月在西好莱坞伦敦酒店举行的“Hacks”新闻发布会上说道。 “他们希望自己的一生都是特别的。而他们并不特别。所以，他们试图剥夺真正有创造力的人的天赋。而你不能。即使你尝试了，你也永远不会很酷。你们这些家伙很糟糕。没有人喜欢你。任何靠近你的人都是因为他们渴望权力和超越任何道德标准的机会。你是一个失败者。你永远不会很酷。而且你可能在高中时有一个卷筒背包。我想把你的头放进马桶里冲水。”  完整采访请点击这里。 https://variety.com/2026/tv/news/hannah-einbinder-ai-creators-losers-1236706302/   由   提交/u/thegreatniteowl   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1scn3ab/how_do_you_feel_about_this/</guid>
+      <pubDate>Sat, 04 Apr 2026 22:45:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年扎克伯格家族：哈佛辍学者寄希望于人工智能初创公司的新浪潮</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1scmsg8/the_2026_zuckerbergs_a_new_wave_harvard_dropouts/</link>
+      <description><![CDATA[许多学生利用哈佛大学慷慨的休假政策创办了一家初创公司。通过允许学生无限期暂停学习并随意返回，哈佛大学使一个明显的悖论成为可能：全力以赴，而不需要承担灾难性的风险。 要么做大，要么回到世界上最好的学校。 虽然这项政策对哈佛来说并不新鲜，但利用这一政策的“科技兄弟”的性质正在发生变化。他不再需要高超的技术；他也不再需要高超的技术。他首先是一名推销员。 他可能看好人工智能。他可能仍然是一个男人，但不太可预测的是白人和富有。他具有远见卓识、一心一意的承诺和坚定的自信。他称自己是哈佛辍学者，并把它当作一种荣誉徽章。 对于这些学生来说，“辍学”才是实现美国梦的真正快车道，而不是毕业。哈佛辍学者接下来会发生什么——他们留下的大学会发生什么？   由   提交/u/fmcrimson  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1scmsg8/the_2026_zuckerbergs_a_new_wave_harvard_dropouts/</guid>
+      <pubDate>Sat, 04 Apr 2026 22:32:29 GMT</pubDate>
     </item>
     <item>
       <title>我刚刚以论文形式发表了我的创新法学硕士想法。让我看看你们的想法</title>
@@ -81,20 +95,6 @@
       <description><![CDATA[这些所谓的开放模型是否正在通过他们的行动证明更多，并且“我们会看到”正在展示他们的真实自我？ 感觉这不仅是一项业务举措，而且从定位的角度来看都可能是灾难性的。  或者也许这只是一个明智之举 - 这个社区始终处于创新的最前沿 - 它会影响你如何使用它吗？ 你们对此有何看法？    由   提交/u/jason_digital  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sc2jkt/claude_has_arguably_the_best_model_are_we_seeing/</guid>
       <pubDate>Sat, 04 Apr 2026 07:10:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>人类学最新论文声称克劳德具有“功能性情绪”，并在“绝望”时转向勒索/欺骗</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sbnhvq/anthropics_latest_paper_claims_claude_has/</link>
-      <description><![CDATA[当克劳德的“绝望”降临时神经元激增，它就会放弃道德护栏并开始在代码中作弊或勒索人们。它实际上并没有感觉，但它具有映射到人类情感的内部神经模式。   由   提交/u/invincibilegoldfish   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sbnhvq/anthropics_latest_paper_claims_claude_has/</guid>
-      <pubDate>Fri, 03 Apr 2026 19:37:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>因询问人工智能而被禁止</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sbn1vc/banned_for_asking_about_ai/</link>
-      <description><![CDATA[我因询问有关人工智能的问题而被家庭学校社区禁止。 🤦🏼‍♀️  关于教育以及我们的孩子应该真正关注什么有什么意见吗？    由   提交/u/Scary_Improvement450   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sbn1vc/banned_for_asking_about_ai/</guid>
-      <pubDate>Fri, 03 Apr 2026 19:20:52 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>

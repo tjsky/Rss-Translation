@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 04 Apr 2026 21:27:54 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 02:03:36 GMT</lastBuildDate>
+    <item>
+      <title>为什么我们还在使用 Markdown？</title>
+      <link>https://www.reddit.com/r/programming/comments/1scqruv/why_the_heck_are_we_still_using_markdown/</link>
+      <description><![CDATA[ 由   提交 /u/SpecialistLady   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1scqruv/why_the_heck_are_we_still_using_markdown/</guid>
+      <pubDate>Sun, 05 Apr 2026 01:35:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>好的 API 会慢慢老化</title>
+      <link>https://www.reddit.com/r/programming/comments/1scqae7/good_apis_age_slowly/</link>
+      <description><![CDATA[ 由   提交 /u/SpecialistLady   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1scqae7/good_apis_age_slowly/</guid>
+      <pubDate>Sun, 05 Apr 2026 01:12:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>差异算法</title>
+      <link>https://www.reddit.com/r/programming/comments/1scm62x/diff_algorithms/</link>
+      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1scm62x/diff_algorithms/</guid>
+      <pubDate>Sat, 04 Apr 2026 22:05:15 GMT</pubDate>
+    </item>
     <item>
       <title>领域驱动设计：精益聚合</title>
       <link>https://www.reddit.com/r/programming/comments/1scjod7/domaindriven_design_lean_aggregates/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我最近完成了 MIT 6.5840 分布式系统的实验，并在 Go 中实现了所有内容，包括：  Raft 共识算法 复制的键/值存储 具有动态重新配置的分片 KV 系统  该实现主要关注并发和故障处理：  用于 RPC 处理和后台任务的协程 Raft 和状态机之间的协调通道 处理不可靠的网络（丢弃/延迟/乱序 RPC）  一些有趣的挑战：  确保 commitIndex 在乱序 RPC 响应下永远不会向后移动 安全地处理重试客户端/请求 ID（幂等性） 在快照和分片传输之间保持重复数据删除状态一致  我编写了一份详细的自述文件，解释了设计和我遇到的棘手的边缘情况。   由   提交/u/am0123  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1sbdk50/i_implemented_raft_a_kv_store_and_a_sharded/</guid>
       <pubDate>Fri, 03 Apr 2026 13:25:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>宝宝的第二个垃圾收集器</title>
-      <link>https://www.reddit.com/r/programming/comments/1sbc9yu/babys_second_garbage_collector/</link>
-      <description><![CDATA[ 由   提交/u/matheusmoreira   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sbc9yu/babys_second_garbage_collector/</guid>
-      <pubDate>Fri, 03 Apr 2026 12:30:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 CEL 的 now() 强制依赖冷却期 - 阻止在过去 N 小时内发布的包</title>
-      <link>https://www.reddit.com/r/programming/comments/1sbb7jv/using_cels_now_to_enforce_dependency_cooldown/</link>
-      <description><![CDATA[供应链攻击通常依赖于发布恶意版本的速度，让自动化构建在检测赶上之前拉取它。  一种防御措施是冷却期：拒绝在过去 N 小时内发布的任何依赖项。 CEL（通用表达式语言）默认情况下不会公开 now()，因为它被设计为密封的。本文实际上介绍了注册一个返回当前 UTC 时间戳的自定义 now() 函数绑定，使用持续时间算术与 package_published_at 进行比较，并使用 has() 宏来处理尚未索引的新包 - 这是一种边缘情况，如果您错过了它，就会咬住您。   由   提交/u/BattleRemote3157  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sbb7jv/using_cels_now_to_enforce_dependency_cooldown/</guid>
-      <pubDate>Fri, 03 Apr 2026 11:40:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用C从头开始构建DNS查询工具</title>
-      <link>https://www.reddit.com/r/programming/comments/1sbawir/building_dns_query_tool_from_scratch_using_c/</link>
-      <description><![CDATA[ 由   提交/u/its_justme27  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sbawir/building_dns_query_tool_from_scratch_using_c/</guid>
-      <pubDate>Fri, 03 Apr 2026 11:24:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
