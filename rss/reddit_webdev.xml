@@ -4,20 +4,83 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 06 Apr 2026 15:42:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 18:52:46 GMT</lastBuildDate>
+    <item>
+      <title>为什么 Heroku 在明确宣布不再开发功能后又推出新功能？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se7264/why_did_heroku_launch_new_features_after/</link>
+      <description><![CDATA[      Judoscale 团队给 Heroku 写了一封公开信，要求澄清。 Heroku 之前宣布转向持续工程模型，并解释说这意味着不会发布新功能。 但最近他们发布了新功能，并表示这是持续工程模型的一部分。   由   提交/u/thehashimwarren  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se7264/why_did_heroku_launch_new_features_after/</guid>
+      <pubDate>Mon, 06 Apr 2026 18:24:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>我是唯一一个认为 API 测试工具对于快速检查来说太过分的人吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se5o88/am_i_the_only_one_who_feels_api_testing_tools_are/</link>
+      <description><![CDATA[也许我想得太多了，但是测试一个简单的 API 总是感觉比应有的要重。 有一半的时间我只是想检查某些内容是否正确返回，但最终我会执行一些对于快速检查来说不必要的设置步骤。 特别是当您在前端/后端工作之间切换时，它会破坏流程。 您会吗？大家只要坚持使用常用的工具来完成所有事情，或者您有更快的方法来动态测试 API 吗？   由   提交/u/alright85  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se5o88/am_i_the_only_one_who_feels_api_testing_tools_are/</guid>
+      <pubDate>Mon, 06 Apr 2026 17:36:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何将硬核倒卖终端移植到网络上（并使其无延迟地消化原始币安数据）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se5m5e/how_i_ported_a_hardcore_scalping_terminal_to_the/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se5m5e/how_i_ported_a_hardcore_scalping_terminal_to_the/</guid>
+      <pubDate>Mon, 06 Apr 2026 17:34:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>上个月构建了一个小型内部工具，只是因为我厌倦了每次开始新项目时手动做同样的事情。没什么花哨的，只是处理一些我一直从旧存储库复制粘贴的设置步骤的东西。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se5akv/built_a_tiny_internal_tool_last_month_just/</link>
+      <description><![CDATA[可能花了一个周末。如果我说实话，可能有点过度设计了。 奇怪的是，我从这个愚蠢的小脚本中得到的实际用途比我花了几个月的时间完成的一半项目还要多。每次都不假思索地运行。每个项目大约可以为我节省 20 分钟，这听起来不多，但当你定期调整事情时，它会很快增加。 我认为我在零观众压力下为自己构建的东西最终会变得更加诚实。没有功能蠕变，没有试图让它令人印象深刻，只是做我需要的一件事。 还有其他人发现你纯粹为自己构建的工具最终成为最粘的工具吗？   由   提交 /u/Confident_Box_4545   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se5akv/built_a_tiny_internal_tool_last_month_just/</guid>
+      <pubDate>Mon, 06 Apr 2026 17:23:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人尝试过 AI 编码代理的 DESIGN.md 方法吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se59a2/has_anyone_tried_the_designmd_approach_for_ai/</link>
+      <description><![CDATA[有人尝试过在 github 上流行的 DESIGN.md 方法吗？ 基本上，你将一个 markdown 文件放入项目根目录中，该文件描述了你的整个设计系统..颜色、排版、间距、组件样式。然后，当您使用 claude 代码或光标或任何编码代理时，它会读取文件并生成真正匹配您的设计的 ui，而不是默认为通用引导程序外观的东西 已经有一个拥有 16k+ 星的存储库，其中包含从 stripe、vercel、线性、notion、figma 等中提取的预制 DESIGN.md 文件。您只需抓住最接近您想要的文件并将其删除即可 已经使用它两天了，克劳德代码的输出质量差异是显而易见的..特别是对于跨组件的一致间距和颜色标记之类的事情。并不完美，但比在每个提示中描述您的设计要好得多 github.com/VoltAgent/awesome-design-md   由   提交 /u/virtualunc   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se59a2/has_anyone_tried_the_designmd_approach_for_ai/</guid>
+      <pubDate>Mon, 06 Apr 2026 17:22:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>内容管理系统开发人员经验的 10 条法则</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se565h/the_10_laws_of_developer_experience_for_content/</link>
+      <description><![CDATA[随着上周 EmDash 的发布和 WordPress 的对话，我一直在思考是什么让 CMS 在演示阶段之外真正发挥作用。自 2005 年使用 WordPress 以来，我一直在使用 CMS 进行构建，现在在 r/sanity_io 工作，所以我在这里有真正的偏见/经验，但这些模式在我使用过的每个系统中都以相同的方式发挥作用。 我所寻找的简短版本：  内容模型属于代码（版本控制、PR 审查、 AI可以生成模式） “页面”是一种内容类型，而不是一种架构（以页面为中心的模型打破了内容在没有 URL 的情况下到达某处的时刻） 内容模型应该与您的域一样具有表现力（如果您要扁平化您的域以适应 CMS，那么 CMS 就是瓶颈） 如果您无法使用 API 做到这一点，那么它并不是真正的功能（代理、CI/CD 和自动化都需要编程访问） 您需要一种查询语言，而不仅仅是一种查询语言端点 每个系统输出都是代理 DX（错误消息、CLI 输出、验证反馈是代表用户工作的代理的指示） 内容需要历史记录（不，markdown 文件上的 git 不是一回事） 内容操作需要大规模工作（重新标记 5,000 篇文章不应需要停机） 从内容模型到组件的类型安全 内容应该更加可移植比你的平台  完整的帖子，其中包含每项法律的推理和具体抽查：https://www.knut.fyi/blog/2026-04-04/the-10-laws-of-developer-experience-for-content-management-systems 好奇你的列表是什么样的。你遇到了什么我错过的事情？   由   提交 /u/knutmelvaer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se565h/the_10_laws_of_developer_experience_for_content/</guid>
+      <pubDate>Mon, 06 Apr 2026 17:19:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>React 与 Drupal 开发人员的薪资</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se4z95/salary_of_react_v_drupal_developers/</link>
+      <description><![CDATA[我是负责我们非营利网站的数字营销人员。我有一个 2 人的小团队负责内容管理，但团队中没有 Web 开发人员。 我希望添加一名专门的 Web 开发人员。但我正在比较 Drupal 系统或需要 React 开发人员的无头 CMS 的长期定价。 有人能够分享/教育我关于我应该期望的技能组和薪水的差异吗？当然，假设技能水平相同。 角色在美国境内将是远程的。 谢谢！   由   提交 /u/HomeCornerOffice   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se4z95/salary_of_react_v_drupal_developers/</guid>
+      <pubDate>Mon, 06 Apr 2026 17:12:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果你明天加入 Electron 核心团队，你会首先修复/改进什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se4ml7/if_you_joined_the_electron_core_team_tomorrow/</link>
+      <description><![CDATA[想象一下，你明天醒来，突然就加入了 Electron 核心团队。 你可以改变任何东西：架构、API、性能、工具、安全模型、构建系统，等等。 你要修复或改进的第一件事是什么，为什么？今天使用 Electron 时最让你沮丧的是什么？ 也许可能是这样的事情：  项目脚手架 内存使用 启动时间 打包和分发 本机集成 调试体验 或者完全不同的东西  想听听人们实际构建了什么并发布 Electron 应用程序思考。   由   提交 /u/Ikryanov   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se4ml7/if_you_joined_the_electron_core_team_tomorrow/</guid>
+      <pubDate>Mon, 06 Apr 2026 16:59:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了一个免费插件来与客户共享 WordPress 草稿预览 - 无需登录</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se2vjd/built_a_free_plugin_to_share_wordpress_draft/</link>
+      <description><![CDATA[客户审核总是比应有的情况更混乱。您可以临时发布页面、发送屏幕截图或共享管理员访问权限。这些都不好。 我构建了一个小插件，可以为任何草稿生成安全的、过期的链接。客户点击它，即可看到页面，无需 WordPress 帐户。 功能：  从帖子编辑器中一键生成链接 过期选项：24 小时、48 小时、7 天、30 天或自定义 管理面板可管理所有活动链接 与 Gutenberg、Elementor、Divi 配合使用 基于令牌，观众无需登录  免费且在 WordPress.org 上：https://wordpress.org/plugins/okto-shareable-draft-previews/ 如果您以前遇到过此问题并以不同的方式解决它，很好奇如何解决。   由   提交 /u/Mysterious-Crazy-395   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se2vjd/built_a_free_plugin_to_share_wordpress_draft/</guid>
+      <pubDate>Mon, 06 Apr 2026 15:56:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>外展</title>
+      <link>https://www.reddit.com/r/webdev/comments/1se2p3p/outreaching/</link>
+      <description><![CDATA[我是 19 岁的计算机科学工程师学生。我正在为中小型律师事务所构建一个人工智能代理，它通过真实的对话或聊天收集客户信息、所有案件档案，并在律师第一次致电之前向律师提供有关案件及其客户的良好报告。这很酷，为律师节省了大量时间，他们可以借此扩大公司规模。现在这是特定于民事案件，而不是刑事案件......  我如何寻找这些律师事务所以及我向他们收取多少费用？我应该按月收费还是按转化收费？我需要从中赚很多钱来支持我的学费。    由   提交 /u/Impossible_Fee_6217   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1se2p3p/outreaching/</guid>
+      <pubDate>Mon, 06 Apr 2026 15:50:16 GMT</pubDate>
+    </item>
     <item>
       <title>每个人都痴迷于将所有内容存储在 localStorage 中？</title>
       <link>https://www.reddit.com/r/webdev/comments/1se0q22/whats_everyones_obsession_with_storing_everything/</link>
       <description><![CDATA[别再把 localStorage 当作无底洞了！！  这是我的第三个雇主，我正在处理由 QuotaExceededError（DOM 异常 22）引起的生产中断，令人难以置信的是，这是可以避免的。开发人员不断挖掘这个坟墓，因为他们将客户端存储视为免费的房地产。事实并非如此。这是一个严格有限的资源，大部分内容都被塞在那里，比如用于“图像缓存”的大量 Base64 字符串。或臃肿的分析对象根本不属于那里。 如果您在每次渲染时存储整个 LaunchDarkly 对象或在 localStorage 中堆积 Snowplow 事件，那么您正在构建一个定时炸弹。它不是“免费”的。只是因为方便。为了懒惰的架构，您实际上正在破坏您的应用程序。 今天花一点时间，让您的 AI 代理用 try-catch 块包装您的 setItem ，这样您就不会在达到限制时使整个应用程序崩溃。更好的是，将 SessionStorage 用于不需要比选项卡寿命更长的数据，或者如果您确实需要处理大型数据集，则迁移到 IndexedDB。停止将浏览器视为垃圾场，并开始尊重平台的限制。    由   提交 /u/sjltwo-v10   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1se0q22/whats_everyones_obsession_with_storing_everything/</guid>
       <pubDate>Mon, 06 Apr 2026 14:38:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作免费壁纸 API，无速率限制</title>
-      <link>https://www.reddit.com/r/webdev/comments/1se0h6b/made_free_wallpaper_api_with_no_rate_limit/</link>
-      <description><![CDATA[厌倦了需要 API 密钥、速率限制或奇怪限制的壁纸 API。 所以我构建了自己的。 • 无身份验证 • 无速率限制 • 直接图像 URL • 基于类别的 JSON 您可以立即获取并使用。 Github（文档）： https://github.com/avinaxhroy/Vanderwaals-API 快速尝试： https://vanderwaalsapi.2626688.xyz/catalog/index.json 当前状态：1800+壁纸（将添加更多壁纸）   由   提交 /u/MrStevenOFC   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1se0h6b/made_free_wallpaper_api_with_no_rate_limit/</guid>
-      <pubDate>Mon, 06 Apr 2026 14:29:20 GMT</pubDate>
     </item>
     <item>
       <title>Figma 至网站：项目 4</title>
@@ -46,69 +109,6 @@
       <description><![CDATA[现在，S3 中的图像通过 Vercel Image Optimization 提供。成本不一致，一直是我们面临的一个主要问题。视频位于直接提供的单独存储桶中。我们没有 DAM 层。这是内容团队在需要新裁剪或不同尺寸时向开发人员发送电子邮件的常见设置。 我们专门考虑了以下用于视频的数字资产管理软件。  ​Cloudinary 可以处理图像和视频，很好的 API。但定价模式令人困惑，文件会被存储。我们认为，由于我们的图像量，它可能会变得昂贵。 ​Mux 似乎非常适合视频，但它不是 DAM，这意味着我们必须单独解决图像方面的问题。 ​Cloudflare Images 似乎很适合图像，但除了基本交付之外，没有真正的视频故事。  ​Scaleflex 似乎可以在单个 DAM 加 CDN 层下处理图像和视频。与云无关，因此文件保留在 S3 中。但视频是基本转换，而不是自适应流媒体。 ​为这两个问题选择一种工具实际上是正确的架构，还是使用单独的工具提供图像 CDN 和视频传输服务更好？    由   提交 /u/EffectiveCurious5889   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1sdywee/what_are_you_running_for_mixed_media_on_a/</guid>
       <pubDate>Mon, 06 Apr 2026 13:29:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个 SaaS，其中 AI 代理对数据源进行编目，但在架构上无法访问敏感列 - 寻找诚实的第一印象</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sdxw9h/built_a_saas_where_an_ai_agent_catalogs_data/</link>
-      <description><![CDATA[ 嘿 r/webdev，独立开发人员在这里寻求反馈。  我一直在构建 Harbinger Explorer — 一个 AI 代理，可以帮助您快速理解 API 和数据文件。将其指向文档，它会发现端点。上传 CSV/JSON/Parquet/Excel，它会对它们进行编目。用自然语言或 SQL 提出问题。 我希望得到意见的部分是：治理融入到代理的工作方式中。您可以在 PII 检测后设置每列敏感度规则，并且代理在过滤视图上运行。排除的列根本不会传递给模型。 BYOK，所以你也可以选择你的 AI 提供商。 我之所以构建这个，是因为我接触过的大多数团队在没有这些保证的情况下不会在真实数据上使用 AI。但我可能是错的——也许人们并不像我想象的那么在乎。 如果你检查一下，我会欣赏诚实的印象：  治理角度是否能引起共鸣，还是“没有人付费就好”？ 对产品的第一印象？ 你会采取什么不同的做法？  harbingerexplorer.com — 免费套餐，无附加条件。欢迎残酷的诚实。   由   提交 /u/St0nksGoDown   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sdxw9h/built_a_saas_where_an_ai_agent_catalogs_data/</guid>
-      <pubDate>Mon, 06 Apr 2026 12:47:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>这太疯狂了——LinkedIn 非法搜索你的电脑</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sdxbiv/this_shit_ist_crazy_linkedin_is_illegally/</link>
-      <description><![CDATA[https://browsergate.eu   由   提交/u/princessinsomnia  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sdxbiv/this_shit_ist_crazy_linkedin_is_illegally/</guid>
-      <pubDate>Mon, 06 Apr 2026 12:21:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>为一个从未交付的网站支付了全额费用——开发人员却保持沉默。寻求建议和可能的帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sdx4s0/paid_in_full_for_a_website_that_was_never/</link>
-      <description><![CDATA[大家好， 我是摩洛哥一家小型建筑可视化工作室 (Parallax Stud.io) 的创始人。我有一个由当地开发人员构建的网站 - 支付了全额费用（12,500 MAD ≈ 1,200 美元） - 并且该网站从未正式部署。开发人员现已完全停止回复我的消息。 该网站是使用自定义代码（无头架构、WordPress 后端）构建的，目前位于暂存环境中：https://staging.parallax-stud.io/fr 情况如下： - 该网站在质量和质量方面可能已完成 50%功能 - 有许多错误：损坏的联系表单、缺少画廊项目、损坏的双语系统、非功能性链接、后台保存未反映在前端等等 - 我无法访问代码库，没有存储库，什么都没有 - 开发人员自己构建了所有内容，我对所做的内容没有技术控制 - 我已将所有内容记录在详细的 7 页审查文档中，多次发送给开发人员 - 没有回复 - 我已发送正式的 mise en demeure（法律通知）- 仍然没有回复 这个网站对我的业务绝对至关重要。我的目标客户是欧洲建筑公司，如果没有适当的在线服务，我就无法接触到客户。我感觉完全被我无法控制的情况所束缚，这影响了我前进的能力。 我想弄清楚的是：  新开发人员是否有可能在不访问原始代码库的情况下选择自定义编码的网站？ 在 WordPress 中从头开始重建，使用临时网站作为视觉效果是否更有意义？参考一下？ 有人遇到过类似的情况吗？您在法律上或技术上是如何处理的？  我没有太多预算 - 我已经为我没有收到的东西支付过一次费用，所以我正在寻找一条现实且具有成本效益的前进道路。真诚欢迎任何意见、推荐或提供帮助。 提前致谢。   由   提交 /u/Stunning-Astronaut72   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sdx4s0/paid_in_full_for_a_website_that_was_never/</guid>
-      <pubDate>Mon, 06 Apr 2026 12:13:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何处理多个第三方 API 而又不让后端变得混乱？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sdvbso/how_do_you_handle_multiple_thirdparty_apis/</link>
-      <description><![CDATA[大家好 我最近一直在做一个业余项目，在集成多个外部 API 时遇到了一些困难。 一开始还好，但是一旦添加第二个或第三个提供商，事情就开始变得混乱 — 不同的请求格式、身份验证方法、定价模型和大量重复的逻辑。 这也使得切换提供商或测试替代方案比我预期的更痛苦。 很好奇你们如何处理这个问题： * 为了让事情变得简单，你们只坚持使用一个提供商吗？ * 你们构建自己的抽象层吗？ * 您如何处理中断或提供商停机？ 感觉像是一个常见问题，但我没有看到它经常被讨论。 很想听听你们的方法。   由   提交 /u/Minimum-Wave4241   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sdvbso/how_do_you_handle_multiple_thirdparty_apis/</guid>
-      <pubDate>Mon, 06 Apr 2026 10:44:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要您对建立像 atclive.net 这样的网站的意见</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sdv6z5/need_your_opinion_on_building_a_site_like/</link>
-      <description><![CDATA[https://www.liveatc.net/ 大家好，我需要你们对建立一个 liveatc.net 网站的成本有多少意见 该平台必须处理 500 到 2000 个用户流量。 我只想知道实际的成本数字。 提前致谢。   由   提交/u/_TooToo   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sdv6z5/need_your_opinion_on_building_a_site_like/</guid>
-      <pubDate>Mon, 06 Apr 2026 10:36:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>ÑGSConsole 5xx WP 核心文件错误</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sdv6v2/ñgsconsole_5xx_errors_with_wp_core_files/</link>
-      <description><![CDATA[我的搜索控制台在今年的特定日期后开始显示数百个 5xx 错误。 我使用电子表格记录我在网站上执行的所有更改和更新，并且我能够跟踪我那天所做的事情...这个特定日期 (7-9-2024) 与我那天匹配： a) - 卸载 WP Fastest Cache b) - 安装并试验了 Autoptimize 和 Async 插件（试图获得更好的页面速度结果）。 c) - 在 Cpanel 上激活了 NGIX 服务器缓存  我无法获得更好的页面速度结果:(但是 5xx 错误从今天起两天后开始出现，并在接下来的几天里不断上升... 我收到错误的文件是目录文件（库）等） - 我认为Google机器人不应抓取的特定文件，例如： /wp-includes/block-supports/block-style-variations.php /wp-includes/sodium_compat/namespaced/Core/Curve25519/H.php /wp-includes/Requests/src/Exception/Http/Status504.php 另外： 在这个精确的日期，同时，非索引页面的数量从大约 300 个（关于标签和内容等薄内容页面）增加到大约 9000 个页面（并且还在上升），包括 /wp-includes/ 和 /wp-content/ 页面... 可能的解决方案： 1 卸载插件（一个月后），但问题仍然存在仍然存在。 （假设问题是由这些插件之一引起的，如果卸载和删除它们不应该解决问题？） 2  我已经与我的托管公司交谈过，他们建议更改 htacess 文件以合并一行以保持目录隐藏 - 我已经这样做了，但是当我尝试访问这些文件时，我从 GSC 获得，例如(….site/wp-includes/block-supports/block-style-variations.php)，我仍然收到 5xx 错误...  我已经尝试验证此错误两次（在 GSearchConsole 上），我担心第三次问题未解决会将其永久标记为持久错误（不知道我在哪里读到此内容🤔，但我有点担心...） 以前有人遇到过此问题吗？我已经看到了一些有关类似问题的答案，但没有具体的答案如何解决该问题... 非常感谢您提供帮助。   /u/mreishhh   [链接]   href=&quot;https://www.reddit.com/r/webdev/comments/1sdv6v2/ñgsconsole_5xx_errors_with_wp_core_files/&quot;&gt;[评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sdv6v2/ñgsconsole_5xx_errors_with_wp_core_files/</guid>
-      <pubDate>Mon, 06 Apr 2026 10:36:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在没有 API 的情况下从证券交易所获取实时数据？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sduzt4/how_do_you_fetch_live_data_from_a_stocks_exchange/</link>
-      <description><![CDATA[证券交易所不提供api，你是实时抓取数据还是使用其他什么选项？   由   提交 /u/AppressivePea4161   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sduzt4/how_do_you_fetch_live_data_from_a_stocks_exchange/</guid>
-      <pubDate>Mon, 06 Apr 2026 10:25:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>FontAwesome 的更好选择？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sduv9a/better_option_to_fontawesome/</link>
-      <description><![CDATA[在工作中我们使用 FontAwesome，但我发现出现了一些烦人的问题，只是想看看是否有更好的选择。 React (Vite)、TS 和 FontAwesome6。 我之前在 Angular 中使用了 FA，我们可以只使用 CDN 链接。使用 React，我们似乎需要安装带有图标的包，然后导入每个组件所需的图标等 这有时会导致我们的构建出现问题，包括构建缓慢，如果 FA 关闭，我们的构建不会通过（当然）。 我开始使用 FA 是因为我在 Angular 中的经验，这意味着我们的图标有一致的基础。并且图标本身需要更少的编辑才能与字体一起使用。 重要的部分是确保图标相对于文本缩放，并且我们可以拥有大量不同图标以及自定义图标的来源。 有什么建议吗？或者我被 FontAwesome 困住了？除非其他人知道在 React 中处理 FontAwesome 的更好方法... 编辑添加：如果你使用 Lucide/MDI，你如何处理自定义图标？   由   提交 /u/Pixiegrowler   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sduv9a/better_option_to_fontawesome/</guid>
-      <pubDate>Mon, 06 Apr 2026 10:18:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立了“蝙蝠计算机”模拟。希望得到一些诚实的反馈。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sdusn2/built_a_batcomputer_simulation_would_love_some/</link>
-      <description><![CDATA[    https://preview.redd.it/mmgfm1r3pjtg1.png?width=702&amp;format=png&amp;auto=webp&amp;s=43ad8c8a128b53d415ec3121447c65591d641360 我构建了一个小型网络应用程序/浏览器项目，试图重新创建蝙蝠电脑体验。因此用户会感觉自己是蝙蝠侠团队的一员。  您可以在这里尝试：https://studio--studio-3921546282-8adc8.us-central1.hosted.app/ 我想将焦点从视觉扩展到实际交互，并且需要一些反馈。目前它还很小，但我一直在考虑一些想法： - 侦探式调查游戏 - 知识/数据库系统 - 基于任务的交互 - 命令控制台功能 希望得到任何反馈，无论是关于用户界面、概念还是功能。   由   提交 /u/TwosDaTraveller   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sdusn2/built_a_batcomputer_simulation_would_love_some/</guid>
-      <pubDate>Mon, 06 Apr 2026 10:14:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
