@@ -4,7 +4,91 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 07 Apr 2026 13:11:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 16:10:03 GMT</lastBuildDate>
+    <item>
+      <title>LinkedRecords 现已获得 MIT 许可</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sezlt5/linkedrecords_is_now_mitlicensed/</link>
+      <description><![CDATA[       由   提交/u/WolfOliver  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sezlt5/linkedrecords_is_now_mitlicensed/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:41:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发商店考虑与大麻/THCA 电子商务客户合作</title>
+      <link>https://www.reddit.com/r/webdev/comments/1seyun8/dev_shop_considering_working_with_hempthca/</link>
+      <description><![CDATA[地点：纽约 大家好， 我们是一家位于纽约州纽约市的精品开发商店，致力于开发网络应用程序和工具，我们正在考虑与一位潜在客户合作，该客户拥有 THCA/大麻业务的电子商务网站。如果我们继续前进，我们将严格处理技术开发——站点维护、供应商入职系统、客户支持工具——同时将所有合规性、财务处理和运营决策留给客户。我们希望确保在法律上保护自己，因为这是一个高风险领域。 有人与类似行业的客户建立过这样的纯技术关系吗？我们应该注意什么或在我们的协议中包含哪些内容以确保我们得到保障？希望听到任何建议或经验！谢谢！   由   提交/u/jett2k69  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1seyun8/dev_shop_considering_working_with_hempthca/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:14:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>徽标隐私建设者训练营</title>
+      <link>https://www.reddit.com/r/webdev/comments/1seye9v/logos_privacy_builders_bootcamp/</link>
+      <description><![CDATA[       由   提交/u/Calm_hands  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1seye9v/logos_privacy_builders_bootcamp/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:58:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用特定于存储库的上下文改进编码代理</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sey9xc/improving_coding_agents_with_repospecific_context/</link>
+      <description><![CDATA[我们是 Codeset 背后的团队。几周前，我们发布的结果显示，从存储库的 git 历史记录中提供 Claude Code 结构化上下文可以将任务解决率提高 7-10 个百分点。我们刚刚在 OpenAI Codex (GPT-5.4) 上运行了相同的评估。 数字：  codeset-gym-python（150 个任务，与 Claude 评估相同的子集）：60.7% → 66% (+5.3pp) SWE-Bench Pro（400 个随机采样任务）： 56.5% → 58.5% (+2pp)  两个基准的持续改进，与我们在 Claude 上看到的一致。 SWE-Bench 的增量小于 codeset-gym 上的增量。 codeset-gym 基准测试是我们的，因此如果您想验证方法，完整的任务列表和验证程序是公开的。 Codeset 的作用：它在您的 git 历史记录上运行管道并生成直接存在于您的存储库中的文件 - 每个文件过去的错误及其根本原因、已知陷阱、共同更改关系、测试清单。代理将它们作为其正常上下文窗口的一部分读取。没有 RAG，查询时没有矢量数据库，没有运行时基础设施。您的代理仅像存储库中的任何其他文件一样选取静态文件。 完整的评估工件位于 https://github.com/codeset-ai/codeset-release-evals。 每个存储库一次性 5 美元。使用代码 CODESETLAUNCH 进行免费试用。很高兴回答有关方法或管道工作原理的问题。 了解更多信息，请访问 https://codeset.ai/blog/improving-openai-codex-with-codeset   由   提交 /u/PT_ANDRE_PT   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sey9xc/improving_coding_agents_with_repospecific_context/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:53:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们面临着艾希特化吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sey603/are_we_facing_aishitification/</link>
+      <description><![CDATA[只是在这里咆哮😬 我刚刚升级了 Cursor（它应该是一个代码编辑器），现在文件浏览器是第二个公民功能：它隐藏在右侧选项卡中，现在文件最多占据屏幕的 25%。我觉得它不再是一个代码编辑器了，我正在切换回 VSCode。  Arc 和 Dia 存在同样的问题。喜欢 Arc，尝试切换到 Dia，从一个糟糕的 LLM 那里得到了 10 秒的响应，而搜索引擎可以在 300 毫秒内回答，然后又回到 Arc（未维护）。  我非常喜欢人工智能，但是这些拥有出色产品的公司怎么会这样失败呢？    由   提交 /u/Srammmy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sey603/are_we_facing_aishitification/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:49:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年最佳链接建设服务 — SaaS、代理商和内容品牌测试列表</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sexxqg/best_link_building_services_in_2026_tested_list/</link>
+      <description><![CDATA[ 由   提交/u/srikar_tech  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sexxqg/best_link_building_services_in_2026_tested_list/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:41:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>进军欧盟/美国市场：WordPress 仍然是王者吗？Nuxt/React 的地位如何？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sexphm/scaling_to_euus_market_is_wordpress_still_the/</link>
+      <description><![CDATA[大家好！ 我是 Oleksii，过去 3 年我一直在乌克兰经营一家数字代理机构。我们已经在本地建立了很多定制项目，现在我们正在寻求向欧洲和美国市场扩展和扩展。 当我分析形势时，我注意到一些看起来有点令人费解的事情，我很想听听您的想法，看看我的看法是对还是错：  “Wordpress 陷阱”：为什么抵制现代解决方案？  来自在我们优先考虑干净代码、性能和安全性的背景下，我很好奇为什么西方这么多企业仍然坚持使用 WordPress 作为默认设置。即使对于需要可扩展性的中型项目，WP 通常也是首选。仅仅是庞大的插件生态系统，还是客户真正担心转向更现代、更快、更安全的 Headless CMS 解决方案？  框架采用：React 与 Nuxt 的实际情况？  我们与两者都有大量合作，但我正在尝试衡量目前欧盟和美国生产级项目实际上更需要什么。您是否认为 SaaS 或企业级 Web 应用程序的某个生态系统增长得更快，还是根据团队的偏好严格按照 50/50 的比例？ 我很想了解一些“实地”情况来自开发商和机构所有者的见解。客户是否开始关心技术堆栈，或者是“好旧的 WordPress”？对于大多数人来说仍然被认为是最安全的选择？ P.S.请原谅我的英语。我来自乌克兰，我仍在学习该语言。如果您在我的帖子中发现任何错误，请随时直接纠正我 - 我将非常感激，因为它有助于我改进！ 期待精彩的讨论！   由   提交/u/oleksii_kostunov  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sexphm/scaling_to_euus_market_is_wordpress_still_the/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:32:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们的应用程序现在有大约 400 位用户，在分析了数千个练习对话后，我们注意到一些非常有趣的事情</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sexeaf/weve_got_about_400_users_on_our_app_now_and_after/</link>
+      <description><![CDATA[在求职面试、大学招生和咨询案例准备方面：  第二次练习后，用户进步了约 35% 第三次练习后，进步跃升至 85%+  这确实让我们大吃一惊。 它告诉我们两件事：  产品有效，使用它的人看到了真正的、可衡量的改进 当用户持续参与时，结果非常全面  但挑战是： 即使采用付费广告和不同的分发工作，我们也没有像我们预期的结果那样转化尽可能多的用户。感觉我们瞄准了正确的地方，但我们只是没有以我们需要的方式接触或激活人们。 所以我很好奇，对于那些以前来过这里的人来说： 在以下情况下，您的最佳分销技巧是什么：  您知道您的产品可以带来价值 参与的用户会获得很好的结果 但渠道顶部/转化仍然如此不是您想要的位置    由   提交/u/Significant-Gap-5787   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sexeaf/weve_got_about_400_users_on_our_app_now_and_after/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:21:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>您见过哪些最好看的仪表板？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sexd8d/what_are_some_of_the_best_looking_dashboards_you/</link>
+      <description><![CDATA[不仅美观，而且实际上不会令人困惑，而且使用起来非常简单。    由   提交/u/Roximer  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sexd8d/what_are_some_of_the_best_looking_dashboards_you/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:20:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>你无法取消 JavaScript 承诺（除非有时可以）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sew9qe/you_cant_cancel_a_javascript_promise_except/</link>
+      <description><![CDATA[       由   提交 /u/aardvark_lizard   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sew9qe/you_cant_cancel_a_javascript_promise_except/</guid>
+      <pubDate>Tue, 07 Apr 2026 13:38:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>F75 与 F87 机械键盘</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sew7wi/f75_vs_f87_mechanical_keyboard/</link>
+      <description><![CDATA[大家好，请问社区您最喜欢的键盘 75% 或 87% 是什么？我的意思是，就编码而言，两者之间哪一个更好？我有点困惑，我最近买了一个 F87 键盘，但我有一种感觉，我想切换回 F75，因为我的第一个机械键盘是 F75。 F75 近年来在开发界非常流行   由   提交/u/Totoro-Caelum   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sew7wi/f75_vs_f87_mechanical_keyboard/</guid>
+      <pubDate>Tue, 07 Apr 2026 13:36:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>社区制作的交互式地图</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sevnem/community_made_interactive_maps/</link>
+      <description><![CDATA[我有一个大学项目，要制作一个交互式媒体工具，我正在尝试如何制作一个类似于“wplace.live”或“queering the map”的地图，但我真的不知道如何去做。创建此内容的任何建议或工具   由   提交/u/donnhe   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sevnem/community_made_interactive_maps/</guid>
+      <pubDate>Tue, 07 Apr 2026 13:14:15 GMT</pubDate>
+    </item>
     <item>
       <title>关于剧作家 js 与 cypress 的对话实际上发生了变化还是同样的老争论？</title>
       <link>https://www.reddit.com/r/webdev/comments/1seuw60/has_the_conversation_about_playwright_js_vs/</link>
@@ -25,90 +109,6 @@
       <description><![CDATA[]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1sett3u/skipping_10_years_of_frontend_angularjs_15_to/</guid>
       <pubDate>Tue, 07 Apr 2026 11:55:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Humans Map，一种使用 Wikidata 包含超过 300 万个实体的交互式图形可视化。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1setjur/humans_map_an_interactive_graph_visualization/</link>
-      <description><![CDATA[由于我对探索已知人物之间的联系的热情而构建此项目，现在数据包括来自欧盟、美国和加拿大的实体。我还建立了一个问答游戏部分来认识/探索新朋友并发现事实。最适合桌面使用。 使用的技术： - ArangoDB，因为它原生用于图形遍历，非常适合存储 Wikidata 格式样式 - 后端 API Python，带有 FastAPI，众所周知且稳定的库 - 前端 Vue 3 + Vite，足够快速和稳定 - Cytoscape.js，用于图形可视化、遍历和动画 - Redis，用于缓存频繁的人请求和游戏维基数据和维基共享资源被用作数据源。希望您能发现有趣并快速探索图表，如果您有功能、改进或发现错误，请告诉我（网站“关于”部分还有一个报告按钮）。这个网络应用程序对我来说看起来很有趣，但我正在寻找扩展显示的连接类型的方法。   由   提交/u/im4lwaysthinking  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1setjur/humans_map_an_interactive_graph_visualization/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:42:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站/内容审查工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1set8kb/tool_for_website_content_reviews/</link>
-      <description><![CDATA[人们倾向于使用什么来与客户进行网站评论？ 我目前正在进行的项目，我正在与带有注释的 PDF 文档（由于某种原因并不总是显示完整的注释）、对 Adobe xd 文件的注释、Figma 中的注释以及一个带有屏幕截图的该死的 Word 文档进行斗争。 我知道有一些可用的选项，但它不是什么东西我有这方面的经验。 有人推荐网站/利益相关者审查工具吗？我更喜欢与站点无关的（JavaScript 库中的一个下降，或者使用 iframe 的站点，类似的东西），因为项目可以跨越各种平台和语言，一些是静态的，一些是 CMS 驱动的。   由   提交/u/dark-hippo   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1set8kb/tool_for_website_content_reviews/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:27:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要托管网络应用程序的帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sesrfa/need_help_with_hosting_a_web_app/</link>
-      <description><![CDATA[我不知道这是否是发布此内容的正确子。我已经构建了一个带有 golang 后端、React js 前端和用于数据库的 postgresql 的应用程序。我想以最低的费用托管它，因为我是一名学生。我已经购买了一个在 git 上上传该项目的域名。 我需要托管租赁方面的帮助，以了解吊装服务应该做什么我使用？我正在尝试使用render.com，因为它有一个有限的免费套餐，只是为了测试它，但我需要一个永久的解决方案。   由   提交/u/Lost-Ad-259  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sesrfa/need_help_with_hosting_a_web_app/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:03:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们花了3天的时间比较了STT API，并使用这个工具进行了比较</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sesh8c/we_spent_3_days_comparing_stt_apis_and_used_this/</link>
-      <description><![CDATA[我正在评估 Deepgram、AssemblyAI 和 Gladia 的语音功能。这三个人的数字看起来都很相似。每个提供商都声称拥有一流的 WER。 Gladia 开源了他们的基准方法，但对于 Deepgram 和 AssemblyAI，必须进行比较。 然后遇到了 https://compare-stt.com/。它对您的音频进行盲 A/B 比较，与聊天机器人 Arena 的概念相同，但用于语音到文本。 我的用例结果与营销页面建议的结果有很大不同。 有人使用过这个工具吗？   由   提交/u/dikshamishra34  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sesh8c/we_spent_3_days_comparing_stt_apis_and_used_this/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:48:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>最近几个网站出现奇怪的大规模流量峰值</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sese8r/recent_strange_massive_traffic_spikes_across/</link>
-      <description><![CDATA[多年来，我一直在通过自己的小机构建立网站，并作为剑桥大学的兼职 Web 开发人员。我目前总共是大约 20 个网站的维护者。其中，其中 3 个在过去一两个月内发生过同类事件。 在每种情况下，该网站都会在大约 1-2 天内获得大量流量；我们说的是正常流量的 20 倍 - 200 倍，而且不是有机/真实流量。 当我和我的网络托管服务商调查它们时，我们发现了一些迹象，表明这些流量来自分布在全球的虚拟服务器/机器人。其中包括奇怪的视口大小（800×600）、一致且不寻常的用户代理字符串，以及来自我们网站流量通常几乎为零的国家/地区的流量（例如巴西）。 起初我认为这些可能是 DDOS 攻击，但它们都很容易阻止（不像 DDOS 攻击那样持久且具有创造性），并且通常在一两天后自行结束。 我的网络托管支持人员和我都认为这更有可能是由编码错误（vibe 编码？）的爬虫机器人。我正在做更多调查，看看情况是否属实。 您最近遇到过这样的流量高峰吗？如果是这样，您是否设法找出原因/来源？   由   提交 /u/Droces   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sese8r/recent_strange_massive_traffic_spikes_across/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:43:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>解析，不验证 — 使用一种不希望您这样做的语言 · cekrem.github.io</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sesbt6/parse_dont_validate_in_a_language_that_doesnt/</link>
-      <description><![CDATA[       由   提交 /u/cekrem   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sesbt6/parse_dont_validate_in_a_language_that_doesnt/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:40:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>花费更多时间寻找用户而不是构建实际产品。这个比例感觉不对，直到我意识到事实并非如此。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1serx7t/spent_more_time_finding_users_than_building_the/</link>
-      <description><![CDATA[交付了我想要存在一段时间的东西。体面的代码，真正的问题，没有用户。标准故事。 接下来的几周是这样的：打开 Reddit，手动搜索描述我的东西解决的确切问题的人，过滤掉噪音，找到一两个真正匹配的帖子，写一个不像推销的回复，明天重复。每一天。 让我疲惫不堪的并不是回复。这就是搜索。大部分浮现出来的是邻近的噪音。有人在他们已经离开后发泄。有人提出与实际购买意图无关的表面问题。有时，有人正在做决定，积极比较各种选择，显然已经准备好谈话了。这些帖子确实存在，但它们分散在十几个 Reddit 子版块中，而且很快就冷掉了。 最终我停止了手动操作，而是构建了一些东西来处理监控和评分方面的问题。该部分现在在后台运行。实际的外展工作仍然是我自己做的。 没有抱怨，这部分建筑确实很有趣。但很好奇这里其他人的分裂是什么样的。您现在有多少时间用于产品而不是寻找需要它的人？   由   提交 /u/Confident_Box_4545   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1serx7t/spent_more_time_finding_users_than_building_the/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:17:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 Fabric.js + React 为 App Store 屏幕截图构建了一个类似 Figma 的画布编辑器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1serohj/i_built_a_figmalike_canvas_editor_for_app_store/</link>
-      <description><![CDATA[分享我构建基于浏览器的设计工具的经验： Stack： - 用于画布的 Fabric.js（文本、形状、图像、设备模型） - 用于状态管理的 React + Zustand - 用于后端的 Appwrite（身份验证、数据库、存储） - AI 驱动的翻译（Claude 通过 OpenRouter） - 用于 webhook 的 Vercel 无服务器 最大的挑战： 1. 许多对象的画布性能 — 通过以下方式解决延迟页面渲染 2. 跨语言字体渲染 — CJK、阿拉伯语、泰语的行为都不同 3. 使用复杂的画布状态撤消/重做 — 基于快照的历史堆栈 4. 实时翻译预览，无需重新渲染所有内容 结果：shotlingo.com — 设计 App Store 屏幕截图并翻译为 40 多种语言。乐于深入研究任何技术方面。    由   提交 /u/Natural_Win_9904   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1serohj/i_built_a_figmalike_canvas_editor_for_app_store/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:04:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>第一次订阅卡在“等待审核”/“审核中”之间，应用程序版本仍然“准备提交”一个多月😫</title>
-      <link>https://www.reddit.com/r/webdev/comments/1serm1y/first_subscription_stuck_between_waiting_for/</link>
-      <description><![CDATA[我正在处理 App Store Connect 订阅审核状态卡住的问题，Apple 开发者支持已经有一个多月没有解决该问题了。 当前情况： - 首次自动续订订阅 - 原始支持案例开启：2026 年 2 月 27 日 - Apple 表示首次订阅必须与应用版本一起提交 - 我已经了解该流程 实际问题： - 应用版本 1.0.10 仍处于“准备提交” - 之前的 1.0.10 提交显示为“已删除” - 1.0.10 没有有效的应用审核提交 - 订阅之前陷入“等待审核” -现在订阅本身显示“正在审核” - 但其本地化仍然显示“等待审核” - 应用程序版本仍未链接并保持在“准备提交” 因此当前状态似乎不一致： - 没有活动的应用程序审核提交 - 应用程序版本仍处于草稿 - 订阅无论如何都部分进入审核 Apple 开发者支持最初一直重复该标准“首次订阅必须与应用程序版本一起提交”说明，这并没有解决实际的卡住状态。 该事件后来在内部升级，但仍然没有有意义的更新。 问题：  有人有第一次订阅卡这么久的情况吗？ Apple 最终是否手动修复了该问题？ 您是否必须放弃草稿版本、创建新的应用版本，或者完全创建一个新应用？ 如果您的案例得到解决，App Store Connect 中首先更改的到底是什么？  我目前不是在寻找标准提交说明。我试图了解这是否是一个已知的 App Store Connect 卡住状态问题以及其他人的实际解决路径是什么样的。   由   提交/u/Diligent_Activity995  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1serm1y/first_subscription_stuck_between_waiting_for/</guid>
-      <pubDate>Tue, 07 Apr 2026 10:00:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能爬虫现在正在吞噬我的暂存带宽，而且日志很愚蠢</title>
-      <link>https://www.reddit.com/r/webdev/comments/1serjad/ai_crawlers_are_chewing_through_my_staging/</link>
-      <description><![CDATA[我预计产品上的爬虫流量很好。公共营销页面、文档等等。让我措手不及的是，一个小型 SaaS 受到了足够严重的打击，它甚至在出现在应用程序指标中之前就出现在账单和日志量上 在出现一些奇怪的出口峰值后，我提取了一周的服务器日志。最终在 7 天内收到了大约 130 万个请求，传输了大约 410 GB，对于通常用于 QA、预览和偶尔凌晨 2 点“我们可以在部署之前检查一下”的环境来说，额外的带宽/日志存储花费了不到 48 美元。恐慌，其中大约 78% 是一些爬虫 UA 主要攻击 JS 包、源映射、JSON 端点和旧的预览 URL，除了实际的浏览器之外，其他任何东西都不应该对这些内容感兴趣。一个 IP 范围每隔几秒就不断地访问相同的哈希资产路径，这太荒谬了 让我烦恼的甚至不是钱。其不对称性。大平台，这是后台静态的。小团队，舞台是所有管道胶带所在的地方，突然之间，一些机器人农场将其视为计量公用事业，并“阻止它们”听起来很容易，直到他们忽略爬行礼仪，轮换IP，并隐藏在所有的身份验证/预览怪异中，直到日志已经膨胀，你才注意到，现在你正在为无意义的东西付出代价 我更努力地锁定身份验证，杀死公共预览链接，添加边缘速率限制，拒绝明显的爬虫签名，立即下降。所以是的，我认为默认开放分期现在是一个糟糕的假设。如果它公开解决，就会有东西找到它，如果它找到了它，它就会坐在那里吸收资产，就像你的非生产环境欠它租金一样 还有其他人看到这些东西的实际成本吗？   由   提交 /u/NeedleworkerLumpy907   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1serjad/ai_crawlers_are_chewing_through_my_staging/</guid>
-      <pubDate>Tue, 07 Apr 2026 09:56:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我建立了一个诚实反馈的平台（匿名或公开）——会喜欢你的残酷想法！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1serb7c/i_built_a_platform_for_honest_feedback_anonymous/</link>
-      <description><![CDATA[嘿 Reddit！ 👋 我是卡迪尔。我刚刚推出了“Hevyir” – 我的第一个公共项目，是在人工智能工具（GitHub Copilot、用于调试的 ChatGPT，以及大量的试验和错误😅）的帮助下构建的。 想法： 我们经常犹豫是否要告诉朋友我们的真实想法。 Hevyir 是诚实沟通的一个小实验：人们可以匿名或以他们的名字分享对你的想法。您决定哪些内容保密，哪些内容公开。 ✨ 里面有什么： • 反馈墙：朋友写下对您的想法（匿名或命名）。 • Echo：“无主”空间。想法 – 说出一些不附加您身份的内容。 • 发现：浏览公开帖子，保存引起共鸣的内容。 • 100% 免费：无付费专区，无跟踪，只需连接。 🔗 尝试一下：https://hevyir-bafa9.web.app 我发帖的原因： 🔸 这是我的第一个真正的项目 - 我使用人工智能来帮助我编码，但每个设计选择和功能想法都是我的。 🔸 我需要残酷诚实的反馈：什么感觉笨重？有什么令人困惑的？您会添加什么？ 🔸 错误报告、用户体验想法，甚至“这个概念很奇怪”。 – 欢迎大家。 我正在公开学习，您的评论将真正帮助我成长。感谢您的浏览！ 🙏 （P.S. 如果您对我的 AI 工作流程或技术堆栈感到好奇，尽管询问 – 乐意分享！）   由   提交 /u/Fearless-Oil2866   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1serb7c/i_built_a_platform_for_honest_feedback_anonymous/</guid>
-      <pubDate>Tue, 07 Apr 2026 09:42:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何将会话绑定到特定设备？最好的方法是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ser95w/how_do_you_bind_session_to_a_specific_device_what/</link>
-      <description><![CDATA[一个会话到一台设备，它是如何做到的？ NAT后面的IP可以是相同的，UA可以是相同的，但是如果攻击者恰好是我的兄弟怎么办？  目前的做法是什么？   由   提交 /u/MousseMother   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ser95w/how_do_you_bind_session_to_a_specific_device_what/</guid>
-      <pubDate>Tue, 07 Apr 2026 09:39:12 GMT</pubDate>
     </item>
     </channel>
 </rss>

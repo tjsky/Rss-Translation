@@ -4,20 +4,48 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Tue, 07 Apr 2026 13:10:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 16:09:19 GMT</lastBuildDate>
+    <item>
+      <title>AWS Lens — 适用于 AWS + Terraform + 终端工作流程的桌面应用程序</title>
+      <link>https://www.reddit.com/r/software/comments/1sezejd/aws_lens_a_desktop_app_for_aws_terraform_terminal/</link>
+      <description><![CDATA[您好r/software， 我一直在开发一款名为 AWS Lens 的桌面应用程序。 我构建它是因为我厌倦了一遍又一遍地做同样的事情：打开 AWS 控制台来检查某些内容，跳转到 Terraform 以查看它是否已托管，打开终端来运行命令，切换账户或角色，失去上下文，重复。 AWS Lens 是我试图让该工作流程变得不那么烦人。 它将 AWS 探索、Terraform 工作、跨账户会话和终端访问集成到一个桌面应用程序中，这样您就可以在工作时保持在同一上下文中。 现在它包括： - 适用于 EC2、S3、EKS、ECS、Lambda、RDS、IAM 等内容的 AWS 服务视图， CloudWatch、CloudTrail 等 - Terraform 项目/工作区支持，包括漂移和状态相关的工作流程 - 用于假定角色目标和临时会话的会话中心 - 并行环境/帐户比较 - 遵循活动 AWS 上下文的嵌入式终端 - 用于应用程序管理的凭证和其他敏感数据的本地加密保管库 - 一些事件/可观察性我为操作员繁重的用例添加的工作流程 它并不是要取代 AWS 或 Terraform。重点只是为了让日常工作感觉不那么分散。 它是开源的，而且还处于早期阶段： https://github.com/BoraKostem/AWS-Lens 如果您经常在 AWS 中工作，我真的很想知道： - 您的工作流程的哪些部分仍然让人感觉不舒服碎片化 -桌面应用程序是否真的适合这个 -什么会让这样的东西真正有用，而不仅仅是“有趣” 希望得到诚实的反馈。   由   提交 /u/borakostem   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1sezejd/aws_lens_a_desktop_app_for_aws_terraform_terminal/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:34:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>EXE签名工具[PowerShell]</title>
+      <link>https://www.reddit.com/r/software/comments/1sez30y/exe_signing_tool_powershell/</link>
+      <description><![CDATA[看到这个人创建了一个基于 powershell GUI 的 Exe 签名软件。希望它对某人有用。   由   提交/u/SpecialWorldiness90  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1sez30y/exe_signing_tool_powershell/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:22:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个简单的 CLI 工具来清理凌乱的 CSV 文件</title>
+      <link>https://www.reddit.com/r/software/comments/1seyajk/i_built_a_simple_cli_tool_to_clean_messy_csv_files/</link>
+      <description><![CDATA[我构建了一个简单的 CLI 工具来清理凌乱的 CSV 文件。我一直遇到凌乱的 CSV 数据（空行、格式错误等），所以我制作了一个小型 Python CLI 工具来快速清理它。它删除空行/列、修剪空白并标准化列名称。如有任何反馈，我们将不胜感激。 https://github.com/JohnDoe177/Csv-fix-Cleaner   由   提交 /u/Informal-Spite-7805   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1seyajk/i_built_a_simple_cli_tool_to_clean_messy_csv_files/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:54:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开发了一个工具，使用淘汰评分将 ERP 选择时间从 6 个月缩短到 10 分钟</title>
+      <link>https://www.reddit.com/r/software/comments/1sewqfv/i_built_a_tool_that_cuts_erp_selection_from_6/</link>
+      <description><![CDATA[背景：我见过太多中型市场公司在 ERP 选择顾问上浪费 4-6 个月和 5 万美元以上的时间，结果却选择了一个在实施过程中失败的系统。行业失败率为 55-75%，大多数失败的发生是因为公司从第一天起就评估了错误的系统。  问题：传统的 ERP 选择是落后的。公司对 10 个系统中的 200 个功能进行评分，得出毫无意义的平均值，然后根据最佳演示或品牌认知度进行选择。与此同时，一个缺失的功能（多 GAAP 的并行账本、本地制造执行、内部部署）可能会在实施 8 个月后毁掉整个项目。  我构建的：一个使用淘汰赛评分的免费比较工具。它预先识别 5-10 个技术问题，消除无法在本地提供这些问题的系统，然后对剩下的进行排名。高级 ERP 顾问使用相同的方法，但自动化。  该工具在产品级别（不是供应商级别，因为仅 SAP 就有 4 个功能完全不同的不同 ERP）比较 10 个 ERP 产品。需要 10 分钟，立即生成结果，零供应商偏差  关键技术决策： - 产品级别比较而不是供应商级别（S/4HANA 公共云、私有云、业务中心、财务和 SCM） - 测试淘汰标准：多 GAAP 并行账本、部署模型、制造深度、云可扩展性、多实体管理、预算上限 - 无推荐费或供应商合作伙伴关系（仅来自可选高级报告的收入） 我在构建此过程中学到的知识： - 公司不需要 200 个功能的电子表格，他们需要知道什么会淘汰系统 - 正确的 ERP 产品与正确的供应商一样重要 - 三到四个淘汰通常会将候选名单从 6 个以上系统减少到 2-3 个真正的竞争者 技术堆栈：淘汰评分算法，产品级SAP（S/4HANA Public/Private、ByDesign、Business One）、Microsoft（D365 F&amp;SCM、Business Central）、Oracle（Cloud ERP、NetSuite）、Odoo 和 IFS 的功能映射。  当前状态：实时且免费使用。专为中端市场（50-2,000 名员工）而设计，但该方法适用于任何厌倦了供应商演示和有偏见的顾问的公司。  很高兴回答有关淘汰方法、为什么产品级别比较很重要或如何避免最常见的 ERP 选择错误的问题。  对于社区：您在选择 ERP 方面有什么经验？您是否见过公司因为没有及早识别交易破坏者而选择了错误的系统？   由   提交 /u/Comfortable_Place465   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1sewqfv/i_built_a_tool_that_cuts_erp_selection_from_6/</guid>
+      <pubDate>Tue, 07 Apr 2026 13:56:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>imgburn 给我的系统带来了病毒，我现在该怎么办？？？</title>
+      <link>https://www.reddit.com/r/software/comments/1sewky7/imgburn_gave_my_system_a_virus_what_do_i_do_now/</link>
+      <description><![CDATA[大家好 我非常愤怒地说我从 imgburn 的第一个镜像中感染了病毒 我有一台翻录电脑，配有蓝光刻录机/阅读器、DVD RW 刻录机和阅读器以及声卡，其主要目的是翻录数字和模拟媒体（乙烯基 CD、DVD、电影、蓝光）电影磁带等） 不久前，我遇到了卡拉 OK 的 cdg（CD 图形）光盘，所以我想使用 imgburn 撕下它 所以我进入网站并单击第一个镜像（我不知道它有一个安装程序给我广告软件） 在安装了我不想要的程序并卸载它们之后，我今天想用一些新设备撕下一些黑胶唱片 我正在录制 10 分钟，突然整个系统冻结了，然后我开始强制关闭电脑，重新启动任务系统后，我的 SSD 利用率达到 100%，使 SSD 变成硬盘 我到底该如何删除这个，我该怎么办？我不想重新安装 Windows，因为我花了一些时间来设置所有内容？ 谢谢！   由   提交/u/dogoyeetter69  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1sewky7/imgburn_gave_my_system_a_virus_what_do_i_do_now/</guid>
+      <pubDate>Tue, 07 Apr 2026 13:50:57 GMT</pubDate>
+    </item>
     <item>
       <title>构建了一个免费的开源 CI/CD 操作，可以直观地审核 AI 生成的代码并自主推送修复</title>
       <link>https://www.reddit.com/r/software/comments/1seuqgm/built_a_free_open_source_cicd_action_that/</link>
       <description><![CDATA[我们意识到 CI/CD 管道正在成为最大的瓶颈。 AI 代理只需几秒钟即可编写代码，但 PR 只是坐在那里等待有人手动启动应用程序并检查 UI。为了解决这个问题，我们构建了一个开源 GitHub Action。它直接插入您的 CI/CD 工作流程。当 PR 打开时，它会启动应用程序，打开一个真正的浏览器测试用户流程，如果发现损坏的 UI，则实际推送一个提交来修复代码。我们正在努力使持续集成与人工智能代码生成一样快。该存储库是公开的。 很想听听你们现在如何处理 QA 瓶颈。   由   提交/u/RabbitIntelligent308  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1seuqgm/built_a_free_open_source_cicd_action_that/</guid>
       <pubDate>Tue, 07 Apr 2026 12:36:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>是只有我一个人觉得，还是找到一个真正有效的人工智能工具变得不可能了？</title>
-      <link>https://www.reddit.com/r/software/comments/1setwmq/is_it_just_me_or_is_finding_an_ai_tool_that/</link>
-      <description><![CDATA[上周我一直在努力寻找一款不错的 AI 视频编辑器，不需要每月 50 美元的订阅或 20 页的“终极指南”。去理解。每个 Google 搜索都只是 SEO 垃圾邮件和充满弹出窗口的网站。 我终于偶然发现了一个实际上很干净的目录，而且感觉它不像每 5 秒就试图向我推销一些东西。实际上，我通过其“免费”类别找到了一个名为 Kling AI 的工具（或在此处插入另一个工具），我在任何“大”列表中都没有看到过该工具。 不确定我是否可以在此处发布链接，但它是“最受欢迎的 AI 工具”之一。网站，拥有按实际用例排序的 500 多个工具。 还有其他人找到任何其他干净的目录吗？我正在尝试构建一个工作流程，但又不会在炒作中失去理智。   由   提交 /u/Pure_Feeling4281   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1setwmq/is_it_just_me_or_is_finding_an_ai_tool_that/</guid>
-      <pubDate>Tue, 07 Apr 2026 11:59:58 GMT</pubDate>
     </item>
     <item>
       <title>Salesforce 社区管理员 – 您遇到的最大痛点是什么？</title>
@@ -81,34 +109,6 @@
       <description><![CDATA[我正在寻找一款流程图软件，您可以将隐藏节点（带有文本）链接在一起并一次显示它们。理想情况下，用户甚至无法看到链中当前显示的节点之后的项目。  具体来说，我的目标是制作一种成就树，人们在分支中找到当前目标之前不应该知道下一步是什么成就。理想情况下，他们甚至不知道还有多少物品需要寻找。他们还应该有多条可以走的路。  有什么想法吗？   由   提交/u/PartyBid3320   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1seh96y/looking_for_a_flowchart_software_with_certain/</guid>
       <pubDate>Tue, 07 Apr 2026 00:54:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为 AI 音乐许可构建了一个开放 API — 搜索曲目、购买许可证、以编程方式验证所有权（早期访问、待付款）</title>
-      <link>https://www.reddit.com/r/software/comments/1segvqn/i_built_an_open_api_for_ai_music_licensing_search/</link>
-      <description><![CDATA[ 由   提交 /u/loganbxdev   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1segvqn/i_built_an_open_api_for_ai_music_licensing_search/</guid>
-      <pubDate>Tue, 07 Apr 2026 00:38:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>我厌倦了手动执行 Microsoft Rewards，因此我花了几个月的时间构建一个桌面应用程序，以像人类一样自动化它</title>
-      <link>https://www.reddit.com/r/software/comments/1sef31o/i_got_tired_of_doing_microsoft_rewards_manually/</link>
-      <description><![CDATA[大家好！我是一名计算机科学二年级学生，我构建了一个完整打包的桌面应用程序来自动计算 Microsoft 奖励积分。我想制作一些实际上可以避免检测并具有干净 UI 的东西，而不仅仅是一个基本脚本。 我知道那里有很多基本的自动点击器，但我想制作一些实际上可以避免检测并具有干净 UI 的东西。 技术堆栈和技术堆栈特点：  核心逻辑：Python + Selenium。 UI：使用 pywebview (HTML/CSS/JS) 构建，具有原生桌面感觉。包括实时日志和历史记录选项卡。 算法：克隆您的本地 Edge 配置文件，以随机的类人延迟逐字输入查询，滚动页面以模拟阅读，并每 5 次搜索进行长时间休息。 真实搜索数据：本地数据库使用从 Google 趋势中提取的 3,428 个独特的真实搜索查询，使历史记录对于 Microsoft 的算法来说看起来 100% 自然 实时日志和历史记录：用户界面具有实时系统日志，以便您可以准确地看到机器人正在做什么，还有一个内置的历史记录选项卡，用于跟踪状态、日期和时间以及每次搜索的查询。 后台执行（隐藏浏览器模式）：您可以切换“隐藏浏览器”模式或“隐藏浏览器模式”。在 UI 中切换。该机器人将完全在后台运行，不会弹出窗口，因此不会中断您的实际工作。 测试：我已经在我的个人主帐户上运行了 6 个月，零问题。我还在多个替代帐户上进行了测试，只有一个帐户受到了临时限制，这证明了隐形逻辑在实践中确实有效。 打包：使用 PyInstaller 编译并将其打包到 Inno Setup 安装程序中，以绕过 Python 环境设置和 Windows 块  您可以在此处查看代码、更多信息、UI 演示和安装程序 GitHub 我很想听听您对代码架构或 UI 的反馈/提示   由   提交/u/18safarov  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1sef31o/i_got_tired_of_doing_microsoft_rewards_manually/</guid>
-      <pubDate>Mon, 06 Apr 2026 23:22:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kyoo v5 - 媒体服务器重写</title>
-      <link>https://www.reddit.com/r/software/comments/1see77x/kyoo_v5_media_server_rewrite/</link>
-      <description><![CDATA[ 由   提交 /u/Anonymus-Raccoon   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1see77x/kyoo_v5_media_server_rewrite/</guid>
-      <pubDate>Mon, 06 Apr 2026 22:46:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>tinytask 是否包含恶意软件并且是免费的吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1sec4nb/does_tinytask_contain_a_malware_and_is_it_free/</link>
-      <description><![CDATA[我问它是否有恶意软件，但我也想它是否包含付款   由   提交 /u/STOPBADRANDOMS   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1sec4nb/does_tinytask_contain_a_malware_and_is_it_free/</guid>
-      <pubDate>Mon, 06 Apr 2026 21:26:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
