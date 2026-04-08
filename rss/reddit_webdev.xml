@@ -4,34 +4,27 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 08 Apr 2026 02:00:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 05:09:55 GMT</lastBuildDate>
     <item>
-      <title>这是我在构建 30 多个网络、移动和人工智能项目后学到的东西</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sffby4/heres_what_i_learned_after_building_30_web_mobile/</link>
-      <description><![CDATA[我是一名全栈开发人员和前端主管，我经营着一家小型机构。多年来，我们已经构建了 30 多个网络、移动和人工智能项目，其中包括一些阿联酋政府项目。 我在此过程中学到的一些东西： 。不要强调“最新框架”，干净、简单的代码会获胜。 。良好的 UI/UX 不是可有可无的；它实际上决定了采用的成败。 。 AI 很神奇（我们使用 LangChain、LangGraph、Python），但前提是它能解决实际问题。 。通讯&gt;完美的代码和与用户交谈可以省去麻烦。 好奇！您在构建应用程序时学到的最大教训是什么？ 在这里查看我们的工作：ibadbuilds.com   由   提交/u/uNob_09  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sffby4/heres_what_i_learned_after_building_30_web_mobile/</guid>
-      <pubDate>Wed, 08 Apr 2026 01:40:31 GMT</pubDate>
+      <title>SDLC设计阶段的“安全工作”到底是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sfi9sy/what_actually_counts_as_security_work_in_the/</link>
+      <description><![CDATA[思考这个问题有一段时间了，想听听其他开发人员如何实际处理它，而不是教科书版本。 教科书的答案是威胁建模。 STRIDE、数据流程图、信任边界，所有这些。从理论上讲，这是完全有道理的，因为设计阶段是整个 SDLC 中发现安全问题成本最低的地方。修复白板上错误的身份验证假设需要 30 分钟的对话。在 40k 行深度之后修复它需要整整四分之一的时间，而且是一个非常糟糕的站立。 但事情就是这样。与我交谈过的几乎没有人真正做到了这一点。我一直看到的是这样的东西：  安全性被推到“在发布之前就进行笔测试”，这基本上是希望昂贵的阶段能够捕获便宜阶段跳过的东西 有人将 OWASP 检查表粘贴到 Notion 文档中，没有人读过前 10 行，它被称为“我们的安全流程” 真正关心的一个开发人员运行威胁建模会话独自一人，没有其他人参与，文档死在一个没有人再打开的文件夹中 另一个极端，一个由 11 个人参加的为期 3 天的研讨会，生成了 60 页的 pdf，并且对实际构建方式没有任何改变  所以我对这个子的真正问题。当您说您的团队“在设计阶段就做好安全工作”时，正常情况下这实际上是什么样子的？这是一项真正的活动，其输出会改变架构，还是更像是一种氛围，高级开发人员只是知道在设计审查期间要注意什么并提及内容？ 对于真正进行威胁建模的团队，如何防止它成为每个人都害怕出现的事情？我见过的几个做得很好的地方都保持了较短的时间，比如 45 分钟，一次一个用户流程，真正在房间里编写代码的人，而不是一个单独的安全团队飞进来并提交报告。 不是试图引发一场框架战争。只是想知道哪些内容在实践中实际有效，哪些内容写在合规文档上但被遗忘了？   由   提交/u/theideamakeragency  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sfi9sy/what_actually_counts_as_security_work_in_the/</guid>
+      <pubDate>Wed, 08 Apr 2026 03:58:55 GMT</pubDate>
     </item>
     <item>
-      <title>我如何制作words.zip（无限mmo单词搜索网页游戏）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sfd1no/how_i_made_wordszip_infinite_mmo_word_search_web/</link>
-      <description><![CDATA[       由   提交/u/yathern   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sfd1no/how_i_made_wordszip_infinite_mmo_word_search_web/</guid>
-      <pubDate>Tue, 07 Apr 2026 23:59:39 GMT</pubDate>
+      <title>我在 Rust+WASM 航班跟踪器中添加了 3D 驾驶舱视图 — 您现在可以跟随任何实时航班一起飞行</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sfhr19/i_added_a_3d_cockpit_view_to_my_rustwasm_flight/</link>
+      <description><![CDATA[      几天前，我在这里发布了我的实时航班跟踪器，它在潜艇上排名第一（感谢所有反馈！）。从那时起，我一直在不停地添加功能，其中最令我兴奋的是驾驶舱视图。  您现在可以单击任何实时航班，点击驾驶舱按钮，并从飞机上获得 3D 第一人称视图 - 真实地形、城市中的真实建筑、大气、太阳/月亮，所有这些都通过实时飞行数据进行更新。高度、速度、航向和位置均来自真实的 ADS-B 数据，每 15 秒更新一次，更新之间进行航位推算，因此运动保持平稳。  上一篇文章的上下文：https://www.reddit.com/r/webdev/comments/1sbnhvm/i_built_a_realtime_flight_tracker_with_rust/    由   提交/u/coolwulf  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sfhr19/i_added_a_3d_cockpit_view_to_my_rustwasm_flight/</guid>
+      <pubDate>Wed, 08 Apr 2026 03:32:38 GMT</pubDate>
     </item>
     <item>
-      <title>构建了一个具有摊销+额外付款逻辑的抵押贷款计算器 - 寻求反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sfbh05/built_a_mortgage_calculator_with_amortization/</link>
-      <description><![CDATA[我一直在从事一个小型副项目，最近构建了一个抵押贷款计算器，该计算器：  计算完整的摊销计划 支持每月额外付款 动态更新还款时间表+总利息 包括税收、保险和 PMI  一切都在客户端运行并更新立即。 很好奇是否有人构建了类似的东西或提出了以下建议：  提高性能 更好的金融工具用户体验 我可能会错过的边缘情况  👉 https://tool-yard.com/tools/mortgage-calculator   由   提交 /u/sjoseph01   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sfbh05/built_a_mortgage_calculator_with_amortization/</guid>
-      <pubDate>Tue, 07 Apr 2026 22:53:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>480 现场会议，0 预订。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sfbey3/480_site_sessions_0_bookings/</link>
-      <description><![CDATA[我知道现在还很早，但我几天前（3-4）推出了这项业务，并在 Facebook 和 Instagram 上做了广告。 196 次来自 Facebook，143 次来自 Instagram，而且是付费的。 34 次访问是来自 Facebook 的自然访问，26 次是直接访问（有些是我在查看网站）。 我提供我所在城市的一项垃圾箱清洁服务，似乎有足够的点击次数让人们感兴趣，但没有人购买。   由   提交 /u/SeaTall1692   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sfbey3/480_site_sessions_0_bookings/</guid>
-      <pubDate>Tue, 07 Apr 2026 22:51:30 GMT</pubDate>
+      <title>Android 上的完整 Chrome 开发者工具浏览器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sfgy0m/full_chrome_developer_tools_browser_on_android/</link>
+      <description><![CDATA[由于缺乏完整的 Chrome 开发工具套件，Android 上的 Web 开发一直很困难。我们通过将其打包到开源 Android APK 中解决了这个问题。 希望这会有所帮助！ :) https://play.google.com/store/apps/details?id=com.unixshells.devbrowser   由   提交 /u/realrasengan   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sfgy0m/full_chrome_developer_tools_browser_on_android/</guid>
+      <pubDate>Wed, 08 Apr 2026 02:54:06 GMT</pubDate>
     </item>
     <item>
       <title>我看到工程师在代码审查中犯的错误</title>
@@ -46,13 +39,6 @@
       <description><![CDATA[ 由   提交 /u/Kritnc   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1sf9dyv/built_this_in_a_day_with_cloudflare_pages_kv/</guid>
       <pubDate>Tue, 07 Apr 2026 21:30:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>销售网站进展不顺利</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sf9al9/selling_websites_not_going_well/</link>
-      <description><![CDATA[嘿，我已经尝试销售网站一个月了，还没卖出一个，我一直在学习使用后端和 API 来使网站发挥作用，我向我所在国家/地区的企业进行 DM 让他们购买网站，问题是他们大多不回复我，或者在我在 git 上向他们展示网站后他们不回复我，有人有任何提示或建议吗？   由   提交 /u/didImissAnything1234   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sf9al9/selling_websites_not_going_well/</guid>
-      <pubDate>Tue, 07 Apr 2026 21:27:14 GMT</pubDate>
     </item>
     <item>
       <title>我什么时候应该启动简单的嵌入式评论工具（为静态网站构建）的公共测试版？</title>
@@ -76,20 +62,6 @@
       <pubDate>Tue, 07 Apr 2026 19:50:52 GMT</pubDate>
     </item>
     <item>
-      <title>帮助寻找网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sf5np7/help_with_finding_websites/</link>
-      <description><![CDATA[我目前正在使用（世界监视器）和（监视情况）来查看世界各地正在发生什么以及我是否应该小心。因此，我需要帮助找到可以用来执行相同操作的其他网站。 我当前使用的网站是 ; worldmonitor.app monitor-the-situation.com   由   提交 /u/Nothing4life   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sf5np7/help_with_finding_websites/</guid>
-      <pubDate>Tue, 07 Apr 2026 19:12:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个人工智能测试工具，最难的部分不是人工智能</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sf5ije/i_built_an_ai_testing_tool_and_the_hardest_part/</link>
-      <description><![CDATA[在浏览器自动化层上花费了几个月的时间。 e2b 沙箱、运行浏览器使用的 python 服务、llm 后备链，因此如果 qwen 出现故障，它会尝试使用 Gemini，然后尝试使用 gpt-4o。真正的分布式系统的东西。 然后我和 10 位创始人进行了交谈。没有人询问架构。每个人都问“我可以在不知道编剧的情况下设置它吗？” 所以所有这些，多区域工作人员，redis 队列，实时视频流，如果前门不是一个简单的英文文本框，那么这些都无关紧要。 我们现在正在粘贴一个 URL，用简单的英语描述你想要测试的内容，人工智能每 5 分钟就会在真正的浏览器中运行它。没有 yaml。没有配置。无需维护定位器。 教训：与解释产品的功能相比，困难的技术问题很容易。 你们现在如何处理生产中的端到端监控？不是 ci，我的意思是针对您实际的实时应用程序。   由   提交 /u/Dramatic_Turnover936   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sf5ije/i_built_an_ai_testing_tool_and_the_hardest_part/</guid>
-      <pubDate>Tue, 07 Apr 2026 19:07:36 GMT</pubDate>
-    </item>
-    <item>
       <title>我的客户通过 WhatsApp 语音消息管理定制珠宝订单。每一个。</title>
       <link>https://www.reddit.com/r/webdev/comments/1sf57yq/my_client_was_managing_custom_jewelry_orders/</link>
       <description><![CDATA[      几个月前，我的一位客户就这样经营她的手镯业务。 客户在 WhatsApp 上向她发送消息。她回答道。他们在吊饰、链条类型和雕刻方面反复讨论。她手动记下所有内容。 每个订单需要 2 到 3 小时。有时她有 4 到 5 个。 我问她是否有任何页面可供客户自行配置。她看着我，就像我用另一种语言说了些什么。 所以我构建了一个 3D 配置器。顾客挑选他们的饰物，实时预览手链，然后一次性提交完整订单。 直播第一周她给我发了消息。 “安东尼奥，今天 WhatsApp 订单为零。它们都完整了。” 问题是，她甚至没有考虑时间。她只是想恢复周日。 我认为这是我所追求的最佳指标。 PS：这是一个意大利语配置器，我刚刚用谷歌翻译了网页并截取了屏幕截图。 😅   由   提交/u/afeyedex  [链接] [评论] ]]></description>
@@ -104,11 +76,39 @@
       <pubDate>Tue, 07 Apr 2026 18:37:15 GMT</pubDate>
     </item>
     <item>
-      <title>设计师+创始人——将想法转化为实际产品的地方</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sf45ei/designers_founders_where_ideas_turn_into_real/</link>
-      <description><![CDATA[🚀 设计师、创始人和创始人构建者 - 这是为您准备的 如果您热衷于 UI/UX、SaaS 或构建产品…… 我刚刚创建了一个社区，您可以在其中真正分享、成长并获得真正的反馈 - 而不仅仅是无休止地滚动。 👉 您可以在此处执行以下操作： • 分享您真实的产品 UI 屏幕 • 发布 SaaS 登陆页面（是的，推广它 🔥） • 上传案例研究/ 设计故障 • 向像您这样的构建者询问诚实的反馈 • 发现新工具、想法和灵感 没有严格的规则。没有把关。只是人们在构建酷炫的东西。 💡无论您是： - UI/UX 设计师 - 产品工程师 - 独立黑客 - 初创公司创始人 你会很适合。 ⚡ 我们也在寻找版主 如果你想帮助发展一个强大的设计/初创社区 -加入我们。 让我们一起创造一些有价值的东西，而不仅仅是消费。 👇 加入&amp;开始分享： https://www.reddit.com/r/Design\_inspo/ （前100名贡献者= OG成员🧠🔥）   由   提交/u/Successful_Draw4218  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sf45ei/designers_founders_where_ideas_turn_into_real/</guid>
-      <pubDate>Tue, 07 Apr 2026 18:18:54 GMT</pubDate>
+      <title>质量保证工程师</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sf3ghe/qa_engineers/</link>
+      <description><![CDATA[构建了一个以合规性为中心的 Web 应用程序。它处理拨款跟踪、证据上传、合规任务、评分、审计日志和 PDF 导出。 Stack 是 React、FastAPI、MongoDB、计划作业和一些 AI 处理。在此阶段，我正在尝试验证系统是否确实端到端运行，而不仅仅是 UI 加载。 对于那些测试过工作流程繁重的应用程序的人来说，您将如何验证此类信任取决于数据完整性、审计跟踪和导出的内容？我特别考虑捕获仪表板和源记录之间的不匹配、静默保存失败以及任何真正会破坏审计防御性的东西。你们中的一些 QA 工程师能让我知道如何构建这样的测试吗？   由   提交/u/KaiyaSolutions  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sf3ghe/qa_engineers/</guid>
+      <pubDate>Tue, 07 Apr 2026 17:55:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>终于找到了一种让 Drupal Canvas AI 看起来真正专业的方法</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sf11q2/finally_found_a_way_to_make_drupal_canvas_ai/</link>
+      <description><![CDATA[我一直在摆弄新的 Drupal Canvas AI 子模块，但说实话，布局输出让我发疯。感觉就像只是猜测事情应该去哪里，而忽略了我的设计系统。 我只是偶然发现了这个解释“上下文”的分步视频。事情的一面。它展示了如何使用编码代理实际训练 AI 来生成知识指南，使其尊重您的组件属性和网格。 如果您一直在 Drupal 中处理混乱的 AI 生成页面，此工作流程将改变游戏规则： 这是一个快速观看，但有关 AI 上下文模块的部分节省了我数小时的手动调整时间。   由   提交 /u/Familiar-Ad-2878   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sf11q2/finally_found_a_way_to_make_drupal_canvas_ai/</guid>
+      <pubDate>Tue, 07 Apr 2026 16:32:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LinkedRecords 现已获得 MIT 许可</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sezlt5/linkedrecords_is_now_mitlicensed/</link>
+      <description><![CDATA[       由   提交/u/WolfOliver  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sezlt5/linkedrecords_is_now_mitlicensed/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:41:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发商店考虑与大麻/THCA 电子商务客户合作</title>
+      <link>https://www.reddit.com/r/webdev/comments/1seyun8/dev_shop_considering_working_with_hempthca/</link>
+      <description><![CDATA[地点：纽约 大家好， 我们是一家位于纽约州纽约市的精品开发商店，致力于开发网络应用程序和工具，我们正在考虑与一位潜在客户合作，该客户拥有 THCA/大麻业务的电子商务网站。如果我们继续前进，我们将严格处理技术开发——站点维护、供应商入职系统、客户支持工具——同时将所有合规性、财务处理和运营决策留给客户。我们希望确保在法律上保护自己，因为这是一个高风险领域。 有人与类似行业的客户建立过这样的纯技术关系吗？我们应该注意什么或在我们的协议中包含哪些内容以确保我们得到保障？希望听到任何建议或经验！谢谢！   由   提交/u/jett2k69  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1seyun8/dev_shop_considering_working_with_hempthca/</guid>
+      <pubDate>Tue, 07 Apr 2026 15:14:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>徽标隐私建设者训练营</title>
+      <link>https://www.reddit.com/r/webdev/comments/1seye9v/logos_privacy_builders_bootcamp/</link>
+      <description><![CDATA[       由   提交/u/Calm_hands  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1seye9v/logos_privacy_builders_bootcamp/</guid>
+      <pubDate>Tue, 07 Apr 2026 14:58:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
