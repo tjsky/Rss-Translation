@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 08 Apr 2026 19:11:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 21:39:32 GMT</lastBuildDate>
+    <item>
+      <title>由于单个 SQL 查询，我们损失了 47,000 美元（生产灾难教会我始终检查查询计划）</title>
+      <link>https://www.reddit.com/r/programming/comments/1sg69tt/we_lost_47k_because_of_a_single_sql_query_the/</link>
+      <description><![CDATA[凌晨 3:47。电话亮了。生产下降。 付款处理失败。 API 响应时间：200 毫秒 → 12 秒。 数据库 CPU：100%。连接池：已耗尽。 周五晚上。交通高峰期。我们本季度最大的销售额。 当我们恢复过来时：收入损失了 47,000 美元。 原因是什么？我两周前添加的一行： WHERE user_verified = true 看起来不错。在开发中测试（500 行）。在分段测试（10 万行）。 生产：1200 万行。 user_verified 上没有索引。 每次管理仪表板刷新（每 30 秒）= 12M 行全表扫描 = 每次查询 8-12 秒 = 连接池死亡 = 付款失败。 修复非常简单： CREATE INDEX idx_user_verified ON users(user_verified); 30 秒。查询时间：8 秒 → 12 毫秒。 我应该做什么： - 对每个查询进行解释分析 - 使用生产规模数据进行测试 - 监控慢速查询，而不仅仅是端点 - 永远不要在高峰流量之前部署数据库更改 实际成本： - 4.7 万美元直接收入损失 - 3服务降级时间 - 847 个支持票 - 工程时间调试 - 客户信任 缺少一个索引。 我现在保留一份预部署清单。永远不要再相信我对生产数据库的记忆。 您最昂贵的生产课程是什么？   由   提交 /u/Plenty-Disaster-1094   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sg69tt/we_lost_47k_because_of_a_single_sql_query_the/</guid>
+      <pubDate>Wed, 08 Apr 2026 21:33:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>荒谬的工作流程：仅使用 Postgres 即可实现持久执行</title>
+      <link>https://www.reddit.com/r/programming/comments/1sg5koq/absurd_workflows_durable_execution_with_just/</link>
+      <description><![CDATA[ 由   提交/u/self  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sg5koq/absurd_workflows_durable_execution_with_just/</guid>
+      <pubDate>Wed, 08 Apr 2026 21:07:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>假装它直到你打破它：软件工程黎明中非技术经理的终结</title>
+      <link>https://www.reddit.com/r/programming/comments/1sg5gss/fake_it_until_you_break_it_the_end_of/</link>
+      <description><![CDATA[ 由   提交/u/derjanni   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sg5gss/fake_it_until_you_break_it_the_end_of/</guid>
+      <pubDate>Wed, 08 Apr 2026 21:03:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>VLIW：“不可能”的计算机</title>
+      <link>https://www.reddit.com/r/programming/comments/1sg4geh/vliw_the_impossible_computer/</link>
+      <description><![CDATA[ 由   提交/u/muellermichel  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sg4geh/vliw_the_impossible_computer/</guid>
+      <pubDate>Wed, 08 Apr 2026 20:25:50 GMT</pubDate>
+    </item>
     <item>
       <title>通过示例解释卡尔曼滤波器</title>
       <link>https://www.reddit.com/r/programming/comments/1sg2bmz/kalman_filter_explained_through_examples/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[这是一篇技术学术文章，介绍了如何引入 REST API 的开源模糊器并开始在大众汽车使用    由   提交/u/arcuri82  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1sfm5e0/arxiv_fuzzing_rest_apis_in_industry_necessary/</guid>
       <pubDate>Wed, 08 Apr 2026 07:38:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>超越索引：开放表格式如何优化查询性能 — Jack Vanlightly</title>
-      <link>https://www.reddit.com/r/programming/comments/1sfm3hs/beyond_indexes_how_open_table_formats_optimize/</link>
-      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sfm3hs/beyond_indexes_how_open_table_formats_optimize/</guid>
-      <pubDate>Wed, 08 Apr 2026 07:35:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>比较编程语言并查看它们与学习内容的排名！</title>
-      <link>https://www.reddit.com/r/programming/comments/1sflofe/compare_programming_language_and_see_them_ranked/</link>
-      <description><![CDATA[所以我一直想对编程语言进行排名并根据不同的编程指标进行比较。我一直在学习 Rust，并将其与其他各种语言进行比较，只是为了看看差异。 还学习了复杂的编程概念，例如内存效率等。喜欢这个工具来做到这一点。 我打赌你会学到新东西！！！   由   提交/u/No-Childhood-2502   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sflofe/compare_programming_language_and_see_them_ranked/</guid>
-      <pubDate>Wed, 08 Apr 2026 07:08:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dave Garage - 为什么你的新电脑比旧电脑慢</title>
-      <link>https://www.reddit.com/r/programming/comments/1sfc9cq/dave_garage_why_your_new_computer_is_slower_than/</link>
-      <description><![CDATA[ 由   提交/u/dukey   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sfc9cq/dave_garage_why_your_new_computer_is_slower_than/</guid>
-      <pubDate>Tue, 07 Apr 2026 23:26:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spring Security + Keycloak：JWT 身份验证和基于角色的访问 (Spring Boot 4)</title>
-      <link>https://www.reddit.com/r/programming/comments/1sfbm9j/spring_security_keycloak_jwt_authentication/</link>
-      <description><![CDATA[ 由   提交/u/huseyinbabal  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sfbm9j/spring_security_keycloak_jwt_authentication/</guid>
-      <pubDate>Tue, 07 Apr 2026 22:59:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
