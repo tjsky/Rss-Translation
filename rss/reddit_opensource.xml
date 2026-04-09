@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 09 Apr 2026 13:16:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 16:17:06 GMT</lastBuildDate>
+    <item>
+      <title>我为并行工作流程创建了一个基于 Ghostty 的终端工作区</title>
+      <link>https://www.reddit.com/r/opensource/comments/1sgrgyo/i_made_a_ghosttybased_terminal_workspace_for/</link>
+      <description><![CDATA[我将 PrettyMux 构建为原生 Linux 终端工作区，用于多任务工作流程并跟踪我的代理。 这是一个基于 Ghostty/libghostty 构建的 GTK4 应用程序，具有分割窗格、工作区、垂直选项卡、通知、项目感知选项卡（自动显示图标/徽标）和应用程序内浏览器，以便终端和文档/工具可以并存 我开始它是因为我想要在 Linux 上实现类似于 tmux 的现代 GUI 工作流程，但是是原生的而不是 Electron，有 cmux 但只能在 Macos 上使用（prettymux 也可以在 Windows 和 Macos 上编译，但目前尚未测试） 它是开源的：https://github.com/patcito/prettymux 希望得到使用 tmux、Ghostty 或因大量终端/浏览器选项卡/并行任务而苦苦挣扎的人们的反馈。   由   提交/u/patcito   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1sgrgyo/i_made_a_ghosttybased_terminal_workspace_for/</guid>
+      <pubDate>Thu, 09 Apr 2026 14:38:16 GMT</pubDate>
+    </item>
     <item>
       <title>Show & Tell：开源 RAG 管道，其中每个阶段都是可交换插件</title>
       <link>https://www.reddit.com/r/opensource/comments/1sgnsdk/show_tell_opensource_rag_pipeline_where_every/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[      我开源了一个 macOS 应用程序，用于在本地管理开发人员秘密。 要点： - 本地优先 - 无云 - 钥匙串集成 - 支持 .env、API 密钥、数据库、等等。 非常感谢任何反馈或贡献。   由   提交/u/ilMakio   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1sepfhw/open_source_macos_secret_manager_for_developers/</guid>
       <pubDate>Tue, 07 Apr 2026 07:46:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>本地优先的学习应用程序需要反馈，包括笔记、思维导图等</title>
-      <link>https://www.reddit.com/r/opensource/comments/1seagxm/feedback_wanted_for_localfirst_study_app_with/</link>
-      <description><![CDATA[嘿， 我已经断断续续地致力于这个项目好几年了。重新启动了多次，直到我得到了一个真正可以承受的架构。 这是一个本地优先的学习应用程序，具有：  基于块的笔记编辑器（类似于概念） 思维导图模块 本地运行的人工智能系统（带有模型路由、工具等）  它仍然是非常alpha，有bug、用户体验不一致以及尚不存在的东西。 也就是说，它现在足够稳定，我自己实际上用它来学习（主要是笔记+思维导图），这感觉是向其他人展示它的一个好点。 我发布这个主要是因为我希望人们尝试它并打破一些东西。 Bug、糟糕的用户体验、奇怪的边缘情况，所有这些都是有用的。 网站（如果您想要快速概述）：https://mnemo.one 存储库/版本：https://github.com/onemnemo/mnemo/releases/tag/v.0.5.0 没有期望，只是好奇别人的想法或遇到的情况。   由   提交 /u/CCVShadow   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1seagxm/feedback_wanted_for_localfirst_study_app_with/</guid>
-      <pubDate>Mon, 06 Apr 2026 20:25:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
