@@ -4,11 +4,32 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Wed, 08 Apr 2026 21:37:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 01:51:01 GMT</lastBuildDate>
+    <item>
+      <title>我们可以停止称每一个新的人工智能发展都是“可怕的”吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sgbxav/can_we_please_stop_calling_every_new_ai/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sgbxav/can_we_please_stop_calling_every_new_ai/</guid>
+      <pubDate>Thu, 09 Apr 2026 01:35:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>一项修复将大型回购协议的 Claude 代码输出提高了约 25%，并将成本降低了 80%</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sg6rqs/one_fix_improved_claude_code_output_by_25_on/</link>
+      <description><![CDATA[工具：https://graperoot.dev 探索该网站，如果您的大脑在看到基准测试后感到疲劳，它甚至还有游乐场:) 我一直在大型存储库（10K 到 17K 文件）上使用 Claude Code，并一直注意到同样的问题。 它花费了大部分时间现在只是查找文件而不是解决任务。在 Sentry 的存储库（约 17.6K 文件）上，单个提示需要约 5.6 分钟，成本约 1.22 美元，并打开 40-50 个文件，可能需要使用 3-5 个文件。大约 60% 的标记进入不相关的上下文。 因此我不再尝试提示更好和固定的检索。 我构建了一个小型 MCP 服务器，用于预先索引文件关系（导入、引用），并在模型运行之前使用 BM25 对文件进行排名。一次性扫描约30秒，之后每个提示都以正确的上下文开始，而不是grep徘徊。 我进行了盲测（相同型号，相同提示，LLM法官评分）： ┌──────────────────┬──────────────┬──────────────┐ │ │ GrapeRoot │ Normal Claude │ ├──────────────────┼──────────────┼──────────────┤ │ 平均质量 │ 82.0 │ 64.6 │ │ 平均成本/提示 │ $0.71 │ $1.22 │ │ 平均时间 │ 2.2 分钟 │ 5.6 分钟 │ │ 获胜率 │ 100% │ 0% │ └────────────────┴──────────────┴────────────────┘  最大的差异体现在安全审计上。两次运行的成本大致相同，但我跨包探索了 40 多个文件，并发现了一个真正的漏洞并进行了修复。默认Claude停留在一个目录，检查了几个文件，结果漏掉了。 这不是模型问题。这是一个上下文问题。 现在，很大一部分令牌被浪费在弄清楚要查找的位置上。如果删除它，所有标记都会进入实际推理并输出质量跳跃。 堆栈很简单：MCP + BM25 + 文件图，完全本地，无嵌入，无向量数据库。 在 7 个存储库（Python、TS、Go、Rust、Java、C++）中进行测试，到处都有相同的模式。 诚实地说：如果您正在开发不平凡的存储库，您可能正在燃烧50–70% 的令牌在没有意识到的情况下检索错误。    由   提交/u/intellinker  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sg6rqs/one_fix_improved_claude_code_output_by_25_on/</guid>
+      <pubDate>Wed, 08 Apr 2026 21:53:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>这可能吗？ （这可能是一个不错的科幻电影情节）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sg6dyv/is_this_possible_this_could_be_a_good_scifi_movie/</link>
+      <description><![CDATA[人工智能根据其输入的信息学习并执行任务。那么是否有可能有人向人工智能提供大量种族主义信息，它就会变得种族主义？或者，如果有人编造了一堆虚假数据，说人类是威胁并且必须死亡，那么可能会有一个人工智能，其唯一目的只是消灭人类，但它目前只是坐在某人的笔记本电脑中，并且人工智能只有在笔记本电脑打开时才会唤醒，但几年后它被军方购买用于研究，但它失控了，所以现在我们看到了一个人工智能机器人在街上运行只是杀死人类的新闻。   由   提交/u/Ok-Student-4745   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sg6dyv/is_this_possible_this_could_be_a_good_scifi_movie/</guid>
+      <pubDate>Wed, 08 Apr 2026 21:37:52 GMT</pubDate>
+    </item>
     <item>
       <title>亚马逊上大约 77% 的新“成功”自助书籍可能是由 AI 撰写的，其中一位作者 Noah Felix Bennett 仅在 2025 年中期就出版了惊人的 74 本书，每天的速度超过 1 本书。出版了数百本书的 Richard Trillion Mantey 被评估为每一本书都使用了人工智能</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sg5aqc/77_of_all_new_success_selfhelp_books_on_amazon/</link>
-      <description><![CDATA[“具有讽刺意味的是，该数据集中的 844 本书中的一本名为“如何在人工智能世界中为人类写作：消除数字噪音并触及真实的人”。在其中，作者对人工智能撰写内容的激增表示遗憾：“我们在网上、收件箱、甚至新闻文章中看到的文字，常常让人感觉它们不是由某个特定的人写的，”他写道。 “它们在语法上是完美的，但在情感上却是空虚的。他们很流利，但没有灵魂。具有讽刺意味的是，我们从来没有像今天这样写过更多的文章。我们正在制作大量的内容：帖子、标题、宣传、文本和无穷无尽的电子邮件。与此同时，在所有这些噪音中，一些重要的东西正在消失。这是一种真实的人正在与另一个真实的人交谈的感觉。”那本书的内容被标记为可能是人工智能生成的。”   由   提交 /u/StarlightDown   [链接] [评论]]]></description>
+      <description><![CDATA[“具有讽刺意味的是，该数据集中的 844 本书中的一本名为“如何在人工智能世界中为人类写作：消除数字噪音并触及真实的人”。在其中，作者对人工智能撰写的内容激增表示遗憾：“我们在网上、收件箱、甚至新闻文章中看到的文字，常常让人感觉它们不是由某个特定的人写的，”他写道。 “它们在语法上是完美的，但在情感上却是空虚的。他们很流利，但没有灵魂。具有讽刺意味的是，我们从来没有像今天这样写过更多的文章。我们正在制作大量的内容：帖子、标题、宣传、文本和无穷无尽的电子邮件。与此同时，在所有这些噪音中，一些重要的东西正在消失。这是一种真实的人正在与另一个真实的人交谈的感觉。”那本书的内容被标记为可能是人工智能生成的。”   由   提交 /u/StarlightDown   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sg5aqc/77_of_all_new_success_selfhelp_books_on_amazon/</guid>
       <pubDate>Wed, 08 Apr 2026 20:57:10 GMT</pubDate>
     </item>
@@ -18,20 +39,6 @@
       <description><![CDATA[企业披露在其营销内容中使用人工智能生成的人类（如果该内容是由人工智能制作或由艺术家本身制作）。  如果您是艺术家或营销人员，您对此有何看法？   由   提交/u/XIFAQ  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sg43dk/no_ai_disclaimers_are_rising_among_marketers/</guid>
       <pubDate>Wed, 08 Apr 2026 20:12:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta 推出了 Muse Spark，这是自 Llama 4 首次亮相以来的首款新型号。但 Muse Spark 能达到预期吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sfzh5f/meta_unveils_muse_spark_its_first_new_model_since/</link>
-      <description><![CDATA[Meta 推出了 Muse Spark，这是其 Meta Superintelligence Labs 生产的第一个 AI 模型，Meta Superintelligence Labs 是 Meta Superintelligence Labs 于去年创建的新人工智能研究单位，并花费了数十亿美元用于人员和设备。  根据 Meta 发布的基准测试，该模型在许多任务上与 OpenAI、Anthropic 和 Google 的领先人工智能模型具有竞争力，尽管它并没有全面超越它们。  不过，如果独立专家测试时的基准测试结果成立，那么在 2025 年 4 月发布的最后一个 AI 模型 Llama 4 被广泛批评为失败之后，Muse Spark 似乎让 Meta 重新回到了 AI 竞赛中。  了解更多：https://fortune.com/2026/04/08/meta-unveils-muse-spark-mark-zuckerberg-ai-push/   由   提交/u/fortune  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sfzh5f/meta_unveils_muse_spark_its_first_new_model_since/</guid>
-      <pubDate>Wed, 08 Apr 2026 17:26:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么法学硕士在边缘情况下默认拒绝而不是限制响应？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sfzc6o/why_do_llms_default_to_refusal_instead_of/</link>
-      <description><![CDATA[我在多个基于 LLM 的系统中注意到的一种模式是，当检测到某些主题时，即使可能以受约束或上下文感知的方式处理查询，也很容易默认完全拒绝。 从系统设计的角度来看，这感觉像是一种故意的权衡，拒绝更容易标准化和扩展，但它会降低边缘的有用性 我很好奇这种行为是否主要是由以下因素驱动的： • 当前对齐技术的局限性（例如 RLHF） • 大规模风险最小化 • 或者仅仅是可靠地解释意图和上下文的困难 是否有任何新兴方法旨在用更受控制或分级的响应取代二元拒绝？   由   提交 /u/NoFilterGPT   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sfzc6o/why_do_llms_default_to_refusal_instead_of/</guid>
-      <pubDate>Wed, 08 Apr 2026 17:21:28 GMT</pubDate>
     </item>
     <item>
       <title>初级程序员永远不会比人工智能更好？</title>
@@ -46,13 +53,6 @@
       <description><![CDATA[Anthropic 构建了历史上最强大的人工智能。十二家公司获得了访问权，那么其他公司呢？我们收到一份公开声明，称“这太危险了” 对你来说太危险了。对于亚马逊、苹果、谷歌、微软、英伟达和摩根大通来说并不太危险。对其他人来说太危险了。 一家准备进行价值可能数千亿美元的公开发行的公司在同一天宣布，它已经构建了历史上最强大的人工智能，并且将限制对地球上最大公司精心挑选的名单的访问，并且其收入在十五个月内增加了两倍。  现有 12 家最富有、最强大的技术和金融公司。这些是 Anthropic 的客户。这些是人类投资者。毫无疑问，我们其他人都是产品。   由   提交/u/buffduckusa  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sfvprt/is_claude_mythos_too_dangerous_to_release_or_too/</guid>
       <pubDate>Wed, 08 Apr 2026 15:13:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>交换到克劳德时有什么办法可以继承我的聊天记录吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sfvkdh/is_there_any_way_to_carry_over_my_chats_when/</link>
-      <description><![CDATA[我已经使用 gpt 多年了，但最近我一直想换成 claude，但我也不想失去我在 gpt 上的所有上下文和当前项目，有什么办法可以将它们转移到 claude 吗？我的大部分东西都不在记忆中，因为我直到最近才打开它们，所以 claude import 仍然有效吗？   由   提交/u/MontyOW   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sfvkdh/is_there_any_way_to_carry_over_my_chats_when/</guid>
-      <pubDate>Wed, 08 Apr 2026 15:08:20 GMT</pubDate>
     </item>
     <item>
       <title>山姆·奥尔特曼 (Sam Altman) 表示，人工智能超级智能是如此之大，以至于我们需要一项“新政”。批评者称 OpenAI 的政策理念是“监管虚无主义”的掩护</title>
