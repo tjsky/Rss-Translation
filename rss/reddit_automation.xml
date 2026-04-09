@@ -4,7 +4,42 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Thu, 09 Apr 2026 07:15:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 10:08:14 GMT</lastBuildDate>
+    <item>
+      <title>人工智能工作流程正在快速变得复杂。您如何真正知道它们内部发生了什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1sgl200/ai_workflows_are_getting_complex_fast_how_do_you/</link>
+      <description><![CDATA[这已经悄悄地困扰了我几个月，我终于想听听其他人是如何处理它的。 我构建的越多，我就越注意到相同的模式：工作流程运行，输出看起来正确，而且我不知道中间做出了什么决定来生成它。大多数时候都很好。但是，当出现问题时（更新了错误的记录、采用了错误的分支、漏掉了意外的输出），追溯实际发生的情况确实很痛苦。 我一直在使用 Latenode 进行大量自动化工作，并且我开始做的一件事是将每个节点视为有意的检查点，而不仅仅是一个步骤。在每个决策点记录输入和输出，添加显式分支条件而不是让模型隐式决策，在任何涉及外部系统的内容上构建人工审查门。这是更多的前期工作，但当出现问题时，我实际上可以找到问题所在。 监管压力也将使这种情况在某些用例中不可避免。据报道，欧盟人工智能法案的透明度要求将于今年 8 月左右针对高风险系统（招聘、信用评分等任何相关系统）实施。不仅仅是日志，还有关于系统为何执行其操作的人类可读的解释。 “算法决定”是指“算法决定”。防御在那时就不再合法地发挥作用，而不仅仅是在操作上。 但即使在合规性之外，我认为可解释性问题从根本上来说是一个代理人工智能问题。当模型在较长的工作流程中做出顺序决策时，第三步的推理会以仅从输出来看并不明显的方式影响第七步。你不能只阅读最终结果并向后工作。 对于构建真实系统的人来说，我真正好奇的两件事是： 你是从一开始就设计可解释性，还是在你已经被烧毁一次之后对其进行改造？ 对于任何运行模型具有有意义的自主性的代理工作流程的人来说 - 当你看不到完整的推理链时，如何校准对输出的信任？   由   提交/u/parwemic  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sgl200/ai_workflows_are_getting_complex_fast_how_do_you/</guid>
+      <pubDate>Thu, 09 Apr 2026 09:45:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>社交媒体推广人工智能：人们实际使用哪些工具？</title>
+      <link>https://www.reddit.com/r/automation/comments/1sgksj2/ai_for_social_media_outreach_what_tools_do_people/</link>
+      <description><![CDATA[您好，第一次在这里发帖，寻求一些建议。 我是一家小企业主，一直在寻找 Instagram 和 LinkedIn 上的外展解决方案，但事情变得越来越混乱。太多的消息，没有足够的回复，还有大量的手动工作，感觉它不应该再是手动的了。 我实际上在寻找两件事：  Instagram： 有什么工具可以帮助如何快速增加 Instagram 粉丝而不感到垃圾邮件？可以进行外展、跟进，但仍然感觉自然的东西。 LinkedIn：关于 LinkedIn 外展自动化的任何提示，既能真正发挥作用，又不会让您的帐户受到限制？  很想听听什么对您来说真正有效，哪些工具值得尝试，以及如何让它保持人性化。 提前致谢！    由   提交/u/Square_Agent4269  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sgksj2/ai_for_social_media_outreach_what_tools_do_people/</guid>
+      <pubDate>Thu, 09 Apr 2026 09:30:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人使用云手机来自动化社交媒体工作流程吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1sgknb9/anyone_using_cloud_phones_for_automating_social/</link>
+      <description><![CDATA[一直在尝试自动化部分社交媒体工作（发帖、基本操作、处理多个帐户），但是一旦扩展到几个帐户，事情就会变得混乱。您可以编写脚本或使用调度程序，但保持帐户稳定是更大的问题。会话重叠、随机注销，有时操作不会持续进行。现在感觉自动化部分比保持环境清洁更容易。想要尝试像 Geelark 这样的云手机，但不确定人们是否真的将它用于这种设置，或者是否完全是其他东西。你们为什么要跑这个？   由   提交 /u/AromaticLawful   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sgknb9/anyone_using_cloud_phones_for_automating_social/</guid>
+      <pubDate>Thu, 09 Apr 2026 09:21:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>停止从头开始自动化</title>
+      <link>https://www.reddit.com/r/automation/comments/1sgk7m9/stop_makin_automations_from_scratch/</link>
+      <description><![CDATA[我将在收件箱中为您提供 2000 多个 n8n 模板以了解详细信息。   由   提交 /u/Asleep_Belt2655   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sgk7m9/stop_makin_automations_from_scratch/</guid>
+      <pubDate>Thu, 09 Apr 2026 08:54:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 客户支持：哪些工具最适合 SaaS/全栈？</title>
+      <link>https://www.reddit.com/r/automation/comments/1sgk0i6/ai_for_customer_support_what_tools_are_the_best/</link>
+      <description><![CDATA[大家好，这是第一次发帖，我从这个社区获得了很多价值，所以我想我终于可以问一些我已经坚持了一段时间的问题了。 我们是一个小型 SaaS 团队，支持正在开始吞噬我们。每天都有同样的问题，数量很大，没什么复杂的，只是重复。我已经研究人工智能工具几个星期了，我一直在兜圈子，所以想从实际使用过这些东西的人那里得到真实的意见。 我试图弄清楚两件事： -什么是最好的人工智能客户支持工具，你可以在自己的文档、帮助中心文章、产品文档、内部 SOP 上进行训练，并让它像人类一样直接回复客户？不仅仅是表面链接，而是实际的答案。 我们已经研究了一些，到目前为止我们测试最多的是 Chatbase，用一个下午的时间在我们的文档和定价页面上对其进行了训练，不需要开发人员，并且它可以很好地处理重复的内容。 - 有好的 AI 语音工具来提供支持吗？就像一个实际的 1800 号码，另一端不是人类，而是可以实时进行真实对话的人工智能。这些是否达到了实际可用的水平？还没有找到任何令人信服的东西。 很想听听人们在运行什么以及在生产中实际运行的是什么。大家好，这是我第一次发帖，我从这个社区获得了很多价值，所以我想我终于要问一些我已经坚持了一段时间的东西了。   由   提交 /u/TaskSpecialist5881   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sgk0i6/ai_for_customer_support_what_tools_are_the_best/</guid>
+      <pubDate>Thu, 09 Apr 2026 08:42:02 GMT</pubDate>
+    </item>
     <item>
       <title>自动化 LinkedIn 评论实际上与自动化冷电子邮件不同，还是我们只是更倾向于自动化</title>
       <link>https://www.reddit.com/r/automation/comments/1sgi1gb/is_automating_linkedin_comments_actually/</link>
@@ -27,20 +62,6 @@
       <pubDate>Thu, 09 Apr 2026 00:21:24 GMT</pubDate>
     </item>
     <item>
-      <title>如何使用 Python 构建市场脉搏应用程序：实时和多资产</title>
-      <link>https://www.reddit.com/r/automation/comments/1sg956z/how_to_build_a_market_pulse_app_in_python/</link>
-      <description><![CDATA[       由   提交 /u/Far_Inflation_8799   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1sg956z/how_to_build_a_market_pulse_app_in_python/</guid>
-      <pubDate>Wed, 08 Apr 2026 23:31:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用严格的关系数据库突变而不是 RAG 来保持 LLM 代理在会话之间保持一致</title>
-      <link>https://www.reddit.com/r/automation/comments/1sg6hut/used_strict_relational_db_mutations_instead_of/</link>
-      <description><![CDATA[RAG 非常适合回答有关静态文档的问题，但当您尝试运行持久状态机超过数百次迭代时，它就会崩溃。上下文窗口最终会被污染，法学硕士会忘记谁拥有什么，模拟不可避免地会衰退。 我去年花了一年时间构建了一个持久的生命模拟引擎（Altworld），但遇到了同样的困境。我的解决方案是停止将法学硕士视为数据库。我没有解析聊天历史记录，而是构建了一个完全依赖于显式关系数据库突变的循环。 这是我们用来保持状态防弹的精确回合推进管道：  获取处理锁，以便并发请求不会破坏状态。 直接从 PostgreSQL 加载规范状态。在我们的系统中，“规范的运行状态存储在结构化表和 JSON blob 中”，这意味着出于逻辑目的，LLM 之前的叙述输出完全被忽略。 以编程方式推进世界系统（经济、天气、稀缺性、旅行条件）。 根据有限的本地知识而不是全知的提示注入来模拟 NPC 决策。 针对严格的数据库状态解决用户操作。 撰写叙述，这是关键部分。叙述文本是在状态改变之后而不是之前生成的。 LLM 纯粹充当数据库事务的渲染器。 以事务方式将所有状态更改保留到 Postgres。  通过将模拟模型与叙述层分离，我们可以支持无限运行长度、分支保存和手动快照，而 AI 不会丢失情节。如果 LLM 调用失败，规范数据层（GameRun、WorldState、Character 等）将保持完好无损。 如果您正在构建任何类型的代理工作流程或长时间运行的自动化，我强烈建议翻转架构：使您的 DB 成为事实来源，并将 LLM 视为 UI/渲染层。   由   提交/u/Dace1187  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1sg6hut/used_strict_relational_db_mutations_instead_of/</guid>
-      <pubDate>Wed, 08 Apr 2026 21:42:18 GMT</pubDate>
-    </item>
-    <item>
       <title>说实话——有人真的使用人工智能创造了被动收入吗？</title>
       <link>https://www.reddit.com/r/automation/comments/1sg4cv1/real_talk_has_anyone_actually_built_passive/</link>
       <description><![CDATA[​ 不是理论，不是课程推介。  只是好奇现在什么对人们真正有效。”   由   提交 /u/FrostyBother3984   [链接] [评论]]]></description>
@@ -60,13 +81,6 @@
       <description><![CDATA[大家好，最近我被 Facebook 永久禁止，他们跟踪了一切，所以现在每次我创建新帐户时他们都会禁止我。我是新来的，迫切需要有人可以向我推荐一个可靠的反检测工具或任何可以帮助他们成功创建新帐户并最终投放广告的系统，因为这是我的工作，他们无缘无故地禁止了我。我怀疑这是因为我使用了 VPN，但谁知道呢？请帮助一个女孩 🙂   由   提交 /u/Crazy-Rent-6484   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1sg3dvw/urgent_need_antidetect_for_facebook_account/</guid>
       <pubDate>Wed, 08 Apr 2026 19:46:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>您将如何设计一个人工智能+人工评审系统来进行投标响应？</title>
-      <link>https://www.reddit.com/r/automation/comments/1sg1zjn/how_would_you_design_an_ai_human_review_system/</link>
-      <description><![CDATA[最近参加了一次面试，有一个问题一直萦绕在我的脑海里，所以我想问问这里的人如何看待这个问题。 场景基本上是这样的： 一家公司想要使用 AI 来帮助回答招标/RFP 文件。人工智能可以起草答案，但人类仍然需要审查、编辑和批准它们。 困难的部分是：  公司知识分布在许多内部文档中 其中一些文档可能已经过时 人工编辑应该随着时间的推移改进系统 整个设置应该减少员工的工作量，而不是创造更多的手动工作  面试官问我我将如何设计这种工作流程。 更具体地说：您将如何处理人机交互部分、版本历史记录并保持知识库最新，以便将来的答案变得更好并保持准确？ 压力还在于：  Google Docs 对于非技术人员来说很容易 GitHub 具有更好的版本控制 但感觉都不是其完美答案自己  我真的很好奇其他人在实践中会如何处理这个问题。您会构建什么？如何确保它对人类可用，同时对人工智能来说仍然足够可靠？   由   提交/u/IntelligentLeek123  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1sg1zjn/how_would_you_design_an_ai_human_review_system/</guid>
-      <pubDate>Wed, 08 Apr 2026 18:56:22 GMT</pubDate>
     </item>
     <item>
       <title>到 2026 年，还有人真的靠销售自动化赚钱吗？</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[因此，一个包含这些数字的链接 din Post 就陷入了兔子洞。 Gartner 表示，到 2026 年，40% 的企业应用程序将嵌入任务特定的人工智能代理。德勤发表了一篇文章，介绍公司如何开始通过绩效评估、监督轮等来管理人工智能代理，例如员工。对年龄较大的人工智能技能的需求每年增长 35% 至 40%，但缺口却超过 50%。试图弄清楚这意味着什么，因为当我查看实际的职位发布时，他们雇用的不仅仅是机器学习工程师。有一些角色称为人工智能编排工程师、代理行为分析师、代理生命周期经理。他们中的许多人不需要博士学位，但需要了解人工智能系统如何行为并能够确保它们做正确的事情的人。   由   提交/u/PRABHAT_CHOUBEY   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1sfogw0/agentic_ai_roles_up_986_last_year_52000_tech_jobs/</guid>
       <pubDate>Wed, 08 Apr 2026 10:00:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>是否有可能为在线商店自动进行追加销售和发布购买机会？</title>
-      <link>https://www.reddit.com/r/automation/comments/1sfoazf/is_it_even_possible_to_automate_upsell_and_post/</link>
-      <description><![CDATA[我经营一家小商店几个月了，结账后感觉好像把钱留在了桌子上。我尝试过基本的电子邮件流程和折扣弹出窗口，但没有什么真正有效的。所以我想知道这里是否有人以任何可以转化的方式自动追加销售？ （如果重要的话，我在 Shopify 上）   由   提交 /u/LowPuzzleheaded1469   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1sfoazf/is_it_even_possible_to_automate_upsell_and_post/</guid>
-      <pubDate>Wed, 08 Apr 2026 09:50:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Browserbase 与 Browserless.. 哪一个真正适合生产代理？</title>
-      <link>https://www.reddit.com/r/automation/comments/1sfoaf4/browserbase_vs_browserless_which_one_actually/</link>
-      <description><![CDATA[因此，我们在无浏览器的情况下运行了大约 4 个月，自托管 Docker 设置，因为我们喜欢拥有基础设施。在实践中，我成为了一名兼职 DevOps 工程师，负责照顾那些会在会话中悄然死亡的容器。没有什么比调试代理的 CDP 连接在凌晨 2 点断开的原因更好的了。 会话对于快速抓取来说很好，但任何长时间运行的身份验证都会随机崩溃。 DOM 更改、超时。我们修补了配置，调整了资源限制，基本上成为了无报酬的无浏览器顾问。 几个月前切换到 browserbase。花了一些时间才使会话配置正确，他们的文档可以为我们遇到的边缘情况使用更多示例。没什么大不了的，但可以为我们节省一些来回的支持。 但是这些会议只是......有效吗？我们的代理通过他们的 API 运行剧作家流程，事情就不会再神秘地消失了。这感觉像是一个低门槛，但显然事实并非如此。 有人找到了一种干净的方法来处理无需第三方代理的隐形指纹识别吗？完全无关，但它一直困扰着我。 无论如何，我们不再为自己的浏览器基础设施待命，这可能比我想承认的更有价值。   由   提交/u/vivora12  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1sfoaf4/browserbase_vs_browserless_which_one_actually/</guid>
-      <pubDate>Wed, 08 Apr 2026 09:49:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
