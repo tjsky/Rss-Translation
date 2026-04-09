@@ -4,7 +4,14 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Thu, 09 Apr 2026 01:51:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 05:05:35 GMT</lastBuildDate>
+    <item>
+      <title>我不懂人工智能。它是如何运作的？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sge708/i_dont_understand_ai_how_does_it_work/</link>
+      <description><![CDATA[假设我问 AI，“我应该煮意大利面条多长时间？”它如何给出答案？ 它是否搜索整个网络并呈现所找到内容的平均值、中位数、众数或均值？或者它有其他方式得出数字吗？   由   提交/u/tlm11110  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sge708/i_dont_understand_ai_how_does_it_work/</guid>
+      <pubDate>Thu, 09 Apr 2026 03:19:49 GMT</pubDate>
+    </item>
     <item>
       <title>我们可以停止称每一个新的人工智能发展都是“可怕的”吗？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sgbxav/can_we_please_stop_calling_every_new_ai/</link>
@@ -18,13 +25,6 @@
       <description><![CDATA[工具：https://graperoot.dev 探索该网站，如果您的大脑在看到基准测试后感到疲劳，它甚至还有游乐场:) 我一直在大型存储库（10K 到 17K 文件）上使用 Claude Code，并一直注意到同样的问题。 它花费了大部分时间现在只是查找文件而不是解决任务。在 Sentry 的存储库（约 17.6K 文件）上，单个提示需要约 5.6 分钟，成本约 1.22 美元，并打开 40-50 个文件，可能需要使用 3-5 个文件。大约 60% 的标记进入不相关的上下文。 因此我不再尝试提示更好和固定的检索。 我构建了一个小型 MCP 服务器，用于预先索引文件关系（导入、引用），并在模型运行之前使用 BM25 对文件进行排名。一次性扫描约30秒，之后每个提示都以正确的上下文开始，而不是grep徘徊。 我进行了盲测（相同型号，相同提示，LLM法官评分）： ┌──────────────────┬──────────────┬──────────────┐ │ │ GrapeRoot │ Normal Claude │ ├──────────────────┼──────────────┼──────────────┤ │ 平均质量 │ 82.0 │ 64.6 │ │ 平均成本/提示 │ $0.71 │ $1.22 │ │ 平均时间 │ 2.2 分钟 │ 5.6 分钟 │ │ 获胜率 │ 100% │ 0% │ └────────────────┴──────────────┴────────────────┘  最大的差异体现在安全审计上。两次运行的成本大致相同，但我跨包探索了 40 多个文件，并发现了一个真正的漏洞并进行了修复。默认Claude停留在一个目录，检查了几个文件，结果漏掉了。 这不是模型问题。这是一个上下文问题。 现在，很大一部分令牌被浪费在弄清楚要查找的位置上。如果删除它，所有标记都会进入实际推理并输出质量跳跃。 堆栈很简单：MCP + BM25 + 文件图，完全本地，无嵌入，无向量数据库。 在 7 个存储库（Python、TS、Go、Rust、Java、C++）中进行测试，到处都有相同的模式。 诚实地说：如果您正在开发不平凡的存储库，您可能正在燃烧50–70% 的令牌在没有意识到的情况下检索错误。    由   提交/u/intellinker  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sg6rqs/one_fix_improved_claude_code_output_by_25_on/</guid>
       <pubDate>Wed, 08 Apr 2026 21:53:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>这可能吗？ （这可能是一个不错的科幻电影情节）</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sg6dyv/is_this_possible_this_could_be_a_good_scifi_movie/</link>
-      <description><![CDATA[人工智能根据其输入的信息学习并执行任务。那么是否有可能有人向人工智能提供大量种族主义信息，它就会变得种族主义？或者，如果有人编造了一堆虚假数据，说人类是威胁并且必须死亡，那么可能会有一个人工智能，其唯一目的只是消灭人类，但它目前只是坐在某人的笔记本电脑中，并且人工智能只有在笔记本电脑打开时才会唤醒，但几年后它被军方购买用于研究，但它失控了，所以现在我们看到了一个人工智能机器人在街上运行只是杀死人类的新闻。   由   提交/u/Ok-Student-4745   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sg6dyv/is_this_possible_this_could_be_a_good_scifi_movie/</guid>
-      <pubDate>Wed, 08 Apr 2026 21:37:52 GMT</pubDate>
     </item>
     <item>
       <title>亚马逊上大约 77% 的新“成功”自助书籍可能是由 AI 撰写的，其中一位作者 Noah Felix Bennett 仅在 2025 年中期就出版了惊人的 74 本书，每天的速度超过 1 本书。出版了数百本书的 Richard Trillion Mantey 被评估为每一本书都使用了人工智能</title>
