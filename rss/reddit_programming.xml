@@ -4,13 +4,48 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 09 Apr 2026 21:43:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 02:04:21 GMT</lastBuildDate>
     <item>
-      <title>在互联网计算机协议上启用 x402 服务器小额支付</title>
-      <link>https://www.reddit.com/r/programming/comments/1sh1szb/enabling_x402_server_micropayments_on_the/</link>
-      <description><![CDATA[ 由   提交/u/Demali876  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sh1szb/enabling_x402_server_micropayments_on_the/</guid>
-      <pubDate>Thu, 09 Apr 2026 20:45:53 GMT</pubDate>
+      <title>没有帐户。无密码。无需破解数据库。这就是身份验证的工作方式。</title>
+      <link>https://www.reddit.com/r/programming/comments/1sh8g0h/no_account_no_password_no_database_to_hack_this/</link>
+      <description><![CDATA[大家对这种 GRIDS 钱包技术有何看法。对我来说听起来很酷。非常酷的钱包技术。 GRIDS：气隙签名 GRIDS（Gajumaru 远程指令调度序列化）是一种协议，使 Gajumaru 上的安全商业和 Gajumaru 所实现的经济互联网成为可能。从本质上讲，GRIDS 是一种死滴签名协议。死角是从情报情报技术中借用的，是指两方在不直接接触的情况下进行通信的交换。 GRIDS将这一原理应用于数字签名：需要签名的数据被放置在一个位置（编码为二维码），一个单独的、物理上断开连接的设备检索它，对其进行签名，并通过相同的光通道返回签名的响应。 核心原则是物理分离。您浏览互联网所用的设备（您的计算机、充当终端的手机）是执行上下文：它生成请求、显示信息、连接到网络。保存您的私钥（您的钱包）的设备是签名上下文：它签署交易、验证身份并批准付款。这两个上下文由气隙隔开。气隙意味着在物理上与任何网络断开连接。它们之间的主要通信是光学的：二维码显示在一个屏幕上并由另一设备的摄像头读取。 GRIDS 还可以通过直接输入 GRIDS URL 来发挥作用，但气隙原则仍然存在：无论指令如何传递，私钥都不会离开签名设备。 这不是深度防御（分层多重安全措施，希望能够保留）。这就是消除攻击面。如果连接的设备上不存在密钥，则它们无法从连接的设备上被盗。最复杂的浏览器漏洞、最狡猾的 NPM 供应链攻击、最先进的民族国家对手：他们都无法窃取不存在的密钥。   由   提交/u/JE2530  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sh8g0h/no_account_no_password_no_database_to_hack_this/</guid>
+      <pubDate>Fri, 10 Apr 2026 01:21:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>树守护者、结构散列以及反对行级差异的情况</title>
+      <link>https://www.reddit.com/r/programming/comments/1sh7hzl/treesitter_structural_hashing_and_the_case/</link>
+      <description><![CDATA[ 由   提交/u/Wise_Reflection_8340   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sh7hzl/treesitter_structural_hashing_and_the_case/</guid>
+      <pubDate>Fri, 10 Apr 2026 00:39:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>我用 Rust 从头开始​​构建了一个微内核（系列 5 部分：启动、IPC、抢占、虚拟内存）</title>
+      <link>https://www.reddit.com/r/programming/comments/1sh6n4d/i_built_a_microkernel_from_scratch_in_rust_5part/</link>
+      <description><![CDATA[我在工作之间有一些空闲时间，终于做了多年来我想做的事情：从头开始构建操作系统内核。 这些天我主要从事 AI/ML 工作，但我想重新审视基础知识，更好地理解我们每天使用的抽象背后的内容。 因此，我用 Rust 构建了一个小型微内核并记录了整个过程。在模拟 ARM 机器上启动，处理任务通信，支持带中断的抢占式调度，并使用页表 + MMU 启用虚拟内存。 对我来说最有趣的收获是：现代系统概念感觉“神奇”，直到您自己构建一个最小版本。然后你意识到它们只是精心设计和权衡的层层。 从这里开始（第 0 部分）：[https://blog.desigeek.com/post/2026/02/building-microkernel-part0-why-build-an-os/](vscode-file://vscode-app/c:/Users/Amit/AppD ata/Local/Programs/Microsoft%20VS%20Code/e7fb5e96c0/resources/app/out/vs/code/electron-browser/workbench/workbench.html) GitHub 存储库：https://github.com/bahree/rust-microkernel  如果您想了解从启动到虚拟内存的整个构建过程，第 0 部分在顶部和底部提供了完整的 5 部分系列的链接。 我不是操作系统专家，只是分享我学到的知识，以防它对其他好奇的开发人员有用。 😊   由   提交/u/amitbahree  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sh6n4d/i_built_a_microkernel_from_scratch_in_rust_5part/</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建我的游戏引擎的五年泰勒</title>
+      <link>https://www.reddit.com/r/programming/comments/1sh60qt/five_years_of_building_my_game_engine_taylor/</link>
+      <description><![CDATA[ 由   提交 /u/Hell_Rok   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sh60qt/five_years_of_building_my_game_engine_taylor/</guid>
+      <pubDate>Thu, 09 Apr 2026 23:33:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>一种方法是使用 71% 的 CPU。这是火焰图。</title>
+      <link>https://www.reddit.com/r/programming/comments/1sh4li2/one_method_was_using_71_of_cpu_heres_the_flame/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sh4li2/one_method_was_using_71_of_cpu_heres_the_flame/</guid>
+      <pubDate>Thu, 09 Apr 2026 22:34:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>我写了一个 PostgreSQL 补丁来使物化视图刷新 O(delta) 而不是 O(total)</title>
+      <link>https://www.reddit.com/r/programming/comments/1sh4ehp/i_wrote_a_postgresql_patch_to_make_materialized/</link>
+      <description><![CDATA[ 由   提交 /u/Inkbot_dev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sh4ehp/i_wrote_a_postgresql_patch_to_make_materialized/</guid>
+      <pubDate>Thu, 09 Apr 2026 22:26:39 GMT</pubDate>
     </item>
     <item>
       <title>AWS Lambda“死亡之吻”</title>
@@ -74,41 +109,6 @@
       <description><![CDATA[ 由   提交/u/Dear-Economics-315   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1sgmxq2/usb_for_software_developers/</guid>
       <pubDate>Thu, 09 Apr 2026 11:28:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>信号不能保证 - e2e 测试所说的内容与实际检查的内容之间不匹配</title>
-      <link>https://www.reddit.com/r/programming/comments/1sgkrif/signals_are_not_guarantees_the_mismatch_between/</link>
-      <description><![CDATA[一个月前，我开源了一个 Playwright 辅助库。它上线了大约两周，下载了 300 次 - 全部都是我下载的 😅  r/Playwright 社区是公平的：框架太多了。我花了几个星期的时间思考什么才是真正重要的，我真正想表达的是什么。它归结为一个想法、一个小助手和这篇文章。 tldr：大多数 e2e 测试对行为的当前 UI 表示进行编码，而不是行为本身。它们检查信号（可见性、文本内容、启用状态），而不是测试实际上承诺保护的事实。我认为信号、状态和承诺之间存在有用的区别，这使得测试更安静、更有弹性。 如果您有兴趣，请阅读它，我将不胜感激。如果没有，也许让我知道我可以做得更好！感谢任何反馈，并乐意参与讨论:) 我将在评论中删除帮助程序的要点。   由   提交/u/TranslatorRude4917   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sgkrif/signals_are_not_guarantees_the_mismatch_between/</guid>
-      <pubDate>Thu, 09 Apr 2026 09:28:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pizza Tycoon (1994) 如何在 25 MHz CPU 上模拟流量</title>
-      <link>https://www.reddit.com/r/programming/comments/1sg6y9x/how_pizza_tycoon_1994_simulated_traffic_on_a_25/</link>
-      <description><![CDATA[ 由   提交 /u/Optdev   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sg6y9x/how_pizza_tycoon_1994_simulated_traffic_on_a_25/</guid>
-      <pubDate>Wed, 08 Apr 2026 22:00:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>荒谬的工作流程：仅使用 Postgres 即可实现持久执行</title>
-      <link>https://www.reddit.com/r/programming/comments/1sg5koq/absurd_workflows_durable_execution_with_just/</link>
-      <description><![CDATA[ 由   提交/u/self  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sg5koq/absurd_workflows_durable_execution_with_just/</guid>
-      <pubDate>Wed, 08 Apr 2026 21:07:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>假装它直到你打破它：软件工程黎明中非技术经理的终结</title>
-      <link>https://www.reddit.com/r/programming/comments/1sg5gss/fake_it_until_you_break_it_the_end_of/</link>
-      <description><![CDATA[ 由   提交/u/derjanni   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sg5gss/fake_it_until_you_break_it_the_end_of/</guid>
-      <pubDate>Wed, 08 Apr 2026 21:03:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>VLIW：“不可能”的计算机</title>
-      <link>https://www.reddit.com/r/programming/comments/1sg4geh/vliw_the_impossible_computer/</link>
-      <description><![CDATA[ 由   提交/u/muellermichel  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sg4geh/vliw_the_impossible_computer/</guid>
-      <pubDate>Wed, 08 Apr 2026 20:25:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
