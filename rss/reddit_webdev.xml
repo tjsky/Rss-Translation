@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 10 Apr 2026 05:21:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 07:22:02 GMT</lastBuildDate>
+    <item>
+      <title>为什么发送电子邮件比托管更昂贵？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1shf79b/why_is_sending_email_more_expensive_than_hosting/</link>
+      <description><![CDATA[令我感到奇怪的是，像 Resend 这样的公司每月发送 50,000 封电子邮件可以收取 20 美元的费用。但有了这笔钱，托管公司就可以提供数百万的页面浏览量。对于底层基础设施是否有什么我不明白的地方，这意味着发送电子邮件比网页更昂贵？ 如果不是，为什么不在该领域进行更多竞争来压低价格？ 我觉得发送几封营销电子邮件的费用与托管整个网站的费用一样多，这对我来说似乎很疯狂。 注意：我不是在这里抱怨 - 我认为 Resend 很好，他们可以随意收取任何费用。只是好奇为什么要花这么多钱。   由   提交/u/bentonboomslang  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1shf79b/why_is_sending_email_more_expensive_than_hosting/</guid>
+      <pubDate>Fri, 10 Apr 2026 07:03:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>在荷兰找到了一个保持稳定的小型 vps</title>
+      <link>https://www.reddit.com/r/webdev/comments/1shevtz/found_a_small_vps_in_the_netherlands_that_just/</link>
+      <description><![CDATA[在过去的几年里，我的业余项目经历了四个不同的主机。总是有一些令人烦恼的随机减速、让你感到困扰的支持，或者在第一个学期后价格神奇地翻倍。说起来感觉很奇怪，但我不会再坐等什么东西坏掉了。我只是部署了东西并且它起作用了。与其他人打交道后，老实说，这就是我想要的。   由   提交/u/Susanita-Taylor   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1shevtz/found_a_small_vps_in_the_netherlands_that_just/</guid>
+      <pubDate>Fri, 10 Apr 2026 06:45:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>业务团队的每一个“小变化”都会以某种方式转化为数周的工作……然后我就是那个因延误而受到质疑的人。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1shehgb/every_small_change_from_the_business_team_somehow/</link>
+      <description><![CDATA[我不介意做这项工作，但这种情况不断发生。一开始的快速调整慢慢变成了更大的事情，时间表变得混乱。 我认为部分问题是我没有尽早推迟，所以期望不断增长。然后，当事情进展顺利时，看起来我是那个没有正确管理时间的人。 我试图找到一种平衡，让自己仍然能提供帮助，但不会过度投入或陷入无休止的小变化。 我仍然很难拒绝或拒绝，但又不会听起来很懒。你如何处理这个问题？   由   提交/u/BizAlly  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1shehgb/every_small_change_from_the_business_team_somehow/</guid>
+      <pubDate>Fri, 10 Apr 2026 06:22:28 GMT</pubDate>
+    </item>
     <item>
       <title>跟踪人工智能网络流量是一个愚蠢的想法吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1shacnw/is_tracking_ai_web_traffic_a_dumb_idea/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我在一个小应用上使用 Google Analytics 时不断遇到同样的问题： - 大量数据，但不是我实际需要的答案 - 很难回答简单的产品问题 - 感觉对于范围来说有些过分 我实际需要的是非常基本的： - 跟踪产品级事件（而不是综合浏览量） - 了解用户流量 - 在需要时直接查询内容 因此，我最终用一个非常简单的内部事件跟踪设置替换了 GA。 核心思想： - 事件仅与我的应用程序数据一起存储 - 没有单独的分析系统 - 没有仪表板，只需在需要答案时查询 最终是： - 更容易推理 - 更便宜（在现有基础上基本上免费） infra) - 更符合我实际使用数据的方式 权衡： - 没有内置仪表板 - 更多 DIY - 可能不适合团队或大型产品 但对于一个小型、专注的应用程序来说，它更适合。 好奇其他人如何处理这种规模的分析，坚持使用 GA/PostHog 或做一些事情自定义？   由   提交/u/jch254  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1sh05nv/i_stopped_using_google_analytics_for_a_small_app/</guid>
       <pubDate>Thu, 09 Apr 2026 19:46:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>教程地狱</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sgz7lx/tutorial_hell/</link>
-      <description><![CDATA[      我陷入了 MERN 堆栈教程地狱。一些摆脱它的建议可能会有所帮助   由   提交/u/Warm_Competition_293   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sgz7lx/tutorial_hell/</guid>
-      <pubDate>Thu, 09 Apr 2026 19:12:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何更改电子邮件图标？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sgywmy/how_to_change_email_icons/</link>
-      <description><![CDATA[      我们有一家小公司，我们通过 namecheap（托管和域名服务，但不是“私人电子邮件”）使用自己的域名，并且部分通过 Shopify 平台进行路由。 多年来，我们的电子邮件会在电子邮件旁边显示一个小图片图标。 奇怪的是，我们无法弄清楚它从哪里获取该图标。这不是我们想要的（看起来不专业）。但它看起来确实像我们曾经使用过的旧图标（尽管我们不再使用了），或者是多年前我们刚开始使用时可能用作占位符的东西。 我们到处寻找这个图标的来源，但根本找不到与此相关的任何内容。 Namecheap 中没有它，Shopify 中也没有，我们的服务器上没有一个像这样的 favicon.ico。这不是我们的电子邮件客户端或软件中的设置。 我知道正确执行此操作有时可能是一个复杂和/或昂贵的过程。但是，就我们而言，我们从未这样做过。那么大概是什么导致了这种情况应该是可以改变的？想法？   由   提交 /u/LeatherKey64   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sgywmy/how_to_change_email_icons/</guid>
-      <pubDate>Thu, 09 Apr 2026 19:01:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有任何 AI 可以制作出现代外观的 UI，而不是通过氛围编码？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sgy4b1/any_ai_that_makes_modern_looking_ui_and_not_vibe/</link>
-      <description><![CDATA[大多数模型甚至 Opus 似乎在 UI 设计方面都没有做得最好。想知道是否有任何东西可以做到这一点。   由   提交 /u/boringblobking   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sgy4b1/any_ai_that_makes_modern_looking_ui_and_not_vibe/</guid>
-      <pubDate>Thu, 09 Apr 2026 18:33:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
