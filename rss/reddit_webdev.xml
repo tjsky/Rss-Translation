@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 10 Apr 2026 02:04:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 05:21:58 GMT</lastBuildDate>
+    <item>
+      <title>跟踪人工智能网络流量是一个愚蠢的想法吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1shacnw/is_tracking_ai_web_traffic_a_dumb_idea/</link>
+      <description><![CDATA[我注意到 GA 中的一个盲点一直困扰着我。来自 AI 代理的流量永远不会显示，因为它们不执行 Javascript。您的跟踪脚本永远不会触发，因此流量基本上是不可见的。 我知道您可以深入研究服务器日志并构建自定义报告或将其通过管道传输到 Looker studio。但这都是手动的、分散的，并且不是您想要长期维护的东西。没有一个地方可以直接看到它。 因此，我正在考虑为此构建一个一体化仪表板，例如用于 AI 代理流量的 GA。但我真的很想得到一些反馈：  AI 代理流量是您现在正在积极尝试测量的吗？ 服务器日志和 Looker Studio 解决方法对您来说足够吗，还是专门构建的工具实际上有用？  只是想弄清楚这是否是一个真正的差距，或者我是否正在解决没有人遇到的问题。   由   提交 /u/UptownOnion   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1shacnw/is_tracking_ai_web_traffic_a_dumb_idea/</guid>
+      <pubDate>Fri, 10 Apr 2026 02:47:20 GMT</pubDate>
+    </item>
     <item>
       <title>加尔定律 - 软件定律</title>
       <link>https://www.reddit.com/r/webdev/comments/1sh8pvk/galls_law_laws_of_software/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[大多数模型甚至 Opus 似乎在 UI 设计方面都没有做得最好。想知道是否有任何东西可以做到这一点。   由   提交 /u/boringblobking   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1sgy4b1/any_ai_that_makes_modern_looking_ui_and_not_vibe/</guid>
       <pubDate>Thu, 09 Apr 2026 18:33:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>从 CID 获取 Google 地点 ID 的最佳方式</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sgy026/best_way_to_get_google_place_id_from_cid/</link>
-      <description><![CDATA[我正在开发一个工具，用于处理 Google 地图 URL 并尝试可靠地获取每个商家的地点 ID（ChIJ… 格式）。 从地图 URL 中我可以轻松提取 CID，例如： 0x487baf8d5fdb7b89:0xd927957786dc2e9e 但我真正需要的是与 Places API 一起使用的地点 ID。 我尝试了几种方法：  使用 cid 参数的地点详细信息 API → 返回 INVALID_REQUEST 使用 lat/lng 的地理编码 API → 返回地址级 place_id，而不是商家 使用坐标进行附近搜索 → 不一致，通常会返回附近商家 文本搜索 → 有时可以工作，但在没有全名或地址的情况下不可靠  到目前为止，感觉没有正式的方法来转换 CID → 地点 ID，即使 Google 在内部明确链接了它们。 目前我的后备流程是：  提取地图网址中的纬度/经度 尝试使用关键字（企业名称）进行附近搜索 回退到文本搜索 如果全部失败，只需链接到 Google 搜索  …但它不是 100% 可靠。 是否有任何正确或推荐的方法：  将 CID 转换为地点 ID 或提取地点直接从地图 URL 获取 ID，而不需要抓取页面？  如果有人对此有可靠的生产方法（特别是当您只有地图 URL 或只有公司名称时），我真的很感激您的见解。 干杯 👍   由   提交 /u/TheMaddis   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sgy026/best_way_to_get_google_place_id_from_cid/</guid>
-      <pubDate>Thu, 09 Apr 2026 18:29:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
