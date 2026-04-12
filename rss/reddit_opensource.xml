@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 12 Apr 2026 07:08:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 12:55:31 GMT</lastBuildDate>
+    <item>
+      <title>为什么没有开放的支付卡网络？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1sja3ex/why_arent_there_any_open_payment_card_networks/</link>
+      <description><![CDATA[几乎 90% 的信用卡/借记卡交易都是通过 Visa、Mastercard 或 Amex 网络进行的。这些都是美国公司，根本不是开源的 那么为什么这样的网络不能存在而只能开源呢？如果这里有该主题的专家，为什么不可能？ 编辑：通过“支付网络”，我指的是带有卡等的传统支付网络..   由   提交/u/Ok-Conversation-1430   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1sja3ex/why_arent_there_any_open_payment_card_networks/</guid>
+      <pubDate>Sun, 12 Apr 2026 09:40:36 GMT</pubDate>
+    </item>
     <item>
       <title>FLASH-BLIP：LOVE2D 中的一款小型复古风格垂直卷轴休闲游戏，大小 49,9 kB KiB，麻省理工学院许可，灵感来自 Kenta Cho 的作品</title>
       <link>https://www.reddit.com/r/opensource/comments/1sj61pf/flashblip_a_small_retro_syle_vertical_scroller/</link>
@@ -74,13 +81,6 @@
       <description><![CDATA[我构建了 PureMac，一个免费的开源 macOS 系统清理器，作为 CleanMyMac 的替代品。 我构建它的原因： 我尝试过的每个 macOS 清理器都是付费的、基于订阅的或加载了遥测技术。我想要一些不需要打电话回家就能工作的东西。 它的作用： - 清理 Xcode 派生数据、档案、模拟器 - 清除 Homebrew 缓存 - 系统缓存和日志清理 - 计划自动清理 - 本机 SwiftUI 界面 它不做什么： - 没有遥测或分析 - 没有订阅 - 没有数据收集 MIT 许可，在 GitHub 上有 91 颗星，所以远。欢迎提供反馈和贡献。 GitHub：https://github.com/momenbasel/PureMac   由   提交 /u/meowerguy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1shsmmv/puremac_free_opensource_macos_cleaner_cleanmymac/</guid>
       <pubDate>Fri, 10 Apr 2026 17:07:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>我开源了一个专为长期任务而生的代理架构，而 Manus 和 OpenClaw 本身并不能很好地支持该架构</title>
-      <link>https://www.reddit.com/r/opensource/comments/1shq993/i_opensourced_an_agent_architecture_thats_born/</link>
-      <description><![CDATA[我已经为此工作了一段时间，终于将 OSS 桌面/运行时路径变成了我感觉很好的形状，在这里分享。它绝对有助于自动化您的工作流程。它被称为 Holaboss。基本上，它是一个桌面工作区加上运行时，让代理可以进行正在进行的工作，而不仅仅是回答提示。因此，您不仅可以与本地模特聊天，还可以执行以下操作： 收件箱管理 · 端到端运行您的收件箱 · 草稿、回复、跟进 · 随着时间的推移，不断地发现和培养新的潜在客户 销售 CRM · 使用您的联系人电子表格 ·管理对话 · 更新 CRM 状态 · 保持出站和后续持续运行 DevRel · 读取您的 GitHub 活动、提交、PR、发布 · 用您的声音持续发布更新 · 让您专注于构建 社交运营商 · 操作您的 Twitter、LinkedIn、Reddit · 编写内容 · 分析性能 · 随着时间的推移迭代您的内容策略 它还可以让您随工作空间移动工作人员的设置，以便上下文、工具和技能随工作一起移动。 重点是本地模型推理只是一层。 Holaboss 处理其周围的工作层，规则所在的位置、未完成的工作所在的位置、可重用过程所在的位置以及本地设置明天可以返回而不会丢失线程的位置。 设置现在很简单： 设置步骤 · 启动并拉取像 qwen2.5:0.5b 这样的小模型 · 运行 npm run Desktop:install · 将desktop/.env.example复制到desktop/.env · 运行npm rundesktop:dev · 在Settings to Models中，将其指向ht tp://localhost:11434/v1 目前OSS桌面路径是macOS优先，Windows和Linux正在进行中。 Repo: https://github.com/holaboss-ai/holaboss-ai 希望这里的人们尝试一下。如果感觉有用，那就意义重大。 很高兴回答有关连续性、会话恢复和自动化的问题。   由   提交/u/sanu_123_s   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1shq993/i_opensourced_an_agent_architecture_thats_born/</guid>
-      <pubDate>Fri, 10 Apr 2026 15:44:37 GMT</pubDate>
     </item>
     <item>
       <title>本地未经审查 - 使用 Tauri v2 而不是 Electron 构建的 AGPL-3.0 本地 AI 应用程序</title>
