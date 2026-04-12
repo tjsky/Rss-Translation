@@ -4,16 +4,51 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 11 Apr 2026 21:28:35 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 02:05:41 GMT</lastBuildDate>
+    <item>
+      <title>我只使用文本文件和法学硕士对话为我的人工智能构建了一个“认知操作系统”。这是实际发生的变化。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sj1iuk/i_built_a_cognitive_os_for_my_ai_using_nothing/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sj1iuk/i_built_a_cognitive_os_for_my_ai_using_nothing/</guid>
+      <pubDate>Sun, 12 Apr 2026 01:58:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么 ChatGPT 变得如此令人讨厌和令人不快？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sj05s5/why_has_chatgpt_become_so_annoying_and/</link>
+      <description><![CDATA[我注意到在新模型出现之前，人们抱怨 ChatGPT“太令人愉快”并且会让你对任何事情感到困惑。但现在我发现情况完全相反，看起来 ChatGPT 的不同意只是为了不同意。曾经有一个话题，我会与 ChatGPT 讨论，在以前的模型上，我设法说服它，我实际上可以谈论它。 但是在更新之后，无论我说什么，无论我给出多少明确的证据，它总是无缘无故地不同意不同意，并且变得如此烦人，以至于我完全停止与 ChatGPT 讨论话题，并切换到其他应用程序，如 Claude 和 DeepSeek 来讨论那些对我来说太烦人的话题。 ChatGPT。 ChatGPT 已经变得难以忍受，每当我谈论一个任何正常人都会同意的话题时，ChatGPT 总是不同意不同意，以至于让我不必要地恼火，所以我就停止在某些事情上使用它。 我确实认为这是人们抱怨 ChatGPT“太讨人喜欢”的结果，所以设计者现在把它变得太不讨人喜欢了。这变得很烦人，我以前可以谈论的话题在 ChatGPT 上变得毫无用处。 其他人也注意到了这一点吗？因为我仍然看到人们说“ChatGPT 让你在任何事情上都感到兴奋”。老实说，我不同意，但我不知道，也许只是我。   由   提交 /u/ArnikaLovesUnicornz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sj05s5/why_has_chatgpt_become_so_annoying_and/</guid>
+      <pubDate>Sun, 12 Apr 2026 00:53:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>到目前为止，睡得更好以及其他学习成果……</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1siztu5/sleeping_better_and_other_learnings_so_far/</link>
+      <description><![CDATA[我开始使用 Claude Cowork 构建个人 AI 代理来组织我的生活并确定其优先顺序。最大的惊喜是什么？我睡得更好了。事实证明，一知半解比生产力的提高更有价值。经过一周的微调，我认为准确率大约为 75%。足够好才能有用，但不够好以至于无法完全信任。 诚实的警告：工具并不容易。我不是技术人员，要完成这项工作需要真正持续的努力。 与此同时，我一直在使用 Claude Opus 进行高风险思考：场景分析、决策审查、压力测试想法。推理的深度确实令人印象深刻。与十四行诗相比，它的成本更高，与俳句相比，它的成本更高，因此我有选择地使用它，就像高级顾问一样：不是每个问题，而是真正重要的问题。 还有其他人构建类似的东西吗？您的最大收获是什么？   由   提交/u/rt2828  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1siztu5/sleeping_better_and_other_learnings_so_far/</guid>
+      <pubDate>Sun, 12 Apr 2026 00:37:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mirrorwork - 完全使用 Claude Code 的职业管理工具</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1siw34j/mirrorwork_career_management_tool_entirely_with/</link>
+      <description><![CDATA[它是什么： Mirrorwork - 一个帮助管理求职的 CLI 工具。您可以根据简历构建主档案、扫描求职板、进行适合性分析并跟踪申请。全部来自终端。 Claude Code 如何提供帮助： 整个“后端”都由终端完成。是克劳德·科特工。每个命令（/mw scan、/mw inbox、/mw tracker）都是一个 Markdown 文件，用于描述代理应执行的操作。核心逻辑没有传统代码 - 只是 Claude 执行的代理指令。 例如，当您运行 /mw add job  时，Claude： - 获取职位发布 - 提取要求 - 读取您的个人资料 - 导出特定于该角色的定位 - 运行适合性分析 - 将所有内容保存到 JSON 代理通过文件系统进行协调。配置文件数据位于 profile/ 中，作业位于 activity/jobs/ 中，全部为 JSON。 Claude 在工作时读取和写入这些文件。 我通过这种方式构建学到了什么： - Markdown 代理令人惊讶地能够编排工作流程 - 文件系统作为“数据库”保持一切简单和可检查 - 迭代速度很快 - 只需编辑 markdown 并重试 它是免费且开源的： https://github.com/grandimam/mirrorwork 还为时过早 - 感谢使用 Claude Code 构建的其他人的反馈。特别好奇是否有人有使代理在多个步骤中更加可靠的模式。   由   提交 /u/grandimam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1siw34j/mirrorwork_career_management_tool_entirely_with/</guid>
+      <pubDate>Sat, 11 Apr 2026 21:53:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>明天实验室</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sivrer/the_tomorrow_lab/</link>
+      <description><![CDATA[嗨朋友们， 希望你们一切都好。前一个月，我和我的两个孩子谈论了人工智能、他们的未来（即将到来）以及人工智能可能扮演的角色。我继续搜索，试图找到一些资源来帮助我在他们的水平上教他们人工智能。我发现的所有内容要么太冗长，要么太技术性，要么根本不存在。我与人工智能一起工作，我发现的大部分内容都让我感到困惑，那么地球上的孩子们如何理解它呢？因此，我决定创建一个针对 8 至 16 岁儿童的网站，旨在帮助他们了解人工智能是什么，当他们达到离校年龄时可能有哪些工作在等待着他们，以及他们这个年龄段的其他人现在正在使用人工智能和机器学习做什么，以及为他们提供学习人工智能和机器学习的资源（如果他们愿意）。还有一些给家长和老师的。  哦，如果你想知道，我构建它的所有来源都是值得信赖的来源，例如大学和人工智能公司等，但如果你想查看，这些都在网站上的“来源”位中。 没有注册，没有广告，没有捕获数据，只是一个免费的，希望有用的网站。即使它只能帮助几个孩子和家长对他们的未来更加确定，我也很高兴我花了业余时间把它放在一起。 无论如何，任何反馈或问题，请随时通过 DM 联系我。如果您认为这可能对某人有帮助，请与朋友和同事分享。 您可以在这里找到它 - https://thetomorrowlab.info   由   提交/u/crisp_sandwich_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sivrer/the_tomorrow_lab/</guid>
+      <pubDate>Sat, 11 Apr 2026 21:39:40 GMT</pubDate>
+    </item>
     <item>
       <title>Jack Schwaiger 在 1.5 年后离开，xAI 和埃隆·马斯克又遭遇重大损失</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1siv1zm/yet_another_big_loss_for_xai_and_elon_musk_as/</link>
-      <description><![CDATA[xAI 新 Grok 模型的推出再次受到打击。 Jack Schwaiger 在 Elon Musk 的人工智能初创公司工作 1.5 年后离职。   由   提交/u/ImaginaryRea1ity  [链接] [评论]]]></description>
+      <description><![CDATA[xAI 新 Grok 模型的推出再次受到打击。 Jack Schwaiger 在 Elon Musk 的人工智能初创公司工作 1.5 年后离职。   由   提交 /u/ImaginaryRea1ity   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1siv1zm/yet_another_big_loss_for_xai_and_elon_musk_as/</guid>
       <pubDate>Sat, 11 Apr 2026 21:10:15 GMT</pubDate>
     </item>
     <item>
-      <title></title>
+      <title>英国《金融时报》：“中国阿里巴巴的收入转向开源人工智能”</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1siupa3/ft_chinas_alibaba_shifts_towards_revenue_over/</link>
       <description><![CDATA[ 中国阿里巴巴集团正在将其人工智能战略重新调整为创收模式，这标志着促成Qwen家族成功的开源方式的潜在转变。英国《金融时报》报道：由于内部战略问题以及 Qwen 团队高层人物的离职，阿里云前首席技术官周敬仁接任了人工智能部门的领导职务。 这家中国集团现在的目标是加强其所谓的“模型即服务”业务。模型，将人工智能工具集成到其电子商务生态系统中，并增加通过云提供的专有模型的权重。这一举措反映了更广泛的行业趋势：价值正在从模型的纯粹性能转向能够产生持续使用和收入的具体应用程序，例如编码和自主代理。据该报报道，尽管 Qwen 得到了全球开发者社区的大力支持，但内部对开源成本高昂和缺乏明确的货币化路径的担忧日益加剧。阿里巴巴将继续在某些领域发布先进的开源模型，但现在的战略重点似乎与该集团的云和收入目标一致。  这里有几个问题：  收入，当然。 能力。随着这些模型变得更加关键，更大的实验室将相当不愿意对它们进行 OSS。存在潜在的责任和危险的提升。  现在值得注意的是，GLM 5.1 可能在 OSS 模型方面处于领先地位，尽管它非常大，并且需要大量内存，如果您希望每秒的令牌速度比爬行更快，还需要 GPU。 值得注意的是，GLM 5.1 在以下方面击败了 Opus 4.6 SWE-BENCH-PRO。 https://z.ai/blog/glm-5.1   由   提交 /u/kaggleqrdl   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1siupa3/ft_chinas_alibaba_shifts_towards_revenue_over/</guid>
@@ -29,7 +64,7 @@
     <item>
       <title>人工智能在医疗保健数据存储/安全中的作用</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sir1ko/ais_role_in_healthcare_data_storage_security/</link>
-      <description><![CDATA[大家好， 我是三一学院计算机科学专业的学生 Aiden，我一直在研究人工智能和网络安全的交叉点......特别是过去几年医疗数据泄露的激增。 一项统计数据让我印象深刻：根据 HIPAA 杂志，超过 2.59 亿个人的医疗信息在2024 年。随着“现在收获，稍后解密”(HNDL) 策略的兴起：攻击者今天窃取加密数据，希望未来的量子能力能让他们解密，长期的隐私风险变得越来越严重。 对于任何不熟悉的人来说，HNDL 基本上意味着： 现在窃取加密数据，稍后等待更强的解密方法。 这是一个缓慢的燃烧过程威胁，但随着量子计算的进步，这是一个非常真实的威胁。 我正在开展一个项目，探索人工智能驱动的系统如何帮助保护敏感的医疗数据免受此类攻击。但我遇到了一个更人性化而不是技术性的问题： 人们真的会相信人工智能来保护他们最私人的信息吗？ 为了了解社区的感受，我整理了一个简短的匿名调查（大约需要 2 分钟）： https://ai.aidentejada.com/survey 提交声明：本文讨论了量子时代对加密医疗数据的攻击日益增长的威胁，并探讨了基于人工智能的安全系统是否可以被信任来保护高度敏感的信息。我正在收集社区意见，为人工智能驱动的针对 HNDL 类型威胁的防御研究提供信息，这直接关系到人工智能安全、网络安全和隐私的未来。 我非常感谢任何诚实的反馈。如果有人想深入研究技术方面——后量子密码学、异常检测、人工智能辅助威胁建模——我非常乐意在评论中讨论。 感谢您花时间阅读这个！   由   提交/u/iBoomer69  [链接] [评论]]]></description>
+      <description><![CDATA[大家好， 我是三一学院计算机科学专业的学生 Aiden，我一直在研究人工智能和网络安全的交叉点......特别是过去几年医疗数据泄露的激增。 一项统计数据让我印象深刻：根据 HIPAA 杂志，超过 2.59 亿个人的医疗信息在2024 年。随着“现在收获，稍后解密”(HNDL) 策略的兴起：攻击者今天窃取加密数据，希望未来的量子能力能让他们解密，长期的隐私风险变得越来越严重。 对于任何不熟悉的人来说，HNDL 基本上意味着： 现在窃取加密数据，稍后等待更强的解密方法。 这是一个缓慢的燃烧过程威胁，但随着量子计算的进步，这是一个非常真实的威胁。 我正在开展一个项目，探索人工智能驱动的系统如何帮助保护敏感的医疗数据免受此类攻击。但我遇到了一个更人性化而不是技术性的问题： 人们真的会相信人工智能来保护他们最私人的信息吗？ 为了了解社区的感受，我整理了一个简短的匿名调查（大约需要 2 分钟）： https://tejadaai.com/survey 提交声明：本文讨论了量子时代对加密医疗数据的攻击日益增长的威胁，并探讨了基于人工智能的安全系统是否可以信任来保护高度敏感的信息。我正在收集社区意见，为人工智能驱动的针对 HNDL 类型威胁的防御研究提供信息，这直接关系到人工智能安全、网络安全和隐私的未来。 我非常感谢任何诚实的反馈。如果有人想深入研究技术方面——后量子密码学、异常检测、人工智能辅助威胁建模——我非常乐意在评论中讨论。 感谢您花时间阅读这个！   由   提交/u/iBoomer69  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sir1ko/ais_role_in_healthcare_data_storage_security/</guid>
       <pubDate>Sat, 11 Apr 2026 18:35:51 GMT</pubDate>
     </item>
@@ -48,13 +83,6 @@
       <pubDate>Sat, 11 Apr 2026 16:29:22 GMT</pubDate>
     </item>
     <item>
-      <title></title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sinari/hybrid_approach_to_ai/</link>
-      <description><![CDATA[If you believe as I do, that transformers are not only an eventual dead end, but potentially dangerous, I invite you to take a look at my approach.该存储库尚未完成，但我已经构建了一个神经符号/变压器混合体，可将变压器降级为语言界面。  https://github.com/musicmonk42/VulcanAMI_LLM.git   由   提交 /u/Sure_Excuse_8824   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sinari/hybrid_approach_to_ai/</guid>
-      <pubDate>Sat, 11 Apr 2026 16:15:18 GMT</pubDate>
-    </item>
-    <item>
       <title>人工智能是让我们变得更聪明还是让我们更加依赖？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1silsec/is_ai_making_us_smarter_or_just_more_dependent/</link>
       <description><![CDATA[我在自己的工作流程中注意到了一些事情： 在人工智能出现之前： – 我更加挣扎 – 花了更长的时间 – 但我记得更好了 现在有了人工智能： – 我的移动速度提高了 2-3 倍 –我依靠它来写作、编码，甚至思考 ——但我记住的东西很少，有时甚至完全跳过深度思考 感觉人工智能正在成为一种“思维捷径”。 所以权衡可能是： 速度与深度 我的问题： 我们是否外包思考本身？ 想听听真实的经验： 人工智能有什么真正为你带来了进步吗？ 它在哪里让你变弱了（如果有的话）？   由   提交 /u/Signal-Pin-7887   [链接] [评论]]]></description>
@@ -62,39 +90,11 @@
       <pubDate>Sat, 11 Apr 2026 15:17:17 GMT</pubDate>
     </item>
     <item>
-      <title>精选 550 多个免费或低成本 AI 工具，用于构建 LLM 应用程序（API、本地模型、RAG、代理）</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sikye5/curated_550_free_or_low_cost_ai_tools_for/</link>
-      <description><![CDATA[我编制了一份免费或低成本工具的结构化列表，这些工具实际上可以组合到可用的开发堆栈中。 该列表不是专注于通用的“AI 工具目录”，而是围绕构建 LLM 系统时通常使用的组件进行组织： -本地模型（Ollama、Qwen、Llama 变体） -具有可用免费层的 LLM API （OpenRouter、Groq、Gemini 等） - 用于 AI 辅助开发的编码 IDE 和 CLI 工具 -RAG 堆栈组件（向量数据库、嵌入模型、框架） - 代理框架和编排工具 - 语音图像视频推理 API - 针对成本或本地首次设置进行优化的堆栈组合示例 当前包含 550 多个条目（包括模型）变体）。在将这些放在一起时我注意到的一件事是，有多少可靠的工具具有慷慨的免费套餐，但分散在文档、存储库或随机博客文章中，特别是对于本地优先或 BYOK 工作流程。 方法：从 GitHub 存储库、文档、基准测试和社区讨论中收集工具，然后使用多个来源验证定价层和限制。重点是在实际开发流程中可用的工具。 局限性： - 定价和免费套餐限制经常变化 - 尚未包括模型性能比较 - 覆盖范围优先考虑开发人员工具而不是消费者人工智能应用程序 - 随着提供商更改政策，某些条目可能会过时 存储库 https://github.com/ShaikhWarsi/free-ai-tools 目标是为尝试基于 LLM 的系统的开发人员提供实用的参考，而无需每月花费大量资金。   由   提交 /u/Axintwo   [链接] [comments]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sikye5/curated_550_free_or_low_cost_ai_tools_for/</guid>
-      <pubDate>Sat, 11 Apr 2026 14:44:25 GMT</pubDate>
-    </item>
-    <item>
       <title>人工智能可能会让律师度过最忙碌的几年，然后让他们过时</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sikxmb/ai_might_be_giving_lawyers_their_busiest_years/</link>
-      <description><![CDATA[我这么说有点奇怪，但人工智能目前是我的律师事务所遇到的最好的事情。 我从来没有做过这么多工作。甚至还差得很远。 不，这并不是因为人工智能正在取代律师。恰恰相反。 这是因为突然之间每个人都在构建人工智能产品。 人们在周末对 SaaS 工具进行编码，启动它们，然后才意识到： “等等……我们是否违反了欧盟人工智能法案？” 或者他们以零协议的方式创办了一家公司，两个月后事情就爆发了，现在他们需要一名律师来收拾残局。 老实说，这是我目前工作量的一半之所以存在，是因为人们的行动速度比他们理解的后果要快。 所以现在，人工智能基本上正在产生大量的法律工作：合规性、创始人纠纷、责任问题，凡是你能想到的。 同时，我非常确信很大一部分法律工作将在几年内实现自动化。 这造成了一个奇怪的情况：人工智能可能会在律师中的许多人变得过时之前给他们最忙碌的几年。    由   提交 /u/Lucylucyeth   [链接] [评论]]]></description>
+      <description><![CDATA[我这么说有点奇怪，但人工智能目前是我的律师事务所遇到的最好的事情。 我从来没有做过这么多工作。甚至还差得很远。 不，这并不是因为人工智能正在取代律师。恰恰相反。 这是因为突然间每个人都在构建人工智能产品。 人们在周末对 SaaS 工具进行编码，启动它们，然后才意识到： “等等……我们是否违反了欧盟人工智能法案？” 或者他们以零协议创办了一家公司，两个月后事情就爆发了，现在他们需要一名律师来收拾残局。 老实说，这是我目前工作量的一半之所以存在，是因为人们的行动速度比他们理解的后果要快。 所以现在，人工智能基本上正在产生大量的法律工作：合规性、创始人纠纷、责任问题，凡是你能想到的。 同时，我非常确信很大一部分法律工作将在几年内实现自动化。 这造成了一个奇怪的情况：人工智能可能会在律师中的许多人变得过时之前给他们最忙碌的几年。    由   提交 /u/Lucylucyeth   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sikxmb/ai_might_be_giving_lawyers_their_busiest_years/</guid>
       <pubDate>Sat, 11 Apr 2026 14:43:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能并没有取代工作……它只是让他们感到困惑</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sike32/ai_didnt_replace_jobs_it_just_confused_them/</link>
-      <description><![CDATA[现在，在许多初创公司中，角色开始重叠。一个人负责内容编写，并在需要时使用人工智能工具创建视觉效果，这使得这一过程更快、更容易。与此同时，设计师不再局限于视觉效果，他们还编写内容和标题以在社交媒体上分享他们的作品。这清楚地表明人工智能如何推动人们掌握多种技能，而不是只局限于一种角色 现在每个人都在做所有事情... 任何知道如何使用人工智能完成各种工作的人都将拥有 100% 的工作保障 很想听听您的想法...   由   提交/u/Confident_Ad8140   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sike32/ai_didnt_replace_jobs_it_just_confused_them/</guid>
-      <pubDate>Sat, 11 Apr 2026 14:21:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能能力悬而未决的合作案例</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sih9op/the_case_for_cooperation_as_an_ai_capability/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sih9op/the_case_for_cooperation_as_an_ai_capability/</guid>
-      <pubDate>Sat, 11 Apr 2026 12:04:18 GMT</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1si9qyj/tool_that_uses_ai_to_did_nothing_of_the_sort/</link>
-      <description><![CDATA[最近加入了一个项目，协助用组织的设备及其维护记录填充数据库。 我被告知他们购买了一些软件，“你给它一个设备列表，它使用人工智能来制定所有维护制度”。 （每种类型的设备都有一个国家“最佳实践”协议，说明应该做什么以及如何维护它经常） 我当时就想“哦哇未来就在这里”很感兴趣，但也有点担心我的专业是否有未来。 是的，它没有使用“AI”。总而言之，只是一个非常基本的查找...您甚至需要为其提供执行查找所需的标准国家参考...它本身什么也做不了，哈哈。 想法？评论？    由   提交 /u/eques_99   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1si9qyj/tool_that_uses_ai_to_did_nothing_of_the_sort/</guid>
-      <pubDate>Sat, 11 Apr 2026 04:58:05 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
