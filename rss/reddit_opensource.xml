@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 13 Apr 2026 05:37:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 07:56:53 GMT</lastBuildDate>
+    <item>
+      <title>帮助 fre:ac 将每个文件夹包含 mp3 的多个目录转换为单个 m4b</title>
+      <link>https://www.reddit.com/r/opensource/comments/1sk3a3v/help_with_freac_converting_multiple_direcories/</link>
+      <description><![CDATA[搜索显示 fre:ac 是开源的，所以我在这里寻求帮助或指导。如果有一个专门讨论此问题的论坛，但我没有找到，或者在其他地方我可以直接获得帮助，我将不胜感激您能提供的任何帮助。 如果有人可以帮助 fre:ac，我的问题是我在 fre:ac 中一次加载多个文件夹，并尝试将输出设为每个源文件夹一个文件，但它不起作用。  我在元数据中具有相同的专辑名称，并将其设置为使用专辑名称作为输出文件名，如果我一次加载一个文件夹，则文件名在合并为单个文件时有效， 不过，我会一次加载所有文件夹并选择“输出到单个文件”使其将所有专辑合并到一个文件中，而不是将每个专辑合并到该专辑的一个文件中。  取消勾选“输出到单个文件”选项确实使每个专辑尝试使用专辑名称作为输出文件名，但随后它想要覆盖该文件或跳过，因为使用专辑名称作为输出文件名的每个曲目都会使 fre:ac 尝试为每个曲目输出相同的文件名。 是否有一个选项可以在目标文件名相同时使其输出到单个文件，但不会使作业列表中的每个文件都尝试全部在一个文件中？ 是否没有办法在一次为每个专辑创建一个 m4b 文件？ 使用不同的程序执行此批处理方法是否更容易，不需要付费版本来处理超过设定数量的文件？   由   提交 /u/Assist-ant   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1sk3a3v/help_with_freac_converting_multiple_direcories/</guid>
+      <pubDate>Mon, 13 Apr 2026 06:59:41 GMT</pubDate>
+    </item>
     <item>
       <title>在千钧一发之后，您如何处理对开源依赖项的信任？</title>
       <link>https://www.reddit.com/r/opensource/comments/1sjo4az/how_do_you_handle_trust_in_opensource/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[我构建了 PureMac，一个免费的开源 macOS 系统清理器，作为 CleanMyMac 的替代品。 我构建它的原因： 我尝试过的每个 macOS 清理器都是付费的、基于订阅的或加载了遥测技术。我想要一些不需要打电话回家就能工作的东西。 它的作用： - 清理 Xcode 派生数据、档案、模拟器 - 清除 Homebrew 缓存 - 系统缓存和日志清理 - 计划自动清理 - 本机 SwiftUI 界面 它不做什么： - 没有遥测或分析 - 没有订阅 - 没有数据收集 MIT 许可，在 GitHub 上有 91 颗星，所以远。欢迎提供反馈和贡献。 GitHub：https://github.com/momenbasel/PureMac   由   提交 /u/meowerguy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1shsmmv/puremac_free_opensource_macos_cleaner_cleanmymac/</guid>
       <pubDate>Fri, 10 Apr 2026 17:07:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>本地未经审查 - 使用 Tauri v2 而不是 Electron 构建的 AGPL-3.0 本地 AI 应用程序</title>
-      <link>https://www.reddit.com/r/opensource/comments/1shlwut/locally_uncensored_agpl30_local_ai_app_built_with/</link>
-      <description><![CDATA[我们已经为此工作了一段时间，并认为 r/opensource 会欣赏这种方法。 Locally Uncensored 是一款用于在本地运行 AI 的桌面应用程序 - 聊天、图像生成、视频生成，所有这些都无需依赖云。人们真正感兴趣的是技术堆栈和许可决策。 使用 Tauri v2（Rust 后端）而不是 Electron 构建它。区别是白天和黑夜——整个应用程序大约是 15MB，而不是 200MB+，RAM 更少，Rust 处理后端的东西，否则 Node.js 会变得一团糟。没有捆绑 chromium，只是您的系统 webview。 它连接到 12 个不同的后端（ollama、llama.cpp、koboldcpp、vllm、tabbyapi 等），并具有用于图像和视频生成的即插即用 ComfyUI 集成。基本上是试图让本地人工智能的设置变得不那么痛苦。 在 AGPL-3.0 下获得许可，因为我想确保任何修改都保持开放。如果有人在此基础上进行构建，他们必须分享回来。麻省理工学院对于那些可以轻易融入专有产品的东西感到过于宽容。 AGPL 确保社区从任何改进中受益。 v2.3.0 刚刚发布，带有 ComfyUI 集成、图像到图像、图像到视频（在 6GB VRAM 上运行）以及对 GLM、Qwen、Gemma 4 等较新模型的支持。 欢迎贡献 - 还存在很多粗糙的边缘，我宁愿听取社区的意见，而不是孤立地构建所有内容。 github: https://github.com/PurpleDoubleD/locally-uncensored   由   提交/u/GroundwritingMall54  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1shlwut/locally_uncensored_agpl30_local_ai_app_built_with/</guid>
-      <pubDate>Fri, 10 Apr 2026 13:01:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
