@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 13 Apr 2026 02:09:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 05:36:12 GMT</lastBuildDate>
+    <item>
+      <title>对于极长的任务来说，哪一个是最好的完全托管的多代理协调器？</title>
+      <link>https://www.reddit.com/r/automation/comments/1sjz4cl/which_is_the_best_fullymanaged_multiagent/</link>
+      <description><![CDATA[我正在寻找最好的完全托管的多代理协调器，它能够以极高的精度处理极长的任务。 经过详细研究，我找到了这些 -   困惑计算机 - 亲自尝试过，它的准确性、性能和功能完全让我震惊。唯一的缺点是，它非常昂贵。 （积分会像任何东西一样耗尽） Kimi Agent Swarm。 （没有尝试过+很少有关于它的信息） Claude - 没有尝试过，但听说它非常昂贵。 Manus AI - 3周前的博客将其与其他博客进行了比较，与其他博客相比，它的性能非常差。 （由于这已经有 3 周了，随着 Meta 推出 Muse Spark，它的性能可能已经完全改变） Simular Pro SAI Agent - 没有尝试过，但在他们的介绍视频中 - 它们被证明可以高精度地处理极长的时间范围任务。  如果你们使用过其中任何一个（或我没有提到的任何更好的工具），如果你们分享您的经验，我将不胜感激...我我正在寻找可用的完美产品。   由   提交/u/Lucky_Creme_5208  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1sjz4cl/which_is_the_best_fullymanaged_multiagent/</guid>
+      <pubDate>Mon, 13 Apr 2026 03:17:15 GMT</pubDate>
+    </item>
     <item>
       <title>我用 4 代理工作流程替换了一个巨大的提示，输出明显更好</title>
       <link>https://www.reddit.com/r/automation/comments/1sjxmzs/i_replaced_one_giant_prompt_with_a_4agent/</link>
@@ -29,7 +36,7 @@
     <item>
       <title>说实话：你真的了解你自己的自动化吗？</title>
       <link>https://www.reddit.com/r/automation/comments/1sjnsse/be_honest_do_you_actually_understand_your_own/</link>
-      <description><![CDATA[不是他们的想法。我的意思是： - 什么取决于什么 - 如果一步失败会发生什么 - 在后台悄然中断的事情 因为我看到一切都“有效”的设置......但没有人能清楚地解释如何做到这一点。感觉就像我们都只是希望没有任何问题。   由   提交/u/uwt101  [链接] [评论]]]></description>
+      <description><![CDATA[不是他们的想法。我的意思是： - 什么取决于什么 - 如果一步失败会发生什么 - 在后台悄然中断的事情 因为我看到一切都“有效”的设置......但没有人能清楚地解释如何做到这一点。感觉就像我们都只是希望没有任何问题。   由   提交 /u/uwt101   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1sjnsse/be_honest_do_you_actually_understand_your_own/</guid>
       <pubDate>Sun, 12 Apr 2026 19:20:41 GMT</pubDate>
     </item>
@@ -74,13 +81,6 @@
       <description><![CDATA[在观看了几个不同的 AI 构建之后，最近一直在思考这个问题，从“哇，这太不可思议了”到演示中的到实际使用中完全不可靠。演示环境基本上是一个受控的幻想。干净的输入、精心挑选的提示、没有奇怪的用户行为、没有延迟峰值。然后你把真人放在上面，突然间模型肯定是错误的、超时的，或者只是做了一些完全出乎意料的事情，因为有人以没有测试过的方式表达了一个问题。令人沮丧的是，大多数团队仍然将其视为模型问题，而实际上这主要是一个系统问题。模型本身可能没问题。缺少的是适当的评估基础设施、实际反映生产的分期以及某种漂移监控，以便您知道情况何时悄悄变得更糟。影子部署在这里很有帮助，您可以在完全切换之前在实时流量上运行新版本和旧版本。 A/B 测试模型的变化与测试任何产品功能的方式相同。老实说，这很无聊，但它实际上缩小了差距。我认为最大的思维转变是像对待任何其他生产软件一样对待人工智能可靠性，而不是像对待演示并宣布完成的研究项目一样。错误恢复、优雅降级、置信度跟踪，所有这些都比从基准分数中再挤出一个百分点更重要。很好奇这里是否有人找到了一个可以很好地跨阶段和生产的良好评估设置，因为对于我见过的大多数团队来说，这部分仍然感觉相当粗糙。   由   提交 /u/Dailan_Grace   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1sj7pdp/why_ai_demos_look_amazing_and_then_fall_apart_the/</guid>
       <pubDate>Sun, 12 Apr 2026 07:21:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>[ 已被 Reddit 删除 ]</title>
-      <link>https://www.reddit.com/r/automation/comments/1sj6io9/removed_by_reddit/</link>
-      <description><![CDATA[[因违反内容政策而被 Reddit 删除。 ]   由   提交/u/Funny-Ranger-58  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1sj6io9/removed_by_reddit/</guid>
-      <pubDate>Sun, 12 Apr 2026 06:14:02 GMT</pubDate>
     </item>
     <item>
       <title>当您自己运行所有事情时如何自动化电子邮件管理</title>
