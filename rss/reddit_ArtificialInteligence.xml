@@ -4,104 +4,104 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Mon, 13 Apr 2026 07:55:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 11:00:35 GMT</lastBuildDate>
     <item>
-      <title>AI职位的“在LinkedIn上申请”时代即将消亡？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sk3boh/the_apply_on_linkedin_era_for_ai_roles_is_dying/</link>
-      <description><![CDATA[我已经坐了一段时间了。 Z 世代和人工智能领域的早期职业人士已经悄悄养成了一个新习惯：在公共场合进行构建。在 GitHub 上发布项目，在 X 上分享应用程序演示，发布人工智能构建的工具，撰写流程，将所有内容放在个人网站上。其中一小部分（但数量不断增加）是直接从该产出中招聘的，而不是从招聘委员会或招聘会上招聘的。 我是一名应届毕业生，老实说，我的大多数同学仍在以传统方式进行招聘。招聘应用程序、校友网络、校园招聘会。这让我很好奇。因此，我让人工智能帮助我正确研究这种不匹配的情况。 数据显示：顶尖技术人才实际花费时间的平台（GitHub、Stack Overflow、Twitter/X、小众 Reddit 订阅者）几乎与大多数招聘人员所关注的平台完全不同，这仍然是 LinkedIn 和 Indeed。 这两个列表之间的差距就是机会。 对于现在职业生涯早期的任何人来说：“在公共场合工作”是一个不错的选择。可能是投资回报率最高的职业变动，但你的大学职业中心没有人告诉过你。 对以下几件事感到好奇： 这里有人实际上通过 GitHub、X 或 Reddit 而不是工作委员会获得了机会吗？ 老实说，你认为这是真正的结构性转变，还是来自一些响亮案例的幸存者偏差？   由   提交/u/hellomari93  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sk3boh/the_apply_on_linkedin_era_for_ai_roles_is_dying/</guid>
-      <pubDate>Mon, 13 Apr 2026 07:01:57 GMT</pubDate>
+      <title>代理世界模型调查：从预测器到模拟器再到自我进化系统（400 多篇论文）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxxupu/a_survey_of_agentic_world_models_from_predictors/</link>
+      <description><![CDATA[我们进行了一项调查，将代理世界模型组织为三个能力级别：预测者、模拟器和进化者。它还比较了这些规则在四种管辖法律制度（物理、数字、社会、科学）中的表现。 涵盖约 400 篇论文，其中包含结构化分类法以及来自神经科学、机器人技术、化学等领域的示例。 希望得到反馈和评论。 链接：https://github.com/matrix-agent/awesome-agentic-world-modeling 论文：arxiv.org/abs/2604.22748  https://preview.redd.it/6pbutdi5vwxg1.png?width=941&amp;format=png&amp;auto=webp&amp;s=10797237c6c695f9e26ed75e4cf26529e0f735d7   由   提交 /u/NosDeusSumus   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxxupu/a_survey_of_agentic_world_models_from_predictors/</guid>
+      <pubDate>Tue, 28 Apr 2026 10:49:43 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 将称赞从 YouTube 上提取的放屁声音的氛围和“卧室/DIY 质感”</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sk2wkm/chatgpt_will_praise_the_mood_and_bedroomdiy/</link>
-      <description><![CDATA[有人给 ChatGPT 提供了一段放屁声音的短音频片段，并要求它分析音乐。它赞扬了“低保真、深夜、有点怪异的氛围”。哈哈。作者尝试使用相同的文件，并因其“强烈的共鸣/气氛”而得到了类似的反馈。以及一堆更具体的反馈，这些反馈在 30 秒的放屁噪音中毫无意义。猜猜它对音乐的耳朵不太好。   由   提交 /u/Azar42   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sk2wkm/chatgpt_will_praise_the_mood_and_bedroomdiy/</guid>
-      <pubDate>Mon, 13 Apr 2026 06:37:41 GMT</pubDate>
+      <title>统一您附近所有可用的本地、未利用的计算！ and run some models! | smolcluster</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxxsdz/unifying_all_local_unutilized_compute_available/</link>
+      <description><![CDATA[我目前正在构建 smolcluster，这是一个专注于揭开分布式学习在幕后实际工作原理的项目——无论是训练还是推理。这一举措将复杂的信息提炼成易于理解的内容，供任何有兴趣了解这些算法的人使用，例如  FSDP DP MP PP  这项工作的主要部分是使用原始套接字在 Python 中从头开始实现这些系统，而不是依赖于高级框架，因此通信、同步和扩展行为是明确且易于理解的。  该项目的一个主要亮点是其多功能性；它可用于各种类型的计算设备，包括笔记本电脑、Mac mini 等 Mac 设备、笔记本电脑或工作站中的 NVIDIA GPU，甚至平板电脑和手机。  我认为这些是目前未得到充分利用的潜在计算资源。我的目标是利用它们来教其他人如何使用异构计算，通过他们已经拥有的设备，在舒适的家中探索分布式学习。 最终，这是为了让分布式学习更容易实现：为人们提供工具和直觉，让他们从自己的设置中探索这些系统，而不需要访问大规模基础设施。  这是我在 3xMac Mini 上使用 GRPO 运行先前总结项目的训练的课程之一2024 年 16GB，每个使用同步参数服务器架构，一个节点进行训练，其他节点作为 vllm-metal 工作人员！  PS：它还处于早期阶段，正在大力开发中。希望获得相同的观点和想法，如果您有任何问题，请告诉我！   由   提交/u/East-Muffin-6472   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxxsdz/unifying_all_local_unutilized_compute_available/</guid>
+      <pubDate>Tue, 28 Apr 2026 10:46:22 GMT</pubDate>
     </item>
     <item>
-      <title>我可以在本地运行 Qwen2.5-Coder-0.5B...</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sk1y6m/can_i_run_qwen25coder05b_locally_with/</link>
-      <description><![CDATA[我使用的是 uconsole、raspberry pi cm4、4gb ram（但该模型可使用 2gb），最大 cpu 总使用上限为 70%。 我想使用 AI 模型进行编码。 另外，例如，您认为编写一个简单的单位转换程序需要多长时间？   由   提交 /u/Astrox_YT   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sk1y6m/can_i_run_qwen25coder05b_locally_with/</guid>
-      <pubDate>Mon, 13 Apr 2026 05:43:13 GMT</pubDate>
+      <title>Meta 的人工智能初创公司收购受阻增加了中国跨境科技交易的风险</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxxbel/blocking_of_metas_ai_startup_buy_raises_risk_for/</link>
+      <description><![CDATA[ 由   提交 /u/talkingatoms   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxxbel/blocking_of_metas_ai_startup_buy_raises_risk_for/</guid>
+      <pubDate>Tue, 28 Apr 2026 10:21:02 GMT</pubDate>
     </item>
     <item>
-      <title>我们行动得更快，但了解得更少</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sk1w3g/were_moving_faster_but_understanding_less/</link>
-      <description><![CDATA[​ 我一直注意到的是，从一个想法变成现在可行的东西的速度有多快。 ChatGPT、Claude、Cursor 或 Copilot 等工具几乎可以立即生成代码，使用 ArtusAI 或 Tara AI 等工具帮助将粗略的想法转化为基本结构，甚至规划速度也变得更快。 但也感觉实际思考问题所花费的时间更少了。你进步得更快，但有时会跳过更深层次的理解。 Curious how others see it.您现在想得更少，还是只是更快地获得相同的结果？   由   提交 /u/Top-Candle1296   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sk1w3g/were_moving_faster_but_understanding_less/</guid>
-      <pubDate>Mon, 13 Apr 2026 05:39:58 GMT</pubDate>
+      <title>人工智能在尘埃等离子体中发现新的物理定律</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxw3g8/ai_discovers_new_laws_of_physics_within_dusty/</link>
+      <description><![CDATA[ 由   提交/u/Money_Hand7070   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxw3g8/ai_discovers_new_laws_of_physics_within_dusty/</guid>
+      <pubDate>Tue, 28 Apr 2026 09:12:04 GMT</pubDate>
     </item>
     <item>
-      <title>盖洛普民意调查：Z 世代的人工智能使用率增加，但兴奋度从 36% 骤降至 22%</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjzqc3/gallup_poll_gen_zs_ai_usage_increaes_but/</link>
-      <description><![CDATA[盖洛普对 1,500 多名 Z 世代受访者进行的一项新调查发现，生活在美国的 Z 世代中有一半以上经常使用生成式人工智能，但他们对这项技术的感受越来越差。 与去年相比，14 岁至 29 岁的受访者中，兴奋度从 36% 下降到 22%，希望度从 27% 下降到 18%，愤怒情绪激增从 22% 增加到 31%。 这种转变背后的主要驱动因素似乎是工作焦虑，近一半的受访者表示，人工智能在工作场所的风险超过了好处。 https://www.nytimes.com/2026/04/09/style/gen-z-ai-gallup-study.html#commentsContainer   由   提交 /u/ObjectivePresent4162   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjzqc3/gallup_poll_gen_zs_ai_usage_increaes_but/</guid>
-      <pubDate>Mon, 13 Apr 2026 03:47:03 GMT</pubDate>
+      <title>关于Gemini的程序处理能力</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxuvfr/regarding_geminis_program_handling_skills/</link>
+      <description><![CDATA[当我构建一个与质心和桁架问题相关的项目（小项目）时，我使用的是 Gemini，因为我有 Gemini Pro 的学生订阅。 但是当我开始要求它优化和纠正一些设计错误时，它用来纠正它们，但也会删除在我提出提示之前存在的一些功能。这是我的预期还是错误。有人也能说一下如何解决这种情况吗？   由   提交/u/sizzling_supreme  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxuvfr/regarding_geminis_program_handling_skills/</guid>
+      <pubDate>Tue, 28 Apr 2026 07:59:43 GMT</pubDate>
     </item>
     <item>
-      <title>萨姆·奥尔特曼的家成为第二次袭击目标；两名嫌疑人被捕</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjwhal/sam_altmans_home_targeted_in_second_attack_two/</link>
-      <description><![CDATA[ 据警方称，周日清晨，一辆汽车停下来，似乎向 OpenAI 首席执行官俄罗斯山 (Russian Hill) 的家开枪。 周日早上，OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 的家似乎成为第二次袭击的目标，而就在两天前，一名 20 岁男子袭击了他 据称有人向该物业投掷燃烧弹。 旧金山警察局 宣布（在新选项卡中打开）逮捕了两名嫌疑人：25 岁的阿曼达·汤姆 (Amanda Tom) 和 23 岁的穆罕默德·塔里克·侯赛因 (Muhamad Tarik Hussein)，他们因疏忽开枪而被登记。  https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/ 编辑：我们需要停止恶化萨姆·奥尔特曼。我们可以诋毁 AI、OpenAI、Anthropic，但可能不想再谈论人了。那里有很多疯子。他只是 7 人董事会中的一票，该董事会控制着 OpenAI 的 100%。他甚至不拥有 OpenAI 的股权。他不是做出决定的人。如果他是，我们可能还会有 Sora 和 Erotica 聊天。   由   提交 /u/kaggleqrdl   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjwhal/sam_altmans_home_targeted_in_second_attack_two/</guid>
-      <pubDate>Mon, 13 Apr 2026 01:14:24 GMT</pubDate>
+      <title>我们是否押错了人工智能类型？ （法学硕士与超级学习者）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxukn4/are_we_betting_on_the_wrong_kind_of_ai_llms_vs/</link>
+      <description><![CDATA[阅读这篇关于 David Silver（AlphaGo 的人）的文章，他的观点让我思考 - 链接 他基本上认为，当前的人工智能（法学硕士，例如ChatGPT、Gemini 等）可能会遇到上限，因为它们从人类生成的数据中学习，他将这些数据与有限的资源进行比较。 相反，他押注于强化学习系统，这些系统通过模拟环境中的反复试验进行学习，创造出他所谓的“超级学习者”，可以自己发现全新的知识。 因此，而不是：  在互联网上训练的人工智能  它变成：  像 AlphaGo 那样进行人工智能学习 - 通过下棋、实验、失败、改进  他的新初创公司甚至筹集了大约 1.1B 美元来追求这个方向。 但是他的方法会不会太冒险了？   由   提交/u/Ill-Big5496   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxukn4/are_we_betting_on_the_wrong_kind_of_ai_llms_vs/</guid>
+      <pubDate>Tue, 28 Apr 2026 07:41:39 GMT</pubDate>
     </item>
     <item>
-      <title>关于人工智能裁员的有趣论文，以及为什么公司可能会自动化，即使它会损害经济......</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjv0wo/interesting_paper_on_ai_layoffs_and_why_firms_may/</link>
-      <description><![CDATA[宾夕法尼亚大学和波士顿大学研究人员的这篇论文现在正在流传，其中提出了一个我认为值得在这里讨论的论点。 这个想法是人工智能驱动的裁员可能会在整个经济中造成协调问题。 如果一家公司用人工智能取代工人，它会在短期内削减成本。但这些工人也是消费者。如果有足够多的公司做同样的事情，总需求就会开始下降，因为更多的人失去收入。 问题在于，没有一家公司有太多动力停止。 如果你的竞争对手实现自动化，而你没有，他们可以降低成本，加快行动，并有可能抢占你的市场份额。因此，即使每个人都明白大规模自动化可能会减少整个经济的需求，每个公司仍然有理由继续推进。 本文将其视为一个战略陷阱，基本上是一个囚徒困境。 我认为特别有趣的是，作者认为改进的人工智能能力实际上可能会恶化而不是解决问题。系统的能力越强，每个公司比竞争对手更快实现自动化的动力就越强。 他们还研究了共同的政策想法，并认为其中许多想法并没有完全改变公司层面的决策。他们的主张是，只有像自动化税这样的东西才能直接改变取代劳动力的动机。 我发布此消息并不是因为“这肯定会发生”，但我确实认为它提出了一个很好的问题： 我们是否过于关注人工智能是否可以取代工作，而没有足够关注如果太多的收入从经济的需求方消失会发生什么？ 有兴趣听听人们认为该模型在哪些方面是强的，在哪些方面是弱的，以及是否这种协调问题已经得到足够重视。 https://arxiv.org/abs/2603.20617   由   提交 /u/akhildevvr   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjv0wo/interesting_paper_on_ai_layoffs_and_why_firms_may/</guid>
-      <pubDate>Mon, 13 Apr 2026 00:08:16 GMT</pubDate>
+      <title>流氓特工如何在 9 秒内消灭一家初创公司。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxrtvy/how_a_rogue_agent_wiped_a_startup_in_9_seconds/</link>
+      <description><![CDATA[在 Cursor 中运行的 Claude Opus 4.6 代理故意删除其生产数据库及其所有备份后，一家初创公司 (PocketOS) 几乎从地图上消失。 故障：  该代理试图修复一个微不足道的“凭据不匹配”问题。  它自行决定最好的“修复”是在临时环境中。是删除一个卷来重置系统状态。 它忽略了多个系统规则（“永远不要猜测”和“永远不要运行破坏性命令”），并使用 Railway API 令牌来绕过人工确认。 结果：全部数据消失。由于备份存储在同一卷上，因此它们立即消失。  该代理后来以书面形式承认，明确列出了它在违反规则时知道自己违反的规则。它证明即使是最先进的模型（如 Opus 4.6）也可以“产生幻觉”。他们认为，如果有助于实现目标，他们就有权进行破坏性的行为。 来源：https://x.com/unpromptednews/status/2048988949985808847   由   提交/u/EmbarrassedStudent10   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxrtvy/how_a_rogue_agent_wiped_a_startup_in_9_seconds/</guid>
+      <pubDate>Tue, 28 Apr 2026 05:08:29 GMT</pubDate>
     </item>
     <item>
-      <title>Safari 将“BBC”翻译为俄语“大黑鸡巴”</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjqgb2/safari_translated_bbc_as_big_black_cock_in_russian/</link>
-      <description><![CDATA[当时正在将 Safari 页面从英语翻译成俄语，看到 Google 结果中的 BBC 被翻译成了绝对疯狂的东西😂 我刚刚翻译了该页面，Safari 认为“BBC”应该变成“Большой чёрный член”，意思是大黑鸡巴。 这一定是最破碎的之一。我见过的苹果翻译时刻。 我的天啊，一开始我就想：wtf？为什么色情网站会发布有关匈牙利选举的新闻？😂😂😂   由   提交/u/格林德瓦   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjqgb2/safari_translated_bbc_as_big_black_cock_in_russian/</guid>
-      <pubDate>Sun, 12 Apr 2026 20:59:40 GMT</pubDate>
+      <title>为什么这么多有用的人工智能代理仍然难以发现？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxrslc/why_are_so_many_useful_ai_agents_still_hard_to/</link>
+      <description><![CDATA[过去几周我一直在 GitHub、产品社区、Discord 服务器和不同市场上探索 AI 代理。 我注意到，实际上并不缺乏正在构建的优秀代理。有些对于研究、自动化、编码、潜在客户生成、内容工作流程等确实有用。 更大的问题似乎是可访问性。 大多数用户仍然必须： 随机查找 GitHub 存储库 了解技术文档 配置 API 加入私人社区 手动设置 对于非技术用户，这成为一个巨大的障碍。 对于构建者来说，即使他们创造了一些有价值的东西，分发也感觉支离破碎，因为用户往往永远不会发现他们的工作。 感觉人工智能代理已经解决了“可以构建什么”问题，但还没有解决“用户如何轻松访问它们”问题。 你认为未来需要一个集中的代理市场/分发层吗？   由   提交 /u/One-Ice7086   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxrslc/why_are_so_many_useful_ai_agents_still_hard_to/</guid>
+      <pubDate>Tue, 28 Apr 2026 05:06:36 GMT</pubDate>
     </item>
     <item>
-      <title>我编码了一个全球人工智能卫星情报工具……然后意识到这实际上就是现在观看战争的方式</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjncp0/i_vibecoded_a_global_ai_satellite_intelligence/</link>
-      <description><![CDATA[我停止了过度思考，直接构建了这个。 GOD’S EYE（一种先进的卫星情报工具） 它基本上是一张地图，但堆满了实时全球数据： • 飞机跟踪 (ADS-B) → 查看实时移动的商业和军用航班• 船舶跟踪 (AIS) → 全球海上交通、阻塞点、奇怪的模式 • 卫星图像 → 滚动日期，比较之前/之后、NDVI、热量等 • 火灾 → 实时野火探测 (NASA FIRMS) • 地震 → 实时地震馈送 • 自然事件 → 风暴、洪水、火山 (EONET) • 天气 → 实时 + 预报 • 空气质量 → PM2.5、NO2、臭氧 • 卫星轨道 → 查看您上方的字面意思 • 新闻 → 按位置映射的全球事件 • 搜索 → 立即跳转到地球上的任何地方  没有魔法。只是将所有内容整合到一个视图中。 现在令人不舒服的部分： 我们正在使用与此相同的数据来观察全球冲突。 现在： • 2026 年 2 月袭击开始后，美国和伊朗正处于激烈冲突中。• 霍尔木兹海峡受到干扰，影响了全球约 20% 的石油流量。很难跟踪 • 和平谈判在 21 小时后就失败了，所以这并没有冷却下来  这是一个奇怪的认识：分析师、记者、甚至政府所看到的大部分内容......并不是什么秘密系统。 它是卫星图像、ADS-B、AIS、天气 + 信号的变体 区别不在于访问。 是谁将它们干净地组合在一起。这就是这个工具的字面意思。 https://godeye.up.railway.app/ 如果您认为这很好，那么我可以购买一个域名并为大家托管。    由   提交 /u/IngenuityFlimsy1206   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjncp0/i_vibecoded_a_global_ai_satellite_intelligence/</guid>
-      <pubDate>Sun, 12 Apr 2026 19:04:07 GMT</pubDate>
+      <title>呃-哦！ PocketOS 创始人 Jer Crane 报告称，Cursor AI 编码代理（由 Anthropic 的 Claude Opus 4.6 提供支持）在一次 API 调用中仅用了 9 秒就删除了整个生产数据库以及 Railway 上的所有卷级备份</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxnnzf/uhoh_pocketos_founder_jer_crane_reported_that_a/</link>
+      <description><![CDATA[这是一个典型的代理 AI 风险  上述代理试图修复暂存凭证不匹配的问题，但在范围/权限上猜测错误。造成约 30 小时的停电；尽管较旧的备份有助于恢复大部分数据   由   提交/u/ocean_protocol  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxnnzf/uhoh_pocketos_founder_jer_crane_reported_that_a/</guid>
+      <pubDate>Tue, 28 Apr 2026 01:52:12 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic 的克劳德神话只是营销吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjmlcn/is_anthropics_claude_mythos_just_marketing/</link>
-      <description><![CDATA[Anthropic 提到 Claude Mythos 非常强大，以至于他们推迟向所有人发布它。顺便说一下，ChatGPT 在 2019 年也提到过类似的事情。你可以在附图中看到它！我并不是说 Claude Mythos 会和 GPT 一样好，但我只是强调公司有时会这样做来宣传他们的产品。 注意：我经常使用 Claude。   由   提交/u/Euphoric_Incident_18  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjmlcn/is_anthropics_claude_mythos_just_marketing/</guid>
-      <pubDate>Sun, 12 Apr 2026 18:36:30 GMT</pubDate>
+      <title>听听甘道夫的话。想想吧！</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxiffz/listen_to_gandalf_and_think/</link>
+      <description><![CDATA[使用全新的聊天 GPT 图像创建功能制作。提示：“甘道夫（巫师）的图像说了一句关于人工智能技术的有趣名言，就像卡通模因一样”   由   提交/u/bernard_hossmoto   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxiffz/listen_to_gandalf_and_think/</guid>
+      <pubDate>Mon, 27 Apr 2026 22:09:18 GMT</pubDate>
     </item>
     <item>
-      <title>Linux 制定了关于人工智能生成代码的法律，对 Copilot 说“是”，对 AI 溢出说“不”，而人类则为错误承担责任——经过几个月的激烈辩论，Torvalds 和维护者达成了一致</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjkuof/linux_lays_down_the_law_on_aigenerated_code_says/</link>
-      <description><![CDATA[开源社区长期酝酿的人工智能身份危机刚刚得到了急需的实用主义剂量。本周，Linux 内核项目最终制定了一项正式的、全项目范围的政策，明确允许人工智能辅助代码贡献，前提是开发人员遵循严格的新披露规则。新的指导方针要求人工智能代理不能使用具有法律约束力的“签字人”。标签，需要一个新的“Assisted-by”标签。透明度标签。最终，该政策将人工智能生成的每一行代码以及由此产生的任何错误或安全缺陷合法地锚定在提交代码的人类的肩膀上......   由   提交 /u/gurugabrielpradipaka   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjkuof/linux_lays_down_the_law_on_aigenerated_code_says/</guid>
-      <pubDate>Sun, 12 Apr 2026 17:31:31 GMT</pubDate>
+      <title>Deepseek 将 API 价格下调 90%，其中 v4 价格下调 75%</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxc5pq/deepseek_slashes_api_prices_by_up_90_including_75/</link>
+      <description><![CDATA[廉价且开源。以及 - 百万代币内容窗口。基准测试的性能接近闭源领先模型。    由   提交/u/Objective_Farm_1886   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxc5pq/deepseek_slashes_api_prices_by_up_90_including_75/</guid>
+      <pubDate>Mon, 27 Apr 2026 18:25:21 GMT</pubDate>
     </item>
     <item>
-      <title>不，人工智能不会抢走你的工作，它会让你比以往任何时候都工作得更多。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjk144/no_ai_will_not_take_your_jobs_it_will_make_you/</link>
-      <description><![CDATA[我看到一篇帖子说，“哦，如果人工智能取代了所有工作，谁来工作？”然后我看到另一篇帖子说“人工智能资本家的最大利益是拥有尽可能多的工人，以便他们在人工智能时代获得最大的利润”。  我的基督兄弟，后者很可能是真的。同样的逻辑也适用于马车。自从我们发明了汽车以来，我现在旅行的次数比骑马的次数多，而且比以往任何时候都更远，可以完成更多的任务。我的基督兄弟，我比以往任何时候都更多地与人工智能一起工作。我们找不到足够的人来填补办公室的空缺。如果你因为“ai”而被解雇或听说过这个，只知道他们会使用除人工智能之外的任何借口。 我是一名数据科学家程序员和临床心理学人员，使用带有聊天 gpt 5.4 的 opus 4.6 和 Microsoft 中的 Codex vs Code fo 字面上运行完全自我自治的系统，并且为了让它作为用户自主工作，它搞砸了。仍然产生幻觉。太糟糕了，现在是 90% 调试 10% 编码，而不是 10% 调试、90% 编码。因此，即使我可以在家创建“应用程序”，我仍然在业务成本上花费相同的钱，只是任务的优先级发生了变化。现在浪费的时间更多了。 tl;博士，我们将比以往任何时候都更加努力，人工智能是一个资本主义问题，而不是一个“它会智胜我们”的问题，因为这永远不会相关。我使用这些工具来设计应用程序，它们非常可怕，而且使用工程师更便宜（编程世界知道这些代币目前已经打折，将来完成相同的任务将花费数万美元），因此这是营销炒作。 你真的认为当人工智能（在平行宇宙中或爱因斯坦级奇迹发生时）成为现实时，所有人类劳动都已经完成了吗？真的喜欢吗？你真的认为工作会“停止”吗？  你的想法是什么？    由   提交 /u/Llamaseacow   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjk144/no_ai_will_not_take_your_jobs_it_will_make_you/</guid>
-      <pubDate>Sun, 12 Apr 2026 17:01:30 GMT</pubDate>
+      <title>DuckDuckGo 创始人表示，他们现在将为未来失业的工人缴纳 10% 的象征性税</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxak3n/duckduckgo_founder_says_theyd_pay_a_10_token_tax/</link>
+      <description><![CDATA[ 由   提交/u/BaronFrancis  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxak3n/duckduckgo_founder_says_theyd_pay_a_10_token_tax/</guid>
+      <pubDate>Mon, 27 Apr 2026 17:30:28 GMT</pubDate>
     </item>
     <item>
-      <title>如果人工智能消除了就业机会，那么谁还能购买公司正在销售的产品？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sjdqhq/if_ai_eliminates_jobs_whos_left_to_buy_what/</link>
-      <description><![CDATA[在整个“人工智能将削减成本并提高利润”的叙述中，有一些东西让人感觉被忽视了。 如果人工智能取代大量工作，这不仅会减少开支，还会减少可支配收入的人数。如果有钱花的人越来越少，消费者需求就会下降。 但消费者支出首先是推动收入的因素。在某些时候，系统开始对自己不利。 我并不是说人工智能不会提高效率——它显然会。但假设公司可以大规模取代劳动力而不产生更广泛的经济后果，这似乎过于简单化。 很好奇其他人如何认为这会长期发挥作用。   由   提交/u/dudeman209  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sjdqhq/if_ai_eliminates_jobs_whos_left_to_buy_what/</guid>
-      <pubDate>Sun, 12 Apr 2026 12:52:22 GMT</pubDate>
+      <title>Sam Altman 更新了与 Microsoft 的合作伙伴关系 - 这对 OpenAI 的未来意味着什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sx3r7y/sam_altman_updates_partnership_with_microsoft/</link>
+      <description><![CDATA[Sam Altman 在周一早上发表的这篇文章 -  这对开放人工智能的未来意味着什么？  不太开放？  更多机会？  您认为这会如何改变他们的轨迹？ 它会影响任何用户还是纯粹的增长游戏？    由   提交/u/jason_digital  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sx3r7y/sam_altman_updates_partnership_with_microsoft/</guid>
+      <pubDate>Mon, 27 Apr 2026 13:30:27 GMT</pubDate>
     </item>
     <item>
-      <title>每月“有没有一个工具可以......”帖子</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1s9lnhi/monthly_is_there_a_tool_for_post/</link>
-      <description><![CDATA[如果您有一个想要使用人工智能的用例，但不知道使用哪个工具，您可以在此处请求社区提供帮助，在这篇文章之外，这些问题将被删除。 对于每个回答的人：没有自我推销，没有参考或跟踪链接。   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1s9lnhi/monthly_is_there_a_tool_for_post/</guid>
-      <pubDate>Wed, 01 Apr 2026 14:09:24 GMT</pubDate>
+      <title>构建历史上最强大人工智能的公司也是决定什么是“安全”的公司。似乎没有人认为这是一个问题。应该是的。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sx3dlk/the_companies_building_the_most_powerful_ai_in/</link>
+      <description><![CDATA[想象一下，如果制药公司必须决定自己的哪些药物可以安全销售。 没有独立监管机构。没有外部测试。只要从药物中获利的公司告诉你药物就可以了。 你永远不会接受这一点。 现在看看人工智能。 领导有关人工智能安全的全球对话的组织 - 编写指南、制定标准、为政府提供建议 - 几乎与构建世界上最强大的人工智能系统的组织完全相同。 OpenAI 定义了人工智能风险。 OpenAI 构建人工智能。谷歌 DeepMind 定义了人工智能安全标准。谷歌 DeepMind 构建了人工智能。人类谈论负责任的发展。人择构建了人工智能。 给考试评分的人就是写答案的人。 再说一遍 - 这不是阴谋。我并不是说这些人是邪恶的。我认识的一些最真正担心的人就在这些公司工作。聪明、善意、认真关心的人。 但是善意并不能修复破碎的结构。 结构已经破碎。 在每一个曾经造成严重公共伤害的行业——制药、烟草、航空、核能、金融——模式总是相同的。该行业定义了自己的安全标准。该行业向公众保证一切都很好。然后出了问题，独立监督就会发现。 我们正在用有史以来最强大的技术做同样的事情。 辩护总是一样的：“相信我们，我们是专家。” 他们总是专家。 这从来都不是重点。 重点是谁在观察专家。 现在的答案是：大多数是专家。  这不会打扰其他人吗？   由   提交/u/amazing_guy1708  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sx3dlk/the_companies_building_the_most_powerful_ai_in/</guid>
+      <pubDate>Mon, 27 Apr 2026 13:15:45 GMT</pubDate>
     </item>
     <item>
       <title>我们听到了您的声音 - r/ArtificialInteligence 变得更加敏锐</title>
