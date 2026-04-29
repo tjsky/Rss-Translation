@@ -4,20 +4,34 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Wed, 29 Apr 2026 19:17:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 21:56:14 GMT</lastBuildDate>
+    <item>
+      <title>OpenAI 在佛罗里达州面临刑事调查：ChatGPT 能否被指控谋杀？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1szcmlv/openai_faces_criminal_investigation_in_florida/</link>
+      <description><![CDATA[佛罗里达州总检察长 James Uthmeier 宣布，他的办公室已就 2025 年 4 月佛罗里达州立大学发生的大规模枪击事件对 OpenAI 展开刑事调查。对聊天记录的审查表明，ChatGPT 据称向被指控的枪手菲尼克斯·伊克纳 (Phoenix Ikner) 提供了有关武器类型、弹药、最佳时机以及可能人数最多的校园位置的建议。 Uthmeier 后来将调查范围扩大到南佛罗里达大学的另一起双重凶杀案，据称该案的嫌疑人在杀人前还咨询了 ChatGPT。 这些案件似乎标志着州检察官首次正式调查人工智能公司是否可能因大规模枪击事件而面临刑事责任，从而将它们置于全新的法律基础上。   由   提交 /u/NoloLaw   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1szcmlv/openai_faces_criminal_investigation_in_florida/</guid>
+      <pubDate>Wed, 29 Apr 2026 21:43:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>费里尼客串朱丽叶</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz9z00/fellini_cameo_in_juliet/</link>
+      <description><![CDATA[ 由   提交/u/RoyalJellyKing  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sz9z00/fellini_cameo_in_juliet/</guid>
+      <pubDate>Wed, 29 Apr 2026 20:04:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>英伟达副总裁表示人工智能成本“远远”高于人类员工</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz956j/nvidia_vp_says_ai_costs_far_more_than_human/</link>
+      <description><![CDATA[ Nvidia 副总裁 Bryan Catanzaro 表示，对于他的团队来说，人工智能计算的成本现在比使用它的员工还要高，这使得人工智能比人类劳动力更昂贵。 麻省理工学院 2024 年的一项研究发现，人工智能自动化仅在约 23% 的工作中具有经济可行性，而在其余 77% 的工作中，人类的成本仍然较低。 尽管生产率提升不明确且成本高昂，但人工智能自动化在经济上是可行的。科技公司今年已投入约 7400 亿美元用于人工智能相关支出，比 2025 年增长 69%。    由   提交 /u/kaggleqrdl   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sz956j/nvidia_vp_says_ai_costs_far_more_than_human/</guid>
+      <pubDate>Wed, 29 Apr 2026 19:34:00 GMT</pubDate>
+    </item>
     <item>
       <title>LLM内存有什么关系？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz5owq/what_is_the_deal_with_llm_memory/</link>
       <description><![CDATA[过去 3 个月以来，我一直在构建和改进我当地的法学硕士协调器。它一开始是一个 AI 日历助手，现在是我的服务器 AI 协调器，有 4 个节点、工具和多代理调度。这是一个无状态会话（主会话），我通过 WSL 终端或专用 Android 应用程序进行交互。此会话分派并允许执行一些内联​​任务。 它注入的前导码就是一切。身份、规则、行为、工具、指令，但特别是内存。 它具有多层级别的内存，使用 RAG 和 graphiti。我尝试了一个只在午夜循环的永久会话，但到了一天结束时，我变得迟缓、坦白、因为一整天的信息而感到臃肿。具有精心设计的前导码（&lt;8k 令牌）的无状态提供了对话的最佳上下文、意识和趋势。 它有一个带有原始和压缩消息的今天的内存，在其前导码中注入了一个带有石墨和摘要的昨天的内存（仅摘要注入）。过去的记忆，不断增长的昨天文件。 此外，它还具有每日消息压缩、夜间内省和上下文 yaml 文件，它可以自行决定使用该文件来进行提醒，并注入回来。例如，文件或服务器的临时更改，它会写在这里以供感知。  graphiti 内存不会注入前导码，但它有一个直接查询工具，可以根据多个条件从 graphiti + RAG 中提取。  此外，其所有代理的调度和返回的报告都记录在数据库中，并且可以查询。因此，它可以回顾几周的结果并与当前的讨论相关联。 这不是开发人员使用人工智能代理所做的事情吗？为什么这似乎是人工智能和内存的一个主要问题？我错过了一些东西？ 我正在我的系统的存储库中工作，它是一个前沿的法学硕士协调器和具有完全系统控制的助手。   由   提交/u/chryseobacter  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sz5owq/what_is_the_deal_with_llm_memory/</guid>
       <pubDate>Wed, 29 Apr 2026 17:34:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Warp 的赌博：人工智能工具开源以对抗闭源竞争对手</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz4ucb/warps_gamble_ai_tool_goes_open_source_to_take_on/</link>
-      <description><![CDATA[Warp 这个 OpenAI 友好的代理开发环境开源后会帮助它赢得用户吗？公司肯定希望如此。    由   提交 /u/CackleRooster   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sz4ucb/warps_gamble_ai_tool_goes_open_source_to_take_on/</guid>
-      <pubDate>Wed, 29 Apr 2026 17:04:35 GMT</pubDate>
     </item>
     <item>
       <title>突发新闻：中国正在全面将其人工智能行业与美国资本隔离开来</title>
@@ -48,6 +62,13 @@
       <pubDate>Wed, 29 Apr 2026 15:49:41 GMT</pubDate>
     </item>
     <item>
+      <title>我们所有的测试都通过了。特工仍然崩溃。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz110k/all_our_tests_passed_the_agent_was_still_broken/</link>
+      <description><![CDATA[通过将真实的自然语言提示输入真实的运行时来测试代理系统，然后对是否调用了正确的工具进行评分。没有模拟，没有 SDK 固定装置，没有信仰。   由   提交 /u/CackleRooster   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sz110k/all_our_tests_passed_the_agent_was_still_broken/</guid>
+      <pubDate>Wed, 29 Apr 2026 14:49:46 GMT</pubDate>
+    </item>
+    <item>
       <title>埃隆·马斯克证实谷歌联合创始人站在机器人一边：“拉里·佩奇称我为物种歧视者”</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz0pzy/elon_musk_testifies_google_cofounder_sided_with/</link>
       <description><![CDATA[埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的诉讼中第一天的证词丰富多彩。据报道，周二下午，这位世界首富在奥克兰联邦法院出庭，对九人陪审团表示，人工智能“可能杀死我们所有人”，并引用了詹姆斯·卡梅隆的《终结者》（人工智能的糟糕结果）和《星际迷航》（人工智能的良好结果）。 他还将 OpenAI 的整个故事归咎于他说谷歌联合创始人拉里·佩奇曾经对他进行的一次侮辱：“物种主义者”。 审判预计将持续约四个星期，重点是马斯克在 2024 年提起的诉讼，指控 OpenAI 背叛了其作为“造福全人类”的非营利组织的创始使命。 2015 年，马斯克与山姆·奥尔特曼 (Sam Altman) 共同创立了该实验室，此前两人花了几周时间讨论他们对人工智能落入追求利润的大公司（即谷歌）手中的担忧。  然而，到 2017 年，该组织意识到构建先进的人工智能需要的资金超出了非营利组织所能筹集的资金，因此他们讨论了建立营利性立场。马斯克向该实验室捐赠了至少 3800 万美元，他想担任首席执行官并获得多数控制权，但在与奥特曼就这一职位展开权力斗争后，马斯克感到自己被欺骗了。然后他于 2018 年离职。 ChatGPT 2022 年推出后，OpenAI 变成了一家价值约 7300 亿美元的公司，马斯克提起诉讼，指控 Altman 和 OpenAI 总裁格雷格·布罗克曼 (Greg Brockman) 窃取了一项慈善事业。他正在向 OpenAI 和微软寻求超过 1500 亿美元的赔偿。 OpenAI 的律师讲述了一个略有不同的故事。首席律师威廉·萨维特 (William Savitt) 在开庭陈词中告诉陪审员，马斯克只是在权力斗争中失败了，现在正在吃“酸葡萄”，特别是因为马斯克现在经营着自己的营利性人工智能实验室 xAI。 “即使没有他，我的客户也有勇气继续前进并取得成功，”萨维特说。 “马斯克先生不喜欢这样。” 阅读更多：https://fortune.com/2026/04/28/elon-musk-larry-page-robots-specieist-trial-sam-altman-open-ai-ceo/   由   提交/u/fortune  [链接] [评论]]]></description>
@@ -55,32 +76,11 @@
       <pubDate>Wed, 29 Apr 2026 14:38:32 GMT</pubDate>
     </item>
     <item>
-      <title>超密度存储器。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syzfg0/super_density_memory/</link>
-      <description><![CDATA[大家对超密度内存有何看法？例如，假设您授予对 20 GB 的 .txt 信息的访问权限，它会读取并摄取该信息，但将其压缩为 200 MB 的信息，稍后可以以相同的原始大小进行访问，直到不需要为止，然后重新压缩为 200 MB。   由   提交/u/Curious-Recording-87  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syzfg0/super_density_memory/</guid>
-      <pubDate>Wed, 29 Apr 2026 13:51:22 GMT</pubDate>
-    </item>
-    <item>
       <title>“大约 65% 的公司将利用裁员来弥补生产力的提高。”斯坦福大学教授谈人工智能工作取代</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz89z/about_65_of_companies_are_going_to_use/</link>
       <description><![CDATA[斯坦福大学教授在德尔福经济论坛的公开辩论中 -  “大约 65% 的公司将使用置换作为弥补生产率提高的一种方式。”  “19% 表示他们将不再雇用……45% 表示他们将解雇工人。”  “在大多数认知任务中，该技术实际上已经超越了人类的能力。”  人类的思考、分析和决策不再是区分因素。 “我们的大脑确实是我们唯一能超越机器的东西……但现在情况不再是这样了。”  这不仅仅是经济方面的。这是社会性的。    由   提交/u/timstillhere  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz89z/about_65_of_companies_are_going_to_use/</guid>
       <pubDate>Wed, 29 Apr 2026 13:43:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么十几岁的男孩选择人工智能女友而不是现实女友？德国之声新闻</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz5cy/why_teenage_boys_are_choosing_ai_girlfriends_over/</link>
-      <description><![CDATA[近几个月来，越来越多的男孩开始用人工智能驱动的虚拟伴侣取代传统约会。模拟浪漫对话的应用程序和聊天机器人（通常被称为“人工智能女友”）正在吸引那些认为现实生活中的关系风险太大、复杂或根本无法获得的青少年。    由   提交/u/AlphaOneYoutube  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz5cy/why_teenage_boys_are_choosing_ai_girlfriends_over/</guid>
-      <pubDate>Wed, 29 Apr 2026 13:40:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>消息人士称，DeepSeek V4 推出后，中国大型科技公司争相购买华为 AI 芯片</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syvjk5/big_chinese_tech_firms_scramble_to_secure_huawei/</link>
-      <description><![CDATA[ 由   提交 /u/talkingatoms   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syvjk5/big_chinese_tech_firms_scramble_to_secure_huawei/</guid>
-      <pubDate>Wed, 29 Apr 2026 11:04:17 GMT</pubDate>
     </item>
     <item>
       <title>副驾驶只有 9 首十四行诗和 27 首作品，团队不知道</title>
