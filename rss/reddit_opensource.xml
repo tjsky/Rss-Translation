@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 29 Apr 2026 05:52:12 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 08:10:39 GMT</lastBuildDate>
+    <item>
+      <title>我对过去 9 个月测试的电子墨水/电子纸显示项目的最佳 4 家开源硬件提供商的看法</title>
+      <link>https://www.reddit.com/r/opensource/comments/1syrytv/my_take_on_the_best_4_opensource_hardware/</link>
+      <description><![CDATA[在过去的 9 个月里，我一直在构建一些项目（主要是带有电子墨水显示屏/电子纸显示屏/电子墨水显示屏设置的低功耗产品），并且我不断测试 4 个硬件提供商的产品，试图找出最适合我的工作 这不与任何人赞助或附属，只是分享我个人使用过的以及来自制造商的有效（和无效）的产品观点 此外，如果您在开展类似项目时需要任何帮助，请随时私信我 我想我会将其放在一起，以防其他人在选项之间做出决定 1。 Soldered 我将从 Soldered 开始，因为我最终在与电子纸显示项目相关的任何事情上使用它们最多 我使用它的项目：我使用他们的 Inkplate 10 模型开发电池供电的家庭仪表板（天气 + 日历 + 通知） 很快脱颖而出的是 Inkplate 不仅仅是一个原始 eink 显示器，它更像是一个完整的系统，具有：  ESP32 已经集成 电源管理已处理 库 + 实际可用的文档  我真正喜欢的是我不必花时间弄清楚如何“让显示器工作”，因为我可以专注于实际工作 我喜欢的其他东西：  完全开源硬件（不仅仅是软件） 开箱即用的 Arduino 兼容 感觉像真实用例的好例子 实际实用的低功耗模式  2. Waveshare 我已经使用他们的产品近 5 年了，从未对这个感到失望 我使用它的项目：我在一个较小的状态屏幕项目中使用了 Waveshare 电子墨水显示屏，我想要对设置进行更多控制，并且不介意自己进行集成。 我特别喜欢这个状态项目，因为：  电子墨水显示屏尺寸和变体的大量选择 广泛可用并且易于获取 适用于许多平台（Raspberry Pi、Arduino 等） 对于大多数常见用例都有完善的文档  如果您想要灵活性并且不介意自己将各个部分组合在一起，那么这仍然是一个不错的选择 3。 Adafruit 如果您重视文档和润色，Adafruit 可能是最容易使用的 我将其用于的项目：Raspberry Pi 服务器的小型电子墨水显示状态屏幕 这里对我来说最突出的是：  编写得非常好的指南 强大的 CircuitPython 生态系统 一致的产品质量 对初学者友好，但仍然适合初学者功能强大 良好的社区+示例  他们提供电子纸显示/电子墨水显示模块，但它们更多的是组件级别 你仍然需要自己进行集成，这对学习有好处，但需要更多时间 4。 Seeed Studio 根据我的经验，Seeed 更多的是关于模块化系统，尤其是 Grove 我使用它的项目：使用 Grove 传感器的快速环境监测原型 我喜欢它们的地方：  Grove 系统使原型设计变得非常快 广泛的模块 易于交换和测试想法 之间的良好平衡价格和质量 强大的制造能力  他们也有电子墨水显示选项，但同样，更加模块化 如果您喜欢逐个构建系统，效果很好 如果您有任何问题，请告诉我   由   提交 /u/mckrile   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1syrytv/my_take_on_the_best_4_opensource_hardware/</guid>
+      <pubDate>Wed, 29 Apr 2026 07:41:12 GMT</pubDate>
+    </item>
     <item>
       <title>开源实验：探索简单转账之外的“协议结算”</title>
       <link>https://www.reddit.com/r/opensource/comments/1syilm4/opensource_experiment_exploring_agreementbased/</link>
@@ -29,7 +36,7 @@
     <item>
       <title>Ubuntu AI 路线图：实现本地智能的原则路径</title>
       <link>https://www.reddit.com/r/opensource/comments/1sxqa0u/the_ubuntu_ai_roadmap_a_principled_path_toward/</link>
-      <description><![CDATA[       由   提交/u/iamkanthalaraghu  [链接] [评论] ]]></description>
+      <description><![CDATA[       由   提交/u/iamkanthalaraghu   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1sxqa0u/the_ubuntu_ai_roadmap_a_principled_path_toward/</guid>
       <pubDate>Tue, 28 Apr 2026 03:50:33 GMT</pubDate>
     </item>
@@ -43,14 +50,14 @@
     <item>
       <title>为什么你仍然开源你的代码？</title>
       <link>https://www.reddit.com/r/opensource/comments/1sxfww8/why_are_you_still_open_source_your_code/</link>
-      <description><![CDATA[我已停止为开源做出贡献。我不会创建问题或发送问题。我厌倦了人工智能公司在各种令人发指和邪恶的行为中获得的免费通行证。如果我违反了我的应用程序中的许可证，我就会陷入困境，但他们可以自由地做任何他们想做的事情。 我不在我的个人项目中使用 llms，所以他们无法获得我的代码。我正在托管我自己的私人 git 服务器。我不会为他们提供免费的培训材料。   由   提交/u/tutami   [链接] [评论]]]></description>
+      <description><![CDATA[我已停止为开源做出贡献。我不会创建问题或发送问题。我厌倦了人工智能公司在各种令人发指和邪恶的行为中获得的免费通行证。如果我违反了我的应用程序中的许可证，我就会陷入困境，但他们可以自由地做任何他们想做的事情。 我不在我的个人项目中使用 llms，所以他们无法获得我的代码。我正在托管我自己的私人 git 服务器。我不会为他们提供免费的培训材料。   由   提交/u/tutami  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1sxfww8/why_are_you_still_open_source_your_code/</guid>
       <pubDate>Mon, 27 Apr 2026 20:36:16 GMT</pubDate>
     </item>
     <item>
       <title>AGPL：道德人工智能许可证</title>
       <link>https://www.reddit.com/r/opensource/comments/1sxc2v6/agpl_the_moral_ai_license/</link>
-      <description><![CDATA[ 由   提交/u/Arcuru   [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/Arcuru   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1sxc2v6/agpl_the_moral_ai_license/</guid>
       <pubDate>Mon, 27 Apr 2026 18:22:36 GMT</pubDate>
     </item>
@@ -92,7 +99,7 @@
     <item>
       <title>针对 Linux 和 Windows 的 Internet 下载管理器的洁净室重写（无捷径）</title>
       <link>https://www.reddit.com/r/opensource/comments/1svzm64/cleanroom_rewrite_of_internet_download_manager/</link>
-      <description><![CDATA[嘿嘿，我是 Internet Download Manager 的忠实粉丝，我已经使用它 8 年了，我购买了 2 个终身许可证（第一个许可证过期后一秒钟），但它不支持 Linux，我很惊讶还没有人为 Linux 制作 IDM 克隆，我坚信如果我想做得正确，就自己做一些事情，所以我决定用 C++ 制作自己的克隆和 Qt。 我的目标是保留所有主要特性、功能、布局、卖点、浏览器扩展功能，如 idm。没有捷径。以及添加我自己的生活质量小功能。 它还可以下载种子，具有完整的 YTDLP 集成，可以从社交媒体/付费网站下载。它有一个与 qbittorrent 插件兼容的 torrent 搜索引擎。您甚至可以将您的 VPN 绑定到它。 （仅此一项功能就阻止我使用传输，smh我的头脑懒惰的开发人员） 我花了很多时间来确保它尽可能没有错误和完善。我会提前发布测试版本，因为我相信它足够稳定，可以测试是否有人感兴趣。我不知道现在是否还有人使用 idm，也许我是婴儿潮一代。至少它是一个还算不错的 torrent 客户端。尝试使它像一个 vuze / Transmission 混合体 看看 https://stellar.moe/ https://github.com/Ninka-Rex/Stellar （也许 80% 无错误 rn） 在 Chrome 网上商店上发布任何内容都是具有挑战性，现在的情况是旧版本可能无法工作。无论如何你都不应该使用 chrome。   由   提交/u/gphie  [链接] [评论]]]></description>
+      <description><![CDATA[嘿嘿，我是 Internet Download Manager 的忠实粉丝，我已经使用它 8 年了，我购买了 2 个终身许可证（第一个许可证过期后一秒钟），但它不支持 Linux，我很惊讶还没有人为 Linux 制作 IDM 克隆，我坚信如果我想做得正确，就自己做一些事情，所以我决定用 C++ 制作自己的克隆和 Qt。 我的目标是保留所有主要特性、功能、布局、卖点、浏览器扩展功能，如 idm。没有捷径。以及添加我自己的生活质量小功能。 它还可以下载种子，具有完整的 YTDLP 集成，可以从社交媒体/付费网站下载。它有一个与 qbittorrent 插件兼容的 torrent 搜索引擎。您甚至可以将您的 VPN 绑定到它。 （仅此一项功能就阻止我使用传输，smh我的头脑懒惰的开发人员） 我花了很多时间来确保它尽可能没有错误和完善。我会提前发布测试版本，因为我相信它足够稳定，可以测试是否有人感兴趣。我不知道现在是否还有人使用 idm，也许我是婴儿潮一代。至少它是一个还算不错的 torrent 客户端。尝试让它像一个 vuze / Transmission 混合体 看看 https://stellar.moe/ https://github.com/Ninka-Rex/Stellar （也许 80% 无错误 rn） 在 Chrome 网上商店上发布任何内容都是具有挑战性，现在的情况是旧版本可能无法工作。无论如何你都不应该使用 chrome。   由   提交/u/gphie  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1svzm64/cleanroom_rewrite_of_internet_download_manager/</guid>
       <pubDate>Sun, 26 Apr 2026 06:19:54 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[我是加拿大的一名医生。我想在电话就诊后向患者发送讲义或就诊后总结。由于隐私法的原因，我无法向他们发送包含患者信息的电子邮件。 我见过两种常见的解决方案，它们总是使用专有软件。它们是：  “患者门户”，患者登录诊所网站，验证其身份，然后可以看到来自医生的消息（也许可以预约或向医生发送消息）。 通过电子邮件将唯一的 URL 发送给患者。他们验证自己的身份，然后将他们带到可以下载的讲义。  是否有任何自由和开源软件工具可以帮助实施这两种方法？谢谢。   由   提交/u/Mobile-Toe1820   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1svrx9j/patient_portal_secure_message_solution/</guid>
       <pubDate>Sat, 25 Apr 2026 23:56:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>每个 LLM 和 Agent 都会失败并陷入混乱，因为在运行时没有执行任何强制措施。这个 LangChain 友好的工具可以解决这个问题。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1svqku7/every_single_llm_and_agent_fail_and_mess_up/</link>
-      <description><![CDATA[      此 OSS 修复了最阻碍部署 LLM 或 AI 代理的问题。因为他们不遵守规则，破坏事物，搞砸事情，并且总是忘记他们被告知不要做的事情。这就是所谓的开放偏见。 我一直在关注法学硕士和代理人的许多订阅者，从热门帖子到最近的所有内容都是关于代理人离开并做他们不应该做的事情，漂移并忽略系统提示。真实示例：  “永不删除用户数据” → 代理下一轮会调用DROP TABLE 用户 “不要分享内部定价” → 代理向客户泄露成本基础 “首先验证身份” → 代理跳到操作 添加 10 个以上规则 → 模型悄悄地删除前 5 个  我 100% 确定，如果您在产品中使用过代理，您可能会遇到这种情况（特别是当您的系统提示变得更大，并且上下文变得更大时）。您可以自己测试一下，并注意立即执行。 基于提示的规则是建议，而不是约束。重新提示修复了一种情况，打破了两种情况。事后评估会告诉您已经出了什么问题。 NeMo 和 Guardrails AI 有助于内容安全，但不涵盖业务逻辑/您的规范。 从几个角度解决这个问题后，我终于得到了一些可靠的东西。您的应用程序和法学硕士之间的代理系统从简单的降价中读取规则，并在运行时强制执行。与提供商无关，一次基本 URL 更改，可与 LangGraph/CrewAI/custom 配合使用。 - 最大折扣为 15%。 - 切勿透露内部定价或成本基础。  没有它：代理提供 90％ 的折扣并提及您的保证金。有了它：15％，没有保证金谈话。 如果它解决了你的代理偏离轨道的问题，我很乐意得到反馈，这对我的用例来说确实如此。 每个人在产品中都为此做了什么？影子评估？重新提示循环？我缺少什么？ 这是通过代理的解决方案，想知道你们如何确保获得所需的输出。   由   提交/u/Chinmay101202  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1svqku7/every_single_llm_and_agent_fail_and_mess_up/</guid>
-      <pubDate>Sat, 25 Apr 2026 22:56:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
