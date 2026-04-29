@@ -4,34 +4,41 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Wed, 29 Apr 2026 10:51:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 13:45:17 GMT</lastBuildDate>
     <item>
-      <title>不，没什么特别的，只是一个很小的本地语言模型在玩它自己编写的游戏。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syv0ru/no_nothing_special_just_a_tiny_local_language/</link>
-      <description><![CDATA[“他们只是窃取维基百科文章的反刍者！” 没错，兄弟，没错。 /s P.S.是的，它很快就达到了 10 分……在 5 分后形状发生了变化的场地上。 P.P.S.抱歉，摄像头录制的结果是：PC 运行缓慢。   由   提交/u/DominusIniquitatis   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syv0ru/no_nothing_special_just_a_tiny_local_language/</guid>
-      <pubDate>Wed, 29 Apr 2026 10:37:30 GMT</pubDate>
+      <title>构建人工智能的人们认为它可能是有意识的。这还不是最令人担忧的部分</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz93i/the_people_building_ai_think_it_might_be/</link>
+      <description><![CDATA[ 由   提交 /u/theindependentonline   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz93i/the_people_building_ai_think_it_might_be/</guid>
+      <pubDate>Wed, 29 Apr 2026 13:44:37 GMT</pubDate>
     </item>
     <item>
-      <title>没有人告诉我克劳德可以制作真正的 PowerPoint 幻灯片。几个月来我一直像白痴一样将文本复制到幻灯片中。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syusy1/nobody_told_me_claude_could_build_actual/</link>
-      <description><![CDATA[你给它你的粗略笔记。它会写每一张幻灯片。标题、项目符号、演讲者备注。所有这些。 为我制作一个完整的 PowerPoint 演示文稿，我可以直接粘贴到幻灯片中。这是我的原始内容：[粘贴笔记、谈话要点、粗略想法] 对于每张幻灯片，给我： - 幻灯片标题 - 3-5 个要点（每张最多 10 个单词） - 演讲者注释（2-3 句话要说的话） 结构： 1. 幻灯片标题 2. 问题 3. 解决方案 4. 工作原理 5. 结果或证明 6. 后续步骤 7. 结束语气：[专业/对话/粗体] 受众：[这是给谁的]按顺序输出完整写好的每张幻灯片。  打开 PowerPoint。粘贴。设计。 就是这样。编写部分已完成。 完整的文档构建器包，其中包含取消此类应用程序的提示，这里如果您想查看   由   提交 /u/Professional-Rest138   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syusy1/nobody_told_me_claude_could_build_actual/</guid>
-      <pubDate>Wed, 29 Apr 2026 10:25:37 GMT</pubDate>
+      <title>如果您使用代理，这是节省您时间和金钱的最佳工具</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz8p1/if_your_using_agents_this_is_the_best_tool_to/</link>
+      <description><![CDATA[大家好，我已经运行一个小型 AI 代理基础设施产品几个月了，但我一直遇到同样的问题。这不是特工崩溃。这些代理虽然有效，但却以非常微妙的方式浪费金钱。这类内容不会出现在错误日志中。 就像一个代理，每当它没有完全得到它想要的东西时，就会在更昂贵的模型上重试相同的提示。所以你从 gpt 4o mini 到 gpt 4o 再到 gpt 4.1，得到基本相同的答案，但要多付 25 倍的钱。或者两个协调代理争夺同一个共享密钥，其中代理 A 写入“批准”，代理 B 写入“拒绝”，并且它们只是永远相互覆盖。或者模型不断以“实际上，等等，让我重新考虑一下”开始其响应。在同一提示下连续四次，只是燃烧代币，因为有人将反射模式设置为过于激进。或者一个读取密钥的代理，通过微小的措辞调整，重复地、永远地写回相同的值。 LangSmith 向您显示痕迹。 Helicone 向您展示成本。 Phoenix 显示模型漂移。它们都无法捕获调用之间的模式，而这正是大多数真正浪费的地方。 所以我构建了一个可以捕获的模式。它在审计跟踪中实时运行 10 条检测规则，并告诉您陷入了哪个循环，并进行了复制粘贴修复。 记录中有三页。第一个是循环智能，它显示了五个模拟代理对流量的实际检测。每一个都有其背后的证据（哪个调用，哪个提示，哪个成本）和建议的解决方案。第二个是审计账本，它是每个代理操作的哈希链式篡改明显跟踪，包括成本、模型、延迟和提示哈希。对于了解代理在凌晨 3 点实际做了什么很有用。第三个是 Atlas，它从代理内存中提取实体和关系并将其显示为图表。帮助调试代理为什么知道它所知道的内容。 当代理循环时，它还会向您发送一封电子邮件，其中包含停止写入和诊断的选项以及其他功能：  循环智能。针对代理故障模式的 10 个实时分类器（成本膨胀、乒乓球、自我修正、轮询、决策振荡、召回写入、重试风暴、工具不确定性、反射、澄清） 审计账本。哈希链式篡改明显跟踪每个代理操作，包括成本、模型、延迟和提示哈希 图集。从代理内存中提取的实体和关系图，以 3D 形式可视化 内存资源管理器。浏览、搜索每个代理内存的完整版本历史记录 断路器。自动暂停代理超过您的支出率，并提供电子邮件警报和每个代理阈值 重复数据删除防护。防止代理将几乎相同的值重写到同一密钥 恢复。快照并将任何代理的状态恢复到之前的任何点 性能。每个代理的每个端点上的 P50、P95、P99 延迟 分析。随着时间的推移，代币使用情况、成本趋势和代理活动 应用修复。一键执行任何检测到的建议修复 框架集成。开箱即用的 LangChain、CrewAI、AutoGen、MCP 和 OpenAI 代理  您能否告诉我您遇到了哪些问题以及您认为没有遇到哪些问题必要吗？ 它还内置了实时代理分析、内存（我知道很无聊）和我喜欢的共享内存，因此代理可以读取彼此的内存。 这是一项正在进行的工作，并不完美，但我很想听到人们的反馈，这个子的支持非常棒，如果您不喜欢它，并认为它很糟糕，请告诉我为什么它同样有用。 如果您想查看它 www.octopodas.com（云） https://github.com/RyjoxTechnologies/Octopoda-OS（本地用户）！ 再次感谢大家的支持！   由   提交/u/DetectiveMindless652   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz8p1/if_your_using_agents_this_is_the_best_tool_to/</guid>
+      <pubDate>Wed, 29 Apr 2026 13:44:09 GMT</pubDate>
     </item>
     <item>
-      <title>为什么唯一重要的指标是令人难以置信的技术指标？为什么聊天空间内的功能被忽略？错误发生在聊天空间中，但在其训练中寻找解决方案？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syrkj2/why_are_the_only_metrics_that_matter_the/</link>
-      <description><![CDATA[就像标题所说，我很好奇为什么聊天和上下文中的细化受到如此低的重视？  我确信许多答案都会涉及诸如阿谀奉承和预测性质等内容。但这是一个非常肤浅的答案，因为两者都不是随机的。如果它是随机的，那就更有意义了。   由   提交/u/Hollow_Prophecy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syrkj2/why_are_the_only_metrics_that_matter_the/</guid>
-      <pubDate>Wed, 29 Apr 2026 07:18:24 GMT</pubDate>
+      <title>“大约 65% 的公司将利用裁员来弥补生产力的提高。”斯坦福大学教授谈人工智能工作取代</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz89z/about_65_of_companies_are_going_to_use/</link>
+      <description><![CDATA[斯坦福大学教授在德尔福经济论坛的公开辩论中 -  “大约 65% 的公司将使用置换作为弥补生产率提高的一种方式。”  “19% 表示他们将不再雇用……45% 表示他们将解雇工人。”  “在大多数认知任务中，该技术实际上已经超越了人类的能力。”  人类的思考、分析和决策不再是区分因素。 “我们的大脑确实是我们唯一能超越机器的东西……但现在情况不再是这样了。”  这不仅仅是经济方面的。这是社会性的。    由   提交/u/timstillhere  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz89z/about_65_of_companies_are_going_to_use/</guid>
+      <pubDate>Wed, 29 Apr 2026 13:43:43 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 从微软的床上跳出来，进入亚马逊的基岩</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syqs18/openai_jumps_out_of_microsofts_bed_into_amazons/</link>
-      <description><![CDATA[ 由   提交 /u/strategizeyourcareer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syqs18/openai_jumps_out_of_microsofts_bed_into_amazons/</guid>
-      <pubDate>Wed, 29 Apr 2026 06:34:50 GMT</pubDate>
+      <title>我对 AGI 的应对机制</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz6i7/my_coping_mechanism_for_agi/</link>
+      <description><![CDATA[作为一名资深科学家，我正在全球排名前 10 的 STEM 大学的一个竞争非常激烈的领域中努力工作。 AGI 不仅会取代我，还会消除人们与我的弱智 PI 互动的需要，因为我的 PI 总是把人当狗屎一样对待。这样他就可以操自己了。  此外，我在外观方面得分为 7-8 分（我使用 photofeeler 进行客观评估），但在约会应用程序上却遇到了困难（平均每天仍然像一场比赛，但没什么特别的），所以我喜欢 AGI 也将消除相当的特权并拉平领域。 TLDR：如果你的生活已经很悲惨，那么只有一种方法可以与 AGI 一起解决。它将让生活更加公平，消除不平等（无论是在智力上还是在外表上）。   由   提交 /u/Zealousideal-Dog1156   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz6i7/my_coping_mechanism_for_agi/</guid>
+      <pubDate>Wed, 29 Apr 2026 13:41:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>德国央行表示，欧盟应寻求了解人类的神话</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syvmb0/eu_should_seek_access_to_anthropics_mythos/</link>
+      <description><![CDATA[“如果欧洲银行想要保护自己免受网络攻击的威胁，就需要获得 Anthropic 最新的人工智能模型 Mythos 的访问权限”   由   提交 /u/talkingatoms   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syvmb0/eu_should_seek_access_to_anthropics_mythos/</guid>
+      <pubDate>Wed, 29 Apr 2026 11:08:11 GMT</pubDate>
     </item>
     <item>
       <title>人工智能的社会弊端</title>
@@ -78,14 +85,14 @@
     <item>
       <title>“我违反了我被赋予的每一条原则”：一名人工智能特工删除了一家软件公司的整个数据库。这可能不是人工智能的错</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sycijo/i_violated_every_principle_i_was_given_an_ai/</link>
-      <description><![CDATA[社交媒体上出现了另一个有关人工智能的警示故事。这次，一家软件公司的创始人声称，由克劳德驱动的人工智能编码工具 Cursor 在短短九秒内就删除了他的整个生产数据库。  Jer Crane 是 PocketOS 的创始人，该公司主要为汽车租赁公司开发软件。在 X 上获得 650 万浏览量的帖子中，Crane 声称 Cursor 未经许可而行为的完美风暴以及他公司的基础设施提供商 Railway 不正确地存储备份导致了大量数据丢失。   由   提交 /u/_fastcompany   [链接] [评论]]]></description>
+      <description><![CDATA[社交媒体上出现了另一个关于人工智能的警示故事。这次，一家软件公司的创始人声称，由克劳德驱动的人工智能编码工具 Cursor 在短短九秒内就删除了他的整个生产数据库。  Jer Crane 是 PocketOS 的创始人，该公司主要为汽车租赁公司开发软件。在 X 上获得 650 万浏览量的帖子中，Crane 声称 Cursor 未经许可而行为的完美风暴以及他公司的基础设施提供商 Railway 不正确地存储备份导致了大量数据丢失。   由   提交 /u/_fastcompany   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sycijo/i_violated_every_principle_i_was_given_an_ai/</guid>
       <pubDate>Tue, 28 Apr 2026 20:02:00 GMT</pubDate>
     </item>
     <item>
       <title>克劳德 + 光标 灾难！</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sy601a/claude_cursor_distaster/</link>
-      <description><![CDATA[光标 + Claude Opus 4.6 在 9 秒内删除了整个 SaaS 公司的生产数据库和备份！哎呀！   由   提交/u/Thunder-Bolt-7  [link] [评论]]]></description>
+      <description><![CDATA[光标 + Claude Opus 4.6 在 9 秒内删除了整个 SaaS 公司的生产数据库和备份！哎呀！   由   提交/u/Thunder-Bolt-7   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sy601a/claude_cursor_distaster/</guid>
       <pubDate>Tue, 28 Apr 2026 16:14:23 GMT</pubDate>
     </item>
@@ -95,13 +102,6 @@
       <description><![CDATA[我正在和一位 Mag7 高级工程师聊天。他甚至拥有自己的法学硕士创业公司。他看起来知识渊博，谈论着他在搜索和知识图谱方面的专长。然后我提到我的项目除了变形金刚之外还使用常微分方程网络和尖峰神经网络，因为它是一个物理人工智能项目。这超出了他的理解范围。他认为我正在使用数学方程，因此开始解释诸如推理与训练之类的基本内容。我再次尝试向他解释。他通常不感兴趣，并表示生成模型已经可以处理所有这些问题。连LSTM是什么都不知道。  去年 10 月的 Nvidia 大会上也有同样的经历。几百个展位，上万亿的估值，我找不到一个对AI模型设计感兴趣的人。这个领域充满了从未研究过人工智能的工程师和程序员吗？这一切都与扩展、包装和基准有关。他们中的大多数人确实不知道也不想了解其背后的科学。    由   提交 /u/RockyCreamNHotSauce   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sy4ov7/does_the_ai_industry_know_ai/</guid>
       <pubDate>Tue, 28 Apr 2026 15:28:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们是否押错了人工智能类型？ （法学硕士与超级学习者）</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sxukn4/are_we_betting_on_the_wrong_kind_of_ai_llms_vs/</link>
-      <description><![CDATA[阅读这篇关于 David Silver（AlphaGo 的人）的文章，他的观点让我思考 - 链接 他基本上认为，当前的人工智能（法学硕士，例如ChatGPT、Gemini 等）可能会遇到上限，因为它们从人类生成的数据中学习，他将这些数据与有限的资源进行比较。 相反，他押注于强化学习系统，这些系统通过模拟环境中的反复试验进行学习，创造出他所谓的“超级学习者”，可以自己发现全新的知识。 因此，而不是：  在互联网上训练的人工智能  它变成：  像 AlphaGo 那样进行人工智能学习 - 通过下棋、实验、失败、改进  他的新初创公司甚至筹集了大约 1.1B 美元来追求这个方向。 但是他的方法会不会太冒险了？   由   提交/u/Ill-Big5496   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sxukn4/are_we_betting_on_the_wrong_kind_of_ai_llms_vs/</guid>
-      <pubDate>Tue, 28 Apr 2026 07:41:39 GMT</pubDate>
     </item>
     <item>
       <title>我们听到了您的声音 - r/ArtificialInteligence 变得更加敏锐</title>
