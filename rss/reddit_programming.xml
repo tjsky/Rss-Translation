@@ -4,20 +4,20 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 29 Apr 2026 16:27:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 19:18:25 GMT</lastBuildDate>
     <item>
-      <title>编码为 C4Model</title>
-      <link>https://www.reddit.com/r/programming/comments/1sz2s5i/code_to_c4model/</link>
-      <description><![CDATA[嘿，分享我们正在构建的东西，好奇你的想法。 我们正在开发一种工具，可以连接到 Git 存储库并自动从中生成完整的 C4 模型。它还保留更改的时间表并按分支进行操作，这样您就可以看到架构如何演变。 您可以按分支和里程碑全面了解系统，并真正了解事物如何组合在一起。 我们现在还处于早期阶段，它在 JavaScript 项目上运行得相当不错，但我们正在努力找出下一步要支持哪些语言和框架。 如果您对此类内容以及堆栈感兴趣，请告诉我你想要它。   由   提交/u/k8studio  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sz2s5i/code_to_c4model/</guid>
-      <pubDate>Wed, 29 Apr 2026 15:51:34 GMT</pubDate>
+      <title>移动应用程序的免费虚拟试用 API（学生项目）？</title>
+      <link>https://www.reddit.com/r/programming/comments/1sz7w90/free_virtual_tryon_api_for_a_mobile_app_student/</link>
+      <description><![CDATA[大家好， 我正在为一个学校项目开发 Android (Java) 移动应用程序，并且正在尝试集成虚拟试穿功能（根据用户图像试穿衣服）。 我在 Hugging Face 等平台上探索了一些选项，但大多数好的模型是：  仅提供为演示（空格） 未作为稳定 API 公开 或需要付费 GPU/推理  我正在寻找一些东西：  免费（或至少免费层友好） 可通过 API 访问（首选 REST） 可在移动应用后端（FastAPI）中使用 不需要我训练从头开始模型  我已经检查过以下内容：  VTON / 基于扩散的模型 一些拥抱面部空间（但很难集成为 API）  问题：  有没有我可以实际使用的免费虚拟试穿 API？ 有可靠的方法吗将 Hugging Face Space 转换为 API？ 有任何实际可用于学生项目部署的开源模型吗？  我可以接受视觉上不完美的东西，只需用于演示即可。   由   提交 /u/realYassine   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sz7w90/free_virtual_tryon_api_for_a_mobile_app_student/</guid>
+      <pubDate>Wed, 29 Apr 2026 18:49:55 GMT</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 如何破坏 PostgreSQL：抢占回归解释</title>
-      <link>https://www.reddit.com/r/programming/comments/1sz11dg/how_linux_70_broke_postgresql_the_preemption/</link>
-      <description><![CDATA[我写了最近的一个案例，其中 Linux 7.0 将 PostgreSQL 基准测试的吞吐量减少了一半。我试图从首要原则来解释它。请告诉我您的想法:)   由   提交/u/teivah  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sz11dg/how_linux_70_broke_postgresql_the_preemption/</guid>
-      <pubDate>Wed, 29 Apr 2026 14:50:09 GMT</pubDate>
+      <title>FastCGI：已有 30 年历史，仍然是更好的反向代理协议</title>
+      <link>https://www.reddit.com/r/programming/comments/1sz6j93/fastcgi_30_years_old_and_still_the_better/</link>
+      <description><![CDATA[ 由   提交/u/BrewedDoritos  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1sz6j93/fastcgi_30_years_old_and_still_the_better/</guid>
+      <pubDate>Wed, 29 Apr 2026 18:03:04 GMT</pubDate>
     </item>
     <item>
       <title>有人破坏了 SAP 的 npm 包并使用 CI 管道来攻击自己</title>
@@ -39,13 +39,6 @@
       <description><![CDATA[ 由   提交/u/root0ps  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1syz1bl/set_up_automated_dependency_scanning_after_the/</guid>
       <pubDate>Wed, 29 Apr 2026 13:36:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>现在怎么办？ Github 的推送不安全，CVE-2026-3854。</title>
-      <link>https://www.reddit.com/r/programming/comments/1syywj8/now_what_github_is_insecure_on_push_cve20263854/</link>
-      <description><![CDATA[ 由   提交 /u/Automatic_Equal9806   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1syywj8/now_what_github_is_insecure_on_push_cve20263854/</guid>
-      <pubDate>Wed, 29 Apr 2026 13:30:57 GMT</pubDate>
     </item>
     <item>
       <title>用 tmux 的显示弹出窗口替换 Neovim 的终端</title>
@@ -109,6 +102,13 @@
       <description><![CDATA[ 由   提交/u/overandoutage  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1sylm66/pip_v261_adds_support_for_relative_dependency/</guid>
       <pubDate>Wed, 29 Apr 2026 02:16:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>数字身份的形成——移动革命和监控机</title>
+      <link>https://www.reddit.com/r/programming/comments/1syhw2x/the_making_of_digital_identity_the_mobile/</link>
+      <description><![CDATA[ 由   提交/u/zerolayers  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1syhw2x/the_making_of_digital_identity_the_mobile/</guid>
+      <pubDate>Tue, 28 Apr 2026 23:30:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
