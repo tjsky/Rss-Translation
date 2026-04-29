@@ -4,11 +4,25 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 29 Apr 2026 08:10:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 10:52:16 GMT</lastBuildDate>
+    <item>
+      <title>所以这并没有真正缓存任何东西，人们如何缓存这些样式，同时保证它在元素更改位置或样式时更新？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1syut96/so_this_doesnt_really_cache_anything_how_do/</link>
+      <description><![CDATA[    /u/HiddenGriffin   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1syut96/so_this_doesnt_really_cache_anything_how_do/</guid>
+      <pubDate>Wed, 29 Apr 2026 10:26:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>无障碍基础知识 - 为什么以及如何为残疾人消除障碍</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sysigu/accessibility_fundamentals_why_and_how_you_remove/</link>
+      <description><![CDATA[       由   提交/u/ErikKroes  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sysigu/accessibility_fundamentals_why_and_how_you_remove/</guid>
+      <pubDate>Wed, 29 Apr 2026 08:12:57 GMT</pubDate>
+    </item>
     <item>
       <title>对您的工作流程有帮助的最有用的人工智能工具是什么？</title>
       <link>https://www.reddit.com/r/webdev/comments/1sysgn8/what_are_the_most_useful_ai_tools_that_help_your/</link>
-      <description><![CDATA[嘿，开发者和其他人， 我觉得每周都会有 1000 个“AI 工具”掉落，其中 90% 只是同一事物的细微变化。 很好奇人们每天实际使用的是什么会产生真正的影响。不是谈论明显的工具 - 更像是： • 真正加速你的东西 • 取代了您工作流程的一部分 • 或者只是让您“是的，我保留这个” 随意删除您的项目和/或工具的上下文！ 您最近遇到了什么困难？   由   提交/u/OfferRead  [链接] [评论]]]></description>
+      <description><![CDATA[嘿，开发者和其他人， 我觉得每周都会有 1000 个“AI 工具”掉落，其中 90% 只是同一事物的细微变化。 好奇人们每天实际使用的是什么会产生真正的影响。不谈论明显的工具 - 更像是： • 真正加速你的东西 • 取代了您工作流程的一部分 • 或者只是让您“是的，我保留这个” 随意删除您的项目和/或工具的上下文！ 您最近遇到了什么困难？   由   提交/u/OfferRead  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1sysgn8/what_are_the_most_useful_ai_tools_that_help_your/</guid>
       <pubDate>Wed, 29 Apr 2026 08:10:03 GMT</pubDate>
     </item>
@@ -27,13 +41,6 @@
       <pubDate>Wed, 29 Apr 2026 07:35:42 GMT</pubDate>
     </item>
     <item>
-      <title>我们正在重塑 SSR 吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1syrmbs/are_we_reinventing_ssr/</link>
-      <description><![CDATA[我在 Reddit 和不同的论坛上看到很多讨论，人们说 React 正在用一堆复杂的抽象重新发明 SSR，但我不这么认为……我在 Reddit 和不同的论坛上看到很多讨论，人们说 React 正在用一堆复杂的抽象重新发明 SSR，但我认为这不是真的。你可以责怪 React 速度慢或其重新渲染行为，老实说我同意。我不是 React 的粉丝，在这方面我更喜欢 Solid。 但这就是人们怀念的。 PHP 和其他服务器端框架在服务器上生成 HTML 字符串，浏览器呈现它，仅此而已。 React 服务器组件表面上做类似的事情，它们在服务器上运行，输出是在服务器端生成的，是的，它们引入了支持异步 UI 渲染的流。 但是人们错过了一件关键的事情：交互性。使用 PHP 处理交互有多容易？ PHP 生成 HTML，将其交给浏览器，它的工作就完成了。使用现代前端框架，您可以在客户端上运行一个运行时，一个处理状态、DOM 操作和用户交互的程序。这就是演变。 多年来，我们一直以后端为中心，随着我们需要更多的交互性，我们已经转向以前端为中心，因为浏览器可以理解 JavaScript。如果您将这些渲染模式纯粹视为“我们如何渲染 HTML”，那么您就可以理解这些渲染模式。你会完全错过重点。但如果你从前端的角度来看，你会看到一些不同的东西：这是从旧事物中汲取灵感并在新领域进行创新。   由   提交 /u/Acrobatic_Big781   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1syrmbs/are_we_reinventing_ssr/</guid>
-      <pubDate>Wed, 29 Apr 2026 07:21:14 GMT</pubDate>
-    </item>
-    <item>
       <title>当您想到为印度超本地化企业构建/管理电子商务网站的工具时，您会想到哪 3 个平台？</title>
       <link>https://www.reddit.com/r/webdev/comments/1syq6ow/when_you_think_of_tools_to_buildmanage_ecommerce/</link>
       <description><![CDATA[我一直在深入研究印度超本地化企业的电子商务设置（当地杂货店、药店、暗店、快速商务等），老实说......大多数对话似乎仍然默认为 Shopify。 但是 Shopify 感觉有点“全球优先”，并不是真正为以下内容而构建的：  重度货到付款工作流程 UPI 优先结账 本地配送车队/最后一英里集成 小型企业的多地点库存  与此同时，Dukaan 和 Zopping 等印度平台声称可以解决这个问题，但我没有看到他们在这里谈论太多。 所以我很好奇：  是吗？印度电子商务建设者实际上很好，或者只是“足够好”？ 如果您必须为超本地化的印度企业选择3个平台，它们会是什么？ 这里有人后悔选择了 Shopify（或放弃它）吗？  很想听听真实的经验 - 哪些有效，哪些失败，以及如果重新开始您会避免哪些。 谢谢请您提前投入时间并提供帮助。   由   提交/u/Silent_Laugh_9539   [链接] [评论]]]></description>
@@ -50,7 +57,7 @@
     <item>
       <title>Stripe Webhook 陷阱无人警告您</title>
       <link>https://www.reddit.com/r/webdev/comments/1syp4sh/the_stripe_webhook_gotchas_nobody_warns_you_about/</link>
-      <description><![CDATA[根据生产经验写下了 5 条 — 那些实际导致问题的： 1.签名验证使用原始字节 您的框架可能会在处理程序看到它之前解析正文。在任何中间件接触原始字节之前读取它们，否则验证会默默失败。 2.仅靠幂等键是不够的如果 Stripe 在写入事件 ID 之前重试，两个并发处理程序都可以通过“seen?”检查并运行。需要对 event_id 进行数据库级唯一约束。 3. Stripe 费用是在 BalanceTransaction 上，而不是 PaymentIntent 上。 构建费用报告？您需要两个额外的 API 调用，大多数人都会跳过：PaymentIntent → Charge → BalanceTransaction。 4.确认快，处理异步返回太慢会导致重试。验证签名，推送到队列，返回200。 5.测试和实时模式使用不同的 webhook 密钥 交换环境并想知道为什么验证突然失败？这个。 带有代码示例的完整细分（Rails）：https://ultrathink.art/blog/stripe-webhooks-in-rails?utm_source=reddit&amp;utm_medium=social&amp;utm_campaign=organic   由   提交 /u/ultrathink-art   [链接] [评论]]]></description>
+      <description><![CDATA[根据生产经验写下了 5 条 — 那些实际导致问题的： 1.签名验证使用原始字节 您的框架可能会在处理程序看到它之前解析正文。在任何中间件接触原始字节之前读取原始字节，否则验证会默默失败。 2.仅靠幂等键是不够的如果 Stripe 在写入事件 ID 之前重试，两个并发处理程序都可以通过“seen?”检查并运行。需要对 event_id 进行数据库级唯一约束。 3. Stripe 费用是在 BalanceTransaction 上，而不是 PaymentIntent 上。 构建费用报告？您需要两个额外的 API 调用，大多数人都会跳过：PaymentIntent → Charge → BalanceTransaction。 4.确认快，处理异步返回太慢会导致重试。验证签名，推送到队列，返回200。 5.测试和实时模式使用不同的 webhook 密钥 交换环境并想知道为什么验证突然失败？这个。 带有代码示例的完整细分（Rails）：https://ultrathink.art/blog/stripe-webhooks-in-rails?utm_source=reddit&amp;utm_medium=social&amp;utm_campaign=organic   由   提交 /u/ultrathink-art   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1syp4sh/the_stripe_webhook_gotchas_nobody_warns_you_about/</guid>
       <pubDate>Wed, 29 Apr 2026 05:05:59 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[      我正在制作一个交易品种仪表板，其主要目的是显示每个品种的状态，即市场数据是否可用，我无法决定配色方案。 基本上是这个小提琴，但规模更大（最多几千个指标）。 仪表板 我认为颜色应该尽可能可靠地传达信息，而不需要分散注意力，所以这就是为什么我让整个背景使用“状态颜色”，而不是一些较小的部分，但符号本身的名称也应该突出，符号名称不会总是 6 个字母的外汇符号，有些可能会更长（20-40 个字符）并且它们肯定会换行。 背景将为 RGB255-RGB200）。 如果您认为指标不应该是正方形，而是完全不同的东西，请告诉我同样，这个设计并不是一成不变的，如果您的建议更加清晰，我会很容易地采用它。   由   提交/u/badass6  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1syk936/trading_symbol_dashboard/</guid>
       <pubDate>Wed, 29 Apr 2026 01:15:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 REST API 构建了一个临时 Hotmail/Outlook 电子邮件服务 — NodeMail</title>
-      <link>https://www.reddit.com/r/webdev/comments/1syk0wt/i_built_a_temporary_hotmailoutlook_email_service/</link>
-      <description><![CDATA[大家好， 过去几个月我一直在做一个业余项目，终于感觉很好，可以分享。 它是什么？ NodeMail 是一项临时电子邮件服务，可为您提供真实、有效的 Hotmail 和 Outlook 地址，而不是立即被拒绝的虚假一次性域名。 为什么不直接使用 Mailinator 或 Guerrilla Mail？大多数临时邮件服务都使用黑名单域。尝试用其中之一注册 Instagram、TikTok 或 Netflix — 他们会立即拒绝。 NodeMail 使用实际的 Microsoft 帐户，因此可以在严格的平台上通过验证。 它的作用： 为您分配特定平台（Instagram、TikTok、Netflix 等）的真实 Hotmail/Outlook 地址 通过 Microsoft Graph API 自动获取验证码和 OTP 带有 API 密钥身份验证的完整 REST API — 自动化一切 即用即付，无需订阅。注册后您将获得 1 个免费积分来试用 如果没有收到电子邮件，则退款 适用人群：测试注册流程的开发人员、增长团队、自动化脚本或任何不想交出真实电子邮件的人。 希望得到反馈 - 尤其是有关 API 设计和定价模型的反馈。   由   提交/u/MarzipanNo1005   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1syk0wt/i_built_a_temporary_hotmailoutlook_email_service/</guid>
-      <pubDate>Wed, 29 Apr 2026 01:05:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
