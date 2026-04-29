@@ -4,20 +4,34 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Wed, 29 Apr 2026 13:45:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 16:25:43 GMT</lastBuildDate>
     <item>
-      <title>构建人工智能的人们认为它可能是有意识的。这还不是最令人担忧的部分</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz93i/the_people_building_ai_think_it_might_be/</link>
-      <description><![CDATA[ 由   提交 /u/theindependentonline   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz93i/the_people_building_ai_think_it_might_be/</guid>
-      <pubDate>Wed, 29 Apr 2026 13:44:37 GMT</pubDate>
+      <title>人工智能不断变得越来越聪明，那么为什么它仍然在显而易见的事情上失败呢？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz2q9o/ai_keeps_getting_smarter_so_why_does_it_still/</link>
+      <description><![CDATA[当前人工智能进步中最奇怪的部分之一是模型如何解决复杂的编码任务、生成真实的媒体或解释高级主题，然后在看似简单或明显的事情上完全失败。 有时是基本逻辑、缺少上下文、自信的错误答案或人类通常不会犯的错误。 感觉能力增长很快，但可靠性增长慢得多。  为什么这些系统在某些领域取得了如此显着的进步，而在其他表面上看起来更容易的领域仍然举步维艰？ 这主要是一个训练问题、架构问题，还是智能如何大规模发挥作用？   由   提交 /u/NoFilterGPT   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sz2q9o/ai_keeps_getting_smarter_so_why_does_it_still/</guid>
+      <pubDate>Wed, 29 Apr 2026 15:49:41 GMT</pubDate>
     </item>
     <item>
-      <title>如果您使用代理，这是节省您时间和金钱的最佳工具</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz8p1/if_your_using_agents_this_is_the_best_tool_to/</link>
-      <description><![CDATA[大家好，我已经运行一个小型 AI 代理基础设施产品几个月了，但我一直遇到同样的问题。这不是特工崩溃。这些代理虽然有效，但却以非常微妙的方式浪费金钱。这类内容不会出现在错误日志中。 就像一个代理，每当它没有完全得到它想要的东西时，就会在更昂贵的模型上重试相同的提示。所以你从 gpt 4o mini 到 gpt 4o 再到 gpt 4.1，得到基本相同的答案，但要多付 25 倍的钱。或者两个协调代理争夺同一个共享密钥，其中代理 A 写入“批准”，代理 B 写入“拒绝”，并且它们只是永远相互覆盖。或者模型不断以“实际上，等等，让我重新考虑一下”开始其响应。在同一提示下连续四次，只是燃烧代币，因为有人将反射模式设置为过于激进。或者一个读取密钥的代理，通过微小的措辞调整，重复地、永远地写回相同的值。 LangSmith 向您显示痕迹。 Helicone 向您展示成本。 Phoenix 显示模型漂移。它们都无法捕获调用之间的模式，而这正是大多数真正浪费的地方。 所以我构建了一个可以捕获的模式。它在审计跟踪中实时运行 10 条检测规则，并告诉您陷入了哪个循环，并进行了复制粘贴修复。 记录中有三页。第一个是循环智能，它显示了五个模拟代理对流量的实际检测。每一个都有其背后的证据（哪个调用，哪个提示，哪个成本）和建议的解决方案。第二个是审计账本，它是每个代理操作的哈希链式篡改明显跟踪，包括成本、模型、延迟和提示哈希。对于了解代理在凌晨 3 点实际做了什么很有用。第三个是 Atlas，它从代理内存中提取实体和关系并将其显示为图表。帮助调试代理为什么知道它所知道的内容。 当代理循环时，它还会向您发送一封电子邮件，其中包含停止写入和诊断的选项以及其他功能：  循环智能。针对代理故障模式的 10 个实时分类器（成本膨胀、乒乓球、自我修正、轮询、决策振荡、召回写入、重试风暴、工具不确定性、反射、澄清） 审计账本。哈希链式篡改明显跟踪每个代理操作，包括成本、模型、延迟和提示哈希 图集。从代理内存中提取的实体和关系图，以 3D 形式可视化 内存资源管理器。浏览、搜索每个代理内存的完整版本历史记录 断路器。自动暂停代理超过您的支出率，并提供电子邮件警报和每个代理阈值 重复数据删除防护。防止代理将几乎相同的值重写到同一密钥 恢复。快照并将任何代理的状态恢复到之前的任何点 性能。每个代理的每个端点上的 P50、P95、P99 延迟 分析。随着时间的推移，代币使用情况、成本趋势和代理活动 应用修复。一键执行任何检测到的建议修复 框架集成。开箱即用的 LangChain、CrewAI、AutoGen、MCP 和 OpenAI 代理  您能否告诉我您遇到了哪些问题以及您认为没有遇到哪些问题必要吗？ 它还内置了实时代理分析、内存（我知道很无聊）和我喜欢的共享内存，因此代理可以读取彼此的内存。 这是一项正在进行的工作，并不完美，但我很想听到人们的反馈，这个子的支持非常棒，如果您不喜欢它，并认为它很糟糕，请告诉我为什么它同样有用。 如果您想查看它 www.octopodas.com（云） https://github.com/RyjoxTechnologies/Octopoda-OS（本地用户）！ 再次感谢大家的支持！   由   提交/u/DetectiveMindless652   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz8p1/if_your_using_agents_this_is_the_best_tool_to/</guid>
-      <pubDate>Wed, 29 Apr 2026 13:44:09 GMT</pubDate>
+      <title>我们所有的测试都通过了。特工仍然崩溃。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz110k/all_our_tests_passed_the_agent_was_still_broken/</link>
+      <description><![CDATA[通过将真实的自然语言提示输入真实的运行时来测试代理系统，然后对是否调用了正确的工具进行评分。没有模拟，没有 SDK 固定装置，没有信仰。   由   提交 /u/CackleRooster   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sz110k/all_our_tests_passed_the_agent_was_still_broken/</guid>
+      <pubDate>Wed, 29 Apr 2026 14:49:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>埃隆·马斯克证实谷歌联合创始人站在机器人一边：“拉里·佩奇称我为物种歧视者”</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sz0pzy/elon_musk_testifies_google_cofounder_sided_with/</link>
+      <description><![CDATA[埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的诉讼中第一天的证词丰富多彩。据报道，周二下午，这位世界首富在奥克兰联邦法院出庭，对九人陪审团表示，人工智能“可能杀死我们所有人”，并引用了詹姆斯·卡梅隆的《终结者》（人工智能的糟糕结果）和《星际迷航》（人工智能的良好结果）。 他还将 OpenAI 的整个故事归咎于他说谷歌联合创始人拉里·佩奇曾经对他进行的一次侮辱：“物种主义者”。 审判预计将持续约四个星期，重点是马斯克在 2024 年提起的诉讼，指控 OpenAI 背叛了其作为“造福全人类”的非营利组织的创始使命。 2015 年，马斯克与山姆·奥尔特曼 (Sam Altman) 共同创立了该实验室，此前两人花了几周时间讨论他们对人工智能落入追求利润的大公司（即谷歌）手中的担忧。  然而，到 2017 年，该组织意识到构建先进的人工智能需要的资金超出了非营利组织所能筹集的资金，因此他们讨论了建立营利性立场。马斯克向该实验室捐赠了至少 3800 万美元，他想担任首席执行官并获得多数控制权，但在与奥特曼就这一职位展开权力斗争后，马斯克感到自己被欺骗了。然后他于 2018 年离职。 ChatGPT 2022 年推出后，OpenAI 变成了一家价值约 7300 亿美元的公司，马斯克提起诉讼，指控 Altman 和 OpenAI 总裁格雷格·布罗克曼 (Greg Brockman) 窃取了一项慈善事业。他正在向 OpenAI 和微软寻求超过 1500 亿美元的赔偿。 OpenAI 的律师讲述了一个略有不同的故事。首席律师威廉·萨维特 (William Savitt) 在开庭陈词中告诉陪审员，马斯克只是在权力斗争中失败了，现在正在吃“酸葡萄”，特别是因为马斯克现在经营着自己的营利性人工智能实验室 xAI。 “即使没有他，我的客户也有勇气继续前进并取得成功，”萨维特说。 “马斯克先生不喜欢这样。” 阅读更多：https://fortune.com/2026/04/28/elon-musk-larry-page-robots-specieist-trial-sam-altman-open-ai-ceo/   由   提交/u/fortune  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sz0pzy/elon_musk_testifies_google_cofounder_sided_with/</guid>
+      <pubDate>Wed, 29 Apr 2026 14:38:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>超密度存储器。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syzfg0/super_density_memory/</link>
+      <description><![CDATA[大家对超密度内存有何看法？例如，假设您授予对 20 GB 的 .txt 信息的访问权限，它会读取并摄取该信息，但将其压缩为 200 MB 的信息，稍后可以以相同的原始大小进行访问，直到不需要为止，然后重新压缩为 200 MB。   由   提交/u/Curious-Recording-87  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syzfg0/super_density_memory/</guid>
+      <pubDate>Wed, 29 Apr 2026 13:51:22 GMT</pubDate>
     </item>
     <item>
       <title>“大约 65% 的公司将利用裁员来弥补生产力的提高。”斯坦福大学教授谈人工智能工作取代</title>
@@ -27,11 +41,11 @@
       <pubDate>Wed, 29 Apr 2026 13:43:43 GMT</pubDate>
     </item>
     <item>
-      <title>我对 AGI 的应对机制</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz6i7/my_coping_mechanism_for_agi/</link>
-      <description><![CDATA[作为一名资深科学家，我正在全球排名前 10 的 STEM 大学的一个竞争非常激烈的领域中努力工作。 AGI 不仅会取代我，还会消除人们与我的弱智 PI 互动的需要，因为我的 PI 总是把人当狗屎一样对待。这样他就可以操自己了。  此外，我在外观方面得分为 7-8 分（我使用 photofeeler 进行客观评估），但在约会应用程序上却遇到了困难（平均每天仍然像一场比赛，但没什么特别的），所以我喜欢 AGI 也将消除相当的特权并拉平领域。 TLDR：如果你的生活已经很悲惨，那么只有一种方法可以与 AGI 一起解决。它将让生活更加公平，消除不平等（无论是在智力上还是在外表上）。   由   提交 /u/Zealousideal-Dog1156   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz6i7/my_coping_mechanism_for_agi/</guid>
-      <pubDate>Wed, 29 Apr 2026 13:41:50 GMT</pubDate>
+      <title>为什么十几岁的男孩选择人工智能女友而不是现实女友？德国之声新闻</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syz5cy/why_teenage_boys_are_choosing_ai_girlfriends_over/</link>
+      <description><![CDATA[近几个月来，越来越多的男孩开始用人工智能驱动的虚拟伴侣取代传统约会。模拟浪漫对话的应用程序和聊天机器人（通常被称为“人工智能女友”）正在吸引那些认为现实生活中的关系风险太大、复杂或根本无法获得的青少年。    由   提交/u/AlphaOneYoutube  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syz5cy/why_teenage_boys_are_choosing_ai_girlfriends_over/</guid>
+      <pubDate>Wed, 29 Apr 2026 13:40:37 GMT</pubDate>
     </item>
     <item>
       <title>德国央行表示，欧盟应寻求了解人类的神话</title>
@@ -39,6 +53,13 @@
       <description><![CDATA[“如果欧洲银行想要保护自己免受网络攻击的威胁，就需要获得 Anthropic 最新的人工智能模型 Mythos 的访问权限”   由   提交 /u/talkingatoms   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syvmb0/eu_should_seek_access_to_anthropics_mythos/</guid>
       <pubDate>Wed, 29 Apr 2026 11:08:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>消息人士称，DeepSeek V4 推出后，中国大型科技公司争相购买华为 AI 芯片</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1syvjk5/big_chinese_tech_firms_scramble_to_secure_huawei/</link>
+      <description><![CDATA[ 由   提交 /u/talkingatoms   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syvjk5/big_chinese_tech_firms_scramble_to_secure_huawei/</guid>
+      <pubDate>Wed, 29 Apr 2026 11:04:17 GMT</pubDate>
     </item>
     <item>
       <title>人工智能的社会弊端</title>
@@ -81,27 +102,6 @@
       <description><![CDATA[&quot;Nvidia 发布了 Nemotron 3 Nano Omni，这是一种开放权重多模态模型，它将视觉、音频和语言统一在具有 30B 参数但每次推理仅 3B 活跃的单一架构中。它声称吞吐量是同类开放模型的 9 倍，并且在六项基准测试中名列前茅。它可根据 Nvidia 的开放模型协议进行商业用途，其目标是在单个 GPU 上部署边缘 AI 代理，使 Nvidia 不仅在 AI 基础设施方面成为竞争对手，而且在其上运行的模型方面也成为竞争对手。”   由   提交/u/shikizen   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1syfijp/nvidia_is_no_longer_just_selling_the_shovels/</guid>
       <pubDate>Tue, 28 Apr 2026 21:53:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>“我违反了我被赋予的每一条原则”：一名人工智能特工删除了一家软件公司的整个数据库。这可能不是人工智能的错</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sycijo/i_violated_every_principle_i_was_given_an_ai/</link>
-      <description><![CDATA[社交媒体上出现了另一个关于人工智能的警示故事。这次，一家软件公司的创始人声称，由克劳德驱动的人工智能编码工具 Cursor 在短短九秒内就删除了他的整个生产数据库。  Jer Crane 是 PocketOS 的创始人，该公司主要为汽车租赁公司开发软件。在 X 上获得 650 万浏览量的帖子中，Crane 声称 Cursor 未经许可而行为的完美风暴以及他公司的基础设施提供商 Railway 不正确地存储备份导致了大量数据丢失。   由   提交 /u/_fastcompany   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sycijo/i_violated_every_principle_i_was_given_an_ai/</guid>
-      <pubDate>Tue, 28 Apr 2026 20:02:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德 + 光标 灾难！</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sy601a/claude_cursor_distaster/</link>
-      <description><![CDATA[光标 + Claude Opus 4.6 在 9 秒内删除了整个 SaaS 公司的生产数据库和备份！哎呀！   由   提交/u/Thunder-Bolt-7   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sy601a/claude_cursor_distaster/</guid>
-      <pubDate>Tue, 28 Apr 2026 16:14:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI行业懂AI吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1sy4ov7/does_the_ai_industry_know_ai/</link>
-      <description><![CDATA[我正在和一位 Mag7 高级工程师聊天。他甚至拥有自己的法学硕士创业公司。他看起来知识渊博，谈论着他在搜索和知识图谱方面的专长。然后我提到我的项目除了变形金刚之外还使用常微分方程网络和尖峰神经网络，因为它是一个物理人工智能项目。这超出了他的理解范围。他认为我正在使用数学方程，因此开始解释诸如推理与训练之类的基本内容。我再次尝试向他解释。他通常不感兴趣，并表示生成模型已经可以处理所有这些问题。连LSTM是什么都不知道。  去年 10 月的 Nvidia 大会上也有同样的经历。几百个展位，上万亿的估值，我找不到一个对AI模型设计感兴趣的人。这个领域充满了从未研究过人工智能的工程师和程序员吗？这一切都与扩展、包装和基准有关。他们中的大多数人确实不知道也不想了解其背后的科学。    由   提交 /u/RockyCreamNHotSauce   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1sy4ov7/does_the_ai_industry_know_ai/</guid>
-      <pubDate>Tue, 28 Apr 2026 15:28:09 GMT</pubDate>
     </item>
     <item>
       <title>我们听到了您的声音 - r/ArtificialInteligence 变得更加敏锐</title>
