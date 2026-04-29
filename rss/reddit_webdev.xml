@@ -4,11 +4,46 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 29 Apr 2026 02:32:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 05:52:05 GMT</lastBuildDate>
+    <item>
+      <title>我是一名 3D 艺术家和网络开发人员，专门从事 DTC 补充剂。你觉得这个渲染怎么样？对于登陆页面来说，它是否足够优质？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1syp5qm/im_a_3d_artist_and_web_dev_specializing_in_dtc/</link>
+      <description><![CDATA[   /u/noor-e-alam  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1syp5qm/im_a_3d_artist_and_web_dev_specializing_in_dtc/</guid>
+      <pubDate>Wed, 29 Apr 2026 05:07:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe Webhook 陷阱无人警告您</title>
+      <link>https://www.reddit.com/r/webdev/comments/1syp4sh/the_stripe_webhook_gotchas_nobody_warns_you_about/</link>
+      <description><![CDATA[根据生产经验写下了 5 条 — 那些实际导致问题的： 1.签名验证使用原始字节 您的框架可能会在处理程序看到它之前解析正文。在任何中间件接触原始字节之前读取原始字节，否则验证会默默失败。 2.仅靠幂等键是不够的如果 Stripe 在写入事件 ID 之前重试，两个并发处理程序都可以通过“seen?”检查并运行。需要对 event_id 进行数据库级唯一约束。 3. Stripe 费用是在 BalanceTransaction 上，而不是 PaymentIntent 上。 构建费用报告？您需要两个额外的 API 调用，大多数人都会跳过：PaymentIntent → Charge → BalanceTransaction。 4.确认快，处理异步返回太慢会导致重试。验证签名，推送到队列，返回200。 5.测试和实时模式使用不同的 webhook 密钥 交换环境并想知道为什么验证突然失败？这个。 带有代码示例的完整细分（Rails）：https://ultrathink.art/blog/stripe-webhooks-in-rails?utm_source=reddit&amp;utm_medium=social&amp;utm_campaign=organic   由   提交 /u/ultrathink-art   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1syp4sh/the_stripe_webhook_gotchas_nobody_warns_you_about/</guid>
+      <pubDate>Wed, 29 Apr 2026 05:05:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>使从 Squarespace 迁移更容易的免费实用程序</title>
+      <link>https://www.reddit.com/r/webdev/comments/1syoee1/a_free_utility_to_make_migrating_from_squarespace/</link>
+      <description><![CDATA[我正在帮助客户从 Squarespace 迁移到 Wordpress，并且我很难从他们的 Squarespace 资产/媒体库下载所有图像，因为 Squarespace 没有批量下载选项。我实际上构建了一个完全免费的基于浏览器的实用程序来批量自动处理此问题，而不是单独下载每个文件。它处理重复项并保留文件夹结构。希望这可以帮助任何迁移或备份其网站的人！ 在这里找到它 - https://kylescheer.com/squarespace-assets/    由   提交 /u/soccerkyle1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1syoee1/a_free_utility_to_make_migrating_from_squarespace/</guid>
+      <pubDate>Wed, 29 Apr 2026 04:28:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个Python高级职位的面试出了差错</title>
+      <link>https://www.reddit.com/r/webdev/comments/1symtyu/interview_for_a_senior_python_position_gone_awry/</link>
+      <description><![CDATA[我只是需要把这件事说出来。上周我正在为我的公司进行第二轮面试。我们正在寻找一到两名高级 Python 开发人员，他们在 Django、ORM、PostgreSQL、异步编程方面拥有深厚的背景，并且拥有集成一些 API 的经验。没有什么特别花哨的，只是一些寻找具有扎实技能并且能够接管即将内部化的项目的人。 到目前为止一切顺利。我没有参与第一轮面试，简历也是前一天才知道的。 4名候选人入围。这次面试的目的是探索候选人的技术知识，其中包括需要精确答案的问题以及需要在更概念化的层面上进行辩论的问题。 候选人 #2 出现，自我介绍为 30 岁的人，自称拥有专家级的 Python 技能，并表示非常熟悉当前堆栈的库。我通过解释规则来开始采访，即没有人工智能，共享屏幕和相机+打开任何选择的编辑器来编写一些台词。到目前为止，一切都很好。然后我问了这个握手小问题，我打算稍后在此基础上构建： “让我们将变量 a 定义为列表理解（细节不相关）”。候选人有义务。 “顺便说一句，如果我同样定义 b，但用圆括号替换方括号，那么 b 的类型是什么？”。他的答案是：一个元组。 我（对我刚刚听到的感到非常好笑）：你确定吗？给予肯定的答复。所以只是为了确保不存在“文化”问题。错位，我问他 print(a) 和 print(b) 会产生什么，他自信地回答说输出是相同的。 那时我开始问更多问题，候选人犯了更多错误，然后沮丧地回击我“今天再也没有人这样编码了”。接下来说我们落后了 2 年等等。 我请他详细说明。他说，在当今时代，没有人会“那样”编码。不再有。唯一“严肃”的是人们所做的就是让人工智能进行编码并审查输出，但他说“微观层面”是由人工智能来完成的。编码已死。他抱怨第二次面试是关于基本的Python。我从来没有打算在这上面花超过几分钟的时间。这只是一个自称“高级”的人提出的一系列小热身问题。水平应该可以回答。如果他知道自己在做什么，我对他使用人工智能也没有意见，但显然存在问题。我不会雇用一个会扔出数千行代码的人，如果他不知道他的左右他就必须检查这些代码。 所以，基本上，这个拥有 8 年 Python 经验的小伙子至少有 6 年的时间来习惯“编写代码”。他自己但现在不知道列表中的生成器，他在这里告诉我“无论如何这并不重要，因为克劳德有你的支持”。这让我笑了。 我的回答是，如果他说的是真的，那么 a.) 为什么他甚至费心去申请高级开发人员的角色而不是自己去尝试呢？如果你找到了下金蛋的鹅，就不需要继续做炸汉堡的工作了，b.) 为什么我的高级开发人员会抱怨他们现在必须阅读的代码量和生成的无意义内容的水平？ 不确定这是否是我们前进的方向，但如果是这样，我不喜欢它的味道。这些人只是触及了问题的表面。要么你只能解决极其简单的事情，要么你只会留下一团无名的混乱。我唯一知道的是，你不会和我们一起在这里做这件事。 幸运的是，其他 3 位申请人表现得很好，给人留下了深刻的印象。   由   提交 /u/okiharaherbst   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1symtyu/interview_for_a_senior_python_position_gone_awry/</guid>
+      <pubDate>Wed, 29 Apr 2026 03:12:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何超越基础知识并加深我的知识？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1sylzx1/how_do_i_go_beyond_the_basics_and_deepen_my/</link>
+      <description><![CDATA[我最近在 Udemy 上完成了 Angela Yu 的全栈 Web 开发训练营。在课程中，我了解了前端和后端的各种技术。 完成训练营后，我还构建了一些项目来巩固我所学到的知识。然而，我目前担心的是，我可能只在表面层面上研究了其中许多技术。例如，我没有深入研究 SQL、React 或 RESTful API。我觉得我已经有了扎实的介绍——足以开始使用它们——但还不足以真正掌握它们。 （对于那些也参加过这个训练营的人：你会说内容是初级还是中级？） 因此，我想了解如何更深入地研究这些技术。 我有两个主要问题：  如何确定我还需要学习哪些主题？ 我知道 roadmap.sh，它通过以下方式组织学习路径：技术和职业道路。我正在寻找类似的资源，从中可以了解我已经学到的知识以及每种堆栈或技术还需要学习的知识。 在哪里可以更深入地研究这些主题？除了知道我缺少什么之外，我还希望获得有关平台、课程、文档或其他可靠资源的建议，以更深入地研究每种技术。    由   提交 /u/Reasonable_Ninja6455   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1sylzx1/how_do_i_go_beyond_the_basics_and_deepen_my/</guid>
+      <pubDate>Wed, 29 Apr 2026 02:34:16 GMT</pubDate>
+    </item>
     <item>
       <title>Warp 现已开源 🤯</title>
       <link>https://www.reddit.com/r/webdev/comments/1sylmdw/warp_is_now_opensource/</link>
-      <description><![CDATA[这对于代理开发来说是巨大的。 我喜欢他们不仅打开存储库，而且还围绕 Oz（他们的云代理编排平台）进行构建。 新增内容： ✅ AGPL 源代码 ✅ 支持 Kimi、MiniMax 和 Qwen ✅ 路由的新自动开放模型模式 ✅ 用于可移植性的设置文件 我自己测试了其中一些工作流程，灵活性感觉非常强🚀 有趣的部分不仅仅是代码访问，而是人类和代理如何共享工作。 您尝试过 Warp 吗？您对代理的开源 IDE 有何看法？   由   提交/u/yogendrasinghx   [链接] [评论]]]></description>
+      <description><![CDATA[       https://preview.redd.it/bropjeidv1yg1.png?width=589&amp;format=png&amp;auto=webp&amp;s=89e031af88b38a162b71a4be42c2a2468ef754dd 仅在此处添加实际公告以供上下文   由   提交/u/yogendrasinghx   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1sylmdw/warp_is_now_opensource/</guid>
       <pubDate>Wed, 29 Apr 2026 02:17:12 GMT</pubDate>
     </item>
@@ -74,41 +109,6 @@
       <description><![CDATA[经过一番来回，客户向我发送了以下内容。这是某种骗局吗？ 您好， 这是访问管理面板的链接。 https://wpengine.stage1-allelectricalproducts.com/wp-allelectricalproducts/ 请使用您的 Google 帐户登录。系统将生成一个用户名和密码 - 请将它们发送给我，以便我授予您访问权限。 另外，请告诉我创建帐户时使用的电子邮件地址。 如果您遇到任何错误，请向我发送屏幕截图。 我会等待您的回复。   由   提交 /u/LegitimateDream4942   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1syfh0c/is_this_a_scam_prospect_sent_me_this/</guid>
       <pubDate>Tue, 28 Apr 2026 21:51:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>项目太多，开发人员不够，你如何处理这个问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1syf94t/too_many_projects_not_enough_developers_how_are/</link>
-      <description><![CDATA[最近我和我的代理机构遇到了这个奇怪的天花板。 我们并没有在与线索斗争，实际上恰恰相反。项目源源不断地涌入，大部分是中小型构建，从纸面上看，我们应该进行扩展。但实际上......我们不断受到开发能力的瓶颈。 起初我认为雇用更多的人是显而易见的举动。但每次我们尝试时： 入职花了很长时间 质量不一致 沟通减慢了一切 突然间我开始管理人员而不是实际经营业务 自由职业者也没有完全解决这个问题。有些很棒，但可靠性无处不在。错过最后期限、上下文切换、在项目中消失，您可能知道这些做法。 最近我开始尝试一种不同的方法 - 与外部开发团队而不是个人自由职业者合作。更像是过载时的即插即用能力。 不过仍在弄清楚。不确定这是否是长期的，还是只是将问题转移到其他地方。 好奇其他人是如何处理这个问题的： 您是否在内部积极招聘？ 建立一个值得信赖的自由职业者池？ 与开发工作室合作？ 或者只是对额外的项目说不？ 了解在现实生活中，而不仅仅是在现实生活中真正有效的东西会很有趣。理论   由   提交/u/Wide_Countera  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1syf94t/too_many_projects_not_enough_developers_how_are/</guid>
-      <pubDate>Tue, 28 Apr 2026 21:42:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>12 年来我从未发现 UI 快照测试有用</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sycqi7/not_once_in_12_years_have_i_found_ui_snapshot/</link>
-      <description><![CDATA[这是货物崇拜的行为。称我为糟糕的开发 idc 整个开发团队维护和“关注快照”的投资回报率是多少？ （他们不会）太糟糕了。您可以通过其他不太脆弱的方式捕获这些错误。如果您建议这样做，您只需要一个促销指令，否则您实际上不需要考虑一群人的日常操作。   由   提交 /u/SixFigs_BigDigs   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sycqi7/not_once_in_12_years_have_i_found_ui_snapshot/</guid>
-      <pubDate>Tue, 28 Apr 2026 20:09:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>是否有免费服务可以创建 SCP 风格的 wiki 站点？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sybj0p/are_there_free_services_that_exist_to_create_a/</link>
-      <description><![CDATA[我很好奇创建和维护 wiki 站点的努力。我曾担任过几个 wiki 网站的编辑，但从未亲自制作/运行过一个网站。 我最好的猜测是 wiki gg 可能是最好的选择，但我想在离开头脑风暴阶段之前进行检查。   由   提交/u/Awkward_GM   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sybj0p/are_there_free_services_that_exist_to_create_a/</guid>
-      <pubDate>Tue, 28 Apr 2026 19:27:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>我从2018年就退出这个行业了...</title>
-      <link>https://www.reddit.com/r/webdev/comments/1syalnl/ive_been_out_of_the_industry_since_2018/</link>
-      <description><![CDATA[谁能解释一下从那时起 Web 开发发生了什么变化？  我曾经为非营利组织（无家可归组织、食品银行等）制作网站，费用非常低且固定，通常根据组织和工作量是免费的，但我也为一些企业制作了一些网站。  2026年快速制作网站的方法是什么？我必须温习我的技能（php、sql...），但我应该只使用人工智能吗？或者我是否只是重复我在 2018 年之前所做的事情：仅手动使用带有或不带有 themeforest 主题的简单 WordPress 网站？ 任何建议都将非常感激，以便在创建网站时尽可能高效，因为我想尽我所能帮助他们。 谢谢！   由   提交/u/Charming-Standard-84  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1syalnl/ive_been_out_of_the_industry_since_2018/</guid>
-      <pubDate>Tue, 28 Apr 2026 18:53:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>可访问性检查报告对您的客户项目有帮助吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1sy9y0t/would_an_accessibility_check_report_help_you_in/</link>
-      <description><![CDATA[大家好， 我目前正在验证一个名为 AccessFix 的小型工具/服务的想法。 这个想法很简单：帮助网页设计师和自由职业者快速识别客户网站上常见的可访问性问题，并将其转化为清晰、客户友好的报告。 该报告将重点关注以下内容： - 缺少替代文本 -颜色对比度差 - 未标记的表单字段 - 按钮或链接不清晰 - 标题结构问题 - 基本键盘导航问题 - 常见的WCAG 相关问题 目标不是取代完整的专业可访问性审核或法律建议。 目标是让小型网页设计团队和自由职业者更容易： - 发现明显的可访问性问题更快 -向非技术客户解释这些问题 -优先修复 -创建更强大的追加销售或维护服务 -为开发人员或客户提供具体的后续步骤 我正在寻找来自网页设计师、自由职业者和小型机构的诚实反馈：  客户是否曾问过您有关可访问性的问题？ 简短的、客户友好的无障碍报告对您的工作流程有用吗？ 您会在移交网站之前使用类似的内容吗？ 这样的报告绝对需要包含哪些内容？ 您希望对客户网站进行一次性扫描/报告还是定期监控？  我还提供了一些免费的测试报告真实的网站以换取反馈。 不想在这里出售任何东西。我主要想了解这是否为网页设计师解决了真正的问题，还是只是“很高兴拥有”。 感谢任何诚实的想法。   由   提交 /u/f3n1xfr0m7h345h35   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1sy9y0t/would_an_accessibility_check_report_help_you_in/</guid>
-      <pubDate>Tue, 28 Apr 2026 18:31:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
