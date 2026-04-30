@@ -4,7 +4,28 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Thu, 30 Apr 2026 05:53:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 08:12:06 GMT</lastBuildDate>
+    <item>
+      <title>Twitter 书签到 Notion，一句话，完成</title>
+      <link>https://www.reddit.com/r/automation/comments/1szppt0/twitter_bookmarks_to_notion_one_sentence_done/</link>
+      <description><![CDATA[“我想要的工作流程理论上存在。尝试过 IFTTT。一直工作到 API 改变为止。尝试了 Zapier，得到了推文 URL，但没有内容，对于真正记住我为什么保存某些内容毫无用处。尝试每周手动转储。持续了两周。 现在我只是告诉 Invoko 同步我的保存。它读取屏幕，拉出书签，将它们放入 Notion 中。每周两次，每次 40 秒。内容现在实际上就在那里。”   由   提交 /u/Superb-External-1247   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1szppt0/twitter_bookmarks_to_notion_one_sentence_done/</guid>
+      <pubDate>Thu, 30 Apr 2026 08:06:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动化我周一早上的追赶</title>
+      <link>https://www.reddit.com/r/automation/comments/1szpdvf/automated_my_monday_morning_catchup/</link>
+      <description><![CDATA[“周一早上最让我恼火的不是音量。而是我必须先处理所有事情，然后才能判断哪些事情值得处理。尝试了 Zapier 摘要。得到了电子邮件主题列表，没有上下文。在 Slack 中尝试了预定摘要，太死板了，到达的时间不对。 “这个周末我离线，请阅读我的电子邮件和 Slack，然后告诉我需要知道什么。”“这就是整个 Invoko 提示符。返回的内容：今天需要做出决定的两件事，一件已经解决的事情，三个可以等待的线程。过去需要一个小时的上下文重建现在只需五分钟。”   由   提交 /u/Big_Independent_4858   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1szpdvf/automated_my_monday_morning_catchup/</guid>
+      <pubDate>Thu, 30 Apr 2026 07:46:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic 对 81,000 名 Claude 用户进行了有关人工智能经济影响的调查。结果令人着迷（也有点令人不安）</title>
+      <link>https://www.reddit.com/r/automation/comments/1szndkd/anthropic_surveyed_81000_claude_users_about_ais/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1szndkd/anthropic_surveyed_81000_claude_users_about_ais/</guid>
+      <pubDate>Thu, 30 Apr 2026 05:53:40 GMT</pubDate>
+    </item>
     <item>
       <title>自动化人员，您在哪里处理重复数据删除而不破坏其他一切？</title>
       <link>https://www.reddit.com/r/automation/comments/1szla0i/automation_folks_where_do_you_handle_dedupe/</link>
@@ -83,32 +104,11 @@
       <pubDate>Wed, 29 Apr 2026 12:18:53 GMT</pubDate>
     </item>
     <item>
-      <title>我在一次周末黑客攻击中意外地杀死了一家房地产公司 80% 的体力工作</title>
-      <link>https://www.reddit.com/r/automation/comments/1syx265/i_accidentally_killed_80_percent_of_a_real_estate/</link>
-      <description><![CDATA[我厌倦了看着经纪人淹没在无聊的重复性任务中。他们实际上是从门户网站复制粘贴潜在客户数据到表格和 Whatsapp 中。到了 2026 年，人们仍在手工完成这项工作。  我使用 n8n 和本地 deepseek 实例构建了一个小工具。它提取预算或位置等意图，然后触发自动回复和客户关系管理更新。除非置信度较低，否则没有人会接触任何东西。 他们从每天 4 小时手动输入数据减少到 15 分钟查看警报。我使用了双重验证系统，其中检查器模型标记了人工签核的错误，以保持高度信任。所有数据都在私有实例中隔离，因此 pii 永远不会泄露到共享端点。 它不是革命性的人工智能，但它删除了重复任务并开始扩展 mrr 。事实证明，解决一个无聊的问题可以让您根据感知价值而不是价格比较来收费。 如果您正在处理类似的工作流程，很高兴分享该架构。   由   提交/u/Chillipepper19  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1syx265/i_accidentally_killed_80_percent_of_a_real_estate/</guid>
-      <pubDate>Wed, 29 Apr 2026 12:15:13 GMT</pubDate>
-    </item>
-    <item>
       <title>人工智能助手根据提示生成报告。你会用这个吗？</title>
       <link>https://www.reddit.com/r/automation/comments/1syv7it/ai_assistant_that_generates_reports_from_prompt/</link>
       <description><![CDATA[       由   提交 /u/Carageavk   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1syv7it/ai_assistant_that_generates_reports_from_prompt/</guid>
       <pubDate>Wed, 29 Apr 2026 10:47:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用人工智能进行外展与拥有自动化系统不同</title>
-      <link>https://www.reddit.com/r/automation/comments/1sytp6c/using_ai_for_outreach_isnt_the_same_as_having_an/</link>
-      <description><![CDATA[许多团队认为将人工智能添加到外展中 = 他们已经“自动化”了流程。 事实上，大多数团队只是提高了执行力……而不是构建了实际的系统。 像 Claude 这样的人工智能工具非常适合以下用途：  编写更好的外展文案 更快地个性化消息 加快潜在客户的开发速度研究 产生活动创意  但这仍然只是人工智能帮助人类完成工作。 如果没有真正的流程/基础设施支持，人工智能的推广通常最终会是：  更快，但不一致 有用，但分散 难以标准化 仍然依赖于有人手动监督一切  当人工智能插入实际的工作流程/系统时，真正的影响力就会出现。 那时它就不再是“人工智能辅助的外展”，而是开始成为可扩展/可重复的东西。 这里的其他人如何在自动化中使用人工智能：您主要将其用作生产力层，还是实际上将其构建到结构化系统中？   由   提交 /u/Calm_Ambassador9932   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1sytp6c/using_ai_for_outreach_isnt_the_same_as_having_an/</guid>
-      <pubDate>Wed, 29 Apr 2026 09:23:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有什么好的人工智能自动化书籍可以推荐</title>
-      <link>https://www.reddit.com/r/automation/comments/1syrqtt/is_there_any_good_ai_automation_books_out_there/</link>
-      <description><![CDATA[ 由   提交 /u/Cold_Bass3981   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1syrqtt/is_there_any_good_ai_automation_books_out_there/</guid>
-      <pubDate>Wed, 29 Apr 2026 07:28:13 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,13 +4,27 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Thu, 30 Apr 2026 05:54:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 08:13:34 GMT</lastBuildDate>
     <item>
-      <title>一个简单的网站，可帮助您立即在选项之间进行选择</title>
-      <link>https://www.reddit.com/r/software/comments/1szmk5n/a_simple_website_that_helps_you_choose_between/</link>
-      <description><![CDATA[当您无法决定时，该网站会随机选择您的选择。发现这个简单的工具可以帮助您立即在选项之间做出决定。出奇的有用。 SpinnChoose 是网络上最快的数学公平随机生成器、决策轮和竞赛选择器套件。无论您是挑选有奖得主的创作者、随机分配教室的老师，还是只是想决定晚餐吃什么，我们都会让随机性变得即时、私密且有趣。   由   提交 /u/Trick_Instruction703   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1szmk5n/a_simple_website_that_helps_you_choose_between/</guid>
-      <pubDate>Thu, 30 Apr 2026 05:09:30 GMT</pubDate>
+      <title>我构建了一个 Windows 应用程序来保存可重复使用的文本片段和文件引用 - 寻求反馈🙏</title>
+      <link>https://www.reddit.com/r/software/comments/1szp27k/i_built_a_windows_app_to_save_reusable_text/</link>
+      <description><![CDATA[ 由   提交 /u/Which-Dream-2987   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1szp27k/i_built_a_windows_app_to_save_reusable_text/</guid>
+      <pubDate>Thu, 30 Apr 2026 07:27:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>福昕pdf阅读器专业版</title>
+      <link>https://www.reddit.com/r/software/comments/1szon0o/foxit_pdf_reader_pro/</link>
+      <description><![CDATA[您好，我已经放弃了 Adob​​e Acrobat，转而使用 Foxit PDF Reader Pro。我喜欢它；它的功能比 Acrobat Pro 多得多。它的成本更低，用途更广泛。你们中有人使用它并且对它满意吗？   由   提交/u/Good-Willingness2234   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1szon0o/foxit_pdf_reader_pro/</guid>
+      <pubDate>Thu, 30 Apr 2026 07:03:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>是否存在用于根据多个参考文献筛选单词的键盘驱动工具？</title>
+      <link>https://www.reddit.com/r/software/comments/1szo54v/does_a_keyboarddriven_tool_for_screening_words/</link>
+      <description><![CDATA[我讨厌房间里的其他人都知道一个单词的感觉。当你是一名喜剧演员，而质问者说出你从未听过的术语时，这是残酷的。为了解决这个问题，我构建了一个包含约 10 万个单词和 10 万个短语的数据集，大型语言模型将其识别为 50% 的美国人可以识别。 在电子表格中查看这些内容是一场噩梦，因为点击维基词典链接一万次就会导致腕管综合症。我开始梦想有一个工具可以让我仅使用键盘就可以快速浏览列表。那是我灵光乍现的时刻：腕管尽头的光芒。 这个过程是为了过滤，而不是学习。由于我已经认识这些单词的大部分，所以大多数时候我什至不需要查找它们。我只需要当我遇到一个我不知道的单词时参考，以验证我至少知道这个词的一种含义。 在我开始构建解决方案之前，我想看看是否已经存在某些东西。要求是：  键盘导航：我想使用 j 或 k 等键在列表中移动，而不涉及鼠标。我的手是硬连线的 Neovim 键绑定。 批量操作：UI 需要采用列表格式，以便我可以一次扫描屏幕上的行。由于我已经熟悉列表中的大部分内容，因此我想选择一个项目块并将它们全部标记为已知。 多引用触发器：我需要一个快捷方式，将多个 URL 同时触发到特定的、可重用的窗口中，这样我的选项卡就不会爆炸得一团糟。我使用 yabai 和 skhd 以固定布局排列窗口并在它们之间切换。 浏览器扩展：浏览器窗口必须与 uBO Lite 和 Vimium。 参考配置：我希望能够配置为我检查的每个单词打开的一组 URL。我更喜欢剑桥词典，因为它有清晰的定义。但我需要维基词典，因为我从中构建了数据集。 Google 图片是我处理任何物理事物的首选。  我预料到了有关我的方法的一些问题：  我可以尝试在野外拾取这些单词。但我想系统地浏览一下这个列表。这是因为知道我没有错过任何单词而产生的信心。 频率列表可以用于单词。但它们对于短语来说是一场灾难，因为它们经常会吸收不惯用的噪音。由于维基词典条目是针对惯用用法而精心设计的，因此它是短语数据集的更可靠来源。 我为双关语生成器构建了此数据集。您可以查看文档了解我如何生成数据集。 我可以减少 100k 的数字。我计划使用维基词典类别按英语引理进行过滤，以使筛选任务更易于管理。  我愿意在具体细节上做出妥协。有人见过处理这个问题的工具吗？ 我最初发布这个在r/Anki中。但有人告诉我，“这与 Anki 无关。”   由   提交/u/8ta4  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1szo54v/does_a_keyboarddriven_tool_for_screening_words/</guid>
+      <pubDate>Thu, 30 Apr 2026 06:35:59 GMT</pubDate>
     </item>
     <item>
       <title>将 JPG 转换为 WebP 的最佳方法？</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交 /u/karlpip   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1sz94pn/akustik_multiroom_audio_system_for_streaming_and/</guid>
       <pubDate>Wed, 29 Apr 2026 19:33:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>iPhotron v6.00 发布，支持人脸聚类</title>
-      <link>https://www.reddit.com/r/software/comments/1sz7sl2/iphotron_v600_released_with_face_clustering/</link>
-      <description><![CDATA[我刚刚发布了iPhotron v6.00，最大的新功能是完全本地人/人脸聚类。 iPhotron 可以在您自己的计算机上扫描您的图像库、检测脸部、创建裁剪后的脸部缩略图，并将它们分组到人物卡中。您可以命名人物、合并重复的群集、隐藏/取消隐藏人物、选择封面，并在重新扫描时保持这些决定不变。 此版本还添加了人物组，以便您可以收集多个选定人物一起出现的照片。信息面板、位置地图、固定相册/人物/群组、Linux 地图运行时支持、打包和可靠性也得到了改进。 人脸聚类不需要云端上传；该工作流程设计为在您的设备上本地运行。 GitHub / 下载： https://github.com/OliverZhaohaibin/iPhotron-LocalPhotoAlbumManager   由   提交/u/Mountain_Economy_401   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1sz7sl2/iphotron_v600_released_with_face_clustering/</guid>
-      <pubDate>Wed, 29 Apr 2026 18:46:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>我厌倦了 Windows 欺骗我，所以我写了 Velox。它速度快，是 Rust，而且确实有效。是的，它也有录音模式。</title>
-      <link>https://www.reddit.com/r/software/comments/1sz7q1e/i_got_tired_of_windows_lying_to_me_so_i_wrote/</link>
-      <description><![CDATA[ 由   提交/u/kakarrot4u   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1sz7q1e/i_got_tired_of_windows_lying_to_me_so_i_wrote/</guid>
-      <pubDate>Wed, 29 Apr 2026 18:43:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
