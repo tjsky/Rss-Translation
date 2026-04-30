@@ -4,7 +4,14 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Wed, 29 Apr 2026 21:57:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 02:33:08 GMT</lastBuildDate>
+    <item>
+      <title>[mac] 在 AVID 中处理/识别大型 MXF 文件时出现问题</title>
+      <link>https://www.reddit.com/r/editors/comments/1szdive/mac_problem_working_withrecognizing_large_mxf/</link>
+      <description><![CDATA[嘿伙计们， 我对此做了很多研究，但似乎没有一个典型的解决方案对我有用，所以这就是我在这里问的原因。 有一天，我收到了 .MXF 文件格式的电影片段（当然是音频的 .WAV）。制作人员使用 ARRI Alexa 进行拍摄，我的 5TB 硬盘上有大约 2TB 的素材。我还有每个卷轴的 .ale 文件（在 3 天的拍摄过程中大约有 11 个卷轴）。我认为他们的 DIT 使用 DaVinci 为我创建这些 .mxf 文件。每个文件的大小从 10-100GB 不等。 我打算使用 AVID 进行编辑，但在查看素材时遇到问题。例如，我可以将卷轴的 .ale 文件导入到测试箱中，并且该卷轴上的所有剪辑都会“显示”出来。但都离线了。为了尝试解决此问题，我进入了正在编辑的驱动器中的 Avid MediaFiles 文件夹，创建了一个“2”文件MXF 文件夹中的子文件夹，并将卷轴的 mxf 文件复制到其中。当我回到 AVID 时，我收到以下错误消息：   当我也使用 MXF/1 文件夹时，就会发生这种情况。冒着风险，我尝试看看如果我尝试将 .mxf 直接导入到 bin 中会发生什么——即时崩溃哈哈。并且它们无法通过源浏览器链接。另一方面，我可以在 Premiere Pro 中打开、创建代理并处理该素材，因此我现在一直这样做，以便能够检查素材是否仍然良好。我也可以在达芬奇中做到这一点。我也可以在 Media Encoder 中将它们转换为 mp4，以便能够查看它们。 我只是想了解是什么原因导致我的 MXF 文件在 AVID 中使用时不受支持/无效。我不确定是否是因为我使用的是 Mac（我听说这总是会导致很多问题）还是什么。我只是宁愿在 AVID 中同步，因为它更容易。 如果有人有答案，我将非常感激。我的规格： macOS Tahoe v26.3 MacBook Pro Apple M3Pro 芯片。 18GB 内存 素材是从 ARRIRAW 23.976fps 3424x2202（变形）转换而来的 .mfx 使用 Premiere Pro 25.6.3 使用 Avid Media Composer 2025.6.0   由   提交 /u/dishback   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1szdive/mac_problem_working_withrecognizing_large_mxf/</guid>
+      <pubDate>Wed, 29 Apr 2026 22:17:48 GMT</pubDate>
+    </item>
     <item>
       <title>如何将 .TXT 文件添加到 Avid Media Composer 中的数据轨道</title>
       <link>https://www.reddit.com/r/editors/comments/1sz6d5h/how_to_add_a_txt_file_to_a_data_track_in_avid/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[嘿， 我们正在寻找一名助理编辑来帮助持续处理大量贸易展览镜头。 这个角色非常注重工作流程：  审核大批量 4K 60fps 活动镜头 转换为 24fps 拉快速可用的选择（不是过于精确，只是可靠的时刻） 导出并组织选择，以便为我们的编辑器做好准备  目标是速度和一致性，而不是详细的创意编辑。如果您能够快速行动，保持条理性，并在不过度思考的情况下做出可靠的判断，那么这将是一个很好的选择。 理想的选择：  快速高效、舒适地处理大量素材 对人物、运动和清晰镜头等可用时刻有良好的直觉 按照文件命名和结构进行组织 Premiere 或类似的 NLE 体验  详细信息：  通过稳定的管道进行持续工作 远程 按批次付费，通常每 1-2 小时选择通过 30-60 美元（取决于速度和可靠性）  要申请，请发送：  简介背景 任何相关工作（选择或排除，如果有的话，不是必需的） 您的费率和典型周转时间    由   提交 /u/RelationshipNew8995   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1sxh3in/30hr_assistant_editor_needed_high_volume_footage/</guid>
       <pubDate>Mon, 27 Apr 2026 21:18:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>无法导出奇数尺寸的 TIL .mp4 文件</title>
-      <link>https://www.reddit.com/r/editors/comments/1sxgxwr/til_mp4_files_cant_be_exported_with_odd_number/</link>
-      <description><![CDATA[数字广告牌规范要求提供 815x1528 .mp4 视频文件，但该格式不支持以奇数纵横比导出。必须向上/向下舍入为偶数。天哪。    由   提交 /u/Not-Your-Toast   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1sxgxwr/til_mp4_files_cant_be_exported_with_odd_number/</guid>
-      <pubDate>Mon, 27 Apr 2026 21:12:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
