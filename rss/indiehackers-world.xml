@@ -4,7 +4,7 @@
     <title>帖子 独立黑客</title>
     <link>https://feed.indiehackers.world</link>
     <description>这是 indiehackers.com 的非官方提要</description>
-    <lastBuildDate>Thu, 30 Apr 2026 02:34:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 05:55:23 GMT</lastBuildDate>
     <item>
       <title>构建文件上传功能的更简洁的方法</title>
       <link>https://feed.indiehackers.world/post/8c704e8518</link>
@@ -18,7 +18,7 @@ Discord Indiehackers 聊天广告此处]]></description>
       <pubDate>Wed, 29 Apr 2026 12:58:09 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌的数据安全标签基本上没什么用。所以我构建了一些可以实际检查的东西。</title>
+      <title>谷歌的数据安全标签基本上没有用。所以我构建了一些可以实际检查的东西。</title>
       <link>https://feed.indiehackers.world/post/fc3791ecd1</link>
       <description><![CDATA[
 在 MalwareBazaar 中查找 APK 哈希
@@ -144,7 +144,7 @@ Discord Indiehackers 聊天广告此处]]></description>
 
 比 CalAI 便宜吗？
 对于杂乱的真实膳食，而不只是干净的单品照片，它是否更准确？
-它的功能不仅仅限于基本的卡路里记录吗？
+它的功能不仅仅是基本的卡路里记录吗？
 我可以在付款前试用吗？
 
 这促使我们专注于四件事：比 CalAI 更低的价格、更好的准确性、更多功能以及简单的 3 天免费试用。
@@ -182,6 +182,28 @@ Discord Indiehackers 聊天广告此处]]></description>
       <pubDate>Sat, 25 Apr 2026 22:48:13 GMT</pubDate>
     </item>
     <item>
+      <title>成功的 SaaS 登陆页面使用的常见设计模式</title>
+      <link>https://feed.indiehackers.world/post/3ac5ce41c6</link>
+      <description><![CDATA[设计着陆页并不是要发明新东西，而是要很好地组织经过验证的部分。
+这实际上是我在处理项目时构建可重用登陆页面系统的原因之一。
+&lt;小时/&gt;
+示例演示
+我在使用 Next.js 和 Tailwind 构建模块化 SaaS 登录页面时使用了这些模式。
+如果您好奇它的外观：
+https://vuleo-ai-saas.vercel.app
+&lt;小时/&gt;
+完整模板
+我还将完整的源代码打包为可重用的模板，供独立黑客启动 MVP。
+您可以在这里查看：
+https://vuleolabs.gumroad.com/l/nharb
+&lt;小时/&gt;
+很好奇其他人是否注意到类似的模式。
+您认为哪些部分对于 SaaS 登录页面至关重要？
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/3ac5ce41c6</guid>
+      <pubDate>Sat, 25 Apr 2026 02:33:38 GMT</pubDate>
+    </item>
+    <item>
       <title>我在 30 天内失去了 11 个用户，但不知道为什么。这是我学到的。</title>
       <link>https://feed.indiehackers.world/post/840c4e8231</link>
       <description><![CDATA[我建造了它。当有人点击“取消”时，会出现一个简短的聊天。他们打字或说话 10 秒钟。真正的原因在于仪表板。
@@ -192,15 +214,6 @@ Discord Indiehackers 聊天广告此处]]></description>
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/840c4e8231</guid>
       <pubDate>Fri, 24 Apr 2026 19:40:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>你真的拥有你所建造的东西吗？</title>
-      <link>https://feed.indiehackers.world/post/09948f0666</link>
-      <description><![CDATA[如果您想在签署前检查合同：
-https://joyful-granita-8415bc.netlify.app
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/09948f0666</guid>
-      <pubDate>Fri, 24 Apr 2026 10:11:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
