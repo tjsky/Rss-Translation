@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 01 May 2026 06:12:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 10:24:25 GMT</lastBuildDate>
+    <item>
+      <title>Linux VPS 上的 yt-dlp 可使用新的 YouTube cookie，但 cookie 轮换速度很快，视频下载开始失败。有稳定的解决方案吗？</title>
+      <link>https://www.reddit.com/r/programming/comments/1t0pcbs/ytdlp_on_linux_vps_works_with_fresh_youtube/</link>
+      <description><![CDATA[我正在 Linux VPS 上运行一个小应用程序，该应用程序使用 [yt-dlp](vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/code/electron-browser/workbench/workbench.html) 来：  获取 YouTube 文字记录 下载源视频 使用 ffmpeg 剪短视频  我的大部分工作都正常，但 YouTube cookie 经常出现问题。 当前设置：  Linux VPS [yt-dlp](vscode-file://vscode-app/c:/Program%20Files/Microsoft%20VS%20Code/10c8e557c8/resources/app/out/vs/code/electron-browser/workbench/workbench.html) ffmpeg 节点 22 --js-runtimes &quot;node&quot; --remote-components &quot;ejs:github&quot; 从本地浏览器导出的 cookie 并以 cookies.txt 的形式上传到服务器  我观察到的情况：  新的 cookie 可以工作 脚本提取通常比完整视频下载更容易 完整视频下载有时会失败，并出现以下错误： 登录以确认您不是机器人 提供的 YouTube 帐户 Cookie 不再有效。作为一项安全措施，它们可能已在浏览器中轮换 仅图像可供下载 请求的格式不可用   这样的手动命令可以在我上传新的 cookie 后立即运行： /usr/local/bin/yt-dlp -v \ --cookies “/root/youtube-cookies.txt” \ --js-runtimes“节点” \ --remote-components “ejs:github” \ --list-formats \ “https://www.youtube.com/watch?v=VIDEO_ID”  但是一段时间后，相同的 cookie 停止工作，我需要再次导出/上传它们。 我也尝试过：  将 Node 更新到 v22 启用 --remote-components &quot;ejs:github&quot; 使用受支持的 JS 运行时 新鲜的 cookie 导出 直接在服务器上的 shell 中进行测试  问题：  是否有任何可靠的方法可以避免在 VPS 上不断刷新 YouTube cookie？ 在此设置中 cookie 轮换是不可避免的吗？ 如果 cookie 轮换不可避免，是否有办法使其自动化？     由   提交 /u/vazhadval   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1t0pcbs/ytdlp_on_linux_vps_works_with_fresh_youtube/</guid>
+      <pubDate>Fri, 01 May 2026 10:17:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub 不一定是你唯一的锻造基地</title>
+      <link>https://www.reddit.com/r/programming/comments/1t0on62/github_does_not_have_to_be_your_only_forge/</link>
+      <description><![CDATA[ 由   提交 /u/HiPhish   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1t0on62/github_does_not_have_to_be_your_only_forge/</guid>
+      <pubDate>Fri, 01 May 2026 09:38:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>日志结构合并 (LSM) 树</title>
+      <link>https://www.reddit.com/r/programming/comments/1t0n4oe/logstructured_merge_lsm_tree/</link>
+      <description><![CDATA[ 由   提交/u/StatisticianOnly4004  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1t0n4oe/logstructured_merge_lsm_tree/</guid>
+      <pubDate>Fri, 01 May 2026 08:10:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于 Linux 内核漏洞，发行版没有任何警告</title>
+      <link>https://www.reddit.com/r/programming/comments/1t0m1pn/for_linux_kernel_vulnerabilities_there_is_no/</link>
+      <description><![CDATA[ 由   提交/u/Either_Collection349   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1t0m1pn/for_linux_kernel_vulnerabilities_there_is_no/</guid>
+      <pubDate>Fri, 01 May 2026 07:08:15 GMT</pubDate>
+    </item>
     <item>
       <title>你可以击败二分搜索</title>
       <link>https://www.reddit.com/r/programming/comments/1t08t7r/you_can_beat_the_binary_search/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1szmnmb/learn_algorithms_for_interviews_forget_them_for/</guid>
       <pubDate>Thu, 30 Apr 2026 05:14:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>了解 CORS：实际上是什么阻止了您的 API 请求</title>
-      <link>https://www.reddit.com/r/programming/comments/1szmg7e/understanding_cors_what_actually_blocks_your_api/</link>
-      <description><![CDATA[ 由   提交 /u/lactranandev   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1szmg7e/understanding_cors_what_actually_blocks_your_api/</guid>
-      <pubDate>Thu, 30 Apr 2026 05:03:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>完美的代码审查：如何在提高质量的同时减少认知负荷</title>
-      <link>https://www.reddit.com/r/programming/comments/1sz97hf/the_perfect_code_review_how_to_reduce_cognitive/</link>
-      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sz97hf/the_perfect_code_review_how_to_reduce_cognitive/</guid>
-      <pubDate>Wed, 29 Apr 2026 19:36:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>源代码沙箱</title>
-      <link>https://www.reddit.com/r/programming/comments/1sz8reb/source_code_sandboxing/</link>
-      <description><![CDATA[ 由   提交/u/Active-Fuel-49   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sz8reb/source_code_sandboxing/</guid>
-      <pubDate>Wed, 29 Apr 2026 19:20:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>FastCGI：已有 30 年历史，仍然是更好的反向代理协议</title>
-      <link>https://www.reddit.com/r/programming/comments/1sz6j93/fastcgi_30_years_old_and_still_the_better/</link>
-      <description><![CDATA[ 由   提交/u/BrewedDoritos  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1sz6j93/fastcgi_30_years_old_and_still_the_better/</guid>
-      <pubDate>Wed, 29 Apr 2026 18:03:04 GMT</pubDate>
     </item>
     </channel>
 </rss>

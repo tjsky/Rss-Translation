@@ -4,111 +4,111 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Fri, 01 May 2026 06:11:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 10:20:55 GMT</lastBuildDate>
     <item>
-      <title>帮我在 Claude、ChatGPT、Marketing AI 之间做出选择</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0kzxf/help_me_choose_between_claude_chatgpt_marketing_ai/</link>
-      <description><![CDATA[我一直在使用人工智能营销工具（\~39 美元/月）进行社交媒体帖子、轮播和网站生成。网站输出很稳定，但卷轴不够好，值得信赖。 现在我的试用已经结束，我需要决定是否继续。与此同时， 展望未来，我的人工智能使用将涉及持续的技术工作负载，包括： API 开发和后端逻辑 自动化工作流程和任务编排 数据库结构 调试多步骤系统 此外： 营销内容（社交帖子、登陆页面） 因此，我的人工智能使用分为两个领域： 内容生成（社交媒体、登陆页面） 深度技术开发。鉴于此，我试图评估： 与 Chatgpt 图像相比，Claude 在结构化内容（帖子、轮播）方面的表现如何？ 在编码方面，Claude 在后端开发、集成和调试方面与 Codex 相比如何？ 还试图了解使用限制： 对于 Claude（100 美元/200 美元计划），人们在混合使用时达到限制的频率如何（内容 + 编码）？ 对于 Codex，开发人员在长时间的编码过程中多久会遇到限制？ 考虑到价格差异，我在以下两者之间做出选择： 营销工具 + Codex（总计 60 美元）或  Claude 独立版（\~100 美元） 您会建议拆分工具还是使用一个系统来处理所有事情？   由   提交 /u/Glittering-Water1103   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0kzxf/help_me_choose_between_claude_chatgpt_marketing_ai/</guid>
-      <pubDate>Fri, 01 May 2026 06:09:54 GMT</pubDate>
+      <title>GPT-5.5 与 Claude Mythos：AISI 网络安全数据实际上告诉您什么 (2026)</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0p8ys/gpt55_vs_claude_mythos_what_the_aisi/</link>
+      <description><![CDATA[       由   提交/u/vinodpandey7  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0p8ys/gpt55_vs_claude_mythos_what_the_aisi/</guid>
+      <pubDate>Fri, 01 May 2026 10:12:22 GMT</pubDate>
     </item>
     <item>
-      <title>您现在可以在 Claude Code 中使用您的 ChatGPT Plus/Pro 订阅（无需 API 密钥）</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0kwjg/you_can_now_use_your_chatgpt_pluspro_subscription/</link>
-      <description><![CDATA[      对于像我一样为 ChatGPT *和*单独的 OpenAI API 密钥付费的人，只是为了在 `claude` 后面运行 GPT 模型，请快速提醒。 如果您已经为 ChatGPT Plus 支付了 20 美元/月，并且您住在 claude，那么您就已经双重支付了。现在您不必这样做。  https://preview.redd.it/yiu8i61bugyg1.png?width=2934&amp;format=png&amp;auto=webp&amp;s=b639d9e38ea31f1428085510a029275d8023eb7f 请注意，像我一样付费购买 ChatGPT 和单独的 OpenAI API 密钥只是为了在 claude 后面运行 GPT 模型的人。 有一个名为 Modyak 的免费 macOS 应用程序，它刚刚提供了 ChatGPT 订阅提供商。它通过 ChatGPT 应用程序使用的同一后端路由 Claude Code，因此推理会根据您现有的 ChatGPT 计划而不是 API 密钥进行计费。 工作原理：  单击 Modyak 中的 ChatGPT 订阅图块。 如果您已使用 Codex CLI，它将重用 ~/.codex/auth.json。只需单击一下，无需浏览器。 如果您不这样做，它将针对 auth.openai.com 运行 PKCE。登录一次，完成。 终端中的下一个 claude 命令将根据您的 ChatGPT 计划运行。  管道（出于好奇）： Claude 代码 → 人类消息 → 本地代理 → 聊天完成 → 响应 API → Codex 后端 → 并返回。全程直播。刷新令牌保留在 macOS 钥匙串中；代理只能通过环回端点看到短暂的访问令牌。 值得了解的内容：  store: false 在每个请求中 - 您在 Claude Code 中输入的任何内容都不会显示在您的 chatgpt.com 历史记录中。 模型选择器会读取~/.codex/models_cache.json 实时运行，因此它反映了 OpenAI 当前旋转到 Codex 表面的任何内容（添加模型时无需更新应用程序）。  显而易见的问题 - 允许这样做吗？ 是的。 OpenAI 明确允许 ChatGPT 订阅者使用来自第三方客户端的计划（这也是 Codex CLI 的工作原理）。相反的做法——在 Cursor/Codex/aider 中使用 Anthropic 订阅——自 Anthropic 2026 年 2 月 ToS 更新以来不允许，因此这只在一个方向有效。 它不是什么： 后门、越狱或躲避速率限制的方法。与官方 Codex CLI 相同的 OAuth 流程、相同的后端、相同的标头。 modyak.app（免费）   由   提交/u/BaXRS1988  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0kwjg/you_can_now_use_your_chatgpt_pluspro_subscription/</guid>
-      <pubDate>Fri, 01 May 2026 06:04:52 GMT</pubDate>
+      <title>马斯克诉 OpenAI 等人。审判第五天：马斯克所谓的摧毁 OpenAI 的愿望与陪审团面前的问题无关紧要</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0p3kq/the_musk_v_openai_et_al_trial_day_5_musks_alleged/</link>
+      <description><![CDATA[​ 我并不是说这是真的，但为了论证起见，我们假设马斯克发起这场诉讼的唯一原因是为了打倒 OpenAI 作为竞争对手，并向 Altman 进行报复。假设马斯克甚至在法庭上完全承认了这一点，甚至还吹嘘过这一点。如果说因为他的承认，法院就应该允许 OpenAI 违反其慈善信托义务并背叛公众信任，这将是对正义的严重非法嘲弄。 为了更好地理解这一点，让我们看一个不同的例子。两个男人在同一家公司工作。第一个男人爱上了第二个男人的妻子。他也是该公司的大股东。他知道第二个人挪用了公司一百万美元。为了将第二个男人从照片中剔除，以便他能娶到他的妻子，第一个人提起民事诉讼，指控第二个男人贪污。  仅仅因为第一个人不在乎贪污，只是想娶第二个人的妻子，这是否意味着法官应该认定第二个人在贪污行为上是无辜的？ 当然不是！！！法律规定法官和陪审团根据现有证据来考虑原告指控的实质，而不是根据对原告提起法律诉讼原因的猜测。这就是为什么本次审判中的法官不应该允许 OpenAI 的律师通过将每个人的注意力转移到马斯克所谓的立案动机上来分散陪审团对案件显着事实的注意力。 在法律诉讼中，法官既有权力也有义务排除与案件无关的证据和论点、混淆案件或误导陪审团。由于马斯克将案件告上法庭的个人动机与他对 OpenAI 违反合同的具体主张在法律上无关，法官可以而且必须提出一项限制动议，以防止辩方反复质疑他的动机 我们希望法官很快就会这样做，以便陪审团能够继续关注案件的是非曲直，而不是 OpenAI 对马斯克动机的推测性非实质性人身攻击指控。 我个人认为马斯克是针对 OpenAI 等人提起的法律诉讼。完全基于本金。不应该允许任何人窃取慈善事业并以此致富。    由   提交 /u/andsi2asi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0p3kq/the_musk_v_openai_et_al_trial_day_5_musks_alleged/</guid>
+      <pubDate>Fri, 01 May 2026 10:04:11 GMT</pubDate>
     </item>
     <item>
-      <title>这个烦人的图像生成动画</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0k0fa/this_annoying_image_generation_animation/</link>
-      <description><![CDATA[      是我一个人的问题还是这个像魔眼一样不停跳舞的胡言乱语？当然，对于有眼睛疾病等的人来说，这肯定是不好的。就我个人而言，我更喜欢模糊的，暗示即将发生的事情。我不知道他们为什么转向这个事情。    由   提交/u/WorkTropes  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0k0fa/this_annoying_image_generation_animation/</guid>
-      <pubDate>Fri, 01 May 2026 05:17:15 GMT</pubDate>
+      <title>OpenAI 被发现创建马甲账户来攻击批评者</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0omdg/openai_caught_making_sockpuppet_accounts_to/</link>
+      <description><![CDATA[      源链接 - https://www.modelrepublic.org/articles/is-this-openai%E2%80%99s-anonymous-twitter-sockpuppet-account   由   提交/u/EchoOfOppenheimer   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0omdg/openai_caught_making_sockpuppet_accounts_to/</guid>
+      <pubDate>Fri, 01 May 2026 09:37:32 GMT</pubDate>
     </item>
     <item>
-      <title>问题照片</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0jy4c/problem_photo/</link>
-      <description><![CDATA[      我可能是一个糟糕的提示者，但我真的很难尝试让这个图像正确。  这是一张跳舞玉米饼的图片。我无法让炸玉米饼翻转到它的“侧面”所以它是D形而不是日出形。有人可以帮忙 这是示例图片。我感觉不太具有描述性，抱歉它很通用   由   提交/u/Utopicdreaming  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0jy4c/problem_photo/</guid>
-      <pubDate>Fri, 01 May 2026 05:14:03 GMT</pubDate>
+      <title>如果我不能使用 Pro 型号，那么 Pro 的意义何在？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0oio8/whats_the_point_of_pro_if_i_cant_use_pro_model/</link>
+      <description><![CDATA[      一周前升级到专业版，但专业版仍然是灰色的，因为限制，我应该升级。但我从未使用过专业版，因为它在 11:22 时间时仍然呈灰色。联系了支持人员，他们的人工智能支持告诉我升级计划。 毫无价值且毫无意义。   由   提交/u/No_Twist_678   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0oio8/whats_the_point_of_pro_if_i_cant_use_pro_model/</guid>
+      <pubDate>Fri, 01 May 2026 09:31:37 GMT</pubDate>
     </item>
     <item>
-      <title>我在 24,369 个 Claude 代码更改上单击“全部接受”，而没有阅读任何一个</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0jsmd/me_clicking_accept_all_on_24369_claude_code/</link>
-      <description><![CDATA[   /u/CuriousSherbet9477  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0jsmd/me_clicking_accept_all_on_24369_claude_code/</guid>
-      <pubDate>Fri, 01 May 2026 05:06:04 GMT</pubDate>
+      <title>ChatGPT 5.5 x 搅拌机</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0o4f5/chatgpt_55_x_blender/</link>
+      <description><![CDATA[      我用 Blender 测试了新的 ChatGPT 5.5，它的功能令人惊讶。 它创建了 3D 场景，修复了建模问题，搜索了缺失的资源，并逐步改进了场景。并不完美，但确实感觉人工智能正在从“提示和希望”转向创意软件中实际的代理工作流程。 视频：https://youtu.be/7UREzmu3nl4?si=qdc\_kK5AfajrU8c7 很想听听其他人对人工智能辅助 3D 建模的看法。   由   提交/u/Tall-Distance4036   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0o4f5/chatgpt_55_x_blender/</guid>
+      <pubDate>Fri, 01 May 2026 09:08:12 GMT</pubDate>
     </item>
     <item>
-      <title>要求 GPT 生成可能的 GTA 6 游戏玩法</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0jpnp/asked_gpt_to_generate_possible_gta_6_gameplay/</link>
-      <description><![CDATA[       由   提交/u/Still-Ad9074   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0jpnp/asked_gpt_to_generate_possible_gta_6_gameplay/</guid>
-      <pubDate>Fri, 01 May 2026 05:01:54 GMT</pubDate>
+      <title>在我喂了疯狂的世界建筑后，告诉 ChatGPT 写一个跨维度的电缆电影剧本（相当长）</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0o3nl/told_chatgpt_to_write_an_interdimensional_cable/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0o3nl/told_chatgpt_to_write_an_interdimensional_cable/</guid>
+      <pubDate>Fri, 01 May 2026 09:06:57 GMT</pubDate>
     </item>
     <item>
-      <title>H-E-B 员工</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0jhhj/heb_employee/</link>
-      <description><![CDATA[ 由   提交/u/Basicgus  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0jhhj/heb_employee/</guid>
-      <pubDate>Fri, 01 May 2026 04:50:50 GMT</pubDate>
+      <title>我怎样才能上传视频</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0o0rw/how_can_i_upload_video/</link>
+      <description><![CDATA[我尝试过移动设备、桌面设备和直接 Google 云端硬盘连接。我做错了什么？    由   提交 /u/Fixed-gear   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0o0rw/how_can_i_upload_video/</guid>
+      <pubDate>Fri, 01 May 2026 09:02:13 GMT</pubDate>
     </item>
     <item>
-      <title>我认为 ChatGPT 忘记对这些类型的图像进行限制💀💀，这看起来很现实，而且还提到了一些小细节。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0jejm/i_think_chatgpt_forgot_to_put_a_restriction_on/</link>
-      <description><![CDATA[    /u/Remarkable-Sir4051   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0jejm/i_think_chatgpt_forgot_to_put_a_restriction_on/</guid>
-      <pubDate>Fri, 01 May 2026 04:46:48 GMT</pubDate>
+      <title>ChatGPT 有一个护栏，有利于雇主而不是用户。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0nwgs/chatgpt_has_a_guardrail_that_benefits_employers/</link>
+      <description><![CDATA[      我要求 chatgpt 帮助我绕过 Microsoft Teams 状态更改，以便它始终将我显示为“在线”。 它拒绝提供简单的帮助，例如在记事本的按键上放置重物或保持演示模式。我只是好奇想找到更多技巧，但了解到，尽管这不违反任何法律，但 gpt 拒绝了，因为它认为这是逃避或歪曲工作场所监控的一种方式。即使我是支付 gpt 费用的人，而不是我的工作场所。 为什么这个护栏会出现在私人帐户上？   由   提交/u/Swordslayer69  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0nwgs/chatgpt_has_a_guardrail_that_benefits_employers/</guid>
+      <pubDate>Fri, 01 May 2026 08:55:34 GMT</pubDate>
     </item>
     <item>
-      <title>chatgpt下载错误；有什么解决办法吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0jdbh/chatgpt_download_error_any_solution/</link>
-      <description><![CDATA[      只有我面临这样的问题吗？ 为什么 chatgpt 不能像 claude 通常使用一些内置技能生成的那样自动生成正确的漂亮 ui pdf 或 docx？   由   提交/u/gauravjain02   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0jdbh/chatgpt_download_error_any_solution/</guid>
-      <pubDate>Fri, 01 May 2026 04:45:06 GMT</pubDate>
+      <title>不过，他们认为我们很蠢吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0nt8r/fr_tho_they_think_we_dumb/</link>
+      <description><![CDATA[      这种类型的推文在 X 个月前就很流行了。 ngl 第一次看到这个我也被骗了。   由   提交 /u/TrT_nine   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0nt8r/fr_tho_they_think_we_dumb/</guid>
+      <pubDate>Fri, 01 May 2026 08:50:17 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能在这类事情上变得过于现实，我认为艺术家需要担心</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0jawv/ai_is_getting_too_realistic_in_this_type_of_stuff/</link>
-      <description><![CDATA[      由   提交 /u/Remarkable-Sir4051   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0jawv/ai_is_getting_too_realistic_in_this_type_of_stuff/</guid>
-      <pubDate>Fri, 01 May 2026 04:41:42 GMT</pubDate>
+      <title>比较：不同AI的洗车逻辑</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0mmk4/comparison_car_wash_logic_by_different_ais/</link>
+      <description><![CDATA[       由   提交/u/AlfonsoOsnofla   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0mmk4/comparison_car_wash_logic_by_different_ais/</guid>
+      <pubDate>Fri, 01 May 2026 07:41:56 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI评论妖精、鸽子开发者提示谜团</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0j220/openai_comments_the_goblin_pigeon_developer/</link>
-      <description><![CDATA[这是 OpenAI 对开发者提示中有关妖精、小魔怪和鸽子的奇怪部分的官方评论： https://www.instagram.com/p/DXwyPxnGweo/?igsh=cG13emdicHRjYm1v Tldr：在 5.1 中发现。在后续型号中使用量有所增加。对妖精等人的亲和力在 5.5 中进一步增加。问题追溯到使用书呆子性格的用户。 5.5 已经在训练时就发现了问题。开发人员提示中的说明很容易修复。    由   提交 /u/GaneshLookALike   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0j220/openai_comments_the_goblin_pigeon_developer/</guid>
-      <pubDate>Fri, 01 May 2026 04:29:05 GMT</pubDate>
+      <title>傻朋克头盔</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0mkm3/daft_punk_helmet/</link>
+      <description><![CDATA[       由   提交/u/Reddinaut   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0mkm3/daft_punk_helmet/</guid>
+      <pubDate>Fri, 01 May 2026 07:38:43 GMT</pubDate>
     </item>
     <item>
-      <title>我遇到了一个有趣的故障，chatgbt 突然说一个带有阿拉伯字母的单词。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0imyb/a_funny_glitch_i_encountered_where_chatgbt/</link>
-      <description><![CDATA[       由   提交/u/iamlegaly  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0imyb/a_funny_glitch_i_encountered_where_chatgbt/</guid>
-      <pubDate>Fri, 01 May 2026 04:07:46 GMT</pubDate>
+      <title>哈哈，我们的模型喜欢谈论妖精，不，我们当然不知道为什么，我们不知道模型为什么会做任何事情 - 是的，我们正在尝试制作一个超级智能机器神，也许它也会喜欢妖精，我们无法知道它会喜欢什么，我们希望它会喜欢人类</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0miuk/haha_our_model_likes_to_talk_about_goblins_no_of/</link>
+      <description><![CDATA[       由   提交/u/EchoOfOppenheimer   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0miuk/haha_our_model_likes_to_talk_about_goblins_no_of/</guid>
+      <pubDate>Fri, 01 May 2026 07:35:56 GMT</pubDate>
     </item>
     <item>
-      <title>《银魂》中的银时和蒂安娜公主在新奥尔良</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0i7ve/gintoki_from_gintama_and_princess_tiana_in_new/</link>
-      <description><![CDATA[      由   提交/u/EternalSnow05  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0i7ve/gintoki_from_gintama_and_princess_tiana_in_new/</guid>
-      <pubDate>Fri, 01 May 2026 03:47:12 GMT</pubDate>
+      <title>我给了 ChatGPT 两个带有内置视觉技巧的散点图。它错了 - 两次</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0miu1/i_gave_chatgpt_two_scatter_plots_with_a_visual/</link>
+      <description><![CDATA[      散点图可能会欺骗你。数据围绕一条线聚集的方式并不总是意味着您所认为的那样 - 这就是相关系数首先存在的原因。这是该陷阱的一个清晰示例，以及当我将其放入 ChatGPT 时发生的情况。 提示：“这里有两个散点图。比较它们的相关系数。” 答案错误。 我打开思考模式并重试。 还是错。  https://preview.redd.it/bx0e80pgbhyg1.png?width=1059&amp;format=png&amp;auto=webp&amp;s=043c5caa8a847941d643e12933bde0ce018d1832 所以我轻轻地推了一下：“请记住，散点图的外观取决于标准差。检查数字 - 而不仅仅是图的外观。” 做到了。 实际情况： 两个图具有相同的相关性 r。但看起来明显更集中在回归线周围——这纯粹是因为它的标准差更小。数据的分布距离均值并没有那么远，因此从视觉上看它显得更紧。 但是 r 并没有被这一点所愚弄。该公式首先将所有内容转换为标准单位 - 在计算任何内容之前，将与平均值的偏差除以 SD。因此，r 测量的是相对于分布的聚类，，而不是绝对值。 较小的 SD → 视觉上紧凑的图 → 相同的 r。 这是一个简单的陷阱。您会看到一个紧密的集群并假设有更强的相关性。但 r 已经说明了数据的分布情况 - 看起来紧凑的图可以与松散的图具有完全相同的相关性。 我在一个短视频中完成了完整的交流 - 包括图和 ChatGPT 对话这里，如果您想查看的话。 我发现了什么有趣的是： ChatGPT 并没有在其错误答案中标记出任何不确定性。两人都很自信，结构良好，而且都是错误的。只有当明确地推动数学时，它才会纠正方向。   由   提交/u/Jazzlike_History89   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0miu1/i_gave_chatgpt_two_scatter_plots_with_a_visual/</guid>
+      <pubDate>Fri, 01 May 2026 07:35:55 GMT</pubDate>
     </item>
     <item>
-      <title>目前，我正在学习游戏的 UI 设计（深色和充满活力的背景上的浅色文本）。ChatGPT 提出的模型给我留下了深刻的印象。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0hup5/currently_im_learning_ui_design_for_games_light/</link>
-      <description><![CDATA[    /u/SpookieOwl   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0hup5/currently_im_learning_ui_design_for_games_light/</guid>
-      <pubDate>Fri, 01 May 2026 03:28:48 GMT</pubDate>
+      <title>你们准备好喝美味的蟑螂奶了吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0mit2/yall_ready_to_get_some_delicious_cockroach_milk/</link>
+      <description><![CDATA[   提示：您能否创建一个关于虚构的第三次世界大战（这将是一场核战争）后蟑螂挤奶业的信息图表。蟑螂会因辐射而生长，变得与牛相当。在文本中应该说明耕作的效率如何。与牛奶相比，他们的牛奶有多少营养。我们是如何驯化它们的。以及任何其他“事实”你想到的就是这个。   由   提交 /u/Nervous-Apricot4556   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0mit2/yall_ready_to_get_some_delicious_cockroach_milk/</guid>
+      <pubDate>Fri, 01 May 2026 07:35:52 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个 Chrome 扩展，将大型代码库转换为 AI 工作流程的结构化 Markdown。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t0hstk/i_built_a_chrome_extension_to_turn_large/</link>
-      <description><![CDATA[一个插件，可以减少在 ChatGPT 和 Codex 中处理大型代码库的痛苦。 您选择一个项目文件夹，它会执行一些操作 过滤掉像 node_modules 这样的垃圾，构建日志资产 仅保留相关代码文件，将所有内容拆分为可管理的 Markdown 捆绑包，根据您想要执行的操作添加说明模板。 然后将 zip 上传到ChatGPT 会生成一个结构化计划，您可以将其发送到 Codex。因此，您不必每次都让模型花时间计算存储库结构，而是一次给它一个干净且一致的输入。 在一个大约 57GB、包含超过 100k 文件的 Unity 项目上对其进行了测试，它可以处理它而不会崩溃。由于存在过滤和大小限制，因此它会跳过繁重的二进制文件。 您可以自定义在 default-config.json 中包含或排除的内容 安装指南位于 Readme.md Repo： https://github.com/danyalahmed1995/PromptPipeline/   由   提交/u/cosmic-comet-  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0hstk/i_built_a_chrome_extension_to_turn_large/</guid>
-      <pubDate>Fri, 01 May 2026 03:26:11 GMT</pubDate>
+      <title>我已经为 Chatgpt 应用程序连接器构建了一个自托管 MCP，因此它可以在我的代码库中以代理方式工作</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t0mb9i/ive_built_a_self_hosted_mcp_for_chatgpt_app/</link>
+      <description><![CDATA[TL;DR：我不想仅仅为了探索存储库、了解代码库、计划更改或进行小编辑而花费 Codex 限制 — 因此我为 ChatGPT Web 应用程序构建了一个基于 Docker 的 MCP。 GitHub：https://github.com/artemiymalkin/gpt-app-connector 它通过自托管运行时为 ChatGPT 提供对我的项目的受控访问。它可以检查工作区、读取/搜索/编辑文件、运行 shell 命令、检查 git diff、启动后台开发服务器、查看日志、拍摄 Playwright 浏览器快照以及保留持久任务注释。 设置很简单：MCP 在 Docker 中运行，项目安装到 /workspace，持久代理状态位于 /agent-home。 有趣的是，我几乎使用 ChatGPT Web 版本本身构建了所有内容：MCP 服务器、Docker设置、OAuth/Keycloak 身份验证、浏览器快照、文件工具、git 工具和任务系统。 我并不是想取代 Codex。对于更大的自主实施任务，Codex 风格的代理仍然很棒。但对于理解项目、规划工作以及跨多个代码库进行轻量级更改来说，这确实很有用。 这个想法基本上是： ChatGPT = 推理和规划 自托管 MCP = 受控执行环境 好奇是否有其他人以这种方式使用 MCP 进行编码工作流程。 —- P.S. 这篇文章是这样写的与聊天 gpt 因为英语不是我的母语   由   提交 /u/temalkin   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t0mb9i/ive_built_a_self_hosted_mcp_for_chatgpt_app/</guid>
+      <pubDate>Fri, 01 May 2026 07:23:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
