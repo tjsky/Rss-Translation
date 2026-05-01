@@ -4,13 +4,27 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 01 May 2026 02:38:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 06:12:50 GMT</lastBuildDate>
     <item>
-      <title>React Hooks 解释</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t0fctg/react_hooks_explained/</link>
+      <title>非开发人员试图了解如何构建基于关系的应用程序（人+实体）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t0kstv/nondev_trying_to_understand_how_to_structure_a/</link>
+      <description><![CDATA[嘿，这里的非开发人员试图了解这样的事情在技术层面上是如何工作的。 我正在考虑一个系统，该系统可以映射人（家庭关系）以及有限责任公司或信托等实体之间的关系 因此不仅仅是一个典型的家谱，它还会显示以下内容：所有权关系、人员和实体之间的联系、资产如何潜在地绑定在一起 它不会是日常使用的东西，更像是偶尔的参考/规划工具。我还没有尝试构建它，只是了解结构。 我的问题： 这是什么样的数据结构？ （数据库方面） 这更像是一个图形问题吗？ 像这样的问题的哪一部分实际上是困难的（存储、可视化与其他）？ 欣赏任何方向 - 只是试图学习如何正确思考这个问题。   由   提交 /u/Sterninator02   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t0kstv/nondev_trying_to_understand_how_to_structure_a/</guid>
+      <pubDate>Fri, 01 May 2026 05:59:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>龙虾首页如何运作 - nilenso 博客</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t0k4s4/how_the_lobsters_front_page_works_nilenso_blog/</link>
       <description><![CDATA[       由   提交/u/fagnerbrack  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t0fctg/react_hooks_explained/</guid>
-      <pubDate>Fri, 01 May 2026 01:33:45 GMT</pubDate>
+      <guid>https://www.reddit.com/r/webdev/comments/1t0k4s4/how_the_lobsters_front_page_works_nilenso_blog/</guid>
+      <pubDate>Fri, 01 May 2026 05:23:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>图像托管网站项目规划建议</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t0jus3/advice_on_planning_image_hosting_site_project/</link>
+      <description><![CDATA[大家好，我是一名计算机科学专业的大四学生，我想在今年夏天开始一个个人项目。这个想法是一个具有论坛功能和用户定制选项的图像托管网站。我的目标是为那些熟悉的人创建一个替代网站 Toyhou.se 的网站。 我的问题是，我如何开始计划这个以及我的第一步是什么？更具体地说，在尝试启动一个项目时，您会说的最重要的方面或考虑因素是什么？是后端和数据库设计吗？研究托管选项？深入研究网络协议？  大学显然教会了我如何使用这些工具，但没有太多教我如何使用这些不同的原则来实际构建一些东西。我对某些功能有一些想法，例如利用 bootstrap 来自定义用户 html。  我希望这对于规则 7 来说足够详细，任何提示或建议将不胜感激。   由   提交/u/sapphicPanacea   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t0jus3/advice_on_planning_image_hosting_site_project/</guid>
+      <pubDate>Fri, 01 May 2026 05:09:15 GMT</pubDate>
     </item>
     <item>
       <title>需要指导，构建个人血糖跟踪仪表板</title>
@@ -48,13 +62,6 @@
       <pubDate>Thu, 30 Apr 2026 21:12:28 GMT</pubDate>
     </item>
     <item>
-      <title>我刚刚制作了一个不无聊的二维码生成器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t08nwz/ive_just_made_a_nonboring_qr_code_generator/</link>
-      <description><![CDATA[好吧，我厌倦了无聊的二维码破坏徽标，所以我建立了一种方法让它们看起来“更好一点”。希望您喜欢！   由   提交/u/feje  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t08nwz/ive_just_made_a_nonboring_qr_code_generator/</guid>
-      <pubDate>Thu, 30 Apr 2026 20:52:07 GMT</pubDate>
-    </item>
-    <item>
       <title>js少了表排序？</title>
       <link>https://www.reddit.com/r/webdev/comments/1t08f2t/js_less_table_sorting/</link>
       <description><![CDATA[嗨， 是否可以在没有 js 和只有 html 的情况下对表中的列进行排序？   由   提交 /u/Yha_Boiii   [链接] [评论]]]></description>
@@ -67,20 +74,6 @@
       <description><![CDATA[嘿伙计们， 我正在为这家理发店制作这个网站，我想在切换页面时添加一个旋转的理发杆（红白蓝的东西）作为动画。这可能吗？有人能帮助我做到这一点吗？我现在使用 HTML、CSS 和脚本   由   提交 /u/Albab_Dewan   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t086i9/need_help_with_making_an_animated_loader_for_my/</guid>
       <pubDate>Thu, 30 Apr 2026 20:34:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的教授是专业人工智能人士，这令人沮丧</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t07y9e/my_professor_is_pro_ai_and_its_disheartening/</link>
-      <description><![CDATA[我主修网页设计，我的学校是超级专业人工智能（他们实际上在学校中增加了人工智能专业），这有点令人沮丧。我的UI课程的教授太专业了，听他不停地讲这件事很伤人，他有时几乎认为这是基督的第二次降临。就像老兄，你真的在​​大肆宣传试图取代你学生的工具？？？他一直在向我们展示 Figma make 和 Google Stitch 等东西。老实说，这并不是很令人印象深刻，我很高兴他有时会遇到那些来到地球的时刻，他意识到也许这些工具并不是全部。  我很感激他没有让我们使用这些工具并让我们在没有人工智能的情况下完成我们的项目。但他正在讨论并试图开设一门关于人工智能设计工具的创意设计课程，并希望在他的所有课程中实施人工智能，而我们大多数年轻学生对此非常不感兴趣。值得庆幸的是，目前它似乎还没有去任何地方。对于那些真正想要尝试并全力以赴完成项目的学生来说，这感觉就像是一记耳光，因为他们真的很关心。要做的就是吸引那些左顾右盼的学生。  我并不是说我们不应该知道这些工具的存在，但我不想被迫使用那些感觉非常有限并且让我缺乏创造性控制的工具 知道一位在这所学校工作了 20 年的教授只是试图全力以赴地在人工智能领域推广那些最终试图取代创造性工作的工具，这真是太糟糕了。  我真的很喜欢这个程序，我从中得到了很多东西，但有时听到教授们对这些slop工具如此兴奋会让人沮丧:(    提交者   /u/Oside_Penguinz   [链接]   href=&quot;https://www.reddit.com/r/webdev/comments/1t07y9e/my_professor_is_pro_ai_and_its_disheartening/&quot;&gt;[评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t07y9e/my_professor_is_pro_ai_and_its_disheartening/</guid>
-      <pubDate>Thu, 30 Apr 2026 20:25:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个网站，可以将 Reddit 子版块变成不间断的广播</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t06cg5/i_made_a_website_that_turns_subreddits_into_non/</link>
-      <description><![CDATA[       由   提交/u/cantFindValidNam   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t06cg5/i_made_a_website_that_turns_subreddits_into_non/</guid>
-      <pubDate>Thu, 30 Apr 2026 19:28:19 GMT</pubDate>
     </item>
     <item>
       <title>大多数网站都不知道人工智能代理正在访问它们并跳出。以下是其技术原因，以及 MCP 生态系统正在采取的措施。</title>
@@ -109,6 +102,13 @@
       <description><![CDATA[      Fedora 44 终于登陆了，虽然它是一个“改进”发布后，进行了一些巨大的底层更改，使其成为迄今为止最快速的版本之一。以下是新内容的 TL;DR： 🖥️ 桌面环境  GNOME 50： 设置中的本机家长控制、改进的色彩管理以及更流畅的远程桌面处理。 KDE Plasma 6.6： 具有新的 Plasma 登录管理器和非常酷的 QR 码 Wi-Fi 共享 Budgie：现在默认为 Wayland。  ⚙️ 性能和性能核心  内核 6.19： 随 6.19.14 一起发布（内核 7.0 预计很快会出现在更新存储库中）。 DNF5 在这里： 它现在是 PackageKit 的默认后端。元数据同步明显更快。 NTSYNC 支持：使用 Wine/Steam/Proton 的游戏玩家获得巨大胜利。 更快的启动：优化了 CA 证书的 OpenSSL 处理。  🛠️ 对于开发人员  Native Nix：您现在可以安装直接从官方仓库获取 Nix 包管理器。 更新的堆栈：Go 1.26、Ruby 4.0、PHP 8.5 和 MariaDB 11.8。    由   提交/u/Party-Tension-2053   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t02ufl/fedora_44_whats_new/</guid>
       <pubDate>Thu, 30 Apr 2026 17:23:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>诚实的比较：我在 React 项目上测试了 ChatGPT、Claude 和自定义提示的 Gemini 进行代码审查</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t02coj/honest_comparison_i_tested_chatgpt_claude_and_a/</link>
+      <description><![CDATA[上周末做了一个并行。相同的代码库（我正在重构的一个小型 Next.js 应用程序），关于相同文件的相同问题。分享我的发现，因为“人工智能编码”空间变得无法导航。 设置：  相同的 3 个提示：“查找错误”、“建议重构”、“解释此使用效果” ChatGPT 5 (Plus)、Claude Sonnet 4.5 和带有我构建的自定义系统提示的 Gemini 2.5/3 （Kody，位于 codemasterip.com）  发现：  ChatGPT 在一次性错误检测方面表现最好，但过于冗长 Claude 进行了最简洁的重构，但错过了一个微妙的竞争条件 自定义提示的 Gemini 在原始输出方面处于中间位置，但在“停止到”方面表现更好问”在重构之前 - 这实际上使我避免了一次错误的方向 自定义工具还可以更好地为后续操作保留会话上下文（这是有道理的，它会提示这样做）  警告：我构建了这三个工具之一。所以我试着对自己严厉一些。不过，对我来说，要点是：对于学习/教学用例，提示比模型更重要。 还有其他人进行这种比较吗？很好奇您的代码审查堆栈是什么样的。   由   提交/u/OnlySaas  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t02coj/honest_comparison_i_tested_chatgpt_claude_and_a/</guid>
+      <pubDate>Thu, 30 Apr 2026 17:05:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
