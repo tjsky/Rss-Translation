@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 02 May 2026 09:57:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 13:01:52 GMT</lastBuildDate>
     <item>
-      <title>构建股票估值建模工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1lmm9/build_a_stock_valuation_modeling_tool/</link>
-      <description><![CDATA[      嗨！ 我构建了一个财务评估工具，100% 免费，没有帐户，仅本地存储，没有 LLM 功能。 https://www.thinkvalue.co/  https://preview.redd.it/39buagtf5pyg1.png?width=1091&amp;format=png&amp;auto=webp&amp;s=86a1b5d6c139b06c67bfe77c1ad0cdc53abfeb67 该工具不仅仅是为了向您显示数字和文章，而是将它们与您可以更改的中心模型联系起来，并帮助您计算公司的估值。 它是固执己见的（有很多建模方法），但可以帮助您回答“那又怎样”的问题财经新闻。  例如：收入增长了 X%，公司的价值会发生什么变化。  或者相反的版本：今天需要发生什么才能让公司的价值达到 X 美元。 目前正在研究 SEO 方面的工作，并且感谢任何评论该应用程序的评论 - 随意烘烤，它往往非常有帮助！ 谢谢！   由   提交/u/ThinkValue2021  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1lmm9/build_a_stock_valuation_modeling_tool/</guid>
-      <pubDate>Sat, 02 May 2026 09:55:46 GMT</pubDate>
+      <title>周六炫耀：我制作了一个免费的环境噪音/asmr 混音器，因为我厌倦了 YouTube 广告破坏我的睡眠和注意力</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1p8fi/showoff_saturday_i_built_a_free_ambient_noiseasmr/</link>
+      <description><![CDATA[嘿伙计们。 当我编码或试图睡觉时，我通常会听雨声或键盘打字声。但 YouTube 广告在这一点上基本上是跳跃恐慌，大多数白噪音应用程序都需要 10 美元/月的订阅，只是为了播放一些雨声。 所以我花了几周时间构建了自己的：inasmr.com 它是一个简单的网络混音器，您可以在其中组合不同的环境音轨（雨声、雷声、咖啡馆噪音、猫的呼噜声等）。您可以独立调整每种声音的音量和左/右声像平衡，以创建您自己的音景。 stack 是 next.js 和 tailwind。深色玻璃形态的用户界面实际上设计起来非常有趣。 到目前为止，最令人头疼的是处理网络音频。跟踪 10 多个并发音频流、管理它们的状态以及处理 ios safari 臭名昭著的严格自动播放/音频策略是一个巨大的痛苦。要让一切顺利运行而不会导致浏览器延迟，需要进行一些尝试和错误。 无论如何，它是完全免费的，无需注册。希望获得有关用户界面的一些反馈，或者如果您发现任何奇怪的音频剪辑错误，请告诉我。特别好奇它在旧款 iPhone 上的表现（如果有人手头有的话）。 干杯。   由   提交 /u/SideQuestDev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1p8fi/showoff_saturday_i_built_a_free_ambient_noiseasmr/</guid>
+      <pubDate>Sat, 02 May 2026 12:59:28 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个本地 GitHub 仪表板，因为管理许多公共/私人存储库变得很混乱。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1lfia/i_built_a_local_github_dashboard_because_managing/</link>
-      <description><![CDATA[      我管理着相当多的 GitHub 存储库，包括公共和私有的，但我一直遇到同样的问题：GitHub 拥有我需要的所有数据，但在许多存储库中快速访问它意味着要跳过很多页面。 因此，我为自己构建了一个小型本地 Web 应用程序：一个 GitHub 仪表板，可以从 GitHub API 中提取数据，为我提供了一个过滤、排序和检查所有内容的地方。 URL：https://github.com/debba/gh-dashboard 它使用 GitHub 的 REST 和 GraphQL API 来执行以下操作：  存储库、问题和拉取请求 存储库元数据、语言、贡献者、提交和发布 观星者和分叉 GitHub Actions 工作流程运行 流量视图、克隆、引荐来源网址和流行路径 外部提及的代码/问题搜索 可用的依赖项和存储库关系  应用程序将 GitHub API 访问保持在服务器端，因此令牌不会在浏览器中公开。 目标不是取代 GitHub，但为了更快地回答以下问题： 哪些存储库需要注意？哪些 PR 正在等待？哪些问题已经过时？最近发生了什么变化？哪些存储库获得了流量、星星、分叉、发布或提及？ 它还有一个存储库详细信息视图，其中包含操作、PR、问题、发布、分叉、流量、提及和依赖项的选项卡，以及简单的趋势和流量图表。 这最初是一个个人的、高度人工智能辅助的项目，旨在改进我自己的工作流程。 现在我将其打开，看看它是否对其管理多个存储库的其他人有用。存储库也是如此。如果有兴趣，我很乐意通过社区贡献来改进它。   由   提交/u/debba_  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1lfia/i_built_a_local_github_dashboard_because_managing/</guid>
-      <pubDate>Sat, 02 May 2026 09:44:13 GMT</pubDate>
+      <title>我用 React 构建了一个 Web 桌面环境。它运行《DOOM》。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1ojm0/i_built_a_web_desktop_environment_with_react_it/</link>
+      <description><![CDATA[我在浏览器中构建了一个桌面操作系统。不是一个模型 - 您可以拖动窗口，最小化它们，打开终端（仅限 docker），然后玩 DOOM。 Stack： React 19 + TypeScript：当您处理 12 个可拖动窗口和一个任务栏时，并发功能很重要。你开始真正快速地关心调度。 react-rnd：我尝试自己编写拖动/调整大小数学大约一个小时，然后想起我讨厌几何并安装了它。 Zustand：我已经完成了 Redux 样板。存储、挂钩、继续。 Mantine：三天不用接触 CSS，看起来还不错。让我有时间让假终端真正解析命令，而不是回显命令。 Framer Motion — 使动画脱离主线程。 60fps，否则我不会发货。 还有一个 bash 模拟器和一个代码服务器集成。我都后悔了。但无法删除它们 — 此时它们只是很有趣。 没有 cookie，没有跟踪，没有分析。 完全在您的计算机上运行。我不知道是否有人打开它，但奇怪的是，我对此没什么异议。 Wiki 有 npm 包、Docker 镜像和架构说明。公平警告：维基是人工智能生成的，因为我编写代码，而不是文档。 🤷‍♂️ 演示：frannunpal.github.io 存储库：github.com/frannunpal — 如果您希望在实际操作系统上使用 Tauri 版本，则包含它。   由   提交 /u/93939393939393   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1ojm0/i_built_a_web_desktop_environment_with_react_it/</guid>
+      <pubDate>Sat, 02 May 2026 12:28:14 GMT</pubDate>
     </item>
     <item>
-      <title>IntelliJ 中人工智能免费生成提交消息</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1l9va/aigenerated_commit_messages_for_free_in_intellij/</link>
-      <description><![CDATA[大家好， 我喜欢人工智能生成提交消息的想法，但我真的不喜欢“每个功能都需要新的订阅”这一想法。趋势。和你们中的许多人一样，我已经付费购买（或有权访问）GitHub Copilot 和 Cursor。 由于 JetBrains 的原生 AI 功能需要特定订阅，因此我一直在寻找一个轻量级桥梁。 我刚刚看到了 AICommitMessages 插件。这是一个简单的 IntelliJ 插件，在提交窗口中公开一个按钮。它将您的 git diff 通过管道传输到您已安装并处于活动状态的 CLI，而不是调用专有 API。   由   提交 /u/Dry-Statement2829   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1l9va/aigenerated_commit_messages_for_free_in_intellij/</guid>
-      <pubDate>Sat, 02 May 2026 09:35:05 GMT</pubDate>
+      <title>据报道，cPanel/WHM Auth 绕过 PoC 正在流传。共享/VPS 托管的 Web 开发人员应该检查他们的服务器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1oefp/cpanelwhm_auth_bypass_poc_reportedly_circulating/</link>
+      <description><![CDATA[      如果您使用 cPanel/WHM 管理客户端站点、经销商托管或您自己的 VPS，则值得检查。 关键的 cPanel/WHM 身份验证据报道，暗网圈子正在讨论绕过 CVE-2026-41940，其中一个名为 cPanelSniper 的工具引起了人们对更容易进行大规模扫描和利用的担忧。 即使您“只是”一名 Web 开发人员，托管面板受损也可能意味着暴露的网站、数据库、电子邮件、备份、SSH 密钥和客户端凭据。   由   提交/u/raptorhunter22  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1oefp/cpanelwhm_auth_bypass_poc_reportedly_circulating/</guid>
+      <pubDate>Sat, 02 May 2026 12:21:19 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个简单的工具，可以根据您的日程安排和语言寻找游戏好友</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1l7k9/i_built_a_simple_tool_to_find_gaming_buddies/</link>
-      <description><![CDATA[      这是一个简单的网站，可以根据您玩的游戏、您的首选语言以及您实际在线的时间将您与其他人匹配。这是寻找船员的简单方法 在这里查看：broop.id   由   提交/u/toplez  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1l7k9/i_built_a_simple_tool_to_find_gaming_buddies/</guid>
-      <pubDate>Sat, 02 May 2026 09:31:19 GMT</pubDate>
+      <title>我为我们的业务开发了一个网站。如果您能评论一下，我将不胜感激</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1oa56/i_have_developed_a_website_for_our_business_i/</link>
+      <description><![CDATA[提出任何更改：https://pndinduscialsuppliers.com/   由   提交/u/abhiram77  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1oa56/i_have_developed_a_website_for_our_business_i/</guid>
+      <pubDate>Sat, 02 May 2026 12:15:37 GMT</pubDate>
     </item>
     <item>
-      <title>建立了一个 24 小时内自毁的私人聊天室——没有账户，没有日志</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1kzaj/built_a_private_chat_that_selfdestructs_in_24h_no/</link>
-      <description><![CDATA[我厌倦了 WhatsApp 和 Telegram 无所不知。构建 v2v-site&lt;—您创建一个房间，获取 6 位数代码，进行共享、聊天。语音消息、照片。 24 小时后所有内容均被删除。无需注册。没有电子邮件。没有电话号码。接受隐私社区的反馈。您希望在这样的工具中看到什么？   由   提交 /u/Alternative-Claim-41   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1kzaj/built_a_private_chat_that_selfdestructs_in_24h_no/</guid>
-      <pubDate>Sat, 02 May 2026 09:17:56 GMT</pubDate>
+      <title>我正在构建一个基于块的图像编辑器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1o3y6/i_am_building_a_bloackbased_image_editor/</link>
+      <description><![CDATA[      大家好！我想分享我一直在开发的这个应用程序，并希望得到您最诚实的反馈。基本思想是创建一个基于可重用块的图像编辑器，而不是从头开始创建图像；您将预制块拖到画布上并从设置面板中编辑它们。重点主要是技术用户——您很快就会明白原因。让我告诉您有关该项目的更多信息。 Karbonized 是我已经研究了一段时间的项目。我已经停止更新它至少两年了，但最近我决定重新开始。 这个项目源于个人需求：我有一个小博客，我在其中分享了我在编程世界中的学习过程，我想用有吸引力的图片来改进我的帖子。通常，这些都是与代码相关的，虽然我知道创建代码片段图像有很多替代方法，但很多都需要付费，而当时我买不起。因此，作为练习编程的练习，我开始开发这个项目；它实际上是我使用网络技术的第一个项目。 起初，它非常简单：一个画布，其中包含三个元素（代码、文本、图像），您可以不受任何限制地拖动到上面。您可以从其专用面板编辑图像背景，并且所有元素都可以从编辑面板进行自定义 - 允许您更改语言、代码组件的背景颜色以及其他一些内容。 我一点一点地改进了该项目，并一路开发了新功能。今天，我的愿景是创建一个可编程图像编辑器——一个连接编程和设计世界的程序。为了实现这一目标，我目前正在开发一个扩展系统，该系统允许您使用 HTML、CSS 和 JS 开发和共享自己的组件。 嗯，这就是该项目背后的一些故事。我仍在研究它，并且我知道自从我最近从一个组件系统迁移到另一个组件系统以来存在一些错误，并且仍然有一些东西需要完善，但我感谢您提供的任何反馈！ 网站：https://karbonized.yoss.pro/ GitHub 存储库：https://github.com/yossTheDev/karbonized X: http://x.com/karbonized_app/   由   提交/u/yossthedev   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1o3y6/i_am_building_a_bloackbased_image_editor/</guid>
+      <pubDate>Sat, 02 May 2026 12:07:38 GMT</pubDate>
     </item>
     <item>
-      <title>您的项目中有多少实际上只是粘合代码？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1kgl6/how_much_of_your_projects_are_actually_just_glue/</link>
-      <description><![CDATA[我注意到我在新项目上的大部分时间并不是真正的“构建功能”，而只是将所有内容连接在一起。像连接 API、处理身份验证、设置 Webhooks、重试逻辑、同步数据之类的事情，没有什么特别困难的，但它需要很长时间，而且感觉就像我每次都在重写相同的模式。 我一直在尝试使用 Supabase、Firebase 和 Buildable 等工具来减少这些设置。它们肯定有助于加快速度，但我仍然不确定随着事情变得更加复杂，这种方法的效果如何。 很好奇其他人如何处理这个问题。您是否只是接受重复并自己构建一切，还是依靠工具将其抽象出来？如果您两者都做了，那么从长远来看，哪一个实际上效果更好？   由   提交 /u/Vegetable-Raisin2297   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1kgl6/how_much_of_your_projects_are_actually_just_glue/</guid>
-      <pubDate>Sat, 02 May 2026 08:48:26 GMT</pubDate>
+      <title>我构建了一个免费的 AI API 成本计算器 - 比较 32 个 LLM 模型的定价</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1o03q/i_built_a_free_ai_api_cost_calculator_compare/</link>
+      <description><![CDATA[嘿 [r/webdev](r/webdev)， 每次启动新的人工智能项目时，我厌倦了手动比较 OpenAI、Anthropic、Google 和 Mistral 之间的价格。因此，我构建了 APIpulse — 一款免费工具，可让您：  计算输入/输出令牌和请求的任意组合的每月成本 对常见场景（初创、扩展、企业）使用预设 为您的特定用例查找最便宜的模型  该计算器完全免费，完全在浏览器中运行 —无需注册，无需 API 密钥，无需跟踪。 我还撰写了 63 篇博文，比较了特定模型（GPT-4o 与 Claude Sonnet 4、Gemini 与 GPT-5、最便宜的聊天机器人选项等）和实际成本明细。 希望获得以下方面的反馈：  定价数字是否适合您的用例？ 我缺少任何提供商或模型吗？ 哪些功能可以使其更有用？  链接：https://getapipulse.com/calculator.html   由   提交 /u/jochenboele   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1o03q/i_built_a_free_ai_api_cost_calculator_compare/</guid>
+      <pubDate>Sat, 02 May 2026 12:02:27 GMT</pubDate>
     </item>
     <item>
-      <title>我厌倦了手动调整应用程序屏幕截图的大小，因此我构建了一个免费的免登录工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1kf8q/i_got_tired_of_manually_resizing_app_screenshots/</link>
-      <description><![CDATA[https://www.appscreenz.com/ 在每次发布之前，我总是浪费时间做同样的事情：手动裁剪/调整 App Store 和 Google Play 的屏幕截图、检查尺寸、重新导出、修复错误。 因此，我构建了一个快速编辑器，可以在浏览器中免费执行此操作，无需帐户需要。 它的作用： 上传 PNG/JPG 屏幕截图调整框架（位置 + 缩放）、背景和短标题预览存储大小导出 App Store + Google Play 输出（包括两者的单个 ZIP）它最初是为了解决我自己的工作流程中的挫败感，现在它为我节省了大量重复发布准备时间。 如果您需要的不仅仅是快速导出，我还在其上构建了一个 Studio（计划 → 设计 →最终确定、人工智能辅助流程、保存的项目），在几分钟内生成完整的屏幕截图集。 希望得到其他定期发布移动应用程序的开发人员的反馈。   由   提交 /u/Cosmin_Dev   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1kf8q/i_got_tired_of_manually_resizing_app_screenshots/</guid>
-      <pubDate>Sat, 02 May 2026 08:46:06 GMT</pubDate>
+      <title>探索 HTML 标签大小扩展</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1nwn2/explore_html_tag_sizes_extension/</link>
+      <description><![CDATA[      对于我的工作，有时我必须探索 HTML 以查找其中的内容以及元素的分布方式。我构建了一个简单的终端工具来浏览下载的 HTML 文件。但后来当我不得不在不同的操作系统之间切换时，我决定构建简单的浏览器扩展而不是移植它。 它是为了解决我自己的特定问题而构建的，因此它不是一个通用的解决方案，但我认为它可能会对某人感兴趣，因此分享它。 Chrome：https://chromewebstore.google.com/detail/web-page-stats/ejdabdmojeknbimpjgcoajejckfhlgic Firefox：https://chromewebstore.google.com/detail/web-page-stats/ejdabdmojeknbimpjgcoajejckfhlgic 以下是计数工作原理的基本说明：https://hereket.com/posts/webstat_extension_explain/   由   提交/u/tootac  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1nwn2/explore_html_tag_sizes_extension/</guid>
+      <pubDate>Sat, 02 May 2026 11:58:09 GMT</pubDate>
     </item>
     <item>
-      <title>免费、自托管、工作二维码品牌徽标/自定义图像</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1ka56/free_self_hosted_working_qr_code_brand_logocustom/</link>
-      <description><![CDATA[      每个人都在想出这些二维码生成器，这是一个完全免费的版本！随你所欲吧！祝你好运 - 玩得开心！   由   提交/u/jokimazi   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1ka56/free_self_hosted_working_qr_code_brand_logocustom/</guid>
-      <pubDate>Sat, 02 May 2026 08:37:45 GMT</pubDate>
+      <title>Ducttape UI：您是否曾在使用自己构建的 UI 时感到额外的认知负担？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1nwej/ducttape_ui_do_you_ever_feel_extra_cognitive_load/</link>
+      <description><![CDATA[很好奇其他开发人员是否也有这种感觉。 有时，当我使用自己构建的 UI 时，我的体验与普通用户不同。即使它看起来不错，我也知道隐藏状态、边缘情况、异步怪异、脆弱组件以及所有可能损坏的小地方。 因此，使用它会带来额外的认知负担。不仅仅是“这个用户界面有意义吗？”而且“如果我点击太快、调整窗口大小、切换选项卡或输入奇怪的数据，这种流程还会继续存在吗？” 感觉不太像使用产品，而更像是小心地走过一个房间，在那里你知道哪些地板松动。 其他人有这种经历吗？有通用术语吗？   由   提交 /u/prajwalsouza   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1nwej/ducttape_ui_do_you_ever_feel_extra_cognitive_load/</guid>
+      <pubDate>Sat, 02 May 2026 11:57:50 GMT</pubDate>
     </item>
     <item>
-      <title>2026 年，您的实际 Web 开发工作流程是什么？本地、Docker、Codespaces</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1k6dq/whats_your_realworld_web_dev_workflow_in_2026/</link>
-      <description><![CDATA[大家好， 我正在尝试提升我的工作流程，从“混乱的本地设置”转向更专业、可重复且更接近现实团队中使用的东西。 我主要从事“经典”Web 项目（自定义网站，有时带有自定义主题的 WordPress，有时带有后端 + 数据库的更通用堆栈）。到目前为止，我使用了典型的本地设置（XAMPP / localhost），它有效，但随着时间的推移变得很痛苦：  文件权限问题（尤其是在 Linux 上） 运行时版本不匹配（PHP、MySQL 等） 跨项目共享一个全局环境 难以重现设置  所以我现在尝试重置所有内容并朝着以下方向迈进：  Git 用于版本控制（是的，到目前为止，我为我的几个客户端构建的项目很简单，并且没有在这方面发挥长效） 用于隔离的每个项目环境的 Docker（每个项目的设置/工具的标准化） 从实时/暂存版本开始在本地重建项目（当我需要为现有网站构建/实现新功能或页面时）  我目前正在尝试此设置rn:  docker-compose（应用程序 + DB，有时是管理工具/CLI 等附加功能） 绑定安装的项目文件 仅对重要的内容（应用程序代码、配置）进行版本控制，忽略生成的数据（上传、数据库转储等） 工作流程：启动 → 开发 → 提交 → 部署  这已经感觉比经典的本地主机可靠得多但由于我没有丰富的经验，我希望避免过度设计，并因管理不必要的复杂性而感到不知所措，并尽可能降低摩擦。 我的问题是（我在这里问了很多问题，当然，请随意回答您喜欢的问题）： A）您的 Web 项目的实际日常工作流程是什么样的？我的意思是不只是一堆。我对你如何处理跨项目的一般事务感兴趣，例如：2)。更具体地说：  您是否对所有项目使用相同类型的设置（例如 Docker 或类似工具），还是会根据项目进行更改？ 您通常如何确保本地开发设置保持一致并且不会随着时间的推移而变得混乱？ 您是否主要在每个项目完全独立的环境中工作，还是仍然依赖计算机上的某些共享工具？  B ) 您如何处理已经上线的项目的持续开发？ 这是我最纠结的部分（也在我使用 ACF 等的一些 Wordpress 项目中）。 当项目已经投入生产并且已经拥有真实的数据、用户和工作数据库时：  当您需要进行更改时，您是否将当前的实时版本复制到本地环境中？ 或者您通常是否有一个单独的“测试版本”保持接近实时版本？ 如何避免最终得到与实际在线运行版本不同的本地版本？  不寻找“完美设置”。我更感兴趣的是人们在实践中实际使用的内容以及原因（根据您的个人经验重点关注实用性、稳定性、效率和简单性）。 基本上，我试图了解现实世界工作流程中的常见内容与单独开发习惯的“泡沫”。尤其是当网站或网络应用程序变得比平常更复杂时。 编辑：抱歉，我在从用于起草帖子的 .txt 文件复制时不小心剪掉了几个部分。我现在已经修复了。   由   提交/u/Banzambo  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1k6dq/whats_your_realworld_web_dev_workflow_in_2026/</guid>
-      <pubDate>Sat, 02 May 2026 08:31:39 GMT</pubDate>
+      <title>DESIGN.md 生成器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1nw8b/designmd_generator/</link>
+      <description><![CDATA[       由   提交 /u/dym3k   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1nw8b/designmd_generator/</guid>
+      <pubDate>Sat, 02 May 2026 11:57:35 GMT</pubDate>
     </item>
     <item>
-      <title>免费的 design.md 库 + 用于振动编码术语的 UI / UX 词典</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1k57b/free_designmd_library_a_ui_ux_lexicon_for/</link>
-      <description><![CDATA[大家好 每当我以一种新的、独特的方式（例如新的网格样式）看到一个漂亮的网站设计（例如新的网格样式）并想要构建时，我都缺乏正确的术语来找到准确的术语。 想想蓝图网格、玻璃态、新态、分段控制和所有这些东西。我现在正在构建一个免费的开源词典，并提供一个迷你预览，供人们在构建章节和页面时使用这些术语。  寻找您对当前流行趋势风格的想法和输入及其正确的描述/词汇：您目前对哪种风格排名较高，看到很多+知道定义？我很乐意将它们纳入我的词典中，并免费向所有人公开。 。现在，将构建 100 多个设计 .md 文件、运动、3D 等作为一种爱好。从来没有任何付费的东西或广告。在此处检查现有的 https://freedesignmd.com - 免费设计 md 库 + 单击词典。  为所有贡献者感到高兴 - 这将保持免费，并且是我在黑客马拉松期间启动的一个社区爱好项目。    由   提交 /u/rizeCapital   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1k57b/free_designmd_library_a_ui_ux_lexicon_for/</guid>
-      <pubDate>Sat, 02 May 2026 08:29:50 GMT</pubDate>
+      <title>构建了一个人工智能辅助的退款页面，可以读取用户实际写的内容（默认情况下支持他们）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1nt4r/built_an_aiassisted_refund_page_that_reads_what/</link>
+      <description><![CDATA[快速上下文：我使用一次性“Pro”游戏运行一个小型绘图派对游戏。购买。经常有人购买 Pro，与 20 位朋友举办游戏之夜，玩 10 轮，生成一堆 AI 内容，并在第二天早上要求退款。也有真正的错误和“不是我所期望的”在这种情况下，用户确实应该收回他们的钱，而无需争论。 区分这些情况过去需要我花费数小时来挖掘数据库。所以我构建了 /get-refund：  用户登录 简短形式：原因（单选）+“告诉我们发生了什么” （文本区域，最少约 40 个字符） 服务器提取自购买以来实际使用情况的快照（玩过的游戏、AI 生成的内容计数、购买后天数、上次活动） 表单文本和使用数据均以结构化输出模式传输到 GPT AI 返回 `approve` / `decline` / `review` 如果批准：退款到达支付提供商的 API，Pro 被撤销，用户在页面上看到结果 如果审核：在 24 小时内排队等待我查看 我会收到一封电子邮件，其中包含每个案例的完整上下文（形式、用法、AI 推理）  有趣的部分 - 重要的即时更改： 我的第一个版本是规则第一。粗略地说：“如果游戏” 10 并且没有具体的错误 → 拒绝”。这在技术上是正确的，但感觉不公平。主办团队游戏之夜失败的用户，或者孩子不断遇到损坏功能的家长，将被自动拒绝，尽管有正当理由。 我首先重写了叙述： &gt;第 1 步 - 首先阅读用户的叙述。表单字段是主要输入。形成这样的印象：他们是真诚的还是试图玩弄系统？他们是否描述了具体的经历或留下了一个词的答案？他们所说的是否与真实的产品问题相符，即使它在技术上不是“错误”？ &gt;第 2 步 - 使用使用数据作为上下文，而不是作为门。大量使用并不会自动取消某人的资格 - 它只是将解释的负担转移到叙述上。 单一的重构（故事优先，数字作为证据）颠覆了整体感觉。现在，人工智能的推理在解释决定时会引用用户自己的话。边界情况默认为​​“审查”而不是“拒绝” - 在不确定时站在用户一边。 我学到的其他东西： - 表单副本与提示一样重要。添加“含糊或单一单词的答案可能会被拒绝——只有当你告诉它这个故事时，人工智能才会站在你一边”输入质量加倍。当字符 &lt; 时发出柔和的琥珀色提示40 也有帮助。 - 始终有一个人工审查逃生口。人工智能只有在自信时才会衰退；其他一切都在为我排队。 - 审核记录每个决定（表格+信号快照+人工智能推理+结果）。您稍后需要重新训练该策略。 - 向用户逐字显示 AI 的推理。同理心 + 每次模板化的特定节拍。 - Next.js 15 中的“使用服务器”文件只能导出异步函数。从其中导出 Zod 模式常量将使模块评估崩溃，并显示无用的“Jest 工作人员遇到异常”信息。错误。内部定义模式，仅导出异步函数和推断类型。 （在这方面花费的时间比我愿意承认的要多。） 堆栈：Next.js 15（应用程序路由器）、通过 Genkit 的 OpenAI、Firebase、支付提供商的 REST API。页面、服务器操作、信号收集助手、AI 流程和审核日志记录总计约 400 个 LOC。 好奇其他人对退款流程做了什么。有人尝试过让法学硕士做出面向客户的财务决策吗？您如何处理“人工智能出错，客户很生气”的问题？案件？我添加了“向人类发送电子邮件”每条拒绝消息中的链接，但我确信我错过了边缘情况。 如果您想要更长的版本，请完整撰写：doodleduel.ai/blog/how-our-ai-decides-refunds-fairly   由   提交 /u/BabaYaga72528   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1nt4r/built_an_aiassisted_refund_page_that_reads_what/</guid>
+      <pubDate>Sat, 02 May 2026 11:53:09 GMT</pubDate>
     </item>
     <item>
-      <title>LogoQR - 让您的下一个二维码变得更酷</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1j1el/logoqr_lets_make_your_next_qr_codes_a_bit_cooler/</link>
-      <description><![CDATA[      https://qr.mitbin.com/ 厌倦了看到名片被丑陋的黑白 QR 码毁坏，所以我构建了 LogoQR - 一个免费工具，可将您的徽标直接嵌入到 QR 矩阵本身   由   提交/u/feje  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1j1el/logoqr_lets_make_your_next_qr_codes_a_bit_cooler/</guid>
-      <pubDate>Sat, 02 May 2026 07:25:35 GMT</pubDate>
+      <title>[Showoff Saturday] 构建了一个调色板提取API——结合了截图+CSS解析，不只是其中之一</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1nd92/showoff_saturday_built_a_colour_palette/</link>
+      <description><![CDATA[          由   提交/u/JoigeBwoin  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1nd92/showoff_saturday_built_a_colour_palette/</guid>
+      <pubDate>Sat, 02 May 2026 11:30:50 GMT</pubDate>
     </item>
     <item>
-      <title>我不会推广临时邮件网站（6.6K-11K 用户），但收入几乎持平 接下来我应该关注什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1ixgx/i_will_not_promote_growing_a_temp_mail_site/</link>
-      <description><![CDATA[    https://preview.redd.it/t7giuo0mdoyg1.png?width=1208&amp;format=png&amp;auto=webp&amp;s=31e60a91494c7a631d4e144761a2bda218ef4f8a 在过去的几个月里，我一直在处理临时邮件，希望分享我的进展，并从构建类似工具的人那里获得一些诚实的建议。  三月： ~6.6K 用户 四月： ~11K 用户大约一个月内增长 60-70%  但是这里有一些有趣的事情：  观看次数（3 月）： ~29K 观看次数（4 月）： ~30K 用户增加了很多，但观看次数几乎没有变化  流量主要是全球性的（孟加拉国、尼日利亚、一些欧洲等），使用模式很简单： 人们来 → 生成电子邮件 → 检查 OTP 我已经添加了 Adsterra 广告，但说实话：  收入非常低 并没有真正随着流量增长 感觉我可能做错了什么（展示位置或网络）  现在我对下一步感到困惑： 我应该专注于首先增加流量（搜索引擎优化、扩展用户） 或者我应该开始优化盈利（更好的广告、展示位置、其他方法）？  什么最适合通过临时邮件/实用网站盈利？ 是否有比 Adsterra 更好的广告网络 流行广告在这个利基市场中实际上效果更好 如何增加流量每个用户的收入  我希望将其发展成为高流量工具（50K-100K 用户/月），并将其转变为可靠的收入来源。 非常感谢任何建议、真实经验，甚至是直率的反馈 仍在学习和解决问题。   由   提交 /u/Future-Cry-7975   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1ixgx/i_will_not_promote_growing_a_temp_mail_site/</guid>
-      <pubDate>Sat, 02 May 2026 07:19:10 GMT</pubDate>
+      <title>除了自由职业网站之外，如何以自由职业赚钱</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1nbda/how_to_earn_money_as_freelancing_other_than/</link>
+      <description><![CDATA[我尝试过诸如 Fiverr 这样的网站，但竞争非常激烈，我实际上只有 0 个客户   由   提交/u/MrJerinom  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1nbda/how_to_earn_money_as_freelancing_other_than/</guid>
+      <pubDate>Sat, 02 May 2026 11:28:06 GMT</pubDate>
     </item>
     <item>
-      <title>构建了一个 Chrome 扩展程序来监视我在 GitHub、GitLab 和 Bitbucket 上的 PR，这样我就不再整天跳标签页了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1iufg/built_a_chrome_extension_that_watches_my_prs/</link>
-      <description><![CDATA[嘿 r/webdev，分享一个业余项目以获取反馈。 我在不同平台上的多个存储库中工作，并厌倦了： - 保持 4 个 PR 选项卡打开并刷新它们 - 错过了 30 分钟的 CI 失败，因为我在另一个项目中window - 通知电子邮件要么太吵闹，要么迟到 10 分钟 因此，我构建了一个 Chrome 扩展程序（Manifest V3、React、Tailwind），它会轮询后台和表面的三个 API： - 所有开放 PR 的 CI 状态（带有“谁破坏了构建”属性） - 未解决的审核评论 - 通过 GitHub 的 GraphQL API 拉取，因为 REST 计数是错误的 - 等待审阅者、冲突、请求更改、过时标志 - CI 状态更改时桌面通知 + 声音 - 无需选项卡 - 直接从弹出窗口合并并考虑分支保护 我学到的一些东西可能对这里做类似操作的任何人有用： - MV3 服务工作人员无法播放音频。您需要一个带有单独 JS 文件的离屏文档 - 内联 脚本被 CSP 阻止。 - Bitbucket Cloud 的 /workspaces 端点即将停用；请改用 /2.0/user/workspaces。 - GitLab 的 /changes 端点会在巨大的 MR 上返回溢出标志 - 如果您忽略它，计数就会撒谎。 - 在 chrome.storage 中保留 CI 状态（不在内存中）很重要，因为 MV3 服务工作线程会不断关闭 ，因此您需要持久状态来检测“状态”改变了”可靠。 它是免费的，无后端，无需注册，令牌仅存储在 chrome.storage.local 中。真诚地寻求反馈——尤其是关于紧急分类用户体验（列表上方的图标+计数筹码），因为这是我不断迭代的领域。 https://chromewebstore.google.com/detail/pr-radar-%E2%80%93-github-gitlab/hkombgibegjffiadmekpiabdakkoidmh   由   提交/u/Better_Ad6110   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1iufg/built_a_chrome_extension_that_watches_my_prs/</guid>
-      <pubDate>Sat, 02 May 2026 07:14:25 GMT</pubDate>
+      <title>系统程序员的 Web 开发</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1nakv/web_dev_for_systems_programmers/</link>
+      <description><![CDATA[我了解 C/C++、HTML、CSS 2.0 和 JavaScript。我曾经构建过 Web 1.0 网站，但情况发生了很大变化。我想学习如何为现代网络构建漂亮的前端，但所有的网络打包和转译对我来说似乎都是一团糟。考虑到我的技能，获得漂亮东西的最直接方法是什么？   由   提交/u/Sad-Background-2429   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1nakv/web_dev_for_systems_programmers/</guid>
+      <pubDate>Sat, 02 May 2026 11:27:00 GMT</pubDate>
     </item>
     <item>
-      <title>Tidal Town - HTML5 游戏，你要保护你的王国免受潮汐侵袭</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1ilbt/tidal_town_html5_game_were_you_protect_your/</link>
-      <description><![CDATA[ 由   提交/u/thirdjin  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1ilbt/tidal_town_html5_game_were_you_protect_your/</guid>
-      <pubDate>Sat, 02 May 2026 07:00:35 GMT</pubDate>
+      <title>我只是一个普通人......具有高于平均水平的 Codex 令牌缓存</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1mzt8/im_just_an_average_guy_with_an_above_average/</link>
+      <description><![CDATA[      这是一个 Codex 会话 - 不太确定这个会话实际上持续了多长时间 - 我在终端之间来回跳动，但如果我不得不猜测大约 6 个小时。我想更好地理解这一点 --- 我正在开发并明确运行一些相同的命令或非常接近的命令，但是 Codex 如何针对缓存轮次进行如此优化？    由   提交/u/operastudio  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1mzt8/im_just_an_average_guy_with_an_above_average/</guid>
+      <pubDate>Sat, 02 May 2026 11:11:19 GMT</pubDate>
     </item>
     <item>
-      <title>在印度海得拉巴寻找一家经济实惠的高质量网站开发公司。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1iapi/looking_for_an_affordable_highquality_website/</link>
-      <description><![CDATA[我正在海得拉巴寻找一家专业的网站开发公司，该公司可以以合理且实惠的价格提供优质的网站。我已经在海得拉巴见过几家公司，但定价与我的预期不符。我所说的“负担得起”并不是指廉价或基本的网站 - 我完全准备好投资一个设计精良、高性能且专业的网站，为我的业务增加真正的价值。 除了网站开发之外，如果您的团队还提供 SEO 和数字营销服务，那将是一个很大的优势，因为我正在寻找一个完整的长期解决方案。我更喜欢与海得拉巴的团队合作，这样我们就可以直接会面、清晰地讨论想法并高效地执行项目。   由   提交/u/Pspecial_Honey_940   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1iapi/looking_for_an_affordable_highquality_website/</guid>
-      <pubDate>Sat, 02 May 2026 06:43:58 GMT</pubDate>
+      <title>[Showoff Saturday] 构建了一个Windows XP风格的界面，用于存储个人记忆</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1mjyu/showoff_saturday_built_a_windows_xpstyle/</link>
+      <description><![CDATA[我想尝试一种与个人数据交互的不同方式。 因此，我受 Windows XP 和诺基亚设备的启发，构建了一个类似操作系统的小型界面，其中记忆存储为文件夹和文件，而不是传统的笔记或应用程序。 重点更多地放在交互设计和怀旧而不是功能上。 希望从用户体验/前端角度提供反馈： https://life-os-beta-ochre.vercel.app/   由   提交/u/EngineFormal7360  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1mjyu/showoff_saturday_built_a_windows_xpstyle/</guid>
+      <pubDate>Sat, 02 May 2026 10:47:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
