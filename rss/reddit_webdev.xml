@@ -4,7 +4,77 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 02 May 2026 07:27:17 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 09:57:19 GMT</lastBuildDate>
+    <item>
+      <title>构建股票估值建模工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1lmm9/build_a_stock_valuation_modeling_tool/</link>
+      <description><![CDATA[      嗨！ 我构建了一个财务评估工具，100% 免费，没有帐户，仅本地存储，没有 LLM 功能。 https://www.thinkvalue.co/  https://preview.redd.it/39buagtf5pyg1.png?width=1091&amp;format=png&amp;auto=webp&amp;s=86a1b5d6c139b06c67bfe77c1ad0cdc53abfeb67 该工具不仅仅是为了向您显示数字和文章，而是将它们与您可以更改的中心模型联系起来，并帮助您计算公司的估值。 它是固执己见的（有很多建模方法），但可以帮助您回答“那又怎样”的问题财经新闻。  例如：收入增长了 X%，公司的价值会发生什么变化。  或者相反的版本：今天需要发生什么才能让公司的价值达到 X 美元。 目前正在研究 SEO 方面的工作，并且感谢任何评论该应用程序的评论 - 随意烘烤，它往往非常有帮助！ 谢谢！   由   提交/u/ThinkValue2021  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1lmm9/build_a_stock_valuation_modeling_tool/</guid>
+      <pubDate>Sat, 02 May 2026 09:55:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个本地 GitHub 仪表板，因为管理许多公共/私人存储库变得很混乱。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1lfia/i_built_a_local_github_dashboard_because_managing/</link>
+      <description><![CDATA[      我管理着相当多的 GitHub 存储库，包括公共和私有的，但我一直遇到同样的问题：GitHub 拥有我需要的所有数据，但在许多存储库中快速访问它意味着要跳过很多页面。 因此，我为自己构建了一个小型本地 Web 应用程序：一个 GitHub 仪表板，可以从 GitHub API 中提取数据，为我提供了一个过滤、排序和检查所有内容的地方。 URL：https://github.com/debba/gh-dashboard 它使用 GitHub 的 REST 和 GraphQL API 来执行以下操作：  存储库、问题和拉取请求 存储库元数据、语言、贡献者、提交和发布 观星者和分叉 GitHub Actions 工作流程运行 流量视图、克隆、引荐来源网址和流行路径 外部提及的代码/问题搜索 可用的依赖项和存储库关系  应用程序将 GitHub API 访问保持在服务器端，因此令牌不会在浏览器中公开。 目标不是取代 GitHub，但为了更快地回答以下问题： 哪些存储库需要注意？哪些 PR 正在等待？哪些问题已经过时？最近发生了什么变化？哪些存储库获得了流量、星星、分叉、发布或提及？ 它还有一个存储库详细信息视图，其中包含操作、PR、问题、发布、分叉、流量、提及和依赖项的选项卡，以及简单的趋势和流量图表。 这最初是一个个人的、高度人工智能辅助的项目，旨在改进我自己的工作流程。 现在我将其打开，看看它是否对其管理多个存储库的其他人有用。存储库也是如此。如果有兴趣，我很乐意通过社区贡献来改进它。   由   提交/u/debba_  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1lfia/i_built_a_local_github_dashboard_because_managing/</guid>
+      <pubDate>Sat, 02 May 2026 09:44:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>IntelliJ 中人工智能免费生成提交消息</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1l9va/aigenerated_commit_messages_for_free_in_intellij/</link>
+      <description><![CDATA[大家好， 我喜欢人工智能生成提交消息的想法，但我真的不喜欢“每个功能都需要新的订阅”这一想法。趋势。和你们中的许多人一样，我已经付费购买（或有权访问）GitHub Copilot 和 Cursor。 由于 JetBrains 的原生 AI 功能需要特定订阅，因此我一直在寻找一个轻量级桥梁。 我刚刚看到了 AICommitMessages 插件。这是一个简单的 IntelliJ 插件，在提交窗口中公开一个按钮。它将您的 git diff 通过管道传输到您已安装并处于活动状态的 CLI，而不是调用专有 API。   由   提交 /u/Dry-Statement2829   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1l9va/aigenerated_commit_messages_for_free_in_intellij/</guid>
+      <pubDate>Sat, 02 May 2026 09:35:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个简单的工具，可以根据您的日程安排和语言寻找游戏好友</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1l7k9/i_built_a_simple_tool_to_find_gaming_buddies/</link>
+      <description><![CDATA[      这是一个简单的网站，可以根据您玩的游戏、您的首选语言以及您实际在线的时间将您与其他人匹配。这是寻找船员的简单方法 在这里查看：broop.id   由   提交/u/toplez  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1l7k9/i_built_a_simple_tool_to_find_gaming_buddies/</guid>
+      <pubDate>Sat, 02 May 2026 09:31:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立了一个 24 小时内自毁的私人聊天室——没有账户，没有日志</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1kzaj/built_a_private_chat_that_selfdestructs_in_24h_no/</link>
+      <description><![CDATA[我厌倦了 WhatsApp 和 Telegram 无所不知。构建 v2v-site&lt;—您创建一个房间，获取 6 位数代码，进行共享、聊天。语音消息、照片。 24 小时后所有内容均被删除。无需注册。没有电子邮件。没有电话号码。接受隐私社区的反馈。您希望在这样的工具中看到什么？   由   提交 /u/Alternative-Claim-41   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1kzaj/built_a_private_chat_that_selfdestructs_in_24h_no/</guid>
+      <pubDate>Sat, 02 May 2026 09:17:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>您的项目中有多少实际上只是粘合代码？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1kgl6/how_much_of_your_projects_are_actually_just_glue/</link>
+      <description><![CDATA[我注意到我在新项目上的大部分时间并不是真正的“构建功能”，而只是将所有内容连接在一起。像连接 API、处理身份验证、设置 Webhooks、重试逻辑、同步数据之类的事情，没有什么特别困难的，但它需要很长时间，而且感觉就像我每次都在重写相同的模式。 我一直在尝试使用 Supabase、Firebase 和 Buildable 等工具来减少这些设置。它们肯定有助于加快速度，但我仍然不确定随着事情变得更加复杂，这种方法的效果如何。 很好奇其他人如何处理这个问题。您是否只是接受重复并自己构建一切，还是依靠工具将其抽象出来？如果您两者都做了，那么从长远来看，哪一个实际上效果更好？   由   提交 /u/Vegetable-Raisin2297   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1kgl6/how_much_of_your_projects_are_actually_just_glue/</guid>
+      <pubDate>Sat, 02 May 2026 08:48:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了手动调整应用程序屏幕截图的大小，因此我构建了一个免费的免登录工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1kf8q/i_got_tired_of_manually_resizing_app_screenshots/</link>
+      <description><![CDATA[https://www.appscreenz.com/ 在每次发布之前，我总是浪费时间做同样的事情：手动裁剪/调整 App Store 和 Google Play 的屏幕截图、检查尺寸、重新导出、修复错误。 因此，我构建了一个快速编辑器，可以在浏览器中免费执行此操作，无需帐户需要。 它的作用： 上传 PNG/JPG 屏幕截图调整框架（位置 + 缩放）、背景和短标题预览存储大小导出 App Store + Google Play 输出（包括两者的单个 ZIP）它最初是为了解决我自己的工作流程中的挫败感，现在它为我节省了大量重复发布准备时间。 如果您需要的不仅仅是快速导出，我还在其上构建了一个 Studio（计划 → 设计 →最终确定、人工智能辅助流程、保存的项目），在几分钟内生成完整的屏幕截图集。 希望得到其他定期发布移动应用程序的开发人员的反馈。   由   提交 /u/Cosmin_Dev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1kf8q/i_got_tired_of_manually_resizing_app_screenshots/</guid>
+      <pubDate>Sat, 02 May 2026 08:46:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>免费、自托管、工作二维码品牌徽标/自定义图像</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1ka56/free_self_hosted_working_qr_code_brand_logocustom/</link>
+      <description><![CDATA[      每个人都在想出这些二维码生成器，这是一个完全免费的版本！随你所欲吧！祝你好运 - 玩得开心！   由   提交/u/jokimazi   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1ka56/free_self_hosted_working_qr_code_brand_logocustom/</guid>
+      <pubDate>Sat, 02 May 2026 08:37:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年，您的实际 Web 开发工作流程是什么？本地、Docker、Codespaces</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1k6dq/whats_your_realworld_web_dev_workflow_in_2026/</link>
+      <description><![CDATA[大家好， 我正在尝试提升我的工作流程，从“混乱的本地设置”转向更专业、可重复且更接近现实团队中使用的东西。 我主要从事“经典”Web 项目（自定义网站，有时带有自定义主题的 WordPress，有时带有后端 + 数据库的更通用堆栈）。到目前为止，我使用了典型的本地设置（XAMPP / localhost），它有效，但随着时间的推移变得很痛苦：  文件权限问题（尤其是在 Linux 上） 运行时版本不匹配（PHP、MySQL 等） 跨项目共享一个全局环境 难以重现设置  所以我现在尝试重置所有内容并朝着以下方向迈进：  Git 用于版本控制（是的，到目前为止，我为我的几个客户端构建的项目很简单，并且没有在这方面发挥长效） 用于隔离的每个项目环境的 Docker（每个项目的设置/工具的标准化） 从实时/暂存版本开始在本地重建项目（当我需要为现有网站构建/实现新功能或页面时）  我目前正在尝试此设置rn:  docker-compose（应用程序 + DB，有时是管理工具/CLI 等附加功能） 绑定安装的项目文件 仅对重要的内容（应用程序代码、配置）进行版本控制，忽略生成的数据（上传、数据库转储等） 工作流程：启动 → 开发 → 提交 → 部署  这已经感觉比经典的本地主机可靠得多但由于我没有丰富的经验，我希望避免过度设计，并因管理不必要的复杂性而感到不知所措，并尽可能降低摩擦。 我的问题是（我在这里问了很多问题，当然，请随意回答您喜欢的问题）： A）您的 Web 项目的实际日常工作流程是什么样的？我的意思是不只是一堆。我对你如何处理跨项目的一般事务感兴趣，例如：2)。更具体地说：  您是否对所有项目使用相同类型的设置（例如 Docker 或类似工具），还是会根据项目进行更改？ 您通常如何确保本地开发设置保持一致并且不会随着时间的推移而变得混乱？ 您是否主要在每个项目完全独立的环境中工作，还是仍然依赖计算机上的某些共享工具？  B ) 您如何处理已经上线的项目的持续开发？ 这是我最纠结的部分（也在我使用 ACF 等的一些 Wordpress 项目中）。 当项目已经投入生产并且已经拥有真实的数据、用户和工作数据库时：  当您需要进行更改时，您是否将当前的实时版本复制到本地环境中？ 或者您通常是否有一个单独的“测试版本”保持接近实时版本？ 如何避免最终得到与实际在线运行版本不同的本地版本？  不寻找“完美设置”。我更感兴趣的是人们在实践中实际使用的内容以及原因（根据您的个人经验重点关注实用性、稳定性、效率和简单性）。 基本上，我试图了解现实世界工作流程中的常见内容与单独开发习惯的“泡沫”。尤其是当网站或网络应用程序变得比平常更复杂时。 编辑：抱歉，我在从用于起草帖子的 .txt 文件复制时不小心剪掉了几个部分。我现在已经修复了。   由   提交/u/Banzambo  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1k6dq/whats_your_realworld_web_dev_workflow_in_2026/</guid>
+      <pubDate>Sat, 02 May 2026 08:31:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>免费的 design.md 库 + 用于振动编码术语的 UI / UX 词典</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1k57b/free_designmd_library_a_ui_ux_lexicon_for/</link>
+      <description><![CDATA[大家好 每当我以一种新的、独特的方式（例如新的网格样式）看到一个漂亮的网站设计（例如新的网格样式）并想要构建时，我都缺乏正确的术语来找到准确的术语。 想想蓝图网格、玻璃态、新态、分段控制和所有这些东西。我现在正在构建一个免费的开源词典，并提供一个迷你预览，供人们在构建章节和页面时使用这些术语。  寻找您对当前流行趋势风格的想法和输入及其正确的描述/词汇：您目前对哪种风格排名较高，看到很多+知道定义？我很乐意将它们纳入我的词典中，并免费向所有人公开。 。现在，将构建 100 多个设计 .md 文件、运动、3D 等作为一种爱好。从来没有任何付费的东西或广告。在此处检查现有的 https://freedesignmd.com - 免费设计 md 库 + 单击词典。  为所有贡献者感到高兴 - 这将保持免费，并且是我在黑客马拉松期间启动的一个社区爱好项目。    由   提交 /u/rizeCapital   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1k57b/free_designmd_library_a_ui_ux_lexicon_for/</guid>
+      <pubDate>Sat, 02 May 2026 08:29:50 GMT</pubDate>
+    </item>
     <item>
       <title>LogoQR - 让您的下一个二维码变得更酷</title>
       <link>https://www.reddit.com/r/webdev/comments/1t1j1el/logoqr_lets_make_your_next_qr_codes_a_bit_cooler/</link>
@@ -39,76 +109,6 @@
       <description><![CDATA[我正在海得拉巴寻找一家专业的网站开发公司，该公司可以以合理且实惠的价格提供优质的网站。我已经在海得拉巴见过几家公司，但定价与我的预期不符。我所说的“负担得起”并不是指廉价或基本的网站 - 我完全准备好投资一个设计精良、高性能且专业的网站，为我的业务增加真正的价值。 除了网站开发之外，如果您的团队还提供 SEO 和数字营销服务，那将是一个很大的优势，因为我正在寻找一个完整的长期解决方案。我更喜欢与海得拉巴的团队合作，这样我们就可以直接会面、清晰地讨论想法并高效地执行项目。   由   提交/u/Pspecial_Honey_940   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t1iapi/looking_for_an_affordable_highquality_website/</guid>
       <pubDate>Sat, 02 May 2026 06:43:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>[炫耀星期六] 适合狗的地点的社区地图</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1i0re/showoff_saturday_a_community_map_of_dogfriendly/</link>
-      <description><![CDATA[构建此内容是因为每次我带着我的狗旅行时，我最终都会每天在谷歌上搜索“X 狗是否友好”五次。觉得有地图会更好。还有其他平台可以做到这一点，但我想要一个快速且高性能的替代方案，既可以允许位置，也可以禁止进入区域。 任何人都可以留下图钉（不需要帐户），管理员批准它，然后你会得到水碗、零食、不拴绳规则等详细信息。评论为 1-5 星，并带有“狗真的被允许吗？”切换，因为 Google 上的答案有一半时间是错误的。 用户还可以添加安全警告，例如报告狗窝咳嗽等。 如果有人关心的话，可以使用 Stack：Next 16 + React 19、带有自托管 Protomaps 磁贴的 MapLibre、Postgres + PostGIS、Redis、Drizzle。 LibreTranslate 用于其他语言的评论。 还很早 - 大部分都是 OSM 数据种子，因此大量引脚未经验证。希望得到反馈，尤其是关于提交流程和设计的反馈 链接：https://dogstinations.com   由   提交 /u/DeceivingDog   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1i0re/showoff_saturday_a_community_map_of_dogfriendly/</guid>
-      <pubDate>Sat, 02 May 2026 06:28:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wander - 一个小型的去中心化工具，用于探索个人网站的小型网络</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1hzmt/wander_a_tiny_decentralised_tool_to_explore_the/</link>
-      <description><![CDATA[ 由   提交/u/susam   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1hzmt/wander_a_tiny_decentralised_tool_to_explore_the/</guid>
-      <pubDate>Sat, 02 May 2026 06:26:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] 我在 Electron 中构建了一个 Mac 备份应用程序，并将 UI 重新用作交互式登陆页面演示</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1hn3t/showoff_saturday_i_built_a_mac_backup_app_in/</link>
-      <description><![CDATA[嗨！ :) 我是一名 Web 开发人员，现在已经有大约 7 年的经验，但我以前从未构建过桌面应用程序。 由于这将成为我构建过的最复杂的副项目，因此我决定使用 Electron 至少了解我所涉及的大部分内容，而不是还必须学习 Swift 的诀窍。 另一个好处是我可以轻松地将我为应用程序编写的代码用作登陆时的交互式组件页。这对我来说很重要，因为当向创意人员演示产品时，有很多“啊哈！”的想法。  这是登陆页面： tuskbackup.com 我什至考虑为创意人员（摄像师/摄影师，任何真正拥有大量数据的人）构建 Mac 备份软件的原因是： 我曾经制作 YouTube 视频，我花了几周的时间进行拍摄和剪辑，而且我总是对现有的备份解决方案感到非常恼火。 Tusk（我现在构建的应用程序）为我解决了以下问题：  在多个设备上自动备份我的项目，验证（使用 BLAKE3 校验和）并跟踪其状态。 即使您的驱动器未插入，您仍然可以查看这些文件的放置位置以及备份是否完成。这意味着，如果您查找特定项目或文件，您可以随时在 Tusk 中查看这些备份到底存储在哪个驱动器上。 如果您当前没有处理特定项目，您只需删除本地文件即可释放 Mac 上的空间，同时知道您的文件是安全的。如果您确实需要将文件恢复到本地，只需单击一下即可恢复它们。 如果您将新文件添加到项目文件夹中，Tusk 会监视该文件夹并自动将文件发送到备份位置。对于修改也是如此。如果您在本地删除文件，Tusk 显然不会在备份驱动器中删除它。  其底层是 Electron + React + SQLite，采用本地优先方法。我也喜欢这一点，因为我永远不会看到您的实际文件，甚至也不会看到您的索引文件库。一切都保留在您的机器上。  我很感激任何类型的反馈！如果您对此感兴趣，测试版将于下周开始，我很乐意邀请​​您！   由   提交/u/frustball   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1hn3t/showoff_saturday_i_built_a_mac_backup_app_in/</guid>
-      <pubDate>Sat, 02 May 2026 06:07:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了 notscare.me — 为恐怖迷提供的 Jumpscare 指南</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1hb2f/i_built_notscareme_a_jumpscare_guide_for_horror/</link>
-      <description><![CDATA[      notscare.me 可帮助您准确找到恐怖电影、连续剧和游戏中发生跳跃惊吓的时间，并提供时间戳和强度评级。它由社区驱动，已包含 9,500 多部影片。 还有一个即将上映的电影部分，以便您可以查看即将上映的电影并开始计划您的下一个恐怖之夜。 [notscare.me](https://notscare.me)   由   提交/u/DevWarrior504  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1hb2f/i_built_notscareme_a_jumpscare_guide_for_horror/</guid>
-      <pubDate>Sat, 02 May 2026 05:49:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>仅基本 CSS 淡入淡出滚动条示例</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1fj7z/basic_css_only_fading_scrollbar_example/</link>
-      <description><![CDATA[经过一些实验，我想出了一种创建淡入和淡出滚动条（用于可滚动内容）的方法。 这是一个简单的 JSFiddle 展示该技术： https://jsfiddle.net/wuvoh/3auL2rn6/13/show 这是一个近乎最小的 CSS 片段 - apply class=&quot;scrollableArea&quot;到一个div来挂钩它。不需要JS。 :root{--sb-color: #99AABB;} @property --sb-opacity {语法: &#39;&#39;;初始值：0；继承：真实； } .scrollableArea { 过渡：--sb-opacity 850ms;滚动条装订线：稳定；溢出-y：自动；溢出-x：隐藏；} .scrollableArea：悬停{ --sb-opacity：0.75； } ::-webkit-scrollbar { 宽度：6px;高度：6 像素； } ::-webkit-scrollbar-track { 背景：0 0; } ::-webkit-scrollbar-corner{background:0 0} ::-webkit-scrollbar-thumb {background: rgb(from var(--sb-color) r g b / var(--sb-opacity));border-radius:999px;}    由   提交 /u/woroboros   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1fj7z/basic_css_only_fading_scrollbar_example/</guid>
-      <pubDate>Sat, 02 May 2026 04:15:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>在自由市场上自托管无头 CMS 是否值得？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1fglb/is_selfhosting_the_headless_cms_worth_in_the/</link>
-      <description><![CDATA[我一直在争论选择哪个 Headless CMS（顺便说一句，我已经厌倦了）；在这一点上，我问自己，自托管、基于 git 和单一存储库方面是否真的那么重要，所以我想知道，在现实的客户网站情况下......你会选择那些自托管/基于 git 的选项，还是只坚持像理智这样的东西（或者如果你富有的话，内容丰富） 更多背景：我必须构建的网站非常简单，客户只想编辑一些文本，因此我想：“好吧，那么我会尽量不这样做” “用无头 cms 杀伤力太大”，但最终找到真正易于设置和易于使用（对于客户端和移动设备）的选项绝对是一场噩梦，所以也许“杀伤力大”会更好。或“咬紧牙关”并实施更稳健的解决方案。  PD：我主要使用Astro，基本上是出于同样的原因，不要过度杀伤。   由   提交 /u/FeeWise   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1fglb/is_selfhosting_the_headless_cms_worth_in_the/</guid>
-      <pubDate>Sat, 02 May 2026 04:11:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个零知识加密的pastebin，服务器永远不会看到你的内容</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1favw/i_built_a_zeroknowledge_encrypted_pastebin_where/</link>
-      <description><![CDATA[嘿r/webdev！我构建了 Cloakbin 一个 Pastebin 风格的应用程序，在任何内容到达后端之前，加密完全在浏览器中进行： 👉 https://cloakbin.com 工作原理  AES-256-GCM 加密在客户端运行 加密密钥存储在URL 片段 (#key) 中，浏览器从不发送到服务器 服务器仅存储密文，即使被泄露，它也无法解密或读取粘贴  加密方法（高级） 当您创建粘贴时：  浏览器会生成一个随机密文密钥 您的内容使用Web Crypto API进行加密 仅将密文发送到服务器 密钥会附加到 URL 的 #  由于片段 (#...) 不会在 HTTP 请求中传输，因此解密密钥永远不会到达后端。 开源 代码库：https://github.com/ishannaik/cloakbin 希望获得有关用户体验、整体实现或您要更改的任何内容的反馈。 很乐意回答有关加密模型和其他任何问题的问题   由   提交 /u/Ishannaik   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1favw/i_built_a_zeroknowledge_encrypted_pastebin_where/</guid>
-      <pubDate>Sat, 02 May 2026 04:04:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>ICANN 开放新 gTLD 申请</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1ep5c/icann_opens_applications_for_new_gtlds/</link>
-      <description><![CDATA[      “ICANN 自 2012 年以来就不再提供新 gTLD，但周四开放了 27 个文字的新域名申请... “如果您喜欢 gTLD，则需要在 8 月之前支付 227,000 美元的申请费12 号……然后等待，可能要到 2030 年，这个过程才会结束。”   由   提交/u/Azar42  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1ep5c/icann_opens_applications_for_new_gtlds/</guid>
-      <pubDate>Sat, 02 May 2026 03:33:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>经过 6 年帮助被剥夺权利的年轻人找到职业道路后，我们重建了整个评估工具 (Vue/TS/Vertex)。现在它的评分为 9.7/10，而且速度比以往任何时候都快。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1dcdc/after_6_years_of_helping_disenfranchised_youth/</link>
-      <description><![CDATA[嘿r/webdev， 在过去的 6 年里，我一直致力于一个名为 Traitstack 的项目，该项目的具体使命是：为通常落后的人提供专业级的职业指导。我们帮助了被剥夺权利的年轻人、边缘化群体以及那些感觉没有明确方向的人。 问题：大多数职业评估都很无聊、令人疲劳，而且感觉像是一件官僚琐事。对于我们服务的社区来说，这是一个巨大的障碍。我们想要采取“无聊”的方式摆脱这个等式，并将其变成人们实际上可以一次完成而不会头痛的事情。 旅程和过程重建：我们有一个最初的工具可以完成这项工作，但根据多年的反馈，我们决定将其拆除并从头开始重建，使其“更清晰”。 我们将重点转向基于图像的评估方式，以降低语言障碍并减少疲劳。结果令人难以置信：  速度：评估现在平均需要 4-6 分钟。 影响：我们目前看到的用户评分为 9.7/10。 清晰度：报告的设计宗旨是即时且可操作，不再是“四个字母”代码”标签并转化为实际的心理特征量表（大五和RIASEC）。  技术堆栈：我们想要一个“正常工作”的堆栈这样我们就可以专注于 UX/UI：  前端： 使用 TypeScript 的 VueJS（干净、模块化且易于维护）。 后端： Firebase（轻松处理我们的身份验证和扩展）。 AI/逻辑： Vertex AI（帮助我们改进匹配和报告生成）。  我分享的原因：我对这项工作感到非常自豪。这是漫长的6年迭代之路，但看到人们的反馈，终于感觉到“被看到”了。通过职业工具让开发时间值得。 我很想了解您对 UI/UX 或使用基于图像的可访问性评估的一般方法的想法。 在这里查看：Traitstack 周六快乐！   由   提交/u/atheistjebus  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1dcdc/after_6_years_of_helping_disenfranchised_youth/</guid>
-      <pubDate>Sat, 02 May 2026 02:28:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个基于浏览器的 3D 建模工具 — 3 个月的进度</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1bb0v/built_a_browserbased_3d_modeling_tool_3_month/</link>
-      <description><![CDATA[      3个月前，我们的3D建模工具只能建模占位符。 今天，它可以建模这个Wall-E。 项目源代码：https://github.com/sengchor/kokraf   由   提交/u/Sengchor  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1bb0v/built_a_browserbased_3d_modeling_tool_3_month/</guid>
-      <pubDate>Sat, 02 May 2026 00:52:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
