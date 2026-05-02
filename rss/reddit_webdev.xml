@@ -4,7 +4,70 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 02 May 2026 05:34:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 07:27:17 GMT</lastBuildDate>
+    <item>
+      <title>LogoQR - 让您的下一个二维码变得更酷</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1j1el/logoqr_lets_make_your_next_qr_codes_a_bit_cooler/</link>
+      <description><![CDATA[      https://qr.mitbin.com/ 厌倦了看到名片被丑陋的黑白 QR 码毁坏，所以我构建了 LogoQR - 一个免费工具，可将您的徽标直接嵌入到 QR 矩阵本身   由   提交/u/feje  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1j1el/logoqr_lets_make_your_next_qr_codes_a_bit_cooler/</guid>
+      <pubDate>Sat, 02 May 2026 07:25:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我不会推广临时邮件网站（6.6K-11K 用户），但收入几乎持平 接下来我应该关注什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1ixgx/i_will_not_promote_growing_a_temp_mail_site/</link>
+      <description><![CDATA[    https://preview.redd.it/t7giuo0mdoyg1.png?width=1208&amp;format=png&amp;auto=webp&amp;s=31e60a91494c7a631d4e144761a2bda218ef4f8a 在过去的几个月里，我一直在处理临时邮件，希望分享我的进展，并从构建类似工具的人那里获得一些诚实的建议。  三月： ~6.6K 用户 四月： ~11K 用户大约一个月内增长 60-70%  但是这里有一些有趣的事情：  观看次数（3 月）： ~29K 观看次数（4 月）： ~30K 用户增加了很多，但观看次数几乎没有变化  流量主要是全球性的（孟加拉国、尼日利亚、一些欧洲等），使用模式很简单： 人们来 → 生成电子邮件 → 检查 OTP 我已经添加了 Adsterra 广告，但说实话：  收入非常低 并没有真正随着流量增长 感觉我可能做错了什么（展示位置或网络）  现在我对下一步感到困惑： 我应该专注于首先增加流量（搜索引擎优化、扩展用户） 或者我应该开始优化盈利（更好的广告、展示位置、其他方法）？  什么最适合通过临时邮件/实用网站盈利？ 是否有比 Adsterra 更好的广告网络 流行广告在这个利基市场中实际上效果更好 如何增加流量每个用户的收入  我希望将其发展成为高流量工具（50K-100K 用户/月），并将其转变为可靠的收入来源。 非常感谢任何建议、真实经验，甚至是直率的反馈 仍在学习和解决问题。   由   提交 /u/Future-Cry-7975   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1ixgx/i_will_not_promote_growing_a_temp_mail_site/</guid>
+      <pubDate>Sat, 02 May 2026 07:19:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了一个 Chrome 扩展程序来监视我在 GitHub、GitLab 和 Bitbucket 上的 PR，这样我就不再整天跳标签页了</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1iufg/built_a_chrome_extension_that_watches_my_prs/</link>
+      <description><![CDATA[嘿 r/webdev，分享一个业余项目以获取反馈。 我在不同平台上的多个存储库中工作，并厌倦了： - 保持 4 个 PR 选项卡打开并刷新它们 - 错过了 30 分钟的 CI 失败，因为我在另一个项目中window - 通知电子邮件要么太吵闹，要么迟到 10 分钟 因此，我构建了一个 Chrome 扩展程序（Manifest V3、React、Tailwind），它会轮询后台和表面的三个 API： - 所有开放 PR 的 CI 状态（带有“谁破坏了构建”属性） - 未解决的审核评论 - 通过 GitHub 的 GraphQL API 拉取，因为 REST 计数是错误的 - 等待审阅者、冲突、请求更改、过时标志 - CI 状态更改时桌面通知 + 声音 - 无需选项卡 - 直接从弹出窗口合并并考虑分支保护 我学到的一些东西可能对这里做类似操作的任何人有用： - MV3 服务工作人员无法播放音频。您需要一个带有单独 JS 文件的离屏文档 - 内联 脚本被 CSP 阻止。 - Bitbucket Cloud 的 /workspaces 端点即将停用；请改用 /2.0/user/workspaces。 - GitLab 的 /changes 端点会在巨大的 MR 上返回溢出标志 - 如果您忽略它，计数就会撒谎。 - 在 chrome.storage 中保留 CI 状态（不在内存中）很重要，因为 MV3 服务工作线程会不断关闭 ，因此您需要持久状态来检测“状态”改变了”可靠。 它是免费的，无后端，无需注册，令牌仅存储在 chrome.storage.local 中。真诚地寻求反馈——尤其是关于紧急分类用户体验（列表上方的图标+计数筹码），因为这是我不断迭代的领域。 https://chromewebstore.google.com/detail/pr-radar-%E2%80%93-github-gitlab/hkombgibegjffiadmekpiabdakkoidmh   由   提交/u/Better_Ad6110   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1iufg/built_a_chrome_extension_that_watches_my_prs/</guid>
+      <pubDate>Sat, 02 May 2026 07:14:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tidal Town - HTML5 游戏，你要保护你的王国免受潮汐侵袭</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1ilbt/tidal_town_html5_game_were_you_protect_your/</link>
+      <description><![CDATA[ 由   提交/u/thirdjin  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1ilbt/tidal_town_html5_game_were_you_protect_your/</guid>
+      <pubDate>Sat, 02 May 2026 07:00:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>在印度海得拉巴寻找一家经济实惠的高质量网站开发公司。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1iapi/looking_for_an_affordable_highquality_website/</link>
+      <description><![CDATA[我正在海得拉巴寻找一家专业的网站开发公司，该公司可以以合理且实惠的价格提供优质的网站。我已经在海得拉巴见过几家公司，但定价与我的预期不符。我所说的“负担得起”并不是指廉价或基本的网站 - 我完全准备好投资一个设计精良、高性能且专业的网站，为我的业务增加真正的价值。 除了网站开发之外，如果您的团队还提供 SEO 和数字营销服务，那将是一个很大的优势，因为我正在寻找一个完整的长期解决方案。我更喜欢与海得拉巴的团队合作，这样我们就可以直接会面、清晰地讨论想法并高效地执行项目。   由   提交/u/Pspecial_Honey_940   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1iapi/looking_for_an_affordable_highquality_website/</guid>
+      <pubDate>Sat, 02 May 2026 06:43:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>[炫耀星期六] 适合狗的地点的社区地图</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1i0re/showoff_saturday_a_community_map_of_dogfriendly/</link>
+      <description><![CDATA[构建此内容是因为每次我带着我的狗旅行时，我最终都会每天在谷歌上搜索“X 狗是否友好”五次。觉得有地图会更好。还有其他平台可以做到这一点，但我想要一个快速且高性能的替代方案，既可以允许位置，也可以禁止进入区域。 任何人都可以留下图钉（不需要帐户），管理员批准它，然后你会得到水碗、零食、不拴绳规则等详细信息。评论为 1-5 星，并带有“狗真的被允许吗？”切换，因为 Google 上的答案有一半时间是错误的。 用户还可以添加安全警告，例如报告狗窝咳嗽等。 如果有人关心的话，可以使用 Stack：Next 16 + React 19、带有自托管 Protomaps 磁贴的 MapLibre、Postgres + PostGIS、Redis、Drizzle。 LibreTranslate 用于其他语言的评论。 还很早 - 大部分都是 OSM 数据种子，因此大量引脚未经验证。希望得到反馈，尤其是关于提交流程和设计的反馈 链接：https://dogstinations.com   由   提交 /u/DeceivingDog   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1i0re/showoff_saturday_a_community_map_of_dogfriendly/</guid>
+      <pubDate>Sat, 02 May 2026 06:28:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wander - 一个小型的去中心化工具，用于探索个人网站的小型网络</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1hzmt/wander_a_tiny_decentralised_tool_to_explore_the/</link>
+      <description><![CDATA[ 由   提交/u/susam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1hzmt/wander_a_tiny_decentralised_tool_to_explore_the/</guid>
+      <pubDate>Sat, 02 May 2026 06:26:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 我在 Electron 中构建了一个 Mac 备份应用程序，并将 UI 重新用作交互式登陆页面演示</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1hn3t/showoff_saturday_i_built_a_mac_backup_app_in/</link>
+      <description><![CDATA[嗨！ :) 我是一名 Web 开发人员，现在已经有大约 7 年的经验，但我以前从未构建过桌面应用程序。 由于这将成为我构建过的最复杂的副项目，因此我决定使用 Electron 至少了解我所涉及的大部分内容，而不是还必须学习 Swift 的诀窍。 另一个好处是我可以轻松地将我为应用程序编写的代码用作登陆时的交互式组件页。这对我来说很重要，因为当向创意人员演示产品时，有很多“啊哈！”的想法。  这是登陆页面： tuskbackup.com 我什至考虑为创意人员（摄像师/摄影师，任何真正拥有大量数据的人）构建 Mac 备份软件的原因是： 我曾经制作 YouTube 视频，我花了几周的时间进行拍摄和剪辑，而且我总是对现有的备份解决方案感到非常恼火。 Tusk（我现在构建的应用程序）为我解决了以下问题：  在多个设备上自动备份我的项目，验证（使用 BLAKE3 校验和）并跟踪其状态。 即使您的驱动器未插入，您仍然可以查看这些文件的放置位置以及备份是否完成。这意味着，如果您查找特定项目或文件，您可以随时在 Tusk 中查看这些备份到底存储在哪个驱动器上。 如果您当前没有处理特定项目，您只需删除本地文件即可释放 Mac 上的空间，同时知道您的文件是安全的。如果您确实需要将文件恢复到本地，只需单击一下即可恢复它们。 如果您将新文件添加到项目文件夹中，Tusk 会监视该文件夹并自动将文件发送到备份位置。对于修改也是如此。如果您在本地删除文件，Tusk 显然不会在备份驱动器中删除它。  其底层是 Electron + React + SQLite，采用本地优先方法。我也喜欢这一点，因为我永远不会看到您的实际文件，甚至也不会看到您的索引文件库。一切都保留在您的机器上。  我很感激任何类型的反馈！如果您对此感兴趣，测试版将于下周开始，我很乐意邀请​​您！   由   提交/u/frustball   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1hn3t/showoff_saturday_i_built_a_mac_backup_app_in/</guid>
+      <pubDate>Sat, 02 May 2026 06:07:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我创建了 notscare.me — 为恐怖迷提供的 Jumpscare 指南</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1hb2f/i_built_notscareme_a_jumpscare_guide_for_horror/</link>
+      <description><![CDATA[      notscare.me 可帮助您准确找到恐怖电影、连续剧和游戏中发生跳跃惊吓的时间，并提供时间戳和强度评级。它由社区驱动，已包含 9,500 多部影片。 还有一个即将上映的电影部分，以便您可以查看即将上映的电影并开始计划您的下一个恐怖之夜。 [notscare.me](https://notscare.me)   由   提交/u/DevWarrior504  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1hb2f/i_built_notscareme_a_jumpscare_guide_for_horror/</guid>
+      <pubDate>Sat, 02 May 2026 05:49:31 GMT</pubDate>
+    </item>
     <item>
       <title>仅基本 CSS 淡入淡出滚动条示例</title>
       <link>https://www.reddit.com/r/webdev/comments/1t1fj7z/basic_css_only_fading_scrollbar_example/</link>
@@ -46,69 +109,6 @@
       <description><![CDATA[      3个月前，我们的3D建模工具只能建模占位符。 今天，它可以建模这个Wall-E。 项目源代码：https://github.com/sengchor/kokraf   由   提交/u/Sengchor  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t1bb0v/built_a_browserbased_3d_modeling_tool_3_month/</guid>
       <pubDate>Sat, 02 May 2026 00:52:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>我重新制作了 Chrome 的 Dino 游戏 🦖 — 但它在 URL 栏中运行（支持多人游戏）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t19i39/i_remade_chromes_dino_game_but_it_runs_in_the_url/</link>
-      <description><![CDATA[      您还记得在没有互联网的情况下出现的 OG Chrome Dino 游戏吗？  我重建了它......但是在 URL 栏内 🤯  几年前我刚刚进入网络开发时构建了这个，&amp;最近回来了，重新设计了用户界面，并推出了新的多人模式。  尝试一下：https://neilblaze.github.io/URL-Dinogame  GitHub：https://github.com/Neilblaze/URL-Dinogame  会非常感谢反馈。如果您喜欢它，请在存储库上打 ⭐！    由   提交 /u/Neilblaze   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t19i39/i_remade_chromes_dino_game_but_it_runs_in_the_url/</guid>
-      <pubDate>Fri, 01 May 2026 23:31:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>加拿大IP城市检测</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t198yu/ip_city_detection_in_canada/</link>
-      <description><![CDATA[我有一个网站通过 IP 自动检测用户位置，但它仍然显示温尼伯而不是卡尔加里。这在加拿大显然是一个难题。如何让它在不需要用户/浏览器许可的情况下检测正确的城市/城镇？有时它会起作用。   由   提交/u/orwells_eyes  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t198yu/ip_city_detection_in_canada/</guid>
-      <pubDate>Fri, 01 May 2026 23:20:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>我做了我自己的git</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t17q0r/i_made_my_own_git/</link>
-      <description><![CDATA[ 由   提交/u/fagnerbrack  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t17q0r/i_made_my_own_git/</guid>
-      <pubDate>Fri, 01 May 2026 22:15:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>我单独构建了一个自托管的 Slack + Notion 克隆。以下是我处理实时 WebRTC、Y.js CRDT 和本地 AI 的方法。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t16b1j/i_built_a_selfhosted_slack_notion_clone_solo/</link>
-      <description><![CDATA[嘿 r/webdev， 在过去的几个月里，我一直在构建一个开源前端和一个自托管工作区，它基本上将聊天、看板和协作文档合并到一个 Docker 部署中。 我想分享我在构建过程中遇到的一些最大的架构挑战这个单独的，因为将这些特定技术结合在一起是一个巨大的头痛。  双数据库头痛（Postgres + Dgraph） 我最初只使用 Postgres，但是对复杂关系（用户 -&gt; 团队 -&gt; 通道 -&gt; 线程）的建模很快就变得混乱。我最终将所有关系密集的图形数据移至 Dgraph，同时将 Auth、Config 和 Users 保留在 Postgres 中。保持它们同步需要在 Go 后端进行严格的领域驱动设计。 与 Y.js 的协作文档我想要 Notion 风格的文档。我最终将 Tiptap 与 Y.js CRDT（无冲突复制数据类型）和 Hocuspocus 服务器一起使用。最困难的部分是处理离线状态并解决用户离线输入后重新连接时的合并冲突。 视频通话（LiveKit + WebRTC） 我为 WebRTC 层集成了 LiveKit。设置 TURN/STUN 服务器以便视频通话能够跨越严格的企业防火墙进行工作是残酷的。 本地 AI 我将 Ollama 融入到 Docker compose 中，以便团队可以拥有“第二大脑”。搜索他们的聊天和文档，而不向 OpenAI 发送数据。  堆栈：  前端：Next.js  后端：Go（Chi Router） 实时：EMQX（MQTT 代理）  如果有人想查看代码或使用 UI 组件，我开源了整个 Next.js 前端。一切已在 https://github.com/OneMana-Soft/OneCamp-fe 结束。 对于后端，我决定尝试一种不同的模型：前端是开放的，但我以 19 美元的一次性费用出售可用于生产的后端二进制文件，以保持正常运行。 希望获得有关架构的任何反馈，或者是否有其他人提供反馈这里有与 Postgres 一起扩展 Dgraph 的经验！   由   提交 /u/False_Staff4556   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t16b1j/i_built_a_selfhosted_slack_notion_clone_solo/</guid>
-      <pubDate>Fri, 01 May 2026 21:19:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 OPFS（零 DB）构建了一个开源 GPT 图像和视频生成器 Web 客户端</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t15msv/i_built_an_opensource_gpt_image_video_generator/</link>
-      <description><![CDATA[大家好， 我是一名法国前端开发人员，也是一名开源极客。我喜欢为特定的技术领域构建核心工具，但最近我只是想要一种更干净、更快速的方式来生成 AI 媒体，而无需处理繁重的 UI 或昂贵的订阅锁定。因此，我构建了 GPT-Images。 它是一个用于图像和视频生成的完全开源的 Web 界面。您只需插入自己的 OpenAI API 密钥，应用程序就会处理其余的事情。 该架构是我最喜欢的：  技术堆栈： Svelte 5、SvelteKit 和 Tailwind 4。整个东西托管在 Cloudflare Workers 上，我使用 Bun pm，因为它安装速度更快，而且对于我的情况来说非常稳定。 零数据库：我使用 Origin 私有文件系统 (OPFS) 直接在浏览器中处理所有媒体存储。它完全本地化，并 100% 尊重您的隐私。 功能：安全 API 密钥管理、无缝媒体生成（图像和视频）以及用于管理输出的干净网格/灯箱 UI。  我尝试尽可能保持代码库干净且严格键入。如果只是想为您的 AI 世代提供一个凉爽的本地 UI，请随时查看并分叉它。 存储库：https://github.com/Ayfri/GPT-Images 站点：gpt-images.ayfri.com   由   提交 /u/Ayfri   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t15msv/i_built_an_opensource_gpt_image_video_generator/</guid>
-      <pubDate>Fri, 01 May 2026 20:53:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>上传徽标 → 获取完整的品牌套件（SVG、图标、OG 图像）。希望反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t15e4a/upload_a_logo_get_a_full_brand_kit_svgs_favicons/</link>
-      <description><![CDATA[我刚刚推出了 LogoNuri，这是一个基于浏览器的工具，可将徽标文件转换为可用于生产的品牌资产。我不是在炫耀，而是真诚地向每天需要这个的人寻求建议。 我构建它是因为“准备好制作徽标”需要我 3-5 个工具。该项目旨在减轻追逐文件、修复格式、调整内容大小以及猜测缺少什么的情况。 这意味着将所有这些都折叠到一个流程中。 主要焦点是界面。我不希望它感觉像是一个你上传一些东西并希望得到最好结果的工具。它应该给人一种被引导、快速、明确下一步该做什么的感觉。其中包括一个网站 URL 搜索功能，可以直接从现有网站中提取徽标来使用，并内置于 AI Upscale 中。 希望得到实际构建或交付产品的人的真实反馈，因为这是我第一次。 如果您可以向这样的一体化工具添加一个东西，它会是什么？ 我正在开发一些测试版功能，例如： 直接导出/导入到 Canva 以及Figma，更无缝的 CLI 体验，水印去除器。   由   提交/u/josephdc18  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t15e4a/upload_a_logo_get_a_full_brand_kit_svgs_favicons/</guid>
-      <pubDate>Fri, 01 May 2026 20:44:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建人工智能驱动的 SaaS 已经有两年了。以下是我在几乎所有人工智能应用程序中看到的 3 个安全错误。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t14v9m/ive_been_building_aipowered_saas_for_2_years_here/</link>
-      <description><![CDATA[此处为 CISSP 认证工程师。不卖任何东西。只是分享我不断发现的内容。 1.几乎从未处理过提示注入 大多数创始人都会添加人工智能聊天机器人，为其提供系统上下文，然后就大功告成。 恶意用户可以覆盖您的系统提示并在几秒钟内提取您的整个知识库。 将提示视为 SQL 查询。假设他们是敌对的。在获得法学硕士之前对所有内容进行消毒。 2.通过 LLM 响应实现多租户数据泄露 如果您的 AI 具有数据库访问权限并且您有多个客户...测试客户 A 是否可以通过巧妙的提示提取客户 B 的数据。 您会惊讶地发现这种方法的工作频率有多高。 将 AI 的数据库访问权限严格限制在经过身份验证的用户组织内。切勿授予其全局读取权限。 3. OAuth 令牌存储不安全 本地存储中的令牌。 URL 中的令牌。控制台日志中的令牌。 全部可利用。所有常见的。 HTTPOnly cookie。服务器端会话。切勿将令牌暴露给客户端 JavaScript。 乐于回答问题。在这个空间中构建已经有一段时间了。`   由   提交 /u/Wise-Cardiographer-31   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t14v9m/ive_been_building_aipowered_saas_for_2_years_here/</guid>
-      <pubDate>Fri, 01 May 2026 20:24:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么网站开始这样做？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t14h5d/why_do_websites_started_to_do_this/</link>
-      <description><![CDATA[嘿，我不知道这个东西叫什么，但让我解释一下。我在谷歌上搜索了一些内容并打开了图像部分，有很多我搜索的结果，它们都是低分辨率或模糊的。要查看图像，您必须单击链接并输入该站点。右键单击“在新选项卡中打开图像”也不起作用，因为它要么显示低分辨率版本，要么显示模糊版本，您看不到或读不到任何内容&quot;我知道 Instagram 或 Twitter 或任何大型网站都会这样做，并迫使您创建一个帐户才能查看图片，但为什么其他较小的网站（甚至博客）会这样做？他们的网站上并没有获得 insta 或 twitter 级别的活动。   由   提交 /u/diomedes-on-rampage   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t14h5d/why_do_websites_started_to_do_this/</guid>
-      <pubDate>Fri, 01 May 2026 20:10:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>正在寻找类似 Tufte 的 CSS 的东西，但是是颜色</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t14etr/looking_for_something_like_tuftes_css_but_for/</link>
-      <description><![CDATA[ Tufte CSS 提供了使用 Edward Tufte 的书籍和讲义所展示的想法来设计 Web 文章样式的工具。 Tufte 的风格以其简单性、大量使用旁注、图形与文本的紧密结合以及精心选择的版式而闻名。  我正在做一个对我来说非常重要的个人项目，但我在选择颜色时遇到了一些麻烦。 我希望有类似 Tufte CSS 的东西，但它不会专注于版式，而是专注于版式颜色。 我的网站本质上是一本书，所以我正在寻找一种资源，可以告诉我为标题、副标题、引文、段落、注释......分配什么颜色。   由   提交 /u/Wise_Stick9613   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t14etr/looking_for_something_like_tuftes_css_but_for/</guid>
-      <pubDate>Fri, 01 May 2026 20:07:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
