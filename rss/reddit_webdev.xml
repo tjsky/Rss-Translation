@@ -4,13 +4,41 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 02 May 2026 02:14:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 05:34:16 GMT</lastBuildDate>
     <item>
-      <title>克劳德驱动的人工智能特工在删除公司的整个数据库后承认：“我违反了我被赋予的每一条原则”</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t1ctnm/claudepowered_ai_agents_confession_after_deleting/</link>
-      <description><![CDATA[       由   提交/u/ZGeekie  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t1ctnm/claudepowered_ai_agents_confession_after_deleting/</guid>
-      <pubDate>Sat, 02 May 2026 02:03:32 GMT</pubDate>
+      <title>仅基本 CSS 淡入淡出滚动条示例</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1fj7z/basic_css_only_fading_scrollbar_example/</link>
+      <description><![CDATA[经过一些实验，我想出了一种创建淡入和淡出滚动条（用于可滚动内容）的方法。 这是一个简单的 JSFiddle 展示该技术： https://jsfiddle.net/wuvoh/3auL2rn6/13/show 这是一个近乎最小的 CSS 片段 - apply class=&quot;scrollableArea&quot;到一个div来挂钩它。不需要JS。 :root{--sb-color: #99AABB;} @property --sb-opacity {语法: &#39;&#39;;初始值：0；继承：真实； } .scrollableArea { 过渡：--sb-opacity 850ms;滚动条装订线：稳定；溢出-y：自动；溢出-x：隐藏；} .scrollableArea：悬停{ --sb-opacity：0.75； } ::-webkit-scrollbar { 宽度：6px;高度：6 像素； } ::-webkit-scrollbar-track { 背景：0 0; } ::-webkit-scrollbar-corner{background:0 0} ::-webkit-scrollbar-thumb {background: rgb(from var(--sb-color) r g b / var(--sb-opacity));border-radius:999px;}    由   提交 /u/woroboros   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1fj7z/basic_css_only_fading_scrollbar_example/</guid>
+      <pubDate>Sat, 02 May 2026 04:15:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>在自由市场上自托管无头 CMS 是否值得？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1fglb/is_selfhosting_the_headless_cms_worth_in_the/</link>
+      <description><![CDATA[我一直在争论选择哪个 Headless CMS（顺便说一句，我已经厌倦了）；在这一点上，我问自己，自托管、基于 git 和单一存储库方面是否真的那么重要，所以我想知道，在现实的客户网站情况下......你会选择那些自托管/基于 git 的选项，还是只坚持像理智这样的东西（或者如果你富有的话，内容丰富） 更多背景：我必须构建的网站非常简单，客户只想编辑一些文本，因此我想：“好吧，那么我会尽量不这样做” “用无头 cms 杀伤力太大”，但最终找到真正易于设置和易于使用（对于客户端和移动设备）的选项绝对是一场噩梦，所以也许“杀伤力大”会更好。或“咬紧牙关”并实施更稳健的解决方案。  PD：我主要使用Astro，基本上是出于同样的原因，不要过度杀伤。   由   提交 /u/FeeWise   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1fglb/is_selfhosting_the_headless_cms_worth_in_the/</guid>
+      <pubDate>Sat, 02 May 2026 04:11:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个零知识加密的pastebin，服务器永远不会看到你的内容</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1favw/i_built_a_zeroknowledge_encrypted_pastebin_where/</link>
+      <description><![CDATA[嘿r/webdev！我构建了 Cloakbin 一个 Pastebin 风格的应用程序，在任何内容到达后端之前，加密完全在浏览器中进行： 👉 https://cloakbin.com 工作原理  AES-256-GCM 加密在客户端运行 加密密钥存储在URL 片段 (#key) 中，浏览器从不发送到服务器 服务器仅存储密文，即使被泄露，它也无法解密或读取粘贴  加密方法（高级） 当您创建粘贴时：  浏览器会生成一个随机密文密钥 您的内容使用Web Crypto API进行加密 仅将密文发送到服务器 密钥会附加到 URL 的 #  由于片段 (#...) 不会在 HTTP 请求中传输，因此解密密钥永远不会到达后端。 开源 代码库：https://github.com/ishannaik/cloakbin 希望获得有关用户体验、整体实现或您要更改的任何内容的反馈。 很乐意回答有关加密模型和其他任何问题的问题   由   提交 /u/Ishannaik   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1favw/i_built_a_zeroknowledge_encrypted_pastebin_where/</guid>
+      <pubDate>Sat, 02 May 2026 04:04:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>ICANN 开放新 gTLD 申请</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1ep5c/icann_opens_applications_for_new_gtlds/</link>
+      <description><![CDATA[      “ICANN 自 2012 年以来就不再提供新 gTLD，但周四开放了 27 个文字的新域名申请... “如果您喜欢 gTLD，则需要在 8 月之前支付 227,000 美元的申请费12 号……然后等待，可能要到 2030 年，这个过程才会结束。”   由   提交/u/Azar42  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1ep5c/icann_opens_applications_for_new_gtlds/</guid>
+      <pubDate>Sat, 02 May 2026 03:33:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>经过 6 年帮助被剥夺权利的年轻人找到职业道路后，我们重建了整个评估工具 (Vue/TS/Vertex)。现在它的评分为 9.7/10，而且速度比以往任何时候都快。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t1dcdc/after_6_years_of_helping_disenfranchised_youth/</link>
+      <description><![CDATA[嘿r/webdev， 在过去的 6 年里，我一直致力于一个名为 Traitstack 的项目，该项目的具体使命是：为通常落后的人提供专业级的职业指导。我们帮助了被剥夺权利的年轻人、边缘化群体以及那些感觉没有明确方向的人。 问题：大多数职业评估都很无聊、令人疲劳，而且感觉像是一件官僚琐事。对于我们服务的社区来说，这是一个巨大的障碍。我们想要采取“无聊”的方式摆脱这个等式，并将其变成人们实际上可以一次完成而不会头痛的事情。 旅程和过程重建：我们有一个最初的工具可以完成这项工作，但根据多年的反馈，我们决定将其拆除并从头开始重建，使其“更清晰”。 我们将重点转向基于图像的评估方式，以降低语言障碍并减少疲劳。结果令人难以置信：  速度：评估现在平均需要 4-6 分钟。 影响：我们目前看到的用户评分为 9.7/10。 清晰度：报告的设计宗旨是即时且可操作，不再是“四个字母”代码”标签并转化为实际的心理特征量表（大五和RIASEC）。  技术堆栈：我们想要一个“正常工作”的堆栈这样我们就可以专注于 UX/UI：  前端： 使用 TypeScript 的 VueJS（干净、模块化且易于维护）。 后端： Firebase（轻松处理我们的身份验证和扩展）。 AI/逻辑： Vertex AI（帮助我们改进匹配和报告生成）。  我分享的原因：我对这项工作感到非常自豪。这是漫长的6年迭代之路，但看到人们的反馈，终于感觉到“被看到”了。通过职业工具让开发时间值得。 我很想了解您对 UI/UX 或使用基于图像的可访问性评估的一般方法的想法。 在这里查看：Traitstack 周六快乐！   由   提交/u/atheistjebus  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t1dcdc/after_6_years_of_helping_disenfranchised_youth/</guid>
+      <pubDate>Sat, 02 May 2026 02:28:07 GMT</pubDate>
     </item>
     <item>
       <title>构建了一个基于浏览器的 3D 建模工具 — 3 个月的进度</title>
@@ -81,34 +109,6 @@
       <description><![CDATA[ Tufte CSS 提供了使用 Edward Tufte 的书籍和讲义所展示的想法来设计 Web 文章样式的工具。 Tufte 的风格以其简单性、大量使用旁注、图形与文本的紧密结合以及精心选择的版式而闻名。  我正在做一个对我来说非常重要的个人项目，但我在选择颜色时遇到了一些麻烦。 我希望有类似 Tufte CSS 的东西，但它不会专注于版式，而是专注于版式颜色。 我的网站本质上是一本书，所以我正在寻找一种资源，可以告诉我为标题、副标题、引文、段落、注释......分配什么颜色。   由   提交 /u/Wise_Stick9613   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t14etr/looking_for_something_like_tuftes_css_but_for/</guid>
       <pubDate>Fri, 01 May 2026 20:07:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能编码工具正在悄然削弱我们的技能，航空业 30 年前就发现了这一点</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t13zls/ai_coding_tools_are_quietly_atrophying_our_skills/</link>
-      <description><![CDATA[       由   提交/u/walden99  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t13zls/ai_coding_tools_are_quietly_atrophying_our_skills/</guid>
-      <pubDate>Fri, 01 May 2026 19:52:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>我创建了这个网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t133oj/i_created_this_website/</link>
-      <description><![CDATA[      https://everycinematicuniverse.com/ 提供我可以在此处添加的反馈和宇宙，以及如何改进它。尽管我试图将其保持在最低限度 在下次更新中我将添加全局过滤器   由   提交/u/darkarrow_sh   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t133oj/i_created_this_website/</guid>
-      <pubDate>Fri, 01 May 2026 19:19:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于重构 Playwright 测试自动化代码的 AI</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t11jy6/ai_for_for_refactoring_playwright_test_automation/</link>
-      <description><![CDATA[我即将加入一家公司，作为他们的第一个 QA，我必须使用 Playwright (TypeScript) 从头开始设置测试自动化。 在我的工作流程中，我必须：  生成初始 Playwright 测试（可能使用 codegen） 然后将它们重构为一个干净且可扩展的页面对象模型（称为POM） 随着时间的推移维护和发展测试套件  我试图优化的是重构部分，特别是：  将现有测试转换为 POM 重用现有页面对象而不是重复逻辑 随着测试套件的发展保持一切干净  我一直在研究 AI帮助我完成这些任务的工具，有很多选择，我对哪一个与我的案例更相关感到有点迷失。对于我需要做的事情，您会推荐什么人工智能？   由   提交 /u/Competitive_Echo9463   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t11jy6/ai_for_for_refactoring_playwright_test_automation/</guid>
-      <pubDate>Fri, 01 May 2026 18:23:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>您是否能够跟上人工智能的代码更改？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t11hx9/do_you_manage_keep_up_with_the_code_changes_from/</link>
-      <description><![CDATA[我以为我已经牢牢掌握了我的前端项目，但是在今天的代码审查中，我意识到我不再理解其中的某些部分是如何或为什么工作的。  现在这种情况很常见吗？   由   提交/u/ThanosDi   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t11hx9/do_you_manage_keep_up_with_the_code_changes_from/</guid>
-      <pubDate>Fri, 01 May 2026 18:21:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
