@@ -4,7 +4,91 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Sun, 03 May 2026 07:55:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 10:01:31 GMT</lastBuildDate>
+    <item>
+      <title>VS Code 默认为每次提交添加 Copilot 共同作者 - 即使禁用了 AI 功能</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2hayo/vs_code_defaulted_to_adding_copilot_coauthorship/</link>
+      <description><![CDATA[VS Code 合并了两周前的一项更改，该更改将 `git.addAICoAuthor` 从关闭状态翻转为“全部”状态默认情况下。效果：安装 Copilot 时所做的每个提交都会附加一个“Co-Authored-by：GitHub Copilot copilot@github.com”预告片 - 无论 Copilot 是否贡献了任何内容。 多个开发人员确认，即使显式设置了“chat.disableAIFeatures”: true`，它也会触发 - 这意味着零 AI 参与的手写提交正在被执行归因于 Copilot。 该 PR 累积了 372 票反对票和 2 票赞成票，最终被锁定为垃圾邮件。评论的范围从“破坏公物”到“故意破坏”。 “这近乎欺诈”。 “共同作者”字段在开源中具有真正的法律效力 - 在 Linux 内核等项目中，它用于开发者原产地证书归属。代表商业产品插入它会削弱有意义的信号。 线程中讨论最广泛的理论：这是为了夸大 GitHub 的“AI 共同创作提交”指标而设计的。股东报告 - 确保安装了 Copilot 的任何开发人员都对该计数做出了贡献，无论是否使用。 批准该方案的 VS Code 贡献者承认存在三个错误：禁用 AI 功能时不应触发该方案，不应将归因添加到非 AI 更改，并且在更好的测试覆盖范围存在之前不应更改默认值。版本 1.119 的修复正在进行中。 让我困扰的部分是：为跟踪代码中 AI 参与而构建的功能本身就带有一个错误，该错误将其应用于根本没有 AI 参与的提交。您检查过 Copilot 预告片的最近提交历史记录吗？   由   提交 /u/jimmytoan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2hayo/vs_code_defaulted_to_adding_copilot_coauthorship/</guid>
+      <pubDate>Sun, 03 May 2026 10:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源我的基于浏览器的 p2p 文件传输平台，可自托管，apache 2.0</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2hahm/open_sourced_my_browserbased_p2p_file_transfer/</link>
+      <description><![CDATA[      发帖，因为我找不到一个好的自托管选项来将文件发送给不打算安装任何东西的人。  localsend 和syncthing 很棒，但需要在每台设备上安装一个应用程序。 magic-wormhole 仅适用于 cli。 wormhole.app 可以工作，但不能自托管。 完全在两端的浏览器选项卡中快速运行。两个选项卡之间的 webrtc 数据通道，信令服务器进行握手，文件内容进行点对点传输。加密，没有大小上限，服务器端没有任何内容。 堆栈：fastapi、nextjs、postgres、redis、minio（或 r2）、用于 nat 后备的 coturn。用于本地开发的 docker compose，用于产品部署的 terraform + hetzner 脚本。 Apache 2.0。   由   提交/u/Vouchy-MOD   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2hahm/open_sourced_my_browserbased_p2p_file_transfer/</guid>
+      <pubDate>Sun, 03 May 2026 09:59:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>我需要帮助</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2h4jn/i_need_help/</link>
+      <description><![CDATA[      第一个是由聊天 gpt 图像生成的。第二张图片是 gpt 5.5 high in codex 生成的。我尝试要求 JSON 提示并实施。没有任何作用。我如何实现精确的图像？ codex 和 chatgpt 应用程序都有 gpt 映像，对吧？但差别很大，为什么呢？我需要你的帮助   由   提交 /u/GasBond   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2h4jn/i_need_help/</guid>
+      <pubDate>Sun, 03 May 2026 09:49:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我很好奇......您使用什么巧妙的技术来使 GPT 图像 V2 与品牌保持一致？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2h2ay/im_curious_what_clever_techniques_are_you_using/</link>
+      <description><![CDATA[您是否有任何巧妙的技术/方法来获取 GPT 图像来创建与公司品牌、风格和感觉一致的一致图形设计（社交媒体、海报等）？   由   提交 /u/Rough_Dig7431   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2h2ay/im_curious_what_clever_techniques_are_you_using/</guid>
+      <pubDate>Sun, 03 May 2026 09:45:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果您认为 AI 模型基准不准确，您可以给模型更好的评级。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2gxf8/if_you_think_ai_model_benchmarks_are_not_accurate/</link>
+      <description><![CDATA[https://know-your-ai.vercel.app/ 证明它   由   提交 /u/RoughImpossible8258   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2gxf8/if_you_think_ai_model_benchmarks_are_not_accurate/</guid>
+      <pubDate>Sun, 03 May 2026 09:38:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑曜石连接器在哪里？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2gnol/wheres_the_obsidian_connector/</link>
+      <description><![CDATA[OpenAI 似乎为除了 Obsidian 之外的所有人创建了插件。这是有原因的吗？    由   提交 /u/sourdub   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2gnol/wheres_the_obsidian_connector/</guid>
+      <pubDate>Sun, 03 May 2026 09:21:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 扫雷和纸牌就像现代开放世界角色扮演游戏</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2gjwy/windows_mine_sweeper_and_solitaire_as_if_they/</link>
+      <description><![CDATA[       由   提交/u/TomatoOk7464   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2gjwy/windows_mine_sweeper_and_solitaire_as_if_they/</guid>
+      <pubDate>Sun, 03 May 2026 09:15:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>这句话你听过多少遍了？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2g1g6/how_many_times_do_you_hear_this/</link>
+      <description><![CDATA[Bruh：AI 是这么说的。 Derp：但它一直都是错误的。 Bruh：它确实在这里引用了它的来源。它实际上只是直接引用文献（通过 LLM/transformer/processes 处理）。 Derp：但它是 LiEz。 Bruh：这是链接。自己看看论文。 Derp：...不过它是骗人的！投反对票！   由   提交 /u/telephantomoss   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2g1g6/how_many_times_do_you_hear_this/</guid>
+      <pubDate>Sun, 03 May 2026 08:45:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Github 如果它是 Frutiger Aero 主题</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2g13r/github_if_it_was_frutiger_aero_themed/</link>
+      <description><![CDATA[       由   提交/u/CesarOverlorde  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2g13r/github_if_it_was_frutiger_aero_themed/</guid>
+      <pubDate>Sun, 03 May 2026 08:45:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>我告诉ChatGPT创建它的父母，他创建了ts。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2fv4k/i_told_chatgpt_to_make_its_parents_he_made_ts/</link>
+      <description><![CDATA[      我输入的提示：制作一张你和父母的合影。   由   提交/u/Being-Shubh  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2fv4k/i_told_chatgpt_to_make_its_parents_he_made_ts/</guid>
+      <pubDate>Sun, 03 May 2026 08:34:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果特里·吉列姆拍了一部星球大战电影（vs Grok）</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2fh6a/if_terry_gilliam_made_a_star_wars_movie_vs_grok/</link>
+      <description><![CDATA[      我想这次我更喜欢 Grok    由   提交/u/Expective_Scholar444  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2fh6a/if_terry_gilliam_made_a_star_wars_movie_vs_grok/</guid>
+      <pubDate>Sun, 03 May 2026 08:12:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>你会得到同一个男人吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2faim/do_you_get_the_same_man/</link>
+      <description><![CDATA[      提示是： 创建图像。照片中的一个男人总是出现在著名照片的背景上，但总是失焦。他周围的红色圆圈和文字“时间旅行者？”   由   提交/u/StayImpossible7013  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2faim/do_you_get_the_same_man/</guid>
+      <pubDate>Sun, 03 May 2026 08:01:24 GMT</pubDate>
+    </item>
     <item>
       <title>偶然发现的，过滤器有点疯狂</title>
       <link>https://www.reddit.com/r/ChatGPT/comments/1t2f2ai/found_this_randomly_the_filters_are_kinda_nuts/</link>
@@ -25,90 +109,6 @@
       <description><![CDATA[   如果这两个人可以解决分歧，为什么我们不能呢？   由   提交/u/AlonzoIzGod  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/ChatGPT/comments/1t2ev3d/i_asked_for_god_then_satan_and_then_them_sharing/</guid>
       <pubDate>Sun, 03 May 2026 07:37:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>要求 ChatGPT 可视化其断点</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2es3p/asked_chatgpt_to_visualize_its_breaking_point/</link>
-      <description><![CDATA[      由   提交 /u/Tigerpoetry   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2es3p/asked_chatgpt_to_visualize_its_breaking_point/</guid>
-      <pubDate>Sun, 03 May 2026 07:32:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>有志者事竟成</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2ekv7/where_theres_a_will_theres_way/</link>
-      <description><![CDATA[       由   提交/u/GoodByeHorsesO   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2ekv7/where_theres_a_will_theres_way/</guid>
-      <pubDate>Sun, 03 May 2026 07:21:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT 与 Gemini 图像生成</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2e3h6/chatgpt_vs_gemini_image_generation/</link>
-      <description><![CDATA[      使用相同的提示，只是更改了 LLM 名称。您认为哪一个在这里表现更好？   由   提交/u/Brilliant_Sir8505  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2e3h6/chatgpt_vs_gemini_image_generation/</guid>
-      <pubDate>Sun, 03 May 2026 06:54:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>桌面项目聊天中缺少思考模式？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2e3gr/thinking_mode_missing_in_a_project_chat_on_desktop/</link>
-      <description><![CDATA[      我正在使用 ChatGPT Go（印度）。我注意到，如果我在项目内开始聊天，我将无法使用“思考”功能。模式，如果我在桌面上（请参阅随附的网站和 Windows 应用程序屏幕截图）。我可以在 Android 应用程序上执行此操作。 但是如果聊天不在项目中，我可以在桌面上使用思考模式。 如果您也遇到此问题，其他人可以检查一下吗？我想知道这对我来说是计划限制还是 Plus 上也有。   由   提交/u/quacho  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2e3gr/thinking_mode_missing_in_a_project_chat_on_desktop/</guid>
-      <pubDate>Sun, 03 May 2026 06:54:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>驼鹿安全 2004 年至今</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2e2eo/moose_safety_2004_and_now/</link>
-      <description><![CDATA[      2024 年，我通过 DALLE 要求 ChatGPT 为我正在从事的项目生成一个类似于航空公司安全标牌的驼鹿安全标牌，分为六个面板。结果……无法使用。前几天这个图像出现在我的记忆中，我想看看它是否可以做得更好。我认为，飞机标语牌部分有点过于字面意思，第五组可能会让你丧命，但我对此印象深刻。还有其他人对早期图像生成有什么好的重新尝试吗？   由   提交/u/Mikecm2020   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2e2eo/moose_safety_2004_and_now/</guid>
-      <pubDate>Sun, 03 May 2026 06:52:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>要求 ChatGPT 生成一个正常的房间，但反射与现实不符。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2e0ec/asked_chatgpt_to_generate_a_normal_room_but_the/</link>
-      <description><![CDATA[       由   提交/u/Conscious-Course4548  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2e0ec/asked_chatgpt_to_generate_a_normal_room_but_the/</guid>
-      <pubDate>Sun, 03 May 2026 06:49:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>我要求 ChatGPT 向我展示它的父母。这就是它所做的。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2dtd0/i_asked_chatgpt_to_show_me_its_parents_this_is/</link>
-      <description><![CDATA[       由   提交/u/LinkleDooBop  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2dtd0/i_asked_chatgpt_to_show_me_its_parents_this_is/</guid>
-      <pubDate>Sun, 03 May 2026 06:38:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>回复这么快是怎么回事？？？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2dogj/what_is_with_these_fast_responses/</link>
-      <description><![CDATA[    https://preview.redd.it/hu9ycl3o9vyg1.png?width=867&amp;format=png&amp;auto=webp&amp;s=be3810bccbf3004424c7498d85a096e1181b0c64 https://chatgpt.com/share/69f6eb3e-3fe0-8386-abaf-11898324edc1   由   提交 /u/Straight_Library9347   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2dogj/what_is_with_these_fast_responses/</guid>
-      <pubDate>Sun, 03 May 2026 06:30:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>我已经完成了......不，真的，给我一次胜利......我不能</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2dmg7/im_doneno_for_real_give_me_a_win_for_once_i_cant/</link>
-      <description><![CDATA[       由   提交/u/woodybone  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2dmg7/im_doneno_for_real_give_me_a_win_for_once_i_cant/</guid>
-      <pubDate>Sun, 03 May 2026 06:27:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我要求 ChatGPT 向我展示它的父母。这就是它所做的。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2d7bj/i_asked_chatgpt_to_show_me_its_parents_this_is/</link>
-      <description><![CDATA[       由   提交 /u/Tigerpoetry   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2d7bj/i_asked_chatgpt_to_show_me_its_parents_this_is/</guid>
-      <pubDate>Sun, 03 May 2026 06:03:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>遗憾的是，GPT Image 2 仍然不太擅长让 Nicolas Cage 烟雾变钝。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2ckci/gpt_image_2_is_still_not_very_good_at_making/</link>
-      <description><![CDATA[    /u/TheLegendaryNikolai   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2ckci/gpt_image_2_is_still_not_very_good_at_making/</guid>
-      <pubDate>Sun, 03 May 2026 05:29:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT 桌面应用程序的实验性 Windows 启动器可修复延迟</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2cdeo/experimental_windows_launcher_for_chatgpt_desktop/</link>
-      <description><![CDATA[Windows 中的 ChatGPT 桌面应用程序由于加载并呈现整个对话历史记录而导致对话变长，因此会出现滞后并变得无法使用。  所以我（使用 codex :)）为 Windows 制作了一个小型实验启动器。它启动官方 ChatGPT 桌面应用程序，打开本地 Chromium DevTools 端口，注入本地 fetch 包装器，并在页面呈现之前修剪对话对象。默认情况下，它会保持最新的 40 条消息可见，并且可以将较旧的消息作为只读重建逐步加载到上面。 来源：https://github.com/Owen271/ChatGPT-optimized 很好奇是否有其他人遇到了这种长时间的对话延迟，以及这种方法是否适用于其他人设置。   由   提交 /u/Jeffwbq   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2cdeo/experimental_windows_launcher_for_chatgpt_desktop/</guid>
-      <pubDate>Sun, 03 May 2026 05:18:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
