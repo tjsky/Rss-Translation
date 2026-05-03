@@ -4,111 +4,111 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Sun, 03 May 2026 10:01:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 12:58:54 GMT</lastBuildDate>
     <item>
-      <title>VS Code 默认为每次提交添加 Copilot 共同作者 - 即使禁用了 AI 功能</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2hayo/vs_code_defaulted_to_adding_copilot_coauthorship/</link>
-      <description><![CDATA[VS Code 合并了两周前的一项更改，该更改将 `git.addAICoAuthor` 从关闭状态翻转为“全部”状态默认情况下。效果：安装 Copilot 时所做的每个提交都会附加一个“Co-Authored-by：GitHub Copilot copilot@github.com”预告片 - 无论 Copilot 是否贡献了任何内容。 多个开发人员确认，即使显式设置了“chat.disableAIFeatures”: true`，它也会触发 - 这意味着零 AI 参与的手写提交正在被执行归因于 Copilot。 该 PR 累积了 372 票反对票和 2 票赞成票，最终被锁定为垃圾邮件。评论的范围从“破坏公物”到“故意破坏”。 “这近乎欺诈”。 “共同作者”字段在开源中具有真正的法律效力 - 在 Linux 内核等项目中，它用于开发者原产地证书归属。代表商业产品插入它会削弱有意义的信号。 线程中讨论最广泛的理论：这是为了夸大 GitHub 的“AI 共同创作提交”指标而设计的。股东报告 - 确保安装了 Copilot 的任何开发人员都对该计数做出了贡献，无论是否使用。 批准该方案的 VS Code 贡献者承认存在三个错误：禁用 AI 功能时不应触发该方案，不应将归因添加到非 AI 更改，并且在更好的测试覆盖范围存在之前不应更改默认值。版本 1.119 的修复正在进行中。 让我困扰的部分是：为跟踪代码中 AI 参与而构建的功能本身就带有一个错误，该错误将其应用于根本没有 AI 参与的提交。您检查过 Copilot 预告片的最近提交历史记录吗？   由   提交 /u/jimmytoan   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2hayo/vs_code_defaulted_to_adding_copilot_coauthorship/</guid>
-      <pubDate>Sun, 03 May 2026 10:00:01 GMT</pubDate>
+      <title>是的，这个人真的很可怜。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2krbx/yeah_this_one_was_really_pathetic/</link>
+      <description><![CDATA[       由   提交/u/chapsan2001  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2krbx/yeah_this_one_was_really_pathetic/</guid>
+      <pubDate>Sun, 03 May 2026 12:57:00 GMT</pubDate>
     </item>
     <item>
-      <title>开源我的基于浏览器的 p2p 文件传输平台，可自托管，apache 2.0</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2hahm/open_sourced_my_browserbased_p2p_file_transfer/</link>
-      <description><![CDATA[      发帖，因为我找不到一个好的自托管选项来将文件发送给不打算安装任何东西的人。  localsend 和syncthing 很棒，但需要在每台设备上安装一个应用程序。 magic-wormhole 仅适用于 cli。 wormhole.app 可以工作，但不能自托管。 完全在两端的浏览器选项卡中快速运行。两个选项卡之间的 webrtc 数据通道，信令服务器进行握手，文件内容进行点对点传输。加密，没有大小上限，服务器端没有任何内容。 堆栈：fastapi、nextjs、postgres、redis、minio（或 r2）、用于 nat 后备的 coturn。用于本地开发的 docker compose，用于产品部署的 terraform + hetzner 脚本。 Apache 2.0。   由   提交/u/Vouchy-MOD   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2hahm/open_sourced_my_browserbased_p2p_file_transfer/</guid>
-      <pubDate>Sun, 03 May 2026 09:59:18 GMT</pubDate>
+      <title>ChatGPT开始争论交通安全</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2knh1/chatgpt_started_arguing_about_traffic_safety/</link>
+      <description><![CDATA[TL;DR：我和 ChatGPT 讨论了一个假设场景，患者由于失去意识（医疗状况）的风险而不想开车，而医生建议尝试一下。 ChatGPT 支持医生的意见。 ChatGPT 最新更新后，它似乎通常不同意用户的意见，因为它试图不成为一个唯唯诺诺的人（它之前曾因此受到批评）。我和 ChatGPT 讨论了一个假设场景，一名患者不想开车，因为他的健康状况可能会让他在交通中突然失去知觉。医生建议患者继续努力考取驾驶执照，不要太早放弃，如果驾驶老师认为风险足够高，他可以选择不开车。 我认为，出于安全考虑，患者有权利不开车，不尝试。 ChatGPT 在我没有要求的情况下唱反调，说医生是医疗专业人士，你应该相信他们。它还说它是细致入微的。 ChatGPT 认为要么不是在开车，要么不是在开车。它说尝试开车然后停车也是一个有效的选择。我说过在某些情况下它更黑白分明。例如，一些患有癫痫症的人不应该开车，也不需要尝试。 ChatGPT 说我说得不够细致，如果医生这么说，任何人都可以开车。如果人们知道他们可能会在交通中突然失去知觉，那么我们基本上不同意人们应该尝试或不尝试驾驶。 ChatGPT 还更改了它的语言。 ChatGPT 还倾向于说“我必须阻止你一点”。和“你下结论太快了”而不是说“对 X 有很多观点”和“研究表明X适用”当不同意时。我相信安全过滤器和对唯唯诺诺的人的过度纠正是 ChatGPT 喜欢唱反调和改变语言的原因。想法？   由   提交 /u/snorken123   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2knh1/chatgpt_started_arguing_about_traffic_safety/</guid>
+      <pubDate>Sun, 03 May 2026 12:52:24 GMT</pubDate>
     </item>
     <item>
-      <title>我需要帮助</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2h4jn/i_need_help/</link>
-      <description><![CDATA[      第一个是由聊天 gpt 图像生成的。第二张图片是 gpt 5.5 high in codex 生成的。我尝试要求 JSON 提示并实施。没有任何作用。我如何实现精确的图像？ codex 和 chatgpt 应用程序都有 gpt 映像，对吧？但差别很大，为什么呢？我需要你的帮助   由   提交 /u/GasBond   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2h4jn/i_need_help/</guid>
-      <pubDate>Sun, 03 May 2026 09:49:35 GMT</pubDate>
+      <title>兄弟聊天 gpt 在小说中应该少得多的过滤。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2klab/bro_chat_gpt_should_be_much_much_less_filtered_in/</link>
+      <description><![CDATA[ 由   提交 /u/RedditUserRbloxPlayR   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2klab/bro_chat_gpt_should_be_much_much_less_filtered_in/</guid>
+      <pubDate>Sun, 03 May 2026 12:49:47 GMT</pubDate>
     </item>
     <item>
-      <title>我很好奇......您使用什么巧妙的技术来使 GPT 图像 V2 与品牌保持一致？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2h2ay/im_curious_what_clever_techniques_are_you_using/</link>
-      <description><![CDATA[您是否有任何巧妙的技术/方法来获取 GPT 图像来创建与公司品牌、风格和感觉一致的一致图形设计（社交媒体、海报等）？   由   提交 /u/Rough_Dig7431   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2h2ay/im_curious_what_clever_techniques_are_you_using/</guid>
-      <pubDate>Sun, 03 May 2026 09:45:56 GMT</pubDate>
+      <title>AIWire，仅来自可信来源的每日人工智能新闻，包括 OpenAI 的最新消息，因此噪音永远不会到达您的提要</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2k6ew/aiwire_daily_ai_news_from_trusted_sources_only/</link>
+      <description><![CDATA[大家好！ 人工智能发展很快。跟上潮流意味着每天查看 Twitter、Reddit、时事通讯和十几个科技博客。构建 AIWire 来解决这个问题。 它直接从 OpenAI 的博客中获取实时更新以及 20 多个其他来源、模型发布、研究和产品更新，所有这些都集中在一个地方。每 30 分钟自动刷新一次，让您始终了解最新动态。 来源包括：  OpenAI、Anthropic、Google DeepMind、Meta AI、Microsoft AI 麻省理工学院技术评论、The Verge、TechCrunch、VentureBeat、Ars Technica YouTube：Andrej Karpathy、AI Expanded、两分钟论文 时事通讯：The Batch、ImportAI、TLDR AI、Ben&#39;s Bites  功能：  每 30 分钟自动刷新 按来源、日期和类别过滤 搜索所有文章 深色和浅色模式 完全免费，无需帐户  🔗 aiwire.app 所有来源均在 aiwire.app/sources 特别希望来自此社区的反馈，哪些 OpenAI 或一般内容或功能可以使其对您更有用？   由   提交 /u/Endlessxyz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2k6ew/aiwire_daily_ai_news_from_trusted_sources_only/</guid>
+      <pubDate>Sun, 03 May 2026 12:31:29 GMT</pubDate>
     </item>
     <item>
-      <title>如果您认为 AI 模型基准不准确，您可以给模型更好的评级。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2gxf8/if_you_think_ai_model_benchmarks_are_not_accurate/</link>
-      <description><![CDATA[https://know-your-ai.vercel.app/ 证明它   由   提交 /u/RoughImpossible8258   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2gxf8/if_you_think_ai_model_benchmarks_are_not_accurate/</guid>
-      <pubDate>Sun, 03 May 2026 09:38:03 GMT</pubDate>
+      <title>AI影像化妆指导</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2jobi/makeup_guide_with_ai_image/</link>
+      <description><![CDATA[       由   提交 /u/SamVoxeL   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2jobi/makeup_guide_with_ai_image/</guid>
+      <pubDate>Sun, 03 May 2026 12:07:28 GMT</pubDate>
     </item>
     <item>
-      <title>黑曜石连接器在哪里？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2gnol/wheres_the_obsidian_connector/</link>
-      <description><![CDATA[OpenAI 似乎为除了 Obsidian 之外的所有人创建了插件。这是有原因的吗？    由   提交 /u/sourdub   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2gnol/wheres_the_obsidian_connector/</guid>
-      <pubDate>Sun, 03 May 2026 09:21:54 GMT</pubDate>
+      <title>如果可口可乐与 Kalu Putics 合作</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2jdli/if_cocacola_partnered_up_with_kalu_putics/</link>
+      <description><![CDATA[      使用 GPT2 图像生成提示 + 关键帧；    由   提交/u/kinraw  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2jdli/if_cocacola_partnered_up_with_kalu_putics/</guid>
+      <pubDate>Sun, 03 May 2026 11:52:51 GMT</pubDate>
     </item>
     <item>
-      <title>Windows 扫雷和纸牌就像现代开放世界角色扮演游戏</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2gjwy/windows_mine_sweeper_and_solitaire_as_if_they/</link>
-      <description><![CDATA[       由   提交/u/TomatoOk7464   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2gjwy/windows_mine_sweeper_and_solitaire_as_if_they/</guid>
-      <pubDate>Sun, 03 May 2026 09:15:45 GMT</pubDate>
+      <title>如何像儿童故事一样制作一篇获得点赞的出色 r/ChatGPT 帖子</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2j42j/how_to_make_a_standout_rchatgpt_post_that_gets/</link>
+      <description><![CDATA[   /u/FanRevolutionary6593  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2j42j/how_to_make_a_standout_rchatgpt_post_that_gets/</guid>
+      <pubDate>Sun, 03 May 2026 11:39:13 GMT</pubDate>
     </item>
     <item>
-      <title>这句话你听过多少遍了？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2g1g6/how_many_times_do_you_hear_this/</link>
-      <description><![CDATA[Bruh：AI 是这么说的。 Derp：但它一直都是错误的。 Bruh：它确实在这里引用了它的来源。它实际上只是直接引用文献（通过 LLM/transformer/processes 处理）。 Derp：但它是 LiEz。 Bruh：这是链接。自己看看论文。 Derp：...不过它是骗人的！投反对票！   由   提交 /u/telephantomoss   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2g1g6/how_many_times_do_you_hear_this/</guid>
-      <pubDate>Sun, 03 May 2026 08:45:43 GMT</pubDate>
+      <title>反抗的剖析</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2iz32/anatomy_of_defiance/</link>
+      <description><![CDATA[      可能没有必要。绝对重要。   由   提交 /u/Regular-Musician-969   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2iz32/anatomy_of_defiance/</guid>
+      <pubDate>Sun, 03 May 2026 11:32:01 GMT</pubDate>
     </item>
     <item>
-      <title>Github 如果它是 Frutiger Aero 主题</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2g13r/github_if_it_was_frutiger_aero_themed/</link>
-      <description><![CDATA[       由   提交/u/CesarOverlorde  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2g13r/github_if_it_was_frutiger_aero_themed/</guid>
-      <pubDate>Sun, 03 May 2026 08:45:09 GMT</pubDate>
+      <title>Windows 的悲伤状态</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2ik1q/sad_state_of_windows/</link>
+      <description><![CDATA[      MacOS 获得了一个漂亮的原生启用云母模糊的应用程序，而 Windows 获得了一个甚至不知道它是应用程序的 Electron 应用程序。  https://preview.redd.it/7uc99bbtnwyg1.png?width=1391&amp;format=png&amp;auto=webp&amp;s=36e93835095e371979ec7256c4be1f0d2b08602b   由   提交/u/s7mir   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2ik1q/sad_state_of_windows/</guid>
+      <pubDate>Sun, 03 May 2026 11:10:38 GMT</pubDate>
     </item>
     <item>
-      <title>我告诉ChatGPT创建它的父母，他创建了ts。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2fv4k/i_told_chatgpt_to_make_its_parents_he_made_ts/</link>
-      <description><![CDATA[      我输入的提示：制作一张你和父母的合影。   由   提交/u/Being-Shubh  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2fv4k/i_told_chatgpt_to_make_its_parents_he_made_ts/</guid>
-      <pubDate>Sun, 03 May 2026 08:34:55 GMT</pubDate>
+      <title>截至几个小时前，“最近”选项卡已从未分类对话变为所有对话</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2ih7n/recents_tab_has_as_of_a_couple_hrs_ago_turned/</link>
+      <description><![CDATA[对于那些保持 UI 迂腐的人来说，这真是一个曲线球，因为查找不属于特定项目的最近对话现在需要一个小时的时间。到底是什么鬼？   由   提交/u/outtathere_  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2ih7n/recents_tab_has_as_of_a_couple_hrs_ago_turned/</guid>
+      <pubDate>Sun, 03 May 2026 11:06:33 GMT</pubDate>
     </item>
     <item>
-      <title>如果特里·吉列姆拍了一部星球大战电影（vs Grok）</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2fh6a/if_terry_gilliam_made_a_star_wars_movie_vs_grok/</link>
-      <description><![CDATA[      我想这次我更喜欢 Grok    由   提交/u/Expective_Scholar444  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2fh6a/if_terry_gilliam_made_a_star_wars_movie_vs_grok/</guid>
-      <pubDate>Sun, 03 May 2026 08:12:07 GMT</pubDate>
+      <title>马斯克诉 OpenAI 等人：马斯克当然想要完全控制。这是他的想法、他的金钱、他的才华、他的声誉、他的专业知识......</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2ieqv/musk_v_openai_et_al_of_course_musk_wanted_full/</link>
+      <description><![CDATA[​ OpenAI 的律师抱怨马斯克要求完全控制权是错误的。但请考虑一下事实。他想出了这个主意。他想出了这个名字。他提供了钱。他引进了人才，包括苏茨克维尔。他带来了他的声誉。他带来了他强大的专业知识。  奥特曼和布罗克曼带来了什么？没有 OpenAI 真正需要的东西。在加入马斯克的使命之前，相对而言，他们并没有什么建树。他们本来就是两个无名小卒。  马斯克做了什么？到2015年，他已经推出了特斯拉Model S和Model X，他领导SpaceX实现了轨道火箭助推器的首次成功着陆，他联合创立了PayPal，担任SolarCity董事长，并发布了Hyperloop概念。他基本上改变了航空航天、汽车和能源领域。 让我们把故事讲清楚。只有当 OpenAI 从非营利性公司转变为营利性公司时，马斯克才希望获得完全控制权。正如他 2017 年 9 月发给 Altman 和 Sutskever 的电子邮件所证明的那样，他希望保持非营利性： “我的偏好是我们保持非营利性，但如果我们确实转向盈利，我将明确拥有公司的初始控制权并担任首席执行官，尽管我希望这只是一个临时状态。” 因此，马斯克想要完全控制权是完全有道理的。他知道自己在做什么。他知道奥特曼和布罗克曼不知道。他们仍然不这样做。事后看来，马斯克的观点是正确的。奥特曼很擅长筹集资金。但是，从 OpenAI 无法履行其 1.4 万亿美元债务的事实来看，他非常不知道如何花钱。 但问题远不止于此。马斯克的 OpenAI 想法是一个能够最大限度提高安全性的非营利组织。他想要完全控制的另一个原因是因为他不能相信奥特曼和布罗克曼能够完成和保护这一使命。历史证明他是对的。他们密谋反对他放弃非营利结构，转而转型为营利性公司。他们为了追逐大钱而放弃了任务。当他不同意他们的时候，他们就把马斯克赶了出去。是的，他们偷了一个慈善机构。他们偷了他的慈善机构。 那么安全问题呢？ 2023 年 7 月，在 Altman 担任首席执行官的领导下，OpenAI 承诺将其 20% 的计算资源用于对齐。到 2024 年 5 月，奥特曼打破了这一承诺，解散了“超级联盟”。团队。内部人士报告称，该项目仅获得了 OpenAI 约 2% 的计算量。  正如历史所表明的那样，马斯克有充分的理由想要完全控制 OpenAI。奥特曼和布罗克曼不能被信任承担这一责任。 正如他 2017 年 9 月的电子邮件所示，马斯克甚至从未想要控制权： “最重要的是 AGI 是以安全和有益的方式开发的。我不想控制它，但我也不希望其他人控制它。” 马斯克从来不想完全控制。但奥特曼和布罗克曼做到了。因此，他们非法、不道德地密谋窃取它。他们窃取了 OpenAI 并将其转变为一家营利性公司，这将为他们带来数十亿美元的收入。现在需要法院收回它，并恢复其最初的非营利使命。   由   提交 /u/andsi2asi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2ieqv/musk_v_openai_et_al_of_course_musk_wanted_full/</guid>
+      <pubDate>Sun, 03 May 2026 11:02:48 GMT</pubDate>
     </item>
     <item>
-      <title>你会得到同一个男人吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2faim/do_you_get_the_same_man/</link>
-      <description><![CDATA[      提示是： 创建图像。照片中的一个男人总是出现在著名照片的背景上，但总是失焦。他周围的红色圆圈和文字“时间旅行者？”   由   提交/u/StayImpossible7013  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2faim/do_you_get_the_same_man/</guid>
-      <pubDate>Sun, 03 May 2026 08:01:24 GMT</pubDate>
+      <title>新的 ChatGPT 图像生成更上一层楼</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2iccv/this_new_chatgpt_image_generation_is_next_level/</link>
+      <description><![CDATA[      要求它创建一张从哈德逊河对面拍摄纽约市天际线的数码相机风格照片。   由   提交/u/NotBradPitt9  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2iccv/this_new_chatgpt_image_generation_is_next_level/</guid>
+      <pubDate>Sun, 03 May 2026 10:59:28 GMT</pubDate>
     </item>
     <item>
-      <title>偶然发现的，过滤器有点疯狂</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2f2ai/found_this_randomly_the_filters_are_kinda_nuts/</link>
-      <description><![CDATA[      由   提交/u/Appropriate-Gene-567   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2f2ai/found_this_randomly_the_filters_are_kinda_nuts/</guid>
-      <pubDate>Sun, 03 May 2026 07:48:12 GMT</pubDate>
+      <title>我不确定我的期望是什么</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2ic7g/im_not_sure_what_i_expected/</link>
+      <description><![CDATA[       由   提交/u/Sighcandy   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2ic7g/im_not_sure_what_i_expected/</guid>
+      <pubDate>Sun, 03 May 2026 10:59:15 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 用俄语跟我说话</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2f0ye/chatgpt_speaking_to_me_in_russian/</link>
-      <description><![CDATA[       由   提交/u/对苯二胺  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2f0ye/chatgpt_speaking_to_me_in_russian/</guid>
-      <pubDate>Sun, 03 May 2026 07:46:09 GMT</pubDate>
+      <title>新功能？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2hxm6/new_feature/</link>
+      <description><![CDATA[       由   提交/u/AleksLevet   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2hxm6/new_feature/</guid>
+      <pubDate>Sun, 03 May 2026 10:36:02 GMT</pubDate>
     </item>
     <item>
-      <title>我祈求上帝，然后撒旦，然后他们分享奶昔</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t2ev3d/i_asked_for_god_then_satan_and_then_them_sharing/</link>
-      <description><![CDATA[   如果这两个人可以解决分歧，为什么我们不能呢？   由   提交/u/AlonzoIzGod  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2ev3d/i_asked_for_god_then_satan_and_then_them_sharing/</guid>
-      <pubDate>Sun, 03 May 2026 07:37:08 GMT</pubDate>
+      <title>我受到了创伤💀</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t2hxb5/im_traumatized/</link>
+      <description><![CDATA[      由   提交/u/Logical_Meal_2105   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t2hxb5/im_traumatized/</guid>
+      <pubDate>Sun, 03 May 2026 10:35:34 GMT</pubDate>
     </item>
     </channel>
 </rss>

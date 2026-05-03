@@ -4,20 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sun, 03 May 2026 10:01:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 12:58:45 GMT</lastBuildDate>
     <item>
-      <title>Zanita Kraklëin - Les gens qui se LEB' JAMES (feat. Gargamlins)</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t2g8km/zanita_kraklëin_les_gens_qui_se_leb_james_feat/</link>
-      <description><![CDATA[ 由   提交/u/ovninoir  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t2g8km/zanita_kraklëin_les_gens_qui_se_leb_james_feat/</guid>
-      <pubDate>Sun, 03 May 2026 08:57:24 GMT</pubDate>
+      <title>终极法学硕士微调指南</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t2kqwu/the_ultimate_llm_finetuning_guide/</link>
+      <description><![CDATA[我正在寻找“现货”微调指南已经有一段时间了，但找不到。所以我想：我们自己写吧。  https://preview.redd.it/yfnq63ep6xyg1.jpg?width=1456&amp;format=pjpg&amp;auto=webp&amp;s=4c66c30db45b46a1c579612f6af9ab4acacdfcdf 它涵盖 Full-SFT 以及 LoRA 和 QLoRA。这是针对 NVIDIA 和单 GPU 的，但如果你们喜欢，我稍后也会添加多 GPU 训练、AMD 和预训练。 我描述了从安装正确的驱动程序和库、准备数据集到训练和最终 GGUF 创建的过程。 请享受并让我知道您的想法或我可以进一步改进的地方。 全文： https://www.promptinjection.net/p/the-ultimate-llm-ai-fine-tuning-guide-tutorial   由   提交/u/PromptInjection_  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t2kqwu/the_ultimate_llm_finetuning_guide/</guid>
+      <pubDate>Sun, 03 May 2026 12:56:30 GMT</pubDate>
     </item>
     <item>
-      <title>法学硕士现在是人们发现信息的主要方式，但网络上的大多数内容都是为了在谷歌上排名，而不是被人工智能引用。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t2g4yp/llms_are_now_a_primary_way_people_discover/</link>
-      <description><![CDATA[还有其他人在思考人工智能搜索时代的整个网络内容架构需要如何转变吗？ 好奇人们认为哪些信号实际上会影响法学硕士是否引用来源   由   提交/u/addllyAI   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t2g4yp/llms_are_now_a_primary_way_people_discover/</guid>
-      <pubDate>Sun, 03 May 2026 08:51:28 GMT</pubDate>
+      <title>4 个 cli cmd，您的 AI 比您更了解您的项目（开源）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t2j07t/4_cli_cmds_an_your_ai_knows_more_about_your/</link>
+      <description><![CDATA[npm install -g carto-md 4 个命令。这就是整个工具。 carto init &gt;生成一次AGENTS.md carto watch &gt;让每个会话保持活跃 carto 同步&gt;一次刷新 carto影响&lt;文件&gt; &gt;在你触摸它之前看看什么会破坏 人工智能理解代码的上下文层。它映射你的代码库每个文件保存 → AGENTS.md 在 300 毫秒内更新。 Codex 通过上下文规则自动读取它。 不再需要解释。 每次您打开任何 AI 工具时，它都不知道您的项目。你解释一下你的堆栈。你的路线。你的模型。但是有了 carto，你就不必这样做了。 我在 cal repo 上进行了压力测试，它有 80 万多行代码，是的，使用 carto，AI 上下文准确性为 100%，并节省了数千个代币 免费。麻省理工学院许可证   由   提交/u/aspecttop   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t2j07t/4_cli_cmds_an_your_ai_knows_more_about_your/</guid>
+      <pubDate>Sun, 03 May 2026 11:33:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>像 Glean 这样的企业搜索初创公司能否在 Claude Cowork/Copilot 式代理中生存下来？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t2ihou/will_enterprise_search_startups_like_glean/</link>
+      <description><![CDATA[我正在尝试思考企业人工智能工具的长期未来。 像 Glean 这样的公司围绕企业搜索、公司知识图、权限、连接器、引用和内部知识发现进行构建。但现在，像 Claude Cowork、Microsoft Copilot 和 Gemini 这样的工具正朝着跨文件、应用程序和工作环境“只要求代理来做工作”的方向发展。 所以我的问题是： 企业搜索/知识层初创公司是否仍然具有持久的作用，还是会被代理层吸收？ 我目前的直觉是，Glean 的独立应用程序体验可能会受到挤压，因为用户可能不想搜索在一种工具中工作，然后在另一种工具中工作。但也许 Glean 作为基础设施得以生存：一个中立的、具有许可意识的知识层，克劳德/副驾驶/双子座风格的代理可以调用​​它。 好奇其他人如何看待这一点。长期赢家是代理界面、企业知识基础，还是两者兼而有之？   由   提交/u/jannemansonh   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t2ihou/will_enterprise_search_startups_like_glean/</guid>
+      <pubDate>Sun, 03 May 2026 11:07:15 GMT</pubDate>
     </item>
     <item>
       <title>为什么人工智能模型在基准测试中进步很快，但仍然无法通过基本的现实世界可靠性测试？</title>
@@ -39,13 +46,6 @@
       <description><![CDATA[大家好， 我是 Kartikey，德里大学的四年级学生，目前正在为我的学术项目进行研究： “人工智能在营销中对印度 Z 世代消费者行为的影响” 我正在研究人工智能如何驱动营销（个性化广告、推荐、聊天机器人、有针对性的内容等）影响印度 Z 世代消费者的购买决策。 如果您是 Z 世代且居住在印度，如果您能花5-7 分钟填写这份调查问卷，我将不胜感激。 您的回答为何重要：将有助于了解人工智能如何塑造消费者行为，并为学术研究做出贡献，从而支持更有效、更容易理解的人工智能驱动的营销策略。  https://docs.google.com/forms/d/e/1FAIpQLScczOA5pPxFiaqMEX-lEbtOf-H5U_yR82qZyFNOUJBl1kcPxg/viewform?usp=header   由   提交/u/OrdinaryDry3358  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t2f3il/genz_in_india_need_5_mins_for_my_university/</guid>
       <pubDate>Sun, 03 May 2026 07:50:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>我一直在使用 emochi 但是</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t2eemr/ive_been_using_emochi_but/</link>
-      <description><![CDATA[在创建我的机器人时，我很匆忙，所以我从参考图像切换到上传复制粘贴提示的 pfp 现在所做的是创建一个无法加载且无法删除的故障机器人，并且 emochi 不允许更改头像，因此除了我之外没有人可以聊天   由   提交 /u/Best_Willingness7990   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t2eemr/ive_been_using_emochi_but/</guid>
-      <pubDate>Sun, 03 May 2026 07:11:17 GMT</pubDate>
     </item>
     <item>
       <title>[d] 我认为我的 scm + llm 代理架构从根本上被破坏了（可识别性问题）</title>
