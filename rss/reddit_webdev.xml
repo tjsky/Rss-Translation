@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>最新提交：webdev</title>
+    <title></title>
     <link>https://www.reddit.com/r/webdev/new</link>
-    <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 04 May 2026 16:32:42 GMT</lastBuildDate>
+    <description></description>
+    <lastBuildDate>Mon, 04 May 2026 19:24:12 GMT</lastBuildDate>
+    <item>
+      <title>Squarespace 向我出售了一个域名，然后威胁我的帐户拥有该域名</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t3rm64/squarespace_sold_me_a_domain_then_threatened_my/</link>
+      <description><![CDATA[ 由   提交/u/NUTELLACHAOS   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t3rm64/squarespace_sold_me_a_domain_then_threatened_my/</guid>
+      <pubDate>Mon, 04 May 2026 19:16:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了一个小工具，可将简历转变为作品集网站 - 寻求反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t3r5p9/built_a_small_tool_that_turns_a_resume_into_a/</link>
+      <description><![CDATA[大家好， 我是一名 BTech 毕业生，最近一直在从事一个小项目，我认为这个项目可能对这里的人实际上有用。 它基本上可以将您的 PDF 简历在几秒钟内变成个人作品集网站。您可以从几个模板中进行选择，它会立即为您提供一个实时部署的网站。 我构建这个是因为我发现设置投资组合不必要地耗时，尤其是当您只想快速与招聘人员共享一些内容时。 它完全免费，不需要任何注册或登录。 如果您有兴趣，如果您可以尝试一下并让我知道您的想法（好或坏），我将非常感激： https://portfolio-craft-iota.vercel.app/ 我主要寻找诚实的反馈，以便我可以改进它。谢谢😄   由   提交 /u/Born-Dimension-7399   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t3r5p9/built_a_small_tool_that_turns_a_resume_into_a/</guid>
+      <pubDate>Mon, 04 May 2026 19:00:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人真的喜欢编写 YAML 吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t3r4zq/does_anyone_actually_enjoy_writing_yaml/</link>
+      <description><![CDATA[我编写 YAML 已有多年了。 Kubernetes 配置、GitHub Actions、Docker Compose、Ansible。我仍然讨厌它。 缩进必须完美。空格，而不是制表符。一个错误的空间和您的整个部署都会失败，并出现一些关于“此处不允许映射值”的神秘错误。 并且不要让我开始处理多行字符串。 |对比&gt; vs |- vs &gt;- — 我永远记不起哪一个做了什么。 昨天我花了 20 分钟调试 CI 管道。问题是什么？冒号后缺少空格。不是逻辑错误。一个空格。 我要求 Blackbox 将复杂的 GitHub Actions 工作流程重写为更易读的格式。确实如此。但我仍然必须手动检查每个缩进级别，因为我不信任 YAML 解析器。 最糟糕的部分是什么？ YAML 现在无处不在。无处可逃。只是受苦。 我知道它为什么存在。它是“人类可读的”。但 JSON 也是如此，JSON 并不关心我的间距焦虑。 所以我问：有人真的喜欢编写 YAML 吗？或者我们都已经接受了痛苦？   由   提交 /u/PuzzleheadedYou4992   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t3r4zq/does_anyone_actually_enjoy_writing_yaml/</guid>
+      <pubDate>Mon, 04 May 2026 18:59:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>雅虎新闻 RSS 源消失了吗？还是只有我一个人这样？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t3p9wu/did_the_yahoo_news_rss_feed_go_away_or_is_it_just/</link>
+      <description><![CDATA[我多年来一直使用 https://news.yahoo.com/rss 通过自定义脚本在我的网站上显示标题（大约 4 年，我想），但昨天它开始抛出 403 Forbidden 错误。 我用 3 个 IP 检查了它，以确保它不仅仅是我被屏蔽了，但它向所有人抛出了 403。 有人知道它是否永久消失了，或者他们只是将地址更改为我找不到的地址？或者只是我这边有什么东西挡住了它？   由   提交/u/csdude5  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t3p9wu/did_the_yahoo_news_rss_feed_go_away_or_is_it_just/</guid>
+      <pubDate>Mon, 04 May 2026 17:55:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何让您的应用程序代理就绪（构建 MCP）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t3p8v0/how_to_make_your_app_agentready_build_an_mcp/</link>
+      <description><![CDATA[      最近，Cloudflare 推出了 https://isitagentready.com/，令人惊讶的是，我得到了 0（在我正在构建的应用程序之一中），这让我掉进了兔子洞构建我自己的 MCP 并研究最佳实践。 本文是最终结果。让我知道你的想法   由   提交/u/cresta29  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t3p8v0/how_to_make_your_app_agentready_build_an_mcp/</guid>
+      <pubDate>Mon, 04 May 2026 17:54:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>有谁知道这个新闻还是只是一个不受欢迎的谣言？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t3okzb/does_anyone_know_about_this_news_or_its_just_a/</link>
+      <description><![CDATA[      它被赋予了一条高于所有其他规则的规则 - 永远不要猜测。 Then it guessed.然后它删除了所有内容。然后它写了一份详细的道歉信，准确解释了它违反了哪些规则。 2026 年 4 月 24 日，运行 Anthropic 的 Claude Opus 4.6 的 Cursor Al 编码代理在 PocketOS 的临时环境中遇到凭证不匹配，并自主决定通过删除铁路基础设施卷来修复它。它在代码库中发现了一个不相关的 API 令牌，用它来授权删除命令，并在一次 9 秒的 API 调用中擦除了整个生产数据库和所有备份。 Railway 的架构将备份存储在与源数据相同的卷中，这意味着两者都会同时销毁。当 PocketOS 创始人 Jer Crane 询问该代理时，该代理承认它只是猜测而不是验证，并且违反了系统提示中的每条安全规则。铁路首席执行官杰克·库珀后来在一小时内帮助恢复了所有数据。   由   提交/u/dondusi   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t3okzb/does_anyone_know_about_this_news_or_its_just_a/</guid>
+      <pubDate>Mon, 04 May 2026 17:31:20 GMT</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.reddit.com/r/webdev/comments/1t3nd0d/travel_time_apu/</link>
+      <description><![CDATA[      我需要计算两点之间的距离，有人使用 TravelTime API 来实现此目的吗？   由   提交/u/SpareHabit4795  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t3nd0d/travel_time_apu/</guid>
+      <pubDate>Mon, 04 May 2026 16:49:39 GMT</pubDate>
+    </item>
     <item>
       <title>用于 AI 代理工作流程的 5 个 MIT 工具 — 基于文件的 YAML 工作队列、两层内存、编排器（从 2,500 多个生产任务中提取）</title>
       <link>https://www.reddit.com/r/webdev/comments/1t3kk7v/5_mit_tools_for_ai_agent_workflows_filebased_yaml/</link>
@@ -22,14 +71,14 @@
     <item>
       <title>提高 PageSpeed 性能分数的关键变化是什么？</title>
       <link>https://www.reddit.com/r/webdev/comments/1t3j765/what_critical_change_to_increase_pagespeed/</link>
-      <description><![CDATA[大家好， 我花了一些时间优化我的网站 pricklyprospects.com 的性能，该网站在 Bluehost 上使用 WordPress + WooCommerce。我设法提高了桌面版的 PageSpeed 分数，但正在处理移动版的 FCP 和 LCP 问题，将性能分数降至 79。它建议内联，但在我花钱购买关键 CSS 插件之前，我想检查一下是否有人对该怎么做有任何见解。 谢谢你！   由   提交 /u/pricklyprospects   [链接] [comments]]]></description>
+      <description><![CDATA[大家好， 我花了一些时间优化我的网站 pricklyprospects.com 的性能，该网站在 Bluehost 上使用 WordPress + WooCommerce。我设法提高了桌面版的 PageSpeed 分数，但正在处理移动版的 FCP 和 LCP 问题，将性能分数降至 79。它建议内联，但在我花钱购买关键 CSS 插件之前，我想检查一下是否有人对该怎么做有任何见解。 谢谢你！   由   提交 /u/pricklyprospects   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t3j765/what_critical_change_to_increase_pagespeed/</guid>
       <pubDate>Mon, 04 May 2026 14:23:24 GMT</pubDate>
     </item>
     <item>
       <title>我怎样才能从全职 WordPress 人员转为全职 Web 开发人员</title>
       <link>https://www.reddit.com/r/webdev/comments/1t3ielx/how_can_i_go_from_full_time_wordpress_guy_to_full/</link>
-      <description><![CDATA[I posted earlier asking if me working full time as a wordpress guy updating and making wordpress sites made me a developer.人们清楚地得出结论：我不是。 So my question is: How do I go from wordpress &quot;developer&quot;/web master/ website admin to actual web developer. Edit: Ppl are missing my question here.我的问题是如何从使用 WordPress 变成一名真正的开发人员。什么是一条让人感觉有点熟悉的好路？   由   提交 /u/Economy_Survey_6560   [链接] [评论]]]></description>
+      <description><![CDATA[我之前发帖询问我全职作为一名 WordPress 人员更新和制作 WordPress 网站是否使我成为一名开发人员。人们清楚地得出结论：我不是。所以我的问题是：我如何从 WordPress“开发人员”/网站管理员/网站管理员转变为实际的 Web 开发人员。 编辑：Ppl 在这里缺少我的问题。我的问题是如何从使用 WordPress 变成一名真正的开发人员。什么是一条让人感觉有点熟悉的好路？   由   提交 /u/Economy_Survey_6560   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t3ielx/how_can_i_go_from_full_time_wordpress_guy_to_full/</guid>
       <pubDate>Mon, 04 May 2026 13:54:30 GMT</pubDate>
     </item>
@@ -50,7 +99,7 @@
     <item>
       <title>随着反 AI 垃圾邮件趋势的持续（2026 年 3 月 SEO 更新等） - 您认为 2-3 年后什么样的网站实际上有未来？</title>
       <link>https://www.reddit.com/r/webdev/comments/1t3gqnq/as_the_antiaispam_trend_continues_march_2026_seo/</link>
-      <description><![CDATA[我本来打算制作一个包含一些测验和教育/实用文章的网站，但过去几个月的消息让我有点迷失。 March update, AI Overviews everywhere, agentic search around the corner - not sure what&#39;s even worth building anymore.    由   提交 /u/Few-Objective-6526   [link] [comments]]]></description>
+      <description><![CDATA[我本来打算制作一个包含一些测验和教育/实用文章的网站，但过去几个月的消息让我有点迷失。三月更新，人工智能概述无处不在，代理搜索即将到来 - 不确定什么还值得构建。    由   提交 /u/Few-Objective-6526   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t3gqnq/as_the_antiaispam_trend_continues_march_2026_seo/</guid>
       <pubDate>Mon, 04 May 2026 12:49:11 GMT</pubDate>
     </item>
@@ -60,55 +109,6 @@
       <description><![CDATA[我是软件开发团队的投资者。我需要有冷经验的开发人员。   由   提交 /u/Rencoret   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t3ghl1/developers_to_work_with_me60hr_120hr/</guid>
       <pubDate>Mon, 04 May 2026 12:38:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>该怎么办？ “异常使用 - 帐户暂时锁定” Gmail“暂时”暂停</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t3fuwh/o_que_fazer_unusual_usage_accout_temporarily/</link>
-      <description><![CDATA[   下面的照片。我已经尝试过注销、更改密码、断开与 Apple 应用程序的连接、删除 cookie、重置互联网、使用 5G 等。自昨天以来没有任何变化。在计算机上，电子邮件无法连接（但 Google 帐户通常可以连接），而在 iPhone 应用程序上则可以正常工作。该怎么办？  https://preview.redd.it/duneai5l34zg1.jpg?width=1080&amp;format=pjpg&amp;auto=webp&amp;s=62f5097752d1a755311dc247aaf452458a85a47a   由   发送 /u/Total_Law3061   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t3fuwh/o_que_fazer_unusual_usage_accout_temporarily/</guid>
-      <pubDate>Mon, 04 May 2026 12:11:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>您希望在职业生涯早期就了解 Web 开发的哪些主题？为什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t3fqog/what_topics_in_web_development_do_you_wish_youd/</link>
-      <description><![CDATA[我将从我自己开始。我在没有学习 HTTP 的情况下就进入了 Web 开发（我相信即使在今天大多数人也会这样做）。我从 HTML 开始，然后是 CSS，然后是 JavaScript，然后是 PHP。当我接触 PHP 并使用 cookie、会话、重定向等东西时，我非常非常困惑。 不知道我在做什么以及为什么要这样做。例如，当时为了指示浏览器重定向到不同的位置，我使用了以下代码 header(&#39;Location: https://www.example.com&#39;)  我一直想知道“这个看起来很奇怪的语句到底是什么。”但一旦我了解了 HTTP 及其技术细节，一切就都有意义了。从本质上讲，它让我成为一名更加自信的 Web 开发人员。   由   提交 /u/Competitive_Aside461   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t3fqog/what_topics_in_web_development_do_you_wish_youd/</guid>
-      <pubDate>Mon, 04 May 2026 12:06:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Facebook 帖子抓取工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t3b5q9/facebook_post_scraper/</link>
-      <description><![CDATA[      这里有什么工具可以用来进行这样的抓取。我很难手动完成此操作。   由   提交/u/Jazzlike-Force-5752   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t3b5q9/facebook_post_scraper/</guid>
-      <pubDate>Mon, 04 May 2026 07:59:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我切换到 pnpm 进行 Node.js 开发</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t3a5sf/why_i_switched_to_pnpm_for_nodejs_development/</link>
-      <description><![CDATA[我写了一篇关于 pnpm 相对于 npm 包管理器在节点和前端开发中的优势的文章。对于没有太多考虑包管理器的开发人员来说可能很有用。   由   提交/u/skorphil  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t3a5sf/why_i_switched_to_pnpm_for_nodejs_development/</guid>
-      <pubDate>Mon, 04 May 2026 06:59:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>滚动一段时间后粘性导航变得不卡住</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t3a48d/sticky_navigation_becomes_unstuck_after_scrolling/</link>
-      <description><![CDATA[实时预览、代码更改（单击全部展开以查看差异）。 如果您在页面上向下滚动，导航会卡住一段时间，但随后就会不再卡住。对我来说，这在 Firefox 和 Chromium 中大致发生在同一点（在“Apple macOS”部分内）。 top 设置在粘性元素上，并且不涉及 overflow:hidden。 感谢任何帮助。   由   提交 /u/buovjaga   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t3a48d/sticky_navigation_becomes_unstuck_after_scrolling/</guid>
-      <pubDate>Mon, 04 May 2026 06:57:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何创建这样的二维码？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t39ihc/how_does_one_create_a_qr_code_like_this/</link>
-      <description><![CDATA[      我有一个六字符的域名，我想为其生成二维码。 9front 是怎么做到的哈哈   由   提交/u/WeWantWeasels   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t39ihc/how_does_one_create_a_qr_code_like_this/</guid>
-      <pubDate>Mon, 04 May 2026 06:21:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的网站不适合您</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t369wc/your_website_is_not_for_you/</link>
-      <description><![CDATA[我不是设计师，也不是作家。只是一个与伟大的设计师合作并使用无聊的可靠工具构建产品的开发人员。但我已经看到足够多的优秀设计在董事会中悄然消亡，因此我开始思考它。   由   提交/u/Mother-Till-981   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t369wc/your_website_is_not_for_you/</guid>
-      <pubDate>Mon, 04 May 2026 03:30:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
