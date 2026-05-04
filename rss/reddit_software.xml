@@ -4,13 +4,48 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Mon, 04 May 2026 19:23:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 21:56:55 GMT</lastBuildDate>
     <item>
-      <title>CHATARV.com VS ARVStack.com</title>
-      <link>https://www.reddit.com/r/software/comments/1t3rpn6/chatarvcom_vs_arvstackcom/</link>
-      <description><![CDATA[ 由   提交 /u/OrderEuphoric1820   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t3rpn6/chatarvcom_vs_arvstackcom/</guid>
-      <pubDate>Mon, 04 May 2026 19:19:40 GMT</pubDate>
+      <title>音频转换</title>
+      <link>https://www.reddit.com/r/software/comments/1t3vwgy/audio_conversion/</link>
+      <description><![CDATA[大家好，我有一些 MP4 (iTunes) 音乐文件夹需要转换为 mp3，但我遇到了一些问题。我尝试了 fre:ac，当我拖放时，没有任何反应。就好像它根本不认识他们一样。媒体人也是一样。我不介意为该应用程序付费，因为我可能会再次使用它，但让它工作将是一个额外的奖励，哈哈。这些是我桌面上的本地文件，因此希望远离在线转换内容。 有什么想法吗？   由   提交/u/flemgunner   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t3vwgy/audio_conversion/</guid>
+      <pubDate>Mon, 04 May 2026 21:49:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>今天花了一个小时试图告诉客户他们的“人工智能问题”实际上与人工智能无关。</title>
+      <link>https://www.reddit.com/r/software/comments/1t3vjen/spent_an_hour_today_trying_to_tell_a_client_their/</link>
+      <description><![CDATA[八个月后，预算支出不错，工具在纸面上运行良好。团队打开它，浏览了几分钟，然后立即返回收件箱进行工作。 整个会议不断回到模型上。是否足够聪明。我们应该重新训练它吗？也许不同的供应商会更好。在产品被购买之前，没有人坐下来看看这个团队实际上是如何完成工作的。现在，一个完美的软件坐落在一个从未围绕它构建的进程旁边，整个房间都在想为什么没有人登录。 我认为它没有任何登陆。他们已经安排下周与供应商通话，询问新功能。   由   提交 /u/SuggestionBetter8299   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t3vjen/spent_an_hour_today_trying_to_tell_a_client_their/</guid>
+      <pubDate>Mon, 04 May 2026 21:35:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>out-of-code-insights 现已开源 - VSCode 扩展</title>
+      <link>https://www.reddit.com/r/software/comments/1t3vbsv/outofcodeinsights_is_now_open_source_vscode/</link>
+      <description><![CDATA[正如对一些人的承诺，out-of-code-insights 现已开源。 GitHub： https://github.com/JacquesGariepy/out-of-code-insights 这花费了更长的时间符合预期。 我希望该项目足够干净以便于共享，但又不会永远陷入过度思考之中。在某些时候，您必须发布，让项目呼吸，并接受它会随着用户的发展而发展。 所以就这样了。 out-of-code-insights 是一个 VS Code 扩展，可让您直接在编辑器内添加注释、注释、注释、审阅轨迹和观察结果，而无需修改源文件。 代码保持干净。 上下文保持可见。 技术决策不会消失Slack、外部文档或团队的大致记忆。 这个想法很简单： 将代码与我们需要在代码周围说的所有内容分开。 具体来说，该扩展可以让您： • 向任何文件类型添加非侵入式注释 • 在专用 VS Code 面板中管理注释 • 在注释和相关行之间快速导航代码 • 跨多个文件链接注释以跟踪技术关系 • 作为线索讨论回复注释 • 使用模板标准化代码审查、TODO、错误、重构注释、性能问题、安全问题和文档工作 • 按严重性对注释进行分类：信息、警告和错误 • 搜索、过滤和排序注释 • 启动带有导航、过滤器的审查模式和进度跟踪 • 在具有可自定义列的看板中组织注释 • 将代码片段附加到注释，预览并应用它们 • 以 JSON 格式导出和导入注释以进行共享或备份 • 与多个提供程序一起使用可选的 AI 辅助功能 可在 VS Code Marketplace 上获取： https://marketplace.visualstudio.com/items?itemName=JacquesGariepy.out-of-code-insights 一个数字让我感到惊讶。 自推出以来，该扩展在其不同发行版中的累计安装量已达到近 2,000 次来源。 我几乎没有公开谈论过它。 这不是一个策略。我只是默默地构建。营销从来都不是我最喜欢的运动。 因此，对于所有在我没有真正推广它的情况下发现它、安装它、测试它或使用它的人：谢谢你们。 我现在正在寻找人员来帮助维护和发展存储库。 你不需要成为一个专家。 如果您使用该扩展，有改进的想法，想要寻找错误，想要为真正的开源 VS Code 扩展做出贡献，或者只是想阅读实用的 TypeScript 代码以了解这种工具的内部工作原理，该项目是开放的。 问题是开放的。 欢迎 PR。 欢迎提供反馈。 许可证：MPL-2.0。   由   提交 /u/Outrageous-Pea9611   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t3vbsv/outofcodeinsights_is_now_open_source_vscode/</guid>
+      <pubDate>Mon, 04 May 2026 21:27:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>帮我找到这个开源服务器软件</title>
+      <link>https://www.reddit.com/r/software/comments/1t3uo5y/help_me_find_this_open_source_server_software/</link>
+      <description><![CDATA[几年前，我看到一个 Youtube 视频，其中一个人演示了他编写的服务器软件。我记得它是用 Python 编写的，基本只有大约 50 行代码。 但它可以做很多事情，有一个内置的音乐播放器和 ie。您可以编辑音乐文件的元数据。据我所知，没有 GUI，如果有一种 GUI，那就是 ASCII-gfx。 我特别记得这个人说他在上下班的智能手机上编写了该软件。该视频非常中肯地说明了系统的能力，并具有良好的幽默感，我认为他是挪威人。显然，这个挪威人也是大约 30 秒的动漫剪辑背后的人，该剪辑在服务器软件推出之前 10 年前就在网上疯传。 请随意删除这篇文章，但我真的很想得到这个服务器软件。  感谢您的宝贵时间。   由   提交/u/No_Smile_8368  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t3uo5y/help_me_find_this_open_source_server_software/</guid>
+      <pubDate>Mon, 04 May 2026 21:03:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>请帮忙 - 学习为食品加工机制作小型安全停止按钮的最简单的 Windows 软件？我不是工程师，也没做过CAD。如果我把文件给我，有人会打印出来，但我在网上找不到。</title>
+      <link>https://www.reddit.com/r/software/comments/1t3sdro/please_help_easiest_windows_software_to_learn_to/</link>
+      <description><![CDATA[ 由   提交 /u/weigelf   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t3sdro/please_help_easiest_windows_software_to_learn_to/</guid>
+      <pubDate>Mon, 04 May 2026 19:43:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Asyar 的 Beta 版本可供测试。 Raycast 替代方案、开源、本地优先、跨平台</title>
+      <link>https://www.reddit.com/r/software/comments/1t3rzd7/beta_release_of_asyar_is_available_for_testing_a/</link>
+      <description><![CDATA[您好， 我已经研究 Raycast 替代方案一年多了，现在 Beta 版本可供测试。  https://preview.redd.it/5p2fq4gx86zg1.png?width=1676&amp;format=png&amp;auto=webp&amp;s=bb368b91f601cb46a2add7fa5178b9ca5c64fd24 Asyar 提供的当前功能包括。   剪贴板历史记录 应用程序启动器 代码段 门户（相当于 Raycast 中的 quiclink） 快捷方式和别名 计算器 窗口管理 Ai 聊天 创建自己的扩展 用于发布和安装的商店扩展和主题 创建自定义主题 本地备份和恢复 深度链接集成 后台调度  Asyar 是可扩展的，这意味着任何人都可以使用启动器服务和 Windows 服务使用超过 25 个 api 和服务创建自己的扩展。 启动器在 x11 的 Windows 和 Linux 发行版上的 ui 处于测试阶段（不支持 Wayland）与 Macos 版本相比尚未得到充分完善，这是一项正在进行的工作，非常欢迎有关错误修复和完善 Windows 版本的任何贡献。 屏幕截图是在 Macos 上捕获的，因此 Windows 版本略有不同。 非常欢迎任何反馈和错误报告或任何贡献。 链接在评论中。   由   提交 /u/TauriArtisan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t3rzd7/beta_release_of_asyar_is_available_for_testing_a/</guid>
+      <pubDate>Mon, 04 May 2026 19:28:59 GMT</pubDate>
     </item>
     <item>
       <title>关于数字的愚蠢问题</title>
@@ -74,41 +109,6 @@
       <description><![CDATA[大家好， 我需要帮助，因为工作，我总是在 PDF 上看到发票，但这些 PDF 不是下载到计算机上的，我只是在 Chrome/Edge 上阅读它们。 有一个 Chrome 扩展，名称为“突出显示此！”它会自动突出显示发票中的一些单词（如果有的话）。但是在 Chrome/Edge 上的此 PDF 上不起作用，所以我的问题是，我想打开我的 pdf，它会自动突出显示我选择的一些关键字，我该怎么做？谢谢..   由   提交 /u/TodayNeither5366   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1t3mdbx/software_that_highlight_text/</guid>
       <pubDate>Mon, 04 May 2026 16:15:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>随着人工智能的兴起，获得计算机科学学位仍然值得吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1t3j841/with_the_rise_of_ai_is_it_still_worth_it_to_get_a/</link>
-      <description><![CDATA[ 由   提交 /u/Hairy_Drummer2329   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t3j841/with_the_rise_of_ai_is_it_still_worth_it_to_get_a/</guid>
-      <pubDate>Mon, 04 May 2026 14:24:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 MacOS 上永久解锁 PDF。单击右键。</title>
-      <link>https://www.reddit.com/r/software/comments/1t3iw9s/unlock_pdfs_on_macos_permanently_with_a_right/</link>
-      <description><![CDATA[厌倦了输入 PDF 密码。每一次。因此构建了一个易于安装的实用程序来永久解锁 PDF。 开源。自由的。离线。 30秒安装：vipulgupta2048/unlock-pdf-mac  https://preview.redd.it/2sp4gqazo4zg1.png?width=588&amp;format=png&amp;auto=webp&amp;s=8333b1866027addf6005caae9fb0c8fe619e89a8   由   提交 /u/hammerdown000   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t3iw9s/unlock_pdfs_on_macos_permanently_with_a_right/</guid>
-      <pubDate>Mon, 04 May 2026 14:12:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何跟踪保存链接的原因？</title>
-      <link>https://www.reddit.com/r/software/comments/1t3i9dy/how_do_you_keep_track_of_why_you_saved_a_link/</link>
-      <description><![CDATA[真正的问题 - 你如何处理这个？ 我在研究时保存了很多链接（开发内容、设计、随机想法），但几周后它们都开始模糊在一起。我会打开一个书签并想：我为什么要保存这个？ 我尝试过：  浏览器书签 概念数据库 几个 Chrome 扩展  但它们最终都一样......只是一堆没有上下文的链接。 好奇这里是否有人拥有一个真正有效的系统长期？   由   提交 /u/Top-Distribution1552   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t3i9dy/how_do_you_keep_track_of_why_you_saved_a_link/</guid>
-      <pubDate>Mon, 04 May 2026 13:48:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>IDM - TS 文件并获取随机伪像/故障/像素化部分，如何修复或直接获取 MP4？</title>
-      <link>https://www.reddit.com/r/software/comments/1t3h3ic/idm_ts_files_and_gets_random_artifacts_glitches/</link>
-      <description><![CDATA[所以有些视频只能以 TS 文件形式提供，而不是以 MP4 形式提供。  我可以手动重新混合它们，但问题是，作为 TS 下载的视频有一些随机伪像，例如它出现故障/视频的某些部分随机像素化几秒钟，这种情况在整个视频中多次传播。  即使我手动将其重新混合为 MP4，它仍然具有这些伪影。 同样，我不介意使用 Avidemux 手动重新混合，我只需要消除随机伪影即可。有办法解决这个问题吗？   由   提交/u/adiktusss  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t3h3ic/idm_ts_files_and_gets_random_artifacts_glitches/</guid>
-      <pubDate>Mon, 04 May 2026 13:03:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>这突然出现在我的工作计算机上。无论我按多少次“不允许”，它都会在 10 秒后再次弹出。有什么办法让它停下来吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1t3gsem/this_showed_up_on_my_work_computer_out_of_nowhere/</link>
-      <description><![CDATA[ 由   提交/u/Fluid-Gain1206   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t3gsem/this_showed_up_on_my_work_computer_out_of_nowhere/</guid>
-      <pubDate>Mon, 04 May 2026 12:51:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
