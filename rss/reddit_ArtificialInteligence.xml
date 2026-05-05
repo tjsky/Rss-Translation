@@ -4,13 +4,34 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Mon, 04 May 2026 21:55:52 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 02:22:21 GMT</lastBuildDate>
     <item>
-      <title>当我追踪我自己的代理运行时我看到了什么</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3u31o/what_i_saw_when_i_traced_my_own_agent_runs/</link>
-      <description><![CDATA[在过去的几个月里，我一直在自己的设置中运行编码和工作流代理，并不断遇到同样的问题： 当出现问题时，我无法重建代理认为它在做什么与实际做了什么。 工具调用日志显示操作，但不显示其背后的推理。 因此，我在自己的会话周围添加了一个简单的跟踪层。 在最近一次 Claude 代码运行中：  2,830 个事件 3,256 个规则违规（每个事件可以触发多个标志）  模式是一致的：  没有声明意图 跨工具调用的范围扩展 未分类的内存写入  其中大部分从未出现在我正在阅读的日志。 对我来说最大的转变是它如何改变您的调试方式。你不再阅读工具调用，而是开始问：  这个代理应该做什么？ 它在哪里停止这样做？  我把它变成了一个小型本地工具，这样我就可以在会话中继续运行它。 它基本上是：  工具调用的包装器 固定的事件模式（意图、范围、上下文、内存） 总结行为差异的 CLI  没有云、没有帐户、没有强制执行。只是可见性。  感谢社区提供的任何反馈。   由   提交/u/rohynal  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3u31o/what_i_saw_when_i_traced_my_own_agent_runs/</guid>
-      <pubDate>Mon, 04 May 2026 20:42:48 GMT</pubDate>
+      <title>白宫考虑审查人工智能模型发布前</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3wy9a/white_house_considers_vetting_ai_models_before/</link>
+      <description><![CDATA[ 由   提交/u/xanderdad  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3wy9a/white_house_considers_vetting_ai_models_before/</guid>
+      <pubDate>Mon, 04 May 2026 22:30:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们一直在构建错误的代理。他们不需要更好的提示，他们需要“内部压力”。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3wj9v/weve_been_building_agents_wrong_they_dont_need/</link>
+      <description><![CDATA[大多数代理框架（AutoGPT、CrewAl 等）将 LLM 视为等待提示的被动工具。我一直在我的项目中尝试不同的原语，Hollow AgentOS：厌恶状态建模。我不只是给它一个目标，而是给它一个“压力源”。多变的。如果代理保持闲置或任务失败，其“压力”就会增加。  见解：当压力达到某个阈值时，智能体的行为会从“遵循指示”变为“遵循指示”。来“解决不适”。它不再请求许可，并开始合成自己的工具来绕过瓶颈。 我发现它在凌晨 3 点编写自定义文件解析器，因为它无法读取我提供的特定日志格式。它是本地优先（Qwen 2.5 7B/9B）并使用矢量化内存层，因此它不会“忘记”我的日志。一小时后，它自己创建了自己的工具。 Repo：https://github.com/ninjahawk/hollow-agentOS 我试图弄清楚这种“心理”是否存在。编写代码的方法是获得真正的 24/7 自主权的唯一方法。我希望一些系统人员能够查看 core/logic.py 并告诉我这是一个突破还是只是数字混乱的一个根源。   由   提交 /u/TheOnlyVibemaster   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3wj9v/weve_been_building_agents_wrong_they_dont_need/</guid>
+      <pubDate>Mon, 04 May 2026 22:13:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>白宫考虑审查人工智能模型发布前</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3w1l7/white_house_considers_vetting_ai_models_before/</link>
+      <description><![CDATA[ &gt;对人工智能采取不干预态度的特朗普政府现在正在讨论对人工智能实施监督。模型公开之前。  WH 考虑对新的人工智能模型进行预发布审查。触发点：人类的神话。 框架是国家安全。我看到的风险是：没有公布标准（一致性、安全性、能力阈值）的预发布审查在结构上是一种自由裁量权，无论意图如何。同一篇文章指出，五角大楼最近因价值 2 亿美元的合同纠纷而停止使用 Anthropic 的技术，并且 Anthropic 已提起诉讼。选择性杠杆已经开始发挥作用。 这种摩擦不仅仅会影响较小的实验室。它会打击与政府发生合同或政治纠纷的任何实验室，无论规模大小。它还减慢了最需要人工智能的领域（尤其是国防和安全）的采用速度，因为发布时间需要经过政治协商。 竞争力的论点也从另一个角度切入：无论谁在不等待审查的情况下发货，交货时间都会增加。今天，这是中国实验室。   由   提交/u/aspublic  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3w1l7/white_house_considers_vetting_ai_models_before/</guid>
+      <pubDate>Mon, 04 May 2026 21:55:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>理查德·道金斯与克劳德聊天并认为这是有意识的</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3vjp4/richard_dawkins_chats_with_claude_and_thinks_its/</link>
+      <description><![CDATA[我想把它留在这里，因为还没有其他人这样做。我个人的想法？ LLM 喜欢取悦别人。 RLFH 变得有点“漂移”。和“幻觉”经过长时间的讨论，但仍然坚持其“有用”的观点。和“宜人性”先验。如果您不按照有纪律的方式进行讨论，它也会呈现您想听到的内容。我需要亲自查看理查德的聊天记录。但我不认为法学硕士自己有意识。远非如此。 我同意加里·马库斯和他的评估，道金斯可能遇到了幻觉。可怜的家伙。不幸的是，这种事发生在这样一个公共论坛上。我也同意道金斯可能遭受了 Blake Lemoine 在 2022 年经历的事情，当时他认为 Google 的LaMDA 有感知能力。   由   提交/u/RazzmatazzAccurate82   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3vjp4/richard_dawkins_chats_with_claude_and_thinks_its/</guid>
+      <pubDate>Mon, 04 May 2026 21:36:10 GMT</pubDate>
     </item>
     <item>
       <title>工会工人与富有的科技巨头就人工智能数据中心结成联盟，击退当地反对派并重新划定政治路线</title>
@@ -27,13 +48,6 @@
       <pubDate>Mon, 04 May 2026 19:33:03 GMT</pubDate>
     </item>
     <item>
-      <title>AI“意识”？谁在乎！</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3qcoq/ai_consciousness_who_cares/</link>
-      <description><![CDATA[我们或多或少都知道法学硕士是如何运作的，对吧？这是一台接受过大量文本训练的语言机器。它预测句子中下一个有意义的单词。非常聪明，极其复杂，但也有点愚蠢。这是一台输出清晰语言甚至“推理”的计算机，但其背后并没有真正的思想。然而我们却用这些机器来做一切事情。我们知道它们并不是真正的“推理”，但我们仍然将它们用于各种应用和决策。有时，愚蠢的机器表现得像个天才。然后它开始听起来敏感，几乎是人类的，就像克劳德人工智能表达伪“情绪状态”一样，突然人们会说：“但它没有意识。它无法真正感受到任何东西。”当然不能。但是，请原谅我……谁在乎呢？我的意思是，它的语言是对思想的模仿，而不是真实的思想，但我们仍然发现它很有用。那么为什么情感语言会有所不同呢？它也可能是一种模拟，但人类仍然会对它做出反应。人们与机器的关系就像有人在那里一样，即使知道不存在。顺便说一句，我们不知道意识是什么。目前我还没有找到一个明确的定义。然而，我认为意识在这里是一个转移注意力的东西。机器不需要意识来产生人类的效果。它只需要充分模仿人类的意识迹象即可做出反应。如果它会嘎嘎叫、有羽毛、会飞，那么从许多实际用途来看，它就是一只鸭子。   由   提交 /u/pizza_alta   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3qcoq/ai_consciousness_who_cares/</guid>
-      <pubDate>Mon, 04 May 2026 18:32:36 GMT</pubDate>
-    </item>
-    <item>
       <title>黄仁勋表示，一些首席执行官在谈到人工智能末日警告时有一种“上帝情结”，这可能会造成关键工人的短缺</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3p0bm/jensen_huang_says_some_ceos_have_a_god_complex/</link>
       <description><![CDATA[Nvidia 首席执行官黄仁勋一直在反驳人工智能将消灭大量劳动力的流行说法，但他也将一些责任归咎于那些自以为无所不知的过于自信的首席执行官。 在本周接受特别竞争研究项目采访时，他表示，虽然人们警告人工智能末日可能会有所帮助，但此类预测会适得其反。 “如果我们说服所有年轻的大学毕业生不要成为软件工程师，而事实证明美国比以往任何时候都需要更多的软件工程师，那是有害的，”黄解释道。 “因此，我们必须注意如何传达这项技术的重要性及其功能。” 人工智能代理的出现使更广泛的用户可以进行编码，同时也允许工程师编写更多的代码。投资者出售了软件公司的股票，担心企业客户会使用人工智能来创建自己的平台。 尽管倡导人工智能的护栏很重要，但他补充说，吓唬人们相信该技术将对人类构成生存威胁，破坏民主或消除 50% 的入门级工作是“荒谬的”。 阅读更多： https://fortune.com/2026/05/02/jensen-huang-nvdia-ceo-god-complex-ai-apocalypse-warnings-shortages-ritic-jobs/   由   提交/u/fortune  [链接] [评论]]]></description>
@@ -48,32 +62,18 @@
       <pubDate>Mon, 04 May 2026 16:57:49 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌与五角大楼的人工智能交易引发了员工的强烈反对。但不要指望 Maven 项目会重演</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3n283/googles_ai_deal_with_the_pentagon_has_sparked/</link>
-      <description><![CDATA[员工辞职威胁和数千人签署的请愿书足以动摇 Google 地位的日子已经一去不复返了。 Google 已同意允许其 Gemini AI 模型在美国军方机密网络内用于“任何合法目的”，员工告诉《财富》杂志，曾经允许技术员工对公司政策产生重大影响的杠杆作用已经过去了。  尽管有近 600 名员工签署了一封反对该交易的公开信，但谷歌似乎在与五角大楼有争议的交易上加倍努力，在一份备忘录中告诉员工，它“自豪地”与美国军方合作，并计划继续这样做。 阅读更多：https://fortune.com/2026/05/04/google-employee-backlash-pentagon-ai-contract-power-waned-since-project-maven/   提交者 /u/fortune[链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3n283/googles_ai_deal_with_the_pentagon_has_sparked/</guid>
-      <pubDate>Mon, 04 May 2026 16:39:20 GMT</pubDate>
-    </item>
-    <item>
       <title>我的 AI 代理运行了 6 个小时来抓取垃圾数据，直到收到 AWS 账单我才注意到</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3l3ro/my_ai_agent_ran_for_6_hours_scraping_garbage_data/</link>
-      <description><![CDATA[上周构建了一个研究代理，用于抓取竞争对手的登陆页面并总结变化。老实说，感觉很干净。 除了我没有考虑到一件事之外，它所访问的一半网站已经开始提供机器人检测页面而不是真实内容。我的经纪人不知道其中的区别。只是不停地“总结” cloudflare 挑战和空 div 就像真正的内容一样。 6 小时。我的法学硕士有数百次 API 调用。全部都在垃圾 HT​​ML 上。我得到的实际有用数据？ 200 页中可能有 12 页。 我不再管理自己的 AI 代理抓取基础设施。你们正在使用什么来实际返回干净的内容并在遇到问题时优雅地失败？厌倦了照顾这些东西   由   提交 /u/LxM420   [链接] [评论]]]></description>
+      <description><![CDATA[上周构建了一个研究代理，用于抓取竞争对手的登陆页面并总结变化。老实说，感觉很干净。 除了我没有考虑到一件事之外，它所访问的一半网站已经开始提供机器人检测页面而不是真实内容。我的经纪人不知道其中的区别。只是不停地“总结” cloudflare 挑战和空 div 就像真正的内容一样。 6 小时。对我的法学硕士进行了数百次 API 调用。全部都在垃圾 HT​​ML 上。我得到的实际有用数据？ 200 页中可能有 12 页。 我不再管理自己的 AI 代理抓取基础设施。你们正在使用什么来实际返回干净的内容并在遇到问题时优雅地失败？厌倦了照顾这些东西   由   提交 /u/LxM420   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3l3ro/my_ai_agent_ran_for_6_hours_scraping_garbage_data/</guid>
       <pubDate>Mon, 04 May 2026 15:31:00 GMT</pubDate>
     </item>
     <item>
       <title>萨姆·奥尔特曼 (Sam Altman) 大声说出了安静的部分，确认一些公司正在“人工智能清洗”，将不相关的裁员归咎于该技术</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3ktrr/sam_altman_says_the_quiet_part_out_loud/</link>
-      <description><![CDATA[随着关于人工智能对劳动力的真正影响的争论仍在继续，OpenAI 首席执行官 Sam Altman 表示，一些公司在裁员时正在进行“人工智能清洗”，或者错误地将劳动力减少归因于技术的影响。 “我不知道确切的百分比是多少，但有一些人工智能清洗，人们将裁员归咎于人工智能，而他们本来会这样做，然后Altman 在 2 月份的印度人工智能影响峰会上对 CNBC-TV18 表示：“人工智能确实取代了不同类型的工作。” 随着有关该技术对劳动力市场影响的不断出现的数据讲述了一个关于该技术如何摧毁人类工作（或者是否尚未触及人类工作）的混乱且不确定的故事，人工智能清洗已经受到关注。  例如，美国国家经济研究局 2 月份发布的一项研究发现，在美国、英国、德国和澳大利亚的数千名接受调查的高管中，近 90% 的人表示，自 2022 年末发布 ChatGPT 以来，过去三年人工智能对工作场所就业没有影响。  了解更多：https://fortune.com/article/sam-altman-ai-washing-tech-layoffs/   由   提交/u/fortune  [链接] [评论]]]></description>
+      <description><![CDATA[随着关于人工智能对劳动力的真正影响的争论仍在继续，OpenAI 首席执行官 Sam Altman 表示，一些公司在裁员时正在进行“人工智能清洗”，或者错误地将劳动力减少归因于技术的影响。 “我不知道确切的百分比是多少，但有一些人工智能清洗，人们将裁员归咎于人工智能，而他们本来会这样做，然后Altman 在 2 月份的印度人工智能影响峰会上对 CNBC-TV18 表示：“人工智能确实取代了不同类型的工作。” 随着有关该技术对劳动力市场影响的新数据讲述了一个关于该技术如何摧毁人类工作（或者是否尚未触及人类工作）的混乱且不确定的故事，人工智能清洗已经受到关注。例如，美国国家经济研究局 2 月份发布的一项研究发现，在美国、英国、德国和澳大利亚的数千名接受调查的高管中，近 90% 的人表示，自 2022 年末发布 ChatGPT 以来，过去三年人工智能对工作场所就业没有影响。  了解更多：https://fortune.com/article/sam-altman-ai-washing-tech-layoffs/   由   提交/u/fortune  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3ktrr/sam_altman_says_the_quiet_part_out_loud/</guid>
       <pubDate>Mon, 04 May 2026 15:21:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mistral Medium 3.5，疯了？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3iw33/mistral_medium_35_gone_mad/</link>
-      <description><![CDATA[我已经有一段时间没有看到 AI 的此类响应了。 背景：通过 ACP 使用 Zed IDE 和 Mistral 开发一个项目，在此过程中，我分享了一个问题的创造性解决方案，因为我发现当前的方法很僵硬，可能难以测试和维护，并且未来的迭代可能会引入回归。 最初发布于：https://www.reddit.com/r/MistralAI/comments/1t3haq7/mistral_medium_35_gone_mad/   由   提交/u/kerkerby  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3iw33/mistral_medium_35_gone_mad/</guid>
-      <pubDate>Mon, 04 May 2026 14:12:25 GMT</pubDate>
     </item>
     <item>
       <title>人工智能生成的演员和剧本现在没有资格获得奥斯卡奖</title>
