@@ -4,11 +4,18 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 05 May 2026 19:14:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 21:59:02 GMT</lastBuildDate>
+    <item>
+      <title>为什么开发人员需要一个适合单独或团队的专用协作平台。</title>
+      <link>https://www.reddit.com/r/programming/comments/1t4ttun/why_devs_need_a_dedicated_collaboration_platform/</link>
+      <description><![CDATA[虽然 Slack 和 Discord 满足了大部分需求，但都不支持在线代码更新，即从 git repo 拉取代码，协作更新，然后推送。   由   提交/u/SoHi_Techiee  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1t4ttun/why_devs_need_a_dedicated_collaboration_platform/</guid>
+      <pubDate>Tue, 05 May 2026 21:58:28 GMT</pubDate>
+    </item>
     <item>
       <title>寻找有关 r/programming 中的 AI 内容和四月份的无 AI 试验的反馈</title>
       <link>https://www.reddit.com/r/programming/comments/1t4odyl/looking_for_feedback_on_ai_content_in/</link>
-      <description><![CDATA[大家好！ 四月份，我们尝试完全禁止 LLM 相关内容。今天，我们寻求反馈，了解事情的进展情况，以及更广泛的我们想对此类内容采取什么措施。请在下面发表评论，但如果您只想说“我喜欢/讨厌它”，请也表明您已阅读下面的细微差别。 需要明确的是，我们一直并将继续禁止法学硕士生成的内容。如果你不想写，我们就不想读。我们也确实并将继续禁止与编程无关但与诸如编程相关的内容。 AI 哲学或越狱 chatgpt。 （非编程人工智能文章占据了我们看到的大部分与人工智能相关的内容，我们删除了相当多的内容。这与 4 月份的审判无关。） 所以细微差别是，我们在 4 月份的审判中禁止的唯一附加内容类别是关于人工智能的编程内容。范围包括：  机器学习中的数学技术（“使用 Transformer 技术进行序列预测”） 在小型代码库中运行时使用 LLM 的技术 生产模型部署和测试架构 使用 Cursor 的经验报告或配置提示 提示的最佳实践 我们如何保护生成的 AI代码库 嘿，我刚刚发现vibe编码将人工智能取代程序员，我肯定是第一个问这个问题的人 如何将LLM与您的业务数据粘合 在移动社交本地世界中协同代理区块链：在最后一张幻灯片上展示一行代码的tedx演讲  您可以看到我们有一段时间纠结于如何处理各种类别，并在我们的方法中进行了调整，我们可能会这样做一段时间。我不想禁止所有短暂流行而令人烦恼的流行事物，但我们也需要谨慎对待我们允许的内容，因为它是驱动未来提交者的动力，因此它可以自我喂养。这个话题也引发了狂热的粉丝和批评者，因此很容易迷失在少数派的声音中。 （出于这个原因，我不会假装这是一个完全民主的决定，我们会增加投票数或其他东西：人们太愿意在这些东西上大肆宣传，我们将保留一些主观性来避免这种情况。）在某些时候，我相信这些工具将像我们讨论编译器或 OOP 或 GC 或 VX 模块一样简单地讨论，但目前的炒作和厄运论党派之争如此强烈，以至于很难找到诚实的例子。 请注意，一个令人困惑的影响是，在上个月左右的时间里，新模组确实得到了加强。我之前曾删除过类似的内容，但延迟了很长时间，而现在我们能够更好地执行我们已有的规则。因此，如果您对“人工智能会取代程序员吗？”感到恼火，请注意这对此没有影响。我们已经删除了它。 总而言之，我们希望收集关于如何最好地处理这些类别的内容的想法和反馈，以及如何划定界限的建议，以便我们能够实现我们的使命：成为提供最高质量编程内容的地方，我每天都可以在那里阅读有趣的内容并学习新的东西。   由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <description><![CDATA[大家好！ 四月份，我们尝试完全禁止 LLM 相关内容。今天，我们寻求反馈，了解事情的进展情况，以及更广泛的我们想对此类内容采取什么措施。请在下面发表评论，但如果您只想说“我喜欢/讨厌它”，请也表明您已阅读下面的细微差别。 需要明确的是，我们一直并将继续禁止法学硕士生成的内容。如果你不想写，我们就不想读。我们也确实并将继续禁止与编程无关但与诸如编程相关的内容。 AI 哲学或越狱 chatgpt。 （非编程人工智能文章占据了我们看到的大部分人工智能相关内容，我们删除了相当多的内容。这与 4 月份的审判无关。） 因此，细微差别是，我们在 4 月份的审判中禁止并在此询问的唯一附加类别内容是与 AI 相关的编程内容。范围包括：  机器学习中的数学技术（“使用 Transformer 技术进行序列预测”） 在小型代码库中运行时使用 LLM 的技术 生产模型部署和测试架构 使用 Cursor 的经验报告或配置提示 提示的最佳实践 我们如何保护生成的 AI代码库 嘿，我刚刚发现vibe编码将人工智能取代程序员，我肯定是第一个问这个问题的人 如何将LLM与您的业务数据粘合 在移动社交本地世界中协同代理区块链：在最后一张幻灯片上展示一行代码的tedx演讲  您可以看到我们有一段时间纠结于如何处理各种类别，并在我们的方法中进行了调整，我们可能会这样做一段时间。我不想禁止所有短暂流行而令人烦恼的流行事物，但我们也需要谨慎对待我们允许的内容，因为它是驱动未来提交者的动力，因此它可以自我喂养。这个话题也引发了狂热的粉丝和批评者，因此很容易迷失在少数派的声音中。 （出于这个原因，我不会假装这是一个完全民主的决定，我们会增加投票数或其他东西：人们太愿意在这些东西上大肆宣传，我们将保留一些主观性来避免这种情况。）在某些时候，我相信这些工具将像我们讨论编译器或 OOP 或 GC 或 VX 模块一样简单地讨论，但目前的炒作和厄运论党派之争如此强烈，以至于很难找到诚实的例子。 请注意，一个令人困惑的影响是，在上个月左右的时间里，新模组确实得到了加强。我之前曾删除过类似的内容，但延迟了很长时间，而现在我们能够更好地执行我们已有的规则。因此，如果您对“人工智能会取代程序员吗？”感到恼火，请注意这对此没有影响。我们已经删除了它。 总而言之，我们希望收集关于如何最好地处理这些类别的内容的想法和反馈，以及如何划定界限的建议，以便我们能够实现我们的使命：成为提供最高质量编程内容的地方，我每天都可以在那里阅读有趣的内容并学习新的东西。   由   提交/u/ketralnis  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1t4odyl/looking_for_feedback_on_ai_content_in/</guid>
       <pubDate>Tue, 05 May 2026 18:41:19 GMT</pubDate>
     </item>
@@ -25,13 +32,6 @@
       <description><![CDATA[我们如何花了两个月的时间调试 Cloud Run 延迟，一路构建跟踪，并了解到修复方法是一行 YAML。   由   提交/u/ericchiang  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1t4kvb1/the_performance_bug_hiding_in_our_cloud_run/</guid>
       <pubDate>Tue, 05 May 2026 16:40:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>共识陷阱</title>
-      <link>https://www.reddit.com/r/programming/comments/1t4gxpv/the_consensus_trap/</link>
-      <description><![CDATA[ 由   提交/u/ludovicianul  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1t4gxpv/the_consensus_trap/</guid>
-      <pubDate>Tue, 05 May 2026 14:22:05 GMT</pubDate>
     </item>
     <item>
       <title>构建包含大量 HTML 小页面的网站</title>
