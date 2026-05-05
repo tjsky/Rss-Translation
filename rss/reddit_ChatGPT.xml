@@ -4,7 +4,70 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Tue, 05 May 2026 05:39:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 08:02:39 GMT</lastBuildDate>
+    <item>
+      <title>今年我们将 Claude 和 GPT-4 集成到了 5 个真实的客户端产品中。以下是真正有效的方法和完全失败的方法。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t48u2m/we_integrated_claude_and_gpt4_into_5_real_client/</link>
+      <description><![CDATA[   网上很多人工智能集成内容要么是“这是一个很酷的演示”，要么是“这是一个很酷的演示”。或“人工智能将取代一切。”关于将这些模型连接到付费客户的真实业务工作流程中的实际情况，两者之间没有太多的区别。以下是我们今年从重复这样做中学到的经验。 比预期效果更好的方法： 用于文档生成的结构化输出 使用 Claude，通过向原始会计数据提供严格的输出格式指令来生成符合 GAAP 的财务报告。预计它会产生数字幻觉。它没有——只要我们明确地给它数据并告诉它返回什么格式。关键是把它当作一个非常智能的格式化程序，而不是计算器。它从不做数学。它只会排列我们提供的数据。 作为 UI 层的自然语言构建了一个基于 WhatsApp 的任务管理器，用户可以在其中输入简单的英语 - “提醒我周五下午 2 点给银行打电话” ——人工智能解析意图、提取实体并写入数据库。 GPT-4 在这里处理歧义的能力出奇地好。 “明天早上”即使没有明确的时间，也能正确解释。它遇到的困难是指令相互矛盾——“把下午 3 点推迟到更晚的时间”。没有其他上下文。 通过人工审核生成多格式内容 播客剧集开始播放，社交帖子以 10 多种格式出现。当源材料清晰并且提示特定于格式时效果很好。通用提示产生通用输出。特定于平台的提示（专门针对 LinkedIn 语气与 Twitter 语气编写）可产生明显更好的结果。 失败的原因： 完全自主发布 我们将人类完全从循环中移除的每个项目都被放弃了。并不是因为输出错误，而是因为用户感觉与以他们名义发布的内容脱节。人工智能完成工作，人类需要感觉他们批准了它。一个审核步骤可以完全解决这个问题，但您必须从一开始就构建它。 要求模型做出不应该的判断“此发票金额合理吗？” ——对于法学硕士来说，这是一个可怕的问题。它会自信地回答，并且会以难以发现的方式出错。任何需要根据模型没有的上下文进行领域判断的事情都应该由人类来完成。我们学会了绘制每个人工智能决策点，并询问“如果这是错误的，会发生什么”  没有结构的长上下文将 90 分钟的文字记录作为单个 blob 提供并询问见解会产生平庸的结果。将相同的转录本分成带有元数据的结构化片段并单独处理每个片段会产生更好的输出。上下文窗口大小与上下文质量不同。 我们不断看到的模式：人工智能在使用干净的输入和循环中的某个位置执行特定的、有界的任务时效果最好。当任务模糊、输入混乱或输出未经审查就进入关键位置时，它就会陷入困境。 如果有用的话，很乐意深入研究其中任何一个 - 特别是产生最大差异的提示结构。   由   提交/u/Excellent_Poetry_718  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t48u2m/we_integrated_claude_and_gpt4_into_5_real_client/</guid>
+      <pubDate>Tue, 05 May 2026 07:57:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>当克劳德作品 6 告诉你“停止螺旋式上升并去睡觉”时</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t48qu7/when_claude_opus_6_tells_you_to_stop_spiraling/</link>
+      <description><![CDATA[   信用：fabianstelzer   由   提交/u/EchoOfOppenheimer   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t48qu7/when_claude_opus_6_tells_you_to_stop_spiraling/</guid>
+      <pubDate>Tue, 05 May 2026 07:52:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>还有其他人经常收到此弹出窗口吗？似乎每对夫妇都会向我提示;-;</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t48qhu/anyone_else_getting_this_popup_constantly_its/</link>
+      <description><![CDATA[   /u/LauraLaughter  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t48qhu/anyone_else_getting_this_popup_constantly_its/</guid>
+      <pubDate>Tue, 05 May 2026 07:51:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT 真的说“我就让你拥有这个兄弟”💀</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t48ana/chatgpt_really_said_ill_let_you_have_this_one_bro/</link>
+      <description><![CDATA[       由   提交/u/6ix9ineisGoat   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t48ana/chatgpt_really_said_ill_let_you_have_this_one_bro/</guid>
+      <pubDate>Tue, 05 May 2026 07:25:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT 的世界里不存在 MacBook neo</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t487gj/macbook_neo_doesnt_exist_in_chatgpts_world/</link>
+      <description><![CDATA[      我知道这是一个免费版本，但这不是预期的   由   提交 /u/sarveshinde   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t487gj/macbook_neo_doesnt_exist_in_chatgpts_world/</guid>
+      <pubDate>Tue, 05 May 2026 07:19:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 GPT 将 Reddit 个人资料变成一件行走的艺术品</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t4847k/turned_a_reddit_profile_into_a_walking_piece_of/</link>
+      <description><![CDATA[       由   提交/u/imfrom_mars_  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t4847k/turned_a_reddit_profile_into_a_walking_piece_of/</guid>
+      <pubDate>Tue, 05 May 2026 07:14:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT 刚刚给了我一个奖项...</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t4783a/chatgpt_just_gave_me_an_award/</link>
+      <description><![CDATA[      在对整个“妖精事件”和更广泛的现代互联网生物生态系统进行了简短讨论后，ChatGPT 告诉我，我已经成功地度过了“完整生物旋转”。  自然地，我要求颁发一个奖项来表彰这一成就。   由   提交/u/ntprfkt  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t4783a/chatgpt_just_gave_me_an_award/</guid>
+      <pubDate>Tue, 05 May 2026 06:22:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>有没有认真讨论 ChatGPT 的 Reddit 子版块？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t47014/are_there_any_subreddits_that_discuss_chatgpt/</link>
+      <description><![CDATA[HELLO。 我一直在浏览 r/ChatGPT，但我厌倦了看到大部分由 AI 生成的图像、投诉以及低质量或琐碎的帖子。 我想收集有关 ChatGPT 的有用信息。 有推荐的 Reddits 子版块吗？想要更严肃的讨论、技巧或见解？   由   提交/u/Concient_Bother_87   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t47014/are_there_any_subreddits_that_discuss_chatgpt/</guid>
+      <pubDate>Tue, 05 May 2026 06:09:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>我一直希望能够重现《宋飞正传》的场景，但有我在其中。梦想成真</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t46tzd/i_always_wanted_to_be_able_to_recreate_this/</link>
+      <description><![CDATA[       由   提交/u/love_me_some_reddit   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t46tzd/i_always_wanted_to_be_able_to_recreate_this/</guid>
+      <pubDate>Tue, 05 May 2026 06:00:36 GMT</pubDate>
+    </item>
     <item>
       <title>3 分钟内展示法学硕士的强化学习</title>
       <link>https://www.reddit.com/r/ChatGPT/comments/1t468ln/reinforcement_learning_in_llms_demonstrated_in_3/</link>
@@ -46,69 +109,6 @@
       <description><![CDATA[      在编辑提示中提示准确的腊肠消耗量并调整大小，可能会产生意想不到的结果。护栏似乎不适用于这种类型的创作。   由   提交/u/Perfidious_Redt   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/ChatGPT/comments/1t45p31/the_gobbler_an_examination_of_bratwurst_prompting/</guid>
       <pubDate>Tue, 05 May 2026 05:00:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>有史以来最容易点燃人工智能的</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t45m24/most_easy_to_gaslight_ai_of_all_time/</link>
-      <description><![CDATA[       由   提交/u/hihihhihii  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t45m24/most_easy_to_gaslight_ai_of_all_time/</guid>
-      <pubDate>Tue, 05 May 2026 04:55:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nano Banana Pro 可以做同样的事情。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t45dkz/the_nano_banana_pro_can_do_the_same_thing/</link>
-      <description><![CDATA[   我看过使用 GPT Image 2 创建的社交媒体屏幕截图。实际上，我只是在为我的猫故事创建场景。没想到，这个形象就诞生了。我很惊讶，想给你看。我以为只有 ChatGPT 可以做到这一点。   由   提交 /u/Elfpresets   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t45dkz/the_nano_banana_pro_can_do_the_same_thing/</guid>
-      <pubDate>Tue, 05 May 2026 04:43:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>亚斯资本</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t45cat/yass_kapital/</link>
-      <description><![CDATA[       由   提交/u/chajath2  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t45cat/yass_kapital/</guid>
-      <pubDate>Tue, 05 May 2026 04:41:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>“在我的肩膀上添加天使版本和魔鬼版本的我，你知道的经典方式。”</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t457h5/add_an_angel_version_and_a_devil_version_of_me_on/</link>
-      <description><![CDATA[   https://chatgpt.com/share/69f97362-32e8-8387-9e99-ece69861837b   提交者 /u/telsaton[链接][评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t457h5/add_an_angel_version_and_a_devil_version_of_me_on/</guid>
-      <pubDate>Tue, 05 May 2026 04:34:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作的GPT2角色扮演聊天界面。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t44m8t/gpt2_roleplay_chat_interface_i_made/</link>
-      <description><![CDATA[      最初的提示是：“这是人类和机器人之间的聊天：\n\n”   由   提交/u/Fair_Percentage_5565   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t44m8t/gpt2_roleplay_chat_interface_i_made/</guid>
-      <pubDate>Tue, 05 May 2026 04:05:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>不确定我是否以正确的方式使用 ChatGPT，但它一直在帮助我思考问题</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t44k9i/not_sure_if_im_using_chatgpt_the_right_way_but/</link>
-      <description><![CDATA[我知道人们在这里谈论了很多关于生产力和 ChatGPT 的话题，但这对我来说有点不同。 我可能想得太多了，但我注意到我已经开始以与我预期不同的方式使用 ChatGPT。 它从一些基本的东西开始，比如修复句子或提出随机问题。但这些天，每当我遇到困难或无法清晰思考时，我就会打开它并开始输入我想到的任何内容。 甚至不是问题，只是想法。不知何故，这种来回实际上帮助我更好地组织头脑中的事情。 就像前几天一样，我在考虑是否应该在工作中做一些小改变还是留在原地，然后将所有内容写下来询问一些后续行动，这样就不会那么混乱了。 我知道它并不完美，我不依赖它来做决定或任何事情，但它是一种让我的想法井然有序的非常有用的方法。 其他人都使用它像这样还是有更好的方法？   由   提交 /u/Quirky_Hedgehog_9291   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t44k9i/not_sure_if_im_using_chatgpt_the_right_way_but/</guid>
-      <pubDate>Tue, 05 May 2026 04:03:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我的 GPT 的非思考模式这几天无法使用？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t44h0z/why_is_my_gpts_nonthinking_mode_unusable_these/</link>
-      <description><![CDATA[   我并不想像标题所暗示的那样成为一个厄运者。但这确实是我的现实。请查看以下屏幕截图，其中我尝试与它对话，讨论我购买的 UPS 遇到的问题： 这里一切都很好。结构化的段落，连贯的对话。 然后，一旦我超出了思考模式的限制： 5个屏幕的随机表情符号乱码列表？ 到底是什么鬼？那个表情符号-子弹点-怪物？其实是无法读懂的。我没有偏好或定制。我绝对不会要求它像这样输出。我的大脑一看到试图解析它就立刻愤怒地退出了。我认为垂直度是最糟糕的。它开始喷涌而出，我已经是那个摘下耳机的人的模因了，但它只是持续了 3 或 4 个屏幕的价值。 不确定其他人是否也经历过这种情况（因此我在帖子中写下我的原因），请告诉我。   由   提交 /u/CelloPietro   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t44h0z/why_is_my_gpts_nonthinking_mode_unusable_these/</guid>
-      <pubDate>Tue, 05 May 2026 03:59:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>莱昂纳多在做笔记吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t44fw4/is_leonardo_taking_notes/</link>
-      <description><![CDATA[       由   提交/u/DrHumorous  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t44fw4/is_leonardo_taking_notes/</guid>
-      <pubDate>Tue, 05 May 2026 03:57:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT Thinking - Heavy 可以把“多视角脸”做得不错。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t44f4n/chatgpt_thinking_heavy_can_do_the/</link>
-      <description><![CDATA[   它没有完全获得幻觉的机制，但已经足够接近了。原帖：https://www.reddit.com/r/ChatGPT/comments/1t435ig/i_asked_chatgpt_and_gemini_to_do_this_weird/   由   提交/u/AP_in_Indy   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t44f4n/chatgpt_thinking_heavy_can_do_the/</guid>
-      <pubDate>Tue, 05 May 2026 03:56:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
