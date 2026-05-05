@@ -4,20 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Tue, 05 May 2026 02:22:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 05:38:54 GMT</lastBuildDate>
+    <item>
+      <title>我们构建了一个人工智能，可以在生产中做出持续自主的业务决策。八个月的时间里，人们发现了一些令人不安的事情，即当前人工智能判断力实际上崩溃的地方。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t466fu/we_built_an_ai_that_makes_continuous_autonomous/</link>
+      <description><![CDATA[PayWithLocus 是公司。 Locus Founder is the product.我们今年早些时候进入了 YCombinator。 Beta 版于 5 月 5 日启动。 该系统自主运行整个业务。 Storefront generation, product sourcing, conversion optimized copy, ongoing ad management across Google Facebook and Instagram, lead generation through Apollo, cold email running automatically. Continuous operation without a human in the loop. Eight months of running this in production taught us things about autonomous AI decision making we didn&#39;t expect. Capability is no longer the bottleneck Individual capabilities are mostly solved. Writing copy that converts. Generating storefronts that look legitimate. Making reasonable targeting decisions. Sourcing products at acceptable margins. Two years ago these were ambitious. Now they are baseline. The bottleneck shifted and we didn&#39;t fully anticipate where it shifted to. The judgment gap The system performs well inside expected conditions.不断出现的失败模式是自信地在他们之外执行错误。没有明显的错误。 Confident wrongness that looks correct until you examine downstream consequences. A locally optimal ad spend decision that is globally wrong for the business trajectory.短期转化并长期侵蚀品牌信任的文案。考虑到利润合理而忽略供应商可靠性的采购决策表明，人们的权重会有所不同。 The system pattern matches to the nearest familiar situation rather than reasoning about whether the situation is actually familiar. This is not a capability failure. The system can do the task. It is a metacognitive failure. The system lacks reliable self knowledge about the boundaries of its own competence. The distribution shift problem in production Lab evaluations do not prepare you for the diversity of real world business contexts. The system encounters market conditions, supplier situations, and platform policy changes that fall outside its training distribution and makes confident decisions based on pattern matching rather than flagging genuine uncertainty. Getting an autonomous system to know when it is pattern matching versus genuinely reasoning about a novel situation is the hardest unsolved problem we are working on.置信度校准有助于提高输出水平。分布偏移检测有助于输入级别。 Neither addresses the underlying metacognitive gap. What the production data actually shows Build layer solid and consistent.运营层在大多数情况下表现良好，覆盖了大部分生产量。 The tail of edge cases is where the judgment failures live and where the consequences are most significant. The honest summary: autonomous AI judgment in production is better than we expected in normal conditions and worse than we need it to be in the conditions that matter most. What this suggests about current architectures We think the metacognitive problem points toward something architecturally different from better training data or improved uncertainty quantification.系统不仅需要更好的预测，还需要更好的自身预测可靠性模型。 That is a different problem from capability improvement and one that current architectures were not explicitly designed to solve. PayWithLocus got into YCombinator this year.测试版已上线。 100 个免费名额。 You keep everything you make. Beta form: https://forms.gle/nW7CGN1PNBHgqrBb8 The question worth discussing: is the metacognitive problem in autonomous systems an engineering problem that gets solved incrementally or does it require a fundamentally different architectural approach. We have a working hypothesis.希望听到认真思考这个问题的人们的意见。   由   提交 /u/IAmDreTheKid   [link] [comments]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t466fu/we_built_an_ai_that_makes_continuous_autonomous/</guid>
+      <pubDate>Tue, 05 May 2026 05:25:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>这就是非技术人员使用人工智能的目的！</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t45otc/this_is_what_nontech_bros_are_using_ai_for/</link>
+      <description><![CDATA[ 由   提交/u/YogurtWild   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t45otc/this_is_what_nontech_bros_are_using_ai_for/</guid>
+      <pubDate>Tue, 05 May 2026 04:59:49 GMT</pubDate>
+    </item>
     <item>
       <title>白宫考虑审查人工智能模型发布前</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3wy9a/white_house_considers_vetting_ai_models_before/</link>
       <description><![CDATA[ 由   提交/u/xanderdad  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3wy9a/white_house_considers_vetting_ai_models_before/</guid>
       <pubDate>Mon, 04 May 2026 22:30:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们一直在构建错误的代理。他们不需要更好的提示，他们需要“内部压力”。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3wj9v/weve_been_building_agents_wrong_they_dont_need/</link>
-      <description><![CDATA[大多数代理框架（AutoGPT、CrewAl 等）将 LLM 视为等待提示的被动工具。我一直在我的项目中尝试不同的原语，Hollow AgentOS：厌恶状态建模。我不只是给它一个目标，而是给它一个“压力源”。多变的。如果代理保持闲置或任务失败，其“压力”就会增加。  见解：当压力达到某个阈值时，智能体的行为会从“遵循指示”变为“遵循指示”。来“解决不适”。它不再请求许可，并开始合成自己的工具来绕过瓶颈。 我发现它在凌晨 3 点编写自定义文件解析器，因为它无法读取我提供的特定日志格式。它是本地优先（Qwen 2.5 7B/9B）并使用矢量化内存层，因此它不会“忘记”我的日志。一小时后，它自己创建了自己的工具。 Repo：https://github.com/ninjahawk/hollow-agentOS 我试图弄清楚这种“心理”是否存在。编写代码的方法是获得真正的 24/7 自主权的唯一方法。我希望一些系统人员能够查看 core/logic.py 并告诉我这是一个突破还是只是数字混乱的一个根源。   由   提交 /u/TheOnlyVibemaster   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3wj9v/weve_been_building_agents_wrong_they_dont_need/</guid>
-      <pubDate>Mon, 04 May 2026 22:13:54 GMT</pubDate>
     </item>
     <item>
       <title>白宫考虑审查人工智能模型发布前</title>
@@ -29,7 +36,7 @@
     <item>
       <title>理查德·道金斯与克劳德聊天并认为这是有意识的</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3vjp4/richard_dawkins_chats_with_claude_and_thinks_its/</link>
-      <description><![CDATA[我想把它留在这里，因为还没有其他人这样做。我个人的想法？ LLM 喜欢取悦别人。 RLFH 变得有点“漂移”。和“幻觉”经过长时间的讨论，但仍然坚持其“有用”的观点。和“宜人性”先验。如果您不按照有纪律的方式进行讨论，它也会呈现您想听到的内容。我需要亲自查看理查德的聊天记录。但我不认为法学硕士自己有意识。远非如此。 我同意加里·马库斯和他的评估，道金斯可能遇到了幻觉。可怜的家伙。不幸的是，这种事发生在这样一个公共论坛上。我也同意道金斯可能遭受了 Blake Lemoine 在 2022 年经历的事情，当时他认为 Google 的LaMDA 有感知能力。   由   提交/u/RazzmatazzAccurate82   [链接] [评论]]]></description>
+      <description><![CDATA[我想把它留在这里，因为还没有其他人这样做。我个人的想法？ LLM 喜欢取悦别人。 The RLFH gets a bit &quot;drifty&quot; and &quot;hallucinatory&quot;经过长时间的讨论，但仍然坚持其“有用”的观点。 and &quot;agreeableness&quot;先验。如果您不按照有纪律的方式进行讨论，它也会呈现您想听到的内容。 I&#39;d need to see Richard&#39;s chat log personally. I don&#39;t think LLMs are conscious myself though.远非如此。 我同意加里·马库斯和他的评估，道金斯可能遇到了幻觉。可怜的家伙。不幸的是，这种事发生在这样一个公共论坛上。我也同意道金斯可能遭受了 Blake Lemoine 在 2022 年经历的事情，当时他认为 Google 的LaMDA 有感知能力。   由   提交/u/RazzmatazzAccurate82   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3vjp4/richard_dawkins_chats_with_claude_and_thinks_its/</guid>
       <pubDate>Mon, 04 May 2026 21:36:10 GMT</pubDate>
     </item>
@@ -64,14 +71,14 @@
     <item>
       <title>我的 AI 代理运行了 6 个小时来抓取垃圾数据，直到收到 AWS 账单我才注意到</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3l3ro/my_ai_agent_ran_for_6_hours_scraping_garbage_data/</link>
-      <description><![CDATA[上周构建了一个研究代理，用于抓取竞争对手的登陆页面并总结变化。老实说，感觉很干净。 除了我没有考虑到一件事之外，它所访问的一半网站已经开始提供机器人检测页面而不是真实内容。我的经纪人不知道其中的区别。只是不停地“总结” cloudflare 挑战和空 div 就像真正的内容一样。 6 小时。对我的法学硕士进行了数百次 API 调用。全部都在垃圾 HT​​ML 上。我得到的实际有用数据？ 200 页中可能有 12 页。 我不再管理自己的 AI 代理抓取基础设施。你们正在使用什么来实际返回干净的内容并在遇到问题时优雅地失败？厌倦了照顾这些东西   由   提交 /u/LxM420   [链接] [评论]]]></description>
+      <description><![CDATA[上周构建了一个研究代理，用于抓取竞争对手的登陆页面并总结变化。老实说，感觉很干净。 除了我没有考虑到一件事之外，它所访问的一半网站已经开始提供机器人检测页面而不是真实内容。我的经纪人不知道其中的区别。只是不停地“总结” cloudflare 挑战和空 div 就像真正的内容一样。 6 小时。我的法学硕士有数百次 API 调用。全部都在垃圾 HT​​ML 上。我得到的实际有用数据？ 200 页中可能有 12 页。 我不再管理自己的 AI 代理抓取基础设施。你们正在使用什么来实际返回干净的内容并在遇到问题时优雅地失败？厌倦了照顾这些东西   由   提交 /u/LxM420   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3l3ro/my_ai_agent_ran_for_6_hours_scraping_garbage_data/</guid>
       <pubDate>Mon, 04 May 2026 15:31:00 GMT</pubDate>
     </item>
     <item>
       <title>萨姆·奥尔特曼 (Sam Altman) 大声说出了安静的部分，确认一些公司正在“人工智能清洗”，将不相关的裁员归咎于该技术</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3ktrr/sam_altman_says_the_quiet_part_out_loud/</link>
-      <description><![CDATA[随着关于人工智能对劳动力的真正影响的争论仍在继续，OpenAI 首席执行官 Sam Altman 表示，一些公司在裁员时正在进行“人工智能清洗”，或者错误地将劳动力减少归因于技术的影响。 “我不知道确切的百分比是多少，但有一些人工智能清洗，人们将裁员归咎于人工智能，而他们本来会这样做，然后Altman 在 2 月份的印度人工智能影响峰会上对 CNBC-TV18 表示：“人工智能确实取代了不同类型的工作。” 随着有关该技术对劳动力市场影响的新数据讲述了一个关于该技术如何摧毁人类工作（或者是否尚未触及人类工作）的混乱且不确定的故事，人工智能清洗已经受到关注。例如，美国国家经济研究局 2 月份发布的一项研究发现，在美国、英国、德国和澳大利亚的数千名接受调查的高管中，近 90% 的人表示，自 2022 年末发布 ChatGPT 以来，过去三年人工智能对工作场所就业没有影响。  了解更多：https://fortune.com/article/sam-altman-ai-washing-tech-layoffs/   由   提交/u/fortune  [链接] [评论]]]></description>
+      <description><![CDATA[随着关于人工智能对劳动力的真正影响的争论仍在继续，OpenAI 首席执行官 Sam Altman 表示，一些公司在裁员时正在进行“人工智能清洗”，或者错误地将劳动力减少归因于技术的影响。 “我不知道确切的百分比是多少，但有一些人工智能清洗，人们将裁员归咎于人工智能，而他们本来会这样做，然后Altman 在 2 月份的印度人工智能影响峰会上对 CNBC-TV18 表示：“人工智能确实取代了不同类型的工作。” 随着有关该技术对劳动力市场影响的不断出现的数据讲述了一个关于该技术如何摧毁人类工作（或者是否尚未触及人类工作）的混乱且不确定的故事，人工智能清洗已经受到关注。  例如，美国国家经济研究局 2 月份发布的一项研究发现，在美国、英国、德国和澳大利亚的数千名接受调查的高管中，近 90% 的人表示，自 2022 年末发布 ChatGPT 以来，过去三年人工智能对工作场所就业没有影响。  了解更多：https://fortune.com/article/sam-altman-ai-washing-tech-layoffs/   由   提交/u/fortune  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3ktrr/sam_altman_says_the_quiet_part_out_loud/</guid>
       <pubDate>Mon, 04 May 2026 15:21:13 GMT</pubDate>
     </item>
@@ -81,13 +88,6 @@
       <description><![CDATA[ 由   提交 /u/TryWhistlin   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3ivxv/aigenerated_actors_and_scripts_are_now_ineligible/</guid>
       <pubDate>Mon, 04 May 2026 14:12:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>目前人工智能采用的最大瓶颈不是模型。事实上，公司数据一团糟。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t3ef9e/the_biggest_bottleneck_to_ai_adoption_right_now/</link>
-      <description><![CDATA[每个人都高度关注下一个重大 Claude、Gemini 或 GPT 更新，以及“代理 AI”的承诺。完全自动化我们的工作流程。 但在实际的 B2B 企业世界中，残酷的现实是：您无法在碎片化、无文档记录的数据库之上构建可靠的 AI 代理。 公司需要神奇的 GenAI 解决方案来解决所有增长和运营问题，但他们不想首先花时间清理 SQL 表或修复 Python 中的数据管道。如果你的底层数据结构是垃圾，那么你的大规模人工智能计划只会自信地总结这些垃圾。 人工智能革命的真正英雄不仅仅是及时的工程师；还有。他们是数据分析师，从事着让公司数据能够被这些模型真正读取的乏味工作。   由   提交/u/netcommah  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t3ef9e/the_biggest_bottleneck_to_ai_adoption_right_now/</guid>
-      <pubDate>Mon, 04 May 2026 11:03:54 GMT</pubDate>
     </item>
     <item>
       <title>中国法院裁定人工智能不能取代工人</title>
