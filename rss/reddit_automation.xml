@@ -4,7 +4,28 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Wed, 06 May 2026 08:16:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 11:01:32 GMT</lastBuildDate>
+    <item>
+      <title>n8n vs Zapier vs 定制构建——我实际使用的决策矩阵</title>
+      <link>https://www.reddit.com/r/automation/comments/1t590qi/n8n_vs_zapier_vs_custom_build_the_decision_matrix/</link>
+      <description><![CDATA[我厌倦了逐个工具地回答这个问题，因此我构建了一个在不同团队规模和用例中保持一致的框架。  以下是我的想法： 在以下情况下使用 Zapier： 您的团队是非技术人员，需要独立拥有工作流程。触发/动作很简单并且不太可能改变。  本周您需要运行它。当工作流需要超过 2 层深度的条件逻辑时，Zapier 就会开始与您作对。 如果满足以下条件，请使用 n8n： 您至少有一个人能够轻松地阅读 JSON，并且在节点出错时不会惊慌。您需要分支逻辑、子工作流或自定义代码步骤。  由于成本或数据原因，您希望自行托管。 n8n 的上限比 Zapier 的高得多，但它的下限也较低 - 损坏的工作流程需要有人实际修复它们。 自定义如果：工作流程是您的产品或操作如何工作的核心，并且会经常更改。您正在与没有预构建连接器的内部系统集成。  您需要将完整的可观察性（日志、重试、警报）融入到系统中，而不是固定在系统上。定制的前期成本更高，需要一名真正的工程师，但当工作流程扩展或需求发生变化时，它就会得到回报。 我最常看到的陷阱：团队从 Zapier 开始，达到上限，迁移到 n8n，然后最终构建定制 - 花费三次而不是一次做出正确的决定。  答案几乎总是取决于团队组成，而不是工作流程本身。 是什么让您选择了当前的堆栈？你会采取什么不同的做法？   由   提交 /u/Alert_Journalist_525   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1t590qi/n8n_vs_zapier_vs_custom_build_the_decision_matrix/</guid>
+      <pubDate>Wed, 06 May 2026 10:36:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>我是自动化新手？我应该用什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1t5873u/im_new_to_automation_what_should_i_use/</link>
+      <description><![CDATA[我目前正在寻找可以用于自动化练习的免费软件。 我的选择是 Make 和 zapier，因为 n8n 只提供 14 天试用期。 还有其他可以推荐的吗？   由   提交/u/Shot_Set_2038   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1t5873u/im_new_to_automation_what_should_i_use/</guid>
+      <pubDate>Wed, 06 May 2026 09:51:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>在多代理系统中管理代理之间的数据流是否需要比预期更多的工作？</title>
+      <link>https://www.reddit.com/r/automation/comments/1t56m8j/does_managing_data_flow_between_agents_take_more/</link>
+      <description><![CDATA[大部分精力转移到我们的多代理系统中代理之间的数据流上。我们预计大部分精力将用于构建代理本身。这部分仍然是可控的。花费更多时间的是数据如何在它们之间移动 每个代理的行为都符合预期，但确保输出可以在下游使用需要比预期更多的协调 对齐格式、处理边缘情况并确保输出保持可用成为持续的工作 添加新代理不仅仅是添加另一个组件。它需要调整数据流经系统其余部分的方式。随着时间的推移，步骤之间会出现更多的逻辑，只是为了让所有内容协同工作 随着代理数量的增加，您如何处理数据流？   由   提交/u/QuoteGold1928  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1t56m8j/does_managing_data_flow_between_agents_take_more/</guid>
+      <pubDate>Wed, 06 May 2026 08:16:28 GMT</pubDate>
+    </item>
     <item>
       <title>哪些自动化有助于短期租赁物业管理？</title>
       <link>https://www.reddit.com/r/automation/comments/1t54c46/what_automations_help_with_short_term_rental/</link>
@@ -41,7 +62,7 @@
       <pubDate>Wed, 06 May 2026 03:48:03 GMT</pubDate>
     </item>
     <item>
-      <title>为什么没有人谈论几乎免费的日常生活基本工作的 Google Colab？</title>
+      <title>为什么没有人谈论 Google Colab，它对于日常生活中的基本工作几乎免费？</title>
       <link>https://www.reddit.com/r/automation/comments/1t4wpys/why_no_one_is_talking_about_google_colab_which_is/</link>
       <description><![CDATA[      大约三年来，我一直是 Google Colab 的忠实粉丝，说实话，它的功能令人惊叹。 例如，Fiverr 上的一位客户向我提供了 3500 张图像，并要求我删除所有图像的背景。他想知道我要收多少钱，我报了 200 美元。 他立即下了订单，没有再问任何问题。我告诉他工作会在24小时内完成，并且不会影响图像质量，他同意了。 当我交付订单时，他真的很感动，开始问我是如何做到这么快完成工作的，以及我是否有团队。我告诉他，这就是八年的经验。 实际上，我只是使用免费版本的 ChatGPT 创建了一个 Python 脚本，并在 Google Colab 中运行它。整个任务大约三个小时就完成了。  这只是一个例子。你可以用 Google Colab 做无数的事情，我想很多人仍然低估了它的真正威力。 现在你也可以在 Claude Code、Codex 中连接 Google Colab 的 MCP，做任何你想做的事情。   由   提交/u/mhamza_hashim   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1t4wpys/why_no_one_is_talking_about_google_colab_which_is/</guid>
@@ -55,32 +76,11 @@
       <pubDate>Tue, 05 May 2026 19:01:08 GMT</pubDate>
     </item>
     <item>
-      <title>我们如何确保周一提交的工作真正完成</title>
-      <link>https://www.reddit.com/r/automation/comments/1t4oket/how_we_made_sure_work_submitted_in_monday/</link>
-      <description><![CDATA[ 由   提交 /u/Weekly_Accident7552   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t4oket/how_we_made_sure_work_submitted_in_monday/</guid>
-      <pubDate>Tue, 05 May 2026 18:47:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Thoth v3.20.0 - 完整的 Linux 支持、MiniMax 集成以及 Ollama 和本地运行时的主要可靠性升级</title>
-      <link>https://www.reddit.com/r/automation/comments/1t4n89i/thoth_v3200_full_linux_support_minimax/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t4n89i/thoth_v3200_full_linux_support_minimax/</guid>
-      <pubDate>Tue, 05 May 2026 18:00:47 GMT</pubDate>
-    </item>
-    <item>
       <title>[ 已被 Reddit 删除 ]</title>
       <link>https://www.reddit.com/r/automation/comments/1t4j7iu/removed_by_reddit/</link>
       <description><![CDATA[[因违反内容政策而被 Reddit 删除。 ]   由   提交 /u/Equal_Lie_5854   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1t4j7iu/removed_by_reddit/</guid>
       <pubDate>Tue, 05 May 2026 15:43:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为我的 Claude Code 代理提供了持久的 Markdown 知识库，这样它就不会忘记会话之间的项目上下文</title>
-      <link>https://www.reddit.com/r/automation/comments/1t4iknv/i_gave_my_claude_code_agent_a_persistent_markdown/</link>
-      <description><![CDATA[ 由   提交/u/riddlemewhat2  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t4iknv/i_gave_my_claude_code_agent_a_persistent_markdown/</guid>
-      <pubDate>Tue, 05 May 2026 15:20:56 GMT</pubDate>
     </item>
     <item>
       <title>我们谈论了很多关于自动化的内容。您主动选择保留哪些手册？</title>

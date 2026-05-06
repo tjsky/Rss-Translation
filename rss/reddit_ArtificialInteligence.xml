@@ -4,11 +4,25 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Wed, 06 May 2026 08:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 11:01:44 GMT</lastBuildDate>
+    <item>
+      <title>生产级人工智能代理的红队评估</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t58hbd/red_teaming_assessment_for_production_grade_ai/</link>
+      <description><![CDATA[人工智能安全的第一步是准确了解是什么破坏了你的人工智能代理。我建立了一个红队评估平台，告诉你你的漏洞在哪里，它在哪里，以及你可以采取哪些措施来修复它。 对于开发人员：它为你提供补救步骤 对于企业：你的漏洞将转换为代理规则，在生产中确定性地执行。 检查一下，破坏你的代理，这样你就知道在哪里修复它。   由   提交 /u/OneSafe8149   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t58hbd/red_teaming_assessment_for_production_grade_ai/</guid>
+      <pubDate>Wed, 06 May 2026 10:06:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>UBI 实际上将如何运作？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t56owd/how_would_ubi_actually_work/</link>
+      <description><![CDATA[如果人工智能取代了大部分劳动力，人们经常提到 UBI 作为解决方案。但我不完全理解这将如何解决当前富人、中产阶级和穷人之间的差距。 全民基本收入是否只是意味着每个人都能获得足够的生存空间，而现有的富人则保留他们的房屋、土地、股票、公司、游艇和其他优势？ 谁能住在好地区？谁拥有新车，谁驾驶旧车？我们还会拥有汽车，还是走向共享自动驾驶交通？机器人最终会为每个人建造足够好的住房，还是人们会被困在原地？ 我理解全民基本收入是解决收入问题的一种方式。但它是否解决了不平等问题，或者只是保留了当前的阶级制度，并在上面添加了生存金？   由   提交 /u/Michael_mkz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t56owd/how_would_ubi_actually_work/</guid>
+      <pubDate>Wed, 06 May 2026 08:20:57 GMT</pubDate>
+    </item>
     <item>
       <title>[D] 我注意到的一件事......关于“代理人工智能”等还有其他人吗？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t55c1f/d_one_thing_im_noticing_about_agentic_ai_etc_is/</link>
-      <description><![CDATA[在当前的“代理人工智能”对话中，我发现越来越奇怪的一件事是……编排、内存、自治、工作流程执行和全公司范围的人工智能操作系统投入了大量的精力。 一旦这些系统深深嵌入到业务流程中，似乎很少有讨论集中在中断权、可竞争层或操作覆盖上。 也许我错过了它，但感觉就像我们围绕摩擦进行设计的速度比围绕可逆性进行设计的速度更快。   由   提交/u/Bright_Inside7949  [链接] [评论]]]></description>
+      <description><![CDATA[在当前的“代理人工智能”对话中，我发现越来越奇怪的一件事是......大量的精力投入到编排、内存、自治、工作流程执行和全公司范围的人工智能操作系统上。 一旦这些系统深深嵌入业务流程中，似乎很少讨论集中在中断权、可竞争层或操作覆盖上。 也许我错过了它，但感觉就像我们围绕摩擦进行设计的速度比围绕可逆性进行设计的速度更快。   由   提交/u/Bright_Inside7949  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t55c1f/d_one_thing_im_noticing_about_agentic_ai_etc_is/</guid>
       <pubDate>Wed, 06 May 2026 06:59:39 GMT</pubDate>
     </item>
@@ -20,21 +34,7 @@
       <pubDate>Wed, 06 May 2026 05:38:50 GMT</pubDate>
     </item>
     <item>
-      <title>数据管道监控看起来很好，但它却以无声的故障困扰着你，你如何尽早发现这一点？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t53vyl/data_pipeline_monitoring_looks_fine_until_it/</link>
-      <description><![CDATA[数据管道看起来很健康，但实际上却并非如此。一切都是绿色的，指标稳定，没有警报。然后你意识到下游数据是错误的，实际上没有任何失败。 我们的设置非常典型：spark -&gt;卡夫卡-&gt; db，带有仪表板以及有关滞后和错误率的警报。对于明显的故障效果很好。问题是那些沉默的人。模式漂移只会破坏一个消费者。分区倾斜会缓慢降低性能。节点运行不均匀，但不足以触发警报。 上周，我们的管道丢弃了约 20% 的事件，因为解析器开始在新的数据模式上失败。没有警报，指标中没有任何明显的信息，日志噪音太大，无法及早捕获。 我们尝试在不同阶段添加更多检查，例如记录计数和验证，但它很快就会变成噪音。 如何尽早捕获这些类型的静默故障，而不用警报淹没系统？什么对你真正有用   由   提交 /u/Impressive_Film2188   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t53vyl/data_pipeline_monitoring_looks_fine_until_it/</guid>
-      <pubDate>Wed, 06 May 2026 05:37:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coinbase 想要一个人的团队……那么为什么这些人不建立自己的初创公司呢？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t525vh/coinbase_wants_1person_teams_so_why_wouldnt_those/</link>
-      <description><![CDATA[Coinbase 的信息很明确： 1 个人团队应该： - 交付产品 - 构建 UI/UX - 扩展系统  我的问题是，如果一个人可以完成所有这些，为什么他们应该在一家正在衰落的加密公司工作？  他们可以构建自己的！ 我错过了什么吗？   由   提交 /u/houmanasefiau   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t525vh/coinbase_wants_1person_teams_so_why_wouldnt_those/</guid>
-      <pubDate>Wed, 06 May 2026 04:07:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么没有人谈论几乎免费的日常生活基本工作的 Google Colab？</title>
+      <title>为什么没有人谈论 Google Colab，它对于日常生活中的基本工作几乎免费？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t4wqqt/why_no_one_is_talking_about_google_colab_which_is/</link>
       <description><![CDATA[大约三年来，我一直是 Google Colab 的忠实粉丝，说实话，它的功能令人惊叹。 例如，Fiverr 上的一位客户向我提供了 3500 张图像，并要求我删除所有图像的背景。他想知道我要收多少钱，我报了 200 美元。 他立即下了订单，没有再问任何问题。我告诉他工作会在24小时内完成，并且不会影响图像质量，他同意了。 当我交付订单时，他真的很感动，开始问我是如何做到这么快完成工作的，以及我是否有团队。我告诉他，这就是八年的经验。 实际上，我只是使用免费版本的 ChatGPT 创建了一个 Python 脚本，并在 Google Colab 中运行它。整个任务大约三个小时就完成了。这是脚本，以防有人想使用它： https://github.com/mhamzahashim/bulk-bg-remover 这只是一个示例。你可以用 Google Colab 做无数的事情，我想很多人仍然低估了它的真正威力。 现在你也可以在 Claude Code 中连接 Google Colab 的 MCP，做任何你想做的事情。   由   提交/u/mhamza_hashim   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t4wqqt/why_no_one_is_talking_about_google_colab_which_is/</guid>
