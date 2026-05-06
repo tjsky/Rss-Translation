@@ -4,7 +4,42 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Wed, 06 May 2026 16:24:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 21:52:44 GMT</lastBuildDate>
+    <item>
+      <title>一年后终于拿到MCP了</title>
+      <link>https://www.reddit.com/r/automation/comments/1t5olug/i_finally_get_mcp_after_a_year/</link>
+      <description><![CDATA[自从 MCP 这个术语首次出现以来，我一直对它持怀疑态度。我的看法始终是，它只是一个附加了额外元数据的 API，如果我足够清楚 MCP 服务器中包含哪些工具，我就足够清楚编写确定性代码来更可靠地完成相同的事情。 我错过的是：MCP 并不真正适合构建系统的人。这是给其他人的。 这就是让我震惊的经历。在过去的一年里，我一直在进行氛围编码并进行全栈开发，而一直以来的瓶颈并不是编写代码——Cursor 可以很好地处理很多事情。这就是 DevOps。具体来说，DevOps 的一部分涉及将六个不同的供应商与六个不同的仪表板、六个不同的身份验证流程、六组不同的文档拼接在一起。 GitHub 的源代码、DNS 提供程序、SSL 设置、数据库主机、应用程序主机、环境变量管理。这些都不是单独困难的。它们是我在每个新项目开始时缴纳的税款，而到三个月后下一个项目推出时，我已经忘记了一切并再次缴纳税款。 然后我尝试了托管公司的 MCP 服务器。将人工智能代理指向它。代理与提供商交谈，启动后端和前端服务器，将环境变量连接到正确的位置，设置数据库，安装卷和存储桶 - 在一个会话中完成，没有文档磨练，也没有点击五个仪表板。 这就是用例最终点击的时候。当外部用户需要不频繁且非重复地与服务交互时，MCP 就发挥了重要作用。就是这样的形状。如果我是托管公司的员工，我已经拥有自己的操作手册和 bash 脚本以及所有这些的肌肉记忆。 MCP 就有点矫枉过正了。但是，随着外部用户每隔几个月接触一次他们的平台，阅读文档和重新学习用户界面的成本确实是启动项目时最糟糕的部分。 MCP 将其压缩到零，现在我特别推荐该主机，因为设置摩擦已经消失。 同样的逻辑解释了为什么当人们将 MCP 作为通用集成层时我从未完全看到其价值。对于我经常接触的系统——我自己的基础设施、我的工作流程工具、内部东西——我不需要发现。我已经知道东西在哪里了。我通过 Latenode 运行确定性管道，它可以工作，因为我构建了它一次，它就可以运行。没有任何摩擦需要优化。但对于我偶尔接触的系统，摩擦是“我必须记住这个供应商的 UI 是如何工作的”， MCP 正在做真正的工作。 有趣的前沿——也是让我写这篇文章的部分——是观察非程序员朋友开始在日常工作中使用像 Claude Code 这样的代理。他们是最终的“不常使用的外部用户”。他们接触到的每一个系统都是他们不太了解的系统。这意味着 MCP 的价值主张并不真正与开发人员的人体工程学有关。它的目的是让任何服务都可以为那些不想学习它的人所用。这是一个比我一年前考虑的市场大得多的市场。 不要有一个干净的外卖。但我从“MCP 设计过度”转向“MCP 设计过度”。到“MCP正在解决特定用户类型的实际问题，并且该用户类型即将变得巨大。”这大致是我最初怀疑的大多数事情最终采取的轨迹。   由   提交 /u/planmarlwax   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1t5olug/i_finally_get_mcp_after_a_year/</guid>
+      <pubDate>Wed, 06 May 2026 20:19:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个工具来完全自动化我的 x 帐户、增加受众、寻找潜在客户</title>
+      <link>https://www.reddit.com/r/automation/comments/1t5o6fh/i_built_a_tool_to_fully_automate_my_x_account/</link>
+      <description><![CDATA[      大家好，  Tweetback 是一款 AI Twitter/X 助手，可以写出更好的回复、更快地创建帖子、监控对话以及在 X 上保持活跃，但听起来并不普通。  无论您是在建立受众群体、与潜在客户建立联系、跟踪行业对话还是回复社区。  ⚡ 主要功能  🔹 X/Twitter 的人工智能回复生成器  直接在 X 上的帖子下生成上下文回复草稿。选择语气、风格或提示并创建与对话匹配的回复。  🔹 AI 帖子撰写者  直接在 X 编辑器内根据主题、想法、链接或提示撰写原创帖子。创建挂钩、主题、短帖子、公告和以参与为中心的内容，而无需切换选项卡。  🔹 自定义写作风格训练  在任何公共 X 个人资料上训练 Tweetback，以创建与特定声音、语气、结构和风格相匹配的回复和帖子。保持您的内容可识别、一致且人性化。  🔹 关键字监控 跟踪关键字、主题、竞争对手、产品提及、行业术语或客户痛点。更快地找到相关对话并及时起草回复。 🔹智能匹配 除了关键字扫描之外，人工智能还会分析该帖子是否符合我们的利基，因此我们不会回复任何与我们的关键字匹配的帖子 🔹稍后添加书签 我们可以通过智能匹配扫描和分析关键字，并将它们添加到原生 X 书签部分，这样我们以后就可以与它们互动或将它们用于其他用途案例 🔹 帐户关注列表 关注重要帐户，监控他们的最新帖子，并快速生成结构化回复。非常适合网络、创始人主导的增长、社区建设、研究和基于关系的销售。  🔹 文本和图像生成 创建书面内容和 AI 生成的视觉效果，以便在 X 上发布更强大的帖子、更丰富的回复和更具吸引力的内容。  🔹 自带 AI 提供商  使用您自己的 AI 提供商和 API 密钥。选择适合您的工作流程、质量需求、速度和预算的模型。  🔹 用户控制的自动化 设置用于监控、起草和审查回复的工作流程。 Tweetback 旨在让您保持控制，在发布之前提供手动审核选项。 如果有人想尝试该试用版，链接位于我的简介中。    由   提交/u/alexkendig  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1t5o6fh/i_built_a_tool_to_fully_automate_my_x_account/</guid>
+      <pubDate>Wed, 06 May 2026 20:04:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Claude Code + Claude Design 为我的 AI 机构构建了完整的代理 CRM</title>
+      <link>https://www.reddit.com/r/automation/comments/1t5ma2o/built_a_full_agentic_crm_for_my_ai_agency_using/</link>
+      <description><![CDATA[      为客户构建 AI 自动化系统有一段时间了，意识到我自己的操作一团糟。 整个系统都在我的服务器上运行。完全通过 Claude Code 对话构建，无需手动编码。 与使用现成工具相比，我发现构建此程序的有趣之处在于：Claude Code 确实比任何通用 CRM 更能理解您的特定工作流程。它构建的正是您需要的，没有您不需要的。 请听听你们的意见   由   提交/u/Fearless-Ad-238  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1t5ma2o/built_a_full_agentic_crm_for_my_ai_agency_using/</guid>
+      <pubDate>Wed, 06 May 2026 18:57:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>大多数开发文档要么读起来很困难，要么写起来很困难。这是我认为需要改变的地方</title>
+      <link>https://www.reddit.com/r/automation/comments/1t5lk2n/most_dev_docs_are_either_hell_to_read_or_hell_to/</link>
+      <description><![CDATA[我已经成为一名开发人员多年并消耗了大量文档。 MDN、Stripe、Vercel、Notion，还有一百个较小的库，其中的文档基本上是某人在网上扔的自述文件，然后就到此为止了。 我还运营一个以开发为中心的 YouTube 频道 (CoderOne)，已经这样做了 8 年多，并将其发展到拥有 11.5 万订阅者，涵盖工具、工作流程和开发人员体验。文档不断出现。这是社区中抱怨最多的主题之一，老实说，这些抱怨是有道理的。 糟糕的文档通常会陷入两种失败模式之一： 1.难以阅读 - 文字墙，没有示例，糟糕的导航，两年内没有人接触过的过时内容，或者只是一种尖叫“我们为自己写的”的氛围。 2.很难编写——设置和维护过程中存在太多摩擦，开发人员根本不这样做。他们发布了该功能，但文档却是空的或陈旧的。多库龙力量强大但很重。 GitBook 还可以，但被锁定了。大多数团队最终都会得到一个半成品的 Notion 页面。 真正的问题不是开发人员不关心文档。他们确实这么做了。他们只是讨厌围绕它的工具，并且是其中的一员，无法忍受阅读糟糕的文档，这只会让我因为文档而想完全放弃该工具。 我开始构建一个开源工具 Doxa .so，这是一个文档模板，它消除了编写方面的摩擦，同时保持用户方面的所有内容干净且可读。很快它将拥有一个与其集成的文档代理，以读取您的源代码和内部 PRD 或文档，并为您编写生产应用程序。  想知道您使用 AI 自动生成或保持最新文档的经验吗？   由   提交 /u/islempenywis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1t5lk2n/most_dev_docs_are_either_hell_to_read_or_hell_to/</guid>
+      <pubDate>Wed, 06 May 2026 18:31:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在 n8n 中构建简历定制工作流程时学到的 5 件事</title>
+      <link>https://www.reddit.com/r/automation/comments/1t5i0c0/5_things_i_learned_building_a_cv_tailor_workflow/</link>
+      <description><![CDATA[       由   提交/u/easybits_ai   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1t5i0c0/5_things_i_learned_building_a_cv_tailor_workflow/</guid>
+      <pubDate>Wed, 06 May 2026 16:30:54 GMT</pubDate>
+    </item>
     <item>
       <title>LLM 和人工智能工作流程以及人工智能自动化的新内容。 （从未编码）Gime 路线图，以便我可以快速学习和实施</title>
       <link>https://www.reddit.com/r/automation/comments/1t5fuw7/new_to_llms_and_ai_workflows_and_ai_automation/</link>
@@ -69,46 +104,11 @@
       <pubDate>Wed, 06 May 2026 04:23:40 GMT</pubDate>
     </item>
     <item>
-      <title>“每一步”在代理成本令牌跟踪器中的实际含义是什么</title>
-      <link>https://www.reddit.com/r/automation/comments/1t51r5b/what_the_perstep_actually_means_in_agent_cost/</link>
-      <description><![CDATA[       https://preview.redd.it/wyetynskvfzg1.jpg?width=734&amp;format=pjpg&amp;auto=webp&amp;s=06838061358e1eadf0612ff5e078a405390792e0 什么是“每步”？实际上意味着在您的上下文中 当代理运行时，它不会进行一次 API 调用 - 它会进行多次调用。处理财务报告的 CFO 代理可能会执行以下操作： 运行开始 → 步骤 1：“retrieve_data” — 800 个代币 0.004 美元 → 步骤 2：“summarise_report” — 3,200 个代币 $0.016 ← 此处飙升 → 步骤 3：“calculate_ratios” — 600 个代币 $0.003 → 步骤 4：“format_output” — 400 个代币 $0.002 运行结束总计：5,000 $0.025  现在您的跟踪器只能看到 $0.025。按步骤显示，第 2 步是 64% 的成本所在，如果下周翻倍，您就知道该在哪里查找。 usage_events 表有一个 metadata 列 (JSONB)，它是专门为此类扩展构建的。并且跟踪 API 已接受负载中的元数据 字段。    由   提交/u/Realestate_Uno   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t51r5b/what_the_perstep_actually_means_in_agent_cost/</guid>
-      <pubDate>Wed, 06 May 2026 03:48:03 GMT</pubDate>
-    </item>
-    <item>
       <title>为什么没有人谈论几乎免费的日常生活基本工作的 Google Colab？</title>
       <link>https://www.reddit.com/r/automation/comments/1t4wpys/why_no_one_is_talking_about_google_colab_which_is/</link>
       <description><![CDATA[      大约三年来，我一直是 Google Colab 的忠实粉丝，说实话，它的功能令人惊叹。 例如，Fiverr 上的一位客户向我提供了 3500 张图像，并要求我删除所有图像的背景。他想知道我要收多少钱，我报了 200 美元。 他立即下了订单，没有再问任何问题。我告诉他工作会在24小时内完成，并且不会影响图像质量，他同意了。 当我交付订单时，他真的很感动，开始问我是如何做到这么快完成工作的，以及我是否有团队。我告诉他，这就是八年的经验。 实际上，我只是使用免费版本的 ChatGPT 创建了一个 Python 脚本，并在 Google Colab 中运行它。整个任务大约三个小时就完成了。  这只是一个例子。你可以用 Google Colab 做无数的事情，我想很多人仍然低估了它的真正威力。 现在你也可以在 Claude Code、Codex 中连接 Google Colab 的 MCP，做任何你想做的事情。   由   提交/u/mhamza_hashim   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1t4wpys/why_no_one_is_talking_about_google_colab_which_is/</guid>
       <pubDate>Tue, 05 May 2026 23:58:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>争议解决自动化缺少重要的背景</title>
-      <link>https://www.reddit.com/r/automation/comments/1t4oyup/dispute_resolution_automation_missing_context/</link>
-      <description><![CDATA[自动化系统提取了争议的所有标准证据。追踪号码、交货确认、订单详细信息。但它完全错过了客户明确确认他们收到所有东西并且喜欢它的电子邮件线程。该电子邮件本来可以轻松胜诉，但自动化系统并未将其识别为相关证据。输了一场我本可以手动获胜的争议。这些工具真的理解上下文吗？？   由   提交 /u/Mundane-Anybody-9726   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t4oyup/dispute_resolution_automation_missing_context/</guid>
-      <pubDate>Tue, 05 May 2026 19:01:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们谈论了很多关于自动化的内容。您主动选择保留哪些手册？</title>
-      <link>https://www.reddit.com/r/automation/comments/1t4glko/we_talk_a_lot_about_what_we_automate_what_do_you/</link>
-      <description><![CDATA[似乎这里几乎每一篇文章都是关于尝试构建一个完全不需手动操作的系统，让您永远不必再碰键盘。我完全明白为什么这很有吸引力，但我不认为自动化适合一切。 我一点也不反对自动化。如果一项任务需要零实际思考，那么脚本或工具就可以完成它。我依靠 n8n 来处理我的 webhooks 并将数据路由到我的 CRM，以及 phantombuster 来进行一些轻型网络抓取。我还通过 Expandi 进行 LinkedIn 推广，这样我就不会整天浪费时间点击“连接”或点赞帖子。添加一些基本的 zapier 流程​​来保持我的电子表格更新，我节省了大量时间。我认为没有理由手动完成这些任务，因为这类任务根本无法从人为操作中获得任何好处。  但是有些事情我断然拒绝自动化。我从来没有自动化我的实际写作，也没有完全自动化我的深入研究。我知道现在有无数的人工智能工具有望抓取网络并编写整个内容日历。我已经尝试过它们，但输出总是毫无生气。我写得更好，研究也很表面。我充其量得到了一些不错的想法，但他们总是需要一些人工智能无法完成的更深入的分析和详细的工作。 如果每个人都只是使用代理来生成完全相同的通用内容，那么没有人能脱颖而出。互联网正在变成与其他机器人交谈的机器人。老实说，我认为未来几年获胜的人将是那些严格使用自动化来买回时间的人。你专门将无聊的事情自动化，这样你就有精力去做实际上需要人脑的手动工作。 讽刺的是，随着自动化变得越来越容易，手动做事开始感觉像是一种竞争优势。   由   提交/u/varnajohn  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t4glko/we_talk_a_lot_about_what_we_automate_what_do_you/</guid>
-      <pubDate>Tue, 05 May 2026 14:09:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>我从 20 多个失败的人工智能自动化项目中学到了什么</title>
-      <link>https://www.reddit.com/r/automation/comments/1t4bzkr/what_i_learned_looking_at_20_failed_ai_automation/</link>
-      <description><![CDATA[在过去的一年里，我做了很多工作流程审核——那些试图用人工智能实现自动化的公司，结果被烧毁了，在再次尝试之前想了解原因。 失败集中在三个地方，与他们选择的模型无关。  在自动化开始之前，工作流程没有记录下来。每一个。团队试图自动化他们尚未规划的流程。人工智能只是以机器速度对现有的混乱进行编码。您无法自动化无法描述的流程。如果您无法在 10 分钟内将其绘制在白板上，那么您还没有准备好添加 AI。 没有评估层。自动化上线后，唯一的反馈信号是“它坏了”。或“看起来不错。”没有人抽查输出。没有人定义什么是正确的。无声错误会持续数周或数月。 500 项日常任务的 3% 幻觉率是指每天有 15 个错误输出 — 如果您不注意，就看不到。 错误的问题首先会被自动化。团队将最响亮的部分自动化，而不是影响最大的部分。首席执行官抱怨报告格式，因此它被自动化了。与此同时，引线布线是一场无人测量的灾难。优先顺序为：错误率×数量×每次错误的成本。安静、重复、高风险的事情几乎总是获胜。  这些都不是硬性修复。绘制流程，定义良好的外观，从第一天开始进行衡量。 您见过的自动化项目出错的最令人惊讶的地方是什么？   由   提交 /u/Alert_Journalist_525   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t4bzkr/what_i_learned_looking_at_20_failed_ai_automation/</guid>
-      <pubDate>Tue, 05 May 2026 10:56:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么是从实验开始但后来变成游戏规则改变者的自动化？</title>
-      <link>https://www.reddit.com/r/automation/comments/1t4a0w9/whats_an_automation_that_started_as_an_experiment/</link>
-      <description><![CDATA[例如，我建立了一个稍微有些疯狂的实验，其中每个入站线索都会立即得到判断。如果有人使用“紧急”、“价格”或“尽快”等词语，他们就会得到快速反应并得到尖锐、直接的答复。如果他们说“只是探索”之类模糊的话，系统就会故意放慢速度，做出更柔和、延迟的反应。我花了 20 分钟使用 Zapier + Google Sheets - 主要是为了看看将语气与意图相匹配是否会产生任何影响。 我认为这可能会适得其反，但最终却适得其反。它过滤掉了低意的噪音，让认真的买家感到被优先考虑，并几乎立即提高了对话的质量。  很好奇，您作为实验构建的自动化程序是什么，后来变成了游戏规则的改变者？   由   提交/u/impeteouschestnut   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t4a0w9/whats_an_automation_that_started_as_an_experiment/</guid>
-      <pubDate>Tue, 05 May 2026 09:09:43 GMT</pubDate>
     </item>
     </channel>
 </rss>

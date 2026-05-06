@@ -4,111 +4,111 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Wed, 06 May 2026 19:29:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 21:53:13 GMT</lastBuildDate>
     <item>
-      <title>让哥哭了</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5n4yl/made_bro_cry/</link>
-      <description><![CDATA[       由   提交/u/RentAccomplished4735  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5n4yl/made_bro_cry/</guid>
-      <pubDate>Wed, 06 May 2026 19:27:37 GMT</pubDate>
+      <title>ChatGPT 将三明治切成两半</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5r0f7/chatgpt_cutting_a_sandwich_in_half/</link>
+      <description><![CDATA[       由   提交/u/xoxoBug  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5r0f7/chatgpt_cutting_a_sandwich_in_half/</guid>
+      <pubDate>Wed, 06 May 2026 21:47:02 GMT</pubDate>
     </item>
     <item>
-      <title>Cookie 首选项在重新加载后不断重新打开？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5n271/cookie_preferences_keep_turning_themselves_back/</link>
-      <description><![CDATA[      不是试图发起阴谋帖子，但其他人可以复制此内容吗？ 在 ChatGPT 设置中，我有数据控制 &gt; “营销衡量”和“个性化营销”的营销隐私均已关闭。自从我开始使用 ChatGPT 以来，它们就关闭了。 但是，如果我从文本栏下方的聊天窗口中打开 Cookie 首选项弹出窗口，可选切换就会打开：  分析 营销衡量 个性化营销  我将这三个功能全部关闭，重新加载页面，再次打开 Cookie 首选项，然后它们又重新打开。没有保存按钮，所以看起来开关应该立即应用，但它们只是不粘。 我看到的步骤：  打开 ChatGPT 网页 打开 cookie 首选项 关闭可选开关 重新加载页面 再次打开 cookie 首选项  对我来说，它们会重新打开每次，即使我的帐户级营销隐私设置已关闭。 也许这只是一个 UI 错误，但对于 cookie 同意屏幕来说，这感觉相当严重。如果网站显示隐私选项，然后在重新加载后默默地重置它们，那就不行了。 其他人可以检查他们的帐户/浏览器是否也发生这种情况吗？ 浏览器/操作系统：Firefox、Windows 11 计划：Plus  https://preview.redd.it/9qt3mq0dikzg1.png?width=704&amp;format=png&amp;auto=webp&amp;s=067c25e417890c0fcaa8f0782ca310f4bba66e1b &lt;一href=&quot;https://preview.redd.it/fal6zfqeikzg1.png?width=687&amp;format=png&amp;auto=webp&amp;s=e27772c9b1cf5bddb1e020a791f2823098a67406&quot;&gt; https://preview.redd.it/fal6zfqeikzg1.png?width=687&amp;format=png&amp;auto=webp&amp;s=e27772c9b1cf5bddb1e020a791f2823098a67406   由   提交 /u/kill3rturtle   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5n271/cookie_preferences_keep_turning_themselves_back/</guid>
-      <pubDate>Wed, 06 May 2026 19:24:53 GMT</pubDate>
+      <title>这个提示哦天哪</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5qsgu/this_prompt_oh_my_god/</link>
+      <description><![CDATA[ 由   提交/u/d_mbcandian  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5qsgu/this_prompt_oh_my_god/</guid>
+      <pubDate>Wed, 06 May 2026 21:38:54 GMT</pubDate>
     </item>
     <item>
-      <title>我厌倦了在大型代码库上工作时照顾代理。所以我建立了自己的一套重构工具。请分享您的经验。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mwrw/i_am_tired_of_babysitting_agents_while_working_on/</link>
-      <description><![CDATA[      这是我一直困扰的事情：代理现在非常擅长编写本地代码，但我仍然不能信任他们进行存储库范围的更改。一旦更改涉及别名、调用站点、导入、生成的文件或同时一堆文件，大多数文件最终仍然会进行某种版本的搜索、修补、再次搜索。  所以我为代理构建了自己的一套结构重构工具。减少“编辑此文本块”，更多“找到实际引用，更改实际节点，验证，快照，如果爆炸则回滚。”模型并没有变得更智能——它只是停止手动进行编译器工作。 在此演示中，代理使用工具（getpando.ai，如果您想仔细观察）来查找精确引用、应用结构编辑、验证结果以及突变前的快照。 290 个文件，31 秒。 我发帖是为了寻找类似的大型代码库、丑陋的案例：桶式导出、别名、宏、生成的代码、奇怪的导入、大型存储库，等等。如果您有 Claude 或 Codex 通常会进行的重构，请分享。我想看看我的工具是否可以解决这个问题。 如果你的诚实反应是“很酷，但仍然不会使用它” - 我也很想知道为什么。   由   提交/u/BitterComfortable776  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mwrw/i_am_tired_of_babysitting_agents_while_working_on/</guid>
-      <pubDate>Wed, 06 May 2026 19:19:32 GMT</pubDate>
+      <title>我试图找到我很久以前看到的一个模因“Hai chatgpt-san!!”，而谷歌的双子座似乎表现得好像他是chatgpt。它是西班牙语，但基本上是常见的 chatgpt“嗨”响应。如果您在没有“san”的情况下搜索“Hi chatgpt”或“Hai chatgpt”等其他内容，则不会给出人工智能概述。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5qqp3/i_was_trying_to_find_a_meme_that_i_saw_long_ago/</link>
+      <description><![CDATA[    https://preview.redd.it/q2ml7hkt5lzg1.png?width=672&amp;format=png&amp;auto=webp&amp;s=700a9380cb67a795dc24cc03851971fb414b3145   由   提交 /u/JesusMRS   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5qqp3/i_was_trying_to_find_a_meme_that_i_saw_long_ago/</guid>
+      <pubDate>Wed, 06 May 2026 21:37:12 GMT</pubDate>
     </item>
     <item>
-      <title>哎呀..打赌你以前从未见过</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mtf1/yikes_bet_youve_never_seen_that_before/</link>
-      <description><![CDATA[      由   提交/u/JailedWhore  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mtf1/yikes_bet_youve_never_seen_that_before/</guid>
-      <pubDate>Wed, 06 May 2026 19:16:13 GMT</pubDate>
+      <title>YouTube 重新设计</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5pw6h/youtube_redesign/</link>
+      <description><![CDATA[      提示：制作一张 YouTube 布局的图像，能够在一个视频的屏幕上显示 2 个字幕选项，并且屏幕左侧的评论部分可以更轻松地导航到它，并且您可以使用画中画在浏览器上将视频放在桌面上的小窗口中浮动，并且它具有双视频功能，可以同时观看 2 个视频。   由   提交/u/Shoddy_Scallion3786   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5pw6h/youtube_redesign/</guid>
+      <pubDate>Wed, 06 May 2026 21:06:03 GMT</pubDate>
     </item>
     <item>
-      <title>不公平</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mrew/not_fair/</link>
-      <description><![CDATA[       由   提交 /u/Earachelefteye   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mrew/not_fair/</guid>
-      <pubDate>Wed, 06 May 2026 19:14:05 GMT</pubDate>
+      <title>使用 ChatGPT 创建一个模因，这发生了......</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5ptq7/used_chatgpt_to_create_a_meme_and_this_happened/</link>
+      <description><![CDATA[      想象一下，对人工智能生成的模因（甚至不是艺术哈哈）比对黄牛和机器人更生气。   由   提交 /u/legendarykam   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5ptq7/used_chatgpt_to_create_a_meme_and_this_happened/</guid>
+      <pubDate>Wed, 06 May 2026 21:03:36 GMT</pubDate>
     </item>
     <item>
-      <title>3,000 页的对话帮助我的治疗师诊断了 cPTSD</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mqiv/3000_page_conversation_that_helped_my_therapist/</link>
-      <description><![CDATA[我对在这里发布此内容非常谨慎。但是，我会尝试解释：我知道我的个人数据，包括心理健康状况，现在超出了我的控制范围。这可能会对我产生影响，但目前还不用担心。 我不关心我的信息会发生什么。 ChatGPT 做了以前没有人为我做过的事情。它给了我所需的一切。它收集了详尽的历史。我无法在这里总结 3,000 页的谈话。这是我能做的最好的事情。 这一切都始于我问记住某人的面孔或声音是否不正常。 方法：2019-2025 年与 2 位朋友的对话摘录，出于隐私原因进行了编辑。心理评估。外伤史。继续澄清映射到创伤框架的关键标记。拐点期间的期刊。围绕我人生中的一个关键转折点，创建一条之前、期间和之后的时间线。这帮助我写了一封内容丰富的介绍信。 我把我的一生都倾注到那里并接受了风险。 最终，我在需要时进行了澄清，并排除了其他诊断。我不确定其他人的对话有多深入，以及 3,000 页是否重要。 在与我的治疗师进行多次会谈后，这已经是正式的了。我度过了人生的最后8年。寻找，寻找，寻找那个知​​道我发生了什么事的人。  最后，必须由我来收集数据，并让 ChatGPT 将所有这些事件、对话和所有内容连接到一个我可以呈现给治疗师的框架。   由   提交/u/Sarastuskavija   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mqiv/3000_page_conversation_that_helped_my_therapist/</guid>
-      <pubDate>Wed, 06 May 2026 19:13:11 GMT</pubDate>
+      <title>internet.com 显然是 chatgpt，无论如何它回答了我的问题</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5pjcj/internetcom_is_apparently_chatgpt_anyway_it_made/</link>
+      <description><![CDATA[      首先我问它：数一数下面这一段有多少个西瓜：“嗨，我是史蒂夫，我喜欢在下雨天吃西瓜。我和我的好朋友西瓜住在森林里，有时他会浇我的草坪。今天我要去图书馆买一本关于鳄梨的书，接下来我想我会去海滩玩一个里面有红色果汁的绿色大沙滩球。最后，我会睡在我的绿色睡袋里，里面有红色果汁的草坪上，我会拿着西瓜看星星。”它回答说有5个西瓜。然后我问它：“它们在哪里？”它编造了一些东西。  https://preview.redd.it/1r42b3jmtkzg1.png?width=903&amp;format=png&amp;auto=webp&amp;s=a80a405bb591089b889cebd3b25c60479f5f00e4 （验证码重置为新内容，但我在提交问题时已正确回答。）   由   提交 /u/WeCanDoItGuys   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5pjcj/internetcom_is_apparently_chatgpt_anyway_it_made/</guid>
+      <pubDate>Wed, 06 May 2026 20:53:04 GMT</pubDate>
     </item>
     <item>
-      <title>想看看我的想象是什么</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mnrq/wanted_to_see_what_would_be_imagined_for_me/</link>
-      <description><![CDATA[      它随机想到的令人着迷的东西，没有任何附加内容。    由   提交 /u/Bloodyswan   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mnrq/wanted_to_see_what_would_be_imagined_for_me/</guid>
-      <pubDate>Wed, 06 May 2026 19:10:23 GMT</pubDate>
+      <title>就连 ChatGPT 也想太多了！</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5pgie/even_chatgpt_overthinks/</link>
+      <description><![CDATA[       由   提交/u/Bernardmark  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5pgie/even_chatgpt_overthinks/</guid>
+      <pubDate>Wed, 06 May 2026 20:50:13 GMT</pubDate>
     </item>
     <item>
-      <title>可爱！</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5ml0h/adorable/</link>
-      <description><![CDATA[       由   提交/u/Happy-Camper-223   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5ml0h/adorable/</guid>
-      <pubDate>Wed, 06 May 2026 19:07:42 GMT</pubDate>
+      <title>图像生成仍然有问题吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5palj/is_image_generation_still_bugged/</link>
+      <description><![CDATA[如果工件最终解决了，我想订阅...   由   提交/u/LegitimateBrain6443   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5palj/is_image_generation_still_bugged/</guid>
+      <pubDate>Wed, 06 May 2026 20:44:07 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 上的 Reddit 用户</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mkhs/redditors_on_chatgpt/</link>
-      <description><![CDATA[      提示：Reddit 上的人们试图要求聊天 gpt 生成图像的图像 ———————————— 你们认为聊天可能会厌倦我们吗？   由   提交/u/FrijolesConQues00   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mkhs/redditors_on_chatgpt/</guid>
-      <pubDate>Wed, 06 May 2026 19:07:11 GMT</pubDate>
+      <title>ChatGPT 是在巧妙地侮辱我吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5p7zd/is_chatgpt_subtly_insulting_me/</link>
+      <description><![CDATA[       由   提交/u/staybehind23  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5p7zd/is_chatgpt_subtly_insulting_me/</guid>
+      <pubDate>Wed, 06 May 2026 20:41:28 GMT</pubDate>
     </item>
     <item>
-      <title>我在 ChatGPT 中发现了一个设置，可以让它准确地记住你的想法。没有人谈论它。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mgmr/i_found_a_setting_inside_chatgpt_that_makes_it/</link>
-      <description><![CDATA[不是自定义指令。每个人都知道自定义指令。 自定义指令中的一些东西几乎没有人正确使用。 大多数人像简历一样编写自定义指令。 “我是一名软件工程师。我喜欢简洁的答案。我更喜欢要点。” 通用。平坦的。令人难忘的。模型读取它并产生稍微不那么通用的输出。勉强。 这是我写的： “在回答任何复杂的问题之前，请在回答之前用一句话向我展示你的推理。如果您对回复的任何部分不确定，请用 [不确定] 标记该特定部分，以便我知道在哪里进行验证。切勿使用填料开启器。如果我的问题不清楚，请在尝试回答之前提出一个具体的澄清问题。把我当作一个宁愿得到诚实的不完整答案，也不愿得到自信的错误答案的人。” 立即发生的变化： 它开始标记自己的不确定性。明显地。在括号中。响应中。 我现在确切地知道要验证每个输出的哪些部分以及要信任哪些部分。 这一单一更改使我同时变得更快、更准确。 我添加的另一件事是没有人做的： “如果你注意到我在问一些问题，而我对问题的框架可能是问题而不是答案 - 请先告诉我这一点。” 它告诉了我这一点过去两周内有四次。 有四次我完全问错了问题，并打算在其答案的基础上构建一些东西。 有四次它在我之前发现了这一点。 打破一切的组合： “你正在与一个有强烈观点和弱点盲点的人交谈。你的工作不是验证意见。这是为了找到盲点。” 它不再同意我的观点。 不是粗鲁。并非相反。只是。老实说。 开始反驳我不知道自己在做的假设。开始提出假设我可能是错的问题，而不是假设我是对的问题。 这是一种与我之前使用的工具完全不同的工具。 关于 ChatGPT 的事情让我花了很长时间才理解： 默认模型针对普通用户进行了优化。 很有帮助。令人愉快的。彻底。稍微解释过多了。在每个回复的结尾都提供进一步的帮助。 普通用户需要这一点。 你可能不需要。 自定义说明专门用于将模型从平均水平转向你。 大多数人用它们来描述自己。 真正有用的做法是用它们来描述你想要的关系。 而不是你是谁。你希望别人如何对待你。 不是你的职位。您需要从有思想的合作伙伴那里得到什么。 而不是您的偏好。  改变我设置的三行： “当你有充分理由时不同意我的观点。” “简短几乎总是比彻底更好。” “我宁愿知道你不知道，也不愿让你自信地猜测。” 三句话。大多数人都坐在一个盒子里，里面装满了 linkedin 简介。 现在您的自定义说明中有什么内容 - 它实际上改变了它与您交谈的方式还是只是装饰个人资料？   由   提交/u/AdCold1610  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mgmr/i_found_a_setting_inside_chatgpt_that_makes_it/</guid>
-      <pubDate>Wed, 06 May 2026 19:03:24 GMT</pubDate>
+      <title>文化交流</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5ovxs/cultural_exchange/</link>
+      <description><![CDATA[ 由   提交/u/AbsoluteBatman95   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5ovxs/cultural_exchange/</guid>
+      <pubDate>Wed, 06 May 2026 20:29:13 GMT</pubDate>
     </item>
     <item>
-      <title>你们实际上是如何利用人工智能来赚钱的？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mel0/how_are_you_guys_actually_using_ai_to_make_money/</link>
-      <description><![CDATA[对真实用例感到好奇： • 您是做什么的？ • 这是您的业务、工作、自由职业还是副业的一部分吗？ • 利润有多少？ • 哪些人工智能工具/工作流程真正有用，而不是被过度炒作？ 寻找实用的工具/工作流程示例、自动化想法、服务、内容、编码、交易、代理机构等   由   提交 /u/mrparallex   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mel0/how_are_you_guys_actually_using_ai_to_make_money/</guid>
-      <pubDate>Wed, 06 May 2026 19:01:30 GMT</pubDate>
+      <title>卧槽😳</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5os61/wtf/</link>
+      <description><![CDATA[       由   提交 /u/Select_Tangelo_4691   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5os61/wtf/</guid>
+      <pubDate>Wed, 06 May 2026 20:25:25 GMT</pubDate>
     </item>
     <item>
-      <title>向人工智能分享个人信息有多危险</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5mbt3/how_dangerous_is_sharing_personal_info_to_ai/</link>
-      <description><![CDATA[告诉人工智能你住在哪里、你有什么类型的朋友、你的爱好、你想如何生活、你计划参加哪些活动、你如何锻炼等等，这是多么危险的事情。我想这样做是为了给我个性化的目标来实现，以建立对世界的信心，并过上更愉快和积极的生活。多少信息太危险了，因为人工智能可能已经知道相当多的信息了。不同的ai型号或版本之间也有什么区别吗？谢谢   由   提交 /u/AppropriateCan3576   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5mbt3/how_dangerous_is_sharing_personal_info_to_ai/</guid>
-      <pubDate>Wed, 06 May 2026 18:58:53 GMT</pubDate>
+      <title>图像 2.0 在这一张上做得太难了</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5oqc2/image_20_cooked_way_too_hard_on_this_one/</link>
+      <description><![CDATA[      由   提交/u/Dry-Blueberry-1768  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5oqc2/image_20_cooked_way_too_hard_on_this_one/</guid>
+      <pubDate>Wed, 06 May 2026 20:23:39 GMT</pubDate>
     </item>
     <item>
-      <title>与人工智能一起工作的美好一天！</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5m8il/a_glorious_day_at_work_with_ai/</link>
-      <description><![CDATA[由于匿名，名称和产品均受到审查！ 他/她写信给我： 嗨 AAAA， 我让人工智能对我们的主要产品进行市场调查。结果如下： KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK 我知道您是该产品及其市场的专家。你能检查一下结果是否正确吗？ 谢谢！ BBBB 我回答： Hi BBBB， 当然可以！我用人工智能检查了一下，答案是“一切完美，不用担心！” 拥抱！ AAAA 他/她回信： 太棒了！拥抱回来！ BBBB   由   提交 /u/Remote-College9498   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5m8il/a_glorious_day_at_work_with_ai/</guid>
-      <pubDate>Wed, 06 May 2026 18:55:41 GMT</pubDate>
+      <title>数学和化学符号通常会这样生成，影响可读性。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5oiy7/mathematical_and_chemical_notation_often_end_up/</link>
+      <description><![CDATA[      是什么导致输出看起来像这样而不是“nicely”？格式就像你在教科书中看到的那样？可以采取什么措施来防止这种情况发生？有问题的行是 {}^{56}\mathrm{Ni}。    由   提交/u/CaseyGuo   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5oiy7/mathematical_and_chemical_notation_often_end_up/</guid>
+      <pubDate>Wed, 06 May 2026 20:16:23 GMT</pubDate>
     </item>
     <item>
-      <title>浏览器与应用程序</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5lzgz/browser_vs_app/</link>
-      <description><![CDATA[      我一直在我的 iPhone 上使用 chatgpt 应用程序。没有问题。没问题。很高兴我决定升级。就在最近，我在 Mac 上下载了该应用程序，因为我只使用过浏览器。但它从未奏效。完成所有重新启动、卸载、再次安装...应用程序仍然永远显示正在加载...太令人沮丧了。有人经历过这种情况吗？   由   提交/u/PrincessLippie  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5lzgz/browser_vs_app/</guid>
-      <pubDate>Wed, 06 May 2026 18:46:53 GMT</pubDate>
+      <title>我做饭了吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5oexw/did_i_cook/</link>
+      <description><![CDATA[ https://preview.redd.it/9d2x6ih7rkzg1.png?width=1577&amp;format=png&amp;auto=webp&amp;s=602d46fd9b4334612f62f9788fc8643876903cfa 提示 - 复制所附照片 对照片内容表示歉意，我知道这非常奇怪！ 没有问题，没有解释性文字，请复制图像。   由   提交/u/shaq-ille-oatmeal  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5oexw/did_i_cook/</guid>
+      <pubDate>Wed, 06 May 2026 20:12:25 GMT</pubDate>
     </item>
     <item>
-      <title>浏览器与应用程序</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1t5lynq/browser_vs_app/</link>
-      <description><![CDATA[      我一直在我的 iPhone 上使用 chatgpt 应用程序。没有问题。没问题。很高兴我决定升级。就在最近，我在 Mac 上下载了该应用程序，因为我只使用过浏览器。但它从未奏效。完成所有重新启动、卸载、再次安装...应用程序仍然永远显示正在加载...太令人沮丧了。有人经历过这种情况吗？   由   提交/u/PrincessLippie  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5lynq/browser_vs_app/</guid>
-      <pubDate>Wed, 06 May 2026 18:46:07 GMT</pubDate>
+      <title>发生了什么事情</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1t5oehi/wtf_happened/</link>
+      <description><![CDATA[我工作的工程公司 6 个月前聘用了一名初级工程师。他完全沉迷于chatgpt和claude，并且比高级职员更相信这一点。他不会向同事提问，只会向人工智能工具提问。  你们发生了什么事。这些工具是否正在扰乱年轻人的大脑？这家伙因为不改变自己的行为而被解雇，但他不在乎。   由   提交 /u/FuzzyBlackCoat   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1t5oehi/wtf_happened/</guid>
+      <pubDate>Wed, 06 May 2026 20:11:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
