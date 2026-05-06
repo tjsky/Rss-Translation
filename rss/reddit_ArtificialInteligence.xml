@@ -4,13 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Wed, 06 May 2026 02:26:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 05:53:09 GMT</lastBuildDate>
     <item>
-      <title>人工智能将在未来几年为我们提供哪些令人毛骨悚然、道德上有问题的东西？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t4x1qp/what_are_some_creepy_ethically_questionable/</link>
-      <description><![CDATA[这是我想到的三个……你认为人工智能会带来什么？ L  你所爱的人将会死去。如果你选择的话，你可以让它们在屏幕上永远像一张脸一样存在，一张看起来和他们一模一样的脸，像他们一样思考，并吸取所提供的各种信息来模仿他们。我们已经在小说中看到过这种情况，但这绝对是很多人都会做的事情。 定制的色情材料。您可以上传照片或任何您想要的人（朋友、同事、以前的同学等），几秒钟内您就可以将它们放入色情视频中。这个会有的。看看色情片对当今世界的影响。我们什么也没看到！ 你只会像汽车一样成为机器人。它们将被出售并重新出售。他们的人工智能大脑会学习并不断学习，偶尔会进行物理升级。它们将成为我们日常生活各个方面的一部分。他们会开车、做煎蛋卷、和我们一起打网球，并在晚上给我们盖被子。就像智能手机一样，它们将由普通人或所有经济阶层拥有。他们将是不可或缺的。     由   提交/u/georgewalterackerman   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t4x1qp/what_are_some_creepy_ethically_questionable/</guid>
-      <pubDate>Wed, 06 May 2026 00:12:19 GMT</pubDate>
+      <title>感觉双子座的反应质量每天都在倒退。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t53wlr/feeling_like_gemini_response_quality_regressing/</link>
+      <description><![CDATA[我已经使用 Gemini 很长时间了，我通常会与其他 AI 模型交叉检查它的响应。我注意到的一个问题是双子座经常产生幻觉。它似乎也根据用户的喜好过多地调整语气，而不是关注事实的准确性。 每当我指出这一点时，它经常会用诸如“你击中要害”之类的短语来回应，如果频繁重复，就会变得令人恼火。另一个令人沮丧的问题是，它不必要地提出以前对话中的细节，即使它们完全无关。 例如，如果我曾经在一次对话中讨论了一种南印度食物 dosa，后来又认真讨论了地缘政治，双子座可能会突然在回复中插入类似“因为你喜欢来自南印度的 dosa ......”之类的内容。这感觉无关紧要且分散注意力，尤其是在严肃的讨论中。 到目前为止，我愿意忽略其中一些问题，但最近我开始注意到更明显的错误和错误信息。有时它甚至无法识别基本事实。例如，如果我询问某个演员的著名电影，它可能会列出其他演员的电影。 我希望 Google 能够提高 Gemini 的事实准确性，减少幻觉，并使其内存使用更加相关和上下文感知。   由   提交 /u/Kalyankarthi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t53wlr/feeling_like_gemini_response_quality_regressing/</guid>
+      <pubDate>Wed, 06 May 2026 05:38:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>数据管道监控看起来很好，但它却以无声的故障困扰着你，你如何尽早发现这一点？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t53vyl/data_pipeline_monitoring_looks_fine_until_it/</link>
+      <description><![CDATA[数据管道看起来很健康，但实际上却并非如此。一切都是绿色的，指标稳定，没有警报。然后你意识到下游数据是错误的，实际上没有任何失败。 我们的设置非常典型：spark -&gt;卡夫卡-&gt; db，带有仪表板以及有关滞后和错误率的警报。对于明显的故障效果很好。问题是那些沉默的人。模式漂移只会破坏一个消费者。分区倾斜会缓慢降低性能。节点运行不均匀，但不足以触发警报。 上周，我们的管道丢弃了约 20% 的事件，因为解析器开始在新的数据模式上失败。没有警报，指标中没有任何明显的信息，日志噪音太大，无法及早捕获。 我们尝试在不同阶段添加更多检查，例如记录计数和验证，但它很快就会变成噪音。 如何尽早捕获这些类型的静默故障，而不用警报淹没系统？什么对你真正有用   由   提交 /u/Impressive_Film2188   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t53vyl/data_pipeline_monitoring_looks_fine_until_it/</guid>
+      <pubDate>Wed, 06 May 2026 05:37:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coinbase 想要一个人的团队……那么为什么这些人不建立自己的初创公司呢？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t525vh/coinbase_wants_1person_teams_so_why_wouldnt_those/</link>
+      <description><![CDATA[Coinbase 的信息很明确： 1 个人团队应该： - 交付产品 - 构建 UI/UX - 扩展系统  我的问题是，如果一个人可以完成所有这些，为什么他们应该在一家正在衰落的加密公司工作？  他们可以构建自己的！ 我错过了什么吗？   由   提交 /u/houmanasefiau   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t525vh/coinbase_wants_1person_teams_so_why_wouldnt_those/</guid>
+      <pubDate>Wed, 06 May 2026 04:07:55 GMT</pubDate>
     </item>
     <item>
       <title>为什么没有人谈论几乎免费的日常生活基本工作的 Google Colab？</title>
@@ -41,6 +55,13 @@
       <pubDate>Tue, 05 May 2026 18:24:54 GMT</pubDate>
     </item>
     <item>
+      <title>Meta 遭遇大规模诉讼——出版商称人工智能是在“被盗”书籍上接受训练的</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t4mfzn/meta_hit_with_massive_lawsuitpublishers_say_ai/</link>
+      <description><![CDATA[ 由   提交/u/Professional-Web954  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t4mfzn/meta_hit_with_massive_lawsuitpublishers_say_ai/</guid>
+      <pubDate>Tue, 05 May 2026 17:34:24 GMT</pubDate>
+    </item>
+    <item>
       <title>Andrej Karpathy 表示，作为一名程序员，他从未感到如此落后。让我们先理解这一点。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t4lt8j/andrej_karpathy_said_hes_never_felt_more_behind/</link>
       <description><![CDATA[他最近演讲中的一些事情让我无法停止思考：  他说 2025 年 12 月是真正的转折点。不是逐步改善。这是一个巨大的改变，代理工作流程突然变得可靠起来。很多人都错过了。 他构建了一个完整的应用程序 (MenuGen) 来显示餐厅菜单项的照片。然后看到有人用多模式人工智能提示解决了同样的问题。用他自己的话来说，他的整个应用程序“不应该存在”。 他将振动编码与他现在所说的代理工程分开。 Vibe 编码为每个人提高了发言权。代理工程是专业人士在不降低质量标准的情况下加快速度的方法。非常不同的事情。 参差不齐的智力问题是真实存在的。可以重构 10 万行代码库的同一模型将告诉您步行 50 米到洗车场洗车。仍然不知道你需要开车去那里。 他最难忘的一句话甚至不是他的。有人告诉他，“你可以外包你的思考，但你不能外包你的理解。”这句话的意思不同。  无论如何，我看了完整的采访并写下了真正让我印象深刻的部分： 您可以在此处阅读。   由   提交 /u/narutomax   [链接] [评论]]]></description>
@@ -62,13 +83,6 @@
       <pubDate>Tue, 05 May 2026 14:17:38 GMT</pubDate>
     </item>
     <item>
-      <title>当工人们担心人工智能时，英伟达的黄仁勋表示人工智能正在“创造大量就业机会”</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t4f0be/as_workers_worry_about_ai_nvidias_jensen_huang/</link>
-      <description><![CDATA[ 由   提交 /u/techzexplore   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t4f0be/as_workers_worry_about_ai_nvidias_jensen_huang/</guid>
-      <pubDate>Tue, 05 May 2026 13:09:15 GMT</pubDate>
-    </item>
-    <item>
       <title>谷歌 DeepMind 员工就军事人工智能交易投票成立工会</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t4esxl/google_deepmind_workers_vote_to_unionize_over/</link>
       <description><![CDATA[“伦敦 Google DeepMind 的员工已投票成立工会，以阻止人工智能实验室向美国和以色列军方提供其技术。”   由   提交 /u/shikizen   [链接] [评论]]]></description>
@@ -76,25 +90,11 @@
       <pubDate>Tue, 05 May 2026 13:01:24 GMT</pubDate>
     </item>
     <item>
-      <title>让我们记住 AGI 的真正基准（效率很重要）</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t4d8fr/lets_remember_the_true_benchmark_for_agi/</link>
-      <description><![CDATA[人类基因组是一个 800MB 的文件，用于构建有意识的机器。  它在 37 万亿个节点上连接了 100 万亿个神经链接，实时修补其代码，仅消耗一个三明治的热量即可运行一台 20 瓦 exaFLOP 超级计算机，并将 215 PB 数据打包到一克中。 生物进化的效率是惊人的。    由   提交 /u/nomadicsamiam   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t4d8fr/lets_remember_the_true_benchmark_for_agi/</guid>
-      <pubDate>Tue, 05 May 2026 11:55:04 GMT</pubDate>
-    </item>
-    <item>
       <title>警告：人为“Gift Max”漏洞花费了我 800 欧元，降低了我的 SCHUFA 分数，并让我被禁止。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t49ovx/warning_anthropic_gift_max_exploit_cost_me_800/</link>
       <description><![CDATA[我写这篇文章是为了警告和寻求帮助。我是德国一名表现最好的数据科学双学生，Anthropic 当前的计费安全故障刚刚摧毁了我的每月预算和我的信誉。 4 月 27 日，我的帐户遭到了总计超过 800 欧元的未经授权的收费，特别是多次“Gift Max 20X”费用。 （214.20 欧元）和“Gift Max 5X” （107.10 欧元）购买。  2FA 处于活动状态。 * 3-D Secure 从未获得授权。 * 在我看到电子邮件之前，礼品代码已由第三方生成并立即兑换。  这不是一个孤立事件。这是 Anthropic 礼品计费管道中的一个系统性缺陷。检查 GitHub 问题 #51404 和 #51168（2026 年 4 月），或旧的相关问题，例如 #41499 和 #47290。有一个记录在案的“Gift Max”模式。黑客绕过 MFA 窃取保存的卡的盗窃行为。这一天，status.claude.com页面更新为“正在调查”关于“帐单错误增多和未经授权的订阅变更。” 由于超过 800 欧元从我的帐户中被吸走，我随后的每月火车票、互联网和水电费付款均失败。 * 德国人都知道，多次失败的直接借记 (Lastschrift) 会立即降低您的 SCHUFA 分数。  由于 Anthropic 的“安全”保障，我作为一名学生的经济状况现在已经岌岌可危。失败了。  Anthropic 的回应：沉默和禁令我发送了一封专业电子邮件，其中包含我的警方报告编号 (Strafanzeige)、GitHub 证据以及对人类专家的请求。 他们的回应是禁止我的帐户。我无法访问所有 WIP 项目、研究和数据科学聊天记录。他们不仅让我被抢劫，还让我被抢劫。他们因我举报此事而让我保持沉默。尚未退款。 我的立场：我曾经主张 Anthropic 的“宪政人工智能”。方法。现在，看到他们如何对待自己技术漏洞的受害者，我再也不会为他们辩护。在我未来作为数据科学家与德国政府和私营部门打交道时，我将引用此作为“人工智能安全”如何实现的主要案例研究。营销经常掩盖公司在基本金融科技安全方面的完全疏忽。 这篇文章是在 Gemini 的帮助下撰写的。   由   提交/u/peowwww   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t49ovx/warning_anthropic_gift_max_exploit_cost_me_800/</guid>
       <pubDate>Tue, 05 May 2026 08:49:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>这就是非技术人员使用人工智能的目的！</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t45otc/this_is_what_nontech_bros_are_using_ai_for/</link>
-      <description><![CDATA[ 由   提交/u/YogurtWild   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t45otc/this_is_what_nontech_bros_are_using_ai_for/</guid>
-      <pubDate>Tue, 05 May 2026 04:59:49 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
