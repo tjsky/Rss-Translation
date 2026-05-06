@@ -4,13 +4,41 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 06 May 2026 05:54:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 08:17:44 GMT</lastBuildDate>
     <item>
-      <title>直接询问交易者：什么会让你真正信任人工智能的购物推荐？</title>
-      <link>https://www.reddit.com/r/software/comments/1t544g0/asking_dealhunters_directly_what_would_make_you/</link>
-      <description><![CDATA[ 由   提交 /u/WritingDue8452   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t544g0/asking_dealhunters_directly_what_would_make_you/</guid>
-      <pubDate>Wed, 06 May 2026 05:50:43 GMT</pubDate>
+      <title>构建了一个完全在浏览器中运行的批量图像压缩器......需要诚实的反馈</title>
+      <link>https://www.reddit.com/r/software/comments/1t56ktr/built_a_bulk_image_compressor_that_runs_entirely/</link>
+      <description><![CDATA[我一直在开发一个图像工具，想要测试一些不同的东西 - 一切都发生在用户的设备上，而不是将文件上传到服务器。 主要思想：  无需上传（因此无需等待大文件） 使用设备电源→在更好的机器上更快 应该保持质量完好  我对其进行了压力测试：  3,672 个图像 总大小：~15.75 GB 输出：~797 MB 时间：1 分 45 秒（在我的机器上）  老实说……我期待可见的质量损失，但我没有注意到任何明显的东西（也许我错过了） ）。 这是工具： https://ilovecompress.com/image-tools/bulk-image-compressor 我实际上希望人们打破它。 我希望得到反馈的事情：  真的吗？保持质量还是我有偏见？ 低端设备上的性能（这对我来说是一个很大的未知数） UI/UX - 有什么令人困惑或烦人的地方吗？ 失败的地方（文件限制、崩溃、奇怪的错误等） 这与现有工具相比是否有用？  残酷点。我宁愿听到哪里出了问题，也不愿得到礼貌的反馈。   由   提交 /u/canopyguy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t56ktr/built_a_bulk_image_compressor_that_runs_entirely/</guid>
+      <pubDate>Wed, 06 May 2026 08:14:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>我如何赋予克劳德真正的长期记忆——以及为什么它存在于 SQL 数据库中</title>
+      <link>https://www.reddit.com/r/software/comments/1t55xla/how_i_gave_claude_a_real_longterm_memory_and_why/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t55xla/how_i_gave_claude_a_real_longterm_memory_and_why/</guid>
+      <pubDate>Wed, 06 May 2026 07:34:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开发了一个应用程序，用于缓解毫无准备地接受治疗时的焦虑。永久免费，离线运行。</title>
+      <link>https://www.reddit.com/r/software/comments/1t55gkh/i_built_an_app_for_the_anxiety_of_walking_into/</link>
+      <description><![CDATA[我不断出现在治疗过程中并保持空白。四十五分钟就过去了。 I’d leave feeling like I wasted it.然后在开车回家的路上，我真正想说的一切都会如潮水般涌来。 我为此构建了 Prelude。 它是一个语音代理，会在您的会议之前与您进行简短的对话，以表达您的实际想法。对话结束后，它会生成一份结构化的简介，您和您的治疗师可以一起浏览。我自己的治疗师说，一旦我们开始使用内裤，治疗效果就会明显改善。 整个过程在设备上运行。没有服务器调用，没有帐户，任何东西都不会离开您的手机。 Works fully offline. Free forever.没有广告，没有应用内购买。将其作为心理健康社区的慈善项目❤️应用商店链接：https://apps.apple.com/us/app/prelude-therapy-prep/id6761587576   由   提交 /u/Emojinapp   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t55gkh/i_built_an_app_for_the_anxiety_of_walking_into/</guid>
+      <pubDate>Wed, 06 May 2026 07:06:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了常用工具的上下文切换，因此我将它们制作成了适用于 Windows 的始终可用的套装</title>
+      <link>https://www.reddit.com/r/software/comments/1t54y88/i_got_tired_of_context_switching_for_common_tools/</link>
+      <description><![CDATA[一切都是从简单的挫败感开始的。每次我需要快速记笔记、检查我的任务或检查我的日历时，我都必须停止正在做的事情，按 Alt+Tab，找到正确的应用程序，执行操作，然后尝试记住我在哪里，然后再回来。上下文切换听起来很小，但它会导致很多注意力不集中和眼睛疲劳。 因此，我构建了 FlowFloat，刚刚在 Microsoft Store。 这是一款适用于 Windows 的免费深色浮动生产力套件 - 位于屏幕上所有内容之上的一层。笔记、任务、番茄计时器、日历和本地人工智能助手，所有这些都漂浮在您正在处理的任何事情之上。您无需离开工作流程即可访问它们。这为我减少了很多麻烦。 它的工作原理如下： - 每个工具都有自己的专用热键。按一次即可召唤它，再按一次即可隐藏它。 - 或者通过位于屏幕上方的浮动启动器启动所有内容。 - 所有应用程序均可调整大小、透明且可移动 - 将它们准确地放置在您想要的位置。 - AI 助手通过 Ollama 在本地运行 - 您的数据永远不会离开您的机器。 我希望您觉得它有帮助，谢谢！   由   提交/u/CriticalInitial85   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t54y88/i_got_tired_of_context_switching_for_common_tools/</guid>
+      <pubDate>Wed, 06 May 2026 06:37:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>适用于 Windows 的热克隆软件？ （运行时克隆系统驱动器）</title>
+      <link>https://www.reddit.com/r/software/comments/1t54my8/hot_clone_software_for_windows_clone_system_drive/</link>
+      <description><![CDATA[ 由   提交/u/yeahthatsgoodforme  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t54my8/hot_clone_software_for_windows_clone_system_drive/</guid>
+      <pubDate>Wed, 06 May 2026 06:19:20 GMT</pubDate>
     </item>
     <item>
       <title>构建了我一直想要的笔记应用程序，今天早上推出</title>
@@ -18,6 +46,13 @@
       <description><![CDATA[ 由   提交 /u/ogd___   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1t543s7/built_the_notes_app_that_i_always_wanted_launched/</guid>
       <pubDate>Wed, 06 May 2026 05:49:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于计划 SQL 报告和自动通知的 Windows 工具</title>
+      <link>https://www.reddit.com/r/software/comments/1t53nzp/a_windows_tool_for_scheduled_sql_reports_and/</link>
+      <description><![CDATA[我在不同的团队中不断遇到同样的问题 — SQL 报告需要按计划运行、格式化并发送给不同的人。我见过的大多数设置要么依赖于脚本、cron 作业或重型 BI 工具，这对于简单的报告工作流程来说有点大材小用。 我最终构建了一个小型 Windows 工具来尝试一种更简单的方法：按计划运行 SQL 并通过电子邮件、Slack、Telegram 或 webhooks 发送结果。 这是一个减少重复报告工作的轻量级实用程序，我很好奇其他人如何处理这个问题。希望得到处理 SQL 自动化或报告工作流程的人员的反馈。  https://preview.redd.it/t34y6tircgzg1.png?width=1768&amp;format=png&amp;auto=webp&amp;s=f839ea4e1e2aecc79b0a9bf07c0e501b3452e0b1 &lt;一href=&quot;https://preview.redd.it/tv2e0qnscgzg1.png?width=1771&amp;format=png&amp;auto=webp&amp;s=ddff6ca5a2283eb5f2cabf42e11a9be066b4832e&quot;&gt; https://preview.redd.it/tv2e0qnscgzg1.png?width=1771&amp;format=png&amp;auto=webp&amp;s=ddff6ca5a2283eb5f2cabf42e11a9be066b4832e   由   提交/u/andy910120  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t53nzp/a_windows_tool_for_scheduled_sql_reports_and/</guid>
+      <pubDate>Wed, 06 May 2026 05:25:54 GMT</pubDate>
     </item>
     <item>
       <title>寻找“专业PDF功能”和“Mac系统性能”之间的平衡</title>
@@ -74,41 +109,6 @@
       <description><![CDATA[我正在为我正在从事的项目寻找高质量的 UI 界面声音。这里有人为此使用过任何好的资源或工具吗？无论是付费图书馆还是免费选项，我很想听听什么对您有用。如有任何建议，我们将不胜感激！   由   提交 /u/Francisco_Mlg   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1t4reqs/looking_for_high_quality_ui_interface_sound_fx/</guid>
       <pubDate>Tue, 05 May 2026 20:27:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机科学一年级学生应该如何克服“学习疲劳”，为未来的网络安全打下坚实的基础？</title>
-      <link>https://www.reddit.com/r/software/comments/1t4psfl/how_should_a_1styear_cs_student_overcome_learning/</link>
-      <description><![CDATA[大家好， 我目前是计算机科学专业一年级的学生，我对自己的学习方向感到非常困惑和不知所措。我的长期目标是攻读网络安全硕士学位，但我正在努力解决如何有效地实现这一目标。 到目前为止我已经尝试过的内容：  初始安全重点：我从 Python、Linux 基础知识和网络基础知识开始。然而，我常常觉得很快就忘记了所学的内容。 “广泛的方法”：我认为首先学习底层技术会有帮助，因此我探索了 C、JavaScript、HTML/CSS、API，甚至一些移动开发。 实用平台：我已经在 TryHackMe 上开始了 SOC 分析师路径，以获得更多实践机会。 尽管如此对此，我觉得我只是触及了这些技术的表面（“揭开外壳”），而没有获得深入的功能知识。此外，为了开始自由职业或赚钱，我一直感到学习网络开发辅助技能的压力，这分散了我对核心目标的注意力。   我怎样才能超越“表面水平”？学习并确保我实际上保留了我所学习的技术概念？ 在第一年严格专注于基础 CS（数据结构、操作系统、网络）更好，还是应该继续像 TryHackMe 这样的专业道路？ 如何平衡最终赚取收入（自由职业）的需求，而不完全偏离对网络安全的关注？  感谢您可以分享的任何见解或个人经验！   由   提交 /u/Mysterious-Try-7046   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t4psfl/how_should_a_1styear_cs_student_overcome_learning/</guid>
-      <pubDate>Tue, 05 May 2026 19:29:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>iPad 上的 Windows 移动应用程序</title>
-      <link>https://www.reddit.com/r/software/comments/1t4otue/windows_mobile_app_on_ipad/</link>
-      <description><![CDATA[我尝试通过 iPad Mini（软件/应用程序是最新的）连接到 Windows 11 Pro 上的远程桌面，但仍然显示已连接但未执行此操作。阅读了克劳德的所有建议，但找不到原因。关于法学硕士可能无法理解的常见技术原因的任何想法？   由   提交 /u/techtrepeneur   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t4otue/windows_mobile_app_on_ipad/</guid>
-      <pubDate>Tue, 05 May 2026 18:56:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有一个工具可以在本地查找类似的epub文件？</title>
-      <link>https://www.reddit.com/r/software/comments/1t4onsd/is_there_a_tool_to_find_similar_epub_files_locally/</link>
-      <description><![CDATA[ 由   提交 /u/Chi90504   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t4onsd/is_there_a_tool_to_find_similar_epub_files_locally/</guid>
-      <pubDate>Tue, 05 May 2026 18:50:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用 OxiplexTS 近红外光谱解决校准问题</title>
-      <link>https://www.reddit.com/r/software/comments/1t4odbw/how_to_troubleshoot_calibration_issues_using/</link>
-      <description><![CDATA[尽管数字窗口中的值正确，但普通传感器 A 的 692nm 和 834nm 的斜率图并未出现。而对于传感器 B，仅 834nm 的图表显示了斜率。这是我第三次尝试校准。我更改了设置并切换了传感器 A 和 B，但结果是相同的。 关于如何解决此问题有什么建议吗？另外，即使 AC、DC 和 R 的校准值正确，斜率图显示不正确也会有影响吗？我是否只需继续进行数据采集？  https://preview.redd.it/xjxisaj05dzg1.png?width=784&amp;format=png&amp;auto=webp&amp;s=205b52e7715ed8ee1d50599b49d21488e9ad81a9 &lt;一href=&quot;https://preview.redd.it/loetsvj35dzg1.png?width=715&amp;format=png&amp;auto=webp&amp;s=65109a0072058924b472aec3aa9744a617044e89&quot;&gt; https://preview.redd.it/loetsvj35dzg1.png?width=715&amp;format=png&amp;auto=webp&amp;s=65109a0072058924b472aec3aa9744a617044e89 &lt;一href=&quot;https://preview.redd.it/8v45tpz55dzg1.png?width=630&amp;format=png&amp;auto=webp&amp;s=4ed07a9c9c5792a8ad9c6fae1fbf1473c75fa522&quot;&gt; https://preview.redd.it/8v45tpz55dzg1.png?width=630&amp;format=png&amp;auto=webp&amp;s=4ed07a9c9c5792a8ad9c6fae1fbf1473c75fa522 &lt;一href=&quot;https://preview.redd.it/og87yqv75dzg1.png?width=693&amp;format=png&amp;auto=webp&amp;s=81d46297147ea6d2d6dcdf5bcbe1d8fa25fcc159&quot;&gt; https://preview.redd.it/og87yqv75dzg1.png?width=693&amp;format=png&amp;auto=webp&amp;s=81d46297147ea6d2d6dcdf5bcbe1d8fa25fcc159 &lt;一href=&quot;https://preview.redd.it/yo8cqso95dzg1.png?width=693&amp;format=png&amp;auto=webp&amp;s=ca9792ab218a667d0964d502083a3b9980cfcb65&quot;&gt; https://preview.redd.it/yo8cqso95dzg1.png?width=693&amp;format=png&amp;auto=webp&amp;s=ca9792ab218a667d0964d502083a3b9980cfcb65 &lt;一href=&quot;https://preview.redd.it/09ltd02c5dzg1.png?width=728&amp;format=png&amp;auto=webp&amp;s=b09b2e847fb13323ec67ff84ed1eeb3cd516608e&quot;&gt; https://preview.redd.it/09ltd02c5dzg1.png?width=728&amp;format=png&amp;auto=webp&amp;s=b09b2e847fb13323ec67ff84ed1eeb3cd516608e   由   提交/u/brokeNbrokenphd   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t4odbw/how_to_troubleshoot_calibration_issues_using/</guid>
-      <pubDate>Tue, 05 May 2026 18:40:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>整理电子邮件</title>
-      <link>https://www.reddit.com/r/software/comments/1t4obf0/organizing_emails/</link>
-      <description><![CDATA[大家好，使用 Outlook 的任何人都可以推荐一个应用程序，让我可以自动将电子邮件组织到文件夹中吗？我排除了 Outlook 的内置功能，因为它不提供很多自定义选项；我尝试了一个我不愿透露姓名的应用程序，因为在 Outlook Reddit 子版块中，我被指控推广付费应用程序，并且我的帖子被删除了。现在免费试用已经结束，我想在购买之前确保没有更好的选择，所以我依靠其他像我一样每天必须整理多个收件箱的人的好建议。感谢任何可以帮助我的人   由   提交/u/Faoineag  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t4obf0/organizing_emails/</guid>
-      <pubDate>Tue, 05 May 2026 18:38:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
