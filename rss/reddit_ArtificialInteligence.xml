@@ -4,20 +4,20 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Thu, 07 May 2026 05:56:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 08:30:04 GMT</lastBuildDate>
     <item>
-      <title>我花了最后 10 个月的时间构建这个 AI，并将其发送到 coinbase 进行 500,000 美元的面试</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t61kl8/i_spent_my_last_10_month_building_this_ai_and/</link>
-      <description><![CDATA[ 由   提交/u/AbbreviationsSea4271   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t61kl8/i_spent_my_last_10_month_building_this_ai_and/</guid>
-      <pubDate>Thu, 07 May 2026 05:46:02 GMT</pubDate>
+      <title>建立了一个对抗性辩论层来控制多智能体系统中的决策——这是我学到的</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t63av2/built_an_adversarial_debate_layer_to_gate/</link>
+      <description><![CDATA[披露：这是我自己的开源项目。 我一直遇到的问题：我的系统会生成信号，但在不确定的日子里，我没有原则性的方法来决定是否信任它。因此，我构建了一个结构化辩论层，该层在任何决策执行之前运行。 它是如何工作的： 五个代理进行两轮辩论。牛市、熊市、魔鬼代言人、领域专家和基于规则的健全性检查员，故意非法学硕士，将辩论锚定在其他人无法合理化的严格限制中。第一轮双方独立辩论。第二轮，他们阅读彼此的论点，并在法官综合判决之前做出回应：继续、缩小规模或停止。 我学到的东西： 最困难的问题不是进行辩论，而是阻碍达成复杂的共识。能够解读彼此论点的智能体往往会趋同，而不是分歧。魔鬼代言人的角色有帮助，但仅靠自己还不够。 我的法官目前对论点质量进行评分，这意味着结构良好的错误论点可以击败笨拙的正确论点。我还没有实施的解决方案：迫使熊和魔鬼的拥护者提出附带成本的具体反行动，这样法官会比较决策质量而不是言辞。 基于规则的健全性检查器最终比预期更有价值 - 它捕获了 LLM 代理始终错过或合理化的约束违规行为。 我真的没有答案的开放问题：对抗性结构是否真的减少了群体思维，或者只是产生了更清晰的表达共识？很好奇是否有人做过审议架构方面的工作或了解相关论文。 Repo：github.com/ScottDongKhang/Ascent_Capital​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​   由   提交 /u/The_SpaceNerd   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t63av2/built_an_adversarial_debate_layer_to_gate/</guid>
+      <pubDate>Thu, 07 May 2026 07:23:26 GMT</pubDate>
     </item>
     <item>
-      <title>真正的问题 - 您认为人工智能工具免费层在明年会变得更糟还是更好</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t61czq/genuine_question_do_you_think_ai_tool_free_tiers/</link>
-      <description><![CDATA[最近使用了一堆人工智能编码工具，注意到一些让我好奇这一切的发展方向的东西。 现在的免费套餐确实无处不在。例如 Gemini Code Assist 每月可以免费为您提供 180,000 次完成。 GitHub Copilot 给你 2,000。两者都称自己为免费的人工智能编码助手。对于同一类别的工具来说，这是 90 倍的差异。 我的直觉是，像 Google 和亚马逊这样慷慨的人并不是出于善意而慷慨 - 他们是在市场稳定之前花钱抢占开发者的心智份额。这意味着在某些时候，一旦他们有足够的锁定，免费套餐可能会变得更糟。 但也许我错了。也许竞争可以让他们长期保持诚实。 还有其他人考虑过这个吗？真的很好奇人们是否认为我们处于临时补贴阶段，或者免费使用人工智能工具是否实际上是可持续的。   由   提交/u/DAK12_YT   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t61czq/genuine_question_do_you_think_ai_tool_free_tiers/</guid>
-      <pubDate>Thu, 07 May 2026 05:34:39 GMT</pubDate>
+      <title>Anthropic 推出了 Claude Security 公开测试版：它会扫描您的代码、查找漏洞并提出补丁建议。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t62ige/anthropic_launched_claude_security_into_public/</link>
+      <description><![CDATA[Anthropic 刚刚将 Claude Security 推入面向企业客户的公开测试版（目前仅限企业版，稍后将提供 Team 和 Max 访问权限）。它像安全研究人员一样扫描您的代码库：跟踪文件中的数据流，了解业务逻辑，发现模式匹配工具遗漏的漏洞，并提出您审查和批准的补丁。 参考：https://claude.com/product/claude-security 它实际的作用：  并行使用多文件上下文扫描代码 对每个发现进行对抗性自我验证，以减少误报 与您现有代码风格相匹配的建议补丁 将发现推送到 Slack、Jira 或 webhook 范围扫描（子目录级别）和计划扫描 由 Anthropic 在内部使用的相同模型提供支持，以确保自身安全  好处：这确实是一个飞跃。传统的 SAST 工具会让团队陷入误报中，并错过任何需要跨文件推理的内容。真正理解代码在做什么，然后编写修复程序的法学硕士是解决问题的正确工具。事实上，Anthropic 在这方面自食其果，这是一个真实的信号。 令人不舒服的部分：为防御者发现 bug 的能力同样能为攻击者发现 bug。 Anthropic 发表了他们自己的“LLM 发现的 0-days”研究所以他们清楚地意识到这一点。他们的赌注是，防守者首先部署这一点会造成不对称，有利于好人。也许吧。 不过，我一直在回想的是：成功的 Claude Security 部署会生成一份集中、经过验证、解释良好的列表，准确列出您的软件出现故障的位置。如果该列表泄漏（Slack webhook 受损、内部人员、错误的 S3 存储桶中导出的 CSV），攻击者就会获得预先构建的攻击计划。该产品不会针对随机网站创建新的攻击面，但它确实创建了一个非常高价值的内部工件，需要像皇冠上的宝石一样加以保护。 这里的安全团队中有人真正尝试过吗？很好奇误报率在实践中是否成立，以及团队如何处理发现存储问题。   由   提交 /u/Intelligent-Lynx-953   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t62ige/anthropic_launched_claude_security_into_public/</guid>
+      <pubDate>Thu, 07 May 2026 06:37:39 GMT</pubDate>
     </item>
     <item>
       <title>双子座疯了</title>
@@ -83,18 +83,18 @@
       <pubDate>Wed, 06 May 2026 16:14:25 GMT</pubDate>
     </item>
     <item>
-      <title>我们一直在寻找像上帝一样的人工智能超级大脑。研究表明，智力从来都不是这样扩展的......</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t5b7uv/weve_been_watching_for_a_god_like_ai_superbrain/</link>
-      <description><![CDATA[我们一直在等待错误的事情。 几十年来，主导故事一直是奇点：一个神一样的超级智能将自己引导到难以理解的力量，此时人类变得无关紧要。这是一个引人入胜的故事。根据谷歌智能范式团队在《科学》杂志上发表的一篇论文，这几乎肯定是错误的框架。 论点：历史上每一次重大的智能爆炸都是社会性的，而不是个人性的。灵长类动物的智力与群体规模有关，而不是与栖息地难度有关。语言创造了托马塞洛所说的“文化棘轮”。 - 知识代代相传，无需任何个人从头开始重建。写作和机构将集体智慧外化到比任何单个参与者都更长久的系统中。 人工智能很可能是这个序列的下一步，而不是中断。 真正令人惊讶的是来自模型本身内部的证据。像 DeepSeek-R1 这样的推理模型并不能通过“思考得更久”来改进。他们自发地产生内部多主体辩论、争论、质疑、验证和调和的独特认知视角。没有人训练他们这样做。它纯粹是由于优化压力奖励准确性而出现的。 事实证明，即使在一个头脑中，智力也默认为社交。 如果这是正确的，那么通往更强大的人工智能的道路并不需要建立一个更大的预言机。它贯穿于建立更丰富的社会系统，并以我们管理城市和机构的方式来管理它们，而不是使用终止开关。 我将这篇文章写成学习文章，而不是作为专家。我真的很好奇这里的人是怎么想的。奇点框架真的死了吗？如果智力本质上是社交性的，那么这对于一致性意味着什么？ 全文： https://www.4billionyearson.org/posts/forget-the-singularity-google-s-new-research-says-the-future-of-ai-is-a-social-explosion   由   提交 /u/4billionyearson   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t5b7uv/weve_been_watching_for_a_god_like_ai_superbrain/</guid>
-      <pubDate>Wed, 06 May 2026 12:19:07 GMT</pubDate>
+      <title>我认为“呆在盒子里”正在成为一种被低估的前沿能力</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t5emcq/i_think_staying_inside_the_box_is_becoming_an/</link>
+      <description><![CDATA[我认为“留在盒子内”正在成为一种被低估的前沿能力 不是安全模因意义上的。 我的意思是，一旦交互变得漫长而混乱，模型是否可以留在范围、约束、格式和任务边界内。很多模型看起来都很出色，直到你需要它们在超过一轮的时间内保持纪律。 这感觉越来越重要，特别是当人们尝试使用模型进行更具结构化的工作而不是简短的演示时。 这也是为什么我觉得 Ling-2.6-1T 很有趣：它的主张不仅是更强的推理，而且是在长期、结构化、约束繁重的工作下更严格的行为。 也许原始聪明仍然受到大多数关注，因为它更容易炫耀，但我开始认为约束下的行为可靠性正在成为一种更被低估的能力。   由   提交 /u/Odd-Aide9488   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t5emcq/i_think_staying_inside_the_box_is_becoming_an/</guid>
+      <pubDate>Wed, 06 May 2026 14:30:14 GMT</pubDate>
     </item>
     <item>
-      <title>为什么没有人谈论 Google Colab，它对于日常生活中的基本工作几乎免费？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t4wqqt/why_no_one_is_talking_about_google_colab_which_is/</link>
-      <description><![CDATA[大约三年来，我一直是 Google Colab 的忠实粉丝，说实话，它的功能令人惊叹。 例如，Fiverr 上的一位客户向我提供了 3500 张图像，并要求我删除所有图像的背景。他想知道我要收多少钱，我报了 200 美元。 他立即下了订单，没有再问任何问题。我告诉他工作会在24小时内完成，并且不会影响图像质量，他同意了。 当我交付订单时，他真的很感动，开始问我是如何做到这么快完成工作的，以及我是否有团队。我告诉他，这就是八年的经验。 实际上，我只是使用免费版本的 ChatGPT 创建了一个 Python 脚本，并在 Google Colab 中运行它。整个任务大约三个小时就完成了。这是脚本，以防有人想使用它： https://github.com/mhamzahashim/bulk-bg-remover 这只是一个示例。你可以用 Google Colab 做无数的事情，我想很多人仍然低估了它的真正威力。 现在你也可以在 Claude Code 中连接 Google Colab 的 MCP，做任何你想做的事情。   由   提交/u/mhamza_hashim   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t4wqqt/why_no_one_is_talking_about_google_colab_which_is/</guid>
-      <pubDate>Tue, 05 May 2026 23:59:41 GMT</pubDate>
+      <title>我们一直在寻找像上帝一样的人工智能超级大脑。研究表明，智力从来都不是这样扩展的……</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t5b7uv/weve_been_watching_for_a_god_like_ai_superbrain/</link>
+      <description><![CDATA[我们一直在等待错误的事情。 几十年来，主导故事一直是奇点：一个神一样的超级智能将自己引导到难以理解的力量，此时人类变得无关紧要。这是一个引人入胜的故事。根据谷歌智能范式团队在《科学》杂志上发表的一篇论文，这几乎肯定是错误的框架。 论点：历史上每一次重大的智能爆炸都是社会性的，而不是个人性的。灵长类动物的智力与群体规模有关，而不是与栖息地难度有关。语言创造了托马塞洛所说的“文化棘轮”。 - 知识代代相传，无需任何个人从头开始重建。写作和机构将集体智慧外化到比任何单个参与者都更长久的系统中。 人工智能很可能是这个序列的下一步，而不是中断。 真正令人惊讶的是来自模型本身内部的证据。像 DeepSeek-R1 这样的推理模型并不能通过“思考得更久”来提高。他们自发地产生内部多主体辩论、争论、质疑、验证和调和的独特认知视角。没有人训练他们这样做。它纯粹是由于优化压力奖励准确性而出现的。 事实证明，即使在一个头脑中，智力也默认为社交。 如果这是正确的，那么通往更强大的人工智能的道路并不需要建立一个更大的预言机。它贯穿于建立更丰富的社会系统，并以我们管理城市和机构的方式来管理它们，而不是使用终止开关。 我将这篇文章写成学习文章，而不是作为专家。我真的很好奇这里的人是怎么想的。奇点框架真的死了吗？如果智力本质上是社交性的，那么这对于一致性意味着什么？ 全文： https://www.4billionyearson.org/posts/forget-the-singularity-google-s-new-research-says-the-future-of-ai-is-a-social-explosion   由   提交 /u/4billionyearson   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t5b7uv/weve_been_watching_for_a_god_like_ai_superbrain/</guid>
+      <pubDate>Wed, 06 May 2026 12:19:07 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
