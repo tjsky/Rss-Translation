@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 07 May 2026 02:29:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 05:58:05 GMT</lastBuildDate>
+    <item>
+      <title>Radicle：一个更好的、点对点的开源之家 I Yorgos Saslis</title>
+      <link>https://www.reddit.com/r/programming/comments/1t60oho/radicle_a_better_peertopeer_home_for_open_source/</link>
+      <description><![CDATA[ 开源软件 (OSS) 作为全球公共产品的未来正面临风险。对有弹性的、社区拥有的替代方案的需求从未如此迫切：OSS 可能已经“接管了世界”，但是……是否有人在此过程中控制了 OSS 本身，将其锁定在由单个供应商控制的专有平台中？在今天，在贸易战、关税波动、GenAI 指令和各国争夺数据主权的时代，这仍然是一条可持续的道路吗？ 本次演讲将向您介绍 Radicle，这是一个基于点对点架构构建的新型去中心化代码锻造平台。我们将探讨 Radicle 的工作原理以及它如何扩展 Git 来创建安全且有弹性的代码协作网络。我们将介绍其点对点复制协议、去中心化身份系统以及新颖的代码发现方法。 本次演讲面向对开源未来感兴趣的各个级别的开发人员。您将更好地理解设计和运行分布式点对点系统所涉及的挑战。您还将了解如何开始将代码镜像/迁移到 Radicle 网络，以便您可以 #FreeYourCode !    由   提交/u/esiy0676  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1t60oho/radicle_a_better_peertopeer_home_for_open_source/</guid>
+      <pubDate>Thu, 07 May 2026 04:58:24 GMT</pubDate>
+    </item>
     <item>
       <title>Nginx 完整指南和备忘单</title>
       <link>https://www.reddit.com/r/programming/comments/1t5qpf2/nginx_complete_guide_and_cheatsheet/</link>
@@ -62,13 +69,6 @@
       <pubDate>Wed, 06 May 2026 16:19:12 GMT</pubDate>
     </item>
     <item>
-      <title>汇编编程是残酷的，也是美丽的，甚至可能是通往更好人工智能的道路</title>
-      <link>https://www.reddit.com/r/programming/comments/1t5gwib/programming_in_assembly_is_brutal_beautiful_and/</link>
-      <description><![CDATA[ 由   提交/u/Traditional_Blood799  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1t5gwib/programming_in_assembly_is_brutal_beautiful_and/</guid>
-      <pubDate>Wed, 06 May 2026 15:52:12 GMT</pubDate>
-    </item>
-    <item>
       <title>IO 是问题所在</title>
       <link>https://www.reddit.com/r/programming/comments/1t5fiac/io_is_the_problem/</link>
       <description><![CDATA[ 由   提交/u/la-rokci   [链接] [评论]]]></description>
@@ -90,13 +90,6 @@
       <pubDate>Wed, 06 May 2026 13:31:34 GMT</pubDate>
     </item>
     <item>
-      <title>您认为不需要关心的事情 • Holly Cummins • GOTO 2025</title>
-      <link>https://www.reddit.com/r/programming/comments/1t5c805/things_you_thought_you_didnt_need_to_care_about/</link>
-      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1t5c805/things_you_thought_you_didnt_need_to_care_about/</guid>
-      <pubDate>Wed, 06 May 2026 13:00:46 GMT</pubDate>
-    </item>
-    <item>
       <title>设计存储库感知的秘密同步，无需将秘密提交给 Git</title>
       <link>https://www.reddit.com/r/programming/comments/1t5c3qn/designing_repoaware_secret_sync_without/</link>
       <description><![CDATA[我一直在思考围绕团队 .env 工作流程的 CLI 设计问题。 目标工作流程是： git clone repo login pull  问题是： CLI 应该如何知道哪个秘密保管库属于克隆的存储库，而不需要开发人员粘贴保管库 ID，以及不向 Git 提交实际机密？ 一种方法是提交一个小型项目元数据文件： # .meowpass.yaml version: 1Vault:  default_env：开发 此文件不包含秘密值。它仅将存储库映射到远程保管库和默认环境。 CLI 解析顺序为：  显式 --vault 标志 最近的 .meowpass.yaml，通过遍历父目录找到 全局用户配置 因面向修复的错误而失败  这使得 CLI行为更像 Git。 示例： repo/ .meowpass.yaml apps/web/packages/api/ 如果从 apps/web 运行 CLI，它仍然会从 repo 根解析项目配置。 我正在考虑的一些设计选择：  项目配置可以安全提交，因为它包含仅元数据 显式标志始终覆盖项目配置 version允许稍后进行架构迁移 default_env使常用命令具有确定性，无需额外标志 差异输出应显示已更改/丢失的键，但绝不透露值  差异输出示例： 仅限本地： - DEBUG_TOKEN Remote仅： - STRIPE_SECRET_KEY 更改： - DATABASE_URL  权衡是，这比将加密的 .env 文件提交到 Git 的本地优先性要低，但它改进了入门，因为存储库可以指向正确的保管库而无需嵌入机密。 该模型基本上是： Git CLI 之外的 Git 机密值中的存储库元数据会自动解析项目上下文 我仍在争论的问题：  default_env 应该存在于存储库配置中，还是应该保留在每个开发人员的本地？ 父目录发现是否应该停止在 Git 根目录？ 如果配置文件中出现 API_KEY 或 DATABASE_URL 等可疑密钥，CLI 是否应该发出警告？ 如果身份验证和加密仍然控制访问，提交保管库 ID 是否可以接受？ 这比提交加密的 .env 文件更好还是更差？  好奇其他人会如何设计这个。 对于团队秘密同步，您会使用提交的元数据文件、Git 中的加密 env 文件还是完全其他方法？   由   提交/u/Adventurous-While685   [link] [评论]]]></description>
@@ -109,6 +102,13 @@
       <description><![CDATA[平台工程不仅仅是带有门户的 DevOps。这篇文章从头到尾地讲述了该学科的完整弧线：为什么平台存在，如何构建和运营它们，如何管理混乱的利益相关者政治，以及成功实际上是什么样子。以 Fournier 和 Nowland 的书为基础，并在真实系统上进行了几年的实践。   由   提交/u/lucavallin   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1t59vwd/platform_engineering_endtoend/</guid>
       <pubDate>Wed, 06 May 2026 11:19:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 VOMPECCC 的 Emacs 完成展示（视频）</title>
+      <link>https://www.reddit.com/r/programming/comments/1t57k5j/emacs_completion_showcase_with_vompeccc_video/</link>
+      <description><![CDATA[“这篇文章是对所有其他文章的实用补充。在这里，我们展示了我每天使用的十多个工作流程。大多数完全由 VOMPECCC（Vertico、Orderless、Marginalia、Prescient、Embark、Consult、Cape、Corfu）软件包随附的功能提供支持，并且还有“奖励”，展示了构建在 VOMPECCC 之上的第 3 方软件包支持的工作流程。文字刻意精简，您会发现大部分演示都在下面的视频中。”   由   提交/u/misterchiply  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1t57k5j/emacs_completion_showcase_with_vompeccc_video/</guid>
+      <pubDate>Wed, 06 May 2026 09:13:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
