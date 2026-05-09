@@ -4,7 +4,7 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 09 May 2026 05:44:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 07:49:49 GMT</lastBuildDate>
     <item>
       <title>写下了不断破坏我的 RAG 系统的故障模式：分块、陈旧索引、混合搜索、工作原理</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t7vvcd/wrote_up_the_failure_modes_that_kept_breaking_my/</link>
@@ -18,13 +18,6 @@
       <description><![CDATA[ 由   提交/u/ibstudios  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t7tk0u/magi_update_talks_play_atari_flips_through_photos/</guid>
       <pubDate>Sat, 09 May 2026 03:33:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>我采用了 Meta 的 TRIBE v2 大脑模型并让它实时观看 YouTube</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t7lyus/i_took_metas_tribe_v2_brain_model_and_made_it/</link>
-      <description><![CDATA[TLDR： 我采用了 Meta 的 TRIBE v2 大脑模型（根据视频/音频/文本预测 fMRI 类型的大脑活动），围绕它构建了一个实时管道，并为其赋予了声音和 3D 面孔。结果是一个实时的人工智能角色，可以观看 YouTube（就像野兽先生）并根据预测的大脑活动做出反应。使用 Codex 在数天内构建完成。它不是读取真实的大脑，但信号是真实的，整个工作有点疯狂。  披露：这是我的构建，不是产品发布，没有候补名单，没有订阅推介。我只是想展示我所做的事情，因为这真的让我大吃一惊，这现在成为可能。 Meta 发布了 TRIBE v2，它可以根据视频、音频和文本预测功能磁共振成像 (fMRI) 式的大脑活动。仅此一点就已经是疯狂的研究了。但它基本上是一个研究模型。你不只是把它指向 YouTube，然后突然有一个人工智能大脑观察事物并对事物做出反应。 所以我尝试构建它。 不知怎的，它实际上起作用了。 我在 TRIBE v2 周围连接了一个实时管道，系统在视频播放时观看视频，处理预测的大脑反应流，并将其用作实时人工智能评论的核心信号。然后它将其变成一个有声的动画 3D 角色，可以对剪辑做出反应、讲笑话、暂停、评论特定时刻，并解释为什么某些事情看起来引人注目或奇怪。 让我大吃一惊的是，它感觉不像一个正常的 LLM 反应机器人。这不仅仅是阅读文字记录并编造一些东西。评论与大脑模型输出相关，因此其下方有额外的信号。预测的皮层反应成为角色感知的一部分。 粗略架构：  TRIBE v2 处理视频/音频/文本流，并随着时间的推移产生预测的皮层活动 实时反应层将信号转化为即时评论 更深层次的上下文层跟踪正在发生的事情及其重要性 幽默/个性层让它感觉像是一个角色，而不是仪表板 语音 + 3D 化身层为大脑提供了一张可以说话和反应的面孔  最后一部分很重要。如果你已经投入研究，神经预测数据流会很酷，但对于普通人来说它是抽象的。给它一个粗糙、有趣的 3D 面孔突然让它变得可以理解。你正在观看一个角色的反应，但在幕后，该反应是由大脑预测模型决定的。 我知道这听起来很荒谬。这就是我感到兴奋的原因。 我可以采用已发布的大脑模型，将其连接到 Codex 的实时媒体系统中，赋予它声音和面孔，突然间，我就可以让这个活生生的角色通过预测的神经活动对互联网做出反应。几天后。 仍然让我困惑的是，它确实感觉像是在观看内容。您可以看到它处理病毒式剪辑、对特定时刻做出反应、暂停，并根据预测的大脑反应信号解释为什么它认为某件事引人注目。 需要明确的是：我并不是说这是在读取任何人的实际大脑。它是预测的平均受试者皮质活动，用作信号层。有趣的信号，而不是魔法。但这是一个非常真实的信号，整个事情一起工作对我来说确实有点疯狂。能够将已发布的大脑模型转变为实时反应的 3D 角色，感觉就像看到了一种全新的创意格式。 我不断回到的问题： 当我们获得足够的大脑数据来实际连接人工智能并模拟我们真实的大脑时，会发生什么？我们已经快到了吗？ 很好奇这里的人是如何阅读它的，特别是如果其他人已经在 TRIBE v2 之上进行构建。 演示视频：https://youtu.be/I4oGPLMVoC0?si=8bz4bFf5tjdMfhRx   由   提交 /u/MerlinMimer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t7lyus/i_took_metas_tribe_v2_brain_model_and_made_it/</guid>
-      <pubDate>Fri, 08 May 2026 21:55:18 GMT</pubDate>
     </item>
     <item>
       <title>“它会非常糟糕，非常好或者介于两者之间”</title>
@@ -81,6 +74,13 @@
       <description><![CDATA[这可能是美国和大多数其他国家开始将最好的人工智能仅限于经过批准的用户之前的第一步......开始政府对人工智能的控制......这与当今人工智能没有太多真正监管的情况相去甚远。这将会改变。   由   提交/u/rogeragrimes   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t76qi4/major_us_ai_labs_now_subject_to_prerelease/</guid>
       <pubDate>Fri, 08 May 2026 12:39:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>马斯克诉奥特曼案的证据显示了微软高管对 OpenAI 的看法</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t747bp/musk_v_altman_evidence_shows_what_microsoft/</link>
+      <description><![CDATA[“根据马斯克诉 Altman 审判期间披露的证据，这家科技巨头的领导者对 OpenAI 持怀疑态度，但对将其投入亚马逊怀抱持谨慎态度。”   由   提交/u/shikizen   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t747bp/musk_v_altman_evidence_shows_what_microsoft/</guid>
+      <pubDate>Fri, 08 May 2026 10:42:01 GMT</pubDate>
     </item>
     <item>
       <title>我曾经是人工智能的忠实信徒。现在我认为整个事情正在从内部腐烂。</title>
