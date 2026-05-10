@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 10 May 2026 02:33:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 06:08:19 GMT</lastBuildDate>
+    <item>
+      <title>reddirect - 无需 API 密钥即可工作的 Reddit MCP 服务器（MIT、TypeScript）</title>
+      <link>https://www.reddit.com/r/opensource/comments/1t8xp6w/reddirect_reddit_mcp_server_that_works_without/</link>
+      <description><![CDATA[我开源了一个不需要 API 密钥或应用程序注册的 Reddit MCP 服务器。 所有其他 Reddit MCP 服务器都要求您在 Reddit 上注册应用程序，获取客户端 ID 和密钥，并配置 OAuth。这个跳过了所有这些。 工作原理：  读取使用 Reddit 的公共匿名 OAuth 授权。零配置。 写入使用一次性 Chrome 登录。服务器使用调试端口启动 Chrome，您登录后，它会通过 Chrome DevTools 协议提取会话 JWT。没有浏览器自动化框架，没有扩展。  统计：  19 个 MCP 工具（浏览、搜索、发布、回复、投票、保存、收件箱、订阅） 2 个运行时依赖项 TypeScript，MIT 许可 没有 Playwright，没有 Puppeteer，没有可供下载的 Chromium 二进制文件  回购： https://github.com/jeebus87/reddirect 欢迎提供反馈，特别是关于身份验证方法。 Reddit 主动阻止非浏览器 HTTP 客户端的登录 API（返回 403），因此找到一种无需 Playwright 或注册应用程序即可进行身份验证的方法是主要的工程挑战。   由   提交/u/jeebus87  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1t8xp6w/reddirect_reddit_mcp_server_that_works_without/</guid>
+      <pubDate>Sun, 10 May 2026 05:15:27 GMT</pubDate>
+    </item>
     <item>
       <title>创造了一种与我的书签交谈和分享的技能——需要帮助才能使其正常开源</title>
       <link>https://www.reddit.com/r/opensource/comments/1t8nlfq/made_a_skill_for_talking_to_and_sharing_my/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[Stepsy 是我使用了几天 但今天它显示我必须步行 -21647748 ish  而且我已经不再使用开源计步器了。因为我找不到任何   由   提交 /u/Affectionate_Let9022   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1t62p9a/can_yall_tell_me_which_pedometer_should_i_get/</guid>
       <pubDate>Thu, 07 May 2026 06:48:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>AGPLv3§7¶4 使用户能够阻止徽章软件 - SFC</title>
-      <link>https://www.reddit.com/r/opensource/comments/1t5ym28/agplv374_empowers_users_to_thwart_badgeware_sfc/</link>
-      <description><![CDATA[       由   提交/u/esiy0676  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1t5ym28/agplv374_empowers_users_to_thwart_badgeware_sfc/</guid>
-      <pubDate>Thu, 07 May 2026 03:14:33 GMT</pubDate>
     </item>
     </channel>
 </rss>

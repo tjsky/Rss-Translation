@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 10 May 2026 02:33:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 06:08:10 GMT</lastBuildDate>
+    <item>
+      <title>构建了一个工具，可以在客户错误地擦除其库后从 Wayback Machine 恢复已删除的 WordPress 媒体</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t8yf43/built_a_tool_to_recover_deleted_wordpress_media/</link>
+      <description><![CDATA[      上周，我收到了每个开发人员都害怕的一条消息：“我想我删除了一些不应该删除的内容。”一位客户不小心擦除了 WordPress 媒体库的很大一部分。没有最近的备份，没有暂存副本，就这样消失了。 在最初的恐慌之后，我意识到这些文件可能仍然存在一个地方：Wayback Machine。 因此，我组装了一个小工具： - 读取 WordPress sql 转储并提取引用的每个媒体 URL - 在 Wayback Machine 上查找每个媒体 - 下载任何可用的快照 - 恢复所有内容并保留原始状态/wp-content/uploads/YYYY/MM/ 文件夹结构 它没有恢复 100% 的文件（有些文件从未被抓取过），但它恢复了绝大多数，包括很多客户端永远丢失的图像。老实说，结果比我预期的要好得多。 我学到的一些东西： - Wayback Machine 是一个被荒谬地低估的安全网 - 客户端几乎从来没有他们认为自己拥有的备份 - 仅 dump.sql 就可以告诉你关于*应该*存在的内容的惊人数量 好奇是否有其他人必须完成类似的恢复：最奇怪的“我们删除了”是什么一切”你处理过的故事？   由   提交/u/debba_  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t8yf43/built_a_tool_to_recover_deleted_wordpress_media/</guid>
+      <pubDate>Sun, 10 May 2026 05:52:57 GMT</pubDate>
+    </item>
     <item>
       <title>使用不同的堆栈构建时遇到困难。我是否太执着于我所习惯的东西？</title>
       <link>https://www.reddit.com/r/webdev/comments/1t8srf3/having_difficulties_building_with_a_different/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[我看到的大多数关于设置 webpack 之类的内容的说明都倾向于假设您正在使用 vite 或类似的东西设置整个 Web 应用程序。我有一个允许我自定义 CSS 的博客，所以我只想编译可以加载到其中的 CSS。也许我也会把它变成一个其他人可以使用的库，或者我可以托管在像 jsdelivr 这样的地方。   由   提交 /u/CoVegGirl   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t8jxyl/whats_the_simplest_way_set_up_a_tool_that/</guid>
       <pubDate>Sat, 09 May 2026 20:18:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个库，允许将 JSON 转换为视频（开源）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t8jcuv/i_built_a_library_that_allows_converting_json/</link>
-      <description><![CDATA[      大家好，我刚刚启动了 VideoFlow（我 2026 年的第 11 个项目）。 这是一个用于从代码创建视频的开源工具包。最简单的比较可能是Remotion，但VideoFlow采用了不同的方法：视频不是将视频主要视为React组件树，而是表示为可移植的JSON。 这个想法是视频可以是数据：  场景 层 计时 过渡 效果 关键帧 渲染设置  然后可以在不同的位置渲染该 JSON：  在浏览器中 在服务器上 在 React 预览/播放器内 在可视化编辑器内  我构建它是因为我认为将生成更多视频而不是手动编辑：个性化营销剪辑、产品演示、AI 生成的解释器、社交模板、报告等。 当前功能：  Apache-2.0 开源 TypeScript 构建器 API 便携式 VideoJSON 27 种过渡 42 GLSL 效果 图层组 浏览器/服务器/实时预览渲染路径 React 视频编辑器组件  我特别希望获得有关定位的反馈。   由   提交/u/ybouane  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t8jcuv/i_built_a_library_that_allows_converting_json/</guid>
-      <pubDate>Sat, 09 May 2026 20:10:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
