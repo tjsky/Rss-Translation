@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sun, 10 May 2026 18:57:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 21:44:12 GMT</lastBuildDate>
+    <item>
+      <title>我们创建了一个自托管的端到端加密的 Discord/Telegram 替代方案</title>
+      <link>https://www.reddit.com/r/opensource/comments/1t9im35/weve_created_a_selfhosted_endtoend_encrypted/</link>
+      <description><![CDATA[我们对这个项目已经工作和思考了很长时间，终于到了可以公开分享它的阶段（当然有一些限制）。 它被称为 Zuna，一个具有完全端到端加密直接消息以及加密文本和语音通道的通信平台。目前，它主要是为自用和较小的私人社区而建。我们还不建议将它用于大型公共服务器，因为它仍处于早期 alpha 阶段，而且我们正在积极改进很多内容。 我们非常关心的一件事是保持自托管简单。与其他一些 Discord 替代方案（wink wink）不同，Zuna 基本上可以通过一个 Docker 命令和一个小配置文件进行自托管。没有不必要的复杂性。 目前，只有我们两个人构建这个，所以自然会存在错误和粗糙的边缘。但我们真诚地相信这可以发展成为真正可靠的东西。 我们还通过 TestFlight 提供了一个 iOS 应用程序。接下来计划支持 Android，我们首先关注的是使 iOS 稳定，因为同时管理两个平台对于这么小的团队来说是不现实的。 现在还为时过早，但如果这个想法听起来很有趣，我们希望人们能够检查一下并关注该项目的发展。 我们的网站： https://zuna.chat/ 我们的GitHub 存储库： https://github.com/zuna-app/zuna 需要添加的重要一点 - 它是在 AGPL v3.0 下发布的，并且完全免费。我们永远不会对任何东西付费。   由   提交 /u/SocketByte   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1t9im35/weve_created_a_selfhosted_endtoend_encrypted/</guid>
+      <pubDate>Sun, 10 May 2026 20:52:44 GMT</pubDate>
+    </item>
     <item>
       <title>我们构建了一个开源 CLI 来做好存储库准备</title>
       <link>https://www.reddit.com/r/opensource/comments/1t9ejfi/we_built_an_opensource_cli_for_repo_readiness/</link>
@@ -43,7 +50,7 @@
     <item>
       <title>创造了一种与我的书签交谈和分享的技能——需要帮助才能使其正常开源</title>
       <link>https://www.reddit.com/r/opensource/comments/1t8nlfq/made_a_skill_for_talking_to_and_sharing_my/</link>
-      <description><![CDATA[ 由   提交 /u/ZilGuber   [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/ZilGuber  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1t8nlfq/made_a_skill_for_talking_to_and_sharing_my/</guid>
       <pubDate>Sat, 09 May 2026 21:26:49 GMT</pubDate>
     </item>
@@ -64,7 +71,7 @@
     <item>
       <title>上个月我第一次为开源做出贡献，维护者非常好</title>
       <link>https://www.reddit.com/r/opensource/comments/1t7fx4d/i_contributed_to_open_source_for_the_first_time/</link>
-      <description><![CDATA[一直在使用开源，但从未做出贡献。冒名顶替综合症，不知道从哪里开始。上个月，我最终决定改变这一点 在一个项目中使用 Spectrum“它是来自 Photon 的开源 TypeScript sdk，将 AI 代理连接到 IMESSAGE 以及 Whatsapp 和 Discord。遇到了一个小问题，附件处理的 TypeScript 类型略有错误 在特定的边缘情况下 我实际上没有解决它，而是提出了一个问题。一位维护人员在几小时内回复了。没有只需告诉我 修复它......引导我了解代码库结构，以便我了解在哪里进行更改。提交 PR，一轮审查，合并 令我惊讶的是：近距离观察商业开源项目的运作方式。他们为专用 消息线和企业功能付费。收入为开源核心提供资金。经典的开放核心模型，但看到它实际工作与阅读 从那以后，我感觉我真正了解开源，而不仅仅是作为参与者 消费者 TL;DR：对 Spectrum（消息传递 SDK）的第一个开源贡献，维护者带我浏览了代码库， 发现开放核心模型实际上在实践中有效，现在是一个定期贡献者  /u/ScaryAd2555   [链接] [评论]]]></description>
+      <description><![CDATA[一直在使用开源，但从未做出贡献。冒名顶替综合症，不知道从哪里开始。上个月，我最终决定改变这一点 在一个项目中使用 Spectrum“它是来自 Photon 的开源 TypeScript sdk，将 AI 代理连接到 IMESSAGE 以及 Whatsapp 和 Discord。遇到了一个小问题，附件处理的 TypeScript 类型略有错误 在特定的边缘情况下 我实际上没有解决它，而是提出了一个问题。一位维护人员在几小时内回复了。没有只需告诉我 修复它......引导我了解代码库结构，以便我了解在哪里进行更改。提交 PR，一轮审查，合并 令我惊讶的是：近距离观察商业开源项目的运作方式。他们为专用 消息线和企业功能付费。收入为开源核心提供资金。经典的开放核心模型，但看到它实际工作与阅读 从那以后，我感觉我实际上不仅仅是作为参与者来了解开源 消费者 TL;DR：对 Spectrum（消息传递 SDK）的第一个开源贡献，维护者带我浏览了代码库， 发现开放核心模型实际上在实践中有效，现在是一个定期贡献者  /u/ScaryAd2555   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1t7fx4d/i_contributed_to_open_source_for_the_first_time/</guid>
       <pubDate>Fri, 08 May 2026 18:11:39 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[我将 Youssef Afella 的基于 UnityURP-FakeRealGlass 的出色多通道假玻璃效果移植到了 Defold，开源： https://github.com/paweljarosz/defold-fake-real-glass   由   提交 /u/PabloTitan21   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1t73kof/fake_real_glass_i_ported_from_unity_to_defold/</guid>
       <pubDate>Fri, 08 May 2026 10:07:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>有推荐的安卓录屏软件吗？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1t6yl96/recommended_android_screen_recorder/</link>
-      <description><![CDATA[最适合录制 Zoom 网络研讨会？谢谢。   由   提交 /u/BestZucchini5995   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1t6yl96/recommended_android_screen_recorder/</guid>
-      <pubDate>Fri, 08 May 2026 05:29:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
