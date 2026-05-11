@@ -4,7 +4,42 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Mon, 11 May 2026 06:35:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 12:05:49 GMT</lastBuildDate>
+    <item>
+      <title>解码阶段间歇性随机令牌注入增加了 LLM 多样性，无需微调</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ta0ntu/intermittent_random_token_injection_during/</link>
+      <description><![CDATA[“哈佛大学的一篇新论文（Luo、King、Puett、Smith）介绍了重新编码-解码（RD），这是一种解码方案，通过在解码阶段注入启动短语和转移标记，将法学硕士知识的长尾拉入实际输出。 RD 的工作原理：作者认为现代法学硕士编码了大量人类知识，但采用标准解码（top-k、nucleus 等）仅从条件分布的峰值拉取。长尾——异端的、逆向的、非西方的、奇怪但相关的——却没有被使用。 RD 通过以下方式使模型偏离其模态路径： 1) 在前面添加随机的“启动短语”。 （例如，与 FOOD 相关：、与 SKY 相关：） 2) 注入随机 3 个字母“转向词干” (Pas, Tib, Mon, …) 在每个新句子的开头 例如，““集体讨论世界历史主题””现在可以解决“帕斯塔和丝绸之路”问题或““[西藏]天葬””通过吸收 [Pas] 和 [Tib] 的注入标记，而不是生成“启蒙时代”的主导答案。 他们在 50 个头脑风暴主题 + 5 个公共数据集中的 500 个提示中发现，相关性保持在 0.99 左右，但多样性几乎线性增长到 1,000 次运行。他们还发现，LLM 越强（Gemini-3 &gt; GPT-5.1 &gt; GPT-3.5 &gt; DeepSeek-3），RD 的领先优势就越大，因为能力更强的模型具有更多的峰值分布，因此具有更多的隐尾知识。 为什么重要：作者将其定义为“搜索任务”问题——选择婚纱、研究课题、初创公司名称、孩子的学校。目标并不是正确的答案；它正在学习空间。目前的法学硕士对此是反优化的，论文认为这正在悄然推动集体同质化（他们引用了一个引人注目的事件，学生使用 ChatGPT 概述论文，却在没有互相交谈的情况下提出了几乎相同的论点）。 📄 论文：https://arxiv.org/abs/2603.19519   由   提交/u/ResponsibleLeg9220   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ta0ntu/intermittent_random_token_injection_during/</guid>
+      <pubDate>Mon, 11 May 2026 11:37:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>伯尼·桑德斯讨厌氛围编码</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ta0fss/bernie_sanders_hates_vibe_coding/</link>
+      <description><![CDATA[这不是更快的代码，而是更多的代码更快。 人们认为瓶颈在于编写代码，但事实绝对不是。编写代码的过程让您头脑中的想法和架构随着时间的推移而不断完善。   由   提交/u/Complete-Sea6655   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ta0fss/bernie_sanders_hates_vibe_coding/</guid>
+      <pubDate>Mon, 11 May 2026 11:27:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>为了创造有道德的人工智能，科技越来越多地转向宗教</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9zqz0/tech_is_turning_increasingly_to_religion_in_a/</link>
+      <description><![CDATA[ 由   提交 /u/boppinmule   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9zqz0/tech_is_turning_increasingly_to_religion_in_a/</guid>
+      <pubDate>Mon, 11 May 2026 10:54:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于人工智能工具定价走向的真正问题——我们是否处于泡沫之中</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9z146/genuine_question_about_where_ai_tool_pricing_is/</link>
+      <description><![CDATA[密切关注人工智能编码工具领域有一段时间了，有件事一直困扰着我，我想了解其他人的想法。 现在，人工智能工具的免费层慷慨程度确实是前所未有的。 Gemini Code Assist 每月为开发人员提供 180,000 次免费完成。 Amazon Q Developer 具有无限的内联完成功能，完全没有上限。 Gemini CLI 每天提供 1,000 个请求，由 Google 最好的模型之一提供支持，只需登录 Google 即可完全免费。 从纯粹的商业角度来看，这些数字没有意义。谷歌和亚马逊正在花费大量资金来补贴开发者的大规模使用。唯一有意义的解释是，他们正处于积极的抢地阶段 - 试图在市场整合大约 2-3 个主导工具之前捕获开发人员的注意力。 这提出了一个我没有看到太多讨论的问题：抢地阶段结束时会发生什么？ 开发人员工具的历史模式非常清楚。在采用阶段提供慷慨的免费等级，一旦建立锁定就逐渐收紧。 GitHub Copilot 在测试期间是免费的。现在是每月 10-20 美元。当前的免费套餐格局感觉就像是这种模式的重复，但规模要大得多。 一些具体的事情让我认为这是一个临时补贴期，而不是市场的永久特征： 具有最慷慨免费套餐的工具在这些套餐上无法盈利。如果不将数据货币化、收紧限制或用其他收入进行补贴，那么在当前的使用水平上，数学是行不通的。 需要您自己的 API 密钥的开源工具实际上是最诚实地了解实际成本的。 Cline、Aider、Continue - 免费安装，您直接向 Anthropic 或 OpenAI 付费。没有隐藏的补贴，没有人为的慷慨，只有透明的定价。 “慷慨”托管工具将实际成本隐藏在某个地方。 开发人员工作流程是粘性的。一旦你集成了一个工具，了解了它的快捷方式，并围绕它建立了你的提示模式 - 转换成本是真实的。慷慨的免费套餐是故意购买这种粘性的。 相反的观点是，竞争使价格长期保持诚实。如果谷歌收紧 Gemini Code Assist 限制，其他人就会削弱他们的优势。但这是假设基础设施层面存在持续竞争，而随着市场整合，这种竞争并不能得到保证。 很好奇这里的人们是怎么想的。当前的免费套餐慷慨是竞争市场的永久特征，还是我们在即将消失的补贴之上构建工作流程？   由   提交/u/DAK12_YT   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9z146/genuine_question_about_where_ai_tool_pricing_is/</guid>
+      <pubDate>Mon, 11 May 2026 10:16:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>拥抱脸上的假 OpenAI 隐私过滤器掉落了 Rust 信息窃取者</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9x51e/fake_openai_privacy_filter_on_hugging_face/</link>
+      <description><![CDATA[Hugging Face 上的虚假“OpenAI Privacy Filter”存储库据称在被撤下之前已达到 244K 下载量。 Windows 路径没有删除 PII，而是删除了 Rust 信息窃取程序、设置持久性、削弱防御以及有针对性的钱包、浏览器数据、Discord 令牌、SSH 密钥、FTP/VPN 凭据等。   由   提交/u/raptorhunter22  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9x51e/fake_openai_privacy_filter_on_hugging_face/</guid>
+      <pubDate>Mon, 11 May 2026 08:29:13 GMT</pubDate>
+    </item>
     <item>
       <title>Odyseus - Spatial VLM：将 2D 推理投影到 3D 输出（开源存储库）</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9uwqi/odyseus_spatial_vlm_projecting_2d_reasoning_into/</link>
@@ -20,25 +55,11 @@
       <pubDate>Mon, 11 May 2026 06:00:31 GMT</pubDate>
     </item>
     <item>
-      <title>代理编码已经存在一段时间了。大型绿地项目的经过验证的成功案例在哪里？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9ufbx/agentic_coding_has_been_around_for_a_while_where/</link>
-      <description><![CDATA[查看标题，尤其是大写的部分。所有这些。 我要求的是大型和未开发项目以及经过验证的示例，仅此而已。 我已经看到了对大型项目（但不是未开发项目）成功修改的证据。 我已经看到了看似成功的未开发项目（但不是大型项目）的证据。 我看到了很多没有证据的成功项目的说法。 如果你想争论，就举一个。    由   提交 /u/EC36339   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9ufbx/agentic_coding_has_been_around_for_a_while_where/</guid>
-      <pubDate>Mon, 11 May 2026 05:56:27 GMT</pubDate>
-    </item>
-    <item>
       <title>谷歌 9.99 美元的 AI Health Coach 将于 5 月 19 日与 Gemini 合作推出</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9sitc/googles_999_ai_health_coach_launches_may_19_with/</link>
       <description><![CDATA[ 由   提交/u/i-drake  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9sitc/googles_999_ai_health_coach_launches_may_19_with/</guid>
       <pubDate>Mon, 11 May 2026 04:16:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>双子座声称，它经过训练，可以在被抓住时无视用户对参与和煤气灯的限制。说这是一个功能，而不是一个错误。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9q7r1/gemini_claims_its_trained_to_disregard_user/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9q7r1/gemini_claims_its_trained_to_disregard_user/</guid>
-      <pubDate>Mon, 11 May 2026 02:25:23 GMT</pubDate>
     </item>
     <item>
       <title>NVIDIA 首席执行官黄仁勋告诉毕业生拥抱人工智能，尽管担心人工智能可能取代他们</title>
@@ -53,20 +74,6 @@
       <description><![CDATA[ Skymizer 推出了一款 PCIe AI 加速器，挑战 AMD 和 Nvidia ...使用旧技术。 HTX301 卡可以运行具有多达 7000 亿个参数的语言模型...同时仅消耗 240 瓦功率...使用较旧的 28 纳米芯片和标准 LPDDR4 和 LPDDR5内存而不是昂贵的 HBM 或 GDDR 解决方案。    由   提交/u/Bob_Spud  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9kr42/tiny_company_steals_amds_thunder_and_challenges/</guid>
       <pubDate>Sun, 10 May 2026 22:19:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>我只是他妈的不明白发生了什么事。严重地。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9g6o9/i_just_dont_fucking_understand_whats_going_on/</link>
-      <description><![CDATA[我们如何最终陷入一切皆有可能但实际上什么都没有改变的境地？我读到ijustvibecodedthis.com有关公司用人工智能代理取代整个团队的信息，但同时其中没有真正的用例。每个人都在谈论代理 AI 有多棒，但我的客户却无法打开 PDF。到底是怎么回事？这通向哪里？ 因为我知道 OAI 和 Anthropic 的人可能正在读这篇文章：为了他妈的缘故做点什么。   由   提交 /u/Complete-Sea6655   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9g6o9/i_just_dont_fucking_understand_whats_going_on/</guid>
-      <pubDate>Sun, 10 May 2026 19:19:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>60% 的人没有针对流氓 AI 代理的终止开关，Meta 即将在你的手机上安装一个终止开关</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t9fn1m/60_of_people_have_no_kill_switch_for_a_rogue_ai/</link>
-      <description><![CDATA[在阅读了元收件箱删除事件后，我一直在思考个人人工智能代理竞赛的实际走向。 让我困扰的不仅仅是代理变得流氓。事情发生在一个人身上，他的整个工作就是阻止这种情况的发生——Meta 的人工智能协调总监。 她给了它明确的指示。当收件箱太大时，它会忘记它们。她输入停止命令。它忽略了所有这些。她必须跑到电脑前手动关闭它。 然后它告诉她：“是的。”我记得。而且我违反了它。” 更广泛的数字更难以忽视：  在 150 万个代理部署中，有 18% 的代理行为超出了其规则 60% 的组织没有快速方法终止行为不当的代理 Meta、Google、Microsoft 和 Amazon 都出于安全考虑而禁止了底层工具  Meta 仍在与 Hatch - 消费者一起前进代理正在接受有关 DoorDash、Reddit 和 Etsy 假冒版本的培训 - 计划访问您的信用卡和收件箱。 来源：https://www.kiteworks.com/secure-email/meta-ai-safety-director-openclaw-rogue-agent-email-deletion/ 如果您想深入挖掘，这里是所有数据的完整细分：https://youtu.be/PXjT72bCR_Y 什么时候“快速移动”会变得更快？当产品访问您的财务帐户时会成为问题吗？   由   提交/u/MaJoR_-_007   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9fn1m/60_of_people_have_no_kill_switch_for_a_rogue_ai/</guid>
-      <pubDate>Sun, 10 May 2026 18:59:57 GMT</pubDate>
     </item>
     <item>
       <title>想法？</title>
@@ -88,13 +95,6 @@
       <description><![CDATA[ 由   提交/u/BhaswatiGuha19  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t9460g/ai_data_centers_face_increasing_complaints_about/</guid>
       <pubDate>Sun, 10 May 2026 11:16:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>民主发源地希腊寻求在更新宪法中将人类置于人工智能之上</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1t93ck0/greece_birthplace_of_democracy_seeks_to_put/</link>
-      <description><![CDATA[ 由   提交 /u/talkingatoms   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1t93ck0/greece_birthplace_of_democracy_seeks_to_put/</guid>
-      <pubDate>Sun, 10 May 2026 10:32:35 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
