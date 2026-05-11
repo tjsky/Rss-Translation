@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 11 May 2026 02:42:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 06:38:02 GMT</lastBuildDate>
+    <item>
+      <title>需要领导层生产力证明这些工具会生成哪些报告？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t9twtc/need_productivity_proof_for_leadership_what/</link>
+      <description><![CDATA[哪些报告在向领导层证明生产力时真正发挥了作用？   由   提交 /u/MarleneOquendo123   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t9twtc/need_productivity_proof_for_leadership_what/</guid>
+      <pubDate>Mon, 11 May 2026 05:29:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>我怎样才能制作出真正好的...表格？ *颤抖*</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t9snz6/how_can_i_make_really_good_forms_shudders/</link>
+      <description><![CDATA[格式。他们让我害怕。我试图用一堆 Next.js、Supabase 和一些 shadcn 来制作我的第一个真正的全栈项目，因为我没有耐心。我发现本教程是一个具有完全相同堆栈的实时聊天应用程序，因此我检查了它，希望在之后立即进入我的项目。 也就是说，直到我看到了表单的真正恐怖。在教程中，有一个表单只有两个字段（其中一个是复选框），但使用 shadcn 字段组件时，React return 语句长达近 100 行。我很害怕。我怎样才能让自己制作一个表格？这太令人畏惧了。与此同时，如果我尝试从头开始制作一个组件，我知道它会比这些专业制作的组件更糟糕（并且更难访问）。我对表单的恐惧是一个问题，因为这基本上占了前端开发人员的 50%。 在看到表单可以变得多么复杂之后，我想退一步并尝试擅长制作它们（在我回到我的项目之前）。鉴于我提到的堆栈，有关于表单的建议或最佳实践吗？有没有关于制作 2026 年顶级表格的指南，还是我必须在黑暗中摸索？   由   提交/u/Lavaa444  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t9snz6/how_can_i_make_really_good_forms_shudders/</guid>
+      <pubDate>Mon, 11 May 2026 04:23:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>经过大量修改和制定的氛围代码是否具有成功的能力？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1t9qlox/does_a_heavily_modified_and_worked_out_vibecode/</link>
+      <description><![CDATA[对于初学者来说，我正在构建一个完全由我自己构思的应用程序/工具，它是一个使用 API 的基于人工智能的工具。 在开始之前，除了自学了大量的 R 知识和基础的 Python 知识之外，我没有大量的编码经验。对于这个工具，我在 R 中的数据库上做了很多工作来创建我的工具的后端。但是，我没有 JavaScript 经验，并且能够使用 Claude 来帮助创建物理平台。  我并不是点击它就立即认为它已经准备好了，我花了一个月的时间改进它并添加我认为将使这个工具变得很棒的功能。 （说实话，我在这个过程中学到了大量的 JavaScript）。 这个工具会以其表面价值在市场上取得成功，还是会因为部分“vibe 编码”而变得不那么有价值？   由   提交 /u/Silver_Olive9942   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1t9qlox/does_a_heavily_modified_and_worked_out_vibecode/</guid>
+      <pubDate>Mon, 11 May 2026 02:43:20 GMT</pubDate>
+    </item>
     <item>
       <title>我想获得网络开发或网络安全学位。我有疑问。</title>
       <link>https://www.reddit.com/r/webdev/comments/1t9pp1c/i_want_to_get_my_degree_in_web_dev_or/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[是的，可以通过 github 上托管的 npm 下载： https://github.com/asciiart-html-theme/asciiart   由   提交/u/pc_magas  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t9bs0o/released_my_theme_as_foss_project/</guid>
       <pubDate>Sun, 10 May 2026 16:36:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们构建了 SpamMail.org - 具有别名、自定义域和 IMAP 的一次性电子邮件基础设施</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9b07m/we_built_spammailorg_disposable_email/</link>
-      <description><![CDATA[我们构建了 SpamMail.org，这是一个一次性电子邮件提供商，专为希望更好地控制临时和注重隐私的收件箱的用户而设计。 核心功能： - 创建自定义电子邮件别名 - 从单个帐户管理多个别名 - 使用您自己的域 - 跨别名和域使用一个通用收件箱 - 使用统一收件箱通过 IMAP 访问所有内容 这个想法很简单：一个帐户、多个身份、最小摩擦。 基础设施和隐私： - 托管在欧洲，主要是德国 - 公司位于奥地利 - 设计符合 GDPR - 数据最小化：我们只存储技术上所需的内容 - 内置将隐私作为默认假设，而不是作为营销层 对于高级用户，我们为想要保持更高程度匿名性的用户提供附加功能并支持加密支付。 路线图： - 发送电子邮件 - 浏览器扩展 - 本机桌面应用程序 - 本机移动应用程序 - 电子邮件转发 目标是让基于别名的电子邮件管理变得不那么痛苦，尤其是高级用户和注重隐私的用户，他们不想到处暴露自己的主收件箱。 欢迎提供反馈。   由   提交 /u/Doovester   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9b07m/we_built_spammailorg_disposable_email/</guid>
-      <pubDate>Sun, 10 May 2026 16:07:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为开发人员，您如何学习新事物？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9a7lm/how_do_you_learn_new_things_as_a_developer/</link>
-      <description><![CDATA[当你想学习一项新技术、框架、语言或概念时，你的流程是什么样的？ 你主要使用人工智能工具、文档、YouTube、课程、构建项目、阅读源代码还是其他东西？ 我也很想听听你在学习新东西时所采取的实际步骤。例如，您从哪里开始，如何练习，以及如何从初学者过渡到熟悉它？ 我正在寻找一些灵感，并且很乐意改进自己的学习过程。   由   提交/u/Worried_Lab0  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9a7lm/how_do_you_learn_new_things_as_a_developer/</guid>
-      <pubDate>Sun, 10 May 2026 15:36:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>尾递归 JavaScript 仍然会溢出堆栈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t99uqy/tailrecursive_javascript_still_overflows_the_stack/</link>
-      <description><![CDATA[      ail-recursive JavaScript 仍然会在主要运行时溢出堆栈，即使结构正确。这篇文章将介绍为什么 ECMAScript 2015 的尾部调用优化无法可靠实现，展示了可重现的示例，并涵盖了生产安全的替代方案：迭代重写和蹦床模式。   由   提交 /u/OtherwisePush6424   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t99uqy/tailrecursive_javascript_still_overflows_the_stack/</guid>
-      <pubDate>Sun, 10 May 2026 15:23:11 GMT</pubDate>
     </item>
     </channel>
 </rss>

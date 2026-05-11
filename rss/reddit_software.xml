@@ -4,11 +4,39 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Mon, 11 May 2026 02:42:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 06:37:02 GMT</lastBuildDate>
+    <item>
+      <title>您可以在 Windows 上同时使用耳机和扬声器</title>
+      <link>https://www.reddit.com/r/software/comments/1t9um67/you_can_use_headphones_and_speakers_at_the_same/</link>
+      <description><![CDATA[耳机将所有声音和细节直接传递到您的耳朵。扬声器移动空气，产生您真正感受到的同步低音。将两者一起运行，各自执行其设计目的，这对于电影和电视剧来说是完全不同的体验。   由   提交 /u/ObsidPro   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t9um67/you_can_use_headphones_and_speakers_at_the_same/</guid>
+      <pubDate>Mon, 11 May 2026 06:06:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>最好的基于 Markdown 的开发工具是什么？</title>
+      <link>https://www.reddit.com/r/software/comments/1t9suu9/what_are_the_best_markdown_based_dev_tools/</link>
+      <description><![CDATA[ 由   提交 /u/Successful_Bowl2564   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t9suu9/what_are_the_best_markdown_based_dev_tools/</guid>
+      <pubDate>Mon, 11 May 2026 04:33:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>检查 DVD/BR 的软件</title>
+      <link>https://www.reddit.com/r/software/comments/1t9rjno/software_to_check_dvdsbrs/</link>
+      <description><![CDATA[有没有可以读取 DVD 和蓝光光盘以检查它们是正版还是盗版的软件？我知道 ImgBurn 以前做过，但自 2013 年以来就没有更新过？   由   提交 /u/BadBloodMO   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t9rjno/software_to_check_dvdsbrs/</guid>
+      <pubDate>Mon, 11 May 2026 03:28:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>尽管设备功能更强大，但为什么现在应用程序感觉更慢？</title>
+      <link>https://www.reddit.com/r/software/comments/1t9r6po/why_do_apps_feel_slower_now_even_though_devices/</link>
+      <description><![CDATA[我注意到这一点已经有一段时间了。 现在手机和笔记本电脑的功能更加强大，但很多应用程序感觉比以前慢了。 有些应用程序需要更长的时间才能打开，使用大量 RAM，有时即使是简单的事情也会出现延迟。几乎所有东西都需要每隔几天更新一次。 我知道现代应用程序现在有更多功能，云、人工智能、动画、跨平台支持等。但是，有时感觉性能不再是主要关注点。 对于真正构建软件的人来说，你认为最大的原因是什么？  功能太多？ 现代框架？ 快速发布的压力？ 减少优化？ 还有别的吗？  只是好奇开发者对此有何看法。   由   提交 /u/ScarcityDry8870   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t9r6po/why_do_apps_feel_slower_now_even_though_devices/</guid>
+      <pubDate>Mon, 11 May 2026 03:10:57 GMT</pubDate>
+    </item>
     <item>
       <title>我使用 Tauri、React 和 Rust 构建了一个开源桌面编码代理。寻找测试人员和贡献者。</title>
       <link>https://www.reddit.com/r/software/comments/1t9qb38/i_built_an_opensource_desktop_coding_agent_with/</link>
-      <description><![CDATA[大家好，我一直在构建 Gilbert Codex，一个用于使用 AI 代理进行编码的开源桌面工作区。仓库：https://github.com/UrbanWafflezz/GilbertCodex Windows alpha 版本：https://github.com/UrbanWafflezz/GilbertCodex/releases/tag/v0.0.2 简短版本：它是一个使用 Tauri 2、React、TypeScript 和 Rust 构建的本地优先桌面应用程序。目标是为代理编码工作提供一个集中的 GUI，而不是将所有内容分散在浏览器选项卡、终端窗口、注释和 Git 客户端上。 alpha 版本中已有内容： - 包含本地项目、固定聊天、Markdown、附件和本地持久性的聊天工作区 - OpenRouter、OpenAI、Anthropic、Gemini、xAI、LM Studio、Ollama、Groq、Mistral 和 DeepSeek 的模型路由 - 思维控制、规划模式、再生、停止和可见的活动/进度状态 - 用于状态、差异、阶段、提交、推、拉、分支和审阅式提示的本地 Git 工具 - GitHub用于存储库/文件读取、代码搜索、分支、发布、拉取请求和工作流程运行的工具 - DuckDuckGo 支持的带有源卡的 Web 搜索 - 终端会话、浏览器预览、本地文件工具、工具切换和设置 - SQL 支持的本地应用程序状态，用于身份验证、聊天、项目、设置、集成、预览状态和代理运行 我现在需要帮助： - 测试 Windows 安装程序和设置流程 - 尝试真正的编码任务并打开问题以解决混乱/损坏的行为 - 测试 macOS 和 Linux从源代码来看，因为 Windows 是目前唯一的打包目标 - 审查 Rust/Tauri 命令层，尤其是本地文件、终端、Git、权限和应用程序数据周围的任何内容 - 改进文档、首次运行设置、贡献流程和良好的第一个问题细分 一些诚实的警告： - 这是早期的公开 alpha - Windows 安装程序未签名，因此 SmartScreen 可能会抱怨 - 提供程序密钥和本地端点仍然是本地用户设置；将敏感令牌转移到操作系统支持的安全存储中已在路线图上 - macOS/Linux 需要这些机器的真正贡献者，然后我才能称其为受支持的。如果您尝试一下，最有用的反馈是您的操作系统的 GitHub 问题、安装/运行步骤、您的期望、发生的情况以及清理的屏幕截图/日志（如果可能）。也欢迎拉取请求。我对实际使用编码代理的人的实际反馈特别感兴趣，并且知道这些工具在日常工作中哪些地方会令人烦恼。感谢您的浏览。    由   提交/u/Elegant_Associate889  [链接] [评论]]]></description>
+      <description><![CDATA[大家好，我一直在构建 Gilbert Codex，一个用于使用 AI 代理进行编码的开源桌面工作区。仓库：https://github.com/UrbanWafflezz/GilbertCodex Windows alpha 版本：https://github.com/UrbanWafflezz/GilbertCodex/releases/tag/v0.0.2 简短版本：它是一个使用 Tauri 2、React、TypeScript 和 Rust 构建的本地优先桌面应用程序。目标是为代理编码工作提供一个集中的 GUI，而不是将所有内容分散在浏览器选项卡、终端窗口、注释和 Git 客户端上。 alpha 版本中已有内容： - 包含本地项目、固定聊天、Markdown、附件和本地持久性的聊天工作区 - OpenRouter、OpenAI、Anthropic、Gemini、xAI、LM Studio、Ollama、Groq、Mistral 和 DeepSeek 的模型路由 - 思维控制、规划模式、再生、停止和可见的活动/进度状态 - 用于状态、差异、阶段、提交、推、拉、分支和审阅式提示的本地 Git 工具 - GitHub用于存储库/文件读取、代码搜索、分支、发布、拉取请求和工作流程运行的工具 - DuckDuckGo 支持的带有源卡的 Web 搜索 - 终端会话、浏览器预览、本地文件工具、工具切换和设置 - SQL 支持的本地应用程序状态，用于身份验证、聊天、项目、设置、集成、预览状态和代理运行 我现在需要帮助： - 测试 Windows 安装程序和设置流程 - 尝试真正的编码任务并打开问题以解决混乱/损坏的行为 - 测试 macOS 和 Linux从源代码来看，因为 Windows 是目前唯一的打包目标 - 审查 Rust/Tauri 命令层，尤其是本地文件、终端、Git、权限和应用程序数据周围的任何内容 - 改进文档、首次运行设置、贡献流程和良好的第一个问题细分 一些诚实的警告： - 这是早期的公开 alpha - Windows 安装程序未签名，因此 SmartScreen 可能会抱怨 - 提供程序密钥和本地端点仍然是本地用户设置；将敏感令牌转移到操作系统支持的安全存储中已在路线图上 - macOS/Linux 需要这些机器的真正贡献者，然后我才能称其为受支持的。如果您尝试一下，最有用的反馈是您的操作系统的 GitHub 问题、安装/运行步骤、您的期望、发生的情况以及清理的屏幕截图/日志（如果可能）。也欢迎拉取请求。我对实际使用编码代理的人的实际反馈特别感兴趣，并且知道这些工具在日常工作中哪些地方会令人烦恼。感谢您的关注。    由   提交/u/Elegant_Associate889  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1t9qb38/i_built_an_opensource_desktop_coding_agent_with/</guid>
       <pubDate>Mon, 11 May 2026 02:29:41 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/According_Garden_671   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1t96fq3/pipz_has_been_updated/</guid>
       <pubDate>Sun, 10 May 2026 13:06:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>正在寻找一款可以让我有效地重新组织 PDF 文件中的页面的软件</title>
-      <link>https://www.reddit.com/r/software/comments/1t95h9h/looking_for_a_software_that_allows_me_to/</link>
-      <description><![CDATA[大多数在线工具要求您直观地拖动每个页面，并且需要很长时间才能重新格式化文件需要几天的时间。有没有一个程序可以让我选择一个页面，例如输入 1，它会立即将所选页面捕捉到位置 1？   由   提交 /u/TinyCopy5841   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t95h9h/looking_for_a_software_that_allows_me_to/</guid>
-      <pubDate>Sun, 10 May 2026 12:21:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>聊天机器人</title>
-      <link>https://www.reddit.com/r/software/comments/1t95e40/chatbot/</link>
-      <description><![CDATA[我是一名语言学学生，我必须创建一个聊天机器人来帮助翻译某些主题我正在努力寻找易于使用的东西。我尝试了 Colab，因为它对初学者很友好，但没有多大帮助。如果有人可以帮忙提建议谢谢   由   提交/u/Free_Working_6565   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t95e40/chatbot/</guid>
-      <pubDate>Sun, 10 May 2026 12:17:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>产品演示的屏幕录像机</title>
-      <link>https://www.reddit.com/r/software/comments/1t944xb/screen_recorder_for_product_demos/</link>
-      <description><![CDATA[我花了一个月的时间为创始人和个体企业家构建这个本机屏幕录像机。大量学习，人工智能辅助，但仍然需要学习很多东西，尽管目前仅支持 Windows。显然，构建此产品的需要是拥有良好的屏幕录像机和视频编辑功能，尤其是产品演示视频，而无需过多的编辑控件。 它是免费的开源软件。我需要 Windows、Linux 和 Mac 操作系统的早期测试人员。 欢迎反馈和贡献 网站：https://recast.nexonauts.com Github：https://github.com/kanakkholwal/recast   由   提交 /u/kanakkholwal   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t944xb/screen_recorder_for_product_demos/</guid>
-      <pubDate>Sun, 10 May 2026 11:15:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能会取代软件工程师吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1t930hr/will_ai_replace_software_engineers/</link>
-      <description><![CDATA[与其问“人工智能会取代软件工程师吗？”，我认为更好的问题是： “拒绝深入学习人工智能工具的开发人员会怎样？” 老实说，我现在注意到围绕人工智能有两种截然不同的心态：  害怕人工智能并不断重复软件工程正在消亡的人。 积极学习的人人工智能工具并利用它们变得更快、更高效、更有价值。  第二类人在专业上似乎更加危险。 我开始感觉到，也许未来的开发人员不是手动编写每一行的人，而是：  深入理解系统， 知道如何正确引导人工智能， 可以验证架构和代码质量， 解决真正的业务问题， 并使用人工智能作为杠杆，而不是与它竞争。  这感觉类似于计算器没有杀死数学家，而是改变了有价值的东西。 所以我想问经验丰富的工程师：  现在哪些人工智能工具实际上值得深入学习？ 哪些技能在人工智能时代变得更有价值？ 哪些技能是变得商品化？ 你周围的高级工程师如何适应？ 你认为初级开发人员仍然应该花数年时间学习传统的基础知识吗？ 如果你今天开始你的职业生涯，你会关注什么？  我觉得很多学生要么盲目炒作，要么盲目害怕，我正在努力寻找一个更现实的视角。 希望得到已经在该领域工作的人们的诚实意见。行业。   由   提交/u/New_Atmosphere500   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t930hr/will_ai_replace_software_engineers/</guid>
-      <pubDate>Sun, 10 May 2026 10:13:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
