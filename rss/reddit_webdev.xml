@@ -4,20 +4,69 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 11 May 2026 12:06:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 17:25:41 GMT</lastBuildDate>
+    <item>
+      <title>在构建网络应用程序时，您如何使用人工智能，这是我一直在做的事情。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ta96dt/how_are_you_using_ai_when_building_your_web_apps/</link>
+      <description><![CDATA[      我一直在尝试一种工作流程，在我首先在 Claude 中设计产品之前，我不会编写任何代码。三个阶段，三个角色：  产品设计师 (Claude Desktop)。 讨论它的用途、用户旅程是什么、数据模型是什么、范围内和范围外的内容。没有代码。 产品经理（终端中的克劳德代码）。将规范交给它。它建立了。我将其保持在范围内，并根据第一阶段的用户旅程手动测试每个功能。 开发人员（Claude Code）。切换帽子。重构、编写测试、强化代码。  我只是用它来规划潜在客户生成器登陆页面构建器。在一个下午的时间里，从一个模糊的想法变成了一个又一个里程碑的构建规范。  对页面构建器块、潜在客户捕获流程、数据模型等进行推理。 令人惊讶的是，第 1 步和第 2 步走得非常远。 我将我使用的两个 Claude Code 技能放入了一个存储库中：https://github.com/PaulBratslavsky/pauls-skills  product-design-flow：六阶段面试，生成可立即构建的规范 strapi-product-builder：相同的想法，针对 Strapi 项目进行了调整  我的内容想知道：  您只是将人工智能用于代码，还是也用于产品和架构决策？ 哪种工具用于 Strapi 工作，Claude Code、Cursor、Copilot 还是其他工具，为什么？ 有人主要使用 AI 构建了 Strapi 插件吗？它在 v0.1 以后还有效吗？ 它对你来说有什么问题吗？    由   提交/u/codingafterthirty  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ta96dt/how_are_you_using_ai_when_building_your_web_apps/</guid>
+      <pubDate>Mon, 11 May 2026 16:55:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>在社交网络项目中过多使用 Ajax 和 dom 操作可以吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ta8oq7/is_it_ok_using_ajax_and_dom_manipulation_too_much/</link>
+      <description><![CDATA[我正在使用 php laravel 开发类似 reddit 的基本网站，我做了社区所有者处理用户（禁止、删除等），现在我正在发帖子。  我确实使用了ajax，并且喜欢/不喜欢、保存、隐藏、使用异步报告帖子，并且我意识到我也必须在社区中进行用户处理或帖子处理，因为我们在禁止用户后无法返回顶部。  这不是唯一的事情，之后我还必须更改 dom，因为没有刷新，我确实用 js 删除了类似的帖子。 我想知道过多使用 ajax 和 dom 操作是不是一种不好的做法？或者还有其他方法可以做到这一点吗？   由   提交 /u/Constant-Box4994   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ta8oq7/is_it_ok_using_ajax_and_dom_manipulation_too_much/</guid>
+      <pubDate>Mon, 11 May 2026 16:38:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我的ascii art在brave（和edge）中看起来错误，但在其他浏览器（包括chrome）中看起来很好？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ta84kc/why_does_me_ascii_art_looks_wrong_in_brave_and/</link>
+      <description><![CDATA[   /u/seelefanth   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ta84kc/why_does_me_ascii_art_looks_wrong_in_brave_and/</guid>
+      <pubDate>Mon, 11 May 2026 16:18:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>您在工作中使用什么笔记本电脑以及您使用什么作为个人笔记本电脑？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ta6n5o/what_laptop_were_you_given_at_work_and_what_do/</link>
+      <description><![CDATA[嘿，开发人员，我认为看看每个人从工作中获得的笔记本电脑和规格以及您用作个人笔记本电脑或业余项目的笔记本电脑以及它是否满足需求会很有趣。  我会开始： - 工作：使用 Python、Docker 的 Fullstack Web 开发人员（2 岁），在一家小公司使用 LLM API - 工作笔记本电脑：Macbook Pro 14” M4 Pro 24/512 GB- 个人笔记本电脑：Macbook Air 15” M3 16/512 GB 我使用我的个人 MacBook 进行一些小型副项目（网页抓取）或者学习一些新东西），除了常见的 Netflix 之类的。我认为它运行得很好，可能会考虑几年后升级到 13 英寸空气    提交者    /u/Own_Tailor3719   [链接]   href=&quot;https://www.reddit.com/r/webdev/comments/1ta6n5o/what_laptop_were_you_given_at_work_and_what_do/&quot;&gt;[评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ta6n5o/what_laptop_were_you_given_at_work_and_what_do/</guid>
+      <pubDate>Mon, 11 May 2026 15:27:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>非技术构建者：目前“氛围编码”最大的瓶颈是什么？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ta4sqc/nontechnical_builders_whats_your_biggest/</link>
+      <description><![CDATA[对我来说，这是 100% 部署和令人疲惫不堪的堆栈更新速度。  作为一个非技术人员，编写代码突然成为构建应用程序最简单的部分，但实际的“将其放到互联网上”却是最简单的部分。部分是一场噩梦。我最近意识到，88% 的初学者 AI 编码项目就是因为这个而死在聊天窗口中的。  我实际上只是想确切地知道要单击什么以及要粘贴什么来部署我的项目。另外，工具的发展速度快得令人难以置信，以至于堆栈疲劳是真实存在的。  还有人有同样的感觉吗？我们实在受够了，以至于我们实际上制定了一个点击式部署路径来绕过这些障碍。如果其他人遇到困难，很乐意分享！   由   提交/u/username90856  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ta4sqc/nontechnical_builders_whats_your_biggest/</guid>
+      <pubDate>Mon, 11 May 2026 14:22:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>你们喜欢的利基网络框架吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ta2qje/niche_web_frameworks_that_you_people_like/</link>
+      <description><![CDATA[我主要用 vue 编写，虽然那是在工作中，但我现在一直在外面使用它，但想使用一些更有趣的东西来开发。 看看 astrojs 之类的东西 利基，如在主下一个反应 vue 角度等之外。 要求 - 具有一致的贡献，而不是臃肿/缓慢 这个子散布着与人工智能相关的东西，这篇文章与任何此类内容无关 编辑：这些答案正是我正在寻找的，谢谢   由   提交/u/kingrind  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ta2qje/niche_web_frameworks_that_you_people_like/</guid>
+      <pubDate>Mon, 11 May 2026 13:05:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>还有其他人看着高级工程师过度依赖人工智能吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ta2diz/anyone_else_watching_senior_engineers_become/</link>
+      <description><![CDATA[当我开始在现在的公司工作时，人工智能工具仍然非常有限。我们的技术主管是一位出色的工程师，具有很强的解决问题的能力，与他一起完成困难的任务确实令人鼓舞。 不过在过去几年中，尤其是最近，我注意到他几乎在所有事情上都依赖人工智能 - 不仅仅是编码帮助，还有设计决策、架构讨论，甚至个人生活选择。 我并不反对人工智能，我自己也使用这些工具，但有时感觉批判性思维和怀疑主义正在从这个过程中消失。我开始不再信任他的技术判断，因为现在许多决策似乎直接来自人工智能建议，而不是更深入的推理或经验。 也许这只是行业的发展方向，但我很好奇是否有其他人注意到高级工程师或导师严重依赖人工智能工具的类似转变。   由   提交/u/Jbalis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ta2diz/anyone_else_watching_senior_engineers_become/</guid>
+      <pubDate>Mon, 11 May 2026 12:50:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>仅在背景、蒙版或边框的图像层上应用 CSS 或 SVG 滤镜</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ta1u7u/apply_a_css_or_svg_filter_only_on_an_image_layer/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ta1u7u/apply_a_css_or_svg_filter_only_on_an_image_layer/</guid>
+      <pubDate>Mon, 11 May 2026 12:28:50 GMT</pubDate>
+    </item>
     <item>
       <title>经过 2 年构建人工智能自动化后，计算成本是真正的瓶颈，没有人为我做好准备</title>
       <link>https://www.reddit.com/r/webdev/comments/1ta128n/after_2_years_of_building_ai_automations_compute/</link>
       <description><![CDATA[我们为小型团队构建 AI 自动化工作流程已经两年多了。潜在客户发掘、内容管道、外展序列，整个事情。每个季度给我带来沉重打击的一个教训是，计算成本决定了这一切是否在生产中真正发挥作用。 就像在纸面上一样，是的，你可以有一个代理来研究潜在客户、撰写个性化电子邮件、智能地跟进。我已经构建了这个版本。他们工作。但是，当您实际查看在代理循环上运行前沿模型的成本时，由于模型需要考虑多个步骤，代币数量会爆炸式增长，突然之间，您的单位经济效益对于任何不高费用的东西都陷入了困境。 去年我有一个客户，小型 SaaS 团队，希望端到端地自动化他们的整个内容工作流程。原型很漂亮。然后我们计算了每天大规模运营的成本，大约是他们支付给自由职业者的 3 倍。我们最终放弃了一半的代理推理，并在中间步骤中使用了更便宜的模型，只是为了使其可行。 人工智能在技术上的能力与对 5 人团队来说具有财务意义的能力之间的差距比大多数人意识到的要大得多。每个人都在谈论能力，但没有人谈论月底的发票。   由   提交 /u/Available-Door-1460   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ta128n/after_2_years_of_building_ai_automations_compute/</guid>
       <pubDate>Mon, 11 May 2026 11:55:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>面向使用 Supabase 的任何人的 PSA：仪表板上的“RLS 已启用”并不意味着您的想法</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ta0ubg/psa_for_anyone_using_supabase_rls_enabled_on_the/</link>
-      <description><![CDATA[刚刚在我自己的生产 CRM 上遇到了这个问题，感觉很愚蠢，所以我想我应该发布。 我在每个表上都启用了 RLS。仪表板上全面显示绿色复选标记。感觉很聪明。 事实证明，我的一半 SELECT 策略是从早期复制粘贴为 USING (true) 的，没有角色过滤器，这在 Postgres 中映射为“所有角色都可以读取所有内容”。包括阿诺。这就是我的 JS 包中的公共匿名密钥所使用的角色。 所以从技术上讲，RLS 已启用。实际上任何人都可以卷曲我的表并取回行。 发现是因为我正在运行我在自己的存储库上构建的静态分析扫描，并且其中一个测试使用每个表的公共匿名密钥触发 HTTP 请求。其中 14 个返回了行。 花了 20 分钟修复（DROP POLICY x_select、CREATE POLICY x_select FOR SELECT TO authentiated USING true）。 14 到 0。 如果您使用的是 Supabase，只需将项目 URL 和匿名密钥粘贴到开发工具中并尝试： fetch(&#39;https://YOUR_REF.supabase.co/rest/v1/SOMETABLE?select=*&amp;limit=1&#39;, { headers: { apikey: ANON_KEY, Authorization: &#39;Bearer &#39; + ANON_KEY }}).then(r =&gt; r.json()).then(console.log) 如果你得到行，你就有问题了。 还有其他人被这个问题困扰吗？很好奇你们中有多少人检查这个而不是仅仅信任仪表板。   由   提交 /u/renzom13   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ta0ubg/psa_for_anyone_using_supabase_rls_enabled_on_the/</guid>
-      <pubDate>Mon, 11 May 2026 11:45:50 GMT</pubDate>
     </item>
     <item>
       <title>即使工作流程正确实施，企业自动化也会失败</title>
@@ -60,55 +109,6 @@
       <description><![CDATA[哪些报告在向领导层证明生产力时真正发挥了作用？   由   提交 /u/MarleneOquendo123   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1t9twtc/need_productivity_proof_for_leadership_what/</guid>
       <pubDate>Mon, 11 May 2026 05:29:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>我怎样才能制作出真正好的...表格？ *颤抖*</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9snz6/how_can_i_make_really_good_forms_shudders/</link>
-      <description><![CDATA[格式。他们让我害怕。我试图用一堆 Next.js、Supabase 和一些 shadcn 来制作我的第一个真正的全栈项目，因为我没有耐心。我发现本教程是一个具有完全相同堆栈的实时聊天应用程序，因此我检查了它，希望在之后立即进入我的项目。 也就是说，直到我看到了表单的真正恐怖。在教程中，有一个表单只有两个字段（其中一个是复选框），但使用 shadcn 字段组件时，React return 语句长达近 100 行。我很害怕。我怎样才能让自己制作一个表格？这太令人畏惧了。与此同时，如果我尝试从头开始制作一个组件，我知道它会比这些专业制作的组件更糟糕（并且更难访问）。我对表单的恐惧是一个问题，因为这基本上占了前端开发人员的 50%。 在看到表单可以变得多么复杂之后，我想退一步并尝试擅长制作它们（在我回到我的项目之前）。鉴于我提到的堆栈，有关于表单的建议或最佳实践吗？有没有关于制作 2026 年顶级表格的指南，还是我必须在黑暗中摸索？   由   提交/u/Lavaa444  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9snz6/how_can_i_make_really_good_forms_shudders/</guid>
-      <pubDate>Mon, 11 May 2026 04:23:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>经过大量修改和制定的氛围代码是否具有成功的能力？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9qlox/does_a_heavily_modified_and_worked_out_vibecode/</link>
-      <description><![CDATA[对于初学者来说，我正在构建一个完全由我自己构思的应用程序/工具，它是一个使用 API 的基于人工智能的工具。 在开始之前，除了自学了大量的 R 知识和基础的 Python 知识之外，我没有大量的编码经验。对于这个工具，我在 R 中的数据库上做了很多工作来创建我的工具的后端。但是，我没有 JavaScript 经验，并且能够使用 Claude 来帮助创建物理平台。  我并不是点击它就立即认为它已经准备好了，我花了一个月的时间改进它并添加我认为将使这个工具变得很棒的功能。 （说实话，我在这个过程中学到了大量的 JavaScript）。 这个工具会以其表面价值在市场上取得成功，还是会因为部分“vibe 编码”而变得不那么有价值？   由   提交 /u/Silver_Olive9942   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9qlox/does_a_heavily_modified_and_worked_out_vibecode/</guid>
-      <pubDate>Mon, 11 May 2026 02:43:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我想获得网络开发或网络安全学位。我有疑问。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9pp1c/i_want_to_get_my_degree_in_web_dev_or/</link>
-      <description><![CDATA[嘿！ 我计划在秋季上大学，获得 Web 开发学位。我主要关心的是人工智能。是否达到了某个点，或者将会达到某个点，这将使我的技能和学位变得毫无用处？如果有人可以要求人工智能在 10 秒内放出一个网站，那么学校教育还有什么意义呢？网络安全也有同样的问题。如果这个学位五年后变得毫无价值，我不想在这个学位上浪费金钱或时间。    由   提交 /u/Lacherlich   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9pp1c/i_want_to_get_my_degree_in_web_dev_or/</guid>
-      <pubDate>Mon, 11 May 2026 02:01:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>再见人工智能焦虑帖子</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9nsaz/good_bye_ai_anxiety_posts/</link>
-      <description><![CDATA[正如我在上一篇文章中所说，这个子已经变成了一堆人工智能炒作和厄运帖子。每个发帖的人似乎都对技术怀有令人烦恼的、无法控制的焦虑，并且无法阻止自己发布前一天或前几个小时看到的相同内容。版主不想安装每周线程来将其与规则一起包含，因此如果您厌倦了，我将离开并向其他人提供。   由   提交/u/ClearOptics  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9nsaz/good_bye_ai_anxiety_posts/</guid>
-      <pubDate>Mon, 11 May 2026 00:33:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>是时候从我的网站上删除 gg recaptcha 了</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9mmh6/time_to_remove_gg_recaptcha_from_my_website/</link>
-      <description><![CDATA[Google 有一个名为 Cloud Fraud Defense 的新系统，它是 reCAPTCHA 的下一个版本，并已开始向用户推出 当系统检测到有风险的网络活动时，它不再显示您选择公共汽车或交通信号灯的旧图片拼图。相反，它会显示您用 Android 手机扫描的二维码，但要通过测试，您的手机必须安装并运行 Google Play 服务。 结果是，数以百万计的网站现在将这些隐私手机视为存在风险，因此用户必须添加 Google Play 服务或保持锁定状态。  完整帖子：https://x.com/Pirat_Nation/status/2053490745479479359?s=20   由   提交 /u/longdarkfantasy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9mmh6/time_to_remove_gg_recaptcha_from_my_website/</guid>
-      <pubDate>Sun, 10 May 2026 23:41:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>您认为 2-5 年后您自己（或我们作为网络开发人员）会怎样？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9lsl7/where_do_you_see_yourself_or_us_as_web_developers/</link>
-      <description><![CDATA[我之前已经说过了，我会再说一遍，目前即使是最好的人工智能最多也只是初级开发人员水平。但只要“你”知道自己在做什么，这会很有帮助。 如果您愿意事后进行一些编辑，并有时间深入描述您需要的内容，我发现这确实可以节省一些时间。再说一次，只要你仍然掌握它并且不要让任何愚蠢的事情溜走。 我的问题是；我们没有人以五年前的方式工作，无论我们喜欢与否，世界已经改变，我们无法回到原来的样子——尽管我希望我们能做到。那么，从现在起 5 年后呢？ 我的工作是为企业构建自定义 Web 应用程序，我仍然感到安全，因为我所做的事情（还）不是非技术企业主可以使用 lovable 之类的东西自己构建的。老实说，我不确定 5 年后情况是否还会如此。并不是因为人工智能或可爱的东西会接管我的工作，但即使是现在，这也感觉像是一场逐底竞争。与那些不重视时间的人竞争，这一直很困难。 我想我们能做的最好的事情就是在我们仍然可以找到客户的同时，在我们的投资组合中获得尽可能多的客户，并为自己赢得声誉。   由   提交 /u/mekmookbro   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9lsl7/where_do_you_see_yourself_or_us_as_web_developers/</guid>
-      <pubDate>Sun, 10 May 2026 23:04:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么这个 CSS 3D 项目不能在 Firefox 上运行？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1t9l0qc/why_doesnt_this_css_3d_project_work_on_firefox/</link>
-      <description><![CDATA[      在 chrome 上，它是精致且可滚动的，而在 firefox 上，它只是一个空盒子。我在我的网站上已经知道这个错误很多年了，但我只是一直不知道如何修复它。 （我会提供两者的图像，但 reddit 给我一个错误，读取“图像不允许”。抱歉）   由   提交/u/viiimproved  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1t9l0qc/why_doesnt_this_css_3d_project_work_on_firefox/</guid>
-      <pubDate>Sun, 10 May 2026 22:31:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
