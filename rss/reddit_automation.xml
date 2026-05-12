@@ -4,9 +4,23 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Tue, 12 May 2026 02:33:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 06:09:31 GMT</lastBuildDate>
     <item>
-      <title>自动化代理、单独工作流创业？</title>
+      <title>大多数代理自动化都缺少验证循环。这不是更好的提示。</title>
+      <link>https://www.reddit.com/r/automation/comments/1tasfme/most_agent_automations_are_missing_the/</link>
+      <description><![CDATA[有一个层出现在几乎每个运行良好的生产代理中，而在几乎每个陷入困境的生产代理中都不存在。我称之为验证循环，它不像听起来那么迷人。 您构建一个代理来处理提醒、跟进或发票处理。它在 80% 的简单情况下效果很好。代理接收输入，解析它，调用工具，返回成功。日志全是绿色的。 然后你会发现实际的结果并没有发生。提醒从未送达。发票从未发送。该消息从未到达。但代理不知道，因为它从未检查过。 修复是一个验证步骤。 验证循环实际上做了什么： 它在代理声明成功后确认现实世界的结果。我没有调用 API，而是 API 做了它应该做的事情。代理在宣布任务完成之前会读回世界的实际状态。如果验证失败，代理会通过不同的路径重试或升级为人工审核。 这感觉像是额外的复杂性。早期的演示不需要它，因为演示只使用了快乐路径。生产从来都不是一条快乐的道路。 简单的验证步骤，相同数据的后续读取，下游系统必须确认的检查点写入，或者确认主要操作之后运行的结果并相应路由的轮询步骤。几乎不需要花费任何费用。避免下游客户的巨大信任损失。 我们发布了一个 Whatsapp 提醒代理，开始执行此操作，效果非常明显。之前：代理说已安排提醒并已发送确认→提醒时间到达→消息从未发送，因为队列默默地将其丢弃→代理从未注意到→客户向所有者询问丢失的提醒。验证循环后：代理在实际交付到达时写入检查点 → 如果在预定时间 + 60 秒后没有检查点，代理会通过不同的路径重试 → 面向客户的可靠性在大约 2 周的工作时间内从日志中看起来很好变为实际可靠。 拥有最流畅 AI 部署的自动化团队几乎总是​​拥有这一层，即使他们不这么称呼它。他们只是很早就发现工具调用成功与现实世界中发生的事情不同。 您当前的代理是否对其声称提供的结果有明确的验证步骤？好奇其他人是如何构造这个的。   由   提交/u/Concient-Arm-875   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tasfme/most_agent_automations_are_missing_the/</guid>
+      <pubDate>Tue, 12 May 2026 05:48:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立了一个自动呼叫潜在客户的系统，我再也不想手动进行冷外展</title>
+      <link>https://www.reddit.com/r/automation/comments/1tapaip/built_a_system_that_calls_leads_automatically_and/</link>
+      <description><![CDATA[      这个想法很简单。潜在客户进来，系统打出电话，人工智能询问资格问题，当通话结束时，CRM 已经更新了。 让我惊讶的是现在的声音听起来有多好。我使用了 Vapi.ai，老实说，如果你不知道它是 AI，你不会立即猜到。并不完美，但足够接近，人们可以正常回答问题。 没人谈论的烦人部分： Twilio 试用帐户将“从您的 Twilio 试用帐户发送”添加到每条短信中。在生产中看起来很糟糕。您必须升级才能删除它。 Vapi 会在调用过程中触发多个 Webhook，而不仅仅是在结束时。如果您不按消息类型进行过滤，您将处理垃圾数据并想知道为什么所有内容都是空的： if (message.type !== &#39;end-of-call-report&#39;) return [];  在 Windows 上，如果您使用 echo 为 Twilio 身份验证生成 Base64，它会添加换行符并以静默方式中断身份验证。请改用这个： [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(&quot;SID:TOKEN&quot;))  堆栈（如果有人想要复制它）：   工具 角色    Vapi.ai 语音代理   n8n 编排   Pipedrive CRM   Twilio短信Slack团队通知我来自摩洛哥，所以英语不是我的第一语言，实际上也不是我的第二语言。如果某些东西读起来很奇怪，那就是原因。 如果你是为真正的客户构建它，你会添加什么？接下来考虑添加 14 天的跟进序列，但不确定 Vapi 还是 SMS 是否更好。   由   提交/u/kellyjames436  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tapaip/built_a_system_that_calls_leads_automatically_and/</guid>
+      <pubDate>Tue, 12 May 2026 03:13:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动化代理、单独工作流程创业？</title>
       <link>https://www.reddit.com/r/automation/comments/1tanw1i/automated_agent_solo_workflow_entrepreneurships/</link>
       <description><![CDATA[请参阅附件。    由   提交/u/Geekgamer09  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tanw1i/automated_agent_solo_workflow_entrepreneurships/</guid>
@@ -22,7 +36,7 @@
     <item>
       <title>如果您的自动化需要保姆，那么它就不是自动化</title>
       <link>https://www.reddit.com/r/automation/comments/1tag38w/if_your_automation_needs_babysitting_it_isnt/</link>
-      <description><![CDATA[“有效”的工作流程但仍然需要你每 20 分钟检查一次，这并不是真正的自动化。 这只是一项新工作，人类的角色是：照看系统。 我认为这就是许多自动化项目悄悄走向侧面的地方。人们衡量成功的标准是： - 它是否运行 - 它是否产生输出 - 它是否避免崩溃 但真正的问题是：我是否可以停止思考它足够长的时间，以至于它实际上消除了工作？ 我最信任的自动化往往是最不花哨的。它们具有： - 严格的范围 - 可预测的输入 - 出现问题时清晰的后备规则 - 明显的终止开关 - 使调试快速的日志 造成最大压力的通常是“最聪明”的人。那些。他们处理很多事情......直到他们遇到奇怪的边缘情况，突然你像第一天紧张的实习生一样监视他们。 我还注意到，当真正的问题是环境时，人们会责怪模型或逻辑。过期会话、缺失字段、API 超时、重复提交、奇怪的输入格式。这些东西不会出现在演示中，但会在生产中不断出现。 对我来说，自动化在以下情况下赢得信任： - 不良操作的成本有限 - 它安全地失败，而不是默默地失败 - 异常会路由到有用的地方而不是消失 - 我不会被迫照顾它来发现错误 “无聊但可靠”的方法建筑几乎总是比“令人印象深刻但脆弱”的建筑更持久。一。 很好奇其他人的界限在哪里。自动化在什么时候从“酷演示”转变为“酷演示”？到你真正信任的无人监督运行的东西？   由   提交/u/Cnye36  [链接] [评论]]]></description>
+      <description><![CDATA[“有效”的工作流程但仍然需要你每 20 分钟检查一次，这并不是真正的自动化。 这只是一项新工作，人类的角色是：照看系统。 我认为这就是许多自动化项目悄悄走向侧面的地方。人们衡量成功的标准是： - 它是否运行 - 它是否产生输出 - 它是否避免崩溃 但真正的问题是：我是否可以停止思考它足够长的时间，以至于它实际上消除了工作？ 我最信任的自动化往往是最不花哨的。它们具有： - 严格的范围 - 可预测的输入 - 出现问题时清晰的后备规则 - 明显的终止开关 - 使调试快速的日志 造成最大压力的通常是“最聪明”的人。那些。他们处理很多事情......直到他们遇到奇怪的边缘情况，突然你像第一天紧张的实习生一样监视他们。 我还注意到，当真正的问题是环境时，人们会责怪模型或逻辑。过期会话、缺失字段、API 超时、重复提交、奇怪的输入格式。这些东西不会出现在演示中，但会在生产中不断出现。 对我来说，自动化在以下情况下赢得信任： - 不良操作的成本有限 - 它安全地失败，而不是默默地失败 - 异常会路由到有用的地方而不是消失 - 我不会被迫照顾它来发现错误 “无聊但可靠”的方法建筑几乎总是比“令人印象深刻但脆弱”的建筑更持久。一。 很好奇其他人的界限在哪里。自动化在什么时候从“酷演示”转变为“酷演示”？到你真正信任的在无人监督的情况下运行的东西？   由   提交/u/Cnye36  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tag38w/if_your_automation_needs_babysitting_it_isnt/</guid>
       <pubDate>Mon, 11 May 2026 20:51:16 GMT</pubDate>
     </item>
@@ -69,25 +83,11 @@
       <pubDate>Mon, 11 May 2026 10:21:44 GMT</pubDate>
     </item>
     <item>
-      <title>最好的自动化是你从未注意到的自动化。</title>
-      <link>https://www.reddit.com/r/automation/comments/1t9yqdf/the_best_automation_is_the_one_you_never_notice/</link>
-      <description><![CDATA[       由   提交/u/yasuuooo  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t9yqdf/the_best_automation_is_the_one_you_never_notice/</guid>
-      <pubDate>Mon, 11 May 2026 10:00:42 GMT</pubDate>
-    </item>
-    <item>
       <title>我发现 PowerPoint 演示文稿比我预想的更有用</title>
       <link>https://www.reddit.com/r/automation/comments/1t9xupb/i_found_agent_to_powerpoint_decks_more_useful/</link>
       <description><![CDATA[我注意到 AI 代理的一件事是，它们非常擅长帮助您思考、总结和构建信息。但许多工作流程仍然以文本结束。对于某些任务来说这很好，但对于工作内容，我经常需要实际的可交付成果。  我最近遇到了一个 OpenClaw 插件，它可以让您从 OpenClaw 终端内部或 OpenClaw 支持的代理界面生成专业套牌。  代理不仅可以获取幻灯片大纲，还可以帮助构建内容，然后生成真正的幻灯片。显然，它仍然需要人工审查，但作为初稿生成器，它节省了很多烦人的复制粘贴工作。  很想知道人们是否更喜欢这种从代理到工件的工作流程，或者他们是否更愿意将演示文稿保留在专用的可视化工具中。   由   提交 /u/ElectricalPilot2297   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1t9xupb/i_found_agent_to_powerpoint_decks_more_useful/</guid>
       <pubDate>Mon, 11 May 2026 09:11:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>停止沉默建设。到处发布您的产品</title>
-      <link>https://www.reddit.com/r/automation/comments/1t9wtjt/stop_building_in_silence_publish_your_product/</link>
-      <description><![CDATA[ 由   提交/u/GRSolution  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1t9wtjt/stop_building_in_silence_publish_your_product/</guid>
-      <pubDate>Mon, 11 May 2026 08:10:35 GMT</pubDate>
     </item>
     <item>
       <title>如果您不从事销售工作，个人 CRM 值得使用吗？真正好奇销售以外的人是否真的从关系管理工具中获得价值。</title>
