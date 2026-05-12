@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 12 May 2026 11:17:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 14:11:22 GMT</lastBuildDate>
+    <item>
+      <title>汤姆的命名空间：奥丁同人小说</title>
+      <link>https://www.reddit.com/r/programming/comments/1tb2kos/toms_namespaces_an_odin_fanfic/</link>
+      <description><![CDATA[ 由   提交 /u/gingerbill   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tb2kos/toms_namespaces_an_odin_fanfic/</guid>
+      <pubDate>Tue, 12 May 2026 14:02:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>TanStack npm 软件包在针对开发人员和 CI 机密的供应链攻击中受到损害</title>
+      <link>https://www.reddit.com/r/programming/comments/1tb2cjn/tanstack_npm_packages_compromised_in_supplychain/</link>
+      <description><![CDATA[摘要： 最近的 npm 供应链事件影响了多个 u/tanstack/* 软件包。恶意版本已发布到 npm，据报道有效负载在安装期间执行。 主要风险不仅在于运行时使用。如果开发人员计算机或 CI 运行程序安装了受影响的版本，则安装过程中可用的机密可能已被暴露。 报告的目标包括： - 云凭证 - GitHub 令牌 - npm 令牌 - SSH 密钥 - CI/部署机密 需要检查的实际事项： - 锁定文件版本u/tanstack/* - npm/pnpm/yarn 安装日志 - 包管理器缓存 - CI 在受影响的发布窗口期间运行 - GitHub/npm/cloud 审核日志 - 在安装过程中是否启用了生命周期脚本 对于受影响的环境，更安全的假设是暴露在移动到修补版本后，应轮换凭据，并应从干净的锁定文件重新安装依赖项。 主要建议： https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx 公开跟踪问题： https://github.com/TanStack/router/issues/7383 我还维护 NPMScan 并将受影响的版本、IOC 和缓解说明放在此处的一页中： https://npmscan.com/vulnerability/GHSA-g7cv-rxg3-hmpx 最近的 npm 漏洞源： https://npmscan.com/latest-vulnerativity 更大的问题：Node.js CI 管道是否应该默认禁用安装脚本，或者这对于实际项目来说仍然太不切实际？   由   提交/u/kryakrya_it   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tb2cjn/tanstack_npm_packages_compromised_in_supplychain/</guid>
+      <pubDate>Tue, 12 May 2026 13:54:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 TinyFFR 通过 28 行 C# 脚本检查 3D 对象</title>
+      <link>https://www.reddit.com/r/programming/comments/1tb23g2/using_tinyffr_to_inspect_3d_objects_with_a_28line/</link>
+      <description><![CDATA[ 由   提交/u/Xenoprimate2  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tb23g2/using_tinyffr_to_inspect_3d_objects_with_a_28line/</guid>
+      <pubDate>Tue, 12 May 2026 13:44:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>无服务器 DevEx 和可观察性现状 • Jones Zachariah Noel N</title>
+      <link>https://www.reddit.com/r/programming/comments/1tb03pq/state_of_serverless_devex_observability_jones/</link>
+      <description><![CDATA[ 由   提交/u/goto-con   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tb03pq/state_of_serverless_devex_observability_jones/</guid>
+      <pubDate>Tue, 12 May 2026 12:27:02 GMT</pubDate>
+    </item>
     <item>
       <title>什么是 REST API，以及为什么您的可能不是 REST API</title>
       <link>https://www.reddit.com/r/programming/comments/1tay0vx/what_is_a_rest_api_and_why_yours_probably_isnt_one/</link>
@@ -18,13 +46,6 @@
       <description><![CDATA[ 由   提交 /u/cekrem   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tawefj/canonicalise_dont_remember_smart_constructors_in/</guid>
       <pubDate>Tue, 12 May 2026 09:28:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>从头开始构建 GUI 库</title>
-      <link>https://www.reddit.com/r/programming/comments/1tavy6e/building_a_gui_library_from_scratch/</link>
-      <description><![CDATA[我在 UI 库上找到了这个博客。请向我反馈您如何找到它。   由   提交/u/Aggressive-Today3874   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tavy6e/building_a_gui_library_from_scratch/</guid>
-      <pubDate>Tue, 12 May 2026 09:03:07 GMT</pubDate>
     </item>
     <item>
       <title>URLSession 到 Electrons：网络的底层工作原理</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/Sensiduct  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ta7ulb/be_careful_with_your_git_investigating_malware/</guid>
       <pubDate>Mon, 11 May 2026 16:09:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>8317277：MrSimms 的值类和对象的 Java 语言实现 · Pull Request #31120 · openjdk/jdk</title>
-      <link>https://www.reddit.com/r/programming/comments/1ta5dax/8317277_java_language_implementation_of_value/</link>
-      <description><![CDATA[对于那些不知道的人，这是 Java 的 JEP 401：值类和对象（预览版） 的 Pull 请求。 值类一直是 Java 期待已久的功能，所以这个 Pull 请求证明我们离实现它们又近了一步预览！ 但是请记住——尚未做出发布目标的承诺！ 这只是一个 PR RFR，仅此而已。所有这些都向我们展示了将值对象引入预览所需的部分内容，并宣布我们离（希望如此！）进入预览又近了一步。但同样，不知道那可能有多远。可能是 JDK 27（今年 9 月发布），也可能会更晚。 请欣赏 PR 的本质——了解使值类成为现实所需的工作的一个窗口。 ~3k 提交和 ~2k 类更改只是此处工作水平的快照。显示为什么此 JEP 被授予 XL 评级，哈哈。   由   提交/u/davidalayachew   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ta5dax/8317277_java_language_implementation_of_value/</guid>
-      <pubDate>Mon, 11 May 2026 14:42:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>7 行代码，3 分钟：实现一种编程语言</title>
-      <link>https://www.reddit.com/r/programming/comments/1ta5c8g/7_lines_of_code_3_minutes_implement_a_programming/</link>
-      <description><![CDATA[ 由   提交/u/Either_Collection349   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ta5c8g/7_lines_of_code_3_minutes_implement_a_programming/</guid>
-      <pubDate>Mon, 11 May 2026 14:41:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Roc & Zig：编译器重写故事 • Anjana Vakil 和 Richard Feldman</title>
-      <link>https://www.reddit.com/r/programming/comments/1ta3gf1/roc_zig_a_compiler_rewrite_story_anjana_vakil/</link>
-      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ta3gf1/roc_zig_a_compiler_rewrite_story_anjana_vakil/</guid>
-      <pubDate>Mon, 11 May 2026 13:33:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
