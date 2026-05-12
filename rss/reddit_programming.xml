@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 12 May 2026 14:11:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 17:07:11 GMT</lastBuildDate>
+    <item>
+      <title>发现丹尼斯·里奇丢失的论文</title>
+      <link>https://www.reddit.com/r/programming/comments/1tb4jtk/discovering_dennis_ritchies_lost_dissertation/</link>
+      <description><![CDATA[ 由   提交 /u/someone-very-cool   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tb4jtk/discovering_dennis_ritchies_lost_dissertation/</guid>
+      <pubDate>Tue, 12 May 2026 15:12:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>SIMD 如何提高 Elasticsearch 中的矢量搜索性能</title>
+      <link>https://www.reddit.com/r/programming/comments/1tb48lv/how_simd_improved_vector_search_performance_in/</link>
+      <description><![CDATA[矢量相似性计算最终主导了许多现代搜索/检索工作负载，因此我们一直在 Elasticsearch 的矢量搜索引擎内试验 SIMD 加速。 本文介绍：  SIMD 如何帮助矢量相似性计算 实现细节和权衡 收益的实际来源 实际基准测试结果  对我来说有趣的是，即使有了更高级别的 ANN 改进，低级别的 CPU 优化仍然很重要。 很想听到其他从事矢量数据库/检索系统/HPC 式工作负载工作的人的意见。 https://www.elastic.co/search-labs/blog/elasticsearch-vector-search-simdvec-engine   由   提交/u/chegar999  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tb48lv/how_simd_improved_vector_search_performance_in/</guid>
+      <pubDate>Tue, 12 May 2026 15:01:46 GMT</pubDate>
+    </item>
     <item>
       <title>汤姆的命名空间：奥丁同人小说</title>
       <link>https://www.reddit.com/r/programming/comments/1tb2kos/toms_namespaces_an_odin_fanfic/</link>
@@ -13,16 +27,9 @@
       <pubDate>Tue, 12 May 2026 14:02:09 GMT</pubDate>
     </item>
     <item>
-      <title>TanStack npm 软件包在针对开发人员和 CI 机密的供应链攻击中受到损害</title>
-      <link>https://www.reddit.com/r/programming/comments/1tb2cjn/tanstack_npm_packages_compromised_in_supplychain/</link>
-      <description><![CDATA[摘要： 最近的 npm 供应链事件影响了多个 u/tanstack/* 软件包。恶意版本已发布到 npm，据报道有效负载在安装期间执行。 主要风险不仅在于运行时使用。如果开发人员计算机或 CI 运行程序安装了受影响的版本，则安装过程中可用的机密可能已被暴露。 报告的目标包括： - 云凭证 - GitHub 令牌 - npm 令牌 - SSH 密钥 - CI/部署机密 需要检查的实际事项： - 锁定文件版本u/tanstack/* - npm/pnpm/yarn 安装日志 - 包管理器缓存 - CI 在受影响的发布窗口期间运行 - GitHub/npm/cloud 审核日志 - 在安装过程中是否启用了生命周期脚本 对于受影响的环境，更安全的假设是暴露在移动到修补版本后，应轮换凭据，并应从干净的锁定文件重新安装依赖项。 主要建议： https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx 公开跟踪问题： https://github.com/TanStack/router/issues/7383 我还维护 NPMScan 并将受影响的版本、IOC 和缓解说明放在此处的一页中： https://npmscan.com/vulnerability/GHSA-g7cv-rxg3-hmpx 最近的 npm 漏洞源： https://npmscan.com/latest-vulnerativity 更大的问题：Node.js CI 管道是否应该默认禁用安装脚本，或者这对于实际项目来说仍然太不切实际？   由   提交/u/kryakrya_it   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tb2cjn/tanstack_npm_packages_compromised_in_supplychain/</guid>
-      <pubDate>Tue, 12 May 2026 13:54:06 GMT</pubDate>
-    </item>
-    <item>
       <title>使用 TinyFFR 通过 28 行 C# 脚本检查 3D 对象</title>
       <link>https://www.reddit.com/r/programming/comments/1tb23g2/using_tinyffr_to_inspect_3d_objects_with_a_28line/</link>
-      <description><![CDATA[ 由   提交/u/Xenoprimate2  [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/Xenoprimate2   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tb23g2/using_tinyffr_to_inspect_3d_objects_with_a_28line/</guid>
       <pubDate>Tue, 12 May 2026 13:44:35 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[ 由   提交/u/prescorn  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1ta83gf/froot_loops_and_a_graphics_card_reflecting_on/</guid>
       <pubDate>Mon, 11 May 2026 16:17:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>小心使用 Git：调查通过 Git 存储库传播的恶意软件</title>
-      <link>https://www.reddit.com/r/programming/comments/1ta7ulb/be_careful_with_your_git_investigating_malware/</link>
-      <description><![CDATA[ 由   提交/u/Sensiduct  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ta7ulb/be_careful_with_your_git_investigating_malware/</guid>
-      <pubDate>Mon, 11 May 2026 16:09:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
