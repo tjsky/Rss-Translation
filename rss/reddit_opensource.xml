@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Tue, 12 May 2026 06:10:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 11:18:19 GMT</lastBuildDate>
+    <item>
+      <title>我构建了一个自托管平台，将原始 VPS 转变为私有基础设施网格</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tax2fu/i_built_a_selfhosted_platform_that_turns_raw/</link>
+      <description><![CDATA[在过去的几个月里，我一直在设计和构建 Unvara。 它始于一个简单的挫败感：原始服务器功能强大且价格实惠，但管理其中几个服务器仍然需要太多的手动工作和缝合在一起的太多脚本。 所以我构建了我想要使用的东西。 Unvara 将原始的 Ubuntu VPS 或裸机服务器转变为您管理的私有集群一个网络界面。通过 SSH 安装服务器，几分钟后它就会得到强化，连接到 WireGuard 网格，并准备好运行容器或 Ansible playbook - 带有加密的机密、审核日志和内置的 2FA。 它是 alpha。还没有准备好生产，而且我对文档中的限制很诚实。但当我写这篇文章时，它是真实的、实用的，并且在我自己的 5 节点集群上运行。 GitHub：https://github.com/BravePT/unvara    由   提交 /u/bravept   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tax2fu/i_built_a_selfhosted_platform_that_turns_raw/</guid>
+      <pubDate>Tue, 12 May 2026 10:05:07 GMT</pubDate>
+    </item>
     <item>
       <title>为桌面构建了一个开源的所见即所得 Markdown 编辑器——厌倦了在编写代理提示/文档时与原始语法作斗争</title>
       <link>https://www.reddit.com/r/opensource/comments/1taac3s/built_an_opensource_wysiwyg_markdown_editor_for/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[我实际上比我预想的更喜欢 Manus，因为它感觉更接近真正的通用 AI 工作流程/代理系统，而不仅仅是顶部贴有“代理”标签的连锁提示。 对我来说，问题是制作人员名单消失得非常快，而且在精心策划的演示之外，它仍然感觉边缘有点粗糙。 一直想知道是否有任何开源软件现在的项目正在接近同样的感觉。更加动态和自主的东西，而不是附加法学硕士的基本工作流程自动化。 好奇这里的人们已经尝试过哪些真正感到有前途的东西，而不仅仅是现有 API 的另一个包装。   由   提交 /u/jimmybobjoeflow   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1t7d7yt/whats_the_closest_opensource_alternative_to_manus/</guid>
       <pubDate>Fri, 08 May 2026 16:38:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>我从 Unity 移植到 Defold 的假真玻璃</title>
-      <link>https://www.reddit.com/r/opensource/comments/1t73kof/fake_real_glass_i_ported_from_unity_to_defold/</link>
-      <description><![CDATA[我将 Youssef Afella 的基于 UnityURP-FakeRealGlass 的出色多通道假玻璃效果移植到了 Defold，开源： https://github.com/paweljarosz/defold-fake-real-glass   由   提交 /u/PabloTitan21   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1t73kof/fake_real_glass_i_ported_from_unity_to_defold/</guid>
-      <pubDate>Fri, 08 May 2026 10:07:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
