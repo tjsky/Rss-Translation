@@ -4,7 +4,7 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Tue, 12 May 2026 22:07:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 02:40:23 GMT</lastBuildDate>
     <item>
       <title>自动化管道 webarm24.online - 新 UI</title>
       <link>https://www.reddit.com/r/automation/comments/1tbenyx/automation_pipeline_webarm24online_new_ui/</link>
@@ -62,13 +62,6 @@
       <pubDate>Tue, 12 May 2026 14:38:17 GMT</pubDate>
     </item>
     <item>
-      <title>为什么 70% 的数字化转型会失败以及如何避免失败 |什么实际有效</title>
-      <link>https://www.reddit.com/r/automation/comments/1tb2sui/why_70_percent_of_digital_transformations_fail/</link>
-      <description><![CDATA[    /u/Futurismtechnologies   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1tb2sui/why_70_percent_of_digital_transformations_fail/</guid>
-      <pubDate>Tue, 12 May 2026 14:10:25 GMT</pubDate>
-    </item>
-    <item>
       <title>从头开始学习人工智能工作流程。需要指导🙏</title>
       <link>https://www.reddit.com/r/automation/comments/1tb1k7h/learning_ai_workflows_from_scratch_need_guidance/</link>
       <description><![CDATA[大家好，我正在尝试学习如何为企业构建人工智能工作流程和自动化，但说实话，我有点不知从何开始。 我的背景更多是内容/营销，而不是核心编程，尽管如果需要，我愿意学习技术知识。我对以下内容特别感兴趣： - 企业人工智能自动化 - 人工智能代理/工作流程 - 使用 n8n、Zapier、Make、ChatGPT API 等工具。 - 帮助企业节省时间或改善运营/内容/潜在客户开发的系统 我非常感谢该领域人士的指导： - 我应该首先学习什么？ - 哪些工具最重要？ /&gt; - 我应该构建哪些初学者项目？ - 您会推荐哪些 YouTube 频道、课程、社区或路线图？ 基本上，如果您今天从头开始，并且想要擅长为企业构建 AI 工作流程，您会如何实现？ 非常感谢🙏   由   提交 /u/Ojaadili   [链接] [评论]]]></description>
@@ -109,6 +102,13 @@
       <description><![CDATA[感觉每次自动化讨论最终都会变成 N8N 与 Zapier。但每当我从大规模运行实际工作流程的人们那里读到 Reddit 帖子时，总会随机提到一些被低估的工具，这些工具几乎从未出现在 YouTube 视频或顶级自动化工具列表中。  例如，Gumloop 是我个人喜欢的东西。它帮助我自动化人工智能网络研究工作流程，例如抓取网站、总结发现、提取结构化数据和触发后续操作。 那么专家们，有哪些被低估的自动化工具没有人谈论？   由   提交/u/impeteouschestnut   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tauhpy/everybody_talks_about_n8n_and_zapier_but_what_are/</guid>
       <pubDate>Tue, 12 May 2026 07:40:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立了一个自动呼叫潜在客户的系统，我再也不想手动进行冷外展</title>
+      <link>https://www.reddit.com/r/automation/comments/1tapaip/built_a_system_that_calls_leads_automatically_and/</link>
+      <description><![CDATA[      这个想法很简单。潜在客户进来，系统打出电话，人工智能询问资格问题，当通话结束时，CRM 已经更新了。 让我惊讶的是现在的声音听起来有多好。我使用了 Vapi.ai，老实说，如果你不知道它是 AI，你不会立即猜到。并不完美，但足够接近，人们可以正常回答问题。 没人谈论的烦人部分： Twilio 试用帐户将“从您的 Twilio 试用帐户发送”添加到每条短信中。在生产中看起来很糟糕。您必须升级才能删除它。 Vapi 会在调用过程中触发多个 Webhook，而不仅仅是在结束时。如果您不按消息类型进行过滤，您将处理垃圾数据并想知道为什么所有内容都是空的： if (message.type !== &#39;end-of-call-report&#39;) return [];  在 Windows 上，如果您使用 echo 为 Twilio 身份验证生成 Base64，它会添加换行符并以静默方式中断身份验证。请改用这个： [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(&quot;SID:TOKEN&quot;))  堆栈（如果有人想要复制它）：   工具 角色    Vapi.ai 语音代理   n8n 编排   Pipedrive CRM   Twilio短信Slack团队通知我来自摩洛哥，所以英语不是我的第一语言，实际上也不是我的第二语言。如果某些东西读起来很奇怪，那就是原因。 如果你是为真正的客户构建它，你会添加什么？接下来考虑添加 14 天的跟进序列，但不确定 Vapi 还是 SMS 是否更好。   由   提交/u/kellyjames436  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tapaip/built_a_system_that_calls_leads_automatically_and/</guid>
+      <pubDate>Tue, 12 May 2026 03:13:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
