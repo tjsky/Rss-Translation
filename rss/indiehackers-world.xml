@@ -4,7 +4,19 @@
     <title>帖子 独立黑客</title>
     <link>https://feed.indiehackers.world</link>
     <description>这是 indiehackers.com 的非官方提要</description>
-    <lastBuildDate>Wed, 13 May 2026 14:24:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 17:15:32 GMT</lastBuildDate>
+    <item>
+      <title>您的一些 RevenueCat 订阅者没有选择离开。只是你从未发现。</title>
+      <link>https://feed.indiehackers.world/post/fa863869da</link>
+      <description><![CDATA[您是否知道付款失败与选择取消的人相比，每月损失的百分比是多少？
+最后一个问题是大多数人无法回答的。这很重要，因为修复方法完全不同，具体取决于您实际遇到的问题。
+我们为此构建了一些东西（Recurflux），但诚实地询问是因为我想知道人们已经在尝试什么，什么是有效的，以及什么是令人沮丧的。
+获取 RevenueCat 的投资回报率：“ https://recurflux.com/resources/revenuecat-churn-calculator &quot;
+发表评论。真的很好奇。
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/fa863869da</guid>
+      <pubDate>Wed, 13 May 2026 14:15:49 GMT</pubDate>
+    </item>
     <item>
       <title>我们为 RevenueCat 用户构建了 Recurflux，因为差距太明显，不容忽视。</title>
       <link>https://feed.indiehackers.world/post/59eb72eb2f</link>
@@ -18,6 +30,17 @@
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/59eb72eb2f</guid>
       <pubDate>Tue, 12 May 2026 13:25:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>“预订演示”按钮正在扼杀我的管道。这是我用它替换的。</title>
+      <link>https://feed.indiehackers.world/post/0ffb8ca6e4</link>
+      <description><![CDATA[将报告回来。
+如果您正在运行这样的实验，或者有关于出站动议中哪些内容有效的数据，请将其放在评论中。始终寻找实际有效的方法，而不仅仅是应该有效的方法。
+使用的工具：用于构建旅游的 Dale (getdale.com)、用于 CRM 的 HubSpot、用于意图警报的 Slack。
+实验周期：30天，340名独立游客。
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/0ffb8ca6e4</guid>
+      <pubDate>Tue, 12 May 2026 12:08:24 GMT</pubDate>
     </item>
     <item>
       <title>我开发了 Driftlatch，这是一款专为应对巨大工作家庭压力的专业人士打造的专注工具。在推动之前寻找诚实的反馈。</title>
@@ -190,56 +213,6 @@ Discord Indiehackers 聊天广告此处]]></description>
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/40b63404b5</guid>
       <pubDate>Sat, 09 May 2026 06:31:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在 10 天内构建了一个 SaaS。活了 3 周。 0 付费客户。这是数据。</title>
-      <link>https://feed.indiehackers.world/post/7cb6b6accf</link>
-      <description><![CDATA[
-有人发布了此类别的内容工具并幸存下来并找到了前 10 位付费用户吗？解锁的是什么？
-“3 周内有 0 个客户”吗？恐慌模式还是统计噪音？我一直告诉自己噪音，但我以前从未来过这里。
-人工智能告诉我什么让你的皮肤在 LinkedIn 上爬行，我应该将其添加到脱衣列表中？
-
-技术堆栈：Hetzner CX23 上的 Django + DRF + Celery + Redis、Vercel 上的 React 19 + Tailwind v4、Supabase Postgres、OpenAI gpt-4.1-mini（默认带 Anthropic 后备）、DodoPayments 用于计费。整个基础设施的运行费用约为每月 5 美元。
-演示（无需注册，每个 IP 每周免费 1 个）：postdew.com
-欢迎残酷的反馈。
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/7cb6b6accf</guid>
-      <pubDate>Sat, 09 May 2026 02:45:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>这个系统每周都会告诉你你的初创公司正在做什么</title>
-      <link>https://feed.indiehackers.world/post/c854a65fbf</link>
-      <description><![CDATA[第 8 步 --- 当某项工作正常时收到通知
-在扎皮尔：
-
- 创建第二个 Zap：
- 触发器：Google 表格 → 更新行
- 过滤器：仅当获胜者标志 = 获胜者时才继续
- 操作：发送电子邮件（或 Slack）
-
-消息（或类似的内容）：
-&lt;前&gt;&lt;代码&gt;
-你有一个赢家：
-
-{{实验名称}}\
-转化率：{{转化率}}
-
-现在回顾一下。
-
-结果：当某项工作正常时，您会自动收到通知。
-为了获得最佳结果
-&lt;强&gt;1。保持小规模。每周进行少量实验 (1-3)。
-&lt;强&gt;2。使用简单的测试。最好的测试是：
-
-标题更改
-优惠变更
- 分发（您发布的位置）
-
-&lt;强&gt;3。保持一致...一致性胜过创造力。
-&lt;强&gt;4。不要过度考虑统计数据。足够好就足够了。你不需要完美的数学。您需要明确的方向。
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/c854a65fbf</guid>
-      <pubDate>Fri, 08 May 2026 14:48:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
