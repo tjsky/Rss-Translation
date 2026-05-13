@@ -4,7 +4,35 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Wed, 13 May 2026 02:40:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 06:23:08 GMT</lastBuildDate>
+    <item>
+      <title>生产中的大多数 RAG 应用程序都肯定是错误的，而且没有人对此进行足够的讨论</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tbpr5b/most_rag_apps_in_production_are_confidently_wrong/</link>
+      <description><![CDATA[一直在与一些团队合作，将 RAG 集成到内部工具、支持机器人、文档问答、合同搜索中，并且当您学习教程时，我不断遇到同样的事情，没有人警告您。 基本的检索然后生成管道在演示中看起来很好。干净的问题，干净的文档，干净的答案。然后真正的用户出现了。 让我着迷的故障模式是这样的：系统从同一保单文档的不同版本中提取块，无法知道它们来自不同版本，将它们混合在一起，并充满信心地返回答案。没有任何警告，没有“我不确定”。没有什么。只是流利且错误。 更深层次的问题是标准 RAG 没有不确定性机制。它检索、生成、继续前进，无论它钉牢了它还是完全捏造了一些看似合理的东西，它都具有相同的置信度。 真正解决这个问题的方法（至少在我工作过的系统中）并不是更换模型。它的架构是： 路由层 - 在进行调用之前决定是否需要检索。有些问题不需要它，而且您正在浪费令牌。 检索评分 - 在将返回的内容传递给模型之前对其进行评估。如果上下文得分较低，请重新编写查询并重试，而不是仅仅自信地生成垃圾。 幻觉检查 - 第二个 LLM 调用读取生成的答案和检索到的文档，并检查每个声明是否实际上是可追踪的。大多数团队都没有这样做，但这可能是您可以获得的最高投资回报率。 重试循环在我们的案例中特别有帮助，因为用户永远不会按照嵌入模型期望的方式表达问题。系统默默地重新制定并重试，用户不知道它发生了。 这一切都不是奇怪的。这只是管道中的一些额外决策点。但是，如果您在生产中运行普通的 RAG，并且想知道为什么用户对它失去信任，那么这几乎肯定是原因。 很好奇是否有其他人专门遇到过版本控制/上下文混合问题，这个问题似乎没有得到充分报告。   由   提交 /u/SilverConcient9222   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tbpr5b/most_rag_apps_in_production_are_confidently_wrong/</guid>
+      <pubDate>Wed, 13 May 2026 05:02:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能编码工具产生技​​术债务的速度比团队意识到的要快，而背景就是原因</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tbpdwm/ai_coding_tools_are_generating_technical_debt/</link>
+      <description><![CDATA[AI 编码工具的生产力指标几乎完全集中在接受率和节省的时间上。没有人跟踪的指标是产生的技术债务。在具有既定约定和内部标准的代码库中，不了解这些约定的人工智能不仅没有帮助。它正在积极地为每一个违反模式的接受建议添加债务。 债务看起来并不像债务。它看起来像是通过审查的工作代码，因为审查者正在检查正确性而不是约定对齐。三个月后，模式不一致以维护开销的形式出现，作为必须解决的规则的例外，作为架构偏离标准的地方，但没有人记得原因。 我见过仔细跟踪这一问题的团队发现，随着时间的推移，成熟企业代码库上的通用人工智能编码工具会导致模式不一致的情况明显增加。建议接受率看起来不错。代码库悄然变得越来越难以维护。解决方法是组织环境而不是模型质量。了解您的约定的工具不会提出违反约定的建议。上下文层的质量与技术债务产生率直接相关。回想起来，这似乎是显而易见的，但很少有团队对其进行衡量。   由   提交 /u/Miserable-Visual-386   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tbpdwm/ai_coding_tools_are_generating_technical_debt/</guid>
+      <pubDate>Wed, 13 May 2026 04:43:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德+VBA</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tbo4g2/claude_vba/</link>
+      <description><![CDATA[我在 Excel 和 Word 中使用 VBA 来为我的工作创建迷你应用程序。我的组织严格使用 Claude，所以这是一个 Claude + Microsoft Office 问题，因为我不允许使用任何其他 AI，因此无需推荐其他人。 有没有办法让 Claude 直接访问 VBA 本身，让它帮助我在当前和未来的 Word 和 Excel 项目中查看/编辑/添加脚本？ 我读到，我可以使用“加载项”将其添加到我的 Office 应用程序中。路线，但我从未见过任何说它也可以访问 VBA 端的内容。如果没有，肯定有一种解决方法，也许有人已经发现了。 提前致谢！🤘🏼😎   由   提交/u/chaosicist  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tbo4g2/claude_vba/</guid>
+      <pubDate>Wed, 13 May 2026 03:42:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德的提示将人工智能变成了一个完整的个人仪表板，以提高生产力、纪律和自我完善</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tbncji/this_claude_prompt_turned_ai_into_a_full_personal/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tbncji/this_claude_prompt_turned_ai_into_a_full_personal/</guid>
+      <pubDate>Wed, 13 May 2026 03:06:06 GMT</pubDate>
+    </item>
     <item>
       <title>人工智能投资</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tbmhdr/ai_in_investing/</link>
@@ -34,13 +62,6 @@
       <pubDate>Tue, 12 May 2026 22:21:44 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能的账单可能和博士后的工资一样大。成本值得吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tbdukz/ai_bills_can_be_as_big_as_a_postdoc_salary_is_the/</link>
-      <description><![CDATA[“最近的价格上涨、使用限制和不可靠的产出正在导致一些科学研究人员在使用人工智能时三思而后行。”   由   提交/u/shikizen   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tbdukz/ai_bills_can_be_as_big_as_a_postdoc_salary_is_the/</guid>
-      <pubDate>Tue, 12 May 2026 20:33:06 GMT</pubDate>
-    </item>
-    <item>
       <title>如果科技公司能够诚实地对待就好了</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tbax4x/if_only_tech_companies_were_brutally_honest/</link>
       <description><![CDATA[ 由   提交/u/RepairOld9423  [链接] [评论]]]></description>
@@ -53,20 +74,6 @@
       <description><![CDATA[关于人工智能即将取代白领工人的持续对话是基于这样的假设：该技术将变得与它威胁取代的工人一样熟练，从而降低劳动力成本。但一项新的研究发现，许多公司进行了与人工智能相关的裁员，情况并非如此。 研究和咨询公司 Gartner 对 350 名年收入至少 10 亿美元的全球企业高管进行的一项调查发现，无论是否采用人工智能，许多公司都已经裁员。  虽然在尝试过人工智能或自主技术的受访者中，有 80% 的人表示裁员，但无论该技术是否真正产生回报，企业都会因自动化而裁员。 “从人工智能中获取价值方面，只关注裁员是短视的，”Gartner 副总裁分析师兼该研究的主要研究员 Helen Poitevin 告诉《财富》杂志。 “仅通过裁员来追求价值可能会导致大多数组织走上一条回报有限的道路。” 人工智能自动化迫在眉睫的威胁让许多员工担心自己的工作。但越来越多的商界领袖和经济学家对这项技术是否真的会刺激裁员表示怀疑。阿波罗公司首席经济学家托斯顿·斯洛克（Torsten Slok）最近提出了杰文斯悖论：这是一个 19 世纪的理论，它解释了为什么即使蒸汽机效率更高、煤炭变得更便宜，煤炭需求却仍在增加。斯洛克认为，这个悖论也适用于人工智能时代，它预测这项技术将带来更多的就业机会，而不是更少。  阅读更多内容[Reddit 用户付费专区被移除]：https://fortune.com/2026/05/11/ai-automation-layoffs-gartner-study-roi/?utm_source=reddit/   由   提交/u/fortune  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tb9hio/ai_isnt_paying_off_in_the_way_companies_think/</guid>
       <pubDate>Tue, 12 May 2026 18:02:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 遭到诉讼，指控 ChatGPT 的医疗建议导致服药过量死亡</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tb8esx/openai_hit_with_lawsuit_alleging_chatgpts_medical/</link>
-      <description><![CDATA[ 由   提交 /u/bloomberglaw   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tb8esx/openai_hit_with_lawsuit_alleging_chatgpts_medical/</guid>
-      <pubDate>Tue, 12 May 2026 17:25:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国寻求使用 Anthropic 的最新人工智能。答案是否定的。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tb3k87/china_sought_access_to_anthropics_newest_ai_the/</link>
-      <description><![CDATA[ 由   提交/u/ThereWas  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tb3k87/china_sought_access_to_anthropics_newest_ai_the/</guid>
-      <pubDate>Tue, 12 May 2026 14:38:04 GMT</pubDate>
     </item>
     <item>
       <title>教克劳德像穴居人一样说话，减少使用 75% 的代币。</title>
@@ -88,13 +95,6 @@
       <description><![CDATA[克劳德以前给过我这样的粗鲁和萨克的时刻。两天前，我带着一个问题来到它，它的责任是“我发现你仍然在避免做实际工作。”如此处所示。但我猜它不会对所有用户都这样做。   由   提交/u/Complete-Sea6655   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tagmoe/the_best_answer_to_this_question_ive_seen_yet/</guid>
       <pubDate>Mon, 11 May 2026 21:10:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>这家伙用克劳德建造了一架用激光跟踪目标的无人机</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tacr3c/this_guy_build_a_drone_that_tracks_targets_with_a/</link>
-      <description><![CDATA[ 由   提交/u/Alphaxfusion  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tacr3c/this_guy_build_a_drone_that_tracks_targets_with_a/</guid>
-      <pubDate>Mon, 11 May 2026 18:55:46 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>

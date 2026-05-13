@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 13 May 2026 02:42:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 06:24:39 GMT</lastBuildDate>
+    <item>
+      <title>我们怀疑一名员工在家打卡上班但没有工作，我们如何证明这一点？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tbq5zf/we_suspect_one_employee_is_clocking_in_from_home/</link>
+      <description><![CDATA[运行一个小型远程团队，我们开始怀疑一名员工正在打卡上班，但实际上并没有做工作。在过去的两个月里，产出明显下降，他们所负责的任务的截止日期也在推迟，当我们在工作时间在 Slack 上向他们发送 ping 消息时，他们的回复通常需要 1-2 小时，而其他人在几分钟内就会回复。 他们的时间表显示每天 8 小时。日历在纸上看起来很忙，但大多数“会议”都是在现实中进行的。是他们自己创建的块。没有明显的病假或缺勤模式，他们似乎登录了，只是没有产生。 到目前为止我尝试过的：  要求他们的经理检查每周可交付成果的差距是明显的，但没有记录 检查了 Slack 活动与长时间没有活动的登录时间，即使在“活动”期间也是如此。小时 检查了他们的任务板，大多数卡片卡在“正在进行中”数周  在正式监控软件或人力资源参与之前，我想确保我们正在构建一个真实的案例，而不仅仅是凭感觉行事。不想错误地指控某人或引发法律问题。 寻求以下方面的建议：  在不侵犯隐私的情况下记录此事的最简洁方式是什么 是先与他们对质还是先收集证据 如果提交给人力资源部或解雇，什么样的证据实际上有效  有人经历过这种情况吗？你实际上做了什么？   由   提交 /u/MarleneOquendo123   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tbq5zf/we_suspect_one_employee_is_clocking_in_from_home/</guid>
+      <pubDate>Wed, 13 May 2026 05:23:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>当你有数千种不同的格式时，是否有人真正使用人工智能来可靠地将发票解析到数据库中？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tbnsoh/has_anyone_actually_gotten_ai_to_reliably_parse/</link>
+      <description><![CDATA[我在一家中型物流公司工作，我们从大约 400 个不同的供应商那里收到发票。每一张都有不同的布局、不同的字段名称，有些是扫描图像，有些是数字 PDF，有些只是用手机拍摄的照片。我的团队多年来一直手动输入这些内容，这让我们丧命。 在过去的几个月里尝试了不同的人工智能文档处理设置。前几周非常令人兴奋，在干净的数字上获得了大约 60% 的准确率。然后我开始给它喂乱七八糟的扫描的东西，一切都崩溃了。尝试过微调，尝试为顶级供应商构建自定义模板，尝试将多个模型链接在一起。每种方法都适用于一个子集，但没有一种方法可以处理全部情况。 真正的问题是，当人工智能出错时，它会自信地解决问题。没有错误标志，只是电子表格中的数据错误。所以现在仍然需要有人抽查一切，这达不到目的的一半。 我不断听到人们说他们完全自动化了这一点，但我不知道我错过了什么。我们花了大约 8 个月的时间，已经没有什么想法了。   由   提交 /u/Acrobatic-Evening646   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tbnsoh/has_anyone_actually_gotten_ai_to_reliably_parse/</guid>
+      <pubDate>Wed, 13 May 2026 03:26:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>上周我大量退订了所有人工智能时事通讯，我的大脑终于又开始工作了</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tbnifi/i_massunsubscribed_from_every_ai_newsletter_last/</link>
+      <description><![CDATA[过去两年深入研究小型团队的 AI 自动化。构建工作流程，在每个新工具发布后对其进行测试，像某种疯狂的业余爱好者一样熬夜阅读变更日志。我为此感到自豪了一段时间。 然后在三月份左右，我意识到我实际上在六周内没有发货任何新东西。我刚刚迁移。从一种工具转向另一种工具，因为播客上的某个人说旧工具已经死了。每个月重复冲洗一次。 整个生态系统的运行让您感觉落后。每一次发布都是“改变一切的一次”三周后就没有人再谈论这件事了。我批量退订了大约 40 份时事通讯，将一堆 Discord 服务器静音，然后就坐在我已有的堆栈上。 事实证明，我在 2023 年末构建的无聊设置仍然运行良好。我的客户并不关心下面运行的是什么模型。他们关心的是线索的进来和内容的出去。就是这样。 我并不是说完全忽略人工智能，那是愚蠢的。但不断重组的压力是由销售课程和订阅的人制造的。实际工作并没有改变那么多。 无论如何，我利用空闲时间最终调整了我的睡眠时间表，所以，我想，净积极。   由   提交 /u/Pristine_Rest_7912   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tbnifi/i_massunsubscribed_from_every_ai_newsletter_last/</guid>
+      <pubDate>Wed, 13 May 2026 03:13:36 GMT</pubDate>
+    </item>
     <item>
       <title>网络及其技术堆栈已严重崩溃。</title>
       <link>https://www.reddit.com/r/webdev/comments/1tbfi6k/the_web_and_its_tech_stack_are_deeply_broken/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[   客户：我知道你们公司使用 Claude 代码来完成工作，所以我应该少付钱... 正如标题所说   由   提交/u/lune-soft  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1taz7gb/people_who_work_at_consultant_firms_freelancers/</guid>
       <pubDate>Tue, 12 May 2026 11:48:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>财政文件上的这种“快照”模式是有效的方法还是只是噪音？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tax2l6/is_this_snapshot_pattern_on_a_fiscal_document_a/</link>
-      <description><![CDATA[      我正在开发一个用于财务合规性的 Spring Boot 应用程序，在保存预扣税文档（法语中的 Retenue 意思是扣除）时，我有一个在实体持久化之前运行的方法（如图所示）。 它做了两件事：从数据库重新加载完整的实体（因为前端发送 { “id”: 123 } shell 对象），并将字段从 Client 直接复制到 Retenue 行以在创建时冻结它们。 它存在是因为“retenue”存在是合法的财政文件。如果客户下个月更改了姓名或税号，则文档需要反映签名时的数据，而不是当前状态，与辅助表中的预扣税率相同。 真正困扰我的是，它感觉含蓄且脆弱，代码中没有明确的信号表明这些非规范化列是有意的快照，而不是有人只是懒惰地复制字段。如果阅读本文的中小企业不知道为什么raisonSociale（就像公司或客户的法定名称）同时存在于Client和Retenue上。 所以我的问题是：这种快照模式是财务/法律文件的合法方法还是有更简洁的设计？有没有更好的方法来处理 JPA 代理问题（来自前端的 shell 对象），而无需重新加载完整实体来复制 6 个字段？ 对于上下文 2 YOE（尽力理解问题并提出一个好的解决方案）   由   提交/u/MousTN   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tax2l6/is_this_snapshot_pattern_on_a_fiscal_document_a/</guid>
-      <pubDate>Tue, 12 May 2026 10:05:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>规范化，不要记住 — Kotlin 中的智能构造函数 · cekrem.github.io</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tawf8c/canonicalise_dont_remember_smart_constructors_in/</link>
-      <description><![CDATA[       由   提交 /u/cekrem   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tawf8c/canonicalise_dont_remember_smart_constructors_in/</guid>
-      <pubDate>Tue, 12 May 2026 09:29:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪种高性能 F-OSS Web 框架适用于内部应用程序？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tawc94/which_performant_foss_web_framework_for_internal/</link>
-      <description><![CDATA[我的任务是设置开发一些内部应用程序，并且可以完全自由地使用我想要的任何内容。上次我使用 Next.js 执行此操作，并取得了良好的结果，但托管在 Vercel 上。这次托管仅限于我们自己的数据中心。我有点想全力以赴，使用一些较新的堆栈，例如面包，只是为了获得一些乐趣并使用一些较新的东西。我很高兴至少有一个跨框架身份验证库（better-auth），这使得选择框架变得更加容易。另外，我并不是真正的 Web 开发人员（数据工程师），所以我可能会使用 shadcn 之类的东西，但对于法学硕士，我不太担心让它看起来漂亮。   Next.js 但包相当大，而且不是很有趣。理论上是开源的，但在自己的硬件上托管似乎是第二公民（Opennext）。  SvelteKit，看起来就像 Next，但使用起来更快。 Tanstack Start，开发人员在 Reddit 上非常活跃，但目前可能还太新。 Astro 看起来工作起来很有趣，而且性能非常好，但每日更新对于某些人来说可能可能变得太慢。    由   提交 /u/ReindeerOk9768   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tawc94/which_performant_foss_web_framework_for_internal/</guid>
-      <pubDate>Tue, 12 May 2026 09:25:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
