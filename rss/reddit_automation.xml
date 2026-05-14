@@ -4,7 +4,14 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Thu, 14 May 2026 13:57:18 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 16:57:20 GMT</lastBuildDate>
+    <item>
+      <title>2026 年第一季度机器人订单数据显示自动化需求扩大到汽车以外的领域</title>
+      <link>https://www.reddit.com/r/automation/comments/1tczlwo/q1_2026_robot_order_data_shows_automation_demand/</link>
+      <description><![CDATA[      A3 发布了 2026 年第一季度北美机器人订单数据，主要的故事不仅仅是订单保持稳定。这就是增长的来源。 北美公司在 2026 年第一季度订购了 9,055 台机器人，价值 5.43 亿美元。与 2025 年第一季度相比，总订单量基本持平，但汽车 OEM 订单数量下降了 35.1%，收入下降了 48.2%。 其他几个行业则朝着相反的方向发展。生命科学/制药/生物医学机器人订单量增长 54.1%，半导体/电子/光子学增长 31.7%，塑料和橡胶增长 25.2%，食品和消费品增长 16%，汽车零部件供应商增长 28.1%。 协作机器人也大幅增长，第一季度订购了 1,637 台协作机器人。与去年同期相比，销量增长了 55.6%，收入增长了 78.2%。   由   提交 /u/Responsible-Grass452   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tczlwo/q1_2026_robot_order_data_shows_automation_demand/</guid>
+      <pubDate>Thu, 14 May 2026 14:18:51 GMT</pubDate>
+    </item>
     <item>
       <title>您是否曾经投资过一种工具，结果却完全浪费了？</title>
       <link>https://www.reddit.com/r/automation/comments/1tcys0z/have_you_ever_invested_in_a_tool_that_turned_out/</link>
@@ -95,13 +102,6 @@
       <description><![CDATA[我厌倦了逐个工具地看到这个问题，所以我想分享一个在不同用例中保持一致的框架。 以下是我在与不同规模的团队合作后的思考方式： 在以下情况下使用 Zapier：您的团队是非技术人员，需要独立拥有工作流程。触发/动作很简单并且不太可能改变。这周你需要让它运行。当工作流需要超过 2 层深度的条件逻辑时，Zapier 就会开始与您作斗争。 如果满足以下条件，请使用 n8n：您至少有一个人能够轻松地阅读 JSON，并且在节点出错时不会惊慌。您需要分支逻辑、子工作流或自定义代码步骤。出于成本或数据原因，您需要自托管。 n8n的天花板比Zapier高很多，但地板也低一些。损坏的工作流程需要有人真正修复它们。 如果满足以下条件，请使用 Relay：工作流程中有人参与，并且这种情况不会消失。批准、移交、审查步骤、路由、通知、升级路径，这些听起来很简单的东西，直到 5 个人跨 Slack、电子邮件、文档和内部工具接触相同的流程。当问题是操作协调而不是纯粹的自动化时，Relay 对我来说更有意义。 如果满足以下条件，请进行自定义： 工作流程是产品或操作工作方式的核心，并且会经常更改。您正在与没有预构建连接器的内部系统集成。您需要将完整的可观察性（日志、重试、警报）融入到系统中，而不是固定在系统上。定制的前期成本更高，需要一名真正的工程师，但当工作流程扩展或需求发生变化时，它就会得到回报。 我看到团队经常犯的错误是从 Zapier 开始，达到上限，迁移到 n8n，然后最终构建定制，浪费数周甚至数月的时间，而不是做出一次正确的调用。 答案几乎总是取决于团队组成，而不是工作流程本身。 是什么让你选择了你所在的堆栈？你会采取什么不同的做法？   由   提交 /u/yuuliiy   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tcc83f/zapier_vs_n8n_vs_relay_vs_custom_built_the/</guid>
       <pubDate>Wed, 13 May 2026 20:42:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>为小型自动化项目寻找可靠的 Twitter/X 抓取 API</title>
-      <link>https://www.reddit.com/r/automation/comments/1tc9x0q/looking_for_a_reliable_twitterx_scraping_api_for/</link>
-      <description><![CDATA[我一直在尝试为一个业余项目自动化一些社交媒体监控，而 Twitter/X 给我带来的麻烦比预期的要多。 我使用 Python 和 Selenium 构建了一个基本的抓取工具。它工作了几天，但后来我开始遇到持续的 429 错误、帐户锁定和不可靠的结果，甚至有延迟。 我还尝试过轮换住宅代理，这很快就变得昂贵，但它仍然不能始终如一地解决问题。动态加载也令人沮丧，因为许多推文数据在原始 HTML 中没有清晰地显示。 我查看了一些抓取 API，但大多数似乎都是为通用网络抓取或 Google 地图风格用例而构建的。我需要的是专门与 Twitter/X 内容配合使用的东西。 我的用例量非常小，可能每周有几千条推文，因此按使用付费将是理想的选择。在我仍在测试该项目时，我试图避免再次按月订阅。 我需要的主要数据：  推文文本 时间戳 参与计数 基本个人资料信息  没有太先进的内容。 有没有人为此找到可靠的选择，或者 Twitter/X 对于小型企业来说是否非常困难现在有自动化项目吗？   由   提交 /u/isohaibilyas   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1tc9x0q/looking_for_a_reliable_twitterx_scraping_api_for/</guid>
-      <pubDate>Wed, 13 May 2026 19:21:21 GMT</pubDate>
     </item>
     <item>
       <title>您对使用人工智能创建内部运营工具有何想法？</title>
