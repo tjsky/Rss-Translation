@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 14 May 2026 02:42:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 06:22:05 GMT</lastBuildDate>
+    <item>
+      <title>Atlassian 遭遇大规模宕机</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tcoiq7/atlassian_experiencing_massive_outage/</link>
+      <description><![CDATA[ 由   提交 /u/revolutn   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tcoiq7/atlassian_experiencing_massive_outage/</guid>
+      <pubDate>Thu, 14 May 2026 05:23:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>从什么时候开始，网络开发开始感觉更像是管理工具而不是构建网站？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tcnil0/at_what_point_did_web_development_start_feeling/</link>
+      <description><![CDATA[有时，我查看现代 Web 堆栈，感觉一半的工作只是配置框架、修复依赖项、处理构建工具以及跟上生态系统的变化。与此同时，实际的建筑部分感觉比以前要小。不要误会我的意思，因为现代工具也解决了很多问题。但我很好奇其他开发者是否也有同样的转变。您认为 Web 开发确实整体上变得更好了，还是只是变得更加复杂了？   由   提交 /u/Afsheen_dev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tcnil0/at_what_point_did_web_development_start_feeling/</guid>
+      <pubDate>Thu, 14 May 2026 04:33:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>任何免费的 WebRTC 信令服务器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tclk4c/any_free_webrtc_signaling_server/</link>
+      <description><![CDATA[我想构建基于 Bowser 的简单多人游戏。这是一个有趣的项目。是否有任何开放的 WebRTC 微信令服务器可供我使用，而不用自行设置？ 核心思想是启用 p2p 多人游戏，用户可以通过传递 join-id 加入另一个游戏   由   提交/u/pro-cras-ti-nation  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tclk4c/any_free_webrtc_signaling_server/</guid>
+      <pubDate>Thu, 14 May 2026 03:00:42 GMT</pubDate>
+    </item>
     <item>
       <title>话语问题——返回路径被剥夺</title>
       <link>https://www.reddit.com/r/webdev/comments/1tcf1dg/discourse_issues_return_path_being_stripped/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[大家好， 所以我一次只使用 Cursor（作为高级自动完成）处理 1-6 行代码，并在浏览器中使用 Claude 我尝试了 Claude Code，似乎每个人都认为它更好......而且速度太慢了。  我猜是因为它试图与整个上下文一起工作。但对我来说等待这么久没有意义，而且我更喜欢浏览器，顺便说一句，它给了我很好的结果...我做错了什么？ 此外，有没有一种方法可以先编写一个计划/架构，并带有精确的“合同”？ （也许是测试？）对于每个组件，然后让模型正确定义明确的组件（它不需要那么多上下文？）   由   提交/u/permaro   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tbuwsq/proper_use_of_llm_i_might_be_underusing_claude_in/</guid>
       <pubDate>Wed, 13 May 2026 09:50:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>二年级学生，关于为公司创建网络应用程序</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tbuku7/2nd_year_students_about_creating_a_webapp_for_a/</link>
-      <description><![CDATA[你好， 我和来自 EPFL（瑞士）的另外 2 位计算机科学二年级学生正在尝试与一家棋盘游戏公司合作，将他们的游戏实现为网络应用程序，最初的游戏称为 Smile Life，它与生命游戏非常相似，作为软件工程项目的一部分，我们已经开发了一个“原型”  我们每个人都花了大约 20 个小时来实现 Scala 3 中的逻辑，课程向我们提供了 Web 应用程序的原始框架。 这里是该应用程序的链接（如果这里的版主对我分享链接不满意，我可能会删除它） https://smilelife.pommier.dev/ 我们正处于需要“展示”的时刻。我们向公司提出了这个项目，但是我们不知道如何设计它，特别是在薪酬方面。这就是为什么我想知道这里的一些人是否可以帮助我解决以下问题：  如何在保持合理的情况下正确估计项目的价值（因为我们还是二年级学生）， 如何区分功能/基础设施/维护之间的定价， 通常如何构建这样的软件协作交易。  如果公司接受我们，与他们的合作基本上包括从完整游戏的原型。 一些背景信息：  原型在大约 2 周内构建， 我们每个人花了大约 20 个小时， 部分网络基础设施/模板由我们的教授提供， 一些原始游戏机制仍然缺失， 目前没有生产基础设施， 目前仅支持私人游戏。  我们不想要求太多，但我们也不想严重低估这项工作。 如果这里有人有任何这些方面的经验。同样，如果您有任何资源让我自己理解这一点，我将不胜感激。 我们非常感谢建议或反馈。 非常感谢您的帮助   由   提交 /u/Itchy-Entertainer-87   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tbuku7/2nd_year_students_about_creating_a_webapp_for_a/</guid>
-      <pubDate>Wed, 13 May 2026 09:31:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>图片存储桶</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tbujft/image_storage_bucket/</link>
-      <description><![CDATA[大家好，我需要一些指导/建议。我正在构建一个媒体密集型网络应用程序，目前我已将 SUPABASE 链接到我的存储桶。我尝试过让用户上传图像时，照片自动压缩为 webp，但我发现图像在 200-500KB 时质量不佳。我正在寻找一种具有慷慨免费套餐的替代方案。我不介意支付订阅费用（一旦我的用户开始积累）我很乐意接受任何建议或建议。提前致谢。    由   提交 /u/sighqoticc   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tbujft/image_storage_bucket/</guid>
-      <pubDate>Wed, 13 May 2026 09:29:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>没有人会阅读代码</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tbuaa4/nobody_is_going_to_read_the_code/</link>
-      <description><![CDATA[       由   提交/u/rag1987  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tbuaa4/nobody_is_going_to_read_the_code/</guid>
-      <pubDate>Wed, 13 May 2026 09:15:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
