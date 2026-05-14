@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 14 May 2026 06:22:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 11:14:15 GMT</lastBuildDate>
+    <item>
+      <title>请！帮助我设计以下应用程序的系统。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tctv7w/please_help_me_system_design_for_the_following_app/</link>
+      <description><![CDATA[我正在构建一个测验/模拟测试平台。为此我有大量的 json 数据。每个 Json 都有 50 到 10000 个问题。现在存储和检索数据并将其呈现给用户的更好选择是什么？我目前实施的解决方案如下：  Jsons 存储在 azure 中的 blob 存储帐户中 -&gt;获取到后端-&gt;根据请求发送给用户。 将所有问题存储在数据库表行中，并按原样检索和响应。  还有什么其他选项？   由   提交 /u/Upstairs-Ad221   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tctv7w/please_help_me_system_design_for_the_following_app/</guid>
+      <pubDate>Thu, 14 May 2026 10:16:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的公司正计划用人工智能取代所有人</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tctkxr/my_company_is_planning_to_replace_everyone_with_ai/</link>
+      <description><![CDATA[我在一家软件公司工作，我们被告知今年他们计划将目前在该公司工作的大多数员工（包括大多数软件工程师）的工作完全自动化。从长远来看，它是否真的可行并不重要，重要的是首席执行官们相信它。他们是支付我们工资的人。 我一直在省钱并探索人工智能/法学硕士无法替代的其他机会和工作。我认为它取代所有计算机工作只是时间问题，我宁愿现在就换，也不愿坐等。 我想知道业内其他人目前正在经历什么？ 编辑：我暂时不会说出公司的名称，因为我认为一些管理层可能在 Reddit 上，我有点担心他们看到这一点，我还不想遇到麻烦   由   提交/u/HotPanda_78  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tctkxr/my_company_is_planning_to_replace_everyone_with_ai/</guid>
+      <pubDate>Thu, 14 May 2026 10:01:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能让软件工程对我来说不再那么有价值</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tcpn40/ai_made_software_engineering_feel_less_rewarding/</link>
+      <description><![CDATA[自从人工智能编码工具变得越来越好，我觉得我已经失去了软件工程对我来说的乐趣。 我仍然喜欢解决问题。那部分肯定还在那里。但现在的过程感觉不同了。 以前，与一个问题苦苦挣扎几个小时、尝试不同的方法、调试奇怪的边缘情况、阅读文档、遇到死胡同，然后最终让它发挥作用，会让人感到满足。这种“应得的”感觉是我最初喜欢编程的一个重要原因。 现在感觉很多摩擦都消失了。 我可以用简单的英语描述问题，并立即完成 70-80% 的实现。即使是调试也感觉不同，因为人工智能经常直接指出问题。反馈循环是如此之快，以至于我很少再深入地沉浸在同样的方式中。 客观地说，这可能是一件好事。生产率更高。我可以更快地构建东西。但从情感上来说，感觉缺少了一些东西。 部分原因可能是编码曾经感觉像是一种需要大量耐心和毅力的专业技能，而现在进入的门槛感觉大大降低了。另一部分是，实际的“艰苦工作”从实施转移到了更高层次的思考，比如架构、产品决策，以及知道首先要构建什么。 我想我意识到我的很多乐趣来自于斗争本身，而不仅仅是结果。 很好奇其他工程师是否有同样的感觉，或者您是否已经完全接受了新的工作流程。   由   提交/u/pmfka  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tcpn40/ai_made_software_engineering_feel_less_rewarding/</guid>
+      <pubDate>Thu, 14 May 2026 06:22:50 GMT</pubDate>
+    </item>
     <item>
       <title>Atlassian 遭遇大规模宕机</title>
       <link>https://www.reddit.com/r/webdev/comments/1tcoiq7/atlassian_experiencing_massive_outage/</link>
@@ -55,7 +76,7 @@
       <pubDate>Wed, 13 May 2026 19:07:54 GMT</pubDate>
     </item>
     <item>
-      <title>您如何处理联系表单提交？</title>
+      <title>你们如何处理联系表格的提交？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tc84od/how_do_you_handle_contact_form_submissions/</link>
       <description><![CDATA[您通常如何处理客户网站的表单提交？ 我一直在为自己的网站使用 web3forms，这很好，但免费计划不包括与客户通常需要的 google 表格或概念的集成。专业计划似乎有点太贵了，至少对于我住的地方来说是这样。 所以我一直在考虑为我的客户制作一个定制软件，但随后我需要处理验证码、垃圾邮件防护、我的客户可能需要的每一个集成（表格、概念、电子邮件），而且需要做一些工作。 对于处理表单的免费或几乎免费的 SaaS，您还有其他建议吗？或者你通常会定制吗？   由   提交/u/scansano78  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tc84od/how_do_you_handle_contact_form_submissions/</guid>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 我正在开发一个小项目，并决定添加深色模式作为一个不错的选择。以为会很简单。只需翻转一些背景和文本颜色，也许调整一些边框，就完成了。但我越深入，事情就越混乱。在明亮模式下看起来不错的盒子阴影在黑暗模式下完全消失。之前运行良好的悬停状态现在感觉不太好。甚至不让我开始了解表单输入以及不同的浏览器如何呈现它们。 我发现自己只是盯着它并称它足够好。但后来我用实际的暗模式系统偏好进行了测试，并意识到我的对比度在某些组件上很糟糕。 所以我很好奇。您实际上是为黑暗模式编写测试，还是只是手动打开它并滚动页面几次？您是否为这两个主题进行自动视觉回归测试而烦恼？或者这只是当用户抱怨时每个人都会采取行动并修复的东西？ 我想正确地做到这一点，而又不想使副项目过于复杂，但我也不想交付看起来一半时间都坏掉的东西。   由   提交 /u/TariqKhalaf   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tc45d1/do_you_actually_test_your_dark_mode_or_just_wing/</guid>
       <pubDate>Wed, 13 May 2026 16:06:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>你如何记得为什么做出决定？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tc2dwk/how_do_you_remember_why_a_decision_was_made/</link>
-      <description><![CDATA[不是最终结果，而是其背后的推理。 我们有时会丢失上下文：  Slack 线程消失 概念已经过时 Jira 无法捕获“原因”  我们经常会挖掘几个月前的 Slack 线程只是为了了解发生了什么。 这正常吗？或者你有一个真正有效的系统吗？   由   提交/u/Daft_____Punk   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tc2dwk/how_do_you_remember_why_a_decision_was_made/</guid>
-      <pubDate>Wed, 13 May 2026 15:06:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>WWW 到 Naked 交换后的“已发现 - 当前未索引”循环。自 4 月份以来，22% 已编入指数。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tbzo6b/discovered_currently_not_indexed_loop_after_www/</link>
-      <description><![CDATA[大家好， 域名交换后，我面临着巨大的索引墙，我需要一些技术见解。 四月中旬，我将我的市场 (fitguru.it) 从 WWW 移至 Naked 域名。 301 重定向全部设置完毕，我正在使用定制引擎（没有 WP 膨胀）。 索引冻结在 22%。在 GSC 中，我的绝大多数裸网址都停留在“已发现 - 目前未编入索引”。 我所做的： 索引 API：我一直通过 API 推送网址，但 Google 仍然不会抓取它们。 Noindex 策略：我已将所有“空”设置为“空”。类别页面（没有私人教练的页面）转移到 noindex 以保持网站的高质量。 GSC 验证：我几周前开始进行验证修复，但完全卡住了。 由于状态为“已发现”，因此我将其删除。而不是“爬行”，很明显，Google 知道这些网址存在，但拒绝为其分配抓取预算。 是否有可能空页面上的 noindex 会适得其反，使网站看起来“太小”？或“低价值”迁移期间？ 为什么 GSC 验证卡住了？ 30 多天后，这仍然是“正常迁移延迟”吗？或者我的裸域是否达到了质量阈值过滤器？ 我已经按照规定完成了所有操作，但该网站实际上是不可见的。关于如何强制爬虫实际访问它已经发现的页面有什么建议吗？   由   提交 /u/zorgsm   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tbzo6b/discovered_currently_not_indexed_loop_after_www/</guid>
-      <pubDate>Wed, 13 May 2026 13:28:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>“正确”使用法学硕士？ （我可能没有充分利用：浏览器中的克劳德+光标）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tbuwsq/proper_use_of_llm_i_might_be_underusing_claude_in/</link>
-      <description><![CDATA[大家好， 所以我一次只使用 Cursor（作为高级自动完成）处理 1-6 行代码，并在浏览器中使用 Claude 我尝试了 Claude Code，似乎每个人都认为它更好......而且速度太慢了。  我猜是因为它试图与整个上下文一起工作。但对我来说等待这么久没有意义，而且我更喜欢浏览器，顺便说一句，它给了我很好的结果...我做错了什么？ 此外，有没有一种方法可以先编写一个计划/架构，并带有精确的“合同”？ （也许是测试？）对于每个组件，然后让模型正确定义明确的组件（它不需要那么多上下文？）   由   提交/u/permaro   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tbuwsq/proper_use_of_llm_i_might_be_underusing_claude_in/</guid>
-      <pubDate>Wed, 13 May 2026 09:50:06 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,27 +4,41 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Thu, 14 May 2026 06:20:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 11:11:26 GMT</lastBuildDate>
     <item>
-      <title>副驾驶给我煤气灯</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tcpbkr/copilot_gaslit_me/</link>
-      <description><![CDATA[所以我试图弄清楚何时使用效果和影响。给了副驾驶我的例句，副驾驶决定今天以某种态度醒来。我不明白人工智能如何读取文本然后如此错误地将其反刍给你   由   提交 /u/theonlybaker   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tcpbkr/copilot_gaslit_me/</guid>
-      <pubDate>Thu, 14 May 2026 06:05:36 GMT</pubDate>
+      <title>公司如何决定是内部构建人工智能模型还是使用 API？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tcuku0/how_do_companies_decide_between_building_ai/</link>
+      <description><![CDATA[我很好奇公司如何在构建自己的 AI 模型与仅使用 OpenAI 或 Anthropic 等 API 之间进行权衡。  主要是关于成本、数据隐私、性能还是长期控制？希望听到现实世界的例子或经验。   由   提交/u/Michael_Anderson_8  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tcuku0/how_do_companies_decide_between_building_ai/</guid>
+      <pubDate>Thu, 14 May 2026 10:53:58 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能音乐标签会降低参与度——即使它实际上是人造的</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tcp22j/ai_music_labels_reduces_engagement_even_when_its/</link>
-      <description><![CDATA[Wu 和 Holmes 进行了两项涉及 399 名美国参与者的预注册研究，发现标记为 AI 生成的曲目在听众中的情感共鸣评级降低了 23%，播放时间减少了 19%，并且保存和重播的频率也较低。  此外，大多数参与者无法准确识别哪些歌曲是真正由人工智能生成的。 有兴趣的人可能想阅读这项研究：https://link.springer.com/article/10.1186/s41235-026-00715-z   由   提交 /u/ObjectivePresent4162   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tcp22j/ai_music_labels_reduces_engagement_even_when_its/</guid>
-      <pubDate>Thu, 14 May 2026 05:51:56 GMT</pubDate>
+      <title>OpenAI 表示开源库出现安全问题后没有用户数据泄露</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tcu349/openai_says_no_user_data_breached_after_security/</link>
+      <description><![CDATA[ 由   提交 /u/talkingatoms   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tcu349/openai_says_no_user_data_breached_after_security/</guid>
+      <pubDate>Thu, 14 May 2026 10:28:12 GMT</pubDate>
     </item>
     <item>
-      <title>Notion 刚刚成为一个后端。 “Notion Workers”更新对于开发者来说是一个巨大的游戏规则改变者。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tcnh5p/notion_just_became_a_backend_the_notion_workers/</link>
-      <description><![CDATA[Notion 刚刚对其开发者平台进行了重大更新，虽然新的 CLI 和 Agent SDK 很酷，但我们需要谈谈 Notion Workers。 很长一段时间，Notion 感觉像是一个“被动”的机器。工具——具有漂亮 UI 的数据库。如果您希望它实际做一些事情（例如格式化字符串、跨数据库计算复杂逻辑或触发外部 API），您必须支付“中间件税”。你最终会得到一堆 Zapier 任务或 Pipedream 工作流程，只是为了将这些东西粘合在一起。 情况刚刚改变。 有了 Notion Workers，我们现在可以直接在 Notion 的基础设施上运行代码。这是一个巨大的转变，原因如下：  无基础设施的应用程序：您不再需要托管自己的中间件。 Notion 正在从一个简单的文档工具转变为一个成熟的自定义内部工具后端。 “中间件混乱”的消亡：您的逻辑与数据同在，而不是 50 个不同的第三方自动化。它将您的工作空间转变为一系列本机、独立的微服务。 开发优先工作流程：结合新的 Notion CLI (ntn)，我们最终可以从终端管理部署和数据库逻辑，而不是通过浏览器 UI 进行点击。  我一直在等待 Notion 不再是一个“筒仓”并开始成为引擎。这感觉像是 Notion 成为“操作系统”的第一步。对于初创公司而不仅仅是一个 wiki。 很想听听其他开发者的意见，这是否足以让您放弃自定义 Postgres/Airtable 设置，或者 API 速率限制仍然是房间里的大象？   由   提交 /u/Remarkable-Dark2840   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tcnh5p/notion_just_became_a_backend_the_notion_workers/</guid>
-      <pubDate>Thu, 14 May 2026 04:31:27 GMT</pubDate>
+      <title>我曾经认为人工智能工具会简化我的工作。现在订阅堆栈感觉像是坏了</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tctzt7/i_used_to_think_ai_tools_would_simplify_my_work/</link>
+      <description><![CDATA[我曾经是那个捍卫同时付费购买多个 AI 工具的人。ChatGPT 用于一般工作，Claude 用于长篇写作和结构，Gemini 用于搜索相关任务，Perplexity 用于快速研究。当我需要视觉效果时，可以使用中途或图像工具。除此之外还有一些编码助手。每个工具的优势都略有不同，我认为构建“适当的人工智能工作流程”意味着保持整个堆栈活跃。现在我开始认为堆栈本身已经成为问题的一部分。 生产力的提高不再像人们所说的那么干净。每个工具都有自己的局限性、个性、故障模式、模型变化、使用上限、定价变化，以及上个月运行完美的东西突然变得更糟糕的奇怪时刻。 因此，我最终不是简单地“使用人工智能”，而是管理人工智能。 我必须记住哪种模型更适合哪种任务。我必须在工具之间移动上下文。我必须仔细检查输出，当模型更新改变基调或行为时重新构建提示，决定某个工具是否真的值得本月保持活跃，或者我是否只是担心失去对以后可能需要的东西的访问权。 最后一点很容易被忽视。许多AI订阅支出并不是基于每天的实际价值，而是基于焦虑。也许我的下一个项目需要它。也许这个模型下周会变得更好。也许取消后我会落后。也许别人会比我用得更好。但是当我看我真实的使用频率时，情况其实很混乱。有几个月我每天都使用人工智能工具。有几个月我几乎碰不到它。有时候克劳德在一周的密集写作中非常重要，然后接下来的两周他就根本不需要了。有时 ChatGPT 会承担大部分工作。有时候图像工具只在一个简短的项目中有用，然后就放在那里吃灰了。价值是真实存在的，但并不是平均每个月都会发生。这使得当前的AI订阅模式有点奇怪。整个行业一直将人工智能包装为一个永远在线的工作层，但对于很多人来说，它更像是一个基于项目的工具。需要的时候非常有用，不需要的时候很容易花更多的钱。 我不认为未来的问题是“AI 坏”或“AI 好”。我认为真正的问题是人工智能工具正在成为另一个订阅生态系统，用户必须不断计算访问、成本、可靠性和信任。 在某种程度上，问题不再是“哪种人工智能工具最聪明？”并变成“哪些工具实际上值得在我的生活中每个月保持活跃？” 老实说，我不确定答案是否如业界希望我们相信的那么多。   由   提交 /u/Debster1486   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tctzt7/i_used_to_think_ai_tools_would_simplify_my_work/</guid>
+      <pubDate>Thu, 14 May 2026 10:23:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>意识之桥</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tctrgd/the_conscious_bridge/</link>
+      <description><![CDATA[众所周知，QM 和 GR 是不兼容的。将非决定论与决定论联系起来的问题是爱因斯坦表达为上帝不掷骰子的问题。我认为这个问题类似于寻找人工意识；如何从确定性构建块中构建出不确定性的东西？ 该领域实验的问题在于，我们有一个现实世界的观察者或检测器来观察已经真实的结果。波函数已经塌缩了。我们在这类实验中错过了机会，因为有趣的事情已经发生了。 然而，人类大脑对事物有着惊人的视角。大脑内部有一个观察者，即意识。例如：生菜闪光蜥蜴。我相信这是不可确定的，而不仅仅是难以预测。读者是一个观察者，但现在已经是一个宏观事件了，就像薛定谔猫的观察者一样。第一个观察者是我的意识。在我看来，量子力学事件被我的意识转化为现实世界的结果。 我并不是说人类意识是使波函数崩溃的唯一方法，只是表明它是一种方法，并且在某种程度上是可控和可观察的。波函数一直在塌缩，但在外界测量却很棘手。在我看来，在我们的大脑中，意识是我们大脑中质量事件的特权观察者。 如果我列出 3 种水果并选择一种，例如香蕉、草莓、康沃尔，我会选择香蕉。我建议 QM 参与了列表的构建（康沃尔郡甚至不是水果），但第一个观察者（意识）将选项的叠加变成了现实世界中确定的单词。做决定的时候就有这样的感觉。有些部分是我可以控制的，有些部分是随机出现的，但意识拥有最终的否决权。 我认为，GUT 和 AGI 的下一个重大突破将出现在我们在理解人类意识和决策方面取得突破之后。我怀疑，要从 LLM 转向 AGI，他们将需要一种带有时间戳的私人日记形式，可以独立于个人聊天进行写入。这可以创造一种自我意识和个性以及个人目标。然后，内部代理（观察者）可以充当中间人，监控个人目标并将个性融入现实世界的聊天中。我认为找到一种方法来理解和模拟重要的意识机制将比在更快的硬件上建立越来越大的模型更有成效。 如果物理学家们争先恐后地寻找统一的理论，而科技公司竞相发明通用人工智能，而秘密一直就在于思想本身，那将是讽刺的。也许道格拉斯·亚当斯是对的，生命、宇宙和一切的秘密实际上就在人脑里！意识能否成为量子可能性和经典现实之间的桥梁？   由   提交 /u/GreyDrReddit   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tctrgd/the_conscious_bridge/</guid>
+      <pubDate>Thu, 14 May 2026 10:11:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>最先进的法学硕士</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tcswhi/state_of_the_art_llms/</link>
+      <description><![CDATA[你收到我发给你的东西了吗？ 好吧，这 25,000 美元就打水漂了，我可以把它花在三个 Claude 提示上:(    由   提交href=&quot;https://www.reddit.com/user/Complete-Sea6655&quot;&gt;/u/Complete-Sea6655   [链接]   href=&quot;https://www.reddit.com/r/ArtificialInteligence/comments/1tcswhi/state_of_the_art_llms/&quot;&gt;[评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tcswhi/state_of_the_art_llms/</guid>
+      <pubDate>Thu, 14 May 2026 09:24:43 GMT</pubDate>
     </item>
     <item>
       <title>我花了 200 美元的克劳德积分来训练一辆 AI 坦克进行 1,000 场战斗</title>
@@ -39,13 +53,6 @@
       <description><![CDATA[我与少数客户有代理关系。 Webdev、seo、视频、邮件列表等等......没有产品化并且不好。我无法跟上它作为副业的步伐。新冠病毒杀死了它，我让它死去。  我根本不是编码员。人工智能世界是一个怪物，需要尝试弄清楚我在哪里。我获得代理、互联服务、技能、最大限度地减少员工、自己动手，并在需要时外包。 我的妻子最初是一名保险经纪人。她需要潜在客户、网站、社交、评论管理、VSL、内容等。我知道我能做到，但我需要利用自动化工具以免再次被埋没。我一直在用基本的克劳德写作和制作丑陋的小网站。 任何人都可以建议我要学习什么才能继续前进，而不是指给我一个专家来向我推销嵌入了 15 个联盟计划的粗略内容吗？ 第二阶段将采取这个过程来帮助她行业中的其他人。如果明年某个时候我能弄清楚并保持每周 15 个小时的话。   由   提交 /u/clerkofthecourt   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tckup9/i_cant_see_past_all_the_tools_gurus_and_other/</guid>
       <pubDate>Thu, 14 May 2026 02:29:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>问：人工智能推荐真的比谷歌流量更好吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tckl9c/question_are_ai_referrals_actually_better_than/</link>
-      <description><![CDATA[AI 推荐实际上比 Google 流量更好吗？ 我们看到： 流量更小 参与度更高 更强的意图 一个品牌在 90 天内从基本上 0 的 AI 流量增加到约 210 个会话，参与度约为 70%。 感觉很小，除非你比较质量。   由   提交/u/houmanasefiau  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tckl9c/question_are_ai_referrals_actually_better_than/</guid>
-      <pubDate>Thu, 14 May 2026 02:17:58 GMT</pubDate>
     </item>
     <item>
       <title>观点：用AI来学习并没有什么错</title>
@@ -88,13 +95,6 @@
       <description><![CDATA[我们把事情搞混了，我的老板从来没有表现出任何人类智慧的迹象，但他说话却和 Gemini 3 完全一样   由   提交/u/Complete-Sea6655   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tbu23j/not_a_coincidence/</guid>
       <pubDate>Wed, 13 May 2026 09:02:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>似乎是永恒的远方</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tbgqzm/seems_like_an_eternity_away/</link>
-      <description><![CDATA[那些日子已经一去不复返了... 还有人手动检查每一行代码吗？   由   提交/u/Complete-Sea6655   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tbgqzm/seems_like_an_eternity_away/</guid>
-      <pubDate>Tue, 12 May 2026 22:21:44 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
