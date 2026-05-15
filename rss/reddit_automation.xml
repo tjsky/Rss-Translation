@@ -4,7 +4,7 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Thu, 14 May 2026 22:05:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 02:41:36 GMT</lastBuildDate>
     <item>
       <title>经过多年的企业实施，为中小企业建立了人工智能代理平台，现已开放5个代理合作伙伴名额</title>
       <link>https://www.reddit.com/r/automation/comments/1tdcocg/built_an_ai_agent_platform_for_smbs_after_years/</link>
@@ -97,18 +97,18 @@
       <pubDate>Thu, 14 May 2026 03:04:46 GMT</pubDate>
     </item>
     <item>
-      <title>我感到无聊，最终将整个过程自动化</title>
-      <link>https://www.reddit.com/r/automation/comments/1tcjfx0/i_got_bored_and_ended_up_automating_the_whole/</link>
-      <description><![CDATA[      在我的 edtech 训练营中，我手动致电导师担任全栈角色。每次都是同样的 4-6 个问题，然后手动来回安排。每天吃3-4个小时。所以我决定将其自动化。 这就是我最终构建的东西 - 一个我称之为 Mentor Screening Agent 的语音 AI 代理。 它的作用：  给候选人打电话 询问 4-6 个筛选问题（多年的教学经验、JS/React/Node 知识、预期时薪等） 如果超出预算，请透明地分享上限并询问他们是否接受 如果候选人符合筛选资格 - 预订面试空档，并发送包含 Meet 链接的 Google 日历邀请 将每次通话记录到 Google 表格以供审核  流程： 语音通话 → Webhook → Google 表格 → IF （合格-候选人通过所有标准？） → Gmail → Google Calendar 语音部分使用Dograh（开源语音AI）；下游的一切都是n8n。既免费开源又可自托管。 我构建它后发生了什么？  我从每天 4 小时的筛选电话变成了大约 30 分钟的审查输出表。合格的候选人在我知道他们存在之前就已经预约了面试。 一路上发生的一些事情可能会让某人免于调试麻烦： - $json.body.X` 变成 `$json.body.X` 。数据通过表格节点后的 X（它会使正文包装器变平） - Workspace Google 帐户通常不允许您在未经管理员批准的情况下通过 OAuth 创建日历事件。个人 Gmail 凭据即可正常工作。 - n8n 日历节点中的会议数据切换会抛出无用的“如果部分配置，则错误请求”。要么完全设置类型，要么完全删除该部分。 如果您对此方法有任何反馈，请告诉我。   由   提交 /u/Once_ina_Lifetime   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1tcjfx0/i_got_bored_and_ended_up_automating_the_whole/</guid>
-      <pubDate>Thu, 14 May 2026 01:28:40 GMT</pubDate>
-    </item>
-    <item>
       <title>我们别无选择，只能自动化</title>
       <link>https://www.reddit.com/r/automation/comments/1tcf38s/we_have_no_choice_but_to_automate/</link>
       <description><![CDATA[看看中国和印度等国家。 20 世纪，由于医疗和其他方面的进步，他们人口众多，这让年轻人陷入了困境。养老金炸弹将是灾难性的，当人口统计数据被适当缩小以显示未来的样子时，世界各地的出生率都处于历史最低水平，有可靠的统计数据。这实际上意味着，如果我们幸运的话，每个退休人员/残疾人/其他无法工作的人就会有 2 名工人。然后考虑到即使这样，一个人支付的费用差异也不一定能满足另一个人的需求。唯一的答案是自动化，但即使如此，如果人工智能统治世界并取代每个人的工作，钱从哪里来？这一切对我来说真的很可怕。我只是看不到这场混乱有一个好的结局，它可能会像全球范围内的某种中国内战一样结束。   由   提交 /u/Spreakib   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tcf38s/we_have_no_choice_but_to_automate/</guid>
       <pubDate>Wed, 13 May 2026 22:26:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>您对使用人工智能创建内部运营工具有何想法？</title>
+      <link>https://www.reddit.com/r/automation/comments/1tc1g87/what_are_your_thoughts_on_using_ai_to_create/</link>
+      <description><![CDATA[今天早上我在滚动 X，发现了我关注的一个人发布的关于人工智能所有新事物的帖子。鉴于这些天，我对任何基于人工智能的工具都持怀疑态度，但我喜欢用我自己制作的东西来取代我们错误地用于财务收据的周一仪表板的想法。  话虽如此，我仍然持怀疑态度，因为它听起来一如既往地好得令人难以置信。所以我想这是一个冗长的方式来询问这里是否有人做过同样的事情，你使用了什么工具，以及集成如何？    由   提交 /u/pet_dreamlands   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tc1g87/what_are_your_thoughts_on_using_ai_to_create/</guid>
+      <pubDate>Wed, 13 May 2026 14:33:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
