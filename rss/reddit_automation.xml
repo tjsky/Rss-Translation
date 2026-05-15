@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Fri, 15 May 2026 02:41:36 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 06:29:28 GMT</lastBuildDate>
+    <item>
+      <title>Thoth v3.22.0 刚刚发布，它将应用程序变成了真正的开发人员工作台</title>
+      <link>https://www.reddit.com/r/automation/comments/1tdnttt/thoth_v3220_just_dropped_and_it_turns_the_app/</link>
+      <description><![CDATA[ 由   提交/u/Acceptable-Object390   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tdnttt/thoth_v3220_just_dropped_and_it_turns_the_app/</guid>
+      <pubDate>Fri, 15 May 2026 06:22:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>GTM 自动化中的 n8n、Make 和 Zapier，这就是每个人真正崩溃的地方</title>
+      <link>https://www.reddit.com/r/automation/comments/1tdk79m/n8n_vs_make_vs_zapier_for_gtm_automation_heres/</link>
+      <description><![CDATA[每个 GTM 堆栈最终都会遇到同样的问题：谁协调 Clay、HubSpot 和您的推广工具之间的工作流程？这三个平台每次都会出现。它们不可互换，每个都有一个真正的上限。 Zapier 最适合没有工程支持的团队。触发操作模型直观、设置快速且集成库庞大。对于简单的事情效果很好：表单提交到 CRM、Calendly 到 HubSpot、交易阶段更改到 Slack。 问题是按数量定价。工作流程中的每个步骤都算作一项任务。涉及 500 个联系人的 5 步丰富流程 = 2,500 个任务。专业计划给你 750。你在一次战役中就耗尽了它。也没有本机代码执行，因此任何需要循环、条件或数据转换的东西都会很快遇到困难。 Make 当您需要真正的逻辑时，需要采取的步骤。可视化画布可处理多分支工作流程、并行路径、迭代器和错误处理程序，而这些在 Zapier 中都不存在。基于操作的定价也可以更好地扩展：核心计划的 10,000 次操作每月 9 美元与 Zapier 的任务限制相比。 它的不足之处：没有自托管、有限的本机代码执行和复杂的 API 处理（动态标头、OAuth 流、分页）需要解决方法。对于集成较新的 GTM 工具，它会变得混乱。 n8n 为会编码的人构建。在工作流节点内完整执行 JavaScript 和 Python，因此逻辑复杂性几乎没有限制。自托管版本完全免费且不受限制，对于大批量 GTM 工作来说，成本差异会快速增加。 权衡是设置开销。您正在管理基础设施（通常是每月 5-20 美元的 VPS），UI 不够精致，并且本机应用程序库比 Make 或 Zapier 小。如果你的团队中没有人可以维护它，它就会成为一种负担。 如何将它们实际一起使用 大多数成熟的 GTM 堆栈不会选择一个，而是分层：  Zapier 用于简单集成，运维团队需要在没有工程帮助的情况下进行维护 实现中等复杂性路由和 CRM 同步 n8n 作为核心管道，Clay 丰富，评分、路由、序列登记  真正的决定不是“哪个工具”，而是“每个工具拥有哪一层”。如果犯了这个错误，就会导致堆栈的维护成本高昂，并且当出现问题时就会变得脆弱。   由   提交 /u/Official-DevCommX   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tdk79m/n8n_vs_make_vs_zapier_for_gtm_automation_heres/</guid>
+      <pubDate>Fri, 15 May 2026 03:21:31 GMT</pubDate>
+    </item>
     <item>
       <title>经过多年的企业实施，为中小企业建立了人工智能代理平台，现已开放5个代理合作伙伴名额</title>
       <link>https://www.reddit.com/r/automation/comments/1tdcocg/built_an_ai_agent_platform_for_smbs_after_years/</link>
@@ -83,13 +97,6 @@
       <pubDate>Thu, 14 May 2026 08:10:14 GMT</pubDate>
     </item>
     <item>
-      <title>TinyFish 搜索和获取现在免费。对于每个开发者和代理。没有信用卡。</title>
-      <link>https://www.reddit.com/r/automation/comments/1tcqu0a/tinyfish_search_and_fetch_are_now_free_for_every/</link>
-      <description><![CDATA[ 由   提交 /u/tinys-automation26   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1tcqu0a/tinyfish_search_and_fetch_are_now_free_for_every/</guid>
-      <pubDate>Thu, 14 May 2026 07:28:38 GMT</pubDate>
-    </item>
-    <item>
       <title>您在业务中实际使用的被低估的自动化是什么？</title>
       <link>https://www.reddit.com/r/automation/comments/1tclnig/whats_an_underrated_automation_you_actually_use/</link>
       <description><![CDATA[我先来 我设置了一个小型边际分析自动化：我上传一个数据文件，它总结了今天/本周的表现，以便我可以更快地做出决策。 我还将其连接到趋势产品 + 市场趋势信号，并且该组合对于发现真正值得加倍投资的内容非常有效。   由   提交/u/Pspecial_Milk_1152   [链接] [评论]]]></description>
@@ -102,13 +109,6 @@
       <description><![CDATA[看看中国和印度等国家。 20 世纪，由于医疗和其他方面的进步，他们人口众多，这让年轻人陷入了困境。养老金炸弹将是灾难性的，当人口统计数据被适当缩小以显示未来的样子时，世界各地的出生率都处于历史最低水平，有可靠的统计数据。这实际上意味着，如果我们幸运的话，每个退休人员/残疾人/其他无法工作的人就会有 2 名工人。然后考虑到即使这样，一个人支付的费用差异也不一定能满足另一个人的需求。唯一的答案是自动化，但即使如此，如果人工智能统治世界并取代每个人的工作，钱从哪里来？这一切对我来说真的很可怕。我只是看不到这场混乱有一个好的结局，它可能会像全球范围内的某种中国内战一样结束。   由   提交 /u/Spreakib   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tcf38s/we_have_no_choice_but_to_automate/</guid>
       <pubDate>Wed, 13 May 2026 22:26:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>您对使用人工智能创建内部运营工具有何想法？</title>
-      <link>https://www.reddit.com/r/automation/comments/1tc1g87/what_are_your_thoughts_on_using_ai_to_create/</link>
-      <description><![CDATA[今天早上我在滚动 X，发现了我关注的一个人发布的关于人工智能所有新事物的帖子。鉴于这些天，我对任何基于人工智能的工具都持怀疑态度，但我喜欢用我自己制作的东西来取代我们错误地用于财务收据的周一仪表板的想法。  话虽如此，我仍然持怀疑态度，因为它听起来一如既往地好得令人难以置信。所以我想这是一个冗长的方式来询问这里是否有人做过同样的事情，你使用了什么工具，以及集成如何？    由   提交 /u/pet_dreamlands   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1tc1g87/what_are_your_thoughts_on_using_ai_to_create/</guid>
-      <pubDate>Wed, 13 May 2026 14:33:08 GMT</pubDate>
     </item>
     </channel>
 </rss>

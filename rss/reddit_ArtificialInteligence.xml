@@ -4,7 +4,35 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Fri, 15 May 2026 02:41:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 06:29:42 GMT</lastBuildDate>
+    <item>
+      <title>为服务企业运行生产语音代理 6 个月。延迟数学比演示中显示的要困难得多。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tdnw9u/6_months_running_a_production_voice_agent_for/</link>
+      <description><![CDATA[过去 6 个月为餐厅和沙龙构建语音 AI。我想分享一些技术现实与每个人都展示的“800 毫秒延迟”演示。 没有人谈论的内容： 延迟是双峰的，而不是平均的。演示显示了中值延迟。真实用户在 p95 上流失。我们的中位数约为 800 毫秒，p95 为 2.4 秒。 p95 决定了特工是否感觉是人类还是破碎的。它来自罕见的边缘情况：对格式错误的函数调用输出进行模型重试、工具执行缓慢（针对缓慢的第三方 API 进行日历查找）、VAD 在背景噪音下失败。 中断处理比对话本身更频繁地中断。用户不断地打断代理。幼稚的 VAD 将每次咳嗽或背景噪音视为干扰。我们最终得到了一个三层系统：VAD信号+语义检查（他们所说的实际上是延续？）+声能阈值。可能仍有 5% 的时间是错误的。 函数调用的可靠性会随着提示长度的增加而降低。 1.5k token 下系统提示，函数调用准确率为 96%。超过 3k 代币，在同一型号上下降至 84%。当您将个性、业务规则和少量示例塞入一个提示中时，没有人会告诉您这一点。 对于感知质量而言，TTS 选择比 LLM 选择更重要。用户对机器人语音的抱怨比对错误答案的抱怨多 10 倍。将 LLM 从 GPT-4 更换为 Claude 或 Gemini，业务指标提高了 2%。将 TTS 从通用 TTS 更换为 ElevenLabs Flash 使预订转化率提高了 14%。 多语言是对一切的征税。我们支持 50 多种语言。每种语言添加：单独的 TTS 语音调整、单独的 VAD 校准（某些语言有更多的齿擦音，这会混淆 VAD）、提示中单独的小镜头示例。纯粹由于这些校准，俄语每次通话的成本比英语高约 40%。 还有其他人在生产中运行语音代理吗？很好奇您的 p95 是什么样子，以及您如何应对多语言成本爆炸式增长。   由   提交 /u/No-Zone-5060   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tdnw9u/6_months_running_a_production_voice_agent_for/</guid>
+      <pubDate>Fri, 15 May 2026 06:26:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Oracle 董事会成员剖析了人工智能的现状</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tdnn9q/oracle_board_member_breaks_down_the_current_state/</link>
+      <description><![CDATA[这大约是 70 分钟。有趣的手表。 从 IBM 和 Oracle 到 Medscape、WebMD、Surescripts、Arsenal Capital、Notion Health 和 Eon Health，Kevin Hutchinson 帮助塑造了现代医疗保健领域一些最大的技术变革。 Kevin 在俄克拉荷马州出生和长大，毕业于俄克拉荷马州立大学，随后在 IBM 工作了 10 年，之后在医疗保健技术、数字医疗记录、药房网络和人工智能领域开启了职业生涯。  他帮助 Medscape 在出售给 WebMD 之前上市，在美国各地的药店实现数字化互联时为 Surescripts 做出了贡献，并为布什和奥巴马政府提供了医疗信息系统和电子病历方面的建议。现在，Kevin 在 Al 医疗保健领域工作，担任 Arsenal Capital 的顾问、Notion Health 的临时首席执行官以及 Eon Health 的董事会主席。在本集中，我们将讨论人工智能如何改变我们的世界、人们对它的误解以及如何充满信心地为未来做好准备。   由   提交/u/Ghostttoast69  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tdnn9q/oracle_board_member_breaks_down_the_current_state/</guid>
+      <pubDate>Fri, 15 May 2026 06:13:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们建立了一个 AI CMO + 自主营销团队，在 10 多个社交渠道上发布内容，因为雇用一个完整的社交团队对于我们的初创公司来说太昂贵了</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tdmds4/we_built_an_ai_cmo_autonomous_marketing_team_that/</link>
+      <description><![CDATA[我们最初是为 BondedPath 构建此功能，因为在每个平台上处理社交媒体变得不可能手动扩展。 因此，我们建立了一个完全自主的 AI CMO + 代理营销团队，现在完全运行我们社交工作流程的很大一部分。 不仅仅是编写标题。 代理： • 研究趋势 • 提出内容创意 • 创作短片视频 + 轮播帖子 • 生成字幕/挂钩 • 安排+分发内容 • 根据效果进行优化 每天在以下平台发布 3-4 次内容： Instagram、TikTok、Facebook、LinkedIn、YouTube、X、Threads、Bluesky 等。 示例- FB -&gt; https://www.facebook.com/people/BondedPath/61587704892576/ TikTok -&gt; https://www.tiktok.com/@bondedpathapp 现在它同时支持 10 多个频道。 工作流程出奇的简单： AI 代理创建一切 → 发送到 Telegram 进行批准 → 一旦批准（单击按钮），它会立即发布到任何地方。 最让我们惊讶的是，它的全球化程度如此之高。一旦发布一致性不再成为瓶颈，覆盖范围就成为了。 我们现在正在慢慢地让 BondedPath 之外的品牌和创作者加入，同时继续改进系统。 我们在内部构建了这个！   由   提交 /u/duketgegreat   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tdmds4/we_built_an_ai_cmo_autonomous_marketing_team_that/</guid>
+      <pubDate>Fri, 15 May 2026 05:06:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>一旦项目变得太大，长篇人工智能写作似乎仍然会崩溃</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tdlkg0/longform_ai_writing_still_seems_to_break_down/</link>
+      <description><![CDATA[在花了更多时间使用人工智能写作工具后，我没想到的是，生成文本不再是困难的部分，速度快得惊人。 大多数模型已经可以写出像样的场景、大纲、摘要、博客部分等等。对我来说，更大的问题稍后才开始，一旦项目变得足够大，连续性实际上很重要。 这通常是事情开始有点下滑的地方。早期的细节被忽略，语气慢慢改变，想法不断重复，结构开始感觉更难以结合在一起。在某些时候，我花更多的时间来管理项目，而不是实际编写项目的新部分。 有一段时间，我认为这主要是一个提示性问题，但现在我开始认为长篇人工智能写作更多的是组织问题，而不是生成问题。 最近，我将起草与项目管理完全分开，而不是期望一个工具能够很好地处理两者。 很好奇其他从事较长项目的人是否也遇到了同样的问题事情。   由   提交 /u/AccomplishedPine4602   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tdlkg0/longform_ai_writing_still_seems_to_break_down/</guid>
+      <pubDate>Fri, 15 May 2026 04:25:48 GMT</pubDate>
+    </item>
     <item>
       <title>机器人正在苏醒</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tdhmt3/the_bots_are_waking_up/</link>
@@ -48,39 +76,11 @@
       <pubDate>Thu, 14 May 2026 20:36:56 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌的 Gemini Omni 可以在黑板上写数学。人工智能视频最难的问题可能会变得更容易</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1td9b6s/googles_gemini_omni_can_write_math_on_a/</link>
-      <description><![CDATA[ 由   提交/u/techzexplore  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1td9b6s/googles_gemini_omni_can_write_math_on_a/</guid>
-      <pubDate>Thu, 14 May 2026 19:54:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>国家人工智能法是唯一的人工智能法。到处都在崩溃。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1td8cub/state_ai_law_is_the_only_ai_law_everywhere_its/</link>
-      <description><![CDATA[科罗拉多州立法机构通过了参议院第 189 号法案，这是 2024 年科罗拉多州人工智能法案的极其精简版本。  “剩下的一项要求是，当人工智能系统被用来拒绝向你提供贷款、工作或居住地时，公司只需在事后让你知道，并提供上诉的机会。 使用人工智能来改变你的生活现在已经很好了。剩下的唯一法律要求是他们必须告诉你人工智能这样做了。”  其他人工智能监管法案在德克萨斯州、加利福尼亚州、纽约州也已被撕得面目全非或被否决。    由   提交/u/Classic-Acadia272   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1td8cub/state_ai_law_is_the_only_ai_law_everywhere_its/</guid>
-      <pubDate>Thu, 14 May 2026 19:20:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>法学硕士中严格的安全调整是否对用户的创造力和隐私弊大于利？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1td84ff/is_heavy_safety_alignment_in_llms_doing_more_harm/</link>
-      <description><![CDATA[大多数主流人工智能模型现在拒绝广泛的主题并保留永久的对话日志。 这提出了一些真正的问题：  我们是否过度调整模型并损害创作自由？ 隐私权衡（持续记录+外部查询）值得吗？ 您是否遇到过觉得不必要或不必要的拒绝？令人沮丧？  您个人会使用（或已经使用）零日志且无内容过滤的人工智能吗？为什么或为什么不？ 很想听到真实的经历。   由   提交 /u/NoFilterGPT   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1td84ff/is_heavy_safety_alignment_in_llms_doing_more_harm/</guid>
-      <pubDate>Thu, 14 May 2026 19:12:10 GMT</pubDate>
-    </item>
-    <item>
       <title>Meta 耗资 100 亿美元的路易斯安那州数据中心将获得 33 亿美元的税收减免——超过该州整个警察预算七年多的金额</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1td5oqe/metas_10_billion_louisiana_data_center_is_getting/</link>
       <description><![CDATA[数据中心——为国家人工智能提供动力所需的计算基础设施，仅今年公司就斥资近 7000 亿美元建设——正在全国各地的农村和郊区城镇迅速涌现，其中一些面积是曼哈顿中央公园的两倍多。但这些项目的巨大足迹可能会带来同样巨大的公共成本。 目前至少有 36 个州为建设这些设施的公司提供税收减免，但代价是损失数十亿美元的收入。弗吉尼亚州是拥有最多数据中心的州，每年向数据中心开发商拨款 19 亿美元。根据州官方估计，乔治亚州每年的花费为 26 亿美元。德克萨斯州审计长办公室在 2024 年提供 1.5 亿美元的减免后，今年将这一数字提高到每年 10 亿美元以上，短短一年内增长了近 567%。 在路易斯安那州，这些数字与该州向 Meta 公司提供的用于建设 Hyperion 的资金相比相形见绌。Hyperion 是目前正在路易斯安那州里奇兰教区建设的价值 100 亿美元的庞大数据中心。该公司将获得 3.3 美元报告称，根据舍伍德新闻 (Sherwood News) 的分析，这笔钱足以为整个州的警察预算提供七年多的资金。 “对于一个增长非常快、不需要任何公共投资或支持的行业来说，这些补贴是浪费。”好工作第一 (Good Jobs First) 的高级研究分析师卡西亚·塔尔钦斯卡 (Kasia Tarczynska) 表示。 Tarczynska 告诉《财富》杂志，33 亿美元的估计是保守估计，补贴可能超出任何人的预测。 阅读更多内容 [Reddit 用户付费墙被移除]：https://fortune.com/2026/05/14/meta-data-center-tax-break-hyperion-louisiana/?utm_source=reddit/   由   提交/u/fortune  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1td5oqe/metas_10_billion_louisiana_data_center_is_getting/</guid>
       <pubDate>Thu, 14 May 2026 17:49:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>还有其他人觉得大多数人工智能工具变得越来越难而不是更容易吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tcwr4l/does_anyone_else_feel_most_ai_tooling_is_becoming/</link>
-      <description><![CDATA[还有其他人觉得大多数 AI 工具变得越来越难，而不是更容易吗？ 我觉得我花了一半的时间在框架、配置、矢量数据库和编排层上，而不是进行构建。也许我做错了，但生态系统似乎比目前需要的要复杂得多。只是好奇现在人们到底喜欢做什么。   由   提交/u/Bladerunner_7_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tcwr4l/does_anyone_else_feel_most_ai_tooling_is_becoming/</guid>
-      <pubDate>Thu, 14 May 2026 12:30:42 GMT</pubDate>
     </item>
     <item>
       <title>我没有预见到的行为变化：人们现在更信任人工智能摘要而不是原始来源</title>
