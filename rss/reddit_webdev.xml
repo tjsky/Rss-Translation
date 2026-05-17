@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sun, 17 May 2026 13:10:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 15:57:29 GMT</lastBuildDate>
+    <item>
+      <title>您是否会建议重新发送新闻通讯批量电子邮件发送？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tfplrc/would_you_recommend_resend_for_newsletter_bulk/</link>
+      <description><![CDATA[因此，目前在我的应用程序中，我正在使用重新发送来进行交易电子邮件和电子邮件营销。但问题（据我所知）是，它们对于后一种并不是很好，就好像您在一个帐户下有多个 SaaS（使用多个团队），当一个 SaaS 在电子邮件营销方面收到一些跳出率时，您帐户下的其他 SaaS 也会受到影响。 Postmark 不存在这个问题，因为每个邮戳都被隔离在您的一个帐户下。我认为 AWS SES 具有您可以利用的租户功能，通过此功能，一个应用程序的电子邮件信誉不会影响其他应用程序。   由   提交 /u/webdevamin   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tfplrc/would_you_recommend_resend_for_newsletter_bulk/</guid>
+      <pubDate>Sun, 17 May 2026 13:29:43 GMT</pubDate>
+    </item>
     <item>
       <title>正在做一个迷你项目，想知道这个设计/它们叫什么？老实说，我不知道我是否喜欢它，因为它实际上看起来不错，或者因为它很容易制作</title>
       <link>https://www.reddit.com/r/webdev/comments/1tfodce/was_working_on_a_mini_project_and_wondered_what/</link>
@@ -48,6 +55,13 @@
       <pubDate>Sun, 17 May 2026 10:06:02 GMT</pubDate>
     </item>
     <item>
+      <title>构建视觉核心leetcode模式学习和智能实践的应用程序 | rulcode.com</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tfkuqx/build_app_for_visual_core_leetcode_pattern/</link>
+      <description><![CDATA[       由   提交/u/Mindless_Nail_6911   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tfkuqx/build_app_for_visual_core_leetcode_pattern/</guid>
+      <pubDate>Sun, 17 May 2026 09:39:54 GMT</pubDate>
+    </item>
+    <item>
       <title>defuddle,以 Markdown 形式获取任何页面的主要内容,下载defuddle的源码_GitHub_酷徒</title>
       <link>https://www.reddit.com/r/webdev/comments/1tfiy1b/github_kepanodefuddle_get_the_main_content_of_any/</link>
       <description><![CDATA[       由   提交/u/fagnerbrack  [链接] [评论] ]]></description>
@@ -71,7 +85,7 @@
     <item>
       <title>使用AI一段时间后，我忘记了如何用then()和catch()编写axios。还有人觉得他们忘记编码了吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tf67tp/i_forgot_how_to_write_axios_with_then_and_catch/</link>
-      <description><![CDATA[在所有人工智能炒作和振动编码趋势之前，我可以毫无问题地编写 Axios 甚至从内存中获取 API，包括 .then()、.catch() 和 .finally()。无论如何，它们看起来都非常相似，函数体和回调结构，尤其是 ES6 箭头函数。但现在，在依赖人工智能大约半年之后，我注意到我开始忘记要包含的确切参数以及如何在没有帮助的情况下从头开始编写所有内容。老实说，我心里想，“好吧，这有点危险了。” 我很好奇你们中的很多人在远程依赖人工智能编码后是否会发生这种情况？   由   提交 /u/webdevamin   [链接] [评论]]]></description>
+      <description><![CDATA[在所有人工智能炒作和振动编码趋势之前，我可以毫无问题地编写 Axios 甚至从内存中获取 API，包括 .then()、.catch() 和 .finally()。无论如何，它们看起来都非常相似，函数体和回调结构，尤其是 ES6 箭头函数。但现在，在依赖人工智能大约半年之后，我注意到我开始忘记要包含的确切参数以及如何在没有帮助的情况下从头开始编写所有内容。老实说，我对自己说，“好吧，这有点危险了。” 我很好奇你们中的很多人在远程依赖人工智能编码后是否会发生这种情况？   由   提交 /u/webdevamin   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tf67tp/i_forgot_how_to_write_axios_with_then_and_catch/</guid>
       <pubDate>Sat, 16 May 2026 21:33:04 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[      观看机器人攻击我看似未受保护的互联网服务器。单击扬声器图标可在虚拟盖革计数器上听到所谓的互联网背景辐射。在 3D 地球仪（同时也是热图）上查看攻击服务器的位置。了解机器人在基于凭据的攻击中使用的最常见的用户名和密码。过滤这些用户名和密码（和位置），看看 SSH 机器人与 Telnet 机器人、HTTP 机器人、SMTP 机器人等有何不同... 仪表板的设计付出了很多努力。我的目标是高科技但又复古的“黑客帝国”视觉效果，脉冲显示一次对多个面板的更新。 架构：多个蜜罐（每个协议/端口一个），将 JSON 消息发送到监控服务，该服务将每个事件存储在 sqlite3 数据库中，并将信息转发到 redis。前端（基于 uvicorn）通过 Web 套接字与 Web 浏览器通信，从 Redis 检索新事件和历史信息以传递给客户端。它具有很强的可扩展性，并且使用很少的服务器资源。 玩得开心，并提出问题！ 来源：https://github.com/djkurlander/knock-knock   由   提交/u/Desperate-Second-887   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tf428m/see_the_hidden_world_of_internet_bots_listen_to/</guid>
       <pubDate>Sat, 16 May 2026 20:05:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Skippa.cc - 专为桌面构建的社交媒体网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tf3dbf/skippacc_a_social_media_website_built_for_desktop/</link>
-      <description><![CDATA[      我今年 15 岁，建立了自己的社交媒体网站 - 零人工智能、零氛围编码，所有这些都是在几个月的时间内手工构建的。让我知道你们的想法！   由   提交/u/emrah_programatoru   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tf3dbf/skippacc_a_social_media_website_built_for_desktop/</guid>
-      <pubDate>Sat, 16 May 2026 19:37:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于协作编辑我被告知的谎言，第 2 部分：为什么我们不使用 Yjs</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tf35se/lies_i_was_told_about_collaborative_editing_part/</link>
-      <description><![CDATA[       由   提交/u/fagnerbrack  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tf35se/lies_i_was_told_about_collaborative_editing_part/</guid>
-      <pubDate>Sat, 16 May 2026 19:29:20 GMT</pubDate>
     </item>
     </channel>
 </rss>

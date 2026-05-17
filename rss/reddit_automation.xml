@@ -4,7 +4,21 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sun, 17 May 2026 13:08:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 15:54:58 GMT</lastBuildDate>
+    <item>
+      <title>子代理协调器是否需要是最智能的或最稳定且最具成本效益的？</title>
+      <link>https://www.reddit.com/r/automation/comments/1tft2vz/does_a_subagent_orchestrator_need_to_be_the/</link>
+      <description><![CDATA[Gemini CLI 正在走向基于技能的组合，我觉得人们可能使协调器层过于复杂化。 很多时候，它实际上需要做的事情非常基本：记住当前完整的工作流程状态，决定首先调用哪个技能，将失败的结果折叠回状态，避免一次将太多东西捆绑在一起，并在必要时向上升级。当然会有困难的情况，但大多数日常行动并不是谁最聪明就获胜。它们是关于谁可以更可靠地维护路由和状态。 我现在不太愿意一直将最重的模型放在编排器上。我宁愿寻找一个快速思考/非思考的候选者，它可以处理长状态，保持相当低的成本，并且能够很好地与明确的规则和一次一件事的纪律配合。 这也是我考虑像 Ling 2.6 1T 这样的模型的原因：它的公众已经强调长上下文、效率和代理工作负载，而不是将每一步扩展为长推理跟踪。对于协调器层来说，这种配置文件实际上可能更适合。 有人已经以这种方式拆分事物了吗？换句话说，使用低开销模型作为编排/路由/状态跟踪的始终在线层，并且仅在存在真正的技能冲突或艰难决策时才升级。您遇到的第一个问题是什么：状态漂移、路由错误或编排器太浅？   由   提交 /u/whoiskathleen   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tft2vz/does_a_subagent_orchestrator_need_to_be_the/</guid>
+      <pubDate>Sun, 17 May 2026 15:43:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动许可证验证和监控，有人用 Make/Zapier 构建这个吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1tfstup/automated_license_verification_monitoring_anyone/</link>
+      <description><![CDATA[我为一家家庭保修公司实现操作自动化。我们派遣 1,000 多名持证承包商。法律规定我们需要验证+监控许可证以减少责任。  尝试构建 Zapier 流程​​来抓取州网站，但验证码和不一致的格式在两周内就破坏了它。在我编写自定义 Playwright 机器人之前，是否有一个 API？   由   提交 /u/Champ-shady   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tfstup/automated_license_verification_monitoring_anyone/</guid>
+      <pubDate>Sun, 17 May 2026 15:34:13 GMT</pubDate>
+    </item>
     <item>
       <title>[ 已被 Reddit 删除 ]</title>
       <link>https://www.reddit.com/r/automation/comments/1tfnwso/removed_by_reddit/</link>
@@ -27,7 +41,7 @@
       <pubDate>Sun, 17 May 2026 09:23:41 GMT</pubDate>
     </item>
     <item>
-      <title>哪些工作我们知道是白领，但实际上不是？ “微软人工智能主管给了它 18 个月的时间，让所有白领工作都由人工智能实现自动化”</title>
+      <title>哪些工作我们知道是白领，但实际上不是？ “微软人工智能负责人给了它 18 个月的时间，让所有白领工作都由人工智能实现自动化”</title>
       <link>https://www.reddit.com/r/automation/comments/1tfk8z5/which_jobs_do_we_know_as_white_collar_but_really/</link>
       <description><![CDATA[       由   提交/u/Ultra_HNWI   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tfk8z5/which_jobs_do_we_know_as_white_collar_but_really/</guid>
@@ -41,16 +55,9 @@
       <pubDate>Sun, 17 May 2026 08:24:36 GMT</pubDate>
     </item>
     <item>
-      <title>管理多个社交媒体</title>
-      <link>https://www.reddit.com/r/automation/comments/1tfd1u1/managing_multiple_social_media/</link>
-      <description><![CDATA[我管理着大型火车和航空页面（超过 43 万粉丝），评论量每天要消耗 3 个小时，所以我构建了一个 AI 来处理它。它用我的声音回复 Facebook、Instagram、YouTube 和 TikTok 上的评论——上周，在我看到评论之前，它就回答了 TikTok 上关于机车轮安排的现场问题。六个月后，它每月为我节省了 50 多个小时。如果有人正在构建类似的东西，我很乐意谈论架构。​​​​​​​​​​​​​​​​   由   提交/u/chachingchaching2021   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1tfd1u1/managing_multiple_social_media/</guid>
-      <pubDate>Sun, 17 May 2026 02:44:02 GMT</pubDate>
-    </item>
-    <item>
       <title>LLM + 马具：代理人是什么（和不是什么）</title>
       <link>https://www.reddit.com/r/automation/comments/1tfcaae/llm_harness_what_an_agent_is_and_isnt/</link>
-      <description><![CDATA[单词“agent”被广泛使用，通常意味着非常不同的事情。这是一个简短的、固执己见的游览。 LLM + 工具 代理由两部分组成：LLM 和围绕它的工具。 LLM 读取上下文并生成下一步。它本身只能发出文本。工具是将这些文本输出转化为操作并将结果反馈回来的一切：循环、工具、内存、运行环境以及何时停止的规则。 代理之间的大多数差异是工具中的差异，而不是模型中的差异。 代理所在的位置  Web 代理（ChatGPT、Gemini、Claude）位于工具有限的浏览器选项卡中。适合一次性任务，无法访问您的实际环境。 本地代理（Claude Code、Cursor、Aider）拥有您的文件系统和终端。功能更强大，但与您的机器相关。 拥有预配环境的代理会在需要时获得一台新的虚拟机，只要任务需要就一直驻留在那里，并且可以在您睡觉时运行。  代理与自动化 人们将任何人工智能驱动的工作流程称为“代理”。通常情况并非如此。 自动化是固定的步骤序列。 LLM可能是其中的一个节点，但流程是预先绘制的。代理根据所看到的内容决定下一步做什么。它选择工具、对结果做出反应、重试、更改计划。两者都很有用，但它们不是同一件事。 工具和技能 工具是一种单一功能：发送电子邮件、查询数据库。技能是一个捆绑包：指令加上实现它们的工具，打包在一起以便代理可以学习特定的东西。由于技能主要是文档和脚本，因此它们可以跨工具移植，这就是技能市场开始出现的原因。 很高兴回答问题。   由   提交/u/uriwa   [链接] [评论]]]></description>
+      <description><![CDATA[单词“agent”被广泛使用，通常意味着非常不同的事情。这是一个简短的、固执己见的游览。 LLM + 工具 代理由两部分组成：LLM 和围绕它的工具。 LLM 读取上下文并生成下一步。它本身只能发出文本。工具是将这些文本输出转化为操作并将结果反馈回来的一切：循环、工具、内存、运行环境以及何时停止的规则。 代理之间的大多数差异是工具中的差异，而不是模型中的差异。 代理所在的位置  Web 代理（ChatGPT、Gemini、Claude）位于工具有限的浏览器选项卡中。适合一次性任务，无法访问您的实际环境。 本地代理（Claude Code、Cursor、Aider）拥有您的文件系统和终端。功能更强大，但与您的机器相关。 拥有预配环境的代理会在需要时获得一台新的虚拟机，只要任务需要就一直驻留在虚拟机中，并且可以在您睡觉时运行（例如，prompt2bot）  代理与自动化 人们将任何人工智能驱动的工作流程称为“代理”。通常情况并非如此。 自动化是固定的步骤序列。 LLM可能是其中的一个节点，但流程是预先绘制的。代理根据所看到的内容决定下一步做什么。它选择工具、对结果做出反应、重试、更改计划。两者都很有用，但它们不是同一件事。 工具和技能 工具是一种单一功能：发送电子邮件、查询数据库。技能是一个捆绑包：指令加上实现它们的工具，打包在一起以便代理可以学习特定的东西。由于技能主要是文档和脚本，因此它们可以跨工具移植，这就是技能市场开始出现的原因。 很高兴回答问题。   由   提交/u/uriwa   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tfcaae/llm_harness_what_an_agent_is_and_isnt/</guid>
       <pubDate>Sun, 17 May 2026 02:07:09 GMT</pubDate>
     </item>
@@ -60,13 +67,6 @@
       <description><![CDATA[ 由   提交 /u/Trick_Illustrator_31   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tfb4yp/antidetect_browsers_isp_proxydoes_not_look_good/</guid>
       <pubDate>Sun, 17 May 2026 01:12:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于完全相同的自动化，我开始向客户收取 2-3 倍的费用。方法如下</title>
-      <link>https://www.reddit.com/r/automation/comments/1tf4hao/i_started_charging_clients_23x_more_for_the_exact/</link>
-      <description><![CDATA[      500 美元的自动化和 2000 美元以上的自动化之间的区别主要在于表现形式。  我的大多数客户不仅仅希望自动化在后台运行，他们还希望看到它们的运行情况并与之交互。这本身就成为了一个特点。当自动化带来他们可以看到和触摸的东西时，客户支付的费用要高得多。感觉就像是他们拥有的产品而不是黑匣子。仅这一认识就使我每月的收费增加了大约 2000 美元。 我最初的方法都有致命的缺陷： Slack/Discord 机器人：对于简单的情况来说是干净的，但当客户需要除“回答是或否”之外的任何内容时，它崩溃了。不是为真正的交互而构建的。 自定义 Web 仪表板： 工作得很好，直到我在自动化之上维护一个完整的前端应用程序。部署、错误、托管。伪装成可交付成果的范围蔓延。 然后几周前，我找到了一个干净的解决方案来解决所有这些问题，它称为 Outerfaced。您对其进行 API 调用，它会为您的客户端创建一个实时可共享界面。没有托管，没有前端，完全免费。 您可以将所需的任何内容放入其中，例如文本、结构化数据、触发 webhook 的按钮、输入字段、通过自动化进行切换。客户获得托管链接，看到一个看起来专门为他们构建的干净的实时界面。 可能需要一个小时来熟悉 API，然后它就成为您交付自动化的默认方式。 如果有人好奇，很高兴分享典型设置的样子。 P.S.不确定我是否可以分享链接，所以你只需谷歌搜索“Outerfaced”，它应该会首先出现。 P.S.S.完全透明 - 我是 Outerfaced 的创建者。我最初创建 Outerfaced 作为我的机构的内部工具，以优化我们的工作流程。在让其他一些机构所有者尝试并看到他们的积极反应后，我认为许多其他人也会从中受益，所以我将其公开，并且对所有人 100% 免费（目前：P）。享受吧！   由   提交/u/Potential_Milk_23   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1tf4hao/i_started_charging_clients_23x_more_for_the_exact/</guid>
-      <pubDate>Sat, 16 May 2026 20:21:35 GMT</pubDate>
     </item>
     <item>
       <title>收费多少</title>
