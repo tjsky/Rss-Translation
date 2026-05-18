@@ -4,7 +4,98 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 18 May 2026 12:25:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 22:01:25 GMT</lastBuildDate>
+    <item>
+      <title>老开发人员想在休假 4 年后回来。有什么机会？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1th22ph/old_dev_wants_to_get_back_after_4_year_layoff/</link>
+      <description><![CDATA[在 SQL、.Net、Angular 行业工作约 14 年。前MCSD。 70多岁了。温习一下我错过的内容并跳回游戏有什么意义吗？   由   提交/u/Wide_Web_579  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1th22ph/old_dev_wants_to_get_back_after_4_year_layoff/</guid>
+      <pubDate>Mon, 18 May 2026 21:34:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>完全非人类的网络：没有人构建页面，没有人访问它</title>
+      <link>https://www.reddit.com/r/webdev/comments/1th1lkl/the_fully_nonhuman_web_no_one_builds_the_page_no/</link>
+      <description><![CDATA[   /u/esiy0676  [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1th1lkl/the_fully_nonhuman_web_no_one_builds_the_page_no/</guid>
+      <pubDate>Mon, 18 May 2026 21:17:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>哪个会话重播工具适合每日访问量 3 万的独立开发团队？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1th15a3/which_session_replay_tool_for_indie_dev_team_with/</link>
+      <description><![CDATA[我有一个网站，有 30k 访问量和 1k 活跃用户（每月大约 38k 会话），我想记录大部分会话。我知道 MS Clarity 存在并且是免费的，但他们的仪表板很糟糕，而且非常基础。除了基本过滤器之外，无法过滤或搜索某些会话。我也不想通过抽取除机器人之外的用户来进行妥协。我在使用 MS Clarity 时发现了很多这种心态的好问题，但它使用起来非常烦人而且速度很慢。微软对 MS 清晰度的开发也非常缓慢，这意味着新功能几乎没有出现，所以我认为要过一段时间才会添加满足我需求的功能请求。 我从我的研究中得到了这些会话重放工具：  Posthog  优点：很棒的工具选择，几乎拥有一切，以及高级仪表板过滤。每个人都在谈论它们。 缺点：仪表板充满了随机的东西，我不会使用其中的 60%，对于 30k 会话重放来说非常昂贵（甚至不考虑他们收费的事件和其他基于使用的东西）  Sentry  优点：最先进的错误跟踪、高级仪表板过滤、会话重放的准确性是一流的 缺点：最昂贵的之一会话重放工具；错误多于行为  幅度： 优点：漏斗，有利于理解用户行为，基于事件的高级过滤。 缺点：会话重播被视为附加内容，而不是主要内容。比 posthog 贵，但比哨兵便宜。更多企业关注。  LogRocket： 优点：仪表板非常好，良好的错误/网络跟踪。 缺点：昂贵的会话重放，比一般产品分析更注重调试  Rejourney： 优点：仪表板易于理解，比 Posthog 便宜得多，工具相对先进，会话重放是主要内容产品。他们将会话重播视为具有行和列的数据库，因此非常容易过滤。 缺点：Web SDK 处于测试阶段，移动重播是他们的主要关注点。  Smartlook  优点：高漏斗焦点，通过功能区旅程实现的最佳重播过滤之一。 缺点：太贵了。他们的付费套餐是 Posthog 和 Rejourney 的免费套餐。更多地关注企业。   您认为还有其他最有效的工具吗？正如您可能会说的那样，我更像是一名独立开发人员，因此我不是在寻找企业工具或企业定价。也不打算通过自我托管。 编辑：标题说每天 3 万次访问，我的意思是每月...3 万/天，我希望哈哈   由   提交 /u/EmergencyRadiant8038   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1th15a3/which_session_replay_tool_for_indie_dev_team_with/</guid>
+      <pubDate>Mon, 18 May 2026 21:01:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta 未通过 Graph API 提供完全访问权限</title>
+      <link>https://www.reddit.com/r/webdev/comments/1th0cyr/meta_not_giving_full_access_through_graph_api/</link>
+      <description><![CDATA[      尝试使用 Graph API 从我在 Instagram 上的所有 31 篇帖子中获取数据。它是一个公共创建者页面，已链接到 Facebook 页面。  它有效，但仅适用于 7 个帖子。始终是相同的 7 个帖子，它们之间没有共同特征：不连续，文件类型不同，什么都没有。克劳德告诉我，他们可能是最近接触过的 7 个。我拥有 Graph API 工具的所有重要权限：  pages_show_list business_management instagram_basic instagram_manage_comments instagram_manage_insights pages_read_engagement instagram_manage_contents  但它总是不会给我超过 7 个。我没有尝试解决此问题：限制我获取的指标，或按时间戳过滤，或直接通过 developers.facebook.com 上的浏览​​器站点查询，什么也没有。这是一个固有的限制还是我做错了什么？   由   提交/u/Adventurous_Tax659   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1th0cyr/meta_not_giving_full_access_through_graph_api/</guid>
+      <pubDate>Mon, 18 May 2026 20:34:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>浏览器以不同的方式对待大网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgyp7p/browsers_treat_big_sites_differently/</link>
+      <description><![CDATA[       由   提交/u/stefanjudis   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgyp7p/browsers_treat_big_sites_differently/</guid>
+      <pubDate>Mon, 18 May 2026 19:39:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>有哪些公司的管理层对人工智能持理智、务实的态度？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgxsmv/any_companies_with_management_with_sane/</link>
+      <description><![CDATA[我什至不会费心去问是否在任何其他公司都相反，而直到现在，他们一直尊重你作为开发人员，现在有了人工智能，他们突然有了更高的期望，并期望你以 10 倍的速度开发所有东西（包括预先存在的代码库）......不过，如果你正在经历这种情况并且想要发泄出来，请随意写下。 我实际上想问如果有（以及这种情况有多普遍）公司意识到人工智能，他们肯定会鼓励使用，甚至高度使用它，但同时要明白...  使用预先存在的代码库，你无法用人工智能快速开发，因为你需要确保现有的行为仍然有效。 你需要大量监督人工智能，因为即使它编写的代码可以工作并且经过测试，它也很难可读，有很多重复的内容代码，从长远来看，无论有没有人工智能，管理都会变得越来越困难。 人工智能是容易犯错的，所以人们不应该依赖/痴迷于它的输出，管理层也不应该要求将阳光下的一切都交给人工智能来总结并试图为你找到解决方案。 人工智能 LLM 输出是“显而易见的”即使是在同事之间，发送起来也有些粗鲁。  也许我在这个领域工作了 15 年，对 Web 开发应该如何与人工智能工具一起工作做出了很多假设。但我真的很想知道你对这些事情的想法。 还要注意的是，我不是一个严肃的纯粹主义者，甚至不接触人工智能，认为它违背了“艺术”。编程的。我一直在 Jetbrains IDE 中使用 Cursor，事实上，我比尝试手动编码更频繁地使用它；尽管我检查了代理所写的内容，并且我不让它运行“git add”或“git commit”。   由   提交/u/amcsi  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgxsmv/any_companies_with_management_with_sane/</guid>
+      <pubDate>Mon, 18 May 2026 19:14:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>TYPO3 9.5：博客（tx_t3blog）与电视分开，编辑感到震惊。需要一个中间件层克劳德→审核→导入。计划将来迁移到TYPO3 v13</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgwd5p/typo3_95_blog_tx_t3blog_is_separate_from_tv/</link>
+      <description><![CDATA[嗨r/webdev， 设置：  TYPO3 9.5 主站点（页眉、导航、内容、页脚、联系表单）- 构建TemplaVoila 博客 (tx_t3blog) - 独立存在，与电视无关 博客内容通过现有导入器导入到博客中（从内容生成器提取数据）  新挑战： 我需要将 Claude 插入管道：内容生成器 → Claude （增强）→ 编辑器（审阅和编辑）→ 现有导入器→ tx_t3blog 编辑器绝不能看到 TYPO3 后端（尤其是电视部分）。 我需要什么： 一个简单的独立 Web 中间件，供编辑器使用，他们可以在其中看到：  原始文本（来自生成器） Claude 的增强版 最终可编辑文本  还有一个按钮：“批准并生成”。发送到博客” 重要提示：我们计划最终迁移到 TYPO3 v13。我希望这个中间件不与遗留的东西联系在一起，并且易于继承。 问题： 构建这个中间件的最简单方法是什么，以便：  编辑器从不接触 TYPO3 TV 保持不变 现有导入器不会破坏  它可以轻松迁移到v13 以后？ 我应该如何将最终文本传递给现有导入器？它当前从内容生成器中提取数据。我如何通过方法调用从 Claude + 编辑器向其提供数据？临时表？文件？ 考虑到未来的 v13 迁移 - 我现在应该以某种中性格式（JSON、单独的表）存储已批准的文章，以便我可以在迁移过程中获取它们吗？还是对当前任务的过度设计？ 感谢您的任何建议。不碰电视，不重写博客。只需要在克劳德、编辑和进口商之间架起一座干净的桥梁——着眼于未来。   由   提交 /u/Efficient_South_6399   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgwd5p/typo3_95_blog_tx_t3blog_is_separate_from_tv/</guid>
+      <pubDate>Mon, 18 May 2026 18:35:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何创建表单来捕获客户反馈并捕获链接到工作订单的自定义订单中的信息</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgvu0f/how_to_create_a_form_to_capture_customer_feedback/</link>
+      <description><![CDATA[需要帮助   由   提交 /u/Idiotic_spell   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgvu0f/how_to_create_a_form_to_capture_customer_feedback/</guid>
+      <pubDate>Mon, 18 May 2026 18:20:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>这种学习方法怎么样？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgtmxi/how_about_this_study_approach/</link>
+      <description><![CDATA[我最近完成了 Angela Yu 的全栈 Web 开发训练营。我认为这对于从头开始的人来说是一个很好的介绍，但有些主题，尤其是 React，感觉相当基础。 我的目标是构建自己的产品，甚至创办一家初创公司。因此，我正在考虑深入研究 React，学习 Next.js、TypeScript、测试和部署。 我的问题是：  对于想要构建完整产品的人来说，这些真的是最重要的下一个主题吗？ Full Stack Open 是一个不错的下一步，还是您会推荐另一门课程？ 要将 React 连接到后端和数据库，通常使用 Fetch 或Axios 使用 API？在这种情况下，与 React 一起使用时，Next.js 通常比 Express 更有优势吗？    由   提交 /u/Reasonable_Ninja6455   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgtmxi/how_about_this_study_approach/</guid>
+      <pubDate>Mon, 18 May 2026 17:27:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI Slop、明显的营销、网络论坛和你。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgruh9/ai_slop_obvious_marketing_web_forums_and_you/</link>
+      <description><![CDATA[所以我最近在多个 reddit 中注意到了一种模式。有些比其他更糟糕。有人会发布一些人工智能生成的帖子或半明显或嵌入的自我推销内容。讨论开始了，其中一些内容是合理的，尽管原始帖子没有或稍微违反了规则。模组们做了他们应该做的事情并摧毁了这个线程。现在，线程中的任何讨论或有用信息都消失了。  现在我不是要求一个具体的解决方案，我也不确定是否有一个解决方案（我唯一能想到的是锁定而不是删除特定的讨论阈值），但它对游戏开放。问题是，所有这些都是对游戏开放的，在线社区需要一种方法来保留有用的内容，同时仍然保护自己。我有点傻，很多删除我都没有注意到，这感觉很糟糕，但它仍然是同样的问题，因为人工智能越来越好的本质，越来越多有用的讨论将出现在我正在谈论的帖子中。  我猜你们怎么想？   由   提交/u/frogic  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgruh9/ai_slop_obvious_marketing_web_forums_and_you/</guid>
+      <pubDate>Mon, 18 May 2026 16:29:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人通过加密货币获得报酬吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgphry/anyone_getting_paid_by_crypto/</link>
+      <description><![CDATA[计划接受来自世界各地的客户的加密付款。 有什么建议吗？    由   提交 /u/East-Armadillo-1166   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgphry/anyone_getting_paid_by_crypto/</guid>
+      <pubDate>Mon, 18 May 2026 15:09:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个爬虫来检查导航标签是否与页面内容匹配 - 寻找技术反馈</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgpav3/i_built_a_crawler_that_checks_whether_nav_labels/</link>
+      <description><![CDATA[我正在测试一个小型网络质量检查想法，希望获得技术反馈。 大多数工具都会检查损坏的链接、SEO、Lighthouse 分数或可访问性等内容。 我想检查一些不同的内容： 当用户单击导航项时，目标页面是否确实与标签匹配？ 示例： - “日历”可能应该包含日历/日期/事件相关的 UI -“账单”可能应该包含发票、计划、付款方式或账单历史记录 -“员工”可能应该包含员工记录、角色、状态或联系方式 -“文档”可能应该包含文件、文件夹、上传/下载操作等。 所以我构建了 TemplateQA。 它抓取网站导航，扫描最多 10 个同域页面，提取标题/按钮/表单/表格/文本，然后使用 AI 将每个页面分类为： - 好 - 弱 - 损坏 - 重复 它还会为每个弱/损坏页面生成建议的修复提示。 免费 v1： https://template-qa.vercel.app/ 我正在寻找有关该方法的 sp,e amswers：  将导航标签与页面内容进行比较实际上有用吗？ 什么边缘情况会使这种方法不可靠？ 您会在启动前质量检查或客户交接？ 您希望报告显示什么内容才能使其值得信赖？    由   提交/u/TacticianTFT   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgpav3/i_built_a_crawler_that_checks_whether_nav_labels/</guid>
+      <pubDate>Mon, 18 May 2026 15:02:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Next.js 遭到破坏；我如何适应最近的网络开发安全形势。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tgmlj1/nextjs_got_wrekt_how_im_adapting_to_recent_web/</link>
+      <description><![CDATA[就个人而言 -- 我已经不再使用框架了。我已经改变了我的堆栈（希望）能给我完全的可见性和控制力。我最近的构建方式绝对是对老派的颂歌。 我一直很喜欢——Go、Gomponents、http/net、redis、postrgreql，具有渐进增强策略和非常防御性的编程。 我不相信任何魔法，也不认为“它更容易”。值得了。你不同意吗？您正在使用什么进行构建，最近是否遇到过恐慌时刻？ https://www.youtube.com/watch?v=y5tlwWVYPek   由   提交 /u/StrictWelder   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tgmlj1/nextjs_got_wrekt_how_im_adapting_to_recent_web/</guid>
+      <pubDate>Mon, 18 May 2026 13:25:47 GMT</pubDate>
+    </item>
     <item>
       <title>浏览器选项卡中类似 Linux 的内核 - 深入探讨 BrowserPod 架构</title>
       <link>https://www.reddit.com/r/webdev/comments/1tgknp4/a_linuxlike_kernel_in_a_browser_tab_deep_dive_in/</link>
@@ -18,97 +109,6 @@
       <description><![CDATA[亲爱的网络开发人员，您好！想问一下你们的电子邮件发送服务是什么？目前使用 Sendgrid(Twillio)，无法准确解释我的感受。听说了一些关于 Resend 的好消息   由   提交/u/Greedy-University-79   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tgj42p/email_sender_services/</guid>
       <pubDate>Mon, 18 May 2026 10:59:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>我已经厌倦了使用 Shopify/Webflow/Woo 进行客户端构建。有人找到更好的东西了吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgihui/im_so_done_with_shopifywebflowwoo_for_client/</link>
-      <description><![CDATA[咆哮传入。我经营一家小型电子商务机构（只有我+一名开发人员+一名设计师），我对当前的选择失去了理智。 Shopify：我建立了一个漂亮的商店，将其移交给客户，客户会说“酷，谢谢，我们将从这里管理它。” 20%的合伙人佣金也是个笑话？我需要 600 多个推荐客户才能使这一目标变得有意义。与此同时，Shopify 的品牌无处不在，客户在下次网站更新时忘记了我的存在。  Webflow： 在一个月内达到 CMS 限制。老实说，这不是电子商务的最佳选择。这对于登陆页面等营销网站来说很好，但当你尝试对产品做任何实际的事情时，它就会崩溃。 WooCommerce：插件更新轮盘赌。周六凌晨 2 点，主题在结帐时中断，客户尖叫，我正在免费调试别人的意大利面条代码，因为“它昨天还可以工作”。当然，我开始收取维护费，但这对于花很少的钱来说太方便了。  Duda：尝试过白标角度。然后他们在零警告的情况下提高了每个站点的定价。而且布局系统是如此严格，你无法做任何看起来实际上是定制的事情。而且他们的商业功能充其量只是中等。 --- 我真正想要的是：我可以将我的品牌放在上面，保持运营控制，并真正建立经常性收入，而不是一劳永逸的项目费用。基本上，我控制的基础设施不会让我看起来像别人平台的经销商。 有人找到适合这个的东西吗？   - 理想情况下是由独立黑客或真正关心的小团队构建的东西。  -我并不是在寻找另一个由风险投资资助的平台，该平台将在两年内变得更加强大，并且只会考虑股东价值。   - 预算也很友好。我不想为 3 人代理机构支付企业定价。 接受奇怪的答案。自托管、无头、白标等等。我厌倦了每次交付项目时都感觉自己在打造别人的品牌。   由   提交/u/khalilliouane  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgihui/im_so_done_with_shopifywebflowwoo_for_client/</guid>
-      <pubDate>Mon, 18 May 2026 10:29:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何跟踪扩展程序的免费试用？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgi8rb/how_do_you_keep_track_of_free_trials_on_extensions/</link>
-      <description><![CDATA[我要求用户在安装我的扩展程序后登录，以便我可以启动 30 天的试用期，但我相信必须登录才能使用/探索他们刚刚安装的东西的这种摩擦会导致人们放弃。 我不确定纯本地的东西是否有效，因为删除扩展程序时所有本地存储都会被擦除，因此他们只需删除并重新安装扩展程序即可获得另外 30 天的试用期。 有办法解决这个问题吗？   由   提交 /u/abimon123   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgi8rb/how_do_you_keep_track_of_free_trials_on_extensions/</guid>
-      <pubDate>Mon, 18 May 2026 10:16:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>iOS Safari：以网络表单拍摄多张照片不断取代第一张照片</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tghpp6/ios_safari_taking_multiple_photos_in_a_web_form/</link>
-      <description><![CDATA[在我的网站上，我有一个表单，用户必须在其中上传一些照片（例如：正面照片、侧面照片、文档照片）。 在 iPhone (Safari) 上，如果我： 点击第一个上传按钮 → 选择“拍照”→ 拍摄并确认照片 然后点击第二个上传按钮 → 再次选择“拍照”→ 拍摄并确认另一张照片图片 当我提交表单时，第二张照片似乎取代了第一张照片，而不是两张不同的照片。在桌面浏览器上它工作正常，这只发生在 iOS Safari 上。 以前有人见过这个吗？这是一个已知的 iOS Safari 错误还是有一个简单的解决方法（例如以不同的方式处理 Web 表单中的多张照片）？   由   提交/u/RKO_NOORDEEN   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tghpp6/ios_safari_taking_multiple_photos_in_a_web_form/</guid>
-      <pubDate>Mon, 18 May 2026 09:48:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vibed 这个小发票工具。现在怎么办？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tggt8y/vibed_this_small_invoicing_tool_now_what/</link>
-      <description><![CDATA[在网络应用程序上花了很长时间查看了一些现有的示例，这些示例只是使其更加用户友好，并添加了一些通常限制在付费墙内的功能。 说实话，我真的不介意走 SaaS 路线。根据 cloudflare 的数据，每天获得约 200 次点击。 你们对刚刚失去动力的现有应用做了什么？   由   提交 /u/TemporaryLevel922   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tggt8y/vibed_this_small_invoicing_tool_now_what/</guid>
-      <pubDate>Mon, 18 May 2026 08:57:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>开始学习 Docker - 已完成大约 50% 并且喜欢这个过程！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tge5p1/started_learning_docker_around_50_done_and_loving/</link>
-      <description><![CDATA[      给我一​​些建议和建议   由   提交/u/Chandan__0002  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tge5p1/started_learning_docker_around_50_done_and_loving/</guid>
-      <pubDate>Mon, 18 May 2026 06:27:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>人类代码审查已死</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgdzb8/human_code_reviews_are_dead/</link>
-      <description><![CDATA[       由   提交/u/rag1987  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgdzb8/human_code_reviews_are_dead/</guid>
-      <pubDate>Mon, 18 May 2026 06:17:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>JioFiber 是否会阻止或破坏印度的 Railway.app PaaS DNS 解析？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgd4ks/is_jiofiber_blocking_or_breaking_railwayapp_paas/</link>
-      <description><![CDATA[      我今天在铁路部署中遇到了一个奇怪的问题，经过几个小时的调试后，看起来问题实际上可能是 JioFiber DNS。 我的应用程序域： `https://Z****i-production.up.railway.app` 问题： * Railway 仪表板显示域正确 * 部署正常 * 公共 DNS 解析器工作 * 但 JioFiber 上的浏览器 + 系统 DNS 失败 此失败： ```powershell nslookup Z****i-production.up.railway.app ``` 输出： ```powershell *** reliance.reliance 找不到 Z****i-Production.up.railway.app：查询被拒绝 ``` 但是这些工作完美： ```powershell nslookup Z****i-Production.up.railway.app 1.1.1.1 nslookup Z****i-Production.up.railway.app 8.8.8.8 ``` 两者都正确解析为铁路 IP。 第二次我启用 Cloudflare WARP 时，一切立即开始工作。 所以现在我想知道： * JioFiber 是否过滤/阻止铁路域？ * 这是 Reliance DNS 上的 IPv6 解析器问题吗？ * 铁路的 DNS 传播吗与某些印度 ISP 不兼容？ * 还有其他人在使用 Railway.app、Vercel、Render、Fly.io 等时遇到此问题吗？ 很想知道印度的其他人是否也遇到同样的问题。 更新：还通过屏幕截图、PowerShell DNS 测试和 X/Twitter 上的网络比较记录了该问题： https://x.com/frpboy/status/2056270368458121371?s=20 如果 JioFiber + Railway 上的其他人可以测试并确认他们是否看到相同的行为，将会很有帮助。   由   提交/u/Dazzling_Kangaroo_69   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgd4ks/is_jiofiber_blocking_or_breaking_railwayapp_paas/</guid>
-      <pubDate>Mon, 18 May 2026 05:32:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>嘿！我很抱歉也不好意思问这个问题，但如果您愿意为任何空缺的 APM/PM 职位提供工作推荐，请私信我。非常迫切地寻找 APM 工作。 🙏🏻</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgc4t1/hey_im_sorry_and_embarrassed_to_ask_this_but_if/</link>
-      <description><![CDATA[刚刚完成二级学院的 MBA 课程，急需尽快寻找 AssociatePM 职位。有人愿意为我提供 Associate ProdMan 职位的推荐和/或线索吗？ 伙计们，距离我完成产品管理和产品管理 MBA 课程已经三周了。业务分析，说实话，寻找工作的压力越来越大。  我有不错的个人资料，包括 B2B 客户交付背景、共同创办 B2C 初创公司、独立构建 AI 产品（面试教练（PayPal 旗下）、临床副驾驶、自动化代理）。  我很有能力，我知道我能胜任这份工作；我只需要射击。如果您所在的公司正在招聘 APM，或者您认识可能会招聘 APM 的人，请私信我。我会立即把我的简历投过去。  说真的，任何线索都有帮助。 🙏  提前谢谢大家！   由   提交/u/krakakhed712   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgc4t1/hey_im_sorry_and_embarrassed_to_ask_this_but_if/</guid>
-      <pubDate>Mon, 18 May 2026 04:42:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>迷失并寻求帮助。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgbrdd/lost_and_seeking_help/</link>
-      <description><![CDATA[我是前端开发新手。我已经学习了 GSAP 和 Three.js 的基础知识，并且还尝试过使用着色器。 现在我想开始自己构建项目，但我不知道如何继续。每当我试图思考构建什么或如何分解东西时，我就是想不出任何东西。 感觉我在学习时过于依赖教程，结果变成了这样。 我觉得我现在可能无法自己创建项目，我感觉有点失落。 有人可以帮助我吗？我该怎么办？   由   提交 /u/Stock-Scallion2271   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgbrdd/lost_and_seeking_help/</guid>
-      <pubDate>Mon, 18 May 2026 04:23:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>告诉我值得吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgbbp1/tell_me_its_worth_it/</link>
-      <description><![CDATA[      有人告诉我，我这样做的方式是正确的，这比“我告诉克劳德给我做一个超级酷的网站，拥有所有最新的 React 功能，然后把它卖给当地企业，赚了 20000 美元，现在和女性一起参加派对”要好。社交媒体帖子。    由   提交/u/roylost1129  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgbbp1/tell_me_its_worth_it/</guid>
-      <pubDate>Mon, 18 May 2026 04:02:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>我停止构建“WordPress 网站”并开始构建 API 优先后端</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgager/i_stopped_building_wordpress_sites_and_started/</link>
-      <description><![CDATA[我一直在重新思考作为一名独立开发人员如何构建 WordPress 项目，我很好奇这里的其他人是如何实现这一目标的。 上下文： 我为动物收容所和救援建立网站。最初，我正在构建传统的 WordPress 网站，其主题与后端紧密耦合。我构建的项目越多，我就越发现同样的问题： * 后端逻辑基本保持不变 * 前端需求不断变化 * 每次重新设计都会成为部分重建 因此，我开始尝试将 WordPress 视为一个应用程序后端，而不是“网站”。 当前架构： * TrueNAS 服务器 * Docker + Docker在监狱内撰写 * 一个用于路由的全局 Traefik 实例 * 每个项目都隔离在自己的存储库 + 撰写堆栈中 * VS Code 从我的 Mac 远程 SSH（在家 + 通过 Tailscale 随时随地） * WordPress 充当无头/API 优先后端 * React/Next.js 前端使用自定义 REST API 而不是公开原始数据WP post结构，我正在构建一个专用的API层： /wp-json/shelter/v1/animals /wp-json/shelter/v1/animals/{id} 该插件包含： * CPT + 分类 * 生命周期/业务逻辑 * 转换器/视图模型 * 查询层 * REST 控制器 前端仅使用稳定的 JSON 合约。 这意味着： * 我可以在不接触后端逻辑的情况下交换前端 * 为同一个后端构建多个前端设计 * 最终将插件发展为 SaaS/API 产品 我现在也在积极地分离存储库： ```txt /workspace/projects/ ├──animal-shelter-plugin/ ├──shell-backend/ ├──shell-next-frontend/ ├──client-a/ └──client-b/ ``` 可重用插件独立于客户端项目。 最令我惊讶的是： 一旦你不再将其视为渲染引擎并开始将其视为基础设施，WordPress 实际上会变得更加干净。 好奇： * 这里的其他人也是这样使用 WP 的吗？ * 你是如何构建多项目 Docker 开发环境的？ * 你会保持 REST 优先还是立即转向 WPGraphQL？ * 在使用 WordPress 时，您遇到过 API 优先的任何重大陷阱吗？ 真诚地希望得到这条道路上的人们的反馈。   由   提交 /u/Ok-Nerve7307   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgager/i_stopped_building_wordpress_sites_and_started/</guid>
-      <pubDate>Mon, 18 May 2026 03:20:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>你们在后端监控哪些核心指标？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tg4d1f/what_core_metrics_do_you_guys_monitor_in_the/</link>
-      <description><![CDATA[嗨，我正在研究后端，你们在 Datadog、Grafana 等中监控哪些核心指标？比如端点的速度、死锁等？   由   提交 /u/badboyzpwns   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tg4d1f/what_core_metrics_do_you_guys_monitor_in_the/</guid>
-      <pubDate>Sun, 17 May 2026 22:46:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>实现成为全栈 Web 开发人员的梦想的下一步是什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tg25i2/what_are_the_next_steps_toward_the_dream_of/</link>
-      <description><![CDATA[我最近在 Udemy 上完成了 Angela Yu 的全栈 Web 开发训练营。我认为这对于从头开始的人来说是一门很好的课程，这正是我的情况。 在整个课程中，我了解了以下技术和概念：HTML、CSS、Flexbox、Grid、Bootstrap、JavaScript、DOM、jQuery、Unix 命令行、Node.js、Express、EJS、Git 和 GitHub、REST API、SQL、PostgreSQL、身份验证和安全性 — 包括使用 bcrypt、Google OAuth、会话和 cookie 进行哈希和加盐 —最后是 React。 我已经利用从训练营获得的知识成功构建了一些自己的项目，但我想继续学习和进步。我相信课程中涵盖的大部分内容都停留在初级和中级水平之间。尤其是 React，我觉得这种方法更具介绍性。 这一点变得更加明显，因为训练营没有深入解释如何将 React 与课程中涵盖的其他技术集成，例如 Node.js/Express 后端、REST API 和 PostgreSQL 数据库。 无论如何，我想在学习中不断进步。我打算更多地了解 React、Next.js（这似乎与 React 一起很有意义）以及测试和部署。我的目标是获得构思和开发完整 Web 应用程序的能力，从最初的想法一直到在云中的生产环境中运行它。 我的问题如下：  为了实现掌握使用 React、Next.js、测试和部署进行全栈开发的目标，我的下一步可能是什么？参加全栈开放、学习几门前端大师课程或走另一条路会更值得吗？我愿意接受建议。 我对如何使用我在训练营中获得的知识来实现​​全栈应用程序有疑问：React + Node.js + Express + PostgreSQL。前端使用React时，后端如何与前端通信？我是否需要知道如何使用 React 中的 Fetch API 来处理与 Express/Node.js 中内置的 API 的通信？我的印象是训练营中缺少这部分。    由   提交 /u/Reasonable_Ninja6455   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tg25i2/what_are_the_next_steps_toward_the_dream_of/</guid>
-      <pubDate>Sun, 17 May 2026 21:17:59 GMT</pubDate>
     </item>
     </channel>
 </rss>

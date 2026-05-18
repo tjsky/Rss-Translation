@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 18 May 2026 19:42:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 22:00:54 GMT</lastBuildDate>
+    <item>
+      <title>对象存储的事务使用协议</title>
+      <link>https://www.reddit.com/r/programming/comments/1th2cav/protocols_for_transactional_usage_of_object/</link>
+      <description><![CDATA[ 由   提交 /u/NoPercentage6144   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1th2cav/protocols_for_transactional_usage_of_object/</guid>
+      <pubDate>Mon, 18 May 2026 21:43:34 GMT</pubDate>
+    </item>
     <item>
       <title>融合建模技术以获取乐趣和利润</title>
       <link>https://www.reddit.com/r/programming/comments/1tgterl/on_mashing_up_modelling_techniques_for_fun_and/</link>
@@ -76,7 +83,7 @@
       <pubDate>Sun, 17 May 2026 20:54:47 GMT</pubDate>
     </item>
     <item>
-      <title>使用 systemfd 将编译日志通过管道传送到浏览器</title>
+      <title>使用 systemfd 将编译日志通过管道传输到浏览器</title>
       <link>https://www.reddit.com/r/programming/comments/1tfspif/piping_compilation_logs_to_the_browser_using/</link>
       <description><![CDATA[嘿伙计们，我想分享一个有趣的技巧，我为了解决日常烦恼而组合在一起。 在开发编译后端（在我的例子中为 Rust）时，等待服务器重建通常意味着盯着挂起的浏览器选项卡或“连接被拒绝”的提示。如果刷新太早，则会出现错误。 为了解决此问题，我使用 systemfd 设置了一个开发循环，以在重新启动之间保持侦听套接字打开。当编译器运行时，我使用 socat 劫持该套接字，并通过 HTTP/1.1 流响应和 xterm.js 将原始终端构建日志直接流式传输到浏览器。 一旦构建成功，页面就会顺利过渡到实际的 Web 应用程序。 它与语言无关，并且完全消除了空白页面停机时间。我很想听听您的想法，或者是否有其他人构建了类似的开发循环！   由   提交 /u/izissise   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tfspif/piping_compilation_logs_to_the_browser_using/</guid>
@@ -102,13 +109,6 @@
       <description><![CDATA[ 由   提交/u/f311a  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tfmqyx/pypi_packages_are_increasing_rapidly/</guid>
       <pubDate>Sun, 17 May 2026 11:21:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>从第一原理开始的事件循环及其如何为连接池提供支持</title>
-      <link>https://www.reddit.com/r/programming/comments/1tfk6ec/event_loop_from_first_principles_andhow_it_powers/</link>
-      <description><![CDATA[ 由   提交/u/Playful_Chain_1809   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tfk6ec/event_loop_from_first_principles_andhow_it_powers/</guid>
-      <pubDate>Sun, 17 May 2026 09:01:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
