@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 18 May 2026 02:50:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 06:54:00 GMT</lastBuildDate>
+    <item>
+      <title>我的文字游戏中的弹簧物理？ SvelteJS 中高级 CSS 动画的探索</title>
+      <link>https://www.reddit.com/r/programming/comments/1tgd8qh/spring_physics_in_my_word_game_an_exploration_of/</link>
+      <description><![CDATA[ 由   提交/u/jessecoleman  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tgd8qh/spring_physics_in_my_word_game_an_exploration_of/</guid>
+      <pubDate>Mon, 18 May 2026 05:38:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>支持 ANSI、MySQL、PostgreSQL 和 SQLite 的 SQL 格式化程序 — 所有客户端</title>
+      <link>https://www.reddit.com/r/programming/comments/1tgbt65/a_sql_formatter_that_supports_ansi_mysql/</link>
+      <description><![CDATA[刚刚向 DevCap SQL 格式化程序添加了 PostgreSQL 和 SQLite 方言支持。 粘贴任何原始 SQL 查询 → 获得美化的、正确缩进的输出。 支持： → ANSI SQL → MySQL → PostgreSQL → SQLite 它是客户端，因此不会记录或存储任何内容。 链接：https://www.devcap.tools/sql 无需注册。没有广告。永远免费。   由   提交/u/PsychologicalEgg3587  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tgbt65/a_sql_formatter_that_supports_ansi_mysql/</guid>
+      <pubDate>Mon, 18 May 2026 04:25:54 GMT</pubDate>
+    </item>
     <item>
       <title>2026 年的 Bun.js 中间件：它是什么，它是如何工作的，如何优化它，以及在哪里不破坏你的 API</title>
       <link>https://www.reddit.com/r/programming/comments/1tg4vsv/bunjs_middleware_in_2026_what_it_is_how_it_works/</link>
@@ -27,7 +41,7 @@
       <pubDate>Sun, 17 May 2026 20:54:47 GMT</pubDate>
     </item>
     <item>
-      <title>使用 systemfd 将编译日志通过管道传输到浏览器</title>
+      <title>使用 systemfd 将编译日志通过管道传送到浏览器</title>
       <link>https://www.reddit.com/r/programming/comments/1tfspif/piping_compilation_logs_to_the_browser_using/</link>
       <description><![CDATA[嘿伙计们，我想分享一个有趣的技巧，我为了解决日常烦恼而组合在一起。 在开发编译后端（在我的例子中为 Rust）时，等待服务器重建通常意味着盯着挂起的浏览器选项卡或“连接被拒绝”的提示。如果刷新太早，则会出现错误。 为了解决此问题，我使用 systemfd 设置了一个开发循环，以在重新启动之间保持侦听套接字打开。当编译器运行时，我使用 socat 劫持该套接字，并通过 HTTP/1.1 流响应和 xterm.js 将原始终端构建日志直接流式传输到浏览器。 一旦构建成功，页面就会顺利过渡到实际的 Web 应用程序。 它与语言无关，并且完全消除了空白页面停机时间。我很想听听您的想法，或者是否有其他人构建了类似的开发循环！   由   提交 /u/izissise   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tfspif/piping_compilation_logs_to_the_browser_using/</guid>
@@ -62,7 +76,7 @@
       <pubDate>Sun, 17 May 2026 09:01:05 GMT</pubDate>
     </item>
     <item>
-      <title>工程师回答 Rust 问题 | “编译时间”？</title>
+      <title>工程师解答 Rust 问题 | “编译时间”？</title>
       <link>https://www.reddit.com/r/programming/comments/1tfd76l/engineer_answers_rust_questions_compile_time/</link>
       <description><![CDATA[主要是为了好玩，但可能对来自 Javascript、Python 等的人有用。   由   提交/u/rustcurious  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tfd76l/engineer_answers_rust_questions_compile_time/</guid>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tf77u2/lies_i_was_told_about_collaborative_editing_part/</guid>
       <pubDate>Sat, 16 May 2026 22:15:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>在现代主机上交叉编译 MINIX 1.1（ANSI 之前的版本、K&R C）</title>
-      <link>https://www.reddit.com/r/programming/comments/1tf6qef/crosscompiling_minix_11_on_a_modern_host_preansi/</link>
-      <description><![CDATA[ 由   提交 /u/Kq9gE8MNWZ7m   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tf6qef/crosscompiling_minix_11_on_a_modern_host_preansi/</guid>
-      <pubDate>Sat, 16 May 2026 21:54:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google 零计划：Pixel 10 的零点击漏洞利用链：当门关闭时，窗户打开</title>
-      <link>https://www.reddit.com/r/programming/comments/1tf42e3/google_project_zero_a_0click_exploit_chain_for/</link>
-      <description><![CDATA[ 由   提交/u/CircumspectCapybara  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tf42e3/google_project_zero_a_0click_exploit_chain_for/</guid>
-      <pubDate>Sat, 16 May 2026 20:05:21 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,9 +4,30 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Mon, 18 May 2026 02:48:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 06:52:41 GMT</lastBuildDate>
     <item>
-      <title>YouTube 正在将其 AI Deepfake 检测工具扩展到所有成人用户</title>
+      <title>Osaurus 将本地和云端 AI 模型带到您的 Mac 上</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tgdk1c/osaurus_brings_both_local_and_cloud_ai_models_to/</link>
+      <description><![CDATA[Apple 专用的 MCP 兼容服务器，允许用户在本地托管模型（MiniMax M2.5、Gemma 4、Qwen3.6、GPT-OSS、Llama、DeepSeek V4 以及 Apple 和 Liquid AI 设备上系列）和云提供商（OpenAI、Anthropic、Gemini、xAI、OpenRouter）之间进行切换，同时保留对内存、文件和工具的访问权限 随着 Anthropic 和 OpenAI 最近推高价格，Apple 可能处于有利位置来创建一个混合生态系统，其中大量 LLM 工作在本地运行。   由   提交/u/mpuchala  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tgdk1c/osaurus_brings_both_local_and_cloud_ai_models_to/</guid>
+      <pubDate>Mon, 18 May 2026 05:55:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国押注人工智能来捕捉预测市场的内幕交易</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tgd6g5/the_us_is_betting_on_ai_to_catch_insider_trading/</link>
+      <description><![CDATA[ 由   提交/u/ThereWas  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tgd6g5/the_us_is_betting_on_ai_to_catch_insider_trading/</guid>
+      <pubDate>Mon, 18 May 2026 05:35:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Opus 4.7 和 K2.6 之间任务与代币的成本错觉 💭</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tgd1z7/cost_illusion_in_task_vs_token_between_opus_47/</link>
+      <description><![CDATA[Kimi K2.6 每个代币比 Claude Opus 4.7 便宜 6 倍。  但是每个任务呢？仅便宜 39%。 Kimi K2.6 每项任务 0.76 美元 Claude Opus 4.7 每项任务 1.24 美元 Kimi 消耗大量代币来完成一项任务，以至于在基准测试中 6 倍的定价优势几乎消失。 每个代币更便宜并不等于使用更便宜，除非它用于指定任务。  该模型需要 2 倍的代币和 7 倍的时间才能完成，节省的时间可能不会那么多。 还需要认识到，与 Opus 4.7 相比，Kimi K2.6 的上下文窗口也显着减少，每个模型应该有不同的任务，以便在工作流程中实现最佳成本放在一起 比较每个任务的成本和代币价格是一个有趣的视角，但如果您在 Kimi 周围有几台 Mac 机器，开源，那么成本根本就不是一个因素。 Kimi 仍然是一个很棒的模型，与 Opus 相比，它每百万次的尝试次数更多，因此永远不应该完全取消它。   由   提交/u/hexxthegon   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tgd1z7/cost_illusion_in_task_vs_token_between_opus_47/</guid>
+      <pubDate>Mon, 18 May 2026 05:29:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>YouTube 正在将其 AI Deepfake 检测工具扩展到所有成年用户</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tg9lj0/youtube_is_expanding_its_ai_deepfake_detection/</link>
       <description><![CDATA[YouTube 正在将其 AI 肖像检测计划扩展到所有 18 岁以上的用户。 用户通过 YouTube Studio 提交一次性面部扫描，系统将持续监控平台是否存在未经许可使用其肖像的视频。一旦检测到匹配，它将通知用户请求删除。 https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults   由   提交 /u/Weird_Scallion_2498   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tg9lj0/youtube_is_expanding_its_ai_deepfake_detection/</guid>
@@ -29,30 +50,16 @@
     <item>
       <title>我构建了一个免费的 Claude Code 工具包 — 64 种技能、7 个代理、16 个斜杠命令以及用于完整工程堆栈的自动格式化挂钩</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tfz2b9/i_built_a_free_claude_code_toolkit_64_skills_7/</link>
-      <description><![CDATA[每天都在使用 Claude 代码，但总是遇到同样的问题 Claude 知道基础知识，但错过了不明显的模式。 所以我构建了 claude-spellbook，一个安装一次的工具包，Claude 就知道这些东西。 存储库：https://github.com/kid-sid/claude-spellbook 其中内容如下： 50 种技能，在您执行相关任务时自动激活 每项技能都有一个危险信号部分（7-10 个反模式及其解释）和一个发布前清单。这种东西你只能通过破坏生产来学习。 7 个自治代理 在自己的上下文窗口中运行并具有范围内工具访问权限的子代理： 11 个斜线命令，使用 / 调用的提示模板（例如 /mem_save） 自动格式化挂钩 - 连接到 settings.json Claude 写入或编辑的每个文件都会自动格式化立即： - .ts / .svelte → prettier + eslint --fix - .py → black + ruff check --fix - .go → gofmt + golangci-lint - .rs → rustfmt + Cargo Clippy - .md → markdownlint --fix - Skills/*/skill.md → 自定义格式验证器（检查 frontmatter、## 何时激活、## 检查表） 安装： # Skills cp -r Skills/* ~/.claude/skills/ # Agents cp .claude/agents/* ~/.claude/agents/ # 斜线命令 cp .claude/commands/* ~/.claude/commands/ 技能自动激活。无需手动调用。 欢迎 PR，尤其是我尚未涉及的领域的技能。 仓库：https://github.com/kid-sid/claude-spellbook 如果您喜欢，请分享😊如果有需要修复的问题，请告诉我！   由   提交/u/_crazy_muffin_   [链接] [评论]]]></description>
+      <description><![CDATA[每天都在使用 Claude 代码，但总是遇到同样的问题 Claude 知道基础知识，但错过了不明显的模式。 所以我构建了 claude-spellbook，一个安装一次的工具包，Claude 就知道这些东西。 存储库：https://github.com/kid-sid/claude-spellbook 其中内容如下： 50 种技能，在您执行相关任务时自动激活 每项技能都有一个危险信号部分（7-10 个反模式及其解释）和一个发布前清单。这种东西你只能通过破坏生产来学习。 7 个自治代理 在自己的上下文窗口中运行并具有范围内工具访问权限的子代理： 11 个斜线命令，使用 / 调用的提示模板（例如 /mem_save） 自动格式化挂钩 - 连接到 settings.json Claude 写入或编辑的每个文件都会自动格式化立即： - .ts / .svelte → prettier + eslint --fix - .py → black + ruff check --fix - .go → gofmt + golangci-lint - .rs → rustfmt + Cargo Clippy - .md → markdownlint --fix - Skills/*/skill.md → 自定义格式验证器（检查 frontmatter、## 何时激活、## 检查表） 安装： # Skills cp -r Skills/* ~/.claude/skills/ # Agents cp .claude/agents/* ~/.claude/agents/ # 斜杠命令 cp .claude/commands/* ~/.claude/commands/ 技能自动激活。无需手动调用。 欢迎 PR，尤其是我尚未涉及的领域的技能。 仓库：https://github.com/kid-sid/claude-spellbook 如果您喜欢，请分享😊如果有需要修复的问题，请告诉我！   由   提交/u/_crazy_muffin_   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tfz2b9/i_built_a_free_claude_code_toolkit_64_skills_7/</guid>
       <pubDate>Sun, 17 May 2026 19:22:21 GMT</pubDate>
     </item>
     <item>
-      <title>阳狮 (Publicis) 以 25 亿美元收购 LiveRamp，涉足代理人工智能数据游戏</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tfvw7j/publicis_buys_liveramp_for_25_billion_in_agentic/</link>
-      <description><![CDATA[ 由   提交 /u/danie-l   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tfvw7j/publicis_buys_liveramp_for_25_billion_in_agentic/</guid>
-      <pubDate>Sun, 17 May 2026 17:27:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>LinkedIn 用户在简历中隐藏了人工智能提示注入，以强制招聘垃圾邮件以古老的英语散文发送——机器人还被操纵称呼用户为“我的主”</title>
+      <title>LinkedIn 用户在个人简历中隐藏人工智能提示注入，以强制招聘垃圾邮件以古老的英语散文形式发送——机器人还被操纵称呼用户为“我的主”</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tfvif1/linkedin_user_hides_ai_prompt_injection_in_bio_to/</link>
       <description><![CDATA[这个故事也是一个警告，表明您的人工智能代理可能会以完全意想不到的方式被操纵。 如果您在微软的商业社交媒体网站 LinkedIn 上花费了大量时间，您可能会痛苦地意识到招聘人员的垃圾邮件。软件开发人员 tmuxvim 是一位不幸的受害者，他决定反击，或者至少从人工智能中获取一些乐趣，这些人工智能无情地告知用户不可抗拒的机会。他们通过添加到 LinkedIn 简历中的提示注入来做到这一点...   由   提交 /u/gurugabrielpradipaka   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tfvif1/linkedin_user_hides_ai_prompt_injection_in_bio_to/</guid>
       <pubDate>Sun, 17 May 2026 17:13:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>回到我的日子</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tfti3b/back_in_my_day/</link>
-      <description><![CDATA[在我那个时代，我没有勇气在那个可怕的网站上提出问题，所以我会花几个小时试图找到答案，最后当我找不到答案时，我就会推迟该项目直到放弃。 现在我只看 ijustvibecodedthis.com 我怀念以前的日子   由   提交/u/Complete-Sea6655   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tfti3b/back_in_my_day/</guid>
-      <pubDate>Sun, 17 May 2026 15:59:06 GMT</pubDate>
     </item>
     <item>
       <title>我们正处于人工智能采用的“煤气灯”阶段</title>
@@ -88,13 +95,6 @@
       <description><![CDATA[ 由   提交/u/Vee_Fan38083  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tffzoj/deepseek_what_the_f/</guid>
       <pubDate>Sun, 17 May 2026 05:11:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vibecoder最终boss</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tevksd/vibecoder_final_boss/</link>
-      <description><![CDATA[不知道你们是如何有勇气和信心将您的 openclaw 或 Hermes 特工释放到世界各地... 编辑：tbf ijustvibecodedthis.com 确实有一个相当好的指南，告诉您如何   由   提交/u/Complete-Sea6655   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tevksd/vibecoder_final_boss/</guid>
-      <pubDate>Sat, 16 May 2026 14:42:02 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>

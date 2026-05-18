@@ -4,7 +4,28 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 18 May 2026 02:51:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 06:54:42 GMT</lastBuildDate>
+    <item>
+      <title>开源人工智能医疗抄写员</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tgd0t3/open_source_ai_medical_scribe/</link>
+      <description><![CDATA[大家好！我希望众包一些想法。 长话短说，我是一名医师助理，有兴趣使用人工智能抄写员来帮助我做笔记，这是我工作中最乏味的部分。 但是，我对任何大型科技公司和现有的人工智能抄写员都非常不信任。 显然，我担心任何人工智能公司将如何利用我的用户生成的数据，我当然不希望我的任何医疗决策在未来被用来训练人工智能模型。 （你想笑就笑吧，我一边打字一边戴上锡纸帽子） 我对在个人设备上本地运行的开源人工智能做了一些研究。它们是免费的，并且不会有可能被第三方滥用我的个人数据。 此子论坛上的任何人对可能用作医疗抄写员的开源人工智能有什么好的建议吗？我需要什么样的硬件？例如，它可以在树莓派上运行吗？ 谢谢！ 编辑：要明确的是，我的计划是主要使用它来编写我的笔记的讨论/计划部分，这对我来说通常是自由文本，并且花费最多的时间。我对拥有一个可以为我预先选择订单的完全集成的人工智能不感兴趣。至少这是我现在的愿景哈哈！   由   提交/u/Entire_Department_65   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tgd0t3/open_source_ai_medical_scribe/</guid>
+      <pubDate>Mon, 18 May 2026 05:27:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Radicle：与 Git 的点对点协作</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tgbwfs/radicle_peertopeer_collaboration_with_git/</link>
+      <description><![CDATA[Radicle 是一个构建在 Git 之上的去中心化锻造，但它不是联合的，而是完全点对点的，即几乎无服务器。反过来，这也意味着它是本地优先的：只有检索或发送更改等操作才需要网络访问。存储库与签名密钥相关联，无论其存储在何处，都可以对其身份进行身份验证。除了您自己之外，没有人可以控制您的 Radicle 节点，任何第三方都无法从您的节点中删除存储库。 Radicle 已获得 MIT/Apache 许可，源代码可在以下位置找到：https://radicle.network 这篇文章是 2024 年发布的，您可以在以下位置找到更多文档：https://radicle.dev/guides （虽然资助机构是 Radworks（RAD 代币持有者可以参与治理，运营商可以质押代币并从网络用户那里获得补偿），但 Radicle 本身不使用任何区块链或加密货币技术。）   由   提交/u/esiy0676  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tgbwfs/radicle_peertopeer_collaboration_with_git/</guid>
+      <pubDate>Mon, 18 May 2026 04:30:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>我制作了 cli 工具，用于搭建各种 js/ts 框架（如 vite/express/next），并配置其他工具，只需单击一下即可。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tgbjz9/i_made_to_cli_tool_for_scaffolding_various_jsts/</link>
+      <description><![CDATA[      使用 pnpm 用 Nodejs 编写 通过运行尝试一下： npx rebar-js init Github npm 包链接   由   提交/u/_Introvert_boi   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tgbjz9/i_made_to_cli_tool_for_scaffolding_various_jsts/</guid>
+      <pubDate>Mon, 18 May 2026 04:13:14 GMT</pubDate>
+    </item>
     <item>
       <title>嘿伙计们！我创建了 Pixora，这是一款 Pixiv 桌面应用程序，是一款用于查看 Pixiv 收藏的一体化查看器！</title>
       <link>https://www.reddit.com/r/opensource/comments/1tg7xmv/hey_folks_i_created_pixora_a_desktop_app_for/</link>
@@ -36,14 +57,14 @@
     <item>
       <title>ClawPing - 适用于家庭服务器的 Cloudflare Workers 看门狗，无需公共 IP</title>
       <link>https://www.reddit.com/r/opensource/comments/1tfiqt1/clawping_cloudflare_workers_watchdog_for_home/</link>
-      <description><![CDATA[ClawPing 是 Cloudflare Workers 首款 Telegram 看门狗，适用于家庭服务器、迷你 PC、NAS 盒和自托管应用程序。 一个小型 Go 代理在您的计算机上运行并推送出站心跳。如果您的服务器停止签入、备份过时、磁盘已满或 Docker 容器死亡，ClawPing 会通过 Telegram 向您发出警报。 没有公共 IP。没有开放端口。不需要自托管仪表板，但如果需要，可以有一个仪表板。 堆栈：Cloudflare Worker + D1 + Durable Objects + Queues + Go 代理。 GitHub：https://github.com/cschanhniem/clawping MIT 下的开源。欢迎反馈。   由   提交/u/suoinguon  [链接] [评论]]]></description>
+      <description><![CDATA[ClawPing 是 Cloudflare Workers 首款 Telegram 看门狗，适用于家庭服务器、迷你 PC、NAS 盒和自托管应用程序。 一个小型 Go 代理在您的计算机上运行并推送出站心跳。如果您的服务器停止签入、备份过时、磁盘已满或 Docker 容器死亡，ClawPing 会通过 Telegram 向您发出警报。 没有公共 IP。没有开放端口。不需要自托管仪表板，但如果需要，可以有仪表板。 堆栈：Cloudflare Worker + D1 + Durable Objects + Queues + Go 代理。 GitHub：https://github.com/cschanhniem/clawping MIT 下的开源。欢迎反馈。   由   提交/u/suoinguon  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tfiqt1/clawping_cloudflare_workers_watchdog_for_home/</guid>
       <pubDate>Sun, 17 May 2026 07:39:24 GMT</pubDate>
     </item>
     <item>
       <title>我制作了一个成熟的开源 Google 地图公司爬虫</title>
       <link>https://www.reddit.com/r/opensource/comments/1tfi0ak/i_made_a_fully_fledged_opensource_google_maps/</link>
-      <description><![CDATA[大家好， 我想分享一个我一直在从事的项目：SherlockMaps，一个使用 Python 和 Playwright 构建的开源 Google 地图网络爬虫。您可以在此处查看。 这是什么？ SherlockMaps 从 Google 地图搜索中提取详细的公司信息。您给它一个搜索词（例如“restaurants berlin”），它会返回结构化数据，包括：  公司名称、类别、地址、电话、网站 评级和评论数量 营业时间 属性（轮椅无障碍等） 附加代码  主要功能  干净的 OOP 架构 - 结构良好，包含类、数据类和设计模式 多种使用模式：  用于快速数据提取的 CLI 工具 用于集成到您自己的脚本中的 Python 库 用于无头/生产使用的 REST API 服务器  多种输出格式 - JSON、CSV、 Pretty-print 重复数据删除基于公司名称+网站 URL验证过滤掉无效网站 Docker支持以方便部署 Chrome配置文件持久性 - 会话数据在运行之间保留 MIT许可证 - 完全开源  希望你喜欢它，我总是愿意让它变得更好😄   由   提交 /u/Ayyouboss   [link] [评论]]]></description>
+      <description><![CDATA[大家好， 我想分享一个我一直在从事的项目：SherlockMaps，一个使用 Python 和 Playwright 构建的开源 Google 地图网络爬虫。您可以在此处查看。 这是什么？ SherlockMaps 从 Google 地图搜索中提取详细的公司信息。您给它一个搜索词（例如“restaurants berlin”），它会返回结构化数据，包括：  公司名称、类别、地址、电话、网站 评级和评论数量 营业时间 属性（轮椅无障碍设施等） 附加代码  主要功能  干净的 OOP 架构 - 结构良好，包含类、数据类和设计模式 多种使用模式：  用于快速数据提取的 CLI 工具 用于集成到您自己的脚本中的 Python 库 用于无头/生产使用的 REST API 服务器  多种输出格式 - JSON、CSV、 Pretty-print 重复数据删除基于公司名称+网站 URL验证过滤掉无效网站 Docker支持以方便部署 Chrome配置文件持久性 - 会话数据在运行之间保留 MIT许可证 - 完全开源  希望你喜欢它，我总是愿意让它变得更好😄   由   提交 /u/Ayyouboss   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tfi0ak/i_made_a_fully_fledged_opensource_google_maps/</guid>
       <pubDate>Sun, 17 May 2026 06:58:46 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[嗨， Windows 上有很多 GParted 的专有等效项，因此它是可行的。为什么没有打开一个？ 我知道 GParted 可以用作可启动的实时 USB，但这并不方便。 谢谢   由   提交/u/KaKi_87  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tepj3g/why_is_there_no_open_source_partition_manager_on/</guid>
       <pubDate>Sat, 16 May 2026 10:09:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>我厌倦了丑陋的、充满广告的 20-20-20 计时器，它们会在后台消失。我构建了 Blink：一个 1.7MB、实际有效的 Material 3 守护进程</title>
-      <link>https://www.reddit.com/r/opensource/comments/1temn12/i_got_sick_of_ugly_adfilled_202020_timers_that/</link>
-      <description><![CDATA[Play 商店里充斥着“护眼”产品从根本上损坏的应用程序。它们充满了跟踪器，看起来像是 2014 年设计的，并且在 30 分钟后不可避免地会被 Android 积极的电池优化杀死。 如果你想要一个真正触发的 20-20-20 规则计时器，你必须构建一个系统级守护进程。所以我这么做了。 Blink 是一个完全开源、零跟踪器、1.76MB 的实用程序，使用 Kotlin 和 Jetpack Compose 原生构建。它不会请求操作系统进行后台处理；它使用精确警报和前台服务来在打瞌睡模式下生存。 我也不想要一个看起来像终端输出的功能应用程序。它需要感觉像是操作系统的一部分。 美学和设计自定义： True Material 3：它使用动态主题直接从系统壁纸中提取颜色。 覆盖：Blink 使用 TYPE_APPLICATION_OVERLAY，而不是让您脱离工作流程的不和谐的活动开关。它精美地漂浮在您正在做的任何事情之上。 3 种视觉样式：我为其余屏幕构建了自定义 60fps 的 Compose 动画。您可以在“富有表现力”（动画环/波纹）、“平静”（平滑弧线）或“最小”（干净的进度圆）之间进行选择。 精细控制：您可以调整叠加层不透明度 (30–100%)，调整工作/休息间隔（1-60m / 10-60s），并选择是否需要叠加层、通知或两者兼而有之。 高级用户功能： 对于那些鄙视 Android 电池节流的人，我集成了 Shizuku。如果启用它，Blink 会使用 Shizuku IPC 桥在其自身上静默执行 cmd deviceidle 白名单。您无需打开设置应用程序，它就可以使自己免受打瞌睡模式的影响。 它是完全免费的。该代码干净、原生，并且积极地完成其应该做的事情。 GitHub（发布和源代码）： https://github.com/character-flat/Blink   由   提交 /u/Character_Flat   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1temn12/i_got_sick_of_ugly_adfilled_202020_timers_that/</guid>
-      <pubDate>Sat, 16 May 2026 07:26:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>现代版的伊丽莎会是什么样子？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tehfsi/what_would_a_modern_take_on_eliza_look_like/</link>
-      <description><![CDATA[跳过法学硕士。 Eliza 旨在进行心理治疗，利用心理学帮助用户探索复杂的主题。 取消法学硕士，现代风格的 Eliza 会是什么样子？   由   提交 /u/ki4jgt   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tehfsi/what_would_a_modern_take_on_eliza_look_like/</guid>
-      <pubDate>Sat, 16 May 2026 03:00:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>最新版本的 OpenSearch 和 Elasticsearch 之间是否有任何显着差异？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1teh5dg/are_there_any_notable_differences_between_the/</link>
-      <description><![CDATA[我想知道最新版本的 OpenSearch (3.6.0) 和最新版本的 Elasticsearch (9.4.1) 之间是否存在任何显着差异或是否仍然有些相似。   由   提交 /u/Casq-qsaC_178_GAP073   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1teh5dg/are_there_any_notable_differences_between_the/</guid>
-      <pubDate>Sat, 16 May 2026 02:46:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
