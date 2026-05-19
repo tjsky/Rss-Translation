@@ -4,20 +4,41 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 19 May 2026 06:47:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 11:58:45 GMT</lastBuildDate>
+    <item>
+      <title>ProseMirror模型在富文本转换中的不合理有效性</title>
+      <link>https://www.reddit.com/r/webdev/comments/1thkmlj/the_unreasonable_effectiveness_of_prosemirror/</link>
+      <description><![CDATA[ 由   提交/u/scrollin_thru  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1thkmlj/the_unreasonable_effectiveness_of_prosemirror/</guid>
+      <pubDate>Tue, 19 May 2026 11:54:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Puppeteer 在产品中泄漏内存，我放弃了</title>
+      <link>https://www.reddit.com/r/webdev/comments/1thhwx5/puppeteer_was_leaking_memory_in_prod_and_i_just/</link>
+      <description><![CDATA[在产品中运行 puppeteer 18 个月，生成发票。大约 15 个并发请求开始泄漏，每个 chromium 实例 200-500mb 尝试池化页面，在 cron 上杀死僵尸，每 N 个页面重新启动浏览器。每次修复可能持续一周，然后在凌晨 3 点内存再次攀升 最终花在 chromium 保姆上的时间比构建功能的时间更多。添加了一个 grafana 仪表板只是为了观察 puppeteer 的 RAM 我的同事问我为什么不只使用 api，此时我无法争论。 18 个月的时间告诉自己要在下一个冲刺中解决这个问题 任何人都可以真正大规模地运行无头 Chrome，而不会让它成为第二份工作   由   提交 /u/TinyStar44_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1thhwx5/puppeteer_was_leaking_memory_in_prod_and_i_just/</guid>
+      <pubDate>Tue, 19 May 2026 09:43:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Angular 应用程序中数字输入的奇怪错误/行为</title>
+      <link>https://www.reddit.com/r/webdev/comments/1thhrm5/strange_bugbehavior_with_number_inputs_in_angular/</link>
+      <description><![CDATA[我正在开发 Angular 8 Web 应用程序（abismal monorepo），它是用于管理付款、兑现等的内部工具。 它有相当多的数字输入，所有这些输入都允许只接受整数。 最近我开始收到用户的报告，有时当他们填写值并提交时（添加到购物篮，提交金额），结束value 与他们最初填写的不同（据报告差异为 1 或 2，并且大部分向下）。 我们没有任何舍入逻辑、任何转换、任何浮点数，什么都没有。输入只是纯整数输入。 我已经开始从这个问题中解脱出来，对我来说唯一明智的解决方案是完全禁用数字输入上的任何控件（键盘箭头、鼠标滚轮控制），将它们设置为文本输入并添加模式验证。 还有什么？我错过了什么？ 此外，这个应用程序的用户不太擅长技术，有时他们甚至让网站打开几周而不刷新，并抱怨最后没有出现最新的更改。 目前，这个输入问题/解决方案似乎是唯一有意义且看起来真实的选项。   由   提交 /u/Crutch1232   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1thhrm5/strange_bugbehavior_with_number_inputs_in_angular/</guid>
+      <pubDate>Tue, 19 May 2026 09:36:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>FITA 学院在班加罗尔为新生提供的 React JS 培训效果如何？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1thg38x/how_good_is_fita_academys_react_js_training_in/</link>
+      <description><![CDATA[大家好， 我计划参加班加罗尔的 React JS 培训，FITA 学院是我正在考虑的选择之一。我是一名初学者（刚从大学毕业，在 Web 开发方面很少或没有经验），所以我想知道这种培训是否真的适合初学者。 这里有人在班加罗尔的 FITA 学院接受过 React JS 培训吗？如果是，请特别分享您的经验：  该课程是否适合初学者？ 教学和培训师的质量如何？ 该课程是否包括实际项目和动手编码练习？ 您获得了多少职业或就业支持（如果有）？ 它是否帮助您更好地理解/对 React JS 有信心？ 这是否值得这些费用已付费？    由   提交 /u/Lazy-Day654   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1thg38x/how_good_is_fita_academys_react_js_training_in/</guid>
+      <pubDate>Tue, 19 May 2026 08:01:13 GMT</pubDate>
+    </item>
     <item>
       <title>我们现在正在用 AI PR 做什么？</title>
       <link>https://www.reddit.com/r/webdev/comments/1thelaf/what_are_we_doing_with_ai_prs_now/</link>
       <description><![CDATA[我看到更多 PR，其中代码看起来在第一遍就完成了：类型排队、测试通过、演示点击通过、lint 很安静。然后审查就会变得很奇怪，因为没有人能说出为什么该缓存密钥存在，为什么在昂贵的调用之后运行身份验证，当提供程序超时时会发生什么，或者当重试两次时谁拥有回退。 小事情。推回感觉奇怪的是不礼貌的，因为分支在演示中工作，而 Web 开发一直主要是围绕身份验证、重试、部署顺序和错误数据的无聊案例。人工智能似乎擅长填补快乐的道路，不太擅长留下人类可以稍后解释的踪迹   由   提交 /u/NatePerspective   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1thelaf/what_are_we_doing_with_ai_prs_now/</guid>
       <pubDate>Tue, 19 May 2026 06:37:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>隐性维度：为什么你最好的工程师不能告诉你他们所知道的</title>
-      <link>https://www.reddit.com/r/webdev/comments/1thekxq/the_tacit_dimension_why_your_best_engineers_cant/</link>
-      <description><![CDATA[       由   提交 /u/cekrem   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1thekxq/the_tacit_dimension_why_your_best_engineers_cant/</guid>
-      <pubDate>Tue, 19 May 2026 06:36:57 GMT</pubDate>
     </item>
     <item>
       <title>“关于我”网站，没有代码经验</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[我什至不会费心去问是否在任何其他公司都相反，而直到现在，他们一直尊重你作为开发人员，现在有了人工智能，他们突然有了更高的期望，并期望你以 10 倍的速度开发所有东西（包括预先存在的代码库）......不过，如果你正在经历这种情况并且想要发泄出来，请随意写下。 我实际上想问如果有（以及这种情况有多普遍）公司意识到人工智能，他们肯定会鼓励使用，甚至高度使用它，但同时要明白...  使用预先存在的代码库，你无法用人工智能快速开发，因为你需要确保现有的行为仍然有效。 你需要大量监督人工智能，因为即使它编写的代码可以工作并且经过测试，它也很难可读，有很多重复的内容代码，从长远来看，无论有没有人工智能，管理都会变得越来越困难。 人工智能是容易犯错的，所以人们不应该依赖/痴迷于它的输出，管理层也不应该要求将阳光下的一切都交给人工智能来总结并试图为你找到解决方案。 人工智能 LLM 输出是“显而易见的”即使是在同事之间，发送起来也有些粗鲁。  也许我在这个领域工作了 15 年，对 Web 开发应该如何与人工智能工具一起工作做出了很多假设。但我真的很想知道你对这些事情的想法。 还要注意的是，我不是一个严肃的纯粹主义者，甚至不接触人工智能，认为它违背了“艺术”。编程的。我一直在 Jetbrains IDE 中使用 Cursor，事实上，我比尝试手动编码更频繁地使用它；尽管我检查了代理所写的内容，并且我不让它运行“git add”或“git commit”。   由   提交/u/amcsi  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tgxsmv/any_companies_with_management_with_sane/</guid>
       <pubDate>Mon, 18 May 2026 19:14:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>TYPO3 9.5：博客（tx_t3blog）与电视分开，编辑感到震惊。需要一个中间件层克劳德→审核→导入。计划将来迁移到TYPO3 v13</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgwd5p/typo3_95_blog_tx_t3blog_is_separate_from_tv/</link>
-      <description><![CDATA[嗨r/webdev， 设置：  TYPO3 9.5 主站点（页眉、导航、内容、页脚、联系表单）- 构建TemplaVoila 博客 (tx_t3blog) - 独立存在，与电视无关 博客内容通过现有导入器导入到博客中（从内容生成器提取数据）  新挑战： 我需要将 Claude 插入管道：内容生成器 → Claude （增强）→ 编辑器（审阅和编辑）→ 现有导入器→ tx_t3blog 编辑器绝不能看到 TYPO3 后端（尤其是电视部分）。 我需要什么： 一个简单的独立 Web 中间件，供编辑器使用，他们可以在其中看到：  原始文本（来自生成器） Claude 的增强版 最终可编辑文本  还有一个按钮：“批准并生成”。发送到博客” 重要提示：我们计划最终迁移到 TYPO3 v13。我希望这个中间件不与遗留的东西联系在一起，并且易于继承。 问题： 构建这个中间件的最简单方法是什么，以便：  编辑器从不接触 TYPO3 TV 保持不变 现有导入器不会破坏  它可以轻松迁移到v13 以后？ 我应该如何将最终文本传递给现有导入器？它当前从内容生成器中提取数据。我如何通过方法调用从 Claude + 编辑器向其提供数据？临时表？文件？ 考虑到未来的 v13 迁移 - 我现在应该以某种中性格式（JSON、单独的表）存储已批准的文章，以便我可以在迁移过程中获取它们吗？还是对当前任务的过度设计？ 感谢您的任何建议。不碰电视，不重写博客。只需要在克劳德、编辑和进口商之间架起一座干净的桥梁——着眼于未来。   由   提交 /u/Efficient_South_6399   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgwd5p/typo3_95_blog_tx_t3blog_is_separate_from_tv/</guid>
-      <pubDate>Mon, 18 May 2026 18:35:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何创建表单来捕获客户反馈并捕获链接到工作订单的自定义订单中的信息</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgvu0f/how_to_create_a_form_to_capture_customer_feedback/</link>
-      <description><![CDATA[需要帮助   由   提交 /u/Idiotic_spell   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgvu0f/how_to_create_a_form_to_capture_customer_feedback/</guid>
-      <pubDate>Mon, 18 May 2026 18:20:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>这种学习方法怎么样？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tgtmxi/how_about_this_study_approach/</link>
-      <description><![CDATA[我最近完成了 Angela Yu 的全栈 Web 开发训练营。我认为这对于从头开始的人来说是一个很好的介绍，但有些主题，尤其是 React，感觉相当基础。 我的目标是构建自己的产品，甚至创办一家初创公司。因此，我正在考虑深入研究 React，学习 Next.js、TypeScript、测试和部署。 我的问题是：  对于想要构建完整产品的人来说，这些真的是最重要的下一个主题吗？ Full Stack Open 是一个不错的下一步，还是您会推荐另一门课程？ 要将 React 连接到后端和数据库，通常使用 Fetch 或Axios 使用 API？在这种情况下，与 React 一起使用时，Next.js 通常比 Express 更有优势吗？    由   提交 /u/Reasonable_Ninja6455   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tgtmxi/how_about_this_study_approach/</guid>
-      <pubDate>Mon, 18 May 2026 17:27:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
