@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 20 May 2026 17:52:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 20:10:55 GMT</lastBuildDate>
+    <item>
+      <title>WordPress 7.0 标志着新时代的开始，为整个 WordPress 体验中的人工智能奠定了基础</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tiwrz3/wordpress_70_marks_the_start_of_a_new_era_laying/</link>
+      <description><![CDATA[ 由   提交/u/magenta_placenta   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tiwrz3/wordpress_70_marks_the_start_of_a_new_era_laying/</guid>
+      <pubDate>Wed, 20 May 2026 19:48:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>铁路仍然瘫痪</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tivx9b/railway_is_still_down/</link>
+      <description><![CDATA[非企业计划持续 24 小时以上。最初错误地让他们修复问题并希望反弹将其恢复正常，但这对于生产级服务来说是完全不可接受的。太糟糕了，我支持他们，但不确定我是否能够再次信任该服务   由   提交/u/Hank_McSpanky   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tivx9b/railway_is_still_down/</guid>
+      <pubDate>Wed, 20 May 2026 19:19:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>redis 不是一种数据库，我会一直这么说，直到人们不再像数据库一样使用它</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tivoo6/redis_is_not_a_database_and_i_will_keep_saying/</link>
+      <description><![CDATA[是的，它具有持久性。是的，从技术上讲，您可以在其中存储数据并使其在重新启动后继续存在。不，这并不意味着它是你的真相来源，我厌倦了假装 AOF/RDB 的事情让这成为一场真正的辩论 去年看到一个团队失去了几个小时的用户会话，因为有人认为 redis 是会话存储，背后没有 postgres，什么都没有。盒子在例行部署期间重新启动，但快照已经过时了几分钟，每个人都在结账过程中注销。事后分析将其视为某种怪异事件，而不是使用内存缓存作为您关心的内容的唯一副本的完全可预测的结果 Redis 的用途确实令人难以置信。缓存、发布/订阅、速率限制、临时计数器、排行榜、锁。它非常擅长快速，以至于人们开始为所有事情伸手去拿它，而忘记了它的快速来自于它生活在记忆中，这正是使它成为保存任何东西唯一副本的糟糕地方的确切属性 我明白为什么会发生这种情况。它就在那里，已经在堆栈中了，向 postgres 添加真正的写入感觉比仅仅设置并继续进行更多的工作。但持久性并不是一个你稍后会咬住你的特性，它首先是数据库使用起来很烦人的全部原因。烦人的部分是重点 持久性不是耐用性。每隔几分钟生成的快照不是事务日志。最终的美好一天与承诺不同 将其用于其擅长的领域。把你不会丢失的东西放在专门为防止丢失而建造的地方。这甚至不是一个热门的观点，它只是文档一直在说的，不知何故我们还在这里   由   提交/u/Motor_Ordinary336   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tivoo6/redis_is_not_a_database_and_i_will_keep_saying/</guid>
+      <pubDate>Wed, 20 May 2026 19:11:27 GMT</pubDate>
+    </item>
     <item>
       <title>github 并不可怕，但是天哪，小烦恼在一段时间后就会堆积起来</title>
       <link>https://www.reddit.com/r/webdev/comments/1tissdy/github_isnt_terrible_but_man_the_little/</link>
@@ -85,30 +106,9 @@
     <item>
       <title>我购买了一个名称中包含通用关键字的 .com 域名，该名称与不太受欢迎的 TLD 下的现有小型网站相同。在这个 .com 域名下创建一个新网站并与他们竞争是否道德？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tigakz/i_bought_a_com_domain_with_generic_keywords_in/</link>
-      <description><![CDATA[该域名很短且可用，我在搜索域名时发现了它，这样我就可以建立一些新网站（这是我的爱好），如果能获得流量，也许可以在 2-3 年内通过广告赚到一些钱。购买后，我发现一年前有人已经制作了一个类似的网站，但在利基 TLD 下 它是这样的：  他们的域名： bmicalculator 。空间 我的域名：bmicalculator 。 com 他们的域名：coffeerecipes 。网站 我的域名：coffeerecipes。 com  我不打算复制他们的任何东西，我会有自己的设计和内容，所以唯一的共同点就是域名。他们的服务已经在 Google 上建立并已有 12 个月的历史，但说实话，作为一名经验丰富的开发人员，我可以清楚地看到他们的网站非常业余且简单，而我的网站大约是 5 倍大，并且针对 SEO 进行了更好的优化。 但是，我有一种道德困境。该 com 域名很好，但也许正确的做法是联系他们并将其出售给他们，或者只是停放域名并等待几年，检查他们的服务是否会终止，然后我将开始自己的服务。 如果你在我的地方，你会怎么做？   由   提交/u/amelix34  [链接] [评论]]]></description>
+      <description><![CDATA[该域名很短且可用，我在搜索域名时发现了它，这样我就可以建立一些新网站（这是我的爱好），如果能获得流量，也许可以在 2-3 年内通过广告赚到一些钱。购买后，我发现一年前有人已经制作了一个类似的网站，但在利基 TLD 下 它是这样的：  他们的域名： bmicalculator 。 space 我的域名：bmicalculator 。 com 他们的域名：coffeerecipes 。网站 我的域名：coffeerecipes。 com  我不打算复制他们的任何东西，我会有自己的设计和内容，所以唯一的共同点就是域名。他们的服务已经在 Google 上建立并已有 12 个月的历史，但说实话，作为一名经验丰富的开发人员，我可以清楚地看到他们的网站非常业余且简单，而我的网站大约是 5 倍大，并且针对 SEO 进行了更好的优化。 但是，我有一种道德困境。该 com 域名很好，但也许正确的做法是联系他们并将其出售给他们，或者只是停放域名并等待几年，检查他们的服务是否会终止，然后我将开始自己的服务。 如果你在我的地方，你会怎么做？   由   提交/u/amelix34  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tigakz/i_bought_a_com_domain_with_generic_keywords_in/</guid>
       <pubDate>Wed, 20 May 2026 09:19:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>需要前辈的诚实指导，我现在在科技领域到底处于什么位置？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tieko5/need_honest_guidance_from_seniors_where_do_i/</link>
-      <description><![CDATA[我目前在大学二年级。完成第 12 名后，我开始认真学习开发，从那时起我探索了很多东西。 到目前为止，我已经： 构建了 MERN 堆栈 CRUD 应用程序 用 Java 解决了 250 多个 LeetCode 问题 学习了 ML 基础知识及其背后的数学 学习了 ANN 和 CNN 等概念 做了一些小型 ML 项目 开始学习 Blender 和 Three.js 用于 3D 开发创建了自己的作品集目前正在学习系统设计 问题是我很快就会对新技术印象深刻。每当我看到一些很酷的东西时，我就会开始学习它。正因为如此，我现在感到很困惑。我不知道我实际上应该掌握什么。 我的一部分想学习一切，因为我真的很喜欢技术，但同时我对自己的未来和赚钱感到害怕。有时我觉得自己知道很多东西，但在一件事上还不够出色。 我非常感谢前辈们的诚实建议： 我的方向正确吗？我现在应该专注于一个领域吗？我如何弄清楚要掌握什么？以及我如何在学习的同时开始赚钱？ 非常感谢曾经处于相同情况的人的指导。   由   提交 /u/No-Resolution-4054   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tieko5/need_honest_guidance_from_seniors_where_do_i/</guid>
-      <pubDate>Wed, 20 May 2026 07:41:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么开发人员对于 SEO 成功如此重要</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tie386/why_developers_are_so_important_for_seo_success/</link>
-      <description><![CDATA[作为 SEO 专家，我意识到开发人员在 SEO 成功中发挥着巨大作用。技术 SEO 在很大程度上依赖于干净的代码、快速加载的页面、移动响应能力、结构化数据、核心网络生命力和正确的网站架构，所有这些都需要强大的开发技能。 如果没有良好的开发，即使是最好的 SEO 策略也很难排名。 SEO 和开发人员应该共同努力构建用户友好且搜索引擎友好的网站。  很想知道其他 SEO 专业人士如何与开发人员在项目上进行协作。   由   提交/u/Bijender_Singh   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tie386/why_developers_are_so_important_for_seo_success/</guid>
-      <pubDate>Wed, 20 May 2026 07:13:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果您仍在 GCP（或其任何包装器）上托管，那么除了您自己之外，您没有责任</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ti9zdb/if_you_are_still_hosting_on_gcp_or_any_of_its/</link>
-      <description><![CDATA[在看到 GCP 在没有任何通知的情况下删除/暂停多个企业设置（例如政府工作场所、澳大利亚养老基金、铁路 (2x) 和其他多个似乎每隔一周就会出现在新闻中的企业设置）后，您只是自找麻烦。 想象一下有多少次没有达到这些大型帐户的宣传水平的小型设置被删除。  GCP 对其客户的评价为 0。即使 Google 自己的服务也不使用 GCP   由   提交/u/1kgpotatoes  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ti9zdb/if_you_are_still_hosting_on_gcp_or_any_of_its/</guid>
-      <pubDate>Wed, 20 May 2026 03:43:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
