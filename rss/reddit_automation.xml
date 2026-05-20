@@ -4,7 +4,35 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Wed, 20 May 2026 02:46:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 06:44:28 GMT</lastBuildDate>
+    <item>
+      <title>用于云文档处理的 Headless-wps</title>
+      <link>https://www.reddit.com/r/automation/comments/1tiddt3/headlesswps_for_cloud_document_processing/</link>
+      <description><![CDATA[我正在构建一个基于云的自动化文档处理器，并在 GitHub 上发现了 headless-wps 项目，该项目允许 WPS Office 在无头环境中运行以进行服务器端文档处理。这是我正在认真考虑的管道文档生成和转换层的选项之一，在采用这种方法之前，我希望听到任何实际部署过它的人的意见。 用例是标准的自动化文档处理、填充模板、格式之间的转换以及生成 PDF 输出，无需任何手动 UI 交互。 headless-wps 项目看起来解决了在云部署上下文中没有显示环境的情况下运行 WPS Office 的核心要求，这正是我所需要的。 在围绕它进行构建之前，我试图确定一些事情。在持续的文档处理负载下，生产云环境中的 headless-wps 部署的稳定性如何？ Docker 部署是否简单？是否存在文档中不明显的依赖性或配置问题？ 还想了解在无头云部署中运行 WPS Office 以进行自动化商业文档处理的许可影响   由   提交/u/StrongPipe_69  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tiddt3/headlesswps_for_cloud_document_processing/</guid>
+      <pubDate>Wed, 20 May 2026 06:36:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能行业越来越不像 SaaS，而更像重工业。</title>
+      <link>https://www.reddit.com/r/automation/comments/1tid3ru/the_ai_industry_increasingly_looks_less_like_saas/</link>
+      <description><![CDATA[ 由   提交 /u/Low-Honeydew6483   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tid3ru/the_ai_industry_increasingly_looks_less_like_saas/</guid>
+      <pubDate>Wed, 20 May 2026 06:21:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>没有人警告我关于人工智能自动化的代币成本问题</title>
+      <link>https://www.reddit.com/r/automation/comments/1tici4m/token_costs_are_the_thing_nobody_warned_me_about/</link>
+      <description><![CDATA[上季度开始为一个小团队实现工作流程自动化。人工智能部分的设置出奇的简单。 然后发票就来了。我正在运行一些文档处理流程和一些客户电子邮件分类的东西，没什么疯狂的，也许有十几个活跃的自动化。大约三周后查看账单，然后坐在那里一分钟。我已经对工具成本、集成以及构建所需的时间进行了预算。从来没有想过大规模的实际代币使用会是什么样子。每次调用的成本似乎很小，直到您意识到即使是一个简单的工作流程一天也会产生多少个调用。 所以我开始四处打听。与几个运行类似设置的人进行了交谈，其中一个在上周二的聚会上为一家中型物流公司管理自动化的人。没有人对此有真正的策略。每个人都只是即兴发挥，交换模型，尽可能缓存，希望价格下降。 最疯狂的部分是从“这为我们节省了很多时间”到“这为我们节省了很多时间”的速度有多快。 “等等，这实际上比雇佣某人便宜吗。” 好奇这里的其他人正在做什么。   由   提交 /u/bejusorixo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1tici4m/token_costs_are_the_thing_nobody_warned_me_about/</guid>
+      <pubDate>Wed, 20 May 2026 05:49:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>以人工智能的速度移植代码</title>
+      <link>https://www.reddit.com/r/automation/comments/1ti8zeq/porting_code_at_the_speed_of_ai/</link>
+      <description><![CDATA[我想分享一种利用代理技能将代码从 Git 存储库移植到 Typescript 的方法。 项目设置  创建项目文件夹 初始化 git 添加您选择的 Git 存储库作为子模块。 安装 Ambler TS 技能  shell mkdir port cd port git init git submodule add &lt;您的 Git 存储库 URL&gt; npx Skills add argenkiwi/ambler-ts  初始化 Ambler 使用编码代理（如 Claude 或 Pi）并调用 ambler-walk 技能： plaintext /ambler-init 。  移植代码 调用ambler-walk技能并提供您想要移植的路径： plaintext /ambler-walk create chat walk from @path/to/folder/or/source 代理将自动： 1. 分析源逻辑。 2. 在nodes/中创建必要的节点。 3. 在 specs/ 中搭建一个 Spec。 4. 将所有内容连接到 walks/ 中的 Walk 中。 测试运行 代理完成后，验证端口： bash deno 测试节点/tests/ deno 任务   我一直在使用这种方法来迁移一些 Fastlane 代码 (Ruby)，并且我已经使用 PocketFlow 存储库对此进行了测试。我希望您觉得它有用或有趣。   由   提交/u/argenkiwi   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1ti8zeq/porting_code_at_the_speed_of_ai/</guid>
+      <pubDate>Wed, 20 May 2026 02:59:03 GMT</pubDate>
+    </item>
     <item>
       <title>特工安全带是产品，而不是模型</title>
       <link>https://www.reddit.com/r/automation/comments/1thu038/the_agent_harness_is_the_product_not_the_model/</link>
@@ -76,39 +104,11 @@
       <pubDate>Tue, 19 May 2026 11:04:44 GMT</pubDate>
     </item>
     <item>
-      <title>好奇有多少代理机构人员实际上每天都在使用人工智能代理 - 它在实践中是什么样子的？</title>
-      <link>https://www.reddit.com/r/automation/comments/1thj055/curious_how_much_agency_folks_are_actually_using/</link>
-      <description><![CDATA[最近一直在思考这个问题。关于人工智能代理的炒作并不缺乏，但我更感兴趣的是目前机构内部实际发生的事情。 团队是否将它们用于真正的工作流程自动化，或者仍然主要使用 ChatGPT 来进行文案草稿和偶尔的中间资产？ 我真正好奇的一些事情： 1）哪些部门最常采用代理 - 战略、创意、付费、运营？2）这些是现成的工具还是有人构建了自定义工作流程？3) 它实际上减少了员工压力还是只是改变了初级人员的工作方式？4) 有哪些行业的客户正在抵制人工智能的使用？ 我来自机构的社交方面，并开始思考这如何适合我未来的工作方式。很想听听领导层中实际使用的内容与刚刚讨论的内容。   由   提交/u/Weekly-Ad387  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1thj055/curious_how_much_agency_folks_are_actually_using/</guid>
-      <pubDate>Tue, 19 May 2026 10:39:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪个是构建 claude 代理的最佳 api 网关？</title>
-      <link>https://www.reddit.com/r/automation/comments/1thhcbu/which_is_best_api_gateway_for_building_claude/</link>
-      <description><![CDATA[ 由   提交/u/Hexdeadlock28  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1thhcbu/which_is_best_api_gateway_for_building_claude/</guid>
-      <pubDate>Tue, 19 May 2026 09:13:13 GMT</pubDate>
-    </item>
-    <item>
       <title>其他人在工作中淹没在人工智能产生的噪音中</title>
       <link>https://www.reddit.com/r/automation/comments/1thgivo/anyone_else_drowning_in_aigenerated_noise_at_work/</link>
       <description><![CDATA[我的团队最近开始使用人工智能工具进行质量检查。想法是更快地捕获错误。 它工作了大约三周。 现在，我花在整理垃圾报告上的时间比手动查找错误所花的时间还要多。标记的东西有一半甚至不是真正的问题，它只是模型幻觉的边缘情况，在生产中永远不会发生。另一半是我们已经知道的内容的重复，每次的措辞都略有不同，这样它们就不会被重复数据删除过滤器捕获。上个月，我参加了一次周三的站立会议，我们花了四十分钟讨论哪些人工智能生成的门票值得保留。四十分钟。没人写票。 令人沮丧的是我什至不能说这些工具毫无用处。他们偶尔会捕捉到真正的东西。但信噪比变得如此糟糕，以至于我开始怀疑我们以前是否更有效率。 感觉我们以某种方式自动化了更多工作。   由   提交 /u/Available-Door-1460   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1thgivo/anyone_else_drowning_in_aigenerated_noise_at_work/</guid>
       <pubDate>Tue, 19 May 2026 08:26:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为一名医生，我应该学习 n8n 来实现医疗保健自动化吗？</title>
-      <link>https://www.reddit.com/r/automation/comments/1the4ai/should_i_learn_n8n_for_healthcare_automation_as_a/</link>
-      <description><![CDATA[嘿， 所以我是一名新医生，在过去的几个月里，我一直在 Make 上构建自动化工作流程，例如患者分类、WhatsApp 提醒、自动将入院表格发送给合适的医生。这些东西在临床上确实有意义，因为我从内部了解工作流程。 现在我正在考虑 n8n，因为任何涉及患者数据的内容基本上都需要自行托管。无法反驳这一点。 但是说实话？我越想卖掉这个，我就越说服自己放弃它。 医生害怕诉讼。就像，真的很害怕。让他们信任拥有患者数据的第三方自动化人员并不是两件事就能完成的。这是“让我由我们的法律团队来处理这件事”的几个月。然后是沉默。在获得一卢比之前，我需要进行数周的免费教育和掌握。这种销售周期听起来令人心碎。 还有一个更大的担忧，即 Epic、Zoho Health 和每个主要的 EMR 都在悄悄地在本地构建这些东西。当诊所现有的软件将其作为功能更新推出时，为什么要向我付费？ 我一直被告知我的临床背景是与众不同的。好吧，也许吧。我确实理解为什么需要以某种方式构建分类工作流程，而不仅仅是如何连接节点。但是，当克劳德和内置工具存在时，这实际上足以让人们支付数千美元吗？ 我想坚持这一点，但我也需要在合理的时间内赚到一些东西，以免失去理智。如果距离第一笔收入还有 12 个月，我就完蛋了。 这里有谁真正向医疗保健客户出售过自动化产品吗？花了多长时间，合规角度是真正的卖点还是只是更多的摩擦？   由   提交/u/LurkNLoop  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1the4ai/should_i_learn_n8n_for_healthcare_automation_as_a/</guid>
-      <pubDate>Tue, 19 May 2026 06:12:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>为一家花店建立了电子邮件自动化系统，它意外地成为了他们最好的销售人员</title>
-      <link>https://www.reddit.com/r/automation/comments/1tgdlhu/built_an_email_automation_for_a_florist_and_it/</link>
-      <description><![CDATA[我的邻居拥有一家花店。小地方，也许有四名员工。 她一直抱怨在婚礼和活动后失去回头客。人们会订购一次，喜欢这些花，然后就忘记了这家商店的存在。她有一个记满客户姓名的笔记本和零跟进系统。我告诉她我也许可以解决这个问题，老实说，我只是在周六下午感到无聊。 使用我一直在摆弄的一些开源工作流程工具设置自动电子邮件序列。我花了大约一个小时，其中大部分时间是在弄清楚她那张简陋的电子表格。它只是在周年纪念日、生日之类的事情之前发送个性化的提醒。没什么特别的。 三个月后，她告诉我，这家商店收到了大约 18k 的重复订单，否则她是不可能得到的。我几乎不相信她。我花在清理她的联系人列表上的时间比实际构建自动化的时间还要多。 老实说我还是无法理解它。   由   提交 /u/Pristine_Rest_7912   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1tgdlhu/built_an_email_automation_for_a_florist_and_it/</guid>
-      <pubDate>Mon, 18 May 2026 05:57:46 GMT</pubDate>
     </item>
     </channel>
 </rss>

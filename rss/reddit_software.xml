@@ -4,7 +4,42 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 20 May 2026 02:47:34 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 06:45:52 GMT</lastBuildDate>
+    <item>
+      <title>我陷入了与 Man** 的人工智能客户支持循环中</title>
+      <link>https://www.reddit.com/r/software/comments/1tid7j5/i_got_trapped_in_an_ai_customer_support_loop_with/</link>
+      <description><![CDATA[Manus 认为其信用退款和客户支持系统存在严重问题。 我写这篇文章是因为过去 24 小时发生的事情不仅仅是退款延迟，而且暴露了 Manus 处理错误、退款和用户支持方式的结构性问题。 了解发生了什么。 我写这篇文章是因为我已经看到了反复出现的错误、回归、渲染失败，我当时正在开发一个大型爬行/仪表板项目，由于工作流程不稳定，该项目消耗了大量的积分。 重要的是：错误报告本身是由 Manus 编写的。 系统本身承认： * 回归错误 * 重复的资源浪费 * 渲染失败 * 状态嵌入/导出失败 * 由于覆盖配置而重复返工 已提交： * 会话链接 * 技术错误报告 * 执行日志 * TXT 对话日志 * 浪费积分的详细说明 最初，Manus 只退还了部分积分 * 5 月 15 日至 5 月 18 日运营（4,430 个积分中，有 4,430 个被退回并正常使用）。 5 月 19 日我上班时，因 Manus 的错误而要求退还浪费的积分，范围很大。 在我举证质疑退款范围后，支持人员承认问题会升级，后来另一位支持团队成员告诉我，5,142 个积分得到了保证。退款。 但这才是真正问题开始的地方。 承诺的退款实际上从未出现在我的余额中。  从那时起，客户支持感觉就像一个无限的人工智能响应循环。 已收到重复的变化： *“我们的相关团队正在审查此问题。” *“请耐心等待。” *“您的退款已处理。” *“可能需要一些时间来反映。” * Credits It可能已经被消耗了。 问题是： 我自己检查了时间戳、日志和使用历史记录。 一个支持响应甚至使用了退款请求本身存在之前发生的屏幕截图时间戳。 这意味着什么： 他们的解释在逻辑上不可能是正确的。 尽管如此： * 没有具体的预计到达时间 * 没有负责任的解释 * 确切的退款 否ledger * 没有提供透明的审计跟踪。 相反，我必须自己进行研究： * 会话时间 * 退款时间 * 信用消费历史 * 支持矛盾 * 执行日志 这部分是不可接受的。 如果 Manus 可以： * 检测错误， /&gt; * 提交错误报告生成， * 接受退款， * 访问执行日志， 那么为什么客户应该担任审计角色呢？ 当前的信用问题尚未解决，实际工作已经完全停止。 这里最大的担忧甚至不是丢失的信用本身。 其背后有一个运营结构： * AI 生成迭代支持回应 * 无所有权 * 可操作的时间表无 * 退款计算不透明 * 举证责任转移给客户 * 未能迅速解决紧急中断 在这件事发生之前，我真的很喜欢Manus。   由   提交 /u/ShipAffectionate1431   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tid7j5/i_got_trapped_in_an_ai_customer_support_loop_with/</guid>
+      <pubDate>Wed, 20 May 2026 06:26:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>您实际使用的是哪种记录商户 (MoR)？为什么？</title>
+      <link>https://www.reddit.com/r/software/comments/1ticzfs/which_merchant_of_record_mor_are_you_actually/</link>
+      <description><![CDATA[我正准备推出新的 SaaS，并且正在连接结帐管道。我想使用 MoR，这样我就不必自己处理计算全球税收/增值税或多货币的麻烦。 问题是：我现在完全作为个人独立开发者运营。尚未设置 LLC、Private Limited 或公司税号。 在我承诺使用某个平台并编写所有后端集成代码之前，我很想知道社区实际使用的是什么。 如果您正在运行 SaaS，您能否快速回顾一下您的 MoR？  平台：您在使用什么？ 入职：他们让您很难获得独立开发/未注册企业的批准？ 削减：他们收取多少费用，支出是否一致？ API 集成：他们的文档和 webhooks 有多干净？这是一个快速设置吗？ 支持：如果付款被卡住或帐户被标记，他们的客户服务是否真的人性化且有帮助？  让我知道您的建议（以及要避免的内容）。谢谢！   由   提交 /u/RunFull2601   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1ticzfs/which_merchant_of_record_mor_are_you_actually/</guid>
+      <pubDate>Wed, 20 May 2026 06:14:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>是否应该在新员工入职或培训期间当他们仍在学习时对其进行监控，或者这么早就判断他们的产出是否不公平？</title>
+      <link>https://www.reddit.com/r/software/comments/1tictjt/should_new_employees_be_monitored_during_their/</link>
+      <description><![CDATA[ 由   提交/u/RachelFrancis45546  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tictjt/should_new_employees_be_monitored_during_their/</guid>
+      <pubDate>Wed, 20 May 2026 06:06:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>NAVAL-SEM — 免费离线 PLS-SEM/CB-SEM 桌面应用程序（SmartPLS 替代方案）</title>
+      <link>https://www.reddit.com/r/software/comments/1tia0zo/navalsem_free_offline_plssemcbsem_desktop_app/</link>
+      <description><![CDATA[构建这个是因为 SmartPLS 费用为 365 美元/年，很多研究人员根本买不起。 NAVAL-SEM 完全离线，无需登录，无需订阅。 它的作用： 可视化拖放模型构建器 PLS-SEM 和 CB-SEM（ML、WLS） Bootstrapping、HTMT、AVE、Fornell-Larcker CFI、RMSEA、SRMR、χ2、AIC、BIC、R2 CSV / Excel / SPSS 支持 v0.4.0 刚刚发布 - 添加了真实案例研究库和 SmartPLS 功能比较。 👉 github.com/navalsingh9/naval-sem 希望定期运行 SEM 的人提供反馈。   由   提交 /u/Unusual-Radio8382   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tia0zo/navalsem_free_offline_plssemcbsem_desktop_app/</guid>
+      <pubDate>Wed, 20 May 2026 03:45:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>ZealPHP — 使用 OpenSwoole 运行时现代化 PHP 请求模型</title>
+      <link>https://www.reddit.com/r/software/comments/1ti9c8w/zealphp_modernizing_the_php_request_model_with_an/</link>
+      <description><![CDATA[ 由   提交 /u/sibidharan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1ti9c8w/zealphp_modernizing_the_php_request_model_with_an/</guid>
+      <pubDate>Wed, 20 May 2026 03:14:39 GMT</pubDate>
+    </item>
     <item>
       <title>设计师们，请把我带到你们用来获得高质量图像的最佳位置</title>
       <link>https://www.reddit.com/r/software/comments/1ti8iv8/designers_put_me_on_to_the_best_places_you_use/</link>
@@ -71,44 +106,9 @@
     <item>
       <title>Deskepty 已在 Microsoft Store 上架！ 🚀</title>
       <link>https://www.reddit.com/r/software/comments/1thstjo/deskepty_is_on_the_microsoft_store/</link>
-      <description><![CDATA[大家好！ Deskepty Windows 版 Organizer 已通过 Microsoft 严格的安全考验，现已在 Microsoft Store 上发布。 迁移到官方商店后，我可以将 Deskepty 打包到安全的 MSIX 容器中。这意味着：  零 SmartScreen 警告：该应用程序经过正式代码签名，开箱即受到 Windows 的完全信任。 干净、一键安装和安全。更新： Windows 自动处理所有后台更新。  🔗 立即获取 Windows 应用商店应用内的文本索引器仍在全球同步，但您现在可以通过直接链接直接跳转到零售列表： 👉在此处的 Microsoft Store 如果您遇到任何问题、有疑问或想要建议下一次更新的功能，请在 r/deskepty subreddit 中分享。 GitHub 仍然活跃 对于那些在 GitHub 上跟踪项目的人，该应用仍将在那里积极维护，因为一个中心枢纽。您可以继续查看项目更新、阅读文档并遵循发行说明。支持 Microsoft Store 版本绝对是获得自动后台更新、干净的容器化安装以及支持项目持续开发的最佳方式！   由   提交/u/Ghazi197  [链接] [评论]]]></description>
+      <description><![CDATA[编辑： 嘿伙计们，我在促销 GIF 上清楚地听到你们的声音！，我完全匆忙进行了编辑以展示功能，现在看它，它看起来绝对像一台打了类固醇的老虎机。 😅 如果您想更冷静、实际地了解该应用程序的功能，请观看下面 Microsoft Store 列表中的干净视频！ 大家好！ DeskeptyWindows 管理器已通过 Microsoft 严格的安全考验，现已在 Microsoft Store 上上线。 转移到官方商店使我能够打包将桌面放入安全的 MSIX 容器中。这意味着：  零 SmartScreen 警告：该应用程序经过正式代码签名，开箱即受到 Windows 的完全信任。 干净、一键安装和安全。更新： Windows 自动处理所有后台更新。  🔗 立即获取 Windows 应用商店应用内的文本索引器仍在全球同步，但您现在可以通过直接链接直接跳转到零售列表： 👉在此处的 Microsoft Store 如果您遇到任何问题、有疑问或想要建议下一次更新的功能，请在 r/deskepty subreddit 中分享。 GitHub 仍然活跃 对于那些在 GitHub 上跟踪项目的人，该应用仍将在那里积极维护，因为一个中心枢纽。您可以继续查看项目更新、阅读文档并遵循发行说明。支持 Microsoft Store 版本绝对是获得自动后台更新、干净的容器化安装以及支持项目持续开发的最佳方式！   由   提交/u/Ghazi197  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1thstjo/deskepty_is_on_the_microsoft_store/</guid>
       <pubDate>Tue, 19 May 2026 16:51:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Galaxy Slider 3 鼠标软件</title>
-      <link>https://www.reddit.com/r/software/comments/1ths8oo/galax_slider_3_mouse_software/</link>
-      <description><![CDATA[各位，我需要 galax slider 3 软件，我去了那里的网站，但是没有鼠标软件链接，只有 gpu 软件有，我没有 NVDIA gpu，所以我无法下载它，任何东西都必须在没有 gpu 的情况下下载 slider 3 鼠标软件，请帮助我   由   提交 /u/Just-Firefighter-878   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1ths8oo/galax_slider_3_mouse_software/</guid>
-      <pubDate>Tue, 19 May 2026 16:32:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于 Razer Cortex（GPU 温度）的困惑</title>
-      <link>https://www.reddit.com/r/software/comments/1thns9a/confusion_regarding_razer_cortex_gpu_temps/</link>
-      <description><![CDATA[ 由   提交/u/Wonderful_Mood_4980   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1thns9a/confusion_regarding_razer_cortex_gpu_temps/</guid>
-      <pubDate>Tue, 19 May 2026 13:57:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>推出新 SaaS 的最佳方式是什么？</title>
-      <link>https://www.reddit.com/r/software/comments/1thmy8h/whats_the_best_way_to_launch_a_new_saas/</link>
-      <description><![CDATA[过去几个月我们正在构建一个新的 SaaS，现在将推出所有内容。您的快速曝光的最佳做法是什么？   由   提交 /u/Flotter-Otter   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1thmy8h/whats_the_best_way_to_launch_a_new_saas/</guid>
-      <pubDate>Tue, 19 May 2026 13:26:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>客户想要“现代化”他们已有 15 年历史的 .NET 应用程序，但不让我们接触数据库</title>
-      <link>https://www.reddit.com/r/software/comments/1thly4r/client_wants_to_modernize_their_15_year_old_net/</link>
-      <description><![CDATA[ 由   提交/u/Mountain_Pin7428  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1thly4r/client_wants_to_modernize_their_15_year_old_net/</guid>
-      <pubDate>Tue, 19 May 2026 12:48:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>涂鸦太可怕了寻找一种更简单、没有广告的替代方案。</title>
-      <link>https://www.reddit.com/r/software/comments/1thlks2/doodle_is_horrible_looking_for_a_simpler/</link>
-      <description><![CDATA[大家好，我在比利时的一家中型代理机构工作，我们与客户举行了很多会议。  最烦人的事情总是找不到见面时间。通常我们会来回发送 5 封电子邮件来找到时间。 我们尝试过 Doodle，但它对我们来说太贵了。我们每个用户每月支付 15 欧元，并且需要 5 个订阅（900 欧元/年！！！），只是为了查找会议时间😂  你们现在都用什么？正在寻找更好的 Doodle 替代方案，即：  更便宜（我们公司的一次订阅 &lt;150 欧元/年） 更简单 对我们的客户来说看起来很专业 理想情况下不需要参与者帐户  多时区支持也是一个优点，我们有很多全球客户。 非常感谢！欢迎任何建议   由   提交/u/apexwaldo  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1thlks2/doodle_is_horrible_looking_for_a_simpler/</guid>
-      <pubDate>Tue, 19 May 2026 12:33:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
