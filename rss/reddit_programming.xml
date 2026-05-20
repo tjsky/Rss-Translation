@@ -4,13 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 20 May 2026 06:45:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 11:46:56 GMT</lastBuildDate>
     <item>
-      <title>你可以只做事</title>
-      <link>https://www.reddit.com/r/programming/comments/1tics92/you_can_just_do_things/</link>
-      <description><![CDATA[ 由   提交 /u/shivernz   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tics92/you_can_just_do_things/</guid>
-      <pubDate>Wed, 20 May 2026 06:04:15 GMT</pubDate>
+      <title>虚拟博物馆配备您能想到的所有操作系统</title>
+      <link>https://www.reddit.com/r/programming/comments/1tij6js/virtual_museum_with_every_operating_system_you/</link>
+      <description><![CDATA[ 由   提交 /u/MorroWtje   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tij6js/virtual_museum_with_every_operating_system_you/</guid>
+      <pubDate>Wed, 20 May 2026 11:45:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>新的 NGINX 漏洞允许未经身份验证的 RCE</title>
+      <link>https://www.reddit.com/r/programming/comments/1tiil62/new_nginx_vulnerability_allows_unauthenticated_rce/</link>
+      <description><![CDATA[ 由   提交 /u/CircumspectCapybara   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tiil62/new_nginx_vulnerability_allows_unauthenticated_rce/</guid>
+      <pubDate>Wed, 20 May 2026 11:17:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源 Rust 为工作树和 CI 构建缓存</title>
+      <link>https://www.reddit.com/r/programming/comments/1tieiq7/opensource_rust_build_cache_for_worktrees_and_ci/</link>
+      <description><![CDATA[嘿伙计们，好奇是否还有其他人使用 Rust 工作树实现了这一目标。 你启动了几个分支，审查了几个 PR，也许运行了一些代理生成的工作树，突然间每个目标/目录都再次悄悄地存储了相同的编译工件。 令人烦恼的部分是，构建缓存通常被视为速度问题，但对我们来说，存储方面变得就像痛苦。 我们最终围绕这个想法开源了一个小工具：缓存工件一次，在需要的地方恢复它们，避免在各处重复相同的 .rlib 文件。 最感兴趣的是听听其他人如何在更大的 Rust 存储库、单一存储库或 CI 密集设置中处理这个问题。   由   提交/u/Mulated_Relief_3825   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tieiq7/opensource_rust_build_cache_for_worktrees_and_ci/</guid>
+      <pubDate>Wed, 20 May 2026 07:38:20 GMT</pubDate>
     </item>
     <item>
       <title>CISA 不小心在 GitHub 上泄露了自己的密钥</title>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交/u/james_haydon   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1thd1bm/using_algebra_to_verify_a_flightplan_bug_fix_in/</guid>
       <pubDate>Tue, 19 May 2026 05:15:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>314 个 npm 软件包刚刚遭到泄露，271 个 @antv、echarts-for-react、size-sensor、timeago.js</title>
-      <link>https://www.reddit.com/r/programming/comments/1thcanx/314_npm_packages_just_got_compromised_271_antv/</link>
-      <description><![CDATA[atool 维护者帐户被黑，攻击者在 22 分钟内推送了 314 个软件包中的 631 个恶意版本。又一天又是一次袭击。它会窃取所有内容，例如 AWS 密钥、GitHub 令牌、npm 凭证、SSH 密钥、数据库字符串、docker 配置、kubernetes 令牌。如果您暴露了 docker 套接字，它将以特权访问方式转义容器。   由   提交/u/BattleRemote3157  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1thcanx/314_npm_packages_just_got_compromised_271_antv/</guid>
-      <pubDate>Tue, 19 May 2026 04:39:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bleichenbacher 对隐藏数问题的攻击使用傅里叶分析，而不是格子</title>
-      <link>https://www.reddit.com/r/programming/comments/1th96cs/bleichenbacher_attacks_on_hidden_number_problems/</link>
-      <description><![CDATA[ 由   提交/u/DataBaeBee  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1th96cs/bleichenbacher_attacks_on_hidden_number_problems/</guid>
-      <pubDate>Tue, 19 May 2026 02:17:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
