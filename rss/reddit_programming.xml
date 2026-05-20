@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 20 May 2026 11:46:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 14:51:01 GMT</lastBuildDate>
+    <item>
+      <title>混合配额线性速率限制器 – Tony Finch</title>
+      <link>https://www.reddit.com/r/programming/comments/1timjny/hybrid_quotalinear_rate_limiter_tony_finch/</link>
+      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1timjny/hybrid_quotalinear_rate_limiter_tony_finch/</guid>
+      <pubDate>Wed, 20 May 2026 13:58:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>我没有意识到我们的 CLI 浪费了多少开发人员时间，直到我看到有人实际使用它</title>
+      <link>https://www.reddit.com/r/programming/comments/1tijgc8/i_didnt_realize_how_much_developer_time_our_cli/</link>
+      <description><![CDATA[我最近开始更加关注的一件事是上下文切换在多大程度上悄悄地降低了开发人员的生产力。 几个月前，我们的一位 devex 工程师正在为商家调试 webhook 问题，几乎整个会话都在终端和仪表板之间切换。第一步是终端，下一步是浏览器，回到终端，再回到浏览器。 技术上没有什么问题，但工作流程让人筋疲力尽。 这让我意识到我们的 CLI 主要是为脚本设计的，而不是为真正尝试构建东西的人设计的。 许多开发工具仍然以这种方式工作。你运行一个命令，它返回输出，然后一切都消失，你重新开始。这对于自动化来说很好，但一旦你在工具中花费了数小时，就变得相当笨重。 因此，我们开始重新思考整个事情，不再像“命令列表”，而更像实际的工作环境。 我们改变的最大的事情是保持状态，而不是将每个交互视为孤立的。一旦我们做到了这一点，许多较小的挫败感就开始自然消失。 Webhook 测试也变得更加容易。早些时候，重现边缘情况通常意味着打开仪表板、手动触发事件、等待网络调用、重试并重复循环。我们在本地移动了更多内容，这立即使调试不再那么痛苦。 安全性是我们长期忽视的另一件事。我们早期的设置以一种诚实可接受的方式存储凭据，只是因为没有人正确地重新访问它。看到越来越多的创始人使用 CLI，很明显我们需要更加认真地对待本地凭证处理。 在重建它时令我惊讶的一件事是，即使在终端工具中，响应能力也很重要。微小的延迟、缓慢的更新、迟缓的渲染，它们单独听起来很小，但当有人在环境中花费数小时时，它们会很快复合。 但对我来说，更大的认识是开发人员很少直接抱怨这些东西。他们只是解决这个问题并慢慢地浪费时间。 人们很容易认为“CLI 存在，所以问题就解决了。”看到有人实际上将支付与它集成，这使得差距变得显而易见。 很好奇构建开发工具的其他团队是否也有过类似的时刻，只有在看到有人实时使用该产品后，真正的痛苦才变得明显。   由   提交/u/aagarwal1012  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tijgc8/i_didnt_realize_how_much_developer_time_our_cli/</guid>
+      <pubDate>Wed, 20 May 2026 11:57:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>烟雾测试的乐趣和利润</title>
+      <link>https://www.reddit.com/r/programming/comments/1tije8n/smoke_tests_for_fun_and_profit/</link>
+      <description><![CDATA[ 由   提交 /u/Successful_Bowl2564   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tije8n/smoke_tests_for_fun_and_profit/</guid>
+      <pubDate>Wed, 20 May 2026 11:55:18 GMT</pubDate>
+    </item>
     <item>
       <title>虚拟博物馆配备您能想到的所有操作系统</title>
       <link>https://www.reddit.com/r/programming/comments/1tij6js/virtual_museum_with_every_operating_system_you/</link>
@@ -18,13 +39,6 @@
       <description><![CDATA[ 由   提交 /u/CircumspectCapybara   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tiil62/new_nginx_vulnerability_allows_unauthenticated_rce/</guid>
       <pubDate>Wed, 20 May 2026 11:17:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源 Rust 为工作树和 CI 构建缓存</title>
-      <link>https://www.reddit.com/r/programming/comments/1tieiq7/opensource_rust_build_cache_for_worktrees_and_ci/</link>
-      <description><![CDATA[嘿伙计们，好奇是否还有其他人使用 Rust 工作树实现了这一目标。 你启动了几个分支，审查了几个 PR，也许运行了一些代理生成的工作树，突然间每个目标/目录都再次悄悄地存储了相同的编译工件。 令人烦恼的部分是，构建缓存通常被视为速度问题，但对我们来说，存储方面变得就像痛苦。 我们最终围绕这个想法开源了一个小工具：缓存工件一次，在需要的地方恢复它们，避免在各处重复相同的 .rlib 文件。 最感兴趣的是听听其他人如何在更大的 Rust 存储库、单一存储库或 CI 密集设置中处理这个问题。   由   提交/u/Mulated_Relief_3825   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tieiq7/opensource_rust_build_cache_for_worktrees_and_ci/</guid>
-      <pubDate>Wed, 20 May 2026 07:38:20 GMT</pubDate>
     </item>
     <item>
       <title>CISA 不小心在 GitHub 上泄露了自己的密钥</title>
@@ -53,13 +67,6 @@
       <description><![CDATA[ 由   提交/u/jacobs-tech-tavern   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1thq1un/the_7_deadly_sins_of_cargo_culting/</guid>
       <pubDate>Tue, 19 May 2026 15:17:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bazel 教给我们关于 Terraform 的知识</title>
-      <link>https://www.reddit.com/r/programming/comments/1thoqzu/what_bazel_taught_us_about_terraform/</link>
-      <description><![CDATA[ 由   提交/u/omgwtfbbqasdf   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1thoqzu/what_bazel_taught_us_about_terraform/</guid>
-      <pubDate>Tue, 19 May 2026 14:31:29 GMT</pubDate>
     </item>
     <item>
       <title>输入代码</title>
@@ -99,16 +106,9 @@
     <item>
       <title>纸上编码</title>
       <link>https://www.reddit.com/r/programming/comments/1thdzhj/coding_on_paper/</link>
-      <description><![CDATA[ 由   提交/u/BlondieCoder  [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交 /u/BlondieCoder   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1thdzhj/coding_on_paper/</guid>
       <pubDate>Tue, 19 May 2026 06:05:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用代数验证精益中的飞行计划错误修复</title>
-      <link>https://www.reddit.com/r/programming/comments/1thd1bm/using_algebra_to_verify_a_flightplan_bug_fix_in/</link>
-      <description><![CDATA[ 由   提交/u/james_haydon   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1thd1bm/using_algebra_to_verify_a_flightplan_bug_fix_in/</guid>
-      <pubDate>Tue, 19 May 2026 05:15:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
