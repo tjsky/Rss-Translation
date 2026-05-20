@@ -4,7 +4,56 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 20 May 2026 14:50:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 17:52:26 GMT</lastBuildDate>
+    <item>
+      <title>我刚刚在 Microsoft Store 上发布了 Minimal Image Viewer</title>
+      <link>https://www.reddit.com/r/software/comments/1tisg0l/i_just_released_minimal_image_viewer_on_the/</link>
+      <description><![CDATA[仍在进行中，但它是一个非常轻量级、可用的 Windows 照片查看器。无需遥测，无需连接互联网，您仍然可以从 Github 下载便携式 .exe。    由   提交/u/deminimis_opsec   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tisg0l/i_just_released_minimal_image_viewer_on_the/</guid>
+      <pubDate>Wed, 20 May 2026 17:22:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>新版本：立即打开和编辑任何公共图像网址</title>
+      <link>https://www.reddit.com/r/software/comments/1tisfto/new_release_open_and_edit_any_public_image_url/</link>
+      <description><![CDATA[这个想法非常简单。我制作了一个小工具，可以让您立即在编辑器中直接打开公共图像网址，而不是下载图像并将其上传到编辑器并每次重复相同的步骤。 如果您有图像网址，您可以将其放在 canvix io 之后 它会直接在编辑器中打开，准备裁剪、调整大小、注释、删除背景或立即继续编辑。 我最初构建它是因为正常工作流程对于快速编辑来说感觉不必要的缓慢。  一些事情：  最适合直接公共图像网址 受保护/私有图像可能会失败 基本使用不需要注册  好奇这里的其他人是否真的会在他们的工作流程中使用类似的东西，或者大多数人是否仍然更喜欢桌面工具来快速编辑？   由   提交/u/Accomplished-Bill414   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tisfto/new_release_open_and_edit_any_public_image_url/</guid>
+      <pubDate>Wed, 20 May 2026 17:22:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mouzi - 自动整理下载文件夹</title>
+      <link>https://www.reddit.com/r/software/comments/1tis5yj/mouzi_organize_downloads_folder_automatically/</link>
+      <description><![CDATA[嗨 :) 我不了解你，但我的下载文件夹一直是一个灾难区。 PDF、模因、安装程序、zip 文件、随机图像——所有这些都堆成一大堆。每隔几周，我就会打开它，叹口气，然后花 10 分钟手动将内容拖到文件夹中。几天后，又会变得混乱。 我查看了现有的文件管理器，但大多数人要么想要订阅，试图将我的文件名上传到某个云，要么对于如此简单的东西来说太重了。我想要这样的东西：  在后台静默运行（系统托盘） 自动按类型（图像、文档、存档、安装程序）对新文件进行排序 永远不会从我的机器上发送单个字节的数据 是开源的，因此任何人都可以检查它在做什么  所以我构建了Mouzi 🐭🧹 这是一个用 Tauri 和 Rust 构建的小型桌面应用程序（~3.3MB），因此它非常轻量。它会监视您的“下载”文件夹，每当出现新文件时，它就会根据其扩展名将其移动到子文件夹中。图片转到 Images/，PDF 转到 Documents/，安装程序转到 Installers/ 等。您还可以创建自己的自定义规则。 关键事项：  100% 本地 – 无云，无遥测 开源 (MIT) – GitHub 存储库这里 安静 - 存在于您的托盘中，不会打扰您 撤消 - 每一步操作都会被记录，您只需点击一下即可恢复 免费，显然  现在还处于早期阶段，但它已经让我自己的机器保持正常运转。我很想从这个社区获得一些反馈——特别是关于哪些功能可以使其真正对您有用。这是否解决了真正的问题，还是我只是在挠痒痒？ 下载/更多信息： https://mouzi.cc   由   提交/u/bankrut  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tis5yj/mouzi_organize_downloads_folder_automatically/</guid>
+      <pubDate>Wed, 20 May 2026 17:13:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要分散你正在做的事情的注意力</title>
+      <link>https://www.reddit.com/r/software/comments/1tiqzju/do_not_distract_from_what_youre_doing/</link>
+      <description><![CDATA[您好！ 作为一个经常不知道自己的时间都花在哪里的人，我开始开发一款名为 AreYouFocused 的应用程序。它可以帮助我（也希望其他人）在分心时专注于重要的事情。该应用程序在本地运行，不需要互联网连接，不过我正在考虑构建一个具有桌面移动同步功能的移动版本。 目前它仅适用于 Windows，但如果有足够的兴趣，我会考虑将其移植到其他平台。 我目前正在获得 SignPath 的认证，因此 Windows 可能会显示一条警告，指出该应用程序未签名。如果您担心安全性，请随时检查源代码并在本地构建它。 非常欢迎建议和反馈。 最重要的部分：我个人真的厌倦了所有这些基于订阅的趋势，因此这个应用程序将始终是免费和开源的。如果您最终像我一样喜欢它，我们将不胜感激。请记住，这不是我的全职工作，所以我会继续努力，但不会每天都有更新。 捐赠： https://ko-fi.com/shakirun   由   提交/u/Fit_Management5283  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tiqzju/do_not_distract_from_what_youre_doing/</guid>
+      <pubDate>Wed, 20 May 2026 16:32:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建了一个小型桌面应用程序，用于使用 Ollama 运行本地法学硕士。</title>
+      <link>https://www.reddit.com/r/software/comments/1tipfj6/built_a_small_desktop_app_for_running_local_llms/</link>
+      <description><![CDATA[为了比较输出而在 ChatGPT/Claude/UI 之间切换感到很恼火，我想要一些只在本地运行而无需涉及 12 个移动部件的设置仪式的东西。 所以我制作了 OpenBench。 这是一个 Tauri 桌面应用程序，可以连接到 Ollama，让你在本地与模型聊天。设置方面没有什么特别的：安装它，运行它，完成。 主要思想很简单：  您可以在同一提示下并排运行多个模型 实时响应流，以便您可以实际正确地比较它们 Markdown + LaTeX 渲染，以便在数学显示时输出看起来不会损坏 不会保存的临时“访客”聊天 基本聊天管理（存档、系统提示等） 您可以从应用内部安装 Ollama 模型，而无需手动安装  技术方面是：  Tauri 2（React + TS 前端、Rust 后端） Zusstand + MUI + Tailwind 用于存储的 SQLite ollama-rs 用于通信  稍微有趣的部分是多模型流：每个模型都会获取一个请求 ID，前端将数据块路由到正确的消息气泡中，这样您就可以立即观看多个答案的构建，而不会一切都变得一团糟。 现在它仅限于 Ollama。我也计划了 OpenAI 兼容的 API，只是还没有将它们连接起来。 如果有人想看一下的话，请回购： https://github.com/monolabsdev/openbench-ai   由   提交 /u/Sea-Professor6511   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tipfj6/built_a_small_desktop_app_for_running_local_llms/</guid>
+      <pubDate>Wed, 20 May 2026 15:39:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Emacs 和 org-remark 就地注释</title>
+      <link>https://www.reddit.com/r/software/comments/1tioihm/annotateinplace_notes_with_emacs_and_orgremark/</link>
+      <description><![CDATA[&quot;对我而言，这种模式如此优雅的原因在于其体验的熟悉性。我不了解你的情况，但我几乎一生都在用铅笔和钢笔给书本做注释和做笔记，这往往是最吸引人、最振奋人心的经历。在这种互动中，有一种je ne sais quoi让我感觉更接近我正在阅读的内容，即使不是它的一部分。这是一种物理就地注释，而且效果非常好。 长期以来，我一直在寻找将笔输入源文本的人体工程学与软件解决方案的无限灵活性之间的认知桥梁。 annotate-in-place 是提供这种桥梁的模式，Emacs 中的 org-remark 是该模式的一种实现。有了它，数字笔记对我来说就像在物理介质上记笔记一样直观且符合人体工程学。”   由   提交/u/misterchiply  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tioihm/annotateinplace_notes_with_emacs_and_orgremark/</guid>
+      <pubDate>Wed, 20 May 2026 15:07:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>ActivTrak 在我的个人电脑上？？？</title>
+      <link>https://www.reddit.com/r/software/comments/1tio3k8/activtrak_on_my_personal_computer/</link>
+      <description><![CDATA[ 由   提交 /u/IfUr555thenIm_666   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tio3k8/activtrak_on_my_personal_computer/</guid>
+      <pubDate>Wed, 20 May 2026 14:53:49 GMT</pubDate>
+    </item>
     <item>
       <title>2 个月内索引了 75 个页面，什么真正推动了 SEO？分享我的数据并征求您的建议。</title>
       <link>https://www.reddit.com/r/software/comments/1timojj/75_pages_indexed_in_2_months_what_actually_moved/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[嗨， 我们一直致力于一个名为 BeeMesh++ 的开源项目，它是原始 Python 代码 BeeMesh 的 C++ 实现。 这基本上就像SLURM，但适用于多个地理位置独立的设备。 它使用受自然启发的架构模型：  Hive（协调器）：管理网络状态、跟踪可用计算节点（蜜蜂）、处理作业调度逻辑并聚合结果。 蜜蜂（工人）：连接到 Hive 的志愿计算节点，宣布其可用性，监听传入的序列化任务负载，执行它们，并将结果流式传输回来。  注意：这仍处于早期阶段。 提前计划是对所有网络通信、蜜蜂之间的通信、并行独立代码块等实施加密。 反馈、架构批评或代码审查表示赞赏。   由   提交/u/dheerajshenoy22   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tiirbc/beemesh_a_distributed_volunteer_computing/</guid>
       <pubDate>Wed, 20 May 2026 11:25:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>Loom 有没有免费的替代品来录制超过 5 分钟的视频？</title>
-      <link>https://www.reddit.com/r/software/comments/1tiimd3/are_there_any_free_alternatives_to_loom_to_record/</link>
-      <description><![CDATA[嘿，那里。我一直在努力录制视频解决方案，以解决我的脸在小角落里可见的问题。  我想，肯定会有一些免费软件，因为我现在不想付费。  如有任何建议，我们将不胜感激！ P.S：我使用的是 Windows   由   提交/u/Coded_Human  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tiimd3/are_there_any_free_alternatives_to_loom_to_record/</guid>
-      <pubDate>Wed, 20 May 2026 11:19:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站拦截器对我来说从来没有用过，所以我构建了一个扩展程序，它逐渐破坏了分散注意力的网站的用户体验。</title>
-      <link>https://www.reddit.com/r/software/comments/1tiig90/website_blockers_never_worked_for_me_so_i_built/</link>
-      <description><![CDATA[大家好， 像大多数人一样，我尝试过不同的网站拦截器来阻止工作时间在 Reddit 和 YouTube 上滚动。但每当我真的想拖延时，我就会进入我的扩展设置并关闭阻止程序。意志力总是会丧失。 我意识到“网站被封锁”是很难的。墙壁引发叛乱反应。因此，我想尝试一种不同的方法：如果扩展程序只是让网站使用起来有点烦人怎么办？ 我构建了一个名为 FadeOut 的轻量级扩展程序。它不会阻止 URL，而是会在几分钟内逐渐降低您添加到其中的任何网站的用户体验。 我基本上组合了 8 种不同的“深色模式”。防止用户缺乏多巴胺反应：  颜色流失：注入CSS以缓慢地将页面饱和度降低到全灰度。 假缓冲：随机暂停HTML5视频并注入假加载旋转器，或在一定滚动深度后冻结提要。 速度和速度分辨率降低：将视频播放速度降低至 0.5 倍，并逐渐模糊图像。 导航冷却：每次单击网站上的链接时，都会注入 5-15 秒的强制倒计时叠加层。  其背后的心理基本上是“温水煮青蛙”。由于该网站在技术上可以正常运行，因此您不会本能地禁用该扩展程序。但过了一段时间，这种体验变得如此无聊和滞后，以至于你的大脑放弃了，你自愿关闭了标签页。 我刚刚将 v1 推送到了 Chrome 网上应用店。核心功能是免费的。我希望一些扩展高级用户（或开发人员）对其进行测试，并让我知道您对此概念的看法。 链接：https://chromewebstore.google.com/detail/fadeout/onoloaihkcmcdoaecnppeimlohcjnldj?authuser=1&amp;hl=en 很想听听是否有人尝试过这种方法“摩擦力”方法而不是彻底阻止！   由   提交/u/jijel97  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tiig90/website_blockers_never_worked_for_me_so_i_built/</guid>
-      <pubDate>Wed, 20 May 2026 11:11:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个轻量级 Windows 屏幕录像机，用于垂直内容创建</title>
-      <link>https://www.reddit.com/r/software/comments/1tii5ux/i_built_a_lightweight_windows_screen_recorder_for/</link>
-      <description><![CDATA[大家好， 我最近构建了 MediaRecorder Lite，这是一款小型 Windows 屏幕录像机，专注于快速垂直录制 Reels、Shorts、TikTok、演示和应用预览等内容。 我想要比完整录制套件更简单的东西：选择区域、快速录制，并保持 UI 最小化，无需不必要的设置。 Main想法：  轻量级 Windows 应用 简单的区域选择 专注于垂直/社交媒体风格录制 对于快速演示、教程和短片很有用 可通过 Microsoft Store 获取  目前这不是一个开源项目，但我非常感谢创建短视频、教程或应用演示的人们的反馈。 Microsoft Store 链接： https://apps.microsoft.com/detail/9nlb7l766q5m?hl=de-DE&amp;gl=DE 很想知道哪些功能可以使其对您的工作流程更有用。   由   提交 /u/True-Sentence-7253   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tii5ux/i_built_a_lightweight_windows_screen_recorder_for/</guid>
-      <pubDate>Wed, 20 May 2026 10:57:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于新的 CS/CE 毕业生来说，就业市场是否都如此糟糕？</title>
-      <link>https://www.reddit.com/r/software/comments/1tii1g7/is_the_job_market_this_bad_everywhere_for_new/</link>
-      <description><![CDATA[ 由   提交 /u/Individual_Two_9931   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tii1g7/is_the_job_market_this_bad_everywhere_for_new/</guid>
-      <pubDate>Wed, 20 May 2026 10:51:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>vatnode — 带有 VIES 咨询号码的欧盟增值税验证 API</title>
-      <link>https://www.reddit.com/r/software/comments/1tihlvu/vatnode_eu_vat_validation_api_with_vies/</link>
-      <description><![CDATA[它是什么：用于验证欧盟增值税号码的 REST API。返回有关合格支票的官方 VIES 咨询号码 - EC 签发的收据，财务团队需要该收据作为反向收费发票的审计证据。大多数商业增值税 API 完全跳过此字段。 还包括： - 当 VIES 关闭时（约 6% 的时间），国家税务机关回退 (RO/CZ/DK/FI/FR/PL/SE/DE) - 每个响应中的 checkId + verifyAt 审计跟踪字段 - 同一响应中的国家/地区增值税税率元数据（标准/降低/超级降低/停车） - 可选增值税监控 + 付费计划上的签名 Webhook - 缓存响应50 毫秒，实时检查 200–800 毫秒 堆栈：Hono + Postgres + Redis + Next.js 15，欧盟在德国托管（GDPR 原生）。 定价：免费 0 美元（每月 100 次检查，无卡）/入门版 19 美元/专业版 49 美元/企业定制。该网站上的网络验证器是免费的，不需要注册。 专为在欧盟跨境销售的 B2B SaaS、金融科技、电子商务和 ERP 集成商而构建。 网站：vatnode.dev 文档：vatnode.dev/docs 其背后的开源数据集（MIT，每日从 EC TEDB 同步）：github.com/vatnode/ Solo创始人，居住在芬兰，拥有 25 年以上 B2B 软件开发经验。本周推出。真正对定价页面的反馈和首次 API 调用入门体验感兴趣。   由   提交 /u/Total-Reasonable   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tihlvu/vatnode_eu_vat_validation_api_with_vies/</guid>
-      <pubDate>Wed, 20 May 2026 10:29:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>公司在选择员工屏幕监控软件之前应该考虑什么，特别是在隐私和透明度方面？</title>
-      <link>https://www.reddit.com/r/software/comments/1tigw9c/what_should_companies_consider_before_choosing/</link>
-      <description><![CDATA[ 由   提交/u/RachelFrancis45546  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tigw9c/what_should_companies_consider_before_choosing/</guid>
-      <pubDate>Wed, 20 May 2026 09:52:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>(Windows/Android) 系统-Meeter-栏</title>
-      <link>https://www.reddit.com/r/software/comments/1tifh91/windowsandroid_systemmeeterbar/</link>
-      <description><![CDATA[Windows：https://www.app-smb.com/index.html Android：https://play.google.com/store/apps/details?id=com.it_huskys.smb “System-Meeter-Bar”旨在为许可友好的支持和分析工具提供解决方案，这些工具结构紧凑，与需要商业用途许可的 EULA 无关。 SMB 是一款集系统数据收集工具、系统概述工具、基准测试、测试和系统报告工具于一体的工具。您可以使用它来显示系统概览、发现问题或通过内置基准测试工具测试系统的稳定性，无论它是在私有系统上使用还是在商业环境中使用。 System-Meeter-Bar 的主要功能： SMB 提供了许多有用的支持和系统测试功能： 数据和系统测试。信息 这是 SMB 的主要功能，它显示系统的实时概览，其中包含系统最重要的数据、系统核心数据、CPU、RAM、电池、显示数据、存储使用情况和网络活动。 系统监控 通过对 CPU、系统核心数据、存储设备和网络流量的实时监控，您可以通过轻松的活动跟踪来监控整个系统的负载。 基准和测试测试 SMB 配备了自己的内置基准测试工具，可以对系统的热量或功率问题进行压力测试，但也可以对系统的 CPU 功率进行评分，以便与其他系统进行比较，或测试存储设备的速度，然后快速调用您需要的任何系统/选项设置。在 Android 设备上，您还可以检查手电筒、振动、显示/屏幕（坏点）等功能。 系统快捷方式 SMB 带有自己的内置系统快捷方式菜单。它提供对系统中隐藏或难以找到的许多配置、选项和应用程序/文件夹/工具的快速访问和触发。  设备测试 SMB 提供了广泛的功能来测试 Android 设备的全部功能。屏幕颜色测​​试可测试烧伤或缺陷像素、振动或手电筒。使用 SMB 可以轻松检测到此类设备缺陷。 系统报告 利用此功能，您可以为运行 SMB 的系统创建自定义系统报告，其中包含所有系统核心数据、硬件数据和基准测试结果，以进行故障排除和分析。   由   提交 /u/Unreal_NeoX   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tifh91/windowsandroid_systemmeeterbar/</guid>
-      <pubDate>Wed, 20 May 2026 08:32:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
