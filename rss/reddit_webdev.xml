@@ -4,13 +4,27 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 22 May 2026 11:44:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 14:30:21 GMT</lastBuildDate>
     <item>
-      <title>构建汽车应用程序让我意识到 VIN 数据比我预想的要混乱得多！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tkg3q7/building_a_car_app_made_me_realize_vin_data_is/</link>
-      <description><![CDATA[我现在正在开发一个与汽车相关的小型应用程序，不知何故，最困难的部分并不是 UI 或后端......而是弄清楚一旦你开始测试现实世界的车辆，哪个 VIN API 不会完全崩溃，哈哈。我尝试过的 API 中有一半缺少装饰，提供了奇怪的引擎数据，或者根据市场返回完全不一致的信息。 起初，我想，VIN 就是 VIN，这能有多难？事实证明，解码欧盟汽车、美国进口汽车、摩托车、旧车型等是一场完全不同的噩梦。我一直在测试几个选项，Vincario 实际上是迄今为止最流畅的选项之一，无需花费数小时手动清理响应即可获取详细的车辆数据。 不过，我很好奇其他人在使用什么，特别是如果您正在构建市场、保险、车队或汽车应用程序。您最终是长期坚持使用一个提供商还是只是将多个 API 组合在一起？   由   提交/u/xaybell32  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tkg3q7/building_a_car_app_made_me_realize_vin_data_is/</guid>
-      <pubDate>Fri, 22 May 2026 11:25:02 GMT</pubDate>
+      <title>我构建了一个免费的审核工具，在一次扫描中将 SEO/AEO/GEO 可见性与安全分析结合起来</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkkczu/i_built_a_free_audit_tool_that_combines_seoaeogeo/</link>
+      <description><![CDATA[      我已经开发和测试了几个月，终于准备好分享了。 作为我日常工作的一部分，我为客户进行网络审核，而总是让我沮丧的是需要三到四个不同的工具才能获得完整的情况。一个用于 SEO 基础知识，一个用于安全标头，一个用于结构化数据，并且它们都不会相互通信。 所以我构建了 Canopy Guard。它针对任何域运行一次扫描，并对四个层进行评分：SEO（可抓取性、H1s、元、规范）、AEO（架构标记、常见问题解答 JSON-LD、问答密度）、GEO（AI 模型如何分块和引用您的内容、llms.txt 状态）和安全性（TLS、所有六个关键标头、AI 抓取策略、公开端点）。 我对反馈最感兴趣的部分是交叉参考情报部分。它将可见性侧的发现与安全性侧进行映射，并显示仅存在于重叠中的间隙。例如，如果您的 robots.txt 是允许的，但您没有 llms.txt，则 AI 抓取工具会在没有任何引用指导的情况下提取您的内容。 SEO 工具和安全工具都不会单独标记这一点。 技术堆栈：Vercel 上的 React 前端、Railway 上的 Node.js/Express/TypeScript 后端、线索存储概念、通过 Promise.all 并行运行的 12 个扫描模块。 DM 链接 很想听听您的想法，特别是关于 GEO 和 AEO 评分，因为这些是大多数工具尚未触及的较新概念。   由   提交/u/Wise-Cardiographer-31   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkkczu/i_built_a_free_audit_tool_that_combines_seoaeogeo/</guid>
+      <pubDate>Fri, 22 May 2026 14:18:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人让 Mac 上的 Safari 在每次重新加载时停止重新下载 serviceWorker js 文件吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkhdep/anyone_got_safari_on_mac_to_stop_redownloading/</link>
+      <description><![CDATA[我发送这些标头： &#39;Cache-Control&#39;: &#39;public, max-age=31536000, immutable&#39;  注册如下： await navigator .serviceWorker.register(&#39;/serviceWorker.js&#39; , { type: &#39;module&#39; , updateViaCache: &quot;all&quot; })  但是每次在新选项卡中加载站点或重新加载时，都会检索服务工作线程文件（在页面完全加载之后）。  有人能做到这一点吗？或者这个错误（？）没有人关心吗？  我想要这个固定原因： 1）不需要无意义的http流量（所有其他资源都被缓存） 2）服务器现在知道您何时打开/刷新选项卡（我不想知道） 3）服务器（或中间人黑客）现在可以在未经用户同意的情况下向用户推送新的网络应用程序 我的用例是尝试使用以下方式从任何网络浏览器提供文件webRTC 以服务器无法访问任何数据的方式进行。因此，随时推送新的 Web 应用程序的能力似乎在一定程度上破坏了这种安全性。    由   提交/u/seweso   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkhdep/anyone_got_safari_on_mac_to_stop_redownloading/</guid>
+      <pubDate>Fri, 22 May 2026 12:22:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>是否可以根据用户输入将 jQuery 自动完成调整为不同的行为？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkh46d/is_it_possible_to_tweak_jquery_autocomplete_into/</link>
+      <description><![CDATA[我有一个搜索输入字段，用户可以在其中输入搜索字符串。如果用户选择一个结果，无论是使用向下箭头并输入或单击鼠标，它都会跳转到该页面。 但是，如果用户按 Enter 键而不选择任何内容，我希望它将用户发送到搜索结果页面。我是这样做的： $(&quot;#searchcamp&quot;).autocomplete({ source: &quot;searchCamp.php&quot;, minLength: 2, response: function( event, ui ) { // 如果未登录，则将用户重定向到登录页面 if( ui.content[0].id == &quot;logout&quot; ) { window.location.href=&quot;login.php&quot; } }, select: function( event, ui ) { location.href=&quot;showCamp.php?id=&quot;+ui.item.id; $(“#searchcamp”).keydown(function(event) { if (event.keyCode == 13) { location.href=&#39;showCamps.php?s=&#39;+document.getElementById(“searchcamp”).value; } });  但是，这个 keydown 部分显然否决了“选择”选项。规则上面的规则，并将用户发送到搜索结果页面，即使已使用向下箭头键突出显示了建议。 如何使 Enter 按“选择”中指定的行为？如果突出显示了建议，但如果没有突出显示建议，则将用户发送到 showCamps.php 页面？   由   提交 /u/oz1sej   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkh46d/is_it_possible_to_tweak_jquery_autocomplete_into/</guid>
+      <pubDate>Fri, 22 May 2026 12:11:00 GMT</pubDate>
     </item>
     <item>
       <title>通过 WebAuthn 在网络上进行 Touch ID/Face ID，生产过程中出现了什么问题？</title>
@@ -18,27 +32,6 @@
       <description><![CDATA[下周在网络上发送密钥/生物识别登录。开发环境运行良好，演示运行良好，文档使其看起来像是 2 小时的集成。我不相信这些。一旦真正的用户点击它，实际上会破坏什么？   由   提交/u/Exact_Importance_507   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tkg3dz/touch_id_face_id_on_web_via_webauthn_what_breaks/</guid>
       <pubDate>Fri, 22 May 2026 11:24:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的职称是高级开发人员，但我现在主要只是提示一些事情</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tkek0d/my_job_title_says_senior_dev_but_i_mostly_just/</link>
-      <description><![CDATA[我在上一个冲刺中发布了三个功能。手写了大概四十行。 剩下的就是副驾驶和克劳德在做繁重的工作，而我则坐在那里检查差异和调整变量名称。我有八年的经验，我了解系统设计，我可以整天在白板上写架构模式。但当真正坐下来编写实现时，我只是让人工智能来做，因为它更快，而且老实说，输出通常比我在周四下午 4 点编写的内容更干净。 我的同事昨天让我结对编程，我感到了这种奇怪的恐慌。就像我忘记了如何在不先输入提示的情况下思考一个函数。不得不假装我只是在思考，而实际上我是在努力记住在这一切之前我是如何处理问题的。 我仍然调试所有内容。我仍然负责建筑方面的工作。但实际的代码输入感觉就像我外包给机器的东西，现在我无法将其取回。 在这个领域工作了十年之后，这是一个奇怪的地方。   由   提交 /u/Bellleq   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tkek0d/my_job_title_says_senior_dev_but_i_mostly_just/</guid>
-      <pubDate>Fri, 22 May 2026 10:08:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于人工智能编码的部分没人愿意承认</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tkebpi/the_part_about_ai_coding_nobody_wants_to_admit/</link>
-      <description><![CDATA[我的副项目在四天内交付。以前的我至少需要三周的时间。 我最近几乎所有事情都依赖人工智能代理，路由逻辑、数据库查询，甚至一些前端布局的东西。我仍然了解发生了什么，我可以阅读代码并在出现问题时进行调试。但我几乎不再从头开始写任何东西了。上周二，我坐下来手动编写一个简单的身份验证流程，然后……盯着屏幕。忘记我以前是如何构建中间件的。必须像查看别人的代码一样查看我自己的旧存储库。 不过速度确实很疯狂。我在午餐时制作了一些原型，这在以前需要我一个完整的冲刺。快速运输带来的多巴胺冲击很难摆脱。 但是有一种奇怪的内疚感。就像我在指挥方面做得越来越好，而在做事方面却越来越差。 我们现在仍然是开发人员还是只是非常擅长提示？   由   提交 /u/Bellleq   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tkebpi/the_part_about_ai_coding_nobody_wants_to_admit/</guid>
-      <pubDate>Fri, 22 May 2026 09:56:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>让代理重构我的周末原型，差异令人尴尬</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tke91b/let_an_agent_refactor_my_weekend_prototype_and/</link>
-      <description><![CDATA[我有一个业余项目位于私人仓库中。大约三个月的周末提交，也许有四十个文件。它起作用了。几乎没有。 上周，我用一条指令指向一个自主编码代理，基本上将其变成了我在代码审查期间不会羞于展示的东西。当我做意大利面时让它运行过夜，然后就忘记了它。一觉醒来，大约有 70 个拉取请求合并到了一个临时分支中。 同一个应用程序。相同的功能。相同的用户界面。但现在有了实际的错误处理、通过的集成测试、适当的关注点分离。我一直告诉自己我最终会做的事情。我永远不会。 奇怪的部分是阅读这些更改。一些我确实不会想到的重构。有些是值得怀疑的。有一些让我意识到我最初的架构决策只是一种感觉，根本没有任何理由。 仍在处理这对我的工作方式意味着什么。   由   提交 /u/Available-Door-1460   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tke91b/let_an_agent_refactor_my_weekend_prototype_and/</guid>
-      <pubDate>Fri, 22 May 2026 09:52:49 GMT</pubDate>
     </item>
     <item>
       <title>我开源了自己的 saas 代码。所以你可以分叉它。 （非促销）</title>
@@ -78,7 +71,7 @@
     <item>
       <title>我使用 Next.js 15 和 WebAssembly (FFmpeg WASM) 构建了一个客户端视频压缩器</title>
       <link>https://www.reddit.com/r/webdev/comments/1tk72xe/i_built_a_clientside_video_compressor_using/</link>
-      <description><![CDATA[嘿开发者， 在周六的展示中，我想分享我的开源 Web 实用程序：Mintah De Condenser (condenser.codemintah.dev)。 堆栈： 前端：Next.js 15 + React + Tailwind CSS。 处理：FFmpeg WebAssembly (@ffmpeg/ffmpeg) 直接在浏览器线程中处理高性能视频渲染。 优化：配置自定义标头以启用 SharedArrayBuffer（COOP 和 COEP），允许多线程处理，从而显着加快客户端转码速度。 解决的问题：大多数基于 Web 的视频压缩器将文件上传到服务器，这对于大文件来说速度很慢，而且对隐私来说很糟糕。通过利用 WASM，我们直接在用户的硬件上处理所有计算工作。 如果您有关于 Web Worker 优化、浏览器性能或用户界面的反馈，我将不胜感激！ 链接：https://condenser.codemintah.dev    由   提交/u/SweatyAd3647  [链接] [评论]]]></description>
+      <description><![CDATA[嘿开发者， 在周六的展示中，我想分享我的开源 Web 实用程序：Mintah De Condenser (condenser.codemintah.dev)。 堆栈： 前端：Next.js 15 + React + Tailwind CSS。 处理：FFmpeg WebAssembly (@ffmpeg/ffmpeg) 直接在浏览器线程中处理高性能视频渲染。 优化：配置自定义标头以启用 SharedArrayBuffer（COOP 和 COEP），允许多线程处理，从而显着加快客户端转码速度。 解决的问题：大多数基于 Web 的视频压缩器将文件上传到服务器，这对于大文件来说速度很慢，而且对隐私来说很糟糕。通过利用 WASM，我们直接在用户的硬件上处理所有计算工作。 我非常感谢有关 Web Worker 优化、浏览器性能或用户界面的任何反馈！ 链接：https://condenser.codemintah.dev    由   提交/u/SweatyAd3647  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tk72xe/i_built_a_clientside_video_compressor_using/</guid>
       <pubDate>Fri, 22 May 2026 03:32:47 GMT</pubDate>
     </item>
@@ -109,6 +102,13 @@
       <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tk1a23/release_notes_for_safari_technology_preview_244/</guid>
       <pubDate>Thu, 21 May 2026 23:16:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>.htaccess 帮助！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tjzeb0/htaccess_help/</link>
+      <description><![CDATA[我正在将内容从旧域移动到新域，但有一些问题。我希望旧域的主页转到新域上的特定页面。我希望旧域上特定文件夹中的所有内容都转到新的子域。我也希望页面和查询字符串能够传达，这样访问站点 A 的人几乎不会注意到它们已被转发到站点 B。  其他所有内容都可以转发（我已经弄清楚了那部分！）  我尝试了很多不同的想法，但没有一个有效，所以我已经没有选择了。这是我所拥有的，或者最想要的：  RewriteEngine On # If / or /index.php 重定向到 newsite.org/index-alt.php （然后停止！[END]） # 第一个挑战 # If /directory[/whatever] 重定向到 subdomain.newsite.org[/whatever]（然后停止！[END]） # 第二个挑战 # 或者将其他所有内容重定向到 newsite.org[/everythingelse?etc] # 这可行，但这是最好的解决方案吗？ RewriteRule .* https://newsite.org%{REQUEST\_URI} [R=302,L] &lt;/IfModule&gt;   由   提交/u/blargy-blargy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tjzeb0/htaccess_help/</guid>
+      <pubDate>Thu, 21 May 2026 22:00:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
