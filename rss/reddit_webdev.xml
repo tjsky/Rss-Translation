@@ -4,7 +4,63 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 22 May 2026 06:48:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 11:44:01 GMT</lastBuildDate>
+    <item>
+      <title>构建汽车应用程序让我意识到 VIN 数据比我预想的要混乱得多！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkg3q7/building_a_car_app_made_me_realize_vin_data_is/</link>
+      <description><![CDATA[我现在正在开发一个与汽车相关的小型应用程序，不知何故，最困难的部分并不是 UI 或后端......而是弄清楚一旦你开始测试现实世界的车辆，哪个 VIN API 不会完全崩溃，哈哈。我尝试过的 API 中有一半缺少装饰，提供了奇怪的引擎数据，或者根据市场返回完全不一致的信息。 起初，我想，VIN 就是 VIN，这能有多难？事实证明，解码欧盟汽车、美国进口汽车、摩托车、旧车型等是一场完全不同的噩梦。我一直在测试几个选项，Vincario 实际上是迄今为止最流畅的选项之一，无需花费数小时手动清理响应即可获取详细的车辆数据。 不过，我很好奇其他人在使用什么，特别是如果您正在构建市场、保险、车队或汽车应用程序。您最终是长期坚持使用一个提供商还是只是将多个 API 组合在一起？   由   提交/u/xaybell32  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkg3q7/building_a_car_app_made_me_realize_vin_data_is/</guid>
+      <pubDate>Fri, 22 May 2026 11:25:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过 WebAuthn 在网络上进行 Touch ID/Face ID，生产过程中出现了什么问题？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkg3dz/touch_id_face_id_on_web_via_webauthn_what_breaks/</link>
+      <description><![CDATA[下周在网络上发送密钥/生物识别登录。开发环境运行良好，演示运行良好，文档使其看起来像是 2 小时的集成。我不相信这些。一旦真正的用户点击它，实际上会破坏什么？   由   提交/u/Exact_Importance_507   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkg3dz/touch_id_face_id_on_web_via_webauthn_what_breaks/</guid>
+      <pubDate>Fri, 22 May 2026 11:24:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的职称是高级开发人员，但我现在主要只是提示一些事情</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkek0d/my_job_title_says_senior_dev_but_i_mostly_just/</link>
+      <description><![CDATA[我在上一个冲刺中发布了三个功能。手写了大概四十行。 剩下的就是副驾驶和克劳德在做繁重的工作，而我则坐在那里检查差异和调整变量名称。我有八年的经验，我了解系统设计，我可以整天在白板上写架构模式。但当真正坐下来编写实现时，我只是让人工智能来做，因为它更快，而且老实说，输出通常比我在周四下午 4 点编写的内容更干净。 我的同事昨天让我结对编程，我感到了这种奇怪的恐慌。就像我忘记了如何在不先输入提示的情况下思考一个函数。不得不假装我只是在思考，而实际上我是在努力记住在这一切之前我是如何处理问题的。 我仍然调试所有内容。我仍然负责建筑方面的工作。但实际的代码输入感觉就像我外包给机器的东西，现在我无法将其取回。 在这个领域工作了十年之后，这是一个奇怪的地方。   由   提交 /u/Bellleq   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkek0d/my_job_title_says_senior_dev_but_i_mostly_just/</guid>
+      <pubDate>Fri, 22 May 2026 10:08:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于人工智能编码的部分没人愿意承认</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkebpi/the_part_about_ai_coding_nobody_wants_to_admit/</link>
+      <description><![CDATA[我的副项目在四天内交付。以前的我至少需要三周的时间。 我最近几乎所有事情都依赖人工智能代理，路由逻辑、数据库查询，甚至一些前端布局的东西。我仍然了解发生了什么，我可以阅读代码并在出现问题时进行调试。但我几乎不再从头开始写任何东西了。上周二，我坐下来手动编写一个简单的身份验证流程，然后……盯着屏幕。忘记我以前是如何构建中间件的。必须像查看别人的代码一样查看我自己的旧存储库。 不过速度确实很疯狂。我在午餐时制作了一些原型，这在以前需要我一个完整的冲刺。快速运输带来的多巴胺冲击很难摆脱。 但是有一种奇怪的内疚感。就像我在指挥方面做得越来越好，而在做事方面却越来越差。 我们现在仍然是开发人员还是只是非常擅长提示？   由   提交 /u/Bellleq   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkebpi/the_part_about_ai_coding_nobody_wants_to_admit/</guid>
+      <pubDate>Fri, 22 May 2026 09:56:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>让代理重构我的周末原型，差异令人尴尬</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tke91b/let_an_agent_refactor_my_weekend_prototype_and/</link>
+      <description><![CDATA[我有一个业余项目位于私人仓库中。大约三个月的周末提交，也许有四十个文件。它起作用了。几乎没有。 上周，我用一条指令指向一个自主编码代理，基本上将其变成了我在代码审查期间不会羞于展示的东西。当我做意大利面时让它运行过夜，然后就忘记了它。一觉醒来，大约有 70 个拉取请求合并到了一个临时分支中。 同一个应用程序。相同的功能。相同的用户界面。但现在有了实际的错误处理、通过的集成测试、适当的关注点分离。我一直告诉自己我最终会做的事情。我永远不会。 奇怪的部分是阅读这些更改。一些我确实不会想到的重构。有些是值得怀疑的。有一些让我意识到我最初的架构决策只是一种感觉，根本没有任何理由。 仍在处理这对我的工作方式意味着什么。   由   提交 /u/Available-Door-1460   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tke91b/let_an_agent_refactor_my_weekend_prototype_and/</guid>
+      <pubDate>Fri, 22 May 2026 09:52:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>我开源了自己的 saas 代码。所以你可以分叉它。 （非促销）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tke5ur/i_opensourced_my_own_saass_code_so_you_can_fork/</link>
+      <description><![CDATA[      TLDR：我的 saas 有效。停止为样板/网络构建器付费，免费使用它。 我采用了为自己的项目构建的样板，将其剥离到核心，然后将其开源。 它称为Velobase。免费，麻省理工学院，没有广告，没有追加销售，随心所欲地进行分叉 它与通常的入门套件的不同之处在于：大多数都停留在 auth + Stripe + 登陆页面。 Velobase 保留来自工作产品的发布后收入基础设施。 我认为营销 &gt;一直在构建。 老实说权衡：它比其他一些样板重得多，因为它来自我的生产代码。如果您在本周末快速发布 MVP，那就有点过分了。 Repo 已开放。真的很喜欢这个子程序的反馈：您希望样板能够处理哪些您目前无法处理的内容？？   由   提交 /u/Unlikely_Diamond424   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tke5ur/i_opensourced_my_own_saass_code_so_you_can_fork/</guid>
+      <pubDate>Fri, 22 May 2026 09:47:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么这么多平台仍然使用电子邮件代码/魔术链接而不是基于设备的东西？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkdcfs/why_do_so_many_platforms_still_use_email/</link>
+      <description><![CDATA[令我越来越沮丧的是，有多少平台没有密码或密钥选项，而是在您每次登录时通过电子邮件向您发送 6 位代码或魔术链接。您坐在那里等待 30 秒，而最终他们发送的每封电子邮件的成本都不到一美分。将其乘以每天数十亿次登录，就会需要大量的等待和大量的金钱。 因此，我一直想知道：为什么您的设备不能证明它可以访问您注册时使用的电子邮件帐户？ SSH 密钥可以让您证明数据源自您的设备，为什么您的设备不能持有密钥来验证您对该电子邮件地址的控制？看起来安全性至少会一样好，而且对每个人来说都会更快、更便宜。双赢。 这是否已经是一个我没有看到的已解决问题？如果是，为什么电子邮件 OTP 仍然无处不在？真的很好奇是否存在真正的技术原因，还是只是惯性。   由   提交 /u/Fair-Average5139   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkdcfs/why_do_so_many_platforms_still_use_email/</guid>
+      <pubDate>Fri, 22 May 2026 09:02:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>79 岁时构建 Drupal</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkcath/building_drupal_at_79_years_old/</link>
+      <description><![CDATA[我今天接到了一个新客户。一家位于英国的慈善机构。 “网站站长”（她的话）是一位 79 岁的女士，她在 70 岁时创办了 Drupal。 很高兴能与她交谈并听到她谈论作曲家、git 以及我们认为理所当然的事情。 老实说，这是我在经营 Drupal 机构 20 多年中遇到的最有益健康的事情之一。  她想要从 D10 升级到 D11，并解释了她所经历的作曲家地狱。我同意帮助她，并预计需要几个小时来提供帮助。这是一个超级简单的网站，老实说这需要多长时间。 无论如何，我想分享这个故事，我希望在 79 岁的时候我仍然能像我的新客户对她的项目一样充满热情，继续开发 Drupal。   由   提交/u/davidrwb  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkcath/building_drupal_at_79_years_old/</guid>
+      <pubDate>Fri, 22 May 2026 08:03:19 GMT</pubDate>
+    </item>
     <item>
       <title>SSR、React Components Server、NextJS - 安全的替代品？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tkaipk/ssr_react_components_server_nextjs_safe/</link>
@@ -22,7 +78,7 @@
     <item>
       <title>我使用 Next.js 15 和 WebAssembly (FFmpeg WASM) 构建了一个客户端视频压缩器</title>
       <link>https://www.reddit.com/r/webdev/comments/1tk72xe/i_built_a_clientside_video_compressor_using/</link>
-      <description><![CDATA[嘿开发者， 在周六的展示中，我想分享我的开源 Web 实用程序：Mintah De Condenser (condenser.codemintah.dev)。 堆栈： 前端：Next.js 15 + React + Tailwind CSS。 处理：FFmpeg WebAssembly (@ffmpeg/ffmpeg) 直接在浏览器线程中处理高性能视频渲染。 优化：配置自定义标头以启用 SharedArrayBuffer（COOP 和 COEP），允许多线程处理，从而显着加快客户端转码速度。 解决的问题：大多数基于 Web 的视频压缩器将文件上传到服务器，这对于大文件来说速度很慢，而且对隐私来说很糟糕。通过利用 WASM，我们直接在用户的硬件上处理所有计算工作。 我非常感谢有关 Web Worker 优化、浏览器性能或用户界面的任何反馈！ 链接：https://condenser.codemintah.dev    由   提交/u/SweatyAd3647  [链接] [评论]]]></description>
+      <description><![CDATA[嘿开发者， 在周六的展示中，我想分享我的开源 Web 实用程序：Mintah De Condenser (condenser.codemintah.dev)。 堆栈： 前端：Next.js 15 + React + Tailwind CSS。 处理：FFmpeg WebAssembly (@ffmpeg/ffmpeg) 直接在浏览器线程中处理高性能视频渲染。 优化：配置自定义标头以启用 SharedArrayBuffer（COOP 和 COEP），允许多线程处理，从而显着加快客户端转码速度。 解决的问题：大多数基于 Web 的视频压缩器将文件上传到服务器，这对于大文件来说速度很慢，而且对隐私来说很糟糕。通过利用 WASM，我们直接在用户的硬件上处理所有计算工作。 如果您有关于 Web Worker 优化、浏览器性能或用户界面的反馈，我将不胜感激！ 链接：https://condenser.codemintah.dev    由   提交/u/SweatyAd3647  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tk72xe/i_built_a_clientside_video_compressor_using/</guid>
       <pubDate>Fri, 22 May 2026 03:32:47 GMT</pubDate>
     </item>
@@ -53,62 +109,6 @@
       <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tk1a23/release_notes_for_safari_technology_preview_244/</guid>
       <pubDate>Thu, 21 May 2026 23:16:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>.htaccess 帮助！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjzeb0/htaccess_help/</link>
-      <description><![CDATA[我正在将内容从旧域移动到新域，但有一些问题。我希望旧域的主页转到新域上的特定页面。我希望旧域上特定文件夹中的所有内容都转到新的子域。我也希望页面和查询字符串能够传达，这样访问站点 A 的人几乎不会注意到它们已被转发到站点 B。  其他所有内容都可以转发（我已经弄清楚了那部分！）  我尝试了很多不同的想法，但没有一个有效，所以我已经没有选择了。这是我所拥有的，或者最想要的：  RewriteEngine On # If / or /index.php 重定向到 newsite.org/index-alt.php （然后停止！[END]） # 第一个挑战 # If /directory[/whatever] 重定向到 subdomain.newsite.org[/whatever]（然后停止！[END]） # 第二个挑战 # 或者将其他所有内容重定向到 newsite.org[/everythingelse?etc] # 这可行，但这是最好的解决方案吗？ RewriteRule .* https://newsite.org%{REQUEST\_URI} [R=302,L] &lt;/IfModule&gt;   由   提交/u/blargy-blargy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjzeb0/htaccess_help/</guid>
-      <pubDate>Thu, 21 May 2026 22:00:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>DEV 工具：将样式面板中的更改写入源代码</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjxogt/dev_tools_writing_changes_in_the_styles_panel_to/</link>
-      <description><![CDATA[我正在尝试将对象与模板对齐，并在样式面板中使用鼠标滚轮来推动周围的事物。有没有办法将这些样式面板更改保存到源代码中的 CSS 中？   由   提交/u/mapsedge  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjxogt/dev_tools_writing_changes_in_the_styles_panel_to/</guid>
-      <pubDate>Thu, 21 May 2026 20:56:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 wordexpress 对媒体（如 letterboxd）进行速率和存档？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjwftn/rate_and_archive_of_media_like_letterboxd_with/</link>
-      <description><![CDATA[我正在考虑一个与 letterboxd 具有相同逻辑但适用于其他类型媒体的网站。我对代码非常菜鸟（只知道应用于neocities的html和css），所以我对后端一无所知，这就是为什么我认为wordexpress是解决方案。 你们认为可以使用那里可用的插件做类似的事情吗？比如拥有可以与 itens 以及彼此交互的用户配置文件？   由   提交/u/lisbethkarnstein   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjwftn/rate_and_archive_of_media_like_letterboxd_with/</guid>
-      <pubDate>Thu, 21 May 2026 20:12:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>除非您准备好失去对自己网站的访问权限，否则不要在 Netlify 上托管您的项目</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjv4ae/dont_host_your_projects_on_netlify_unless_youre/</link>
-      <description><![CDATA[从我的错误中吸取教训。 我在 Netlify 上运行了 2 个项目。部署积分用完了，好吧，这种情况确实发生了。但他们不仅暂停了部署，还关闭了我的整个网站。不是“你不能推动新的改变”，而是“你不能推动新的改变”。实时网站刚刚消失。没有任何关于网站将关闭的警告。 计费周期本来应该在昨天更新。事实并非如此。网站仍然关闭。更重要的是 - 您无法在免费套餐中购买积分。解决这个问题的唯一方法是升级到付费计划。没有其他选择。 所以我想，好吧，我就把所有东西都迁移出去。尝试登录，他们向我发送了验证码。输入了它。被拒绝了。尝试了我的备份代码也被拒绝。我现在完全无法访问自己的帐户，无法返回。 客户支持呢？除非您使用付费计划，否则不存在。 总结一下： - 当您达到信用额度时，网站会关闭（不仅仅是部署） - 计费未按预期自动续订 - 不升级到计划就无法购买信用 - 2FA 已损坏，将我完全锁定 - 免费层提供零支持 如果您正在托管您真正关心的任何内容，请使用 VPS+Coolify。不要让他们劫持您的项目。 还有其他人处理过这个问题吗？我很想知道是否有任何方法可以恢复帐户   由   提交 /u/darkarrow_sh   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjv4ae/dont_host_your_projects_on_netlify_unless_youre/</guid>
-      <pubDate>Thu, 21 May 2026 19:26:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>第一次使用 AWS S3 和 Clerk - 老实说没有我想象的那么可怕</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjuyhn/first_time_using_aws_s3_and_clerk_honestly_not_as/</link>
-      <description><![CDATA[我已经推迟学习 AWS 好几个月了，因为它让人感到不知所措。今天开始构建我的 SaaS 项目并强迫自己去做。  S3 — 用于直接浏览器上传的预签名 URL 可能需要 2 个小时才能理解和实现。 AWS 文档很丰富，但一旦你拿到 SDK，它实际上是干净的。  Clerk — 确实是我做过的最快的身份验证设置。后端中间件和前端组件在一小时内即可运行。  还有很长的路要走，但今天的胜利向我自己证明，我几个月来一直回避的基础设施实际上是可以实现的。   由   提交 /u/Impossible_Fee_6217   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjuyhn/first_time_using_aws_s3_and_clerk_honestly_not_as/</guid>
-      <pubDate>Thu, 21 May 2026 19:21:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>无能的管理者比大肆宣传人工智能的首席执行官更糟糕</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjsw2t/incompetent_managers_are_worse_than_aihyped_ceos/</link>
-      <description><![CDATA[我在一家拥有超过 5000 名员工的科技公司工作。我从经理和工程师那里看到的绝对胡说八道的数量令人震惊。自动化包升级、linting、测试、自动化、漏洞扫描等的脚本正在被 Claude Skills 取代。  因此，他们正在用非确定性人工智能取代确定性、高效、现有且可信的系统，这些系统可能会出现停机时间或 API 限制，从而让我们陷入困境。在最好的情况下，他们将现有的 CLI 包装在 Claude Skills 中，以获得双重打击。 没有人反对这一点。没有一个中层管理人员。没有一个高层。没有一个工程师。年增长率超过 15 的人一头扎进这些废话中，把人工智能强加给每个人，即使客观上情况更糟。  还有其他人也遇到过这种情况吗？    由   提交/u/Shiedheda  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjsw2t/incompetent_managers_are_worse_than_aihyped_ceos/</guid>
-      <pubDate>Thu, 21 May 2026 18:11:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是 webdev 自由职业者的新手。我应该如何为定制的网络应用程序定价？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjqltk/i_am_new_to_freelancing_in_webdev_how_should_i/</link>
-      <description><![CDATA[我发现的大多数答案都早于可怕的人工智能激增，因此我希望在定价和截止日期方面获得更多更新或经验丰富的答复。 一家中型公司需要一个具有其规格的团队/项目管理内部工具，主要侧重于让经理能够概述每个人的项目、截止日期临近等等，而不需要大多数项目（如 Jira 或）附带的所有花哨功能。团队。 长话短说，我决定内部工具的架构是使用本地托管的 ASP .NET 和 PostgreSQL，这样，如果他们希望扩展其业务，我可以轻松地将其移动到 VPS，以便他们可以在家中使用它。 我的问题是，您建议我在这样一个 AI 饱和的市场中创建这个应用程序需要多少钱，需要多长时间？在当时，2 个月的工作量可能需要 3000 美元。还是一样，还是因为“让 AI 为你编码，这是你的 500 美元”而降低了价格？之类的事情？ 第二个问题，我应该如何安排我的设置和维护报价？这是一个标准，“我会将其安装在您的计算机上，并提供一年的维护，并在发生紧急情况时随叫随到”，还是需要额外费用？ 正如我所说，该项目是本地托管的，登录系统将很简单，大部分工作将与用户角色等一起放在 UI/UX 中。 作为一名 C# 桌面开发人员，我对专用服务器及其架构（如 TCP、UDP 及其身份验证）有很好的经验，数据包结构等。你可以想象，当我去年使用 ASP.NET 时，看到创建一个登录系统是多么容易，我感到多么惊讶。 欣赏它。   由   提交/u/Mayion  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjqltk/i_am_new_to_freelancing_in_webdev_how_should_i/</guid>
-      <pubDate>Thu, 21 May 2026 16:56:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于可视化网站的工具或软件</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjnpm7/tool_or_software_to_visualise_an_website/</link>
-      <description><![CDATA[您好，我正在寻求帮助重新设计一个网站并与运行该网站的人员讨论现有网站。  在开始之前，我希望能够将现有网站网页下载为图像，在理想的情况下，这将像当前页面的视觉流程图和/或还显示信息架构一样进行布局。 （这不是一个很大的网站，但足够大，手动完成会非常耗时）。 您是否知道或使用或推荐任何工具或软件来实现类似的目标？ 我我确信我过去见过一些东西，并把它加入了书签，但现在我需要它，但我找不到它，所以我想知道这是不是我编的。 😆 感谢您的任何建议。如果它是非编码人员可以使用的东西，但愿意接受任何建议，那就特别有用。   由   提交 /u/Inevitable_Elk_8406   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjnpm7/tool_or_software_to_visualise_an_website/</guid>
-      <pubDate>Thu, 21 May 2026 15:18:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
