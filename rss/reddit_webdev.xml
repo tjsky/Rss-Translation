@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 22 May 2026 02:51:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 06:48:27 GMT</lastBuildDate>
+    <item>
+      <title>SSR、React Components Server、NextJS - 安全的替代品？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tkaipk/ssr_react_components_server_nextjs_safe/</link>
+      <description><![CDATA[开发者您好。 我有一个小问题，所以我们知道 SSR 和 NextJS 等存在很多漏洞。很多人说替代方案是 HTMX 和 Vue、Nuxt 等，但是……React Router + Vite 怎么样 - 不是一个安全的方案吗？你对此有何看法？谢谢   由   提交/u/szansky   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tkaipk/ssr_react_components_server_nextjs_safe/</guid>
+      <pubDate>Fri, 22 May 2026 06:24:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用什么用户文档软件？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tk81oh/what_user_documentation_software_to_use/</link>
+      <description><![CDATA[大家好， 我是一名产品经理，但对 Web 开发并不太了解。我想创建一个用户文档/手册，因为我们的产品本质上缺少它。  我正在寻找文档构建网站或软件来从头开始编写用户文档，格式与编写 Word 文档或编写博客类似（看看我是否可以避免编写 Markdown 文本！） 我已经知道 Docusaurus 和 Gitbook 等网站，但是我想知道你们是否有其他资源以及使用您首选资源的理由，以便扩展我的选择并看看哪个最适合我们的需求。 谢谢！   由   提交/u/Israelisnogoodfam   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tk81oh/what_user_documentation_software_to_use/</guid>
+      <pubDate>Fri, 22 May 2026 04:19:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>我使用 Next.js 15 和 WebAssembly (FFmpeg WASM) 构建了一个客户端视频压缩器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tk72xe/i_built_a_clientside_video_compressor_using/</link>
+      <description><![CDATA[嘿开发者， 在周六的展示中，我想分享我的开源 Web 实用程序：Mintah De Condenser (condenser.codemintah.dev)。 堆栈： 前端：Next.js 15 + React + Tailwind CSS。 处理：FFmpeg WebAssembly (@ffmpeg/ffmpeg) 直接在浏览器线程中处理高性能视频渲染。 优化：配置自定义标头以启用 SharedArrayBuffer（COOP 和 COEP），允许多线程处理，从而显着加快客户端转码速度。 解决的问题：大多数基于 Web 的视频压缩器将文件上传到服务器，这对于大文件来说速度很慢，而且对隐私来说很糟糕。通过利用 WASM，我们直接在用户的硬件上处理所有计算工作。 我非常感谢有关 Web Worker 优化、浏览器性能或用户界面的任何反馈！ 链接：https://condenser.codemintah.dev    由   提交/u/SweatyAd3647  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tk72xe/i_built_a_clientside_video_compressor_using/</guid>
+      <pubDate>Fri, 22 May 2026 03:32:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用人工智能编码代理的开发人员：您的工作流程中信任在哪里破裂？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tk6op0/devs_using_ai_coding_agents_where_does_trust/</link>
+      <description><![CDATA[对于在真实代码库中使用 AI 编码代理的人来说，我试图了解实际的工作流程，而不是炒作版本。 当你给代理一个任务时，通常会发生什么？ - 你会先写一个详细的计划/规范吗？ - 你会给它一个简短的 GitHub 问题并让它弄清楚事情吗？ - 你主要在任务结束后进行审查吗？ PR/diff 完成了吗？ - 您是否会将工作分解为小任务，因为较大的任务会带来风险？ 我特别好奇您的时间都花在哪里了： - 在代理编写代码之前您花了多少时间进行计划？ - 在代理编写代码后您花了多少时间进行审查/修复？ - 您在什么时候不再信任代理？ - 最常发生哪些错误？ - 范围漂移 - 错误的假设 - 接触不相关的文件 - 缺少测试 - 通过了CI但仍然做错了 - 混乱的PR - 难以审查的差异 你目前正在做什么来让AI编写的代码更安全？  - 严格的提示 - 检查表 - CI/测试 - 手动PR审查 - 首先向代理询问计划 - 限制文件访问/范围 - 较小的问题 - 另一个代理审查第一个 - 还有其他事情吗？ 我试图弄清楚的一件事： **如果您在合并人工智能编写的代码之前想要有 99% 的置信度，那么需要什么是正确的？** 例如，您想要： - 更好的预编码计划？ - 将代理锁定在批准范围内的方法？ - 运行了哪些测试/检查的证明？ - 将最终差异与原始问题进行比较的摘要？ - 当代理接触不相关文件时发出警告？ - 对 PR 的信任评分/检查？ - 更像 CI，但针对代理行为而不仅仅是测试？ 另外：添加这种门会感觉有用吗？比如烦人的流程开销？ 尝试了解当今人们如何实际使用编码代理，以及什么能让他们足够值得信赖，适合认真的团队使用。   由   提交/u/Few-Ad-1358  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tk6op0/devs_using_ai_coding_agents_where_does_trust/</guid>
+      <pubDate>Fri, 22 May 2026 03:14:51 GMT</pubDate>
+    </item>
     <item>
       <title>如何停止使用克劳德</title>
       <link>https://www.reddit.com/r/webdev/comments/1tk414q/how_to_stop_using_claude/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[您好，我正在寻求帮助重新设计一个网站并与运行该网站的人员讨论现有网站。  在开始之前，我希望能够将现有网站网页下载为图像，在理想的情况下，这将像当前页面的视觉流程图和/或还显示信息架构一样进行布局。 （这不是一个很大的网站，但足够大，手动完成会非常耗时）。 您是否知道或使用或推荐任何工具或软件来实现类似的目标？ 我我确信我过去见过一些东西，并把它加入了书签，但现在我需要它，但我找不到它，所以我想知道这是不是我编的。 😆 感谢您的任何建议。如果它是非编码人员可以使用的东西，但愿意接受任何建议，那就特别有用。   由   提交 /u/Inevitable_Elk_8406   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tjnpm7/tool_or_software_to_visualise_an_website/</guid>
       <pubDate>Thu, 21 May 2026 15:18:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>避免前端开发中的 npm 依赖</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjl1q8/avoiding_npm_dependencies_in_frontend_dev/</link>
-      <description><![CDATA[对于这里的人来说，我怀疑 npm 安全难题是否需要任何介绍。几天前，我差点受到迷你 shai-hulud 的影响：@tanstack/router v1.169.5 被泄露；一天前，我在项目中安装了 @tanstack/router v1.169.2（之前的补丁版本）。 可以这么说，我已经厌倦了 npm 及其供应链漏洞。 但是，我仍然需要构建 Web 应用程序，因此必须开始寻找替代方案。 Htmx、Datastar 等都很好，但你最终需要客户端交互，以证明引入 React 或类似的方式是合理的，这意味着要拖着数百 MB 天知道什么包并添加捆绑器等。 我很想听听其他人如何（以及是否）处理这个问题...   由   提交 /u/venerable-vertebrate   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjl1q8/avoiding_npm_dependencies_in_frontend_dev/</guid>
-      <pubDate>Thu, 21 May 2026 13:46:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>给网络开发者的 SEO 技巧：不要让规范和 noindex 互相争斗</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjk1j6/seo_tip_for_web_devs_dont_let_canonicals_and/</link>
-      <description><![CDATA[我仍然经常看到一个技术 SEO 问题：页面同时具有另一个 URL 的规范和 noindex 指令。 这会发送混合信号。 如果页面是重复/变体并且您希望合并信号，请使用规范并使其可索引/可抓取，以便 Google 可以看到这种关系。 如果页面不应该根本不会出现在搜索中，请使用 noindex 并且不要期望规范能够可靠地传递值。 Google 可能会在继续处理规范提示之前删除该页面。 我在审核期间使用的快速规则：  重复但对合并有用：规范 精简/私有/过滤器/内部结果页面：noindex 有替换的死页面：301 没有替换的死页面：404/410  还值得检查模板是否意外地堆叠了这些。分面导航、搜索结果页面、分页、标签页面和暂存路线通常会变得混乱。   由   提交/u/VRTCLS   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjk1j6/seo_tip_for_web_devs_dont_let_canonicals_and/</guid>
-      <pubDate>Thu, 21 May 2026 13:09:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>有点惊讶浏览器原生开发工具仍然感觉这个利基市场</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjjsee/kinda_surprised_browsernative_dev_tooling_still/</link>
-      <description><![CDATA[WebContainers 老实说，感觉是 Web 工具一段时间内发生的最有趣的事情之一，但在在线 IDE 之外，感觉生态系统还没有完全融入这些可能性。 我最近偶然发现了一个使用浏览器运行时来实现 AI/开发工作流程的开源项目，它让我意识到现在可以通过 WASM 沙箱在浏览器内完全完成多少工作和现代运行时。 与此同时，大多数较新的工具似乎仍然非常依赖后端且依赖于云。 感觉浏览器本机工作流程可以解决围绕设置、可移植性、隔离等的许多恼人问题。特别是对于开发工具和自动化工作流程。 这主要是技术限制，还是空间仍在成熟？   由   提交 /u/Meher_Nolan   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjjsee/kinda_surprised_browsernative_dev_tooling_still/</guid>
-      <pubDate>Thu, 21 May 2026 13:00:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>我该怎么做才能阻止持久性机器人攻击我的网站？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tjj3oc/what_can_i_do_to_stop_a_persistent_bot_from/</link>
-      <description><![CDATA[很抱歉，如果这不是正确的论坛，但我希望有人可以提供帮助。我经营一个小博客。它已经持续了 12 年多了。我不在搜索结果页的顶部。我写的内容又长又复杂。这是利基市场。 我会尽可能地向人工智能爬虫和已知的爬虫发出信号或阻止它们。现在有一个特殊的自动化服务已经开始攻击该网站。起初，它只是到处都是单个页面视图（每次一个 url，没有触发任何事件或计时器）。 在过去的几天里，它变成了“访问过”的相同 url。每小时最多 30 次。每一次重复访问都有不同的 URL。 UA 始终是带有 Google 引荐来源网址和 800*600 浏览器的 Chrome/145。因为它“起作用”人类，它最终进入了分析，现在一团糟。 我成功地在 Cloudflare 中挑战了 UA 一天左右，但它再次通过了。与此同时，真正的人类用户必须浏览 CF 挑战屏幕，这并不理想。 我还有什么可以尝试的吗？ 编辑添加：感谢大家的建议。今天我花了一些时间来解决这些问题，这是一次有用的经验。那些说要过滤掉分析的人：我认为就是这样。我的另一个认识是我的“人类”流量直线下降，可能是由于谷歌搜索更新的结果，所以我需要改变我使用分析的目的 - 或者如果我根本不使用它。作为网站所有者和长篇作家，这不是什么好消息，但事实就是如此！    由   提交/u/Fluid_Asspiration_457   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tjj3oc/what_can_i_do_to_stop_a_persistent_bot_from/</guid>
-      <pubDate>Thu, 21 May 2026 12:32:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
