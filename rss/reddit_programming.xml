@@ -4,7 +4,7 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 23 May 2026 19:03:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 21:51:30 GMT</lastBuildDate>
     <item>
       <title>健康检查您的 gRPC 流量实际使用的侦听器</title>
       <link>https://www.reddit.com/r/programming/comments/1tllnux/healthcheck_the_listener_your_grpc_traffic/</link>
@@ -25,13 +25,6 @@
       <description><![CDATA[缺少民间传说的证据。   由   提交/u/Dull_Replacement8890   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tli2gg/jira_is_turingcomplete/</guid>
       <pubDate>Sat, 23 May 2026 14:31:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>infostealers 刚刚引发了 5,000 多个 repo github 供应链攻击</title>
-      <link>https://www.reddit.com/r/programming/comments/1tli0ba/infostealers_just_spawned_a_5000_repo_github/</link>
-      <description><![CDATA[正如 OX Security 最初发现的那样，并由 SafeDep 进一步分析，Megalodon 活动针对的是 GitHub Actions。通过利用薄弱的分支保护并利用一次性或受损的帐户，攻击者部署了旨在耗尽运行者可以访问的所有秘密的工作流程（包括 AWS 密钥、GCP OAuth 令牌、SSH 私钥和 GitHub OIDC 令牌），并部署其他信​​息窃取程序以进一步危害目标环境。 虽然 CI/CD 注入的机制已有详细记录，但用于推送恶意软件的受损 GitHub 帐户的来源仍然是一个问号。为了解决这个问题，Hudson Rock分析了与受影响的存储库相关的用户名列表，这些存储库被观察到推动了信息窃取程序。 通过将这些 GitHub 用户名与我们庞大的网络犯罪情报数据库进行交叉引用，我们有了一个惊人的发现：978 个唯一用户名中的 331 个（超过 33%）与被信息窃取程序感染的计算机直接匹配。 根据更深入的手册经过调查，我们发现这个数字实际上接近 100%。    由   提交 /u/Malwarebeasts   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tli0ba/infostealers_just_spawned_a_5000_repo_github/</guid>
-      <pubDate>Sat, 23 May 2026 14:29:06 GMT</pubDate>
     </item>
     <item>
       <title>公告：我们更新了规则，四月终于结束了</title>
@@ -69,13 +62,6 @@
       <pubDate>Sat, 23 May 2026 08:19:52 GMT</pubDate>
     </item>
     <item>
-      <title>在 Raspberry Pi 400 上进行 Amazon 规模的大批量 VRP 优化</title>
-      <link>https://www.reddit.com/r/programming/comments/1tkyr2r/highvolume_vrp_optimization_at_amazon_scale_on_a/</link>
-      <description><![CDATA[大家好， 我在物理 Raspberry Pi 400 (4GB RAM) 上本地执行了整个 Amazon Last-Mile Routing Challenge 数据集（约 100 万次停靠点、250 万个包裹）。   由   提交/u/Tight_Cow_5438   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tkyr2r/highvolume_vrp_optimization_at_amazon_scale_on_a/</guid>
-      <pubDate>Fri, 22 May 2026 22:55:14 GMT</pubDate>
-    </item>
-    <item>
       <title>我如何构建 Confluence 爬虫</title>
       <link>https://www.reddit.com/r/programming/comments/1tkxx4e/how_i_built_a_confluence_crawler/</link>
       <description><![CDATA[关于构建 confluence2md 的文章，这是一个将 Confluence wiki 转换为 Markdown 的 Go CLI 工具，以及在此过程中令人惊讶的深层次技术挑战。 文章涵盖：  两阶段爬行：第 1 阶段获取并转换具有原始 URL 的页面，第 2 阶段在了解完整页面图后重写链接（因此没有任何中断） 为什么转换 Confluence 存储格式很痛苦（XML 宏、链接重写、分页） 基于检查点的增量更新而不丢失进度 使用 GitHub Actions + GoReleaser 实现跨平台发布自动化  该工具是开源的，随时可以使用。如果您曾经需要迁移 Confluence 或构建 wiki 数据，可能会很有用：https://github.com/gkoos/confluence2md   由   提交 /u/OtherwisePush6424   [链接] [评论]]]></description>
@@ -109,6 +95,20 @@
       <description><![CDATA[ 由   提交/u/urandomd  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tkti10/noroboto_lying_fonts_and_mitigation_in_rust/</guid>
       <pubDate>Fri, 22 May 2026 19:36:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>高速网络：机器的视角</title>
+      <link>https://www.reddit.com/r/programming/comments/1tkp5rs/high_speed_networking_the_view_from_the_machine/</link>
+      <description><![CDATA[ 由   提交/u/Middle_Ad4847  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tkp5rs/high_speed_networking_the_view_from_the_machine/</guid>
+      <pubDate>Fri, 22 May 2026 17:07:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>我从创建 Searchx 中学到的经验教训</title>
+      <link>https://www.reddit.com/r/programming/comments/1tkjoy4/lessons_i_learned_from_creating_searx/</link>
+      <description><![CDATA[ 由   提交/u/asciimoo  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tkjoy4/lessons_i_learned_from_creating_searx/</guid>
+      <pubDate>Fri, 22 May 2026 13:54:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
