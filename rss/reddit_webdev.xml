@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 23 May 2026 10:26:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 13:15:22 GMT</lastBuildDate>
+    <item>
+      <title>厌倦了在多个设备中进行响应式测试？我构建了一些可能有帮助的东西</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlg3su/tired_of_responsive_testing_in_multiple_devices_i/</link>
+      <description><![CDATA[       https://preview.redd.it/w39wnmt8zv2h1.png?width=2976&amp;format=png&amp;auto=webp&amp;s=7322161715b393cbd5cfe6d7fe739f30d1a9754d 大家好， 在处理我的一个项目时，我一次又一次地遇到同样的问题：跨多个设备的响应式测试花费了太多时间。 我会修复桌面上的某些内容，然后检查移动设备并发现有问题。手机修好后，平板电脑还需要调整。然后我会回去重新检查一切。大多数时候，我只是调整浏览器大小，在设备模式之间切换，并尝试跟踪哪些地方出了问题。 我四处寻找工具来简化这一切，但大多数工具要么一次显示一个设备，要么不符合我想要查看 UI 的方式。 因此，我构建了一个名为 响应式设备查看器和响应式设备查看器的 Chrome 扩展程序。移动测试器。 它可让您在一个位置并排预览多种屏幕尺寸，这样您就可以快速查看网站在不同设备上的显示效果，而无需不断切换选项卡或调整浏览器大小。 一些功能：  同时预览多个设备 测试移动设备、平板电脑、笔记本电脑、台式机、电视和自定义屏幕尺寸 并排比较响应式布局 更快地发现跨断点的布局问题 在检查 UI 时添加注释 与您的团队分享更清晰的反馈  我这样做是因为我个人需要它，但我认为它对其他开发人员也很有用。 请随意尝试，我非常感谢任何反馈、建议或错误报告。 https://chromewebstore.google.com/detail/jfcnekmenjickfihkniaoaklehjmdhdb?utm_source=item-share-cb   由   提交/u/StrangeRevolution604  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlg3su/tired_of_responsive_testing_in_multiple_devices_i/</guid>
+      <pubDate>Sat, 23 May 2026 13:10:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 我构建了一个错误报告和反馈工具，允许您的用户在您的网站上绘图，而无需监视他们的会话或损害他们的数据</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlfvgk/showoff_saturday_i_build_a_bug_reporting_and/</link>
+      <description><![CDATA[   构建了 BugJar (https://bugjar.app)，这是一个错误报告 SDK，其中会话捕获仅在用户单击触发器时启动，并且在任何内容离开设备之前，用户的个人数据都会在浏览器中进行编辑。 我这样做的原因是大多数工具当涉及到使用您的隐私和数据完整性时，专为分析或用户反馈而构建的确实将谨慎抛之脑后。我构建这个的主要原因很简单，我收集的每一条数据都是我必须保护的。如果我们开始像对待我们的财产一样对待我们的数据，而不是公共领域的东西，那么对每个人来说都会更安全。 如果有人对更深入的研究感兴趣，我会写下为什么我在这里构建它https://wonderrules.substack.com/p/tools-fools-and-ai-why-building-with 但我希望至少有 10 个人自愿尝试一下。我将为您和您的团队提供完全免费的访问权限。我真的很想通过用户反馈来帮助塑造这个产品。 https://bugjar.app - 很乐意回答任何问题   由   提交/u/IAmRules  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlfvgk/showoff_saturday_i_build_a_bug_reporting_and/</guid>
+      <pubDate>Sat, 23 May 2026 13:00:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] Cinema Circle 电影俱乐部的“Letterboxd 多人游戏”</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlfupu/showoff_saturday_cinema_circle_the_letterboxd/</link>
+      <description><![CDATA[      我建立了电影院圈，因为每次我的一群朋友一起看电影时，我们的评分最终分散在 Discord、WhatsApp 屏幕截图和某人的笔记应用中。 Letterboxd 非常适合单独记录，但它并不是围绕团体体验构建的。 因此，Cinema Circle 是团体层：创建一个社区，一起观看电影，以 0.25 步长按 0-10 等级评分，以每个成员的平均分数和评论存档所有内容。加上通过 Supabase Realtime 的实时投票室​​、选择下一个的选择轮、民意调查以及将评级发布到您的服务器频道的 Discord 机器人。 堆栈：React + TypeScript + Vite、Supabase（Postgres + RLS + Realtime + Storage + Auth）、Netlify（OG 元的边缘功能 + slug URL 上的 301 重定向逻辑）。 Discord 机器人在 Fly.io 上运行。 目前有 130 多个个人资料和 50 多个社区。免费，无广告，无数据销售。 欢迎提供反馈，尤其是关于入门流程，我仍然觉得这对于非技术用户来说太摩擦了。   由   提交/u/talyon93  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlfupu/showoff_saturday_cinema_circle_the_letterboxd/</guid>
+      <pubDate>Sat, 23 May 2026 13:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>[周六炫耀]我为网站构建了一个开源安全扫描仪</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlfn4o/showoff_saturday_i_built_an_opensource_security/</link>
+      <description><![CDATA[      大家好， 我一直在将我之前的一个项目从一种非常通用的方法重建为网站安全监控工具:) 您可以在此处扫描您的网站：statusscout.dev 现在它会检查以下内容： - 安全标头 - SSL/TLS 证书有效性 - 暴露的敏感文件和文件隐藏路径 - DNS 运行状况 - Cookie 安全 - 混合内容 - 页面安全 - 公开的 API 文档 我很想听听您的反馈！还有其他我错过的安全功能吗？   由   提交/u/Vincenius_  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlfn4o/showoff_saturday_i_built_an_opensource_security/</guid>
+      <pubDate>Sat, 23 May 2026 12:50:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>我制作了一个可以将简单的 SVG 转换为动画的工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlfah4/i_made_a_tool_that_turns_simple_svgs_into/</link>
+      <description><![CDATA[      我一直在构建 Lottiefyr，一个用于将动画转换为 Lottie 文件的小工具，最近我添加了一个新功能：将简单的 SVG 转换为动画。 这个想法很简单：上传 SVG，应用运动，并将其导出为可用的动画，而不是从头开始手动重建所有内容。 我录制了一个快速演示，展示了它是如何实现的。  链接：https://lottiefyr.com 希望得到反馈，尤其是来自使用 SVG、Lottie 或网页动画的设计师/开发人员的反馈。   由   提交 /u/Cosmin_Dev   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlfah4/i_made_a_tool_that_turns_simple_svgs_into/</guid>
+      <pubDate>Sat, 23 May 2026 12:34:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>[Showoff Saturday] 构建了一个无状态、纯前端集线器，带有 14 个计算器来解决针织数学问题（并插入 AI 以实现复杂的尺寸调整）</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlf3je/showoff_saturday_built_a_stateless_pure_frontend/</link>
+      <description><![CDATA[大家好。 大多数开发人员都会为周末项目构建另一个待办事项应用程序或投资组合克隆，但我决定深入研究一个异常复杂且古老的利基市场：针织数学。 事实证明，工匠们花费大量时间进行手动公式来计算均匀间隔的增加/减少行，调整图案针数以匹配针距，或者在以下情况下转换纱线重量：将多股线固定在一起。该领域当前的大多数工具看起来像是 2005 年构建的，或者被锁定在粗略的高级 pdf 后面。 所以我在过去的几个月里发布了 stitchmath：https://stitchmath.com 技术堆栈和技术堆栈。极客位：  100% 普通客户端 js：零后端服务器或数据库依赖。所有 14 个工具都严格在浏览器中运行。页面加载速度几乎是即时的，并且用户隐私在设计上是安全的，因为没有数据离开他们的设备。 零焦点单位切换：由于针织机严格分为公制（厘米/克）和英制（英寸/盎司），因此我实现了一个切换，可以立即读取文档元素上的 localStorage 来切换 CSS 自定义变量和广播事件，而不会出现任何白屏闪烁。 响应式网格架构：自定义 CSS 网格布局(`repeat(auto-fit, minmax(250px, 1fr))`) 定制的移动视口低至 360px，因此像 iPhone SE 这样的旧手机在查看中间编织的图案图表时不会遇到破碎的溢出卡。 ai 位：简单的代数由标准函数处理。但对于复杂、凌乱、多尺寸的书面服装图案，我通过轻型包装器插入在前端运行的无状态人工智能图案助手来处理长尾边缘情况。  将其完全构建为一个充满激情的项目，看看我可以在没有任何繁重的基础设施或云成本的情况下将重型实用网站推向多远。 希望获得有关触摸设备上的移动导航下拉列表或整体响应式布局的一些反馈。干杯！   由   提交 /u/SideQuestDev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlf3je/showoff_saturday_built_a_stateless_pure_frontend/</guid>
+      <pubDate>Sat, 23 May 2026 12:25:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为 API 开发人员构建了一个工具</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tleodz/i_build_a_tool_for_the_api_developers/</link>
+      <description><![CDATA[我构建了 fixzi.ai，这是一个面向开发人员的 Web 应用程序，他们可以在其中管理与 JSON 和 XML 相关的多个操作，例如 JSON/XML 验证器、JSON/XML 修饰器、JSON/XML 自动修复和 JSON/XML 比较。它还具有 API 合约功能，可以频繁检查 API，并在 API 响应发生任何变化时向用户发出警报。这将有助于公司尽早知道生产实例是否出现问题。我仍在构建它，它很快就会有更多功能，谢谢 😄   由   提交/u/rohit2812   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tleodz/i_build_a_tool_for_the_api_developers/</guid>
+      <pubDate>Sat, 23 May 2026 12:06:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>去年我们一直在构建一个无 cookie 的网络分析平台</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlejm8/weve_been_building_a_cookieless_web_analytics/</link>
+      <description><![CDATA[      嘿 r/webdev  快速背景：我和我的朋友最初只是为了在获得计算机科学学位期间好玩而开始了一个项目，随着时间的推移，副项目变得越来越严肃 它是一个网络分析和监控 SaaS 核心特点：  一般分析和分析漏斗：通过详细的漏斗分析进行跟踪 会话回放和会话回放热图 实时视图：实时观看活动会话。您可以以 1:1 的方式观察开放会话，准确了解用户看到的内容以及光标移动的位置 收入跟踪：直接 Stripe 和 PayPal 集成  站点监控：正常运行时间监控、核心 Web 生命周期跟踪和错误日志记录 AI 影响力：查看 AI 如何与您的站点交互，跟踪 AI 机器人正在抓取的内容  集成：  GitHub 集成：将您的部署直接覆盖到分析图表上，以便您可以准确了解特定版本如何影响访问者数量和保留率。 Google Search Console：将您的自然搜索数据同步到同一仪表板 CLI 和 CLI MCP：我们为终端人员构建了一个真正的 CLI（zenovay watch、events tail），以及一个 MCP 服务器，以便您可以直接向 Claude/Cursor 询问有关分析的问题 Stripe 和 PayPal 集成  堆栈：  Ingest API：Cloudflare Workers 数据库和数据库授权：Supabase 前端：Next.js + Tailwind（用于仪表板） 计费和计费通讯：Stripe 和 Resend  安装是一个单行脚本，但我们也有适用于 Next.js 和 React 的原生 SDK，以及适用于 WP、Shopify、Webflow 等的插件。您还可以通过 webhooks 将所有事件导出 站点 + 交互式演示：https://zenovay.com 我们正在寻求反馈:)   由   提交/u/zeno_DX   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlejm8/weve_been_building_a_cookieless_web_analytics/</guid>
+      <pubDate>Sat, 23 May 2026 12:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>[showoff] 周末搭建了一个 DeFi 协议登陆页面</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlebps/showoff_built_a_defi_protocol_landing_page_over/</link>
+      <description><![CDATA[      黑暗、简约、单调优先。使用 Next.js + Tailwind 构建。 实时站点 → https://obsidian-crypt.sitesbysteve.dev   由   提交/u/ArticleSilent7403   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlebps/showoff_built_a_defi_protocol_landing_page_over/</guid>
+      <pubDate>Sat, 23 May 2026 11:49:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为 18 万多部完整长度的 NSFW 电影（4K/FHD）构建了一个自托管流媒体平台，以修复现代免费成人网站糟糕的用户体验和第三方播放器。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tle6su/i_built_a_selfhosted_streaming_platform_for_180k/</link>
+      <description><![CDATA[大家好。我是一个小团队的唯一开发人员，该团队最近启动了一个名为 XAdultFlix 的项目。 我一直讨厌大多数免费成人网站的用户体验基本上是一个陷阱。你尝试观看一部电影，它要么是 3 分钟的预览，要么是从一些垃圾第三方主机（如 doodstream 或 Turbobit）嵌入的，这些主机不断缓冲并在播放之前抛出三个弹出窗口。 我的合作伙伴负责业务和目录，但他们给了我一个巨大的技术挑战：从头开始构建一个真正尊重用户体验的平台，将视频传输视为高级技术产品，并以尽可能最低的基础设施成本来实现。 这是我最终构建的： 在我们发表评论之前快速免责声明：我严格来说是这里的工程人员。我的团队负责处理与内容、业务和采购相关的所有事务。因此，我不能也不会回答有关媒体抓取、数据库来自何处或任何业务方面的问题。我只想谈谈代码和基础设施。 此外，作为个人挑战，我设法构建后端，以保持带宽/流量成本极低，同时保持 4K“优质感觉”。但由于这本质上是我们的秘密武器，所以我现在将确切的路由和缓存方法作为专业的商业秘密（当然，我们使用 Cloudflare 作为我们策略的一部分😉）。 我主要只是想知道这里的技术和网页设计人群对加载时间、UI 和本机播放器的看法。让我知道 Go 后端是否支持您的一端！ 链接： https://xadultflix.com   由   提交/u/Opening-Ad-1170   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tle6su/i_built_a_selfhosted_streaming_platform_for_180k/</guid>
+      <pubDate>Sat, 23 May 2026 11:42:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>将我最喜欢的 Raycast/Arc 功能引入 Chrome - 命令栏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tldyy7/bringing_my_favourite_raycastarc_feature_to/</link>
+      <description><![CDATA[      TLDR：如果您是一位喜欢键盘优先工作流程的生产力极客，我有一个您可能会喜欢的浏览器扩展。  这些天我使用 Brave，但缺少键盘优先的命令栏体验。我抬头一看，发现有 Arc 浏览器在做这件事，但在给了 Arc 和 Brave 之后，我仍然更喜欢 Brave。迪亚尝试一下。  所以我开始为自己尝试一个小调色板，这样我就可以输入我想要完成的事情。从选项卡搜索开始分组，但随着时间的推移，我不断添加更多操作和控件，例如用于跳回上一个选项卡的自定义快捷方式、模糊搜索选项卡、重命名选项卡标题以使搜索更容易，以及最近在窗口控件上工作。我称之为 Conduktor，过去几周我每天都在使用它。目前，除了搜索之外，它还允许您执行 15 种以上的操作。  我目前有几个人在使用它，但它仍然是一个早期产品。我真诚地希望来自那些喜欢键盘优先工作流程的人提供反馈，了解还有哪些内容缺失或需要更改，以及您是否会考虑长期使用。目前有 30 天的免费试用期，如果您需要更多时间来查看它是否适合您，我很乐意延长试用期。  这是 Chrome 商店链接   由   提交/u/abimon123  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tldyy7/bringing_my_favourite_raycastarc_feature_to/</guid>
+      <pubDate>Sat, 23 May 2026 11:31:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个工具，可以帮助独立移动开发人员在几分钟内创建他们的网站。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tldqsk/ive_built_a_tool_that_helps_indie_mobile/</link>
+      <description><![CDATA[我构建了一个名为 Entro 的工具，只需粘贴 App Store 或 Google Play 列表 URL，即可帮助独立移动开发者和小型应用团队在几分钟内创建他们的应用网站。 Entro 自动提取评论、屏幕截图、品牌资产等，以快速生成精美的网站，将其部署在其云基础设施上，并提供自定义域连接、定制、源代码下载以及生成隐私政策和服务条款等页面等功能。免费尝试一下！ 入门   由   提交/u/Quirky_Research_949   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tldqsk/ive_built_a_tool_that_helps_indie_mobile/</guid>
+      <pubDate>Sat, 23 May 2026 11:19:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>将任何 PowerPoint 转换为可重复使用的模板，并将任何数据自动映射到其中</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tld4w1/turn_any_powerpoint_into_a_reusable_template_and/</link>
+      <description><![CDATA[      我是一名个体企业家。我不得不一遍又一遍地制作相同的演示文稿；相同的品牌，不同的内容。每次都感觉像是从头开始。 我看着存在的东西。 Canva 希望您能够进行设计。 Google 幻灯片需要您打字。像 Gamma 这样的工具是从头开始的（这是正确的拼写，再看一遍:) 它们都不关心你已经有了一个有人花时间制作的漂亮模板。他们只是想让你在他们的盒子里重新开始。 最让我恼火的是我需要一些符合我的品牌一致性的东西。  尽管有相应的工具，但大多数都是 api 或 api。没有界面 所以我构建了PPTAutomate。 （幸运的是这个域名仍然是免费的：D） 想法很简单：您的 .pptx 模板就是设计。我不应该碰它。我应该能够放入新内容、PDF、Markdown 文档或我拥有的任何其他类型的输入，并获得一个看起来与原始内容完全一样的填充演示文稿。 编辑器实际执行的操作： 您上传品牌模板。画布呈现每张幻灯片——形状、表格、图表，所有这些。您输入内容源。人工智能自动映射器读取两侧并找出内容在哪里：哪个内容块属于哪个文本框，哪个数据属于哪个图表。它为您提供信心分数并解释其推理。您可以接受它，手动拖动内容，或者只是用简单的英语告诉它要更改的内容。 然后生成。您将恢复 .pptx，品牌完好无损，格式保留，幻灯片已填充。 注意：目前，它仍然是拖放至地图的手动过程，但我正在实现 构建此内容时令我感到惊讶的是： - PowerPoint 形状几何是一个兔子洞。规范中有 30 多种形状类型。使用 CSS 剪辑路径在画布上正确渲染菱形、箭头、流程图形状和星形花费的时间比我愿意承认的要长。 - 文本溢出预测确实很难。我在生成之前使用 HTML canvas 元素测量文本宽度，以警告您内容是否不适合。 - 最难的部分不是代码。它正在弄清楚这个工具实际上是什么：API？编辑？两个都？我不得不接受缩小范围的局面。 我仍在建设中。这是我正在努力将其作为一项业务开展的真正产品，而不是我下个月要放弃的副项目。 希望得到诚实的反馈，尤其是来自处理过此类文档自动化问题的任何人的反馈。 站点：pptautomate.com   由   提交 /u/Kindly-Vanilla-6485   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tld4w1/turn_any_powerpoint_into_a_reusable_template_and/</guid>
+      <pubDate>Sat, 23 May 2026 10:47:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>SFQ：简单、无状态、随机公平</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tlcxdc/sfq_simple_stateless_stochastic_fairness/</link>
+      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tlcxdc/sfq_simple_stateless_stochastic_fairness/</guid>
+      <pubDate>Sat, 23 May 2026 10:36:34 GMT</pubDate>
+    </item>
     <item>
       <title>您会访问哪些网站来获取网页设计灵感？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tlcob2/what_are_your_goto_websites_for_web_design/</link>
       <description><![CDATA[你们在 2026 年使用什么进行网页设计灵感？ 需要为当前项目提供一些灵感，并寻找 UI 灵感、交互、登陆页面、排版、动作等 我当前的目标是： - details.so - mobbin.com - godly.website 也很想找到一些鲜为人知的宝石，特别是对于现代 SaaS 网站、投资组合、创意开发内容等...... 认为让这个线程成为人们可以回来的可靠资源会很酷   由   提交/u/Affectionate_Power99  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tlcob2/what_are_your_goto_websites_for_web_design/</guid>
       <pubDate>Sat, 23 May 2026 10:22:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于夫妻治疗和了解依恋风格的 3D 网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlcmk1/3d_website_for_couples_therapy_and_to_learn_about/</link>
-      <description><![CDATA[      大家好！！使用 Three.js 和 Blender 提供心理治疗教育的小型原型项目，并希望最终在数字孪生中保留其他数字心理健康干预措施，以提高电子心理健康的使用率。打开反馈！！ 网站： https://john-and-patricias-comfort-site-about-attachment-styles.com/ 代码、Blender 文件和文件学分： https://github.com/andrewwoan/john-and-patricias-romantic-comfort-website 理论视频和演示技术提示： https://www.youtube.com/watch?v=w2MnkhTGJQA   由   提交/u/andrew_woan  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlcmk1/3d_website_for_couples_therapy_and_to_learn_about/</guid>
-      <pubDate>Sat, 23 May 2026 10:19:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>尽快建立我的代理网站，以便我为下周的销售拜访做好准备。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlclau/set_up_my_agency_site_as_fast_as_i_could_so_that/</link>
-      <description><![CDATA[      显然很粗糙，但可能需要大约 2-3 小时才能完成。 我对此相当满意，尽管我肯定会进行另一次迭代。 Cloudflare 给了我很大启发。感觉很现代，但并不特别。   由   提交/u/MisterMannoMann   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlclau/set_up_my_agency_site_as_fast_as_i_could_so_that/</guid>
-      <pubDate>Sat, 23 May 2026 10:17:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源 AI 助手在 Vivi 程序员中排名</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlcl9b/open_source_ai_assistants_ranked_for_vibe_coders/</link>
-      <description><![CDATA[Vibe 编码工作流程具有大多数开源 AI 助手都忽略的特定要求。快速迭代，低调，在提示之间没有保姆。根据每个选项与vibe编码器工作的迭代速度保持同步的程度进行排名。 Vellum vellum为vibe编码器支持的迭代速度来自于对大多数请求的亚秒级响应，工作流程更改时不需要重建技能文件，以及显示代理将要执行的操作而无需强制上下文切换到终端输出的UI。几周振动编码的主要发现：意图和结果之间的时间保持接近自然的感觉，这就是这项技术的全部要点。 OpenClaw 一旦调整即可达到最高能力上限，但迭代速度是振动编码的致命因素。每个新工作流程都需要更新技能文件，每个技能文件编辑都需要重新启动，并且有关更改是否有效的反馈循环需要几分钟而不是几秒钟。功能强大，但节奏对于用例来说是错误的。 Hermes 迭代速度位于中间，因为自学习循环可以适应不断变化的模式，而无需明确的技能编辑。 Vibe 编码的问题在于，循环还会强化系统认为有效的任何内容，这意味着在您有时间改进非理想模式之前，它就会快速迭代。 Vibe 编码奖励与思维速度相匹配的工具，而不是需要仔细预先配置每个工作流程的工具。排名取决于哪个选项将迭代视为一流行为而不是边缘情况。   由   提交/u/FloorPretend230   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlcl9b/open_source_ai_assistants_ranked_for_vibe_coders/</guid>
-      <pubDate>Sat, 23 May 2026 10:17:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>我做了一个愚蠢的人工智能争论游戏，人们开始使用它进行实际工作培训，所以我将它重新构建为 B2B SaaS</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlcf4u/i_made_a_silly_ai_arguing_game_people_started/</link>
-      <description><![CDATA[      几个月前，我构建了 fixai.dev 主要是为了好玩。 这个想法很简单 - 你与扮演困难角色（愤怒的客户、顽固的供应商等）的 AI 发生争执，而 AI 有一个“抵抗”当你获得好分数时，分数就会下降。 公司确实在培训上花费了大量资金，基本上相当于“观看此视频，点击此测验，获得结业证书。”没有人记得它。真正有效的是练习——进行艰苦的对话，而不是观看有关它的幻灯片。但大规模的实践很难组织起来。  所以我将整个内容重建为 socratize.io。相同的核心机制，但现在经理和研发人员可以用简单的英语编写自己的场景 - 描述情况，人工智能正在玩谁，胜利是什么样子 - 将其分配给他们的团队，人工智能会处理其余的事情。每回合都有一个评分系统在后台运行，管理员可以看到谁真正在进步。 Stack：Node/Express、Postgres、Claude 用于 AI，Railway 用于托管。没什么花哨的，只是尽量保持简单，直到我知道什么是真正值得构建的。 我正在寻找您的诚实反馈！ :) 感谢 r/webdev 社区！    由   提交/u/EveningRegion3373  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlcf4u/i_made_a_silly_ai_arguing_game_people_started/</guid>
-      <pubDate>Sat, 23 May 2026 10:08:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个 chrome 扩展，可以帮助检查、操作、比较和复制 CSS 样式。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlcdwt/i_built_a_chrome_extension_that_helps_inspect/</link>
-      <description><![CDATA[      我创建了 CSS Explorer，以便可以更快地就地修改 CSS。不是用于开发，而是一个小型工作流程帮助程序，它允许我检查元素、实时编辑其样式、与其他元素进行比较，然后将更改应用回我的代码中。 启用扩展后，您只需将鼠标悬停在页面上的任何元素即可查看相关的 CSS 选择器、尺寸、样式、计算样式、HTML 属性、媒体查询、:hover/:focus 伪状态、::before/::after 伪元素等。当您单击任何元素时，面板将粘在屏幕上。 还可以创建多个面板，将它们拖动到任意位置，然后比较相邻的不同元素。固定面板中的 CSS 是可修改的，这意味着您可以编辑 CSS 并实时查看结果。 完成编辑和比较样式后，可以选择复制面板中的所有内容（仅复制修改内容），或者一次性从多个面板复制所有内容。 总体思路是检查 → 编辑 → 比较 → 复制。 我在这里尝试保持简单性，但我肯定会在此过程中添加一些功能，例如复制一次性完成所有修改，或者即使在页面重新加载后也可以暂时保存我们所做的修改。 这是链接：https://chromewebstore.google.com/detail/css-explorer/calnihpedmokkhojbncklcnnfkifeoll   由   提交/u/Blozz12   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlcdwt/i_built_a_chrome_extension_that_helps_inspect/</guid>
-      <pubDate>Sat, 23 May 2026 10:06:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>周六炫耀。我花了一些时间，但我已经准备好我的新投资组合</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlccee/showoff_saturday_took_me_some_time_but_i_got_my/</link>
-      <description><![CDATA[我是一个 13 岁的人，我知道： HTML5 CSS3 JavaScript（react、vue.js 等） 对于前端，以及： Node、js Python Java C# 对于 投资组合：samarth-kalra.netlify.app   由   提交 /u/NextDistribution6175   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlccee/showoff_saturday_took_me_some_time_but_i_got_my/</guid>
-      <pubDate>Sat, 23 May 2026 10:03:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>周六菜鸟版表演</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlc4qh/show_of_saturday_noob_edition/</link>
-      <description><![CDATA[我是在 13 号才开始构建我的网站的，所以我还处于旅程的开始阶段，但我想分享到目前为止我已经成功整合的内容。 在此之前，我使用的是 Square 网站，但我最近已将所有内容移至此处，并决定自己正确构建一些内容，而不是依赖于托管模板设置。 我已在使用 Kadence 的 WordPress。这是针对我的小型激光切割和雕刻业务的，到目前为止，我主要专注于事物的制作方面，所以这是我第一次正确尝试构建真正代表在线业务的东西。 到目前为止，我已经掌握了基本知识，例如产品页面和简单的布局，并且我一直在努力保持其干净且易于导航。我也一直在不断学习，尤其是在 SEO 和性能方面，这有点像个兔子洞。 如果有人想看一下，那就是 lothianwoodworks.co.uk 我还有很多地方需要改进，但与我几周前开始的地方相比，这已经是向前迈出了一大步。 很高兴听到那些真正了解自己在做什么的人提供的任何反馈或建议。我确实在 /wordpress 上发布了有关此内容的文章，并得到了很多我一直在关注的良好反馈和建议。    由   提交 /u/lothian_woodwork   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlc4qh/show_of_saturday_noob_edition/</guid>
-      <pubDate>Sat, 23 May 2026 09:51:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>有关代码库中基于特征的结构的架构问题的帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlc3lp/help_regarding_to_an_architectural_question_for/</link>
-      <description><![CDATA[就上下文而言，我是 1YOE，不喜欢专门的后端编码，我们主要致力于当前的公司项目，添加功能。随后，我到现在为止正在编写的代码已经完成了初始设置。现在在一个新项目中，他们要求我建立一个nodejs typescript项目，我做了一个基于功能的结构如 src--&gt;;模块和内部模块--&gt;身份验证、用户、角色、权限等。 中间件与模块目录一起存在。 在文件夹中，我有以下文件： dto、repo、路由器、控制器、服务和类型 这个问题是由我的前辈提出的，他告诉我，它不会正确扩展，因为我需要将中间件分别添加到每个需要身份验证的路由和每个不需要身份验证的路由。 如 Auth 是一个功能，有登录、刷新、注销。登录不受保护，注销受JWT保护，用户拥有整个用户CRUD，在此更新，删除和list_users受JWT保护，创建用户不受JWT保护 在路由器内部，当我添加控制器路径时，我一次执行一个路由，一个端点，添加我知道需要的中间件代码 他说这是错误的，我应该有一个受保护的路由和一个不受保护的路由，我猜他指的是引用基于文件的结构，因为我必须向他解释功能库是组件的每个文件都放在该文件夹和所有内容中的地方。 IDK，他继续讨论优点和缺点，他告诉我在路由上手动添加中间件是不行的。不要仅仅想象 JWT 中间件，还要想象 PERMISSION 中间件和其他场景 任何帮助表示感谢感谢您的阅读   由   提交 /u/Hevail973   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlc3lp/help_regarding_to_an_architectural_question_for/</guid>
-      <pubDate>Sat, 23 May 2026 09:50:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>[周六炫耀]我构建了一个 Chrome 扩展，可以中断社交媒体自动滚动（寻找反馈+贡献者）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlbogv/showoff_saturday_i_built_a_chrome_extension_that/</link>
-      <description><![CDATA[    /u/Ok_Efficiency_1116   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlbogv/showoff_saturday_i_built_a_chrome_extension_that/</guid>
-      <pubDate>Sat, 23 May 2026 09:25:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建了一个工具，可以在部署之前在本地主机上预览 OG/社交卡，无需 ngrok，也无需隧道</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlbh6u/built_a_tool_to_preview_ogsocial_cards_on/</link>
-      <description><![CDATA[      厌倦了部署只是为了检查 OG 卡是否损坏后构建了 getlinkpeek.com。 粘贴包括 localhost:3000 在内的任何 URL，并获得 WhatsApp、X、LinkedIn、Slack 的像素精确预览，不和谐和 Instagram。没有ngrok，没有隧道。还有人工智能审核，可以读取您的元标记并为您提供复制粘贴修复。 免费、开源，无需安装。 希望获得反馈，尤其是关于下一步要添加哪些平台的反馈。  https://preview.redd.it/kiwlsd4itu2h1.jpg?width=1280&amp;format=pjpg&amp;auto=webp&amp;s=a0be423f588e47916d0ba22e4721f47c04cebd97   由   提交/u/WesternRole6805   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlbh6u/built_a_tool_to_preview_ogsocial_cards_on/</guid>
-      <pubDate>Sat, 23 May 2026 09:13:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>友好的番茄计时器</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlbdfu/a_friendly_pomodoro_timer/</link>
-      <description><![CDATA[您好， 我想分享一个我用 Tauri (React &amp; Rust) 构建的小型番茄桌面应用程序。 我发现使用 Tauri 的体验非常简单和愉快。非常适合像这样的简单应用程序。 无论如何，该应用程序的目标是使其尽可能简单，并且看起来也令人愉悦。它只有一个用于固定 25 分钟计时器的按钮，并在休息时间时向您发送通知。 如果您有兴趣，可以在此处获取 Pomochan。 源代码可在此处获取。 干杯！    由   提交/u/nelmaven   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlbdfu/a_friendly_pomodoro_timer/</guid>
-      <pubDate>Sat, 23 May 2026 09:07:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Showoff Saturday] 适合我的社交网络 Cyber​​space 的复古桌面环境</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlb3x4/showoff_saturday_retro_desktop_environment_for/</link>
-      <description><![CDATA[      你们中的一些人可能以前见过ᑕ¥βєяรקค¢є。 “社交媒体去想象。” 草根社交网络没有人工智能、视频、算法、建议、跟踪或广告。到目前为止，我们只有 11,000 名用户，但它是互联网的一个美妙的小角落，没有巨魔或机器人。主网站更具终端美感，工作方式更像常规网络应用程序。 我目前正在开发 Cyber​​space Desktop。受到 Mac Classic、Lisa 上的 Mac OS 6 以及早期的 Linux 和 UNIX 桌面的启发。它具有主站点的基本新闻提要、IRC 风格的聊天室和DM（称为C-Mail）。  我计划移植大部分（如果不是全部）功能。您还可以尝试一些主题。您可以使用不同的颜色和光标，但稍后我还想提供不同的图标集、窗口样式、菜单和任务栏。 我还为其制作了一个 API，社区目前致力于该平台的开源 CLI 和 TUI 客户端。 请注意，您必须先在主站点上注册，然后才能登录桌面版本。它是免费的，您可以使用一次性电子邮件（无需验证）。 很想知道您的想法:)   由   提交/u/euklides  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlb3x4/showoff_saturday_retro_desktop_environment_for/</guid>
-      <pubDate>Sat, 23 May 2026 08:52:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用普通 HTML/CSS 为我的独立游戏构建了一个登陆页面。我怎么样？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlax1y/i_built_a_landing_page_for_my_indie_game_using/</link>
-      <description><![CDATA[我需要为我的游戏建立一个网站，所以我决定自己制作它。 我想用普通的 HTML/CSS 和一点点 JavaScript 来实现它会比使用框架更有趣。 我是一个相当有能力的 C++ 游戏开发者，但在网络开发方面完全是菜鸟。 这花了我大约 10 个小时，很有趣我对结果非常满意。 你觉得怎么样？    由   提交/u/FroutyRobot   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlax1y/i_built_a_landing_page_for_my_indie_game_using/</guid>
-      <pubDate>Sat, 23 May 2026 08:41:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个基于画布的时间线可视化库，并在 Typescript 中进行了虚拟化渲染</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlaw7k/i_built_a_canvasbased_timeline_visualisation/</link>
-      <description><![CDATA[      我想要一个像 vis.js 这样的库，但需要它基于画布来进行服务器端渲染，而无需无头浏览器，所以我构建了一个。我很想得到一些反馈。   由   提交/u/Material-Gold7483   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlaw7k/i_built_a_canvasbased_timeline_visualisation/</guid>
-      <pubDate>Sat, 23 May 2026 08:40:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
