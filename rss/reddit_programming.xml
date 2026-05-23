@@ -4,13 +4,20 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 23 May 2026 06:10:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 10:25:19 GMT</lastBuildDate>
     <item>
-      <title>为什么 VS Code 扩展在全局运行而不是在每个工作区运行？</title>
-      <link>https://www.reddit.com/r/programming/comments/1tl6jaz/why_do_vs_code_extensions_run_globally_instead_of/</link>
-      <description><![CDATA[本周 GitHub 漏洞之后，我一直在考虑 VS Code 扩展隔离。为什么默认情况下所有扩展都在全局范围内处于活动状态？每个工作区不应该只加载它需要的内容吗？   由   提交 /u/AstronautEast6432   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tl6jaz/why_do_vs_code_extensions_run_globally_instead_of/</guid>
-      <pubDate>Sat, 23 May 2026 04:45:55 GMT</pubDate>
+      <title>Spring Boot 与 Node.js：我在生产环境中运行了 18 个月。一个要多花费 12,000 美元。猜猜哪个</title>
+      <link>https://www.reddit.com/r/programming/comments/1tlc1tx/spring_boot_vs_nodejs_i_ran_both_in_production/</link>
+      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tlc1tx/spring_boot_vs_nodejs_i_ran_both_in_production/</guid>
+      <pubDate>Sat, 23 May 2026 09:47:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Clojure 匿名函数</title>
+      <link>https://www.reddit.com/r/programming/comments/1tlaj3y/clojure_anonymous_functions/</link>
+      <description><![CDATA[ 由   提交/u/Efficient-Public-551   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tlaj3y/clojure_anonymous_functions/</guid>
+      <pubDate>Sat, 23 May 2026 08:19:52 GMT</pubDate>
     </item>
     <item>
       <title>在 Raspberry Pi 400 上进行 Amazon 规模的大批量 VRP 优化</title>
@@ -22,7 +29,7 @@
     <item>
       <title>我如何构建 Confluence 爬虫</title>
       <link>https://www.reddit.com/r/programming/comments/1tkxx4e/how_i_built_a_confluence_crawler/</link>
-      <description><![CDATA[关于构建 confluence2md 的文章，这是一个将 Confluence wiki 转换为 Markdown 的 Go CLI 工具，以及在此过程中令人惊讶的深层次技术挑战。 文章涵盖：  两阶段爬行：第 1 阶段获取并转换具有原始 URL 的页面，第 2 阶段在了解完整页面图后重写链接（因此没有任何中断） 为什么转换 Confluence 存储格式很痛苦（XML 宏、链接重写、分页） 基于检查点的增量更新而不丢失进度 使用 GitHub Actions + GoReleaser 实现跨平台发布自动化  该工具是开源的，随时可以使用。如果您曾经需要迁移 Confluence 或构建 wiki 数据，可能会很有用：https://github.com/gaborkoos/confluence2md   由   提交 /u/OtherwisePush6424   [链接] [评论]]]></description>
+      <description><![CDATA[关于构建 confluence2md 的文章，这是一个将 Confluence wiki 转换为 Markdown 的 Go CLI 工具，以及在此过程中令人惊讶的深层次技术挑战。 文章涵盖：  两阶段爬行：第 1 阶段获取并转换具有原始 URL 的页面，第 2 阶段在了解完整页面图后重写链接（因此没有任何中断） 为什么转换 Confluence 存储格式很痛苦（XML 宏、链接重写、分页） 基于检查点的增量更新而不丢失进度 使用 GitHub Actions + GoReleaser 实现跨平台发布自动化  该工具是开源的，随时可以使用。如果您曾经需要迁移 Confluence 或构建 wiki 数据，可能会很有用：https://github.com/gkoos/confluence2md   由   提交 /u/OtherwisePush6424   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tkxx4e/how_i_built_a_confluence_crawler/</guid>
       <pubDate>Fri, 22 May 2026 22:21:23 GMT</pubDate>
     </item>
@@ -46,13 +53,6 @@
       <description><![CDATA[ 由   提交/u/Beginning-Safe4282   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tkx5r7/building_a_fast_lockfree_queue_in_modern_c_from/</guid>
       <pubDate>Fri, 22 May 2026 21:51:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>导致 658 个 GitHub 存储库的静默合并队列损坏</title>
-      <link>https://www.reddit.com/r/programming/comments/1tkvzsb/the_silent_merge_queue_corruption_that_hit_658/</link>
-      <description><![CDATA[ 由   提交/u/Cultural_Wheel_6936   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tkvzsb/the_silent_merge_queue_corruption_that_hit_658/</guid>
-      <pubDate>Fri, 22 May 2026 21:07:23 GMT</pubDate>
     </item>
     <item>
       <title>Noroboto：Rust 中的谎言字体和缓解措施</title>
