@@ -3,21 +3,21 @@
   <channel>
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
-    <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sun, 24 May 2026 19:10:02 GMT</lastBuildDate>
+    <description></description>
+    <lastBuildDate>Sun, 24 May 2026 21:52:13 GMT</lastBuildDate>
     <item>
-      <title>LLM 真的需要理解大型代码库吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tmkzw6/does_an_llm_really_need_to_understand_large_code/</link>
-      <description><![CDATA[我最近看到了一些不同模型的比较以及它们在编码方面的表现。一个常见的重复测试似乎是他们如何处理所谓的“大型代码库”。 作为一名软件开发人员，我想知道：是否真的需要完全理解大型代码库才能使用它？我通常会在一段时间后这样做，但从来不会一次性全部完成，而且我见过很多人类开发人员尽管不能一直一次性理解所有内容，但仍然非常高效。 使用代码库所需的心理上下文窗口可能在很大程度上取决于代码的结构。如果它很混乱，到处都有依赖关系，那么您可能确实需要大量上下文。如果没有，那么只有本地上下文才可以。 我看到像数据库这样的代码库。数据库中的索引查询的成本大约为 O(log N)，其中 N 是表的大小。至少这就是各种二叉树的复杂性（我不知道实际的数据库是如何工作的，但我猜它们不会靠魔法运行）。这意味着复杂性（您必须查看的行数或“上下文窗口”）不会随着数据大小线性增长。而且，这是一个相当悲观的类比。代码不是索引表（你可以通过各种方式对其进行索引，但是在索引中搜索是不理解的）。当您处理代码库的一部分时，很可能 95% 的代码与您的工作根本不相关，因此渐近上下文窗口大小将更接近于 O(1)，其中任何 log N 项是由于残留的杂乱代码和不应该存在的依赖关系，而不是“算法”固有的东西。 在代码中找到要触摸的正确位置通常可以通过以下方式完成机械（非人工智能）工具，例如正则表达式搜索。编码代理实际上非常擅长“外包”编码。将代码思考为机械工具，例如编译器。就像人类开发人员一样。当我询问时，我看到 GPT 运行编译器来获取数据结构的大小。就我个人而言，我会在脑海中计算它，因为编写代码让编译器为我做这件事会花费更长的时间。但法学硕士可以“输入”比我快得多，所以它运行愚蠢的机械工具来进行数学计算，而不是消耗上下文令牌来“手动”进行计算。许多人类开发人员还使用编译器来测试他们的想法是否合理或下一步该朝哪个方向发展。至少我是这样的。因为我们的“上下文窗口”都是有限的。 那么，为什么我们要根据大型代码库的性能来判断模型呢？ 因为大多数代码库都是混乱的？ 因为人们熟悉代码，不知道如何保持代码干净、结构化和模块化？ 因为在非类型/非编译语言（JavaScript、Python 等）中，唯一可靠的方法是获得有关您的代码是否正确的反馈。代码正确并正在运行它吗？ 如果较小的模型在您的大型项目中遇到困难，那么人类也许也会如此？   由   提交/u/EC36339  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tmkzw6/does_an_llm_really_need_to_understand_large_code/</guid>
-      <pubDate>Sun, 24 May 2026 19:00:41 GMT</pubDate>
+      <title>下一个人工智能数据中心可以连接到你的房子吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tmndz1/could_the_next_ai_data_center_be_attached_to_your/</link>
+      <description><![CDATA[ 由   提交 /u/scientificamerican   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tmndz1/could_the_next_ai_data_center_be_attached_to_your/</guid>
+      <pubDate>Sun, 24 May 2026 20:32:09 GMT</pubDate>
     </item>
     <item>
-      <title>上周我构建了一个编码代理，在我吃午饭时运送了一个生产 MCP 服务器。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tmkuxf/i_built_a_coding_agent_last_week_that_shipped_a/</link>
-      <description><![CDATA[我是一名开发人员。几个月来我一直在手动搭建和连接 MCP 服务器 - 在本地搭建支架、编写测试、捕捉我错过的边缘情况、重写、针对单独的 MCP 客户端进行测试、编写 CI 配置、调试 CI 配置、发布。每台服务器需要 2-3 天的集中工程工作。我很好奇代理是否可以做得更好。 所以我建立了一个“项目开发人员”团队。 Hyperagent 内的代理。它的工作是：简单介绍一下，从头开始构建 TypeScript MCP 服务器，实现工具，测试所有内容，并通过工作 CI/CD 发送到 npm。我通过受保护的技能工作流程将其连接到我的 GitHub - 密钥存储在聊天之外，从未注入到会话中。我给了它四个长期规则：  每次代码更改后运行完整的 MCP 测试套件。无一例外。 强制执行 TypeScript 严格模式。根据 Zod 模式验证所有 API 响应。 在每次通过测试运行后提交语义版本控制。 每次推送后：生成测试覆盖率、lint 状态和构建运行状况的 markdown 报告。  然后我开始了。 发生的情况如下： 代理搭建了项目 - TypeScript、esbuild、vitest、 lint-staged - 并开始工作。大约 20 分钟后，它遇到了第一个真正的障碍：我们的内部 API 使用了一个没有详细记录的自定义身份验证标头。它没有猜测和消耗积分，而是停下来问我一个有关身份验证流程的具体多项选择问题。我回答道。它继续进行。 到第 2 小时，它已经实现并通过了三个核心 MCP 工具：query_resource、validate_payload 和 sync_batch。干净的常规提交。通过本机 Git 集成推送到功能分支。 我在 4 小时回来。代理已经启动了子代理 — 一个处理集成测试层，另一个并行处理 npm 打包和 README。子代理标记了一些我没有要求它查找的内容：单元测试无法捕获的 sync_batch 中的竞争条件。它向主代理报告，主代理修补了错误，重新生成了锁定文件，启动了另一个子代理来强化测试基础设施，并重新运行整个套件。 47 次测试。都是绿色的。我没有碰任何东西。 接下来是 CI/CD 工作流程 - GitHub Actions、跨 Node 18/20/22 的自动化测试、版本标签发布作业。从头开始编写，没有模板。另一个干净的提交。 我去吃午饭了。 7 小时：我回来了，它仍在运行。完整的 MCP 服务器位于代理的虚拟机内，针对自身执行最终的集成测试。然后它做了一些我没有要求的事情：它生成了一个技能文件，记录了架构、API 模式和故障排除指南，并将其直接保存到 Hyperagent 的技能集成中。可在未来的每个 MCP 项目中重复使用。它建立了自己的机构记忆。 最终数字：  测试覆盖率：94% 捆绑包大小：42KB Lint 错误：0 代理运行时间：7 小时 23 分钟 我的活跃时间：约 8 分钟 总成本：52.40 美元（Claude Opus 4.6)  仅竞争条件捕获就值得了。这正是那种让它进入生产环境并保持安静直到不再安静的错误。 我不断回到的部分：代理不只是编写代码。它对架构进行了推理，捕获了我本来会发布的并发错误，并生成了可重用的技能，以便下一个 MCP 项目能够抢占先机。我之前版本的此工作流程需要 2-3 天。这花费了我 8 分钟的时间，花费了 52 美元。 如果您想亲自尝试一下，请使用此链接注册！ https://hyperagent.com/refer/VVPNKZCF 现在通过我的推荐注册即可获得 1,000 美元的 Hyperagent 积分，用于开始构建。 还有其他人使用代理进行严肃的后端工作吗？您交付的最复杂的事情是什么？  https://preview.redd.it/17ng3ojtt43h1.png?width=1344&amp;format=png&amp;auto=webp&amp;s=78721d9e65e4dce130da463873d12869cc74f6dd   由   提交/u/Smart_War3981   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tmkuxf/i_built_a_coding_agent_last_week_that_shipped_a/</guid>
-      <pubDate>Sun, 24 May 2026 18:55:38 GMT</pubDate>
+      <title>告别传统 SEO：您的网站准备好迎接 2026 年 AI 的淘汰了吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tmm944/goodbye_traditional_seo_is_your_site_ready_for/</link>
+      <description><![CDATA[ 由   提交 /u/monotvtv   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tmm944/goodbye_traditional_seo_is_your_site_ready_for/</guid>
+      <pubDate>Sun, 24 May 2026 19:48:59 GMT</pubDate>
     </item>
     <item>
       <title>我构建了 LEMoE：用于本地法学硕士的无状态、轻量级专家混合 (MoE) 路由器。开源并寻求反馈！</title>
