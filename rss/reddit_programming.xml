@@ -4,18 +4,32 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 25 May 2026 07:17:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 12:24:37 GMT</lastBuildDate>
     <item>
-      <title>构建实时飞机异常管道：将不良遥测与可疑运动分开</title>
-      <link>https://www.reddit.com/r/programming/comments/1tmhkle/building_a_realtime_aircraft_anomaly_pipeline/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tmhkle/building_a_realtime_aircraft_anomaly_pipeline/</guid>
-      <pubDate>Sun, 24 May 2026 16:55:17 GMT</pubDate>
+      <title>我如何使 Zig 游戏代码可热重载</title>
+      <link>https://www.reddit.com/r/programming/comments/1tn7bft/how_i_made_my_zig_gameplay_code_hot_reloadable/</link>
+      <description><![CDATA[几个月前，我将游戏代码库的 Zig 部分设为可热重载。有几个人问我这样做的挑战和问题，所以我写了一篇关于它的博客文章。 不是操作教程，而是“这就是我所做的”。希望它对尝试做同样事情的人有用:)   由   提交/u/unvestigate  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tn7bft/how_i_made_my_zig_gameplay_code_hot_reloadable/</guid>
+      <pubDate>Mon, 25 May 2026 12:12:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>PSA：VSCode 扩展（NX 控制台、TeamPCP）在 GitHub 泄露中受到损害</title>
+      <link>https://www.reddit.com/r/programming/comments/1tn5359/psa_vscode_extensions_nx_console_teampcp/</link>
+      <description><![CDATA[对于那些使用 NX Console 或 TeamPCP 等 VSCode 扩展的用户来说，有报告称恶意代码通过 GitHub 被注入到这些工具中。该问题于 2026 年 5 月被发现，在推出补丁的同时，它很好地提醒您检查已安装的扩展和依赖项。 您最近在开发设置中遇到过任何可疑行为吗？   由   提交/u/dhakalster123  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tn5359/psa_vscode_extensions_nx_console_teampcp/</guid>
+      <pubDate>Mon, 25 May 2026 10:26:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>臭名昭著的 20 年前的 MySQL Bug #11472 已得到修复。</title>
+      <link>https://www.reddit.com/r/programming/comments/1tn3vfx/the_infamous_20_year_old_mysql_bug_11472_has_been/</link>
+      <description><![CDATA[蛋糕还是受欢迎的。   由   提交/u/Adept_Signature3352   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tn3vfx/the_infamous_20_year_old_mysql_bug_11472_has_been/</guid>
+      <pubDate>Mon, 25 May 2026 09:21:31 GMT</pubDate>
     </item>
     <item>
       <title>Elixir 中的最高随机权重</title>
       <link>https://www.reddit.com/r/programming/comments/1tmgs3h/highest_random_weight_in_elixir/</link>
-      <description><![CDATA[我已经休假了 3 周，我利用这段时间重新点燃了我对编码的热情（老方法，手工）。偶然发现了这种一致性哈希的替代方案，称为集合哈希（或最高随机权重），并进行了一些深入研究。它最终变成了一个基本库，包括基本算法、一些变体和 O(log n) 访问的骨架模式。 对于节点数 &lt;20，它的性能与 ExHashRing 类似，并且骨架优化即使在数万个节点中也具有竞争力，但它不使用 NIF 或有状态进程，并且基本算法本质上是单行代码。 无论如何，学习起来很有趣，希望您喜欢 https://jola.dev/posts/highest-random-weight-in-elixir   由   提交/u/joladev  [链接] [评论]]]></description>
+      <description><![CDATA[我已经休假了 3 周，我利用这段时间重新点燃了我对编码的热情（老方法，手工）。偶然发现了这种一致性哈希的替代方案，称为集合哈希（或最高随机权重），并进行了一些深入研究。它最终变成了一个基本库，包括基本算法、一些变体和 O(log n) 访问的骨架模式。 对于节点数 &lt;20 的情况，它的性能与 ExHashRing 类似，并且骨架优化即使在数万个节点中也具有竞争力，但它不使用 NIF 或有状态进程，并且基本算法本质上是单行代码。 无论如何，学习起来很有趣，希望您喜欢 https://jola.dev/posts/highest-random-weight-in-elixir   由   提交/u/joladev  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tmgs3h/highest_random_weight_in_elixir/</guid>
       <pubDate>Sun, 24 May 2026 16:25:18 GMT</pubDate>
     </item>
@@ -36,7 +50,7 @@
     <item>
       <title>童年计算</title>
       <link>https://www.reddit.com/r/programming/comments/1tmbduj/childhood_computing/</link>
-      <description><![CDATA[ 由   提交/u/the-15th-standard  [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/the-15th-standard   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tmbduj/childhood_computing/</guid>
       <pubDate>Sun, 24 May 2026 12:52:50 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[在 4 月份暂时禁止 LLM 相关内容之后，以及征求您对该禁令的反馈，我们决定结束四月份对人工智能相关帖子的临时禁令。 取代试用规则的是一条新的闪亮规则，它指的是我们新的闪亮人工智能政策。简而言之：  有关 AI 和 LLM 的内容被认为是离题的，仅排除有关实施的深层技术内容。  如果您想要更多详细信息，请阅读该政策，这就是它的用途。 此外，在编写该规则时，我意识到这些规则并未在 old.reddit.com 侧边栏，因此已更新。对于那些第一次看到这些规则的人来说，其中的一切并不新鲜。多年来，我们一直在尽最大努力执行这些规则。您可以点击上面的链接进入 old.reddit 规则页面，其中有大量信息，塞在侧边栏中时读起来不太好。   由   提交 /u/ChemicalRascal   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tlh5aj/announcement_weve_updated_the_rules_and_april_is/</guid>
       <pubDate>Sat, 23 May 2026 13:54:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>将其他领域的隐喻应用到软件开发中</title>
-      <link>https://www.reddit.com/r/programming/comments/1tleq8t/applying_metaphors_from_other_fields_into/</link>
-      <description><![CDATA[ 由   提交/u/jhartikainen   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tleq8t/applying_metaphors_from_other_fields_into/</guid>
-      <pubDate>Sat, 23 May 2026 12:08:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spring Boot 与 Node.js：我在生产环境中运行了 18 个月。一个要多花费 12,000 美元。猜猜哪个</title>
-      <link>https://www.reddit.com/r/programming/comments/1tlc1tx/spring_boot_vs_nodejs_i_ran_both_in_production/</link>
-      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tlc1tx/spring_boot_vs_nodejs_i_ran_both_in_production/</guid>
-      <pubDate>Sat, 23 May 2026 09:47:16 GMT</pubDate>
     </item>
     </channel>
 </rss>

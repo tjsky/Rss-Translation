@@ -4,7 +4,35 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 25 May 2026 07:19:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 12:24:59 GMT</lastBuildDate>
+    <item>
+      <title>Edge.js：在 WebAssembly 沙箱内运行 Node 应用程序</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tn6e3f/edgejs_running_node_apps_inside_a_webassembly/</link>
+      <description><![CDATA[       由   提交/u/fagnerbrack  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tn6e3f/edgejs_running_node_apps_inside_a_webassembly/</guid>
+      <pubDate>Mon, 25 May 2026 11:30:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>与 Next.js 16 代理 + NextAuth 作斗争</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tn481q/struggling_with_nextjs_16_proxy_nextauth/</link>
+      <description><![CDATA[错误：身份验证不是函数，重定向不起作用 嘿伙计们， 几天来我一直在努力反对这个问题。我正在尝试使用 NextAuth v5 的新 proxy.ts 约定来保护 Next.js 15 项目中的 /dashboard 路由。 我的设置：  site/auth/auth.ts → export const { handlers, auth, signIn, signOut } = NextAuth(authConfig) site/app/api/auth/[...nextauth]/route.ts → 重新导出 handlers site/proxy.ts → 应该用 auth((req) =&gt; { … })  但是当我运行时它，我不断收到： Code TypeError: {imported module ./auth/auth.ts}.auth is not a function  即使当我尝试简化时，Next.js 也会抱怨： Code 代理文件“/proxy”必须导出名为“proxy”的函数或默认函数。  我尝试过： 重命名 middleware.ts → proxy.ts 双重检查相对导入 (../../../auth/auth) 确保 authConfig 具有提供程序和会话策略 仍然卡住。重定向永远不会触发，/dashboard 只是正常加载。 有人用 Next.js 15 + NextAuth v5 解决了这个问题吗？我是否需要放弃 auth() 并只使用我自己的 JWT cookie 代理？任何可行的示例都是救星。   由   提交 /u/Ok_Efficiency_1116   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tn481q/struggling_with_nextjs_16_proxy_nextauth/</guid>
+      <pubDate>Mon, 25 May 2026 09:41:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在Wordpress中拉伸内容栏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tn37c8/how_to_stretch_content_bar_in_wordpress/</link>
+      <description><![CDATA[      我正在使用生成新闻并设置了一个基本的网站模板，内容栏的内部进行了振动编码。  这只是出于爱好。 我正在考虑通过后端/前端代码开发网站，并放弃 wordpress.org，因为它有点挑剔。 这意味着对网站进行振动编码，这可能会影响速度。   由   提交/u/neonrider2018   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tn37c8/how_to_stretch_content_bar_in_wordpress/</guid>
+      <pubDate>Mon, 25 May 2026 08:44:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>FB/Meta Messenger 集成到网站</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tn2obe/fbmeta_messenger_integration_to_website/</link>
+      <description><![CDATA[您好！我需要探索如何使用 Messenger 作为我网站中的主要聊天功能。 因此，目前，我们正在为我们的页面充分利用业务 AI，而且效果一直很好。我希望它也可以在我的网站上使用。有没有一种服务可以实现这一点？ 也许是一个 WordPress 插件？或者任何允许我的页面的 Messenger（带有 Business AI）集成到我的网站的第三方系统。 成本不是问题。   由   提交/u/SameConsideration403  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tn2obe/fbmeta_messenger_integration_to_website/</guid>
+      <pubDate>Mon, 25 May 2026 08:15:33 GMT</pubDate>
+    </item>
     <item>
       <title>图像重网站的单独设计建议</title>
       <link>https://www.reddit.com/r/webdev/comments/1tn0tog/solo_design_for_image_heavy_site_advice/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[       由   提交 /u/fiskfisk   [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tma96z/declarative_partial_updates_new_in_chrome_148/</guid>
       <pubDate>Sun, 24 May 2026 12:00:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>为真实客户构建草坪预订平台，需要经验丰富的开发人员的建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tm72xp/building_a_turf_booking_platform_for_a_real/</link>
-      <description><![CDATA[嘿伙计们，我真的需要一些建议！！！ 计划为真正的客户建立一个运动草坪/竞技场预订平台。 功能： 1.时段预订 2.付款 3.管理仪表板 4.预订管理 5.最初适合移动设备的网站 当前的堆栈想法： - React - Django + DRF - PostgreSQL - Razorpay 我希望保持它的简单性、可维护性和长期生产就绪性。 希望得到构建过类似系统的人的建议： 1.最大的技术挑战？ 2.处理双重预订/并发？ 3.部署/托管建议？ 4.初学者应该避免的错误？ 希望得到诚实的建议和真实的经验。谢谢！   由   提交/u/hyperx05  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tm72xp/building_a_turf_booking_platform_for_a_real/</guid>
-      <pubDate>Sun, 24 May 2026 09:09:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>我过度设计了我的个人博客，并从中学到了比我构建的大多数副项目更多的东西</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tm1snm/i_overengineered_my_personal_blog_and_learned/</link>
-      <description><![CDATA[      真的没想到博客能教我这么多。 开始它是因为我想要一个我完全拥有的写作空间。没有Medium，没有Hashnode，不用每月付钱给别人来托管我自己的想法。 只是一个我端到端控制的快速、干净的平台，这是我可以引以为傲的东西，也许还可以向朋友炫耀。 （如果你明白我在那里做了什么，那你就太棒了） 来自 Next.js，我选择 Astro 是因为它对于内容丰富的网站来说很有意义，而且我一直想尝试一下。我没想到的是我的 React 习惯会如此严重地跟随我。 第一天我就到处扔岛。反应查询管理永远不会改变的博客文章列表的状态。纯粹为了显示文本而存在的组件上的客户端水合作用。在某个时候，我查看了一个网站上的 JavaScript 包，该网站的全部工作就是向人们展示文字，并感到自己的决定对我个人造成了攻击。 花了一周的时间进行倒退。剥离水合作用，将岛屿转换回 Astro 组件，询问“这实际上需要在客户端上运行吗”在触摸任何东西之前。答案几乎总是否定的。有四件事作为真正的岛屿幸存下来——点赞、评论、搜索、主题切换。其他一切都只是 HTML。 删除那周所带来的性能提升让我在之前几周构建的所有东西都感到尴尬。 另一件令我着迷的事情 - Cloudflare Workers 不是 Node.js。我在理智上知道这一点。直到数据库调用在本地开发中完美运行并在生产中默默失败且有用日志为零时，我才真正意识到这一点。最终在环境之间拆分适配器只是为了保持本地 DX 完好无损。从这个错误中学到的关于边缘运行时的知识比我读过的每一篇关于该主题的文章都要多。 完整的堆栈最终是 Astro 6、Keystatic 作为基于 Git 的 CMS、Cloudflare Pages 和 Workers、Turso 边缘、Drizzle、Satori 用于 OG 图像、Pagefind 用于搜索、Giscus 用于评论。在全球范围内运行，每月约 1 美元，只需域名成本，是的，这太疯狂了。 写下完整的架构和我犯的所有错误：https://arjunnambiar.dev/blog/i-built-a-distributed-blog-platform-on-cf/ 如果有人想为自己的博客/项目克隆一个活泼的 Astro 启动器，请回购：https://github.com/ShadowSlayer03/Blog-With-Astro 还有其他人找到了一个副项目，教给他们的内容超出了他们的预期吗？   由   提交/u/ShadowSlayer2242   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tm1snm/i_overengineered_my_personal_blog_and_learned/</guid>
-      <pubDate>Sun, 24 May 2026 04:22:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了 Multispot，同时查找多个位置！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlzymp/i_built_multispot_find_multiple_locations_at_the/</link>
-      <description><![CDATA[      大家好， 我构建了一个名为 MultiSpot 的工具，您可以在其中选择 2 到 5 个地点类型（咖啡馆、健身房、药房等），它会找到离您最近的位置。因此，您不必分别在谷歌上搜索每个地方并进行心算，您只需得到答案：到这里，一切都在要求的距离内。 有一天，我在寻找洗车场和咖啡馆时产生了这个想法，在那里我可以在等待洗车时放松一下，而试图在 Google 地图上同时找到 2 个位置真是太麻烦了。 免费使用，无需注册。如果有人想在其之上进行构建，还有一个 API。 请访问：multispot.net   由   提交/u/Dalleuh   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlzymp/i_built_multispot_find_multiple_locations_at_the/</guid>
-      <pubDate>Sun, 24 May 2026 02:53:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>【周六炫耀】因为懒得想怎么更新客户端所以做了一个工具</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tlztz0/showoff_saturday_made_a_tool_because_i_was_too/</link>
-      <description><![CDATA[我一直推迟编写它们，因为我必须回顾几周的提交并决定哪些内容与非技术人员实际相关。所以我只是构建了一些自动执行此操作的东西。 你连接你的存储库，设置受众，然后它会从你的 git 活动中写入更新。 它被称为 DevPulse。还早呢。如果您好奇，这里有一个演示页面。 https://getdevpulse.com   由   提交/u/adrien2112  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tlztz0/showoff_saturday_made_a_tool_because_i_was_too/</guid>
-      <pubDate>Sun, 24 May 2026 02:47:26 GMT</pubDate>
     </item>
     </channel>
 </rss>

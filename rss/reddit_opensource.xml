@@ -4,18 +4,39 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 25 May 2026 07:20:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 12:25:04 GMT</lastBuildDate>
+    <item>
+      <title>Lavern - 一家开源代理“律师事务所”</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tn6s7p/lavern_an_open_source_agentic_law_firm/</link>
+      <description><![CDATA[嗨 Reddit， 我免费发布了过去 6 个月构建的代理法律系统。超过 150,000 行代码、67 个专业代理、9 个工作流程以及其中至少 10 个可以作为单独产品制作的内容。  它是在 Apache 2.0 下发布的。许可证，以便您可以分叉它、根据需要修改它或将其用作您产品的基础。  人工律师写了一篇关于它的好文章： https://www.artificiallawyer.com/2026/05/20/lavern-the-agentic-law-firm-has-arrived/ 网站在这里：www.lavern.ai 仓库：https://github.com/AnttiHero/lavern Linux 来自芬兰。拉文也在追随同样的脚步。  让我知道你的想法。   由   提交 /u/Peter-Dojo-Stormare   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tn6s7p/lavern_an_open_source_agentic_law_firm/</guid>
+      <pubDate>Mon, 25 May 2026 11:48:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anagnorisis 的新稳定版本 (v0.4.0) - 本地媒体推荐系统，可以了解您的品味，从而更有效地查找、搜索和过滤数据。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tn3oyz/new_stable_release_v040_of_anagnorisis_local/</link>
+      <description><![CDATA[      我构建这个项目已经有一段时间了（超过两年半），v0.4.0 对我来说感觉像是一个重要的里程碑，该项目实际上变得足够有用且方便日常使用。 简短的版本：它是一个自托管应用程序，利用您的 GPU 来了解您真正喜欢的内容。你将它指向你的音乐、图像、视频或文档，对其中一些进行评分，它会训练一个小模型来预测你的品味，并对其他所有内容进行相应的排序。一切都是本地的，没有任何东西离开你的机器。 这个版本对我来说特别的地方在于，许多粗糙的基础设施工作终于整合在一起了。 ML 模型现在在独立的子进程中运行，因此应用程序在空闲时不再占用您的 VRAM。有一个适当的后台作业系统，可以随着时间的推移自动对您的文件进行评级和描述，因此当您浏览到文件夹时，事情已经被描述和评估了。 还有一个新的外部模块系统，其中有两个实验性模块已经可用：一个用于索引和搜索网站，另一个用于将 YouTube 视为媒体源，同时保持推荐本地化。 该项目仍然有一些粗糙的地方，特别是在视频支持和低端硬件上的描述生成速度方面。但与一两年前相比，这是一次真正不同的体验。 如果这听起来很有趣，它完全通过 Docker 运行，因此设置只需使用文件夹路径编辑 yaml 文件即可。如果有人有任何关于该项目的问题，我很乐意回答。   由   提交 /u/Another__one   [link] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tn3oyz/new_stable_release_v040_of_anagnorisis_local/</guid>
+      <pubDate>Mon, 25 May 2026 09:11:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了 Teams，所以我构建了自己的 Teams</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tn31vr/i_got_tired_of_teams_so_i_built_my_own/</link>
+      <description><![CDATA[大约 9 个月前，我休息了一天，并在 Teams 中经历了太多糟糕的经历。电话掉线、更新导致我的电脑崩溃，而且有一天，我的电脑被强制喂食，经历了太多次的糟糕经历。所以我回家开始建立自己的。 现在这已经变成了利润。一个开源的、端到端加密的团队沟通平台。全部在欧洲托管，不依赖美国基础设施（目前很流行）。不一定是因为意识形态，而是因为每个欧洲组织都在谈论 GDPR 和数字主权，然后无论如何都通过 Microsoft 来管理一切，这感觉很奇怪。 在建立它的同时，还有一份全职工作和两个孩子。它的边缘很粗糙，但它可以工作，而且我刚刚进入公开测试版。 关于技术，我在 Spring Boot + Java 25 中构建了整个后端，并使用嵌入式 Netty 服务器直接处理 WebSocket 层，而不是通过 Spring 的 WebSocket 抽象。主要原因是控制，因为 Netty 直接为您提供事件循环，这在您同时处理实时消息传递和调用时很重要。代价是 Netty 是一个普通的 Java 类，而不是 Spring bean，因此您会失去处理程序中的自动依赖注入。尝试使用基于处理器的策略模式来解决这个问题，其中每个 WebSocket 消息类型都是其自己的 Spring 组件，在启动时自动发现，在运行时通过映射查找进行分派。 早期让我困扰的一件事是在 Netty 事件循环线程上运行的 hibernate。阻止事件循环上的数据库调用将绑架线程并备份其后面的所有内容。通过将所有处理器调用卸载到专用执行器池并让 Netty 异步处理写回来修复。 桌面/Web 客户端是 Svelte + Electron。 1 对 1 呼叫是 P2P，通道呼叫（群组呼叫）通过 mediasoup SFU 处理。直接消息的端到端加密。 该应用程序目前由我托管和维护。从技术上讲，自行托管它是可行的，但有点乏味，所以我想添加专用脚本和文档，以便将来自行托管它。 代码：https://codeberg.org/margin 尝试一下：https://margin.chat 很高兴讨论任何架构决策。   由   提交/u/monsieur_ramboz  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tn31vr/i_got_tired_of_teams_so_i_built_my_own/</guid>
+      <pubDate>Mon, 25 May 2026 08:36:03 GMT</pubDate>
+    </item>
     <item>
       <title>福克斯有用吗？</title>
       <link>https://www.reddit.com/r/opensource/comments/1tmxrba/does_fauxx_work/</link>
-      <description><![CDATA[https://github.com/digital-grease/fauxx 这真的会毒害你的数据吗？   由   提交 /u/ki4jgt   [链接] [评论]]]></description>
+      <description><![CDATA[https://github.com/digital-grease/fauxx 这真的会毒害你的数据吗？   由   提交/u/ki4jgt   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tmxrba/does_fauxx_work/</guid>
       <pubDate>Mon, 25 May 2026 04:02:04 GMT</pubDate>
     </item>
     <item>
       <title>停止流式减价。尝试使用 HTML 作为 LLM 的响应格式</title>
       <link>https://www.reddit.com/r/opensource/comments/1tmp6e6/stop_streaming_markdown_try_html_instead_as_a/</link>
-      <description><![CDATA[      它基本上是 Streamdown 的替代方案，只是它很难让它工作，因为... Html 是 html ... 无论如何，我猜你可以尝试一下 https://github.com/Alphanimble/htmlstream   由   提交/u/boneMechBoy69420  [链接] [评论] ]]></description>
+      <description><![CDATA[      它基本上是 Streamdown 的替代方案，只是让它工作起来要困难得多，因为 ... Html 是 html ...无论如何你可以尝试一下，我猜 https://github.com/Alphanimble/htmlstream   由   提交/u/boneMechBoy69420  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tmp6e6/stop_streaming_markdown_try_html_instead_as_a/</guid>
       <pubDate>Sun, 24 May 2026 21:42:40 GMT</pubDate>
     </item>
@@ -29,7 +50,7 @@
     <item>
       <title>PyIcon Editor 和 Creator 制作 .ico 和 .icns 文件。</title>
       <link>https://www.reddit.com/r/opensource/comments/1tmkxa7/pyicon_editor_and_creator_makes_ico_and_icns_files/</link>
-      <description><![CDATA[      这是我组装的一个基于 Python 的图标编辑器。 加载现有图像（PNG、JPG、BMP、GIF、TIFF、WebP、ICO） 保存：将当前复合画布另存为平面 PNG 导出 ICO：导出多分辨率 Windows带预览的图标 导出 ICNS：使用基于 Pillow 的 .icnsexport 导出 macOS 图标 我目前正在添加应用程序和 exe 支持，以便它可以从应用程序或程序中获取图标集。欢迎任何其他想法或改进以及任何拉取请求。    由   提交/u/Sniper666hell   [link] [评论] ]]></description>
+      <description><![CDATA[      这是我组装的一个基于 Python 的图标编辑器。 加载现有图像（PNG、JPG、BMP、GIF、TIFF、WebP、ICO） 保存：将当前复合画布另存为平面 PNG 导出 ICO：导出多分辨率 Windows带预览的图标 导出 ICNS：使用基于 Pillow 的 .icnsexport 导出 macOS 图标 我目前正在添加应用程序和 exe 支持，以便它可以从应用程序或程序中获取图标集。欢迎任何其他想法或改进以及任何拉取请求。    由   提交/u/Sniper666hell   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tmkxa7/pyicon_editor_and_creator_makes_ico_and_icns_files/</guid>
       <pubDate>Sun, 24 May 2026 18:58:07 GMT</pubDate>
     </item>
@@ -43,7 +64,7 @@
     <item>
       <title>Perseus — 用于 AI 助手的实时上下文引擎：MIT，一个依赖项，您可以将单个文件拖放到任何地方</title>
       <link>https://www.reddit.com/r/opensource/comments/1tmgix2/perseus_a_live_context_engine_for_ai_assistants/</link>
-      <description><![CDATA[我刚刚开源了 Perseus - 一个预处理器，可以在 AI 助手读取之前将实时工作区状态（git 状态、正在运行的服务、会话检查点、团队收件箱）解析为简单的 Markdown。没有插件。没有 SDK。它会写入您的助手已打开的任何文件。 开源角度：  MIT 许可证 - 在任何地方使用它，自由修改 单个文件插入：perseus.py（约 12,000 行，从模块化 src/ 树编译） 一个依赖项：pyyaml pip install perseus-ctx 或 curl 单个文件 - 您的选择 20 个指令、近 600 个测试、33 个边缘情况测试 包含 MCP 服务器外观（perseus mcpserve - 13 个指令工具）  What problem it solves: Every AI coding session starts cold. The assistant burns turns checking what branch you&#39;re on, what services are running, where you left off.静态 Markdown 文件会立即腐烂。 Perseus 预先呈现实时事实，因此助手开始时已经进行了简报。 没有 Perseus 有 Perseus ──────────────────────────────── ──────────────────────────── “端口为 3001（检查 .env）” → Port: 3001 &quot;47 tests (may be stale)&quot; → Tests: 597 passing (run 8s ago) &quot;Check docker ps first&quot; → mongo-dev：提高 4h 12m 基准（可重现，全部在存储库中）：  使用 u/cache 实现 40 倍热渲染加速 ttl=300 0.36 秒内 10,000 个指令 120 个代理群：150 9.7 秒内写入，零冲突 benchmark/edge-bench/ 中的所有基准测试脚本  我正在寻找：  贡献者 - 新指令、辅助集成、文档 关于编译前上下文方法与 MCP 工具调用的反馈 感受过冷启动痛苦，想尝试一下  站点： https://perseus.observer Repo： https://github.com/tcconnally/perseus PyPI： https://pypi.org/project/perseus-ctx/ 很高兴回答有关架构、构建系统（Python 源代码树 → 单文件工件）或其他任何问题的问题。   由   提交/u/formula420  [链接] [comments]]]></description>
+      <description><![CDATA[我刚刚开源了 Perseus - 一个预处理器，可以在 AI 助手读取之前将实时工作区状态（git 状态、正在运行的服务、会话检查点、团队收件箱）解析为简单的 Markdown。没有插件。没有 SDK。它会写入您的助手已打开的任何文件。 开源角度：  MIT 许可证 - 在任何地方使用它，自由修改 单个文件插入：perseus.py（约 12,000 行，从模块化 src/ 树编译） 一个依赖项：pyyaml pip install perseus-ctx 或 curl 单个文件 - 您的选择 20 个指令、近 600 个测试、33 个边缘情况测试 包含 MCP 服务器外观（perseus mcpserve - 13 个指令工具）  它解决了什么问题： 每个人工智能编码会话都是冷启动的。助理会轮流检查您所在的分支、正在运行哪些服务以及您离开的位置。静态 Markdown 文件会立即腐烂。 Perseus 预先呈现实时事实，因此助手开始时已经进行了简报。 没有 Perseus 有 Perseus ──────────────────────────────── ──────────────────────────── “端口为 3001（检查 .env）” → 端口：3001“47 次测试（可能已过时）” → 测试：597 通过（8 秒前运行） “首先检查 docker ps” → mongo-dev：提高 4h 12m 基准（可重现，全部在存储库中）：  使用 u/cache 实现 40 倍热渲染加速 ttl=300 0.36 秒内 10,000 个指令 120 个代理群：150 9.7 秒内写入，零冲突 benchmark/edge-bench/ 中的所有基准测试脚本  我正在寻找：  贡献者 - 新指令、辅助集成、文档 关于编译前上下文方法与 MCP 工具调用的反馈 感受过冷启动痛苦，想尝试一下  站点： https://perseus.observer Repo： https://github.com/tcconnally/perseus PyPI： https://pypi.org/project/perseus-ctx/ 很高兴回答有关架构、构建系统（Python 源代码树 → 单文件工件）或其他任何问题的问题。   由   提交/u/formula420  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tmgix2/perseus_a_live_context_engine_for_ai_assistants/</guid>
       <pubDate>Sun, 24 May 2026 16:15:43 GMT</pubDate>
     </item>
@@ -64,7 +85,7 @@
     <item>
       <title>如何处理上传资产的责任？</title>
       <link>https://www.reddit.com/r/opensource/comments/1tlu95g/how_to_handle_responsibility_for_uploaded_assets/</link>
-      <description><![CDATA[我正在开发一个项目，该项目将包含社区采购的大量资产（由社区制作或在免费使用许可证下找到）。存在有人上传他们无权上传的资产的风险。我可以采取什么措施来确保他们承担资产的所有责任，例如让上传者签署合同？我不想因为别人的错误而被起诉。   由   提交/u/Acamaeda  [链接] [评论]]]></description>
+      <description><![CDATA[我正在开发一个项目，该项目将包含社区采购的大量资产（由他们制作或在免费使用许可证下找到）。存在有人上传他们无权上传的资产的风险。我可以采取什么措施来确保他们承担资产的所有责任，例如让上传者签署合同？我不想因为别人的错误而被起诉。   由   提交/u/Acamaeda  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tlu95g/how_to_handle_responsibility_for_uploaded_assets/</guid>
       <pubDate>Sat, 23 May 2026 22:32:18 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[大家好， 我们构建了一个工具，希望开源社区可以发现它对于使用 WireGuard 客户端监控和管理设备很有用。 Wantastic Core 是一个开源项目，面向希望将设备部署到网状虚拟网络中的网络管理员、工程师和家庭实验室所有者，类似于 Tailscale 或 NetMaker，并具有一些侧重于更轻松的访问和设备管理的附加功能。 它包括逆向工程 Winbox 服务器等功能，让您可以创建虚拟帐户并直接登录您的 MikroTik 设备，甚至在 RoMON 模式下也是如此。它还包括基于浏览器的 WebSSH，具有会话持久性和遥测跟踪功能，可用于在线可用性、连接正常运行时间、延迟、公共 IP 地址等。 如果您觉得它有用，我们将非常感谢您的反馈、贡献或星星⭐ 许可证：MIT 存储库：WantasticApp/WantasticCore https://github.com/WantasticApp/WantasticCore   由   提交/u/MtHoodlum   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tlnfvl/wantastic_core_wireguard_connection_aggregator/</guid>
       <pubDate>Sat, 23 May 2026 17:59:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Malus，一个奇怪的想法，而我却迟到了</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tlanyb/malus_a_weird_idea_and_me_being_late_to_the_party/</link>
-      <description><![CDATA[所以我遇到了 Malus，坦率地说，我无法判断这是否是纯粹的邪恶，背后是讽刺或激进主义，通过稻草人动员人们反对那些真正有恶意的人。但这确实引起了我的思考。  类似的“ai洁净室”可以吗？设置为处理后编译代码以生成“合法的独特开源代码”？不是作为一种真正丰富开源存储库的方式，而是作为一种被现存最大的公司起诉到地狱的方式，树立一个绝对可靠的先例，然后保护开源免受相反过程的影响？    由   提交 /u/Xhosant   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tlanyb/malus_a_weird_idea_and_me_being_late_to_the_party/</guid>
-      <pubDate>Sat, 23 May 2026 08:26:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>confluence2md - 开源 CLI 将 Confluence 空间导出到本地 Markdown</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tkwcw5/confluence2md_open_source_cli_to_export/</link>
-      <description><![CDATA[      我刚刚开源了 confluence2md，这是一个用于将 Confluence 空间导出到本地 Markdown 文件的 Go CLI。 它的作用： - 从种子页面抓取 Confluence，跟踪链接至可配置的深度 - 使用稳定的文件名写入干净的 Markdown（包括用于跟踪重命名的页面 ID） - 将内部链接重写为相对本地路径，保留外部 URL - 下载附件并重写引用 - 支持具有双检查点可靠性的增量更新 - 输出带有页面元数据和双向链接图的 metadata.json 为什么开源： Confluence 导出问题是真实存在的，影响着很多团队。现有工具要么已经过时，要么被锁定在特定的工作流程中，要么根本不起作用。我想要一些简单的东西，只需干净地导出您的文档，这样您就可以： - 在 Git 中版本化您的知识 - 将文档输入 RAG/AI 管道 - 在您喜欢的 Markdown 编辑器中离线浏览 - 构建本地全文搜索 技术： - Pure Go（零 CGO），跨平台 - 完整的测试套件 - 带有自动发布和预构建二进制文件的 GitHub Actions CI/CD - MIT 许可，欢迎贡献 链接： - GitHub：https://github.com/gkoos/confluence2md - 版本：https://github.com/gkoos/confluence2md/releases 寻找早期反馈、错误报告和贡献。如果您以前处理过 Confluence 导出，我很想知道是什么让这个工具对您的工作流程更有用。   由   提交/u/OtherwisePush6424   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tkwcw5/confluence2md_open_source_cli_to_export/</guid>
-      <pubDate>Fri, 22 May 2026 21:20:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>JobOps v0.8.0 正式上线。 6 个月后，势头强劲</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tkn5j9/jobops_v080_is_officially_live_6_months_in_and/</link>
-      <description><![CDATA[此版本的主要功能是观察列表，这是因为用户厌倦了跟踪特定公司职业委员会的手动工作而构建的。您现在可以固定目标招聘来源并从一个仪表板刷新所有内容，而不是每天打开 20 个选项卡来查看职业页面是否发生变化并尝试记住昨天的内容。 对于第一个版本，该应用程序支持 BambooHR 和 Workday（通过内置 URL 或自定义配置）。如果您的目标公司使用其他东西，请随时打开 PR！它的设计可扩展且易于理解！ 还有什么新功能： • Z.AI / GLM 提供商支持（向为此打开 PR 的贡献者表示感谢） • 新的简历渲染主题和内容部分重新排序• 在入职期间反应式恢复JSON 导入• 更好的适合评估准确性• 入职和离线错误修复 在过去的半年里，这一理念没有改变：JobOps 不会试图为您喷洒和祈祷应用程序。它旨在显着减少求职的管理工作，以便您可以专注于申请您关心的职位 v0.8.0 现已发布。让我知道你的想法 https://github.com/DaKheera47/job-ops   由   提交 /u/DaKheera47   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tkn5j9/jobops_v080_is_officially_live_6_months_in_and/</guid>
-      <pubDate>Fri, 22 May 2026 15:57:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
