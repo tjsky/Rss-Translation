@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Mon, 25 May 2026 02:56:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 07:16:26 GMT</lastBuildDate>
+    <item>
+      <title>ERP软件建议需求。</title>
+      <link>https://www.reddit.com/r/software/comments/1tn1ce9/erp_software_suggestion_need/</link>
+      <description><![CDATA[我们的一个新客户拥有服装厂业务，营业额约为 30Cr 卢比，出口业务占 70%。 他们正在寻找优秀的 ERP 软件，以便在一个地方处理所有事务：  查询到交货 生产 库存 账户 财务 人力资源/薪资  已经在服装/出口业务中使用 ERP 的人们有什么实用建议吗？ 请在此处分享 ERP 软件名称。  谢谢   由   提交 /u/According_Board_7401   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tn1ce9/erp_software_suggestion_need/</guid>
+      <pubDate>Mon, 25 May 2026 07:03:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 10 上的 LDAC 通过 WSL2</title>
+      <link>https://www.reddit.com/r/software/comments/1tmx312/ldac_on_windows_10_via_wsl2/</link>
+      <description><![CDATA[嗨！这是我的第一篇文章，因为我说西班牙语，所以我使用翻译来写它。我想分享这个是因为我无法找到一种在不购买商业驱动程序的情况下在 Windows 10 上将我的耳机与 LDAC 连接的免费方法，并且由于我没有看到任何有关此确切解决方法的帖子，所以我认为在这里分享它会很酷。 我有一些使用 Linux 的基本经验，但我以前从未使用过 WSL2，而且我没有太多编程知识。为了构建这一切，我使用了 Antigravity 和 Gemini 的 vivi 编码。 最初的一些命令行脚本现在已经成为一个从 Windows 系统托盘运行的简单 Python 应用程序。 它的工作方式是，我将 WSL2 与非常轻的 Alpine Linux 安装和启用了蓝牙和 USBIP 的自定义内核结合使用。 使用 USBIPD-Win，该脚本需要我的 PC 的蓝牙卡（Intel AX210）并暂时将其传递给 Alpine VM。在 Alpine 内部，它运行 BlueZ、Pipewire 和 Wireplumber，对 LDAC 中的音频进行编码。 在 Windows 端，后台 Python 脚本使用 WASAPI 实时捕获系统音频，缩放声音数字样本以跟随 Windows 主音量滑块，并通过 UDP 将其流式传输到 Alpine，后者直接将其馈送到耳机。 我们还使用 Tkinter 构建了一个简单的界面，让我可以从系统托盘完成所有操作。我们添加的一些功能使其更易于使用：  基本的蓝牙管理器，您可以在其中扫描附近的设备、配对并连接。它可与 LDAC 耳机和 JBL Charge 5 等常规扬声器配合使用。 一个简单的监视器窗口，显示活动设备、当前音量、流媒体速度以及从 Pipewire 动态读取的实际协商 LDAC 比特率（990 kbps、660 kbps 或自适应）。 质量选择器，您可以在极端质量 (990 kbps) 和更稳定的模式 (660 kbps) 之间切换，以避免避免干扰或自动模式。 热切换：如果一台设备已连接并且您想切换到另一台设备，应用程序会首先自动断开活动设备以释放物理卡，然后连接新设备，然后一键自动重新启动音频流。  一切都是通过桌面批处理文件自动完成的。当我双击它时，它会绑定蓝牙卡，启动 Alpine，连接耳机，然后启动音频流。 目前此设置唯一的缺点是，由于 WSL2 保留内存的方式，它在运行时使用大约 1GB 的 RAM。然而，一旦我关闭应用程序，它就会干净地分离卡，关闭虚拟机以释放 100% 的 RAM，并将蓝牙适配器返回给 Windows，以便我可以正常使用它。 我不知道这是否有什么新鲜事，但这是一个非常有趣的项目，很高兴您可以通过这种方式完全免费获得高质量的 LDAC 音频。   由   提交 /u/Tiny-Carrot-7708   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tmx312/ldac_on_windows_10_via_wsl2/</guid>
+      <pubDate>Mon, 25 May 2026 03:29:56 GMT</pubDate>
+    </item>
     <item>
       <title>相当于 Google Photos，无需设置服务器，不用于备份照片。</title>
       <link>https://www.reddit.com/r/software/comments/1tmvk79/google_photos_equivalent_no_server_setup_required/</link>
@@ -36,7 +50,7 @@
     <item>
       <title>构建了一个开源 Postman 替代方案，可与您的后端自动同步 + 自动测试您的端点的 AI 代理 - 寻找反馈</title>
       <link>https://www.reddit.com/r/software/comments/1tmnupr/built_an_open_source_postman_alternative_that/</link>
-      <description><![CDATA[嘿， 我对同样的工作流程问题感到沮丧一段时间，并决定构建一些东西。 问题： ``` 后端完成一个新端点 → 通过 Slack 告诉前端 → 前端手动将其复制到 Postman → 身份验证失败→ 再次询问后端 → 端点第二天发生变化→ 没有人通知 → 事情发生了→ 责任开始 ``` 我交谈过的每个团队都有这个。 Postman、Bruno、Insomnia、Hopscotch — 都需要您手动维护集合。后端发生变化。该工具不知道。 所以我正在构建 **Agrzam** - 一个开源协作 API 工作区，通过 OpenAPI 自动与您的后端同步。 工作原理： - 安装一个软件包：`@agrzam/apiwatch` - 运行一次 `agrzam connect` 进行身份验证 - 运行 `agrzam link` 将您的存储库连接到项目 - 包会自动监视服务器上的 OpenAPI JSON 启动 - 您的工作区在您编写代码时实时更新 - 准备好与团队成员共享时运行 `agrzam Push` 在工作区内进行测试的三种方法： **快速** — 一键点击，立即完成 GET 端点。无需设置。 **手动** — 粘贴您的令牌，编辑有效负载，然后发送。与 Postman 类似，但在整个团队实时共享的工作空间内。 **Vibe Test** - 这是有趣的。你知道振动编码吗？相同的想法，但用于 API 测试。你什么也没碰。向 AI 提供您的身份验证令牌，它会读取您的 OpenAPI 架构，生成有效负载，发送请求，读取响应，并准确告诉您通过的内容和原因。你只要看着。没有编写 JSON。无需手动设置。只是结果。 将其视为一个人工智能代理，可以像 QA 工程师一样自动、彻底地测试您的端点，而无需您解释任何内容。 可与任何生成 OpenAPI 的框架配合使用：NestJS、Express、FastAPI、Django、Laravel、Rails、Spring Boot。 还构建一个 Electron 桌面应用程序，使其像 Postman 一样离线工作。 目前处于架构验证阶段 - 无代码还没写。在开始之前寻求诚实的反馈。 **三个问题：**  本地优先模型（私下测试，准备好后推送）实际上有用还是只是额外的摩擦？ 自动 OpenAPI 同步会实时节省您的时间吗？ 您实际上会使用 Vibe Test 还是更喜欢完全手动控制？  具有完整架构的仓库：github.com/MrAboubakr/agrzam 欢迎严厉的反馈 - 我宁愿现在知道出了什么问题，也不愿在构建 6 个月后才知道。   由   提交/u/agh_98  [链接] [评论]]]></description>
+      <description><![CDATA[嘿， 我对同样的工作流程问题感到沮丧一段时间，并决定构建一些东西。 问题： ``` 后端完成一个新端点 → 通过 Slack 告诉前端 → 前端手动将其复制到 Postman → 身份验证失败→ 再次询问后端 → 端点第二天发生变化→ 没有人通知 → 事情发生了→ 责任开始 ``` 我交谈过的每个团队都有这个。 Postman、Bruno、Insomnia、Hopscotch — 都需要您手动维护集合。后端发生变化。该工具不知道。 所以我正在构建 **Agrzam** - 一个开源协作 API 工作区，通过 OpenAPI 自动与您的后端同步。 工作原理： - 安装一个软件包：`@agrzam/apiwatch` - 运行一次 `agrzam connect` 进行身份验证 - 运行 `agrzam link` 将您的存储库连接到项目 - 包会自动监视服务器上的 OpenAPI JSON 启动 - 您的工作区在您编写代码时实时更新 - 准备好与团队成员共享时运行 `agrzam Push` 在工作区内进行测试的三种方法： **快速** — 一键点击，立即完成 GET 端点。无需设置。 **手动** — 粘贴您的令牌，编辑有效负载，然后发送。与 Postman 类似，但在整个团队实时共享的工作空间内。 **Vibe Test** - 这是有趣的。你知道氛围编码吗？相同的想法，但用于 API 测试。你什么也没碰。向 AI 提供您的身份验证令牌，它会读取您的 OpenAPI 架构，生成有效负载，发送请求，读取响应，并准确告诉您通过的内容和原因。你只要看着。没有编写 JSON。无需手动设置。只是结果。 将其视为一个人工智能代理，可以像 QA 工程师一样自动、彻底地测试您的端点，而无需您解释任何内容。 可与任何生成 OpenAPI 的框架配合使用：NestJS、Express、FastAPI、Django、Laravel、Rails、Spring Boot。 还构建一个 Electron 桌面应用程序，使其像 Postman 一样离线工作。 目前处于架构验证阶段 - 无代码还没写。在开始之前寻求诚实的反馈。 **三个问题：**  本地优先模型（私下测试，准备好后推送）实际上有用还是只是额外的摩擦？ 自动 OpenAPI 同步会实时节省您的时间吗？ 您实际上会使用 Vibe Test 还是更喜欢完全手动控制？  具有完整架构的仓库：github.com/MrAboubakr/agrzam 欢迎严厉的反馈 - 我宁愿现在知道出了什么问题，也不愿在构建 6 个月后才知道。   由   提交/u/agh_98  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tmnupr/built_an_open_source_postman_alternative_that/</guid>
       <pubDate>Sun, 24 May 2026 20:50:18 GMT</pubDate>
     </item>
@@ -64,7 +78,7 @@
     <item>
       <title>有没有一个应用程序可以让我为自己的想法构建 3D 个人空间？喜欢《我的世界》，但为了你的想法？</title>
       <link>https://www.reddit.com/r/software/comments/1tmjova/is_there_an_app_where_i_can_build_a_3d_personal/</link>
-      <description><![CDATA[我现在没有自己的物理房间。没有可以贴海报的墙壁，没有写满笔记的桌子——只有我的笔记本电脑。我想以数字方式弥补这一点。 我正在寻找一个我可以实际在其中走动的虚拟个人空间。不是思维导图，也不是概念数据库——我可以在 3D 空间中放置事物，移动它们，随着时间的推移，它开始感觉像家一样。一个拥有我关心的一切的地方：兴趣、目标、想法、我有一天想做的事情。 《我的世界》感觉是一个正确的比喻 - 不是因为游戏本身，而是因为感觉。你建造了一些属于你的东西。你在里面走来走去。随着时间的推移，它会积累意义。问题是《我的世界》太重、太复杂，而且它不是为组织思想而构建的。 我看过： — Obsidian（非常适合笔记，但扁平） — Milanote（视觉但仍然是 2D） — Thortspace（3D 但笨重） — Frame VR（最接近的东西，但专为会议设计） 实际上做了类似的事情存在吗？一个轻量级、可步行的 3D 个人空间——不是为了协作，不是为了 VR 耳机——只是为了一个人和他们在一台普通笔记本电脑上的内心世界？ 或者这只是一个尚未填补的空白？   由   提交 /u/Ok-Cat-6043   [链接] [评论]]]></description>
+      <description><![CDATA[我现在没有自己的物理房间。没有可以贴海报的墙壁，没有写满笔记的桌子——只有我的笔记本电脑。我想以数字方式弥补这一点。 我正在寻找的是一个我可以实际在其中走动的虚拟个人空间。不是思维导图，也不是概念数据库——我可以在 3D 空间中放置事物，移动它们，随着时间的推移，它开始感觉像家一样。一个拥有我关心的一切的地方：兴趣、目标、想法、我有一天想做的事情。 《我的世界》感觉是一个正确的比喻 - 不是因为游戏本身，而是因为感觉。你建造了一些属于你的东西。你在里面走来走去。随着时间的推移，它会积累意义。问题是《我的世界》太重、太复杂，而且它不是为组织思想而构建的。 我看过： — Obsidian（非常适合笔记，但扁平） — Milanote（视觉但仍然是 2D） — Thortspace（3D 但笨重） — Frame VR（最接近的东西，但专为会议设计） 实际上做了类似的事情存在吗？一个轻量级、可步行的 3D 个人空间——不是为了协作，不是为了 VR 耳机——只是为了一个人和他们在一台普通笔记本电脑上的内心世界？ 或者这只是一个尚未填补的空白？   由   提交 /u/Ok-Cat-6043   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tmjova/is_there_an_app_where_i_can_build_a_3d_personal/</guid>
       <pubDate>Sun, 24 May 2026 18:12:30 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[我有一堆旧视频，这些视频是在高清真正出现之前制作的。有没有一个程序可以使用AI来放大以获得更好的图片？   由   提交 /u/sporkedit   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tmerek/best_program_to_upscale_old_videos/</guid>
       <pubDate>Sun, 24 May 2026 15:08:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于任何使用 ChatGPT Codex (GUI) 的人，请勿更新应用程序...</title>
-      <link>https://www.reddit.com/r/software/comments/1tme7ot/for_anyone_using_chatgpt_codex_gui_dont_update/</link>
-      <description><![CDATA[感觉每次更新应用程序时都会出现问题。这次，目标已经实现了一半，代理不断询问我何时我的配置允许在不询问我的情况下执行某些操作，我所有的子代理都回来了（现在我有 100 个东西）并且应用程序变慢了。 我再也不会更新它了。或者这对你们中的任何人来说也是一个问题吗？ 此时，我可能会切换到 CLI。   由   提交/u/BritishDudeGuy   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tme7ot/for_anyone_using_chatgpt_codex_gui_dont_update/</guid>
-      <pubDate>Sun, 24 May 2026 14:48:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows 11 上还有比 Realtek 更好的吗？</title>
-      <link>https://www.reddit.com/r/software/comments/1tmcbe9/anything_better_than_realtek_for_windows_11/</link>
-      <description><![CDATA[我希望能够通过软件更改我的 PC 音频输入/输出。我可以使用瑞昱来做到这一点，但我想尝试一些更好的替代方案。有什么建议吗？   由   提交/u/AetherealSpaces  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tmcbe9/anything_better_than_realtek_for_windows_11/</guid>
-      <pubDate>Sun, 24 May 2026 13:32:17 GMT</pubDate>
     </item>
     </channel>
 </rss>

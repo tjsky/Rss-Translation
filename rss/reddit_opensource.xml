@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 25 May 2026 02:56:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 07:20:08 GMT</lastBuildDate>
+    <item>
+      <title>福克斯有用吗？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tmxrba/does_fauxx_work/</link>
+      <description><![CDATA[https://github.com/digital-grease/fauxx 这真的会毒害你的数据吗？   由   提交 /u/ki4jgt   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tmxrba/does_fauxx_work/</guid>
+      <pubDate>Mon, 25 May 2026 04:02:04 GMT</pubDate>
+    </item>
     <item>
       <title>停止流式减价。尝试使用 HTML 作为 LLM 的响应格式</title>
       <link>https://www.reddit.com/r/opensource/comments/1tmp6e6/stop_streaming_markdown_try_html_instead_as_a/</link>
@@ -22,7 +29,7 @@
     <item>
       <title>PyIcon Editor 和 Creator 制作 .ico 和 .icns 文件。</title>
       <link>https://www.reddit.com/r/opensource/comments/1tmkxa7/pyicon_editor_and_creator_makes_ico_and_icns_files/</link>
-      <description><![CDATA[      这是我组装的一个基于 Python 的图标编辑器。 加载现有图像（PNG、JPG、BMP、GIF、TIFF、WebP、ICO） 保存：将当前复合画布另存为平面 PNG 导出 ICO：导出多分辨率 Windows带预览的图标 导出 ICNS：使用基于 Pillow 的 .icnsexport 导出 macOS 图标 我目前正在添加应用程序和 exe 支持，以便它可以从应用程序或程序中获取图标集。欢迎任何其他想法或改进以及任何拉取请求。    由   提交/u/Sniper666hell   [链接] [评论] ]]></description>
+      <description><![CDATA[      这是我组装的一个基于 Python 的图标编辑器。 加载现有图像（PNG、JPG、BMP、GIF、TIFF、WebP、ICO） 保存：将当前复合画布另存为平面 PNG 导出 ICO：导出多分辨率 Windows带预览的图标 导出 ICNS：使用基于 Pillow 的 .icnsexport 导出 macOS 图标 我目前正在添加应用程序和 exe 支持，以便它可以从应用程序或程序中获取图标集。欢迎任何其他想法或改进以及任何拉取请求。    由   提交/u/Sniper666hell   [link] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tmkxa7/pyicon_editor_and_creator_makes_ico_and_icns_files/</guid>
       <pubDate>Sun, 24 May 2026 18:58:07 GMT</pubDate>
     </item>
@@ -36,7 +43,7 @@
     <item>
       <title>Perseus — 用于 AI 助手的实时上下文引擎：MIT，一个依赖项，您可以将单个文件拖放到任何地方</title>
       <link>https://www.reddit.com/r/opensource/comments/1tmgix2/perseus_a_live_context_engine_for_ai_assistants/</link>
-      <description><![CDATA[我刚刚开源了 Perseus - 一个预处理器，可以在 AI 助手读取之前将实时工作区状态（git 状态、正在运行的服务、会话检查点、团队收件箱）解析为简单的 Markdown。没有插件。没有 SDK。它会写入您的助手已打开的任何文件。 开源角度：  MIT 许可证 - 在任何地方使用它，自由修改 单个文件插入：perseus.py（约 12,000 行，从模块化 src/ 树编译） 一个依赖项：pyyaml pip install perseus-ctx 或 curl 单个文件 - 您的选择 20 个指令、近 600 个测试、33 个边缘情况测试 包含 MCP 服务器外观（perseus mcpserve - 13 个指令工具）  它解决了什么问题： 每个人工智能编码会话都是冷启动的。助理会轮流检查您所在的分支、正在运行哪些服务以及您离开的位置。静态 Markdown 文件会立即腐烂。 Perseus 预先呈现实时事实，因此助手开始时已经进行了简报。 没有 Perseus 有 Perseus ──────────────────────────────── ──────────────────────────── “端口为 3001（检查 .env）” → 端口：3001“47 次测试（可能已过时）” → 测试：597 通过（8 秒前运行） “首先检查 docker ps” → mongo-dev：提高 4h 12m 基准（可重现，全部在存储库中）：  使用 u/cache 实现 40 倍热渲染加速 ttl=300 0.36 秒内 10,000 个指令 120 个代理群：150 9.7 秒内写入，零冲突 benchmark/edge-bench/ 中的所有基准测试脚本  我正在寻找：  贡献者 - 新指令、辅助集成、文档 关于编译前上下文方法与 MCP 工具调用的反馈 感受过冷启动痛苦，想尝试一下  站点： https://perseus.observer Repo： https://github.com/tcconnally/perseus PyPI： https://pypi.org/project/perseus-ctx/ 很高兴回答有关架构、构建系统（Python 源代码树 → 单文件工件）或其他任何问题的问题。   由   提交/u/formula420  [链接] [评论]]]></description>
+      <description><![CDATA[我刚刚开源了 Perseus - 一个预处理器，可以在 AI 助手读取之前将实时工作区状态（git 状态、正在运行的服务、会话检查点、团队收件箱）解析为简单的 Markdown。没有插件。没有 SDK。它会写入您的助手已打开的任何文件。 开源角度：  MIT 许可证 - 在任何地方使用它，自由修改 单个文件插入：perseus.py（约 12,000 行，从模块化 src/ 树编译） 一个依赖项：pyyaml pip install perseus-ctx 或 curl 单个文件 - 您的选择 20 个指令、近 600 个测试、33 个边缘情况测试 包含 MCP 服务器外观（perseus mcpserve - 13 个指令工具）  What problem it solves: Every AI coding session starts cold. The assistant burns turns checking what branch you&#39;re on, what services are running, where you left off.静态 Markdown 文件会立即腐烂。 Perseus 预先呈现实时事实，因此助手开始时已经进行了简报。 没有 Perseus 有 Perseus ──────────────────────────────── ──────────────────────────── “端口为 3001（检查 .env）” → Port: 3001 &quot;47 tests (may be stale)&quot; → Tests: 597 passing (run 8s ago) &quot;Check docker ps first&quot; → mongo-dev：提高 4h 12m 基准（可重现，全部在存储库中）：  使用 u/cache 实现 40 倍热渲染加速 ttl=300 0.36 秒内 10,000 个指令 120 个代理群：150 9.7 秒内写入，零冲突 benchmark/edge-bench/ 中的所有基准测试脚本  我正在寻找：  贡献者 - 新指令、辅助集成、文档 关于编译前上下文方法与 MCP 工具调用的反馈 感受过冷启动痛苦，想尝试一下  站点： https://perseus.observer Repo： https://github.com/tcconnally/perseus PyPI： https://pypi.org/project/perseus-ctx/ 很高兴回答有关架构、构建系统（Python 源代码树 → 单文件工件）或其他任何问题的问题。   由   提交/u/formula420  [链接] [comments]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tmgix2/perseus_a_live_context_engine_for_ai_assistants/</guid>
       <pubDate>Sun, 24 May 2026 16:15:43 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[此版本的主要功能是观察列表，这是因为用户厌倦了跟踪特定公司职业委员会的手动工作而构建的。您现在可以固定目标招聘来源并从一个仪表板刷新所有内容，而不是每天打开 20 个选项卡来查看职业页面是否发生变化并尝试记住昨天的内容。 对于第一个版本，该应用程序支持 BambooHR 和 Workday（通过内置 URL 或自定义配置）。如果您的目标公司使用其他东西，请随时打开 PR！它的设计可扩展且易于理解！ 还有什么新功能： • Z.AI / GLM 提供商支持（向为此打开 PR 的贡献者表示感谢） • 新的简历渲染主题和内容部分重新排序• 在入职期间反应式恢复JSON 导入• 更好的适合评估准确性• 入职和离线错误修复 在过去的半年里，这一理念没有改变：JobOps 不会试图为您喷洒和祈祷应用程序。它旨在显着减少求职的管理工作，以便您可以专注于申请您关心的职位 v0.8.0 现已发布。让我知道你的想法 https://github.com/DaKheera47/job-ops   由   提交 /u/DaKheera47   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tkn5j9/jobops_v080_is_officially_live_6_months_in_and/</guid>
       <pubDate>Fri, 22 May 2026 15:57:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>DIY 开源 DMARC 项目 CheckDMARC、ParseDMARC. 和 DMARC-MSP 现在完全支持 DMARCbis RFC 9989、9990、9991</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tkm1pn/the_doityourself_open_source_dmarc_projects/</link>
-      <description><![CDATA[ 由   提交/u/seanthegeek  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tkm1pn/the_doityourself_open_source_dmarc_projects/</guid>
-      <pubDate>Fri, 22 May 2026 15:18:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
