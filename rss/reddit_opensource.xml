@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Mon, 25 May 2026 19:25:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 22:05:34 GMT</lastBuildDate>
+    <item>
+      <title>开源了一个试图使存储库更易于理解的工具</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tnmym6/open_sourced_a_tool_that_tries_to_make/</link>
+      <description><![CDATA[      在使用较大的代码库时注意到一些事情。 查找代码通常不是困难的部分。 理解项目本身感觉更困难。 诸如以下内容： • 之间的关系模块 • 经常一起更改的文件 • 存储库中的热点区域 • 所有权模式 • 隐藏在git 中的历史上下文 我开始尝试将存储库视为不仅仅是文件集合。 想法是围绕存储库构建不同的层： • 依赖关系图 • git 智能 • 代码健康信号 • 生成的文档/架构上下文 • PR 分析 + MCP 工具 最终将其放入名为 RepoWise 的开源项目中。 Repo：\[Repowise\](https://github.com/repowise-dev/repowise) 还早，真诚地感谢反馈或批评。   由   提交/u/HistorianAdorable405  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tnmym6/open_sourced_a_tool_that_tries_to_make/</guid>
+      <pubDate>Mon, 25 May 2026 21:46:31 GMT</pubDate>
+    </item>
     <item>
       <title>我构建了一个开源 AI Agent Harness。</title>
       <link>https://www.reddit.com/r/opensource/comments/1tngfz7/i_built_an_open_source_ai_agent_harness/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[      我刚刚开源了 confluence2md，这是一个用于将 Confluence 空间导出到本地 Markdown 文件的 Go CLI。 它的作用： - 从种子页面抓取 Confluence，跟踪链接至可配置的深度 - 使用稳定的文件名写入干净的 Markdown（包括用于跟踪重命名的页面 ID） - 将内部链接重写为相对本地路径，保留外部 URL - 下载附件并重写引用 - 支持具有双检查点可靠性的增量更新 - 输出带有页面元数据和双向链接图的 metadata.json 为什么开源： Confluence 导出问题是真实存在的，影响着很多团队。现有工具要么已经过时，要么被锁定在特定的工作流程中，要么根本不起作用。我想要一些简单的东西，只需干净地导出您的文档，这样您就可以： - 在 Git 中版本化您的知识 - 将文档输入 RAG/AI 管道 - 在您喜欢的 Markdown 编辑器中离线浏览 - 构建本地全文搜索 技术： - Pure Go（零 CGO），跨平台 - 完整的测试套件 - 带有自动发布和预构建二进制文件的 GitHub Actions CI/CD - MIT 许可，欢迎贡献 链接： - GitHub：https://github.com/gkoos/confluence2md - 版本：https://github.com/gkoos/confluence2md/releases 寻找早期反馈、错误报告和贡献。如果您以前处理过 Confluence 导出，我很想知道是什么让这个工具对您的工作流程更有用。   由   提交/u/OtherwisePush6424   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tkwcw5/confluence2md_open_source_cli_to_export/</guid>
       <pubDate>Fri, 22 May 2026 21:20:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>JobOps v0.8.0 正式上线。 6 个月后，势头强劲</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tkn5j9/jobops_v080_is_officially_live_6_months_in_and/</link>
-      <description><![CDATA[此版本的主要功能是观察列表，这是因为用户厌倦了跟踪特定公司职业委员会的手动工作而构建的。您现在可以固定目标招聘来源并从一个仪表板刷新所有内容，而不是每天打开 20 个选项卡来查看职业页面是否发生变化并尝试记住昨天的内容。 对于第一个版本，该应用程序支持 BambooHR 和 Workday（通过内置 URL 或自定义配置）。如果您的目标公司使用其他东西，请随时打开 PR！它的设计可扩展且易于理解！ 还有什么新功能： • Z.AI / GLM 提供商支持（向为此打开 PR 的贡献者表示感谢） • 新的简历渲染主题和内容部分重新排序• 在入职期间反应式恢复JSON 导入• 更好的适合评估准确性• 入职和离线错误修复 在过去的半年里，这一理念没有改变：JobOps 不会试图为您喷洒和祈祷应用程序。它旨在显着减少求职的管理工作，以便您可以专注于申请您关心的职位 v0.8.0 现已发布。让我知道你的想法 https://github.com/DaKheera47/job-ops   由   提交 /u/DaKheera47   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tkn5j9/jobops_v080_is_officially_live_6_months_in_and/</guid>
-      <pubDate>Fri, 22 May 2026 15:57:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
