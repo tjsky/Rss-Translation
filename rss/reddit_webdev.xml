@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 26 May 2026 02:45:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 06:43:15 GMT</lastBuildDate>
+    <item>
+      <title>PSA 诈骗警报 - 虚假日历链接</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tnw29j/psa_scam_alert_fake_calendly_link/</link>
+      <description><![CDATA[      我收到了一封看似来自一家企业的电子邮件，要求重新设计网站。乍一看一切似乎都是合法的。该网站是合法的，因为它是一家真正的公司，但该人并不在那里工作。发件人的电子邮件有点可疑，因为它不是域电子邮件，而是 emma.companyname@gmail.com。  您回复后，他们会发送一封后续电子邮件，要求您在他们的日历上安排时间。这是屏幕截图：  https://preview.redd.it/fjqmwpsbre3h1.jpg?width=637&amp;format=pjpg&amp;auto=webp&amp;s=72114d4e53d7a18e35b795472fffe78f215dcf98 但我最初错过的一个线索是时间戳处的俄语文本。如果您单击“日历”链接它会打开一个日历，如下所示：  https://preview.redd.it/llb5ip7gre3h1.jpg?width=1100&amp;format=pjpg&amp;auto=webp&amp;s=876613e41eb2389194675c557526858f0a7371de 非常有说服力，但你会发现该网址不是日历。这是一个附有日历的网址。当您尝试预约时，您会看到以下内容：  https://preview.redd.it/3vnr00zjre3h1.jpg?width=610&amp;format=pjpg&amp;auto=webp&amp;s=896a00cbe40ff8f104c1d43c1eb13fb84af2d65a 只有在您“使用 Google 登录”后，表单才会提交。此时我停下来，因为我自己使用calendly并且知道它不需要登录。不幸的是其他人可能不知道。  对我来说，主要的触发因素是，为什么安排约会需要这么多步骤？作为支票，我通过电子邮件发送了“emma”并告诉她我可以安排星期四 2:30 的时间，但链接已损坏。当然，她没有为我安排，而是说该链接有效，请在那里注册。  小心！   由   提交/u/theideamakeragency  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tnw29j/psa_scam_alert_fake_calendly_link/</guid>
+      <pubDate>Tue, 26 May 2026 04:22:20 GMT</pubDate>
+    </item>
     <item>
       <title>Tailwind 并未被打破，但人工智能打破了围绕它的社会契约</title>
       <link>https://www.reddit.com/r/webdev/comments/1tntgf0/tailwind_isnt_broken_but_ai_broke_the_social/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好，我对主流平台的臃肿和严格监管感到沮丧。  我正在构建一个专为开发人员量身定制的开源、仅包含文本和链接的平台。 核心概念如下： 零登录：没有电子邮件，没有个人信息。它使用浏览器指纹来识别用户，因此您仍然可以编辑帖子、设置快速别名/昵称并跟踪您的历史记录，而无需放弃个人数据。 用户名和用户名密码：将用户名和密码与使用用户名和密码的浏览器指纹登录连接起来，系统在后端检查指纹。 恢复帐户：如果您更换设备或忘记密码，可以使用唯一的短语密钥恢复帐户。 无膨胀：没有图像、没有视频、没有算法提要。只是原始文本、链接和降价。 智能审核：系统专注于域级过滤（自动信任/禁止列表），以消除垃圾邮件，同时保持讨论自由，而不是激进的用户禁令。 我的目标是快速、类似 Reddit 的体验，但纯粹的技术/开发讨论没有噪音。 作为开发人员，您实际上会使用这样的平台来分享链接和想法吗？  “通过指纹零登录”是否有效？诉诸您的隐私方面，还是破坏交易？ 很想听听您对可行性的诚实反馈！ 我编辑帖子以添加第一个版本中不清楚的一些观点   由   提交/u/tentoftech  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tn8eoe/validation_needed_a_textonly_zerologin_hub_for/</guid>
       <pubDate>Mon, 25 May 2026 12:57:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Webhook/API Trello 集成帮助 - 随机字符？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tn8bge/webhookapi_trello_integration_assistance_random/</link>
-      <description><![CDATA[      嗨，提前感谢您的帮助，以防有人知道该怎么做。 学区技术部门。我们都不是网络开发人员。有新东西让我学习。我们的票务系统使用事件 IQ 网站。我最近按照我发现的一些在线指示进行操作，基本上我们的目标是通过 Web hook/API 将票证信息发送到特定列表上的 Trello 卡。当事件 IQ 端满足特定规则时触发。很抱歉，我不知道术语 webhook/api 之间的确切区别。我们已经正确设置了它并制作了正确的 URL（获取 api 密钥和令牌），以便它实际上发布到 Trello。是的！ * 然而，问题在于格式，我们不确定问题是否出现在我在 IIQ 端编写的代码中，无论是在 Trello 上发布的内容，还是在他们尝试对来自 IIQ 帖子的数据进行编码时。 “日期”参数添加随机百分号和数字。您可以看到我们需要的实际数字，包括出票的确切时间（“17041”）。在“请求者电子邮件”中，它使用百分号和数字而不是“@”符号。  我们尝试使用 json 代码格式和“原始正文”，很抱歉，我不知道每种格式到底意味着什么，但我知道 ai 为我制作的代码，它是 json 格式，但包含 iiq 可以从票证中提取的变量参数。在 trello 上发送/显示时，原始正文文本无法正常工作。  对于哪一方出了问题以及是否有任何修复有什么建议吗？ （我是否应该继续使用 json？）（想到了一个解决方法，可以在 trello 上使用“开始日期”自动化。但很想解决这个问题）。预先感谢您！！   由   提交/u/jelemeno   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tn8bge/webhookapi_trello_integration_assistance_random/</guid>
-      <pubDate>Mon, 25 May 2026 12:53:40 GMT</pubDate>
     </item>
     </channel>
 </rss>

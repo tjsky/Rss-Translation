@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 26 May 2026 02:44:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 06:42:50 GMT</lastBuildDate>
+    <item>
+      <title>这家公司扼杀了开源——“解放开源软件的世界”。不幸的是不是讽刺，虽然我不确定。</title>
+      <link>https://www.reddit.com/r/programming/comments/1tnydm0/this_company_killed_open_source_liberating_the/</link>
+      <description><![CDATA[ 由   提交/u/fatoms  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tnydm0/this_company_killed_open_source_liberating_the/</guid>
+      <pubDate>Tue, 26 May 2026 06:19:48 GMT</pubDate>
+    </item>
     <item>
       <title>Freenet：实时去中心化应用程序的点对点平台（白皮书）</title>
       <link>https://www.reddit.com/r/programming/comments/1tnqsh6/freenet_a_peertopeer_platform_for_realtime/</link>
@@ -64,7 +71,7 @@
     <item>
       <title>Elixir 中的最高随机权重</title>
       <link>https://www.reddit.com/r/programming/comments/1tmgs3h/highest_random_weight_in_elixir/</link>
-      <description><![CDATA[我已经休假了 3 周，我利用这段时间重新点燃了我对编码的热情（老方法，手工）。偶然发现了这种一致性哈希的替代方案，称为集合哈希（或最高随机权重），并进行了一些深入研究。它最终变成了一个基本库，包括基本算法、一些变体和 O(log n) 访问的骨架模式。 对于节点数 &lt;20 的情况，它的性能与 ExHashRing 类似，并且骨架优化即使在数万个节点中也具有竞争力，但它不使用 NIF 或有状态进程，并且基本算法本质上是单行代码。 无论如何，学习起来很有趣，希望您喜欢 https://jola.dev/posts/highest-random-weight-in-elixir   由   提交/u/joladev  [链接] [评论]]]></description>
+      <description><![CDATA[我已经休假了 3 周，我利用这段时间重新点燃了我对编码的热情（老方法，手工）。偶然发现了这种一致性哈希的替代方案，称为集合哈希（或最高随机权重），并进行了一些深入研究。它最终变成了一个基本库，包括基本算法、一些变体和 O(log n) 访问的骨架模式。 对于节点数 &lt;20，它的性能与 ExHashRing 类似，并且骨架优化即使在数万个节点中也具有竞争力，但它不使用 NIF 或有状态进程，并且基本算法本质上是单行代码。 无论如何，学习起来很有趣，希望您喜欢 https://jola.dev/posts/highest-random-weight-in-elixir   由   提交/u/joladev  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tmgs3h/highest_random_weight_in_elixir/</guid>
       <pubDate>Sun, 24 May 2026 16:25:18 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[经过大量研究和实践，我尽力提供一些关于此内容的最佳内容。  如果视频变得像一段介于两者之间的独白，请原谅我，而这仍处于 YouTube 内容创作的初期。  任何有关内容的反馈或讨论都将受到高度赞赏。    由   提交/u/Comfortable-Fan-580   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tmaq6p/designing_resilient_systems_to_prevent_cascading/</guid>
       <pubDate>Sun, 24 May 2026 12:22:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据库动物园：奇异的数据存储引擎 - 为什么 SQL 和 NoSQL 已经不够了</title>
-      <link>https://www.reddit.com/r/programming/comments/1tlzo76/the_database_zoo_exotic_data_storage_engines_why/</link>
-      <description><![CDATA[这篇文章回顾了 SQL 和 NoSQL 的历史，然后说明了为什么通用数据库无法处理所有现代工作负载，以及为什么出现了整个专用引擎生态系统来填补空白。这是深入介绍时间序列、向量和概率数据库的系列文章中的第一篇。   由   提交 /u/OtherwisePush6424   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tlzo76/the_database_zoo_exotic_data_storage_engines_why/</guid>
-      <pubDate>Sun, 24 May 2026 02:39:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
