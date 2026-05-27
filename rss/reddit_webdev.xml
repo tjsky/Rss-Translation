@@ -4,7 +4,14 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 27 May 2026 07:01:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 12:17:13 GMT</lastBuildDate>
+    <item>
+      <title>向前端提供静态数据</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tozcsb/serving_static_data_to_the_frontend/</link>
+      <description><![CDATA[我正在尝试构建一种猜测类型的游戏/测验，一个完整的堆栈应用程序，堆栈并不重要，我试图找到一种方法将 API 有效负载安全地发送到我的前端，而用户无法通过使用请求开发工具选项卡检查有效负载来作弊。 此测验的想法是为用户提供像素化图像，以及许多游戏详细信息，例如标题、摘要、开发人员、酒吧、平台等...取决于我早期向用户透露的提示百分比，例如简单，他们可以 30% 的 [开发、酒吧、摘要等...] 15% 为中等，0% 为困难。然而，图像不能手动取消像素化，每次错误的猜测都会自动取消像素化，但对于其他指示器，用户可以“取消编辑”。他们使用提示点，（总共 3 个） 显然，如果设计不正确，如果用户稍微精通技术，那么这都是一种欺骗，因为后端将整个有效负载按原样发送给客户端， 我所做的是我的有效负载响应如下所示： { 摘要：{ { 文本：“xxxxxxxxxxxxxxxxxxxxxx”， Revealed: false, text: &quot;something Something&quot;, Revealed : true } } } 并且我将游戏状态存储在 Redis 中，这样我就不必为客户端发出的每个发布请求来获取游戏数据而访问我的数据库； redis状态看起来像这样 {答案：game.title，hints_left：3，guesses_made：0，full_game_data：游戏，}然后另一个问题是游戏封面，数据不是我的，在此之前我已经构建了一个ETL管道来从IGDB的API获取数据，我只保存他们的封面ID到我的数据库，比如1234abc。 所以在最初的GET请求中，我点击他们的CDN端点，获取封面，在后端处理它，（像素化），base64对其进行编码，我知道将二进制文件编码为base64比原始数据增加了1.37倍，但我发现除了这个之外没有其他方法可以将图像安全地传输到前端；所以我寻求建议。 现在这有点慢，即使在本地主机上，图像加载也可能达到 2 秒，主要是因为在初始 GET 请求中，我点击 IGDB 的 CDN 来获取封面图像，我实现了异步获取，但仍然如此。我可以在本地或我自己的 CDN 中存储封面，但这是一个业余爱好项目，它是一个更大项目的一部分，这只是一个端点。但我没有部署或任何东西，至少现在没有计划，所以我不想支付一些 CDN 或 s3 存储桶来存储我的静态文件和媒体内容。 没有任何问题；没有什么问题，我只是想知道人们对我的做事模式有何看法，以及您的建议是什么，或者您将如何以不同的方式做事   由   提交 /u/MEHDII__   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tozcsb/serving_static_data_to_the_frontend/</guid>
+      <pubDate>Wed, 27 May 2026 08:27:40 GMT</pubDate>
+    </item>
     <item>
       <title>您最喜欢的开发工具有哪些？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tove6q/what_are_some_of_your_favourite_developer_tools/</link>
@@ -32,13 +39,6 @@
       <description><![CDATA[       由   提交/u/fagnerbrack  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tolhlx/queueing_requests_queues_your_capacity_problems/</guid>
       <pubDate>Tue, 26 May 2026 21:50:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>停止在 AGENTS.md 中编写规则：使用代理挂钩和 nano-staged 代替</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tojixo/stop_writing_rules_in_agentsmd_use_agent_hooks/</link>
-      <description><![CDATA[       由   提交/u/sitnik  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tojixo/stop_writing_rules_in_agentsmd_use_agent_hooks/</guid>
-      <pubDate>Tue, 26 May 2026 20:39:49 GMT</pubDate>
     </item>
     <item>
       <title>我讨厌网络开发，我正在寻找出路</title>
