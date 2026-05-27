@@ -4,11 +4,25 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Tue, 26 May 2026 22:17:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 02:53:39 GMT</lastBuildDate>
+    <item>
+      <title>免费字幕生成工具</title>
+      <link>https://www.reddit.com/r/automation/comments/1topt5j/free_caption_generating_tool/</link>
+      <description><![CDATA[      为社交媒体帐户创建了免费的字幕生成器，可帮助您更快地进行转换。无需注册且易于使用。请尝试让我知道有哪些可以改进的地方。搜索：“captionory”   由   提交/u/RestaurantBetter9843  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1topt5j/free_caption_generating_tool/</guid>
+      <pubDate>Wed, 27 May 2026 00:43:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么代理商要抛弃沉默数周的产权转让师（以及每年花费多少美元）</title>
+      <link>https://www.reddit.com/r/automation/comments/1toolz9/why_agents_are_ditching_conveyancers_who_go/</link>
+      <description><![CDATA[​ 问题 Marcus 花了十一年的时间建立了一个与他的专业知识相关的推荐网络 - 他知道哪些开发人员正在发布版本以及哪些代理会接听电话。在技​​术方面，他的公司交付了：正确起草合同、跟踪结算、按时登记所有权。 但是每月向他发送三到四份交易的代理商现在不再发送任何交易。并不是因为他们停止了与财产相关的工作。不是因为他的团队犯了错误。 他们找到了一位产权转让师，每周都会发送短信更新，其中包含文件状态、结算日期和行动项目。 “他们不需要我成为布里斯班最聪明的产权转让师。他们需要我一次不能保持沉默三周。” 这就是沉默转让问题。仅损失推荐收入，澳大利亚产权转让师每年就损失 35,000 至 60,000 美元。 解决方案 第 1 步：映射当前工作流程中的每个代理接触点。记录代理目前与您的诊所互动的情况 - 初始推荐接收、文件请求、结算日期确认、调整和结算后沟通。 第 2 步：建立您的 Airtable 委员会。设置一个反映这些接触点的 Airtable 基础，跟踪每个活跃交易的状态字段、结算日期以及所需的任何未完成的代理操作。 第 3 步：创建用于自动更新的 n8n 工作流程。每当代理的文件达到关键里程碑时，就会向代理触发短信或电子邮件通知 - 没有人会想知道他们的交易在哪里。 第 4 步：配置自动状态检查。这些按计划运行，标记代理需要采取行动的任何交易，并提示您的团队仅在必要时亲自跟进。 第 5 步：监控和迭代。跟踪 90 天内的响应率和代理满意度，根据实际减少有关文件状态的入站问题的因素调整堆栈。 自动化堆栈： - n8n - Airtable board - 自动状态检查 实际结果：结算日紧急呼叫下降 60%   由   提交 /u/KnowTrident   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1toolz9/why_agents_are_ditching_conveyancers_who_go/</guid>
+      <pubDate>Tue, 26 May 2026 23:53:34 GMT</pubDate>
+    </item>
     <item>
       <title>从 PDF 中提取数据（年度报告）</title>
       <link>https://www.reddit.com/r/automation/comments/1tolmof/data_extraction_from_pdf_annual_reports/</link>
-      <description><![CDATA[我应该使用什么将 PDF 中的数据提取到 Excel 文件中... 但问题是我有 1000 个 pdf 文件，其中数据表不在每个 PDF 的同一页面上。我说的是公司的财务/年度报告还提供您推荐的工具的链接以及应该如何使用它？这是我自动化之旅的第一步.. 提前致谢   由   提交 /u/Stunning_Capital_354   [链接] [评论]]]></description>
+      <description><![CDATA[      我应该使用什么来将 PDF 中的数据提取到 Excel 文件中... 但问题是我有 1000 个 pdf 文件，其中数据表不在每个 PDF 的同一页面上。我正在谈论公司的财务/年度报告还提供您推荐的工具的链接以及应该如何使用它？这是我自动化之旅的第一步.. 我已附上数据在 PDF 中的外观照片，不同 PDF 的数据会有所不同提前致谢  https://preview.redd.it/wn5pjabt3k3h1.png?width=645&amp;format=png&amp;auto=webp&amp;s=f89640755b69d7206eb5778f4ee62c929f0a5420 &lt;一href=&quot;https://preview.redd.it/wxirluht3k3h1.png?width=832&amp;format=png&amp;auto=webp&amp;s=97a369785f5506a79dc2bd1feb1b1af039816df2&quot;&gt; https://preview.redd.it/wxirluht3k3h1.png?width=832&amp;format=png&amp;auto=webp&amp;s=97a369785f5506a79dc2bd1feb1b1af039816df2   由   提交 /u/Stunning_Capital_354   [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1tolmof/data_extraction_from_pdf_annual_reports/</guid>
       <pubDate>Tue, 26 May 2026 21:56:27 GMT</pubDate>
     </item>
@@ -76,25 +90,11 @@
       <pubDate>Tue, 26 May 2026 15:55:38 GMT</pubDate>
     </item>
     <item>
-      <title>我询问了 7 位创始人，为什么他们的自动化工作流程失败了</title>
-      <link>https://www.reddit.com/r/automation/comments/1toaftw/i_asked_7_founders_why_their_automation_workflows/</link>
-      <description><![CDATA[没有人责怪工具。 每个人都说： “步骤太多。” 人们并不讨厌自动化。 他们讨厌伪装成生产力的复杂性。   由   提交 /u/WillingnessOk4667   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1toaftw/i_asked_7_founders_why_their_automation_workflows/</guid>
-      <pubDate>Tue, 26 May 2026 15:31:30 GMT</pubDate>
-    </item>
-    <item>
       <title>AI浏览器自动化到底有多强大？ （尝试自动化 Capcut 和 Figma）</title>
       <link>https://www.reddit.com/r/automation/comments/1to5rly/how_capable_is_ai_browser_automation_actually/</link>
       <description><![CDATA[我一直在研究自动化一些视频/图像编辑工作流程。我使用 CapCut 和 Figma 网络应用程序进行大量日常编辑，我真的很想摆脱繁琐的部分，例如批量上传剪辑或更改一堆横幅上的文本。我立即遇到的问题是像 Selenium 或 Playwright 这样的标准浏览器自动化在这里基本上没有用。我认为 Figma 和类似的设计工具本质上只是巨大的画布。标准脚本是行不通的，自动化实际上需要“看到”脚本。并了解屏幕上发生的事情来完成需要做的事情（我怀疑这些应用程序是否具有良好的可访问性，据我所知，这是大多数老式浏览器自动化所依赖的）。 这让我陷入了人工智能浏览器代理的兔子洞。我开始研究一些较新的工具，例如 MultiOn、Skyvern 和 MoClaw，看看它们是否可以处理混乱的视频时间线和简单的编辑任务。人工智能聊天机器人似乎知道我想要自动化的大多数通行费的正确工作流程，所以这让我希望它是可能的。所有这些都在云环境中运行，这比在我自己的计算机上运行要好得多，特别是因为我经常出差，而且我不能让我的笔记本电脑 24/7 运行。我根本没有使用人工智能代理处理浏览器内容的经验，不确定是否可以做这样的事情，这些任务相当重复，但涉及很多步骤。 有人有使用复杂的网络应用程序进行浏览器自动化的经验吗？很想听听一些经验。   由   提交/u/petehans303  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/automation/comments/1to5rly/how_capable_is_ai_browser_automation_actually/</guid>
       <pubDate>Tue, 26 May 2026 12:40:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>[招聘] 自动化开发人员</title>
-      <link>https://www.reddit.com/r/automation/comments/1to5lvf/hiring_automation_developer/</link>
-      <description><![CDATA[嘿，我们正在招聘一名自动化开发人员。 这里没有太正式的内容。如果您在构建自动化、集成或工作流程方面拥有大约三年或更长时间的经验，实际上可以让事情运行得更顺畅，那么您可能会感到宾至如归。 您可以使用您最熟悉的任何工具或堆栈，无论是 Zapier、Make、n8n、API、脚本、AI 工作流程还是其他自动化平台。 一些基础知识： • 薪酬为 30 至 50 美元/小时，具体取决于具体情况体验 • 完全远程 • 灵活的工作时间（兼职或全职都可以） • 工作主要是构建和维护自动化、集成、工作流程和内部系统，保持事物可靠、高效和可扩展 如果您有兴趣，请发送一些有关您自己的信息、您使用的工具、您构建的自动化示例以及您所在的位置。   由   提交 /u/Livid_Sympathy6743   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1to5lvf/hiring_automation_developer/</guid>
-      <pubDate>Tue, 26 May 2026 12:34:13 GMT</pubDate>
     </item>
     <item>
       <title>您认为到 2027 年，哪些营销角色或任务将大部分实现自动化？</title>
