@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Thu, 28 May 2026 02:42:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 06:53:30 GMT</lastBuildDate>
+    <item>
+      <title>开源讨论比大多数在线人工智能对话感觉更真实！</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tptus1/open_source_discussions_feel_way_more_real_than/</link>
+      <description><![CDATA[对于开源社区，我真正欣赏的一件事是，与在线其他地方的大多数人工智能讨论相比，诚实的人是多么的诚实。没有人一直假装一切都是革命性的。 人们公开谈论生产中出现的问题、哪些工具变得无法维护以及最初看起来令人兴奋但后来变得痛苦的事情。老实说，我从维护人员随意谈论失败和权衡中学到的东西比从 LinkedIn 或 Twitter 上最精美的 AI 内容中学到的更多。   由   提交/u/Bladerunner_7_   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tptus1/open_source_discussions_feel_way_more_real_than/</guid>
+      <pubDate>Thu, 28 May 2026 05:10:13 GMT</pubDate>
+    </item>
     <item>
       <title>我构建的开源远足路线规划器是因为导出 GPX 不需要订阅。</title>
       <link>https://www.reddit.com/r/opensource/comments/1tplzja/opensource_hiking_route_planner_i_built_because/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[窃取编码（名词） - 使用大型语言模型来复制开源代码，剥夺其原始许可证、归属和作者身份。与复制文件的盗版不同，窃取代码通过人工智能中介对代码进行清洗，因此输出看起来是原始的，而逻辑、结构和来之不易的知识仍然是别人的作品。许可证进去了，什么也没有出来。  由 Armstrong Subero 于 2026 年创造 作者、研发工程师和警官。  我正在研究一些新颖的东西，今天我正在与某人进行讨论，他们就像法学硕士“生成”一样。软件，我就像“它使用现有的东西，只有当它没有任何东西时，它才会尝试生成它。所以为了证明这是真的，我启动了法学硕士，我看着法学硕士拿走了我的仓库，剥夺了我的许可证，并在没有许可证的情况下直接反省我的代码供我复制，事情是它不知道这是我。我是唯一一个拥有其所拉代码的存储库的人，我看着它只是吐出了我的示例，而没有开源标头。所以我又尝试了一些我知道只有我维护存储库的东西，你瞧，这种情况一次又一次地发生！当我向他们展示时，他们就像“哦，法学硕士就像一个搜索引擎，这就是‘漏斗’”，所以他们就是这么称呼它的！ ‘漏斗’！？去掉许可证，然后将工作作为“生成”放在那里！？这有一个名字，叫做偷窃。正如“振动编码”一样。被创造了，我创造了“窃取编码”这样做的人是“窃取编码员”。  我希望这篇文章不会被禁止，但我只是想公开地说，请不要扼杀开源！！   由   提交 /u/Separate-Choice   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tnsv3c/today_im_publicly_coining_the_term_steal_coding/</guid>
       <pubDate>Tue, 26 May 2026 01:57:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>适用于 YouTube 的 Chrome 扩展程序 - 控制您的内容并终止 doomscrolling。</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tnr9pj/chrome_extension_for_youtube_control_your_content/</link>
-      <description><![CDATA[大家好！我为 YouTube 创建了一个名为 BetterFeed 的免费开源 Chrome 扩展程序，它提供了一种不受任何干扰地使用 YouTube 的方式，以便您可以找到新内容，同时消除 doomscroll 的诱惑。 此扩展程序的工作原理是为您创建一个自定义主页，该主页会按可自定义的设定时间表刷新。还有类似于扩展程序 Unhook 的干扰清理功能（不附属，但如果您不想下载此扩展程序但对无干扰的 YouTube 体验感兴趣，我强烈建议您检查该扩展程序）。还有每日时间限制功能，可帮助您避免在 YouTube 上花费过多时间。 以下是该扩展程序的亮点：  自定义主页 - 提供仅按设定时间表刷新的自定义主页。 三种刷新节奏 - 每周、每周多天或每天。 分心清理- 隐藏 Shorts、观看页面推荐、片尾画面卡、自动播放、实时聊天、侧面板、评论、通知铃声、混音/广播播放列表、语音搜索、创建按钮、探索/趋势等。 每日观看限制 - 按视频数量、观看时间或两者设置上限。当您达到设定的限制时，恩典（例如“再过 5 分钟”或“完成此视频”）。 模式 - 在“观看”（带有您设置的每日限制的自定义主页）、“工作”（无干扰工作模式）和“聆听”（即将推出；音乐聆听模式）之间切换。 工作会话锁定 - 可选择承诺会话时长；退出需要输入解锁代码。 观看锁定 - 当您开始观看一天的内容后，刷新和每日限制设置会锁定在同一解锁代码挑战后面，这样您就无法在观看中冲动提高限制。 跨设备同步 - 设置、自定义主页、隐藏项目、观看的视频和视频进度全部同步。 免费，开放来源，GPLv3 许可。  如果您有兴趣，这里有一个指向安装说明的链接。 如果您有任何反馈、评论或疑虑，我将不胜感激。请随时给我发 DM 或发送电子邮件至 hououinkyo@proton.me。 谢谢！   由   提交/u/D9333  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tnr9pj/chrome_extension_for_youtube_control_your_content/</guid>
-      <pubDate>Tue, 26 May 2026 00:47:06 GMT</pubDate>
     </item>
     </channel>
 </rss>

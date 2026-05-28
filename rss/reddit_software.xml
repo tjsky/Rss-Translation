@@ -4,7 +4,14 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Thu, 28 May 2026 02:42:18 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 06:52:14 GMT</lastBuildDate>
+    <item>
+      <title>除了邮递员还有其他选择吗？</title>
+      <link>https://www.reddit.com/r/software/comments/1tpuf6r/is_there_any_alternative_to_postman/</link>
+      <description><![CDATA[ https://preview.redd.it/0p1o3toift3h1.jpg?width=835&amp;format=pjpg&amp;auto=webp&amp;s=b6adae819c011bfad8a9d67e15a204180cef3df1 您现在使用什么？   由   提交 /u/Successful_Bowl2564   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tpuf6r/is_there_any_alternative_to_postman/</guid>
+      <pubDate>Thu, 28 May 2026 05:39:42 GMT</pubDate>
+    </item>
     <item>
       <title>动态 RGB 描边 Windows 屏幕保护程序</title>
       <link>https://www.reddit.com/r/software/comments/1tppnmg/dynamic_rgb_stroke_windows_screensaver/</link>
@@ -32,13 +39,6 @@
       <description><![CDATA[诸如claude code、codex和cursor之类的ai编码代理可能会消耗大量对您没有帮助的内容的上下文：生成的工件、锁定文件、重复的文件读取、超大的指令文件、广泛的存储库探索、陈旧的会话状态、巨大的命令输出和命令循环。 我构建了prismodev，一个用于ai编码可观察性的开源本地node.js cli。它读取存储库文件以及可用的本地克劳德代码/codex/光标会话数据，然后显示进入上下文的内容、重复的内容、泄漏的内容、失败的指令以及下次以不同的方式范围的内容。没有 API 密钥，无需登录，没有任何东西离开您的计算机。 工作流程分为编码会话之前、期间和之后。 在会话之前，“npx getprismo doctor”会扫描您的存储库，标记缺少“.claudeignore”/“.cursorignore”、超大“claude.md”/“agents.md”、暴露的构建/日志工件，并生成紧凑的“.prismo/”上下文包。 `npx getprismo firewall auth-bug` 创建任务范围的允许/阻止上下文策略，以便代理在较小的边界内启动。 在会话期间，`npx getprismo watch --agents` 监视上下文压力、重复文件读取、生成的工件泄漏、工具输出洪水、命令循环和多代理重叠。 `npx getprismoshield -- npm test` 运行嘈杂的命令，而不将完整的 stdout/stderr 转储到代理上下文中；完整输出保留在本地，稍后可以使用“npx getprismoshield search“auth_failure”`进行搜索。 会话结束后，“npx getprismoreceipt”会生成一个运行收据，显示重复读取、输出洪水、工件泄漏、可能的影响和下次运行范围。 “npx getprismo 时间线 --last 20” 展示了跨会话重复出现的浪费模式。 `npx getprismo replay` 重建了会话横向移动的原因并打印恢复提示。 我还添加了指令审核，因为大量持久的上下文浪费来自于每轮都会加载的 `claude.md` / `agents.md` 中的规则。 “npx getprismo 指令审核”将有用的护栏、可观察到的违规、部分合规、重复、修剪候选者和影响未知的规则分开。 `npx getprismo instructions ablate --dry-run` 为指令规则创建保守的消融计划，无需编辑文件。 还有 `npx getprismo mcp`，它启动本地 mcp 服务器，以便兼容的代理可以直接调用 prismodev，而不是将大量日志粘贴到聊天中。 一切都在本地运行。该软件包在 npm 上发布为“getprismo”，因此您可以尝试使用： `npx getprismo doctor` 希望获得有关误报、缺少上下文浪费模式以及指令审核/运行接收方向是否有用的反馈。    由   提交 /u/Sad_Source_6225   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tpjnj7/i_built_a_cli_for_reducing_token_waste_in_claude/</guid>
       <pubDate>Wed, 27 May 2026 21:43:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>达米安 |/|>-<([(未知的电视人)])>-<|\|</title>
-      <link>https://www.reddit.com/r/software/comments/1tpiros/damien_the_unknown_tv_man/</link>
-      <description><![CDATA[ 由   提交/u/MoistBaby3677  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tpiros/damien_the_unknown_tv_man/</guid>
-      <pubDate>Wed, 27 May 2026 21:10:24 GMT</pubDate>
     </item>
     <item>
       <title>我为 Windows 构建了一个开源“Google Lens”，WinLens。它可以就地翻译您的整个屏幕</title>

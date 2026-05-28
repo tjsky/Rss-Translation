@@ -4,7 +4,49 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Thu, 28 May 2026 02:41:36 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 06:50:48 GMT</lastBuildDate>
+    <item>
+      <title>人工智能记忆系统如何决定哪些记忆是重要的？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpvbwy/how_do_ai_memory_systems_decide_which_memories/</link>
+      <description><![CDATA[我最近一直在阅读 MemGPT 论文，并开始思考 AI 代理/家庭助理的存储系统。 我向 llm 提供数据，例如 - 最近 10 次按摩 (PostgreSQL)、传感器实时数据 (Redis)、块（来自 VD 的相关向量）。 现在，这个 VD 将随着时间的推移而增加。所以我们无法检索重要的聊天记录，因为已经存储了许多不重要的聊天记录..因此，我们必须定义如何检测哪些聊天记录重要，哪些不重要..所以llm不会感到困惑，我们从VD中检索正确且重要的块。 我仍然不完全理解的一件事是： AI系统应该如何决定： *哪些记忆足够重要，可以长期存储 * 哪些记忆应该被忽略 * 以及何时应该更新或忘记旧记忆？ 例如： 假设智能家居助理了解到： * 2 个月前，用户首选的空调温度为 24°C * 但最近，用户不断将其设置为 26°C 现在系统必须决定： * 是否应该这样做覆盖旧的记忆？ * 两者都存储？ * 增加对新偏好的信心？ * 随着时间的推移，旧的记忆会消失？ 另一个挑战是： 我们如何首先识别某件事是否是“重要记忆”？ 示例： * 首选室温 → 可能重要 * 一个随机天气问题 → 可能不重要重要 那么人们使用什么信号来对记忆重要性进行分类？ 永远保存每次交互显然会变得嘈杂且低效，所以我很好奇人们如何在现实世界的人工智能代理系统中实现这一点。 您是否使用： * 记忆评分系统？ * 汇总管道？ * 反射循环？ * 仅向量检索？ * 仅向量检索？ * 启发式规则？ * 强化式更新？ 很想听听其他人如何解决人工智能代理中不断变化的偏好+长期记忆管理问题。 注意：我使用 ChatGPT 生成了此文本。   由   提交 /u/tensor_001   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpvbwy/how_do_ai_memory_systems_decide_which_memories/</guid>
+      <pubDate>Thu, 28 May 2026 06:28:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>🤖 人工智能首次绘制双速度大脑废物清除液流图</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpugxj/ai_maps_brains_wasteclearing_fluid_flow_at_dual/</link>
+      <description><![CDATA[ https://preview.redd.it/a1r2lxp3gt3h1.png?width=209&amp;format=png&amp;auto=webp&amp;s=83814329cd90195892382c6bee82c2ae66d0b0e8 研究人员首次使用基于物理的人工智能来绘制脑脊液流经大脑类淋巴废物清除系统的速度。  这项研究由罗切斯特大学、布朗大学和哥本哈根大学的科学家进行，于 2026 年 5 月 27 日发表在《科学进展》上。  Douglas Kelley 教授解释说，他们的新 MR-AIV 方法使用物理信息神经网络来解析标准 MRI 数据中极慢的流体速度。  人工智能分析揭示了一种双速引流模式，表明液体在头骨附近以每秒 3 微米的速度移动，但在脑组织深处的移动速度慢了 50 倍。  在对小鼠进行测试时，研究人员计划将该技术应用于人类，以筛查阿尔茨海默病的危险因素并评估脑震荡的生理影响。  来源：https://www.perplexity.ai/discover/tech/ai-maps-brain-s-waste-clearing-gO02prYLSg6R8nnCu6NXJQ   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpugxj/ai_maps_brains_wasteclearing_fluid_flow_at_dual/</guid>
+      <pubDate>Thu, 28 May 2026 05:42:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>🎨 视觉艺术家批评人工智能生成的艺术是无聊、没有灵魂的盗窃</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpu4bw/visual_artist_criticizes_aigenerated_art_as/</link>
+      <description><![CDATA[ https://preview.redd.it/hm1oklvrct3h1.png?width=1800&amp;format=png&amp;auto=webp&amp;s=7a718737ff31abd3f9e079452b4020797c07b8cf 一位著名的视觉艺术家发表了一篇批评生成式人工智能模型的文章，将合成图像描述为对人类创造力的毫无灵魂的盗窃。  这位艺术家认为，人工智能生成器依赖于从数千名画家那里获取的未经授权的训练数据，从而贬低了专业艺术劳动的价值。  此外，批评声称算法图像缺乏情感深度，并在跨平台上产生重复、乏味的视觉模式。  为了应对技术，创作者敦促画廊和公共空间支持传统媒介并保持以人为本的艺术策展。  创意协会呼吁采取新的监管保护措施，以防止科技公司未经同意使用受版权保护的艺术品。  来源：https://www.theguardian.com/technology/commentisfree/2026/may/28/ai-art-is-boring-soulless-theft-visual-artist   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpu4bw/visual_artist_criticizes_aigenerated_art_as/</guid>
+      <pubDate>Thu, 28 May 2026 05:23:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能高管回归工作启示录警告</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpu48a/ai_chiefs_walk_back_job_apocalypse_warnings/</link>
+      <description><![CDATA[ 由   提交 /u/Similar_Detective861   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpu48a/ai_chiefs_walk_back_job_apocalypse_warnings/</guid>
+      <pubDate>Thu, 28 May 2026 05:23:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>没有搜查令的政府监视？！</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpsapr/government_surveillance_wo_warrants/</link>
+      <description><![CDATA[政府现在可以从在线经纪人处购买有关您的信息，从而规避任何认股权证的需要？！人工智能让他们变得越来越容易？！这是不可接受的。政府利用技术来绕过监视能力的限制。任何美国人都不应该容忍我们受宪法保护的权利受到持续侵蚀。    由   提交/u/amfreedomfoundation  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpsapr/government_surveillance_wo_warrants/</guid>
+      <pubDate>Thu, 28 May 2026 03:54:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>自引入法学硕士以来，美国软件开发人员的就业人数持续增加</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpr8q4/us_softwaredeveloper_employment_has_continued_to/</link>
+      <description><![CDATA[我们都听过有关人工智能对软件开发人员就业威胁的讨论（以及大量 Reddit 轶事）。然而，James Bessen 的研究发现，该职业的就业人数持续上升，至少在美国是如此。 我认为 Bessen 的研究基于当前人口调查，受到他工作的启发，我整理了一个简单的交互式仪表板，可以在最新的 CPS 数据中按年龄范围和职业可视化就业趋势。我的结果包括另外三个月的数据（例如 2026 年 2 月至 4 月），与他自己的发现一致。 （我还创建了一个单独的仪表板，将所有年龄范围分组在一起。） 鉴于许多年龄/职业组合的样本量相对较小，应谨慎解释这些结果。每年的间隔比较短的间隔更可靠。   由   提交/u/BX1959  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpr8q4/us_softwaredeveloper_employment_has_continued_to/</guid>
+      <pubDate>Thu, 28 May 2026 03:04:38 GMT</pubDate>
+    </item>
     <item>
       <title>这家伙建立了一个离线生存人工智能</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpnpz8/this_guy_built_an_offline_survival_ai/</link>
@@ -27,25 +69,11 @@
       <pubDate>Wed, 27 May 2026 17:02:49 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 基金会承诺投入 2.5 亿美元帮助工人和经济应对人工智能颠覆</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpb37b/openai_foundation_commits_250_million_to_help/</link>
-      <description><![CDATA[ 由   提交/u/talkingatoms  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpb37b/openai_foundation_commits_250_million_to_help/</guid>
-      <pubDate>Wed, 27 May 2026 16:42:11 GMT</pubDate>
-    </item>
-    <item>
       <title>DeepMind 首席执行官哈萨比斯将 AGI 的最后期限推迟到 2029 年</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tp926e/deepmind_ceo_hassabis_moves_agi_deadline_closer/</link>
       <description><![CDATA[Demis Hassabis 将 AGI 时间表缩短至 2029 年，这使他成为有记录以来公开预测中最激进的前沿实验室首席执行官。  在 Axios 采访中，Hassabis 指出了 DeepMind 需要在三年内实现的一两个剩余技术突破。 DeepMind 的联合科学家多智能体系统已经在能源部所有 17 个国家实验室中投入使用，提供了可能为修订后的估计提供信息的真实部署数据。  悬而未决的问题  Hassabis 认为还剩下哪些具体技术突破：Axios 采访中没有公开提及这些突破。 Co-Scientist 的 DOE 部署是否包括自主决策能力或在严格的人类监督协议下运行。 考虑到没有可比的记录，其他前沿实验室首席执行官（Sam Altman、Dario Amodei）将如何公开回应 2029 年的主播预测截至 2026 年 5 月。  来源：https://aiweekly.co/alerts/deepmind-ceo-hassabis-moves-agi-deadline-to-2029   由   提交 /u/Justgototheeffinmoon   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tp926e/deepmind_ceo_hassabis_moves_agi_deadline_closer/</guid>
       <pubDate>Wed, 27 May 2026 15:31:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>当你给艺术贴上“人工智能”的标签时，即使是莫奈，对人们来说也变得“马虎”了</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tozylw/the_moment_you_label_art_as_ai_even_a_monet/</link>
-      <description><![CDATA[ https://preview.redd.it/hls8j0dp9n3h1.jpg?width=975&amp;format=pjpg&amp;auto=webp&amp;s=d4f5d064848de9c150a1a3222e50b5af17ff6c35 最近 X 上有一篇病毒式的帖子，展示了一幅画并要求人们评论它。它上面有一个假的“人工智能制造”标签，所以大多数人很自然地认为它是人工智能生成的。 反应相当严厉。人们说它没有深度、没有意图、构图薄弱，看起来像是典型的人工智能艺术。 然后事情就出现了转折。这幅画根本就不是人工智能。这实际上是一幅大约150年前克劳德·莫奈的画作。 曝光后，人们的看法立即发生了转变。不久前还被认为是“AI 废品”的同一张图片突然被称为杰作。 这让我思考了我在自己的经历中注意到的一些事情。 我一直在使用 Suno 和 Musicful 等工具在 YouTube 上发布 AI 生成的音乐和 MV 风格的视频。很多时候，当人们认为这是人工智能时，反应就会发生变化。有些人几乎不参与内容本身，直接称其为低效或只是机器制造。 感觉在作品被正确观看之前，标签本身就已经形成了判断。 这让我想知道一些事情。 我们对艺术的反应有多少实际上是基于我们认为创造它的东西，而不是作品本身。 一旦人们相信某件事是人工智能，他们是否仍然可以公平地判断某件事 随着人工智能内容变得越来越普遍，这种偏见是否会变得越来越强烈。 好奇这里的其他人如何看待这一点，尤其是关注人工智能或创意工具的人。   由   提交/u/Nusuuu   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tozylw/the_moment_you_label_art_as_ai_even_a_monet/</guid>
-      <pubDate>Wed, 27 May 2026 09:02:33 GMT</pubDate>
     </item>
     <item>
       <title>由于对 Google 人工智能搜索的不满情绪加剧，DuckDuckGo 安装量猛增 30%</title>
@@ -55,13 +83,6 @@
       <pubDate>Wed, 27 May 2026 07:36:46 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能数据中心感觉像是科技史上最糟糕的公关推广。参与这些项目的亿万富翁低估了发生在他们身上的事情。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1toxfvd/ai_data_centers_feel_like_the_worst_pr_rollout_in/</link>
-      <description><![CDATA[我支持资本主义，并且广泛支持人工智能，但我真的不明白人们如何认为这种部署在政治上是可持续的。 你要求社区（其中许多已经在经济上陷入困境）接受消耗大量电力、水、土地和当地基础设施的大型数据中心，同时告诉他们人工智能可能会降低他们劳动力的长期价值。从公众认知的角度来看，这感觉就像是一种侮辱。我上过国内一些最好的学校，我不怀疑那些没有上过学的人的智力？ 最让我困惑的是，有多少投资者和高管似乎将这种强烈反对视为非理性或“反进步”。人们显然会关心他们的社区、公用事业成本、工作和生活质量。 我不明白的是突破点在哪里。在什么阶段，这不再被视为科技增长故事，而是开始成为更广泛的社会和政治问题？因为现在老实说，这感觉像是我在如此重要的行业中见过的最糟糕的公关推广之一。 别再讲中国的废话了，如果你想讲中国的废话，那就别讲 AGI，人工智能之神就要来找你的废话了，我们都知道这些废话还没有得到证实。   由   提交 /u/Genzinvestor16180339   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1toxfvd/ai_data_centers_feel_like_the_worst_pr_rollout_in/</guid>
-      <pubDate>Wed, 27 May 2026 06:40:55 GMT</pubDate>
-    </item>
-    <item>
       <title>麻省理工学院的报告基本上证实人工智能并不是最近所有这些技术裁员的真正原因</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tovwzx/mit_report_basically_confirms_ai_isnt_the_real/</link>
       <description><![CDATA[ https://preview.redd.it/tdu1uitj7m3h1.png?width=1344&amp;format=png&amp;auto=webp&amp;s=728acd105c7595cd253bf2e41a2a7fc1eee7c5f6 因此，麻省理工学院技术评论的 David Rotman 刚刚对人工智能如何影响就业市场进行了相当扎实的分析。基本上，他认为全球对白领工人被人工智能消灭的恐慌完全被夸大了。据他介绍，我们最近看到的科技裁员实际上是由其他宏观经济因素驱动的，而不是人工智能抢走了每个人的工作。 就某些背景而言，我们最近都看到了 Meta、Coinbase 和 Cisco 等科技巨头的大规模裁员。以 Meta 为例，他们在全球裁员了约 10%，即 8000 人左右。但有趣的是，他们实际上将其中 7,000 个角色重新分配给新的人工智能相关项目，同时将 2026 年的资本支出增加到 1,250 亿美元至 1,450 亿美元之间。罗特曼指出，企业经常在没有任何真实事实证据的情况下，利用人工智能作为进行全面重组的便利借口，这完全扭曲了实际的就业情况，无缘无故地吓坏了公众。 之所以重要，是因为所有这些关于人工智能完全摧毁就业的夸大说法都扰乱了政府的长期政策、企业规划和公众辩论。实际的经济数据表明，至少目前，该技术只是实现现有工作流程的自动化和现代化，而不会造成大规模的结构性失业危机。 来源：https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
@@ -69,32 +90,11 @@
       <pubDate>Wed, 27 May 2026 05:21:57 GMT</pubDate>
     </item>
     <item>
-      <title>联邦调查局刚刚正式将反科技极端主义列为国内威胁媒介</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tovwdb/the_fbi_just_officially_classified_antitech/</link>
-      <description><![CDATA[ https://preview.redd.it/qxeq1d8f7m3h1.png?width=1280&amp;format=png&amp;auto=webp&amp;s=b06f128bdef5c42247fd52b260410aa1311504ee 显然，联邦调查局和国土安全部刚刚正式将反科技情绪归类为国内极端主义威胁媒介。这是他们调查人工智能行业威胁并确定其优先顺序的巨大转变。 他们改变分类的主要原因是最近现实世界中发生了实际的物理攻击。早在四月份，有人就向 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman) 的家中扔了一杯燃烧弹，然后立即试图闯入他们的总部。最重要的是，有人在印第安纳波利斯当地官员的住所附近开枪，只是因为他们支持建立一个新的数据中心。执法部门也在追踪越来越多的在线宣言，这些宣言明确点名并针对顶级人工智能工程师和经理。 这实际上意味着联邦反恐资源和跨机构情报基础设施将直接参与保护科技公司、高管和物理数据中心的安全。分析人士在他们的文件中强调将合法的反人工智能行动与实际的暴力行为分开，主要是为了避免当人们聚集起来反对数据中心建设时侵犯抗议者的宪法权利。 来源：https://www.wired.com/story/us-law-enforcement-warns-of-anti-tech-extremism/   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tovwdb/the_fbi_just_officially_classified_antitech/</guid>
-      <pubDate>Wed, 27 May 2026 05:21:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Uber 在 Claude Code 的帮助下，在短短 4 个月内就耗尽了 2026 年全部人工智能预算</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tovvxm/uber_managed_to_blow_its_entire_2026_ai_budget_in/</link>
-      <description><![CDATA[ https://preview.redd.it/4j39jgcb7m3h1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=17c48308c26640157531a6e863ad69eb9efc2769 《连线》杂志的史蒂文·利维 (Steven Levy) 刚刚发布了一份关于人工智能代理如何彻底炸毁科技公司预算的报告。 Uber 的首席技术官 Pravin Nepali Naga 实际上承认，他们的开发人员使用 Anthropic 的工具 Claude Code，最终在短短四个月内就耗尽了公司 2026 年的全部人工智能预算。 其背后的统计数据有点疯狂。目前，Uber 95%的工程师每月都在使用人工智能程序，上传到平台的代码约有70%是由这些工具生成的。每个开发者的 API 代币成本实际上从每月 500 美元跃升至 2,000 美元。由于这些疯狂的成本，其他公司也开始改变其内部政策。例如，Duolingo 的首席执行官 Luis von Ahn 最终取消了一项要求员工使用人工智能作为绩效评估一部分的规则。 Uber 的首席运营官 Andrew Macdonald 指出，代币使用量的大幅增长甚至没有转化为用户的新功能，这使得很难证明实际的投资回报率是合理的。现在，科技公司被迫放慢招聘速度并转移资金，只是为了支付这些自主系统产生的巨额账单。 来源：https://www.wired.com/story/how-ai-agents-plunged-tech-world-into-chaos/   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tovvxm/uber_managed_to_blow_its_entire_2026_ai_budget_in/</guid>
-      <pubDate>Wed, 27 May 2026 05:20:39 GMT</pubDate>
-    </item>
-    <item>
       <title>教皇刚刚就人工智能发表了一份长达 150 页的宣言，他并没有退缩</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tovqgo/the_pope_just_dropped_a_massive_150page_manifesto/</link>
       <description><![CDATA[ https://preview.redd.it/auz4zqhq5m3h1.png?width=2360&amp;format=png&amp;auto=webp&amp;s=556ebc6e99dd78e646bd94384a8215a2c0274659 因此，教皇利奥十四世刚刚发布了他的第一本官方通谕，名为“Magnifica Humanitas”，整个事情都致力于人工智能。他基本上是在呼吁全面“裁军”。人工智能并表示，在它完全主宰社会之前，我们需要将其从大型科技垄断中剥离出来。看到 14 亿天主教徒的领袖如此直接地向硅谷发起攻击，真是令人着迷。 这份文件内容庞大，大约有 42,300 字，涵盖的内容也很广泛。他完全谴责在军事技术中使用人工智能，认为算法永远无法在道德上证明战争的合理性。但他也谈到了一些你通常不会从宗教人士那里听到的事情，比如数据中心因水和电燃烧而造成的环境损失，以及他所说的“数字奴隶制”。 （指被剥削的工人被迫进行残酷的内容审核和数据标记）。他的主要哲学观点是，这些人工智能模型只是模仿人类思维，但完全缺乏任何真正的精神视角。与 2020 年相比，这是一个巨大的转变，当时梵蒂冈与微软和 IBM 签署了相当软的人工智能道德宣言。这份新文本更具侵略性。 最终，这是梵蒂冈关于生成人工智能时代的第一个官方学说，很明显，它将为他们今后如何处理全球技术监管和数字道德定下基调。令人疯狂的是，Anthropic 的联合创始人 Chris Olah 实际上正在梵蒂冈参加官方发布活动。 来源：https://futurism.com/artificial-intelligence/pope-holy-war-artificial-intelligence   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tovqgo/the_pope_just_dropped_a_massive_150page_manifesto/</guid>
       <pubDate>Wed, 27 May 2026 05:13:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德·神话</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tovogt/claude_mythos/</link>
-      <description><![CDATA[ https://preview.redd.it/shxpci7g5m3h1.png?width=5650&amp;format=png&amp;auto=webp&amp;s=71aea1c4ddf2d554c5e9732737f8516c8c01a668 Anthropic 软件工程师 Sholto Douglas 刚刚在 X 上发帖称，他们的新 AI 模型 Claude Mythos 设法为 Erdős 的不同距离问题找到了一个超级简单的替代证明。如果你没有关注新闻，这与 OpenAI 模型几天前反驳的组合几何问题完全相同。 Paul Erdős 早在 1946 年就提出了这个问题，80 年来它完全没有得到解决，直到 5 月 20 日 OpenAI 的内部模型证明它是错误的。嗯，Anthropic 的工程师使用了这个名为 Claude Code 的实验框架，自解决 Erdős 问题 #1196 以来，他们一直在构建该框架。他们基本上让孤立的 Claude Mythos 代理在不同角度独立工作，然后一个代理将所有结果汇集在一起​​，并使用 Claude Opus 4.7 清理最终版本。数学家 Daniel Litt 指出，虽然这个新证明不如 OpenAI 长达 125 页的庞大文档那么严格，但它令人印象深刻，因为该模型找到了两种完全替代的解决方案。就背景而言，Google DeepMind 最近还解决了其他 9 个 Erdős 问题，但他们必须使用 Lean，一种特殊的形式证明语言。 这整件事确实表明了这些法学硕士的进展速度有多快。这是强有力的证据，证明代理系统实际上可以实现独立的科学突破，并找到人类从未想过的理论数学捷径。 来源：https://the-decoder.com/claude-mythos-reportedly-solves-openais-landmark-erdos-problem-with-a-cute-simple-proof/   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tovogt/claude_mythos/</guid>
-      <pubDate>Wed, 27 May 2026 05:10:16 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
