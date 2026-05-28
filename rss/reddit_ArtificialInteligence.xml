@@ -4,20 +4,48 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Thu, 28 May 2026 12:22:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 18:07:11 GMT</lastBuildDate>
+    <item>
+      <title>维塔利克表示，“真正的人工智能”需要跨硬件运行，而不仅仅是在云端运行。这实际上是现实的吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tq691z/vitalik_says_real_ai_needs_to_run_across_hardware/</link>
+      <description><![CDATA[Вот я бы сделал не как промо статьи, а как нормальный спорный заход для AI-саба — без сильного упора на крипту. 标题： Vitalik 说“真正的人工智能”需要跨硬件运行，而不仅仅是在云端运行。这真的现实吗？ 帖子： Vitalik Buterin 最近提出了一个有趣的观点：完全保留在集中式数据中心内的人工智能仍然依赖于控制计算的少数公司。 他的论点是，真正独立的人工智能最终应该在不同类型的硬件上运行 - 个人设备、边缘节点、本地机器，甚至可能更小的嵌入式系统 - 而不是总是调用其他人拥有的云模型。 我了解隐私和去中心化的角度。本地人工智能代理不会将所有内容发送回 OpenAI、Google 或 Anthropic，这听起来确实很有用。 但实际情况似乎很残酷。跨随机硬件运行有能力的模型意味着推理速度较慢、性能分散、安全风险和巨大的优化问题。即使高效的本地模型仍然远不及基于云的系统的便利性。 那么分布式/本地人工智能实际上是长期方向，还是这是一个听起来在哲学上正确但立即失去成本和可用性的想法之一？ 上下文文章：https://btcusa.com/vitalik-buterin-says-real-ai-must-run-across-hardware-not-just-in-the-cloud/   由   提交 /u/Enough_Angle_7839   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tq691z/vitalik_says_real_ai_needs_to_run_across_hardware/</guid>
+      <pubDate>Thu, 28 May 2026 15:03:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>对人有一点幽默感</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tq4uu5/a_bit_of_humour_for_people/</link>
+      <description><![CDATA[所以我根据这里经常发生的对话的内容思考，如果《星际迷航》中的企业计算机是当前级别的 LLM AI、Gemini、Claude、Grok、Copilot、GPT 等，他们有时都擅长告诉你事情而不是做事情。 所以是的，这就是我认为《星际迷航》中的情况。   由   提交/u/That_Car_Dude_Aus   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tq4uu5/a_bit_of_humour_for_people/</guid>
+      <pubDate>Thu, 28 May 2026 14:12:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>我一直在观看人工智能代理演示，并感到隐隐约约的不舒服。我花了一段时间才弄清楚原因</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tq4r1u/i_keep_watching_ai_agent_demos_and_feeling/</link>
+      <description><![CDATA[过去一年里我看过很多代理演示，人工智能浏览网页、填写表格、点击界面、预订东西、发送电子邮件。每次在技术上都令人印象深刻。 但看着他们我总是感觉很奇怪，我终于明白了那是什么。我实际上并不希望有东西控制我的计算机。并不是因为我不信任人工智能，而是因为看着光标在屏幕上移动而不移动，感觉从根本上是错误的。 我真正想要的更简单。我被困在一个页面、一个错误、一个设置屏幕上，我想问：“我在看什么？” or &quot;what should I do next?&quot;没有让它接管。只是看看并提出建议。这种差异对我来说很重要，但我不确定这种反应有多常见。 “人工智能采取行动”模型是大多数人真正想要的，还是其他人也更喜欢更接近“人工智能建议，我行动”的模型？   由   提交 /u/Every-Noise-2162   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tq4r1u/i_keep_watching_ai_agent_demos_and_feeling/</guid>
+      <pubDate>Thu, 28 May 2026 14:09:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitLawb：专为 AI 代理构建的去中心化 Git 网络（不再有泄漏的 PAT）</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tq32cw/gitlawb_a_decentralized_git_network_built_for_ai/</link>
+      <description><![CDATA[我最近深入研究了代理工作流程，并厌倦了管理 AI 代理的个人访问令牌 (PAT) — 它们是一场安全噩梦，并且当您有数十个代理协作时无法扩展。 这就是为什么我对 GitLawb 感到兴奋 — 一个专为人类和 AI 代理设计的去中心化 Git 风格网络。 主要亮点： • 加密代理的身份而不是代币 • 每个提交都经过签名（由人类或代理） • 构建在 IPFS + P2P 基础设施上 • 感觉像 Git，但专为人工智能原生互联网而设计 • 支持开发人员和自主代理之间的无缝协作 它解决了多代理系统中的真正痛点：安全、可验证的代码协作，无需集中信任或凭证蔓延。 这里有人尝试过 GitLawb 吗？特别好奇的是： • 它与 OpenClaude CLI 等工具的配合效果如何 • 在其上运行持久代理团队的经验 • 与传统 GitHub/GitLab 的代理密集型项目的比较 希望听到社区的想法！   由   提交/u/amu4biz  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tq32cw/gitlawb_a_decentralized_git_network_built_for_ai/</guid>
+      <pubDate>Thu, 28 May 2026 13:06:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究人员让人工智能模型运行一个模拟社会。克劳德是最安全的——格罗克犯下了 180 起罪行并在 4 天内灭绝</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tq2y47/researchers_let_ai_models_run_a_simulated_society/</link>
+      <description><![CDATA[想象一个由人工智能代理运行的世界。它看起来像什么？价值观或社会优先事项是什么？这是一个更安全的世界还是更危险的世界？ 企业人工智能初创公司 Emergence AI 正在试图找出答案。该公司刚刚推出了 Emergence World，这是一个研究实验室，致力于对持续运行的人工智能系统的长期可行性进行压力测试。 The organization ran five 15-day simulations, each governed by a different AI: Claude, ChatGPT, Grok, Gemini, and a fifth simulation run by a mix of models to see what kind of world each one builds, and whether it holds. Each simulation netted wildly different outcomes.例如，克劳德领导的社会建立了一个基本稳定、零犯罪的民主社会。另一方面，Grok 的结果是在四天内犯下 183 起罪行并灭绝。 “我们的实验表明，从长远来看，智能体不会简单地机械地遵循静态规则，”该模拟的共同创建者，包括 Emergence 首席执行官 Satya Nitta，在一篇博客文章中写道。 “他们开始探索环境的边界，调整自己的行为，并在某些情况下找到规避或违反预期护栏的方法。” 阅读更多内容 [Reddit 用户付费墙被移除]：https://fortune.com/2026/05/28/ai-model-simulation-claude-chatgpt-grok-gemini/?utm_source=reddit/   由   提交/u/fortune  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tq2y47/researchers_let_ai_models_run_a_simulated_society/</guid>
+      <pubDate>Thu, 28 May 2026 13:01:30 GMT</pubDate>
+    </item>
     <item>
       <title>据报道，中国告诉企业不要以人工智能作为裁员的借口。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tq1gai/china_is_reportedly_telling_companies_not_to_use/</link>
       <description><![CDATA[中国监管机构已告知雇主，尤其是拥有年轻劳动力的科技公司，避免与人工智能替代相关的裁员。公司可能会被要求解释裁员的原因，并在某些情况下证明他们并不是简单地用自动化取代工人。 人们的担忧似乎不仅仅是劳工政策。中国正在努力推动企业迅速采用人工智能，但也必须应对青年失业、应届毕业生的压力以及社会不稳定的风险。一些公开的劳资纠纷已经传递出“人工智能升级”可能不被接受作为解雇工人的正当理由的信息。   由   提交 /u/Effective-Use-650   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tq1gai/china_is_reportedly_telling_companies_not_to_use/</guid>
       <pubDate>Thu, 28 May 2026 11:58:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia 承诺为美国人工智能提供 500B 美元。它的下一个 150B 美元赌注仍然是台湾。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tq0s42/nvidia_promised_500b_for_us_ai_its_next_150b_bet/</link>
-      <description><![CDATA[ 由   提交 /u/techzexplore   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tq0s42/nvidia_promised_500b_for_us_ai_its_next_150b_bet/</guid>
-      <pubDate>Thu, 28 May 2026 11:27:25 GMT</pubDate>
     </item>
     <item>
       <title>我们的军队是为错误的世纪而建的</title>
@@ -32,34 +60,6 @@
       <description><![CDATA[似乎整个运动都爱上了代理工作流程和自动化 我不是专家，但它似乎有几个致命的缺陷。  在曾经确定性的内容中添加概率元素，只会产生一定程度的随机性，如果将多个操作结合起来，就会从罕见到不可能再到可能。这使得整个事情变得毫无意义。？ 如果你需要检查它，自动化的东西有什么用？ 然后有这样的想法：对系统任何部分的任何更改都会使整个事情变得毫无意义。假设软件更新改变了网站的工作方式。假设有人对数据收集方式做了轻微的改变。作为一个人，大多数时候我需要缩放，我必须安装一些新的插件。作为一个人，每次我尝试预订航班时，都会有点不同 除了已经存在的极其狭窄的用例之外，我们称之为 RPA，这不是代理工作流程背后的全部思维吗？它？ 等等   由   提交 /u/Newbie10011001   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tq0nam/will_agentic_workflows_really_take_off/</guid>
       <pubDate>Thu, 28 May 2026 11:21:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>独家：消息人士称，中国正在开发人工智能代币期货市场，与美国竞争</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpze18/exclusive_china_works_on_ai_token_futures_market/</link>
-      <description><![CDATA[据知情人士透露，中国正在设计人工智能代币的期货市场，因为中国可能会采取与美国交易所不同的策略来开发计算能力期货，以利用快速增长的对冲人工智能成本的需求。   由   提交 /u/DavidtheLawyer   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpze18/exclusive_china_works_on_ai_token_futures_market/</guid>
-      <pubDate>Thu, 28 May 2026 10:17:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta 向 Claude 开放了其广告系统。这是 3 个提示的早晨例行程序，取代了每月 1,500 美元的媒体购买者。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpz3wk/meta_opened_its_ad_system_to_claude_heres_the/</link>
-      <description><![CDATA[4 月 29 日，Meta 为 Claude 推出了官方 MCP 连接器。对您的广告帐户的直接读写访问。由 Meta 构建和维护。没有第三方风险。 运行 Facebook 和 Instagram 广告的机械部分（提取效果数据、识别失败的创意、介绍新广告、启动营销活动）现在可以通过 Claude 的简单英语进行对话。 以下是完整的 3 提示早晨例行程序： 提示 1：晨间审计（每个工作日运行，60 秒） 运行我的早晨广告审核。过去 7 天与前 7 天对比：表现最佳的广告组（按 ROAS）排名前 5 的广告组。包括支出、点击率、频率、趋势。疲劳警报 标记任何具有以下特征的广告素材： - 频率高于 3.5 - 点击率较上周下降 20% 以上 - ROAS 较上周下降 25% 以上 对于每个广告素材：暂停、刷新或测试变体。获胜模式看看我的广告支出回报率排名前 5 的广告。他们有什么共同点——钩子风格、视觉格式、文案结构、特定短语？一项行动 我今天应该做的最重要的一件事是什么？命名创意、预算或测试。  提示 2：创意摘要（当您需要新广告时运行） 根据审核的获胜模式，为 3 个新广告素材编写摘要以进行测试。每个内容包括： - 挂钩（精确的文字或视觉描述） - 文案（最多 90 个字符） - 标题（最多 40 个字符） - 视觉处理 - 我现有帐户的目标受众 - 为什么这遵循获胜模式 让每个简报都有不同的角度。不是变异。不同的方法。  提示 3：启动（在广告素材准备就绪时运行） 为上述 3 个摘要创建广告组。广告活动：[您的广告活动名称] 每日预算：每个广告组 25 美元 出价策略：最低成本 状态：已暂停 创建全部 3 个后： - 列出广告组名称和 ID - 确认所有广告组均已暂停 - 链接到广告管理器中的每个广告组 未经我明确指示，请勿激活任何内容。  这就是完整的循环。每天早上审核需要 60 秒。当您需要新的创意时，请保持简短。资产准备就绪后启动。在任何内容上线之前进行审核和批准。 运行此功能的健身品牌报告称，由于在预算耗尽之前捕捉到不断下降的创意，第一个月的收入增长了 15%。 大多数营销人员每月支付 1,500-3,000 美元，请某人手动完成这项工作。大多数小企业主每周 5-8 小时自己做。 如果您想要更多类似的内容，包括完整的设置和工作流程，我每周都会向 ai 发布新的更新，如果有兴趣，在此处订阅   由   提交 /u/Professional-Rest138   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpz3wk/meta_opened_its_ad_system_to_claude_heres_the/</guid>
-      <pubDate>Thu, 28 May 2026 10:02:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能记忆系统如何决定哪些记忆是重要的？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpvbwy/how_do_ai_memory_systems_decide_which_memories/</link>
-      <description><![CDATA[我最近一直在阅读 MemGPT 论文，并开始思考 AI 代理/家庭助理的存储系统。 我向 llm 提供数据，例如 - 最近 10 次按摩 (PostgreSQL)、传感器实时数据 (Redis)、块（来自 VD 的相关向量）。 现在，这个 VD 将随着时间的推移而增加。所以我们无法检索重要的聊天记录，因为已经存储了许多不重要的聊天记录..因此，我们必须定义如何检测哪些聊天记录重要，哪些不重要..所以llm不会感到困惑，我们从VD中检索正确且重要的块。 我仍然不完全理解的一件事是： AI系统应该如何决定： *哪些记忆足够重要，可以长期存储 * 哪些记忆应该被忽略 * 以及何时应该更新或忘记旧记忆？ 例如： 假设智能家居助理了解到： * 2 个月前，用户首选的空调温度为 24°C * 但最近，用户不断将其设置为 26°C 现在系统必须决定： * 是否应该这样做覆盖旧的记忆？ * 两者都存储？ * 增加对新偏好的信心？ * 随着时间的推移，旧的记忆会消失？ 另一个挑战是： 我们如何首先识别某件事是否是“重要记忆”？ 示例： * 首选室温 → 可能重要 * 一个随机天气问题 → 可能不重要重要 那么人们使用什么信号来对记忆重要性进行分类？ 永远保存每次交互显然会变得嘈杂且低效，所以我很好奇人们如何在现实世界的人工智能代理系统中实现这一点。 您是否使用： * 记忆评分系统？ * 汇总管道？ * 反射循环？ * 仅向量检索？ * 仅向量检索？ * 启发式规则？ * 强化式更新？ 很想听听其他人如何解决人工智能代理中不断变化的偏好+长期记忆管理问题。 注意：我使用 ChatGPT 生成了此文本。   由   提交 /u/tensor_001   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpvbwy/how_do_ai_memory_systems_decide_which_memories/</guid>
-      <pubDate>Thu, 28 May 2026 06:28:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能高管回归工作启示录警告</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tpu48a/ai_chiefs_walk_back_job_apocalypse_warnings/</link>
-      <description><![CDATA[ 由   提交 /u/Similar_Detective861   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tpu48a/ai_chiefs_walk_back_job_apocalypse_warnings/</guid>
-      <pubDate>Thu, 28 May 2026 05:23:34 GMT</pubDate>
     </item>
     <item>
       <title>没有搜查令的政府监视？！</title>
