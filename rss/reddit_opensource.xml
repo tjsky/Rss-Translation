@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Wed, 27 May 2026 22:31:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 02:42:48 GMT</lastBuildDate>
+    <item>
+      <title>我构建的开源远足路线规划器是因为导出 GPX 不需要订阅。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tplzja/opensource_hiking_route_planner_i_built_because/</link>
+      <description><![CDATA[我是一名学生建筑 Crest，这是一款免费的开源远足路线规划器，专为那些只想计划步行并下载路线而无需付费的人而设计。 大多数远足应用程序（OS Maps、AllTrails、Komoot）都将 GPX 导出锁定在订阅后面。我想要一些简单的东西：  选择一个起点和终点 生成一条真正的基于人行道的路线 查看海拔剖面图 下载 GPX/GeoJSON  无需订阅，也无需跟踪。 Crest 使用 OpenStreetMap 数据（一个自定义的 A* 路由引擎），现在通过 Chart.js 包含海拔剖面图。 我&#39;d喜欢任何人对地图、路线算法或开源户外工具的反馈。 存储库：https://github.com/abdlfc11/Crest-Hiking-App   由   提交 /u/abdul_Ss   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tplzja/opensource_hiking_route_planner_i_built_because/</guid>
+      <pubDate>Wed, 27 May 2026 23:15:19 GMT</pubDate>
+    </item>
     <item>
       <title>我刚刚找到了🎶THE WAAAAAY🎶</title>
       <link>https://www.reddit.com/r/opensource/comments/1tpjgpj/i_just_found_the_waaaaay/</link>
@@ -15,7 +22,7 @@
     <item>
       <title>“本地优先”的架构复杂性是否会阻碍开源 SaaS 替代方案的采用？</title>
       <link>https://www.reddit.com/r/opensource/comments/1tpj4af/is_localfirst_architectural_complexity_killing/</link>
-      <description><![CDATA[我最近一直在研究 Notion 和 Trello 的一堆开源替代品，我注意到一个奇怪的悖论。 显然，每个人都想要隐私和本地优先的数据所有权，但实际实现这一点的架构复杂性变得有点荒谬。 不仅仅是使用轻量级数据库进行简单的 docker-composeup，还有很多新的项目要求您配置复杂的同步服务器、边缘运行时或处理繁重的 CRDT 逻辑，只是为了保持笔记本电脑和手机同步。感觉就像你需要一个 DevOps 学位只是为了在廉价的 VPS 上运行一个私人笔记应用程序而不丢失你的数据。或者你花了一半的周末时间扮演系统管理员的角色来获取基本的实用工具。 这里是否有开发人员在构建开源工具，他们故意避免大量的本地优先炒作，只是为了保持自托管方面的简单？或者我只是高估了普通用户管理这些东西的难度？   由   提交 /u/Ok_Commission_8260   [链接] [评论]]]></description>
+      <description><![CDATA[我最近一直在研究 Notion 和 Trello 的一堆开源替代品，我注意到一个奇怪的悖论。 显然，每个人都想要隐私和本地优先的数据所有权，但实际实现这一点的架构复杂性变得有点荒谬。 不仅仅是使用轻量级数据库进行简单的 docker-composeup，还有很多新的项目要求您配置复杂的同步服务器、边缘运行时或处理繁重的 CRDT 逻辑，只是为了保持笔记本电脑和手机同步。感觉就像你需要一个 DevOps 学位只是为了在廉价的 VPS 上运行一个私人笔记应用程序而不丢失你的数据。或者你花了一半的周末时间扮演系统管理员的角色来获得一个基本的实用工具。 这里是否有开发人员在构建开源工具，他们故意避免大量的本地优先炒作，只是为了保持自托管方面的简单？或者我只是高估了普通用户管理这些东西的难度？   由   提交 /u/Ok_Commission_8260   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tpj4af/is_localfirst_architectural_complexity_killing/</guid>
       <pubDate>Wed, 27 May 2026 21:23:23 GMT</pubDate>
     </item>
@@ -71,7 +78,7 @@
     <item>
       <title>Feedbackland v2.2.0：自动将反馈转化为路线图</title>
       <link>https://www.reddit.com/r/opensource/comments/1to4nbg/feedbackland_v220_automatically_turn_feedback/</link>
-      <description><![CDATA[Feedbackland 是一个免费且 MIT 授权的反馈平台，可以非常轻松地收集和处理用户反馈。我发布了一个新版本，它具有一些很酷的功能，例如能够让人工智能聚合、分析反馈并将其转换为优先的路线图。平台的现场演示此处。   由   提交 /u/Brazilll   [链接] [评论]]]></description>
+      <description><![CDATA[Feedbackland 是一个免费且 MIT 许可的反馈平台，可以非常轻松地收集和处理用户反馈。我发布了一个新版本，它具有一些很酷的功能，例如能够让人工智能聚合、分析反馈并将其转换为优先的路线图。平台的现场演示此处。   由   提交 /u/Brazilll   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1to4nbg/feedbackland_v220_automatically_turn_feedback/</guid>
       <pubDate>Tue, 26 May 2026 11:53:20 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[大家好！我为 YouTube 创建了一个名为 BetterFeed 的免费开源 Chrome 扩展程序，它提供了一种不受任何干扰地使用 YouTube 的方式，以便您可以找到新内容，同时消除 doomscroll 的诱惑。 此扩展程序的工作原理是为您创建一个自定义主页，该主页会按可自定义的设定时间表刷新。还有类似于扩展程序 Unhook 的干扰清理功能（不附属，但如果您不想下载此扩展程序但对无干扰的 YouTube 体验感兴趣，我强烈建议您检查该扩展程序）。还有每日时间限制功能，可帮助您避免在 YouTube 上花费过多时间。 以下是该扩展程序的亮点：  自定义主页 - 提供仅按设定时间表刷新的自定义主页。 三种刷新节奏 - 每周、每周多天或每天。 分心清理- 隐藏 Shorts、观看页面推荐、片尾画面卡、自动播放、实时聊天、侧面板、评论、通知铃声、混音/广播播放列表、语音搜索、创建按钮、探索/趋势等。 每日观看限制 - 按视频数量、观看时间或两者设置上限。当您达到设定的限制时，恩典（例如“再过 5 分钟”或“完成此视频”）。 模式 - 在“观看”（带有您设置的每日限制的自定义主页）、“工作”（无干扰工作模式）和“聆听”（即将推出；音乐聆听模式）之间切换。 工作会话锁定 - 可选择承诺会话时长；退出需要输入解锁代码。 观看锁定 - 当您开始观看一天的内容后，刷新和每日限制设置会锁定在同一解锁代码挑战后面，这样您就无法在观看中冲动提高限制。 跨设备同步 - 设置、自定义主页、隐藏项目、观看的视频和视频进度全部同步。 免费，开放来源，GPLv3 许可。  如果您有兴趣，这里有一个指向安装说明的链接。 如果您有任何反馈、评论或疑虑，我将不胜感激。请随时给我发 DM 或发送电子邮件至 hououinkyo@proton.me。 谢谢！   由   提交/u/D9333  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tnr9pj/chrome_extension_for_youtube_control_your_content/</guid>
       <pubDate>Tue, 26 May 2026 00:47:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>降价之物</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tnpfsp/markdownthing/</link>
-      <description><![CDATA[首先声明我不再积极参与软件开发。我摆弄了一下，但更多的是作为一种爱好，而不是收入来源。 我找不到我喜欢的 Markdown 编辑器，所以我编写了自己的 - 当我说我自己编写时，我利用了库开发人员的辛勤工作，并从中构建了一个 Windows 应用程序！ 虽然不是有史以来最令人兴奋的应用程序，但我自己一直使用它，直到今年早些时候退休，并认为我应该与可能正在考虑创建一些东西的其他人共享我的存储库类似。 如上所述，它是一个 Markdown 文件创建器、编辑器和导出器/转换器。这是一个用 C# 和 .NET 8 编写的 Windows 桌面应用程序。 MIT 许可证。 https://github.com/bbuckle1959/Markdownthing 这是我对社区的第一个贡献（因此请原谅登录页面中的任何新手错误），但希望有人会发现它有用。我确实有一些其他真正深奥的存储库正在开放（例如合成数据创建 - 也是 MIT 许可证），但让我们看看这是如何进行的。 （交叉发布到 r/SideProject ）   由   提交/u/Cadire55  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tnpfsp/markdownthing/</guid>
-      <pubDate>Mon, 25 May 2026 23:28:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
