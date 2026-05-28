@@ -4,20 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 28 May 2026 18:09:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 22:40:01 GMT</lastBuildDate>
+    <item>
+      <title>Node.js 工作线程存在问题，但它们对我们来说非常有用</title>
+      <link>https://www.reddit.com/r/programming/comments/1tqisnn/nodejs_worker_threads_are_problematic_but_they/</link>
+      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tqisnn/nodejs_worker_threads_are_problematic_but_they/</guid>
+      <pubDate>Thu, 28 May 2026 22:32:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>一些我们快要实现但从未实现的 Python 功能</title>
+      <link>https://www.reddit.com/r/programming/comments/1tqgaw9/some_python_features_we_almost_got_but_never_did/</link>
+      <description><![CDATA[ 由   提交/u/yangzhou1993  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tqgaw9/some_python_features_we_almost_got_but_never_did/</guid>
+      <pubDate>Thu, 28 May 2026 20:59:14 GMT</pubDate>
+    </item>
     <item>
       <title>面向开发人员、DevOps 和平台工程师的网络基础知识</title>
       <link>https://www.reddit.com/r/programming/comments/1tqbgp4/networking_fundamentals_for_developers_devops_and/</link>
       <description><![CDATA[ 由   提交/u/iximiuz  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tqbgp4/networking_fundamentals_for_developers_devops_and/</guid>
       <pubDate>Thu, 28 May 2026 18:08:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>所有权指标在预测 bug 方面击败了 McCabe 的复杂性：针对 Django、FastAPI、Pydantic 进行的为期 6 个月的研究</title>
-      <link>https://www.reddit.com/r/programming/comments/1tqbczq/ownership_metrics_beat_mccabe_complexity_at/</link>
-      <description><![CDATA[我正在开发一个开源代码库智能工具。其中一层使用 15 个确定性生物标记对每个文件进行 1-10 分评分。没有法学硕士。通过 Tree-sitter 和 git 历史记录进行 AST 解析。 想知道分数是否真的意味着什么。因此，我进行了一次时间旅行实验。 设置 在时间 T 对每个文件进行评分，然后计算接下来 6 个月内的错误修复提交情况。三个存储库：FastAPI（104 个文件）、Pydantic（216 个文件）、Django（542 个文件）。总共 862 个文件。 生物标志物分为四个部分： - 结构 (7)：brain_method、nested_complexity、bumpy_road、complex_method、large_method、complex_conditional、primitive_obsession - 重复 (1)：dry_violation（Rabin-Karp 在树保姆令牌上滚动哈希，生存变量重命名） - 测试覆盖率 (2)：untested_hotspot、coverage_gap - 组织 (5)：developer_congestion、knowledge_loss、hidden_coupling、function_hotspot、code_age_volatility 我发现的内容 在 Django 上：Spearman ρ = -0.34 (p &lt; 0.0001)。 Precision@20 = 70%，这意味着 20 个得分最差的文件中有 14 个在接下来的 6 个月内存在真正的错误。 两个最强的单一预测变量都是过程信号，而不是结构信号。 - `untested_hotspot` (Cliff 的 delta = 0.67)：变化很大但没有测试覆盖率的文件 - `developer_congestion` (Cliff 的Django 上的 delta = 0.78）：太多作者在短时间内接触同一个文件 McCabe 复杂性和嵌套深度排名低于两者。 奇怪的一个 `knowledge_loss` 为负。原作者离开项目的文件的错误“更少”。我的读物：稳定的遗留代码，无人触及，不会破坏。该指标捕获了真实的东西（缺乏知识），但效果被这些文件也是冷的事实所淹没。 我仍在考虑如何解决这个问题。可能需要根据最近的更改频率来控制它。 诚实的部分 控制文件大小会将整体相关性从 ~0.3 降低到 ~0.1。更大的文件会带来更多的复杂性、更多的混乱和更多的错误。文件大小基本上是所有代码健康研究中的一个混杂因素。 CodeScene 发表了一项研究，声称不健康代码中的缺陷增加了 15 倍，但从未报告过这一混杂因素。我不想犯同样的错误。 除了文件大小之外，综合分数仍然增加了预测价值，但我想明确的是，文件大小起着很大的作用。 有其他人看到所有权/流程指标在实践中优于结构复杂性吗？我从未见过团队针对它进行优化 如果有人想研究该方法或在自己的代码库上运行它，Repo 就是开源的。   由   提交 /u/Obvious_Gap_5768   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tqbczq/ownership_metrics_beat_mccabe_complexity_at/</guid>
-      <pubDate>Thu, 28 May 2026 18:05:05 GMT</pubDate>
     </item>
     <item>
       <title>当您在一个线程上构建聊天服务器时会发生什么？</title>
@@ -99,16 +106,9 @@
     <item>
       <title>法学硕士如何工作，第 1 部分：法学硕士如何处理文本</title>
       <link>https://www.reddit.com/r/programming/comments/1tpl0e4/how_llms_work_part_1_how_llms_process_text/</link>
-      <description><![CDATA[我是一名软件开发人员，在工作中广泛使用 LLM。我想对法学硕士有一个基本的了解，但没有机器学习或统计学的背景。因此，我开始阅读并做笔记，目标是最终编写法学硕士基础的开发人员指南。文章不断增长，所以我将其分为四个部分。这是该系列的第一篇。 希望这会有所帮助！   由   提交 /u/Normal-Tangelo-7120   [链接] [评论]]]></description>
+      <description><![CDATA[我是一名软件开发人员，在工作中广泛使用 LLM。我想对法学硕士有一个基本的了解，但没有机器学习或统计学的背景。因此，我开始阅读并做笔记，目标是最终编写法学硕士基础的开发人员指南。文章不断增长，因此我将其分为四个部分。这是该系列的第一篇。 希望这会有所帮助！   由   提交 /u/Normal-Tangelo-7120   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tpl0e4/how_llms_work_part_1_how_llms_process_text/</guid>
       <pubDate>Wed, 27 May 2026 22:35:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jakarta EE 11 通过 Open Liberty 从新手到专业人士</title>
-      <link>https://www.reddit.com/r/programming/comments/1tpjar1/jakarta_ee_11_from_newbie_to_pro_with_open_liberty/</link>
-      <description><![CDATA[ 由   提交/u/henk53  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tpjar1/jakarta_ee_11_from_newbie_to_pro_with_open_liberty/</guid>
-      <pubDate>Wed, 27 May 2026 21:30:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
