@@ -4,20 +4,27 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 29 May 2026 12:13:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 18:13:09 GMT</lastBuildDate>
+    <item>
+      <title>这里有多少人不会读或写代码并完全依赖代理？</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tr2t78/how_many_people_here_cant_read_or_write_code_and/</link>
+      <description><![CDATA[我真的很好奇，现在是否有相当多的人经常光顾这个子站，他们都是专门的氛围编码器，并且不知道如何阅读和编写代码。如果您是其中之一，您是否也正在尝试学习如何编码或有任何尝试的计划？   由   提交 /u/classy_barbarian   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tr2t78/how_many_people_here_cant_read_or_write_code_and/</guid>
+      <pubDate>Fri, 29 May 2026 14:01:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>OTPhub：用于两因素身份验证的简单应用程序</title>
+      <link>https://www.reddit.com/r/opensource/comments/1tr0luu/otphub_a_simple_app_for_two_factor_authentication/</link>
+      <description><![CDATA[大约 2 年前，我使用 JS/HTML/Neutralinojs 制作了一个简单的桌面应用程序，用于处理 OTP 提供商列表。还可以，但后来我从 Neutralinojs 搬到了 Tauri。一旦 Tauri 达到 v2，我就调整了我的应用程序以在手机上运行。 我喜欢它的地方：它非常简单。没有云同步。事实上**，** 不需要任何网络访问。只是您可以手动编辑和导入/导出的 OTP 提供商列表。支持从 2FAS 应用程序导入。如果有人感兴趣的话，热衷于添加更多导入格式。 我个人在 macOS 和 Android 上使用它。还有适用于 Linux 和 Windows 的版本，我尚未测试过，因此，如果您尝试但不起作用，请告诉我。 移动版本还可以扫描二维码。桌面版本不能（只能从其他地方导入设置）。 这是存储库 https://github.com/jodaka/otphub 的链接，您可以在“发布”部分下找到二进制文件或自行克隆/构建。 P.S.大约一两个小时前，另一个 Reddit 子版块中发布了一个类似的项目 - 可能值得一看   由   提交 /u/Alternative_Web7202   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1tr0luu/otphub_a_simple_app_for_two_factor_authentication/</guid>
+      <pubDate>Fri, 29 May 2026 12:39:14 GMT</pubDate>
+    </item>
     <item>
       <title>有没有真正的“自带电池”的 C++ 开源后端框架？</title>
       <link>https://www.reddit.com/r/opensource/comments/1tqvunl/are_there_any_truly_batteries_included_opensource/</link>
-      <description><![CDATA[我羡慕 Python 开发者的 FastAPI 和 Go 开发者。在 C++ 中，仅仅为了启动一个基本的微服务，您需要花一周的时间来设置基础设施：找到一个 http 服务器，连接一个 json 解析器，找到一个合适的数据库连接器，配置记录器。 有没有开源项目可以为您提供开箱即用的所有这些功能，以便您可以坐下来编写业务逻辑？   由   提交 /u/Jjjroggg   [链接] [评论]]]></description>
+      <description><![CDATA[我羡慕 Python 开发者的 FastAPI 和 Go 开发者。在 C++ 中，仅仅为了启动一个基本的微服务，您就需要花费一周的时间来设置基础设施：找到一个 http 服务器，连接一个 json 解析器，找到一个合适的数据库连接器，配置记录器。 有没有开源项目可以为您提供开箱即用的所有这些功能，以便您可以坐下来编写业务逻辑？   由   提交 /u/Jjjroggg   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tqvunl/are_there_any_truly_batteries_included_opensource/</guid>
       <pubDate>Fri, 29 May 2026 08:53:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源人工智能工具存在巨大的可发现性问题</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tqu86i/opensource_ai_tooling_has_a_huge_discoverability/</link>
-      <description><![CDATA[感觉同样的 15 个人工智能工具到处重复，而真正有用的开源项目很少被提及，除非它们随机在 Twitter 上爆炸。 GitHub 上的 star 甚至不再有帮助了。最有用的东西有一半的时间营销很糟糕，SEO 为零。 宁愿听到人们实际经常使用的工具，也不愿听到另一个“顶级 AI 堆栈”列表。 您认为哪一个 OSS AI 工具值得更多关注？   由   提交 /u/Meher_Nolan   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tqu86i/opensource_ai_tooling_has_a_huge_discoverability/</guid>
-      <pubDate>Fri, 29 May 2026 07:23:07 GMT</pubDate>
     </item>
     <item>
       <title>OpenFoundry - 开源 Palantir Foundry 替代品 - 已删除？</title>
@@ -43,7 +50,7 @@
     <item>
       <title>我做了一个爱泼斯坦档案 RAG</title>
       <link>https://www.reddit.com/r/opensource/comments/1tpwv6z/i_made_an_epstein_files_rag/</link>
-      <description><![CDATA[很多人都在谈论爱泼斯坦文件。 几乎没有人真正读过它们。 因此我制作了一个可搜索的版本，您可以自然地提出问题，而不必手动翻阅数千页。 您现在可以更快地探索名称、时间线、提及、联系、位置等。 存储库：github.com/AbhisumatK/Epstein_Files_RAG   由   提交 /u/Prestigious_Bear5424   [链接] [评论]]]></description>
+      <description><![CDATA[很多人都在谈论 Epstein 文件。 几乎没有人真正读过它们。 因此我制作了一个可搜索的版本，您可以自然地提出问题，而不必手动挖掘数千页。 您现在可以更快地探索名称、时间线、提及、联系、位置等。 存储库：github.com/AbhisumatK/Epstein_Files_RAG   由   提交 /u/Prestigious_Bear5424   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tpwv6z/i_made_an_epstein_files_rag/</guid>
       <pubDate>Thu, 28 May 2026 07:55:23 GMT</pubDate>
     </item>
@@ -78,7 +85,7 @@
     <item>
       <title>“本地优先”的架构复杂性是否会阻碍开源 SaaS 替代方案的采用？</title>
       <link>https://www.reddit.com/r/opensource/comments/1tpj4af/is_localfirst_architectural_complexity_killing/</link>
-      <description><![CDATA[我最近一直在研究 Notion 和 Trello 的一堆开源替代品，我注意到一个奇怪的悖论。 显然，每个人都想要隐私和本地优先的数据所有权，但实际实现这一点的架构复杂性变得有点荒谬。 不仅仅是使用轻量级数据库进行简单的 docker-composeup，还有很多新的项目要求您配置复杂的同步服务器、边缘运行时或处理繁重的 CRDT 逻辑，只是为了保持笔记本电脑和手机同步。感觉就像你需要一个 DevOps 学位只是为了在廉价的 VPS 上运行一个私人笔记应用程序而不丢失你的数据。或者你花了一半的周末时间扮演系统管理员的角色来获得一个基本的实用工具。 这里是否有开发人员在构建开源工具，他们故意避免大量的本地优先炒作，只是为了保持自托管方面的简单？或者我只是高估了普通用户管理这些东西的难度？   由   提交 /u/Ok_Commission_8260   [链接] [评论]]]></description>
+      <description><![CDATA[我最近一直在研究 Notion 和 Trello 的一堆开源替代品，我注意到一个奇怪的悖论。 显然，每个人都想要隐私和本地优先的数据所有权，但实际实现这一点的架构复杂性变得有点荒谬。 不仅仅是使用轻量级数据库进行简单的 docker-composeup，还有很多新的项目要求您配置复杂的同步服务器、边缘运行时或处理繁重的 CRDT 逻辑，只是为了保持笔记本电脑和手机同步。感觉就像你需要一个 DevOps 学位只是为了在廉价的 VPS 上运行一个私人笔记应用程序而不丢失你的数据。或者你花了一半的周末时间扮演系统管理员的角色来获取基本的实用工具。 这里是否有开发人员在构建开源工具，他们故意避免大量的本地优先炒作，只是为了保持自托管方面的简单？或者我只是高估了普通用户管理这些东西的难度？   由   提交 /u/Ok_Commission_8260   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tpj4af/is_localfirst_architectural_complexity_killing/</guid>
       <pubDate>Wed, 27 May 2026 21:23:23 GMT</pubDate>
     </item>
@@ -102,13 +109,6 @@
       <description><![CDATA[寻找支持完全隔离部署的开源 AI 编码工具，其中模型、推理和上下文检索均在本地运行，不依赖外部网络。 用例是具有严格网络隔离要求的开发环境。不仅仅是注重隐私的本地推理。完全断开连接，这意味着无需针对外部端点进行许可证验证，无需遥测，无需更新检查，在任何操作条件下都不会创建任何网络出口。 本地推理部分已被开源生态系统充分覆盖。更困难的部分是上下文检索。我发现的大多数设置要么使用外部嵌入 API，需要基于云的检索基础设施，要么将上下文视为事后的想法并仅使用当前文件。是否有开源项目已经解决了包括上下文层在内的完整气隙人工智能编码堆栈？   由   提交/u/yashBoii4958  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tow9ba/are_there_any_open_source_ai_coding_tools_that/</guid>
       <pubDate>Wed, 27 May 2026 05:39:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>有什么好的开源2D动画软件吗？或者带有动画功能的绘图软件？</title>
-      <link>https://www.reddit.com/r/opensource/comments/1toltru/any_good_opensource_2d_animation_software_or/</link>
-      <description><![CDATA[我知道有像 Blender 这样的开源 3D，我正在寻找 2D 手绘动画。如果是免费的，我会喜欢 Clip Studio Paints 动画功能或 Adob​​e flash/animate 之类的功能，这样我可以直接在程序内进行绘制，并将其动画化并导出。   由   提交/u/SexDefendersUnited  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1toltru/any_good_opensource_2d_animation_software_or/</guid>
-      <pubDate>Tue, 26 May 2026 22:03:48 GMT</pubDate>
     </item>
     </channel>
 </rss>

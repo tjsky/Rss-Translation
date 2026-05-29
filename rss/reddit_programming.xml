@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 29 May 2026 12:12:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 18:11:43 GMT</lastBuildDate>
+    <item>
+      <title>深入研究 Kubernetes 网关 API</title>
+      <link>https://www.reddit.com/r/programming/comments/1tr8j9g/deep_dive_into_kubernetes_gateway_api/</link>
+      <description><![CDATA[我刚刚发表了对 Kubernetes Gateway API 的深入探讨。 博文涵盖：  Kubernetes 入口模式如何从 Service 资源发展到 Ingress 以及现在的 Gateway API 为什么 Ingress API 仅限于现代团队 Gateway API 的工作原理：GatewayClass， 网关、5x 路由、策略、ReferenceGrant 等 如果您仍在运行已弃用的 NGINX Ingress Controller，该怎么办 我会如何考虑选择网关 API 实现：Envoy Gateway、Istio、kgateway、Traefik、NGINX Gateway Fabric、Cilium、Kong 等  希望您发现这篇文章很有用，并祝您 Ingress 迁移好运🙏   由   提交/u/roma-glushko   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tr8j9g/deep_dive_into_kubernetes_gateway_api/</guid>
+      <pubDate>Fri, 29 May 2026 17:09:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人使用我的开源项目对 14,000 人进行了网络钓鱼</title>
+      <link>https://www.reddit.com/r/programming/comments/1tr2aiq/someone_used_my_open_source_project_to_phish/</link>
+      <description><![CDATA[ 由   提交/u/dreamnyt  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tr2aiq/someone_used_my_open_source_project_to_phish/</guid>
+      <pubDate>Fri, 29 May 2026 13:42:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>直接 I/O 案例 - 为什么它对于高性能存储很重要</title>
+      <link>https://www.reddit.com/r/programming/comments/1tr09pj/the_case_for_direct_io_why_it_matters_for_high/</link>
+      <description><![CDATA[大家好， 最近我在 GitHub 上发布了 HedgeDB，这是我的高性能持久键值存储。 在内部，它几乎在所有地方都使用直接 I/O (O_DIRECT)。在本文中，我解释了这一选择背后的原因，这也是受到我使用 fio 进行的一些有趣实验的启发，您可以在文章中找到这些实验。以及关于页面缓存的一些考虑。   由   提交/u/IlPresidente995   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tr09pj/the_case_for_direct_io_why_it_matters_for_high/</guid>
+      <pubDate>Fri, 29 May 2026 12:25:42 GMT</pubDate>
+    </item>
     <item>
       <title>使用省略号编程</title>
       <link>https://www.reddit.com/r/programming/comments/1tqzcys/programming_with_ellipsis/</link>
@@ -18,13 +39,6 @@
       <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tqylzq/edgejs_running_node_apps_inside_a_webassembly/</guid>
       <pubDate>Fri, 29 May 2026 11:14:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么 AWS Lambda 使用 Firecracker 而不是容器</title>
-      <link>https://www.reddit.com/r/programming/comments/1tqww1z/why_aws_lambda_uses_firecracker_instead_of/</link>
-      <description><![CDATA[ 由   提交/u/viks98  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tqww1z/why_aws_lambda_uses_firecracker_instead_of/</guid>
-      <pubDate>Fri, 29 May 2026 09:51:20 GMT</pubDate>
     </item>
     <item>
       <title>我不再与我的工具作斗争，而是用 D 语言构建了一个游戏引擎</title>
@@ -50,7 +64,7 @@
     <item>
       <title>FastAPI 推出官方 VSCode 扩展</title>
       <link>https://www.reddit.com/r/programming/comments/1tqtyvq/fastapi_introduces_official_vscode_extension/</link>
-      <description><![CDATA[FastAPI 发布了官方 VSCode 扩展，其中包括路线探索、端点搜索和 CodeLens 式导航等功能。 该工具旨在增强 FastAPI 用户的开发体验。   由   提交/u/Top-Rush83  [链接] [评论]]]></description>
+      <description><![CDATA[FastAPI 发布了官方 VSCode 扩展，其中包括路线探索、端点搜索和 CodeLens 式导航等功能。 该工具旨在增强 FastAPI 用户的开发体验。   由   提交 /u/Top-Rush83   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tqtyvq/fastapi_introduces_official_vscode_extension/</guid>
       <pubDate>Fri, 29 May 2026 07:09:21 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tq52x8/air_traffic_control_the_ibm_9020/</guid>
       <pubDate>Thu, 28 May 2026 14:21:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>谁制作 Makefile？</title>
-      <link>https://www.reddit.com/r/programming/comments/1tq2og7/who_makes_the_makefiles/</link>
-      <description><![CDATA[ 由   提交/u/realguy2300000  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tq2og7/who_makes_the_makefiles/</guid>
-      <pubDate>Thu, 28 May 2026 12:50:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于模型的系统工程和需求定义 • Dennis Hansen 和 Jorge Orellana</title>
-      <link>https://www.reddit.com/r/programming/comments/1tq2493/modelbased_systems_engineering_requirements/</link>
-      <description><![CDATA[了解如何将基于模型的系统工程 (MBSE) 与任务驱动的需求相集成，以创建一个互联框架，提供针对关键目标设计的可靠解决方案。   由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tq2493/modelbased_systems_engineering_requirements/</guid>
-      <pubDate>Thu, 28 May 2026 12:27:27 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,13 +4,48 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Fri, 29 May 2026 12:13:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 18:12:58 GMT</lastBuildDate>
     <item>
-      <title>您对这个网页编辑器有何看法，phoenix code 它是 adobe 括号的继承者</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tqxqt1/what_are_your_views_on_this_web_editor_phoenix/</link>
-      <description><![CDATA[好奇这里是否有人用过它来做任何严肃的事情。它适合更大的项目还是更像一个游乐场？   由   提交/u/krrish82  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tqxqt1/what_are_your_views_on_this_web_editor_phoenix/</guid>
-      <pubDate>Fri, 29 May 2026 10:33:20 GMT</pubDate>
+      <title>当控制台实际记录它时，即时信心增强</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tr9rhw/the_instant_confidence_boost_when_the_console/</link>
+      <description><![CDATA[      第一次尝试零错误意味着我在接下来的五分钟内基本上是一名高级首席工程师，直到数据库连接中断   由   提交/u/Alternative-Tax-6470   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tr9rhw/the_instant_confidence_boost_when_the_console/</guid>
+      <pubDate>Fri, 29 May 2026 17:49:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何让 WordPress 的开发体验变得不那么糟糕？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tr91p9/how_do_i_make_the_dev_experience_of_wordpress/</link>
+      <description><![CDATA[您好， 过去几年我一直在 Nuxt/Vue 环境中工作，在此之前还使用 Laravel。 最近，我们的一位客户要求我们在 Wordpress 中重建他们的网站。我之前也曾破解过一些小型的wordpress项目，但总感觉很痛苦而且效率低下。 你们有没有使用什么工具或技术来让开发变得更好？这主要是一个小册子网站，前端的用户功能有限。不幸的是，考虑到客户的技术要求，我无法使用无头 WordPress。 我很想找到一种方法来引入组件（英雄、CTA、卡片等）、开发中的 HMR 或我在 Nuxt 等更现代的堆栈中依赖的任何其他功能的可重用性，同时还维护 Wordpress 的 CMS 方面（可能通过 ACF）。 很想听听您的提示和技巧！   由   提交/u/dont_trust_lizards  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tr91p9/how_do_i_make_the_dev_experience_of_wordpress/</guid>
+      <pubDate>Fri, 29 May 2026 17:25:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>在哪里可以找到中级全栈开发人员（远程海外）的承包商工作？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tr8zfl/where_to_land_a_contractor_job_as_a_mid_level/</link>
+      <description><![CDATA[嘿，大家好，今年年底我要搬到一个体面的第一世界国家，我拿到了公关，我还需要钱。过去 6 个月，我作为承包商在加利福尼亚州的一家人工智能初创公司工作，每月工资 2400 美元，他们一个月前卖掉了它，我显然被解雇了，因为他们的产品被另一家公司制造并收购了，我对自己的技能非常有信心，只是我真的不知道如何落地再次进行类似的工作。  如果你能帮我提供一些建议，请提供，请不要种族主义，我没有选择出生在哪里，我希望每个人都能在未来变得非常富有，提前致谢。   由   提交/u/In-Hell123  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tr8zfl/where_to_land_a_contractor_job_as_a_mid_level/</guid>
+      <pubDate>Fri, 29 May 2026 17:23:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>我很好奇这是否是其他机构实际处理的问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tr7wzd/im_curious_if_this_is_a_problem_other_agencies/</link>
+      <description><![CDATA[我们管理固定客户，有时客户会向我们发送电子邮件，说他们网站上的某些内容看起来有问题。十有八九是 WordPress 插件更新改变了布局、停止加载英雄图像等。我们从他们那里找到答案，而不是相反，当你应该是观看他们网站的人时，这是一个尴尬的处境。 我研究过 Visualping、ChangeTower 和 Distill 等工具。它们的工作方式都是一样的。你给他们一个 URL，当事情发生变化时他们会提醒你。这对于您自己监控几个页面来说很好，但它们并不真正适合代理工作流程。没有客户的概念，没有办法按帐户对页面进行分组，而且您实际上无法在月底向客户展示您的能力，以证明您掌握了一切。 像 Percy 和 Applitools 这样的开发人员工具完全是另一回事。它们插入 CI 管道并需要工程师来设置它们。对于只想知道今天早上客户主页是否损坏的客户经理来说没有用。 我一直在思考的是更简单的事情。一个 Web 应用程序，允许您按客户组织、按计划截取屏幕截图、在客户注意到之前标记视觉变化，并生成可发送给客户的每月摘要。与代码部署无关，更多的是了解客户的网站在视觉上是否完好。 这是您实际遇到的情况，还是您已经有处理它的系统？ 这样的东西是否值得付费，还是太小众而无法预算？ 我是否缺少一个已经可以很好地做到这一点的工具？ 非常感谢您提供任何反馈。谢谢。   由   提交 /u/newintownla   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tr7wzd/im_curious_if_this_is_a_problem_other_agencies/</guid>
+      <pubDate>Fri, 29 May 2026 16:48:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>人们正在运行什么作为生产流量的 OpenRouter 替代方案？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tr5k7w/what_are_people_running_as_an_openrouter/</link>
+      <description><![CDATA[我已经在 OpenRouter 上进行了几个月的业余项目，它对于原型设计来说非常可靠，但是我可以直接调用的模型的流延迟和定价标记开始困扰我，让我四处看看。 很好奇其他运行实际生产流量的人已经决定了什么。   由   提交/u/Quantum_Nest  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tr5k7w/what_are_people_running_as_an_openrouter/</guid>
+      <pubDate>Fri, 29 May 2026 15:33:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人使用我的开源项目对 14,000 人进行了网络钓鱼</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tr2b9v/someone_used_my_open_source_project_to_phish/</link>
+      <description><![CDATA[       由   提交/u/dreamnyt  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tr2b9v/someone_used_my_open_source_project_to_phish/</guid>
+      <pubDate>Fri, 29 May 2026 13:43:04 GMT</pubDate>
     </item>
     <item>
       <title>尝试仅使用 Rumble Cloud、FFmpeg 和 CDN 来托管和流式传输视频？</title>
@@ -22,7 +57,7 @@
     <item>
       <title>除了工作时间之外，您还有多少时间投入到 webdev 上？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tqo9yy/aside_from_working_hours_how_much_time_do_you/</link>
-      <description><![CDATA[成功的开发人员，请回答上面的问题。在正常工作时间之外，您投入多少时间用于网络开发/编程/学习？您花了多少时间参与网络开发领域并吸收知识和/或与他人讨论？ 我在浏览远程工作时遇到了一个看起来很酷的工作，但在应用程序中，只是您填写的应用程序以查看他们是否感兴趣，他们提出了强制性/必需的问题，例如 “最近改变了您对自己的看法的想法、书籍、博客文章或演讲是什么？ ” 和 “你对软件工程持有什么有争议或不受欢迎的观点，为什么？” 我已经做了 15 年的 Web 开发人员，但我什至不知道如何回答这两个问题。没有任何？我每天都会阅读有关 webdev 的帖子和博客（简称 TLDR），但我还没有读到任何令人震惊的惊天动地的内容来改变我对 web 开发的看法。我应该每天花 15 个小时以上思考/阅读/讨论 Web 开发吗？ *诚实的问题，而不是咆哮或抱怨。老实说，我想知道我是否需要做更多的事情？*   由   提交/u/X5455  [链接] [评论]]]></description>
+      <description><![CDATA[成功的开发人员，请回答上面的问题。在正常工作时间之外，您投入多少时间用于网络开发/编程/学习？你花了多少时间参与网络开发领域并吸收知识和/或与他人讨论？ 我在浏览远程工作时发现了一个看起来很酷的工作，但在应用程序中，只是你填写的应用程序，看看他们是否感兴趣，他们提出了强制性/必需的问题，例如 “最近改变了你对自己的看法的想法、书籍、博客文章或演讲是什么？ ” 和 “你对软件工程持有什么有争议或不受欢迎的观点，为什么？” 我已经做了 15 年的 Web 开发人员，但我什至不知道如何回答这两个问题。没有任何？我每天都会阅读有关 webdev 的帖子和博客（简称为 TLDR），但我还没有读到任何令人震惊的惊天动地的内容来改变我对 web 开发的看法。我应该每天花 15 个小时以上思考/阅读/讨论 Web 开发吗？ *诚实的问题，而不是咆哮或抱怨。老实说，我想知道我是否需要做更多的事情？*   由   提交/u/X5455  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tqo9yy/aside_from_working_hours_how_much_time_do_you/</guid>
       <pubDate>Fri, 29 May 2026 02:27:56 GMT</pubDate>
     </item>
@@ -50,7 +85,7 @@
     <item>
       <title>咆哮：Webflow 很糟糕</title>
       <link>https://www.reddit.com/r/webdev/comments/1tqkyfv/rant_webflow_sucks/</link>
-      <description><![CDATA[我只需要在我的笔记本电脑摔成两半之前把它拿出来。我在 UX/UI 领域工作了近 10 年。我使用过很多网站构建器。迄今为止最糟糕的是 Webflow。我从哪里开始？  很少有自定义代码支持：说实话，几乎所有样式和 JS 都需要在站点设置中添加？太笨重了。至少给我页面级别的控制 - 我拒绝将所有内容与嵌入一起破解。太疯狂了。 组件太锁定了：所以我无法在特殊异常中修改一件事（属性之外）？我明白这就是代码库的工作原理，但你是一名视觉设计师。更像 Figma  动画是一场噩梦：为什么我必须定义悬停状态？你在开玩笑吧？一种悬停状态，默认动画进出。进行自定义悬停应该是一个例外，而不是标准。我知道这是非常简单的元素级动画的基本设置，他们希望任何网页设计师都使用这些而不是多级动画，这太疯狂了。另外，为什么我们不能对边距和填充进行动画处理？？？ 您无法组织 CMS 集合内容：复杂的数据输入？滚动浏览大量的输入列表并选择没有层次结构的乐趣 命名每个捏造的元素都是地狱。我们可以切换到 css 框架原生方法吗？当我们使用可视化编辑器调整属性时，只需应用基于Tailwind之类的类名即可。当然，需要时可以自定义类名，但是天哪，关心类所需的脑力让我感到恶心 沿着这些思路：为什么我们看不到所有类的列表？？？如果一切都是为了创建一个自定义类，那么至少让我看到一个列表/CSS 来表达对葫芦的热爱 没有内联 SVG 元素选项是令人恼火的。是的，SVG 可能是一个安全漏洞，但要到 2026 年才能弄清楚。如果您希望能够轻松更改图标的颜色、线宽等，那么必须使用嵌入式代码真是太令人讨厌了  我发誓这个产品是谁的，即使是为了我的客户也无法使用它，因为您需要了解 CSS 知识，而我也无法使用它，因为它是一堆炽热的臭垃圾。现在人工智能接替我工作的报名表在哪里？拥有它。很高兴。 这就是我尖叫的全部能量。哭。现在就吐。请，也许我只是对插件或工具非常无知，所以请随意启发我。  我现在要去找一些电脑形状的东西来打破。 感谢您的聆听🫰 AHHHHHHHHHGGGGGGGGGGGGGG   由   提交 /u/Spirited-Wonder1410   [链接] [评论]]]></description>
+      <description><![CDATA[我只需要在我的笔记本电脑摔成两半之前把它拿出来。我在 UX/UI 领域工作了近 10 年。我使用过很多网站构建器。迄今为止最糟糕的是 Webflow。我从哪里开始？  很少有自定义代码支持：说实话，几乎所有样式和 JS 都需要在站点设置中添加？太笨重了。至少给我页面级别的控制 - 我拒绝将所有内容与嵌入一起破解。太疯狂了。 组件太锁定了：所以我无法在特殊异常中修改一件事（属性之外）？我明白这就是代码库的工作原理，但你是一名视觉设计师。更像 Figma  动画是一场噩梦：为什么我必须定义悬停状态？你在开玩笑吧？一种悬停状态，默认动画进出。进行自定义悬停应该是一个例外，而不是标准。我知道这是非常简单的元素级动画的基本设置，他们希望任何网页设计师都使用这些而不是多级动画，这太疯狂了。另外，为什么我们不能对边距和填充进行动画处理？？？ 您无法组织 CMS 集合内容：复杂的数据输入？滚动浏览大量的输入列表并选择没有层次结构的乐趣 命名每个捏造的元素都是地狱。我们可以切换到 css 框架原生方法吗？当我们使用可视化编辑器调整属性时，只需应用基于Tailwind之类的类名即可。当然，需要时可以自定义类名，但是天哪，关心类所需的脑力让我感到恶心 沿着这些思路：为什么我们看不到所有类的列表？？？如果一切都是为了创建一个自定义类，那么至少让我看到一个列表/CSS 来表达对葫芦的热爱 没有内联 SVG 元素选项是令人恼火的。是的，SVG 可能是一个安全漏洞，但要到 2026 年才能弄清楚。如果您希望能够轻松更改图标的颜色、线宽等，那么必须使用嵌入式代码真是太令人讨厌了  我发誓这个产品是谁的，即使是为了我的客户也无法使用它，因为您需要了解 CSS 知识，而我也无法使用它，因为它是一堆炽热的臭垃圾。现在人工智能接替我工作的报名表在哪里？拥有它。很高兴。 这就是我尖叫的全部能量。哭。马上就吐了。请，也许我只是对插件或工具非常无知，所以请随意启发我。  我现在要去找一些电脑形状的东西来打破。 感谢您的聆听🫰 AHHHHHHHHHGGGGGGGGGGGGGG   由   提交 /u/Spirited-Wonder1410   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tqkyfv/rant_webflow_sucks/</guid>
       <pubDate>Fri, 29 May 2026 00:01:36 GMT</pubDate>
     </item>
@@ -74,41 +109,6 @@
       <description><![CDATA[也许是一个奇怪的问题，但 Pornhubs 起始页实际上是根据您观看的视频进行的推荐。 我想这里的大多数人都使用隐身模式，所以每次启动时都没有 cookie，都是干净的状态。然而，如果您为该网站启动另一个隐身窗口，您会发现它记住了您的观看行为并且视频反映了它。 但是他们是如何做到这一点的呢？没有帐户，没有cookies，没有本地存储。从技术上讲，由于 GDPR，他们一开始就不允许跟踪您。  然而，事实就是如此。有人知道他们是如何实现这一目标的吗？   由   提交 /u/SourSovereign   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tqf62t/how_does_pornhub_track_a_user_without_cookies_and/</guid>
       <pubDate>Thu, 28 May 2026 20:19:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何上传我在互联网上创建的网站，但它只显示给拥有确切链接的人？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tqenh9/how_to_upload_a_website_that_i_created_on_the/</link>
-      <description><![CDATA[我为大学做了一个作品集作为作业，但其中有一些非常敏感的信息，例如我的身份证号和全名。 我不想让互联网上的任何人偶然发现它，我只想让教授看到它。 所以我想要一个非常困难的精确链接，因此只有知道此链接的人才能访问我的网站。 是否有一些免费的链接网站托管这件事？   由   提交/u/W3-SD   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tqenh9/how_to_upload_a_website_that_i_created_on_the/</guid>
-      <pubDate>Thu, 28 May 2026 20:01:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>JPEG 压缩深入探讨</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tqecp5/jpeg_compression_deep_dive/</link>
-      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tqecp5/jpeg_compression_deep_dive/</guid>
-      <pubDate>Thu, 28 May 2026 19:51:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在每个组合都没有图像的情况下制作动态 svg 图像？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tqe9fy/how_to_make_dynamic_svg_images_without_having_an/</link>
-      <description><![CDATA[我想创建一个功能，让我的用户能够自定义 2D svg 字符。他们会选择自己的性别、肤色、衣服颜色，甚至可能稍后会戴上配饰。这些角色的手臂也会改变位置。 显然，我不想为每种可能的组合创建一个 svg 图像，例如Brown-man-red-shirt-pose1.svg white-woman-blue-shirt-pose1.svg 等。如果我这样做，每次更新角色的设计时，我将至少有一百个文件需要更改，而我不希望这些文件成为我最大的敌人。 因此，我希望有一种方法可以在每次向用户渲染角色时动态动态生成这些组合。我询问了一个聊天机器人，它告诉我像使用 Django 处理 html 模板一样处理 svg 文件，并使用 render_to_string() 函数渲染它们，该函数允许我传递要显示的模板的变量。 我相信这种做法是有意义的。对于应用于角色的不同颜色，我只需要添加以下语法： {{shirt_color }} 作为路径“fill”的值。在我的 svg 中，并在 render_to_string() 中传递颜色值。 但是，如果我想在渲染过程中将手臂附加到角色上，而不是为每个手臂姿势都有一个文件，每个手臂姿势都具有相同的基本角色，那么它会变得有点复杂。我需要将整个 svg 文件集成到第一个文件中，并且需要关心它的位置和一切。每次在另一个 svg 文件中渲染该文件时，我还需要清理该文件，因为 (&lt;?xml version=&quot;1.0&quot;encoding=&quot;UTF-8&quot;standalone=&quot;no&quot;?&gt;, &lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt; 以及 svg 标签本身）。 那么最普遍同意的方法是什么？   由   提交 /u/Affectionate-Ad-7865   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tqe9fy/how_to_make_dynamic_svg_images_without_having_an/</guid>
-      <pubDate>Thu, 28 May 2026 19:48:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>哪个网站建设者？快速但专业</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tq95dh/which_website_builder_quick_but_professional/</link>
-      <description><![CDATA[我想在几天内创建一个网站。  其主要目的是提供免费的数字下载。我想在这个过程中捕获电子邮件，为使用该产品提供后续指导。  不涉及电子商务，页面也很少（4-5）。分析和域名注册将是一个额外的好处。  我希望它看起来不错 - 我希望有灵活的视觉设计选项或能够调整模板。  我对 WordPress、Wix、Squarespace、Shopify、Canva 等工具很满意，但不太喜欢使用代码。 在这种情况下，人们会推荐什么？ 🙏   由   提交/u/jahwinnie  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tq95dh/which_website_builder_quick_but_professional/</guid>
-      <pubDate>Thu, 28 May 2026 16:47:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>为新的 Docker 化应用程序寻找堆栈建议</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tq80xw/looking_for_stack_advice_for_a_new_dockerized_app/</link>
-      <description><![CDATA[我不确定我是否在正确的位置问这个问题，但我需要创建一个 Web 应用程序，并且正在寻找最适合的堆栈。到目前为止，SurveyJS 似乎勾选了所有框，但我对堆栈的经验为零。另外一个是 Flask/Waitress 和 JS。最终，这一切都必须在 Docker 主机上运行。 我需要它保存表单数据，最好是像 MariaDB 这样的东西，这样用户就可以选择之前填写的表单并进行编辑。多个用户将使用它，身份验证正在其他地方处理，但每个人都应该能够查看/编辑其他人的数据。 这是一个“很好的选择”，但是是否有将表单数据导出为 XML 的功能？ 我们正在构建的应用程序需要能够提出诸如“您驾驶了多少辆车”之类的问题，然后根据该答案为每辆车创建一个部分或子表单关于汽车的其他问题。 我不介意为此投入一点钱，看看像 FluentForm 这样的一体化选项，如果它符合所有条件的话 非常感谢！   由   提交/u/the_zipadillo_people   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tq80xw/looking_for_stack_advice_for_a_new_dockerized_app/</guid>
-      <pubDate>Thu, 28 May 2026 16:07:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
