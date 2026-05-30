@@ -4,7 +4,21 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 30 May 2026 10:44:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 13:17:57 GMT</lastBuildDate>
+    <item>
+      <title>使用 Cline SDK 构建代理</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trxxsm/building_an_agent_with_the_cline_sdk/</link>
+      <description><![CDATA[ 由   提交/u/der_gopher  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trxxsm/building_an_agent_with_the_cline_sdk/</guid>
+      <pubDate>Sat, 30 May 2026 11:55:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>“对人工智能征税并投资于人”：伊丽莎白·沃伦推动分享人工智能财富的大胆计划</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trxm6y/tax_ai_and_invest_in_people_elizabeth_warren/</link>
+      <description><![CDATA[ 由   提交/u/BhaswatiGuha19  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trxm6y/tax_ai_and_invest_in_people_elizabeth_warren/</guid>
+      <pubDate>Sat, 30 May 2026 11:39:46 GMT</pubDate>
+    </item>
     <item>
       <title>聊天机器人和所谓的代理人工智能支持之间的真正区别是什么</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trqe5i/what_is_the_real_difference_between_a_chatbot_and/</link>
@@ -20,13 +34,6 @@
       <pubDate>Sat, 30 May 2026 04:47:05 GMT</pubDate>
     </item>
     <item>
-      <title>这个人工智能要去哪里？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trovuq/where_is_this_ai_going/</link>
-      <description><![CDATA[这让我感到不安 市场给出了混合信号 他们说人工智能是革命性的，这个那个，基准 但经济正在描绘一幅不同的图景 对于公司来说，人工智能支出变得昂贵且不可持续，而生产力/收入没有大幅增加 以及人为拉回克劳德代码20 美元订阅者的访问 如果人工智能如此革命性，那么为什么要通过人为稀释股权来获得大量资金 这种疯狂将走向何方。朝哪个方向。我无法下结论 Anthropic 尚未上市 这意味着无法查看他们的财务状况   由   提交 /u/Rare-Assignment-8474   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trovuq/where_is_this_ai_going/</guid>
-      <pubDate>Sat, 30 May 2026 03:48:13 GMT</pubDate>
-    </item>
-    <item>
       <title>Claude Opus 4.8 于 5 月 28 日发布，其功能表明人工智能的实际发展方向。它现在可以将一项任务分解为数十个并行工作流并同时运行它们。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trn67j/claude_opus_48_launched_may_28_with_a_feature/</link>
       <description><![CDATA[Anthropic 两天前发布了 Opus 4.8。价格与之前的版本相同。基准收益成为头条新闻。实际上指示行进方向的功能是动态工作流程。 这就是它的作用。您在单个提示中描述了一项大型、复杂的任务。克劳德没有线性地完成它，而是将其分解为数十个同时运行的较小工作流，然后将结果合成为一个连贯的输出。 合适的类比：一项需要一个人一整天的研究任务。使用动态工作流程，就好像 50 个人同时在不同的部分工作，最后由一名协调员组装输出。该任务只需很短的时间即可完成。 为什么这比速度更重要： 两年来，与人工智能的交互模型基本上是线性的。你问，它回应，你再问。即使是代理工作流程也大多按顺序运行步骤。动态工作流程是向并行执行的转变，这对用户来说是一种不同的计算模型和不同的心理模型。 大多数人会忽略的实际含义：您必须停止人为地缩小提示。大多数用户在两年内养成的整个习惯是将大任务分解为小任务，因为人工智能可以更好地处理小任务。这种习惯现在适得其反。该系统旨在处理整个事情并在内部进行协调。如果你继续向它提供片段，那么你就是在串行模式下使用并行系统。 4.8 中还有第二个变化，它同样重要，但受到的关注较少。判断升级。以前的版本有时会产生一个自信的、结构良好的答案，但实际上是错误的。 4.8 在 Anthropic 的测试中不加批判地报告有缺陷的结果，得分为 0%，低于之前版本中有意义的比率。它会标记出自身的不确定性，并在您投入时间之前推迟有缺陷的计划。 将这两个更改放在一起，方向就很明确。克劳德正在从您操作的工具转变为您委托的合作者。并行执行意味着它可以承担真正的大型任务。更好的判断力意味着您可以相信返回的结果。发布节奏（2 月 4.6、4 月 4.7、5 月 4.8）表明这个方向正在加速，而不是停滞不前。 这些模型现在可以做的事情与大多数人实际要求它们做的事情之间的差距随着每次发布而扩大。最快缩小差距的人是那些扩大他们移交范围的人。 如果有兴趣，我在此处的文档中写下了 4.8 中的所有四项更改，并提供了 30 个利用每个更改的具体提示，包括触发动态工作流程的全面提示。 如果您在阅读本文后做了一件事，请承担您一直在打破的最大任务分成碎片，然后一口气把整件事交给克劳德。它实现方式的差异是其发展方向的最清晰信号。   由   提交 /u/Professional-Rest138   [链接] [评论]]]></description>
@@ -39,13 +46,6 @@
       <description><![CDATA[据报道，一家神秘的未命名公司由于忘记为员工设置 Claude 许可证的使用限制，意外地在一个月内在 Claude AI 上花费了 5 亿美元。   由   提交 /u/chota-kaka   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trmub1/mystery_company_accidentally_blew_500_million_on/</guid>
       <pubDate>Sat, 30 May 2026 02:11:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>科技公司迫切希望拍摄你做家务的视频</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trlrrb/tech_companies_desperately_want_to_film_you_doing/</link>
-      <description><![CDATA[ 由   提交/u/SystematicApproach  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trlrrb/tech_companies_desperately_want_to_film_you_doing/</guid>
-      <pubDate>Sat, 30 May 2026 01:20:34 GMT</pubDate>
     </item>
     <item>
       <title>Anthropic 超越 OpenAI，成为全球最有价值的人工智能启动</title>
