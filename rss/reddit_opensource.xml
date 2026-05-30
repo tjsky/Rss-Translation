@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Sat, 30 May 2026 06:21:24 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 10:48:21 GMT</lastBuildDate>
+    <item>
+      <title>LLM Wiki 的“云与本地”之争是错误的二分法吗？摄取管道是真正值得关注的问题。</title>
+      <link>https://www.reddit.com/r/opensource/comments/1trtsgg/is_the_cloud_vs_local_fight_for_llm_wikis_a_false/</link>
+      <description><![CDATA[我们一直在争论 LLM Wiki（就像 Andrej Karpathy 描述的那样）应该 100% 本地（Obsidian、DIY 脚本）还是云（Recall、Notion）。正如卡帕蒂承认的那样，问题的核心是“黑客脚本集合”。需要摄入。我花了几个月的时间试图让本地脚本干净地解析混乱的文档、表格和网络文章——这是不可能维护的。我现在使用 Recall，一个人工智能知识库，纯粹是因为它强大的无代码摄取层，尽管它是基于云的。似乎为了获得真正实用的摄取和检索系统而牺牲本地优先的理想是值得的。是否有人真正运行一个稳定的、*本地* LLM 知识库来处理 10 多种源类型的解析，而无需不断的照顾？   由   提交/u/Sai_Abhinav   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1trtsgg/is_the_cloud_vs_local_fight_for_llm_wikis_a_false/</guid>
+      <pubDate>Sat, 30 May 2026 08:08:06 GMT</pubDate>
+    </item>
     <item>
       <title>一个很酷的应用程序</title>
       <link>https://www.reddit.com/r/opensource/comments/1trpjnh/a_cool_app/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[我是一名学生建筑 Crest，这是一款免费的开源远足路线规划器，专为那些只想计划步行并下载路线而无需付费的人而设计。 大多数远足应用程序（OS Maps、AllTrails、Komoot）都将 GPX 导出锁定在订阅后面。我想要一些简单的东西：  选择一个起点和终点 生成一条真正的基于人行道的路线 查看海拔剖面图 下载 GPX/GeoJSON  无需订阅，也无需跟踪。 Crest 使用 OpenStreetMap 数据（一个自定义的 A* 路由引擎），现在通过 Chart.js 包含海拔剖面图。 我&#39;d喜欢任何人对地图、路线算法或开源户外工具的反馈。 存储库：https://github.com/abdlfc11/Crest-Hiking-App   由   提交 /u/abdul_Ss   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tplzja/opensource_hiking_route_planner_i_built_because/</guid>
       <pubDate>Wed, 27 May 2026 23:15:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>我刚刚找到了🎶THE WAAAAAY🎶</title>
-      <link>https://www.reddit.com/r/opensource/comments/1tpjgpj/i_just_found_the_waaaaay/</link>
-      <description><![CDATA[为了免费保存 f-droid 和手机中用于 yeet 的所有东西，我们可以运行一个非常简单的 PC 环境来在本地下载 apk，并使用 ZArchiver 从 termux 安装它（可能会捐赠一杯咖啡）。为了抵消 slopcorp 的钱，我们可以改变我们共享链接的方式，而不是通常的方式，我们可以使用静态链接来 sudo rm rf 价格，然后只使用 termux 来卷曲，为了共享它们，我们使用 (空格键)DOT(空格键) 而不是标准链接来保持页面静态，并且无法跟踪可以修补他们的东西，但他们无法修补人类创造力🗿   由   提交/u/rafoz03  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1tpjgpj/i_just_found_the_waaaaay/</guid>
-      <pubDate>Wed, 27 May 2026 21:36:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
