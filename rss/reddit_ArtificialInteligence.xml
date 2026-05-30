@@ -4,13 +4,41 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 30 May 2026 13:17:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 16:01:12 GMT</lastBuildDate>
     <item>
-      <title>使用 Cline SDK 构建代理</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trxxsm/building_an_agent_with_the_cline_sdk/</link>
-      <description><![CDATA[ 由   提交/u/der_gopher  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trxxsm/building_an_agent_with_the_cline_sdk/</guid>
-      <pubDate>Sat, 30 May 2026 11:55:46 GMT</pubDate>
+      <title>人工智能上下文设置的令人沮丧的部分并不是它很难。就是感觉没意义。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ts3moh/the_frustrating_part_of_ai_context_setup_isnt/</link>
+      <description><![CDATA[我一直在试图找出为什么上下文设置步骤特别困扰我，因为它并不是特别困难。复制粘贴并不难。 感觉更像是：我在做不应该存在的工作。我正在传输的信息已经存在于我的屏幕上。我不会通过复制来添加任何内容。我只是在执行翻译步骤，而该步骤仅存在，因为工具和工作位于不同的位置。 当我将文档粘贴到聊天中并输入“总结此内容”时，我感觉自己正在填写一份表格，以获取有关我们双方都已经存在的内容的帮助。 将此与要求同事查看某些内容进行比较。他们看起来。你问。没有翻译步骤。 这种特定的感觉（不完全是乏味的，更像是毫无意义的）是否会与其他人产生共鸣，或者大多数人只是将上下文设置体验为使用工具的中性成本？   由   提交/u/Sai_Abhinav   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ts3moh/the_frustrating_part_of_ai_context_setup_isnt/</guid>
+      <pubDate>Sat, 30 May 2026 15:55:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>去中心化的 git 是代理 AI 编码所缺失的部分吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ts2l69/is_decentralized_git_the_missing_piece_for/</link>
+      <description><![CDATA[在向代理工作流程的转变中，一个反复出现的问题是人工智能代理如何在代码上进行大规模协作。 管理 PAT、处理凭证蔓延以及担心密钥泄露感觉越来越过时。 好奇是否有人正在探索去中心化的类似 git 的系统，在该系统中代理拥有自己的加密身份、本地签署提交并进行协作没有中央权威的点对点。 感觉像是多代理编码设置的自然演变。   由   提交/u/amu4biz  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ts2l69/is_decentralized_git_the_missing_piece_for/</guid>
+      <pubDate>Sat, 30 May 2026 15:13:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>真的是这样吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ts1zw5/is_this_really_like_this/</link>
+      <description><![CDATA[我一直摇摆不定，有时我完全相信人工智能可能不会超越人类智能，但有时该领域的一些惊人发现和重大发展同时让我感到困惑 作为一个已经做了三年人工智能工程师和早期职业的人 我很想知道前辈们对此有何看法和他们的看法   由   提交/u/Queserasera_q   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ts1zw5/is_this_really_like_this/</guid>
+      <pubDate>Sat, 30 May 2026 14:50:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我测试了 5 个人工智能模型，总结了相同的新闻文章。他们都继承了消息来源的框架，即使试图保持中立。我是菜鸟，请友善</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1ts1zm6/i_tested_5_ai_models_summarizing_the_same_news/</link>
+      <description><![CDATA[所以我做了一个小研究，测试 ChatGPT、Claude、Gemini、Grok 和 DeepSeek 是否以相同的方式总结新闻。剧透：他们没有，原因有点令人担忧。 设置很简单。六篇移民新闻文章（左、中、右来源），每个模型都有相同的中性提示，所有三十个摘要都是为了中立性、准确性、完整性、情感语言和框架而手动编码的。 我发现所有五个模型都一致继承了源文章的框架。当我向他们提供一篇左倾文章时，摘要被编码为更加负面。右倾文章？摘要中的框架更加积极。中心源？全面的结果干净利落。 令人毛骨悚然的是，这些摘要听起来实际上是中立的。如果你只是阅读它们，它们似乎是平衡的。但它们通过强调、省略和继承自来源的语气来塑造读者的理解。 Claude 总体表现最好，Grok 的完整性很强，ChatGPT 有时会走捷径。 重要警告： 这是六篇文章。一名编码员。一个主题区。你确实不能将其概括为“所有人工智能都是有偏见的”。这是提出问题的探索性工作，而不是证明任何事情。但我认为这个问题值得一问：当人们通过人工智能摘要消费新闻时，他们是否获得了客观性，或者他们是否通过听起来中立的模型对消息来源的框架进行了洗白？ 所有数据都是公开的。 Excel 工作簿包含所有摘要、我的编码规则和我的笔记。在里面戳洞。在不同的文章上进行测试。让我知道该模式是否成立，或者我是否只是看到了我想看到的内容。 包含所有数据的完整存储库：GITHUB REPO 很高兴回答有关方法论的问题或接受对编码方法的批评。   由   提交 /u/Important-Shake-4826   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1ts1zm6/i_tested_5_ai_models_summarizing_the_same_news/</guid>
+      <pubDate>Sat, 30 May 2026 14:49:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>我是搞砸了还是什么？请指教。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trzlu7/am_i_screwed_or_what_advice_pls/</link>
+      <description><![CDATA[我尝试使用 AI 进行编码，但感觉我用错了。我担心我正在使用旧方法的新工具。即使使用人工智能，我也会在各个组件之间进行连接，分析和构建错误，构建测试来检查，在让人工智能编码之前仔细考虑 if else。我不断测试并重新测试系统之间的集成。在决定前进的道路之前，阅读大量有关方法和数学的论文。一个复杂的功能可能需要一两周的时间才能最终合并为默认功能，即便如此，我们仍会再次进行大量测试。  但在人工智能时代，这一切似乎都是错误的。  我在 YouTube 上观看了 Vibe Coders，他们实际上是在“为我打造一个价值一百万美元的应用程序，不要犯错”。他们编写了一些提示，然后在不到 20 分钟的时间内就得到了一个功能齐全的应用程序。与我的编码风格相比，这是一种非常高级的建筑类型。即使在人工智能时代，我仍然停留在深层细节上。  有SWE可以分享一下他们使用AI的经验吗？    由   提交 /u/Impressive-Flow2023   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trzlu7/am_i_screwed_or_what_advice_pls/</guid>
+      <pubDate>Sat, 30 May 2026 13:12:01 GMT</pubDate>
     </item>
     <item>
       <title>“对人工智能征税并投资于人”：伊丽莎白·沃伦推动分享人工智能财富的大胆计划</title>
@@ -20,25 +48,11 @@
       <pubDate>Sat, 30 May 2026 11:39:46 GMT</pubDate>
     </item>
     <item>
-      <title>聊天机器人和所谓的代理人工智能支持之间的真正区别是什么</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trqe5i/what_is_the_real_difference_between_a_chatbot_and/</link>
-      <description><![CDATA[我经常看到供应商用“代理”这个词来形容。看起来就像每个人都使用了两年的同一个 RAG 聊天机器人。我试图了解真正将可以跨系统执行操作的多代理系统与具有更好 UI 的美化常见问题解答搜索区分开来。对于实际部署了这两种方法的人来说，代理的东西是否真的能够可靠地解决复杂的多步骤案例，或者它是否会在事情变得困难时产生幻觉并升级。我不太关心营销，更关心是否有人看到以合理的成本在生产中保持真实的分辨率数字。什么对你真正有用？   由   提交 /u/SyntaxSpectre   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trqe5i/what_is_the_real_difference_between_a_chatbot_and/</guid>
-      <pubDate>Sat, 30 May 2026 05:03:52 GMT</pubDate>
-    </item>
-    <item>
       <title>那么这一切到底是为了什么？</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trq2aj/so_what_was_it_all_for_in_the_end/</link>
       <description><![CDATA[ 由   提交 /u/SyntaxSpectre   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trq2aj/so_what_was_it_all_for_in_the_end/</guid>
       <pubDate>Sat, 30 May 2026 04:47:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Opus 4.8 于 5 月 28 日发布，其功能表明人工智能的实际发展方向。它现在可以将一项任务分解为数十个并行工作流并同时运行它们。</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trn67j/claude_opus_48_launched_may_28_with_a_feature/</link>
-      <description><![CDATA[Anthropic 两天前发布了 Opus 4.8。价格与之前的版本相同。基准收益成为头条新闻。实际上指示行进方向的功能是动态工作流程。 这就是它的作用。您在单个提示中描述了一项大型、复杂的任务。克劳德没有线性地完成它，而是将其分解为数十个同时运行的较小工作流，然后将结果合成为一个连贯的输出。 合适的类比：一项需要一个人一整天的研究任务。使用动态工作流程，就好像 50 个人同时在不同的部分工作，最后由一名协调员组装输出。该任务只需很短的时间即可完成。 为什么这比速度更重要： 两年来，与人工智能的交互模型基本上是线性的。你问，它回应，你再问。即使是代理工作流程也大多按顺序运行步骤。动态工作流程是向并行执行的转变，这对用户来说是一种不同的计算模型和不同的心理模型。 大多数人会忽略的实际含义：您必须停止人为地缩小提示。大多数用户在两年内养成的整个习惯是将大任务分解为小任务，因为人工智能可以更好地处理小任务。这种习惯现在适得其反。该系统旨在处理整个事情并在内部进行协调。如果你继续向它提供片段，那么你就是在串行模式下使用并行系统。 4.8 中还有第二个变化，它同样重要，但受到的关注较少。判断升级。以前的版本有时会产生一个自信的、结构良好的答案，但实际上是错误的。 4.8 在 Anthropic 的测试中不加批判地报告有缺陷的结果，得分为 0%，低于之前版本中有意义的比率。它会标记出自身的不确定性，并在您投入时间之前推迟有缺陷的计划。 将这两个更改放在一起，方向就很明确。克劳德正在从您操作的工具转变为您委托的合作者。并行执行意味着它可以承担真正的大型任务。更好的判断力意味着您可以相信返回的结果。发布节奏（2 月 4.6、4 月 4.7、5 月 4.8）表明这个方向正在加速，而不是停滞不前。 这些模型现在可以做的事情与大多数人实际要求它们做的事情之间的差距随着每次发布而扩大。最快缩小差距的人是那些扩大他们移交范围的人。 如果有兴趣，我在此处的文档中写下了 4.8 中的所有四项更改，并提供了 30 个利用每个更改的具体提示，包括触发动态工作流程的全面提示。 如果您在阅读本文后做了一件事，请承担您一直在打破的最大任务分成碎片，然后一口气把整件事交给克劳德。它实现方式的差异是其发展方向的最清晰信号。   由   提交 /u/Professional-Rest138   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trn67j/claude_opus_48_launched_may_28_with_a_feature/</guid>
-      <pubDate>Sat, 30 May 2026 02:26:25 GMT</pubDate>
     </item>
     <item>
       <title>神秘公司意外地在 Claude AI 上单月损失了 5 亿美元——未能对员工许可证设置使用限制</title>
@@ -62,13 +76,6 @@
       <pubDate>Fri, 29 May 2026 22:10:50 GMT</pubDate>
     </item>
     <item>
-      <title>兰德公司研究了 2,400 个人工智能项目。只有19.7%成功，而且每次的失败模式几乎相同</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trg80g/rand_studied_2400_ai_projects_only_197_succeeded/</link>
-      <description><![CDATA[企业人工智能数据中不断出现一些我认为在大多数人工智能讨论中都被忽视的东西。 失败率约为 80%。这部分引起了人们的注意。但原因几乎从来不会。  77% 的失败：战略、治理、变革管理 23% 的失败：实际技术  拥有强大数据基础的公司可以获得 10.3 倍的投资回报率。数据薄弱的公司获得 3.7 倍。相同型号。相同的供应商。纯粹基于他们在接触任何人工智能之前构建的内容，结果有近 3 倍的差异。 领导力统计数据是我不断回顾的一个。 56% 的人工智能项目在 6 个月内失去了积极的高管支持。持续赞助的成功率：68%。没有它：11%。 好奇人们是否认为这种情况会随着工具变得更容易使用而改变，或者组织问题是否会变得更加昂贵。 来源：https://www.pertamapartners.com/insights/ai-project-failure-statistics-2026 对这些数字进行了简短的视觉分析：人工智能叙述，电影风格，约 3 分钟：https://youtu.be/cPwSmHR4qWk   由   提交/u/MaJoR_-_007   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trg80g/rand_studied_2400_ai_projects_only_197_succeeded/</guid>
-      <pubDate>Fri, 29 May 2026 21:27:03 GMT</pubDate>
-    </item>
-    <item>
       <title>微软威胁对安全研究人员采取法律行动。安全社区予以反击。</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trewgw/microsoft_threatened_legal_action_against_a/</link>
       <description><![CDATA[ 由   提交 /u/techzexplore   [链接] [评论]]]></description>
@@ -81,13 +88,6 @@
       <description><![CDATA[ 由   提交 /u/oranlol   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trdgmv/literal_state_of_ai_2026/</guid>
       <pubDate>Fri, 29 May 2026 19:47:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人可以给克劳德买个钟吗？ （帖子中讨论）</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tr94mu/can_someone_buy_claude_a_clock_discussion_in_post/</link>
-      <description><![CDATA[为什么克劳德似乎是唯一一个不仅“感觉需要”不断参考一天中的时间，而且是唯一一个终其一生都无法正确计算时间的人工智能？我被告知早上 10 点睡觉、半夜吃早餐的次数已经达到了喜剧的地步。怎么可能有这么聪明的东西却无法辨别时间呢？还有其他人经历过吗？    由   提交/u/EastVillageBot   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tr94mu/can_someone_buy_claude_a_clock_discussion_in_post/</guid>
-      <pubDate>Fri, 29 May 2026 17:28:26 GMT</pubDate>
     </item>
     <item>
       <title>Box首席执行官表示，硅谷的大规模裁员证明科技公司首席执行官正在遭受“人工智能精神病”</title>
