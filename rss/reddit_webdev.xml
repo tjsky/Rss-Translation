@@ -4,11 +4,32 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 30 May 2026 02:39:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 06:21:19 GMT</lastBuildDate>
+    <item>
+      <title>[Showoff Saturday] 我做了一个小游戏，你必须猜 GitHub 存储库的星星</title>
+      <link>https://www.reddit.com/r/webdev/comments/1trqs24/showoff_saturday_i_built_a_small_game_where_you/</link>
+      <description><![CDATA[      大家好，这是我上周末构建的一个小项目： https://starguessr.vincentwill.com/ 我很想知道你的想法:)   由   提交/u/Vincenius_  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1trqs24/showoff_saturday_i_built_a_small_game_where_you/</guid>
+      <pubDate>Sat, 30 May 2026 05:23:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>与分享您的日程、游戏和平台的玩家进行匹配</title>
+      <link>https://www.reddit.com/r/webdev/comments/1trq7ug/match_with_gamers_who_share_your_schedule_games/</link>
+      <description><![CDATA[      在这里查看：broop.id   由   提交/u/toplez  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1trq7ug/match_with_gamers_who_share_your_schedule_games/</guid>
+      <pubDate>Sat, 30 May 2026 04:55:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>[周六炫耀] 订阅很糟糕，所以我用二十一点和妓女建立了自己的领先名单构建器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1trnxev/showoff_saturday_subscriptions_suck_so_i_built_my/</link>
+      <description><![CDATA[      对于像你这样的帅哥来说都是免费的。 https://dev.versiondb.io/ 如果它很糟糕，请告诉我。如果好的话也告诉我一下。我喜欢反馈。 加载到其中的所有数据都可以在这里找到：https://github.com/vdbio   由   提交/u/Upper-Character-6743   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1trnxev/showoff_saturday_subscriptions_suck_so_i_built_my/</guid>
+      <pubDate>Sat, 30 May 2026 03:01:22 GMT</pubDate>
+    </item>
     <item>
       <title>我制作了 TikTok...但它是拼图而不是卷轴</title>
       <link>https://www.reddit.com/r/webdev/comments/1trnetw/i_made_tiktok_but_its_puzzles_instead_of_reels/</link>
-      <description><![CDATA[      嗨r/webdev！  我已经为此工作了一年，我很高兴终于实现了我的愿景 - 解谜卷轴！ 像观看短片视频一样玩益智游戏：向上滑动以跳过，想玩就玩。 如果您不喜欢末日卷轴，可以玩每日任务或玩我们现有的 19 种（并且还在增加）游戏中的任何一种。免费，无广告，无限制！ 使用 React、TypeScript、Swiper 和 Motion 构建。 查看网站：https://puzzle.express 谢谢您，祝您游戏愉快！   由   提交/u/trancence  [链接] [评论] ]]></description>
+      <description><![CDATA[      嗨r/webdev！  我已经为此工作了一年，我很高兴终于实现了我的愿景 - 解谜卷轴！ 像观看短片视频一样玩益智游戏：向上滑动以跳过，想玩就玩。 如果您不喜欢末日卷轴，可以玩每日任务或玩我们现有的 19 种（并且还在增加）游戏中的任何一种。免费、无广告、无限制！ 制作此内容是因为我很惊讶我还没有见过这样的东西，而且我们应该更有意、更有意义地度过我们的空闲时间。我认为谜题是被动消费卷轴的一个很好的替代方案。 使用 React、TypeScript、Swiper 和 Motion 构建。 查看网站：https://puzzle.express 谢谢您，祝您玩得愉快！   由   提交/u/trancence  [链接] [评论] ]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1trnetw/i_made_tiktok_but_its_puzzles_instead_of_reels/</guid>
       <pubDate>Sat, 30 May 2026 02:37:28 GMT</pubDate>
     </item>
@@ -32,20 +53,6 @@
       <description><![CDATA[大家好， 我正在尝试在 GitHub Pages 上托管一个 React (Vite) 应用程序，但一直遇到经典的 SPA 路由问题。 存储库：[Img2Num GitHub 存储库](https://github.com/Ryan-Millard/Img2Num/) 实时站点：[Img2Num GitHub 页面](https://ryan-millard.github.io/Img2Num/) The app 基本上是该项目的一个小型登陆页面，显示了如何使用该库的示例，但它使用了 React Router (BrowserRouter)。在应用程序内部导航时，一切正常，但是： - 刷新除 / 之外的任何路由都会导致 404 - 直接访问嵌套路由也是 404 - GitHub Pages 显然不处理 SPA 后备路由 很多人建议这些： - 使用 HashRouter - 添加 404.html后备黑客 -切换到另一个主机（例如，Clouflare Pages） 但我不喜欢这些选项，因为它们要么结构不完善，也不适合 SEO，不是一个完整的解决方案，或者使测试全局支持变得更加困难（Cloudflare Pages 允许使用特殊标头，例如 GitHub Pages 和许多其他 JS 设置不支持的 pthreads）。 我想做的是像静态站点生成（SSG）之类的东西，因为它可能是最干净的修复 - 类似于 Docusaurus 或 Astro 处理此问题的方式： - 在构建时预渲染路由 - 为 /、/docs 等提供静态 HTML。 - 初始加载没有客户端路由依赖 - 更好的 SEO 并且没有刷新问题 这可以避免用户需要有一个花哨的东西 当我尝试使用 Vite 设置 SSG 时React，我最终失败了 我尝试过诸如“vite-plugin-ssg”之类的东西，但遇到了我似乎无法修复的奇怪行为和错误（例如，不兼容的依赖关系，在降级时也会中断）。 我不完全理解 React SPA 设置中多路由 SSG 的正确架构。 --- 正确的现代方法是什么？有没有推荐的方法来保持 React &amp; Vite，部署到 GitHub Pages，在没有哈希路由的情况下获得适当的多路由支持，并完全避免 SPA 404 刷新问题？  我很感激任何指导或工作示例，因为我觉得我错过了这里的情节。   由   提交 /u/readilyaching   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1trjyhh/github_pages_react_vite_spa_routing_issues_im/</guid>
       <pubDate>Fri, 29 May 2026 23:59:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>你如何寻找客户？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1triy6s/how_do_you_find_clients/</link>
-      <description><![CDATA[嗨！  我想知道，对于所有的自由职业者来说，你们是如何找到客户的？    由   提交 /u/Klutzy-Badger-2778   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1triy6s/how_do_you_find_clients/</guid>
-      <pubDate>Fri, 29 May 2026 23:16:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是啥？？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1trikxi/wtf_is_this/</link>
-      <description><![CDATA[      新的验证步骤   由   提交/u/mikeplus10  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1trikxi/wtf_is_this/</guid>
-      <pubDate>Fri, 29 May 2026 23:00:44 GMT</pubDate>
     </item>
     <item>
       <title>当我有 PHP 网站时，我可以使用 Kotlin 制作应用程序吗？</title>
@@ -102,13 +109,6 @@
       <description><![CDATA[您好， 过去几年我一直在 Nuxt/Vue 环境中工作，在此之前还使用 Laravel。 最近，我们的一位客户要求我们在 Wordpress 中重建他们的网站。我之前也曾破解过一些小型的wordpress项目，但总感觉很痛苦而且效率低下。 你们有没有使用什么工具或技术来让开发变得更好？这主要是一个小册子网站，前端的用户功能有限。不幸的是，考虑到客户的技术要求，我无法使用无头 WordPress。 我很想找到一种方法来引入组件（英雄、CTA、卡片等）、开发中的 HMR 或我在 Nuxt 等更现代的堆栈中依赖的任何其他功能的可重用性，同时还维护 Wordpress 的 CMS 方面（可能通过 ACF）。 很想听听您的提示和技巧！   由   提交/u/dont_trust_lizards  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tr91p9/how_do_i_make_the_dev_experience_of_wordpress/</guid>
       <pubDate>Fri, 29 May 2026 17:25:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>在哪里可以找到中级全栈开发人员（远程海外）的承包商工作？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tr8zfl/where_to_land_a_contractor_job_as_a_mid_level/</link>
-      <description><![CDATA[嘿，大家好，今年年底我要搬到一个体面的第一世界国家，我拿到了公关，我还需要钱。过去 6 个月，我作为承包商在加利福尼亚州的一家人工智能初创公司工作，每月工资 2400 美元，他们一个月前卖掉了它，我显然被解雇了，因为他们的产品被另一家公司制造并收购了，我对自己的技能非常有信心，只是我真的不知道如何落地再次进行类似的工作。  如果你能帮我提供一些建议，请提供，请不要种族主义，我没有选择出生在哪里，我希望每个人都能在未来变得非常富有，提前致谢。   由   提交/u/In-Hell123  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tr8zfl/where_to_land_a_contractor_job_as_a_mid_level/</guid>
-      <pubDate>Fri, 29 May 2026 17:23:47 GMT</pubDate>
     </item>
     </channel>
 </rss>

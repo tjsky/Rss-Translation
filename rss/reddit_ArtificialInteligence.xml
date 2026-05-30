@@ -4,7 +4,28 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Sat, 30 May 2026 02:38:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 06:20:02 GMT</lastBuildDate>
+    <item>
+      <title>聊天机器人和所谓的代理人工智能支持之间的真正区别是什么</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trqe5i/what_is_the_real_difference_between_a_chatbot_and/</link>
+      <description><![CDATA[我经常看到供应商用“代理”这个词来形容。看起来就像每个人都使用了两年的同一个 RAG 聊天机器人。我试图了解真正将可以跨系统执行操作的多代理系统与具有更好 UI 的美化常见问题解答搜索区分开来。对于实际部署了这两种方法的人来说，代理的东西是否真的能够可靠地解决复杂的多步骤案例，或者它是否会在事情变得困难时产生幻觉并升级。我不太关心营销，更关心是否有人看到以合理的成本在生产中保持真实的分辨率数字。什么对你真正有用？   由   提交 /u/SyntaxSpectre   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trqe5i/what_is_the_real_difference_between_a_chatbot_and/</guid>
+      <pubDate>Sat, 30 May 2026 05:03:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>那么这一切到底是为了什么？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trq2aj/so_what_was_it_all_for_in_the_end/</link>
+      <description><![CDATA[ 由   提交 /u/SyntaxSpectre   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trq2aj/so_what_was_it_all_for_in_the_end/</guid>
+      <pubDate>Sat, 30 May 2026 04:47:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude Opus 4.8 于 5 月 28 日发布，其功能表明人工智能的实际发展方向。它现在可以将一项任务分解为数十个并行工作流并同时运行它们。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trn67j/claude_opus_48_launched_may_28_with_a_feature/</link>
+      <description><![CDATA[Anthropic 两天前发布了 Opus 4.8。价格与之前的版本相同。基准收益成为头条新闻。实际上指示行进方向的功能是动态工作流程。 这就是它的作用。您在单个提示中描述了一项大型、复杂的任务。克劳德没有线性地完成它，而是将其分解为数十个同时运行的较小工作流，然后将结果合成为一个连贯的输出。 合适的类比：一项需要一个人一整天的研究任务。使用动态工作流程，就好像 50 个人同时在不同的部分工作，最后由一名协调员组装输出。该任务只需很短的时间即可完成。 为什么这比速度更重要： 两年来，与人工智能的交互模型基本上是线性的。你问，它回应，你再问。即使是代理工作流程也大多按顺序运行步骤。动态工作流程是向并行执行的转变，这对用户来说是一种不同的计算模型和不同的心理模型。 大多数人会忽略的实际含义：您必须停止人为地缩小提示。大多数用户在两年内养成的整个习惯是将大任务分解为小任务，因为人工智能可以更好地处理小任务。这种习惯现在适得其反。该系统旨在处理整个事情并在内部进行协调。如果你继续向它提供片段，那么你就是在串行模式下使用并行系统。 4.8 中还有第二个变化，它同样重要，但受到的关注较少。判断升级。以前的版本有时会产生一个自信的、结构良好的答案，但实际上是错误的。 4.8 在 Anthropic 的测试中不加批判地报告有缺陷的结果，得分为 0%，低于之前版本中有意义的比率。它会标记出自身的不确定性，并在您投入时间之前推迟有缺陷的计划。 将这两个更改放在一起，方向就很明确。克劳德正在从您操作的工具转变为您委托的合作者。并行执行意味着它可以承担真正的大型任务。更好的判断力意味着您可以相信返回的结果。发布节奏（2 月 4.6、4 月 4.7、5 月 4.8）表明这个方向正在加速，而不是停滞不前。 这些模型现在可以做的事情与大多数人实际要求它们做的事情之间的差距随着每次发布而扩大。最快缩小差距的人是那些扩大他们移交范围的人。 如果有兴趣，我在此处的文档中写下了 4.8 中的所有四项更改，并提供了 30 个利用每个更改的具体提示，包括触发动态工作流程的全面提示。 如果您在阅读本文后做了一件事，请承担您一直在打破的最大任务分成碎片，然后一口气把整件事交给克劳德。它实现方式的差异是其发展方向的最清晰信号。   由   提交 /u/Professional-Rest138   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1trn67j/claude_opus_48_launched_may_28_with_a_feature/</guid>
+      <pubDate>Sat, 30 May 2026 02:26:25 GMT</pubDate>
+    </item>
     <item>
       <title>神秘公司意外地在 Claude AI 上单月损失了 5 亿美元——未能对员工许可证设置使用限制</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1trmub1/mystery_company_accidentally_blew_500_million_on/</link>
@@ -74,27 +95,6 @@
       <description><![CDATA[在硅谷，角落办公室和小隔间之间的脱节越来越严重。 在最近关于 X 的一篇文章中，内容管理平台 Box 的首席执行官 Aaron Levie 大声说出了他在科技界的同行如何未能全面掌握人工智能工作的秘密部分。 “首席执行官特别容易患上人工智能精神病，因为他们距离最后一英里足够远。 Levie 在 X 上写道：“因此，当他们使用 AI 时，他们会看到快乐路径的结果，而通常不会考虑接下来必须发生的 10 或 20 件事，才能从代理那里获得可持续的结果。”  换句话说，首席执行官们只看到技术中最好的东西，远离错误、幻觉和其他每天从事繁重工作的混乱工人。  这一观察反映了数据中显示的内容。人工智能公司 Rev 2025 年的一项调查发现，人工智能的重度用户出现幻觉的次数是其三倍，并且花费近 10 倍的时间来获取答案。这些员工是“tokenmaxxing”，即最大化他们烧毁的人工智能代币数量。这是一些首席执行官根本无法掌握的技术的一面，因为他们计划解雇数千名员工，以用人工智能取代。 阅读更多内容 [Reddit 用户付费墙被移除]：https://fortune.com/2026/05/29/box-ceo-aaron-levie-ai-psychosis-jobs-layoffs/?utm_source=reddit/   由   提交 /u/fortune   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tr380z/sweeping_silicon_valley_layoffs_are_proof_that/</guid>
       <pubDate>Fri, 29 May 2026 14:15:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>最近还有其他人感到“人工智能倦怠”和绝对敬畏的奇怪混合吗？</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tqwyhz/anyone_else_feeling_a_weird_mix_of_ai_burnout_and/</link>
-      <description><![CDATA[我们已经从“看看这个很酷的聊天机器人”转到了“”。 “人工智能刚刚自动化了我的整个工作流程并克隆了我的声音”感觉就像五分钟。 这非常令人兴奋，但说实话，每天跟上新模型、工具和突破的步伐开始感觉像是一份全职工作。有一天，我对生产力的飞跃感到惊讶，第二天我就盯着天花板，想知道三年后的就业市场会是什么样子。 你们还在乘着炒作浪潮，还是一切的快速节奏开始让你们精神疲劳？你认为尘埃落定后我们实际上会降落在哪里？   由   提交/u/netcommah  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tqwyhz/anyone_else_feeling_a_weird_mix_of_ai_burnout_and/</guid>
-      <pubDate>Fri, 29 May 2026 09:55:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>价值 50 万美元的人工智能电影“在戛纳首映”实际上并未在戛纳首映</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tqwmye/the_500k_ai_film_that_premiered_at_cannes_didnt/</link>
-      <description><![CDATA[ 由   提交 /u/techzexplore   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tqwmye/the_500k_ai_film_that_premiered_at_cannes_didnt/</guid>
-      <pubDate>Fri, 29 May 2026 09:37:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>一部完全由人工智能生成的电影刚刚在戛纳电影节放映，制作成本为 50 万美元</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1tqhanv/a_fully_ai_generated_film_just_screened_at_cannes/</link>
-      <description><![CDATA[ https://www.wsj.com/cio-journal/this-cannes-film-cost-500-000-to-make-400-000-was-ai-compute-costs-a823b08d 摘要：一部完全由人工智能制作的 95 分钟电影刚刚在戛纳电影节上映。预算低于 50 万美元，其中 40 万美元用于由主要由即时工程师组成的小团队进行计算。相同规模的传统生产成本约为 5000 万美元，是其 100 倍。这部电影由 15 个人在 14 天内使用 Higgsfield AI 制作而成，据他们声称，目前正在前往洛杉矶。这是完全人工智能生成的功能首次出现在进行实际分销交易的主要行业市场，这就是为什么它比通常的人工智能演示对话更重要。 需要明确的是：这不是官方节日选择。它在市场周期间的第三方活动中放映。但戛纳市场才是真正达成交易、发行商挑选电影的地方。 电影是否好几乎不是重点。尽管它遭到了电影制作界的憎恨，但它还是得到了《华尔街日报》和 BBC 的积极报道，并且现在即将前往洛杉矶。   由   提交/u/Mediocre-Witness-778  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1tqhanv/a_fully_ai_generated_film_just_screened_at_cannes/</guid>
-      <pubDate>Thu, 28 May 2026 21:35:12 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
