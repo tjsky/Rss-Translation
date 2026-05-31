@@ -4,7 +4,14 @@
     <title>最新提交：编辑</title>
     <link>https://www.reddit.com/r/editors/new</link>
     <description>这个 Reddit 子版块面向的是后专业人士。您想成为职业选手吗？请随意使用我们的“询问专业人士”主题。副业？使用“询问专业人士”主题。爱好？为了好玩？我们的姐妹子/视频编辑正是您想要的！</description>
-    <lastBuildDate>Sun, 31 May 2026 06:57:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 10:54:01 GMT</lastBuildDate>
+    <item>
+      <title>解决：以高清分辨率渲染垂直和水平剪辑的代理</title>
+      <link>https://www.reddit.com/r/editors/comments/1tsodme/resolve_rendering_proxies_from_vertical_and/</link>
+      <description><![CDATA[大家好， 我正在将一个最初在 Resolve 中剪切的项目移至 Premiere，供我们的一位编辑使用，其中涉及重新生成代理。该项目在同一时间线上混合了水平 (16:9) 和垂直 (9:16) 剪辑。当我从时间轴渲染代理时，所有内容显然都是邮筒式的，因为我的序列设置为 1920x1080。  我希望所有代理均为高清分辨率，但每个剪辑都尊重其原始方向，因此垂直剪辑为 1080x1920，水平剪辑为 1920x1080。 我知道以源分辨率渲染可以解决方向问题，但我特别希望所有代理均为高清分辨率，而不是拍摄源的任何分辨率。 有没有一种干净的方法可以通过单个渲染作业来实现此目的在 Resolve 中，或者是拆分为两个时间线/两个渲染作业的唯一选项？我猜没有，在这种情况下，我只会按分辨率将剪辑分组到媒体池中，然后从那里开始工作，但很乐意被证明是错误的！ 干杯！   由   提交 /u/Available-Witness329   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/editors/comments/1tsodme/resolve_rendering_proxies_from_vertical_and/</guid>
+      <pubDate>Sun, 31 May 2026 07:22:45 GMT</pubDate>
+    </item>
     <item>
       <title>片名是开头还是结尾？</title>
       <link>https://www.reddit.com/r/editors/comments/1tsd5ri/movie_title_at_beginning_or_end/</link>
@@ -18,13 +25,6 @@
       <description><![CDATA[对技术过敏的客户搞砸了他精心安排的设置，录制了整整一个小时的播客节目，重点是他的背景而不是他的脸。这是一个匆忙的情节，一天的转变，我感到愤怒和绝望。有什么工具或修复程序可以保存素材吗？我在 Premiere Pro 中进行编辑。    由   提交 /u/getyourownthememusic   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1tsc1s0/client_recorded_an_entire_podcast_episode_out_of/</guid>
       <pubDate>Sat, 30 May 2026 21:27:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>从 Adob​​e 切换到达芬奇？</title>
-      <link>https://www.reddit.com/r/editors/comments/1ts8dj0/switching_from_adobe_to_davinci/</link>
-      <description><![CDATA[所以我主要使用 pr、ae 和 ps 等 adobe 软件进行编辑...我也经常使用 3D 相机...但是 Premiere Pro 滞后很多...TS 甚至滞后于 720p 素材...然后如果我想使用 ae，我必须使用动态链接..我正在考虑切换到 davinci，因为它现在也有照片页面.. 大家有这方面的经验吗？喜欢从 Adob​​e 切换到 Davinci？   由   提交/u/Love-me1320  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/editors/comments/1ts8dj0/switching_from_adobe_to_davinci/</guid>
-      <pubDate>Sat, 30 May 2026 19:02:19 GMT</pubDate>
     </item>
     <item>
       <title>编辑帮助 - 似乎没有程序可以工作</title>
@@ -99,7 +99,7 @@
     <item>
       <title>如何在同一项目中对 D-Log、S-Cinetone、iPhone 和 DJI 素材进行颜色匹配？</title>
       <link>https://www.reddit.com/r/editors/comments/1tr3qcn/how_do_you_color_match_dlog_scinetone_iphone_and/</link>
-      <description><![CDATA[我使用多个相机的镜头拍摄了一个项目： • DJI Ronin 4D 在 D-Log 中 • Sony ZV-E1（我不小心关闭了 Log，所以我相信它是在 S-Cinetone 中拍摄的） • iPhone 16 Pro Max • DJI Osmo Pocket 3 在正常模式下（不是D-Log) • D-Log 中的 DJI Air 3 在 Premiere Pro 和 DaVinci Resolve 中进行颜色分级时，我很难让所有素材匹配并看起来一致。 匹配来自 Log 和非 Log 摄像机混合的素材的最佳工作流程是什么？我应该先将所有内容转换为 Rec.709，然后使用 DaVinci YRGB Color Managed 等色彩管理工作流程进行匹配，还是依赖 CineMatch 等工具？ 最大的问题是 Ronin 4D 素材与索尼素材相比往往看起来偏黄，总体而言，我似乎无法让所有摄像机看起来像是属于同一个项目。 经常对混合摄像机拍摄进行色彩匹配的人的任何建议都是非常感谢。   由   提交 /u/Sad_Significance_858   [链接] [评论]]]></description>
+      <description><![CDATA[我使用多个相机的镜头拍摄了一个项目： • DJI Ronin 4D 在 D-Log 中 • Sony ZV-E1（我不小心关闭了 Log，所以我相信它是在 S-Cinetone 中拍摄的） • iPhone 16 Pro Max • DJI Osmo Pocket 3 在正常模式下（不是D-Log) • D-Log 中的 DJI Air 3 在 Premiere Pro 和 DaVinci Resolve 中进行颜色分级时，我很难让所有素材匹配并看起来一致。 匹配来自 Log 和非 Log 摄像机混合的素材的最佳工作流程是什么？我应该先将所有内容转换为 Rec.709，然后使用 DaVinci YRGB Color Managed 等色彩管理工作流程进行匹配，还是依赖 CineMatch 等工具？ 最大的问题是 Ronin 4D 素材与索尼素材相比往往看起来偏黄，总的来说，我似乎无法让所有摄像机看起来像是属于同一个项目。 经常对混合摄像机拍摄进行色彩匹配的人的任何建议都是非常感谢。   由   提交 /u/Sad_Significance_858   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/editors/comments/1tr3qcn/how_do_you_color_match_dlog_scinetone_iphone_and/</guid>
       <pubDate>Fri, 29 May 2026 14:33:41 GMT</pubDate>
     </item>
