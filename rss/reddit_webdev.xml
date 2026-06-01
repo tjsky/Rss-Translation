@@ -4,20 +4,62 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 01 Jun 2026 11:25:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 17:32:57 GMT</lastBuildDate>
+    <item>
+      <title>在我的新 Livewire + Tailwind 电子商务网站上需要反馈/寻找错误。烘烤我的 UI/UX 并打破流程！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ttz8dx/need_feedback_bug_hunting_on_my_new_livewire/</link>
+      <description><![CDATA[嘿 r/WebDev， 我最近使用 Laravel、Livewire 和 Tailwind CSS 完成了一个电子商务网站的构建。它目前托管在此处的临时环境中：https://beige-grasshopper-898497.hostingersite.com/ 在将实时生产域指向它之前，我想通过一些严格的实际测试来对状态管理和响应能力进行测试。由于 Livewire 可以通过 XHR 请求处理所有内容，而无需重新加载整个页面，因此我正在寻找其他开发人员来寻找状态错误、布局变化或功能中断。 🛠️ 技术堆栈： 后端和后端状态：Laravel 11 + Livewire 3 前端/样式：Tailwind CSS 数据库：MySQL 🎯 我希望您检查的内容： Livewire 状态转换：尝试从购物车快速添加/删除商品、更改产品变体或应用过滤器。 DOM 更新是否顺利，还是冻结/出现故障？ 移动响应能力：产品网格、过滤器侧边栏或导航菜单在您的特定设备上是否中断？ （Tailwind 类结帐）。 结帐流程：付款当前处于测试/沙盒模式，因此请随意运行虚拟结帐。组件状态在验证期间是否重置或表现异常？ 性能和性能速度：初始负载和随后的水合对您来说感觉如何？ 如果您发现有问题，请留下您的设备型号/浏览器名称以及您的反馈。我真的很感谢您的时间和残酷的诚实！ 谢谢！   由   提交 /u/Affectionate_Top1719   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ttz8dx/need_feedback_bug_hunting_on_my_new_livewire/</guid>
+      <pubDate>Mon, 01 Jun 2026 17:25:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>意外构建 OpenSCAD 包管理器</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ttyee1/accidentally_building_an_openscad_package_manager/</link>
+      <description><![CDATA[       由   提交/u/Solderlocks  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ttyee1/accidentally_building_an_openscad_package_manager/</guid>
+      <pubDate>Mon, 01 Jun 2026 16:58:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要失去希望！</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tty8vl/dont_lose_hope/</link>
+      <description><![CDATA[      你们中的许多人分享了伟大的项目，但没有真正的用例。我想鼓励你，即使到了 2026 年，你仍然可以取得伟大的成就。你只需要找到一个利基市场并且动作要快。该网站完全在没有广告的情况下达到了这些值。 Bewertiq.org  它接受评论并使用数学回归模型（OLS - 普通最小二乘法）来更准确地估计或细化评级。通过应用日志转换功能和基于类别的虚拟变量等技术，它试图减少原始用户评分中的噪音和偏差，并在不同实体之间产生更稳定、可比较的结果。 在该分析层之上，产品定位是： 库努努、Trustpilot 或 Google Reviews 等平台的以信任为中心的替代方案 强调无付费合作伙伴关系，无赞助排名，并且没有审查操纵或删除压力 围绕使用数据而不是商业影响力对公司进行独立评估的理念构建   由   提交/u/princessinsomnia  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tty8vl/dont_lose_hope/</guid>
+      <pubDate>Mon, 01 Jun 2026 16:53:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>GetClera 和 clera 匹配电子邮件域警告</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ttxwk8/getclera_and_cleramatch_email_domain_warning/</link>
+      <description><![CDATA[      嘿伙计们，我只是想在这里分享这个。我最近收到一封来自 Clera 员工的电子邮件（第一封自动标记为垃圾邮件），询问“在某家公司的职位”以及我是否有兴趣。经过 1-2 次来回后，我意识到这些电子邮件主要是人工智能生成的，但仍然给了它一个机会并分享了我的简历，邀请进行现场演讲。之后我收到了一封来自“talent@getclera.com”的电子邮件像这样（与图片相关）。我从未同意与人才经纪人签约，从未同意存储我的简历或与人工智能模型共享它。 我分享我的简历的原因是因为电子邮件包含以下短语：  这是我的建议：如果您可以共享您的简历，团队将对其进行审核并从那里获取它。  因此，它的目的是转发给团队在提到的公司中，不要将其存储在人工智能代理的人才库中。 因此，只是提醒您在收到分享简历的邀请时查看电子邮件域的在线评论。不要像我一样。 对于经历过这种情况的其他人：我不熟悉这方面的法律，但如果你想聚集起来并为此做点什么，我可能会加入（取决于我是否可以，因为我不是来自美国）。 P.S.这个问题曾在 r/theprimegen 上提出过（通过搜索找到），但没有引起太多共鸣。   由   提交/u/Strict-Criticism7677  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ttxwk8/getclera_and_cleramatch_email_domain_warning/</guid>
+      <pubDate>Mon, 01 Jun 2026 16:42:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能构建网站与雇用设计师/开发人员</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ttttjn/ai_built_websites_vs_hiring_a_designerdeveloper/</link>
+      <description><![CDATA[我有兴趣为我的企业建立一个新网站，并正在考虑是否应该聘请专业人士或自己使用人工智能设计一个网站。我见过很多用 Claude 等人工智能工具构建的相当不错的网站，但我对它们是否构建得当持怀疑态度。如果有人对使用人工智能工具与雇用某人的利弊有意见，我将很高兴听到他们的意见。提前致谢！    由   提交 /u/HawgBandit   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ttttjn/ai_built_websites_vs_hiring_a_designerdeveloper/</guid>
+      <pubDate>Mon, 01 Jun 2026 14:24:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>每月入门/Web 开发职业主题</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ttq11w/monthly_getting_started_web_dev_career_thread/</link>
+      <description><![CDATA[由于有关此主题的问题不断涌入，我们决定每月提交一个专门讨论此主题的帖子，以减少有关此主题的重复帖子的数量。这些类型的帖子将不再允许在主线程中发布。 其中许多问题也在子常见问题解答中得到解决，或者可能在以前的每月职业线程中提出。 专门针对这些类型的子问题问题包括针对一般性和开放式职业问题的 r/cscareerquestions 和针对早期学习问题的 r/learnprogramming。 学习为行业做好准备的主题的一般建议包括：  HTML/CSS/JS 训练营 版本控制 自动化 前端框架(React/Vue/Etc) API 和 CRUD 测试（单元和集成） 常见设计模式  您还需要包含您构建的 4-5 个个人项目的作品集，以及用于申请工作的简历。 在申请工作之前，为您的作品集计划 6-12 个月的自学和项目制作。   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ttq11w/monthly_getting_started_web_dev_career_thread/</guid>
+      <pubDate>Mon, 01 Jun 2026 12:00:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>人机交互剧作家自动化：流式传输后端浏览器以进行 OTP/CAPTCHA 处理的最佳方式？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ttpmv9/humanintheloop_playwright_automation_best_way_to/</link>
+      <description><![CDATA[大家好， 我们正在使用 Playwright 构建一个自动化平台，其中所有浏览器自动化都在后端运行。 对于需要手动干预（OTP、CAPTCHA、MFA、文档上传等）的门户，我们正在探索一种方法，让用户可以从我们的 React 应用程序临时查看正在运行的后端浏览器并与之交互，之后自动化将自动恢复。 我们的目标是：  将所有自动化逻辑保留在后端 仅在必要时支持人工干预 扩展到批量处理工作流程 在生产中可靠部署  我们目前正在评估 CDP 截屏、VNC/noVNC 和基于 WebRTC 的浏览器流式传输等方法。 有人在生产中构建过类似的东西吗？您选择了什么架构？可扩展性、延迟、安全性、会话管理和 CAPTCHA/OTP 工作流程方面面临的最大挑战是什么？ 此外，对于此用例，是否有比实时浏览器流式传输更好的替代方案？ 任何建议、经验或开源项目将不胜感激。   由   提交/u/Loud_Ice4487  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ttpmv9/humanintheloop_playwright_automation_best_way_to/</guid>
+      <pubDate>Mon, 01 Jun 2026 11:43:01 GMT</pubDate>
+    </item>
     <item>
       <title>如果人工智能在你编码时已经可以看到你的屏幕，那么你实际上会问哪些目前还没有问到的问题？</title>
       <link>https://www.reddit.com/r/webdev/comments/1ttmio4/if_the_ai_could_already_see_your_screen_while_you/</link>
       <description><![CDATA[我一直在考虑 AI 辅助调试的特定版本。不是问哪个工具更聪明，而是询问完全删除上下文设置步骤会带来的行为变化。现在我会自行选择哪些调试问题需要人工智能参与。门槛大致是：这是否足够复杂以至于值得支付设置成本？复制相关代码，复制错误，添加有关项目结构的上下文，问我的问题。需要几分钟才能做好。 如果 AI 可以直接看到我的 IDE，无需复制、无需粘贴，只需“看看这个并告诉我出了什么问题”，就可以了。我想我的门槛会大幅下降。我想问更多的事情。更小的事情。我目前只是自己推动这些事情，因为它们似乎不值得设置开销。 答案是否会更好，因为人工智能看到实际屏幕是一个单独的问题。但消除摩擦带来的行为改变可能比任何质量改进都更重要。 如果人工智能调试的设置成本为零，您会以不同的方式使用它吗？或者您认为当前的复制粘贴步骤实际上很有用，因为它迫使您在提出问题之前仔细考虑问题？    由   提交 /u/Professional-Peach-3   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ttmio4/if_the_ai_could_already_see_your_screen_while_you/</guid>
       <pubDate>Mon, 01 Jun 2026 09:03:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Copilot 在我的编辑器中改变了我在单独的窗口中访问 AIClaude 的频率，但没有相同的效果。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ttmdfx/copilot_being_in_my_editor_changed_how_often_i/</link>
-      <description><![CDATA[我经常使用 Claude 来解决复杂的问题，并在 VS Code 中使用 Copilot 内联来快速完成。我开始注意到实际使用频率的差异。我经常使用副驾驶，基本上不假思索地使用它。 Claude 我每天可能使用五次，其中一半的时间我说服自己不要打开它，因为我已经知道接下来会发生什么：复制相关代码，粘贴它，添加有关项目结构和我想要做什么的上下文，解释我遇到的错误，然后最后提出实际问题。  摩擦力小。但它足够一致，我默认会自己努力解决一些问题，或者谷歌搜索，而不是打开克劳德。最令我困扰的具体情况是当问题在屏幕上可见时。我可以看到这个错误。克劳德也许可以帮我更快地解决这个问题。但是，将可见内容纳入 Claude 的上下文中的工作足以让我不再费心。 “将人工智能嵌入到您正在使用的工具中”与“将人工智能嵌入到您正在使用的工具中”之间的差距是否存在？和““单独聊天窗口中的人工智能””对其他开发人员有意义，或者这是我应该坚持的习惯？”   由   提交/u/Queasy_Hotel5158  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ttmdfx/copilot_being_in_my_editor_changed_how_often_i/</guid>
-      <pubDate>Mon, 01 Jun 2026 08:56:07 GMT</pubDate>
     </item>
     <item>
       <title>需要职业建议：Java 还是 Python 全栈？</title>
@@ -67,48 +109,6 @@
       <description><![CDATA[我看到有人提到了留言簿，我必须查一下。显然人们会在专门的页面上留下公共消息，你可以回复他们。我猜垃圾邮件毁了这一点。 任何其他的事情，都没有真正体验过它是年轻的。也许有些人可以卷土重来，而我们中的一个人可以实现它。   由   提交 /u/Successful-Title5403   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tt1zs3/what_are_some_old_web_features_or_quirks/</guid>
       <pubDate>Sun, 31 May 2026 17:43:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在不使用昂贵的 API 的情况下安全地验证平台上的音乐家？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tt12zp/how_do_you_securely_verify_musicians_on_your/</link>
-      <description><![CDATA[我正在构建一个名为 EccoMuse 的网络应用程序，它是一个音乐发现平台，可让听众将他们的音乐品味与艺术家的品味融合在一起，并具有通过这些独特的播放列表混合货币获利的功能。 现在，我正在解决经典的市场问题： 区分普通用户/听众与真正的艺术家。我需要确保，如果有人声称自己是 JPEGMAFIA 或小型独立艺术家，他们实际上就是那个人（或其经理），而不是试图劫持个人资料的冒充者。 我想避免抓取 Spotify BIOS（针对 ToS/脆弱性），并且我不能依赖 X/Twitter 的 OAuth，因为他们的新 API 定价对于自举的夏季项目来说太昂贵了。 这是手动验证系统我目前的计划是： 标准登录：用户以听众身份登录（SSO/电子邮件）。 声明个人资料：他们粘贴他们的 Spotify/Apple Music URL 和主要社交账号 (IG/X)，然后声明他们是艺术家、不露面艺术家还是经理。 挑战：应用程序生成唯一的 6 位数代码。 证明： 公开艺术家拿着代码进行网络摄像头自拍照，并从他们已验证/已建立的艺术家帐户中将代码发送到我们的官方 Instagram。 经理/不露面艺术家跳过自拍照，但必须从官方艺术家帐户中发送代码或通过其 Spotify/社交上列出的公共预订电子邮件向我们发送电子邮件。 手动审核：我查看 DM/电子邮件，验证帐户权限，交叉引用自拍照（如果适用），并手动批准声明。 为什么它感觉不完全强化： 虽然这有效并且 API 费用为 0 美元，但感觉它存在一些摩擦和潜在漏洞。 如果经理无法访问艺术家的 Instagram 发送 DM，该怎么办？ 网络摄像头自拍照对于入门来说是否太麻烦？ 如何确保模仿者不会通过，我不希望有人冒充艺术家。 我最初想过要求他们将代码放入他们的公共 IG 或 SoundCloud 简历中，但艺术家讨厌为未经证实的初创公司破坏他们的公开资料。 这里有人之前建立过创作者/艺术家验证流程吗？  如何可靠地验证身份和平台所有权，而不增加大量摩擦或支付昂贵的第三方 KYC 工具费用？ 我将不胜感激任何反馈或明显的漏洞！   由   提交/u/Insane_phycho   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tt12zp/how_do_you_securely_verify_musicians_on_your/</guid>
-      <pubDate>Sun, 31 May 2026 17:09:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为一名全栈开发者，我可以在下班后不提高技能的情况下生存吗？请诚实回答</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tsz4v7/can_i_survive_as_a_fullstack_dev_without/</link>
-      <description><![CDATA[我今年 22 岁，在一家初创公司担任全栈开发人员。每天工作 9 个小时，我的工作还算不错，但下班后我就完全没有时间了。 下班后我不想玩 leetcode。我不想晚上学习新框架。我想写作、弹吉他，然后平静地生活。 我并不是想成为一名高级开发人员或技术主管。我只需要薪水来维持，同时我还可以做一些真正让我兴奋的事情。 我的问题是——一个人可以在现有技能上实际坚持多久而不被解雇或失业？保持与时俱进而又不会精疲力尽的最低限度是什么？ 不寻找“对技术的热情”讲座。只是去过那里的人的真实经历。   由   提交 /u/Available_Guess_7344   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tsz4v7/can_i_survive_as_a_fullstack_dev_without/</guid>
-      <pubDate>Sun, 31 May 2026 15:55:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lorem Ipsum 的未解之谜</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tsxdck/the_unsolved_mystery_of_lorem_ipsum/</link>
-      <description><![CDATA[https://youtu.be/kL1PDqzqhM4 该视频更正了有关 Lorem Ipsum 历史的信息！   由   提交 /u/GreatRedditorThracc   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tsxdck/the_unsolved_mystery_of_lorem_ipsum/</guid>
-      <pubDate>Sun, 31 May 2026 14:49:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>没想到建造小行星会变成性能问题哈哈。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tswl43/didnt_expect_build_asteroids_to_turn_into_a/</link>
-      <description><![CDATA[我在构建小行星项目中添加了更多小行星，突然我的 FPS 下降了。就像完全无法使用一样。 现在我正在查看我的代码，并意识到我的构建小行星循环基本上只是在没有真正优化的情况下重新绘制每一帧的所有内容。 我以为请求动画帧会自动处理它，但是是的......那是我太天真了。 人们在构建小行星时是否有一种正常的模式，这样当您添加更多对象时它就不会崩溃？   由   提交 /u/Tricky-Highway-7099   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tswl43/didnt_expect_build_asteroids_to_turn_into_a/</guid>
-      <pubDate>Sun, 31 May 2026 14:17:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>sql.js-httpvfs - 在静态文件托管服务器上托管 SQLite 数据库，并从浏览器查询该数据库，而无需完全下载它。是否还有仍在维护的替代方案？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tss5g5/sqljshttpvfs_hosting_an_sqlite_database_on_a/</link>
-      <description><![CDATA[       由   提交/u/Wise_Stick9613   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tss5g5/sqljshttpvfs_hosting_an_sqlite_database_on_a/</guid>
-      <pubDate>Sun, 31 May 2026 10:57:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>DIY 网站建设者对网络开发行业有影响吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tsp5y1/have_diy_website_builders_had_an_effect_on_the/</link>
-      <description><![CDATA[在过去几年主要关注设计之后，我最近重新熟悉了前端开发。我计划从现在开始再次将两者结合起来。 我从事的最后一份全职工作我们使用了如今似乎很流行的拖放网站构建器。我不得不说，这是一次真正痛苦的经历。 我们要移交的网站将是一团糟，客户必须自己编辑栏目、小部件、布局，这感觉就像是一场灾难。 我们经常不得不复制各种小部件，例如图像滑块，一个用于移动设备，一个用于桌面设备。然后，我必须向客户解释，他们需要使用相同的内容更新两次。 此外，很多时候，由于软件的限制，我必须设置 HTML 小部件，因此我还必须向客户解释，他们有时需要在简单更新其网站上的内容时编辑实际的代码。 但令人担忧的是，我最近在营销机构进行了许多其他工作面试，似乎每个人都在做同样的事情。 我有时还会在播客上听到人们将默认的 WordPress 描述为“老式”，就好像 Web 开发的未来就是用这些可怕的网站构建器做所有事情 WTF 🤮 这些人是否主要只是进行基本/糟糕的 Web 开发项目，而将正确的项目留给那些知道如何正确执行的人？或者有很多开发人员因此而失去工作？   由   提交 /u/Weekly_Frosting_5868   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tsp5y1/have_diy_website_builders_had_an_effect_on_the/</guid>
-      <pubDate>Sun, 31 May 2026 08:07:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
