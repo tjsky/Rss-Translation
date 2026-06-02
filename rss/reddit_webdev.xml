@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 02 Jun 2026 03:30:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 10:14:36 GMT</lastBuildDate>
+    <item>
+      <title>每次我向小型分析仪表板添加新的向下钻取功能时，我的 Supabase 和 Snowflake 都会出现峰值...有什么建议吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tuj802/my_supabase_and_snowflake_has_a_spike_every_time/</link>
+      <description><![CDATA[我一直在为 B2B 客户端构建嵌入式报告（我使用 next.js），随着我们用户群的增长，P95 延迟正在成为一场噩梦。每次用户更改日期过滤器时，都会触发仓库上的新计算旋转。 我目前正在重构堆栈，以在前端和数据库之间放置一个通用语义层（在我的例子中为立方体核心）。目标是将所有逻辑（例如多租户行级安全性 (RLS) 和复杂联接）从 React 代码本身移至声明性建模层 自从我开始以来，（迄今为止）最大的胜利是使用预聚合。现在，API 不再访问原始表，而是访问“cubestore”中的预热缓存层。对于在 SaaS 中进行高并发分析的人来说，这感觉更像是查询结构化 API，而不是数据库 ，这是一个问题！您只是在仓库计算上投入更多资金吗？您是否正在转向这种解耦架构？您还有哪些其他最佳实践？现在试图弄清楚我是否应该坚持这个，或者只是将所有内容移动到一个巨大的 ClickHouse 实例并希望得到最好的结果   由   提交/u/sivyh  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tuj802/my_supabase_and_snowflake_has_a_spike_every_time/</guid>
+      <pubDate>Tue, 02 Jun 2026 07:04:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>表情符号 - 感觉良好的游戏</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tuirmu/smileys_feel_good_game/</link>
+      <description><![CDATA[       由   提交/u/mightyme2  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tuirmu/smileys_feel_good_game/</guid>
+      <pubDate>Tue, 02 Jun 2026 06:39:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>你把手机弄坏了</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tufncz/youve_broken_mobile/</link>
+      <description><![CDATA[你知道，对吧？  移动网络完全无法使用。它是垃圾，它是垃圾，因为你不能对它说“不”。对于愚蠢的广告商来说，他们不断地放置越来越多的愚蠢的弹出窗口、偷偷摸摸的链接、动画和内容模糊的垃圾，通常懒得把关闭框放在屏幕的范围内。  如果您在网站的移动版本上工作 - 真丢脸。这不起作用。我不是在开玩笑。我可能访问过，并立即通过后退按钮拒绝了，因为它比蹩脚的点击诱饵标题所暗示的更麻烦。 RIP 移动网络。   由   提交 /u/Small_Dog_8699   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tufncz/youve_broken_mobile/</guid>
+      <pubDate>Tue, 02 Jun 2026 03:59:47 GMT</pubDate>
+    </item>
     <item>
       <title>自托管CMS平台有什么意义？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tuepyo/whats_the_point_of_selfhosted_cms_platforms/</link>
@@ -25,13 +46,6 @@
       <description><![CDATA[我从事前端开发已经一年多了。大部分是个人项目，为朋友做一些自由职业，没什么大不了的。最近有人通过相互联系询问我是否可以为他们的业务建立一个网站。起初我以为这将是一个简单的小册子网站，但在我们通话后，听起来他们想要一些更自定义的东西。 网站本身听起来并不太复杂，但他们有一堆具体要求，这些要求并不真正适合现成的模板。截止日期约为两周。我的一部分认为，如果我想提高并开始从事更多的自由职业，这正是我需要的项目。我的另一部分是看着时间表，认为我很可能过于乐观了。 对于那些自由职业者或自己经营项目的人来说，如何判断客户的请求是否真正可以管理，或者是否让自己面临几周的压力？尝试弄清楚我是否想得太多，或者我的直觉是否试图警告我某些事情。   由   提交/u/avz008  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tubdmh/first_real_client_project_and_im_worried_im/</guid>
       <pubDate>Tue, 02 Jun 2026 00:45:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>前端开发人员是否对人工智能感到厌倦？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tubatl/are_front_end_devs_getting_done_dirty_with_ai/</link>
-      <description><![CDATA[我是一名全栈开发人员。在我目前的工作中，直到最近，我一直只做前端工作。这是由于同事（称为 C:A 和 C:B）占用了所有后端工作。他们表示他们不了解前端。然而他们使用人工智能。生成他们不理解的前端代码。 Tech Lead 并不关心它是否有效。 需要明确的是，这不是反人工智能。邮政。我将其视为一种工具并自己使用它。无论它生成什么，我都会仔细研究并了解它是如何工作的，以及它是否是最好的方法。 当我说“完成肮脏”时，我指的是人工智能。被人们用来做他们本来无法完成的前端工作。我经历过的例子。 我正在与同事 C:A 一起完成一项任务。我负责前端工作，他们负责后端工作。 C:A 从我的 Git 分支中分支出来，使用了 A.I.完成我和他们的部分。他们将其作为单独的工作提交给老板（非技术总监）。 我正在与 C:A 和 C:B 一起完成一项任务，我们已经完成了任务。那是交货的前一天，我正在尝试连接 U.I.对于他们的后端。我在后面跑。 C:B 决定使用 A.I.将他们的电话连接起来并告诉每个人他们已经完成了。第二天，我检查了所有东西，发现它没有接线。它正在显示我放入测试的嵌入数据。我必须通知 Tech Lead，但 C:B 的进展并不顺利。因为人工智能可以生成 U.I.元素并为那些对此一无所知的人做界面工作。还有其他人经历过类似的事情吗？不是在寻找反人工智能的言论。我真的很想知道专门从事这项工作的人是否正在受到人工智能的直接削弱。  TLDR：开发人员是否使用人工智能？生成前端代码，他们不明白削弱那些专门从事前端代码的人？   由   提交/u/wtfbigman24x7  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tubatl/are_front_end_devs_getting_done_dirty_with_ai/</guid>
-      <pubDate>Tue, 02 Jun 2026 00:41:54 GMT</pubDate>
     </item>
     <item>
       <title>Google OAuth 在 localhost、Chrome 和 Brave 上工作，但在 Vercel 部署后在 Edge/Firefox 上失败</title>
@@ -69,13 +83,6 @@
       <pubDate>Mon, 01 Jun 2026 16:58:40 GMT</pubDate>
     </item>
     <item>
-      <title>不要失去希望！</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tty8vl/dont_lose_hope/</link>
-      <description><![CDATA[      你们中的许多人分享了伟大的项目，但没有真正的用例。我想鼓励你，即使到了 2026 年，你仍然可以取得伟大的成就。你只需要找到一个利基市场并且动作要快。该网站完全在没有广告的情况下达到了这些值。 Bewertiq.org  它接受评论并使用数学回归模型（OLS - 普通最小二乘法）来更准确地估计或细化评级。通过应用日志转换功能和基于类别的虚拟变量等技术，它试图减少原始用户评分中的噪音和偏差，并在不同实体之间产生更稳定、可比较的结果。 在该分析层之上，产品定位是： 库努努、Trustpilot 或 Google Reviews 等平台的以信任为中心的替代方案 强调无付费合作伙伴关系，无赞助排名，并且没有审查操纵或删除压力 围绕使用数据而不是商业影响力对公司进行独立评估的理念构建   由   提交/u/princessinsomnia  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tty8vl/dont_lose_hope/</guid>
-      <pubDate>Mon, 01 Jun 2026 16:53:40 GMT</pubDate>
-    </item>
-    <item>
       <title>GetClera 和 clera 匹配电子邮件域警告</title>
       <link>https://www.reddit.com/r/webdev/comments/1ttxwk8/getclera_and_cleramatch_email_domain_warning/</link>
       <description><![CDATA[      嘿伙计们，我只是想在这里分享这个。我最近收到一封来自 Clera 员工的电子邮件（第一封自动标记为垃圾邮件），询问“在某家公司的职位”以及我是否有兴趣。经过 1-2 次来回后，我意识到这些电子邮件主要是人工智能生成的，但仍然给了它一个机会并分享了我的简历，邀请进行现场演讲。之后我收到了一封来自“talent@getclera.com”的电子邮件像这样（与图片相关）。我从未同意与人才经纪人签约，从未同意存储我的简历或与人工智能模型共享它。 我分享我的简历的原因是因为电子邮件包含以下短语：  这是我的建议：如果您可以共享您的简历，团队将对其进行审核并从那里获取它。  因此，它的目的是转发给团队在提到的公司中，不要将其存储在人工智能代理的人才库中。 因此，只是提醒您在收到分享简历的邀请时查看电子邮件域的在线评论。不要像我一样。 对于经历过这种情况的其他人：我不熟悉这方面的法律，但如果你想聚集起来并为此做点什么，我可能会加入（取决于我是否可以，因为我不是来自美国）。 P.S.这个问题曾在 r/theprimegen 上提出过（通过搜索找到），但没有引起太多共鸣。   由   提交/u/Strict-Criticism7677  [链接] [评论] ]]></description>
@@ -102,13 +109,6 @@
       <description><![CDATA[由于有关此主题的问题不断涌入，我们决定每月提交一个专门讨论此主题的帖子，以减少有关此主题的重复帖子的数量。这些类型的帖子将不再允许在主线程中发布。 其中许多问题也在子常见问题解答中得到解决，或者可能在以前的每月职业线程中提出。 专门针对这些类型的子问题问题包括针对一般性和开放式职业问题的 r/cscareerquestions 和针对早期学习问题的 r/learnprogramming。 学习为行业做好准备的主题的一般建议包括：  HTML/CSS/JS 训练营 版本控制 自动化 前端框架(React/Vue/Etc) API 和 CRUD 测试（单元和集成） 常见设计模式  您还需要包含您构建的 4-5 个个人项目的作品集，以及用于申请工作的简历。 在申请工作之前，为您的作品集计划 6-12 个月的自学和项目制作。   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1ttq11w/monthly_getting_started_web_dev_career_thread/</guid>
       <pubDate>Mon, 01 Jun 2026 12:00:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>人机交互剧作家自动化：流式传输后端浏览器以进行 OTP/CAPTCHA 处理的最佳方式？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1ttpmv9/humanintheloop_playwright_automation_best_way_to/</link>
-      <description><![CDATA[大家好， 我们正在使用 Playwright 构建一个自动化平台，其中所有浏览器自动化都在后端运行。 对于需要手动干预（OTP、CAPTCHA、MFA、文档上传等）的门户，我们正在探索一种方法，让用户可以从我们的 React 应用程序临时查看正在运行的后端浏览器并与之交互，之后自动化将自动恢复。 我们的目标是：  将所有自动化逻辑保留在后端 仅在必要时支持人工干预 扩展到批量处理工作流程 在生产中可靠部署  我们目前正在评估 CDP 截屏、VNC/noVNC 和基于 WebRTC 的浏览器流式传输等方法。 有人在生产中构建过类似的东西吗？您选择了什么架构？可扩展性、延迟、安全性、会话管理和 CAPTCHA/OTP 工作流程方面面临的最大挑战是什么？ 此外，对于此用例，是否有比实时浏览器流式传输更好的替代方案？ 任何建议、经验或开源项目将不胜感激。   由   提交/u/Loud_Ice4487  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1ttpmv9/humanintheloop_playwright_automation_best_way_to/</guid>
-      <pubDate>Mon, 01 Jun 2026 11:43:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
