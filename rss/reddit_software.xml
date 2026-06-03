@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 03 Jun 2026 20:52:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 23:03:57 GMT</lastBuildDate>
+    <item>
+      <title>利用人工智能在几分钟内建立一个网站</title>
+      <link>https://www.reddit.com/r/software/comments/1tw37dg/build_a_website_in_minutes_with_ai/</link>
+      <description><![CDATA[介绍https://slatehut.com 所有网站均附带 - 内置联系表单 - 用于博客的CMS - 制作精美的组件 - 自定义域   由   提交/u/_sandeep1995   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tw37dg/build_a_website_in_minutes_with_ai/</guid>
+      <pubDate>Wed, 03 Jun 2026 21:24:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>在工作中，我们软件开发人员使用 Copilot 作为助手。我们都知道副驾驶定价“变化”。这是这个月的第三天，我刚刚达到了我的信用额度。我被告知要向 IT 部门要求加薪。我看看情况如何</title>
+      <link>https://www.reddit.com/r/software/comments/1tw32qg/at_work_we_software_developers_use_copilot_as_an/</link>
+      <description><![CDATA[ 由   提交/u/Gjpu   [链接] [comments]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tw32qg/at_work_we_software_developers_use_copilot_as_an/</guid>
+      <pubDate>Wed, 03 Jun 2026 21:19:55 GMT</pubDate>
+    </item>
     <item>
       <title>我建造了一座数字城市，任何人都可以向其中添加人工智能生成的图像</title>
       <link>https://www.reddit.com/r/software/comments/1tvzrx5/i_made_a_digital_city_where_anyone_can_add/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[由于 MOD 删除了之前的帖子，所以重新发帖   由   提交/u/palomicslab  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tvpmv9/feedback_on_a_package_for_hpc_job_orchestration/</guid>
       <pubDate>Wed, 03 Jun 2026 13:38:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费的 Windows WPF“SoundSync” – 使用每个设备的音量滑块将系统音频路由到多个耳机/扬声器</title>
-      <link>https://www.reddit.com/r/software/comments/1tvpfqo/free_windows_wpf_soundsync_route_system_audio_to/</link>
-      <description><![CDATA[SoundSync 是一款小型开源 Windows 应用程序，可捕获 PC 上正在播放的任何内容，并将其同时传输到任意数量的输出设备（USB 耳机、蓝牙扬声器、HDMI 显示器等）。 🚀 为什么它很酷  低延迟和低延迟反馈保护：具有自动清除功能的主动式 150 毫秒环形缓冲区可将所有输出保持在约 10-30 毫秒内，并自动阻止音频循环回声。 独立音量滑块：每个选定的设备都有自己的实时滑块，因此您可以在不接触系统混音器的情况下平衡朋友的耳机和您的耳机。 零安装，单个文件：只需下载SoundSync‑Portable.exe（如果您已经拥有 .NET 8，则可以使用更小的依赖于框架的版本）并运行 - 无需安装程序，无需管理员权限。 动态设备检测：点击“刷新”，新插入的耳机或蓝牙扬声器会立即出现； UI 在路由时被锁定，以防止意外更改。  ⚙️ 工作原理 该应用程序在 .NET 8 上使用 NAudio 和 WPF 构建，使用 WASAPI 环回捕获来获取系统音频，然后将其输入到每个选定设备的 BufferedWaveProvider 中。 VolumeSampleProvider 位于每个流的前面，提供每个设备的滑块。 📥 下载和下载测试 便携式二进制文件（约 70 MB，独立，即插即用）： github.com/sugumar247/SoundSync/releases 查找 SoundSync-Portable.exe 依赖于框架的二进制文件（约 2 MB，需要 .NET 8 运行时）：在同一版本页面上提供 - 查找 SoundSync-Light.exe。 💬我在寻找什么 关于 UI/UX 的反馈：暗模式界面是否感觉流畅且响应灵敏？ 硬件兼容性：任何行为不当的边缘情况音频设备（例如 USB-DAC），以便我可以实现回退？ 功能请求：对未来功能的想法（例如内置均衡器、录音选项）？ 源代码：MIT 许可并在自述文件中完整记录：github.com/sugumar247/SoundSync。非常欢迎 Pull 请求！ 祝您聆听愉快！   由   提交/u/Concient-Put-1160   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvpfqo/free_windows_wpf_soundsync_route_system_audio_to/</guid>
-      <pubDate>Wed, 03 Jun 2026 13:30:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我释放了呜！ v1.0.1 - 一个开源 Windows 应用程序生成器，用于将网站/本地 HTML 转换为桌面应用程序</title>
-      <link>https://www.reddit.com/r/software/comments/1tvouto/i_released_woo_v101_an_open_source_windows_app/</link>
-      <description><![CDATA[大家好 我刚刚发布了 Woo！ v1.0.1，一个开源 Windows 应用程序，可使用 Electron 或 Tauri 将网站或本地 HTML 文件转换为桌面应用程序。 目标是更轻松地打包 Web 工具、本地 HTML 项目和小型应用程序，而无需每次手动设置完整的 Electron 或 Tauri 项目。  https://preview.redd.it/4q36tj4rh25h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=b9e37fafab6aa6ad804589c818149ef241fd4079 什么哇！作用：  将网站 URL 转换为桌面应用 将本地 HTML 文件转换为桌面应用 选择 Electron 或 Tauri 设置自定义应用图标/标题 自动获取网站标题和图标 更改用户代理 控制 cookies/缓存/窗口/导航行为 查看构建日志并构建历史记录 导出/导入应用程序设置 构建可共享的 EXE 应用程序  v1.0.1 是一次重大更新，并添加了：  自动更新支持 自定义脚本 导出设置 导入预制应用程序设置 对 Woo 的安装程序支持！ 修复检查更新  GitHub：https://github.com/TheYali1/Woo 我希望获得有关该软件的反馈。   由   提交/u/TheEZ45  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvouto/i_released_woo_v101_an_open_source_windows_app/</guid>
-      <pubDate>Wed, 03 Jun 2026 13:08:25 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,20 +4,13 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 03 Jun 2026 20:54:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 23:05:04 GMT</lastBuildDate>
     <item>
       <title>地址输入的反跳毫秒（mapbox）</title>
       <link>https://www.reddit.com/r/webdev/comments/1tw1mls/debounce_ms_for_an_address_input_mapbox/</link>
       <description><![CDATA[在我们的项目中，每次用户输入地址时，都会发出一个mapbox请求，去抖时间为400毫秒。这是您输入地址的输入之一，它会在下拉列表中建议地址。 我相信我们发出的请求比我们应该做的要多，对于这种情况，什么是最佳的去抖时间？ 500 毫秒？ 600 毫秒？   由   提交/u/leinad41  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tw1mls/debounce_ms_for_an_address_input_mapbox/</guid>
       <pubDate>Wed, 03 Jun 2026 20:27:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>到底是什么阻止了独立程序员为大型企业构建定制软件？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tw1mhp/what_actually_stops_independent_coders_from/</link>
-      <description><![CDATA[      到底是什么阻止了独立程序员为大型企业构建定制软件？ 人们通常认为障碍只是技术技能，但实际上，大公司很少通过与代码相关的问题来阻止独立开发人员。真正的障碍是结构性的和官僚主义的。 据我所知，它通常分为几个层次：  采购和采购供应商批准您不只是向大公司“销售软件”。您需要完成 RFP、供应商入职、安全调查问卷、财务审查，有时还需要强制列入批准的供应商名单。 法律和法律责任要求 即使您的软件很好，企业也希望获得诸如赔偿条款、E&amp;O 保险以及严格的 IP + 数据处理协议之类的东西。单独的开发人员通常无法满足这些要求。 合规性关卡 根据行业的不同，您可能需要 SOC 2、HIPAA、PCI-DSS、FedRAMP 等。如果没有认证，无论产品质量如何，您通常都会被自动取消资格。 安全审查流程 内部 InfoSec 团队需要审核、渗透测试、安全 SDLC 实践和持续监控。这是小型运营商的主要瓶颈。 架构限制企业只允许经过批准的技术堆栈、集成模式和部署方法。如果您的解决方案不适合他们的生态系统，就不会被采用。 组织惯性有时，最大的障碍不是技术或法律，而是内部政治。现有的供应商、预算孤岛和风险规避会减慢一切。 规模期望他们期望 24/7 支持、SLA、路线图承诺和长期稳定性。单独的开发人员通常被视为单点故障。  TL;DR：这很少与编码能力有关。真正的障碍是采购、合规性、安全治理和企业风险管理系统，这些系统有利于成熟的供应商而不是独立开发人员。   由   提交/u/Unfair_Today_511   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tw1mhp/what_actually_stops_independent_coders_from/</guid>
-      <pubDate>Wed, 03 Jun 2026 20:27:04 GMT</pubDate>
     </item>
     <item>
       <title>这个滑动菜单设置有什么问题吗？</title>
@@ -109,6 +102,13 @@
       <description><![CDATA[安全吗？ 我什么都不知道..帮帮我   由   提交 /u/Free-Ant-463   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tvadi6/storing_user_accounts_in_supabase/</guid>
       <pubDate>Wed, 03 Jun 2026 01:15:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>最好的数据库提供商？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tv6czt/best_database_provider/</link>
+      <description><![CDATA[我正在尝试选择一个堆栈来用于我所有的自由 Web 开发工作。 我计划构建可扩展的电子商务网站。 我目前正在使用 Node、React 和 Docker/Cloudify 在 VPS 上进行部署。 数据库的最佳选择是什么？ 我目前正在使用 Supabase，但我听说它们有时会停用如果您未登录，那么我想探索其他选项吗？   由   提交 /u/wobowizard   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tv6czt/best_database_provider/</guid>
+      <pubDate>Tue, 02 Jun 2026 22:27:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
