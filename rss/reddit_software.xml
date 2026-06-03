@@ -4,7 +4,63 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 03 Jun 2026 16:28:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 20:52:50 GMT</lastBuildDate>
+    <item>
+      <title>我建造了一座数字城市，任何人都可以向其中添加人工智能生成的图像</title>
+      <link>https://www.reddit.com/r/software/comments/1tvzrx5/i_made_a_digital_city_where_anyone_can_add/</link>
+      <description><![CDATA[我的朋友创建了这个名为“世界纪录之城”的网站。它基本上是一个数字城市，人们可以通过添加人工智能生成的图像来构建它。 你可以添加建筑物、标志、人物、商店、模因、地标或基本上任何你想要的东西，它就会成为城市的一部分。 我们试图看看，如果随机的在线人帮助构建它，这座城市会变得多么奇怪、有趣和富有创意。 目标是 50,000。对于那些好奇的人来说，该网站的字面名称是 Worldrecordcity.com    由   提交 /u/Hot_Watercress7573   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tvzrx5/i_made_a_digital_city_where_anyone_can_add/</guid>
+      <pubDate>Wed, 03 Jun 2026 19:22:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Phasedb：可恢复数据库迁移</title>
+      <link>https://www.reddit.com/r/software/comments/1tvw1kw/phasedb_resumable_database_migrations/</link>
+      <description><![CDATA[在之前的工作中，一个 10M 行的迁移在 Flyway 中运行了 6 个小时，然后就死掉了。 没有恢复能力。我们必须从头开始。 这就是 phasedb 的动机 - 一个 CLI 工具，它在批量阶段中运行架构更改，而不是单个阻塞 ALTER TABLE。 每个批次：  独立提交 检查点进度 如果进程终止，可以从上一个检查点恢复  基准（1M 行，MySQL 8.0）   指标 原始 ALTER TABLE phasedb v2    持续时间 36.19s 34.90s   桌面锁 36.19s 0s   可用性失败 0/63检查 0/62 检查   v2 中发生了什么变化？ 诚实的说明：v1 有一个 O(n²) 错误。 使用的回填阶段： WHERE checksum IS NULL LIMIT 500  没有索引，导致每个批次都进行全表扫描。在大约 2000 个批次中，性能显着下降。 v2 通过使用主键游标解决了这个问题，消除了重复扫描。 两个基准测试结果都包含在自述文件中以提高透明度。 当前状态  ✅ MySQL 支持已完成 🚧 PostgreSQL 支持正在进行中  GitHub https://github.com/ddevilz/phasedb 需要反馈 我特别感谢有关阶段选通 API 的反馈。 目前，在进入下一阶段之前，可以根据 SQL 条件对阶段转换进行选通。这个概念可行，但我还不相信这个界面是正确的。 如果您构建了迁移工具、操作过大型数据库，或者对可恢复架构更改有想法，我很想听听您的反馈。   由   提交 /u/ddevilzz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tvw1kw/phasedb_resumable_database_migrations/</guid>
+      <pubDate>Wed, 03 Jun 2026 17:17:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>“只需启动它”就不再适用于单独的开发工具了吗？</title>
+      <link>https://www.reddit.com/r/software/comments/1tvvxju/has_just_launch_it_stopped_working_for_solo_dev/</link>
+      <description><![CDATA[标准建议仍然是，良好的发布 Show HN、Product Hunt、Reddit 帖子 — 足以让开发工具起步。但现在每次发布似乎都淹没在同一天的大量其他发布中，开发人员对被营销变得非常过敏。 对于最近实际发布开发工具的人来说：发布是否仍然具有推动作用，还是已经成为噪音？如果现在是噪音，那么是什么取代了它？   由   提交 /u/ddevilzz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tvvxju/has_just_launch_it_stopped_working_for_solo_dev/</guid>
+      <pubDate>Wed, 03 Jun 2026 17:13:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>更换 MAC 上的油漆</title>
+      <link>https://www.reddit.com/r/software/comments/1tvvk2i/replacement_for_paint_on_mac/</link>
+      <description><![CDATA[我经常使用 Paint 在 Windows 上快速调整图像大小。我正在寻找 Mac 上的类似东西。你能告诉我最好的选择是什么吗？   由   提交 /u/OneDev42   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tvvk2i/replacement_for_paint_on_mac/</guid>
+      <pubDate>Wed, 03 Jun 2026 17:01:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找一个像样的统一电子邮件客户端</title>
+      <link>https://www.reddit.com/r/software/comments/1tvviz6/searching_for_a_decent_unified_email_client/</link>
+      <description><![CDATA[正如标题所暗示的，我想找到一个统一的收件箱电子邮件客户端，它： • 在 Windows 和 Android 上都存在（是的，我知道只有 Android 的天赋，但是...我不能添加两个天赋。但是，我的首要任务是 android atm） • 有一个很好的 UI...像 FairEmail UI 这样的东西太糟糕了。 • 立即在我的应用程序中显示完整的电子邮件地址帐户列表...而不是只显示电子邮件的开头，然后我必须单击以查看我所在的帐户...基本的 UX 和 UI 原则。文件夹和子文件夹的名称也是如此。 • 允许我向我添加的每个电子邮件帐户添加个人资料图片（但如果不这样做，也没什么大不了的...我会活下去） • 允许我创建文件夹和子文件夹...我的意思是，如果我每次想创建文件夹或子文件夹时仍然必须登录到原始客户端，请向我解释一下使用应用程序将所有电子邮件放在一个位置的意义。 • 没有诸如“日历”、“联系人”等或类似的功能（或者至少让你禁用它们...我只想要我的电子邮件，看在上帝的份上） • 可与 Libero 和 Gmail 配合使用（使用 OAuth，而不是那些垃圾的“应用程序密码”，无需询问即可自动打开双因素身份验证...对吧，Edison Mail？）...显然与所有主要提供商都兼容，但我拥有的电子邮件只有 Gmail 和 Libero，所以我关心这些...尽管我怀疑有些程序与所有这些程序均不兼容它们（不包括 Libero，我发现了无法识别它的应用程序......还有 ProtonMail，这是一个完全不同的故事） •没有人工智能/可以禁用人工智能......无用的垃圾​我发现的唯一像样的是 BlueMail （嗯，它隐藏了电子邮件/文件夹的全名，但我可以忍受）但是......我无法创建子文件夹。我的意思是，它允许您创建文件夹，但不能创建子文件夹。但是，如果我在 Libero Mail/Gmail 上创建它们，那么它会向我显示它们（因为 PC 版本可以做到，但 Android 版本由于某些原因不能做到）。 ​PLS：不要提及 FairEmail、Aqua Mail、Thunderbird、K-9、Spark Mail、Outlook 和公司：如果我在这里写下这些内容，那是因为我已经完成了研究，因此我已经尝试了所有最著名的。我讨厌他们。或者它们有缺陷（比如 eM Client 允许我从侧边栏删除本地文件夹，但如果我更改屏幕，它们会重新出现......并且图形非常无聊）。 我不明白人们如何在没有这些基本东西的情况下创建应用程序，我的上帝。 ​PS：对于那些不理解的人，在 Libero（我认为 Gmail 也是如此）上，我可以创建文件夹来放置我想要的电子邮件。这些文件夹中可以包含其他文件夹。这就是我所说的“我可以创建文件夹，但不能创建子文件夹”。多余的解释？我希望如此，但你永远不会知道。谢谢 PPS：我知道从帖子的语气中我可能听起来很生气......那是因为我就是。如果我看起来很粗鲁，请原谅，我只是感到沮丧（澄清一下，不仅仅是因为这封电子邮件的事情）。    由   提交 /u/NintendoDark02   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tvviz6/searching_for_a_decent_unified_email_client/</guid>
+      <pubDate>Wed, 03 Jun 2026 17:00:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找免费的在线数据库</title>
+      <link>https://www.reddit.com/r/software/comments/1tvvgux/looking_for_free_online_database/</link>
+      <description><![CDATA[我丈夫经营一家丝网印刷公司。他负责印刷，我负责刺绣，所以我们的“世界”只在订单方面相互联系。我努力让我的线和其他刺绣需求井井有条，这样我就知道我有什么。他更……自由一点。  我们希望让我们的印刷学徒自己处理更多的事情，但他还年轻，大约一年来每周只工作一天，所以印刷店的混乱可能让人不知所措。  我正在寻找一个可以在多台计算机上托管和访问的简单数据库，我们可以在其中对客户设计、墨水颜色、现有服装数量以及其他类似内容进行分类。最重要的是墨水颜色，因为一些客户非常具体。我们一直在使用电子表格，但它们变得分散并且很少更新。而且我不知道学徒是否知道在哪里可以找到它们。  如果我们可以从同一个“开始”位置访问丝网印刷数据库和刺绣数据库，那就太好了，这样我丈夫就不会抱怨必须跟踪一百万个链接。  我有 SQL 的基本知识，并使用 Microsoft Access 来处理我自己的一些事情。但 Access 的价格却很糟糕。  我感谢所有建议！谢谢你！    由   提交 /u/KaiaAurion   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tvvgux/looking_for_free_online_database/</guid>
+      <pubDate>Wed, 03 Jun 2026 16:58:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一个开源 Windows 清理器，专注于安全性，而不是虚假的“PC 增强”声明</title>
+      <link>https://www.reddit.com/r/software/comments/1tvuvoc/i_built_an_opensource_windows_cleaner_focused_on/</link>
+      <description><![CDATA[我正在构建 CleanStart，一个开源 Windows 维护应用程序。 目标不是制作另一个“神奇优化器”或假 PC 助推器。我想要一个更透明、安全第一的清理器。 当前的 alpha 版本包括： - 真实预览扫描 - 空运行 - 仅通过回收站进行选定的清理 - 仅针对缓存文件夹的浏览器缓存清理 - 不永久删除 - 没有遥测 - 无需登录 - 没有云同步 - 锁定/受保护的文件将被跳过并报告 它是使用 Tauri、React、TypeScript、Tailwind 和 Rust 后端构建的。 重要：这仍然是 alpha 版本。启动分析器和磁盘分析器尚未完全连接，一些锁定的浏览器/缓存文件可能会保留到应用程序关闭为止。 我主要寻找有关安全性、用户体验以及清理行为对于普通用户是否足够清晰的反馈。 GitHub：https://github.com/vladislavovicvlad10-spec/CleanStart   由   提交 /u/vladislavo111   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tvuvoc/i_built_an_opensource_windows_cleaner_focused_on/</guid>
+      <pubDate>Wed, 03 Jun 2026 16:38:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>你能推荐一些像 screensy.marijn.it 这样的东西吗，但是对于视频会议（我不喜欢 Mirotalk 或 Jitsi，因为它们要求你输入昵称或房间名称）我找不到替代方案，请帮助我 😭</title>
+      <link>https://www.reddit.com/r/software/comments/1tvusl6/can_you_recommend_something_like_screensymarijnit/</link>
+      <description><![CDATA[ 由   提交 /u/Professional-Life377   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1tvusl6/can_you_recommend_something_like_screensymarijnit/</guid>
+      <pubDate>Wed, 03 Jun 2026 16:35:37 GMT</pubDate>
+    </item>
     <item>
       <title>CMU 关于规范驱动开发的研究 — 寻找开源开发人员进行采访（45-60 分钟，Zoom）</title>
       <link>https://www.reddit.com/r/software/comments/1tvu3a2/cmu_research_study_on_specdriven_development/</link>
@@ -18,13 +74,6 @@
       <description><![CDATA[输入 800 万行。输出 600,000 行。 5.7秒。在一台 16GB RAM 笔记本电脑上。 Duckle 连接了 4 个源，每个源有 200 万行 - 一个 ADBC (Arrow) 源、一个 CSV 文件、一个 MySQL 表和第二个 ADBC 源 - 通过一个可视化映射器：一个 3 路连接、9 个表达式和一个过滤器，直接连接到 Parquet。 无云。没有服务器。只需在笔记本电脑/台式机上使用 Duckle 即可。 这就是本地优先数据工程现在的样子。 🦆 存储库：https://github.com/SouravRoy-ETL/duckle   由   提交/u/FickleAnt4399  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tvtsqq/break_boundaries_with_duckle_a_oss_localfirst/</guid>
       <pubDate>Wed, 03 Jun 2026 16:02:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>工程软件？安全网站？</title>
-      <link>https://www.reddit.com/r/software/comments/1tvt0nj/engineering_software_safe_sites/</link>
-      <description><![CDATA[值得一问。我在 FileCR 上偶然发现了我需要的东西，但有些人警告说存在恶意软件。我检查了 ol 海盗 b，但那里根本没有面包屑。去哪里看？我现在也必须独自完成这件事。曾经有一个非常好的朋友，了解“艺术”，但我有一台新的 CAD 级别笔记本电脑，装有新的 Win11，但上面什么也没有。我想如果有必要的话我可以回滚或者重新加载Win？ VPN 通过手机只是为了加载，从未连接到家庭 wifi？基本上专门用于这些东西的硬件？教我吧。   由   提交/u/Able-Cucumber1417   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvt0nj/engineering_software_safe_sites/</guid>
-      <pubDate>Wed, 03 Jun 2026 15:36:08 GMT</pubDate>
     </item>
     <item>
       <title>Deja：搜索您在 PC 上看到的所有内容，100% 本地、免费且开源。</title>
@@ -60,55 +109,6 @@
       <description><![CDATA[大家好 我刚刚发布了 Woo！ v1.0.1，一个开源 Windows 应用程序，可使用 Electron 或 Tauri 将网站或本地 HTML 文件转换为桌面应用程序。 目标是更轻松地打包 Web 工具、本地 HTML 项目和小型应用程序，而无需每次手动设置完整的 Electron 或 Tauri 项目。  https://preview.redd.it/4q36tj4rh25h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=b9e37fafab6aa6ad804589c818149ef241fd4079 什么哇！作用：  将网站 URL 转换为桌面应用 将本地 HTML 文件转换为桌面应用 选择 Electron 或 Tauri 设置自定义应用图标/标题 自动获取网站标题和图标 更改用户代理 控制 cookies/缓存/窗口/导航行为 查看构建日志并构建历史记录 导出/导入应用程序设置 构建可共享的 EXE 应用程序  v1.0.1 是一次重大更新，并添加了：  自动更新支持 自定义脚本 导出设置 导入预制应用程序设置 对 Woo 的安装程序支持！ 修复检查更新  GitHub：https://github.com/TheYali1/Woo 我希望获得有关该软件的反馈。   由   提交/u/TheEZ45  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tvouto/i_released_woo_v101_an_open_source_windows_app/</guid>
       <pubDate>Wed, 03 Jun 2026 13:08:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>解决我的出行问题</title>
-      <link>https://www.reddit.com/r/software/comments/1tvo0sh/solving_my_travel_problem/</link>
-      <description><![CDATA[我的工作需要经常出差，我的大部分时间都花在酒店房间里，通过观看屏幕注意到，我认为我自己露西也有这样的工作。每个城市我都很难找出那段时间那里发生了什么，去什么地方，去哪家餐厅，我一直在寻找一些应用程序来帮助我在那个利基市场找不到任何东西。因此，我根据自己的需要开发了一个，以防有人遇到同样的问题。 EventAI 如果有帮助，您可以免费尝试一下。   由   提交 /u/Spiritual-Sherbet607   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvo0sh/solving_my_travel_problem/</guid>
-      <pubDate>Wed, 03 Jun 2026 12:35:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>重复文件（图像）查找器</title>
-      <link>https://www.reddit.com/r/software/comments/1tvnjm2/duplicate_file_image_finder/</link>
-      <description><![CDATA[我在这里看到一篇文章，推荐了一些不同的软件包来检测和删除 Windows 系统中的重复图像。 它已关闭，所以我无法发表评论 - 但旧版本的 AntiDupl.NET (v2.3.12) 工作得很好。 最新的 v2.3.13 确实可以 对我来说根本不起作用。 它适用于网络驱动器，而且对我来说效果非常好。 OneDrive 和 GoogleDrive 文件夹也没有问题。 只需添加信息，以便当 google 默认情况下重定向到 reddit 时，这可能会对某人有所帮助..   由   提交 /u/DangerouslyOxidated   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvnjm2/duplicate_file_image_finder/</guid>
-      <pubDate>Wed, 03 Jun 2026 12:15:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Swift PDF Windows 11 Fluent/mica 风格的 pdf 阅读器</title>
-      <link>https://www.reddit.com/r/software/comments/1tvniv2/swift_pdf_windows_11_fluentmica_style_pdf_reader/</link>
-      <description><![CDATA[大约一个月前，我在这里分享了 Swift PDF，我非常感谢所有的反馈和建议。 此版本主要关注新功能和整体改进。 新增内容： • 当 PDF 包含书签时自动打开书签侧边栏 • 窗口大小和状态持久性 • 修复了新选项卡按钮的行为HMI • 添加了遵循 Windows 系统主题的 AUTO 主题选项 • 更快的 PDF 加载 • 全屏 • 完全重写了 PDF 编辑页面（合并、分割、旋转、拼合注释和加密） • 仪表板上的新表格视图，取代了以前的列表视图 • 增加了本地化支持 • 改进了 UI 对齐和各种小修复 • 更好的整体稳定性 我很想听听您对此版本的想法以及下一步可以改进的地方。 下载： Microsoft store   由   提交/u/DefiantMarionberry72   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvniv2/swift_pdf_windows_11_fluentmica_style_pdf_reader/</guid>
-      <pubDate>Wed, 03 Jun 2026 12:14:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>不受欢迎的观点：Ventoy 比任何可启动 USB 解决方案都要好得多。</title>
-      <link>https://www.reddit.com/r/software/comments/1tvnh40/unpopular_opinion_ventoy_is_far_better_than_any/</link>
-      <description><![CDATA[ 由   提交 /u/RevolutionaryPen4661   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvnh40/unpopular_opinion_ventoy_is_far_better_than_any/</guid>
-      <pubDate>Wed, 03 Jun 2026 12:12:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个 iPhone 应用程序，可以创建长曝光照片、删除移动物体并显示运动模式——所有这些都直接在设备上进行。</title>
-      <link>https://www.reddit.com/r/software/comments/1tvngry/i_built_an_iphone_app_that_can_create_long/</link>
-      <description><![CDATA[LSC 长焦相机📸 iOS App Store 上架   由   提交 /u/tknzn   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvngry/i_built_an_iphone_app_that_can_create_long/</guid>
-      <pubDate>Wed, 03 Jun 2026 12:11:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用声学传感器检测无人机</title>
-      <link>https://www.reddit.com/r/software/comments/1tvme2s/drone_detection_using_acoustic_sensors/</link>
-      <description><![CDATA[使用声学传感器检测无人机 使用声学传感器检测无人机。军用级无人机检测软件使用 javascript/tensorflow 来检测民用和军用的各种类型的无人机。该应用程序可以在以下网址进行测试： https://armaaruss.github.io   由   提交 /u/thedowcast   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvme2s/drone_detection_using_acoustic_sensors/</guid>
-      <pubDate>Wed, 03 Jun 2026 11:23:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>【周三自我推销】我搭建了一个开源的结构方程建模平台——刚刚发布了 v0.6.1</title>
-      <link>https://www.reddit.com/r/software/comments/1tvm8t0/selfpromotion_wednesday_i_built_an_opensource/</link>
-      <description><![CDATA[我构建了 NAVAL-SEM，这是一个面向研究人员、博士生和教师的开源结构方程建模平台。 v0.6.1 今天发布，修复了可视化模型生成器和语法编辑器之间的几个同步问题，提高了解析器可靠性，并清理了图表生成。 最近添加的内容包括： 高阶构造 (HOC) MICOM 多组分析 (MGA) PLS-SEM、CB-SEM 和 WLS 工作流程 Bootstrap 显着性测试 HTMT、AVE、复合可靠性和 Fornell-Larcker 我发现的一个挑战是 SEM 工具出奇地分散。研究人员经常在多种建模、估计和报告工具之间切换。我的目标是将这些工作流程整合到一个平台中。 GitHub：⁠https://github.com/navalsingh9/naval-sem 很高兴回答有关实现、架构或 SEM 方法的问题。   由   提交 /u/Unusual-Radio8382   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1tvm8t0/selfpromotion_wednesday_i_built_an_opensource/</guid>
-      <pubDate>Wed, 03 Jun 2026 11:16:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
