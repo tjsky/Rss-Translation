@@ -4,20 +4,13 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 04 Jun 2026 14:49:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 17:43:13 GMT</lastBuildDate>
     <item>
-      <title>Jo — 一种静态类型语言，具有细粒度、编译器强制功能（首次公开发布）</title>
-      <link>https://www.reddit.com/r/programming/comments/1twpkg1/jo_a_statically_typed_language_with_finegrained/</link>
-      <description><![CDATA[我们刚刚开源了 Jo，这是一种围绕一个想法构建的语言：功能边界应该与您的应用程序实际需要的一样精确。 不是“此代码可以访问数据库”。具体来说：“此代码只能查询当前用户的行。”不是“此代码可以写入文件”。具体来说：“该代码可以写入这个目录。”编译器强制执行边界——通过整个调用图传递——因此没有办法通过助手或库来偷偷访问。 大多数功能系统都很粗糙：您授予文件系统访问权限，也可以不授予。 Jo 的功能是普通类型参数。您可以传递只读接口而不是完整接口，可以传递用户范围的数据库视图而不是原始连接，可以传递沙盒工作区而不是开放文件系统。粒度与您定义的接口一样精细。 这对于人工智能生成的代码尤其重要。我们构建了一个两个世界的架构，其中受限代码（LLM 编写的内容）针对没有 FFI 访问权限的受限接口库进行类型检查。可信代码提供功能并设置确切的边界。 allow none 是一个编译时证明，表明 AI 代码除了所声明的内容之外没有任何使用——无论接口编写的精度级别如何。 Jo 现在可以编译为 Ruby 和 Python。 v0.10.0，准备进行实验，API 仍在不断发展。在 Scala 中实现，获得 Apache 2.0 许可。 包含有关该版本的更多详细信息的博客文章：https://jo-lang.org/blog/2026-06-04-introducing-jo.html GitHub：https://github.com/typescope/jo 很高兴回答有关设计、类型系统或任何相关主题的问题。   由   提交 /u/liufengyun   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1twpkg1/jo_a_statically_typed_language_with_finegrained/</guid>
-      <pubDate>Thu, 04 Jun 2026 14:37:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>价值 40 亿美元的帝国打破了开源。他们威胁了一名开发商。结果适得其反。</title>
-      <link>https://www.reddit.com/r/programming/comments/1twpjqh/a_4_billion_empire_broke_open_source_they/</link>
-      <description><![CDATA[ 由   提交 /u/CackleRooster   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1twpjqh/a_4_billion_empire_broke_open_source_they/</guid>
-      <pubDate>Thu, 04 Jun 2026 14:37:00 GMT</pubDate>
+      <title>Jo的两个世界架构解决编译时的细粒度沙箱问题</title>
+      <link>https://www.reddit.com/r/programming/comments/1twuda3/jos_twoworld_architecture_to_solve_the/</link>
+      <description><![CDATA[Jo 是一种安全编程语言，旨在解决编译时的细粒度沙箱问题。 为了使安全编程变得实用，它最终会产生一个两个世界架构： - 受限世界：不可信，没有 FFI 传递，有纪律，标准库不可信 - 可信世界：可信、FFI、类型转换、语言运行时可信 双重世界架构使得在语言内部建立安全墙成为可能：这使得可以轻松地将不受信任的程序限制为任意细粒度的权限，例如，仅访问数据库表的某些行或列。 语言级限制消除了对运行时沙箱的需要，因为编译时限制更加细粒度。它还使安全审核变得更加容易。对于资源配额，它仍然需要与ulimit/cgroups结合起来。 我们认为，两个世界的设计同时满足了安全编程中对安全性和可用性的需求。欢迎对解决相同问题的设计或替代方案提出意见。 链接：https://jo-lang.org/security/two-worlds.html   由   提交 /u/liufengyun   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twuda3/jos_twoworld_architecture_to_solve_the/</guid>
+      <pubDate>Thu, 04 Jun 2026 17:25:38 GMT</pubDate>
     </item>
     <item>
       <title>基本类型系统术语</title>
@@ -109,6 +102,13 @@
       <description><![CDATA[ 由   提交/u/joladev  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tvsz1n/generating_og_images_in_elixir/</guid>
       <pubDate>Wed, 03 Jun 2026 15:34:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>每个字节都很重要</title>
+      <link>https://www.reddit.com/r/programming/comments/1tvrvv4/every_byte_matters/</link>
+      <description><![CDATA[ 由   提交 /u/lelanthran   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tvrvv4/every_byte_matters/</guid>
+      <pubDate>Wed, 03 Jun 2026 14:57:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
