@@ -4,7 +4,28 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 04 Jun 2026 03:33:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 09:50:07 GMT</lastBuildDate>
+    <item>
+      <title>您如何确定一个副项目“足够好”可以交付而不是永远抛光？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1twi5hw/how_do_you_decide_a_side_project_is_good_enough/</link>
+      <description><![CDATA[此处单独开发。我最大的瓶颈不是构建，而是决定何时完成某件事。我不断改进，超越了回报递减的点，并将发货延迟了数周，而用户不会注意到这些事情。 对于那些定期发货的人： - 您实际的“发货”是什么？阈值？ - 您是否使用硬性规则（截止日期、清单、无法更改的发布日期），还是感觉的东西？ - 提前发货是否会伤害您？ 尝试围绕此建立更理智的习惯。如何划清界限？   由   提交 /u/IcyButterscotch8351   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1twi5hw/how_do_you_decide_a_side_project_is_good_enough/</guid>
+      <pubDate>Thu, 04 Jun 2026 09:06:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在 Vue SFC 文件内的 pug 代码中添加 eslint-disable 注释？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1twhgua/how_to_add_eslintdisable_comments_in_pug_code/</link>
+      <description><![CDATA[嗨！我在使用 Vue SFC pug 模板内定义的 HTML 元素的 eslint 禁用注释时遇到了一些问题，eslint 无法识别它们并不断抛出警告。 到目前为止我尝试过的： pug 模板内的注释， // 和 //- &lt;template lang=&quot;pug&quot;&gt; // eslint-disable-next-line vuejs-accessibility/no-static-element-interactions -- 标准视频播放器点击播放暂停行为 video(@click=&quot;togglePause&quot; ...)   //- eslint-disable-next-line vuejs-accessibility/no-static-element-interactions -- 标准视频播放器点击播放暂停行为 video(@click=“togglePause”...) &lt;/template&gt; 我的下一个选项不是最佳的，但我已经没有想法了： 脚本设置标记内的注释（它放置在文件中的模板之前）：  在文件最顶部、任何其他代码之前的注释  ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1twhgua/how_to_add_eslintdisable_comments_in_pug_code/</guid>
+      <pubDate>Thu, 04 Jun 2026 08:26:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究了动态消息在 Instagram 和其他社交媒体平台中的运作方式。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1twgou1/studied_how_the_news_feed_works_in_instagram_and/</link>
+      <description><![CDATA[我学到的一个重要概念是扇出，这基本上就是帖子分发到用户提要的方式。   Fanout Push  当用户创建帖子时，系统会立即将该帖子推送到所有关注者的 Feed 缓存中。 这非常快，因为当用户打开应用程序时 Feed 就已经准备好了。  Fanout Pull  系统不是预先计算 Feed，而是在用户打开应用程序时通过从帐户获取帖子来生成 Feed  它可以节省存储空间，并避免为拥有大量关注者的帐户带来不必要的工作。 现在真正的系统用户采用混合方法 对于拥有数百名关注者的普通用户来说，Fanout Push 效果很好，因为成本可控且 feed 加载速度很快。 对于像 Virat Kohli 这样拥有 2.5 亿以上关注者的名人，将每个帖子推送到每个关注者的 feed 缓存将非常昂贵。许多关注者甚至可能不会打开该应用程序，因此大量的存储和计算将被浪费。这就是为什么大型系统经常对此类帐户使用 Fanout Pull（或混合方法）。 但是 Feed 如何知道获取名人帖子？ 我的一个问题是： 如果我普通朋友的帖子已经通过 Fanout Push 存在于我的 Feed 缓存中，系统如何知道它也应该从名人帐户获取帖子？ 一种可能的方法是社交图谱存储有关帐户的元数据。名人或高关注者帐户可以有不同的标记。当用户打开应用程序时，Feed 服务：  加载通过 Fanout Push 生成的 Feed。 检查用户在社交图谱中关注的帐户。 识别使用 Fanout Pull 的名人帐户。 分别获取他们的最新帖子。 合并两个结果，然后在返回最终 Feed 之前应用推荐算法。  简化流程 用户创建帖子 帖子服务 存储在数据库中 扇出服务 检查社交图谱和社交图谱用户首选项（阻止的用户、静音的用户、亲密的朋友等） 创建扇出任务 消息队列 扇出工作线程（推或拉策略） 我仍在学习系统设计，所以如果我误解了任何内容或错过了与 feed 生成相关的重要概念，请在评论中告诉我。   由   提交 /u/No-Resolution-4054   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1twgou1/studied_how_the_news_feed_works_in_instagram_and/</guid>
+      <pubDate>Thu, 04 Jun 2026 07:41:35 GMT</pubDate>
+    </item>
     <item>
       <title>地址输入的反跳毫秒（mapbox）</title>
       <link>https://www.reddit.com/r/webdev/comments/1tw1mls/debounce_ms_for_an_address_input_mapbox/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[诚实的问题：除了以交互方式运行 AI 代理之外，在您工作时，您还会让它们在下班后运行，以便工作继续进行吗？  我只是想弄清楚有多少软件开发已经转向这个方向。在我的工作场所，我们只在工作时使用它们，并始终检查输出。但我感觉许多人通过让代理持续工作而走得更远。 请分享您的经验！   由   提交/u/kagelos  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tvguei/do_you_use_long_running_ai_agents_for_development/</guid>
       <pubDate>Wed, 03 Jun 2026 06:20:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>如今，全栈 Web 开发对于人工智能意味着什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tvfsmq/what_does_fullstack_web_development_even_mean/</link>
-      <description><![CDATA[那么，如今全栈 Web 开发对于 AI 意味着什么？我的意思是，如果我说我是一名全栈 Web 开发人员，我可能应该处理前端、后端、数据库、部署和所有这些爵士乐。但现在，随着人工智能的发展如此之快，对于想要称自己为全栈 Web 开发人员的人来说，必须具备哪些技能？我们是否还应该考虑产品工程，比如为我们的项目选择什么架构？我们是否应该开始考虑运输、业务方面以及与分销合作？大家觉得这个全栈开发流程应该从哪里开始、从哪里结束呢？   由   提交 /u/zonayedahmed   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tvfsmq/what_does_fullstack_web_development_even_mean/</guid>
-      <pubDate>Wed, 03 Jun 2026 05:25:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Supabase 中存储用户帐户？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tvadi6/storing_user_accounts_in_supabase/</link>
-      <description><![CDATA[安全吗？ 我什么都不知道..帮帮我   由   提交 /u/Free-Ant-463   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tvadi6/storing_user_accounts_in_supabase/</guid>
-      <pubDate>Wed, 03 Jun 2026 01:15:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>最好的数据库提供商？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tv6czt/best_database_provider/</link>
-      <description><![CDATA[我正在尝试选择一个堆栈来用于我所有的自由 Web 开发工作。 我计划构建可扩展的电子商务网站。 我目前正在使用 Node、React 和 Docker/Cloudify 在 VPS 上进行部署。 数据库的最佳选择是什么？ 我目前正在使用 Supabase，但我听说它们有时会停用如果您未登录，那么我想探索其他选项吗？   由   提交 /u/wobowizard   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tv6czt/best_database_provider/</guid>
-      <pubDate>Tue, 02 Jun 2026 22:27:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
