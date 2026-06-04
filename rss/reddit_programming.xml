@@ -4,7 +4,63 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 04 Jun 2026 09:49:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 14:49:00 GMT</lastBuildDate>
+    <item>
+      <title>Jo — 一种静态类型语言，具有细粒度、编译器强制功能（首次公开发布）</title>
+      <link>https://www.reddit.com/r/programming/comments/1twpkg1/jo_a_statically_typed_language_with_finegrained/</link>
+      <description><![CDATA[我们刚刚开源了 Jo，这是一种围绕一个想法构建的语言：功能边界应该与您的应用程序实际需要的一样精确。 不是“此代码可以访问数据库”。具体来说：“此代码只能查询当前用户的行。”不是“此代码可以写入文件”。具体来说：“该代码可以写入这个目录。”编译器强制执行边界——通过整个调用图传递——因此没有办法通过助手或库来偷偷访问。 大多数功能系统都很粗糙：您授予文件系统访问权限，也可以不授予。 Jo 的功能是普通类型参数。您可以传递只读接口而不是完整接口，可以传递用户范围的数据库视图而不是原始连接，可以传递沙盒工作区而不是开放文件系统。粒度与您定义的接口一样精细。 这对于人工智能生成的代码尤其重要。我们构建了一个两个世界的架构，其中受限代码（LLM 编写的内容）针对没有 FFI 访问权限的受限接口库进行类型检查。可信代码提供功能并设置确切的边界。 allow none 是一个编译时证明，表明 AI 代码除了所声明的内容之外没有任何使用——无论接口编写的精度级别如何。 Jo 现在可以编译为 Ruby 和 Python。 v0.10.0，准备进行实验，API 仍在不断发展。在 Scala 中实现，获得 Apache 2.0 许可。 包含有关该版本的更多详细信息的博客文章：https://jo-lang.org/blog/2026-06-04-introducing-jo.html GitHub：https://github.com/typescope/jo 很高兴回答有关设计、类型系统或任何相关主题的问题。   由   提交 /u/liufengyun   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twpkg1/jo_a_statically_typed_language_with_finegrained/</guid>
+      <pubDate>Thu, 04 Jun 2026 14:37:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>价值 40 亿美元的帝国打破了开源。他们威胁了一名开发商。结果适得其反。</title>
+      <link>https://www.reddit.com/r/programming/comments/1twpjqh/a_4_billion_empire_broke_open_source_they/</link>
+      <description><![CDATA[ 由   提交 /u/CackleRooster   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twpjqh/a_4_billion_empire_broke_open_source_they/</guid>
+      <pubDate>Thu, 04 Jun 2026 14:37:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>基本类型系统术语</title>
+      <link>https://www.reddit.com/r/programming/comments/1twoqch/basic_type_system_terminology/</link>
+      <description><![CDATA[ 由   提交/u/legoman25  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twoqch/basic_type_system_terminology/</guid>
+      <pubDate>Thu, 04 Jun 2026 14:07:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>借鉴生物学家的经验来更快地编译 Haskell</title>
+      <link>https://www.reddit.com/r/programming/comments/1twnahx/stealing_from_biologists_to_compile_haskell_faster/</link>
+      <description><![CDATA[ 由   提交 /u/mooreds   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twnahx/stealing_from_biologists_to_compile_haskell_faster/</guid>
+      <pubDate>Thu, 04 Jun 2026 13:12:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>单一责任，扭曲的原则</title>
+      <link>https://www.reddit.com/r/programming/comments/1twlx1p/single_responsibility_the_distorted_principle/</link>
+      <description><![CDATA[您是否曾与同事讨论过单一职责原则？看一下这篇文章，我在其中探讨了为什么这个原则可能是一个问题。 你觉得怎么样？   由   提交 /u/Illustrious-Topic-50   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twlx1p/single_responsibility_the_distorted_principle/</guid>
+      <pubDate>Thu, 04 Jun 2026 12:16:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scala 是一个改变编程的实验 - Martin Odersky | Scala马可秀</title>
+      <link>https://www.reddit.com/r/programming/comments/1twl8ip/scala_was_an_experiment_that_changed_programming/</link>
+      <description><![CDATA[ 由   提交 /u/makingthematrix   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twl8ip/scala_was_an_experiment_that_changed_programming/</guid>
+      <pubDate>Thu, 04 Jun 2026 11:46:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>带有自定义模板引擎的小型静态站点生成器</title>
+      <link>https://www.reddit.com/r/programming/comments/1twkr3z/tiny_static_site_generator_with_custom_template/</link>
+      <description><![CDATA[我想了解模板引擎和 Markdown 解析器的内部工作原理。  该项目探索：  使用 exec() 将模板编译为 Python 函数 块 + 内联 Markdown 解析 简单 AST 构造 基于堆栈的内联解析以实现嵌套格式 将 AST 渲染为 HTML    由   提交/u/mukulx99  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twkr3z/tiny_static_site_generator_with_custom_template/</guid>
+      <pubDate>Thu, 04 Jun 2026 11:23:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kafka 和 Flink 管道中的模式扩散问题：如何解决</title>
+      <link>https://www.reddit.com/r/programming/comments/1twizqa/the_schema_proliferation_problem_in_kafka_and/</link>
+      <description><![CDATA[ 由   提交 /u/nilukush   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1twizqa/the_schema_proliferation_problem_in_kafka_and/</guid>
+      <pubDate>Thu, 04 Jun 2026 09:53:42 GMT</pubDate>
+    </item>
     <item>
       <title>即使你不从事数据科学，Pandas 也是学习 Python 的一个理由</title>
       <link>https://www.reddit.com/r/programming/comments/1twhl2t/pandas_as_a_reason_to_learn_python_even_if_youre/</link>
@@ -53,62 +109,6 @@
       <description><![CDATA[ 由   提交/u/joladev  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tvsz1n/generating_og_images_in_elixir/</guid>
       <pubDate>Wed, 03 Jun 2026 15:34:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>每个字节都很重要</title>
-      <link>https://www.reddit.com/r/programming/comments/1tvrvv4/every_byte_matters/</link>
-      <description><![CDATA[ 由   提交 /u/lelanthran   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tvrvv4/every_byte_matters/</guid>
-      <pubDate>Wed, 03 Jun 2026 14:57:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>[Sebastian Lague] - 我尝试优化我的魔方解算器</title>
-      <link>https://www.reddit.com/r/programming/comments/1tvrg4k/sebastian_lague_i_tried_optimizing_my_rubiks_cube/</link>
-      <description><![CDATA[ 由   提交 /u/Pink401k   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tvrg4k/sebastian_lague_i_tried_optimizing_my_rubiks_cube/</guid>
-      <pubDate>Wed, 03 Jun 2026 14:42:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Java 中解析 10 亿行的速度有多快？ – 疯狂速度测试 • Roy van Rijn</title>
-      <link>https://www.reddit.com/r/programming/comments/1tvo6ij/how_fast_can_you_parse_1_billion_rows_in_java/</link>
-      <description><![CDATA[和我一起深入探讨，我将解释所有代码更改和技巧，这些更改和技巧使我从在 4 分钟以上处理十亿条记录的参考实现，到在 2 秒内处理所有内容。 谁知道 Java 可以这么快？   由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tvo6ij/how_fast_can_you_parse_1_billion_rows_in_java/</guid>
-      <pubDate>Wed, 03 Jun 2026 12:42:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>ClickHouse 中的 NULL 会损害性能</title>
-      <link>https://www.reddit.com/r/programming/comments/1tvnhbz/nulls_in_clickhouse_can_hurt_performance/</link>
-      <description><![CDATA[ 由   提交/u/f311a  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tvnhbz/nulls_in_clickhouse_can_hurt_performance/</guid>
-      <pubDate>Wed, 03 Jun 2026 12:12:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>光锥一致性：我各取一勺</title>
-      <link>https://www.reddit.com/r/programming/comments/1tvncnr/light_cone_consistency_ill_take_one_scoop_of_each/</link>
-      <description><![CDATA[ 由   提交 /u/ReasonableLoss6814   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tvncnr/light_cone_consistency_ill_take_one_scoop_of_each/</guid>
-      <pubDate>Wed, 03 Jun 2026 12:07:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rockstar 如何将整个城市放入 PlayStation 2 内存中</title>
-      <link>https://www.reddit.com/r/programming/comments/1tvmk4y/how_rockstar_fit_an_entire_city_into_playstation/</link>
-      <description><![CDATA[ 由   提交/u/r_retrohacking_mod2   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tvmk4y/how_rockstar_fit_an_entire_city_into_playstation/</guid>
-      <pubDate>Wed, 03 Jun 2026 11:31:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>超越 ICR：在 Emacs 中增量“建议”阅读</title>
-      <link>https://www.reddit.com/r/programming/comments/1tvjpxy/beyond_icr_incremental_suggesting_read_in_emacs/</link>
-      <description><![CDATA[&quot;这是我关于 Emacs 补全的系列文章中的第六篇文章......这个文章为一种特殊情况创造了一个术语，即增量建议读取 (ISR)，其中由增量键入的输入生成的候选集是一个建议，而不是该输入的字面补全。除了文字匹配之外，生成推断匹配的能力极大地扩展了“完成”系统的功能范围。两个概念来源提供了建议：1) 语义检索和 2) 生成综合。 这篇文章的推测性多于实用性，因此在观看视频或阅读本文时请保留一点盐。”   由   提交/u/misterchiply  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tvjpxy/beyond_icr_incremental_suggesting_read_in_emacs/</guid>
-      <pubDate>Wed, 03 Jun 2026 09:04:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Björn Fahller：我说得太多了</title>
-      <link>https://www.reddit.com/r/programming/comments/1tvipbl/björn_fahller_i_talk_too_much/</link>
-      <description><![CDATA[ 由   提交 /u/_a4z   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tvipbl/björn_fahller_i_talk_too_much/</guid>
-      <pubDate>Wed, 03 Jun 2026 08:05:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
