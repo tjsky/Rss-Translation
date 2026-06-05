@@ -4,7 +4,14 @@
     <title>最新提交：开源</title>
     <link>https://www.reddit.com/r/opensource/new</link>
     <description>与开源相关的所有内容的 Reddit 子版块（对于此上下文，我们在此不再定义开源的定义 http://en.wikipedia.org/wiki/Open_source）</description>
-    <lastBuildDate>Fri, 05 Jun 2026 14:55:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 17:12:42 GMT</lastBuildDate>
+    <item>
+      <title>人工智能“垃圾”的泛滥正在将开源开发人员推向极限</title>
+      <link>https://www.reddit.com/r/opensource/comments/1txoxct/flood_of_ai_garbage_is_pushing_opensource/</link>
+      <description><![CDATA[      人工智能模型使生成代码以构建新功能、修复错误或通过单击按钮创建整个新项目变得越来越容易。但这些代码通常很难集成到现有项目中，令人困惑或根本就是垃圾。虽然代码提交变得越来越容易，但负责检查、修复和批准代码的人类贡献者却陷入了困境。   由   提交 /u/mattsparkes   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/opensource/comments/1txoxct/flood_of_ai_garbage_is_pushing_opensource/</guid>
+      <pubDate>Fri, 05 Jun 2026 15:54:47 GMT</pubDate>
+    </item>
     <item>
       <title>过去 6 个月发布的哪款开源工具完全超出了您的预期？</title>
       <link>https://www.reddit.com/r/opensource/comments/1txhlsq/which_opensource_tool_released_in_the_last_6/</link>
@@ -102,13 +109,6 @@
       <description><![CDATA[想到了一个网站的想法，但除了广告之外无法想出从中赚钱的方法，所以将其发布在这里 Idea 是一个跟踪“抵制”的网站。人们可以添加公司名称以及为什么要抵制它们，标记国家/地区，然后人们可以对它们进行投票并进行讨论等 不要认为在 Reddit 子版块中坚持下去会更好，直到原始发帖者标记为不再相关或在一定时间后超时   由   提交/u/ybot01  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/opensource/comments/1tuxa6o/idea_for_website/</guid>
       <pubDate>Tue, 02 Jun 2026 17:07:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我开源了 Provenant：用于编码代理的自我修复架构内存层</title>
-      <link>https://www.reddit.com/r/opensource/comments/1turbjy/i_opensourced_provenant_a_selfhealing/</link>
-      <description><![CDATA[我开源了一个名为 Provenant 的项目。 它是 AI 编码代理的存储库智能层。 Provenant 不是重复向代理提供大型原始源文件，而是构建紧凑的属性 wiki 页面来捕获存储库结构、依赖关系和架构上下文。 目标是帮助代理检索更少的代码，同时仍然了解更多系统。 索引还具有自我修复功能：  查询检索具有来源归属的 wiki 页面 引用行为用作置信信号 标记弱页面 异步修复 索引在不阻塞代理工作流程的情况下得到改进  我在 500 个 SWE 基准上对检索层进行了基准测试 在 12 个平台上验证了问题 结果：  C@10 从 69.0% 提高到 75.2% Flask 检索上下文从 69,044 个令牌减少到 1,070 个令牌 输入上下文减少了 64.5 倍  您可以在本地安装它： pip install provenant provenant init provenant 服务 GitHub：https://github.com/shreyash-sharma/provenant PyPI：https://pypi.org/project/provenant 评估详细信息：https://www.shreyashsharma.com/writing/provenant 该项目还处于早期阶段。关于架构、检索方法和开发人员体验的反馈将非常有用。   由   提交 /u/lolfaquaad   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/opensource/comments/1turbjy/i_opensourced_provenant_a_selfhealing/</guid>
-      <pubDate>Tue, 02 Jun 2026 13:40:53 GMT</pubDate>
     </item>
     </channel>
 </rss>

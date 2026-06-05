@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Fri, 05 Jun 2026 14:54:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 17:12:21 GMT</lastBuildDate>
+    <item>
+      <title>Linux 桌面应用程序架构问题：您会优先考虑故障遏制架构还是功能扩展？</title>
+      <link>https://www.reddit.com/r/software/comments/1txq2jq/linux_desktop_app_architecture_question_would_you/</link>
+      <description><![CDATA[ 由   提交/u/AhmedNAS2000   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1txq2jq/linux_desktop_app_architecture_question_would_you/</guid>
+      <pubDate>Fri, 05 Jun 2026 16:35:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>我需要一些有关误报防病毒弹出窗口的帮助</title>
+      <link>https://www.reddit.com/r/software/comments/1txp9eg/i_need_some_help_with_a_false_positive_antivirus/</link>
+      <description><![CDATA[我一直在开发从多台打印机收集页面计数器的软件。由于我对软件开发比较陌生，因此在处理防病毒软件和代码签名方面没有太多经验。 目前，我有一个 OV 代码签名证书，以防止 Windows 标记或删除我的应用程序。这在没有防病毒软件以及使用卡巴斯基和 Avast 等防病毒产品的电脑上可以正常工作。 但是，我在使用其他防病毒解决方案（尤其是 McAfee）时遇到了问题。当我安装该应用程序时，迈克菲会自动将其移至隔离区。如果我从隔离区恢复应用程序并尝试再次运行它，McAfee 会立即删除可执行文件，而不是将其返回到隔离区。 我不确定是否会发生这种情况，因为我的应用程序和代码签名证书都相对较新，尚未建立声誉，或者可能还有其他原因。 对于其他上下文，该应用程序包含一个与打印机通信并检索页计数器信息的 Python 可执行文件。我还为该应用程序创建了一个安装程序，并且可执行文件和安装程序都经过数字签名。 有人经历过类似的事情或对如何减少这些误报有任何建议吗？   由   提交 /u/Wonderful-Peach-1225   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1txp9eg/i_need_some_help_with_a_false_positive_antivirus/</guid>
+      <pubDate>Fri, 05 Jun 2026 16:06:13 GMT</pubDate>
+    </item>
     <item>
       <title>寻找可以转录音频并录制的录音设备</title>
       <link>https://www.reddit.com/r/software/comments/1txm4vw/looking_for_a_recording_device_that_transcribes/</link>
@@ -20,13 +34,6 @@
       <pubDate>Fri, 05 Jun 2026 13:55:47 GMT</pubDate>
     </item>
     <item>
-      <title>如果你曾经不得不为偿还技术债务和功能工作辩护</title>
-      <link>https://www.reddit.com/r/software/comments/1txlit9/if_youve_ever_had_to_defend_paying_down_tech_debt/</link>
-      <description><![CDATA[大多数工程师将人工智能助手视为生产力倍增器，并认为技术债务问题保持不变，只是规模扩大了。但现在有一些不同了。 1 - 体积。使用人工智能的开发人员一天可以生成三到四倍的代码。这是在不被注意的情况下通过审查的捷径表面积的三到四倍。现有的债务跟踪已针对人类速度的代码生成进行了校准。 2 - 出处。当代码被生成、编辑、重新生成和合并时，作者身份的归属变得模糊。传统的审阅工作流程假设人类作者可以解释其推理。 AI 代码通常没有人完全理解其结构为何如此。 3 - 现有工具并不是为了检测 AI 特定模式而构建的：代码库中包含未经批准的模型调用、反映过时训练数据的微妙安全问题、由于没有人为其设置门而缺少对通过 CI 的生成代码的测试。这些无法通过您多年来运行的相同静态分析来捕获。 人工智能编码工具不仅使技术债务积累得更快，而且使技术债务更难以跟踪。    由   提交/u/CodacyOfficial  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1txlit9/if_youve_ever_had_to_defend_paying_down_tech_debt/</guid>
-      <pubDate>Fri, 05 Jun 2026 13:49:30 GMT</pubDate>
-    </item>
-    <item>
       <title>ULTRA-EDIT 企业软件</title>
       <link>https://www.reddit.com/r/software/comments/1txl0h1/ultraedit_enterprise_software/</link>
       <description><![CDATA[嗨，有人可以使用 UltraEdit Enterprise 软件并可以帮助女孩提取文件吗？    由   提交 /u/TheSuburbanWife   [链接] [评论]]]></description>
@@ -39,13 +46,6 @@
       <description><![CDATA[为自己构建此生产力 Chrome 扩展程序，以绕过或添加 Momentum 没有的功能。 立即赠送，永久免费使用。请参阅 https://www.chromentum.com/   或 https://chromewebstore.google.com/detail/cjebfmoaokgmkhclgkpkdddledahedlp?utm_source=item-share-cb 我现在正在开发另一个项目，因此尚未添加新项目最近的功能，但如果您想要添加某些内容，请告诉我，我会在有时间后进行添加。 谢谢 -Alan   由   提交 /u/alanimal21   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1txkgdy/productivity_chrome_extension/</guid>
       <pubDate>Fri, 05 Jun 2026 13:06:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助！我需要一个具有下列功能的免费屏幕录像机。</title>
-      <link>https://www.reddit.com/r/software/comments/1txjuoc/help_i_need_a_free_screen_recorder_with_the/</link>
-      <description><![CDATA[嗨，我需要一个屏幕录制应用程序的建议，该应用程序可以捕获系统音频和麦克风音频，而不需要像 OBS 或 QuickTime 那样多的设置，这需要安装 Blavkhoke 并配置所有内容。我知道设置输入和输出并不是什么大问题，但我更喜欢一个能够自行处理所有问题的应用程序。到目前为止，我看过一些，比如Bamdicam等，但它们都有5或10分钟的时间限制，然后就停止录制。之前，我在 Windows PC 上下载了 Minitool Screen Recorder，它的界面就像“单击并录制”一样简单，但我在 Mac 上找不到类似的免费工具。    由   提交/u/KevinPackards  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1txjuoc/help_i_need_a_free_screen_recorder_with_the/</guid>
-      <pubDate>Fri, 05 Jun 2026 12:41:52 GMT</pubDate>
     </item>
     <item>
       <title>每周探索主题 - 2026 年 6 月 5 日</title>
