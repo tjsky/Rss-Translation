@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Fri, 05 Jun 2026 19:48:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 22:13:20 GMT</lastBuildDate>
+    <item>
+      <title>在不同的编程语言上复制 Snack 的线性编程饮食混合问题</title>
+      <link>https://www.reddit.com/r/software/comments/1txytqg/replicating_snacks_linear_programming_diet_mix/</link>
+      <description><![CDATA[ 由   提交/u/snacksoftware  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1txytqg/replicating_snacks_linear_programming_diet_mix/</guid>
+      <pubDate>Fri, 05 Jun 2026 21:59:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kairocal - 经纪计算器</title>
+      <link>https://www.reddit.com/r/software/comments/1txvocz/kairocal_the_brokerage_calculator/</link>
+      <description><![CDATA[ 由   提交 /u/CraziMonk   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1txvocz/kairocal_the_brokerage_calculator/</guid>
+      <pubDate>Fri, 05 Jun 2026 19:57:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个 Chrome 扩展程序，可以拯救我的理智并普遍阻止令人讨厌的影响者 - hide-em</title>
+      <link>https://www.reddit.com/r/software/comments/1txvkbe/a_chrome_extension_to_save_my_sanity_and_block/</link>
+      <description><![CDATA[Reddit 和 YouTube 向我展示了我的脑残和不尊重我隐藏的东西，我愤怒地编写了一个 Chrome 扩展程序，可以在广告拦截级别阻止某些内容，这样大多数网站就不会崩溃。 我每天都使用这个，如果您感兴趣，请点击下面的链接。如果零评论让您感到困惑，那是因为我今天刚刚获得 Google 批准。 如果您决定使用它，如果您有任何问题或遇到任何麻烦，请告诉我。再见r/GirlDinnerDiaries和r/bald。对你们来说很好，但这就像我饲料的一半。 https://chromewebstore.google.com/detail/nfdkjpjmbahmkehjaadehlncjcfidaaj?utm_source=item-share-cb https://github.com/mgelsinger/hide-em - 如果您想自己构建，请提供源代码。   由   提交/u/pleasestopbreak  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1txvkbe/a_chrome_extension_to_save_my_sanity_and_block/</guid>
+      <pubDate>Fri, 05 Jun 2026 19:53:52 GMT</pubDate>
+    </item>
     <item>
       <title>需要开源 PDF 查看器/编辑器</title>
       <link>https://www.reddit.com/r/software/comments/1txufkv/open_source_pdf_viewereditor_needed/</link>
@@ -57,7 +78,7 @@
     <item>
       <title>具有手势、保持、和弦、事件链和上下文感知工作流程的输入系统</title>
       <link>https://www.reddit.com/r/software/comments/1txr4b6/input_system_with_gestures_holds_chords_event/</link>
-      <description><![CDATA[我一直在开发一种开源输入工具，它超越了简单的按键 → 操作快捷键，它允许相同的输入根据您与其交互的方式而表现出不同的行为。 随着时间的推移，该系统演变成一个系统，其中不同的输入被视为可以导致操作、转换和进一步输入的事件，具体取决于上下文和条件。单个交互可以逐步继续，形成工作流程而不是孤立的快捷方式。 例如，输入可以在大多数时间正常工作，仅在某些屏幕边缘附近成为手势触发器，在特定应用程序或浏览器选项卡中表现不同，或者继续进入多步骤工作流程。 一些核心思想：  点击、按住、修改、和弦和手势共享一个交互模型 事件可以用作独立的分配并用自己的操作链接成更长的序列 广泛的每个分配自定义，从计时行为到视觉外观 用于在运行时组织和控制不同组分配的层 广泛的条件系统，包括活动层、键盘布局和窗口上下文 基于进程、窗口类和动态标题匹配的上下文感知行为 行为仅在您分配的地方发生变化 - 其他一切都保持不变系统本身提供构建块 - 实际的分配和工作流程完全由用户定义，并带有用于管理和可视化它们的 GUI。 其中包含多个演示层，作为即用型示例和构建您自己的设置的起点。 手势最终发展成为该项目最大的功能之一：  多达 12 个独立的手势池/区域及其各自的功能自己的作业、视觉效果和行为 可配置的识别和解释选项 连续的手势链 通过大型手势树进行实时提示指导和导航  下面的视频是一个相对较短的 4.5 分钟概述。它从手势开始，然后探讨不同的事件类型、链和上下文如何在同一系统内交互。 尽管它很长，但它仍然只触及表面 - 许多功能和更深入的功能被遗漏。 https://github.com/user-attachments/assets/b9ee0e44-52c3-4635-8508-bac268e18b2c 任何反馈、问题或建议欢迎。 GitHub： https://github.com/uqqu/Cadans   由   提交/u/TLHE   [链接] [评论]]]></description>
+      <description><![CDATA[我一直在开发一种开源输入工具，它超越了简单的按键 → 操作快捷键，它允许相同的输入根据您与其交互的方式而表现出不同的行为。 随着时间的推移，该系统演变成一个系统，其中不同的输入被视为可以导致操作、转换和进一步输入的事件，具体取决于上下文和条件。单个交互可以逐步继续，形成工作流程而不是孤立的快捷方式。 例如，输入可以在大多数时间正常工作，仅在某些屏幕边缘附近成为手势触发器，在特定应用程序或浏览器选项卡中表现不同，或者继续进入多步骤工作流程。 一些核心思想：  点击、按住、修改、和弦和手势共享一个交互模型 事件可以用作独立的分配并用自己的操作链接成更长的序列 广泛的每个分配自定义，从计时行为到视觉外观 用于在运行时组织和控制不同组分配的层 广泛的条件系统，包括活动层、键盘布局和窗口上下文 基于进程、窗口类和动态标题匹配的上下文感知行为 行为仅在您分配的位置发生变化 - 其他一切都保持不变系统本身提供构建块 - 实际的分配和工作流程完全由用户定义，并带有用于管理和可视化它们的 GUI。 其中包含多个演示层，作为即用型示例和构建您自己的设置的起点。 手势最终发展成为该项目最大的功能之一：  多达 12 个独立的手势池/区域及其各自的功能自己的作业、视觉效果和行为 可配置的识别和解释选项 连续的手势链 通过大型手势树进行实时提示指导和导航  下面的视频是一个相对较短的 4.5 分钟概述。它从手势开始，然后探讨不同的事件类型、链和上下文如何在同一系统内交互。 尽管它很长，但它仍然只触及表面 - 许多功能和更深入的功能被遗漏。 https://github.com/user-attachments/assets/b9ee0e44-52c3-4635-8508-bac268e18b2c 任何反馈、问题或建议欢迎。 GitHub： https://github.com/uqqu/Cadans   由   提交/u/TLHE   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1txr4b6/input_system_with_gestures_holds_chords_event/</guid>
       <pubDate>Fri, 05 Jun 2026 17:12:26 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/hlogic-odesk  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1txlokv/pc20052015_program_similar_to_speederxpspeedgear/</guid>
       <pubDate>Fri, 05 Jun 2026 13:55:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>ULTRA-EDIT 企业软件</title>
-      <link>https://www.reddit.com/r/software/comments/1txl0h1/ultraedit_enterprise_software/</link>
-      <description><![CDATA[嗨，有人可以使用 UltraEdit Enterprise 软件并可以帮助女孩提取文件吗？    由   提交 /u/TheSuburbanWife   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1txl0h1/ultraedit_enterprise_software/</guid>
-      <pubDate>Fri, 05 Jun 2026 13:28:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>生产力 Chrome 扩展程序</title>
-      <link>https://www.reddit.com/r/software/comments/1txkgdy/productivity_chrome_extension/</link>
-      <description><![CDATA[为自己构建此生产力 Chrome 扩展程序，以绕过或添加 Momentum 没有的功能。 立即赠送，永久免费使用。请参阅 https://www.chromentum.com/   或 https://chromewebstore.google.com/detail/cjebfmoaokgmkhclgkpkdddledahedlp?utm_source=item-share-cb 我现在正在开发另一个项目，因此尚未添加新项目最近的功能，但如果您想要添加某些内容，请告诉我，我会在有时间后进行添加。 谢谢 -Alan   由   提交 /u/alanimal21   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1txkgdy/productivity_chrome_extension/</guid>
-      <pubDate>Fri, 05 Jun 2026 13:06:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>每周探索主题 - 2026 年 6 月 5 日</title>
-      <link>https://www.reddit.com/r/software/comments/1txhnq4/weekly_discovery_thread_june_05_2026/</link>
-      <description><![CDATA[分享新的、有用的或只是有趣的内容 欢迎来到每周探索主题，在这里您可以分享本周引起您注意的与软件相关的发现 - 特别是那些很酷、有用或发人深省但本身可能不值得讨论的内容。 此主题是您的空间：  Neat工具、库或软件包 值得一读的文章、博客文章或演讲 您正在进行的实验或业余项目 您发现的提示、工作流程或晦涩功能 您正在思考的问题或想法  如果它与软件相关并激发了您的好奇心，请将其放入。  一些快速指南  保持文明和建设性 - 这是为了学习和发现。 自我推销？如果它具有相关性并能增加价值，那完全没问题。保持透明。 没有链接垃圾邮件或人工智能生成的内容转储。我们将删除省力的提交内容。 对有用的内容进行投票，以便其他人看到！   此帖子将每周发布并置顶。如果您想建议对此格式进行更改或添加，请随时发表评论或向模组发送消息。 现在，您本周发现了什么？   由   提交 /u/AutoModerator   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1txhnq4/weekly_discovery_thread_june_05_2026/</guid>
-      <pubDate>Fri, 05 Jun 2026 11:00:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
