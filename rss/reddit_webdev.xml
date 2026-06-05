@@ -4,7 +4,42 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Thu, 04 Jun 2026 22:18:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 02:55:08 GMT</lastBuildDate>
+    <item>
+      <title>您如何处理 80 多个调色板 + 精细定制而不会让用户感到不知所措？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tx4wkm/how_would_you_handle_80_color_palettes_granular/</link>
+      <description><![CDATA[      作为业余项目，我一直在开发地图海报编辑器。您选择一个位置，选择样式和调色板，然后导出打印质量的地图。棘手的部分是，每个调色板控制 15 种以上的单独颜色（从高速公路到便道、水域、地形、建筑物、文本等的道路层次结构），并且有 80 多个调色板分为三个类别。 屏幕截图中的当前流程：  完整编辑器，左侧边栏中的样式控件 带有活动调色板预览的入口点 + 浏览和微调按钮 类别选择器（地形/城市/平衡），这些基本上是描述调色板强调内容的文件夹 类别内的调色板网格，每个类别大约 10 个，带有样本缩略图 微调面板，其中包含每个单独的十六进制颜色，按部分（基础、道路、水和土地、建筑物、地形）分组  紧张之处在于临时用户想要“选择调色板，完成”单击一两次即可。但高级用户想要调整单独的道路颜色或交换水色调。现在，这是两个完全独立的流程，我不确定其中任何一个都很好。 困扰我的事情：  在进行任何更改之前双击向下钻取（类别然后调色板）。这是必要的组织还是只是不必要的摩擦？ Fine Tune 隐藏在按钮后面。发现它的人喜欢它，但它是否太隐蔽了？ 15+ 十六进制输入按标签分组。它有效，但感觉很吓人。有更好的模式吗？ 预览问题。现在调色板显示对角颜色样本，它们很紧凑但非常抽象。显示应用的每个调色板的迷你地图预览会更有用，但随后我基本上会用一堵小地图墙替换干净的卡片网格，这些地图可能太小而无法实际阅读。悬停预览会起作用吗？当您浏览时会更新的单个共享预览窗格？或者样本实际上很好，而我只是想得太多了？  如果您冷酷地登陆此编辑器并想要更改配色方案，您希望看到什么？你会改变什么？ React + MapLibre GL + shadcn/ui 作为上下文。   由   提交/u/kkingsbe  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tx4wkm/how_would_you_handle_80_color_palettes_granular/</guid>
+      <pubDate>Fri, 05 Jun 2026 00:02:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>追踪热门 TikTok、Reels 和 Shorts 的最佳且最便宜的方式？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tx4t0s/best_cheap_way_to_track_trending_tiktoks_reels/</link>
+      <description><![CDATA[有谁知道跟踪热门 TikTok、Instagram Reels 和 YouTube Shorts 的更便宜的方法吗？ 我已经研究过 Apify 和 Virlo，但它们对于我现在的需要来说似乎太贵了。 我主要是想找到病毒格式、主题标签、声音、创作者和短片趋势，而无需在抓取工具上花费太多。 人们有推荐更便宜的工具、API、开源项目或手动/自动化工作流程吗？   由   提交/u/InternalGrab3189  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tx4t0s/best_cheap_way_to_track_trending_tiktoks_reels/</guid>
+      <pubDate>Thu, 04 Jun 2026 23:59:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>哪些语言的 Web 开发库和框架生态系统未被充分重视？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tx3ynp/which_languages_have_an_underappreciated/</link>
+      <description><![CDATA[有哪些语言我们通常不与 webdev 联系在一起，但它们拥有值得更多关注的优秀库？ 所以我不是在问语言本身。我问的是人们用该语言为 webdev 构建的工具。   由   提交 /u/returned_loom   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tx3ynp/which_languages_have_an_underappreciated/</guid>
+      <pubDate>Thu, 04 Jun 2026 23:21:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>VS Code - 围绕 VSCode 扩展的安全实践。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tx3rur/vs_code_security_practices_around_vscode/</link>
+      <description><![CDATA[VSCode 扩展是今年早些时候 Github 遭到攻击的原因。 人们在围绕扩展的 VSCode 安全最佳实践做了哪些工作。  仅批准的扩展 禁用自动更新  还有其他类似的最低年龄或类似设置吗？   由   提交 /u/ruddet   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tx3rur/vs_code_security_practices_around_vscode/</guid>
+      <pubDate>Thu, 04 Jun 2026 23:13:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>您是否在职位名称中添加连字符，例如前端或全栈？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1tx2mb3/do_you_put_a_hyphen_in_your_job_title_like/</link>
+      <description><![CDATA[这是一个超级愚蠢的问题（考虑到我在这个领域已经工作了大约 5-6 年），但我只是想弄清楚这个问题的真相，这样我终于可以通过搜索“前端开发人员”来不再担心了并没有减少我未来的前景，哈哈。   由   提交 /u/WitnessConfident2451   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1tx2mb3/do_you_put_a_hyphen_in_your_job_title_like/</guid>
+      <pubDate>Thu, 04 Jun 2026 22:25:41 GMT</pubDate>
+    </item>
     <item>
       <title>Google Places Photos API 的替代品？</title>
       <link>https://www.reddit.com/r/webdev/comments/1tx2bxg/alternatives_to_google_places_photos_api/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[这是网站的情况。 如果加拿大的某人输入 www.example.com，他们会被重定向到 www.example.com/ca，并且所有提及“USA”的内容都会被重定向到 www.example.com。被隐藏并替换为“加拿大”！ 例如在加拿大，人们不会看到“美国和加拿大的家居装修”，而加拿大人只会看到“加拿大的家居装修”，反之亦然； 美国和加拿大以外世界各地的人在网站页面上看不到加拿大。 我的问题是：网站不应该统一信息并列出美国和加拿大吗？因为目前情况下，访问加拿大主页的人不会知道该公司也可以在美国做家居装修，反之亦然。即使对于 AI，我也问 Chatgpt 公司位于哪里，但没有看到加拿大。 P.S.联系页面中唯一提及了这两个国家/地区。   由   提交 /u/RadiantQuests   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1twjs9k/if_a_company_serves_2_countries_would_you/</guid>
       <pubDate>Thu, 04 Jun 2026 10:34:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wraplet 与 Web 组件</title>
-      <link>https://www.reddit.com/r/webdev/comments/1twj37l/wraplet_vs_web_components/</link>
-      <description><![CDATA[       由   提交/u/enador   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1twj37l/wraplet_vs_web_components/</guid>
-      <pubDate>Thu, 04 Jun 2026 09:58:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何确定一个副项目“足够好”可以交付而不是永远抛光？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1twi5hw/how_do_you_decide_a_side_project_is_good_enough/</link>
-      <description><![CDATA[此处单独开发。我最大的瓶颈不是构建，而是决定何时完成某件事。我不断改进，超越了回报递减的点，并将发货延迟了数周，而用户不会注意到这些事情。 对于那些定期发货的人： - 您实际的“发货”是什么？阈值？ - 您是否使用硬性规则（截止日期、清单、无法更改的发布日期），还是感觉的东西？ - 提前发货是否会伤害您？ 尝试围绕此建立更理智的习惯。如何划清界限？   由   提交 /u/IcyButterscotch8351   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1twi5hw/how_do_you_decide_a_side_project_is_good_enough/</guid>
-      <pubDate>Thu, 04 Jun 2026 09:06:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 Vue SFC 文件内的 pug 代码中添加 eslint-disable 注释？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1twhgua/how_to_add_eslintdisable_comments_in_pug_code/</link>
-      <description><![CDATA[嗨！我在使用 Vue SFC pug 模板内定义的 HTML 元素的 eslint 禁用注释时遇到了一些问题，eslint 无法识别它们并不断抛出警告。 到目前为止我尝试过的： pug 模板内的注释， // 和 //- &lt;template lang=&quot;pug&quot;&gt; // eslint-disable-next-line vuejs-accessibility/no-static-element-interactions -- 标准视频播放器点击播放暂停行为 video(@click=&quot;togglePause&quot; ...)   //- eslint-disable-next-line vuejs-accessibility/no-static-element-interactions -- 标准视频播放器点击播放暂停行为 video(@click=“togglePause”...) &lt;/template&gt; 我的下一个选项不是最佳的，但我已经没有想法了： 脚本设置标记内的注释（它放置在文件中的模板之前）：  在文件最顶部、任何其他代码之前的注释  ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1twhgua/how_to_add_eslintdisable_comments_in_pug_code/</guid>
-      <pubDate>Thu, 04 Jun 2026 08:26:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究了动态消息在 Instagram 和其他社交媒体平台中的运作方式。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1twgou1/studied_how_the_news_feed_works_in_instagram_and/</link>
-      <description><![CDATA[我学到的一个重要概念是扇出，这基本上就是帖子分发到用户提要的方式。   Fanout Push  当用户创建帖子时，系统会立即将该帖子推送到所有关注者的 Feed 缓存中。 这非常快，因为当用户打开应用程序时 Feed 就已经准备好了。  Fanout Pull  系统不是预先计算 Feed，而是在用户打开应用程序时通过从帐户获取帖子来生成 Feed  它可以节省存储空间，并避免为拥有大量关注者的帐户带来不必要的工作。 现在真正的系统用户采用混合方法 对于拥有数百名关注者的普通用户来说，Fanout Push 效果很好，因为成本可控且 feed 加载速度很快。 对于像 Virat Kohli 这样拥有 2.5 亿以上关注者的名人，将每个帖子推送到每个关注者的 feed 缓存将非常昂贵。许多关注者甚至可能不会打开该应用程序，因此大量的存储和计算将被浪费。这就是为什么大型系统经常对此类帐户使用 Fanout Pull（或混合方法）。 但是 Feed 如何知道获取名人帖子？ 我的一个问题是： 如果我普通朋友的帖子已经通过 Fanout Push 存在于我的 Feed 缓存中，系统如何知道它也应该从名人帐户获取帖子？ 一种可能的方法是社交图谱存储有关帐户的元数据。名人或高关注者帐户可以有不同的标记。当用户打开应用程序时，Feed 服务：  加载通过 Fanout Push 生成的 Feed。 检查用户在社交图谱中关注的帐户。 识别使用 Fanout Pull 的名人帐户。 分别获取他们的最新帖子。 合并两个结果，然后在返回最终 Feed 之前应用推荐算法。  简化流程 用户创建帖子 帖子服务 存储在数据库中 扇出服务 检查社交图谱和社交图谱用户首选项（阻止的用户、静音的用户、亲密的朋友等） 创建扇出任务 消息队列 扇出工作线程（推或拉策略） 我仍在学习系统设计，所以如果我误解了任何内容或错过了与 feed 生成相关的重要概念，请在评论中告诉我。   由   提交 /u/No-Resolution-4054   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1twgou1/studied_how_the_news_feed_works_in_instagram_and/</guid>
-      <pubDate>Thu, 04 Jun 2026 07:41:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>地址输入的反跳毫秒（mapbox）</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tw1mls/debounce_ms_for_an_address_input_mapbox/</link>
-      <description><![CDATA[在我们的项目中，每次用户输入地址时，都会发出一个mapbox请求，去抖时间为400毫秒。这是您输入地址的输入之一，它会在下拉列表中建议地址。 我相信我们发出的请求比我们应该做的要多，对于这种情况，什么是最佳的去抖时间？ 500 毫秒？ 600 毫秒？   由   提交/u/leinad41  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tw1mls/debounce_ms_for_an_address_input_mapbox/</guid>
-      <pubDate>Wed, 03 Jun 2026 20:27:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
