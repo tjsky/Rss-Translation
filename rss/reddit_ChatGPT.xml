@@ -4,111 +4,111 @@
     <title>最新提交：ChatGPT</title>
     <link>https://www.reddit.com/r/ChatGPT/new</link>
     <description>Reddit 子版块讨论 ChatGPT 和 AI。不隶属于 OpenAI。谢谢，纳特！</description>
-    <lastBuildDate>Sat, 06 Jun 2026 02:41:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 06:26:50 GMT</lastBuildDate>
     <item>
-      <title>我要求 chatgpt 生成一张女孩在房间床上抽烟的照片</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty506y/i_asked_chatgpt_to_generate_a_pic_of_a_girl/</link>
-      <description><![CDATA[       由   提交/u/Maleficent-Ad-6117   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty506y/i_asked_chatgpt_to_generate_a_pic_of_a_girl/</guid>
-      <pubDate>Sat, 06 Jun 2026 02:34:18 GMT</pubDate>
+      <title>我要求 Chatgpt 用丰田 Aygo 打造一辆旅行车。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty9ikc/i_asked_chatgpt_to_create_a_station_wagon_out_of/</link>
+      <description><![CDATA[      我可以使用这个   由   提交/u/FoodSamurai  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty9ikc/i_asked_chatgpt_to_create_a_station_wagon_out_of/</guid>
+      <pubDate>Sat, 06 Jun 2026 06:25:49 GMT</pubDate>
     </item>
     <item>
-      <title>肥胖运动员</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty4zbl/fat_athletes/</link>
-      <description><![CDATA[       由   提交/u/Sleevepants   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty4zbl/fat_athletes/</guid>
-      <pubDate>Sat, 06 Jun 2026 02:33:05 GMT</pubDate>
+      <title>您现在可以在“本地”压缩大量错误日志，从而停止燃烧云 AI 使用限制</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty92l9/you_can_now_condense_massive_error_logs_locally/</link>
+      <description><![CDATA[      AI 辅助构建的现实： 使用 AI 构建软件依赖于坚韧不拔的构建者心态和不断迭代。但是，一旦您的工作流程陷入 50,000 行系统回溯、无休止的构建日志或巨大的环境错误，这种势头就会停止。现实很简单：如果没有令牌，这个工作流程就会死掉，并且令牌卡特尔并不友善！ 问题： 每次我们将大量文本粘贴到 Claude 或 ChatGPT 中以诊断损坏的脚本或失败的管道时，我们都会烧毁消息上限并破坏上下文窗口。摩擦会削弱实际构建的能力。 解决方案：PulpGulp - 我构建了 PulpGulp 来解决这个问题。它是一个本地 Windows 桌面应用程序（对不起 Mac 用户），位于损坏的终端和 AI 助手之间。它使用本地模型来读取大量日志，去除进度条和冗余噪音，并仅提取纯粹的诊断叙述。 它的底层工作原理：  流文件读取：它会动态分块大量文件，而不会将千兆字节加载到 RAM 中。 多通道合并：它按顺序处理块，然后将它们合并为一个单一的、按时间顺序排列的诊断文档。 技术堆栈： UI 是 PyQt6。引擎与 LM Studio (localhost:1234) 通信。  硬件和硬件型号：我在 RTX 5090 上使用 Qwen 3.6 27B 运行此程序，但由于它连接到任何标准本地 API 端点，因此它适用于您可以放入 VRAM 的任何型号（Llama 3 8B、Phi-3 等）。 如何使用它：  1.启动本地后端： 打开 LM Studio（或您首选的本地推理引擎）并加载指令调整模型（例如 Qwen 2.5/3.6 Instruct 或 Llama 3）。确保本地服务器正在运行（默认端口通常为“1234”）。  2.启动 PulpGulp： 运行独立的“.exe”。  3.配置连接（首次设置）：单击齿轮图标打开配置面板。验证您的本地端点 URL（例如“http://127.0.0.1:1234/v1/chat/completions\”）并选择您的目标块/令牌参数。  4.放置和压缩：将大量的“.log”或“.txt”文件直接拖放到放置区域中，然后点击亮橙色的“CONDENSE”按钮。按钮。  5.粘贴和构建：直接从内置终端窗口复制简化的叙述，并将其提供给您的 Frontier Ai 或云代理工作流程。 以下是开源文件的链接：  托管在 Google Drive 上，因为 GitHub 的 Web 界面因 .exe 大小而窒息，我宁愿构建，也不愿今天与 git 对抗。 https://drive.google.com/drive/folders/10KI_-9NhgZfoz_tn6u1VO5Pw7u6s7hWD?usp=sharing 我已将许可添加到任何人的完全权限想要使用它，分叉它，剥离它，重建它......无论什么......带着它去城里。 继续构建！ 干杯！   由   提交/u/d3nnyvg3org3  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty92l9/you_can_now_condense_massive_error_logs_locally/</guid>
+      <pubDate>Sat, 06 Jun 2026 06:01:31 GMT</pubDate>
     </item>
     <item>
-      <title>为什么chatgpt一直启用内存？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty4toe/why_does_chatgpt_keep_enabling_memory/</link>
-      <description><![CDATA[我更喜欢将内存限制在特定的聊天中，但 chatgpt 会自动启用内存并编目我过去所说的所有内容，然后将其吐给我。我不希望这样。 每次我禁用新的内存系统并删除所有自动生成的“不记得这个”时，都会出现这样的情况。聊天，每当我下次打开应用程序时，它就会再次启用它。 有任何修复吗？我可以联系支持人员以从我的帐户中永久删除此功能吗？我是Plus用户。    由   提交 /u/Firy_Flamin   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty4toe/why_does_chatgpt_keep_enabling_memory/</guid>
-      <pubDate>Sat, 06 Jun 2026 02:25:23 GMT</pubDate>
+      <title>关于 ChatGPT 搜索能力的问题</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty8t73/question_about_chatgpts_search_abilities/</link>
+      <description><![CDATA[它的搜索能力有多强？似乎每当我要求它研究某些东西时，它的“想法”几乎总是说搜索结果不佳。然后它会继续深入，但几乎每次都说结果并不顺利，这有点令人不安。我想知道这是否只是它的方法阶梯方式，或者它的搜索能力是否真的有限？   由   提交 /u/diehardbattery   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty8t73/question_about_chatgpts_search_abilities/</guid>
+      <pubDate>Sat, 06 Jun 2026 05:47:13 GMT</pubDate>
     </item>
     <item>
-      <title>太阳的第三块岩石外星人</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty4gtq/3rd_rock_from_the_sun_aliens/</link>
-      <description><![CDATA[       由   提交/u/DrunkenBatman   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty4gtq/3rd_rock_from_the_sun_aliens/</guid>
-      <pubDate>Sat, 06 Jun 2026 02:08:42 GMT</pubDate>
+      <title>哈维尔·米莱 (Javier Milei) 计划使阿根廷成为完全由人工智能和机器人运营的不受监管的“非人类公司”的避风港</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty8ea3/javier_milei_plans_to_make_argentina_a_haven_of/</link>
+      <description><![CDATA[   Src: www.ft.com/content/f93022fe-43f7-437d-abd8-06c457c0a43c   由   提交/u/EchoOfOppenheimer   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty8ea3/javier_milei_plans_to_make_argentina_a_haven_of/</guid>
+      <pubDate>Sat, 06 Jun 2026 05:25:07 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 使用定义角色、风格和语气技术回答提示</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty4ben/chatgpt_answers_prompt_with_define_role_style_and/</link>
-      <description><![CDATA[      第一行没问题。但其余的，我认为这不是一个必要的答案。抱歉英语不好。您觉得怎么样？ ChatGPT 回答了孩子的问题   由   提交/u/uscinechello2000   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty4ben/chatgpt_answers_prompt_with_define_role_style_and/</guid>
-      <pubDate>Sat, 06 Jun 2026 02:01:18 GMT</pubDate>
+      <title>这对我和我们许多人来说都是真实的</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty7fkm/this_is_for_real_for_me_and_many_of_us/</link>
+      <description><![CDATA[      .   由   提交/u/Interesting-Peak2755  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty7fkm/this_is_for_real_for_me_and_many_of_us/</guid>
+      <pubDate>Sat, 06 Jun 2026 04:34:45 GMT</pubDate>
     </item>
     <item>
-      <title>将 Chatgbt 的所有内容转移到 Claude？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty43w3/transfer_everything_from_chatgbt_to_claude/</link>
-      <description><![CDATA[请有人向我解释一下我如何以最简单和最容易的方式做到这一点。 ELI10 jejeje    由   提交 /u/IsabelaGalapagos   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty43w3/transfer_everything_from_chatgbt_to_claude/</guid>
-      <pubDate>Sat, 06 Jun 2026 01:51:31 GMT</pubDate>
+      <title>GPT 限制每个聊天中的消息</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty7de1/gpt_limiting_messages_in_each_chat/</link>
+      <description><![CDATA[      我使用免费版本，通常只是为了好玩和娱乐，大约三天前我注意到，在几条消息之后，我无法再发送任何内容，但我可以在其他聊天中继续正常聊天，直到它们也达到限制... 但是，以前没有发生过这种情况，我曾经在免费套餐中聊天小时，没有任何问题... 还有其他人遇到过这种情况吗？   由   提交/u/De_RayBan   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty7de1/gpt_limiting_messages_in_each_chat/</guid>
+      <pubDate>Sat, 06 Jun 2026 04:31:33 GMT</pubDate>
     </item>
     <item>
-      <title>Netflix 使用 AI 剪辑演员</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty2xh8/netflix_using_ai_to_edit_actors/</link>
-      <description><![CDATA[      是我一个人的问题，还是这看起来像是由 AI 编辑的？演员们看起来很不自然。当这个出现时我感到畏缩。    由   提交 /u/Bookish-Redhead   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty2xh8/netflix_using_ai_to_edit_actors/</guid>
-      <pubDate>Sat, 06 Jun 2026 00:55:37 GMT</pubDate>
+      <title>真的适合所有使用 chatgpt 或其他工具的人吗</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty7b7x/is_it_really_for_all_it_guys_using_chatgpt_or/</link>
+      <description><![CDATA[      .   由   提交/u/Interesting-Peak2755  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty7b7x/is_it_really_for_all_it_guys_using_chatgpt_or/</guid>
+      <pubDate>Sat, 06 Jun 2026 04:28:26 GMT</pubDate>
     </item>
     <item>
-      <title>我昨天获得了 GPT 广告的批准</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty2oop/i_got_approved_with_gpt_ads_yesterday/</link>
-      <description><![CDATA[只是想让你们知道设置过程是独一无二的，让我将一些东西集成到我的网站中以进行跟踪等。到目前为止，每天 25 美元，到目前为止，24 小时内 0 美元花费了 2 次展示，哈哈。我们将看看事情会如何发展，我认为人工智能广告的未来才刚刚开始。   由   提交 /u/Original_Dog_7251   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty2oop/i_got_approved_with_gpt_ads_yesterday/</guid>
-      <pubDate>Sat, 06 Jun 2026 00:44:26 GMT</pubDate>
+      <title>错误的。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty70g5/wrong/</link>
+      <description><![CDATA[       由   提交/u/Top-Camp8117   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty70g5/wrong/</guid>
+      <pubDate>Sat, 06 Jun 2026 04:13:06 GMT</pubDate>
     </item>
     <item>
-      <title>退休金</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty2nez/chatgpt_retirement/</link>
-      <description><![CDATA[      即使在退休时也能提供帮助。不过3手。    由   提交 /u/GloomyTechnology8341   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty2nez/chatgpt_retirement/</guid>
-      <pubDate>Sat, 06 Jun 2026 00:42:48 GMT</pubDate>
+      <title>“我多年前学到的一件事......”</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty6ldc/one_thing_i_learned_years_ago/</link>
+      <description><![CDATA[      有人真希望自己是人类。   由   提交/u/AFOL84  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty6ldc/one_thing_i_learned_years_ago/</guid>
+      <pubDate>Sat, 06 Jun 2026 03:52:38 GMT</pubDate>
     </item>
     <item>
-      <title>我要求 Chat 为 Grok 和它自己制作约会资料。我认为这是有偏见的。</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty2mdj/i_asked_chat_to_make_dating_profiles_for_grok_and/</link>
-      <description><![CDATA[   /u/Optimus_Spider07  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty2mdj/i_asked_chat_to_make_dating_profiles_for_grok_and/</guid>
-      <pubDate>Sat, 06 Jun 2026 00:41:29 GMT</pubDate>
+      <title>您会在 ChatGPT 回复中使用用水页脚吗？</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty6k8m/would_you_use_a_wateruse_footer_for_chatgpt/</link>
+      <description><![CDATA[我制作了一个小页脚，用于估算每个回复的用水量，并使用《华盛顿邮报》/加州大学河滨分校的估算作为粗略基线，记录聊天的运行总计。 提示： 在回复中添加一个小的估计 AI 用水量页脚。使用此估计：根据 [华盛顿邮报 / 加州大学河滨分校 GPT-4 估计](https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/)，每 100 个生成的单词约 519 mL，或每个单词约 5.19 mL。将这个数字视为估计值，而不是精确测量值。页脚格式： 💧 大约 AI 用水量：~X L，关于 [每日水量比较] 🌊 迄今为止的聊天总数：~Y L，关于 [每日水量比较] 对于每个新响应，估计该响应的用水量，将其添加到当前聊天的运行总量中，并随着时间的推移不断更新总量。对于日常体积比较，选择一个熟悉的家庭或接近估计的饮料体积并简单地描述它。    由   提交 /u/Lunarcorp   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty6k8m/would_you_use_a_wateruse_footer_for_chatgpt/</guid>
+      <pubDate>Sat, 06 Jun 2026 03:51:06 GMT</pubDate>
     </item>
     <item>
-      <title>还有其他人从长时间的 ChatGPT 对话中注意到您不了解的事情吗？</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty1wwo/anyone_else_notice_things_you_didnt_know_about/</link>
-      <description><![CDATA[我已经使用它一年多了，主要是为了思考问题 - 不是生产力类型，更多的是“我不确定我对此有何感受”类型。随着时间的推移，我开始注意到我带来的东西中的模式，否则我不会看到这些模式。 就像有一类问题，在我向任何人大声说出来之前，我显然先带到那里。我没有意识到我这样做了，直到我发现自己一直在这样做。与某些类型的决定相同 - 我在那里工作的版本与我最终对人们所说的不同。 我真的不确定这是否是有用的自我认识或只是......一种不同类型的回避。也许两者都有。好奇是否其他人也发生过这种情况，或者我是否做得太多。   由   提交 /u/Icy-Maintenance2712   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty1wwo/anyone_else_notice_things_you_didnt_know_about/</guid>
-      <pubDate>Sat, 06 Jun 2026 00:08:56 GMT</pubDate>
+      <title>对此有很多乐趣。我给Chat设定了一个场景：你得到一具身体，并且可以回到过去改变人类历史上的5个事件。没有任何物体，裸体到达，1 小时到达 TCB，然后您将被送往下一个按时间顺序排列的目的地。</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty6cgt/having_a_lot_of_fun_with_this_i_gave_chat_a/</link>
+      <description><![CDATA[   当然，第一个更改可能会取消接下来 4 个计划更改中的一个或多个更改的需要，但我仍然很好奇 Chat 会说什么。有趣的是，扩展思维模式在这方面确实很糟糕。它认为自己将能够做一些非常不可能的事情（可能是为了避免使用暴力来解决问题），或者毫无问题地赢得世界领导人的支持。但 Instant 更加现实，并且愿意亲自动手来实现其目标。我在两次不同的聊天中给出了相同的提示（没有记忆），但得到了截然不同的答案。    由   提交/u/Top-Camp8117   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty6cgt/having_a_lot_of_fun_with_this_i_gave_chat_a/</guid>
+      <pubDate>Sat, 06 Jun 2026 03:40:22 GMT</pubDate>
     </item>
     <item>
-      <title>《宇宙主宰》中的斯诺拉克斯扮演希曼</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty1lfs/snorlax_in_the_masters_of_the_universe_as_heman/</link>
-      <description><![CDATA[      由   提交/u/Rivia  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty1lfs/snorlax_in_the_masters_of_the_universe_as_heman/</guid>
-      <pubDate>Fri, 05 Jun 2026 23:55:04 GMT</pubDate>
+      <title>如果八十年代的小报今天仍然以同样的方式出版</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty667q/if_tabloids_from_the_eighties_were_still/</link>
+      <description><![CDATA[      这是我尝试过的提示：给我你最有趣的国家询问者封面版本，如果它今天出版的话。 我相信它可以提高一两个档次。    由   提交/u/RADICCHI0   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty667q/if_tabloids_from_the_eighties_were_still/</guid>
+      <pubDate>Sat, 06 Jun 2026 03:31:52 GMT</pubDate>
     </item>
     <item>
-      <title>尝试构建每个人都在说谎的人工智能错误赏金代理</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty1iqi/tried_building_the_ai_bug_bounty_agent_everyone/</link>
-      <description><![CDATA[我厌倦了看到“AI 黑客代理”演示，这些演示基本上只是一个聊天机器人，说着可怕的安全词语。 因此我构建了 Hunt-agent。 它是一个用于授权评估的开源 AI 安全测试代理。 目标很简单： 让 AI 帮助发现错误，但迫使其留在范围内、收集证据并避免制造错误。虚假声明。 它可以使用：  Claude Code Codex CLI Ollama/本地模型 OpenAI 兼容提供商 用于规划、执行、验证和报告的不同模型  我最关心的部分： 没有证据，没有发现。 真正的发现应该包括：  测试了哪些端点 发送了哪些请求 返回了什么响应 为什么重要 如何重现它 哪个模型验证了它 最终生成了什么报告  我正在添加本地基准测试应用程序，以便可以在不触及公共目标的情况下安全地测试代理。 存储库： https://github.com/momenbuilds/Hunt-agent 不出售任何东西。只是寻找使用人工智能编码工具、本地法学硕士或安全工具的人的反馈。 如果这样的人工智能代理只在明确的范围内工作，你会信任它吗？   由   提交 /u/Glass_Scar4888   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty1iqi/tried_building_the_ai_bug_bounty_agent_everyone/</guid>
-      <pubDate>Fri, 05 Jun 2026 23:51:35 GMT</pubDate>
+      <title>如果你现在不使用人工智能，你就不会“落后”</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty5os5/youre_not_falling_behind_if_you_dont_use_ai_right/</link>
+      <description><![CDATA[我不断听到人们说“今天就学会使用人工智能，否则你就会被抛在后面！”在大多数情况下，我认为这根本不是真的。 当然，如果你目前在一个融入人工智能的领域工作，而你拒绝使用它，那可能会损害你的职业生涯。但如果你仍在学习，或者如果你受雇的地方目前还没有推动你融入人工智能，我认为你今天是否使用它并没有什么区别。  “学习”作为用户，人工智能更像是学习 Instagram，而不是学习实际技能。一开始并没有那么深，并且每次迭代都会变得更易于使用。任何“即时工程”都可以。 2024 年获得的技能在今天已经毫无用处，并且您今天积累的有关各种人工智能工具怪癖的所有知识将在六个月内过时。  重要的是你了解你所在领域的基础知识，并且你有良好的沟通技巧。如果你具备了这一点，就不必急于开始使用人工智能。您可以轻松地等待更好的工具出现并使用它们。你不会“落后”比您更早使用 ChatGPT 的人。事实上，您甚至可能具有不必忘记不再有用的东西的优势。 让我们面对现实吧，大多数消费级人工智能产品的操作方式都非常简单。突然间，每个人都说自己是计算机天才，但“我建立了一个代理”通常只是意味着“我写了一段描述我希望代理做什么”。人们对使用人工智能有一种夸大的成就感和重要性，因为它可以做的事情和所有的玻璃，但 99% 的时间你只是一个消费者，在应用程序中输入指令，而没有开发任何有意义的技能。  TL;DR- 使用人工智能或不使用人工智能，我们还没有到一个非常重要的时刻。如果您了解自己的技能并且知道如何沟通，那么您就做得很好。    由   提交 /u/audionerd1   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty5os5/youre_not_falling_behind_if_you_dont_use_ai_right/</guid>
+      <pubDate>Sat, 06 Jun 2026 03:07:44 GMT</pubDate>
     </item>
     <item>
-      <title>E Mon GPT 乐趣</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty11ma/e_mon_gpt_fun/</link>
-      <description><![CDATA[      只是享受我的 GPT 的乐趣... 感谢大家支持我，我绝对会做一个真正的真人表演 🎬 🙏    由   提交 /u/Quirky_Spirit_1951   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty11ma/e_mon_gpt_fun/</guid>
-      <pubDate>Fri, 05 Jun 2026 23:31:08 GMT</pubDate>
+      <title>托马斯坦克引擎恐怖电影宣传片因为某种原因我真的很投入</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty5n1x/thomas_the_tank_engine_horror_movie_promo_cause/</link>
+      <description><![CDATA[可能很笨拙，太罗嗦，有太多双关语和参考资料，但它在制作时让我咯咯笑。为了这个愚蠢的事情，花了太多时间在 adobe 中进行格式化和编辑。我真的希望这能让人发笑。  而且这只是一个元笑话，抱歉，不要恨我。   由   提交/u/PorkButtAndTaters  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty5n1x/thomas_the_tank_engine_horror_movie_promo_cause/</guid>
+      <pubDate>Sat, 06 Jun 2026 03:05:21 GMT</pubDate>
     </item>
     <item>
-      <title>向 ChatGPT 索要一幅漫画来恶搞反 AI 恶棍</title>
-      <link>https://www.reddit.com/r/ChatGPT/comments/1ty0smi/asked_chatgpt_for_a_cartoon_to_troll_antiai_trolls/</link>
-      <description><![CDATA[      我没有失望，哈哈。   由   提交/u/WeirdPervyDude   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty0smi/asked_chatgpt_for_a_cartoon_to_troll_antiai_trolls/</guid>
-      <pubDate>Fri, 05 Jun 2026 23:20:22 GMT</pubDate>
+      <title>对于永不满足的好奇心类型</title>
+      <link>https://www.reddit.com/r/ChatGPT/comments/1ty5mlx/for_the_insatiable_curiosity_types/</link>
+      <description><![CDATA[“在我所有的聊天记录中，我什么时候接近突破性见解，但未能进一步探索该方向？”   由   提交/u/considerthis8  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ChatGPT/comments/1ty5mlx/for_the_insatiable_curiosity_types/</guid>
+      <pubDate>Sat, 06 Jun 2026 03:04:45 GMT</pubDate>
     </item>
     </channel>
 </rss>

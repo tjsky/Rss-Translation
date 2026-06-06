@@ -4,7 +4,21 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Sat, 06 Jun 2026 02:42:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 06:29:21 GMT</lastBuildDate>
+    <item>
+      <title>更新了动态图像处理的 imagor 1.9.1 基准测试结果</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ty8mwh/updated_imagor_191_benchmark_results_for_dynamic/</link>
+      <description><![CDATA[我一直在改进 imagor 对流式图像源及其 libvips 图像加载路径的处理，并使用当前版本更新了基准页面。 如果您在 Web 堆栈中从事图像交付、动态调整大小或基于 URL 的图像处理，则更新的基准摘要如下： 基准页面： https://docs.imagor.net/benchmarks imagor 存储库： https://github.com/cshum/imagor 这些结果使用 imagor、imgproxy 和thumor 的发布版本。基准测试页面包含摘要图表，基准测试存储库包含提交的结果摘要，供任何想要更仔细地检查设置的人使用。 很高兴讨论实现更改、基准设置或哪些其他可用于测量的场景。   由   提交/u/cshum  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ty8mwh/updated_imagor_191_benchmark_results_for_dynamic/</guid>
+      <pubDate>Sat, 06 Jun 2026 05:37:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>【Showoff Saturday】分享我的德雷克方程互动探索：3D星系、实时滑块、vanilla JS</title>
+      <link>https://www.reddit.com/r/webdev/comments/1ty7eig/showoff_saturday_sharing_my_drake_equation/</link>
+      <description><![CDATA[      只是想分享我一直在研究的德雷克方程探索。您调整参数，它会立即更新文明计数，并提供您可以探索的 3D 银河系、图表、NASA 系外行星数据和双语 EN/ES。 使用普通 JS + Three.js 构建，无框架。 https://mendiak.github.io/drake.equation/   由   提交/u/mendiak_81  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1ty7eig/showoff_saturday_sharing_my_drake_equation/</guid>
+      <pubDate>Sat, 06 Jun 2026 04:33:13 GMT</pubDate>
+    </item>
     <item>
       <title>针对大量顶点进行了优化。近 400 人提交里程碑。🚩</title>
       <link>https://www.reddit.com/r/webdev/comments/1ty481u/optimized_for_large_numbers_of_vertices_nearly/</link>
@@ -78,7 +92,7 @@
     <item>
       <title>如何保护自己免受意外使用费用的影响 - 想想 aws/netlify？</title>
       <link>https://www.reddit.com/r/webdev/comments/1txy05w/how_do_you_protect_yourself_from_unexpected_usage/</link>
-      <description><![CDATA[下班后，我一直在尝试使用 aws cloud 启动我自己的应用程序和网站（主要是为了业余爱好/为了好玩，并不是真正期望收入，但也许有一天） 无论如何，几个月前我的一个网站受到机器人攻击，导致我的 netlify 每月账单在一天内从 20 美元涨到 140 美元 这吓坏了我不会撒谎。我对 DevOps 的了解非常有限，以至于我不得不求助于人工智能来帮助调试。我们发现有 800 万个僵尸请求发送到我的前端网站，并且在我的 .netify.app 链接上，netlify 不会为您提供 DDoS 保护，除非您支付额外费用。我的实际域名受到 cloudfare 速率限制的保护，我什至不知道我有该网站的辅助域名。不管怎样，这是有用的发现，现在我至少对 netlify 感到更安全了。 我真的不想放弃这个爱好。无论如何，是否可以获得可预测的计费，我什至不介意他们是否会在超出使用量时关闭我的应用程序。我读到，fly.io 是基于信用使用的。这对后端有好处吗？   由   提交 /u/Ok_Inspiration_3656   [链接] [评论]]]></description>
+      <description><![CDATA[下班后，我一直在尝试使用 aws cloud 启动我自己的应用程序和网站（主要是为了业余爱好/为了好玩，并不是真正期望收入，但也许有一天） 无论如何，几个月前我的一个网站受到机器人攻击，导致我的 netlify 每月账单在一天内从 20 美元涨到 140 美元 这吓坏了我不会撒谎。我对 DevOps 的了解非常有限，以至于我不得不求助于人工智能来帮助调试。我们发现有 800 万个僵尸请求发送到我的前端网站，并且在我的 .netify.app 链接上，netlify 不会为您提供 DDoS 保护，除非您支付额外费用。我的实际域名受到 cloudfare 速率限制的保护，我什至不知道我有该网站的辅助域名。不管怎样，这是有用的发现，现在我至少对 netlify 感到更安全了。 我真的不想放弃这个爱好。无论如何，有没有获得可预测的账单的方法，我什至不介意他们是否会在超出使用量时关闭我的应用程序。我读到，fly.io 是基于信用使用的。这对后端有好处吗？   由   提交 /u/Ok_Inspiration_3656   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1txy05w/how_do_you_protect_yourself_from_unexpected_usage/</guid>
       <pubDate>Fri, 05 Jun 2026 21:26:02 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[大家好， PHP 时不时会出现在这里，我注意到讨论通常是基于该语言 5 年前的样子。由于我每天都在使用它并且真正喜欢它，所以我写了一篇简短的文章回顾了它今天的实际情况。 它涵盖了现代部署（FrankenPHP、Docker）、软件架构（模块化单体、Symfony 内核、代理）、类型系统及其工具（PHPStan、PHP CS Fixer）以及并发状态（ReactPHP、Swoole、True Async RFC）。 完整文章： https://morice.live/posts/your-next-project-will-run-on-php/ 如果我错过了什么，或者如果您希望我更深入地讨论某个特定主题，请告诉我！   由   提交/u/andre_ange_marcel  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1txw35f/where_modern_php_stands_in_2026_deployment/</guid>
       <pubDate>Fri, 05 Jun 2026 20:12:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>在构建更好的用户体验时，意外地将数据库写入减少了约 95%</title>
-      <link>https://www.reddit.com/r/webdev/comments/1txsgft/when_building_for_better_ux_accidentally_cuts/</link>
-      <description><![CDATA[一些背景信息：我很高兴构建我的应用程序。我正在尝试构建一些真正适合监控的东西。我在几个 VPS 上运行一个工作池，并以每 15 秒一次的紧密循环探测大约 10k 个端点。 悄然浪费金钱的部分是，每个探测结果都写入我们的文档数据库，并且所有仪表板都通过实时侦听器 (onSnapshot) 订阅这些文档。在 Firestore 中，这是构建实时仪表板的明显方法，并且在您绘制出实际数据流之前它实际上效果很好：  工作人员在每个周期写入 每次写入都会扇出到运行仪表板的每个浏览器进行读取 因此成本只会随着周期数量和打开仪表板而变化  数据库悄悄地变成了一条消息总线，对每条消息进行计费。 我想这个这就是你如何以艰难的方式学习正确的架构。 😄 一个美好的周五晚上，喝着一杯威士忌，我决定做点酷的事情。我希望直接在网站上为用户提供真实的实时体验。基本上是直接查看 VPS 的东西。 所以我翻转了它。  WebSocket 是实时字段的真相来源 数据库降级为配置 + 状态转换 “仍然存在”心跳被批量处理，而不是写“200 OK”在所有循环中，我们切换到转换模型并按间隔刷新无变化  结果：  数据库写入减少约 95% 实时状态读取为零 从探测到像素的时间从 1-3 秒变为 &lt;300ms (p90)  感觉有点像作弊。使产品变得更加酷和有用，同时还削减成本，而且不仅仅是削减直接成本。这东西疯狂地扩展。基本上，唯一真正需要的是大量的内存。如今内存并不便宜，但它绝对比连续实时数据库读写便宜。 一些值得一提的权衡。 如果套接字丢失，我将数据库侦听器作为后备。 UI 会降级而不是破坏。 Websockets 是真正的运维工作。维护变得有点困难，如果有任何东西掉落，效果会更直接。一个例子是，当我部署新版本时，之前基本上是完全静默处理的。但现在每个人都可以立即看到它。 我想我在这里写这篇文章是因为我着迷、兴奋，同时又有点目瞪口呆。当你不断探索和开发时，你就会遇到这样的事情，而我只是期待着我会遇到的下一个事情。 不把一切都交给人工智能，这绝对是有回报的。 😄   由   提交/u/PR4DE   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1txsgft/when_building_for_better_ux_accidentally_cuts/</guid>
-      <pubDate>Fri, 05 Jun 2026 18:00:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果客户问您为什么他们不能一次性使用该应用程序？您如何通过解释软件开发过程来反驳？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1txpvdz/if_a_client_asks_you_why_they_cant_just_oneshot/</link>
-      <description><![CDATA[由于围绕人工智能的所有炒作和营销，我觉得这可能会变得更加普遍。似乎很多人都相信任何人都可以一次性构建一个应用程序，我们不再需要经验丰富的工程师。 当他们问“为什么我们不能一次性构建应用程序”之类的问题时，你就处于尴尬的境地，向他们解释整个开发过程，以及获得生产质量应用程序所需的所有步骤。人工智能可以用来协助和增强这个过程，但你需要一个人在循环中知道和理解他们在做什么。您会如何回应，而不是只是告诉他们“自己尝试一下”？您如何解释为什么人工智能不能制作整个应用程序？您将如何分解构建整个应用程序的逐步过程？ 谢谢   由   提交 /u/throtaway0134hdj   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1txpvdz/if_a_client_asks_you_why_they_cant_just_oneshot/</guid>
-      <pubDate>Fri, 05 Jun 2026 16:28:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
