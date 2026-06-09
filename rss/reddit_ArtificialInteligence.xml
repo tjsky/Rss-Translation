@@ -4,13 +4,27 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Tue, 09 Jun 2026 20:01:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 22:20:18 GMT</lastBuildDate>
+    <item>
+      <title>为什么 Anthropic 的超肮脏交易根本不应该让你感到惊讶</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1hphy/why_anthropics_ultradirty_deal_shouldnt_surprise/</link>
+      <description><![CDATA[ 由   提交/u/nath1234  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1hphy/why_anthropics_ultradirty_deal_shouldnt_surprise/</guid>
+      <pubDate>Tue, 09 Jun 2026 21:00:34 GMT</pubDate>
+    </item>
     <item>
       <title>代理循环非常有用，直到它们从最糟糕的代码中学习为止</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1fr0s/agent_loops_are_great_until_they_learn_from_your/</link>
-      <description><![CDATA[Steinberger 在周末发布了关于他如何不再编写代码，而只是设计代理循环的文章。 Anthropic 的鲍里斯·切尔尼 (Boris Cherny) 也说了基本上同样的话。他不会提示克劳德，只是创建循环，然后他们处理剩下的事情。如果你在 Anthropic 并且代币本质上是免费的，当然，让它整天循环。我们大多数人都为代理读取的每个文件支付真实的费用。 全面披露我经营一家软件交付公司，我们做了很多棕地工作，所以这就是我从这方面看到的。 我们上个季度在客户的核心产品上设置了代理循环。代理商的速度很快。一周内发布了四项功能。 PR 看起来很干净，CI 通过了，团队对此感到兴奋。 然后安全审查发现了它。所有四个功能都使用了团队两年来一直试图摆脱的模式。旧模式存在于代码库中大约 40 多个文件中。新的可能存在 6 年。 代理查看了最常见的内容并遵循它。我的意思是，为什么不呢。它不知道您的团队有迁移计划。它不会读取您的架构决策记录。它读取您的代码。你的代码告诉它，已弃用的方式是正确的方式，因为大多数代码库都是这样的。 没有人在代码审查中发现它，因为每个 PR 都是功能性的。 代码有效......只是在某种程度上错误，如果你知道团队正在积极摆脱这种模式，你才会注意到。 在一个新建项目中，代理只有你的提示和系统指令才能继续。您可以控制上下文。在棕地中，代码库就是上下文，它会淹没您在提示中输入的任何内容。 40 个文件每次都击败一段指令。 每个人都在谈论“88% 的代理项目在生产前失败”的说法。统计。我认为还有一个更糟糕的数字没有人追踪。有多少人达到了生产并在每一个可见的指标上取得了成功，同时还回了团队试图偿还的相同技术债务。因为这就是我一直看到的。 功能发布、速度在冲刺评审中看起来很棒，而代码库在底层却越来越糟糕。 我在每周细分中写了我们在 100 多个工程项目中看到的情况，如果您想了解更多信息，请点击此处这个主题。 无论如何，我并不是说不要使用循环。我的意思是，在您指向现有代码库之前，请弄清楚其中有哪些您不希望它从中学习的内容。 因为它会从所有内容中学习。它没有关于哪个是哪个的意见。   由   提交 /u/Senior_tasteey   [链接] [评论]]]></description>
+      <description><![CDATA[Steinberger 在周末发布了关于他如何不再编写代码，而只是设计代理循环的文章。 Anthropic 的鲍里斯·切尔尼 (Boris Cherny) 也说了基本上同样的话。他不会提示克劳德，只是创建循环，然后他们处理剩下的事情。如果你在 Anthropic 并且代币本质上是免费的，当然，让它整天循环。我们大多数人都为代理读取的每个文件支付真实的费用。 全面披露我经营一家软件交付公司，我们做了很多棕地工作，所以这就是我从这方面看到的。 我们上个季度在客户的核心产品上设置了代理循环。代理商的速度很快。一周内发布了四项功能。 PR 看起来很干净，CI 通过了，团队对此感到兴奋。 然后安全审查发现了它。所有四个功能都使用了团队两年来一直试图摆脱的模式。旧模式存在于代码库中大约 40 多个文件中。新的可能存在 6 年。 代理查看了最常见的内容并遵循它。我的意思是，为什么不呢。它不知道您的团队有迁移计划。它不会读取您的架构决策记录。它读取您的代码。你的代码告诉它，已弃用的方式是正确的方式，因为大多数代码库都是这样的。 没有人在代码审查中发现它，因为每个 PR 都是功能性的。 代码有效......只是在某种程度上错误，如果你知道团队正在积极摆脱这种模式，你才会注意到。 在一个新建项目中，代理只有你的提示和系统指令才能继续。您可以控制上下文。在棕地中，代码库就是上下文，它会淹没您在提示中输入的任何内容。 40 个文件每次都击败一段指令。 每个人都在谈论“88% 的代理项目在生产前失败”的说法。统计。我认为还有一个更糟糕的数字没有人追踪。有多少人达到了生产并在每一个可见的指标上取得了成功，同时还回了团队试图偿还的相同技术债务。因为这就是我一直看到的。 功能发布、速度在冲刺评审中看起来很棒，而代码库在底层却越来越糟糕。 我在每周细分中写了我们在 100 多个工程项目中看到的内容，点击此处如果您想了解更多信息这个主题。 无论如何，我并不是说不要使用循环。我的意思是，在您指向现有代码库之前，请弄清楚其中有哪些您不希望它从中学习的内容。 因为它会从所有内容中学习。它没有关于哪个是哪个的意见。   由   提交 /u/Senior_tasteey   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1fr0s/agent_loops_are_great_until_they_learn_from_your/</guid>
       <pubDate>Tue, 09 Jun 2026 19:49:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>模型越先进，使用它们就越没有意义。</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1fpus/the_more_advanced_the_models_become_the_more/</link>
+      <description><![CDATA[我最近一直在思考如何使用 AI 工具，感觉自己正处于钟形曲线的另一侧。  这些天我主要使用 sonnet/local llms 进行构建，除了追踪棘手的 bug 之外，将其他作品分类，因为说实话，只要稍微照顾一下，你最终会得到更好的结果。当然，你可以在长时间运行的任务上设置更高级的模型，睡觉，做任何事情，几个小时后，烧掉数百万个代币（和大量现金），你最终会得到一些可以工作并且符合你要求的东西，但感觉好像然后就接受它的本来面目，并认为它是最好的，而实际上它只是一个局部最大值，你可以有找到了一个更好的模型，需要更多的思考和指导。 与“愚蠢”的模型坐在一起，迫使你更多地参与它，让我觉得从长远来看，我总是能以更便宜的价格获得更好的结果，而且通常更快，因为你被迫更多地思考你想要实现的目标，并且在整个过程中有更多的检查点来进行调整，甚至有时重新思考你正在构建的东西。 除非你想要解决的问题定义非常明确，只是感觉最新的 claude 和 gpt 模型杀伤力太大，完全浪费金钱，如果你很懒并且想用尽可能少的努力将溢出物推出，也许它们很有用。 只是我个人的观察。   由   提交 /u/Dredgefort   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1fpus/the_more_advanced_the_models_become_the_more/</guid>
+      <pubDate>Tue, 09 Jun 2026 19:48:26 GMT</pubDate>
     </item>
     <item>
       <title>出色地...</title>
@@ -27,6 +41,13 @@
       <pubDate>Tue, 09 Jun 2026 18:50:27 GMT</pubDate>
     </item>
     <item>
+      <title>为什么《寓言 5》只到 6 月 22 日才上市？人类真的认为这个模型太疯狂了吗？</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1dkg0/why_is_fable_5_included_only_till_june_22_does/</link>
+      <description><![CDATA[据报道，它在几乎所有主要人工智能基准测试中都表现出色，在软件工程、知识工作、视觉任务和科学推理方面表现尤其强劲 它在更长、更复杂的任务中表现更好，在这些任务中它比其他模型进一步领先，并且比以前的 Claude 版本更好地利用了代币。 最重要的是，它可以在极长的时间内保持一致的专注上下文，多达数百万个令牌，甚至通过在长时间运行的任务期间引用自己的注释来改进其输出 所以，我的意思是，这就是全部原因吗？这个模型本身就是一个绝对的单位吗？    由   提交/u/ocean_protocol  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1dkg0/why_is_fable_5_included_only_till_june_22_does/</guid>
+      <pubDate>Tue, 09 Jun 2026 18:31:39 GMT</pubDate>
+    </item>
+    <item>
       <title>好吧，《神鬼寓言 5》实际上刚刚发布，我需要谈谈条纹的事情</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1d5xu/ok_fable_5_actually_just_dropped_and_i_need_to/</link>
       <description><![CDATA[so anthropic 一小时前发布了寓言 5。神话级但公开的。  无论如何。 我无法停止思考的是条纹演示。 5000 万行 ruby​​ 代码库。全面迁移。一天。他们的实际工程团队估计需要 2 个多月的时间来完成这项工作。 就像我已经有足够的代码库知道这不是“哦，酷酷的人工智能帮助”一样。片刻。这就是“为什么我们有 40 名工程师”的问题。  我对整个神话炒作感到非常困惑，但这是我第一次真正思考三年后当前的工作会是什么样子。 我还没有在项目中尝试过，但明天早上我肯定会这么做。   由   提交/u/pretendingMadhav   [链接] [评论]]]></description>
@@ -34,25 +55,11 @@
       <pubDate>Tue, 09 Jun 2026 18:17:37 GMT</pubDate>
     </item>
     <item>
-      <title>《克劳德寓言 5》将在几周后上架。这就是为什么...</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1c7c7/claude_fable_5_will_be_not_available_after_few/</link>
-      <description><![CDATA[ 由   提交/u/Independent-Wind4462   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1c7c7/claude_fable_5_will_be_not_available_after_few/</guid>
-      <pubDate>Tue, 09 Jun 2026 17:43:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>🤖 Anthropic 发布了 Claude Fable 5，这是其最强大的公共模型，对网络和生物具有制动作用</title>
+      <title>🤖 Anthropic 发布 Claude Fable 5，其最强大的公共模型，对网络和生物具有制动作用</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1bfer/anthropic_releases_claude_fable_5_its_most/</link>
       <description><![CDATA[ https://preview.redd.it/sqnmdy7tia6h1.png?width=1159&amp;format=png&amp;auto=webp&amp;s=dcd52caaa52b33d15ff76ee74cc781fa04227d16 Anthropic 于 6 月 9 日发布了 Claude Fable 5，这是其 Mythos 类的第一个公开模型，今年引起了网络安全行业的警惕。该公司称其为迄今为止最有能力的。  Anthropic 表示，《神鬼寓言 5》和受限的《神话 5》是相同的底层模型； Mythos 5 保留了完整的网络进攻力量，并且仅通过 Glasswing 项目向经过审查的防御者提供。  在基准测试中它处于领先地位。 Stripe 表示，《神鬼寓言 5》在一天之内完成了 5000 万行 Ruby 迁移，而这项工作预计需要两个月的手工时间。 Cursor 的首席执行官兼联合创始人 Michael Truell 称其为 CursorBench 上最先进的模型。  Anthropic 阻止网络安全、生物学、化学和蒸馏提示，将它们路由到旧版 Opus 4.8。 Guardrails 在不到 5% 的会话中触发，并且 bug 赏金发现在 1,000 多个小时内没有出现普遍的越狱。  定价为每百万个输入代币 10 美元，每百万个输出代币 50 美元，是 Opus 4.8 的两倍。 《神鬼寓言 5》在 Pro、Max、Team 和 Enterprise 席位上免费，直至 6 月 22 日，然后转为使用积分。  来源：https://www.anthropic.com/news/claude-fable-5-mythos-5 另外： https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1bfer/anthropic_releases_claude_fable_5_its_most/</guid>
       <pubDate>Tue, 09 Jun 2026 17:17:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>无论你如何优化，没有新技术就不可能实现通用人工智能</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u16t7z/agi_not_possible_without_new_tech_no_matter_how/</link>
-      <description><![CDATA[我很乐意分享是什么导致了什么以及我如何得出这个结论。但这样一来，时间就会变得不必要的长。  所以基本上硅树脂是一种半导体，可以传导电流，人脑也可以传导电流。  如果我们不考虑数学，那么人脑每秒会计算出来自 5 种感官、荷尔蒙和过去记忆的大量数据。我搜索了google，发现人脑的速度为1exaflops/秒。为了达到如此高的速度，超级计算机需要 20-30 兆瓦的电力。不同之处在于，人脑只需要 20 瓦并且永远不会升温。相比之下，30 兆瓦电力可为约 22,000 户郊区家庭供电。  现在我是如何得出这个结论的。目前的人工智能工具基本上都是经过优化的模式引擎，以消耗更少的电力和计算量。  AGI的目标是通过超级计算拥有类人的个性。  超级计算基本上遵循模式和规则。  但是人脑可以停止遵循模式并产生独特的思想和想法。但我们也以模式思考。那么到底是怎么回事呢？  这基本上是对不断的想法的并行处理，当任何想法产生不符合模式的结果时，我们的大脑可能会关注它。但这样的事情需要如此快速的计算，普通人甚至无法理解。  所以，是的，AGI 可能具有一种模式的个性，但再次使其像人类一样，它应该具有超越模式的能力。只有这样才能找到罕见疾病的治疗方法并改善太空旅行。  正如前面所讨论的，要实现这一壮举，需要快速并行计算。  所以，是的，硅基半导体计算器很快就会达到天花板。  下一场比赛将寻找技术甚至生物技术来进行荒谬的计算，而能源要少得多，热量和碳排放几乎为零。  这与矩阵电影的概念几乎相似。但人们无法理解，因此人类被视为电池。    由   提交 /u/sissy_raagini_   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u16t7z/agi_not_possible_without_new_tech_no_matter_how/</guid>
-      <pubDate>Tue, 09 Jun 2026 14:36:53 GMT</pubDate>
     </item>
     <item>
       <title>这就是他们进行 IPO 的原因</title>
@@ -64,7 +71,7 @@
     <item>
       <title>谷歌工程师公开嘲笑自己公司的人工智能战略及其 75% 人工智能生成的代码</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u10axf/google_engineers_are_openly_mocking_their_own/</link>
-      <description><![CDATA[ https://preview.redd.it/bagmboar986h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=58ab9ae0377d204e6f6ad83266c7830fc69288f3 根据 404 Media 的报道，Google 员工在公司内部平台 Memegen 上尖锐嘲讽其人工智能工具和编码系统 Jetski。 员工抱怨这项技术不可靠，让他们的工作更加困难，这与 CEO Sundar Pichai 的乐观言论相矛盾。 4 月份，Sundar Pichai 指出，公司 75% 的新代码是由 AI 编写的。然而，工程师们表示，这个过程只是将瓶颈转移到了其他开发阶段。 员工解释说，审查和测试人工智能编写的 100 个单独任务所需的时间与传统工程工作完全相同。 他们评估说，Google 的基础设施和工程文化是为了稳定而构建的，而人工智能的加速发展与这种方法直接冲突。 来源：https://futurism.com/artificial-intelligence/google-employees-mocking-ai   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
+      <description><![CDATA[ https://preview.redd.it/bagmboar986h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=58ab9ae0377d204e6f6ad83266c7830fc69288f3 根据 404 Media 的报道，谷歌员工在公司内部平台 Memegen 上尖锐嘲讽其人工智能工具和编码系统 Jetski。 员工抱怨这项技术不可靠，让他们的工作更加困难，这与首席执行官桑达尔·皮查伊 (Sundar Pichai) 的乐观言论相矛盾。 4 月份，桑达尔·皮查伊 (Sundar Pichai) 指出，公司 75% 的新代码是由人工智能编写的。然而，工程师们表示，这个过程只是将瓶颈转移到了其他开发阶段。 员工解释说，审查和测试人工智能编写的 100 个单独任务所需的时间与传统工程工作完全相同。 他们评估说，Google 的基础设施和工程文化是为了稳定而构建的，而人工智能的加速发展与这种方法直接冲突。 来源：https://futurism.com/artificial-intelligence/google-employees-mocking-ai   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u10axf/google_engineers_are_openly_mocking_their_own/</guid>
       <pubDate>Tue, 09 Jun 2026 09:41:48 GMT</pubDate>
     </item>
@@ -78,21 +85,14 @@
     <item>
       <title>一名美国程序员刚刚获得宗教豁免，免于被迫在工作中使用人工智能</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u10ag3/a_us_programmer_just_won_a_religious_exemption/</link>
-      <description><![CDATA[ https://preview.redd.it/hy1dk83m986h1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=74383b6e89ee43ee79435e6ca030cfe430993845 北卡罗来纳州一家科技娱乐公司的一名 34 岁员工请求豁免在工作中使用人工智能。程序员 Erin Mouse 获得了雇主的正式宗教豁免。 据 Business Insider 报道，该公司于 5 月份批准了这一请求。这位程序员是一神论普世主义者，她在四月份表达了自己的立场。 Erin Mouse 指出了该技术的生态问题，这与数据中心过度的水和能源消耗有关。她完全靠手工完成工作。 专家约翰·米汉 (John Meehan) 指出，公司需要根据《民权法》第七章采用新的规定。雇主必须紧急制定此类政策。 程序员发现手动编写代码与使用人工智能一样快。在她的评估中，该系统没有提供预期的优势，这在两年前甚至不是一个问题。由   提交 /u/andrewaltair   [链接] [评论]]]></description>
+      <description><![CDATA[ https://preview.redd.it/hy1dk83m986h1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=74383b6e89ee43ee79435e6ca030cfe430993845 北卡罗来纳州一家科技娱乐公司的一名 34 岁员工请求豁免在工作中使用人工智能。程序员 Erin Mouse 获得了雇主的官方宗教豁免。 据 Business Insider 报道，该公司于 5 月份批准了这一请求。这位程序员是一神论普世主义者，她在四月份表达了自己的立场。 Erin Mouse 指出了该技术的生态问题，这与数据中心过度的水和能源消耗有关。她完全靠手工完成工作。 专家约翰·米汉 (John Meehan) 指出，公司需要根据《民权法》第七章采用新的规定。雇主必须紧急制定此类政策。 程序员发现手动编写代码与使用人工智能一样快。在她的评估中，该系统没有提供预期的优势，这在两年前甚至不是一个问题。由   提交 /u/andrewaltair   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u10ag3/a_us_programmer_just_won_a_religious_exemption/</guid>
       <pubDate>Tue, 09 Jun 2026 09:40:59 GMT</pubDate>
     </item>
     <item>
-      <title>NSA使用Anthropic的“神话”模型来对付中国和伊朗</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u109ef/the_nsa_used_anthropics_mythos_model_against/</link>
-      <description><![CDATA[ https://preview.redd.it/w042wsoa986h1.png?width=700&amp;format=png&amp;auto=webp&amp;s=7ea4df33b619d4903a6edf3c6ad5e7766e7c35ca 美国国家安全局正在使用 Anthropic 的人工智能模型 Mythos 对中国和伊朗进行攻击性网络行动。该计划帮助该机构渗透目标网络。 据英国《金融时报》报道，该公司向该机构派遣了 6 名自己的工程师。专家提供系统适配和技术支持。 这种合作是在与五角大楼持续存在的法律纠纷中展开的。国防部将该公司评估为“供应链风险”。但该机构保留了对 Mythos 的豁免访问权限。 该公司此前表示，事实证明，这种模式对于黑客行动而言过于强大。记者托马斯·麦考利 (Thomas Macaulay) 表示，未经授权的组织获得了 Mythos 源代码的访问权限。 与此同时，该公司将 Mythos 的访问权限扩展到了 15 个国家/地区的 150 个组织。特朗普总统签署了有关人工智能安全测试的行政命令。 来源：https://the-decoder.com/anthropics-mythos-model-is-reportedly-powering-nsa-offense-cyber-ops-against-china-and-iran/ 附加：https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u109ef/the_nsa_used_anthropics_mythos_model_against/</guid>
-      <pubDate>Tue, 09 Jun 2026 09:39:13 GMT</pubDate>
-    </item>
-    <item>
       <title>首席执行官们仍然在人工智能上投入数十亿美元，这是绝对没有意义的</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u0z8yj/it_makes_absolutely_no_sense_that_ceos_are_still/</link>
-      <description><![CDATA[我认为经过 4 年的人工智能炒作，即使是外行人也能同意我们现在还没有接近 AGI。更重要的是，市场已经表明，任何公司都可以在人工智能市场上具有竞争力，并且闭源模型（例如 3 年前的 OpenAI）不再领先其他模型几年 作为研究人员，现在几乎每个人都在使用开源 Qwen 模型进行基准测试，GLM/Kimi/Meta 都有机会跻身排行榜。也就是说，人工智能研究领域肯定没有数十亿美元的价值。 例如，如果一家新公司现在用 10 亿美元挖走一些 Anthropic/OpenAI 的顶尖人才，他们可能会在不到一年的时间内拥有一个有竞争力的模型。这意味着他们比市场上所有其他参与者少花费了 1000 亿美元，哈哈。   由   提交 /u/Tree8282   [链接] [评论]]]></description>
+      <description><![CDATA[我认为经过 4 年的人工智能炒作，即使是外行人也能同意我们现在还没有接近 AGI。更重要的是，市场已经表明，任何公司都可以在人工智能市场上具有竞争力，并且闭源模型（如 3 年前的 OpenAI）不再领先其他人几年 作为研究人员，现在几乎每个人都在使用开源 Qwen 模型进行基准测试，GLM/Kimi/Meta 都有机会跻身排行榜。也就是说，人工智能研究领域肯定没有数十亿美元的价值。 例如，如果一家新公司现在用 10 亿美元挖走一些 Anthropic/OpenAI 的顶尖人才，那么他们可能会在不到一年的时间内拥有一个有竞争力的模型。这意味着他们比市场上所有其他参与者少花费了 1000 亿美元，哈哈。   由   提交 /u/Tree8282   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u0z8yj/it_makes_absolutely_no_sense_that_ceos_are_still/</guid>
       <pubDate>Tue, 09 Jun 2026 08:37:58 GMT</pubDate>
     </item>
