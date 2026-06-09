@@ -4,7 +4,21 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Tue, 09 Jun 2026 06:45:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 11:57:31 GMT</lastBuildDate>
+    <item>
+      <title>无需云端的P2P文件共享应用，免费开源</title>
+      <link>https://www.reddit.com/r/software/comments/1u12kla/p2p_file_sharing_app_without_cloud_free_and/</link>
+      <description><![CDATA[嘿 reddit！ 我是 P2P 工程师，所以在空闲时间正在研究一个业余项目，并决定在这里分享它，它称为 AlterSend。 AlterSend 是一款免费的开源应用程序，用于直接在您的设备之间发送文件，没有云，没有上传，没有大小限制。文件点对点传输并进行端到端加密，因此服务器上不会存储任何内容。 GitHub：https://github.com/denislupookov/altersend 功能：  没有帐户 没有服务器存储您的文件 端到端加密 无文件大小限制 跨平台（桌面+移动） 开源  这个想法是在没有云的情况下构建一个成熟的云文件传输应用程序的良好替代方案。 它的工作原理，大致： AlterSend 构建在 Hyperswarm 之上，而其底层是 Kademlia DHT。对于每次传输，我们都会生成一个随机密钥作为发现主题，您可以与任何应该接收文件的人共享该密钥。每个对等点都在 DHT 上以自己的节点 ID 声明自己，因此对等点可以直接找到对方。少数公共引导节点作为初始入口点，之后对等点通过 DHT 相互发现，而不依赖于任何中央服务器。一旦两个对等点连接，传输将是直接且端到端加密的。  很想听听您的反馈！   由   提交/u/AlgoAstronaut   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1u12kla/p2p_file_sharing_app_without_cloud_free_and/</guid>
+      <pubDate>Tue, 09 Jun 2026 11:42:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>我厌倦了手动对凌乱的文件夹进行排序，因此我构建了一个轻量级的 Windows 工具来在几秒钟内完成这项艰巨的工作。你们觉得怎么样？</title>
+      <link>https://www.reddit.com/r/software/comments/1u0ygg9/i_got_tired_of_sorting_my_messy_folders_manually/</link>
+      <description><![CDATA[ 由   提交 /u/David_Hajos   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1u0ygg9/i_got_tired_of_sorting_my_messy_folders_manually/</guid>
+      <pubDate>Tue, 09 Jun 2026 07:50:11 GMT</pubDate>
+    </item>
     <item>
       <title>智能指南|零摩擦软件</title>
       <link>https://www.reddit.com/r/software/comments/1u0uvdi/intelliguide_zerofriction_software/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[目前我正在尝试设置我以前的副驾驶键来打开tinytask，然后按ctrl键进行录制，然后按crtl键进行播放。然而，我似乎为tinytask设置了错误的路径。有什么建议吗？   由   提交 /u/s_lizard   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1u0bnb5/issues_with_autohotkey/</guid>
       <pubDate>Mon, 08 Jun 2026 15:44:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Teamviewer Windows PC - iPad</title>
-      <link>https://www.reddit.com/r/software/comments/1u0bhc3/teamviewer_windows_pc_ipad/</link>
-      <description><![CDATA[我开始使用免费的 TeamViewer。在我使用 AnyDesk 之前，但由于我的电脑上不断需要有人批准连接请求，所以我对此感到厌倦。使用TeamViewer，只要我打开PC上的应用程序，我就可以使用我的iPad连接到PC，而无需有人接受访问请求。还有其他免费软件可以实现这一点吗？我还喜欢 TeamViewer 的 UI，因为它干净   由   提交 /u/AdThat9440   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1u0bhc3/teamviewer_windows_pc_ipad/</guid>
-      <pubDate>Mon, 08 Jun 2026 15:38:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Deskepty v2.0 已在商店上线！ （🎁 50 个免费促销代码！）</title>
-      <link>https://www.reddit.com/r/software/comments/1u0ak33/deskepty_v20_is_live_on_the_store_50_free_promo/</link>
-      <description><![CDATA[我是 Deskepty（适用于 Windows 10/11 的隐藏工作区管理器）的开发者 ✨ v2.0 功能：  6 种新语言：（阿拉伯语、法语、德语、意大利语、西班牙语、中文） 36 种主题（浅色、深色、签名、透明） 双面板重新设计，布局更加简洁 将 Deskepty 固定到任务栏，以便一键显示/隐藏访问 Steam Games 快捷方式支持 对任何 .exe 或文件夹的自定义图标支持 任务栏上重新设计的切换按钮（可拖动、重置到中心） 扩展系统工具（所有任务、Windows 工具等） 性能优化升级至 .NET 10 错误修复和改进  💬加入r/Deskepty获取更新、反馈和支持 🎁 Microsoft Store 50 个免费促销代码！  私信我“桌面”我将向您发送免费代码。 先到先得。    由   提交/u/Ghazi197  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1u0ak33/deskepty_v20_is_live_on_the_store_50_free_promo/</guid>
-      <pubDate>Mon, 08 Jun 2026 15:05:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
