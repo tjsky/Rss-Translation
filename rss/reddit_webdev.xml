@@ -4,13 +4,34 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Mon, 08 Jun 2026 22:24:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 02:40:41 GMT</lastBuildDate>
     <item>
-      <title>我在很多地方看到虚假/粗略的招聘信息，并在拒绝信中附有广告。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u0mjaf/i_see_fakesketchy_job_postings_in_a_lot_of_places/</link>
-      <description><![CDATA[这不是非法的吗？联邦贸易委员会睡着了吗？他们不应该执行规则吗？   由   提交 /u/Unfair_Today_511   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u0mjaf/i_see_fakesketchy_job_postings_in_a_lot_of_places/</guid>
-      <pubDate>Mon, 08 Jun 2026 22:12:01 GMT</pubDate>
+      <title>你觉得苹果在 WWDC 期间发布的 Siri Ai 怎么样？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u0r150/what_do_you_think_of_the_siri_ai_that_apple/</link>
+      <description><![CDATA[你的想法是什么，因为我很确定他们与 Google 合作了   由   提交 /u/Classic-Grab-2866   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u0r150/what_do_you_think_of_the_siri_ai_that_apple/</guid>
+      <pubDate>Tue, 09 Jun 2026 01:25:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Safari 技术预览版 245 发行说明</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u0ng64/release_notes_for_safari_technology_preview_245/</link>
+      <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u0ng64/release_notes_for_safari_technology_preview_245/</guid>
+      <pubDate>Mon, 08 Jun 2026 22:49:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Safari 技术预览版 245 发行说明</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u0n0l6/release_notes_for_safari_technology_preview_245/</link>
+      <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u0n0l6/release_notes_for_safari_technology_preview_245/</guid>
+      <pubDate>Mon, 08 Jun 2026 22:31:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>希望根据图像将测验编码到readymag中</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u0mxiq/looking_to_code_a_quiz_into_readymag_based_off_of/</link>
+      <description><![CDATA[      我希望这是有道理的。请记住，我对编码还很陌生，并且已经学习了随机的一次性项目。我想生成一个在 Readymag 上托管的测验，但开始创建静态图像，以便我可以控制美感。我希望使用覆盖在图像顶部的按钮来推进它，但它们还必须与特定答案相关联并存储该数据以在结果的最终屏幕上触发正确的响应。这可行吗？为何如此？我不会要求任何人免费为我做大量艰苦的工作，只是为我指明正确的方向。我知道如何制作按钮，但实际上并没有让操作前进，并存储数据以供参考。抱歉，如果有任何混乱。以图像为例，它有一个开始按钮并前进到下一个提示，一次一张图像。每个问题都有 2 或 3 个选项作为按钮。谢谢！  https://preview.redd.it/sjw645ccx46h1.png?width=2636&amp;format=png&amp;auto=webp&amp;s=146f36e1e5e242e340105e84dcb5579295bc0489   由   提交/u/Global_Math_7631   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u0mxiq/looking_to_code_a_quiz_into_readymag_based_off_of/</guid>
+      <pubDate>Mon, 08 Jun 2026 22:27:45 GMT</pubDate>
     </item>
     <item>
       <title>WWDC26 的网络技术会议</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[首先介绍一下上下文。我运行一项服务，该服务可以缓存来自付费网站的图像，这样用户就不必在每次访问时都重新加载它们。我们缓存的绝大多数内容是 PNG——巨大、臃肿、未压缩的 PNG。自然地，我开始研究更智能的存储和服务策略，而 JPEG XL 不断成为显而易见的答案。 PNG 的压缩效果尤其显着：与 JPEG 相比，您可以将文件大小缩小 50-60%，并且在同等设置下可察觉的质量损失最小。因此，计划看起来很简单：  将所有内容转换为 JXL 通过 Accept 标头检测浏览器支持 将 JPEG 作为不支持的浏览器的即时后备  以下是实际数字：   策略 总大小节省什么都不做~51GB-WebP Q85（通用）~12 GB −39GB   JPEG Q92（通用） ~21GB −30GB   JXL d=1 + JPEG 后备 ~16GB/ ~5 GB −46 GB（85% 的用户平均获得 76 KB）   JXL 路线在纸面上节省得最多 - 但这意味着存储所有内容的两个版本，或进行即时转换，这会增加延迟。 WebP Q85 刚刚获胜。普遍支持（全球约 97–98% 的浏览器），节省 −39 GB，无需回退。我讨厌这个结论，因为 JXL 在大多数重要技术维度上都表现得更好 Chrome 于 2022 年 10 月在 Chrome 110 中删除了 JXL 支持 - 鉴于 Chrome 约 65% 的全球市场份额，删除才是真正的杀手。所陈述的原因实际上有四个：实验标志不应该无限期地保留；生态系统利益不足；与现有格式相比增量效益不足；并减少维护负担。包括来自 Intel、Adobe、Cloudinary、Meta 和 Shopify 的工程师在内的批评者对所有这些说法提出了激烈的争议，这成为 Chromium 历史上最具争议的话题之一。 2026 年：谷歌改变了方向。 Chrome 145（2026 年 2 月发布）附带 JPEG XL 解码器 - 目前处于标记后面，但自 2022 年以来首次回到代码库中。预计在 2026 年下半年某个时候会发布稳定的默认版本。Safari 已经原生支持 JXL，Firefox 在 Nightly 版本中选择加入支持。值得注意的是：几个 Firefox 分支（包括 Pale Moon、Waterfox、LibreWolf 和 Basilisk）已经默认启用 JXL 支持一段时间了，即使主流浏览器落后，也可以作为该格式的早期试验场。在 Chromium 方面，Thorium（一个以性能为中心的 Chromium 分支）自早期版本以来同样默认启用 JXL，并在 Google 删除后明确修补它。这些分叉在市场份额方面属于利基市场，但它们很重要：它们证明了该格式在生产中可靠运行，保持了实施压力，并为开发人员提供了测试 JXL 交付管道的真正浏览器目标 因此，自我实现预言的批评仍然成立：Chrome 是生态系统，其 2022 年删除将 JXL 的采用冻结了三年，同时以采用率低为理由。但故事还没有结束。如果您今天正在设计管道，WebP 仍然是安全的通用选择 - 但现在值得将 JXL 转换构建到您的工作流程中，因为浏览器格局的变化速度比多年来更快 还有其他人在实际生产工作负载中遇到过这种情况吗？好奇是否有人找到了更聪明的解决方法   由   提交 /u/Capital_Rip3785   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1tz7kr8/jpeg_xl_is_objectively_better_than_webp_in_almost/</guid>
       <pubDate>Sun, 07 Jun 2026 09:33:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作了一个小小的曼德尔布罗探险家，希望得到反馈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tz5q1o/made_a_little_mandelbrot_explorer_would_love/</link>
-      <description><![CDATA[       由   提交/u/MusicToThyEars   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tz5q1o/made_a_little_mandelbrot_explorer_would_love/</guid>
-      <pubDate>Sun, 07 Jun 2026 07:42:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个开源 vs-code 扩展来扫描易受攻击的依赖项并避免通过另一个供应链受到损害。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tz2ebr/i_built_an_opensource_vscode_extension_to_scan/</link>
-      <description><![CDATA[   大家好，时隔很长一段时间才在这里发帖。 我们的行业正在经历重大转变，我们每天都在离代理编程的现实越来越近。虽然我全力支持代理编程，但我认为这不应该以我们的代码库受到损害为代价，因为 LLM 决定安装受损的依赖项。 随着供应链攻击即将成为我们开发人员日常用语的一部分，特别是在 js/ts 生态系统中，我构建了一个 vs-code 扩展，它可以根据列表扫描您的锁定文件（npm/yarn/pnpm，所有三个都受支持） Github 咨询数据库和 osv.dev。根据列表，它确定您项目的健康状况。它还会扫描不是由您安装但其他依赖项需要正常运行的依赖项。根据扫描，您会在侧边栏中看到四种状态：  SOS 警报 - 您安装的版本已受到威胁。立即行动。 不要升级 - 您很安全，但较新版本已受到威胁。 请勿降级 - 您很安全，但较旧版本已受到威胁。 通过 -  绿色复选标记。一切安全。  扩展程序报告如下所示：  https://preview.redd.it/c8df2fjegs5h1.png?width=2624&amp;format=png&amp;auto=webp&amp;s=ce506f033beb83d97915281ebf2888c456428fd4 扫描完成： - 基于轮询：每 30 分钟一次。 - 每次打开窗口时。 - 可以通过命令手动触发。 目前仅通过 osv 和 gha 进行扫描，我计划将来集成更可靠、更快的来源，例如 synk。希望大家对此发表意见，因为我在周末多次看到人工智能辅助依赖安装将易受攻击的软件包拉入项目后构建了这个。 扩展可以从以下位置安装：https://marketplace.visualstudio.com/items?itemName=uskhokhar.trust-me-bro-vsc 代码库位于：https://github.com/USKhokhar/trust-me-bro 请尝试一下。如果您喜欢，请在市场上评价它；如果您更喜欢它，请在 github 上给它加星标。我还在这里发布此内容，寻求比我更有经验、知识渊博的开源贡献者来帮助改进这个项目。 谢谢。和平:)   由   提交 /u/USKhokhar   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tz2ebr/i_built_an_opensource_vscode_extension_to_scan/</guid>
-      <pubDate>Sun, 07 Jun 2026 04:36:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个用于人工智能辅助编码的网络开发指导文件。我缺少什么？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1tz20kr/i_made_a_web_development_instruction_file_for/</link>
-      <description><![CDATA[随着人工智能辅助编码变得越来越普遍，我一直在编写一个详细的说明文件，我可以在生成或审查 Web 项目时使用它。 该文件主要关注基于 Laravel 的 Web 开发，使用 Blade、Tailwind CSS 和 Vite，但很多原则与框架无关，也可能适用于其他堆栈。 目标不是使人工智能“盲目地构建一切”，但要确保它始终遵循可靠的网络开发原则。 它目前涵盖以下内容：  可访问性优先和语义 HTML WCAG 2.2 AA Laravel、Blade、Tailwind 和 Vite 约定 安全最佳实践 SEO、AEO 和 GEO 核心 Web 生命 预加载、预取、预渲染和推测规则 跨文档视图转换 流畅的 UI 交互 减少运动支持 图标、应用图标和视觉效果 测试、文档和部署指南  我主要寻求其他开发者的反馈： 我错过了哪些重要主题？我应该添加任何现代网络平台功能吗？ 是否有任何听起来过于严格、过时或不切实际的规则？ 您个人会在人工智能辅助网络开发的说明文件中包含哪些内容？ 如果有人发现这个想法有用，请随意重用或调整您自己的工作流程的结构。 copilot-instructions.md: https://gist.github.com/DubblePumper/1f2a8e2e1b8d7785c4551c8216e8bffc   由   提交 /u/DubblePumper   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1tz20kr/i_made_a_web_development_instruction_file_for/</guid>
-      <pubDate>Sun, 07 Jun 2026 04:16:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
