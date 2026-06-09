@@ -4,27 +4,48 @@
     <title>人工智能</title>
     <link>https://www.reddit.com/r/ArtificialInteligence</link>
     <description>人工智能的高信号枢纽！</description>
-    <lastBuildDate>Tue, 09 Jun 2026 17:22:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 20:01:51 GMT</lastBuildDate>
     <item>
-      <title>随着与美国的竞争加剧，中国计划斥资 295B 美元建设人工智能数据中心</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1aib1/china_plans_295b_ai_data_center_buildout_as_race/</link>
-      <description><![CDATA[ 由   提交/u/andix3  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1aib1/china_plans_295b_ai_data_center_buildout_as_race/</guid>
-      <pubDate>Tue, 09 Jun 2026 16:45:29 GMT</pubDate>
+      <title>代理循环非常有用，直到它们从最糟糕的代码中学习为止</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1fr0s/agent_loops_are_great_until_they_learn_from_your/</link>
+      <description><![CDATA[Steinberger 在周末发布了关于他如何不再编写代码，而只是设计代理循环的文章。 Anthropic 的鲍里斯·切尔尼 (Boris Cherny) 也说了基本上同样的话。他不会提示克劳德，只是创建循环，然后他们处理剩下的事情。如果你在 Anthropic 并且代币本质上是免费的，当然，让它整天循环。我们大多数人都为代理读取的每个文件支付真实的费用。 全面披露我经营一家软件交付公司，我们做了很多棕地工作，所以这就是我从这方面看到的。 我们上个季度在客户的核心产品上设置了代理循环。代理商的速度很快。一周内发布了四项功能。 PR 看起来很干净，CI 通过了，团队对此感到兴奋。 然后安全审查发现了它。所有四个功能都使用了团队两年来一直试图摆脱的模式。旧模式存在于代码库中大约 40 多个文件中。新的可能存在 6 年。 代理查看了最常见的内容并遵循它。我的意思是，为什么不呢。它不知道您的团队有迁移计划。它不会读取您的架构决策记录。它读取您的代码。你的代码告诉它，已弃用的方式是正确的方式，因为大多数代码库都是这样的。 没有人在代码审查中发现它，因为每个 PR 都是功能性的。 代码有效......只是在某种程度上错误，如果你知道团队正在积极摆脱这种模式，你才会注意到。 在一个新建项目中，代理只有你的提示和系统指令才能继续。您可以控制上下文。在棕地中，代码库就是上下文，它会淹没您在提示中输入的任何内容。 40 个文件每次都击败一段指令。 每个人都在谈论“88% 的代理项目在生产前失败”的说法。统计。我认为还有一个更糟糕的数字没有人追踪。有多少人达到了生产并在每一个可见的指标上取得了成功，同时还回了团队试图偿还的相同技术债务。因为这就是我一直看到的。 功能发布、速度在冲刺评审中看起来很棒，而代码库在底层却越来越糟糕。 我在每周细分中写了我们在 100 多个工程项目中看到的情况，如果您想了解更多信息，请点击此处这个主题。 无论如何，我并不是说不要使用循环。我的意思是，在您指向现有代码库之前，请弄清楚其中有哪些您不希望它从中学习的内容。 因为它会从所有内容中学习。它没有关于哪个是哪个的意见。   由   提交 /u/Senior_tasteey   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1fr0s/agent_loops_are_great_until_they_learn_from_your/</guid>
+      <pubDate>Tue, 09 Jun 2026 19:49:39 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 秘密申请 IPO，交易员押注 1.5T 估值</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1a5a6/openai_confidentially_files_for_ipo_as_traders/</link>
-      <description><![CDATA[ 由   提交/u/andix3  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1a5a6/openai_confidentially_files_for_ipo_as_traders/</guid>
-      <pubDate>Tue, 09 Jun 2026 16:32:32 GMT</pubDate>
+      <title>出色地...</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1fj80/well/</link>
+      <description><![CDATA[ 由   提交/u/andrewaltair   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1fj80/well/</guid>
+      <pubDate>Tue, 09 Jun 2026 19:41:46 GMT</pubDate>
     </item>
     <item>
-      <title>很高兴看到更多网站集成了此功能</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u17ssn/nice_to_see_more_websites_integrating_this/</link>
-      <description><![CDATA[您是否觉得这些天您的在线体验因生成人工智能而变得不那么有趣？或者你觉得它会让事情变得更好吗？   由   提交/u/MrYundaz  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u17ssn/nice_to_see_more_websites_integrating_this/</guid>
-      <pubDate>Tue, 09 Jun 2026 15:11:38 GMT</pubDate>
+      <title>首次点击免费</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1e38r/first_hit_is_free/</link>
+      <description><![CDATA[ 由   提交 /u/Khaaaaannnn   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1e38r/first_hit_is_free/</guid>
+      <pubDate>Tue, 09 Jun 2026 18:50:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>好吧，《神鬼寓言 5》实际上刚刚发布，我需要谈谈条纹的事情</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1d5xu/ok_fable_5_actually_just_dropped_and_i_need_to/</link>
+      <description><![CDATA[so anthropic 一小时前发布了寓言 5。神话级但公开的。  无论如何。 我无法停止思考的是条纹演示。 5000 万行 ruby​​ 代码库。全面迁移。一天。他们的实际工程团队估计需要 2 个多月的时间来完成这项工作。 就像我已经有足够的代码库知道这不是“哦，酷酷的人工智能帮助”一样。片刻。这就是“为什么我们有 40 名工程师”的问题。  我对整个神话炒作感到非常困惑，但这是我第一次真正思考三年后当前的工作会是什么样子。 我还没有在项目中尝试过，但明天早上我肯定会这么做。   由   提交/u/pretendingMadhav   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1d5xu/ok_fable_5_actually_just_dropped_and_i_need_to/</guid>
+      <pubDate>Tue, 09 Jun 2026 18:17:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>《克劳德寓言 5》将在几周后上架。这就是为什么...</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1c7c7/claude_fable_5_will_be_not_available_after_few/</link>
+      <description><![CDATA[ 由   提交/u/Independent-Wind4462   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1c7c7/claude_fable_5_will_be_not_available_after_few/</guid>
+      <pubDate>Tue, 09 Jun 2026 17:43:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>🤖 Anthropic 发布了 Claude Fable 5，这是其最强大的公共模型，对网络和生物具有制动作用</title>
+      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u1bfer/anthropic_releases_claude_fable_5_its_most/</link>
+      <description><![CDATA[ https://preview.redd.it/sqnmdy7tia6h1.png?width=1159&amp;format=png&amp;auto=webp&amp;s=dcd52caaa52b33d15ff76ee74cc781fa04227d16 Anthropic 于 6 月 9 日发布了 Claude Fable 5，这是其 Mythos 类的第一个公开模型，今年引起了网络安全行业的警惕。该公司称其为迄今为止最有能力的。  Anthropic 表示，《神鬼寓言 5》和受限的《神话 5》是相同的底层模型； Mythos 5 保留了完整的网络进攻力量，并且仅通过 Glasswing 项目向经过审查的防御者提供。  在基准测试中它处于领先地位。 Stripe 表示，《神鬼寓言 5》在一天之内完成了 5000 万行 Ruby 迁移，而这项工作预计需要两个月的手工时间。 Cursor 的首席执行官兼联合创始人 Michael Truell 称其为 CursorBench 上最先进的模型。  Anthropic 阻止网络安全、生物学、化学和蒸馏提示，将它们路由到旧版 Opus 4.8。 Guardrails 在不到 5% 的会话中触发，并且 bug 赏金发现在 1,000 多个小时内没有出现普遍的越狱。  定价为每百万个输入代币 10 美元，每百万个输出代币 50 美元，是 Opus 4.8 的两倍。 《神鬼寓言 5》在 Pro、Max、Team 和 Enterprise 席位上免费，直至 6 月 22 日，然后转为使用积分。  来源：https://www.anthropic.com/news/claude-fable-5-mythos-5 另外： https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u1bfer/anthropic_releases_claude_fable_5_its_most/</guid>
+      <pubDate>Tue, 09 Jun 2026 17:17:02 GMT</pubDate>
     </item>
     <item>
       <title>无论你如何优化，没有新技术就不可能实现通用人工智能</title>
@@ -43,7 +64,7 @@
     <item>
       <title>谷歌工程师公开嘲笑自己公司的人工智能战略及其 75% 人工智能生成的代码</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u10axf/google_engineers_are_openly_mocking_their_own/</link>
-      <description><![CDATA[ https://preview.redd.it/bagmboar986h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=58ab9ae0377d204e6f6ad83266c7830fc69288f3 根据 404 Media 的报道，谷歌员工在公司内部平台 Memegen 上尖锐嘲讽其人工智能工具和编码系统 Jetski。 员工抱怨这项技术不可靠，让他们的工作更加困难，这与首席执行官桑达尔·皮查伊 (Sundar Pichai) 的乐观言论相矛盾。 4 月份，桑达尔·皮查伊 (Sundar Pichai) 指出，公司 75% 的新代码是由人工智能编写的。然而，工程师们表示，这个过程只是将瓶颈转移到了其他开发阶段。 员工解释说，审查和测试人工智能编写的 100 个单独任务所需的时间与传统工程工作完全相同。 他们评估说，Google 的基础设施和工程文化是为了稳定而构建的，而人工智能的加速发展与这种方法直接冲突。 来源：https://futurism.com/artificial-intelligence/google-employees-mocking-ai   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
+      <description><![CDATA[ https://preview.redd.it/bagmboar986h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=58ab9ae0377d204e6f6ad83266c7830fc69288f3 根据 404 Media 的报道，Google 员工在公司内部平台 Memegen 上尖锐嘲讽其人工智能工具和编码系统 Jetski。 员工抱怨这项技术不可靠，让他们的工作更加困难，这与 CEO Sundar Pichai 的乐观言论相矛盾。 4 月份，Sundar Pichai 指出，公司 75% 的新代码是由 AI 编写的。然而，工程师们表示，这个过程只是将瓶颈转移到了其他开发阶段。 员工解释说，审查和测试人工智能编写的 100 个单独任务所需的时间与传统工程工作完全相同。 他们评估说，Google 的基础设施和工程文化是为了稳定而构建的，而人工智能的加速发展与这种方法直接冲突。 来源：https://futurism.com/artificial-intelligence/google-employees-mocking-ai   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u10axf/google_engineers_are_openly_mocking_their_own/</guid>
       <pubDate>Tue, 09 Jun 2026 09:41:48 GMT</pubDate>
     </item>
@@ -57,7 +78,7 @@
     <item>
       <title>一名美国程序员刚刚获得宗教豁免，免于被迫在工作中使用人工智能</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u10ag3/a_us_programmer_just_won_a_religious_exemption/</link>
-      <description><![CDATA[ https://preview.redd.it/hy1dk83m986h1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=74383b6e89ee43ee79435e6ca030cfe430993845 北卡罗来纳州一家科技娱乐公司的一名 34 岁员工请求豁免在工作中使用人工智能。程序员 Erin Mouse 获得了雇主的官方宗教豁免。 据 Business Insider 报道，该公司于 5 月份批准了这一请求。这位程序员是一神论普世主义者，她在四月份表达了自己的立场。 Erin Mouse 指出了该技术的生态问题，这与数据中心过度的水和能源消耗有关。她完全靠手工完成工作。 专家约翰·米汉 (John Meehan) 指出，公司需要根据《民权法》第七章采用新的规定。雇主必须紧急制定此类政策。 程序员发现手动编写代码与使用人工智能一样快。在她的评估中，该系统没有提供预期的优势，这在两年前甚至不是一个问题。由   提交 /u/andrewaltair   [链接] [评论]]]></description>
+      <description><![CDATA[ https://preview.redd.it/hy1dk83m986h1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=74383b6e89ee43ee79435e6ca030cfe430993845 北卡罗来纳州一家科技娱乐公司的一名 34 岁员工请求豁免在工作中使用人工智能。程序员 Erin Mouse 获得了雇主的正式宗教豁免。 据 Business Insider 报道，该公司于 5 月份批准了这一请求。这位程序员是一神论普世主义者，她在四月份表达了自己的立场。 Erin Mouse 指出了该技术的生态问题，这与数据中心过度的水和能源消耗有关。她完全靠手工完成工作。 专家约翰·米汉 (John Meehan) 指出，公司需要根据《民权法》第七章采用新的规定。雇主必须紧急制定此类政策。 程序员发现手动编写代码与使用人工智能一样快。在她的评估中，该系统没有提供预期的优势，这在两年前甚至不是一个问题。由   提交 /u/andrewaltair   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u10ag3/a_us_programmer_just_won_a_religious_exemption/</guid>
       <pubDate>Tue, 09 Jun 2026 09:40:59 GMT</pubDate>
     </item>
@@ -69,32 +90,11 @@
       <pubDate>Tue, 09 Jun 2026 09:39:13 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 现在会悄悄地保存您告诉它的所有内容的永久档案</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u107g0/chatgpt_now_quietly_keeps_a_permanent_dossier_on/</link>
-      <description><![CDATA[ https://preview.redd.it/vlhykvjp886h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=d476053580ab0e0221bee21d0d9236cd5d7bd42c OpenAI 为 ChatGPT 部署了一种新的内存架构，它可以根据您告诉它的所有内容悄悄地编译一个永久的散文档案。聊天机器人会根据您的工作、爱好和旅行偏好自动对您的详细信息进行分类和存储。 The Decoder 的 Mathias Bastian 报告称，此更新解决了过时内存系统的问题。聊天机器人根据此永久背景配置文件动态调整对话上下文。 ChatGPT 现在不再构建分散的事实，而是构建有关您生活的统一档案。通过优化，维护这些个人资料所需的计算能力降低了五倍。 根据 OpenAI 的指标，事实回忆准确率从 67.9% 跃升至 82.8%。目前，叙述性档案功能仅对美国的 Plus 和 Pro 订阅者有效。 来源：https://the-decoder.com/chatgpt-now-saves-narrative-dossiers-about-you-sorted-by-work-hobbies-and-travel-preferences/   由   提交 /u/andrewaltair   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u107g0/chatgpt_now_quietly_keeps_a_permanent_dossier_on/</guid>
-      <pubDate>Tue, 09 Jun 2026 09:35:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>请至少更新 Sonnet</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u0zs51/please_update_sonnet_at_least/</link>
-      <description><![CDATA[ 由   提交/u/Ayfri  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u0zs51/please_update_sonnet_at_least/</guid>
-      <pubDate>Tue, 09 Jun 2026 09:10:13 GMT</pubDate>
-    </item>
-    <item>
       <title>首席执行官们仍然在人工智能上投入数十亿美元，这是绝对没有意义的</title>
       <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u0z8yj/it_makes_absolutely_no_sense_that_ceos_are_still/</link>
-      <description><![CDATA[我认为经过 4 年的人工智能炒作，即使是外行人也能同意我们现在还没有接近 AGI。更重要的是，市场已经表明，任何公司都可以在人工智能市场上具有竞争力，并且闭源模型（如 3 年前的 OpenAI）不再领先其他人几年 作为研究人员，现在几乎每个人都在使用开源 Qwen 模型进行基准测试，GLM/Kimi/Meta 都有机会跻身排行榜。也就是说，人工智能研究领域肯定没有数十亿美元的价值。 例如，如果一家新公司现在用 10 亿美元挖走一些 Anthropic/OpenAI 的顶尖人才，那么他们可能会在不到一年的时间内拥有一个有竞争力的模型。这意味着他们比市场上所有其他参与者少花费了 1000 亿美元，哈哈。   由   提交 /u/Tree8282   [链接] [评论]]]></description>
+      <description><![CDATA[我认为经过 4 年的人工智能炒作，即使是外行人也能同意我们现在还没有接近 AGI。更重要的是，市场已经表明，任何公司都可以在人工智能市场上具有竞争力，并且闭源模型（例如 3 年前的 OpenAI）不再领先其他模型几年 作为研究人员，现在几乎每个人都在使用开源 Qwen 模型进行基准测试，GLM/Kimi/Meta 都有机会跻身排行榜。也就是说，人工智能研究领域肯定没有数十亿美元的价值。 例如，如果一家新公司现在用 10 亿美元挖走一些 Anthropic/OpenAI 的顶尖人才，他们可能会在不到一年的时间内拥有一个有竞争力的模型。这意味着他们比市场上所有其他参与者少花费了 1000 亿美元，哈哈。   由   提交 /u/Tree8282   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u0z8yj/it_makes_absolutely_no_sense_that_ceos_are_still/</guid>
       <pubDate>Tue, 09 Jun 2026 08:37:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>ArXiv 将禁止研究人员提交 AI 违规行为一年</title>
-      <link>https://www.reddit.com/r/ArtificialInteligence/comments/1u0bpqs/arxiv_to_ban_researchers_for_a_year_if_they/</link>
-      <description><![CDATA[ 由   提交/u/ThereWas  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/ArtificialInteligence/comments/1u0bpqs/arxiv_to_ban_researchers_for_a_year_if_they/</guid>
-      <pubDate>Mon, 08 Jun 2026 15:47:13 GMT</pubDate>
     </item>
     <item>
       <title>每月“有没有一个工具可以......”帖子</title>
