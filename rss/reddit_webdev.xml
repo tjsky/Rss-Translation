@@ -4,20 +4,41 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Tue, 09 Jun 2026 11:58:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 14:44:30 GMT</lastBuildDate>
     <item>
-      <title>您花费多少时间维护本地开发环境？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u12vyu/how_much_time_do_you_spend_maintaining_your_local/</link>
-      <description><![CDATA[我一直想知道我是否是唯一处理这个问题的人。 上周我想在我的大学笔记本电脑上使用 Docker 开发一个 Node.js 项目。我原以为快速的编码会议变成了数小时的修复版本冲突、路径问题、容器问题，并试图找出为什么我的机器突然陷入困境。 我知道本地开发有很多优势，我并不反对它。但有时感觉我花在维护环境上的时间比实际构建东西的时间还要多。 出于好奇，我尝试了基于云的开发环境（神经逆云），并对我能如此快速地上手感到惊讶。无需设置，无需安装，只需打开浏览器并开始编码。 这让我思考其他开发人员如何实现这一点。 对于个人项目、学习、黑客马拉松等，您仍然主要在本地开发，还是云 IDE 成为您工作流程的一部分？ 您在实践中发现了哪些权衡？   由   提交 /u/Ancient-Prize-774   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u12vyu/how_much_time_do_you_spend_maintaining_your_local/</guid>
-      <pubDate>Tue, 09 Jun 2026 11:57:51 GMT</pubDate>
+      <title>vivi 编码时如何确保一切？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u16ge8/how_do_you_ensure_anything_when_vibe_coding/</link>
+      <description><![CDATA[从合规和风险管理的角度来看，您如何知道一切都按照您期望的方式运行，并且不会因为让人工智能处理一切而产生错误的信心？另外，不真正理解代码库是否会存在一些重大陷阱？以前，如果出现问题，您或多或少可以推断出错误来自代码库中的哪个位置，并获得整体情况。现在就像完全在黑暗中操作一样。 想知道这意味着什么。相信人工智能能够纠正一切是开发计算机系统的可行策略，还是会在以后咬我们？   由   提交/u/throtaway0134hdj   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u16ge8/how_do_you_ensure_anything_when_vibe_coding/</guid>
+      <pubDate>Tue, 09 Jun 2026 14:23:28 GMT</pubDate>
     </item>
     <item>
-      <title>我测试了我的网站的“AI 代理准备情况”，得分为 86/100</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u11xm1/i_tested_my_website_for_ai_agent_readiness_and/</link>
-      <description><![CDATA[我最近使用 Cloudflare 的“您的网站代理就绪了吗？”测试了我的代理网站检查器。 与该工具没有任何隶属关系。我很好奇“代理就绪”的实际含义。 我的网站得分 21/100 并达到级别 1：基本 Web 存在。 它通过了三项检查：  有效 robots.txt 工作站点地图 AI 爬虫规则  它未通过多项更新检查检查：  Markdown 内容协商 内容信号 HTTP 链接标头 代理技能发现 MCP 服务器卡 WebMCP API 和身份验证发现  有趣的是，这不是另一个 SEO 分数。 它检查 AI 代理是否可以发现、理解网站并与网站交互通过机器可读的标准。 例如，代理可以请求页面的干净 Markdown 版本，而不是处理完整的 HTML。应用程序还可以发布结构化信息，解释其 API、可用工具、身份验证过程和支持的操作。 一些检查在今天看来很实用，特别是 Markdown 响应、爬虫规则和结构化发现。 其他检查，例如代理支付协议和基于 DNS 的代理发现，对于正常的商业网站来说仍处于早期阶段。 我计划首先实现内容信号和 Markdown 协商，然后测试代理技能是否能提供任何实际价值。  有人在生产网站上实施了这些标准吗？ 他们除了扫描仪分数之外还有什么改进吗？   由   提交 /u/kelisshekhaliya   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u11xm1/i_tested_my_website_for_ai_agent_readiness_and/</guid>
-      <pubDate>Tue, 09 Jun 2026 11:11:00 GMT</pubDate>
+      <title>建议：用故事书等构建你的设计系统。要有创意，即兴发挥</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u16cz0/advice_build_out_your_design_system_with_a/</link>
+      <description><![CDATA[在配置您的应用程序之前，配置您的调色板。  制作一个shadecn的分支或者完全从头开始。或者前叉流利/碳。任何。  添加更多变量！运动、阴影、轮廓、发光。  玩玩？你的基础只会像你的基础一样有创意，但你可以真正扩展它。  系统设置完毕后，我会很开心地经历各种“给我一个感觉像悲伤和早晨阳光的主题”的过程。到“愤怒的红色”只是为了看看它根据语义给了我什么。  你必须“那样做”在每一点。你的排版系统、你的基色集、你的架构集是如何工作的。但这是通过这些重复动作。    由   提交 /u/TheSleepingOx   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u16cz0/advice_build_out_your_design_system_with_a/</guid>
+      <pubDate>Tue, 09 Jun 2026 14:20:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年前端开发路线图</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u165r9/front_end_development_roadmap_2026/</link>
+      <description><![CDATA[大家好， 我是计算机科学和用户体验设计专业的毕业生。我本来打算申请 UX/UI 职位，但似乎市场很小，尤其是对于初级设计师而言。我正在考虑回到前端开发，因为它有更多的职位空缺。所以我想问一下目前业内人士，2026 年成为前端开发人员的最佳路线图是什么？显然，首先要做的就是刷新我对 HTML、CSS 和 JS 的记忆。之后会发生什么？ Typescript 然后 React？然后呢？   由   提交/u/George-G661   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u165r9/front_end_development_roadmap_2026/</guid>
+      <pubDate>Tue, 09 Jun 2026 14:12:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>在您将下一个网站的设计交给 Claude 之前...</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u14fr2/before_you_offload_your_next_sites_design_to/</link>
+      <description><![CDATA[在关于即将到来的小奖的博客文章中看到了这个奇妙的序列：  我认为人们没有意识到克劳德有一种独特的“房子风格”，人类在其文档中确认： “Claude Opus 4.8 具有强烈的设计本能，具有一致的默认房屋风格：温暖的奶油色/灰白色背景 (~#F4F1EA)、衬线显示类型（乔治亚州、弗朗西斯、普莱费尔）、斜体字口音和赤土色/琥珀色口音。” 我将添加以下内容：等宽字体的小全大写标题。一旦你开始看到它，你就无法忽视它。 有了所有这些网站，你就不可能分辨出法学硕士在哪里停止，人类在哪里开始。我无法再回答这个问题，您在这个项目上实际上做了什么？  如果您打算跳过聘请设计师或自己学习基本设计原则，请至少考虑提示 Claude 设计出一些其他东西，而不是带有焦橙色口音和微小的 JetBrains Mono“仪表板”的米色网站。除了每天抓取你页面的数以百万计的机器人之外，没有人能读懂这些 UI 元素。谢谢。现在随处可见这种设计几乎让我怀念紫色渐变。几乎。   由   提交 /u/RememberTheOldWeb   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u14fr2/before_you_offload_your_next_sites_design_to/</guid>
+      <pubDate>Tue, 09 Jun 2026 13:05:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年 Laravel 还值得吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u14b4w/is_laravel_still_worth_it_in_2026/</link>
+      <description><![CDATA[大家好， 让我向您快速介绍一下我自己。我是一名拥有 10 多年经验的软件工程师。我广泛使用过 React.js、Next.js、PostgreSQL、Redis、Node.js/Express、NestJS、Docker 和 Go。 最近，在空闲时间，我深入研究了系统设计、分布式系统，并学习如何构建高度可扩展的应用程序。 问题是，我一直在使用的堆栈主要以企业为中心，从我所见，它并不总是与典型的自由职业者保持一致。市场。因此，我决定开始认真学习 Laravel，并将其作为建立自由职业并直接与客户合作的一种方式。 当然，我知道我以前的经验仍然很有价值，但这是我的问题： 我不是在找工作。我希望开创自己的事业，吸引客户，并最终将其发展成为一家公司。所以我认为这将是询问已经进入市场的人的最佳场所之一。 Laravel 自由职业者市场的现状如何？值得我投入时间吗？那里有足够的机会和客户吗？ 就背景而言，我的目标是最终达到每月 5000 美元到 10000 美元之间的水平。 我很想听听在这个领域积极从事自由职业或经营代理机构的人的意见。   由   提交/u/MahmoudElattar   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u14b4w/is_laravel_still_worth_it_in_2026/</guid>
+      <pubDate>Tue, 09 Jun 2026 13:00:30 GMT</pubDate>
     </item>
     <item>
       <title>假的 Sentry 问题是否可以欺骗您的编码代理运行恶意的 npm 包？</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[我在我的小型 webdev 业务中在 VS Code 中使用 GitHub CoPilot，今天我发现我在两个工作日内耗尽了我的使用配额，使用方式与我一贯的方式相同。我知道他们在 6 月 1 日改变了计划的实施方式，但是认真的吗？以前，我在整个月的工作中很少达到上限 - 而现在，在两天的典型使用中，我达到了极限。 我想取消订阅这个废话，但对替代方案不太熟悉。根据我的用例，您有什么建议？还是现在所有类似CoPilot的服务都一样？   由   提交/u/legable  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1u0i7rz/github_copilot_seems_to_have_become_much_more/</guid>
       <pubDate>Mon, 08 Jun 2026 19:32:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>QR 码生成的新功能。如何创建不会过期且可以在将来更新目标 URL 的代码？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u0dl26/new_to_qr_code_generation_how_can_i_create_a_code/</link>
-      <description><![CDATA[QR 码生成新功能。如何创建不会过期且可以在将来更新目标 URL 的代码？ 这是否需要收费服务？如果有的话有什么建议吗？   由   提交/u/tk2old  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u0dl26/new_to_qr_code_generation_how_can_i_create_a_code/</guid>
-      <pubDate>Mon, 08 Jun 2026 16:53:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何将 Spring Boot API 连接到普通 HTML/CSS/JS 前端</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u0aklp/how_do_i_connect_a_spring_boot_api_to_a_vanilla/</link>
-      <description><![CDATA[我正在学习 Spring Boot，并且想了解如何首先仅使用普通 HTML、CSS 和 JavaScript 将后端 API 连接到前端。 什么是好的学习路径？我可以从哪里开始？   由   提交 /u/ThenParamedic4021   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u0aklp/how_do_i_connect_a_spring_boot_api_to_a_vanilla/</guid>
-      <pubDate>Mon, 08 Jun 2026 15:05:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Native Elm（这次是真正的那种）·cekrem.github.io</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u04buq/native_elm_the_real_kind_this_time_cekremgithubio/</link>
-      <description><![CDATA[       由   提交 /u/cekrem   [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u04buq/native_elm_the_real_kind_this_time_cekremgithubio/</guid>
-      <pubDate>Mon, 08 Jun 2026 10:46:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
