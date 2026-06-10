@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Wed, 10 Jun 2026 07:07:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:18:36 GMT</lastBuildDate>
+    <item>
+      <title>Tasket++ - 适用于 Windows 的轻量级无代码自动化工具（免费且开源）</title>
+      <link>https://www.reddit.com/r/software/comments/1u20f25/tasket_lightweight_nocode_automation_tool_for/</link>
+      <description><![CDATA[Tasket++ 是一款适用于 Windows 的轻量级无代码自动化工具，可在精确的时间执行重复的用户工作流程。它可以回放用户定义的光标位置和击键、安排静默屏幕截图、自动跨应用程序发送消息，以及运行一天结束的例程（关闭应用程序、淡入淡出音频、关机）。一切都通过简单的 UI 在本地运行，无需遥测。该项目是开源的。 主要功能 - 回放用户定义的光标移动和击键 - 在任何地方粘贴预定义的文本 - 在特定日期时间、启动时或通过桌面快捷方式安排任务 - 系统操作：打开文件/程序、改变音量、静默截图、关机、文件/文件夹操作 - 循环：运行任务一次、固定循环或无限期 -谨慎模式：仅在后台执行计划任务时从系统托盘运行 本地、便携式和开源。 隐私完全得到保护。 现已推出！ Microsoft Store：https://apps.microsoft.com/detail/xp9cjlhwvxs49p 便携式 (v1.7)：https://files.amirhammoutene.dev/Tasket++/1.7/Tasket++_v1.7.zip 来源：https://github.com/AmirHammouteneEI/ScheduledPasteAndKeys  如需反馈、帮助、建议或其他查询：[contact@amirhammoutene.dev](mailto:contact@amirhammoutene.dev)   由   提交/u/AmirHammoutene  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1u20f25/tasket_lightweight_nocode_automation_tool_for/</guid>
+      <pubDate>Wed, 10 Jun 2026 12:12:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>🙋🏻‍♂️ 寻找新的独立项目创意：您希望哪种付费工具有真正好的免费替代品？</title>
+      <link>https://www.reddit.com/r/software/comments/1u1yjq5/looking_for_a_new_indie_project_idea_what_paid/</link>
+      <description><![CDATA[我用 Rust 构建桌面应用程序。 我正在规划我的下一个项目，想要构建人们真正需要的东西，而不仅仅是另一个随机应用程序。 在“替换付费工具”空间中需要一些想法，但仅限于产品有用的地方。 您感觉使用什么付费工具价格过高、笨重或设计糟糕？  在下面留下您的想法。 🫡我正在收集最有趣的。 💁🏻‍♂️  奖励积分如果：  它解决了常见的问题 免费替代品很弱 它对美国/欧盟用户很有用 对于独立开发者来说几乎是可能的    由   提交/u/lukagrayofficial  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1u1yjq5/looking_for_a_new_indie_project_idea_what_paid/</guid>
+      <pubDate>Wed, 10 Jun 2026 10:41:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>本周向我的 Rust 图像转换器添加了调整大小 + 裁剪，但 libvips 缩略图内容并未达到我的预期</title>
+      <link>https://www.reddit.com/r/software/comments/1u1w7pq/added_resize_crop_to_my_rust_image_converter_this/</link>
+      <description><![CDATA[所以我运行一个免费的图像转换器，它基于 Rust + Axum + libvips 构建。本周我终于添加了调整大小和裁剪。我认为这会很快，因为 libvips 已经有一个非常好的缩略图操作。速度不快，哈哈。 调整大小实际上很好。 `ops::thumbnail_image(&amp;image, width)` 可以正常工作，而且好的部分是 libvips 在加载时缩放，因此它不会首先解码整个图像。大投入保持便宜，这很重要，因为一切都在服务器端为我运行。 作物是我失去一个晚上的地方。我想要一个合适的中央重点智能裁剪（保留主题，而不仅仅是切掉中间）。 libvips 完全可以通过带有裁剪选项的缩略图操作来做到这一点...除了 rust crate 中的选项变体我不会表现出来。根本无法让 smartcrop 通过进程内 api 触发。尝试了一些事情，放弃了，最后实际发布的版本只是将“--smartcrop center”作为子进程，壳到“vipsthumbnail”CLI。 不太漂亮。我知道。起初，为每种作物生成一个进程感觉不对。但老实说，它在产品中坚如磐石，结果完全正确，所以我没有碰它。 我带走的两件事： -调整大小快速路径（缩略图，而不是加载然后收缩）确实是负载下便宜和昂贵之间的区别。不要跳过它。 - 当类型化绑定与您作斗争时，调用实际的 CLI 是一个很好的答案。提供正确的结果，稍后（或永远不会）清理路径。 如果您想查看调整大小/裁剪，请访问 convertifyapp.net。没有帐户，文件被删除后。如果有人真正从 rust id 中获得了进程内 smartcrop 工作，我真的很想知道我做错了什么，很高兴在评论中进入 libvips 管道，这无论如何都是有趣的部分   由   提交 /u/UnderstandingFit2711   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1u1w7pq/added_resize_crop_to_my_rust_image_converter_this/</guid>
+      <pubDate>Wed, 10 Jun 2026 08:27:48 GMT</pubDate>
+    </item>
     <item>
       <title>哪些开源软件对于运行电子商务平台至关重要？</title>
       <link>https://www.reddit.com/r/software/comments/1u1u1jk/which_opensource_software_is_essential_for/</link>
@@ -25,6 +46,13 @@
       <description><![CDATA[大家好， 随着时间的推移，我的计算机上出现了大量重复文件，其中大部分是照片、视频和文档。可能是因为在没有真正注意到的情况下多次复制文件和导入内容之类的东西。我开始寻找重复文件查找器并尝试了 Cisdem Duplicate Finder。它看起来很容易使用，但我对设置有点困惑。有一些选项，例如不同的比较方法，例如部分或全部内容比较以及图像相似度级别，但我不太确定什么被认为是安全的或推荐的。对于曾经使用过此类工具的人：  您通常使用什么比较方法或相似度？ 有什么避免意外删除重要文件的技巧吗？ 您的最佳实践是什么？  非常感谢！   由   提交 /u/whoisoliver   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1u1p5or/what_are_some_best_practices_when_using_duplicate/</guid>
       <pubDate>Wed, 10 Jun 2026 02:15:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoFile 帮助</title>
+      <link>https://www.reddit.com/r/software/comments/1u1oyyk/gofile_help/</link>
+      <description><![CDATA[寻找有关 GoFile 链接情况的一些诚实的技术答案。 背景：我是受二月份关闭的摄影业务影响的数百名客户之一。当他们关闭时，他们向所有客户发送了一封群发电子邮件，其中包含 GoFile 链接以下载我们的原始文件。该链接对我来说从来没有用过——它立即返回一个错误，指出“无法下载文件”，没有选项输入密码或访问任何内容。自二月份以来，我在多个设备和多个浏览器上尝试过无数次。 我确实知道其他一些客户端能够通过类似的链接访问他们的文件，但我不确定他们是否具有完全相同的链接或不同的链接。 我的问题： 1. 如果 GoFile 链接立即返回错误，是否意味着文件从未上传、已被删除或链接已过期？ 2. 是否有任何技术方法来确定文件是否曾经被访问过？  3. GoFile 是一项免费服务 - 文件在自动删除之前的存储时间是否有时间限制？ 4. 软件工程师是否可以采取任何措施来尝试恢复访问权限，或者如果立即出错，就什么都没有了吗？ 5. 鉴于现在是二月份，并且该链接从未起作用，这些文件是否仍然可以访问？ 这与一项正在进行的法律问题有关，因此我真诚地试图了解如果有一个窗口可以让我进入，或者如果我的文件根本就不在那里。请诚实回答 - 我不是在寻找虚假的希望。   由   提交/u/Bunny_Rabbit_7  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1u1oyyk/gofile_help/</guid>
+      <pubDate>Wed, 10 Jun 2026 02:07:06 GMT</pubDate>
     </item>
     <item>
       <title>我为 Windows 构建了这款免费的离线 AI 写作工具 - 只需一个 .exe 文件，无需帐户，不涉及云存储。</title>
@@ -64,7 +92,7 @@
     <item>
       <title>招聘] 全栈 Web 和移动开发人员（远程）</title>
       <link>https://www.reddit.com/r/software/comments/1u1cd5o/hiring_fullstack_web_mobile_developer_remote/</link>
-      <description><![CDATA[Yashvasin Tech 正在寻找有才华的网络和技术人员。移动开发人员加入我们不断壮大的团队。 薪资：每月 60,000 卢比 - 80,000 卢比（根据经验而定） 所需技能： • React / Next.js • Node.js • React Native 或 Flutter • 具有构建生产就绪应用程序的经验 • 强大的问题解决和沟通能力 您将构建的内容： • Web 应用程序 • 移动应用程序 • AI 驱动的解决方案 • 为初创公司和企业提供的定制软件企业 📩 申请：clusteraiok@gmail.com 请发送： 简历 作品集/GitHub 相关项目链接 公司：Yashvasin Tech 网站：https://yashvasintech.com   由   提交/u/autionix  [链接] [评论]]]></description>
+      <description><![CDATA[Yashvasin Tech 正在寻找有才华的网络和技术人员。移动开发人员加入我们不断壮大的团队。 薪资：每月 60,000 卢比 - 80,000 卢比（根据经验而定） 所需技能： • React / Next.js • Node.js • React Native 或 Flutter • 具有构建可用于生产的应用程序的经验 • 强大的解决问题和沟通能力 您将构建的内容： • Web 应用程序 • 移动应用程序 • 人工智能驱动的解决方案 • 为初创公司和企业提供的定制软件企业 📩 申请：clusteraiok@gmail.com 请发送： 简历 作品集/GitHub 相关项目链接 公司：Yashvasin Tech 网站：https://yashvasintech.com   由   提交/u/autionix  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1u1cd5o/hiring_fullstack_web_mobile_developer_remote/</guid>
       <pubDate>Tue, 09 Jun 2026 17:49:40 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[我有一本旧的 cf-54 硬本，经过重新设计，上面装有 Windows 11，全新安装。不幸的是，松下仅支持 Windows 10。我可以尝试将其恢复到 10，但我会搞砸一些事情。因此，我的屏幕亮度始终为 100%。就像凝视太阳一样。像 Monitorian 这样的第三方应用程序会允许它工作吗？还是因为驱动程序可能搞砸了，它仍然无法工作？有关详细信息，当我单击显示器调整键时，滑块会移动，但亮度不会改变。它要么处于 100%，要么如果我一直向下滑动，它会关闭 LED，这样我几乎看不到屏幕。所以要么全有要么全无，这太可怕了……想法？ （toughbook小组没有任何想法）....   由   提交 /u/Reddy2Jam   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1u19w2m/laptop_with_w11_cant_adjust_brightness_due_to/</guid>
       <pubDate>Tue, 09 Jun 2026 16:23:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了一个 Windows 小工具，用于将 Web 小部件保留在桌面上</title>
-      <link>https://www.reddit.com/r/software/comments/1u18tnr/i_made_a_small_windows_tool_for_keeping_web/</link>
-      <description><![CDATA[ 由   提交/u/No-Spirit-2008   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1u18tnr/i_made_a_small_windows_tool_for_keeping_web/</guid>
-      <pubDate>Tue, 09 Jun 2026 15:46:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>请愿书在“我建立了一个……”帖子中添加人工智能披露要求</title>
-      <link>https://www.reddit.com/r/software/comments/1u17a2m/petition_to_add_an_ai_disclosure_requirement_to_i/</link>
-      <description><![CDATA[标题抓住了它的要点。也许是后天才？ 目标不是妖魔化人工智能，而是： - 让读者更容易对我们选择尝试的软件做出明智的决定 - 让开发人员有机会解释他们与人工智能的关系，而不总是成为一种防御性反应 - 希望帮助我们区分我们不感兴趣的氛围编码内容和以某种方式将人工智能添加到工作流程中的熟练开发人员 r/selfhosted subreddit 在这方面做得很好，通过对帖子的 automod 评论要求 OP 澄清人工智能是如何参与的。我发现它对大量人工智能生成的应用程序的出现提供了丰富的信息和帮助。 r/software 看到越来越多的此类帖子，我认为社区将从围绕此的一些规则和结构中受益。 （撰写本文时未使用人工智能）。    由   提交/u/joshguy1425  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1u17a2m/petition_to_add_an_ai_disclosure_requirement_to_i/</guid>
-      <pubDate>Tue, 09 Jun 2026 14:53:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>工程经理的角色一分为二</title>
-      <link>https://www.reddit.com/r/software/comments/1u16cur/the_engineering_manager_role_is_splitting_in_two/</link>
-      <description><![CDATA[https://leaddev.com/career-development/the-engineering-manager-role-is-splitting-in-two   由   提交 /u/OfficialLeadDev   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1u16cur/the_engineering_manager_role_is_splitting_in_two/</guid>
-      <pubDate>Tue, 09 Jun 2026 14:19:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>veles-ng：一个漂亮的二进制可视化工具</title>
-      <link>https://www.reddit.com/r/software/comments/1u15zx9/velesng_a_pretty_looking_binary_visualization_tool/</link>
-      <description><![CDATA[嗨。这是我的 veles 的延续，一个漂亮的二进制数据可视化工具：https://github.com/clin1234/veles Stack：用于 UI 的 Qt 5、用于测试的 GTest、用于（最终）远程存储二进制数据可视化的 Python 和 OpenSSL、用于解析二进制文件的 Kaitai Structs。 适用于 Linux 和 Windows x64 的预构建二进制文件。视频演示：https://c.gmx.com/@1257782489229825088/nuDt9dWAyFWTvuqXMcEHfA 即使有 Claude Code 的帮助，也绝对需要更多的眼睛来检查我错过的内容......   由   提交/u/Rugta  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1u15zx9/velesng_a_pretty_looking_binary_visualization_tool/</guid>
-      <pubDate>Tue, 09 Jun 2026 14:06:47 GMT</pubDate>
     </item>
     </channel>
 </rss>

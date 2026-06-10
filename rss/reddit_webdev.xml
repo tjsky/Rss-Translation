@@ -4,20 +4,48 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 10 Jun 2026 07:08:44 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:19:31 GMT</lastBuildDate>
+    <item>
+      <title>89 个 npm 包再次遭到破坏。删除软件包并不会删除恶意软件。</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u1zoi3/89_npm_packages_got_compromised_again_deleting/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u1zoi3/89_npm_packages_got_compromised_again_deleting/</guid>
+      <pubDate>Wed, 10 Jun 2026 11:38:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>现代浏览器可以处理多少行？</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u1zhtu/how_many_rows_can_a_modern_browser_handle/</link>
+      <description><![CDATA[嗨， 您曾尝试通过  在 html 上呈现多少行？我可能需要在一页上显示超过 30 万行，并且想知道浏览器是否会死掉？   由   提交 /u/Yha_Boiii   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u1zhtu/how_many_rows_can_a_modern_browser_handle/</guid>
+      <pubDate>Wed, 10 Jun 2026 11:29:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>网格车道现场指南简介</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u1vszy/introducing_the_field_guide_to_grid_lanes/</link>
+      <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u1vszy/introducing_the_field_guide_to_grid_lanes/</guid>
+      <pubDate>Wed, 10 Jun 2026 08:03:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chrome 149 终于允许你关闭其本地 AI 模型。这应该是默认的</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u1vjv7/chrome_149_finally_lets_you_turn_off_its_local_ai/</link>
+      <description><![CDATA[Google 通过静默更新向 Chrome 推送了 4GB 本地 AI 模型，直到版本 149 才提供禁用开关。用户必须手动删除该文件，重启时会重新下载。 问题的原因不是存储。这就是同意。在我的浏览器中运行的人工智能模型是一个与计算器小部件不同的类别。它将数据发送到推理引擎、消耗电力、产生热量并运行代码。没有明确的关闭开关并不是疏忽。这是一种关于用户是否处于控制之中的产品哲学。 我不认为本地人工智能本质上是坏的。对于实时搜索建议或设备上内容过滤，它非常有用。但部署模型很重要。如果我安装了某些东西，我应该知道它的作用以及如何将其关闭。安装模型的更新是静默的，文档也被埋没了。禁用它的开关只有在用户持续投诉后才会出现。 教训是能力并不是建立信任的因素。可以将其关闭。   由   提交 /u/Fantastic-Place5501   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u1vjv7/chrome_149_finally_lets_you_turn_off_its_local_ai/</guid>
+      <pubDate>Wed, 10 Jun 2026 07:48:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>网格车道现场指南简介</title>
+      <link>https://www.reddit.com/r/webdev/comments/1u1vitz/introducing_the_field_guide_to_grid_lanes/</link>
+      <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/1u1vitz/introducing_the_field_guide_to_grid_lanes/</guid>
+      <pubDate>Wed, 10 Jun 2026 07:46:58 GMT</pubDate>
+    </item>
     <item>
       <title>有人在 Google Search Console 中看到过这种情况吗？</title>
       <link>https://www.reddit.com/r/webdev/comments/1u1ucx5/has_anyone_seen_this_happen_in_google_search/</link>
       <description><![CDATA[我大约 2.5 个月前推出了一个内容网站。 当前统计数据： • 已发布约 250 个页面 • 约 196 个页面被 Google 索引 • 页面正在接收来自 Google、Bing、Reddit、HN 和社交媒体的自然流量 • 品牌搜索开始出现在第 1 页上 奇怪的部分： Google Search Console 仍然将我的站点地图显示为： “无法获取” 发现了 0 个页面。 然而，站点地图 URL 在浏览器中加载良好，robots.txt 正确引用了它，Google 已经清楚地发现并索引了数百个页面。 同时，我注意到索引页面从 ~238 下降到~196，而“已爬网 – 目前未编入索引”增加。 我试图弄清楚是否：  Search Console 只是显示过时的站点地图数据 Google 通过内部链接查找网址并忽略站点地图 这是新网站的正常质量过滤阶段 或者这是 Google 对内容不满意的早期预警信号  希望收到来自任何经历过以下组合的人： • 站点地图 = “无法获取” • 数百个页面已编入索引 • 不断增长的“已爬网 - 目前未编入索引”计数 接下来发生了什么？   由   提交/u/kamscruz  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1u1ucx5/has_anyone_seen_this_happen_in_google_search/</guid>
       <pubDate>Wed, 10 Jun 2026 06:40:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>颜色对比度检查器 (WCAG)，使用网站屏幕截图而不是手动颜色选择</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u1tx2g/color_contrast_checker_wcag_that_uses_screenshots/</link>
-      <description><![CDATA[       由   提交/u/holloway  [link] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u1tx2g/color_contrast_checker_wcag_that_uses_screenshots/</guid>
-      <pubDate>Wed, 10 Jun 2026 06:16:02 GMT</pubDate>
     </item>
     <item>
       <title>对于新项目开发，您如何区分“氛围编码”和“用知识和能力指导人工智能”？</title>
@@ -43,7 +71,7 @@
     <item>
       <title>n00b 此处，请帮助进行域名和电子邮件转移</title>
       <link>https://www.reddit.com/r/webdev/comments/1u18yqj/n00b_here_please_help_with_domain_and_email/</link>
-      <description><![CDATA[我有一个 godaddy 域名，我已经使用了十多年，它附带了我一直用于工作的域名电子邮件。他们不断上涨的价格和附加组件已经走得太远了，尤其是在强迫我使用微软电子邮件，然后每年向我收取 100 英镑的费用，只是因为电子邮件的存储空间少得可怜……所以我想完全从 Godaddy 迁移。  问题是，当谈到网络内容时，我就像一个超级婴儿潮一代。我永远不会理解 DNS 是什么或做什么，也不会理解 SSL 或 SMTP，无论解释多少次。我的大脑根本不会接受其中的任何一个。这对我来说是一门外语，所以所有这一切都超出了恐惧和令人畏惧的范围。我不想丢失任何电子邮件或域名等，因为我将其全部用于工作。  从我所做的研究来看，将我的域名转移到 Porkbun 听起来是个好主意？但我读到我应该使用不同的电子邮件提供商？但如果电子邮件是@域名那怎么能分开呢？我不太明白这一点。显然我应该在域名之前传输电子邮件？  有人可以就如何最好地解决这个问题提供一些建议吗？互联网给了我 1000 个不同的答案，所以我不知道最好做什么。  当我将电子邮件转移到其他地方时，我会丢失以前的电子邮件吗？ 我当前的具体用法是： - 目前使用 godaddy 的域名 - 我的网站是用 adobe 产品组合构建的，并具有充足的存储空间，因此我只需将 url 重定向到该页面，因此我不需要新的网站或存储托管等。  - 我多年来使用的唯一电子邮件是 mail@domainname，并且我一直使用之前的 gmail（通过代理或任何名称？）。所以我使用了 Gmail，它是从我的域电子邮件发送的。多年来一直工作得很好，直到 godaddy 强迫用户为微软电子邮件付费，然后 gmail 代理的事情变得很奇怪，所以我不能再使用它了（人们停止接收我的电子邮件，我也停止接收一些电子邮件，并被隔离警告和其他我不明白的事情淹没）。  就是这样。我只是想要一种便宜的方式来保留我的域名，并能够使用我现有的电子邮件和充足的存储空间，而无需花太多钱。为什么这么复杂？  我只有 2 天的时间，godaddy 自动续订会帮我完成，所以任何帮助将不胜感激！谢谢。   由   提交 /u/discerningartist   [链接] [评论]]]></description>
+      <description><![CDATA[我有一个 godaddy 域名，我已经使用了十多年，它附带了我一直用于工作的域名电子邮件。他们不断上涨的价格和附加组件已经走得太远了，尤其是在强迫我使用微软电子邮件，然后每年向我收取 100 英镑的费用，只是因为电子邮件的存储空间少得可怜……所以我想完全从 Godaddy 迁移。  问题是，当谈到网络内容时，我就像一个超级婴儿潮一代。我永远不会理解 DNS 是什么或做什么，也不会理解 SSL 或 SMTP，无论解释多少次。我的大脑根本不会接受其中的任何一个。这对我来说是一门外语，所以所有这一切都超出了恐惧和令人畏惧的范围。我不想丢失任何电子邮件或域名等，因为我将其全部用于工作。  根据我所做的研究，似乎将我的域名转移到 Porkbun 听起来是个好主意？但我读到我应该使用不同的电子邮件提供商？但如果电子邮件是@域名那怎么能分开呢？我不太明白这一点。显然我应该在域名之前传输电子邮件？  有人可以就如何最好地解决这个问题提供一些建议吗？互联网给了我 1000 个不同的答案，所以我不知道最好做什么。  当我将电子邮件转移到其他地方时，我会丢失以前的电子邮件吗？ 我当前的具体用法是： - 目前使用 godaddy 的域名 - 我的网站是用 adobe 产品组合构建的，并具有充足的存储空间，因此我只需将 url 重定向到该页面，因此我不需要新的网站或存储托管等。  - 我多年来使用的唯一电子邮件是 mail@domainname，并且我一直使用之前的 gmail（通过代理或任何名称？）。所以我使用了 Gmail，它是从我的域电子邮件发送的。多年来一直工作得很好，直到 godaddy 强迫用户为微软电子邮件付费，然后 gmail 代理的事情变得很奇怪，所以我不能再使用它了（人们停止接收我的电子邮件，我也停止接收一些电子邮件，并被隔离警告和其他我不明白的事情淹没）。  就是这样。我只是想要一种便宜的方式来保留我的域名，并能够使用我现有的电子邮件和充足的存储空间，而无需花太多钱。为什么这么复杂？  我只有 2 天的时间，godaddy 自动续订会帮我完成，所以任何帮助将不胜感激！谢谢。   由   提交 /u/discerningartist   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1u18yqj/n00b_here_please_help_with_domain_and_email/</guid>
       <pubDate>Tue, 09 Jun 2026 15:51:28 GMT</pubDate>
     </item>
@@ -69,9 +97,9 @@
       <pubDate>Tue, 09 Jun 2026 11:01:17 GMT</pubDate>
     </item>
     <item>
-      <title>内联代码补全比提示更好吗</title>
+      <title>内联代码完成比提示更好吗</title>
       <link>https://www.reddit.com/r/webdev/comments/1u11ovl/is_inline_code_completion_better_than_prompting/</link>
-      <description><![CDATA[我有一个假设，让 llm 完成你的几行代码（主要是样板文件）可能比通过它提示整个代码文件更好。 更好，因为它不完全是氛围编码，并且需要一些认知负载来编码，并且开发人员对所编写的内容有更好的上下文。 你这么认为吗？   由   提交/u/GarrettSpot  [链接] [评论]]]></description>
+      <description><![CDATA[我有一个假设，让 llm 完成几行代码（主要是样板文件）可能比通过它提示整个代码文件更好。 更好，因为它不完全是氛围编码，需要一些认知负荷来编码，并且开发人员对所编写的内容有更好的上下文。 你这么认为吗？   由   提交/u/GarrettSpot  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1u11ovl/is_inline_code_completion_better_than_prompting/</guid>
       <pubDate>Tue, 09 Jun 2026 10:58:59 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/webdev/comments/1u0yvoq/every_layer_of_review_makes_you_10x_slower/</guid>
       <pubDate>Tue, 09 Jun 2026 08:15:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>最近研究了Kafka，想分享一下我的理解。</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u0ya4f/recently_i_studied_kafka_and_wanted_to_share_my/</link>
-      <description><![CDATA[Kafka 用于处理不同服务之间的消息/事件。 我的理解是这样的：  Producer 向 Kafka 发送事件/消息。 消息包含 Topic、Key-Value 数据和时间戳等内容。 Kafka 将这些消息存储在 Broker 中（Kafka 服务器）。 Topic 可以分为多个 Partition。 每个 Partition 有一个 Leader 和多个 Followers（Replicas）。 所有读写操作都通过 Leader 进行，而 Replicas 在 Broker 发生故障时充当备份。  现在，与许多传统队列不同，Kafka 不会在消息被消费后立即删除它们。 有一个术语叫做“偏移”。您可以将偏移量想象为分区内消息的索引。 例如： 用户下订单→处理付款→发送电子邮件→分析服务处理事件。 假设在该分析服务出现故障期间，Kafka 知道最后处理的是哪个偏移量。当服务恢复时，它可以从该偏移量继续，而不是从头开始。 这也是 Kafka 在消费后将消息保留一段时间的原因之一。 有任何更正吗？关于这个主题还有什么我应该知道的吗？请告诉我。   由   提交 /u/No-Resolution-4054   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u0ya4f/recently_i_studied_kafka_and_wanted_to_share_my/</guid>
-      <pubDate>Tue, 09 Jun 2026 07:39:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 pa11y + axe-core + Puppeteer 管道跨 5 种页面类型扫描了 100 个德国电子商务网站，分享了设置和结果</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u0wxy6/i_scanned_100_german_ecommerce_sites_with_a_pa11y/</link>
-      <description><![CDATA[构建了一个小型脚本管道来对 100 个德国在线商店的可访问性进行基准测试，数字比我预期的要粗略，因此这里是一个设置，以防它对您自己的 CI 有用。 堆栈： Puppeteer 驱动一个无头 Chromium 通过每个商店最多 5 条路线（回家到结帐）。然后 pa11y 9.1.1 运行 HTML_CodeSniffer，axe-core 4.10.2 在同一加载的 DOM 上运行。结果通过选择器和规则 ID 进行重复数据删除，因此两个引擎不会重复计数。商店的选择与德国平台份额相匹配。 Shopify 是最大的区块，占 100 家商店中的 40 家，其次是 Shopware 和 WooCommerce。 输出：整个样本中有 29,745 个硬错误，其中 100 家商店中的每一家都未通过 WCAG 2.1 AA，主页平均有 99.8 个错误。经常出现的问题是所有 100 个中的触摸目标都低于 44 像素，67 个中的对比度较低，61 个中的标题顺序被破坏，58 个中的未命名链接。 为编写此脚本的任何人提供两个实用说明。在没有帐户或真实购物车的情况下，只有 100 个中的 82 个可以进行结帐，因此深度页面覆盖范围不均匀，您应该按路线记录它，而不是假装您扫描了所有内容。自动检测大约占实际问题的 57%，因此这是冒烟测试，而不是审核。   由   提交 /u/Loewenkompass   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u0wxy6/i_scanned_100_german_ecommerce_sites_with_a_pa11y/</guid>
-      <pubDate>Tue, 09 Jun 2026 06:21:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Safari 技术预览版 245 发行说明</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u0n0l6/release_notes_for_safari_technology_preview_245/</link>
-      <description><![CDATA[       由   提交/u/feross  [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u0n0l6/release_notes_for_safari_technology_preview_245/</guid>
-      <pubDate>Mon, 08 Jun 2026 22:31:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>希望根据图像将测验编码到readymag中</title>
-      <link>https://www.reddit.com/r/webdev/comments/1u0mxiq/looking_to_code_a_quiz_into_readymag_based_off_of/</link>
-      <description><![CDATA[      我希望这是有道理的。请记住，我对编码还很陌生，并且已经学习了随机的一次性项目。我想生成一个在 Readymag 上托管的测验，但开始创建静态图像，以便我可以控制美感。我希望使用覆盖在图像顶部的按钮来推进它，但它们还必须与特定答案相关联并存储该数据以在结果的最终屏幕上触发正确的响应。这可行吗？为何如此？我不会要求任何人免费为我做大量艰苦的工作，只是为我指明正确的方向。我知道如何制作按钮，但实际上并没有让操作前进，并存储数据以供参考。抱歉，如果有任何混乱。以图像为例，它有一个开始按钮并前进到下一个提示，一次一张图像。每个问题都有 2 或 3 个选项作为按钮。谢谢！  https://preview.redd.it/sjw645ccx46h1.png?width=2636&amp;format=png&amp;auto=webp&amp;s=146f36e1e5e242e340105e84dcb5579295bc0489   由   提交/u/Global_Math_7631   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1u0mxiq/looking_to_code_a_quiz_into_readymag_based_off_of/</guid>
-      <pubDate>Mon, 08 Jun 2026 22:27:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
