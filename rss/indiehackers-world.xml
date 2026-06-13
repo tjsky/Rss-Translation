@@ -4,7 +4,7 @@
     <title>帖子 独立黑客</title>
     <link>https://feed.indiehackers.world</link>
     <description>这是 indiehackers.com 的非官方提要</description>
-    <lastBuildDate>Sat, 13 Jun 2026 06:55:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 11:11:46 GMT</lastBuildDate>
     <item>
       <title>我通过在 Reddit 上疯传两次来验证一个产品创意。以下是我了解到的影响力和转化率之间的差距。</title>
       <link>https://feed.indiehackers.world/post/8ce2e004ad</link>
@@ -47,6 +47,25 @@ Discord Indiehackers 聊天广告此处]]></description>
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/a782e29909</guid>
       <pubDate>Thu, 11 Jun 2026 13:58:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建 LinkCover – 第 3 天：付款已开始。不再建造，是时候出售了。</title>
+      <link>https://feed.indiehackers.world/post/3c8118fa8e</link>
+      <description><![CDATA[该产品已上线。付款有效。三个模板。浏览器模型中的动态 URL。
+自第一天以来发生了什么变化：
+
+掉落 Satori（WASM 在 Workers 上被破坏）。相反，纯 SVG。响应时间低于 5 毫秒。
+添加了深色、浅色和品牌模板，并在图像周围添加了浏览器镶边。
+用每月 7 美元的实时结帐取代了等候名单（Lemon Squeezy + Grey）。
+URL 字段，以便预览显示用户的实际域。
+
+我没有构建的内容：身份验证、仪表板、分析、速率限制。在有人付款之前，这一切都不重要。
+接下来的 48 小时：外展、Reddit 帖子，以及看看是否有人真正购买。
+直播：https://linkcover-landing.vercel.app
+向处于此阶段的任何人提问：当您的受众为零时，您是如何获得第一个付费客户的？
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/3c8118fa8e</guid>
+      <pubDate>Thu, 11 Jun 2026 12:34:36 GMT</pubDate>
     </item>
     <item>
       <title>为 Etsy 卖家构建了一个“决策层”——在构建其余部分之前需要反馈</title>
@@ -133,7 +152,7 @@ Discord Indiehackers 聊天广告此处]]></description>
     <item>
       <title>我构建了一个 AI 代理，可以在您的 SaaS 上打开 GitHub PR。事情是这样的。</title>
       <link>https://feed.indiehackers.world/post/df4c35e77e</link>
-      <description><![CDATA[没有什么会自动影响生产。没有自动合并。我也对这些东西很偏执，所以我设计了它，这样在任何东西到达你的仓库之前你总是必须明确批准。
+      <description><![CDATA[没有什么会自动触及生产。没有自动合并。我也对这些东西很偏执，所以我设计了它，这样在任何东西到达你的仓库之前你总是必须明确批准。
 立即开放 14 天免费试用。
 对于任何经历过这种情况的人来说，真正的问题是：如果一个工具向您发送消息，其中包含您已经知道的下降的具体解决方案，您会相信 PR，还是会“AI 触及我的存储库”？不管怎样都会破坏交易吗？
 Discord Indiehackers 聊天广告此处]]></description>
@@ -212,20 +231,6 @@ Debsync 尝试帮助参与者记录它们、确认它们并一起关闭循环。
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/da12f55eea</guid>
       <pubDate>Tue, 09 Jun 2026 02:10:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>两周后，谷歌将我的网页索引为零。这是正常现象还是我做了什么愚蠢的事情？</title>
-      <link>https://feed.indiehackers.world/post/8fed9e8d9b</link>
-      <description><![CDATA[
-您所做的一件意想不到的小事是什么，为您带来了第一个自然非好友用户？
-
-我不是在寻找黑客或捷径——只是想弄清楚我是否在技术搜索引擎优化方面从根本上搞砸了一些东西，或者这是否只是强制性的“坐下来等待”。每个独立创始人都必须缴纳税款。
-感谢你们可以分享的任何建议或健全性检查🙏
-&lt;小时/&gt;
-编辑：就上下文而言，该网站是 GenForms（我分享它只是为了让 SEO 技术人员可以检查我的渲染/站点地图是否损坏，而不是作为插件！）
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/8fed9e8d9b</guid>
-      <pubDate>Mon, 08 Jun 2026 13:40:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
