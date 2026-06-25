@@ -4,7 +4,22 @@
     <title>帖子 独立黑客</title>
     <link>https://feed.indiehackers.world</link>
     <description>这是 indiehackers.com 的非官方提要</description>
-    <lastBuildDate>Thu, 25 Jun 2026 06:43:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 11:36:35 GMT</lastBuildDate>
+    <item>
+      <title>推出：包含 8,600 个 SEO 页面的 AI 工具目录（2 个月后）</title>
+      <link>https://feed.indiehackers.world/post/9a311797f0</link>
+      <description><![CDATA[
+自动生成站点地图
+Cron 每天凌晨 5 点（世界标准时间）运行
+AdSense 今天刚刚获得批准。收入：今天之前为 0 美元。现在住。
+好奇：2026 年哪些渠道对其他独立黑客有效？目前正在尝试 LinkedIn + IndieHackers + SEO，因为 Reddit 已对我锁定。
+尝试/find：https://saas.pet/find（免费，无需注册）
+主站点：https://saas.pet
+
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/9a311797f0</guid>
+      <pubDate>Wed, 24 Jun 2026 19:22:57 GMT</pubDate>
+    </item>
     <item>
       <title>大多数处于早期阶段的 SaaS 公司都会错过客户流失信号——以下是如何及早发现这些信号的方法</title>
       <link>https://feed.indiehackers.world/post/1538dfae6d</link>
@@ -18,6 +33,23 @@
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/1538dfae6d</guid>
       <pubDate>Wed, 24 Jun 2026 17:06:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show IH：RetryFix v2 – 失败的 Stripe 付款现在可以自动恢复（10% 费用）</title>
+      <link>https://feed.indiehackers.world/post/6a9898fd9b</link>
+      <description><![CDATA[定价仍然基于性能：
+查看失败付款的免费计划
+付费计划仅收取已恢复收入的 10%（如果我们没有恢复任何内容，则不收取任何费用）
+我已经在一些商家中使用了这个方法，结果令人鼓舞，但我希望能得到其他处理付款失败问题的创始人的真实反馈。
+现场演示：https://retryfix.com/demo/start
+很想听听：
+目前处理 Stripe 付款失败的流程是什么？
+10% 的成功费模式对您有意义吗？
+您希望存在任何用于付款恢复的功能吗？
+很乐意回答任何问题或接受残酷的反馈。谢谢！
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/6a9898fd9b</guid>
+      <pubDate>Wed, 24 Jun 2026 16:39:10 GMT</pubDate>
     </item>
     <item>
       <title>我最近开始进行产品搜寻，以下是我从 #94 到 #20 的过程</title>
@@ -60,14 +92,26 @@ Discord Indiehackers 聊天广告此处]]></description>
       <pubDate>Tue, 23 Jun 2026 19:32:24 GMT</pubDate>
     </item>
     <item>
+      <title>经过一周的验证后关闭了我的项目。分享这个教训是因为我希望我早知道它会发生</title>
+      <link>https://feed.indiehackers.world/post/1f16f5fc51</link>
+      <description><![CDATA[所以我关闭了它而不是建立在可能的基础上。有点刺痛，但这是我一段时间以来所做的最干净的工作。设定了标准，错过了，就成功了，没有花三个月的时间假装。
+如果您现在正在验证某些内容：请确定您的“这是真实的”是什么？在你发射之前发出信号，让对方付出一些代价。评论会骗你的。陌生人输入电子邮件则不会。
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/1f16f5fc51</guid>
+      <pubDate>Tue, 23 Jun 2026 15:24:25 GMT</pubDate>
+    </item>
+    <item>
       <title>人工智能帮助我更快地发货。然后我就忘记了我的产品实际上是做什么的。</title>
       <link>https://feed.indiehackers.world/post/431f505cc4</link>
-      <description><![CDATA[链接：https://reflect.stewie.sh
-登陆页面上的示例手册是根据真实的代码库生成的。您可以阅读一章并点击查看证据，然后再决定它是否有用。
-我想要验证的内容：
-“我无法自信地解释我的人工智能构建的产品实际承诺和做什么”对其他构建者来说是真正的痛苦，还是只是我自己的创始人/开发者的焦虑？
-更具体地说：
-您一直在避免使用自己产品的哪些部分，因为您不记得设计它的行为方式？
+      <description><![CDATA[
+示例手册：https://reflect.stewie.sh/#/manual
+PBC 规范：https://github.com/stewie-sh/pbc-spec
+
+我真正想要验证的不是人工智能是否可以帮助人们更快地发货。
+是这样的：
+“我无法自信地解释我的人工智能产品的实际承诺和作用”吗？对其他开发者来说是真正的痛苦，还是只是我自己的创始人焦虑？
+还有一个问题：
+您一直在回避自己产品的哪一部分，因为您不再记得它应该如何运作？
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/431f505cc4</guid>
       <pubDate>Tue, 23 Jun 2026 14:54:59 GMT</pubDate>
@@ -141,35 +185,6 @@ softrankings.com
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/d84ca49780</guid>
       <pubDate>Mon, 22 Jun 2026 08:18:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我发布一周后。销售额为零，但有几个有趣的数字。</title>
-      <link>https://feed.indiehackers.world/post/0916dc425d</link>
-      <description><![CDATA[https://knallhart.dev
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/0916dc425d</guid>
-      <pubDate>Sun, 21 Jun 2026 17:01:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>在努力寻找我的第一批用户的同时，努力跟踪我自己的外展活动。你怎么做？</title>
-      <link>https://feed.indiehackers.world/post/bc2e0639b1</link>
-      <description><![CDATA[其他独立构建者如何处理这个问题？有没有您真正喜欢使用的工具来处理这个问题？
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/bc2e0639b1</guid>
-      <pubDate>Sun, 21 Jun 2026 14:00:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>在没有预算的情况下独立启动 SaaS 的优先事项</title>
-      <link>https://feed.indiehackers.world/post/a5d708e4e2</link>
-      <description><![CDATA[
-衡量，而不是构建新功能。
-在做更多事情之前先了解什么是真正有效的，并让用户知道产品对他们有用的那一刻。然后是最困难的部分：每次你想要构建一个新功能而不是吸引用户时，都得自责。我向自己保证，在客户达到 50 岁之前不会添加新模块，而坚守这条底线比构建更困难。
-
-这是我的清单。 
-我错过了什么？根据您的经验，您会向上或向下移动什么？
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/a5d708e4e2</guid>
-      <pubDate>Sun, 21 Jun 2026 10:16:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
