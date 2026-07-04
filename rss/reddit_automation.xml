@@ -4,111 +4,111 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Sat, 20 Jun 2026 13:50:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 10:51:28 GMT</lastBuildDate>
     <item>
-      <title>我已经使用 lucidchart + claude 集成几个星期了，它比我预期的更有用</title>
-      <link>https://www.reddit.com/r/automation/comments/1uaw6ky/ive_been_using_the_lucidchart_claude_integration/</link>
-      <description><![CDATA[自从 Lucid Claude 连接器于 4 月份推出以来，我已经使用了几个星期，它对我工作方式的改变超出了我的预期。 令我惊讶的是能够通过 Claude 以简单的语言搜索 Lucidchart 文档。我们有很多旧的图表，要找到正确的图表需要花费比应有的时间更长的时间。能够只描述我正在寻找的东西并得到它让事情变得容易多了。  我发现有用的另一件事是将克劳德对话直接转换为可编辑的图表，而无需从头开始手动重建它。 如果您曾经在聊天中完成了某些内容的映射，然后必须在图表工具中重新创建它，您就会明白为什么这很重要。 还有其他人尝试过吗？   由   提交 /u/ChapterKey1401   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1uaw6ky/ive_been_using_the_lucidchart_claude_integration/</guid>
-      <pubDate>Sat, 20 Jun 2026 13:06:24 GMT</pubDate>
+      <title>使用什么人工智能工具来制作品牌营销视频？</title>
+      <link>https://www.reddit.com/r/automation/comments/1un5zl8/what_ai_tool_to_use_to_create_brand_marketing/</link>
+      <description><![CDATA[ 由   提交/u/an_tonova  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1un5zl8/what_ai_tool_to_use_to_create_brand_marketing/</guid>
+      <pubDate>Sat, 04 Jul 2026 10:50:21 GMT</pubDate>
     </item>
     <item>
-      <title>为每个自动化边缘情况进行编码都是一场噩梦，因此我创建了一个运行程序，可以在每次失败时进行自我修复并增强其代码。</title>
-      <link>https://www.reddit.com/r/automation/comments/1uavbcx/coding_for_every_automation_edge_case_is_a/</link>
-      <description><![CDATA[我不断看到关于此子的两个主要抱怨：  AI 代理太脆弱且缓慢，无法信任日常的大批量任务。 如果您通过 LLM 运行每个工作流程，API 成本会爆炸。  然而，传统的确定性自动化（如 Playwright/Puppeteer）维护是一场噩梦，因为网页会发生变化、菜单会发生变化，并且会弹出边缘情况。 为了弥补这一差距，我一直在研究一种混合方法：默认情况下确定性执行，AI 代理充当沉默的开发人员，仅在失败时醒来调试和修复脚本。 工作原理：  快乐之路（确定性且免费）：定义输入和输出。构建器生成一个标准的、确定性的脚本（例如，基于选择器的浏览器步骤）并运行它。它在本地立即运行，API 费用为 0 美元。 自我修复循环（概率和 LLM 支持）：如果脚本失败（例如，未找到元素、页面状态更改），系统将捕获 DOM 状态、错误日志和屏幕截图。它启动 LLM 代理来分析故障、修改脚本代码并重新测试直至通过。 结果： 确定性脚本会通过修复进行更新。后续运行将受益于新逻辑，而无需再次调用 LLM。系统会自动发现新的边缘情况，查找并修复自身的错误，并保持自身最新状态。  我们解决的现实世界边缘情况： 我在 Swiggy（食品配送）流程上对此进行了测试，其中输入为 [餐厅名称，商品名称]。以下是系统遇到并自动解决的边缘情况：  点击屏幕外元素（生成代码中的错误）：由于屏幕外按钮，早期迭代陷入停滞。系统检测到此可见性问题，自动插入一个步骤以将元素滚动到视图中，并更新流程。 订购无效的菜单项（例如，从必胜客订购亚洲食品）：当负责从必胜客订购亚洲食品时，脚本最初失败，因为必胜客不提供亚洲食品。修复代理分析了故障，重写了脚本逻辑以正确识别和传达无效项目错误，并保存更新的脚本，以便将来能够妥善处理和报告此问题。 已关闭餐厅：当目标餐厅已关闭时，“添加到购物车”将显示在“添加到购物车”中。按钮被完全禁用。代理没有崩溃，而是读取屏幕上下文（“下午 5 点前关闭”），修改脚本以处理关闭状态，并以干净的状态代码正常退出。  为什么这样做而不是纯粹的 AI 代理？  降低 95% 的成本：您只需在脚本中断时支付 LLM 代币。修复后，脚本将在本地运行。 运行时零幻觉：由于运行时是确定性代码，因此它不会幻觉结账按钮或订购错误的商品。  很想了解您对这种混合方法的想法。这是否解决了“保姆”问题？你们在使用标准代理工作流程时遇到问题吗？代码是开源的，如果有人想看一下，请告诉我。   由   提交 /u/slow-fast-person   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1uavbcx/coding_for_every_automation_edge_case_is_a/</guid>
-      <pubDate>Sat, 20 Jun 2026 12:23:47 GMT</pubDate>
+      <title>“另一家自动化初创公司”🫩</title>
+      <link>https://www.reddit.com/r/automation/comments/1un5uf6/another_automation_startup/</link>
+      <description><![CDATA[这可能是有人第 100 次发表此类帖子，但无论如何。嗨，我最近刚刚高中毕业，目前正在享受最低工资，天啊，我讨厌（为别人）工作。确实，没有什么比我的工作更能激励我去寻找巨大的财富了。 我一直在努力发现不同的技能，这些技能可能会成为我不断工作的东西，并最终扩大规模。自动化引起了我的注意。 我一直在学习 Make，并且对它有一定程度的了解。我做了几个项目，比如两天后的领导跟进、确认电子邮件以及类似的基本内容。 我只是想知道，我走的路正确吗？我如何从这个过渡到实际接触企业并推销我改善他们业务的能力？我应该更多地了解和改进什么？ 这值得我花时间吗？如果是这样，我应该采取什么步骤来确保我确实有用？ 非常感谢任何建议，谢谢！   由   提交 /u/Fit-Researcher-4215   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1un5uf6/another_automation_startup/</guid>
+      <pubDate>Sat, 04 Jul 2026 10:41:38 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能代理时代的自动化是否掀起了新浪潮？</title>
-      <link>https://www.reddit.com/r/automation/comments/1uaqhup/is_automation_hitting_a_new_wave_in_the_age_of_ai/</link>
-      <description><![CDATA[自动化感觉正在进入新浪潮。 在此之前，这些类型的复杂应用程序流程不可能构建到企业的自定义解决方案中。大多数实施都是容易实现的目标，例如 CMS 或博客。  现在我们可以为企业构建完全本地化的客户支持和外展工具。 很好奇人们现在如何使用 n8n 或类似工具。您正在自动化什么，什么实际上有用而不是过度炒作？ 什么是您希望存在而目前不存在的？ 完全免责声明，我们有一个工具专门用于使用人工智能构建工作流程和自动化，并将其转变为完整的本地应用程序。这项研究极大地指导了我们的产品开发。    由   提交/u/wundercorp  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1uaqhup/is_automation_hitting_a_new_wave_in_the_age_of_ai/</guid>
-      <pubDate>Sat, 20 Jun 2026 07:41:03 GMT</pubDate>
+      <title>寻找一些愿意尝试自动化构建并分享诚实反馈的小企业</title>
+      <link>https://www.reddit.com/r/automation/comments/1un59l4/looking_for_a_few_small_businesses_willing_to_try/</link>
+      <description><![CDATA[      我一直在构建一个 n8n 工作流程，用于处理传入的 DM，以听起来像所有者的方式与潜在客户聊天，并在他们准备好时将其直接预订到日历上并发出通知。到目前为止，主要是在健身工作室进行了测试，但我认为它也适用于其他基于服务的企业。 我想为更多的人构建这个，以了解它在不同设置中的表现，作为回报，我只会在您使用它一段时间后询问您的真实想法 - 无论好坏。 基本想法：  回复 Instagram/Facebook 消息，这样潜在客户就不会坐立不安未答复 弄清楚谁真正准备好预订，而不只是浏览 通过通知将预订直接放入您的日历中，无需手动来回  如果您目前正在手动处理这些事情，并且它占用了时间，并且您愿意尝试新事物并告诉我进展情况，请在下面发表评论或发送聊天请求，我们可以讨论详细信息。   由   提交/u/talha21333  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1un59l4/looking_for_a_few_small_businesses_willing_to_try/</guid>
+      <pubDate>Sat, 04 Jul 2026 10:07:06 GMT</pubDate>
     </item>
     <item>
-      <title>在没有开发人员背景的情况下构建客户端自动化系统</title>
-      <link>https://www.reddit.com/r/automation/comments/1uaayhz/building_client_automation_systems_without_a/</link>
-      <description><![CDATA[很多人认为您需要成为一名开发人员才能为客户构建自动化系统，但这不是我的经验。 大多数客户项目都可以使用 Zapier、Make 或 n8n 等工具来处理。真正的技能是理解工作流程、触发器、条件以及数据如何在应用程序之间移动。如果您能够逻辑思考并解决问题，那么您就已经成功了。 典型的项目涉及路由线索、更新 CRM、在工具之间同步数据、生成报告或发送通知等内容。挑战通常在于设计流程，而不是编写代码。 也就是说，基本编码最终会变得有用。在某些情况下，一个小的 JavaScript 片段、一个 Python 脚本或一个简单的 API 调用就可以解决内置连接器无法处理的问题。学习一点代码大有帮助。 对于任何初学者来说，我会首先专注于掌握自动化基础知识，并根据需要学习编码技能。根据我的经验，客户更关心结果和效率，而不是幕后涉及的代码量。   由   提交 /u/Zealousideal-Pen7888   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1uaayhz/building_client_automation_systems_without_a/</guid>
-      <pubDate>Fri, 19 Jun 2026 19:13:30 GMT</pubDate>
+      <title>如何将 WhatsApp 客户端聊天转变为 AI 生成的看板（无云中间商）</title>
+      <link>https://www.reddit.com/r/automation/comments/1un41uj/how_to_turn_a_whatsapp_client_chat_into_an/</link>
+      <description><![CDATA[我的客户以数十条松散的 WhatsApp 消息的形式发送项目需求 - 更正、屏幕截图、语音注释、隐藏在线程中的范围更改。我想要一个自动化的管道：聊天进入，结构化任务板出来。分享一下设置，因为它经历了一些尝试和错误。 主要问题：WhatsApp Business API 和 Twilio 是为了从企业号码发送消息而构建的，而不是为了读取您现有的个人聊天记录 - 将您的聊天记录连接到第三方云 CRM 意味着客户对话位于其他人的服务器上，而我不愿意这样做。可行的方法是使用浏览器扩展在本地读取 WhatsApp Web 并使用您自己的 API 密钥调用 LLM，这样消息就会从您的浏览器直接发送到 OpenAI/Anthropic，而不是其他地方。 设置如下：  从 Anthropic 或 OpenAI 获取 API 密钥（几美元的信用就足够了 - 每次提取都是对所选消息的一次调用） 从 Chrome Web Store 安装 WA Kanban AI 并将密钥粘贴到其选项页面 在 WhatsApp Web 中打开客户端聊天，导航到扩展程序，然后选择要阅读多远的内容（例如，对于新的需求转储，选择“最近 3 天”，对于完整的项目则选择更早的时间） 它会生成任务卡 - 标题、描述、原始源消息、附件和分步实施说明 - 到本地看板（待办事项/待办事项/进行中/审核/完成） 随着工作的进展拖动卡片；该委员会保留完整的移动历史记录，当客户说“我从来没有要求过”时，它可以兼作书面记录 您可以与客户生成一个品牌链接，以便他们查看进度。这只是数据进入外部云的时间，并且只有生成的看板，而不是 Whatsapp 消息。客户端无法更新看板，只能查看。  几周使用后的改进提示：  新消息到达后在同一个聊天中重新运行是捕获中线程范围变化的方法 - “忘记我所说的有关徽标的内容”。消息会折叠到任务中而不是丢失。 每张卡片都会以干净的文本形式复制出来，因此实施步骤部分会直接粘贴到 Claude 或 Cursor 中作为提示。聊天消息 → 任务卡 → 零手动重写的编码代理是这里的真正胜利。 您可以在生成的任务旁边添加手动任务，因此面板成为单一事实来源，而不是一个并行系统。  为了将任务导出到其他系统（Trello、数据库、Linear），没有本机集成 - 我复制卡片文本并让自动化处理它，或粘贴到代理中。如果有人有一个更清晰的桥梁来完成该步骤，我很感兴趣。 成本：扩展的免费层涵盖了核心流程； Pro 是一次性付款（无​​需订阅），并添加了一个可以与客户共享的实时看板链接，以便他们无需安装任何内容即可查看任务状态。 LLM 使用量取决于您自己的 API 密钥消耗，对于聊天大小的输入来说，这就是美分。   由   提交/u/americanoandhotmilk  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1un41uj/how_to_turn_a_whatsapp_client_chat_into_an/</guid>
+      <pubDate>Sat, 04 Jul 2026 08:52:16 GMT</pubDate>
     </item>
     <item>
-      <title>超越隔离层：自动化数据库操作的遥测和审核日志</title>
-      <link>https://www.reddit.com/r/automation/comments/1ua9xxc/beyond_the_isolation_layer_telemetry_and_audit/</link>
-      <description><![CDATA[我上一篇文章中关于为 LLM 构建 API 隔离层的讨论非常棒。许多人正确地指出，即使使用锁定的 API 端点，您仍然需要担心会话速率限制、用户权限上下文以及跟踪代理访问数据库的原因。 我们现在正在尝试为我们的系统制定坚如磐石的遥测和审计框架，但我们正在遇到一些架构十字路口。 标准 API 日志仅显示重复点击的墙。如果机器人陷入循环，查看数据库查询四十次并不会告诉您任何信息。我们开始在每个工具调用旁边记录实际的对话意图字符串，这样我们就可以实际调试原因，并防止凌晨 2 点事后分析变成历史考古。 对于任何数据突变或写入操作，我们将它们完全排除在自动化路径之外。代理起草了拟议的变更，但在任何实际涉及行之前都需要明确的人机交互批准。 对于那些在生产中运行自动化系统的人，您如何构建安全审计跟踪？您是否将代理遥测数据传输到单独的网关层，或者直接在应用程序后端处理它？&lt;​​/p&gt;   由   提交/u/Boby_Irendolan   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ua9xxc/beyond_the_isolation_layer_telemetry_and_audit/</guid>
-      <pubDate>Fri, 19 Jun 2026 18:34:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>3 人初创公司的 3 个 LPA SDE 与传统 SaaS 的 6 个 LPA“自动化工程师” — 100% 的加薪值得冒这个头衔的风险吗？</title>
-      <link>https://www.reddit.com/r/automation/comments/1ua8ul8/3_lpa_sde_at_3man_startup_vs_6_lpa_automation/</link>
-      <description><![CDATA[大家好， 作为一名最后一年的学生（2026 届毕业生），我面临着一个重大的职业困境，确实可以从已经在该行业工作了一段时间的人那里得到一些诚实的观点。 我目前在两条完全不同的道路之间左右为难，我需要快速做出决定。 以下是这两个选项的叠加方式： 选项 1：我当前的工作（1 个月前加入）  职位： 软件开发工程师 (SDE) CTC： 3 个 LPA 工作模式： 100% 远程 设置： 一家小型、完全没有资金的早期初创公司。整个核心团队实际上只有 5 个人。 现实：新生的头衔在纸面上是很棒的，但环境正是你所期望的——极端的工作时间（12-14 小时）、混乱的管理、紧张的预算和高职业倦怠风险。我正在构建可扩展的人工智能驱动的 Saas 后端。  选项 2：校园实习机会（刚刚通过）  职位：自动化工程师 CTC： 6 LPA（薪资大幅提升 100%） 工作模式： 100% 远程（固定周六日休息，但严格的 8 小时日常活动跟踪） 设置：一家稳定的、自力更生的美国 SaaS 公司，已经存在了 20 年，尽管印度的运营团队很精简（大约 30 人）。 现实：看看他们的 LinkedIn，大约 80% 的印度员工都是测试工程师。技术面试是一个笑话——基本循环、5 个 git 命令以及快速的 Postman 请求。非常明显的是，这是一个美化的手动 QA/回归脚本维护角色（Playwright、Appium），而不是实际的产品工程。他们基本上将标准的 QA 工作包装在流行的“AI 氛围编码”中。   困境 我在两种完全不同的风险之间左右为难：  坚持 3 LPA SDE 角色：我保护我的开发头衔，但我的工资仍然严重不足，工作过度，并且与一家不稳定的 5 人初创公司联系在一起，该公司随时可能失去动力。 担任 6 LPA 自动化角色：我的底薪立即翻倍。固定的 8 小时轮班意味着我可以轻松下班，研究 DSA，并继续构建我的全栈副业项目。但我冒着陷入“QA 框”的风险，一年后我将不得不积极地重新设计我的简历，以切换回开发人员角色。  作为一名应届生，仅仅为了保持“SDE”而拒绝 100% 的加薪是愚蠢的吗？没有资金的微型初创公司的头衔？如果我的个人作品集和 GitHub 上充满了实际的全栈 Web 应用程序和系统设计项目，那么从“自动化工程师”跳到“自动化工程师”到底有多难？标题回到核心SWE？   由   提交 /u/Leading-Fold-532   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ua8ul8/3_lpa_sde_at_3man_startup_vs_6_lpa_automation/</guid>
-      <pubDate>Fri, 19 Jun 2026 17:53:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>自动执行我的 WooCommerce 订单</title>
-      <link>https://www.reddit.com/r/automation/comments/1ua8566/automated_my_woocommerce_orders/</link>
+      <title>自动将 CJ 库存同步到 WooCommerce</title>
+      <link>https://www.reddit.com/r/automation/comments/1umk27x/synced_cj_stock_to_woocommerce_automatically/</link>
       <description><![CDATA[      由   提交/u/Boring-Shop-9424   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ua8566/automated_my_woocommerce_orders/</guid>
-      <pubDate>Fri, 19 Jun 2026 17:26:26 GMT</pubDate>
+      <guid>https://www.reddit.com/r/automation/comments/1umk27x/synced_cj_stock_to_woocommerce_automatically/</guid>
+      <pubDate>Fri, 03 Jul 2026 17:05:25 GMT</pubDate>
     </item>
     <item>
-      <title>从“陌生人登陆网站”到“预订工作”的完整路径，以及大多数人弄错的两个地方</title>
-      <link>https://www.reddit.com/r/automation/comments/1ua3n7v/the_full_path_from_stranger_lands_on_the_site_to/</link>
-      <description><![CDATA[在帮助本地服务企业改进其网站时注意到一些有趣的事情。 我曾经认为网站和聊天机器人基本上在做相同的工作，但实际上并非如此。 网站的工作主要是信任和指导。 有人登陆该页面，通常是带着紧急问题，并在几秒钟内决定该企业是否合法。他们想要凭据、认证和明确的后续步骤等证据。 在这种情况下，每个部分都指向两个简单的操作：致电或请求报价。 聊天机器人最终服务于一个完全不同的目的。 对于下班后访问或不准备立即采取行动的人来说，它变得最有用。 如果有人在凌晨 1 点到达，没有人可以接电话，机器人至少为他们提供了一种提问或留下联系方式的方式信息而不是弹回给竞争对手。 对我来说最突出的是这种设置实际上失败的地方。 首先，人们通常将捕获潜在客户视为终点线。 事实并非如此。 如果没有人快速跟进，则一夜之间在聊天日志中出现的潜在客户并不比没有潜在客户好多少。 响应速度比机器人听起来有多聪明或优雅更重要。 第二，强迫人们聊天可能会损害转化率。 有些人只是想打电话。 因为聊天看起来更干净而将聊天作为唯一途径，实际上可能会失去轻松的转化率。 对我来说最大的收获是： 它有助于设计整个客户路径，而不仅仅是单个工具。 网站建立信任并推动行动。 聊天机器人可以帮助抓住下班后出现的人。  但是除非有真人快速跟进，否则这两件事都不重要。 很好奇其他与服务企业合作的人是否也注意到了类似的事情。   由   提交 /u/Mandyhiten   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ua3n7v/the_full_path_from_stranger_lands_on_the_site_to/</guid>
-      <pubDate>Fri, 19 Jun 2026 14:33:55 GMT</pubDate>
+      <title>我会解决你的gtm问题</title>
+      <link>https://www.reddit.com/r/automation/comments/1umjtgd/ill_fix_your_gtm_problems/</link>
+      <description><![CDATA[大家好， 我构建 GTM 和自动化系统，主要用于 B2B SaaS，已经做了几年，所以我相当技术化。出站引擎、入站潜在客户响应、潜在客户路由、CRM 清理等等。 这里不卖任何东西，只是发现解决其他人的管道确实很有趣，而且我正在尝试看到更多实际问题。 因此，请将当前损坏或手动的东西扔到您的漏斗中。线索进来并在任何人回复之前就死掉了。出站都是复制粘贴。没有人信任的 CRM。您在五个工具之间手动移动的数据。不管是什么。 在下面评论，我会修复它   由   提交 /u/Character_Cable_1531   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1umjtgd/ill_fix_your_gtm_problems/</guid>
+      <pubDate>Fri, 03 Jul 2026 16:56:27 GMT</pubDate>
     </item>
     <item>
-      <title>产生和管理潜在客户的公司</title>
-      <link>https://www.reddit.com/r/automation/comments/1ua0s0u/lead_generation_company_that_generates_and_manages/</link>
-      <description><![CDATA[有人知道一家能够发现并管理潜在客户的潜在客户开发公司吗？   由   提交 /u/Delicious-Piccolo-70   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ua0s0u/lead_generation_company_that_generates_and_manages/</guid>
-      <pubDate>Fri, 19 Jun 2026 12:32:48 GMT</pubDate>
+      <title>n8n 可以原生处理 RAG 和繁重的 PDF 解析吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1umbd92/can_n8n_handle_rag_and_heavy_pdf_parsing_natively/</link>
+      <description><![CDATA[大家好。我正在建立一个人工智能合同&amp; ToR Triage Agent 让我的团队自动从公开招标文件（30 多页、凌乱的表格）中提取 SLA、风险和技术要求。 我最初计划使用 Azure VM 和 Python 和 Docker 来完成繁重的工作（OCR、文本清理、分块）的架构。但是，由于我属于 IT 部门之外的业务团队，因此由于严格的安全策略和预算限制，我对虚拟机的请求被拒绝。每一个新的基础设施都被视为不必要的成本。 这可以完全在 n8n 内完成吗？我需要的管道：Ingest PDF -&gt; OCR-&gt;清洁&amp;块文本 -&gt;嵌入-&gt;查询 LLM  - 您如何纯粹在 n8n 中处理 30 多页 PDF 的 OCR 和分块？您是否建议从 n8n 调用可靠的社区节点或廉价/无服务器 API 来卸载此任务？ - 如果没有像 Qdrant 这样的专用 Docker 主机，与 n8n 的 AI 节点平滑集成的最具成本效益的矢量 DB 方法是什么？ 任何有关将 n8n 推向文档智能绝对极限的建议都将是令人惊叹的！   由   提交/u/EstablishmentSalty43  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1umbd92/can_n8n_handle_rag_and_heavy_pdf_parsing_natively/</guid>
+      <pubDate>Fri, 03 Jul 2026 11:01:15 GMT</pubDate>
     </item>
     <item>
-      <title>自动化 PO 审批流程的最佳方法是什么</title>
-      <link>https://www.reddit.com/r/automation/comments/1ua0d2b/whats_the_best_way_to_automate_po_approval_process/</link>
-      <description><![CDATA[我担任了一个新角色，我很快意识到许多流程都是手动完成的。 ​ 我正在努力实现自动化的任务之一是 CFO 的 PO 批准。有没有一个程序可以自动执行此操作？    由   提交/u/Lazy_bones24  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1ua0d2b/whats_the_best_way_to_automate_po_approval_process/</guid>
-      <pubDate>Fri, 19 Jun 2026 12:13:07 GMT</pubDate>
+      <title>供应商会回复人工智能自动电子邮件撰写的帖子吗？</title>
+      <link>https://www.reddit.com/r/automation/comments/1uma9qc/will_suppliers_reply_to_posts_written_by_ai/</link>
+      <description><![CDATA[我的计划是使用 accio 采购工具包电子邮件联系一些供应商，并尝试找出我的最佳和最低出厂价格，但坦率地说，这是一项大量工作，这是我的计划：我认为供应商不太关心它是否是人工智能。他们关心电子邮件是否清晰。所以我首先将产品规格、数量、发货地点、目标价格和报价格式放在消息中。在我的工作中确定经销商，自动填写所有带有特定信息的网站表格，试图获得最低的价格和报价。最佳逐项报价。接下来创建一个人工智能“收件箱扫描仪”监视对这些电子邮件的回复。如果我得到报价，它会将这些数据整理到电子表格中。这部分对我帮助最大。它将供应商名称、回复状态、价格、运费、交货时间和注释保存在一起。所以我不需要检查 20 封电子邮件并错误地丢失一份好的报价。如果经销商很难获得，它会起草一份后续文件，并提供最后一次提供报价的机会。一旦我得到了所有的报价，它就会确定一个具有最佳交易的子集，并尝试让它们在竞价战中相互竞争。你们觉得这个计划怎么样？指出我的想法中的漏洞，以便我可以尝试解决它们。   由   提交 /u/WiscLeafalNika   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1uma9qc/will_suppliers_reply_to_posts_written_by_ai/</guid>
+      <pubDate>Fri, 03 Jul 2026 10:01:58 GMT</pubDate>
     </item>
     <item>
-      <title>n8n中的批量发票处理：通过表单上传多张发票，一次性提取数据[包含工作流程]</title>
-      <link>https://www.reddit.com/r/automation/comments/1u9xf52/batch_invoice_processing_in_n8n_upload_multiple/</link>
+      <title>采购订单自动化：来自真实客户构建的 5 个 n8n 课程 [包括工作流程]</title>
+      <link>https://www.reddit.com/r/automation/comments/1um8zyk/purchase_order_automation_5_n8n_lessons_from_a/</link>
       <description><![CDATA[       由   提交/u/easybits_ai   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1u9xf52/batch_invoice_processing_in_n8n_upload_multiple/</guid>
-      <pubDate>Fri, 19 Jun 2026 09:35:34 GMT</pubDate>
+      <guid>https://www.reddit.com/r/automation/comments/1um8zyk/purchase_order_automation_5_n8n_lessons_from_a/</guid>
+      <pubDate>Fri, 03 Jul 2026 08:48:02 GMT</pubDate>
     </item>
     <item>
-      <title>如何将我的圣诞树保留到六月为我带来了数百万美元的客户</title>
-      <link>https://www.reddit.com/r/automation/comments/1u9u9x6/how_keeping_my_christmas_tree_up_until_june_got/</link>
-      <description><![CDATA[ 由   提交/u/I_AM_HYLIAN   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1u9u9x6/how_keeping_my_christmas_tree_up_until_june_got/</guid>
-      <pubDate>Fri, 19 Jun 2026 06:27:22 GMT</pubDate>
+      <title>我为 Telegram 打造了一个私人助理</title>
+      <link>https://www.reddit.com/r/automation/comments/1um87u8/i_built_a_personal_assistant_for_telegram/</link>
+      <description><![CDATA[ 由   提交 /u/Mlnchlc   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1um87u8/i_built_a_personal_assistant_for_telegram/</guid>
+      <pubDate>Fri, 03 Jul 2026 08:01:21 GMT</pubDate>
     </item>
     <item>
-      <title>自动化中的弹性与便利性</title>
-      <link>https://www.reddit.com/r/automation/comments/1u9sr49/resilience_vs_convenience_in_automation/</link>
-      <description><![CDATA[ 由   提交 /u/GroundwritingLet202   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1u9sr49/resilience_vs_convenience_in_automation/</guid>
-      <pubDate>Fri, 19 Jun 2026 05:03:49 GMT</pubDate>
+      <title>我建立了一套人工智能工作流程，帮助本地企业停止失去线索而跟进缓慢，这是实际的逻辑</title>
+      <link>https://www.reddit.com/r/automation/comments/1um7diy/i_built_a_set_of_ai_workflows_which_helps_local/</link>
+      <description><![CDATA[我想分享一下我最近构建的东西背后的架构，它是一个面向本地服务企业的工作流程系统，处理即时客户响应、多步骤跟进和自动审核请求。 所以工作流程的核心逻辑是： 首先它触发新的线索，然后人工智能在几分钟内起草并发送第一个响应，然后如果没有响应，它会安排后续跟进接触点。它还会在服务后自动发送审核请求。 技术上没有什么突破性的，但它解决了大多数小型企业没有工具或时间的实际问题。如果有人想要实际的工作流程分解或模板，您可以在我的个人资料中找到它。   由   提交/u/Neat_Translator1865   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1um7diy/i_built_a_set_of_ai_workflows_which_helps_local/</guid>
+      <pubDate>Fri, 03 Jul 2026 07:11:13 GMT</pubDate>
     </item>
     <item>
-      <title>建议 - 有抱负的航空公司飞行员</title>
-      <link>https://www.reddit.com/r/automation/comments/1u9na7k/advice_aspiring_airline_pilot/</link>
-      <description><![CDATA[大家好， 我即将参加大学飞行课程，希望将来成为一名航空公司飞行员。然而，随着人工智能基础设施的发展步伐，我开始担心我的职业生涯能否持续下去。  对于任何拥有专业知识的人，考虑到人工智能的发展，您是否建议不要成为飞行员？在可预见的未来是否有可能出现全自动商用飞机？  谢谢。   由   提交 /u/Intelligent_Shoe3799   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1u9na7k/advice_aspiring_airline_pilot/</guid>
-      <pubDate>Fri, 19 Jun 2026 00:32:42 GMT</pubDate>
+      <title>我如何使用 ChatGPT 项目来安排我儿子的住院治疗</title>
+      <link>https://www.reddit.com/r/automation/comments/1um39j0/how_i_used_chatgpt_projects_to_organise_my_sons/</link>
+      <description><![CDATA[我最近在儿子住院期间使用了 ChatGPT 项目，不是为了获得医疗建议，而是为了保持井井有条。 我将所有报告、处方、保险文件、用药时间表和医生笔记保存在一个项目中。  由于一切都在上下文中，我不必反复解释情况，它帮助我为医生准备更好的问题并让家人随时了解最新情况。 它确实减少了压力时期的精神负担。 还有其他人在住院或其他重大生活事件期间使用人工智能作为组织工具吗？我很想听听您是如何实现这一目标的。   由   提交 /u/sidmish   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1um39j0/how_i_used_chatgpt_projects_to_organise_my_sons/</guid>
+      <pubDate>Fri, 03 Jul 2026 03:34:52 GMT</pubDate>
     </item>
     <item>
-      <title>我的人工智能代理又做了一件疯狂的事</title>
-      <link>https://www.reddit.com/r/automation/comments/1u9h7x1/another_wild_thing_my_ai_agent_did/</link>
-      <description><![CDATA[这是一个疯狂的故事。 ​ 周末期间，我办公室的一个人订婚了。我当时想，这是一个值得庆祝的理由。所以我告诉我的人工智能代理（catch ai）嘿，请为我们安排一个团队活动，去酒吧喝酒或去餐厅吃饭。 ​ 我给了他一点指导，但基本上他所做的是，一，与整个团队交谈并了解他们的时间表和可用性。第二，选一个地方让我们吃一顿丰盛的晚餐。第三，实际打电话给餐厅并为我们预订一张桌子。第四，他们要求提供一张信用卡作为押金，他实际上能够与主人交谈并让她在不提供我的信用卡详细信息的情况下为我们保留桌子。 ​ 所以这不是一个提示让一切都正确，但它太疯狂了！！   由   提交/u/CartographerFeisty66   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1u9h7x1/another_wild_thing_my_ai_agent_did/</guid>
-      <pubDate>Thu, 18 Jun 2026 20:19:07 GMT</pubDate>
+      <title>您当前的技术堆栈中绝对离不开的自动化工具或框架是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1um2ul8/what_is_the_one_automation_tool_or_framework_in/</link>
+      <description><![CDATA[自动化领域目前极其分散。一些工程师坚信使用 Celery 或 Airflow 等工具的开源、自定义编码的 Python 框架，而另一些工程师则更喜欢低代码/无代码集成平台（如 Make、n8n 或 Zapier）的速度和可视化界面。  就我个人而言，我发现虽然低代码平台将我们的原型设计速度提高了近 50%，但长期订阅成本和执行限制迫使我们重新使用自定义代码来应对繁重的企业工作负载。  我想了解社区最喜欢的工具。  如果您必须剥离整个堆栈并仅保留一个核心框架或平台来处理所有自动化工作流程和人工智能集成，您会选择什么以及为什么？   由   提交 /u/Product_guy24   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1um2ul8/what_is_the_one_automation_tool_or_framework_in/</guid>
+      <pubDate>Fri, 03 Jul 2026 03:14:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>您认为哪些特定技能将因自主人工智能代理的快速发展而完全过时？</title>
+      <link>https://www.reddit.com/r/automation/comments/1um2snj/which_specific_skillsets_do_you_think_will_become/</link>
+      <description><![CDATA[纵观自主代理和高级代码解释器的最新发展轨迹，很明显构建复杂软件管道的进入门槛正在快速下降。  过去需要专门的中间件开发人员才能完成的任务现在可以由人工智能系统在很短的时间内完成。根据您目前的行业观察，您认为哪些技术角色或日常任务将在未来 24 个月内完全由自动化系统处理？  更重要的是，您个人如何改变自己的技能以保持领先地位？  您是否更关注系统架构、即时工程、数据治理或完全其他的事情？  让我们讨论一下如何随着技术的发展保持价值。   由   提交 /u/Product_guy24   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1um2snj/which_specific_skillsets_do_you_think_will_become/</guid>
+      <pubDate>Fri, 03 Jul 2026 03:11:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>花了8个小时编辑一个视频。现在我花了 2。这就是变化。</title>
+      <link>https://www.reddit.com/r/automation/comments/1ultbnh/spent_8_hours_editing_a_single_video_now_i_spend/</link>
+      <description><![CDATA[8 分钟视频。 8小时的编辑。其中一半只是花絮。寻找素材库。正在下载。修剪。颜色搭配。手动。每一个。单身的。时间。 我制作有关复古游戏的视频文章。小频道，大约 3000 个低音炮。花絮搜寻会让我放弃。这没有创意。这只是乏味的忙碌工作。 所以我开始用人工智能生成填充镜头。建立镜头。气氛转变。抽象的视觉效果。反正没人看的东西。 当前工作流程：  在 Notion 中编写脚本 录制旁白 在 CapCut 中编辑主时间线（节奏、笑话、剪辑） 使用 PixVerse 为我找不到素材的部分生成 b-roll 对所有内容应用相同的 LUT，添加最小的胶片颗粒进行混合  时间从 8 小时缩短到 2 小时左右。质量相同。更好的脚本，因为我不会花费 4 小时来寻找素材。 示例：Dreamcast 视频。 《如果Dreamcast赢了怎么办》部分需要未来城市的镜头。不再是在股票网站上花一小时，而是用 10 分钟生成 5 秒的剪辑。完成。 我知道人工智能在编辑圈子里很敏感。我不会取代编辑。我正在替换未编辑的编辑部分。无聊的狗屎。 工具：CapCut、PixVerse（用于 b-roll 生成）、Notion。就是这样。   由   提交 /u/Standard-Platypus582   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1ultbnh/spent_8_hours_editing_a_single_video_now_i_spend/</guid>
+      <pubDate>Thu, 02 Jul 2026 20:18:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
