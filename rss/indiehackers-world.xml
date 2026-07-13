@@ -4,7 +4,7 @@
     <title>帖子 独立黑客</title>
     <link>https://feed.indiehackers.world</link>
     <description>这是 indiehackers.com 的非官方提要</description>
-    <lastBuildDate>Mon, 13 Jul 2026 17:10:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 19:17:51 GMT</lastBuildDate>
     <item>
       <title>我推出了 3 个人工智能工具，但销量为零——这就是实际有效的方法</title>
       <link>https://feed.indiehackers.world/post/b32c05c498</link>
@@ -12,6 +12,14 @@
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/b32c05c498</guid>
       <pubDate>Sun, 12 Jul 2026 14:09:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>我分析了 7,484 个 Reddit 讨论。宽泛的类别几乎毫无用处。</title>
+      <link>https://feed.indiehackers.world/post/e236bd67e8</link>
+      <description><![CDATA[我将此分析作为问题信号的一部分进行了构建。您可以在 ProblemSignal.com 上浏览排名的想法及其背后的引用。
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/e236bd67e8</guid>
+      <pubDate>Sun, 12 Jul 2026 08:48:41 GMT</pubDate>
     </item>
     <item>
       <title>AI 紫色问题：为什么每个 AI 品牌看起来都一样</title>
@@ -29,6 +37,21 @@ Discord Indiehackers 聊天广告此处]]></description>
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/3c6d6f8b6a</guid>
       <pubDate>Sat, 11 Jul 2026 18:58:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为一名非技术创始人，我在一天之内构建了我的第一个 SaaS——这就是发生的事情</title>
+      <link>https://feed.indiehackers.world/post/bcc81aeec2</link>
+      <description><![CDATA[PayFast 付款（我在南非 — Stripe 不直接支持南非商家）
+部署在 Render 的免费层上
+完全诚实地了解它的位置：
+这并不是这个领域的第一个工具——还有更大、更成熟的参与者。我的赌注是，对于那些觉得这些工具太过杀伤力的小卖家来说，更简单、更便宜。
+目前，它从 Shopify 自动同步，但其他渠道（店内、Etsy 等）是手动跟踪的，尚未双向同步。
+到目前为止，零付费客户 — 我今天才开始外展，实际上是向小店主发送 Instagram 私信。
+如果您想查看它，请链接：https://inventory-sync-starter.onrender.com
+在这个阶段，我真的只是在寻找诚实的反馈——如果您已经处理过多渠道库存问题，或者您可以立即发现该方法的一些愚蠢之处，我宁愿现在就听到它。如果这里有人自己经营 Shopify 商店，很高兴为您提供免费试用，并且很想知道它是否真的有用。
+Discord Indiehackers 聊天广告此处]]></description>
+      <guid>https://feed.indiehackers.world/post/bcc81aeec2</guid>
+      <pubDate>Sat, 11 Jul 2026 18:05:50 GMT</pubDate>
     </item>
     <item>
       <title>132 个用户、3 个当前客户以及我本应该避免的续订失败</title>
@@ -169,39 +192,6 @@ Discord Indiehackers 聊天广告此处]]></description>
 Discord Indiehackers 聊天广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/8cde06d030</guid>
       <pubDate>Thu, 09 Jul 2026 15:52:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>批准一切：安全，还是只是一个较慢的待办事项清单？</title>
-      <link>https://feed.indiehackers.world/post/11cbec8bb7</link>
-      <description><![CDATA[两者都是对的，这就是让它变得困难的原因。赢得信任的控制与重现瓶颈的控制相同。
- 所以，真正的肠道检查。如果某件事确实为您带来了客户和销售额，您会在不事先询问的情况下让它运行多少？
-我先走了。我会让它自行运行内容和推广，但对任何支出或收费保持批准。不过我对此持松散态度。你在哪里着陆？
-附注如果您想在回答时查看它，请访问 https://myinc.app/?utm_source=indiehackers 。 IH 会员可免费使用 2 周，无需刷卡，使用代码 MYINC-IHFORUM。但老实说，我最想要的是肠道检查。
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/11cbec8bb7</guid>
-      <pubDate>Thu, 09 Jul 2026 14:24:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>在我的一名代理暴露凭证后，我为人工智能代理建立了一个安全检查点</title>
-      <link>https://feed.indiehackers.world/post/e4e0af88b2</link>
-      <description><![CDATA[→ 代理继续或停止
-第一个用例很简单：
-
-阻止破坏性 shell 命令
-阻止 GitHub 存储库删除
-阻止数据库丢失
-阻止有风险的部署操作
-记录允许和阻止的工具调用
-
-它适用于 Node、Python、LangGraph、Claude Code 和自定义代理。
-我还处于早期阶段，正在尝试向在实际工作流程中使用代理的构建者学习。
-向其他创始人/建设者提出的问题：
-如果您的 AI 代理可以调用工具，您会默认阻止哪些操作？
-这是我正在测试的内容：
-https://relay-security-lemon.vercel.app/
-Discord Indiehackers 聊天广告此处]]></description>
-      <guid>https://feed.indiehackers.world/post/e4e0af88b2</guid>
-      <pubDate>Thu, 09 Jul 2026 10:25:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
