@@ -4,111 +4,111 @@
     <title>ChatGPT、人工智能和自动化</title>
     <link>https://www.reddit.com/r/automation</link>
     <description>您是否对自动化的奇迹着迷，对 ChatGPT 的强大功能着迷，或者对人工智能和自动化的无限可能性感兴趣？别再犹豫了！我们充满活力的 Reddit 社区是像您这样的爱好者的完美中心。作为我们社区的成员，您将获得丰富的资源，包括： 🔬 关于自动化、ChatGPT 和 AI 的发人深省的讨论。 🌟 独家洞察最新进展和行业新闻</description>
-    <lastBuildDate>Mon, 27 Jul 2026 16:54:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 07:18:19 GMT</lastBuildDate>
     <item>
-      <title>如何防止自动化重试重复现实世界的操作？</title>
-      <link>https://www.reddit.com/r/automation/comments/1v850ki/how_are_you_preventing_automation_retries_from/</link>
-      <description><![CDATA[我不断从自动化构建者那里听到的一个模式是，最困难的问题发生在工作流程已经开始工作之后：  API 令牌在中途过期 步骤成功，但工作流程将其记录为失败 工作流程重试并重复外部操作 人员批准某些操作，但工作流程无法安全恢复 仪表板显示“成功”，但预期结果从未发生  我构建了一个名为 AgentHail 的小型系统来测试一种方法： 代理创建一个不可变的提案，人工批准或拒绝它，工作流程收到与确切操作和参数绑定的收据。然后，执行事件会记录在仅附加日志中。 我很好奇这里的人们目前如何解决这个问题。 您是否依赖幂等密钥、自动化平台内的审批步骤、自定义数据库、手动审核队列或其他什么？ 我对重试可能会发送重复电子邮件、更新同一 CRM 记录两次、多次退款或发布两次内容的示例特别感兴趣。   由   提交/u/marcelk231  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v850ki/how_are_you_preventing_automation_retries_from/</guid>
-      <pubDate>Mon, 27 Jul 2026 16:17:03 GMT</pubDate>
+      <title>如何在不冒生产风险的情况下测试写入数据库的自动化？</title>
+      <link>https://www.reddit.com/r/automation/comments/1vn0ezc/how_do_you_test_automations_that_write_to_a_db/</link>
+      <description><![CDATA[我被自动化所烧伤，该自动化半运行于产品并留下了混乱，所以现在我在每次测试运行时启动一个一次性数据库分支，然后将其扔掉。 Neon 使这一点变得实用，它的 Postgres 分支会在几秒钟内将您的真实模式和数据克隆到一个独立的副本中，因此自动化写入分支和产品永远不会出现错误运行。还有其他人在执行每次运行分支，或者只是指着共享的暂存盒并希望吗？   由   提交/u/pretzels90210  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vn0ezc/how_do_you_test_automations_that_write_to_a_db/</guid>
+      <pubDate>Thu, 13 Aug 2026 04:18:19 GMT</pubDate>
     </item>
     <item>
-      <title>为 n8n、Make 和 Zapier 构建了开放式工作流程可观察性仪表板。</title>
-      <link>https://www.reddit.com/r/automation/comments/1v82oa9/built_an_open_workflow_observability_dashboard/</link>
-      <description><![CDATA[大家好， 几个月来，我一直致力于开发 FlowLens，这是一个针对 n8n、Make 和 Zapier 等自动化解决方案的工作流程可观察性解决方案。 我意识到的主要挑战是，一旦工作流程变得更大，就很难回答以下问题： 哪个工作流程失败了？ 什么时候失败的失败？ 失败的频率是多少？ 崩溃之前发生了什么变化？ 哪些自动化不健康？ 我不想打开多个仪表板，而是希望所有内容都集中在一个地方。 当前功能： 使用其 API 连接 n8n 使用其 API 连接 Make Zapier webhook 集成 自动工作流程发现 执行历史记录 事件检测 工作流程运行状况监控 用于调试的快照存储 基于团队的仪表板 此功能仍在积极开发中，因此我非常感谢诚实的反馈。 我想要的问题 这是您实际遇到的问题吗？ 哪些功能会让您满意从当前的监控设置切换？ 您要删除或重新设计任何内容吗？ 谢谢！  链接   由   提交 /u/Scopre   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v82oa9/built_an_open_workflow_observability_dashboard/</guid>
-      <pubDate>Mon, 27 Jul 2026 14:53:16 GMT</pubDate>
+      <title>我构建了一个免费的 n8n 工作流程，可将 Google 地图变成潜在客户列表</title>
+      <link>https://www.reddit.com/r/automation/comments/1vmwqex/i_built_a_free_n8n_workflow_that_turns_google/</link>
+      <description><![CDATA[      我厌倦了手动搜索 Google 地图、将商家复制到电子表格中、查找他们的网站，然后寻找联系方式。 因此，我构建了一个简单的 n8n 工作流程，自动完成整个操作。 你可以像这样搜索：  “屋顶公司” + 达拉斯 “牙医” + 芝加哥 “营销机构” + 伦敦 “管道工” + 纽约  它：  搜索Google地图 拉动企业获取他们的网站+电话 查找公开可用的电子邮件在可用时抓取社交链接 清理数据 输出现成的潜在客户列表  工作流程完全免费。 我建立这个主要是因为我想要一些轻量级的东西，而不是仅仅为了寻找本地企业而支付巨大的潜在客户数据库的费用。 如果您正在进行出站、本地潜在客户开发、代理机构勘探，或者只是想尝试 Google 地图数据，它可能会很有用。 工作流程的 GitHub 链接： 我们的 sub 不允许发布网站链接，我会尝试将其发布在评论中，即使没有链接，您也可以根据上面的参考屏幕截图重建工作流程   由   提交/u/Delicious-Start-4707  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vmwqex/i_built_a_free_n8n_workflow_that_turns_google/</guid>
+      <pubDate>Thu, 13 Aug 2026 01:20:21 GMT</pubDate>
     </item>
     <item>
-      <title>独立顾问，每月预算 150 美元。你的人工智能堆栈是什么样的？</title>
-      <link>https://www.reddit.com/r/automation/comments/1v817nx/solo_consultant_with_a_150month_budget_what_would/</link>
-      <description><![CDATA[我一直在清理我的订阅，因为我意识到我正在为一堆我很少接触的工具付费。 我是一名独立顾问，可以证明每月 150 美元左右的所有费用都是合理的。我的大部分工作是与客户交谈、整理提案、偶尔构建登陆页面、制作套牌以及自动化重复的工作。 现在，我正在尝试弄清楚是使用一两个可以做很多事情的工具更好，还是使用一堆专门的工具更好。 如果您有相同的预算，您的堆栈是什么？   由   提交/u/smithnaam   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v817nx/solo_consultant_with_a_150month_budget_what_would/</guid>
-      <pubDate>Mon, 27 Jul 2026 13:58:57 GMT</pubDate>
+      <title>我们构建了一个 CPU 优先的推理服务器 — 4B 聊天+视觉、ASR 和 TTS 在一个 OpenAI 兼容端点后面，可免费运行</title>
+      <link>https://www.reddit.com/r/automation/comments/1vmusfu/we_built_a_cpufirst_inference_server_4b/</link>
+      <description><![CDATA[ 由   提交/u/searchblox_searchai   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vmusfu/we_built_a_cpufirst_inference_server_4b/</guid>
+      <pubDate>Wed, 12 Aug 2026 23:55:46 GMT</pubDate>
     </item>
     <item>
-      <title>MCP代理运行才是出路</title>
-      <link>https://www.reddit.com/r/automation/comments/1v80u0u/mcp_agentic_run_is_the_way/</link>
-      <description><![CDATA[这实际上只是我的直觉，但我觉得自动化的前进方向是允许我们的系统由人类和人工智能代理运行。 它可以是 GUI 控制，也可以是直接无头运行。但本质是，这种架构将确定性（您构建的代码/任何系统）引入到代理人工智能中，而不是相反：这是基于 LLM API 的编码（我们将 LLM 灵活性引入确定性代码） 您对此有何看法？我知道有些人反对人工智能，但实际上我很好奇这是否是更正确的方向。   由   提交 /u/Hot-Fan-1804   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v80u0u/mcp_agentic_run_is_the_way/</guid>
-      <pubDate>Mon, 27 Jul 2026 13:44:11 GMT</pubDate>
+      <title>寻找AI自动化专家制作屏幕录制教程视频（500美元/月）</title>
+      <link>https://www.reddit.com/r/automation/comments/1vmi647/looking_for_ai_automation_expert_to_create_screen/</link>
+      <description><![CDATA[ 由   提交 /u/daviswbaer   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vmi647/looking_for_ai_automation_expert_to_create_screen/</guid>
+      <pubDate>Wed, 12 Aug 2026 15:58:35 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能自动化真的是一种现实的赚钱方式吗？寻找真实的体验</title>
-      <link>https://www.reddit.com/r/automation/comments/1v805mx/is_ai_automation_really_a_realistic_way_to_earn/</link>
-      <description><![CDATA[我不断看到有关人工智能自动化的帖子，人们声称他们通过构建自动化并为企业提供人工智能解决方案来赚钱。 我对此进行了调查，但仍然很困惑。 我很想听听这样做的人的意见： 人工智能自动化是一种实用的赚钱方式吗？ 需要哪些技能/工具？ 初学者可以在没有技术背景的情况下开始吗？ 客户需要支付哪些服务费用？ 如果您有经验，我将不胜感激您的诚实建议。   由   提交 /u/MovieNeither3400   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v805mx/is_ai_automation_really_a_realistic_way_to_earn/</guid>
-      <pubDate>Mon, 27 Jul 2026 13:17:08 GMT</pubDate>
+      <title>LinkedIn 外展的一部分永远不应该自动化，这适用于每一个自动化外展</title>
+      <link>https://www.reddit.com/r/automation/comments/1vmhziq/there_is_a_part_of_the_linkedin_outreach_you/</link>
+      <description><![CDATA[自动化在漏斗的顶部占据一席之地 - 找到合适的人员、发送连接请求、运行前几个后续操作，这样您就不需要每周手工完成 200 多个任务。一般来说，这是大多数机构和公司所做的事情，因为这几乎不可行，或者手动推动类似的规模太费力。然而，在该流程中有一个点，在此之后进一步自动化弊大于利，而这个点就在有人回复之后。 自动化无法在潜在客户回复之外发挥作用的主要原因是速度和判断力，而这些数字实际上证实了在速度方面，即使是几分钟也可以在销售过程中产生巨大的差异。当您的响应时间从 5 分钟缩短到 10 分钟时，获得潜在客户资格的几率会下降约 400%。这仅仅5分钟的差别，该死的5分钟！由于序列仍在“培育”中，因此需要隔夜回复。在很多情况下，线程已经消失了：他们与最先回答的人一起预订，或者它冷却下来，或者它被埋在接下来的五十个通知中。 这可以通过自动化解决吗？也许，您可以设置一些内容，以便在潜在客户回复后立即回复。但接下来我们面临一个新的问题，那就是： 判断。回复率告诉我们潜在客户的实际价值在哪里：与新联系人的冷接触的效果可能为 5-15%，已经参与的潜在客户的效果约为 15-30%，而对于首先向您发送消息的人，效果会达到 40-70% 以上。在这个尺度上你走得越远，每次对话的价值就越高，并且越不能容忍通用的、预设的答案。提出具体的、不明确的问题的人不想要模板化的“很好的联系”问题。 - 他们希望阅读他们所写内容的人以正确的语气得到实际的回应。无论您训练得多么好，自动化都无法做到这一点。 自动化在以下方面确实非常有效：  外展 - 从个性化和基于信号到冷漠 提醒和后续任务，确保收件箱中没有任何内容腐烂 状态和所有权跟踪，以便两个代表不会落在同一个线程中 路由，以便热情的回复快速到达您的 SDR而不是坐在共享队列中  这正是我们将 Expandi 的自动化保持在这个水平，并且不再进行任何进一步操作的原因。相信我，作为 GTM 总监，我一次又一次地被问到为什么我们不添加自动回复甚至全自动对话作为我们功能的一部分，原因是 - 它们不会给您的外展带来任何好处。直到您收到回复为止的所有事情都可以并且应该以高度精确和个性化的方式实现自动化，因为它可以节省时间且无需任何费用。与真正的潜在客户进行回复的对话仍然是手动的，因为这需要人们阅读意图、语气以及正确下一步的决定。 在低音量下，差异不会那么大，因为无论如何你都会看到每一条回复。只有当你运行足够多的出站，好的回复开始被新的回复淹没，并且“我稍后再处理”时，它才会成为决定你的管道的成败的因素。变成“从未回复”没有人决定应该这样做。另外，将响应时间保持在 10 分钟以内会变得更加困难，但绝对值得投资。 需要注意的是：这适用于所有自动化外展，无论是 LinkedIn、电子邮件还是任何其他平台。自动化直到回复，然后手动接管对话，而且速度很快。   由   提交/u/cosankov  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vmhziq/there_is_a_part_of_the_linkedin_outreach_you/</guid>
+      <pubDate>Wed, 12 Aug 2026 15:51:45 GMT</pubDate>
     </item>
     <item>
-      <title>在仓库中部署工业 AMR 的成本到底有多高？</title>
-      <link>https://www.reddit.com/r/automation/comments/1v7xu4t/how_expensive_is_it_really_to_deploy_industrial/</link>
-      <description><![CDATA[我一直在尝试真实地了解 AMR 部署的实际成本超出了机器人本身的成本，老实说，我研究得越多，就越觉得硬件价格只是故事的一小部分。 很多解决方案听起来很简单 - 购买一些机器人，绘制仓库地图，然后就可以开始 - 但我猜现实世界的成本开始出现在所有对于那些实际在生产仓库中部署 AMR 的人来说，最终最大的意外成本或运营难题是什么？是车队管理软件、与 WMS/MES 集成、充电基础设施、Wi-Fi 覆盖、布局重新设计、交通控制、安全合规，还是只是持续的维护/支持？   由   提交/u/JerryZhi   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v7xu4t/how_expensive_is_it_really_to_deploy_industrial/</guid>
-      <pubDate>Mon, 27 Jul 2026 11:37:05 GMT</pubDate>
+      <title>作为数据科学家创办人工智能自动化机构是否值得</title>
+      <link>https://www.reddit.com/r/automation/comments/1vmh6y0/is_it_worth_it_to_start_ai_automation_agency_as_a/</link>
+      <description><![CDATA[嗨， 我在 PayPal 担任数据科学家，最近我们也转向在团队内构建 AI 自动化。我一直想自己开始做一些事情。我正在考虑人工智能自动化机构。 我知道 YouTube 上的很多专家都夸大了这个梦想。但我知道任何服务都是艰难的，而不是一个快速的方案。但我想知道  是否值得从 2026 年开始，人们能从中赚到很多钱吗？ 它是否具有可扩展性和可持续性，是否有良好的保留者 哪些利基市场是最好的 人们如何提供服务，就像使用ghl或其他工具并进行设置一样，这似乎非常简单，或者他们是否创建自定义自动化，如果是的话，你怎么做构建它们（你使用什么工具）  我不是开发人员，所以考虑到我的背景，我能在这方面做得很好吗？   由   提交 /u/FishCrafty1677   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vmh6y0/is_it_worth_it_to_start_ai_automation_agency_as_a/</guid>
+      <pubDate>Wed, 12 Aug 2026 15:22:47 GMT</pubDate>
     </item>
     <item>
-      <title>从决定自动化任务到实际让机器人运行任务的实际时间表是多少</title>
-      <link>https://www.reddit.com/r/automation/comments/1v7vaal/what_is_the_realistic_timeline_from_deciding_to/</link>
-      <description><![CDATA[好吧，所以公司经常让自动化听起来很快，就像它只是即插即用 但是从你的团队决定可以自动化的角度来看，让机器人真正启动并在地板上运行需要多长时间 我想知道这个过程是什么样的，以及它的哪一部分最终花费了最多时间   由   提交/u/Far-Record_45   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v7vaal/what_is_the_realistic_timeline_from_deciding_to/</guid>
-      <pubDate>Mon, 27 Jul 2026 09:20:57 GMT</pubDate>
+      <title>先记分卡，然后共享笔记？</title>
+      <link>https://www.reddit.com/r/automation/comments/1vmd7by/scorecards_first_shared_notes_later/</link>
+      <description><![CDATA[我在一家小型软件公司负责运营。我们的面试小组可以在评分前阅读共享笔记，一条自信的评论可以将其他分数拉向同一方向。我试图在笔记前面设置一个门。 我们的内部招聘工具有一个 API。 n8n 流程在面试结束时开始，创建待审核项目，并检查分配的记分卡。一旦每个小组成员提交带有一项证据的初始分数，流程就会打开共享笔记并将解锁时间写入我们的审核表。我单独留下了每个角色的记分卡。 迟到的记分卡是我无法正确处理的部分。该流程会在两小时后发送一个提醒，并在第二天早上发送另一个提醒。 24小时后，它会将面试放入HR队列中。我们将第一个提交的分数保留在历史记录中，小组成员必须解释他们在打开笔记后所做的任何更改。 评分流程永远不会触及成绩单。对于候选人同意转录的面试，人力资源部有时会在招聘记录中添加 vomo ai 链接。人力资源部门批准了这项服务，并为笔录提供了与录音相同的访问规则和删除日期。小组成员可以使用文本找到有争议的部分，但他们仍然会在更改事实注释之前播放音频。 HR 希望手动解锁并给出理由。我倾向于删除迟到的审阅者，因为手动解锁会绕过我构建的大门。然而，在一个小小组中，删除一名审阅者可能会让人力资源部门的投入太少。我还没有解决那部分。   由   提交 /u/Mediocre_Luck2467   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vmd7by/scorecards_first_shared_notes_later/</guid>
+      <pubDate>Wed, 12 Aug 2026 12:48:35 GMT</pubDate>
     </item>
     <item>
-      <title>是否有人将 Workspace 连接到 Gemini 并要求其扫描自动化/工作流程机会？</title>
-      <link>https://www.reddit.com/r/automation/comments/1v7uf1u/has_anyone_connected_workspace_to_gemini_and/</link>
-      <description><![CDATA[因此，您可以授予 Gemini 访问您的工作区的权限，这只是一个设置。我无法访问完全运行的业务工作区，我是一个人，但即使有了我的双子座，也发现了一些容易实现的目标以及实现自动化的方法。简单的事情，比如电子邮件过滤器、一些电子邮件脚本、驱动器和工作表，诸如此类的东西。 有人做过更大规模的事情吗？如果它有效的话，它看起来就像一个巨大的作弊代码。   由   提交 /u/motodup   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v7uf1u/has_anyone_connected_workspace_to_gemini_and/</guid>
-      <pubDate>Mon, 27 Jul 2026 08:30:43 GMT</pubDate>
+      <title>为什么人们会对系统进行过度设计？</title>
+      <link>https://www.reddit.com/r/automation/comments/1vmctjf/why_do_people_overengineer_systems/</link>
+      <description><![CDATA[      每天我都会看到有人运行 100 多个 24/7 AI 代理，我真的不明白一个人如何能够处理这么多维护工作。  几乎每个月都会有更快、更便宜、更好的人工智能模型发布。怎么会有人同时测试或改进这么多代理呢？  我更喜欢旨在优化我的生活的超级精益系统，而不是整天忙着修复为了让我的生活变得简单而构建的系统。    由   提交/u/ChupHojaYash   [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vmctjf/why_do_people_overengineer_systems/</guid>
+      <pubDate>Wed, 12 Aug 2026 12:31:58 GMT</pubDate>
     </item>
     <item>
-      <title>您好，正在寻找自由职业者来自动在 Instagram 上发布有关我的品牌的信息</title>
-      <link>https://www.reddit.com/r/automation/comments/1v7qqlc/hello_looking_for_freelances_to_automate_my/</link>
-      <description><![CDATA[ 由   提交/u/Sb4010  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v7qqlc/hello_looking_for_freelances_to_automate_my/</guid>
-      <pubDate>Mon, 27 Jul 2026 05:02:02 GMT</pubDate>
+      <title>用于抓取的免费工具或付费服务：您在哪里着陆，为什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1vmbrtz/free_tools_or_paid_services_for_scraping_where_do/</link>
+      <description><![CDATA[使用免费工具，我可以拥有更多控制权，而且无需支付任何费用，但当网站发生更改时，我会花费大量时间进行设置和修复。有了付费服务，我就可以解决大部分令人头痛的问题，尽管一旦项目增长，成本就会迅速增加。 您是坚持使用免费工具、付费服务还是根据项目混合使用两者？是什么让您到达现在的位置？   由   提交/u/KlutzyKlutz   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vmbrtz/free_tools_or_paid_services_for_scraping_where_do/</guid>
+      <pubDate>Wed, 12 Aug 2026 11:43:54 GMT</pubDate>
     </item>
     <item>
-      <title>自动化生产力</title>
-      <link>https://www.reddit.com/r/automation/comments/1v7jvsu/productivity_in_automation/</link>
-      <description><![CDATA[还有其他人在努力限制他们花在自动化程序上的时间吗？我构建了一个任务分配器项目，主要用于限制我在应用程序上的时间（它检查活动以区分用户场景和主应用程序），但它正在开发中。我更多地寻找习惯的想法和我可以做的事情，以便在精神上全天把这个爱好放在一边，而不是如何改进那个项目。 我患有多动症，并在我的大脑中保留这个借口，我的项目是为了节省时间和提高生产力。这是事实，但如果我花费太多时间来构建这些，则会适得其反。这在工作中不是问题，但我在家里有很多事情要做，这是一个问题。我想继续建设我的项目，但要以合理的速度进行。有时我很难停下来，因为我只想完成一个项目。  有什么想法吗？    由   提交/u/Physical_Bike3  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v7jvsu/productivity_in_automation/</guid>
-      <pubDate>Sun, 26 Jul 2026 23:38:56 GMT</pubDate>
+      <title>您的自动化通常在哪里出现问题？</title>
+      <link>https://www.reddit.com/r/automation/comments/1vm9vq9/where_do_your_automations_usually_break/</link>
+      <description><![CDATA[我发现实际的自动化逻辑并不总是问题所在。  工作流程可能会因 API 更改、身份验证过期、服务不可用或某个步骤返回意外结果而失败。  我很好奇这里的人们如何应对这些失败。您是否主要依赖日志和警报，还是使用人工智能来帮助识别问题所在并提出修复建议？  什么最适合您？   由   提交 /u/OwlZealousideal4779   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vm9vq9/where_do_your_automations_usually_break/</guid>
+      <pubDate>Wed, 12 Aug 2026 10:05:03 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能代理被高估了，简单的自动化仍然是王道</title>
-      <link>https://www.reddit.com/r/automation/comments/1v7e3zu/ai_agents_are_overrated_simple_automations_are/</link>
-      <description><![CDATA[   只是为了告诉你我知道我在说什么:) 太多了您正在尝试构建用于简单自动化的人工智能代理，这些代理可以通过非常简单且可靠的确定性程序运行。 对于 99% 的企业来说，您最好拥有一些 Python 代码来自动执行一些重复性任务，并保证每次运行时都以完全相同的方式运行。而且它不需要花费 70,000 美元的 LLM 代币。我想补充一点，它不需要人类来照顾它，因为它不可能产生不良输出的幻觉。 我为企业构建自动化。尽管我提供人工智能代理作为服务，但我告诉你，99% 的企业根本不需要它。企业主会向我寻求人工智能代理，因为他们听到了人工智能和法学硕士背后的炒作和营销，但他们几乎从不需要它。 顺便说一句，我附上的图片是最近客户的付款屏幕截图。我帮助他实现了每周大约 15 个小时的工作自动化，而且根本不需要任何法学硕士。 大多数时候，企业需要的是基于确定性代码的简单而可靠的自动化，该自动化将为他们自动执行一些重复性任务，并且每一步都不需要任何手动或保姆或人工审查。 因为看起来，每个人都看到人工智能背后的炒作，它看起来令人惊叹。但问题是，对于任何常规企业来说，优先事项不是拥有最新技术，优先事项不是拥有花哨的技术。就是为了赚更多的钱。  如果你的基于 LLM 的自动化要求员工审查输出并不断地照顾它，它不会帮助企业赚更多的钱。 如果你的基于 LLM 的自动化花费数千美元的 LLM 代币来完成基本 Python 或 TypeScript 可以用一小部分成本完成的事情，它不会帮助企业赚更多的钱。 我相信你们已经看到公司花费数十万甚至数百万美元。在 LLM 代币上。这对任何人都没有帮助。 我并不是说人工智能不好或者人工智能代理没有用。不，它们非常有用。对于大多数企业而言，大多数情况并非如此。 如果你向企业提供自动化服务，你的工作就是正确指导他们，以便他们了解他们实际上需要哪一个来解决他们的问题，无论是人工智能代理还是确定性自动化。 那些只使用人工智能代理完成每一项基本自动化任务的人，他们不是在向企业出售解决方案，他们实际上是在销售炒作和万金油，这不会持久，尤其是当补贴AI 代币结束了。 无论如何，只是对我有点热衷的话题毫无意义地大喊大叫。自动化工作并观察您编写的代码并为您做一些您自己需要花费数小时才能完成的事情真的很有趣。希望这对某人有帮助。   由   提交 /u/hassanwithanh   [链接] [评论] ]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v7e3zu/ai_agents_are_overrated_simple_automations_are/</guid>
-      <pubDate>Sun, 26 Jul 2026 19:50:30 GMT</pubDate>
+      <title>自动化了我整个早上的例行公事，但现在我不相信它了</title>
+      <link>https://www.reddit.com/r/automation/comments/1vm9o3u/automated_my_entire_morning_routine_and_now_i/</link>
+      <description><![CDATA[花了周末时间设置自动化——日出时间表上的智能灯、由闹钟触发的咖啡机、一个将我的日历和天气拉入我早上 6 点收到的短信的脚本。有用。老实说，这太棒了。 但现在我不断检查它是否有效，而不仅仅是......度过我的早晨。就像我把“做例行公事”换成了“做例行公事”。 “监督日常工作”。 还有其他人在家庭自动化方面遇到过这个奇怪的阶段吗？检查的焦虑最终会消失吗？还是只是添加更多自动化来解决这个问题？   由   提交/u/Past-Ad2067  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vm9o3u/automated_my_entire_morning_routine_and_now_i/</guid>
+      <pubDate>Wed, 12 Aug 2026 09:53:21 GMT</pubDate>
     </item>
     <item>
-      <title>如何加快我的工作流程？</title>
-      <link>https://www.reddit.com/r/automation/comments/1v7aohx/how_to_speed_up_my_workflow/</link>
-      <description><![CDATA[大家好，我是一名初级创意专家，在一家公司工作，绩效是最重要的（废话）。 由于我们创建的营销内容大多较短，大多数 CS 每天都会制作 10-30 个这样的内容，因为他们可以将一个创意重复用于多个广告。  我们在 Google 文档中制作它们，然后将每张卡片下载到我们上传到 clickup 或 dropbox 的文件夹中。  现在，这样做 10 次不是问题。 但是，当我制作 50-60 个广告并且需要为每个文件夹指定一个特定名称、一次下载一张卡片并单独上传所有内容时，这就成为一个问题。 这很容易占用 2 个小时，因此我无法制作那么多广告，并且由于技术方面的原因，我的性能会受到影响。  如果有人知道如何加快速度以及哪些工具可以帮助我，我将非常感激。   由   提交 /u/idiotkid32   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v7aohx/how_to_speed_up_my_workflow/</guid>
-      <pubDate>Sun, 26 Jul 2026 17:44:03 GMT</pubDate>
+      <title>为企业推荐的最佳人工智能营销自动化工具是什么？</title>
+      <link>https://www.reddit.com/r/automation/comments/1vm8d0v/what_are_the_best_ai_marketing_automation_tools/</link>
+      <description><![CDATA[大家好 - 我们是一家区域性企业，拥有大约 50 名员工，但我们的营销团队一直非常精简。我目前负责我们的营销工作，我很好奇大家都推荐哪些很棒的营销工具！我们不介意付费，但正在寻找工具来帮助我们节省时间或完成以前我们的小型营销团队无法完成的事情。 很好奇，为企业推荐的最佳人工智能营销自动化工具是什么？   由   提交 /u/craniacfroaking   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vm8d0v/what_are_the_best_ai_marketing_automation_tools/</guid>
+      <pubDate>Wed, 12 Aug 2026 08:36:27 GMT</pubDate>
     </item>
     <item>
-      <title>我们是否过于关注人工智能模型而对人工智能工程关注不够？</title>
-      <link>https://www.reddit.com/r/automation/comments/1v75z6c/are_we_focusing_too_much_on_ai_models_and_not/</link>
-      <description><![CDATA[我最近读了很多有关人工智能产品的文章，GeekyAnts 的方法让我印象深刻的一点是，他们花更多的时间谈论工程而不是模型。 任何人都可以将 LLM 连接到应用程序并构建演示。更困难的部分似乎是接下来的一切——使其安全、可扩展、可靠，并成为企业真正可以依赖的东西。这就是他们强调 RAG 架构、生产就绪的基础设施、代码质量、测试、可观察性以及将 AI 集成到现有系统等方面，而不是从头开始。 这让我觉得我们已经达到了这样一个阶段：AI 模型本身只是拼图的一小部分。真正的挑战是构建能够在生产中持续运行而又不会变得昂贵或难以维护的系统。 对于那些构建人工智能产品或自动化工作流程的人来说，工程是否已成为最大的瓶颈，或者您认为模型质量仍然是阻碍项目的主要因素吗？   由   提交/u/ibrahim_40  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v75z6c/are_we_focusing_too_much_on_ai_models_and_not/</guid>
-      <pubDate>Sun, 26 Jul 2026 14:50:07 GMT</pubDate>
+      <title>Whatsapp 到 Excel</title>
+      <link>https://www.reddit.com/r/automation/comments/1vm7n3s/whatsapp_to_excel/</link>
+      <description><![CDATA[有没有人找到一种方法将 WhatsApp 聊天中的非结构化报价/报价提取到 Excel 或其他结构化数据库中？这个想法是用它来进行报价比较。  有人使用 Power Query、AI 或其他工具构建过类似的东西吗？如有任何建议，将不胜感激。    由   提交/u/leo3909  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vm7n3s/whatsapp_to_excel/</guid>
+      <pubDate>Wed, 12 Aug 2026 07:52:45 GMT</pubDate>
     </item>
     <item>
-      <title>电报至 WhatsApp</title>
-      <link>https://www.reddit.com/r/automation/comments/1v7048c/telegram_to_whatsapp/</link>
-      <description><![CDATA[我构建了一个自托管消息桥，可以连接 Telegram、WhatsApp 以及最终的其他服务。寻找管理社区或通知的人员来测试其当前状态。  谢谢。    由   提交/u/Round_Temperature4  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v7048c/telegram_to_whatsapp/</guid>
-      <pubDate>Sun, 26 Jul 2026 10:28:00 GMT</pubDate>
+      <title>Moli，一款用于网络自动化的精简版全功能无头浏览器</title>
+      <link>https://www.reddit.com/r/automation/comments/1vm4asq/moli_a_lite_fullfunctionnality_headless_browser/</link>
+      <description><![CDATA[      大家好。我在一家云浏览器初创公司工作。我很高兴说服我的老板让我开源它并将其介绍给您。 最初我们使用 Chrome 来处理我们的工作负载；现在我们使用 Chrome 来处理我们的工作负载。然而，在某些情况下它不够快且不够轻。由于我们没有合适的选择，所以我受雇为轻量级工作负载构建一个新的无头浏览器。 Moli：1/7 内存，4 倍冷启动速度，2/3 CPU 使用率 Moli 是我们构建的浏览器。它已经为我们的一些工作负载提供了一段时间的服务（包括正常的网页浏览和强化学习机器学习）。 我非常确定 Moli 是最好的开源无头浏览器之一： 我们围绕所有开源浏览器的性能和功能进行了基准测试（很快就会开源）。 Moli 在功能和速度方面超越了 Lightpanda、Obscura 甚至 Kitesurf（是的，我们通过公共 CDP 端点对其进行了基准测试）。我们几乎已经实现了所有基本的 WebAPI（例如 WebCrypto、IndexedDB、OPFS）。 我们如何在保留这么多功能的同时保持高性能？ 首先，我们进行了所有可行的内存和 CPU 优化（V8 惰性属性/模板、DOM 节点压缩、jemalloc）。 第二，我们避免执行 V8 异步任务 最后，我们设计了一个特殊的无状态渲染管道： 传统浏览器在 DOM 树的每一层缓存数据 -&gt;黄杨树-&gt;布局树+字体-&gt;像素并通过脏区域保持实时性能。然而，在大多数无头浏览器场景中，我们并不需要特别高的刷新率。因此，我们实现了一个无缓存渲染管道，仅当 AI 代理实际“查看”对象时才触发渲染。网站，节省了大量的CPU和内存资源。 虽然没有GUI，但你甚至可以通过CDP在moli上玩游戏。哈哈 如果您需要一个轻量级浏览器来进行网络爬行/网络自动化，或者想要围绕可靠的无头网络浏览器进行分叉和构建，您可能会发现它很有用。   由   提交/u/ldm0  [链接] [评论] ]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vm4asq/moli_a_lite_fullfunctionnality_headless_browser/</guid>
+      <pubDate>Wed, 12 Aug 2026 04:43:27 GMT</pubDate>
     </item>
     <item>
-      <title>构建了一个本地浏览器自动化工具，好奇人们的想法</title>
-      <link>https://www.reddit.com/r/automation/comments/1v6xk23/built_a_local_browser_automation_tool_curious/</link>
-      <description><![CDATA[我一直在开发一个小型浏览器自动化工具，并采用了与我见过的大多数工具不同的方法。 它不是在服务器上运行所有内容，而是使用用户自己的浏览器会话在用户计算机上本地运行。 主要原因：  现有工具非常昂贵！！ 不向第三方发送浏览器数据 没有远程浏览器 一切都保留在您的计算机上  与基于云的工具相比，您通常更喜欢本地自动化吗？ 您是否因为不想授予其他服务访问权限而避免使用任何自动化工作流程？ 很想听听其他人如何解决此问题。   由   提交/u/Sea_Faithiness198  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/automation/comments/1v6xk23/built_a_local_browser_automation_tool_curious/</guid>
-      <pubDate>Sun, 26 Jul 2026 08:05:32 GMT</pubDate>
+      <title>哪个工作流程自动化平台最容易发展？</title>
+      <link>https://www.reddit.com/r/automation/comments/1vlqp4z/which_workflow_automation_platform_is_easiest_to/</link>
+      <description><![CDATA[我正在努力更好地构建自动化工作流程，但有很多平台需要整理。 Zapier、Make、n8n、Skan-ai 和其他一些公司似乎都是出于不同的原因出现的。我不仅仅是在寻找最容易学习的一个。我想要一些开始时足够简单但在工作流程变得更加复杂后仍然有用的东西。我考虑的主要问题是调试、可靠性以及随着逻辑的增长您可以获得多少控制权。对于从一个平台开始并坚持使用的人来说，哪一个给了您最好的成长空间？   由   提交/u/don-kill-   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/automation/comments/1vlqp4z/which_workflow_automation_platform_is_easiest_to/</guid>
+      <pubDate>Tue, 11 Aug 2026 19:03:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
